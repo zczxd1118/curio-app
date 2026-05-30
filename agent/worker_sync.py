@@ -81,7 +81,11 @@ def _http(method: str, path: str, body: Optional[dict] = None,
           admin: bool = False, timeout: int = 20) -> tuple[int, dict]:
     url = _api_base() + path
     data = None
-    headers = {"Content-Type": "application/json"}
+    headers = {
+        "Content-Type": "application/json",
+        # Cloudflare 的 Bot Fight Mode 会拦 Python urllib 默认 UA，伪装成 curl
+        "User-Agent": "curio-bot/1.0 (+https://github.com/zczxd1118/curio-app)",
+    }
     if admin:
         headers["Authorization"] = "Bearer " + _admin_token()
     if body is not None:
