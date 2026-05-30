@@ -258,6 +258,35 @@ html[data-theme="light"] .domain-card .badge {
 .modal .icon-pick { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; cursor: pointer; font-size: 18px; transition: all 0.15s; }
 .modal .icon-pick:hover { border-color: var(--text-soft); }
 .modal .icon-pick.active { border-color: var(--accent); background: var(--bg-elev); transform: scale(1.05); }
+
+/* 领域类型选择器（替代 emoji 图标） */
+.modal .type-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px; margin-top: 6px; max-height: 220px; overflow-y: auto;
+}
+.modal .type-pick {
+  display: flex; align-items: center; gap: 8px;
+  padding: 10px 12px; background: var(--bg-elev);
+  border: 1px solid var(--line); border-radius: 8px;
+  cursor: pointer; transition: all 0.15s;
+  font-family: var(--sans); font-size: 13px; color: var(--text-soft);
+}
+.modal .type-pick:hover { border-color: var(--accent-soft); color: var(--text); }
+.modal .type-pick.active {
+  border-color: var(--accent); color: var(--accent);
+  background: rgba(212,175,55,0.08);
+}
+.modal .type-pick .ico {
+  width: 18px; height: 18px;
+  display: inline-flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.modal .type-pick .ico svg {
+  width: 16px; height: 16px;
+  stroke: currentColor; fill: none; stroke-width: 1.7;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+.modal .type-pick .lbl { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .modal-actions { display: flex; gap: 12px; justify-content: flex-end; margin-top: 24px; }
 .btn-secondary { font-family: var(--sans); font-size: 14px; padding: 10px 20px; border-radius: 6px; cursor: pointer; background: transparent; color: var(--text-soft); border: 1px solid var(--line); }
 .btn-secondary:hover { background: var(--bg-elev); color: var(--text); }
@@ -483,6 +512,21 @@ function isServerMode() {
 // ===== 添加领域弹窗 =====
 const ICONS = ['🤖','🏦','🔬','📈','🧬','⚛️','🎮','📚','🎨','🚀','🌍','💊','🏛️','🎬','⚖️','🔋'];
 
+// 领域类型 → SVG icon（与后端 _SVG_ICONS 一致）
+const DOMAIN_TYPES = [
+  {key: 'ai',           label: 'AI / 科技',     svg: '<svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="2" x2="9" y2="4"/><line x1="15" y1="2" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="22"/><line x1="15" y1="20" x2="15" y2="22"/><line x1="20" y1="9" x2="22" y2="9"/><line x1="20" y1="15" x2="22" y2="15"/><line x1="2" y1="9" x2="4" y2="9"/><line x1="2" y1="15" x2="4" y2="15"/></svg>'},
+  {key: 'finance',      label: '金融 / 投资',   svg: '<svg viewBox="0 0 24 24"><polyline points="3 17 9 11 13 15 21 7"/><polyline points="14 7 21 7 21 14"/></svg>'},
+  {key: 'semiconductor',label: '半导体 / 芯片', svg: '<svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>'},
+  {key: 'bigtech',      label: '大厂 / 公司',   svg: '<svg viewBox="0 0 24 24"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v8h4"/><path d="M18 9h2a2 2 0 0 1 2 2v11h-4"/><line x1="10" y1="6" x2="14" y2="6"/><line x1="10" y1="10" x2="14" y2="10"/><line x1="10" y1="14" x2="14" y2="14"/></svg>'},
+  {key: 'biotech',      label: '生物 / 医疗',   svg: '<svg viewBox="0 0 24 24"><path d="M9 2v6"/><path d="M15 2v6"/><path d="M3 8h18"/><path d="M5 8v8a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V8"/><circle cx="9" cy="14" r="1"/><circle cx="15" cy="16" r="1"/><circle cx="12" cy="11" r="1"/></svg>'},
+  {key: 'quantum',      label: '量子 / 物理',   svg: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><ellipse cx="12" cy="12" rx="10" ry="4"/><ellipse cx="12" cy="12" rx="4" ry="10"/></svg>'},
+  {key: 'blockchain',   label: '区块链 / 加密', svg: '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>'},
+  {key: 'ev',           label: '电动 / 汽车',   svg: '<svg viewBox="0 0 24 24"><path d="M14 16H9m10 0h3v-3.15a1 1 0 0 0-.84-.99L16 11l-2.7-3.6a1 1 0 0 0-.8-.4H5.24a2 2 0 0 0-1.8 1.1l-.8 1.63A6 6 0 0 0 2 12.42V16h2"/><circle cx="6.5" cy="16.5" r="2.5"/><circle cx="16.5" cy="16.5" r="2.5"/></svg>'},
+  {key: 'game',         label: '游戏 / 娱乐',   svg: '<svg viewBox="0 0 24 24"><line x1="6" y1="11" x2="10" y2="11"/><line x1="8" y1="9" x2="8" y2="13"/><line x1="15" y1="12" x2="15.01" y2="12"/><line x1="18" y1="10" x2="18.01" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258"/></svg>'},
+  {key: 'music',        label: '音乐 / 文娱',   svg: '<svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>'},
+  {key: 'default',      label: '其他',          svg: '<svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h7"/></svg>'},
+];
+
 function openAddDomainModal() {
   // 静态模式：跳到 GitHub Issue（让用户提交"想加什么领域"，Agent 下次跑前 ingest）
   if (!isServerMode()) {
@@ -583,16 +627,16 @@ function openAddDomainViaIssue() {
     modal.className = 'modal-overlay add-issue';
     modal.innerHTML = `
       <div class="modal">
-        <h3>📨 申请新增领域</h3>
-        <p>填好后会跳到 GitHub 提交一条 Issue，Agent 下次跑生成前会自动读取并加入新领域。</p>
+        <h3>申请新增领域</h3>
+        <p>填好后会跳到 GitHub 提交一条 Issue，Agent 下次跑前会自动读取并加入新领域。</p>
         <div class="form-row">
           <label>领域名（中文）</label>
           <input type="text" id="ai-name" placeholder="例：生物科技 / 量子计算 / 摄影" autofocus>
         </div>
         <div class="form-row">
-          <label>图标</label>
-          <div class="icon-row" id="ai-icons">
-            ${ICONS.map((i, idx) => `<div class="icon-pick ${idx===0?'active':''}" data-icon="${i}">${i}</div>`).join('')}
+          <label>领域类型</label>
+          <div class="type-grid" id="ai-types">
+            ${DOMAIN_TYPES.map((t, idx) => `<div class="type-pick ${idx===0?'active':''}" data-key="${t.key}" title="${t.label}"><span class="ico">${t.svg}</span><span class="lbl">${t.label}</span></div>`).join('')}
           </div>
         </div>
         <div class="form-row">
@@ -614,9 +658,9 @@ function openAddDomainViaIssue() {
       </div>
     `;
     document.body.appendChild(modal);
-    $$('#ai-icons .icon-pick', modal).forEach(p => {
+    $$('#ai-types .type-pick', modal).forEach(p => {
       p.addEventListener('click', () => {
-        $$('#ai-icons .icon-pick', modal).forEach(x => x.classList.remove('active'));
+        $$('#ai-types .type-pick', modal).forEach(x => x.classList.remove('active'));
         p.classList.add('active');
       });
     });
@@ -625,7 +669,7 @@ function openAddDomainViaIssue() {
     $('#ai-go', modal).addEventListener('click', () => {
       const name = $('#ai-name', modal).value.trim();
       if (!name) { toast('请填领域名', true); return; }
-      const icon = $('#ai-icons .icon-pick.active', modal)?.dataset.icon || '📰';
+      const typeKey = $('#ai-types .type-pick.active', modal)?.dataset.key || 'default';
       const freq = $('#ai-freq', modal).value;
       const kw = $('#ai-keywords', modal).value.trim();
       const lines = [
@@ -633,7 +677,7 @@ function openAddDomainViaIssue() {
         '```yaml',
         'type: add-domain',
         'name: ' + JSON.stringify(name),
-        'icon: ' + icon,
+        'icon_type: ' + typeKey,
         'frequency: ' + freq,
       ];
       if (kw) {
@@ -1346,8 +1390,11 @@ _EMOJI_TO_ICON = {
 }
 
 
-def _domain_svg(icon_or_id: str, domain_name: str = "") -> str:
-    """根据领域 icon (emoji) 或 id 返回 SVG 图标 HTML"""
+def _domain_svg(icon_or_id: str, domain_name: str = "", icon_type: str = "") -> str:
+    """根据领域 icon (emoji)、icon_type (svg key) 或 id 返回 SVG 图标 HTML"""
+    # 最优先：明确指定的 icon_type
+    if icon_type and icon_type in _SVG_ICONS:
+        return _SVG_ICONS[icon_type]
     if not icon_or_id:
         icon_or_id = ""
     # 优先用 emoji 映射
@@ -1617,8 +1664,8 @@ def render_home(domains: list[dict], latest_issues: list[dict], top_n_cross: lis
         latest_str = d.get("latest_date") or "—"
         # 一键生成按钮：当领域有期数时显示"再跑一次"，没期数时显示"一键生成"
         gen_label = "再跑一次" if d["issue_count"] > 0 else "一键生成"
-        icon_svg = _domain_svg(d.get("icon", ""), d.get("name", ""))
-    cards.append(f'''
+        icon_svg = _domain_svg(d.get("icon", ""), d.get("name", ""), d.get("icon_type", ""))
+        cards.append(f'''
 <a class="domain-card" href="d/{d['id']}/index.html">
   <button class="del-btn" data-domain-id="{d['id']}" data-domain-name="{d['name']}" title="删除">×</button>
   <div class="badge">{icon_svg}</div>
@@ -1840,6 +1887,7 @@ def build_site():
 
         domains_meta.append({
             "id": did, "name": domain_name, "icon": domain_icon,
+            "icon_type": dcfg.get("icon_type", ""),
             "issue_count": len(issues), "latest_date": issues[0]["date"] if issues else None,
         })
 

@@ -422,6 +422,8 @@ def ingest_add_domain_issues() -> int:
             fail += 1
             continue
         icon = data.get("icon") or "📰"
+        # 新版前端用 icon_type（svg key），保留 icon 兼容旧版
+        icon_type = data.get("icon_type") or ""
         freq = data.get("frequency") or "weekly"
         # 生成 slug：英文直接用，中文优先映射到英文关键词
         import re
@@ -452,12 +454,15 @@ def ingest_add_domain_issues() -> int:
             _log(f"  #{num}: 默认信源生成失败 ({e})，topics 留空")
             topics = {}
 
-        domains_cfg[slug] = {
+        domain_entry = {
             "name": name,
             "icon": icon,
             "frequency": freq,
             "topics": topics,
         }
+        if icon_type:
+            domain_entry["icon_type"] = icon_type  # 优先用 icon_type，render_site 渲染时识别
+        domains_cfg[slug] = domain_entry
         ok += 1
         src_count = sum(len(t.get("sources") or []) for t in topics.values()) if isinstance(topics, dict) else 0
 

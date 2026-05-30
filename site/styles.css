@@ -225,6 +225,35 @@ html[data-theme="light"] .domain-card .badge {
 .modal .icon-pick { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; cursor: pointer; font-size: 18px; transition: all 0.15s; }
 .modal .icon-pick:hover { border-color: var(--text-soft); }
 .modal .icon-pick.active { border-color: var(--accent); background: var(--bg-elev); transform: scale(1.05); }
+
+/* 领域类型选择器（替代 emoji 图标） */
+.modal .type-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px; margin-top: 6px; max-height: 220px; overflow-y: auto;
+}
+.modal .type-pick {
+  display: flex; align-items: center; gap: 8px;
+  padding: 10px 12px; background: var(--bg-elev);
+  border: 1px solid var(--line); border-radius: 8px;
+  cursor: pointer; transition: all 0.15s;
+  font-family: var(--sans); font-size: 13px; color: var(--text-soft);
+}
+.modal .type-pick:hover { border-color: var(--accent-soft); color: var(--text); }
+.modal .type-pick.active {
+  border-color: var(--accent); color: var(--accent);
+  background: rgba(212,175,55,0.08);
+}
+.modal .type-pick .ico {
+  width: 18px; height: 18px;
+  display: inline-flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.modal .type-pick .ico svg {
+  width: 16px; height: 16px;
+  stroke: currentColor; fill: none; stroke-width: 1.7;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+.modal .type-pick .lbl { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .modal-actions { display: flex; gap: 12px; justify-content: flex-end; margin-top: 24px; }
 .btn-secondary { font-family: var(--sans); font-size: 14px; padding: 10px 20px; border-radius: 6px; cursor: pointer; background: transparent; color: var(--text-soft); border: 1px solid var(--line); }
 .btn-secondary:hover { background: var(--bg-elev); color: var(--text); }
