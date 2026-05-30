@@ -368,6 +368,54 @@ def cmd_legacy(args):
         publish()
 
 
+def cmd_process_pending(args):
+    """处理用户通过 [curio-generate] Issue 提交的生成请求
+
+    流程：
+    1. 调 worker_sync ingest_generate → 拉 Issue 写 .pending_generate.json
+    2. 读 pending → 对每个领域跑 prepare（仅那个 domain）
+    3. 退出 → 让 automation 后续阶段（Claude 写 scored）继续接力
+       或：用户后续手动跑 finalize 完成
+    """
+    log("⚡ Curio process_pending — 处理用户的生成请求")
+
+    # 1. ingest 最新 Issue
+    log("📥 ingest [curio-generate] issues")
+    run([PY, "-m", "agent.worker_sync", "ingest_generate"], check=False)
+
+    pending_file = ROOT / ".pending_generate.json"
+    if not pending_file.exists():
+        log("（无 pending）")
+        return
+
+    try:
+        data = json.loads(pending_file.read_text(encoding="utf-8"))
+    except Exception as e:
+        log(f"❌ 读 pending 失败: {e}")
+        return
+
+    pending = data.get("pending") or []
+    if not pending:
+        log("（pending 列表空）")
+        return
+
+    log(f"   {len(pending)} 个待生成领域：{[p.get('domain_id') for p in pending]}")
+
+    # 2. 对每个 domain 跑 prepare
+    domain_ids = [p["domain_id"] for p in pending]
+    cmd = [PY, str(ROOT / "cli_generate.py"), "prepare", "--domains"] + domain_ids
+    log(f"   $ {' '.join(cmd)}")
+    run(cmd, check=False)
+
+    log("")
+    log("✅ process_pending 完成 prepare 阶段")
+    log("   下一步：让 Claude（或 automation）处理 _run_plan.json 里的 score-prompt")
+    log("   再跑：cli_generate.py prepare_notes  → finalize")
+    log("   完成后请记得调 worker_sync 关掉 Issue：")
+    for p in pending:
+        log(f"     python -m agent.worker_sync close_issue --num {p['issue']} --success")
+
+
 # ============================================================
 # 入口
 # ============================================================
@@ -390,6 +438,9 @@ def main():
     p_fin.add_argument("--cadence", choices=["daily", "weekly"], default=None,
                        help="本次 broadcast 推送给哪个 cadence 的订阅者（默认 weekly）")
     p_fin.set_defaults(func=cmd_finalize)
+
+    p_proc = sub.add_parser("process_pending", help="处理用户通过 [curio-generate] Issue 提交的请求")
+    p_proc.set_defaults(func=cmd_process_pending)
 
     p_leg = sub.add_parser("legacy", help="老逻辑：占位算法直跑+push")
     p_leg.add_argument("--no-push", action="store_true")

@@ -225,6 +225,72 @@ function openAddDomainViaIssue() {
   setTimeout(() => $('#ai-name', modal)?.focus(), 50);
 }
 
+// 静态模式：通过 GitHub Issue 触发立刻生成
+function openGenerateViaIssue(domainId, domainName) {
+  // 简单 cooldown 检查（localStorage，软限）
+  const key = 'curio:gen:' + domainId;
+  const last = parseInt(localStorage.getItem(key) || '0', 10);
+  const now = Date.now();
+  const cooldownMs = 6 * 60 * 60 * 1000; // 6 小时
+  if (now - last < cooldownMs) {
+    const remain = Math.ceil((cooldownMs - (now - last)) / 1000 / 60);
+    if (!confirm(`你刚才已经触发过「${domainName}」的生成，建议等 ${remain} 分钟再试。\n\n仍要继续吗？`)) return;
+  }
+
+  let modal = $('.modal-overlay.gen-issue');
+  if (modal) modal.remove();
+  modal = document.createElement('div');
+  modal.className = 'modal-overlay gen-issue';
+  modal.innerHTML = `
+    <div class="modal" style="max-width:480px">
+      <h3>⚡ 立刻生成「${domainName}」</h3>
+      <p>这会在 GitHub 上提交一条触发 Issue，Curio Agent 看到后会立刻为你重跑这个领域的生成（抓取 → 打分 → 写报纸 → 邮件通知）。整个过程约 5-10 分钟。</p>
+      <div class="form-row">
+        <label>邮箱（可选，跑完了通知你）</label>
+        <input type="email" id="gen-email" placeholder="you@example.com" autocomplete="email">
+      </div>
+      <div class="form-row">
+        <label>留言（可选，告诉 Agent 你想看什么）</label>
+        <textarea id="gen-note" placeholder="例：本期想多看一些 AI 硬件的"
+          style="width:100%;min-height:60px;background:var(--bg-elev);border:1px solid var(--line);color:var(--text);padding:8px;border-radius:4px;font-family:var(--sans);font-size:13px"></textarea>
+      </div>
+      <p style="font-size:12px;color:var(--text-mute)">注：Agent 跑生成有冷却限制（同一领域 6 小时内一次），高峰期会排队。</p>
+      <div class="modal-actions">
+        <button class="btn-secondary" id="gen-cancel">取消</button>
+        <button class="btn-primary" id="gen-go">提交并跳转 GitHub</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+  $('#gen-cancel', modal).addEventListener('click', () => modal.classList.remove('show'));
+  modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('show'); });
+  $('#gen-go', modal).addEventListener('click', () => {
+    const email = $('#gen-email', modal).value.trim();
+    const note = $('#gen-note', modal).value.trim();
+    const lines = [
+      '<!-- Curio 生成请求 · 自动生成 -->',
+      '```yaml',
+      'type: generate',
+      'domain_id: ' + domainId,
+      'domain_name: ' + JSON.stringify(domainName),
+      'requested_at: ' + new Date().toISOString(),
+    ];
+    if (email) lines.push('notify_email: ' + JSON.stringify(email));
+    if (note) lines.push('note: ' + JSON.stringify(note));
+    lines.push('```');
+    lines.push('');
+    lines.push('Agent 看到后会立刻重跑这个领域。完成后会评论本 Issue 并关闭。');
+    const title = encodeURIComponent('[curio-generate] ' + domainName);
+    const body = encodeURIComponent(lines.join('\n'));
+    const url = 'https://github.com/' + GH_REPO + '/issues/new?labels=curio-generate&title=' + title + '&body=' + body;
+    window.open(url, '_blank');
+    localStorage.setItem(key, String(now));
+    modal.classList.remove('show');
+    toast('✅ 已打开 GitHub 提交页，Agent 会在下次触发时拉到');
+  });
+  modal.classList.add('show');
+}
+
 // 订阅 modal：邮箱 + 选域 + 选日报/周刊
 async function openSubscribeModal() {
   let modal = $('.modal-overlay.subscribe');
@@ -392,8 +458,9 @@ function ensureProgressBar() {
 }
 
 async function generateIssue(domainId, domainName) {
+  // 静态模式：跳 GitHub Issue 让 automation 拉到立刻生成
   if (!isServerMode()) {
-    alert('需要先启动后端：python server.py');
+    openGenerateViaIssue(domainId, domainName);
     return;
   }
   const btn = document.querySelector(`.gen-btn[data-domain-id="${domainId}"]`);
@@ -768,9 +835,14 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// 静态模式：隐藏 server-only 按钮（保留加领域，因为它现在跳 GitHub Issue）
+// 静态模式：删除按钮隐藏，⚡生成按钮改跳 GitHub Issue（加领域同理）
 function applyStaticMode() {
-  $$('.gen-btn, .del-btn').forEach(b => b.style.display = 'none');
+  $$('.del-btn').forEach(b => b.style.display = 'none');
+  $$('.gen-btn').forEach(b => {
+    b.dataset.staticMode = '1';
+    b.textContent = '⚡ 立刻生成';
+    b.title = '点击通过 GitHub Issue 触发立刻生成（用户公开自助）';
+  });
   const addBtn = $('.add-domain');
   if (addBtn) {
     addBtn.title = '点击通过 GitHub Issue 申请新增领域';

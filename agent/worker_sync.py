@@ -327,6 +327,72 @@ def ingest_subscribe_issues() -> int:
     return 0
 
 
+def ingest_generate_issues() -> int:
+    """处理 [curio-generate] Issue：把请求列表写到 .pending_generate.json，
+    实际跑生成由 cli_generate 决定（防止 ingest 阶段就阻塞太久）。
+    """
+    try:
+        issues = _list_open_issues("curio-generate")
+    except Exception as e:
+        _log(f"❌ 拉取 Issue 失败：{e}")
+        return 1
+    if not issues:
+        _log("（没有待处理的生成 Issue）")
+        # 清空 pending 文件
+        out = ROOT / ".pending_generate.json"
+        if out.exists():
+            out.write_text(json.dumps({"updated_at": time.strftime("%Y-%m-%d %H:%M"), "pending": []},
+                                      ensure_ascii=False, indent=2), encoding="utf-8")
+        return 0
+
+    # 同一领域去重
+    seen_domain = set()
+    pending = []
+    for issue in issues:
+        num = issue["number"]
+        body = issue.get("body") or ""
+        data = _parse_yaml_block(body)
+        domain_id = (data.get("domain_id") or "").strip()
+        if not domain_id:
+            _log(f"  #{num}: 缺 domain_id，跳过")
+            continue
+        if domain_id in seen_domain:
+            _log(f"  #{num}: 同一领域已排队，合并")
+            try:
+                _close_issue(num, comment="已合并到先前的同领域请求中。",
+                             label_add="curio-ingested")
+            except Exception:
+                pass
+            continue
+        seen_domain.add(domain_id)
+        pending.append({
+            "issue": num,
+            "domain_id": domain_id,
+            "domain_name": data.get("domain_name") or domain_id,
+            "notify_email": data.get("notify_email"),
+            "note": data.get("note"),
+        })
+        _log(f"  📥 #{num}: 排队 {domain_id}")
+
+    out = ROOT / ".pending_generate.json"
+    out.write_text(json.dumps({"updated_at": time.strftime("%Y-%m-%d %H:%M"),
+                                "pending": pending}, ensure_ascii=False, indent=2),
+                   encoding="utf-8")
+    _log(f"\n📝 写入 {out}")
+    _log(f"📊 ingest_generate 完成：{len(pending)} 个待处理领域")
+    return 0
+
+
+def close_generate_issue(issue_num: int, success: bool = True, message: str = ""):
+    """生成跑完后调用，关闭对应 Issue"""
+    try:
+        comment = ("✅ 已生成，访问 https://zczxd1118.github.io/curio-site/ 查看。" if success
+                   else f"❌ 生成失败：{message}")
+        _close_issue(issue_num, comment=comment, label_add="curio-ingested")
+    except Exception as e:
+        _log(f"close issue {issue_num} 失败: {e}")
+
+
 def ingest_add_domain_issues() -> int:
     """处理 [curio-add-domain] Issue：加入 sources.yaml"""
     try:
@@ -433,6 +499,7 @@ def main():
     bcast.add_argument("--dry-run", action="store_true")
     sub.add_parser("ingest_subscribe", help="拉 GitHub [curio-subscribe] Issue 兜底")
     sub.add_parser("ingest_add_domain", help="拉 GitHub [curio-add-domain] Issue 加入 sources.yaml")
+    sub.add_parser("ingest_generate", help="拉 GitHub [curio-generate] Issue 写到 .pending_generate.json")
 
     args = p.parse_args()
 
@@ -446,6 +513,8 @@ def main():
         sys.exit(ingest_subscribe_issues())
     if args.cmd == "ingest_add_domain":
         sys.exit(ingest_add_domain_issues())
+    if args.cmd == "ingest_generate":
+        sys.exit(ingest_generate_issues())
 
 
 if __name__ == "__main__":
