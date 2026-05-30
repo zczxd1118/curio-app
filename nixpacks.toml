@@ -1,0 +1,12 @@
+# Railway / nixpacks 自动构建配置
+[phases.setup]
+nixPkgs = ["python311", "gcc"]
+
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
+
+[phases.build]
+cmds = ["python agent/render_site.py"]
+
+[start]
+cmd = "gunicorn server:app --workers 1 --threads 4 --timeout 300 --bind 0.0.0.0:$PORT"
