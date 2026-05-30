@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>半导体 · Curio</title>
-<link rel="stylesheet" href="../../styles.css?v=20260531001133">
+<link rel="stylesheet" href="../../styles.css?v=20260531002410">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,8 +13,21 @@
   <div class="nav-inner">
     <a class="brand" href="../../index.html">Curio<span class="dot">.</span></a>
     <div class="nav-links"><a href="../../index.html">首页</a><a href="../../d/ai/index.html">🤖 AI</a><a href="../../d/finance/index.html">🏦 金融</a><a href="../../d/semiconductor/index.html" class="active">🔬 半导体</a></div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" class="search-input" id="curio-search" placeholder="搜索 ⌘K" autocomplete="off">
+      <div class="search-results" id="curio-search-results"></div>
+    </div>
+    <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
+      <span class="icon-moon">🌙</span><span class="icon-sun">☀️</span>
+    </button>
   </div>
 </nav>
+
+<aside class="toc" id="curio-toc">
+  <div class="toc-title">本期目录</div>
+  <div id="curio-toc-list"></div>
+</aside>
 
 <main>
 
@@ -28,9 +41,10 @@
 </main>
 
 <footer>
-  Curio v0.8 · 2026-05-31 · 由你和 AI 共同策展
+  Curio v0.9 · 2026-05-31 · 由你和 AI 共同策展
 </footer>
 
-<script src="../../app.js?v=20260531001133"></script>
+<script>window.CURIO_REL_ROOT = "../../";</script>
+<script src="../../app.js?v=20260531002410"></script>
 </body>
 </html>

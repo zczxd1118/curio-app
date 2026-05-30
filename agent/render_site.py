@@ -32,6 +32,7 @@ SOURCES = ROOT / "sources.yaml"
 # ============================================================================
 CSS = r"""
 :root {
+  /* 默认深色（报纸夜读模式） */
   --bg: #0a0a0b;
   --bg-soft: #111114;
   --bg-elev: #17171b;
@@ -47,7 +48,23 @@ CSS = r"""
   --serif: 'Source Serif Pro', 'Noto Serif SC', Georgia, 'Songti SC', serif;
   --sans:  'Inter', 'PingFang SC', system-ui, sans-serif;
   --mono:  'JetBrains Mono', 'SF Mono', Menlo, monospace;
+  --shadow: 0 4px 24px rgba(0,0,0,0.45);
 }
+html[data-theme="light"] {
+  --bg: #fbfbfa;
+  --bg-soft: #f4f3ee;
+  --bg-elev: #ebe9e2;
+  --line: #d8d6cf;
+  --text: #1a1a1c;
+  --text-soft: #4a4a52;
+  --text-mute: #888893;
+  --accent: #b8941f;
+  --accent-soft: #9a7a16;
+  --link: #3b5bdb;
+  --shadow: 0 4px 16px rgba(60,60,70,0.08);
+}
+html { transition: color 0.3s ease, background 0.3s ease; }
+html[data-theme="light"] .nav { background: rgba(251,251,250,0.92) !important; }
 * { box-sizing: border-box; }
 html, body { background: var(--bg); color: var(--text); margin: 0; padding: 0; }
 body {
@@ -245,6 +262,80 @@ footer { text-align: center; padding: 32px; font-family: var(--sans); font-size:
 .gen-status .domain-label { color: var(--accent); font-weight: 500; }
 .gen-status .step-msg { color: var(--text-soft); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .gen-status .pct { color: var(--text-mute); font-family: var(--mono); }
+
+/* ============== B 阶段 增强：主题切换 / 搜索 / 目录 ============== */
+
+/* 主题切换按钮 */
+.theme-toggle {
+  background: transparent; border: 1px solid var(--line); color: var(--text-soft);
+  width: 32px; height: 32px; border-radius: 6px; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 14px; transition: all 0.15s; padding: 0;
+}
+.theme-toggle:hover { color: var(--text); background: var(--bg-elev); border-color: var(--accent-soft); }
+.theme-toggle .icon-sun { display: none; }
+html[data-theme="light"] .theme-toggle .icon-sun { display: inline; }
+html[data-theme="light"] .theme-toggle .icon-moon { display: none; }
+
+/* 搜索框 */
+.search-wrap { position: relative; }
+.search-input {
+  background: var(--bg-elev); border: 1px solid var(--line); color: var(--text);
+  font-family: var(--sans); font-size: 13px;
+  padding: 6px 10px 6px 28px; border-radius: 6px; width: 180px;
+  transition: all 0.15s;
+}
+.search-input::placeholder { color: var(--text-mute); }
+.search-input:focus { outline: none; border-color: var(--accent-soft); width: 240px; background: var(--bg-soft); }
+.search-icon {
+  position: absolute; left: 8px; top: 50%; transform: translateY(-50%);
+  color: var(--text-mute); pointer-events: none; font-size: 12px;
+}
+.search-results {
+  position: absolute; top: calc(100% + 8px); right: 0; min-width: 360px; max-width: 440px;
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px;
+  box-shadow: var(--shadow); padding: 8px; max-height: 480px; overflow-y: auto;
+  display: none; z-index: 100;
+}
+.search-results.show { display: block; }
+.search-result-item {
+  display: block; padding: 10px 12px; border-radius: 6px;
+  color: var(--text); text-decoration: none; cursor: pointer;
+  border-bottom: 1px solid var(--line);
+}
+.search-result-item:last-child { border-bottom: none; }
+.search-result-item:hover { background: var(--bg-elev); }
+.search-result-item .sr-title { font-weight: 600; font-size: 14px; line-height: 1.4; margin-bottom: 4px; }
+.search-result-item .sr-meta { font-family: var(--sans); font-size: 11px; color: var(--text-mute); display: flex; gap: 10px; }
+.search-result-item .sr-meta .domain-tag { color: var(--accent); }
+.search-results .empty { padding: 20px; text-align: center; color: var(--text-mute); font-family: var(--sans); font-size: 13px; }
+.search-results mark { background: var(--accent-soft); color: var(--bg); padding: 0 2px; border-radius: 2px; }
+
+/* 文章页右侧 TOC */
+.toc {
+  position: fixed; top: 80px; right: 24px; width: 200px;
+  font-family: var(--sans); font-size: 12px;
+  max-height: calc(100vh - 120px); overflow-y: auto;
+  display: none;   /* 仅大屏显示 */
+  z-index: 10;
+  padding-left: 12px; border-left: 1px solid var(--line);
+}
+@media (min-width: 1240px) { .toc.has-items { display: block; } }
+.toc-title { color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.1em; font-size: 10px; margin-bottom: 8px; font-weight: 600; }
+.toc a {
+  display: block; padding: 4px 8px; color: var(--text-soft);
+  text-decoration: none; line-height: 1.4; border-left: 2px solid transparent;
+  margin-left: -10px; padding-left: 8px;
+  transition: all 0.15s;
+}
+.toc a:hover { color: var(--text); }
+.toc a.active { color: var(--accent); border-left-color: var(--accent); }
+.toc a.lvl-3 { padding-left: 20px; font-size: 11px; }
+
+@media (max-width: 720px) {
+  .search-input, .search-input:focus { width: 120px; }
+  .search-results { min-width: 280px; right: -60px; }
+}
 """
 
 
@@ -597,8 +688,157 @@ function initFeedback() {
   });
 }
 
+// ===== B 阶段 增强：主题切换 / 搜索 / 目录 =====
+
+// 主题切换（深/浅色），localStorage 持久化
+function initTheme() {
+  const saved = localStorage.getItem('curio-theme');
+  const sysLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+  const theme = saved || (sysLight ? 'light' : 'dark');
+  document.documentElement.setAttribute('data-theme', theme);
+  const btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    const cur = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+    const next = cur === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('curio-theme', next);
+  });
+}
+
+// 文章页右侧目录（TOC）
+function initTOC() {
+  const tocEl = document.getElementById('curio-toc');
+  const listEl = document.getElementById('curio-toc-list');
+  if (!tocEl || !listEl) return;
+  const main = document.querySelector('main');
+  if (!main) return;
+  const heads = $$('h2, h3', main).filter(h => h.closest('.feedback') === null);
+  if (heads.length < 2) return;   // 太少不展示
+  let html = '';
+  heads.forEach((h, i) => {
+    if (!h.id) h.id = 'toc-' + i;
+    const text = (h.textContent || '').trim();
+    const lvl = h.tagName === 'H3' ? 'lvl-3' : 'lvl-2';
+    html += `<a href="#${h.id}" class="${lvl}" data-toc-target="${h.id}">${text}</a>`;
+  });
+  listEl.innerHTML = html;
+  tocEl.classList.add('has-items');
+
+  // 滚动同步高亮
+  const tocLinks = $$('a', listEl);
+  const onScroll = () => {
+    let active = null;
+    for (const h of heads) {
+      if (h.getBoundingClientRect().top < 120) active = h.id;
+      else break;
+    }
+    tocLinks.forEach(a => a.classList.toggle('active', a.dataset.tocTarget === active));
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+}
+
+// 客户端搜索：把所有期刊 must_read 标题做成索引
+let __SEARCH_INDEX = null;
+async function loadSearchIndex() {
+  if (__SEARCH_INDEX) return __SEARCH_INDEX;
+  try {
+    const root = window.CURIO_REL_ROOT || '';
+    const r = await fetch(root + 'search-index.json');
+    if (!r.ok) throw new Error();
+    __SEARCH_INDEX = await r.json();
+  } catch (e) {
+    __SEARCH_INDEX = [];
+  }
+  return __SEARCH_INDEX;
+}
+
+function highlight(text, q) {
+  if (!q) return text;
+  const re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig');
+  return text.replace(re, '<mark>$1</mark>');
+}
+
+function searchItems(q, items) {
+  if (!q) return [];
+  const ql = q.toLowerCase();
+  const scored = [];
+  for (const it of items) {
+    const hay = (it.title + ' ' + (it.why || '') + ' ' + (it.domain || '')).toLowerCase();
+    const idx = hay.indexOf(ql);
+    if (idx >= 0) scored.push({ ...it, _score: -idx });
+  }
+  scored.sort((a, b) => b._score - a._score);
+  return scored.slice(0, 12);
+}
+
+function initSearch() {
+  const input = document.getElementById('curio-search');
+  const box = document.getElementById('curio-search-results');
+  if (!input || !box) return;
+
+  const root = window.CURIO_REL_ROOT || '';
+  let timer = null;
+
+  const render = (results, q) => {
+    if (!results.length) {
+      box.innerHTML = '<div class="empty">没找到 "' + q + '" 相关内容</div>';
+      box.classList.add('show');
+      return;
+    }
+    box.innerHTML = results.map(r => {
+      const url = r.url || (r.issue_path ? root + r.issue_path : '#');
+      const title = highlight(r.title, q);
+      const why = r.why ? highlight(r.why.slice(0, 80), q) : '';
+      const domain = r.domain ? `<span class="domain-tag">${r.domain_icon || ''} ${r.domain}</span>` : '';
+      const platform = r.platform ? `<span>${r.platform}</span>` : '';
+      return `<a class="search-result-item" href="${url}"${r.url ? ' target="_blank" rel="noopener"' : ''}>
+        <div class="sr-title">${title}</div>
+        <div class="sr-meta">${domain}${platform}${why ? '<span>' + why + '</span>' : ''}</div>
+      </a>`;
+    }).join('');
+    box.classList.add('show');
+  };
+
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    const q = input.value.trim();
+    if (!q) { box.classList.remove('show'); return; }
+    timer = setTimeout(async () => {
+      const idx = await loadSearchIndex();
+      render(searchItems(q, idx), q);
+    }, 120);
+  });
+
+  input.addEventListener('focus', () => {
+    if (input.value.trim()) box.classList.add('show');
+  });
+
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.search-wrap')) box.classList.remove('show');
+  });
+
+  // ⌘K / Ctrl+K 聚焦
+  document.addEventListener('keydown', e => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      input.focus();
+      input.select();
+    } else if (e.key === 'Escape') {
+      box.classList.remove('show');
+      input.blur();
+    }
+  });
+}
+
 // ===== 启动 =====
 document.addEventListener('DOMContentLoaded', () => {
+  // B 阶段：主题/搜索/目录
+  initTheme();
+  initTOC();
+  initSearch();
+
   // 添加领域按钮
   const addBtn = $('.add-domain');
   if (addBtn) addBtn.addEventListener('click', openAddDomainModal);
@@ -916,17 +1156,31 @@ def _page_template(page_title: str, nav_active: str, depth: int, body: str) -> s
   <div class="nav-inner">
     <a class="brand" href="{brand_href}">Curio<span class="dot">.</span></a>
     <div class="nav-links">{nav_html}</div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" class="search-input" id="curio-search" placeholder="搜索 ⌘K" autocomplete="off">
+      <div class="search-results" id="curio-search-results"></div>
+    </div>
+    <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
+      <span class="icon-moon">🌙</span><span class="icon-sun">☀️</span>
+    </button>
   </div>
 </nav>
+
+<aside class="toc" id="curio-toc">
+  <div class="toc-title">本期目录</div>
+  <div id="curio-toc-list"></div>
+</aside>
 
 <main>
 {body}
 </main>
 
 <footer>
-  Curio v0.8 · {datetime.now().strftime('%Y-%m-%d')} · 由你和 AI 共同策展
+  Curio v0.9 · {datetime.now().strftime('%Y-%m-%d')} · 由你和 AI 共同策展
 </footer>
 
+<script>window.CURIO_REL_ROOT = "{rel_root}";</script>
 <script src="{js_href}"></script>
 </body>
 </html>
@@ -1021,10 +1275,56 @@ def build_site():
     home_html = render_home(domains_meta, all_latest[:8], cross_top_n[:4])
     (SITE / "index.html").write_text(home_html, encoding="utf-8")
 
+    # B 阶段：写客户端搜索索引（扫所有 scored.json 取必读+参考）
+    search_idx = []
+    for f in TOPICS.glob("*.scored.json"):
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        slug = f.stem.replace(".scored", "")
+        # 反查 domain_id（slug 可能是中文）
+        domain_id = slug
+        domain_icon = "📰"
+        domain_name = d.get("domain") or slug
+        for did, dcfg in domains_cfg.items():
+            if dcfg.get("name") == domain_name or did == slug:
+                domain_id = did
+                domain_icon = dcfg.get("icon", "📰")
+                break
+        for tier_key, tier_label in [("must_read", "必读"), ("reference", "参考")]:
+            for it in (d.get(tier_key) or []):
+                search_idx.append({
+                    "title": (it.get("title") or "")[:160],
+                    "url": it.get("url") or "",
+                    "platform": it.get("platform") or "",
+                    "tier": tier_label,
+                    "why": (it.get("why_recommend") or "")[:160],
+                    "domain": domain_name,
+                    "domain_icon": domain_icon,
+                    "issue_path": f"d/{domain_id}/index.html",
+                })
+    # 也把每期文章本身收录（按 domain index 跳转）
+    for d in all_latest:
+        search_idx.append({
+            "title": d.get("title") or "",
+            "url": "",
+            "platform": "",
+            "tier": "期刊",
+            "why": d.get("date") or "",
+            "domain": next((dm["name"] for dm in domains_meta if dm["id"] == d.get("domain_id")), ""),
+            "domain_icon": d.get("icon", "📰"),
+            "issue_path": f"d/{d.get('domain_id')}/{d.get('filename')}",
+        })
+    (SITE / "search-index.json").write_text(
+        json.dumps(search_idx, ensure_ascii=False), encoding="utf-8"
+    )
+
     print(f"✅ Site built at: {SITE}")
     print(f"   领域：{len(domains_meta)} 个")
     print(f"   总期数：{sum(d['issue_count'] for d in domains_meta)}")
     print(f"   跨领域头条：{len(cross_top_n)} 条")
+    print(f"   搜索索引：{len(search_idx)} 条")
     return 0
 
 

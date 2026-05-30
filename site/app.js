@@ -344,8 +344,157 @@ function initFeedback() {
   });
 }
 
+// ===== B 阶段 增强：主题切换 / 搜索 / 目录 =====
+
+// 主题切换（深/浅色），localStorage 持久化
+function initTheme() {
+  const saved = localStorage.getItem('curio-theme');
+  const sysLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+  const theme = saved || (sysLight ? 'light' : 'dark');
+  document.documentElement.setAttribute('data-theme', theme);
+  const btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    const cur = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+    const next = cur === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('curio-theme', next);
+  });
+}
+
+// 文章页右侧目录（TOC）
+function initTOC() {
+  const tocEl = document.getElementById('curio-toc');
+  const listEl = document.getElementById('curio-toc-list');
+  if (!tocEl || !listEl) return;
+  const main = document.querySelector('main');
+  if (!main) return;
+  const heads = $$('h2, h3', main).filter(h => h.closest('.feedback') === null);
+  if (heads.length < 2) return;   // 太少不展示
+  let html = '';
+  heads.forEach((h, i) => {
+    if (!h.id) h.id = 'toc-' + i;
+    const text = (h.textContent || '').trim();
+    const lvl = h.tagName === 'H3' ? 'lvl-3' : 'lvl-2';
+    html += `<a href="#${h.id}" class="${lvl}" data-toc-target="${h.id}">${text}</a>`;
+  });
+  listEl.innerHTML = html;
+  tocEl.classList.add('has-items');
+
+  // 滚动同步高亮
+  const tocLinks = $$('a', listEl);
+  const onScroll = () => {
+    let active = null;
+    for (const h of heads) {
+      if (h.getBoundingClientRect().top < 120) active = h.id;
+      else break;
+    }
+    tocLinks.forEach(a => a.classList.toggle('active', a.dataset.tocTarget === active));
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+}
+
+// 客户端搜索：把所有期刊 must_read 标题做成索引
+let __SEARCH_INDEX = null;
+async function loadSearchIndex() {
+  if (__SEARCH_INDEX) return __SEARCH_INDEX;
+  try {
+    const root = window.CURIO_REL_ROOT || '';
+    const r = await fetch(root + 'search-index.json');
+    if (!r.ok) throw new Error();
+    __SEARCH_INDEX = await r.json();
+  } catch (e) {
+    __SEARCH_INDEX = [];
+  }
+  return __SEARCH_INDEX;
+}
+
+function highlight(text, q) {
+  if (!q) return text;
+  const re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig');
+  return text.replace(re, '<mark>$1</mark>');
+}
+
+function searchItems(q, items) {
+  if (!q) return [];
+  const ql = q.toLowerCase();
+  const scored = [];
+  for (const it of items) {
+    const hay = (it.title + ' ' + (it.why || '') + ' ' + (it.domain || '')).toLowerCase();
+    const idx = hay.indexOf(ql);
+    if (idx >= 0) scored.push({ ...it, _score: -idx });
+  }
+  scored.sort((a, b) => b._score - a._score);
+  return scored.slice(0, 12);
+}
+
+function initSearch() {
+  const input = document.getElementById('curio-search');
+  const box = document.getElementById('curio-search-results');
+  if (!input || !box) return;
+
+  const root = window.CURIO_REL_ROOT || '';
+  let timer = null;
+
+  const render = (results, q) => {
+    if (!results.length) {
+      box.innerHTML = '<div class="empty">没找到 "' + q + '" 相关内容</div>';
+      box.classList.add('show');
+      return;
+    }
+    box.innerHTML = results.map(r => {
+      const url = r.url || (r.issue_path ? root + r.issue_path : '#');
+      const title = highlight(r.title, q);
+      const why = r.why ? highlight(r.why.slice(0, 80), q) : '';
+      const domain = r.domain ? `<span class="domain-tag">${r.domain_icon || ''} ${r.domain}</span>` : '';
+      const platform = r.platform ? `<span>${r.platform}</span>` : '';
+      return `<a class="search-result-item" href="${url}"${r.url ? ' target="_blank" rel="noopener"' : ''}>
+        <div class="sr-title">${title}</div>
+        <div class="sr-meta">${domain}${platform}${why ? '<span>' + why + '</span>' : ''}</div>
+      </a>`;
+    }).join('');
+    box.classList.add('show');
+  };
+
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    const q = input.value.trim();
+    if (!q) { box.classList.remove('show'); return; }
+    timer = setTimeout(async () => {
+      const idx = await loadSearchIndex();
+      render(searchItems(q, idx), q);
+    }, 120);
+  });
+
+  input.addEventListener('focus', () => {
+    if (input.value.trim()) box.classList.add('show');
+  });
+
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.search-wrap')) box.classList.remove('show');
+  });
+
+  // ⌘K / Ctrl+K 聚焦
+  document.addEventListener('keydown', e => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      input.focus();
+      input.select();
+    } else if (e.key === 'Escape') {
+      box.classList.remove('show');
+      input.blur();
+    }
+  });
+}
+
 // ===== 启动 =====
 document.addEventListener('DOMContentLoaded', () => {
+  // B 阶段：主题/搜索/目录
+  initTheme();
+  initTOC();
+  initSearch();
+
   // 添加领域按钮
   const addBtn = $('.add-domain');
   if (addBtn) addBtn.addEventListener('click', openAddDomainModal);
