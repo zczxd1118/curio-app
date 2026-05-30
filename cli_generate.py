@@ -162,6 +162,13 @@ def cmd_finalize(args):
     else:
         log("  --no-push，跳过 push")
 
+    # 邮件通知（profile.yaml.email.enabled 控制是否真发）
+    if not args.no_email:
+        log("📧 send notification email")
+        run([PY, "-m", "agent.notify_email"], check=False)
+    else:
+        log("  --no-email，跳过邮件")
+
     log("")
     log("✅ finalize 完成")
     if not args.no_push:
@@ -230,8 +237,9 @@ def main():
     p_prep.add_argument("--domains", nargs="*", help="只处理指定领域 ID")
     p_prep.set_defaults(func=cmd_prepare)
 
-    p_fin = sub.add_parser("finalize", help="阶段3：拼装+渲染+push")
+    p_fin = sub.add_parser("finalize", help="阶段3：拼装+渲染+push+邮件")
     p_fin.add_argument("--no-push", action="store_true")
+    p_fin.add_argument("--no-email", action="store_true", help="跳过邮件推送")
     p_fin.set_defaults(func=cmd_finalize)
 
     p_leg = sub.add_parser("legacy", help="老逻辑：占位算法直跑+push")

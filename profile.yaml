@@ -50,3 +50,14 @@ feedback_timeline:
   - explore prompt 在关键词扩展时纳入"AI 访谈 / 对话 / 创业者"等访谈类词
   - digest 渲染：skip 区只展示前 5 条，其余只统计数字
 auto_updated_from_feedback: false
+
+# 邮件推送配置（D 阶段）
+# 每周一 automation 跑完 finalize 后会调用 agent.notify_email
+email:
+  enabled: true
+  to: 170665060@qq.com
+  user: 170665060@qq.com   # SMTP 登录用户名（QQ 邮箱即邮箱地址）
+  from_name: Curio Bot
+  host: smtp.qq.com
+  port: 465
+  use_ssl: true
