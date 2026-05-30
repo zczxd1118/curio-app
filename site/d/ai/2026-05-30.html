@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Curio · vibe coding 周刊 · Curio</title>
-<link rel="stylesheet" href="../../styles.css?v=20260531033928">
+<link rel="stylesheet" href="../../styles.css?v=20260531040524">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -12,17 +12,25 @@
 <nav class="nav">
   <div class="nav-inner">
     <a class="brand" href="../../index.html">Curio<span class="dot">.</span></a>
-    <div class="nav-links"><a href="../../index.html">首页</a><a href="../../d/ai/index.html" class="active">🤖 AI</a><a href="../../d/finance/index.html">🏦 金融</a><a href="../../d/semiconductor/index.html">🔬 半导体</a><a href="../../d/bigtech/index.html">🏛️ 大厂讯息</a></div>
+    <div class="nav-links"><a href="../../index.html">首页</a><a href="../../d/ai/index.html" class="active">AI</a><a href="../../d/finance/index.html">金融</a><a href="../../d/semiconductor/index.html">半导体</a><a href="../../d/bigtech/index.html">大厂讯息</a></div>
     <div class="search-wrap">
-      <span class="search-icon">🔍</span>
-      <input type="text" class="search-input" id="curio-search" placeholder="搜索 ⌘K" autocomplete="off">
+      <span class="search-icon">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
+      </span>
+      <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
       <div class="search-results" id="curio-search-results"></div>
     </div>
     <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
-      📨 <span class="sub-label">订阅</span>
+      <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      <span class="sub-label">订阅</span>
     </button>
     <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
-      <span class="icon-moon">🌙</span><span class="icon-sun">☀️</span>
+      <span class="icon-moon-default" style="display:inline-flex">
+        <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </span>
+      <span class="icon-sun">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </span>
     </button>
   </div>
 </nav>
@@ -363,6 +371,6 @@ window.CURIO_REL_ROOT = "../../";
 window.CURIO_API_BASE = "https://api.curioradar.fun";
 window.CURIO_GH_REPO = "zczxd1118/curio-app";
 </script>
-<script src="../../app.js?v=20260531033928"></script>
+<script src="../../app.js?v=20260531040524"></script>
 </body>
 </html>

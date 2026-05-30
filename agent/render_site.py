@@ -147,17 +147,58 @@ main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
 
 /* 首页 */
 .domain-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 32px 0; }
-.domain-card { padding: 24px; background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.15s; position: relative; display: block; }
-.domain-card:hover { border-color: var(--accent-soft); background: var(--bg-elev); transform: translateY(-2px); }
-.domain-card .icon { font-size: 28px; margin-bottom: 12px; }
-.domain-card .name { font-family: var(--serif); font-size: 18px; font-weight: 600; margin-bottom: 6px; }
-.domain-card .meta { font-family: var(--sans); font-size: 12px; color: var(--text-mute); }
+.domain-card {
+  padding: 28px 24px 24px; background: var(--bg-soft);
+  border: 1px solid var(--line); border-radius: 12px;
+  text-decoration: none; color: var(--text);
+  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+  position: relative; display: block;
+  overflow: hidden; min-height: 168px;
+}
+.domain-card::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.domain-card:hover { border-color: var(--accent-soft); background: var(--bg-elev); transform: translateY(-3px); box-shadow: var(--shadow); }
+.domain-card:hover::before { transform: scaleX(1); }
+.domain-card .badge {
+  width: 44px; height: 44px; border-radius: 10px;
+  background: linear-gradient(135deg, rgba(212,175,55,0.18), rgba(212,175,55,0.04));
+  border: 1px solid rgba(212,175,55,0.3);
+  display: inline-flex; align-items: center; justify-content: center;
+  margin-bottom: 16px; color: var(--accent);
+  font-family: var(--serif); font-size: 18px; font-weight: 600; letter-spacing: 0.02em;
+}
+.domain-card .badge svg { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.domain-card .name { font-family: var(--serif); font-size: 19px; font-weight: 600; margin-bottom: 4px; letter-spacing: -0.01em; }
+.domain-card .meta { font-family: var(--sans); font-size: 12px; color: var(--text-mute); display: flex; align-items: center; gap: 6px; }
+.domain-card .meta .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text-mute); display: inline-block; }
+html[data-theme="light"] .domain-card .badge {
+  background: linear-gradient(135deg, rgba(184,148,31,0.12), rgba(184,148,31,0.02));
+  border-color: rgba(184,148,31,0.25);
+}
 .domain-card .del-btn { position: absolute; top: 8px; right: 8px; width: 24px; height: 24px; border-radius: 50%; background: transparent; border: 1px solid var(--line); color: var(--text-mute); font-size: 14px; line-height: 20px; cursor: pointer; opacity: 0; transition: opacity 0.15s; padding: 0; }
 .domain-card:hover .del-btn { opacity: 1; }
 .domain-card .del-btn:hover { color: var(--red); border-color: var(--red); }
-.add-domain { border: 2px dashed var(--line); background: transparent; display: flex; align-items: center; justify-content: center; flex-direction: column; color: var(--text-mute); cursor: pointer; font-family: var(--sans); font-size: 14px; padding: 24px; }
-.add-domain:hover { border-color: var(--accent-soft); color: var(--accent); }
-.add-domain .icon { font-size: 28px; margin-bottom: 8px; color: inherit; }
+.add-domain {
+  border: 1.5px dashed var(--line); background: transparent;
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column; color: var(--text-mute); cursor: pointer;
+  font-family: var(--sans); font-size: 14px;
+  min-height: 168px;
+}
+.add-domain::before { display: none; }
+.add-domain:hover { border-color: var(--accent-soft); color: var(--accent); background: transparent; transform: translateY(-3px); }
+.add-domain .plus-icon {
+  width: 40px; height: 40px; border-radius: 10px;
+  border: 1.5px dashed currentColor;
+  display: inline-flex; align-items: center; justify-content: center;
+  margin-bottom: 10px; transition: all 0.18s;
+}
+.add-domain:hover .plus-icon { border-style: solid; }
+.add-domain .plus-icon svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 1.6; stroke-linecap: round; }
 
 .issue-list { list-style: none; padding: 0; margin: 0; }
 .issue-list li { border-bottom: 1px solid var(--line); }
@@ -269,20 +310,26 @@ footer { text-align: center; padding: 32px; font-family: var(--sans); font-size:
 /* 主题切换按钮 */
 .theme-toggle {
   background: transparent; border: 1px solid var(--line); color: var(--text-soft);
-  width: 32px; height: 32px; border-radius: 6px; cursor: pointer;
+  width: 34px; height: 34px; border-radius: 8px; cursor: pointer;
   display: inline-flex; align-items: center; justify-content: center;
-  font-size: 14px; transition: all 0.15s; padding: 0;
+  transition: all 0.15s; padding: 0;
 }
 .theme-toggle:hover { color: var(--text); background: var(--bg-elev); border-color: var(--accent-soft); }
+.theme-toggle svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.theme-toggle .icon-sun { display: none; }
+html[data-theme="light"] .theme-toggle .icon-sun { display: inline-flex; }
+html[data-theme="light"] .theme-toggle .icon-moon { display: none; }
+html[data-theme="light"] .theme-toggle .icon-moon-default { display: none; }
 
 /* 订阅按钮 */
 .subscribe-btn {
   background: var(--accent); border: 1px solid var(--accent); color: #0a0a0b;
   font-family: var(--sans); font-size: 13px; font-weight: 600; cursor: pointer;
-  padding: 6px 12px; border-radius: 6px; transition: all 0.15s;
-  display: inline-flex; align-items: center; gap: 4px;
+  padding: 7px 14px; border-radius: 8px; transition: all 0.15s;
+  display: inline-flex; align-items: center; gap: 6px; height: 34px;
 }
-.subscribe-btn:hover { background: var(--accent-soft); border-color: var(--accent-soft); color: #0a0a0b; }
+.subscribe-btn:hover { background: var(--accent-soft); border-color: var(--accent-soft); color: #0a0a0b; transform: translateY(-1px); }
+.subscribe-btn svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 @media (max-width: 720px) { .subscribe-btn .sub-label { display: none; } }
 
 /* 订阅 modal 复用 add-domain modal 样式，但加 checkbox / radio 视觉 */
@@ -311,24 +358,25 @@ footer { text-align: center; padding: 32px; font-family: var(--sans); font-size:
 .sub-cadence-pick .meta { font-size: 11px; color: var(--text-mute); margin-top: 4px; }
 .sub-cadence-pick.active .meta { color: var(--accent-soft); }
 
-.theme-toggle .icon-sun { display: none; }
-html[data-theme="light"] .theme-toggle .icon-sun { display: inline; }
-html[data-theme="light"] .theme-toggle .icon-moon { display: none; }
+/* 旧 emoji 模式遗留（已废弃但避免 CSS 冲突）*/
 
 /* 搜索框 */
 .search-wrap { position: relative; }
 .search-input {
   background: var(--bg-elev); border: 1px solid var(--line); color: var(--text);
-  font-family: var(--sans); font-size: 13px;
-  padding: 6px 10px 6px 28px; border-radius: 6px; width: 180px;
+  font-family: var(--sans); font-size: 13px; height: 34px;
+  padding: 0 12px 0 32px; border-radius: 8px; width: 200px;
   transition: all 0.15s;
 }
 .search-input::placeholder { color: var(--text-mute); }
-.search-input:focus { outline: none; border-color: var(--accent-soft); width: 240px; background: var(--bg-soft); }
+.search-input:focus { outline: none; border-color: var(--accent-soft); width: 260px; background: var(--bg-soft); }
 .search-icon {
-  position: absolute; left: 8px; top: 50%; transform: translateY(-50%);
-  color: var(--text-mute); pointer-events: none; font-size: 12px;
+  position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+  color: var(--text-mute); pointer-events: none;
+  width: 14px; height: 14px;
+  display: inline-flex; align-items: center; justify-content: center;
 }
+.search-icon svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .search-results {
   position: absolute; top: calc(100% + 8px); right: 0; min-width: 360px; max-width: 440px;
   background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px;
@@ -1261,6 +1309,70 @@ def _slug_for_path(s: str) -> str:
     return re.sub(r"-+", "-", re.sub(r"[^\w\u4e00-\u9fa5]+", "-", s.strip().lower())).strip("-")
 
 
+# Lucide SVG 图标库（替代 emoji，单色 + 跨平台一致）
+_SVG_ICONS = {
+    "ai":           '<svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="2" x2="9" y2="4"/><line x1="15" y1="2" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="22"/><line x1="15" y1="20" x2="15" y2="22"/><line x1="20" y1="9" x2="22" y2="9"/><line x1="20" y1="15" x2="22" y2="15"/><line x1="2" y1="9" x2="4" y2="9"/><line x1="2" y1="15" x2="4" y2="15"/></svg>',
+    "robot":        '<svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="2" x2="9" y2="4"/><line x1="15" y1="2" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="22"/><line x1="15" y1="20" x2="15" y2="22"/><line x1="20" y1="9" x2="22" y2="9"/><line x1="20" y1="15" x2="22" y2="15"/><line x1="2" y1="9" x2="4" y2="9"/><line x1="2" y1="15" x2="4" y2="15"/></svg>',
+    "finance":      '<svg viewBox="0 0 24 24"><polyline points="3 17 9 11 13 15 21 7"/><polyline points="14 7 21 7 21 14"/></svg>',
+    "bank":         '<svg viewBox="0 0 24 24"><path d="M3 21h18"/><path d="M3 10h18"/><path d="M5 6l7-3 7 3"/><line x1="4" y1="10" x2="4" y2="21"/><line x1="20" y1="10" x2="20" y2="21"/><line x1="8" y1="14" x2="8" y2="17"/><line x1="12" y1="14" x2="12" y2="17"/><line x1="16" y1="14" x2="16" y2="17"/></svg>',
+    "semiconductor":'<svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>',
+    "chip":         '<svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/></svg>',
+    "bigtech":      '<svg viewBox="0 0 24 24"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v8h4"/><path d="M18 9h2a2 2 0 0 1 2 2v11h-4"/><line x1="10" y1="6" x2="14" y2="6"/><line x1="10" y1="10" x2="14" y2="10"/><line x1="10" y1="14" x2="14" y2="14"/><line x1="10" y1="18" x2="14" y2="18"/></svg>',
+    "building":     '<svg viewBox="0 0 24 24"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v8h4"/><path d="M18 9h2a2 2 0 0 1 2 2v11h-4"/><line x1="10" y1="6" x2="14" y2="6"/><line x1="10" y1="10" x2="14" y2="10"/><line x1="10" y1="14" x2="14" y2="14"/></svg>',
+    "biotech":      '<svg viewBox="0 0 24 24"><path d="M9 2v6"/><path d="M15 2v6"/><path d="M3 8h18"/><path d="M5 8v8a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V8"/><circle cx="9" cy="14" r="1"/><circle cx="15" cy="16" r="1"/><circle cx="12" cy="11" r="1"/></svg>',
+    "quantum":      '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><ellipse cx="12" cy="12" rx="10" ry="4"/><ellipse cx="12" cy="12" rx="4" ry="10"/></svg>',
+    "blockchain":   '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><line x1="10" y1="6.5" x2="14" y2="6.5"/><line x1="10" y1="17.5" x2="14" y2="17.5"/><line x1="6.5" y1="10" x2="6.5" y2="14"/><line x1="17.5" y1="10" x2="17.5" y2="14"/></svg>',
+    "music":        '<svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>',
+    "ev":           '<svg viewBox="0 0 24 24"><path d="M14 16H9m10 0h3v-3.15a1 1 0 0 0-.84-.99L16 11l-2.7-3.6a1 1 0 0 0-.8-.4H5.24a2 2 0 0 0-1.8 1.1l-.8 1.63A6 6 0 0 0 2 12.42V16h2"/><circle cx="6.5" cy="16.5" r="2.5"/><circle cx="16.5" cy="16.5" r="2.5"/></svg>',
+    "game":         '<svg viewBox="0 0 24 24"><line x1="6" y1="11" x2="10" y2="11"/><line x1="8" y1="9" x2="8" y2="13"/><line x1="15" y1="12" x2="15.01" y2="12"/><line x1="18" y1="10" x2="18.01" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258"/></svg>',
+    "auto":         '<svg viewBox="0 0 24 24"><path d="M14 16H9m10 0h3v-3.15a1 1 0 0 0-.84-.99L16 11l-2.7-3.6a1 1 0 0 0-.8-.4H5.24a2 2 0 0 0-1.8 1.1l-.8 1.63A6 6 0 0 0 2 12.42V16h2"/><circle cx="6.5" cy="16.5" r="2.5"/><circle cx="16.5" cy="16.5" r="2.5"/></svg>',
+    "default":      '<svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h7"/></svg>',
+}
+
+# 旧 emoji → SVG icon key
+_EMOJI_TO_ICON = {
+    "🤖": "ai", "🧠": "ai",
+    "🏦": "finance", "💰": "finance", "📈": "finance",
+    "🔬": "semiconductor", "⚛️": "quantum",
+    "🏛️": "bigtech", "🏢": "building",
+    "🧬": "biotech",
+    "🎮": "game",
+    "🎨": "default", "📚": "default",
+    "🎵": "music", "🎶": "music",
+    "🚗": "auto", "⚡": "ev",
+    "🌍": "default", "💊": "biotech",
+    "📰": "default", "📊": "finance",
+    "📉": "finance", "💼": "finance",
+}
+
+
+def _domain_svg(icon_or_id: str, domain_name: str = "") -> str:
+    """根据领域 icon (emoji) 或 id 返回 SVG 图标 HTML"""
+    if not icon_or_id:
+        icon_or_id = ""
+    # 优先用 emoji 映射
+    key = _EMOJI_TO_ICON.get(icon_or_id)
+    if key and key in _SVG_ICONS:
+        return _SVG_ICONS[key]
+    # 用 domain id 关键词匹配
+    lookup = (icon_or_id + " " + domain_name).lower()
+    for k in ["ai", "finance", "bank", "semiconductor", "chip", "bigtech", "building",
+             "biotech", "quantum", "blockchain", "music", "ev", "auto", "game"]:
+        if k in lookup:
+            return _SVG_ICONS[k]
+    # 中文关键词
+    for zh, k in [("金融", "finance"), ("半导体", "semiconductor"), ("芯片", "semiconductor"),
+                  ("大厂", "bigtech"), ("互联网", "bigtech"), ("公司", "building"),
+                  ("生物", "biotech"), ("量子", "quantum"), ("区块", "blockchain"),
+                  ("加密", "blockchain"), ("游戏", "game"), ("音乐", "music"),
+                  ("电动", "ev"), ("汽车", "auto"), ("AI", "ai"), ("ai", "ai")]:
+        if zh in (icon_or_id + domain_name):
+            return _SVG_ICONS[k]
+    # fallback：首字母
+    first = (domain_name or icon_or_id or "·").strip()[:1].upper()
+    return f'<span style="font-family:var(--serif);font-size:18px;font-weight:600">{first}</span>'
+
+
 def _read_must_titles(domain_id: str, date: str) -> list[dict]:
     """从 scored.json 读必读标题列表，给反馈区用"""
     # 优先用 topic_id 文件名，再用 domain_id
@@ -1471,17 +1583,21 @@ def render_domain_index(domain_id: str, domain_name: str, domain_icon: str, issu
         )
         list_html = f'<ul class="issue-list">{issue_items}</ul>'
     else:
+        domain_svg_html = _domain_svg(domain_icon, domain_name)
         list_html = f'''
         <div class="empty-state">
-          <div class="empty-icon">{domain_icon}</div>
+          <div class="empty-icon-svg" style="width:48px;height:48px;margin:0 auto 16px;color:var(--text-mute);display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:12px">
+            <span style="display:inline-flex;width:24px;height:24px">{domain_svg_html}</span>
+          </div>
           <h3>这个领域还没有任何一期</h3>
           <p>点首页该领域卡片上的「一键生成」按钮，让 Curio 替你跑全网搜索 + 选必读 + 拼周刊。</p>
           <a class="btn-primary-link" href="../../index.html">回首页一键生成 →</a>
         </div>'''
 
+    domain_kicker_svg = _domain_svg(domain_icon, domain_name)
     body = f"""
 <div class="hero">
-  <div class="kicker">{domain_icon} 领域</div>
+  <div class="kicker"><span style="display:inline-flex;width:14px;height:14px;vertical-align:-2px;margin-right:6px;color:var(--accent)">{domain_kicker_svg}</span>领域</div>
   <h1>{domain_name}</h1>
   <div class="meta">共 {len(issues)} 期</div>
 </div>
@@ -1501,17 +1617,20 @@ def render_home(domains: list[dict], latest_issues: list[dict], top_n_cross: lis
         latest_str = d.get("latest_date") or "—"
         # 一键生成按钮：当领域有期数时显示"再跑一次"，没期数时显示"一键生成"
         gen_label = "再跑一次" if d["issue_count"] > 0 else "一键生成"
-        cards.append(f'''
+        icon_svg = _domain_svg(d.get("icon", ""), d.get("name", ""))
+    cards.append(f'''
 <a class="domain-card" href="d/{d['id']}/index.html">
   <button class="del-btn" data-domain-id="{d['id']}" data-domain-name="{d['name']}" title="删除">×</button>
-  <div class="icon">{d['icon']}</div>
+  <div class="badge">{icon_svg}</div>
   <div class="name">{d['name']}</div>
-  <div class="meta">{d['issue_count']} 期 · 最新 {latest_str}</div>
+  <div class="meta"><span>{d['issue_count']} 期</span><span class="dot"></span><span>最新 {latest_str}</span></div>
   <button class="gen-btn" data-domain-id="{d['id']}" data-domain-name="{d['name']}">{gen_label}</button>
 </a>''')
     cards.append('''
 <div class="domain-card add-domain">
-  <div class="icon">+</div>
+  <div class="plus-icon">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+  </div>
   <div>添加新领域</div>
 </div>''')
 
@@ -1519,15 +1638,15 @@ def render_home(domains: list[dict], latest_issues: list[dict], top_n_cross: lis
     top_n_html = ""
     if top_n_cross:
         rows = "\n".join(
-            f'<tr><td style="width:32px;text-align:center">{i+1}</td>'
-            f'<td>{t["icon"]} <a href="d/{t["domain_id"]}/{t["filename"]}">{t["headline"][:80]}</a></td>'
+            f'<tr><td style="width:32px;text-align:center;color:var(--text-mute);font-family:var(--mono);font-size:12px">{i+1:02d}</td>'
+            f'<td><a href="d/{t["domain_id"]}/{t["filename"]}">{t["headline"][:80]}</a></td>'
             f'<td style="font-family:var(--mono);color:var(--text-mute);font-size:12px">{t["date"]}</td></tr>'
             for i, t in enumerate(top_n_cross)
         )
         top_n_html = f'''
 <div class="top-n" style="border:1px solid var(--accent-soft);border-radius:8px;overflow:hidden;margin:32px 0;">
   <div style="background:linear-gradient(90deg,var(--bg-elev),transparent);padding:14px 18px;border-bottom:1px solid var(--line);">
-    <span style="font-family:var(--sans);font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--accent);">🛰️ 今日跨领域头条</span>
+    <span style="font-family:var(--sans);font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--accent);">今日跨领域头条</span>
   </div>
   <table style="width:100%;border-collapse:collapse;font-family:var(--sans);font-size:14px;margin:0;">
     <thead>
@@ -1542,7 +1661,7 @@ def render_home(domains: list[dict], latest_issues: list[dict], top_n_cross: lis
     if latest_issues:
         issue_items = "\n".join(
             f'<li><span class="date">{i["date"]}</span>'
-            f'<span class="title">{i["icon"]} <a href="d/{i["domain_id"]}/{i["filename"]}">{i["title"]}</a></span></li>'
+            f'<span class="title"><a href="d/{i["domain_id"]}/{i["filename"]}">{i["title"]}</a></span></li>'
             for i in latest_issues
         )
         latest_html = f"""
@@ -1553,7 +1672,7 @@ def render_home(domains: list[dict], latest_issues: list[dict], top_n_cross: lis
 
     body = f"""
 <div class="hero">
-  <div class="kicker">🛰️ 你的私人主编</div>
+  <div class="kicker">你的私人主编</div>
   <h1>Curio</h1>
   <div class="meta">每周一早上 8:00 自动从全网为你抓取并写成一份私人报纸。</div>
 </div>
@@ -1583,10 +1702,9 @@ def _page_template(page_title: str, nav_active: str, depth: int, body: str) -> s
         cfg = yaml.safe_load(SOURCES.read_text(encoding="utf-8")) or {}
         for did, dcfg in (cfg.get("domains") or {}).items():
             cls = ' class="active"' if nav_active == did else ""
-            icon = dcfg.get("icon", "")
             name = dcfg.get("name", did)
             href = f"{rel_root}d/{did}/index.html"
-            nav_links.append(f'<a href="{href}"{cls}>{icon} {name}</a>')
+            nav_links.append(f'<a href="{href}"{cls}>{name}</a>')
     nav_html = "".join(nav_links)
     brand_href = f"{rel_root}index.html"
 
@@ -1609,15 +1727,23 @@ def _page_template(page_title: str, nav_active: str, depth: int, body: str) -> s
     <a class="brand" href="{brand_href}">Curio<span class="dot">.</span></a>
     <div class="nav-links">{nav_html}</div>
     <div class="search-wrap">
-      <span class="search-icon">🔍</span>
-      <input type="text" class="search-input" id="curio-search" placeholder="搜索 ⌘K" autocomplete="off">
+      <span class="search-icon">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
+      </span>
+      <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
       <div class="search-results" id="curio-search-results"></div>
     </div>
     <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
-      📨 <span class="sub-label">订阅</span>
+      <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      <span class="sub-label">订阅</span>
     </button>
     <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
-      <span class="icon-moon">🌙</span><span class="icon-sun">☀️</span>
+      <span class="icon-moon-default" style="display:inline-flex">
+        <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </span>
+      <span class="icon-sun">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </span>
     </button>
   </div>
 </nav>

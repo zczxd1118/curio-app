@@ -114,17 +114,58 @@ main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
 
 /* 首页 */
 .domain-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 32px 0; }
-.domain-card { padding: 24px; background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px; text-decoration: none; color: var(--text); transition: all 0.15s; position: relative; display: block; }
-.domain-card:hover { border-color: var(--accent-soft); background: var(--bg-elev); transform: translateY(-2px); }
-.domain-card .icon { font-size: 28px; margin-bottom: 12px; }
-.domain-card .name { font-family: var(--serif); font-size: 18px; font-weight: 600; margin-bottom: 6px; }
-.domain-card .meta { font-family: var(--sans); font-size: 12px; color: var(--text-mute); }
+.domain-card {
+  padding: 28px 24px 24px; background: var(--bg-soft);
+  border: 1px solid var(--line); border-radius: 12px;
+  text-decoration: none; color: var(--text);
+  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+  position: relative; display: block;
+  overflow: hidden; min-height: 168px;
+}
+.domain-card::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.domain-card:hover { border-color: var(--accent-soft); background: var(--bg-elev); transform: translateY(-3px); box-shadow: var(--shadow); }
+.domain-card:hover::before { transform: scaleX(1); }
+.domain-card .badge {
+  width: 44px; height: 44px; border-radius: 10px;
+  background: linear-gradient(135deg, rgba(212,175,55,0.18), rgba(212,175,55,0.04));
+  border: 1px solid rgba(212,175,55,0.3);
+  display: inline-flex; align-items: center; justify-content: center;
+  margin-bottom: 16px; color: var(--accent);
+  font-family: var(--serif); font-size: 18px; font-weight: 600; letter-spacing: 0.02em;
+}
+.domain-card .badge svg { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.domain-card .name { font-family: var(--serif); font-size: 19px; font-weight: 600; margin-bottom: 4px; letter-spacing: -0.01em; }
+.domain-card .meta { font-family: var(--sans); font-size: 12px; color: var(--text-mute); display: flex; align-items: center; gap: 6px; }
+.domain-card .meta .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text-mute); display: inline-block; }
+html[data-theme="light"] .domain-card .badge {
+  background: linear-gradient(135deg, rgba(184,148,31,0.12), rgba(184,148,31,0.02));
+  border-color: rgba(184,148,31,0.25);
+}
 .domain-card .del-btn { position: absolute; top: 8px; right: 8px; width: 24px; height: 24px; border-radius: 50%; background: transparent; border: 1px solid var(--line); color: var(--text-mute); font-size: 14px; line-height: 20px; cursor: pointer; opacity: 0; transition: opacity 0.15s; padding: 0; }
 .domain-card:hover .del-btn { opacity: 1; }
 .domain-card .del-btn:hover { color: var(--red); border-color: var(--red); }
-.add-domain { border: 2px dashed var(--line); background: transparent; display: flex; align-items: center; justify-content: center; flex-direction: column; color: var(--text-mute); cursor: pointer; font-family: var(--sans); font-size: 14px; padding: 24px; }
-.add-domain:hover { border-color: var(--accent-soft); color: var(--accent); }
-.add-domain .icon { font-size: 28px; margin-bottom: 8px; color: inherit; }
+.add-domain {
+  border: 1.5px dashed var(--line); background: transparent;
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column; color: var(--text-mute); cursor: pointer;
+  font-family: var(--sans); font-size: 14px;
+  min-height: 168px;
+}
+.add-domain::before { display: none; }
+.add-domain:hover { border-color: var(--accent-soft); color: var(--accent); background: transparent; transform: translateY(-3px); }
+.add-domain .plus-icon {
+  width: 40px; height: 40px; border-radius: 10px;
+  border: 1.5px dashed currentColor;
+  display: inline-flex; align-items: center; justify-content: center;
+  margin-bottom: 10px; transition: all 0.18s;
+}
+.add-domain:hover .plus-icon { border-style: solid; }
+.add-domain .plus-icon svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 1.6; stroke-linecap: round; }
 
 .issue-list { list-style: none; padding: 0; margin: 0; }
 .issue-list li { border-bottom: 1px solid var(--line); }
@@ -236,20 +277,26 @@ footer { text-align: center; padding: 32px; font-family: var(--sans); font-size:
 /* 主题切换按钮 */
 .theme-toggle {
   background: transparent; border: 1px solid var(--line); color: var(--text-soft);
-  width: 32px; height: 32px; border-radius: 6px; cursor: pointer;
+  width: 34px; height: 34px; border-radius: 8px; cursor: pointer;
   display: inline-flex; align-items: center; justify-content: center;
-  font-size: 14px; transition: all 0.15s; padding: 0;
+  transition: all 0.15s; padding: 0;
 }
 .theme-toggle:hover { color: var(--text); background: var(--bg-elev); border-color: var(--accent-soft); }
+.theme-toggle svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.theme-toggle .icon-sun { display: none; }
+html[data-theme="light"] .theme-toggle .icon-sun { display: inline-flex; }
+html[data-theme="light"] .theme-toggle .icon-moon { display: none; }
+html[data-theme="light"] .theme-toggle .icon-moon-default { display: none; }
 
 /* 订阅按钮 */
 .subscribe-btn {
   background: var(--accent); border: 1px solid var(--accent); color: #0a0a0b;
   font-family: var(--sans); font-size: 13px; font-weight: 600; cursor: pointer;
-  padding: 6px 12px; border-radius: 6px; transition: all 0.15s;
-  display: inline-flex; align-items: center; gap: 4px;
+  padding: 7px 14px; border-radius: 8px; transition: all 0.15s;
+  display: inline-flex; align-items: center; gap: 6px; height: 34px;
 }
-.subscribe-btn:hover { background: var(--accent-soft); border-color: var(--accent-soft); color: #0a0a0b; }
+.subscribe-btn:hover { background: var(--accent-soft); border-color: var(--accent-soft); color: #0a0a0b; transform: translateY(-1px); }
+.subscribe-btn svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 @media (max-width: 720px) { .subscribe-btn .sub-label { display: none; } }
 
 /* 订阅 modal 复用 add-domain modal 样式，但加 checkbox / radio 视觉 */
@@ -278,24 +325,25 @@ footer { text-align: center; padding: 32px; font-family: var(--sans); font-size:
 .sub-cadence-pick .meta { font-size: 11px; color: var(--text-mute); margin-top: 4px; }
 .sub-cadence-pick.active .meta { color: var(--accent-soft); }
 
-.theme-toggle .icon-sun { display: none; }
-html[data-theme="light"] .theme-toggle .icon-sun { display: inline; }
-html[data-theme="light"] .theme-toggle .icon-moon { display: none; }
+/* 旧 emoji 模式遗留（已废弃但避免 CSS 冲突）*/
 
 /* 搜索框 */
 .search-wrap { position: relative; }
 .search-input {
   background: var(--bg-elev); border: 1px solid var(--line); color: var(--text);
-  font-family: var(--sans); font-size: 13px;
-  padding: 6px 10px 6px 28px; border-radius: 6px; width: 180px;
+  font-family: var(--sans); font-size: 13px; height: 34px;
+  padding: 0 12px 0 32px; border-radius: 8px; width: 200px;
   transition: all 0.15s;
 }
 .search-input::placeholder { color: var(--text-mute); }
-.search-input:focus { outline: none; border-color: var(--accent-soft); width: 240px; background: var(--bg-soft); }
+.search-input:focus { outline: none; border-color: var(--accent-soft); width: 260px; background: var(--bg-soft); }
 .search-icon {
-  position: absolute; left: 8px; top: 50%; transform: translateY(-50%);
-  color: var(--text-mute); pointer-events: none; font-size: 12px;
+  position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+  color: var(--text-mute); pointer-events: none;
+  width: 14px; height: 14px;
+  display: inline-flex; align-items: center; justify-content: center;
 }
+.search-icon svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .search-results {
   position: absolute; top: calc(100% + 8px); right: 0; min-width: 360px; max-width: 440px;
   background: var(--bg-soft); border: 1px solid var(--line); border-radius: 8px;
