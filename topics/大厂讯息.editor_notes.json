@@ -1,0 +1,37 @@
+{
+  "domain": "大厂讯息",
+  "slug": "bigtech",
+  "generated_at": "2026-05-31",
+  "notes": [
+    {
+      "id": "hn:48238896",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "note": "Microsoft 内部全面回收 Claude Code 许可——12 月开始放给数千开发者使用，结果「太受欢迎」反过来被叫停。本质是与自家 Copilot 的利益冲突。如果你在选型 AI 编程工具，这条说明 Cursor / Claude Code / Copilot 的格局比看上去更胶着。"
+    },
+    {
+      "id": "hn:48311647",
+      "title": "Apple-OpenAI Relationship Frays",
+      "note": "Apple 与 OpenAI 在 Apple Intelligence 深度集成上谈判破裂——双方在用户数据访问权限、品牌露出比例、收入分成上分歧严重，已经讨论是否走法律途径。这条决定 iPhone 在 2026-2027 年的 AI 助手默认是 OpenAI 还是 Apple 自研，对所有 iOS 开发者都是关键信号。"
+    },
+    {
+      "id": "rss:theverge:microsoft-zero-day",
+      "title": "Microsoft threatening legal action for disclosing exploits",
+      "note": "微软威胁起诉发布 Windows 零日漏洞的独立安全研究员——这是大厂第一次对个人安全研究员动用法律层面武器。如果你是做安全方向的开发者或研究员，这意味着未来披露漏洞要更加注重法律姿态。开源安全社区已经爆炸。"
+    },
+    {
+      "id": "rss:tc:groq-acquihire",
+      "title": "Groq after Nvidia's $20B not-acqui-hire",
+      "note": "Groq 是个 AI 推理芯片创业公司，专做 LPU（Language Processing Unit）。在 Nvidia 用 200 亿美元 not-acquihire 整个团队之后，剩下的 Groq 怎么活？这条揭示 AI 芯片创业的真实出路：要么被大厂吃掉，要么换赛道。Cerebras / Tenstorrent 路径可对照看。"
+    },
+    {
+      "id": "hn:meta-ai-pendant",
+      "title": "Meta developing AI pendant",
+      "note": "Meta 在做 AI 项链——比 Humane Pin 体积更小，类似 Friend.com 那种贴身陪伴 AI。在 Ray-Ban 智能眼镜大获成功之后，Meta 押注「无屏幕、贴身、永远在线」的 AI 硬件，2026 年下半年可能发。这是消费级 AI 硬件竞争从眼镜延伸到饰品的第一次重大动作。"
+    },
+    {
+      "id": "hn:google-broke-recaptcha",
+      "title": "Google broke reCAPTCHA for de-googled Android",
+      "note": "用 GrapheneOS / LineageOS 等去 Google 化 Android 系统的用户发现 reCAPTCHA 在他们设备上不再通过——本质上 Google 在用「设备可信度」筛选用户。如果你关心数字主权和反平台锁定，这是一记警钟：未来「可访问主流网站」这件事正在被绑定到「使用主流操作系统」上。"
+    }
+  ]
+}

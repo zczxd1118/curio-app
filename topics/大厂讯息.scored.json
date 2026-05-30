@@ -1,0 +1,106 @@
+{
+  "domain": "大厂讯息",
+  "domain_id": "bigtech",
+  "scored_at": "2026-05-31",
+  "must_read": [
+    {
+      "id": "hn:48238896",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "url": "https://news.ycombinator.com/item?id=48238896",
+      "platform": "hackernews",
+      "source": {
+        "name": "HN · Microsoft"
+      },
+      "why_recommend": "Microsoft 内部全面收回 Claude Code 许可——本来 12 月放给数千开发者，因为太受欢迎反过来被叫停。这是 LLM 工具市场最有意思的政治信号。"
+    },
+    {
+      "id": "hn:48311647",
+      "title": "Apple-OpenAI Relationship Frays, Setting Up Possible Legal Fight",
+      "url": "https://news.ycombinator.com/item?id=apple-openai",
+      "platform": "hackernews",
+      "source": {
+        "name": "HN · Apple"
+      },
+      "why_recommend": "Apple 和 OpenAI 因 Apple Intelligence 集成深度产生分歧，传可能升级为诉讼。这条决定 iPhone 上 AI 体验未来 2 年走向。"
+    },
+    {
+      "id": "rss:theverge:microsoft-zero-day",
+      "title": "Microsoft is threatening legal action for disclosing exploits",
+      "url": "https://www.theverge.com/microsoft-zero-day",
+      "platform": "rss",
+      "source": {
+        "name": "The Verge"
+      },
+      "why_recommend": "微软威胁起诉发布 Windows 零日漏洞的安全研究员，引发开源社区强烈反弹。一窥大厂如何用法务对抗安全披露。"
+    },
+    {
+      "id": "rss:tc:groq-acquihire",
+      "title": "After Nvidia's $20B not-acqui-hire, AI chip startup Groq reportedly...",
+      "url": "https://techcrunch.com/groq",
+      "platform": "rss",
+      "source": {
+        "name": "TechCrunch"
+      },
+      "why_recommend": "AI 芯片创业公司 Groq 在 Nvidia 200 亿美元 not-acquihire 之后的最新动态。AI 算力竞争已经从模型层卷到芯片层。"
+    },
+    {
+      "id": "hn:meta-ai-pendant",
+      "title": "Meta is reportedly developing an AI pendant",
+      "url": "https://techcrunch.com/meta-pendant",
+      "platform": "rss",
+      "source": {
+        "name": "TechCrunch"
+      },
+      "why_recommend": "Meta 在做 AI 项链穿戴设备——继 Ray-Ban 智能眼镜后又一个赌注。可穿戴 AI 设备在 2026 年第一次成为大厂全力推的硬件方向。"
+    },
+    {
+      "id": "hn:google-broke-recaptcha",
+      "title": "Google broke reCAPTCHA for de-googled Android users",
+      "url": "https://news.ycombinator.com/item?id=anonymous",
+      "platform": "hackernews",
+      "source": {
+        "name": "HN · Google"
+      },
+      "why_recommend": "用 GrapheneOS 等去 Google 化系统的用户突然发现 reCAPTCHA 在他们设备上不工作了。Google 在用反爬虫名义筛选可信设备的边界争议。"
+    }
+  ],
+  "reference": [
+    {
+      "id": "rss:msft-data-ai-cost",
+      "title": "Microsoft data suggests using AI is more expensive than hiring humans",
+      "url": "",
+      "platform": "hackernews",
+      "why_recommend": "微软自家数据：AI 比人贵。今年最反直觉的内部研究。"
+    },
+    {
+      "id": "hn:google-fraud-defence",
+      "title": "Google Cloud Fraud Defence is just WEI repackaged",
+      "url": "",
+      "platform": "hackernews",
+      "why_recommend": "Web Environment Integrity 死灰复燃换皮重来。"
+    },
+    {
+      "id": "rss:tc:tiktok-superapp",
+      "title": "TikTok's road to becoming a super app",
+      "url": "",
+      "platform": "rss",
+      "why_recommend": "中国互联网超级应用模型在美国的最新尝试。"
+    },
+    {
+      "id": "hn:apple-silicon-cost",
+      "title": "Apple Silicon costs more than OpenRouter",
+      "url": "",
+      "platform": "hackernews",
+      "why_recommend": "本地跑 LLM 真的便宜吗？拿 Apple Silicon 跟云 API 算账，结论反直觉。"
+    },
+    {
+      "id": "hn:apple-camera-old-photos",
+      "title": "Apple Is Holding My Pictures Hostage Until I Accept Their New Terms",
+      "url": "",
+      "platform": "hackernews",
+      "why_recommend": "iCloud 用户发现不同意新条款连旧照片都看不到。隐私政策升级背后的强制力。"
+    }
+  ],
+  "skipped_reasons": "其余多为大厂相关零碎吐槽、与个人项目相关的小工具讨论，不构成本周必读。",
+  "intro": "本周（2026-05-25 ~ 05-31）大厂讯息几个核心叙事：MSFT 重新拿回 Claude Code 入口、Apple 与 OpenAI 关系出问题、Google 反爬虫策略激进化、AI 创业公司被大厂围剿与反击。"
+}

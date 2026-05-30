@@ -101,7 +101,22 @@ def cmd_prepare(args):
             log(f"  （没有 explore.json，沿用既有 candidates.json）")
 
         # 2. score（生成打分 prompt 文件）
+        # curator.py 写的文件名是 {domain.name slugify} 而非 {domain_id}
+        # 所以同时尝试几个候选路径
         cand_path = TOPICS_DIR / f"{d}.candidates.json"
+        if not cand_path.exists():
+            # 从 sources.yaml 拿 name，再 slugify
+            try:
+                import yaml as _yaml
+                cfg = _yaml.safe_load((ROOT / "sources.yaml").read_text(encoding="utf-8")) or {}
+                dname = ((cfg.get("domains") or {}).get(d) or {}).get("name", d)
+                import re as _re
+                alt_slug = _re.sub(r"[^\w\u4e00-\u9fa5]+", "-", dname.lower()).strip("-")
+                alt_path = TOPICS_DIR / f"{alt_slug}.candidates.json"
+                if alt_path.exists():
+                    cand_path = alt_path
+            except Exception:
+                pass
         if not cand_path.exists():
             log(f"  ⚠️ {cand_path.name} 不存在，跳过该领域")
             continue

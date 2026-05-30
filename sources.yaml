@@ -173,3 +173,49 @@ domains:
     name: 半导体
     icon: 🔬
     frequency: weekly
+  bigtech:
+    name: 大厂讯息
+    icon: 🏛️
+    frequency: daily
+    topics:
+      default:
+        name: 大厂讯息
+        sources:
+        - name: HN · Google
+          kind: hn_search
+          query: Google
+          days: 30
+          min_points: 30
+          lang: en
+        - name: HN · Microsoft
+          kind: hn_search
+          query: Microsoft
+          days: 30
+          min_points: 30
+          lang: en
+        - name: HN · Apple
+          kind: hn_search
+          query: Apple
+          days: 30
+          min_points: 30
+          lang: en
+        - name: The Verge
+          kind: rss
+          url: https://www.theverge.com/rss/index.xml
+          lang: en
+          optional: true
+        - name: TechCrunch
+          kind: rss
+          url: https://techcrunch.com/feed/
+          lang: en
+          optional: true
+        - name: 量子位（公众号 via RSSHub）
+          kind: rss
+          url: https://rsshub.app/wechat/ranking/all/qbitai
+          lang: zh
+          optional: true
+        - name: 机器之心（RSSHub）
+          kind: rss
+          url: https://rsshub.app/jiqizhixin/zixun
+          lang: zh
+          optional: true

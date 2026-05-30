@@ -1,13 +1,13 @@
 {
-  "prepared_at": "2026-05-30 19:47",
+  "prepared_at": "2026-05-31 02:54",
   "domains": [
     {
-      "domain": "semiconductor",
-      "domain_name": "半导体",
-      "slug": "半导体",
-      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/semiconductor.candidates.json",
-      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/半导体.score-prompt.md",
-      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/半导体.scored.json"
+      "domain": "bigtech",
+      "domain_name": "大厂讯息",
+      "slug": "大厂讯息",
+      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/大厂讯息.candidates.json",
+      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/大厂讯息.score-prompt.md",
+      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/大厂讯息.scored.json"
     }
   ]
 }
