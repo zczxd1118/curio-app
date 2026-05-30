@@ -1,0 +1,32 @@
+{
+  "domain": "金融",
+  "slug": "finance",
+  "generated_at": "2026-05-31",
+  "notes": [
+    {
+      "id": "hn:48192383",
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "note": "Forge 是个开源 LLM 工具调用可靠性层——把 8B 本地模型在 agentic 任务上的成功率从 53% 拉到 99%，靠 guardrails 而不是模型本身。这条进金融周刊也是误抓（HN 高热度但跟金融无关），下次跑分会过滤。如果你刚好在做投资类 AI agent，这种「用工程而不是 finetune 解决可靠性」的思路对你有参考。"
+    },
+    {
+      "id": "hn:48198551",
+      "title": "Tesla's lithium refinery discharges 231,000 gallons of polluted wastewater a day",
+      "note": "Tesla 在德州 Nueces 县的锂精炼厂被发现每天往沟渠排放 23.1 万加仑深色废水——本月初被排水区工作人员例行巡检时撞到，目前未取得排污许可。对持仓 TSLA 或关注美国电池供应链的人，这是一个潜在监管风险信号：不是马斯克推特上的事，是真实的环保诉讼可能起点。"
+    },
+    {
+      "id": "hn:48165980",
+      "title": "Tesla Solar Roof is on life support as it pivot to panels",
+      "note": "Tesla Solar Roof 被 Electrek 实锤「已基本放弃」——2016 年 Musk 承诺 2019 年底每周装 1000 户，10 年过去累计装机才约 3000 户。Tesla 已停止公开装机数据，主推普通光伏板。这条对 Tesla 估值里「能源业务想象空间」那部分是减法，建议跟最新 10-Q 里的 Energy Generation 营收一起看。"
+    },
+    {
+      "id": "hn:48108313",
+      "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
+      "note": "美国 5 月 CPI 同比 3.8%，超过预期，主因伊朗战争推高能源价格——这是宏观最新一条。对你的影响：美联储原本市场押注的 2026 下半年降息节奏可能再延后；持有美股长债 ETF 或对汇率敏感持仓的话，这条值得对下次议息会议预判调权重。原文链接抓不到，建议直接看 BBC 原报道。"
+    },
+    {
+      "id": "hn:48236770",
+      "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
+      "note": "YC P26 项目 Superset 上线——一个本地 IDE，能在 isolated git worktree 上并行编排多个 CLI agent（Claude Code / Codex 等）。卖点是同时跑多个 agent 不会上下文打架。这条在金融周刊也是误进，但如果你在用 Claude Code 做副业项目，这种 agent 编排器会让你的并行开发节奏快不少。"
+    }
+  ]
+}

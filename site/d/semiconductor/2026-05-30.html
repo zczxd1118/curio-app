@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Curio · 半导体 周刊 · Curio</title>
-<link rel="stylesheet" href="../../styles.css?v=20260531003915">
+<link rel="stylesheet" href="../../styles.css?v=20260531005024">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -46,12 +46,8 @@
 <h3>1. Claude Opus 4</h3>
 <p><strong>来源</strong>：craigmart · hackernews · 热度 1734</p>
 <p><em>原标题：Claude Opus 4.8</em></p>
-<p><strong>📖 中文摘要</strong></p>
-<h1>Claude Opus 4.8简介</h1>
-<p>我们正在将Claude Opus升级到新版本： Claude Opus 4.8。 它建立在Opus 4.7的基础上，跨越基准进行了改进，是一个更有效的协作者。 它今天以相同的价格提供。</p>
-<p>Opus 4.8推出了几项新功能。 Claude.ai上的用户现在可以控制Claude投入到任务中的工作量。 Claude Code有一个新的“动态工作流程”功能，可以解决非常大规模的问题。 Opus 4.8的快速模式（该型号可以以2.5倍的速度工作）现在比以前的型号便宜三倍。</p>
-<h1># Opus 4.8的能力</h1>
-<p>下表显示了Opus 4.8与其前身以及其他编码、代理技能、推理和实践知识工作任务测试模型的比较。</p>
+<p><strong>📖 主编点评</strong></p>
+<p>Anthropic 把 Opus 升级到 4.8——同价位、benchmark 全面提升，并放出两个新特性：Claude.ai 用户可以控制思考强度，Claude Code 加了 dynamic workflows 处理大规模任务。Fast mode 价格降到原来 1/3。如果你在用 Claude 做 agent 编排，这次更新意味着同样的 prompt 能跑出更稳的结果，且推理预算更可控。</p>
 <details><summary>展开英文原文</summary>
 
 # Introducing Claude Opus 4.8
@@ -77,16 +73,8 @@ The table below shows how Opus 4.8 compares to its predecessor and to other mode
 <h3>3. 盯着墙壁看的男人</h3>
 <p><strong>来源</strong>：aselimov3 · hackernews · 热度 724</p>
 <p><em>原标题：Men who stare at walls</em></p>
-<p><strong>📖 中文摘要</strong></p>
-<h1>盯着墙壁以提高注意力和生产力</h1>
-<p>我偶然看到Simple Lucas的一段视频，描述了提高注意力和生产力的例行公事。 例行公事基本上是：</p>
-<p>-在专注于工作时，请勿使用任何屏幕/娱乐设施。
--当您开始感到精神疲惫时，坐下来盯着墙壁看x分钟，以恢复注意力。</p>
-<p>我一直在尝试，这是一个非常有效（但很难）的例行公事。</p>
-<h1>#问题 核心问题是，大多数人默认情况下都处于信息过载状态。</h1>
-<p>2012年发表的一篇论文显示， 2008年人均日均接收信息量为34GB ，日均信息暴露增长率约为每年5.4% 1。
-根据这一趋势，我们今天的数据价值约为87 GB。
-此计算包括音频、视觉</p>
+<p><strong>📖 主编点评</strong></p>
+<p>一篇个人博客谈「盯着墙发呆」作为对抗信息过载的方法——和半导体没有任何关系，被旧版 HN 全文搜索误抓进来。新版抓取已加严格过滤，下次跑就不会再出现。如果你想看专注力相关，去搜「productivity」专题更对路。</p>
 <details><summary>展开英文原文</summary>
 
 # Staring at walls to improve focus and productivity
@@ -112,19 +100,8 @@ This calculation includes audio, visual...
 <h3>4. 显示HN ：锻造–护栏在代理任务中将8B模型从53%提高到99%</h3>
 <p><strong>来源</strong>：zambelli · hackernews · 热度 687</p>
 <p><em>原标题：Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</em></p>
-<p><strong>📖 中文摘要</strong></p>
-<p>自托管LLM工具调用的可靠性层。 你给锻造一套工具；模型以任何顺序调用它想要的任何工具。 工作流程结构为选择加入— “REQUIRED_STEPS”</p>
-<p>, <code>先决条件</code></p>
-<p>和<code>terminal_tool</code></p>
-<p>允许您在需要时约束循环，但Forge的护栏（救援解析、重试闪屏振动、响应验证）也适用于零必需步骤。 Forge在Forge的26场景v0.7.0评估套件中将8B本地模型从单个数字提升到84% ，甚至在同一工作负载下将Sonnet 4.6从85%提升到98% （在v0.6.0中测量的人择数字；由于成本不小，因此不在v0.7.0中重新运行）。</p>
-<ul>
-<li>
-<p>*锻造不是什么： * *</p>
-</li>
-<li>
-<p><em>不是代理编排器。</em> * Forge位于一个代理循环内，使其工具调用可靠。 多智能体图、DAG规划器</p>
-</li>
-</ul>
+<p><strong>📖 主编点评</strong></p>
+<p>Forge 是个开源 LLM 工具调用可靠性层——把 8B 本地模型在 agentic 任务上的成功率从 53% 拉到 99%，靠 guardrails 而不是模型本身。这条进金融周刊也是误抓（HN 高热度但跟金融无关），下次跑分会过滤。如果你刚好在做投资类 AI agent，这种「用工程而不是 finetune 解决可靠性」的思路对你有参考。</p>
 <details><summary>展开英文原文</summary>
 
 A reliability layer for self-hosted LLM tool-calling. You give forge a set of tools; the model calls whichever it wants in whatever order. Workflow structure is opt-in — `required_steps`
@@ -148,11 +125,8 @@ Forge takes an 8B local model from single digits to 84% across forge's 26-scenar
 <h3>5. Mullvad出口IP出人意料地识别</h3>
 <p><strong>来源</strong>：RGBCube · hackernews · 热度 613</p>
 <p><em>原标题：Mullvad exit IPs are surprisingly identifying</em></p>
-<p><strong>📖 中文摘要</strong></p>
-<h1>Mullvad出口IP作为指纹识别向量</h1>
-<p><em>更新5/29 ： Mullvad已开始在其服务器上推出缓解功能，以扰乱退出IP位置，从而修复此问题。 IP仍然根据PUBKEY确定性地选择。</em></p>
-<p>Mullvad是为其服务器提供多个出口IP的少数VPN提供商之一。 如果两个人连接到同一台服务器，他们通常会使用不同的公共IP。 只有578台服务器（与Proton VPN的20,000台服务器相比） ，这种垂直扩展是有意义的，可以避免将太多用户挤在一个IP上，这在IP块和速率限制过大的网站上是一个问题。</p>
-<p>令人惊讶的是，每次连接到服务器时，您获得的退出IP都不是随机的，而是根据您的WIR</p>
+<p><strong>📖 主编点评</strong></p>
+<p>VPN 隐私话题：Mullvad 只有 578 台服务器，且 exit IP 选择是基于 pubkey 确定性的——意味着同一用户总能拿到同一 IP，反而成了指纹。Mullvad 5/29 已开始下发缓解（打乱 IP 顺序）。这条进半导体也是误抓，跟硬件芯片无关；但如果你关心隐私基础设施，这是一篇可读的技术分析。</p>
 <details><summary>展开英文原文</summary>
 
 # Mullvad exit IPs as a fingerprinting vector
@@ -276,6 +250,6 @@ Surprisingly, the exit IP you are given is not randomized each time you connect 
 </footer>
 
 <script>window.CURIO_REL_ROOT = "../../";</script>
-<script src="../../app.js?v=20260531003915"></script>
+<script src="../../app.js?v=20260531005024"></script>
 </body>
 </html>

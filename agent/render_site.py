@@ -941,6 +941,93 @@ def _read_must_titles(domain_id: str, date: str) -> list[dict]:
     return []
 
 
+def _load_editor_notes_map(domain_id: str) -> dict:
+    """读 {slug}.editor_notes.json，返回 {item_id_or_title_prefix: note_text}"""
+    out = {}
+    for f in TOPICS.glob("*.editor_notes.json"):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        for it in (data.get("notes") or data.get("items") or []):
+            iid = it.get("id")
+            if iid:
+                out[iid] = it.get("note", "") or ""
+            t = (it.get("title") or "")[:50]
+            if t:
+                out["__title:" + t.lower()] = it.get("note", "") or ""
+    return out
+
+
+def _patch_md_with_editor_notes(body_md: str, editor_notes: dict) -> str:
+    """把 markdown 里的"📖 中文摘要"段替换成 LLM 写的导读（按标题前缀匹配）"""
+    if not editor_notes:
+        return body_md
+
+    def replace_block(match):
+        # match.group(1) 是 "### N. 标题"
+        # match.group(2) 是中间内容（含烂翻译）
+        # match.group(3) 是后续内容（"<details>展开英文..." 或 "📺 [打开原文]"）
+        header = match.group(1)
+        # 提取标题用来反查
+        title_match = re.search(r"###\s+\d+\.\s+(.+)", header)
+        if not title_match:
+            return match.group(0)
+        title_text = title_match.group(1).strip()
+        # 用标题前 50 字符 lower 反查
+        key = "__title:" + title_text[:50].lower()
+        note = editor_notes.get(key, "")
+        if not note:
+            # 没找到导读，保留原 block
+            return match.group(0)
+        # 替换：保留头 + 用 LLM note + 保留 details/打开原文
+        return f"{header}\n\n**📖 主编点评**\n\n{note}\n\n{match.group(3)}"
+
+    # 匹配模式：### N. 标题 ... **📖 中文摘要** ... <details>...</details>  或  📺 [打开原文]
+    pattern = re.compile(
+        r"(###\s+\d+\.\s+[^\n]+)"          # 标题行
+        r".*?\*\*📖 中文摘要\*\*\s*\n\n"     # "中文摘要"前导
+        r".*?"                              # 烂翻译内容
+        r"(?=<details|📺 \[打开原文\])"      # 直到 <details> 或 打开原文
+        r"(.*?)"                            # 不消费的占位
+        r"(<details.*?</details>|📺 \[打开原文\][^\n]*)",  # 后续
+        re.DOTALL,
+    )
+    # 用一个简单点的实现（上面正则太复杂了）：直接逐节扫
+    # 切割每条报道（### 1. ... ### 2. ...）
+    chunks = re.split(r"(?=^###\s+\d+\.)", body_md, flags=re.MULTILINE)
+    out = []
+    for chunk in chunks:
+        m = re.match(r"^###\s+\d+\.\s+(.+?)\n", chunk)
+        if not m:
+            out.append(chunk)
+            continue
+        title_text = m.group(1).strip()
+        # 优先用英文原标题（"_原标题：xxx_"）反查，因为 editor_notes 里 key 是英文
+        orig_match = re.search(r"_原标题：(.+?)_", chunk)
+        candidates = []
+        if orig_match:
+            orig = orig_match.group(1).strip()
+            candidates.append("__title:" + orig[:50].lower())
+        candidates.append("__title:" + title_text[:50].lower())
+        note = ""
+        for k in candidates:
+            if k in editor_notes:
+                note = editor_notes[k]
+                break
+        if not note:
+            out.append(chunk)
+            continue
+        # 找到 "**📖 中文摘要**" 和它后面的烂翻译块（直到 <details> 或 📺）
+        zh_pattern = re.compile(
+            r"\*\*📖 中文摘要\*\*\s*\n\n.*?(?=<details|📺 \[打开原文\])",
+            re.DOTALL,
+        )
+        new_chunk, n = zh_pattern.subn(f"**📖 主编点评**\n\n{note}\n\n", chunk, count=1)
+        out.append(new_chunk if n else chunk)
+    return "".join(out)
+
+
 def render_issue(md_path: Path, domain_id: str, domain_name: str, domain_icon: str) -> str:
     md_text = md_path.read_text(encoding="utf-8")
     m = re.match(r"^#\s+(.+?)$", md_text, re.MULTILINE)
@@ -954,6 +1041,11 @@ def render_issue(md_path: Path, domain_id: str, domain_name: str, domain_icon: s
     date_match = re.search(r"(\d{4}-\d{2}-\d{2})", md_path.name)
     issue_date = date_match.group(1) if date_match else ""
     issue_id = f"{domain_id}/{issue_date}"
+
+    # 用 editor_notes.json 替换烂的 MyMemory 翻译
+    editor_notes = _load_editor_notes_map(domain_id)
+    if editor_notes:
+        body_md = _patch_md_with_editor_notes(body_md, editor_notes)
 
     # 砍掉 markdown 里的反馈区（要换成可交互版）
     body_md = re.sub(r"## 📝[^\n]*\n.*?(?=^---\s*$|\Z)", "", body_md, flags=re.DOTALL | re.MULTILINE)

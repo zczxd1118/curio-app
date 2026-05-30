@@ -1,0 +1,37 @@
+{
+  "domain": "vibe-coding",
+  "slug": "vibe-coding",
+  "generated_at": "2026-05-31",
+  "notes": [
+    {
+      "id": "rss:https://www.latent.space/p/ainews-anthropic-raises-965b-series",
+      "title": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows",
+      "note": "Anthropic 完成 Series H，估值据传冲到 965B 美元；同期发布 Opus 4.8 + Dynamic Workflows + ultracode。run-rate 从 12 月的 9B 美元冲到现在 47B 美元，是有史以来最快增长的 SaaS。Latent Space 的解读把「为什么是现在」讲清楚了——Claude Code 在企业里的渗透速度已经追上甚至超过 Cursor。如果你在做 AI 工具决策，这是本周最值得读的一条。"
+    },
+    {
+      "id": "hn:48238896",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "note": "Microsoft 内部全面回收 Claude Code 许可——12 月开始放给数千开发者使用，结果「太受欢迎」反过来被叫停，原因据说是与自家 Copilot 利益冲突。这是 LLM 工具市场最有意思的政治信号：连 MS 都要硬扛 Claude Code 的吸引力。如果你在选型 AI 编程工具，这条说明 Cursor / Claude Code / Copilot 的格局比看上去更胶着。"
+    },
+    {
+      "id": "hn:48037128",
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "note": "Simon Willison 的一手观察：他原本把 vibe coding（凭感觉写）和 agentic engineering（让 agent 自主完成任务）当成两件事，但最近发现自己工作流里两者已经开始融合——这让他不安。文章给出几个具体场景说明边界正在消失。这是少有的「质疑潮流」的反方观点，对你思考要不要让 agent 接管更多代码决策很有用。"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/cognition",
+      "title": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
+      "note": "Latent Space 这期访谈 Cognition（Devin 母公司）的 Walden Yan 谈「异步 agent 时代」——核心观点是 agent 不再是同步对话，而是后台跑任务、半天后回来交东西。同期访谈 OpenInspect 的 Cole Murray 讲 agent 可观测性。如果你关心从 chat agent 到 job agent 的工程范式转变，这一期 podcast 笔记可以替代你听 90 分钟原片。"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
+      "title": "Anthropic's run-rate revenue hits $47 billion",
+      "note": "Simon Willison 单独把 Anthropic 财报里「run-rate revenue 突破 47B 美元」这条单拎出来——run-rate 是按「上月营收 ×12」算的年化估算，不是已落账的钱。但即便如此，从 12 月 9B 到 5 月 47B 是真实在发生的曲线。这条比第 1 条更短更聚焦，适合作为「我只想知道结论」的版本读。"
+    },
+    {
+      "id": "bvid:BV14rzQB9EJj",
+      "title": "Claude Code 从 0 到 1 全攻略：MCP / SubAgent / Agent Skill",
+      "note": "马克的技术工作坊出的 45 分钟 B 站长视频——系统讲 Claude Code 的三层组合：MCP 接外部能力、SubAgent 拆任务、Agent Skill 沉淀工作流。这是中文圈目前最完整的 Claude Code 实战教程。如果你想从「对话用 Claude」升级到「用 Claude Code 做工程项目」，这期可以替代官方文档作为入门第一站。"
+    }
+  ]
+}

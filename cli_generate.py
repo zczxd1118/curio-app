@@ -134,6 +134,113 @@ def cmd_prepare(args):
 # 阶段 3: finalize —— 拼装 + 渲染 + push
 # ============================================================
 
+def cmd_prepare_notes(args):
+    """阶段 2.5：scored.json 已就绪 → 给每条必读生成"中文导读 prompt 文件"，等 Claude 处理"""
+    log("📝 prepare_notes —— 给每条必读生成中文导读 prompt")
+
+    import yaml
+    profile = yaml.safe_load((ROOT / "profile.yaml").read_text(encoding="utf-8")) or {}
+    template = (ROOT / "prompts" / "editor_note.md").read_text(encoding="utf-8")
+
+    # 复用 curator.py 的抓正文 + fill_prompt
+    sys.path.insert(0, str(ROOT))
+    from curator import _fetch_body_for, fill_prompt, slugify
+
+    plan_path = TOPICS_DIR / "_run_plan.json"
+    if not plan_path.exists():
+        log("  ❌ 没有 _run_plan.json")
+        return
+
+    plan = json.loads(plan_path.read_text(encoding="utf-8"))
+    notes_plan = {"prepared_at": time.strftime("%Y-%m-%d %H:%M"), "domains": []}
+
+    # 兼容旧 plan：如果 plan["domains"] 里 expected 不存在，扫所有 *.scored.json 兜底
+    plan_slugs = {d.get("slug") for d in plan["domains"]}
+    plan_by_slug = {d.get("slug"): d for d in plan["domains"]}
+    for f in TOPICS_DIR.glob("*.scored.json"):
+        slug = f.stem.replace(".scored", "")
+        if slug not in plan_slugs:
+            plan["domains"].append({
+                "domain": slug,
+                "slug": slug,
+                "expected_scored_file": str(f),
+            })
+
+    for d in plan["domains"]:
+        scored_path = Path(d.get("expected_scored_file") or (TOPICS_DIR / f"{d.get('slug', d['domain'])}.scored.json"))
+        if not scored_path.exists():
+            log(f"  ⚠️ {scored_path.name} 不存在，跳过 {d['domain']}")
+            continue
+
+        scored = json.loads(scored_path.read_text(encoding="utf-8"))
+        must = scored.get("must_read", []) or []
+        if not must:
+            log(f"  {d['domain']}: must_read 为空，跳过")
+            continue
+
+        log(f"  {d['domain']}: {len(must)} 条必读，抓正文 + 出 prompt")
+        items = []
+        for i, m in enumerate(must, 1):
+            # 仅对英文必读写中文导读（中文标题已经是中文，不需要）
+            title = (m.get("title") or "")[:200]
+            if not title:
+                continue
+            # 简单判断是否英文为主：有 ASCII 字母且占比高
+            ascii_ratio = sum(1 for c in title if c.isascii() and c.isalpha()) / max(len(title), 1)
+            is_english = ascii_ratio > 0.4
+
+            log(f"    [{i}/{len(must)}] {title[:50]}... ({'EN' if is_english else 'CN/MIX'})")
+            if not is_english:
+                # 中文标题就不写导读，render 会直接显示
+                items.append({"id": m.get("id"), "title": title, "skip_reason": "中文文章不需导读"})
+                continue
+
+            # 抓正文
+            try:
+                body, kind = _fetch_body_for(m)
+            except Exception as e:
+                log(f"      抓正文失败: {e}")
+                body, kind = "", "fallback"
+
+            prompt = fill_prompt(
+                template,
+                IDENTITY=profile.get("identity", "").strip(),
+                SIGNAL_PREFERENCES=profile.get("signal_preferences", []),
+                DISLIKES=profile.get("dislikes", []),
+                TITLE=title,
+                SOURCE=(m.get("source") or {}).get("name", "") if isinstance(m.get("source"), dict) else (m.get("source") or ""),
+                PLATFORM=m.get("platform", ""),
+                ID=m.get("id", ""),
+                ARTICLE_BODY=body[:2000] if body else "(无法抓取正文)",
+            )
+            items.append({
+                "id": m.get("id"),
+                "title": title,
+                "url": m.get("url", ""),
+                "body_kind": kind,
+                "prompt": prompt,
+            })
+
+        slug = d.get("slug") or d.get("domain")
+        out_path = TOPICS_DIR / f"{slug}.note-prompts.json"
+        out_path.write_text(json.dumps({
+            "domain": d["domain"], "slug": slug,
+            "items": items,
+        }, ensure_ascii=False, indent=2), encoding="utf-8")
+        log(f"    → {out_path.name}（{len([i for i in items if 'prompt' in i])} 条 prompt）")
+
+        notes_plan["domains"].append({
+            "domain": d["domain"], "slug": slug,
+            "note_prompts_file": str(out_path),
+            "expected_notes_file": str(TOPICS_DIR / f"{slug}.editor_notes.json"),
+        })
+
+    notes_plan_path = TOPICS_DIR / "_notes_plan.json"
+    notes_plan_path.write_text(json.dumps(notes_plan, ensure_ascii=False, indent=2), encoding="utf-8")
+    log(f"\n✅ prepare_notes 完成 → {notes_plan_path}")
+    log(f"   等 automation 处理 {len(notes_plan['domains'])} 个领域的导读 prompt")
+
+
 def cmd_finalize(args):
     """阶段 3：所有 *.scored.json 已就绪 → digest → write-prompts → 等 article 写完后 → assemble → site → push"""
     log("📰 Curio finalize —— 拼装 → 渲染 → push")
@@ -236,6 +343,9 @@ def main():
     p_prep = sub.add_parser("prepare", help="阶段1：抓数据+生成LLM prompts")
     p_prep.add_argument("--domains", nargs="*", help="只处理指定领域 ID")
     p_prep.set_defaults(func=cmd_prepare)
+
+    p_notes = sub.add_parser("prepare_notes", help="阶段2.5：scored.json 后给必读生成中文导读 prompt")
+    p_notes.set_defaults(func=cmd_prepare_notes)
 
     p_fin = sub.add_parser("finalize", help="阶段3：拼装+渲染+push+邮件")
     p_fin.add_argument("--no-push", action="store_true")
