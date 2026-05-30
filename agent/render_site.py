@@ -1820,17 +1820,40 @@ window.CURIO_GH_REPO = "zczxd1118/curio-app";
 
 
 def _extract_top_headline(domain_id: str) -> str:
-    """从该 domain 的 scored.json 拿 must_read[0].title 的第 1 句"""
-    for f in TOPICS.glob("*.scored.json"):
-        try:
-            d = json.loads(f.read_text(encoding="utf-8"))
-            must = d.get("must_read", [])
-            if must:
-                title = must[0].get("title", "") or ""
-                # 截 50 字
-                return title[:80]
-        except Exception:
-            continue
+    """从【该 domain 的】scored.json 拿 must_read[0].title。
+
+    匹配规则（按优先级）：
+      1. {domain_id}.scored.json
+      2. {topic_id}.scored.json（domain.topics 字典的某个 key）
+      3. {domain.name slugify}.scored.json（中文名 → 中文 slug 文件）
+    """
+    # 1. 直接按 domain_id
+    direct = TOPICS / f"{domain_id}.scored.json"
+    candidates = [direct]
+    # 2. 按 sources.yaml 找 topic_ids 和中文 slug
+    try:
+        cfg = yaml.safe_load(SOURCES.read_text(encoding="utf-8")) or {}
+        dcfg = (cfg.get("domains") or {}).get(domain_id) or {}
+        for topic_id in (dcfg.get("topics") or {}):
+            candidates.append(TOPICS / f"{topic_id}.scored.json")
+        # 中文名 slugify（curator.py:slugify 等价）
+        name = dcfg.get("name", "")
+        if name:
+            zh_slug = re.sub(r"[^\w\u4e00-\u9fa5]+", "-", name.lower()).strip("-")
+            if zh_slug:
+                candidates.append(TOPICS / f"{zh_slug}.scored.json")
+    except Exception:
+        pass
+
+    for f in candidates:
+        if f.exists():
+            try:
+                d = json.loads(f.read_text(encoding="utf-8"))
+                must = d.get("must_read", [])
+                if must:
+                    return (must[0].get("title", "") or "")[:80]
+            except Exception:
+                continue
     return ""
 
 
