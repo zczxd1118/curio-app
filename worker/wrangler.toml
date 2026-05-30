@@ -5,6 +5,11 @@ compatibility_date = "2025-05-01"
 # 公开访问 + 路由
 workers_dev = true
 
+# 自有域名路由（curioradar.fun 通过后启用）
+routes = [
+  { pattern = "api.curioradar.fun/*", zone_name = "curioradar.fun" }
+]
+
 [[kv_namespaces]]
 binding = "CURIO_KV"
 id = "728863a1457247388acb6b866e09ae05"
@@ -12,7 +17,7 @@ id = "728863a1457247388acb6b866e09ae05"
 # vars 是非密文配置
 [vars]
 SITE_BASE = "https://zczxd1118.github.io/curio-site"
-API_BASE = "https://curio-api.zczxd1118.workers.dev"
+API_BASE = "https://api.curioradar.fun"
 FROM_EMAIL = "Curio <onboarding@resend.dev>"
 GH_REPO = "zczxd1118/curio-app"
 
