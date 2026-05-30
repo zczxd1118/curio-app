@@ -74,6 +74,14 @@ def cmd_prepare(args):
     log("📥 ingest feedback from GitHub Issues")
     run([PY, "-m", "agent.ingest_feedback"], check=False)
 
+    # 0.1 ingest 加领域请求 → sources.yaml
+    log("📥 ingest add-domain requests")
+    run([PY, "-m", "agent.worker_sync", "ingest_add_domain"], check=False)
+
+    # 0.2 ingest 订阅请求兜底 → worker /subscribe
+    log("📥 ingest subscribe requests (GitHub fallback)")
+    run([PY, "-m", "agent.worker_sync", "ingest_subscribe"], check=False)
+
     domains = args.domains or list_active_domains()
     log(f"   领域：{domains}")
 
@@ -269,12 +277,25 @@ def cmd_finalize(args):
     else:
         log("  --no-push，跳过 push")
 
-    # 邮件通知（profile.yaml.email.enabled 控制是否真发）
+    # 邮件通知 - 自用版（profile.yaml.email.enabled 控制是否真发）
     if not args.no_email:
-        log("📧 send notification email")
+        log("📧 send notification email (self)")
         run([PY, "-m", "agent.notify_email"], check=False)
     else:
         log("  --no-email，跳过邮件")
+
+    # Worker 同步 + 群发订阅者
+    if not args.no_worker:
+        log("🛰️  sync domains to worker KV")
+        run([PY, "-m", "agent.worker_sync", "sync_domains"], check=False)
+        log("📦 push content to worker KV")
+        run([PY, "-m", "agent.worker_sync", "push_content"], check=False)
+        cadence = args.cadence or "weekly"
+        log(f"📢 broadcast to {cadence} subscribers")
+        run([PY, "-m", "agent.worker_sync", "broadcast", "--cadence", cadence],
+            check=False)
+    else:
+        log("  --no-worker，跳过 worker 同步与广播")
 
     log("")
     log("✅ finalize 完成")
@@ -347,9 +368,12 @@ def main():
     p_notes = sub.add_parser("prepare_notes", help="阶段2.5：scored.json 后给必读生成中文导读 prompt")
     p_notes.set_defaults(func=cmd_prepare_notes)
 
-    p_fin = sub.add_parser("finalize", help="阶段3：拼装+渲染+push+邮件")
+    p_fin = sub.add_parser("finalize", help="阶段3：拼装+渲染+push+邮件+worker群发")
     p_fin.add_argument("--no-push", action="store_true")
-    p_fin.add_argument("--no-email", action="store_true", help="跳过邮件推送")
+    p_fin.add_argument("--no-email", action="store_true", help="跳过自用邮件推送")
+    p_fin.add_argument("--no-worker", action="store_true", help="跳过 worker 同步与订阅者群发")
+    p_fin.add_argument("--cadence", choices=["daily", "weekly"], default=None,
+                       help="本次 broadcast 推送给哪个 cadence 的订阅者（默认 weekly）")
     p_fin.set_defaults(func=cmd_finalize)
 
     p_leg = sub.add_parser("legacy", help="老逻辑：占位算法直跑+push")

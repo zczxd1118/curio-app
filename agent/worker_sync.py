@@ -1,0 +1,414 @@
+"""
+agent/worker_sync.py
+
+把生成端（本机）和 Cloudflare Worker (curio-api) 之间的数据通起来：
+
+1. sync_domains  —— 把 sources.yaml 的领域信息推到 KV (domains:list / domains:meta)
+2. push_content  —— 把每期 weekly/daily 的 must_read 拼成 HTML 块推到 KV (content:{slug}:latest)
+3. broadcast     —— 调 worker /broadcast，让 worker 按订阅者偏好群发 (Resend 实际发邮件)
+4. ingest_subscribe_issues —— 兜底：拉 GitHub label=curio-subscribe 的 Issue，转成 /subscribe 调用
+5. ingest_add_domain_issues —— 拉 label=curio-add-domain 的 Issue，加入 sources.yaml
+
+环境变量：
+- CURIO_API_BASE     公网 worker 地址（默认 https://curio-api.zczxd1118.workers.dev，绑域名后改）
+- CURIO_ADMIN_TOKEN  admin endpoint 鉴权（与 worker 注入的 ADMIN_TOKEN 一致）
+
+CLI:
+    python -m agent.worker_sync sync_domains
+    python -m agent.worker_sync push_content
+    python -m agent.worker_sync broadcast --cadence weekly [--dry-run]
+    python -m agent.worker_sync ingest_subscribe
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import sys
+import time
+import urllib.request
+import urllib.error
+from pathlib import Path
+from typing import Any, Optional
+
+import yaml
+
+ROOT = Path(__file__).resolve().parent.parent
+SOURCES = ROOT / "sources.yaml"
+TOPICS = ROOT / "topics"
+WORKER_DEV_VARS = ROOT / "worker" / ".dev.vars"
+
+
+# ============== utils ==============
+
+def _load_dev_vars() -> dict:
+    out = {}
+    if WORKER_DEV_VARS.exists():
+        for line in WORKER_DEV_VARS.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if "=" in line:
+                k, v = line.split("=", 1)
+                out[k.strip()] = v.strip()
+    return out
+
+
+def _env() -> dict:
+    """合并 os.environ 和 .dev.vars，os.environ 优先"""
+    base = _load_dev_vars()
+    base.update({k: v for k, v in os.environ.items() if k.startswith("CURIO_") or k in ("ADMIN_TOKEN",)})
+    return base
+
+
+def _api_base() -> str:
+    env = _env()
+    return env.get("CURIO_API_BASE", "https://curio-api.zczxd1118.workers.dev").rstrip("/")
+
+
+def _admin_token() -> str:
+    env = _env()
+    tok = env.get("CURIO_ADMIN_TOKEN") or env.get("ADMIN_TOKEN") or ""
+    if not tok:
+        raise RuntimeError(
+            "未配置 ADMIN_TOKEN：请在 worker/.dev.vars 写 ADMIN_TOKEN=xxx 或设环境变量 CURIO_ADMIN_TOKEN"
+        )
+    return tok
+
+
+def _http(method: str, path: str, body: Optional[dict] = None,
+          admin: bool = False, timeout: int = 20) -> tuple[int, dict]:
+    url = _api_base() + path
+    data = None
+    headers = {"Content-Type": "application/json"}
+    if admin:
+        headers["Authorization"] = "Bearer " + _admin_token()
+    if body is not None:
+        data = json.dumps(body, ensure_ascii=False).encode("utf-8")
+    req = urllib.request.Request(url, data=data, method=method, headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.status, json.loads(r.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        try:
+            payload = json.loads(e.read().decode("utf-8"))
+        except Exception:
+            payload = {"error": str(e)}
+        return e.code, payload
+    except Exception as e:
+        return 0, {"error": "network: " + str(e)}
+
+
+def _log(msg: str):
+    print(msg, flush=True)
+
+
+# ============== 1. sync_domains ==============
+
+def sync_domains() -> int:
+    if not SOURCES.exists():
+        _log("❌ 找不到 sources.yaml")
+        return 1
+    cfg = yaml.safe_load(SOURCES.read_text(encoding="utf-8")) or {}
+    domains = cfg.get("domains") or {}
+    if not isinstance(domains, dict):
+        _log("❌ sources.yaml domains 不是 dict 格式")
+        return 1
+
+    ids = list(domains.keys())
+    meta = {}
+    for did, dcfg in domains.items():
+        if not isinstance(dcfg, dict):
+            continue
+        meta[did] = {
+            "name": dcfg.get("name", did),
+            "icon": dcfg.get("icon", "📰"),
+            "frequency": dcfg.get("frequency", "weekly"),
+        }
+
+    _log(f"🛰️  推送 {len(ids)} 个领域到 worker KV: {ids}")
+    code, body = _http("POST", "/admin/sync-domains",
+                       body={"domains": ids, "meta": meta}, admin=True)
+    if code != 200:
+        _log(f"❌ 失败: HTTP {code}: {body}")
+        return 1
+    _log(f"✅ {body}")
+    return 0
+
+
+# ============== 2. push_content ==============
+
+def _scored_to_html_block(scored: dict, domain_name: str, domain_icon: str) -> str:
+    """把 scored.json 的 must_read 拼成一段邮件可读 HTML"""
+    must = scored.get("must_read") or []
+    if not must:
+        return ""
+    items_html = []
+    for it in must:
+        title = (it.get("title") or "").replace("<", "&lt;").replace(">", "&gt;")
+        url = it.get("url") or ""
+        why = (it.get("why_recommend") or "").replace("<", "&lt;").replace(">", "&gt;")
+        platform = it.get("platform") or ""
+        items_html.append(
+            f"""<li style="margin-bottom:14px">
+              <a href="{url}" style="color:#1a1a1c;font-weight:600;font-size:15px;text-decoration:none">{title}</a>
+              <span style="color:#888;font-size:11px;margin-left:6px">{platform}</span>
+              <div style="color:#555;font-size:13px;margin-top:4px">{why}</div>
+            </li>"""
+        )
+    return f"""<section style="margin-bottom:32px">
+      <h2 style="font-size:18px;border-bottom:1px solid #ddd;padding-bottom:6px;margin-bottom:12px">
+        {domain_icon} {domain_name}
+      </h2>
+      <ul style="list-style:none;padding:0;margin:0">{''.join(items_html)}</ul>
+    </section>"""
+
+
+def push_content() -> int:
+    if not SOURCES.exists():
+        _log("❌ 找不到 sources.yaml")
+        return 1
+    cfg = yaml.safe_load(SOURCES.read_text(encoding="utf-8")) or {}
+    domains_cfg = cfg.get("domains") or {}
+
+    # 反查 slug → domain_id
+    name_to_id = {dcfg.get("name", did): did for did, dcfg in domains_cfg.items() if isinstance(dcfg, dict)}
+
+    pushed = 0
+    skipped = 0
+    for f in TOPICS.glob("*.scored.json"):
+        slug = f.stem.replace(".scored", "")
+        try:
+            scored = json.loads(f.read_text(encoding="utf-8"))
+        except Exception as e:
+            _log(f"  跳过 {f.name}: {e}")
+            skipped += 1
+            continue
+
+        # 反查 domain_id
+        domain_name = scored.get("domain") or slug
+        domain_id = name_to_id.get(domain_name, slug)
+        dcfg = domains_cfg.get(domain_id) or {}
+        domain_icon = dcfg.get("icon", "📰")
+
+        html = _scored_to_html_block(scored, domain_name, domain_icon)
+        if not html:
+            _log(f"  {domain_id}: must_read 为空，跳过")
+            skipped += 1
+            continue
+
+        body_payload = {
+            "slug": domain_id,
+            "content": {
+                "html": html,
+                "domain": domain_name,
+                "must_count": len(scored.get("must_read") or []),
+                "generated_at": time.strftime("%Y-%m-%d %H:%M"),
+            },
+        }
+        code, resp = _http("POST", "/admin/push-content", body=body_payload, admin=True)
+        if code == 200:
+            _log(f"  ✅ {domain_id} ({domain_name}): pushed")
+            pushed += 1
+        else:
+            _log(f"  ❌ {domain_id}: HTTP {code}: {resp}")
+            skipped += 1
+
+    _log(f"\n📊 推送完成：{pushed} 成功 / {skipped} 跳过")
+    return 0 if pushed > 0 else 1
+
+
+# ============== 3. broadcast ==============
+
+def broadcast(cadence: str, dry_run: bool = False) -> int:
+    if cadence not in ("daily", "weekly"):
+        _log("❌ cadence 必须是 daily 或 weekly")
+        return 1
+    _log(f"📢 触发 {cadence} 广播 (dry_run={dry_run})")
+    code, body = _http("POST", "/broadcast",
+                       body={"cadence": cadence, "dry_run": dry_run},
+                       admin=True, timeout=120)
+    if code != 200:
+        _log(f"❌ HTTP {code}: {body}")
+        return 1
+    _log(f"✅ sent={body.get('sent')} skipped={body.get('skipped')} failed={body.get('failed')}")
+    if body.get("errors"):
+        for e in body["errors"]:
+            _log(f"   error: {e}")
+    return 0
+
+
+# ============== 4. ingest GitHub Issue 兜底（订阅 / 加领域）==============
+
+def _gh_api(path: str, method: str = "GET", body: Optional[dict] = None) -> Any:
+    """复用 .gh_pat"""
+    pat_file = ROOT / ".gh_pat"
+    if not pat_file.exists():
+        raise RuntimeError("找不到 .gh_pat")
+    pat = pat_file.read_text(encoding="utf-8").strip()
+    url = "https://api.github.com" + path
+    data = json.dumps(body).encode() if body is not None else None
+    req = urllib.request.Request(url, data=data, method=method, headers={
+        "Authorization": "Bearer " + pat,
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "curio-bot",
+        "Content-Type": "application/json",
+    })
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.loads(r.read().decode())
+
+
+def _list_open_issues(label: str, repo: str = "zczxd1118/curio-app"):
+    return _gh_api(f"/repos/{repo}/issues?state=open&labels={label}&per_page=50")
+
+
+def _close_issue(num: int, comment: str, label_add: str = "curio-ingested",
+                 repo: str = "zczxd1118/curio-app"):
+    if comment:
+        _gh_api(f"/repos/{repo}/issues/{num}/comments", "POST", {"body": comment})
+    if label_add:
+        _gh_api(f"/repos/{repo}/issues/{num}/labels", "POST", {"labels": [label_add]})
+    _gh_api(f"/repos/{repo}/issues/{num}", "PATCH", {"state": "closed"})
+
+
+def _parse_yaml_block(body: str) -> dict:
+    """提取 ```yaml ... ``` 段"""
+    import re
+    m = re.search(r"```yaml\s*\n(.+?)\n```", body or "", re.DOTALL)
+    if not m:
+        return {}
+    try:
+        return yaml.safe_load(m.group(1)) or {}
+    except Exception:
+        return {}
+
+
+def ingest_subscribe_issues() -> int:
+    """处理 [curio-subscribe] Issue：转成 /subscribe 调用"""
+    try:
+        issues = _list_open_issues("curio-subscribe")
+    except Exception as e:
+        _log(f"❌ 拉取 Issue 失败：{e}")
+        return 1
+
+    if not issues:
+        _log("（没有待处理的订阅 Issue）")
+        return 0
+
+    ok = fail = 0
+    for issue in issues:
+        num = issue["number"]
+        body = issue.get("body") or ""
+        data = _parse_yaml_block(body)
+        email = (data.get("email") or "").strip()
+        domains = data.get("domains") or []
+        cadence = (data.get("cadence") or "weekly").strip()
+
+        if not email or not domains:
+            _log(f"  #{num}: 缺 email 或 domains，跳过")
+            fail += 1
+            continue
+
+        code, resp = _http("POST", "/subscribe",
+                           body={"email": email, "domains": domains, "cadence": cadence})
+        if code == 200:
+            _log(f"  ✅ #{num} {email} → {resp.get('status')}")
+            try:
+                _close_issue(num, comment=f"已转 worker：{resp.get('message','')}", label_add="curio-ingested")
+            except Exception as e:
+                _log(f"     close 失败: {e}")
+            ok += 1
+        else:
+            _log(f"  ❌ #{num}: HTTP {code}: {resp}")
+            fail += 1
+
+    _log(f"\n📊 ingest 完成：{ok} 成功 / {fail} 失败")
+    return 0
+
+
+def ingest_add_domain_issues() -> int:
+    """处理 [curio-add-domain] Issue：加入 sources.yaml"""
+    try:
+        issues = _list_open_issues("curio-add-domain")
+    except Exception as e:
+        _log(f"❌ 拉取 Issue 失败：{e}")
+        return 1
+    if not issues:
+        _log("（没有待处理的加领域 Issue）")
+        return 0
+
+    cfg = yaml.safe_load(SOURCES.read_text(encoding="utf-8")) or {}
+    domains_cfg = cfg.setdefault("domains", {})
+
+    ok = fail = 0
+    for issue in issues:
+        num = issue["number"]
+        body = issue.get("body") or ""
+        data = _parse_yaml_block(body)
+        name = (data.get("name") or "").strip()
+        if not name:
+            _log(f"  #{num}: 缺 name，跳过")
+            fail += 1
+            continue
+        icon = data.get("icon") or "📰"
+        freq = data.get("frequency") or "weekly"
+        # 简易 slug
+        import re
+        slug = re.sub(r"[^a-z0-9-]+", "-", name.lower()).strip("-") or f"domain-{num}"
+        if slug in domains_cfg:
+            _log(f"  #{num}: {slug} 已存在，跳过")
+            try:
+                _close_issue(num, comment=f"领域 {slug} 已存在", label_add="curio-ingested")
+            except Exception:
+                pass
+            continue
+        domains_cfg[slug] = {
+            "name": name,
+            "icon": icon,
+            "frequency": freq,
+            "topics": [],
+        }
+        ok += 1
+        try:
+            _close_issue(num, comment=f"已加入领域 {slug}（{name}），下次跑生效", label_add="curio-ingested")
+        except Exception as e:
+            _log(f"     close 失败: {e}")
+
+    if ok > 0:
+        SOURCES.write_text(yaml.safe_dump(cfg, allow_unicode=True, sort_keys=False), encoding="utf-8")
+        _log(f"\n📝 已加入 {ok} 个领域到 sources.yaml")
+    _log(f"\n📊 ingest_add_domain 完成：{ok} 成功 / {fail} 失败")
+    return 0
+
+
+# ============== CLI ==============
+
+def main():
+    p = argparse.ArgumentParser()
+    sub = p.add_subparsers(dest="cmd", required=True)
+
+    sub.add_parser("sync_domains", help="把 sources.yaml 的领域同步到 worker KV")
+    sub.add_parser("push_content", help="把所有 scored.json 转 HTML 块推到 worker KV")
+    bcast = sub.add_parser("broadcast", help="触发 worker 按订阅者偏好群发邮件")
+    bcast.add_argument("--cadence", required=True, choices=["daily", "weekly"])
+    bcast.add_argument("--dry-run", action="store_true")
+    sub.add_parser("ingest_subscribe", help="拉 GitHub [curio-subscribe] Issue 兜底")
+    sub.add_parser("ingest_add_domain", help="拉 GitHub [curio-add-domain] Issue 加入 sources.yaml")
+
+    args = p.parse_args()
+
+    if args.cmd == "sync_domains":
+        sys.exit(sync_domains())
+    if args.cmd == "push_content":
+        sys.exit(push_content())
+    if args.cmd == "broadcast":
+        sys.exit(broadcast(args.cadence, args.dry_run))
+    if args.cmd == "ingest_subscribe":
+        sys.exit(ingest_subscribe_issues())
+    if args.cmd == "ingest_add_domain":
+        sys.exit(ingest_add_domain_issues())
+
+
+if __name__ == "__main__":
+    main()

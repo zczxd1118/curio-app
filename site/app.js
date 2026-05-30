@@ -1,9 +1,23 @@
 
 // ===== 工具 =====
-const API_BASE = '';  // 同源 → 用相对路径
+const API_BASE = '';  // 同源 → 用相对路径（本地 server 模式）
+const WORKER_API = (window.CURIO_API_BASE || '').replace(/\/$/, '');  // 公网 Worker API
+const GH_REPO = window.CURIO_GH_REPO || 'zczxd1118/curio-app';
 
 function $(s, root=document) { return root.querySelector(s); }
 function $$(s, root=document) { return Array.from(root.querySelectorAll(s)); }
+
+// 调 Worker API（支持公网订阅 / 加领域）
+async function workerApi(path, opts={}) {
+  if (!WORKER_API) throw new Error('Worker API 未配置');
+  const r = await fetch(WORKER_API + path, {
+    headers: {'Content-Type': 'application/json'},
+    ...opts,
+  });
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(data.error || `HTTP ${r.status}`);
+  return data;
+}
 
 function toast(msg, isError=false) {
   let t = $('.toast') || (() => {
@@ -40,8 +54,9 @@ function isServerMode() {
 const ICONS = ['🤖','🏦','🔬','📈','🧬','⚛️','🎮','📚','🎨','🚀','🌍','💊','🏛️','🎬','⚖️','🔋'];
 
 function openAddDomainModal() {
+  // 静态模式：跳到 GitHub Issue（让用户提交"想加什么领域"，Agent 下次跑前 ingest）
   if (!isServerMode()) {
-    alert('需要先启动后端：\\n\\n  python server.py\\n\\n然后用 http://localhost:8765/ 打开');
+    openAddDomainViaIssue();
     return;
   }
 
@@ -128,6 +143,221 @@ function openAddDomainModal() {
   }
   modal.classList.add('show');
   setTimeout(() => $('#d-name', modal)?.focus(), 50);
+}
+
+// 静态模式：通过 GitHub Issue 申请加领域
+function openAddDomainViaIssue() {
+  let modal = $('.modal-overlay.add-issue');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.className = 'modal-overlay add-issue';
+    modal.innerHTML = `
+      <div class="modal">
+        <h3>📨 申请新增领域</h3>
+        <p>填好后会跳到 GitHub 提交一条 Issue，Agent 下次跑生成前会自动读取并加入新领域。</p>
+        <div class="form-row">
+          <label>领域名（中文）</label>
+          <input type="text" id="ai-name" placeholder="例：生物科技 / 量子计算 / 摄影" autofocus>
+        </div>
+        <div class="form-row">
+          <label>图标</label>
+          <div class="icon-row" id="ai-icons">
+            ${ICONS.map((i, idx) => `<div class="icon-pick ${idx===0?'active':''}" data-icon="${i}">${i}</div>`).join('')}
+          </div>
+        </div>
+        <div class="form-row">
+          <label>推送频率</label>
+          <select id="ai-freq">
+            <option value="weekly">每周一次（深度内容）</option>
+            <option value="daily">每天一次（突发新闻）</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label>关键词 / 信源建议（可选，1-3 行）</label>
+          <textarea id="ai-keywords" placeholder="例：CRISPR、合成生物学、Nature Biotech RSS"
+            style="width:100%;min-height:60px;background:var(--bg-elev);border:1px solid var(--line);color:var(--text);padding:8px;border-radius:4px;font-family:var(--sans);font-size:13px"></textarea>
+        </div>
+        <div class="modal-actions">
+          <button class="btn-secondary" id="ai-cancel">取消</button>
+          <button class="btn-primary" id="ai-go">跳转 GitHub 提交</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(modal);
+    $$('#ai-icons .icon-pick', modal).forEach(p => {
+      p.addEventListener('click', () => {
+        $$('#ai-icons .icon-pick', modal).forEach(x => x.classList.remove('active'));
+        p.classList.add('active');
+      });
+    });
+    $('#ai-cancel', modal).addEventListener('click', () => modal.classList.remove('show'));
+    modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('show'); });
+    $('#ai-go', modal).addEventListener('click', () => {
+      const name = $('#ai-name', modal).value.trim();
+      if (!name) { toast('请填领域名', true); return; }
+      const icon = $('#ai-icons .icon-pick.active', modal)?.dataset.icon || '📰';
+      const freq = $('#ai-freq', modal).value;
+      const kw = $('#ai-keywords', modal).value.trim();
+      const lines = [
+        '<!-- Curio 加领域申请 · 自动生成 -->',
+        '```yaml',
+        'type: add-domain',
+        'name: ' + JSON.stringify(name),
+        'icon: ' + icon,
+        'frequency: ' + freq,
+      ];
+      if (kw) {
+        lines.push('keywords_or_sources: |');
+        kw.split('\n').forEach(line => lines.push('  ' + line));
+      }
+      lines.push('```');
+      lines.push('');
+      lines.push('Agent 下次跑前会读取这条 Issue 并自动加入 sources.yaml，然后关闭。');
+      const title = encodeURIComponent('[curio-add-domain] ' + name);
+      const body = encodeURIComponent(lines.join('\n'));
+      const url = 'https://github.com/' + GH_REPO + '/issues/new?labels=curio-add-domain&title=' + title + '&body=' + body;
+      window.open(url, '_blank');
+      modal.classList.remove('show');
+      toast('✅ 已打开 GitHub 提交页');
+    });
+  }
+  modal.classList.add('show');
+  setTimeout(() => $('#ai-name', modal)?.focus(), 50);
+}
+
+// 订阅 modal：邮箱 + 选域 + 选日报/周刊
+async function openSubscribeModal() {
+  let modal = $('.modal-overlay.subscribe');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.className = 'modal-overlay subscribe';
+    modal.innerHTML = `
+      <div class="modal" style="max-width:520px">
+        <h3>📨 订阅 Curio 简报</h3>
+        <p>留下邮箱，Curio 会按你的偏好把每期内容发到邮箱。我们不会把邮箱用于其他用途。</p>
+        <div class="form-row">
+          <label>邮箱</label>
+          <input type="email" id="sub-email" placeholder="you@example.com" autocomplete="email" autofocus>
+        </div>
+        <div class="form-row">
+          <label>关注哪些领域（多选）</label>
+          <div class="sub-domain-grid" id="sub-domains"><div class="sub-domain-pick">加载中...</div></div>
+        </div>
+        <div class="form-row">
+          <label>推送频率</label>
+          <div class="sub-cadence-row">
+            <div class="sub-cadence-pick active" data-cadence="weekly">
+              <div class="label">📅 周刊</div>
+              <div class="meta">每周一早 8:00</div>
+            </div>
+            <div class="sub-cadence-pick" data-cadence="daily">
+              <div class="label">☀️ 日报</div>
+              <div class="meta">每天早 8:00</div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-actions">
+          <button class="btn-secondary" id="sub-cancel">取消</button>
+          <button class="btn-primary" id="sub-go">订阅</button>
+        </div>
+        <div id="sub-status" style="margin-top:12px;font-family:var(--sans);font-size:13px;color:var(--text-soft);min-height:20px"></div>
+      </div>
+    `;
+    document.body.appendChild(modal);
+
+    // 加载领域列表（先用本地 nav 派生，再异步从 worker 拉以保证最新）
+    const grid = $('#sub-domains', modal);
+    const localDomains = [];
+    $$('.nav-links a').forEach(a => {
+      const text = a.textContent.trim();
+      const href = a.getAttribute('href') || '';
+      const m = href.match(/d\/([^/]+)\//);
+      if (m) {
+        const parts = text.split(' ');
+        localDomains.push({id: m[1], icon: parts[0] || '📰', name: parts.slice(1).join(' ') || m[1]});
+      }
+    });
+    const renderDomains = (list) => {
+      if (!list.length) { grid.innerHTML = '<div class="sub-domain-pick">暂无领域</div>'; return; }
+      grid.innerHTML = list.map(d => `
+        <div class="sub-domain-pick" data-id="${d.id}">
+          <span class="icon">${d.icon || '📰'}</span><span>${d.name}</span>
+        </div>`).join('');
+      $$('.sub-domain-pick', grid).forEach(p => {
+        p.addEventListener('click', () => p.classList.toggle('active'));
+      });
+    };
+    renderDomains(localDomains);
+    if (WORKER_API) {
+      workerApi('/domains').then(d => {
+        if (Array.isArray(d.domains) && d.domains.length && d.meta) {
+          const list = d.domains.map(id => ({id, icon: d.meta[id]?.icon || '📰', name: d.meta[id]?.name || id}));
+          renderDomains(list);
+        }
+      }).catch(() => {});
+    }
+
+    // cadence
+    $$('.sub-cadence-pick', modal).forEach(p => {
+      p.addEventListener('click', () => {
+        $$('.sub-cadence-pick', modal).forEach(x => x.classList.remove('active'));
+        p.classList.add('active');
+      });
+    });
+
+    $('#sub-cancel', modal).addEventListener('click', () => modal.classList.remove('show'));
+    modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('show'); });
+
+    $('#sub-go', modal).addEventListener('click', async () => {
+      const email = $('#sub-email', modal).value.trim();
+      if (!email || !/.+@.+\..+/.test(email)) { toast('邮箱格式不对', true); return; }
+      const picked = $$('.sub-domain-pick.active', grid).map(p => p.dataset.id);
+      if (!picked.length) { toast('至少选一个领域', true); return; }
+      const cadence = $('.sub-cadence-pick.active', modal)?.dataset.cadence || 'weekly';
+
+      const status = $('#sub-status', modal);
+      const btn = $('#sub-go', modal);
+      btn.disabled = true; btn.textContent = '提交中...';
+      status.textContent = '';
+      try {
+        if (!WORKER_API) throw new Error('Worker API 未配置');
+        const r = await workerApi('/subscribe', {
+          method: 'POST',
+          body: JSON.stringify({email, domains: picked, cadence}),
+        });
+        status.style.color = '#5cb85c';
+        status.textContent = '✅ ' + (r.message || '已发送确认邮件，请查收');
+        toast('✅ 已发送确认邮件，请查收');
+        setTimeout(() => modal.classList.remove('show'), 2400);
+      } catch (e) {
+        status.style.color = '#d9534f';
+        status.textContent = '❌ ' + e.message;
+        // worker 不可达时给个 GitHub Issue 兜底
+        if (/HTTP|fetch|Worker/i.test(e.message)) {
+          status.innerHTML += ' <a href="#" id="sub-fallback" style="color:var(--accent)">改用 GitHub 提交</a>';
+          $('#sub-fallback', modal)?.addEventListener('click', ev => {
+            ev.preventDefault();
+            const lines = [
+              '<!-- Curio 订阅请求 · 自动生成 -->',
+              '```yaml',
+              'type: subscribe',
+              'email: ' + JSON.stringify(email),
+              'domains: ' + JSON.stringify(picked),
+              'cadence: ' + cadence,
+              '```',
+            ];
+            const url = 'https://github.com/' + GH_REPO + '/issues/new?labels=curio-subscribe&title=' +
+              encodeURIComponent('[curio-subscribe] ' + email) + '&body=' + encodeURIComponent(lines.join('\n'));
+            window.open(url, '_blank');
+          });
+        }
+      } finally {
+        btn.disabled = false; btn.textContent = '订阅';
+      }
+    });
+  }
+  modal.classList.add('show');
+  setTimeout(() => $('#sub-email', modal)?.focus(), 50);
 }
 
 async function deleteDomain(domainId, domainName) {
@@ -496,9 +726,13 @@ document.addEventListener('DOMContentLoaded', () => {
   initTOC();
   initSearch();
 
-  // 添加领域按钮
+  // 添加领域按钮（点击）
   const addBtn = $('.add-domain');
   if (addBtn) addBtn.addEventListener('click', openAddDomainModal);
+
+  // 订阅按钮
+  const subBtn = $('#subscribe-btn');
+  if (subBtn) subBtn.addEventListener('click', openSubscribeModal);
 
   // 删除领域按钮
   $$('.del-btn').forEach(btn => {
@@ -534,14 +768,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// 静态模式：隐藏需要后端的按钮，反馈区改 GitHub Issue 跳转
+// 静态模式：隐藏 server-only 按钮（保留加领域，因为它现在跳 GitHub Issue）
 function applyStaticMode() {
   $$('.gen-btn, .del-btn').forEach(b => b.style.display = 'none');
   const addBtn = $('.add-domain');
   if (addBtn) {
-    addBtn.style.opacity = '0.4';
-    addBtn.style.cursor = 'not-allowed';
-    addBtn.title = '本地启动 server 后可用';
+    addBtn.title = '点击通过 GitHub Issue 申请新增领域';
   }
   $$('.feedback').forEach(fb => {
     const submit = $('.fb-submit-btn', fb);

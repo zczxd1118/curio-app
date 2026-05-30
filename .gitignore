@@ -22,3 +22,7 @@ site/.git/
 .DS_Store
 .vscode/
 .idea/
+worker/.dev.vars
+worker/node_modules/
+worker/.npm-cache/
+worker/.wrangler-state/

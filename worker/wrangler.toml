@@ -1,0 +1,21 @@
+name = "curio-api"
+main = "src/index.js"
+compatibility_date = "2025-05-01"
+
+# 公开访问 + 路由
+workers_dev = true
+
+[[kv_namespaces]]
+binding = "CURIO_KV"
+id = "728863a1457247388acb6b866e09ae05"
+
+# vars 是非密文配置
+[vars]
+SITE_BASE = "https://zczxd1118.github.io/curio-site"
+API_BASE = "https://curio-api.zczxd1118.workers.dev"
+FROM_EMAIL = "Curio <onboarding@resend.dev>"
+GH_REPO = "zczxd1118/curio-app"
+
+# secrets 用 wrangler secret put 注入：
+#   RESEND_API_KEY
+#   ADMIN_TOKEN（用于 automation 调 /broadcast 鉴权）
