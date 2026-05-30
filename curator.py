@@ -64,7 +64,7 @@ def fill_prompt(template: str, **kwargs: Any) -> str:
     out = template
     for k, v in kwargs.items():
         if isinstance(v, (list, dict)):
-            v = json.dumps(v, ensure_ascii=False, indent=2)
+            v = json.dumps(v, ensure_ascii=False, indent=2, default=str)
         out = out.replace(f"{{{k}}}", str(v))
     return out
 

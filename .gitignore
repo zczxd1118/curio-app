@@ -8,6 +8,7 @@ venv/
 # Project
 .smtp_secret
 .bili_secret
+.gh_pat
 .translate_cache/
 .article_cache/
 

@@ -263,14 +263,10 @@ function initFeedback() {
     }).catch(() => {});
   }
 
-  // 提交
+  // 提交（双模式：本地 server 走 API，公网静态站点走 GitHub Issue 跳转）
   const submitBtn = $('.fb-submit-btn', fb);
   if (!submitBtn) return;
   submitBtn.addEventListener('click', async () => {
-    if (!isServerMode()) {
-      alert('需要先启动后端：python server.py，然后用 http://localhost:8765/ 打开。');
-      return;
-    }
     const items = $$('.fb-item', fb).map(item => {
       const active = $('.fb-btn.active', item);
       return {
@@ -295,19 +291,54 @@ function initFeedback() {
     submitBtn.disabled = true;
     const status = $('.fb-status', fb);
     status.className = 'fb-status';
-    status.textContent = '提交中...';
-    try {
-      await api('/api/feedback', {
-        method: 'POST',
-        body: JSON.stringify({issue_id: issueId, items, long_term}),
+
+    if (isServerMode()) {
+      // 本地 server 模式：走 API
+      status.textContent = '提交中...';
+      try {
+        await api('/api/feedback', {
+          method: 'POST',
+          body: JSON.stringify({issue_id: issueId, items, long_term}),
+        });
+        status.className = 'fb-status success';
+        status.textContent = '✅ 已保存。下次跑前 Agent 会读这段。';
+        toast('反馈已保存');
+      } catch (e) {
+        status.className = 'fb-status error';
+        status.textContent = '❌ ' + e.message;
+      } finally {
+        submitBtn.disabled = false;
+      }
+    } else {
+      // 静态站点模式：拼 GitHub Issue 跳转链接
+      const REPO = 'zczxd1118/curio-app';
+      const lines = [];
+      lines.push('<!-- Curio 反馈 · 自动生成 · 不要修改这一行 -->');
+      lines.push('```yaml');
+      lines.push('issue_id: ' + issueId);
+      lines.push('submitted_at: ' + new Date().toISOString());
+      lines.push('items:');
+      items.forEach(it => {
+        lines.push('  - idx: ' + it.idx);
+        lines.push('    title: ' + JSON.stringify(it.title));
+        if (it.rating) lines.push('    rating: ' + it.rating);
+        if (it.note) lines.push('    note: ' + JSON.stringify(it.note));
       });
+      lines.push('long_term:');
+      ['more','less','format'].forEach(k => {
+        if (long_term[k]) lines.push('  ' + k + ': ' + JSON.stringify(long_term[k]));
+      });
+      lines.push('```');
+      lines.push('');
+      lines.push('---');
+      lines.push('');
+      lines.push('提交后 Agent 会在下次跑生成时读取这条反馈，并自动 close 本 Issue。');
+      const body = encodeURIComponent(lines.join('\n'));
+      const title = encodeURIComponent('[curio-feedback] ' + issueId);
+      const url = 'https://github.com/' + REPO + '/issues/new?labels=curio-feedback&title=' + title + '&body=' + body;
+      window.open(url, '_blank');
       status.className = 'fb-status success';
-      status.textContent = '✅ 已保存。下次跑前 Agent 会读这段。';
-      toast('反馈已保存');
-    } catch (e) {
-      status.className = 'fb-status error';
-      status.textContent = '❌ ' + e.message;
-    } finally {
+      status.textContent = '✅ 已打开 GitHub 提交页，登录后点 "Submit new issue" 即可。';
       submitBtn.disabled = false;
     }
   });
@@ -352,13 +383,14 @@ document.addEventListener('DOMContentLoaded', () => {
       addBtn.style.cursor = 'not-allowed';
       addBtn.title = '本地启动 server 后可用';
     }
-    // 反馈区也变只读
+    // 反馈区改成"通过 GitHub Issue 提交"模式
     $$('.feedback').forEach(fb => {
       const submit = $('.fb-submit-btn', fb);
       if (submit) {
-        submit.disabled = true;
-        submit.textContent = '只读演示（本地启动后可提交）';
+        submit.textContent = '提交反馈到 GitHub';
       }
+      const desc = $('.desc', fb);
+      if (desc) desc.textContent = '点击下方按钮，会跳转到 GitHub 预填好的 Issue 页面，登录确认即可。Agent 下次跑时会自动读取并关闭。';
     });
   });
 });
