@@ -25,12 +25,24 @@ ENDPOINT = "https://hn.algolia.com/api/v1/search"
 UA = "Curio/0.1 (https://github.com/zoezczhou)"
 
 
+def _is_relevant(title: str, url: str, query: str) -> bool:
+    """关键词必须在标题或 URL 域名里出现，否则丢掉（HN 全文搜索副作用）"""
+    q = query.lower().strip()
+    if not q:
+        return True
+    # 拆多关键词（如 "TSMC chip"），任一命中就过
+    tokens = [t for t in q.replace("-", " ").split() if len(t) >= 2]
+    hay = (title + " " + url).lower()
+    return any(t in hay for t in tokens) if tokens else True
+
+
 def search_hn(
     query: str,
     days: int = 7,
     min_points: int = 0,
     hits_per_page: int = 30,
     tags: str = "story",
+    strict_match: bool = True,
 ) -> list[dict[str, Any]]:
     """
     搜 HN
@@ -63,10 +75,16 @@ def search_hn(
     hits = r.json().get("hits", [])
 
     items: list[dict[str, Any]] = []
+    skipped_irrelevant = 0
     for h in hits:
         title = h.get("title") or ""
         url = h.get("url") or f"https://news.ycombinator.com/item?id={h.get('objectID')}"
         if not title:
+            continue
+        # 关键修复：HN Algolia 是全文搜索，命中会包含正文里偶然提到关键词的不相关文章
+        # 只保留标题或 url 里真正出现关键词的条目
+        if strict_match and not _is_relevant(title, url, query):
+            skipped_irrelevant += 1
             continue
 
         created = h.get("created_at_i", 0)
@@ -97,7 +115,8 @@ def search_hn(
             }
         )
 
-    print(f"   ✓ 拿到 {len(items)} 条", file=sys.stderr)
+    skip_msg = f"（过滤掉 {skipped_irrelevant} 条不相关）" if skipped_irrelevant else ""
+    print(f"   ✓ 拿到 {len(items)} 条 {skip_msg}", file=sys.stderr)
     return items
 
 

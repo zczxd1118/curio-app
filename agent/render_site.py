@@ -374,9 +374,10 @@ async function api(path, opts={}) {
   return r.json();
 }
 
+// 真实的"是否有可用后端"：仅当 /api/health 返回 ok 时为 true
+// 通过 fetch 探测后写到 window.__CURIO_HAS_BACKEND（DOMContentLoaded 阶段设置）
 function isServerMode() {
-  // 用 file:// 打开时 location.protocol === 'file:'
-  return location.protocol === 'http:' || location.protocol === 'https:';
+  return window.__CURIO_HAS_BACKEND === true;
 }
 
 // ===== 添加领域弹窗 =====
@@ -859,34 +860,55 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 反馈交互
+  // 默认假设无后端（公网 GitHub Pages 永远走这条路径）
+  window.__CURIO_HAS_BACKEND = false;
+  applyStaticMode();
   initFeedback();
 
-  // 检测是否后端可用（API 健康检查）
+  // 异步探测后端（仅本地开发时会成功）
   fetch('/api/health').then(r => {
     if (!r.ok) throw new Error('no api');
+    return r.json().catch(() => ({}));
+  }).then(() => {
+    // 真有后端：切到 server 模式，重置 UI
+    window.__CURIO_HAS_BACKEND = true;
+    applyServerMode();
   }).catch(() => {
-    // 静态模式：显示提示 + 隐藏交互按钮
-    const notice = document.getElementById('static-mode-notice');
-    if (notice) notice.style.display = 'block';
-    $$('.gen-btn, .del-btn').forEach(b => b.style.display = 'none');
-    const addBtn = $('.add-domain');
-    if (addBtn) {
-      addBtn.style.opacity = '0.4';
-      addBtn.style.cursor = 'not-allowed';
-      addBtn.title = '本地启动 server 后可用';
-    }
-    // 反馈区改成"通过 GitHub Issue 提交"模式
-    $$('.feedback').forEach(fb => {
-      const submit = $('.fb-submit-btn', fb);
-      if (submit) {
-        submit.textContent = '提交反馈到 GitHub';
-      }
-      const desc = $('.desc', fb);
-      if (desc) desc.textContent = '点击下方按钮，会跳转到 GitHub 预填好的 Issue 页面，登录确认即可。Agent 下次跑时会自动读取并关闭。';
-    });
+    // 保持静态模式（已默认应用，无需再操作）
   });
 });
+
+// 静态模式：隐藏需要后端的按钮，反馈区改 GitHub Issue 跳转
+function applyStaticMode() {
+  $$('.gen-btn, .del-btn').forEach(b => b.style.display = 'none');
+  const addBtn = $('.add-domain');
+  if (addBtn) {
+    addBtn.style.opacity = '0.4';
+    addBtn.style.cursor = 'not-allowed';
+    addBtn.title = '本地启动 server 后可用';
+  }
+  $$('.feedback').forEach(fb => {
+    const submit = $('.fb-submit-btn', fb);
+    if (submit) submit.textContent = '提交反馈到 GitHub';
+    const desc = $('.desc', fb);
+    if (desc) desc.textContent = '点击下方按钮，会跳转到 GitHub 预填好的 Issue 页面，登录确认即可。Agent 下次跑前会自动读取并关闭。';
+  });
+}
+
+// 本地 server 模式：恢复按钮可见，反馈区走 API
+function applyServerMode() {
+  $$('.gen-btn, .del-btn').forEach(b => b.style.display = '');
+  const addBtn = $('.add-domain');
+  if (addBtn) {
+    addBtn.style.opacity = '';
+    addBtn.style.cursor = '';
+    addBtn.title = '';
+  }
+  $$('.feedback').forEach(fb => {
+    const submit = $('.fb-submit-btn', fb);
+    if (submit) submit.textContent = '提交反馈';
+  });
+}
 """
 
 
@@ -1095,19 +1117,12 @@ def render_home(domains: list[dict], latest_issues: list[dict], top_n_cross: lis
     else:
         latest_html = ""
 
-    fallback_notice = '''
-<div class="fallback-notice" id="static-mode-notice" style="display:none">
-  💡 <strong>当前是只读演示版</strong>。添加领域、提交反馈、一键生成等交互需要本地后端。运行 <code>git clone</code> 后 <code>python server.py</code> 即可解锁完整功能。
-</div>'''
-
     body = f"""
 <div class="hero">
   <div class="kicker">🛰️ 你的私人主编</div>
   <h1>Curio</h1>
-  <div class="meta">用自然语言告诉它你关心什么，它替你从全网找有价值的内容写成报纸送到你眼前。</div>
+  <div class="meta">每周一早上 8:00 自动从全网为你抓取并写成一份私人报纸。</div>
 </div>
-
-{fallback_notice}
 
 <h2>你的领域</h2>
 <div class="domain-grid">{''.join(cards)}</div>
