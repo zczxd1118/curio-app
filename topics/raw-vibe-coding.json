@@ -1,0 +1,83 @@
+{
+  "topic": "vibe coding",
+  "generated_at": "2026-05-29",
+  "subtopics": [
+    "AI 编程助手实战（Claude Code / Cursor / Windsurf）",
+    "自然语言驱动的项目开发流程（PRD → Spec → Code）",
+    "个人 Side Project 与 vibe coding 工作流",
+    "AI Agent 工具构建（MCP / Skills / 子 Agent）"
+  ],
+  "kols": [
+    {
+      "name": "大牙大-",
+      "platform": "bilibili",
+      "id": "25752587",
+      "id_confidence": "high",
+      "why": "Claude Code vibe coding 实战派，演示完整工作流",
+      "style": "教程",
+      "trust": 5,
+      "lang": "zh"
+    },
+    {
+      "name": "马克的技术工作坊",
+      "platform": "bilibili",
+      "id": "1815948385",
+      "id_confidence": "medium",
+      "why": "进阶向，讲架构 / SOP / 工程方法论",
+      "style": "评论",
+      "trust": 4,
+      "lang": "zh"
+    },
+    {
+      "name": "张咋啦",
+      "platform": "bilibili",
+      "id": "672328094",
+      "id_confidence": "low",
+      "why": "Newsletter Skill 作者，AI 内容工作流参考标杆",
+      "style": "深度长文",
+      "trust": 4,
+      "lang": "zh"
+    },
+    {
+      "name": "AI Engineer (swyx)",
+      "platform": "youtube",
+      "id": "UCIXc-NjPmlhEo7iuOuepFCA",
+      "id_confidence": "low",
+      "why": "AI Engineer 大会主办方，全球 AI 工程视角",
+      "style": "访谈",
+      "trust": 5,
+      "lang": "en"
+    },
+    {
+      "name": "Matthew Berman",
+      "platform": "youtube",
+      "id": "UCawZsQWqfGSbCI5yjkdVkTA",
+      "id_confidence": "low",
+      "why": "AI 工具/Agent 实战测评，更新最快",
+      "style": "评论",
+      "trust": 4,
+      "lang": "en"
+    },
+    {
+      "name": "Latent Space",
+      "platform": "podcast_rss",
+      "id": "https://api.substack.com/feed/podcast/1084089.rss",
+      "id_confidence": "high",
+      "why": "AI 工程师最深度访谈，覆盖 Claude/Cursor 团队",
+      "style": "访谈",
+      "trust": 5,
+      "lang": "en"
+    },
+    {
+      "name": "AI Daily Brief",
+      "platform": "podcast_rss",
+      "id": "https://feeds.megaphone.fm/MLN2155636147",
+      "id_confidence": "low",
+      "why": "AI 行业每日简报，跟最新 AI 工具进展",
+      "style": "资讯",
+      "trust": 4,
+      "lang": "en"
+    }
+  ],
+  "notes": "id_confidence=low 的几条（张咋啦的 mid、两个 YouTube channel_id、AI Daily Brief 的 RSS）需要用户在订阅前手动核实。建议核实方式：B 站直接搜名字、YouTube 用 commentpicker.com/youtube-channel-id.php、播客 RSS 在 podcasts.apple.com 上对照。Matthew Berman 频道更新极快，每天可能多条，订阅时建议设置重点过滤。"
+}

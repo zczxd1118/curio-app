@@ -1,0 +1,226 @@
+{
+  "scored_at": "2026-05-30T18:26:10.082828",
+  "domain": "半导体",
+  "intro": "M0 占位版本：本期从 48 条候选里按热度自动取 top-5 必读。完整 AI 打分将在 M1 接入 API 后启用。",
+  "must_read": [
+    {
+      "id": "hn:48311647",
+      "platform": "hackernews",
+      "title": "Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "source": "craigmart",
+      "score": {
+        "novelty": 7,
+        "depth": 7,
+        "relevance": 7
+      },
+      "why_recommend": "按热度排序进入头版（hackernews · 1734 热度）"
+    },
+    {
+      "id": "hn:48206768",
+      "platform": "hackernews",
+      "title": "Meta blocks human rights accounts from reaching audiences in Saudi Arabia, UAE",
+      "url": "https://www.alqst.org/ar/posts/1190",
+      "source": "giuliomagnifico",
+      "score": {
+        "novelty": 7,
+        "depth": 7,
+        "relevance": 7
+      },
+      "why_recommend": "按热度排序进入头版（hackernews · 1079 热度）"
+    },
+    {
+      "id": "hn:47920074",
+      "platform": "hackernews",
+      "title": "Men who stare at walls",
+      "url": "https://www.alexselimov.com/posts/men_who_stare_at_walls/",
+      "source": "aselimov3",
+      "score": {
+        "novelty": 7,
+        "depth": 7,
+        "relevance": 7
+      },
+      "why_recommend": "按热度排序进入头版（hackernews · 724 热度）"
+    },
+    {
+      "id": "hn:48192383",
+      "platform": "hackernews",
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "url": "https://github.com/antoinezambelli/forge",
+      "source": "zambelli",
+      "score": {
+        "novelty": 7,
+        "depth": 7,
+        "relevance": 7
+      },
+      "why_recommend": "按热度排序进入头版（hackernews · 687 热度）"
+    },
+    {
+      "id": "hn:48143880",
+      "platform": "hackernews",
+      "title": "Mullvad exit IPs are surprisingly identifying",
+      "url": "https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/",
+      "source": "RGBCube",
+      "score": {
+        "novelty": 7,
+        "depth": 7,
+        "relevance": 7
+      },
+      "why_recommend": "按热度排序进入头版（hackernews · 613 热度）"
+    }
+  ],
+  "reference": [
+    {
+      "id": "hn:48164287",
+      "platform": "hackernews",
+      "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+      "url": "https://crates.io/crates/zerostack/1.0.0",
+      "source": "gidellav",
+      "why_recommend": "热度第 6-11 位"
+    },
+    {
+      "id": "hn:48184402",
+      "platform": "hackernews",
+      "title": "Was my $48K GPU server worth it?",
+      "url": "https://rosmine.ai/2026/05/13/was-my-48k-gpu-worth-it/",
+      "source": "apwheele",
+      "why_recommend": "热度第 6-11 位"
+    },
+    {
+      "id": "hn:48191602",
+      "platform": "hackernews",
+      "title": "Show HN: Gaussian Splat of a Strawberry",
+      "url": "https://superspl.at/scene/84df8849",
+      "source": "danybittel",
+      "why_recommend": "热度第 6-11 位"
+    },
+    {
+      "id": "hn:48259808",
+      "platform": "hackernews",
+      "title": "Migrating from Go to Rust",
+      "url": "https://corrode.dev/learn/migration-guides/go-to-rust/",
+      "source": "jabits",
+      "why_recommend": "热度第 6-11 位"
+    },
+    {
+      "id": "hn:48169874",
+      "platform": "hackernews",
+      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "url": "https://github.com/MinishLab/semble",
+      "source": "Bibabomas",
+      "why_recommend": "热度第 6-11 位"
+    },
+    {
+      "id": "hn:47776035",
+      "platform": "hackernews",
+      "title": "Anna's Archive loses $322M Spotify piracy case without a fight",
+      "url": "https://torrentfreak.com/annas-archive-loses-322-million-spotify-piracy-case-without-a-fight/",
+      "source": "askl",
+      "why_recommend": "热度第 6-11 位"
+    }
+  ],
+  "skip": [
+    {
+      "id": "hn:47827259",
+      "title": "Stop trying to engineer your way out of listening to people",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48238025",
+      "title": "U.S. researchers face new restrictions on publishing with foreign collaborators",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48299220",
+      "title": "What Apple and Google are doing to push notifications",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:47901064",
+      "title": "ASML became the chokepoint for cutting-edge chips",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48206340",
+      "title": "Saying goodbye to asm.js",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48307231",
+      "title": "AMD pulls a bait-and-switch on Linux users with Vivado licensing changes",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48293080",
+      "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48165797",
+      "title": "I found ultra-pure quantum crystals in an abandoned mine in the Atacama desert",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48231247",
+      "title": "Gnutella: A Protocol Outliving the World That Created It",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48221896",
+      "title": "Show HN: I Dedicated 4 Years to Mastering Offline Password Cracking",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48270111",
+      "title": "The bootstrapper's EU stack for under €10 per month",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:47595971",
+      "title": "My son pleasured himself on Gemini Live. Entire family's Google accounts banned",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48321076",
+      "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:47896163",
+      "title": "Show HN: I've built a nice home server OS",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48226038",
+      "title": "Chewing gum restores dad's taste and smell years after Covid",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48210590",
+      "title": "Ask HN: Shouldn't Google need to give a public statement about Railway incident?",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48266422",
+      "title": "Microsoft pulls plug on plans for 244-acre data center in Caledonia (2025)",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48247005",
+      "title": "Matrix Multiplications on GPUs Run Faster When Given “Predictable” Data (2024)",
+      "skip_reason": "热度未进 top 11"
+    },
+    {
+      "id": "hn:48265056",
+      "title": "IBM Spins Off the First Pure-Play Quantum Chip Foundry",
+      "skip_reason": "热度未进 top 11"
+    }
+  ],
+  "stats": {
+    "candidates_total": 48,
+    "must_read_count": 5,
+    "reference_count": 6,
+    "skip_count_actual": 37,
+    "skip_count_shown": 5
+  }
+}

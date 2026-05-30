@@ -1,0 +1,49 @@
+{
+  "domain": "vibe coding",
+  "generated_at": "2026-05-29",
+  "version": "v2 (基于反馈调整)",
+  "applied_feedback": "用户反馈：想多看 AI 领域名人访谈（不只是教程）。本次新增访谈类关键词。",
+  "subtopics": [
+    {
+      "name": "AI 编程助手实战（Claude Code / Cursor / Windsurf）",
+      "search_keywords": [
+        "Claude Code 实战",
+        "Cursor 0.50",
+        "Windsurf 教程",
+        "vibe coding"
+      ]
+    },
+    {
+      "name": "AI 名人访谈与对话（新增——基于反馈）",
+      "search_keywords": [
+        "Andrej Karpathy 访谈",
+        "swyx 访谈",
+        "OpenAI 访谈",
+        "Anthropic 访谈",
+        "Sam Altman 对话",
+        "AI 创业者访谈",
+        "AI 行业对话",
+        "Latent Space 访谈",
+        "Lex Fridman AI"
+      ]
+    },
+    {
+      "name": "Side Project 与个人产品工作流",
+      "search_keywords": [
+        "AI 个人作品",
+        "vibe coding side project",
+        "AI 全栈实战"
+      ]
+    },
+    {
+      "name": "AI Agent 工具构建（MCP / Skills）",
+      "search_keywords": [
+        "MCP 实战",
+        "Claude Skills",
+        "AI Agent 构建",
+        "子 Agent 实战"
+      ]
+    }
+  ],
+  "notes": "本次基于上期反馈新增了访谈类子话题。对中文 B 站来说，国外名人访谈通常有搬运/中文解读版，搜索时关键词带'解读''中文''字幕'可能更准。"
+}

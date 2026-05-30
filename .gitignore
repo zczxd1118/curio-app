@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Project
+.smtp_secret
+.bili_secret
+.translate_cache/
+.article_cache/
+
+# Local server logs
+*.log
+
+# Don't commit nested git repos (site/ has its own for GitHub Pages)
+site/.git/
+
+# Editor
+.DS_Store
+.vscode/
+.idea/

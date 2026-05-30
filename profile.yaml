@@ -1,0 +1,52 @@
+id: me
+identity: '电子信息工程大四 + 搜狗实习生 + AI 产品 / Agent 重度玩家。
+
+  正在做 content-curator 这个个人 Agent 项目，目标是简历亮点 + 长期个人工具。
+
+  '
+interests:
+- vibe coding（Claude Code / Cursor / Windsurf 实战）
+- AI Agent 工具构建（MCP / Skills / 子 Agent）
+- AI 工程实践（RAG / 部署 / 推理优化）
+- 个人 Side Project 工作流
+- 大模型评测与发布动态
+dislikes:
+- 纯流量号、标题党
+- 抽象方法论、玄学论调
+- 概念股炒作、热点蹭文
+- 1 分钟短视频科普（密度太低）
+- 套娃合集（"10 个最强工具"这类）
+signal_preferences:
+- 要工程实践细节（具体到 commands、prompts、配置）
+- 要看到代码 / 示例 / 真实截图
+- 要"为什么"的解释（不只是 what，要 why）
+- 要新颖度（最近一周的进展优先于综述）
+- 长内容优先（10 分钟以上的深度内容）
+- AI 领域名人访谈（行业 KOL/创业者的深度对话，比教程更稀缺）
+reading_pace: '工作日 30 分钟，周末 2 小时。
+
+  日报 3-5 条必读，周报 5-8 条必读，每条配 2-3 句"为什么推"。
+
+  能跳就跳，宁缺毋滥。
+
+  '
+feedback_timeline:
+- date: '2026-05-30'
+  issue: ai/2026-05-30
+  text: 想多看：AI 名人访谈 / 想少看：标题党 / 笔法：时间线很好
+  applied: []
+- date: '2026-05-30'
+  issue: ai/2026-05-30
+  text: 想多看：AI 名人访谈 / 想少看：标题党 / 笔法：时间线很好
+  applied: []
+- date: '2026-05-30'
+  issue: ai/2026-05-30
+  text: 想多看：AI 名人访谈 / 想少看：标题党教程 / 笔法：时间线很好
+  applied: []
+- date: 2026-05-29
+  text: 想多看 AI 领域名人访谈（不只是教程）；digest 跳过区展示太长，可以折叠/只展示前几条
+  applied:
+  - 加入 signal_preferences："AI 领域名人访谈"
+  - explore prompt 在关键词扩展时纳入"AI 访谈 / 对话 / 创业者"等访谈类词
+  - digest 渲染：skip 区只展示前 5 条，其余只统计数字
+auto_updated_from_feedback: false

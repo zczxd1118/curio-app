@@ -1,0 +1,175 @@
+global:
+- name: HN Search · ai
+  kind: hn_search
+  query: ai OR llm OR agent
+  days: 7
+  lang: en
+domains:
+  ai:
+    topics:
+      vibe-coding:
+        sources:
+        - name: Latent Space Blog
+          kind: rss
+          url: https://www.latent.space/feed
+          lang: en
+        - name: Simon Willison's Blog
+          kind: rss
+          url: https://simonwillison.net/atom/everything/
+          lang: en
+        - name: Anthropic Engineering
+          kind: rss
+          url: https://www.anthropic.com/engineering/rss.xml
+          lang: en
+          optional: true
+        - name: HN · Claude Code
+          kind: hn_search
+          query: Claude Code
+          days: 14
+          min_points: 30
+          lang: en
+        - name: HN · Cursor
+          kind: hn_search
+          query: Cursor
+          days: 14
+          min_points: 50
+          lang: en
+        - name: HN · AI agent
+          kind: hn_search
+          query: AI agent
+          days: 14
+          min_points: 50
+          lang: en
+        - name: HN · vibe coding
+          kind: hn_search
+          query: vibe coding
+          days: 30
+          min_points: 10
+          lang: en
+        - name: 量子位（公众号）
+          kind: rss
+          url: https://rsshub.app/wechat/ranking/all/qbitai
+          lang: zh
+          optional: true
+        - name: B站 · vibe coding
+          kind: bilibili_search
+          keywords:
+          - Claude Code 实战
+          - Cursor 0.50
+          - vibe coding
+          lang: zh
+      llm-eval:
+        sources:
+        - name: Hugging Face Papers
+          kind: rss
+          url: https://huggingface.co/papers
+          lang: en
+          optional: true
+        - name: arXiv cs.CL
+          kind: rss
+          url: https://export.arxiv.org/rss/cs.CL
+          lang: en
+        - name: Hacker News · LLM eval
+          kind: hn_search
+          query: LLM benchmark OR LLM evaluation OR GPT-5 OR Claude 4
+          days: 14
+          lang: en
+      ai-engineering:
+        sources:
+        - name: Latent Space Blog
+          kind: rss
+          url: https://www.latent.space/feed
+          lang: en
+        - name: Hacker News · RAG / Agent
+          kind: hn_search
+          query: RAG OR agent framework OR LLM serving
+          days: 14
+          lang: en
+    name: AI
+    icon: 🤖
+    frequency: weekly
+  finance:
+    topics:
+      macro:
+        sources:
+        - name: HN · Federal Reserve
+          kind: hn_search
+          query: Federal Reserve
+          days: 30
+          min_points: 30
+          lang: en
+        - name: HN · inflation
+          kind: hn_search
+          query: inflation
+          days: 30
+          min_points: 50
+          lang: en
+        - name: HN · stock market
+          kind: hn_search
+          query: stock market
+          days: 14
+          min_points: 50
+          lang: en
+        - name: HN · Nvidia earnings
+          kind: hn_search
+          query: Nvidia earnings
+          days: 30
+          min_points: 30
+          lang: en
+        - name: HN · Tesla
+          kind: hn_search
+          query: Tesla
+          days: 14
+          min_points: 50
+          lang: en
+        - name: Stratechery
+          kind: rss
+          url: https://stratechery.com/feed/
+          lang: en
+          optional: true
+    name: 金融
+    icon: 🏦
+    frequency: daily
+  semiconductor:
+    topics:
+      chips:
+        sources:
+        - name: HN · TSMC
+          kind: hn_search
+          query: TSMC
+          days: 30
+          min_points: 30
+          lang: en
+        - name: HN · Nvidia
+          kind: hn_search
+          query: Nvidia
+          days: 14
+          min_points: 50
+          lang: en
+        - name: HN · semiconductor
+          kind: hn_search
+          query: semiconductor
+          days: 30
+          min_points: 30
+          lang: en
+        - name: HN · GPU
+          kind: hn_search
+          query: GPU
+          days: 14
+          min_points: 80
+          lang: en
+        - name: HN · ASML
+          kind: hn_search
+          query: ASML
+          days: 60
+          min_points: 20
+          lang: en
+        - name: HN · chips
+          kind: hn_search
+          query: chip manufacturing
+          days: 30
+          min_points: 30
+          lang: en
+    name: 半导体
+    icon: 🔬
+    frequency: weekly
