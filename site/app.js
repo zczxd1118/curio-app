@@ -263,7 +263,7 @@ function openGenerateViaIssue(domainId, domainName) {
       <p style="background:var(--bg-elev);padding:10px 12px;border-left:3px solid var(--accent);font-size:13px;color:var(--text-soft);margin:12px 0;">
         ⏱️ <strong>预计等待：最长 60 分钟</strong>（Agent 调度间隔 1 小时）<br>
         📨 留下邮箱跑完会发一封通知<br>
-        📋 你可以在 GitHub Issue 里实时看 Agent 运行状态
+        📋 Agent 收到时会在 GitHub Issue 评论"已收到，开始跑"，完成时再评论结果链接
       </p>
       <div class="form-row">
         <label>邮箱（可选，跑完了通知你）</label>

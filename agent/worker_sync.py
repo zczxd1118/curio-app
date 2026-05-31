@@ -411,6 +411,24 @@ def ingest_generate_issues() -> int:
         })
         _log(f"  📥 #{num}: 排队 {domain_id}")
 
+        # 给用户一条"Agent 已收到，开始跑了"评论（兑现 UI 承诺）
+        try:
+            domain_name = data.get("domain_name") or domain_id
+            note = data.get("note", "").strip()
+            note_part = f"\n\n你的留言：> {note}" if note else ""
+            _gh_api(
+                f"/repos/{_repo()}/issues/{num}/comments",
+                "POST",
+                {"body": (
+                    f"🤖 **Curio Agent 已收到请求**\n\n"
+                    f"开始为「{domain_name}」（id=`{domain_id}`）抓取最新内容。{note_part}\n\n"
+                    f"流程：抓取候选 → Claude 评分 → 中文摘要 → 主编点评 → 渲染网站 → 邮件通知。\n\n"
+                    f"完成后会再评论一条带访问链接，并自动关闭本 Issue。"
+                )},
+            )
+        except Exception as e:
+            _log(f"     ⚠️ 评论失败：{e}（继续处理）")
+
     out = ROOT / ".pending_generate.json"
     out.write_text(json.dumps({"updated_at": time.strftime("%Y-%m-%d %H:%M"),
                                 "pending": pending}, ensure_ascii=False, indent=2),
