@@ -413,6 +413,215 @@ def publish():
 
 
 # ============================================================
+# Unified 模式：合并所有域 → 一份 Top 4-5 头条（借鉴 Starfan）
+# ============================================================
+
+def cmd_prepare_unified(args):
+    """阶段 1（unified）：跑 prepare → 合并所有域 candidates → 写 unified.score-prompt.md
+
+    与原 prepare 不同：原 prepare 给每域出独立 prompt（4 次 Claude），
+    unified 把候选池合并 + 用 unified_radar.md 模板出 1 份 prompt（1 次 Claude）。
+    """
+    log("🛰️  Curio prepare (unified) — 抓数据 → 合并候选 → 一份大 prompt")
+
+    # 1. 复用原 prepare（抓数据 + 写 each domain candidates.json）
+    args.domains = args.domains if hasattr(args, "domains") else None
+    cmd_prepare(args)
+
+    # 2. 合并候选池
+    log("")
+    log("📚 合并所有域候选 → unified.candidates.json")
+    plan_path = TOPICS_DIR / "_run_plan.json"
+    if not plan_path.exists():
+        log("❌ 没找到 _run_plan.json")
+        return
+    plan = json.loads(plan_path.read_text(encoding="utf-8"))
+
+    all_items = []
+    domain_summary = []
+    for d in plan.get("domains", []):
+        cand_file = Path(d["candidates_file"])
+        if not cand_file.exists():
+            continue
+        try:
+            cand = json.loads(cand_file.read_text(encoding="utf-8"))
+            for it in cand.get("items", []):
+                # 给每条标注它来自哪个域
+                it["domain"] = d.get("domain_name") or d.get("domain")
+                it["domain_id"] = d.get("slug") or d.get("domain")
+                all_items.append(it)
+            domain_summary.append(f"{d.get('domain_name')}={len(cand.get('items',[]))}")
+        except Exception as e:
+            log(f"  ⚠️ 读 {cand_file.name} 失败: {e}")
+
+    log(f"   合并 {len(all_items)} 条（{', '.join(domain_summary)}）")
+
+    # 候选去重：按 url 去重，保留各自最新
+    seen_urls = set()
+    deduped = []
+    for it in all_items:
+        url = it.get("url", "")
+        if url and url in seen_urls:
+            continue
+        seen_urls.add(url)
+        deduped.append(it)
+    log(f"   去重后 {len(deduped)} 条")
+
+    # 写合并候选
+    unified_cand = {
+        "date": time.strftime("%Y-%m-%d"),
+        "total": len(deduped),
+        "items": deduped,
+    }
+    (TOPICS_DIR / "unified.candidates.json").write_text(
+        json.dumps(unified_cand, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    # 3. 生成 unified score prompt
+    log("")
+    log("📝 生成 unified score prompt")
+    template_path = ROOT / "prompts" / "unified_radar.md"
+    template = template_path.read_text(encoding="utf-8")
+
+    # 读 profile
+    import yaml as _yaml
+    profile = {}
+    profile_path = ROOT / "profile.yaml"
+    if profile_path.exists():
+        profile = _yaml.safe_load(profile_path.read_text(encoding="utf-8")) or {}
+
+    # 读 pending note
+    user_note = ""
+    pending_file = ROOT / ".pending_generate.json"
+    if pending_file.exists():
+        try:
+            pdata = json.loads(pending_file.read_text(encoding="utf-8"))
+            notes = [p.get("note") for p in pdata.get("pending", []) if p.get("note")]
+            if notes:
+                user_note = " / ".join(notes)
+        except Exception:
+            pass
+
+    user_note_block = ""
+    if user_note:
+        user_note_block = (
+            f"用户在网页\"立刻生成\"按钮上提交了请求并附了留言：\n\n"
+            f"> **{user_note}**\n\n"
+            f"评分时优先考虑这条诉求：让 ≥1 条头条贴合，且在 intro 里提一句\"按你的请求侧重 XX\"。"
+        )
+
+    # 精简候选条目（避免 prompt 过长）
+    items_for_prompt = []
+    for it in deduped:
+        pub = it.get("published_at")
+        if pub and not isinstance(pub, (str, type(None))):
+            pub = str(pub)  # date/datetime 对象转字符串
+        items_for_prompt.append({
+            "id": it.get("id"),
+            "domain": it.get("domain"),
+            "title": it.get("title", "")[:200],
+            "url": it.get("url", ""),
+            "source": (it.get("source", {}) or {}).get("name", "") if isinstance(it.get("source"), dict) else str(it.get("source", "")),
+            "platform": it.get("platform"),
+            "points": it.get("views"),
+            "published_at": pub,
+            "summary": (it.get("summary", "") or "")[:200],
+        })
+
+    # 简单变量替换
+    today = time.strftime("%Y-%m-%d")
+    prompt = template
+    prompt = prompt.replace("{{DATE}}", today)
+    prompt = prompt.replace("{{IDENTITY}}", str(profile.get("identity", "")).strip())
+    prompt = prompt.replace("{{INTERESTS}}", json.dumps(profile.get("interests", []), ensure_ascii=False, default=str))
+    prompt = prompt.replace("{{DISLIKES}}", json.dumps(profile.get("dislikes", []), ensure_ascii=False, default=str))
+    prompt = prompt.replace("{{SIGNAL_PREFERENCES}}", json.dumps(profile.get("signal_preferences", []), ensure_ascii=False, default=str))
+    prompt = prompt.replace("{{READING_PACE}}", str(profile.get("reading_pace", "")).strip())
+    prompt = prompt.replace("{{FEEDBACK_TIMELINE}}", json.dumps(profile.get("feedback_timeline", [])[-3:], ensure_ascii=False, default=str))
+    prompt = prompt.replace("{{ALREADY_PUSHED_TITLES}}", "[]")
+    prompt = prompt.replace("{{USER_NOTE}}", user_note or "无")
+    prompt = prompt.replace("{{USER_NOTE_BLOCK}}", user_note_block or "（无）")
+    prompt = prompt.replace("{{CANDIDATES_JSON}}",
+                            "```json\n" + json.dumps(items_for_prompt, ensure_ascii=False, indent=2, default=str) + "\n```")
+
+    out_path = TOPICS_DIR / "unified.score-prompt.md"
+    out_path.write_text(prompt, encoding="utf-8")
+    log(f"   ✓ {out_path}")
+    log(f"   prompt 体积：{len(prompt) // 1024}K 字符 ≈ {len(prompt) // 4} token")
+
+    # 4. 更新 _run_plan.json 加 unified 段
+    plan["unified"] = {
+        "score_prompt_file": str(out_path),
+        "expected_scored_file": str(TOPICS_DIR / "unified.scored.json"),
+        "candidates_count": len(deduped),
+    }
+    plan_path.write_text(json.dumps(plan, ensure_ascii=False, indent=2), encoding="utf-8")
+    log("")
+    log("✅ unified prepare 完成")
+    log(f"   等 Claude 读 {out_path.name} → 写 unified.scored.json")
+
+
+def cmd_finalize_unified(args):
+    """阶段 3（unified）：读 unified.scored.json → 渲染 → push → 邮件"""
+    log("📰 Curio finalize (unified) —— 渲染 Top 4-5 头条")
+
+    scored_file = TOPICS_DIR / "unified.scored.json"
+    if not scored_file.exists():
+        log(f"❌ {scored_file} 不存在（Claude 还没写）")
+        return
+
+    sys.path.insert(0, str(ROOT))
+    from agent.build_radar_md import build_radar_md
+
+    scored = json.loads(scored_file.read_text(encoding="utf-8"))
+    today = scored.get("date") or time.strftime("%Y-%m-%d")
+    md = build_radar_md(scored)
+
+    # 写到 site/radar/{date}.html 直接（这是新视图）
+    radar_dir = SITE_DIR / "radar"
+    radar_dir.mkdir(parents=True, exist_ok=True)
+    md_path = TOPICS_DIR / f"radar.{today}.md"
+    md_path.write_text(md, encoding="utf-8")
+    log(f"   ✓ {md_path}")
+
+    # 渲染整站（同时把新 md 也带上）
+    log("  🏗️ build site")
+    run([PY, str(ROOT / "curator.py"), "site"], check=False)
+
+    # push site
+    if not args.no_push:
+        log("  ☁️ push curio-site")
+        push_site()
+
+    # 邮件
+    if not args.no_email:
+        log("  📧 self-notify")
+        run([PY, "-m", "agent.notify_email"], check=False)
+
+    # 广播给订阅者
+    if not args.no_worker:
+        log(f"  📢 broadcast cadence={args.cadence}")
+        run([PY, "-m", "agent.worker_sync", "broadcast", "--cadence", args.cadence], check=False)
+
+    log("")
+    log("✅ unified finalize 完成")
+
+
+def push_site():
+    """push site/ 到 curio-site 仓库"""
+    pat = PAT_FILE.read_text().strip() if PAT_FILE.exists() else ""
+    if not pat:
+        log("⚠️ 没找到 .gh_pat，跳过 push")
+        return
+    site = SITE_DIR
+    run(["git", "-C", str(site), "add", "-A"], check=False)
+    run(["git", "-C", str(site), "commit", "-q", "-m",
+         f"radar update {time.strftime('%Y-%m-%d %H:%M')}"], check=False)
+    remote = f"https://{GH_USER}:{pat}@github.com/{GH_USER}/{GH_REPO}.git"
+    run(["git", "-C", str(site), "push", remote, "main"], check=False)
+
+
+# ============================================================
 # 备用：legacy 一键模式（老占位算法，不需要 Claude 介入）
 # ============================================================
 
@@ -497,6 +706,18 @@ def main():
 
     p_proc = sub.add_parser("process_pending", help="处理用户通过 [curio-generate] Issue 提交的请求")
     p_proc.set_defaults(func=cmd_process_pending)
+
+    p_uni = sub.add_parser("prepare_unified",
+                           help="阶段1（unified 模式）：合并所有域候选 → 一份 unified.score-prompt.md")
+    p_uni.set_defaults(func=cmd_prepare_unified)
+
+    p_unif = sub.add_parser("finalize_unified",
+                            help="阶段3（unified 模式）：读 unified.scored.json → radar/{date}.md → site → push → 邮件")
+    p_unif.add_argument("--no-push", action="store_true")
+    p_unif.add_argument("--no-email", action="store_true")
+    p_unif.add_argument("--no-worker", action="store_true")
+    p_unif.add_argument("--cadence", choices=["daily", "weekly"], default="daily")
+    p_unif.set_defaults(func=cmd_finalize_unified)
 
     p_leg = sub.add_parser("legacy", help="老逻辑：占位算法直跑+push")
     p_leg.add_argument("--no-push", action="store_true")
