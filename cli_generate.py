@@ -127,16 +127,15 @@ def cmd_prepare(args):
         log(f"  🎯 generate score prompt")
         run([PY, str(ROOT / "curator.py"), "score", str(cand_path)], check=False)
 
-        # curator.py 用候选里 domain 字段（中文名）作 slug 写文件
-        # 我们要从 candidates.json 里读出真正的 slug
+        # curator.py 现在已优先用英文 domain_id 作 slug（v0.9.1 修复后）
+        # 优先 domain_id，兜底从 candidates.json 读 / 兜底 d
+        slug = d  # 默认就是英文 domain id
         try:
             cand = json.loads(cand_path.read_text(encoding="utf-8"))
+            slug = cand.get("domain_id") or d
             domain_name = cand.get("domain", d)
-            # 复制 slugify 逻辑（curator.py:40）
-            import re
-            slug = re.sub(r"[^\w\u4e00-\u9fa5]+", "-", domain_name.lower()).strip("-")
         except Exception:
-            slug = d
+            domain_name = d
 
         score_prompt = TOPICS_DIR / f"{slug}.score-prompt.md"
         scored_file = TOPICS_DIR / f"{slug}.scored.json"

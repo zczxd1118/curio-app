@@ -1,14 +1,6 @@
 {
-  "prepared_at": "2026-05-31 19:44",
+  "prepared_at": "2026-05-31 21:59",
   "domains": [
-    {
-      "domain": "finance",
-      "domain_name": "金融",
-      "slug": "金融",
-      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/finance.candidates.json",
-      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/金融.score-prompt.md",
-      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/金融.scored.json"
-    },
     {
       "domain": "ai",
       "domain_name": "AI",
@@ -16,6 +8,30 @@
       "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/ai.candidates.json",
       "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/ai.score-prompt.md",
       "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/ai.scored.json"
+    },
+    {
+      "domain": "finance",
+      "domain_name": "金融",
+      "slug": "finance",
+      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/finance.candidates.json",
+      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/finance.score-prompt.md",
+      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/finance.scored.json"
+    },
+    {
+      "domain": "semiconductor",
+      "domain_name": "半导体",
+      "slug": "semiconductor",
+      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/semiconductor.candidates.json",
+      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/semiconductor.score-prompt.md",
+      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/semiconductor.scored.json"
+    },
+    {
+      "domain": "bigtech",
+      "domain_name": "大厂讯息",
+      "slug": "bigtech",
+      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/bigtech.candidates.json",
+      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/bigtech.score-prompt.md",
+      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/bigtech.scored.json"
     }
   ]
 }

@@ -235,7 +235,11 @@ def cmd_search(args: argparse.Namespace) -> int:
         "items": items,
     }
 
-    slug = slugify(domain_name)
+    # 文件名用英文 domain_id（避免中文 slug 写出 金融.candidates.json
+    # 这种文件，下游 cli_generate.finalize 找不到对应英文 slug 的产物）
+    slug = domain_id
+    if not slug or not slug.isascii():
+        slug = slugify(domain_name) or "unnamed"
     out_path = TOPICS / f"{slug}.candidates.json"
     TOPICS.mkdir(exist_ok=True)
     out_path.write_text(
@@ -313,8 +317,16 @@ def cmd_score(args: argparse.Namespace) -> int:
     prompt += json.dumps(items_for_prompt, ensure_ascii=False, indent=2)
     prompt += "\n```\n"
 
-    # 输出到文件（太长了不直接打印）
-    slug = slugify(domain)
+    # 输出到文件 — 优先用英文 domain_id 作 slug（避免中文文件名）
+    # fallback 链：candidates.domain_id → 从文件名反推（finance.candidates.json → finance）→ slugify(中文)
+    slug = candidates.get("domain_id")
+    if not slug:
+        # 从输入文件名反推：foo.candidates.json → foo
+        fname_slug = candidates_path.stem.replace(".candidates", "")
+        if fname_slug and fname_slug.isascii():
+            slug = fname_slug
+    if not slug:
+        slug = slugify(domain)
     prompt_path = TOPICS / f"{slug}.score-prompt.md"
     TOPICS.mkdir(exist_ok=True)
     prompt_path.write_text(prompt, encoding="utf-8")
