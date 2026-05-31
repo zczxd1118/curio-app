@@ -4,8 +4,15 @@ global:
   query: ai OR llm OR agent
   days: 7
   lang: en
+- name: HN frontpage 200pts+
+  kind: rss
+  url: https://hnrss.org/frontpage?points=200
+  lang: en
 domains:
   ai:
+    name: AI
+    icon: 🤖
+    frequency: weekly
     topics:
       vibe-coding:
         sources:
@@ -20,6 +27,16 @@ domains:
         - name: Anthropic Engineering
           kind: rss
           url: https://www.anthropic.com/engineering/rss.xml
+          lang: en
+          optional: true
+        - name: AI Engineer Newsletter
+          kind: rss
+          url: https://newsletter.eng-leadership.com/feed
+          lang: en
+          optional: true
+        - name: ByteByteGo Newsletter
+          kind: rss
+          url: https://blog.bytebytego.com/feed
           lang: en
           optional: true
         - name: HN · Claude Code
@@ -46,11 +63,6 @@ domains:
           days: 30
           min_points: 10
           lang: en
-        - name: 量子位（公众号）
-          kind: rss
-          url: https://rsshub.app/wechat/ranking/all/qbitai
-          lang: zh
-          optional: true
         - name: B站 · vibe coding
           kind: bilibili_search
           keywords:
@@ -69,7 +81,11 @@ domains:
           kind: rss
           url: https://export.arxiv.org/rss/cs.CL
           lang: en
-        - name: Hacker News · LLM eval
+        - name: arXiv cs.LG
+          kind: rss
+          url: https://export.arxiv.org/rss/cs.LG
+          lang: en
+        - name: HN · LLM eval
           kind: hn_search
           query: LLM benchmark OR LLM evaluation OR GPT-5 OR Claude 4
           days: 14
@@ -80,18 +96,38 @@ domains:
           kind: rss
           url: https://www.latent.space/feed
           lang: en
-        - name: Hacker News · RAG / Agent
+        - name: HN · RAG / Agent
           kind: hn_search
           query: RAG OR agent framework OR LLM serving
           days: 14
           lang: en
-    name: AI
-    icon: 🤖
-    frequency: weekly
   finance:
+    name: 金融
+    icon: 🏦
+    frequency: daily
     topics:
       macro:
         sources:
+        # —— 金融原生 RSS（替代之前的纯 HN）——
+        - name: Stratechery
+          kind: rss
+          url: https://stratechery.com/feed/
+          lang: en
+        - name: Net Interest（金融行业深度）
+          kind: rss
+          url: https://www.netinterest.co/feed
+          lang: en
+        - name: 华尔街见闻 API
+          kind: wallstreetcn_api
+          url: https://api.wallstreetcn.com/apiv1/content/articles?cursor=&limit=20
+          lang: zh
+          optional: true
+        - name: arXiv q-fin（量化金融论文）
+          kind: rss
+          url: https://export.arxiv.org/rss/q-fin
+          lang: en
+          optional: true
+        # —— HN 关键词（保留作为热度指标）——
         - name: HN · Federal Reserve
           kind: hn_search
           query: Federal Reserve
@@ -102,12 +138,6 @@ domains:
           kind: hn_search
           query: inflation
           days: 30
-          min_points: 50
-          lang: en
-        - name: HN · stock market
-          kind: hn_search
-          query: stock market
-          days: 14
           min_points: 50
           lang: en
         - name: HN · Nvidia earnings
@@ -122,18 +152,30 @@ domains:
           days: 14
           min_points: 50
           lang: en
-        - name: Stratechery
-          kind: rss
-          url: https://stratechery.com/feed/
+        - name: HN · Apple earnings
+          kind: hn_search
+          query: Apple earnings OR Microsoft earnings OR Google earnings
+          days: 14
+          min_points: 30
           lang: en
-          optional: true
-    name: 金融
-    icon: 🏦
-    frequency: daily
   semiconductor:
+    name: 半导体
+    icon: 🔬
+    frequency: weekly
     topics:
       chips:
         sources:
+        # —— 行业专业媒体 ——
+        - name: SemiAnalysis（半导体首选深度）
+          kind: rss
+          url: https://www.semianalysis.com/feed
+          lang: en
+        - name: EE Times
+          kind: rss
+          url: https://www.eetimes.com/feed
+          lang: en
+          optional: true
+        # —— HN 关键词 ——
         - name: HN · TSMC
           kind: hn_search
           query: TSMC
@@ -164,23 +206,49 @@ domains:
           days: 60
           min_points: 20
           lang: en
-        - name: HN · chips
+        - name: HN · AI chip
           kind: hn_search
-          query: chip manufacturing
+          query: AI chip OR Cerebras OR Groq OR AMD MI400
           days: 30
           min_points: 30
           lang: en
-    name: 半导体
-    icon: 🔬
-    frequency: weekly
   bigtech:
     name: 大厂讯息
     icon: 🏛️
     frequency: daily
     topics:
       default:
-        name: 大厂讯息
         sources:
+        # —— 科技媒体 ——
+        - name: The Verge
+          kind: rss
+          url: https://www.theverge.com/rss/index.xml
+          lang: en
+        - name: TechCrunch
+          kind: rss
+          url: https://techcrunch.com/feed/
+          lang: en
+          optional: true
+        - name: Stratechery
+          kind: rss
+          url: https://stratechery.com/feed/
+          lang: en
+        - name: Product Hunt（新产品脉搏）
+          kind: rss
+          url: https://www.producthunt.com/feed
+          lang: en
+          optional: true
+        - name: 36氪
+          kind: rss
+          url: https://36kr.com/feed
+          lang: zh
+          optional: true
+        - name: 少数派
+          kind: rss
+          url: https://sspai.com/feed
+          lang: zh
+          optional: true
+        # —— HN 关键词 ——
         - name: HN · Google
           kind: hn_search
           query: Google
@@ -199,23 +267,15 @@ domains:
           days: 30
           min_points: 30
           lang: en
-        - name: The Verge
-          kind: rss
-          url: https://www.theverge.com/rss/index.xml
+        - name: HN · Meta
+          kind: hn_search
+          query: Meta OR Facebook OR Instagram
+          days: 14
+          min_points: 50
           lang: en
-          optional: true
-        - name: TechCrunch
-          kind: rss
-          url: https://techcrunch.com/feed/
+        - name: HN · Amazon
+          kind: hn_search
+          query: Amazon AWS OR Amazon Web Services
+          days: 14
+          min_points: 30
           lang: en
-          optional: true
-        - name: 量子位（公众号 via RSSHub）
-          kind: rss
-          url: https://rsshub.app/wechat/ranking/all/qbitai
-          lang: zh
-          optional: true
-        - name: 机器之心（RSSHub）
-          kind: rss
-          url: https://rsshub.app/jiqizhixin/zixun
-          lang: zh
-          optional: true

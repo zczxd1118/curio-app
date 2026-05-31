@@ -528,6 +528,81 @@ def ingest_add_domain_issues() -> int:
     return 0
 
 
+def ingest_delete_domain_issues() -> int:
+    """处理 [curio-delete-domain] Issue：从 sources.yaml 删除该领域，订阅者从该领域退订。
+
+    流程：
+    1. 拉所有 label=curio-delete-domain 的 open issue
+    2. 解析 yaml block 取 domain_id
+    3. sources.yaml 删除该 domain
+    4. 调 worker /admin/unsubscribe-domain 把所有订阅了该 domain 的用户从该 domain 退订
+       （worker 端实现见 worker/src/index.js）
+    5. close issue 加 curio-ingested label
+    """
+    try:
+        issues = _list_open_issues("curio-delete-domain")
+    except Exception as e:
+        _log(f"❌ 拉取 Issue 失败：{e}")
+        return 1
+    if not issues:
+        _log("（没有待处理的删领域 Issue）")
+        return 0
+
+    cfg = yaml.safe_load(SOURCES.read_text(encoding="utf-8")) or {}
+    domains_cfg = cfg.setdefault("domains", {})
+
+    ok = fail = 0
+    for issue in issues:
+        num = issue["number"]
+        body = issue.get("body") or ""
+        data = _parse_yaml_block(body)
+        domain_id = (data.get("domain_id") or "").strip()
+        if not domain_id:
+            _log(f"  #{num}: 缺 domain_id，跳过")
+            fail += 1
+            try:
+                _close_issue(num, comment="缺 domain_id，无法处理", label_add="curio-ingested")
+            except Exception:
+                pass
+            continue
+
+        if domain_id not in domains_cfg:
+            _log(f"  #{num}: {domain_id} 不在 sources.yaml，已忽略")
+            try:
+                _close_issue(num, comment=f"领域 {domain_id} 不存在或已被删除", label_add="curio-ingested")
+            except Exception:
+                pass
+            continue
+
+        domain_name = domains_cfg[domain_id].get("name", domain_id)
+        del domains_cfg[domain_id]
+        ok += 1
+        _log(f"  #{num}: 已从 sources.yaml 删除 {domain_id} ({domain_name})")
+
+        # 让 worker 把订阅者从这个 domain 退订
+        try:
+            status, resp = _http("POST", "/admin/unsubscribe-domain",
+                                 body={"domain_id": domain_id}, admin=True)
+            unsubbed = resp.get("count", 0)
+            removed = resp.get("removed", 0)
+            _log(f"     → worker 退订 {unsubbed} 个订阅者（其中 {removed} 个整条删除）")
+        except Exception as e:
+            _log(f"     ⚠️ 通知 worker 退订失败: {e}（可手动跑 /admin/unsubscribe-domain）")
+
+        try:
+            _close_issue(num,
+                comment=f"已删除领域「{domain_name}」（id={domain_id}）。\n\n- sources.yaml 已移除\n- 订阅者已从该领域退订（其他领域订阅保留）\n- 历史 markdown 文件保留，可通过直接 URL 访问",
+                label_add="curio-ingested")
+        except Exception as e:
+            _log(f"     close 失败: {e}")
+
+    if ok > 0:
+        SOURCES.write_text(yaml.safe_dump(cfg, allow_unicode=True, sort_keys=False), encoding="utf-8")
+        _log(f"\n📝 已删除 {ok} 个领域")
+    _log(f"\n📊 ingest_delete_domain 完成：{ok} 成功 / {fail} 失败")
+    return 0
+
+
 # ============== CLI ==============
 
 def main():
@@ -541,6 +616,7 @@ def main():
     bcast.add_argument("--dry-run", action="store_true")
     sub.add_parser("ingest_subscribe", help="拉 GitHub [curio-subscribe] Issue 兜底")
     sub.add_parser("ingest_add_domain", help="拉 GitHub [curio-add-domain] Issue 加入 sources.yaml")
+    sub.add_parser("ingest_delete_domain", help="拉 GitHub [curio-delete-domain] Issue 删除领域")
     sub.add_parser("ingest_generate", help="拉 GitHub [curio-generate] Issue 写到 .pending_generate.json")
 
     args = p.parse_args()
@@ -555,6 +631,8 @@ def main():
         sys.exit(ingest_subscribe_issues())
     if args.cmd == "ingest_add_domain":
         sys.exit(ingest_add_domain_issues())
+    if args.cmd == "ingest_delete_domain":
+        sys.exit(ingest_delete_domain_issues())
     if args.cmd == "ingest_generate":
         sys.exit(ingest_generate_issues())
 

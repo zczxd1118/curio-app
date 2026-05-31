@@ -259,7 +259,12 @@ function openGenerateViaIssue(domainId, domainName) {
   modal.innerHTML = `
     <div class="modal" style="max-width:480px">
       <h3>⚡ 立刻生成「${domainName}」</h3>
-      <p>这会在 GitHub 上提交一条触发 Issue，Curio Agent 看到后会立刻为你重跑这个领域的生成（抓取 → 打分 → 写报纸 → 邮件通知）。整个过程约 5-10 分钟。</p>
+      <p>提交后会在 GitHub 上自动开一个 Issue，Curio Agent 每小时检查一次，看到后会立刻为你重跑（抓取 → 打分 → 中文摘要 → 主编点评 → 邮件通知）。</p>
+      <p style="background:var(--bg-elev);padding:10px 12px;border-left:3px solid var(--accent);font-size:13px;color:var(--text-soft);margin:12px 0;">
+        ⏱️ <strong>预计等待：最长 60 分钟</strong>（Agent 调度间隔 1 小时）<br>
+        📨 留下邮箱跑完会发一封通知<br>
+        📋 你可以在 GitHub Issue 里实时看 Agent 运行状态
+      </p>
       <div class="form-row">
         <label>邮箱（可选，跑完了通知你）</label>
         <input type="email" id="gen-email" placeholder="you@example.com" autocomplete="email">
@@ -442,15 +447,33 @@ async function openSubscribeModal() {
 }
 
 async function deleteDomain(domainId, domainName) {
-  if (!isServerMode()) { alert('需先启动后端'); return; }
-  if (!confirm(`确定要删除领域「${domainName}」吗？\\n（往期 markdown 文件不会被删，可手动恢复）`)) return;
-  try {
-    await api('/api/domains/' + encodeURIComponent(domainId), {method: 'DELETE'});
-    toast('已删除 ' + domainName);
-    setTimeout(() => location.reload(), 600);
-  } catch (e) {
-    toast('❌ ' + e.message, true);
-  }
+  if (!confirm(`确定要删除领域「${domainName}」吗？\n\n· 不会再生成新简报\n· 历史期数保留可访问\n· 订阅者会自动从该领域退订\n\n你将被引导到 GitHub 提交一个删除请求 Issue。Agent 在下次触发时（最长 60 分钟内）执行。`)) return;
+
+  // 静态站走 GitHub Issue 链路（和加领域/立即生成对齐）
+  const lines = [];
+  lines.push('<!-- Curio 删除领域请求 · 自动生成 -->');
+  lines.push('');
+  lines.push('type: delete-domain');
+  lines.push('domain_id: ' + domainId);
+  lines.push('domain_name: ' + domainName);
+  lines.push('requested_at: ' + new Date().toISOString());
+  lines.push('');
+  lines.push('---');
+  lines.push('');
+  lines.push('确认删除：');
+  lines.push('- [ ] 我确认不再需要该领域的简报');
+  lines.push('');
+  lines.push('Agent 看到后会：');
+  lines.push('1. 从 sources.yaml 移除该领域配置');
+  lines.push('2. 把所有订阅者从该领域中退订（其他领域订阅保留）');
+  lines.push('3. 历史 markdown 不删，仍可通过直接 URL 访问');
+  lines.push('4. 完成后评论本 Issue 并关闭');
+
+  const title = encodeURIComponent('[curio-delete-domain] ' + domainName);
+  const body = encodeURIComponent(lines.join('\n'));
+  const url = 'https://github.com/' + GH_REPO + '/issues/new?labels=curio-delete-domain&title=' + title + '&body=' + body;
+  window.open(url, '_blank');
+  toast('✅ 已打开 GitHub 删除申请页', false);
 }
 
 // ===== 一键生成 =====
@@ -850,9 +873,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// 静态模式：删除按钮隐藏，⚡生成按钮改跳 GitHub Issue（加领域同理）
+// 静态模式：删除按钮 + ⚡生成按钮 + 加领域按钮 都走 GitHub Issue 链路
 function applyStaticMode() {
-  $$('.del-btn').forEach(b => b.style.display = 'none');
+  $$('.del-btn').forEach(b => {
+    b.dataset.staticMode = '1';
+    b.title = '通过 GitHub Issue 删除该领域';
+  });
   $$('.gen-btn').forEach(b => {
     b.dataset.staticMode = '1';
     b.textContent = '⚡ 立刻生成';

@@ -221,6 +221,49 @@ function isAdminAuthed(req, env) {
   return env.ADMIN_TOKEN && got === expected;
 }
 
+async function handleAdminUnsubscribeDomain(req, env) {
+  const auth = req.headers.get("authorization") || "";
+  if (auth !== `Bearer ${env.ADMIN_TOKEN}`) {
+    return errorJson("unauthorized", 401);
+  }
+  let body;
+  try { body = await req.json(); } catch { return errorJson("invalid json"); }
+  const domainId = body && body.domain_id;
+  if (!domainId) return errorJson("domain_id required");
+
+  // 列出所有订阅者，过滤含该 domain 的，把 domain 从 domains[] 移除
+  const list = await env.CURIO_KV.list({ prefix: "subscriber:" });
+  let touched = 0;
+  let removed = 0;  // 因为只订了这一个域，整条订阅删除的数量
+  for (const k of list.keys) {
+    const sub = await env.CURIO_KV.get(k.name, "json");
+    if (!sub || !Array.isArray(sub.domains)) continue;
+    if (!sub.domains.includes(domainId)) continue;
+    const newDomains = sub.domains.filter(d => d !== domainId);
+    if (newDomains.length === 0) {
+      // 用户只订了这一个域，整条订阅删掉
+      await env.CURIO_KV.delete(k.name);
+      if (sub.unsub_token) await env.CURIO_KV.delete("unsub:" + sub.unsub_token);
+      removed++;
+    } else {
+      sub.domains = newDomains;
+      await env.CURIO_KV.put(k.name, JSON.stringify(sub));
+    }
+    touched++;
+  }
+
+  // 同步从 domain meta KV 中删除（让 /domains 返回也少一项）
+  const meta = (await env.CURIO_KV.get("domains:meta", "json")) || {};
+  if (meta[domainId]) {
+    delete meta[domainId];
+    await env.CURIO_KV.put("domains:meta", JSON.stringify(meta));
+  }
+  // 也删该域的内容缓存
+  await env.CURIO_KV.delete("content:" + domainId + ":latest");
+
+  return json({ ok: true, count: touched, removed });
+}
+
 async function handleAdminSyncDomains(req, env) {
   if (!isAdminAuthed(req, env)) return errorJson("unauthorized", 401);
   let body;
@@ -342,6 +385,9 @@ export default {
       }
       if (url.pathname === "/admin/push-content" && req.method === "POST") {
         return handleAdminPushContent(req, env);
+      }
+      if (url.pathname === "/admin/unsubscribe-domain" && req.method === "POST") {
+        return handleAdminUnsubscribeDomain(req, env);
       }
       if (url.pathname === "/broadcast" && req.method === "POST") {
         return handleBroadcast(req, env);

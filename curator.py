@@ -147,6 +147,12 @@ def _run_source(src: dict) -> list[dict]:
                 pages_per_kw=1,
                 sleep=1.0,
             )
+        elif kind == "wallstreetcn_api":
+            from agent.fetch_wallstreetcn import fetch_wallstreetcn
+            return fetch_wallstreetcn(
+                limit=src.get("limit", 20),
+                source_name=name,
+            )
         else:
             print(f"   ⚠️ 未知 kind: {kind}", file=sys.stderr)
             return []

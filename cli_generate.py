@@ -78,6 +78,10 @@ def cmd_prepare(args):
     log("📥 ingest add-domain requests")
     run([PY, "-m", "agent.worker_sync", "ingest_add_domain"], check=False)
 
+    # 0.15 ingest 删领域请求 → sources.yaml 删除
+    log("📥 ingest delete-domain requests")
+    run([PY, "-m", "agent.worker_sync", "ingest_delete_domain"], check=False)
+
     # 0.2 ingest 订阅请求兜底 → worker /subscribe
     log("📥 ingest subscribe requests (GitHub fallback)")
     run([PY, "-m", "agent.worker_sync", "ingest_subscribe"], check=False)

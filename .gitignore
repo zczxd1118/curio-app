@@ -26,3 +26,6 @@ worker/.dev.vars
 worker/node_modules/
 worker/.npm-cache/
 worker/.wrangler-state/
+
+# pending generate state (runtime)
+.pending_generate.json
