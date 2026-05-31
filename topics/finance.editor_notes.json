@@ -4,29 +4,34 @@
   "generated_at": "2026-05-31",
   "notes": [
     {
-      "id": "hn:48192383",
-      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
-      "note": "Forge 是个开源 LLM 工具调用可靠性层——把 8B 本地模型在 agentic 任务上的成功率从 53% 拉到 99%，靠 guardrails 而不是模型本身。这条进金融周刊也是误抓（HN 高热度但跟金融无关），下次跑分会过滤。如果你刚好在做投资类 AI agent，这种「用工程而不是 finetune 解决可靠性」的思路对你有参考。"
+      "id": "hn:tesla-lithium",
+      "title": "Tesla lithium refinery wastewater",
+      "note": "Tesla 在德州 Nueces 县的锂精炼厂被发现每天排放 23.1 万加仑深色废水，目前未取得排污许可。对持有 TSLA 或关注美国电池供应链的人，这是潜在监管诉讼的起点——不是马斯克推特上的事，是真实的环保法务风险。建议把这条和最新 10-Q 里 Energy 业务的 capex 一起看。"
     },
     {
-      "id": "hn:48198551",
-      "title": "Tesla's lithium refinery discharges 231,000 gallons of polluted wastewater a day",
-      "note": "Tesla 在德州 Nueces 县的锂精炼厂被发现每天往沟渠排放 23.1 万加仑深色废水——本月初被排水区工作人员例行巡检时撞到，目前未取得排污许可。对持仓 TSLA 或关注美国电池供应链的人，这是一个潜在监管风险信号：不是马斯克推特上的事，是真实的环保诉讼可能起点。"
+      "id": "hn:us-inflation-3.8",
+      "title": "US CPI jumps to 3.8%",
+      "note": "美国 5 月 CPI 同比 3.8% 超预期，主因伊朗战争推高能源价格。这意味着市场原本押注的 2026 下半年降息节奏要重新评估。如果你持有美股长债 ETF（TLT 之类）、对汇率敏感持仓、或加杠杆做利率衍生品，这条值得就下次议息会议预判调权重。"
     },
     {
-      "id": "hn:48165980",
-      "title": "Tesla Solar Roof is on life support as it pivot to panels",
-      "note": "Tesla Solar Roof 被 Electrek 实锤「已基本放弃」——2016 年 Musk 承诺 2019 年底每周装 1000 户，10 年过去累计装机才约 3000 户。Tesla 已停止公开装机数据，主推普通光伏板。这条对 Tesla 估值里「能源业务想象空间」那部分是减法，建议跟最新 10-Q 里的 Energy Generation 营收一起看。"
+      "id": "rss:ben-spacex-ipo",
+      "title": "SpaceX IPO and Data Centers in Space",
+      "note": "Ben Thompson 把两个独立故事拧在一起：SpaceX 准备 IPO（Starlink 现金流是核心估值锚），以及'太空数据中心'这个新命题（用太阳能 + 真空散热绕开地面电力瓶颈）。如果 IPO 估值落在 4000 亿美元以上，太空算力会成为 SpaceX 的第二增长曲线，而不仅是噱头。"
     },
     {
-      "id": "hn:48108313",
-      "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
-      "note": "美国 5 月 CPI 同比 3.8%，超过预期，主因伊朗战争推高能源价格——这是宏观最新一条。对你的影响：美联储原本市场押注的 2026 下半年降息节奏可能再延后；持有美股长债 ETF 或对汇率敏感持仓的话，这条值得对下次议息会议预判调权重。原文链接抓不到，建议直接看 BBC 原报道。"
+      "id": "rss:nvidia-earnings",
+      "title": "Nvidia Earnings + New Reporting",
+      "note": "NVDA 本季度财报 + 新口径报告解读。Ben 重点拆 'AI Stack' 视角下 Nvidia 的护城河结构——不只是芯片，更是 CUDA + InfiniBand + DGX 的整套体系。如果你在 NVDA 是核心持仓，这一期能让你判断 AMD MI400、Cerebras IPO、Google TPU 在哪些维度真威胁、哪些是噪音。"
     },
     {
-      "id": "hn:48236770",
-      "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
-      "note": "YC P26 项目 Superset 上线——一个本地 IDE，能在 isolated git worktree 上并行编排多个 CLI agent（Claude Code / Codex 等）。卖点是同时跑多个 agent 不会上下文打架。这条在金融周刊也是误进，但如果你在用 Claude Code 做副业项目，这种 agent 编排器会让你的并行开发节奏快不少。"
+      "id": "hn:tesla-solar-roof",
+      "title": "Tesla Solar Roof on life support",
+      "note": "Tesla Solar Roof 被 Electrek 实锤'已基本放弃'：2016 Musk 承诺 2019 年底每周装 1000 户，10 年过去累计装机才约 3000 户。Tesla 已停止公开装机数据。这条对 TSLA 估值里'能源业务想象空间'那部分是实打实的减法，建议跟最新 10-Q 里 Energy Generation 营收一起看。"
+    },
+    {
+      "id": "rss:data-center-veto",
+      "title": "Data Center Veto",
+      "note": "美国本地政府开始用'噪音 + 用电 + 用水'否决新数据中心选址（弗吉尼亚、德州、亚利桑那都在出现）。这对 AI 算力供应链是新瓶颈：芯片不再是问题，但'在哪里放这些芯片'变成关键。这条对 NVDA / DLR / EQIX / 电力 utilities 板块的中期判断都有影响。"
     }
   ]
 }

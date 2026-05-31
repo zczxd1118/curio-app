@@ -1,13 +1,13 @@
 {
-  "prepared_at": "2026-05-31 02:54",
+  "prepared_at": "2026-05-31 15:16",
   "domains": [
     {
-      "domain": "bigtech",
-      "domain_name": "大厂讯息",
-      "slug": "大厂讯息",
-      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/大厂讯息.candidates.json",
-      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/大厂讯息.score-prompt.md",
-      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/大厂讯息.scored.json"
+      "domain": "ai",
+      "domain_name": "AI",
+      "slug": "ai",
+      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/ai.candidates.json",
+      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/ai.score-prompt.md",
+      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/ai.scored.json"
     }
   ]
 }

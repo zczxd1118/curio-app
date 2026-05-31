@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curio · 半导体 简报 · Curio</title>
+<link rel="stylesheet" href="../../styles.css?v=20260531152014">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="../../index.html">Curio<span class="dot">.</span></a>
+    <div class="nav-links"><a href="../../index.html">首页</a><a href="../../d/ai/index.html">AI</a><a href="../../d/finance/index.html">金融</a><a href="../../d/semiconductor/index.html" class="active">半导体</a><a href="../../d/bigtech/index.html">大厂讯息</a></div>
+    <div class="search-wrap">
+      <span class="search-icon">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
+      </span>
+      <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
+      <div class="search-results" id="curio-search-results"></div>
+    </div>
+    <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
+      <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      <span class="sub-label">订阅</span>
+    </button>
+    <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
+      <span class="icon-moon-default" style="display:inline-flex">
+        <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </span>
+      <span class="icon-sun">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </span>
+    </button>
+  </div>
+</nav>
+
+<aside class="toc" id="curio-toc">
+  <div class="toc-title">本期目录</div>
+  <div id="curio-toc-list"></div>
+</aside>
+
+<main>
+
+<div class="hero">
+  <div class="kicker">🔬 半导体 · 2026-05-31</div>
+  <h1>Curio · 半导体 简报</h1>
+  <div class="meta">2026-05-31 · 由 Curio 主编从候选中选出</div>
+</div>
+<div class="content">
+<p><strong>2026-05-31 · 由 Curio 主编从候选中选出</strong></p>
+<hr />
+<h2>📰 主编社论</h2>
+<p>本期（2026-05-31）半导体核心：ASML 作为先进制程唯一咽喉点的深度分析、Claude Opus 4.8 推动推理需求新一轮上涨、本地 GPU server 经济性讨论、美国对国际研究合作的新限制。供给侧（设备）和需求侧（模型）双重压力。</p>
+<hr />
+<h2>🗞️ 头版报道（6 条）</h2>
+<h3>1. ASML became the chokepoint for cutting-edge chips</h3>
+<p><strong>来源</strong>：HN · ASML · hackernews</p>
+<p><em>原标题：ASML became the chokepoint for cutting-edge chips</em></p>
+<p><strong>📖 主编点评</strong></p>
+<p>深度长文：ASML 是先进制程唯一咽喉点的来龙去脉。EUV 光刻机全球只有 ASML 能造，台积电 / 三星 / 英特尔 5nm 以下全靠它。这条对持有 ASML 或想理解半导体地缘政治的人是必读。如果你做 NVDA/TSMC 长期持仓，ASML 的产能扩张速度直接决定 2027-2028 的 AI 算力供给上限。</p>
+<p>📺 <a href="https://news.ycombinator.com/item?id=asml-chokepoint">打开原文</a></p>
+<hr />
+<h3>2. Claude Opus 4.8</h3>
+<p><strong>来源</strong>：HN · Anthropic · hackernews</p>
+<p><em>原标题：Claude Opus 4.8</em></p>
+<p><strong>📖 主编点评</strong></p>
+<p>Anthropic 把 Opus 升到 4.8——同价位、benchmark 全面提升，新增 Claude Code Dynamic Workflows 处理大规模任务，Fast mode 价格降到 1/3。这条对半导体的意义是需求侧：每次 Claude 升级都意味着推理算力需求阶跃。如果你持仓 NVDA 或关心数据中心建设节奏，Anthropic 这种主流商用模型的迭代节奏是直接驱动因子。</p>
+<p>📺 <a href="https://news.ycombinator.com/item?id=claude-opus">打开原文</a></p>
+<hr />
+<h3>3. Was my $48K GPU server worth it?</h3>
+<p><strong>来源</strong>：HN · 硬件 · hackernews</p>
+<p><em>原标题：Was my $48K GPU server worth it?</em></p>
+<p><strong>📖 主编点评</strong></p>
+<p>一位个人开发者花 4.8 万美元自建 GPU server，详细算了和云 API 的成本对比。结论比想象中复杂：如果你只是偶尔跑 LLM，云 API 永远便宜；但如果你做训练 + 推理 + 长跑实验，本地 server 一年回本。这条对你判断 'NVDA 消费级 RTX 5090 / Apple M5 Ultra' 的市场空间有用。</p>
+<p>📺 <a href="https://news.ycombinator.com/item?id=gpu-48k">打开原文</a></p>
+<hr />
+<h3>4. Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</h3>
+<p><strong>来源</strong>：HN · LLM · hackernews</p>
+<p><em>原标题：Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</em></p>
+<p><strong>📖 主编点评</strong></p>
+<p>Forge 是开源 LLM 工具调用的可靠性层——靠输出 guardrails（救援解析、重试、响应校验）把 8B 本地模型的 agent 任务成功率从 53% 拉到 99%。这条对半导体的意义是：'本地推理是否可用' 的门槛在快速降低，意味着 inference workload 不必都跑在云上 H100。NVDA 数据中心业务的中长期天花板要重新评估。</p>
+<p>📺 <a href="https://news.ycombinator.com/item?id=forge">打开原文</a></p>
+<hr />
+<h3>5. U.S. researchers face new restrictions on publishing with foreign collaborators</h3>
+<p><strong>来源</strong>：HN · 政策 · hackernews</p>
+<p><em>原标题：U.S. researchers face new restrictions on publishing with foreign collaborators</em></p>
+<p><strong>📖 主编点评</strong></p>
+<p>美国对涉及芯片/AI 的学术研究发布新限制：研究员与外国合作者共同发表论文需要新审批流程。这是对学术国际合作的实质性收紧，对中美芯片人才流动的中长期影响巨大。如果你关注半导体行业的人才市场，这条说明高端人才的'物理位置'重要性在快速回升。</p>
+<p>📺 <a href="https://news.ycombinator.com/item?id=us-research-restrict">打开原文</a></p>
+<hr />
+<h3>6. Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep</h3>
+<p><strong>来源</strong>：HN · 工程 · hackernews</p>
+<p><em>原标题：Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep</em></p>
+<p><strong>📖 主编点评</strong></p>
+<p>Semble 是面向 agent 的代码搜索引擎，号称比 grep 给 agent 喂的 token 少 98%。这条的半导体意义在于推理成本侧的工程优化——LLM 推理算力是稀缺资源，每一个 token 都要省。如果工具链层面能持续把 token 消耗降一个数量级，对 GPU 单位需求的影响会比模型本身的优化更大。</p>
+<p>📺 <a href="https://news.ycombinator.com/item?id=semble">打开原文</a></p>
+<hr />
+<h2>📑 参考阅读</h2>
+<ul>
+<li><strong>Meta blocks human rights accounts from reaching audiences in Saudi Arabia, UAE</strong> — Meta 区域屏蔽人权账号，平台合规话题。与半导体关联弱但 HN 热度高。</li>
+<li><strong>Mullvad exit IPs are surprisingly identifying</strong> — VPN 隐私技术分析。如果你关心隐私基础设施可读。</li>
+<li><strong>Show HN: Gaussian Splat of a Strawberry</strong> — Gaussian Splatting 技术演示。3D 渲染前沿。</li>
+<li><strong>Zerostack – A Unix-inspired coding agent written in pure Rust</strong> — 纯 Rust 写的 Unix 风 coding agent。系统编程 + AI 的新工程实践。</li>
+<li><strong>Migrating from Go to Rust</strong> — Go → Rust 迁移经验。如果你做底层系统/嵌入式（与半导体强相关）有参考。</li>
+</ul>
+</div>
+
+    <div class="feedback" data-issue-id="semiconductor/2026-05-31">
+      <h2>📝 本期反馈</h2>
+      <p class="desc">下次 Agent 跑前会读这段，用来调整搜索关键词、打分倾向。</p>
+
+      <div class="fallback-notice" style="display:none">
+        反馈需要后端支持。运行 <code>python server.py</code>，然后用 <code>http://localhost:8765/</code> 打开本页。
+      </div>
+
+      
+        <div class="fb-item" data-idx="1" data-title="ASML became the chokepoint for cutting-edge chips">
+          <div class="fb-title"><span class="num">1.</span> ASML became the chokepoint for cutting-edge chips</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+        <div class="fb-item" data-idx="2" data-title="Claude Opus 4.8">
+          <div class="fb-title"><span class="num">2.</span> Claude Opus 4.8</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+        <div class="fb-item" data-idx="3" data-title="Was my $48K GPU server worth it?">
+          <div class="fb-title"><span class="num">3.</span> Was my $48K GPU server worth it?</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+        <div class="fb-item" data-idx="4" data-title="Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks">
+          <div class="fb-title"><span class="num">4.</span> Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+        <div class="fb-item" data-idx="5" data-title="U.S. researchers face new restrictions on publishing with foreign collaborators">
+          <div class="fb-title"><span class="num">5.</span> U.S. researchers face new restrictions on publishing with foreign collaborators</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+        <div class="fb-item" data-idx="6" data-title="Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep">
+          <div class="fb-title"><span class="num">6.</span> Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+
+      <div class="long-term">
+        <label>最近更关注</label>
+        <input type="text" id="lt-more" placeholder="如：AI Agent 实战 / 半导体先进制程 / 美股期权策略">
+
+        <label>最近不太关注</label>
+        <input type="text" id="lt-less" placeholder="如：纯产品更新 / 概念股炒作">
+
+        <label>报道笔法（这是新尝试，重点反馈）</label>
+        <input type="text" id="lt-format" placeholder="如：二栏太多 / 时间线很好 / 想看更多引述">
+      </div>
+
+      <div class="fb-submit">
+        <button class="btn-primary fb-submit-btn">提交反馈</button>
+        <span class="fb-status">未提交</span>
+      </div>
+    </div>
+
+</main>
+
+<footer>
+  Curio v0.9 · 2026-05-31 · 由你和 AI 共同策展 · <a href="https://github.com/zczxd1118/curio-app" target="_blank" rel="noopener" style="color:inherit;opacity:0.6">zxd</a>
+</footer>
+
+<script>
+window.CURIO_REL_ROOT = "../../";
+window.CURIO_API_BASE = "https://api.curioradar.fun";
+window.CURIO_GH_REPO = "zczxd1118/curio-app";
+</script>
+<script src="../../app.js?v=20260531152014"></script>
+</body>
+</html>

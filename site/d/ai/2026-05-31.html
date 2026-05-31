@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curio · AI 简报 · Curio</title>
+<link rel="stylesheet" href="../../styles.css?v=20260531152014">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="../../index.html">Curio<span class="dot">.</span></a>
+    <div class="nav-links"><a href="../../index.html">首页</a><a href="../../d/ai/index.html" class="active">AI</a><a href="../../d/finance/index.html">金融</a><a href="../../d/semiconductor/index.html">半导体</a><a href="../../d/bigtech/index.html">大厂讯息</a></div>
+    <div class="search-wrap">
+      <span class="search-icon">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
+      </span>
+      <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
+      <div class="search-results" id="curio-search-results"></div>
+    </div>
+    <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
+      <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      <span class="sub-label">订阅</span>
+    </button>
+    <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
+      <span class="icon-moon-default" style="display:inline-flex">
+        <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </span>
+      <span class="icon-sun">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </span>
+    </button>
+  </div>
+</nav>
+
+<aside class="toc" id="curio-toc">
+  <div class="toc-title">本期目录</div>
+  <div id="curio-toc-list"></div>
+</aside>
+
+<main>
+
+<div class="hero">
+  <div class="kicker">🤖 AI · 2026-05-31</div>
+  <h1>Curio · AI 简报</h1>
+  <div class="meta">2026-05-31 · 由 Curio 主编从候选中选出</div>
+</div>
+<div class="content">
+<p><strong>2026-05-31 · 由 Curio 主编从候选中选出</strong></p>
+<hr />
+<h2>📰 主编社论</h2>
+<p>本期（2026-05-31）AI 圈核心叙事：Anthropic + Cognition 双双完成超大轮融资；Google I/O 2026 用 Gemini 3.5 Flash + Omni 反击；模型实验室全部转向 agent 产品；Cerebras 启动 600 亿美元 IPO。资本和产品都在加速。</p>
+<hr />
+<h2>🗞️ 头版报道（6 条）</h2>
+<h3>1. [AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows</h3>
+<p><strong>来源</strong>：Latent.Space · rss</p>
+<p><em>原标题：[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows</em></p>
+<p><strong>📖 主编点评</strong></p>
+<p>Anthropic 完成 H 轮 965 亿美元融资，同时发布 Opus 4.8 和 Dynamic Workflows（让 Claude Code 能编排长链路任务）。run-rate 从去年 12 月 9B 飙到现在 47B 美元，是 SaaS 史上最快增长曲线。如果你在选型 AI 编程工具，Claude Code 的资本和产品双护城河已经成型，Cursor 和 Copilot 的窗口期可能比预期更短。</p>
+<p>📺 <a href="https://www.latent.space/p/ainews-anthropic-965b-series">打开原文</a></p>
+<hr />
+<h3>2. [AINews] Cognition raises $1B in $26B Series D</h3>
+<p><strong>来源</strong>：Latent.Space · rss</p>
+<p><em>原标题：[AINews] Cognition raises $1B in $26B Series D</em></p>
+<p><strong>📖 主编点评</strong></p>
+<p>Devin 母公司 Cognition 拿下 10 亿美元 D 轮，估值 260 亿。从一年前被嘲笑'demo 造假'到现在估值赶超大多数独角兽，关键是 Devin 真的开始在企业里跑量了。这条对你判断 'agent 替代部分编码工作' 的时间线有指导意义——不是 5 年后，是现在已经开始。</p>
+<p>📺 <a href="https://www.latent.space/p/cognition-1b">打开原文</a></p>
+<hr />
+<h3>3. The Age of Async Agents — Cognition's Walden Yan &amp; OpenInspect's Cole Murray</h3>
+<p><strong>来源</strong>：Latent.Space · rss</p>
+<p><em>原标题：The Age of Async Agents — Cognition's Walden Yan &amp; OpenInspect's Cole Murray</em></p>
+<p><strong>📖 主编点评</strong></p>
+<p>Latent Space 这期访谈点出关键转变：agent 从 'chat 形态'（你问我答）转向 'async job 形态'（提交任务，半天后回来交东西）。如果你在用 Claude Code 或 Devin，这一期能帮你理解为什么这些工具的工作流越来越像 GitHub PR 而不是 ChatGPT，以及对应的协作和验收方式怎么变。</p>
+<p>📺 <a href="https://www.latent.space/p/cognition-async-agents">打开原文</a></p>
+<hr />
+<h3>4. [AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark</h3>
+<p><strong>来源</strong>：Latent.Space · rss</p>
+<p><em>原标题：[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark</em></p>
+<p><strong>📖 主编点评</strong></p>
+<p>Google I/O 2026 全家桶：Gemini 3.5 Flash 主打速度+便宜，Omni 是视频版 NanoBanana（多模态生成），Spark 是面向开发者的 agent 平台。这是 Google AI 终于不再'追赶'而是'侧翼包抄'的转折点——靠基础设施、视频生成和分发渠道做差异化。</p>
+<p>📺 <a href="https://www.latent.space/p/google-io-2026">打开原文</a></p>
+<hr />
+<h3>5. Anthropic's run-rate revenue hits $47 billion</h3>
+<p><strong>来源</strong>：Simon Willison's Weblog · rss</p>
+<p><em>原标题：Anthropic's run-rate revenue hits $47 billion</em></p>
+<p><strong>📖 主编点评</strong></p>
+<p>Simon Willison 单独把 Anthropic 'run-rate revenue 47B' 这条拎出来分析。run-rate 是按上月营收×12 算的年化估算，不是已落账的钱。但即便如此，从去年 12 月 9B 到现在 47B 是真实曲线。这是看 AI 商业化速度最直接的一个数字，比 token 用量、API 调用次数都更说明问题。</p>
+<p>📺 <a href="https://simonwillison.net/2026/May/29/anthropic/">打开原文</a></p>
+<hr />
+<h3>6. [AINews] Cerebras' $60B IPO: Slowly, then All at Once</h3>
+<p><strong>来源</strong>：Latent.Space · rss</p>
+<p><em>原标题：[AINews] Cerebras' $60B IPO: Slowly, then All at Once</em></p>
+<p><strong>📖 主编点评</strong></p>
+<p>Cerebras 是做 wafer-scale AI 芯片的创业公司（一整片晶圆当一个芯片），现在启动 600 亿美元 IPO。'Slowly, then All at Once' 标题来自《太阳照常升起》，意思是憋了好几年终于一次性全爆。这条对持有 NVDA 或关注 AI 算力供应链的人是关键信号：训练侧的非 Nvidia 选择正在快速成熟。</p>
+<p>📺 <a href="https://www.latent.space/p/cerebras-60b-ipo">打开原文</a></p>
+<hr />
+<h2>📑 参考阅读</h2>
+<ul>
+<li><strong>[AINews] All Model Labs are now Agent Labs</strong> — OpenAI/Anthropic/Google 全部转向 agent 产品而不是模型本身。</li>
+<li><strong>New AI Infra decacorns: Fireworks, Baseten (with OpenRouter on the way)</strong> — AI 基础设施层新一波 100 亿美金估值公司。</li>
+<li><strong>[AINews] OpenAI GPT-next disproves 80 year old Erdős planar unit distance problem</strong> — OpenAI 新模型证伪 80 年老数学猜想，AI 推理在数学上的里程碑。</li>
+<li><strong>Railway: The Agent-Native Cloud — Jake Cooper</strong> — Railway 重新定位为 'agent native 云'，反映基础设施层的语言切换。</li>
+<li><strong>🔬ESM: The Bitter Lesson is Coming for Proteins - Alex Rives</strong> — 蛋白质设计领域也开始服从 'bitter lesson'：scale 战胜 inductive bias。</li>
+</ul>
+</div>
+
+    <div class="feedback" data-issue-id="ai/2026-05-31">
+      <h2>📝 本期反馈</h2>
+      <p class="desc">下次 Agent 跑前会读这段，用来调整搜索关键词、打分倾向。</p>
+
+      <div class="fallback-notice" style="display:none">
+        反馈需要后端支持。运行 <code>python server.py</code>，然后用 <code>http://localhost:8765/</code> 打开本页。
+      </div>
+
+      
+        <div class="fb-item" data-idx="1" data-title="[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflow">
+          <div class="fb-title"><span class="num">1.</span> [AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflow</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+        <div class="fb-item" data-idx="2" data-title="[AINews] Cognition raises $1B in $26B Series D">
+          <div class="fb-title"><span class="num">2.</span> [AINews] Cognition raises $1B in $26B Series D</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+        <div class="fb-item" data-idx="3" data-title="The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray">
+          <div class="fb-title"><span class="num">3.</span> The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+        <div class="fb-item" data-idx="4" data-title="[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark">
+          <div class="fb-title"><span class="num">4.</span> [AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+        <div class="fb-item" data-idx="5" data-title="Anthropic's run-rate revenue hits $47 billion">
+          <div class="fb-title"><span class="num">5.</span> Anthropic's run-rate revenue hits $47 billion</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+        <div class="fb-item" data-idx="6" data-title="[AINews] Cerebras' $60B IPO: Slowly, then All at Once">
+          <div class="fb-title"><span class="num">6.</span> [AINews] Cerebras' $60B IPO: Slowly, then All at Once</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+
+      <div class="long-term">
+        <label>最近更关注</label>
+        <input type="text" id="lt-more" placeholder="如：AI Agent 实战 / 半导体先进制程 / 美股期权策略">
+
+        <label>最近不太关注</label>
+        <input type="text" id="lt-less" placeholder="如：纯产品更新 / 概念股炒作">
+
+        <label>报道笔法（这是新尝试，重点反馈）</label>
+        <input type="text" id="lt-format" placeholder="如：二栏太多 / 时间线很好 / 想看更多引述">
+      </div>
+
+      <div class="fb-submit">
+        <button class="btn-primary fb-submit-btn">提交反馈</button>
+        <span class="fb-status">未提交</span>
+      </div>
+    </div>
+
+</main>
+
+<footer>
+  Curio v0.9 · 2026-05-31 · 由你和 AI 共同策展 · <a href="https://github.com/zczxd1118/curio-app" target="_blank" rel="noopener" style="color:inherit;opacity:0.6">zxd</a>
+</footer>
+
+<script>
+window.CURIO_REL_ROOT = "../../";
+window.CURIO_API_BASE = "https://api.curioradar.fun";
+window.CURIO_GH_REPO = "zczxd1118/curio-app";
+</script>
+<script src="../../app.js?v=20260531152014"></script>
+</body>
+</html>

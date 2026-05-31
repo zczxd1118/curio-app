@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Curio · 半导体 周刊 · Curio</title>
-<link rel="stylesheet" href="../../styles.css?v=20260531042137">
+<link rel="stylesheet" href="../../styles.css?v=20260531152014">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -58,7 +58,7 @@
 <p><strong>来源</strong>：craigmart · hackernews · 热度 1734</p>
 <p><em>原标题：Claude Opus 4.8</em></p>
 <p><strong>📖 主编点评</strong></p>
-<p>Anthropic 把 Opus 升级到 4.8——同价位、benchmark 全面提升，并放出两个新特性：Claude.ai 用户可以控制思考强度，Claude Code 加了 dynamic workflows 处理大规模任务。Fast mode 价格降到原来 1/3。如果你在用 Claude 做 agent 编排，这次更新意味着同样的 prompt 能跑出更稳的结果，且推理预算更可控。</p>
+<p>Anthropic 把 Opus 升到 4.8——同价位、benchmark 全面提升，新增 Claude Code Dynamic Workflows 处理大规模任务，Fast mode 价格降到 1/3。这条对半导体的意义是需求侧：每次 Claude 升级都意味着推理算力需求阶跃。如果你持仓 NVDA 或关心数据中心建设节奏，Anthropic 这种主流商用模型的迭代节奏是直接驱动因子。</p>
 <details><summary>展开英文原文</summary>
 
 # Introducing Claude Opus 4.8
@@ -84,8 +84,16 @@ The table below shows how Opus 4.8 compares to its predecessor and to other mode
 <h3>3. 盯着墙壁看的男人</h3>
 <p><strong>来源</strong>：aselimov3 · hackernews · 热度 724</p>
 <p><em>原标题：Men who stare at walls</em></p>
-<p><strong>📖 主编点评</strong></p>
-<p>一篇个人博客谈「盯着墙发呆」作为对抗信息过载的方法——和半导体没有任何关系，被旧版 HN 全文搜索误抓进来。新版抓取已加严格过滤，下次跑就不会再出现。如果你想看专注力相关，去搜「productivity」专题更对路。</p>
+<p><strong>📖 中文摘要</strong></p>
+<h1>盯着墙壁以提高注意力和生产力</h1>
+<p>我偶然看到Simple Lucas的一段视频，描述了提高注意力和生产力的例行公事。 例行公事基本上是：</p>
+<p>-在专注于工作时，请勿使用任何屏幕/娱乐设施。
+-当您开始感到精神疲惫时，坐下来盯着墙壁看x分钟，以恢复注意力。</p>
+<p>我一直在尝试，这是一个非常有效（但很难）的例行公事。</p>
+<h1>#问题 核心问题是，大多数人默认情况下都处于信息过载状态。</h1>
+<p>2012年发表的一篇论文显示， 2008年人均日均接收信息量为34GB ，日均信息暴露增长率约为每年5.4% 1。
+根据这一趋势，我们今天的数据价值约为87 GB。
+此计算包括音频、视觉</p>
 <details><summary>展开英文原文</summary>
 
 # Staring at walls to improve focus and productivity
@@ -111,8 +119,19 @@ This calculation includes audio, visual...
 <h3>4. 显示HN ：锻造–护栏在代理任务中将8B模型从53%提高到99%</h3>
 <p><strong>来源</strong>：zambelli · hackernews · 热度 687</p>
 <p><em>原标题：Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</em></p>
-<p><strong>📖 主编点评</strong></p>
-<p>Forge 是个开源 LLM 工具调用可靠性层——把 8B 本地模型在 agentic 任务上的成功率从 53% 拉到 99%，靠 guardrails 而不是模型本身。这条进金融周刊也是误抓（HN 高热度但跟金融无关），下次跑分会过滤。如果你刚好在做投资类 AI agent，这种「用工程而不是 finetune 解决可靠性」的思路对你有参考。</p>
+<p><strong>📖 中文摘要</strong></p>
+<p>自托管LLM工具调用的可靠性层。 你给锻造一套工具；模型以任何顺序调用它想要的任何工具。 工作流程结构为选择加入— “REQUIRED_STEPS”</p>
+<p>, <code>先决条件</code></p>
+<p>和<code>terminal_tool</code></p>
+<p>允许您在需要时约束循环，但Forge的护栏（救援解析、重试闪屏振动、响应验证）也适用于零必需步骤。 Forge在Forge的26场景v0.7.0评估套件中将8B本地模型从单个数字提升到84% ，甚至在同一工作负载下将Sonnet 4.6从85%提升到98% （在v0.6.0中测量的人择数字；由于成本不小，因此不在v0.7.0中重新运行）。</p>
+<ul>
+<li>
+<p>*锻造不是什么： * *</p>
+</li>
+<li>
+<p><em>不是代理编排器。</em> * Forge位于一个代理循环内，使其工具调用可靠。 多智能体图、DAG规划器</p>
+</li>
+</ul>
 <details><summary>展开英文原文</summary>
 
 A reliability layer for self-hosted LLM tool-calling. You give forge a set of tools; the model calls whichever it wants in whatever order. Workflow structure is opt-in — `required_steps`
@@ -136,8 +155,11 @@ Forge takes an 8B local model from single digits to 84% across forge's 26-scenar
 <h3>5. Mullvad出口IP出人意料地识别</h3>
 <p><strong>来源</strong>：RGBCube · hackernews · 热度 613</p>
 <p><em>原标题：Mullvad exit IPs are surprisingly identifying</em></p>
-<p><strong>📖 主编点评</strong></p>
-<p>VPN 隐私话题：Mullvad 只有 578 台服务器，且 exit IP 选择是基于 pubkey 确定性的——意味着同一用户总能拿到同一 IP，反而成了指纹。Mullvad 5/29 已开始下发缓解（打乱 IP 顺序）。这条进半导体也是误抓，跟硬件芯片无关；但如果你关心隐私基础设施，这是一篇可读的技术分析。</p>
+<p><strong>📖 中文摘要</strong></p>
+<h1>Mullvad出口IP作为指纹识别向量</h1>
+<p><em>更新5/29 ： Mullvad已开始在其服务器上推出缓解功能，以扰乱退出IP位置，从而修复此问题。 IP仍然根据PUBKEY确定性地选择。</em></p>
+<p>Mullvad是为其服务器提供多个出口IP的少数VPN提供商之一。 如果两个人连接到同一台服务器，他们通常会使用不同的公共IP。 只有578台服务器（与Proton VPN的20,000台服务器相比） ，这种垂直扩展是有意义的，可以避免将太多用户挤在一个IP上，这在IP块和速率限制过大的网站上是一个问题。</p>
+<p>令人惊讶的是，每次连接到服务器时，您获得的退出IP都不是随机的，而是根据您的WIR</p>
 <details><summary>展开英文原文</summary>
 
 # Mullvad exit IPs as a fingerprinting vector
@@ -191,8 +213,8 @@ Surprisingly, the exit IP you are given is not randomized each time you connect 
       </div>
 
       
-        <div class="fb-item" data-idx="1" data-title="Claude Opus 4.8">
-          <div class="fb-title"><span class="num">1.</span> Claude Opus 4.8</div>
+        <div class="fb-item" data-idx="1" data-title="ASML became the chokepoint for cutting-edge chips">
+          <div class="fb-title"><span class="num">1.</span> ASML became the chokepoint for cutting-edge chips</div>
           <div class="fb-buttons">
             <button class="fb-btn" data-rating="useful">👍 有用</button>
             <button class="fb-btn" data-rating="meh">😐 一般</button>
@@ -200,8 +222,8 @@ Surprisingly, the exit IP you are given is not randomized each time you connect 
           </div>
           <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
         </div>
-        <div class="fb-item" data-idx="2" data-title="Meta blocks human rights accounts from reaching audiences in Saudi Arabia, UAE">
-          <div class="fb-title"><span class="num">2.</span> Meta blocks human rights accounts from reaching audiences in Saudi Arabia, UAE</div>
+        <div class="fb-item" data-idx="2" data-title="Claude Opus 4.8">
+          <div class="fb-title"><span class="num">2.</span> Claude Opus 4.8</div>
           <div class="fb-buttons">
             <button class="fb-btn" data-rating="useful">👍 有用</button>
             <button class="fb-btn" data-rating="meh">😐 一般</button>
@@ -209,8 +231,8 @@ Surprisingly, the exit IP you are given is not randomized each time you connect 
           </div>
           <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
         </div>
-        <div class="fb-item" data-idx="3" data-title="Men who stare at walls">
-          <div class="fb-title"><span class="num">3.</span> Men who stare at walls</div>
+        <div class="fb-item" data-idx="3" data-title="Was my $48K GPU server worth it?">
+          <div class="fb-title"><span class="num">3.</span> Was my $48K GPU server worth it?</div>
           <div class="fb-buttons">
             <button class="fb-btn" data-rating="useful">👍 有用</button>
             <button class="fb-btn" data-rating="meh">😐 一般</button>
@@ -218,8 +240,8 @@ Surprisingly, the exit IP you are given is not randomized each time you connect 
           </div>
           <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
         </div>
-        <div class="fb-item" data-idx="4" data-title="Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks">
-          <div class="fb-title"><span class="num">4.</span> Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</div>
+        <div class="fb-item" data-idx="4" data-title="Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks">
+          <div class="fb-title"><span class="num">4.</span> Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</div>
           <div class="fb-buttons">
             <button class="fb-btn" data-rating="useful">👍 有用</button>
             <button class="fb-btn" data-rating="meh">😐 一般</button>
@@ -227,8 +249,17 @@ Surprisingly, the exit IP you are given is not randomized each time you connect 
           </div>
           <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
         </div>
-        <div class="fb-item" data-idx="5" data-title="Mullvad exit IPs are surprisingly identifying">
-          <div class="fb-title"><span class="num">5.</span> Mullvad exit IPs are surprisingly identifying</div>
+        <div class="fb-item" data-idx="5" data-title="U.S. researchers face new restrictions on publishing with foreign collaborators">
+          <div class="fb-title"><span class="num">5.</span> U.S. researchers face new restrictions on publishing with foreign collaborators</div>
+          <div class="fb-buttons">
+            <button class="fb-btn" data-rating="useful">👍 有用</button>
+            <button class="fb-btn" data-rating="meh">😐 一般</button>
+            <button class="fb-btn" data-rating="off">👎 偏了</button>
+          </div>
+          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
+        </div>
+        <div class="fb-item" data-idx="6" data-title="Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep">
+          <div class="fb-title"><span class="num">6.</span> Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep</div>
           <div class="fb-buttons">
             <button class="fb-btn" data-rating="useful">👍 有用</button>
             <button class="fb-btn" data-rating="meh">😐 一般</button>
@@ -265,6 +296,6 @@ window.CURIO_REL_ROOT = "../../";
 window.CURIO_API_BASE = "https://api.curioradar.fun";
 window.CURIO_GH_REPO = "zczxd1118/curio-app";
 </script>
-<script src="../../app.js?v=20260531042137"></script>
+<script src="../../app.js?v=20260531152014"></script>
 </body>
 </html>

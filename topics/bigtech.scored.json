@@ -4,103 +4,103 @@
   "scored_at": "2026-05-31",
   "must_read": [
     {
-      "id": "hn:48238896",
-      "title": "Microsoft starts canceling Claude Code licenses",
-      "url": "https://news.ycombinator.com/item?id=48238896",
-      "platform": "hackernews",
-      "source": {
-        "name": "HN · Microsoft"
-      },
-      "why_recommend": "Microsoft 内部全面收回 Claude Code 许可——本来 12 月放给数千开发者，因为太受欢迎反过来被叫停。这是 LLM 工具市场最有意思的政治信号。"
-    },
-    {
-      "id": "hn:48311647",
-      "title": "Apple-OpenAI Relationship Frays, Setting Up Possible Legal Fight",
-      "url": "https://news.ycombinator.com/item?id=apple-openai",
-      "platform": "hackernews",
-      "source": {
-        "name": "HN · Apple"
-      },
-      "why_recommend": "Apple 和 OpenAI 因 Apple Intelligence 集成深度产生分歧，传可能升级为诉讼。这条决定 iPhone 上 AI 体验未来 2 年走向。"
-    },
-    {
-      "id": "rss:theverge:microsoft-zero-day",
-      "title": "Microsoft is threatening legal action for disclosing exploits",
-      "url": "https://www.theverge.com/microsoft-zero-day",
-      "platform": "rss",
-      "source": {
-        "name": "The Verge"
-      },
-      "why_recommend": "微软威胁起诉发布 Windows 零日漏洞的安全研究员，引发开源社区强烈反弹。一窥大厂如何用法务对抗安全披露。"
-    },
-    {
-      "id": "rss:tc:groq-acquihire",
-      "title": "After Nvidia's $20B not-acqui-hire, AI chip startup Groq reportedly...",
-      "url": "https://techcrunch.com/groq",
-      "platform": "rss",
-      "source": {
-        "name": "TechCrunch"
-      },
-      "why_recommend": "AI 芯片创业公司 Groq 在 Nvidia 200 亿美元 not-acquihire 之后的最新动态。AI 算力竞争已经从模型层卷到芯片层。"
-    },
-    {
-      "id": "hn:meta-ai-pendant",
-      "title": "Meta is reportedly developing an AI pendant",
-      "url": "https://techcrunch.com/meta-pendant",
-      "platform": "rss",
-      "source": {
-        "name": "TechCrunch"
-      },
-      "why_recommend": "Meta 在做 AI 项链穿戴设备——继 Ray-Ban 智能眼镜后又一个赌注。可穿戴 AI 设备在 2026 年第一次成为大厂全力推的硬件方向。"
-    },
-    {
-      "id": "hn:google-broke-recaptcha",
-      "title": "Google broke reCAPTCHA for de-googled Android users",
-      "url": "https://news.ycombinator.com/item?id=anonymous",
+      "id": "hn:google-chrome-ai-4gb",
+      "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+      "url": "https://news.ycombinator.com/item?id=chrome-4gb-ai",
       "platform": "hackernews",
       "source": {
         "name": "HN · Google"
       },
-      "why_recommend": "用 GrapheneOS 等去 Google 化系统的用户突然发现 reCAPTCHA 在他们设备上不工作了。Google 在用反爬虫名义筛选可信设备的边界争议。"
+      "why_recommend": "Chrome 静默下载 4GB on-device AI 模型不告知用户。隐私 + 设备资源争议。"
+    },
+    {
+      "id": "hn:google-broke-recaptcha",
+      "title": "Google broke reCAPTCHA for de-googled Android users",
+      "url": "https://news.ycombinator.com/item?id=recaptcha-degoogled",
+      "platform": "hackernews",
+      "source": {
+        "name": "HN · Google"
+      },
+      "why_recommend": "Google 用反爬虫名义筛选可信设备，封锁去 Google 化 Android 系统。数字主权信号。"
+    },
+    {
+      "id": "hn:duckduckgo-28pct",
+      "title": "DuckDuckGo search saw 28% more visits after Google said people love AI mode",
+      "url": "https://news.ycombinator.com/item?id=ddg-28",
+      "platform": "hackernews",
+      "source": {
+        "name": "HN · 搜索"
+      },
+      "why_recommend": "Google 强推 AI 模式后 DuckDuckGo 访问涨 28%。搜索市场份额松动的信号。"
+    },
+    {
+      "id": "hn:google-antigravity",
+      "title": "Google's Antigravity bait and switch",
+      "url": "https://news.ycombinator.com/item?id=antigravity",
+      "platform": "hackernews",
+      "source": {
+        "name": "HN · Google"
+      },
+      "why_recommend": "Google Antigravity（AI 编辑器）从免费开放变成付费专有。开发者社区反弹。"
+    },
+    {
+      "id": "hn:doj-car-tinkering",
+      "title": "U.S. DOJ demands Apple and Google unmask over 100k users of car-tinkering app",
+      "url": "https://news.ycombinator.com/item?id=doj-car-app",
+      "platform": "hackernews",
+      "source": {
+        "name": "HN · DOJ"
+      },
+      "why_recommend": "DOJ 要求 Apple/Google 上交 10 万+ 改装车 App 用户身份。平台-政府数据请求边界。"
+    },
+    {
+      "id": "hn:chrome-ondevice-claim",
+      "title": "Chrome removes claim of On-device AI not sending data to Google Servers",
+      "url": "https://news.ycombinator.com/item?id=chrome-claim",
+      "platform": "hackernews",
+      "source": {
+        "name": "HN · Google"
+      },
+      "why_recommend": "Chrome 删除'设备端 AI 不发送数据到 Google'的承诺。隐私退步。"
     }
   ],
   "reference": [
     {
-      "id": "rss:msft-data-ai-cost",
-      "title": "Microsoft data suggests using AI is more expensive than hiring humans",
+      "id": "hn:googlebook",
+      "title": "Googlebook",
       "url": "",
       "platform": "hackernews",
-      "why_recommend": "微软自家数据：AI 比人贵。今年最反直觉的内部研究。"
+      "why_recommend": "Google 内部文化批评长文。"
     },
     {
-      "id": "hn:google-fraud-defence",
+      "id": "hn:google-cloud-fraud",
       "title": "Google Cloud Fraud Defence is just WEI repackaged",
       "url": "",
       "platform": "hackernews",
-      "why_recommend": "Web Environment Integrity 死灰复燃换皮重来。"
+      "why_recommend": "Web Environment Integrity 死灰复燃换皮。"
     },
     {
-      "id": "rss:tc:tiktok-superapp",
-      "title": "TikTok's road to becoming a super app",
-      "url": "",
-      "platform": "rss",
-      "why_recommend": "中国互联网超级应用模型在美国的最新尝试。"
-    },
-    {
-      "id": "hn:apple-silicon-cost",
-      "title": "Apple Silicon costs more than OpenRouter",
+      "id": "hn:google-search-box",
+      "title": "Google changes its search box",
       "url": "",
       "platform": "hackernews",
-      "why_recommend": "本地跑 LLM 真的便宜吗？拿 Apple Silicon 跟云 API 算账，结论反直觉。"
+      "why_recommend": "Google 搜索框 UI 改版，老用户吐槽。"
     },
     {
-      "id": "hn:apple-camera-old-photos",
-      "title": "Apple Is Holding My Pictures Hostage Until I Accept Their New Terms",
+      "id": "hn:google-declaring-war",
+      "title": "Google Declaring War on the Web",
       "url": "",
       "platform": "hackernews",
-      "why_recommend": "iCloud 用户发现不同意新条款连旧照片都看不到。隐私政策升级背后的强制力。"
+      "why_recommend": "评论员长文：Google 与开放 Web 的关系恶化。"
+    },
+    {
+      "id": "hn:railway-google-block",
+      "title": "Incident Report: Railway Blocked by Google Cloud",
+      "url": "",
+      "platform": "hackernews",
+      "why_recommend": "Railway（PaaS）被 Google Cloud 误封事件后续。"
     }
   ],
-  "skipped_reasons": "其余多为大厂相关零碎吐槽、与个人项目相关的小工具讨论，不构成本周必读。",
-  "intro": "本周（2026-05-25 ~ 05-31）大厂讯息几个核心叙事：MSFT 重新拿回 Claude Code 入口、Apple 与 OpenAI 关系出问题、Google 反爬虫策略激进化、AI 创业公司被大厂围剿与反击。"
+  "skipped_reasons": "若干 Apple/Microsoft 边缘吐槽、纯技术性 IDE 评论、与个人项目无关的事件，与大厂战略动向关联弱。",
+  "intro": "本期（2026-05-31）大厂主旋律：Google 全方位收紧——静默下 4GB AI 模型、封锁去 Google 化设备、撤回 on-device 隐私承诺、Antigravity 编辑器闭源。同时 DOJ 对 Apple/Google 发出 10 万人级数据传票。开发者和隐私社区对 Google 的信任在迅速损耗。"
 }

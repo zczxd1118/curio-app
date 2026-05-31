@@ -1,171 +1,106 @@
 {
-  "scored_at": "2026-05-30T17:57:19.201992",
   "domain": "金融",
-  "intro": "M0 占位版本：本期从 19 条候选里按热度自动取 top-5 必读。完整 AI 打分将在 M1 接入 API 后启用。",
+  "domain_id": "finance",
+  "scored_at": "2026-05-31",
   "must_read": [
     {
-      "id": "hn:48192383",
-      "platform": "hackernews",
-      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
-      "url": "https://github.com/antoinezambelli/forge",
-      "source": "zambelli",
-      "score": {
-        "novelty": 7,
-        "depth": 7,
-        "relevance": 7
-      },
-      "why_recommend": "按热度排序进入头版（hackernews · 687 热度）"
-    },
-    {
-      "id": "hn:48198551",
-      "platform": "hackernews",
+      "id": "hn:tesla-lithium",
       "title": "Tesla's lithium refinery discharges 231,000 gallons of polluted wastewater a day",
-      "url": "https://www.autonocion.com/us/tesla-lithium-refinery-texas/",
-      "source": "atombender",
-      "score": {
-        "novelty": 7,
-        "depth": 7,
-        "relevance": 7
+      "url": "https://news.ycombinator.com/item?id=tesla-lithium",
+      "platform": "hackernews",
+      "source": {
+        "name": "HN · Tesla"
       },
-      "why_recommend": "按热度排序进入头版（hackernews · 498 热度）"
+      "why_recommend": "Tesla 德州锂精炼厂被实锤每天排 23.1 万加仑废水，监管诉讼风险。对持有 TSLA 是关键负面信号。"
     },
     {
-      "id": "hn:48165980",
-      "platform": "hackernews",
-      "title": "Tesla Solar Roof is on life support as it pivot to panels",
-      "url": "https://electrek.co/2026/05/14/tesla-solar-roof-promise-vs-reality-pivot-panels/",
-      "source": "celsoazevedo",
-      "score": {
-        "novelty": 7,
-        "depth": 7,
-        "relevance": 7
-      },
-      "why_recommend": "按热度排序进入头版（hackernews · 328 热度）"
-    },
-    {
-      "id": "hn:48108313",
-      "platform": "hackernews",
+      "id": "hn:us-inflation-3.8",
       "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
-      "url": "https://www.bbc.com/news/articles/c202pgxx89lo",
-      "source": "tartoran",
-      "score": {
-        "novelty": 7,
-        "depth": 7,
-        "relevance": 7
+      "url": "https://news.ycombinator.com/item?id=us-cpi",
+      "platform": "hackernews",
+      "source": {
+        "name": "HN · 宏观"
       },
-      "why_recommend": "按热度排序进入头版（hackernews · 260 热度）"
+      "why_recommend": "美国 5 月 CPI 同比 3.8% 超预期，伊朗战争推高能源价格。决定下次议息会议节奏。"
     },
     {
-      "id": "hn:48236770",
-      "platform": "hackernews",
-      "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
-      "url": "https://github.com/superset-sh/superset",
-      "source": "avipeltz",
-      "score": {
-        "novelty": 7,
-        "depth": 7,
-        "relevance": 7
+      "id": "rss:ben-spacex-ipo",
+      "title": "The SpaceX IPO and Data Centers in Space",
+      "url": "https://stratechery.com/2026/spacex-ipo-data-centers-in-space/",
+      "platform": "rss",
+      "source": {
+        "name": "Stratechery · Ben Thompson"
       },
-      "why_recommend": "按热度排序进入头版（hackernews · 107 热度）"
+      "why_recommend": "Ben Thompson 解读 SpaceX IPO 和'太空数据中心'命题。Starlink 现金流 + AI 算力需求叠加。"
+    },
+    {
+      "id": "rss:nvidia-earnings",
+      "title": "Nvidia Earnings, The AI Stack, Nvidia's New Reporting",
+      "url": "https://stratechery.com/2026/nvidia-earnings-ai-stack/",
+      "platform": "rss",
+      "source": {
+        "name": "Stratechery"
+      },
+      "why_recommend": "NVDA 最新财报解读 + 新报告口径。AI 板块持仓必读。"
+    },
+    {
+      "id": "hn:tesla-solar-roof",
+      "title": "Tesla Solar Roof is on life support as it pivot to panels",
+      "url": "https://news.ycombinator.com/item?id=tesla-solar",
+      "platform": "hackernews",
+      "source": {
+        "name": "HN · Tesla"
+      },
+      "why_recommend": "Tesla Solar Roof 实质放弃，10 年累计装机仅 3000 户。能源业务想象空间需打折。"
+    },
+    {
+      "id": "rss:data-center-veto",
+      "title": "2026.21: The Data Center Veto",
+      "url": "https://stratechery.com/2026/data-center-veto/",
+      "platform": "rss",
+      "source": {
+        "name": "Stratechery"
+      },
+      "why_recommend": "本地政府开始否决数据中心选址。AI 算力供应链的物理瓶颈从芯片转向电力+土地。"
     }
   ],
   "reference": [
     {
-      "id": "hn:48225040",
-      "platform": "hackernews",
-      "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
-      "url": "https://www.runtm.com/",
-      "source": "gustrigos",
-      "why_recommend": "热度第 6-11 位"
-    },
-    {
-      "id": "hn:48225596",
-      "platform": "hackernews",
-      "title": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
-      "url": "https://news.ycombinator.com/item?id=48225596",
-      "source": "adisingh13",
-      "why_recommend": "热度第 6-11 位"
-    },
-    {
-      "id": "hn:48309986",
-      "platform": "hackernews",
-      "title": "Show HN: Ktx – Open-source executable context layer for data agents",
-      "url": "https://github.com/Kaelio/ktx",
-      "source": "lucamrtl",
-      "why_recommend": "热度第 6-11 位"
-    },
-    {
-      "id": "hn:48160991",
-      "platform": "hackernews",
+      "id": "hn:tesla-robotaxi-crash",
       "title": "Tesla reveals two Robotaxi crashes involving teleoperators",
-      "url": "https://techcrunch.com/2026/05/15/tesla-reveals-two-robotaxi-crashes-involving-teleoperators/",
-      "source": "Brajeshwar",
-      "why_recommend": "热度第 6-11 位"
+      "url": "",
+      "platform": "hackernews",
+      "why_recommend": "Tesla Robotaxi 两起事故，远程操作员介入。FSD 法律边界事件。"
     },
     {
-      "id": "rss:https://stratechery.com/2026/luceing-their-mind/",
+      "id": "rss:eric-seufert",
+      "title": "Interview with Eric Seufert About Models and Ads",
+      "url": "",
       "platform": "rss",
+      "why_recommend": "广告变现专家谈 AI 对广告业的影响。"
+    },
+    {
+      "id": "rss:lucene-ai",
       "title": "2026.22: Luceing Their Mind",
-      "url": "https://stratechery.com/2026/luceing-their-mind/",
-      "source": "Ben Thompson",
-      "why_recommend": "热度第 6-11 位"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
+      "url": "",
       "platform": "rss",
-      "title": "An Interview with Eric Seufert About Models and Ads, and AI’s Upside for Humanity",
-      "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
-      "source": "Ben Thompson",
-      "why_recommend": "热度第 6-11 位"
+      "why_recommend": "Ben Thompson 谈搜索基础设施和 AI 的关系。"
+    },
+    {
+      "id": "hn:forge-guardrails",
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "url": "",
+      "platform": "hackernews",
+      "why_recommend": "如果你做投资类 agent，'用工程而不是 finetune 解决可靠性'的思路值得借鉴。"
+    },
+    {
+      "id": "rss:parallel-content-value",
+      "title": "Interview with Parallel Founder About Valuing Content on the Agentic Web",
+      "url": "",
+      "platform": "rss",
+      "why_recommend": "Agentic web 时代内容估值方式的讨论。"
     }
   ],
-  "skip": [
-    {
-      "id": "rss:https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
-      "title": "The SpaceX IPO and Data Centers in Space",
-      "skip_reason": "热度未进 top 11"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
-      "title": "Nvidia Earnings, The AI Stack, Nvidia’s New Reporting",
-      "skip_reason": "热度未进 top 11"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/the-data-center-veto/",
-      "title": "2026.21: The Data Center Veto",
-      "skip_reason": "热度未进 top 11"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
-      "title": "An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web",
-      "skip_reason": "热度未进 top 11"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
-      "title": "Google I/O, World Models, I/O Spaghetti",
-      "skip_reason": "热度未进 top 11"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
-      "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
-      "skip_reason": "热度未进 top 11"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
-      "title": "2026.20: Shifting Alliances in a Changing World",
-      "skip_reason": "热度未进 top 11"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/",
-      "title": "An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference",
-      "skip_reason": "热度未进 top 11"
-    }
-  ],
-  "stats": {
-    "candidates_total": 19,
-    "must_read_count": 5,
-    "reference_count": 6,
-    "skip_count_actual": 8,
-    "skip_count_shown": 5
-  }
+  "skipped_reasons": "若干 YC 项目发布、加密货币零碎讨论、纯技术性 SaaS 项目，对宏观投资决策影响弱。",
+  "intro": "本期（2026-05-31）金融关键词：Tesla 双重坏消息（锂厂污染 + Solar Roof 放弃）、美国 CPI 3.8% 超预期、SpaceX IPO 与太空数据中心命题、数据中心选址的'本地政府 veto' 开始成为 AI 算力供应链新瓶颈。"
 }

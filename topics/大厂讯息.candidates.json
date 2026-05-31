@@ -2,7 +2,7 @@
   "domain": "大厂讯息",
   "domain_id": "bigtech",
   "topic_id": "default",
-  "fetched_at": "2026-05-30T18:54:49.808343+00:00",
+  "fetched_at": "2026-05-31T07:15:19.038581+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -69,7 +69,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48296649"
       },
       "duration_sec": null,
-      "views": 1068,
+      "views": 1070,
       "comments": 518,
       "published_at": "2026-05-27T16:28:41+00:00",
       "summary": "",
@@ -108,7 +108,7 @@
       },
       "duration_sec": null,
       "views": 770,
-      "comments": 342,
+      "comments": 343,
       "published_at": "2026-05-21T13:50:59+00:00",
       "summary": "",
       "matched_keyword": "Google",
@@ -203,7 +203,7 @@
       },
       "duration_sec": null,
       "views": 571,
-      "comments": 578,
+      "comments": 579,
       "published_at": "2026-05-25T12:27:11+00:00",
       "summary": "",
       "matched_keyword": "Google",
@@ -297,7 +297,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48299220"
       },
       "duration_sec": null,
-      "views": 417,
+      "views": 419,
       "comments": 408,
       "published_at": "2026-05-27T19:24:10+00:00",
       "summary": "",
@@ -590,6 +590,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48341578",
+      "title": "Microsoft Office 2019 and 2021 for Mac view-only conversion",
+      "url": "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48341578",
+        "name": "antipurist",
+        "hn_url": "https://news.ycombinator.com/item?id=48341578"
+      },
+      "duration_sec": null,
+      "views": 798,
+      "comments": 278,
+      "published_at": "2026-05-30T23:26:13+00:00",
+      "summary": "",
+      "matched_keyword": "Microsoft",
+      "lang": "en"
+    },
+    {
       "id": "hn:48012735",
       "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
       "url": "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730",
@@ -723,6 +742,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48328175",
+      "title": "Microsoft 0-day feud escalates as researcher threatens another exploit dump",
+      "url": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48328175",
+        "name": "Cider9986",
+        "hn_url": "https://news.ycombinator.com/item?id=48328175"
+      },
+      "duration_sec": null,
+      "views": 267,
+      "comments": 93,
+      "published_at": "2026-05-29T19:37:41+00:00",
+      "summary": "",
+      "matched_keyword": "Microsoft",
+      "lang": "en"
+    },
+    {
       "id": "hn:48272354",
       "title": "Microsoft Copilot Cowork Exfiltrates Files",
       "url": "https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files",
@@ -737,25 +775,6 @@
       "views": 264,
       "comments": 49,
       "published_at": "2026-05-25T21:45:57+00:00",
-      "summary": "",
-      "matched_keyword": "Microsoft",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48328175",
-      "title": "Microsoft 0-day feud escalates as researcher threatens another exploit dump",
-      "url": "https://www.theregister.com/security/2026/05/28/microsoft-0-day-feud-escalates-as-researcher-threatens-another-windows-exploit-dump/5248085",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48328175",
-        "name": "Cider9986",
-        "hn_url": "https://news.ycombinator.com/item?id=48328175"
-      },
-      "duration_sec": null,
-      "views": 253,
-      "comments": 90,
-      "published_at": "2026-05-29T19:37:41+00:00",
       "summary": "",
       "matched_keyword": "Microsoft",
       "lang": "en"
@@ -1000,8 +1019,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48315968"
       },
       "duration_sec": null,
-      "views": 549,
-      "comments": 254,
+      "views": 554,
+      "comments": 251,
       "published_at": "2026-05-28T21:45:54+00:00",
       "summary": "",
       "matched_keyword": "Microsoft",
@@ -1020,7 +1039,7 @@
       },
       "duration_sec": null,
       "views": 285,
-      "comments": 82,
+      "comments": 83,
       "published_at": "2026-05-22T17:17:43+00:00",
       "summary": "",
       "matched_keyword": "Microsoft",
@@ -1098,25 +1117,6 @@
       "views": 121,
       "comments": 141,
       "published_at": "2026-05-14T19:01:58+00:00",
-      "summary": "",
-      "matched_keyword": "Microsoft",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48031707",
-      "title": "Update on \"Co-authored-by: Copilot\" in commit messages",
-      "url": "https://github.com/microsoft/vscode/issues/314311",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48031707",
-        "name": "extesy",
-        "hn_url": "https://news.ycombinator.com/item?id=48031707"
-      },
-      "duration_sec": null,
-      "views": 102,
-      "comments": 66,
-      "published_at": "2026-05-06T03:15:05+00:00",
       "summary": "",
       "matched_keyword": "Microsoft",
       "lang": "en"
@@ -1304,7 +1304,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48275508"
       },
       "duration_sec": null,
-      "views": 152,
+      "views": 153,
       "comments": 110,
       "published_at": "2026-05-26T05:49:35+00:00",
       "summary": "",
@@ -1407,25 +1407,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:47971768",
-      "title": "Apple Says Mac Studio and Mac Mini Will Be in Short Supply for Months",
-      "url": "https://www.macrumors.com/2026/04/30/mac-studio-mac-mini-constrained-months/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "47971768",
-        "name": "tosh",
-        "hn_url": "https://news.ycombinator.com/item?id=47971768"
-      },
-      "duration_sec": null,
-      "views": 128,
-      "comments": 129,
-      "published_at": "2026-05-01T06:20:33+00:00",
-      "summary": "",
-      "matched_keyword": "Apple",
-      "lang": "en"
-    },
-    {
       "id": "hn:48239862",
       "title": "A blueprint for formal verification of Apple corecrypto",
       "url": "https://security.apple.com/blog/formal-verification-corecrypto/",
@@ -1459,25 +1440,6 @@
       "views": 119,
       "comments": 58,
       "published_at": "2026-05-03T14:13:23+00:00",
-      "summary": "",
-      "matched_keyword": "Apple",
-      "lang": "en"
-    },
-    {
-      "id": "hn:47967863",
-      "title": "Apple reports second quarter results",
-      "url": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "47967863",
-        "name": "mfiguiere",
-        "hn_url": "https://news.ycombinator.com/item?id=47967863"
-      },
-      "duration_sec": null,
-      "views": 96,
-      "comments": 107,
-      "published_at": "2026-04-30T20:33:48+00:00",
       "summary": "",
       "matched_keyword": "Apple",
       "lang": "en"
@@ -1635,6 +1597,44 @@
       "lang": "en"
     },
     {
+      "id": "hn:48043010",
+      "title": "Ads on Apple Maps",
+      "url": "https://ads.apple.com/maps",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48043010",
+        "name": "Vortigaunt",
+        "hn_url": "https://news.ycombinator.com/item?id=48043010"
+      },
+      "duration_sec": null,
+      "views": 63,
+      "comments": 77,
+      "published_at": "2026-05-06T23:00:01+00:00",
+      "summary": "",
+      "matched_keyword": "Apple",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48187752",
+      "title": "An Apple (II) for Teacher",
+      "url": "https://technicshistory.com/2026/05/19/an-apple-ii-for-teacher/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48187752",
+        "name": "cfmcdonald",
+        "hn_url": "https://news.ycombinator.com/item?id=48187752"
+      },
+      "duration_sec": null,
+      "views": 60,
+      "comments": 24,
+      "published_at": "2026-05-19T00:25:50+00:00",
+      "summary": "",
+      "matched_keyword": "Apple",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.theverge.com/entertainment/940421/backrooms-blockbuster-38-million-opening",
       "title": "Backrooms is a certified blockbuster with a $38 million opening day",
       "url": "https://www.theverge.com/entertainment/940421/backrooms-blockbuster-38-million-opening",
@@ -1687,7 +1687,7 @@
     },
     {
       "id": "rss:https://www.theverge.com/gadgets/940211/samsung-frame-hisense-canvastv-art-tv-sale-deal",
-      "title": "Some of our favorite art TVs are more than 40 percent off this weekend",
+      "title": "Two of our favorite art TVs are more than 40 percent off this weekend",
       "url": "https://www.theverge.com/gadgets/940211/samsung-frame-hisense-canvastv-art-tv-sale-deal",
       "platform": "rss",
       "source": {
@@ -1802,6 +1802,40 @@
       "views": null,
       "published_at": "2026-05-30T12:00:00+00:00",
       "summary": "Slots &#38; Daggers, a low-key, fantasy-themed slot machine roguelike, was one of my favorite games last year. That may sound like a complicated description, but the game mixes ideas from deckbuilding roguelikes with slot machines to create an engrossing loop, and there's steady meta-progression that helps you push further with just about every run. Perhaps [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "title": "SoftBank says it will invest up to €75 billion to build French data centers",
+      "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Anthony Ha",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T21:45:00+00:00",
+      "summary": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/05/30/this-weekends-two-biggest-movies-were-both-directed-by-youtubers/",
+      "title": "This weekend’s two biggest movies were both directed by YouTubers",
+      "url": "https://techcrunch.com/2026/05/30/this-weekends-two-biggest-movies-were-both-directed-by-youtubers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Anthony Ha",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T21:12:37+00:00",
+      "summary": "The YouTube-to-prestige-horror pipeline is looking very strong.",
       "lang": "en"
     },
     {
@@ -2108,40 +2142,6 @@
       "views": null,
       "published_at": "2026-05-29T14:15:00+00:00",
       "summary": "Submit your session topic before today ends for a chance to speak at TechCrunch Disrupt 2026. Apply now to share your insight and help shape the conversations defining the tech industry.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/05/29/final-24-hours-to-save-up-to-410-on-your-techcrunch-disrupt-2026-ticket/",
-      "title": "Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket",
-      "url": "https://techcrunch.com/2026/05/29/final-24-hours-to-save-up-to-410-on-your-techcrunch-disrupt-2026-ticket/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "TechCrunch Events",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-29T14:00:00+00:00",
-      "summary": "You now have until tonight at 11:59 p.m. PT to lock in Early Bird savings of up to $410 for TechCrunch Disrupt 2026 before prices increase. Join 10,000+ tech leaders in October for one of the most anticipated tech events of the year. Register now.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/",
-      "title": "Kiwibit’s AI-powered bird feeder is my new backyard buddy",
-      "url": "https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Lauren Forristal",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-29T13:00:00+00:00",
-      "summary": "If you're looking for a fun way to connect with nature while collecting bird species on an app like Pokémon, give this smart feeder a try.",
       "lang": "en"
     }
   ]

@@ -4,34 +4,34 @@
   "generated_at": "2026-05-31",
   "notes": [
     {
-      "id": "hn:48238896",
-      "title": "Microsoft starts canceling Claude Code licenses",
-      "note": "Microsoft 内部全面回收 Claude Code 许可——12 月开始放给数千开发者使用，结果「太受欢迎」反过来被叫停。本质是与自家 Copilot 的利益冲突。如果你在选型 AI 编程工具，这条说明 Cursor / Claude Code / Copilot 的格局比看上去更胶着。"
-    },
-    {
-      "id": "hn:48311647",
-      "title": "Apple-OpenAI Relationship Frays",
-      "note": "Apple 与 OpenAI 在 Apple Intelligence 深度集成上谈判破裂——双方在用户数据访问权限、品牌露出比例、收入分成上分歧严重，已经讨论是否走法律途径。这条决定 iPhone 在 2026-2027 年的 AI 助手默认是 OpenAI 还是 Apple 自研，对所有 iOS 开发者都是关键信号。"
-    },
-    {
-      "id": "rss:theverge:microsoft-zero-day",
-      "title": "Microsoft threatening legal action for disclosing exploits",
-      "note": "微软威胁起诉发布 Windows 零日漏洞的独立安全研究员——这是大厂第一次对个人安全研究员动用法律层面武器。如果你是做安全方向的开发者或研究员，这意味着未来披露漏洞要更加注重法律姿态。开源安全社区已经爆炸。"
-    },
-    {
-      "id": "rss:tc:groq-acquihire",
-      "title": "Groq after Nvidia's $20B not-acqui-hire",
-      "note": "Groq 是个 AI 推理芯片创业公司，专做 LPU（Language Processing Unit）。在 Nvidia 用 200 亿美元 not-acquihire 整个团队之后，剩下的 Groq 怎么活？这条揭示 AI 芯片创业的真实出路：要么被大厂吃掉，要么换赛道。Cerebras / Tenstorrent 路径可对照看。"
-    },
-    {
-      "id": "hn:meta-ai-pendant",
-      "title": "Meta developing AI pendant",
-      "note": "Meta 在做 AI 项链——比 Humane Pin 体积更小，类似 Friend.com 那种贴身陪伴 AI。在 Ray-Ban 智能眼镜大获成功之后，Meta 押注「无屏幕、贴身、永远在线」的 AI 硬件，2026 年下半年可能发。这是消费级 AI 硬件竞争从眼镜延伸到饰品的第一次重大动作。"
+      "id": "hn:google-chrome-ai-4gb",
+      "title": "Chrome silently installs 4GB AI model",
+      "note": "Chrome 在用户毫不知情的情况下静默下载 4GB on-device AI 模型，占用磁盘 + 网络。即使是企业管理的设备也照下不误。这是大厂 AI 部署 vs 用户知情权的最新冲突。如果你管理一批 Mac 或在企业 IT 环境里，建议立刻看 chrome://components 看是否已经被默默装了。"
     },
     {
       "id": "hn:google-broke-recaptcha",
       "title": "Google broke reCAPTCHA for de-googled Android",
-      "note": "用 GrapheneOS / LineageOS 等去 Google 化 Android 系统的用户发现 reCAPTCHA 在他们设备上不再通过——本质上 Google 在用「设备可信度」筛选用户。如果你关心数字主权和反平台锁定，这是一记警钟：未来「可访问主流网站」这件事正在被绑定到「使用主流操作系统」上。"
+      "note": "用 GrapheneOS / LineageOS 的用户突然发现 reCAPTCHA 在他们设备上不通过。Google 在用'设备可信度'筛选用户——你不用主流 OS 就被认定为风险。如果你关心数字主权和反平台锁定，这是一记警钟：'能访问主流网站'这件事正在被绑定到'使用主流 OS'上。"
+    },
+    {
+      "id": "hn:duckduckgo-28pct",
+      "title": "DuckDuckGo +28% traffic",
+      "note": "Google 在搜索结果顶部强推 AI Mode 之后，DuckDuckGo 访问量涨了 28%。这是搜索市场份额自 2010 年以来最明显的一次松动。对持仓 GOOGL 或关注搜索广告业务的人，这条不是噪音——它说明 Google 对搜索的控制力第一次出现可量化的裂缝。"
+    },
+    {
+      "id": "hn:google-antigravity",
+      "title": "Google Antigravity bait and switch",
+      "note": "Google Antigravity（AI 代码编辑器）原本免费开放使用，最近改成付费 + 闭源。开发者社区炸了。这是大厂 AI 工具最常见的剧本：先免费抢用户，后开始收割。如果你在团队里推过 Antigravity，这条说明现在该评估替代方案了——Cursor / Claude Code / Windsurf 都是更稳定的选择。"
+    },
+    {
+      "id": "hn:doj-car-tinkering",
+      "title": "DOJ demands 100k+ user data",
+      "note": "美国司法部要求 Apple 和 Google 上交一个汽车改装 App 的 10 万+ 用户身份。这条是平台-政府数据请求的边界事件——以前都是个案传票，这次是大规模批量。如果你做隐私敏感的 App 或在合规岗位，这条说明'平台拒绝合作'的成本正在快速上升。"
+    },
+    {
+      "id": "hn:chrome-ondevice-claim",
+      "title": "Chrome removes on-device AI privacy claim",
+      "note": "Chrome 悄悄删除了'设备端 AI 不会向 Google 服务器发送数据'的承诺文案。结合上面那条 4GB 模型静默安装看，整套故事是一致的：Google 在为 on-device AI 的数据回流留口子。如果你给企业或政府做合规咨询，这条是 Chrome 在企业环境里需要重新评估的信号。"
     }
   ]
 }

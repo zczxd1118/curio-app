@@ -1,0 +1,37 @@
+{
+  "domain": "AI",
+  "slug": "ai",
+  "generated_at": "2026-05-31",
+  "notes": [
+    {
+      "id": "rss:anthropic-965b",
+      "title": "Anthropic 965B Series H + Opus 4.8",
+      "note": "Anthropic 完成 H 轮 965 亿美元融资，同时发布 Opus 4.8 和 Dynamic Workflows（让 Claude Code 能编排长链路任务）。run-rate 从去年 12 月 9B 飙到现在 47B 美元，是 SaaS 史上最快增长曲线。如果你在选型 AI 编程工具，Claude Code 的资本和产品双护城河已经成型，Cursor 和 Copilot 的窗口期可能比预期更短。"
+    },
+    {
+      "id": "rss:cognition-1b",
+      "title": "Cognition raises $1B in $26B Series D",
+      "note": "Devin 母公司 Cognition 拿下 10 亿美元 D 轮，估值 260 亿。从一年前被嘲笑'demo 造假'到现在估值赶超大多数独角兽，关键是 Devin 真的开始在企业里跑量了。这条对你判断 'agent 替代部分编码工作' 的时间线有指导意义——不是 5 年后，是现在已经开始。"
+    },
+    {
+      "id": "rss:async-agents",
+      "title": "The Age of Async Agents",
+      "note": "Latent Space 这期访谈点出关键转变：agent 从 'chat 形态'（你问我答）转向 'async job 形态'（提交任务，半天后回来交东西）。如果你在用 Claude Code 或 Devin，这一期能帮你理解为什么这些工具的工作流越来越像 GitHub PR 而不是 ChatGPT，以及对应的协作和验收方式怎么变。"
+    },
+    {
+      "id": "rss:google-io-2026",
+      "title": "Google I/O 2026: Gemini 3.5 Flash + Omni + Spark",
+      "note": "Google I/O 2026 全家桶：Gemini 3.5 Flash 主打速度+便宜，Omni 是视频版 NanoBanana（多模态生成），Spark 是面向开发者的 agent 平台。这是 Google AI 终于不再'追赶'而是'侧翼包抄'的转折点——靠基础设施、视频生成和分发渠道做差异化。"
+    },
+    {
+      "id": "rss:simon-anthropic",
+      "title": "Anthropic run-rate hits $47B",
+      "note": "Simon Willison 单独把 Anthropic 'run-rate revenue 47B' 这条拎出来分析。run-rate 是按上月营收×12 算的年化估算，不是已落账的钱。但即便如此，从去年 12 月 9B 到现在 47B 是真实曲线。这是看 AI 商业化速度最直接的一个数字，比 token 用量、API 调用次数都更说明问题。"
+    },
+    {
+      "id": "rss:cerebras-ipo",
+      "title": "Cerebras $60B IPO",
+      "note": "Cerebras 是做 wafer-scale AI 芯片的创业公司（一整片晶圆当一个芯片），现在启动 600 亿美元 IPO。'Slowly, then All at Once' 标题来自《太阳照常升起》，意思是憋了好几年终于一次性全爆。这条对持有 NVDA 或关注 AI 算力供应链的人是关键信号：训练侧的非 Nvidia 选择正在快速成熟。"
+    }
+  ]
+}
