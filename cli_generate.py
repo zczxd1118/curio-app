@@ -265,26 +265,54 @@ def cmd_prepare_notes(args):
 
 
 def cmd_finalize(args):
-    """阶段 3：所有 *.scored.json 已就绪 → digest → write-prompts → 等 article 写完后 → assemble → site → push"""
+    """阶段 3：所有 *.scored.json 已就绪 → 统一 build_issue_md → site → push"""
     log("📰 Curio finalize —— 拼装 → 渲染 → push")
 
+    cadence = args.cadence or "weekly"
     plan_path = TOPICS_DIR / "_run_plan.json"
-    if not plan_path.exists():
-        log("  ⚠️ 没找到 _run_plan.json，回落到 curator site 直跑（占位算法）")
-        run([PY, str(ROOT / "curator.py"), "site"])
-    else:
-        plan = json.loads(plan_path.read_text(encoding="utf-8"))
-        # 校验每个领域是否有 scored.json（自动跳过缺的，不阻塞整体）
-        for d in plan["domains"]:
-            sp = Path(d["expected_scored_file"])
-            if not sp.exists():
-                log(f"  ⚠️ {sp.name} 缺失，automation 没处理这个领域，跳过")
-                continue
-            log(f"  ✓ {sp.name} 已就绪")
 
-        # 跑 site（curator.py 的 site 子命令会读所有 *.scored.json 渲染）
-        log("  🏗️ build site")
-        run([PY, str(ROOT / "curator.py"), "site"])
+    # 统一 md 生成：每个有 scored.json 的领域都按 cadence 生成 issue md
+    log(f"  📝 build issue md (cadence={cadence}) —— daily 和 weekly 共用模板")
+    sys.path.insert(0, str(ROOT))
+    try:
+        from agent.build_issue_md import build_issue_md, CADENCE_CFG
+    except Exception as e:
+        log(f"  ❌ 加载 build_issue_md 失败: {e}")
+        return
+
+    if plan_path.exists():
+        plan = json.loads(plan_path.read_text(encoding="utf-8"))
+        plan_domains = plan.get("domains", [])
+    else:
+        # 兜底：扫所有 scored.json
+        plan_domains = []
+        for f in TOPICS_DIR.glob("*.scored.json"):
+            slug = f.stem.replace(".scored", "")
+            plan_domains.append({"domain": slug, "slug": slug, "expected_scored_file": str(f)})
+
+    today = time.strftime("%Y-%m-%d")
+    built = 0
+    for d in plan_domains:
+        slug = d.get("slug") or d.get("domain")
+        sp = Path(d.get("expected_scored_file") or (TOPICS_DIR / f"{slug}.scored.json"))
+        if not sp.exists():
+            log(f"  ⚠️ {sp.name} 缺失，跳过")
+            continue
+        try:
+            scored = json.loads(sp.read_text(encoding="utf-8"))
+            md = build_issue_md(scored, cadence=cadence, slug=slug, today=today)
+            out = TOPICS_DIR / f"{slug}.weekly.{today}.md"
+            out.write_text(md, encoding="utf-8")
+            log(f"  ✓ {out.name}")
+            built += 1
+        except Exception as e:
+            log(f"  ❌ {slug} build_issue_md 失败: {e}")
+
+    log(f"  📝 已生成 {built} 份 issue md")
+
+    # 跑 site（render_site.py 会扫 *.weekly.*.md 渲染成 HTML）
+    log("  🏗️ build site")
+    run([PY, str(ROOT / "curator.py"), "site"])
 
     # 推送
     if not args.no_push:

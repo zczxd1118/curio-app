@@ -1500,8 +1500,15 @@ def _load_editor_notes_map(domain_id: str) -> dict:
 
 
 def _patch_md_with_editor_notes(body_md: str, editor_notes: dict) -> str:
-    """把 markdown 里的"📖 中文摘要"段替换成 LLM 写的导读（按标题前缀匹配）"""
+    """把 markdown 里的"📖 中文摘要"段替换成 LLM 写的导读（按标题前缀匹配）
+
+    ⚠️ 新版（build_issue_md 出的 md）已经同时包含 chips、中文摘要、主编点评 —— 这种情况
+    不要再做替换，否则会把中文摘要抹掉。检测方法：md 里同时存在 chips 行（🏷️）和"主编点评"。
+    """
     if not editor_notes:
+        return body_md
+    if "🏷️" in body_md and "**📖 主编点评**" in body_md:
+        # 已是统一模板出的新版 md，结构完整，跳过 patch
         return body_md
 
     def replace_block(match):

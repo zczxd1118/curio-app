@@ -1,6 +1,6 @@
-# Curio · AI 简报
+# Curio · AI 日报
 
-**2026-05-31 · 由 Curio 主编从候选中选出**
+**2026-05-31 · 由 Curio 主编从 ? 条候选选出（今日窗口）**
 
 ---
 
@@ -10,13 +10,15 @@
 
 ---
 
-## 🗞️ 头版报道（6 条）
+## 🗞️ 头版报道（5 条）
 
-### 1. [AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows
+### 1. Anthropic 完成 H 轮 965 亿融资 + Opus 4.8 发布
 
-**来源**：Latent.Space · rss
+**来源**：Latent.Space · RSS
 
 _原标题：[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows_
+
+🏷️ `Anthropic` · `Series H` · `Opus 4.8` · `Dynamic Workflows`
 
 **📖 主编点评**
 
@@ -26,11 +28,13 @@ Anthropic 完成 H 轮 965 亿美元融资，同时发布 Opus 4.8 和 Dynamic W
 
 ---
 
-### 2. [AINews] Cognition raises $1B in $26B Series D
+### 2. Cognition 完成 10 亿美元 D 轮，估值 260 亿
 
-**来源**：Latent.Space · rss
+**来源**：Latent.Space · RSS
 
 _原标题：[AINews] Cognition raises $1B in $26B Series D_
+
+🏷️ `Cognition` · `Devin` · `Series D` · `Async Agent`
 
 **📖 主编点评**
 
@@ -40,11 +44,13 @@ Devin 母公司 Cognition 拿下 10 亿美元 D 轮，估值 260 亿。从一年
 
 ---
 
-### 3. The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray
+### 3. 异步 Agent 时代：Cognition 与 OpenInspect 创始人对谈
 
-**来源**：Latent.Space · rss
+**来源**：Latent.Space · RSS
 
 _原标题：The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray_
+
+🏷️ `Async Agent` · `Cognition` · `OpenInspect` · `Agent 范式`
 
 **📖 主编点评**
 
@@ -54,11 +60,13 @@ Latent Space 这期访谈点出关键转变：agent 从 'chat 形态'（你问�
 
 ---
 
-### 4. [AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark
+### 4. Google I/O 2026：Gemini 3.5 Flash + Omni + Spark
 
-**来源**：Latent.Space · rss
+**来源**：Latent.Space · RSS
 
 _原标题：[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark_
+
+🏷️ `Google I/O` · `Gemini 3.5` · `Omni` · `Spark`
 
 **📖 主编点评**
 
@@ -68,11 +76,13 @@ Google I/O 2026 全家桶：Gemini 3.5 Flash 主打速度+便宜，Omni 是视�
 
 ---
 
-### 5. Anthropic's run-rate revenue hits $47 billion
+### 5. Anthropic run-rate 营收冲到 470 亿美元
 
-**来源**：Simon Willison's Weblog · rss
+**来源**：Simon Willison's Weblog · RSS
 
 _原标题：Anthropic's run-rate revenue hits $47 billion_
+
+🏷️ `Anthropic` · `营收` · `run-rate` · `AI 商业化`
 
 **📖 主编点评**
 
@@ -82,24 +92,30 @@ Simon Willison 单独把 Anthropic 'run-rate revenue 47B' 这条拎出来分析�
 
 ---
 
-### 6. [AINews] Cerebras' $60B IPO: Slowly, then All at Once
+## 📑 参考阅读（5 条）
 
-**来源**：Latent.Space · rss
+**1. [AINews] All Model Labs are now Agent Labs**　_RSS_
+- OpenAI/Anthropic/Google 全部转向 agent 产品而不是模型本身。
+- [打开](https://www.latent.space/p/agent-labs)
 
-_原标题：[AINews] Cerebras' $60B IPO: Slowly, then All at Once_
+**2. New AI Infra decacorns: Fireworks, Baseten (with OpenRouter on the way)**　_RSS_
+- AI 基础设施层新一波 100 亿美金估值公司。
 
-**📖 主编点评**
+**3. [AINews] OpenAI GPT-next disproves 80 year old Erdős planar unit distance problem**　_RSS_
+- OpenAI 新模型证伪 80 年老数学猜想，AI 推理在数学上的里程碑。
 
-Cerebras 是做 wafer-scale AI 芯片的创业公司（一整片晶圆当一个芯片），现在启动 600 亿美元 IPO。'Slowly, then All at Once' 标题来自《太阳照常升起》，意思是憋了好几年终于一次性全爆。这条对持有 NVDA 或关注 AI 算力供应链的人是关键信号：训练侧的非 Nvidia 选择正在快速成熟。
+**4. Railway: The Agent-Native Cloud — Jake Cooper**　_RSS_
+- Railway 重新定位为 'agent native 云'，反映基础设施层的语言切换。
 
-📺 [打开原文](https://www.latent.space/p/cerebras-60b-ipo)
+**5. 🔬ESM: The Bitter Lesson is Coming for Proteins - Alex Rives**　_RSS_
+- 蛋白质设计领域也开始服从 'bitter lesson'：scale 战胜 inductive bias。
 
 ---
 
-## 📑 参考阅读
+## 📝 本期反馈
 
-- **[AINews] All Model Labs are now Agent Labs** — OpenAI/Anthropic/Google 全部转向 agent 产品而不是模型本身。
-- **New AI Infra decacorns: Fireworks, Baseten (with OpenRouter on the way)** — AI 基础设施层新一波 100 亿美金估值公司。
-- **[AINews] OpenAI GPT-next disproves 80 year old Erdős planar unit distance problem** — OpenAI 新模型证伪 80 年老数学猜想，AI 推理在数学上的里程碑。
-- **Railway: The Agent-Native Cloud — Jake Cooper** — Railway 重新定位为 'agent native 云'，反映基础设施层的语言切换。
-- **🔬ESM: The Bitter Lesson is Coming for Proteins - Alex Rives** — 蛋白质设计领域也开始服从 'bitter lesson'：scale 战胜 inductive bias。
+_（网页底部交互式反馈）_
+
+---
+
+_Curio · 2026-05-31 · 日报_

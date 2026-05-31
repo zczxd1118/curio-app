@@ -1,6 +1,6 @@
-# Curio · 半导体 简报
+# Curio · 半导体 日报
 
-**2026-05-31 · 由 Curio 主编从候选中选出**
+**2026-05-31 · 由 Curio 主编从 ? 条候选选出（今日窗口）**
 
 ---
 
@@ -10,13 +10,15 @@
 
 ---
 
-## 🗞️ 头版报道（6 条）
+## 🗞️ 头版报道（5 条）
 
-### 1. ASML became the chokepoint for cutting-edge chips
+### 1. ASML 成为先进制程唯一咽喉点
 
-**来源**：HN · ASML · hackernews
+**来源**：HN · ASML
 
 _原标题：ASML became the chokepoint for cutting-edge chips_
+
+🏷️ `ASML` · `EUV` · `光刻机` · `TSMC`
 
 **📖 主编点评**
 
@@ -26,11 +28,13 @@ _原标题：ASML became the chokepoint for cutting-edge chips_
 
 ---
 
-### 2. Claude Opus 4.8
+### 2. Claude Opus 4.8 发布，推动推理算力需求新一轮
 
-**来源**：HN · Anthropic · hackernews
+**来源**：HN · Anthropic
 
 _原标题：Claude Opus 4.8_
+
+🏷️ `Claude Opus 4.8` · `Anthropic` · `推理算力` · `Claude Code`
 
 **📖 主编点评**
 
@@ -40,11 +44,13 @@ Anthropic 把 Opus 升到 4.8——同价位、benchmark 全面提升，新增 C
 
 ---
 
-### 3. Was my $48K GPU server worth it?
+### 3. 4.8 万美元 GPU server 自建是否值得？
 
-**来源**：HN · 硬件 · hackernews
+**来源**：HN · 硬件
 
 _原标题：Was my $48K GPU server worth it?_
+
+🏷️ `GPU` · `本地推理` · `RTX` · `云 API`
 
 **📖 主编点评**
 
@@ -54,11 +60,13 @@ _原标题：Was my $48K GPU server worth it?_
 
 ---
 
-### 4. Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks
+### 4. Forge 让 8B 本地模型 agent 任务成功率从 53% 拉到 99%
 
-**来源**：HN · LLM · hackernews
+**来源**：HN · LLM
 
 _原标题：Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks_
+
+🏷️ `Forge` · `Guardrails` · `8B 模型` · `本地推理`
 
 **📖 主编点评**
 
@@ -68,11 +76,13 @@ Forge 是开源 LLM 工具调用的可靠性层——靠输出 guardrails（救�
 
 ---
 
-### 5. U.S. researchers face new restrictions on publishing with foreign collaborators
+### 5. 美国限制研究员与外国合作者发表芯片/AI 论文
 
-**来源**：HN · 政策 · hackernews
+**来源**：HN · 政策
 
 _原标题：U.S. researchers face new restrictions on publishing with foreign collaborators_
+
+🏷️ `美国政策` · `研究合作` · `芯片` · `学术`
 
 **📖 主编点评**
 
@@ -82,24 +92,29 @@ _原标题：U.S. researchers face new restrictions on publishing with foreign c
 
 ---
 
-### 6. Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep
+## 📑 参考阅读（5 条）
 
-**来源**：HN · 工程 · hackernews
+**1. Meta blocks human rights accounts from reaching audiences in Saudi Arabia, UAE**　_HN_
+- Meta 区域屏蔽人权账号，平台合规话题。与半导体关联弱但 HN 热度高。
 
-_原标题：Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep_
+**2. Mullvad exit IPs are surprisingly identifying**　_HN_
+- VPN 隐私技术分析。如果你关心隐私基础设施可读。
 
-**📖 主编点评**
+**3. Show HN: Gaussian Splat of a Strawberry**　_HN_
+- Gaussian Splatting 技术演示。3D 渲染前沿。
 
-Semble 是面向 agent 的代码搜索引擎，号称比 grep 给 agent 喂的 token 少 98%。这条的半导体意义在于推理成本侧的工程优化——LLM 推理算力是稀缺资源，每一个 token 都要省。如果工具链层面能持续把 token 消耗降一个数量级，对 GPU 单位需求的影响会比模型本身的优化更大。
+**4. Zerostack – A Unix-inspired coding agent written in pure Rust**　_HN_
+- 纯 Rust 写的 Unix 风 coding agent。系统编程 + AI 的新工程实践。
 
-📺 [打开原文](https://news.ycombinator.com/item?id=semble)
+**5. Migrating from Go to Rust**　_HN_
+- Go → Rust 迁移经验。如果你做底层系统/嵌入式（与半导体强相关）有参考。
 
 ---
 
-## 📑 参考阅读
+## 📝 本期反馈
 
-- **Meta blocks human rights accounts from reaching audiences in Saudi Arabia, UAE** — Meta 区域屏蔽人权账号，平台合规话题。与半导体关联弱但 HN 热度高。
-- **Mullvad exit IPs are surprisingly identifying** — VPN 隐私技术分析。如果你关心隐私基础设施可读。
-- **Show HN: Gaussian Splat of a Strawberry** — Gaussian Splatting 技术演示。3D 渲染前沿。
-- **Zerostack – A Unix-inspired coding agent written in pure Rust** — 纯 Rust 写的 Unix 风 coding agent。系统编程 + AI 的新工程实践。
-- **Migrating from Go to Rust** — Go → Rust 迁移经验。如果你做底层系统/嵌入式（与半导体强相关）有参考。
+_（网页底部交互式反馈）_
+
+---
+
+_Curio · 2026-05-31 · 日报_

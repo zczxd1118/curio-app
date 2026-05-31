@@ -1,6 +1,6 @@
-# Curio · 大厂讯息 简报
+# Curio · 大厂讯息 日报
 
-**2026-05-31 · 由 Curio 主编从候选中选出**
+**2026-05-31 · 由 Curio 主编从 ? 条候选选出（今日窗口）**
 
 ---
 
@@ -10,13 +10,15 @@
 
 ---
 
-## 🗞️ 头版报道（6 条）
+## 🗞️ 头版报道（5 条）
 
-### 1. Google Chrome silently installs a 4 GB AI model on your device without consent
+### 1. Chrome 静默下载 4GB AI 模型，未告知用户
 
-**来源**：HN · Google · hackernews
+**来源**：HN · Google
 
 _原标题：Google Chrome silently installs a 4 GB AI model on your device without consent_
+
+🏷️ `Google Chrome` · `On-device AI` · `隐私` · `知情权`
 
 **📖 主编点评**
 
@@ -26,11 +28,13 @@ Chrome 在用户毫不知情的情况下静默下载 4GB on-device AI 模型，�
 
 ---
 
-### 2. Google broke reCAPTCHA for de-googled Android users
+### 2. Google 用 reCAPTCHA 封锁去 Google 化 Android
 
-**来源**：HN · Google · hackernews
+**来源**：HN · Google
 
 _原标题：Google broke reCAPTCHA for de-googled Android users_
+
+🏷️ `Google` · `reCAPTCHA` · `GrapheneOS` · `数字主权`
 
 **📖 主编点评**
 
@@ -40,11 +44,13 @@ _原标题：Google broke reCAPTCHA for de-googled Android users_
 
 ---
 
-### 3. DuckDuckGo search saw 28% more visits after Google said people love AI mode
+### 3. DuckDuckGo 流量涨 28%，Google 搜索份额松动
 
-**来源**：HN · 搜索 · hackernews
+**来源**：HN · 搜索
 
 _原标题：DuckDuckGo search saw 28% more visits after Google said people love AI mode_
+
+🏷️ `DuckDuckGo` · `Google` · `搜索市场` · `AI Mode`
 
 **📖 主编点评**
 
@@ -54,11 +60,13 @@ Google 在搜索结果顶部强推 AI Mode 之后，DuckDuckGo 访问量涨了 2
 
 ---
 
-### 4. Google's Antigravity bait and switch
+### 4. Google Antigravity 编辑器从免费转付费闭源
 
-**来源**：HN · Google · hackernews
+**来源**：HN · Google
 
 _原标题：Google's Antigravity bait and switch_
+
+🏷️ `Google` · `Antigravity` · `AI 编辑器` · `开发者`
 
 **📖 主编点评**
 
@@ -68,11 +76,13 @@ Google Antigravity（AI 代码编辑器）原本免费开放使用，最近改�
 
 ---
 
-### 5. U.S. DOJ demands Apple and Google unmask over 100k users of car-tinkering app
+### 5. DOJ 要求 Apple/Google 上交 10 万改装车 App 用户
 
-**来源**：HN · DOJ · hackernews
+**来源**：HN · DOJ
 
 _原标题：U.S. DOJ demands Apple and Google unmask over 100k users of car-tinkering app_
+
+🏷️ `DOJ` · `Apple` · `Google` · `数据传票`
 
 **📖 主编点评**
 
@@ -82,24 +92,29 @@ _原标题：U.S. DOJ demands Apple and Google unmask over 100k users of car-tin
 
 ---
 
-### 6. Chrome removes claim of On-device AI not sending data to Google Servers
+## 📑 参考阅读（5 条）
 
-**来源**：HN · Google · hackernews
+**1. Googlebook**　_HN_
+- Google 内部文化批评长文。
 
-_原标题：Chrome removes claim of On-device AI not sending data to Google Servers_
+**2. Google Cloud Fraud Defence is just WEI repackaged**　_HN_
+- Web Environment Integrity 死灰复燃换皮。
 
-**📖 主编点评**
+**3. Google changes its search box**　_HN_
+- Google 搜索框 UI 改版，老用户吐槽。
 
-Chrome 悄悄删除了'设备端 AI 不会向 Google 服务器发送数据'的承诺文案。结合上面那条 4GB 模型静默安装看，整套故事是一致的：Google 在为 on-device AI 的数据回流留口子。如果你给企业或政府做合规咨询，这条是 Chrome 在企业环境里需要重新评估的信号。
+**4. Google Declaring War on the Web**　_HN_
+- 评论员长文：Google 与开放 Web 的关系恶化。
 
-📺 [打开原文](https://news.ycombinator.com/item?id=chrome-claim)
+**5. Incident Report: Railway Blocked by Google Cloud**　_HN_
+- Railway（PaaS）被 Google Cloud 误封事件后续。
 
 ---
 
-## 📑 参考阅读
+## 📝 本期反馈
 
-- **Googlebook** — Google 内部文化批评长文。
-- **Google Cloud Fraud Defence is just WEI repackaged** — Web Environment Integrity 死灰复燃换皮。
-- **Google changes its search box** — Google 搜索框 UI 改版，老用户吐槽。
-- **Google Declaring War on the Web** — 评论员长文：Google 与开放 Web 的关系恶化。
-- **Incident Report: Railway Blocked by Google Cloud** — Railway（PaaS）被 Google Cloud 误封事件后续。
+_（网页底部交互式反馈）_
+
+---
+
+_Curio · 2026-05-31 · 日报_

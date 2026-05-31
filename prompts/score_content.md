@@ -104,6 +104,7 @@
       "title": "Anthropic raises $965B Series H, releases Opus 4.8",
       "title_zh": "Anthropic 完成 H 轮 965 亿融资，发布 Opus 4.8",
       "keywords": ["Anthropic", "Series H", "Claude Opus 4.8", "Agent"],
+      "summary_zh": "Anthropic 当地时间宣布完成 H 轮 965 亿美元融资，估值升至 1.2 万亿。同日发布 Claude Opus 4.8，agent 任务基准较 4.6 提升 11 个百分点，多模态推理与代码编辑首次拿到 GPT-5 同档分数。融资方除既有的 Google / Spark Capital 外，新增主权基金 Mubadala 与 GIC。Anthropic CEO Dario 表示新一轮主要用于扩大 H100 集群与对应的安全研究团队。",
       "url": "...",
       "source": "Latent Space",
       "score": { "novelty": 10, "depth": 8, "relevance": 10 },
@@ -111,7 +112,7 @@
       "is_diverse": false
     }
   ],
-  "_note_for_llm": "重要：必读和参考的每一条都要给出 title_zh（人话中文标题，不是机翻；保留产品/公司名英文如 Anthropic、TSMC、Forge）和 keywords（3-5 个核心词，混合英文产品名和中文话题词）。中文文章 title_zh 直接用原标题。",
+  "_note_for_llm": "重要：必读和参考的每一条都要给出三个字段（中文文章 title_zh 直接用原标题，summary_zh 仍要写）：\n- title_zh：人话中文标题，不是机翻；保留产品/公司名英文（如 Anthropic、TSMC、Forge）。\n- keywords：3-5 个核心词，混合英文产品名和中文话题词。\n- summary_zh：80-180 字的中文事实摘要，只陈述事件主体（什么人/公司/事件、关键数字、时间、地点），**不带主观判断**。主观点评放在 editor_note（独立流程）里，不要写到 summary_zh。",
   "reference": [...],
   "skip": [
     {

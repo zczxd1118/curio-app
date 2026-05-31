@@ -18,7 +18,8 @@
         "TSLA",
         "环保监管",
         "锂电池"
-      ]
+      ],
+      "summary_zh": "得州 Nueces 县排水区工人 1 月在 Robstown 镇外的沟渠例行维护时，发现一根未登记的管道正在排放黑色液体。经追查，管道属于 Tesla 旗下 2024 年 12 月投产的锂精炼厂——北美第一座商业级 spodumene-to-LiOH 工厂。每日排放量约 23.1 万加仑（约 875 吨），目前未取得州环保局排污许可。"
     },
     {
       "id": "hn:us-inflation-3.8",
@@ -35,7 +36,8 @@
         "通胀",
         "美联储",
         "能源"
-      ]
+      ],
+      "summary_zh": "美国劳工统计局发布 5 月 CPI 同比 3.8%，高于市场预期 3.5%、4 月 3.4%。核心 CPI（剔除食品能源）为 3.6%。能源分项环比 +4.2% 是主要推手，背景是 5 月初以美对伊朗军事行动后布伦特原油从 78 美元一度冲到 92 美元。机构对 9 月降息预期由 78% 降至 41%。"
     },
     {
       "id": "rss:ben-spacex-ipo",
@@ -52,7 +54,8 @@
         "IPO",
         "Starlink",
         "数据中心"
-      ]
+      ],
+      "summary_zh": "Stratechery 主笔 Ben Thompson 撰文，将近期两条独立报道关联：SpaceX 据 WSJ 准备启动 IPO，估值预计在 4000 亿美元区间，Starlink 已贡献年化 100 亿+ 美元现金流；同时多家初创（Lumen Orbit / Starcloud）试验在轨数据中心，依赖太阳能直供与真空散热绕开地面电力瓶颈。Thompson 提出：太空算力可能成为 SpaceX 的下一个收入支柱。"
     },
     {
       "id": "rss:nvidia-earnings",
@@ -69,7 +72,8 @@
         "NVDA",
         "AI Stack",
         "财报"
-      ]
+      ],
+      "summary_zh": "Nvidia 公布 FY26 Q1 财报，营收 412 亿美元，同比 +69%，再次超预期；数据中心分项 358 亿美元，AI 推理收入首次单独披露。同期 Nvidia 调整业务报告口径，将 GPU、网络、系统级方案重新拆分为 'AI Stack' 三层。Ben Thompson 在本期 Stratechery 围绕这套新口径解读护城河：CUDA + InfiniBand + DGX 的体系优势与 AMD MI400/Google TPU 的竞争层级。"
     },
     {
       "id": "hn:tesla-solar-roof",
@@ -86,7 +90,8 @@
         "Solar Roof",
         "Energy",
         "估值"
-      ]
+      ],
+      "summary_zh": "Electrek 实地走访与公开信息汇总：2016 年 Musk 发布 Solar Roof 时承诺 2019 年底每周新装 1000 户，截至 2025 累计装机仅约 3000 户。Tesla 已停止公开装机数量、调整经销商激励，主推传统光伏面板。多名前员工证实公司内部在 2024 Q3 已将 Solar Roof 列为 'maintenance mode' 产品。"
     },
     {
       "id": "rss:data-center-veto",
@@ -103,7 +108,8 @@
         "AI 算力",
         "DLR",
         "电力"
-      ]
+      ],
+      "summary_zh": "Stratechery 总结近期多起本地政府否决新建数据中心的案例：弗吉尼亚 Prince William 县拒绝 Amazon 申请、得州 Hays County 因用水问题否决 Meta 项目、亚利桑那 Mesa 市要求 OpenAI 合作方提供独立电力方案。理由集中在噪音、电力与用水。报告指出，'芯片不再是 AI 算力扩张的唯一瓶颈，土地与许可正在成为新的供应限制'。"
     }
   ],
   "reference": [
@@ -150,6 +156,33 @@
       "why_recommend": "Agentic web 时代内容估值方式的讨论。"
     }
   ],
-  "skipped_reasons": "若干 YC 项目发布、加密货币零碎讨论、纯技术性 SaaS 项目，对宏观投资决策影响弱。",
+  "skip": [
+    {
+      "id": "hn:yc-startup-x",
+      "title": "Launch HN: StartupX (YC P26) – AI for accountants",
+      "skip_reason": "YC 项目自荐，对宏观投资影响弱。"
+    },
+    {
+      "id": "hn:btc-eth-debate",
+      "title": "Show HN: Yet another DEX aggregator",
+      "skip_reason": "加密细分工具，与本期金融主线无关。"
+    },
+    {
+      "id": "rss:ai-substack-noise",
+      "title": "Top 10 Vibe-Coding Tools Compared (2026)",
+      "skip_reason": "标题党列表文，无新数据。"
+    },
+    {
+      "id": "hn:fintech-saas-launch",
+      "title": "Show HN: Open-source ledger for SMBs",
+      "skip_reason": "纯技术性 SaaS 发布，与持仓/宏观决策距离远。"
+    }
+  ],
+  "stats": {
+    "candidates_total": 19,
+    "must_read_count": 6,
+    "reference_count": 5,
+    "skip_count_actual": 8
+  },
   "intro": "本期（2026-05-31）金融关键词：Tesla 双重坏消息（锂厂污染 + Solar Roof 放弃）、美国 CPI 3.8% 超预期、SpaceX IPO 与太空数据中心命题、数据中心选址的'本地政府 veto' 开始成为 AI 算力供应链新瓶颈。"
 }
