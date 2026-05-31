@@ -11,7 +11,14 @@
       "source": {
         "name": "HN · Google"
       },
-      "why_recommend": "Chrome 静默下载 4GB on-device AI 模型不告知用户。隐私 + 设备资源争议。"
+      "why_recommend": "Chrome 静默下载 4GB on-device AI 模型不告知用户。隐私 + 设备资源争议。",
+      "title_zh": "Chrome 静默下载 4GB AI 模型，未告知用户",
+      "keywords": [
+        "Google Chrome",
+        "On-device AI",
+        "隐私",
+        "知情权"
+      ]
     },
     {
       "id": "hn:google-broke-recaptcha",
@@ -21,7 +28,14 @@
       "source": {
         "name": "HN · Google"
       },
-      "why_recommend": "Google 用反爬虫名义筛选可信设备，封锁去 Google 化 Android 系统。数字主权信号。"
+      "why_recommend": "Google 用反爬虫名义筛选可信设备，封锁去 Google 化 Android 系统。数字主权信号。",
+      "title_zh": "Google 用 reCAPTCHA 封锁去 Google 化 Android",
+      "keywords": [
+        "Google",
+        "reCAPTCHA",
+        "GrapheneOS",
+        "数字主权"
+      ]
     },
     {
       "id": "hn:duckduckgo-28pct",
@@ -31,7 +45,14 @@
       "source": {
         "name": "HN · 搜索"
       },
-      "why_recommend": "Google 强推 AI 模式后 DuckDuckGo 访问涨 28%。搜索市场份额松动的信号。"
+      "why_recommend": "Google 强推 AI 模式后 DuckDuckGo 访问涨 28%。搜索市场份额松动的信号。",
+      "title_zh": "DuckDuckGo 流量涨 28%，Google 搜索份额松动",
+      "keywords": [
+        "DuckDuckGo",
+        "Google",
+        "搜索市场",
+        "AI Mode"
+      ]
     },
     {
       "id": "hn:google-antigravity",
@@ -41,7 +62,14 @@
       "source": {
         "name": "HN · Google"
       },
-      "why_recommend": "Google Antigravity（AI 编辑器）从免费开放变成付费专有。开发者社区反弹。"
+      "why_recommend": "Google Antigravity（AI 编辑器）从免费开放变成付费专有。开发者社区反弹。",
+      "title_zh": "Google Antigravity 编辑器从免费转付费闭源",
+      "keywords": [
+        "Google",
+        "Antigravity",
+        "AI 编辑器",
+        "开发者"
+      ]
     },
     {
       "id": "hn:doj-car-tinkering",
@@ -51,7 +79,14 @@
       "source": {
         "name": "HN · DOJ"
       },
-      "why_recommend": "DOJ 要求 Apple/Google 上交 10 万+ 改装车 App 用户身份。平台-政府数据请求边界。"
+      "why_recommend": "DOJ 要求 Apple/Google 上交 10 万+ 改装车 App 用户身份。平台-政府数据请求边界。",
+      "title_zh": "DOJ 要求 Apple/Google 上交 10 万改装车 App 用户",
+      "keywords": [
+        "DOJ",
+        "Apple",
+        "Google",
+        "数据传票"
+      ]
     },
     {
       "id": "hn:chrome-ondevice-claim",
@@ -61,7 +96,14 @@
       "source": {
         "name": "HN · Google"
       },
-      "why_recommend": "Chrome 删除'设备端 AI 不发送数据到 Google'的承诺。隐私退步。"
+      "why_recommend": "Chrome 删除'设备端 AI 不发送数据到 Google'的承诺。隐私退步。",
+      "title_zh": "Chrome 撤回 on-device AI 不发数据的承诺",
+      "keywords": [
+        "Chrome",
+        "On-device AI",
+        "隐私承诺",
+        "Google"
+      ]
     }
   ],
   "reference": [

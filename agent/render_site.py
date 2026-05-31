@@ -1443,8 +1443,11 @@ def _read_must_titles(domain_id: str, date: str) -> list[dict]:
 
 
 def _load_editor_notes_map(domain_id: str) -> dict:
-    """读 {slug}.editor_notes.json，返回 {item_id_or_title_prefix: note_text}"""
+    """读 {slug}.editor_notes.json + {slug}.scored.json，返回 enriched map：
+    { id: {note, title_zh, keywords} } 以及 __title:xxx → 同样 dict 反查
+    """
     out = {}
+    # 1. 先读 editor_notes（主编点评）
     for f in TOPICS.glob("*.editor_notes.json"):
         try:
             data = json.loads(f.read_text(encoding="utf-8"))
@@ -1452,11 +1455,47 @@ def _load_editor_notes_map(domain_id: str) -> dict:
             continue
         for it in (data.get("notes") or data.get("items") or []):
             iid = it.get("id")
+            entry = {"note": it.get("note", "") or "", "title_zh": "", "keywords": []}
             if iid:
-                out[iid] = it.get("note", "") or ""
+                out[iid] = entry
             t = (it.get("title") or "")[:50]
             if t:
-                out["__title:" + t.lower()] = it.get("note", "") or ""
+                out["__title:" + t.lower()] = entry
+    # 2. 再读 scored.json 拿 title_zh + keywords，并合并进 entry
+    for f in TOPICS.glob("*.scored.json"):
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        for tier in ("must_read", "reference"):
+            for it in data.get(tier, []) or []:
+                iid = it.get("id")
+                title_zh = it.get("title_zh") or ""
+                keywords = it.get("keywords") or []
+                t_en = (it.get("title") or "")[:50]
+                # 找已有 entry 或新建
+                entry = None
+                if iid and iid in out:
+                    entry = out[iid]
+                elif t_en:
+                    key = "__title:" + t_en.lower()
+                    if key in out:
+                        entry = out[key]
+                if entry is None:
+                    entry = {"note": "", "title_zh": title_zh, "keywords": keywords}
+                    if iid:
+                        out[iid] = entry
+                    if t_en:
+                        out["__title:" + t_en.lower()] = entry
+                else:
+                    if title_zh and not entry.get("title_zh"):
+                        entry["title_zh"] = title_zh
+                    if keywords and not entry.get("keywords"):
+                        entry["keywords"] = keywords
+                    # 关键修复：把 entry 注册到 scored.json 里的长标题 key 下
+                    # （editor_notes 里 title 可能是简短版，weekly md 里反查用的是长版）
+                    if t_en:
+                        out["__title:" + t_en.lower()] = entry
     return out
 
 
@@ -1494,7 +1533,6 @@ def _patch_md_with_editor_notes(body_md: str, editor_notes: dict) -> str:
         r"(<details.*?</details>|📺 \[打开原文\][^\n]*)",  # 后续
         re.DOTALL,
     )
-    # 用一个简单点的实现（上面正则太复杂了）：直接逐节扫
     # 切割每条报道（### 1. ... ### 2. ...）
     chunks = re.split(r"(?=^###\s+\d+\.)", body_md, flags=re.MULTILINE)
     out = []
@@ -1504,28 +1542,60 @@ def _patch_md_with_editor_notes(body_md: str, editor_notes: dict) -> str:
             out.append(chunk)
             continue
         title_text = m.group(1).strip()
-        # 优先用英文原标题（"_原标题：xxx_"）反查，因为 editor_notes 里 key 是英文
+        # 优先用英文原标题反查
         orig_match = re.search(r"_原标题：(.+?)_", chunk)
         candidates = []
         if orig_match:
             orig = orig_match.group(1).strip()
             candidates.append("__title:" + orig[:50].lower())
         candidates.append("__title:" + title_text[:50].lower())
-        note = ""
+
+        entry = None
         for k in candidates:
             if k in editor_notes:
-                note = editor_notes[k]
+                v = editor_notes[k]
+                # 兼容老格式（直接 string）和新格式（dict）
+                if isinstance(v, dict):
+                    entry = v
+                else:
+                    entry = {"note": v, "title_zh": "", "keywords": []}
                 break
-        if not note:
+        if not entry or not entry.get("note"):
             out.append(chunk)
             continue
-        # 找到 "**📖 中文摘要**" 和它后面的烂翻译块（直到 <details> 或 📺）
+
+        note = entry.get("note", "")
+        title_zh = entry.get("title_zh", "")
+        keywords = entry.get("keywords") or []
+
+        # 1. 改写第一行的标题（### N. xxx）：如果有 title_zh 就用中文标题
+        if title_zh:
+            chunk = re.sub(
+                r"^(###\s+\d+\.\s+).+?\n",
+                lambda mm: f"{mm.group(1)}{title_zh}\n",
+                chunk, count=1, flags=re.MULTILINE
+            )
+
+        # 2. 把 "**📖 中文摘要**" 段替换成 keywords + 主编点评
+        chips = ""
+        if keywords:
+            kw_html = " · ".join(f"`{k}`" for k in keywords[:5])
+            chips = f"\n🏷️ {kw_html}\n\n"
+
         zh_pattern = re.compile(
             r"\*\*📖 中文摘要\*\*\s*\n\n.*?(?=<details|📺 \[打开原文\])",
             re.DOTALL,
         )
-        new_chunk, n = zh_pattern.subn(f"**📖 主编点评**\n\n{note}\n\n", chunk, count=1)
-        out.append(new_chunk if n else chunk)
+        replacement = f"{chips}**📖 主编点评**\n\n{note}\n\n"
+        new_chunk, n = zh_pattern.subn(replacement, chunk, count=1)
+
+        # 如果 weekly md 已经是新版没有"中文摘要"段（直接是"主编点评"），单独把 chips 插到主编点评前
+        if n == 0 and "**📖 主编点评**" in new_chunk and chips:
+            new_chunk = new_chunk.replace("**📖 主编点评**", chips.strip() + "\n\n**📖 主编点评**", 1)
+        elif n == 0:
+            new_chunk = chunk
+
+        out.append(new_chunk)
     return "".join(out)
 
 
@@ -1975,6 +2045,9 @@ def build_site():
     (SITE / "search-index.json").write_text(
         json.dumps(search_idx, ensure_ascii=False), encoding="utf-8"
     )
+
+    # GitHub Pages 自定义域名（让 zczxd1118.github.io/curio-site → curioradar.fun）
+    (SITE / "CNAME").write_text("curioradar.fun\n", encoding="utf-8")
 
     print(f"✅ Site built at: {SITE}")
     print(f"   领域：{len(domains_meta)} 个")

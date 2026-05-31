@@ -11,7 +11,14 @@
       "source": {
         "name": "HN · ASML"
       },
-      "why_recommend": "深度长文剖析 ASML 如何成为先进制程唯一咽喉点。半导体地缘必读。"
+      "why_recommend": "深度长文剖析 ASML 如何成为先进制程唯一咽喉点。半导体地缘必读。",
+      "title_zh": "ASML 成为先进制程唯一咽喉点",
+      "keywords": [
+        "ASML",
+        "EUV",
+        "光刻机",
+        "TSMC"
+      ]
     },
     {
       "id": "hn:claude-opus-4.8",
@@ -21,7 +28,14 @@
       "source": {
         "name": "HN · Anthropic"
       },
-      "why_recommend": "Claude Opus 4.8 发布——基准全面提升 + Claude Code Dynamic Workflows。AI 推理需求侧的需求拉动。"
+      "why_recommend": "Claude Opus 4.8 发布——基准全面提升 + Claude Code Dynamic Workflows。AI 推理需求侧的需求拉动。",
+      "title_zh": "Claude Opus 4.8 发布，推动推理算力需求新一轮",
+      "keywords": [
+        "Claude Opus 4.8",
+        "Anthropic",
+        "推理算力",
+        "Claude Code"
+      ]
     },
     {
       "id": "hn:gpu-server-48k",
@@ -31,7 +45,14 @@
       "source": {
         "name": "HN · 硬件"
       },
-      "why_recommend": "个人开发者花 4.8 万美元自建 GPU server 的真实回报分析。本地推理 vs 云 API 算账。"
+      "why_recommend": "个人开发者花 4.8 万美元自建 GPU server 的真实回报分析。本地推理 vs 云 API 算账。",
+      "title_zh": "4.8 万美元 GPU server 自建是否值得？",
+      "keywords": [
+        "GPU",
+        "本地推理",
+        "RTX",
+        "云 API"
+      ]
     },
     {
       "id": "hn:forge-guardrails",
@@ -41,7 +62,14 @@
       "source": {
         "name": "HN · LLM"
       },
-      "why_recommend": "8B 本地模型靠 guardrails 把 agent 任务成功率拉到 99%。本地推理的可用性突破。"
+      "why_recommend": "8B 本地模型靠 guardrails 把 agent 任务成功率拉到 99%。本地推理的可用性突破。",
+      "title_zh": "Forge 让 8B 本地模型 agent 任务成功率从 53% 拉到 99%",
+      "keywords": [
+        "Forge",
+        "Guardrails",
+        "8B 模型",
+        "本地推理"
+      ]
     },
     {
       "id": "hn:us-research-restrictions",
@@ -51,7 +79,14 @@
       "source": {
         "name": "HN · 政策"
       },
-      "why_recommend": "美国对芯片/AI 研究的国际合作发布新限制。半导体国际合作再受冲击。"
+      "why_recommend": "美国对芯片/AI 研究的国际合作发布新限制。半导体国际合作再受冲击。",
+      "title_zh": "美国限制研究员与外国合作者发表芯片/AI 论文",
+      "keywords": [
+        "美国政策",
+        "研究合作",
+        "芯片",
+        "学术"
+      ]
     },
     {
       "id": "hn:semble-codesearch",
@@ -61,7 +96,14 @@
       "source": {
         "name": "HN · 工程"
       },
-      "why_recommend": "面向 agent 的代码搜索，token 消耗降 98%。LLM 推理成本侧的工程优化。"
+      "why_recommend": "面向 agent 的代码搜索，token 消耗降 98%。LLM 推理成本侧的工程优化。",
+      "title_zh": "Semble 让 agent 代码搜索 token 消耗降 98%",
+      "keywords": [
+        "Semble",
+        "Code Search",
+        "Agent",
+        "Token 优化"
+      ]
     }
   ],
   "reference": [

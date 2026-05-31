@@ -11,7 +11,14 @@
       "source": {
         "name": "HN · Tesla"
       },
-      "why_recommend": "Tesla 德州锂精炼厂被实锤每天排 23.1 万加仑废水，监管诉讼风险。对持有 TSLA 是关键负面信号。"
+      "why_recommend": "Tesla 德州锂精炼厂被实锤每天排 23.1 万加仑废水，监管诉讼风险。对持有 TSLA 是关键负面信号。",
+      "title_zh": "Tesla 锂精炼厂日排废水 23 万加仑",
+      "keywords": [
+        "Tesla",
+        "TSLA",
+        "环保监管",
+        "锂电池"
+      ]
     },
     {
       "id": "hn:us-inflation-3.8",
@@ -21,7 +28,14 @@
       "source": {
         "name": "HN · 宏观"
       },
-      "why_recommend": "美国 5 月 CPI 同比 3.8% 超预期，伊朗战争推高能源价格。决定下次议息会议节奏。"
+      "why_recommend": "美国 5 月 CPI 同比 3.8% 超预期，伊朗战争推高能源价格。决定下次议息会议节奏。",
+      "title_zh": "美国 CPI 同比 3.8% 超预期，伊朗战争推高能源",
+      "keywords": [
+        "CPI",
+        "通胀",
+        "美联储",
+        "能源"
+      ]
     },
     {
       "id": "rss:ben-spacex-ipo",
@@ -31,7 +45,14 @@
       "source": {
         "name": "Stratechery · Ben Thompson"
       },
-      "why_recommend": "Ben Thompson 解读 SpaceX IPO 和'太空数据中心'命题。Starlink 现金流 + AI 算力需求叠加。"
+      "why_recommend": "Ben Thompson 解读 SpaceX IPO 和'太空数据中心'命题。Starlink 现金流 + AI 算力需求叠加。",
+      "title_zh": "SpaceX IPO 与太空数据中心命题",
+      "keywords": [
+        "SpaceX",
+        "IPO",
+        "Starlink",
+        "数据中心"
+      ]
     },
     {
       "id": "rss:nvidia-earnings",
@@ -41,7 +62,14 @@
       "source": {
         "name": "Stratechery"
       },
-      "why_recommend": "NVDA 最新财报解读 + 新报告口径。AI 板块持仓必读。"
+      "why_recommend": "NVDA 最新财报解读 + 新报告口径。AI 板块持仓必读。",
+      "title_zh": "Nvidia 财报与新报告口径解读",
+      "keywords": [
+        "Nvidia",
+        "NVDA",
+        "AI Stack",
+        "财报"
+      ]
     },
     {
       "id": "hn:tesla-solar-roof",
@@ -51,7 +79,14 @@
       "source": {
         "name": "HN · Tesla"
       },
-      "why_recommend": "Tesla Solar Roof 实质放弃，10 年累计装机仅 3000 户。能源业务想象空间需打折。"
+      "why_recommend": "Tesla Solar Roof 实质放弃，10 年累计装机仅 3000 户。能源业务想象空间需打折。",
+      "title_zh": "Tesla Solar Roof 实质放弃，10 年累计仅 3000 户",
+      "keywords": [
+        "Tesla",
+        "Solar Roof",
+        "Energy",
+        "估值"
+      ]
     },
     {
       "id": "rss:data-center-veto",
@@ -61,7 +96,14 @@
       "source": {
         "name": "Stratechery"
       },
-      "why_recommend": "本地政府开始否决数据中心选址。AI 算力供应链的物理瓶颈从芯片转向电力+土地。"
+      "why_recommend": "本地政府开始否决数据中心选址。AI 算力供应链的物理瓶颈从芯片转向电力+土地。",
+      "title_zh": "数据中心选址被本地政府否决潮",
+      "keywords": [
+        "数据中心",
+        "AI 算力",
+        "DLR",
+        "电力"
+      ]
     }
   ],
   "reference": [
@@ -91,7 +133,14 @@
       "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
       "url": "",
       "platform": "hackernews",
-      "why_recommend": "如果你做投资类 agent，'用工程而不是 finetune 解决可靠性'的思路值得借鉴。"
+      "why_recommend": "如果你做投资类 agent，'用工程而不是 finetune 解决可靠性'的思路值得借鉴。",
+      "title_zh": "Forge 让 8B 本地模型 agent 任务成功率从 53% 拉到 99%",
+      "keywords": [
+        "Forge",
+        "Guardrails",
+        "8B 模型",
+        "本地推理"
+      ]
     },
     {
       "id": "rss:parallel-content-value",

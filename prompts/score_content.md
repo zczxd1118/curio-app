@@ -102,6 +102,8 @@
       "id": "hn:xxxxxx",
       "platform": "hackernews",
       "title": "Anthropic raises $965B Series H, releases Opus 4.8",
+      "title_zh": "Anthropic 完成 H 轮 965 亿融资，发布 Opus 4.8",
+      "keywords": ["Anthropic", "Series H", "Claude Opus 4.8", "Agent"],
       "url": "...",
       "source": "Latent Space",
       "score": { "novelty": 10, "depth": 8, "relevance": 10 },
@@ -109,6 +111,7 @@
       "is_diverse": false
     }
   ],
+  "_note_for_llm": "重要：必读和参考的每一条都要给出 title_zh（人话中文标题，不是机翻；保留产品/公司名英文如 Anthropic、TSMC、Forge）和 keywords（3-5 个核心词，混合英文产品名和中文话题词）。中文文章 title_zh 直接用原标题。",
   "reference": [...],
   "skip": [
     {

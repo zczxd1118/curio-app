@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Curio · 半导体 周刊 · Curio</title>
-<link rel="stylesheet" href="../../styles.css?v=20260531152014">
+<link rel="stylesheet" href="../../styles.css?v=20260531155255">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -54,9 +54,10 @@
 <p>这是「半导体」领域的第一份周刊。M0 版本按热度自动选出前 5 条头版，AI 打分 + 主编笔法的报道将在 M1 接入 LLM API 后启用。当前你能看到的是真实抓取的全网内容，足够先验证「这个领域能搜到什么」。</p>
 <hr />
 <h2>🗞️ 头版报道（5 条）</h2>
-<h3>1. Claude Opus 4</h3>
+<h3>1. Claude Opus 4.8 发布，推动推理算力需求新一轮</h3>
 <p><strong>来源</strong>：craigmart · hackernews · 热度 1734</p>
 <p><em>原标题：Claude Opus 4.8</em></p>
+<p>🏷️ <code>Claude Opus 4.8</code> · <code>Anthropic</code> · <code>推理算力</code> · <code>Claude Code</code></p>
 <p><strong>📖 主编点评</strong></p>
 <p>Anthropic 把 Opus 升到 4.8——同价位、benchmark 全面提升，新增 Claude Code Dynamic Workflows 处理大规模任务，Fast mode 价格降到 1/3。这条对半导体的意义是需求侧：每次 Claude 升级都意味着推理算力需求阶跃。如果你持仓 NVDA 或关心数据中心建设节奏，Anthropic 这种主流商用模型的迭代节奏是直接驱动因子。</p>
 <details><summary>展开英文原文</summary>
@@ -116,22 +117,12 @@ This calculation includes audio, visual...
 
 <p>📺 <a href="https://www.alexselimov.com/posts/men_who_stare_at_walls/">打开原文</a></p>
 <hr />
-<h3>4. 显示HN ：锻造–护栏在代理任务中将8B模型从53%提高到99%</h3>
+<h3>4. Forge 让 8B 本地模型 agent 任务成功率从 53% 拉到 99%</h3>
 <p><strong>来源</strong>：zambelli · hackernews · 热度 687</p>
 <p><em>原标题：Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</em></p>
-<p><strong>📖 中文摘要</strong></p>
-<p>自托管LLM工具调用的可靠性层。 你给锻造一套工具；模型以任何顺序调用它想要的任何工具。 工作流程结构为选择加入— “REQUIRED_STEPS”</p>
-<p>, <code>先决条件</code></p>
-<p>和<code>terminal_tool</code></p>
-<p>允许您在需要时约束循环，但Forge的护栏（救援解析、重试闪屏振动、响应验证）也适用于零必需步骤。 Forge在Forge的26场景v0.7.0评估套件中将8B本地模型从单个数字提升到84% ，甚至在同一工作负载下将Sonnet 4.6从85%提升到98% （在v0.6.0中测量的人择数字；由于成本不小，因此不在v0.7.0中重新运行）。</p>
-<ul>
-<li>
-<p>*锻造不是什么： * *</p>
-</li>
-<li>
-<p><em>不是代理编排器。</em> * Forge位于一个代理循环内，使其工具调用可靠。 多智能体图、DAG规划器</p>
-</li>
-</ul>
+<p>🏷️ <code>Forge</code> · <code>Guardrails</code> · <code>8B 模型</code> · <code>本地推理</code></p>
+<p><strong>📖 主编点评</strong></p>
+<p>Forge 是开源 LLM 工具调用的可靠性层——靠输出 guardrails（救援解析、重试、响应校验）把 8B 本地模型的 agent 任务成功率从 53% 拉到 99%。这条对半导体的意义是：'本地推理是否可用' 的门槛在快速降低，意味着 inference workload 不必都跑在云上 H100。NVDA 数据中心业务的中长期天花板要重新评估。</p>
 <details><summary>展开英文原文</summary>
 
 A reliability layer for self-hosted LLM tool-calling. You give forge a set of tools; the model calls whichever it wants in whatever order. Workflow structure is opt-in — `required_steps`
@@ -296,6 +287,6 @@ window.CURIO_REL_ROOT = "../../";
 window.CURIO_API_BASE = "https://api.curioradar.fun";
 window.CURIO_GH_REPO = "zczxd1118/curio-app";
 </script>
-<script src="../../app.js?v=20260531152014"></script>
+<script src="../../app.js?v=20260531155255"></script>
 </body>
 </html>
