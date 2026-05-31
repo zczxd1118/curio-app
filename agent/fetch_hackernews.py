@@ -43,18 +43,34 @@ def search_hn(
     hits_per_page: int = 30,
     tags: str = "story",
     strict_match: bool = True,
+    adaptive: bool = True,
 ) -> list[dict[str, Any]]:
     """
     搜 HN
     - tags=story 只要文章（不要评论）
     - numericFilters 限定时间和热度
+
+    ⚙️ adaptive=True（默认）：动态阈值
+    - 不直接用 min_points 过滤 API 请求（避免漏冷门话题的早期爆款）
+    - 拉回来后看 points 分布，按"实际中位数 vs 配置阈值取较低"做软筛
+    - 例如：配置 min_points=50，但近期实际中位数才 20 分（冷门话题），
+      则用 max(实际_top30%, 10) 作阈值，多召回 10-15 条
     """
     now = datetime.now(timezone.utc)
     since_ts = int((now - timedelta(days=days)).timestamp())
 
+    # adaptive 模式：API 调用时只用一个"地板阈值"（min_points * 0.3 或 5），
+    # 真正过滤在拿到数据后做
+    if adaptive:
+        api_min = max(5, int(min_points * 0.3))
+        # 多拉一些（adaptive 需要更大池子做分位数）
+        hits_per_page = max(hits_per_page, 50)
+    else:
+        api_min = min_points
+
     numeric_filters = [f"created_at_i>{since_ts}"]
-    if min_points > 0:
-        numeric_filters.append(f"points>={min_points}")
+    if api_min > 0:
+        numeric_filters.append(f"points>={api_min}")
 
     params = {
         "query": query,
@@ -63,7 +79,10 @@ def search_hn(
         "numericFilters": ",".join(numeric_filters),
     }
 
-    print(f"📡 HN · '{query}' · 近 {days} 天 · points>={min_points}", file=sys.stderr)
+    if adaptive:
+        print(f"📡 HN · '{query}' · 近 {days} 天 · adaptive (api_min={api_min}, target={min_points})", file=sys.stderr)
+    else:
+        print(f"📡 HN · '{query}' · 近 {days} 天 · points>={min_points}", file=sys.stderr)
 
     try:
         r = requests.get(ENDPOINT, params=params, headers={"User-Agent": UA}, timeout=15)
@@ -115,8 +134,35 @@ def search_hn(
             }
         )
 
+    # adaptive 模式：根据实际分布做软筛，避免阈值死板
+    # 策略：保留 (满足配置阈值的) ∪ (相对热度 top 50% 且 ≥10 票的)
+    #       前者抓"标杆"，后者抓"冷门话题里的相对爆款"
+    if adaptive and items and min_points > 0:
+        all_points = sorted([it["views"] for it in items], reverse=True)
+        # 该 keyword 近期 top 50% 中位数
+        if all_points:
+            median_p = all_points[len(all_points) // 2]
+        else:
+            median_p = 0
+        # 软阈值：max(地板=10, 中位数 * 0.7)，但不超过配置 min_points
+        soft_threshold = max(10, int(median_p * 0.7))
+        soft_threshold = min(soft_threshold, min_points)
+
+        before = len(items)
+        items = [it for it in items if it["views"] >= soft_threshold or it["views"] >= min_points]
+        # 如果筛后剩太少（<3），回退到只用地板阈值（避免极端冷门话题被全过滤）
+        if len(items) < 3 and before >= 5:
+            items = sorted(
+                [it for it in items + [{"views": p} for p in all_points]
+                 if isinstance(it, dict) and it.get("title")],
+                key=lambda x: x["views"], reverse=True
+            )[:max(5, before // 3)]
+        adapt_msg = f"（自适应阈值={soft_threshold}，配置阈值={min_points}，中位数={median_p}）"
+    else:
+        adapt_msg = ""
+
     skip_msg = f"（过滤掉 {skipped_irrelevant} 条不相关）" if skipped_irrelevant else ""
-    print(f"   ✓ 拿到 {len(items)} 条 {skip_msg}", file=sys.stderr)
+    print(f"   ✓ 拿到 {len(items)} 条 {skip_msg}{adapt_msg}", file=sys.stderr)
     return items
 
 
