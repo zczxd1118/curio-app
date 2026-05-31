@@ -50,6 +50,20 @@ function isServerMode() {
   return window.__CURIO_HAS_BACKEND === true;
 }
 
+// ===== UI 图标（lucide 风格 SVG，替代 emoji）=====
+const UI_ICONS = {
+  mail:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22 7 12 13 2 7"/></svg>',
+  calendar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>',
+  sun:      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>',
+  bolt:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>',
+  check:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>',
+  x:        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>',
+  bell:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>',
+  clock:    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>',
+  list:     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>',
+  bot:      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><line x1="8" y1="16" x2="8" y2="16"/><line x1="16" y1="16" x2="16" y2="16"/></svg>',
+};
+
 // ===== 添加领域弹窗 =====
 const ICONS = ['🤖','🏦','🔬','📈','🧬','⚛️','🎮','📚','🎨','🚀','🌍','💊','🏛️','🎬','⚖️','🔋'];
 
@@ -258,12 +272,12 @@ function openGenerateViaIssue(domainId, domainName) {
   modal.className = 'modal-overlay gen-issue';
   modal.innerHTML = `
     <div class="modal" style="max-width:480px">
-      <h3>⚡ 立刻生成「${domainName}」</h3>
+      <h3><span class="icon-sm">${UI_ICONS.bolt}</span> 立刻生成「${domainName}」</h3>
       <p>提交后会在 GitHub 上自动开一个 Issue，Curio Agent 每小时检查一次，看到后会立刻为你重跑（抓取 → 打分 → 中文摘要 → 主编点评 → 邮件通知）。</p>
       <p style="background:var(--bg-elev);padding:10px 12px;border-left:3px solid var(--accent);font-size:13px;color:var(--text-soft);margin:12px 0;">
-        ⏱️ <strong>预计等待：最长 60 分钟</strong>（Agent 调度间隔 1 小时）<br>
-        📨 留下邮箱跑完会发一封通知<br>
-        📋 Agent 收到时会在 GitHub Issue 评论"已收到，开始跑"，完成时再评论结果链接
+        <span class="icon-inline">${UI_ICONS.clock}</span> <strong>预计等待：最长 60 分钟</strong>（Agent 调度间隔 1 小时）<br>
+        <span class="icon-inline">${UI_ICONS.mail}</span> 留下邮箱跑完会发一封通知<br>
+        <span class="icon-inline">${UI_ICONS.list}</span> Agent 收到时会在 GitHub Issue 评论"已收到，开始跑"，完成时再评论结果链接
       </p>
       <div class="form-row">
         <label>邮箱（可选，跑完了通知你）</label>
@@ -319,7 +333,7 @@ async function openSubscribeModal() {
     modal.className = 'modal-overlay subscribe';
     modal.innerHTML = `
       <div class="modal" style="max-width:520px">
-        <h3>📨 订阅 Curio 简报</h3>
+        <h3><span class="icon-sm">${UI_ICONS.mail}</span> 订阅 Curio 简报</h3>
         <p>留下邮箱，Curio 会按你的偏好把每期内容发到邮箱。我们不会把邮箱用于其他用途。</p>
         <div class="form-row">
           <label>邮箱</label>
@@ -333,11 +347,11 @@ async function openSubscribeModal() {
           <label>推送频率</label>
           <div class="sub-cadence-row">
             <div class="sub-cadence-pick active" data-cadence="weekly">
-              <div class="label">📅 周刊</div>
+              <div class="label"><span class="icon-sm">${UI_ICONS.calendar}</span> 周刊</div>
               <div class="meta">每周一中午 12:00</div>
             </div>
             <div class="sub-cadence-pick" data-cadence="daily">
-              <div class="label">☀️ 日报</div>
+              <div class="label"><span class="icon-sm">${UI_ICONS.sun}</span> 日报</div>
               <div class="meta">每天中午 12:00</div>
             </div>
           </div>
@@ -351,23 +365,26 @@ async function openSubscribeModal() {
     `;
     document.body.appendChild(modal);
 
-    // 加载领域列表（先用本地 nav 派生，再异步从 worker 拉以保证最新）
+    // 加载领域列表：从首页 .domain-card 派生（已经渲染了 SVG）；再异步从 worker /domains 拉 icon_type 渲染
     const grid = $('#sub-domains', modal);
     const localDomains = [];
-    $$('.nav-links a').forEach(a => {
-      const text = a.textContent.trim();
-      const href = a.getAttribute('href') || '';
-      const m = href.match(/d\/([^/]+)\//);
-      if (m) {
-        const parts = text.split(' ');
-        localDomains.push({id: m[1], icon: parts[0] || '📰', name: parts.slice(1).join(' ') || m[1]});
-      }
+    $$('.domain-card').forEach(card => {
+      const id = card.dataset.domainId;
+      const name = $('.domain-name', card)?.textContent?.trim();
+      const svgEl = $('.domain-icon-svg svg, .domain-icon svg', card) || $('svg', card);
+      const svg = svgEl ? svgEl.outerHTML : '';
+      if (id && name) localDomains.push({id, name, svg});
     });
+    const svgFromIconType = (it) => {
+      // DOMAIN_TYPES 里有，匹配 key
+      const match = DOMAIN_TYPES.find(t => t.key === it);
+      return match ? match.svg : DOMAIN_TYPES.find(t => t.key === 'default').svg;
+    };
     const renderDomains = (list) => {
       if (!list.length) { grid.innerHTML = '<div class="sub-domain-pick">暂无领域</div>'; return; }
       grid.innerHTML = list.map(d => `
         <div class="sub-domain-pick" data-id="${d.id}">
-          <span class="icon">${d.icon || '📰'}</span><span>${d.name}</span>
+          <span class="icon">${d.svg || svgFromIconType(d.icon_type) || ''}</span><span>${d.name}</span>
         </div>`).join('');
       $$('.sub-domain-pick', grid).forEach(p => {
         p.addEventListener('click', () => p.classList.toggle('active'));
@@ -377,7 +394,11 @@ async function openSubscribeModal() {
     if (WORKER_API) {
       workerApi('/domains').then(d => {
         if (Array.isArray(d.domains) && d.domains.length && d.meta) {
-          const list = d.domains.map(id => ({id, icon: d.meta[id]?.icon || '📰', name: d.meta[id]?.name || id}));
+          const list = d.domains.map(id => ({
+            id,
+            name: d.meta[id]?.name || id,
+            icon_type: d.meta[id]?.icon_type || 'default',
+          }));
           renderDomains(list);
         }
       }).catch(() => {});
@@ -506,7 +527,7 @@ async function generateIssue(domainId, domainName) {
 
   const bar = ensureProgressBar();
   bar.classList.add('show');
-  $('.domain-label', bar).textContent = `🛰️ ${domainName}`;
+  $('.domain-label', bar).textContent = `生成中 · ${domainName}`;
   $('.step-msg', bar).textContent = '启动中...';
   $('.pct', bar).textContent = '0%';
   $('.gen-progress-fill', bar).style.width = '0%';

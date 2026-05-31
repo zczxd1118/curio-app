@@ -92,17 +92,18 @@ function confirmEmailHTML(env, { confirmUrl, domains, cadence }) {
   const cadenceText = cadence === "daily" ? "每天中午 12:00" : "每周一中午 12:00";
   const domainList = domains.map((d) => `<li>${d}</li>`).join("");
   return `<!doctype html><html><body style="font-family:-apple-system,system-ui,sans-serif;max-width:560px;margin:30px auto;padding:0 20px;color:#1a1a1c;line-height:1.6">
-<h2 style="margin:0 0 16px">📨 确认订阅 Curio</h2>
+<h2 style="margin:0 0 4px;font-weight:600;letter-spacing:-0.01em">确认订阅 Curio</h2>
+<p style="color:#888;font-size:13px;margin:0 0 20px">你的私人主编 · curioradar.fun</p>
 <p>你（或者用你邮箱的人）刚刚订阅了 Curio 内容简报。</p>
-<p style="background:#fafaf8;border-left:3px solid #d4af37;padding:12px 16px;margin:16px 0">
-  <strong>订阅领域：</strong><ul style="margin:6px 0 0">${domainList}</ul>
-  <strong>推送频率：</strong>${cadenceText}
-</p>
+<table cellpadding="0" cellspacing="0" style="background:#fafaf8;border-left:3px solid #d4af37;padding:14px 18px;margin:18px 0;font-size:14px">
+  <tr><td style="padding-right:12px;color:#666;vertical-align:top;white-space:nowrap">订阅领域</td><td><ul style="margin:0;padding-left:18px">${domainList}</ul></td></tr>
+  <tr><td style="padding:8px 12px 0 0;color:#666;vertical-align:top;white-space:nowrap">推送频率</td><td style="padding-top:8px">${cadenceText}</td></tr>
+</table>
 <p>请点击下面按钮完成确认（48 小时内有效）：</p>
-<p><a href="${confirmUrl}" style="display:inline-block;padding:10px 20px;background:#1a1a1c;color:#fff;text-decoration:none;border-radius:6px">确认订阅</a></p>
+<p><a href="${confirmUrl}" style="display:inline-block;padding:11px 24px;background:#1a1a1c;color:#fff;text-decoration:none;border-radius:6px;font-weight:500">确认订阅</a></p>
 <p style="font-size:12px;color:#888;margin-top:24px">如果不是你订阅的，忽略本邮件即可，订阅不会生效。</p>
 <p style="font-size:12px;color:#888">想立刻退订？<a href="${env.API_BASE}/unsubscribe-by-email" style="color:#888">点这里</a>（无需 token，输入邮箱即可）</p>
-<p style="font-size:12px;color:#888">Curio · zxd 个人项目 · <a href="${env.SITE_BASE}/">访问网站</a></p>
+<p style="font-size:12px;color:#888;border-top:1px solid #eee;padding-top:12px;margin-top:20px">Curio · zxd 个人项目 · <a href="${env.SITE_BASE}/" style="color:#888">访问网站</a></p>
 </body></html>`;
 }
 
@@ -149,7 +150,7 @@ async function handleSubscribe(req, env) {
   const confirmUrl = `${env.API_BASE}/confirm?token=${token}`;
   const mail = await sendEmail(env, {
     to: lower,
-    subject: "📨 确认订阅 Curio",
+    subject: "确认订阅 Curio · 你的私人主编",
     html: confirmEmailHTML(env, { confirmUrl, domains, cadence }),
     text: `请点击链接完成订阅确认：${confirmUrl}\n（48 小时内有效）`,
   });
@@ -162,10 +163,10 @@ async function handleSubscribe(req, env) {
 async function handleConfirm(req, env) {
   const url = new URL(req.url);
   const token = url.searchParams.get("token");
-  if (!token) return htmlPage("出错了", "<h1>❌ 缺少 token</h1>");
+  if (!token) return htmlPage("出错了", "<h1>缺少 token</h1>");
 
   const pending = await env.CURIO_KV.get("pending:" + token, "json");
-  if (!pending) return htmlPage("链接已失效", "<h1>⏰ 链接已过期或已使用</h1><p>请回到网站重新订阅。</p>");
+  if (!pending) return htmlPage("链接已失效", "<h1>链接已过期或已使用</h1><p>请回到网站重新订阅。</p>");
 
   const unsubToken = genToken(24);
   const sub = {
@@ -179,10 +180,10 @@ async function handleConfirm(req, env) {
   await env.CURIO_KV.put("unsub:" + unsubToken, pending.email); // 反查
   await env.CURIO_KV.delete("pending:" + token);
 
-  const cadenceText = pending.cadence === "daily" ? "每天" : "每周一";
+  const cadenceText = pending.cadence === "daily" ? "每天中午 12:00" : "每周一中午 12:00";
   return htmlPage(
     "订阅成功",
-    `<h1>✅ 订阅成功</h1>
+    `<h1>订阅成功</h1>
      <p>${cadenceText} 你会收到 Curio 简报，覆盖：</p>
      <p>${pending.domains.map((d) => `<code>${d}</code>`).join(" ")}</p>
      <p><a class="btn" href="${env.SITE_BASE}/">回到 Curio</a></p>`,
@@ -192,16 +193,16 @@ async function handleConfirm(req, env) {
 async function handleUnsubscribe(req, env) {
   const url = new URL(req.url);
   const token = url.searchParams.get("token");
-  if (!token) return htmlPage("出错了", "<h1>❌ 缺少 token</h1>");
+  if (!token) return htmlPage("出错了", "<h1>缺少 token</h1>");
 
   const email = await env.CURIO_KV.get("unsub:" + token);
-  if (!email) return htmlPage("链接无效", "<h1>❌ 链接无效或已退订</h1>");
+  if (!email) return htmlPage("链接无效", "<h1>链接无效或已退订</h1>");
 
   await env.CURIO_KV.delete("subscriber:" + email);
   await env.CURIO_KV.delete("unsub:" + token);
   return htmlPage(
     "已退订",
-    `<h1>👋 已退订</h1><p>${email} 已从 Curio 订阅列表移除。</p>
+    `<h1>已退订</h1><p>${email} 已从 Curio 订阅列表移除。</p>
      <p>如果改主意了随时回来：<a class="btn" href="${env.SITE_BASE}/">访问 Curio</a></p>`,
   );
 }
@@ -216,7 +217,7 @@ async function handleUnsubscribeByEmail(req, env) {
     const email = url.searchParams.get("email") || "";
     return htmlPage(
       "退订 Curio",
-      `<h1>👋 退订 Curio</h1>
+      `<h1>退订 Curio</h1>
        <p>输入你订阅时用的邮箱即可退订。无需打开任何邮件。</p>
        <form method="POST" action="${env.API_BASE}/unsubscribe-by-email" style="max-width:420px">
          <input type="email" name="email" required value="${email}"
@@ -239,7 +240,7 @@ async function handleUnsubscribeByEmail(req, env) {
   }
   email = String(email || "").trim().toLowerCase();
   if (!isValidEmail(email)) {
-    return htmlPage("退订失败", "<h1>❌ 邮箱格式不对</h1><p><a href='" + env.API_BASE + "/unsubscribe-by-email'>重试</a></p>");
+    return htmlPage("退订失败", "<h1>邮箱格式不对</h1><p><a href='" + env.API_BASE + "/unsubscribe-by-email'>重试</a></p>");
   }
 
   const sub = await env.CURIO_KV.get("subscriber:" + email, "json");
@@ -247,7 +248,7 @@ async function handleUnsubscribeByEmail(req, env) {
     // 也检查是否在 pending（未确认）
     return htmlPage(
       "未订阅",
-      `<h1>👋 ${email} 没在 Curio 订阅列表里</h1>
+      `<h1>${email} 没在 Curio 订阅列表里</h1>
        <p>可能从未订阅，或之前已退订。</p>
        <p><a href="${env.SITE_BASE}/">访问 Curio</a></p>`
     );
@@ -256,7 +257,7 @@ async function handleUnsubscribeByEmail(req, env) {
   if (sub.unsub_token) await env.CURIO_KV.delete("unsub:" + sub.unsub_token);
   return htmlPage(
     "已退订",
-    `<h1>👋 已退订</h1>
+    `<h1>已退订</h1>
      <p>${email} 已从 Curio 订阅列表移除。</p>
      <p>之前订阅了：${(sub.domains || []).join(", ")}（${sub.cadence === "daily" ? "日报" : "周刊"}）</p>
      <p>如果改主意了随时回来：<a href="${env.SITE_BASE}/">访问 Curio</a></p>`
@@ -394,7 +395,7 @@ ${blocks.join('<hr style="border:none;border-top:1px solid #ddd;margin:32px 0">'
 async function handleRoot(req, env) {
   return htmlPage(
     "Curio API",
-    `<h1>🛰️ Curio API</h1>
+    `<h1>Curio API</h1>
      <p>这是 Curio 的后端 API（Cloudflare Workers）。</p>
      <p>访问主站：<a class="btn" href="${env.SITE_BASE}/">${env.SITE_BASE}</a></p>`,
   );
