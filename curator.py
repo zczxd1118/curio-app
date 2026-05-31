@@ -312,6 +312,30 @@ def cmd_score(args: argparse.Namespace) -> int:
         ALREADY_PUSHED_TITLES=[],
     )
 
+    # 检查 .pending_generate.json 里有没有针对这个 domain 的"用户留言"
+    # （网页"立刻生成"弹窗里填的"想看什么"会进到这里）
+    pending_note_for_this_domain: str | None = None
+    pending_file = ROOT / ".pending_generate.json"
+    if pending_file.exists():
+        try:
+            pending_data = json.loads(pending_file.read_text(encoding="utf-8"))
+            domain_id_match = candidates.get("domain_id") or domain
+            for p in pending_data.get("pending", []):
+                if p.get("domain_id") == domain_id_match and p.get("note"):
+                    pending_note_for_this_domain = p["note"].strip()
+                    break
+        except Exception:
+            pass
+
+    if pending_note_for_this_domain:
+        prompt += "\n\n---\n\n## ⚡ 本期用户特别请求\n\n"
+        prompt += f"用户在网页\"立刻生成\"按钮上提交了这次请求，并附了一条留言：\n\n"
+        prompt += f"> **{pending_note_for_this_domain}**\n\n"
+        prompt += "评分时**优先满足这条诉求**：\n"
+        prompt += "- 如果留言提到具体子话题（如\"AI 技术 / 硬件 / 商业\"），必读区至少 3 条贴合该子话题\n"
+        prompt += "- 在 intro（导读）里提一句\"本期按你的请求侧重 XX\"，让用户知道留言被听到\n"
+        prompt += "- 仍要保留 1-2 条反偏好/突发要闻（不能 100% 顺从，那就退化成回声室）\n"
+
     # 在 prompt 末尾追加候选池
     prompt += "\n\n---\n\n## 候选内容池\n\n```json\n"
     prompt += json.dumps(items_for_prompt, ensure_ascii=False, indent=2)
