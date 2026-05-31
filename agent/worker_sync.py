@@ -414,10 +414,10 @@ def ingest_generate_issues() -> int:
         # 给用户一条"Agent 已收到，开始跑了"评论（兑现 UI 承诺）
         try:
             domain_name = data.get("domain_name") or domain_id
-            note = data.get("note", "").strip()
+            note = (data.get("note") or "").strip()
             note_part = f"\n\n你的留言：> {note}" if note else ""
             _gh_api(
-                f"/repos/{_repo()}/issues/{num}/comments",
+                f"/repos/zczxd1118/curio-app/issues/{num}/comments",
                 "POST",
                 {"body": (
                     f"🤖 **Curio Agent 已收到请求**\n\n"
