@@ -1858,8 +1858,8 @@ def _page_template(page_title: str, nav_active: str, depth: int, body: str) -> s
     nav_html = "".join(nav_links)
     brand_href = f"{rel_root}index.html"
 
-    # API base：开发期用 workers.dev，绑域名后通过 env 覆盖
-    api_base = os.environ.get("CURIO_API_BASE", "https://curio-api.zczxd1118.workers.dev")
+    # API base：用自有域名（Cloudflare proxy），不能用 *.workers.dev（国内 GFW 投毒）
+    api_base = os.environ.get("CURIO_API_BASE", "https://api.curioradar.fun")
 
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
