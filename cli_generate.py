@@ -562,8 +562,15 @@ def cmd_prepare_unified(args):
 
 
 def cmd_finalize_unified(args):
-    """阶段 3（unified）：读 unified.scored.json → 渲染 → push → 邮件"""
-    log("📰 Curio finalize (unified) —— 渲染 Top 4-5 头条")
+    """阶段 3（unified）：读 unified.scored.json → 渲染 → push → 邮件
+
+    关键设计：
+    - unified.scored.json 是 Claude 一次跑出来的单一来源（合并所有域）
+    - 但展示和邮件**按域分组**（用户明确要求"不能全混在一起"）
+    - 拆分逻辑在 agent.build_radar_md.split_by_domain
+    - 拆出来的每域 md 写到 topics/{slug}.weekly.{date}.md，复用现有 render_site 链路
+    """
+    log("📰 Curio finalize (unified) —— 拆分到每域 md → 渲染 → push")
 
     scored_file = TOPICS_DIR / "unified.scored.json"
     if not scored_file.exists():
@@ -571,34 +578,60 @@ def cmd_finalize_unified(args):
         return
 
     sys.path.insert(0, str(ROOT))
-    from agent.build_radar_md import build_radar_md
+    from agent.build_radar_md import build_radar_md, split_by_domain
 
     scored = json.loads(scored_file.read_text(encoding="utf-8"))
     today = scored.get("date") or time.strftime("%Y-%m-%d")
-    md = build_radar_md(scored)
 
-    # 写到 site/radar/{date}.html 直接（这是新视图）
-    radar_dir = SITE_DIR / "radar"
-    radar_dir.mkdir(parents=True, exist_ok=True)
-    md_path = TOPICS_DIR / f"radar.{today}.md"
-    md_path.write_text(md, encoding="utf-8")
-    log(f"   ✓ {md_path}")
+    # 1. 写完整全景版（备查 + 内部用）
+    full_md = build_radar_md(scored)
+    full_md_path = TOPICS_DIR / f"radar.{today}.md"
+    full_md_path.write_text(full_md, encoding="utf-8")
+    log(f"   ✓ 完整全景：{full_md_path}")
 
-    # 渲染整站（同时把新 md 也带上）
+    # 2. 拆成每域 md（复用现有 site/邮件链路）
+    # 从 sources.yaml 读真实的中文域名 → 英文 slug 映射
+    import yaml as _yaml
+    sources_path = ROOT / "sources.yaml"
+    domain_to_slug = {}
+    if sources_path.exists():
+        cfg = _yaml.safe_load(sources_path.read_text(encoding="utf-8")) or {}
+        for slug, info in (cfg.get("domains") or {}).items():
+            name = (info or {}).get("name") or slug
+            domain_to_slug[name] = slug
+            domain_to_slug[slug] = slug  # 也允许 Claude 直接用 slug
+
+    log(f"   📚 域名映射：{domain_to_slug}")
+
+    splits = split_by_domain(scored, domain_to_slug)
+    log(f"   ✂️  拆出 {len(splits)} 份每域 md：{list(splits.keys())}")
+
+    for slug, md in splits.items():
+        out = TOPICS_DIR / f"{slug}.weekly.{today}.md"
+        out.write_text(md, encoding="utf-8")
+        log(f"      ✓ {out.name}")
+
+    # 3. 渲染整站（render_site 会自动扫 topics/*.weekly.*.md）
     log("  🏗️ build site")
     run([PY, str(ROOT / "curator.py"), "site"], check=False)
 
-    # push site
+    # 4. push site
     if not args.no_push:
         log("  ☁️ push curio-site")
         push_site()
 
-    # 邮件
+    # 5. 同步内容到 worker KV（让 worker /domains 和邮件能拿到）
+    if not args.no_worker:
+        log("  📤 sync content to worker KV")
+        run([PY, "-m", "agent.worker_sync", "push_content"], check=False)
+        run([PY, "-m", "agent.worker_sync", "sync_domains"], check=False)
+
+    # 6. 自用通知邮件
     if not args.no_email:
         log("  📧 self-notify")
         run([PY, "-m", "agent.notify_email"], check=False)
 
-    # 广播给订阅者
+    # 7. 广播给订阅者（worker /broadcast 会按订阅者的 domains 过滤）
     if not args.no_worker:
         log(f"  📢 broadcast cadence={args.cadence}")
         run([PY, "-m", "agent.worker_sync", "broadcast", "--cadence", args.cadence], check=False)

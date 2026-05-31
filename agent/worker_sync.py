@@ -144,7 +144,7 @@ def sync_domains() -> int:
 # ============== 2. push_content ==============
 
 def _scored_to_html_block(scored: dict, domain_name: str, domain_icon: str) -> str:
-    """把 scored.json 的 must_read 拼成一段邮件可读 HTML"""
+    """把 scored.json 的 must_read 拼成一段邮件可读 HTML（老格式，兼容用）"""
     must = scored.get("must_read") or []
     if not must:
         return ""
@@ -169,6 +169,89 @@ def _scored_to_html_block(scored: dict, domain_name: str, domain_icon: str) -> s
     </section>"""
 
 
+def _unified_to_html_blocks(scored: dict, domain_to_slug: dict, domains_cfg: dict) -> dict[str, str]:
+    """unified.scored.json → 每域一个 HTML 块（按域分组，复用 worker broadcast 链路）
+
+    Returns: {slug: html_block}
+    """
+    import sys as _sys
+    from pathlib import Path as _Path
+    _sys.path.insert(0, str(ROOT))
+    try:
+        from agent.build_radar_md import _render_headline_html, _fuzzy_match_domain
+    except Exception:
+        return {}
+
+    headlines = scored.get("headlines") or []
+    shortlist = scored.get("shortlist") or []
+
+    # 按 slug 分组
+    by_slug_h: dict[str, list] = {}
+    by_slug_s: dict[str, list] = {}
+
+    def resolve_slug(domain_text: str) -> str | None:
+        """中文/英文 domain → slug"""
+        if not domain_text:
+            return None
+        # 直接命中
+        if domain_text in domain_to_slug:
+            return domain_to_slug[domain_text]
+        if domain_text in domains_cfg:
+            return domain_text
+        # fuzzy
+        for slug in domains_cfg:
+            if _fuzzy_match_domain(domain_text, slug):
+                return slug
+        return None
+
+    for h in headlines:
+        slug = resolve_slug(h.get("domain", ""))
+        if slug:
+            by_slug_h.setdefault(slug, []).append(h)
+
+    for s in shortlist:
+        slug = resolve_slug(s.get("domain", ""))
+        if slug:
+            by_slug_s.setdefault(slug, []).append(s)
+
+    # 渲染每域 HTML
+    out = {}
+    for slug in set(by_slug_h.keys()) | set(by_slug_s.keys()):
+        dcfg = domains_cfg.get(slug, {}) or {}
+        domain_name = dcfg.get("name") or slug
+
+        parts = [f'<section style="margin-bottom:36px">']
+        parts.append(
+            f'<h2 style="font-size:20px;border-bottom:2px solid #d4af37;padding-bottom:6px;margin-bottom:14px">'
+            f'🌟 {domain_name}</h2>'
+        )
+
+        # 头条
+        for h in by_slug_h.get(slug, []):
+            parts.append(_render_headline_html(h))
+
+        # 备选
+        sl = by_slug_s.get(slug, [])
+        if sl:
+            parts.append('<div style="margin-top:18px"><strong style="color:#666;font-size:14px">📋 备选阅读</strong><ul style="padding-left:20px;color:#444;font-size:13px;margin-top:8px">')
+            for it in sl:
+                title = (it.get("title") or "").replace("<", "&lt;").replace(">", "&gt;")
+                url = it.get("url") or ""
+                one_liner = (it.get("one_liner") or "").replace("<", "&lt;").replace(">", "&gt;")
+                if url:
+                    parts.append(f'<li style="margin-bottom:6px"><a href="{url}" style="color:#1a1a1c">{title}</a>'
+                                 + (f' —— <span style="color:#666">{one_liner}</span>' if one_liner else "") + "</li>")
+                else:
+                    parts.append(f'<li style="margin-bottom:6px">{title}'
+                                 + (f' —— <span style="color:#666">{one_liner}</span>' if one_liner else "") + "</li>")
+            parts.append("</ul></div>")
+
+        parts.append("</section>")
+        out[slug] = "\n".join(parts)
+
+    return out
+
+
 def push_content() -> int:
     if not SOURCES.exists():
         _log("❌ 找不到 sources.yaml")
@@ -176,6 +259,49 @@ def push_content() -> int:
     cfg = yaml.safe_load(SOURCES.read_text(encoding="utf-8")) or {}
     domains_cfg = cfg.get("domains") or {}
 
+    # 优先：如果有 unified.scored.json，按 unified 模式拆分推送
+    unified_path = TOPICS / "unified.scored.json"
+    if unified_path.exists():
+        try:
+            scored = json.loads(unified_path.read_text(encoding="utf-8"))
+            mtime_age_min = (time.time() - unified_path.stat().st_mtime) / 60
+            if mtime_age_min < 120:  # 2 小时内的才用
+                _log(f"📤 push_content: unified 模式（unified.scored.json 是 {mtime_age_min:.0f} 分钟前生成）")
+                # 构建 name → slug 反查
+                name_to_slug = {}
+                for slug, dcfg in domains_cfg.items():
+                    name_to_slug[(dcfg or {}).get("name", slug)] = slug
+                    name_to_slug[slug] = slug
+
+                blocks = _unified_to_html_blocks(scored, name_to_slug, domains_cfg)
+                pushed = skipped = 0
+                for slug, html in blocks.items():
+                    dcfg = domains_cfg.get(slug, {}) or {}
+                    body_payload = {
+                        "slug": slug,
+                        "content": {
+                            "html": html,
+                            "domain": dcfg.get("name", slug),
+                            "must_count": 1,
+                            "generated_at": time.strftime("%Y-%m-%d %H:%M"),
+                        },
+                    }
+                    code, resp = _http("POST", "/admin/push-content", body=body_payload, admin=True)
+                    if code == 200:
+                        _log(f"  ✅ {slug} ({dcfg.get('name', slug)}): pushed (unified)")
+                        pushed += 1
+                    else:
+                        _log(f"  ❌ {slug}: HTTP {code}: {resp}")
+                        skipped += 1
+                _log(f"\n📊 unified 推送完成：{pushed} 成功 / {skipped} 跳过")
+                if pushed > 0:
+                    return 0
+                # 0 个推送 = unified 没匹配到任何域，fall through 到老逻辑
+                _log("  ⚠️ unified 模式没匹配到任何域，fallback 到老 *.scored.json 模式")
+        except Exception as e:
+            _log(f"⚠️ unified 模式失败: {e}，fallback 到老 *.scored.json 模式")
+
+    # 老模式：扫 *.scored.json 单独推
     # 反查 slug → domain_id（多路径）
     name_to_id = {}
     topic_to_id = {}
