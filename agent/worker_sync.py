@@ -423,7 +423,7 @@ def ingest_generate_issues() -> int:
 def close_generate_issue(issue_num: int, success: bool = True, message: str = ""):
     """生成跑完后调用，关闭对应 Issue"""
     try:
-        comment = ("✅ 已生成，访问 https://zczxd1118.github.io/curio-site/ 查看。" if success
+        comment = ("✅ 已生成，访问 https://curioradar.fun/ 查看。" if success
                    else f"❌ 生成失败：{message}")
         _close_issue(issue_num, comment=comment, label_add="curio-ingested")
     except Exception as e:

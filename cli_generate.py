@@ -315,7 +315,7 @@ def cmd_finalize(args):
     log("")
     log("✅ finalize 完成")
     if not args.no_push:
-        log(f"   网址：https://{GH_USER}.github.io/{GH_REPO}/")
+        log(f"   网址：https://curioradar.fun/  (备用 https://{GH_USER}.github.io/{GH_REPO}/)")
 
 
 def publish():
@@ -349,7 +349,7 @@ def publish():
     try:
         run(["git", "push", "-u", "origin", "main", "--force"], cwd=SITE_DIR)
         log(f"  ✅ pushed → https://github.com/{GH_USER}/{GH_REPO}")
-        log(f"  🌐 https://{GH_USER}.github.io/{GH_REPO}/")
+        log(f"  🌐 https://curioradar.fun/")
         return True
     except subprocess.CalledProcessError as e:
         log(f"  ❌ push failed: {e}")

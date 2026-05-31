@@ -32,7 +32,7 @@ SECRET_FILE = ROOT / ".smtp_secret"
 PROFILE = ROOT / "profile.yaml"
 TOPICS = ROOT / "topics"
 
-SITE_URL = "https://zczxd1118.github.io/curio-site/"
+SITE_URL = "https://curioradar.fun/"
 
 # QQ 邮箱默认配置；profile.yaml 里可覆盖
 DEFAULT_SMTP = {
