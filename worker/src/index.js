@@ -101,6 +101,7 @@ function confirmEmailHTML(env, { confirmUrl, domains, cadence }) {
 <p>请点击下面按钮完成确认（48 小时内有效）：</p>
 <p><a href="${confirmUrl}" style="display:inline-block;padding:10px 20px;background:#1a1a1c;color:#fff;text-decoration:none;border-radius:6px">确认订阅</a></p>
 <p style="font-size:12px;color:#888;margin-top:24px">如果不是你订阅的，忽略本邮件即可，订阅不会生效。</p>
+<p style="font-size:12px;color:#888">想立刻退订？<a href="${env.API_BASE}/unsubscribe-by-email" style="color:#888">点这里</a>（无需 token，输入邮箱即可）</p>
 <p style="font-size:12px;color:#888">Curio · zxd 个人项目 · <a href="${env.SITE_BASE}/">访问网站</a></p>
 </body></html>`;
 }
@@ -202,6 +203,63 @@ async function handleUnsubscribe(req, env) {
     "已退订",
     `<h1>👋 已退订</h1><p>${email} 已从 Curio 订阅列表移除。</p>
      <p>如果改主意了随时回来：<a class="btn" href="${env.SITE_BASE}/">访问 Curio</a></p>`,
+  );
+}
+
+// 自助退订：用户只输邮箱，自动找 token 并删除（不需要邮件里的 token）
+// 这是为了应对 QQ 等邮箱拦截邮件、用户拿不到 token 的场景
+async function handleUnsubscribeByEmail(req, env) {
+  const url = new URL(req.url);
+
+  // GET：返回一个简单的 HTML 表单
+  if (req.method === "GET") {
+    const email = url.searchParams.get("email") || "";
+    return htmlPage(
+      "退订 Curio",
+      `<h1>👋 退订 Curio</h1>
+       <p>输入你订阅时用的邮箱即可退订。无需打开任何邮件。</p>
+       <form method="POST" action="${env.API_BASE}/unsubscribe-by-email" style="max-width:420px">
+         <input type="email" name="email" required value="${email}"
+                placeholder="your@email.com"
+                style="width:100%;padding:10px;font-size:14px;border:1px solid #ddd;border-radius:6px;margin-bottom:12px">
+         <button type="submit" style="width:100%;padding:10px;background:#1a1a1c;color:#fff;border:0;border-radius:6px;cursor:pointer;font-size:14px">退订</button>
+       </form>
+       <p style="margin-top:24px;font-size:12px;color:#888">如果改主意了随时回来：<a href="${env.SITE_BASE}/">访问 Curio</a></p>`
+    );
+  }
+
+  // POST：真正退订
+  let email = "";
+  const ct = req.headers.get("content-type") || "";
+  if (ct.includes("application/json")) {
+    try { const j = await req.json(); email = j.email || ""; } catch {}
+  } else {
+    const form = await req.formData();
+    email = form.get("email") || "";
+  }
+  email = String(email || "").trim().toLowerCase();
+  if (!isValidEmail(email)) {
+    return htmlPage("退订失败", "<h1>❌ 邮箱格式不对</h1><p><a href='" + env.API_BASE + "/unsubscribe-by-email'>重试</a></p>");
+  }
+
+  const sub = await env.CURIO_KV.get("subscriber:" + email, "json");
+  if (!sub) {
+    // 也检查是否在 pending（未确认）
+    return htmlPage(
+      "未订阅",
+      `<h1>👋 ${email} 没在 Curio 订阅列表里</h1>
+       <p>可能从未订阅，或之前已退订。</p>
+       <p><a href="${env.SITE_BASE}/">访问 Curio</a></p>`
+    );
+  }
+  await env.CURIO_KV.delete("subscriber:" + email);
+  if (sub.unsub_token) await env.CURIO_KV.delete("unsub:" + sub.unsub_token);
+  return htmlPage(
+    "已退订",
+    `<h1>👋 已退订</h1>
+     <p>${email} 已从 Curio 订阅列表移除。</p>
+     <p>之前订阅了：${(sub.domains || []).join(", ")}（${sub.cadence === "daily" ? "日报" : "周刊"}）</p>
+     <p>如果改主意了随时回来：<a href="${env.SITE_BASE}/">访问 Curio</a></p>`
   );
 }
 
@@ -376,6 +434,9 @@ export default {
       }
       if (url.pathname === "/unsubscribe" && req.method === "GET") {
         return handleUnsubscribe(req, env);
+      }
+      if (url.pathname === "/unsubscribe-by-email") {
+        return handleUnsubscribeByEmail(req, env);
       }
       if (url.pathname === "/domains" && req.method === "GET") {
         return handleDomains(req, env);
