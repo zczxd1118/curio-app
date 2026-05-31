@@ -176,11 +176,25 @@ def push_content() -> int:
     cfg = yaml.safe_load(SOURCES.read_text(encoding="utf-8")) or {}
     domains_cfg = cfg.get("domains") or {}
 
-    # 反查 slug → domain_id
-    name_to_id = {dcfg.get("name", did): did for did, dcfg in domains_cfg.items() if isinstance(dcfg, dict)}
+    # 反查 slug → domain_id（多路径）
+    name_to_id = {}
+    topic_to_id = {}
+    zh_slug_to_id = {}
+    import re as _re
+    for did, dcfg in domains_cfg.items():
+        if not isinstance(dcfg, dict):
+            continue
+        name_to_id[dcfg.get("name", did)] = did
+        for tid in (dcfg.get("topics") or {}):
+            topic_to_id[tid] = did
+        # 中文名 slugify (例如 "金融" → "金融", "大厂讯息" → "大厂讯息")
+        zh = _re.sub(r"[^\w\u4e00-\u9fa5]+", "-", dcfg.get("name", "").lower()).strip("-")
+        if zh:
+            zh_slug_to_id[zh] = did
 
     pushed = 0
     skipped = 0
+    seen_domain_ids = set()
     for f in TOPICS.glob("*.scored.json"):
         slug = f.stem.replace(".scored", "")
         try:
@@ -190,11 +204,30 @@ def push_content() -> int:
             skipped += 1
             continue
 
-        # 反查 domain_id
+        # 反查 domain_id：优先 slug 直接是 domain_id，再 topic_id 反查，再 name 反查，再中文 slug
         domain_name = scored.get("domain") or slug
-        domain_id = name_to_id.get(domain_name, slug)
+        if slug in domains_cfg:
+            domain_id = slug
+        elif slug in topic_to_id:
+            domain_id = topic_to_id[slug]
+        elif domain_name in name_to_id:
+            domain_id = name_to_id[domain_name]
+        elif slug in zh_slug_to_id:
+            domain_id = zh_slug_to_id[slug]
+        else:
+            domain_id = slug
         dcfg = domains_cfg.get(domain_id) or {}
         domain_icon = dcfg.get("icon", "📰")
+        # 优先用 sources.yaml 里的 name（中文/正式名）而不是 scored.json 里随手写的 "vibe coding"
+        if dcfg.get("name"):
+            domain_name = dcfg["name"]
+
+        # 同一 domain_id 多个文件时去重，避免后到的 scored 覆盖（但日志要警告）
+        if domain_id in seen_domain_ids:
+            _log(f"  ⚠️ {domain_id} 已被推过（来自更早的 scored.json），跳过 {f.name}")
+            skipped += 1
+            continue
+        seen_domain_ids.add(domain_id)
 
         html = _scored_to_html_block(scored, domain_name, domain_icon)
         if not html:
