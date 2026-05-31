@@ -86,7 +86,32 @@ def cmd_prepare(args):
     log("📥 ingest subscribe requests (GitHub fallback)")
     run([PY, "-m", "agent.worker_sync", "ingest_subscribe"], check=False)
 
+    # 0.3 ingest 用户立刻生成请求 → 把对应领域加入本次生成队列
+    # 这样 daily/weekly 自动跑时会顺手处理掉所有 pending 的"立刻生成"请求
+    # （原来是单独 hourly 跑 process_pending，体验是"等下个整点"；
+    #  现在 daily 12:00 和 weekly 周一 12:00 跑前都会捎带处理，无额外成本）
+    log("📥 ingest curio-generate requests (merge into this run)")
+    run([PY, "-m", "agent.worker_sync", "ingest_generate"], check=False)
+    pending_file = ROOT / ".pending_generate.json"
+    user_requested_domains: list[str] = []
+    if pending_file.exists():
+        try:
+            pending_data = json.loads(pending_file.read_text(encoding="utf-8"))
+            user_requested_domains = [p["domain_id"] for p in pending_data.get("pending", [])]
+            if user_requested_domains:
+                log(f"   📌 用户请求生成的领域：{user_requested_domains}（合并到本次）")
+        except Exception as e:
+            log(f"   ⚠️ 读 pending 失败: {e}")
+
     domains = args.domains or list_active_domains()
+
+    # 用户请求的领域如果不在 args.domains 限制范围内，也要带上（除非显式指定 --domains）
+    if not args.domains and user_requested_domains:
+        for udom in user_requested_domains:
+            if udom not in domains:
+                domains.append(udom)
+                log(f"   ➕ 用户请求 '{udom}' 不在默认列表，临时加入本次")
+
     log(f"   领域：{domains}")
 
     plan = {"prepared_at": time.strftime("%Y-%m-%d %H:%M"), "domains": []}
