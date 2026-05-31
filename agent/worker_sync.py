@@ -438,12 +438,48 @@ def ingest_generate_issues() -> int:
     return 0
 
 
-def close_generate_issue(issue_num: int, success: bool = True, message: str = ""):
-    """生成跑完后调用，关闭对应 Issue"""
+def close_generate_issue(issue_num: int, success: bool = True, message: str = "",
+                         domain_id: str = None, verify: bool = True):
+    """生成跑完后调用，关闭对应 Issue。
+
+    verify=True 时会校验产出文件是否真的更新（today 这一期 md 文件存在且 mtime 在 1 小时内）——
+    避免出现"Agent 评论已生成但实际啥也没做"的虚假承诺。失败时不关 issue，只评论提示重试。
+    """
+    import time as _time
+
+    # Step 1: 真实性校验
+    if success and verify and domain_id:
+        today = _time.strftime("%Y-%m-%d")
+        md_path = ROOT / "topics" / f"{domain_id}.weekly.{today}.md"
+        if not md_path.exists():
+            success = False
+            message = f"未找到产出文件 topics/{domain_id}.weekly.{today}.md（生成链路实际未跑通）"
+        else:
+            mtime = md_path.stat().st_mtime
+            age_min = (_time.time() - mtime) / 60
+            if age_min > 60:
+                success = False
+                message = f"产出文件 {md_path.name} 过期 {age_min:.0f} 分钟（不是本次生成）"
+
+    # Step 2: 根据真实性决定关 / 不关
     try:
-        comment = ("✅ 已生成，访问 https://curioradar.fun/ 查看。" if success
-                   else f"❌ 生成失败：{message}")
-        _close_issue(issue_num, comment=comment, label_add="curio-ingested")
+        if success:
+            comment = "✅ 已生成，访问 https://curioradar.fun/ 查看。"
+            _close_issue(issue_num, comment=comment, label_add="curio-ingested")
+        else:
+            comment = (
+                f"⚠️ 本次未完整生成新内容：{message}\n\n"
+                f"Issue 暂保持 open，下个整点 Agent 会重试。如反复失败请反馈给作者。"
+            )
+            try:
+                _gh_api(
+                    f"/repos/zczxd1118/curio-app/issues/{issue_num}/comments",
+                    "POST",
+                    {"body": comment},
+                )
+                _log(f"  #{issue_num} 标记失败但保持 open（待重试）")
+            except Exception as e:
+                _log(f"comment failed issue {issue_num}: {e}")
     except Exception as e:
         _log(f"close issue {issue_num} 失败: {e}")
 
