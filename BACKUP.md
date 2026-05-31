@@ -79,7 +79,7 @@ bash scripts/setup_new_device.sh ~/Downloads/curio-backup-2026-05-31.tar.gz.enc
 5. 把 automation 定义灌回 `~/.workbuddy/workbuddy.db`，自动替换路径
 6. 跑一次 `build_issue_md` 烟测
 
-恢复完，明早 8:00 daily automation 会自动跑出第一期，跟在原机器上一样。
+恢复完，下次 12:00 daily automation 会自动跑出第一期，跟在原机器上一样。
 
 ## 风险提示（必读）
 

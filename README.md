@@ -43,8 +43,8 @@ Curio 是一个**信息策展 AI Agent**。你只用一句话告诉它"我关心
 │                     生成侧（绑本机 Mac，每天/每周自动跑）                │
 │                                                                        │
 │  WorkBuddy automation cron                                             │
-│      ├── 每天 8:00 · daily（金融 + 大厂）                                │
-│      ├── 每周一 8:00 · weekly（AI + 半导体）                             │
+│      ├── 每天 12:00 · daily（金融 + 大厂）                               │
+│      ├── 每周一 12:00 · weekly（AI + 半导体）                            │
 │      └── 每小时 · 用户"立刻生成"请求处理                                  │
 │           ↓                                                            │
 │  cli_generate.py prepare                                               │
@@ -183,8 +183,8 @@ $PY cli_generate.py finalize --cadence daily   # 或 --cadence weekly
 
 | Automation | 触发 | 用途 |
 |---|---|---|
-| `automation-1780211294404` | 每天 8:00 | daily（金融 + 大厂讯息） |
-| `automation-1780140880021` | 每周一 8:00 | weekly（AI + 半导体） |
+| `automation-1780211294404` | 每天 12:00 | daily（金融 + 大厂讯息） |
+| `automation-1780140880021` | 每周一 12:00 | weekly（AI + 半导体） |
 | `automation-1780167898607` | 每小时 | 处理用户的"立刻生成"请求 |
 
 ---

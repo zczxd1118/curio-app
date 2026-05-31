@@ -89,7 +89,7 @@ async function sendEmail(env, { to, subject, html, text }) {
 }
 
 function confirmEmailHTML(env, { confirmUrl, domains, cadence }) {
-  const cadenceText = cadence === "daily" ? "每天早 8:00" : "每周一早 8:00";
+  const cadenceText = cadence === "daily" ? "每天中午 12:00" : "每周一中午 12:00";
   const domainList = domains.map((d) => `<li>${d}</li>`).join("");
   return `<!doctype html><html><body style="font-family:-apple-system,system-ui,sans-serif;max-width:560px;margin:30px auto;padding:0 20px;color:#1a1a1c;line-height:1.6">
 <h2 style="margin:0 0 16px">📨 确认订阅 Curio</h2>
@@ -183,7 +183,7 @@ async function handleConfirm(req, env) {
   return htmlPage(
     "订阅成功",
     `<h1>✅ 订阅成功</h1>
-     <p>${cadenceText}早 8:00 你会收到 Curio 周报，覆盖：</p>
+     <p>${cadenceText} 你会收到 Curio 简报，覆盖：</p>
      <p>${pending.domains.map((d) => `<code>${d}</code>`).join(" ")}</p>
      <p><a class="btn" href="${env.SITE_BASE}/">回到 Curio</a></p>`,
   );

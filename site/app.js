@@ -334,11 +334,11 @@ async function openSubscribeModal() {
           <div class="sub-cadence-row">
             <div class="sub-cadence-pick active" data-cadence="weekly">
               <div class="label">📅 周刊</div>
-              <div class="meta">每周一早 8:00</div>
+              <div class="meta">每周一中午 12:00</div>
             </div>
             <div class="sub-cadence-pick" data-cadence="daily">
               <div class="label">☀️ 日报</div>
-              <div class="meta">每天早 8:00</div>
+              <div class="meta">每天中午 12:00</div>
             </div>
           </div>
         </div>

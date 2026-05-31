@@ -793,11 +793,11 @@ async function openSubscribeModal() {
           <div class="sub-cadence-row">
             <div class="sub-cadence-pick active" data-cadence="weekly">
               <div class="label">📅 周刊</div>
-              <div class="meta">每周一早 8:00</div>
+              <div class="meta">每周一中午 12:00</div>
             </div>
             <div class="sub-cadence-pick" data-cadence="daily">
               <div class="label">☀️ 日报</div>
-              <div class="meta">每天早 8:00</div>
+              <div class="meta">每天中午 12:00</div>
             </div>
           </div>
         </div>
@@ -1824,7 +1824,7 @@ def render_home(domains: list[dict], latest_issues: list[dict], top_n_cross: lis
 <div class="hero">
   <div class="kicker">你的私人主编</div>
   <h1>Curio</h1>
-  <div class="meta">每周一早上 8:00 自动从全网为你抓取并写成一份私人报纸。</div>
+  <div class="meta">每周一 / 每天中午 12:00 自动从全网为你抓取并写成一份私人报纸。</div>
 </div>
 
 <h2>你的领域</h2>
