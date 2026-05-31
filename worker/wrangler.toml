@@ -16,9 +16,11 @@ id = "728863a1457247388acb6b866e09ae05"
 
 # vars 是非密文配置
 [vars]
-SITE_BASE = "https://zczxd1118.github.io/curio-site"
+SITE_BASE = "https://curioradar.fun"
 API_BASE = "https://api.curioradar.fun"
-FROM_EMAIL = "Curio <onboarding@resend.dev>"
+# 发件人：用已验证的自有域名（Resend Verified 2026-05-31）
+# 任何邮箱都能收到，不再受 sandbox 限制
+FROM_EMAIL = "Curio <noreply@curioradar.fun>"
 GH_REPO = "zczxd1118/curio-app"
 
 # secrets 用 wrangler secret put 注入：
