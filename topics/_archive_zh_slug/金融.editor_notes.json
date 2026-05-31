@@ -1,0 +1,32 @@
+{
+  "domain": "finance",
+  "slug": "金融",
+  "generated_at": "2026-05-31",
+  "notes": [
+    {
+      "id": "rss:https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
+      "title": "The SpaceX IPO and Data Centers in Space",
+      "note": "如果只看现金流，SpaceX 这次 IPO 是站不住的——发射、卫星、Starlink 三条线都还在烧钱。但 Ben Thompson 这篇文章把视角整个换了一遍：他认为 SpaceX 真正的故事不是太空互联网，而是太空数据中心。一旦 AI 推理算力开始向轨道迁移，SpaceX 拥有的发射成本优势就会从「便宜送货」变成「便宜建机房」。这条值得你看的不是估值结论，而是这个换叙事角度的方法——你以后看任何高估值公司都能借用这个思路：先问它真正的故事在哪条业务线上，再去算账。"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+      "title": "Nvidia Earnings, The AI Stack, Nvidia's New Reporting",
+      "note": "Nvidia 财报本身没什么意外，真正的信号是它主动改了披露口径——把销售拆成 hyperscaler 和其他客户两块。这是 Nvidia 第一次承认 hyperscaler 端的议价能力在掉，而它在「全栈控制」的客户那边还能维持高毛利。这种会计层面的小动作通常要等下一两个季度才会被市场消化进估值模型。Ben Thompson 这篇拆得很细，建议你看完后回头对照下你手上看的任何 AI 算力相关股票，估值假设是不是该换一套指标了。"
+    },
+    {
+      "id": "hn:48192383",
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "note": "这条 HN 上 687 票不是空穴来风——把 8B 模型在 agentic 基准上从 53% 拉到 99%，意味着「模型规模决定能力」这个简单叙事已经站不住了。仓库里能看到 guardrails 怎么写、prompt 怎么搭、失败回退怎么编。对你做 Agent 项目的工程意义直接：以后规划成本时，别再默认必须用顶级大模型。对金融意义同样直接：如果工程层能持续填平模型差距，Anthropic / OpenAI 的 token 定价护城河就会被反向侵蚀。看完仓库再回头看 Anthropic 估值，会有不一样的感觉。"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
+      "title": "An Interview with Eric Seufert About Models and Ads, and AI's Upside for Humanity",
+      "note": "Eric Seufert 是移动广告和归因这块最锋利的分析师之一。这次访谈最值得读的是他对 Meta 自研 foundation model 的判断：他不把它当 AI 投入，而是把它当 Meta 广告业务的核心防御工程——因为只有 Meta 自己控制模型，它才能在 ATT 之后的归因黑箱里继续产生独家信号。这个判断如果对，那 Meta 估值的看法要改。访谈一个多小时，节奏不快但密度高，比看十篇 Meta 财报评论都管用。这就是你上次反馈说「想多看名人访谈而不是教程」的那种内容。"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+      "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
+      "note": "数据中心的电力 / 噪声 / 用水问题正在变成 AI capex 周期里被忽视的真实拖尾成本。Ben Thompson 这篇没站道德高地，他认为本地居民的反对都是合理的——电费上涨、半夜噪声、水耗都是真问题。他给的解法也很商业：别再花钱做 PR 和游说，直接补贴受影响居民。文章里有几个州具体的补贴数字，你能直接拿来对照大厂披露的 capex 估算单位算力的真实成本。看完再去看 hyperscaler 的资本支出指引，会发现还有一块没被算进去。"
+    }
+  ]
+}

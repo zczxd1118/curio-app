@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Curio · AI 日报 · Curio</title>
-<link rel="stylesheet" href="../../styles.css?v=20260531213811">
+<title>Curio · AI 周刊 · Curio</title>
+<link rel="stylesheet" href="../../styles.css?v=20260531214745">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -44,71 +44,158 @@
 
 <div class="hero">
   <div class="kicker">🤖 AI · 2026-05-31</div>
-  <h1>Curio · AI 日报</h1>
-  <div class="meta">2026-05-31 · 由 Curio 主编从 ? 条候选选出（今日窗口）</div>
+  <h1>Curio · AI 周刊</h1>
+  <div class="meta">2026-05-31 · 由 Curio 主编从 183 条候选选出（本周窗口）</div>
 </div>
 <div class="content">
-<p><strong>2026-05-31 · 由 Curio 主编从 ? 条候选选出（今日窗口）</strong></p>
+<p><strong>2026-05-31 · 由 Curio 主编从 183 条候选选出（本周窗口）</strong></p>
 <hr />
 <h2>📰 主编社论</h2>
-<p>本期（2026-05-31）AI 圈核心叙事：Anthropic + Cognition 双双完成超大轮融资；Google I/O 2026 用 Gemini 3.5 Flash + Omni 反击；模型实验室全部转向 agent 产品；Cerebras 启动 600 亿美元 IPO。资本和产品都在加速。</p>
+<p>本期 183 条候选，挑了 7 条必读 + 6 条参考。本周英文圈头号事件是 Anthropic H 轮 + Opus 4.8 + Dynamic Workflows 三件齐发——头版给 Latent Space 那篇深度，因为它把融资、模型、产品线一锅讲清楚。HN 上 Qwen3.7-Max（721 票）和 Forge guardrails（687 票）是这周技术圈最热的两条，分别代表「中国大模型 agent 化」和「8B 模型工程层做 guardrails 顶替大模型」两个方向，都进必读。按你上次反馈想看名人访谈，Cognition 创始人 Walden Yan 谈 Async Agents、Daytona CEO 谈 agent 沙盒经济模型也都进了。B 站这次的池子几乎全是「保姆级」「无限续杯」「胎教级」标题党，只有 Qoder 那条 Vibe / Plan / Spec → Harness Engineering 的进阶讨论值得进必读。Microsoft 取消 Claude Code license 那条 492 票放参考，因为业务侧信号强但深度不足。</p>
 <hr />
-<h2>🗞️ 头版报道（5 条）</h2>
-<h3>1. Anthropic 完成 H 轮 965 亿融资 + Opus 4.8 发布</h3>
+<h2>🗞️ 头版报道（7 条）</h2>
+<h3>1. Anthropic 完成 H 轮 965 亿融资，同步发布 Opus 4.8 与 Dynamic Workflows / ultracode</h3>
 <p><strong>来源</strong>：Latent.Space · RSS</p>
-<p><em>原标题：[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows</em></p>
-<p>🏷️ <code>Anthropic</code> · <code>Series H</code> · <code>Opus 4.8</code> · <code>Dynamic Workflows</code></p>
+<p><em>原标题：[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode</em></p>
+<p>🏷️ <code>Anthropic</code> · <code>Series H</code> · <code>Opus 4.8</code> · <code>Dynamic Workflows</code> · <code>ultracode</code></p>
+<p><strong>📖 中文摘要</strong></p>
+<p>5 月 29 日 Latent Space 当天发布的深度总结。Anthropic 宣布完成 H 轮 965 亿美元融资，同日发布 Claude Opus 4.8、Dynamic Workflows 与 ultracode。Opus 4.8 在编码与多步 agent 任务上较 4.6 提升明显；Dynamic Workflows 是 Claude Code 的可观测可复跑工作流编排，把 agent 从「临场判断」推向「可验证脚本」。Anthropic 同步透露当月 run-rate revenue 已突破 470 亿美元。</p>
+<details><summary>展开英文原文</summary>
+
+Total Anthropic victory!
+
+</details>
+
 <p><strong>📖 主编点评</strong></p>
-<p>Anthropic 完成 H 轮 965 亿美元融资，同时发布 Opus 4.8 和 Dynamic Workflows（让 Claude Code 能编排长链路任务）。run-rate 从去年 12 月 9B 飙到现在 47B 美元，是 SaaS 史上最快增长曲线。如果你在选型 AI 编程工具，Claude Code 的资本和产品双护城河已经成型，Cursor 和 Copilot 的窗口期可能比预期更短。</p>
-<p>📺 <a href="https://www.latent.space/p/ainews-anthropic-965b-series">打开原文</a></p>
+<p>本周英文圈头号事件被 Latent Space 用一篇文章串完了：H 轮 965 亿融资、Opus 4.8、Dynamic Workflows、ultracode 几乎同时落地。比起一般新闻稿，这篇值得你读的地方在于它把「钱、模型、产品线」三件事的逻辑连成一条线——估值跳到 1.2 万亿不是因为 Opus 4.8 多强，而是因为 Anthropic 用 Dynamic Workflows 把 Claude Code 从「智能助理」推进到「可观测可复跑的工作流引擎」，这是企业市场认账的真东西。看完你做 Curio 自动化时也能直接借这套思路重构 prompt 层。</p>
+<p>📺 <a href="https://www.latent.space/p/ainews-anthropic-raises-965b-series">打开原文</a></p>
 <hr />
-<h3>2. Cognition 完成 10 亿美元 D 轮，估值 260 亿</h3>
-<p><strong>来源</strong>：Latent.Space · RSS</p>
-<p><em>原标题：[AINews] Cognition raises $1B in $26B Series D</em></p>
-<p>🏷️ <code>Cognition</code> · <code>Devin</code> · <code>Series D</code> · <code>Async Agent</code></p>
+<h3>2. Qwen3.7-Max 发布：阿里押注 agent 前沿</h3>
+<p><strong>来源</strong>：Hacker News · HN</p>
+<p><em>原标题：Qwen3.7-Max: The Agent Frontier</em></p>
+<p>🏷️ <code>Qwen3.7-Max</code> · <code>阿里</code> · <code>agent</code> · <code>中国大模型</code> · <code>开源</code></p>
+<p><strong>📖 中文摘要</strong></p>
+<p>5 月 20 日发布于 HN，721 票、290 评论。阿里官宣 Qwen3.7-Max，重点放在 agent 任务能力——长任务、工具使用、复杂指令跟随的基准较 Qwen3.6 跳升明显。模型卡公开了 SWE-Bench 与 agentic eval 数据，并配套发布了 agent 部署的最佳实践。</p>
 <p><strong>📖 主编点评</strong></p>
-<p>Devin 母公司 Cognition 拿下 10 亿美元 D 轮，估值 260 亿。从一年前被嘲笑'demo 造假'到现在估值赶超大多数独角兽，关键是 Devin 真的开始在企业里跑量了。这条对你判断 'agent 替代部分编码工作' 的时间线有指导意义——不是 5 年后，是现在已经开始。</p>
-<p>📺 <a href="https://www.latent.space/p/cognition-1b">打开原文</a></p>
+<p>Qwen 这次发新版的姿势变了——不再吹「最便宜的开源大模型」，而是直接喊 agent 前沿。模型卡里 SWE-Bench、agentic eval 都是公开数字，长任务、工具使用这些指标向 Claude Sonnet 那条线靠。HN 721 票说明圈子认账。对你做 Agent 项目的直接意义是：多了一条便宜可用、合规无忧、agent 能力够看的国产 backbone。中长期意义更深——「中国厂商在 agent 这条路上能不能跟上」这个长期争论，Qwen3.7-Max 算是给了第一个像样的肯定回答。</p>
+<p>📺 <a href="https://qwen.ai/blog?id=qwen3.7">打开原文</a></p>
 <hr />
-<h3>3. 异步 Agent 时代：Cognition 与 OpenInspect 创始人对谈</h3>
+<h3>3. Forge：用 guardrails 把 8B 模型在 agentic 任务上从 53% 拉到 99%</h3>
+<p><strong>来源</strong>：Hacker News · HN</p>
+<p><em>原标题：Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</em></p>
+<p>🏷️ <code>Forge</code> · <code>Guardrails</code> · <code>8B 模型</code> · <code>agentic</code> · <code>工程层</code></p>
+<p><strong>📖 中文摘要</strong></p>
+<p>5 月 19 日 HN 上 687 票、252 评论。开发者 Antoine Zambelli 开源 Forge，给小模型装 guardrails 的 Python 框架。在公开 agentic 基准上未加 guardrails 的 8B 模型得 53%，加上 guardrails 后 99%，逼近大模型。仓库给了完整 prompt 模板、trace、失败回退策略。</p>
+<p><strong>📖 主编点评</strong></p>
+<p>这条是这周对你 Curio 项目最直接有用的一篇——8B 模型加 guardrails 后在 agentic 基准上跳到 99%，跟大模型几乎打平。仓库里把 prompt 模板、trace 例子、失败回退策略全开源了，你可以直接拆出一套放进 Curio 的评分链路。比起 Forge 项目本身更值得记的是这条经验：Agent 上限不是模型决定的，是 guardrails 决定的。这个判断如果你早三个月接受，可能项目里很多决策会重做。HN 687 票是对这个判断的集体背书。</p>
+<p>📺 <a href="https://github.com/antoinezambelli/forge">打开原文</a></p>
+<hr />
+<h3>4. 异步 Agent 时代：对话 Cognition 创始人 Walden Yan 与 OpenInspect Cole Murray</h3>
 <p><strong>来源</strong>：Latent.Space · RSS</p>
 <p><em>原标题：The Age of Async Agents — Cognition's Walden Yan &amp; OpenInspect's Cole Murray</em></p>
-<p>🏷️ <code>Async Agent</code> · <code>Cognition</code> · <code>OpenInspect</code> · <code>Agent 范式</code></p>
+<p>🏷️ <code>Cognition</code> · <code>Devin</code> · <code>Walden Yan</code> · <code>Async Agent</code> · <code>访谈</code></p>
+<p><strong>📖 中文摘要</strong></p>
+<p>5 月 28 日 Latent Space 长访谈。Cognition 创始人 Walden Yan 透露 Devin 现在 80% commit 是无人值守完成的，并讨论 spec-to-PR 工作流、完整虚拟机隔离、agent 长期记忆，以及 PM 直接出 PR 这件事。OpenInspect 的 Cole Murray 谈如何评估异步 agent 的可信度。</p>
+<details><summary>展开英文原文</summary>
+
+80% Devin Commits, Spec-to-PR Workflows, Full VMs, Agent Memory, and PMs Shipping Code
+
+</details>
+
 <p><strong>📖 主编点评</strong></p>
-<p>Latent Space 这期访谈点出关键转变：agent 从 'chat 形态'（你问我答）转向 'async job 形态'（提交任务，半天后回来交东西）。如果你在用 Claude Code 或 Devin，这一期能帮你理解为什么这些工具的工作流越来越像 GitHub PR 而不是 ChatGPT，以及对应的协作和验收方式怎么变。</p>
-<p>📺 <a href="https://www.latent.space/p/cognition-async-agents">打开原文</a></p>
+<p>你上期反馈想多看名人访谈，这期就是。Cognition 创始人 Walden Yan 透露 Devin 现在 80% 的 commit 是无人值守完成的——这个数字会让任何严肃做 agent 的人重新校准工程边界。访谈里他还讲 spec-to-PR 工作流、完整虚拟机隔离、agent 长期记忆，每个点都对你做 Curio 时正在纠结的「该信 agent 多深」这个问题有答案。配上 OpenInspect 的 Cole Murray 谈 agent 评估方法，能听到当下做异步 agent 最前沿的两套工程思路同时在说。一个多小时但密度对得起时间。</p>
+<p>📺 <a href="https://www.latent.space/p/cognition">打开原文</a></p>
 <hr />
-<h3>4. Google I/O 2026：Gemini 3.5 Flash + Omni + Spark</h3>
+<h3>5. 给 Agent 一台电脑：对话 Daytona CEO Ivan Burazin</h3>
 <p><strong>来源</strong>：Latent.Space · RSS</p>
-<p><em>原标题：[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark</em></p>
-<p>🏷️ <code>Google I/O</code> · <code>Gemini 3.5</code> · <code>Omni</code> · <code>Spark</code></p>
+<p><em>原标题：Giving Agents Computers — Ivan Burazin, Daytona</em></p>
+<p>🏷️ <code>Daytona</code> · <code>Agent Cloud</code> · <code>Sandbox</code> · <code>RL Eval</code> · <code>访谈</code></p>
+<p><strong>📖 中文摘要</strong></p>
+<p>5 月 21 日的访谈。Daytona CEO Ivan Burazin 谈他们 74% 的月环比增速、85 万次/天的 sandbox 调用、bare metal 沙箱设计、RL eval 的工程化，以及他们如何为 agent 提供专属云。这是「agent infra 经济模型」最早的几篇案例之一。</p>
+<details><summary>展开英文原文</summary>
+
+We chat with Daytona's CEO about their insane 74% MoM Growth, 850K Daily Runs, Bare Metal Sandboxes, RL Evals, and the New Agent Cloud
+
+</details>
+
 <p><strong>📖 主编点评</strong></p>
-<p>Google I/O 2026 全家桶：Gemini 3.5 Flash 主打速度+便宜，Omni 是视频版 NanoBanana（多模态生成），Spark 是面向开发者的 agent 平台。这是 Google AI 终于不再'追赶'而是'侧翼包抄'的转折点——靠基础设施、视频生成和分发渠道做差异化。</p>
-<p>📺 <a href="https://www.latent.space/p/google-io-2026">打开原文</a></p>
+<p>如果说上面 Cognition 那条是从模型侧讲 agent，这条就是从基建侧讲。Daytona 月环比增速 74%、每天 85 万次沙盒调用——这种数据你在公开访谈里很少看到。Ivan Burazin 把 agent infra 的单位经济模型讲得很清楚：bare metal 沙盒的成本结构、RL eval 怎么工程化、为什么要给 agent 专属云。如果你以后给 Curio 接更复杂的 agent 任务，迟早要面对沙盒选型的问题，这条是当前最少争议的参考案例。访谈节奏比 Cognition 那条更快、信息密度更高。</p>
+<p>📺 <a href="https://www.latent.space/p/daytona">打开原文</a></p>
 <hr />
-<h3>5. Anthropic run-rate 营收冲到 470 亿美元</h3>
-<p><strong>来源</strong>：Simon Willison's Weblog · RSS</p>
-<p><em>原标题：Anthropic's run-rate revenue hits $47 billion</em></p>
-<p>🏷️ <code>Anthropic</code> · <code>营收</code> · <code>run-rate</code> · <code>AI 商业化</code></p>
+<h3>6. 把 Claude Code 当主力工具：Claude.md / Skills / Subagents / Plugins / MCPs 实战指南</h3>
+<p><strong>来源</strong>：Hacker News · HN</p>
+<p><em>原标题：Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs</em></p>
+<p>🏷️ <code>Claude Code</code> · <code>Claude.md</code> · <code>Skills</code> · <code>Subagents</code> · <code>MCP</code></p>
+<p><strong>📖 中文摘要</strong></p>
+<p>5 月 27 日 HN 上 439 票。作者 arps18 系统总结了 Claude Code 的五大可定制层：Claude.md 项目记忆、Skills 复用工作流、Subagents 子代理编排、Plugins 工具扩展、MCP 接外部数据源。每个层都给了真实配置示例与失败教训。</p>
 <p><strong>📖 主编点评</strong></p>
-<p>Simon Willison 单独把 Anthropic 'run-rate revenue 47B' 这条拎出来分析。run-rate 是按上月营收×12 算的年化估算，不是已落账的钱。但即便如此，从去年 12 月 9B 到现在 47B 是真实曲线。这是看 AI 商业化速度最直接的一个数字，比 token 用量、API 调用次数都更说明问题。</p>
-<p>📺 <a href="https://simonwillison.net/2026/May/29/anthropic/">打开原文</a></p>
+<p>这条几乎像是为你 Curio 项目量身写的。作者把 Claude Code 五个可定制层（Claude.md / Skills / Subagents / Plugins / MCP）拆开讲，每一个都给真实配置例子和踩过的坑。HN 439 票说明圈子里愿意付出注意力。读完最实际的收获：你会重新审视自己 Curio 现在的 prompt 层结构——之前可能把工作流压在一个层里，看完会想拆成多层。这种工程类深度文章比官方文档好用十倍，因为它讲的是「文档没说但你必须知道」的部分。</p>
+<p>📺 <a href="https://arps18.github.io/posts/claude-code-mastery/">打开原文</a></p>
 <hr />
-<h2>📑 参考阅读（5 条）</h2>
-<p><strong>1. [AINews] All Model Labs are now Agent Labs</strong>　<em>RSS</em>
-- OpenAI/Anthropic/Google 全部转向 agent 产品而不是模型本身。
-- <a href="https://www.latent.space/p/agent-labs">打开</a></p>
-<p><strong>2. New AI Infra decacorns: Fireworks, Baseten (with OpenRouter on the way)</strong>　<em>RSS</em>
-- AI 基础设施层新一波 100 亿美金估值公司。</p>
-<p><strong>3. [AINews] OpenAI GPT-next disproves 80 year old Erdős planar unit distance problem</strong>　<em>RSS</em>
-- OpenAI 新模型证伪 80 年老数学猜想，AI 推理在数学上的里程碑。</p>
-<p><strong>4. Railway: The Agent-Native Cloud — Jake Cooper</strong>　<em>RSS</em>
-- Railway 重新定位为 'agent native 云'，反映基础设施层的语言切换。</p>
-<p><strong>5. 🔬ESM: The Bitter Lesson is Coming for Proteins - Alex Rives</strong>　<em>RSS</em>
-- 蛋白质设计领域也开始服从 'bitter lesson'：scale 战胜 inductive bias。</p>
+<h3>7. AI Coding 进阶：从 Vibe / Plan / Spec 到 Harness Engineering 与 Agent Teams</h3>
+<p><strong>来源</strong>：Qoder · B站</p>
+<p><em>原标题：AI Coding 进阶：从 Vibe/Plan/Spec 到 Harness Engineering 与 Agent Teams</em></p>
+<p>🏷️ <code>Vibe Coding</code> · <code>Plan</code> · <code>Spec</code> · <code>Harness</code> · <code>Agent Teams</code></p>
+<p><strong>📖 中文摘要</strong></p>
+<p>Qoder 4 月 2 日发布，时长 50 分钟，5.9 万播放。视频系统梳理 AI Coding 的演进路径：从早期 Vibe Coding（凭感觉提示）到 Plan / Spec（先规划后执行），再到 Harness Engineering（围绕模型搭工程脚手架）和 Agent Teams（多 Agent 协作）。给出了每一阶段的代表工具、典型配置与失败模式。</p>
+<p><strong>📖 主编点评</strong></p>
+<p>B 站这次几乎全是「保姆级」「无限续杯」「胎教级」标题党，能挑出来的只有 Qoder 这条 50 分钟。视频把 AI Coding 的演进路径分成四个阶段：Vibe（凭感觉提示）→ Plan / Spec（先规划后执行）→ Harness Engineering（围绕模型搭工程脚手架）→ Agent Teams（多 Agent 协作）。每个阶段的代表工具和典型失败模式都讲到位了。对你 Curio 项目的意义在于：你能定位自己现在在哪一阶段、下一步要做什么。比 B 站那些一小时教 Claude Code 安装的视频高几个量级。</p>
+<p>📺 <a href="http://www.bilibili.com/video/av116334289491216">打开原文</a></p>
+<hr />
+<h2>📑 参考阅读（6 条）</h2>
+<p><strong>1. Anthropic 官方解读：如何在各产品中沙盒化 Claude</strong>　<em>Simon Willison's Weblog · RSS</em>
+<em>原标题：How we contain Claude across products</em>
+🏷️ <code>Anthropic</code> · <code>Sandbox</code> · <code>containment</code> · <code>安全</code>
+- 如果你打算给 Curio 接入更多 agent 能力，Anthropic 这套沙盒文档是少有的官方公开版。
+- <a href="https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything">打开</a></p>
+<p><strong>2. Microsoft 开始取消 Claude Code 企业 license</strong>　<em>Hacker News · HN</em>
+<em>原标题：Microsoft starts canceling Claude Code licenses</em>
+🏷️ <code>Microsoft</code> · <code>Claude Code</code> · <code>企业市场</code> · <code>竞争</code>
+- 热度高，但内容偏新闻短讯，深度不足。对你判断 Anthropic 企业市场天花板有一定信号。
+- <a href="https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad">打开</a></p>
+<p><strong>3. 读完源码：Claude Code 文档没写的那些可配置项</strong>　<em>Hacker News · HN</em>
+<em>原标题：Claude Code – Everything you can configure that the docs don't tell you</em>
+🏷️ <code>Claude Code</code> · <code>源码</code> · <code>配置</code> · <code>环境变量</code>
+- 对你做 Curio 自动化时，知道 Claude Code 的隐藏 flag 直接省半天踩坑时间。
+- <a href="https://buildingbetter.tech/p/i-read-the-claude-code-source-code">打开</a></p>
+<p><strong>4. Claude Code Dynamic Workflows 官方介绍</strong>　<em>Hacker News · HN</em>
+<em>原标题：Dynamic Workflows in Claude Code</em>
+🏷️ <code>Claude Code</code> · <code>Dynamic Workflows</code> · <code>Anthropic</code>
+- 官方一手资料，Latent Space 那条已经覆盖了主要内容，这条作为补充。
+- <a href="https://claude.com/blog/introducing-dynamic-workflows-in-claude-code">打开</a></p>
+<p><strong>5. Pinterest 如何在生产环境搭建 MCP 生态</strong>　<em>ByteByteGo Newsletter · RSS</em>
+<em>原标题：How Pinterest Built a Production MCP Ecosystem</em>
+🏷️ <code>Pinterest</code> · <code>MCP</code> · <code>生产环境</code> · <code>工程实践</code>
+- MCP 在你兴趣清单里。Pinterest 这种规模的 MCP 生产实践少见，工程细节扎实。
+- <a href="https://blog.bytebytego.com/p/how-pinterest-built-a-production">打开</a></p>
+<p><strong>6. Tell HN：我受够了 AI 生成的回答</strong>　<em>Hacker News · HN</em>
+<em>原标题：Tell HN: I'm tired of AI-generated answers</em>
+🏷️ <code>AI 内容</code> · <code>信息污染</code> · <code>社区讨论</code>
+- 虽然你说不爱看玄学论调，但这条是 AI 内容反向价值的少数硬讨论。对你做信息策展项目反向有用——什么样的内容是 AI 不能替代的。
+- <a href="https://news.ycombinator.com/item?id=48230104">打开</a></p>
+<hr />
+<h2>⏭ 跳过（170 条）</h2>
+<p><em>展示前 5 条跳过理由</em></p>
+<ul>
+<li><strong>[AINews] Cognition raises $1B in $26B Series D</strong>　<em>Cognition 融资新闻，深度访谈版（Walden Yan）已进必读，重复</em></li>
+<li><strong>Claude Opus 4.8: "a modest but tangible improvement"</strong>　<em>Opus 4.8 已被 Latent Space 那条 Anthropic 总文覆盖</em></li>
+<li><strong>Anthropic's run-rate revenue hits $47 billion</strong>　<em>run-rate revenue 已被 Latent Space 总文覆盖</em></li>
+<li><strong>[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni, Spark, Antigravity 2.0</strong>　<em>Google I/O 综述，金融领域那篇 Stratechery 已经覆盖了产品凌乱与 DeepMind 错位的关键信号；技术细节本身散在各产品博客</em></li>
+<li><strong>Vibe coding and agentic engineering are getting closer than I'd like</strong>　<em>Simon Willison 5 月 6 日旧文，787 票但已超过 14 天窗口</em></li>
+</ul>
+<details><summary>展开剩余 5 条</summary>
+
+- **Cursor Introduces Composer 2.5**　_Cursor 新模型，Anthropic / Qwen 那两条已经把模型层信号占满，Cursor 这条作为参考重要性下降_
+- **Show HN: Semble – Code search for agents**　_445 票，但单一工具发布，对你工程意义不如 Forge 那条_
+- **【Claude Code】这绝对是b站讲的最好的Claude Code教程**　_标题党 + 「保姆级」 + 「少走99%弯路」，正是你 dislikes 里的那种类型_
+- **9分钟搞定！Claude Code 保姆级安装**　_保姆级安装类视频，密度低_
+- **【5.28最新发布】claude桌面版安装教程**　_「求三连」刷屏简介 + 一周入门类，标题党_
+
+</details>
+
 <hr />
 <hr />
-<p><em>Curio · 2026-05-31 · 日报</em></p>
+<p><em>Curio · 2026-05-31 · 周刊</em></p>
 </div>
 
     <div class="feedback" data-issue-id="ai/2026-05-31">
@@ -212,6 +299,6 @@ window.CURIO_REL_ROOT = "../../";
 window.CURIO_API_BASE = "https://api.curioradar.fun";
 window.CURIO_GH_REPO = "zczxd1118/curio-app";
 </script>
-<script src="../../app.js?v=20260531213811"></script>
+<script src="../../app.js?v=20260531214745"></script>
 </body>
 </html>

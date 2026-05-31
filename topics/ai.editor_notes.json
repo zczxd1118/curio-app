@@ -1,37 +1,42 @@
 {
-  "domain": "AI",
+  "domain": "ai",
   "slug": "ai",
   "generated_at": "2026-05-31",
   "notes": [
     {
-      "id": "rss:anthropic-965b",
-      "title": "Anthropic 965B Series H + Opus 4.8",
-      "note": "Anthropic 完成 H 轮 965 亿美元融资，同时发布 Opus 4.8 和 Dynamic Workflows（让 Claude Code 能编排长链路任务）。run-rate 从去年 12 月 9B 飙到现在 47B 美元，是 SaaS 史上最快增长曲线。如果你在选型 AI 编程工具，Claude Code 的资本和产品双护城河已经成型，Cursor 和 Copilot 的窗口期可能比预期更短。"
+      "id": "rss:https://www.latent.space/p/ainews-anthropic-raises-965b-series",
+      "title": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode",
+      "note": "本周英文圈头号事件被 Latent Space 用一篇文章串完了：H 轮 965 亿融资、Opus 4.8、Dynamic Workflows、ultracode 几乎同时落地。比起一般新闻稿，这篇值得你读的地方在于它把「钱、模型、产品线」三件事的逻辑连成一条线——估值跳到 1.2 万亿不是因为 Opus 4.8 多强，而是因为 Anthropic 用 Dynamic Workflows 把 Claude Code 从「智能助理」推进到「可观测可复跑的工作流引擎」，这是企业市场认账的真东西。看完你做 Curio 自动化时也能直接借这套思路重构 prompt 层。"
     },
     {
-      "id": "rss:cognition-1b",
-      "title": "Cognition raises $1B in $26B Series D",
-      "note": "Devin 母公司 Cognition 拿下 10 亿美元 D 轮，估值 260 亿。从一年前被嘲笑'demo 造假'到现在估值赶超大多数独角兽，关键是 Devin 真的开始在企业里跑量了。这条对你判断 'agent 替代部分编码工作' 的时间线有指导意义——不是 5 年后，是现在已经开始。"
+      "id": "hn:48205626",
+      "title": "Qwen3.7-Max: The Agent Frontier",
+      "note": "Qwen 这次发新版的姿势变了——不再吹「最便宜的开源大模型」，而是直接喊 agent 前沿。模型卡里 SWE-Bench、agentic eval 都是公开数字，长任务、工具使用这些指标向 Claude Sonnet 那条线靠。HN 721 票说明圈子认账。对你做 Agent 项目的直接意义是：多了一条便宜可用、合规无忧、agent 能力够看的国产 backbone。中长期意义更深——「中国厂商在 agent 这条路上能不能跟上」这个长期争论，Qwen3.7-Max 算是给了第一个像样的肯定回答。"
     },
     {
-      "id": "rss:async-agents",
-      "title": "The Age of Async Agents",
-      "note": "Latent Space 这期访谈点出关键转变：agent 从 'chat 形态'（你问我答）转向 'async job 形态'（提交任务，半天后回来交东西）。如果你在用 Claude Code 或 Devin，这一期能帮你理解为什么这些工具的工作流越来越像 GitHub PR 而不是 ChatGPT，以及对应的协作和验收方式怎么变。"
+      "id": "hn:48192383",
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "note": "这条是这周对你 Curio 项目最直接有用的一篇——8B 模型加 guardrails 后在 agentic 基准上跳到 99%，跟大模型几乎打平。仓库里把 prompt 模板、trace 例子、失败回退策略全开源了，你可以直接拆出一套放进 Curio 的评分链路。比起 Forge 项目本身更值得记的是这条经验：Agent 上限不是模型决定的，是 guardrails 决定的。这个判断如果你早三个月接受，可能项目里很多决策会重做。HN 687 票是对这个判断的集体背书。"
     },
     {
-      "id": "rss:google-io-2026",
-      "title": "Google I/O 2026: Gemini 3.5 Flash + Omni + Spark",
-      "note": "Google I/O 2026 全家桶：Gemini 3.5 Flash 主打速度+便宜，Omni 是视频版 NanoBanana（多模态生成），Spark 是面向开发者的 agent 平台。这是 Google AI 终于不再'追赶'而是'侧翼包抄'的转折点——靠基础设施、视频生成和分发渠道做差异化。"
+      "id": "rss:https://www.latent.space/p/cognition",
+      "title": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
+      "note": "你上期反馈想多看名人访谈，这期就是。Cognition 创始人 Walden Yan 透露 Devin 现在 80% 的 commit 是无人值守完成的——这个数字会让任何严肃做 agent 的人重新校准工程边界。访谈里他还讲 spec-to-PR 工作流、完整虚拟机隔离、agent 长期记忆，每个点都对你做 Curio 时正在纠结的「该信 agent 多深」这个问题有答案。配上 OpenInspect 的 Cole Murray 谈 agent 评估方法，能听到当下做异步 agent 最前沿的两套工程思路同时在说。一个多小时但密度对得起时间。"
     },
     {
-      "id": "rss:simon-anthropic",
-      "title": "Anthropic run-rate hits $47B",
-      "note": "Simon Willison 单独把 Anthropic 'run-rate revenue 47B' 这条拎出来分析。run-rate 是按上月营收×12 算的年化估算，不是已落账的钱。但即便如此，从去年 12 月 9B 到现在 47B 是真实曲线。这是看 AI 商业化速度最直接的一个数字，比 token 用量、API 调用次数都更说明问题。"
+      "id": "rss:https://www.latent.space/p/daytona",
+      "title": "Giving Agents Computers — Ivan Burazin, Daytona",
+      "note": "如果说上面 Cognition 那条是从模型侧讲 agent，这条就是从基建侧讲。Daytona 月环比增速 74%、每天 85 万次沙盒调用——这种数据你在公开访谈里很少看到。Ivan Burazin 把 agent infra 的单位经济模型讲得很清楚：bare metal 沙盒的成本结构、RL eval 怎么工程化、为什么要给 agent 专属云。如果你以后给 Curio 接更复杂的 agent 任务，迟早要面对沙盒选型的问题，这条是当前最少争议的参考案例。访谈节奏比 Cognition 那条更快、信息密度更高。"
     },
     {
-      "id": "rss:cerebras-ipo",
-      "title": "Cerebras $60B IPO",
-      "note": "Cerebras 是做 wafer-scale AI 芯片的创业公司（一整片晶圆当一个芯片），现在启动 600 亿美元 IPO。'Slowly, then All at Once' 标题来自《太阳照常升起》，意思是憋了好几年终于一次性全爆。这条对持有 NVDA 或关注 AI 算力供应链的人是关键信号：训练侧的非 Nvidia 选择正在快速成熟。"
+      "id": "hn:48289950",
+      "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
+      "note": "这条几乎像是为你 Curio 项目量身写的。作者把 Claude Code 五个可定制层（Claude.md / Skills / Subagents / Plugins / MCP）拆开讲，每一个都给真实配置例子和踩过的坑。HN 439 票说明圈子里愿意付出注意力。读完最实际的收获：你会重新审视自己 Curio 现在的 prompt 层结构——之前可能把工作流压在一个层里，看完会想拆成多层。这种工程类深度文章比官方文档好用十倍，因为它讲的是「文档没说但你必须知道」的部分。"
+    },
+    {
+      "id": "bvid:BV1MJXZBgE32",
+      "title": "AI Coding 进阶：从 Vibe/Plan/Spec 到 Harness Engineering 与 Agent Teams",
+      "note": "B 站这次几乎全是「保姆级」「无限续杯」「胎教级」标题党，能挑出来的只有 Qoder 这条 50 分钟。视频把 AI Coding 的演进路径分成四个阶段：Vibe（凭感觉提示）→ Plan / Spec（先规划后执行）→ Harness Engineering（围绕模型搭工程脚手架）→ Agent Teams（多 Agent 协作）。每个阶段的代表工具和典型失败模式都讲到位了。对你 Curio 项目的意义在于：你能定位自己现在在哪一阶段、下一步要做什么。比 B 站那些一小时教 Claude Code 安装的视频高几个量级。"
     }
   ]
 }

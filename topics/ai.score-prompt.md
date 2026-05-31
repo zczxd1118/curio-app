@@ -704,6 +704,406 @@
     "feed": "Simon Willison's Weblog"
   },
   {
+    "id": "rss:https://newsletter.eng-leadership.com/p/ai-native-engineering-leadership",
+    "platform": "rss",
+    "title": "AI-Native Engineering Leadership",
+    "url": "https://newsletter.eng-leadership.com/p/ai-native-engineering-leadership",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-05-28T07:42:51+00:00",
+    "summary": "Important trends and how to become a great engineering leader in 2026 and beyond.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/updated-speaker-lineup-engineering",
+    "platform": "rss",
+    "title": "Engineering Leadership LIVE Event in San Francisco",
+    "url": "https://newsletter.eng-leadership.com/p/updated-speaker-lineup-engineering",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-05-25T18:35:56+00:00",
+    "summary": "Updated speaker lineup for the Engineering Leadership Live event in San Francisco, that I am hosting together with my friends from Augment Code.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/how-to-use-critical-chain-methodology",
+    "platform": "rss",
+    "title": "How to Finish Engineering Projects Early Without Added Stress",
+    "url": "https://newsletter.eng-leadership.com/p/how-to-use-critical-chain-methodology",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-05-24T16:46:14+00:00",
+    "summary": "A real-world case study on using the critical chain methodology to finish projects early without added stress.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/full-speaker-lineup-engineering-leadership",
+    "platform": "rss",
+    "title": "Full Speaker Lineup: Engineering Leadership LIVE Event in San Francisco",
+    "url": "https://newsletter.eng-leadership.com/p/full-speaker-lineup-engineering-leadership",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-05-21T20:30:59+00:00",
+    "summary": "Full speaker lineup for the Engineering Leadership Live event in San Francisco, that I am hosting together with my friends from Augment Code.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/how-to-build-narrative-around-your",
+    "platform": "rss",
+    "title": "How to Build a Narrative Around Your Work",
+    "url": "https://newsletter.eng-leadership.com/p/how-to-build-narrative-around-your",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-05-21T06:42:34+00:00",
+    "summary": "The highest-impact people are not only great operators but also strong storytellers. This is how to build a story around your work!",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/how-to-avoid-ai-code-slop",
+    "platform": "rss",
+    "title": "How to Avoid AI Code Slop",
+    "url": "https://newsletter.eng-leadership.com/p/how-to-avoid-ai-code-slop",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-05-17T16:50:06+00:00",
+    "summary": "AI can generate code faster than ever, but it can also scale technical debt faster than ever! Learn the practical strategies to optimize the AI-generated output.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/how-to-manage-your-time-as-a-first",
+    "platform": "rss",
+    "title": "How to Manage Your Time as a First-Time Lead",
+    "url": "https://newsletter.eng-leadership.com/p/how-to-manage-your-time-as-a-first",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-05-14T09:30:57+00:00",
+    "summary": "Practical strategies to protect your time, avoid burnout, and lead your team effectively.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/how-to-use-ai-to-onboard-into-a-codebase",
+    "platform": "rss",
+    "title": "How to Use AI to Onboard Into a Codebase Faster",
+    "url": "https://newsletter.eng-leadership.com/p/how-to-use-ai-to-onboard-into-a-codebase",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-05-10T14:51:16+00:00",
+    "summary": "4 onboarding steps to speed up your understanding of a codebase and get you up and running in a few hours!",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/companies-should-allow-ai-usage-in",
+    "platform": "rss",
+    "title": "Removing AI in Tech Interviews is Wrong",
+    "url": "https://newsletter.eng-leadership.com/p/companies-should-allow-ai-usage-in",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-05-07T10:06:16+00:00",
+    "summary": "AI-assisted engineering is already the standard, and technical interviews should reflect how modern software is actually built.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/engineering-leadership-live-event",
+    "platform": "rss",
+    "title": "Engineering Leadership LIVE Event in San Francisco",
+    "url": "https://newsletter.eng-leadership.com/p/engineering-leadership-live-event",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-05-04T15:58:47+00:00",
+    "summary": "Together with my friends from Augment Code, we are hosting a live event in San Francisco on May 26th!",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/how-to-thrive-as-an-em-in-the-ai",
+    "platform": "rss",
+    "title": "How to Thrive as an EM in the AI Era",
+    "url": "https://newsletter.eng-leadership.com/p/how-to-thrive-as-an-em-in-the-ai",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-05-03T17:24:14+00:00",
+    "summary": "Case study from The Multiplier Mindset: How to Move from Senior Engineer to Tech Leader in the AI Era",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/should-you-become-a-forward-deployed",
+    "platform": "rss",
+    "title": "Should You Become a Forward Deployed Engineer?",
+    "url": "https://newsletter.eng-leadership.com/p/should-you-become-a-forward-deployed",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-04-30T10:35:06+00:00",
+    "summary": "What do FDEs at Salesforce, OpenAI, and Palantir really do, and should you become one?",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/salesforce-is-going-all-in-on-ai",
+    "platform": "rss",
+    "title": "3 Key AI Trends and How Salesforce Engineers use AI",
+    "url": "https://newsletter.eng-leadership.com/p/salesforce-is-going-all-in-on-ai",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-04-27T10:12:14+00:00",
+    "summary": "Recap from the Salesforce TDX 2026: AI Agents, 3 key AI trends and how engineers use AI.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/the-differences-between-us-and-eu",
+    "platform": "rss",
+    "title": "The Differences Between US and EU Tech Companies",
+    "url": "https://newsletter.eng-leadership.com/p/the-differences-between-us-and-eu",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-04-23T07:49:48+00:00",
+    "summary": "One optimizes for speed and innovation, and the other optimizes for stability and sustainability. Which is the way to go?",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/how-an-ai-native-startup-from-sf",
+    "platform": "rss",
+    "title": "How an AI-Native Startup From SF Works and Builds Its Product",
+    "url": "https://newsletter.eng-leadership.com/p/how-an-ai-native-startup-from-sf",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-04-20T01:21:54+00:00",
+    "summary": "An insider's look into the workflows, tools, and culture powering a modern AI-first engineering team.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/become-a-great-generalist-or-extreme",
+    "platform": "rss",
+    "title": "Become a Great Generalist or Extreme Specialist",
+    "url": "https://newsletter.eng-leadership.com/p/become-a-great-generalist-or-extreme",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-04-16T09:09:40+00:00",
+    "summary": "Should you become a great generalist or an extreme specialist? One thing is clear: staying in the middle will result in fewer opportunities.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/code-review-is-the-new-bottleneck",
+    "platform": "rss",
+    "title": "Code Review is the New Bottleneck For Engineering Teams",
+    "url": "https://newsletter.eng-leadership.com/p/code-review-is-the-new-bottleneck",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-04-13T04:09:59+00:00",
+    "summary": "Building is now limited to how fast we are able to review the newly generated code. This is what to do in order to make it less of a bottleneck.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/meta-created-an-internal-leaderboard",
+    "platform": "rss",
+    "title": "Meta Created an Internal Leaderboard on AI Token Usage",
+    "url": "https://newsletter.eng-leadership.com/p/meta-created-an-internal-leaderboard",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-04-09T04:22:14+00:00",
+    "summary": "This seems to be a part of the broader trend in Silicon Valley called \"tokenmaxxing\". Here's what's happening.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/how-to-use-openclaw-as-an-engineering",
+    "platform": "rss",
+    "title": "How to Use OpenClaw as an Engineering Leader",
+    "url": "https://newsletter.eng-leadership.com/p/how-to-use-openclaw-as-an-engineering",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-04-05T22:36:25+00:00",
+    "summary": "I recently tried OpenClaw and did 3 test projects. This is how you can get started with it and how it can help you!",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://newsletter.eng-leadership.com/p/would-i-still-go-the-engineering",
+    "platform": "rss",
+    "title": "Would I Still Go The Engineering Manager Route in 2026?",
+    "url": "https://newsletter.eng-leadership.com/p/would-i-still-go-the-engineering",
+    "source": "Gregor Ojstersek",
+    "published_at": "2026-04-02T03:52:08+00:00",
+    "summary": "Engineering management has changed. Here are my thoughts if I were a senior software engineer again, thinking of my next step.",
+    "feed": "Engineering Leadership"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/how-doordash-built-a-testing-system",
+    "platform": "rss",
+    "title": "How DoorDash Built a Testing System to Evaluate LLMs",
+    "url": "https://blog.bytebytego.com/p/how-doordash-built-a-testing-system",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-30T15:30:52+00:00",
+    "summary": "In this article, we will learn how they built this flywheel and the key takeaways.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/must-know-failure-modes-in-distributed",
+    "platform": "rss",
+    "title": "Must-Know Failure Modes in Distributed Systems",
+    "url": "https://blog.bytebytego.com/p/must-know-failure-modes-in-distributed",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-28T16:31:00+00:00",
+    "summary": "In this article, we will look at the most significant failure mode patterns in distributed systems and the standard approaches to deal with each of them.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/how-airtable-built-the-search-layer",
+    "platform": "rss",
+    "title": "How Airtable Built the Search Layer Behind Their AI Features",
+    "url": "https://blog.bytebytego.com/p/how-airtable-built-the-search-layer",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-27T15:30:43+00:00",
+    "summary": "In this article, we will look at how Airtable&#8217;s data infrastructure team built its architecture, the challenges they faced, the tradeoffs they accepted, and why the choices they made only make sense once their data is properly understood.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/how-vercel-cut-build-wait-times-from",
+    "platform": "rss",
+    "title": "How Vercel Cut Build Wait Times From 90 Seconds To 5",
+    "url": "https://blog.bytebytego.com/p/how-vercel-cut-build-wait-times-from",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-26T15:31:10+00:00",
+    "summary": "In this article, we examine the constraints Vercel faced, the choices they made in response, and the optimizations that produced the speedup.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/how-cockroachdb-built-vector-indexing",
+    "platform": "rss",
+    "title": "How CockroachDB Built Vector Indexing at Scale",
+    "url": "https://blog.bytebytego.com/p/how-cockroachdb-built-vector-indexing",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-25T15:30:38+00:00",
+    "summary": "In this article, we will look at how the CockroachDB engineering team built this index and the challenges they faced.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/ep216-rags-vs-agents",
+    "platform": "rss",
+    "title": "EP216: RAGs vs Agents",
+    "url": "https://blog.bytebytego.com/p/ep216-rags-vs-agents",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-23T15:31:18+00:00",
+    "summary": "Ask an LLM about your company's data and it will guess. The two patterns that fix this are RAG and agents, and they solve different problems.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/build-with-claude-code-new-cohort",
+    "platform": "rss",
+    "title": "Build with Claude Code: New Cohort Launch",
+    "url": "https://blog.bytebytego.com/p/build-with-claude-code-new-cohort",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-22T15:31:20+00:00",
+    "summary": "The first cohort starts in about a week: May 28-29, 2026.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/a-guide-to-async-patterns-in-api",
+    "platform": "rss",
+    "title": "A Guide to Async Patterns in API Design",
+    "url": "https://blog.bytebytego.com/p/a-guide-to-async-patterns-in-api",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-21T15:30:24+00:00",
+    "summary": "In this article, we will look at each of these patterns in detail, along with their advantages.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/how-netflix-is-using-multimodal-ai",
+    "platform": "rss",
+    "title": "How Netflix is Using Multimodal AI to Power Video Search",
+    "url": "https://blog.bytebytego.com/p/how-netflix-is-using-multimodal-ai",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-20T15:31:07+00:00",
+    "summary": "In this article, we will understand how Netflix built this system and the challenges it faced.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/how-snapchat-serves-a-billion-predictions",
+    "platform": "rss",
+    "title": "How Snapchat Serves a Billion Predictions Per Second",
+    "url": "https://blog.bytebytego.com/p/how-snapchat-serves-a-billion-predictions",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-19T15:31:28+00:00",
+    "summary": "For Snap, machine learning is closer to the product itself than a feature on top of it.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/how-grab-is-using-ai-agents-to-boost",
+    "platform": "rss",
+    "title": "How Grab is Using AI Agents to Boost Team Productivity",
+    "url": "https://blog.bytebytego.com/p/how-grab-is-using-ai-agents-to-boost",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-18T15:31:16+00:00",
+    "summary": "Grab&#8217;s data engineering team had a problem that looks familiar to anyone who&#8217;s maintained shared infrastructure.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/ep215-the-anatomy-of-an-ai-agent",
+    "platform": "rss",
+    "title": "EP215: The Anatomy of an AI Agent",
+    "url": "https://blog.bytebytego.com/p/ep215-the-anatomy-of-an-ai-agent",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-16T15:31:01+00:00",
+    "summary": "An AI agent can be thought of as a simple While-loop.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/last-call-for-enrollment-become-an-a88",
+    "platform": "rss",
+    "title": "LAST CALL FOR ENROLLMENT: Become an AI Engineer - Cohort 6",
+    "url": "https://blog.bytebytego.com/p/last-call-for-enrollment-become-an-a88",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-15T15:02:20+00:00",
+    "summary": "Our 6th cohort of Becoming an AI Engineer starts tomorrow, Saturday, May 16. This is a live, cohort-based course created in collaboration with best-selling author Ali Aminian and published by ByteByteGo.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/a-guide-to-event-driven-architectural",
+    "platform": "rss",
+    "title": "A Guide To Event-Driven Architectural Patterns",
+    "url": "https://blog.bytebytego.com/p/a-guide-to-event-driven-architectural",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-14T15:32:28+00:00",
+    "summary": "Distributed systems are built out of services that need to communicate, and the simplest way to do that is for one service to call another directly and wait for a response.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/high-performance-rate-limiting-at",
+    "platform": "rss",
+    "title": "High Performance Rate Limiting at Databricks",
+    "url": "https://blog.bytebytego.com/p/high-performance-rate-limiting-at",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-13T15:30:35+00:00",
+    "summary": "In this article, we look at how Databricks implemented rate limiting at scale, how they shrank the critical path, and the accuracy tradeoff that shrinking usually requires.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/how-figma-upgraded-data-pipeline",
+    "platform": "rss",
+    "title": "How Figma Upgraded Data Pipeline from Multi-Day Latency to Real-Time",
+    "url": "https://blog.bytebytego.com/p/how-figma-upgraded-data-pipeline",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-12T15:31:03+00:00",
+    "summary": "In this article, we will learn what happened as Figma grew and how its engineering team handled the growth in terms of the data pipeline issues.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/how-pinterest-built-a-production",
+    "platform": "rss",
+    "title": "How Pinterest Built a Production MCP Ecosystem",
+    "url": "https://blog.bytebytego.com/p/how-pinterest-built-a-production",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-11T15:31:17+00:00",
+    "summary": "In this article, we look at how Pinterest designed that ecosystem and what they had to get right beyond the protocol itself.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/ep214-claude-code-vs-openclaw-5-design",
+    "platform": "rss",
+    "title": "EP214: Claude Code vs. OpenClaw: 5 Design Dimensions",
+    "url": "https://blog.bytebytego.com/p/ep214-claude-code-vs-openclaw-5-design",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-09T15:31:10+00:00",
+    "summary": "Both are highly capable, but they have key architectural differences.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/enrollment-ends-soon-become-an-ai",
+    "platform": "rss",
+    "title": "Become an AI Engineer | Enrollment Ends Soon",
+    "url": "https://blog.bytebytego.com/p/enrollment-ends-soon-become-an-ai",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-08T15:31:40+00:00",
+    "summary": "Our 6th cohort of Becoming an AI Engineer starts in about a week.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
+    "id": "rss:https://blog.bytebytego.com/p/container-design-patterns-for-distributed",
+    "platform": "rss",
+    "title": "Container Design Patterns for Distributed Systems",
+    "url": "https://blog.bytebytego.com/p/container-design-patterns-for-distributed",
+    "source": "ByteByteGo",
+    "published_at": "2026-05-07T15:31:08+00:00",
+    "summary": "In this article, we&#8217;ll walk through the patterns that have crystallized over the past decade, organized by the scope of their coordination.",
+    "feed": "ByteByteGo Newsletter"
+  },
+  {
     "id": "hn:48238896",
     "platform": "hackernews",
     "title": "Microsoft starts canceling Claude Code licenses",
@@ -712,7 +1112,7 @@
     "published_at": "2026-05-22T17:32:04+00:00",
     "summary": "",
     "points": 492,
-    "comments": 465
+    "comments": 466
   },
   {
     "id": "hn:48289950",
@@ -744,7 +1144,7 @@
     "source": "mil22",
     "published_at": "2026-05-28T16:52:21+00:00",
     "summary": "",
-    "points": 187,
+    "points": 189,
     "comments": 131
   },
   {
@@ -778,7 +1178,7 @@
     "published_at": "2026-05-29T13:37:38+00:00",
     "summary": "",
     "points": 72,
-    "comments": 61
+    "comments": 63
   },
   {
     "id": "hn:48221805",
@@ -866,7 +1266,7 @@
     "published_at": "2026-05-29T15:57:37+00:00",
     "summary": "",
     "points": 83,
-    "comments": 64
+    "comments": 67
   },
   {
     "id": "hn:48319968",
@@ -876,7 +1276,7 @@
     "source": "joozio",
     "published_at": "2026-05-29T07:05:31+00:00",
     "summary": "",
-    "points": 58,
+    "points": 61,
     "comments": 1
   },
   {
@@ -909,7 +1309,7 @@
     "source": "adisingh13",
     "published_at": "2026-05-21T16:42:34+00:00",
     "summary": "",
-    "points": 98,
+    "points": 99,
     "comments": 108
   },
   {
@@ -975,7 +1375,7 @@
     "source": "gustrigos",
     "published_at": "2026-05-21T16:07:13+00:00",
     "summary": "",
-    "points": 102,
+    "points": 103,
     "comments": 30
   },
   {
@@ -986,7 +1386,7 @@
     "source": "ammar_x",
     "published_at": "2026-05-26T19:40:59+00:00",
     "summary": "",
-    "points": 62,
+    "points": 64,
     "comments": 20
   },
   {
@@ -1008,7 +1408,7 @@
     "source": "jhevans",
     "published_at": "2026-05-30T12:53:07+00:00",
     "summary": "",
-    "points": 42,
+    "points": 43,
     "comments": 69
   },
   {
@@ -1075,77 +1475,7 @@
     "published_at": "2026-05-12T06:24:19+00:00",
     "summary": "如果视频对你有用的话请 一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！\n【视频配套籽料+问题解答请看”平论区置顶”自取哦】",
     "duration_sec": 27045,
-    "views": 153504,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1KjoxBoEQJ",
-    "platform": "bilibili",
-    "title": "9分钟搞定！Claude Code 保姆级安装+原理+真实用法（国内直连）",
-    "url": "http://www.bilibili.com/video/av116447535765612",
-    "source": "人工大黑",
-    "published_at": "2026-04-22T09:02:25+00:00",
-    "summary": "本期视频因为白菜要毕业了，up伤心过度导致了拖更（）",
-    "duration_sec": 7370,
-    "views": 837350,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1ia9UBPESQ",
-    "platform": "bilibili",
-    "title": "在VScode中使用Claude Code agent并配置DeepSeek v4 model【闲谈】",
-    "url": "http://www.bilibili.com/video/av116487012549813",
-    "source": "沉默的羔丸voov",
-    "published_at": "2026-04-29T08:23:29+00:00",
-    "summary": "setting.json添加：\n{ &quot;name&quot;: &quot;ANTHROPIC_BASE_URL&quot;, &quot;value&quot;: &quot;https://xxxx&quot; }, \n{ &quot;name&quot;: &quot;ANTHROPIC_AUTH_TOKEN&quot;, &quot;value&quot;: &quot;xxxx&quot; }\n\ndeepseek:\nwww.deepseek.com\nhttps://api-docs.deepseek.com/zh-cn/quick_start/pricing\n\ngithub ",
-    "duration_sec": 1877,
-    "views": 187789,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV143wwz6E8F",
-    "platform": "bilibili",
-    "title": "Claude code科研使用展示与思路分享（提速就靠Ai）",
-    "url": "http://www.bilibili.com/video/av116211882920985",
-    "source": "科研推土机",
-    "published_at": "2026-03-11T18:12:00+00:00",
-    "summary": "本期给大家带来的是Claude在Vscode的科研应用演示与我最近的一些心得使用心得，科研速度嘎嘎提升。论文复现画图、数据分析就靠Claude code。这个课程也是科研推土机「系统管理文献课程2.0」学员催我更新的内容，希望能帮助到大家～，这个视频重点讲两个事情：\n1️⃣ 资料获取，free不用怀疑，我是良心可言博主，，关注我(GZTSHNR)～\n2️⃣ 展示如何在VS code实操应用claude code进行数据分析，进行科研\n🌼全网同号（科研推土机）",
-    "duration_sec": 1450,
-    "views": 61739,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1kX546QEjG",
-    "platform": "bilibili",
-    "title": "保姆级Claude Code速成，必学！简单！【附完整文档】",
-    "url": "http://www.bilibili.com/video/av116554859545963",
-    "source": "数字游牧人",
-    "published_at": "2026-05-11T09:02:15+00:00",
-    "summary": "点赞+评论+关注，AI 会发你详细文档（不关注会导致无法发送私信给你，因为批量发太多给陌生人，会平台限流）",
-    "duration_sec": 623,
-    "views": 736952,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1KoGE6cE53",
-    "platform": "bilibili",
-    "title": "🚀Claude Code重大突破：Workflow功能完整实战教程！ultrawork召唤无数个Agent协同！自动生成JS脚本实现可复用的精准可控工作流",
-    "url": "http://www.bilibili.com/video/av116629702777532",
-    "source": "AI超元域",
-    "published_at": "2026-05-24T13:11:48+00:00",
-    "summary": "视频简介：\n 全球首测！Anthropic未官宣的Claude Code Workflow隐藏功能完整使用指南，三大阶段六种形态精准解析！AI编程进入脚本化新纪元\n\n 本期视频详细演示了Anthropic为Claude Code V2.1.47和V2.1.48秘密新增的颠覆性Workflow功能！这个被官方从Changelog中紧急删除却未从代码中移除的&quot;隐藏神器&quot;，将成为继MCP和Skills之后又一个划时代的创新。\n\n Workflow把Agent编排从&quot;模型临场建议&quot;推进到&quot;可观测、可验证、可复跑&quot;",
-    "duration_sec": 869,
-    "views": 81052,
+    "views": 155637,
     "matched_keywords": [
       "Claude Code 实战"
     ]
@@ -1159,119 +1489,7 @@
     "published_at": "2026-04-23T15:18:08+00:00",
     "summary": "Claude Code有2种多Agent模式：多个subagents模式和多个独立agent模式",
     "duration_sec": 760,
-    "views": 13243,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1KJySBfEjW",
-    "platform": "bilibili",
-    "title": "我抛弃了 Cursor，用 Claude Code 写了 99% 的代码 （Claude Code 深度体验）",
-    "url": "http://www.bilibili.com/video/av115456522388028",
-    "source": "数字黑魔法",
-    "published_at": "2025-10-29T08:37:03+00:00",
-    "summary": "本视频不构成任何投资建议。DYOR。",
-    "duration_sec": 1084,
-    "views": 240919,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1NYVG6jEKE",
-    "platform": "bilibili",
-    "title": "Claude Code保姆级在国内从安装到代码实战教程，10分钟入门精通",
-    "url": "http://www.bilibili.com/video/av116662133132089",
-    "source": "字节软件测试",
-    "published_at": "2026-05-30T06:39:27+00:00",
-    "summary": "Claude Code保姆级在国内从安装到代码实战教程，10分钟入门精通",
-    "duration_sec": 10348,
-    "views": 6772,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1hEVY6jEGT",
-    "platform": "bilibili",
-    "title": "最新【Claude pro Max】保姆级充值教程 Claude code国内购买教程 注册+订阅一个视频教会你",
-    "url": "http://www.bilibili.com/video/av116657754277772",
-    "source": "小轩AI-",
-    "published_at": "2026-05-29T12:07:14+00:00",
-    "summary": "aipayok.com",
-    "duration_sec": 244,
-    "views": 1811,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1XxXpBEEHU",
-    "platform": "bilibili",
-    "title": "Claude Code远程开发终极方案！手机改代码+实时预览~【小白教程】",
-    "url": "http://www.bilibili.com/video/av116294326230438",
-    "source": "爱听书的程序员阿超",
-    "published_at": "2026-03-26T12:00:00+00:00",
-    "summary": "之前，我一直在研究怎么远程使用 Claude Code 开发项目，并且能实时预览效果。但是一直都没有找到合适的解决方案，要么就是给一个临时公网链接预览，每次都需要再配置，要么就是购买云服务器来配置，都感觉挺麻烦的~\n\n最近，我发现这个蒲公英异地组网的方案，用来做远程开发 Claude Code 项目，感觉非常方便，不仅能修改代码，而且我实时预览的需求也很好的满足了。\n\n这样我随时随地都可以用 AI 写代码，这才是真正的 Vibe Coindg 呀~ 🎉\n\n有远程使用 Claude Code 的朋友，可以试",
-    "duration_sec": 293,
-    "views": 16717,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1ExV36wEsE",
-    "platform": "bilibili",
-    "title": "VS Code 安装 Claude Code 并接入 DeepSeek！Claude Code for VS Code！VSCode使用ClaudeCode插件",
-    "url": "http://www.bilibili.com/video/av116662871268177",
-    "source": "FutureAI实验室",
-    "published_at": "2026-05-30T09:44:52+00:00",
-    "summary": "本节视频编号71，评论区自助领取配套文档，记得一键三连哦！",
-    "duration_sec": 609,
-    "views": 3085,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV19wXvBpEaL",
-    "platform": "bilibili",
-    "title": "认真用 Claude Code 的人，迟早会遇见 Everything Claude Code",
-    "url": "http://www.bilibili.com/video/av116319122885806",
-    "source": "极客魔导师",
-    "published_at": "2026-03-30T16:47:51+00:00",
-    "summary": "Everything Claude Code 是目前 GitHub 上 116K star 的 Claude Code 配置项目。本期从斜杠命令、子代理、Hooks 到学习系统，带你把这个项目真正用起来。",
-    "duration_sec": 562,
-    "views": 57411,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1vo5a6sEHa",
-    "platform": "bilibili",
-    "title": "原来Claude Code可以开启全自动模式！",
-    "url": "http://www.bilibili.com/video/av116576971983842",
-    "source": "AICoding指南君",
-    "published_at": "2026-05-15T05:41:00+00:00",
-    "summary": "第一个，自动编辑模式。\n按一次 Shift + Tab 就能开启。\n第二个，Plan 模式。\n按两次 Shift + Tab 开启。\n第三个，Yolo 模式。\n输入：\nclaude --dangerously-skip-permissions",
-    "duration_sec": 73,
-    "views": 7411,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1NHZFBHECg",
-    "platform": "bilibili",
-    "title": "Claude Code高阶使用技巧",
-    "url": "http://www.bilibili.com/video/av116470856096641",
-    "source": "AI视频总结",
-    "published_at": "2026-04-26T13:55:57+00:00",
-    "summary": "本视频深度解析Claude Code的高阶使用技巧，涵盖指令优化、工作流自动化及多任务并行策略。通过输入优化、终端增强及高级命令组合，助你从简单的指令下达者转变为高效的AI协作专家。",
-    "duration_sec": 388,
-    "views": 3700,
+    "views": 13314,
     "matched_keywords": [
       "Claude Code 实战"
     ]
@@ -1285,79 +1503,247 @@
     "published_at": "2026-05-29T11:08:50+00:00",
     "summary": "",
     "duration_sec": 10779,
-    "views": 9199,
+    "views": 10134,
     "matched_keywords": [
       "Claude Code 实战"
     ]
   },
   {
-    "id": "bvid:BV1KR596KEGB",
+    "id": "bvid:BV1NYVG6jEKE",
     "platform": "bilibili",
-    "title": "黑客专属 Claude Code Skills 完整指南｜从书籍提炼漏洞挖掘方法论",
-    "url": "http://www.bilibili.com/video/av116572072969902",
+    "title": "Claude Code保姆级在国内从安装到代码实战教程，10分钟入门精通",
+    "url": "http://www.bilibili.com/video/av116662133132089",
+    "source": "字节软件测试",
+    "published_at": "2026-05-30T06:39:27+00:00",
+    "summary": "Claude Code保姆级在国内从安装到代码实战教程，10分钟入门精通",
+    "duration_sec": 10348,
+    "views": 8349,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1ExV36wEsE",
+    "platform": "bilibili",
+    "title": "VS Code 安装 Claude Code 并接入 DeepSeek！Claude Code for VS Code！VSCode使用ClaudeCode插件",
+    "url": "http://www.bilibili.com/video/av116662871268177",
+    "source": "FutureAI实验室",
+    "published_at": "2026-05-30T09:44:52+00:00",
+    "summary": "本节视频编号71，评论区自助领取配套文档，记得一键三连哦！",
+    "duration_sec": 609,
+    "views": 3970,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1JUGb6jEny",
+    "platform": "bilibili",
+    "title": "90% 的人都没用对 Claude Code，Claude Code 的高阶玩法都在这",
+    "url": "http://www.bilibili.com/video/av116618998912532",
+    "source": "程序员Shark",
+    "published_at": "2026-05-22T15:46:55+00:00",
+    "summary": "为了做了精心的翻译和校对，原文：https://www.youtube.com/watch?v=uogzSxOw4LU，再次感谢作者。\n概要：这部分内容真正想讲的，不是 Claude Code 又多了几个新功能，而是怎么把它用成一套顺手的开发工具。很多人一开始只是拿它来聊天，但真想把效率拉起来，重点其实在\n setup、命令、扩展能力和工作流设计。前面先讲了几个特别常用的 command：model 用来按任务切换不同 model，别什么事都一直开最贵的；insights\n 可以帮你回看自己平时是怎么用",
+    "duration_sec": 2299,
+    "views": 2169,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1KjoxBoEQJ",
+    "platform": "bilibili",
+    "title": "9分钟搞定！Claude Code 保姆级安装+原理+真实用法（国内直连）",
+    "url": "http://www.bilibili.com/video/av116447535765612",
+    "source": "人工大黑",
+    "published_at": "2026-04-22T09:02:25+00:00",
+    "summary": "本期视频因为白菜要毕业了，up伤心过度导致了拖更（）",
+    "duration_sec": 7370,
+    "views": 842757,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1WS5B6WECp",
+    "platform": "bilibili",
+    "title": "10分钟完成Ubuntu安装Claude Code并免费使用DeepSeekV4模型",
+    "url": "http://www.bilibili.com/video/av116579891153749",
+    "source": "穷在街头无人问lhj",
+    "published_at": "2026-05-15T18:01:19+00:00",
+    "summary": "10分钟完成Ubuntu安装Claude Code并免费使用DeepSeekV4模型\n代金券领取链接：https://cloud.siliconflow.cn/i/hkV35uvp\nnodejs下载链接：Node.js — Download Node.js®\ncc-switch下载链接：github.com/farion1231/cc-switch/releases\n安装包和笔记下载链接：https://pan.baidu.com/s/12IDm7vXhr-o8kL65S6tEyA?pwd=1029",
+    "duration_sec": 700,
+    "views": 3181,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1fyVY6tE6y",
+    "platform": "bilibili",
+    "title": "Ultracode：Claude Code这次真的把“工程团队”塞进了一个命令里",
+    "url": "http://www.bilibili.com/video/av116659683595894",
+    "source": "MIP耀",
+    "published_at": "2026-05-29T20:15:59+00:00",
+    "summary": "5 月 28 日,Claude Code 上线了一个新功能——Ultracode。\n它让 Claude 自己决定要不要拆任务、起几十上百个子代理并发执行、\n然后自己验证结果——你只敲一个命令。\n \nAnthropic 给的标杆案例:Bun 运行时从 Zig 移植到 Rust,\n75 万行代码、11 天、99.8% 测试通过。\n \n但这条视频不只是讲&quot;哇好牛&quot;——而是想拆解一件事:\n为什么 Ultracode 不是 Claude Code 的下一个功能,\n而是过去一年所有更新的合体形态。",
+    "duration_sec": 389,
+    "views": 837,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1CNV86tEQM",
+    "platform": "bilibili",
+    "title": "[parallel] Claude Code 动态工作流详解",
+    "url": "http://www.bilibili.com/video/av116655640283767",
+    "source": "isomoes",
+    "published_at": "2026-05-29T03:05:47+00:00",
+    "summary": "1.5x https://claude.com/blog/introducing-dynamic-workflows-in-claude-code\n\n本期视频介绍 Claude Code 随 Opus 4.8 同步推出的动态工作流（dynamic workflow），也就是把思考等级调到最高档 ultra code 后才会启用的功能。视频首先对比了上一期讲过的 Claude agents（Claude views）：两者都做并行任务，但 Claude agents 基于 git worktree，靠文件系",
+    "duration_sec": 680,
+    "views": 620,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1mdGR6iEoH",
+    "platform": "bilibili",
+    "title": "Code with Claude 2026 | London 2026",
+    "url": "http://www.bilibili.com/video/av116634450657952",
+    "source": "DesyncInfoSec",
+    "published_at": "2026-05-25T09:22:07+00:00",
+    "summary": "https://claude.com/code-with-claude/london\nCode with Claude 2026 是 Anthropic 面向开发者举办的年度 AI 编程大会，聚焦 Claude Code、Agentic Coding、MCP 生态以及 AI 原生软件开发实践。大会包含主题演讲、实战 Workshop、最新能力演示，以及与 Anthropic 工程团队的技术交流，重点探讨 AI Agent 如何改变软件开发、自动化协作与未来工程模式。2026 伦敦站汇聚了大量开发者、创业团",
+    "duration_sec": 41860,
+    "views": 752,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV143wwz6E8F",
+    "platform": "bilibili",
+    "title": "Claude code科研使用展示与思路分享（提速就靠Ai）",
+    "url": "http://www.bilibili.com/video/av116211882920985",
+    "source": "科研推土机",
+    "published_at": "2026-03-11T18:12:00+00:00",
+    "summary": "本期给大家带来的是Claude在Vscode的科研应用演示与我最近的一些心得使用心得，科研速度嘎嘎提升。论文复现画图、数据分析就靠Claude code。这个课程也是科研推土机「系统管理文献课程2.0」学员催我更新的内容，希望能帮助到大家～，这个视频重点讲两个事情：\n1️⃣ 资料获取，free不用怀疑，我是良心可言博主，，关注我(GZTSHNR)～\n2️⃣ 展示如何在VS code实操应用claude code进行数据分析，进行科研\n🌼全网同号（科研推土机）",
+    "duration_sec": 1450,
+    "views": 61873,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1cqVh6xEuD",
+    "platform": "bilibili",
+    "title": "Claude Code ultracode效果",
+    "url": "http://www.bilibili.com/video/av116656781137372",
+    "source": "gps949",
+    "published_at": "2026-05-29T07:57:43+00:00",
+    "summary": "-",
+    "duration_sec": 7,
+    "views": 400,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1m29ZByEWm",
+    "platform": "bilibili",
+    "title": "5月最新Claude Code使用安装教程，手把手教你在国内怎么免费使用安装Claude Code！",
+    "url": "http://www.bilibili.com/video/av116508520875071",
+    "source": "Claudecode使用教程",
+    "published_at": "2026-05-03T03:38:16+00:00",
+    "summary": "一个冷知识:点赞是免费的!\n但是可以让辛苦做视频的UP主开心快乐一整天!!!\n视频配套的整 合 包 &amp;工 作 流，关注+评论掉落~",
+    "duration_sec": 334,
+    "views": 66128,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1kX546QEjG",
+    "platform": "bilibili",
+    "title": "保姆级Claude Code速成，必学！简单！【附完整文档】",
+    "url": "http://www.bilibili.com/video/av116554859545963",
+    "source": "数字游牧人",
+    "published_at": "2026-05-11T09:02:15+00:00",
+    "summary": "点赞+评论+关注，AI 会发你详细文档（不关注会导致无法发送私信给你，因为批量发太多给陌生人，会平台限流）",
+    "duration_sec": 623,
+    "views": 740403,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1W9cZzxEYs",
+    "platform": "bilibili",
+    "title": "AI 当助手！Claude 深度协助 UE5 游戏开发全流程",
+    "url": "http://www.bilibili.com/video/av116209752277031",
+    "source": "叁昧火游戏",
+    "published_at": "2026-03-11T12:00:00+00:00",
+    "summary": "",
+    "duration_sec": 247,
+    "views": 14480,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1sJVL6QEzR",
+    "platform": "bilibili",
+    "title": "Claude Code 动态工作流实战指南",
+    "url": "http://www.bilibili.com/video/av116664867755402",
+    "source": "凌云_API",
+    "published_at": "2026-05-30T18:18:16+00:00",
+    "summary": "原视频链接：https://www.youtube.com/watch?v=jZgcWCzxh1I\n本视频为Ai技术搬运翻译，使用AI智能移除原视频广告营销内容，旨在降低信息差，帮助大家了解海外最新Ai动态\n翻译：凌云API模型gemini-3-flash-preview\nAI实用工具看下面：\n1、凌云AI平台：yunai.chat，国内可直接调用全球500+AI大模型API，支持Gemini、GPT、Claude等最新模型\n2、低价稳定大流量云服务器推荐：https://www.rainyun.com/",
+    "duration_sec": 1702,
+    "views": 268,
+    "matched_keywords": [
+      "Claude Code 实战"
+    ]
+  },
+  {
+    "id": "bvid:BV1j2Lw6CEyQ",
+    "platform": "bilibili",
+    "title": "Hermes Agent + Claude Code 互联：把 AI 升级成 7x24 全知员工",
+    "url": "http://www.bilibili.com/video/av116594822876107",
     "source": "星小脉",
-    "published_at": "2026-05-14T09:00:50+00:00",
-    "summary": "ZeroDay Gym 教你如何为渗透测试和漏洞赏金创建专业 Claude Code skills——从素材选择（推荐用书籍而非乱七八糟的网络文章）开始，配合 Claude 网页版 + skill creator + Claude Code CLI 的三重创建流程，把 OWASP 网络安全测试指南这种 465 页大部头变成可复用的 skill。视频还分享了他自己用的 IDA Pro MCP、Mobile MCP 等渗透测试 MCP 服务器配置。\n\n原视频: ZeroDay Gym (https://www",
-    "duration_sec": 1801,
-    "views": 1345,
+    "published_at": "2026-05-18T09:26:55+00:00",
+    "summary": "Jack Roberts 演示如何把 Hermes Agent（Nous Research）与 Claude Code Operating System 互联，打造跨平台共享记忆的 AI 智能系统。完整覆盖：Hermes 安装（Telegram bot 配置 + 用户授权）、Pantheon 自定义 AI 人格（Labyrinth/Mercury/Philosopher）、GitHub 仓库镜像备份、Obsidian Vault 知识库连接、Claude OS Bridge 数据互通、Apollo lea",
+    "duration_sec": 3368,
+    "views": 952,
     "matched_keywords": [
       "Claude Code 实战"
     ]
   },
   {
-    "id": "bvid:BV1CTRNBsECb",
+    "id": "bvid:BV1259NBdE47",
     "platform": "bilibili",
-    "title": "基于Claude Code的漏洞赏金自动化：从HackerOne报告到4万美元实战复盘",
-    "url": "http://www.bilibili.com/video/av116513218495043",
-    "source": "王尼互",
-    "published_at": "2026-05-03T23:25:06+00:00",
-    "summary": "https://www.youtube.com/watch?v=pRPT_yrgRL0\n本视频系统拆解基于Claude Code构建漏洞赏金自动化流程的核心方法，包括如何利用公开漏洞报告（如HackerOne）生成专属AI技能、设计项目级代理文件（Agent/Memory）以及构建漏洞技能包，实现从资产发现到漏洞挖掘的全链路自动化。\n内容涵盖：\n基于历史漏洞报告定制检测规则与优先级策略（如XSS、API、GraphQL等）\n代理文件（Proxy/Agent）设计：上下文注入、任务约束与目标导向优化\n企业资",
-    "duration_sec": 2139,
-    "views": 3407,
+    "title": "Claude Code 最强搭档！手把手教你 CC Switch 安装，实现多模型自由",
+    "url": "http://www.bilibili.com/video/av116338332800226",
+    "source": "下班学AI",
+    "published_at": "2026-04-03T04:00:00+00:00",
+    "summary": "CC Switch 安装（Win/Mac通用）\nWindows/Mac：终端执行 npm install -g cc-switch（需先安装Node.js）\n验证安装：命令行输入 cc-switch --version\n⚙️ 配合 Claude Code 切换模型\n启动 Claude Code 后，输入 /model 查看当前模型\n运行 cc-switch 进入交互菜单，选择目标模型（方向键+回车）\n回到 Claude Code 输入 /model reload 生效，或重启会话\n🤖 支持模型一览\nCla",
+    "duration_sec": 687,
+    "views": 17631,
     "matched_keywords": [
       "Claude Code 实战"
     ]
   },
   {
-    "id": "bvid:BV1SddcBFESs",
+    "id": "bvid:BV1TcLg67Egj",
     "platform": "bilibili",
-    "title": "10分钟学会24个ClaudeCode使用技巧",
-    "url": "http://www.bilibili.com/video/av116533082852451",
-    "source": "Yin_Code",
-    "published_at": "2026-05-07T11:37:32+00:00",
-    "summary": "10分钟24个ClaudeCode使用技巧\n本教程适合新手学习ClaudeCode\n没有安装ClaudeCode可以查看UP上一期视频\n关注UP，学习更多AI知识",
-    "duration_sec": 656,
-    "views": 178245,
+    "title": "Claude Code + Hermes架构打造自己的ai员工",
+    "url": "http://www.bilibili.com/video/av116583431210323",
+    "source": "dadafastrun",
+    "published_at": "2026-05-16T09:01:42+00:00",
+    "summary": "claude code + hermes架构打造自己的ai员工",
+    "duration_sec": 1311,
+    "views": 2772,
     "matched_keywords": [
       "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1NvRyBzEhq",
-    "platform": "bilibili",
-    "title": "全网最全！60分钟全面掌握Claude Code～【附完整文档】",
-    "url": "http://www.bilibili.com/video/av116522328524431",
-    "source": "秋芝2046",
-    "published_at": "2026-05-05T14:08:25+00:00",
-    "summary": "Claude Code保姆级教学【收藏起来不会错！】\n从上手安装，到高级用法，这期一次讲全～\n花了三周做教程，希望能帮到你嘻嘻，感谢朋友们的三连+关注啦～",
-    "duration_sec": 3369,
-    "views": 931987,
-    "matched_keywords": [
-      "Claude Code 实战"
-    ]
-  },
-  {
-    "id": "bvid:BV1X15y6nE8Z",
-    "platform": "bilibili",
-    "title": "cursor无限免费使用最新方法cursor无限续杯cursor使用教程免费",
-    "url": "http://www.bilibili.com/video/av116567140540269",
-    "source": "开团秒跟cursor",
-    "published_at": "2026-05-13T11:59:02+00:00",
-    "summary": "最新2026年5月13号 免费Cursor无限续杯保姆级使用教程集成MCP，实现opus4.6/4.7无限使用额度自由，相关工具请到 1030496866 文件夹中自行获取,完全免费，完全免费，离线插件版本,安装即可用，无任何数据收集行为",
-    "duration_sec": 1553,
-    "views": 4991,
-    "matched_keywords": [
-      "Cursor 0.50"
     ]
   },
   {
@@ -1369,7 +1755,49 @@
     "published_at": "2026-05-27T08:54:10+00:00",
     "summary": "",
     "duration_sec": 1145,
-    "views": 2367,
+    "views": 2490,
+    "matched_keywords": [
+      "Cursor 0.50"
+    ]
+  },
+  {
+    "id": "bvid:BV1JfT4zVEa5",
+    "platform": "bilibili",
+    "title": "Cursor1.0新特性BugBot自动化代码Code Review使用教程+实测",
+    "url": "http://www.bilibili.com/video/av114630882037891",
+    "source": "码里奥Ziho",
+    "published_at": "2025-06-05T13:05:30+00:00",
+    "summary": "Cursor推出了新的1.0版本，本视频对新特性Bugbot做了一个教程+实测\nBugBot可以在Github进行PR (Pull Request) 的时候，通过AI大模型帮助我们进行CR (Code Review)\n本视频用一个例子演示了如何使用Bugbot功能，并且最后给出了实测的结果\n\n感谢支持！！！欢迎三连\n个人公众号 【码里奥】",
+    "duration_sec": 296,
+    "views": 15076,
+    "matched_keywords": [
+      "Cursor 0.50"
+    ]
+  },
+  {
+    "id": "bvid:BV1zbduYgEBH",
+    "platform": "bilibili",
+    "title": "Cursor新手教程⑤：Cursor降智真相+解决办法",
+    "url": "http://www.bilibili.com/video/av114311359891940",
+    "source": "AI随风随风",
+    "published_at": "2025-04-10T02:53:27+00:00",
+    "summary": "你是不是经常碰到这种情况：\n你试图修复一个小错误\n人工智能给出一个看似合理的更改建议\n这个修复导致其他地方出错\n你要求人工智能修复新出现的问题\n这又产生了另外两个问题\n如此反复\n本视频带你拆解Cursor降智的真相以及解决办法",
+    "duration_sec": 797,
+    "views": 10744,
+    "matched_keywords": [
+      "Cursor 0.50"
+    ]
+  },
+  {
+    "id": "bvid:BV1wuLHzDEGA",
+    "platform": "bilibili",
+    "title": "【Godot&amp;Cursor】0.亲测一个月后，我选择Godot+Cursor组合做独立游戏",
+    "url": "http://www.bilibili.com/video/av114398869853632",
+    "source": "破妄-胖",
+    "published_at": "2025-04-25T13:43:22+00:00",
+    "summary": "飞书文档：https://sh67ozct1z.feishu.cn/docx/Hn5jd0cE6op1Sux9RrFcl8Npnbd",
+    "duration_sec": 184,
+    "views": 13423,
     "matched_keywords": [
       "Cursor 0.50"
     ]
@@ -1383,49 +1811,7 @@
     "published_at": "2026-05-17T13:01:58+00:00",
     "summary": "一键三连吧！在主页\n自动回复私信要1000粉丝呜呜呜呜求帮忙",
     "duration_sec": 267,
-    "views": 3609,
-    "matched_keywords": [
-      "Cursor 0.50"
-    ]
-  },
-  {
-    "id": "bvid:BV1ZFc2epE4s",
-    "platform": "bilibili",
-    "title": "Cursor+VS2022编译器 准备cursor的c++开发环境",
-    "url": "http://www.bilibili.com/video/av113820676655607",
-    "source": "新手村养牛人",
-    "published_at": "2025-01-13T11:00:14+00:00",
-    "summary": "cmake_minimum_required(VERSION 3.23)\nproject(CursorVs2022)\nset(CMAKE_CXX_STANDARD 17)\n\nset(CMAKE_INCLUDE_CURRENT_DIR ON)\nSET(CMAKE_BUILD_TYPE Debug)\nset(CMAKE_AUTOMOC ON)\nset(CMAKE_AUTOUIC ON)\nset(CMAKE_AUTORCC ON)\n\n#编码问题\nadd_compile_options(&quot;$&lt;$&lt;C_COMPIL",
-    "duration_sec": 211,
-    "views": 14037,
-    "matched_keywords": [
-      "Cursor 0.50"
-    ]
-  },
-  {
-    "id": "bvid:BV1JcDSBYE4V",
-    "platform": "bilibili",
-    "title": "新版 Cursor 看不到代码了？5 分钟学会新界面所有操作",
-    "url": "http://www.bilibili.com/video/av116390174393526",
-    "source": "未生AI",
-    "published_at": "2026-04-12T05:55:17+00:00",
-    "summary": "Cursor 最新版本的界面。只有一个文字输入框。没有代码，没有文件树，没有你以前熟悉的任何东西。\n\n很多人打开之后直接懵了——这怎么用？我的代码呢？这期视频，我就来告诉你，新版 Cursor 到底怎么用。\n\nCursor 的改版，不只是界面变了。\n\n所有 AI 编程工具，以前的形态都是一样的——左边文件树，右边代码，AI 在旁边帮你补全。\n\n这个形态本质上还是：人在主导代码，AI 在辅助人。\n\n新版 Cursor 把代码藏起来，表面上是界面变了。\n\n但它真正改变的是主语——现在是 AI 在主导代码，人只",
-    "duration_sec": 343,
-    "views": 19780,
-    "matched_keywords": [
-      "Cursor 0.50"
-    ]
-  },
-  {
-    "id": "bvid:BV1fM8JzCErf",
-    "platform": "bilibili",
-    "title": "【实用教程】完美解决Cursor地区限制使用claude/gpt问题！",
-    "url": "http://www.bilibili.com/video/av114930506340006",
-    "source": "洞犀AI大模型讲堂",
-    "published_at": "2025-07-28T11:02:31+00:00",
-    "summary": "cursor 最近发布了新的模型地区可用性政策，中国地区无法使用Claude/GPT/gemini，如果你遇到类似的问题，可以参考本期教程视频的方法，可以继续使用Claude大模型。",
-    "duration_sec": 203,
-    "views": 41025,
+    "views": 3633,
     "matched_keywords": [
       "Cursor 0.50"
     ]
@@ -1445,99 +1831,85 @@
     ]
   },
   {
-    "id": "bvid:BV1dMLi6qEfK",
+    "id": "bvid:BV1ZFc2epE4s",
     "platform": "bilibili",
-    "title": "【2026】这绝对是B站讲的最好的Cursor教程，手把手教你Cursor企业级实战案例，比付费效果强百倍，少走99%弯路!",
-    "url": "http://www.bilibili.com/video/av116616599767571",
-    "source": "图灵程序员诸葛",
-    "published_at": "2026-05-22T05:40:17+00:00",
-    "summary": "大模型学习福利：系统路线图、教程配套笔记+源码、大模型面试笔记 + 相关书籍，搓这里→https://www.bilibili.com/read/cv40082115/?jump_opus=1 免费领！",
-    "duration_sec": 22106,
-    "views": 6380,
+    "title": "Cursor+VS2022编译器 准备cursor的c++开发环境",
+    "url": "http://www.bilibili.com/video/av113820676655607",
+    "source": "新手村养牛人",
+    "published_at": "2025-01-13T11:00:14+00:00",
+    "summary": "cmake_minimum_required(VERSION 3.23)\nproject(CursorVs2022)\nset(CMAKE_CXX_STANDARD 17)\n\nset(CMAKE_INCLUDE_CURRENT_DIR ON)\nSET(CMAKE_BUILD_TYPE Debug)\nset(CMAKE_AUTOMOC ON)\nset(CMAKE_AUTOUIC ON)\nset(CMAKE_AUTORCC ON)\n\n#编码问题\nadd_compile_options(&quot;$&lt;$&lt;C_COMPIL",
+    "duration_sec": 211,
+    "views": 14037,
     "matched_keywords": [
       "Cursor 0.50"
     ]
   },
   {
-    "id": "bvid:BV1JfT4zVEa5",
+    "id": "bvid:BV1fNs9eiEm9",
     "platform": "bilibili",
-    "title": "Cursor1.0新特性BugBot自动化代码Code Review使用教程+实测",
-    "url": "http://www.bilibili.com/video/av114630882037891",
-    "source": "码里奥Ziho",
-    "published_at": "2025-06-05T13:05:30+00:00",
-    "summary": "Cursor推出了新的1.0版本，本视频对新特性Bugbot做了一个教程+实测\nBugBot可以在Github进行PR (Pull Request) 的时候，通过AI大模型帮助我们进行CR (Code Review)\n本视频用一个例子演示了如何使用Bugbot功能，并且最后给出了实测的结果\n\n感谢支持！！！欢迎三连\n个人公众号 【码里奥】",
-    "duration_sec": 296,
-    "views": 15075,
+    "title": "Cursor AI编程结合cocos3.8游戏开发教程-01",
+    "url": "http://www.bilibili.com/video/av113187471105975",
+    "source": "太阳8800",
+    "published_at": "2024-09-23T15:15:13+00:00",
+    "summary": "开源源码仓库\nhttps://gitee.com/gamepublic/chess-cards",
+    "duration_sec": 863,
+    "views": 6319,
     "matched_keywords": [
       "Cursor 0.50"
     ]
   },
   {
-    "id": "bvid:BV1b5WMzEEmK",
+    "id": "bvid:BV16GV86XEPa",
     "platform": "bilibili",
-    "title": "测评某鱼买的Cursor无限续杯工具",
-    "url": "http://www.bilibili.com/video/av115228083751177",
+    "title": "【2026最新Cursor使用教程】史上最强 AI 编程工具Cursor！Cursor保姆级使用教程！从入门到实战，零基础小白也能学会",
+    "url": "http://www.bilibili.com/video/av116655757723840",
+    "source": "刘十二-是我啊",
+    "published_at": "2026-05-29T03:42:21+00:00",
+    "summary": "喜欢请三连哦   喜欢请三连哦   喜欢请三连哦   喜欢请三连哦   喜欢请三连哦   喜欢请三连哦   喜欢请三连哦",
+    "duration_sec": 8715,
+    "views": 2509,
+    "matched_keywords": [
+      "Cursor 0.50"
+    ]
+  },
+  {
+    "id": "bvid:BV1X15y6nE8Z",
+    "platform": "bilibili",
+    "title": "cursor无限免费使用最新方法cursor无限续杯cursor使用教程免费",
+    "url": "http://www.bilibili.com/video/av116567140540269",
+    "source": "开团秒跟cursor",
+    "published_at": "2026-05-13T11:59:02+00:00",
+    "summary": "最新2026年5月13号 免费Cursor无限续杯保姆级使用教程集成MCP，实现opus4.6/4.7无限使用额度自由，相关工具请到 1030496866 文件夹中自行获取,完全免费，完全免费，离线插件版本,安装即可用，无任何数据收集行为",
+    "duration_sec": 1553,
+    "views": 5060,
+    "matched_keywords": [
+      "Cursor 0.50"
+    ]
+  },
+  {
+    "id": "bvid:BV1NpubzYE8c",
+    "platform": "bilibili",
+    "title": "Cursor用不了？三款AI编程工具完美代替Cursor",
+    "url": "http://www.bilibili.com/video/av114863061864380",
+    "source": "AI随风随风",
+    "published_at": "2025-07-16T13:10:54+00:00",
+    "summary": "Cursor用不了？三款AI编程工具完美代替Cursor\naugmentCode\nTrae\nKiro",
+    "duration_sec": 941,
+    "views": 29176,
+    "matched_keywords": [
+      "Cursor 0.50"
+    ]
+  },
+  {
+    "id": "bvid:BV19P38zHEJ8",
+    "platform": "bilibili",
+    "title": "Cursor1.0 手机版最新演示！上厕所、高铁、地铁、随时编程！",
+    "url": "http://www.bilibili.com/video/av114784393563896",
     "source": "程序员晓刘",
-    "published_at": "2025-09-19T00:17:50+00:00",
+    "published_at": "2025-07-02T15:45:52+00:00",
     "summary": "",
-    "duration_sec": 74,
-    "views": 38714,
-    "matched_keywords": [
-      "Cursor 0.50"
-    ]
-  },
-  {
-    "id": "bvid:BV19DZ4BLE18",
-    "platform": "bilibili",
-    "title": "全网最简单解决cursor断网问题",
-    "url": "http://www.bilibili.com/video/av116075249272918",
-    "source": "门叁皮",
-    "published_at": "2026-02-15T15:04:18+00:00",
-    "summary": "最简单的cursor断网解决方案",
-    "duration_sec": 79,
-    "views": 3451,
-    "matched_keywords": [
-      "Cursor 0.50"
-    ]
-  },
-  {
-    "id": "bvid:BV1gwk3Y8Ers",
-    "platform": "bilibili",
-    "title": "CURSOR 遇到机器上使用过多的免费账号",
-    "url": "http://www.bilibili.com/video/av113663037931907",
-    "source": "想回家的前端开发",
-    "published_at": "2024-12-16T14:51:24+00:00",
-    "summary": "",
-    "duration_sec": 274,
-    "views": 8061,
-    "matched_keywords": [
-      "Cursor 0.50"
-    ]
-  },
-  {
-    "id": "bvid:BV1bRZZYeE8K",
-    "platform": "bilibili",
-    "title": "【揭秘】某宝卖的最多的Cursor补丁插件的实现方式，包含源码",
-    "url": "http://www.bilibili.com/video/av114279583844827",
-    "source": "向阳的花code1",
-    "published_at": "2025-04-04T12:06:17+00:00",
-    "summary": "【揭秘】某宝卖的最多的Cursor补丁插件的实现方式，包含源码",
-    "duration_sec": 547,
-    "views": 24281,
-    "matched_keywords": [
-      "Cursor 0.50"
-    ]
-  },
-  {
-    "id": "bvid:BV14ooBYBEU8",
-    "platform": "bilibili",
-    "title": "Cursor最佳实践 | Cursor 新手进阶必看 | Cursor 调试必知必会",
-    "url": "http://www.bilibili.com/video/av114211921468504",
-    "source": "万行说编程",
-    "published_at": "2025-03-23T13:20:21+00:00",
-    "summary": "Cursor 调试进阶的几个最佳实践：\n1. 使用明确的技术栈来生成项目。eg：使用 vue3 + Element-plus + vite 帮我生成一个个人主页\n2. 使用截图作为上下文参考\n3. 选中代码，并让 Cursor 一行一行解释\n4. 修改文件多的时候可以让 Cursor 自己检查代码\n5. 明确上下文，上下文越精确，AI 执行得越好\n6. 善用 git 进行版本控制，以及使用 checkpoint 进行回滚",
-    "duration_sec": 1005,
-    "views": 7125,
+    "duration_sec": 58,
+    "views": 1908,
     "matched_keywords": [
       "Cursor 0.50"
     ]
@@ -1551,93 +1923,107 @@
     "published_at": "2025-06-15T02:25:13+00:00",
     "summary": "再也不用担心记不住、找不到！这套Obsidian+Cursor组合拳让你秒变学霸🔥 看了100个视频全是白看？学了50个知识点转眼就忘？本期教你零基础打造AI知识库，自动提取、分类、连接所有学习内容！不仅能记住一切，还能主动挖掘知识关联，比市面上几千块的课程还实用！学会这招能帮你节省200小时重复学习时间，不信你试试！👇点赞收藏，解锁最强&quot;外置大脑&quot;秘籍！#AI学习 #Cursor #效率提升 #知识管理 #Obsidian教程\n\n知识整理prompt如下：\n\n# 网页视频内容整理提示，将以下网页网址及视",
     "duration_sec": 391,
-    "views": 16694,
+    "views": 16696,
     "matched_keywords": [
       "Cursor 0.50"
     ]
   },
   {
-    "id": "bvid:BV1aNb5z7Eqb",
+    "id": "bvid:BV1b5WMzEEmK",
     "platform": "bilibili",
-    "title": "cursor一键重置机器码不需要重装系统",
-    "url": "http://www.bilibili.com/video/av115010617544835",
-    "source": "玩转Code",
-    "published_at": "2025-08-11T14:35:16+00:00",
+    "title": "测评某鱼买的Cursor无限续杯工具",
+    "url": "http://www.bilibili.com/video/av115228083751177",
+    "source": "程序员晓刘",
+    "published_at": "2025-09-19T00:17:50+00:00",
     "summary": "",
-    "duration_sec": 55,
-    "views": 18411,
+    "duration_sec": 74,
+    "views": 38738,
     "matched_keywords": [
       "Cursor 0.50"
     ]
   },
   {
-    "id": "bvid:BV15JLS6qEqX",
+    "id": "bvid:BV1Bq5NzYETK",
     "platform": "bilibili",
-    "title": "连马斯克都点赞！Cursor Composer 2.5：性价比炸裂的AI编程神器，63.2%高分+超低价杀疯了",
-    "url": "http://www.bilibili.com/video/av116607674225080",
-    "source": "鲲鹏Talk",
-    "published_at": "2026-05-20T15:48:53+00:00",
-    "summary": "在这个视频里，我详细介绍了Cursor最新发布的Composer 2.5模型——它在CursorBench v3.1上斩获63.2%的高分，平均每个任务成本仅0.55美元，性能直逼顶级模型，却价格亲民得多。同时对比了Terminal-Bench（69.3%）和SWE-Bench Multilingual（79.8%）等基准，展现出在长任务、复杂指令跟随和实际编码中的强大能力。\n我还顺便完整介绍了Cursor这款AI编程IDE，为什么它正在成为开发者新宠。这条分享Cursor最新进展的推文甚至被埃隆·马斯克",
-    "duration_sec": 488,
-    "views": 3160,
+    "title": "使用学生认证！白嫖Cursor一年会员！！！",
+    "url": "http://www.bilibili.com/video/av114471028657003",
+    "source": "硅基马达",
+    "published_at": "2025-05-08T07:30:20+00:00",
+    "summary": "cursor学生认证地址：https://www.cursor.com/cn/students\n不知道能白嫖多久且行且珍惜",
+    "duration_sec": 155,
+    "views": 14255,
     "matched_keywords": [
       "Cursor 0.50"
     ]
   },
   {
-    "id": "bvid:BV1YojdzzE77",
+    "id": "bvid:BV1aDMezREUj",
     "platform": "bilibili",
-    "title": "cursor+claude-4开发前后端项目,全程解读，干货满满",
-    "url": "http://www.bilibili.com/video/av114579409469776",
-    "source": "AI随风随风",
-    "published_at": "2025-05-27T11:01:30+00:00",
-    "summary": "本期视频主题\n零代码使用cursor完成一个前后端分离的小项目\n前端: vue3\n后端: java springboot\n关联知识点：\nCursor 新手教程③： Cursor rules 让 AI 更懂你\ncursor实战系列：0到1开发一个小程序，需求整理、小程序注册备案\n一、前后端开发的两种模式\n二、项目初始化\n三、前后端的协作流程\n四、文档阶段\n五、拆分前后端任务\n六、启动前后端测试",
-    "duration_sec": 2668,
-    "views": 32561,
+    "title": "Cursor使用教程，2小时玩转cursor，cursor无限续杯",
+    "url": "http://www.bilibili.com/video/av114691716154833",
+    "source": "尚硅谷",
+    "published_at": "2025-06-17T02:00:54+00:00",
+    "summary": "【配套资料】关注公众号：尚硅谷教育，回复“大模型”免费获取\n【课程简介】从Cursor下载安装、账号配置（含 “无限续杯” 技巧）到三大核心功能拆解：智能Tab、指令交互 Chat、Ctrl+K 智能内联修改",
+    "duration_sec": 9184,
+    "views": 564727,
     "matched_keywords": [
       "Cursor 0.50"
     ]
   },
   {
-    "id": "bvid:BV1y9yyYDEUN",
+    "id": "bvid:BV18fhHz3Ezk",
     "platform": "bilibili",
-    "title": "6个超实用的Cursor小技巧：效率提升200%，免费无限量使用Cursor Pro",
-    "url": "http://www.bilibili.com/video/av113365611582948",
-    "source": "御风大世界",
-    "published_at": "2024-10-25T04:10:00+00:00",
-    "summary": "海外支付平台WildCard：https://bewildcard.com/i/BYWIND （有折扣）",
-    "duration_sec": 252,
-    "views": 49095,
+    "title": "8月份最新cursor一键重置机器码",
+    "url": "http://www.bilibili.com/video/av114952853593114",
+    "source": "玩转Code",
+    "published_at": "2025-08-01T09:43:22+00:00",
+    "summary": "软件安装包\nhttps://pan.quark.cn/s/9ffba35bd00a",
+    "duration_sec": 39,
+    "views": 9484,
     "matched_keywords": [
       "Cursor 0.50"
     ]
   },
   {
-    "id": "bvid:BV1zbduYgEBH",
+    "id": "bvid:BV1gwk3Y8Ers",
     "platform": "bilibili",
-    "title": "Cursor新手教程⑤：Cursor降智真相+解决办法",
-    "url": "http://www.bilibili.com/video/av114311359891940",
-    "source": "AI随风随风",
-    "published_at": "2025-04-10T02:53:27+00:00",
-    "summary": "你是不是经常碰到这种情况：\n你试图修复一个小错误\n人工智能给出一个看似合理的更改建议\n这个修复导致其他地方出错\n你要求人工智能修复新出现的问题\n这又产生了另外两个问题\n如此反复\n本视频带你拆解Cursor降智的真相以及解决办法",
-    "duration_sec": 797,
-    "views": 10741,
+    "title": "CURSOR 遇到机器上使用过多的免费账号",
+    "url": "http://www.bilibili.com/video/av113663037931907",
+    "source": "想回家的前端开发",
+    "published_at": "2024-12-16T14:51:24+00:00",
+    "summary": "",
+    "duration_sec": 274,
+    "views": 8062,
     "matched_keywords": [
       "Cursor 0.50"
     ]
   },
   {
-    "id": "bvid:BV1caVh6fE6Z",
+    "id": "bvid:BV1Tvg3zsEDA",
     "platform": "bilibili",
-    "title": "【2026最新版】绝对是B站讲的最细的Claude Code教程，从国内环境安装出发，项目开发及个人使用总结带你玩转 Vibe Coding！",
-    "url": "http://www.bilibili.com/video/av116656764358481",
-    "source": "AI大模型_",
-    "published_at": "2026-05-29T07:53:39+00:00",
-    "summary": "制作不易，大家喜欢视频记得点点关注，一键三连呀【点赞、投币、收藏】感谢支持！\n本视频配套课件笔记代码/学习大纲/大模型学习路线戳这里获取→https://www.bilibili.com/opus/1195847460814061571?spm_id_from=333.1387.0.0\n另外有需要AI大模型学习路线图+必看书籍（国内外大牛著作）+入门及进阶视频教程+项目实战及源码提供+面试实战场景题移步评论置顶即可~",
-    "duration_sec": 41071,
-    "views": 2782,
+    "title": "cursor 四种配置方式，测底解除模型地区不可用！",
+    "url": "http://www.bilibili.com/video/av114872792647810",
+    "source": "三少科技",
+    "published_at": "2025-07-18T06:24:35+00:00",
+    "summary": "devbox注册地址：https://cloud.sealos.run/?uid=AoSqusVZZL\n我的知识星球，https://t.zsxq.com/jVAk9\n徕卡云服务器：https://www.lcayun.com/aff/GEYCYCZE",
+    "duration_sec": 284,
+    "views": 11518,
     "matched_keywords": [
-      "vibe coding"
+      "Cursor 0.50"
+    ]
+  },
+  {
+    "id": "bvid:BV1FRNwekE7W",
+    "platform": "bilibili",
+    "title": "Cursor高效回溯技巧",
+    "url": "http://www.bilibili.com/video/av113945465590642",
+    "source": "BarrySong4Real",
+    "published_at": "2025-02-04T11:54:15+00:00",
+    "summary": "AI生成的代码常会出现逻辑混乱或上下文脱节的情况。这种情况下，建立高效的回溯机制成为开发者的必备技能。",
+    "duration_sec": 437,
+    "views": 2179,
+    "matched_keywords": [
+      "Cursor 0.50"
     ]
   },
   {
@@ -1649,7 +2035,21 @@
     "published_at": "2026-05-05T10:13:18+00:00",
     "summary": "🤔如果你最近也在想一件事：我一个完全不会代码的人，真的可以用 AI 为自己做出一个软件吗？\n🌟我的答案是：当然可以！\n\n📚我把自己这4个月Vibe Coding里最重要的经验，浓缩成了一次完整实操演示。\n不是只告诉你装什么工具，而是直接带你从0到1做出一个真正能运行的软件：怎么提第一次需求，怎么让AI稳定执行，怎么一步一步把项目推进下去。\n\n如果你刚开始对Vibe Coding感兴趣，那这条就是为你制作的！看完之后，你应该就能自己动手开始第一次尝试了。",
     "duration_sec": 946,
-    "views": 77504,
+    "views": 78530,
+    "matched_keywords": [
+      "vibe coding"
+    ]
+  },
+  {
+    "id": "bvid:BV1caVh6fE6Z",
+    "platform": "bilibili",
+    "title": "【2026最新版】绝对是B站讲的最细的Claude Code教程，从国内环境安装出发，项目开发及个人使用总结带你玩转 Vibe Coding！",
+    "url": "http://www.bilibili.com/video/av116656764358481",
+    "source": "AI大模型_",
+    "published_at": "2026-05-29T07:53:39+00:00",
+    "summary": "制作不易，大家喜欢视频记得点点关注，一键三连呀【点赞、投币、收藏】感谢支持！\n本视频配套课件笔记代码/学习大纲/大模型学习路线戳这里获取→https://www.bilibili.com/opus/1195847460814061571?spm_id_from=333.1387.0.0\n另外有需要AI大模型学习路线图+必看书籍（国内外大牛著作）+入门及进阶视频教程+项目实战及源码提供+面试实战场景题移步评论置顶即可~",
+    "duration_sec": 41071,
+    "views": 3154,
     "matched_keywords": [
       "vibe coding"
     ]
@@ -1663,35 +2063,7 @@
     "published_at": "2026-03-01T15:14:36+00:00",
     "summary": "1、认识Vibe Coding\n2、入门指南（零基础能学吗？学完后能做什么？）\n3、工具与实践（推荐工具&amp;动手写一个移动端网站）\n4、实操微调（修改页面中图片和文字，有点进阶）\n5、部署云端，让别人看到你的作品",
     "duration_sec": 3445,
-    "views": 148863,
-    "matched_keywords": [
-      "vibe coding"
-    ]
-  },
-  {
-    "id": "bvid:BV16NvCBrEVs",
-    "platform": "bilibili",
-    "title": "什么是Vibe Coding，以及怎么使用？",
-    "url": "http://www.bilibili.com/video/av115797133368973",
-    "source": "清华姜学长",
-    "published_at": "2025-12-28T12:36:33+00:00",
-    "summary": "-",
-    "duration_sec": 354,
-    "views": 139303,
-    "matched_keywords": [
-      "vibe coding"
-    ]
-  },
-  {
-    "id": "aid:0",
-    "platform": "bilibili",
-    "title": "Wiki's Vibe Coding",
-    "url": "https://www.bilibili.com/video/",
-    "source": "勤劳的牧场主",
-    "published_at": null,
-    "summary": "",
-    "duration_sec": 0,
-    "views": 0,
+    "views": 148988,
     "matched_keywords": [
       "vibe coding"
     ]
@@ -1705,49 +2077,49 @@
     "published_at": "2026-05-29T05:43:23+00:00",
     "summary": "【全网最细】目前B站讲得最全最细的Vibe Coding全套系统教程！零代码也能直接上手！七天就能从小白到大神，学完即就业！少走99%的弯路！存下吧，真的很难找全！",
     "duration_sec": 2104,
-    "views": 702,
+    "views": 716,
     "matched_keywords": [
       "vibe coding"
     ]
   },
   {
-    "id": "bvid:BV1AHDuBoE2S",
+    "id": "bvid:BV1oNVH6xEWS",
     "platform": "bilibili",
-    "title": "锐评vibe coding工具“从夯到拉”",
-    "url": "http://www.bilibili.com/video/av116347090502349",
-    "source": "布鲁歇一歇",
-    "published_at": "2026-04-04T15:19:25+00:00",
+    "title": "Claude Code 国内直连保姆级教程｜10分钟从入门到精通，原理+安装+实战全覆盖，解锁Vibe Coding编程新范式",
+    "url": "http://www.bilibili.com/video/av116667602503393",
+    "source": "码士集团-小晨晨晨",
+    "published_at": "2026-05-31T06:14:34+00:00",
     "summary": "",
-    "duration_sec": 405,
-    "views": 228079,
+    "duration_sec": 18347,
+    "views": 3370,
     "matched_keywords": [
       "vibe coding"
     ]
   },
   {
-    "id": "bvid:BV1ZjDYB7Eam",
+    "id": "bvid:BV16NvCBrEVs",
     "platform": "bilibili",
-    "title": "从 0 到 1：6小时掌握 Vibe Coding！ Claude Code ＋ AI 这支影片直接让你超越 90% AI 玩家",
-    "url": "http://www.bilibili.com/video/av116362122894759",
-    "source": "李哈利Harry",
-    "published_at": "2026-04-08T11:00:00+00:00",
-    "summary": "🌟 加入AI大师社群并运用AI创业赚钱：https://www.skool.com/aiagent/about?ref=f2b566934c5c4639aaa47ab1fe39310e\n📌 加入我的免费 Skool 社群，获取模板：https://www.skool.com/aiagent8/about?ref=f2b566934c5c4639aaa47ab1fe39310e\n\n🚧 开始使用 n8n 构建自动化! 👇\nhttps://n8n.partnerlinks.io/fwp82h8azh6k\n\n💻",
-    "duration_sec": 20996,
-    "views": 50228,
+    "title": "什么是Vibe Coding，以及怎么使用？",
+    "url": "http://www.bilibili.com/video/av115797133368973",
+    "source": "清华姜学长",
+    "published_at": "2025-12-28T12:36:33+00:00",
+    "summary": "-",
+    "duration_sec": 354,
+    "views": 139547,
     "matched_keywords": [
       "vibe coding"
     ]
   },
   {
-    "id": "bvid:BV1rbRmBgEto",
+    "id": "bvid:BV11urFBrEc4",
     "platform": "bilibili",
-    "title": "手把手教你 Vibe Coding：Codex 几个实用功能，特别适合不懂开发的新人",
-    "url": "http://www.bilibili.com/video/av116539827160862",
-    "source": "唐师兄Terence",
-    "published_at": "2026-05-09T01:00:00+00:00",
-    "summary": "codex 下载地址：https://chatgpt.com/codex/",
-    "duration_sec": 592,
-    "views": 2970,
+    "title": "🚀告别Vibe Coding！用Superpowers让Claude Code写出工程级代码，一次通过零报错！遵循TDD最佳实践！支持Codex",
+    "url": "http://www.bilibili.com/video/av115877227860495",
+    "source": "AI超元域",
+    "published_at": "2026-01-11T15:43:58+00:00",
+    "summary": "🚀开发者必看！Superpowers把专业工程团队方法论固化成Skills，让Claude Code告别越写越乱的困境：规格驱动+代码质量双重保障！AI编程新范式！头脑风暴+计划+执行一条龙自动化\n\n\n🚀🚀🚀 视频简介：\n🎬 本期视频详细演示了开源AI编程工作流系统Superpowers的完整使用方法，并通过开发一款iOS时间线笔记原生应用来实测其效果。\n🔧 核心内容：\nSuperpowers工作流介绍：告别Vibe Coding，拥抱工程化开发方法论\n支持Claude Code、OpenAI Codex",
+    "duration_sec": 758,
+    "views": 129836,
     "matched_keywords": [
       "vibe coding"
     ]
@@ -1761,133 +2133,7 @@
     "published_at": "2026-05-31T04:02:32+00:00",
     "summary": "视频中的大模型分别来自\n1.Kimi K2.6&amp; GLM5.1 — 优云智算\nhttps://passport.compshare.cn/register?referral_code=DzKOV5Iik6lG9svK0phShR&amp;ytag=GPU_YY_YX_bl_ljm0531\n2.DeepSeek-V4\nhttps://platform.deepseek.com/",
     "duration_sec": 1361,
-    "views": 904,
-    "matched_keywords": [
-      "vibe coding"
-    ]
-  },
-  {
-    "id": "bvid:BV1fRSfBWE5X",
-    "platform": "bilibili",
-    "title": "vlog｜白天上班 晚上vibe coding，准备一个月上架我的第一款App！",
-    "url": "http://www.bilibili.com/video/av116357526003120",
-    "source": "chocpink_AI版",
-    "published_at": "2026-04-06T11:33:25+00:00",
-    "summary": "想了很久终于开始了这件事——vibe coding！\n\n下面快速总结了我用到的一些工具：\nApptweak：竞品调研\nfigma make、google stitch、impeccable插件：生成UI页面\nfigma mcp/plugin：连接到cursor\npinterest/小红书/iconfont：找图片/icon素材\nGrok：生图、素材优化\ncursor+Xcode（swift）：落地\ngoogle font：下载字体\ngpt/claude：结构化prompt、回答我的疑难杂症等\n\n尝试之前觉",
-    "duration_sec": 520,
-    "views": 94053,
-    "matched_keywords": [
-      "vibe coding"
-    ]
-  },
-  {
-    "id": "bvid:BV17mVc6TEGo",
-    "platform": "bilibili",
-    "title": "【2026最新】目前B站最全最细的Vibe Coding系统教程，不懂代码也可快速上手，全套干货一站式掌握，避开绝大多数误区，轻松玩转 AI 领域！",
-    "url": "http://www.bilibili.com/video/av116639467112560",
-    "source": "AI产品设计",
-    "published_at": "2026-05-26T06:36:21+00:00",
-    "summary": "【2026最新】目前B站最全最细的Vibe Coding系统教程，不懂代码也可快速上手，全套干货一站式掌握，避开绝大多数误区，轻松玩转 AI 领域！",
-    "duration_sec": 3979,
-    "views": 1474,
-    "matched_keywords": [
-      "vibe coding"
-    ]
-  },
-  {
-    "id": "bvid:BV1o2Vg6ZEqu",
-    "platform": "bilibili",
-    "title": "Vibe Coding小技巧（5）- 网页加速",
-    "url": "http://www.bilibili.com/video/av116661478824102",
-    "source": "桥哥聊AI",
-    "published_at": "2026-05-30T03:51:53+00:00",
-    "summary": "AI出的网页一般都会直接依赖公网上的工具js（CDN），它们往往加载慢、不稳定，最稳妥的方式还是下载下来，放在自己电脑上，加载飞快。",
-    "duration_sec": 246,
-    "views": 141,
-    "matched_keywords": [
-      "vibe coding"
-    ]
-  },
-  {
-    "id": "bvid:BV1CeGL6EEGi",
-    "platform": "bilibili",
-    "title": "拒绝写代码像抽卡！零基础 Vibe Coding 的极速入门课",
-    "url": "http://www.bilibili.com/video/av116627622397784",
-    "source": "公园4004",
-    "published_at": "2026-05-24T04:19:55+00:00",
-    "summary": "你是不是也遇到过这种情况：听说现在有了 AI，只要动动嘴皮子就能写出软件，结果一上手才发现——AI 给你生成了一堆看似完美的“屎山代码”，而你只能在成千上万行的错误里痛苦地改 Bug，最后在绝望中放弃？\n 别灰心，这根本不是你的错，而是大部分教程从一开始就教错了方向！\n\n作为 Vibe Coding 系列的第一期视频，今天我绝不讲虚假的广告营销，而是带你掌握真实 AI 编程的“核心心法”——永远从最小可用版本开始验证。\n\n在本期视频里，我将用一个非常实用的实战项目：「3小时长播客转对话文稿神器」，向你演示",
-    "duration_sec": 891,
-    "views": 1650,
-    "matched_keywords": [
-      "vibe coding"
-    ]
-  },
-  {
-    "id": "bvid:BV13xL46NEu8",
-    "platform": "bilibili",
-    "title": "AI时代下的自救指南——掌握Vibe Coding普通人当下最强生产力工具。",
-    "url": "http://www.bilibili.com/video/av116611516275536",
-    "source": "程序员老韩",
-    "published_at": "2026-05-21T08:03:42+00:00",
-    "summary": "",
-    "duration_sec": 203,
-    "views": 29079,
-    "matched_keywords": [
-      "vibe coding"
-    ]
-  },
-  {
-    "id": "bvid:BV17cGi6aEuo",
-    "platform": "bilibili",
-    "title": "什么？连胡彦斌都开始vibe coding了！",
-    "url": "http://www.bilibili.com/video/av116623243544630",
-    "source": "bennixzp",
-    "published_at": "2026-05-23T09:45:50+00:00",
-    "summary": "网络\n什么？连胡彦斌都开始vibe coding了！\n\n昨晚《歌手》片段，他用 Claude Code + VS Code，自己独立开发了粉丝社区App彦火，目前在TestFlight测试中\n\n正所谓：\n\n你要的 token 全拿走\n把 memory 化成空\n不要在乎 model context 有所保留\n说过的话当 skill 附送",
-    "duration_sec": 37,
-    "views": 636,
-    "matched_keywords": [
-      "vibe coding"
-    ]
-  },
-  {
-    "id": "bvid:BV1v8mtBpEwK",
-    "platform": "bilibili",
-    "title": "Kiro 上手必看：从Vibe 到 Spec 全攻略！",
-    "url": "http://www.bilibili.com/video/av115695564102585",
-    "source": "AI编程瓜哥",
-    "published_at": "2025-12-10T13:49:11+00:00",
-    "summary": "一眼懂，Vibe coding 和Spec Coding，双模式实战。",
-    "duration_sec": 1525,
-    "views": 20427,
-    "matched_keywords": [
-      "vibe coding"
-    ]
-  },
-  {
-    "id": "bvid:BV116P7zXEkE",
-    "platform": "bilibili",
-    "title": "纯小白教学：用vibecoding做个人网站",
-    "url": "http://www.bilibili.com/video/av116160209093711",
-    "source": "阿囤囤-庞滚滚",
-    "published_at": "2026-03-02T15:11:36+00:00",
-    "summary": "不需要🪜哦～",
-    "duration_sec": 380,
-    "views": 24031,
-    "matched_keywords": [
-      "vibe coding"
-    ]
-  },
-  {
-    "id": "bvid:BV1CaR7BoEyo",
-    "platform": "bilibili",
-    "title": "GPT_Plus土耳其区充值详细教程+天才程序员又复活",
-    "url": "http://www.bilibili.com/video/av116504863644190",
-    "source": "麦麦大数据",
-    "published_at": "2026-05-02T12:03:07+00:00",
-    "summary": "APPLE  土耳其区礼品卡充值",
-    "duration_sec": 935,
-    "views": 76602,
+    "views": 1690,
     "matched_keywords": [
       "vibe coding"
     ]
@@ -1901,7 +2147,161 @@
     "published_at": "2026-05-26T10:22:46+00:00",
     "summary": "绝对是B站No.1的Claude Code教程：国内安装+实战开发案例+个人使用心得总结，手把手带你拥抱Vibe Coding！\n配套课件笔记/PPT已备好，另外有需要AI大模型学习路线图+必看书籍（国内外大牛著作）+入门及进阶视频教程+项目实战及源码提供+面试实战场景题移步评论置顶即可~",
     "duration_sec": 7819,
-    "views": 24435,
+    "views": 24900,
+    "matched_keywords": [
+      "vibe coding"
+    ]
+  },
+  {
+    "id": "bvid:BV14pVJ6KEoG",
+    "platform": "bilibili",
+    "title": "Vibe Coding全栈开发实战体系课（B站高分课程）",
+    "url": "http://www.bilibili.com/video/av116666579032769",
+    "source": "西瓜讲大模型",
+    "published_at": "2026-05-31T01:29:24+00:00",
+    "summary": "项目驱动是最快的学习方式！",
+    "duration_sec": 761,
+    "views": 412,
+    "matched_keywords": [
+      "vibe coding"
+    ]
+  },
+  {
+    "id": "bvid:BV19x6vBXEqC",
+    "platform": "bilibili",
+    "title": "1小时精通 Qoder Skills：实战+避坑指南",
+    "url": "http://www.bilibili.com/video/av115982991365489",
+    "source": "Qoder",
+    "published_at": "2026-01-30T10:05:00+00:00",
+    "summary": "",
+    "duration_sec": 3488,
+    "views": 27687,
+    "matched_keywords": [
+      "vibe coding"
+    ]
+  },
+  {
+    "id": "bvid:BV1AHDuBoE2S",
+    "platform": "bilibili",
+    "title": "锐评vibe coding工具“从夯到拉”",
+    "url": "http://www.bilibili.com/video/av116347090502349",
+    "source": "布鲁歇一歇",
+    "published_at": "2026-04-04T15:19:25+00:00",
+    "summary": "",
+    "duration_sec": 405,
+    "views": 228434,
+    "matched_keywords": [
+      "vibe coding"
+    ]
+  },
+  {
+    "id": "bvid:BV1DjVM66EF5",
+    "platform": "bilibili",
+    "title": "Vibe Coding从入门到精通实战课(手把手教学)",
+    "url": "http://www.bilibili.com/video/av116660908332561",
+    "source": "西瓜讲大模型",
+    "published_at": "2026-05-30T01:25:43+00:00",
+    "summary": "项目驱动是最快的学习方式！",
+    "duration_sec": 761,
+    "views": 832,
+    "matched_keywords": [
+      "vibe coding"
+    ]
+  },
+  {
+    "id": "bvid:BV1v8mtBpEwK",
+    "platform": "bilibili",
+    "title": "Kiro 上手必看：从Vibe 到 Spec 全攻略！",
+    "url": "http://www.bilibili.com/video/av115695564102585",
+    "source": "AI编程瓜哥",
+    "published_at": "2025-12-10T13:49:11+00:00",
+    "summary": "一眼懂，Vibe coding 和Spec Coding，双模式实战。",
+    "duration_sec": 1525,
+    "views": 20436,
+    "matched_keywords": [
+      "vibe coding"
+    ]
+  },
+  {
+    "id": "bvid:BV1aHqHBME3a",
+    "platform": "bilibili",
+    "title": "如何高效使用 Qoder",
+    "url": "http://www.bilibili.com/video/av115738832541682",
+    "source": "Qoder",
+    "published_at": "2025-12-18T05:11:43+00:00",
+    "summary": "",
+    "duration_sec": 2405,
+    "views": 14900,
+    "matched_keywords": [
+      "vibe coding"
+    ]
+  },
+  {
+    "id": "bvid:BV1ZjDYB7Eam",
+    "platform": "bilibili",
+    "title": "从 0 到 1：6小时掌握 Vibe Coding！ Claude Code ＋ AI 这支影片直接让你超越 90% AI 玩家",
+    "url": "http://www.bilibili.com/video/av116362122894759",
+    "source": "李哈利Harry",
+    "published_at": "2026-04-08T11:00:00+00:00",
+    "summary": "🌟 加入AI大师社群并运用AI创业赚钱：https://www.skool.com/aiagent/about?ref=f2b566934c5c4639aaa47ab1fe39310e\n📌 加入我的免费 Skool 社群，获取模板：https://www.skool.com/aiagent8/about?ref=f2b566934c5c4639aaa47ab1fe39310e\n\n🚧 开始使用 n8n 构建自动化! 👇\nhttps://n8n.partnerlinks.io/fwp82h8azh6k\n\n💻",
+    "duration_sec": 20996,
+    "views": 50355,
+    "matched_keywords": [
+      "vibe coding"
+    ]
+  },
+  {
+    "id": "bvid:BV1K2Va6uEuZ",
+    "platform": "bilibili",
+    "title": "我的第一个Vibe Coding软件终于上线了，但过程很曲折～",
+    "url": "http://www.bilibili.com/video/av116658106666921",
+    "source": "游戏开发极客",
+    "published_at": "2026-05-31T02:00:00+00:00",
+    "summary": "OPC创业，最简单的是做产品，后面的工作比你想象的难的多。",
+    "duration_sec": 346,
+    "views": 797,
+    "matched_keywords": [
+      "vibe coding"
+    ]
+  },
+  {
+    "id": "bvid:BV1vhVn6SEuk",
+    "platform": "bilibili",
+    "title": "【2026最新】绝对是B站No.1的Claude Code教程：国内安装+实战开发案例+个人使用心得总结，手把手带你拥抱Vibe Coding！",
+    "url": "http://www.bilibili.com/video/av116667904561472",
+    "source": "杨淑娟Python",
+    "published_at": "2026-05-31T07:14:54+00:00",
+    "summary": "绝对是B站No.1的Claude Code教程：国内安装+实战开发案例+个人使用心得总结，手把手带你拥抱Vibe Coding！\n配套课件笔记/PPT已备好，另外有需要AI大模型学习路线图+必看书籍（国内外大牛著作）+入门及进阶视频教程+项目实战及源码提供+面试实战场景题移步评论置顶即可~\n\ncodex+hermes+claude code 从0到1全讲明白",
+    "duration_sec": 33757,
+    "views": 450,
+    "matched_keywords": [
+      "vibe coding"
+    ]
+  },
+  {
+    "id": "bvid:BV1o2Vg6ZEqu",
+    "platform": "bilibili",
+    "title": "Vibe Coding小技巧（5）- 网页加速",
+    "url": "http://www.bilibili.com/video/av116661478824102",
+    "source": "桥哥聊AI",
+    "published_at": "2026-05-30T03:51:53+00:00",
+    "summary": "AI出的网页一般都会直接依赖公网上的工具js（CDN），它们往往加载慢、不稳定，最稳妥的方式还是下载下来，放在自己电脑上，加载飞快。",
+    "duration_sec": 246,
+    "views": 285,
+    "matched_keywords": [
+      "vibe coding"
+    ]
+  },
+  {
+    "id": "bvid:BV1cwVG6qEEW",
+    "platform": "bilibili",
+    "title": "【硬核教程】如何让一个J人红温？只需要给他做这份“发疯版NBTI”...",
+    "url": "http://www.bilibili.com/video/av116662737048980",
+    "source": "GenJi是真想教会你",
+    "published_at": "2026-05-30T10:00:00+00:00",
+    "summary": "NBTI测试链接：https://www.starkawaii.top/\n\n还在因为MBTI不是J人被面试官拒绝？别再掉进这个当代职场大坑了！\n本期视频，我用 Claude Code手搓了一个专属打工人的“NBTI”发疯测试！同时找来三位不同岗位的小伙伴，记录他们一周的工作实况，来验证测验的准确性。\n还有满满干货，三个步骤沉浸式拆解Vibe Coding全流程，视频同款测试链接+网页搭建详细教程已放在评论区，快来测测你是什么职场人格吧，记得三连哦！",
+    "duration_sec": 549,
+    "views": 531437,
     "matched_keywords": [
       "vibe coding"
     ]
