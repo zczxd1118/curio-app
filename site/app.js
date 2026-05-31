@@ -298,9 +298,11 @@ function openGenerateViaIssue(domainId, domainName) {
   document.body.appendChild(modal);
   $('#gen-cancel', modal).addEventListener('click', () => modal.classList.remove('show'));
   modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('show'); });
-  $('#gen-go', modal).addEventListener('click', () => {
+  $('#gen-go', modal).addEventListener('click', async () => {
     const email = $('#gen-email', modal).value.trim();
     const note = $('#gen-note', modal).value.trim();
+
+    // 准备 GitHub Issue 内容（fallback 用）
     const lines = [
       '<!-- Curio 生成请求 · 自动生成 -->',
       '```yaml',
@@ -316,11 +318,36 @@ function openGenerateViaIssue(domainId, domainName) {
     lines.push('Agent 看到后会立刻重跑这个领域。完成后会评论本 Issue 并关闭。');
     const title = encodeURIComponent('[curio-generate] ' + domainName);
     const body = encodeURIComponent(lines.join('\n'));
-    const url = 'https://github.com/' + GH_REPO + '/issues/new?labels=curio-generate&title=' + title + '&body=' + body;
-    window.open(url, '_blank');
+    const issueUrl = 'https://github.com/' + GH_REPO + '/issues/new?labels=curio-generate&title=' + title + '&body=' + body;
+
+    // 1. 优先开 GitHub Issue（让记录留痕，便于 ingest）
+    window.open(issueUrl, '_blank');
     localStorage.setItem(key, String(now));
+
+    // 2. 同时尝试调 worker /trigger-generate（如本机 webhook 在线，立即触发）
+    let triggered = false;
+    if (WORKER_API) {
+      try {
+        const r = await fetch(WORKER_API + '/trigger-generate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ domain_id: domainId, domain_name: domainName }),
+        });
+        const data = await r.json().catch(() => ({}));
+        if (data.ok && data.queued !== false) {
+          triggered = true;
+        }
+      } catch (e) {
+        // 忽略——网络问题不影响 GitHub Issue 已经开
+      }
+    }
+
     modal.classList.remove('show');
-    toast('✅ 已打开 GitHub 提交页，Agent 会在下次触发时拉到');
+    if (triggered) {
+      toast('已开始处理，预计 5-10 分钟内完成（请在 GitHub Issue 看进度）');
+    } else {
+      toast('已打开 GitHub 提交页，Agent 在下次触发时（最长 1 小时）拉到');
+    }
   });
   modal.classList.add('show');
 }

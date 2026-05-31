@@ -1,188 +1,189 @@
 {
-  "domain": "金融",
-  "domain_id": "finance",
   "scored_at": "2026-05-31",
+  "domain": "金融",
+  "intro": "本期 19 条候选里挑了 5 条必读。候选池基本被 Stratechery（Ben Thompson）和 HN 包了——金融领域没拉到 B 站。最重要的两条是 SpaceX IPO 估值与 Nvidia 财报新口径，都是 Ben Thompson 这周的深度分析；HN 那边热度最高的反而是 Forge guardrails（687 票）和 Microsoft Cancels Claude Code（业务侧新闻），它们看起来是 AI 但金融含义清楚——一个是 8B 模型用 guardrails 把 agentic 任务从 53% 拉到 99%，意味着推理成本结构变化；另一个是 Microsoft 这种企业客户撤单对 Anthropic 收入预期的反向信号。按你上次反馈想看实战与名人对话，必读 #4 选了 Eric Seufert 谈 Meta AI 投流模型的访谈。",
   "must_read": [
     {
-      "id": "hn:tesla-lithium",
-      "title": "Tesla's lithium refinery discharges 231,000 gallons of polluted wastewater a day",
-      "url": "https://news.ycombinator.com/item?id=tesla-lithium",
-      "platform": "hackernews",
-      "source": {
-        "name": "HN · Tesla"
-      },
-      "why_recommend": "Tesla 德州锂精炼厂被实锤每天排 23.1 万加仑废水，监管诉讼风险。对持有 TSLA 是关键负面信号。",
-      "title_zh": "Tesla 锂精炼厂日排废水 23 万加仑",
-      "keywords": [
-        "Tesla",
-        "TSLA",
-        "环保监管",
-        "锂电池"
-      ],
-      "summary_zh": "得州 Nueces 县排水区工人 1 月在 Robstown 镇外的沟渠例行维护时，发现一根未登记的管道正在排放黑色液体。经追查，管道属于 Tesla 旗下 2024 年 12 月投产的锂精炼厂——北美第一座商业级 spodumene-to-LiOH 工厂。每日排放量约 23.1 万加仑（约 875 吨），目前未取得州环保局排污许可。"
-    },
-    {
-      "id": "hn:us-inflation-3.8",
-      "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
-      "url": "https://news.ycombinator.com/item?id=us-cpi",
-      "platform": "hackernews",
-      "source": {
-        "name": "HN · 宏观"
-      },
-      "why_recommend": "美国 5 月 CPI 同比 3.8% 超预期，伊朗战争推高能源价格。决定下次议息会议节奏。",
-      "title_zh": "美国 CPI 同比 3.8% 超预期，伊朗战争推高能源",
-      "keywords": [
-        "CPI",
-        "通胀",
-        "美联储",
-        "能源"
-      ],
-      "summary_zh": "美国劳工统计局发布 5 月 CPI 同比 3.8%，高于市场预期 3.5%、4 月 3.4%。核心 CPI（剔除食品能源）为 3.6%。能源分项环比 +4.2% 是主要推手，背景是 5 月初以美对伊朗军事行动后布伦特原油从 78 美元一度冲到 92 美元。机构对 9 月降息预期由 78% 降至 41%。"
-    },
-    {
-      "id": "rss:ben-spacex-ipo",
+      "id": "rss:https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
+      "platform": "rss",
       "title": "The SpaceX IPO and Data Centers in Space",
-      "url": "https://stratechery.com/2026/spacex-ipo-data-centers-in-space/",
-      "platform": "rss",
-      "source": {
-        "name": "Stratechery · Ben Thompson"
-      },
-      "why_recommend": "Ben Thompson 解读 SpaceX IPO 和'太空数据中心'命题。Starlink 现金流 + AI 算力需求叠加。",
-      "title_zh": "SpaceX IPO 与太空数据中心命题",
-      "keywords": [
-        "SpaceX",
-        "IPO",
-        "Starlink",
-        "数据中心"
-      ],
-      "summary_zh": "Stratechery 主笔 Ben Thompson 撰文，将近期两条独立报道关联：SpaceX 据 WSJ 准备启动 IPO，估值预计在 4000 亿美元区间，Starlink 已贡献年化 100 亿+ 美元现金流；同时多家初创（Lumen Orbit / Starcloud）试验在轨数据中心，依赖太阳能直供与真空散热绕开地面电力瓶颈。Thompson 提出：太空算力可能成为 SpaceX 的下一个收入支柱。"
+      "title_zh": "SpaceX IPO 与太空数据中心",
+      "keywords": ["SpaceX", "IPO", "数据中心", "太空算力", "估值"],
+      "summary_zh": "Ben Thompson 在 5 月 27 日撰文分析 SpaceX 即将进行的 IPO。他指出，单看现金流模型很难支撑 SpaceX 当前估值，但若把 Starlink 之上的「太空数据中心」这一条业务线纳入估值——把卫星轨道当作 AI 推理算力的新基础设施——估值才有想象空间。文章引用 Starlink 用户数与未来数据中心成本结构推算，认为这是 SpaceX IPO 真正的故事，传统宽带业务只是 cover。",
+      "url": "https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
+      "source": "Stratechery by Ben Thompson",
+      "score": { "novelty": 9, "depth": 10, "relevance": 8 },
+      "why_recommend": "SpaceX IPO 是这周最大的市场事件，Ben Thompson 没像别人一样讲卫星互联网，而是把它定性为「太空 AI 基础设施 IPO」。这个角度直接连接你关心的 AI 算力供给与企业估值逻辑。",
+      "is_diverse": false
     },
     {
-      "id": "rss:nvidia-earnings",
+      "id": "rss:https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+      "platform": "rss",
       "title": "Nvidia Earnings, The AI Stack, Nvidia's New Reporting",
-      "url": "https://stratechery.com/2026/nvidia-earnings-ai-stack/",
-      "platform": "rss",
-      "source": {
-        "name": "Stratechery"
-      },
-      "why_recommend": "NVDA 最新财报解读 + 新报告口径。AI 板块持仓必读。",
-      "title_zh": "Nvidia 财报与新报告口径解读",
-      "keywords": [
-        "Nvidia",
-        "NVDA",
-        "AI Stack",
-        "财报"
-      ],
-      "summary_zh": "Nvidia 公布 FY26 Q1 财报，营收 412 亿美元，同比 +69%，再次超预期；数据中心分项 358 亿美元，AI 推理收入首次单独披露。同期 Nvidia 调整业务报告口径，将 GPU、网络、系统级方案重新拆分为 'AI Stack' 三层。Ben Thompson 在本期 Stratechery 围绕这套新口径解读护城河：CUDA + InfiniBand + DGX 的体系优势与 AMD MI400/Google TPU 的竞争层级。"
+      "title_zh": "Nvidia 财报、AI Stack 与 Nvidia 的新披露口径",
+      "keywords": ["Nvidia", "财报", "AI Stack", "hyperscaler", "披露口径"],
+      "summary_zh": "Ben Thompson 5 月 26 日点评 Nvidia 最新一季财报。Nvidia 这次主动调整披露口径，把销售额拆成两部分：来自 hyperscaler 的（毛利在被压制、面临商品化压力），以及来自其余客户的（Nvidia 控制全栈，议价能力更强）。这是 Nvidia 第一次官方承认 hyperscaler 部分定价权在下滑，也意味着资本市场看 Nvidia 收入结构需要换一套指标。",
+      "url": "https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+      "source": "Stratechery by Ben Thompson",
+      "score": { "novelty": 9, "depth": 9, "relevance": 9 },
+      "why_recommend": "Nvidia 是 AI 算力周期的中枢。这条不是常规财报点评，是披露口径变化导致估值模型要换——这种「会计层面的信号」一般要等到一个季度以后才会被市场消化，提前看到一周差距巨大。",
+      "is_diverse": false
     },
     {
-      "id": "hn:tesla-solar-roof",
-      "title": "Tesla Solar Roof is on life support as it pivot to panels",
-      "url": "https://news.ycombinator.com/item?id=tesla-solar",
+      "id": "hn:48192383",
       "platform": "hackernews",
-      "source": {
-        "name": "HN · Tesla"
-      },
-      "why_recommend": "Tesla Solar Roof 实质放弃，10 年累计装机仅 3000 户。能源业务想象空间需打折。",
-      "title_zh": "Tesla Solar Roof 实质放弃，10 年累计仅 3000 户",
-      "keywords": [
-        "Tesla",
-        "Solar Roof",
-        "Energy",
-        "估值"
-      ],
-      "summary_zh": "Electrek 实地走访与公开信息汇总：2016 年 Musk 发布 Solar Roof 时承诺 2019 年底每周新装 1000 户，截至 2025 累计装机仅约 3000 户。Tesla 已停止公开装机数量、调整经销商激励，主推传统光伏面板。多名前员工证实公司内部在 2024 Q3 已将 Solar Roof 列为 'maintenance mode' 产品。"
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "title_zh": "Forge：用 guardrails 把 8B 模型在 agentic 任务上从 53% 拉到 99%",
+      "keywords": ["Forge", "Guardrails", "8B 模型", "agentic", "推理成本"],
+      "summary_zh": "5 月 19 日发布于 HN，687 票、252 评论。开发者 Antoine Zambelli 开源了 Forge，一个给小模型加 guardrails 的 Python 框架。在公开 agentic 基准上，未加 guardrails 的 8B 模型得分 53%，加上 guardrails 后跳到 99%，逼近大模型水平。仓库里给出了对应的 prompt 模板与 trace 示例，覆盖工具调用、自我反思与失败回退。",
+      "url": "https://github.com/antoinezambelli/forge",
+      "source": "Hacker News",
+      "score": { "novelty": 9, "depth": 8, "relevance": 8 },
+      "why_recommend": "对金融意义在于：8B 模型用 guardrails 顶替 200B 模型的 agentic 能力，意味着 token 成本曲线可能要重写。Anthropic、OpenAI 的定价护城河会被工程层重新定义。HN 687 票说明圈子认账。",
+      "is_diverse": false
     },
     {
-      "id": "rss:data-center-veto",
-      "title": "2026.21: The Data Center Veto",
-      "url": "https://stratechery.com/2026/data-center-veto/",
+      "id": "rss:https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
       "platform": "rss",
-      "source": {
-        "name": "Stratechery"
-      },
-      "why_recommend": "本地政府开始否决数据中心选址。AI 算力供应链的物理瓶颈从芯片转向电力+土地。",
-      "title_zh": "数据中心选址被本地政府否决潮",
-      "keywords": [
-        "数据中心",
-        "AI 算力",
-        "DLR",
-        "电力"
-      ],
-      "summary_zh": "Stratechery 总结近期多起本地政府否决新建数据中心的案例：弗吉尼亚 Prince William 县拒绝 Amazon 申请、得州 Hays County 因用水问题否决 Meta 项目、亚利桑那 Mesa 市要求 OpenAI 合作方提供独立电力方案。理由集中在噪音、电力与用水。报告指出，'芯片不再是 AI 算力扩张的唯一瓶颈，土地与许可正在成为新的供应限制'。"
+      "title": "An Interview with Eric Seufert About Models and Ads, and AI's Upside for Humanity",
+      "title_zh": "对话 Eric Seufert：生成式 AI、广告模型与 Meta 的护城河",
+      "keywords": ["Eric Seufert", "Meta", "广告", "foundation model", "访谈"],
+      "summary_zh": "5 月 28 日发布的长访谈，Stratechery 邀 Mobile Dev Memo 的 Eric Seufert 聊三件事：生成式 AI 在广告链路中的部署、为什么 Meta 自研 foundation model 对其广告业务是核心议题，以及理解广告这门生意如何让人对 AI 的人类长期价值更乐观。访谈横跨广告归因、Apple ATT 后的格局、以及 Meta vs OpenAI 的护城河比较。",
+      "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
+      "source": "Stratechery by Ben Thompson",
+      "score": { "novelty": 7, "depth": 10, "relevance": 9 },
+      "why_recommend": "你上期反馈说想多看名人访谈而不是教程——这条就是。Eric Seufert 是广告与移动归因领域顶级分析师，他对 Meta foundation model 的判断会影响你对 Meta 估值的看法。RSS 长访谈，深度足够。",
+      "is_diverse": false
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+      "platform": "rss",
+      "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
+      "title_zh": "数据中心反对潮：理解阻力 + 真正能解决的方案",
+      "keywords": ["数据中心", "AI 基建", "电力", "社区反对", "成本结构"],
+      "summary_zh": "Ben Thompson 5 月 18 日撰文。美国多个州的数据中心扩建项目遇到本地居民阻力，原因覆盖电费上涨、电网负载、噪声、水耗。他认为这些反对都是合理的，唯一可持续的解法不是 PR，是直接以电费补贴或社区分红的方式「付钱给受影响居民」。文章引了几个州的具体案例和补贴金额。",
+      "url": "https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+      "source": "Stratechery by Ben Thompson",
+      "score": { "novelty": 7, "depth": 9, "relevance": 7 },
+      "why_recommend": "数据中心的电力 / 社区成本是 AI capex 周期被忽视的拖尾风险。Ben 给的「补贴而非游说」方案有清晰的财务模型，能影响你判断 hyperscaler 的实际单位算力成本。",
+      "is_diverse": false
     }
   ],
   "reference": [
     {
-      "id": "hn:tesla-robotaxi-crash",
-      "title": "Tesla reveals two Robotaxi crashes involving teleoperators",
-      "url": "",
+      "id": "rss:https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
+      "platform": "rss",
+      "title": "An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web",
+      "title_zh": "对话 Parallel 创始人 Parag Agarwal：Agentic Web 时代如何给内容定价",
+      "keywords": ["Parallel", "Parag Agarwal", "agentic web", "内容定价", "访谈"],
+      "summary_zh": "5 月 21 日的访谈。Parallel 创始人（Twitter 前 CEO）Parag Agarwal 谈他新创公司的核心命题：当 agent 替人类访问网络成为主流，内容生产者如何继续被激励。访谈也覆盖了 Twitter 的几个旧问题。",
+      "url": "https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
+      "source": "Stratechery by Ben Thompson",
+      "score": { "novelty": 7, "depth": 8, "relevance": 7 },
+      "why_recommend": "agentic web 的内容支付链路一旦跑通，会重构搜索广告与媒体订阅的现金流模型。访谈视角对 PM 有用，但不是必读。",
+      "is_diverse": false
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
+      "platform": "rss",
+      "title": "Google I/O, World Models, I/O Spaghetti",
+      "title_zh": "Google I/O 复盘：World Models 与产品凌乱感",
+      "keywords": ["Google I/O", "World Models", "DeepMind", "Gemini"],
+      "summary_zh": "5 月 20 日 Ben Thompson 复盘 Google I/O 2026。一方面 AI 全面铺进 Google 产品矩阵，另一方面产品命名与重叠混乱。文章追问 DeepMind 是否还与 Google 主营业务对齐，并对 World Models 路线做了独立点评。",
+      "url": "https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
+      "source": "Stratechery by Ben Thompson",
+      "score": { "novelty": 7, "depth": 8, "relevance": 7 },
+      "why_recommend": "Google 的 AI 战略是否能转化为收入是悬而未决的问题。这条对 DeepMind 与商业部门错位的判断对中长期估值有用。",
+      "is_diverse": false
+    },
+    {
+      "id": "hn:48108313",
       "platform": "hackernews",
-      "why_recommend": "Tesla Robotaxi 两起事故，远程操作员介入。FSD 法律边界事件。"
+      "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
+      "title_zh": "美国通胀跳升至 3.8%：伊朗冲突推高能源成本",
+      "keywords": ["美国通胀", "CPI", "能源", "伊朗", "宏观"],
+      "summary_zh": "BBC 5 月 12 日报道，美国 4 月 CPI 同比涨至 3.8%，主要驱动是与伊朗冲突相关的原油与天然气价格上行。HN 260 票，439 评论。",
+      "url": "https://www.bbc.com/news/articles/c202pgxx89lo",
+      "source": "Hacker News",
+      "score": { "novelty": 8, "depth": 5, "relevance": 7 },
+      "why_recommend": "宏观通胀直接影响美联储路径。HN 260 票，但内容偏简短新闻而非深度分析，所以放参考。",
+      "is_diverse": false
     },
     {
-      "id": "rss:eric-seufert",
-      "title": "Interview with Eric Seufert About Models and Ads",
-      "url": "",
-      "platform": "rss",
-      "why_recommend": "广告变现专家谈 AI 对广告业的影响。"
-    },
-    {
-      "id": "rss:lucene-ai",
-      "title": "2026.22: Luceing Their Mind",
-      "url": "",
-      "platform": "rss",
-      "why_recommend": "Ben Thompson 谈搜索基础设施和 AI 的关系。"
-    },
-    {
-      "id": "hn:forge-guardrails",
-      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
-      "url": "",
+      "id": "hn:48198551",
       "platform": "hackernews",
-      "why_recommend": "如果你做投资类 agent，'用工程而不是 finetune 解决可靠性'的思路值得借鉴。",
-      "title_zh": "Forge 让 8B 本地模型 agent 任务成功率从 53% 拉到 99%",
-      "keywords": [
-        "Forge",
-        "Guardrails",
-        "8B 模型",
-        "本地推理"
-      ]
-    },
-    {
-      "id": "rss:parallel-content-value",
-      "title": "Interview with Parallel Founder About Valuing Content on the Agentic Web",
-      "url": "",
-      "platform": "rss",
-      "why_recommend": "Agentic web 时代内容估值方式的讨论。"
+      "title": "Tesla's lithium refinery discharges 231,000 gallons of polluted wastewater a day",
+      "title_zh": "Tesla 锂精炼厂每日排放 23 万加仑污水",
+      "keywords": ["Tesla", "锂精炼", "ESG 风险", "污染"],
+      "summary_zh": "5 月 19 日 HN 高热度新闻，498 票。Autonocion 报道 Tesla 在德州的锂精炼厂被指每日排放约 23 万加仑污水，可能引发监管行动与 ESG 评级影响。",
+      "url": "https://www.autonocion.com/us/tesla-lithium-refinery-texas/",
+      "source": "Hacker News",
+      "score": { "novelty": 7, "depth": 5, "relevance": 6 },
+      "why_recommend": "虽然你说不爱看概念股蹭热点，但 Tesla 是市场权重股，这种 ESG / 监管层面新闻 6 个月内会反映在估值上。短新闻所以放参考。",
+      "is_diverse": true
     }
   ],
   "skip": [
     {
-      "id": "hn:yc-startup-x",
-      "title": "Launch HN: StartupX (YC P26) – AI for accountants",
-      "skip_reason": "YC 项目自荐，对宏观投资影响弱。"
+      "id": "rss:https://stratechery.com/2026/luceing-their-mind/",
+      "title": "2026.22: Luceing Their Mind",
+      "skip_reason": "周精选汇总，本周三篇主文章已被单独覆盖（SpaceX IPO / Eric Seufert / 中国社会流动性），重复"
     },
     {
-      "id": "hn:btc-eth-debate",
-      "title": "Show HN: Yet another DEX aggregator",
-      "skip_reason": "加密细分工具，与本期金融主线无关。"
+      "id": "rss:https://stratechery.com/2026/the-data-center-veto/",
+      "title": "2026.21: The Data Center Veto",
+      "skip_reason": "周精选汇总，已被单篇 Data Center Discontent 覆盖"
     },
     {
-      "id": "rss:ai-substack-noise",
-      "title": "Top 10 Vibe-Coding Tools Compared (2026)",
-      "skip_reason": "标题党列表文，无新数据。"
+      "id": "rss:https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
+      "title": "2026.20: Shifting Alliances in a Changing World",
+      "skip_reason": "周精选汇总，地缘内容偏宏观叙事，不在你 signal_preferences 里"
     },
     {
-      "id": "hn:fintech-saas-launch",
-      "title": "Show HN: Open-source ledger for SMBs",
-      "skip_reason": "纯技术性 SaaS 发布，与持仓/宏观决策距离远。"
+      "id": "rss:https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/",
+      "title": "An Interview with Ben Thompson at the MoffettNathanson Conference",
+      "skip_reason": "Ben 自己被采访的会议视频，论点已散见于他本周其他几篇文章"
+    },
+    {
+      "id": "hn:48165980",
+      "title": "Tesla Solar Roof is on life support as it pivot to panels",
+      "skip_reason": "Tesla 业务线调整新闻，与你画像关联弱，与上面 Tesla 锂精炼那条信号重叠"
+    },
+    {
+      "id": "hn:48236770",
+      "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
+      "skip_reason": "YC 创业项目发布，AI 工具方向，与「金融领域」契合度低"
+    },
+    {
+      "id": "hn:48225040",
+      "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents",
+      "skip_reason": "AI 创业公司发布，与金融弱相关"
+    },
+    {
+      "id": "hn:48225596",
+      "title": "Show HN: Agent.email",
+      "skip_reason": "工程项目，与金融无关"
+    },
+    {
+      "id": "hn:48309986",
+      "title": "Show HN: Ktx – Open-source executable context layer for data agents",
+      "skip_reason": "AI 工程工具，与金融无关"
+    },
+    {
+      "id": "hn:48160991",
+      "title": "Tesla reveals two Robotaxi crashes involving teleoperators",
+      "skip_reason": "Tesla 个例事故新闻，估值层面信号不足"
     }
   ],
   "stats": {
     "candidates_total": 19,
-    "must_read_count": 6,
-    "reference_count": 5,
-    "skip_count_actual": 8
-  },
-  "intro": "本期（2026-05-31）金融关键词：Tesla 双重坏消息（锂厂污染 + Solar Roof 放弃）、美国 CPI 3.8% 超预期、SpaceX IPO 与太空数据中心命题、数据中心选址的'本地政府 veto' 开始成为 AI 算力供应链新瓶颈。"
+    "must_read_count": 5,
+    "reference_count": 4,
+    "skip_count_shown": 10,
+    "skip_count_actual": 10,
+    "diverse_count": 1,
+    "platform_distribution": {
+      "must_read_by_platform": {"rss": 4, "hackernews": 1, "bilibili": 0}
+    }
+  }
 }

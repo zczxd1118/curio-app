@@ -280,6 +280,63 @@ function isAdminAuthed(req, env) {
   return env.ADMIN_TOKEN && got === expected;
 }
 
+// 网页点"⚡ 立刻生成" → Worker 收到 → 转发到本机 Cloudflare Tunnel webhook
+// 让本机立即跑 prepare（不用等 hourly automation 轮询）。
+//
+// 前置条件：
+// 1. 本机跑 python local_server.py 起 Flask（监听 8787）
+// 2. cloudflared tunnel 把本机暴露成 https://local.curioradar.fun
+// 3. wrangler.toml 配 LOCAL_TUNNEL_URL = "https://local.curioradar.fun"
+//
+// 如果 tunnel 不可达，自动 fallback 到旧路径（GitHub Issue + hourly automation）。
+async function handleTriggerGenerate(req, env) {
+  let body;
+  try { body = await req.json(); } catch { return errorJson("invalid json"); }
+  const domainId = body && body.domain_id;
+  const issueNum = body && body.issue_num;
+  if (!domainId) return errorJson("domain_id required");
+
+  const tunnelUrl = env.LOCAL_TUNNEL_URL;
+  if (!tunnelUrl) {
+    // 没配 tunnel，告诉前端走 fallback（GitHub Issue 路径）
+    return json({
+      ok: false,
+      fallback: "github_issue",
+      message: "本机 webhook 未配置，请走 GitHub Issue（hourly automation 兜底）",
+    });
+  }
+
+  // 转发到本机 Flask
+  try {
+    const r = await fetch(`${tunnelUrl}/trigger-generate`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Curio-Token": env.ADMIN_TOKEN,
+        "User-Agent": "curio-worker/1.0",
+      },
+      body: JSON.stringify({ domain_id: domainId, issue_num: issueNum }),
+      // CF Worker 默认 30s timeout，足够本机响应
+    });
+    if (!r.ok) {
+      return json({
+        ok: false,
+        fallback: "github_issue",
+        message: `本机响应 ${r.status}，请走 GitHub Issue 兜底`,
+      });
+    }
+    const data = await r.json().catch(() => ({}));
+    return json({ ok: true, ...data });
+  } catch (e) {
+    return json({
+      ok: false,
+      fallback: "github_issue",
+      message: `本机不可达：${e.message}（电脑没开？请走 GitHub Issue）`,
+    });
+  }
+}
+
+
 async function handleAdminUnsubscribeDomain(req, env) {
   const auth = req.headers.get("authorization") || "";
   if (auth !== `Bearer ${env.ADMIN_TOKEN}`) {
@@ -453,6 +510,9 @@ export default {
       }
       if (url.pathname === "/broadcast" && req.method === "POST") {
         return handleBroadcast(req, env);
+      }
+      if (url.pathname === "/trigger-generate" && req.method === "POST") {
+        return handleTriggerGenerate(req, env);
       }
       return errorJson("not found: " + url.pathname, 404);
     } catch (e) {

@@ -29,3 +29,4 @@ worker/.wrangler-state/
 
 # pending generate state (runtime)
 .pending_generate.json
+.local_server_logs/

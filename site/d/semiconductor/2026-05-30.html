@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Curio · 半导体 周刊 · Curio</title>
-<link rel="stylesheet" href="../../styles.css?v=20260531222149">
+<link rel="stylesheet" href="../../styles.css?v=20260531231707">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -120,9 +120,9 @@ This calculation includes audio, visual...
 <h3>4. Forge：用 guardrails 把 8B 模型在 agentic 任务上从 53% 拉到 99%</h3>
 <p><strong>来源</strong>：zambelli · hackernews · 热度 687</p>
 <p><em>原标题：Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</em></p>
-<p>🏷️ <code>Forge</code> · <code>Guardrails</code> · <code>8B 模型</code> · <code>agentic</code> · <code>工程层</code></p>
+<p>🏷️ <code>Forge</code> · <code>Guardrails</code> · <code>8B 模型</code> · <code>agentic</code> · <code>推理成本</code></p>
 <p><strong>📖 主编点评</strong></p>
-<p>这条是这周对你 Curio 项目最直接有用的一篇——8B 模型加 guardrails 后在 agentic 基准上跳到 99%，跟大模型几乎打平。仓库里把 prompt 模板、trace 例子、失败回退策略全开源了，你可以直接拆出一套放进 Curio 的评分链路。比起 Forge 项目本身更值得记的是这条经验：Agent 上限不是模型决定的，是 guardrails 决定的。这个判断如果你早三个月接受，可能项目里很多决策会重做。HN 687 票是对这个判断的集体背书。</p>
+<p>这条 HN 上 687 票不是空穴来风——把 8B 模型在 agentic 基准上从 53% 拉到 99%，意味着「模型规模决定能力」这个简单叙事已经站不住了。仓库里能看到 guardrails 怎么写、prompt 怎么搭、失败回退怎么编。对你做 Agent 项目的工程意义直接：以后规划成本时，别再默认必须用顶级大模型。对金融意义同样直接：如果工程层能持续填平模型差距，Anthropic / OpenAI 的 token 定价护城河就会被反向侵蚀。看完仓库再回头看 Anthropic 估值，会有不一样的感觉。</p>
 <details><summary>展开英文原文</summary>
 
 A reliability layer for self-hosted LLM tool-calling. You give forge a set of tools; the model calls whichever it wants in whatever order. Workflow structure is opt-in — `required_steps`
@@ -287,6 +287,6 @@ window.CURIO_REL_ROOT = "../../";
 window.CURIO_API_BASE = "https://api.curioradar.fun";
 window.CURIO_GH_REPO = "zczxd1118/curio-app";
 </script>
-<script src="../../app.js?v=20260531222149"></script>
+<script src="../../app.js?v=20260531231707"></script>
 </body>
 </html>
