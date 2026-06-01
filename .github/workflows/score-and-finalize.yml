@@ -14,9 +14,9 @@ on:
         description: 'cadence: daily / weekly'
         required: false
         default: 'daily'
-  # schedule:
-  #   - cron: '0 4 * * *'      # daily 每天 12:00 北京（UTC 04:00）
-  #   - cron: '0 4 * * 1'      # weekly 周一 12:00 北京（实际跑两次，cadence 由 _is_monday 判断）
+  schedule:
+    - cron: '0 4 * * *'      # daily 每天 12:00 北京（UTC 04:00），周一跑两次（下面 weekly 也跑）
+    - cron: '5 4 * * 1'      # weekly 周一 12:05 北京（错峰 5 分钟，避免和 daily 抢锁）
 
 permissions:
   contents: write
