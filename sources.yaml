@@ -394,3 +394,45 @@ domains:
           min_points: 30
           lang: en
     icon_type: ai
+  domain-17:
+    name: 电子信息与芯片
+    icon: 📰
+    frequency: weekly
+    topics:
+      default:
+        name: 电子信息与芯片
+        sources:
+        - name: SemiAnalysis（半导体深度）
+          kind: rss
+          url: https://www.semianalysis.com/feed
+          lang: en
+        - name: EE Times
+          kind: rss
+          url: https://www.eetimes.com/feed
+          lang: en
+          optional: true
+        - name: HN · TSMC
+          kind: hn_search
+          query: TSMC
+          days: 30
+          min_points: 30
+          lang: en
+        - name: HN · Nvidia
+          kind: hn_search
+          query: Nvidia
+          days: 14
+          min_points: 50
+          lang: en
+        - name: HN · semiconductor
+          kind: hn_search
+          query: semiconductor
+          days: 30
+          min_points: 30
+          lang: en
+        - name: HN · 电子信息与芯片
+          kind: hn_search
+          query: 电子信息与芯片
+          days: 30
+          min_points: 30
+          lang: en
+    icon_type: semiconductor
