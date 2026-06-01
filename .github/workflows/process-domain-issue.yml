@@ -90,6 +90,19 @@ jobs:
           python -m agent.score_with_llm
           python cli_generate.py finalize_unified --cadence daily
 
+      - name: Commit & push generated content (add-domain api)
+        if: steps.addmode.outputs.mode == 'api'
+        run: |
+          git config user.name "curio-bot"
+          git config user.email "curio-bot@users.noreply.github.com"
+          git add topics/unified.scored.json topics/radar.*.md topics/*.weekly.*.md topics/*.candidates.json topics/unified.*.md topics/unified.*.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(ci): generate from add-domain #${{ github.event.issue.number }} [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push origin main && break || sleep 5
+            done
+          fi
+
       - name: Inline fetch only (local/off 模式)
         if: steps.addmode.outputs.mode != 'api'
         run: |
@@ -276,6 +289,47 @@ jobs:
           python -m agent.score_with_llm
           echo "📤 step 3/3: finalize_unified（拆分 + 渲染 + push KV + 邮件）"
           python cli_generate.py finalize_unified --cadence daily
+
+      - name: Commit & push generated content (api mode)
+        if: steps.mode.outputs.mode == 'api'
+        run: |
+          git config user.name "curio-bot"
+          git config user.email "curio-bot@users.noreply.github.com"
+          git add topics/unified.scored.json topics/radar.*.md topics/*.weekly.*.md topics/*.candidates.json topics/unified.*.md topics/unified.*.json topics/_run_plan.json topics/_notes_plan.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore(ci): generate from issue #${{ github.event.issue.number }} [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push origin main && break || sleep 5
+            done
+          fi
+
+      - name: Close issue (api mode)
+        if: steps.mode.outputs.mode == 'api'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          # 从 .pending_generate.json 读 issue + domain_id 关 issue
+          python -c "
+          import json, subprocess, sys
+          from pathlib import Path
+          p = Path('.pending_generate.json')
+          if not p.exists(): sys.exit(0)
+          d = json.loads(p.read_text())
+          for item in d.get('pending', []):
+              num = item.get('issue_number') or item.get('number')
+              dom = item.get('domain_id')
+              if num and num == ${{ github.event.issue.number }}:
+                  try:
+                      from agent.worker_sync import close_generate_issue
+                      close_generate_issue(num, success=True, domain_id=dom, message='✅ API 模式：CI 已生成新内容并发送订阅邮件。')
+                  except Exception as e:
+                      print(f'close failed: {e}')
+                      # 兜底直接关
+                      subprocess.run(['gh','issue','close',str(num),'--comment','✅ API 模式生成完成','-r','completed'])
+          "
 
       - name: Inline fetch only (local/off mode)
         if: steps.mode.outputs.mode != 'api'
