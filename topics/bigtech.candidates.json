@@ -1,8 +1,8 @@
 {
-  "domain": "大厂讯息",
+  "domain": "大厂 AI 动态",
   "domain_id": "bigtech",
   "topic_id": "default",
-  "fetched_at": "2026-06-01T04:52:16.741810+00:00",
+  "fetched_at": "2026-06-01T06:42:40.963722+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -22,7 +22,11 @@
     "HN · Bedrock": 2,
     "HN · DeepMind": 6
   },
-  "subtopics": [],
+  "subtopics": [
+    {
+      "name": "default"
+    }
+  ],
   "total": 159,
   "items": [
     {
@@ -1063,40 +1067,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/second-brain-cloudflare",
-      "title": "Second Brain for AI",
-      "url": "https://www.producthunt.com/products/second-brain-cloudflare",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "fmerian",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-20T06:21:04+00:00",
-      "summary": "Persistent memory for Claude, ChatGPT & Cursor. Free. Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/clipto-ai",
-      "title": "Clipto",
-      "url": "https://www.producthunt.com/products/clipto-ai",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Chris Messina",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-04-27T10:29:24+00:00",
-      "summary": "Fully local, natural language search over terabytes of media Discussion | Link",
-      "lang": "en"
-    },
-    {
       "id": "rss:https://www.producthunt.com/products/web-clipper-for-notebooklm",
       "title": "Web Clipper for NotebookLM",
       "url": "https://www.producthunt.com/products/web-clipper-for-notebooklm",
@@ -1114,20 +1084,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/oura",
-      "title": "Oura Ring 5",
-      "url": "https://www.producthunt.com/products/oura",
+      "id": "rss:https://www.producthunt.com/products/second-brain-cloudflare",
+      "title": "Second Brain for AI",
+      "url": "https://www.producthunt.com/products/second-brain-cloudflare",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Zac Zuo",
+        "name": "fmerian",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-30T18:05:21+00:00",
-      "summary": "The world’s smallest smart ring, now even better Discussion | Link",
+      "published_at": "2026-05-20T06:21:04+00:00",
+      "summary": "Persistent memory for Claude, ChatGPT & Cursor. Free. Discussion | Link",
       "lang": "en"
     },
     {
@@ -1148,6 +1118,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.producthunt.com/products/oura",
+      "title": "Oura Ring 5",
+      "url": "https://www.producthunt.com/products/oura",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Zac Zuo",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T18:05:21+00:00",
+      "summary": "The world’s smallest smart ring, now even better Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/clipto-ai",
+      "title": "Clipto",
+      "url": "https://www.producthunt.com/products/clipto-ai",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Chris Messina",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-27T10:29:24+00:00",
+      "summary": "Fully local, natural language search over terabytes of media Discussion | Link",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.producthunt.com/products/wandesk-ai",
       "title": "Wandesk",
       "url": "https://www.producthunt.com/products/wandesk-ai",
@@ -1162,40 +1166,6 @@
       "views": null,
       "published_at": "2025-12-06T03:15:50+00:00",
       "summary": "Build Your Own AI Desktop Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/wingbits-ai",
-      "title": "Wingbits AI",
-      "url": "https://www.producthunt.com/products/wingbits-ai",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Ben Lang",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-11T19:20:03+00:00",
-      "summary": "AI agents for real-time aircraft monitoring and alerts Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/step-3-5-flash",
-      "title": "Step 3.7 Flash",
-      "url": "https://www.producthunt.com/products/step-3-5-flash",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Zac Zuo",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-29T12:47:02+00:00",
-      "summary": "Flash-speed agents model that can see and act Discussion | Link",
       "lang": "en"
     },
     {
@@ -1233,20 +1203,122 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/artisan-3",
-      "title": "Ava 2.0",
-      "url": "https://www.producthunt.com/products/artisan-3",
+      "id": "rss:https://www.producthunt.com/products/step-3-5-flash",
+      "title": "Step 3.7 Flash",
+      "url": "https://www.producthunt.com/products/step-3-5-flash",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Rohan Chaubey",
+        "name": "Zac Zuo",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-27T22:10:18+00:00",
-      "summary": "Your AI BDR that runs outbound sales autonomously Discussion | Link",
+      "published_at": "2026-05-29T12:47:02+00:00",
+      "summary": "Flash-speed agents model that can see and act Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/wingbits-ai",
+      "title": "Wingbits AI",
+      "url": "https://www.producthunt.com/products/wingbits-ai",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Ben Lang",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-11T19:20:03+00:00",
+      "summary": "AI agents for real-time aircraft monitoring and alerts Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/linear",
+      "title": "Linear Diffs",
+      "url": "https://www.producthunt.com/products/linear",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "fmerian",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T18:09:28+00:00",
+      "summary": "A new way to review PRs, directly inside Linear Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/drafted-4",
+      "title": "Drafted",
+      "url": "https://www.producthunt.com/products/drafted-4",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Garry Tan",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T05:25:33+00:00",
+      "summary": "Design a home instantly with AI Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/mcp-bridge-by-appfactor",
+      "title": "MCP Bridge by Appfactor",
+      "url": "https://www.producthunt.com/products/mcp-bridge-by-appfactor",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "fmerian",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-01T19:46:27+00:00",
+      "summary": "Connect any API to any AI agent Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/coffee-piano-harmony-lab",
+      "title": "Coffee Piano",
+      "url": "https://www.producthunt.com/products/coffee-piano-harmony-lab",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Jaime",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T21:45:11+00:00",
+      "summary": "Browser music and piano studio with visual harmony tools Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/modev",
+      "title": "MoDev",
+      "url": "https://www.producthunt.com/products/modev",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Juan Rivera Jr",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-13T19:05:26+00:00",
+      "summary": "The AI dev environment built for your phone. Discussion | Link",
       "lang": "en"
     },
     {
@@ -1264,6 +1336,57 @@
       "views": null,
       "published_at": "2026-05-28T14:56:30+00:00",
       "summary": "AI Video Cutter for viral Shorts, Reels, TikTok in Telegram Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/promptlayer-2",
+      "title": "PromptLayer",
+      "url": "https://www.producthunt.com/products/promptlayer-2",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Sam Benson",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T06:41:50+00:00",
+      "summary": "Trace AI requests, workflows, and costs in one timeline Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/gps-2",
+      "title": "GPS",
+      "url": "https://www.producthunt.com/products/gps-2",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Hardik Singh",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T15:05:48+00:00",
+      "summary": "Memory layer for LLMs that stores repo rules + past lessons Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/integuru",
+      "title": "Integuru",
+      "url": "https://www.producthunt.com/products/integuru",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Garry Tan",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T13:41:04+00:00",
+      "summary": "Generate fast, reliable APIs for any platform. No browsers Discussion | Link",
       "lang": "en"
     },
     {
@@ -1301,20 +1424,71 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/coffee-piano-harmony-lab",
-      "title": "Coffee Piano",
-      "url": "https://www.producthunt.com/products/coffee-piano-harmony-lab",
+      "id": "rss:https://www.producthunt.com/products/rabbittravel",
+      "title": "RabbitTravel",
+      "url": "https://www.producthunt.com/products/rabbittravel",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Jaime",
+        "name": "Tuan Anh",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-28T21:45:11+00:00",
-      "summary": "Browser music and piano studio with visual harmony tools Discussion | Link",
+      "published_at": "2026-05-28T10:34:41+00:00",
+      "summary": "Smart travel planning made effortless Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/ava-studio",
+      "title": "Ava Studio",
+      "url": "https://www.producthunt.com/products/ava-studio",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Ben Lang",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-19T21:41:22+00:00",
+      "summary": "Your AI creative team for video ads Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/artisan-3",
+      "title": "Ava 2.0",
+      "url": "https://www.producthunt.com/products/artisan-3",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Rohan Chaubey",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-27T22:10:18+00:00",
+      "summary": "Your AI BDR that runs outbound sales autonomously Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/basedash",
+      "title": "Basedash: Embedded Analytics",
+      "url": "https://www.producthunt.com/products/basedash",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Max Musing",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T18:57:07+00:00",
+      "summary": "Give customers AI analytics inside your product. Discussion | Link",
       "lang": "en"
     },
     {
@@ -1335,20 +1509,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/gps-2",
-      "title": "GPS",
-      "url": "https://www.producthunt.com/products/gps-2",
+      "id": "rss:https://www.producthunt.com/products/screen-ruler",
+      "title": "Screen Ruler",
+      "url": "https://www.producthunt.com/products/screen-ruler",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Hardik Singh",
+        "name": "Myster Violets",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-28T15:05:48+00:00",
-      "summary": "Memory layer for LLMs that stores repo rules + past lessons Discussion | Link",
+      "published_at": "2026-05-23T08:30:35+00:00",
+      "summary": "The go-to ruler for designers and developers Discussion | Link",
       "lang": "en"
     },
     {
@@ -1383,176 +1557,6 @@
       "views": null,
       "published_at": "2026-05-23T20:37:22+00:00",
       "summary": "Travel back to 1998 and use Lovable on Windows 98 Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/basedash",
-      "title": "Basedash: Embedded Analytics",
-      "url": "https://www.producthunt.com/products/basedash",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Max Musing",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-28T18:57:07+00:00",
-      "summary": "Give customers AI analytics inside your product. Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/promptlayer-2",
-      "title": "PromptLayer",
-      "url": "https://www.producthunt.com/products/promptlayer-2",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Sam Benson",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-29T06:41:50+00:00",
-      "summary": "Trace AI requests, workflows, and costs in one timeline Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/screen-ruler",
-      "title": "Screen Ruler",
-      "url": "https://www.producthunt.com/products/screen-ruler",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Myster Violets",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-23T08:30:35+00:00",
-      "summary": "The go-to ruler for designers and developers Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/drafted-4",
-      "title": "Drafted",
-      "url": "https://www.producthunt.com/products/drafted-4",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Garry Tan",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-29T05:25:33+00:00",
-      "summary": "Design a home instantly with AI Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/rabbittravel",
-      "title": "RabbitTravel",
-      "url": "https://www.producthunt.com/products/rabbittravel",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Tuan Anh",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-28T10:34:41+00:00",
-      "summary": "Smart travel planning made effortless Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/modev",
-      "title": "MoDev",
-      "url": "https://www.producthunt.com/products/modev",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Juan Rivera Jr",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-13T19:05:26+00:00",
-      "summary": "The AI dev environment built for your phone. Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/linear",
-      "title": "Linear Diffs",
-      "url": "https://www.producthunt.com/products/linear",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "fmerian",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-28T18:09:28+00:00",
-      "summary": "A new way to review PRs, directly inside Linear Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/integuru",
-      "title": "Integuru",
-      "url": "https://www.producthunt.com/products/integuru",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Garry Tan",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-28T13:41:04+00:00",
-      "summary": "Generate fast, reliable APIs for any platform. No browsers Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/mcp-bridge-by-appfactor",
-      "title": "MCP Bridge by Appfactor",
-      "url": "https://www.producthunt.com/products/mcp-bridge-by-appfactor",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "fmerian",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-04-01T19:46:27+00:00",
-      "summary": "Connect any API to any AI agent Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/notchy",
-      "title": "Notchy",
-      "url": "https://www.producthunt.com/products/notchy",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Vishva Variya",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-28T10:38:55+00:00",
-      "summary": "Mac dynamic island with music, timers, clipboard, file drops Discussion | Link",
       "lang": "en"
     },
     {
@@ -1726,6 +1730,261 @@
       "lang": "zh"
     },
     {
+      "id": "rss:https://36kr.com/newsflashes/3834250804602505?f=rss",
+      "title": "中国国新等在杭州成立创业投资基金，出资额10.01亿",
+      "url": "https://36kr.com/newsflashes/3834250804602505?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T06:41:36+00:00",
+      "summary": "36氪获悉，天眼查App显示，近日，国新钱江创业投资基金（杭州）合伙企业（有限合伙）成立，执行事务合伙人为国新国同（杭州）股权投资有限公司，出资额10.01亿人民币，经营范围为创业投资。合伙人信息显示，该基金由中国国新控股旗下国新国同（杭州）股权投资有限公司、杭州上城领航创业投资有限公司、杭实智投（杭州）产业投资基金合伙企业（有限合伙）、国新创投基金（杭州）合伙企业（有限合伙）共同出资。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834249751176836?f=rss",
+      "title": "天津人工智能传感器产业园正式开园，首批10家企业集中签约",
+      "url": "https://36kr.com/newsflashes/3834249751176836?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T06:40:32+00:00",
+      "summary": "36氪获悉，据天津发布，5月31日，市级重点建设项目——天津人工智能传感器产业园正式开园。首批10家企业集中签约，同时，园区围绕构建产业生态，聚焦行业创新平台、产教融合、金融赋能等达成多项合作协议。天津人工智能传感器产业园定位于打造京津冀区域人工智能传感器产业集聚标杆。“园区一期建设20栋适配传感器产业的定制化载体，预计2027年6月交付。随后，将启动二期和三期建设，再增加7万平方米载体。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834241322870406?f=rss",
+      "title": "软银集团超越丰田，成为日本市值最高企业",
+      "url": "https://36kr.com/newsflashes/3834241322870406?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T06:31:58+00:00",
+      "summary": "36氪获悉，软银集团超越丰田，成为日本市值最高企业。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834237552600961?f=rss",
+      "title": "创业板指跌超2%",
+      "url": "https://36kr.com/newsflashes/3834237552600961?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T06:28:08+00:00",
+      "summary": "36氪获悉，创业板指跌超2%；半导体、白酒、CPO、存储芯片等方向跌幅居前，沪深京三市下跌个股超1700只。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834236227774082?f=rss",
+      "title": "中国航天商业卫星公司增资至16.5亿，增幅约26%",
+      "url": "https://36kr.com/newsflashes/3834236227774082?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T06:26:47+00:00",
+      "summary": "36氪获悉，天眼查App显示，近日，中国航天科技集团商业卫星有限公司发生工商变更，新增航天投资控股有限公司为股东，同时，注册资本由13.15亿人民币增至约16.5亿人民币，增幅约26%。 该公司成立于2024年9月，法定代表人为李军，经营范围含微小卫星生产制造、微小卫星科研试验、检验检测服务等，现由中国航天科技集团有限公司、北京卫星制造厂有限公司及上述新增股东等共同持股。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834231697254024?f=rss",
+      "title": "沪深京三市成交额超2.5万亿元",
+      "url": "https://36kr.com/newsflashes/3834231697254024?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T06:22:10+00:00",
+      "summary": "36氪获悉，沪深京三市成交额超2.5万亿元，较上日此时缩量3729亿元。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834229077878406?f=rss",
+      "title": "奇瑞汽车在宜宾成立新能源科技公司，注册资本2000万",
+      "url": "https://36kr.com/newsflashes/3834229077878406?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T06:19:30+00:00",
+      "summary": "36氪获悉，天眼查App显示，近日，奇达新能源科技（宜宾）有限公司成立，法定代表人为闫国红，注册资本2000万人民币，经营范围包括电池制造、电池销售、汽车零部件及配件制造等，由奇瑞汽车旗下芜湖奇达动力电池系统有限公司全资持股。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834221364455303?f=rss",
+      "title": "上海：将集中力量 重点突破工业软件、基础软件等领域的底层关键核心技术",
+      "url": "https://36kr.com/newsflashes/3834221364455303?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T06:11:40+00:00",
+      "summary": "上海市新闻发布会6月1日召开，介绍《上海市服务业发展“十五五”规划》相关情况。上海市经济信息化委副主任葛东波表示，预计到2030年，上海市软件和信息服务业营收规模有望达到3万亿元左右，行业增加值突破1万亿元。上海将集中力量，重点突破工业软件、基础软件等领域的底层关键核心技术，加快完成传统软件产品的价值重构。同时，加快推动人工智能全面赋能软件全生命周期，覆盖需求分析、代码生成、测试验证等各个关键环节，积极培育“智能体即服务”“结果即服务”等新型业态，探索软件研发新范式，培育服务新形态与商业新模式。（证券时报）",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834214609774216?f=rss",
+      "title": "零跑汽车：5月交付81569台，同比增长81%",
+      "url": "https://36kr.com/newsflashes/3834214609774216?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T06:04:47+00:00",
+      "summary": "36氪获悉，零跑汽车公布5月交付数据，全系交付81569台，同比增长81%，再创单月交付历史新高。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834196724835971?f=rss",
+      "title": "网络餐饮新规实施首日，淘宝闪购依规联合多地监管部门完成首批外卖商户打标",
+      "url": "https://36kr.com/newsflashes/3834196724835971?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T05:46:36+00:00",
+      "summary": "网络餐饮新规6月1日起正式实施。淘宝闪购与北京、上海、安徽、南昌、成都、盐城、泰州、汕尾等地合作，根据市场监管部门推送的名单完成了首批“无堂食”外卖商户打标。当日，平台商家版客户端内已支持商家提报“无堂食”“可堂食”“明厨亮灶”等标签，经平台核验后予以展示。淘宝闪购今年以来推动6万餐饮商户完成合规整改，与各地监管部门的食安治理政企协作也持续取得进展。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834192173737859?f=rss",
+      "title": "追觅开放融资，单笔投资门槛最低3.5亿，Pre-IPO轮投前估值或700亿",
+      "url": "https://36kr.com/newsflashes/3834192173737859?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T05:41:58+00:00",
+      "summary": "据蓝鲸新闻报道，追觅近期开放直接融资窗口，计划释放部分Pre-IPO份额。本轮投前估值或锁定约700亿元人民币，单笔投资最低门槛高达3.5亿元，整个融资窗口预计于7月初关闭。另外，此次整体释放的份额区间为5%至10%，若按700亿元估值计算，对应融资规模约在35亿至70亿元之间。（财联社）",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834182435891076?f=rss",
+      "title": "LobsterAI上线图片视频大模型矩阵",
+      "url": "https://36kr.com/newsflashes/3834182435891076?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T05:32:04+00:00",
+      "summary": "36氪获悉，国内大厂首个开源龙虾类产品LobsterAI （网易有道龙虾）近日宣布上线图片生成与视频生成能力，并一次性接入包括Seedream、Seedance、HappyHorse、MiniMax-Hailuo在内的模型。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834176636626560?f=rss",
+      "title": "浙江：拟实施“星火计划”培育未来产业行动，加速量子技术产品规模化应用",
+      "url": "https://36kr.com/newsflashes/3834176636626560?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T05:26:10+00:00",
+      "summary": "36氪获悉，《浙江省实施“星火计划”培育壮大未来产业行动方案（2026—2030年）（征求意见稿）》公开征求意见，提到重点发展具身智能、生物制造、量子科技、脑机接口、氢能和绿色燃料、6G、前沿新材料、细胞与基因治疗、深海科技、空天科技等10个基础条件好、爆发力强的领域。其中，重点发展量子计算核心赛道，做强量子测量优势赛道，做优量子通信潜力赛道，推动量子芯片、核心器件、软件算法与场景应用协同发展，加速量子技术产品规模化应用，抢占量子科技产业发展机遇，打造全国知名的量子产业创新发展高地。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834169860925063?f=rss",
+      "title": "报道称总部位于新加坡的普洛斯计划不晚于第四季在香港上市",
+      "url": "https://36kr.com/newsflashes/3834169860925063?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T05:19:16+00:00",
+      "summary": "报道称总部位于新加坡的普洛斯计划不晚于第四季在香港上市。（财联社）",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834157224945541?f=rss",
+      "title": "沪深两市成交额突破2万亿元",
+      "url": "https://36kr.com/newsflashes/3834157224945541?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T05:06:25+00:00",
+      "summary": "36氪获悉，沪深两市成交额突破2万亿元。",
+      "lang": "zh"
+    },
+    {
       "id": "rss:https://36kr.com/newsflashes/3834143035205509?f=rss",
       "title": "英伟达将NVIDIA DRIVE Hyperion定位为支持自动驾驶出租车出行服务的全球性平台",
       "url": "https://36kr.com/newsflashes/3834143035205509?f=rss",
@@ -1808,261 +2067,6 @@
       "views": null,
       "published_at": "2026-06-01T04:16:43+00:00",
       "summary": "36氪获悉，小鹏集团公告，2026年5月，小鹏集团共交付新车32158辆，较上月增长4%。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834096288917382?f=rss",
-      "title": "蔚来：2026年5月共交付37705辆汽车，同比增长62.3%",
-      "url": "https://36kr.com/newsflashes/3834096288917382?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T04:04:26+00:00",
-      "summary": "36氪获悉，蔚来公告，2026年5月共交付37705辆汽车，同比增长62.3%。今年前五个月，蔚来公司共交付新车150,526台，同比增长68.7%。截至目前，蔚来公司已累计交付新车1,148,118台。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834093903242880?f=rss",
-      "title": "易方达财富构建全市场基金筛选体系，买方投顾策略去年平均回报超11%",
-      "url": "https://36kr.com/newsflashes/3834093903242880?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T04:02:00+00:00",
-      "summary": "易方达财富已建立起一套覆盖全市场的基金筛选与投研体系。该体系以资产、基金、策略“三位一体”为核心，通过定量与定性相结合的分析方法，对近100家基金公司及其产品进行“分类、比较、跟踪”的动态维护，从全市场客观优选基金配置，践行买方立场。据第三方机构晨星的评价结果，易方达投顾策略组合在2025年均实现正收益。成立满6个月的实盘策略组合超过160个，平均回报为11.29%，平均夏普比率达到2.57，其中九成策略组合跑赢业绩基准，平均超额收益为1.32%。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834093699327624?f=rss",
-      "title": "恒指午间休盘涨0.87%，恒生科技指数涨1.8%",
-      "url": "https://36kr.com/newsflashes/3834093699327624?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T04:01:48+00:00",
-      "summary": "36氪获悉，恒指午间休盘涨0.87%，恒生科技指数涨1.8%；煤炭、耐用消费品、传媒板块领涨，中煤能源涨超7%，铜师傅、阅文集团涨超6%；半导体、医药生物、建材板块走弱，天数智芯跌超11%，来凯医药跌超8%，中国建材跌超4%；南向资金净买入61.86亿港元。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834084353828743?f=rss",
-      "title": "英伟达推出NVIDIA DSX平台",
-      "url": "https://36kr.com/newsflashes/3834084353828743?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T03:52:17+00:00",
-      "summary": "英伟达当地时间5月31日宣布推出NVIDIA DSX平台，为基础设施构建者提供创建AI工厂的完整行动指南。英伟达CEO黄仁勋表示：“借助DSX平台，你可以在不花一分钱的情况下对整个工厂进行模拟，在安装一个机架之前验证性能，并以生产级AI所需的可靠性运营。”（界面）",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834080621848451?f=rss",
-      "title": "英伟达CEO黄仁勋：从产业的角度来看，Token就是资产、已经成为获利的营收单位",
-      "url": "https://36kr.com/newsflashes/3834080621848451?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T03:48:29+00:00",
-      "summary": "英伟达CEO黄仁勋6月1日在Gtc Taipei 2026大会上表示，从产业的角度来看，Token就是资产，Token已经成为获利的营收单位。因为它可以制造利润。AI公司会想要建造更多Token，生成更多Token，生产更多的AI工厂，这也是为什么台湾的运算需求已经火箭式飙升。（财联社）",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834069899192192?f=rss",
-      "title": "宁德时代等入股赛力斯旗下赛豆科技公司",
-      "url": "https://36kr.com/newsflashes/3834069899192192?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T03:45:30+00:00",
-      "summary": "36氪获悉，天眼查App显示，近日，重庆蓝电科技有限公司发生工商变更，企业名称变更为重庆赛豆科技有限公司，新增宁德时代旗下宁波梅山保税港区问鼎投资有限公司、星宇股份等为股东，同时，注册资本由3.2亿人民币增至9.71亿人民币，增幅约203%。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834074636805769?f=rss",
-      "title": "新易盛：预计二季度至四季度公司产能将处于持续扩产阶段",
-      "url": "https://36kr.com/newsflashes/3834074636805769?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T03:42:24+00:00",
-      "summary": "36氪获悉，新易盛在互动平台表示，预计今年二季度至四季度公司产能将处于持续扩产阶段，以满足日益增长的订单交付需求。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834068222371717?f=rss",
-      "title": "海利得：尼龙气囊丝产品已有小批量供货",
-      "url": "https://36kr.com/newsflashes/3834068222371717?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T03:35:53+00:00",
-      "summary": "36氪获悉，海利得在互动平台表示，公司尼龙气囊丝产品已有小批量供货。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834064699532936?f=rss",
-      "title": "A股三大指数午间休盘集体下跌，白酒股领跌",
-      "url": "https://36kr.com/newsflashes/3834064699532936?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T03:32:18+00:00",
-      "summary": "36氪获悉，A股三大指数午间休盘集体下跌，沪指跌0.12%，深成指跌0.6%，创业板指跌0.9%；能源、软件、文化传媒板块走强；赛微电子涨超8%，当虹科技涨超7%，天龙集团涨超5%；半导体、通信设备、白酒板块领跌，燕东微跌超9%，太辰光跌超6%，五粮液跌超2%。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834056145069701?f=rss",
-      "title": "“博登智能”宣布完成数亿元A+轮及A++轮融资",
-      "url": "https://36kr.com/newsflashes/3834056145069701?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T03:23:35+00:00",
-      "summary": "近日，“博登智能”正式宣布完成数亿元A+轮及A++轮融资，鼎晖百孚、清新资本、鲁信创投、深产投等多家知名机构联合参投。作为面向Physical AI时代的真实世界AI基础设施公司，博登智能深度布局具身智能、大模型与自动驾驶三大核心方向，构建起“真实世界场景网络、全自动化数据引擎、现实世界验证体系”三层能力生态。本轮融资将进一步推动博登智能核心技术平台升级、全球真实世界训练网络建设及顶尖人才集聚，加速“Train at Scale, Validate in Reality”战略落地。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834054883665541?f=rss",
-      "title": "宗馥莉名下娃哈哈广盛投资公司更名宏盛",
-      "url": "https://36kr.com/newsflashes/3834054883665541?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T03:22:18+00:00",
-      "summary": "36氪获悉，天眼查App显示，近日，杭州娃哈哈广盛投资有限公司发生工商变更，企业名称变更为杭州宏胜广盛投资有限公司。该公司成立于2001年6月，宗馥莉为法定代表人、执行董事、经理并全资持股该公司，注册资本8000万人民币，经营范围为实业投资。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834037865146249?f=rss",
-      "title": "英特尔拟年底前推出新AI芯片，将使用更便宜内存与风冷技术",
-      "url": "https://36kr.com/newsflashes/3834037865146249?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T03:05:00+00:00",
-      "summary": "据报道，英特尔计划在今年年底前推出一款人工智能芯片，该芯片使用的内存和冷却技术比英伟达和AMD的同类产品更便宜。领导英特尔数据中心部门的Kevork Kechichian表示，该公司正“从基础入手”。其新款“Crescent Island”图形处理器旨在加速“推理”任务（即用户提出请求的阶段），而非模型训练——这是英伟达处理器占据主导地位的领域。（财联社）",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834024691066756?f=rss",
-      "title": "创业板指跌逾1%",
-      "url": "https://36kr.com/newsflashes/3834024691066756?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T02:51:36+00:00",
-      "summary": "36氪获悉，创业板指跌逾1%，上证指数涨0.04%，深证成指跌0.58%。沪深京三市下跌个股超1400只。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834014212728456?f=rss",
-      "title": "沪深两市成交额突破1.5万亿元",
-      "url": "https://36kr.com/newsflashes/3834014212728456?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T02:40:56+00:00",
-      "summary": "36氪获悉，沪深两市成交额突破1.5万亿元。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834001383384708?f=rss",
-      "title": "“微光医疗”完成数亿元融资",
-      "url": "https://36kr.com/newsflashes/3834001383384708?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T02:27:53+00:00",
-      "summary": "36氪获悉，近日，“微光医疗”完成新一轮数亿元融资。本轮融资由中美绿色长三角和倚锋资本共同领投，中银资本、汇誉投资共同跟投。此次融资将重点用于公司核心产品的全球商业化布局，以及创新管线的研发、注册与临床推进，进一步夯实微光医疗在智能介入领域的战略布局。",
       "lang": "zh"
     },
     {

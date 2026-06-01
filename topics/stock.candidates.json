@@ -1,0 +1,1086 @@
+{
+  "domain": "股票",
+  "domain_id": "stock",
+  "topic_id": "default",
+  "fetched_at": "2026-06-01T06:42:47.532156+00:00",
+  "platforms": [
+    "hackernews",
+    "rss"
+  ],
+  "source_stats": {
+    "华尔街见闻 API": 19,
+    "HN · stock market": 12,
+    "HN · IPO": 16,
+    "HN · earnings": 0,
+    "HN · Federal Reserve": 0,
+    "Bilibili · 股票分析": 0,
+    "Bilibili · A股": 0,
+    "Net Interest": 20
+  },
+  "subtopics": [],
+  "total": 66,
+  "items": [
+    {
+      "id": "wscn:3773554",
+      "title": "AI“泡沫”走到了哪一步？",
+      "url": "https://wallstreetcn.com/articles/3773554",
+      "summary": "申万宏源认为，AI科技革命仍处\"上半场\"，Mag7净利率高达35%、ROE达52%，与科网泡沫时期的负值形成天壤之别；头部企业资本开支预期上修36%至6877亿美元，但技术面指标已升至历史高分位。断言泡沫即将破裂为时尚早，但业绩能否持续兑现，才是悬在AI牛市头顶的真正达摩克利斯之剑。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T06:37:36+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773548",
+      "title": "英伟达GTC ：Vera Rubin全面量产，杀入PC芯片市场，携宇树布局机器人",
+      "url": "https://wallstreetcn.com/articles/3773548",
+      "summary": "黄仁勋表示，英伟达将推出面向AI智能体的CPU Vera和全新AI模型Nemotron 3 Ultra。此外英伟达公布面向WINDOWS系统个人电脑的新款处理器，挑战英特尔，剑指下一代AI PC入口。英伟达将与宇树科技等全球人形机器人制造商合作开发机器人。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T06:16:43+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773552",
+      "title": "黄仁勋即将会见LG集团会长，LG电子连续涨停、年内飙升300%",
+      "url": "https://wallstreetcn.com/articles/3773552",
+      "summary": "黄仁勋将于6月5日会见LG集团会长具光谟，聚焦物理AI合作。消息一出，LG电子连续两日触及涨停，年内累涨超300%，LG系多股同步创历史新高。分析师直言：市场重新定价的，已不再是谁来构建AI服务，而是谁来搭建运行AI所需的物理基础设施。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T06:00:54+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773551",
+      "title": "软银超越丰田成日本市值最大公司，20年霸主易位",
+      "url": "https://wallstreetcn.com/articles/3773551",
+      "summary": "软银凭借AI狂潮终结丰田逾20年日本市值霸主地位，周一软银股价盘中暴涨逾13%，市值突破46万亿日元，今年累计涨幅近73%。背后推手：OpenAI巨额敞口、750亿欧元法国AI集群投资，叠加外资连续八周净买入。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T05:41:30+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773301",
+      "title": "超越贸易结算：人民币国际化迎来黄金窗口",
+      "url": "https://wallstreetcn.com/premium/articles/3773301?layout=wscn-layout",
+      "summary": "人民币国际化正从贸易结算迈向投融资与离岸资产配置，离岸生态建设或成下一阶段关键。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T05:35:02+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773550",
+      "title": "SK海力士韩国芯片工厂气体泄漏，3600人紧急疏散、6人受伤",
+      "url": "https://wallstreetcn.com/articles/3773550",
+      "summary": "SK海力士韩国清州核心芯片工厂突发火灾并引发氢氟酸泄漏，约3600名员工紧急疏散，6人受伤。公司称生产未受中断，但事故原因仍在调查，伤亡数字存在上调可能，全球存储芯片供应链动态备受关注。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T05:28:12+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773547",
+      "title": "SpaceX领衔，4万亿美元IPO冲击，市场能消化吗？高盛：没问题，美银：泡沫已逼近历史极值",
+      "url": "https://wallstreetcn.com/articles/3773547",
+      "summary": "美银首席策略师Hartnett警告，SpaceX、OpenAI、Anthropic逾4万亿美元市值集中上市，将抽干市场流动性，AI板块集中度已逼近1880年代铁路泡沫极值；高盛则以1.3万亿美元企业回购与指数强制建仓需求反驳，认为市场足以消化。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T04:29:43+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773543",
+      "title": "A股三大股指集体下跌，煤炭掀涨停潮，AI PC、AI应用活跃，算力硬件齐跌，恒科指涨超1%，科网股普涨",
+      "url": "https://wallstreetcn.com/articles/3773543",
+      "summary": "盘面上，个股涨多跌少，沪深京三市超3800股飘红，上午半天成交1.97万亿。沪深两市半日成交额1.96万亿，较上个交易日缩量1617亿。板块方面，半导体、算力硬件产业链调整，CPO、PCB、GPU方向领跌；稀土、创新药、白酒、金融跌幅靠前。煤炭、油气、电力、文化传媒走强，AI应用、电商、网络安全题材活跃。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T04:04:55+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773546",
+      "title": "高盛上调铜目标价！美国“囤货潮”加剧全球供应紧张",
+      "url": "https://wallstreetcn.com/articles/3773546",
+      "summary": "高盛大幅上调LME铜价预测，2026年底目标价升至13735美元/吨，2027年均价升至13800美元。核心驱动来自两端：美国上半年铜进口超预期，预计全年库存累积达90万吨，“美国以外”铜市场缺口或达64万吨；同时Grasberg和Kamoa-Kakula两大铜矿复产推迟至2028年。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T03:41:45+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773538",
+      "title": "从流量狂欢到利润为王：化妆品行业的五年之痛与复苏信号",
+      "url": "https://wallstreetcn.com/premium/articles/3773538?layout=wscn-layout",
+      "summary": "行业困境反转的曙光出现了吗？",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T03:41:20+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773537",
+      "title": "AI热情主导市场，日韩股市齐创新高，韩股一度触发熔断，三星电子大涨10%",
+      "url": "https://wallstreetcn.com/articles/3773537",
+      "summary": "日经225首破67000点，三星电子单日暴涨10%创历史新高，软银市值盘中超越丰田，台股同步刷新纪录高位。韩国年内涨幅跻身全球前列，Nasdaq 100期货亦同步上扬。然而油价反弹、美伊谈判僵局暗藏变数，狂欢之下风险犹存。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T03:31:18+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773541",
+      "title": "30年美债收益率再破5%，“一切都廉价”的时代落幕了",
+      "url": "https://wallstreetcn.com/articles/3773541",
+      "summary": "30年期美债收益率再度突破5%，这一次市场的反应与2023年明显不同——投资者开始真正接受高利率将长期持续的现实。分析指出，这背后是一个更深层的结构性转变：支撑美国过去50年低通胀、低利率的三大支柱——廉价资本、廉价劳动力、廉价能源——正在同步瓦解。而AI的走向，将是决定未来通胀走势的最大未知数。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T03:05:58+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773542",
+      "title": "美债交易员押注美联储加息，五月非农将成关键检验",
+      "url": "https://wallstreetcn.com/articles/3773542",
+      "summary": "五月非农就业报告本周五即将揭晓，预计新增9万人，若数据强劲叠加PCE同比高达3.8%，市场或将为更激进加息路径定价。十年期美债收益率徘徊4.44%，机构分歧加剧，短端债券成避险首选。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:51:43+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773544",
+      "title": "OpenAI正式成立机器人团队，进军实体世界AI",
+      "url": "https://wallstreetcn.com/articles/3773544",
+      "summary": "OpenAI联合创始人Greg Brockman宣布成立“OpenAI Robotics”团队并公开招聘，Sam Altman同日将机器人列为公司核心战略优先级，近期目标锁定建筑和基础设施领域的技工辅助，长期设定是“人人拥有个人机器人”。但公司目前没有公布任何具体产品、合作伙伴或时间表。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:43:32+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3772999",
+      "title": "日落之后：英国的生死大考【付鹏说 深度文章】",
+      "url": "https://wallstreetcn.com/premium/articles/3772999?layout=wscn-layout",
+      "summary": "英国正站在系统性危机的临界点上",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:31:41+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773539",
+      "title": "史上最大IPO SpaceX：强行改写指数规则，散户或成定价关键",
+      "url": "https://wallstreetcn.com/articles/3773539",
+      "summary": "SpaceX计划以至少1.8万亿美元估值、750亿美元募资规模冲击IPO史上最大上市，其体量之巨已迫使纳斯达克等主要指数机构紧急修改纳入规则，大幅缩减加入指数的等待期。被动资金自动买入需求或达200亿美元，30%份额拟向散户开放。这场史无前例的资本盛宴，将重塑华尔街规则，并决定OpenAI等AI独角兽的上市命运。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:24:06+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773540",
+      "title": "中国5月RatingDog制造业PMI 51.8，连续第六个月扩张，通胀压力出现缓解",
+      "url": "https://wallstreetcn.com/articles/3773540",
+      "summary": "核心亮点是投入与产出品价格涨幅双双回落，企业通胀及成本压力出现边际缓解。此外，因交货期延长企业增加库存；就业微降，但市场前景仍偏乐观。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:45:20+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773531",
+      "title": "戴尔暴涨，大摩“认错”：对硬件周期过于保守了",
+      "url": "https://wallstreetcn.com/articles/3773531",
+      "summary": "摩根士丹利高调认错，将对戴尔的减持评级与170美元目标价打入审查，目前股价已涨至420美元。AI需求从GPU蔓延至传统基础设施，且这一趋势仍处于早期阶段，“传统PC大厂”的低估值框架或将彻底重写。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:40:58+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773536",
+      "title": "科技背后的买卖盘",
+      "url": "https://wallstreetcn.com/articles/3773536",
+      "summary": "科技板块资金暗战激烈：主动基金大举增持光纤、押注通信，散户却反向涌入电子、存储，与机构形成千亿级筹码对倒；险资悄然清仓光纤，北上资金同步加码，多空分歧罕见撕裂。两融杠杆向存储、光模块集中，科技龙头IPO历史上屡屡抽血同板块——多空力量交织之下，这场流动性博弈远比表面更复杂。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:37:47+00:00",
+      "points": 0
+    },
+    {
+      "id": "hn:48326659",
+      "title": "Robinhood now lets your AI agents trade stocks",
+      "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48326659",
+        "name": "wapasta",
+        "hn_url": "https://news.ycombinator.com/item?id=48326659"
+      },
+      "duration_sec": null,
+      "views": 109,
+      "comments": 180,
+      "published_at": "2026-05-29T17:46:27+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48281983",
+      "title": "Show HN: A website that tracks every stock trade Congress makes",
+      "url": "https://congress.kadoa.com/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48281983",
+        "name": "hubraumhugo",
+        "hn_url": "https://news.ycombinator.com/item?id=48281983"
+      },
+      "duration_sec": null,
+      "views": 62,
+      "comments": 25,
+      "published_at": "2026-05-26T16:28:56+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48285468",
+      "title": "There are now more ETFs than stocks in the US",
+      "url": "https://www.apollo.com/wealth/the-daily-spark/more-etfs-than-stocks",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48285468",
+        "name": "akyuu",
+        "hn_url": "https://news.ycombinator.com/item?id=48285468"
+      },
+      "duration_sec": null,
+      "views": 44,
+      "comments": 37,
+      "published_at": "2026-05-26T20:22:20+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48280561",
+      "title": "Stockholm poised to become leading European geospatial intel player",
+      "url": "https://www.intelligenceonline.com/europe-russia/2026/05/26/stockholm-poised-to-become-leading-european-geospatial-intel-player,110772386-eve",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48280561",
+        "name": "alephnerd",
+        "hn_url": "https://news.ycombinator.com/item?id=48280561"
+      },
+      "duration_sec": null,
+      "views": 43,
+      "comments": 10,
+      "published_at": "2026-05-26T14:44:31+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48205351",
+      "title": "Cities: Skylines Uses a Stock-Market Analogy to Influence Gameplay",
+      "url": "http://jkm.dev/posts/cities-skylines-trading-market/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48205351",
+        "name": "birdculture",
+        "hn_url": "https://news.ycombinator.com/item?id=48205351"
+      },
+      "duration_sec": null,
+      "views": 30,
+      "comments": 1,
+      "published_at": "2026-05-20T09:55:02+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48254524",
+      "title": "Reddit stock drops almost 6%, Meta launches standalone app for online forums",
+      "url": "https://www.cnbc.com/2026/05/22/reddit-stock-drops-after-meta-launches-forum-app.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48254524",
+        "name": "1vuio0pswjnm7",
+        "hn_url": "https://news.ycombinator.com/item?id=48254524"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 1,
+      "published_at": "2026-05-24T04:58:51+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48297843",
+      "title": "Steam Deck OLED is back in stock, with a price increase for both models",
+      "url": "https://store.steampowered.com/news/group/45479024/view/672869045073085538",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48297843",
+        "name": "no_news_is",
+        "hn_url": "https://news.ycombinator.com/item?id=48297843"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 8,
+      "published_at": "2026-05-27T17:50:19+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48261390",
+      "title": "Show HN: My homelab is outperforming the stock market",
+      "url": "https://stocks.sjer.red",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48261390",
+        "name": "shepherdjerred",
+        "hn_url": "https://news.ycombinator.com/item?id=48261390"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 4,
+      "published_at": "2026-05-24T21:54:06+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48304589",
+      "title": "SpaceX IPO: Did Musk Rig the Stock Market? [video]",
+      "url": "https://www.youtube.com/watch?v=sYA-z0Y8WRQ",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48304589",
+        "name": "mgh2",
+        "hn_url": "https://news.ycombinator.com/item?id=48304589"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 0,
+      "published_at": "2026-05-28T04:42:25+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48284628",
+      "title": "Trump's 25% cut on Nvidia chips to China backfired as Beijing blocks H200 sales",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trumps-25-cut-nvidia-chips-194500691.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48284628",
+        "name": "frasermarlow",
+        "hn_url": "https://news.ycombinator.com/item?id=48284628"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 0,
+      "published_at": "2026-05-26T19:21:02+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48330421",
+      "title": "The record divide between corporate profits and worker pay",
+      "url": "https://www.wsj.com/finance/stocks/the-record-divide-between-corporate-profits-and-worker-pay-ea4c75bc",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48330421",
+        "name": "hhs",
+        "hn_url": "https://news.ycombinator.com/item?id=48330421"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 0,
+      "published_at": "2026-05-29T22:55:36+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48315925",
+      "title": "Dell Gets a $9.7B Defense Contract. Trump's Portfolio Stands to Benefit",
+      "url": "https://www.nytimes.com/2026/05/28/us/politics/trump-dell-stock-purchases.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48315925",
+        "name": "spankibalt",
+        "hn_url": "https://news.ycombinator.com/item?id=48315925"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 0,
+      "published_at": "2026-05-28T21:42:12+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48210226",
+      "title": "OpenAI Is Preparing to File for an IPO Soon",
+      "url": "https://www.wsj.com/tech/ai/openai-is-preparing-to-file-for-an-ipo-very-soon-0ec95af5",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48210226",
+        "name": "louiereederson",
+        "hn_url": "https://news.ycombinator.com/item?id=48210226"
+      },
+      "duration_sec": null,
+      "views": 205,
+      "comments": 407,
+      "published_at": "2026-05-20T16:24:42+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48134429",
+      "title": "Sam Altman's Business Dealings Under GOP Scrutiny Ahead of OpenAI's IPO",
+      "url": "https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48134429",
+        "name": "1vuio0pswjnm7",
+        "hn_url": "https://news.ycombinator.com/item?id=48134429"
+      },
+      "duration_sec": null,
+      "views": 199,
+      "comments": 163,
+      "published_at": "2026-05-14T12:27:29+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48217052",
+      "title": "OpenAI to confidentially file for IPO as soon as Friday",
+      "url": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48217052",
+        "name": "doppp",
+        "hn_url": "https://news.ycombinator.com/item?id=48217052"
+      },
+      "duration_sec": null,
+      "views": 137,
+      "comments": 3,
+      "published_at": "2026-05-21T02:24:35+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48193111",
+      "title": "Anthropic Is Preparing for IPO and We Should Be Worried",
+      "url": "https://www.vincentschmalbach.com/anthropic-ipo-developers-should-be-worried-v2/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48193111",
+        "name": "vincent_s",
+        "hn_url": "https://news.ycombinator.com/item?id=48193111"
+      },
+      "duration_sec": null,
+      "views": 89,
+      "comments": 96,
+      "published_at": "2026-05-19T13:30:58+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48229528",
+      "title": "The SpaceX IPO It's Worse Than You Think [video]",
+      "url": "https://www.youtube.com/watch?v=-X6YzlY_8tM",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48229528",
+        "name": "ZeljkoS",
+        "hn_url": "https://news.ycombinator.com/item?id=48229528"
+      },
+      "duration_sec": null,
+      "views": 47,
+      "comments": 6,
+      "published_at": "2026-05-21T22:19:28+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48210908",
+      "title": "OpenAI Is Preparing to File for an IPO in the Coming Days or Weeks",
+      "url": "https://www.wsj.com/tech/ai/openai-ipo-filing-date-0ec95af5",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48210908",
+        "name": "mfiguiere",
+        "hn_url": "https://news.ycombinator.com/item?id=48210908"
+      },
+      "duration_sec": null,
+      "views": 36,
+      "comments": 7,
+      "published_at": "2026-05-20T17:13:19+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48227827",
+      "title": "SpaceX's IPO Bagship carries full payload of Elon's mistakes",
+      "url": "https://jamesthomason.com/spacex-ipo-bagship-carries-full-payload-of-elons-mistakes/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48227827",
+        "name": "dollar",
+        "hn_url": "https://news.ycombinator.com/item?id=48227827"
+      },
+      "duration_sec": null,
+      "views": 33,
+      "comments": 4,
+      "published_at": "2026-05-21T19:30:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48343303",
+      "title": "The SpaceX IPO is great for Elon Musk and terrible for you",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/940001/elon-musk-spacex-ipo-ai",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48343303",
+        "name": "1vuio0pswjnm7",
+        "hn_url": "https://news.ycombinator.com/item?id=48343303"
+      },
+      "duration_sec": null,
+      "views": 20,
+      "comments": 4,
+      "published_at": "2026-05-31T05:34:42+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48044444",
+      "title": "SpaceX IPO gives Musk unchecked power and forbids investor lawsuits",
+      "url": "https://arstechnica.com/tech-policy/2026/05/report-spacex-ipo-gives-musk-unchecked-power-and-forbids-investor-lawsuits/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48044444",
+        "name": "pzxc",
+        "hn_url": "https://news.ycombinator.com/item?id=48044444"
+      },
+      "duration_sec": null,
+      "views": 20,
+      "comments": 3,
+      "published_at": "2026-05-07T01:47:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48242934",
+      "title": "Cheap AI Could Derail OpenAI and Anthropic's IPOs",
+      "url": "https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48242934",
+        "name": "gmays",
+        "hn_url": "https://news.ycombinator.com/item?id=48242934"
+      },
+      "duration_sec": null,
+      "views": 13,
+      "comments": 9,
+      "published_at": "2026-05-22T23:37:17+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48270880",
+      "title": "SpaceX's IPO Filing Shows Elon's Twitter 'Business Genius' Was a Fantasy",
+      "url": "https://www.techdirt.com/2026/05/22/spacexs-ipo-filing-shows-elons-twitter-business-genius-was-a-fantasy/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48270880",
+        "name": "velik_m",
+        "hn_url": "https://news.ycombinator.com/item?id=48270880"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 2,
+      "published_at": "2026-05-25T19:50:59+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48046818",
+      "title": "SpaceX IPO gives Musk power and curbs shareholder rights",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/spacex-ipo-gives-musk-sweeping-power-curbs-shareholder-rights-2026-05-06/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48046818",
+        "name": "denis1",
+        "hn_url": "https://news.ycombinator.com/item?id=48046818"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 5,
+      "published_at": "2026-05-07T08:17:33+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48314363",
+      "title": "Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions",
+      "url": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48314363",
+        "name": "ianrahman",
+        "hn_url": "https://news.ycombinator.com/item?id=48314363"
+      },
+      "duration_sec": null,
+      "views": 234,
+      "comments": 180,
+      "published_at": "2026-05-28T19:43:14+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48231815",
+      "title": "SpaceX not the behemoth everyone thought",
+      "url": "https://www.axios.com/2026/05/21/spacex-ipo-musk-ai",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48231815",
+        "name": "kaycebasques",
+        "hn_url": "https://news.ycombinator.com/item?id=48231815"
+      },
+      "duration_sec": null,
+      "views": 61,
+      "comments": 36,
+      "published_at": "2026-05-22T04:03:36+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48223184",
+      "title": "SpaceX not the behemoth everyone thought",
+      "url": "https://www.axios.com/2026/05/21/spacex-ipo-musk-ai",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48223184",
+        "name": "atombender",
+        "hn_url": "https://news.ycombinator.com/item?id=48223184"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 1,
+      "published_at": "2026-05-21T14:25:31+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/strategy-follows-structure",
+      "title": "Strategy Follows Structure",
+      "url": "https://www.netinterest.co/p/strategy-follows-structure",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T16:47:05+00:00",
+      "summary": "Fidelity, Capital, Vanguard and the Ownership Structures That Made Them",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/griffins-doors",
+      "title": "Griffin’s Doors",
+      "url": "https://www.netinterest.co/p/griffins-doors",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-22T16:22:17+00:00",
+      "summary": "Inside Citadel&#8217;s Talent Machine",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-future-of-ir",
+      "title": "The Future of IR",
+      "url": "https://www.netinterest.co/p/the-future-of-ir",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-15T15:38:49+00:00",
+      "summary": "What the Changing Shape of Markets Means for Investor Relations",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/bye-the-index",
+      "title": "Bye the Index",
+      "url": "https://www.netinterest.co/p/bye-the-index",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-08T16:07:09+00:00",
+      "summary": "How Nasdaq learned to run its flywheel in reverse",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/money-for-nothing",
+      "title": "Money for Nothing",
+      "url": "https://www.netinterest.co/p/money-for-nothing",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-01T16:28:45+00:00",
+      "summary": "The Golden Age of Arbitrage?",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/apple-turnover",
+      "title": "Apple Turnover",
+      "url": "https://www.netinterest.co/p/apple-turnover",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-24T16:38:20+00:00",
+      "summary": "How Tim Cook reshaped payments &#8211; and what he leaves behind",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/defying-the-surveys",
+      "title": "Defying the Surveys",
+      "url": "https://www.netinterest.co/p/defying-the-surveys",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-17T16:54:51+00:00",
+      "summary": "Banks report a resilient quarter &#8211; and a lurking threat",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/shuffling-risk",
+      "title": "Shuffling Risk",
+      "url": "https://www.netinterest.co/p/shuffling-risk",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-10T15:10:44+00:00",
+      "summary": "An Asset Class Reborn",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-the-race-to-secure-a-bank",
+      "title": "NEW POD! The Race to Secure a Bank Charter with Adam Shapiro of Klaros Group",
+      "url": "https://www.netinterest.co/p/new-pod-the-race-to-secure-a-bank",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-31T15:45:44+00:00",
+      "summary": "Net Interest Extra ep 21",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/revolut-unbound",
+      "title": "Revolut Unbound",
+      "url": "https://www.netinterest.co/p/revolut-unbound",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-27T16:20:38+00:00",
+      "summary": "The Quest to Build the World&#8217;s First Truly Global Bank",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-underwriters-of-hormuz",
+      "title": "The Underwriters of Hormuz",
+      "url": "https://www.netinterest.co/p/the-underwriters-of-hormuz",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-20T16:23:35+00:00",
+      "summary": "A post on marine insurance &#8211; by popular demand",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-market-intelligence-in-the",
+      "title": "🎙️ Market Intelligence in the Age of AI: An Interview with Morningstar CEO, Kunal Kapoor",
+      "url": "https://www.netinterest.co/p/new-pod-market-intelligence-in-the",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-17T16:30:34+00:00",
+      "summary": "Net Interest Extra ep 20",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/redemption-day",
+      "title": "Redemption Day",
+      "url": "https://www.netinterest.co/p/redemption-day",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-13T18:09:28+00:00",
+      "summary": "When the exit is smaller than the entrance",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/learning-from-lloyd",
+      "title": "Learning from Lloyd",
+      "url": "https://www.netinterest.co/p/learning-from-lloyd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-06T17:42:54+00:00",
+      "summary": "Blankfein, Goldman and the Next Market Reckoning",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-how-credit-markets-shaped",
+      "title": "🎙️ How Credit Markets Shaped a Nation: An Interview with Sarah Quinn",
+      "url": "https://www.netinterest.co/p/new-pod-how-credit-markets-shaped",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-03T16:45:21+00:00",
+      "summary": "Net Interest Extra ep 19",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/two-tribes",
+      "title": "Two Tribes",
+      "url": "https://www.netinterest.co/p/two-tribes",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-27T17:42:58+00:00",
+      "summary": "Private Credit, Public Markets and the AI Reckoning",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/ai-and-i",
+      "title": "AI and I",
+      "url": "https://www.netinterest.co/p/ai-and-i",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-20T17:21:53+00:00",
+      "summary": "Claude Code, Bloomberg and the Battle for Data",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-trends-in-us-banks-with-john",
+      "title": "🎙️ Trends in US Banking: An Interview with John McDonald & Brian Foran",
+      "url": "https://www.netinterest.co/p/new-pod-trends-in-us-banks-with-john",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-17T16:45:19+00:00",
+      "summary": "Net Interest Extra ep 18",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-ackman-complex",
+      "title": "The Ackman Complex",
+      "url": "https://www.netinterest.co/p/the-ackman-complex",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-13T17:39:10+00:00",
+      "summary": "Inside Pershing Square&#8217;s Insurance Bet",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/excel-forever",
+      "title": "Excel Forever",
+      "url": "https://www.netinterest.co/p/excel-forever",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-06T17:45:41+00:00",
+      "summary": "Claude, Excel and the Future of Market Intelligence",
+      "lang": "en"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "domain": "AI",
   "domain_id": "ai",
   "topic_id": "default",
-  "fetched_at": "2026-06-01T04:51:47.170912+00:00",
+  "fetched_at": "2026-06-01T06:42:12.195225+00:00",
   "platforms": [
     "bilibili",
     "hackernews",
@@ -34,7 +34,11 @@
     "HN · Windsurf": 0,
     "B站 · vibe coding": 99
   },
-  "subtopics": [],
+  "subtopics": [
+    {
+      "name": "default"
+    }
+  ],
   "total": 440,
   "items": [
     {
@@ -5094,7 +5098,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48345028"
       },
       "duration_sec": null,
-      "views": 21,
+      "views": 22,
       "comments": 3,
       "published_at": "2026-05-31T11:56:54+00:00",
       "summary": "",
@@ -5759,7 +5763,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48330436"
       },
       "duration_sec": null,
-      "views": 394,
+      "views": 395,
       "comments": 401,
       "published_at": "2026-05-29T22:56:49+00:00",
       "summary": "",
@@ -5835,7 +5839,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48336233"
       },
       "duration_sec": null,
-      "views": 417,
+      "views": 418,
       "comments": 469,
       "published_at": "2026-05-30T13:56:34+00:00",
       "summary": "",
@@ -5855,7 +5859,7 @@
       },
       "duration_sec": null,
       "views": 362,
-      "comments": 426,
+      "comments": 427,
       "published_at": "2026-05-28T18:09:44+00:00",
       "summary": "",
       "matched_keyword": "Anthropic",
@@ -5967,9 +5971,9 @@
         "name": "双非本想做大模型"
       },
       "duration_sec": 27045,
-      "views": 159965,
+      "views": 160872,
       "danmaku": 159,
-      "favorites": 6106,
+      "favorites": 6132,
       "published_at": "2026-05-12T06:24:19+00:00",
       "summary": "如果视频对你有用的话请 一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！\n【视频配套籽料+问题解答请看”平论区置顶”自取哦】",
       "matched_keywords": [
@@ -5987,9 +5991,9 @@
         "name": "人工大黑"
       },
       "duration_sec": 7370,
-      "views": 851248,
-      "danmaku": 8355,
-      "favorites": 55139,
+      "views": 852978,
+      "danmaku": 8369,
+      "favorites": 55237,
       "published_at": "2026-04-22T09:02:25+00:00",
       "summary": "本期视频因为白菜要毕业了，up伤心过度导致了拖更（）",
       "matched_keywords": [
@@ -6007,31 +6011,11 @@
         "name": "Simon林_"
       },
       "duration_sec": 760,
-      "views": 13437,
+      "views": 13467,
       "danmaku": 5,
-      "favorites": 415,
+      "favorites": 416,
       "published_at": "2026-04-23T15:18:08+00:00",
       "summary": "Claude Code有2种多Agent模式：多个subagents模式和多个独立agent模式",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1NYVG6jEKE",
-      "title": "Claude Code保姆级在国内从安装到代码实战教程，10分钟入门精通",
-      "url": "http://www.bilibili.com/video/av116662133132089",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546654493903437",
-        "name": "字节软件测试"
-      },
-      "duration_sec": 10348,
-      "views": 11767,
-      "danmaku": 231,
-      "favorites": 2096,
-      "published_at": "2026-05-30T06:39:27+00:00",
-      "summary": "Claude Code保姆级在国内从安装到代码实战教程，10分钟入门精通",
       "matched_keywords": [
         "Claude Code 实战"
       ]
@@ -6047,11 +6031,31 @@
         "name": "字节测试工程师"
       },
       "duration_sec": 4965,
-      "views": 1575,
+      "views": 3013,
       "danmaku": 0,
-      "favorites": 662,
+      "favorites": 668,
       "published_at": "2026-06-01T01:53:10+00:00",
       "summary": "勉费领取视频全套资料/文档/学习笔记点击→https://www.bilibili.com/read/cv38114879/?jump_opus=1",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1NYVG6jEKE",
+      "title": "Claude Code保姆级在国内从安装到代码实战教程，10分钟入门精通",
+      "url": "http://www.bilibili.com/video/av116662133132089",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546654493903437",
+        "name": "字节软件测试"
+      },
+      "duration_sec": 10348,
+      "views": 12979,
+      "danmaku": 304,
+      "favorites": 2102,
+      "published_at": "2026-05-30T06:39:27+00:00",
+      "summary": "Claude Code保姆级在国内从安装到代码实战教程，10分钟入门精通",
       "matched_keywords": [
         "Claude Code 实战"
       ]
@@ -6067,9 +6071,9 @@
         "name": "AI超元域"
       },
       "duration_sec": 869,
-      "views": 83611,
+      "views": 83839,
       "danmaku": 77,
-      "favorites": 3723,
+      "favorites": 3726,
       "published_at": "2026-05-24T13:11:48+00:00",
       "summary": "视频简介：\n 全球首测！Anthropic未官宣的Claude Code Workflow隐藏功能完整使用指南，三大阶段六种形态精准解析！AI编程进入脚本化新纪元\n\n 本期视频详细演示了Anthropic为Claude Code V2.1.47和V2.1.48秘密新增的颠覆性Workflow功能！这个被官方从Changelog中紧急删除却未从代码中移除的&quot;隐藏神器&quot;，将成为继MCP和Skills之后又一个划时代的创新。\n\n Workflow把Agent编排从&quot;模型临场建议&quot;推进到&quot;可观测、可验证、可复跑&quot;",
       "matched_keywords": [
@@ -6087,9 +6091,9 @@
         "name": "程序员黑梦"
       },
       "duration_sec": 10779,
-      "views": 10863,
+      "views": 10948,
       "danmaku": 45,
-      "favorites": 419,
+      "favorites": 421,
       "published_at": "2026-05-29T11:08:50+00:00",
       "summary": "",
       "matched_keywords": [
@@ -6107,7 +6111,7 @@
         "name": "王尼互"
       },
       "duration_sec": 2139,
-      "views": 3451,
+      "views": 3454,
       "danmaku": 2,
       "favorites": 312,
       "published_at": "2026-05-03T23:25:06+00:00",
@@ -6127,7 +6131,7 @@
         "name": "叁昧火游戏"
       },
       "duration_sec": 247,
-      "views": 14497,
+      "views": 14500,
       "danmaku": 8,
       "favorites": 735,
       "published_at": "2026-03-11T12:00:00+00:00",
@@ -6167,9 +6171,9 @@
         "name": "科研推土机"
       },
       "duration_sec": 1450,
-      "views": 62161,
+      "views": 62234,
       "danmaku": 15,
-      "favorites": 3648,
+      "favorites": 3649,
       "published_at": "2026-03-11T18:12:00+00:00",
       "summary": "本期给大家带来的是Claude在Vscode的科研应用演示与我最近的一些心得使用心得，科研速度嘎嘎提升。论文复现画图、数据分析就靠Claude code。这个课程也是科研推土机「系统管理文献课程2.0」学员催我更新的内容，希望能帮助到大家～，这个视频重点讲两个事情：\n1️⃣ 资料获取，free不用怀疑，我是良心可言博主，，关注我(GZTSHNR)～\n2️⃣ 展示如何在VS code实操应用claude code进行数据分析，进行科研\n🌼全网同号（科研推土机）",
       "matched_keywords": [
@@ -6187,9 +6191,9 @@
         "name": "大白哥AI与安全"
       },
       "duration_sec": 6135,
-      "views": 4202,
+      "views": 4233,
       "danmaku": 0,
-      "favorites": 240,
+      "favorites": 241,
       "published_at": "2026-05-19T15:33:02+00:00",
       "summary": "一键三连加关注，私信大白哥免费领取课件\n更多红队攻防实战课程，请私信大白哥咨询",
       "matched_keywords": [
@@ -6227,7 +6231,7 @@
         "name": "DesyncInfoSec"
       },
       "duration_sec": 41860,
-      "views": 796,
+      "views": 798,
       "danmaku": 0,
       "favorites": 106,
       "published_at": "2026-05-25T09:22:07+00:00",
@@ -6247,9 +6251,9 @@
         "name": "设计之道"
       },
       "duration_sec": 1597,
-      "views": 3594,
+      "views": 3744,
       "danmaku": 1,
-      "favorites": 83,
+      "favorites": 91,
       "published_at": "2026-05-29T06:44:49+00:00",
       "summary": "【海外 AI 订阅】\n国内直连，支付宝付款，不用代理，\n一站订阅 ChatGPT / Codex / Claude Code / X\n订阅链接：https://bewild.ai?code=SJZD\n订阅时请填优惠邀请码：SJZD，具体优惠金额以官网为准。\n\n【视频介绍】\n我花了 100 个小时测试 Claude Code 和 Codex，结果真的让我非常意外。\n相同的提示词、相同的项目构建、两个工具并排测试，而其中一个工具的表现远超我的预期。\n如果你现在正在这类 AI 编程 Agent 之间做选择，那么",
       "matched_keywords": [
@@ -6267,9 +6271,9 @@
         "name": "码士集团-马小安"
       },
       "duration_sec": 7819,
-      "views": 25673,
+      "views": 25796,
       "danmaku": 203,
-      "favorites": 1977,
+      "favorites": 1984,
       "published_at": "2026-05-26T10:22:46+00:00",
       "summary": "绝对是B站No.1的Claude Code教程：国内安装+实战开发案例+个人使用心得总结，手把手带你拥抱Vibe Coding！\n配套课件笔记/PPT已备好，另外有需要AI大模型学习路线图+必看书籍（国内外大牛著作）+入门及进阶视频教程+项目实战及源码提供+面试实战场景题移步评论置顶即可~",
       "matched_keywords": [
@@ -6288,9 +6292,9 @@
         "name": "是蒜七丫"
       },
       "duration_sec": 7427,
-      "views": 9770,
+      "views": 10099,
       "danmaku": 4,
-      "favorites": 511,
+      "favorites": 530,
       "published_at": "2026-05-28T08:19:55+00:00",
       "summary": "求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连",
       "matched_keywords": [
@@ -6308,9 +6312,9 @@
         "name": "沉默的羔丸voov"
       },
       "duration_sec": 1877,
-      "views": 190457,
-      "danmaku": 551,
-      "favorites": 11148,
+      "views": 190829,
+      "danmaku": 552,
+      "favorites": 11164,
       "published_at": "2026-04-29T08:23:29+00:00",
       "summary": "setting.json添加：\n{ &quot;name&quot;: &quot;ANTHROPIC_BASE_URL&quot;, &quot;value&quot;: &quot;https://xxxx&quot; }, \n{ &quot;name&quot;: &quot;ANTHROPIC_AUTH_TOKEN&quot;, &quot;value&quot;: &quot;xxxx&quot; }\n\ndeepseek:\nwww.deepseek.com\nhttps://api-docs.deepseek.com/zh-cn/quick_start/pricing\n\ngithub link:\nhttps://github.com/farion1231",
       "matched_keywords": [
@@ -6328,9 +6332,9 @@
         "name": "跟着李迟学AI"
       },
       "duration_sec": 11270,
-      "views": 237457,
+      "views": 237506,
       "danmaku": 218,
-      "favorites": 9848,
+      "favorites": 9851,
       "published_at": "2026-04-15T10:23:31+00:00",
       "summary": "这也是2026B站最新最系统的Claude Code + 自动化工作流教学课程，小白10分钟轻松上手！\n求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~",
       "matched_keywords": [
@@ -6348,9 +6352,9 @@
         "name": "穷在街头无人问lhj"
       },
       "duration_sec": 700,
-      "views": 3288,
+      "views": 3318,
       "danmaku": 0,
-      "favorites": 109,
+      "favorites": 112,
       "published_at": "2026-05-15T18:01:19+00:00",
       "summary": "10分钟完成Ubuntu安装Claude Code并免费使用DeepSeekV4模型\n代金券领取链接：https://cloud.siliconflow.cn/i/hkV35uvp\nnodejs下载链接：Node.js — Download Node.js®\ncc-switch下载链接：github.com/farion1231/cc-switch/releases\n安装包和笔记下载链接：https://pan.baidu.com/s/12IDm7vXhr-o8kL65S6tEyA?pwd=1029",
       "matched_keywords": [
@@ -6368,7 +6372,7 @@
         "name": "狠活AI科技"
       },
       "duration_sec": 484,
-      "views": 33121,
+      "views": 33138,
       "danmaku": 15,
       "favorites": 918,
       "published_at": "2025-04-17T05:15:27+00:00",
@@ -6388,9 +6392,9 @@
         "name": "刘十二-是我啊"
       },
       "duration_sec": 8715,
-      "views": 3090,
+      "views": 3189,
       "danmaku": 0,
-      "favorites": 91,
+      "favorites": 92,
       "published_at": "2026-05-29T03:42:21+00:00",
       "summary": "喜欢请三连哦   喜欢请三连哦   喜欢请三连哦   喜欢请三连哦   喜欢请三连哦   喜欢请三连哦   喜欢请三连哦",
       "matched_keywords": [
@@ -6408,9 +6412,9 @@
         "name": "程序员鱼皮"
       },
       "duration_sec": 1451,
-      "views": 305164,
-      "danmaku": 745,
-      "favorites": 10470,
+      "views": 305803,
+      "danmaku": 748,
+      "favorites": 10483,
       "published_at": "2026-05-15T12:35:03+00:00",
       "summary": "一口气带你认识 Cursor、Claude Code、Codex、GitHub Copilot、Windsurf、Trae、Kiro、Qoder、CodeBuddy 等 32 个主流的 AI 编程工具的实测表现，帮你快速找到最适合自己的。\n编程学习教程+实战项目+简历模板：codefather.cn\n开源 AI 编程教程：github.com/liyupi/ai-guide\n视频涵盖 Cursor/Claude Code/Codex/Copilot/Windsurf/Kiro/Zed/Antigravit",
       "matched_keywords": [
@@ -6428,9 +6432,9 @@
         "name": "非六于期"
       },
       "duration_sec": 1068,
-      "views": 1524,
+      "views": 1631,
       "danmaku": 1,
-      "favorites": 54,
+      "favorites": 58,
       "published_at": "2026-05-30T07:13:36+00:00",
       "summary": "",
       "matched_keywords": [
@@ -6448,7 +6452,7 @@
         "name": "AI大模型教学"
       },
       "duration_sec": 22258,
-      "views": 6191,
+      "views": 6228,
       "danmaku": 0,
       "favorites": 208,
       "published_at": "2026-05-26T06:24:36+00:00",
@@ -6468,31 +6472,11 @@
         "name": "知名的阿呆同学"
       },
       "duration_sec": 1083,
-      "views": 220488,
+      "views": 220576,
       "danmaku": 97,
       "favorites": 5744,
       "published_at": "2026-02-19T07:34:00+00:00",
       "summary": "",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV1WBG9zgECp",
-      "title": "史上最强 AI 编程工具免费啦！Cursor 保姆级使用教程！新手友好！看到就是赚到！｜ 集成 MCP ！",
-      "url": "http://www.bilibili.com/video/av114426116120045",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "401752996",
-        "name": "AfterShip"
-      },
-      "duration_sec": 760,
-      "views": 659845,
-      "danmaku": 434,
-      "favorites": 31772,
-      "published_at": "2025-05-01T04:00:00+00:00",
-      "summary": "相信你已经在网上刷到过不少的 AI 工具，但如果你让我推荐最值得我们每个人学习的一款 AI 工具，那绝对就是史上最强的 AI 编程工具 —— Cursor。为此，我们录制了一个保姆级的 Cursor 新手教程，在这里免费分享给大家。即使你是一个对 AI 完全 0 基础的新手小白，看完这个视频后，你也可以彻底了解 Cursor 这个软件，并知道如何从 0 到 1 用 Cursor 做出入门级的 AI 网页/游戏/软件，以及怎么用 Cursor 来驱动 MCP 服务，为了更好地帮助大家学习，我们还准备了 Cu",
       "matched_keywords": [
         "Cursor AI 编程"
       ]
@@ -6508,7 +6492,7 @@
         "name": "花叔v"
       },
       "duration_sec": 642,
-      "views": 382798,
+      "views": 382800,
       "danmaku": 82,
       "favorites": 840,
       "published_at": "2025-03-22T04:02:08+00:00",
@@ -6548,7 +6532,7 @@
         "name": "许你再少年"
       },
       "duration_sec": 77,
-      "views": 72787,
+      "views": 72789,
       "danmaku": 7,
       "favorites": 1266,
       "published_at": "2023-03-23T11:32:23+00:00",
@@ -6628,7 +6612,7 @@
         "name": "独立开发者_猫哥"
       },
       "duration_sec": 1153,
-      "views": 17632,
+      "views": 17633,
       "danmaku": 5,
       "favorites": 771,
       "published_at": "2024-12-27T08:21:35+00:00",
@@ -6648,10 +6632,30 @@
         "name": "_学到头秃"
       },
       "duration_sec": 9462,
-      "views": 1766,
+      "views": 1770,
       "danmaku": 1,
       "favorites": 44,
       "published_at": "2026-05-25T07:44:25+00:00",
+      "summary": "",
+      "matched_keywords": [
+        "Cursor AI 编程"
+      ]
+    },
+    {
+      "id": "bvid:BV1HeV96dEu7",
+      "title": "【2026最新Cursor使用教程】史上最强 AI 编程工具Cursor！Cursor保姆级使用教程！从入门到实战，零基础小白也能学会",
+      "url": "http://www.bilibili.com/video/av116672702711316",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "257537312",
+        "name": "IT界的泥石流1"
+      },
+      "duration_sec": 9462,
+      "views": 214,
+      "danmaku": 2,
+      "favorites": 2,
+      "published_at": "2026-06-01T03:28:45+00:00",
       "summary": "",
       "matched_keywords": [
         "Cursor AI 编程"
@@ -6688,9 +6692,9 @@
         "name": "AI大模型技术教程"
       },
       "duration_sec": 22485,
-      "views": 69571,
+      "views": 69623,
       "danmaku": 158,
-      "favorites": 2379,
+      "favorites": 2381,
       "published_at": "2026-04-01T10:12:34+00:00",
       "summary": "视频配套文档课件笔记代码及AI大模型学习路线图戳这里获取→https://www.bilibili.com/read/cv41777105/?jump_opus=1",
       "matched_keywords": [
@@ -6728,7 +6732,7 @@
         "name": "AI随风随风"
       },
       "duration_sec": 2358,
-      "views": 57482,
+      "views": 57485,
       "danmaku": 27,
       "favorites": 4452,
       "published_at": "2025-06-28T02:37:22+00:00",
@@ -6748,7 +6752,7 @@
         "name": "长青来了奥"
       },
       "duration_sec": 267,
-      "views": 3688,
+      "views": 3694,
       "danmaku": 1,
       "favorites": 66,
       "published_at": "2026-05-17T13:01:58+00:00",
@@ -6768,9 +6772,9 @@
         "name": "大牙大-"
       },
       "duration_sec": 946,
-      "views": 80284,
+      "views": 80609,
       "danmaku": 48,
-      "favorites": 6360,
+      "favorites": 6383,
       "published_at": "2026-05-05T10:13:18+00:00",
       "summary": "🤔如果你最近也在想一件事：我一个完全不会代码的人，真的可以用 AI 为自己做出一个软件吗？\n🌟我的答案是：当然可以！\n\n📚我把自己这4个月Vibe Coding里最重要的经验，浓缩成了一次完整实操演示。\n不是只告诉你装什么工具，而是直接带你从0到1做出一个真正能运行的软件：怎么提第一次需求，怎么让AI稳定执行，怎么一步一步把项目推进下去。\n\n如果你刚开始对Vibe Coding感兴趣，那这条就是为你制作的！看完之后，你应该就能自己动手开始第一次尝试了。",
       "matched_keywords": [
@@ -6788,9 +6792,9 @@
         "name": "AI大模型_"
       },
       "duration_sec": 41071,
-      "views": 3948,
-      "danmaku": 38,
-      "favorites": 209,
+      "views": 4175,
+      "danmaku": 43,
+      "favorites": 220,
       "published_at": "2026-05-29T07:53:39+00:00",
       "summary": "制作不易，大家喜欢视频记得点点关注，一键三连呀【点赞、投币、收藏】感谢支持！\n本视频配套课件笔记代码/学习大纲/大模型学习路线戳这里获取→https://www.bilibili.com/opus/1195847460814061571?spm_id_from=333.1387.0.0\n另外有需要AI大模型学习路线图+必看书籍（国内外大牛著作）+入门及进阶视频教程+项目实战及源码提供+面试实战场景题移步评论置顶即可~",
       "matched_keywords": [
@@ -6808,9 +6812,9 @@
         "name": "清华姜学长"
       },
       "duration_sec": 354,
-      "views": 139937,
+      "views": 140004,
       "danmaku": 79,
-      "favorites": 4644,
+      "favorites": 4643,
       "published_at": "2025-12-28T12:36:33+00:00",
       "summary": "-",
       "matched_keywords": [
@@ -6828,9 +6832,9 @@
         "name": "桥哥聊AI"
       },
       "duration_sec": 3445,
-      "views": 149208,
+      "views": 149232,
       "danmaku": 217,
-      "favorites": 6572,
+      "favorites": 6574,
       "published_at": "2026-03-01T15:14:36+00:00",
       "summary": "1、认识Vibe Coding\n2、入门指南（零基础能学吗？学完后能做什么？）\n3、工具与实践（推荐工具&amp;动手写一个移动端网站）\n4、实操微调（修改页面中图片和文字，有点进阶）\n5、部署云端，让别人看到你的作品",
       "matched_keywords": [
@@ -6848,9 +6852,9 @@
         "name": "唐师兄Terence"
       },
       "duration_sec": 592,
-      "views": 2998,
+      "views": 2999,
       "danmaku": 2,
-      "favorites": 122,
+      "favorites": 123,
       "published_at": "2026-05-09T01:00:00+00:00",
       "summary": "codex 下载地址：https://chatgpt.com/codex/",
       "matched_keywords": [
@@ -6868,7 +6872,7 @@
         "name": "Agent智能体-"
       },
       "duration_sec": 2104,
-      "views": 744,
+      "views": 750,
       "danmaku": 81,
       "favorites": 56,
       "published_at": "2026-05-29T05:43:23+00:00",
@@ -6888,7 +6892,7 @@
         "name": "bennixzp"
       },
       "duration_sec": 37,
-      "views": 674,
+      "views": 680,
       "danmaku": 0,
       "favorites": 3,
       "published_at": "2026-05-23T09:45:50+00:00",
@@ -6908,9 +6912,9 @@
         "name": "李哈利Harry"
       },
       "duration_sec": 20996,
-      "views": 50630,
+      "views": 50681,
       "danmaku": 16,
-      "favorites": 6150,
+      "favorites": 6158,
       "published_at": "2026-04-08T11:00:00+00:00",
       "summary": "🌟 加入AI大师社群并运用AI创业赚钱：https://www.skool.com/aiagent/about?ref=f2b566934c5c4639aaa47ab1fe39310e\n📌 加入我的免费 Skool 社群，获取模板：https://www.skool.com/aiagent8/about?ref=f2b566934c5c4639aaa47ab1fe39310e\n\n🚧 开始使用 n8n 构建自动化! 👇\nhttps://n8n.partnerlinks.io/fwp82h8azh6k\n\n💻",
       "matched_keywords": [
@@ -6928,9 +6932,9 @@
         "name": "布鲁歇一歇"
       },
       "duration_sec": 405,
-      "views": 229074,
+      "views": 229154,
       "danmaku": 172,
-      "favorites": 5807,
+      "favorites": 5810,
       "published_at": "2026-04-04T15:19:25+00:00",
       "summary": "",
       "matched_keywords": [
@@ -6948,9 +6952,9 @@
         "name": "在下李君陌"
       },
       "duration_sec": 1361,
-      "views": 2871,
+      "views": 3037,
       "danmaku": 1,
-      "favorites": 234,
+      "favorites": 249,
       "published_at": "2026-05-31T04:02:32+00:00",
       "summary": "视频中的大模型分别来自\n1.Kimi K2.6&amp; GLM5.1 — 优云智算\nhttps://passport.compshare.cn/register?referral_code=DzKOV5Iik6lG9svK0phShR&amp;ytag=GPU_YY_YX_bl_ljm0531\n2.DeepSeek-V4\nhttps://platform.deepseek.com/",
       "matched_keywords": [
@@ -6968,7 +6972,7 @@
         "name": "chocpink_AI版"
       },
       "duration_sec": 520,
-      "views": 94180,
+      "views": 94194,
       "danmaku": 64,
       "favorites": 4661,
       "published_at": "2026-04-06T11:33:25+00:00",
@@ -6988,9 +6992,9 @@
         "name": "阿囤囤-庞滚滚"
       },
       "duration_sec": 380,
-      "views": 24101,
+      "views": 24110,
       "danmaku": 12,
-      "favorites": 2891,
+      "favorites": 2892,
       "published_at": "2026-03-02T15:11:36+00:00",
       "summary": "不需要🪜哦～",
       "matched_keywords": [
@@ -7008,9 +7012,9 @@
         "name": "码士集团-小晨晨晨"
       },
       "duration_sec": 18347,
-      "views": 9205,
+      "views": 9252,
       "danmaku": 95,
-      "favorites": 1179,
+      "favorites": 1182,
       "published_at": "2026-05-31T06:14:34+00:00",
       "summary": "",
       "matched_keywords": [
@@ -7028,9 +7032,9 @@
         "name": "大牙大-"
       },
       "duration_sec": 525,
-      "views": 153005,
+      "views": 153650,
       "danmaku": 113,
-      "favorites": 9028,
+      "favorites": 9060,
       "published_at": "2026-05-09T10:10:00+00:00",
       "summary": "上期vibe coding零基础教程10万多人看了，私信和评论里问最多的居然不是怎么写需求。\n 而是Claude Code怎么装？DeepSeek怎么接进去？🫣\n\n所以这期作为补丁教程，专门帮大家搞定这3件事：\n 1️⃣ 安装Claude Code\n 2️⃣ 把DeepSeek V4 Pro百万上下文满血版接入Claude Code\n 3️⃣ 在VS Code里正式用起来\n\nMac和Windows都用了手把手教学的方式演示安装过程，跟着做就能搞定。\n装好之后想学怎么用👉看我上一期vibe coding零基",
       "matched_keywords": [
@@ -7048,7 +7052,7 @@
         "name": "公园4004"
       },
       "duration_sec": 891,
-      "views": 1769,
+      "views": 1779,
       "danmaku": 3,
       "favorites": 138,
       "published_at": "2026-05-24T04:19:55+00:00",
@@ -7068,7 +7072,7 @@
         "name": "鸭鸭摘花"
       },
       "duration_sec": 607,
-      "views": 44911,
+      "views": 44922,
       "danmaku": 15,
       "favorites": 1883,
       "published_at": "2026-02-07T11:20:13+00:00",
@@ -7088,7 +7092,7 @@
         "name": "青阳-AI"
       },
       "duration_sec": 537,
-      "views": 13726,
+      "views": 13730,
       "danmaku": 0,
       "favorites": 1823,
       "published_at": "2026-04-14T16:00:12+00:00",
@@ -7108,7 +7112,7 @@
         "name": "世界课程精选站"
       },
       "duration_sec": 8176,
-      "views": 19863,
+      "views": 19866,
       "danmaku": 0,
       "favorites": 1973,
       "published_at": "2026-03-06T05:00:15+00:00",
@@ -7128,9 +7132,9 @@
         "name": "AI编程瓜哥"
       },
       "duration_sec": 1525,
-      "views": 20460,
+      "views": 20465,
       "danmaku": 4,
-      "favorites": 440,
+      "favorites": 441,
       "published_at": "2025-12-10T13:49:11+00:00",
       "summary": "一眼懂，Vibe coding 和Spec Coding，双模式实战。",
       "matched_keywords": [
@@ -7148,9 +7152,9 @@
         "name": "AI-智能体搭建教程"
       },
       "duration_sec": 64993,
-      "views": 556977,
+      "views": 557862,
       "danmaku": 722,
-      "favorites": 26506,
+      "favorites": 26543,
       "published_at": "2026-03-07T11:28:39+00:00",
       "summary": "【2026最新】B站最全最细的AI Agent智能体搭建教程，从入门到实战！手把手教你快速打造自己的专属智能体，一次性搞懂AI大模型智能体开发，学完薪资翻倍！",
       "matched_keywords": [
@@ -7168,7 +7172,7 @@
         "name": "三易电子工作室"
       },
       "duration_sec": 2577,
-      "views": 3327,
+      "views": 3328,
       "danmaku": 0,
       "favorites": 92,
       "published_at": "2026-02-01T04:12:23+00:00",
@@ -7188,7 +7192,7 @@
         "name": "晓川科研站"
       },
       "duration_sec": 2387,
-      "views": 12725,
+      "views": 12729,
       "danmaku": 2,
       "favorites": 688,
       "published_at": "2026-03-03T10:26:33+00:00",
@@ -7208,7 +7212,7 @@
         "name": "仪酷智能"
       },
       "duration_sec": 1714,
-      "views": 4199,
+      "views": 4203,
       "danmaku": 2,
       "favorites": 126,
       "published_at": "2025-11-14T11:13:10+00:00",
@@ -7228,9 +7232,9 @@
         "name": "开发Agent"
       },
       "duration_sec": 58870,
-      "views": 4103,
+      "views": 4147,
       "danmaku": 101,
-      "favorites": 134,
+      "favorites": 136,
       "published_at": "2026-05-30T12:43:25+00:00",
       "summary": "【视频配套籽料、零基础学习路线、实战项目案例、电子书+问题解答 在 ”置顶平论” 自取哦】\n本套教程从零开始讲解agent开发，手把手教学，包含AI大模型入门、AI开发环境搭建及提示词工程、Transformer架构和预训练等一些基础概念、RAG、Agent、Langchain、LangGraph大模型微调和私有化部署\n无论是新手小白，还是有经验的友友，皆可学习\n视频对你有用的话，还请 一键三连【长按点赞】支持一下UP哦！你的支持是我更新的动力~",
       "matched_keywords": [
@@ -7248,7 +7252,7 @@
         "name": "默睦"
       },
       "duration_sec": 2346,
-      "views": 28649,
+      "views": 28657,
       "danmaku": 6,
       "favorites": 964,
       "published_at": "2025-12-07T08:06:42+00:00",
@@ -7288,7 +7292,7 @@
         "name": "分歧点WhatIf"
       },
       "duration_sec": 686,
-      "views": 21973,
+      "views": 21982,
       "danmaku": 4,
       "favorites": 364,
       "published_at": "2026-04-03T16:14:43+00:00",
@@ -7308,9 +7312,9 @@
         "name": "全栈AI开发"
       },
       "duration_sec": 90600,
-      "views": 501,
+      "views": 560,
       "danmaku": 91,
-      "favorites": 53,
+      "favorites": 59,
       "published_at": "2026-05-31T09:39:35+00:00",
       "summary": "视频配套仔料+大模型入门到进阶全套仔料\n已经整理打包好\n如果视频对你有用的话请一键三连【长按点赞】支持一下up哦",
       "matched_keywords": [
@@ -7348,9 +7352,9 @@
         "name": "Agent喂饭级教程"
       },
       "duration_sec": 6398,
-      "views": 38059,
+      "views": 38183,
       "danmaku": 143,
-      "favorites": 1423,
+      "favorites": 1424,
       "published_at": "2026-05-23T03:20:10+00:00",
       "summary": "全新版本，大家记得三连获取安装资料哦",
       "matched_keywords": [
@@ -7368,7 +7372,7 @@
         "name": "机智波玩ai"
       },
       "duration_sec": 694,
-      "views": 373,
+      "views": 376,
       "danmaku": 0,
       "favorites": 14,
       "published_at": "2026-04-24T13:05:06+00:00",
@@ -7388,9 +7392,9 @@
         "name": "星小脉"
       },
       "duration_sec": 7636,
-      "views": 9071,
+      "views": 9087,
       "danmaku": 1,
-      "favorites": 346,
+      "favorites": 347,
       "published_at": "2026-04-05T11:00:20+00:00",
       "summary": "2026年最全面的Microsoft Copilot教程上半部分。从Copilot首页入门到Agent深度解析，涵盖搜索、资料库、AI视频生成、Copilot Pages、PowerPoint智能幻灯片等全部功能。由培训了6万人的AI顾问Cherie Brock与Sabrina Ramonov联合讲解。",
       "matched_keywords": [
@@ -7428,9 +7432,9 @@
         "name": "Agent搭建智能体"
       },
       "duration_sec": 53868,
-      "views": 2723,
+      "views": 2753,
       "danmaku": 88,
-      "favorites": 88,
+      "favorites": 89,
       "published_at": "2026-05-29T13:36:47+00:00",
       "summary": "【视频配套籽料、零基础学习路线、实战项目案例、电子书+问题解答 在 ”置顶平论” 自取哦】\n本套教程从零开始讲解Agent智能体搭建，包含AI开发环境搭建，模型预训练等一些基础概念、RAG、Agent、Langchain、LangGraph和私有化部署\n无论是新手小白，还是有经验的友友，皆可学习\n视频对你有用的话，还请 一键三连【长按点赞】支持一下UP哦！你的支持是我更新的动力~",
       "matched_keywords": [
@@ -7448,7 +7452,7 @@
         "name": "Agent应用开发"
       },
       "duration_sec": 73583,
-      "views": 373,
+      "views": 405,
       "danmaku": 84,
       "favorites": 29,
       "published_at": "2026-05-31T07:34:24+00:00",
@@ -7478,26 +7482,6 @@
       ]
     },
     {
-      "id": "bvid:BV1CmGy6wEha",
-      "title": "【Java+大模型】B站唯一讲的最好的Java AI Agent大模型教程，Spring AI Alibaba Agent Framwork+Skill全搞懂！",
-      "url": "http://www.bilibili.com/video/av116645607512248",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "437525381",
-        "name": "图灵官方诸葛"
-      },
-      "duration_sec": 20874,
-      "views": 5157,
-      "danmaku": 32,
-      "favorites": 239,
-      "published_at": "2026-05-27T08:43:15+00:00",
-      "summary": "整理制作不易，大家记得点个关注，一键三连呀【点赞、收藏、转发】感谢支持~\nJava+AI大模型200万字面试宝典，学习路线图和简历模板自取：https://www.bilibili.com/opus/808122827166187527",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
       "id": "bvid:BV11LRCBYEMv",
       "title": "【2026最新】DeepSeek搭建Agent智能体＋个人知识库全套教程，手把手带你搭建智能体，零基础入门必备！少走99%的弯路！",
       "url": "http://www.bilibili.com/video/av116521053460425",
@@ -7508,11 +7492,31 @@
         "name": "AI大模型教程_"
       },
       "duration_sec": 5355,
-      "views": 10233,
+      "views": 10260,
       "danmaku": 108,
       "favorites": 413,
       "published_at": "2026-05-05T08:43:24+00:00",
       "summary": "【2026最新】DeepSeek搭建Agent智能体＋个人知识库全套教程，手把手带你搭建智能体，零基础入门必备！少走99%的弯路！",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1CmGy6wEha",
+      "title": "【Java+大模型】B站唯一讲的最好的Java AI Agent大模型教程，Spring AI Alibaba Agent Framwork+Skill全搞懂！",
+      "url": "http://www.bilibili.com/video/av116645607512248",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "437525381",
+        "name": "图灵官方诸葛"
+      },
+      "duration_sec": 20874,
+      "views": 5164,
+      "danmaku": 32,
+      "favorites": 240,
+      "published_at": "2026-05-27T08:43:15+00:00",
+      "summary": "整理制作不易，大家记得点个关注，一键三连呀【点赞、收藏、转发】感谢支持~\nJava+AI大模型200万字面试宝典，学习路线图和简历模板自取：https://www.bilibili.com/opus/808122827166187527",
       "matched_keywords": [
         "AI Agent 教程"
       ]
@@ -7528,9 +7532,9 @@
         "name": "AI应用全栈开发"
       },
       "duration_sec": 67189,
-      "views": 8131,
+      "views": 8248,
       "danmaku": 117,
-      "favorites": 257,
+      "favorites": 259,
       "published_at": "2026-05-28T10:22:23+00:00",
       "summary": "【视频配套籽料、零基础学习路线、实战项目案例、电子书+问题解答 在 ”置顶平论” 自取哦】\n本套教程从零开始讲解，手把手教学，包含AI大模型入门、AI开发环境搭建等一些基础概念、Agent、Langchain、LangGraph和私有化部署\n无论是新手小白，还是有经验的友友，皆可学习\n视频对你有用的话，还请 一键三连【长按点赞】支持一下UP哦！你的支持是我更新的动力~",
       "matched_keywords": [
@@ -7548,9 +7552,9 @@
         "name": "玄离199"
       },
       "duration_sec": 474,
-      "views": 172856,
+      "views": 172863,
       "danmaku": 197,
-      "favorites": 9079,
+      "favorites": 9080,
       "published_at": "2025-04-18T12:48:54+00:00",
       "summary": "MCPPPPPPPPPPPPPPPPPPPP",
       "matched_keywords": [
@@ -7578,26 +7582,6 @@
       ]
     },
     {
-      "id": "bvid:BV1mnG16zExm",
-      "title": "构建第一个MCP服务器",
-      "url": "http://www.bilibili.com/video/av116645305588571",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "342242276",
-        "name": "knight008848"
-      },
-      "duration_sec": 204,
-      "views": 5,
-      "danmaku": 0,
-      "favorites": 0,
-      "published_at": "2026-05-27T07:17:37+00:00",
-      "summary": "https://www.youtube.com/playlist?list=PLlrxD0HtieHjYfVUpGl_-ai7D6FRBjV-d\n欢迎您踏上模型上下文协议的学习之旅！如果您曾好奇 AI 应用程序如何与各种工具和服务进行通信，您即将发现一个优雅的解决方案，它正在改变开发者构建智能系统的方式。",
-      "matched_keywords": [
-        "MCP 服务器"
-      ]
-    },
-    {
       "id": "bvid:BV1BnVpz5EBD",
       "title": "全网爆火的MCP到底是什么？如何使用MCP？【小白入门教程】",
       "url": "http://www.bilibili.com/video/av114461616643308",
@@ -7608,7 +7592,7 @@
         "name": "直男山禾"
       },
       "duration_sec": 511,
-      "views": 50092,
+      "views": 50096,
       "danmaku": 120,
       "favorites": 1873,
       "published_at": "2025-05-06T15:38:52+00:00",
@@ -7628,7 +7612,7 @@
         "name": "花老板AI"
       },
       "duration_sec": 161,
-      "views": 4062,
+      "views": 4065,
       "danmaku": 0,
       "favorites": 122,
       "published_at": "2026-01-04T08:24:14+00:00",
@@ -7648,8 +7632,8 @@
         "name": "技术爬爬虾"
       },
       "duration_sec": 971,
-      "views": 139949,
-      "danmaku": 315,
+      "views": 139964,
+      "danmaku": 316,
       "favorites": 6816,
       "published_at": "2025-06-05T12:44:31+00:00",
       "summary": "UV安装：https://docs.astral.sh/uv/getting-started/installation/\nMCP Github首页：https://github.com/modelcontextprotocol\nMCP Python SKD: https://github.com/modelcontextprotocol/python-sdk\n免费云服务器：https://www.bilibili.com/video/BV1r17azXEAj\n\nMCP简单来说就是AI大模型的标准化工具箱，",
@@ -7668,7 +7652,7 @@
         "name": "尚硅谷"
       },
       "duration_sec": 7408,
-      "views": 364517,
+      "views": 364581,
       "danmaku": 661,
       "favorites": 8345,
       "published_at": "2025-04-23T02:00:20+00:00",
@@ -7688,7 +7672,7 @@
         "name": "3DM小莫"
       },
       "duration_sec": 600,
-      "views": 35478,
+      "views": 35487,
       "danmaku": 3,
       "favorites": 219,
       "published_at": "2025-11-03T09:19:08+00:00",
@@ -7708,7 +7692,7 @@
         "name": "远程力量英雄_"
       },
       "duration_sec": 940,
-      "views": 2208,
+      "views": 2210,
       "danmaku": 0,
       "favorites": 172,
       "published_at": "2026-04-14T13:51:39+00:00",
@@ -7748,7 +7732,7 @@
         "name": "AI落地派"
       },
       "duration_sec": 347,
-      "views": 5920,
+      "views": 5922,
       "danmaku": 0,
       "favorites": 95,
       "published_at": "2025-04-30T08:51:30+00:00",
@@ -7788,7 +7772,7 @@
         "name": "DashLi进化论"
       },
       "duration_sec": 406,
-      "views": 4600,
+      "views": 4603,
       "danmaku": 0,
       "favorites": 41,
       "published_at": "2025-10-13T12:05:10+00:00",
@@ -7808,7 +7792,7 @@
         "name": "物骨"
       },
       "duration_sec": 132,
-      "views": 312304,
+      "views": 312315,
       "danmaku": 92,
       "favorites": 7282,
       "published_at": "2025-03-06T21:00:00+00:00",
@@ -7828,7 +7812,7 @@
         "name": "能吃两个西瓜"
       },
       "duration_sec": 1319,
-      "views": 6406,
+      "views": 6411,
       "danmaku": 4,
       "favorites": 182,
       "published_at": "2025-05-19T03:44:27+00:00",
@@ -7868,7 +7852,7 @@
         "name": "去飞GoFly"
       },
       "duration_sec": 452,
-      "views": 8883,
+      "views": 8886,
       "danmaku": 1,
       "favorites": 355,
       "published_at": "2025-04-14T02:30:00+00:00",
@@ -7888,7 +7872,7 @@
         "name": "青空白尘"
       },
       "duration_sec": 125,
-      "views": 36947,
+      "views": 36985,
       "danmaku": 57,
       "favorites": 74,
       "published_at": "2026-04-12T11:00:00+00:00",
@@ -7908,7 +7892,7 @@
         "name": "程序员Cafe"
       },
       "duration_sec": 779,
-      "views": 11048,
+      "views": 11049,
       "danmaku": 3,
       "favorites": 661,
       "published_at": "2025-07-30T15:05:27+00:00",
@@ -7928,11 +7912,31 @@
         "name": "新建文件夹X"
       },
       "duration_sec": 1854,
-      "views": 29469,
+      "views": 29470,
       "danmaku": 15,
       "favorites": 1292,
       "published_at": "2025-05-16T13:11:38+00:00",
       "summary": "完全本地，本地 MCP、本地大语言模型。使用 FastMCP 开发 MCP 服务器、客户端，并使用大语言模型调用 MCP 服务器工具。\n代码：https://github.com/IronSpiderMan/MachineLearningPractice/tree/main/llm_techs/mcp",
+      "matched_keywords": [
+        "MCP 服务器"
+      ]
+    },
+    {
+      "id": "bvid:BV1hnjGzLE14",
+      "title": "【小智教程】手挽手教你如何接入别人的MCP服务",
+      "url": "http://www.bilibili.com/video/av114568722450105",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546810853362135",
+        "name": "空白泡泡糖果"
+      },
+      "duration_sec": 510,
+      "views": 16879,
+      "danmaku": 0,
+      "favorites": 479,
+      "published_at": "2025-05-25T13:36:25+00:00",
+      "summary": "文档：https://icnt94i5ctj4.feishu.cn/docx/ZkR3d1lfUosIFCx4qWJcI4QunY0\nshay大佬的HA SSE接入文档：https://bbs.hassbian.com/thread-29314-1-1.html",
       "matched_keywords": [
         "MCP 服务器"
       ]

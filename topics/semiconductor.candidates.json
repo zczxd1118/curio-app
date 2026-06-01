@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-06-01T04:52:04.573148+00:00",
+  "fetched_at": "2026-06-01T06:42:29.210850+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -364,6 +364,40 @@
       "views": null,
       "published_at": "2026-05-27T12:00:00+00:00",
       "summary": "Delos Data wants to enable practical scale-up domains of 1000+ GPUs in flexible topology designs. The post Startup Boosts Scale-Up to 1000+ GPUs in a Single Domain appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/nvidia-unveils-dgx-sparrk-roadmap-for-laptops-and-desktop-pcs-at-computex-2026-three-generations-outlined-rubin-followed-by-rosa-feynman",
+      "title": "Nvidia lays out RTX Spark roadmap for laptops and desktop PCs at Computex 2026 — three generations outlined, Rubin with LPDDR6 memory, followed by Rosa Feynman",
+      "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-unveils-dgx-sparrk-roadmap-for-laptops-and-desktop-pcs-at-computex-2026-three-generations-outlined-rubin-followed-by-rosa-feynman",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jeffrey Kampman",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T05:55:07+00:00",
+      "summary": "Along with its first-generation RTX Spark platform for desktop and laptop PCs, Nvidia CEO Jensen Huang revealed the company's commitment to future generations of those platforms on its future roadmaps.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
+      "title": "Nvidia unveils RTX Spark Superchip for laptops and desktop PCs at Computex 2026 – new platform promises to turn Windows into an agentic AI OS with Arm CPU, Blackwell GPU, and 128GB unified memory",
+      "url": "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jeffrey Kampman",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:52:13+00:00",
+      "summary": "At Computex 2026, Nvidia CEO Jensen Huang unveiled the RTX Spark Superchip, a new Arm laptop and desktop platform that powers agentic AI on Windows with a 20-core Arm CPU, powerful 6144-CUDA-core Blackwell GPU, and up to 128 GB of local memory.",
       "lang": "en"
     },
     {
@@ -843,40 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/video-games/handheld-gaming/the-usd60-retro-gaming-handheld-that-escaped-china-has-been-brought-back-home-lenovos-g02-pulled-from-sale-amid-copyright-drama-and-regional-restrictions",
-      "title": "Sellers circumvent Lenovo’s retro handheld ban with cheap wholesale storefronts — $41 gray-market G02 units pop up on Alibaba following initial storefront purge, systems were pulled from sale amid copyright drama and regional restrictions",
-      "url": "https://www.tomshardware.com/video-games/handheld-gaming/the-usd60-retro-gaming-handheld-that-escaped-china-has-been-brought-back-home-lenovos-g02-pulled-from-sale-amid-copyright-drama-and-regional-restrictions",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-30T11:30:00+00:00",
-      "summary": "Lenovo has pulled the G02 from sale on different Chinese e-commerce platforms after the company discovered that it was being sold outside of China.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/lucky-pc-builder-snipes-usd2-000-rog-astral-rtx-5080-on-facebook-marketplace-for-usd500-gets-a-nearly-75-percent-discount-card-that-works-perfectly",
-      "title": "Lucky PC builder snipes $2,000 ROG Astral RTX 5080 on Facebook Marketplace for $500 — gets a nearly 75% discount card that 'works perfectly'",
-      "url": "https://www.tomshardware.com/pc-components/gpus/lucky-pc-builder-snipes-usd2-000-rog-astral-rtx-5080-on-facebook-marketplace-for-usd500-gets-a-nearly-75-percent-discount-card-that-works-perfectly",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-30T11:00:00+00:00",
-      "summary": "A Redditor scored an RTX 5080 for $500 after they found it on Facebook Marketplace while browsing for deals. Another buyer even offered $800 for the GPU as the OP was on the way to pick up the item, but the seller stuck with the original deal.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48012477",
       "title": "Offenders sentenced up to 10 years for spying on TSMC",
       "url": "https://www.taipeitimes.com/News/front/archives/2026/04/28/2003856358",
@@ -953,6 +953,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48352939",
+      "title": "Nvidia RTX Spark",
+      "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48352939",
+        "name": "shenli3514",
+        "hn_url": "https://news.ycombinator.com/item?id=48352939"
+      },
+      "duration_sec": null,
+      "views": 39,
+      "comments": 27,
+      "published_at": "2026-06-01T05:24:40+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:48323697",
       "title": "The Nvidia Tax",
       "url": "https://www.cringely.com/2026/05/29/the-nvidia-tax/",
@@ -986,25 +1005,6 @@
       "views": 21,
       "comments": 0,
       "published_at": "2026-05-26T19:21:02+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48343372",
-      "title": "Dell Confirms XPS Laptop with Nvidia N1X at Computex",
-      "url": "https://videocardz.com/newz/dell-confirms-xps-laptop-with-nvidia-n1x-at-computex",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48343372",
-        "name": "theanonymousone",
-        "hn_url": "https://news.ycombinator.com/item?id=48343372"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 0,
-      "published_at": "2026-05-31T05:58:07+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

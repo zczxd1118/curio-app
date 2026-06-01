@@ -2,7 +2,7 @@
   "domain": "AI 商业 / 投融资",
   "domain_id": "finance",
   "topic_id": "default",
-  "fetched_at": "2026-06-01T04:51:55.646252+00:00",
+  "fetched_at": "2026-06-01T06:42:20.853368+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -16,7 +16,7 @@
     "HN · Anthropic": 10,
     "HN · Nvidia": 0,
     "HN · AI funding": 5,
-    "HN · 大厂财报": 0,
+    "HN · 大厂财报": 1,
     "HN · 经济宏观": 0
   },
   "subtopics": [
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 89,
+  "total": 90,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/luceing-their-mind/",
@@ -537,6 +537,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.theinformation.com/briefings/intel-ship-new-ai-chip-year-challenge-nvidia",
+      "title": "Intel to Ship New AI Chip This Year to Challenge Nvidia",
+      "url": "https://www.theinformation.com/briefings/intel-ship-new-ai-chip-year-challenge-nvidia",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Qianer Liu",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T05:50:09+00:00",
+      "summary": "Intel plans to ship a new AI chip by the end of this year, betting that a cheaper, simpler processor can give it a new foothold in a market dominated by Nvidia, according to a Financial Times interview with Kevork Kechichian, who leads Intel’s data centre group. The chip, code-named Crescent ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/briefings/clarifies-ai-chip-export-loophole",
+      "title": "US Clarifies AI Chip Export Loophole",
+      "url": "https://www.theinformation.com/briefings/clarifies-ai-chip-export-loophole",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Qianer Liu",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T05:05:21+00:00",
+      "summary": "The U.S. Commerce Department issued guidance on Sunday saying Chinese companies still need licences to buy advanced US AI chips, even when they try to do it through an overseas offshoot. The move shuts a potential workaround that let Chinese firms source powerful US AI chips through their ...",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.theinformation.com/articles/microsofts-ai-independence-day",
       "title": "Microsoft’s AI Independence Day",
       "url": "https://www.theinformation.com/articles/microsofts-ai-independence-day",
@@ -843,48 +877,69 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theinformation.com/briefings/illinois-legislature-passes-landmark-ai-safety-bill",
-      "title": "Illinois Legislature Passes Landmark AI Safety Bill",
-      "url": "https://www.theinformation.com/briefings/illinois-legislature-passes-landmark-ai-safety-bill",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theinformation.com/feed",
-        "name": "Leo Schwartz",
-        "feed_title": "The Information"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-28T19:22:32+00:00",
-      "summary": "On Wednesday, the Illinois House of Representatives passed a bill that will require major AI companies to submit their model safety plans for third-party audits, as well as creating whistleblower protections for those companies’ employees. While Governor JB Pritzker still has to sign the bill ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.theinformation.com/briefings/anthropic-releases-new-flagship-ai-model",
-      "title": "Anthropic Releases New Flagship AI Model",
-      "url": "https://www.theinformation.com/briefings/anthropic-releases-new-flagship-ai-model",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theinformation.com/feed",
-        "name": "Stephanie Palazzolo",
-        "feed_title": "The Information"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-28T19:11:41+00:00",
-      "summary": "Anthropic on Thursday announced its new flagship AI model, Claude Opus 4.8, which showed improvements in standardized AI performance evaluations in coding, financial analysis and other fields. The company also said the model is more likely to flag uncertainties about its work and less likely to ...",
-      "lang": "en"
-    },
-    {
-      "id": "wscn:3773548",
-      "title": "黄仁勋：Vera Rubin全面量产，AI Agent是重点方向，挑战英特尔剑指下一代AI PC入口",
-      "url": "https://wallstreetcn.com/articles/3773548",
-      "summary": "黄仁勋表示，英伟达将推出面向AI智能体的CPU Vera和全新AI模型Nemotron 3 Ultra。此外英伟达公布面向WINDOWS系统个人电脑的新款处理器，挑战英特尔，剑指下一代AI PC入口。",
+      "id": "wscn:3773554",
+      "title": "AI“泡沫”走到了哪一步？",
+      "url": "https://wallstreetcn.com/articles/3773554",
+      "summary": "申万宏源认为，AI科技革命仍处\"上半场\"，Mag7净利率高达35%、ROE达52%，与科网泡沫时期的负值形成天壤之别；头部企业资本开支预期上修36%至6877亿美元，但技术面指标已升至历史高分位。断言泡沫即将破裂为时尚早，但业绩能否持续兑现，才是悬在AI牛市头顶的真正达摩克利斯之剑。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-01T04:38:35+00:00",
+      "published_at": "2026-06-01T06:37:36+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773548",
+      "title": "英伟达GTC ：Vera Rubin全面量产，杀入PC芯片市场，携宇树布局机器人",
+      "url": "https://wallstreetcn.com/articles/3773548",
+      "summary": "黄仁勋表示，英伟达将推出面向AI智能体的CPU Vera和全新AI模型Nemotron 3 Ultra。此外英伟达公布面向WINDOWS系统个人电脑的新款处理器，挑战英特尔，剑指下一代AI PC入口。英伟达将与宇树科技等全球人形机器人制造商合作开发机器人。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T06:16:43+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773552",
+      "title": "黄仁勋即将会见LG集团会长，LG电子连续涨停、年内飙升300%",
+      "url": "https://wallstreetcn.com/articles/3773552",
+      "summary": "黄仁勋将于6月5日会见LG集团会长具光谟，聚焦物理AI合作。消息一出，LG电子连续两日触及涨停，年内累涨超300%，LG系多股同步创历史新高。分析师直言：市场重新定价的，已不再是谁来构建AI服务，而是谁来搭建运行AI所需的物理基础设施。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T06:00:54+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773551",
+      "title": "软银超越丰田成日本市值最大公司，20年霸主易位",
+      "url": "https://wallstreetcn.com/articles/3773551",
+      "summary": "软银凭借AI狂潮终结丰田逾20年日本市值霸主地位，周一软银股价盘中暴涨逾13%，市值突破46万亿日元，今年累计涨幅近73%。背后推手：OpenAI巨额敞口、750亿欧元法国AI集群投资，叠加外资连续八周净买入。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T05:41:30+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773301",
+      "title": "超越贸易结算：人民币国际化迎来黄金窗口",
+      "url": "https://wallstreetcn.com/premium/articles/3773301?layout=wscn-layout",
+      "summary": "人民币国际化正从贸易结算迈向投融资与离岸资产配置，离岸生态建设或成下一阶段关键。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T05:35:02+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773550",
+      "title": "SK海力士韩国芯片工厂气体泄漏，3600人紧急疏散、6人受伤",
+      "url": "https://wallstreetcn.com/articles/3773550",
+      "summary": "SK海力士韩国清州核心芯片工厂突发火灾并引发氢氟酸泄漏，约3600名员工紧急疏散，6人受伤。公司称生产未受中断，但事故原因仍在调查，伤亡数字存在上调可能，全球存储芯片供应链动态备受关注。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T05:28:12+00:00",
       "points": 0
     },
     {
@@ -1031,61 +1086,6 @@
       "points": 0
     },
     {
-      "id": "wscn:3773532",
-      "title": "AI PC海啸引爆周末：英伟达亲自下场！大厂预计重塑万亿PC产业生态！",
-      "url": "https://wallstreetcn.com/premium/articles/3773532?layout=wscn-layout",
-      "summary": "ComputeX 2026大会将成为人类PC产业发展史上的一个分水岭时刻。记住这个时刻。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T01:36:58+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773535",
-      "title": "油价跌了黄金也没涨，市场开始担心一个新问题",
-      "url": "https://wallstreetcn.com/articles/3773535",
-      "summary": "德银认为，黄金正面临一个新问题：通胀来源更广泛、更顽固，叠加全球央行加息预期升温、实际利率上升，令金价持续承压，且与油价走势明显背离。全球债市同步抛售、ETF需求同比萎缩78%是当前最大压力来源。市场目前最关注的变量，是新美联储主席沃什能否在6月议息会议上软化鹰派立场。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T01:06:47+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773533",
-      "title": "高盛也支持“存储PE估值”，上调海力士、三星和铠侠“三巨头”目标价",
-      "url": "https://wallstreetcn.com/articles/3773533",
-      "summary": "高盛认为，AI驱动需求持续性、供给受限及长期供货协议（LTA）三大结构性变化，正推动存储行业向AI基础设施赛道转型。预计供需短缺将延续至2028年。此前大摩和小摩就指出，存储巨头正站在估值范式切换的历史节点上，盈利可预测性比肩台积电，当前7.3倍远期P/E存在历史性修复空间。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T01:02:06+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773504",
-      "title": "国内债市或延续上涨，货币政策保持流动性充裕---W22国内宏观脱水",
-      "url": "https://wallstreetcn.com/premium/articles/3773504?layout=wscn-layout",
-      "summary": "国内债市上涨行情或有望延续，尽管经济呈现先强后弱，但基本面仍对债市形成托底，流动性有望持续充裕，更多...",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T01:00:45+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773526",
-      "title": "百亿基金集体“创新高”：一场必要的估值修复",
-      "url": "https://wallstreetcn.com/articles/3773526",
-      "summary": "如何客观看待主动权益基金的时刻临近",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T00:35:52+00:00",
-      "points": 0
-    },
-    {
       "id": "hn:48212493",
       "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
@@ -1116,7 +1116,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48182754"
       },
       "duration_sec": null,
-      "views": 1096,
+      "views": 1097,
       "comments": 595,
       "published_at": "2026-05-18T17:38:22+00:00",
       "summary": "",
@@ -1154,7 +1154,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48336233"
       },
       "duration_sec": null,
-      "views": 417,
+      "views": 418,
       "comments": 469,
       "published_at": "2026-05-30T13:56:34+00:00",
       "summary": "",
@@ -1269,7 +1269,7 @@
       },
       "duration_sec": null,
       "views": 362,
-      "comments": 426,
+      "comments": 427,
       "published_at": "2026-05-28T18:09:44+00:00",
       "summary": "",
       "matched_keyword": "Anthropic",
@@ -1463,6 +1463,25 @@
       "published_at": "2026-05-21T16:42:34+00:00",
       "summary": "",
       "matched_keyword": "AI funding",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48205415",
+      "title": "Learnings from 100K lines of Rust with AI (2025)",
+      "url": "https://zfhuang99.github.io/rust/claude%20code/codex/contracts/spec-driven%20development/2025/12/01/rust-with-ai.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48205415",
+        "name": "pramodbiligiri",
+        "hn_url": "https://news.ycombinator.com/item?id=48205415"
+      },
+      "duration_sec": null,
+      "views": 192,
+      "comments": 205,
+      "published_at": "2026-05-20T10:04:28+00:00",
+      "summary": "",
+      "matched_keyword": "earnings",
       "lang": "en"
     }
   ]
