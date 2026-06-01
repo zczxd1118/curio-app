@@ -140,7 +140,16 @@ async function handleSubscribe(req, env) {
     // 已确认订阅者重新提交：直接更新
     const merged = { ...existing, domains, cadence, updated_at: new Date().toISOString() };
     await env.CURIO_KV.put("subscriber:" + lower, JSON.stringify(merged));
-    return json({ ok: true, status: "updated", message: "订阅偏好已更新" });
+    // 拉 meta 显示中文名给用户看
+    const meta = (await env.CURIO_KV.get("domains:meta", "json")) || {};
+    const displayDomains = domains.map(d => (meta[d] && meta[d].name) || d);
+    return json({
+      ok: true,
+      status: "updated",
+      message: `订阅偏好已更新（${cadence === "daily" ? "每日" : "每周"}：${displayDomains.join("、")}）`,
+      domains: displayDomains,
+      cadence,
+    });
   }
 
   const token = genToken(24);

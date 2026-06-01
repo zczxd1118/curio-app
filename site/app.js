@@ -726,9 +726,18 @@ async function openSubscribeModal() {
           body: JSON.stringify({email, domains: picked, cadence}),
         });
         status.style.color = '#5cb85c';
-        status.textContent = '✅ ' + (r.message || '已发送确认邮件，请查收');
-        toast('✅ 已发送确认邮件，请查收');
-        setTimeout(() => modal.classList.remove('show'), 2400);
+        // 按 worker 返回的 status 给不同提示
+        let msg;
+        if (r.status === 'updated') {
+          msg = '✅ 订阅偏好已更新（无需再次确认）';
+        } else if (r.status === 'pending') {
+          msg = '✅ 已发送确认邮件，请查收（48 小时内点击）';
+        } else {
+          msg = '✅ ' + (r.message || '订阅请求已收到');
+        }
+        status.textContent = msg;
+        toast(msg);
+        setTimeout(() => modal.classList.remove('show'), 2800);
       } catch (e) {
         status.style.color = '#d9534f';
         status.textContent = '❌ ' + e.message;
