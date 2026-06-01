@@ -379,7 +379,7 @@ bash scripts/setup_new_device.sh ~/curio-secrets/curio-backup-*.tar.gz.enc
 ## 版本与作者
 
 - 版本：**v0.9（2026-05-31）**
-- 作者：周小丁（zczxd1118 / 170665060@qq.com，深圳腾讯）
+- 作者：周小丁（zczxd1118 / 170665060@qq.com）
 - 协作：WorkBuddy + Claude
 - 许可：私人项目（不开源给外部）
 
