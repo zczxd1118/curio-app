@@ -1,15 +1,15 @@
-name: Process Add-Domain Issue
+name: Process Curio Issue
 
-# 当带 curio-add-domain 标签的 issue 被打开时立即触发
-# 跑 ingest_add_domain → 把新领域写入 sources.yaml + 生成 explore.json
-# 然后立即触发一次 fetch-candidates（用 workflow_dispatch）
+# 当带 curio-add-domain 或 curio-generate 标签的 issue 被打开时立即触发
+# - curio-add-domain: 跑 ingest_add_domain → 写 sources.yaml + 生成 explore.json
+# - curio-generate: 跑 ingest_generate → 写 .pending_generate.json，评论"已排队"
+# 两种情况都会立即触发一次 fetch-candidates（让候选池在 5 分钟内更新）
 on:
   issues:
     types: [opened, labeled, reopened]
 
 jobs:
-  ingest:
-    # 只对带 curio-add-domain 标签的 issue 跑
+  ingest-add-domain:
     if: contains(github.event.issue.labels.*.name, 'curio-add-domain')
     runs-on: ubuntu-latest
     permissions:
@@ -55,5 +55,65 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # issue 处理完后立即跑一次抓取，让新领域 5 分钟内生效
           gh workflow run fetch-candidates.yml -f reason="add-domain #${{ github.event.issue.number }}"
+
+  ingest-generate:
+    if: contains(github.event.issue.labels.*.name, 'curio-generate')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ingest generate issue (写 .pending_generate.json)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python -m agent.worker_sync ingest_generate
+
+      - name: Commit & push pending queue
+        run: |
+          git config user.name "curio-bot"
+          git config user.email "curio-bot@users.noreply.github.com"
+          git add .pending_generate.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "无变更（可能已经在 pending 中）"
+          else
+            git commit -m "chore(ci): queue generate request from issue #${{ github.event.issue.number }} [skip ci]"
+            git push
+          fi
+
+      - name: Trigger fetch-candidates immediately
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 立即跑一次抓取，让候选池是最新的；本地 automation 评分时拿到的是新鲜数据
+          gh workflow run fetch-candidates.yml -f reason="generate request #${{ github.event.issue.number }}"
+
+      - name: Comment on issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --body "✅ 已排队（CI 处理）
+
+          - 候选池正在重新抓取（约 2 分钟）
+          - 候选池更新后，最近一次本地 automation 跑时会处理你的请求并发邮件
+          - **预计**：下一次本地 automation 跑（最坏 1 小时内）
+
+          想立即看主页内容：https://curioradar.fun/"
