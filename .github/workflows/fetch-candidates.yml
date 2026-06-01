@@ -63,7 +63,7 @@ jobs:
                   print(f'  {f}: 读失败 ({e})')
           "
 
-      - name: Commit & push
+      - name: Commit & push (with pull-rebase fallback)
         run: |
           git config user.name "curio-bot"
           git config user.email "curio-bot@users.noreply.github.com"
@@ -71,8 +71,17 @@ jobs:
           git add topics/*.candidates.json topics/unified.*.json topics/unified.score-prompt.md topics/_run_plan.json topics/_notes_plan.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "无变更，跳过 commit"
-          else
-            git commit -m "chore(ci): refresh candidates [skip ci]"
-            # push 用 GITHUB_TOKEN
-            git push
+            exit 0
           fi
+          git commit -m "chore(ci): refresh candidates [skip ci]"
+          # 重试 3 次：每次失败就 pull --rebase 再 push（避免和本地 push 冲突）
+          for i in 1 2 3; do
+            if git push; then
+              echo "push 成功（第 $i 次）"
+              exit 0
+            fi
+            echo "push 第 $i 次失败，pull --rebase 后重试"
+            git pull --rebase origin main || { echo "rebase 冲突，放弃"; exit 1; }
+          done
+          echo "3 次 push 都失败"
+          exit 1
