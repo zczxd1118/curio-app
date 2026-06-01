@@ -1,47 +1,43 @@
 # Curio · AI 算力 / 半导体 · 2026-06-01
 
-> 今日 1 条头条 + 5 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天三条主线交叉：一是 OpenAI 计划本周递交 IPO 招股书，叠加 SpaceX 1.8 万亿美元 IPO 倒逼指数规则改写，AI 独角兽集体进入定价时刻；二是 Computex 2026 + GTC Taipei 同步开锣，Nvidia Vera Rubin 量产 + N1X PC 处理器入场，Intel 18A Xeon 6+ 反扑，AI 硬件竞争从 GPU 蔓延到 CPU/PC 全栈；三是股票域：SpaceX IPO 招股书极度不公平条款（禁止股东诉讼、Musk 永久控制），多家媒体警告散户慎打新——这是 2026 年下半年股市最大的风险事件。Stratechery 本周新增 Eric Seufert 访谈值得你听完。_
+_Computex 2026 开幕，NVIDIA 正式发布 RTX Spark 超级芯片，进军 Arm PC 市场；OpenAI 成立机器人团队并准备 IPO，AI 硬件与资本叙事同步升温。软银 750 亿欧元押注法国数据中心，SK 海力士工厂事故扰动供应链——今天信号密集，聚焦 AI 从云端向终端、从软件向实体的关键转折。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. 黄仁勋 Computex 表态：Vera Rubin 已全面量产，Nvidia 自己造 PC 处理器进军 AI PC 入口
+### 1. NVIDIA 发布 RTX Spark：Arm CPU + Blackwell GPU 超级芯片，定义 AI PC 新品类
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _华尔街见闻 API_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-Computex 2026 + GTC Taipei 同步召开，黄仁勋宣布下一代数据中心平台 Vera Rubin 已全面量产，并推出面向 AI Agent 的 Vera CPU；Phoronix 实测 Vera 的 Olympus 核心性能强劲。同时 Nvidia 长期酝酿的 N1/N1X PC SoC 规格泄露——20 个 Arm 核 + 6144 CUDA 核心，对标桌面 RTX 5070，Dell XPS 笔记本将首发。这意味着 Nvidia 不再只卖加速卡，而是要从数据中心一直吃到 AI PC 端点。
+Computex 2026 上，黄仁勋正式揭晓 RTX Spark 超级芯片——20 核 Arm CPU 集成 6144 CUDA 核心 Blackwell GPU、128GB 统一内存，专为 Agentic AI 工作负载设计。首批搭载该芯片的 Surface Laptop Ultra 和 Dell XPS 13 将在秋季上市，起售价 699 美元。这是 NVIDIA 首次以完整 PC 平台身份挑战 Intel、AMD、Apple 和 Qualcomm。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 黄仁勋官宣 Vera Rubin 全面量产，AI Agent 是 Nvidia 下一阶段重点（华尔街见闻 6/1） | N1X 真实出货时间和良率受 TSMC 产能影响，2026 年 Q3 前应不会上量 |
-| N1X SoC 顶配 20 Arm 核 + 6144 CUDA 核心，标准 N1 提供 12 核 / 10 核两档（Tom's Hardware 5/31） | Nvidia 自己做 PC 处理器，Intel / AMD 在 AI PC 这条线的话语权会被压缩 |
-| Dell 在 Computex 确认搭载 Nvidia N1X 的 XPS 笔记本（VideoCardz / hn:48343372） | Vera Rubin 量产后 H200 / B200 的二手市场价格可能松动，国内白手套渠道留意 |
-| Vera 的 Olympus 核心 Phoronix 评测：每线程性能优秀（hn:48291230） | AI Agent 重点意味着 Nvidia 软件栈（NeMo / Blueprints）会进一步绑客户，自研推理框架的窗口在收窄 |
-| AI 需求已从 GPU 蔓延到 "传统 PC 大厂"，戴尔股价涨至 420 美元，大摩公开 "认错"（华尔街见闻 6/1） |  |
+| RTX Spark 采用 20 核 Arm CPU + Blackwell GPU，统一内存 128GB | 统一内存架构能否在推理延迟上超越 Apple M 系列尚未验证 |
+| 首批设备包括 Microsoft Surface Laptop Ultra 和 Dell XPS 13，起售价 $699 | 开发者生态（CUDA on Arm）的成熟度仍是关键瓶颈 |
+| NVIDIA 公布三代路线图：Rubin（LPDDR6）→ Rosa → Feynman | 定价 $699 是否包含完整 AI 能力，或需要额外订阅服务 |
+| 平台定位 'Agentic AI OS'，原生支持 Windows 上的 AI Agent 工作流 | Surface Laptop Ultra 的散热设计能否释放 RTX Spark 全部性能 |
+|  | 企业采购是否会因 'Windows on Arm' 兼容性顾虑而观望 |
 
 **📖 主编点评**
 
-你做 Agent 项目时，部署侧别再默认 "租 H100 / 用 Together"。Nvidia 把 Vera + N1 推下来后，本地化 inference 的成本曲线会变陡——尤其 Mac mini / Snapdragon X 这种 30W 级设备未来一年会承接更多个人 Agent 推理。content-curator 这种轻量场景，未来直接跑在用户机器上是主流路径，不是 fallback。
+这对你意味着：如果你在做 AI Agent 或本地推理项目，RTX Spark 可能是第一个真正适合 '个人 AI 工作站' 的消费级平台。128GB 统一内存意味着你可以在本地跑 70B 模型，而不需要租云 GPU。关注秋季 Surface Laptop Ultra 的实测——如果推理速度接近 M4 Max，这会是你的下一台主力机。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3773548)
+📺 [打开原文](https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory)
 
 ---
 
 ## 📋 备选阅读
 
-- [Intel Xeon 6+ Clearwater Forest 用 18A 工艺杀回数据中心，288 核 / 576MB L3](https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel) —— Intel 自报每线程比 AMD EPYC 9965 快 30%，18A 工艺真正进数据中心——AMD 在云厂的优势第一次受真正威胁。
+- [NVIDIA Vera CPU 基准测试：Olympus 核心性能出色](https://www.phoronix.com/review/nvidia-vera-benchmarks) —— NVIDIA 自研 CPU 性能首次曝光，Arm 服务器生态迎来最强竞争者。
+  _Phoronix_
+- [Nikon 计划用低价策略打破 ASML 光刻机垄断](https://www.tomshardware.com/tech-industry/nikon-plans-to-undercut-asml-on-price-to-win-back-chipmaking-lithography-customers) —— ArF 光刻机价格战开启，但 EUV 领域 ASML 仍无对手。
   _Tom's Hardware_
-- [Intel Crescent Island AI GPU 在 Computex 详细披露：480GB LPDDR5X 对抗 HBM 短缺](https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex) —— Intel 用 LPDDR5X 绕开 HBM 短缺，主打推理场景——如果价格够低，是 H200 在中端推理市场的真实替代。
+- [华为轮值董事长感谢美国出口管制 '加速' 中国半导体自主](https://www.tomshardware.com/tech-industry/huawei-chairman-thanks-the-us-for-supercharging-chinas-semiconductor-industry) —— 政治表态背后，华为昇腾芯片的生态进展值得关注。
   _Tom's Hardware_
-- [SoftBank 计划在法国投 870 亿美元建 AI 数据中心](https://www.tomshardware.com/tech-industry/softbank-to-spend-up-to-75-billion-on-french-ai-data-centers) —— 选址法国是冲着核电网；SoftBank 自己背着 1300 亿美元债务、3 月又借 400 亿过桥——杠杆已经打满。
-  _Tom's Hardware_
-- [Nikon 用低价反扑 ASML 的光刻机垄断](https://www.tomshardware.com/tech-industry/nikon-plans-to-undercut-asml-on-price-to-win-back-chipmaking-lithography-customers) —— 用 ArF 工具自有制造低价反扑美国客户，是中美芯片博弈下日本企业的策略调整，不只是商业新闻。
-  _Tom's Hardware_
-- [TSMC 间谍案宣判：被告最高 10 年监禁](https://www.taipeitimes.com/News/front/archives/2026/04/28/2003856358) —— 中国台湾首次按《国安法》重判 TSMC 内部泄密，对所有大陆背景半导体从业者的招聘背景调查会更严。
-  _Taipei Times_
 
 ---
 

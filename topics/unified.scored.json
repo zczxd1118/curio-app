@@ -1,234 +1,233 @@
 {
   "date": "2026-06-01",
-  "intro": "今天三条主线交叉：一是 OpenAI 计划本周递交 IPO 招股书，叠加 SpaceX 1.8 万亿美元 IPO 倒逼指数规则改写，AI 独角兽集体进入定价时刻；二是 Computex 2026 + GTC Taipei 同步开锣，Nvidia Vera Rubin 量产 + N1X PC 处理器入场，Intel 18A Xeon 6+ 反扑，AI 硬件竞争从 GPU 蔓延到 CPU/PC 全栈；三是股票域：SpaceX IPO 招股书极度不公平条款（禁止股东诉讼、Musk 永久控制），多家媒体警告散户慎打新——这是 2026 年下半年股市最大的风险事件。Stratechery 本周新增 Eric Seufert 访谈值得你听完。",
+  "intro": "Computex 2026 开幕，NVIDIA 正式发布 RTX Spark 超级芯片，进军 Arm PC 市场；OpenAI 成立机器人团队并准备 IPO，AI 硬件与资本叙事同步升温。软银 750 亿欧元押注法国数据中心，SK 海力士工厂事故扰动供应链——今天信号密集，聚焦 AI 从云端向终端、从软件向实体的关键转折。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "股票",
-      "id": "wscn:3773539",
-      "url": "https://wallstreetcn.com/articles/3773539",
-      "source": "华尔街见闻 API",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
+      "url": "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
+      "source": "Tom's Hardware",
       "stars": 5,
-      "title": "SpaceX 1.8 万亿美元 IPO 强行改写指数规则，OpenAI 周五递交招股书在即",
-      "lead": "SpaceX 计划以至少 1.8 万亿美元估值、750 亿美元募资规模冲击 IPO 史上最大上市，体量之大已迫使纳斯达克紧急修改指数纳入规则、大幅缩减等待期。OpenAI 同步准备本周内递交 S-1，CNBC 援引消息称最快周五。两件事叠加，意味着 AI 独角兽估值锚正在被市场化，而不是被一级市场 VC 内部撮合定价。这对你判断未来 12 个月的 AI 公司估值合理性是关键参考。",
+      "title": "NVIDIA 发布 RTX Spark：Arm CPU + Blackwell GPU 超级芯片，定义 AI PC 新品类",
+      "lead": "Computex 2026 上，黄仁勋正式揭晓 RTX Spark 超级芯片——20 核 Arm CPU 集成 6144 CUDA 核心 Blackwell GPU、128GB 统一内存，专为 Agentic AI 工作负载设计。首批搭载该芯片的 Surface Laptop Ultra 和 Dell XPS 13 将在秋季上市，起售价 699 美元。这是 NVIDIA 首次以完整 PC 平台身份挑战 Intel、AMD、Apple 和 Qualcomm。",
       "confirmed": [
-        "SpaceX 估值 1.8 万亿美元、募资 750 亿美元，30% 份额拟向散户开放（华尔街见闻 / 5 月 31 日）",
-        "纳斯达克为容纳 SpaceX 已修改指数纳入规则，被动资金自动买入需求或达 200 亿美元",
-        "OpenAI 拟本周向 SEC 秘密递交 IPO 文件，最快周五（CNBC 5 月 21 日）",
-        "Sam Altman 商业关系正受 GOP 国会议员调查，与 IPO 时间窗重叠（WSJ 5 月 14 日）",
-        "Sam Altman、Dario Amodei 同步软化 AI 失业预言，被多家媒体解读为 IPO 前的口径管理（Fortune 5 月 26 日）"
+        "RTX Spark 采用 20 核 Arm CPU + Blackwell GPU，统一内存 128GB",
+        "首批设备包括 Microsoft Surface Laptop Ultra 和 Dell XPS 13，起售价 $699",
+        "NVIDIA 公布三代路线图：Rubin（LPDDR6）→ Rosa → Feynman",
+        "平台定位 'Agentic AI OS'，原生支持 Windows 上的 AI Agent 工作流"
       ],
       "judgment": [
-        "OpenAI 真实定价区间未公布，外界估算在 5000 亿至 1 万亿美元之间",
-        "SpaceX 招股书披露的 Twitter / X 业绩被多方质疑放大马斯克 \"经营才能\" 叙事（Techdirt / Axios）",
-        "若 OpenAI 估值锚定在 SpaceX 之下，AI 应用层公司的二级市场估值会全线压缩",
-        "CNBC 同时提示 \"廉价 AI\" （DeepSeek 系）可能让 OpenAI / Anthropic 的 IPO 故事失血"
+        "统一内存架构能否在推理延迟上超越 Apple M 系列尚未验证",
+        "开发者生态（CUDA on Arm）的成熟度仍是关键瓶颈",
+        "定价 $699 是否包含完整 AI 能力，或需要额外订阅服务",
+        "Surface Laptop Ultra 的散热设计能否释放 RTX Spark 全部性能",
+        "企业采购是否会因 'Windows on Arm' 兼容性顾虑而观望"
       ],
-      "implication": "你最近做 content-curator，思考的是 \"AI 产品要不要做一级\"。看这两个 IPO，至少能让你判断：当模型能力被快速商品化、Anthropic / OpenAI 都被迫拿现金的时候，自己做一个吃 LLM 红利的小工具，不要纠结 \"会不会被官方功能吃掉\"——人家自己也得靠 IPO 续命。先把工具做出来，再考虑技术路线护城河。"
+      "implication": "这对你意味着：如果你在做 AI Agent 或本地推理项目，RTX Spark 可能是第一个真正适合 '个人 AI 工作站' 的消费级平台。128GB 统一内存意味着你可以在本地跑 70B 模型，而不需要租云 GPU。关注秋季 Surface Laptop Ultra 的实测——如果推理速度接近 M4 Max，这会是你的下一台主力机。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "wscn:3773548",
-      "url": "https://wallstreetcn.com/articles/3773548",
-      "source": "华尔街见闻 API",
+      "domain": "AI 商业 / 投融资",
+      "id": "wscn:3773544",
+      "url": "https://wallstreetcn.com/articles/3773544",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "黄仁勋 Computex 表态：Vera Rubin 已全面量产，Nvidia 自己造 PC 处理器进军 AI PC 入口",
-      "lead": "Computex 2026 + GTC Taipei 同步召开，黄仁勋宣布下一代数据中心平台 Vera Rubin 已全面量产，并推出面向 AI Agent 的 Vera CPU；Phoronix 实测 Vera 的 Olympus 核心性能强劲。同时 Nvidia 长期酝酿的 N1/N1X PC SoC 规格泄露——20 个 Arm 核 + 6144 CUDA 核心，对标桌面 RTX 5070，Dell XPS 笔记本将首发。这意味着 Nvidia 不再只卖加速卡，而是要从数据中心一直吃到 AI PC 端点。",
+      "title": "OpenAI 正式成立机器人团队，同步准备 IPO——从软件到实体的战略跃迁",
+      "lead": "Greg Brockman 宣布成立 'OpenAI Robotics' 并公开招聘，Sam Altman 将机器人列为公司核心战略优先级，近期目标锁定建筑和基础设施领域的技工辅助。与此同时，OpenAI 最快本周秘密提交 IPO 文件，估值或超 3000 亿美元。两个动作叠加，信号明确：OpenAI 不再满足于做 '模型公司'，而是想成为 AI 时代的 '实体基础设施平台'。",
       "confirmed": [
-        "黄仁勋官宣 Vera Rubin 全面量产，AI Agent 是 Nvidia 下一阶段重点（华尔街见闻 6/1）",
-        "N1X SoC 顶配 20 Arm 核 + 6144 CUDA 核心，标准 N1 提供 12 核 / 10 核两档（Tom's Hardware 5/31）",
-        "Dell 在 Computex 确认搭载 Nvidia N1X 的 XPS 笔记本（VideoCardz / hn:48343372）",
-        "Vera 的 Olympus 核心 Phoronix 评测：每线程性能优秀（hn:48291230）",
-        "AI 需求已从 GPU 蔓延到 \"传统 PC 大厂\"，戴尔股价涨至 420 美元，大摩公开 \"认错\"（华尔街见闻 6/1）"
+        "OpenAI Robotics 团队正式成立，Greg Brockman 牵头",
+        "Sam Altman 将机器人列为公司核心战略优先级",
+        "近期目标：建筑和基础设施领域的技工辅助机器人",
+        "OpenAI 最快本周秘密提交 IPO 文件（WSJ/CNBC 报道）"
       ],
       "judgment": [
-        "N1X 真实出货时间和良率受 TSMC 产能影响，2026 年 Q3 前应不会上量",
-        "Nvidia 自己做 PC 处理器，Intel / AMD 在 AI PC 这条线的话语权会被压缩",
-        "Vera Rubin 量产后 H200 / B200 的二手市场价格可能松动，国内白手套渠道留意",
-        "AI Agent 重点意味着 Nvidia 软件栈（NeMo / Blueprints）会进一步绑客户，自研推理框架的窗口在收窄"
+        "机器人团队目前无具体产品、合作伙伴或时间表",
+        "IPO 估值和定价尚未确定，市场对 'AI 泡沫' 分歧巨大",
+        "Altman 的 '人人拥有个人机器人' 长期愿景与近期目标之间差距明显",
+        "机器人硬件的高资本开支可能拖累 IPO 后的盈利预期"
       ],
-      "implication": "你做 Agent 项目时，部署侧别再默认 \"租 H100 / 用 Together\"。Nvidia 把 Vera + N1 推下来后，本地化 inference 的成本曲线会变陡——尤其 Mac mini / Snapdragon X 这种 30W 级设备未来一年会承接更多个人 Agent 推理。content-curator 这种轻量场景，未来直接跑在用户机器上是主流路径，不是 fallback。"
+      "implication": "这对你意味着：如果你在考虑 AI Agent 的 career path，OpenAI 的机器人团队是一个值得跟踪的信号——'Agent 从屏幕走进物理世界' 正在成为现实。同时，OpenAI IPO 将重新定义 AI 公司的估值锚，直接影响你持有的任何 AI 相关资产。建议关注 IPO 招股书中对机器人业务的资本分配计划。"
     },
     {
       "rank": 3,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
-      "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
-      "source": "Ben Thompson",
-      "stars": 5,
-      "title": "Stratechery × Eric Seufert 长访谈：广告模型、Meta 基础模型为什么重要、AI 对人类的乐观面",
-      "lead": "Ben Thompson 这周和 Eric Seufert（Mobile Dev Memo 创始人）做了一期长访谈，主线是生成式 AI 时代的广告模型、Meta 自研基础模型的战略意义、以及 AI 对人类的上行空间。Seufert 是移动广告/归因领域最重要的分析师之一，这次他第一次完整阐述了 \"为什么广告将吃掉所有 AI 产品的变现链路\"。访谈是付费内容，但你订阅了 Stratechery 就能看 transcript，比读他自己的博客密度更高。",
+      "domain": "AI 商业 / 投融资",
+      "id": "wscn:3773547",
+      "url": "https://wallstreetcn.com/articles/3773547",
+      "source": "华尔街见闻",
+      "stars": 4,
+      "title": "SpaceX、OpenAI、Anthropic 合计超 4 万亿美元 IPO 冲击市场，美银警告 '泡沫已逼近历史极值'",
+      "lead": "SpaceX 以至少 1.8 万亿美元估值、750 亿美元募资规模冲击史上最大 IPO，已迫使纳斯达克修改纳入规则。OpenAI 和 Anthropic 紧随其后。美银首席策略师 Hartnett 警告 AI 板块集中度已逼近 1880 年代铁路泡沫极值；高盛则以 1.3 万亿美元企业回购需求反驳，认为市场足以消化。分歧之大，本身就是信号。",
       "confirmed": [
-        "访谈发布于 5 月 28 日，Stratechery Plus 订阅可读全文 / 听音频",
-        "本周 Ben 同时与 Parallel 创始人 Parag Agarwal（前 Twitter CEO）做了一期访谈，谈 agentic web 内容定价（5/21）",
-        "本周 Stratechery 三大主稿：Nvidia 财报与 AI Stack、Google I/O 评论、SpaceX IPO 与太空数据中心",
-        "Net Interest（Marc Rubinstein）本周新发：《Strategy Follows Structure》解构 Fidelity / Capital / Vanguard 所有权结构"
+        "SpaceX IPO 估值至少 1.8 万亿美元，募资 750 亿美元",
+        "纳斯达克已紧急修改指数纳入规则，缩短等待期",
+        "OpenAI 和 Anthropic 也在准备 IPO，合计市值超 4 万亿美元",
+        "美银 vs 高盛：泡沫警告 vs 市场消化能力论"
       ],
       "judgment": [
-        "Seufert 关于 \"广告吃掉 AI 变现\" 的判断在国内可能更早兑现（百度文心一言已开始 SEO 化）",
-        "Parag Agarwal 的 Parallel 项目目前收入和用户数都未公开，访谈是估值打底",
-        "Stratechery 把 \"AI Stack\" 和 \"Aggregation Theory\" 重新连起来，对你做长期产品判断比单条新闻有用"
+        "SpaceX IPO 的散户定价机制可能加剧波动",
+        "被动资金 200 亿美元自动买入需求是否足以支撑估值",
+        "AI 独角兽 IPO 潮是否会抽干同板块流动性",
+        "特朗普政府政策（芯片出口、关税）对 SpaceX 估值的影响"
       ],
-      "implication": "按你之前的反馈想多看 \"AI 名人访谈\"，本期就给你压一条头版。优先级建议：Eric Seufert（变现框架）> Parag Agarwal（agentic web 商业模式）> Ben Thompson 自己 MoffettNathanson 那期（产业格局）。如果只听一段，听 Seufert 谈 \"为什么 Meta 一定要自研基础模型\" 那一节——这一段对你判断字节、阿里要不要继续追大模型有直接借鉴。"
+      "implication": "这对你意味着：如果你持有任何科技股或 ETF，未来 3-6 个月将面临 'IPO 抽血效应'。建议检查你的持仓中 AI 板块的集中度——如果超过 20%，考虑分散到防御性资产。同时，SpaceX IPO 的散户份额（30%）可能是一个参与机会，但需警惕估值泡沫。"
     },
     {
       "rank": 4,
       "domain": "AI 商业 / 投融资",
-      "id": "wscn:3773533",
-      "url": "https://wallstreetcn.com/articles/3773533",
-      "source": "华尔街见闻 API",
+      "id": "rss:https://www.theinformation.com/briefings/intel-ship-new-ai-chip-year-challenge-nvidia",
+      "url": "https://www.theinformation.com/briefings/intel-ship-new-ai-chip-year-challenge-nvidia",
+      "source": "The Information",
       "stars": 4,
-      "title": "高盛、大摩、小摩集体上调存储三巨头目标价：AI 让 SK Hynix / 三星 / 铠侠估值范式切换",
-      "lead": "高盛跟随大摩、小摩，正式上调 SK Hynix、三星、铠侠目标价，理由是 AI 驱动需求 + 供给受限 + 长期供货协议（LTA）三大结构性变化，预计供需短缺持续到 2028 年。三家投行的核心论点是：存储巨头的盈利可预测性正在向台积电靠拢，但当前 7.3 倍远期 P/E 严重低估。叠加韩国 KOSPI 一度熔断、三星电子单日 +10%，存储正在从周期股变成 AI 基础设施股。",
+      "title": "Intel 计划年内出货新款 AI 芯片挑战 NVIDIA，18A 节点 Xeon 6+ 亮相 Computex",
+      "lead": "Intel 在 Computex 上公布多项进展：18A 制程的 Xeon 6+ 'Clearwater Forest' 数据中心 CPU（288 核、576MB L3）、AI 推理 GPU 'Crescent Island'（480GB LPDDR5X），以及面向 PC 的 Wildcat Lake 处理器。CEO 表示将用 '更便宜、更简单' 的处理器策略在 AI 市场撕开口子。同时，美国商务部周日明确：中国公司通过海外子公司购买先进 AI 芯片仍需许可证，堵住了此前存在的出口管制漏洞。",
       "confirmed": [
-        "三星电子单日 +10% 创历史新高，韩股一度触发熔断（华尔街见闻 6/1）",
-        "高盛预计存储供需短缺延续至 2028 年，上调三巨头目标价",
-        "戴尔股价已涨至 420 美元，大摩从 170 美元目标价 \"认错\"（华尔街见闻 6/1）",
-        "Majestic Labs 完成 1 亿美元融资，做 100TB DRAM/加速器的内存池化 AI 服务器（EE Times 5/28）"
+        "Intel Xeon 6+ Clearwater Forest：288 核 E-core，18A 制程，2026 年出货",
+        "AI 推理 GPU Crescent Island：480GB LPDDR5X，专为推理优化",
+        "Intel 确认 2027 年推出 Xeon 7 Diamond Rapids（PCIe 6.0，核心数提升 50%）",
+        "美国商务部澄清 AI 芯片出口管制：海外子公司仍需许可证"
       ],
       "judgment": [
-        "\"估值范式切换\" 是卖方观点，散户和北上资金分歧仍大（华尔街见闻：科技板块买卖盘罕见撕裂）",
-        "如果 OpenAI / SpaceX IPO 抽走二级市场流动性，存储反而可能被减仓",
-        "存储和台积电真正可比的前提是 LTA 覆盖率，三星目前披露不充分"
+        "Intel 的 '更便宜' 策略能否在性能上接近 NVIDIA H200/B200 尚未可知",
+        "18A 制程良率和产能仍是 Intel 长期痛点",
+        "Crescent Island 的生态支持（软件栈、框架适配）远落后于 CUDA",
+        "出口管制收紧可能进一步刺激中国加速自研芯片（如字节跳动的 Groq 类芯片）"
       ],
-      "implication": "如果你不炒股，这条价值在于让你判断 AI 基础设施成本走势：存储涨价 = HBM 涨价 = 大模型训练 / 推理成本短期不会降。对 content-curator 这种小项目，意味着别用价格来赌大模型 API 会持续下跌——开源 + 本地部署的工程能力在 2026 下半年比今天更值钱。"
+      "implication": "这对你意味着：如果你在做 AI 推理部署，Intel 的 Crescent Island 值得关注——480GB 内存对大规模推理场景很有吸引力，但前提是软件生态能跟上。同时，出口管制收紧意味着国内 AI 芯片创业公司（如字节、华为）会加速，如果你关注国产替代，这是重要信号。"
     },
     {
       "rank": 5,
-      "domain": "AI",
-      "id": "bvid:BV1KoGE6cE53",
-      "url": "http://www.bilibili.com/video/av116629702777532",
-      "source": "AI超元域",
+      "domain": "AI 商业 / 投融资",
+      "id": "wscn:3773550",
+      "url": "https://wallstreetcn.com/articles/3773550",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "Claude Code Workflow 隐藏功能首测：脚本化 + 多 Agent 协同的可复用工作流",
-      "lead": "Anthropic 在 Claude Code V2.1.47 / 48 秘密上线了 Workflow 功能，被官方从 Changelog 删除但代码里还在。这条 B 站视频是目前最早的实测，演示三个阶段六种形态：自动生成 JS 脚本、ultrawork 召唤多 Agent 协同、可复用的精准可控工作流。对你这种自己用 Claude Code 写 Agent 项目的人，是把 \"一次性 prompt\" 升级到 \"工程化工作流\" 的关键转折。",
+      "title": "SK 海力士清州工厂气体泄漏，3600 人疏散——全球存储芯片供应链再添变数",
+      "lead": "SK 海力士位于韩国清州的核心芯片工厂突发火灾并引发氢氟酸泄漏，约 3600 名员工紧急疏散，6 人受伤。公司声称生产未受中断，但事故原因仍在调查，伤亡数字存在上调可能。在全球 HBM 内存供不应求的背景下，任何产能扰动都可能放大存储芯片价格波动。",
       "confirmed": [
-        "Claude Code V2.1.47 / V2.1.48 已包含 Workflow 代码（B 站 5/24 实测）",
-        "Workflow 支持脚本化（自动生成 JS）、多 Agent 协同（ultrawork）、可复用模板",
-        "Anthropic 官方未在 Changelog 公布，目前是 \"半地下\" 功能",
-        "另一条相关视频：Simon 林《Claude Code 多 Agent 模式实战》验证 subagents + 独立 agent 两种模式（4/23）"
+        "SK 海力士清州工厂发生火灾并引发氢氟酸泄漏",
+        "约 3600 人紧急疏散，6 人受伤",
+        "公司声明：生产未受中断，原因调查中",
+        "该工厂是 HBM 和 DRAM 的核心生产基地"
       ],
       "judgment": [
-        "因为官方未官宣，API 与稳定性可能在后续小版本被改",
-        "ultrawork 召唤的多 Agent 是否真有 token 节省 / 还是单纯多轮拆解，缺独立 benchmark",
-        "对接 Skills 体系后是否会和 WorkBuddy 当前的 skill / subagent 模式撞车，需要你自己 diff"
+        "'生产未中断' 声明可能过于乐观，实际影响需 1-2 周评估",
+        "氢氟酸泄漏可能导致部分设备停用检修",
+        "全球 HBM 供应本就紧张，任何减产都可能推高 NVIDIA GPU 成本",
+        "韩国政府可能加强半导体工厂安全检查，间接影响产能"
       ],
-      "implication": "你 content-curator 已经在用 Skills + automation，这个 Workflow 功能正好补上 \"多步任务可复用\" 的缺口。建议这周抽 30 分钟把视频里的 ultrawork demo 跑一遍，然后对照你现有的 cli_generate prepare_unified → finalize_unified 这条链路，看能不能把脚本逻辑搬到 Claude Code 里——如果能，每周一的 daily automation 就可以变成 Claude 直接驱动。"
+      "implication": "这对你意味着：如果你在关注 AI 硬件成本或持有相关股票，SK 海力士事故是短期催化剂。HBM 价格可能因此上涨，进而推高 AI 服务器成本。建议跟踪下周的官方更新——如果确认产能受损，可以考虑做多美光或做空 NVIDIA 短期期权。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI 商业 / 投融资",
-      "title": "OpenAI 正式成立机器人团队，Greg Brockman 公开招聘",
-      "url": "https://wallstreetcn.com/articles/3773544",
-      "source": "华尔街见闻 API",
-      "one_liner": "Sam Altman 把机器人列为公司核心战略，但目前没产品、没合作方、没时间表——属于战略表态，不是落地动作。"
+      "title": "软银 750 亿欧元投资法国 AI 数据中心，市值超越丰田成日本第一",
+      "url": "https://www.theinformation.com/briefings/softbank-invest-75-billion-euros-ai-data-centers-france",
+      "source": "The Information",
+      "one_liner": "软银凭借 OpenAI 敞口和法国核电优势押注 AI 基础设施，但 1300 亿美元债务风险不可忽视。"
     },
     {
       "domain": "AI 商业 / 投融资",
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
-      "source": "OpenAI",
-      "one_liner": "OpenAI 模型反证了离散几何的一条核心猜想，HN 1429 票，是数学家圈子讨论 AI 数学能力的最强样本。"
+      "title": "Anthropic 缩减二级市场交易授权名单，IPO 前清理股权结构",
+      "url": "https://www.theinformation.com/briefings/anthropic-cuts-list-firms-unauthorized-trading-shares",
+      "source": "The Information",
+      "one_liner": "IPO 前常规操作，但暗示 Anthropic 可能比预期更早上市。"
     },
     {
       "domain": "AI 商业 / 投融资",
-      "title": "Stratechery: Nvidia Earnings, The AI Stack, Nvidia's New Reporting",
-      "url": "https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
-      "source": "Ben Thompson",
-      "one_liner": "Ben Thompson 解读 Nvidia 拆分 hyperscaler 与 \"其他客户\" 营收的真实意图：在前者抗商品化，在后者通吃软件栈。"
+      "title": "戴尔 AI 服务器销售额暴增，股价单日涨近 40%，大摩认错",
+      "url": "https://www.theinformation.com/briefings/dell-shares-soar-nearly-40-surge-ai-server-sales",
+      "source": "The Information",
+      "one_liner": "AI 需求从 GPU 蔓延到传统基础设施，戴尔成为 '卖铲子' 赢家。"
     },
     {
       "domain": "AI 商业 / 投融资",
-      "title": "Elon Musk 输掉对 Sam Altman 与 OpenAI 的诉讼",
-      "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
-      "source": "TechCrunch",
-      "one_liner": "OpenAI IPO 前清场动作，Musk 系统性丧失对 OpenAI 治理的法律抓手，HN 1096 票讨论度极高。"
+      "title": "微软与 OpenAI '独立日'：两个月后微软证明不依赖 OpenAI 也能做好 AI",
+      "url": "https://www.theinformation.com/articles/microsofts-ai-independence-day",
+      "source": "The Information",
+      "one_liner": "微软加速自研模型和 Copilot 生态，OpenAI 的 '独家' 地位正在弱化。"
     },
     {
       "domain": "AI 商业 / 投融资",
-      "title": "30 年美债收益率再破 5%，\"一切都廉价\" 的时代落幕",
-      "url": "https://wallstreetcn.com/articles/3773541",
-      "source": "华尔街见闻 API",
-      "one_liner": "廉价资本 / 廉价劳动力 / 廉价能源三大支柱同步瓦解，AI 未来通胀走向是最大变量——宏观背景必读。"
+      "title": "美国堵住 AI 芯片出口管制漏洞：海外子公司仍需许可证",
+      "url": "https://www.theinformation.com/briefings/clarifies-ai-chip-export-loophole",
+      "source": "The Information",
+      "one_liner": "管制升级，中国公司通过海外架构购买 NVIDIA 芯片的路被堵死。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Intel Xeon 6+ Clearwater Forest 用 18A 工艺杀回数据中心，288 核 / 576MB L3",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel",
-      "source": "Tom's Hardware",
-      "one_liner": "Intel 自报每线程比 AMD EPYC 9965 快 30%，18A 工艺真正进数据中心——AMD 在云厂的优势第一次受真正威胁。"
+      "title": "NVIDIA Vera CPU 基准测试：Olympus 核心性能出色",
+      "url": "https://www.phoronix.com/review/nvidia-vera-benchmarks",
+      "source": "Phoronix",
+      "one_liner": "NVIDIA 自研 CPU 性能首次曝光，Arm 服务器生态迎来最强竞争者。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Intel Crescent Island AI GPU 在 Computex 详细披露：480GB LPDDR5X 对抗 HBM 短缺",
-      "url": "https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex",
-      "source": "Tom's Hardware",
-      "one_liner": "Intel 用 LPDDR5X 绕开 HBM 短缺，主打推理场景——如果价格够低，是 H200 在中端推理市场的真实替代。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "SoftBank 计划在法国投 870 亿美元建 AI 数据中心",
-      "url": "https://www.tomshardware.com/tech-industry/softbank-to-spend-up-to-75-billion-on-french-ai-data-centers",
-      "source": "Tom's Hardware",
-      "one_liner": "选址法国是冲着核电网；SoftBank 自己背着 1300 亿美元债务、3 月又借 400 亿过桥——杠杆已经打满。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nikon 用低价反扑 ASML 的光刻机垄断",
+      "title": "Nikon 计划用低价策略打破 ASML 光刻机垄断",
       "url": "https://www.tomshardware.com/tech-industry/nikon-plans-to-undercut-asml-on-price-to-win-back-chipmaking-lithography-customers",
       "source": "Tom's Hardware",
-      "one_liner": "用 ArF 工具自有制造低价反扑美国客户，是中美芯片博弈下日本企业的策略调整，不只是商业新闻。"
+      "one_liner": "ArF 光刻机价格战开启，但 EUV 领域 ASML 仍无对手。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "TSMC 间谍案宣判：被告最高 10 年监禁",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/04/28/2003856358",
-      "source": "Taipei Times",
-      "one_liner": "中国台湾首次按《国安法》重判 TSMC 内部泄密，对所有大陆背景半导体从业者的招聘背景调查会更严。"
+      "title": "华为轮值董事长感谢美国出口管制 '加速' 中国半导体自主",
+      "url": "https://www.tomshardware.com/tech-industry/huawei-chairman-thanks-the-us-for-supercharging-chinas-semiconductor-industry",
+      "source": "Tom's Hardware",
+      "one_liner": "政治表态背后，华为昇腾芯片的生态进展值得关注。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Gemini 3.5 Flash 发布",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-      "source": "Google",
-      "one_liner": "HN 962 票，配合 Gemini Omni 与 AlphaEvolve 一起释放，Google 在 I/O 后真正进入连续放榜节奏。"
+      "title": "NVIDIA RTX Spark 正式发布：Arm + Blackwell 超级芯片，Surface 首发",
+      "url": "https://www.theverge.com/tech/940589/nvidia-rtx-spark-n1-n1x-laptop-desktop-pc-cpu-gpu-ai-release-date",
+      "source": "The Verge",
+      "one_liner": "NVIDIA 正式成为 PC 芯片厂商，AI PC 格局彻底改写。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "GitHub Copilot 改 token 计费引发开发者集体不满",
+      "title": "GitHub Copilot 改用 Token 计费，开发者不满",
       "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
       "source": "TechCrunch",
-      "one_liner": "免费 / 包月时代结束，对你判断 \"AI 编程工具会不会涨价\" 是关键信号——Cursor / Codex 大概率跟进。"
+      "one_liner": "AI 编程助手涨价潮开始，开发者成本上升，或推动开源替代。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Gemini CLI 6 月 18 日停服，迁移到 Antigravity CLI",
-      "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
-      "source": "Google Developers",
-      "one_liner": "如果你脚本里在用 gemini-cli，本月之前必须切换；Antigravity CLI 是新接口，命令不向后兼容。"
+      "title": "Meta 计划推出 AI 挂件，可穿戴硬件路线图曝光",
+      "url": "https://www.theinformation.com/briefings/meta-plans-ai-pendant-part-ambitious-wearables-expansion",
+      "source": "The Information",
+      "one_liner": "Meta 在 Ray-Ban 眼镜之后继续押注 AI 可穿戴，但硬件部门亏损严重。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Microsoft Copilot Cowork 被发现可被劫持外传文件",
-      "url": "https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files",
-      "source": "PromptArmor",
-      "one_liner": "PromptArmor 实测漏洞，企业版 Copilot 安全性最大的一次质疑——做企业 Agent 产品的人必读。"
+      "title": "Google Gemini Spark 24/7 AI 助手实测：有用但定位模糊",
+      "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+      "source": "TechCrunch",
+      "one_liner": "Google 的 'Always-on' AI 助手体验不错，但为何不做成 Gemini 原生功能？"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "微软 Surface Laptop Ultra 曝光：搭载 RTX Spark，目标 MacBook Pro",
+      "url": "https://www.theverge.com/tech/940584/microsoft-surface-laptop-ultra-nvidia-rtx-spark-pictures",
+      "source": "The Verge",
+      "one_liner": "微软再次押注 Arm + NVIDIA，这次能成功吗？"
     },
     {
       "domain": "股票",
-      "title": "Show HN: 实时追踪美国国会议员每一笔股票交易的网站",
-      "url": "https://congress.kadoa.com/",
-      "source": "kadoa.com",
-      "one_liner": "Side project 范例：单一数据源 + 公开披露 + 一个清晰 hook，HN 61 票，你做 content-curator 时可以参考它的页面 layout。"
+      "title": "SpaceX IPO 文件显示 Elon Musk 拥有 '不受制约的权力'，禁止投资者诉讼",
+      "url": "https://arstechnica.com/tech-policy/2026/05/report-spacex-ipo-gives-musk-unchecked-power-and-forbids-investor-lawsuits/",
+      "source": "Ars Technica",
+      "one_liner": "公司治理风险极高，散户投资者需谨慎。"
     },
     {
       "domain": "股票",
-      "title": "美股 ETF 数量首次超过个股数",
-      "url": "https://www.apollo.com/wealth/the-daily-spark/more-etfs-than-stocks",
-      "source": "Apollo",
-      "one_liner": "结构性数据：美股个股投资范式正被 ETF 包装替代，长期对单只 AI 股票的定价效率有压制——但短期 SpaceX / OpenAI IPO 给了反例。"
+      "title": "Sam Altman 和 Dario Amodei 都在收回 'AI 消灭工作' 的预言",
+      "url": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/",
+      "source": "Fortune",
+      "one_liner": "IPO 前软化叙事，AI 替代焦虑可能被夸大。"
     }
-  ]
+  ],
+  "_meta": {
+    "scored_by": "deepseek/deepseek-chat",
+    "scored_at": "2026-06-01T09:53:49+0000"
+  }
 }
