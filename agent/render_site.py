@@ -728,10 +728,10 @@ function openGenerateViaIssue(domainId, domainName) {
   const key = 'curio:gen:' + domainId;
   const last = parseInt(localStorage.getItem(key) || '0', 10);
   const now = Date.now();
-  const cooldownMs = 6 * 60 * 60 * 1000; // 6 小时
+  const cooldownMs = 30 * 60 * 1000; // 30 分钟（够本地 hourly automation 跑一次）
   if (now - last < cooldownMs) {
     const remain = Math.ceil((cooldownMs - (now - last)) / 1000 / 60);
-    if (!confirm(`你刚才已经触发过「${domainName}」的生成，建议等 ${remain} 分钟再试。\n\n仍要继续吗？`)) return;
+    if (!confirm(`你刚才已经触发过「${domainName}」的生成，建议等 ${remain} 分钟（让 Agent 跑一次）。\n\n点确定继续提交，点取消放弃。`)) return;
   }
 
   let modal = $('.modal-overlay.gen-issue');
