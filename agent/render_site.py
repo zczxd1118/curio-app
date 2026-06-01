@@ -787,7 +787,7 @@ function openAddDomainViaIssue() {
 }
 
 // 静态模式：通过 GitHub Issue 触发立刻生成
-function openGenerateViaIssue(domainId, domainName) {
+async function openGenerateViaIssue(domainId, domainName) {
   // 简单 cooldown 检查（localStorage，软限）
   const key = 'curio:gen:' + domainId;
   let last = parseInt(localStorage.getItem(key) || '0', 10);
@@ -803,6 +803,36 @@ function openGenerateViaIssue(domainId, domainName) {
     if (!confirm(`你刚才已经触发过「${domainName}」的生成，建议等 ${remain} 分钟（让 Agent 跑一次）。\n\n点确定继续提交，点取消放弃。`)) return;
   }
 
+  // 拉当前评分模式（决定文案）
+  let mode = 'local';
+  try {
+    if (window.CURIO_API_BASE) {
+      const r = await fetch(window.CURIO_API_BASE + '/domains'); // 顺便预热
+      // 拉 mode：用一个不需 owner pin 的轻量端点
+      const r2 = await fetch(window.CURIO_API_BASE + '/scoring-mode');
+      if (r2.ok) {
+        const d = await r2.json();
+        mode = d.scoring_mode || 'local';
+      }
+    }
+  } catch (e) {}
+
+  // 按 mode 写文案
+  let timeText, badgeColor, descText;
+  if (mode === 'api') {
+    timeText = '<strong>预计等待：5-7 分钟</strong>（CI 抓取 ~2 分钟 + DeepSeek 评分 ~1 分钟 + 渲染推送 ~2 分钟）';
+    badgeColor = 'var(--accent)';
+    descText = '提交后会在 GitHub 上自动开一个 Issue，CI 立即触发：抓取最新候选 → 调 DeepSeek API 评分 → 渲染推送 → 邮件通知。<strong>电脑可关机，全云端跑</strong>。';
+  } else if (mode === 'off') {
+    timeText = '<strong>当前模式：暂停</strong>。提交后 issue 会保留但不会处理。';
+    badgeColor = '#999';
+    descText = '⚠️ 你当前评分模式设为「暂停」。请去 ⚙️ 设置 切换到「API」或「本地」。';
+  } else {
+    timeText = '<strong>预计等待：5-65 分钟</strong>（CI 抓取 ~2 分钟 + 等本地 WorkBuddy 下个整点跑评分）';
+    badgeColor = 'var(--accent)';
+    descText = '提交后会在 GitHub 上自动开一个 Issue，CI 立即抓取候选；评分需要等下一个整点（本地 WorkBuddy + Claude 跑）。想 5 分钟生效请去 ⚙️ 设置 切换到「API」。';
+  }
+
   let modal = $('.modal-overlay.gen-issue');
   if (modal) modal.remove();
   modal = document.createElement('div');
@@ -810,11 +840,11 @@ function openGenerateViaIssue(domainId, domainName) {
   modal.innerHTML = `
     <div class="modal" style="max-width:480px">
       <h3><span class="icon-sm">${UI_ICONS.bolt}</span> 立刻生成「${domainName}」</h3>
-      <p>提交后会在 GitHub 上自动开一个 Issue，Curio Agent 每小时检查一次，看到后会立刻为你重跑（抓取 → 打分 → 中文摘要 → 主编点评 → 邮件通知）。</p>
-      <p style="background:var(--bg-elev);padding:10px 12px;border-left:3px solid var(--accent);font-size:13px;color:var(--text-soft);margin:12px 0;">
-        <span class="icon-inline">${UI_ICONS.clock}</span> <strong>预计等待：5 ~ 60 分钟</strong>（CI 抓取 ~2 分钟 + Agent 每小时调度一次）<br>
+      <p>${descText}</p>
+      <p style="background:var(--bg-elev);padding:10px 12px;border-left:3px solid ${badgeColor};font-size:13px;color:var(--text-soft);margin:12px 0;">
+        <span class="icon-inline">${UI_ICONS.clock}</span> ${timeText}<br>
         <span class="icon-inline">${UI_ICONS.mail}</span> 留下邮箱跑完会发一封通知<br>
-        <span class="icon-inline">${UI_ICONS.list}</span> Agent 收到时会在 GitHub Issue 评论"已收到，开始跑"，完成时再评论结果链接
+        <span class="icon-inline">${UI_ICONS.list}</span> 进度可在 GitHub Issue 评论里看
       </p>
       <div class="form-row">
         <label>邮箱（可选，跑完了通知你）</label>
@@ -825,10 +855,10 @@ function openGenerateViaIssue(domainId, domainName) {
         <textarea id="gen-note" placeholder="例：本期想多看一些 AI 硬件的"
           style="width:100%;min-height:60px;background:var(--bg-elev);border:1px solid var(--line);color:var(--text);padding:8px;border-radius:4px;font-family:var(--sans);font-size:13px"></textarea>
       </div>
-      <p style="font-size:12px;color:var(--text-mute)">注：同一领域 30 分钟内只能触发一次（够 Agent 跑完一轮），重复点会弹确认。</p>
+      <p style="font-size:12px;color:var(--text-mute)">注：同一领域 30 分钟内只能触发一次。当前评分模式：<strong>${mode === 'api' ? '☁️ API' : mode === 'off' ? '⏸ 暂停' : '🖥️ 本地'}</strong></p>
       <div class="modal-actions">
         <button class="btn-secondary" id="gen-cancel">取消</button>
-        <button class="btn-primary" id="gen-go">提交并跳转 GitHub</button>
+        <button class="btn-primary" id="gen-go">${mode === 'off' ? '我已了解，仍要提交' : '提交并跳转 GitHub'}</button>
       </div>
     </div>
   `;

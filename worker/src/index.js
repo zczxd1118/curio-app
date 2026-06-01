@@ -694,6 +694,11 @@ export default {
       if (url.pathname === "/llm/test" && req.method === "POST") {
         return handleLLMTest(req, env);
       }
+      // 公开端点：只返回当前 scoring_mode（不返回 api_key），用于主页文案动态切换
+      if (url.pathname === "/scoring-mode" && req.method === "GET") {
+        const mode = (await env.CURIO_KV.get("scoring:mode")) || "local";
+        return json({ ok: true, scoring_mode: mode });
+      }
       // BYOK · CI 拉完整配置（用 ADMIN_TOKEN）
       if (url.pathname === "/admin/llm-config" && req.method === "GET") {
         return handleAdminLLMConfig(req, env);
