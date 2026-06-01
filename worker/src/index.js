@@ -23,8 +23,8 @@ function json(data, status = 200, extraHeaders = {}) {
     headers: {
       "content-type": "application/json; charset=utf-8",
       "access-control-allow-origin": "*",
-      "access-control-allow-methods": "GET,POST,OPTIONS",
-      "access-control-allow-headers": "content-type, authorization",
+      "access-control-allow-methods": "GET,POST,DELETE,OPTIONS",
+      "access-control-allow-headers": "content-type, authorization, x-curio-owner-pin",
       ...extraHeaders,
     },
   });
@@ -609,8 +609,8 @@ export default {
         status: 204,
         headers: {
           "access-control-allow-origin": "*",
-          "access-control-allow-methods": "GET,POST,OPTIONS",
-          "access-control-allow-headers": "content-type, authorization",
+          "access-control-allow-methods": "GET,POST,DELETE,OPTIONS",
+          "access-control-allow-headers": "content-type, authorization, x-curio-owner-pin",
           "access-control-max-age": "86400",
         },
       });
