@@ -1,139 +1,171 @@
 # Curio 趋势雷达 · 2026-06-01
 
-> 你的私人主编 · 今日跨域精选 4 条头条 + 12 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 16 条备选
 
-_本期跨域三大信号：① 金融端 Stratechery 把 SpaceX IPO 与「太空数据中心」串成同一根叙事线，估值逻辑首次被讲透；② 大厂端 Google 把搜索框改成 AI 模式后立刻被 DuckDuckGo 28% 增量打脸——AI 搜索的默认行为正在松动；③ 数据中心选址被本地社区一票否决从个案变趋势，Microsoft 在威斯康星 244 英亩项目黯然撤退。按你「想看 AI 技术相关」的请求，我额外挑了一条 Claude Opus 4.8 发布作为 AI 工程实践入口。_
-
----
-
-## 🌟 金融
-
-### 1. SpaceX IPO 估值靠的不是火箭，是「太空数据中心」这条新叙事
-
-**[金融]** · ⭐⭐⭐⭐⭐ · _Stratechery · Ben Thompson_
-
-Ben Thompson 在 5/27 的核心文章里直说：传统财务模型撑不起 SpaceX 当前估值，但「在轨数据中心」这一条新叙事可能撑得起。Starlink 现金流年化 100 亿+ 已成事实，加上 Lumen Orbit / Starcloud 一类初创开始试验真空散热 + 太阳能直供的轨道算力，让 SpaceX 从「卫星互联网」变成「下一代 AI 算力供应商」候选。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| SpaceX 据 WSJ 准备启动 IPO，估值 4000 亿美元区间 | 传统现金流 DCF 估不到 4000 亿，故事先于财报 |
-| Starlink 年化收入已破 100 亿美元 | 在轨数据中心商业可行性还要 5-7 年验证 |
-| 多家轨道数据中心初创已在融资（Lumen Orbit / Starcloud） | 若成立，Anthropic / OpenAI 的算力依赖会从 Nvidia 转向 SpaceX 一档 |
-| Stratechery 是 Ben Thompson 个人付费 newsletter，付费用户 ~3 万订阅 |  |
-
-**📖 主编点评**
-
-如果你在做 AI 产品 / Agent 路线规划，这条值得收藏一份。Ben Thompson 的判断曲线在这个圈子里是被对照系——他押注 SpaceX 而不是 Anthropic 估值，意味着「算力供应」可能是下一个 5 年的护城河层。短期看不出影响，但中期决定你选哪个 LLM 当默认依赖时多想一层。
-
-📺 [打开原文](https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/)
+_今天有两条产业级信号：一是 OpenAI 计划本周递交 IPO 招股书，叠加 SpaceX 1.8 万亿美元 IPO 倒逼指数规则改写，AI 独角兽集体进入定价时刻；二是 Computex 2026 + GTC Taipei 同步开锣，Nvidia Vera Rubin 量产 + N1X PC 处理器入场，Intel 18A Xeon 6+ 反扑，AI 硬件竞争从 GPU 蔓延到 CPU/PC 全栈。Stratechery 本周新增 Eric Seufert 访谈值得你听完。_
 
 ---
 
-## 🌟 大厂讯息
+## 🌟 AI 商业 / 投融资
 
-### 2. Google 说「用户爱 AI 搜索」一周后，DuckDuckGo 流量涨了 28%
+### 1. SpaceX 1.8 万亿美元 IPO 强行改写指数规则，OpenAI 周五递交招股书在即
 
-**[大厂讯息]** · ⭐⭐⭐⭐⭐ · _PC Gamer · HN 1071 票_
+**[AI 商业 / 投融资]** · ⭐⭐⭐⭐⭐ · _华尔街见闻 API_
 
-Google 5 月把搜索框默认切成 AI Overview 模式，并对外宣称「用户喜爱」。一周后第三方统计 DuckDuckGo（明确 AI-free 卖点）周访问量同比增加 27.8%，HN 上 1000+ 票讨论。这是 Google 把 AI 强推默认搜索后第一次有对照组数据。
+SpaceX 计划以至少 1.8 万亿美元估值、750 亿美元募资规模冲击 IPO 史上最大上市，体量之大已迫使纳斯达克紧急修改指数纳入规则、大幅缩减等待期。OpenAI 同步准备本周内递交 S-1，CNBC 援引消息称最快周五。两件事叠加，意味着 AI 独角兽估值锚正在被市场化，而不是被一级市场 VC 内部撮合定价。这对你判断未来 12 个月的 AI 公司估值合理性是关键参考。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DuckDuckGo 周访问 +27.8%（PCGamer 引第三方） | 增量来自「逃 AI 」还是常规波动还要看下月数据 |
-| Google 5 月把 AI Overview 升级为搜索框默认入口 | Google 是否会回退默认设置（短期看不会） |
-| HN 这条 1071 票讨论几乎一边倒批评 Google | ChatGPT Search / Perplexity 是否分到了同一波流量（暂无数据） |
+| SpaceX 估值 1.8 万亿美元、募资 750 亿美元，30% 份额拟向散户开放（华尔街见闻 / 5 月 31 日） | OpenAI 真实定价区间未公布，外界估算在 5000 亿至 1 万亿美元之间 |
+| 纳斯达克为容纳 SpaceX 已修改指数纳入规则，被动资金自动买入需求或达 200 亿美元 | SpaceX 招股书披露的 Twitter / X 业绩被多方质疑放大马斯克 "经营才能" 叙事（Techdirt / Axios） |
+| OpenAI 拟本周向 SEC 秘密递交 IPO 文件，最快周五（CNBC 5 月 21 日） | 若 OpenAI 估值锚定在 SpaceX 之下，AI 应用层公司的二级市场估值会全线压缩 |
+| Sam Altman 商业关系正受 GOP 国会议员调查，与 IPO 时间窗重叠（WSJ 5 月 14 日） | CNBC 同时提示 "廉价 AI" （DeepSeek 系）可能让 OpenAI / Anthropic 的 IPO 故事失血 |
+| Sam Altman、Dario Amodei 同步软化 AI 失业预言，被多家媒体解读为 IPO 前的口径管理（Fortune 5 月 26 日） |  |
 
 **📖 主编点评**
 
-用户行为正在投票。你应该把「AI 搜索」当一个选项而不是默认——尤其是要事实校验、要原文链接的查询，DuckDuckGo / 直接搜索引擎 比 AI Overview 准。同时这是 Google 十年来第一次出现「我做 AI，用户跑了」的可观测信号。
+你最近做 content-curator，思考的是 "AI 产品要不要做一级"。看这两个 IPO，至少能让你判断：当模型能力被快速商品化、Anthropic / OpenAI 都被迫拿现金的时候，自己做一个吃 LLM 红利的小工具，不要纠结 "会不会被官方功能吃掉"——人家自己也得靠 IPO 续命。先把工具做出来，再考虑技术路线护城河。
 
-📺 [打开原文](https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/)
+📺 [打开原文](https://wallstreetcn.com/articles/3773539)
 
 ---
 
-## 🌟 AI / 科技
+### 4. 高盛、大摩、小摩集体上调存储三巨头目标价：AI 让 SK Hynix / 三星 / 铠侠估值范式切换
 
-### 3. Claude Opus 4.8 发布：Agent 任务基准 +11pp，多模态推理首次拿到 GPT-5 同档分
+**[AI 商业 / 投融资]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
 
-**[AI / 科技]** · ⭐⭐⭐⭐⭐ · _Anthropic · HN 1734 票_
-
-Anthropic 5/28 发布 Claude Opus 4.8。HN 1734 票，本周英文圈头号事件。相比 4.6，Opus 4.8 在 Agent 任务基准（SWE-bench Verified、TAU-bench）提升 11 个百分点，多模态推理与代码编辑首次拿到 GPT-5 同档分数。这意味着你手头基于 Claude Code 的 vibe coding 工作流自动获益，不需要切换工具栈。
+高盛跟随大摩、小摩，正式上调 SK Hynix、三星、铠侠目标价，理由是 AI 驱动需求 + 供给受限 + 长期供货协议（LTA）三大结构性变化，预计供需短缺持续到 2028 年。三家投行的核心论点是：存储巨头的盈利可预测性正在向台积电靠拢，但当前 7.3 倍远期 P/E 严重低估。叠加韩国 KOSPI 一度熔断、三星电子单日 +10%，存储正在从周期股变成 AI 基础设施股。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic 5/28 发布 Claude Opus 4.8 | 对 OpenAI / Google 的代码 Agent 是否构成压力（Cursor / Windsurf 切默认模型？） |
-| Agent 基准（SWE-bench / TAU-bench）相对 4.6 +11pp | API 价格是否调整（暂未公布） |
-| 多模态推理首次与 GPT-5 同档 | 10M context 是否在 Opus 路线图上 |
-| HN 1734 票本周第一 |  |
+| 三星电子单日 +10% 创历史新高，韩股一度触发熔断（华尔街见闻 6/1） | "估值范式切换" 是卖方观点，散户和北上资金分歧仍大（华尔街见闻：科技板块买卖盘罕见撕裂） |
+| 高盛预计存储供需短缺延续至 2028 年，上调三巨头目标价 | 如果 OpenAI / SpaceX IPO 抽走二级市场流动性，存储反而可能被减仓 |
+| 戴尔股价已涨至 420 美元，大摩从 170 美元目标价 "认错"（华尔街见闻 6/1） | 存储和台积电真正可比的前提是 LTA 覆盖率，三星目前披露不充分 |
+| Majestic Labs 完成 1 亿美元融资，做 100TB DRAM/加速器的内存池化 AI 服务器（EE Times 5/28） |  |
 
 **📖 主编点评**
 
-你订阅的「想看 AI 技术相关」我用这条对应。具体行动：今天打开 Claude Code 升级到 Opus 4.8（自动），下午跑一个你之前 4.6 跑不动的大型重构任务对照——Agent 基准 +11pp 在真实 codebase 里通常体现在「多文件修改一次成功率」上，你能立刻感知。
+如果你不炒股，这条价值在于让你判断 AI 基础设施成本走势：存储涨价 = HBM 涨价 = 大模型训练 / 推理成本短期不会降。对 content-curator 这种小项目，意味着别用价格来赌大模型 API 会持续下跌——开源 + 本地部署的工程能力在 2026 下半年比今天更值钱。
 
-📺 [打开原文](https://www.anthropic.com/news/claude-opus-4-8)
+📺 [打开原文](https://wallstreetcn.com/articles/3773533)
 
 ---
 
-## 🌟 半导体
+## 🌟 AI 算力 / 半导体
 
-### 4. Microsoft 在威斯康星 244 英亩数据中心被本地社区否决撤回
+### 2. 黄仁勋 Computex 表态：Vera Rubin 已全面量产，Nvidia 自己造 PC 处理器进军 AI PC 入口
 
-**[半导体]** · ⭐⭐⭐⭐ · _TMJ4 News · HN 179 票_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _华尔街见闻 API_
 
-Microsoft 5 月底正式撤回威斯康星 Caledonia 244 英亩数据中心选址计划。这是 2026 年第 4 起本地政府/居民投票否决新建 AI 数据中心的案例，前三起分别在弗吉尼亚 Prince William 县、得州 Hays County、亚利桑那 Mesa。Stratechery 同期连续两周（5/22 + 5/18）专题分析「数据中心一票否决」从个案变趋势。
+Computex 2026 + GTC Taipei 同步召开，黄仁勋宣布下一代数据中心平台 Vera Rubin 已全面量产，并推出面向 AI Agent 的 Vera CPU；Phoronix 实测 Vera 的 Olympus 核心性能强劲。同时 Nvidia 长期酝酿的 N1/N1X PC SoC 规格泄露——20 个 Arm 核 + 6144 CUDA 核心，对标桌面 RTX 5070，Dell XPS 笔记本将首发。这意味着 Nvidia 不再只卖加速卡，而是要从数据中心一直吃到 AI PC 端点。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Microsoft 5/25 正式撤回 244 英亩选址 | DLR、QTS、CoreWeave 一类数据中心 REIT 估值是否受影响 |
-| 今年第 4 起社区否决案例 | Nvidia 出货是否会被「土地许可」反向卡脖 |
-| Stratechery 连续两周专题：The Data Center Veto | 电网 / 水资源是否成为 AI 算力扩张新瓶颈 |
-| 拒绝理由集中在噪音 / 用水 / 电力 |  |
+| 黄仁勋官宣 Vera Rubin 全面量产，AI Agent 是 Nvidia 下一阶段重点（华尔街见闻 6/1） | N1X 真实出货时间和良率受 TSMC 产能影响，2026 年 Q3 前应不会上量 |
+| N1X SoC 顶配 20 Arm 核 + 6144 CUDA 核心，标准 N1 提供 12 核 / 10 核两档（Tom's Hardware 5/31） | Nvidia 自己做 PC 处理器，Intel / AMD 在 AI PC 这条线的话语权会被压缩 |
+| Dell 在 Computex 确认搭载 Nvidia N1X 的 XPS 笔记本（VideoCardz / hn:48343372） | Vera Rubin 量产后 H200 / B200 的二手市场价格可能松动，国内白手套渠道留意 |
+| Vera 的 Olympus 核心 Phoronix 评测：每线程性能优秀（hn:48291230） | AI Agent 重点意味着 Nvidia 软件栈（NeMo / Blueprints）会进一步绑客户，自研推理框架的窗口在收窄 |
+| AI 需求已从 GPU 蔓延到 "传统 PC 大厂"，戴尔股价涨至 420 美元，大摩公开 "认错"（华尔街见闻 6/1） |  |
 
 **📖 主编点评**
 
-如果你做半导体 / AI 算力赛道的产品判断，这条信号比单条 Nvidia 财报更重要。「芯片不再是唯一瓶颈，土地与许可正在成为新供应限制」——这是你做 12-24 个月路线图时要纳入的硬约束，别只算 GPU 数量不算建设许可周期。
+你做 Agent 项目时，部署侧别再默认 "租 H100 / 用 Together"。Nvidia 把 Vera + N1 推下来后，本地化 inference 的成本曲线会变陡——尤其 Mac mini / Snapdragon X 这种 30W 级设备未来一年会承接更多个人 Agent 推理。content-curator 这种轻量场景，未来直接跑在用户机器上是主流路径，不是 fallback。
 
-📺 [打开原文](https://www.tmj4.com/news/racine-county/microsoft-pulls-plug-on-plans-for-244-acre-data-center-in-caledonia-after-community-pushback)
+📺 [打开原文](https://wallstreetcn.com/articles/3773548)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 3. Stratechery × Eric Seufert 长访谈：广告模型、Meta 基础模型为什么重要、AI 对人类的乐观面
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Ben Thompson_
+
+Ben Thompson 这周和 Eric Seufert（Mobile Dev Memo 创始人）做了一期长访谈，主线是生成式 AI 时代的广告模型、Meta 自研基础模型的战略意义、以及 AI 对人类的上行空间。Seufert 是移动广告/归因领域最重要的分析师之一，这次他第一次完整阐述了 "为什么广告将吃掉所有 AI 产品的变现链路"。访谈是付费内容，但你订阅了 Stratechery 就能看 transcript，比读他自己的博客密度更高。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 访谈发布于 5 月 28 日，Stratechery Plus 订阅可读全文 / 听音频 | Seufert 关于 "广告吃掉 AI 变现" 的判断在国内可能更早兑现（百度文心一言已开始 SEO 化） |
+| 本周 Ben 同时与 Parallel 创始人 Parag Agarwal（前 Twitter CEO）做了一期访谈，谈 agentic web 内容定价（5/21） | Parag Agarwal 的 Parallel 项目目前收入和用户数都未公开，访谈是估值打底 |
+| 本周 Stratechery 三大主稿：Nvidia 财报与 AI Stack、Google I/O 评论、SpaceX IPO 与太空数据中心 | Stratechery 把 "AI Stack" 和 "Aggregation Theory" 重新连起来，对你做长期产品判断比单条新闻有用 |
+| Net Interest（Marc Rubinstein）本周新发：《Strategy Follows Structure》解构 Fidelity / Capital / Vanguard 所有权结构 |  |
+
+**📖 主编点评**
+
+按你之前的反馈想多看 "AI 名人访谈"，本期就给你压一条头版。优先级建议：Eric Seufert（变现框架）> Parag Agarwal（agentic web 商业模式）> Ben Thompson 自己 MoffettNathanson 那期（产业格局）。如果只听一段，听 Seufert 谈 "为什么 Meta 一定要自研基础模型" 那一节——这一段对你判断字节、阿里要不要继续追大模型有直接借鉴。
+
+📺 [打开原文](https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/)
+
+---
+
+## 🌟 AI
+
+### 5. Claude Code Workflow 隐藏功能首测：脚本化 + 多 Agent 协同的可复用工作流
+
+**[AI]** · ⭐⭐⭐⭐ · _AI超元域_
+
+Anthropic 在 Claude Code V2.1.47 / 48 秘密上线了 Workflow 功能，被官方从 Changelog 删除但代码里还在。这条 B 站视频是目前最早的实测，演示三个阶段六种形态：自动生成 JS 脚本、ultrawork 召唤多 Agent 协同、可复用的精准可控工作流。对你这种自己用 Claude Code 写 Agent 项目的人，是把 "一次性 prompt" 升级到 "工程化工作流" 的关键转折。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Claude Code V2.1.47 / V2.1.48 已包含 Workflow 代码（B 站 5/24 实测） | 因为官方未官宣，API 与稳定性可能在后续小版本被改 |
+| Workflow 支持脚本化（自动生成 JS）、多 Agent 协同（ultrawork）、可复用模板 | ultrawork 召唤的多 Agent 是否真有 token 节省 / 还是单纯多轮拆解，缺独立 benchmark |
+| Anthropic 官方未在 Changelog 公布，目前是 "半地下" 功能 | 对接 Skills 体系后是否会和 WorkBuddy 当前的 skill / subagent 模式撞车，需要你自己 diff |
+| 另一条相关视频：Simon 林《Claude Code 多 Agent 模式实战》验证 subagents + 独立 agent 两种模式（4/23） |  |
+
+**📖 主编点评**
+
+你 content-curator 已经在用 Skills + automation，这个 Workflow 功能正好补上 "多步任务可复用" 的缺口。建议这周抽 30 分钟把视频里的 ultrawork demo 跑一遍，然后对照你现有的 cli_generate prepare_unified → finalize_unified 这条链路，看能不能把脚本逻辑搬到 Claude Code 里——如果能，每周一的 daily automation 就可以变成 Claude 直接驱动。
+
+📺 [打开原文](http://www.bilibili.com/video/av116629702777532)
 
 ---
 
 ## 📋 备选池
 
-### AI / 科技
+### AI 商业 / 投融资
 
-- [Claude Code Workflow 功能完整实战教程：ultrawork 召唤多 Agent 协同](https://www.bilibili.com/video/BV1KoGE6cE53) —— Workflow 是 Claude Code 5/24 加的子 Agent 编排能力，这个 UP 主第一手实战拆解，跟你 vibe coding 工作流强相关。
-  _B站 · AI超元域_
-- [Real-time LLM Inference on Standard GPUs: 3k tokens/s per request](https://news.ycombinator.com/item?id=48321076) —— 标准 GPU 上单请求 3000 tokens/s 推理优化，工程派必读，离你「AI 工程实践」偏好很贴。
-  _HN 204 票_
-- [AI Coding 进阶：从 Vibe/Plan/Spec 到 Harness Engineering 与 Agent Teams](https://www.bilibili.com/video/BV1MJXZBgE32) —— 把 vibe coding 升级到「team of agents」的工程化路径，比单纯 Claude Code 教程深一层。
-  _B站 · Qoder_
+- [OpenAI 正式成立机器人团队，Greg Brockman 公开招聘](https://wallstreetcn.com/articles/3773544) —— Sam Altman 把机器人列为公司核心战略，但目前没产品、没合作方、没时间表——属于战略表态，不是落地动作。
+  _华尔街见闻 API_
+- [An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture/) —— OpenAI 模型反证了离散几何的一条核心猜想，HN 1429 票，是数学家圈子讨论 AI 数学能力的最强样本。
+  _OpenAI_
+- [Stratechery: Nvidia Earnings, The AI Stack, Nvidia's New Reporting](https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/) —— Ben Thompson 解读 Nvidia 拆分 hyperscaler 与 "其他客户" 营收的真实意图：在前者抗商品化，在后者通吃软件栈。
+  _Ben Thompson_
+- [Elon Musk 输掉对 Sam Altman 与 OpenAI 的诉讼](https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/) —— OpenAI IPO 前清场动作，Musk 系统性丧失对 OpenAI 治理的法律抓手，HN 1096 票讨论度极高。
+  _TechCrunch_
+- [30 年美债收益率再破 5%，"一切都廉价" 的时代落幕](https://wallstreetcn.com/articles/3773541) —— 廉价资本 / 廉价劳动力 / 廉价能源三大支柱同步瓦解，AI 未来通胀走向是最大变量——宏观背景必读。
+  _华尔街见闻 API_
 
-### 金融
+### AI 算力 / 半导体
 
-- [Stratechery: Nvidia Earnings, The AI Stack, Nvidia's New Reporting](https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/) —— Nvidia 拆分 hyperscaler vs 其他客户的新口径——商业模式分析比财务模型更有信息量。
-  _Stratechery · Ben Thompson_
-- [美国 5 月 CPI 同比 3.8%，能源分项推升通胀预期](https://www.bbc.com/news/articles/c202pgxx89lo) —— 5 月通胀超预期，能源因伊朗冲突推升 4.2%，美联储 9 月降息预期回落到 41%。
-  _BBC · HN 260 票_
-- [Stratechery: Data Center Discontent, Fixing the Problem](https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/) —— 和今天的 Microsoft 撤退案例配套读，Ben Thompson 给的「直接付费给社区」解法争议大但讨论值得。
-  _Stratechery_
+- [Intel Xeon 6+ Clearwater Forest 用 18A 工艺杀回数据中心，288 核 / 576MB L3](https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel) —— Intel 自报每线程比 AMD EPYC 9965 快 30%，18A 工艺真正进数据中心——AMD 在云厂的优势第一次受真正威胁。
+  _Tom's Hardware_
+- [Intel Crescent Island AI GPU 在 Computex 详细披露：480GB LPDDR5X 对抗 HBM 短缺](https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex) —— Intel 用 LPDDR5X 绕开 HBM 短缺，主打推理场景——如果价格够低，是 H200 在中端推理市场的真实替代。
+  _Tom's Hardware_
+- [SoftBank 计划在法国投 870 亿美元建 AI 数据中心](https://www.tomshardware.com/tech-industry/softbank-to-spend-up-to-75-billion-on-french-ai-data-centers) —— 选址法国是冲着核电网；SoftBank 自己背着 1300 亿美元债务、3 月又借 400 亿过桥——杠杆已经打满。
+  _Tom's Hardware_
+- [Nikon 用低价反扑 ASML 的光刻机垄断](https://www.tomshardware.com/tech-industry/nikon-plans-to-undercut-asml-on-price-to-win-back-chipmaking-lithography-customers) —— 用 ArF 工具自有制造低价反扑美国客户，是中美芯片博弈下日本企业的策略调整，不只是商业新闻。
+  _Tom's Hardware_
+- [TSMC 间谍案宣判：被告最高 10 年监禁](https://www.taipeitimes.com/News/front/archives/2026/04/28/2003856358) —— 中国台湾首次按《国安法》重判 TSMC 内部泄密，对所有大陆背景半导体从业者的招聘背景调查会更严。
+  _Taipei Times_
 
-### 半导体
+### 大厂 AI 动态
 
-- [AMD 在 Vivado 许可上对 Linux 用户搞 bait-and-switch](https://news.ycombinator.com/item?id=48307231) —— FPGA 工具链授权变更，影响一批长期 Linux 用户，HN 上骂声一片。
-  _HN 336 票_
-- [ASML 成为先进制程的卡脖子节点（HN 416 票）](https://news.ycombinator.com/item?id=47901064) —— EUV 光刻机供应紧张延伸到先进制程产能本身，TSMC 2nm 扩产受牵连。
-  _HN 416 票_
+- [Gemini 3.5 Flash 发布](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/) —— HN 962 票，配合 Gemini Omni 与 AlphaEvolve 一起释放，Google 在 I/O 后真正进入连续放榜节奏。
+  _Google_
+- [GitHub Copilot 改 token 计费引发开发者集体不满](https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/) —— 免费 / 包月时代结束，对你判断 "AI 编程工具会不会涨价" 是关键信号——Cursor / Codex 大概率跟进。
+  _TechCrunch_
+- [Gemini CLI 6 月 18 日停服，迁移到 Antigravity CLI](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) —— 如果你脚本里在用 gemini-cli，本月之前必须切换；Antigravity CLI 是新接口，命令不向后兼容。
+  _Google Developers_
+- [Microsoft Copilot Cowork 被发现可被劫持外传文件](https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files) —— PromptArmor 实测漏洞，企业版 Copilot 安全性最大的一次质疑——做企业 Agent 产品的人必读。
+  _PromptArmor_
 
-### 大厂讯息
+### 股票
 
-- [Microsoft GitHub 封禁发布 Windows 0day 的安全研究员](https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation) —— GitHub 治理边界争议，研究员公开报复性禁言指控，开源社区信任又一次被消耗。
-  _Tom's Hardware · HN 560 票_
-- [Google Chrome 静默给设备装了 4GB AI 模型](https://news.ycombinator.com/item?id=48019219) —— 未明示同意装 4GB on-device 模型，HN 本月最高票讨论之一。隐私 / 磁盘 / 控制权三角矛盾。
-  _HN 1755 票_
-- [VS Code 在 commit 里强插 Co-Authored-by Copilot](https://news.ycombinator.com/item?id=47989883) —— 无论用没用 Copilot 都被加署名，开发者愤怒爆表。Microsoft AI 推广的边界在哪？
-  _HN 1513 票_
-- [Apple 公布新无障碍功能（包括眼动控制升级）](https://news.ycombinator.com/item?id=48192224) —— Apple 每年 5 月固定的 Accessibility 更新，今年眼动 + 脑机接口推进。
-  _Apple · HN 726 票_
+- [Show HN: 实时追踪美国国会议员每一笔股票交易的网站](https://congress.kadoa.com/) —— Side project 范例：单一数据源 + 公开披露 + 一个清晰 hook，HN 61 票，你做 content-curator 时可以参考它的页面 layout。
+  _kadoa.com_
+- [美股 ETF 数量首次超过个股数](https://www.apollo.com/wealth/the-daily-spark/more-etfs-than-stocks) —— 结构性数据：美股个股投资范式正被 ETF 包装替代，长期对单只 AI 股票的定价效率有压制——但短期 SpaceX / OpenAI IPO 给了反例。
+  _Apollo_
 
 ---
 

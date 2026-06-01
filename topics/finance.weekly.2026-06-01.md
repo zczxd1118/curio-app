@@ -1,45 +1,71 @@
-# Curio · 金融 · 2026-06-01
+# Curio · AI 商业 / 投融资 · 2026-06-01
 
-> 今日 1 条头条 + 3 条备选
+> 今日 2 条头条 + 5 条备选
 
-_本期跨域三大信号：① 金融端 Stratechery 把 SpaceX IPO 与「太空数据中心」串成同一根叙事线，估值逻辑首次被讲透；② 大厂端 Google 把搜索框改成 AI 模式后立刻被 DuckDuckGo 28% 增量打脸——AI 搜索的默认行为正在松动；③ 数据中心选址被本地社区一票否决从个案变趋势，Microsoft 在威斯康星 244 英亩项目黯然撤退。按你「想看 AI 技术相关」的请求，我额外挑了一条 Claude Opus 4.8 发布作为 AI 工程实践入口。_
+_今天有两条产业级信号：一是 OpenAI 计划本周递交 IPO 招股书，叠加 SpaceX 1.8 万亿美元 IPO 倒逼指数规则改写，AI 独角兽集体进入定价时刻；二是 Computex 2026 + GTC Taipei 同步开锣，Nvidia Vera Rubin 量产 + N1X PC 处理器入场，Intel 18A Xeon 6+ 反扑，AI 硬件竞争从 GPU 蔓延到 CPU/PC 全栈。Stratechery 本周新增 Eric Seufert 访谈值得你听完。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. SpaceX IPO 估值靠的不是火箭，是「太空数据中心」这条新叙事
+### 1. SpaceX 1.8 万亿美元 IPO 强行改写指数规则，OpenAI 周五递交招股书在即
 
-**[金融]** · ⭐⭐⭐⭐⭐ · _Stratechery · Ben Thompson_
+**[AI 商业 / 投融资]** · ⭐⭐⭐⭐⭐ · _华尔街见闻 API_
 
-Ben Thompson 在 5/27 的核心文章里直说：传统财务模型撑不起 SpaceX 当前估值，但「在轨数据中心」这一条新叙事可能撑得起。Starlink 现金流年化 100 亿+ 已成事实，加上 Lumen Orbit / Starcloud 一类初创开始试验真空散热 + 太阳能直供的轨道算力，让 SpaceX 从「卫星互联网」变成「下一代 AI 算力供应商」候选。
+SpaceX 计划以至少 1.8 万亿美元估值、750 亿美元募资规模冲击 IPO 史上最大上市，体量之大已迫使纳斯达克紧急修改指数纳入规则、大幅缩减等待期。OpenAI 同步准备本周内递交 S-1，CNBC 援引消息称最快周五。两件事叠加，意味着 AI 独角兽估值锚正在被市场化，而不是被一级市场 VC 内部撮合定价。这对你判断未来 12 个月的 AI 公司估值合理性是关键参考。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| SpaceX 据 WSJ 准备启动 IPO，估值 4000 亿美元区间 | 传统现金流 DCF 估不到 4000 亿，故事先于财报 |
-| Starlink 年化收入已破 100 亿美元 | 在轨数据中心商业可行性还要 5-7 年验证 |
-| 多家轨道数据中心初创已在融资（Lumen Orbit / Starcloud） | 若成立，Anthropic / OpenAI 的算力依赖会从 Nvidia 转向 SpaceX 一档 |
-| Stratechery 是 Ben Thompson 个人付费 newsletter，付费用户 ~3 万订阅 |  |
+| SpaceX 估值 1.8 万亿美元、募资 750 亿美元，30% 份额拟向散户开放（华尔街见闻 / 5 月 31 日） | OpenAI 真实定价区间未公布，外界估算在 5000 亿至 1 万亿美元之间 |
+| 纳斯达克为容纳 SpaceX 已修改指数纳入规则，被动资金自动买入需求或达 200 亿美元 | SpaceX 招股书披露的 Twitter / X 业绩被多方质疑放大马斯克 "经营才能" 叙事（Techdirt / Axios） |
+| OpenAI 拟本周向 SEC 秘密递交 IPO 文件，最快周五（CNBC 5 月 21 日） | 若 OpenAI 估值锚定在 SpaceX 之下，AI 应用层公司的二级市场估值会全线压缩 |
+| Sam Altman 商业关系正受 GOP 国会议员调查，与 IPO 时间窗重叠（WSJ 5 月 14 日） | CNBC 同时提示 "廉价 AI" （DeepSeek 系）可能让 OpenAI / Anthropic 的 IPO 故事失血 |
+| Sam Altman、Dario Amodei 同步软化 AI 失业预言，被多家媒体解读为 IPO 前的口径管理（Fortune 5 月 26 日） |  |
 
 **📖 主编点评**
 
-如果你在做 AI 产品 / Agent 路线规划，这条值得收藏一份。Ben Thompson 的判断曲线在这个圈子里是被对照系——他押注 SpaceX 而不是 Anthropic 估值，意味着「算力供应」可能是下一个 5 年的护城河层。短期看不出影响，但中期决定你选哪个 LLM 当默认依赖时多想一层。
+你最近做 content-curator，思考的是 "AI 产品要不要做一级"。看这两个 IPO，至少能让你判断：当模型能力被快速商品化、Anthropic / OpenAI 都被迫拿现金的时候，自己做一个吃 LLM 红利的小工具，不要纠结 "会不会被官方功能吃掉"——人家自己也得靠 IPO 续命。先把工具做出来，再考虑技术路线护城河。
 
-📺 [打开原文](https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/)
+📺 [打开原文](https://wallstreetcn.com/articles/3773539)
+
+---
+
+### 4. 高盛、大摩、小摩集体上调存储三巨头目标价：AI 让 SK Hynix / 三星 / 铠侠估值范式切换
+
+**[AI 商业 / 投融资]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
+
+高盛跟随大摩、小摩，正式上调 SK Hynix、三星、铠侠目标价，理由是 AI 驱动需求 + 供给受限 + 长期供货协议（LTA）三大结构性变化，预计供需短缺持续到 2028 年。三家投行的核心论点是：存储巨头的盈利可预测性正在向台积电靠拢，但当前 7.3 倍远期 P/E 严重低估。叠加韩国 KOSPI 一度熔断、三星电子单日 +10%，存储正在从周期股变成 AI 基础设施股。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 三星电子单日 +10% 创历史新高，韩股一度触发熔断（华尔街见闻 6/1） | "估值范式切换" 是卖方观点，散户和北上资金分歧仍大（华尔街见闻：科技板块买卖盘罕见撕裂） |
+| 高盛预计存储供需短缺延续至 2028 年，上调三巨头目标价 | 如果 OpenAI / SpaceX IPO 抽走二级市场流动性，存储反而可能被减仓 |
+| 戴尔股价已涨至 420 美元，大摩从 170 美元目标价 "认错"（华尔街见闻 6/1） | 存储和台积电真正可比的前提是 LTA 覆盖率，三星目前披露不充分 |
+| Majestic Labs 完成 1 亿美元融资，做 100TB DRAM/加速器的内存池化 AI 服务器（EE Times 5/28） |  |
+
+**📖 主编点评**
+
+如果你不炒股，这条价值在于让你判断 AI 基础设施成本走势：存储涨价 = HBM 涨价 = 大模型训练 / 推理成本短期不会降。对 content-curator 这种小项目，意味着别用价格来赌大模型 API 会持续下跌——开源 + 本地部署的工程能力在 2026 下半年比今天更值钱。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3773533)
 
 ---
 
 ## 📋 备选阅读
 
-- [Stratechery: Nvidia Earnings, The AI Stack, Nvidia's New Reporting](https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/) —— Nvidia 拆分 hyperscaler vs 其他客户的新口径——商业模式分析比财务模型更有信息量。
-  _Stratechery · Ben Thompson_
-- [美国 5 月 CPI 同比 3.8%，能源分项推升通胀预期](https://www.bbc.com/news/articles/c202pgxx89lo) —— 5 月通胀超预期，能源因伊朗冲突推升 4.2%，美联储 9 月降息预期回落到 41%。
-  _BBC · HN 260 票_
-- [Stratechery: Data Center Discontent, Fixing the Problem](https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/) —— 和今天的 Microsoft 撤退案例配套读，Ben Thompson 给的「直接付费给社区」解法争议大但讨论值得。
-  _Stratechery_
+- [OpenAI 正式成立机器人团队，Greg Brockman 公开招聘](https://wallstreetcn.com/articles/3773544) —— Sam Altman 把机器人列为公司核心战略，但目前没产品、没合作方、没时间表——属于战略表态，不是落地动作。
+  _华尔街见闻 API_
+- [An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture/) —— OpenAI 模型反证了离散几何的一条核心猜想，HN 1429 票，是数学家圈子讨论 AI 数学能力的最强样本。
+  _OpenAI_
+- [Stratechery: Nvidia Earnings, The AI Stack, Nvidia's New Reporting](https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/) —— Ben Thompson 解读 Nvidia 拆分 hyperscaler 与 "其他客户" 营收的真实意图：在前者抗商品化，在后者通吃软件栈。
+  _Ben Thompson_
+- [Elon Musk 输掉对 Sam Altman 与 OpenAI 的诉讼](https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/) —— OpenAI IPO 前清场动作，Musk 系统性丧失对 OpenAI 治理的法律抓手，HN 1096 票讨论度极高。
+  _TechCrunch_
+- [30 年美债收益率再破 5%，"一切都廉价" 的时代落幕](https://wallstreetcn.com/articles/3773541) —— 廉价资本 / 廉价劳动力 / 廉价能源三大支柱同步瓦解，AI 未来通胀走向是最大变量——宏观背景必读。
+  _华尔街见闻 API_
 
 ---
 
-## 💬 觉得 金融 这期怎么样？
+## 💬 觉得 AI 商业 / 投融资 这期怎么样？
 
 [提一条反馈 Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。

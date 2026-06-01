@@ -1,45 +1,36 @@
-# Curio · AI / 科技 · 2026-06-01
+# Curio · AI · 2026-06-01
 
-> 今日 1 条头条 + 3 条备选
+> 今日 1 条头条 + 0 条备选
 
-_本期跨域三大信号：① 金融端 Stratechery 把 SpaceX IPO 与「太空数据中心」串成同一根叙事线，估值逻辑首次被讲透；② 大厂端 Google 把搜索框改成 AI 模式后立刻被 DuckDuckGo 28% 增量打脸——AI 搜索的默认行为正在松动；③ 数据中心选址被本地社区一票否决从个案变趋势，Microsoft 在威斯康星 244 英亩项目黯然撤退。按你「想看 AI 技术相关」的请求，我额外挑了一条 Claude Opus 4.8 发布作为 AI 工程实践入口。_
+_今天有两条产业级信号：一是 OpenAI 计划本周递交 IPO 招股书，叠加 SpaceX 1.8 万亿美元 IPO 倒逼指数规则改写，AI 独角兽集体进入定价时刻；二是 Computex 2026 + GTC Taipei 同步开锣，Nvidia Vera Rubin 量产 + N1X PC 处理器入场，Intel 18A Xeon 6+ 反扑，AI 硬件竞争从 GPU 蔓延到 CPU/PC 全栈。Stratechery 本周新增 Eric Seufert 访谈值得你听完。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. Claude Opus 4.8 发布：Agent 任务基准 +11pp，多模态推理首次拿到 GPT-5 同档分
+### 5. Claude Code Workflow 隐藏功能首测：脚本化 + 多 Agent 协同的可复用工作流
 
-**[AI / 科技]** · ⭐⭐⭐⭐⭐ · _Anthropic · HN 1734 票_
+**[AI]** · ⭐⭐⭐⭐ · _AI超元域_
 
-Anthropic 5/28 发布 Claude Opus 4.8。HN 1734 票，本周英文圈头号事件。相比 4.6，Opus 4.8 在 Agent 任务基准（SWE-bench Verified、TAU-bench）提升 11 个百分点，多模态推理与代码编辑首次拿到 GPT-5 同档分数。这意味着你手头基于 Claude Code 的 vibe coding 工作流自动获益，不需要切换工具栈。
+Anthropic 在 Claude Code V2.1.47 / 48 秘密上线了 Workflow 功能，被官方从 Changelog 删除但代码里还在。这条 B 站视频是目前最早的实测，演示三个阶段六种形态：自动生成 JS 脚本、ultrawork 召唤多 Agent 协同、可复用的精准可控工作流。对你这种自己用 Claude Code 写 Agent 项目的人，是把 "一次性 prompt" 升级到 "工程化工作流" 的关键转折。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic 5/28 发布 Claude Opus 4.8 | 对 OpenAI / Google 的代码 Agent 是否构成压力（Cursor / Windsurf 切默认模型？） |
-| Agent 基准（SWE-bench / TAU-bench）相对 4.6 +11pp | API 价格是否调整（暂未公布） |
-| 多模态推理首次与 GPT-5 同档 | 10M context 是否在 Opus 路线图上 |
-| HN 1734 票本周第一 |  |
+| Claude Code V2.1.47 / V2.1.48 已包含 Workflow 代码（B 站 5/24 实测） | 因为官方未官宣，API 与稳定性可能在后续小版本被改 |
+| Workflow 支持脚本化（自动生成 JS）、多 Agent 协同（ultrawork）、可复用模板 | ultrawork 召唤的多 Agent 是否真有 token 节省 / 还是单纯多轮拆解，缺独立 benchmark |
+| Anthropic 官方未在 Changelog 公布，目前是 "半地下" 功能 | 对接 Skills 体系后是否会和 WorkBuddy 当前的 skill / subagent 模式撞车，需要你自己 diff |
+| 另一条相关视频：Simon 林《Claude Code 多 Agent 模式实战》验证 subagents + 独立 agent 两种模式（4/23） |  |
 
 **📖 主编点评**
 
-你订阅的「想看 AI 技术相关」我用这条对应。具体行动：今天打开 Claude Code 升级到 Opus 4.8（自动），下午跑一个你之前 4.6 跑不动的大型重构任务对照——Agent 基准 +11pp 在真实 codebase 里通常体现在「多文件修改一次成功率」上，你能立刻感知。
+你 content-curator 已经在用 Skills + automation，这个 Workflow 功能正好补上 "多步任务可复用" 的缺口。建议这周抽 30 分钟把视频里的 ultrawork demo 跑一遍，然后对照你现有的 cli_generate prepare_unified → finalize_unified 这条链路，看能不能把脚本逻辑搬到 Claude Code 里——如果能，每周一的 daily automation 就可以变成 Claude 直接驱动。
 
-📺 [打开原文](https://www.anthropic.com/news/claude-opus-4-8)
-
----
-
-## 📋 备选阅读
-
-- [Claude Code Workflow 功能完整实战教程：ultrawork 召唤多 Agent 协同](https://www.bilibili.com/video/BV1KoGE6cE53) —— Workflow 是 Claude Code 5/24 加的子 Agent 编排能力，这个 UP 主第一手实战拆解，跟你 vibe coding 工作流强相关。
-  _B站 · AI超元域_
-- [Real-time LLM Inference on Standard GPUs: 3k tokens/s per request](https://news.ycombinator.com/item?id=48321076) —— 标准 GPU 上单请求 3000 tokens/s 推理优化，工程派必读，离你「AI 工程实践」偏好很贴。
-  _HN 204 票_
-- [AI Coding 进阶：从 Vibe/Plan/Spec 到 Harness Engineering 与 Agent Teams](https://www.bilibili.com/video/BV1MJXZBgE32) —— 把 vibe coding 升级到「team of agents」的工程化路径，比单纯 Claude Code 教程深一层。
-  _B站 · Qoder_
+📺 [打开原文](http://www.bilibili.com/video/av116629702777532)
 
 ---
 
-## 💬 觉得 AI / 科技 这期怎么样？
+---
+
+## 💬 觉得 AI 这期怎么样？
 
 [提一条反馈 Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。

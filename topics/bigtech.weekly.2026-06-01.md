@@ -1,46 +1,47 @@
-# Curio · 大厂讯息 · 2026-06-01
+# Curio · 大厂 AI 动态 · 2026-06-01
 
 > 今日 1 条头条 + 4 条备选
 
-_本期跨域三大信号：① 金融端 Stratechery 把 SpaceX IPO 与「太空数据中心」串成同一根叙事线，估值逻辑首次被讲透；② 大厂端 Google 把搜索框改成 AI 模式后立刻被 DuckDuckGo 28% 增量打脸——AI 搜索的默认行为正在松动；③ 数据中心选址被本地社区一票否决从个案变趋势，Microsoft 在威斯康星 244 英亩项目黯然撤退。按你「想看 AI 技术相关」的请求，我额外挑了一条 Claude Opus 4.8 发布作为 AI 工程实践入口。_
+_今天有两条产业级信号：一是 OpenAI 计划本周递交 IPO 招股书，叠加 SpaceX 1.8 万亿美元 IPO 倒逼指数规则改写，AI 独角兽集体进入定价时刻；二是 Computex 2026 + GTC Taipei 同步开锣，Nvidia Vera Rubin 量产 + N1X PC 处理器入场，Intel 18A Xeon 6+ 反扑，AI 硬件竞争从 GPU 蔓延到 CPU/PC 全栈。Stratechery 本周新增 Eric Seufert 访谈值得你听完。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. Google 说「用户爱 AI 搜索」一周后，DuckDuckGo 流量涨了 28%
+### 3. Stratechery × Eric Seufert 长访谈：广告模型、Meta 基础模型为什么重要、AI 对人类的乐观面
 
-**[大厂讯息]** · ⭐⭐⭐⭐⭐ · _PC Gamer · HN 1071 票_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Ben Thompson_
 
-Google 5 月把搜索框默认切成 AI Overview 模式，并对外宣称「用户喜爱」。一周后第三方统计 DuckDuckGo（明确 AI-free 卖点）周访问量同比增加 27.8%，HN 上 1000+ 票讨论。这是 Google 把 AI 强推默认搜索后第一次有对照组数据。
+Ben Thompson 这周和 Eric Seufert（Mobile Dev Memo 创始人）做了一期长访谈，主线是生成式 AI 时代的广告模型、Meta 自研基础模型的战略意义、以及 AI 对人类的上行空间。Seufert 是移动广告/归因领域最重要的分析师之一，这次他第一次完整阐述了 "为什么广告将吃掉所有 AI 产品的变现链路"。访谈是付费内容，但你订阅了 Stratechery 就能看 transcript，比读他自己的博客密度更高。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DuckDuckGo 周访问 +27.8%（PCGamer 引第三方） | 增量来自「逃 AI 」还是常规波动还要看下月数据 |
-| Google 5 月把 AI Overview 升级为搜索框默认入口 | Google 是否会回退默认设置（短期看不会） |
-| HN 这条 1071 票讨论几乎一边倒批评 Google | ChatGPT Search / Perplexity 是否分到了同一波流量（暂无数据） |
+| 访谈发布于 5 月 28 日，Stratechery Plus 订阅可读全文 / 听音频 | Seufert 关于 "广告吃掉 AI 变现" 的判断在国内可能更早兑现（百度文心一言已开始 SEO 化） |
+| 本周 Ben 同时与 Parallel 创始人 Parag Agarwal（前 Twitter CEO）做了一期访谈，谈 agentic web 内容定价（5/21） | Parag Agarwal 的 Parallel 项目目前收入和用户数都未公开，访谈是估值打底 |
+| 本周 Stratechery 三大主稿：Nvidia 财报与 AI Stack、Google I/O 评论、SpaceX IPO 与太空数据中心 | Stratechery 把 "AI Stack" 和 "Aggregation Theory" 重新连起来，对你做长期产品判断比单条新闻有用 |
+| Net Interest（Marc Rubinstein）本周新发：《Strategy Follows Structure》解构 Fidelity / Capital / Vanguard 所有权结构 |  |
 
 **📖 主编点评**
 
-用户行为正在投票。你应该把「AI 搜索」当一个选项而不是默认——尤其是要事实校验、要原文链接的查询，DuckDuckGo / 直接搜索引擎 比 AI Overview 准。同时这是 Google 十年来第一次出现「我做 AI，用户跑了」的可观测信号。
+按你之前的反馈想多看 "AI 名人访谈"，本期就给你压一条头版。优先级建议：Eric Seufert（变现框架）> Parag Agarwal（agentic web 商业模式）> Ben Thompson 自己 MoffettNathanson 那期（产业格局）。如果只听一段，听 Seufert 谈 "为什么 Meta 一定要自研基础模型" 那一节——这一段对你判断字节、阿里要不要继续追大模型有直接借鉴。
 
-📺 [打开原文](https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/)
+📺 [打开原文](https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/)
 
 ---
 
 ## 📋 备选阅读
 
-- [Microsoft GitHub 封禁发布 Windows 0day 的安全研究员](https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation) —— GitHub 治理边界争议，研究员公开报复性禁言指控，开源社区信任又一次被消耗。
-  _Tom's Hardware · HN 560 票_
-- [Google Chrome 静默给设备装了 4GB AI 模型](https://news.ycombinator.com/item?id=48019219) —— 未明示同意装 4GB on-device 模型，HN 本月最高票讨论之一。隐私 / 磁盘 / 控制权三角矛盾。
-  _HN 1755 票_
-- [VS Code 在 commit 里强插 Co-Authored-by Copilot](https://news.ycombinator.com/item?id=47989883) —— 无论用没用 Copilot 都被加署名，开发者愤怒爆表。Microsoft AI 推广的边界在哪？
-  _HN 1513 票_
-- [Apple 公布新无障碍功能（包括眼动控制升级）](https://news.ycombinator.com/item?id=48192224) —— Apple 每年 5 月固定的 Accessibility 更新，今年眼动 + 脑机接口推进。
-  _Apple · HN 726 票_
+- [Gemini 3.5 Flash 发布](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/) —— HN 962 票，配合 Gemini Omni 与 AlphaEvolve 一起释放，Google 在 I/O 后真正进入连续放榜节奏。
+  _Google_
+- [GitHub Copilot 改 token 计费引发开发者集体不满](https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/) —— 免费 / 包月时代结束，对你判断 "AI 编程工具会不会涨价" 是关键信号——Cursor / Codex 大概率跟进。
+  _TechCrunch_
+- [Gemini CLI 6 月 18 日停服，迁移到 Antigravity CLI](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) —— 如果你脚本里在用 gemini-cli，本月之前必须切换；Antigravity CLI 是新接口，命令不向后兼容。
+  _Google Developers_
+- [Microsoft Copilot Cowork 被发现可被劫持外传文件](https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files) —— PromptArmor 实测漏洞，企业版 Copilot 安全性最大的一次质疑——做企业 Agent 产品的人必读。
+  _PromptArmor_
 
 ---
 
-## 💬 觉得 大厂讯息 这期怎么样？
+## 💬 觉得 大厂 AI 动态 这期怎么样？
 
 [提一条反馈 Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。

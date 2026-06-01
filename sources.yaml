@@ -16,7 +16,6 @@ domains:
     topics:
       default:
         sources:
-        # —— AI 工程实践（核心）——
         - name: Latent Space Blog
           kind: rss
           url: https://www.latent.space/feed
@@ -60,7 +59,6 @@ domains:
           url: https://blog.bytebytego.com/feed
           lang: en
           optional: true
-        # —— 学术 / 论文 ——
         - name: Hugging Face Papers
           kind: rss
           url: https://huggingface.co/papers
@@ -79,7 +77,6 @@ domains:
           url: https://export.arxiv.org/rss/cs.AI
           lang: en
           optional: true
-        # —— HN 关键词（覆盖 vibe coding / Agent / 模型发布）——
         - name: HN · Claude Code
           kind: hn_search
           query: Claude Code
@@ -140,7 +137,6 @@ domains:
           days: 30
           min_points: 15
           lang: en
-        # —— 中文：B 站 + 36 氪 AI 频道 ——
         - name: B站 · vibe coding
           kind: bilibili_search
           keywords:
@@ -157,7 +153,6 @@ domains:
     topics:
       default:
         sources:
-        # —— 行业深度博客（重头）——
         - name: Stratechery
           kind: rss
           url: https://stratechery.com/feed/
@@ -176,7 +171,6 @@ domains:
           url: https://api.wallstreetcn.com/apiv1/content/articles?cursor=&limit=30
           lang: zh
           optional: true
-        # —— HN 关键词（聚焦 AI 公司财务/估值/投融资）——
         - name: HN · OpenAI
           kind: hn_search
           query: OpenAI
@@ -220,7 +214,6 @@ domains:
     topics:
       default:
         sources:
-        # —— 行业专业媒体 ——
         - name: SemiAnalysis（半导体首选深度）
           kind: rss
           url: https://www.semianalysis.com/feed
@@ -240,7 +233,6 @@ domains:
           url: https://www.tomshardware.com/feeds/all
           lang: en
           optional: true
-        # —— HN 关键词（聚焦 AI 算力相关）——
         - name: HN · TSMC
           kind: hn_search
           query: TSMC
@@ -284,7 +276,6 @@ domains:
     topics:
       default:
         sources:
-        # —— 科技媒体 ——
         - name: The Verge
           kind: rss
           url: https://www.theverge.com/rss/index.xml
@@ -318,8 +309,6 @@ domains:
           url: https://sspai.com/feed
           lang: zh
           optional: true
-        # —— HN 关键词（聚焦大厂 AI 战略/产品发布）——
-        # 注：HN Algolia 用空格分词更稳定，OR 语法对长 query 不友好
         - name: HN · Gemini
           kind: hn_search
           query: Gemini
@@ -356,3 +345,56 @@ domains:
           days: 30
           min_points: 30
           lang: en
+  stock:
+    name: 股票
+    icon: 📰
+    frequency: weekly
+    topics:
+      default:
+        name: 股票
+        sources:
+        - name: 华尔街见闻 API
+          kind: wallstreetcn_api
+          url: https://api.wallstreetcn.com/apiv1/content/articles?cursor=&limit=30
+          lang: zh
+        - name: HN · stock market
+          kind: hn_search
+          query: stock
+          days: 14
+          min_points: 30
+          lang: en
+        - name: HN · IPO
+          kind: hn_search
+          query: IPO
+          days: 30
+          min_points: 30
+          lang: en
+        - name: HN · earnings
+          kind: hn_search
+          query: earnings
+          days: 14
+          min_points: 50
+          lang: en
+        - name: HN · Federal Reserve
+          kind: hn_search
+          query: Federal Reserve
+          days: 30
+          min_points: 30
+          lang: en
+        - name: Bilibili · 股票分析
+          kind: bilibili_search
+          query: 股票分析
+          days: 14
+          min_views: 30000
+          lang: zh
+        - name: Bilibili · A股
+          kind: bilibili_search
+          query: A股
+          days: 14
+          min_views: 30000
+          lang: zh
+        - name: Net Interest
+          kind: rss
+          url: https://www.netinterest.co/feed
+          lang: en
+    icon_type: finance

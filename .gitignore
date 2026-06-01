@@ -30,3 +30,8 @@ worker/.wrangler-state/
 # pending generate state (runtime)
 .pending_generate.json
 .local_server_logs/
+
+# LLM API keys (本地开发用，永远不 push)
+.env
+.env.local
+*.api_key
