@@ -2,13 +2,13 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-06-01T10:44:53.596813+00:00",
+  "fetched_at": "2026-06-01T11:33:26.058686+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
-    "华尔街见闻 API": 19,
+    "华尔街见闻 API": 20,
     "HN · stock market": 12,
     "HN · IPO": 16,
     "HN · earnings": 1,
@@ -18,8 +18,85 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 67,
+  "total": 68,
   "items": [
+    {
+      "id": "wscn:3773581",
+      "title": "美团：下半年订单增长可能会放缓",
+      "url": "https://wallstreetcn.com/articles/3773581",
+      "summary": "更多消息，持续更新中",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T11:32:20+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773578",
+      "title": "高盛：空头大撤退！对冲基金以半年最快速度追涨美股",
+      "url": "https://wallstreetcn.com/articles/3773578",
+      "summary": "高盛报告显示，上周对冲基金对美股的净买入规模创六个月新高。衡量其风险偏好的关键指标多空净杠杆率已升至55.3%，处于近一年来的第89百分位，表明基金正以较高信心“上杠杆”做多。资金流向上，金融股获显著净买入，而工业股空头敞口已升至高位。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T11:17:05+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773579",
+      "title": "从“周期大宗商品”到“战略核心资产”，摩根大通：本轮存储超级周期将“更高、更长”",
+      "url": "https://wallstreetcn.com/articles/3773579",
+      "summary": "摩根大通大幅上调全球存储市场预期，预计2028年市场规模将达1.7万亿美元。AI需求正从GPU向CPU全面扩散，推动服务器内存需求超预期增长，HBM供需缺口有望持续至2028年。随着存储在云厂商资本开支中的占比突破50%，行业正从周期性商品转变为AI基础设施核心资产。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T11:16:17+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773576",
+      "title": "MLCC 会成为下一个存储吗？",
+      "url": "https://wallstreetcn.com/articles/3773576",
+      "summary": "华泰证券表示，英伟达Rubin架构驱动AI服务器MLCC量价齐升，单机柜价值量跃升至2.2万-4万美元，村田等龙头已提价15%-35%。供需格局类似HBM，但MLCC资本壁垒远低于存储，中长期供给存风险。当前板块PE达43.3倍，溢价充分，后续需紧盯盈利兑现，AI高容龙头、通用品份额较高的厂商、以及A股高容/电感国产化进程三条主线。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T11:14:50+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773577",
+      "title": "一家中小跨境电商的AI拼连接样本",
+      "url": "https://wallstreetcn.com/articles/3773577",
+      "summary": "AI开始接管脏活累活。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T11:14:00+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773575",
+      "title": "老黄的Token经济学翻车了！微软亚马逊通通跳车",
+      "url": "https://wallstreetcn.com/articles/3773575",
+      "summary": "企业AI支出正从狂热转向理性。一家神秘公司月耗5亿美元Claude账单，亚马逊则因员工为冲榜滥用AI而取消内部工具排行榜。微软收缩Claude Code授权，Uber四个月烧光全年预算。黄仁勋“多用Token即省钱”的Token经济学，正被一张张巨额账单和低ROI的现实挑战。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T11:13:29+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773580",
+      "title": "延续小阳春热度！5月上海二手房成交超2.8万套，刷新6年来同期新高",
+      "url": "https://wallstreetcn.com/articles/3773580",
+      "summary": "业内分析人士认为，二手房市场开始从“以价换量”模式进入“量价齐稳”的新阶段；新房市场伴随供应回暖，置换链条也越来越顺畅，市场普遍看好房企半年度业绩冲刺带来的成交行情。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T11:09:15+00:00",
+      "points": 0
+    },
     {
       "id": "wscn:3773570",
       "title": "黄仁勋的“Agent工厂”里，装了什么新故事？",
@@ -161,72 +238,6 @@
       "platform": "rss",
       "lang": "zh",
       "published_at": "2026-06-01T07:46:36+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773565",
-      "title": "小鹏集团：2026年5月交付量达32158辆，环比增长4%",
-      "url": "https://wallstreetcn.com/articles/3773565",
-      "summary": "小鹏集团（09868）2026年5月交付数据解读核心数据\n5月交付量：32,158辆，环比增长4%\n...",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T07:44:21+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773532",
-      "title": "AI PC海啸引爆周末：英伟达亲自下场！大厂预计重塑万亿PC产业生态！",
-      "url": "https://wallstreetcn.com/premium/articles/3773532?layout=wscn-layout",
-      "summary": "ComputeX 2026大会将成为人类PC产业发展史上的一个分水岭时刻。记住这个时刻。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T07:35:54+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773560",
-      "title": "MiniMax新旗舰M3发布！自己干了12小时复现获奖论文，三条科技树同时点满",
-      "url": "https://wallstreetcn.com/articles/3773560",
-      "summary": "MiniMax在启动科创板IPO辅导后，推出新一代旗舰模型M3，首次同时实现顶尖编程能力、1M超长上下文与原生多模态。M3可独立复现ICLR获奖论文，12小时内跑通核心实验。通过全新稀疏注意力机制与交互式训练框架，其Agent与代码优化能力显著提升。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T07:29:35+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773563",
-      "title": "告别母行依赖，32家理财子全部打通非母行代销渠道",
-      "url": "https://wallstreetcn.com/articles/3773563",
-      "summary": "如今的理财子，已正式进入“全员代销”时代。\n截至5月末，高盛工银理财与兴业银行签署《理财产品代理销售...",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T07:29:15+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773562",
-      "title": "调任金监局一把手后，丁向群正式作别人保",
-      "url": "https://wallstreetcn.com/articles/3773562",
-      "summary": "5月31日，中国人保公告，丁向群因工作调动，已辞去公司执行董事、董事长及董事会战略与投资/可持续发展...",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T07:28:43+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773561",
-      "title": "英伟达掀桌，Windows 终于迎来真 AI PC",
-      "url": "https://wallstreetcn.com/articles/3773561",
-      "summary": "英伟达在 GTC 2026 上联手微软推出 RTX Spark 处理器，进军AI PC市场。对于想在本地跑 LLM、又需要大内存和较强 AI 算力的人来说，RTX Spark 的出现，可能会成为除 Mac之外的另一个选项。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T07:27:07+00:00",
       "points": 0
     },
     {

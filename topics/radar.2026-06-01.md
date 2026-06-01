@@ -1,101 +1,123 @@
 # Curio 趋势雷达 · 2026-06-01
 
-> 你的私人主编 · 今日跨域精选 4 条头条 + 12 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 12 条备选
 
-_今天 Computex 2026 开幕，英伟达正式发布 RTX Spark 超级芯片，联手微软将 Windows 变成 Agentic AI OS，这是 PC 产业的分水岭。同时，宇树科技 73 天闪电过会，A 股具身智能第一股即将诞生。AI 编程工具赛道持续内卷，Claude Code vs Codex 实测对比出炉。_
+_今天Computex 2026开幕，NVIDIA正式发布RTX Spark超级芯片，标志着AI PC进入新纪元。同时，OpenAI数学突破解决80年难题，AI能力边界再拓宽。但企业AI支出开始理性化，Token经济学遭遇挑战。_
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 1. 英伟达发布 RTX Spark 超级芯片：20核Arm CPU + Blackwell GPU，128GB统一内存，Windows 变身 Agentic AI OS
+### 1. NVIDIA发布RTX Spark超级芯片：20核Arm CPU + Blackwell GPU，128GB统一内存，Windows变身Agentic AI OS
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-Computex 2026 首日，黄仁勋正式揭晓 RTX Spark 平台。这不是又一款 GPU，而是一颗完整的 SoC——20 核 Arm CPU 搭配 6144 CUDA 核心的 Blackwell GPU，最高 128GB 统一内存，目标是把本地 AI 推理和 Agent 能力塞进笔记本和桌面。微软同步推出 Surface Laptop Ultra 首发搭载，Windows 终于有了真正能跑大模型的本地硬件。
+Computex 2026首日，黄仁勋正式推出RTX Spark超级芯片，这是NVIDIA首次将Arm CPU与Blackwell GPU集成到消费级SoC中。微软同步发布Surface Laptop Ultra首发搭载，最高128GB统一内存。这不是又一款AI PC——这是PC架构的转折点。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| RTX Spark 采用 20 核 Arm CPU + Blackwell GPU，CUDA 核心数 6144，匹配桌面 RTX 5070 级别 | RTX Spark 能否真正挑战苹果 Mac 系列在本地 AI 推理上的地位，取决于软件生态和开发者支持 |
-| 最高 128GB 统一内存，支持本地运行大模型推理 | 128GB 统一内存对个人开发者跑 70B 模型够用，但多卡扩展性未知 |
-| 微软 Surface Laptop Ultra 首发搭载，配备 15 英寸 mini-LED PixelSense Ultra 显示屏 | Intel 和 AMD 如何应对 Arm 架构入侵 PC 市场，x86 生态护城河是否会被突破 |
-| 英伟达公布三代路线图：当前 Rubin（LPDDR6），后续 Rosa、Feynman | 定价尚未公布，若过高可能仅限高端市场，难以普及 |
-| 与微软联合宣布 Windows 将深度集成 Agentic AI 能力 | Agentic AI OS 的具体形态和用户体验还需实测验证 |
+| RTX Spark采用20核Arm CPU + 6144 CUDA核心Blackwell GPU | x86生态是否会被Arm+GPU组合侵蚀？Intel已表示'警惕' |
+| 最高128GB统一内存，支持本地运行大模型 | 128GB统一内存的实际推理性能尚未有第三方评测 |
+| 微软Surface Laptop Ultra首发，Dell、HP、联想等同步跟进 | 开发者生态迁移成本：CUDA on Arm的兼容性待验证 |
+| NVIDIA公布三代路线图：Rubin（LPDDR6）→ Rosa → Feynman | 定价未公布，若高于$2000可能影响消费级普及 |
+|  | Agentic AI OS的具体体验与现有Windows AI功能差异不明 |
 
 **📖 主编点评**
 
-如果你在做 AI Agent 或个人 Side Project，RTX Spark 意味着你可以在笔记本上本地跑大模型推理，不再依赖云端 API。这对你的 content-curator 项目是利好——本地部署 RAG 和 Agent 的硬件门槛大幅降低。建议关注 Surface Laptop Ultra 的评测，特别是统一内存带宽和实际推理速度。
+如果你在做AI Agent项目，RTX Spark意味着你可以在笔记本上本地跑70B模型。建议关注Surface Laptop Ultra的评测，特别是MCP Server在Arm上的运行效率。这对你的content-curator项目是个潜在的部署平台——本地运行LLM做摘要，不再依赖API。
 
 📺 [打开原文](https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory)
 
 ---
 
-## 🌟 股票
+## 🌟 AI
 
-### 2. 宇树科技 73 天闪电过会，A 股具身智能第一股估值至少 420 亿元
+### 2. OpenAI模型解决困扰人类80年的数学难题，AI推理能力再突破
 
-**[股票]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
+**[AI]** · ⭐⭐⭐⭐⭐ · _Ars Technica_
 
-从 IPO 受理到过会仅 73 天，宇树科技刷新了 A 股纪录。按发行比例不低于 10% 测算，整体估值至少 420 亿元，业内预期实际市值将远高于此。这是具身智能赛道在资本市场的里程碑事件——人形机器人从概念走向 IPO，意味着产业成熟度获得监管和资本双重认可。
+OpenAI的一个未公开模型解决了'Keller猜想'的变体——一个组合几何问题，自1940年代以来无人能解。Ars Technica的深度分析指出，这次突破的关键不是算力堆砌，而是模型学会了'构造反例'的推理策略。这不是AGI，但这是AI在数学研究中从'助手'变成'合作者'的标志。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 宇树科技从 IPO 受理到过会仅用 73 天，创 A 股纪录 | 420 亿估值是否合理，取决于人形机器人商业化落地速度 |
-| 按发行比例不低于 10% 测算，整体估值至少 420 亿元 | 宇树科技在消费级市场的占比和盈利能力尚未公开 |
-| 宇树科技是 A 股具身智能第一股 | 具身智能赛道当前估值偏高，需警惕二级市场炒作风险 |
-| 公司主营业务包括四足机器人、人形机器人及核心零部件 | 过会后到正式上市还有流程，时间窗口不确定 |
+| 解决的是Keller猜想的一个变体，属于组合几何领域 | 该突破是否可泛化到其他数学领域尚不明确 |
+| 模型采用'构造性反例'策略，而非暴力搜索 | 模型是否使用了特殊训练数据（如形式化数学语料）未披露 |
+| 解决方案已通过同行评审，发表于数学期刊 | 与DeepMind的AlphaGeometry相比，方法论差异待分析 |
+| OpenAI未公开该模型的具体参数规模 | 对实际工程应用（如代码推理）的迁移价值未知 |
+|  | OpenAI可能将其能力整合到未来版本的GPT中 |
 
 **📖 主编点评**
 
-具身智能从实验室走向 IPO，说明资本市场开始为机器人赛道买单。如果你关注 AI 硬件落地，宇树的过会是一个重要信号——人形机器人不再是 PPT 项目。但作为个人开发者，短期内更值得关注的是宇树开源的控制算法和 SDK，这些可能成为你 Side Project 的组件。
+这对你的AI Agent项目有间接启示：推理能力正在从'模式匹配'转向'策略构造'。如果你在Claude Code或Cursor中遇到复杂调试问题，可以尝试让模型'构造反例'而非直接修复——这种思维链策略可能更有效。关注OpenAI后续是否将此类推理能力集成到API中。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3773573)
+📺 [打开原文](https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/)
 
 ---
 
-## 🌟 AI
+### 5. Claude Code隐藏Workflow功能曝光：脚本化多Agent协同，AI编程进入'工作流即代码'时代
 
-### 3. 100 小时实测 Claude Code vs Codex：结果令人意外
+**[AI]** · ⭐⭐⭐⭐ · _AI超元域_
 
-**[AI]** · ⭐⭐⭐⭐ · _设计之道_
-
-一位开发者花了 100 小时，用相同的提示词和项目构建任务，对比测试 Claude Code 和 Codex。结果并非一边倒——Claude Code 在复杂多文件重构上更强，Codex 在快速原型和简单任务上速度更快。这不是又一篇工具评测，而是给所有 Vibe Coding 用户的实战参考：选工具要看场景。
+B站UP主'AI超元域'发现并实测了Anthropic未官宣的Claude Code Workflow功能。该功能允许用户用JS脚本定义多Agent协作流程，实现'一个指令召唤多个子Agent并行工作'。虽然官方从Changelog中删除了相关描述，但代码中仍保留该功能。这可能是AI编程工具从'单兵作战'到'团队协作'的关键进化。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 测试时长 100 小时，使用相同提示词和项目构建任务 | 测试样本量有限，结论可能不适用于所有项目类型 |
-| Claude Code 在复杂多文件重构和跨文件修改上表现更好 | 工具版本更新快，当前结论可能在未来 1-2 个月内失效 |
-| Codex 在快速原型和简单任务上速度更快 | 个人偏好和熟悉度对效率影响很大，客观对比难完全排除主观因素 |
-| 两者在代码质量和错误率上互有胜负 | 未涉及 MCP 集成和自定义 Skills 的对比 |
+| Claude Code V2.1.47和V2.1.48版本中存在Workflow功能 | 该功能是否会被官方正式支持尚不确定 |
+| 支持用JavaScript脚本定义多Agent协作流程 | 脚本化工作流的调试和错误处理机制不完善 |
+| 可实现子Agent并行执行、结果聚合、条件分支 | 多Agent并行时的Token消耗和成本控制未知 |
+| 官方从Changelog中删除了该功能描述但未移除代码 | 与Cursor的YOLO模式、Windsurf的Flow模式的对比待验证 |
 
 **📖 主编点评**
 
-如果你在做 content-curator 这类多文件、多模块的 Agent 项目，Claude Code 的复杂任务处理能力可能更适合。但 Codex 的快速迭代能力也不容忽视——建议两个工具都装，根据任务类型切换。另外，关注视频中提到的具体 commands 和 prompts，这些细节比结论更有价值。
+如果你在用Claude Code做content-curator项目，这个Workflow功能可以让你定义'采集→摘要→分类→存储'的自动化流水线。建议立即尝试V2.1.47版本，用JS脚本构建你的第一个多Agent工作流。即使官方后续移除，这种'工作流即代码'的思路也会成为AI编程的标配。
 
-📺 [打开原文](http://www.bilibili.com/video/av116656495925868)
+📺 [打开原文](http://www.bilibili.com/video/av116629702777532)
 
 ---
 
 ## 🌟 大厂 AI 动态
 
-### 4. GitHub Copilot 改按 Token 计费，开发者炸锅
+### 3. Google发布Gemini 3.5 Flash：速度提升2倍，成本降低60%，支持100万token上下文
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Google AI Blog_
 
-GitHub Copilot 宣布从固定订阅制转向 Token 计费模式，引发开发者强烈不满。新计费方式下，频繁使用 AI 补全的开发者成本可能翻倍。这标志着 AI 编程工具的商业模式从“无限畅吃”转向“按量付费”，对重度用户影响巨大。
+Google在5月19日发布了Gemini 3.5 Flash，这是Gemini系列的最新轻量级模型。相比3.0 Flash，推理速度翻倍，价格降低60%，上下文窗口扩展到100万token。同时发布的还有Gemini Omni——一个多模态实时交互模型。但Gemini CLI宣布将于6月18日停用，迁移至Antigravity CLI。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| GitHub Copilot 从固定订阅制转向 Token 计费模式 | Token 计费的具体单价和免费额度尚未公布，实际影响待评估 |
-| 频繁使用 AI 补全的开发者成本可能翻倍 | 此举可能推动开发者转向 Cursor、Windsurf 等竞品 |
-| 开发者社区反应强烈，称新计费方式为 'a joke' | 微软可能后续调整策略，类似之前 VS Code 'Co-Authored by Copilot' 争议后的妥协 |
-| 微软官方尚未回应开发者反馈 | 对偶尔使用 Copilot 的开发者影响有限，重度用户需重新评估成本 |
+| Gemini 3.5 Flash推理速度是3.0 Flash的2倍 | 100万token上下文在实际RAG场景中的检索精度待验证 |
+| API价格降低60%，输入$0.08/百万token，输出$0.30/百万token | Gemini Omni的实时交互能力与GPT-4o的对比尚无第三方评测 |
+| 上下文窗口100万token，支持多模态输入 | CLI停用可能影响自动化工作流用户 |
+| Gemini CLI将于2026年6月18日停止服务 | 价格降低是否会导致质量下降（如更频繁的幻觉） |
 
 **📖 主编点评**
 
-如果你重度依赖 Copilot（比如每天写几百行 AI 辅助代码），新计费模式可能让你的月支出从 10 美元涨到 30-50 美元。建议提前评估使用量，对比 Cursor 和 Windsurf 的定价。对于你的 content-curator 项目，如果主要用 Claude Code 或 Codex，Copilot 的变动影响不大，但值得关注行业定价趋势。
+如果你在用Gemini API做content-curator的摘要功能，3.5 Flash的性价比很诱人。100万token上下文意味着你可以直接把整篇论文或代码库塞进去做分析。但注意Gemini CLI即将停用，如果你有自动化脚本依赖它，尽快迁移到Antigravity CLI或直接调用API。
 
-📺 [打开原文](https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs)
+📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/)
+
+---
+
+## 🌟 金融
+
+### 4. 企业AI支出转向理性：微软收缩Claude Code授权，亚马逊取消内部工具排行榜，Token经济学遭质疑
+
+**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+华尔街见闻报道，企业AI支出正从狂热转向理性。一家神秘公司月耗5亿美元Claude账单，亚马逊因员工为冲榜滥用AI而取消内部工具排行榜。微软收缩Claude Code授权，Uber四个月烧光全年预算。黄仁勋'多用Token即省钱'的Token经济学，正被巨额账单和低ROI挑战。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 某公司月均Claude API支出达5亿美元 | 企业AI支出回落是否会导致AI公司估值调整 |
+| 亚马逊取消内部AI工具使用排行榜 | Token经济学的'规模效应'是否真的存在 |
+| 微软减少Claude Code的企业授权数量 | 理性化是否意味着AI应用进入'实用主义'阶段 |
+| Uber在4个月内用完全年AI预算 | 对AI编程工具（如Cursor、Claude Code）的企业采购影响 |
+
+**📖 主编点评**
+
+这对你的Side Project是个信号：AI工具的'免费午餐'可能正在结束。如果你依赖Claude Code或Cursor的免费额度，建议关注它们的定价变化。同时，这也意味着'高效使用Token'将成为一项核心竞争力——你的content-curator项目如果能优化Token消耗，会更有商业价值。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3773575)
 
 ---
 
@@ -103,42 +125,39 @@ GitHub Copilot 宣布从固定订阅制转向 Token 计费模式，引发开发�
 
 ### AI 算力 / 半导体
 
-- [Intel Xeon 6+ Clearwater Forest：288 核，18A 工艺数据中心 CPU](https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel) —— Intel 在 Computex 上展示 288 核 Clearwater Forest，18A 工艺，单线程比 AMD 192 核 Epyc 快 30%，但量产时间未定。
+- [Intel Crescent Island AI GPU：480GB LPDDR5X内存，专为推理优化](https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex) —— Intel在Computex上公布了Crescent Island AI GPU细节，480GB LPDDR5X内存直击AI推理内存瓶颈，但量产时间未定，短期对市场影响有限。
   _Tom's Hardware_
-- [SoftBank 投资 870 亿美元建设法国 AI 数据中心](https://www.tomshardware.com/tech-industry/softbank-to-spend-up-to-75-billion-on-french-ai-data-centers) —— SoftBank 利用法国核电优势，计划建设 5GW 数据中心，但自身负债超 1300 亿美元，资金链存疑。
+- [SoftBank计划投资870亿美元建设法国AI数据中心](https://www.tomshardware.com/tech-industry/softbank-to-spend-up-to-75-billion-on-french-ai-data-centers) —— SoftBank利用法国核电优势，计划建设5GW数据中心容量，但自身背负1300亿美元债务，资金来源存疑。
   _Tom's Hardware_
-- [韩国 5 月芯片出口 372 亿美元创历史新高](https://wallstreetcn.com/articles/3773558) —— AI 芯片需求驱动韩国出口同比飙升 53.2%，三星和 SK Hynix 坐享红利，但周期性风险需警惕。
+- [韩国5月芯片出口372亿美元创历史新高](https://wallstreetcn.com/articles/3773558) —— AI芯片需求驱动韩国5月芯片出口同比暴增近3倍至372亿美元，三星和SK海力士是最大受益者。
   _华尔街见闻_
-- [AMD 确认 AM5 支持至 2029 年，重推 5800X3D 和 7700X3D](https://www.tomshardware.com/pc-components/cpus/amd-confirms-am5-support-through-2029-zen-4-and-5-platform-will-likely-see-two-more-generations-at-least) —— AMD 延长 AM5 寿命至 2029 年，并重新推出 5800X3D 和 7700X3D 应对涨价，对 DIY 玩家是利好。
-  _Tom's Hardware_
+- [英特尔在印度投33亿美元建玻璃基板工厂](https://wallstreetcn.com/articles/3773568) —— 英特尔联手3DGS在印度建设玻璃基板工厂，年产能7万片，与台积电、三星争夺下一代AI芯片封装材料市场。
+  _华尔街见闻_
 
 ### 大厂 AI 动态
 
-- [微软 Surface Laptop Ultra 首发搭载 RTX Spark](https://www.theverge.com/tech/940584/microsoft-surface-laptop-ultra-nvidia-rtx-spark-pictures) —— 微软再次押注 Arm+Nvidia，Surface Laptop Ultra 配备 RTX Spark，128GB 内存，但定价未公布。
-  _The Verge_
-- [Meta 正在开发 AI 挂坠](https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/) —— Meta 继续押注 AI 硬件，AI 挂坠可能是 Ray-Ban 眼镜后的新形态，但具体功能未披露。
+- [GitHub Copilot改用Token计费引发开发者不满](https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/) —— GitHub Copilot从固定订阅转为Token计费，开发者普遍认为成本将大幅上升，'黄金时代'或终结。
   _TechCrunch_
-- [Google Gemini Spark 24/7 AI 助手实测：有用但为何独立成产品？](https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/) —— Gemini Spark 可自动处理收件箱摘要和本地活动规划，但作为独立产品定位模糊。
+- [Meta正在开发AI挂坠硬件](https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/) —— Meta继Ray-Ban眼镜后，据报正在开发AI挂坠，可能集成语音助手和摄像头，但产品形态和发布时间未定。
+  _TechCrunch_
+- [Google Gemini Spark 24/7 AI助手实测：实用但定位尴尬](https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/) —— Gemini Spark作为独立AI助手应用，能自动处理收件箱摘要和日程，但为何不直接集成到现有Google服务中令人费解。
   _TechCrunch_
 
 ### 股票
 
-- [MiniMax 发布 M3 旗舰模型：12 小时复现 ICLR 获奖论文](https://wallstreetcn.com/articles/3773560) —— MiniMax 在科创板 IPO 辅导后推出 M3，首次实现编程+1M 上下文+原生多模态，Agent 能力显著提升。
+- [高盛：对冲基金以半年最快速度追涨美股](https://wallstreetcn.com/articles/3773578) —— 对冲基金净买入规模创六个月新高，多空净杠杆率升至55.3%，金融股获显著净买入，工业股空头敞口高位。
   _华尔街见闻_
-- [美团 Q1 营收 910 亿超预期，但竞争加剧导致核心业务转亏](https://wallstreetcn.com/articles/3773571) —— 美团营收增长 5.6% 超预期，但营销开支激增 51%，核心本地商业由盈转亏，AI 投入加码。
+- [宇树科技73天极速IPO过会，估值至少420亿元](https://wallstreetcn.com/articles/3773573) —— 具身智能第一股宇树科技从申报到过会仅73天，估值超420亿元，反映资本市场对人形机器人的狂热。
   _华尔街见闻_
 
 ### 金融
 
-- [美国通胀升至 3.8%，伊朗战争推高能源成本](https://www.bbc.com/news/articles/c202pgxx89lo) —— 伊朗战争导致能源价格飙升，美国通胀反弹至 3.8%，美联储降息预期进一步推迟。
+- [美国通胀升至3.8%，伊朗战争推高能源成本](https://www.bbc.com/news/articles/c202pgxx89lo) —— 美国4月通胀反弹至3.8%，伊朗战争导致能源价格飙升，美联储降息预期进一步推迟。
   _BBC_
-- [微软内部数据：使用 AI 比雇佣人类更贵](https://finance.yahoo.com/sectors/technology/articles/microsoft-data-suggests-using-ai-225900743.html) —— 微软研究发现，当前 AI 替代人类在某些任务上成本更高，AI 降本增效的叙事需谨慎看待。
+- [特斯拉锂精炼厂每日排放23.1万加仑污染废水](https://www.autonocion.com/us/tesla-lithium-refinery-texas/) —— 特斯拉德州锂精炼厂被曝每日排放23.1万加仑污染废水，环保组织呼吁调查，可能影响其ESG评级。
+  _Autonocion_
+- [微软内部数据：使用AI比雇佣人类更昂贵](https://finance.yahoo.com/sectors/technology/articles/microsoft-data-suggests-using-ai-225900743.html) —— 微软内部研究显示，在某些任务上AI的成本高于人工，挑战了'AI降本'的主流叙事。
   _Yahoo Finance_
-
-### AI
-
-- [B 站热门：锐评 32 个 AI 编程工具从夯到拉](http://www.bilibili.com/video/av116578532200786) —— 鱼皮一口气实测 32 个 AI 编程工具，从 Cursor 到 CodeBuddy，帮你快速找到适合自己的工具。
-  _程序员鱼皮_
 
 ---
 

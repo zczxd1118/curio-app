@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "domain-17",
   "topic_id": "default",
-  "fetched_at": "2026-06-01T10:45:05.723404+00:00",
+  "fetched_at": "2026-06-01T11:33:38.353152+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 6,
+    "HN · Nvidia": 7,
     "HN · semiconductor": 4,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 32,
+  "total": 33,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -408,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48352939"
       },
       "duration_sec": null,
-      "views": 77,
+      "views": 82,
       "comments": 66,
       "published_at": "2026-06-01T05:24:40+00:00",
       "summary": "",
@@ -487,6 +487,25 @@
       "views": 21,
       "comments": 0,
       "published_at": "2026-05-26T19:21:02+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48352693",
+      "title": "A powerful new chapter for Windows PCs, accelerated by Nvidia RTX Spark",
+      "url": "https://blogs.windows.com/windowsexperience/2026/05/31/introducing-a-powerful-new-chapter-for-windows-pcs-accelerated-by-nvidia-rtx-spark/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48352693",
+        "name": "WalterSobchak",
+        "hn_url": "https://news.ycombinator.com/item?id=48352693"
+      },
+      "duration_sec": null,
+      "views": 19,
+      "comments": 16,
+      "published_at": "2026-06-01T04:45:20+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

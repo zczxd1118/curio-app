@@ -2,29 +2,29 @@
 
 > 今日 1 条头条 + 4 条备选
 
-_今天 Computex 2026 开幕，英伟达正式发布 RTX Spark 超级芯片，联手微软将 Windows 变成 Agentic AI OS，这是 PC 产业的分水岭。同时，宇树科技 73 天闪电过会，A 股具身智能第一股即将诞生。AI 编程工具赛道持续内卷，Claude Code vs Codex 实测对比出炉。_
+_今天Computex 2026开幕，NVIDIA正式发布RTX Spark超级芯片，标志着AI PC进入新纪元。同时，OpenAI数学突破解决80年难题，AI能力边界再拓宽。但企业AI支出开始理性化，Token经济学遭遇挑战。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. 英伟达发布 RTX Spark 超级芯片：20核Arm CPU + Blackwell GPU，128GB统一内存，Windows 变身 Agentic AI OS
+### 1. NVIDIA发布RTX Spark超级芯片：20核Arm CPU + Blackwell GPU，128GB统一内存，Windows变身Agentic AI OS
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-Computex 2026 首日，黄仁勋正式揭晓 RTX Spark 平台。这不是又一款 GPU，而是一颗完整的 SoC——20 核 Arm CPU 搭配 6144 CUDA 核心的 Blackwell GPU，最高 128GB 统一内存，目标是把本地 AI 推理和 Agent 能力塞进笔记本和桌面。微软同步推出 Surface Laptop Ultra 首发搭载，Windows 终于有了真正能跑大模型的本地硬件。
+Computex 2026首日，黄仁勋正式推出RTX Spark超级芯片，这是NVIDIA首次将Arm CPU与Blackwell GPU集成到消费级SoC中。微软同步发布Surface Laptop Ultra首发搭载，最高128GB统一内存。这不是又一款AI PC——这是PC架构的转折点。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| RTX Spark 采用 20 核 Arm CPU + Blackwell GPU，CUDA 核心数 6144，匹配桌面 RTX 5070 级别 | RTX Spark 能否真正挑战苹果 Mac 系列在本地 AI 推理上的地位，取决于软件生态和开发者支持 |
-| 最高 128GB 统一内存，支持本地运行大模型推理 | 128GB 统一内存对个人开发者跑 70B 模型够用，但多卡扩展性未知 |
-| 微软 Surface Laptop Ultra 首发搭载，配备 15 英寸 mini-LED PixelSense Ultra 显示屏 | Intel 和 AMD 如何应对 Arm 架构入侵 PC 市场，x86 生态护城河是否会被突破 |
-| 英伟达公布三代路线图：当前 Rubin（LPDDR6），后续 Rosa、Feynman | 定价尚未公布，若过高可能仅限高端市场，难以普及 |
-| 与微软联合宣布 Windows 将深度集成 Agentic AI 能力 | Agentic AI OS 的具体形态和用户体验还需实测验证 |
+| RTX Spark采用20核Arm CPU + 6144 CUDA核心Blackwell GPU | x86生态是否会被Arm+GPU组合侵蚀？Intel已表示'警惕' |
+| 最高128GB统一内存，支持本地运行大模型 | 128GB统一内存的实际推理性能尚未有第三方评测 |
+| 微软Surface Laptop Ultra首发，Dell、HP、联想等同步跟进 | 开发者生态迁移成本：CUDA on Arm的兼容性待验证 |
+| NVIDIA公布三代路线图：Rubin（LPDDR6）→ Rosa → Feynman | 定价未公布，若高于$2000可能影响消费级普及 |
+|  | Agentic AI OS的具体体验与现有Windows AI功能差异不明 |
 
 **📖 主编点评**
 
-如果你在做 AI Agent 或个人 Side Project，RTX Spark 意味着你可以在笔记本上本地跑大模型推理，不再依赖云端 API。这对你的 content-curator 项目是利好——本地部署 RAG 和 Agent 的硬件门槛大幅降低。建议关注 Surface Laptop Ultra 的评测，特别是统一内存带宽和实际推理速度。
+如果你在做AI Agent项目，RTX Spark意味着你可以在笔记本上本地跑70B模型。建议关注Surface Laptop Ultra的评测，特别是MCP Server在Arm上的运行效率。这对你的content-curator项目是个潜在的部署平台——本地运行LLM做摘要，不再依赖API。
 
 📺 [打开原文](https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory)
 
@@ -32,14 +32,14 @@ Computex 2026 首日，黄仁勋正式揭晓 RTX Spark 平台。这不是又一�
 
 ## 📋 备选阅读
 
-- [Intel Xeon 6+ Clearwater Forest：288 核，18A 工艺数据中心 CPU](https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel) —— Intel 在 Computex 上展示 288 核 Clearwater Forest，18A 工艺，单线程比 AMD 192 核 Epyc 快 30%，但量产时间未定。
+- [Intel Crescent Island AI GPU：480GB LPDDR5X内存，专为推理优化](https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex) —— Intel在Computex上公布了Crescent Island AI GPU细节，480GB LPDDR5X内存直击AI推理内存瓶颈，但量产时间未定，短期对市场影响有限。
   _Tom's Hardware_
-- [SoftBank 投资 870 亿美元建设法国 AI 数据中心](https://www.tomshardware.com/tech-industry/softbank-to-spend-up-to-75-billion-on-french-ai-data-centers) —— SoftBank 利用法国核电优势，计划建设 5GW 数据中心，但自身负债超 1300 亿美元，资金链存疑。
+- [SoftBank计划投资870亿美元建设法国AI数据中心](https://www.tomshardware.com/tech-industry/softbank-to-spend-up-to-75-billion-on-french-ai-data-centers) —— SoftBank利用法国核电优势，计划建设5GW数据中心容量，但自身背负1300亿美元债务，资金来源存疑。
   _Tom's Hardware_
-- [韩国 5 月芯片出口 372 亿美元创历史新高](https://wallstreetcn.com/articles/3773558) —— AI 芯片需求驱动韩国出口同比飙升 53.2%，三星和 SK Hynix 坐享红利，但周期性风险需警惕。
+- [韩国5月芯片出口372亿美元创历史新高](https://wallstreetcn.com/articles/3773558) —— AI芯片需求驱动韩国5月芯片出口同比暴增近3倍至372亿美元，三星和SK海力士是最大受益者。
   _华尔街见闻_
-- [AMD 确认 AM5 支持至 2029 年，重推 5800X3D 和 7700X3D](https://www.tomshardware.com/pc-components/cpus/amd-confirms-am5-support-through-2029-zen-4-and-5-platform-will-likely-see-two-more-generations-at-least) —— AMD 延长 AM5 寿命至 2029 年，并重新推出 5800X3D 和 7700X3D 应对涨价，对 DIY 玩家是利好。
-  _Tom's Hardware_
+- [英特尔在印度投33亿美元建玻璃基板工厂](https://wallstreetcn.com/articles/3773568) —— 英特尔联手3DGS在印度建设玻璃基板工厂，年产能7万片，与台积电、三星争夺下一代AI芯片封装材料市场。
+  _华尔街见闻_
 
 ---
 

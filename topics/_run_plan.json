@@ -1,5 +1,5 @@
 {
-  "prepared_at": "2026-06-01 06:41",
+  "prepared_at": "2026-06-01 11:32",
   "domains": [
     {
       "domain": "ai",
@@ -8,14 +8,6 @@
       "candidates_file": "/home/runner/work/curio-app/curio-app/topics/ai.candidates.json",
       "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/ai.score-prompt.md",
       "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/ai.scored.json"
-    },
-    {
-      "domain": "finance",
-      "domain_name": "AI 商业 / 投融资",
-      "slug": "finance",
-      "candidates_file": "/home/runner/work/curio-app/curio-app/topics/finance.candidates.json",
-      "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/finance.score-prompt.md",
-      "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/finance.scored.json"
     },
     {
       "domain": "semiconductor",
@@ -40,11 +32,27 @@
       "candidates_file": "/home/runner/work/curio-app/curio-app/topics/stock.candidates.json",
       "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/stock.score-prompt.md",
       "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/stock.scored.json"
+    },
+    {
+      "domain": "finance-fed",
+      "domain_name": "金融",
+      "slug": "finance-fed",
+      "candidates_file": "/home/runner/work/curio-app/curio-app/topics/finance-fed.candidates.json",
+      "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/finance-fed.score-prompt.md",
+      "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/finance-fed.scored.json"
+    },
+    {
+      "domain": "domain-17",
+      "domain_name": "电子信息与芯片",
+      "slug": "domain-17",
+      "candidates_file": "/home/runner/work/curio-app/curio-app/topics/domain-17.candidates.json",
+      "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/domain-17.score-prompt.md",
+      "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/domain-17.scored.json"
     }
   ],
   "unified": {
     "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/unified.score-prompt.md",
     "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/unified.scored.json",
-    "candidates_count": 221
+    "candidates_count": 249
   }
 }

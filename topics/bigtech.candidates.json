@@ -2,7 +2,7 @@
   "domain": "大厂 AI 动态",
   "domain_id": "bigtech",
   "topic_id": "default",
-  "fetched_at": "2026-06-01T10:44:46.652799+00:00",
+  "fetched_at": "2026-06-01T11:33:19.477747+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -29,6 +29,23 @@
   ],
   "total": 160,
   "items": [
+    {
+      "id": "rss:https://www.theverge.com/gadgets/940794/first-nvidia-rtx-spark-laptops-roundup-computex-2026",
+      "title": "These are the first Nvidia RTX Spark laptops",
+      "url": "https://www.theverge.com/gadgets/940794/first-nvidia-rtx-spark-laptops-roundup-computex-2026",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Jess Weatherbed",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T11:29:52+00:00",
+      "summary": "Nvidia has officially entered the world of consumer laptop chips with the RTX Spark, and several device makers already have hardware lined up for it. Microsoft, Asus, HP, MSI, Lenovo, and Dell are expected to launch RTX Spark laptops sometime this fall, and some of those partner companies have shared details about what we can [&#8230;]",
+      "lang": "en"
+    },
     {
       "id": "rss:https://www.theverge.com/games/940722/asus-xbox-ally-x20-special-edition-oled-screen",
       "title": "Asus just announced the OLED Xbox Ally X of my dreams",
@@ -180,23 +197,6 @@
       "views": null,
       "published_at": "2026-05-31T19:28:11+00:00",
       "summary": "The A Minecraft Movie sequel officially has a title: A Minecraft Movie Squared. What's more, we now know that Kirsten Dunst will star as Alex, the game's female character option, and that Matt Berry is set to play an even bigger role in this film. He voiced Nitwit in the first movie, but in this [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.theverge.com/entertainment/940449/feeble-little-horse-bitknot-music-album-review",
-      "title": "Feeble Little Horse leans into digital weirdness on bitknot",
-      "url": "https://www.theverge.com/entertainment/940449/feeble-little-horse-bitknot-music-album-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Terrence O’Brien",
-        "feed_title": "The Verge"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-31T16:00:00+00:00",
-      "summary": "From the opening moments of bitknot, it's obvious that Feeble Little Horse has found an entirely new gear. Where on Girl with Fish the blown-out textures were more '90s indie rock and shoegaze, on their latest LP, there's a more modern edge to the distortion and the riffs cut cleaner. Similarly, where the digital glitchiness [&#8230;]",
       "lang": "en"
     },
     {
@@ -710,6 +710,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/",
+      "title": "An OpenAI model solved a famous math problem that stumped humans for 80 years",
+      "url": "https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Kai Williams",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T11:00:00+00:00",
+      "summary": "I tried to explain OpenAI’s solution more clearly than OpenAI did.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://arstechnica.com/culture/2026/05/on-its-40th-anniversary-we-reassess-1986s-spacecamp/",
       "title": "On its 40th anniversary, we reassess 1986's SpaceCamp",
       "url": "https://arstechnica.com/culture/2026/05/on-its-40th-anniversary-we-reassess-1986s-spacecamp/",
@@ -1033,25 +1050,25 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arstechnica.com/ai/2026/05/llms-believe-false-statements-even-after-explicit-warnings-that-theyre-false/",
-      "title": "LLMs believe false statements even after explicit warnings that they're false",
-      "url": "https://arstechnica.com/ai/2026/05/llms-believe-false-statements-even-after-explicit-warnings-that-theyre-false/",
+      "id": "rss:https://www.producthunt.com/products/sentinel-10",
+      "title": "Sentinel",
+      "url": "https://www.producthunt.com/products/sentinel-10",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Kyle Orland",
-        "feed_title": "Ars Technica"
+        "id": "https://www.producthunt.com/feed",
+        "name": "Ary Indarapu",
+        "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-28T21:29:43+00:00",
-      "summary": "Fine-tuning tests show \"bias... toward confidently representing the claims as true.\"",
+      "published_at": "2026-05-29T15:04:29+00:00",
+      "summary": "Control your robots from anywhere in the world Discussion | Link",
       "lang": "en"
     },
     {
       "id": "rss:https://www.producthunt.com/products/mina-meeting-assistant",
-      "title": "Mina - Meeting Assistant",
+      "title": "Mina",
       "url": "https://www.producthunt.com/products/mina-meeting-assistant",
       "platform": "rss",
       "source": {
@@ -1067,71 +1084,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/joanium-2",
-      "title": "Joanium",
-      "url": "https://www.producthunt.com/products/joanium-2",
+      "id": "rss:https://www.producthunt.com/products/socialecho",
+      "title": "SocialEcho 2.0",
+      "url": "https://www.producthunt.com/products/socialecho",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Joel Jolly",
+        "name": "Chris Messina",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-21T10:19:14+00:00",
-      "summary": "Local AI workspace to build and work with your computer Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/open-caffeine",
-      "title": "Open Caffeine",
-      "url": "https://www.producthunt.com/products/open-caffeine",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Hoon Choi",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T03:48:12+00:00",
-      "summary": "Keep your Mac awake Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/tokenwise",
-      "title": "Tokenwise",
-      "url": "https://www.producthunt.com/products/tokenwise",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Théophile Louvart",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-31T14:36:39+00:00",
-      "summary": "A smart LLM proxy that shows where you're overpaying Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/dune-4",
-      "title": "Dune Keypad",
-      "url": "https://www.producthunt.com/products/dune-4",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Rohan Chaubey",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-21T13:04:56+00:00",
-      "summary": "Context-aware Mac keypad, w/ Claude + community extensions Discussion | Link",
+      "published_at": "2026-05-27T16:57:27+00:00",
+      "summary": "AI social media copilot for teams and agents Discussion | Link",
       "lang": "en"
     },
     {
@@ -1169,74 +1135,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/presentify",
-      "title": "Presentify",
-      "url": "https://www.producthunt.com/products/presentify",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Ram Patra",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-18T08:28:43+00:00",
-      "summary": "Take your presentation skills to the next level Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/co-desk",
-      "title": "Emily by Co-Desk",
-      "url": "https://www.producthunt.com/products/co-desk",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Rafael Romano",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-29T10:21:55+00:00",
-      "summary": "Voice AI copilot for coworking & coliving operators Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/r0y-ai-financial-studio",
-      "title": "R0Y OMNI 1.0",
-      "url": "https://www.producthunt.com/products/r0y-ai-financial-studio",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Bryan Liu",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-31T19:03:57+00:00",
-      "summary": "Generate more accurate investment dashboards and reports Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/sentinel-10",
-      "title": "Sentinel",
-      "url": "https://www.producthunt.com/products/sentinel-10",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Ary Indarapu",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-29T15:04:29+00:00",
-      "summary": "Control your robots from anywhere in the world Discussion | Link",
-      "lang": "en"
-    },
-    {
       "id": "rss:https://www.producthunt.com/products/tabstack",
       "title": "Tabstack Web Research",
       "url": "https://www.producthunt.com/products/tabstack",
@@ -1254,105 +1152,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/skylive",
-      "title": "Skylive",
-      "url": "https://www.producthunt.com/products/skylive",
+      "id": "rss:https://www.producthunt.com/products/open-caffeine",
+      "title": "Open Caffeine",
+      "url": "https://www.producthunt.com/products/open-caffeine",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Samuel Angel Gallo Ocampo",
+        "name": "Hoon Choi",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-31T23:30:09+00:00",
-      "summary": "Never miss a celestial event, anywhere on Earth Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/socialecho",
-      "title": "SocialEcho 2.0",
-      "url": "https://www.producthunt.com/products/socialecho",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Chris Messina",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-27T16:57:27+00:00",
-      "summary": "AI social media copilot for teams and agents Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/folk-3",
-      "title": "folk",
-      "url": "https://www.producthunt.com/products/folk-3",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Garry Tan",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-25T21:24:24+00:00",
-      "summary": "the AI in your texts that gets stuff done Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/stella-4",
-      "title": "Stella",
-      "url": "https://www.producthunt.com/products/stella-4",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Senan Gaffori",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-31T21:46:27+00:00",
-      "summary": "Local natural language search across all your files Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma",
-      "title": "Paint By JSON | Figma API Client",
-      "url": "https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Rob McLoughlin",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-31T21:45:07+00:00",
-      "summary": "Real API data in your mockups made as easy as lorem ipsum. Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/mistral-7b",
-      "title": "Mistral Vibe",
-      "url": "https://www.producthunt.com/products/mistral-7b",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Zac Zuo",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T03:25:48+00:00",
-      "summary": "I agent for long-running, multi-step work and coding Discussion | Link",
+      "published_at": "2026-06-01T03:48:12+00:00",
+      "summary": "Keep your Mac awake Discussion | Link",
       "lang": "en"
     },
     {
@@ -1373,6 +1186,193 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.producthunt.com/products/skylive",
+      "title": "Skylive",
+      "url": "https://www.producthunt.com/products/skylive",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Samuel Angel Gallo Ocampo",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T23:30:09+00:00",
+      "summary": "Never miss a celestial event, anywhere on Earth Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/tokenwise",
+      "title": "Tokenwise",
+      "url": "https://www.producthunt.com/products/tokenwise",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Théophile Louvart",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T14:36:39+00:00",
+      "summary": "A smart LLM proxy that shows where you're overpaying Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/presentify",
+      "title": "Presentify",
+      "url": "https://www.producthunt.com/products/presentify",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Ram Patra",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-18T08:28:43+00:00",
+      "summary": "Take your presentation skills to the next level Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/joanium-2",
+      "title": "Joanium",
+      "url": "https://www.producthunt.com/products/joanium-2",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Joel Jolly",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-21T10:19:14+00:00",
+      "summary": "Local AI workspace to build and work with your computer Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/folk-3",
+      "title": "folk",
+      "url": "https://www.producthunt.com/products/folk-3",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Garry Tan",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-25T21:24:24+00:00",
+      "summary": "the AI in your texts that gets stuff done Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma",
+      "title": "Paint By JSON | Figma API Client",
+      "url": "https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Rob McLoughlin",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T21:45:07+00:00",
+      "summary": "Real API data in your mockups made as easy as lorem ipsum. Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/co-desk",
+      "title": "Emily by Co-Desk",
+      "url": "https://www.producthunt.com/products/co-desk",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Rafael Romano",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T10:21:55+00:00",
+      "summary": "Voice AI copilot for coworking & coliving operators Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/stella-4",
+      "title": "Stella",
+      "url": "https://www.producthunt.com/products/stella-4",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Senan Gaffori",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T21:46:27+00:00",
+      "summary": "Local natural language search across all your files Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/dune-4",
+      "title": "Dune Keypad",
+      "url": "https://www.producthunt.com/products/dune-4",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Rohan Chaubey",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-21T13:04:56+00:00",
+      "summary": "Context-aware Mac keypad, w/ Claude + community extensions Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/mistral-7b",
+      "title": "Mistral Vibe",
+      "url": "https://www.producthunt.com/products/mistral-7b",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Zac Zuo",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T03:25:48+00:00",
+      "summary": "I agent for long-running, multi-step work and coding Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/r0y-ai-financial-studio",
+      "title": "R0Y OMNI 1.0",
+      "url": "https://www.producthunt.com/products/r0y-ai-financial-studio",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Bryan Liu",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T19:03:57+00:00",
+      "summary": "Generate more accurate investment dashboards and reports Discussion | Link",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.producthunt.com/products/networkspy",
       "title": "NetworkSpy",
       "url": "https://www.producthunt.com/products/networkspy",
@@ -1387,57 +1387,6 @@
       "views": null,
       "published_at": "2026-05-30T01:55:12+00:00",
       "summary": "HTTP(s) proxy debugger with custom viewer Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/second-brain-cloudflare",
-      "title": "Second Brain for AI",
-      "url": "https://www.producthunt.com/products/second-brain-cloudflare",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "fmerian",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-20T06:21:04+00:00",
-      "summary": "Persistent memory for Claude, ChatGPT & Cursor. Free. Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/clipto-ai",
-      "title": "Clipto",
-      "url": "https://www.producthunt.com/products/clipto-ai",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Chris Messina",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-04-27T10:29:24+00:00",
-      "summary": "Fully local, natural language search over terabytes of media Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/marqly",
-      "title": "Marqly 5.0",
-      "url": "https://www.producthunt.com/products/marqly",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Kim",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-30T09:30:11+00:00",
-      "summary": "Your AI-powered bookmark manager Discussion | Link",
       "lang": "en"
     },
     {
@@ -1458,20 +1407,54 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/oura",
-      "title": "Oura Ring 5",
-      "url": "https://www.producthunt.com/products/oura",
+      "id": "rss:https://www.producthunt.com/products/second-brain-cloudflare",
+      "title": "Second Brain for AI",
+      "url": "https://www.producthunt.com/products/second-brain-cloudflare",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Zac Zuo",
+        "name": "fmerian",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-30T18:05:21+00:00",
-      "summary": "The world’s smallest smart ring, now even better Discussion | Link",
+      "published_at": "2026-05-20T06:21:04+00:00",
+      "summary": "Persistent memory for Claude, ChatGPT & Cursor. Free. Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/marqly",
+      "title": "Marqly 5.0",
+      "url": "https://www.producthunt.com/products/marqly",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Kim",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T09:30:11+00:00",
+      "summary": "Your AI-powered bookmark manager Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/clipto-ai",
+      "title": "Clipto",
+      "url": "https://www.producthunt.com/products/clipto-ai",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Chris Messina",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-27T10:29:24+00:00",
+      "summary": "Fully local, natural language search over terabytes of media Discussion | Link",
       "lang": "en"
     },
     {
@@ -1489,6 +1472,23 @@
       "views": null,
       "published_at": "2026-05-09T19:31:45+00:00",
       "summary": "Your ultimate NotebookLM's Chrome Extension Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/oura",
+      "title": "Oura Ring 5",
+      "url": "https://www.producthunt.com/products/oura",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Zac Zuo",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T18:05:21+00:00",
+      "summary": "The world’s smallest smart ring, now even better Discussion | Link",
       "lang": "en"
     },
     {
@@ -1543,21 +1543,55 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/wingbits-ai",
-      "title": "Wingbits AI",
-      "url": "https://www.producthunt.com/products/wingbits-ai",
+      "id": "rss:https://www.producthunt.com/products/openstatus-2",
+      "title": "Openstatus MCP Health Checker",
+      "url": "https://www.producthunt.com/products/openstatus-2",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Ben Lang",
+        "name": "fmerian",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-11T19:20:03+00:00",
-      "summary": "AI agents for real-time aircraft monitoring and alerts Discussion | Link",
+      "published_at": "2026-05-28T14:14:25+00:00",
+      "summary": "Test MCP servers like a real AI client, not just a ping Discussion | Link",
       "lang": "en"
+    },
+    {
+      "id": "rss:https://36kr.com/p/3826034537223043?f=rss",
+      "title": "量坤科技获数亿元天使轮融资，AI4S急需量子级精度数据 | 36氪独家",
+      "url": "https://36kr.com/p/3826034537223043?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T11:06:39+00:00",
+      "summary": "「暗涌Waves」独家获悉，量子计算公司「量坤科技」近日完成数亿元人民币天使轮、天使+轮融资。本轮系列融资由英诺天使基金领投，国汽投资、北工投资、BV百度风投、水木清华校友基金、明势创投等多家机构参与投资。光源资本担任独家财务顾问。 这笔融资背后，是一个逐渐清晰的判断：AI for Science需要量子计算。 AI可以学习规律，但模型能力上限，受制于它所见过世界的“分辨率”。在化学、材料与医药等研发场景中，如果底层数据的精度不够，模型预测结果也会显著受限。 量子计算，天然适合模拟分子结构、化学键等体系。作为一种高精度求解器，它有可能输出更接近物理世界规律的计算结果；计算产出的量子级高精度数据，也是AI4S提升模型表现的一个关键。 量坤科技成立于2026年1月，创始人吕定顺在华为、字节跳动AI4S Lab工作七年，带领团队探索量子计算的能力边界。再往前，他是清华大学最早一批量子计算方向博士，深度参与基于离子阱量子计算系统的搭建。 过去，凭借“硬件不足，软件先行”的路径，吕定顺在大厂拿到过许多结果。在他看来，量子技术、AI和高性能计算融合的异构智算平台，能够在应用层，最大化有限量子算力的...",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/p/3834354415347337?f=rss",
+      "title": "氪星晚报｜中国国新等在杭州成立创业投资基金，出资额10.01亿；天津人工智能传感器产业园正式开园，首批10家企业集中签约；浙江：拟实施“星火计划”培育未来产业行动，加速量子技术产品规模化应用",
+      "url": "https://36kr.com/p/3834354415347337?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T10:56:21+00:00",
+      "summary": "大公司： 中通快递在广州成立新物流公司，注册资本5亿 36氪获悉，天眼查App显示，近日，广州中竞物流有限公司成立，法定代表人为范嘉玮，注册资本5亿人民币，经营范围包括国内货物运输代理、机械设备租赁、计算机系统服务等。股东信息显示，该公司由中通快递股份有限公司全资持股。 OpenAI官宣进军机器人赛道，短期内专注研发协助型机器人 OpenAI CEO山姆·奥特曼在社交平台发布OpenAI Robotics招聘信息，称公司正在寻找杰出的全栈硬件、运营、系统及机器学习工程师，共同编程并制造对社会真正有用的机器人。奥特曼表示，人工智能应当能够在现实世界中帮助人类。短期内，OpenAI专注于研发能够协助技术工人建设未来基础设施的机器人；长远来看，公司设想未来的每个人都能拥有一个可以完成各种需求的个人机器人。奥特曼透露，OpenAI的世界模拟研究项目在过去一年中发展迅速，现演变为OpenAI Robotics。项目由阿迪亚·拉梅什领导，目前的进展十分迅猛，其根基在于机器人硬件研究与机器学习研究的深度融合与协同设计。（界面） 正泰南尔获评2026浙江省青年科技型企业家 近日，2026浙江省科技型企...",
+      "lang": "zh"
     },
     {
       "id": "rss:https://36kr.com/p/3834276149356420?f=rss",
@@ -1696,9 +1730,9 @@
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3833859545343618?f=rss",
-      "title": "8点1氪丨停服三年后，天涯社区正式恢复访问；广东辟谣高考将用AI改卷；MiniMax拟科创板上市",
-      "url": "https://36kr.com/p/3833859545343618?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3834536817880704?f=rss",
+      "title": "《北京市卫星物联网产业发展规划（框架）》发布",
+      "url": "https://36kr.com/newsflashes/3834536817880704?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1708,14 +1742,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-01T00:05:59+00:00",
-      "summary": "今日热点导览 OpenAI称使用AI攻克“80岁”数学难题 亚马逊：关停词元跟踪榜单 马斯克辟谣SpaceX估值下调 三花智控高管“为孩子教育”减持套现超4.3亿 哈根达斯中国被曝将被柠季收购 TOP 3大新闻 天涯社区正式恢复访问 6月1日起，天涯社区正式恢复访问。据“天涯社区”官方微博发布的《关于天涯社区恢复访问进展的情况说明》，自2023年4月1日起，天涯社区因电信IDC欠费而暂停访问。为了确保涉及上亿用户的天涯数据完整存续以及天涯社区的恢复访问，三年来，天涯社区重启团队持续不懈地展开自救。今年2月份，在新天涯联合工作组的支持下，确立了推进2026年6月1日前恢复天涯社区访问的方案。此外，天涯社区数据迁移仍在等待相关审批流程，根据当前的进程，天涯社区整体数据恢复将在6月份内完成。另外，由于种种原因，tianya.cn域名暂时无法使用。6月1日零时起，www.tianya.net正式开放访问，将首先实现部分天涯社区精华帖子的浏览功能。 据了解，天涯社区是中国互联网早期最著名的论坛之一，创办于1999年，最初是炒股爱好者邢明用来交流和学习的股票论坛，后聚集了许多高质量网友与内容，《鬼...",
+      "published_at": "2026-06-01T11:32:33+00:00",
+      "summary": "6月1日，北京市卫星物联网行业发展大会在海淀举办。会上，北京市经济和信息化局航空航天产业处处长周斌发布《北京市卫星物联网产业发展规划（框架）》。按照规划，北京力争2030年建成全国首个卫星互联网示范城市、产业集聚区与全球知名创新高地。规划同时部署五大重点工作，从基础设施建设、核心技术攻关、应用场景培育、产业生态构建，到区域协同与国际化发展全面发力，推动产业提质增效。（证券时报）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3831348302358408?f=rss",
-      "title": "当美妆品牌走进运动场：欧莱雅把校园公益做成了一场“运动实验”｜最前线",
-      "url": "https://36kr.com/p/3831348302358408?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3834533163036291?f=rss",
+      "title": "消息称SpaceX保留最多5%的IPO A类股份，供特定人士认购",
+      "url": "https://36kr.com/newsflashes/3834533163036291?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1725,8 +1759,144 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-30T05:33:05+00:00",
-      "summary": "5月29日，欧莱雅中国在复旦大学启动2026年度“有意思青年”高校公益计划，并首次以校园运动会形式开启新一年的项目活动。活动现场，乒乓球运动员马龙、篮球运动员杨力维、足球运动员赵丽娜等体育界人士与高校学生展开互动，欧莱雅同时宣布向中国青少年发展基金会捐赠总价值约468万元的产品，并启动新一年度校园义卖活动。 从表面来看，这是一场校园公益活动；但放在全球美妆行业的发展背景下，它更像是美妆品牌持续拥抱运动文化和健康生活方式的一次缩影。 过去很长一段时间，美妆与运动被视为两个相对独立的消费领域。前者围绕审美表达展开，后者则强调竞技和功能价值。然而近年来，随着健康消费崛起、女性运动参与率提升以及生活方式经济快速发展，两者之间的边界正在被重新定义。 国际市场已经率先显现出这一变化。 根据尼尔森IQ（NIQ）发布的《State of Beauty 2025》报告，全球美妆市场过去一年实现约10%的增长，其中“Beauty+Wellness（美容与健康融合）”被认为是推动行业扩容的重要力量。报告指出，消费者越来越倾向于将护肤、美容、营养、运动和健康管理视为一个整体体系，相关消费机会较传统美容市场扩大...",
+      "published_at": "2026-06-01T11:28:50+00:00",
+      "summary": "消息称，SpaceX保留最多5%的IPO A类股份，供特定人士认购。（财联社）",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834530577067650?f=rss",
+      "title": "赛力斯：5月份销量36480辆，同比下降17.38%",
+      "url": "https://36kr.com/newsflashes/3834530577067650?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T11:26:12+00:00",
+      "summary": "36氪获悉，赛力斯发布5月份产销快报，5月份销量36480辆，同比下降17.38%；本年累计销量160386辆，同比增长8.18%。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834523900046979?f=rss",
+      "title": "健康元：重组人促卵泡激素注射液获得药品注册证书",
+      "url": "https://36kr.com/newsflashes/3834523900046979?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T11:19:25+00:00",
+      "summary": "36氪获悉，健康元公告，近日，控股子公司丽珠医药集团股份有限公司的子公司珠海市丽珠单抗生物技术有限公司收到国家药品监督管理局核准签发的《药品注册证书》。药品通用名称为重组人促卵泡激素注射液，商品名称为丽优宝。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834521574829698?f=rss",
+      "title": "高通美股盘前跌幅扩大至10%",
+      "url": "https://36kr.com/newsflashes/3834521574829698?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T11:17:03+00:00",
+      "summary": "36氪获悉，高通美股盘前跌幅扩大至10%。消息面上，英伟达此前宣布推出PC端“超级芯片”，与苹果、高通、英特尔及AMD展开正面角逐。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834512402624384?f=rss",
+      "title": "黄仁勋宣布：联手宇树打造1.8米参考人形机器人",
+      "url": "https://36kr.com/newsflashes/3834512402624384?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T11:07:43+00:00",
+      "summary": "6月1日，英伟达首席执行官黄仁勋宣布，英伟达已与宇树科技合作，推出新一代人形机器人参考设计H2+，也被称为Isaac GR00T系统，以加速全球人形机器人行业创新。黄仁勋在演讲中表示，这套系统已经完成整体集成。机器人本体拥有31个自由度，每只机械手拥有25个自由度，整机身高约1.8米、重量约68公斤。（红星新闻）",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834511006346888?f=rss",
+      "title": "名创优品：叶国富增持约5382.8万港元公司股份",
+      "url": "https://36kr.com/newsflashes/3834511006346888?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T11:06:18+00:00",
+      "summary": "36氪获悉，名创优品在港交所公告，公司此前披露控股股东、执行董事、董事会主席兼首席执行官叶国富计划自2026年4月23日起12个月内增持公司股份，总金额不少于5000万港元。本次叶国富于2026年5月29日及6月1日以平均价格约每股25.63港元于公开市场购买合共210万股普通股，总金额约5382.8万港元。增持后，叶国富直接及间接持有7.92亿股，占公司已发行股份约63.9%。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834505546540935?f=rss",
+      "title": "五粮液：首次回购公司股份119万股，成交总金额约1亿元",
+      "url": "https://36kr.com/newsflashes/3834505546540935?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T11:00:45+00:00",
+      "summary": "36氪获悉，五粮液公告，公司于2026年5月29日首次通过回购专用证券账户以集中竞价交易方式回购公司股份1191013股，占公司总股本的0.03%，最高成交价为85.25元/股，最低成交价为82.28元/股，成交总金额为1亿元（不含交易费用）。截至2026年5月31日，公司累计回购股份1191013股，支付总金额1亿元。本次回购符合相关法律法规及公司回购方案要求。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834499945358980?f=rss",
+      "title": "创新医疗：拟5000万元—1亿元回购股份",
+      "url": "https://36kr.com/newsflashes/3834499945358980?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T10:55:03+00:00",
+      "summary": "36氪获悉，创新医疗公告，公司拟以5000万元—1亿元回购股份，用于维护公司价值及股东权益所必需。回购价格不超过20元/股。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834491535107973?f=rss",
+      "title": "豆包6月下旬正式付费，并加速打通抖音电商",
+      "url": "https://36kr.com/newsflashes/3834491535107973?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T10:46:29+00:00",
+      "summary": "5月初旬，豆包将推出付费订阅服务的消息，引发市场广泛讨论。据36氪独家了解，以上只是豆包商业化的预热动作。在接下来的季度中，豆包将持续推进商业化的落地。知情人士透露，豆包预计将在6月下旬正式上线付费内容，并于同期举行的Force大会上更新相关功能。之所以选择这一时间节点，是因为PC端与移动端仍需约一个月时间，完成基础功能与收费体系的适配改造。据36氪了解，若进展顺利，豆包将于三季度进一步结合电商功能更新完善付费场景，并通过补贴为抖音商城进行引流，四季度进入运行期。这些动作，皆是为了面向2027年及更长期的商业化回报做准备。因此，2026年豆包将不会把付费用户的渗透率作为考察指标。",
       "lang": "zh"
     },
     {
@@ -1900,173 +2070,20 @@
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3834430118225797?f=rss",
-      "title": "国联股份等在北京成立新数智科技公司，注册资本1000万",
-      "url": "https://36kr.com/newsflashes/3834430118225797?f=rss",
+      "id": "rss:https://sspai.com/post/110547",
+      "title": "派评 | 近期值得关注的 App",
+      "url": "https://sspai.com/post/110547",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
+        "id": "https://sspai.com/feed",
+        "name": "少数派编辑部",
+        "feed_title": "少数派"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-01T09:44:01+00:00",
-      "summary": "36氪获悉，天眼查App显示，近日，北京海洋多多数智科技有限公司成立，法定代表人为纪静静，注册资本1000万人民币，经营范围包括海洋生物活性物质提取、纯化、合成技术研发等，由联达盛（北京）数智科技中心（有限合伙）、北京海洋多多科技发展中心（有限合伙）、国联股份共同持股。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834428394055303?f=rss",
-      "title": "吉利汽车：5月汽车总销量为237637部，同比增长约1%",
-      "url": "https://36kr.com/newsflashes/3834428394055303?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T09:42:16+00:00",
-      "summary": "36氪获悉，吉利汽车在港交所公告，集团于2026年5月的汽车总销量为237637部，较去年同期增长约1%。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834425869575808?f=rss",
-      "title": "甜啦啦印度尼西亚累计签约门店450家，5月带铺签约152家",
-      "url": "https://36kr.com/newsflashes/3834425869575808?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T09:39:42+00:00",
-      "summary": "36氪获悉，5月底，甜啦啦印度尼西亚累计签约门店450家，其中，5月单月新增带铺签约门店达152家，覆盖雅加达、泗水、万隆、巴厘岛、巴淡岛等城市。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834422693750408?f=rss",
-      "title": "远东股份：5月份子公司中标/签约千万元以上合同订单合计17.97亿元",
-      "url": "https://36kr.com/newsflashes/3834422693750408?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T09:36:28+00:00",
-      "summary": "36氪获悉，远东股份公告，5月份，公司收到子公司中标/签约千万元以上合同订单合计为17.97亿元，其中，国家和地方电网合同总价约4.84亿元。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834421254203271?f=rss",
-      "title": "《联合国可转让货物单证公约》将于10月开放签署",
-      "url": "https://36kr.com/newsflashes/3834421254203271?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T09:35:00+00:00",
-      "summary": "记者今天（6月1日）从商务部了解到，《联合国可转让货物单证公约》将于2026年10月26日在加纳首都阿克拉开放签署，中方将积极签约并推动《公约》早日生效。《联合国可转让货物单证公约》创设适用于各类运输方式的“可转让货物单证”，并赋予其与海运提单相同的物权凭证属性，对于推动全球贸易繁荣发展具有重要意义，将填补陆路运单物权凭证属性的国际法空白，为跨境贸易融资和全球供应链稳定提供更多保障。（央视新闻）",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834418979202947?f=rss",
-      "title": "北汽蓝谷：5月销量21871辆，同比增长27.75%",
-      "url": "https://36kr.com/newsflashes/3834418979202947?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T09:32:41+00:00",
-      "summary": "36氪获悉，北汽蓝谷发布5月份产销快报，5月销量21871辆，同比增长27.75%；本年累计销量68613辆，同比增长24.39%。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834415525439369?f=rss",
-      "title": "方大集团：拟4000万元—6000万元回购股份",
-      "url": "https://36kr.com/newsflashes/3834415525439369?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T09:29:10+00:00",
-      "summary": "36氪获悉，方大集团公告，公司拟以4000万元—6000万元回购股份，用于实施股权激励计划。回购价格不超过5.38元/股（含）。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834410925696901?f=rss",
-      "title": "机构：合约价快速上涨，第一季度DRAM产业营收季增81%",
-      "url": "https://36kr.com/newsflashes/3834410925696901?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T09:24:29+00:00",
-      "summary": "36氪获悉，根据TrendForce集邦咨询最新存储器产业调查，2026年第一季因一般型DRAM合约价加速上涨，季增幅度高达93-98%，激励产业整体营收季成长81%，达970亿美元。随着AI应用由大型语言模型训练逐步转至AI推理，云端服务供应商数据中心建设重点也从AI Server延伸至通用型Server，带动存储器采购需求由HBM3e、LPDDR5X及高容量RDIMM，扩大至各容量规格的RDIMM产品。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834408186128263?f=rss",
-      "title": "芯源微：控股子公司收到3522万元政府补助",
-      "url": "https://36kr.com/newsflashes/3834408186128263?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T09:21:42+00:00",
-      "summary": "36氪获悉，芯源微公告，控股子公司上海芯源微企业发展有限公司于近日收到单笔政府补助款项3522万元，为与收益相关的政府补助。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834401123723136?f=rss",
-      "title": "海利得：拟1.5亿元—3亿元回购股份",
-      "url": "https://36kr.com/newsflashes/3834401123723136?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T09:14:31+00:00",
-      "summary": "36氪获悉，海利得公告，公司拟以1.5亿元—3亿元回购股份，用于实施股权激励或员工持股计划。回购价格不超过6.5元/股。",
+      "published_at": "2026-06-01T09:57:27+00:00",
+      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
       "lang": "zh"
     },
     {
@@ -2220,23 +2237,6 @@
       "views": null,
       "published_at": "2026-05-29T02:57:32+00:00",
       "summary": "Android 早已具备高质量音频输出的能力，但一段声音从在抵达耳机之前，往往还要经过系统层层处理。下面我们一起探究 Android 高保真输出背后的秘密。查看全文",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://sspai.com/post/110425",
-      "title": "派早报：Sony 发布 Bravia 2026 款电视产品等",
-      "url": "https://sspai.com/post/110425",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "少数派编辑部",
-        "feed_title": "少数派"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-29T00:51:34+00:00",
-      "summary": "Anthropic 发布旗舰模型 Claude Opus 4.8，Intel 发布锐炫 G 系列处理器等。查看全文",
       "lang": "zh"
     },
     {
