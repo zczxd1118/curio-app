@@ -1,190 +1,31 @@
 {
-  "domain": "金融",
+  "domain": "AI 商业 / 投融资",
+  "domain_id": "finance",
+  "topic_id": "default",
+  "fetched_at": "2026-06-01T04:51:55.646252+00:00",
+  "platforms": [
+    "hackernews",
+    "rss"
+  ],
+  "source_stats": {
+    "Stratechery": 10,
+    "Net Interest（金融行业深度）": 20,
+    "The Information（科技公司报道）": 20,
+    "华尔街见闻 API": 19,
+    "HN · OpenAI": 7,
+    "HN · Anthropic": 10,
+    "HN · Nvidia": 0,
+    "HN · AI funding": 5,
+    "HN · 大厂财报": 0,
+    "HN · 经济宏观": 0
+  },
+  "subtopics": [
+    {
+      "name": "default"
+    }
+  ],
+  "total": 89,
   "items": [
-    {
-      "id": "hn:48192383",
-      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
-      "url": "https://github.com/antoinezambelli/forge",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48192383",
-        "name": "zambelli",
-        "hn_url": "https://news.ycombinator.com/item?id=48192383"
-      },
-      "duration_sec": null,
-      "views": 687,
-      "comments": 252,
-      "published_at": "2026-05-19T12:23:07+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en",
-      "body": "A reliability layer for self-hosted LLM tool-calling. You give forge a set of tools; the model calls whichever it wants in whatever order. Workflow structure is opt-in — `required_steps`\n\n, `prerequisites`\n\n, and `terminal_tool`\n\nlet you constrain the loop when you need to, but forge's guardrails (rescue parsing, retry nudges, response validation) apply with zero required steps too.\n\nForge takes an 8B local model from single digits to 84% across forge's 26-scenario v0.7.0 eval suite — and even lifts Sonnet 4.6 from 85% to 98% on the same workload (Anthropic numbers measured in v0.6.0; not re-run in v0.7.0 since the cost is non-trivial).\n\n**What forge isn't:**\n\n**Not an agent orchestrator.**Forge sits inside one agentic loop and makes its tool calls reliable. Multi-agent graphs, DAG planners, and cross-agent coordination are out of scope.**Not a coding harness.**Forge is domain-agnostic. If you're building a coding agent (or already using one like opencode, aider, Cline), proxy mode lifts your existing harness with forge's guardrails — no rewrite.\n\n**Three ways to use it:**\n\n-\n**Proxy server**— Drop-in proxy (`python -m forge.proxy`\n\n) speaking both the OpenAI chat-completions and Anthropic Messages (`/v1/messages`\n\n) APIs, sitting between any client and a local model server. Point OpenAI-compatible tools (opencode, Continue, aider)**or Claude Code**at it and forge applies guardrails transparently — the client thinks it's talking to a smarter model. Most popular entry point. -",
-      "title_zh": "显示HN ：锻造–护栏在代理任务中将8B模型从53%提高到99%",
-      "body_zh": "自托管LLM工具调用的可靠性层。 你给锻造一套工具；模型以任何顺序调用它想要的任何工具。 工作流程结构为选择加入— “REQUIRED_STEPS”\n\n, `先决条件`\n\n和`terminal_tool`\n\n允许您在需要时约束循环，但Forge的护栏（救援解析、重试闪屏振动、响应验证）也适用于零必需步骤。 Forge在Forge的26场景v0.7.0评估套件中将8B本地模型从单个数字提升到84% ，甚至在同一工作负载下将Sonnet 4.6从85%提升到98% （在v0.6.0中测量的人择数字；由于成本不小，因此不在v0.7.0中重新运行）。\n\n* *锻造不是什么： * *\n\n* *不是代理编排器。* * Forge位于一个代理循环内，使其工具调用可靠。 多智能体图、DAG规划器"
-    },
-    {
-      "id": "hn:48198551",
-      "title": "Tesla's lithium refinery discharges 231,000 gallons of polluted wastewater a day",
-      "url": "https://www.autonocion.com/us/tesla-lithium-refinery-texas/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48198551",
-        "name": "atombender",
-        "hn_url": "https://news.ycombinator.com/item?id=48198551"
-      },
-      "duration_sec": null,
-      "views": 498,
-      "comments": 244,
-      "published_at": "2026-05-19T19:52:49+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en",
-      "body": "Drainage district workers in Nueces County, Texas, were doing routine maintenance on a ditch outside Robstown in January 2026 when they noticed something they had not seen before. A pipe they did not recognize, stretched across an easement they oversee, was discharging dark liquid into the ditch they manage. “Very dark and murky,” is how Steve Ray, a consultant for the drainage district, described it to KRIS 6 News. “I would say it was actually black. We’re used to seeing good running water, and so we didn’t know exactly what it was.”\n\nThe pipe belonged to **Tesla**. The dark liquid was wastewater from the company’s nearly $1 billion lithium refinery, which began operations in December 2024 and was, at the time, the first commercial-scale spodumene-to-lithium-hydroxide refinery in North America. Tesla had marketed the plant for years as an “acid-free clean process,” promising sand and limestone as the main byproducts. The drainage district had not been told that 231,000 gallons of treated wastewater per day would be flowing through its infrastructure.\n\nWhat happened next, across the four months that followed, is one of the more uncomfortable storylines in the American electric vehicle supply chain right now, and almost no mainstream US automotive press has touched it.\n\n## How the drainage district found out about the pipe\n\nThe Texas Commission on Environmental Quality, the state environmental regulator known as TCEQ, had quietly issued Tesla a wastewater discharge permit on J",
-      "title_zh": "特斯拉锂精炼厂每天排放23.1万加仑污染废水",
-      "body_zh": "2026年1月，德克萨斯州Nueces县的排水区工人在罗布斯敦郊外的一条沟渠上进行例行维护时，发现了一些他们以前从未见过的东西。他们不认识的一根管子，穿过他们监督的地役权，正在将深色液体排放到他们管理的沟渠中。排水区顾问史蒂夫·雷（ Steve Ray ）向克里斯6新闻（ KRIS 6 News ）描述了“非常黑暗和模糊”。 “我会说它实际上是黑色的。 我们习惯于看到好的自来水，所以我们并不确切知道它是什么。”\n\n管道属于* *特斯拉* *。 深色液体是该公司近10亿美元的锂精炼厂的废水，该厂于2024年12月开始运营，当时是北美第一家商业规模的锂氢氧化锂精炼厂"
-    },
-    {
-      "id": "hn:48165980",
-      "title": "Tesla Solar Roof is on life support as it pivot to panels",
-      "url": "https://electrek.co/2026/05/14/tesla-solar-roof-promise-vs-reality-pivot-panels/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48165980",
-        "name": "celsoazevedo",
-        "hn_url": "https://news.ycombinator.com/item?id=48165980"
-      },
-      "duration_sec": null,
-      "views": 328,
-      "comments": 351,
-      "published_at": "2026-05-17T04:09:52+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en",
-      "body": "Tesla’s Solar Roof was supposed to revolutionize residential solar. Elon Musk unveiled the product in 2016 with the promise of beautiful solar tiles that would replace your entire roof — and he set a target of 1,000 new Solar Roofs per week by the end of 2019. Nearly a decade later, Tesla has installed roughly 3,000 Solar Roof systems total, stopped reporting deployment numbers, and is now quietly pivoting to conventional solar panels.\n\nThe gap between Tesla’s Solar Roof promise and reality is one of the most stark examples of unfulfilled ambitions in the company’s history — and it has left thousands of customers stuck with an expensive product that Tesla appears to have deprioritized.\n\n## The promise vs. the numbers\n\nWhen Musk first presented the Solar Roof in October 2016, he positioned it as a cornerstone of Tesla’s energy future. The pitch was compelling: solar tiles indistinguishable from premium roofing materials, integrated with Powerwalls for whole-home energy independence. Musk claimed it would cost less than a conventional roof plus traditional solar panels. Tesla acquired SolarCity for $2.6 billion partly on the strength of this vision, and Musk even said at the time that SolarCity’s Gigafactory would produce up to 10 GW/year.\n\nNone of that materialized.\n\nTesla didn’t reach even small-scale volume production until 2020 — three years behind schedule. At its peak in Q2 2022, Tesla deployed approximately 2.5 MW of Solar Roofs per quarter, equivalent to about 23 roofs ",
-      "title_zh": "特斯拉太阳能屋顶在转向面板时处于生命支持状态",
-      "body_zh": "特斯拉的太阳能屋顶本应彻底改变住宅太阳能。埃隆·马斯克（ Elon Musk ）在2016年推出了这款产品，承诺提供美丽的太阳能瓦片，以取代整个屋顶—他设定了到2019年底每周新建1000个太阳能屋顶的目标。近十年后，特斯拉总共安装了大约3000个太阳能屋顶系统，停止报告部署数量，现在正悄然转向传统太阳能电池板。 特斯拉的太阳能屋顶承诺与现实之间的差距是该公司历史上未实现的雄心壮志的最明显例子之一，它让成千上万的客户陷入了特斯拉似乎已经放弃优先考虑的昂贵产品的困境。\n\n# #承诺与数字\n\n当马斯克于2016年10月首次展示太阳能屋顶时，他将"
-    },
-    {
-      "id": "hn:48108313",
-      "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
-      "url": "https://www.bbc.com/news/articles/c202pgxx89lo",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48108313",
-        "name": "tartoran",
-        "hn_url": "https://news.ycombinator.com/item?id=48108313"
-      },
-      "duration_sec": null,
-      "views": 260,
-      "comments": 439,
-      "published_at": "2026-05-12T13:51:36+00:00",
-      "summary": "",
-      "matched_keyword": "inflation",
-      "lang": "en",
-      "title_zh": "随着伊朗战争导致能源成本激增，美国通货膨胀率飙升至3.8%"
-    },
-    {
-      "id": "hn:48236770",
-      "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
-      "url": "https://github.com/superset-sh/superset",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48236770",
-        "name": "avipeltz",
-        "hn_url": "https://news.ycombinator.com/item?id=48236770"
-      },
-      "duration_sec": null,
-      "views": 107,
-      "comments": 135,
-      "published_at": "2026-05-22T14:53:55+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en",
-      "body": "Orchestrate swarms of Claude Code, Codex, and more in parallel.\n\nWorks with any CLI agent. Built for local worktree-based development.\n\n**Download for macOS** • Documentation • Changelog • Discord\n\nSuperset orchestrates CLI-based coding agents across isolated git worktrees, with built-in terminal, review, and open-in-editor workflows.\n\n**Run multiple agents simultaneously**without context switching overhead**Isolate each task**in its own git worktree so agents don't interfere with each other**Monitor all your agents**from one place and get notified when they need attention**Review and edit changes quickly**with the built-in diff viewer and editor**Open any workspace where you need it**with one-click handoff to your editor or terminal\n\nWait less, ship more.\n\nSuperset works with any CLI-based coding agent, including:\n\nIf it runs in a terminal, it runs on Superset\n\nBuilds for Windows and Linux are not yet available.\n\nWant to hack on Superset or contribute a PR? Spin up a local dev environment in one command:\n\n```\ngit clone https://github.com/superset-sh/superset.git\ncd superset\n./.superset/setup.local.sh\nbun run dev\n```\n\nNo Neon account or third-party credentials needed — `setup.local.sh`\n\nbrings up a local Postgres + Electric stack via Docker and seeds a dev account. Sign in with the **\"Sign in as dev\"** button (or `admin@local.test`\n\n/ `supersetdev`\n\n).\n\nPrereqs: `bun`\n\n, `docker`\n\n, `jq`\n\n, `caddy`\n\n(`brew install jq caddy && caddy trust`\n\n).\n\nSee **DEVELOPMENT.md** for the f",
-      "title_zh": "启动HN ：超集（ YC P26 ） –代理时代的IDE",
-      "body_zh": "并行编排成群的Claude Code、Codex等。\n\n适用于任何CLI代理。 专为基于本地工作树的开发而构建。\n\n* *下载macOS版* * •文档•更新日志• Discord\n\nSuperset通过内置的终端、审阅和开放式编辑工作流程，跨独立的git工作树协调基于CLI的编码代理。 * *同时运行多个代理* * ，无需上下文切换开销* *在自己的git工作树中隔离每个任务* * ，以便代理不会互相干扰* *从一个地方监控您的所有代理* * ，并在需要注意时收到通知* *使用内置的差异查看器和编辑器快速查看和编辑更改* *打开您需要的任何工作区* * ，只需单击切换到编辑器或终端即可\n\n等待更少，运送更多。 超集适用于任何基于CLI的"
-    },
-    {
-      "id": "hn:48225040",
-      "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
-      "url": "https://www.runtm.com/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48225040",
-        "name": "gustrigos",
-        "hn_url": "https://news.ycombinator.com/item?id=48225040"
-      },
-      "duration_sec": null,
-      "views": 102,
-      "comments": 30,
-      "published_at": "2026-05-21T16:07:13+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48225596",
-      "title": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
-      "url": "https://news.ycombinator.com/item?id=48225596",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48225596",
-        "name": "adisingh13",
-        "hn_url": "https://news.ycombinator.com/item?id=48225596"
-      },
-      "duration_sec": null,
-      "views": 98,
-      "comments": 108,
-      "published_at": "2026-05-21T16:42:34+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48309986",
-      "title": "Show HN: Ktx – Open-source executable context layer for data agents",
-      "url": "https://github.com/Kaelio/ktx",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48309986",
-        "name": "lucamrtl",
-        "hn_url": "https://news.ycombinator.com/item?id=48309986"
-      },
-      "duration_sec": null,
-      "views": 83,
-      "comments": 24,
-      "published_at": "2026-05-28T15:05:06+00:00",
-      "summary": "",
-      "matched_keyword": "stock market",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48160991",
-      "title": "Tesla reveals two Robotaxi crashes involving teleoperators",
-      "url": "https://techcrunch.com/2026/05/15/tesla-reveals-two-robotaxi-crashes-involving-teleoperators/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48160991",
-        "name": "Brajeshwar",
-        "hn_url": "https://news.ycombinator.com/item?id=48160991"
-      },
-      "duration_sec": null,
-      "views": 58,
-      "comments": 58,
-      "published_at": "2026-05-16T15:21:45+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en"
-    },
     {
       "id": "rss:https://stratechery.com/2026/luceing-their-mind/",
       "title": "2026.22: Luceing Their Mind",
@@ -354,8 +195,1275 @@
       "published_at": "2026-05-14T10:00:00+00:00",
       "summary": "An interview with me about the implications of the compute shortage on Aggregation Theory, consumer AI, and more.",
       "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/strategy-follows-structure",
+      "title": "Strategy Follows Structure",
+      "url": "https://www.netinterest.co/p/strategy-follows-structure",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T16:47:05+00:00",
+      "summary": "Fidelity, Capital, Vanguard and the Ownership Structures That Made Them",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/griffins-doors",
+      "title": "Griffin’s Doors",
+      "url": "https://www.netinterest.co/p/griffins-doors",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-22T16:22:17+00:00",
+      "summary": "Inside Citadel&#8217;s Talent Machine",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-future-of-ir",
+      "title": "The Future of IR",
+      "url": "https://www.netinterest.co/p/the-future-of-ir",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-15T15:38:49+00:00",
+      "summary": "What the Changing Shape of Markets Means for Investor Relations",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/bye-the-index",
+      "title": "Bye the Index",
+      "url": "https://www.netinterest.co/p/bye-the-index",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-08T16:07:09+00:00",
+      "summary": "How Nasdaq learned to run its flywheel in reverse",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/money-for-nothing",
+      "title": "Money for Nothing",
+      "url": "https://www.netinterest.co/p/money-for-nothing",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-01T16:28:45+00:00",
+      "summary": "The Golden Age of Arbitrage?",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/apple-turnover",
+      "title": "Apple Turnover",
+      "url": "https://www.netinterest.co/p/apple-turnover",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-24T16:38:20+00:00",
+      "summary": "How Tim Cook reshaped payments &#8211; and what he leaves behind",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/defying-the-surveys",
+      "title": "Defying the Surveys",
+      "url": "https://www.netinterest.co/p/defying-the-surveys",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-17T16:54:51+00:00",
+      "summary": "Banks report a resilient quarter &#8211; and a lurking threat",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/shuffling-risk",
+      "title": "Shuffling Risk",
+      "url": "https://www.netinterest.co/p/shuffling-risk",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-10T15:10:44+00:00",
+      "summary": "An Asset Class Reborn",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-the-race-to-secure-a-bank",
+      "title": "NEW POD! The Race to Secure a Bank Charter with Adam Shapiro of Klaros Group",
+      "url": "https://www.netinterest.co/p/new-pod-the-race-to-secure-a-bank",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-31T15:45:44+00:00",
+      "summary": "Net Interest Extra ep 21",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/revolut-unbound",
+      "title": "Revolut Unbound",
+      "url": "https://www.netinterest.co/p/revolut-unbound",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-27T16:20:38+00:00",
+      "summary": "The Quest to Build the World&#8217;s First Truly Global Bank",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-underwriters-of-hormuz",
+      "title": "The Underwriters of Hormuz",
+      "url": "https://www.netinterest.co/p/the-underwriters-of-hormuz",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-20T16:23:35+00:00",
+      "summary": "A post on marine insurance &#8211; by popular demand",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-market-intelligence-in-the",
+      "title": "🎙️ Market Intelligence in the Age of AI: An Interview with Morningstar CEO, Kunal Kapoor",
+      "url": "https://www.netinterest.co/p/new-pod-market-intelligence-in-the",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-17T16:30:34+00:00",
+      "summary": "Net Interest Extra ep 20",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/redemption-day",
+      "title": "Redemption Day",
+      "url": "https://www.netinterest.co/p/redemption-day",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-13T18:09:28+00:00",
+      "summary": "When the exit is smaller than the entrance",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/learning-from-lloyd",
+      "title": "Learning from Lloyd",
+      "url": "https://www.netinterest.co/p/learning-from-lloyd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-06T17:42:54+00:00",
+      "summary": "Blankfein, Goldman and the Next Market Reckoning",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-how-credit-markets-shaped",
+      "title": "🎙️ How Credit Markets Shaped a Nation: An Interview with Sarah Quinn",
+      "url": "https://www.netinterest.co/p/new-pod-how-credit-markets-shaped",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-03T16:45:21+00:00",
+      "summary": "Net Interest Extra ep 19",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/two-tribes",
+      "title": "Two Tribes",
+      "url": "https://www.netinterest.co/p/two-tribes",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-27T17:42:58+00:00",
+      "summary": "Private Credit, Public Markets and the AI Reckoning",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/ai-and-i",
+      "title": "AI and I",
+      "url": "https://www.netinterest.co/p/ai-and-i",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-20T17:21:53+00:00",
+      "summary": "Claude Code, Bloomberg and the Battle for Data",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-trends-in-us-banks-with-john",
+      "title": "🎙️ Trends in US Banking: An Interview with John McDonald & Brian Foran",
+      "url": "https://www.netinterest.co/p/new-pod-trends-in-us-banks-with-john",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-17T16:45:19+00:00",
+      "summary": "Net Interest Extra ep 18",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-ackman-complex",
+      "title": "The Ackman Complex",
+      "url": "https://www.netinterest.co/p/the-ackman-complex",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-13T17:39:10+00:00",
+      "summary": "Inside Pershing Square&#8217;s Insurance Bet",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/excel-forever",
+      "title": "Excel Forever",
+      "url": "https://www.netinterest.co/p/excel-forever",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-06T17:45:41+00:00",
+      "summary": "Claude, Excel and the Future of Market Intelligence",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/articles/microsofts-ai-independence-day",
+      "title": "Microsoft’s AI Independence Day",
+      "url": "https://www.theinformation.com/articles/microsofts-ai-independence-day",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Qianer Liu",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T21:56:26+00:00",
+      "summary": "Two months after Microsoft’s conscious uncoupling from OpenAI, Microsoft wants to prove it’s thriving as an AI provider that doesn’t have to rely on the ChatGPT maker’s technology.&nbsp;Microsoft’s annual Build conference for roughly 2,500 app developers, which kicks off Tuesday in San Francisco, will be a “debutante ball” of sorts for its team developing AI models that aim to be an alternative to those from OpenAI and Anthropic.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/briefings/anthropic-cuts-list-firms-unauthorized-trading-shares",
+      "title": "Anthropic Cuts List of Firms Unauthorized for Trading in Its Shares",
+      "url": "https://www.theinformation.com/briefings/anthropic-cuts-list-firms-unauthorized-trading-shares",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Jason Dean",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T20:49:25+00:00",
+      "summary": "Anthropic reduced the list of secondary markets it says aren’t authorized to buy or sell its shares, scaling back guidance that had prompted confusion. The company revised guidance on its website about unauthorized stock sales to list&nbsp;four explicitly barred platforms, half the number in an ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/articles/forward-deployed-engineers-rage",
+      "title": "Why Forward Deployed Engineers Are the Rage",
+      "url": "https://www.theinformation.com/articles/forward-deployed-engineers-rage",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Kevin McLaughlin",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T15:00:53+00:00",
+      "summary": "AI researchers may have the hottest job in tech, but forward-deployed engineers who put the AI to good use are becoming indispensable too. The military-inspired job title, which Palantir began using in the context of business software more than a decade ago, has spread to all corners of the industry. Last week, for instance, Meta formed a new organization involving FDEs that aims to get more advertisers to also use its AI tools. Google Cloud recently said it plans to hire hundreds of FDEs to hel...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/briefings/softbank-invest-75-billion-euros-ai-data-centers-france",
+      "title": "Softbank to Invest Up To 75 Billion Euros on AI Data Centers in France",
+      "url": "https://www.theinformation.com/briefings/softbank-invest-75-billion-euros-ai-data-centers-france",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Jason Dean",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T21:13:10+00:00",
+      "summary": "SoftBank Group announced a commitment to develop and operate five gigawatts of AI data center capacity in France, with an investment of up to 75 billion euros, or about $87.5 billion. The commitment is SoftBank’s largest AI infrastructure investment to date in Europe, the company said on ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/briefings/spacex-awarded-4-billion-contract-u-s-space-force",
+      "title": "SpaceX Is Awarded $4 billion Contract with U.S. Space Force",
+      "url": "https://www.theinformation.com/briefings/spacex-awarded-4-billion-contract-u-s-space-force",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Jason Dean",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T19:52:16+00:00",
+      "summary": "The U.S. Space Force awarded a $4.16 billion contract to SpaceX as part of a program to deploy space-based sensors to track and target airborne threats. The deal for the Space-Based Airborne Moving Target Indicator program, announced&nbsp;Friday, highlights the increasingly important government ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/articles/defense-tech-grows",
+      "title": "Defense Tech Grows Up",
+      "url": "https://www.theinformation.com/articles/defense-tech-grows",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Leo Schwartz",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T16:01:06+00:00",
+      "summary": "Welcome, Weekenders! In this newsletter:• The Big Read:&nbsp;Can OpenAI’s revenue chief&nbsp;catch Anthropic in enterprise tech?•&nbsp;Plus, Recommendations—our weekly pop culture picks: “Deep Cover: The Family Man,” “1873” and “Legends”On Tuesday, I dropped in at JPMorgan Chase’s glitzy new Midtown headquarters for a confab on national security, a sector that has become an investment pillar for the banking giant. While the event encompassed other areas like energy and supply chain infrastructur...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/articles/openais-revenue-chief-barnstorms-business-customers",
+      "title": "OpenAI’s Revenue Chief Barnstorms for Business Customers",
+      "url": "https://www.theinformation.com/articles/openais-revenue-chief-barnstorms-business-customers",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Laura Bratton",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T13:00:38+00:00",
+      "summary": "Before former Slack CEO Denise Dresser joined OpenAI in December as its chief revenue officer, the company’s efforts to sell its products to business customers were sometimes clunky. Earlier in 2025, for example, the company had struck an agreement with Databricks, which would sell OpenAI products alongside the database software provider’s own products. But some potential customers were confused about which salespeople to reach, remembers Andy Kofoid, president of global field operations at Data...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/briefings/meta-plans-ai-pendant-part-ambitious-wearables-expansion",
+      "title": "Meta Plans an AI Pendant as Part of Ambitious Wearables Expansion",
+      "url": "https://www.theinformation.com/briefings/meta-plans-ai-pendant-part-ambitious-wearables-expansion",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Jyoti Mann",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T23:54:23+00:00",
+      "summary": "Meta Platforms&nbsp;plans&nbsp;to start testing an AI pendant in the next year as part of an ambitious roadmap for wearable devices aimed at reversing the huge losses in its hardware division. An internal memo describing the roadmap, reviewed by The Information, also lays out plans to ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/articles/meta-memo-outlines-ambitious-hardware-plans-including-new-ai-pendant",
+      "title": "Meta Memo Outlines Ambitious Hardware Plans, Including New AI Pendant",
+      "url": "https://www.theinformation.com/articles/meta-memo-outlines-ambitious-hardware-plans-including-new-ai-pendant",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Jyoti Mann",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T23:38:22+00:00",
+      "summary": "Meta Platforms&nbsp;plans to start testing an AI pendant in the next year as part of an ambitious roadmap for wearable devices aimed at reversing the huge losses in its hardware division. An internal memo describing the roadmap, reviewed by The Information, also lays out plans to significantly expand its selection of AI glasses and to add a business-focused service called “Wearables for Work.” The memo, from Alex Himel, Meta’s vice president of wearables, says the strategy is in part to drive mo...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/articles/spacex-celebrating-blue-origin-explosion",
+      "title": "Why SpaceX Isn’t Celebrating the Blue Origin Explosion",
+      "url": "https://www.theinformation.com/articles/spacex-celebrating-blue-origin-explosion",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Theo Wayt",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T22:31:35+00:00",
+      "summary": "By now, you’ve probably seen the unbelievable video of Blue Origin’s New Glenn rocket exploding on its launchpad in Florida on Thursday night. On its face, Blue Origin’s pain would seem to be Elon Musk’s gain, further cementing SpaceX’s already significant lead in the space business just weeks before it goes public. While the explosion is obviously terrible news for Jeff Bezos’ space ambitions, Musk and his SpaceX colleagues have been sending their condolences instead of celebrating Blue Origin’...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/briefings/kalshi-coinbase-approved-offer-crypto-perpetuals-u-s",
+      "title": "Kalshi, Coinbase Approved to Offer Crypto Perpetuals in U.S.",
+      "url": "https://www.theinformation.com/briefings/kalshi-coinbase-approved-offer-crypto-perpetuals-u-s",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Yueqi Yang",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T17:58:20+00:00",
+      "summary": "Prediction market Kalshi won approval from U.S. regulators to offer crypto trading through bitcoin perpetuals, a type of highly-leveraged derivatives product, confirming an April report by The Information. Coinbase also won a greenlight from the U.S. Commodity Futures Trading Commission to ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/articles/chinas-bytedance-developing-new-ai-chips-like-nvidia-partner-groq",
+      "title": "China’s ByteDance Developing New AI Chips Like Those from Nvidia Partner Groq",
+      "url": "https://www.theinformation.com/articles/chinas-bytedance-developing-new-ai-chips-like-nvidia-partner-groq",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Juro Osawa",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T13:00:35+00:00",
+      "summary": "TikTok owner ByteDance is developing a new chip to run artificial intelligence models as part of an aggressive expansion of its homegrown AI infrastructure. The new AI chip is intended to have a structure similar to U.S. chip designer Groq’s language processing units, which are built to run AI models at low cost, according to three people with knowledge of the project. ByteDance, which is one of China’s AI leaders, is also working closely with InnoStar Semiconductor on how to integrate that Chin...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/briefings/blue-origin-new-glenn-rocket-explodes-test",
+      "title": "Blue Origin New Glenn Rocket Explodes During Test",
+      "url": "https://www.theinformation.com/briefings/blue-origin-new-glenn-rocket-explodes-test",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Nick Wingfield",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T02:20:30+00:00",
+      "summary": "Jeff Bezos’ space company Blue Origin suffered a serious setback Thursday evening when its New Glenn rocket exploded on a launch pad in Florida during a test. Video clips of the incident show a giant fireball engulfing the rocket and surrounding structures. No one was on board the rocket or ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/articles/base-power-talks-raise-funds-12-billion-valuation",
+      "title": "Base Power in Talks to Raise Funds at $12 Billion Valuation",
+      "url": "https://www.theinformation.com/articles/base-power-talks-raise-funds-12-billion-valuation",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Julia Hornstein",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T01:39:36+00:00",
+      "summary": "Base Power, a three-year-old home-battery startup, is in talks to raise funds at a $12 billion valuation, according to a person with knowledge of the discussions. Ribbit Capital, which backed Base Power’s last funding round, has been in talks to lead the current round, according to two people with knowledge of the talks. Founded by Venezuelan entrepreneur Micky Malka, Ribbit is a prominent venture firm known for its fintech bets on startups like Robinhood and Coinbase.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/articles/boomers-beware-spacex-stock",
+      "title": "Boomers, Beware of SpaceX Stock",
+      "url": "https://www.theinformation.com/articles/boomers-beware-spacex-stock",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Anita Ramaswamy",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T23:59:34+00:00",
+      "summary": "Greetings! Anita here. It’s been a relatively slow week for SpaceX news, but that will soon change. Musk’s rocketship company is expected to launch its investor roadshow next week ahead of a mid-June IPO. The milestone will likely usher in a flood of giddy headlines and a lot of debate on Reddit forums and cable TV on whether individual investors should buy in. The answer: It’ll make sense for day traders and younger investors. But Boomers could get burned.&nbsp;One reason is the high volume of ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/articles/big-laws-ai-threat-harvey-legora",
+      "title": "Big Law’s AI Threat to Harvey, Legora",
+      "url": "https://www.theinformation.com/articles/big-laws-ai-threat-harvey-legora",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Julia Hornstein",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T23:47:01+00:00",
+      "summary": "Despite fears that advanced tools from Anthropic and OpenAI would soon make legal apps like Harvey and Legora irrelevant, recent revenue milestones at those startups suggest they are doing just fine. But a fresh assault on their business is brewing: Some law firms now want to develop their own AI apps with frontier model companies like Anthropic or OpenAI rather than just purchase apps from smaller legal startups. Kirkland &amp; Ellis, the biggest law firm by gross revenue last year, said this w...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/briefings/dell-shares-soar-nearly-40-surge-ai-server-sales",
+      "title": "Dell Shares Rise Nearly 40% After Surge in AI Server Sales",
+      "url": "https://www.theinformation.com/briefings/dell-shares-soar-nearly-40-surge-ai-server-sales",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Kevin McLaughlin",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T23:08:07+00:00",
+      "summary": "Customer demand for AI is pouring jet fuel on Dell’s server, storage and networking businesses, as its overall revenue grew 88% to $43.8 billion during its April quarter compared to last year, beating its earlier forecast by more than $8 billion. Excluding items, Dell reported earnings per share ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/articles/lowes-says-semantic-data-boosting-ai-agents",
+      "title": "Lowe’s Says ‘Semantic’ Data is Boosting Its AI Agents",
+      "url": "https://www.theinformation.com/articles/lowes-says-semantic-data-boosting-ai-agents",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Kevin McLaughlin",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T20:09:41+00:00",
+      "summary": "Microsoft, Databricks, SAP and other AI software providers are fighting over control and access to enterprise data known as the semantic layer, as we reported last week.&nbsp;Semantic layers are essentially a data management tool that companies use to standardize definitions for their business metrics, such as revenue and customers, and are now enabling AI to work more accurately and efficiently inside enterprises.Retailer Lowe’s, for instance, recently began using its semantic layer and another...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/briefings/illinois-legislature-passes-landmark-ai-safety-bill",
+      "title": "Illinois Legislature Passes Landmark AI Safety Bill",
+      "url": "https://www.theinformation.com/briefings/illinois-legislature-passes-landmark-ai-safety-bill",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Leo Schwartz",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T19:22:32+00:00",
+      "summary": "On Wednesday, the Illinois House of Representatives passed a bill that will require major AI companies to submit their model safety plans for third-party audits, as well as creating whistleblower protections for those companies’ employees. While Governor JB Pritzker still has to sign the bill ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theinformation.com/briefings/anthropic-releases-new-flagship-ai-model",
+      "title": "Anthropic Releases New Flagship AI Model",
+      "url": "https://www.theinformation.com/briefings/anthropic-releases-new-flagship-ai-model",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theinformation.com/feed",
+        "name": "Stephanie Palazzolo",
+        "feed_title": "The Information"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T19:11:41+00:00",
+      "summary": "Anthropic on Thursday announced its new flagship AI model, Claude Opus 4.8, which showed improvements in standardized AI performance evaluations in coding, financial analysis and other fields. The company also said the model is more likely to flag uncertainties about its work and less likely to ...",
+      "lang": "en"
+    },
+    {
+      "id": "wscn:3773548",
+      "title": "黄仁勋：Vera Rubin全面量产，AI Agent是重点方向，挑战英特尔剑指下一代AI PC入口",
+      "url": "https://wallstreetcn.com/articles/3773548",
+      "summary": "黄仁勋表示，英伟达将推出面向AI智能体的CPU Vera和全新AI模型Nemotron 3 Ultra。此外英伟达公布面向WINDOWS系统个人电脑的新款处理器，挑战英特尔，剑指下一代AI PC入口。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T04:38:35+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773547",
+      "title": "SpaceX领衔，4万亿美元IPO冲击，市场能消化吗？高盛：没问题，美银：泡沫已逼近历史极值",
+      "url": "https://wallstreetcn.com/articles/3773547",
+      "summary": "美银首席策略师Hartnett警告，SpaceX、OpenAI、Anthropic逾4万亿美元市值集中上市，将抽干市场流动性，AI板块集中度已逼近1880年代铁路泡沫极值；高盛则以1.3万亿美元企业回购与指数强制建仓需求反驳，认为市场足以消化。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T04:29:43+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773543",
+      "title": "A股三大股指集体下跌，煤炭掀涨停潮，AI PC、AI应用活跃，算力硬件齐跌，恒科指涨超1%，科网股普涨",
+      "url": "https://wallstreetcn.com/articles/3773543",
+      "summary": "盘面上，个股涨多跌少，沪深京三市超3800股飘红，上午半天成交1.97万亿。沪深两市半日成交额1.96万亿，较上个交易日缩量1617亿。板块方面，半导体、算力硬件产业链调整，CPO、PCB、GPU方向领跌；稀土、创新药、白酒、金融跌幅靠前。煤炭、油气、电力、文化传媒走强，AI应用、电商、网络安全题材活跃。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T04:04:55+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773546",
+      "title": "高盛上调铜目标价！美国“囤货潮”加剧全球供应紧张",
+      "url": "https://wallstreetcn.com/articles/3773546",
+      "summary": "高盛大幅上调LME铜价预测，2026年底目标价升至13735美元/吨，2027年均价升至13800美元。核心驱动来自两端：美国上半年铜进口超预期，预计全年库存累积达90万吨，“美国以外”铜市场缺口或达64万吨；同时Grasberg和Kamoa-Kakula两大铜矿复产推迟至2028年。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T03:41:45+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773538",
+      "title": "从流量狂欢到利润为王：化妆品行业的五年之痛与复苏信号",
+      "url": "https://wallstreetcn.com/premium/articles/3773538?layout=wscn-layout",
+      "summary": "行业困境反转的曙光出现了吗？",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T03:41:20+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773537",
+      "title": "AI热情主导市场，日韩股市齐创新高，韩股一度触发熔断，三星电子大涨10%",
+      "url": "https://wallstreetcn.com/articles/3773537",
+      "summary": "日经225首破67000点，三星电子单日暴涨10%创历史新高，软银市值盘中超越丰田，台股同步刷新纪录高位。韩国年内涨幅跻身全球前列，Nasdaq 100期货亦同步上扬。然而油价反弹、美伊谈判僵局暗藏变数，狂欢之下风险犹存。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T03:31:18+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773541",
+      "title": "30年美债收益率再破5%，“一切都廉价”的时代落幕了",
+      "url": "https://wallstreetcn.com/articles/3773541",
+      "summary": "30年期美债收益率再度突破5%，这一次市场的反应与2023年明显不同——投资者开始真正接受高利率将长期持续的现实。分析指出，这背后是一个更深层的结构性转变：支撑美国过去50年低通胀、低利率的三大支柱——廉价资本、廉价劳动力、廉价能源——正在同步瓦解。而AI的走向，将是决定未来通胀走势的最大未知数。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T03:05:58+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773542",
+      "title": "美债交易员押注美联储加息，五月非农将成关键检验",
+      "url": "https://wallstreetcn.com/articles/3773542",
+      "summary": "五月非农就业报告本周五即将揭晓，预计新增9万人，若数据强劲叠加PCE同比高达3.8%，市场或将为更激进加息路径定价。十年期美债收益率徘徊4.44%，机构分歧加剧，短端债券成避险首选。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:51:43+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773544",
+      "title": "OpenAI正式成立机器人团队，进军实体世界AI",
+      "url": "https://wallstreetcn.com/articles/3773544",
+      "summary": "OpenAI联合创始人Greg Brockman宣布成立“OpenAI Robotics”团队并公开招聘，Sam Altman同日将机器人列为公司核心战略优先级，近期目标锁定建筑和基础设施领域的技工辅助，长期设定是“人人拥有个人机器人”。但公司目前没有公布任何具体产品、合作伙伴或时间表。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:43:32+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3772999",
+      "title": "日落之后：英国的生死大考【付鹏说 深度文章】",
+      "url": "https://wallstreetcn.com/premium/articles/3772999?layout=wscn-layout",
+      "summary": "英国正站在系统性危机的临界点上",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:31:41+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773539",
+      "title": "史上最大IPO SpaceX：强行改写指数规则，散户或成定价关键",
+      "url": "https://wallstreetcn.com/articles/3773539",
+      "summary": "SpaceX计划以至少1.8万亿美元估值、750亿美元募资规模冲击IPO史上最大上市，其体量之巨已迫使纳斯达克等主要指数机构紧急修改纳入规则，大幅缩减加入指数的等待期。被动资金自动买入需求或达200亿美元，30%份额拟向散户开放。这场史无前例的资本盛宴，将重塑华尔街规则，并决定OpenAI等AI独角兽的上市命运。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:24:06+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773540",
+      "title": "中国5月RatingDog制造业PMI 51.8，连续第六个月扩张，通胀压力出现缓解",
+      "url": "https://wallstreetcn.com/articles/3773540",
+      "summary": "核心亮点是投入与产出品价格涨幅双双回落，企业通胀及成本压力出现边际缓解。此外，因交货期延长企业增加库存；就业微降，但市场前景仍偏乐观。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:45:20+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773531",
+      "title": "戴尔暴涨，大摩“认错”：对硬件周期过于保守了",
+      "url": "https://wallstreetcn.com/articles/3773531",
+      "summary": "摩根士丹利高调认错，将对戴尔的减持评级与170美元目标价打入审查，目前股价已涨至420美元。AI需求从GPU蔓延至传统基础设施，且这一趋势仍处于早期阶段，“传统PC大厂”的低估值框架或将彻底重写。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:40:58+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773536",
+      "title": "科技背后的买卖盘",
+      "url": "https://wallstreetcn.com/articles/3773536",
+      "summary": "科技板块资金暗战激烈：主动基金大举增持光纤、押注通信，散户却反向涌入电子、存储，与机构形成千亿级筹码对倒；险资悄然清仓光纤，北上资金同步加码，多空分歧罕见撕裂。两融杠杆向存储、光模块集中，科技龙头IPO历史上屡屡抽血同板块——多空力量交织之下，这场流动性博弈远比表面更复杂。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:37:47+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773532",
+      "title": "AI PC海啸引爆周末：英伟达亲自下场！大厂预计重塑万亿PC产业生态！",
+      "url": "https://wallstreetcn.com/premium/articles/3773532?layout=wscn-layout",
+      "summary": "ComputeX 2026大会将成为人类PC产业发展史上的一个分水岭时刻。记住这个时刻。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:36:58+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773535",
+      "title": "油价跌了黄金也没涨，市场开始担心一个新问题",
+      "url": "https://wallstreetcn.com/articles/3773535",
+      "summary": "德银认为，黄金正面临一个新问题：通胀来源更广泛、更顽固，叠加全球央行加息预期升温、实际利率上升，令金价持续承压，且与油价走势明显背离。全球债市同步抛售、ETF需求同比萎缩78%是当前最大压力来源。市场目前最关注的变量，是新美联储主席沃什能否在6月议息会议上软化鹰派立场。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:06:47+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773533",
+      "title": "高盛也支持“存储PE估值”，上调海力士、三星和铠侠“三巨头”目标价",
+      "url": "https://wallstreetcn.com/articles/3773533",
+      "summary": "高盛认为，AI驱动需求持续性、供给受限及长期供货协议（LTA）三大结构性变化，正推动存储行业向AI基础设施赛道转型。预计供需短缺将延续至2028年。此前大摩和小摩就指出，存储巨头正站在估值范式切换的历史节点上，盈利可预测性比肩台积电，当前7.3倍远期P/E存在历史性修复空间。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:02:06+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773504",
+      "title": "国内债市或延续上涨，货币政策保持流动性充裕---W22国内宏观脱水",
+      "url": "https://wallstreetcn.com/premium/articles/3773504?layout=wscn-layout",
+      "summary": "国内债市上涨行情或有望延续，尽管经济呈现先强后弱，但基本面仍对债市形成托底，流动性有望持续充裕，更多...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:00:45+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773526",
+      "title": "百亿基金集体“创新高”：一场必要的估值修复",
+      "url": "https://wallstreetcn.com/articles/3773526",
+      "summary": "如何客观看待主动权益基金的时刻临近",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T00:35:52+00:00",
+      "points": 0
+    },
+    {
+      "id": "hn:48212493",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48212493",
+        "name": "tedsanders",
+        "hn_url": "https://news.ycombinator.com/item?id=48212493"
+      },
+      "duration_sec": null,
+      "views": 1429,
+      "comments": 1054,
+      "published_at": "2026-05-20T19:05:30+00:00",
+      "summary": "",
+      "matched_keyword": "OpenAI",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48182754",
+      "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+      "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48182754",
+        "name": "nycdatasci",
+        "hn_url": "https://news.ycombinator.com/item?id=48182754"
+      },
+      "duration_sec": null,
+      "views": 1096,
+      "comments": 595,
+      "published_at": "2026-05-18T17:38:22+00:00",
+      "summary": "",
+      "matched_keyword": "OpenAI",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48296794",
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48296794",
+        "name": "simonw",
+        "hn_url": "https://news.ycombinator.com/item?id=48296794"
+      },
+      "duration_sec": null,
+      "views": 1088,
+      "comments": 1241,
+      "published_at": "2026-05-27T16:39:13+00:00",
+      "summary": "",
+      "matched_keyword": "OpenAI",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48336233",
+      "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
+      "url": "https://qazinform.com/news/anthropic-surpasses-openai-to-become-worlds-most-valuable-ai-startup",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48336233",
+        "name": "Bolat14",
+        "hn_url": "https://news.ycombinator.com/item?id=48336233"
+      },
+      "duration_sec": null,
+      "views": 417,
+      "comments": 469,
+      "published_at": "2026-05-30T13:56:34+00:00",
+      "summary": "",
+      "matched_keyword": "OpenAI",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48198291",
+      "title": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
+      "url": "https://openai.com/index/advancing-content-provenance/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48198291",
+        "name": "smooke",
+        "hn_url": "https://news.ycombinator.com/item?id=48198291"
+      },
+      "duration_sec": null,
+      "views": 332,
+      "comments": 180,
+      "published_at": "2026-05-19T19:34:30+00:00",
+      "summary": "",
+      "matched_keyword": "OpenAI",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48210226",
+      "title": "OpenAI Is Preparing to File for an IPO Soon",
+      "url": "https://www.wsj.com/tech/ai/openai-is-preparing-to-file-for-an-ipo-very-soon-0ec95af5",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48210226",
+        "name": "louiereederson",
+        "hn_url": "https://news.ycombinator.com/item?id=48210226"
+      },
+      "duration_sec": null,
+      "views": 205,
+      "comments": 407,
+      "published_at": "2026-05-20T16:24:42+00:00",
+      "summary": "",
+      "matched_keyword": "OpenAI",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48217052",
+      "title": "OpenAI to confidentially file for IPO as soon as Friday",
+      "url": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48217052",
+        "name": "doppp",
+        "hn_url": "https://news.ycombinator.com/item?id=48217052"
+      },
+      "duration_sec": null,
+      "views": 137,
+      "comments": 3,
+      "published_at": "2026-05-21T02:24:35+00:00",
+      "summary": "",
+      "matched_keyword": "OpenAI",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48194352",
+      "title": "I’ve joined Anthropic",
+      "url": "https://twitter.com/karpathy/status/2056753169888334312",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48194352",
+        "name": "dmarcos",
+        "hn_url": "https://news.ycombinator.com/item?id=48194352"
+      },
+      "duration_sec": null,
+      "views": 1430,
+      "comments": 617,
+      "published_at": "2026-05-19T15:07:45+00:00",
+      "summary": "",
+      "matched_keyword": "Anthropic",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48182281",
+      "title": "Anthropic acquires Stainless",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48182281",
+        "name": "tomeraberbach",
+        "hn_url": "https://news.ycombinator.com/item?id=48182281"
+      },
+      "duration_sec": null,
+      "views": 531,
+      "comments": 382,
+      "published_at": "2026-05-18T17:01:21+00:00",
+      "summary": "",
+      "matched_keyword": "Anthropic",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48313048",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "url": "https://www.anthropic.com/news/series-h",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48313048",
+        "name": "meetpateltech",
+        "hn_url": "https://news.ycombinator.com/item?id=48313048"
+      },
+      "duration_sec": null,
+      "views": 362,
+      "comments": 426,
+      "published_at": "2026-05-28T18:09:44+00:00",
+      "summary": "",
+      "matched_keyword": "Anthropic",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48214017",
+      "title": "Anthropic is expanding to Colossus2. Will use GB200",
+      "url": "https://twitter.com/nottombrown/status/2057194829986300375",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48214017",
+        "name": "aurareturn",
+        "hn_url": "https://news.ycombinator.com/item?id=48214017"
+      },
+      "duration_sec": null,
+      "views": 306,
+      "comments": 351,
+      "published_at": "2026-05-20T20:55:52+00:00",
+      "summary": "",
+      "matched_keyword": "Anthropic",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48193111",
+      "title": "Anthropic Is Preparing for IPO and We Should Be Worried",
+      "url": "https://www.vincentschmalbach.com/anthropic-ipo-developers-should-be-worried-v2/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48193111",
+        "name": "vincent_s",
+        "hn_url": "https://news.ycombinator.com/item?id=48193111"
+      },
+      "duration_sec": null,
+      "views": 89,
+      "comments": 96,
+      "published_at": "2026-05-19T13:30:58+00:00",
+      "summary": "",
+      "matched_keyword": "Anthropic",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48270497",
+      "title": "Anthropic Cofounder Chris Olah's Remarks on Pope Leo XIV's \"Magnifica Humanitas\"",
+      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48270497",
+        "name": "Philpax",
+        "hn_url": "https://news.ycombinator.com/item?id=48270497"
+      },
+      "duration_sec": null,
+      "views": 87,
+      "comments": 99,
+      "published_at": "2026-05-25T19:12:29+00:00",
+      "summary": "",
+      "matched_keyword": "Anthropic",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48311647",
+      "title": "Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48311647",
+        "name": "craigmart",
+        "hn_url": "https://news.ycombinator.com/item?id=48311647"
+      },
+      "duration_sec": null,
+      "views": 1758,
+      "comments": 1363,
+      "published_at": "2026-05-28T16:49:14+00:00",
+      "summary": "",
+      "matched_keyword": "Anthropic",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48240419",
+      "title": "Project Glasswing: An Initial Update",
+      "url": "https://www.anthropic.com/research/glasswing-initial-update",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48240419",
+        "name": "louiereederson",
+        "hn_url": "https://news.ycombinator.com/item?id=48240419"
+      },
+      "duration_sec": null,
+      "views": 561,
+      "comments": 325,
+      "published_at": "2026-05-22T19:31:45+00:00",
+      "summary": "",
+      "matched_keyword": "Anthropic",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48012162",
+      "title": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability",
+      "url": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48012162",
+        "name": "bearsyankees",
+        "hn_url": "https://news.ycombinator.com/item?id=48012162"
+      },
+      "duration_sec": null,
+      "views": 221,
+      "comments": 101,
+      "published_at": "2026-05-04T17:46:32+00:00",
+      "summary": "",
+      "matched_keyword": "AI funding",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48192383",
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "url": "https://github.com/antoinezambelli/forge",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48192383",
+        "name": "zambelli",
+        "hn_url": "https://news.ycombinator.com/item?id=48192383"
+      },
+      "duration_sec": null,
+      "views": 687,
+      "comments": 252,
+      "published_at": "2026-05-19T12:23:07+00:00",
+      "summary": "",
+      "matched_keyword": "AI funding",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48111143",
+      "title": "Show HN: Agentic interface for mainframes and COBOL",
+      "url": "https://www.hypercubic.ai/hopper",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48111143",
+        "name": "sai18",
+        "hn_url": "https://news.ycombinator.com/item?id=48111143"
+      },
+      "duration_sec": null,
+      "views": 97,
+      "comments": 51,
+      "published_at": "2026-05-12T17:10:22+00:00",
+      "summary": "",
+      "matched_keyword": "AI funding",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48183301",
+      "title": "We let AIs run radio stations",
+      "url": "https://andonlabs.com/blog/andon-fm",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48183301",
+        "name": "lukaspetersson",
+        "hn_url": "https://news.ycombinator.com/item?id=48183301"
+      },
+      "duration_sec": null,
+      "views": 374,
+      "comments": 270,
+      "published_at": "2026-05-18T18:12:18+00:00",
+      "summary": "",
+      "matched_keyword": "AI funding",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48225596",
+      "title": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
+      "url": "https://news.ycombinator.com/item?id=48225596",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48225596",
+        "name": "adisingh13",
+        "hn_url": "https://news.ycombinator.com/item?id=48225596"
+      },
+      "duration_sec": null,
+      "views": 99,
+      "comments": 108,
+      "published_at": "2026-05-21T16:42:34+00:00",
+      "summary": "",
+      "matched_keyword": "AI funding",
+      "lang": "en"
     }
-  ],
-  "total": 19,
-  "domain_id": "finance"
+  ]
 }
