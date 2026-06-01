@@ -1,0 +1,78 @@
+name: Fetch Candidates (Curio Unified)
+
+# 每天 11:30 UTC（北京 19:30）跑一次抓取 + 预筛 + 写 prompt
+# 也支持 workflow_dispatch 手动触发（点 Actions → Run workflow，或 issue 触发后调 API）
+on:
+  schedule:
+    - cron: "30 11 * * *"
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "为什么手动触发（如：新增领域 / 调试）"
+        required: false
+        default: "manual"
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # 用 GITHUB_TOKEN 拉，下面 push 也用它
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run prepare_unified
+        env:
+          # 让 ingest_feedback / ingest_add_domain 等子流程不爆（CI 里没 GH_TOKEN 时会跳过 GitHub API 调用）
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 让 fetch_wallstreetcn / B站 抓取认 UA
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python cli_generate.py prepare_unified
+          echo "----- 输出文件汇总 -----"
+          ls -la topics/*.candidates.json topics/unified.* 2>/dev/null | head -20
+
+      - name: Show stats
+        run: |
+          python -c "
+          import json, glob
+          cands = sorted(glob.glob('topics/*.candidates.json'))
+          for f in cands:
+              try:
+                  d = json.load(open(f))
+                  if isinstance(d, dict):
+                      n = d.get('total') or len(d.get('items', []))
+                      print(f'  {f}: {n} 条')
+              except Exception as e:
+                  print(f'  {f}: 读失败 ({e})')
+          "
+
+      - name: Commit & push
+        run: |
+          git config user.name "curio-bot"
+          git config user.email "curio-bot@users.noreply.github.com"
+          # 只 add 抓取产物，不动 site/ 等其它产物
+          git add topics/*.candidates.json topics/unified.*.json topics/unified.score-prompt.md topics/_run_plan.json topics/_notes_plan.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "无变更，跳过 commit"
+          else
+            git commit -m "chore(ci): refresh candidates [skip ci]"
+            # push 用 GITHUB_TOKEN
+            git push
+          fi
