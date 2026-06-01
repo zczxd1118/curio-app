@@ -175,7 +175,19 @@ function openAddDomainModal() {
 }
 
 // 静态模式：通过 GitHub Issue 申请加领域
-function openAddDomainViaIssue() {
+async function openAddDomainViaIssue() {
+  // 先拉当前 mode 决定提示文案
+  let mode = 'local';
+  try {
+    if (window.CURIO_API_BASE) {
+      const r = await fetch(window.CURIO_API_BASE + '/scoring-mode');
+      if (r.ok) mode = (await r.json()).scoring_mode || 'local';
+    }
+  } catch (e) {}
+  const eta = mode === 'api' ? '5-10 分钟内生效（CI 全云端跑）'
+            : mode === 'off' ? '⚠️ 当前评分模式「暂停」，不会自动生成内容'
+            : '5-65 分钟内生效（需电脑开机 + WorkBuddy 在线）';
+
   let modal = $('.modal-overlay.add-issue');
   if (!modal) {
     modal = document.createElement('div');
@@ -183,7 +195,11 @@ function openAddDomainViaIssue() {
     modal.innerHTML = `
       <div class="modal">
         <h3>申请新增领域</h3>
-        <p>填好后会跳到 GitHub 提交一条 Issue，Agent 下次跑前会自动读取并加入新领域。</p>
+        <p>填好后会跳到 GitHub 提交一条 Issue，CI 自动读取并加入新领域。</p>
+        <p style="background:var(--bg-elev);padding:8px 12px;border-left:3px solid var(--accent);font-size:12px;color:var(--text-soft);margin:8px 0;">
+          ⏱ ${eta}<br>
+          🔧 当前评分模式：<strong>${mode === 'api' ? '☁️ API' : mode === 'off' ? '⏸ 暂停' : '🖥️ 本地'}</strong>
+        </p>
         <div class="form-row">
           <label>领域名（中文）</label>
           <input type="text" id="ai-name" placeholder="例：生物科技 / 量子计算 / 摄影" autofocus>
@@ -255,7 +271,7 @@ function openAddDomainViaIssue() {
 }
 
 // 静态模式：通过 GitHub Issue 触发立刻生成
-function openGenerateViaIssue(domainId, domainName) {
+async function openGenerateViaIssue(domainId, domainName) {
   // 简单 cooldown 检查（localStorage，软限）
   const key = 'curio:gen:' + domainId;
   let last = parseInt(localStorage.getItem(key) || '0', 10);
@@ -271,6 +287,36 @@ function openGenerateViaIssue(domainId, domainName) {
     if (!confirm(`你刚才已经触发过「${domainName}」的生成，建议等 ${remain} 分钟（让 Agent 跑一次）。\n\n点确定继续提交，点取消放弃。`)) return;
   }
 
+  // 拉当前评分模式（决定文案）
+  let mode = 'local';
+  try {
+    if (window.CURIO_API_BASE) {
+      const r = await fetch(window.CURIO_API_BASE + '/domains'); // 顺便预热
+      // 拉 mode：用一个不需 owner pin 的轻量端点
+      const r2 = await fetch(window.CURIO_API_BASE + '/scoring-mode');
+      if (r2.ok) {
+        const d = await r2.json();
+        mode = d.scoring_mode || 'local';
+      }
+    }
+  } catch (e) {}
+
+  // 按 mode 写文案
+  let timeText, badgeColor, descText;
+  if (mode === 'api') {
+    timeText = '<strong>预计等待：5-7 分钟</strong>（CI 抓取 ~2 分钟 + DeepSeek 评分 ~1 分钟 + 渲染推送 ~2 分钟）';
+    badgeColor = 'var(--accent)';
+    descText = '提交后会在 GitHub 上自动开一个 Issue，CI 立即触发：抓取最新候选 → 调 DeepSeek API 评分 → 渲染推送 → 邮件通知。<strong>电脑可关机，全云端跑</strong>。';
+  } else if (mode === 'off') {
+    timeText = '<strong>当前模式：暂停</strong>。提交后 issue 会保留但不会处理。';
+    badgeColor = '#999';
+    descText = '⚠️ 你当前评分模式设为「暂停」。请去 ⚙️ 设置 切换到「API」或「本地」。';
+  } else {
+    timeText = '<strong>预计等待：5-65 分钟</strong>（CI 抓取 ~2 分钟 + 等本地 WorkBuddy 下个整点跑评分）';
+    badgeColor = 'var(--accent)';
+    descText = '提交后会在 GitHub 上自动开一个 Issue，CI 立即抓取候选；评分需要等下一个整点（本地 WorkBuddy + Claude 跑）。想 5 分钟生效请去 ⚙️ 设置 切换到「API」。';
+  }
+
   let modal = $('.modal-overlay.gen-issue');
   if (modal) modal.remove();
   modal = document.createElement('div');
@@ -278,11 +324,11 @@ function openGenerateViaIssue(domainId, domainName) {
   modal.innerHTML = `
     <div class="modal" style="max-width:480px">
       <h3><span class="icon-sm">${UI_ICONS.bolt}</span> 立刻生成「${domainName}」</h3>
-      <p>提交后会在 GitHub 上自动开一个 Issue，Curio Agent 每小时检查一次，看到后会立刻为你重跑（抓取 → 打分 → 中文摘要 → 主编点评 → 邮件通知）。</p>
-      <p style="background:var(--bg-elev);padding:10px 12px;border-left:3px solid var(--accent);font-size:13px;color:var(--text-soft);margin:12px 0;">
-        <span class="icon-inline">${UI_ICONS.clock}</span> <strong>预计等待：5 ~ 60 分钟</strong>（CI 抓取 ~2 分钟 + Agent 每小时调度一次）<br>
+      <p>${descText}</p>
+      <p style="background:var(--bg-elev);padding:10px 12px;border-left:3px solid ${badgeColor};font-size:13px;color:var(--text-soft);margin:12px 0;">
+        <span class="icon-inline">${UI_ICONS.clock}</span> ${timeText}<br>
         <span class="icon-inline">${UI_ICONS.mail}</span> 留下邮箱跑完会发一封通知<br>
-        <span class="icon-inline">${UI_ICONS.list}</span> Agent 收到时会在 GitHub Issue 评论"已收到，开始跑"，完成时再评论结果链接
+        <span class="icon-inline">${UI_ICONS.list}</span> 进度可在 GitHub Issue 评论里看
       </p>
       <div class="form-row">
         <label>邮箱（可选，跑完了通知你）</label>
@@ -293,10 +339,10 @@ function openGenerateViaIssue(domainId, domainName) {
         <textarea id="gen-note" placeholder="例：本期想多看一些 AI 硬件的"
           style="width:100%;min-height:60px;background:var(--bg-elev);border:1px solid var(--line);color:var(--text);padding:8px;border-radius:4px;font-family:var(--sans);font-size:13px"></textarea>
       </div>
-      <p style="font-size:12px;color:var(--text-mute)">注：同一领域 30 分钟内只能触发一次（够 Agent 跑完一轮），重复点会弹确认。</p>
+      <p style="font-size:12px;color:var(--text-mute)">注：同一领域 30 分钟内只能触发一次。当前评分模式：<strong>${mode === 'api' ? '☁️ API' : mode === 'off' ? '⏸ 暂停' : '🖥️ 本地'}</strong></p>
       <div class="modal-actions">
         <button class="btn-secondary" id="gen-cancel">取消</button>
-        <button class="btn-primary" id="gen-go">提交并跳转 GitHub</button>
+        <button class="btn-primary" id="gen-go">${mode === 'off' ? '我已了解，仍要提交' : '提交并跳转 GitHub'}</button>
       </div>
     </div>
   `;
@@ -1093,52 +1139,23 @@ function initSearch() {
 }
 
 // ===== 启动 =====
-// 页面加载后从 worker 拉最新领域列表，动态修正 nav-links
-// （SSG 静态版只反映 build 当时的 sources.yaml，所以增删领域需要这一步同步）
-async function syncNavLinks() {
+// 主页"你的领域"卡片同步（删除领域后让消失的 chip 立即不显示）
+async function syncDomainCards() {
   if (!window.CURIO_API_BASE) return;
   try {
     const r = await fetch(window.CURIO_API_BASE + '/domains');
     if (!r.ok) return;
     const d = await r.json();
-    if (!Array.isArray(d.domains) || !d.meta) return;
-    const navEl = $('.nav-links');
-    if (!navEl) return;
-    // 当前 nav 已有的 domain ids
-    const existing = new Set();
-    $$('.nav-links a').forEach(a => {
-      const m = a.getAttribute('href') || '';
-      const match = m.match(/\/d\/([^\/]+)\//);
-      if (match) existing.add(match[1]);
-    });
-    // worker 返回的 domain ids
+    if (!Array.isArray(d.domains)) return;
     const live = new Set(d.domains);
-    // 差集
-    const toAdd = d.domains.filter(id => !existing.has(id));
-    const toRemove = [...existing].filter(id => !live.has(id));
-    // 移除（领域被删）
-    toRemove.forEach(id => {
-      const a = $$(`.nav-links a[href*="/d/${id}/"]`)[0];
-      if (a) a.remove();
+    // 主页 .domain-card 同步（hide 已删的，不重新创建已有的）
+    $$('.domain-card').forEach(card => {
+      const id = card.dataset.domainId;
+      if (id && !live.has(id)) {
+        card.style.display = 'none';
+      }
     });
-    // 追加（领域被加）
-    toAdd.forEach(id => {
-      const meta = d.meta[id] || {};
-      const a = document.createElement('a');
-      const root = window.CURIO_REL_ROOT || '';
-      a.href = root + 'd/' + id + '/';
-      a.textContent = meta.name || id;
-      navEl.appendChild(a);
-    });
-    // 主页的"你的领域"卡片也尝试同步（仅首页有）
-    const grid = $('.domains');
-    if (grid) {
-      // 这里不重渲染（避免破坏 SVG），只在 site 重 build 后才彻底同步
-      // 现阶段只让 nav 同步即可
-    }
-  } catch (e) {
-    // worker 不在线或 CORS 失败，忽略
-  }
+  } catch (e) {}
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -1147,8 +1164,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initTOC();
   initSearch();
 
-  // 同步顶部导航的领域列表（异步，从 worker /domains 拉）
-  syncNavLinks();
+  // 主页 chip 同步（隐藏已删的领域）
+  syncDomainCards();
 
   // 添加领域按钮（点击）
   const addBtn = $('.add-domain');

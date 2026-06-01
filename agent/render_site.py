@@ -707,7 +707,19 @@ function openAddDomainModal() {
 }
 
 // 静态模式：通过 GitHub Issue 申请加领域
-function openAddDomainViaIssue() {
+async function openAddDomainViaIssue() {
+  // 先拉当前 mode 决定提示文案
+  let mode = 'local';
+  try {
+    if (window.CURIO_API_BASE) {
+      const r = await fetch(window.CURIO_API_BASE + '/scoring-mode');
+      if (r.ok) mode = (await r.json()).scoring_mode || 'local';
+    }
+  } catch (e) {}
+  const eta = mode === 'api' ? '5-10 分钟内生效（CI 全云端跑）'
+            : mode === 'off' ? '⚠️ 当前评分模式「暂停」，不会自动生成内容'
+            : '5-65 分钟内生效（需电脑开机 + WorkBuddy 在线）';
+
   let modal = $('.modal-overlay.add-issue');
   if (!modal) {
     modal = document.createElement('div');
@@ -715,7 +727,11 @@ function openAddDomainViaIssue() {
     modal.innerHTML = `
       <div class="modal">
         <h3>申请新增领域</h3>
-        <p>填好后会跳到 GitHub 提交一条 Issue，Agent 下次跑前会自动读取并加入新领域。</p>
+        <p>填好后会跳到 GitHub 提交一条 Issue，CI 自动读取并加入新领域。</p>
+        <p style="background:var(--bg-elev);padding:8px 12px;border-left:3px solid var(--accent);font-size:12px;color:var(--text-soft);margin:8px 0;">
+          ⏱ ${eta}<br>
+          🔧 当前评分模式：<strong>${mode === 'api' ? '☁️ API' : mode === 'off' ? '⏸ 暂停' : '🖥️ 本地'}</strong>
+        </p>
         <div class="form-row">
           <label>领域名（中文）</label>
           <input type="text" id="ai-name" placeholder="例：生物科技 / 量子计算 / 摄影" autofocus>
@@ -1655,52 +1671,23 @@ function initSearch() {
 }
 
 // ===== 启动 =====
-// 页面加载后从 worker 拉最新领域列表，动态修正 nav-links
-// （SSG 静态版只反映 build 当时的 sources.yaml，所以增删领域需要这一步同步）
-async function syncNavLinks() {
+// 主页"你的领域"卡片同步（删除领域后让消失的 chip 立即不显示）
+async function syncDomainCards() {
   if (!window.CURIO_API_BASE) return;
   try {
     const r = await fetch(window.CURIO_API_BASE + '/domains');
     if (!r.ok) return;
     const d = await r.json();
-    if (!Array.isArray(d.domains) || !d.meta) return;
-    const navEl = $('.nav-links');
-    if (!navEl) return;
-    // 当前 nav 已有的 domain ids
-    const existing = new Set();
-    $$('.nav-links a').forEach(a => {
-      const m = a.getAttribute('href') || '';
-      const match = m.match(/\/d\/([^\/]+)\//);
-      if (match) existing.add(match[1]);
-    });
-    // worker 返回的 domain ids
+    if (!Array.isArray(d.domains)) return;
     const live = new Set(d.domains);
-    // 差集
-    const toAdd = d.domains.filter(id => !existing.has(id));
-    const toRemove = [...existing].filter(id => !live.has(id));
-    // 移除（领域被删）
-    toRemove.forEach(id => {
-      const a = $$(`.nav-links a[href*="/d/${id}/"]`)[0];
-      if (a) a.remove();
+    // 主页 .domain-card 同步（hide 已删的，不重新创建已有的）
+    $$('.domain-card').forEach(card => {
+      const id = card.dataset.domainId;
+      if (id && !live.has(id)) {
+        card.style.display = 'none';
+      }
     });
-    // 追加（领域被加）
-    toAdd.forEach(id => {
-      const meta = d.meta[id] || {};
-      const a = document.createElement('a');
-      const root = window.CURIO_REL_ROOT || '';
-      a.href = root + 'd/' + id + '/';
-      a.textContent = meta.name || id;
-      navEl.appendChild(a);
-    });
-    // 主页的"你的领域"卡片也尝试同步（仅首页有）
-    const grid = $('.domains');
-    if (grid) {
-      // 这里不重渲染（避免破坏 SVG），只在 site 重 build 后才彻底同步
-      // 现阶段只让 nav 同步即可
-    }
-  } catch (e) {
-    // worker 不在线或 CORS 失败，忽略
-  }
+  } catch (e) {}
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -1709,8 +1696,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initTOC();
   initSearch();
 
-  // 同步顶部导航的领域列表（异步，从 worker /domains 拉）
-  syncNavLinks();
+  // 主页 chip 同步（隐藏已删的领域）
+  syncDomainCards();
 
   // 添加领域按钮（点击）
   const addBtn = $('.add-domain');
@@ -2300,7 +2287,8 @@ def _page_template(page_title: str, nav_active: str, depth: int, body: str) -> s
 <nav class="nav">
   <div class="nav-inner">
     <a class="brand" href="{brand_href}">Curio<span class="dot">.</span></a>
-    <div class="nav-links">{nav_html}</div>
+    <!-- 顶部导航不再展示领域 chip（避免重复 + 同步问题）；点 brand 回首页用卡片选 -->
+    <div class="nav-links" style="display:none">{nav_html}</div>
     <div class="nav-actions">
       <div class="search-wrap">
         <span class="search-icon">

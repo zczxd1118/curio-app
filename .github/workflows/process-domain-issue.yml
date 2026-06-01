@@ -10,7 +10,10 @@ on:
 
 jobs:
   ingest-add-domain:
-    if: contains(github.event.issue.labels.*.name, 'curio-add-domain')
+    # 兼容 label 没贴上的情况：title 前缀也算
+    if: |
+      contains(github.event.issue.labels.*.name, 'curio-add-domain') ||
+      startsWith(github.event.issue.title, '[curio-add-domain]')
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -18,6 +21,14 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Auto-label issue if missing
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ! gh issue view ${{ github.event.issue.number }} --repo ${{ github.repository }} --json labels --jq '.labels[].name' | grep -q '^curio-add-domain$'; then
+            gh issue edit ${{ github.event.issue.number }} --repo ${{ github.repository }} --add-label curio-add-domain || true
+          fi
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -70,7 +81,9 @@ jobs:
           想立即看？等 2 分钟后回主页点该域的「⚡ 立即生成」按钮。"
 
   ingest-delete-domain:
-    if: contains(github.event.issue.labels.*.name, 'curio-delete-domain')
+    if: |
+      contains(github.event.issue.labels.*.name, 'curio-delete-domain') ||
+      startsWith(github.event.issue.title, '[curio-delete-domain]')
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -78,6 +91,14 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Auto-label issue if missing
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ! gh issue view ${{ github.event.issue.number }} --repo ${{ github.repository }} --json labels --jq '.labels[].name' | grep -q '^curio-delete-domain$'; then
+            gh issue edit ${{ github.event.issue.number }} --repo ${{ github.repository }} --add-label curio-delete-domain || true
+          fi
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -125,7 +146,9 @@ jobs:
           - 想立即生效：去主页点任意域的「⚡ 立即生成」触发一次 finalize"
 
   ingest-generate:
-    if: contains(github.event.issue.labels.*.name, 'curio-generate')
+    if: |
+      contains(github.event.issue.labels.*.name, 'curio-generate') ||
+      startsWith(github.event.issue.title, '[curio-generate]')
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -133,6 +156,14 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Auto-label issue if missing
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ! gh issue view ${{ github.event.issue.number }} --repo ${{ github.repository }} --json labels --jq '.labels[].name' | grep -q '^curio-generate$'; then
+            gh issue edit ${{ github.event.issue.number }} --repo ${{ github.repository }} --add-label curio-generate || true
+          fi
+
       - name: Checkout
         uses: actions/checkout@v4
 
