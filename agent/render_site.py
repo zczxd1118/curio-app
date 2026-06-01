@@ -78,14 +78,45 @@ body {
 
 /* Nav */
 .nav { position: sticky; top: 0; z-index: 50; background: rgba(10,10,11,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
-.nav-inner { max-width: 1080px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; gap: 24px; font-family: var(--sans); font-size: 13px; }
-.brand { font-family: var(--serif); font-size: 18px; font-weight: 600; letter-spacing: 0.02em; color: var(--text); text-decoration: none; }
+.nav-inner {
+  max-width: 1080px; margin: 0 auto; padding: 14px 24px;
+  display: flex; align-items: center; gap: 20px;
+  font-family: var(--sans); font-size: 13px;
+}
+.brand { font-family: var(--serif); font-size: 18px; font-weight: 600; letter-spacing: 0.02em; color: var(--text); text-decoration: none; flex-shrink: 0; }
 .brand .dot { color: var(--accent); }
 .nav .author { color: var(--text-mute); margin-left: 4px; }
-.nav-links { display: flex; gap: 16px; margin-left: auto; align-items: center; flex-wrap: wrap; }
-.nav-links a { color: var(--text-soft); text-decoration: none; padding: 4px 10px; border-radius: 4px; transition: all 0.15s; }
+
+/* 中间领域 chips（自适应 + 溢出滚动，不再换行） */
+.nav-links {
+  display: flex; gap: 4px; align-items: center;
+  flex: 1; min-width: 0;
+  overflow-x: auto; overflow-y: hidden;
+  scrollbar-width: none;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-soft); text-decoration: none;
+  padding: 5px 10px; border-radius: 6px; transition: all 0.15s;
+  white-space: nowrap; flex-shrink: 0;
+}
 .nav-links a:hover { color: var(--text); background: var(--bg-elev); }
 .nav-links a.active { color: var(--accent); }
+
+/* 右侧 actions：搜索 + 订阅 + 设置 + 主题切换 */
+.nav-actions {
+  display: flex; align-items: center; gap: 8px; flex-shrink: 0;
+}
+
+/* 移动端折叠 */
+@media (max-width: 980px) {
+  .nav-inner { gap: 12px; padding: 12px 16px; }
+  .brand { font-size: 16px; }
+  .nav .author { display: none; }
+}
+@media (max-width: 640px) {
+  .nav-links { display: none; } /* 太挤就藏，反正首页 chip 卡片可点 */
+}
 
 /* Main */
 main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
@@ -356,10 +387,12 @@ html[data-theme="light"] .theme-toggle .icon-moon-default { display: none; }
   font-family: var(--sans); font-size: 13px; font-weight: 600; cursor: pointer;
   padding: 7px 14px; border-radius: 8px; transition: all 0.15s;
   display: inline-flex; align-items: center; gap: 6px; height: 34px;
+  white-space: nowrap; flex-shrink: 0;
 }
+.subscribe-btn .sub-label { white-space: nowrap; }
 .subscribe-btn:hover { background: var(--accent-soft); border-color: var(--accent-soft); color: #0a0a0b; transform: translateY(-1px); }
 .subscribe-btn svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-@media (max-width: 720px) { .subscribe-btn .sub-label { display: none; } }
+@media (max-width: 980px) { .subscribe-btn .sub-label { display: none; } }
 
 /* 订阅 modal 复用 add-domain modal 样式，但加 checkbox / radio 视觉 */
 .sub-domain-grid {
@@ -423,15 +456,22 @@ html[data-theme="light"] .theme-toggle .icon-moon-default { display: none; }
 /* 旧 emoji 模式遗留（已废弃但避免 CSS 冲突）*/
 
 /* 搜索框 */
-.search-wrap { position: relative; }
+.search-wrap { position: relative; flex-shrink: 0; }
 .search-input {
   background: var(--bg-elev); border: 1px solid var(--line); color: var(--text);
   font-family: var(--sans); font-size: 13px; height: 34px;
-  padding: 0 12px 0 32px; border-radius: 8px; width: 200px;
+  padding: 0 12px 0 32px; border-radius: 8px; width: 160px;
   transition: all 0.15s;
 }
 .search-input::placeholder { color: var(--text-mute); }
-.search-input:focus { outline: none; border-color: var(--accent-soft); width: 260px; background: var(--bg-soft); }
+.search-input:focus { outline: none; border-color: var(--accent-soft); width: 220px; background: var(--bg-soft); }
+@media (max-width: 980px) {
+  .search-input { width: 130px; }
+  .search-input:focus { width: 180px; }
+}
+@media (max-width: 720px) {
+  .search-wrap { display: none; }  /* 让 ⌘K 在移动端走快捷键即可 */
+}
 .search-icon {
   position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
   color: var(--text-mute); pointer-events: none;
@@ -2174,28 +2214,30 @@ def _page_template(page_title: str, nav_active: str, depth: int, body: str) -> s
   <div class="nav-inner">
     <a class="brand" href="{brand_href}">Curio<span class="dot">.</span></a>
     <div class="nav-links">{nav_html}</div>
-    <div class="search-wrap">
-      <span class="search-icon">
-        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
-      </span>
-      <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
-      <div class="search-results" id="curio-search-results"></div>
+    <div class="nav-actions">
+      <div class="search-wrap">
+        <span class="search-icon">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
+        </span>
+        <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
+        <div class="search-results" id="curio-search-results"></div>
+      </div>
+      <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span class="sub-label">订阅</span>
+      </button>
+      <button class="theme-toggle" id="settings-btn" title="设置（评分链路）">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      </button>
+      <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
+        <span class="icon-moon-default" style="display:inline-flex">
+          <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </span>
+        <span class="icon-sun">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </span>
+      </button>
     </div>
-    <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
-      <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-      <span class="sub-label">订阅</span>
-    </button>
-    <button class="theme-toggle" id="settings-btn" title="设置（外接 LLM API）">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-    </button>
-    <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
-      <span class="icon-moon-default" style="display:inline-flex">
-        <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-      </span>
-      <span class="icon-sun">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-      </span>
-    </button>
   </div>
 </nav>
 
