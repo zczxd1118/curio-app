@@ -91,9 +91,11 @@ async function sendEmail(env, { to, subject, html, text }) {
   return { ok, status: r.status, body };
 }
 
-function confirmEmailHTML(env, { confirmUrl, domains, cadence }) {
+function confirmEmailHTML(env, { confirmUrl, domains, cadence, meta }) {
   const cadenceText = cadence === "daily" ? "每天中午 12:00" : "每周一中午 12:00";
-  const domainList = domains.map((d) => `<li>${d}</li>`).join("");
+  // 用中文名展示，meta 缺时回退 slug
+  const displayName = (slug) => (meta && meta[slug] && meta[slug].name) || slug;
+  const domainList = domains.map((d) => `<li>${displayName(d)}</li>`).join("");
   return `<!doctype html><html><body style="font-family:-apple-system,system-ui,sans-serif;max-width:560px;margin:30px auto;padding:0 20px;color:#1a1a1c;line-height:1.6">
 <h2 style="margin:0 0 4px;font-weight:600;letter-spacing:-0.01em">确认订阅 Curio</h2>
 <p style="color:#888;font-size:13px;margin:0 0 20px">你的私人主编 · curioradar.fun</p>
@@ -151,10 +153,12 @@ async function handleSubscribe(req, env) {
   await env.CURIO_KV.put("pending:" + token, JSON.stringify(pending), { expirationTtl: PENDING_TTL_SEC });
 
   const confirmUrl = `${env.API_BASE}/confirm?token=${token}`;
+  // 拉 domains:meta 让确认邮件里显示中文名而不是 slug
+  const meta = await env.CURIO_KV.get("domains:meta", "json");
   const mail = await sendEmail(env, {
     to: lower,
     subject: "确认订阅 Curio · 你的私人主编",
-    html: confirmEmailHTML(env, { confirmUrl, domains, cadence }),
+    html: confirmEmailHTML(env, { confirmUrl, domains, cadence, meta }),
     text: `请点击链接完成订阅确认：${confirmUrl}\n（48 小时内有效）`,
   });
   if (!mail.ok) {
@@ -582,6 +586,10 @@ async function handleBroadcast(req, env) {
   let sent = 0, skipped = 0, failed = 0;
   const errors = [];
 
+  // 加载 domains 元数据用来在邮件底部显示中文名
+  const domainsMeta = (await env.CURIO_KV.get("domains:meta", "json")) || {};
+  const displayName = (slug) => (domainsMeta[slug] && domainsMeta[slug].name) || slug;
+
   const dateStr = new Date().toISOString().slice(0, 10);
   const force = !!body.force;  // POST 时传 force:true 可绕过去重（手动想强发）
 
@@ -612,7 +620,7 @@ async function handleBroadcast(req, env) {
 ${blocks.join('<hr style="border:none;border-top:1px solid #ddd;margin:32px 0">')}
 <hr style="border:none;border-top:1px solid #ddd;margin:32px 0">
 <p style="font-size:12px;color:#888">
-  你正在订阅 ${sub.domains.join(", ")}（${cadence === "daily" ? "日报" : "周刊"}）<br>
+  你正在订阅 ${sub.domains.map(displayName).join("、")}（${cadence === "daily" ? "日报" : "周刊"}）<br>
   <a href="${unsubUrl}" style="color:#888">退订</a> · <a href="${env.SITE_BASE}/" style="color:#888">访问 Curio 网站</a>
 </p>
 </body></html>`;

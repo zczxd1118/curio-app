@@ -122,27 +122,12 @@ jobs:
             done
           fi
 
-      - name: Comment on issue (按 mode)
+      - name: Close issue silently (不发评论邮件)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ "${{ steps.addmode.outputs.mode }}" = "api" ]; then
-            BODY="✅ 领域已加入 sources.yaml + CI 已自动串联（fetch → score → finalize）
-
-          **预计 5-10 分钟内主页出现新 chip + 邮箱收到内容**。
-
-          全程在 GitHub Actions 跑，电脑可关机。"
-          else
-            BODY="✅ 领域已加入 sources.yaml + 触发候选池抓取（约 2 分钟）。
-
-          ⚠ 当前评分模式：\`${{ steps.addmode.outputs.mode }}\`，**评分需要本地 WorkBuddy 跑**：
-          - 必须电脑开机 + WorkBuddy 在跑
-          - 等下个整点 hourly automation 触发评分 → finalize → 邮件
-          - **预计 5-65 分钟生效**
-
-          想 5 分钟生效：去 ⚙️ 设置 切到「API（无人值守）」。"
-          fi
-          gh issue comment ${{ github.event.issue.number }} --body "$BODY"
+          gh issue close ${{ github.event.issue.number }} --reason completed || true
+          gh issue edit ${{ github.event.issue.number }} --add-label curio-ingested || true
 
   ingest-delete-domain:
     if: |
@@ -199,15 +184,12 @@ jobs:
             done
           fi
 
-      - name: Comment on issue
+      - name: Close issue silently (不发评论邮件)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh issue comment ${{ github.event.issue.number }} --body "✅ 领域已从 sources.yaml 移除，订阅者已从该域退订。
-
-          - 主页 chip 在下次重 build 后消失（最坏 24h，触发抓取或评分都会顺带 build）
-          - 历史 markdown 不删，仍可通过直接 URL 访问
-          - 想立即生效：去主页点任意域的「⚡ 立即生成」触发一次 finalize"
+          gh issue close ${{ github.event.issue.number }} --reason completed || true
+          gh issue edit ${{ github.event.issue.number }} --add-label curio-ingested || true
 
   ingest-generate:
     if: |
@@ -310,16 +292,15 @@ jobs:
             done
           fi
 
-      - name: Close issue (api mode)
+      - name: Close issue silently (api mode, 不发评论邮件)
         if: steps.mode.outputs.mode == 'api'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHONUNBUFFERED: "1"
         run: |
-          # 直接调 GitHub API 关 issue（不依赖 .pending_generate.json）
           ISSUE_NUM=${{ github.event.issue.number }}
-          gh issue close $ISSUE_NUM --comment "✅ API 模式：CI 已完整生成新内容并发送邮件。" --reason completed || echo "close 失败但已尝试"
-          # 加 curio-ingested label
+          # 不带 --comment 关闭，避免触发 GitHub notification 邮件
+          gh issue close $ISSUE_NUM --reason completed || echo "close 失败但已尝试"
           gh issue edit $ISSUE_NUM --add-label curio-ingested || true
 
       - name: Inline fetch only (local/off mode)
@@ -343,35 +324,31 @@ jobs:
             done
           fi
 
-      - name: Comment on issue
+      - name: Update issue body (silent, 不触发 notification)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ "${{ steps.mode.outputs.mode }}" = "api" ]; then
-            BODY="✅ 已收到（API 模式）
-
-          链路：
-          1. 候选池抓取（已触发，约 2 分钟）
-          2. score-and-finalize 评分 + 渲染 + 邮件（已触发，约 3 分钟）
-
-          **预计 5-7 分钟内主页 + 邮箱可见。**
-
-          主页：https://curioradar.fun/"
-          elif [ "${{ steps.mode.outputs.mode }}" = "off" ]; then
-            BODY="⏸ 已收到，但当前评分模式为「暂停」。
-
-          请去 https://curioradar.fun → ⚙️ 设置 → 切换到「本地」或「API」。"
+          # 不发 comment（comment 会触发 GitHub email notification）
+          # 改成把状态写到 issue body 末尾，编辑 body 不发邮件
+          ISSUE_NUM=${{ github.event.issue.number }}
+          MODE="${{ steps.mode.outputs.mode }}"
+          OLD_BODY=$(gh issue view $ISSUE_NUM --json body --jq .body)
+          if [ "$MODE" = "api" ]; then
+            STATUS="✅ 已收到（API 模式）— 预计 5-7 分钟内主页 + 邮箱可见"
+          elif [ "$MODE" = "off" ]; then
+            STATUS="⏸ 当前模式为暂停，请去主页设置切换"
           else
-            BODY="✅ 已收到（本地模式）
-
-          链路：
-          1. 候选池正在重新抓取（约 2 分钟）
-          2. 等下一个整点（最多 60 分钟），WorkBuddy 唤醒 Claude 评分
-
-          **预计 5-65 分钟内主页 + 邮箱可见。**
-
-          想真无人值守 < 5 分钟生效？去 ⚙️ 设置 切换到「API」模式。
-
-          主页：https://curioradar.fun/"
+            STATUS="✅ 已收到（本地模式）— 5-65 分钟生效"
           fi
-          gh issue comment ${{ github.event.issue.number }} --body "$BODY"
+          gh issue edit $ISSUE_NUM --body "$OLD_BODY
+
+          ---
+          $STATUS"
+
+      # local/off 模式：关闭 issue（防止积压）
+      - name: Close issue silently (local/off mode)
+        if: steps.mode.outputs.mode != 'api'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue close ${{ github.event.issue.number }} --reason completed || true

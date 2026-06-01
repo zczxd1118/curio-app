@@ -642,11 +642,10 @@ def ingest_add_domain_issues() -> int:
         # 新版前端用 icon_type（svg key），保留 icon 兼容旧版
         icon_type = data.get("icon_type") or ""
         freq = data.get("frequency") or "weekly"
-        # 生成 slug：英文直接用，中文优先映射到英文关键词
+        # 生成 slug：英文直接用，中文优先映射到英文关键词，再次 fallback 用内置词典
         import re
         slug = re.sub(r"[^a-z0-9-]+", "-", name.lower()).strip("-")
         if not slug:
-            # 中文名 → 用 auto_sources 的 ZH_EN_HINTS 反查英文
             try:
                 from agent.auto_sources import ZH_EN_HINTS, _translate_safe
                 en_words = _translate_safe(name)
@@ -654,6 +653,22 @@ def ingest_add_domain_issues() -> int:
                     slug = re.sub(r"[^a-z0-9-]+", "-", "-".join(en_words[:2]).lower()).strip("-")
             except Exception:
                 pass
+        if not slug:
+            # 内置中文 → 英文 slug 词典（按出现顺序匹配，组合词优先）
+            ZH_TO_SLUG = [
+                ("电子信息与芯片", "tech-chip"), ("电子信息", "tech-info"),
+                ("人工智能", "ai"), ("大模型", "llm"), ("机器学习", "ml"),
+                ("半导体", "semiconductor"), ("芯片", "chip"), ("电子", "electronics"),
+                ("金融", "finance"), ("股票", "stock"), ("投资", "investing"),
+                ("加密货币", "crypto"), ("区块链", "blockchain"),
+                ("新能源", "energy"), ("汽车", "auto"), ("医疗", "health"),
+                ("游戏", "gaming"), ("教育", "education"), ("消费", "consumer"),
+                ("地产", "realestate"), ("房产", "realestate"),
+            ]
+            for k, v in ZH_TO_SLUG:
+                if k in name:
+                    slug = v if v not in domains_cfg else f"{v}-{num}"
+                    break
         if not slug:
             slug = f"domain-{num}"
         if slug in domains_cfg:
