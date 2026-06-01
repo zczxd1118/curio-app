@@ -1,0 +1,137 @@
+name: score-and-finalize
+
+# ⚠️ 启用前提：
+#   1. 在 curioradar.fun 的设置弹窗里配好 LLM API（BYOK）—— 这是默认路径
+#      或者：在 GitHub Secrets 配 DEEPSEEK_API_KEY 等环境变量（fallback）
+#   2. Secrets 必配：CURIO_ADMIN_TOKEN、SMTP_PASS、CURIO_GH_PAT
+#   3. 启用 = 把下面 schedule 取消注释
+#   4. 同时去 WorkBuddy 把 daily / weekly automation 设为 PAUSED，避免 A/B 双跑撞 scored.json
+
+on:
+  workflow_dispatch:
+    inputs:
+      cadence:
+        description: 'cadence: daily / weekly'
+        required: false
+        default: 'daily'
+  # schedule:
+  #   - cron: '0 4 * * *'      # daily 每天 12:00 北京（UTC 04:00）
+  #   - cron: '0 4 * * 1'      # weekly 周一 12:00 北京（实际跑两次，cadence 由 _is_monday 判断）
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: score-and-finalize
+  cancel-in-progress: false
+
+jobs:
+  score-and-finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout curio-app
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Decide cadence
+        id: cad
+        run: |
+          if [ -n "${{ github.event.inputs.cadence }}" ]; then
+            echo "cadence=${{ github.event.inputs.cadence }}" >> $GITHUB_OUTPUT
+          elif [ "$(date -u +%u)" = "1" ]; then
+            echo "cadence=weekly" >> $GITHUB_OUTPUT
+          else
+            echo "cadence=daily" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Pull latest candidates
+        run: |
+          git pull --rebase origin main
+          ls -la topics/unified.score-prompt.md topics/unified.candidates.json || true
+
+      - name: Skip if scored.json fresh (< 30min)
+        run: |
+          if [ -f topics/unified.scored.json ]; then
+            mtime=$(stat -c %Y topics/unified.scored.json 2>/dev/null || stat -f %m topics/unified.scored.json)
+            now=$(date -u +%s)
+            age=$(( now - mtime ))
+            echo "scored.json age=${age}s"
+            if [ "$age" -lt 1800 ]; then
+              echo "⏭ scored.json 在 30 分钟内已生成，跳过本轮（避免 A/B 双跑覆盖）"
+              echo "skip=1" >> $GITHUB_ENV
+            fi
+          fi
+
+      - name: Score (call LLM API · BYOK from worker)
+        if: env.skip != '1'
+        env:
+          # 主路径：worker BYOK（用户在网页"设置"里配的）
+          CURIO_API_BASE: https://api.curioradar.fun
+          CURIO_ADMIN_TOKEN: ${{ secrets.CURIO_ADMIN_TOKEN }}
+          # 兜底：如果 worker 没配 LLM，回退到 GitHub Secret 的 DEEPSEEK_API_KEY（可选）
+          LLM_PROVIDER: deepseek
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          python -m agent.score_with_llm
+
+      - name: Write secrets to local files (for finalize_unified)
+        if: env.skip != '1'
+        env:
+          CURIO_GH_PAT: ${{ secrets.CURIO_GH_PAT }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+        run: |
+          # cli_generate.py 的 push_site() 读 .gh_pat
+          if [ -n "$CURIO_GH_PAT" ]; then
+            echo -n "$CURIO_GH_PAT" > .gh_pat
+            chmod 600 .gh_pat
+          fi
+          # notify_email 优先读环境变量 SMTP_PASS（已通过 env 注入），无需写文件
+
+      - name: Configure git user (for site push)
+        if: env.skip != '1'
+        run: |
+          git config --global user.email "curio-bot@users.noreply.github.com"
+          git config --global user.name "curio-bot"
+
+      - name: Finalize (split → site → push → email → broadcast)
+        if: env.skip != '1'
+        env:
+          # finalize 内部调 worker_sync push_content / sync_domains / broadcast，需要 admin token
+          CURIO_ADMIN_TOKEN: ${{ secrets.CURIO_ADMIN_TOKEN }}
+          # notify_email 读 SMTP_PASS env
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          # cli_generate 跑 PY 子进程时把 env 也带过去
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python cli_generate.py finalize_unified --cadence ${{ steps.cad.outputs.cadence }}
+
+      - name: Commit & push scored.json + topics
+        if: env.skip != '1'
+        run: |
+          # finalize 已经 push 过 curio-site，这里把 curio-app 内的 scored.json + radar md 推回 main
+          git add topics/unified.scored.json topics/radar.*.md topics/*.weekly.*.md || true
+          if git diff --staged --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "chore(ci): scored + finalized [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin main && break || sleep 5
+            done
+          fi
+
+      - name: Cleanup secrets file
+        if: always()
+        run: rm -f .gh_pat

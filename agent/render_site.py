@@ -726,11 +726,16 @@ function openAddDomainViaIssue() {
 function openGenerateViaIssue(domainId, domainName) {
   // 简单 cooldown 检查（localStorage，软限）
   const key = 'curio:gen:' + domainId;
-  const last = parseInt(localStorage.getItem(key) || '0', 10);
+  let last = parseInt(localStorage.getItem(key) || '0', 10);
   const now = Date.now();
-  const cooldownMs = 30 * 60 * 1000; // 30 分钟（够本地 hourly automation 跑一次）
-  if (now - last < cooldownMs) {
-    const remain = Math.ceil((cooldownMs - (now - last)) / 1000 / 60);
+  const cooldownMs = 30 * 60 * 1000; // 30 分钟（够 Agent 跑一次）
+  // 兜底：last 是脏数据（NaN / 大于现在 / 老到无意义）→ 清掉
+  if (!Number.isFinite(last) || last > now || last < now - 365 * 24 * 60 * 60 * 1000) {
+    localStorage.removeItem(key);
+    last = 0;
+  }
+  if (last > 0 && now - last < cooldownMs) {
+    const remain = Math.max(1, Math.ceil((cooldownMs - (now - last)) / 1000 / 60));
     if (!confirm(`你刚才已经触发过「${domainName}」的生成，建议等 ${remain} 分钟（让 Agent 跑一次）。\n\n点确定继续提交，点取消放弃。`)) return;
   }
 
@@ -817,6 +822,160 @@ function openGenerateViaIssue(domainId, domainName) {
       toast('已打开 GitHub 提交页，Agent 在下次触发时（最长 1 小时）拉到');
     }
   });
+  modal.classList.add('show');
+}
+
+// 设置 modal：BYOK · 外接 LLM API（配 key 后 CI 调 API 评分，电脑可关机）
+async function openSettingsModal() {
+  // 取 owner pin（首次让用户输入，存 sessionStorage 关浏览器就忘）
+  let pin = sessionStorage.getItem('curio:owner_pin');
+  if (!pin) {
+    pin = window.prompt('请输入 Owner PIN（部署时设的 OWNER_PIN，4-32 位）：');
+    if (!pin) return;
+    pin = pin.trim();
+  }
+
+  // 拉一次现有配置（顺便验证 PIN）
+  let current = null;
+  let pinOk = false;
+  try {
+    const r = await fetch(window.CURIO_API_BASE + '/llm/config', {
+      headers: { 'X-Curio-Owner-Pin': pin },
+    });
+    if (r.status === 401) {
+      sessionStorage.removeItem('curio:owner_pin');
+      alert('PIN 错误，请重试。');
+      return;
+    }
+    pinOk = true;
+    sessionStorage.setItem('curio:owner_pin', pin);
+    current = await r.json();
+  } catch (e) {
+    alert('无法连接 API：' + e.message);
+    return;
+  }
+
+  let modal = $('.modal-overlay.settings');
+  if (modal) modal.remove();
+  modal = document.createElement('div');
+  modal.className = 'modal-overlay settings';
+
+  const cur = current || {};
+  const cfg = cur.configured ? cur : {};
+  modal.innerHTML = `
+    <div class="modal" style="max-width:560px">
+      <h3>⚙️ 设置 · 外接 LLM API（BYOK）</h3>
+      <p style="color:var(--text-soft);font-size:13px">
+        配好后，CI 会调你的 API 评分写 scored.json，<strong>电脑可关机</strong>，无人值守跑全流程。
+        Key 仅存在 Curio 的 KV 中，不会同步到 GitHub。
+      </p>
+
+      <div class="form-row">
+        <label>提供商</label>
+        <select id="llm-provider" style="width:100%;padding:8px;background:var(--bg-elev);border:1px solid var(--line);color:var(--text);border-radius:4px;font-size:13px">
+          <option value="deepseek">DeepSeek（推荐：便宜 + 中文好）</option>
+          <option value="openai">OpenAI</option>
+          <option value="kimi">Kimi（Moonshot）</option>
+          <option value="zhipu">智谱 GLM</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label>API Key</label>
+        <input type="password" id="llm-key" placeholder="${cfg.key_masked ? '当前：' + cfg.key_masked + '（留空保留）' : 'sk-xxxxxxxx...'}"
+          style="width:100%;padding:8px;background:var(--bg-elev);border:1px solid var(--line);color:var(--text);border-radius:4px;font-family:var(--mono);font-size:12px">
+      </div>
+
+      <div class="form-row">
+        <label>模型（留空用默认）</label>
+        <input type="text" id="llm-model" placeholder="deepseek-chat"
+          value="${cfg.model || ''}"
+          style="width:100%;padding:8px;background:var(--bg-elev);border:1px solid var(--line);color:var(--text);border-radius:4px;font-family:var(--mono);font-size:12px">
+      </div>
+
+      <div id="llm-test-result" style="margin:12px 0;padding:10px;border-radius:4px;font-size:13px;display:none"></div>
+
+      <div class="modal-actions" style="display:flex;justify-content:space-between;gap:8px">
+        <button class="btn-secondary" id="llm-clear" style="margin-right:auto">清除配置</button>
+        <button class="btn-secondary" id="llm-cancel">取消</button>
+        <button class="btn-secondary" id="llm-test">测试连接</button>
+        <button class="btn-primary" id="llm-save">保存</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  // 回填 provider
+  if (cfg.provider) $('#llm-provider', modal).value = cfg.provider;
+
+  $('#llm-cancel', modal).addEventListener('click', () => modal.remove());
+  modal.addEventListener('click', (e) => { if (e.target === modal) modal.remove(); });
+
+  $('#llm-clear', modal).addEventListener('click', async () => {
+    if (!confirm('确定清除已保存的 LLM 配置？清除后 CI 链路会失败。')) return;
+    const r = await fetch(window.CURIO_API_BASE + '/llm/config', {
+      method: 'DELETE',
+      headers: { 'X-Curio-Owner-Pin': pin },
+    });
+    if (r.ok) { alert('已清除'); modal.remove(); }
+    else alert('清除失败：' + r.status);
+  });
+
+  const showResult = (kind, msg) => {
+    const el = $('#llm-test-result', modal);
+    el.style.display = 'block';
+    el.style.background = kind === 'ok' ? 'rgba(34,197,94,0.1)' : 'rgba(239,68,68,0.1)';
+    el.style.border = '1px solid ' + (kind === 'ok' ? 'rgba(34,197,94,0.3)' : 'rgba(239,68,68,0.3)');
+    el.style.color = kind === 'ok' ? '#16a34a' : '#dc2626';
+    el.textContent = msg;
+  };
+
+  $('#llm-test', modal).addEventListener('click', async () => {
+    const provider = $('#llm-provider', modal).value;
+    const api_key = $('#llm-key', modal).value.trim();
+    const model = $('#llm-model', modal).value.trim();
+    showResult('ok', '⏳ 测试中...');
+    try {
+      const r = await fetch(window.CURIO_API_BASE + '/llm/test', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'X-Curio-Owner-Pin': pin },
+        body: JSON.stringify(api_key ? { provider, api_key, model } : {}),
+      });
+      const data = await r.json();
+      if (data.ok) {
+        showResult('ok', `✅ 通了（${data.latency_ms}ms）回复：${data.reply || '(空)'}`);
+      } else {
+        showResult('err', `❌ ${data.status || ''} ${data.error || ''}`.slice(0, 300));
+      }
+    } catch (e) {
+      showResult('err', '请求失败：' + e.message);
+    }
+  });
+
+  $('#llm-save', modal).addEventListener('click', async () => {
+    const provider = $('#llm-provider', modal).value;
+    const api_key = $('#llm-key', modal).value.trim();
+    const model = $('#llm-model', modal).value.trim();
+    if (!api_key) { showResult('err', '请填 API Key'); return; }
+    showResult('ok', '⏳ 保存中...');
+    try {
+      const r = await fetch(window.CURIO_API_BASE + '/llm/config', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'X-Curio-Owner-Pin': pin },
+        body: JSON.stringify({ provider, api_key, model }),
+      });
+      const data = await r.json();
+      if (data.ok) {
+        showResult('ok', `✅ 已保存。Provider=${data.provider}, Key=${data.key_masked}`);
+        setTimeout(() => modal.remove(), 1200);
+      } else {
+        showResult('err', '❌ ' + (data.error || '保存失败'));
+      }
+    } catch (e) {
+      showResult('err', '请求失败：' + e.message);
+    }
+  });
+
   modal.classList.add('show');
 }
 
@@ -1354,6 +1513,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // 订阅按钮
   const subBtn = $('#subscribe-btn');
   if (subBtn) subBtn.addEventListener('click', openSubscribeModal);
+  // 设置按钮（BYOK · 外接 LLM API）
+  const setBtn = $('#settings-btn');
+  if (setBtn) setBtn.addEventListener('click', openSettingsModal);
 
   // 删除领域按钮
   $$('.del-btn').forEach(btn => {
@@ -1943,6 +2105,9 @@ def _page_template(page_title: str, nav_active: str, depth: int, body: str) -> s
     <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
       <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
       <span class="sub-label">订阅</span>
+    </button>
+    <button class="theme-toggle" id="settings-btn" title="设置（外接 LLM API）">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
     </button>
     <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
       <span class="icon-moon-default" style="display:inline-flex">

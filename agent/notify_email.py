@@ -81,15 +81,71 @@ def read_email_cfg() -> dict:
 # 收集本期摘要
 # ============================================================
 
+def _active_domain_names() -> set:
+    """从 sources.yaml 读当前活跃的域名（中文显示名 + 英文 slug 都算）"""
+    try:
+        import yaml
+        cfg = yaml.safe_load((ROOT / "sources.yaml").read_text(encoding="utf-8")) or {}
+        names = set()
+        for slug, info in (cfg.get("domains") or {}).items():
+            names.add(slug)
+            n = (info or {}).get("name")
+            if n:
+                names.add(n)
+        return names
+    except Exception:
+        return set()
+
+
 def collect_digest() -> dict:
-    """扫 topics/*.scored.json 取本期必读"""
+    """优先读 unified.scored.json（当前 unified 模式）；
+    fallback 才扫 topics/*.scored.json，并按 sources.yaml 当前域过滤掉历史残骸。
+    """
     digest = {"date": time.strftime("%Y-%m-%d"), "domains": []}
+
+    # ===== 优先：unified.scored.json =====
+    unified = TOPICS / "unified.scored.json"
+    if unified.exists():
+        try:
+            d = json.loads(unified.read_text(encoding="utf-8"))
+        except Exception:
+            d = None
+        if d and isinstance(d, dict):
+            digest["date"] = d.get("date") or digest["date"]
+            # 把 headlines + shortlist 按 domain 分组
+            by_domain: dict[str, dict] = {}
+            for h in (d.get("headlines") or []):
+                name = h.get("domain") or "未分类"
+                grp = by_domain.setdefault(name, {"name": name, "intro": "", "must_read": []})
+                grp["must_read"].append({
+                    "title": (h.get("title") or "")[:120],
+                    "url": h.get("url") or "",
+                    "platform": h.get("source") or h.get("platform") or "",
+                    "why": (h.get("implication") or h.get("lead") or "")[:200],
+                })
+            # intro 整体放到第一个域上（unified 只有一段 intro）
+            unified_intro = (d.get("intro") or "")[:300]
+            for i, name in enumerate(by_domain):
+                if i == 0 and unified_intro:
+                    by_domain[name]["intro"] = unified_intro
+            digest["domains"] = list(by_domain.values())
+            if digest["domains"]:
+                return digest
+
+    # ===== fallback：老 4 域分发模式 =====
+    active = _active_domain_names()
     for f in sorted(TOPICS.glob("*.scored.json")):
+        if f.name == "unified.scored.json":
+            continue
         try:
             d = json.loads(f.read_text(encoding="utf-8"))
         except Exception:
             continue
         domain_name = d.get("domain") or f.stem.replace(".scored", "")
+        slug_guess = f.stem.replace(".scored", "")
+        # 按当前 sources.yaml 域过滤，避免老残骸
+        if active and domain_name not in active and slug_guess not in active:
+            continue
         must = d.get("must_read", []) or []
         if not must:
             continue

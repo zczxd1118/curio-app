@@ -8,6 +8,9 @@
 //   POST /admin/sync-domains —— automation 同步 sources.yaml 到 KV
 //   POST /admin/push-content —— automation 推送本期内容到 KV
 //   POST /add-domain-request —— 网页"加领域"按钮转 GitHub Issue 跳转（前端走，这里收一份记录）
+//   GET/POST/DELETE /llm/config —— 网页"设置"弹窗 BYOK（鉴权用 OWNER_PIN，存 LLM key）
+//   POST /llm/test           —— 测试 LLM 连接是否通（用 OWNER_PIN）
+//   GET  /admin/llm-config   —— CI 拉完整 LLM 配置（用 ADMIN_TOKEN）
 //   GET  /                   —— 健康检查 + 简介
 
 const PENDING_TTL_SEC = 60 * 60 * 48; // 48h
@@ -403,6 +406,142 @@ async function handleAdminPushContent(req, env) {
   return json({ ok: true });
 }
 
+
+// ============== LLM BYOK ==============
+//
+// 单用户场景下的简化设计：
+//   - OWNER_PIN（wrangler secret put OWNER_PIN）作为前端写 LLM 配置时的鉴权
+//   - LLM key 存在 KV（"llm:owner" key），明文存（KV 本身就只有 admin/owner 能读）
+//   - GET 不暴露完整 key，只返回 provider/model/key_prefix/key_tail，避免泄漏
+//   - score-and-finalize.yml 内部用 ADMIN_TOKEN（不是 OWNER_PIN）拉完整 key
+
+const PROVIDER_DEFAULTS = {
+  deepseek: { base_url: "https://api.deepseek.com",                   model: "deepseek-chat" },
+  openai:   { base_url: "https://api.openai.com/v1",                  model: "gpt-4o-mini" },
+  kimi:     { base_url: "https://api.moonshot.cn/v1",                 model: "moonshot-v1-128k" },
+  zhipu:    { base_url: "https://open.bigmodel.cn/api/paas/v4",       model: "glm-4-flash" },
+};
+
+function isOwnerAuthed(req, env) {
+  const pin = req.headers.get("x-curio-owner-pin") || "";
+  return env.OWNER_PIN && pin === env.OWNER_PIN;
+}
+
+function maskKey(k) {
+  if (!k || typeof k !== "string") return "";
+  if (k.length <= 12) return k.slice(0, 2) + "***";
+  return k.slice(0, 6) + "..." + k.slice(-4);
+}
+
+async function handleLLMGet(req, env) {
+  if (!isOwnerAuthed(req, env)) return errorJson("unauthorized (owner pin)", 401);
+  const cfg = await env.CURIO_KV.get("llm:owner", "json");
+  if (!cfg) return json({ ok: true, configured: false });
+  return json({
+    ok: true,
+    configured: true,
+    provider: cfg.provider,
+    model: cfg.model,
+    base_url: cfg.base_url,
+    key_masked: maskKey(cfg.api_key),
+    updated_at: cfg.updated_at,
+  });
+}
+
+async function handleLLMSet(req, env) {
+  if (!isOwnerAuthed(req, env)) return errorJson("unauthorized (owner pin)", 401);
+  let body;
+  try { body = await req.json(); } catch { return errorJson("invalid json"); }
+  const provider = (body.provider || "").toLowerCase();
+  const model = (body.model || "").trim();
+  const api_key = (body.api_key || "").trim();
+  const base_url = (body.base_url || "").trim();
+  if (!provider || !PROVIDER_DEFAULTS[provider]) return errorJson("provider must be one of: " + Object.keys(PROVIDER_DEFAULTS).join(","));
+  if (!api_key || api_key.length < 10) return errorJson("api_key required (min 10 chars)");
+
+  const finalCfg = {
+    provider,
+    model: model || PROVIDER_DEFAULTS[provider].model,
+    base_url: base_url || PROVIDER_DEFAULTS[provider].base_url,
+    api_key,
+    updated_at: new Date().toISOString(),
+  };
+  await env.CURIO_KV.put("llm:owner", JSON.stringify(finalCfg));
+  return json({
+    ok: true,
+    provider: finalCfg.provider,
+    model: finalCfg.model,
+    base_url: finalCfg.base_url,
+    key_masked: maskKey(finalCfg.api_key),
+  });
+}
+
+async function handleLLMDelete(req, env) {
+  if (!isOwnerAuthed(req, env)) return errorJson("unauthorized (owner pin)", 401);
+  await env.CURIO_KV.delete("llm:owner");
+  return json({ ok: true });
+}
+
+async function handleLLMTest(req, env) {
+  if (!isOwnerAuthed(req, env)) return errorJson("unauthorized (owner pin)", 401);
+  let body;
+  try { body = await req.json(); } catch { body = {}; }
+  // 允许临时传 api_key/provider/model 测试一组未保存的配置
+  let cfg = null;
+  if (body.api_key && body.provider) {
+    const p = (body.provider || "").toLowerCase();
+    if (!PROVIDER_DEFAULTS[p]) return errorJson("provider invalid");
+    cfg = {
+      provider: p,
+      model: body.model || PROVIDER_DEFAULTS[p].model,
+      base_url: body.base_url || PROVIDER_DEFAULTS[p].base_url,
+      api_key: body.api_key,
+    };
+  } else {
+    cfg = await env.CURIO_KV.get("llm:owner", "json");
+    if (!cfg) return errorJson("no llm config and no api_key in body");
+  }
+  const t0 = Date.now();
+  try {
+    const r = await fetch(cfg.base_url.replace(/\/$/, "") + "/chat/completions", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        "authorization": "Bearer " + cfg.api_key,
+        "user-agent": "curio-llm-test/1.0",
+      },
+      body: JSON.stringify({
+        model: cfg.model,
+        messages: [
+          { role: "system", content: "Reply with one Chinese word only." },
+          { role: "user", content: "ping" },
+        ],
+        max_tokens: 8,
+        temperature: 0,
+      }),
+    });
+    const dt = Date.now() - t0;
+    const text = await r.text();
+    let parsed = null;
+    try { parsed = JSON.parse(text); } catch {}
+    if (!r.ok) {
+      return json({ ok: false, status: r.status, latency_ms: dt, error: text.slice(0, 400) });
+    }
+    const reply = parsed?.choices?.[0]?.message?.content || "";
+    return json({ ok: true, status: r.status, latency_ms: dt, reply: reply.slice(0, 80) });
+  } catch (e) {
+    return json({ ok: false, error: String(e && e.message || e) });
+  }
+}
+
+// 给 CI（GitHub Actions）拉完整 LLM 配置用：用 ADMIN_TOKEN 鉴权
+async function handleAdminLLMConfig(req, env) {
+  if (!isAdminAuthed(req, env)) return errorJson("unauthorized", 401);
+  const cfg = await env.CURIO_KV.get("llm:owner", "json");
+  if (!cfg) return errorJson("no llm config", 404);
+  return json({ ok: true, ...cfg });
+}
+
 async function handleBroadcast(req, env) {
   if (!isAdminAuthed(req, env)) return errorJson("unauthorized", 401);
   let body;
@@ -513,6 +652,23 @@ export default {
       }
       if (url.pathname === "/trigger-generate" && req.method === "POST") {
         return handleTriggerGenerate(req, env);
+      }
+      // BYOK · 网页设置弹窗用（鉴权用 OWNER_PIN）
+      if (url.pathname === "/llm/config" && req.method === "GET") {
+        return handleLLMGet(req, env);
+      }
+      if (url.pathname === "/llm/config" && req.method === "POST") {
+        return handleLLMSet(req, env);
+      }
+      if (url.pathname === "/llm/config" && req.method === "DELETE") {
+        return handleLLMDelete(req, env);
+      }
+      if (url.pathname === "/llm/test" && req.method === "POST") {
+        return handleLLMTest(req, env);
+      }
+      // BYOK · CI 拉完整配置（用 ADMIN_TOKEN）
+      if (url.pathname === "/admin/llm-config" && req.method === "GET") {
+        return handleAdminLLMConfig(req, env);
       }
       return errorJson("not found: " + url.pathname, 404);
     } catch (e) {
