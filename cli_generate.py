@@ -33,7 +33,13 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-PY = "/Users/zoezczhou/.workbuddy/binaries/python/envs/curio_sys/bin/python"
+# Python 解释器路径：
+#   - 环境变量 CURIO_PY 优先（CI / Docker 通过 env 传入）
+#   - 否则用本机 venv（用户 macOS 默认）
+#   - 都没有就用当前 sys.executable（兜底，避免 FileNotFoundError）
+import os as _os
+_default_local_py = "/Users/zoezczhou/.workbuddy/binaries/python/envs/curio_sys/bin/python"
+PY = _os.environ.get("CURIO_PY") or (_default_local_py if Path(_default_local_py).exists() else sys.executable)
 SITE_DIR = ROOT / "site"
 TOPICS_DIR = ROOT / "topics"
 PAT_FILE = ROOT / ".gh_pat"
