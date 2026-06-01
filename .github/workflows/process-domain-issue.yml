@@ -73,27 +73,35 @@ jobs:
           ")
           echo "mode=$mode" >> $GITHUB_OUTPUT
 
-      - name: Trigger fetch + score-and-finalize (api 模式：5-10 分钟生效)
+      - name: Inline fetch + score + finalize (api 模式)
         if: steps.addmode.outputs.mode == 'api'
         env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CURIO_ADMIN_TOKEN: ${{ secrets.CURIO_ADMIN_TOKEN }}
+          CURIO_API_BASE: https://api.curioradar.fun
+          LLM_PROVIDER: deepseek
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          CURIO_GH_PAT: ${{ secrets.GH_PAT }}
+          PYTHONUNBUFFERED: "1"
         run: |
-          if [ -z "$GH_TOKEN" ]; then echo "⚠ GH_PAT 未配，无法触发 fetch+score"; exit 0; fi
-          echo "🔄 触发 fetch-candidates..."
-          gh workflow run fetch-candidates.yml -f reason="add-domain #${{ github.event.issue.number }} (api)"
-          sleep 8
-          run_id=$(gh run list --workflow=fetch-candidates.yml --limit 1 --json databaseId --jq '.[0].databaseId')
-          gh run watch $run_id --exit-status || true
-          echo "⚡ 触发 score-and-finalize..."
-          gh workflow run score-and-finalize.yml -f cadence=daily
+          set -e
+          python cli_generate.py prepare_unified
+          python -m agent.score_with_llm
+          python cli_generate.py finalize_unified --cadence daily
 
-      - name: Trigger fetch only (local/off 模式)
+      - name: Inline fetch only (local/off 模式)
         if: steps.addmode.outputs.mode != 'api'
-        env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          if [ -n "$GH_TOKEN" ]; then
-            gh workflow run fetch-candidates.yml -f reason="add-domain #${{ github.event.issue.number }} (${{ steps.addmode.outputs.mode }})"
+          python cli_generate.py prepare_unified || echo "prepare 失败"
+          git config user.name "curio-bot"
+          git config user.email "curio-bot@users.noreply.github.com"
+          git add topics/ || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(ci): refresh candidates from add-domain #${{ github.event.issue.number }} [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break || sleep 5
+            done
           fi
 
       - name: Comment on issue (按 mode)
@@ -249,34 +257,45 @@ jobs:
           echo "mode=$mode" >> $GITHUB_OUTPUT
           echo "scoring_mode=$mode"
 
-      - name: Trigger fetch-candidates → wait → score-and-finalize (api mode)
+      - name: Inline fetch + score + finalize (api mode 直接同 workflow 跑通)
         if: steps.mode.outputs.mode == 'api'
         env:
-          # 必须用 GH_PAT（用户配的 PAT），默认 GITHUB_TOKEN 不能触发其他 workflow（403）
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CURIO_ADMIN_TOKEN: ${{ secrets.CURIO_ADMIN_TOKEN }}
+          CURIO_API_BASE: https://api.curioradar.fun
+          LLM_PROVIDER: deepseek
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          CURIO_GH_PAT: ${{ secrets.GH_PAT }}
+          PYTHONUNBUFFERED: "1"
         run: |
-          if [ -z "$GH_TOKEN" ]; then
-            echo "❌ GH_PAT secret 未配置！请在 repo settings 加 GH_PAT。"
-            exit 1
-          fi
-          echo "🔄 触发 fetch-candidates..."
-          gh workflow run fetch-candidates.yml -f reason="generate #${{ github.event.issue.number }} (mode=api)"
-          sleep 8
-          run_id=$(gh run list --workflow=fetch-candidates.yml --limit 1 --json databaseId --jq '.[0].databaseId')
-          echo "fetch run_id=$run_id"
-          gh run watch $run_id --exit-status || true
-          echo "⚡ 触发 score-and-finalize..."
-          gh workflow run score-and-finalize.yml -f cadence=daily
+          set -e
+          echo "🔄 step 1/3: prepare_unified（抓 5 域 + 预筛 + 写 prompt）"
+          python cli_generate.py prepare_unified
+          echo "⚡ step 2/3: score_with_llm（DeepSeek API 评分）"
+          python -m agent.score_with_llm
+          echo "📤 step 3/3: finalize_unified（拆分 + 渲染 + push KV + 邮件）"
+          python cli_generate.py finalize_unified --cadence daily
 
-      - name: Trigger fetch only (local/off mode)
+      - name: Inline fetch only (local/off mode)
         if: steps.mode.outputs.mode != 'api'
         env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ -n "$GH_TOKEN" ]; then
-            gh workflow run fetch-candidates.yml -f reason="generate #${{ github.event.issue.number }} (mode=${{ steps.mode.outputs.mode }})"
-          else
-            echo "⚠ GH_PAT 未配，跳过 fetch 触发"
+          # local/off 模式：只抓候选，评分留给本地 WorkBuddy
+          python cli_generate.py prepare_unified || echo "prepare 失败但继续"
+
+      - name: Push topics changes (local/off mode)
+        if: steps.mode.outputs.mode != 'api'
+        run: |
+          git config user.name "curio-bot"
+          git config user.email "curio-bot@users.noreply.github.com"
+          git add topics/ 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(ci): refresh candidates from issue #${{ github.event.issue.number }} [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && break || sleep 5
+            done
           fi
 
       - name: Comment on issue

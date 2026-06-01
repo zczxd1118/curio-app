@@ -84,19 +84,5 @@ jobs:
             git pull --rebase origin main || { echo "rebase 冲突，放弃"; exit 1; }
           done
 
-      - name: Auto-trigger score-and-finalize (if mode=api)
-        env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
-        run: |
-          mode=$(curl -sf https://api.curioradar.fun/scoring-mode | python -c "
-          import sys, json
-          try: print(json.load(sys.stdin).get('scoring_mode','local'))
-          except: print('local')
-          ")
-          echo "scoring_mode=$mode"
-          if [ "$mode" = "api" ] && [ -n "$GH_TOKEN" ]; then
-            echo "⚡ mode=api → 自动触发 score-and-finalize"
-            gh workflow run score-and-finalize.yml -f cadence=daily || echo "触发失败（可能 GH_PAT 权限不足）"
-          else
-            echo "mode=$mode 或 GH_PAT 未配，不自动触发 score-and-finalize"
-          fi
+      # NOTE: 不自动触发 score-and-finalize（避免依赖 GH_PAT 跨 workflow 触发权限）。
+      # 入口由各自调度负责：fetch cron 11:30 UTC，score cron 04:00 UTC，issue 触发由 process-domain-issue 自己 inline 跑。

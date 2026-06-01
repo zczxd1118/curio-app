@@ -204,6 +204,18 @@ def split_by_domain(
         if not domain_headlines and not domain_shortlist:
             continue
 
+        # 兜底：某域 0 头条 + 有 shortlist → 把第 1 条 shortlist 升格为简化头条，避免显示"0 条头条"
+        # （DeepSeek 偶尔不遵守"每域至少 1 头条"的硬约束，这里做产品级兜底）
+        if not domain_headlines and domain_shortlist:
+            promoted = dict(domain_shortlist[0])
+            # 把 one_liner 转成 lead；如果没有 lead/confirmed 就只展示标题 + 简介
+            if not promoted.get("lead") and promoted.get("one_liner"):
+                promoted["lead"] = promoted["one_liner"]
+            promoted.setdefault("rank", 1)
+            promoted.setdefault("stars", 3)
+            domain_headlines = [promoted]
+            domain_shortlist = domain_shortlist[1:]  # 第 1 条已升格
+
         lines: list[str] = []
         lines.append(f"# Curio · {domain} · {date}")
         lines.append("")
