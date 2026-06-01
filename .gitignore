@@ -35,3 +35,4 @@ worker/.wrangler-state/
 .env
 .env.local
 *.api_key
+.notify_sent/

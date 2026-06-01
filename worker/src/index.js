@@ -582,10 +582,20 @@ async function handleBroadcast(req, env) {
   let sent = 0, skipped = 0, failed = 0;
   const errors = [];
 
+  const dateStr = new Date().toISOString().slice(0, 10);
+  const force = !!body.force;  // POST 时传 force:true 可绕过去重（手动想强发）
+
   for (const k of list.keys) {
     const sub = await env.CURIO_KV.get(k.name, "json");
     if (!sub) continue;
     if (sub.cadence !== cadence) { skipped++; continue; }
+
+    // 去重：同一日期 + 同一 cadence 同一邮箱，24h 内只发 1 次（绕过用 force:true）
+    const dedupKey = `sent:${sub.email}:${cadence}:${dateStr}`;
+    if (!force && !dry_run) {
+      const already = await env.CURIO_KV.get(dedupKey);
+      if (already) { skipped++; continue; }
+    }
 
     // 拉每个域的内容
     const blocks = [];
@@ -596,7 +606,6 @@ async function handleBroadcast(req, env) {
     if (blocks.length === 0) { skipped++; continue; }
 
     const unsubUrl = `${env.API_BASE}/unsubscribe?token=${sub.unsub_token}`;
-    const dateStr = new Date().toISOString().slice(0, 10);
     const subject = `📰 Curio · ${dateStr} · ${cadence === "daily" ? "今日简报" : "本周简报"}`;
     const html = `<!doctype html><html><body style="font-family:-apple-system,system-ui,sans-serif;max-width:680px;margin:0 auto;padding:24px;color:#1a1a1c;line-height:1.6">
 <h1 style="border-bottom:2px solid #d4af37;padding-bottom:8px">📰 Curio · ${dateStr}</h1>
@@ -610,7 +619,11 @@ ${blocks.join('<hr style="border:none;border-top:1px solid #ddd;margin:32px 0">'
 
     if (dry_run) { sent++; continue; }
     const r = await sendEmail(env, { to: sub.email, subject, html, text: `查看网页版：${env.SITE_BASE}/` });
-    if (r.ok) sent++;
+    if (r.ok) {
+      sent++;
+      // 写去重 key（48 小时过期）
+      await env.CURIO_KV.put(dedupKey, "1", { expirationTtl: 172800 });
+    }
     else { failed++; errors.push({ email: sub.email, error: r.body.slice(0, 200) }); }
   }
   return json({ ok: true, sent, skipped, failed, errors });

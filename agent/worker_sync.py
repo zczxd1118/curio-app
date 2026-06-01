@@ -556,46 +556,8 @@ def ingest_generate_issues() -> int:
         })
         _log(f"  📥 #{num}: 排队 {domain_id}")
 
-        # 给用户一条"Agent 已收到，开始跑了"评论（按 mode 区分文案）
-        try:
-            domain_name = data.get("domain_name") or domain_id
-            note = (data.get("note") or "").strip()
-            note_part = f"\n\n你的留言：> {note}" if note else ""
-
-            # 拉当前 scoring_mode 决定文案
-            mode = "local"
-            try:
-                import urllib.request as _urlreq
-                req = _urlreq.Request("https://api.curioradar.fun/scoring-mode")
-                with _urlreq.urlopen(req, timeout=5) as r:
-                    mode = (json.loads(r.read().decode()).get("scoring_mode") or "local")
-            except Exception:
-                pass
-
-            if mode == "api":
-                flow_text = "抓取候选 → DeepSeek API 评分 → 中文摘要 → 渲染网站 → 邮件通知"
-                eta_text = "**预计 5-7 分钟**（CI 全云端跑）"
-            elif mode == "off":
-                flow_text = "⏸ 当前模式为「暂停」"
-                eta_text = "**未启用** —— 请去 ⚙️ 设置切换到「API」或「本地」"
-            else:
-                flow_text = "抓取候选 → Claude 评分（本地 WorkBuddy）→ 中文摘要 → 渲染网站 → 邮件通知"
-                eta_text = "**预计 5-65 分钟**（等本地 hourly automation 跑）"
-
-            _gh_api(
-                f"/repos/zczxd1118/curio-app/issues/{num}/comments",
-                "POST",
-                {"body": (
-                    f"🤖 **Curio Agent 已收到请求**\n\n"
-                    f"开始为「{domain_name}」（id=`{domain_id}`）抓取最新内容。{note_part}\n\n"
-                    f"评分模式：`{mode}`\n"
-                    f"流程：{flow_text}\n"
-                    f"⏱ {eta_text}\n\n"
-                    f"完成后会再评论一条带访问链接，并自动关闭本 Issue。"
-                )},
-            )
-        except Exception as e:
-            _log(f"     ⚠️ 评论失败：{e}（继续处理）")
+        # 不再发"已收到"评论 —— inline workflow 在最后会发完整正确的 Comment（带真实 mode）
+        # 这里如果发会导致：1）多一条冗余评论 2）urllib timeout 时 mode 错读为 local，误导用户
 
     out = ROOT / ".pending_generate.json"
     out.write_text(json.dumps({"updated_at": time.strftime("%Y-%m-%d %H:%M"),

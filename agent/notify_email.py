@@ -281,8 +281,19 @@ def main():
     n_must = sum(len(d["must_read"]) for d in digest["domains"])
     subject = f"📰 Curio · {digest['date']} · {n_domains} 域 · {n_must} 必读"
 
+    # 去重：当天已发过自通知就 skip（防 CI 一天多次跑导致多封邮件）
+    from pathlib import Path
+    sentinel = Path(__file__).resolve().parent.parent / ".notify_sent" / f"{digest['date']}.txt"
+    sentinel.parent.mkdir(exist_ok=True)
+    if sentinel.exists() and not args.force and not args.dry_run:
+        print(f"[notify_email] 当天已发过（{sentinel}），跳过避免重复邮件（--force 强发）")
+        return 0
+
     print(f"[notify_email] 收件人：{cfg['to']} · 主题：{subject}")
     ok, msg = send(cfg, password, subject, md, dry_run=args.dry_run)
+    if ok and not args.dry_run:
+        import datetime as _dt
+        sentinel.write_text(f"sent at {_dt.datetime.now().isoformat()}", encoding="utf-8")
     if ok:
         print(f"  ✅ {msg}")
         return 0

@@ -8,6 +8,11 @@ on:
   issues:
     types: [opened, labeled, reopened]
 
+# 防双跑：同一个 issue 同时只允许 1 个 run；新触发会取消老的
+concurrency:
+  group: process-issue-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
 jobs:
   ingest-add-domain:
     # 兼容 label 没贴上的情况：title 前缀也算
@@ -311,25 +316,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHONUNBUFFERED: "1"
         run: |
-          # 从 .pending_generate.json 读 issue + domain_id 关 issue
-          python -c "
-          import json, subprocess, sys
-          from pathlib import Path
-          p = Path('.pending_generate.json')
-          if not p.exists(): sys.exit(0)
-          d = json.loads(p.read_text())
-          for item in d.get('pending', []):
-              num = item.get('issue_number') or item.get('number')
-              dom = item.get('domain_id')
-              if num and num == ${{ github.event.issue.number }}:
-                  try:
-                      from agent.worker_sync import close_generate_issue
-                      close_generate_issue(num, success=True, domain_id=dom, message='✅ API 模式：CI 已生成新内容并发送订阅邮件。')
-                  except Exception as e:
-                      print(f'close failed: {e}')
-                      # 兜底直接关
-                      subprocess.run(['gh','issue','close',str(num),'--comment','✅ API 模式生成完成','-r','completed'])
-          "
+          # 直接调 GitHub API 关 issue（不依赖 .pending_generate.json）
+          ISSUE_NUM=${{ github.event.issue.number }}
+          gh issue close $ISSUE_NUM --comment "✅ API 模式：CI 已完整生成新内容并发送邮件。" --reason completed || echo "close 失败但已尝试"
+          # 加 curio-ingested label
+          gh issue edit $ISSUE_NUM --add-label curio-ingested || true
 
       - name: Inline fetch only (local/off mode)
         if: steps.mode.outputs.mode != 'api'
