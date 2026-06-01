@@ -363,20 +363,31 @@ html[data-theme="light"] .theme-toggle .icon-moon-default { display: none; }
 
 /* 订阅 modal 复用 add-domain modal 样式，但加 checkbox / radio 视觉 */
 .sub-domain-grid {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 8px;
-  max-height: 240px; overflow-y: auto; padding: 4px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+  max-height: 280px; overflow-y: auto; padding: 4px;
+}
+@media (max-width: 480px) {
+  .sub-domain-grid { grid-template-columns: 1fr; }
 }
 .sub-domain-pick {
-  display: flex; align-items: center; gap: 8px; padding: 8px 10px;
-  border: 1px solid var(--line); border-radius: 6px; cursor: pointer;
+  display: flex; align-items: center; gap: 10px; padding: 10px 12px;
+  border: 1px solid var(--line); border-radius: 8px; cursor: pointer;
   transition: all 0.15s; background: var(--bg-elev); user-select: none;
   font-family: var(--sans); font-size: 13px; color: var(--text);
+  min-height: 42px; line-height: 1.35;
 }
 .sub-domain-pick:hover { border-color: var(--accent-soft); }
 .sub-domain-pick.active { border-color: var(--accent); background: rgba(212,175,55,0.08); color: var(--accent); }
-.sub-domain-pick .icon { width: 18px; height: 18px; display: inline-flex; align-items: center; justify-content: center; color: var(--text-soft); }
+.sub-domain-pick .icon {
+  width: 18px; height: 18px; flex-shrink: 0;
+  display: inline-flex; align-items: center; justify-content: center;
+  color: var(--text-soft);
+}
 .sub-domain-pick .icon svg { width: 100%; height: 100%; }
 .sub-domain-pick.active .icon { color: var(--accent); }
+.sub-domain-pick > span:last-child {
+  flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
 .sub-cadence-pick .label .icon-sm { display: inline-flex; width: 16px; height: 16px; vertical-align: -3px; margin-right: 4px; color: var(--text-soft); }
 .sub-cadence-pick .label .icon-sm svg { width: 100%; height: 100%; }
 .sub-cadence-pick.active .label .icon-sm { color: var(--accent); }
@@ -384,6 +395,19 @@ html[data-theme="light"] .theme-toggle .icon-moon-default { display: none; }
 .modal h3 .icon-sm svg { width: 100%; height: 100%; }
 .icon-inline { display: inline-flex; width: 14px; height: 14px; vertical-align: -2px; margin-right: 2px; color: var(--text-mute); }
 .icon-inline svg { width: 100%; height: 100%; }
+/* 评分模式选择（设置弹窗） */
+.mode-pick-row { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+.mode-pick {
+  padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px;
+  cursor: pointer; transition: all 0.15s; background: var(--bg-elev);
+  font-family: var(--sans); color: var(--text);
+}
+.mode-pick:hover { border-color: var(--accent-soft); }
+.mode-pick.active { border-color: var(--accent); background: rgba(212,175,55,0.08); }
+.mode-pick .mode-label { font-weight: 600; font-size: 14px; margin-bottom: 2px; }
+.mode-pick .mode-desc { font-size: 12px; color: var(--text-soft); line-height: 1.4; }
+.mode-pick.active .mode-label { color: var(--accent); }
+
 .sub-cadence-row { display: flex; gap: 12px; margin-top: 4px; }
 .sub-cadence-pick {
   flex: 1; padding: 12px; border: 1px solid var(--line); border-radius: 6px;
@@ -863,11 +887,30 @@ async function openSettingsModal() {
   const cur = current || {};
   const cfg = cur.configured ? cur : {};
   modal.innerHTML = `
-    <div class="modal" style="max-width:560px">
-      <h3>⚙️ 设置 · 外接 LLM API（BYOK）</h3>
-      <p style="color:var(--text-soft);font-size:13px">
-        配好后，CI 会调你的 API 评分写 scored.json，<strong>电脑可关机</strong>，无人值守跑全流程。
-        Key 仅存在 Curio 的 KV 中，不会同步到 GitHub。
+    <div class="modal" style="max-width:580px">
+      <h3>⚙️ 设置 · 评分链路</h3>
+
+      <div class="form-row">
+        <label style="margin-bottom:8px">评分模式</label>
+        <div class="mode-pick-row">
+          <div class="mode-pick" data-mode="local">
+            <div class="mode-label">🖥️ 本地（Claude）</div>
+            <div class="mode-desc">WorkBuddy 唤醒 Claude 写评分。免费但电脑要在线。</div>
+          </div>
+          <div class="mode-pick" data-mode="api">
+            <div class="mode-label">☁️ API（无人值守）</div>
+            <div class="mode-desc">CI 调你下面的 API。电脑可关机，需 API key。</div>
+          </div>
+          <div class="mode-pick" data-mode="off">
+            <div class="mode-label">⏸ 暂停</div>
+            <div class="mode-desc">两条都不跑，主页保留最近一期。</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="api-config-section">
+      <p style="color:var(--text-soft);font-size:12px;margin:4px 0 12px 0">
+        ↓ "API 模式"需要在下面配好 key。Key 仅存在 Curio 的 KV，不上 GitHub。
       </p>
 
       <div class="form-row">
@@ -894,9 +937,10 @@ async function openSettingsModal() {
       </div>
 
       <div id="llm-test-result" style="margin:12px 0;padding:10px;border-radius:4px;font-size:13px;display:none"></div>
+      </div>
 
-      <div class="modal-actions" style="display:flex;justify-content:space-between;gap:8px">
-        <button class="btn-secondary" id="llm-clear" style="margin-right:auto">清除配置</button>
+      <div class="modal-actions" style="display:flex;justify-content:space-between;gap:8px;margin-top:16px">
+        <button class="btn-secondary" id="llm-clear" style="margin-right:auto">清除 API</button>
         <button class="btn-secondary" id="llm-cancel">取消</button>
         <button class="btn-secondary" id="llm-test">测试连接</button>
         <button class="btn-primary" id="llm-save">保存</button>
@@ -904,6 +948,25 @@ async function openSettingsModal() {
     </div>
   `;
   document.body.appendChild(modal);
+
+  // 评分模式 radio：默认 local，从 cur 回填
+  const initMode = cur.scoring_mode || 'local';
+  let currentMode = initMode;
+  const updateModeUI = () => {
+    $$('.mode-pick', modal).forEach(p => {
+      p.classList.toggle('active', p.dataset.mode === currentMode);
+    });
+    // api 配置区在 api 模式时高亮，其他模式时变灰但仍可填（提前配好备用）
+    const apiSection = $('#api-config-section', modal);
+    apiSection.style.opacity = currentMode === 'api' ? '1' : '0.55';
+  };
+  $$('.mode-pick', modal).forEach(p => {
+    p.addEventListener('click', () => {
+      currentMode = p.dataset.mode;
+      updateModeUI();
+    });
+  });
+  updateModeUI();
 
   // 回填 provider
   if (cfg.provider) $('#llm-provider', modal).value = cfg.provider;
@@ -956,18 +1019,34 @@ async function openSettingsModal() {
     const provider = $('#llm-provider', modal).value;
     const api_key = $('#llm-key', modal).value.trim();
     const model = $('#llm-model', modal).value.trim();
-    if (!api_key) { showResult('err', '请填 API Key'); return; }
+
+    // API 模式时强制要求填 key（除非已有保存的 key）
+    if (currentMode === 'api' && !api_key && !cfg.key_masked) {
+      showResult('err', '选 API 模式时必须填 API Key（或之前已保存）');
+      return;
+    }
+
     showResult('ok', '⏳ 保存中...');
     try {
+      const body = { scoring_mode: currentMode };
+      // 只在 api_key 真填了时才传，避免覆盖已有 key
+      if (api_key) {
+        body.provider = provider;
+        body.api_key = api_key;
+        body.model = model;
+      }
       const r = await fetch(window.CURIO_API_BASE + '/llm/config', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'X-Curio-Owner-Pin': pin },
-        body: JSON.stringify({ provider, api_key, model }),
+        body: JSON.stringify(body),
       });
       const data = await r.json();
       if (data.ok) {
-        showResult('ok', `✅ 已保存。Provider=${data.provider}, Key=${data.key_masked}`);
-        setTimeout(() => modal.remove(), 1200);
+        const modeText = { local: '🖥️ 本地', api: '☁️ API', off: '⏸ 暂停' }[data.scoring_mode] || data.scoring_mode;
+        let msg = `✅ 已保存。模式：${modeText}`;
+        if (data.key_masked) msg += `，API Key=${data.key_masked}`;
+        showResult('ok', msg);
+        setTimeout(() => modal.remove(), 1500);
       } else {
         showResult('err', '❌ ' + (data.error || '保存失败'));
       }

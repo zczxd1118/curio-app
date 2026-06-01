@@ -154,6 +154,11 @@ def write_profile(profile: dict, dry_run: bool):
 # ============================================================
 
 def _pat() -> str:
+    """读 GitHub token：env 优先（CI），文件 fallback（本地）"""
+    import os as _os
+    pat = _os.environ.get("GH_TOKEN") or _os.environ.get("GITHUB_TOKEN")
+    if pat:
+        return pat
     if not PAT_FILE.exists():
         return ""
     return PAT_FILE.read_text().strip()

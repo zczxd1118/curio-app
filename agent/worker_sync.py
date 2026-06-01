@@ -405,11 +405,17 @@ def broadcast(cadence: str, dry_run: bool = False) -> int:
 # ============== 4. ingest GitHub Issue 兜底（订阅 / 加领域）==============
 
 def _gh_api(path: str, method: str = "GET", body: Optional[dict] = None) -> Any:
-    """复用 .gh_pat"""
-    pat_file = ROOT / ".gh_pat"
-    if not pat_file.exists():
-        raise RuntimeError("找不到 .gh_pat")
-    pat = pat_file.read_text(encoding="utf-8").strip()
+    """读 GitHub Token 的优先级（兼容本地 + CI）：
+       1. GH_TOKEN 环境变量（GitHub Actions 自动注入）
+       2. GITHUB_TOKEN 环境变量（保险）
+       3. .gh_pat 文件（本地开发用）
+    """
+    pat = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    if not pat:
+        pat_file = ROOT / ".gh_pat"
+        if not pat_file.exists():
+            raise RuntimeError("找不到 GitHub token：未设 GH_TOKEN env，也没有 .gh_pat 文件")
+        pat = pat_file.read_text(encoding="utf-8").strip()
     url = "https://api.github.com" + path
     data = json.dumps(body).encode() if body is not None else None
     req = urllib.request.Request(url, data=data, method=method, headers={

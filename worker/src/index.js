@@ -436,7 +436,9 @@ function maskKey(k) {
 async function handleLLMGet(req, env) {
   if (!isOwnerAuthed(req, env)) return errorJson("unauthorized (owner pin)", 401);
   const cfg = await env.CURIO_KV.get("llm:owner", "json");
-  if (!cfg) return json({ ok: true, configured: false });
+  // 单独存的 scoring_mode（即使没配 api 也可设）
+  const mode = (await env.CURIO_KV.get("scoring:mode")) || "local";
+  if (!cfg) return json({ ok: true, configured: false, scoring_mode: mode });
   return json({
     ok: true,
     configured: true,
@@ -445,6 +447,7 @@ async function handleLLMGet(req, env) {
     base_url: cfg.base_url,
     key_masked: maskKey(cfg.api_key),
     updated_at: cfg.updated_at,
+    scoring_mode: mode,
   });
 }
 
@@ -452,9 +455,28 @@ async function handleLLMSet(req, env) {
   if (!isOwnerAuthed(req, env)) return errorJson("unauthorized (owner pin)", 401);
   let body;
   try { body = await req.json(); } catch { return errorJson("invalid json"); }
+
+  // 单独保存 scoring_mode（local / api / off），不依赖 api 配置
+  const incomingMode = (body.scoring_mode || "").trim();
+  if (incomingMode && ["local", "api", "off"].includes(incomingMode)) {
+    await env.CURIO_KV.put("scoring:mode", incomingMode);
+  }
+
+  // 如果 body 里只想改 mode 而没传 api_key，就只改 mode 直接返回
   const provider = (body.provider || "").toLowerCase();
-  const model = (body.model || "").trim();
   const api_key = (body.api_key || "").trim();
+  if (!api_key && !provider) {
+    const finalMode = (await env.CURIO_KV.get("scoring:mode")) || "local";
+    const existing = await env.CURIO_KV.get("llm:owner", "json");
+    return json({
+      ok: true,
+      scoring_mode: finalMode,
+      configured: !!existing,
+      key_masked: existing ? maskKey(existing.api_key) : "",
+    });
+  }
+
+  const model = (body.model || "").trim();
   const base_url = (body.base_url || "").trim();
   if (!provider || !PROVIDER_DEFAULTS[provider]) return errorJson("provider must be one of: " + Object.keys(PROVIDER_DEFAULTS).join(","));
   if (!api_key || api_key.length < 10) return errorJson("api_key required (min 10 chars)");
@@ -467,12 +489,14 @@ async function handleLLMSet(req, env) {
     updated_at: new Date().toISOString(),
   };
   await env.CURIO_KV.put("llm:owner", JSON.stringify(finalCfg));
+  const finalMode = (await env.CURIO_KV.get("scoring:mode")) || "local";
   return json({
     ok: true,
     provider: finalCfg.provider,
     model: finalCfg.model,
     base_url: finalCfg.base_url,
     key_masked: maskKey(finalCfg.api_key),
+    scoring_mode: finalMode,
   });
 }
 
@@ -538,8 +562,12 @@ async function handleLLMTest(req, env) {
 async function handleAdminLLMConfig(req, env) {
   if (!isAdminAuthed(req, env)) return errorJson("unauthorized", 401);
   const cfg = await env.CURIO_KV.get("llm:owner", "json");
-  if (!cfg) return errorJson("no llm config", 404);
-  return json({ ok: true, ...cfg });
+  const mode = (await env.CURIO_KV.get("scoring:mode")) || "local";
+  if (!cfg) {
+    // 没配 api_key 也允许 CI 拿到 mode（local 时 CI 应该 skip）
+    return json({ ok: true, configured: false, scoring_mode: mode });
+  }
+  return json({ ok: true, configured: true, scoring_mode: mode, ...cfg });
 }
 
 async function handleBroadcast(req, env) {
