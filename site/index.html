@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Curio · 你的私人主编</title>
-<link rel="stylesheet" href="styles.css?v=20260601141927">
+<link rel="stylesheet" href="styles.css?v=20260601164950">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,25 +13,30 @@
   <div class="nav-inner">
     <a class="brand" href="index.html">Curio<span class="dot">.</span></a>
     <div class="nav-links"><a href="index.html" class="active">首页</a><a href="d/ai/index.html">AI</a><a href="d/finance/index.html">AI 商业 / 投融资</a><a href="d/semiconductor/index.html">AI 算力 / 半导体</a><a href="d/bigtech/index.html">大厂 AI 动态</a><a href="d/stock/index.html">股票</a></div>
-    <div class="search-wrap">
-      <span class="search-icon">
-        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
-      </span>
-      <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
-      <div class="search-results" id="curio-search-results"></div>
+    <div class="nav-actions">
+      <div class="search-wrap">
+        <span class="search-icon">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
+        </span>
+        <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
+        <div class="search-results" id="curio-search-results"></div>
+      </div>
+      <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span class="sub-label">订阅</span>
+      </button>
+      <button class="theme-toggle" id="settings-btn" title="设置（评分链路）">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      </button>
+      <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
+        <span class="icon-moon-default" style="display:inline-flex">
+          <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </span>
+        <span class="icon-sun">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </span>
+      </button>
     </div>
-    <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
-      <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-      <span class="sub-label">订阅</span>
-    </button>
-    <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
-      <span class="icon-moon-default" style="display:inline-flex">
-        <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-      </span>
-      <span class="icon-sun">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-      </span>
-    </button>
   </div>
 </nav>
 
@@ -93,22 +98,6 @@
 </div></div>
 
 
-<div class="top-n" style="border:1px solid var(--accent-soft);border-radius:8px;overflow:hidden;margin:32px 0;">
-  <div style="background:linear-gradient(90deg,var(--bg-elev),transparent);padding:14px 18px;border-bottom:1px solid var(--line);">
-    <span style="font-family:var(--sans);font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--accent);">今日跨领域头条</span>
-  </div>
-  <table style="width:100%;border-collapse:collapse;font-family:var(--sans);font-size:14px;margin:0;">
-    <thead>
-      <tr><th style="background:var(--bg-elev);text-align:center;padding:10px 14px;font-weight:600;color:var(--text-soft);font-size:11px;letter-spacing:0.04em;text-transform:uppercase;border-bottom:1px solid var(--line);width:40px">#</th>
-      <th style="background:var(--bg-elev);text-align:left;padding:10px 14px;font-weight:600;color:var(--text-soft);font-size:11px;letter-spacing:0.04em;text-transform:uppercase;border-bottom:1px solid var(--line);">头条</th>
-      <th style="background:var(--bg-elev);text-align:left;padding:10px 14px;font-weight:600;color:var(--text-soft);font-size:11px;letter-spacing:0.04em;text-transform:uppercase;border-bottom:1px solid var(--line);width:100px">日期</th></tr>
-    </thead>
-    <tbody><tr><td style="width:32px;text-align:center;color:var(--text-mute);font-family:var(--mono);font-size:12px">01</td><td><a href="d/ai/2026-06-01.html">[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflow</a></td><td style="font-family:var(--mono);color:var(--text-mute);font-size:12px">2026-06-01</td></tr>
-<tr><td style="width:32px;text-align:center;color:var(--text-mute);font-family:var(--mono);font-size:12px">02</td><td><a href="d/finance/2026-06-01.html">The SpaceX IPO and Data Centers in Space</a></td><td style="font-family:var(--mono);color:var(--text-mute);font-size:12px">2026-06-01</td></tr>
-<tr><td style="width:32px;text-align:center;color:var(--text-mute);font-family:var(--mono);font-size:12px">03</td><td><a href="d/semiconductor/2026-06-01.html">ASML became the chokepoint for cutting-edge chips</a></td><td style="font-family:var(--mono);color:var(--text-mute);font-size:12px">2026-06-01</td></tr>
-<tr><td style="width:32px;text-align:center;color:var(--text-mute);font-family:var(--mono);font-size:12px">04</td><td><a href="d/bigtech/2026-06-01.html">Google Chrome silently installs a 4 GB AI model on your device without consent</a></td><td style="font-family:var(--mono);color:var(--text-mute);font-size:12px">2026-06-01</td></tr></tbody>
-  </table>
-</div>
 
 <div class="rule-double"></div>
 
@@ -131,6 +120,6 @@ window.CURIO_REL_ROOT = "";
 window.CURIO_API_BASE = "https://api.curioradar.fun";
 window.CURIO_GH_REPO = "zczxd1118/curio-app";
 </script>
-<script src="app.js?v=20260601141927"></script>
+<script src="app.js?v=20260601164950"></script>
 </body>
 </html>

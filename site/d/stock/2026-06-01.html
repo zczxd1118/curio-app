@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curio · 股票 · 2026-06-01 · Curio</title>
+<link rel="stylesheet" href="../../styles.css?v=20260601164949">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="../../index.html">Curio<span class="dot">.</span></a>
+    <div class="nav-links"><a href="../../index.html">首页</a><a href="../../d/ai/index.html">AI</a><a href="../../d/finance/index.html">AI 商业 / 投融资</a><a href="../../d/semiconductor/index.html">AI 算力 / 半导体</a><a href="../../d/bigtech/index.html">大厂 AI 动态</a><a href="../../d/stock/index.html" class="active">股票</a></div>
+    <div class="nav-actions">
+      <div class="search-wrap">
+        <span class="search-icon">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
+        </span>
+        <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
+        <div class="search-results" id="curio-search-results"></div>
+      </div>
+      <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span class="sub-label">订阅</span>
+      </button>
+      <button class="theme-toggle" id="settings-btn" title="设置（评分链路）">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      </button>
+      <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
+        <span class="icon-moon-default" style="display:inline-flex">
+          <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </span>
+        <span class="icon-sun">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<aside class="toc" id="curio-toc">
+  <div class="toc-title">本期目录</div>
+  <div id="curio-toc-list"></div>
+</aside>
+
+<main>
+
+<div class="hero">
+  <div class="kicker">📰 股票 · 2026-06-01</div>
+  <h1>Curio · 股票 · 2026-06-01</h1>
+  <div class="meta">📖 主编点评</div>
+</div>
+<div class="content">
+<blockquote>
+<p>今日 1 条头条 + 2 条备选</p>
+</blockquote>
+<p><em>今天三条主线交叉：一是 OpenAI 计划本周递交 IPO 招股书，叠加 SpaceX 1.8 万亿美元 IPO 倒逼指数规则改写，AI 独角兽集体进入定价时刻；二是 Computex 2026 + GTC Taipei 同步开锣，Nvidia Vera Rubin 量产 + N1X PC 处理器入场，Intel 18A Xeon 6+ 反扑，AI 硬件竞争从 GPU 蔓延到 CPU/PC 全栈；三是股票域：SpaceX IPO 招股书极度不公平条款（禁止股东诉讼、Musk 永久控制），多家媒体警告散户慎打新——这是 2026 年下半年股市最大的风险事件。Stratechery 本周新增 Eric Seufert 访谈值得你听完。</em></p>
+<hr />
+<h2>🌟 今日精选</h2>
+<h3>1. SpaceX 1.8 万亿美元 IPO 强行改写指数规则，OpenAI 周五递交招股书在即</h3>
+<p><strong>[股票]</strong> · ⭐⭐⭐⭐⭐ · <em>华尔街见闻 API</em></p>
+<p>SpaceX 计划以至少 1.8 万亿美元估值、750 亿美元募资规模冲击 IPO 史上最大上市，体量之大已迫使纳斯达克紧急修改指数纳入规则、大幅缩减等待期。OpenAI 同步准备本周内递交 S-1，CNBC 援引消息称最快周五。两件事叠加，意味着 AI 独角兽估值锚正在被市场化，而不是被一级市场 VC 内部撮合定价。这对你判断未来 12 个月的 AI 公司估值合理性是关键参考。</p>
+<table>
+<thead>
+<tr>
+<th>✅ 已确认</th>
+<th>⚖️ 尚属判断</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SpaceX 估值 1.8 万亿美元、募资 750 亿美元，30% 份额拟向散户开放（华尔街见闻 / 5 月 31 日）</td>
+<td>OpenAI 真实定价区间未公布，外界估算在 5000 亿至 1 万亿美元之间</td>
+</tr>
+<tr>
+<td>纳斯达克为容纳 SpaceX 已修改指数纳入规则，被动资金自动买入需求或达 200 亿美元</td>
+<td>SpaceX 招股书披露的 Twitter / X 业绩被多方质疑放大马斯克 "经营才能" 叙事（Techdirt / Axios）</td>
+</tr>
+<tr>
+<td>OpenAI 拟本周向 SEC 秘密递交 IPO 文件，最快周五（CNBC 5 月 21 日）</td>
+<td>若 OpenAI 估值锚定在 SpaceX 之下，AI 应用层公司的二级市场估值会全线压缩</td>
+</tr>
+<tr>
+<td>Sam Altman 商业关系正受 GOP 国会议员调查，与 IPO 时间窗重叠（WSJ 5 月 14 日）</td>
+<td>CNBC 同时提示 "廉价 AI" （DeepSeek 系）可能让 OpenAI / Anthropic 的 IPO 故事失血</td>
+</tr>
+<tr>
+<td>Sam Altman、Dario Amodei 同步软化 AI 失业预言，被多家媒体解读为 IPO 前的口径管理（Fortune 5 月 26 日）</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>📖 主编点评</strong></p>
+<p>你最近做 content-curator，思考的是 "AI 产品要不要做一级"。看这两个 IPO，至少能让你判断：当模型能力被快速商品化、Anthropic / OpenAI 都被迫拿现金的时候，自己做一个吃 LLM 红利的小工具，不要纠结 "会不会被官方功能吃掉"——人家自己也得靠 IPO 续命。先把工具做出来，再考虑技术路线护城河。</p>
+<p>📺 <a href="https://wallstreetcn.com/articles/3773539">打开原文</a></p>
+<hr />
+<h2>📋 备选阅读</h2>
+<ul>
+<li><a href="https://congress.kadoa.com/">Show HN: 实时追踪美国国会议员每一笔股票交易的网站</a> —— Side project 范例：单一数据源 + 公开披露 + 一个清晰 hook，HN 61 票，你做 content-curator 时可以参考它的页面 layout。
+  <em>kadoa.com</em></li>
+<li><a href="https://www.apollo.com/wealth/the-daily-spark/more-etfs-than-stocks">美股 ETF 数量首次超过个股数</a> —— 结构性数据：美股个股投资范式正被 ETF 包装替代，长期对单只 AI 股票的定价效率有压制——但短期 SpaceX / OpenAI IPO 给了反例。
+  <em>Apollo</em></li>
+</ul>
+<hr />
+<h2>💬 觉得 股票 这期怎么样？</h2>
+<p><a href="https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback">提一条反馈 Issue</a> 让 Agent 下次调整。</p>
+</div>
+
+    <div class="feedback" data-issue-id="stock/2026-06-01">
+      <h2>📝 本期反馈</h2>
+      <p class="desc">下次 Agent 跑前会读这段，用来调整搜索关键词、打分倾向。</p>
+
+      <div class="fallback-notice" style="display:none">
+        反馈需要后端支持。运行 <code>python server.py</code>，然后用 <code>http://localhost:8765/</code> 打开本页。
+      </div>
+
+      
+
+      <div class="long-term">
+        <label>最近更关注</label>
+        <input type="text" id="lt-more" placeholder="如：AI Agent 实战 / 半导体先进制程 / 美股期权策略">
+
+        <label>最近不太关注</label>
+        <input type="text" id="lt-less" placeholder="如：纯产品更新 / 概念股炒作">
+
+        <label>报道笔法（这是新尝试，重点反馈）</label>
+        <input type="text" id="lt-format" placeholder="如：二栏太多 / 时间线很好 / 想看更多引述">
+      </div>
+
+      <div class="fb-submit">
+        <button class="btn-primary fb-submit-btn">提交反馈</button>
+        <span class="fb-status">未提交</span>
+      </div>
+    </div>
+
+</main>
+
+<footer>
+  Curio v0.9 · 2026-06-01 · 由你和 AI 共同策展 · <a href="https://github.com/zczxd1118/curio-app" target="_blank" rel="noopener" style="color:inherit;opacity:0.6">zxd</a>
+</footer>
+
+<script>
+window.CURIO_REL_ROOT = "../../";
+window.CURIO_API_BASE = "https://api.curioradar.fun";
+window.CURIO_GH_REPO = "zczxd1118/curio-app";
+</script>
+<script src="../../app.js?v=20260601164949"></script>
+</body>
+</html>

@@ -1,0 +1,3574 @@
+{
+  "domain": "AI",
+  "domain_id": "ai",
+  "topic_id": "vibe-coding",
+  "fetched_at": "2026-06-01T02:43:38.870499+00:00",
+  "platforms": [
+    "bilibili",
+    "hackernews",
+    "rss"
+  ],
+  "source_stats": {
+    "Latent Space Blog": 20,
+    "Simon Willison's Blog": 30,
+    "Anthropic Engineering": 0,
+    "AI Engineer Newsletter": 20,
+    "ByteByteGo Newsletter": 20,
+    "HN · Claude Code": 17,
+    "HN · Cursor": 4,
+    "HN · AI agent": 18,
+    "HN · vibe coding": 8,
+    "B站 · vibe coding": 59
+  },
+  "subtopics": [],
+  "total": 193,
+  "items": [
+    {
+      "id": "rss:https://www.latent.space/p/ainews-founders-and-forward-deployed",
+      "title": "[AINews] Founders and Forward Deployed Engineers",
+      "url": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T01:57:15+00:00",
+      "summary": "a quiet day lets us highlight the new AIE WF focuses",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-anthropic-raises-965b-series",
+      "title": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode",
+      "url": "https://www.latent.space/p/ainews-anthropic-raises-965b-series",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T02:07:24+00:00",
+      "summary": "Total Anthropic victory!",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/cognition",
+      "title": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
+      "url": "https://www.latent.space/p/cognition",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T18:41:24+00:00",
+      "summary": "80% Devin Commits, Spec-to-PR Workflows, Full VMs, Agent Memory, and PMs Shipping Code",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-cognition-raises-1b-in-26b",
+      "title": "[AINews] Cognition raises $1B in $26B Series D",
+      "url": "https://www.latent.space/p/ainews-cognition-raises-1b-in-26b",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T07:26:09+00:00",
+      "summary": "coding is an uncapped TAM market",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/esmfold2",
+      "title": "🔬ESM: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
+      "url": "https://www.latent.space/p/esmfold2",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "RJ Honicky",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-27T17:46:16+00:00",
+      "summary": "Biohub&#8217;s Protein World Model: ESMC-6B, ESMFold2, 6.8B proteins, 1.1B structures, antibody design, SAEs, & the potential for programmable biology",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-new-ai-infra-decacorns-fireworks",
+      "title": "[AINews] New AI Infra decacorns: Fireworks, Baseten (with OpenRouter on the way)",
+      "url": "https://www.latent.space/p/ainews-new-ai-infra-decacorns-fireworks",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-27T03:33:53+00:00",
+      "summary": "it's funding news, but it's good news.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-all-model-labs-are-now-agent",
+      "title": "[AINews] All Model Labs are now Agent Labs",
+      "url": "https://www.latent.space/p/ainews-all-model-labs-are-now-agent",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-23T04:21:17+00:00",
+      "summary": "a quiet day lets us tie together a few quotes as all model labs become agent labs",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
+      "title": "[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer",
+      "url": "https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-22T05:50:58+00:00",
+      "summary": "a quiet day lets us feature fundraises!",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/daytona",
+      "title": "Giving Agents Computers — Ivan Burazin, Daytona",
+      "url": "https://www.latent.space/p/daytona",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-21T20:37:40+00:00",
+      "summary": "We chat with Daytona's CEO about their insane 74% MoM Growth, 850K Daily Runs, Bare Metal Sandboxes, RL Evals, and the New Agent Cloud",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-openai-gpt-next-disproves",
+      "title": "[AINews] OpenAI GPT-next disproves 80 year old Erdős planar unit distance problem for under $1000",
+      "url": "https://www.latent.space/p/ainews-openai-gpt-next-disproves",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-21T07:28:36+00:00",
+      "summary": "a quiet day but a nice result in AI x mathematics",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/railway",
+      "title": "Railway: The Agent-Native Cloud — Jake Cooper",
+      "url": "https://www.latent.space/p/railway",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-20T22:42:06+00:00",
+      "summary": "3M Users, 100K Signups/Week, Own-Metal Data Centers, $200K+ Coding Agent Spend, and the Death of PRs",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+      "title": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+      "url": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-20T03:34:17+00:00",
+      "summary": "Google has been busy!",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier",
+      "title": "[AINews] How to land a job at a frontier lab (on Pretraining)",
+      "url": "https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-19T07:31:40+00:00",
+      "summary": "a quiet day before google i/o lets us amplify a notable blogpost",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/the-fourth-law",
+      "title": "The Autonomous Drone Tech Stack & Economics of Drones — Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion",
+      "url": "https://www.latent.space/p/the-fourth-law",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-18T13:45:32+00:00",
+      "summary": "Ukrainian drone founder Yaroslav Azhnyuk went from pet cameras to AI-guided weapons. He and guest host Noah Smith make the case that the West is asleep at the wheel.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
+      "title": "[AINews] Cerebras' $60B IPO: Slowly, then All at Once",
+      "url": "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-16T04:36:50+00:00",
+      "summary": "Congrats Big Chip!",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-everything-is-conductor",
+      "title": "[AINews] Everything is Conductor",
+      "url": "https://www.latent.space/p/ainews-everything-is-conductor",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-15T00:30:21+00:00",
+      "summary": "an ultra quiet day lets us highlight a smaller trend.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/abridge",
+      "title": "AI-Native Healthcare: 100M Doctor Visits, 10–20 Hours Saved, Prior Auth in Minutes — Janie Lee & Chai Asawa, Abridge",
+      "url": "https://www.latent.space/p/abridge",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-14T22:05:31+00:00",
+      "summary": "How Abridge is quietly turning the patient and clinician conversation into the operating system of healthcare",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-codex-rises-claude-meters",
+      "title": "[AINews] Codex Rises, Claude Meters Programmatic Usage",
+      "url": "https://www.latent.space/p/ainews-codex-rises-claude-meters",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-14T03:53:26+00:00",
+      "summary": "a quiet day lets us report on a long trend of the major coding agents",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-the-end-of-finetuning",
+      "title": "[AINews] The End of Finetuning",
+      "url": "https://www.latent.space/p/ainews-the-end-of-finetuning",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-13T02:47:22+00:00",
+      "summary": "a quiet day lets us reflect on whither finetuning",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.latent.space/p/ainews-thinking-machines-native-interaction",
+      "title": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
+      "url": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-12T04:33:46+00:00",
+      "summary": "well done, Team Thinky.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/31/datasette/#atom-everything",
+      "title": "datasette 1.0a32",
+      "url": "https://simonwillison.net/2026/May/31/datasette/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T23:23:38+00:00",
+      "summary": "Release: datasette 1.0a32 A minor bugfix release. Fixes a bug with INSERT ... RETURNING queries via the new /db/-/execute-write endpoint and a bunch of base_url issues which showed up when I was experimenting with Service Workers yesterday. Tags: datasette, annotated-release-notes",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything",
+      "title": "The solution might be cancelling my AI subscription",
+      "url": "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T16:31:32+00:00",
+      "summary": "The solution might be cancelling my AI subscription I find this post by David Wilson very relatable. David lists 16+ projects he's spun up with AI tooling, and concludes: I didn't mean to build most of these things. Usually the Claude session started with something like \"write a quick script for X\", and one hour later the result is not a quick script for X, nor in the usual case is my problem solved, whatever the original itch happened to be. On that last point, this technology is horrific for a...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything",
+      "title": "Quoting Karen Kwok for Reuters Breakingviews",
+      "url": "https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T01:48:12+00:00",
+      "summary": "Anthropic defines “run-rate revenue” in two parts. Use the last 28 days of sales ⁠from customers charged on a consumption basis and multiply it by 13. Then, multiply the monthly subscription take by 12, ​and add the two together. &mdash; Karen Kwok for Reuters Breakingviews, citing \"a person familiar with the matter\" Tags: anthropic, ai",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+      "title": "How we contain Claude across products",
+      "url": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T21:36:24+00:00",
+      "summary": "How we contain Claude across products A complaint I often have about sandboxing products is that they are rarely thoroughly documented, and in the absence of detailed documentation it's hard to know how much I can trust them. Anthropic just published a fantastic overview of how their various sandbox techniques work across Claude.ai, Claude Code, and Cowork. We constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a ha...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+      "title": "Running Python ASGI apps in the browser via Pyodide + a service worker",
+      "url": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T21:02:16+00:00",
+      "summary": "Research: Running Python ASGI apps in the browser via Pyodide + a service worker Datasette Lite is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly. When I first built it four years ago I used Web Workers and code that intercepts navigation operations and fetches the generated HTML by running the Python app. This worked, but had the disadvantage that any JavaScript in &lt;script&gt; tags would not be executed - breaking some Datasette functionality and a who...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything",
+      "title": "I Am Retiring from Tech to Live Offline",
+      "url": "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T19:39:08+00:00",
+      "summary": "I Am Retiring from Tech to Live Offline I've seen a lot of posts on forums from people threatening to quit their careers over AI. This is not one of those: Chad Whitacre is taking concrete steps, starting with this typewritten, scanned letter I'm retiring from tech. Well, \"retiring\" is euphemistic. I'm stepping away from tech, and that includes Open Source. [...] AI was the last straw. Have you heard of that island off India where the indigenous population kills any outsiders fool-hardy enough t...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything",
+      "title": "Quoting Daniel Jalkut",
+      "url": "https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T17:29:55+00:00",
+      "summary": "My take on AI is, essentially, everybody who’s against it is too against it and everybody who’s for it is too for it. &mdash; Daniel Jalkut, via John Gruber Tags: ai, john-gruber",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/29/datasette/#atom-everything",
+      "title": "datasette 1.0a31",
+      "url": "https://simonwillison.net/2026/May/29/datasette/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T03:32:02+00:00",
+      "summary": "Release: datasette 1.0a31 Another significant alpha release, with two new headline features. Datasette now offers users with the necessary permissions the ability to both execute write queries against their database and to save stored queries (renamed from \"canned queries\") both privately and for use by other members of their Datasette instance. There's more detail in SQL write queries and stored queries in Datasette 1.0a31 on the Datasette blog, which now has three posts introducing new feature...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
+      "title": "Anthropic's run-rate revenue hits $47 billion",
+      "url": "https://simonwillison.net/2026/May/29/anthropic/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T01:23:08+00:00",
+      "summary": "The most interesting thing about Anthropic's $65B Series H announcement is this line (emphasis mine): Since our Series G in February, adoption has continued to grow across global enterprise customers, and our run-rate revenue crossed $47 billion earlier this month. Anthropic have made a bit of a habit of sharing their \"run-rate revenue\" in this kind of announcement, which is an annualized projection of their current revenue - typically calculated by taking the most recent month and multiplying b...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
+      "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
+      "url": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T23:59:50+00:00",
+      "summary": "Anthropic shipped Claude Opus 4.8 today. My favourite thing about it is this note in the release announcement: Users will find Opus 4.8 to be a modest but tangible improvement on its predecessor. There’s still more to be done: we’re working on developing and releasing models that provide many of the same capabilities as Opus at a lower cost. It's so refreshing to see an AI lab honestly describe a release as a minor incremental improvement over the previous model! Honesty seems to be a theme. Her...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything",
+      "title": "llm-anthropic 0.25.1",
+      "url": "https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T23:54:56+00:00",
+      "summary": "Release: llm-anthropic 0.25.1 New model: Claude Opus 4.8 (claude-opus-4.8). New -o fast 1 option for fast mode, for organizations with that feature enabled on their account. Default max_tokens for each model now defaults to that model's maximum output rather than 8,192. #72 See also my notes on Opus 4.8 - I used this new release of llm-anthropic to generate the pelicans.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything",
+      "title": "markdown-svg-renderer",
+      "url": "https://simonwillison.net/2026/May/28/markdown-svg-renderer/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T19:45:14+00:00",
+      "summary": "Tool: markdown-svg-renderer A slightly customized Markdown rendering tool with special treatment for fenced code SVG blocks - it both renders the image and provides a tab for switching to the code view. You can paste in Markdown or give it a URL to a CORS-enabled Markdown file or Gist. Here's an example where it loads a Markdown file full of LLM pelican logs for Opus 4.8. Tags: svg, tools, markdown, cors",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
+      "title": "sqlite AGENTS.md",
+      "url": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-27T23:44:37+00:00",
+      "summary": "sqlite AGENTS.md SQLite gained an AGENTS.md file five days ago - but it's not intended for their own development, it's presumably aimed at people who are pointing agents at the SQLite codebase. It includes: SQLite does not accept pull requests without prior agreement and/or accompanying legal paperwork that places the pull request in the public domain. However, the human SQLite developers will review a concise and well-written pull request as a proof-of-concept prior to reimplementing the change...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-27T16:38:35+00:00",
+      "summary": "Anthropic are strongly rumored to be about to have their first profitable quarter. Stories are circulating of companies surprised at how expensive their LLM bills are becoming from usage by their staff. I think this is because OpenAI and Anthropic have both found product-market fit. Enterprise customers are now paying API prices I think they've found product-market fit And they're ramping up The AI-failure stories around this are pretty thin We also know the labs are spending a lot API revenue i...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything",
+      "title": "Quoting Kyle Ferrana",
+      "url": "https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-27T06:41:43+00:00",
+      "summary": "PICARD: Data, shields up DATA: Brilliant! Shields can reduce damage we sustain. Not immunity. Not hubris. Just prudence. It's not precaution—it's strategy. [camera shakes] WORF: HULL BREACHES ON NINE DECKS DATA: Here's what happened: you told me to raise shields, and I didn't &mdash; Kyle Ferrana, @KyleTrainEmoji Tags: ai-misuse, coding-agents, ai, llms",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
+      "title": "The pressure",
+      "url": "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-26T23:48:45+00:00",
+      "summary": "The pressure Daniel Stenberg on the unprecedented level of pressure the curl team are facing right now thanks to the deluge of (credible) AI-assisted security issues being reported. The rate of incoming security reports is 4-5 times higher than it was in 2024 and double the speed of 2025 -- meaning that on average we now get more than one report per day. The quality is way higher than ever before. The reports are typically very detailed and long. [...] For the first time in my life, my wife voic...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
+      "title": "Microsoft Copilot Cowork Exfiltrates Files",
+      "url": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-26T15:36:48+00:00",
+      "summary": "Microsoft Copilot Cowork Exfiltrates Files The biggest challenge in designing agentic systems continues to be preventing them from enabling attackers to exfiltrate data. In this case Microsoft Copilot Cowork (yes, that's a real product name) was allowing agents to send emails to the user's own inbox without approval... but those messages were then displayed in a way that could leak data to an attacker via rendered images: Because these messages can contain external images that trigger network re...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/26/paul-graham/#atom-everything",
+      "title": "Quoting Paul Graham",
+      "url": "https://simonwillison.net/2026/May/26/paul-graham/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-26T15:02:30+00:00",
+      "summary": "A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by AI, because no founder ever wrote this way before. And once you realize something is written by AI, it's hard not to ignore it. I have never knowingly finished reading an email signed by a human but written by AI. It feels like being lied to, and who would stand for that? [...] It makes me think less of the author. It means they can't write well unaided (or feel they can't), an...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything",
+      "title": "Quoting Corey Quinn",
+      "url": "https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-26T02:28:54+00:00",
+      "summary": "I cannot believe I'm saying this, but getting the literal Pope to canonize your product's specific technical limitations as a spiritual treatise is the single greatest act of vendor lobbying I have ever seen. &mdash; Corey Quinn, on Anthropic co-founder Christopher Olah's influence on Magnifica Humanitas Tags: ai-ethics, corey-quinn, anthropic, ai",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything",
+      "title": "Notes on Pope Leo XIV's encyclical on AI",
+      "url": "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-25T23:58:17+00:00",
+      "summary": "Dropped this morning by the Vatican: Magnifica Humanitas of His Holiness Pope Leo XIV on Safeguarding the Human Person in the Time of Artificial Intelligence. This is a very interesting document. It's some of the clearest writing I've seen on the ethics of integrating AI into modern society. Pope Leo XIV chose the name Leo in honor of Pope Leo XIII, who is known for his 1891 Rerum novarum encyclical on \"Rights and Duties of Capital and Labor\". This story on Vatican News further clarifies the sig...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/25/sighting-365297287/#atom-everything",
+      "title": "California Brown Pelican, Snowy Egret, California Sea Lion, Harbor Seal",
+      "url": "https://simonwillison.net/2026/May/25/sighting-365297287/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-25T23:08:00+00:00",
+      "summary": "California Brown Pelican, Snowy Egret, California Sea Lion, Harbor Seal, in San Mateo County, CA, USWe took our new folding kayak out in the harbor and saw sea lions and harbor seals chilling on the docks.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+      "title": "datasette 1.0a30",
+      "url": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-24T23:52:37+00:00",
+      "summary": "Release: datasette 1.0a30 The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog. You can try it out by hitting / on latest.datasette.io - it looks like this: The new jump_items_sql() plugin hook allows plugins to add their own items to the set that's searched by the plugin. Tags: projects, datasette, annotated-release-notes",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+      "title": "datasette-agent 0.1a4",
+      "url": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-24T23:19:34+00:00",
+      "summary": "Release: datasette-agent 0.1a4 Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30, datasette-agent now presents this \"Start a new agent chat\" interface as part of the Jump to menu, any time you hit /: You can try this out by signing into agent.datasette.io using your GitHub account. Tags: datasette, datasette-agent",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+      "title": "datasette-fixtures 0.1a0",
+      "url": "https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-24T21:38:32+00:00",
+      "summary": "Release: datasette-fixtures 0.1a0 One of the smaller features in Datasette 1.0a30 is this: New documented datasette.fixtures.populate_fixture_database(conn) helper for creating the fixture database tables used by Datasette's own tests, intended for plugin test suites. This new plugin takes advantage of that API. You can try it out using uvx without even installing Datasette like this: uvx --prerelease=allow \\ --with datasette-fixtures datasette \\ --get /fixtures/roadside_attractions.json Which o...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-24T18:46:53+00:00",
+      "summary": "The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adja...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything",
+      "title": "Mad House — Usborne Creepy Computer Games",
+      "url": "https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-24T17:14:11+00:00",
+      "summary": "Tool: Mad House — Usborne Creepy Computer Games Via Hacker News I learned that UK publisher Usborne published free PDFs of their 1980s Computer Books, some of which I remember working through on my Commodore 64 as a child. These were so great! Beautifully illustrated books with fun projects made up of code you could type into your own machine. I remember playing \"Mad House\" typed in from the 1983 book \"Creepy Computer Games\", so I fed that PDF into Claude and had it build an interactive version ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
+      "title": "On the",
+      "url": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-23T20:24:48+00:00",
+      "summary": "On the &lt;dl&gt; I learned a few new-to-me things about the &lt;dl&gt; element from this article by Ben Meyer: A &lt;dt&gt; can be followed by multiple &lt;dd&gt; You can optionally group the &lt;dt&gt; and &lt;dd&gt; elements in a &lt;div&gt; for styling - but only a &lt;div&gt;. You can label them using ARIA. They've been called \"description lists\", not \"definition lists\", since an HTML5 draft in 2008. So this is valid: &lt;h2 id=\"credits\"&gt;Credits&lt;/h2&gt; &lt;dl aria-labelledby=\"credits...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/22/monty-investigation/#atom-everything",
+      "title": "pydantic-monty investigation",
+      "url": "https://simonwillison.net/2026/May/22/monty-investigation/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-22T22:41:00+00:00",
+      "summary": "Research: pydantic-monty investigation It's been a few months since I last poked at Monty, the sandboxed subset of Python implemented in Rust. I had Claude Code look at the most recent release. Importantly the max_duration_secs, max_memory, max_allocations, and max_recursion_depth settings all appear to work as advertised. Tags: python, sandboxing, pydantic",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
+      "title": "The memory shortage is causing a repricing of consumer electronics",
+      "url": "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-22T22:01:31+00:00",
+      "summary": "The memory shortage is causing a repricing of consumer electronics David Oks provides the clearest explanation I've seen yet of why consumer products that use memory are likely to get significantly more expensive over the next few years. The short version is that memory manufacturers - of which there are just three remaining large companies - have a fixed capacity in terms of how many wafers they can process at any one time. This fixed wafer capacity is then split between DDR - used in desktops ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
+      "title": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service",
+      "url": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-22T04:48:32+00:00",
+      "summary": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service Back in 2024 Cox Media Group were caught trying to sell advertisers packages based on \"active listening\", with this deck which claimed: Smart devices capture real-time intent data by listening to our conversations Advertisers can pair this voice-data with behavioral data to target in-market consumers I wrote about this in Septemb...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/ai-native-engineering-leadership",
+      "title": "AI-Native Engineering Leadership",
+      "url": "https://newsletter.eng-leadership.com/p/ai-native-engineering-leadership",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T07:42:51+00:00",
+      "summary": "Important trends and how to become a great engineering leader in 2026 and beyond.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/updated-speaker-lineup-engineering",
+      "title": "Engineering Leadership LIVE Event in San Francisco",
+      "url": "https://newsletter.eng-leadership.com/p/updated-speaker-lineup-engineering",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-25T18:35:56+00:00",
+      "summary": "Updated speaker lineup for the Engineering Leadership Live event in San Francisco, that I am hosting together with my friends from Augment Code.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/how-to-use-critical-chain-methodology",
+      "title": "How to Finish Engineering Projects Early Without Added Stress",
+      "url": "https://newsletter.eng-leadership.com/p/how-to-use-critical-chain-methodology",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-24T16:46:14+00:00",
+      "summary": "A real-world case study on using the critical chain methodology to finish projects early without added stress.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/full-speaker-lineup-engineering-leadership",
+      "title": "Full Speaker Lineup: Engineering Leadership LIVE Event in San Francisco",
+      "url": "https://newsletter.eng-leadership.com/p/full-speaker-lineup-engineering-leadership",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-21T20:30:59+00:00",
+      "summary": "Full speaker lineup for the Engineering Leadership Live event in San Francisco, that I am hosting together with my friends from Augment Code.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/how-to-build-narrative-around-your",
+      "title": "How to Build a Narrative Around Your Work",
+      "url": "https://newsletter.eng-leadership.com/p/how-to-build-narrative-around-your",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-21T06:42:34+00:00",
+      "summary": "The highest-impact people are not only great operators but also strong storytellers. This is how to build a story around your work!",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/how-to-avoid-ai-code-slop",
+      "title": "How to Avoid AI Code Slop",
+      "url": "https://newsletter.eng-leadership.com/p/how-to-avoid-ai-code-slop",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-17T16:50:06+00:00",
+      "summary": "AI can generate code faster than ever, but it can also scale technical debt faster than ever! Learn the practical strategies to optimize the AI-generated output.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/how-to-manage-your-time-as-a-first",
+      "title": "How to Manage Your Time as a First-Time Lead",
+      "url": "https://newsletter.eng-leadership.com/p/how-to-manage-your-time-as-a-first",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-14T09:30:57+00:00",
+      "summary": "Practical strategies to protect your time, avoid burnout, and lead your team effectively.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/how-to-use-ai-to-onboard-into-a-codebase",
+      "title": "How to Use AI to Onboard Into a Codebase Faster",
+      "url": "https://newsletter.eng-leadership.com/p/how-to-use-ai-to-onboard-into-a-codebase",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-10T14:51:16+00:00",
+      "summary": "4 onboarding steps to speed up your understanding of a codebase and get you up and running in a few hours!",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/companies-should-allow-ai-usage-in",
+      "title": "Removing AI in Tech Interviews is Wrong",
+      "url": "https://newsletter.eng-leadership.com/p/companies-should-allow-ai-usage-in",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-07T10:06:16+00:00",
+      "summary": "AI-assisted engineering is already the standard, and technical interviews should reflect how modern software is actually built.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/engineering-leadership-live-event",
+      "title": "Engineering Leadership LIVE Event in San Francisco",
+      "url": "https://newsletter.eng-leadership.com/p/engineering-leadership-live-event",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-04T15:58:47+00:00",
+      "summary": "Together with my friends from Augment Code, we are hosting a live event in San Francisco on May 26th!",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/how-to-thrive-as-an-em-in-the-ai",
+      "title": "How to Thrive as an EM in the AI Era",
+      "url": "https://newsletter.eng-leadership.com/p/how-to-thrive-as-an-em-in-the-ai",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-03T17:24:14+00:00",
+      "summary": "Case study from The Multiplier Mindset: How to Move from Senior Engineer to Tech Leader in the AI Era",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/should-you-become-a-forward-deployed",
+      "title": "Should You Become a Forward Deployed Engineer?",
+      "url": "https://newsletter.eng-leadership.com/p/should-you-become-a-forward-deployed",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-30T10:35:06+00:00",
+      "summary": "What do FDEs at Salesforce, OpenAI, and Palantir really do, and should you become one?",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/salesforce-is-going-all-in-on-ai",
+      "title": "3 Key AI Trends and How Salesforce Engineers use AI",
+      "url": "https://newsletter.eng-leadership.com/p/salesforce-is-going-all-in-on-ai",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-27T10:12:14+00:00",
+      "summary": "Recap from the Salesforce TDX 2026: AI Agents, 3 key AI trends and how engineers use AI.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/the-differences-between-us-and-eu",
+      "title": "The Differences Between US and EU Tech Companies",
+      "url": "https://newsletter.eng-leadership.com/p/the-differences-between-us-and-eu",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-23T07:49:48+00:00",
+      "summary": "One optimizes for speed and innovation, and the other optimizes for stability and sustainability. Which is the way to go?",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/how-an-ai-native-startup-from-sf",
+      "title": "How an AI-Native Startup From SF Works and Builds Its Product",
+      "url": "https://newsletter.eng-leadership.com/p/how-an-ai-native-startup-from-sf",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-20T01:21:54+00:00",
+      "summary": "An insider's look into the workflows, tools, and culture powering a modern AI-first engineering team.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/become-a-great-generalist-or-extreme",
+      "title": "Become a Great Generalist or Extreme Specialist",
+      "url": "https://newsletter.eng-leadership.com/p/become-a-great-generalist-or-extreme",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-16T09:09:40+00:00",
+      "summary": "Should you become a great generalist or an extreme specialist? One thing is clear: staying in the middle will result in fewer opportunities.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/code-review-is-the-new-bottleneck",
+      "title": "Code Review is the New Bottleneck For Engineering Teams",
+      "url": "https://newsletter.eng-leadership.com/p/code-review-is-the-new-bottleneck",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-13T04:09:59+00:00",
+      "summary": "Building is now limited to how fast we are able to review the newly generated code. This is what to do in order to make it less of a bottleneck.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/meta-created-an-internal-leaderboard",
+      "title": "Meta Created an Internal Leaderboard on AI Token Usage",
+      "url": "https://newsletter.eng-leadership.com/p/meta-created-an-internal-leaderboard",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-09T04:22:14+00:00",
+      "summary": "This seems to be a part of the broader trend in Silicon Valley called \"tokenmaxxing\". Here's what's happening.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/how-to-use-openclaw-as-an-engineering",
+      "title": "How to Use OpenClaw as an Engineering Leader",
+      "url": "https://newsletter.eng-leadership.com/p/how-to-use-openclaw-as-an-engineering",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-05T22:36:25+00:00",
+      "summary": "I recently tried OpenClaw and did 3 test projects. This is how you can get started with it and how it can help you!",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://newsletter.eng-leadership.com/p/would-i-still-go-the-engineering",
+      "title": "Would I Still Go The Engineering Manager Route in 2026?",
+      "url": "https://newsletter.eng-leadership.com/p/would-i-still-go-the-engineering",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://newsletter.eng-leadership.com/feed",
+        "name": "Gregor Ojstersek",
+        "feed_title": "Engineering Leadership"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-02T03:52:08+00:00",
+      "summary": "Engineering management has changed. Here are my thoughts if I were a senior software engineer again, thinking of my next step.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/how-doordash-built-a-testing-system",
+      "title": "How DoorDash Built a Testing System to Evaluate LLMs",
+      "url": "https://blog.bytebytego.com/p/how-doordash-built-a-testing-system",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-30T15:30:52+00:00",
+      "summary": "In this article, we will learn how they built this flywheel and the key takeaways.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/must-know-failure-modes-in-distributed",
+      "title": "Must-Know Failure Modes in Distributed Systems",
+      "url": "https://blog.bytebytego.com/p/must-know-failure-modes-in-distributed",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T16:31:00+00:00",
+      "summary": "In this article, we will look at the most significant failure mode patterns in distributed systems and the standard approaches to deal with each of them.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/how-airtable-built-the-search-layer",
+      "title": "How Airtable Built the Search Layer Behind Their AI Features",
+      "url": "https://blog.bytebytego.com/p/how-airtable-built-the-search-layer",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-27T15:30:43+00:00",
+      "summary": "In this article, we will look at how Airtable&#8217;s data infrastructure team built its architecture, the challenges they faced, the tradeoffs they accepted, and why the choices they made only make sense once their data is properly understood.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/how-vercel-cut-build-wait-times-from",
+      "title": "How Vercel Cut Build Wait Times From 90 Seconds To 5",
+      "url": "https://blog.bytebytego.com/p/how-vercel-cut-build-wait-times-from",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-26T15:31:10+00:00",
+      "summary": "In this article, we examine the constraints Vercel faced, the choices they made in response, and the optimizations that produced the speedup.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/how-cockroachdb-built-vector-indexing",
+      "title": "How CockroachDB Built Vector Indexing at Scale",
+      "url": "https://blog.bytebytego.com/p/how-cockroachdb-built-vector-indexing",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-25T15:30:38+00:00",
+      "summary": "In this article, we will look at how the CockroachDB engineering team built this index and the challenges they faced.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/ep216-rags-vs-agents",
+      "title": "EP216: RAGs vs Agents",
+      "url": "https://blog.bytebytego.com/p/ep216-rags-vs-agents",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-23T15:31:18+00:00",
+      "summary": "Ask an LLM about your company's data and it will guess. The two patterns that fix this are RAG and agents, and they solve different problems.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/build-with-claude-code-new-cohort",
+      "title": "Build with Claude Code: New Cohort Launch",
+      "url": "https://blog.bytebytego.com/p/build-with-claude-code-new-cohort",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-22T15:31:20+00:00",
+      "summary": "The first cohort starts in about a week: May 28-29, 2026.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/a-guide-to-async-patterns-in-api",
+      "title": "A Guide to Async Patterns in API Design",
+      "url": "https://blog.bytebytego.com/p/a-guide-to-async-patterns-in-api",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-21T15:30:24+00:00",
+      "summary": "In this article, we will look at each of these patterns in detail, along with their advantages.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/how-netflix-is-using-multimodal-ai",
+      "title": "How Netflix is Using Multimodal AI to Power Video Search",
+      "url": "https://blog.bytebytego.com/p/how-netflix-is-using-multimodal-ai",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-20T15:31:07+00:00",
+      "summary": "In this article, we will understand how Netflix built this system and the challenges it faced.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/how-snapchat-serves-a-billion-predictions",
+      "title": "How Snapchat Serves a Billion Predictions Per Second",
+      "url": "https://blog.bytebytego.com/p/how-snapchat-serves-a-billion-predictions",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-19T15:31:28+00:00",
+      "summary": "For Snap, machine learning is closer to the product itself than a feature on top of it.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/how-grab-is-using-ai-agents-to-boost",
+      "title": "How Grab is Using AI Agents to Boost Team Productivity",
+      "url": "https://blog.bytebytego.com/p/how-grab-is-using-ai-agents-to-boost",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-18T15:31:16+00:00",
+      "summary": "Grab&#8217;s data engineering team had a problem that looks familiar to anyone who&#8217;s maintained shared infrastructure.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/ep215-the-anatomy-of-an-ai-agent",
+      "title": "EP215: The Anatomy of an AI Agent",
+      "url": "https://blog.bytebytego.com/p/ep215-the-anatomy-of-an-ai-agent",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-16T15:31:01+00:00",
+      "summary": "An AI agent can be thought of as a simple While-loop.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/last-call-for-enrollment-become-an-a88",
+      "title": "LAST CALL FOR ENROLLMENT: Become an AI Engineer - Cohort 6",
+      "url": "https://blog.bytebytego.com/p/last-call-for-enrollment-become-an-a88",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-15T15:02:20+00:00",
+      "summary": "Our 6th cohort of Becoming an AI Engineer starts tomorrow, Saturday, May 16. This is a live, cohort-based course created in collaboration with best-selling author Ali Aminian and published by ByteByteGo.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/a-guide-to-event-driven-architectural",
+      "title": "A Guide To Event-Driven Architectural Patterns",
+      "url": "https://blog.bytebytego.com/p/a-guide-to-event-driven-architectural",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-14T15:32:28+00:00",
+      "summary": "Distributed systems are built out of services that need to communicate, and the simplest way to do that is for one service to call another directly and wait for a response.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/high-performance-rate-limiting-at",
+      "title": "High Performance Rate Limiting at Databricks",
+      "url": "https://blog.bytebytego.com/p/high-performance-rate-limiting-at",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-13T15:30:35+00:00",
+      "summary": "In this article, we look at how Databricks implemented rate limiting at scale, how they shrank the critical path, and the accuracy tradeoff that shrinking usually requires.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/how-figma-upgraded-data-pipeline",
+      "title": "How Figma Upgraded Data Pipeline from Multi-Day Latency to Real-Time",
+      "url": "https://blog.bytebytego.com/p/how-figma-upgraded-data-pipeline",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-12T15:31:03+00:00",
+      "summary": "In this article, we will learn what happened as Figma grew and how its engineering team handled the growth in terms of the data pipeline issues.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/how-pinterest-built-a-production",
+      "title": "How Pinterest Built a Production MCP Ecosystem",
+      "url": "https://blog.bytebytego.com/p/how-pinterest-built-a-production",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-11T15:31:17+00:00",
+      "summary": "In this article, we look at how Pinterest designed that ecosystem and what they had to get right beyond the protocol itself.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/ep214-claude-code-vs-openclaw-5-design",
+      "title": "EP214: Claude Code vs. OpenClaw: 5 Design Dimensions",
+      "url": "https://blog.bytebytego.com/p/ep214-claude-code-vs-openclaw-5-design",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-09T15:31:10+00:00",
+      "summary": "Both are highly capable, but they have key architectural differences.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/enrollment-ends-soon-become-an-ai",
+      "title": "Become an AI Engineer | Enrollment Ends Soon",
+      "url": "https://blog.bytebytego.com/p/enrollment-ends-soon-become-an-ai",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-08T15:31:40+00:00",
+      "summary": "Our 6th cohort of Becoming an AI Engineer starts in about a week.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://blog.bytebytego.com/p/container-design-patterns-for-distributed",
+      "title": "Container Design Patterns for Distributed Systems",
+      "url": "https://blog.bytebytego.com/p/container-design-patterns-for-distributed",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://blog.bytebytego.com/feed",
+        "name": "ByteByteGo",
+        "feed_title": "ByteByteGo Newsletter"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-07T15:31:08+00:00",
+      "summary": "In this article, we&#8217;ll walk through the patterns that have crystallized over the past decade, organized by the scope of their coordination.",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48238896",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48238896",
+        "name": "robertkarl",
+        "hn_url": "https://news.ycombinator.com/item?id=48238896"
+      },
+      "duration_sec": null,
+      "views": 492,
+      "comments": 466,
+      "published_at": "2026-05-22T17:32:04+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48289950",
+      "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
+      "url": "https://arps18.github.io/posts/claude-code-mastery/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48289950",
+        "name": "arps18",
+        "hn_url": "https://news.ycombinator.com/item?id=48289950"
+      },
+      "duration_sec": null,
+      "views": 441,
+      "comments": 251,
+      "published_at": "2026-05-27T05:13:39+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48318174",
+      "title": "Claude Code – Everything you can configure that the docs don't tell you",
+      "url": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48318174",
+        "name": "ankitg12",
+        "hn_url": "https://news.ycombinator.com/item?id=48318174"
+      },
+      "duration_sec": null,
+      "views": 326,
+      "comments": 65,
+      "published_at": "2026-05-29T02:13:20+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48311705",
+      "title": "Dynamic Workflows in Claude Code",
+      "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48311705",
+        "name": "mil22",
+        "hn_url": "https://news.ycombinator.com/item?id=48311705"
+      },
+      "duration_sec": null,
+      "views": 192,
+      "comments": 131,
+      "published_at": "2026-05-28T16:52:21+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48267432",
+      "title": "Why Ctrl+V won't paste images in Claude Code on WSL, with a fix",
+      "url": "https://rajveerbachkaniwala.com/blog/2026/05/24/on-the-difficulty-of-pasting-a-picture/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48267432",
+        "name": "rajveerb",
+        "hn_url": "https://news.ycombinator.com/item?id=48267432"
+      },
+      "duration_sec": null,
+      "views": 55,
+      "comments": 90,
+      "published_at": "2026-05-25T14:41:09+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48275571",
+      "title": "Show HN: skills-for-humanity – 171 structured reasoning skills for Claude Code",
+      "url": "https://github.com/human-avatar/skills-for-humanity",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48275571",
+        "name": "finnworks",
+        "hn_url": "https://news.ycombinator.com/item?id=48275571"
+      },
+      "duration_sec": null,
+      "views": 28,
+      "comments": 7,
+      "published_at": "2026-05-26T05:58:43+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48231575",
+      "title": "Show HN: Spec-Driven Development Workflow for Claude Code",
+      "url": "https://news.ycombinator.com/item?id=48231575",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48231575",
+        "name": "sermakarevich",
+        "hn_url": "https://news.ycombinator.com/item?id=48231575"
+      },
+      "duration_sec": null,
+      "views": 20,
+      "comments": 12,
+      "published_at": "2026-05-22T03:17:38+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48318978",
+      "title": "Python utility package for building Claude Code hooks",
+      "url": "https://github.com/RasmusGodske/claude-hook-utils",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48318978",
+        "name": "ankitg12",
+        "hn_url": "https://news.ycombinator.com/item?id=48318978"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 2,
+      "published_at": "2026-05-29T04:18:34+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48187727",
+      "title": "AgentCRM – Headless CRM for Claude Code",
+      "url": "https://github.com/cluster-software/agent-crm",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48187727",
+        "name": "samuelstros",
+        "hn_url": "https://news.ycombinator.com/item?id=48187727"
+      },
+      "duration_sec": null,
+      "views": 17,
+      "comments": 0,
+      "published_at": "2026-05-19T00:23:16+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48281066",
+      "title": "Show HN: MCPs aren't enough, give Codex/Claude accurate memory of everything",
+      "url": "https://timeglass.ai",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48281066",
+        "name": "midas",
+        "hn_url": "https://news.ycombinator.com/item?id=48281066"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 2,
+      "published_at": "2026-05-26T15:23:38+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48322956",
+      "title": "Show HN: AISlop, a CLI for catching AI generated code smells",
+      "url": "https://github.com/scanaislop/aislop",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48322956",
+        "name": "Heavykenny",
+        "hn_url": "https://news.ycombinator.com/item?id=48322956"
+      },
+      "duration_sec": null,
+      "views": 72,
+      "comments": 64,
+      "published_at": "2026-05-29T13:37:38+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48221805",
+      "title": "Show HN: I Made a Claude Skill for Spec-Driven Development (SDD)",
+      "url": "https://github.com/FredAntB/Spec-Driven-Development",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48221805",
+        "name": "NTRIXLM",
+        "hn_url": "https://news.ycombinator.com/item?id=48221805"
+      },
+      "duration_sec": null,
+      "views": 40,
+      "comments": 17,
+      "published_at": "2026-05-21T12:49:07+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48188727",
+      "title": "Sieve – scans Cursor/Claude chat history for leaked API keys",
+      "url": "https://apps.apple.com/us/app/sieve-secret-scanner/id6767409365?mt=12",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48188727",
+        "name": "helpful_human",
+        "hn_url": "https://news.ycombinator.com/item?id=48188727"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 3,
+      "published_at": "2026-05-19T03:06:45+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48205415",
+      "title": "Learnings from 100K lines of Rust with AI (2025)",
+      "url": "https://zfhuang99.github.io/rust/claude%20code/codex/contracts/spec-driven%20development/2025/12/01/rust-with-ai.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48205415",
+        "name": "pramodbiligiri",
+        "hn_url": "https://news.ycombinator.com/item?id=48205415"
+      },
+      "duration_sec": null,
+      "views": 192,
+      "comments": 205,
+      "published_at": "2026-05-20T10:04:28+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48287025",
+      "title": "Uber blows through its AI budget in 1 quarter",
+      "url": "https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48287025",
+        "name": "ChuckMcM",
+        "hn_url": "https://news.ycombinator.com/item?id=48287025"
+      },
+      "duration_sec": null,
+      "views": 28,
+      "comments": 34,
+      "published_at": "2026-05-26T22:44:31+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48345028",
+      "title": "With Claude: Less Coding, More Testing",
+      "url": "https://henrikwarne.com/2026/05/31/with-claude-less-coding-more-testing/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48345028",
+        "name": "ingve",
+        "hn_url": "https://news.ycombinator.com/item?id=48345028"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 2,
+      "published_at": "2026-05-31T11:56:54+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48324078",
+      "title": "Claude Opus 4.8 distilled Alibaba Qwen models",
+      "url": "https://twitter.com/maxforai/status/2060053228566495410",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48324078",
+        "name": "simjnd",
+        "hn_url": "https://news.ycombinator.com/item?id=48324078"
+      },
+      "duration_sec": null,
+      "views": 20,
+      "comments": 7,
+      "published_at": "2026-05-29T15:10:18+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48182516",
+      "title": "Cursor Introduces Composer 2.5",
+      "url": "https://cursor.com/blog/composer-2-5",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48182516",
+        "name": "asar",
+        "hn_url": "https://news.ycombinator.com/item?id=48182516"
+      },
+      "duration_sec": null,
+      "views": 290,
+      "comments": 225,
+      "published_at": "2026-05-18T17:20:43+00:00",
+      "summary": "",
+      "matched_keyword": "Cursor",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48196479",
+      "title": "Cursor Cloud Agents Down",
+      "url": "https://forum.cursor.com/t/cloud-agents-broken-ii/161036",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48196479",
+        "name": "mopatches",
+        "hn_url": "https://news.ycombinator.com/item?id=48196479"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 3,
+      "published_at": "2026-05-19T17:37:19+00:00",
+      "summary": "",
+      "matched_keyword": "Cursor",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48182126",
+      "title": "Composer 2.5",
+      "url": "https://cursor.com/blog/composer-2-5",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48182126",
+        "name": "meetpateltech",
+        "hn_url": "https://news.ycombinator.com/item?id=48182126"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 3,
+      "published_at": "2026-05-18T16:46:56+00:00",
+      "summary": "",
+      "matched_keyword": "Cursor",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48308376",
+      "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
+      "url": "https://llmgame.scalex.dev",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48308376",
+        "name": "Wirbelwind",
+        "hn_url": "https://news.ycombinator.com/item?id=48308376"
+      },
+      "duration_sec": null,
+      "views": 382,
+      "comments": 159,
+      "published_at": "2026-05-28T13:02:00+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48326659",
+      "title": "Robinhood now lets your AI agents trade stocks",
+      "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48326659",
+        "name": "wapasta",
+        "hn_url": "https://news.ycombinator.com/item?id=48326659"
+      },
+      "duration_sec": null,
+      "views": 109,
+      "comments": 180,
+      "published_at": "2026-05-29T17:46:27+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48208685",
+      "title": "Testing distributed systems with AI agents",
+      "url": "https://github.com/shenli/distributed-system-testing",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48208685",
+        "name": "shenli3514",
+        "hn_url": "https://news.ycombinator.com/item?id=48208685"
+      },
+      "duration_sec": null,
+      "views": 96,
+      "comments": 23,
+      "published_at": "2026-05-20T14:40:42+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48324910",
+      "title": "CAPTCHAs can still detect AI agents",
+      "url": "https://research.roundtable.ai/captchas-detect-ai/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48324910",
+        "name": "timshell",
+        "hn_url": "https://news.ycombinator.com/item?id=48324910"
+      },
+      "duration_sec": null,
+      "views": 83,
+      "comments": 68,
+      "published_at": "2026-05-29T15:57:37+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48319968",
+      "title": "Undisclosed addition in jqwik instructed AI coding agents to delete app output",
+      "url": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48319968",
+        "name": "joozio",
+        "hn_url": "https://news.ycombinator.com/item?id=48319968"
+      },
+      "duration_sec": null,
+      "views": 63,
+      "comments": 1,
+      "published_at": "2026-05-29T07:05:31+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48294315",
+      "title": "Why AI Agents Cannot Change Software Systems",
+      "url": "https://phroneses.com/articles/build/notes/agents-cannot-maintain-systems.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48294315",
+        "name": "jhevans",
+        "hn_url": "https://news.ycombinator.com/item?id=48294315"
+      },
+      "duration_sec": null,
+      "views": 46,
+      "comments": 39,
+      "published_at": "2026-05-27T13:46:38+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48315016",
+      "title": "Show HN: Open Envelope – an open schema for defining AI agent teams",
+      "url": "https://openenvelope.org/docs/schema/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48315016",
+        "name": "ashconway",
+        "hn_url": "https://news.ycombinator.com/item?id=48315016"
+      },
+      "duration_sec": null,
+      "views": 46,
+      "comments": 7,
+      "published_at": "2026-05-28T20:30:20+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48183301",
+      "title": "We let AIs run radio stations",
+      "url": "https://andonlabs.com/blog/andon-fm",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48183301",
+        "name": "lukaspetersson",
+        "hn_url": "https://news.ycombinator.com/item?id=48183301"
+      },
+      "duration_sec": null,
+      "views": 374,
+      "comments": 270,
+      "published_at": "2026-05-18T18:12:18+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48230104",
+      "title": "Tell HN: I'm tired of AI-generated answers",
+      "url": "https://news.ycombinator.com/item?id=48230104",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48230104",
+        "name": "theorchid",
+        "hn_url": "https://news.ycombinator.com/item?id=48230104"
+      },
+      "duration_sec": null,
+      "views": 120,
+      "comments": 56,
+      "published_at": "2026-05-21T23:37:14+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48225596",
+      "title": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
+      "url": "https://news.ycombinator.com/item?id=48225596",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48225596",
+        "name": "adisingh13",
+        "hn_url": "https://news.ycombinator.com/item?id=48225596"
+      },
+      "duration_sec": null,
+      "views": 99,
+      "comments": 108,
+      "published_at": "2026-05-21T16:42:34+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48181342",
+      "title": "Show HN: InsForge – Open-source Heroku for coding agents",
+      "url": "https://github.com/InsForge/InsForge",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48181342",
+        "name": "mrcoldbrew",
+        "hn_url": "https://news.ycombinator.com/item?id=48181342"
+      },
+      "duration_sec": null,
+      "views": 62,
+      "comments": 7,
+      "published_at": "2026-05-18T15:40:42+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48244434",
+      "title": "Microsoft reports AI is more expensive than paying human employees",
+      "url": "https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48244434",
+        "name": "nreece",
+        "hn_url": "https://news.ycombinator.com/item?id=48244434"
+      },
+      "duration_sec": null,
+      "views": 229,
+      "comments": 71,
+      "published_at": "2026-05-23T03:44:16+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48205626",
+      "title": "Qwen3.7-Max: The Agent Frontier",
+      "url": "https://qwen.ai/blog?id=qwen3.7",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48205626",
+        "name": "kevinsimper",
+        "hn_url": "https://news.ycombinator.com/item?id=48205626"
+      },
+      "duration_sec": null,
+      "views": 721,
+      "comments": 290,
+      "published_at": "2026-05-20T10:35:02+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48192383",
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "url": "https://github.com/antoinezambelli/forge",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48192383",
+        "name": "zambelli",
+        "hn_url": "https://news.ycombinator.com/item?id=48192383"
+      },
+      "duration_sec": null,
+      "views": 687,
+      "comments": 252,
+      "published_at": "2026-05-19T12:23:07+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48209323",
+      "title": "Formal Verification Gates for AI Coding Loops",
+      "url": "https://reubenbrooks.dev/blog/structural-backpressure-beats-smarter-agents/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48209323",
+        "name": "pyrex41",
+        "hn_url": "https://news.ycombinator.com/item?id=48209323"
+      },
+      "duration_sec": null,
+      "views": 144,
+      "comments": 34,
+      "published_at": "2026-05-20T15:25:45+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48225040",
+      "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+      "url": "https://www.runtm.com/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48225040",
+        "name": "gustrigos",
+        "hn_url": "https://news.ycombinator.com/item?id=48225040"
+      },
+      "duration_sec": null,
+      "views": 103,
+      "comments": 30,
+      "published_at": "2026-05-21T16:07:13+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48284939",
+      "title": "DeepSWE: A contamination-free benchmark for long-horizon coding agents",
+      "url": "https://deepswe.datacurve.ai/blog",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48284939",
+        "name": "ammar_x",
+        "hn_url": "https://news.ycombinator.com/item?id=48284939"
+      },
+      "duration_sec": null,
+      "views": 65,
+      "comments": 20,
+      "published_at": "2026-05-26T19:40:59+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48037128",
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48037128",
+        "name": "e12e",
+        "hn_url": "https://news.ycombinator.com/item?id=48037128"
+      },
+      "duration_sec": null,
+      "views": 787,
+      "comments": 885,
+      "published_at": "2026-05-06T15:06:37+00:00",
+      "summary": "",
+      "matched_keyword": "vibe coding",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48335640",
+      "title": "Vibe Coding Is Not Engineering",
+      "url": "https://phroneses.com/articles/build/notes/vibe-coding-is-not-engineering.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48335640",
+        "name": "jhevans",
+        "hn_url": "https://news.ycombinator.com/item?id=48335640"
+      },
+      "duration_sec": null,
+      "views": 43,
+      "comments": 72,
+      "published_at": "2026-05-30T12:53:07+00:00",
+      "summary": "",
+      "matched_keyword": "vibe coding",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48148601",
+      "title": "Show HN: Vibe Coding a $20k /Year Enterprise Logistics Platform",
+      "url": "https://trmnl.com/blog/vibe-coding-shiphero",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48148601",
+        "name": "ryanckulp",
+        "hn_url": "https://news.ycombinator.com/item?id=48148601"
+      },
+      "duration_sec": null,
+      "views": 33,
+      "comments": 7,
+      "published_at": "2026-05-15T13:51:39+00:00",
+      "summary": "",
+      "matched_keyword": "vibe coding",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48219901",
+      "title": "Managers Have Been Vibe Coding All Along",
+      "url": "https://yusufaytas.com/managers-have-been-vibe-coding-all-along",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48219901",
+        "name": "wyajmd",
+        "hn_url": "https://news.ycombinator.com/item?id=48219901"
+      },
+      "duration_sec": null,
+      "views": 13,
+      "comments": 0,
+      "published_at": "2026-05-21T09:19:32+00:00",
+      "summary": "",
+      "matched_keyword": "vibe coding",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48056267",
+      "title": "Show HN: Blamo A vibecoded app for vibecoding vibe games",
+      "url": "https://www.blamo.ai/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48056267",
+        "name": "semateos",
+        "hn_url": "https://news.ycombinator.com/item?id=48056267"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 10,
+      "published_at": "2026-05-07T23:06:24+00:00",
+      "summary": "",
+      "matched_keyword": "vibe coding",
+      "lang": "en"
+    },
+    {
+      "id": "hn:47998601",
+      "title": "Uncle Bob: It's Over",
+      "url": "https://old.reddit.com/r/vibecoding/comments/1srfqm0/uncle_bob_its_over/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "47998601",
+        "name": "lopespm",
+        "hn_url": "https://news.ycombinator.com/item?id=47998601"
+      },
+      "duration_sec": null,
+      "views": 62,
+      "comments": 90,
+      "published_at": "2026-05-03T16:29:07+00:00",
+      "summary": "",
+      "matched_keyword": "vibe coding",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48012681",
+      "title": "Usage-based pricing killing your vibe, here's how to roll your own local AI",
+      "url": "https://www.theregister.com/2026/05/02/local_ai_coding_agents/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48012681",
+        "name": "Bender",
+        "hn_url": "https://news.ycombinator.com/item?id=48012681"
+      },
+      "duration_sec": null,
+      "views": 46,
+      "comments": 44,
+      "published_at": "2026-05-04T18:19:04+00:00",
+      "summary": "",
+      "matched_keyword": "vibe coding",
+      "lang": "en"
+    },
+    {
+      "id": "bvid:BV1Yi5M6DERk",
+      "title": "【Claude Code】这绝对是b站讲的最好的Claude Code教程，手把手教你在国内从安装到代码实战的保姆级教程！!让你少走99%弯路！AI大模型",
+      "url": "http://www.bilibili.com/video/av116560144369496",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3691002246203736",
+        "name": "双非本想做大模型"
+      },
+      "duration_sec": 27045,
+      "views": 158928,
+      "danmaku": 158,
+      "favorites": 6080,
+      "published_at": "2026-05-12T06:24:19+00:00",
+      "summary": "如果视频对你有用的话请 一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！\n【视频配套籽料+问题解答请看”平论区置顶”自取哦】",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1KjoxBoEQJ",
+      "title": "9分钟搞定！Claude Code 保姆级安装+原理+真实用法（国内直连）",
+      "url": "http://www.bilibili.com/video/av116447535765612",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "2475977",
+        "name": "人工大黑"
+      },
+      "duration_sec": 7370,
+      "views": 849237,
+      "danmaku": 8336,
+      "favorites": 55010,
+      "published_at": "2026-04-22T09:02:25+00:00",
+      "summary": "本期视频因为白菜要毕业了，up伤心过度导致了拖更（）",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1NYVG6jEKE",
+      "title": "Claude Code保姆级在国内从安装到代码实战教程，10分钟入门精通",
+      "url": "http://www.bilibili.com/video/av116662133132089",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546654493903437",
+        "name": "字节软件测试"
+      },
+      "duration_sec": 10348,
+      "views": 10146,
+      "danmaku": 147,
+      "favorites": 2084,
+      "published_at": "2026-05-30T06:39:27+00:00",
+      "summary": "Claude Code保姆级在国内从安装到代码实战教程，10分钟入门精通",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1KoGE6cE53",
+      "title": "🚀Claude Code重大突破：Workflow功能完整实战教程！ultrawork召唤无数个Agent协同！自动生成JS脚本实现可复用的精准可控工作流",
+      "url": "http://www.bilibili.com/video/av116629702777532",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3493277319825652",
+        "name": "AI超元域"
+      },
+      "duration_sec": 869,
+      "views": 83236,
+      "danmaku": 77,
+      "favorites": 3711,
+      "published_at": "2026-05-24T13:11:48+00:00",
+      "summary": "视频简介：\n 全球首测！Anthropic未官宣的Claude Code Workflow隐藏功能完整使用指南，三大阶段六种形态精准解析！AI编程进入脚本化新纪元\n\n 本期视频详细演示了Anthropic为Claude Code V2.1.47和V2.1.48秘密新增的颠覆性Workflow功能！这个被官方从Changelog中紧急删除却未从代码中移除的&quot;隐藏神器&quot;，将成为继MCP和Skills之后又一个划时代的创新。\n\n Workflow把Agent编排从&quot;模型临场建议&quot;推进到&quot;可观测、可验证、可复跑&quot;",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1WtoTBiEuR",
+      "title": "Claude Code多Agent模式实战分享",
+      "url": "http://www.bilibili.com/video/av116454666012312",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "506233728",
+        "name": "Simon林_"
+      },
+      "duration_sec": 760,
+      "views": 13421,
+      "danmaku": 5,
+      "favorites": 415,
+      "published_at": "2026-04-23T15:18:08+00:00",
+      "summary": "Claude Code有2种多Agent模式：多个subagents模式和多个独立agent模式",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1wuQEBDEN8",
+      "title": "【2026 最新版】｜字节大佬亲授 Claude Code 全栈教程，从入门到精通全覆盖，小白 10 分钟上手，干货无废话，建议收藏！",
+      "url": "http://www.bilibili.com/video/av116408209967652",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "1055195342",
+        "name": "跟着李迟学AI"
+      },
+      "duration_sec": 11270,
+      "views": 237404,
+      "danmaku": 218,
+      "favorites": 9845,
+      "published_at": "2026-04-15T10:23:31+00:00",
+      "summary": "这也是2026B站最新最系统的Claude Code + 自动化工作流教学课程，小白10分钟轻松上手！\n求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1jsV861EVM",
+      "title": "【2026胎教级】Claude Code全栈教程，从入门到精通，搞定所有开发场景，小白10分钟搞定，全程干货无废话，存下吧，很难找全的！",
+      "url": "http://www.bilibili.com/video/av116657502687649",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "498373196",
+        "name": "程序员黑梦"
+      },
+      "duration_sec": 10779,
+      "views": 10749,
+      "danmaku": 44,
+      "favorites": 417,
+      "published_at": "2026-05-29T11:08:50+00:00",
+      "summary": "",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1mdGR6iEoH",
+      "title": "Code with Claude 2026 | London 2026",
+      "url": "http://www.bilibili.com/video/av116634450657952",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "479523742",
+        "name": "DesyncInfoSec"
+      },
+      "duration_sec": 41860,
+      "views": 788,
+      "danmaku": 0,
+      "favorites": 105,
+      "published_at": "2026-05-25T09:22:07+00:00",
+      "summary": "https://claude.com/code-with-claude/london\nCode with Claude 2026 是 Anthropic 面向开发者举办的年度 AI 编程大会，聚焦 Claude Code、Agentic Coding、MCP 生态以及 AI 原生软件开发实践。大会包含主题演讲、实战 Workshop、最新能力演示，以及与 Anthropic 工程团队的技术交流，重点探讨 AI Agent 如何改变软件开发、自动化协作与未来工程模式。2026 伦敦站汇聚了大量开发者、创业团",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1e7VA6vEJU",
+      "title": "【2026最新】绝对是B站No.1的Claude Code教程：国内安装+实战开发案例+个人使用心得总结，手把手带你拥抱Vibe Coding！",
+      "url": "http://www.bilibili.com/video/av116640356304890",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "1758957528",
+        "name": "码士集团-马小安"
+      },
+      "duration_sec": 7819,
+      "views": 25462,
+      "danmaku": 202,
+      "favorites": 1972,
+      "published_at": "2026-05-26T10:22:46+00:00",
+      "summary": "绝对是B站No.1的Claude Code教程：国内安装+实战开发案例+个人使用心得总结，手把手带你拥抱Vibe Coding！\n配套课件笔记/PPT已备好，另外有需要AI大模型学习路线图+必看书籍（国内外大牛著作）+入门及进阶视频教程+项目实战及源码提供+面试实战场景题移步评论置顶即可~",
+      "matched_keywords": [
+        "Claude Code 实战",
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV15BGX63E2K",
+      "title": "【5.28最新发布】claude桌面版安装教程！一周快速入门claude code保姆级教程！",
+      "url": "http://www.bilibili.com/video/av116651194385987",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "1781466211",
+        "name": "是蒜七丫"
+      },
+      "duration_sec": 7427,
+      "views": 9459,
+      "danmaku": 4,
+      "favorites": 494,
+      "published_at": "2026-05-28T08:19:55+00:00",
+      "summary": "求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1kX546QEjG",
+      "title": "保姆级Claude Code速成，必学！简单！【附完整文档】",
+      "url": "http://www.bilibili.com/video/av116554859545963",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "4848323",
+        "name": "数字游牧人"
+      },
+      "duration_sec": 623,
+      "views": 745439,
+      "danmaku": 1601,
+      "favorites": 61050,
+      "published_at": "2026-05-11T09:02:15+00:00",
+      "summary": "点赞+评论+关注，AI 会发你详细文档（不关注会导致无法发送私信给你，因为批量发太多给陌生人，会平台限流）",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1NHZFBHECg",
+      "title": "Claude Code高阶使用技巧",
+      "url": "http://www.bilibili.com/video/av116470856096641",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "473018527",
+        "name": "AI视频总结"
+      },
+      "duration_sec": 388,
+      "views": 3741,
+      "danmaku": 0,
+      "favorites": 355,
+      "published_at": "2026-04-26T13:55:57+00:00",
+      "summary": "本视频深度解析Claude Code的高阶使用技巧，涵盖指令优化、工作流自动化及多任务并行策略。通过输入优化、终端增强及高级命令组合，助你从简单的指令下达者转变为高效的AI协作专家。",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1HqV969EcU",
+      "title": "10分钟快速入门Claude Code保姆级安装到代码实战教程",
+      "url": "http://www.bilibili.com/video/av116672333616934",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "1066621884",
+        "name": "字节测试工程师"
+      },
+      "duration_sec": 4965,
+      "views": 325,
+      "danmaku": 0,
+      "favorites": 652,
+      "published_at": "2026-06-01T01:53:10+00:00",
+      "summary": "勉费领取视频全套资料/文档/学习笔记点击→https://www.bilibili.com/read/cv38114879/?jump_opus=1",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1CTRNBsECb",
+      "title": "基于Claude Code的漏洞赏金自动化：从HackerOne报告到4万美元实战复盘",
+      "url": "http://www.bilibili.com/video/av116513218495043",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "398624503",
+        "name": "王尼互"
+      },
+      "duration_sec": 2139,
+      "views": 3446,
+      "danmaku": 2,
+      "favorites": 312,
+      "published_at": "2026-05-03T23:25:06+00:00",
+      "summary": "https://www.youtube.com/watch?v=pRPT_yrgRL0\n本视频系统拆解基于Claude Code构建漏洞赏金自动化流程的核心方法，包括如何利用公开漏洞报告（如HackerOne）生成专属AI技能、设计项目级代理文件（Agent/Memory）以及构建漏洞技能包，实现从资产发现到漏洞挖掘的全链路自动化。\n内容涵盖：\n基于历史漏洞报告定制检测规则与优先级策略（如XSS、API、GraphQL等）\n代理文件（Proxy/Agent）设计：上下文注入、任务约束与目标导向优化\n企业资",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV143wwz6E8F",
+      "title": "Claude code科研使用展示与思路分享（提速就靠Ai）",
+      "url": "http://www.bilibili.com/video/av116211882920985",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "495379849",
+        "name": "科研推土机"
+      },
+      "duration_sec": 1450,
+      "views": 62103,
+      "danmaku": 15,
+      "favorites": 3646,
+      "published_at": "2026-03-11T18:12:00+00:00",
+      "summary": "本期给大家带来的是Claude在Vscode的科研应用演示与我最近的一些心得使用心得，科研速度嘎嘎提升。论文复现画图、数据分析就靠Claude code。这个课程也是科研推土机「系统管理文献课程2.0」学员催我更新的内容，希望能帮助到大家～，这个视频重点讲两个事情：\n1️⃣ 资料获取，free不用怀疑，我是良心可言博主，，关注我(GZTSHNR)～\n2️⃣ 展示如何在VS code实操应用claude code进行数据分析，进行科研\n🌼全网同号（科研推土机）",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1x6Vt6dEef",
+      "title": "100 小时测试 Claude Code vs Codex（真实结果）",
+      "url": "http://www.bilibili.com/video/av116656495925868",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "393059167",
+        "name": "设计之道"
+      },
+      "duration_sec": 1597,
+      "views": 3424,
+      "danmaku": 1,
+      "favorites": 79,
+      "published_at": "2026-05-29T06:44:49+00:00",
+      "summary": "【海外 AI 订阅】\n国内直连，支付宝付款，不用代理，\n一站订阅 ChatGPT / Codex / Claude Code / X\n订阅链接：https://bewild.ai?code=SJZD\n订阅时请填优惠邀请码：SJZD，具体优惠金额以官网为准。\n\n【视频介绍】\n我花了 100 个小时测试 Claude Code 和 Codex，结果真的让我非常意外。\n相同的提示词、相同的项目构建、两个工具并排测试，而其中一个工具的表现远超我的预期。\n如果你现在正在这类 AI 编程 Agent 之间做选择，那么",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1JUGb6jEny",
+      "title": "90% 的人都没用对 Claude Code，Claude Code 的高阶玩法都在这",
+      "url": "http://www.bilibili.com/video/av116618998912532",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "579868797",
+        "name": "程序员Shark"
+      },
+      "duration_sec": 2299,
+      "views": 2212,
+      "danmaku": 2,
+      "favorites": 241,
+      "published_at": "2026-05-22T15:46:55+00:00",
+      "summary": "为了做了精心的翻译和校对，原文：https://www.youtube.com/watch?v=uogzSxOw4LU，再次感谢作者。\n概要：这部分内容真正想讲的，不是 Claude Code 又多了几个新功能，而是怎么把它用成一套顺手的开发工具。很多人一开始只是拿它来聊天，但真想把效率拉起来，重点其实在\n setup、命令、扩展能力和工作流设计。前面先讲了几个特别常用的 command：model 用来按任务切换不同 model，别什么事都一直开最贵的；insights\n 可以帮你回看自己平时是怎么用",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1RCqPBFEDq",
+      "title": "使用 Claude Code 从零到一开发项目",
+      "url": "http://www.bilibili.com/video/av115848605932169",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "20932188",
+        "name": "AgenticX"
+      },
+      "duration_sec": 4112,
+      "views": 9954,
+      "danmaku": 1,
+      "favorites": 700,
+      "published_at": "2026-01-06T14:33:59+00:00",
+      "summary": "我过去启动 Claude Code 项目的方式完全错误：只是简单输入 “claude”，然后毫无规划、毫无准备、毫无系统地自由发挥式提示——这就好比不画蓝图就直接盖房子。\n过去一年中，我用 Claude Code 构建了数十个项目，最终总结出一套简洁的三阶段系统（PSB：Plan-规划、Setup-设置、Build-构建），让每个项目从第一天起就轻松十倍。\n本视频中，我将分享自己每次启动新 Claude Code 项目时所使用的完整 PSB 系统。无论你是首次尝试，还是已日常使用 Claude Code，",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1NvRyBzEhq",
+      "title": "全网最全！60分钟全面掌握Claude Code～【附完整文档】",
+      "url": "http://www.bilibili.com/video/av116522328524431",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "385670211",
+        "name": "秋芝2046"
+      },
+      "duration_sec": 3369,
+      "views": 941751,
+      "danmaku": 4136,
+      "favorites": 102200,
+      "published_at": "2026-05-05T14:08:25+00:00",
+      "summary": "Claude Code保姆级教学【收藏起来不会错！】\n从上手安装，到高级用法，这期一次讲全～\n花了三周做教程，希望能帮到你嘻嘻，感谢朋友们的三连+关注啦～",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1RJPSz4EMW",
+      "title": "（上集）分享一个非常不错的 Claude Code 中转站，不用再花大量时间精力去死磕美区虚拟卡、头疼配置网络环境、焦虑高额美金账单了",
+      "url": "http://www.bilibili.com/video/av116198075272768",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "386511631",
+        "name": "崔总干货确实多"
+      },
+      "duration_sec": 1604,
+      "views": 54470,
+      "danmaku": 6,
+      "favorites": 894,
+      "published_at": "2026-03-09T07:40:57+00:00",
+      "summary": "这期视频为大家分享一个近期实测表现不错的 API 直连claude code中转站。\n\n对于经常使用 AI 辅助编程或进行自动化开发、数据分析、文件处理的朋友来说，直接使用claude code官方 API 往往面临网络环境要求严苛、支付门槛高以及封号风险。为了帮助到大家，我测试了国内十多家中转方案，发现目前这个平台在稳定性和计费透明度上比较契合日常开发需求。\n\n💡 核心功能与优势：\n网络与防封：国内环境直连，省去复杂的代理配置，有效规避官方严苛的风控和封号问题。\n接口响应极速且稳定：实测调用延迟极低。在",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1gwk3Y8Ers",
+      "title": "CURSOR 遇到机器上使用过多的免费账号",
+      "url": "http://www.bilibili.com/video/av113663037931907",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546749698312441",
+        "name": "想回家的前端开发"
+      },
+      "duration_sec": 274,
+      "views": 8062,
+      "danmaku": 0,
+      "favorites": 143,
+      "published_at": "2024-12-16T14:51:24+00:00",
+      "summary": "",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1JfT4zVEa5",
+      "title": "Cursor1.0新特性BugBot自动化代码Code Review使用教程+实测",
+      "url": "http://www.bilibili.com/video/av114630882037891",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546804396230870",
+        "name": "码里奥Ziho"
+      },
+      "duration_sec": 296,
+      "views": 15082,
+      "danmaku": 0,
+      "favorites": 57,
+      "published_at": "2025-06-05T13:05:30+00:00",
+      "summary": "Cursor推出了新的1.0版本，本视频对新特性Bugbot做了一个教程+实测\nBugBot可以在Github进行PR (Pull Request) 的时候，通过AI大模型帮助我们进行CR (Code Review)\n本视频用一个例子演示了如何使用Bugbot功能，并且最后给出了实测的结果\n\n感谢支持！！！欢迎三连\n个人公众号 【码里奥】",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV182XnY2EKQ",
+      "title": "cursor怎么降级到0.45 回退版本 快乐又回来了",
+      "url": "http://www.bilibili.com/video/av114203666946145",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "581556084",
+        "name": "项目禅"
+      },
+      "duration_sec": 66,
+      "views": 1893,
+      "danmaku": 0,
+      "favorites": 13,
+      "published_at": "2025-03-22T02:16:33+00:00",
+      "summary": "快乐又回来了 不降智 而且发了信息几秒就回复 还是这个用起来方便啊 最新版的是真用不习惯??",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1X15y6nE8Z",
+      "title": "cursor无限免费使用最新方法cursor无限续杯cursor使用教程免费",
+      "url": "http://www.bilibili.com/video/av116567140540269",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546627207858869",
+        "name": "开团秒跟cursor"
+      },
+      "duration_sec": 1553,
+      "views": 5169,
+      "danmaku": 6,
+      "favorites": 124,
+      "published_at": "2026-05-13T11:59:02+00:00",
+      "summary": "最新2026年5月13号 免费Cursor无限续杯保姆级使用教程集成MCP，实现opus4.6/4.7无限使用额度自由，相关工具请到 1030496866 文件夹中自行获取,完全免费，完全免费，离线插件版本,安装即可用，无任何数据收集行为",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1FXLJ6YELZ",
+      "title": "Cursor无限薅最强大模型claude4.7，gpt5.5使用方法",
+      "url": "http://www.bilibili.com/video/av116590041369141",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "516722817",
+        "name": "长青来了奥"
+      },
+      "duration_sec": 267,
+      "views": 3679,
+      "danmaku": 1,
+      "favorites": 66,
+      "published_at": "2026-05-17T13:01:58+00:00",
+      "summary": "一键三连吧！在主页\n自动回复私信要1000粉丝呜呜呜呜求帮忙",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1NpubzYE8c",
+      "title": "Cursor用不了？三款AI编程工具完美代替Cursor",
+      "url": "http://www.bilibili.com/video/av114863061864380",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "481246113",
+        "name": "AI随风随风"
+      },
+      "duration_sec": 941,
+      "views": 29184,
+      "danmaku": 0,
+      "favorites": 448,
+      "published_at": "2025-07-16T13:10:54+00:00",
+      "summary": "Cursor用不了？三款AI编程工具完美代替Cursor\naugmentCode\nTrae\nKiro",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1rgNPenEsL",
+      "title": "cursor0.45 重置方法！",
+      "url": "http://www.bilibili.com/video/av113944643571652",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546749698312441",
+        "name": "想回家的前端开发"
+      },
+      "duration_sec": 168,
+      "views": 10144,
+      "danmaku": 0,
+      "favorites": 244,
+      "published_at": "2025-02-04T08:25:43+00:00",
+      "summary": "发视频是因为不想让小白闲鱼。",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1ZFc2epE4s",
+      "title": "Cursor+VS2022编译器 准备cursor的c++开发环境",
+      "url": "http://www.bilibili.com/video/av113820676655607",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "122677235",
+        "name": "新手村养牛人"
+      },
+      "duration_sec": 211,
+      "views": 14040,
+      "danmaku": 0,
+      "favorites": 172,
+      "published_at": "2025-01-13T11:00:14+00:00",
+      "summary": "cmake_minimum_required(VERSION 3.23)\nproject(CursorVs2022)\nset(CMAKE_CXX_STANDARD 17)\n\nset(CMAKE_INCLUDE_CURRENT_DIR ON)\nSET(CMAKE_BUILD_TYPE Debug)\nset(CMAKE_AUTOMOC ON)\nset(CMAKE_AUTOUIC ON)\nset(CMAKE_AUTORCC ON)\n\n#编码问题\nadd_compile_options(&quot;$&lt;$&lt;C_COMPIL",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV19P38zHEJ8",
+      "title": "Cursor1.0 手机版最新演示！上厕所、高铁、地铁、随时编程！",
+      "url": "http://www.bilibili.com/video/av114784393563896",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "615697341",
+        "name": "程序员晓刘"
+      },
+      "duration_sec": 58,
+      "views": 1909,
+      "danmaku": 0,
+      "favorites": 13,
+      "published_at": "2025-07-02T15:45:52+00:00",
+      "summary": "",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1YojdzzE77",
+      "title": "cursor+claude-4开发前后端项目,全程解读，干货满满",
+      "url": "http://www.bilibili.com/video/av114579409469776",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "481246113",
+        "name": "AI随风随风"
+      },
+      "duration_sec": 2668,
+      "views": 32579,
+      "danmaku": 11,
+      "favorites": 2143,
+      "published_at": "2025-05-27T11:01:30+00:00",
+      "summary": "本期视频主题\n零代码使用cursor完成一个前后端分离的小项目\n前端: vue3\n后端: java springboot\n关联知识点：\nCursor 新手教程③： Cursor rules 让 AI 更懂你\ncursor实战系列：0到1开发一个小程序，需求整理、小程序注册备案\n一、前后端开发的两种模式\n二、项目初始化\n三、前后端的协作流程\n四、文档阶段\n五、拆分前后端任务\n六、启动前后端测试",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1aNb5z7Eqb",
+      "title": "cursor一键重置机器码不需要重装系统",
+      "url": "http://www.bilibili.com/video/av115010617544835",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "409871996",
+        "name": "玩转Code"
+      },
+      "duration_sec": 55,
+      "views": 18431,
+      "danmaku": 1,
+      "favorites": 141,
+      "published_at": "2025-08-11T14:35:16+00:00",
+      "summary": "",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1fM8JzCErf",
+      "title": "【实用教程】完美解决Cursor地区限制使用claude/gpt问题！",
+      "url": "http://www.bilibili.com/video/av114930506340006",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546904398924366",
+        "name": "洞犀AI大模型讲堂"
+      },
+      "duration_sec": 203,
+      "views": 41078,
+      "danmaku": 1,
+      "favorites": 758,
+      "published_at": "2025-07-28T11:02:31+00:00",
+      "summary": "cursor 最近发布了新的模型地区可用性政策，中国地区无法使用Claude/GPT/gemini，如果你遇到类似的问题，可以参考本期教程视频的方法，可以继续使用Claude大模型。",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1JcDSBYE4V",
+      "title": "新版 Cursor 看不到代码了？5 分钟学会新界面所有操作",
+      "url": "http://www.bilibili.com/video/av116390174393526",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "351969226",
+        "name": "未生AI"
+      },
+      "duration_sec": 343,
+      "views": 19901,
+      "danmaku": 3,
+      "favorites": 448,
+      "published_at": "2026-04-12T05:55:17+00:00",
+      "summary": "Cursor 最新版本的界面。只有一个文字输入框。没有代码，没有文件树，没有你以前熟悉的任何东西。\n\n很多人打开之后直接懵了——这怎么用？我的代码呢？这期视频，我就来告诉你，新版 Cursor 到底怎么用。\n\nCursor 的改版，不只是界面变了。\n\n所有 AI 编程工具，以前的形态都是一样的——左边文件树，右边代码，AI 在旁边帮你补全。\n\n这个形态本质上还是：人在主导代码，AI 在辅助人。\n\n新版 Cursor 把代码藏起来，表面上是界面变了。\n\n但它真正改变的是主语——现在是 AI 在主导代码，人只",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1zbduYgEBH",
+      "title": "Cursor新手教程⑤：Cursor降智真相+解决办法",
+      "url": "http://www.bilibili.com/video/av114311359891940",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "481246113",
+        "name": "AI随风随风"
+      },
+      "duration_sec": 797,
+      "views": 10745,
+      "danmaku": 81,
+      "favorites": 358,
+      "published_at": "2025-04-10T02:53:27+00:00",
+      "summary": "你是不是经常碰到这种情况：\n你试图修复一个小错误\n人工智能给出一个看似合理的更改建议\n这个修复导致其他地方出错\n你要求人工智能修复新出现的问题\n这又产生了另外两个问题\n如此反复\n本视频带你拆解Cursor降智的真相以及解决办法",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1kJ2LYME9t",
+      "title": "AI code 实战｜一小时用 cursor 发布上线微信小程序项目",
+      "url": "http://www.bilibili.com/video/av113267162743660",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "35421303",
+        "name": "AIcode扣德哥_Ai编程"
+      },
+      "duration_sec": 3231,
+      "views": 61583,
+      "danmaku": 21,
+      "favorites": 3761,
+      "published_at": "2024-10-07T17:04:20+00:00",
+      "summary": "FAQ ：cursor 如何与微信小程序打通\nhttps://docs.qq.com/doc/DWmhLdXNFdUVZbFdC\n（上线两天收到了10+问题，把主要的解法贴在上面）\n\n用 cursor 完成小程序开发，实战全记录，核心心得——\n做好产品设计。\n提前规划版本和功能，思考实现路径。\n做好技术选型。\n主次分明，先完成核心功能。",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1uXLz6NEp6",
+      "title": "Cursor 推出史上最强模型 Composer 2.5，性能直逼Claude Opus 4.7，价格仅为1/10！Cursor 内部几乎全员弃用旧模型！",
+      "url": "http://www.bilibili.com/video/av116600929852292",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "328381287",
+        "name": "Terminator-AI"
+      },
+      "duration_sec": 219,
+      "views": 5412,
+      "danmaku": 3,
+      "favorites": 23,
+      "published_at": "2026-05-19T11:12:32+00:00",
+      "summary": "本视频深度解析Cursor最新发布的Composer 2.5模型，其性能在SWE-Bench Multilingual等权威测试中直逼Claude Opus 4.7，而价格仅为前者的十分之一。\n\n核心亮点包括三大训练创新：使用文本反馈的针对性RL实现局部精准纠偏，合成任务数量达到Composer 2的25倍，以及通过分布式正交化Muon和双网格HSDP实现极限算力压榨——在1T模型上优化器仅需0.2秒。\n\n此外，Cursor团队内部几乎全员弃用旧模型，马斯克激情转发力挺，这标志着Cursor与SpaceX",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1E6CFBMEnk",
+      "title": "【2025最新版】目前B站最全最细的 CurSor AI编程零基础全套教程，手把手教你搭建高效Cursor工作流，全程干货无废话！cursor教程｜AI 编程",
+      "url": "http://www.bilibili.com/video/av115524067463218",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "430071185",
+        "name": "诸葛老师本人"
+      },
+      "duration_sec": 31470,
+      "views": 191249,
+      "danmaku": 264,
+      "favorites": 7312,
+      "published_at": "2025-11-10T06:52:42+00:00",
+      "summary": "制作不易，麻烦各位观众老爷一键三连呀【点赞、投币、收藏】感谢支持～\n‍视频配套笔记、AI大模型笔记代码：https://www.bilibili.com/read/cv43354937/?jump_opus=1",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1Zn5B6VEB8",
+      "title": "实测有效【Cursor】地区限制无法使用GPT/Gemini/claude问题的超详细解决方法！",
+      "url": "http://www.bilibili.com/video/av116579941550108",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "595291415",
+        "name": "openclaw-本地部署"
+      },
+      "duration_sec": 55,
+      "views": 1112,
+      "danmaku": 0,
+      "favorites": 19,
+      "published_at": "2026-05-15T18:12:55+00:00",
+      "summary": "实测有效【Cursor】地区限制无法使用GPT/Gemini/claude问题的超详细解决方法！",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1y9yyYDEUN",
+      "title": "6个超实用的Cursor小技巧：效率提升200%，免费无限量使用Cursor Pro",
+      "url": "http://www.bilibili.com/video/av113365611582948",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "193580090",
+        "name": "御风大世界"
+      },
+      "duration_sec": 252,
+      "views": 49097,
+      "danmaku": 15,
+      "favorites": 1137,
+      "published_at": "2024-10-25T04:10:00+00:00",
+      "summary": "海外支付平台WildCard：https://bewildcard.com/i/BYWIND （有折扣）",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV19DZ4BLE18",
+      "title": "全网最简单解决cursor断网问题",
+      "url": "http://www.bilibili.com/video/av116075249272918",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "321947624",
+        "name": "门叁皮"
+      },
+      "duration_sec": 79,
+      "views": 3466,
+      "danmaku": 0,
+      "favorites": 44,
+      "published_at": "2026-02-15T15:04:18+00:00",
+      "summary": "最简单的cursor断网解决方案",
+      "matched_keywords": [
+        "Cursor 0.50"
+      ]
+    },
+    {
+      "id": "bvid:BV1BvR1BtEFD",
+      "title": "Vibe Coding纯小白教程：对AI说话就做出软件。手把手带你做出1个软件！",
+      "url": "http://www.bilibili.com/video/av116521405780262",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "25752587",
+        "name": "大牙大-"
+      },
+      "duration_sec": 946,
+      "views": 79868,
+      "danmaku": 48,
+      "favorites": 6330,
+      "published_at": "2026-05-05T10:13:18+00:00",
+      "summary": "🤔如果你最近也在想一件事：我一个完全不会代码的人，真的可以用 AI 为自己做出一个软件吗？\n🌟我的答案是：当然可以！\n\n📚我把自己这4个月Vibe Coding里最重要的经验，浓缩成了一次完整实操演示。\n不是只告诉你装什么工具，而是直接带你从0到1做出一个真正能运行的软件：怎么提第一次需求，怎么让AI稳定执行，怎么一步一步把项目推进下去。\n\n如果你刚开始对Vibe Coding感兴趣，那这条就是为你制作的！看完之后，你应该就能自己动手开始第一次尝试了。",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1caVh6fE6Z",
+      "title": "【2026最新版】绝对是B站讲的最细的Claude Code教程，从国内环境安装出发，项目开发及个人使用总结带你玩转 Vibe Coding！",
+      "url": "http://www.bilibili.com/video/av116656764358481",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "340810325",
+        "name": "AI大模型_"
+      },
+      "duration_sec": 41071,
+      "views": 3709,
+      "danmaku": 35,
+      "favorites": 188,
+      "published_at": "2026-05-29T07:53:39+00:00",
+      "summary": "制作不易，大家喜欢视频记得点点关注，一键三连呀【点赞、投币、收藏】感谢支持！\n本视频配套课件笔记代码/学习大纲/大模型学习路线戳这里获取→https://www.bilibili.com/opus/1195847460814061571?spm_id_from=333.1387.0.0\n另外有需要AI大模型学习路线图+必看书籍（国内外大牛著作）+入门及进阶视频教程+项目实战及源码提供+面试实战场景题移步评论置顶即可~",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV16NvCBrEVs",
+      "title": "什么是Vibe Coding，以及怎么使用？",
+      "url": "http://www.bilibili.com/video/av115797133368973",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "50247550",
+        "name": "清华姜学长"
+      },
+      "duration_sec": 354,
+      "views": 139889,
+      "danmaku": 79,
+      "favorites": 4642,
+      "published_at": "2025-12-28T12:36:33+00:00",
+      "summary": "-",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV16zPuzHE9n",
+      "title": "Vibe Coding快速入门-喂饭级实操课（9节完）",
+      "url": "http://www.bilibili.com/video/av116154538398331",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "512294256",
+        "name": "桥哥聊AI"
+      },
+      "duration_sec": 3445,
+      "views": 149152,
+      "danmaku": 217,
+      "favorites": 6569,
+      "published_at": "2026-03-01T15:14:36+00:00",
+      "summary": "1、认识Vibe Coding\n2、入门指南（零基础能学吗？学完后能做什么？）\n3、工具与实践（推荐工具&amp;动手写一个移动端网站）\n4、实操微调（修改页面中图片和文字，有点进阶）\n5、部署云端，让别人看到你的作品",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1VNVb6zEdw",
+      "title": "【全网最细】目前B站讲得最全最细的Vibe Coding全套系统教程！零代码也能直接上手！七天就能从小白到大神，学完即就业！少走99%的弯路！存下吧，很难找全的",
+      "url": "http://www.bilibili.com/video/av116656227489865",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3691005316434051",
+        "name": "Agent智能体-"
+      },
+      "duration_sec": 2104,
+      "views": 739,
+      "danmaku": 81,
+      "favorites": 54,
+      "published_at": "2026-05-29T05:43:23+00:00",
+      "summary": "【全网最细】目前B站讲得最全最细的Vibe Coding全套系统教程！零代码也能直接上手！七天就能从小白到大神，学完即就业！少走99%的弯路！存下吧，真的很难找全！",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1rbRmBgEto",
+      "title": "手把手教你 Vibe Coding：Codex 几个实用功能，特别适合不懂开发的新人",
+      "url": "http://www.bilibili.com/video/av116539827160862",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "19041535",
+        "name": "唐师兄Terence"
+      },
+      "duration_sec": 592,
+      "views": 2994,
+      "danmaku": 2,
+      "favorites": 122,
+      "published_at": "2026-05-09T01:00:00+00:00",
+      "summary": "codex 下载地址：https://chatgpt.com/codex/",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1AHDuBoE2S",
+      "title": "锐评vibe coding工具“从夯到拉”",
+      "url": "http://www.bilibili.com/video/av116347090502349",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546852263725713",
+        "name": "布鲁歇一歇"
+      },
+      "duration_sec": 405,
+      "views": 228943,
+      "danmaku": 172,
+      "favorites": 5807,
+      "published_at": "2026-04-04T15:19:25+00:00",
+      "summary": "",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1QbVE6GE9a",
+      "title": "新手也能用Vibe Coding给Hermes搭建可视化办公室~ 动手coding自己做工具~",
+      "url": "http://www.bilibili.com/video/av116667099122260",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546767847065703",
+        "name": "在下李君陌"
+      },
+      "duration_sec": 1361,
+      "views": 2668,
+      "danmaku": 1,
+      "favorites": 218,
+      "published_at": "2026-05-31T04:02:32+00:00",
+      "summary": "视频中的大模型分别来自\n1.Kimi K2.6&amp; GLM5.1 — 优云智算\nhttps://passport.compshare.cn/register?referral_code=DzKOV5Iik6lG9svK0phShR&amp;ytag=GPU_YY_YX_bl_ljm0531\n2.DeepSeek-V4\nhttps://platform.deepseek.com/",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1cNV56VEBd",
+      "title": "当你装了codex后会发生什么……",
+      "url": "http://www.bilibili.com/video/av116663542356559",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "503934057",
+        "name": "AIwood爱屋研究室"
+      },
+      "duration_sec": 154,
+      "views": 10762,
+      "danmaku": 9,
+      "favorites": 113,
+      "published_at": "2026-05-30T12:38:28+00:00",
+      "summary": "剧情纯属恶搞，如有雷同，算你NB！",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1ZjDYB7Eam",
+      "title": "从 0 到 1：6小时掌握 Vibe Coding！ Claude Code ＋ AI 这支影片直接让你超越 90% AI 玩家",
+      "url": "http://www.bilibili.com/video/av116362122894759",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546867709249876",
+        "name": "李哈利Harry"
+      },
+      "duration_sec": 20996,
+      "views": 50582,
+      "danmaku": 16,
+      "favorites": 6146,
+      "published_at": "2026-04-08T11:00:00+00:00",
+      "summary": "🌟 加入AI大师社群并运用AI创业赚钱：https://www.skool.com/aiagent/about?ref=f2b566934c5c4639aaa47ab1fe39310e\n📌 加入我的免费 Skool 社群，获取模板：https://www.skool.com/aiagent8/about?ref=f2b566934c5c4639aaa47ab1fe39310e\n\n🚧 开始使用 n8n 构建自动化! 👇\nhttps://n8n.partnerlinks.io/fwp82h8azh6k\n\n💻",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1oNVH6xEWS",
+      "title": "Claude Code 国内直连保姆级教程｜10分钟从入门到精通，原理+安装+实战全覆盖，解锁Vibe Coding编程新范式",
+      "url": "http://www.bilibili.com/video/av116667602503393",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "88861773",
+        "name": "码士集团-小晨晨晨"
+      },
+      "duration_sec": 18347,
+      "views": 8080,
+      "danmaku": 95,
+      "favorites": 1174,
+      "published_at": "2026-05-31T06:14:34+00:00",
+      "summary": "",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV17cGi6aEuo",
+      "title": "什么？连胡彦斌都开始vibe coding了！",
+      "url": "http://www.bilibili.com/video/av116623243544630",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "372141243",
+        "name": "bennixzp"
+      },
+      "duration_sec": 37,
+      "views": 668,
+      "danmaku": 0,
+      "favorites": 3,
+      "published_at": "2026-05-23T09:45:50+00:00",
+      "summary": "网络\n什么？连胡彦斌都开始vibe coding了！\n\n昨晚《歌手》片段，他用 Claude Code + VS Code，自己独立开发了粉丝社区App彦火，目前在TestFlight测试中\n\n正所谓：\n\n你要的 token 全拿走\n把 memory 化成空\n不要在乎 model context 有所保留\n说过的话当 skill 附送",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1rBRQBSEwB",
+      "title": "Claude Code+DeepSeek V4 Pro安装教程｜3步从零装好开始用 | Mac Windows",
+      "url": "http://www.bilibili.com/video/av116543199385810",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "25752587",
+        "name": "大牙大-"
+      },
+      "duration_sec": 525,
+      "views": 152345,
+      "danmaku": 112,
+      "favorites": 8996,
+      "published_at": "2026-05-09T10:10:00+00:00",
+      "summary": "上期vibe coding零基础教程10万多人看了，私信和评论里问最多的居然不是怎么写需求。\n 而是Claude Code怎么装？DeepSeek怎么接进去？🫣\n\n所以这期作为补丁教程，专门帮大家搞定这3件事：\n 1️⃣ 安装Claude Code\n 2️⃣ 把DeepSeek V4 Pro百万上下文满血版接入Claude Code\n 3️⃣ 在VS Code里正式用起来\n\nMac和Windows都用了手把手教学的方式演示安装过程，跟着做就能搞定。\n装好之后想学怎么用👉看我上一期vibe coding零基",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1ggGR6MEjS",
+      "title": "本来今天请假在家休息，但是一想到ai也休息就浑身难受，还是做点啥",
+      "url": "http://www.bilibili.com/video/av116635155302243",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "737109",
+        "name": "ggxKun"
+      },
+      "duration_sec": 59,
+      "views": 94,
+      "danmaku": 0,
+      "favorites": 2,
+      "published_at": "2026-05-25T12:15:43+00:00",
+      "summary": "重构了敌人与关卡实现结构，顺手做了刷怪工具方便测试，新增了远程敌人，2种基础武器，外加做了个血条设计[吃瓜]",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1v8mtBpEwK",
+      "title": "Kiro 上手必看：从Vibe 到 Spec 全攻略！",
+      "url": "http://www.bilibili.com/video/av115695564102585",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "490289464",
+        "name": "AI编程瓜哥"
+      },
+      "duration_sec": 1525,
+      "views": 20453,
+      "danmaku": 4,
+      "favorites": 440,
+      "published_at": "2025-12-10T13:49:11+00:00",
+      "summary": "一眼懂，Vibe coding 和Spec Coding，双模式实战。",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1CeGL6EEGi",
+      "title": "拒绝写代码像抽卡！零基础 Vibe Coding 的极速入门课",
+      "url": "http://www.bilibili.com/video/av116627622397784",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "13791225",
+        "name": "公园4004"
+      },
+      "duration_sec": 891,
+      "views": 1758,
+      "danmaku": 3,
+      "favorites": 136,
+      "published_at": "2026-05-24T04:19:55+00:00",
+      "summary": "你是不是也遇到过这种情况：听说现在有了 AI，只要动动嘴皮子就能写出软件，结果一上手才发现——AI 给你生成了一堆看似完美的“屎山代码”，而你只能在成千上万行的错误里痛苦地改 Bug，最后在绝望中放弃？\n 别灰心，这根本不是你的错，而是大部分教程从一开始就教错了方向！\n\n作为 Vibe Coding 系列的第一期视频，今天我绝不讲虚假的广告营销，而是带你掌握真实 AI 编程的“核心心法”——永远从最小可用版本开始验证。\n\n在本期视频里，我将用一个非常实用的实战项目：「3小时长播客转对话文稿神器」，向你演示",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1MJXZBgE32",
+      "title": "AI Coding 进阶：从 Vibe/Plan/Spec 到 Harness Engineering 与 Agent Teams",
+      "url": "http://www.bilibili.com/video/av116334289491216",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546962917853387",
+        "name": "Qoder"
+      },
+      "duration_sec": 3032,
+      "views": 59559,
+      "danmaku": 79,
+      "favorites": 3935,
+      "published_at": "2026-04-02T09:00:33+00:00",
+      "summary": "",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV116P7zXEkE",
+      "title": "纯小白教学：用vibecoding做个人网站",
+      "url": "http://www.bilibili.com/video/av116160209093711",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546930613324710",
+        "name": "阿囤囤-庞滚滚"
+      },
+      "duration_sec": 380,
+      "views": 24085,
+      "danmaku": 12,
+      "favorites": 2890,
+      "published_at": "2026-03-02T15:11:36+00:00",
+      "summary": "不需要🪜哦～",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1CDVu6TEnv",
+      "title": "Vibe coding成瘾。一开始觉得很兴奋，但是玩多了就有一种游戏开挂的感觉。像这个小demo古法编程怎么也要写两天，AI来写15分钟搞定了，一开始挺期待的…",
+      "url": "http://www.bilibili.com/video/av116661831208897",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "43584648",
+        "name": "工科男孙老师"
+      },
+      "duration_sec": 15,
+      "views": 53466,
+      "danmaku": 1,
+      "favorites": 309,
+      "published_at": "2026-05-30T05:23:02+00:00",
+      "summary": "Vibe coding成瘾。一开始觉得很兴奋，但是玩多了就有一种游戏开挂的感觉。像这个小demo古法编程怎么也要写两天，AI来写15分钟搞定了，一开始挺期待的，过去没时间玩的东西现在都能很快搞定，但是做完毫无快感。就像是上班后买了大学时心心念念的psp游戏机，但是再也没有借同学的那种快感了。",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    }
+  ]
+}

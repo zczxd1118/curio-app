@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curio · AI 算力 / 半导体 · 2026-06-01 · Curio</title>
+<link rel="stylesheet" href="../../styles.css?v=20260601164949">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="../../index.html">Curio<span class="dot">.</span></a>
+    <div class="nav-links"><a href="../../index.html">首页</a><a href="../../d/ai/index.html">AI</a><a href="../../d/finance/index.html">AI 商业 / 投融资</a><a href="../../d/semiconductor/index.html" class="active">AI 算力 / 半导体</a><a href="../../d/bigtech/index.html">大厂 AI 动态</a><a href="../../d/stock/index.html">股票</a></div>
+    <div class="nav-actions">
+      <div class="search-wrap">
+        <span class="search-icon">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
+        </span>
+        <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
+        <div class="search-results" id="curio-search-results"></div>
+      </div>
+      <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span class="sub-label">订阅</span>
+      </button>
+      <button class="theme-toggle" id="settings-btn" title="设置（评分链路）">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      </button>
+      <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
+        <span class="icon-moon-default" style="display:inline-flex">
+          <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </span>
+        <span class="icon-sun">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<aside class="toc" id="curio-toc">
+  <div class="toc-title">本期目录</div>
+  <div id="curio-toc-list"></div>
+</aside>
+
+<main>
+
+<div class="hero">
+  <div class="kicker">🔬 AI 算力 / 半导体 · 2026-06-01</div>
+  <h1>Curio · AI 算力 / 半导体 · 2026-06-01</h1>
+  <div class="meta">📖 主编点评</div>
+</div>
+<div class="content">
+<blockquote>
+<p>今日 1 条头条 + 5 条备选</p>
+</blockquote>
+<p><em>今天三条主线交叉：一是 OpenAI 计划本周递交 IPO 招股书，叠加 SpaceX 1.8 万亿美元 IPO 倒逼指数规则改写，AI 独角兽集体进入定价时刻；二是 Computex 2026 + GTC Taipei 同步开锣，Nvidia Vera Rubin 量产 + N1X PC 处理器入场，Intel 18A Xeon 6+ 反扑，AI 硬件竞争从 GPU 蔓延到 CPU/PC 全栈；三是股票域：SpaceX IPO 招股书极度不公平条款（禁止股东诉讼、Musk 永久控制），多家媒体警告散户慎打新——这是 2026 年下半年股市最大的风险事件。Stratechery 本周新增 Eric Seufert 访谈值得你听完。</em></p>
+<hr />
+<h2>🌟 今日精选</h2>
+<h3>2. 黄仁勋 Computex 表态：Vera Rubin 已全面量产，Nvidia 自己造 PC 处理器进军 AI PC 入口</h3>
+<p><strong>[AI 算力 / 半导体]</strong> · ⭐⭐⭐⭐⭐ · <em>华尔街见闻 API</em></p>
+<p>Computex 2026 + GTC Taipei 同步召开，黄仁勋宣布下一代数据中心平台 Vera Rubin 已全面量产，并推出面向 AI Agent 的 Vera CPU；Phoronix 实测 Vera 的 Olympus 核心性能强劲。同时 Nvidia 长期酝酿的 N1/N1X PC SoC 规格泄露——20 个 Arm 核 + 6144 CUDA 核心，对标桌面 RTX 5070，Dell XPS 笔记本将首发。这意味着 Nvidia 不再只卖加速卡，而是要从数据中心一直吃到 AI PC 端点。</p>
+<table>
+<thead>
+<tr>
+<th>✅ 已确认</th>
+<th>⚖️ 尚属判断</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>黄仁勋官宣 Vera Rubin 全面量产，AI Agent 是 Nvidia 下一阶段重点（华尔街见闻 6/1）</td>
+<td>N1X 真实出货时间和良率受 TSMC 产能影响，2026 年 Q3 前应不会上量</td>
+</tr>
+<tr>
+<td>N1X SoC 顶配 20 Arm 核 + 6144 CUDA 核心，标准 N1 提供 12 核 / 10 核两档（Tom's Hardware 5/31）</td>
+<td>Nvidia 自己做 PC 处理器，Intel / AMD 在 AI PC 这条线的话语权会被压缩</td>
+</tr>
+<tr>
+<td>Dell 在 Computex 确认搭载 Nvidia N1X 的 XPS 笔记本（VideoCardz / hn:48343372）</td>
+<td>Vera Rubin 量产后 H200 / B200 的二手市场价格可能松动，国内白手套渠道留意</td>
+</tr>
+<tr>
+<td>Vera 的 Olympus 核心 Phoronix 评测：每线程性能优秀（hn:48291230）</td>
+<td>AI Agent 重点意味着 Nvidia 软件栈（NeMo / Blueprints）会进一步绑客户，自研推理框架的窗口在收窄</td>
+</tr>
+<tr>
+<td>AI 需求已从 GPU 蔓延到 "传统 PC 大厂"，戴尔股价涨至 420 美元，大摩公开 "认错"（华尔街见闻 6/1）</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>📖 主编点评</strong></p>
+<p>你做 Agent 项目时，部署侧别再默认 "租 H100 / 用 Together"。Nvidia 把 Vera + N1 推下来后，本地化 inference 的成本曲线会变陡——尤其 Mac mini / Snapdragon X 这种 30W 级设备未来一年会承接更多个人 Agent 推理。content-curator 这种轻量场景，未来直接跑在用户机器上是主流路径，不是 fallback。</p>
+<p>📺 <a href="https://wallstreetcn.com/articles/3773548">打开原文</a></p>
+<hr />
+<h2>📋 备选阅读</h2>
+<ul>
+<li><a href="https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel">Intel Xeon 6+ Clearwater Forest 用 18A 工艺杀回数据中心，288 核 / 576MB L3</a> —— Intel 自报每线程比 AMD EPYC 9965 快 30%，18A 工艺真正进数据中心——AMD 在云厂的优势第一次受真正威胁。
+  <em>Tom's Hardware</em></li>
+<li><a href="https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex">Intel Crescent Island AI GPU 在 Computex 详细披露：480GB LPDDR5X 对抗 HBM 短缺</a> —— Intel 用 LPDDR5X 绕开 HBM 短缺，主打推理场景——如果价格够低，是 H200 在中端推理市场的真实替代。
+  <em>Tom's Hardware</em></li>
+<li><a href="https://www.tomshardware.com/tech-industry/softbank-to-spend-up-to-75-billion-on-french-ai-data-centers">SoftBank 计划在法国投 870 亿美元建 AI 数据中心</a> —— 选址法国是冲着核电网；SoftBank 自己背着 1300 亿美元债务、3 月又借 400 亿过桥——杠杆已经打满。
+  <em>Tom's Hardware</em></li>
+<li><a href="https://www.tomshardware.com/tech-industry/nikon-plans-to-undercut-asml-on-price-to-win-back-chipmaking-lithography-customers">Nikon 用低价反扑 ASML 的光刻机垄断</a> —— 用 ArF 工具自有制造低价反扑美国客户，是中美芯片博弈下日本企业的策略调整，不只是商业新闻。
+  <em>Tom's Hardware</em></li>
+<li><a href="https://www.taipeitimes.com/News/front/archives/2026/04/28/2003856358">TSMC 间谍案宣判：被告最高 10 年监禁</a> —— 中国台湾首次按《国安法》重判 TSMC 内部泄密，对所有大陆背景半导体从业者的招聘背景调查会更严。
+  <em>Taipei Times</em></li>
+</ul>
+<hr />
+<h2>💬 觉得 AI 算力 / 半导体 这期怎么样？</h2>
+<p><a href="https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback">提一条反馈 Issue</a> 让 Agent 下次调整。</p>
+</div>
+
+    <div class="feedback" data-issue-id="semiconductor/2026-06-01">
+      <h2>📝 本期反馈</h2>
+      <p class="desc">下次 Agent 跑前会读这段，用来调整搜索关键词、打分倾向。</p>
+
+      <div class="fallback-notice" style="display:none">
+        反馈需要后端支持。运行 <code>python server.py</code>，然后用 <code>http://localhost:8765/</code> 打开本页。
+      </div>
+
+      
+
+      <div class="long-term">
+        <label>最近更关注</label>
+        <input type="text" id="lt-more" placeholder="如：AI Agent 实战 / 半导体先进制程 / 美股期权策略">
+
+        <label>最近不太关注</label>
+        <input type="text" id="lt-less" placeholder="如：纯产品更新 / 概念股炒作">
+
+        <label>报道笔法（这是新尝试，重点反馈）</label>
+        <input type="text" id="lt-format" placeholder="如：二栏太多 / 时间线很好 / 想看更多引述">
+      </div>
+
+      <div class="fb-submit">
+        <button class="btn-primary fb-submit-btn">提交反馈</button>
+        <span class="fb-status">未提交</span>
+      </div>
+    </div>
+
+</main>
+
+<footer>
+  Curio v0.9 · 2026-06-01 · 由你和 AI 共同策展 · <a href="https://github.com/zczxd1118/curio-app" target="_blank" rel="noopener" style="color:inherit;opacity:0.6">zxd</a>
+</footer>
+
+<script>
+window.CURIO_REL_ROOT = "../../";
+window.CURIO_API_BASE = "https://api.curioradar.fun";
+window.CURIO_GH_REPO = "zczxd1118/curio-app";
+</script>
+<script src="../../app.js?v=20260601164949"></script>
+</body>
+</html>

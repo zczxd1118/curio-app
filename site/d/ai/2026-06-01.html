@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curio · AI · 2026-06-01 · Curio</title>
+<link rel="stylesheet" href="../../styles.css?v=20260601164948">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="../../index.html">Curio<span class="dot">.</span></a>
+    <div class="nav-links"><a href="../../index.html">首页</a><a href="../../d/ai/index.html" class="active">AI</a><a href="../../d/finance/index.html">AI 商业 / 投融资</a><a href="../../d/semiconductor/index.html">AI 算力 / 半导体</a><a href="../../d/bigtech/index.html">大厂 AI 动态</a><a href="../../d/stock/index.html">股票</a></div>
+    <div class="nav-actions">
+      <div class="search-wrap">
+        <span class="search-icon">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
+        </span>
+        <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
+        <div class="search-results" id="curio-search-results"></div>
+      </div>
+      <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span class="sub-label">订阅</span>
+      </button>
+      <button class="theme-toggle" id="settings-btn" title="设置（评分链路）">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      </button>
+      <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
+        <span class="icon-moon-default" style="display:inline-flex">
+          <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </span>
+        <span class="icon-sun">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<aside class="toc" id="curio-toc">
+  <div class="toc-title">本期目录</div>
+  <div id="curio-toc-list"></div>
+</aside>
+
+<main>
+
+<div class="hero">
+  <div class="kicker">🤖 AI · 2026-06-01</div>
+  <h1>Curio · AI · 2026-06-01</h1>
+  <div class="meta">📖 主编点评</div>
+</div>
+<div class="content">
+<blockquote>
+<p>今日 1 条头条 + 0 条备选</p>
+</blockquote>
+<p><em>今天三条主线交叉：一是 OpenAI 计划本周递交 IPO 招股书，叠加 SpaceX 1.8 万亿美元 IPO 倒逼指数规则改写，AI 独角兽集体进入定价时刻；二是 Computex 2026 + GTC Taipei 同步开锣，Nvidia Vera Rubin 量产 + N1X PC 处理器入场，Intel 18A Xeon 6+ 反扑，AI 硬件竞争从 GPU 蔓延到 CPU/PC 全栈；三是股票域：SpaceX IPO 招股书极度不公平条款（禁止股东诉讼、Musk 永久控制），多家媒体警告散户慎打新——这是 2026 年下半年股市最大的风险事件。Stratechery 本周新增 Eric Seufert 访谈值得你听完。</em></p>
+<hr />
+<h2>🌟 今日精选</h2>
+<h3>5. Claude Code Workflow 隐藏功能首测：脚本化 + 多 Agent 协同的可复用工作流</h3>
+<p><strong>[AI]</strong> · ⭐⭐⭐⭐ · <em>AI超元域</em></p>
+<p>Anthropic 在 Claude Code V2.1.47 / 48 秘密上线了 Workflow 功能，被官方从 Changelog 删除但代码里还在。这条 B 站视频是目前最早的实测，演示三个阶段六种形态：自动生成 JS 脚本、ultrawork 召唤多 Agent 协同、可复用的精准可控工作流。对你这种自己用 Claude Code 写 Agent 项目的人，是把 "一次性 prompt" 升级到 "工程化工作流" 的关键转折。</p>
+<table>
+<thead>
+<tr>
+<th>✅ 已确认</th>
+<th>⚖️ 尚属判断</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude Code V2.1.47 / V2.1.48 已包含 Workflow 代码（B 站 5/24 实测）</td>
+<td>因为官方未官宣，API 与稳定性可能在后续小版本被改</td>
+</tr>
+<tr>
+<td>Workflow 支持脚本化（自动生成 JS）、多 Agent 协同（ultrawork）、可复用模板</td>
+<td>ultrawork 召唤的多 Agent 是否真有 token 节省 / 还是单纯多轮拆解，缺独立 benchmark</td>
+</tr>
+<tr>
+<td>Anthropic 官方未在 Changelog 公布，目前是 "半地下" 功能</td>
+<td>对接 Skills 体系后是否会和 WorkBuddy 当前的 skill / subagent 模式撞车，需要你自己 diff</td>
+</tr>
+<tr>
+<td>另一条相关视频：Simon 林《Claude Code 多 Agent 模式实战》验证 subagents + 独立 agent 两种模式（4/23）</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>📖 主编点评</strong></p>
+<p>你 content-curator 已经在用 Skills + automation，这个 Workflow 功能正好补上 "多步任务可复用" 的缺口。建议这周抽 30 分钟把视频里的 ultrawork demo 跑一遍，然后对照你现有的 cli_generate prepare_unified → finalize_unified 这条链路，看能不能把脚本逻辑搬到 Claude Code 里——如果能，每周一的 daily automation 就可以变成 Claude 直接驱动。</p>
+<p>📺 <a href="http://www.bilibili.com/video/av116629702777532">打开原文</a></p>
+<hr />
+<hr />
+<h2>💬 觉得 AI 这期怎么样？</h2>
+<p><a href="https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback">提一条反馈 Issue</a> 让 Agent 下次调整。</p>
+</div>
+
+    <div class="feedback" data-issue-id="ai/2026-06-01">
+      <h2>📝 本期反馈</h2>
+      <p class="desc">下次 Agent 跑前会读这段，用来调整搜索关键词、打分倾向。</p>
+
+      <div class="fallback-notice" style="display:none">
+        反馈需要后端支持。运行 <code>python server.py</code>，然后用 <code>http://localhost:8765/</code> 打开本页。
+      </div>
+
+      
+
+      <div class="long-term">
+        <label>最近更关注</label>
+        <input type="text" id="lt-more" placeholder="如：AI Agent 实战 / 半导体先进制程 / 美股期权策略">
+
+        <label>最近不太关注</label>
+        <input type="text" id="lt-less" placeholder="如：纯产品更新 / 概念股炒作">
+
+        <label>报道笔法（这是新尝试，重点反馈）</label>
+        <input type="text" id="lt-format" placeholder="如：二栏太多 / 时间线很好 / 想看更多引述">
+      </div>
+
+      <div class="fb-submit">
+        <button class="btn-primary fb-submit-btn">提交反馈</button>
+        <span class="fb-status">未提交</span>
+      </div>
+    </div>
+
+</main>
+
+<footer>
+  Curio v0.9 · 2026-06-01 · 由你和 AI 共同策展 · <a href="https://github.com/zczxd1118/curio-app" target="_blank" rel="noopener" style="color:inherit;opacity:0.6">zxd</a>
+</footer>
+
+<script>
+window.CURIO_REL_ROOT = "../../";
+window.CURIO_API_BASE = "https://api.curioradar.fun";
+window.CURIO_GH_REPO = "zczxd1118/curio-app";
+</script>
+<script src="../../app.js?v=20260601164948"></script>
+</body>
+</html>

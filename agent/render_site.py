@@ -996,9 +996,12 @@ async function openSettingsModal() {
     $$('.mode-pick', modal).forEach(p => {
       p.classList.toggle('active', p.dataset.mode === currentMode);
     });
-    // api 配置区在 api 模式时高亮，其他模式时变灰但仍可填（提前配好备用）
+    // 只有 API 模式才显示 API 配置区
     const apiSection = $('#api-config-section', modal);
-    apiSection.style.opacity = currentMode === 'api' ? '1' : '0.55';
+    apiSection.style.display = currentMode === 'api' ? 'block' : 'none';
+    // 同时根据模式调整"清除 API"按钮的可见性
+    const clearBtn = $('#llm-clear', modal);
+    if (clearBtn) clearBtn.style.display = (currentMode === 'api' || cfg.key_masked) ? 'inline-block' : 'none';
   };
   $$('.mode-pick', modal).forEach(p => {
     p.addEventListener('click', () => {
@@ -1082,9 +1085,12 @@ async function openSettingsModal() {
       });
       const data = await r.json();
       if (data.ok) {
-        const modeText = { local: '🖥️ 本地', api: '☁️ API', off: '⏸ 暂停' }[data.scoring_mode] || data.scoring_mode;
-        let msg = `✅ 已保存。模式：${modeText}`;
-        if (data.key_masked) msg += `，API Key=${data.key_masked}`;
+        const modeText = { local: '🖥️ 本地（Claude）', api: '☁️ API（无人值守）', off: '⏸ 暂停' }[data.scoring_mode] || data.scoring_mode;
+        let msg = `✅ 已保存。当前模式：${modeText}`;
+        // 只有 API 模式才提示 key 信息
+        if (data.scoring_mode === 'api' && data.key_masked) {
+          msg += `（API Key=${data.key_masked}）`;
+        }
         showResult('ok', msg);
         setTimeout(() => modal.remove(), 1500);
       } else {
@@ -1619,11 +1625,62 @@ function initSearch() {
 }
 
 // ===== 启动 =====
+// 页面加载后从 worker 拉最新领域列表，动态修正 nav-links
+// （SSG 静态版只反映 build 当时的 sources.yaml，所以增删领域需要这一步同步）
+async function syncNavLinks() {
+  if (!window.CURIO_API_BASE) return;
+  try {
+    const r = await fetch(window.CURIO_API_BASE + '/domains');
+    if (!r.ok) return;
+    const d = await r.json();
+    if (!Array.isArray(d.domains) || !d.meta) return;
+    const navEl = $('.nav-links');
+    if (!navEl) return;
+    // 当前 nav 已有的 domain ids
+    const existing = new Set();
+    $$('.nav-links a').forEach(a => {
+      const m = a.getAttribute('href') || '';
+      const match = m.match(/\/d\/([^\/]+)\//);
+      if (match) existing.add(match[1]);
+    });
+    // worker 返回的 domain ids
+    const live = new Set(d.domains);
+    // 差集
+    const toAdd = d.domains.filter(id => !existing.has(id));
+    const toRemove = [...existing].filter(id => !live.has(id));
+    // 移除（领域被删）
+    toRemove.forEach(id => {
+      const a = $$(`.nav-links a[href*="/d/${id}/"]`)[0];
+      if (a) a.remove();
+    });
+    // 追加（领域被加）
+    toAdd.forEach(id => {
+      const meta = d.meta[id] || {};
+      const a = document.createElement('a');
+      const root = window.CURIO_REL_ROOT || '';
+      a.href = root + 'd/' + id + '/';
+      a.textContent = meta.name || id;
+      navEl.appendChild(a);
+    });
+    // 主页的"你的领域"卡片也尝试同步（仅首页有）
+    const grid = $('.domains');
+    if (grid) {
+      // 这里不重渲染（避免破坏 SVG），只在 site 重 build 后才彻底同步
+      // 现阶段只让 nav 同步即可
+    }
+  } catch (e) {
+    // worker 不在线或 CORS 失败，忽略
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   // B 阶段：主题/搜索/目录
   initTheme();
   initTOC();
   initSearch();
+
+  // 同步顶部导航的领域列表（异步，从 worker /domains 拉）
+  syncNavLinks();
 
   // 添加领域按钮（点击）
   const addBtn = $('.add-domain');

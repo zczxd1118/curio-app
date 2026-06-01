@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Curio · 半导体 日报 · Curio</title>
-<link rel="stylesheet" href="../../styles.css?v=20260601141926">
+<link rel="stylesheet" href="../../styles.css?v=20260601164949">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,25 +13,30 @@
   <div class="nav-inner">
     <a class="brand" href="../../index.html">Curio<span class="dot">.</span></a>
     <div class="nav-links"><a href="../../index.html">首页</a><a href="../../d/ai/index.html">AI</a><a href="../../d/finance/index.html">AI 商业 / 投融资</a><a href="../../d/semiconductor/index.html" class="active">AI 算力 / 半导体</a><a href="../../d/bigtech/index.html">大厂 AI 动态</a><a href="../../d/stock/index.html">股票</a></div>
-    <div class="search-wrap">
-      <span class="search-icon">
-        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
-      </span>
-      <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
-      <div class="search-results" id="curio-search-results"></div>
+    <div class="nav-actions">
+      <div class="search-wrap">
+        <span class="search-icon">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
+        </span>
+        <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
+        <div class="search-results" id="curio-search-results"></div>
+      </div>
+      <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span class="sub-label">订阅</span>
+      </button>
+      <button class="theme-toggle" id="settings-btn" title="设置（评分链路）">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      </button>
+      <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
+        <span class="icon-moon-default" style="display:inline-flex">
+          <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </span>
+        <span class="icon-sun">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </span>
+      </button>
     </div>
-    <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
-      <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-      <span class="sub-label">订阅</span>
-    </button>
-    <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
-      <span class="icon-moon-default" style="display:inline-flex">
-        <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-      </span>
-      <span class="icon-sun">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-      </span>
-    </button>
   </div>
 </nav>
 
@@ -119,60 +124,6 @@
       </div>
 
       
-        <div class="fb-item" data-idx="1" data-title="ASML became the chokepoint for cutting-edge chips">
-          <div class="fb-title"><span class="num">1.</span> ASML became the chokepoint for cutting-edge chips</div>
-          <div class="fb-buttons">
-            <button class="fb-btn" data-rating="useful">👍 有用</button>
-            <button class="fb-btn" data-rating="meh">😐 一般</button>
-            <button class="fb-btn" data-rating="off">👎 偏了</button>
-          </div>
-          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
-        </div>
-        <div class="fb-item" data-idx="2" data-title="Claude Opus 4.8">
-          <div class="fb-title"><span class="num">2.</span> Claude Opus 4.8</div>
-          <div class="fb-buttons">
-            <button class="fb-btn" data-rating="useful">👍 有用</button>
-            <button class="fb-btn" data-rating="meh">😐 一般</button>
-            <button class="fb-btn" data-rating="off">👎 偏了</button>
-          </div>
-          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
-        </div>
-        <div class="fb-item" data-idx="3" data-title="Was my $48K GPU server worth it?">
-          <div class="fb-title"><span class="num">3.</span> Was my $48K GPU server worth it?</div>
-          <div class="fb-buttons">
-            <button class="fb-btn" data-rating="useful">👍 有用</button>
-            <button class="fb-btn" data-rating="meh">😐 一般</button>
-            <button class="fb-btn" data-rating="off">👎 偏了</button>
-          </div>
-          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
-        </div>
-        <div class="fb-item" data-idx="4" data-title="Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks">
-          <div class="fb-title"><span class="num">4.</span> Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</div>
-          <div class="fb-buttons">
-            <button class="fb-btn" data-rating="useful">👍 有用</button>
-            <button class="fb-btn" data-rating="meh">😐 一般</button>
-            <button class="fb-btn" data-rating="off">👎 偏了</button>
-          </div>
-          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
-        </div>
-        <div class="fb-item" data-idx="5" data-title="U.S. researchers face new restrictions on publishing with foreign collaborators">
-          <div class="fb-title"><span class="num">5.</span> U.S. researchers face new restrictions on publishing with foreign collaborators</div>
-          <div class="fb-buttons">
-            <button class="fb-btn" data-rating="useful">👍 有用</button>
-            <button class="fb-btn" data-rating="meh">😐 一般</button>
-            <button class="fb-btn" data-rating="off">👎 偏了</button>
-          </div>
-          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
-        </div>
-        <div class="fb-item" data-idx="6" data-title="Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep">
-          <div class="fb-title"><span class="num">6.</span> Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep</div>
-          <div class="fb-buttons">
-            <button class="fb-btn" data-rating="useful">👍 有用</button>
-            <button class="fb-btn" data-rating="meh">😐 一般</button>
-            <button class="fb-btn" data-rating="off">👎 偏了</button>
-          </div>
-          <textarea class="fb-note" placeholder="备注（可选）：哪里好 / 哪里不对..."></textarea>
-        </div>
 
       <div class="long-term">
         <label>最近更关注</label>
@@ -202,6 +153,6 @@ window.CURIO_REL_ROOT = "../../";
 window.CURIO_API_BASE = "https://api.curioradar.fun";
 window.CURIO_GH_REPO = "zczxd1118/curio-app";
 </script>
-<script src="../../app.js?v=20260601141926"></script>
+<script src="../../app.js?v=20260601164949"></script>
 </body>
 </html>

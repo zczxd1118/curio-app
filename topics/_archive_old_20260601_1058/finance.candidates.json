@@ -1,0 +1,361 @@
+{
+  "domain": "金融",
+  "items": [
+    {
+      "id": "hn:48192383",
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "url": "https://github.com/antoinezambelli/forge",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48192383",
+        "name": "zambelli",
+        "hn_url": "https://news.ycombinator.com/item?id=48192383"
+      },
+      "duration_sec": null,
+      "views": 687,
+      "comments": 252,
+      "published_at": "2026-05-19T12:23:07+00:00",
+      "summary": "",
+      "matched_keyword": "Federal Reserve",
+      "lang": "en",
+      "body": "A reliability layer for self-hosted LLM tool-calling. You give forge a set of tools; the model calls whichever it wants in whatever order. Workflow structure is opt-in — `required_steps`\n\n, `prerequisites`\n\n, and `terminal_tool`\n\nlet you constrain the loop when you need to, but forge's guardrails (rescue parsing, retry nudges, response validation) apply with zero required steps too.\n\nForge takes an 8B local model from single digits to 84% across forge's 26-scenario v0.7.0 eval suite — and even lifts Sonnet 4.6 from 85% to 98% on the same workload (Anthropic numbers measured in v0.6.0; not re-run in v0.7.0 since the cost is non-trivial).\n\n**What forge isn't:**\n\n**Not an agent orchestrator.**Forge sits inside one agentic loop and makes its tool calls reliable. Multi-agent graphs, DAG planners, and cross-agent coordination are out of scope.**Not a coding harness.**Forge is domain-agnostic. If you're building a coding agent (or already using one like opencode, aider, Cline), proxy mode lifts your existing harness with forge's guardrails — no rewrite.\n\n**Three ways to use it:**\n\n-\n**Proxy server**— Drop-in proxy (`python -m forge.proxy`\n\n) speaking both the OpenAI chat-completions and Anthropic Messages (`/v1/messages`\n\n) APIs, sitting between any client and a local model server. Point OpenAI-compatible tools (opencode, Continue, aider)**or Claude Code**at it and forge applies guardrails transparently — the client thinks it's talking to a smarter model. Most popular entry point. -",
+      "title_zh": "显示HN ：锻造–护栏在代理任务中将8B模型从53%提高到99%",
+      "body_zh": "自托管LLM工具调用的可靠性层。 你给锻造一套工具；模型以任何顺序调用它想要的任何工具。 工作流程结构为选择加入— “REQUIRED_STEPS”\n\n, `先决条件`\n\n和`terminal_tool`\n\n允许您在需要时约束循环，但Forge的护栏（救援解析、重试闪屏振动、响应验证）也适用于零必需步骤。 Forge在Forge的26场景v0.7.0评估套件中将8B本地模型从单个数字提升到84% ，甚至在同一工作负载下将Sonnet 4.6从85%提升到98% （在v0.6.0中测量的人择数字；由于成本不小，因此不在v0.7.0中重新运行）。\n\n* *锻造不是什么： * *\n\n* *不是代理编排器。* * Forge位于一个代理循环内，使其工具调用可靠。 多智能体图、DAG规划器"
+    },
+    {
+      "id": "hn:48198551",
+      "title": "Tesla's lithium refinery discharges 231,000 gallons of polluted wastewater a day",
+      "url": "https://www.autonocion.com/us/tesla-lithium-refinery-texas/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48198551",
+        "name": "atombender",
+        "hn_url": "https://news.ycombinator.com/item?id=48198551"
+      },
+      "duration_sec": null,
+      "views": 498,
+      "comments": 244,
+      "published_at": "2026-05-19T19:52:49+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en",
+      "body": "Drainage district workers in Nueces County, Texas, were doing routine maintenance on a ditch outside Robstown in January 2026 when they noticed something they had not seen before. A pipe they did not recognize, stretched across an easement they oversee, was discharging dark liquid into the ditch they manage. “Very dark and murky,” is how Steve Ray, a consultant for the drainage district, described it to KRIS 6 News. “I would say it was actually black. We’re used to seeing good running water, and so we didn’t know exactly what it was.”\n\nThe pipe belonged to **Tesla**. The dark liquid was wastewater from the company’s nearly $1 billion lithium refinery, which began operations in December 2024 and was, at the time, the first commercial-scale spodumene-to-lithium-hydroxide refinery in North America. Tesla had marketed the plant for years as an “acid-free clean process,” promising sand and limestone as the main byproducts. The drainage district had not been told that 231,000 gallons of treated wastewater per day would be flowing through its infrastructure.\n\nWhat happened next, across the four months that followed, is one of the more uncomfortable storylines in the American electric vehicle supply chain right now, and almost no mainstream US automotive press has touched it.\n\n## How the drainage district found out about the pipe\n\nThe Texas Commission on Environmental Quality, the state environmental regulator known as TCEQ, had quietly issued Tesla a wastewater discharge permit on J",
+      "title_zh": "特斯拉锂精炼厂每天排放23.1万加仑污染废水",
+      "body_zh": "2026年1月，德克萨斯州Nueces县的排水区工人在罗布斯敦郊外的一条沟渠上进行例行维护时，发现了一些他们以前从未见过的东西。他们不认识的一根管子，穿过他们监督的地役权，正在将深色液体排放到他们管理的沟渠中。排水区顾问史蒂夫·雷（ Steve Ray ）向克里斯6新闻（ KRIS 6 News ）描述了“非常黑暗和模糊”。 “我会说它实际上是黑色的。 我们习惯于看到好的自来水，所以我们并不确切知道它是什么。”\n\n管道属于* *特斯拉* *。 深色液体是该公司近10亿美元的锂精炼厂的废水，该厂于2024年12月开始运营，当时是北美第一家商业规模的锂氢氧化锂精炼厂"
+    },
+    {
+      "id": "hn:48165980",
+      "title": "Tesla Solar Roof is on life support as it pivot to panels",
+      "url": "https://electrek.co/2026/05/14/tesla-solar-roof-promise-vs-reality-pivot-panels/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48165980",
+        "name": "celsoazevedo",
+        "hn_url": "https://news.ycombinator.com/item?id=48165980"
+      },
+      "duration_sec": null,
+      "views": 328,
+      "comments": 351,
+      "published_at": "2026-05-17T04:09:52+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en",
+      "body": "Tesla’s Solar Roof was supposed to revolutionize residential solar. Elon Musk unveiled the product in 2016 with the promise of beautiful solar tiles that would replace your entire roof — and he set a target of 1,000 new Solar Roofs per week by the end of 2019. Nearly a decade later, Tesla has installed roughly 3,000 Solar Roof systems total, stopped reporting deployment numbers, and is now quietly pivoting to conventional solar panels.\n\nThe gap between Tesla’s Solar Roof promise and reality is one of the most stark examples of unfulfilled ambitions in the company’s history — and it has left thousands of customers stuck with an expensive product that Tesla appears to have deprioritized.\n\n## The promise vs. the numbers\n\nWhen Musk first presented the Solar Roof in October 2016, he positioned it as a cornerstone of Tesla’s energy future. The pitch was compelling: solar tiles indistinguishable from premium roofing materials, integrated with Powerwalls for whole-home energy independence. Musk claimed it would cost less than a conventional roof plus traditional solar panels. Tesla acquired SolarCity for $2.6 billion partly on the strength of this vision, and Musk even said at the time that SolarCity’s Gigafactory would produce up to 10 GW/year.\n\nNone of that materialized.\n\nTesla didn’t reach even small-scale volume production until 2020 — three years behind schedule. At its peak in Q2 2022, Tesla deployed approximately 2.5 MW of Solar Roofs per quarter, equivalent to about 23 roofs ",
+      "title_zh": "特斯拉太阳能屋顶在转向面板时处于生命支持状态",
+      "body_zh": "特斯拉的太阳能屋顶本应彻底改变住宅太阳能。埃隆·马斯克（ Elon Musk ）在2016年推出了这款产品，承诺提供美丽的太阳能瓦片，以取代整个屋顶—他设定了到2019年底每周新建1000个太阳能屋顶的目标。近十年后，特斯拉总共安装了大约3000个太阳能屋顶系统，停止报告部署数量，现在正悄然转向传统太阳能电池板。 特斯拉的太阳能屋顶承诺与现实之间的差距是该公司历史上未实现的雄心壮志的最明显例子之一，它让成千上万的客户陷入了特斯拉似乎已经放弃优先考虑的昂贵产品的困境。\n\n# #承诺与数字\n\n当马斯克于2016年10月首次展示太阳能屋顶时，他将"
+    },
+    {
+      "id": "hn:48108313",
+      "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
+      "url": "https://www.bbc.com/news/articles/c202pgxx89lo",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48108313",
+        "name": "tartoran",
+        "hn_url": "https://news.ycombinator.com/item?id=48108313"
+      },
+      "duration_sec": null,
+      "views": 260,
+      "comments": 439,
+      "published_at": "2026-05-12T13:51:36+00:00",
+      "summary": "",
+      "matched_keyword": "inflation",
+      "lang": "en",
+      "title_zh": "随着伊朗战争导致能源成本激增，美国通货膨胀率飙升至3.8%"
+    },
+    {
+      "id": "hn:48236770",
+      "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
+      "url": "https://github.com/superset-sh/superset",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48236770",
+        "name": "avipeltz",
+        "hn_url": "https://news.ycombinator.com/item?id=48236770"
+      },
+      "duration_sec": null,
+      "views": 107,
+      "comments": 135,
+      "published_at": "2026-05-22T14:53:55+00:00",
+      "summary": "",
+      "matched_keyword": "Federal Reserve",
+      "lang": "en",
+      "body": "Orchestrate swarms of Claude Code, Codex, and more in parallel.\n\nWorks with any CLI agent. Built for local worktree-based development.\n\n**Download for macOS** • Documentation • Changelog • Discord\n\nSuperset orchestrates CLI-based coding agents across isolated git worktrees, with built-in terminal, review, and open-in-editor workflows.\n\n**Run multiple agents simultaneously**without context switching overhead**Isolate each task**in its own git worktree so agents don't interfere with each other**Monitor all your agents**from one place and get notified when they need attention**Review and edit changes quickly**with the built-in diff viewer and editor**Open any workspace where you need it**with one-click handoff to your editor or terminal\n\nWait less, ship more.\n\nSuperset works with any CLI-based coding agent, including:\n\nIf it runs in a terminal, it runs on Superset\n\nBuilds for Windows and Linux are not yet available.\n\nWant to hack on Superset or contribute a PR? Spin up a local dev environment in one command:\n\n```\ngit clone https://github.com/superset-sh/superset.git\ncd superset\n./.superset/setup.local.sh\nbun run dev\n```\n\nNo Neon account or third-party credentials needed — `setup.local.sh`\n\nbrings up a local Postgres + Electric stack via Docker and seeds a dev account. Sign in with the **\"Sign in as dev\"** button (or `admin@local.test`\n\n/ `supersetdev`\n\n).\n\nPrereqs: `bun`\n\n, `docker`\n\n, `jq`\n\n, `caddy`\n\n(`brew install jq caddy && caddy trust`\n\n).\n\nSee **DEVELOPMENT.md** for the f",
+      "title_zh": "启动HN ：超集（ YC P26 ） –代理时代的IDE",
+      "body_zh": "并行编排成群的Claude Code、Codex等。\n\n适用于任何CLI代理。 专为基于本地工作树的开发而构建。\n\n* *下载macOS版* * •文档•更新日志• Discord\n\nSuperset通过内置的终端、审阅和开放式编辑工作流程，跨独立的git工作树协调基于CLI的编码代理。 * *同时运行多个代理* * ，无需上下文切换开销* *在自己的git工作树中隔离每个任务* * ，以便代理不会互相干扰* *从一个地方监控您的所有代理* * ，并在需要注意时收到通知* *使用内置的差异查看器和编辑器快速查看和编辑更改* *打开您需要的任何工作区* * ，只需单击切换到编辑器或终端即可\n\n等待更少，运送更多。 超集适用于任何基于CLI的"
+    },
+    {
+      "id": "hn:48225040",
+      "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+      "url": "https://www.runtm.com/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48225040",
+        "name": "gustrigos",
+        "hn_url": "https://news.ycombinator.com/item?id=48225040"
+      },
+      "duration_sec": null,
+      "views": 102,
+      "comments": 30,
+      "published_at": "2026-05-21T16:07:13+00:00",
+      "summary": "",
+      "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48225596",
+      "title": "Show HN: Agent.email – sign up via curl, claim with a human OTP",
+      "url": "https://news.ycombinator.com/item?id=48225596",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48225596",
+        "name": "adisingh13",
+        "hn_url": "https://news.ycombinator.com/item?id=48225596"
+      },
+      "duration_sec": null,
+      "views": 98,
+      "comments": 108,
+      "published_at": "2026-05-21T16:42:34+00:00",
+      "summary": "",
+      "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48309986",
+      "title": "Show HN: Ktx – Open-source executable context layer for data agents",
+      "url": "https://github.com/Kaelio/ktx",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48309986",
+        "name": "lucamrtl",
+        "hn_url": "https://news.ycombinator.com/item?id=48309986"
+      },
+      "duration_sec": null,
+      "views": 83,
+      "comments": 24,
+      "published_at": "2026-05-28T15:05:06+00:00",
+      "summary": "",
+      "matched_keyword": "stock market",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48160991",
+      "title": "Tesla reveals two Robotaxi crashes involving teleoperators",
+      "url": "https://techcrunch.com/2026/05/15/tesla-reveals-two-robotaxi-crashes-involving-teleoperators/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48160991",
+        "name": "Brajeshwar",
+        "hn_url": "https://news.ycombinator.com/item?id=48160991"
+      },
+      "duration_sec": null,
+      "views": 58,
+      "comments": 58,
+      "published_at": "2026-05-16T15:21:45+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/luceing-their-mind/",
+      "title": "2026.22: Luceing Their Mind",
+      "url": "https://stratechery.com/2026/luceing-their-mind/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of May 25, 2026, including why everyone hates Luce, how to monetize AI answers, and social mobility in China.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
+      "title": "An Interview with Eric Seufert About Models and Ads, and AI’s Upside for Humanity",
+      "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T10:00:00+00:00",
+      "summary": "An Interview with Eric Seufert about building models for generative AI, why Meta's foundational models are so important, and why understanding advertising leads to optimism about humanity's future.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
+      "title": "The SpaceX IPO and Data Centers in Space",
+      "url": "https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-27T10:00:00+00:00",
+      "summary": "There isn't a financial model that justifies the SpaceX IPO, but data centers in space are plausible, and that might be enough.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+      "title": "Nvidia Earnings, The AI Stack, Nvidia’s New Reporting",
+      "url": "https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-26T10:00:00+00:00",
+      "summary": "Nvidia is changing its reporting to delineate between hyperscaler sales — where Nvidia is fighting commoditization — and everyone else, where Nvidia runs the whole stack.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/the-data-center-veto/",
+      "title": "2026.21: The Data Center Veto",
+      "url": "https://stratechery.com/2026/the-data-center-veto/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-22T17:12:32+00:00",
+      "summary": "The best Stratechery content from the week of May 18, 2026, including data center discontent, agent economics, and slime mold.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
+      "title": "An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web",
+      "url": "https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-21T10:00:00+00:00",
+      "summary": "An interview with Parallel founder Parag Agarwal about valuing content and incentivizing its creation in a world of agents (plus questions about Twitter).",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
+      "title": "Google I/O, World Models, I/O Spaghetti",
+      "url": "https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-20T10:00:00+00:00",
+      "summary": "Google I/O put AI everywhere, for better and for worse. Meanwhile, is DeepMind aligned with Google's business objectives?",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+      "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
+      "url": "https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-18T10:00:00+00:00",
+      "summary": "There are understandable reasons for people to oppose data centers; the only solution that will work is simply paying them off.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
+      "title": "2026.20: Shifting Alliances in a Changing World",
+      "url": "https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-15T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of May 11, 2026, including a new kind of computing, Elon Musk, and 360 degrees of US-China relations.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/",
+      "title": "An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference",
+      "url": "https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-14T10:00:00+00:00",
+      "summary": "An interview with me about the implications of the compute shortage on Aggregation Theory, consumer AI, and more.",
+      "lang": "en"
+    }
+  ],
+  "total": 19,
+  "domain_id": "finance"
+}

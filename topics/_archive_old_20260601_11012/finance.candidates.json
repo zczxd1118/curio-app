@@ -1,0 +1,757 @@
+{
+  "domain": "AI 商业 / 投融资",
+  "domain_id": "finance",
+  "topic_id": "default",
+  "fetched_at": "2026-06-01T02:59:52.636381+00:00",
+  "platforms": [
+    "rss"
+  ],
+  "source_stats": {
+    "Stratechery": 10,
+    "Net Interest（金融行业深度）": 20,
+    "The Information（科技公司报道）": 0,
+    "华尔街见闻 API": 20,
+    "HN · OpenAI 商业": 0,
+    "HN · Anthropic 商业": 0,
+    "HN · Nvidia earnings / 估值": 0,
+    "HN · AI 公司估值/IPO": 0,
+    "HN · 大厂财报": 0,
+    "HN · 经济宏观": 0
+  },
+  "subtopics": [
+    "default"
+  ],
+  "total": 50,
+  "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/luceing-their-mind/",
+      "title": "2026.22: Luceing Their Mind",
+      "url": "https://stratechery.com/2026/luceing-their-mind/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of May 25, 2026, including why everyone hates Luce, how to monetize AI answers, and social mobility in China.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
+      "title": "An Interview with Eric Seufert About Models and Ads, and AI’s Upside for Humanity",
+      "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T10:00:00+00:00",
+      "summary": "An Interview with Eric Seufert about building models for generative AI, why Meta's foundational models are so important, and why understanding advertising leads to optimism about humanity's future.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
+      "title": "The SpaceX IPO and Data Centers in Space",
+      "url": "https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-27T10:00:00+00:00",
+      "summary": "There isn't a financial model that justifies the SpaceX IPO, but data centers in space are plausible, and that might be enough.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+      "title": "Nvidia Earnings, The AI Stack, Nvidia’s New Reporting",
+      "url": "https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-26T10:00:00+00:00",
+      "summary": "Nvidia is changing its reporting to delineate between hyperscaler sales — where Nvidia is fighting commoditization — and everyone else, where Nvidia runs the whole stack.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/the-data-center-veto/",
+      "title": "2026.21: The Data Center Veto",
+      "url": "https://stratechery.com/2026/the-data-center-veto/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-22T17:12:32+00:00",
+      "summary": "The best Stratechery content from the week of May 18, 2026, including data center discontent, agent economics, and slime mold.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
+      "title": "An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web",
+      "url": "https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-21T10:00:00+00:00",
+      "summary": "An interview with Parallel founder Parag Agarwal about valuing content and incentivizing its creation in a world of agents (plus questions about Twitter).",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
+      "title": "Google I/O, World Models, I/O Spaghetti",
+      "url": "https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-20T10:00:00+00:00",
+      "summary": "Google I/O put AI everywhere, for better and for worse. Meanwhile, is DeepMind aligned with Google's business objectives?",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+      "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
+      "url": "https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-18T10:00:00+00:00",
+      "summary": "There are understandable reasons for people to oppose data centers; the only solution that will work is simply paying them off.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
+      "title": "2026.20: Shifting Alliances in a Changing World",
+      "url": "https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-15T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of May 11, 2026, including a new kind of computing, Elon Musk, and 360 degrees of US-China relations.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/",
+      "title": "An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference",
+      "url": "https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-14T10:00:00+00:00",
+      "summary": "An interview with me about the implications of the compute shortage on Aggregation Theory, consumer AI, and more.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/strategy-follows-structure",
+      "title": "Strategy Follows Structure",
+      "url": "https://www.netinterest.co/p/strategy-follows-structure",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T16:47:05+00:00",
+      "summary": "Fidelity, Capital, Vanguard and the Ownership Structures That Made Them",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/griffins-doors",
+      "title": "Griffin’s Doors",
+      "url": "https://www.netinterest.co/p/griffins-doors",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-22T16:22:17+00:00",
+      "summary": "Inside Citadel&#8217;s Talent Machine",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-future-of-ir",
+      "title": "The Future of IR",
+      "url": "https://www.netinterest.co/p/the-future-of-ir",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-15T15:38:49+00:00",
+      "summary": "What the Changing Shape of Markets Means for Investor Relations",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/bye-the-index",
+      "title": "Bye the Index",
+      "url": "https://www.netinterest.co/p/bye-the-index",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-08T16:07:09+00:00",
+      "summary": "How Nasdaq learned to run its flywheel in reverse",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/money-for-nothing",
+      "title": "Money for Nothing",
+      "url": "https://www.netinterest.co/p/money-for-nothing",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-01T16:28:45+00:00",
+      "summary": "The Golden Age of Arbitrage?",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/apple-turnover",
+      "title": "Apple Turnover",
+      "url": "https://www.netinterest.co/p/apple-turnover",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-24T16:38:20+00:00",
+      "summary": "How Tim Cook reshaped payments &#8211; and what he leaves behind",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/defying-the-surveys",
+      "title": "Defying the Surveys",
+      "url": "https://www.netinterest.co/p/defying-the-surveys",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-17T16:54:51+00:00",
+      "summary": "Banks report a resilient quarter &#8211; and a lurking threat",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/shuffling-risk",
+      "title": "Shuffling Risk",
+      "url": "https://www.netinterest.co/p/shuffling-risk",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-10T15:10:44+00:00",
+      "summary": "An Asset Class Reborn",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-the-race-to-secure-a-bank",
+      "title": "NEW POD! The Race to Secure a Bank Charter with Adam Shapiro of Klaros Group",
+      "url": "https://www.netinterest.co/p/new-pod-the-race-to-secure-a-bank",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-31T15:45:44+00:00",
+      "summary": "Net Interest Extra ep 21",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/revolut-unbound",
+      "title": "Revolut Unbound",
+      "url": "https://www.netinterest.co/p/revolut-unbound",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-27T16:20:38+00:00",
+      "summary": "The Quest to Build the World&#8217;s First Truly Global Bank",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-underwriters-of-hormuz",
+      "title": "The Underwriters of Hormuz",
+      "url": "https://www.netinterest.co/p/the-underwriters-of-hormuz",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-20T16:23:35+00:00",
+      "summary": "A post on marine insurance &#8211; by popular demand",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-market-intelligence-in-the",
+      "title": "🎙️ Market Intelligence in the Age of AI: An Interview with Morningstar CEO, Kunal Kapoor",
+      "url": "https://www.netinterest.co/p/new-pod-market-intelligence-in-the",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-17T16:30:34+00:00",
+      "summary": "Net Interest Extra ep 20",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/redemption-day",
+      "title": "Redemption Day",
+      "url": "https://www.netinterest.co/p/redemption-day",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-13T18:09:28+00:00",
+      "summary": "When the exit is smaller than the entrance",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/learning-from-lloyd",
+      "title": "Learning from Lloyd",
+      "url": "https://www.netinterest.co/p/learning-from-lloyd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-06T17:42:54+00:00",
+      "summary": "Blankfein, Goldman and the Next Market Reckoning",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-how-credit-markets-shaped",
+      "title": "🎙️ How Credit Markets Shaped a Nation: An Interview with Sarah Quinn",
+      "url": "https://www.netinterest.co/p/new-pod-how-credit-markets-shaped",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-03T16:45:21+00:00",
+      "summary": "Net Interest Extra ep 19",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/two-tribes",
+      "title": "Two Tribes",
+      "url": "https://www.netinterest.co/p/two-tribes",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-27T17:42:58+00:00",
+      "summary": "Private Credit, Public Markets and the AI Reckoning",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/ai-and-i",
+      "title": "AI and I",
+      "url": "https://www.netinterest.co/p/ai-and-i",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-20T17:21:53+00:00",
+      "summary": "Claude Code, Bloomberg and the Battle for Data",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-trends-in-us-banks-with-john",
+      "title": "🎙️ Trends in US Banking: An Interview with John McDonald & Brian Foran",
+      "url": "https://www.netinterest.co/p/new-pod-trends-in-us-banks-with-john",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-17T16:45:19+00:00",
+      "summary": "Net Interest Extra ep 18",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-ackman-complex",
+      "title": "The Ackman Complex",
+      "url": "https://www.netinterest.co/p/the-ackman-complex",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-13T17:39:10+00:00",
+      "summary": "Inside Pershing Square&#8217;s Insurance Bet",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/excel-forever",
+      "title": "Excel Forever",
+      "url": "https://www.netinterest.co/p/excel-forever",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-06T17:45:41+00:00",
+      "summary": "Claude, Excel and the Future of Market Intelligence",
+      "lang": "en"
+    },
+    {
+      "id": "wscn:3773542",
+      "title": "美债交易员押注美联储加息，五月非农将成关键检验",
+      "url": "https://wallstreetcn.com/articles/3773542",
+      "summary": "五月非农就业报告本周五即将揭晓，预计新增9万人，若数据强劲叠加PCE同比高达3.8%，市场或将为更激进加息路径定价。十年期美债收益率徘徊4.44%，机构分歧加剧，短端债券成避险首选。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:51:43+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773544",
+      "title": "OpenAI正式成立机器人团队，进军实体世界AI",
+      "url": "https://wallstreetcn.com/articles/3773544",
+      "summary": "OpenAI联合创始人Greg Brockman宣布成立“OpenAI Robotics”团队并公开招聘，Sam Altman同日将机器人列为公司核心战略优先级，近期目标锁定建筑和基础设施领域的技工辅助，长期设定是“人人拥有个人机器人”。但公司目前没有公布任何具体产品、合作伙伴或时间表。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:43:32+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3772999",
+      "title": "日落之后：英国的生死大考【付鹏说 深度文章】",
+      "url": "https://wallstreetcn.com/premium/articles/3772999?layout=wscn-layout",
+      "summary": "英国正站在系统性危机的临界点上",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:31:41+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773543",
+      "title": "A股震荡上涨，AI应用概念活跃，算力硬件调整，恒科指大涨超2%，联想再创新高，泡泡玛特拉升7%",
+      "url": "https://wallstreetcn.com/articles/3773543",
+      "summary": "早盘AI应用概念逆势走强，视觉中国、税友股份、掌阅科技涨停，星环科技涨超10%，实丰文化、易点天下、鼎捷数智、汉得信息等跟涨。早盘PCB概念震荡下挫，宏和科技、广合科技跌停，泰金新能、国际复材跌超10%，中富电路、金安国纪、菲利华等跌幅靠前。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:27:20+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773539",
+      "title": "史上最大IPO SpaceX：强行改写指数规则，散户或成定价关键",
+      "url": "https://wallstreetcn.com/articles/3773539",
+      "summary": "SpaceX计划以至少1.8万亿美元估值、750亿美元募资规模冲击IPO史上最大上市，其体量之巨已迫使纳斯达克等主要指数机构紧急修改纳入规则，大幅缩减加入指数的等待期。被动资金自动买入需求或达200亿美元，30%份额拟向散户开放。这场史无前例的资本盛宴，将重塑华尔街规则，并决定OpenAI等AI独角兽的上市命运。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T02:24:06+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773540",
+      "title": "中国5月RatingDog制造业PMI 51.8，连续第六个月扩张，通胀压力出现缓解",
+      "url": "https://wallstreetcn.com/articles/3773540",
+      "summary": "核心亮点是投入与产出品价格涨幅双双回落，企业通胀及成本压力出现边际缓解。此外，因交货期延长企业增加库存；就业微降，但市场前景仍偏乐观。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:45:20+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773531",
+      "title": "戴尔暴涨，大摩“认错”：对硬件周期过于保守了",
+      "url": "https://wallstreetcn.com/articles/3773531",
+      "summary": "摩根士丹利高调认错，将对戴尔的减持评级与170美元目标价打入审查，目前股价已涨至420美元。AI需求从GPU蔓延至传统基础设施，且这一趋势仍处于早期阶段，“传统PC大厂”的低估值框架或将彻底重写。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:40:58+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773536",
+      "title": "科技背后的买卖盘",
+      "url": "https://wallstreetcn.com/articles/3773536",
+      "summary": "科技板块资金暗战激烈：主动基金大举增持光纤、押注通信，散户却反向涌入电子、存储，与机构形成千亿级筹码对倒；险资悄然清仓光纤，北上资金同步加码，多空分歧罕见撕裂。两融杠杆向存储、光模块集中，科技龙头IPO历史上屡屡抽血同板块——多空力量交织之下，这场流动性博弈远比表面更复杂。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:37:47+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773532",
+      "title": "AI PC海啸引爆周末：英伟达亲自下场！大厂预计重塑万亿PC产业生态！",
+      "url": "https://wallstreetcn.com/premium/articles/3773532?layout=wscn-layout",
+      "summary": "ComputeX 2026大会将成为人类PC产业发展史上的一个分水岭时刻。记住这个时刻。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:36:58+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773537",
+      "title": "AI热情主导市场，日韩股市齐创新高，韩股大涨3%，三星电子大涨7.7%",
+      "url": "https://wallstreetcn.com/articles/3773537",
+      "summary": "日经225首破67000点，三星电子单日暴涨7.7%创历史新高，软银市值盘中超越丰田，台股同步刷新纪录高位。韩国年内涨幅跻身全球前列，Nasdaq 100期货亦同步上扬。然而油价反弹、美伊谈判僵局暗藏变数，狂欢之下风险犹存。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:33:35+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773535",
+      "title": "油价跌了黄金也没涨，市场开始担心一个新问题",
+      "url": "https://wallstreetcn.com/articles/3773535",
+      "summary": "德银认为，黄金正面临一个新问题：通胀来源更广泛、更顽固，叠加全球央行加息预期升温、实际利率上升，令金价持续承压，且与油价走势明显背离。全球债市同步抛售、ETF需求同比萎缩78%是当前最大压力来源。市场目前最关注的变量，是新美联储主席沃什能否在6月议息会议上软化鹰派立场。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:06:47+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773533",
+      "title": "高盛也支持“存储PE估值”，上调海力士、三星和铠侠“三巨头”目标价",
+      "url": "https://wallstreetcn.com/articles/3773533",
+      "summary": "高盛认为，AI驱动需求持续性、供给受限及长期供货协议（LTA）三大结构性变化，正推动存储行业向AI基础设施赛道转型。预计供需短缺将延续至2028年。此前大摩和小摩就指出，存储巨头正站在估值范式切换的历史节点上，盈利可预测性比肩台积电，当前7.3倍远期P/E存在历史性修复空间。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:02:06+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773504",
+      "title": "国内债市或延续上涨，货币政策保持流动性充裕---W22国内宏观脱水",
+      "url": "https://wallstreetcn.com/premium/articles/3773504?layout=wscn-layout",
+      "summary": "国内债市上涨行情或有望延续，尽管经济呈现先强后弱，但基本面仍对债市形成托底，流动性有望持续充裕，更多...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T01:00:45+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773526",
+      "title": "百亿基金集体“创新高”：一场必要的估值修复",
+      "url": "https://wallstreetcn.com/articles/3773526",
+      "summary": "如何客观看待主动权益基金的时刻临近",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T00:35:52+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773507",
+      "title": "1660亿退税救不了美国消费 AI独木撑不住美国经济",
+      "url": "https://wallstreetcn.com/premium/articles/3773507?layout=wscn-layout",
+      "summary": "2026年美国经济真正的风险图景。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T00:13:01+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773528",
+      "title": "伯克希尔“新王”上任“第一把火”：85亿美元！卖油气，买地产",
+      "url": "https://wallstreetcn.com/articles/3773528",
+      "summary": "巴菲特\"接班人\"Greg Abel首秀即出重拳——上任半年，豪掷85亿美元全现金收购住宅建筑商Taylor Morrison，同步高位减持80亿美元雪佛龙股份套现离场。一买一卖之间，能源获利转投住宅复苏赛道的战略逻辑跃然纸上。背靠3811亿美元现金储备，后巴菲特时代的伯克希尔，正在提速。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T00:11:05+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773530",
+      "title": "这个周末，美伊忙着“改条件”，以色列忙着打黎巴嫩",
+      "url": "https://wallstreetcn.com/articles/3773530",
+      "summary": "美伊停火谈判周末陷入拉锯——特朗普大幅修改协议草案，核心分歧集中于浓缩铀处置和霍尔木兹海峡控制权，伊朗外长称“一切都是猜测”。与此同时，以色列宣布扩大在黎巴嫩军事行动，令停火前景更加复杂。受此影响，周一油价反弹，布伦特原油涨至约93美元/桶，WTI涨2.5%。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T00:10:28+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773529",
+      "title": "沃什改写“美联储最爱的通胀指标”，2021年“通胀低估”会重演吗？",
+      "url": "https://wallstreetcn.com/articles/3773529",
+      "summary": "美联储主席沃什力推\"截尾均值PCE\"取代传统核心PCE作为政策锚点，该指标4月读数仅2.3%，远低于核心PCE的3.3%。华尔街日报记者Nick Timiraos认为，这一数据分歧直接左右着美联储的利率路径与金融市场的降息预期。多家机构警告：该指标2021年曾系统性低估通胀，如今偏差或达48个基点——华尔街最担心的，是历史正在重演。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T00:01:05+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773483",
+      "title": "华尔街见闻早餐FM-Radio | 2026年6月1日",
+      "url": "https://wallstreetcn.com/articles/3773483",
+      "summary": "五分钟看懂全球市场，尽在财经早餐。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-05-31T23:02:39+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773527",
+      "title": "6月1日会员早报：加拿大率先滑入\"技术性衰退\" 四大国际机构罕见联合警告今夏全球恐陷危机",
+      "url": "https://wallstreetcn.com/premium/articles/3773527?layout=wscn-layout",
+      "summary": "软银750亿欧元豪赌法国。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-05-31T19:56:19+00:00",
+      "points": 0
+    }
+  ]
+}

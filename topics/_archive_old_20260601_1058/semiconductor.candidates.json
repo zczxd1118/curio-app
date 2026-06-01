@@ -1,0 +1,932 @@
+{
+  "domain": "半导体",
+  "items": [
+    {
+      "id": "hn:48311647",
+      "title": "Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48311647",
+        "name": "craigmart",
+        "hn_url": "https://news.ycombinator.com/item?id=48311647"
+      },
+      "duration_sec": null,
+      "views": 1734,
+      "comments": 1350,
+      "published_at": "2026-05-28T16:49:14+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en",
+      "body": "# Introducing Claude Opus 4.8\n\nWe’re upgrading Claude Opus to a new version: Claude Opus 4.8. It builds on Opus 4.7 with improvements across benchmarks, and is a more effective collaborator. It’s available today for the same price.\n\nOpus 4.8 launches alongside several new features. Users on claude.ai now have control over the amount of effort Claude puts into a task. Claude Code has a new “dynamic workflows” feature that allows it to tackle very large-scale problems. And fast mode for Opus 4.8—where the model can work at 2.5× the speed—is now three times cheaper than it was for previous models.\n\n## Opus 4.8’s capabilities\n\nThe table below shows how Opus 4.8 compares to its predecessor and to other models on tests of coding, agentic skills, reasoning, and practical knowledge work tasks. More details and a much wider range of capability evaluations are provided in the Claude Opus 4.8 System Card.\n\n## Collaborating with Opus 4.8\n\nEarly testers have found Claude Opus 4.8 to be more reliable and sharper in its judgement when it’s performing agentic tasks. Below are quotes from many of these testers about their experience collaborating with Opus 4.8:\n\nClaude Opus 4.8 has noticeably better judgment. In Claude Code, it asks the right questions, catches its own mistakes, pushes back when a plan isn’t sound, and builds up confidence around complex, multi-service explorations before making big changes. It’s a great model to build with.\n\nOn our Super-Agent benchmark, Claude Opus 4.8 is t",
+      "title_zh": "Claude Opus 4",
+      "body_zh": "# Claude Opus 4.8简介\n\n我们正在将Claude Opus升级到新版本： Claude Opus 4.8。 它建立在Opus 4.7的基础上，跨越基准进行了改进，是一个更有效的协作者。 它今天以相同的价格提供。\n\nOpus 4.8推出了几项新功能。 Claude.ai上的用户现在可以控制Claude投入到任务中的工作量。 Claude Code有一个新的“动态工作流程”功能，可以解决非常大规模的问题。 Opus 4.8的快速模式（该型号可以以2.5倍的速度工作）现在比以前的型号便宜三倍。\n\n# # Opus 4.8的能力\n\n下表显示了Opus 4.8与其前身以及其他编码、代理技能、推理和实践知识工作任务测试模型的比较。"
+    },
+    {
+      "id": "hn:48206768",
+      "title": "Meta blocks human rights accounts from reaching audiences in Saudi Arabia, UAE",
+      "url": "https://www.alqst.org/ar/posts/1190",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48206768",
+        "name": "giuliomagnifico",
+        "hn_url": "https://news.ycombinator.com/item?id=48206768"
+      },
+      "duration_sec": null,
+      "views": 1079,
+      "comments": 469,
+      "published_at": "2026-05-20T12:43:41+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en",
+      "title_zh": "Meta阻止人权账户接触沙特阿拉伯、阿联酋的受众"
+    },
+    {
+      "id": "hn:47920074",
+      "title": "Men who stare at walls",
+      "url": "https://www.alexselimov.com/posts/men_who_stare_at_walls/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "47920074",
+        "name": "aselimov3",
+        "hn_url": "https://news.ycombinator.com/item?id=47920074"
+      },
+      "duration_sec": null,
+      "views": 724,
+      "comments": 337,
+      "published_at": "2026-04-27T11:08:26+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en",
+      "body": "# Staring at walls to improve focus and productivity\n\nI came across a video by Simple Lucas describing a routine to improve focus and productivity. The routine was basically:\n\n- Don’t use any screens/entertainment when trying to focus on work.\n- When you start to feel mentally drained, sit and stare at a wall for x minutes to recover focus.\n\nI’ve been trying it, and it’s a very effective (but hard) routine.\n\n## The problem\n\nThe core problem is that most people by default are in an information overload.\nA paper published in 2012 showed that in 2008 the average person was receiving 34 GB of information daily, with a daily information exposure growth rate of about 5.4% per year 1.\nExtrapolating that trend, we would be at about 87 GB worth of data today.\nThis calculation includes audio, visual, and text data and incorporates quality into the measurement, i.e. 10 minutes of HD video has more information than 10 minutes of 480p video.\nIt’s unclear to me exactly how the quality impacts things, but regardless it is obvious that we are all being drowned in a sea of information.\n\nI certainly go through periods of “brain fog” and lack of focus/motivation. These periods usually go something like:\n\n- Get a bad night of sleep (up late for an event, kids keep waking me up).\n- Wake up very tired so consume large amounts of caffeine.\n- Have trouble focusing after 2/3 cups so use media while working to dull the pain (music/podcasts) or take more “breaks” (reading hackernews).\n- Stay up late be",
+      "title_zh": "盯着墙壁看的男人",
+      "body_zh": "#盯着墙壁以提高注意力和生产力\n\n我偶然看到Simple Lucas的一段视频，描述了提高注意力和生产力的例行公事。 例行公事基本上是：\n\n-在专注于工作时，请勿使用任何屏幕/娱乐设施。\n-当您开始感到精神疲惫时，坐下来盯着墙壁看x分钟，以恢复注意力。\n\n我一直在尝试，这是一个非常有效（但很难）的例行公事。\n\n# #问题 核心问题是，大多数人默认情况下都处于信息过载状态。\n2012年发表的一篇论文显示， 2008年人均日均接收信息量为34GB ，日均信息暴露增长率约为每年5.4% 1。\n根据这一趋势，我们今天的数据价值约为87 GB。\n此计算包括音频、视觉"
+    },
+    {
+      "id": "hn:48192383",
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "url": "https://github.com/antoinezambelli/forge",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48192383",
+        "name": "zambelli",
+        "hn_url": "https://news.ycombinator.com/item?id=48192383"
+      },
+      "duration_sec": null,
+      "views": 687,
+      "comments": 252,
+      "published_at": "2026-05-19T12:23:07+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en",
+      "body": "A reliability layer for self-hosted LLM tool-calling. You give forge a set of tools; the model calls whichever it wants in whatever order. Workflow structure is opt-in — `required_steps`\n\n, `prerequisites`\n\n, and `terminal_tool`\n\nlet you constrain the loop when you need to, but forge's guardrails (rescue parsing, retry nudges, response validation) apply with zero required steps too.\n\nForge takes an 8B local model from single digits to 84% across forge's 26-scenario v0.7.0 eval suite — and even lifts Sonnet 4.6 from 85% to 98% on the same workload (Anthropic numbers measured in v0.6.0; not re-run in v0.7.0 since the cost is non-trivial).\n\n**What forge isn't:**\n\n**Not an agent orchestrator.**Forge sits inside one agentic loop and makes its tool calls reliable. Multi-agent graphs, DAG planners, and cross-agent coordination are out of scope.**Not a coding harness.**Forge is domain-agnostic. If you're building a coding agent (or already using one like opencode, aider, Cline), proxy mode lifts your existing harness with forge's guardrails — no rewrite.\n\n**Three ways to use it:**\n\n-\n**Proxy server**— Drop-in proxy (`python -m forge.proxy`\n\n) speaking both the OpenAI chat-completions and Anthropic Messages (`/v1/messages`\n\n) APIs, sitting between any client and a local model server. Point OpenAI-compatible tools (opencode, Continue, aider)**or Claude Code**at it and forge applies guardrails transparently — the client thinks it's talking to a smarter model. Most popular entry point. -",
+      "title_zh": "显示HN ：锻造–护栏在代理任务中将8B模型从53%提高到99%",
+      "body_zh": "自托管LLM工具调用的可靠性层。 你给锻造一套工具；模型以任何顺序调用它想要的任何工具。 工作流程结构为选择加入— “REQUIRED_STEPS”\n\n, `先决条件`\n\n和`terminal_tool`\n\n允许您在需要时约束循环，但Forge的护栏（救援解析、重试闪屏振动、响应验证）也适用于零必需步骤。 Forge在Forge的26场景v0.7.0评估套件中将8B本地模型从单个数字提升到84% ，甚至在同一工作负载下将Sonnet 4.6从85%提升到98% （在v0.6.0中测量的人择数字；由于成本不小，因此不在v0.7.0中重新运行）。\n\n* *锻造不是什么： * *\n\n* *不是代理编排器。* * Forge位于一个代理循环内，使其工具调用可靠。 多智能体图、DAG规划器"
+    },
+    {
+      "id": "hn:48143880",
+      "title": "Mullvad exit IPs are surprisingly identifying",
+      "url": "https://tmctmt.com/posts/mullvad-exit-ips-as-a-fingerprinting-vector/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48143880",
+        "name": "RGBCube",
+        "hn_url": "https://news.ycombinator.com/item?id=48143880"
+      },
+      "duration_sec": null,
+      "views": 613,
+      "comments": 389,
+      "published_at": "2026-05-15T02:35:35+00:00",
+      "summary": "",
+      "matched_keyword": "TSMC",
+      "lang": "en",
+      "body": "# Mullvad exit IPs as a fingerprinting vector\n\n*Update 5/29: Mullvad has begun rolling out a mitigation feature on their servers that scrambles exit IP positions, thereby fixing this issue. IPs are still deterministically selected based on the pubkey.*\n\nMullvad is one of the few VPN providers that offers multiple exit IPs for its servers. If two people connect to the same server, they will usually end up with different public IPs.\n\nWith only 578 servers (compared to Proton VPN’s 20,000), this kind of vertical scaling makes sense to avoid cramming too many users onto one IP, which would be a problem on sites with overzealous IP blocks and ratelimits.\n\nSurprisingly, the exit IP you are given is not randomized each time you connect to the server, but deterministically picked based on your WireGuard key, which rotates every 1 to 30 days (unless you use a third-party client, in which case it never rotates).\n\nBut wait.. if each server assigns you an independently picked static exit IP, wouldn’t just a few of those be enough to uniquely identify you among every other Mullvad user?\n\n## Putting it to the test\n\nI wrote a script that repeatedly changes my pubkey and fetches exit IPs for a set of 9 servers. Leaving it running for a night produced data points for 3650 pubkeys, which is enough to map out the exit IP range for each server:\n\nThe sizes of these pools add up to over 8.2 trillion exit IP combinations, so you’d think that every pubkey would be assigned a unique set of IPs, since",
+      "title_zh": "Mullvad出口IP出人意料地识别",
+      "body_zh": "# Mullvad出口IP作为指纹识别向量\n\n*更新5/29 ： Mullvad已开始在其服务器上推出缓解功能，以扰乱退出IP位置，从而修复此问题。 IP仍然根据PUBKEY确定性地选择。*\n\nMullvad是为其服务器提供多个出口IP的少数VPN提供商之一。 如果两个人连接到同一台服务器，他们通常会使用不同的公共IP。 只有578台服务器（与Proton VPN的20,000台服务器相比） ，这种垂直扩展是有意义的，可以避免将太多用户挤在一个IP上，这在IP块和速率限制过大的网站上是一个问题。\n\n令人惊讶的是，每次连接到服务器时，您获得的退出IP都不是随机的，而是根据您的WIR"
+    },
+    {
+      "id": "hn:48164287",
+      "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+      "url": "https://crates.io/crates/zerostack/1.0.0",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48164287",
+        "name": "gidellav",
+        "hn_url": "https://news.ycombinator.com/item?id=48164287"
+      },
+      "duration_sec": null,
+      "views": 575,
+      "comments": 308,
+      "published_at": "2026-05-16T22:23:50+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48184402",
+      "title": "Was my $48K GPU server worth it?",
+      "url": "https://rosmine.ai/2026/05/13/was-my-48k-gpu-worth-it/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48184402",
+        "name": "apwheele",
+        "hn_url": "https://news.ycombinator.com/item?id=48184402"
+      },
+      "duration_sec": null,
+      "views": 568,
+      "comments": 449,
+      "published_at": "2026-05-18T19:33:03+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48191602",
+      "title": "Show HN: Gaussian Splat of a Strawberry",
+      "url": "https://superspl.at/scene/84df8849",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48191602",
+        "name": "danybittel",
+        "hn_url": "https://news.ycombinator.com/item?id=48191602"
+      },
+      "duration_sec": null,
+      "views": 529,
+      "comments": 200,
+      "published_at": "2026-05-19T10:38:47+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48259808",
+      "title": "Migrating from Go to Rust",
+      "url": "https://corrode.dev/learn/migration-guides/go-to-rust/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48259808",
+        "name": "jabits",
+        "hn_url": "https://news.ycombinator.com/item?id=48259808"
+      },
+      "duration_sec": null,
+      "views": 477,
+      "comments": 507,
+      "published_at": "2026-05-24T18:31:42+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48169874",
+      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "url": "https://github.com/MinishLab/semble",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48169874",
+        "name": "Bibabomas",
+        "hn_url": "https://news.ycombinator.com/item?id=48169874"
+      },
+      "duration_sec": null,
+      "views": 445,
+      "comments": 151,
+      "published_at": "2026-05-17T15:37:07+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:47776035",
+      "title": "Anna's Archive loses $322M Spotify piracy case without a fight",
+      "url": "https://torrentfreak.com/annas-archive-loses-322-million-spotify-piracy-case-without-a-fight/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "47776035",
+        "name": "askl",
+        "hn_url": "https://news.ycombinator.com/item?id=47776035"
+      },
+      "duration_sec": null,
+      "views": 444,
+      "comments": 451,
+      "published_at": "2026-04-15T08:05:18+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en"
+    },
+    {
+      "id": "hn:47827259",
+      "title": "Stop trying to engineer your way out of listening to people",
+      "url": "https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "47827259",
+        "name": "walterbell",
+        "hn_url": "https://news.ycombinator.com/item?id=47827259"
+      },
+      "duration_sec": null,
+      "views": 438,
+      "comments": 280,
+      "published_at": "2026-04-19T20:09:09+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48238025",
+      "title": "U.S. researchers face new restrictions on publishing with foreign collaborators",
+      "url": "https://www.science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48238025",
+        "name": "ceejayoz",
+        "hn_url": "https://news.ycombinator.com/item?id=48238025"
+      },
+      "duration_sec": null,
+      "views": 419,
+      "comments": 279,
+      "published_at": "2026-05-22T16:23:08+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48299220",
+      "title": "What Apple and Google are doing to push notifications",
+      "url": "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48299220",
+        "name": "iamacyborg",
+        "hn_url": "https://news.ycombinator.com/item?id=48299220"
+      },
+      "duration_sec": null,
+      "views": 416,
+      "comments": 408,
+      "published_at": "2026-05-27T19:24:10+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:47901064",
+      "title": "ASML became the chokepoint for cutting-edge chips",
+      "url": "https://worksinprogress.co/issue/the-worlds-most-complex-machine/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "47901064",
+        "name": "mellosouls",
+        "hn_url": "https://news.ycombinator.com/item?id=47901064"
+      },
+      "duration_sec": null,
+      "views": 416,
+      "comments": 248,
+      "published_at": "2026-04-25T12:47:32+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48206340",
+      "title": "Saying goodbye to asm.js",
+      "url": "https://spidermonkey.dev/blog/2026/05/20/saying-goodbye-to-asmjs.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48206340",
+        "name": "eqrion",
+        "hn_url": "https://news.ycombinator.com/item?id=48206340"
+      },
+      "duration_sec": null,
+      "views": 410,
+      "comments": 158,
+      "published_at": "2026-05-20T12:01:56+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48307231",
+      "title": "AMD pulls a bait-and-switch on Linux users with Vivado licensing changes",
+      "url": "https://itsfoss.com/news/amd-vivado-bait-and-switch-on-linux-users/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48307231",
+        "name": "teleforce",
+        "hn_url": "https://news.ycombinator.com/item?id=48307231"
+      },
+      "duration_sec": null,
+      "views": 336,
+      "comments": 166,
+      "published_at": "2026-05-28T10:56:55+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48293080",
+      "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
+      "url": "https://www.githubstatus.com/incidents/xy1tt3hs572m",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48293080",
+        "name": "maxnoe",
+        "hn_url": "https://news.ycombinator.com/item?id=48293080"
+      },
+      "duration_sec": null,
+      "views": 335,
+      "comments": 209,
+      "published_at": "2026-05-27T12:15:14+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48165797",
+      "title": "I found ultra-pure quantum crystals in an abandoned mine in the Atacama desert",
+      "url": "https://medium.com/@breid.at/ultra-pure-quantum-crystals-from-an-abandoned-mine-in-a-mysterious-desert-93cc87d12314",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48165797",
+        "name": "vi_sextus_vi",
+        "hn_url": "https://news.ycombinator.com/item?id=48165797"
+      },
+      "duration_sec": null,
+      "views": 287,
+      "comments": 119,
+      "published_at": "2026-05-17T03:25:23+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48231247",
+      "title": "Gnutella: A Protocol Outliving the World That Created It",
+      "url": "https://rickcarlino.com/notes/p2p/gnutella-explanation.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48231247",
+        "name": "rickcarlino",
+        "hn_url": "https://news.ycombinator.com/item?id=48231247"
+      },
+      "duration_sec": null,
+      "views": 272,
+      "comments": 93,
+      "published_at": "2026-05-22T02:24:48+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48221896",
+      "title": "Show HN: I Dedicated 4 Years to Mastering Offline Password Cracking",
+      "url": "https://news.ycombinator.com/item?id=48221896",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48221896",
+        "name": "bojta-lepenye",
+        "hn_url": "https://news.ycombinator.com/item?id=48221896"
+      },
+      "duration_sec": null,
+      "views": 268,
+      "comments": 60,
+      "published_at": "2026-05-21T12:56:37+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48270111",
+      "title": "The bootstrapper's EU stack for under €10 per month",
+      "url": "https://eualternative.eu/guides/bootstrapper-free-tier-eu-stack/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48270111",
+        "name": "sparkling",
+        "hn_url": "https://news.ycombinator.com/item?id=48270111"
+      },
+      "duration_sec": null,
+      "views": 225,
+      "comments": 84,
+      "published_at": "2026-05-25T18:37:05+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:47595971",
+      "title": "My son pleasured himself on Gemini Live. Entire family's Google accounts banned",
+      "url": "https://old.reddit.com/r/LegalAdviceUK/comments/1s92fql/my_son_pleasured_himself_in_front_of_gemini_live/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "47595971",
+        "name": "samlinnfer",
+        "hn_url": "https://news.ycombinator.com/item?id=47595971"
+      },
+      "duration_sec": null,
+      "views": 208,
+      "comments": 165,
+      "published_at": "2026-04-01T02:14:42+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48321076",
+      "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
+      "url": "https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48321076",
+        "name": "NicoConstant",
+        "hn_url": "https://news.ycombinator.com/item?id=48321076"
+      },
+      "duration_sec": null,
+      "views": 204,
+      "comments": 91,
+      "published_at": "2026-05-29T09:47:23+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:47896163",
+      "title": "Show HN: I've built a nice home server OS",
+      "url": "https://lightwhale.asklandd.dk/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "47896163",
+        "name": "Zta77",
+        "hn_url": "https://news.ycombinator.com/item?id=47896163"
+      },
+      "duration_sec": null,
+      "views": 194,
+      "comments": 91,
+      "published_at": "2026-04-24T21:42:26+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48226038",
+      "title": "Chewing gum restores dad's taste and smell years after Covid",
+      "url": "https://discover.swns.com/2026/05/chewing-gum-restores-dads-taste-and-smell-years-after-covid/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48226038",
+        "name": "speckx",
+        "hn_url": "https://news.ycombinator.com/item?id=48226038"
+      },
+      "duration_sec": null,
+      "views": 193,
+      "comments": 106,
+      "published_at": "2026-05-21T17:14:56+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48210590",
+      "title": "Ask HN: Shouldn't Google need to give a public statement about Railway incident?",
+      "url": "https://news.ycombinator.com/item?id=48210590",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48210590",
+        "name": "srameshc",
+        "hn_url": "https://news.ycombinator.com/item?id=48210590"
+      },
+      "duration_sec": null,
+      "views": 180,
+      "comments": 106,
+      "published_at": "2026-05-20T16:50:54+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48266422",
+      "title": "Microsoft pulls plug on plans for 244-acre data center in Caledonia (2025)",
+      "url": "https://www.tmj4.com/news/racine-county/microsoft-pulls-plug-on-plans-for-244-acre-data-center-in-caledonia-after-community-pushback",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48266422",
+        "name": "cdrnsf",
+        "hn_url": "https://news.ycombinator.com/item?id=48266422"
+      },
+      "duration_sec": null,
+      "views": 179,
+      "comments": 188,
+      "published_at": "2026-05-25T13:09:53+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48247005",
+      "title": "Matrix Multiplications on GPUs Run Faster When Given “Predictable” Data (2024)",
+      "url": "https://www.thonking.ai/p/strangely-matrix-multiplications",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48247005",
+        "name": "tosh",
+        "hn_url": "https://news.ycombinator.com/item?id=48247005"
+      },
+      "duration_sec": null,
+      "views": 172,
+      "comments": 57,
+      "published_at": "2026-05-23T12:11:47+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48265056",
+      "title": "IBM Spins Off the First Pure-Play Quantum Chip Foundry",
+      "url": "https://futurumgroup.com/insights/2-billion-chips-act-investment-in-quantum-bets-on-ibms-300mm-superconducting-silicon/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48265056",
+        "name": "rbanffy",
+        "hn_url": "https://news.ycombinator.com/item?id=48265056"
+      },
+      "duration_sec": null,
+      "views": 158,
+      "comments": 73,
+      "published_at": "2026-05-25T09:43:03+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48250980",
+      "title": "Air France and Airbus found guilty of manslaughter over 2009 plane crash",
+      "url": "https://www.bbc.com/news/articles/czd2qmdvmq6o",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48250980",
+        "name": "baal80spam",
+        "hn_url": "https://news.ycombinator.com/item?id=48250980"
+      },
+      "duration_sec": null,
+      "views": 135,
+      "comments": 132,
+      "published_at": "2026-05-23T20:09:13+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48189539",
+      "title": "Fender escalates legal campaign against S-style guitars",
+      "url": "https://www.guitarworld.com/gear/electric-guitars/fender-cease-and-desist-lsl-instruments",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48189539",
+        "name": "rectang",
+        "hn_url": "https://news.ycombinator.com/item?id=48189539"
+      },
+      "duration_sec": null,
+      "views": 131,
+      "comments": 132,
+      "published_at": "2026-05-19T05:28:30+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48012477",
+      "title": "Offenders sentenced up to 10 years for spying on TSMC",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/04/28/2003856358",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48012477",
+        "name": "ironyman",
+        "hn_url": "https://news.ycombinator.com/item?id=48012477"
+      },
+      "duration_sec": null,
+      "views": 127,
+      "comments": 24,
+      "published_at": "2026-05-04T18:04:33+00:00",
+      "summary": "",
+      "matched_keyword": "TSMC",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48256108",
+      "title": "What it takes to transpose a matrix",
+      "url": "https://gudok.xyz/transpose/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48256108",
+        "name": "tosh",
+        "hn_url": "https://news.ycombinator.com/item?id=48256108"
+      },
+      "duration_sec": null,
+      "views": 105,
+      "comments": 19,
+      "published_at": "2026-05-24T10:30:39+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48225040",
+      "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+      "url": "https://www.runtm.com/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48225040",
+        "name": "gustrigos",
+        "hn_url": "https://news.ycombinator.com/item?id=48225040"
+      },
+      "duration_sec": null,
+      "views": 102,
+      "comments": 30,
+      "published_at": "2026-05-21T16:07:13+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48234574",
+      "title": "How do you build a semiconductor company on something that's free?",
+      "url": "https://www.siliconimist.com/p/the-open-source-silicon-business",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48234574",
+        "name": "johncole",
+        "hn_url": "https://news.ycombinator.com/item?id=48234574"
+      },
+      "duration_sec": null,
+      "views": 99,
+      "comments": 36,
+      "published_at": "2026-05-22T11:49:04+00:00",
+      "summary": "",
+      "matched_keyword": "semiconductor",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48209105",
+      "title": "Stable Audio 3",
+      "url": "https://arxiv.org/abs/2605.17991",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48209105",
+        "name": "guardienaveugle",
+        "hn_url": "https://news.ycombinator.com/item?id=48209105"
+      },
+      "duration_sec": null,
+      "views": 99,
+      "comments": 18,
+      "published_at": "2026-05-20T15:10:05+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48007145",
+      "title": "ASML's Best Selling Product Isn't What You Think It Is",
+      "url": "https://www.siliconimist.com/p/asmls-best-selling-product",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48007145",
+        "name": "johncole",
+        "hn_url": "https://news.ycombinator.com/item?id=48007145"
+      },
+      "duration_sec": null,
+      "views": 98,
+      "comments": 43,
+      "published_at": "2026-05-04T11:08:22+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48272393",
+      "title": "Show HN: OpenBrief – Local-first video downloader/summarizer",
+      "url": "https://github.com/tantara/openbrief",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48272393",
+        "name": "tantara",
+        "hn_url": "https://news.ycombinator.com/item?id=48272393"
+      },
+      "duration_sec": null,
+      "views": 92,
+      "comments": 17,
+      "published_at": "2026-05-25T21:50:03+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48183038",
+      "title": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and CUDA-checkpoint",
+      "url": "https://modal.com/blog/truly-serverless-gpus",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48183038",
+        "name": "charles_irl",
+        "hn_url": "https://news.ycombinator.com/item?id=48183038"
+      },
+      "duration_sec": null,
+      "views": 91,
+      "comments": 18,
+      "published_at": "2026-05-18T17:56:26+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48041316",
+      "title": "Show HN: PHP-fts – Full-text search engine in pure PHP, no extensions",
+      "url": "https://github.com/olivier-ls/php-fts",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48041316",
+        "name": "asmodios",
+        "hn_url": "https://news.ycombinator.com/item?id=48041316"
+      },
+      "duration_sec": null,
+      "views": 89,
+      "comments": 27,
+      "published_at": "2026-05-06T20:28:17+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48265745",
+      "title": "GPT Guesses Between 1 and 100",
+      "url": "https://github.com/exmergo/research-chatgpt-guesses-between-1-and-100",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48265745",
+        "name": "adunk",
+        "hn_url": "https://news.ycombinator.com/item?id=48265745"
+      },
+      "duration_sec": null,
+      "views": 87,
+      "comments": 73,
+      "published_at": "2026-05-25T11:46:09+00:00",
+      "summary": "",
+      "matched_keyword": "GPU",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48220446",
+      "title": "IBM invented semiconductor manufacturing automation",
+      "url": "https://spectrum.ieee.org/semiconductor-fabrication",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48220446",
+        "name": "rbanffy",
+        "hn_url": "https://news.ycombinator.com/item?id=48220446"
+      },
+      "duration_sec": null,
+      "views": 81,
+      "comments": 6,
+      "published_at": "2026-05-21T10:39:48+00:00",
+      "summary": "",
+      "matched_keyword": "semiconductor",
+      "lang": "en"
+    },
+    {
+      "id": "hn:47807609",
+      "title": "Writing string.h functions using string instructions in asm x86-64 (2025)",
+      "url": "https://pmasschelier.github.io/x86_64_strings/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "47807609",
+        "name": "thaisstein",
+        "hn_url": "https://news.ycombinator.com/item?id=47807609"
+      },
+      "duration_sec": null,
+      "views": 71,
+      "comments": 7,
+      "published_at": "2026-04-17T16:22:36+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48037923",
+      "title": "Canadian fiddler sues Google after AI Overview claimed he was a sex offender",
+      "url": "https://www.theguardian.com/music/2026/may/05/canadian-ashley-macisaac-fiddler-musician-singer-songwriter-sues-google-ai-sex-offender-ntwnfb",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48037923",
+        "name": "LordAtlas",
+        "hn_url": "https://news.ycombinator.com/item?id=48037923"
+      },
+      "duration_sec": null,
+      "views": 55,
+      "comments": 27,
+      "published_at": "2026-05-06T16:12:50+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48291230",
+      "title": "Nvidia Vera CPU Benchmarks: Olympus Cores Delivering Great Performance",
+      "url": "https://www.phoronix.com/review/nvidia-vera-benchmarks",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48291230",
+        "name": "naves",
+        "hn_url": "https://news.ycombinator.com/item?id=48291230"
+      },
+      "duration_sec": null,
+      "views": 54,
+      "comments": 23,
+      "published_at": "2026-05-27T08:15:35+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48261543",
+      "title": "San Francisco immigration court shuts down after purge of judges",
+      "url": "https://apnews.com/article/san-francisco-immigration-court-closed-asylum-8a0946a7cd4bcc9bd925d075cabef44a",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48261543",
+        "name": "petethomas",
+        "hn_url": "https://news.ycombinator.com/item?id=48261543"
+      },
+      "duration_sec": null,
+      "views": 40,
+      "comments": 9,
+      "published_at": "2026-05-24T22:12:48+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48327222",
+      "title": "AI will be used to estimate age of asylum seekers from next year",
+      "url": "https://www.bbc.co.uk/news/articles/ce3pe36qe7ro",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48327222",
+        "name": "vylorn",
+        "hn_url": "https://news.ycombinator.com/item?id=48327222"
+      },
+      "duration_sec": null,
+      "views": 36,
+      "comments": 40,
+      "published_at": "2026-05-29T18:23:03+00:00",
+      "summary": "",
+      "matched_keyword": "ASML",
+      "lang": "en"
+    }
+  ],
+  "total": 48,
+  "domain_id": "semiconductor"
+}

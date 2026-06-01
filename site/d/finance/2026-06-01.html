@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curio · AI 商业 / 投融资 · 2026-06-01 · Curio</title>
+<link rel="stylesheet" href="../../styles.css?v=20260601164949">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="../../index.html">Curio<span class="dot">.</span></a>
+    <div class="nav-links"><a href="../../index.html">首页</a><a href="../../d/ai/index.html">AI</a><a href="../../d/finance/index.html" class="active">AI 商业 / 投融资</a><a href="../../d/semiconductor/index.html">AI 算力 / 半导体</a><a href="../../d/bigtech/index.html">大厂 AI 动态</a><a href="../../d/stock/index.html">股票</a></div>
+    <div class="nav-actions">
+      <div class="search-wrap">
+        <span class="search-icon">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
+        </span>
+        <input type="text" class="search-input" id="curio-search" placeholder="搜索  ⌘K" autocomplete="off">
+        <div class="search-results" id="curio-search-results"></div>
+      </div>
+      <button class="subscribe-btn" id="subscribe-btn" title="订阅 Curio 邮件简报">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span class="sub-label">订阅</span>
+      </button>
+      <button class="theme-toggle" id="settings-btn" title="设置（评分链路）">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      </button>
+      <button class="theme-toggle" id="theme-toggle" title="切换主题（深/浅色）">
+        <span class="icon-moon-default" style="display:inline-flex">
+          <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </span>
+        <span class="icon-sun">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<aside class="toc" id="curio-toc">
+  <div class="toc-title">本期目录</div>
+  <div id="curio-toc-list"></div>
+</aside>
+
+<main>
+
+<div class="hero">
+  <div class="kicker">🏦 AI 商业 / 投融资 · 2026-06-01</div>
+  <h1>Curio · AI 商业 / 投融资 · 2026-06-01</h1>
+  <div class="meta">📖 主编点评</div>
+</div>
+<div class="content">
+<blockquote>
+<p>今日 1 条头条 + 5 条备选</p>
+</blockquote>
+<p><em>今天三条主线交叉：一是 OpenAI 计划本周递交 IPO 招股书，叠加 SpaceX 1.8 万亿美元 IPO 倒逼指数规则改写，AI 独角兽集体进入定价时刻；二是 Computex 2026 + GTC Taipei 同步开锣，Nvidia Vera Rubin 量产 + N1X PC 处理器入场，Intel 18A Xeon 6+ 反扑，AI 硬件竞争从 GPU 蔓延到 CPU/PC 全栈；三是股票域：SpaceX IPO 招股书极度不公平条款（禁止股东诉讼、Musk 永久控制），多家媒体警告散户慎打新——这是 2026 年下半年股市最大的风险事件。Stratechery 本周新增 Eric Seufert 访谈值得你听完。</em></p>
+<hr />
+<h2>🌟 今日精选</h2>
+<h3>4. 高盛、大摩、小摩集体上调存储三巨头目标价：AI 让 SK Hynix / 三星 / 铠侠估值范式切换</h3>
+<p><strong>[AI 商业 / 投融资]</strong> · ⭐⭐⭐⭐ · <em>华尔街见闻 API</em></p>
+<p>高盛跟随大摩、小摩，正式上调 SK Hynix、三星、铠侠目标价，理由是 AI 驱动需求 + 供给受限 + 长期供货协议（LTA）三大结构性变化，预计供需短缺持续到 2028 年。三家投行的核心论点是：存储巨头的盈利可预测性正在向台积电靠拢，但当前 7.3 倍远期 P/E 严重低估。叠加韩国 KOSPI 一度熔断、三星电子单日 +10%，存储正在从周期股变成 AI 基础设施股。</p>
+<table>
+<thead>
+<tr>
+<th>✅ 已确认</th>
+<th>⚖️ 尚属判断</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>三星电子单日 +10% 创历史新高，韩股一度触发熔断（华尔街见闻 6/1）</td>
+<td>"估值范式切换" 是卖方观点，散户和北上资金分歧仍大（华尔街见闻：科技板块买卖盘罕见撕裂）</td>
+</tr>
+<tr>
+<td>高盛预计存储供需短缺延续至 2028 年，上调三巨头目标价</td>
+<td>如果 OpenAI / SpaceX IPO 抽走二级市场流动性，存储反而可能被减仓</td>
+</tr>
+<tr>
+<td>戴尔股价已涨至 420 美元，大摩从 170 美元目标价 "认错"（华尔街见闻 6/1）</td>
+<td>存储和台积电真正可比的前提是 LTA 覆盖率，三星目前披露不充分</td>
+</tr>
+<tr>
+<td>Majestic Labs 完成 1 亿美元融资，做 100TB DRAM/加速器的内存池化 AI 服务器（EE Times 5/28）</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>📖 主编点评</strong></p>
+<p>如果你不炒股，这条价值在于让你判断 AI 基础设施成本走势：存储涨价 = HBM 涨价 = 大模型训练 / 推理成本短期不会降。对 content-curator 这种小项目，意味着别用价格来赌大模型 API 会持续下跌——开源 + 本地部署的工程能力在 2026 下半年比今天更值钱。</p>
+<p>📺 <a href="https://wallstreetcn.com/articles/3773533">打开原文</a></p>
+<hr />
+<h2>📋 备选阅读</h2>
+<ul>
+<li><a href="https://wallstreetcn.com/articles/3773544">OpenAI 正式成立机器人团队，Greg Brockman 公开招聘</a> —— Sam Altman 把机器人列为公司核心战略，但目前没产品、没合作方、没时间表——属于战略表态，不是落地动作。
+  <em>华尔街见闻 API</em></li>
+<li><a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture/">An OpenAI model has disproved a central conjecture in discrete geometry</a> —— OpenAI 模型反证了离散几何的一条核心猜想，HN 1429 票，是数学家圈子讨论 AI 数学能力的最强样本。
+  <em>OpenAI</em></li>
+<li><a href="https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/">Stratechery: Nvidia Earnings, The AI Stack, Nvidia's New Reporting</a> —— Ben Thompson 解读 Nvidia 拆分 hyperscaler 与 "其他客户" 营收的真实意图：在前者抗商品化，在后者通吃软件栈。
+  <em>Ben Thompson</em></li>
+<li><a href="https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/">Elon Musk 输掉对 Sam Altman 与 OpenAI 的诉讼</a> —— OpenAI IPO 前清场动作，Musk 系统性丧失对 OpenAI 治理的法律抓手，HN 1096 票讨论度极高。
+  <em>TechCrunch</em></li>
+<li><a href="https://wallstreetcn.com/articles/3773541">30 年美债收益率再破 5%，"一切都廉价" 的时代落幕</a> —— 廉价资本 / 廉价劳动力 / 廉价能源三大支柱同步瓦解，AI 未来通胀走向是最大变量——宏观背景必读。
+  <em>华尔街见闻 API</em></li>
+</ul>
+<hr />
+<h2>💬 觉得 AI 商业 / 投融资 这期怎么样？</h2>
+<p><a href="https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback">提一条反馈 Issue</a> 让 Agent 下次调整。</p>
+</div>
+
+    <div class="feedback" data-issue-id="finance/2026-06-01">
+      <h2>📝 本期反馈</h2>
+      <p class="desc">下次 Agent 跑前会读这段，用来调整搜索关键词、打分倾向。</p>
+
+      <div class="fallback-notice" style="display:none">
+        反馈需要后端支持。运行 <code>python server.py</code>，然后用 <code>http://localhost:8765/</code> 打开本页。
+      </div>
+
+      
+
+      <div class="long-term">
+        <label>最近更关注</label>
+        <input type="text" id="lt-more" placeholder="如：AI Agent 实战 / 半导体先进制程 / 美股期权策略">
+
+        <label>最近不太关注</label>
+        <input type="text" id="lt-less" placeholder="如：纯产品更新 / 概念股炒作">
+
+        <label>报道笔法（这是新尝试，重点反馈）</label>
+        <input type="text" id="lt-format" placeholder="如：二栏太多 / 时间线很好 / 想看更多引述">
+      </div>
+
+      <div class="fb-submit">
+        <button class="btn-primary fb-submit-btn">提交反馈</button>
+        <span class="fb-status">未提交</span>
+      </div>
+    </div>
+
+</main>
+
+<footer>
+  Curio v0.9 · 2026-06-01 · 由你和 AI 共同策展 · <a href="https://github.com/zczxd1118/curio-app" target="_blank" rel="noopener" style="color:inherit;opacity:0.6">zxd</a>
+</footer>
+
+<script>
+window.CURIO_REL_ROOT = "../../";
+window.CURIO_API_BASE = "https://api.curioradar.fun";
+window.CURIO_GH_REPO = "zczxd1118/curio-app";
+</script>
+<script src="../../app.js?v=20260601164949"></script>
+</body>
+</html>

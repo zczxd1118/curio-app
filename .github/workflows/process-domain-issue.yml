@@ -57,6 +57,73 @@ jobs:
         run: |
           gh workflow run fetch-candidates.yml -f reason="add-domain #${{ github.event.issue.number }}"
 
+      - name: Comment on issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --body "✅ 领域已加入 sources.yaml + 触发候选池抓取。
+
+          - 抓取约 2 分钟完成
+          - 然后等 score-and-finalize（API 模式）或 hourly automation（本地模式）跑一轮 → 主页 chip 出现
+          - **预计 5-65 分钟生效**（取决于评分模式）
+
+          想立即看？等 2 分钟后回主页点该域的「⚡ 立即生成」按钮。"
+
+  ingest-delete-domain:
+    if: contains(github.event.issue.labels.*.name, 'curio-delete-domain')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ingest delete-domain issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CURIO_ADMIN_TOKEN: ${{ secrets.CURIO_ADMIN_TOKEN }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python -m agent.worker_sync ingest_delete_domain
+
+      - name: Commit & push sources.yaml
+        run: |
+          git config user.name "curio-bot"
+          git config user.email "curio-bot@users.noreply.github.com"
+          git add sources.yaml 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "无变更"
+          else
+            git commit -m "chore(ci): delete domain via issue #${{ github.event.issue.number }} [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break || sleep 5
+            done
+          fi
+
+      - name: Comment on issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --body "✅ 领域已从 sources.yaml 移除，订阅者已从该域退订。
+
+          - 主页 chip 在下次重 build 后消失（最坏 24h，触发抓取或评分都会顺带 build）
+          - 历史 markdown 不删，仍可通过直接 URL 访问
+          - 想立即生效：去主页点任意域的「⚡ 立即生成」触发一次 finalize"
+
   ingest-generate:
     if: contains(github.event.issue.labels.*.name, 'curio-generate')
     runs-on: ubuntu-latest
@@ -99,21 +166,78 @@ jobs:
             git push
           fi
 
-      - name: Trigger fetch-candidates immediately
+      - name: Check scoring mode
+        id: mode
+        env:
+          CURIO_ADMIN_TOKEN: ${{ secrets.CURIO_ADMIN_TOKEN }}
+        run: |
+          mode=$(curl -sf -H "Authorization: Bearer $CURIO_ADMIN_TOKEN" \
+            https://api.curioradar.fun/admin/llm-config | python -c "
+          import sys, json
+          try:
+              d = json.load(sys.stdin)
+              print(d.get('scoring_mode', 'local'))
+          except Exception:
+              print('local')
+          ")
+          echo "mode=$mode" >> $GITHUB_OUTPUT
+          echo "scoring_mode=$mode"
+
+      - name: Trigger fetch-candidates → wait → score-and-finalize (api mode)
+        if: steps.mode.outputs.mode == 'api'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 立即跑一次抓取，让候选池是最新的；本地 automation 评分时拿到的是新鲜数据
-          gh workflow run fetch-candidates.yml -f reason="generate request #${{ github.event.issue.number }}"
+          # 1. 触发抓取并等它跑完
+          echo "🔄 触发 fetch-candidates..."
+          gh workflow run fetch-candidates.yml -f reason="generate #${{ github.event.issue.number }} (mode=api)"
+          # 等 5 秒让 run 入队
+          sleep 5
+          # 拿到最新 run id 并轮询
+          run_id=$(gh run list --workflow=fetch-candidates.yml --limit 1 --json databaseId --jq '.[0].databaseId')
+          echo "fetch run_id=$run_id"
+          # 等 fetch 跑完（最多 5 分钟）
+          gh run watch $run_id --exit-status || true
+          # 2. 触发 score-and-finalize
+          echo "⚡ 触发 score-and-finalize..."
+          gh workflow run score-and-finalize.yml -f cadence=daily
+
+      - name: Trigger fetch only (local/off mode)
+        if: steps.mode.outputs.mode != 'api'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run fetch-candidates.yml -f reason="generate #${{ github.event.issue.number }} (mode=${{ steps.mode.outputs.mode }})"
 
       - name: Comment on issue
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh issue comment ${{ github.event.issue.number }} --body "✅ 已排队（CI 处理）
+          if [ "${{ steps.mode.outputs.mode }}" = "api" ]; then
+            BODY="✅ 已收到（API 模式）
 
-          - 候选池正在重新抓取（约 2 分钟）
-          - 候选池更新后，最近一次本地 automation 跑时会处理你的请求并发邮件
-          - **预计**：下一次本地 automation 跑（最坏 1 小时内）
+          链路：
+          1. 候选池抓取（已触发，约 2 分钟）
+          2. score-and-finalize 评分 + 渲染 + 邮件（已触发，约 3 分钟）
 
-          想立即看主页内容：https://curioradar.fun/"
+          **预计 5-7 分钟内主页 + 邮箱可见。**
+
+          主页：https://curioradar.fun/"
+          elif [ "${{ steps.mode.outputs.mode }}" = "off" ]; then
+            BODY="⏸ 已收到，但当前评分模式为「暂停」。
+
+          请去 https://curioradar.fun → ⚙️ 设置 → 切换到「本地」或「API」。"
+          else
+            BODY="✅ 已收到（本地模式）
+
+          链路：
+          1. 候选池正在重新抓取（约 2 分钟）
+          2. 等下一个整点（最多 60 分钟），WorkBuddy 唤醒 Claude 评分
+
+          **预计 5-65 分钟内主页 + 邮箱可见。**
+
+          想真无人值守 < 5 分钟生效？去 ⚙️ 设置 切换到「API」模式。
+
+          主页：https://curioradar.fun/"
+          fi
+          gh issue comment ${{ github.event.issue.number }} --body "$BODY"

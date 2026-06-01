@@ -442,15 +442,28 @@ def _close_issue(num: int, comment: str, label_add: str = "curio-ingested",
 
 
 def _parse_yaml_block(body: str) -> dict:
-    """提取 ```yaml ... ``` 段"""
+    """提取 ```yaml ... ``` 段；如果没有，尝试解析裸的 'key: value' 行（兼容前端发的格式）"""
     import re
-    m = re.search(r"```yaml\s*\n(.+?)\n```", body or "", re.DOTALL)
-    if not m:
-        return {}
-    try:
-        return yaml.safe_load(m.group(1)) or {}
-    except Exception:
-        return {}
+    body = body or ""
+    # 1. 优先 ```yaml ... ``` 段
+    m = re.search(r"```yaml\s*\n(.+?)\n```", body, re.DOTALL)
+    if m:
+        try:
+            return yaml.safe_load(m.group(1)) or {}
+        except Exception:
+            pass
+    # 2. fallback：扫所有行，提取 "type: xxx" / "domain_id: xxx" 这种 key: value
+    out: dict = {}
+    for line in body.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or line.startswith("<!--") or line.startswith("---"):
+            continue
+        m2 = re.match(r"^([a-zA-Z_][a-zA-Z0-9_]*)\s*:\s*(.+?)$", line)
+        if m2:
+            key, val = m2.group(1), m2.group(2).strip()
+            if val and val != "none":
+                out[key] = val
+    return out
 
 
 def ingest_subscribe_issues() -> int:
