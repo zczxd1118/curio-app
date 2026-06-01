@@ -138,14 +138,15 @@ jobs:
       - name: Commit & push scored.json + topics
         if: env.skip != '1'
         run: |
-          # finalize 已经 push 过 curio-site，这里把 curio-app 内的 scored.json + radar md 推回 main
+          # 只 add 我们关心的产物
           git add topics/unified.scored.json topics/radar.*.md topics/*.weekly.*.md || true
           if git diff --staged --quiet; then
             echo "no changes to commit"
           else
             git commit -m "chore(ci): scored + finalized [skip ci]"
             for i in 1 2 3; do
-              git pull --rebase origin main && git push origin main && break || sleep 5
+              # --autostash 自动处理 site/ 等未跟踪改动
+              git pull --rebase --autostash origin main && git push origin main && break || sleep 5
             done
           fi
 
