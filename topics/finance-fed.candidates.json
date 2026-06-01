@@ -1,0 +1,1694 @@
+{
+  "domain": "金融",
+  "domain_id": "finance-fed",
+  "topic_id": "default",
+  "fetched_at": "2026-06-01T10:45:00.809627+00:00",
+  "platforms": [
+    "hackernews",
+    "rss"
+  ],
+  "source_stats": {
+    "Stratechery": 10,
+    "Net Interest（金融行业深度）": 20,
+    "华尔街见闻 API": 19,
+    "arXiv q-fin（量化金融论文）": 19,
+    "HN · Federal Reserve": 0,
+    "HN · inflation": 1,
+    "HN · Tesla": 6,
+    "HN · finance": 15,
+    "HN · fed": 11
+  },
+  "subtopics": [],
+  "total": 101,
+  "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/youtubers-win-the-box-office-goodbye-gatekeepers-the-youtube-bar/",
+      "title": "YouTubers Win the Box Office, Goodbye Gatekeepers, The YouTube Bar",
+      "url": "https://stratechery.com/2026/youtubers-win-the-box-office-goodbye-gatekeepers-the-youtube-bar/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T10:00:00+00:00",
+      "summary": "YouTubers are ruling the box office, and it shouldn't be a surprise: succeeding on YouTube is a much higher bar than the gates that currently govern Hollywood.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/luceing-their-mind/",
+      "title": "2026.22: Luceing Their Mind",
+      "url": "https://stratechery.com/2026/luceing-their-mind/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of May 25, 2026, including why everyone hates Luce, how to monetize AI answers, and social mobility in China.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
+      "title": "An Interview with Eric Seufert About Models and Ads, and AI’s Upside for Humanity",
+      "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-28T10:00:00+00:00",
+      "summary": "An Interview with Eric Seufert about building models for generative AI, why Meta's foundational models are so important, and why understanding advertising leads to optimism about humanity's future.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
+      "title": "The SpaceX IPO and Data Centers in Space",
+      "url": "https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-27T10:00:00+00:00",
+      "summary": "There isn't a financial model that justifies the SpaceX IPO, but data centers in space are plausible, and that might be enough.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+      "title": "Nvidia Earnings, The AI Stack, Nvidia’s New Reporting",
+      "url": "https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-26T10:00:00+00:00",
+      "summary": "Nvidia is changing its reporting to delineate between hyperscaler sales — where Nvidia is fighting commoditization — and everyone else, where Nvidia runs the whole stack.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/the-data-center-veto/",
+      "title": "2026.21: The Data Center Veto",
+      "url": "https://stratechery.com/2026/the-data-center-veto/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-22T17:12:32+00:00",
+      "summary": "The best Stratechery content from the week of May 18, 2026, including data center discontent, agent economics, and slime mold.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
+      "title": "An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web",
+      "url": "https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-21T10:00:00+00:00",
+      "summary": "An interview with Parallel founder Parag Agarwal about valuing content and incentivizing its creation in a world of agents (plus questions about Twitter).",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
+      "title": "Google I/O, World Models, I/O Spaghetti",
+      "url": "https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-20T10:00:00+00:00",
+      "summary": "Google I/O put AI everywhere, for better and for worse. Meanwhile, is DeepMind aligned with Google's business objectives?",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+      "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
+      "url": "https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-18T10:00:00+00:00",
+      "summary": "There are understandable reasons for people to oppose data centers; the only solution that will work is simply paying them off.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
+      "title": "2026.20: Shifting Alliances in a Changing World",
+      "url": "https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-15T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of May 11, 2026, including a new kind of computing, Elon Musk, and 360 degrees of US-China relations.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/strategy-follows-structure",
+      "title": "Strategy Follows Structure",
+      "url": "https://www.netinterest.co/p/strategy-follows-structure",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T16:47:05+00:00",
+      "summary": "Fidelity, Capital, Vanguard and the Ownership Structures That Made Them",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/griffins-doors",
+      "title": "Griffin’s Doors",
+      "url": "https://www.netinterest.co/p/griffins-doors",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-22T16:22:17+00:00",
+      "summary": "Inside Citadel&#8217;s Talent Machine",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-future-of-ir",
+      "title": "The Future of IR",
+      "url": "https://www.netinterest.co/p/the-future-of-ir",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-15T15:38:49+00:00",
+      "summary": "What the Changing Shape of Markets Means for Investor Relations",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/bye-the-index",
+      "title": "Bye the Index",
+      "url": "https://www.netinterest.co/p/bye-the-index",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-08T16:07:09+00:00",
+      "summary": "How Nasdaq learned to run its flywheel in reverse",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/money-for-nothing",
+      "title": "Money for Nothing",
+      "url": "https://www.netinterest.co/p/money-for-nothing",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-01T16:28:45+00:00",
+      "summary": "The Golden Age of Arbitrage?",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/apple-turnover",
+      "title": "Apple Turnover",
+      "url": "https://www.netinterest.co/p/apple-turnover",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-24T16:38:20+00:00",
+      "summary": "How Tim Cook reshaped payments &#8211; and what he leaves behind",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/defying-the-surveys",
+      "title": "Defying the Surveys",
+      "url": "https://www.netinterest.co/p/defying-the-surveys",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-17T16:54:51+00:00",
+      "summary": "Banks report a resilient quarter &#8211; and a lurking threat",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/shuffling-risk",
+      "title": "Shuffling Risk",
+      "url": "https://www.netinterest.co/p/shuffling-risk",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-04-10T15:10:44+00:00",
+      "summary": "An Asset Class Reborn",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-the-race-to-secure-a-bank",
+      "title": "NEW POD! The Race to Secure a Bank Charter with Adam Shapiro of Klaros Group",
+      "url": "https://www.netinterest.co/p/new-pod-the-race-to-secure-a-bank",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-31T15:45:44+00:00",
+      "summary": "Net Interest Extra ep 21",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/revolut-unbound",
+      "title": "Revolut Unbound",
+      "url": "https://www.netinterest.co/p/revolut-unbound",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-27T16:20:38+00:00",
+      "summary": "The Quest to Build the World&#8217;s First Truly Global Bank",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-underwriters-of-hormuz",
+      "title": "The Underwriters of Hormuz",
+      "url": "https://www.netinterest.co/p/the-underwriters-of-hormuz",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-20T16:23:35+00:00",
+      "summary": "A post on marine insurance &#8211; by popular demand",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-market-intelligence-in-the",
+      "title": "🎙️ Market Intelligence in the Age of AI: An Interview with Morningstar CEO, Kunal Kapoor",
+      "url": "https://www.netinterest.co/p/new-pod-market-intelligence-in-the",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-17T16:30:34+00:00",
+      "summary": "Net Interest Extra ep 20",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/redemption-day",
+      "title": "Redemption Day",
+      "url": "https://www.netinterest.co/p/redemption-day",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-13T18:09:28+00:00",
+      "summary": "When the exit is smaller than the entrance",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/learning-from-lloyd",
+      "title": "Learning from Lloyd",
+      "url": "https://www.netinterest.co/p/learning-from-lloyd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-06T17:42:54+00:00",
+      "summary": "Blankfein, Goldman and the Next Market Reckoning",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-how-credit-markets-shaped",
+      "title": "🎙️ How Credit Markets Shaped a Nation: An Interview with Sarah Quinn",
+      "url": "https://www.netinterest.co/p/new-pod-how-credit-markets-shaped",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-03T16:45:21+00:00",
+      "summary": "Net Interest Extra ep 19",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/two-tribes",
+      "title": "Two Tribes",
+      "url": "https://www.netinterest.co/p/two-tribes",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-27T17:42:58+00:00",
+      "summary": "Private Credit, Public Markets and the AI Reckoning",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/ai-and-i",
+      "title": "AI and I",
+      "url": "https://www.netinterest.co/p/ai-and-i",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-20T17:21:53+00:00",
+      "summary": "Claude Code, Bloomberg and the Battle for Data",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/new-pod-trends-in-us-banks-with-john",
+      "title": "🎙️ Trends in US Banking: An Interview with John McDonald & Brian Foran",
+      "url": "https://www.netinterest.co/p/new-pod-trends-in-us-banks-with-john",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-17T16:45:19+00:00",
+      "summary": "Net Interest Extra ep 18",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-ackman-complex",
+      "title": "The Ackman Complex",
+      "url": "https://www.netinterest.co/p/the-ackman-complex",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-13T17:39:10+00:00",
+      "summary": "Inside Pershing Square&#8217;s Insurance Bet",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/excel-forever",
+      "title": "Excel Forever",
+      "url": "https://www.netinterest.co/p/excel-forever",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-02-06T17:45:41+00:00",
+      "summary": "Claude, Excel and the Future of Market Intelligence",
+      "lang": "en"
+    },
+    {
+      "id": "wscn:3773570",
+      "title": "黄仁勋的“Agent工厂”里，装了什么新故事？",
+      "url": "https://wallstreetcn.com/articles/3773570",
+      "summary": "黄仁勋把叙事重心从“芯片全家桶”转向了“Agent工厂”。随着Vera Rubin量产及DGX Station、DSX等发布，英伟达正围绕智能体重构从芯片、模型到人形机器人的完整技术体系。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T09:35:03+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773571",
+      "title": "美团Q1营收同比增5.6%超预期，环比大幅减亏超百亿｜财报见闻",
+      "url": "https://wallstreetcn.com/articles/3773571",
+      "summary": "美团2026年Q1营收910亿元，经调整净亏损49.7亿元，25年Q4为亏损151亿元。受竞争加剧影响，核心本地商业由盈转亏，营销开支激增51.1%至230亿元。新业务收入增21.3%，亏损收窄。AI投入加码，战略转向生态价值对冲补贴战，环比修复信号显现。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T09:21:03+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773574",
+      "title": "6名中金分析师变身Skill  券商AI竞争再加速",
+      "url": "https://wallstreetcn.com/articles/3773574",
+      "summary": "6月1日，中金点睛宣布新增上线6位分析师Skill，并在Agent模式中开放调用；\n用户完成注册后，...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T09:19:29+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773573",
+      "title": "73天极速！宇树科技IPO过会，A股具身智能第一股呼之欲出！",
+      "url": "https://wallstreetcn.com/articles/3773573",
+      "summary": "按发行比例不低于10%测算，公司整体估值至少达420亿元，业内普遍预期实际市值将远高于此。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T09:15:06+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773569",
+      "title": "黄仁勋的棋局：AI算力的每一条路，都有英伟达在等候",
+      "url": "https://wallstreetcn.com/articles/3773569",
+      "summary": "黄仁勋在中国台北宣布两件事：CUDA首次塞进笔记本，万亿参数推理搬上企业桌面。这不是英伟达在抢云厂商生意，而是把收费口从一个扩成三个——数据中心、背包、桌边，无论AI跑在哪里，英伟达都守在路口等着收钱。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T08:41:33+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773572",
+      "title": "英伟达亮出三张“新王牌”",
+      "url": "https://wallstreetcn.com/articles/3773572",
+      "summary": "英伟达在GTC大会上推出三项重大更新：旗舰AI平台Vera Rubin正式量产，打破延期传闻；推出专为代理式AI设计的Vera CPU，使CPU与GPU销售价值比趋近1:1，直接挑战英特尔与AMD；联合微软发布基于ARM架构的消费级AI PC芯片RTX Spark。花旗视此为积极信号，维持买入评级与300美元目标价。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T08:39:24+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773543",
+      "title": "创业板跌超2%，AI PC、AI应用逆势活跃，算力硬件齐跌，恒科指涨超1%，科网股普涨",
+      "url": "https://wallstreetcn.com/articles/3773543",
+      "summary": "盘面上，个股涨多跌少，沪深京三市超3700股飘红，今日成交2.89万亿。沪深两市成交额2.88万亿，较上一个交易日缩量超4400亿。板块方面，半导体、算力硬件产业链深度回调，GPU、CPO、PCB方向领跌，光刻机、光纤方向跌幅靠前；稀土、商业航天、创新药概念股走弱。煤炭、电力、传媒板块走强，AI PC、AI应用题材活跃。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T08:39:20+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773350",
+      "title": "硅基通胀与碳基崩溃：一头灰犀牛正在被养成",
+      "url": "https://wallstreetcn.com/premium/articles/3773350?layout=wscn-layout",
+      "summary": "当灰犀牛冲进交易大厅的时候，市场是否已经做好了准备？",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T08:16:56+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773568",
+      "title": "英特尔押注玻璃基板：印度33亿美元建厂，年产能7万片",
+      "url": "https://wallstreetcn.com/articles/3773568",
+      "summary": "英特尔联手3DGS豪掷33亿美元，在印度奥里萨邦布局玻璃基板工厂，年产能预计达7万片。与此同时，新墨西哥州量产基地亦在筹备中，两地并行提速商业化进程。台积电、三星、SKC同台竞技，玻璃基板正从实验室走向规模化战场，下一代AI芯片封装的材料革命悄然加速。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T08:15:56+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773558",
+      "title": "创历史新高！韩国5月芯片出口372亿美元",
+      "url": "https://wallstreetcn.com/articles/3773558",
+      "summary": "AI芯片需求引爆韩国出口狂潮：5月出口额同比飙升53.2%至875亿美元，创1984年以来最快增速，芯片单月出口首破370亿美元、同比近乎翻三倍，连续三月站稳300亿美元关口。三星、SK Hynix坐享AI基建红利，分析师预计这一强劲势头将贯穿全年。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T08:09:33+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773564",
+      "title": "伊朗战争意外加速全球LNG产能扩张，供应过剩不远了？",
+      "url": "https://wallstreetcn.com/articles/3773564",
+      "summary": "霍尔木兹海峡封锁使全球LNG供应骤减两成、3月亚洲基准价飙升至30美元。但分析指出，因亚洲买家正转往域外寻求能源安全，恐引发北美等地的项目建设热潮；叠加买方转向太阳能和煤炭，中长期反将加速LNG第三波更大规模、更持久的供应过剩。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T08:08:40+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773537",
+      "title": "AI热情主导市场，英伟达盘前涨超2%，软件股大涨，美光股价站上1000美元，油价攀升",
+      "url": "https://wallstreetcn.com/articles/3773537",
+      "summary": "美股盘前存储芯片股走高，美光科技涨超3%，闪迪涨超2%。Arm美股盘前涨超8%。英伟达美股盘前涨超2%。布伦特原油涨破每桶93美元，基准10年期美国国债收益率上涨3个基点至4.47%，美元时隔三个交易日首度走强，黄金下跌0.4%至每盎司约4520美元。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T08:07:28+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773559",
+      "title": "本轮“抱团”行情是否松动？",
+      "url": "https://wallstreetcn.com/articles/3773559",
+      "summary": "5月最后一周，A股风格悄然生变：科技抱团松动，消费白马、地产、煤电集体反弹。成交额前5%个股占全市场近50%，创2021年以来最高；沪深300逾七成成分股跑输指数。中泰证券判断，6月指数仍有冲高可能，却是典型\"鱼尾行情\"：空间越来越小，赚钱效应越来越差。历史上，极致抱团后的低位补涨，往往不是主升中段，而是行情末端的最后一棒。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T07:46:36+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773565",
+      "title": "小鹏集团：2026年5月交付量达32158辆，环比增长4%",
+      "url": "https://wallstreetcn.com/articles/3773565",
+      "summary": "小鹏集团（09868）2026年5月交付数据解读核心数据\n5月交付量：32,158辆，环比增长4%\n...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T07:44:21+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773532",
+      "title": "AI PC海啸引爆周末：英伟达亲自下场！大厂预计重塑万亿PC产业生态！",
+      "url": "https://wallstreetcn.com/premium/articles/3773532?layout=wscn-layout",
+      "summary": "ComputeX 2026大会将成为人类PC产业发展史上的一个分水岭时刻。记住这个时刻。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T07:35:54+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773560",
+      "title": "MiniMax新旗舰M3发布！自己干了12小时复现获奖论文，三条科技树同时点满",
+      "url": "https://wallstreetcn.com/articles/3773560",
+      "summary": "MiniMax在启动科创板IPO辅导后，推出新一代旗舰模型M3，首次同时实现顶尖编程能力、1M超长上下文与原生多模态。M3可独立复现ICLR获奖论文，12小时内跑通核心实验。通过全新稀疏注意力机制与交互式训练框架，其Agent与代码优化能力显著提升。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T07:29:35+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773563",
+      "title": "告别母行依赖，32家理财子全部打通非母行代销渠道",
+      "url": "https://wallstreetcn.com/articles/3773563",
+      "summary": "如今的理财子，已正式进入“全员代销”时代。\n截至5月末，高盛工银理财与兴业银行签署《理财产品代理销售...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T07:29:15+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773562",
+      "title": "调任金监局一把手后，丁向群正式作别人保",
+      "url": "https://wallstreetcn.com/articles/3773562",
+      "summary": "5月31日，中国人保公告，丁向群因工作调动，已辞去公司执行董事、董事长及董事会战略与投资/可持续发展...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T07:28:43+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773561",
+      "title": "英伟达掀桌，Windows 终于迎来真 AI PC",
+      "url": "https://wallstreetcn.com/articles/3773561",
+      "summary": "英伟达在 GTC 2026 上联手微软推出 RTX Spark 处理器，进军AI PC市场。对于想在本地跑 LLM、又需要大内存和较强 AI 算力的人来说，RTX Spark 的出现，可能会成为除 Mac之外的另一个选项。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T07:27:07+00:00",
+      "points": 0
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.30363",
+      "title": "Enhancing Regime Shift Detection Using Unstructured Data: A Study on the Treasury Market",
+      "url": "https://arxiv.org/abs/2605.30363",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Mingxuan Yi, Vidal Mehra, Jing Chen, John Cartlidge",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2605.30363v1 Announce Type: new Abstract: Regime shifts in financial markets reorganise the joint dynamics of asset prices and macro variables, breaking any single-regime calibration. They are nonetheless difficult to detect reliably because the data signal is noisy and heavily multicollinear, while the contemporaneous text that announces them is unstructured. Standard regime shift detection methods rely solely on structured time-series data and ignore policy communications, even though th...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.30435",
+      "title": "Global Science Sustains U.S. Innovation",
+      "url": "https://arxiv.org/abs/2605.30435",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Christopher R. Esposito",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2605.30435v1 Announce Type: new Abstract: Like physical products, new technologies are developed using globally sourced inputs. Yet while the supply chains behind physical goods are well understood, we know far less about the international supply chain of scientific knowledge that powers U.S. innovation, or how vulnerable it may be to disruption. Here, I uncover this supply chain by tracing multi-generational citation paths connecting NSF-funded research to downstream patents, and stress-t...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.30464",
+      "title": "Distributional Portfolio Optimization (DPO): A Unified Framework for Distributions over Weights, Returns, and Parameters",
+      "url": "https://arxiv.org/abs/2605.30464",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Miquel Noguer i Alonso",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2605.30464v1 Announce Type: new Abstract: Classical portfolio optimization treats expected returns, covariances, and allocations as deterministic. Modern practice replaces at least one by a distribution: a posterior over parameters, a law of future returns, a stochastic allocation policy, or a distributional-robustness set. We call distributional portfolio optimization (DPO) the unified framework in which weights, returns, and parameters are all modeled as probability measures, organized a...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.30562",
+      "title": "Option Pricing under Stochastic Volatility and Jumps:A PIDE Framework with Empirical Evidence",
+      "url": "https://arxiv.org/abs/2605.30562",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Abigail Anokyewaa Mensah, Ayush Jha, Hongwei Mei, Rui Wang, Svetlozar T. Rachev, Frank J. Fabozzi",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2605.30562v1 Announce Type: new Abstract: We develop a partial integro-differential equation (PIDE) framework for option pricing under joint stochastic volatility and jump dynamics, and evaluate its empirical content using the S&amp;P500 index option contracts across three maturities. The framework is derived from the infinitesimal generator of an affine L\\'evy-type process and implemented via finite-difference discretization with FFT-based treatment of the nonlocal jump operator. Calibrat...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.30567",
+      "title": "Valuation of GLWB-LTC Annuities with L\\'evy Equity Dynamics, Stochastic Interest Rates and Health-State Transitions",
+      "url": "https://arxiv.org/abs/2605.30567",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Andrea Molent",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2605.30567v1 Announce Type: new Abstract: This paper develops a valuation framework for guaranteed lifetime withdrawal benefit (GLWB) contracts with long-term care (LTC) features when the reference fund follows exponential Levy dynamics and the short rate follows the Hull-White model. The contract combines financial guarantees, longevity protection, health-contingent LTC payments, and surrender optionality, requiring the joint treatment of jump risk, stochastic discounting, and disability ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.30643",
+      "title": "Quality-Adjusted Hit-Ratio Targeting in Corporate Bond Market Making",
+      "url": "https://arxiv.org/abs/2605.30643",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Bouna Niang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2605.30643v1 Announce Type: new Abstract: Hit ratio is a common service metric for electronic corporate bond market making, but raw hit-ratio targets can be economically misleading when client flow has heterogeneous adverse-selection content. This paper extends a stochastic-control framework for OTC bond RFQ market making with hit-ratio constraints by replacing raw hit ratio with a residual-quality-adjusted hit ratio. The key modelling distinction is that adverse post-trade markouts are fi...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.30672",
+      "title": "Residual Supply and the Price of Risk Absorption",
+      "url": "https://arxiv.org/abs/2605.30672",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Ziyao Wang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2605.30672v1 Announce Type: new Abstract: When redeeming open-end funds sell and natural buyers do not step in at once, some limited-capital investor must take the other side and carry the inventory until prices recover. This paper asks what return that investor requires. A continuous-time market-clearing model delivers an expected-return restriction in which the price of residual supply depends on inventory risk, trading costs, funding frictions, and the scarcity of balance sheet availabl...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.30683",
+      "title": "Towards an Ideometrics-Based General Theory of Human Progress",
+      "url": "https://arxiv.org/abs/2605.30683",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Igor Rudan, Steven Kerr",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2605.30683v1 Announce Type: new Abstract: This paper proposes ideometrics as the foundation for a generalised and potentially testable theory of human progress and civilisational progress, thus linking ideometrics to studies in economics and history. Building on prior work that conceptualises the human brain as a sensor of ideas, human progress is understood not primarily through outcomes such as wealth, health, or technological advancement, but through the dynamic process of the \"idea lif...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.30943",
+      "title": "Inspectable Neural Markov Models for Non-Stationary Time Series",
+      "url": "https://arxiv.org/abs/2605.30943",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Jan Rovirosa, Jesse Schmolze",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2605.30943v1 Announce Type: new Abstract: Modeling non-stationary stochastic systems requires balancing the representational capacity of deep learning with the structural transparency of classical probabilistic models. Markov transition matrices provide such a framework, but traditional frequency-based estimation collapses at high resolutions due to data sparsity. We propose a hybrid approach that parameterizes the manifold of stochastic matrices through a neural network, enabling estimati...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.30442",
+      "title": "When market boundaries weaken: Network reconfiguration and regime-dependent cross-asset spillovers",
+      "url": "https://arxiv.org/abs/2605.30442",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Ruixue Jing, Luis Enrique Correa Rocha",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2605.30442v1 Announce Type: cross Abstract: Cryptocurrencies are increasingly adopted as investment assets, making their interactions with traditional financial markets central to cross-asset diversification and systemic risk. This paper studies the integration of cryptocurrencies, fiat currencies, and S&amp;P500 equities using a balanced panel of 381 assets from October 2017 to February 2024. We combine rolling correlation networks, consensus-based community detection, market-specific and...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.30720",
+      "title": "Kalimati Vegetable Price Index Forecasting with a Momentum Corrected Online Stacking Ensemble",
+      "url": "https://arxiv.org/abs/2605.30720",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Sahaj Raj Malla",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2605.30720v1 Announce Type: cross Abstract: Forecasting agricultural commodity prices in emerging economies is difficult due to high volatility, frequent supply disruptions, and strong cultural influences on demand. This study introduces the Kalimati Vegetable Price Index (KVPI), a new inverse-volatility weighted composite index that aggregates 135 daily wholesale commodities from Kathmandu over ten years (2013-2023). By creating a stable macro-level signal, the KVPI reduces the noise inhe...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2503.08503",
+      "title": "Optimal Contract Design with Quadratic Effort Cost",
+      "url": "https://arxiv.org/abs/2503.08503",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Xinfu Chen, Shuaijie Qian, Guan Qiao",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2503.08503v3 Announce Type: replace Abstract: The existence of an optimal contract of the principal-agent problem is a central issue in contract design. According to Cvitani\\'c et al. [2], such an optimal contract can be derived from the existence of a classical solution to the corresponding Hamilton-Jacobi-Bellman (HJB) equation, which is a degenerate, fully nonlinear parabolic equation. In this work, we follow their model, consider the case with drift control, and prove the existence of ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2504.20429",
+      "title": "Estimating the housing production function with unobserved land heterogeneity",
+      "url": "https://arxiv.org/abs/2504.20429",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Yusuke Adachi",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2504.20429v3 Announce Type: replace Abstract: Housing supply in dense cities depends on the ability of builders to substitute capital for scarce land. This margin is difficult to estimate because builders choose capital after observing microgeographic conditions that are only imperfectly observed by researchers. This paper develops a method for estimating revenue-based housing production functions in this setting. Because observed capital variation reflects both technological substitution ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2507.04545",
+      "title": "Measuring Social Media Network Effects",
+      "url": "https://arxiv.org/abs/2507.04545",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Sinan Aral, Seth G Benzell, Avinash Collis, Christos Nicolaides",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2507.04545v2 Announce Type: replace Abstract: Network effects -- the utility gains from additional consumers of a good -- are widely regarded as critical to the digital economy. Yet recent theory and evidence suggest that local network effects -- the economic value created by specific social network connections -- drive value in networked online platforms. Using incentive-compatible online choice experiments with 19,923 Facebook, Instagram, LinkedIn, and X users in the United States, we pr...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2510.15617",
+      "title": "Price Pass-Through of Austria's Single-Use Plastics Producer Charges: Evidence from Retail Offer Spells",
+      "url": "https://arxiv.org/abs/2510.15617",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Felix Reichel",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2510.15617v4 Announce Type: replace Abstract: Single use plastics (SUPs) impose substantial environmental costs. Following Directive (EU) 2019/904, Austria introduced producer charges and mandatory participation in collection and recycling systems. This paper exploits a monthly panel of retail offer spells drawn from a price comparison platform to estimate the extent to which compliance costs pass through to posted online prices in Austria. The treated sample comprises keyword matched SUP ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2601.14150",
+      "title": "Trade relationships during and after a crisis",
+      "url": "https://arxiv.org/abs/2601.14150",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Alejandra Martinez",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2601.14150v3 Announce Type: replace Abstract: This paper provides causal evidence that temporary supply disruptions reshape firms' relationship portfolios in international trade. Using exogenous road disruptions during Colombia's 2010-11 La Ni\\~na episode, I identify exposure at the buyer-seller relationship level, exploiting variation within importers' supplier portfolios. Exposed relationships are less likely to terminate when importers have alternative non-exposed suppliers. However, fi...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2603.29317",
+      "title": "Should I State or Should I Show? Aligning AI with Human Preferences",
+      "url": "https://arxiv.org/abs/2603.29317",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Keaton Ellis, Wanying Huang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2603.29317v2 Announce Type: replace Abstract: As AI agents become more autonomous, properly aligning their objectives with human preferences becomes increasingly important. We study how effectively an AI agent learns a human principal's preference in choice under risk via stated versus revealed preferences. We conduct an online experiment in which subjects state their preferences through written instructions (\"prompts\") and reveal them through choices in a series of binary lottery question...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.20636",
+      "title": "Continuous Timing Signals for Growth-Defensive Style Allocation: Factor Attribution, Risk Matching, and Out-of-Sample Evidence",
+      "url": "https://arxiv.org/abs/2605.20636",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Zheli Xiong",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2605.20636v2 Announce Type: replace Abstract: This paper studies conditional allocation between a growth/technology ETF basket, denoted by $G$, and a defensive income/value-oriented ETF basket, denoted by $D$. The objective is not to discover a new standalone alpha factor, but to examine whether known style exposures can be dynamically allocated using macro-market timing signals. Fama-French five-factor plus momentum attribution shows that the relative portfolio $G-D$ is a recognizable sty...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2509.13323",
+      "title": "AI Behavioral Science",
+      "url": "https://arxiv.org/abs/2509.13323",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Matthew O. Jackson, Qiaozhu Me, Stephanie W. Wang, Yutong Xie, Walter Yuan, Seth Benzell, Erik Brynjolfsson, Colin F. Camerer, James Evans, Brian Jabarian, Jon Kleinberg, Juanjuan Meng, Sendhil Mullainathan, Asuman Ozdaglar, Thomas Pfeiffer, Moshe Tennenholtz, Robb Willer, Diyi Yang, Teng Ye",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T04:00:00+00:00",
+      "summary": "arXiv:2509.13323v2 Announce Type: replace-cross Abstract: We outline a foundation for a new field of ``AI Behavioral Science,'' covering three perspectives. First, as AI becomes ubiquitous and is increasingly proprietary and opaque, it becomes vital to develop techniques for assessing AI behavior. We outline how tools developed to assess people's behaviors by social scientists can be used to assess and infer AI's behaviors biases, tendencies, and heuristics. Second, we also discuss how AI can ch...",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48108313",
+      "title": "US inflation jumps to 3.8% as energy costs surge from Iran war",
+      "url": "https://www.bbc.com/news/articles/c202pgxx89lo",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48108313",
+        "name": "tartoran",
+        "hn_url": "https://news.ycombinator.com/item?id=48108313"
+      },
+      "duration_sec": null,
+      "views": 260,
+      "comments": 439,
+      "published_at": "2026-05-12T13:51:36+00:00",
+      "summary": "",
+      "matched_keyword": "inflation",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48198551",
+      "title": "Tesla's lithium refinery discharges 231,000 gallons of polluted wastewater a day",
+      "url": "https://www.autonocion.com/us/tesla-lithium-refinery-texas/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48198551",
+        "name": "atombender",
+        "hn_url": "https://news.ycombinator.com/item?id=48198551"
+      },
+      "duration_sec": null,
+      "views": 498,
+      "comments": 244,
+      "published_at": "2026-05-19T19:52:49+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48221518",
+      "title": "Tesla Cybertruck driver arrested after driving into lake to use 'wade mode'",
+      "url": "https://www.bbc.co.uk/news/articles/c072x1kml44o",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48221518",
+        "name": "LaSombra",
+        "hn_url": "https://news.ycombinator.com/item?id=48221518"
+      },
+      "duration_sec": null,
+      "views": 35,
+      "comments": 9,
+      "published_at": "2026-05-21T12:24:58+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48338988",
+      "title": "Driver, 87, dies after Tesla on Autopilot mode crashes into pond",
+      "url": "https://www.usatoday.com/story/news/nation/2026/05/29/tesla-on-autopilot-mode-crashes-into-pond-87-year-old-driver-dies/90319482007/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48338988",
+        "name": "thinkcontext",
+        "hn_url": "https://news.ycombinator.com/item?id=48338988"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 8,
+      "published_at": "2026-05-30T17:59:59+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48333813",
+      "title": "Tesla Self-Certifies Level 4 Autonomous Vehicles in Texas",
+      "url": "https://www.notateslaapp.com/news/4216/tesla-self-certifies-l4-autonomy-in-texas",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48333813",
+        "name": "frankacter",
+        "hn_url": "https://news.ycombinator.com/item?id=48333813"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 7,
+      "published_at": "2026-05-30T07:58:30+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48307404",
+      "title": "Why Tesla's AI trainers don't trust its self-driving tech – or its safety stats",
+      "url": "https://www.reuters.com/investigations/why-teslas-ai-trainers-dont-trust-its-self-driving-tech-or-its-safety-stats-2026-05-28/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48307404",
+        "name": "puzzlingcaptcha",
+        "hn_url": "https://news.ycombinator.com/item?id=48307404"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 1,
+      "published_at": "2026-05-28T11:21:18+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48341005",
+      "title": "Tesla's 'Full Self-Driving' fraud lawsuit gets first hearing in China",
+      "url": "https://electrek.co/2026/05/30/tesla-fsd-china-lawsuit-first-hearing-10-owners/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48341005",
+        "name": "breve",
+        "hn_url": "https://news.ycombinator.com/item?id=48341005"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 0,
+      "published_at": "2026-05-30T21:58:52+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48271942",
+      "title": "Show HN: Fungible – A local personal finance app in the terminal",
+      "url": "https://github.com/tomfunk/fungible",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48271942",
+        "name": "tomfunk",
+        "hn_url": "https://news.ycombinator.com/item?id=48271942"
+      },
+      "duration_sec": null,
+      "views": 30,
+      "comments": 15,
+      "published_at": "2026-05-25T21:35:51+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48023533",
+      "title": "Agents for financial services and insurance",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48023533",
+        "name": "louiereederson",
+        "hn_url": "https://news.ycombinator.com/item?id=48023533"
+      },
+      "duration_sec": null,
+      "views": 257,
+      "comments": 192,
+      "published_at": "2026-05-05T15:05:47+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48100152",
+      "title": "590k buyers paid $59M for Trump's gold phone, but not one has shipped",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/590-000-buyers-paid-59-223500998.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48100152",
+        "name": "surprisetalk",
+        "hn_url": "https://news.ycombinator.com/item?id=48100152"
+      },
+      "duration_sec": null,
+      "views": 162,
+      "comments": 112,
+      "published_at": "2026-05-11T20:19:38+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48007503",
+      "title": "Why Almost Everyone Loses–Except a Few Sharks–On Prediction Markets",
+      "url": "https://www.wsj.com/finance/investing/polymarket-kalshi-betting-profits-prediction-markets-eb23ac11",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48007503",
+        "name": "JumpCrisscross",
+        "hn_url": "https://news.ycombinator.com/item?id=48007503"
+      },
+      "duration_sec": null,
+      "views": 104,
+      "comments": 99,
+      "published_at": "2026-05-04T11:49:16+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48055238",
+      "title": "Cloudflare lays off 1,100 employees (~20% of workforce)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-announces-first-quarter-2026-201500778.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48055238",
+        "name": "gcr",
+        "hn_url": "https://news.ycombinator.com/item?id=48055238"
+      },
+      "duration_sec": null,
+      "views": 83,
+      "comments": 2,
+      "published_at": "2026-05-07T21:22:02+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48317563",
+      "title": "Microsoft data suggests using AI is more expensive than hiring people",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/microsoft-data-suggests-using-ai-225900743.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48317563",
+        "name": "voxadam",
+        "hn_url": "https://news.ycombinator.com/item?id=48317563"
+      },
+      "duration_sec": null,
+      "views": 68,
+      "comments": 14,
+      "published_at": "2026-05-29T00:49:05+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48210413",
+      "title": "Standard Chartered CEO walks back comment about 'lower-value human capital'",
+      "url": "https://www.wsj.com/finance/banking/ceo-walks-back-comment-about-replacing-lower-value-human-capital-with-ai-15bdfc5c",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48210413",
+        "name": "Brajeshwar",
+        "hn_url": "https://news.ycombinator.com/item?id=48210413"
+      },
+      "duration_sec": null,
+      "views": 57,
+      "comments": 80,
+      "published_at": "2026-05-20T16:38:10+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48040639",
+      "title": "Google to sell TPU chips to select customers",
+      "url": "https://finance.yahoo.com/markets/stocks/article/google-to-sell-tpu-chips-to-select-customers-in-latest-shot-at-nvidia-214900221.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48040639",
+        "name": "gmays",
+        "hn_url": "https://news.ycombinator.com/item?id=48040639"
+      },
+      "duration_sec": null,
+      "views": 28,
+      "comments": 7,
+      "published_at": "2026-05-06T19:34:54+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48271001",
+      "title": "Stablecoins Are Private Money. That's Why They're a Risk to the Economy",
+      "url": "https://www.wsj.com/finance/currencies/stablecoins-are-private-money-thats-why-theyre-a-risk-to-the-economy-d3498171",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48271001",
+        "name": "JumpCrisscross",
+        "hn_url": "https://news.ycombinator.com/item?id=48271001"
+      },
+      "duration_sec": null,
+      "views": 27,
+      "comments": 6,
+      "published_at": "2026-05-25T20:02:09+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48327518",
+      "title": "Americans Are Falling Behind on Their $1.25T Credit-Card Bill",
+      "url": "https://www.wsj.com/personal-finance/credit/us-credit-card-debt-af5c7c77",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48327518",
+        "name": "tcp_handshaker",
+        "hn_url": "https://news.ycombinator.com/item?id=48327518"
+      },
+      "duration_sec": null,
+      "views": 26,
+      "comments": 12,
+      "published_at": "2026-05-29T18:41:44+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48349067",
+      "title": "Nearly Half of Home Insurance Claims Result in Zero Payout",
+      "url": "https://www.wsj.com/finance/the-home-insurance-coin-flip-nearly-half-of-claims-result-in-zero-payout-4b49acaf",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48349067",
+        "name": "bookofjoe",
+        "hn_url": "https://news.ycombinator.com/item?id=48349067"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 2,
+      "published_at": "2026-05-31T19:45:54+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48284628",
+      "title": "Trump's 25% cut on Nvidia chips to China backfired as Beijing blocks H200 sales",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trumps-25-cut-nvidia-chips-194500691.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48284628",
+        "name": "frasermarlow",
+        "hn_url": "https://news.ycombinator.com/item?id=48284628"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 0,
+      "published_at": "2026-05-26T19:21:02+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48060663",
+      "title": "Salary isn't everything: Why flexibility to work remotely is the future of work",
+      "url": "https://thehill.com/opinion/finance/5859902-hybrid-work-performance-retention/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48060663",
+        "name": "robtherobber",
+        "hn_url": "https://news.ycombinator.com/item?id=48060663"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 1,
+      "published_at": "2026-05-08T09:20:40+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48330421",
+      "title": "The record divide between corporate profits and worker pay",
+      "url": "https://www.wsj.com/finance/stocks/the-record-divide-between-corporate-profits-and-worker-pay-ea4c75bc",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48330421",
+        "name": "hhs",
+        "hn_url": "https://news.ycombinator.com/item?id=48330421"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 0,
+      "published_at": "2026-05-29T22:55:36+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48115538",
+      "title": "America is experiencing a productivity miracle",
+      "url": "https://www.economist.com/finance-and-economics/2026/05/11/america-is-experiencing-a-productivity-miracle",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48115538",
+        "name": "mackmcconnell",
+        "hn_url": "https://news.ycombinator.com/item?id=48115538"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 5,
+      "published_at": "2026-05-12T22:39:47+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48104043",
+      "title": "Arcadia, CA, Mayor Federally Charged with Acting as Illegal Agent of PRC, Pleads",
+      "url": "https://www.justice.gov/usao-cdca/pr/arcadia-mayor-federally-charged-acting-illegal-agent-peoples-republic-china",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48104043",
+        "name": "737min",
+        "hn_url": "https://news.ycombinator.com/item?id=48104043"
+      },
+      "duration_sec": null,
+      "views": 37,
+      "comments": 23,
+      "published_at": "2026-05-12T03:59:41+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48033721",
+      "title": "Fedora is now the default Linux recommendation, and Ubuntu did this to itself",
+      "url": "https://www.xda-developers.com/fedora-becoming-default-linux-recommendation-ubuntu-fault/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48033721",
+        "name": "bundie",
+        "hn_url": "https://news.ycombinator.com/item?id=48033721"
+      },
+      "duration_sec": null,
+      "views": 33,
+      "comments": 63,
+      "published_at": "2026-05-06T08:27:54+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:47992303",
+      "title": "Wyoming celebrates 'nuclear Renaissance' as feds approve license for a reactor",
+      "url": "https://text.npr.org/nx-s1-5798892",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "47992303",
+        "name": "mooreds",
+        "hn_url": "https://news.ycombinator.com/item?id=47992303"
+      },
+      "duration_sec": null,
+      "views": 33,
+      "comments": 5,
+      "published_at": "2026-05-03T01:18:01+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48004992",
+      "title": "Feds Fine Durham Energy Efficiency Co $722M",
+      "url": "https://www.theassemblync.com/news/business/american-efficient-ferc-durham-fine/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48004992",
+        "name": "ChuckMcM",
+        "hn_url": "https://news.ycombinator.com/item?id=48004992"
+      },
+      "duration_sec": null,
+      "views": 31,
+      "comments": 17,
+      "published_at": "2026-05-04T05:32:21+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48328797",
+      "title": "Federal judge orders Trump's name be removed from Kennedy Center",
+      "url": "https://www.msn.com/en-us/news/politics/federal-judge-orders-trump-s-name-be-removed-from-kennedy-center/ar-AA24neRw",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48328797",
+        "name": "petethomas",
+        "hn_url": "https://news.ycombinator.com/item?id=48328797"
+      },
+      "duration_sec": null,
+      "views": 27,
+      "comments": 1,
+      "published_at": "2026-05-29T20:29:30+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48229518",
+      "title": "Show HN: Smithereen – an early-Facebook-style Fediverse server",
+      "url": "https://smithereen.software",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48229518",
+        "name": "grishka",
+        "hn_url": "https://news.ycombinator.com/item?id=48229518"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 3,
+      "published_at": "2026-05-21T22:18:25+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48088151",
+      "title": "Maryland citizens hit with $2B power grid upgrade for out-of-state AI",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48088151",
+        "name": "lemonberry",
+        "hn_url": "https://news.ycombinator.com/item?id=48088151"
+      },
+      "duration_sec": null,
+      "views": 319,
+      "comments": 201,
+      "published_at": "2026-05-10T21:16:58+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48206387",
+      "title": "The quadratic sandwich",
+      "url": "https://fedemagnani.github.io/math/2026/04/08/the-quadratic-sandwich.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48206387",
+        "name": "cpp_frog",
+        "hn_url": "https://news.ycombinator.com/item?id=48206387"
+      },
+      "duration_sec": null,
+      "views": 147,
+      "comments": 15,
+      "published_at": "2026-05-20T12:06:56+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:47987931",
+      "title": "Modern C++ Programming: Busato",
+      "url": "https://github.com/federico-busato/Modern-CPP-Programming",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "47987931",
+        "name": "KnuthIsGod",
+        "hn_url": "https://news.ycombinator.com/item?id=47987931"
+      },
+      "duration_sec": null,
+      "views": 102,
+      "comments": 27,
+      "published_at": "2026-05-02T16:40:29+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48319968",
+      "title": "Undisclosed addition in jqwik instructed AI coding agents to delete app output",
+      "url": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48319968",
+        "name": "joozio",
+        "hn_url": "https://news.ycombinator.com/item?id=48319968"
+      },
+      "duration_sec": null,
+      "views": 63,
+      "comments": 1,
+      "published_at": "2026-05-29T07:05:31+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48199462",
+      "title": "Invisible_playwright: Stealth Firefox that passes every bot detection test",
+      "url": "https://github.com/feder-cr/invisible_playwright",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48199462",
+        "name": "thunderbong",
+        "hn_url": "https://news.ycombinator.com/item?id=48199462"
+      },
+      "duration_sec": null,
+      "views": 20,
+      "comments": 1,
+      "published_at": "2026-05-19T20:51:59+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    }
+  ]
+}
