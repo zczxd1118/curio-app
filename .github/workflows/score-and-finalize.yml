@@ -75,24 +75,17 @@ jobs:
             fi
           fi
 
-      - name: Check scoring mode (local / api / off)
+      - name: Check scoring mode (公开端点)
         if: env.skip != '1'
-        env:
-          CURIO_ADMIN_TOKEN: ${{ secrets.CURIO_ADMIN_TOKEN }}
         run: |
-          mode=$(curl -sf -H "Authorization: Bearer $CURIO_ADMIN_TOKEN" \
-            https://api.curioradar.fun/admin/llm-config | python -c "
+          mode=$(curl -sf https://api.curioradar.fun/scoring-mode | python -c "
           import sys, json
-          try:
-              d = json.load(sys.stdin)
-              print(d.get('scoring_mode', 'local'))
-          except Exception:
-              print('local')
+          try: print(json.load(sys.stdin).get('scoring_mode','local'))
+          except: print('local')
           ")
           echo "scoring_mode=$mode"
           if [ "$mode" != "api" ]; then
             echo "⏭ scoring_mode='$mode'（不是 api），跳过本轮 CI 评分。"
-            echo "请去 https://curioradar.fun → ⚙️设置 把模式切换到 'API（无人值守）'。"
             echo "skip=1" >> $GITHUB_ENV
           fi
 

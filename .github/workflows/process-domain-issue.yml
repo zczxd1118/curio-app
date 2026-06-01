@@ -62,23 +62,61 @@ jobs:
             git push
           fi
 
-      - name: Trigger fetch-candidates immediately
+      - name: Check scoring mode
+        id: addmode
+        run: |
+          mode=$(curl -sf https://api.curioradar.fun/scoring-mode | python -c "
+          import sys, json
+          try:
+              d = json.load(sys.stdin); print(d.get('scoring_mode','local'))
+          except: print('local')
+          ")
+          echo "mode=$mode" >> $GITHUB_OUTPUT
+
+      - name: Trigger fetch + score-and-finalize (api 模式：5-10 分钟生效)
+        if: steps.addmode.outputs.mode == 'api'
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then echo "⚠ GH_PAT 未配，无法触发 fetch+score"; exit 0; fi
+          echo "🔄 触发 fetch-candidates..."
+          gh workflow run fetch-candidates.yml -f reason="add-domain #${{ github.event.issue.number }} (api)"
+          sleep 8
+          run_id=$(gh run list --workflow=fetch-candidates.yml --limit 1 --json databaseId --jq '.[0].databaseId')
+          gh run watch $run_id --exit-status || true
+          echo "⚡ 触发 score-and-finalize..."
+          gh workflow run score-and-finalize.yml -f cadence=daily
+
+      - name: Trigger fetch only (local/off 模式)
+        if: steps.addmode.outputs.mode != 'api'
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -n "$GH_TOKEN" ]; then
+            gh workflow run fetch-candidates.yml -f reason="add-domain #${{ github.event.issue.number }} (${{ steps.addmode.outputs.mode }})"
+          fi
+
+      - name: Comment on issue (按 mode)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh workflow run fetch-candidates.yml -f reason="add-domain #${{ github.event.issue.number }}"
+          if [ "${{ steps.addmode.outputs.mode }}" = "api" ]; then
+            BODY="✅ 领域已加入 sources.yaml + CI 已自动串联（fetch → score → finalize）
 
-      - name: Comment on issue
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh issue comment ${{ github.event.issue.number }} --body "✅ 领域已加入 sources.yaml + 触发候选池抓取。
+          **预计 5-10 分钟内主页出现新 chip + 邮箱收到内容**。
 
-          - 抓取约 2 分钟完成
-          - 然后等 score-and-finalize（API 模式）或 hourly automation（本地模式）跑一轮 → 主页 chip 出现
-          - **预计 5-65 分钟生效**（取决于评分模式）
+          全程在 GitHub Actions 跑，电脑可关机。"
+          else
+            BODY="✅ 领域已加入 sources.yaml + 触发候选池抓取（约 2 分钟）。
 
-          想立即看？等 2 分钟后回主页点该域的「⚡ 立即生成」按钮。"
+          ⚠ 当前评分模式：\`${{ steps.addmode.outputs.mode }}\`，**评分需要本地 WorkBuddy 跑**：
+          - 必须电脑开机 + WorkBuddy 在跑
+          - 等下个整点 hourly automation 触发评分 → finalize → 邮件
+          - **预计 5-65 分钟生效**
+
+          想 5 分钟生效：去 ⚙️ 设置 切到「API（无人值守）」。"
+          fi
+          gh issue comment ${{ github.event.issue.number }} --body "$BODY"
 
   ingest-delete-domain:
     if: |
@@ -197,13 +235,10 @@ jobs:
             git push
           fi
 
-      - name: Check scoring mode
+      - name: Check scoring mode (公开端点，不需 secret)
         id: mode
-        env:
-          CURIO_ADMIN_TOKEN: ${{ secrets.CURIO_ADMIN_TOKEN }}
         run: |
-          mode=$(curl -sf -H "Authorization: Bearer $CURIO_ADMIN_TOKEN" \
-            https://api.curioradar.fun/admin/llm-config | python -c "
+          mode=$(curl -sf https://api.curioradar.fun/scoring-mode | python -c "
           import sys, json
           try:
               d = json.load(sys.stdin)
@@ -217,28 +252,32 @@ jobs:
       - name: Trigger fetch-candidates → wait → score-and-finalize (api mode)
         if: steps.mode.outputs.mode == 'api'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 必须用 GH_PAT（用户配的 PAT），默认 GITHUB_TOKEN 不能触发其他 workflow（403）
+          GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          # 1. 触发抓取并等它跑完
+          if [ -z "$GH_TOKEN" ]; then
+            echo "❌ GH_PAT secret 未配置！请在 repo settings 加 GH_PAT。"
+            exit 1
+          fi
           echo "🔄 触发 fetch-candidates..."
           gh workflow run fetch-candidates.yml -f reason="generate #${{ github.event.issue.number }} (mode=api)"
-          # 等 5 秒让 run 入队
-          sleep 5
-          # 拿到最新 run id 并轮询
+          sleep 8
           run_id=$(gh run list --workflow=fetch-candidates.yml --limit 1 --json databaseId --jq '.[0].databaseId')
           echo "fetch run_id=$run_id"
-          # 等 fetch 跑完（最多 5 分钟）
           gh run watch $run_id --exit-status || true
-          # 2. 触发 score-and-finalize
           echo "⚡ 触发 score-and-finalize..."
           gh workflow run score-and-finalize.yml -f cadence=daily
 
       - name: Trigger fetch only (local/off mode)
         if: steps.mode.outputs.mode != 'api'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          gh workflow run fetch-candidates.yml -f reason="generate #${{ github.event.issue.number }} (mode=${{ steps.mode.outputs.mode }})"
+          if [ -n "$GH_TOKEN" ]; then
+            gh workflow run fetch-candidates.yml -f reason="generate #${{ github.event.issue.number }} (mode=${{ steps.mode.outputs.mode }})"
+          else
+            echo "⚠ GH_PAT 未配，跳过 fetch 触发"
+          fi
 
       - name: Comment on issue
         env:
