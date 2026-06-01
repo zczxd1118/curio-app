@@ -571,6 +571,25 @@ async function handleLLMTest(req, env) {
   }
 }
 
+// 管理员看订阅状态（只回非敏感字段）
+async function handleAdminSubs(req, env) {
+  if (!isAdminAuthed(req, env)) return errorJson("unauthorized", 401);
+  const list = await env.CURIO_KV.list({ prefix: "subscriber:" });
+  const out = [];
+  for (const k of list.keys) {
+    const sub = await env.CURIO_KV.get(k.name, "json");
+    if (!sub) continue;
+    out.push({
+      email: sub.email,
+      domains: sub.domains,
+      cadence: sub.cadence,
+      created_at: sub.created_at,
+      updated_at: sub.updated_at,
+    });
+  }
+  return json({ ok: true, count: out.length, subscribers: out });
+}
+
 // 给 CI（GitHub Actions）拉完整 LLM 配置用：用 ADMIN_TOKEN 鉴权
 async function handleAdminLLMConfig(req, env) {
   if (!isAdminAuthed(req, env)) return errorJson("unauthorized", 401);
@@ -730,6 +749,9 @@ export default {
         return json({ ok: true, scoring_mode: mode });
       }
       // BYOK · CI 拉完整配置（用 ADMIN_TOKEN）
+      if (url.pathname === "/admin/subs" && req.method === "GET") {
+        return handleAdminSubs(req, env);
+      }
       if (url.pathname === "/admin/llm-config" && req.method === "GET") {
         return handleAdminLLMConfig(req, env);
       }

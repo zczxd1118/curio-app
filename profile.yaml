@@ -52,9 +52,11 @@ feedback_timeline:
 auto_updated_from_feedback: false
 
 # 邮件推送配置（D 阶段）
-# 每周一 automation 跑完 finalize 后会调用 agent.notify_email
+# notify_email 是"作者自己的全景日报"（发所有 6 域），与 worker broadcast 订阅邮件（按用户订阅域过滤）独立
+# 关闭原因：作者已通过订阅 ai/bigtech/tech-chip 收到 broadcast 邮件，notify_email 6 域自通知冗余且让用户困惑
+# 若要重新启用：把 enabled 改回 true（自通知发到下面的 to）
 email:
-  enabled: true
+  enabled: false
   to: 170665060@qq.com
   user: 170665060@qq.com   # SMTP 登录用户名（QQ 邮箱即邮箱地址）
   from_name: Curio Bot
