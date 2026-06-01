@@ -129,48 +129,15 @@
 ```json
 [
   {
-    "id": "bvid:BV1NvRyBzEhq",
+    "id": "bvid:BV1cwVG6qEEW",
     "domain": "AI",
-    "title": "全网最全！60分钟全面掌握Claude Code～【附完整文档】",
-    "url": "http://www.bilibili.com/video/av116522328524431",
-    "source": "秋芝2046",
+    "title": "【硬核教程】如何让一个J人红温？只需要给他做这份“发疯版NBTI”...",
+    "url": "http://www.bilibili.com/video/av116662737048980",
+    "source": "GenJi是真想教会你",
     "platform": "bilibili",
-    "points": 948689,
-    "published_at": "2026-05-05T14:08:25+00:00",
-    "summary": "Claude Code保姆级教学【收藏起来不会错！】\n从上手安装，到高级用法，这期一次讲全～\n花了三周做教程，希望能帮到你嘻嘻，感谢朋友们的三连+关注啦～"
-  },
-  {
-    "id": "bvid:BV1KjoxBoEQJ",
-    "domain": "AI",
-    "title": "9分钟搞定！Claude Code 保姆级安装+原理+真实用法（国内直连）",
-    "url": "http://www.bilibili.com/video/av116447535765612",
-    "source": "人工大黑",
-    "platform": "bilibili",
-    "points": 859213,
-    "published_at": "2026-04-22T09:02:25+00:00",
-    "summary": "本期视频因为白菜要毕业了，up伤心过度导致了拖更（）"
-  },
-  {
-    "id": "bvid:BV1WBG9zgECp",
-    "domain": "AI",
-    "title": "史上最强 AI 编程工具免费啦！Cursor 保姆级使用教程！新手友好！看到就是赚到！｜ 集成 MCP ！",
-    "url": "http://www.bilibili.com/video/av114426116120045",
-    "source": "AfterShip",
-    "platform": "bilibili",
-    "points": 659982,
-    "published_at": "2025-05-01T04:00:00+00:00",
-    "summary": "相信你已经在网上刷到过不少的 AI 工具，但如果你让我推荐最值得我们每个人学习的一款 AI 工具，那绝对就是史上最强的 AI 编程工具 —— Cursor。为此，我们录制了一个保姆级的 Cursor 新手教程，在这里免费分享给大家。即使你是一个对 AI 完全 0 基础的新手小白，看完这个视频后，你也可以彻底了解 Cursor 这个软件，并知道如何从 0 到 1 用 Cursor 做出入门级的 AI"
-  },
-  {
-    "id": "bvid:BV1aDMezREUj",
-    "domain": "AI",
-    "title": "Cursor使用教程，2小时玩转cursor，cursor无限续杯",
-    "url": "http://www.bilibili.com/video/av114691716154833",
-    "source": "尚硅谷",
-    "platform": "bilibili",
-    "points": 565191,
-    "published_at": "2025-06-17T02:00:54+00:00",
-    "summary": "【配套资料】关注公众号：尚硅谷教育，回复“大模型”免费获取\n【课程简介】从Cursor下载安装、账号配置（含 “无限续杯” 技巧）到三大核心功能拆解：智能Tab、指令交互 Chat、Ctrl+K 智能内联修改"
+    "points": 641772,
+    "published_at": "2026-05-30T10:00:00+00:00",
+    "summary": "NBTI测试链接：https://www.starkawaii.top/\n\n还在因为MBTI不是J人被面试官拒绝？别再掉进这个当代职场大坑了！\n本期视频，我用 Claude Code手搓了一个专属打工人的“NBTI”发疯测试！同时找来三位不同岗位的小伙伴，记录他们一周的工作实况，来验证测验的准确性。\n还有满满干货，三个步骤沉浸式拆解Vibe Coding全流程，视频同款测试链接+网页搭建详细教程已"
   },
   {
     "id": "bvid:BV11NNAz5EKn",
@@ -179,53 +146,9 @@
     "url": "http://www.bilibili.com/video/av116187623069851",
     "source": "AI-智能体搭建教程",
     "platform": "bilibili",
-    "points": 560941,
+    "points": 561055,
     "published_at": "2026-03-07T11:28:39+00:00",
     "summary": "【2026最新】B站最全最细的AI Agent智能体搭建教程，从入门到实战！手把手教你快速打造自己的专属智能体，一次性搞懂AI大模型智能体开发，学完薪资翻倍！"
-  },
-  {
-    "id": "bvid:BV1AnQNYxEsy",
-    "domain": "AI",
-    "title": "MCP是啥？技术原理是什么？一个视频搞懂MCP的一切。Windows系统配置MCP，Cursor Cline使用MCP",
-    "url": "http://www.bilibili.com/video/av114155298228756",
-    "source": "技术爬爬虾",
-    "platform": "bilibili",
-    "points": 412173,
-    "published_at": "2025-03-13T13:18:09+00:00",
-    "summary": "MCP是近期的AI领域的热点，特别是在海外社区获得热烈讨论，每天都有大量MCP工具诞生。本期视频我们从MCP的概念，技术原理，到多场景实战，一个视频看懂MCP的全部内容。\n\n\nMCP官方开源仓库：https://github.com/modelcontextprotocol/servers\nMCP合集网站：  https://smithery.ai/\nVscode下载：https://code.v"
-  },
-  {
-    "id": "bvid:BV1nkXkYfEfF",
-    "domain": "AI",
-    "title": "零基础也能用AI编程!豆包电脑版让你3分钟做出实用工具",
-    "url": "http://www.bilibili.com/video/av114200730933577",
-    "source": "花叔v",
-    "platform": "bilibili",
-    "points": 382812,
-    "published_at": "2025-03-22T04:02:08+00:00",
-    "summary": "很多人都想学编程,但被高门槛劝退。本期给大家介绍一款零门槛的AI编程工具-豆包电脑版。通过3个实战案例,带你体验如何用AI轻松实现编程。\n\n豆包电脑版特点:\n- 中文界面,所见即所得\n- 支持html代码预览\n- 支持Python运行\n- 可生成完整项目代码\n- 历史版本管理\n- 代码一键导出\n\n时间戳\n00:00 为什么要学AI编程\n03:19 案例1:图片压缩网站实战\n04:15 案例2:数据"
-  },
-  {
-    "id": "bvid:BV1eK5DzHEWu",
-    "domain": "AI",
-    "title": "MCP实战指南，mcp视频教程，2小时学透mcp",
-    "url": "http://www.bilibili.com/video/av114380213586544",
-    "source": "尚硅谷",
-    "platform": "bilibili",
-    "points": 364762,
-    "published_at": "2025-04-23T02:00:20+00:00",
-    "summary": "【配套资料】关注公众号：尚硅谷教育，回复“大模型”免费获取\n【课程简介】对于程序员，MCP必知必学，Java+SpringAI / LangChain / LangChain4J+MCP，一旦掌握AI智能落地项目，会大大增加在就业市场的竞争力！"
-  },
-  {
-    "id": "bvid:BV1GyGX6TEDi",
-    "domain": "AI",
-    "title": "1个人，如何通过Vibe Coding快速实现变现？",
-    "url": "http://www.bilibili.com/video/av116650858847182",
-    "source": "老麦的工具库",
-    "platform": "bilibili",
-    "points": 316843,
-    "published_at": "2026-05-29T12:00:00+00:00",
-    "summary": ""
   },
   {
     "id": "bvid:BV1cq5q6CEu3",
@@ -234,20 +157,9 @@
     "url": "http://www.bilibili.com/video/av116578532200786",
     "source": "程序员鱼皮",
     "platform": "bilibili",
-    "points": 307964,
+    "points": 308073,
     "published_at": "2026-05-15T12:35:03+00:00",
     "summary": "一口气带你认识 Cursor、Claude Code、Codex、GitHub Copilot、Windsurf、Trae、Kiro、Qoder、CodeBuddy 等 32 个主流的 AI 编程工具的实测表现，帮你快速找到最适合自己的。\n编程学习教程+实战项目+简历模板：codefather.cn\n开源 AI 编程教程：github.com/liyupi/ai-guide\n视频涵盖 Cursor"
-  },
-  {
-    "id": "bvid:BV1wuQEBDEN8",
-    "domain": "AI",
-    "title": "【2026 最新版】｜字节大佬亲授 Claude Code 全栈教程，从入门到精通全覆盖，小白 10 分钟上手，干货无废话，建议收藏！",
-    "url": "http://www.bilibili.com/video/av116408209967652",
-    "source": "跟着李迟学AI",
-    "platform": "bilibili",
-    "points": 237633,
-    "published_at": "2026-04-15T10:23:31+00:00",
-    "summary": "这也是2026B站最新最系统的Claude Code + 自动化工作流教学课程，小白10分钟轻松上手！\n求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~"
   },
   {
     "id": "bvid:BV1AHDuBoE2S",
@@ -256,19 +168,8 @@
     "url": "http://www.bilibili.com/video/av116347090502349",
     "source": "布鲁歇一歇",
     "platform": "bilibili",
-    "points": 229460,
+    "points": 229475,
     "published_at": "2026-04-04T15:19:25+00:00",
-    "summary": ""
-  },
-  {
-    "id": "bvid:BV1qGc7zwEX6",
-    "domain": "AI",
-    "title": "史上最强 AI 编程工具Cursor来啦！Cursor保姆级使用教程！新手友好！看到就是赚到！！！",
-    "url": "http://www.bilibili.com/video/av116061928226926",
-    "source": "知名的阿呆同学",
-    "platform": "bilibili",
-    "points": 220929,
-    "published_at": "2026-02-19T07:34:00+00:00",
     "summary": ""
   },
   {
@@ -278,7 +179,7 @@
     "url": "http://www.bilibili.com/video/av114358956854079",
     "source": "玄离199",
     "platform": "bilibili",
-    "points": 172901,
+    "points": 172906,
     "published_at": "2025-04-18T12:48:54+00:00",
     "summary": "MCPPPPPPPPPPPPPPPPPPPP"
   },
@@ -289,7 +190,7 @@
     "url": "http://www.bilibili.com/video/av116560144369496",
     "source": "双非本想做大模型",
     "platform": "bilibili",
-    "points": 163938,
+    "points": 164054,
     "published_at": "2026-05-12T06:24:19+00:00",
     "summary": "如果视频对你有用的话请 一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！\n【视频配套籽料+问题解答请看”平论区置顶”自取哦】"
   },
@@ -300,7 +201,7 @@
     "url": "http://www.bilibili.com/video/av116154538398331",
     "source": "桥哥聊AI",
     "platform": "bilibili",
-    "points": 149381,
+    "points": 149384,
     "published_at": "2026-03-01T15:14:36+00:00",
     "summary": "1、认识Vibe Coding\n2、入门指南（零基础能学吗？学完后能做什么？）\n3、工具与实践（推荐工具&amp;动手写一个移动端网站）\n4、实操微调（修改页面中图片和文字，有点进阶）\n5、部署云端，让别人看到你的作品"
   },
@@ -311,7 +212,7 @@
     "url": "http://www.bilibili.com/video/av115797133368973",
     "source": "清华姜学长",
     "platform": "bilibili",
-    "points": 140195,
+    "points": 140208,
     "published_at": "2025-12-28T12:36:33+00:00",
     "summary": "-"
   },
@@ -322,31 +223,20 @@
     "url": "http://www.bilibili.com/video/av114630814862349",
     "source": "技术爬爬虾",
     "platform": "bilibili",
-    "points": 140018,
+    "points": 140024,
     "published_at": "2025-06-05T12:44:31+00:00",
     "summary": "UV安装：https://docs.astral.sh/uv/getting-started/installation/\nMCP Github首页：https://github.com/modelcontextprotocol\nMCP Python SKD: https://github.com/modelcontextprotocol/python-sdk\n免费云服务器：https://www."
   },
   {
-    "id": "bvid:BV1QuZAY2EW1",
+    "id": "bvid:BV11urFBrEc4",
     "domain": "AI",
-    "title": "10 分钟！零基础彻底学会 Cursor AI 编程 | Cursor AI 编程｜Cursor 进阶技巧 | Cursor 开发小程序 | 小白 AI 编程",
-    "url": "http://www.bilibili.com/video/av114246079809849",
-    "source": "Geek4Fun",
-    "platform": "bilibili",
-    "points": 91831,
-    "published_at": "2025-03-29T14:02:03+00:00",
-    "summary": "Hello 大家好，不需要懂任何编程知识，也不需要写一行代码，10 分钟让你彻底学会 AI 编程！手把手带你从:\n- 0基础到入门\n- 用户端的选择\n- 开发出一款非常有实用价值的应用\n- 借助 AI 来画设计图！\n- 接入 Deepseek 和把数据存在云服务器\n- 实用的 AI 进阶技巧"
-  },
-  {
-    "id": "bvid:BV1KoGE6cE53",
-    "domain": "AI",
-    "title": "🚀Claude Code重大突破：Workflow功能完整实战教程！ultrawork召唤无数个Agent协同！自动生成JS脚本实现可复用的精准可控工作流",
-    "url": "http://www.bilibili.com/video/av116629702777532",
+    "title": "🚀告别Vibe Coding！用Superpowers让Claude Code写出工程级代码，一次通过零报错！遵循TDD最佳实践！支持Codex",
+    "url": "http://www.bilibili.com/video/av115877227860495",
     "source": "AI超元域",
     "platform": "bilibili",
-    "points": 84512,
-    "published_at": "2026-05-24T13:11:48+00:00",
-    "summary": "视频简介：\n 全球首测！Anthropic未官宣的Claude Code Workflow隐藏功能完整使用指南，三大阶段六种形态精准解析！AI编程进入脚本化新纪元\n\n 本期视频详细演示了Anthropic为Claude Code V2.1.47和V2.1.48秘密新增的颠覆性Workflow功能！这个被官方从Changelog中紧急删除却未从代码中移除的&quot;隐藏神器&quot;，将成为继M"
+    "points": 130212,
+    "published_at": "2026-01-11T15:43:58+00:00",
+    "summary": "🚀开发者必看！Superpowers把专业工程团队方法论固化成Skills，让Claude Code告别越写越乱的困境：规格驱动+代码质量双重保障！AI编程新范式！头脑风暴+计划+执行一条龙自动化\n\n\n🚀🚀🚀 视频简介：\n🎬 本期视频详细演示了开源AI编程工作流系统Superpowers的完整使用方法，并通过开发一款iOS时间线笔记原生应用来实测其效果。\n🔧 核心内容：\nSuperpowers工作"
   },
   {
     "id": "bvid:BV1BvR1BtEFD",
@@ -355,31 +245,9 @@
     "url": "http://www.bilibili.com/video/av116521405780262",
     "source": "大牙大-",
     "platform": "bilibili",
-    "points": 81729,
+    "points": 81789,
     "published_at": "2026-05-05T10:13:18+00:00",
     "summary": "🤔如果你最近也在想一件事：我一个完全不会代码的人，真的可以用 AI 为自己做出一个软件吗？\n🌟我的答案是：当然可以！\n\n📚我把自己这4个月Vibe Coding里最重要的经验，浓缩成了一次完整实操演示。\n不是只告诉你装什么工具，而是直接带你从0到1做出一个真正能运行的软件：怎么提第一次需求，怎么让AI稳定执行，怎么一步一步把项目推进下去。\n\n如果你刚开始对Vibe Coding感兴趣，那这条就是为"
-  },
-  {
-    "id": "bvid:BV1KX9jB8E9M",
-    "domain": "AI",
-    "title": "【2026最新版】目前B站最全最细的 CurSor AI编程零基础全套教程，手把手教你搭建高效Cursor工作流，全程干货无废话！比付费效果强十倍",
-    "url": "http://www.bilibili.com/video/av116328887225403",
-    "source": "AI大模型技术教程",
-    "platform": "bilibili",
-    "points": 69738,
-    "published_at": "2026-04-01T10:12:34+00:00",
-    "summary": "视频配套文档课件笔记代码及AI大模型学习路线图戳这里获取→https://www.bilibili.com/read/cv41777105/?jump_opus=1"
-  },
-  {
-    "id": "bvid:BV1CDVu6TEnv",
-    "domain": "AI",
-    "title": "Vibe coding成瘾。一开始觉得很兴奋，但是玩多了就有一种游戏开挂的感觉。像这个小demo古法编程怎么也要写两天，AI来写15分钟搞定了，一开始挺期待的…",
-    "url": "http://www.bilibili.com/video/av116661831208897",
-    "source": "工科男孙老师",
-    "platform": "bilibili",
-    "points": 61158,
-    "published_at": "2026-05-30T05:23:02+00:00",
-    "summary": "Vibe coding成瘾。一开始觉得很兴奋，但是玩多了就有一种游戏开挂的感觉。像这个小demo古法编程怎么也要写两天，AI来写15分钟搞定了，一开始挺期待的，过去没时间玩的东西现在都能很快搞定，但是做完毫无快感。就像是上班后买了大学时心心念念的psp游戏机，但是再也没有借同学的那种快感了。"
   },
   {
     "id": "bvid:BV12NK1zMESx",
@@ -388,9 +256,20 @@
     "url": "http://www.bilibili.com/video/av114758657246726",
     "source": "AI随风随风",
     "platform": "bilibili",
-    "points": 57498,
+    "points": 57499,
     "published_at": "2025-06-28T02:37:22+00:00",
     "summary": "视频主题&amp;项目背景\n主题： 分享个人如何使用cursor 从0到1开发一个比较大的项目，使用的技术栈是vue+小程序+java\n项目\n一个B2B的订货商城及供应链全流程管理，包含的端有：\n小程序商城端\n供应商端\n仓储物流端\n司机配送端\n销售端\n后台管理系统\n以上小程序端都是使用webview的方式\n核心功能：\n商城的基本功能: 正逆向订单、商品、购物车、优惠券、积分、钱包、充值、工单等\n供"
+  },
+  {
+    "id": "bvid:BV1XdFzz7Ei8",
+    "domain": "AI",
+    "title": "不写代码就能轻松开发应用？Cursor+Gemini 超强指挥官工作法！",
+    "url": "http://www.bilibili.com/video/av116021511853604",
+    "source": "PM刘搞定",
+    "platform": "bilibili",
+    "points": 55722,
+    "published_at": "2026-02-06T03:17:18+00:00",
+    "summary": "如何像传统互联网大厂一样指挥AI干活？本期视频通过一个“个人工作台”的实战项目，拆解了一套利用 LLM (Gemini) 辅助 Cursor 开发的高效工作流。\n\n核心内容：\n角色转换：你不是程序员，你是产品经理（PM）。\n文档驱动：如何用 AI 生成标准的产品文档 (PRD)、UI 文档和技术方案。\n避坑指南：如何防止 Cursor “手搓核弹”或开发中途“失忆”。\n\n实操流程：\nStep 1："
   },
   {
     "id": "bvid:BV1NBV56DEBA",
@@ -399,7 +278,7 @@
     "url": "http://www.bilibili.com/video/av116665119479370",
     "source": "AIwood爱屋研究室",
     "platform": "bilibili",
-    "points": 54111,
+    "points": 54847,
     "published_at": "2026-05-31T01:30:00+00:00",
     "summary": "剧情纯属虚构，如有雷同，算你NB！"
   },
@@ -410,7 +289,7 @@
     "url": "http://www.bilibili.com/video/av116362122894759",
     "source": "李哈利Harry",
     "platform": "bilibili",
-    "points": 50813,
+    "points": 50817,
     "published_at": "2026-04-08T11:00:00+00:00",
     "summary": "🌟 加入AI大师社群并运用AI创业赚钱：https://www.skool.com/aiagent/about?ref=f2b566934c5c4639aaa47ab1fe39310e\n📌 加入我的免费 Skool 社群，获取模板：https://www.skool.com/aiagent8/about?ref=f2b566934c5c4639aaa47ab1fe39310e\n\n🚧 开始使用 n8"
   },
@@ -421,42 +300,9 @@
     "url": "http://www.bilibili.com/video/av114461616643308",
     "source": "直男山禾",
     "platform": "bilibili",
-    "points": 50129,
+    "points": 50130,
     "published_at": "2025-05-06T15:38:52+00:00",
     "summary": "今天聊聊MCP"
-  },
-  {
-    "id": "bvid:BV1ZrXLYyEFx",
-    "domain": "AI",
-    "title": "自己动手写一个MCP Server，你就知道MCP怎么回事了",
-    "url": "http://www.bilibili.com/video/av114183114856586",
-    "source": "AI橙爆了",
-    "platform": "bilibili",
-    "points": 49066,
-    "published_at": "2025-03-18T11:15:52+00:00",
-    "summary": "视频制作不易，请一键三连！私我领取文档源码"
-  },
-  {
-    "id": "bvid:BV1fGFsznEas",
-    "domain": "AI",
-    "title": "vibe coding 10分钟做一个塔罗牌游戏",
-    "url": "http://www.bilibili.com/video/av116029028042969",
-    "source": "鸭鸭摘花",
-    "platform": "bilibili",
-    "points": 44967,
-    "published_at": "2026-02-07T11:20:13+00:00",
-    "summary": "一个简单的教程 一行代码不写 做一个塔罗牌游戏"
-  },
-  {
-    "id": "bvid:BV13K1YBtE6e",
-    "domain": "AI",
-    "title": "【GMM】MCP 使用说明",
-    "url": "http://www.bilibili.com/video/av115485010168640",
-    "source": "3DM小莫",
-    "platform": "bilibili",
-    "points": 35517,
-    "published_at": "2025-11-03T09:19:08+00:00",
-    "summary": "MCP 支持 是 Gloss Mod Manager（GMM ）在 1.62.0 新增的一个功能， 你需要至少更新到 1.62 才能使用此功能；\n\n你可以使用任何支持 MCP 的客户端 和 AI 使用它, 但建议你的 AI 最大 Token 至少有 32K, 否则部分功能可能会受影响。\n\n相关代码已经开源，欢迎参与维护:  https://github.com/GlossMod/Gloss-Mod"
   },
   {
     "id": "bvid:BV1ZD5ezjEGZ",
@@ -465,20 +311,20 @@
     "url": "http://www.bilibili.com/video/av114351574879067",
     "source": "狠活AI科技",
     "platform": "bilibili",
-    "points": 33187,
+    "points": 33194,
     "published_at": "2025-04-17T05:15:27+00:00",
     "summary": "3步将DeepSeek接入Cursor，免费无限制使用Composer Agent、代码补全等AI编程功能，无需魔法无需订阅速度飞快，DeepSeek-V3-0324效果媲美Pro版会员， 还有Claude 3.7、Gemini 2.5 Pro 等顶级模型"
   },
   {
-    "id": "bvid:BV1ap2fBvEt9",
+    "id": "bvid:BV1utE4z9EML",
     "domain": "AI",
-    "title": "如何使用「Operit AI」：你的下一代AI手机助手",
-    "url": "http://www.bilibili.com/video/av115677243447909",
-    "source": "默睦",
+    "title": "自己开发 MCP 服务器，本地大模型调用 MCP",
+    "url": "http://www.bilibili.com/video/av114517669314664",
+    "source": "新建文件夹X",
     "platform": "bilibili",
-    "points": 28702,
-    "published_at": "2025-12-07T08:06:42+00:00",
-    "summary": "下载地址：https://github.com/AAswordman/Operit\n\n相关软件资料下载：https://www.123pan.com/s/IKgAjv-Hinsv.html\n\n官方交流群：458862019"
+    "points": 29472,
+    "published_at": "2025-05-16T13:11:38+00:00",
+    "summary": "完全本地，本地 MCP、本地大语言模型。使用 FastMCP 开发 MCP 服务器、客户端，并使用大语言模型调用 MCP 服务器工具。\n代码：https://github.com/IronSpiderMan/MachineLearningPractice/tree/main/llm_techs/mcp"
   },
   {
     "id": "bvid:BV1e7VA6vEJU",
@@ -487,64 +333,31 @@
     "url": "http://www.bilibili.com/video/av116640356304890",
     "source": "码士集团-马小安",
     "platform": "bilibili",
-    "points": 26178,
+    "points": 26193,
     "published_at": "2026-05-26T10:22:46+00:00",
     "summary": "绝对是B站No.1的Claude Code教程：国内安装+实战开发案例+个人使用心得总结，手把手带你拥抱Vibe Coding！\n配套课件笔记/PPT已备好，另外有需要AI大模型学习路线图+必看书籍（国内外大牛著作）+入门及进阶视频教程+项目实战及源码提供+面试实战场景题移步评论置顶即可~"
   },
   {
-    "id": "bvid:BV116P7zXEkE",
+    "id": "bvid:BV1QzuRz2Epz",
     "domain": "AI",
-    "title": "纯小白教学：用vibecoding做个人网站",
-    "url": "http://www.bilibili.com/video/av116160209093711",
-    "source": "阿囤囤-庞滚滚",
+    "title": "【中文】Cursor AI Unity 教程：新手指南，简单易懂 ｜ Nikhil Malankar",
+    "url": "http://www.bilibili.com/video/av114879017000489",
+    "source": "CursorInsider",
     "platform": "bilibili",
-    "points": 24139,
-    "published_at": "2026-03-02T15:11:36+00:00",
-    "summary": "不需要🪜哦～"
+    "points": 17165,
+    "published_at": "2025-07-19T13:00:00+00:00",
+    "summary": "在本视频中，我将带你逐步完成 Cursor AI 在 Unity 中的完整设置和配置，帮助你利用 AI 驱动的代码辅助功能，加速你的游戏开发流程。无论你是正在构建一个新项目，还是将 AI 集成到现有的 Unity 游戏中，本教程都涵盖了你所需的一切。\n\n🔧 你将学到：\n✔️ 如何在 Unity 中安装和配置 Cursor AI\n✔️ 设置 Cursor AI 扩展以实现无缝开发\n✔️ 使用 AI "
   },
   {
-    "id": "bvid:BV11K9gBqEnW",
+    "id": "bvid:BV1HxDrB5Em2",
     "domain": "AI",
-    "title": "【杀戮尖塔2】AI MOD 配置教程第一期来辣！手把手教你怎么改提示词！以及如何设计自己的爬塔玩法",
-    "url": "http://www.bilibili.com/video/av116341654755924",
-    "source": "分歧点WhatIf",
+    "title": "【B站天花板】全网最细最全的Agent应用开发教程|手把手教你搭建企业级智能体，全程干货无废话，小白直接上手不踩坑,帮你少走 99% 弯路！ LLM|大模型",
+    "url": "http://www.bilibili.com/video/av116367441334742",
+    "source": "AI-Agent开发",
     "platform": "bilibili",
-    "points": 21994,
-    "published_at": "2026-04-03T16:14:43+00:00",
-    "summary": "每个参数都是干什么的，如何修改提示词的教程。\n不知道这是什么？请看合集内的视频~\n我做了一个 AI 的杀戮尖塔2MOD！\n可以和怪物对话，策反怪物，带着怪物爬塔（重写了几乎每一个怪物在友方时候的行为），还能给怪物打防御，带个沙虫全吃了！\n可以和上古之民对话，聊嗨了会给你 1～2 个额外赐福，还能帮你指示为未来\n可以让偷窃草蜢偷队友的 key 卡，想无限？偷了！\n可以和商人讨价还价，甚至白嫖\n多人的"
-  },
-  {
-    "id": "bvid:BV1MxVY6rELF",
-    "domain": "AI",
-    "title": "🚀Opus 4.8 + Dynamic Workflows自动生成Harness指挥上百个subagents并行工作，Claude Code开发效率倍增！",
-    "url": "http://www.bilibili.com/video/av116658005874381",
-    "source": "AI超元域",
-    "platform": "bilibili",
-    "points": 17802,
-    "published_at": "2026-05-29T13:11:34+00:00",
-    "summary": "Opus 4.8 + Dynamic Workflows自动生成Harness指挥上百个subagents并行工作，廉价Haiku+旗舰Opus搭配！Claude Code效率倍增一天干完一个月的活\n\n视频简介：\n\n不用手写Harness了！Anthropic发布Dynamic Workflows功能彻底改写Harness Engineering，AI 编程进入新阶段！！ 直接抹平Harness高"
-  },
-  {
-    "id": "bvid:BV1NYVG6jEKE",
-    "domain": "AI",
-    "title": "Claude Code保姆级在国内从安装到代码实战教程，10分钟入门精通",
-    "url": "http://www.bilibili.com/video/av116662133132089",
-    "source": "字节软件测试",
-    "platform": "bilibili",
-    "points": 14619,
-    "published_at": "2026-05-30T06:39:27+00:00",
-    "summary": "Claude Code保姆级在国内从安装到代码实战教程，10分钟入门精通"
-  },
-  {
-    "id": "bvid:BV1W9cZzxEYs",
-    "domain": "AI",
-    "title": "AI 当助手！Claude 深度协助 UE5 游戏开发全流程",
-    "url": "http://www.bilibili.com/video/av116209752277031",
-    "source": "叁昧火游戏",
-    "platform": "bilibili",
-    "points": 14519,
-    "published_at": "2026-03-11T12:00:00+00:00",
-    "summary": ""
+    "points": 16383,
+    "published_at": "2026-04-08T05:40:05+00:00",
+    "summary": "【B站天花板】全网最细最全的Agent应用开发教程|手把手教你搭建企业级智能体，全程干货无废话，小白直接上手不踩坑,帮你少走 99% 弯路！ LLM|大模型"
   },
   {
     "id": "bvid:BV13gVb6KEEC",
@@ -553,7 +366,7 @@
     "url": "http://www.bilibili.com/video/av116656244261441",
     "source": "Agent智能体搭建-",
     "platform": "bilibili",
-    "points": 13699,
+    "points": 13736,
     "published_at": "2026-05-29T05:45:53+00:00",
     "summary": "【视频配套籽料、学习路线、GitHub项目、实战案例集、电子书+问题解答请看 ”置顶平论” 自取哦】\n本套教程从零开始讲解，手把手教学，包含Python快速入门、AI开发环境搭建及提示词工程、Transformer架构和预训练、SFT、RLHF等一些基础概念、RAG、Agent、Langchain、大模型微调和私有化部署\n无论是新手小白，还是有一定编码经验的选手，皆可学习\n如果视频对你有用的话请 "
   },
@@ -564,7 +377,7 @@
     "url": "http://www.bilibili.com/video/av116454666012312",
     "source": "Simon林_",
     "platform": "bilibili",
-    "points": 13531,
+    "points": 13533,
     "published_at": "2026-04-23T15:18:08+00:00",
     "summary": "Claude Code有2种多Agent模式：多个subagents模式和多个独立agent模式"
   },
@@ -580,15 +393,15 @@
     "summary": "飞书文档：https://sh67ozct1z.feishu.cn/docx/Hn5jd0cE6op1Sux9RrFcl8Npnbd"
   },
   {
-    "id": "bvid:BV1ZHAozLE7b",
+    "id": "bvid:BV1vc7YzkEws",
     "domain": "AI",
-    "title": "【SynthPilot】全网首发！2026年最新基于AI的FPGA开发教程，Agent自主编程/调试全链路闭环，500+工具接入Vivado",
-    "url": "http://www.bilibili.com/video/av116164755790661",
-    "source": "晓川科研站",
+    "title": "小智AI MCP外置视觉系统重磅升级2.0所有设备0成本0改造接入摄像头视觉系统硬件平权，代码开源！人形机器人？语音小盒子？通通给我接入AI小智MCP服务！",
+    "url": "http://www.bilibili.com/video/av114620815642839",
+    "source": "闪猫侠机器人",
     "platform": "bilibili",
-    "points": 12748,
-    "published_at": "2026-03-03T10:26:33+00:00",
-    "summary": "全网首个AI Agent FPGA开发教程。SynthPilot通过MCP协议打通Vivado全链路，AI自主写码、综合、读报告、改Bug、迭代——真正的Agent模式闭环开发。从零开始，带你见证FPGA开发方式的代际变革。\n获取工具:synthpilot.dev\n晓川交流群:1007696121"
+    "points": 13081,
+    "published_at": "2025-06-04T01:09:18+00:00",
+    "summary": "闪猫MCP服务平台：http://mcp.shanmaotech.cn\n官网www.shanmaotech.cn\nQQ技术交流群：795042597"
   },
   {
     "id": "bvid:BV18TZYY8EuJ",
@@ -602,26 +415,37 @@
     "summary": "在这门包含10节课的课程中，我们将带你从概念到代码，全面覆盖构建AI代理的基础知识。在这里找到完整的“AI代理入门”课程及代码示例\nhttps://github.com/microsoft/ai-agents-for-beginners\n\nP01 什么是AI代理\nP02 使用哪种AI代理框架\nP03 如何设计优秀的AI代理\nP04 什么是代理工具使用设计模式\nP05 什么是代理式RAG\nP06 如"
   },
   {
-    "id": "bvid:BV15BGX63E2K",
+    "id": "bvid:BV165dAYxEdD",
     "domain": "AI",
-    "title": "【5.28最新发布】claude桌面版安装教程！一周快速入门claude code保姆级教程！",
-    "url": "http://www.bilibili.com/video/av116651194385987",
-    "source": "是蒜七丫",
+    "title": "只需几行代码用Java写一个MCP服务！从0到1开发MCP服务！",
+    "url": "http://www.bilibili.com/video/av114306863598282",
+    "source": "图灵诸葛官方号",
     "platform": "bilibili",
-    "points": 11376,
-    "published_at": "2026-05-28T08:19:55+00:00",
-    "summary": "求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三连求三"
+    "points": 12171,
+    "published_at": "2025-04-09T07:43:00+00:00",
+    "summary": "制作不易，大家喜欢视频记得点点关注，一键三连呀【点赞、投币、收藏】感谢支持~\r\n本视频配套资料戳这里获取→https://www.bilibili.com/read/cv38661345/\r\n【还可额外领取100w字Java面试宝典】"
   },
   {
-    "id": "bvid:BV1jsV861EVM",
+    "id": "bvid:BV1yT8qzMEbd",
     "domain": "AI",
-    "title": "【2026胎教级】Claude Code全栈教程，从入门到精通，搞定所有开发场景，小白10分钟搞定，全程干货无废话，存下吧，很难找全的！",
-    "url": "http://www.bilibili.com/video/av116657502687649",
-    "source": "程序员黑梦",
+    "title": "基于SpringAI开发Java版mcp服务",
+    "url": "http://www.bilibili.com/video/av114942720148945",
+    "source": "程序员Cafe",
     "platform": "bilibili",
-    "points": 11265,
-    "published_at": "2026-05-29T11:08:50+00:00",
-    "summary": ""
+    "points": 11055,
+    "published_at": "2025-07-30T15:05:27+00:00",
+    "summary": "如何用Java开发一个mcp服务？如何把已有的spingboot微服务改造成mcp服务呢？如何在mcp客户端调用mcp服务？\n今天来一个保姆级教学"
+  },
+  {
+    "id": "bvid:BV1p5X6BSEFR",
+    "domain": "AI",
+    "title": "【AI教程】目前B站最详细的AI Agent智能体搭建全套教程，手把手带你从0到1搭建企业级智能体！全程干货无废话！让你少走99%弯路！AI大模型|LLM",
+    "url": "http://www.bilibili.com/video/av116322142784662",
+    "source": "Agent智能体搭建-",
+    "platform": "bilibili",
+    "points": 10584,
+    "published_at": "2026-03-31T05:39:12+00:00",
+    "summary": "【AI教程】目前B站最详细的AI Agent智能体搭建全套教程，手把手带你从0到1搭建企业级智能体！全程干货无废话！让你少走99%弯路！AI大模型|LLM"
   },
   {
     "id": "bvid:BV1oNVH6xEWS",
@@ -630,20 +454,9 @@
     "url": "http://www.bilibili.com/video/av116667602503393",
     "source": "码士集团-小晨晨晨",
     "platform": "bilibili",
-    "points": 9392,
+    "points": 9397,
     "published_at": "2026-05-31T06:14:34+00:00",
     "summary": ""
-  },
-  {
-    "id": "bvid:BV1uVSUBkEfZ",
-    "domain": "AI",
-    "title": "Microsoft Copilot完整教程(上) 从入门到Agent 一站式掌握AI办公",
-    "url": "http://www.bilibili.com/video/av116351721084069",
-    "source": "星小脉",
-    "platform": "bilibili",
-    "points": 9137,
-    "published_at": "2026-04-05T11:00:20+00:00",
-    "summary": "2026年最全面的Microsoft Copilot教程上半部分。从Copilot首页入门到Agent深度解析，涵盖搜索、资料库、AI视频生成、Copilot Pages、PowerPoint智能幻灯片等全部功能。由培训了6万人的AI顾问Cherie Brock与Sabrina Ramonov联合讲解。"
   },
   {
     "id": "bvid:BV15JdkYxEGg",
@@ -657,26 +470,213 @@
     "summary": "MCP服务网站：https://smithery.ai/\nCherry Studio官方网站：https://cherry-ai.com/"
   },
   {
-    "id": "bvid:BV1bwVp67Ekg",
+    "id": "bvid:BV13sVU6tEtJ",
     "domain": "AI",
-    "title": "【Agent】全B站最全最细的Agent开发教程，2026最新！全程干货，允许白嫖！从入门到企业级实战掌握Agent智能体开发核心内容！学完直接就业！",
-    "url": "http://www.bilibili.com/video/av116651680924759",
-    "source": "AI应用全栈开发",
+    "title": "2026吃透AI Agent智能体全套系统教程，手把手教你从0到1打造企业级AI Agent智能体，学完即可就业！拿走不谢，学不会我退出IT圈！！！",
+    "url": "http://www.bilibili.com/video/av116669313780558",
+    "source": "AI大模型系统课程",
     "platform": "bilibili",
-    "points": 8637,
-    "published_at": "2026-05-28T10:22:23+00:00",
-    "summary": "【视频配套籽料、零基础学习路线、实战项目案例、电子书+问题解答 在 ”置顶平论” 自取哦】\n本套教程从零开始讲解，手把手教学，包含AI大模型入门、AI开发环境搭建等一些基础概念、Agent、Langchain、LangGraph和私有化部署\n无论是新手小白，还是有经验的友友，皆可学习\n视频对你有用的话，还请 一键三连【长按点赞】支持一下UP哦！你的支持是我更新的动力~"
+    "points": 7688,
+    "published_at": "2026-05-31T13:16:16+00:00",
+    "summary": "【视频配套籽料，大模型最新学习路线，系统学习，问题解答等这里自取哦：https://www.bilibili.com/read/cv41307778/?jump_opus=1】\n视频制作不易，如果视频对你有用的话请一键三连【长按点赞】支持一下up哦，拜托，这对我真的很重要"
   },
   {
-    "id": "bvid:BV1GD7qzREVA",
+    "id": "bvid:BV1QU6GYFEio",
     "domain": "AI",
-    "title": "【MCP部署实战】手把手教你把MCP接入各大热门工具，保姆级教学，我奶听了都能学会，CherryStudio配置MCP",
-    "url": "http://www.bilibili.com/video/av114623818763366",
-    "source": "亿点点大模型",
+    "title": "[课程4] 用Cursor开发数据库真的很简单 | Agent应用 | 用Codebase解决跨文件错误",
+    "url": "http://www.bilibili.com/video/av113742109021318",
+    "source": "Zhu的AI日记",
     "platform": "bilibili",
-    "points": 7914,
-    "published_at": "2025-06-04T07:08:58+00:00",
-    "summary": "全程干货无废话！MCP最新实战教程，从环境部署、原理详解到项目实战，带你彻底吃透MCP！MCPServer开发，mcp开发，mcp教程，mcp项目 完整视频教程+讲解课件+学习笔记+AI大模型知识库已打包可分享！"
+    "points": 6945,
+    "published_at": "2024-12-31T12:30:00+00:00",
+    "summary": "***这是全网最完整的分享如何在不懂编程的情况下，利用结构化思维，用Cursor开发商业app的系列课程。\n《懒人记单词》是基于艾宾浩斯遗忘曲线设计的记单词神器，它可以对每一个单词进行人性化的解读，并在每一个遗忘周期到来时及时提醒，并通过单词释义选择，拼写和造句进行全方位的巩固，同时AI还能对你的句子进行多维度的评估，确保你对每一个单词不仅会认，而且会用。\n\n***你将在本视频中学到：\n1.数据库"
+  },
+  {
+    "id": "bvid:BV1VCVS6PEAd",
+    "domain": "AI",
+    "title": "【全748集】目前B站最全最细的AI Agent零基础全套教程，2026最新版，包含所有干货！七天就能从小白到大神！少走99%的弯路！学完即就业，带你玩转AI！",
+    "url": "http://www.bilibili.com/video/av116668525186915",
+    "source": "大模型入门教程",
+    "platform": "bilibili",
+    "points": 6833,
+    "published_at": "2026-05-31T09:46:57+00:00",
+    "summary": "【视频配套籽料、学习路线、GitHub项目、实战案例集、电子书+问题解答请看 ”置顶平论” 自取哦】\n本套教程从零开始讲解，手把手教学，包含Python快速入门、AI开发环境搭建及提示词工程、Transformer架构和预训练、SFT、RLHF等一些基础概念、RAG、Agent、Langchain、大模型微调和私有化部署\n无论是新手小白，还是有一定编码经验的选手，皆可学习\n如果视频对你有用的话请 "
+  },
+  {
+    "id": "bvid:BV1oUVc6vEEY",
+    "domain": "AI",
+    "title": "【2026最新】B站最全最细的 AI 编程工具Cursor保姆级教程！Cursor保姆级安装使用教程！新手友好！看到就是赚到！！！",
+    "url": "http://www.bilibili.com/video/av116639383159883",
+    "source": "AI大模型教学",
+    "platform": "bilibili",
+    "points": 6352,
+    "published_at": "2026-05-26T06:24:36+00:00",
+    "summary": ""
+  },
+  {
+    "id": "bvid:BV1fNs9eiEm9",
+    "domain": "AI",
+    "title": "Cursor AI编程结合cocos3.8游戏开发教程-01",
+    "url": "http://www.bilibili.com/video/av113187471105975",
+    "source": "太阳8800",
+    "platform": "bilibili",
+    "points": 6323,
+    "published_at": "2024-09-23T15:15:13+00:00",
+    "summary": "开源源码仓库\nhttps://gitee.com/gamepublic/chess-cards"
+  },
+  {
+    "id": "bvid:BV1RtGU6hEDd",
+    "domain": "AI",
+    "title": "DeepSeek-Reasonix 【保姆级教程】：专为 DeepSeek 打造的 AI 编程 Agent客户端，长会话成本到底能省多少？",
+    "url": "http://www.bilibili.com/video/av116647486556383",
+    "source": "程序员晓刘",
+    "platform": "bilibili",
+    "points": 6058,
+    "published_at": "2026-05-27T16:33:52+00:00",
+    "summary": "本期体验 DeepSeek-Reasonix 这个开源项目，主要看客户端界面、模型模式、会话导入、MCP 配置、记忆与缓存等功能。内容基于个人使用记录，不做夸张结论，适合对 DeepSeek 生态和 AI 编程工具感兴趣的朋友参考。"
+  },
+  {
+    "id": "bvid:BV1u4G9zmEte",
+    "domain": "AI",
+    "title": "什么是MCP？VS Code中使用MCP Server",
+    "url": "http://www.bilibili.com/video/av114426032168712",
+    "source": "AI落地派",
+    "platform": "bilibili",
+    "points": 5927,
+    "published_at": "2025-04-30T08:51:30+00:00",
+    "summary": "什么是MCP，怎么样使用MCP Server，不用写SQL语句就可以查询数据库。\n\nMCP Servers\nhttps://smithery.ai/\nhttps://github.com/punkpeye/awesome-mcp-servers\nhttps://github.com/modelcontextprotocol/servers\n\nMCP Server for MySQL based o"
+  },
+  {
+    "id": "bvid:BV1eUVJ6EEB9",
+    "domain": "AI",
+    "title": "2026搞懂Java+AI大模型全套教程 | Spring AI+RAG+AI Agent+DeepSeek+航空AI智能客服项目实战，全程干货无废话！",
+    "url": "http://www.bilibili.com/video/av116668374254145",
+    "source": "程序员诸葛",
+    "platform": "bilibili",
+    "points": 5268,
+    "published_at": "2026-05-31T09:12:07+00:00",
+    "summary": "整理制作不易，大家记得点个关注，一键三连呀【点赞、收藏、转发】感谢支持~\n配套笔记和100万字面试宝典+场景题，简历模板，Java P 5~P8技术栈学习路线自取：https://t.bilibili.com/783606020197842963"
+  },
+  {
+    "id": "bvid:BV1rE1SBpEha",
+    "domain": "AI",
+    "title": "【MCP】使用FastMCP快速实现MCP服务端和客户端功能",
+    "url": "http://www.bilibili.com/video/av115512960883264",
+    "source": "胖虎遛二狗",
+    "platform": "bilibili",
+    "points": 5241,
+    "published_at": "2025-11-08T07:50:20+00:00",
+    "summary": "相关文档：https://gofastmcp.com/getting-started/welcome\n大模型系列教程： https://github.com/echonoshy/cgft-llm"
+  },
+  {
+    "id": "bvid:BV1f5DvB4Eoa",
+    "domain": "AI",
+    "title": "AI 直接操控 Cocos Creator！78 个自动化工具一键搞定场景搭建 让 AI 接管你的 Cocos Creator 编辑器 | Link CC MC",
+    "url": "http://www.bilibili.com/video/av116362978528338",
+    "source": "一个凡人鸭",
+    "platform": "bilibili",
+    "points": 5017,
+    "published_at": "2026-04-07T10:40:52+00:00",
+    "summary": "让 AI 直接操控 Cocos Creator 编辑器！\nLink CC MCP 是一款 AI 驱动的 Cocos Creator 编辑器自动化插件，通过 MCP 协议连接 Cursor 等 AI 编辑器，提供 78 个编辑器操作工具。\n你可以用自然语言让 AI：\n✦ 创建节点、搭建 UI 层级\n✦ 添加/修改组件、绑定脚本\n✦ 管理场景、资源、预制体\n✦ 截图查看场景效果\n✦ 批量操作、动画生成"
+  },
+  {
+    "id": "bvid:BV1caVh6fE6Z",
+    "domain": "AI",
+    "title": "【2026最新版】绝对是B站讲的最细的Claude Code教程，从国内环境安装出发，项目开发及个人使用总结带你玩转 Vibe Coding！",
+    "url": "http://www.bilibili.com/video/av116656764358481",
+    "source": "AI大模型_",
+    "platform": "bilibili",
+    "points": 4814,
+    "published_at": "2026-05-29T07:53:39+00:00",
+    "summary": "制作不易，大家喜欢视频记得点点关注，一键三连呀【点赞、投币、收藏】感谢支持！\n本视频配套课件笔记代码/学习大纲/大模型学习路线戳这里获取→https://www.bilibili.com/opus/1195847460814061571?spm_id_from=333.1387.0.0\n另外有需要AI大模型学习路线图+必看书籍（国内外大牛著作）+入门及进阶视频教程+项目实战及源码提供+面试实战场景"
+  },
+  {
+    "id": "bvid:BV1Uc7Sz2EqJ",
+    "domain": "AI",
+    "title": "自动化挖漏洞哪家强？LLM+Burpsuite 组合出道，黑客看了直呼 “蚌埠住了”！",
+    "url": "http://www.bilibili.com/video/av114612527701492",
+    "source": "水獭安全",
+    "platform": "bilibili",
+    "points": 4775,
+    "published_at": "2025-06-02T07:17:41+00:00",
+    "summary": "通过 MCP 服务构建&quot;AI渗透测试工程师&quot;，实现Burp Suite的智能调度与自动化漏洞狩猎。"
+  },
+  {
+    "id": "bvid:BV1x6Vt6dEef",
+    "domain": "AI",
+    "title": "100 小时测试 Claude Code vs Codex（真实结果）",
+    "url": "http://www.bilibili.com/video/av116656495925868",
+    "source": "设计之道",
+    "platform": "bilibili",
+    "points": 4157,
+    "published_at": "2026-05-29T06:44:49+00:00",
+    "summary": "【海外 AI 订阅】\n国内直连，支付宝付款，不用代理，\n一站订阅 ChatGPT / Codex / Claude Code / X\n订阅链接：https://bewild.ai?code=SJZD\n订阅时请填优惠邀请码：SJZD，具体优惠金额以官网为准。\n\n【视频介绍】\n我花了 100 个小时测试 Claude Code 和 Codex，结果真的让我非常意外。\n相同的提示词、相同的项目构建、两个"
+  },
+  {
+    "id": "bvid:BV1YWCgBfEdz",
+    "domain": "AI",
+    "title": "00_AI Agent for LabVIEW 全面教学：安装、配置、VI解析、代码生成，一次讲透！",
+    "url": "http://www.bilibili.com/video/av115547740113313",
+    "source": "仪酷智能",
+    "platform": "bilibili",
+    "points": 4219,
+    "published_at": "2025-11-14T11:13:10+00:00",
+    "summary": "本视频将从零开始，带你完整掌握 AI Agent for LabVIEW 工具包的使用方法。\n无论你是 LabVIEW 开发者、做自动化/视觉/测试测控的工程师，还是对大模型 + LabVIEW 的结合感兴趣，本期内容都非常值得收藏！\n🔧 本期内容概览\n1）如何下载与安装工具包\n官方下载方式（官网入口）\nVIPM 安装步骤与 64bit 版本注意事项\n\n2）API 接入配置\n支持多家大模型：阿里云"
+  },
+  {
+    "id": "bvid:BV1vPVJ6EEYM",
+    "domain": "AI",
+    "title": "【2026最新版】Claude Code教程，从入门到精通，搞定所有开发场景，小白轻松搞定，全程干货无废话，存下吧，很难找全的！",
+    "url": "http://www.bilibili.com/video/av116666780353563",
+    "source": "居然说AI",
+    "platform": "bilibili",
+    "points": 4114,
+    "published_at": "2026-05-31T02:24:09+00:00",
+    "summary": "制作不易，大家喜欢视频记得点点关注，一键三连呀【点赞、投币、收藏】感谢支持！"
+  },
+  {
+    "id": "bvid:BV1W7ijBkEwJ",
+    "domain": "AI",
+    "title": "cheatengine-mcp自动化逆向，CE调试器的MCP",
+    "url": "http://www.bilibili.com/video/av115835855242400",
+    "source": "花老板AI",
+    "platform": "bilibili",
+    "points": 4068,
+    "published_at": "2026-01-04T08:24:14+00:00",
+    "summary": "Cheat Engine MCP Bridge是一个开源中间件项目，通过Model Context Protocol（MCP）协议为AI助手提供逆向工程能力。该项目将Cheat Engine的内存读写、汇编分析等核心功能封装为标准化的MCP工具，让AI模型能够直接调用这些专业逆向工具进行自动化分析。\n\n核心功能包括：内存地址扫描与读写、汇编代码反编译、断点调试管理、内存数据修改等。开发者可以通过简"
+  },
+  {
+    "id": "bvid:BV1HqV969EcU",
+    "domain": "AI",
+    "title": "10分钟快速入门Claude Code保姆级安装到代码实战教程",
+    "url": "http://www.bilibili.com/video/av116672333616934",
+    "source": "字节测试工程师",
+    "platform": "bilibili",
+    "points": 3751,
+    "published_at": "2026-06-01T01:53:10+00:00",
+    "summary": "勉费领取视频全套资料/文档/学习笔记点击→https://www.bilibili.com/read/cv38114879/?jump_opus=1"
+  },
+  {
+    "id": "bvid:BV1Kuahz8Efz",
+    "domain": "AI",
+    "title": "Dify教程-MCP服务",
+    "url": "http://www.bilibili.com/video/av115151881641819",
+    "source": "花里胡哨的汤无际",
+    "platform": "bilibili",
+    "points": 3654,
+    "published_at": "2025-09-05T13:23:34+00:00",
+    "summary": ""
+  },
+  {
+    "id": "bvid:BV16GV86XEPa",
+    "domain": "AI",
+    "title": "【2026最新Cursor使用教程】史上最强 AI 编程工具Cursor！Cursor保姆级使用教程！从入门到实战，零基础小白也能学会",
+    "url": "http://www.bilibili.com/video/av116655757723840",
+    "source": "刘十二-是我啊",
+    "platform": "bilibili",
+    "points": 3491,
+    "published_at": "2026-05-29T03:42:21+00:00",
+    "summary": "喜欢请三连哦   喜欢请三连哦   喜欢请三连哦   喜欢请三连哦   喜欢请三连哦   喜欢请三连哦   喜欢请三连哦"
   },
   {
     "id": "hn:48352939",
@@ -707,7 +707,7 @@
     "url": "https://blogs.windows.com/windowsexperience/2026/05/31/introducing-a-powerful-new-chapter-for-windows-pcs-accelerated-by-nvidia-rtx-spark/",
     "source": "WalterSobchak",
     "platform": "hackernews",
-    "points": 19,
+    "points": 20,
     "published_at": "2026-06-01T04:45:20+00:00",
     "summary": ""
   },
@@ -778,6 +778,28 @@
     "summary": "EU-funded project MASTER is using extended reality to transform how industrial robotics is taught and deployed. The post Beyond the Factory Floor: XR Training for the Next Industrial Era appeared firs"
   },
   {
+    "id": "rss:https://www.tomshardware.com/software/vpn/save-78-percent-on-nords-latest-complete-vpn-package-27-months-of-online-protection-for-usd107",
+    "domain": "AI 算力 / 半导体",
+    "title": "Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107",
+    "url": "https://www.tomshardware.com/software/vpn/save-78-percent-on-nords-latest-complete-vpn-package-27-months-of-online-protection-for-usd107",
+    "source": "Stewart Bendle",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-06-01T11:36:31+00:00",
+    "summary": "Pick up 27 months of NordVPN coverage for just $107. Fast VPN connections, anti-virus protection, and a password manager for only $3.99 per month."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/tech-industry/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-located-outside-china-to-buy-ai-chips-report-claims-that-hundreds-of-thousands-of-advanced-ai-chips-have-been-acquired-through-bis-blind-spot",
+    "domain": "AI 算力 / 半导体",
+    "title": "US closes loophole that allowed Chinese-owned subsidiaries located outside China to buy AI chips — report claims that hundreds of thousands of advanced AI chips have been acquired through BIS blind sp",
+    "url": "https://www.tomshardware.com/tech-industry/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-located-outside-china-to-buy-ai-chips-report-claims-that-hundreds-of-thousands-of-advanced-ai-chips-have-been-acquired-through-bis-blind-spot",
+    "source": "Jowi Morales",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-06-01T11:32:24+00:00",
+    "summary": "The BIS just issued a clarification that Chinese-owned subsidiaries are included in U.S. export controls, even if they're based outside of China. However, one source said that some companies have been"
+  },
+  {
     "id": "rss:https://www.tomshardware.com/tech-industry/negative-time-experiment-clears-peer-review-as-photons-appear-to-leave-an-atom-cloud-before-entering",
     "domain": "AI 算力 / 半导体",
     "title": "Negative time experiment clears peer review as photons appear to leave an atom cloud before entering — groundbreaking quantum 'negative time' proven after 1 million test runs",
@@ -822,17 +844,6 @@
     "summary": "Every update live from Taipei as Computex continues in Taiwan."
   },
   {
-    "id": "rss:https://www.tomshardware.com/pc-components/ram/amd-promises-13-percent-uplift-with-new-expo-ultra-low-latency-overclocking-on-ddr5-dimms-automatic-memory-overclocking-delivers-4-percent-improvement-over-standard-expo-says-amd",
-    "domain": "AI 算力 / 半导体",
-    "title": "AMD promises 13% uplift with new EXPO ‘Ultra Low Latency’ overclocking on DDR5 DIMMs — automatic memory overclocking delivers 4% improvement over standard EXPO, says AMD",
-    "url": "https://www.tomshardware.com/pc-components/ram/amd-promises-13-percent-uplift-with-new-expo-ultra-low-latency-overclocking-on-ddr5-dimms-automatic-memory-overclocking-delivers-4-percent-improvement-over-standard-expo-says-amd",
-    "source": "Jake Roach",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-06-01T10:30:00+00:00",
-    "summary": "AMD’s upcoming EXPO ‘Ultra Low Latency’ automatic memory overclocking promises a 13% improvement over standard DDR5 speeds, as well as a 4% jump compared to standard EXPO."
-  },
-  {
     "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-warns-it-has-a-healthy-dose-of-paranoia-over-nvidia-entrance-into-pc-market-company-says-rtx-spark-is-great-for-the-market-while-touting-the-virtues-of-x86",
     "domain": "AI 算力 / 半导体",
     "title": "Intel warns it has 'a healthy dose of paranoia' over Nvidia entrance into PC market — company says RTX Spark is 'great for the market' while touting the virtues of x86",
@@ -842,6 +853,17 @@
     "points": null,
     "published_at": "2026-06-01T10:30:00+00:00",
     "summary": "Intel reacts to Nvidia’s RTX Spark announcement, and says that it’s treating the green giant’s entrance into consumer SoCs with “a healthy dose of skepticism.\""
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/ram/amd-promises-13-percent-uplift-with-new-expo-ultra-low-latency-overclocking-on-ddr5-dimms-automatic-memory-overclocking-delivers-4-percent-improvement-over-standard-expo-says-amd",
+    "domain": "AI 算力 / 半导体",
+    "title": "AMD promises 13% uplift with new EXPO ‘Ultra Low Latency’ overclocking on DDR5 DIMMs — automatic memory overclocking delivers 4% improvement over standard EXPO, says AMD",
+    "url": "https://www.tomshardware.com/pc-components/ram/amd-promises-13-percent-uplift-with-new-expo-ultra-low-latency-overclocking-on-ddr5-dimms-automatic-memory-overclocking-delivers-4-percent-improvement-over-standard-expo-says-amd",
+    "source": "Jake Roach",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-06-01T10:30:00+00:00",
+    "summary": "AMD’s upcoming EXPO ‘Ultra Low Latency’ automatic memory overclocking promises a 13% improvement over standard DDR5 speeds, as well as a 4% jump compared to standard EXPO."
   },
   {
     "id": "rss:https://www.tomshardware.com/laptops/we-went-hands-on-with-qualcomms-new-usd300-and-up-arm-laptop-platform-mystery-eight-core-cpu-in-active-cooled-snapdragon-c-laptop-surfaces-in-acer-aspire-go-15",
@@ -899,17 +921,6 @@
     "summary": "At Computex 2026, Nvidia CEO Jensen Huang unveiled the RTX Spark Superchip, a new Arm laptop and desktop platform that powers agentic AI on Windows with a 20-core Arm CPU, powerful 6144-CUDA-core Blac"
   },
   {
-    "id": "rss:https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex",
-    "domain": "AI 算力 / 半导体",
-    "title": "Intel details long-awaited Crescent Island AI GPU at Computex, boasts up to 480 GB of LPDDR5X to combat memory shortages — company shares more details of its Xe3P inference accelerator at Computex",
-    "url": "https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex",
-    "source": "Jeffrey Kampman",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-06-01T03:00:00+00:00",
-    "summary": "Intel revealed more details of its next-gen Data Center GPU, code-named Crescent Island, at Computex 2026. This inference-optimized chip will feature up to 480GB of LPDDR5X memory for efficient handli"
-  },
-  {
     "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-xeon-7-diamond-rapids-cpus-officially-launching-in-2027-on-intel-18a-p-next-gen-p-core-xeon-features-pcie-6-0-50-percent-higher-core-counts-and-twice-the-memory-bandwidth",
     "domain": "AI 算力 / 半导体",
     "title": "Intel Xeon 7 ‘Diamond Rapids’ CPUs officially launching in 2027 on Intel 18A-P — next-gen P-core Xeon features PCIe 6.0, 50% higher core counts, and twice the memory bandwidth",
@@ -919,6 +930,17 @@
     "points": null,
     "published_at": "2026-06-01T03:00:00+00:00",
     "summary": "Intel has officially confirmed its next-gen Xeon 7 Diamond Rapids CPUs are coming in 2027, featuring 50% higher core counts and twice the memory bandwidth of Xeon 6 in a bid to compete against AMD’s u"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex",
+    "domain": "AI 算力 / 半导体",
+    "title": "Intel details long-awaited Crescent Island AI GPU at Computex, boasts up to 480 GB of LPDDR5X to combat memory shortages — company shares more details of its Xe3P inference accelerator at Computex",
+    "url": "https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex",
+    "source": "Jeffrey Kampman",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-06-01T03:00:00+00:00",
+    "summary": "Intel revealed more details of its next-gen Data Center GPU, code-named Crescent Island, at Computex 2026. This inference-optimized chip will feature up to 480GB of LPDDR5X memory for efficient handli"
   },
   {
     "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel",
@@ -976,17 +998,6 @@
     "summary": "AMD is rereleasing the Ryzen 7 5800X3D and introducing the Ryzen 7 7700X3D, both eight-core chips with 3DV-Cache targeting midrange gamers who’ve been under the thumb of rising component prices."
   },
   {
-    "id": "rss:https://www.tomshardware.com/laptops/dell-xps-13-targets-macbook-neo-with-intels-wildcat-lake-usd699-starting-price-usd599-for-students",
-    "domain": "AI 算力 / 半导体",
-    "title": "Dell XPS 13 targets MacBook Neo with Intel's Wildcat Lake — $699 starting price, $599 for students",
-    "url": "https://www.tomshardware.com/laptops/dell-xps-13-targets-macbook-neo-with-intels-wildcat-lake-usd699-starting-price-usd599-for-students",
-    "source": "Andrew E. Freedman",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-05-31T23:00:00+00:00",
-    "summary": "Dell's XPS 13 is going after Apple's MacBook Neo with a $699 starting price, some higher specs, and Intel's new Wildcat Lake processors."
-  },
-  {
     "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/alienware-debuts-39-34-inch-oled-gaming-monitors-rgb-stripe-tandem-and-penta-tandem-tech-should-boost-color-performance-and-text-clarity",
     "domain": "AI 算力 / 半导体",
     "title": "Alienware debuts 39, 34-inch OLED gaming monitors — RGB Stripe Tandem and Penta Tandem tech should boost color performance and text clarity",
@@ -996,6 +1007,17 @@
     "points": null,
     "published_at": "2026-05-31T23:00:00+00:00",
     "summary": "Alienware hits the ground running at Computex with four new gaming monitors covering OLED and VA panel types."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/laptops/dell-xps-13-targets-macbook-neo-with-intels-wildcat-lake-usd699-starting-price-usd599-for-students",
+    "domain": "AI 算力 / 半导体",
+    "title": "Dell XPS 13 targets MacBook Neo with Intel's Wildcat Lake — $699 starting price, $599 for students",
+    "url": "https://www.tomshardware.com/laptops/dell-xps-13-targets-macbook-neo-with-intels-wildcat-lake-usd699-starting-price-usd599-for-students",
+    "source": "Andrew E. Freedman",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-05-31T23:00:00+00:00",
+    "summary": "Dell's XPS 13 is going after Apple's MacBook Neo with a $699 starting price, some higher specs, and Intel's new Wildcat Lake processors."
   },
   {
     "id": "rss:https://www.tomshardware.com/pc-components/cpus/nvidias-long-awaited-n1-n1x-soc-specs-leak-ahead-of-computex-launch-n1-to-feature-up-to-20-arm-based-cores-standard-n1-equipped-with-12-and-10-core-configs",
@@ -1084,28 +1106,6 @@
     "points": null,
     "published_at": "2026-05-31T12:20:00+00:00",
     "summary": "A computer vision and robotics expert has created and trained what he boasts is “the ultimate mosquito killer” using machine learning and a laser."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/pc-components/sound-cards/orpheus-ii-isa-soundcard-returns-due-to-popular-demand-aimed-at-dos-and-early-windows-users-this-card-includes-hardware-to-support-every-major-audio-standard",
-    "domain": "AI 算力 / 半导体",
-    "title": "Orpheus II ISA soundcard returns due to ‘popular demand’ — aimed at DOS and early Windows users, this card includes hardware to support every major audio standard",
-    "url": "https://www.tomshardware.com/pc-components/sound-cards/orpheus-ii-isa-soundcard-returns-due-to-popular-demand-aimed-at-dos-and-early-windows-users-this-card-includes-hardware-to-support-every-major-audio-standard",
-    "source": "Mark Tyson",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-05-31T12:00:00+00:00",
-    "summary": "Want real Sound Blaster, Gravis UltraSound, OPL3 FM synthesis, and MPU-401 MIDI support? You got it."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/pc-components/gpu-drivers/you-can-still-run-the-original-nvidia-control-panel-by-grabbing-it-from-the-microsoft-store-today-app-remains-useful-to-adjust-a-handful-of-rtx-pro-and-quadro-features-and-may-be-handy-for-troubleshooting",
-    "domain": "AI 算力 / 半导体",
-    "title": "You can still run the original Nvidia Control Panel by grabbing it from the Microsoft Store today — app remains useful to adjust a handful of RTX Pro and Quadro features, and may be handy for troubles",
-    "url": "https://www.tomshardware.com/pc-components/gpu-drivers/you-can-still-run-the-original-nvidia-control-panel-by-grabbing-it-from-the-microsoft-store-today-app-remains-useful-to-adjust-a-handful-of-rtx-pro-and-quadro-features-and-may-be-handy-for-troubleshooting",
-    "source": "Mark Tyson",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-05-31T11:30:00+00:00",
-    "summary": "The old Nvidia Control Panel is now a separate, optional download, but is it worth grabbing?"
   },
   {
     "id": "hn:48291230",
@@ -1484,7 +1484,7 @@
   {
     "id": "rss:https://www.theverge.com/tech/940572/apples-strategy-smart-glasses-smart-watches",
     "domain": "大厂 AI 动态",
-    "title": "Apple’s strategy for smart glasses is the same as smart watches",
+    "title": "Apple’s strategy for smart glasses is the same as for smart watches",
     "url": "https://www.theverge.com/tech/940572/apples-strategy-smart-glasses-smart-watches",
     "source": "Terrence O’Brien",
     "platform": "rss",
@@ -1757,26 +1757,26 @@
     "summary": "AI autocomplete for every app on your Mac Discussion | Link"
   },
   {
-    "id": "rss:https://www.producthunt.com/products/open-caffeine",
+    "id": "rss:https://www.producthunt.com/products/tokenwise",
     "domain": "大厂 AI 动态",
-    "title": "Open Caffeine",
-    "url": "https://www.producthunt.com/products/open-caffeine",
-    "source": "Hoon Choi",
+    "title": "Tokenwise",
+    "url": "https://www.producthunt.com/products/tokenwise",
+    "source": "Théophile Louvart",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-06-01T03:48:12+00:00",
-    "summary": "Keep your Mac awake Discussion | Link"
+    "published_at": "2026-05-31T14:36:39+00:00",
+    "summary": "A smart LLM proxy that shows where you're overpaying Discussion | Link"
   },
   {
-    "id": "rss:https://www.producthunt.com/products/skylive",
+    "id": "rss:https://www.producthunt.com/products/mistral-7b",
     "domain": "大厂 AI 动态",
-    "title": "Skylive",
-    "url": "https://www.producthunt.com/products/skylive",
-    "source": "Samuel Angel Gallo Ocampo",
+    "title": "Mistral Vibe",
+    "url": "https://www.producthunt.com/products/mistral-7b",
+    "source": "Zac Zuo",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-05-31T23:30:09+00:00",
-    "summary": "Never miss a celestial event, anywhere on Earth Discussion | Link"
+    "published_at": "2026-06-01T03:25:48+00:00",
+    "summary": "I agent for long-running, multi-step work and coding Discussion | Link"
   },
   {
     "id": "hn:48314363",
@@ -1847,12 +1847,12 @@
   {
     "id": "wscn:3773581",
     "domain": "股票",
-    "title": "美团：下半年订单增长可能会放缓",
+    "title": "美团电话会：下半年订单增速或放缓，线上线下双向加码AI",
     "url": "https://wallstreetcn.com/articles/3773581",
     "source": "华尔街见闻 API",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-06-01T11:32:20+00:00",
+    "published_at": "2026-06-01T11:38:04+00:00",
     "summary": "更多消息，持续更新中"
   },
   {
@@ -2866,6 +2866,116 @@
     "points": 15,
     "published_at": "2026-05-12T22:39:47+00:00",
     "summary": ""
+  },
+  {
+    "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+    "domain": "电子信息与芯片",
+    "title": "xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
+    "url": "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+    "source": "Jeremie Eliahou Ontiveros",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2025-09-16T17:38:01+00:00",
+    "summary": "Much has been written about xAI’s Colossus 1. The Memphis build belongs in the history books: the largest AI training cluster, erected from scratch in 122 days. With roughly 200,000 H100/H200s and ~30"
+  },
+  {
+    "id": "rss:https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
+    "domain": "电子信息与芯片",
+    "title": "Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack",
+    "url": "https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
+    "source": "Dylan Patel",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2025-09-10T19:57:18+00:00",
+    "summary": "Nvidia announced the Rubin CPX, a solution that is specifically designed to be optimized for the prefill phase, with the single-die Rubin CPX heavily emphasizing compute FLOPS over memory bandwidth. T"
+  },
+  {
+    "id": "rss:https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
+    "domain": "电子信息与芯片",
+    "title": "Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck",
+    "url": "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
+    "source": "Dylan Patel",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2025-09-08T09:54:57+00:00",
+    "summary": "Compute is the lifeblood of AI. He who controls the spice controls the universe the compute will control the production of tokens and reap the benefits of AI. Without compute you do not have a seat at"
+  },
+  {
+    "id": "rss:https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
+    "domain": "电子信息与芯片",
+    "title": "Amazon’s AI Resurgence: AWS & Anthropic’s Multi-Gigawatt Trainium Expansion",
+    "url": "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
+    "source": "Jeremie Eliahou Ontiveros",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2025-09-03T20:55:46+00:00",
+    "summary": "Two-and-a-half years ago, we flagged a looming “cloud crisis” at AWS. Today, the evidence has mounted. AWS is the crown jewel of the Amazon empire, generating ~60% of group profits, and dominating the"
+  },
+  {
+    "id": "rss:https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
+    "domain": "电子信息与芯片",
+    "title": "H100 vs GB200 NVL72 Training Benchmarks – Power, TCO, and Reliability Analysis, Software Improvement Over Time",
+    "url": "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
+    "source": "Dylan Patel",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2025-08-20T04:56:35+00:00",
+    "summary": "Frontier model training has pushed GPUs and AI systems to their absolute limits, making cost, efficiency, power, performance per TCO, and reliability central to the discussion on effective training. T"
+  },
+  {
+    "id": "rss:https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
+    "domain": "电子信息与芯片",
+    "title": "GPT-5 Set the Stage for Ad Monetization and the SuperApp",
+    "url": "https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
+    "source": "Doug OLaughlin",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2025-08-13T00:27:14+00:00",
+    "summary": "To many power users (Pro and Plus), GPT5 was a disappointing release. But with closer inspection, the real release is focused on the vast majority of ChatGPT’s users, which is the 700m+ free userbase "
+  },
+  {
+    "id": "rss:https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
+    "domain": "电子信息与芯片",
+    "title": "Scaling the Memory Wall: The Rise and Roadmap of HBM",
+    "url": "https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
+    "source": "Dylan Patel",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2025-08-12T01:16:06+00:00",
+    "summary": "The first portion of this report will explain HBM, the manufacturing process, dynamics between vendors, KVCache offload, disaggregated prefill decode, and wide / high-rank EP. The rest of the report w"
+  },
+  {
+    "id": "rss:https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
+    "domain": "电子信息与芯片",
+    "title": "Robotics Levels of Autonomy",
+    "url": "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
+    "source": "Reyk Knuhtsen",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2025-07-30T17:02:25+00:00",
+    "summary": "Robots have powered manufacturing for decades, yet they stayed single-purpose and thrived only in perfect settings. Previous attempts at intelligent machines overpromised and underdelivered. But they "
+  },
+  {
+    "id": "rss:https://semianalysis.com/2025/07/21/vlsi2025/",
+    "domain": "电子信息与芯片",
+    "title": "Intel 18A Details & Cost, Future of DRAM 4F2 vs 3D, Backside Power Adoption (or Not), China’s FlipFET, Digital Twins from Atoms to Fabs, and More",
+    "url": "https://semianalysis.com/2025/07/21/vlsi2025/",
+    "source": "Dylan Patel",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2025-07-21T14:23:37+00:00",
+    "summary": "Long time readers will recall that SemiAnalysis covers more than just datacenters and AMD. Today we’re back to semiconductors with a tech-focused roundup of the best from this year’s VLSI conference, "
+  },
+  {
+    "id": "rss:https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
+    "domain": "电子信息与芯片",
+    "title": "Meta Superintelligence – Leadership Compute, Talent, and Data",
+    "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
+    "source": "Dylan Patel",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2025-07-11T20:12:19+00:00",
+    "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been fallin"
   }
 ]
 ```

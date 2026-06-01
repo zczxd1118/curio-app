@@ -118,6 +118,31 @@
         "与Cursor的YOLO模式、Windsurf的Flow模式的对比待验证"
       ],
       "implication": "如果你在用Claude Code做content-curator项目，这个Workflow功能可以让你定义'采集→摘要→分类→存储'的自动化流水线。建议立即尝试V2.1.47版本，用JS脚本构建你的第一个多Agent工作流。即使官方后续移除，这种'工作流即代码'的思路也会成为AI编程的标配。"
+    },
+    {
+      "rank": 6,
+      "domain": "电子信息与芯片",
+      "id": "rss:semianalysis-rubin-cpx",
+      "url": "https://semianalysis.com/2026/05/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
+      "source": "SemiAnalysis",
+      "stars": 5,
+      "title": "NVIDIA Rubin CPX：专为长上下文 prefill 阶段优化的加速器，AI 推理架构进入分工时代",
+      "lead": "SemiAnalysis 深度拆解：NVIDIA 在 Computex 2026 同时发布的 Rubin CPX 不是又一颗 GPU，而是 prefill/decode 解耦战略的硬件落地——把 KV cache 计算和 token 生成分到不同的 die 上，单机架等效算力翻倍。这是芯片架构跟着 LLM 推理特性走的标志性事件，未来 18 个月所有大客户的采购模型都要重写。",
+      "confirmed": [
+        "Rubin CPX 在 Computex 2026 发布，与 RTX Spark 同期",
+        "针对 prefill 阶段（长上下文 attention 计算）专门优化",
+        "用于 KV cache 大量重用场景（如 RAG / 代码助手 / 长视频理解）",
+        "与 Rubin 主芯片在同一机架协同工作（CPX = co-processor）",
+        "SemiAnalysis 估算：相同功耗下 prefill 吞吐 2-3x 提升"
+      ],
+      "judgment": [
+        "实际客户采购比例未知（CPX vs 标准 Rubin）",
+        "竞争对手 AMD MI400/Intel Crescent Island 何时跟进类似架构",
+        "TSMC 产能能否同步支持两条产线",
+        "中国市场的可获得性（有无出口管制变体）"
+      ],
+      "implication": "对 AI 工程师：理解 prefill/decode 分工后，部署架构会从'一个集群打天下'走向'按场景分片'。如果你做长上下文 / RAG 应用，未来云厂商会推按 prefill 分钟计费的实例。对硬件投资人：信号是 NVIDIA 不再只卖通用算力，而是在卖'按 LLM 工作负载切片'的产品组合 —— 这扩大了它的护城河，也压缩了 AMD 追赶的窗口。",
+      "is_diverse": true
     }
   ],
   "shortlist": [
@@ -204,6 +229,13 @@
       "url": "https://finance.yahoo.com/sectors/technology/articles/microsoft-data-suggests-using-ai-225900743.html",
       "source": "Yahoo Finance",
       "one_liner": "微软内部研究显示，在某些任务上AI的成本高于人工，挑战了'AI降本'的主流叙事。"
+    },
+    {
+      "domain": "电子信息与芯片",
+      "title": "Scaling the Memory Wall：HBM 发展路线图与未来",
+      "url": "https://semianalysis.com/scaling-the-memory-wall-hbm-rise-roadmap",
+      "source": "SemiAnalysis",
+      "one_liner": "HBM 已成 AI 算力扩张的真瓶颈——文章拆解 HBM 制造工艺、KVCache offload 演进、SK 海力士/三星/美光三巨头格局。"
     }
   ],
   "_meta": {

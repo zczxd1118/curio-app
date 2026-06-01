@@ -33,7 +33,9 @@
       "views": null,
       "published_at": "2025-09-16T17:38:01+00:00",
       "summary": "Much has been written about xAI’s Colossus 1. The Memphis build belongs in the history books: the largest AI training cluster, erected from scratch in 122 days. With roughly 200,000 H100/H200s and ~30,000 GB200 NVL72, it remains, today, the largest fully operational, single-coherent cluster (setting apart Google, master of multi-datacenter-training). However, Colossus 1’s ~300 MW [&#8230;]",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
@@ -50,7 +52,9 @@
       "views": null,
       "published_at": "2025-09-10T19:57:18+00:00",
       "summary": "Nvidia announced the Rubin CPX, a solution that is specifically designed to be optimized for the prefill phase, with the single-die Rubin CPX heavily emphasizing compute FLOPS over memory bandwidth. This is a game changer for inference, and its significance is surpassed only by the March 2024 announcement of the GB200 NVL72 Oberon rack-scale form [&#8230;]",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
@@ -67,7 +71,9 @@
       "views": null,
       "published_at": "2025-09-08T09:54:57+00:00",
       "summary": "Compute is the lifeblood of AI. He who controls the spice controls the universe the compute will control the production of tokens and reap the benefits of AI. Without compute you do not have a seat at the table. The United States technology community is all in on compute and AI as the next platform [&#8230;]",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
@@ -84,7 +90,9 @@
       "views": null,
       "published_at": "2025-09-03T20:55:46+00:00",
       "summary": "Two-and-a-half years ago, we flagged a looming “cloud crisis” at AWS. Today, the evidence has mounted. AWS is the crown jewel of the Amazon empire, generating ~60% of group profits, and dominating the lucrative Cloud Computing market. But it struggles to translate this strength into the new GPU/XPU Cloud era. Microsoft Azure now leads the [&#8230;]",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
@@ -101,7 +109,9 @@
       "views": null,
       "published_at": "2025-08-20T04:56:35+00:00",
       "summary": "Frontier model training has pushed GPUs and AI systems to their absolute limits, making cost, efficiency, power, performance per TCO, and reliability central to the discussion on effective training. The Hopper vs Blackwell comparisons are not as simple as Nvidia would have you believe. In this report, we will start by present the results of [&#8230;]",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
@@ -118,7 +128,9 @@
       "views": null,
       "published_at": "2025-08-13T00:27:14+00:00",
       "summary": "To many power users (Pro and Plus), GPT5 was a disappointing release. But with closer inspection, the real release is focused on the vast majority of ChatGPT’s users, which is the 700m+ free userbase that is growing rapidly. Power users should be disappointed; this release wasn’t for them. The real consumer opportunity for OpenAI lies [&#8230;]",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
@@ -135,7 +147,9 @@
       "views": null,
       "published_at": "2025-08-12T01:16:06+00:00",
       "summary": "The first portion of this report will explain HBM, the manufacturing process, dynamics between vendors, KVCache offload, disaggregated prefill decode, and wide / high-rank EP. The rest of the report will dive deeply into the future of HBM. We will cover the revolutionary change coming to HBM4 with custom base dies for HBM, what various [&#8230;]",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
@@ -152,7 +166,9 @@
       "views": null,
       "published_at": "2025-07-30T17:02:25+00:00",
       "summary": "Robots have powered manufacturing for decades, yet they stayed single-purpose and thrived only in perfect settings. Previous attempts at intelligent machines overpromised and underdelivered. But they were too early. Today, modern AI paradigms convert most robot roadblocks into data problems and push machines toward capabilities once thought impossible. As these models absorb real-world experience, robots [&#8230;]",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://semianalysis.com/2025/07/21/vlsi2025/",
@@ -169,7 +185,9 @@
       "views": null,
       "published_at": "2025-07-21T14:23:37+00:00",
       "summary": "Long time readers will recall that SemiAnalysis covers more than just datacenters and AMD. Today we’re back to semiconductors with a tech-focused roundup of the best from this year’s VLSI conference, the premiere design and integration. That includes the latest in chips manufacturing: fab digital twins, the future of advanced logic transistors and interconnects, DRAM [&#8230;]",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
@@ -186,7 +204,9 @@
       "views": null,
       "published_at": "2025-07-11T20:12:19+00:00",
       "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance.",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://www.eetimes.com/beyond-the-factory-floor-xr-training-for-the-next-industrial-era/",
@@ -203,7 +223,9 @@
       "views": null,
       "published_at": "2026-06-01T07:30:00+00:00",
       "summary": "EU-funded project MASTER is using extended reality to transform how industrial robotics is taught and deployed. The post Beyond the Factory Floor: XR Training for the Next Industrial Era appeared first on EE Times.",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://www.eetimes.com/the-stratosphere-race-haps-move-from-experiment-to-commercial-reality/",
@@ -220,7 +242,9 @@
       "views": null,
       "published_at": "2026-05-29T22:00:00+00:00",
       "summary": "Autonomous high-altitude platform stations are getting ready to bridge ground networks and LEO satellites. The post The Stratosphere Race: HAPS Move from Experiment to Commercial Reality appeared first on EE Times.",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://www.eetimes.com/gartner-says-supply-chain-confront-geopolitical-and-ai-challenges/",
@@ -237,7 +261,9 @@
       "views": null,
       "published_at": "2026-05-29T14:16:57+00:00",
       "summary": "Gartner Supply Chain Symposium highlights strategies to navigate chaos, orchestrate agility, and accelerate Innovation. The post Gartner Says Supply Chain Confront Geopolitical and AI Challenges appeared first on EE Times.",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://www.eetimes.com/qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge/",
@@ -254,7 +280,9 @@
       "views": null,
       "published_at": "2026-05-29T08:30:00+00:00",
       "summary": "Qilimanjaro says analog quantum systems could reduce error correction and accelerate AI, optimization, and simulation. On May 28, its analog system joined the digital quantum computer at the Barcelona Supercomputing Center. The post Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge appeared first on EE Times.",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://www.eetimes.com/majestic-labs-raises-100m-for-memory-pooling-ai-server/",
@@ -271,7 +299,9 @@
       "views": null,
       "published_at": "2026-05-28T22:00:00+00:00",
       "summary": "Server architecture will offer up to 100 TB of DRAM per accelerator. The post Majestic Labs Raises $100M for Memory Pooling AI Server appeared first on EE Times.",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://www.eetimes.com/ai-in-design-verification-from-experimentation-to-measurable-capability/",
@@ -288,7 +318,9 @@
       "views": null,
       "published_at": "2026-05-28T14:28:52+00:00",
       "summary": "AI in design verification no longer asks if AI helps tasks, but does it measurably improve real verification flows? The post AI in Design Verification: From Experimentation to Measurable Capability appeared first on EE Times.",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://www.eetimes.com/chiplets-ecosystems-and-europes-post-fab-semiconductor-strategy/",
@@ -305,7 +337,9 @@
       "views": null,
       "published_at": "2026-05-28T08:38:29+00:00",
       "summary": "“Can Europe realistically compete on leading-edge fabs alone?” Maria Marced said. “No.” The post Chiplets, Ecosystems, and Europe’s Post-Fab Semiconductor Strategy appeared first on EE Times.",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://www.eetimes.com/vicinity-unveils-trave-ai-native-sdr-platform-at-5g-acia-frankfurt/",
@@ -322,7 +356,9 @@
       "views": null,
       "published_at": "2026-05-28T01:00:00+00:00",
       "summary": "Vicinity Technologies Limited has officially unveiled TRAVE, its next-generation AI-native 5G/6G Software Defined Radio (SDR) platform, during the 5G-ACIA 5G User Conference in Frankfurt. The post Vicinity Unveils “TRAVE” — AI-Native SDR Platform at 5G-ACIA Frankfurt appeared first on EE Times.",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://www.eetimes.com/canada-university-of-saskatchewan-acquires-quantum-computer/",
@@ -339,7 +375,9 @@
       "views": null,
       "published_at": "2026-05-27T19:00:00+00:00",
       "summary": "University of Saskatchewan will leverage quantum computing for health, defense, energy, and agriculture research. The post Canada’s University of Saskatchewan Acquires Quantum Computer appeared first on EE Times.",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "rss:https://www.eetimes.com/intelligent-configurable-i-o-edge-autonomy-thermal-efficiency-and-higher-uptime-in-industrial-control-systems/",
@@ -356,7 +394,9 @@
       "views": null,
       "published_at": "2026-05-27T14:00:00+00:00",
       "summary": "This paper explores how configurable and intelligent I/O technologies are transforming industrial control systems by enabling greater flexibility, improved thermal performance, and higher system uptime. Traditional fixed-function I/O architectures, while effective in stable environments, create inefficiencies through SKU proliferation, underutilized channels, and limited adaptability to late-stage design changes. Configurable I/O addresses these challenges by allowing [&#8230;] The post Intellig...",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48012477",
@@ -375,7 +415,9 @@
       "published_at": "2026-05-04T18:04:33+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48274048",
@@ -394,7 +436,9 @@
       "published_at": "2026-05-26T01:49:54+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48352939",
@@ -413,7 +457,9 @@
       "published_at": "2026-06-01T05:24:40+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48291230",
@@ -432,7 +478,9 @@
       "published_at": "2026-05-27T08:15:35+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48245087",
@@ -451,7 +499,9 @@
       "published_at": "2026-05-23T05:50:28+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48323697",
@@ -470,7 +520,9 @@
       "published_at": "2026-05-29T14:41:43+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48284628",
@@ -489,7 +541,9 @@
       "published_at": "2026-05-26T19:21:02+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48352693",
@@ -508,7 +562,9 @@
       "published_at": "2026-06-01T04:45:20+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48195039",
@@ -527,7 +583,9 @@
       "published_at": "2026-05-19T15:55:21+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48234574",
@@ -546,7 +604,9 @@
       "published_at": "2026-05-22T11:49:04+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48220446",
@@ -565,7 +625,9 @@
       "published_at": "2026-05-21T10:39:48+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48151102",
@@ -584,7 +646,9 @@
       "published_at": "2026-05-15T17:05:52+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     },
     {
       "id": "hn:48063979",
@@ -603,7 +667,9 @@
       "published_at": "2026-05-08T14:43:50+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
-      "lang": "en"
+      "lang": "en",
+      "domain_id": "tech-chip",
+      "domain": "电子信息与芯片"
     }
   ]
 }

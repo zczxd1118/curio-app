@@ -206,6 +206,16 @@
 ```json
 [
   {
+    "id": "rss:https://www.eetimes.com/beyond-the-factory-floor-xr-training-for-the-next-industrial-era/",
+    "platform": "rss",
+    "title": "Beyond the Factory Floor: XR Training for the Next Industrial Era",
+    "url": "https://www.eetimes.com/beyond-the-factory-floor-xr-training-for-the-next-industrial-era/",
+    "source": "Rebecca Pool",
+    "published_at": "2026-06-01T07:30:00+00:00",
+    "summary": "EU-funded project MASTER is using extended reality to transform how industrial robotics is taught and deployed. The post Beyond the Factory Floor: XR Training for the Next Industrial Era appeared first on EE Times.",
+    "feed": "EE Times"
+  },
+  {
     "id": "rss:https://www.eetimes.com/the-stratosphere-race-haps-move-from-experiment-to-commercial-reality/",
     "platform": "rss",
     "title": "The Stratosphere Race: HAPS Move from Experiment to Commercial Reality",
@@ -296,23 +306,133 @@
     "feed": "EE Times"
   },
   {
-    "id": "rss:https://www.eetimes.com/startup-boosts-scale-up-to-1000-gpus-in-a-single-domain/",
+    "id": "rss:https://www.tomshardware.com/software/vpn/save-78-percent-on-nords-latest-complete-vpn-package-27-months-of-online-protection-for-usd107",
     "platform": "rss",
-    "title": "Startup Boosts Scale-Up to 1000+ GPUs in a Single Domain",
-    "url": "https://www.eetimes.com/startup-boosts-scale-up-to-1000-gpus-in-a-single-domain/",
-    "source": "Sally Ward-Foxton",
-    "published_at": "2026-05-27T12:00:00+00:00",
-    "summary": "Delos Data wants to enable practical scale-up domains of 1000+ GPUs in flexible topology designs. The post Startup Boosts Scale-Up to 1000+ GPUs in a Single Domain appeared first on EE Times.",
-    "feed": "EE Times"
+    "title": "Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107",
+    "url": "https://www.tomshardware.com/software/vpn/save-78-percent-on-nords-latest-complete-vpn-package-27-months-of-online-protection-for-usd107",
+    "source": "Stewart Bendle",
+    "published_at": "2026-06-01T11:36:31+00:00",
+    "summary": "Pick up 27 months of NordVPN coverage for just $107. Fast VPN connections, anti-virus protection, and a password manager for only $3.99 per month.",
+    "feed": "Latest from Tom's Hardware"
   },
   {
-    "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel",
+    "id": "rss:https://www.tomshardware.com/tech-industry/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-located-outside-china-to-buy-ai-chips-report-claims-that-hundreds-of-thousands-of-advanced-ai-chips-have-been-acquired-through-bis-blind-spot",
     "platform": "rss",
-    "title": "Intel Xeon 6+ ‘Clearwater Forest’ puts 18A in the data center with up to 288 cores, 576 MB of L3 cache — new Xeon 6990E+ is 30% faster per thread than 192-core AMD Epyc 9965, says Intel",
-    "url": "https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel",
+    "title": "US closes loophole that allowed Chinese-owned subsidiaries located outside China to buy AI chips — report claims that hundreds of thousands of advanced AI chips have been acquired through BIS blind spot",
+    "url": "https://www.tomshardware.com/tech-industry/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-located-outside-china-to-buy-ai-chips-report-claims-that-hundreds-of-thousands-of-advanced-ai-chips-have-been-acquired-through-bis-blind-spot",
+    "source": "Jowi Morales",
+    "published_at": "2026-06-01T11:32:24+00:00",
+    "summary": "The BIS just issued a clarification that Chinese-owned subsidiaries are included in U.S. export controls, even if they're based outside of China. However, one source said that some companies have been using this loophole to acquire AI chips that estimated to be in the hundreds of thousands.",
+    "feed": "Latest from Tom's Hardware"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/tech-industry/negative-time-experiment-clears-peer-review-as-photons-appear-to-leave-an-atom-cloud-before-entering",
+    "platform": "rss",
+    "title": "Negative time experiment clears peer review as photons appear to leave an atom cloud before entering — groundbreaking quantum 'negative time' proven after 1 million test runs",
+    "url": "https://www.tomshardware.com/tech-industry/negative-time-experiment-clears-peer-review-as-photons-appear-to-leave-an-atom-cloud-before-entering",
+    "source": "Luke James",
+    "published_at": "2026-06-01T11:30:00+00:00",
+    "summary": "A University of Toronto experiment showing that photons can spend a negative amount of time inside a cloud of atoms has been published in Physical Review Letters.",
+    "feed": "Latest from Tom's Hardware"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/monitors/portable-monitors/acers-pm131qt-portable-monitor-is-a-12-3-inch-touchscreen-with-magnetic-mounting-a-built-in-kickstand-and-5-point-touch-1920-x-720-ips-screen-has-pogo-pins-for-a-keyboard-and-is-designed-for-secondary-and-in-vehicle-use",
+    "platform": "rss",
+    "title": "Acer’s PM131QT portable monitor is a 12.3-inch touchscreen with magnetic mounting, a built-in kickstand, and 5-point touch – 1920 x 720 IPS screen has pogo pins for a keyboard, and is designed for secondary and “in-vehicle” use",
+    "url": "https://www.tomshardware.com/monitors/portable-monitors/acers-pm131qt-portable-monitor-is-a-12-3-inch-touchscreen-with-magnetic-mounting-a-built-in-kickstand-and-5-point-touch-1920-x-720-ips-screen-has-pogo-pins-for-a-keyboard-and-is-designed-for-secondary-and-in-vehicle-use",
+    "source": "Matt Safford",
+    "published_at": "2026-06-01T11:00:00+00:00",
+    "summary": "Are you looking for a compact monitor for multiple uses around the home and on the go? Acer’s new PM131QT might be just what you’re looking for.",
+    "feed": "Latest from Tom's Hardware"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/peripherals/wearable-tech/resourceful-runner-can-race-my-own-ghost-using-homemade-meta-ray-ban-display-app-also-adds-bonus-coins-mini-leaderboard-and-more",
+    "platform": "rss",
+    "title": "Resourceful runner 'can race my own ghost' using homemade Meta Ray-Ban Display app — also adds bonus coins, mini leaderboard, and more",
+    "url": "https://www.tomshardware.com/peripherals/wearable-tech/resourceful-runner-can-race-my-own-ghost-using-homemade-meta-ray-ban-display-app-also-adds-bonus-coins-mini-leaderboard-and-more",
+    "source": "Mark Tyson",
+    "published_at": "2026-06-01T10:48:30+00:00",
+    "summary": "Video demonstrates brand-new gamified running app for the Meta Ray-Ban Display glasses.",
+    "feed": "Latest from Tom's Hardware"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/news/live/computex-2026-",
+    "platform": "rss",
+    "title": "Computex 2026 Live: Every update and announcement from day one in Taipei",
+    "url": "https://www.tomshardware.com/news/live/computex-2026-",
+    "source": "Stephen Warwick",
+    "published_at": "2026-06-01T10:39:37+00:00",
+    "summary": "Every update live from Taipei as Computex continues in Taiwan.",
+    "feed": "Latest from Tom's Hardware"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-warns-it-has-a-healthy-dose-of-paranoia-over-nvidia-entrance-into-pc-market-company-says-rtx-spark-is-great-for-the-market-while-touting-the-virtues-of-x86",
+    "platform": "rss",
+    "title": "Intel warns it has 'a healthy dose of paranoia' over Nvidia entrance into PC market — company says RTX Spark is 'great for the market' while touting the virtues of x86",
+    "url": "https://www.tomshardware.com/pc-components/cpus/intel-warns-it-has-a-healthy-dose-of-paranoia-over-nvidia-entrance-into-pc-market-company-says-rtx-spark-is-great-for-the-market-while-touting-the-virtues-of-x86",
     "source": "Jake Roach",
-    "published_at": "2026-06-01T03:00:00+00:00",
-    "summary": "Intel is putting its 18A node into the data center with new Xeon 6+ Clearwater Forest CPUs, which pack up to 288 E-cores for dense compute.",
+    "published_at": "2026-06-01T10:30:00+00:00",
+    "summary": "Intel reacts to Nvidia’s RTX Spark announcement, and says that it’s treating the green giant’s entrance into consumer SoCs with “a healthy dose of skepticism.\"",
+    "feed": "Latest from Tom's Hardware"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/ram/amd-promises-13-percent-uplift-with-new-expo-ultra-low-latency-overclocking-on-ddr5-dimms-automatic-memory-overclocking-delivers-4-percent-improvement-over-standard-expo-says-amd",
+    "platform": "rss",
+    "title": "AMD promises 13% uplift with new EXPO ‘Ultra Low Latency’ overclocking on DDR5 DIMMs — automatic memory overclocking delivers 4% improvement over standard EXPO, says AMD",
+    "url": "https://www.tomshardware.com/pc-components/ram/amd-promises-13-percent-uplift-with-new-expo-ultra-low-latency-overclocking-on-ddr5-dimms-automatic-memory-overclocking-delivers-4-percent-improvement-over-standard-expo-says-amd",
+    "source": "Jake Roach",
+    "published_at": "2026-06-01T10:30:00+00:00",
+    "summary": "AMD’s upcoming EXPO ‘Ultra Low Latency’ automatic memory overclocking promises a 13% improvement over standard DDR5 speeds, as well as a 4% jump compared to standard EXPO.",
+    "feed": "Latest from Tom's Hardware"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/laptops/we-went-hands-on-with-qualcomms-new-usd300-and-up-arm-laptop-platform-mystery-eight-core-cpu-in-active-cooled-snapdragon-c-laptop-surfaces-in-acer-aspire-go-15",
+    "platform": "rss",
+    "title": "We went hands-on with Qualcomm's new '$300 and up' ARM laptop platform with mystery eight-core CPU — active-cooled Snapdragon C laptop surfaces in Acer Aspire Go 15",
+    "url": "https://www.tomshardware.com/laptops/we-went-hands-on-with-qualcomms-new-usd300-and-up-arm-laptop-platform-mystery-eight-core-cpu-in-active-cooled-snapdragon-c-laptop-surfaces-in-acer-aspire-go-15",
+    "source": "Paul Alcorn",
+    "published_at": "2026-06-01T10:00:00+00:00",
+    "summary": "We've learned a few new details of the Snapdragon C platform at Computex 2026 by opening up a few Windows utilities on a demo unit.",
+    "feed": "Latest from Tom's Hardware"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/dlss-4-5-ray-reconstruction-update-arrives-in-august-for-better-ray-tracing-visuals-broader-training-data-set-and-second-gen-transformer-architecture-combine-for-improved-image-quality",
+    "platform": "rss",
+    "title": "DLSS 4.5 Ray Reconstruction update arrives in August for better ray tracing visuals — broader training data set and second-gen transformer architecture combine for improved image quality",
+    "url": "https://www.tomshardware.com/video-games/pc-gaming/dlss-4-5-ray-reconstruction-update-arrives-in-august-for-better-ray-tracing-visuals-broader-training-data-set-and-second-gen-transformer-architecture-combine-for-improved-image-quality",
+    "source": "Jeffrey Kampman",
+    "published_at": "2026-06-01T09:30:00+00:00",
+    "summary": "At Computex 2026, Nvidia announced DLSS 4.5 Ray Reconstruction, an updated version of its neural RT denoiser with a second-gen transformer architecture and a broader training data set for better output image quality.",
+    "feed": "Latest from Tom's Hardware"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/laptops/microsoft-surface-laptop-ultra-weilds-nvidias-rtx-spark-superchip-with-128gb-of-ram-20-arm-cpu-cores-and-a-blackwell-gpu-15-inch-mini-led-pixelsense-ultra-display-rounds-out-the-powerful-package",
+    "platform": "rss",
+    "title": "Microsoft Surface Laptop Ultra weilds Nvidia's RTX Spark superchip with 128GB of RAM, 20 Arm CPU cores, and a Blackwell GPU — 15-inch mini-LED PixelSense Ultra display rounds out the powerful package",
+    "url": "https://www.tomshardware.com/laptops/microsoft-surface-laptop-ultra-weilds-nvidias-rtx-spark-superchip-with-128gb-of-ram-20-arm-cpu-cores-and-a-blackwell-gpu-15-inch-mini-led-pixelsense-ultra-display-rounds-out-the-powerful-package",
+    "source": "Kunal Khullar",
+    "published_at": "2026-06-01T09:00:00+00:00",
+    "summary": "Powered by Nvidia's RTX Spark Superchip, the Surface Laptop Ultra features 20 Arm CPU cores, 6,144 CUDA cores, and up to 128GB of unified memory",
+    "feed": "Latest from Tom's Hardware"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/cpus/nvidia-unveils-dgx-sparrk-roadmap-for-laptops-and-desktop-pcs-at-computex-2026-three-generations-outlined-rubin-followed-by-rosa-feynman",
+    "platform": "rss",
+    "title": "Nvidia lays out RTX Spark roadmap for laptops and desktop PCs at Computex 2026 — three generations outlined, Rubin with LPDDR6 memory, followed by Rosa Feynman",
+    "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-unveils-dgx-sparrk-roadmap-for-laptops-and-desktop-pcs-at-computex-2026-three-generations-outlined-rubin-followed-by-rosa-feynman",
+    "source": "Jeffrey Kampman",
+    "published_at": "2026-06-01T05:55:07+00:00",
+    "summary": "Along with its first-generation RTX Spark platform for desktop and laptop PCs, Nvidia CEO Jensen Huang revealed the company's commitment to future generations of those platforms on its future roadmaps.",
+    "feed": "Latest from Tom's Hardware"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
+    "platform": "rss",
+    "title": "Nvidia unveils RTX Spark Superchip for laptops and desktop PCs at Computex 2026 – new platform promises to turn Windows into an agentic AI OS with Arm CPU, Blackwell GPU, and 128GB unified memory",
+    "url": "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
+    "source": "Jeffrey Kampman",
+    "published_at": "2026-06-01T04:52:13+00:00",
+    "summary": "At Computex 2026, Nvidia CEO Jensen Huang unveiled the RTX Spark Superchip, a new Arm laptop and desktop platform that powers agentic AI on Windows with a 20-core Arm CPU, powerful 6144-CUDA-core Blackwell GPU, and up to 128 GB of local memory.",
     "feed": "Latest from Tom's Hardware"
   },
   {
@@ -333,6 +453,16 @@
     "source": "Jeffrey Kampman",
     "published_at": "2026-06-01T03:00:00+00:00",
     "summary": "Intel revealed more details of its next-gen Data Center GPU, code-named Crescent Island, at Computex 2026. This inference-optimized chip will feature up to 480GB of LPDDR5X memory for efficient handling of massive AI contexts.",
+    "feed": "Latest from Tom's Hardware"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel",
+    "platform": "rss",
+    "title": "Intel Xeon 6+ ‘Clearwater Forest’ puts 18A in the data center with up to 288 cores, 576 MB of L3 cache — new Xeon 6990E+ is 30% faster per thread than 192-core AMD Epyc 9965, says Intel",
+    "url": "https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel",
+    "source": "Jake Roach",
+    "published_at": "2026-06-01T03:00:00+00:00",
+    "summary": "Intel is putting its 18A node into the data center with new Xeon 6+ Clearwater Forest CPUs, which pack up to 288 E-cores for dense compute.",
     "feed": "Latest from Tom's Hardware"
   },
   {
@@ -476,136 +606,6 @@
     "feed": "Latest from Tom's Hardware"
   },
   {
-    "id": "rss:https://www.tomshardware.com/pc-components/sound-cards/orpheus-ii-isa-soundcard-returns-due-to-popular-demand-aimed-at-dos-and-early-windows-users-this-card-includes-hardware-to-support-every-major-audio-standard",
-    "platform": "rss",
-    "title": "Orpheus II ISA soundcard returns due to ‘popular demand’ — aimed at DOS and early Windows users, this card includes hardware to support every major audio standard",
-    "url": "https://www.tomshardware.com/pc-components/sound-cards/orpheus-ii-isa-soundcard-returns-due-to-popular-demand-aimed-at-dos-and-early-windows-users-this-card-includes-hardware-to-support-every-major-audio-standard",
-    "source": "Mark Tyson",
-    "published_at": "2026-05-31T12:00:00+00:00",
-    "summary": "Want real Sound Blaster, Gravis UltraSound, OPL3 FM synthesis, and MPU-401 MIDI support? You got it.",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/pc-components/gpu-drivers/you-can-still-run-the-original-nvidia-control-panel-by-grabbing-it-from-the-microsoft-store-today-app-remains-useful-to-adjust-a-handful-of-rtx-pro-and-quadro-features-and-may-be-handy-for-troubleshooting",
-    "platform": "rss",
-    "title": "You can still run the original Nvidia Control Panel by grabbing it from the Microsoft Store today — app remains useful to adjust a handful of RTX Pro and Quadro features, and may be handy for troubleshooting",
-    "url": "https://www.tomshardware.com/pc-components/gpu-drivers/you-can-still-run-the-original-nvidia-control-panel-by-grabbing-it-from-the-microsoft-store-today-app-remains-useful-to-adjust-a-handful-of-rtx-pro-and-quadro-features-and-may-be-handy-for-troubleshooting",
-    "source": "Mark Tyson",
-    "published_at": "2026-05-31T11:30:00+00:00",
-    "summary": "The old Nvidia Control Panel is now a separate, optional download, but is it worth grabbing?",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/software/windows/bill-gates-once-starred-in-a-bizarre-doom-promo-to-push-windows-95-back-in-1993-tech-mogul-wore-a-trench-coat-wielded-a-shotgun-and-shot-a-demon-saying-who-do-you-want-to-execute-today",
-    "platform": "rss",
-    "title": "Bill Gates once starred in a bizarre Doom promo to push Windows 95 back in 1993 — tech mogul wore a trench coat, wielded a shotgun, and shot a demon, saying 'Who do you want to execute today?'",
-    "url": "https://www.tomshardware.com/software/windows/bill-gates-once-starred-in-a-bizarre-doom-promo-to-push-windows-95-back-in-1993-tech-mogul-wore-a-trench-coat-wielded-a-shotgun-and-shot-a-demon-saying-who-do-you-want-to-execute-today",
-    "source": "Mark Tyson",
-    "published_at": "2026-05-31T11:00:00+00:00",
-    "summary": "Bill Gates gives a possessed Doom heavy weapon dude both barrels in a rediscovered Windows 95 plus DirectX gaming presentation.",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/3d-printing/california-assembly-passes-3d-printer-bill-that-would-criminalize-bypassing-mandated-gun-blocking-software",
-    "platform": "rss",
-    "title": "California Assembly passes 3D printer bill that would criminalize bypassing mandated gun-blocking software",
-    "url": "https://www.tomshardware.com/3d-printing/california-assembly-passes-3d-printer-bill-that-would-criminalize-bypassing-mandated-gun-blocking-software",
-    "source": "Luke James",
-    "published_at": "2026-05-30T17:10:16+00:00",
-    "summary": "California's Assembly has passed AB 2047, the California Firearm Printing Prevention Act, sending the amended bill to the state Senate.",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/a-robot-startup-is-wreaking-havoc-on-short-term-rentals-in-san-francisco-airbnb-hosts-allege-guests-secretly-tested-robots-indoors-left-the-units-completely-trashed",
-    "platform": "rss",
-    "title": "A robot startup is wreaking havoc on short-term rentals in San Francisco — Airbnb hosts allege 'guests' secretly tested robots indoors, left the units completely trashed",
-    "url": "https://www.tomshardware.com/tech-industry/a-robot-startup-is-wreaking-havoc-on-short-term-rentals-in-san-francisco-airbnb-hosts-allege-guests-secretly-tested-robots-indoors-left-the-units-completely-trashed",
-    "source": "Hassam Nasir",
-    "published_at": "2026-05-30T17:09:50+00:00",
-    "summary": "Picture this: you're the owner of a dainty place in San Francisco. You put it up on Airbnb, considering the area is sprawling with AI bros, thinking you'd get a pretty good return on your investment. What you actually get in return are scratched kitchens, damaged appliances, bizarre rearrangements, ",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-5800x-and-nvidia-rtx-5060-combo-is-only-usd439-deal-includes-a-free-cpu-cooler-totaling-out-to-usd150-in-savings-for-a-great-budget-setup",
-    "platform": "rss",
-    "title": "AMD Ryzen 7 5800X and Nvidia RTX 5060 combo is only $439 — deal includes a free CPU cooler, totaling out to $150 in savings for a great budget setup",
-    "url": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-5800x-and-nvidia-rtx-5060-combo-is-only-usd439-deal-includes-a-free-cpu-cooler-totaling-out-to-usd150-in-savings-for-a-great-budget-setup",
-    "source": "Hassam Nasir",
-    "published_at": "2026-05-30T14:49:34+00:00",
-    "summary": "If you've been looking to upgrade from an older system or just want to build a new one but 2026 prices have stopped you, we've got just the deal. The CPU and GPU are the two most important parts of a PC build, and Newegg is offering a solid 8-core processor paired with a strong 1080p graphics card f",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/pc-components/power-supplies/atx12vo-v3-standard-shrinks-the-connector-and-maximizes-power-efficiency-new-8-pin-connector-also-brings-smarter-power-supply-monitoring",
-    "platform": "rss",
-    "title": "ATX12VO V3 standard shrinks the connector and maximizes power efficiency — new 8-pin connector also brings smarter power supply monitoring",
-    "url": "https://www.tomshardware.com/pc-components/power-supplies/atx12vo-v3-standard-shrinks-the-connector-and-maximizes-power-efficiency-new-8-pin-connector-also-brings-smarter-power-supply-monitoring",
-    "source": "Kunal Khullar",
-    "published_at": "2026-05-30T14:10:35+00:00",
-    "summary": "Intel's next-generation 12V-only PSU standard reportedly adds PMBus support, smaller connectors, and improved power efficiency.",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/msis-new-32-oled-monitor-can-switch-between-4k-360-hz-1440p-520-hz-and-1080p-680-hz-featuring-a-penta-tandem-qd-oled-panel-with-rgb-stripe-subpixels",
-    "platform": "rss",
-    "title": "MSI's new 32-inch OLED monitor can switch between 4K 360 Hz, 1440p 520 Hz, and 1080p 680 Hz — featuring a 'Penta Tandem' QD-OLED panel with RGB stripe subpixels",
-    "url": "https://www.tomshardware.com/monitors/gaming-monitors/msis-new-32-oled-monitor-can-switch-between-4k-360-hz-1440p-520-hz-and-1080p-680-hz-featuring-a-penta-tandem-qd-oled-panel-with-rgb-stripe-subpixels",
-    "source": "Hassam Nasir",
-    "published_at": "2026-05-30T13:30:00+00:00",
-    "summary": "Have you ever thought that going from 4K to 1080p on a dual-mode monitor was just too much of compromise for higher refresh rates? Well, worry not, as MSI has just answered your prayers with a 4K 360 Hz QD-OLED monitor that has a 1440p 520 Hz mode and a 1080p 680 Hz mode, all packaged nicely inside ",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/nikon-plans-to-undercut-asml-on-price-to-win-back-chipmaking-lithography-customers",
-    "platform": "rss",
-    "title": "Nikon weaponizes lower prices to break ASML's lithography monopoly — tech giant leverages in-house manufacturing to slash prices to lure back American chipmakers",
-    "url": "https://www.tomshardware.com/tech-industry/nikon-plans-to-undercut-asml-on-price-to-win-back-chipmaking-lithography-customers",
-    "source": "Luke James",
-    "published_at": "2026-05-30T13:00:00+00:00",
-    "summary": "Nikon will try to claw back lithography customers by selling argon fluoride (ArF) tools for less than the market leader, ASML.",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/kevin-oleary-claims-chinese-propaganda-is-to-blame-for-anti-datacenter-sentiment-industry-proponents-and-trump-administration-reinforce-claims-of-foreign-interference",
-    "platform": "rss",
-    "title": "Kevin O'Leary claims Chinese propaganda is to blame for anti-datacenter backlash, 'hundreds of millions of dollars' being spent to kill US dominance in AI — industry proponents and Trump administration reinforce claims of foreign interference",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/kevin-oleary-claims-chinese-propaganda-is-to-blame-for-anti-datacenter-sentiment-industry-proponents-and-trump-administration-reinforce-claims-of-foreign-interference",
-    "source": "Bruno Ferreira",
-    "published_at": "2026-05-30T12:30:00+00:00",
-    "summary": "Kevin O'Leary claims Chinese propaganda to blame for anti-datacenter sentiment.",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/huawei-chairman-thanks-the-us-for-supercharging-chinas-semiconductor-industry-washingtons-export-controls-encouraged-chinese-firms-to-invest-in-r-and-d-and-build-their-own-tech-stack-competing-with-american-technologies",
-    "platform": "rss",
-    "title": "Huawei chairman thanks the US for export restrictions on chips, says it supercharged China’s semiconductor industry — Washington’s export controls encouraged Chinese firms to invest in R&D and build their own tech stack competing with American tech",
-    "url": "https://www.tomshardware.com/tech-industry/huawei-chairman-thanks-the-us-for-supercharging-chinas-semiconductor-industry-washingtons-export-controls-encouraged-chinese-firms-to-invest-in-r-and-d-and-build-their-own-tech-stack-competing-with-american-technologies",
-    "source": "Jowi Morales",
-    "published_at": "2026-05-30T12:00:00+00:00",
-    "summary": "Huawei's current Rotating Chairman thanked the United States for its export bans, which boosted the progress of China's semiconductor industry. He made the comment after unveiling the groundbreaking LogicFolding chip architecture, when reporters asked him how the company came up with the idea.",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/video-games/handheld-gaming/the-usd60-retro-gaming-handheld-that-escaped-china-has-been-brought-back-home-lenovos-g02-pulled-from-sale-amid-copyright-drama-and-regional-restrictions",
-    "platform": "rss",
-    "title": "Sellers circumvent Lenovo’s retro handheld ban with cheap wholesale storefronts — $41 gray-market G02 units pop up on Alibaba following initial storefront purge, systems were pulled from sale amid copyright drama and regional restrictions",
-    "url": "https://www.tomshardware.com/video-games/handheld-gaming/the-usd60-retro-gaming-handheld-that-escaped-china-has-been-brought-back-home-lenovos-g02-pulled-from-sale-amid-copyright-drama-and-regional-restrictions",
-    "source": "Zhiye Liu",
-    "published_at": "2026-05-30T11:30:00+00:00",
-    "summary": "Lenovo has pulled the G02 from sale on different Chinese e-commerce platforms after the company discovered that it was being sold outside of China.",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/pc-components/gpus/lucky-pc-builder-snipes-usd2-000-rog-astral-rtx-5080-on-facebook-marketplace-for-usd500-gets-a-nearly-75-percent-discount-card-that-works-perfectly",
-    "platform": "rss",
-    "title": "Lucky PC builder snipes $2,000 ROG Astral RTX 5080 on Facebook Marketplace for $500 — gets a nearly 75% discount card that 'works perfectly'",
-    "url": "https://www.tomshardware.com/pc-components/gpus/lucky-pc-builder-snipes-usd2-000-rog-astral-rtx-5080-on-facebook-marketplace-for-usd500-gets-a-nearly-75-percent-discount-card-that-works-perfectly",
-    "source": "Jowi Morales",
-    "published_at": "2026-05-30T11:00:00+00:00",
-    "summary": "A Redditor scored an RTX 5080 for $500 after they found it on Facebook Marketplace while browsing for deals. Another buyer even offered $800 for the GPU as the OP was on the way to pick up the item, but the seller stuck with the original deal.",
-    "feed": "Latest from Tom's Hardware"
-  },
-  {
     "id": "hn:48012477",
     "platform": "hackernews",
     "title": "Offenders sentenced up to 10 years for spying on TSMC",
@@ -626,6 +626,17 @@
     "summary": "",
     "points": 10,
     "comments": 0
+  },
+  {
+    "id": "hn:48352939",
+    "platform": "hackernews",
+    "title": "Nvidia RTX Spark",
+    "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
+    "source": "shenli3514",
+    "published_at": "2026-06-01T05:24:40+00:00",
+    "summary": "",
+    "points": 82,
+    "comments": 67
   },
   {
     "id": "hn:48291230",
@@ -672,6 +683,28 @@
     "comments": 0
   },
   {
+    "id": "hn:48352693",
+    "platform": "hackernews",
+    "title": "A powerful new chapter for Windows PCs, accelerated by Nvidia RTX Spark",
+    "url": "https://blogs.windows.com/windowsexperience/2026/05/31/introducing-a-powerful-new-chapter-for-windows-pcs-accelerated-by-nvidia-rtx-spark/",
+    "source": "WalterSobchak",
+    "published_at": "2026-06-01T04:45:20+00:00",
+    "summary": "",
+    "points": 20,
+    "comments": 19
+  },
+  {
+    "id": "hn:48352951",
+    "platform": "hackernews",
+    "title": "Nvidia Announces RTX Spark",
+    "url": "https://www.theverge.com/tech/940589/nvidia-rtx-spark-n1-n1x-laptop-desktop-pc-cpu-gpu-ai-release-date",
+    "source": "rayhaanj",
+    "published_at": "2026-06-01T05:26:06+00:00",
+    "summary": "",
+    "points": 15,
+    "comments": 0
+  },
+  {
     "id": "hn:48343372",
     "platform": "hackernews",
     "title": "Dell Confirms XPS Laptop with Nvidia N1X at Computex",
@@ -681,6 +714,17 @@
     "summary": "",
     "points": 11,
     "comments": 0
+  },
+  {
+    "id": "hn:48352705",
+    "platform": "hackernews",
+    "title": "Nvidia and Microsoft Reinvent Windows PCs for the Age of Personal AI",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark",
+    "source": "goshx",
+    "published_at": "2026-06-01T04:47:29+00:00",
+    "summary": "",
+    "points": 10,
+    "comments": 1
   },
   {
     "id": "hn:48195039",

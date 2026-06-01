@@ -2,7 +2,7 @@
   "domain": "大厂 AI 动态",
   "domain_id": "bigtech",
   "topic_id": "default",
-  "fetched_at": "2026-06-01T11:33:19.477747+00:00",
+  "fetched_at": "2026-06-01T11:47:07.677708+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -150,7 +150,7 @@
     },
     {
       "id": "rss:https://www.theverge.com/tech/940572/apples-strategy-smart-glasses-smart-watches",
-      "title": "Apple’s strategy for smart glasses is the same as smart watches",
+      "title": "Apple’s strategy for smart glasses is the same as for smart watches",
       "url": "https://www.theverge.com/tech/940572/apples-strategy-smart-glasses-smart-watches",
       "platform": "rss",
       "source": {
@@ -1067,57 +1067,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/mina-meeting-assistant",
-      "title": "Mina",
-      "url": "https://www.producthunt.com/products/mina-meeting-assistant",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Rohan Chaubey",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-26T18:29:06+00:00",
-      "summary": "Your AI Teammate now responds and executes during your calls Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/socialecho",
-      "title": "SocialEcho 2.0",
-      "url": "https://www.producthunt.com/products/socialecho",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Chris Messina",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-27T16:57:27+00:00",
-      "summary": "AI social media copilot for teams and agents Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/trippple-club",
-      "title": "Trippple Club",
-      "url": "https://www.producthunt.com/products/trippple-club",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Nicolas Grenié",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-26T19:17:42+00:00",
-      "summary": "Advertise together on Meta Ads and pay 3x less Discussion | Link",
-      "lang": "en"
-    },
-    {
       "id": "rss:https://www.producthunt.com/products/typeahead",
       "title": "Typeahead",
       "url": "https://www.producthunt.com/products/typeahead",
@@ -1135,43 +1084,9 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/tabstack",
-      "title": "Tabstack Web Research",
-      "url": "https://www.producthunt.com/products/tabstack",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "fmerian",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-29T23:25:35+00:00",
-      "summary": "Run a research agent with cited answers in a single API call Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/open-caffeine",
-      "title": "Open Caffeine",
-      "url": "https://www.producthunt.com/products/open-caffeine",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Hoon Choi",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T03:48:12+00:00",
-      "summary": "Keep your Mac awake Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/databox",
-      "title": "Databox MCP",
-      "url": "https://www.producthunt.com/products/databox",
+      "id": "rss:https://www.producthunt.com/products/mina-meeting-assistant",
+      "title": "Mina",
+      "url": "https://www.producthunt.com/products/mina-meeting-assistant",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1181,59 +1096,8 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-19T11:05:48+00:00",
-      "summary": "Chat with your business data inside Claude, ChatGPT and more Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/skylive",
-      "title": "Skylive",
-      "url": "https://www.producthunt.com/products/skylive",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Samuel Angel Gallo Ocampo",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-31T23:30:09+00:00",
-      "summary": "Never miss a celestial event, anywhere on Earth Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/tokenwise",
-      "title": "Tokenwise",
-      "url": "https://www.producthunt.com/products/tokenwise",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Théophile Louvart",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-31T14:36:39+00:00",
-      "summary": "A smart LLM proxy that shows where you're overpaying Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/presentify",
-      "title": "Presentify",
-      "url": "https://www.producthunt.com/products/presentify",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Ram Patra",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-18T08:28:43+00:00",
-      "summary": "Take your presentation skills to the next level Discussion | Link",
+      "published_at": "2026-05-26T18:29:06+00:00",
+      "summary": "Your AI Teammate now responds and executes during your calls Discussion | Link",
       "lang": "en"
     },
     {
@@ -1254,71 +1118,54 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/folk-3",
-      "title": "folk",
-      "url": "https://www.producthunt.com/products/folk-3",
+      "id": "rss:https://www.producthunt.com/products/trippple-club",
+      "title": "Trippple Club",
+      "url": "https://www.producthunt.com/products/trippple-club",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Garry Tan",
+        "name": "Nicolas Grenié",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-25T21:24:24+00:00",
-      "summary": "the AI in your texts that gets stuff done Discussion | Link",
+      "published_at": "2026-05-26T19:17:42+00:00",
+      "summary": "Advertise together on Meta Ads and pay 3x less Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma",
-      "title": "Paint By JSON | Figma API Client",
-      "url": "https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma",
+      "id": "rss:https://www.producthunt.com/products/presentify",
+      "title": "Presentify",
+      "url": "https://www.producthunt.com/products/presentify",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Rob McLoughlin",
+        "name": "Ram Patra",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-31T21:45:07+00:00",
-      "summary": "Real API data in your mockups made as easy as lorem ipsum. Discussion | Link",
+      "published_at": "2026-05-18T08:28:43+00:00",
+      "summary": "Take your presentation skills to the next level Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/co-desk",
-      "title": "Emily by Co-Desk",
-      "url": "https://www.producthunt.com/products/co-desk",
+      "id": "rss:https://www.producthunt.com/products/socialecho",
+      "title": "SocialEcho 2.0",
+      "url": "https://www.producthunt.com/products/socialecho",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Rafael Romano",
+        "name": "Chris Messina",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-29T10:21:55+00:00",
-      "summary": "Voice AI copilot for coworking & coliving operators Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/stella-4",
-      "title": "Stella",
-      "url": "https://www.producthunt.com/products/stella-4",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Senan Gaffori",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-31T21:46:27+00:00",
-      "summary": "Local natural language search across all your files Discussion | Link",
+      "published_at": "2026-05-27T16:57:27+00:00",
+      "summary": "AI social media copilot for teams and agents Discussion | Link",
       "lang": "en"
     },
     {
@@ -1339,6 +1186,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.producthunt.com/products/databox",
+      "title": "Databox MCP",
+      "url": "https://www.producthunt.com/products/databox",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Rohan Chaubey",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-19T11:05:48+00:00",
+      "summary": "Chat with your business data inside Claude, ChatGPT and more Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/tokenwise",
+      "title": "Tokenwise",
+      "url": "https://www.producthunt.com/products/tokenwise",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Théophile Louvart",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T14:36:39+00:00",
+      "summary": "A smart LLM proxy that shows where you're overpaying Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/folk-3",
+      "title": "folk",
+      "url": "https://www.producthunt.com/products/folk-3",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Garry Tan",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-25T21:24:24+00:00",
+      "summary": "the AI in your texts that gets stuff done Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/tabstack",
+      "title": "Tabstack Web Research",
+      "url": "https://www.producthunt.com/products/tabstack",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "fmerian",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T23:25:35+00:00",
+      "summary": "Run a research agent with cited answers in a single API call Discussion | Link",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.producthunt.com/products/mistral-7b",
       "title": "Mistral Vibe",
       "url": "https://www.producthunt.com/products/mistral-7b",
@@ -1356,6 +1271,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.producthunt.com/products/open-caffeine",
+      "title": "Open Caffeine",
+      "url": "https://www.producthunt.com/products/open-caffeine",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Hoon Choi",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T03:48:12+00:00",
+      "summary": "Keep your Mac awake Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/co-desk",
+      "title": "Emily by Co-Desk",
+      "url": "https://www.producthunt.com/products/co-desk",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Rafael Romano",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-29T10:21:55+00:00",
+      "summary": "Voice AI copilot for coworking & coliving operators Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/skylive",
+      "title": "Skylive",
+      "url": "https://www.producthunt.com/products/skylive",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Samuel Angel Gallo Ocampo",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T23:30:09+00:00",
+      "summary": "Never miss a celestial event, anywhere on Earth Discussion | Link",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.producthunt.com/products/r0y-ai-financial-studio",
       "title": "R0Y OMNI 1.0",
       "url": "https://www.producthunt.com/products/r0y-ai-financial-studio",
@@ -1370,6 +1336,40 @@
       "views": null,
       "published_at": "2026-05-31T19:03:57+00:00",
       "summary": "Generate more accurate investment dashboards and reports Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma",
+      "title": "Paint By JSON | Figma API Client",
+      "url": "https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Rob McLoughlin",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T21:45:07+00:00",
+      "summary": "Real API data in your mockups made as easy as lorem ipsum. Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/stella-4",
+      "title": "Stella",
+      "url": "https://www.producthunt.com/products/stella-4",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Senan Gaffori",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-31T21:46:27+00:00",
+      "summary": "Local natural language search across all your files Discussion | Link",
       "lang": "en"
     },
     {
@@ -1543,21 +1543,38 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/openstatus-2",
-      "title": "Openstatus MCP Health Checker",
-      "url": "https://www.producthunt.com/products/openstatus-2",
+      "id": "rss:https://www.producthunt.com/products/wingbits-ai",
+      "title": "Wingbits AI",
+      "url": "https://www.producthunt.com/products/wingbits-ai",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "fmerian",
+        "name": "Ben Lang",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-28T14:14:25+00:00",
-      "summary": "Test MCP servers like a real AI client, not just a ping Discussion | Link",
+      "published_at": "2026-05-11T19:20:03+00:00",
+      "summary": "AI agents for real-time aircraft monitoring and alerts Discussion | Link",
       "lang": "en"
+    },
+    {
+      "id": "rss:https://36kr.com/p/3834544830721671?f=rss",
+      "title": "豆包6月下旬正式付费，并加速打通抖音电商丨独家",
+      "url": "https://36kr.com/p/3834544830721671?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T11:44:01+00:00",
+      "summary": "5月初旬，豆包将推出付费订阅服务的消息，引发市场广泛讨论。其在苹果App Store中更新的付费订阅方案显示，豆包将推出四档收费标准：基础版、标准版、加强版、专业版。对应的月收费价格为：免费、68元、200元、500元；年收费价格为：免费、688元、2048元、5088元。 随后官方回应：“豆包始终提供免费服务。在免费服务的基础上，我们也在探索推出更多增值内容，以满足不同用户的差异化需求。” 据36氪独家了解，以上只是豆包商业化的预热动作。在接下来的季度中，豆包将持续推进商业化的落地。知情人士透露，豆包预计将在6月下旬正式上线付费内容，并于同期举行的Force大会上更新相关功能。之所以选择这一时间节点，是因为PC端与移动端仍需约一个月时间，完成基础功能与收费体系的适配改造。 据36氪了解，若进展顺利，豆包将于三季度进一步结合电商功能更新完善付费场景，并通过补贴为抖音商城进行引流，四季度进入运行期。这些动作，皆是为了面向2027年及更长期的商业化回报做准备。因此，2026年豆包将不会把付费用户的渗透率作为考察指标。 2025年10月，豆包初步和抖音电商打通。用户可以通过和豆包的对话，获取...",
+      "lang": "zh"
     },
     {
       "id": "rss:https://36kr.com/p/3826034537223043?f=rss",
@@ -1646,7 +1663,7 @@
     },
     {
       "id": "rss:https://36kr.com/p/3832924137138057?f=rss",
-      "title": "「AromeManpo馥郁满铺」完成近亿元B轮融资，今年线下门店将突破10家",
+      "title": "「AromeManpo馥郁满铺」完成近亿元B轮融资，今年��下门店将突破10家",
       "url": "https://36kr.com/p/3832924137138057?f=rss",
       "platform": "rss",
       "source": {
@@ -1713,9 +1730,9 @@
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3825786926633607?f=rss",
-      "title": "“世纪合并”落空，雅诗兰黛松了一口气",
-      "url": "https://36kr.com/p/3825786926633607?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3834546448723585?f=rss",
+      "title": "银河电子：控股股东未减持公司股份并提前终止减持计划",
+      "url": "https://36kr.com/newsflashes/3834546448723585?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1725,8 +1742,25 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-01T01:50:58+00:00",
-      "summary": "化妆品公司全球市值第四和第九的合并交易落空。 5月21日，美国高端美妆巨头雅诗兰黛与西班牙香水美容集团Puig联合宣布，双方已正式终止就潜在合并事宜展开的谈判，协议未能达成。雅诗兰黛盘后股价随即跳涨逾10%，至86.9美元；Puig股价则在马德里市场重挫逾14%。 交易告吹的导火索，外界说法不一。路透社援引两名知情人士称，Puig旗下英国彩妆品牌Charlotte Tilbury的同名创始人在谈判过程中提出了一系列涉及自身持股回购条款的诉求，在财务上大幅抬高了交易推进的复杂程度。据悉，Charlotte Tilbury目前仍持有品牌约21.5%的股份，Puig预计将在2026至2031年间通过一系列绑定品牌业绩的期权协议逐步完成全额收购——这一未解的悬念，直接搅乱了合并谈判的节奏。 但36氪独家消息来源指出，问题的症结远不止于此：两大集团创始家族内部在合并后公司控制权归属上的根本性分歧，才是谈判最终破裂的核心原因。 该知情人士表示，雅诗兰黛集团第三代创始人Jane Lauder发言权近年在家族内部极速提升，而她正是家族内部针对该交易的反对者。Jane lauder其父、创始人之子Ron...",
+      "published_at": "2026-06-01T11:42:21+00:00",
+      "summary": "36氪获悉，银河电子公告，公司控股股东银河电子集团投资有限公司原拟减持公司股份不超过909.96万股（占本公司总股本0.81%）。公司于近日收到银河电子集团投资有限公司出具的《关于股份减持计划提前终止的告知函》，截至本公告披露日，银河电子集团投资有限公司未减持公司股份，并决定提前终止上述减持计划。",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/newsflashes/3834538829688707?f=rss",
+      "title": "深振业A：拟1.5亿元出售5项深圳地区自有物业",
+      "url": "https://36kr.com/newsflashes/3834538829688707?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-01T11:34:36+00:00",
+      "summary": "36氪获悉，深振业A公告，为盘活存量资产，提高资产周转与资金使用效率，公司董事会同意采用公开挂牌方式在深圳联合产权交易所公开挂牌转让5项深圳地区自有物业，包括：宝丽大厦裙楼二层、宝丽大厦裙楼三层、星海名城三期幼儿园整栋、星海名城组团一商铺肉菜市场一层、星海名城组团一商铺肉菜市场二层。本次拟出售物业挂牌底价总计1.5亿元。",
       "lang": "zh"
     },
     {
@@ -2033,40 +2067,6 @@
       "views": null,
       "published_at": "2026-06-01T09:54:13+00:00",
       "summary": "36氪获悉，Micro-LED显示技术公司“秋水半导体”已于近期连续完成Pre-A及A轮融资，合计近2亿元人民币。本轮融资由朝晖资本领投，通商基金、盛宇投资、宁波人才发展基金、嘉溢创投、涌现科技、数字光芯及兴棠资本跟投，兴棠资本担任长期财务顾问。本轮融资资金将主要用于在宁波高新区建设8英寸混合键合量产线及后续研发投入。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834436137592454?f=rss",
-      "title": "智谱入股驭驯网络科技公司",
-      "url": "https://36kr.com/newsflashes/3834436137592454?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T09:50:08+00:00",
-      "summary": "36氪获悉，天眼查App显示，近日，上海驭驯网络科技有限公司发生工商变更，新增智谱AI旗下北京智谱未来科技有限公司、韩旭为股东，同时注册资本由100万人民币增至约115.9万人民币。该公司成立于2026年3月，法定代表人为熊典，经营范围包括计算机软硬件及辅助设备批发、计算机软硬件及辅助设备零售、工业控制计算机及系统销售等。股东信息显示，该公司现由上海驭驯华清科技中心（有限合伙）、上海智网合言科技中心（有限合伙）及上述新增股东等共同持股。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3834432811296386?f=rss",
-      "title": "上周新增IPO企业受理9家",
-      "url": "https://36kr.com/newsflashes/3834432811296386?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T09:46:45+00:00",
-      "summary": "36氪获悉，据上交所企业上市服务，本期（5月25日—5月31日）新增9家受理企业，其中上交所主板1家，科创板3家。深交所创业板4家，北交所1家。截至5月31日，今年新增44家受理企业。",
       "lang": "zh"
     },
     {
