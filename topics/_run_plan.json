@@ -1,58 +1,58 @@
 {
-  "prepared_at": "2026-06-01 19:45",
+  "prepared_at": "2026-06-01 17:01",
   "domains": [
     {
       "domain": "ai",
       "domain_name": "AI",
       "slug": "ai",
-      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/ai.candidates.json",
-      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/ai.score-prompt.md",
-      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/ai.scored.json"
+      "candidates_file": "/home/runner/work/curio-app/curio-app/topics/ai.candidates.json",
+      "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/ai.score-prompt.md",
+      "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/ai.scored.json"
     },
     {
       "domain": "semiconductor",
       "domain_name": "AI 算力 / 半导体",
       "slug": "semiconductor",
-      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/semiconductor.candidates.json",
-      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/semiconductor.score-prompt.md",
-      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/semiconductor.scored.json"
+      "candidates_file": "/home/runner/work/curio-app/curio-app/topics/semiconductor.candidates.json",
+      "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/semiconductor.score-prompt.md",
+      "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/semiconductor.scored.json"
     },
     {
       "domain": "bigtech",
       "domain_name": "大厂 AI 动态",
       "slug": "bigtech",
-      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/bigtech.candidates.json",
-      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/bigtech.score-prompt.md",
-      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/bigtech.scored.json"
+      "candidates_file": "/home/runner/work/curio-app/curio-app/topics/bigtech.candidates.json",
+      "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/bigtech.score-prompt.md",
+      "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/bigtech.scored.json"
     },
     {
       "domain": "stock",
       "domain_name": "股票",
       "slug": "stock",
-      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/stock.candidates.json",
-      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/stock.score-prompt.md",
-      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/stock.scored.json"
+      "candidates_file": "/home/runner/work/curio-app/curio-app/topics/stock.candidates.json",
+      "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/stock.score-prompt.md",
+      "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/stock.scored.json"
     },
     {
       "domain": "finance-fed",
       "domain_name": "金融",
       "slug": "finance-fed",
-      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/finance-fed.candidates.json",
-      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/finance-fed.score-prompt.md",
-      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/finance-fed.scored.json"
+      "candidates_file": "/home/runner/work/curio-app/curio-app/topics/finance-fed.candidates.json",
+      "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/finance-fed.score-prompt.md",
+      "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/finance-fed.scored.json"
     },
     {
       "domain": "tech-chip",
       "domain_name": "电子信息与芯片",
-      "slug": "domain-17",
-      "candidates_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/tech-chip.candidates.json",
-      "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/domain-17.score-prompt.md",
-      "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/domain-17.scored.json"
+      "slug": "tech-chip",
+      "candidates_file": "/home/runner/work/curio-app/curio-app/topics/tech-chip.candidates.json",
+      "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/tech-chip.score-prompt.md",
+      "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/tech-chip.scored.json"
     }
   ],
   "unified": {
-    "score_prompt_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/unified.score-prompt.md",
-    "expected_scored_file": "/Users/zoezczhou/WorkBuddy/2026-05-29-15-27-22/content-curator/topics/unified.scored.json",
-    "candidates_count": 259
+    "score_prompt_file": "/home/runner/work/curio-app/curio-app/topics/unified.score-prompt.md",
+    "expected_scored_file": "/home/runner/work/curio-app/curio-app/topics/unified.scored.json",
+    "candidates_count": 248
   }
 }

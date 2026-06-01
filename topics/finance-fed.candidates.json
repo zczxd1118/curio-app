@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-06-01T11:47:28.629798+00:00",
+  "fetched_at": "2026-06-01T17:03:12.327932+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -16,10 +16,10 @@
     "HN · inflation": 1,
     "HN · Tesla": 6,
     "HN · finance": 15,
-    "HN · fed": 11
+    "HN · fed": 10
   },
   "subtopics": [],
-  "total": 102,
+  "total": 101,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/youtubers-win-the-box-office-goodbye-gatekeepers-the-youtube-bar/",
@@ -532,14 +532,201 @@
       "lang": "en"
     },
     {
-      "id": "wscn:3773581",
-      "title": "美团电话会：下半年订单增速或放缓，线上线下双向加码AI",
-      "url": "https://wallstreetcn.com/articles/3773581",
-      "summary": "更多消息，持续更新中",
+      "id": "wscn:3773592",
+      "title": "抗议以军扩大在黎行动，伊朗据称将暂停与美沟通，计划彻底封锁霍尔木兹海峡",
+      "url": "https://wallstreetcn.com/articles/3773592",
+      "summary": "据伊媒，伊朗官员称，以色列必须立即停止在黎巴嫩和加沙地带的军事行动，并从黎巴嫩撤出，在此要求得到满足前，伊朗不会举行任何谈判。伊朗最高领袖军事顾问：伊方耐心有限，绝不允许海上封锁继续。伊朗外交部：未就核问题细节进行谈判，重点是结束战争。报道称以色列扩大在黎巴嫩的军事行动是与美国协调进行。美军证实驻科威特基地遭伊朗袭击，称无人员伤亡、成功拦截两枚伊方导弹。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-01T11:38:04+00:00",
+      "published_at": "2026-06-01T16:07:28+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773596",
+      "title": "美国5月ISM制造业扩张速度创四年来最快",
+      "url": "https://wallstreetcn.com/articles/3773596",
+      "summary": "5月ISM制造业指数超预期升至54，连续五个月扩张；新订单增速加速至四个月高位，生产同步回升，AI投资与抢购备货双轮驱动。然而，伊朗冲突推高油价与原材料成本，制造业物价支付指数82.1，小幅回落，仍接近2022年以来高位。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T15:07:46+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773589",
+      "title": "点石成金？特朗普“旧吹票视频”扩散，IBM盘中大涨9%创历史新高",
+      "url": "https://wallstreetcn.com/articles/3773589",
+      "summary": "一段特朗普盛赞IBM首席执行官的老视频在社交媒体上重新流传，叠加巴克莱首次覆盖给予增持评级，推动IBM股价周一盘中一度涨近9%。但行情并非仅由情绪驱动——IBM此前已斩获10亿美元政府量子合同，并宣布百亿美元投资计划。值得注意的是，特朗普信托账户持有IBM股票。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T14:42:08+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773597",
+      "title": "市值差4500亿！智谱狂飙，MiniMax怎么了？",
+      "url": "https://wallstreetcn.com/articles/3773597",
+      "summary": "智谱与MiniMax同日登陆港股，五个月后市值相差近4500亿港元。智谱借Agent叙事和API量价齐升，股价暴涨超1600%；而MiniMax因业务分散缺乏集中交易主题被冷落。尽管两者收入体量相近，资本市场却给出了截然不同的定价。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T14:21:10+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773537",
+      "title": "伊朗称将全面封锁霍尔木兹，美股低开，IBM涨近9%，ARM大涨12%，美油涨6%",
+      "url": "https://wallstreetcn.com/articles/3773537",
+      "summary": "美股三大指数集体低开，纳斯达克综合指数跌0.18%，标普500指数跌0.19%，纳斯达克综合指数跌0.18%。英伟达开盘上涨3%，ARM上涨12%；IBM上涨8.7%，有望创下历史新高。布伦特原油涨破每桶95美元，美元时隔三个交易日首度走强，黄金下跌1.5%至每盎司约4469美元。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T13:50:07+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773593",
+      "title": "豪掷870亿美元押注欧洲AI，孙正义：这场革命比互联网时代大50倍！",
+      "url": "https://wallstreetcn.com/articles/3773593",
+      "summary": "软银宣布在法国建设欧洲最大AI基础设施，规划5GW数据中心容量。孙正义直言AI革命规模或达互联网时代50倍，即使出现泡沫和调整也将是“最佳买点”。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T13:21:45+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773591",
+      "title": "600多元就能押注马斯克？上万人12亿元疯抢“SpaceX代币”，其本质只是一张“白条”，投资者或“血本无归”",
+      "url": "https://wallstreetcn.com/articles/3773591",
+      "summary": "1.4万人豪掷12亿元抢购“SpaceX代币”，但买到的并非SpaceX股权。 preSPAX本质上只是发行方提供的与SpaceX估值挂钩的衍生品，既无分红权、投票权，也无真实股权支撑。其面临底层资产、清算机制和平台信用三重风险，若发行方违约或SpaceX推迟上市，投资者甚至可能血本无归。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T13:12:02+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773590",
+      "title": "华为手机终于要涨价了",
+      "url": "https://wallstreetcn.com/articles/3773590",
+      "summary": "但没有大幅上调",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T13:09:56+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773586",
+      "title": "巴菲特退场后的第一枪 赌的到底是什么？",
+      "url": "https://wallstreetcn.com/premium/articles/3773586?layout=wscn-layout",
+      "summary": "\"后巴菲特时代\"的第一张牌，已经打出来了。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T13:04:24+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773587",
+      "title": "日本追加预算不额外发债，新出口订单与海关出口增速背离，厄尔尼诺呈气象冲击与地缘风险溢价---0601宏观脱水",
+      "url": "https://wallstreetcn.com/premium/articles/3773587?layout=wscn-layout",
+      "summary": "美联储鸽派官员意外放鹰，但美伊缓和使加息定价回落，2027年12月加息的概率仍占主流。日本公布3万亿...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T13:00:41+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773588",
+      "title": "存量公募基金今起调整基准，业内人士：不会引发基金调仓",
+      "url": "https://wallstreetcn.com/articles/3773588",
+      "summary": "此次公募基金修改业绩基准秉持“尽量调整基准而不调仓”的原则，这也意味着调了基准的基金不需要调仓，而不是调了基准导致调仓。事实上，调整基准只是为了让基准更精准地反映产品的投资运作特点，帮助投资者更有效率地筛选基金。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T12:52:23+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773585",
+      "title": "赛力斯打出下一张牌",
+      "url": "https://wallstreetcn.com/articles/3773585",
+      "summary": "联手字节，造一台“AI原生汽车”。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T12:39:36+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773581",
+      "title": "美团电话会：受高基数影响下半年订单增速或放缓，将线上线下双向加码AI",
+      "url": "https://wallstreetcn.com/articles/3773581",
+      "summary": "美团CEO王兴重申“零售+科技”核心战略，表示将持续加大线上线下AI投入。目前，AI助手“小团”已升级至App核心入口，能够处理复杂指令。针对订单走势，管理层预计下半年受高基数影响可能出现同比负增长，但订单结构持续优化，交易总额（GTV）增长将更具韧性，用户频次与留存率的提升才是长期增长的关键驱动力。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T12:33:00+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773506",
+      "title": "你可以不相信叙事甚至是数据 但市场是诚实的：它正在定价滞胀",
+      "url": "https://wallstreetcn.com/premium/articles/3773506?layout=wscn-layout",
+      "summary": "麦当劳们“出卖”了真相。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T12:30:36+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773525",
+      "title": "AI杠杆投注已达历史高点，暴热行情何时迎来拐点？",
+      "url": "https://wallstreetcn.com/premium/articles/3773525?layout=wscn-layout",
+      "summary": "AI硬件杠杆与情绪达历史极值，基本面支撑下短期仍存空间，夏季或迎再平衡。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T12:20:11+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773582",
+      "title": "中国电车5月洗牌加速，零跑、蔚来、极氪集体狂奔，理想失速，比亚迪承压",
+      "url": "https://wallstreetcn.com/articles/3773582",
+      "summary": "零跑汽车以8.16万辆交付量创历史新高，同比增长81%；蔚来、极氪分别实现62.3%和81.8%的同比增长；理想汽车受L系列换代周期影响，5月交付量同比下滑18.4%，成为主要新势力中少数出现负增长的企业。问界环比增长近五成，小米连续两个月交付超3万辆。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T12:10:00+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773584",
+      "title": "打破\"只买不卖\"惯例！MSTR首度出售比特币，套现250万美元",
+      "url": "https://wallstreetcn.com/articles/3773584",
+      "summary": "Strategy于5月26日至31日间以平均每枚77135美元的净价出售了32枚比特币，总金额约250万美元，为Strategy迄今首次正式披露的比特币处置操作。此次出售均价高于持仓成本约1.9%，公司当前整体持仓账面盈利空间已大幅收窄。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T12:09:27+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773583",
+      "title": "美团领投 A 轮， Mindverse 总融资 5000 万美元，打造持续学习的 Agent 模型",
+      "url": "https://wallstreetcn.com/articles/3773583",
+      "summary": "Mindverse专注用强化学习+LoRA技术进行模型后训练，让Agent从真实任务中持续学习、低成本进化，而非仅靠提示词拼凑。基于这一理念，团队即将开源750B参数Agent模型。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-01T12:06:50+00:00",
       "points": 0
     },
     {
@@ -562,193 +749,6 @@
       "platform": "rss",
       "lang": "zh",
       "published_at": "2026-06-01T11:16:17+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773576",
-      "title": "MLCC 会成为下一个存储吗？",
-      "url": "https://wallstreetcn.com/articles/3773576",
-      "summary": "华泰证券表示，英伟达Rubin架构驱动AI服务器MLCC量价齐升，单机柜价值量跃升至2.2万-4万美元，村田等龙头已提价15%-35%。供需格局类似HBM，但MLCC资本壁垒远低于存储，中长期供给存风险。当前板块PE达43.3倍，溢价充分，后续需紧盯盈利兑现，AI高容龙头、通用品份额较高的厂商、以及A股高容/电感国产化进程三条主线。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T11:14:50+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773577",
-      "title": "一家中小跨境电商的AI拼连接样本",
-      "url": "https://wallstreetcn.com/articles/3773577",
-      "summary": "AI开始接管脏活累活。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T11:14:00+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773575",
-      "title": "老黄的Token经济学翻车了！微软亚马逊通通跳车",
-      "url": "https://wallstreetcn.com/articles/3773575",
-      "summary": "企业AI支出正从狂热转向理性。一家神秘公司月耗5亿美元Claude账单，亚马逊则因员工为冲榜滥用AI而取消内部工具排行榜。微软收缩Claude Code授权，Uber四个月烧光全年预算。黄仁勋“多用Token即省钱”的Token经济学，正被一张张巨额账单和低ROI的现实挑战。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T11:13:29+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773580",
-      "title": "延续小阳春热度！5月上海二手房成交超2.8万套，刷新6年来同期新高",
-      "url": "https://wallstreetcn.com/articles/3773580",
-      "summary": "业内分析人士认为，二手房市场开始从“以价换量”模式进入“量价齐稳”的新阶段；新房市场伴随供应回暖，置换链条也越来越顺畅，市场普遍看好房企半年度业绩冲刺带来的成交行情。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T11:09:15+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773570",
-      "title": "黄仁勋的“Agent工厂”里，装了什么新故事？",
-      "url": "https://wallstreetcn.com/articles/3773570",
-      "summary": "黄仁勋把叙事重心从“芯片全家桶”转向了“Agent工厂”。随着Vera Rubin量产及DGX Station、DSX等发布，英伟达正围绕智能体重构从芯片、模型到人形机器人的完整技术体系。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T09:35:03+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773571",
-      "title": "美团Q1营收同比增5.6%超预期，环比大幅减亏超百亿｜财报见闻",
-      "url": "https://wallstreetcn.com/articles/3773571",
-      "summary": "美团2026年Q1营收910亿元，经调整净亏损49.7亿元，25年Q4为亏损151亿元。受竞争加剧影响，核心本地商业由盈转亏，营销开支激增51.1%至230亿元。新业务收入增21.3%，亏损收窄。AI投入加码，战略转向生态价值对冲补贴战，环比修复信号显现。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T09:21:03+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773574",
-      "title": "6名中金分析师变身Skill  券商AI竞争再加速",
-      "url": "https://wallstreetcn.com/articles/3773574",
-      "summary": "6月1日，中金点睛宣布新增上线6位分析师Skill，并在Agent模式中开放调用；\n用户完成注册后，...",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T09:19:29+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773573",
-      "title": "73天极速！宇树科技IPO过会，A股具身智能第一股呼之欲出！",
-      "url": "https://wallstreetcn.com/articles/3773573",
-      "summary": "按发行比例不低于10%测算，公司整体估值至少达420亿元，业内普遍预期实际市值将远高于此。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T09:15:06+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773569",
-      "title": "黄仁勋的棋局：AI算力的每一条路，都有英伟达在等候",
-      "url": "https://wallstreetcn.com/articles/3773569",
-      "summary": "黄仁勋在中国台北宣布两件事：CUDA首次塞进笔记本，万亿参数推理搬上企业桌面。这不是英伟达在抢云厂商生意，而是把收费口从一个扩成三个——数据中心、背包、桌边，无论AI跑在哪里，英伟达都守在路口等着收钱。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T08:41:33+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773572",
-      "title": "英伟达亮出三张“新王牌”",
-      "url": "https://wallstreetcn.com/articles/3773572",
-      "summary": "英伟达在GTC大会上推出三项重大更新：旗舰AI平台Vera Rubin正式量产，打破延期传闻；推出专为代理式AI设计的Vera CPU，使CPU与GPU销售价值比趋近1:1，直接挑战英特尔与AMD；联合微软发布基于ARM架构的消费级AI PC芯片RTX Spark。花旗视此为积极信号，维持买入评级与300美元目标价。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T08:39:24+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773543",
-      "title": "创业板跌超2%，AI PC、AI应用逆势活跃，算力硬件齐跌，恒科指涨超1%，科网股普涨",
-      "url": "https://wallstreetcn.com/articles/3773543",
-      "summary": "盘面上，个股涨多跌少，沪深京三市超3700股飘红，今日成交2.89万亿。沪深两市成交额2.88万亿，较上一个交易日缩量超4400亿。板块方面，半导体、算力硬件产业链深度回调，GPU、CPO、PCB方向领跌，光刻机、光纤方向跌幅靠前；稀土、商业航天、创新药概念股走弱。煤炭、电力、传媒板块走强，AI PC、AI应用题材活跃。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T08:39:20+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773350",
-      "title": "硅基通胀与碳基崩溃：一头灰犀牛正在被养成",
-      "url": "https://wallstreetcn.com/premium/articles/3773350?layout=wscn-layout",
-      "summary": "当灰犀牛冲进交易大厅的时候，市场是否已经做好了准备？",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T08:16:56+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773568",
-      "title": "英特尔押注玻璃基板：印度33亿美元建厂，年产能7万片",
-      "url": "https://wallstreetcn.com/articles/3773568",
-      "summary": "英特尔联手3DGS豪掷33亿美元，在印度奥里萨邦布局玻璃基板工厂，年产能预计达7万片。与此同时，新墨西哥州量产基地亦在筹备中，两地并行提速商业化进程。台积电、三星、SKC同台竞技，玻璃基板正从实验室走向规模化战场，下一代AI芯片封装的材料革命悄然加速。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T08:15:56+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773558",
-      "title": "创历史新高！韩国5月芯片出口372亿美元",
-      "url": "https://wallstreetcn.com/articles/3773558",
-      "summary": "AI芯片需求引爆韩国出口狂潮：5月出口额同比飙升53.2%至875亿美元，创1984年以来最快增速，芯片单月出口首破370亿美元、同比近乎翻三倍，连续三月站稳300亿美元关口。三星、SK Hynix坐享AI基建红利，分析师预计这一强劲势头将贯穿全年。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T08:09:33+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773564",
-      "title": "伊朗战争意外加速全球LNG产能扩张，供应过剩不远了？",
-      "url": "https://wallstreetcn.com/articles/3773564",
-      "summary": "霍尔木兹海峡封锁使全球LNG供应骤减两成、3月亚洲基准价飙升至30美元。但分析指出，因亚洲买家正转往域外寻求能源安全，恐引发北美等地的项目建设热潮；叠加买方转向太阳能和煤炭，中长期反将加速LNG第三波更大规模、更持久的供应过剩。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T08:08:40+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773537",
-      "title": "AI热情主导市场，英伟达盘前涨超2%，软件股大涨，美光股价站上1000美元，油价攀升",
-      "url": "https://wallstreetcn.com/articles/3773537",
-      "summary": "美股盘前存储芯片股走高，美光科技涨超3%，闪迪涨超2%。Arm美股盘前涨超8%。英伟达美股盘前涨超2%。布伦特原油涨破每桶93美元，基准10年期美国国债收益率上涨3个基点至4.47%，美元时隔三个交易日首度走强，黄金下跌0.4%至每盎司约4520美元。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T08:07:28+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773559",
-      "title": "本轮“抱团”行情是否松动？",
-      "url": "https://wallstreetcn.com/articles/3773559",
-      "summary": "5月最后一周，A股风格悄然生变：科技抱团松动，消费白马、地产、煤电集体反弹。成交额前5%个股占全市场近50%，创2021年以来最高；沪深300逾七成成分股跑输指数。中泰证券判断，6月指数仍有冲高可能，却是典型\"鱼尾行情\"：空间越来越小，赚钱效应越来越差。历史上，极致抱团后的低位补涨，往往不是主升中段，而是行情末端的最后一棒。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-01T07:46:36+00:00",
       "points": 0
     },
     {
@@ -1144,7 +1144,7 @@
       },
       "duration_sec": null,
       "views": 18,
-      "comments": 8,
+      "comments": 9,
       "published_at": "2026-05-30T17:59:59+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -1645,25 +1645,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:47987931",
-      "title": "Modern C++ Programming: Busato",
-      "url": "https://github.com/federico-busato/Modern-CPP-Programming",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "47987931",
-        "name": "KnuthIsGod",
-        "hn_url": "https://news.ycombinator.com/item?id=47987931"
-      },
-      "duration_sec": null,
-      "views": 102,
-      "comments": 27,
-      "published_at": "2026-05-02T16:40:29+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
       "id": "hn:48319968",
       "title": "Undisclosed addition in jqwik instructed AI coding agents to delete app output",
       "url": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code/",
@@ -1675,7 +1656,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48319968"
       },
       "duration_sec": null,
-      "views": 63,
+      "views": 64,
       "comments": 1,
       "published_at": "2026-05-29T07:05:31+00:00",
       "summary": "",
