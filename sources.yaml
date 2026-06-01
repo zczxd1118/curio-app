@@ -337,3 +337,60 @@ domains:
           url: https://www.netinterest.co/feed
           lang: en
     icon_type: finance
+  finance-fed:
+    name: 金融
+    icon: 📰
+    frequency: daily
+    topics:
+      default:
+        name: 金融
+        sources:
+        - name: Stratechery
+          kind: rss
+          url: https://stratechery.com/feed/
+          lang: en
+        - name: Net Interest（金融行业深度）
+          kind: rss
+          url: https://www.netinterest.co/feed
+          lang: en
+        - name: 华尔街见闻 API
+          kind: wallstreetcn_api
+          url: https://api.wallstreetcn.com/apiv1/content/articles?cursor=&limit=20
+          lang: zh
+          optional: true
+        - name: arXiv q-fin（量化金融论文）
+          kind: rss
+          url: https://export.arxiv.org/rss/q-fin
+          lang: en
+          optional: true
+        - name: HN · Federal Reserve
+          kind: hn_search
+          query: Federal Reserve
+          days: 30
+          min_points: 30
+          lang: en
+        - name: HN · inflation
+          kind: hn_search
+          query: inflation
+          days: 30
+          min_points: 50
+          lang: en
+        - name: HN · Tesla
+          kind: hn_search
+          query: Tesla
+          days: 14
+          min_points: 50
+          lang: en
+        - name: HN · finance
+          kind: hn_search
+          query: finance
+          days: 30
+          min_points: 30
+          lang: en
+        - name: HN · fed
+          kind: hn_search
+          query: fed
+          days: 30
+          min_points: 30
+          lang: en
+    icon_type: ai
