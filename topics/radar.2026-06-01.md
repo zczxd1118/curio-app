@@ -1,0 +1,142 @@
+# Curio 趋势雷达 · 2026-06-01
+
+> 你的私人主编 · 今日跨域精选 4 条头条 + 12 条备选
+
+_本期跨域三大信号：① 金融端 Stratechery 把 SpaceX IPO 与「太空数据中心」串成同一根叙事线，估值逻辑首次被讲透；② 大厂端 Google 把搜索框改成 AI 模式后立刻被 DuckDuckGo 28% 增量打脸——AI 搜索的默认行为正在松动；③ 数据中心选址被本地社区一票否决从个案变趋势，Microsoft 在威斯康星 244 英亩项目黯然撤退。按你「想看 AI 技术相关」的请求，我额外挑了一条 Claude Opus 4.8 发布作为 AI 工程实践入口。_
+
+---
+
+## 🌟 金融
+
+### 1. SpaceX IPO 估值靠的不是火箭，是「太空数据中心」这条新叙事
+
+**[金融]** · ⭐⭐⭐⭐⭐ · _Stratechery · Ben Thompson_
+
+Ben Thompson 在 5/27 的核心文章里直说：传统财务模型撑不起 SpaceX 当前估值，但「在轨数据中心」这一条新叙事可能撑得起。Starlink 现金流年化 100 亿+ 已成事实，加上 Lumen Orbit / Starcloud 一类初创开始试验真空散热 + 太阳能直供的轨道算力，让 SpaceX 从「卫星互联网」变成「下一代 AI 算力供应商」候选。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| SpaceX 据 WSJ 准备启动 IPO，估值 4000 亿美元区间 | 传统现金流 DCF 估不到 4000 亿，故事先于财报 |
+| Starlink 年化收入已破 100 亿美元 | 在轨数据中心商业可行性还要 5-7 年验证 |
+| 多家轨道数据中心初创已在融资（Lumen Orbit / Starcloud） | 若成立，Anthropic / OpenAI 的算力依赖会从 Nvidia 转向 SpaceX 一档 |
+| Stratechery 是 Ben Thompson 个人付费 newsletter，付费用户 ~3 万订阅 |  |
+
+**📖 主编点评**
+
+如果你在做 AI 产品 / Agent 路线规划，这条值得收藏一份。Ben Thompson 的判断曲线在这个圈子里是被对照系——他押注 SpaceX 而不是 Anthropic 估值，意味着「算力供应」可能是下一个 5 年的护城河层。短期看不出影响，但中期决定你选哪个 LLM 当默认依赖时多想一层。
+
+📺 [打开原文](https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/)
+
+---
+
+## 🌟 大厂讯息
+
+### 2. Google 说「用户爱 AI 搜索」一周后，DuckDuckGo 流量涨了 28%
+
+**[大厂讯息]** · ⭐⭐⭐⭐⭐ · _PC Gamer · HN 1071 票_
+
+Google 5 月把搜索框默认切成 AI Overview 模式，并对外宣称「用户喜爱」。一周后第三方统计 DuckDuckGo（明确 AI-free 卖点）周访问量同比增加 27.8%，HN 上 1000+ 票讨论。这是 Google 把 AI 强推默认搜索后第一次有对照组数据。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| DuckDuckGo 周访问 +27.8%（PCGamer 引第三方） | 增量来自「逃 AI 」还是常规波动还要看下月数据 |
+| Google 5 月把 AI Overview 升级为搜索框默认入口 | Google 是否会回退默认设置（短期看不会） |
+| HN 这条 1071 票讨论几乎一边倒批评 Google | ChatGPT Search / Perplexity 是否分到了同一波流量（暂无数据） |
+
+**📖 主编点评**
+
+用户行为正在投票。你应该把「AI 搜索」当一个选项而不是默认——尤其是要事实校验、要原文链接的查询，DuckDuckGo / 直接搜索引擎 比 AI Overview 准。同时这是 Google 十年来第一次出现「我做 AI，用户跑了」的可观测信号。
+
+📺 [打开原文](https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/)
+
+---
+
+## 🌟 AI / 科技
+
+### 3. Claude Opus 4.8 发布：Agent 任务基准 +11pp，多模态推理首次拿到 GPT-5 同档分
+
+**[AI / 科技]** · ⭐⭐⭐⭐⭐ · _Anthropic · HN 1734 票_
+
+Anthropic 5/28 发布 Claude Opus 4.8。HN 1734 票，本周英文圈头号事件。相比 4.6，Opus 4.8 在 Agent 任务基准（SWE-bench Verified、TAU-bench）提升 11 个百分点，多模态推理与代码编辑首次拿到 GPT-5 同档分数。这意味着你手头基于 Claude Code 的 vibe coding 工作流自动获益，不需要切换工具栈。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Anthropic 5/28 发布 Claude Opus 4.8 | 对 OpenAI / Google 的代码 Agent 是否构成压力（Cursor / Windsurf 切默认模型？） |
+| Agent 基准（SWE-bench / TAU-bench）相对 4.6 +11pp | API 价格是否调整（暂未公布） |
+| 多模态推理首次与 GPT-5 同档 | 10M context 是否在 Opus 路线图上 |
+| HN 1734 票本周第一 |  |
+
+**📖 主编点评**
+
+你订阅的「想看 AI 技术相关」我用这条对应。具体行动：今天打开 Claude Code 升级到 Opus 4.8（自动），下午跑一个你之前 4.6 跑不动的大型重构任务对照——Agent 基准 +11pp 在真实 codebase 里通常体现在「多文件修改一次成功率」上，你能立刻感知。
+
+📺 [打开原文](https://www.anthropic.com/news/claude-opus-4-8)
+
+---
+
+## 🌟 半导体
+
+### 4. Microsoft 在威斯康星 244 英亩数据中心被本地社区否决撤回
+
+**[半导体]** · ⭐⭐⭐⭐ · _TMJ4 News · HN 179 票_
+
+Microsoft 5 月底正式撤回威斯康星 Caledonia 244 英亩数据中心选址计划。这是 2026 年第 4 起本地政府/居民投票否决新建 AI 数据中心的案例，前三起分别在弗吉尼亚 Prince William 县、得州 Hays County、亚利桑那 Mesa。Stratechery 同期连续两周（5/22 + 5/18）专题分析「数据中心一票否决」从个案变趋势。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Microsoft 5/25 正式撤回 244 英亩选址 | DLR、QTS、CoreWeave 一类数据中心 REIT 估值是否受影响 |
+| 今年第 4 起社区否决案例 | Nvidia 出货是否会被「土地许可」反向卡脖 |
+| Stratechery 连续两周专题：The Data Center Veto | 电网 / 水资源是否成为 AI 算力扩张新瓶颈 |
+| 拒绝理由集中在噪音 / 用水 / 电力 |  |
+
+**📖 主编点评**
+
+如果你做半导体 / AI 算力赛道的产品判断，这条信号比单条 Nvidia 财报更重要。「芯片不再是唯一瓶颈，土地与许可正在成为新供应限制」——这是你做 12-24 个月路线图时要纳入的硬约束，别只算 GPU 数量不算建设许可周期。
+
+📺 [打开原文](https://www.tmj4.com/news/racine-county/microsoft-pulls-plug-on-plans-for-244-acre-data-center-in-caledonia-after-community-pushback)
+
+---
+
+## 📋 备选池
+
+### AI / 科技
+
+- [Claude Code Workflow 功能完整实战教程：ultrawork 召唤多 Agent 协同](https://www.bilibili.com/video/BV1KoGE6cE53) —— Workflow 是 Claude Code 5/24 加的子 Agent 编排能力，这个 UP 主第一手实战拆解，跟你 vibe coding 工作流强相关。
+  _B站 · AI超元域_
+- [Real-time LLM Inference on Standard GPUs: 3k tokens/s per request](https://news.ycombinator.com/item?id=48321076) —— 标准 GPU 上单请求 3000 tokens/s 推理优化，工程派必读，离你「AI 工程实践」偏好很贴。
+  _HN 204 票_
+- [AI Coding 进阶：从 Vibe/Plan/Spec 到 Harness Engineering 与 Agent Teams](https://www.bilibili.com/video/BV1MJXZBgE32) —— 把 vibe coding 升级到「team of agents」的工程化路径，比单纯 Claude Code 教程深一层。
+  _B站 · Qoder_
+
+### 金融
+
+- [Stratechery: Nvidia Earnings, The AI Stack, Nvidia's New Reporting](https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/) —— Nvidia 拆分 hyperscaler vs 其他客户的新口径——商业模式分析比财务模型更有信息量。
+  _Stratechery · Ben Thompson_
+- [美国 5 月 CPI 同比 3.8%，能源分项推升通胀预期](https://www.bbc.com/news/articles/c202pgxx89lo) —— 5 月通胀超预期，能源因伊朗冲突推升 4.2%，美联储 9 月降息预期回落到 41%。
+  _BBC · HN 260 票_
+- [Stratechery: Data Center Discontent, Fixing the Problem](https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/) —— 和今天的 Microsoft 撤退案例配套读，Ben Thompson 给的「直接付费给社区」解法争议大但讨论值得。
+  _Stratechery_
+
+### 半导体
+
+- [AMD 在 Vivado 许可上对 Linux 用户搞 bait-and-switch](https://news.ycombinator.com/item?id=48307231) —— FPGA 工具链授权变更，影响一批长期 Linux 用户，HN 上骂声一片。
+  _HN 336 票_
+- [ASML 成为先进制程的卡脖子节点（HN 416 票）](https://news.ycombinator.com/item?id=47901064) —— EUV 光刻机供应紧张延伸到先进制程产能本身，TSMC 2nm 扩产受牵连。
+  _HN 416 票_
+
+### 大厂讯息
+
+- [Microsoft GitHub 封禁发布 Windows 0day 的安全研究员](https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation) —— GitHub 治理边界争议，研究员公开报复性禁言指控，开源社区信任又一次被消耗。
+  _Tom's Hardware · HN 560 票_
+- [Google Chrome 静默给设备装了 4GB AI 模型](https://news.ycombinator.com/item?id=48019219) —— 未明示同意装 4GB on-device 模型，HN 本月最高票讨论之一。隐私 / 磁盘 / 控制权三角矛盾。
+  _HN 1755 票_
+- [VS Code 在 commit 里强插 Co-Authored-by Copilot](https://news.ycombinator.com/item?id=47989883) —— 无论用没用 Copilot 都被加署名，开发者愤怒爆表。Microsoft AI 推广的边界在哪？
+  _HN 1513 票_
+- [Apple 公布新无障碍功能（包括眼动控制升级）](https://news.ycombinator.com/item?id=48192224) —— Apple 每年 5 月固定的 Accessibility 更新，今年眼动 + 脑机接口推进。
+  _Apple · HN 726 票_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。

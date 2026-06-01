@@ -467,6 +467,50 @@ def cmd_prepare_unified(args):
         deduped.append(it)
     log(f"   去重后 {len(deduped)} 条")
 
+    # 预筛：每域保留 top 50（按热度 + 时间），避免 prompt 过长（>40K token Claude 容易跳步骤）
+    from datetime import datetime as _dt, timezone as _tz
+    _now_utc = _dt.now(_tz.utc)
+
+    def _recency_score(it):
+        """近 3 天 = 高分，更早 = 衰减"""
+        pub = it.get("published_at")
+        if not pub:
+            return 0
+        try:
+            if isinstance(pub, str):
+                dt = _dt.fromisoformat(pub.replace("Z", "+00:00"))
+            else:
+                return 0
+            days_old = (_now_utc - dt).days
+            if days_old <= 1: return 100
+            if days_old <= 3: return 70
+            if days_old <= 7: return 40
+            if days_old <= 14: return 20
+            return 0
+        except Exception:
+            return 0
+
+    def _score(it):
+        """综合分：热度 + 新鲜度"""
+        return (it.get("views") or 0) + _recency_score(it)
+
+    by_domain: dict[str, list] = {}
+    for it in deduped:
+        d = it.get("domain", "其他")
+        by_domain.setdefault(d, []).append(it)
+
+    PER_DOMAIN_MAX = 50
+    pruned = []
+    prune_summary = []
+    for d, lst in by_domain.items():
+        lst.sort(key=_score, reverse=True)
+        kept = lst[:PER_DOMAIN_MAX]
+        pruned.extend(kept)
+        prune_summary.append(f"{d}={len(kept)}/{len(lst)}")
+
+    log(f"   预筛后 {len(pruned)} 条（每域 top {PER_DOMAIN_MAX}：{', '.join(prune_summary)}）")
+    deduped = pruned
+
     # 写合并候选
     unified_cand = {
         "date": time.strftime("%Y-%m-%d"),
@@ -474,7 +518,7 @@ def cmd_prepare_unified(args):
         "items": deduped,
     }
     (TOPICS_DIR / "unified.candidates.json").write_text(
-        json.dumps(unified_cand, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(unified_cand, ensure_ascii=False, indent=2, default=str), encoding="utf-8"
     )
 
     # 3. 生成 unified score prompt
