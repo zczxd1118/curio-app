@@ -743,7 +743,7 @@ function openGenerateViaIssue(domainId, domainName) {
       <h3><span class="icon-sm">${UI_ICONS.bolt}</span> 立刻生成「${domainName}」</h3>
       <p>提交后会在 GitHub 上自动开一个 Issue，Curio Agent 每小时检查一次，看到后会立刻为你重跑（抓取 → 打分 → 中文摘要 → 主编点评 → 邮件通知）。</p>
       <p style="background:var(--bg-elev);padding:10px 12px;border-left:3px solid var(--accent);font-size:13px;color:var(--text-soft);margin:12px 0;">
-        <span class="icon-inline">${UI_ICONS.clock}</span> <strong>预计等待：最长 60 分钟</strong>（Agent 调度间隔 1 小时）<br>
+        <span class="icon-inline">${UI_ICONS.clock}</span> <strong>预计等待：5 ~ 60 分钟</strong>（CI 抓取 ~2 分钟 + Agent 每小时调度一次）<br>
         <span class="icon-inline">${UI_ICONS.mail}</span> 留下邮箱跑完会发一封通知<br>
         <span class="icon-inline">${UI_ICONS.list}</span> Agent 收到时会在 GitHub Issue 评论"已收到，开始跑"，完成时再评论结果链接
       </p>
@@ -756,7 +756,7 @@ function openGenerateViaIssue(domainId, domainName) {
         <textarea id="gen-note" placeholder="例：本期想多看一些 AI 硬件的"
           style="width:100%;min-height:60px;background:var(--bg-elev);border:1px solid var(--line);color:var(--text);padding:8px;border-radius:4px;font-family:var(--sans);font-size:13px"></textarea>
       </div>
-      <p style="font-size:12px;color:var(--text-mute)">注：Agent 跑生成有冷却限制（同一领域 6 小时内一次），高峰期会排队。</p>
+      <p style="font-size:12px;color:var(--text-mute)">注：同一领域 30 分钟内只能触发一次（够 Agent 跑完一轮），重复点会弹确认。</p>
       <div class="modal-actions">
         <button class="btn-secondary" id="gen-cancel">取消</button>
         <button class="btn-primary" id="gen-go">提交并跳转 GitHub</button>
