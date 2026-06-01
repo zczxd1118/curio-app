@@ -62,17 +62,17 @@ jobs:
           git pull --rebase origin main
           ls -la topics/unified.score-prompt.md topics/unified.candidates.json || true
 
-      - name: Skip if scored.json fresh (< 30min)
+      - name: Skip if scored.json fresh (基于 commit log，避免 git pull 重写 mtime 误判)
+        if: github.event_name == 'schedule'
         run: |
-          if [ -f topics/unified.scored.json ]; then
-            mtime=$(stat -c %Y topics/unified.scored.json 2>/dev/null || stat -f %m topics/unified.scored.json)
-            now=$(date -u +%s)
-            age=$(( now - mtime ))
-            echo "scored.json age=${age}s"
-            if [ "$age" -lt 1800 ]; then
-              echo "⏭ scored.json 在 30 分钟内已生成，跳过本轮（避免 A/B 双跑覆盖）"
-              echo "skip=1" >> $GITHUB_ENV
-            fi
+          # 只有 schedule 触发才检查防重；workflow_dispatch / 串联触发都强制跑
+          last_commit_ts=$(git log -1 --format=%ct -- topics/unified.scored.json 2>/dev/null || echo 0)
+          now=$(date -u +%s)
+          age=$(( now - last_commit_ts ))
+          echo "scored.json last commit age=${age}s"
+          if [ "$age" -lt 1800 ] && [ "$last_commit_ts" -gt 0 ]; then
+            echo "⏭ scored.json 30 分钟内已 commit，schedule 跳过避免双跑"
+            echo "skip=1" >> $GITHUB_ENV
           fi
 
       - name: Check scoring mode (公开端点)
