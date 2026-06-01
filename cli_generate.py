@@ -402,11 +402,12 @@ def publish():
     """推 site/ 到 curio-site 仓库 → GitHub Pages 自动部署"""
     log("🚀 publish → GitHub Pages")
 
-    if not PAT_FILE.exists():
-        log("  ❌ .gh_pat 不存在，跳过 push"); return False
-    pat = PAT_FILE.read_text().strip()
+    # token 优先级：env > .gh_pat 文件
+    pat = os.environ.get("CURIO_GH_PAT") or os.environ.get("GH_PAT") or ""
+    if not pat and PAT_FILE.exists():
+        pat = PAT_FILE.read_text().strip()
     if not pat:
-        log("  ❌ .gh_pat 为空，跳过 push"); return False
+        log("  ❌ 没 env CURIO_GH_PAT/GH_PAT 也没 .gh_pat 文件，跳过 push"); return False
     if not SITE_DIR.exists():
         log("  ❌ site/ 不存在"); return False
 
@@ -710,11 +711,26 @@ def cmd_finalize_unified(args):
 
 def push_site():
     """push site/ 到 curio-site 仓库"""
-    pat = PAT_FILE.read_text().strip() if PAT_FILE.exists() else ""
+    # token 优先级：env > .gh_pat 文件（CI 用 env，本地用文件）
+    pat = os.environ.get("CURIO_GH_PAT") or os.environ.get("GH_PAT") or ""
+    if not pat and PAT_FILE.exists():
+        pat = PAT_FILE.read_text().strip()
     if not pat:
-        log("⚠️ 没找到 .gh_pat，跳过 push")
+        log("⚠️ 没找到 .gh_pat 也没 env GH_PAT，跳过 push")
         return
     site = SITE_DIR
+    # CI 上 site 可能不是 git repo，先 init
+    if not (site / ".git").exists():
+        run(["git", "-C", str(site), "init", "-q"], check=False)
+        run(["git", "-C", str(site), "checkout", "-q", "-b", "main"], check=False)
+        run(["git", "-C", str(site), "config", "user.email", "curio-bot@users.noreply.github.com"], check=False)
+        run(["git", "-C", str(site), "config", "user.name", "curio-bot"], check=False)
+        # 拉远程历史以便后续 push（避免 non-fast-forward）
+        remote_url = f"https://{GH_USER}:{pat}@github.com/{GH_USER}/{GH_REPO}.git"
+        run(["git", "-C", str(site), "remote", "add", "origin", remote_url], check=False)
+        run(["git", "-C", str(site), "fetch", "origin", "main"], check=False)
+        run(["git", "-C", str(site), "reset", "--soft", "origin/main"], check=False)
+
     run(["git", "-C", str(site), "add", "-A"], check=False)
     run(["git", "-C", str(site), "commit", "-q", "-m",
          f"radar update {time.strftime('%Y-%m-%d %H:%M')}"], check=False)
