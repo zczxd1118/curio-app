@@ -120,14 +120,32 @@ def cmd_prepare(args):
         log("")
         log(f"━━━━━━━━━ 处理 {d} ━━━━━━━━━")
 
-        # 1. search（抓候选）—— sources.yaml 里已配源，search 不依赖 explore.json
-        # 直接跑 search 默认会扫该领域所有 topic 的源
+        # 1. search（抓候选）—— 总是跑 search 拿最新数据
+        # 修复 6/1：之前没有 explore.json 时会跳过 search 沿用旧 candidates，
+        # 导致拿到的是几天前生成的候选（且可能用旧版过滤逻辑），出现"半导体 candidates 全是无关内容"的 bug。
+        # 现在如果没有 explore.json，自动合成一个临时 explore.json 触发 search。
         log(f"  🔍 search candidates for {d}")
         explore_path = TOPICS_DIR / f"{d}.explore.json"
-        if explore_path.exists():
-            run([PY, str(ROOT / "curator.py"), "search", str(explore_path)], check=False)
-        else:
-            log(f"  （没有 explore.json，沿用既有 candidates.json）")
+        if not explore_path.exists():
+            # 自动合成 explore.json（curator.py search 会从 sources.yaml 拿信源）
+            try:
+                import yaml as _yaml
+                cfg = _yaml.safe_load((ROOT / "sources.yaml").read_text(encoding="utf-8")) or {}
+                dcfg = (cfg.get("domains") or {}).get(d) or {}
+                dname = dcfg.get("name", d)
+                # subtopics 必须是 dict 列表（curator.cmd_score 用 .get('name')），不是字符串
+                subtopic_keys = list((dcfg.get("topics") or {}).keys()) or [d]
+                synth = {
+                    "domain": dname,
+                    "domain_id": d,
+                    "subtopics": [{"name": k} for k in subtopic_keys],
+                    "_synthesized": True,
+                }
+                explore_path.write_text(json.dumps(synth, ensure_ascii=False, indent=2), encoding="utf-8")
+                log(f"     合成临时 explore.json（domain_id={d}）")
+            except Exception as e:
+                log(f"     ⚠️ 合成 explore.json 失败：{e}，沿用既有 candidates")
+        run([PY, str(ROOT / "curator.py"), "search", str(explore_path)], check=False)
 
         # 2. score（生成打分 prompt 文件）
         # curator.py 写的文件名是 {domain.name slugify} 而非 {domain_id}

@@ -12,10 +12,11 @@ domains:
   ai:
     name: AI
     icon: 🤖
-    frequency: weekly
+    frequency: daily
     topics:
-      vibe-coding:
+      default:
         sources:
+        # —— AI 工程实践（核心）——
         - name: Latent Space Blog
           kind: rss
           url: https://www.latent.space/feed
@@ -24,14 +25,34 @@ domains:
           kind: rss
           url: https://simonwillison.net/atom/everything/
           lang: en
-        - name: Anthropic Engineering
+        - name: Anthropic News
           kind: rss
-          url: https://www.anthropic.com/engineering/rss.xml
+          url: https://www.anthropic.com/news/rss.xml
           lang: en
           optional: true
-        - name: AI Engineer Newsletter
+        - name: OpenAI Blog
           kind: rss
-          url: https://newsletter.eng-leadership.com/feed
+          url: https://openai.com/blog/rss.xml
+          lang: en
+          optional: true
+        - name: Hugging Face Blog
+          kind: rss
+          url: https://huggingface.co/blog/feed.xml
+          lang: en
+          optional: true
+        - name: Sebastian Raschka Magazine
+          kind: rss
+          url: https://magazine.sebastianraschka.com/feed
+          lang: en
+          optional: true
+        - name: Lilian Weng Blog
+          kind: rss
+          url: https://lilianweng.github.io/index.xml
+          lang: en
+          optional: true
+        - name: Andrej Karpathy Blog
+          kind: rss
+          url: https://karpathy.bearblog.dev/feed/
           lang: en
           optional: true
         - name: ByteByteGo Newsletter
@@ -39,6 +60,26 @@ domains:
           url: https://blog.bytebytego.com/feed
           lang: en
           optional: true
+        # —— 学术 / 论文 ——
+        - name: Hugging Face Papers
+          kind: rss
+          url: https://huggingface.co/papers
+          lang: en
+          optional: true
+        - name: arXiv cs.CL（自然语言）
+          kind: rss
+          url: https://export.arxiv.org/rss/cs.CL
+          lang: en
+        - name: arXiv cs.LG（机器学习）
+          kind: rss
+          url: https://export.arxiv.org/rss/cs.LG
+          lang: en
+        - name: arXiv cs.AI（人工智能）
+          kind: rss
+          url: https://export.arxiv.org/rss/cs.AI
+          lang: en
+          optional: true
+        # —— HN 关键词（覆盖 vibe coding / Agent / 模型发布）——
         - name: HN · Claude Code
           kind: hn_search
           query: Claude Code
@@ -49,7 +90,7 @@ domains:
           kind: hn_search
           query: Cursor
           days: 14
-          min_points: 50
+          min_points: 30
           lang: en
         - name: HN · AI agent
           kind: hn_search
@@ -63,52 +104,60 @@ domains:
           days: 30
           min_points: 10
           lang: en
+        - name: HN · GPT-5
+          kind: hn_search
+          query: GPT-5
+          days: 30
+          min_points: 50
+          lang: en
+        - name: HN · LLM benchmark
+          kind: hn_search
+          query: LLM benchmark
+          days: 14
+          min_points: 30
+          lang: en
+        - name: HN · RAG
+          kind: hn_search
+          query: RAG
+          days: 14
+          min_points: 30
+          lang: en
+        - name: HN · MCP
+          kind: hn_search
+          query: MCP
+          days: 14
+          min_points: 20
+          lang: en
+        - name: HN · Anthropic
+          kind: hn_search
+          query: Anthropic
+          days: 14
+          min_points: 50
+          lang: en
+        - name: HN · Windsurf
+          kind: hn_search
+          query: Windsurf
+          days: 30
+          min_points: 15
+          lang: en
+        # —— 中文：B 站 + 36 氪 AI 频道 ——
         - name: B站 · vibe coding
           kind: bilibili_search
           keywords:
           - Claude Code 实战
-          - Cursor 0.50
+          - Cursor AI 编程
           - vibe coding
+          - AI Agent 教程
+          - MCP 服务器
           lang: zh
-      llm-eval:
-        sources:
-        - name: Hugging Face Papers
-          kind: rss
-          url: https://huggingface.co/papers
-          lang: en
-          optional: true
-        - name: arXiv cs.CL
-          kind: rss
-          url: https://export.arxiv.org/rss/cs.CL
-          lang: en
-        - name: arXiv cs.LG
-          kind: rss
-          url: https://export.arxiv.org/rss/cs.LG
-          lang: en
-        - name: HN · LLM eval
-          kind: hn_search
-          query: LLM benchmark OR LLM evaluation OR GPT-5 OR Claude 4
-          days: 14
-          lang: en
-      ai-engineering:
-        sources:
-        - name: Latent Space Blog
-          kind: rss
-          url: https://www.latent.space/feed
-          lang: en
-        - name: HN · RAG / Agent
-          kind: hn_search
-          query: RAG OR agent framework OR LLM serving
-          days: 14
-          lang: en
   finance:
-    name: 金融
+    name: AI 商业 / 投融资
     icon: 🏦
     frequency: daily
     topics:
-      macro:
+      default:
         sources:
-        # —— 金融原生 RSS（替代之前的纯 HN）——
+        # —— 行业深度博客（重头）——
         - name: Stratechery
           kind: rss
           url: https://stratechery.com/feed/
@@ -117,53 +166,59 @@ domains:
           kind: rss
           url: https://www.netinterest.co/feed
           lang: en
+        - name: The Information（科技公司报道）
+          kind: rss
+          url: https://www.theinformation.com/feed
+          lang: en
+          optional: true
         - name: 华尔街见闻 API
           kind: wallstreetcn_api
-          url: https://api.wallstreetcn.com/apiv1/content/articles?cursor=&limit=20
+          url: https://api.wallstreetcn.com/apiv1/content/articles?cursor=&limit=30
           lang: zh
           optional: true
-        - name: arXiv q-fin（量化金融论文）
-          kind: rss
-          url: https://export.arxiv.org/rss/q-fin
-          lang: en
-          optional: true
-        # —— HN 关键词（保留作为热度指标）——
-        - name: HN · Federal Reserve
+        # —— HN 关键词（聚焦 AI 公司财务/估值/投融资）——
+        - name: HN · OpenAI
           kind: hn_search
-          query: Federal Reserve
-          days: 30
-          min_points: 30
+          query: OpenAI
+          days: 14
+          min_points: 80
           lang: en
-        - name: HN · inflation
+        - name: HN · Anthropic
           kind: hn_search
-          query: inflation
-          days: 30
+          query: Anthropic
+          days: 14
           min_points: 50
           lang: en
-        - name: HN · Nvidia earnings
+        - name: HN · Nvidia
           kind: hn_search
           query: Nvidia earnings
           days: 30
+          min_points: 20
+          lang: en
+        - name: HN · AI funding
+          kind: hn_search
+          query: AI funding
+          days: 30
           min_points: 30
           lang: en
-        - name: HN · Tesla
+        - name: HN · 大厂财报
           kind: hn_search
-          query: Tesla
+          query: earnings
           days: 14
+          min_points: 100
+          lang: en
+        - name: HN · 经济宏观
+          kind: hn_search
+          query: Federal Reserve
+          days: 30
           min_points: 50
           lang: en
-        - name: HN · Apple earnings
-          kind: hn_search
-          query: Apple earnings OR Microsoft earnings OR Google earnings
-          days: 14
-          min_points: 30
-          lang: en
   semiconductor:
-    name: 半导体
+    name: AI 算力 / 半导体
     icon: 🔬
     frequency: weekly
     topics:
-      chips:
+      default:
         sources:
         # —— 行业专业媒体 ——
         - name: SemiAnalysis（半导体首选深度）
@@ -175,45 +230,55 @@ domains:
           url: https://www.eetimes.com/feed
           lang: en
           optional: true
-        # —— HN 关键词 ——
+        - name: AnandTech
+          kind: rss
+          url: https://www.anandtech.com/rss
+          lang: en
+          optional: true
+        - name: Tom's Hardware
+          kind: rss
+          url: https://www.tomshardware.com/feeds/all
+          lang: en
+          optional: true
+        # —— HN 关键词（聚焦 AI 算力相关）——
         - name: HN · TSMC
           kind: hn_search
           query: TSMC
           days: 30
-          min_points: 30
+          min_points: 20
           lang: en
         - name: HN · Nvidia
           kind: hn_search
           query: Nvidia
           days: 14
-          min_points: 50
+          min_points: 30
           lang: en
         - name: HN · semiconductor
           kind: hn_search
           query: semiconductor
           days: 30
-          min_points: 30
-          lang: en
-        - name: HN · GPU
-          kind: hn_search
-          query: GPU
-          days: 14
-          min_points: 80
-          lang: en
-        - name: HN · ASML
-          kind: hn_search
-          query: ASML
-          days: 60
           min_points: 20
           lang: en
-        - name: HN · AI chip
+        - name: HN · ASML / EUV
           kind: hn_search
-          query: AI chip OR Cerebras OR Groq OR AMD MI400
+          query: ASML OR EUV
+          days: 60
+          min_points: 15
+          lang: en
+        - name: HN · AI chip 厂商
+          kind: hn_search
+          query: Cerebras OR Groq OR AMD MI300 OR AMD MI400 OR Tenstorrent
           days: 30
-          min_points: 30
+          min_points: 20
+          lang: en
+        - name: HN · 数据中心 / 算力
+          kind: hn_search
+          query: data center OR datacenter
+          days: 14
+          min_points: 50
           lang: en
   bigtech:
-    name: 大厂讯息
+    name: 大厂 AI 动态
     icon: 🏛️
     frequency: daily
     topics:
@@ -233,12 +298,17 @@ domains:
           kind: rss
           url: https://stratechery.com/feed/
           lang: en
+        - name: Ars Technica
+          kind: rss
+          url: https://arstechnica.com/feed/
+          lang: en
+          optional: true
         - name: Product Hunt（新产品脉搏）
           kind: rss
           url: https://www.producthunt.com/feed
           lang: en
           optional: true
-        - name: 36氪
+        - name: 36氪 AI
           kind: rss
           url: https://36kr.com/feed
           lang: zh
@@ -248,34 +318,41 @@ domains:
           url: https://sspai.com/feed
           lang: zh
           optional: true
-        # —— HN 关键词 ——
-        - name: HN · Google
+        # —— HN 关键词（聚焦大厂 AI 战略/产品发布）——
+        # 注：HN Algolia 用空格分词更稳定，OR 语法对长 query 不友好
+        - name: HN · Gemini
           kind: hn_search
-          query: Google
+          query: Gemini
           days: 30
           min_points: 30
           lang: en
-        - name: HN · Microsoft
+        - name: HN · Copilot
           kind: hn_search
-          query: Microsoft
+          query: Copilot
           days: 30
           min_points: 30
           lang: en
-        - name: HN · Apple
+        - name: HN · Apple Intelligence
           kind: hn_search
-          query: Apple
+          query: Apple Intelligence
+          days: 30
+          min_points: 20
+          lang: en
+        - name: HN · Llama
+          kind: hn_search
+          query: Llama
           days: 30
           min_points: 30
           lang: en
-        - name: HN · Meta
+        - name: HN · Bedrock
           kind: hn_search
-          query: Meta OR Facebook OR Instagram
-          days: 14
-          min_points: 50
+          query: Bedrock
+          days: 30
+          min_points: 15
           lang: en
-        - name: HN · Amazon
+        - name: HN · DeepMind
           kind: hn_search
-          query: Amazon AWS OR Amazon Web Services
-          days: 14
+          query: DeepMind
+          days: 30
           min_points: 30
           lang: en
