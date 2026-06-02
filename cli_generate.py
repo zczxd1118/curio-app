@@ -710,14 +710,18 @@ def cmd_finalize_unified(args):
 
 
 def push_site():
-    """push site/ 到 curio-site 仓库"""
+    """push site/ 到 curio-site 仓库
+    push 失败必须硬报错（之前 check=False 把所有错误吞了，
+    导致认证失败时 Actions 仍标记为 success，site 长期没更新无人发现）
+    """
     # token 优先级：env > .gh_pat 文件（CI 用 env，本地用文件）
     pat = os.environ.get("CURIO_GH_PAT") or os.environ.get("GH_PAT") or ""
     if not pat and PAT_FILE.exists():
         pat = PAT_FILE.read_text().strip()
     if not pat:
-        log("⚠️ 没找到 .gh_pat 也没 env GH_PAT，跳过 push")
-        return
+        raise RuntimeError(
+            "push_site: 缺少 CURIO_GH_PAT/GH_PAT/.gh_pat，无法 push curio-site"
+        )
     site = SITE_DIR
     # CI 上 site 可能不是 git repo，先 init
     if not (site / ".git").exists():
@@ -735,7 +739,9 @@ def push_site():
     run(["git", "-C", str(site), "commit", "-q", "-m",
          f"radar update {time.strftime('%Y-%m-%d %H:%M')}"], check=False)
     remote = f"https://{GH_USER}:{pat}@github.com/{GH_USER}/{GH_REPO}.git"
-    run(["git", "-C", str(site), "push", remote, "main"], check=False)
+    # ⚠️ push 必须 check=True，让认证失败 / 网络故障让整个 step 红
+    run(["git", "-C", str(site), "push", remote, "main"], check=True)
+    log("  ✅ curio-site push 成功")
 
 
 # ============================================================
