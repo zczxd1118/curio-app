@@ -2,40 +2,41 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今天Computex 2026开幕，NVIDIA正式发布RTX Spark超级芯片，标志着AI PC进入新纪元。同时，OpenAI数学突破解决80年难题，AI能力边界再拓宽。但企业AI支出开始理性化，Token经济学遭遇挑战。_
+_今天最大的信号来自 Computex 2026：Nvidia 正式发布 RTX Spark 超级芯片，标志着 Arm PC + 本地 AI 推理的新时代开启。与此同时，Anthropic 秘密提交 IPO 文件，AI 公司上市竞赛白热化。地缘方面，伊朗威胁封锁霍尔木兹海峡，油价飙涨，全球市场承压。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. Google发布Gemini 3.5 Flash：速度提升2倍，成本降低60%，支持100万token上下文
+### 2. Anthropic 秘密提交 IPO 文件，AI 公司上市竞赛加速
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Google AI Blog_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _The Verge_
 
-Google在5月19日发布了Gemini 3.5 Flash，这是Gemini系列的最新轻量级模型。相比3.0 Flash，推理速度翻倍，价格降低60%，上下文窗口扩展到100万token。同时发布的还有Gemini Omni——一个多模态实时交互模型。但Gemini CLI宣布将于6月18日停用，迁移至Antigravity CLI。
+Anthropic 周一宣布已向 SEC 秘密提交 IPO 文件，标志着 AI 独角兽上市竞赛进入新阶段。此前 OpenAI 也被报道正在准备 IPO。Anthropic 的 Claude 系列模型在开发者社区口碑极佳，尤其是 Claude Code 和 MCP 协议。此次 IPO 估值可能超过 500 亿美元。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Gemini 3.5 Flash推理速度是3.0 Flash的2倍 | 100万token上下文在实际RAG场景中的检索精度待验证 |
-| API价格降低60%，输入$0.08/百万token，输出$0.30/百万token | Gemini Omni的实时交互能力与GPT-4o的对比尚无第三方评测 |
-| 上下文窗口100万token，支持多模态输入 | CLI停用可能影响自动化工作流用户 |
-| Gemini CLI将于2026年6月18日停止服务 | 价格降低是否会导致质量下降（如更频繁的幻觉） |
+| Anthropic 已向 SEC 秘密提交 IPO 文件 | IPO 具体时间表和定价尚未公布 |
+| 公司估值预计超过 500 亿美元 | AI 公司高估值能否持续取决于商业化进展 |
+| Claude 系列模型持续迭代，Claude Code 成为开发者热门工具 | OpenAI 的 IPO 计划可能同步推进，形成竞争 |
+| MCP 协议被多家平台采用，成为 AI Agent 工具链标准之一 | 监管审查可能影响上市进程 |
+|  | Claude 在 Agent 领域的领先地位能否转化为营收仍需观察 |
 
 **📖 主编点评**
 
-如果你在用Gemini API做content-curator的摘要功能，3.5 Flash的性价比很诱人。100万token上下文意味着你可以直接把整篇论文或代码库塞进去做分析。但注意Gemini CLI即将停用，如果你有自动化脚本依赖它，尽快迁移到Antigravity CLI或直接调用API。
+Anthropic 上市对你这个 Agent 重度玩家是利好——公司会更透明，API 可能更便宜。建议关注 IPO 招股书中的研发投入方向，特别是 Claude Code 和 MCP 的路线图。如果 Anthropic 上市后加大 Agent 工具投入，你的 content-curator 项目可以直接受益。
 
-📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/)
+📺 [打开原文](https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public)
 
 ---
 
 ## 📋 备选阅读
 
-- [GitHub Copilot改用Token计费引发开发者不满](https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/) —— GitHub Copilot从固定订阅转为Token计费，开发者普遍认为成本将大幅上升，'黄金时代'或终结。
-  _TechCrunch_
-- [Meta正在开发AI挂坠硬件](https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/) —— Meta继Ray-Ban眼镜后，据报正在开发AI挂坠，可能集成语音助手和摄像头，但产品形态和发布时间未定。
-  _TechCrunch_
-- [Google Gemini Spark 24/7 AI助手实测：实用但定位尴尬](https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/) —— Gemini Spark作为独立AI助手应用，能自动处理收件箱摘要和日程，但为何不直接集成到现有Google服务中令人费解。
+- [微软 Build 大会前瞻：新 AI 模型和 Windows 改进](https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect) —— 微软本周 Build 可能发布新模型和 Windows Dev Mode 更新，值得关注。
+  _The Verge_
+- [OpenAI 模型解决困扰人类 80 年的数学难题](https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/) —— AI 在数学推理上的突破，但实际应用场景有限，更像 PR 事件。
+  _Ars Technica_
+- [软银计划投资 750 亿欧元建设法国数据中心](https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/) —— 孙正义豪赌 AI 基础设施，5GW 容量规划，但执行周期长。
   _TechCrunch_
 
 ---

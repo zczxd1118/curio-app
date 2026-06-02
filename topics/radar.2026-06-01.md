@@ -1,147 +1,125 @@
 # Curio 趋势雷达 · 2026-06-01
 
-> 你的私人主编 · 今日跨域精选 6 条头条 + 13 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 13 条备选
 
-_今天Computex 2026开幕，NVIDIA正式发布RTX Spark超级芯片，标志着AI PC进入新纪元。同时，OpenAI数学突破解决80年难题，AI能力边界再拓宽。但企业AI支出开始理性化，Token经济学遭遇挑战。_
+_今天最大的信号来自 Computex 2026：Nvidia 正式发布 RTX Spark 超级芯片，标志着 Arm PC + 本地 AI 推理的新时代开启。与此同时，Anthropic 秘密提交 IPO 文件，AI 公司上市竞赛白热化。地缘方面，伊朗威胁封锁霍尔木兹海峡，油价飙涨，全球市场承压。_
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 1. NVIDIA发布RTX Spark超级芯片：20核Arm CPU + Blackwell GPU，128GB统一内存，Windows变身Agentic AI OS
+### 1. Nvidia 发布 RTX Spark 超级芯片：Arm CPU + Blackwell GPU + 128GB 统一内存，Windows 进入 Agentic AI 时代
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-Computex 2026首日，黄仁勋正式推出RTX Spark超级芯片，这是NVIDIA首次将Arm CPU与Blackwell GPU集成到消费级SoC中。微软同步发布Surface Laptop Ultra首发搭载，最高128GB统一内存。这不是又一款AI PC——这是PC架构的转折点。
+Computex 2026 首日，黄仁勋揭晓了 Nvidia 首款面向 PC 的超级芯片 RTX Spark。它集成了 20 核 Arm Grace CPU、6144 CUDA 核心的 Blackwell GPU 和高达 128GB 的统一内存，专为本地 Agentic AI 工作负载设计。微软同步推出搭载该芯片的 Surface Laptop Ultra，配备 15 英寸 mini-LED 屏幕。Nvidia 还公布了未来三代路线图：Rubin（LPDDR6）、Rosa、Feynman。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| RTX Spark采用20核Arm CPU + 6144 CUDA核心Blackwell GPU | x86生态是否会被Arm+GPU组合侵蚀？Intel已表示'警惕' |
-| 最高128GB统一内存，支持本地运行大模型 | 128GB统一内存的实际推理性能尚未有第三方评测 |
-| 微软Surface Laptop Ultra首发，Dell、HP、联想等同步跟进 | 开发者生态迁移成本：CUDA on Arm的兼容性待验证 |
-| NVIDIA公布三代路线图：Rubin（LPDDR6）→ Rosa → Feynman | 定价未公布，若高于$2000可能影响消费级普及 |
-|  | Agentic AI OS的具体体验与现有Windows AI功能差异不明 |
+| RTX Spark 采用 20 核 Arm Grace CPU + Blackwell GPU 统一封装，支持 128GB 统一内存 | RTX Spark 能否真正挑战 x86 在 PC 市场的统治地位尚待观察 |
+| 微软 Surface Laptop Ultra 首发搭载，15 英寸 mini-LED PixelSense Ultra 显示屏 | 统一内存架构对游戏性能的影响尚未有第三方评测 |
+| Nvidia 公布 RTX Spark 三代路线图：Rubin（LPDDR6）、Rosa、Feynman | Arm 生态软件兼容性仍是潜在瓶颈 |
+| 支持主流反作弊和 DRM 技术，Fortnite、Valorant 等游戏原生运行 | 128GB 统一内存的定价可能使设备价格高昂 |
+| Windows 将深度集成 Agentic AI 能力，本地运行大模型 | Agentic AI 在 Windows 上的实际体验有待验证 |
 
 **📖 主编点评**
 
-如果你在做AI Agent项目，RTX Spark意味着你可以在笔记本上本地跑70B模型。建议关注Surface Laptop Ultra的评测，特别是MCP Server在Arm上的运行效率。这对你的content-curator项目是个潜在的部署平台——本地运行LLM做摘要，不再依赖API。
+这对你意味着 PC 架构正在发生根本性转变。如果你做 AI 产品开发，RTX Spark 意味着你可以在本地跑更大的模型，而不依赖云端。建议关注 Surface Laptop Ultra 的评测，特别是统一内存对推理性能的影响。同时，Arm 生态的成熟会让你的 side project 部署更灵活。
 
 📺 [打开原文](https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory)
 
 ---
 
-## 🌟 AI
+## 🌟 大厂 AI 动态
 
-### 2. OpenAI模型解决困扰人类80年的数学难题，AI推理能力再突破
+### 2. Anthropic 秘密提交 IPO 文件，AI 公司上市竞赛加速
 
-**[AI]** · ⭐⭐⭐⭐⭐ · _Ars Technica_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _The Verge_
 
-OpenAI的一个未公开模型解决了'Keller猜想'的变体——一个组合几何问题，自1940年代以来无人能解。Ars Technica的深度分析指出，这次突破的关键不是算力堆砌，而是模型学会了'构造反例'的推理策略。这不是AGI，但这是AI在数学研究中从'助手'变成'合作者'的标志。
+Anthropic 周一宣布已向 SEC 秘密提交 IPO 文件，标志着 AI 独角兽上市竞赛进入新阶段。此前 OpenAI 也被报道正在准备 IPO。Anthropic 的 Claude 系列模型在开发者社区口碑极佳，尤其是 Claude Code 和 MCP 协议。此次 IPO 估值可能超过 500 亿美元。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 解决的是Keller猜想的一个变体，属于组合几何领域 | 该突破是否可泛化到其他数学领域尚不明确 |
-| 模型采用'构造性反例'策略，而非暴力搜索 | 模型是否使用了特殊训练数据（如形式化数学语料）未披露 |
-| 解决方案已通过同行评审，发表于数学期刊 | 与DeepMind的AlphaGeometry相比，方法论差异待分析 |
-| OpenAI未公开该模型的具体参数规模 | 对实际工程应用（如代码推理）的迁移价值未知 |
-|  | OpenAI可能将其能力整合到未来版本的GPT中 |
+| Anthropic 已向 SEC 秘密提交 IPO 文件 | IPO 具体时间表和定价尚未公布 |
+| 公司估值预计超过 500 亿美元 | AI 公司高估值能否持续取决于商业化进展 |
+| Claude 系列模型持续迭代，Claude Code 成为开发者热门工具 | OpenAI 的 IPO 计划可能同步推进，形成竞争 |
+| MCP 协议被多家平台采用，成为 AI Agent 工具链标准之一 | 监管审查可能影响上市进程 |
+|  | Claude 在 Agent 领域的领先地位能否转化为营收仍需观察 |
 
 **📖 主编点评**
 
-这对你的AI Agent项目有间接启示：推理能力正在从'模式匹配'转向'策略构造'。如果你在Claude Code或Cursor中遇到复杂调试问题，可以尝试让模型'构造反例'而非直接修复——这种思维链策略可能更有效。关注OpenAI后续是否将此类推理能力集成到API中。
+Anthropic 上市对你这个 Agent 重度玩家是利好——公司会更透明，API 可能更便宜。建议关注 IPO 招股书中的研发投入方向，特别是 Claude Code 和 MCP 的路线图。如果 Anthropic 上市后加大 Agent 工具投入，你的 content-curator 项目可以直接受益。
 
-📺 [打开原文](https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/)
+📺 [打开原文](https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public)
 
 ---
 
-### 5. Claude Code隐藏Workflow功能曝光：脚本化多Agent协同，AI编程进入'工作流即代码'时代
+## 🌟 AI
+
+### 3. Claude Code 隐藏 Workflow 功能曝光：脚本化多 Agent 协同，AI 编程进入新范式
 
 **[AI]** · ⭐⭐⭐⭐ · _AI超元域_
 
-B站UP主'AI超元域'发现并实测了Anthropic未官宣的Claude Code Workflow功能。该功能允许用户用JS脚本定义多Agent协作流程，实现'一个指令召唤多个子Agent并行工作'。虽然官方从Changelog中删除了相关描述，但代码中仍保留该功能。这可能是AI编程工具从'单兵作战'到'团队协作'的关键进化。
+Anthropic 在 Claude Code V2.1.47 和 V2.1.48 中秘密加入了 Workflow 功能，允许用户通过 JS 脚本定义多 Agent 协同工作流。该功能被官方从 Changelog 中删除但代码保留，被社区发现后引发热议。它支持 UltraWork 模式，可召唤多个子 Agent 并行执行任务，实现可复用的精准可控工作流。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Claude Code V2.1.47和V2.1.48版本中存在Workflow功能 | 该功能是否会被官方正式支持尚不确定 |
-| 支持用JavaScript脚本定义多Agent协作流程 | 脚本化工作流的调试和错误处理机制不完善 |
-| 可实现子Agent并行执行、结果聚合、条件分支 | 多Agent并行时的Token消耗和成本控制未知 |
-| 官方从Changelog中删除了该功能描述但未移除代码 | 与Cursor的YOLO模式、Windsurf的Flow模式的对比待验证 |
+| Claude Code V2.1.47/48 包含未官宣的 Workflow 功能 | 该功能是否会在正式版中保留尚不确定 |
+| 支持通过 JS 脚本定义多 Agent 协同工作流 | 脚本化工作流的学习曲线可能较高 |
+| UltraWork 模式可召唤多个子 Agent 并行执行任务 | 多 Agent 协同的稳定性和一致性有待验证 |
+| 工作流可复用、可控，适合工程级项目 | 与 Superpowers 等第三方工作流工具的竞争关系不明朗 |
 
 **📖 主编点评**
 
-如果你在用Claude Code做content-curator项目，这个Workflow功能可以让你定义'采集→摘要→分类→存储'的自动化流水线。建议立即尝试V2.1.47版本，用JS脚本构建你的第一个多Agent工作流。即使官方后续移除，这种'工作流即代码'的思路也会成为AI编程的标配。
+这对你的 content-curator 项目是直接利好——你可以用 Claude Code 的 Workflow 功能构建自动化内容处理流水线。建议立即尝试 V2.1.48 版本，用 JS 脚本定义你的 Agent 工作流，比如自动抓取、摘要、分类。这比手动调 prompt 高效得多。
 
 📺 [打开原文](http://www.bilibili.com/video/av116629702777532)
 
 ---
 
-## 🌟 大厂 AI 动态
+## 🌟 股票
 
-### 3. Google发布Gemini 3.5 Flash：速度提升2倍，成本降低60%，支持100万token上下文
+### 4. 美国 5 月 ISM 制造业扩张速度创四年来最快，AI 投资与抢购备货双轮驱动
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Google AI Blog_
+**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-Google在5月19日发布了Gemini 3.5 Flash，这是Gemini系列的最新轻量级模型。相比3.0 Flash，推理速度翻倍，价格降低60%，上下文窗口扩展到100万token。同时发布的还有Gemini Omni——一个多模态实时交互模型。但Gemini CLI宣布将于6月18日停用，迁移至Antigravity CLI。
+5 月 ISM 制造业指数超预期升至 54，连续五个月扩张。新订单增速加速至四个月高位，生产同步回升。AI 投资与抢购备货是主要驱动力。然而，伊朗冲突推高油价与原材料成本，制造业物价支付指数 82.1，仍接近 2022 年以来高位。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Gemini 3.5 Flash推理速度是3.0 Flash的2倍 | 100万token上下文在实际RAG场景中的检索精度待验证 |
-| API价格降低60%，输入$0.08/百万token，输出$0.30/百万token | Gemini Omni的实时交互能力与GPT-4o的对比尚无第三方评测 |
-| 上下文窗口100万token，支持多模态输入 | CLI停用可能影响自动化工作流用户 |
-| Gemini CLI将于2026年6月18日停止服务 | 价格降低是否会导致质量下降（如更频繁的幻觉） |
+| ISM 制造业指数 54，超预期，连续五个月扩张 | 伊朗冲突对供应链的冲击可能在未来几个月显现 |
+| 新订单增速创四个月新高 | 高物价是否可持续取决于地缘政治走向 |
+| AI 投资和抢购备货是主要增长动力 | AI 投资驱动的增长能否抵消其他行业的放缓 |
+| 物价支付指数 82.1，仍处高位 | 美联储政策路径可能受通胀数据影响 |
 
 **📖 主编点评**
 
-如果你在用Gemini API做content-curator的摘要功能，3.5 Flash的性价比很诱人。100万token上下文意味着你可以直接把整篇论文或代码库塞进去做分析。但注意Gemini CLI即将停用，如果你有自动化脚本依赖它，尽快迁移到Antigravity CLI或直接调用API。
+制造业数据强劲但通胀压力仍在，这意味着美联储可能维持高利率更久。如果你持有科技股或加密货币，要注意流动性收紧的风险。但 AI 硬件需求依然旺盛，你的 side project 所需的 GPU 资源可能继续紧张。
 
-📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/)
+📺 [打开原文](https://wallstreetcn.com/articles/3773596)
 
 ---
 
 ## 🌟 金融
 
-### 4. 企业AI支出转向理性：微软收缩Claude Code授权，亚马逊取消内部工具排行榜，Token经济学遭质疑
+### 5. 伊朗威胁全面封锁霍尔木兹海峡，油价飙涨，全球市场震荡
 
 **[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-华尔街见闻报道，企业AI支出正从狂热转向理性。一家神秘公司月耗5亿美元Claude账单，亚马逊因员工为冲榜滥用AI而取消内部工具排行榜。微软收缩Claude Code授权，Uber四个月烧光全年预算。黄仁勋'多用Token即省钱'的Token经济学，正被巨额账单和低ROI挑战。
+伊朗官员称将全面封锁霍尔木兹海峡，直至以色列停止在黎巴嫩和加沙的军事行动。布伦特原油涨破 95 美元/桶，美股低开，黄金下跌。美军证实驻科威特基地遭伊朗袭击。地缘风险溢价急剧上升。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 某公司月均Claude API支出达5亿美元 | 企业AI支出回落是否会导致AI公司估值调整 |
-| 亚马逊取消内部AI工具使用排行榜 | Token经济学的'规模效应'是否真的存在 |
-| 微软减少Claude Code的企业授权数量 | 理性化是否意味着AI应用进入'实用主义'阶段 |
-| Uber在4个月内用完全年AI预算 | 对AI编程工具（如Cursor、Claude Code）的企业采购影响 |
+| 伊朗威胁全面封锁霍尔木兹海峡 | 封锁是否实际执行尚不确定 |
+| 布伦特原油涨破 95 美元/桶 | 油价短期可能突破 100 美元 |
+| 美股三大指数低开，IBM 涨近 9% 例外 | 全球供应链特别是半导体制造可能受冲击 |
+| 美军驻科威特基地遭伊朗袭击 | 各国战略石油储备释放可能缓解部分压力 |
 
 **📖 主编点评**
 
-这对你的Side Project是个信号：AI工具的'免费午餐'可能正在结束。如果你依赖Claude Code或Cursor的免费额度，建议关注它们的定价变化。同时，这也意味着'高效使用Token'将成为一项核心竞争力——你的content-curator项目如果能优化Token消耗，会更有商业价值。
+地缘风险是你做 side project 时需要考虑的外部变量。油价上涨会推高云服务成本，如果你依赖 AWS 或 Azure 运行 Agent，建议预留预算缓冲。同时，半导体供应链可能受影响，采购硬件时注意交期。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3773575)
-
----
-
-## 🌟 电子信息与芯片
-
-### 6. NVIDIA Rubin CPX：专为长上下文 prefill 阶段优化的加速器，AI 推理架构进入分工时代
-
-**[电子信息与芯片]** · ⭐⭐⭐⭐⭐ · _SemiAnalysis_
-
-SemiAnalysis 深度拆解：NVIDIA 在 Computex 2026 同时发布的 Rubin CPX 不是又一颗 GPU，而是 prefill/decode 解耦战略的硬件落地——把 KV cache 计算和 token 生成分到不同的 die 上，单机架等效算力翻倍。这是芯片架构跟着 LLM 推理特性走的标志性事件，未来 18 个月所有大客户的采购模型都要重写。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Rubin CPX 在 Computex 2026 发布，与 RTX Spark 同期 | 实际客户采购比例未知（CPX vs 标准 Rubin） |
-| 针对 prefill 阶段（长上下文 attention 计算）专门优化 | 竞争对手 AMD MI400/Intel Crescent Island 何时跟进类似架构 |
-| 用于 KV cache 大量重用场景（如 RAG / 代码助手 / 长视频理解） | TSMC 产能能否同步支持两条产线 |
-| 与 Rubin 主芯片在同一机架协同工作（CPX = co-processor） | 中国市场的可获得性（有无出口管制变体） |
-| SemiAnalysis 估算：相同功耗下 prefill 吞吐 2-3x 提升 |  |
-
-**📖 主编点评**
-
-对 AI 工程师：理解 prefill/decode 分工后，部署架构会从'一个集群打天下'走向'按场景分片'。如果你做长上下文 / RAG 应用，未来云厂商会推按 prefill 分钟计费的实例。对硬件投资人：信号是 NVIDIA 不再只卖通用算力，而是在卖'按 LLM 工作负载切片'的产品组合 —— 这扩大了它的护城河，也压缩了 AMD 追赶的窗口。
-
-📺 [打开原文](https://semianalysis.com/2026/05/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/)
+📺 [打开原文](https://wallstreetcn.com/articles/3773592)
 
 ---
 
@@ -149,44 +127,44 @@ SemiAnalysis 深度拆解：NVIDIA 在 Computex 2026 同时发布的 Rubin CPX �
 
 ### AI 算力 / 半导体
 
-- [Intel Crescent Island AI GPU：480GB LPDDR5X内存，专为推理优化](https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex) —— Intel在Computex上公布了Crescent Island AI GPU细节，480GB LPDDR5X内存直击AI推理内存瓶颈，但量产时间未定，短期对市场影响有限。
+- [SK hynix 先进内存工厂发生有毒气体火灾，3600 名员工疏散，7 人住院](https://www.tomshardware.com/tech-industry/semiconductors/seven-hospitalized-after-toxic-gas-fire-at-sk-hynix-advanced-memory-plant-cheongju-4th-campus-incident-today-led-to-all-3-600-staff-being-evacuated) —— HBM 供应可能受影响，AI 芯片产能雪上加霜，但短期影响有限。
   _Tom's Hardware_
-- [SoftBank计划投资870亿美元建设法国AI数据中心](https://www.tomshardware.com/tech-industry/softbank-to-spend-up-to-75-billion-on-french-ai-data-centers) —— SoftBank利用法国核电优势，计划建设5GW数据中心容量，但自身背负1300亿美元债务，资金来源存疑。
+- [Intel 发布 Xeon 6+ Clearwater Forest：288 核、576MB L3 缓存，18A 工艺](https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel) —— Intel 数据中心反击战，18A 工艺落地，但量产时间在 2027 年，远水难解近渴。
   _Tom's Hardware_
-- [韩国5月芯片出口372亿美元创历史新高](https://wallstreetcn.com/articles/3773558) —— AI芯片需求驱动韩国5月芯片出口同比暴增近3倍至372亿美元，三星和SK海力士是最大受益者。
-  _华尔街见闻_
-- [英特尔在印度投33亿美元建玻璃基板工厂](https://wallstreetcn.com/articles/3773568) —— 英特尔联手3DGS在印度建设玻璃基板工厂，年产能7万片，与台积电、三星争夺下一代AI芯片封装材料市场。
-  _华尔街见闻_
+- [Nvidia Cosmos 3 发布：用于物理 AI 推理的世界模型与动作模型](https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/) —— Cosmos 3 是机器人/自动驾驶的基础模型，但离开发者落地还有距离。
+  _Nvidia Developer Blog_
 
 ### 大厂 AI 动态
 
-- [GitHub Copilot改用Token计费引发开发者不满](https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/) —— GitHub Copilot从固定订阅转为Token计费，开发者普遍认为成本将大幅上升，'黄金时代'或终结。
+- [微软 Build 大会前瞻：新 AI 模型和 Windows 改进](https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect) —— 微软本周 Build 可能发布新模型和 Windows Dev Mode 更新，值得关注。
+  _The Verge_
+- [OpenAI 模型解决困扰人类 80 年的数学难题](https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/) —— AI 在数学推理上的突破，但实际应用场景有限，更像 PR 事件。
+  _Ars Technica_
+- [软银计划投资 750 亿欧元建设法国数据中心](https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/) —— 孙正义豪赌 AI 基础设施，5GW 容量规划，但执行周期长。
   _TechCrunch_
-- [Meta正在开发AI挂坠硬件](https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/) —— Meta继Ray-Ban眼镜后，据报正在开发AI挂坠，可能集成语音助手和摄像头，但产品形态和发布时间未定。
-  _TechCrunch_
-- [Google Gemini Spark 24/7 AI助手实测：实用但定位尴尬](https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/) —— Gemini Spark作为独立AI助手应用，能自动处理收件箱摘要和日程，但为何不直接集成到现有Google服务中令人费解。
-  _TechCrunch_
+
+### AI
+
+- [从夯到拉，锐评 32 个 AI 编程工具！](http://www.bilibili.com/video/av116578532200786) —— 用户偏好的实操评测，帮你快速筛选适合的 vibe coding 工具。
+  _程序员鱼皮_
+- [Claude Code 多 Agent 模式实战分享](http://www.bilibili.com/video/av116454666012312) —— Claude Code 两种多 Agent 模式的实操对比，适合进阶用户。
+  _Simon林__
 
 ### 股票
 
-- [高盛：对冲基金以半年最快速度追涨美股](https://wallstreetcn.com/articles/3773578) —— 对冲基金净买入规模创六个月新高，多空净杠杆率升至55.3%，金融股获显著净买入，工业股空头敞口高位。
+- [智谱 vs MiniMax：同日港股上市，五个月后市值差 4500 亿](https://wallstreetcn.com/articles/3773597) —— Agent 叙事 vs 业务分散，资本市场用脚投票，值得产品方向参考。
   _华尔街见闻_
-- [宇树科技73天极速IPO过会，估值至少420亿元](https://wallstreetcn.com/articles/3773573) —— 具身智能第一股宇树科技从申报到过会仅73天，估值超420亿元，反映资本市场对人形机器人的狂热。
+- [美国 5 月 ISM 制造业扩张速度创四年来最快](https://wallstreetcn.com/articles/3773596) —— AI 投资驱动制造业强劲，但通胀压力仍在，美联储可能维持高利率。
   _华尔街见闻_
 
 ### 金融
 
-- [美国通胀升至3.8%，伊朗战争推高能源成本](https://www.bbc.com/news/articles/c202pgxx89lo) —— 美国4月通胀反弹至3.8%，伊朗战争导致能源价格飙升，美联储降息预期进一步推迟。
-  _BBC_
-- [特斯拉锂精炼厂每日排放23.1万加仑污染废水](https://www.autonocion.com/us/tesla-lithium-refinery-texas/) —— 特斯拉德州锂精炼厂被曝每日排放23.1万加仑污染废水，环保组织呼吁调查，可能影响其ESG评级。
-  _Autonocion_
-- [微软内部数据：使用AI比雇佣人类更昂贵](https://finance.yahoo.com/sectors/technology/articles/microsoft-data-suggests-using-ai-225900743.html) —— 微软内部研究显示，在某些任务上AI的成本高于人工，挑战了'AI降本'的主流叙事。
-  _Yahoo Finance_
-
-### 电子信息与芯片
-
-- [Scaling the Memory Wall：HBM 发展路线图与未来](https://semianalysis.com/scaling-the-memory-wall-hbm-rise-roadmap) —— HBM 已成 AI 算力扩张的真瓶颈——文章拆解 HBM 制造工艺、KVCache offload 演进、SK 海力士/三星/美光三巨头格局。
-  _SemiAnalysis_
+- [美国关闭允许中国子公司购买 AI 芯片的 loophole](https://www.tomshardware.com/tech-industry/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-located-outside-china-to-buy-ai-chips-report-claims-that-hundreds-of-thousands-of-advanced-ai-chips-have-been-acquired-through-bis-blind-spot) —— 出口管制加严，AI 芯片黑市可能更活跃，但对你个人项目影响不大。
+  _Tom's Hardware_
+- [高盛：对冲基金以半年最快速度追涨美股](https://wallstreetcn.com/articles/3773578) —— 市场情绪高涨，但杠杆率已处高位，回调风险不容忽视。
+  _华尔街见闻_
+- [MSTR 首度出售比特币，套现 250 万美元](https://wallstreetcn.com/articles/3773584) —— MicroStrategy 打破只买不卖惯例，可能预示比特币短期见顶信号。
+  _华尔街见闻_
 
 ---
 

@@ -1,30 +1,30 @@
 # Curio · AI 算力 / 半导体 · 2026-06-01
 
-> 今日 1 条头条 + 4 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天Computex 2026开幕，NVIDIA正式发布RTX Spark超级芯片，标志着AI PC进入新纪元。同时，OpenAI数学突破解决80年难题，AI能力边界再拓宽。但企业AI支出开始理性化，Token经济学遭遇挑战。_
+_今天最大的信号来自 Computex 2026：Nvidia 正式发布 RTX Spark 超级芯片，标志着 Arm PC + 本地 AI 推理的新时代开启。与此同时，Anthropic 秘密提交 IPO 文件，AI 公司上市竞赛白热化。地缘方面，伊朗威胁封锁霍尔木兹海峡，油价飙涨，全球市场承压。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. NVIDIA发布RTX Spark超级芯片：20核Arm CPU + Blackwell GPU，128GB统一内存，Windows变身Agentic AI OS
+### 1. Nvidia 发布 RTX Spark 超级芯片：Arm CPU + Blackwell GPU + 128GB 统一内存，Windows 进入 Agentic AI 时代
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-Computex 2026首日，黄仁勋正式推出RTX Spark超级芯片，这是NVIDIA首次将Arm CPU与Blackwell GPU集成到消费级SoC中。微软同步发布Surface Laptop Ultra首发搭载，最高128GB统一内存。这不是又一款AI PC——这是PC架构的转折点。
+Computex 2026 首日，黄仁勋揭晓了 Nvidia 首款面向 PC 的超级芯片 RTX Spark。它集成了 20 核 Arm Grace CPU、6144 CUDA 核心的 Blackwell GPU 和高达 128GB 的统一内存，专为本地 Agentic AI 工作负载设计。微软同步推出搭载该芯片的 Surface Laptop Ultra，配备 15 英寸 mini-LED 屏幕。Nvidia 还公布了未来三代路线图：Rubin（LPDDR6）、Rosa、Feynman。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| RTX Spark采用20核Arm CPU + 6144 CUDA核心Blackwell GPU | x86生态是否会被Arm+GPU组合侵蚀？Intel已表示'警惕' |
-| 最高128GB统一内存，支持本地运行大模型 | 128GB统一内存的实际推理性能尚未有第三方评测 |
-| 微软Surface Laptop Ultra首发，Dell、HP、联想等同步跟进 | 开发者生态迁移成本：CUDA on Arm的兼容性待验证 |
-| NVIDIA公布三代路线图：Rubin（LPDDR6）→ Rosa → Feynman | 定价未公布，若高于$2000可能影响消费级普及 |
-|  | Agentic AI OS的具体体验与现有Windows AI功能差异不明 |
+| RTX Spark 采用 20 核 Arm Grace CPU + Blackwell GPU 统一封装，支持 128GB 统一内存 | RTX Spark 能否真正挑战 x86 在 PC 市场的统治地位尚待观察 |
+| 微软 Surface Laptop Ultra 首发搭载，15 英寸 mini-LED PixelSense Ultra 显示屏 | 统一内存架构对游戏性能的影响尚未有第三方评测 |
+| Nvidia 公布 RTX Spark 三代路线图：Rubin（LPDDR6）、Rosa、Feynman | Arm 生态软件兼容性仍是潜在瓶颈 |
+| 支持主流反作弊和 DRM 技术，Fortnite、Valorant 等游戏原生运行 | 128GB 统一内存的定价可能使设备价格高昂 |
+| Windows 将深度集成 Agentic AI 能力，本地运行大模型 | Agentic AI 在 Windows 上的实际体验有待验证 |
 
 **📖 主编点评**
 
-如果你在做AI Agent项目，RTX Spark意味着你可以在笔记本上本地跑70B模型。建议关注Surface Laptop Ultra的评测，特别是MCP Server在Arm上的运行效率。这对你的content-curator项目是个潜在的部署平台——本地运行LLM做摘要，不再依赖API。
+这对你意味着 PC 架构正在发生根本性转变。如果你做 AI 产品开发，RTX Spark 意味着你可以在本地跑更大的模型，而不依赖云端。建议关注 Surface Laptop Ultra 的评测，特别是统一内存对推理性能的影响。同时，Arm 生态的成熟会让你的 side project 部署更灵活。
 
 📺 [打开原文](https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory)
 
@@ -32,14 +32,12 @@ Computex 2026首日，黄仁勋正式推出RTX Spark超级芯片，这是NVIDIA�
 
 ## 📋 备选阅读
 
-- [Intel Crescent Island AI GPU：480GB LPDDR5X内存，专为推理优化](https://www.tomshardware.com/pc-components/gpus/intel-details-long-awaited-crescent-island-ai-gpu-at-computex-boasts-up-to-480-gb-of-lpddr5x-to-combat-memory-shortages-company-shares-more-details-of-its-xe3p-inference-accelerator-at-computex) —— Intel在Computex上公布了Crescent Island AI GPU细节，480GB LPDDR5X内存直击AI推理内存瓶颈，但量产时间未定，短期对市场影响有限。
+- [SK hynix 先进内存工厂发生有毒气体火灾，3600 名员工疏散，7 人住院](https://www.tomshardware.com/tech-industry/semiconductors/seven-hospitalized-after-toxic-gas-fire-at-sk-hynix-advanced-memory-plant-cheongju-4th-campus-incident-today-led-to-all-3-600-staff-being-evacuated) —— HBM 供应可能受影响，AI 芯片产能雪上加霜，但短期影响有限。
   _Tom's Hardware_
-- [SoftBank计划投资870亿美元建设法国AI数据中心](https://www.tomshardware.com/tech-industry/softbank-to-spend-up-to-75-billion-on-french-ai-data-centers) —— SoftBank利用法国核电优势，计划建设5GW数据中心容量，但自身背负1300亿美元债务，资金来源存疑。
+- [Intel 发布 Xeon 6+ Clearwater Forest：288 核、576MB L3 缓存，18A 工艺](https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel) —— Intel 数据中心反击战，18A 工艺落地，但量产时间在 2027 年，远水难解近渴。
   _Tom's Hardware_
-- [韩国5月芯片出口372亿美元创历史新高](https://wallstreetcn.com/articles/3773558) —— AI芯片需求驱动韩国5月芯片出口同比暴增近3倍至372亿美元，三星和SK海力士是最大受益者。
-  _华尔街见闻_
-- [英特尔在印度投33亿美元建玻璃基板工厂](https://wallstreetcn.com/articles/3773568) —— 英特尔联手3DGS在印度建设玻璃基板工厂，年产能7万片，与台积电、三星争夺下一代AI芯片封装材料市场。
-  _华尔街见闻_
+- [Nvidia Cosmos 3 发布：用于物理 AI 推理的世界模型与动作模型](https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/) —— Cosmos 3 是机器人/自动驾驶的基础模型，但离开发者落地还有距离。
+  _Nvidia Developer Blog_
 
 ---
 

@@ -2,41 +2,41 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今天Computex 2026开幕，NVIDIA正式发布RTX Spark超级芯片，标志着AI PC进入新纪元。同时，OpenAI数学突破解决80年难题，AI能力边界再拓宽。但企业AI支出开始理性化，Token经济学遭遇挑战。_
+_今天最大的信号来自 Computex 2026：Nvidia 正式发布 RTX Spark 超级芯片，标志着 Arm PC + 本地 AI 推理的新时代开启。与此同时，Anthropic 秘密提交 IPO 文件，AI 公司上市竞赛白热化。地缘方面，伊朗威胁封锁霍尔木兹海峡，油价飙涨，全球市场承压。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. 企业AI支出转向理性：微软收缩Claude Code授权，亚马逊取消内部工具排行榜，Token经济学遭质疑
+### 5. 伊朗威胁全面封锁霍尔木兹海峡，油价飙涨，全球市场震荡
 
 **[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-华尔街见闻报道，企业AI支出正从狂热转向理性。一家神秘公司月耗5亿美元Claude账单，亚马逊因员工为冲榜滥用AI而取消内部工具排行榜。微软收缩Claude Code授权，Uber四个月烧光全年预算。黄仁勋'多用Token即省钱'的Token经济学，正被巨额账单和低ROI挑战。
+伊朗官员称将全面封锁霍尔木兹海峡，直至以色列停止在黎巴嫩和加沙的军事行动。布伦特原油涨破 95 美元/桶，美股低开，黄金下跌。美军证实驻科威特基地遭伊朗袭击。地缘风险溢价急剧上升。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 某公司月均Claude API支出达5亿美元 | 企业AI支出回落是否会导致AI公司估值调整 |
-| 亚马逊取消内部AI工具使用排行榜 | Token经济学的'规模效应'是否真的存在 |
-| 微软减少Claude Code的企业授权数量 | 理性化是否意味着AI应用进入'实用主义'阶段 |
-| Uber在4个月内用完全年AI预算 | 对AI编程工具（如Cursor、Claude Code）的企业采购影响 |
+| 伊朗威胁全面封锁霍尔木兹海峡 | 封锁是否实际执行尚不确定 |
+| 布伦特原油涨破 95 美元/桶 | 油价短期可能突破 100 美元 |
+| 美股三大指数低开，IBM 涨近 9% 例外 | 全球供应链特别是半导体制造可能受冲击 |
+| 美军驻科威特基地遭伊朗袭击 | 各国战略石油储备释放可能缓解部分压力 |
 
 **📖 主编点评**
 
-这对你的Side Project是个信号：AI工具的'免费午餐'可能正在结束。如果你依赖Claude Code或Cursor的免费额度，建议关注它们的定价变化。同时，这也意味着'高效使用Token'将成为一项核心竞争力——你的content-curator项目如果能优化Token消耗，会更有商业价值。
+地缘风险是你做 side project 时需要考虑的外部变量。油价上涨会推高云服务成本，如果你依赖 AWS 或 Azure 运行 Agent，建议预留预算缓冲。同时，半导体供应链可能受影响，采购硬件时注意交期。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3773575)
+📺 [打开原文](https://wallstreetcn.com/articles/3773592)
 
 ---
 
 ## 📋 备选阅读
 
-- [美国通胀升至3.8%，伊朗战争推高能源成本](https://www.bbc.com/news/articles/c202pgxx89lo) —— 美国4月通胀反弹至3.8%，伊朗战争导致能源价格飙升，美联储降息预期进一步推迟。
-  _BBC_
-- [特斯拉锂精炼厂每日排放23.1万加仑污染废水](https://www.autonocion.com/us/tesla-lithium-refinery-texas/) —— 特斯拉德州锂精炼厂被曝每日排放23.1万加仑污染废水，环保组织呼吁调查，可能影响其ESG评级。
-  _Autonocion_
-- [微软内部数据：使用AI比雇佣人类更昂贵](https://finance.yahoo.com/sectors/technology/articles/microsoft-data-suggests-using-ai-225900743.html) —— 微软内部研究显示，在某些任务上AI的成本高于人工，挑战了'AI降本'的主流叙事。
-  _Yahoo Finance_
+- [美国关闭允许中国子公司购买 AI 芯片的 loophole](https://www.tomshardware.com/tech-industry/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-located-outside-china-to-buy-ai-chips-report-claims-that-hundreds-of-thousands-of-advanced-ai-chips-have-been-acquired-through-bis-blind-spot) —— 出口管制加严，AI 芯片黑市可能更活跃，但对你个人项目影响不大。
+  _Tom's Hardware_
+- [高盛：对冲基金以半年最快速度追涨美股](https://wallstreetcn.com/articles/3773578) —— 市场情绪高涨，但杠杆率已处高位，回调风险不容忽视。
+  _华尔街见闻_
+- [MSTR 首度出售比特币，套现 250 万美元](https://wallstreetcn.com/articles/3773584) —— MicroStrategy 打破只买不卖惯例，可能预示比特币短期见顶信号。
+  _华尔街见闻_
 
 ---
 
