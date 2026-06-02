@@ -131,9 +131,11 @@ jobs:
           CURIO_ADMIN_TOKEN: ${{ secrets.CURIO_ADMIN_TOKEN }}
           # notify_email 读 SMTP_PASS env
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          # push_site() 用 GH_PAT push 到 curio-site repo
-          GH_PAT: ${{ secrets.GH_PAT }}
-          CURIO_GH_PAT: ${{ secrets.GH_PAT }}
+          # push_site() 推送到 curio-site repo
+          # 注意：secrets.GH_PAT 已 401 失效，必须用 CURIO_GH_PAT
+          # cli_generate.py 优先级：CURIO_GH_PAT > GH_PAT > .gh_pat 文件
+          CURIO_GH_PAT: ${{ secrets.CURIO_GH_PAT }}
+          GH_PAT: ${{ secrets.CURIO_GH_PAT }}
           # cli_generate 跑 PY 子进程时把 env 也带过去
           PYTHONUNBUFFERED: "1"
         run: |
