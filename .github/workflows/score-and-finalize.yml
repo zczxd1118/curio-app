@@ -15,7 +15,11 @@ on:
         required: false
         default: 'daily'
   schedule:
-    - cron: '0 4 * * *'      # daily 每天 12:00 北京（UTC 04:00），周一跑两次（下面 weekly 也跑）
+    # daily 错峰冗余 3 班车，dedup KV 24h 兜底只发一封
+    # GitHub Actions schedule 在整点高峰（00/04/12 UTC）经常被跳过，多挂几个点防丢
+    - cron: '0 4 * * *'      # daily 北京 12:00（主班车）
+    - cron: '30 4 * * *'     # daily 北京 12:30（备车 1，主丢就补）
+    - cron: '0 5 * * *'      # daily 北京 13:00（备车 2，再丢再补）
     - cron: '5 4 * * 1'      # weekly 周一 12:05 北京（错峰 5 分钟，避免和 daily 抢锁）
 
 permissions:
