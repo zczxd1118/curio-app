@@ -1,6 +1,6 @@
 {
   "date": "2026-06-01",
-  "intro": "今天最大的信号来自 Computex 2026：Nvidia 正式发布 RTX Spark 超级芯片，标志着 Arm PC + 本地 AI 推理的新时代开启。与此同时，Anthropic 秘密提交 IPO 文件，AI 公司上市竞赛白热化。地缘方面，伊朗威胁封锁霍尔木兹海峡，油价飙涨，全球市场承压。",
+  "intro": "今天Computex 2026开幕，Nvidia正式发布RTX Spark超级芯片，标志着Arm PC+AI Agent时代的开启。同时Anthropic提交IPO申请，AI公司上市潮加速。伊朗封锁霍尔木兹海峡威胁推高油价，宏观风险上升。AI Agent工具链持续进化，Claude Code Workflow隐藏功能曝光。",
   "headlines": [
     {
       "rank": 1,
@@ -9,23 +9,23 @@
       "url": "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory",
       "source": "Tom's Hardware",
       "stars": 5,
-      "title": "Nvidia 发布 RTX Spark 超级芯片：Arm CPU + Blackwell GPU + 128GB 统一内存，Windows 进入 Agentic AI 时代",
-      "lead": "Computex 2026 首日，黄仁勋揭晓了 Nvidia 首款面向 PC 的超级芯片 RTX Spark。它集成了 20 核 Arm Grace CPU、6144 CUDA 核心的 Blackwell GPU 和高达 128GB 的统一内存，专为本地 Agentic AI 工作负载设计。微软同步推出搭载该芯片的 Surface Laptop Ultra，配备 15 英寸 mini-LED 屏幕。Nvidia 还公布了未来三代路线图：Rubin（LPDDR6）、Rosa、Feynman。",
+      "title": "Nvidia RTX Spark 发布：20核Arm CPU + Blackwell GPU + 128GB统一内存，Windows变身Agentic AI OS",
+      "lead": "Computex 2026首日，黄仁勋正式揭晓RTX Spark超级芯片，集成20核Arm Grace CPU、6144 CUDA核心Blackwell GPU及128GB统一内存，首款设备是微软Surface Laptop Ultra。Nvidia同步公布三代路线图：Rubin（LPDDR6）、Rosa、Feynman。这不仅是PC芯片，更是将Windows推向Agentic AI OS的底层变革。",
       "confirmed": [
-        "RTX Spark 采用 20 核 Arm Grace CPU + Blackwell GPU 统一封装，支持 128GB 统一内存",
-        "微软 Surface Laptop Ultra 首发搭载，15 英寸 mini-LED PixelSense Ultra 显示屏",
-        "Nvidia 公布 RTX Spark 三代路线图：Rubin（LPDDR6）、Rosa、Feynman",
-        "支持主流反作弊和 DRM 技术，Fortnite、Valorant 等游戏原生运行",
-        "Windows 将深度集成 Agentic AI 能力，本地运行大模型"
+        "RTX Spark集成20核Arm CPU + Blackwell GPU + 128GB统一内存",
+        "微软Surface Laptop Ultra首发，15寸mini-LED屏",
+        "Nvidia公布三代路线图：Rubin、Rosa、Feynman",
+        "支持所有主流反作弊和DRM技术，Fortnite原生运行",
+        "Intel公开表示对Nvidia入局PC市场有'健康的偏执'"
       ],
       "judgment": [
-        "RTX Spark 能否真正挑战 x86 在 PC 市场的统治地位尚待观察",
-        "统一内存架构对游戏性能的影响尚未有第三方评测",
-        "Arm 生态软件兼容性仍是潜在瓶颈",
-        "128GB 统一内存的定价可能使设备价格高昂",
-        "Agentic AI 在 Windows 上的实际体验有待验证"
+        "RTX Spark能否真正取代x86成为主流PC平台仍不确定",
+        "Windows on Arm生态成熟度仍是关键瓶颈",
+        "Nvidia的Agentic AI OS愿景需要开发者生态支撑",
+        "微软与Nvidia的排他性合作可能影响其他OEM厂商",
+        "128GB统一内存对消费级用户是否过剩"
       ],
-      "implication": "这对你意味着 PC 架构正在发生根本性转变。如果你做 AI 产品开发，RTX Spark 意味着你可以在本地跑更大的模型，而不依赖云端。建议关注 Surface Laptop Ultra 的评测，特别是统一内存对推理性能的影响。同时，Arm 生态的成熟会让你的 side project 部署更灵活。"
+      "implication": "这对你的content-curator项目是重要信号：Agentic AI OS意味着未来AI Agent将深度集成到操作系统层面。你应该关注RTX Spark的开发者工具链，特别是Nvidia的AI Agent SDK和MCP支持——这可能是你构建个人Agent的底层平台。建议在项目文档中预留对Arm原生Agent运行时的适配计划。"
     },
     {
       "rank": 2,
@@ -34,188 +34,157 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public",
       "source": "The Verge",
       "stars": 5,
-      "title": "Anthropic 秘密提交 IPO 文件，AI 公司上市竞赛加速",
-      "lead": "Anthropic 周一宣布已向 SEC 秘密提交 IPO 文件，标志着 AI 独角兽上市竞赛进入新阶段。此前 OpenAI 也被报道正在准备 IPO。Anthropic 的 Claude 系列模型在开发者社区口碑极佳，尤其是 Claude Code 和 MCP 协议。此次 IPO 估值可能超过 500 亿美元。",
+      "title": "Anthropic正式提交IPO申请，AI公司上市竞赛加速",
+      "lead": "在OpenAI被传即将IPO数周后，Anthropic抢先一步，于6月1日向SEC提交了机密IPO申请。这家Claude的母公司此前估值超600亿美元，2026年营收预计突破50亿美元。Anthropic的IPO将考验市场对'安全优先'AI公司的估值逻辑，也为整个AI行业树立新的定价锚。",
       "confirmed": [
-        "Anthropic 已向 SEC 秘密提交 IPO 文件",
-        "公司估值预计超过 500 亿美元",
-        "Claude 系列模型持续迭代，Claude Code 成为开发者热门工具",
-        "MCP 协议被多家平台采用，成为 AI Agent 工具链标准之一"
+        "Anthropic于6月1日向SEC提交机密IPO申请",
+        "公司估值超600亿美元，2026年营收预计50亿美元",
+        "这是继SpaceX之后今年最受瞩目的科技IPO",
+        "OpenAI也在准备IPO，预计未来几周内提交"
       ],
       "judgment": [
-        "IPO 具体时间表和定价尚未公布",
-        "AI 公司高估值能否持续取决于商业化进展",
-        "OpenAI 的 IPO 计划可能同步推进，形成竞争",
-        "监管审查可能影响上市进程",
-        "Claude 在 Agent 领域的领先地位能否转化为营收仍需观察"
+        "Anthropic的'安全优先'叙事能否支撑高估值存疑",
+        "IPO定价将反映市场对AI商业化的真实预期",
+        "OpenAI的IPO可能因Altman的监管审查而延迟",
+        "低成本AI模型（如DeepSeek）可能冲击其营收预期"
       ],
-      "implication": "Anthropic 上市对你这个 Agent 重度玩家是利好——公司会更透明，API 可能更便宜。建议关注 IPO 招股书中的研发投入方向，特别是 Claude Code 和 MCP 的路线图。如果 Anthropic 上市后加大 Agent 工具投入，你的 content-curator 项目可以直接受益。"
+      "implication": "你作为AI产品重度玩家，应关注Anthropic IPO后的产品策略变化。上市后Anthropic可能更激进地推动Claude的商业化，包括Claude Code的付费墙和API价格调整。建议在content-curator项目中预留Claude API的预算弹性，并关注其IPO路演中透露的Agent产品路线图。"
     },
     {
       "rank": 3,
       "domain": "AI",
       "id": "bvid:BV1KoGE6cE53",
-      "title": "Claude Code 隐藏 Workflow 功能曝光：脚本化多 Agent 协同，AI 编程进入新范式",
       "url": "http://www.bilibili.com/video/av116629702777532",
       "source": "AI超元域",
       "stars": 4,
-      "lead": "Anthropic 在 Claude Code V2.1.47 和 V2.1.48 中秘密加入了 Workflow 功能，允许用户通过 JS 脚本定义多 Agent 协同工作流。该功能被官方从 Changelog 中删除但代码保留，被社区发现后引发热议。它支持 UltraWork 模式，可召唤多个子 Agent 并行执行任务，实现可复用的精准可控工作流。",
+      "title": "Claude Code Workflow隐藏功能曝光：UltraWork召唤多Agent协同，AI编程进入脚本化新纪元",
+      "lead": "B站UP主AI超元域全球首测了Anthropic未官宣的Claude Code Workflow功能（V2.1.47/48版本）。该功能允许用户通过JS脚本定义可复用的多Agent工作流，实现从需求分析到代码生成的自动化流水线。虽然官方从Changelog中紧急删除，但代码中仍保留完整实现。",
       "confirmed": [
-        "Claude Code V2.1.47/48 包含未官宣的 Workflow 功能",
-        "支持通过 JS 脚本定义多 Agent 协同工作流",
-        "UltraWork 模式可召唤多个子 Agent 并行执行任务",
-        "工作流可复用、可控，适合工程级项目"
+        "Claude Code V2.1.47/48包含未官宣的Workflow功能",
+        "支持通过JS脚本定义多Agent协同工作流",
+        "可实现需求分析、代码生成、测试的自动化流水线",
+        "官方从Changelog中删除但未移除代码"
       ],
       "judgment": [
-        "该功能是否会在正式版中保留尚不确定",
-        "脚本化工作流的学习曲线可能较高",
-        "多 Agent 协同的稳定性和一致性有待验证",
-        "与 Superpowers 等第三方工作流工具的竞争关系不明朗"
+        "该功能是否会在正式版本中保留尚不确定",
+        "多Agent协同的稳定性有待验证",
+        "脚本化工作流可能增加使用复杂度",
+        "Anthropic可能因安全考虑推迟正式发布"
       ],
-      "implication": "这对你的 content-curator 项目是直接利好——你可以用 Claude Code 的 Workflow 功能构建自动化内容处理流水线。建议立即尝试 V2.1.48 版本，用 JS 脚本定义你的 Agent 工作流，比如自动抓取、摘要、分类。这比手动调 prompt 高效得多。"
+      "implication": "这对你的content-curator项目是直接可用的技术红利。你应该立即尝试在Claude Code中启用Workflow功能，将你的Agent项目拆分为多个子Agent协作的脚本化工作流。建议在项目README中记录实验过程，这本身就是简历亮点。关注Anthropic后续的官方发布，提前适配。"
     },
     {
       "rank": 4,
       "domain": "股票",
-      "id": "wscn:3773596",
-      "url": "https://wallstreetcn.com/articles/3773596",
-      "source": "华尔街见闻",
-      "stars": 4,
-      "title": "美国 5 月 ISM 制造业扩张速度创四年来最快，AI 投资与抢购备货双轮驱动",
-      "lead": "5 月 ISM 制造业指数超预期升至 54，连续五个月扩张。新订单增速加速至四个月高位，生产同步回升。AI 投资与抢购备货是主要驱动力。然而，伊朗冲突推高油价与原材料成本，制造业物价支付指数 82.1，仍接近 2022 年以来高位。",
-      "confirmed": [
-        "ISM 制造业指数 54，超预期，连续五个月扩张",
-        "新订单增速创四个月新高",
-        "AI 投资和抢购备货是主要增长动力",
-        "物价支付指数 82.1，仍处高位"
-      ],
-      "judgment": [
-        "伊朗冲突对供应链的冲击可能在未来几个月显现",
-        "高物价是否可持续取决于地缘政治走向",
-        "AI 投资驱动的增长能否抵消其他行业的放缓",
-        "美联储政策路径可能受通胀数据影响"
-      ],
-      "implication": "制造业数据强劲但通胀压力仍在，这意味着美联储可能维持高利率更久。如果你持有科技股或加密货币，要注意流动性收紧的风险。但 AI 硬件需求依然旺盛，你的 side project 所需的 GPU 资源可能继续紧张。"
-    },
-    {
-      "rank": 5,
-      "domain": "金融",
       "id": "wscn:3773592",
       "url": "https://wallstreetcn.com/articles/3773592",
       "source": "华尔街见闻",
       "stars": 4,
-      "title": "伊朗威胁全面封锁霍尔木兹海峡，油价飙涨，全球市场震荡",
-      "lead": "伊朗官员称将全面封锁霍尔木兹海峡，直至以色列停止在黎巴嫩和加沙的军事行动。布伦特原油涨破 95 美元/桶，美股低开，黄金下跌。美军证实驻科威特基地遭伊朗袭击。地缘风险溢价急剧上升。",
+      "title": "伊朗威胁全面封锁霍尔木兹海峡，布伦特原油涨破95美元，美股承压",
+      "lead": "伊朗最高领袖军事顾问称伊方耐心有限，绝不允许海上封锁继续，计划彻底封锁霍尔木兹海峡。布伦特原油应声涨破95美元/桶，美股三大指数低开，标普500跌0.19%。美国5月ISM制造业指数超预期升至54，但物价支付指数仍处高位，滞胀风险升温。",
       "confirmed": [
-        "伊朗威胁全面封锁霍尔木兹海峡",
-        "布伦特原油涨破 95 美元/桶",
-        "美股三大指数低开，IBM 涨近 9% 例外",
-        "美军驻科威特基地遭伊朗袭击"
+        "伊朗称将全面封锁霍尔木兹海峡，以抗议以色列扩大在黎行动",
+        "布伦特原油涨破95美元/桶，日内涨超6%",
+        "美国5月ISM制造业指数54，连续五个月扩张",
+        "美股三大指数低开，IBM因特朗普视频大涨9%"
       ],
       "judgment": [
-        "封锁是否实际执行尚不确定",
-        "油价短期可能突破 100 美元",
-        "全球供应链特别是半导体制造可能受冲击",
-        "各国战略石油储备释放可能缓解部分压力"
+        "伊朗封锁海峡的实际执行能力存疑",
+        "油价上涨可能进一步推高美国通胀，影响美联储政策",
+        "地缘风险与AI投资热潮形成对冲，市场波动加大",
+        "中国新能源车和储能板块可能受益于油价上涨"
       ],
-      "implication": "地缘风险是你做 side project 时需要考虑的外部变量。油价上涨会推高云服务成本，如果你依赖 AWS 或 Azure 运行 Agent，建议预留预算缓冲。同时，半导体供应链可能受影响，采购硬件时注意交期。"
+      "implication": "作为电子信息工程学生，你应该关注油价上涨对半导体供应链的影响——运输成本上升可能推高芯片价格。同时，高油价加速新能源转型，利好你关注的AI+能源赛道。建议在content-curator的金融板块中增加地缘风险监测，这对你的项目展示数据采集能力很有帮助。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "SK hynix 先进内存工厂发生有毒气体火灾，3600 名员工疏散，7 人住院",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/seven-hospitalized-after-toxic-gas-fire-at-sk-hynix-advanced-memory-plant-cheongju-4th-campus-incident-today-led-to-all-3-600-staff-being-evacuated",
-      "source": "Tom's Hardware",
-      "one_liner": "HBM 供应可能受影响，AI 芯片产能雪上加霜，但短期影响有限。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Intel 发布 Xeon 6+ Clearwater Forest：288 核、576MB L3 缓存，18A 工艺",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-xeon-6-clearwater-forest-puts-18a-in-the-data-center-with-up-to-288-cores-576-mb-of-l3-cache-new-xeon-6990e-is-30-percent-faster-per-thread-than-192-core-amd-epyc-9965-says-intel",
-      "source": "Tom's Hardware",
-      "one_liner": "Intel 数据中心反击战，18A 工艺落地，但量产时间在 2027 年，远水难解近渴。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia Cosmos 3 发布：用于物理 AI 推理的世界模型与动作模型",
-      "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/",
-      "source": "Nvidia Developer Blog",
-      "one_liner": "Cosmos 3 是机器人/自动驾驶的基础模型，但离开发者落地还有距离。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "微软 Build 大会前瞻：新 AI 模型和 Windows 改进",
-      "url": "https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect",
-      "source": "The Verge",
-      "one_liner": "微软本周 Build 可能发布新模型和 Windows Dev Mode 更新，值得关注。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "OpenAI 模型解决困扰人类 80 年的数学难题",
-      "url": "https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/",
-      "source": "Ars Technica",
-      "one_liner": "AI 在数学推理上的突破，但实际应用场景有限，更像 PR 事件。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "软银计划投资 750 亿欧元建设法国数据中心",
-      "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
-      "source": "TechCrunch",
-      "one_liner": "孙正义豪赌 AI 基础设施，5GW 容量规划，但执行周期长。"
-    },
-    {
       "domain": "AI",
-      "title": "从夯到拉，锐评 32 个 AI 编程工具！",
+      "title": "从夯到拉，锐评32个AI编程工具",
       "url": "http://www.bilibili.com/video/av116578532200786",
       "source": "程序员鱼皮",
-      "one_liner": "用户偏好的实操评测，帮你快速筛选适合的 vibe coding 工具。"
+      "one_liner": "实测对比Cursor、Claude Code、Codex等32款工具，帮你快速找到最适合自己的vibe coding工具。"
     },
     {
       "domain": "AI",
-      "title": "Claude Code 多 Agent 模式实战分享",
-      "url": "http://www.bilibili.com/video/av116454666012312",
-      "source": "Simon林_",
-      "one_liner": "Claude Code 两种多 Agent 模式的实操对比，适合进阶用户。"
+      "title": "Superpowers：让Claude Code写出工程级代码，支持TDD最佳实践",
+      "url": "http://www.bilibili.com/video/av115877227860495",
+      "source": "AI超元域",
+      "one_liner": "开源工作流系统，将专业工程方法论固化为Skills，适合追求代码质量的开发者。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia Cosmos 3发布：物理AI推理与世界模型",
+      "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/",
+      "source": "Nvidia Developer",
+      "one_liner": "Nvidia新一代物理AI模型，用于机器人、自动驾驶等具身智能场景。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "SK海力士先进工厂发生有毒气体火灾，3600名员工疏散",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/seven-hospitalized-after-toxic-gas-fire-at-sk-hynix-advanced-memory-plant-cheongju-4th-campus-incident-today-led-to-all-3-600-staff-being-evacuated",
+      "source": "Tom's Hardware",
+      "one_liner": "7人住院，HBM产能可能受影响，存储芯片供应再添变数。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "美国关闭AI芯片出口漏洞：中国海外子公司被纳入管制",
+      "url": "https://www.tomshardware.com/tech-industry/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-located-outside-china-to-buy-ai-chips",
+      "source": "Tom's Hardware",
+      "one_liner": "BIS澄清中国海外子公司也受出口管制，此前已有数十万芯片通过盲区流入。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "微软Build大会前瞻：新AI模型和Windows改进",
+      "url": "https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect",
+      "source": "The Verge",
+      "one_liner": "微软将在Build上发布新AI模型，Windows Dev Mode升级，与Nvidia RTX Spark深度整合。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "OpenAI模型破解80年数学难题：MCP问题新解法",
+      "url": "https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/",
+      "source": "Ars Technica",
+      "one_liner": "OpenAI模型解决了困扰人类80年的数学难题，证明AI在科学发现中的潜力。"
     },
     {
       "domain": "股票",
-      "title": "智谱 vs MiniMax：同日港股上市，五个月后市值差 4500 亿",
+      "title": "智谱与MiniMax同日港股上市，市值相差4500亿港元",
       "url": "https://wallstreetcn.com/articles/3773597",
       "source": "华尔街见闻",
-      "one_liner": "Agent 叙事 vs 业务分散，资本市场用脚投票，值得产品方向参考。"
+      "one_liner": "智谱借Agent叙事暴涨1600%，MiniMax因业务分散被冷落，AI公司估值分化加剧。"
     },
     {
       "domain": "股票",
-      "title": "美国 5 月 ISM 制造业扩张速度创四年来最快",
+      "title": "软银豪掷870亿美元押注欧洲AI数据中心",
+      "url": "https://wallstreetcn.com/articles/3773593",
+      "source": "华尔街见闻",
+      "one_liner": "孙正义称AI革命规模是互联网的50倍，规划5GW数据中心容量。"
+    },
+    {
+      "domain": "股票",
+      "title": "美国5月ISM制造业指数54，创四年最快扩张速度",
       "url": "https://wallstreetcn.com/articles/3773596",
       "source": "华尔街见闻",
-      "one_liner": "AI 投资驱动制造业强劲，但通胀压力仍在，美联储可能维持高利率。"
+      "one_liner": "AI投资与抢购备货双轮驱动，但伊朗冲突推高原材料成本，滞胀风险隐现。"
     },
     {
       "domain": "金融",
-      "title": "美国关闭允许中国子公司购买 AI 芯片的 loophole",
-      "url": "https://www.tomshardware.com/tech-industry/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-located-outside-china-to-buy-ai-chips-report-claims-that-hundreds-of-thousands-of-advanced-ai-chips-have-been-acquired-through-bis-blind-spot",
-      "source": "Tom's Hardware",
-      "one_liner": "出口管制加严，AI 芯片黑市可能更活跃，但对你个人项目影响不大。"
+      "title": "美国通胀升至3.8%，能源成本因伊朗战争飙升",
+      "url": "https://www.bbc.com/news/articles/c202pgxx89lo",
+      "source": "BBC",
+      "one_liner": "5月CPI超预期，能源价格同比上涨12%，美联储降息预期进一步推迟。"
     },
     {
       "domain": "金融",
-      "title": "高盛：对冲基金以半年最快速度追涨美股",
-      "url": "https://wallstreetcn.com/articles/3773578",
-      "source": "华尔街见闻",
-      "one_liner": "市场情绪高涨，但杠杆率已处高位，回调风险不容忽视。"
-    },
-    {
-      "domain": "金融",
-      "title": "MSTR 首度出售比特币，套现 250 万美元",
-      "url": "https://wallstreetcn.com/articles/3773584",
-      "source": "华尔街见闻",
-      "one_liner": "MicroStrategy 打破只买不卖惯例，可能预示比特币短期见顶信号。"
+      "title": "微软数据：使用AI比雇佣人类更昂贵",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/microsoft-data-suggests-using-ai-225900743.html",
+      "source": "Yahoo Finance",
+      "one_liner": "微软内部研究显示，AI替代人工的成本效益并非总是正向，引发AI投资回报率讨论。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-02T07:02:17+0000"
+    "scored_at": "2026-06-02T07:19:43+0000"
   }
 }

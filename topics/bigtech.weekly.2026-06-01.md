@@ -1,30 +1,29 @@
 # Curio · 大厂 AI 动态 · 2026-06-01
 
-> 今日 1 条头条 + 3 条备选
+> 今日 1 条头条 + 2 条备选
 
-_今天最大的信号来自 Computex 2026：Nvidia 正式发布 RTX Spark 超级芯片，标志着 Arm PC + 本地 AI 推理的新时代开启。与此同时，Anthropic 秘密提交 IPO 文件，AI 公司上市竞赛白热化。地缘方面，伊朗威胁封锁霍尔木兹海峡，油价飙涨，全球市场承压。_
+_今天Computex 2026开幕，Nvidia正式发布RTX Spark超级芯片，标志着Arm PC+AI Agent时代的开启。同时Anthropic提交IPO申请，AI公司上市潮加速。伊朗封锁霍尔木兹海峡威胁推高油价，宏观风险上升。AI Agent工具链持续进化，Claude Code Workflow隐藏功能曝光。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. Anthropic 秘密提交 IPO 文件，AI 公司上市竞赛加速
+### 2. Anthropic正式提交IPO申请，AI公司上市竞赛加速
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _The Verge_
 
-Anthropic 周一宣布已向 SEC 秘密提交 IPO 文件，标志着 AI 独角兽上市竞赛进入新阶段。此前 OpenAI 也被报道正在准备 IPO。Anthropic 的 Claude 系列模型在开发者社区口碑极佳，尤其是 Claude Code 和 MCP 协议。此次 IPO 估值可能超过 500 亿美元。
+在OpenAI被传即将IPO数周后，Anthropic抢先一步，于6月1日向SEC提交了机密IPO申请。这家Claude的母公司此前估值超600亿美元，2026年营收预计突破50亿美元。Anthropic的IPO将考验市场对'安全优先'AI公司的估值逻辑，也为整个AI行业树立新的定价锚。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic 已向 SEC 秘密提交 IPO 文件 | IPO 具体时间表和定价尚未公布 |
-| 公司估值预计超过 500 亿美元 | AI 公司高估值能否持续取决于商业化进展 |
-| Claude 系列模型持续迭代，Claude Code 成为开发者热门工具 | OpenAI 的 IPO 计划可能同步推进，形成竞争 |
-| MCP 协议被多家平台采用，成为 AI Agent 工具链标准之一 | 监管审查可能影响上市进程 |
-|  | Claude 在 Agent 领域的领先地位能否转化为营收仍需观察 |
+| Anthropic于6月1日向SEC提交机密IPO申请 | Anthropic的'安全优先'叙事能否支撑高估值存疑 |
+| 公司估值超600亿美元，2026年营收预计50亿美元 | IPO定价将反映市场对AI商业化的真实预期 |
+| 这是继SpaceX之后今年最受瞩目的科技IPO | OpenAI的IPO可能因Altman的监管审查而延迟 |
+| OpenAI也在准备IPO，预计未来几周内提交 | 低成本AI模型（如DeepSeek）可能冲击其营收预期 |
 
 **📖 主编点评**
 
-Anthropic 上市对你这个 Agent 重度玩家是利好——公司会更透明，API 可能更便宜。建议关注 IPO 招股书中的研发投入方向，特别是 Claude Code 和 MCP 的路线图。如果 Anthropic 上市后加大 Agent 工具投入，你的 content-curator 项目可以直接受益。
+你作为AI产品重度玩家，应关注Anthropic IPO后的产品策略变化。上市后Anthropic可能更激进地推动Claude的商业化，包括Claude Code的付费墙和API价格调整。建议在content-curator项目中预留Claude API的预算弹性，并关注其IPO路演中透露的Agent产品路线图。
 
 📺 [打开原文](https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public)
 
@@ -32,12 +31,10 @@ Anthropic 上市对你这个 Agent 重度玩家是利好——公司会更透明
 
 ## 📋 备选阅读
 
-- [微软 Build 大会前瞻：新 AI 模型和 Windows 改进](https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect) —— 微软本周 Build 可能发布新模型和 Windows Dev Mode 更新，值得关注。
+- [微软Build大会前瞻：新AI模型和Windows改进](https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect) —— 微软将在Build上发布新AI模型，Windows Dev Mode升级，与Nvidia RTX Spark深度整合。
   _The Verge_
-- [OpenAI 模型解决困扰人类 80 年的数学难题](https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/) —— AI 在数学推理上的突破，但实际应用场景有限，更像 PR 事件。
+- [OpenAI模型破解80年数学难题：MCP问题新解法](https://arstechnica.com/ai/2026/06/openais-math-breakthrough-played-to-ais-strengths/) —— OpenAI模型解决了困扰人类80年的数学难题，证明AI在科学发现中的潜力。
   _Ars Technica_
-- [软银计划投资 750 亿欧元建设法国数据中心](https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/) —— 孙正义豪赌 AI 基础设施，5GW 容量规划，但执行周期长。
-  _TechCrunch_
 
 ---
 
