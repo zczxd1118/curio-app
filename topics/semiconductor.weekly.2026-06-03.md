@@ -2,28 +2,28 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今天最关键的信号是 AI IPO 潮与算力基础设施的共振：Anthropic 和 OpenAI 相继提交上市文件，同时 Alphabet 发行 800 亿美元股权为 AI 资本支出融资，标志着科技巨头从举债转向发股。另一边，NVIDIA RTX Spark 与 Microsoft Surface RTX Spark Dev Box 定义了 Agentic AI PC 新品类，你的 content-curator 项目正好踩在这个节点上。_
+_今天最关键的信号是AI军备竞赛进入融资模式切换：Alphabet发行800亿美元股权为AI资本支出融资，DeepSeek首轮融资估值或达590亿美元，OpenAI与Anthropic相继筹备IPO。同时，NVIDIA RTX Spark PC平台与Microsoft Build的AI Agent工具集中发布，让Agent开发门槛进一步降低。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. NVIDIA RTX Spark 发布：定义 Agentic AI PC 新品类，获所有 PC 厂商支持
+### 2. NVIDIA发布RTX Spark PC平台，AI PC进入Agent原生时代
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _NVIDIA_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _shenli3514_
 
-NVIDIA 在 Computex 2026 上正式发布 RTX Spark——面向 Agentic AI 工作负载的 PC 平台。Jensen Huang 称其将“重新发明人类最重要的工具”。与微软 Surface RTX Spark Dev Box 同步推出，专为开发者打造本地 Agent 原型环境。所有主流 PC 厂商均宣布支持，标志着 AI PC 从概念进入标准化阶段。
+NVIDIA在Computex 2026正式发布RTX Spark，一个面向Agent AI的PC平台。Jensen Huang称要'reinvent the single most important tool of humanity'，并宣称获得'literally every computer maker in the world'支持。微软同步推出Surface RTX Spark Dev Box，为Windows Agent开发提供硬件基础。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| RTX Spark 是 NVIDIA 针对 Agentic AI 工作负载的专用 PC 平台 | RTX Spark 的具体规格（显存、算力 TOPS）尚未完全公开 |
-| 微软同步发布 Surface RTX Spark Dev Box，面向 AI 开发者 | 定价策略未公布，可能影响开发者采纳速度 |
-| 所有主流 PC 制造商（联想、戴尔、HP、华硕等）均宣布支持 | 与现有 AI PC（如 Copilot+ PC）的定位差异需进一步观察 |
-| Jensen Huang 在 Computex 主题演讲中重点推介 |  |
+| NVIDIA发布RTX Spark，定位为Agent AI PC平台 | RTX Spark的实际性能和开发者生态尚待验证 |
+| 微软同步推出Surface RTX Spark Dev Box开发机 | Agent原生PC能否真正改变开发工作流 |
+| 获得几乎所有主流PC厂商支持 | 与Apple Silicon的AI性能对比 |
+| RTX Spark集成专用AI加速单元 | 定价和功耗表现 |
 
 **📖 主编点评**
 
-这对你的 content-curator 项目是直接利好：RTX Spark 让本地运行 Agent 工作流成为标配。你可以考虑将项目设计为支持本地推理（通过 Ollama 或 llama.cpp）与云端 API 的混合模式，这样在 RTX Spark 设备上能获得更低的延迟和更高的隐私保护。建议关注 Spark 的显存规格，决定是否将 RAG 索引放在本地。
+RTX Spark意味着Agent开发将从云端走向本地。你应该关注这个平台对vibe coding工作流的影响——本地运行Agent意味着更低延迟和隐私优势。你的content-curator项目可以考虑在RTX Spark上做本地Agent部署实验，这会是简历上的亮点。
 
 📺 [打开原文](https://www.nvidia.com/en-us/products/rtx-spark/)
 
@@ -31,11 +31,11 @@ NVIDIA 在 Computex 2026 上正式发布 RTX Spark——面向 Agentic AI 工作
 
 ## 📋 备选阅读
 
-- [Microsoft builds MacBook Pro rival with NVIDIA-powered Surface Laptop Ultra](https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/) —— 微软Surface Laptop Ultra搭载NVIDIA芯片，直接对标MacBook Pro，但信息已被RTX Spark覆盖。
-  _Windows Latest_
-- [SK hynix to double memory wafer capacity within five years](https://www.tomshardware.com/pc-components/dram/sk-hynix-to-double-memory-wafer-capacity-over-five-years) —— SK海力士五年内翻倍内存晶圆产能，AI驱动HBM需求持续紧缺至2030年，利好算力产业链。
+- [SK hynix五年内内存晶圆产能翻倍，AI短缺将持续至2030年](https://www.tomshardware.com/pc-components/dram/sk-hynix-to-double-memory-wafer-capacity-over-five-years) —— SK hynix董事长称AI驱动内存短缺至少持续到2030年，产能翻倍计划印证需求强劲。
   _Tom's Hardware_
-- [TSMC Defends Transistor Scaling Amid Huawei’s ‘Her’s Law’ Proposal](https://www.eetimes.com/tsmc-defends-transistor-scaling-amid-huaweis-hers-law-proposal/) —— 台积电强调晶体管缩放仍是性能提升主引擎，反驳华为的‘何氏定律’，半导体路线之争值得关注。
+- [Phison展示PCIe 6.0 SSD控制器：28GB/s带宽、680万IOPS](https://www.tomshardware.com/pc-components/ssds/phison-shows-pcie-6-0-x3-ssd-controller-with-28-gb-s-of-bandwidth-and-6-8-million-iops-supports-2-petabytes-per-drive-also-new-power-sipping-e37t-ssds-for-pcie-5-0-systems-consume-a-mere-4-5w) —— PCIe 6.0 SSD控制器亮相Computex，AI数据吞吐瓶颈有望缓解。
+  _Tom's Hardware_
+- [TSMC在华为'Her's Law'挑战下捍卫晶体管缩放](https://www.eetimes.com/tsmc-defends-transistor-scaling-amid-huaweis-hers-law-proposal/) —— TSMC强调晶体管缩放仍是性能提升主要驱动力，3D集成是补充。
   _EE Times_
 
 ---
