@@ -1,0 +1,144 @@
+# Curio 趋势雷达 · 2026-06-03
+
+> 你的私人主编 · 今日跨域精选 4 条头条 + 13 条备选
+
+_今天最关键的信号是 AI IPO 潮与算力基础设施的共振：Anthropic 和 OpenAI 相继提交上市文件，同时 Alphabet 发行 800 亿美元股权为 AI 资本支出融资，标志着科技巨头从举债转向发股。另一边，NVIDIA RTX Spark 与 Microsoft Surface RTX Spark Dev Box 定义了 Agentic AI PC 新品类，你的 content-curator 项目正好踩在这个节点上。_
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 1. Anthropic 提交 IPO 文件，AI 军备竞赛进入公开市场阶段
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _NYT_
+
+继 OpenAI 上周秘密提交 IPO 后，Anthropic 也于 6 月 1 日向 SEC 递交上市文件。两家头部 AI 公司几乎同时冲刺 IPO，意味着大模型赛道从技术竞赛转向资本化竞争。Anthropic 的 S-1 文件将首次披露其营收结构、推理成本与客户集中度——这些数据对评估整个 AI 行业健康度至关重要。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Anthropic 于 2026 年 6 月 1 日向 SEC 提交 IPO 文件 | Anthropic 的估值区间尚未确定，市场预期在 600-900 亿美元 |
+| OpenAI 于 2026 年 5 月 20 日左右秘密提交 IPO 申请 | IPO 定价将反映投资者对 AI 推理成本下降速度的判断 |
+| 两家公司均计划在 2026 年下半年完成上市 | 两家公司同时上市可能分流机构资金，影响定价 |
+| Anthropic 的 Claude 系列模型在企业客户中增长迅速 |  |
+
+**📖 主编点评**
+
+你应该关注 Anthropic S-1 中披露的 API 定价趋势和客户留存率——这些数据直接决定了你 content-curator 项目底层模型的选择策略。如果 Anthropic 的推理成本下降曲线比 OpenAI 更陡，Claude Code 的性价比优势会进一步扩大，建议你在项目中预留模型切换接口。
+
+📺 [打开原文](https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html)
+
+---
+
+### 4. OpenAI 发布 Codex 白领工具套件，并计划与 ChatGPT 合并为超级应用
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
+
+OpenAI 推出 6 个面向白领工作的 Codex 插件：数据分析、创意制作、销售、产品设计、股权投资和投行。同时宣布 Codex 与 ChatGPT 将在数周内合并，核心逻辑是 Codex 在长时间多步骤任务和工具调用方面表现更优。此举旨在将 Codex 能力延伸至 9 亿消费端用户，冲刺 IPO 前扩大营收。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 6 个 Codex 插件分别面向数据分析、创意、销售、产品、投资、投行 | 白领工具的实际效果取决于企业采购意愿，目前仅限 Codex 应用内使用 |
+| Codex 与 ChatGPT 将在数周内合并为统一应用 | 合并后的超级应用可能面临与 Microsoft Copilot 的直接竞争 |
+| Codex 在工具调用和长任务方面优于 ChatGPT | 专业领域（如投行）的合规性尚未明确 |
+
+**📖 主编点评**
+
+Codex 的“超级应用”路线对你很有参考价值——你的 content-curator 本质上也是一个 Agent 聚合器。建议关注 Codex 的“harness”架构如何管理多工具调用，这可以借鉴到你的项目中。另外，Codex 的投行插件说明 AI Agent 正在渗透高价值白领工作，你的项目如果聚焦“信息筛选+分析”，正好卡位这个趋势。
+
+📺 [打开原文](https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 2. NVIDIA RTX Spark 发布：定义 Agentic AI PC 新品类，获所有 PC 厂商支持
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _NVIDIA_
+
+NVIDIA 在 Computex 2026 上正式发布 RTX Spark——面向 Agentic AI 工作负载的 PC 平台。Jensen Huang 称其将“重新发明人类最重要的工具”。与微软 Surface RTX Spark Dev Box 同步推出，专为开发者打造本地 Agent 原型环境。所有主流 PC 厂商均宣布支持，标志着 AI PC 从概念进入标准化阶段。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| RTX Spark 是 NVIDIA 针对 Agentic AI 工作负载的专用 PC 平台 | RTX Spark 的具体规格（显存、算力 TOPS）尚未完全公开 |
+| 微软同步发布 Surface RTX Spark Dev Box，面向 AI 开发者 | 定价策略未公布，可能影响开发者采纳速度 |
+| 所有主流 PC 制造商（联想、戴尔、HP、华硕等）均宣布支持 | 与现有 AI PC（如 Copilot+ PC）的定位差异需进一步观察 |
+| Jensen Huang 在 Computex 主题演讲中重点推介 |  |
+
+**📖 主编点评**
+
+这对你的 content-curator 项目是直接利好：RTX Spark 让本地运行 Agent 工作流成为标配。你可以考虑将项目设计为支持本地推理（通过 Ollama 或 llama.cpp）与云端 API 的混合模式，这样在 RTX Spark 设备上能获得更低的延迟和更高的隐私保护。建议关注 Spark 的显存规格，决定是否将 RAG 索引放在本地。
+
+📺 [打开原文](https://www.nvidia.com/en-us/products/rtx-spark/)
+
+---
+
+## 🌟 股票
+
+### 3. Alphabet 发行 800 亿美元股权融资，科技巨头 AI 资本支出从举债转向发股
+
+**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+Alphabet 宣布发行 800 亿美元股权为未来两年 AI 资本支出融资，这是科技巨头首次大规模以股权而非债务为 AI 基建买单。五大巨头 2026 年合计资本支出近 7500 亿美元，现金流缺口持续扩大。此举可能引发微软、Meta、亚马逊跟进，股权市场面临融资洪峰。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Alphabet 发行 800 亿美元股权用于 AI 资本支出 | 微软、Meta、亚马逊可能被迫跟进，但时机和规模不确定 |
+| 五大科技巨头 2026 年合计资本支出预计达 7500 亿美元 | 股权稀释可能影响现有股东回报，引发股价短期波动 |
+| 此前科技公司主要依靠债务融资，此次转向股权是重要转折 | AI 资本支出回报率尚未被市场验证，存在过度投资风险 |
+
+**📖 主编点评**
+
+你应该意识到 AI 基础设施的融资模式正在改变——从“借债赌未来”变成“卖股换现金”。这对你的项目意味着：云 API 价格可能因资本充裕而下降（利好），但模型公司 IPO 后的财报压力可能导致涨价（利空）。建议在 content-curator 中设计成本监控模块，动态切换性价比最高的模型。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3773758)
+
+---
+
+## 📋 备选池
+
+### AI
+
+- [1个人，如何通过Vibe Coding快速实现变现？](http://www.bilibili.com/video/av116650858847182) —— 实操向的Vibe Coding变现案例，但偏流量号风格，深度不足，适合周末快速扫一眼。
+  _老麦的工具库_
+- [MCP实战指南，2小时学透mcp](http://www.bilibili.com/video/av114380213586544) —— 系统性的MCP教程，但发布时间较早（2025年4月），新颖度不够，适合新手补基础。
+  _尚硅谷_
+
+### AI 算力 / 半导体
+
+- [Microsoft builds MacBook Pro rival with NVIDIA-powered Surface Laptop Ultra](https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/) —— 微软Surface Laptop Ultra搭载NVIDIA芯片，直接对标MacBook Pro，但信息已被RTX Spark覆盖。
+  _Windows Latest_
+- [SK hynix to double memory wafer capacity within five years](https://www.tomshardware.com/pc-components/dram/sk-hynix-to-double-memory-wafer-capacity-over-five-years) —— SK海力士五年内翻倍内存晶圆产能，AI驱动HBM需求持续紧缺至2030年，利好算力产业链。
+  _Tom's Hardware_
+- [TSMC Defends Transistor Scaling Amid Huawei’s ‘Her’s Law’ Proposal](https://www.eetimes.com/tsmc-defends-transistor-scaling-amid-huaweis-hers-law-proposal/) —— 台积电强调晶体管缩放仍是性能提升主引擎，反驳华为的‘何氏定律’，半导体路线之争值得关注。
+  _EE Times_
+
+### 大厂 AI 动态
+
+- [Microsoft launches Scout, an OpenClaw-inspired personal assistant](https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/) —— 微软Scout是OpenClaw风格的AI助手，集成到M365，但功能与Copilot重叠，定位尚不清晰。
+  _TechCrunch_
+- [Trump signs executive order to review AI models before they’re released](https://www.theverge.com/policy/941775/trump-ai-executive-order) —— 特朗普签署AI行政令，要求企业自愿向政府提交前沿模型进行预发布审查，监管信号偏弱但影响深远。
+  _The Verge_
+- [Microsoft’s first advanced reasoning AI is here: MAI-Thinking-1](https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026) —— 微软发布自研推理模型MAI-Thinking-1，对标o1/o3，但实际性能需等第三方评测。
+  _The Verge_
+
+### 股票
+
+- [DeepSeek据悉在首轮融资中预计筹资约70亿美元，估值最高可达590亿美元](https://wallstreetcn.com/articles/3773751) —— DeepSeek首轮融资70亿美元，腾讯宁德时代领投，中国AI独角兽估值体系正在形成。
+  _华尔街见闻_
+- [Morningstar values SpaceX at $780B, half its IPO target](https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/) —— 晨星给SpaceX估值7800亿美元，仅为IPO目标一半，估值分歧巨大，投资者需警惕。
+  _Reuters_
+
+### 金融
+
+- [Maryland citizens hit with $2B power grid upgrade for out-of-state AI](https://www.tomshardware.com/tech-industry/artificial-intelligence/maryland-citizens-slapped-with-usd2-billion-grid-upgrade-bill-for-out-of-state-ai-data-centers-state-complains-to-federal-energy-regulators-says-additional-cost-breaks-ratepayer-protection-pledge-promises) —— 马里兰州居民被迫承担20亿美元电网升级费用以支持外州AI数据中心，AI能源成本转嫁问题浮出水面。
+  _Tom's Hardware_
+- [US inflation jumps to 3.8% as energy costs surge from Iran war](https://www.bbc.com/news/articles/c202pgxx89lo) —— 美国通胀升至3.8%，能源成本因伊朗局势飙升，可能影响美联储降息节奏，间接影响AI融资成本。
+  _BBC_
+- [Anthropic Files to Go Public, Setting Stage for Huge I.P.O.](https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html) —— Anthropic提交IPO，与OpenAI同期上市，AI行业资本化加速，但估值和盈利能力存疑。
+  _NYT_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
