@@ -2,220 +2,33 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-06-03T08:25:23.530627+00:00",
+  "fetched_at": "2026-06-04T07:57:57.712958+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 20,
-    "HN · stock market": 12,
-    "HN · IPO": 15,
-    "HN · earnings": 1,
+    "HN · stock market": 17,
+    "HN · IPO": 21,
+    "HN · earnings": 0,
     "HN · Federal Reserve": 0,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 68,
+  "total": 77,
   "items": [
     {
-      "id": "wscn:3773737",
-      "title": "创业板冲高回落涨逾1.5%，算力硬件再爆发、“易中天”齐创新高，恒科指跌近3%，科网股集体下跌",
-      "url": "https://wallstreetcn.com/articles/3773737",
-      "summary": "盘面上，个股跌多涨少，沪深京三市超3700股飘绿，今日成交3.15万亿。沪深两市成交额3.13万亿，较上一个交易日放量近3400亿。板块方面，半导体、算力硬件产业链再度爆发，CPO、超硬材料方向领涨；工业金属、光刻机、存储器、商业航天题材活跃；煤炭、电力、油气板块走强。AI应用、短剧游戏、电商概念股调整。",
+      "id": "wscn:3773858",
+      "title": "博通AI指引“不够炸裂”引发抛售，华尔街却喊错杀：真正爆发在2027年后",
+      "url": "https://wallstreetcn.com/articles/3773858",
+      "summary": "德银认为，市场低估了博通的长期潜力：订单能见度已延伸至2028年，本身已释放积极信号，预计2027财年AI营收达到1250亿美元，高于公司指引，2028年将飙升至1900亿美元，这才是博通AI故事的真正主轴。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-03T08:16:07+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773770",
-      "title": "美国计划对60个经济体加征关税，中方表态",
-      "url": "https://wallstreetcn.com/articles/3773770",
-      "summary": "针对美国贸易代表办公室计划以“未禁止进口强迫劳动产品”为由对60个经济体加征关税，外交部发言人毛宁表示，中方一贯反对各种形式的单边关税措施，关税战、贸易战不符合任何一方的利益，经贸问题应该在平等、尊重、互惠的基础上通过对话协商解决。她还表示，中国不存在所谓的“强迫劳动”，也反对以此为借口搞政治操弄。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T07:59:04+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773763",
-      "title": "错过二十年后终于出手，伯克希尔押注谷歌成为AI时代的“BNSF铁路公司”",
-      "url": "https://wallstreetcn.com/articles/3773763",
-      "summary": "巴菲特亲眼目睹谷歌商业奇迹却观望二十年，如今继任者Greg Abel用100亿美元打破沉默——以伯克希尔巨额现金复刻\"喜诗糖果供养BNSF铁路\"的经典逻辑，押注谷歌云成为AI时代的下一个现金引擎。当算力争夺白热化，谁的现金流最强，谁就赢得未来。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T07:49:09+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773742",
-      "title": "AI热情点燃股市，日经大涨3%再新高，日元160关口附近波动，油价涨超2%，比特币跌至6.7万美元",
-      "url": "https://wallstreetcn.com/articles/3773742",
-      "summary": "人工智能热潮推动股市攀升至历史新高，MSCI全球所有国家指数上涨0.1%创纪录。美股指期货基本持平，日经225指数盘中一度大涨3%创下新高。美元小幅走强，日元再度逼近160关口。同时，美国国务卿鲁比奥披露伊朗已在霍尔木兹海峡大范围布雷，布伦特原油升至97美元/桶，但市场整体情绪未被压垮。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T07:44:30+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773767",
-      "title": "日元短线跳涨，高市早苗：随时根据需要对汇率采取适当措施",
-      "url": "https://wallstreetcn.com/articles/3773767",
-      "summary": "更多消息，持续更新中",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T07:42:19+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773760",
-      "title": "Perplexity：一个指标就能决定谁将赢得AI竞赛",
-      "url": "https://wallstreetcn.com/articles/3773760",
-      "summary": "AI竞赛的终极胜负手是“每瓦每用户token价值”？Perplexity CEO指出，能在单位能耗下创造最大经济价值的公司——即在准确性、延迟、成本、隐私与智能间取得最佳平衡者——将赢得最高估值。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T07:42:06+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773765",
-      "title": "OpenAI超级应用来了：Codex与ChatGPT合并，数周内上线",
-      "url": "https://wallstreetcn.com/articles/3773765",
-      "summary": "OpenAI领导层表示，合并的核心逻辑在于Codex在许多任务上的表现已优于ChatGPT——尤其是在处理长时间、多步骤任务以及调用外部工具方面。Codex拥有更优越的\"harness\"——即帮助AI智能体调用工具、代替用户执行操作的底层软件框架。分析称，此举旨在将Codex能力延伸至9亿消费端用户，冲刺IPO前扩大营收，同时应对Anthropic的激烈竞争。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T07:38:46+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773761",
-      "title": "顾全全正式告别字节seed，下一站或为AI制药",
-      "url": "https://wallstreetcn.com/articles/3773761",
-      "summary": "AI行业人才快速流动。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T07:05:42+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773051",
-      "title": "AI算力跨域互联激增：DCI与相干光通信革命爆发在即？",
-      "url": "https://wallstreetcn.com/premium/articles/3773051?layout=wscn-layout",
-      "summary": "预计2026年光传输设备市场全年增速预测从10%大幅上修至16%，预计年收入将首次自2000年以来突破180亿美元；2026年第一季度该市场同比飙升20%，DCI直采相关收入同比增长约40%。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T06:46:22+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773754",
-      "title": "如果把马斯克的财富具象化：每小时进账360万、身家超125个国家GDP、普通人需工作1100万年",
-      "url": "https://wallstreetcn.com/articles/3773754",
-      "summary": "马斯克净资产已达9700亿美元，距全球首位万亿富翁仅一步之遥。其财富折算下来每秒进账992美元，超越125个国家年度GDP，是洛克菲勒财富占比的两倍。而普通美国家庭若想与之比肩，需不间断工作逾1100万年。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T06:45:29+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773758",
-      "title": "Alphabet卖股800亿是个转折点？科技巨头AI融资从借债转向发股",
-      "url": "https://wallstreetcn.com/articles/3773758",
-      "summary": "AI军备竞赛烧钱逻辑正在转折：Alphabet宣布发行800亿美元股权为未来两年AI资本支出融资，或许标志科技巨头从大举举债转向出售股权。五大巨头2026年合计资本支出将近7500亿美元，现金流缺口持续扩大，微软、Meta、亚马逊或将被迫跟进，股权市场或面临融资洪峰。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T06:32:36+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773756",
-      "title": "韩股上看12000点、日经225年底冲70000点！华尔街大行批量看多日韩股市",
-      "url": "https://wallstreetcn.com/articles/3773756",
-      "summary": "高盛将韩国KOSPI指数目标大幅上调至12000点，较周二收盘价隐含约36%的上行空间，核心看好AI硬件投资带来的盈利超级周期；高盛与花旗亦看多日股，花旗预计日经225年底冲70000点，主要得益于企业盈利强劲、外资持续流入及股东回报创新高。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T06:26:49+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773759",
-      "title": "AI数据中心等不起电网，也等不起燃气轮机，SOFC从“备胎”变标配",
-      "url": "https://wallstreetcn.com/articles/3773759",
-      "summary": "国金证券认为，固体氧化物燃料电池（SOFC）已进入“从1到10”的规模化放量与业绩兑现期。凭借90天极速交付、55%~65%的高效能与近零排放，精准卡位AI数据中心供电缺口。SOFC正加速逼近燃气轮机平价拐点，Bloom Energy订单的爆发也正带动国内供应链企业集体受益。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T06:26:20+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773755",
-      "title": "2个月暴涨44%，美国软件股“杀回来”了！中国互联网是“亚太版IGV”吗？",
-      "url": "https://wallstreetcn.com/articles/3773755",
-      "summary": "美国软件股正上演二十五年来最强反弹，IGV期权与散户资金创纪录流入。与此同时，中国互联网板块大幅反弹引发“补涨”联想，摩根大通认为，一旦投资者接受类似叙事，其走势可能同样剧烈，但两者盈利趋势与商业模式存在本质差异，难以复制同类行情。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T06:22:00+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773676",
-      "title": "厄尔尼诺的深远影响：碳基通胀回归，硅基资产重估提前到来",
-      "url": "https://wallstreetcn.com/articles/3773676",
-      "summary": "浙商证券认为，2026年厄尔尼诺已基本确立，其影响或超越传统农产品定价逻辑。全球变暖导致雨带北移，棕榈油、铜等品种面临供给冲击；同时高温推升电力和数据中心成本，碳基资源涨价向AI产业链传导，或提前触发科技股估值重估，并加大美联储降息掣肘。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T06:00:03+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773753",
-      "title": "7800亿美元才是合理估值？SpaceX被丹麦基金拉进黑名单后，再遭重磅质疑",
-      "url": "https://wallstreetcn.com/articles/3773753",
-      "summary": "史上最大IPO冲刺在即，SpaceX却遭遇估值与治理的双面夹击：晨星给出7800亿美元公允价值，不足1.8万亿目标估值的一半；丹麦养老基金以治理\"灾难性\"为由将其拉黑，马斯克或掌控85%投票权。质疑声浪之下，SpaceX仍加速推进，募资最高750亿美元，承销费率创历史新低，最快6月12日纳斯达克挂牌。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T05:56:42+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773713",
-      "title": "当印钞机开始卖股票 美股近十年最大的托底力量正在反转",
-      "url": "https://wallstreetcn.com/premium/articles/3773713?layout=wscn-layout",
-      "summary": "供给侧的条件在松动。买盘的质量在下降。估值处在155年来第二高的位置。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T05:35:46+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773751",
-      "title": "报道：DeepSeek据悉在首轮融资中预计筹资约70亿美元，估值最高可达590亿美元",
-      "url": "https://wallstreetcn.com/articles/3773751",
-      "summary": "据报道，腾讯和宁德时代将成为DeepSeek最大的外部投资者，网易和京东也计划参与投资。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-03T05:24:53+00:00",
+      "published_at": "2026-06-04T07:51:56+00:00",
       "points": 0
     },
     {
@@ -226,18 +39,205 @@
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-03T04:08:40+00:00",
+      "published_at": "2026-06-04T07:45:40+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3773743",
-      "title": "人民币多头情绪创15年新高，强势周期或延伸至年底",
-      "url": "https://wallstreetcn.com/articles/3773743",
-      "summary": "人民币多头情绪飙升至2011年以来峰值，离岸汇率徘徊逾三年高位，年内累涨超3%。估值洼地、科技出口强劲与人民币国际化三重驱动下，CIPS日均结算量创历史纪录。德意志银行喊价6.5，TS Lombard更激进预言破6.0。",
+      "id": "wscn:3773843",
+      "title": "AI交易降温，韩股重挫1.8%，现货黄金上涨1%，比特币跳水",
+      "url": "https://wallstreetcn.com/articles/3773843",
+      "summary": "纳斯达克100指数期货下滑0.5%，此前博通在盘后交易中重挫14%，最新业绩展望大幅低于投资者预期，并发出向AI客户转型进展慢于市场预期的信号。比特币滑落至约64000美元，为今年2月以来最低；黄金因逢低买盘涌入上涨约1%；布伦特原油下跌约1%至97美元/桶附近。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-03T04:08:26+00:00",
+      "published_at": "2026-06-04T07:43:46+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773860",
+      "title": "5年100亿美元！IBM加码量子计算，目标2029年交付世界第一台“大规模容错量子计算机”",
+      "url": "https://wallstreetcn.com/articles/3773860",
+      "summary": "IBM宣布未来五年投入超100亿美元，加速量子计算产业化进程，目标在2029年交付全球首台大规模容错量子计算机。美国政府此前已提供10亿美元专项资助，支持其在纽约设立美国首家纯量子代工厂Anderon。结合园区扩建与平台化商业模式，IBM正构建涵盖硬件、制造与生态的完整量子战略。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T07:41:40+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773859",
+      "title": "商务部：美滥用出口管制冲击全球半导体产供链稳定",
+      "url": "https://wallstreetcn.com/articles/3773859",
+      "summary": "新闻发言人表示，近年来美方不断以国家安全为由滥用出口管制，严重损害中国企业正当权益，严重破坏国际经贸秩序，严重冲击全球半导体产业链供应链稳定，中方对此一贯反对。中方反对各种形式的单边限制措施，包括以“强迫劳动”为由对华实施的一系列贸易限制措施，对此中方已多次表达严正立场。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T07:14:04+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773851",
+      "title": "单日大跌超10%，软银重押OpenAI的代价开始显现？",
+      "url": "https://wallstreetcn.com/articles/3773851",
+      "summary": "软银单日暴跌逾11%，将孙正义的AI豪赌推上风口浪尖。这家日本科技巨头有息债务高达1040亿美元，对OpenAI的押注占比或达投资组合30%。标普已将其信用展望下调至负面，分析师直言：\"买入软银，本质上是杠杆押注OpenAI。\"WeWork百亿美元的前车之鉴犹在，这场豪赌究竟是财富杠杆，还是流动性危机的引爆点？",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T07:12:25+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773856",
+      "title": "金融市场、风控干将履新，浙商银行高管班子完成最后拼图",
+      "url": "https://wallstreetcn.com/articles/3773856",
+      "summary": "6月3日，浙商银行发布公告称，公司收到国家金融监督管理总局批复，周伟新、潘华枫担任该行副行长的任职资...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T06:59:20+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773855",
+      "title": "海尔25年来首次减持青岛银行，产业股东退居、国资格局渐成",
+      "url": "https://wallstreetcn.com/articles/3773855",
+      "summary": "25年前，海尔以产业资本身份参与青岛银行前身的改制重组；25年后，这笔长期投资首次迎来兑现时刻。\n6...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T06:58:50+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773849",
+      "title": "拨开大宗商品的迷雾，了解最真实的市场【对话培风客 上篇】",
+      "url": "https://wallstreetcn.com/premium/articles/3773849?layout=wscn-layout",
+      "summary": "逼仓的真相就是：钱比货多",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T06:58:20+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773854",
+      "title": "掌舵七年后到龄退休，贵阳银行董事长卸任、行长代履职责",
+      "url": "https://wallstreetcn.com/articles/3773854",
+      "summary": "6月3日，贵阳银行发布公告称，董事长张正海因到龄退休，已向董事会提交辞职报告，辞任后，张正海不再担任...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T06:58:06+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773853",
+      "title": "中标利率异常引发“乌龙指”猜测，农发行紧急取消一笔政策性金融债发行",
+      "url": "https://wallstreetcn.com/articles/3773853",
+      "summary": "近日，银行间债券市场出现了一幕并不常见的场景。\n6月2日，农发行续发的一期政策性金融债招标结果公布后...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T06:57:35+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773834",
+      "title": "台积电魏哲家：数年内都无法满足芯片需求，资本开支高点“我也不知道”、“没看到停下的指标”",
+      "url": "https://wallstreetcn.com/articles/3773834",
+      "summary": "股东大会上，董事长魏哲家预计，台积电全年营收增速维持超30%预期；Q2毛利率指引65.5%至67.5%。他坦言资本支出高峰“我也不知道”，但强调“现在没看到停止的指标”；员工分红连续三年增超30%，承诺“没有天花板”。他指出，token消耗量激增推升算力需求，自动驾驶与机器人更构成下一波长期增长引擎。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T06:54:55+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773847",
+      "title": "博通：大佬vs大佬，ASIC阵营要分家了？",
+      "url": "https://wallstreetcn.com/articles/3773847",
+      "summary": "市场开始重新审视ASIC阵营内部分化：博通偏“网络+ASIC”，Marvell受互连叙事强化，而云厂商自研加速或导致供应链重构，“大佬之间的分化”正在显现。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T06:31:13+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773846",
+      "title": "美股已无恐慌，只剩FOMO！华尔街机构：这一幕像极了1998年",
+      "url": "https://wallstreetcn.com/articles/3773846",
+      "summary": "美股科技板块正经历1990年以来最强劲10周涨幅，累计飙升44.6%，VIX跌至年内最低，市场恐惧已荡然无存，唯剩\"踏空焦虑\"。然而警报已然拉响：RSI触及82、较200日均线偏离28%的极端组合，历史上仅出现十次，多数以回调告终。更令人警惕的是，时间轴恰与1998年7月高度吻合——彼时科技板块随后重挫逾20%。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T06:27:53+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773844",
+      "title": "警惕“羊群效应”！韩国财长：必要时出手干预汇市，对杠杆化炒股感到担心",
+      "url": "https://wallstreetcn.com/articles/3773844",
+      "summary": "韩元跌至两个月低点、股市高位上行之际，韩国财政部长联合央行与金融监管机构紧急发声：必要时将\"立即采取措施\"遏制外汇过度波动，并点名警示股市杠杆风险。融资贷款余额创20年新高、散户未成年开户暴增十倍，韩国政策层对泡沫的容忍度正逼近临界点。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T06:19:25+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773842",
+      "title": "报道：日本央行正考虑在6月加息，并有可能在2026年年内再次加息",
+      "url": "https://wallstreetcn.com/articles/3773842",
+      "summary": "报道称，日本央行官员可能在6月16日政策会议上讨论将基准利率上调25个基点至1%的方案。官员们认为此后仍存在进一步加息空间，理由是实际利率依然处于低位，且通胀上行风险持续存在。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T06:13:29+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773749",
+      "title": "稀土乘风起：国之重器战略升级，管控提级扩大供需缺口",
+      "url": "https://wallstreetcn.com/premium/articles/3773749?layout=wscn-layout",
+      "summary": "2026年稀土市场呈现“供给刚性锁死、需求多点开花”的双轮驱动格局。缅甸停产导致中重稀土供应出现实质性断档，国内配额增速放缓至个位数，供给弹性被系统性压缩；需求端新能源汽车、工业机器人、节能家电稳步增长，叠加人形机器人打开远期万亿级应用空间，氧化镨钕价格中枢有望保持高位震荡。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T06:03:48+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773845",
+      "title": "鸿海宣布与英特尔达成战略合作，将共同开发AI平台",
+      "url": "https://wallstreetcn.com/articles/3773845",
+      "summary": "英特尔联手鸿海、SambaNova亮相Computex 2026，推出机架级AI基础设施，同步发布首款采用18A制程的Xeon 6+处理器。随着AI从训练转向推理，CPU与GPU比例正由1:4向1:1演变，英特尔借势布局，意在抢夺推理时代数据中心的核心算力话语权。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T05:36:00+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773839",
+      "title": "SemiAnalysis深度详解马斯克的“太空算力梦”：真正的瓶颈是什么？何时能上天？",
+      "url": "https://wallstreetcn.com/articles/3773839",
+      "summary": "马斯克的\"太空算力梦\"正从科幻走向经济测算，但账并不好算。SemiAnalysis最新报告显示，目前同等GPU集群太空部署成本是地面的3.6倍，\"免费太阳能\"\"免费散热\"均存在严重高估。基准情景下成本平价要等到2040年，而真正卡住AI扩张的，是芯片而非电力。地面数据中心新增容量在2028年见顶，同时芯片生产扩张继续推进，成本平价可能提前至2030年代初。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T04:54:43+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773841",
+      "title": "微信给AI手机留了一道门",
+      "url": "https://wallstreetcn.com/articles/3773841",
+      "summary": "微信妥协了？",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-04T04:21:48+00:00",
       "points": 0
     },
     {
@@ -252,8 +252,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48364055"
       },
       "duration_sec": null,
-      "views": 689,
-      "comments": 1211,
+      "views": 711,
+      "comments": 1251,
       "published_at": "2026-06-01T23:45:46+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -298,6 +298,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48390053",
+      "title": "Iran war drains US oil stocks to lowest level since 2004",
+      "url": "https://www.ft.com/content/d0be73c8-b8d8-4ffd-874e-e97a6ecffef7",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48390053",
+        "name": "petethomas",
+        "hn_url": "https://news.ycombinator.com/item?id=48390053"
+      },
+      "duration_sec": null,
+      "views": 46,
+      "comments": 11,
+      "published_at": "2026-06-03T21:06:30+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:48285468",
       "title": "There are now more ETFs than stocks in the US",
       "url": "https://www.apollo.com/wealth/the-daily-spark/more-etfs-than-stocks",
@@ -331,25 +350,6 @@
       "views": 43,
       "comments": 10,
       "published_at": "2026-05-26T14:44:31+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48205351",
-      "title": "Cities: Skylines Uses a Stock-Market Analogy to Influence Gameplay",
-      "url": "http://jkm.dev/posts/cities-skylines-trading-market/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48205351",
-        "name": "birdculture",
-        "hn_url": "https://news.ycombinator.com/item?id=48205351"
-      },
-      "duration_sec": null,
-      "views": 30,
-      "comments": 1,
-      "published_at": "2026-05-20T09:55:02+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -393,6 +393,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48383625",
+      "title": "Dell inks $9.7B Pentagon contract after Trump acquires stock",
+      "url": "https://www.washingtonpost.com/politics/2026/05/28/dell-inks-97-billion-pentagon-contract-after-trump-acquires-stock-praises-company/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48383625",
+        "name": "root-parent",
+        "hn_url": "https://news.ycombinator.com/item?id=48383625"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 4,
+      "published_at": "2026-06-03T13:19:10+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:48297843",
       "title": "Steam Deck OLED is back in stock, with a price increase for both models",
       "url": "https://store.steampowered.com/news/group/45479024/view/672869045073085538",
@@ -426,6 +445,44 @@
       "views": 14,
       "comments": 4,
       "published_at": "2026-05-24T21:54:06+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48304589",
+      "title": "SpaceX IPO: Did Musk Rig the Stock Market? [video]",
+      "url": "https://www.youtube.com/watch?v=sYA-z0Y8WRQ",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48304589",
+        "name": "mgh2",
+        "hn_url": "https://news.ycombinator.com/item?id=48304589"
+      },
+      "duration_sec": null,
+      "views": 13,
+      "comments": 0,
+      "published_at": "2026-05-28T04:42:25+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48377119",
+      "title": "Short Seller (Andrew Left) Convicted for $21M Stock Market Manipulation Scheme",
+      "url": "https://www.justice.gov/opa/pr/activist-short-seller-convicted-21m-stock-market-manipulation-scheme",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48377119",
+        "name": "gnabgib",
+        "hn_url": "https://news.ycombinator.com/item?id=48377119"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 2,
+      "published_at": "2026-06-02T22:19:48+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -469,6 +526,63 @@
       "lang": "en"
     },
     {
+      "id": "hn:48390904",
+      "title": "SpaceX Sets Price for $1.77T IPO",
+      "url": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48390904",
+        "name": "gen220",
+        "hn_url": "https://news.ycombinator.com/item?id=48390904"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 0,
+      "published_at": "2026-06-03T22:19:10+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48315925",
+      "title": "Dell Gets a $9.7B Defense Contract. Trump's Portfolio Stands to Benefit",
+      "url": "https://www.nytimes.com/2026/05/28/us/politics/trump-dell-stock-purchases.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48315925",
+        "name": "spankibalt",
+        "hn_url": "https://news.ycombinator.com/item?id=48315925"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 0,
+      "published_at": "2026-05-28T21:42:12+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48373909",
+      "title": "Morningstar values SpaceX at $780B, half its IPO target",
+      "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48373909",
+        "name": "berkeleyjunk",
+        "hn_url": "https://news.ycombinator.com/item?id=48373909"
+      },
+      "duration_sec": null,
+      "views": 210,
+      "comments": 191,
+      "published_at": "2026-06-02T18:09:53+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:48210226",
       "title": "OpenAI Is Preparing to File for an IPO Soon",
       "url": "https://www.wsj.com/tech/ai/openai-is-preparing-to-file-for-an-ipo-very-soon-0ec95af5",
@@ -507,25 +621,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:48373909",
-      "title": "Morningstar values SpaceX at $780B, half its IPO target",
-      "url": "https://www.reuters.com/business/media-telecom/morningstar-values-spacex-780-billion-half-its-ipo-target-2026-06-02/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48373909",
-        "name": "berkeleyjunk",
-        "hn_url": "https://news.ycombinator.com/item?id=48373909"
-      },
-      "duration_sec": null,
-      "views": 198,
-      "comments": 163,
-      "published_at": "2026-06-02T18:09:53+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
       "id": "hn:48217052",
       "title": "OpenAI to confidentially file for IPO as soon as Friday",
       "url": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
@@ -559,6 +654,44 @@
       "views": 89,
       "comments": 96,
       "published_at": "2026-05-19T13:30:58+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48385866",
+      "title": "SpaceX's IPO is a disaster waiting to happen for your pension fund",
+      "url": "https://www.irishtimes.com/business/2026/06/03/heavily-in-debt-loss-making-with-eyes-on-sending-people-to-mars-why-would-anyone-invest-in-spacex/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48385866",
+        "name": "anonymousDan",
+        "hn_url": "https://news.ycombinator.com/item?id=48385866"
+      },
+      "duration_sec": null,
+      "views": 82,
+      "comments": 41,
+      "published_at": "2026-06-03T16:02:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48394034",
+      "title": "The SpaceX IPO Will Be the Theft of the Century",
+      "url": "https://montanaskeptic.substack.com/p/the-spacex-ipo-will-be-the-theft",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48394034",
+        "name": "400thecat",
+        "hn_url": "https://news.ycombinator.com/item?id=48394034"
+      },
+      "duration_sec": null,
+      "views": 80,
+      "comments": 59,
+      "published_at": "2026-06-04T04:52:37+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -621,6 +754,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48391046",
+      "title": "We Uncovered a Hidden Wealth Transfer in the SpaceX IPO. You're Holding the Bag [video]",
+      "url": "https://www.youtube.com/watch?v=sYA-z0Y8WRQ",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48391046",
+        "name": "CharlesW",
+        "hn_url": "https://news.ycombinator.com/item?id=48391046"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 6,
+      "published_at": "2026-06-03T22:32:44+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:48343303",
       "title": "The SpaceX IPO is great for Elon Musk and terrible for you",
       "url": "https://www.theverge.com/ai-artificial-intelligence/940001/elon-musk-spacex-ipo-ai",
@@ -659,6 +811,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48368083",
+      "title": "Ask HN: What is your opinion on index rule changes to accommodate Mega-Cap IPOs?",
+      "url": "https://news.ycombinator.com/item?id=48368083",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48368083",
+        "name": "figmert",
+        "hn_url": "https://news.ycombinator.com/item?id=48368083"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 10,
+      "published_at": "2026-06-02T09:55:55+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:48314363",
       "title": "Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions",
       "url": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/",
@@ -670,7 +841,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48314363"
       },
       "duration_sec": null,
-      "views": 235,
+      "views": 236,
       "comments": 180,
       "published_at": "2026-05-28T19:43:14+00:00",
       "summary": "",
@@ -689,8 +860,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48368187"
       },
       "duration_sec": null,
-      "views": 128,
-      "comments": 149,
+      "views": 134,
+      "comments": 153,
       "published_at": "2026-06-02T10:09:21+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -746,7 +917,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48369063"
       },
       "duration_sec": null,
-      "views": 21,
+      "views": 23,
       "comments": 2,
       "published_at": "2026-06-02T11:56:54+00:00",
       "summary": "",
@@ -754,22 +925,22 @@
       "lang": "en"
     },
     {
-      "id": "hn:48205415",
-      "title": "Learnings from 100K lines of Rust with AI (2025)",
-      "url": "https://zfhuang99.github.io/rust/claude%20code/codex/contracts/spec-driven%20development/2025/12/01/rust-with-ai.html",
+      "id": "hn:48382926",
+      "title": "Goldman Sachs CEO says markets in 'greed' mode as AI companies seek billions",
+      "url": "https://www.cnbc.com/2026/06/02/goldman-ceo-david-solomon-greed-mode-ai-firms-ipos.html",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "48205415",
-        "name": "pramodbiligiri",
-        "hn_url": "https://news.ycombinator.com/item?id=48205415"
+        "id": "48382926",
+        "name": "1vuio0pswjnm7",
+        "hn_url": "https://news.ycombinator.com/item?id=48382926"
       },
       "duration_sec": null,
-      "views": 192,
-      "comments": 205,
-      "published_at": "2026-05-20T10:04:28+00:00",
+      "views": 22,
+      "comments": 2,
+      "published_at": "2026-06-03T12:08:41+00:00",
       "summary": "",
-      "matched_keyword": "earnings",
+      "matched_keyword": "IPO",
       "lang": "en"
     },
     {

@@ -2,18 +2,18 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-06-03T08:25:04.306731+00:00",
+  "fetched_at": "2026-06-04T07:57:37.422096+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
-    "SemiAnalysis（半导体首选深度）": 0,
+    "SemiAnalysis（半导体首选深度）": 10,
     "EE Times": 10,
     "AnandTech": 0,
     "Tom's Hardware": 30,
-    "HN · TSMC": 2,
-    "HN · Nvidia": 12,
+    "HN · TSMC": 1,
+    "HN · Nvidia": 11,
     "HN · semiconductor": 4,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
@@ -24,8 +24,246 @@
       "name": "default"
     }
   ],
-  "total": 59,
+  "total": 67,
   "items": [
+    {
+      "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+      "title": "xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
+      "url": "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Jeremie Eliahou Ontiveros",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-09-16T17:38:01+00:00",
+      "summary": "Much has been written about xAI’s Colossus 1. The Memphis build belongs in the history books: the largest AI training cluster, erected from scratch in 122 days. With roughly 200,000 H100/H200s and ~30,000 GB200 NVL72, it remains, today, the largest fully operational, single-coherent cluster (setting apart Google, master of multi-datacenter-training). However, Colossus 1’s ~300 MW [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
+      "title": "Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack",
+      "url": "https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Dylan Patel",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-09-10T19:57:18+00:00",
+      "summary": "Nvidia announced the Rubin CPX, a solution that is specifically designed to be optimized for the prefill phase, with the single-die Rubin CPX heavily emphasizing compute FLOPS over memory bandwidth. This is a game changer for inference, and its significance is surpassed only by the March 2024 announcement of the GB200 NVL72 Oberon rack-scale form [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
+      "title": "Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck",
+      "url": "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Dylan Patel",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-09-08T09:54:57+00:00",
+      "summary": "Compute is the lifeblood of AI. He who controls the spice controls the universe the compute will control the production of tokens and reap the benefits of AI. Without compute you do not have a seat at the table. The United States technology community is all in on compute and AI as the next platform [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
+      "title": "Amazon’s AI Resurgence: AWS & Anthropic’s Multi-Gigawatt Trainium Expansion",
+      "url": "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Jeremie Eliahou Ontiveros",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-09-03T20:55:46+00:00",
+      "summary": "Two-and-a-half years ago, we flagged a looming “cloud crisis” at AWS. Today, the evidence has mounted. AWS is the crown jewel of the Amazon empire, generating ~60% of group profits, and dominating the lucrative Cloud Computing market. But it struggles to translate this strength into the new GPU/XPU Cloud era. Microsoft Azure now leads the [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
+      "title": "H100 vs GB200 NVL72 Training Benchmarks – Power, TCO, and Reliability Analysis, Software Improvement Over Time",
+      "url": "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Dylan Patel",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-08-20T04:56:35+00:00",
+      "summary": "Frontier model training has pushed GPUs and AI systems to their absolute limits, making cost, efficiency, power, performance per TCO, and reliability central to the discussion on effective training. The Hopper vs Blackwell comparisons are not as simple as Nvidia would have you believe. In this report, we will start by present the results of [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
+      "title": "GPT-5 Set the Stage for Ad Monetization and the SuperApp",
+      "url": "https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Doug OLaughlin",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-08-13T00:27:14+00:00",
+      "summary": "To many power users (Pro and Plus), GPT5 was a disappointing release. But with closer inspection, the real release is focused on the vast majority of ChatGPT’s users, which is the 700m+ free userbase that is growing rapidly. Power users should be disappointed; this release wasn’t for them. The real consumer opportunity for OpenAI lies [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
+      "title": "Scaling the Memory Wall: The Rise and Roadmap of HBM",
+      "url": "https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Dylan Patel",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-08-12T01:16:06+00:00",
+      "summary": "The first portion of this report will explain HBM, the manufacturing process, dynamics between vendors, KVCache offload, disaggregated prefill decode, and wide / high-rank EP. The rest of the report will dive deeply into the future of HBM. We will cover the revolutionary change coming to HBM4 with custom base dies for HBM, what various [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
+      "title": "Robotics Levels of Autonomy",
+      "url": "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Reyk Knuhtsen",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-07-30T17:02:25+00:00",
+      "summary": "Robots have powered manufacturing for decades, yet they stayed single-purpose and thrived only in perfect settings. Previous attempts at intelligent machines overpromised and underdelivered. But they were too early. Today, modern AI paradigms convert most robot roadblocks into data problems and push machines toward capabilities once thought impossible. As these models absorb real-world experience, robots [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/07/21/vlsi2025/",
+      "title": "Intel 18A Details & Cost, Future of DRAM 4F2 vs 3D, Backside Power Adoption (or Not), China’s FlipFET, Digital Twins from Atoms to Fabs, and More",
+      "url": "https://semianalysis.com/2025/07/21/vlsi2025/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Dylan Patel",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-07-21T14:23:37+00:00",
+      "summary": "Long time readers will recall that SemiAnalysis covers more than just datacenters and AMD. Today we’re back to semiconductors with a tech-focused roundup of the best from this year’s VLSI conference, the premiere design and integration. That includes the latest in chips manufacturing: fab digital twins, the future of advanced logic transistors and interconnects, DRAM [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
+      "title": "Meta Superintelligence – Leadership Compute, Talent, and Data",
+      "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Dylan Patel",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-07-11T20:12:19+00:00",
+      "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/european-electronic-waste-dilemma/",
+      "title": "European Electronic Waste Dilemma",
+      "url": "https://www.eetimes.com/european-electronic-waste-dilemma/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-04T07:30:00+00:00",
+      "summary": "European electronic waste is being collected, but the economics of recycling are complex. The post European Electronic Waste Dilemma appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/inchfab-sells-10m-mini-fabs-to-democratize-chipmaking/",
+      "title": "InchFab Sells $10M Mini Fabs to Democratize Chipmaking",
+      "url": "https://www.eetimes.com/inchfab-sells-10m-mini-fabs-to-democratize-chipmaking/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T22:00:00+00:00",
+      "summary": "InchFab's mini fabs are cost-competitive with larger 8-inch wafer fabs at the half-micron and larger nodes. The post InchFab Sells $10M Mini Fabs to Democratize Chipmaking appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/secure-your-supply-accelerate-your-designs-a-practical-guide-to-the-memory-super-cycle/",
+      "title": "Secure Your Supply, Accelerate Your Designs: A Practical Guide to the Memory Super Cycle",
+      "url": "https://www.eetimes.com/secure-your-supply-accelerate-your-designs-a-practical-guide-to-the-memory-super-cycle/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Infineon Technologies and Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T18:16:56+00:00",
+      "summary": "Date: Thursday, July 9, 2026 Time 15:00 CEST The AI revolution is reshaping the memory industry, presenting unique supply challenges—such as longer lead times and allocation-based supply—and new opportunities for engineers and procurement professionals.&#160; Join this practical webinar where we will help you understand what&#8217;s behind these changes, what to expect next, and how to make [&#8230;] The post Secure Your Supply, Accelerate Your Designs: A Practical Guide to the Memory Super Cycl...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/lpddr6-roadmap-leads-to-the-data-center/",
+      "title": "LPDDR6 Roadmap Leads to the Data Center",
+      "url": "https://www.eetimes.com/lpddr6-roadmap-leads-to-the-data-center/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T14:30:00+00:00",
+      "summary": "Low-power memory has evolved from its mobile device roots to meet the demands of AI data centers. The post LPDDR6 Roadmap Leads to the Data Center appeared first on EE Times.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://www.eetimes.com/taiwan-minister-emphasizes-collaboration-and-future-focus-on-photonics-wbg-and-quantum/",
       "title": "Taiwan Minister Emphasizes Collaboration and Future Focus on Photonics, WBG, and Quantum",
@@ -40,7 +278,7 @@
       "duration_sec": null,
       "views": null,
       "published_at": "2026-06-03T06:00:00+00:00",
-      "summary": "NSTC Minister Wu shares Taiwan's four-pillar shift from chipmaker to AI enabler. The post Taiwan Minister Emphasizes Collaboration and Future Focus on Photonics, WBG, and Quantum appeared first on EE Times.",
+      "summary": "In an exclusive video interview, NSTC Minister Wu shares Taiwan's four-pillar shift from chipmaker to AI enabler. The post Taiwan Minister Emphasizes Collaboration and Future Focus on Photonics, WBG, and Quantum appeared first on EE Times.",
       "lang": "en"
     },
     {
@@ -129,71 +367,462 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use/",
-      "title": "High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use",
-      "url": "https://www.eetimes.com/high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use/",
+      "id": "rss:https://www.tomshardware.com/video-games/handheld-gaming/msi-claw-8-ex-ai-brings-intel-arc-g3-extreme-to-handhelds-8-inch-120-hz-display-and-new-ergonomic-grips",
+      "title": "MSI Claw 8 EX AI+ brings Intel Arc G3 Extreme to handhelds — 8-inch, 120 Hz display and new ergonomic grips",
+      "url": "https://www.tomshardware.com/video-games/handheld-gaming/msi-claw-8-ex-ai-brings-intel-arc-g3-extreme-to-handhelds-8-inch-120-hz-display-and-new-ergonomic-grips",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Renesas",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Andrew E. Freedman",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-01T14:00:00+00:00",
-      "summary": "The demand for more efficient power solutions continues to put pressure on designers to optimize system design without compromising performance. Read how you can simplify high-voltage power conversion and reduce system cost, size and complexity for a range of demanding applications with GaN BDS. High-voltage GaN bi-directional switches enable implementation of single-stage power converters with [&#8230;] The post High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use appear...",
+      "published_at": "2026-06-03T16:48:46+00:00",
+      "summary": "The MSI Claw 8 EX AI+ brought comfort and performance to Computex with massive prongs and Intel Arc G3 Extreme.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/product-recall-management-guide-for-electronics-manufacturing-smbs/",
-      "title": "Product Recall Management Guide for Electronics Manufacturing SMBs",
-      "url": "https://www.eetimes.com/product-recall-management-guide-for-electronics-manufacturing-smbs/",
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-usd1-280-on-this-4k-ready-alienware-aurora-desktop-pc-with-rtx-5080-high-performance-gaming-at-your-fingertips-for-usd2-919",
+      "title": "Save $1,280 on this 4K-ready Alienware Aurora desktop PC with RTX 5080 — high-performance gaming at your fingertips for $2,919",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd1-280-on-this-4k-ready-alienware-aurora-desktop-pc-with-rtx-5080-high-performance-gaming-at-your-fingertips-for-usd2-919",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "MRPeasy",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-01T13:00:00+00:00",
-      "summary": "This guide explains what product recalls are, what risks they create, and how small and midsize manufacturers can handle them in an organized way. The post Product Recall Management Guide for Electronics Manufacturing SMBs appeared first on EE Times.",
+      "published_at": "2026-06-03T16:37:56+00:00",
+      "summary": "Save $1,280 off this Dell Alienware Aurora gaming PC with an RTX 5080 graphics card inside.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/ai-accelerated-software-security-vulnerability-discovery-is-hardware-next/",
-      "title": "AI-Accelerated Software Security Vulnerability Discovery: Is Hardware Next?",
-      "url": "https://www.eetimes.com/ai-accelerated-software-security-vulnerability-discovery-is-hardware-next/",
+      "id": "rss:https://www.tomshardware.com/pc-components/power-supplies/lian-lis-edge-platinum-v2-psus-have-an-led-dust-indicator-magnetic-filter-and-a-snap-on-fan-and-usb-header-hub-edge-lines-trademark-90-degree-power-connector-also-returns",
+      "title": "Lian Li's Edge Platinum V2 PSUs have an LED dust indicator, magnetic filter, and a snap-on fan and USB header hub — Edge line's trademark 90-degree power connector also returns",
+      "url": "https://www.tomshardware.com/pc-components/power-supplies/lian-lis-edge-platinum-v2-psus-have-an-led-dust-indicator-magnetic-filter-and-a-snap-on-fan-and-usb-header-hub-edge-lines-trademark-90-degree-power-connector-also-returns",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Andreas Kuehlmann, General Manager – Security Solutions, Arteris",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Matt Safford",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-01T13:00:00+00:00",
-      "summary": "AI is revolutionizing software vulnerability discovery. Could hardware security be next? Explore risks, AI threats and chip defense strategies. In depth. The post AI-Accelerated Software Security Vulnerability Discovery: Is Hardware Next? appeared first on EE Times.",
+      "published_at": "2026-06-03T16:07:56+00:00",
+      "summary": "Lian Li's Edge V2 PSUs add a dust-detecting LED indicator, a removable filter, and a snap-on hub for fans and USB devices. They should arrive in September, at up to 1350 watts.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/nikon-leveraging-arf-scanner-price-to-challenge-asml/",
-      "title": "Nikon Leveraging ArF Scanner Price to Challenge ASML",
-      "url": "https://www.eetimes.com/nikon-leveraging-arf-scanner-price-to-challenge-asml/",
+      "id": "rss:https://www.tomshardware.com/pc-components/power-supplies/asrock-shows-off-a-slew-of-new-aios-power-supplies-and-10th-anniversary-hardware-a-monster-3kw-taichi-power-supply-for-ai-and-hybrid-taichi-aqua-aio-custom-loop-stand-out-in-the-crowd",
+      "title": "ASRock shows off a slew of new AIOs, Power Supplies, and 10th Anniversary hardware — a monster 3KW Taichi power supply for AI and hybrid Taichi Aqua AIO/custom loop stand out in the crowd",
+      "url": "https://www.tomshardware.com/pc-components/power-supplies/asrock-shows-off-a-slew-of-new-aios-power-supplies-and-10th-anniversary-hardware-a-monster-3kw-taichi-power-supply-for-ai-and-hybrid-taichi-aqua-aio-custom-loop-stand-out-in-the-crowd",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-01T11:57:55+00:00",
-      "summary": "The Japanese litho firm is lowering the price of its ArF tools while also launching a brand-new immersion platform by 2028. The post Nikon Leveraging ArF Scanner Price to Challenge ASML appeared first on EE Times.",
+      "published_at": "2026-06-03T16:00:00+00:00",
+      "summary": "Tom's Hardware stopped by the ASRock booth, and was greeted by a wide variety of products at this year's Computex.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling",
+      "title": "Samsung shows first HBM5 mockup with Heat Path Block cooling — thermal race with SK hynix shaping up",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T15:30:51+00:00",
+      "summary": "Samsung displayed its first physical mockup of HBM5 memory at Computex 2026 in Taipei, pairing the eighth-generation AI memory with a new in-package cooling structure.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/computex-2026-day-two-wrap-up-intel-atones-for-arrow-lake-wi-fi-8-comes-into-focus",
+      "title": "Computex 2026 Day Two Wrap-Up: Intel atones for Arrow Lake, Wi-Fi 8 comes into focus",
+      "url": "https://www.tomshardware.com/pc-components/cpus/computex-2026-day-two-wrap-up-intel-atones-for-arrow-lake-wi-fi-8-comes-into-focus",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Brandon Hill",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T15:28:56+00:00",
+      "summary": "Computex 2026 is in full swing in Taipei",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/gaming-headsets/corsair-launches-lightweight-budget-friendly-hs35-v3-gaming-headsets",
+      "title": "Corsair launches lightweight budget-friendly HS35 v3 gaming headsets — wired version weighs a cool 230 grams",
+      "url": "https://www.tomshardware.com/peripherals/gaming-headsets/corsair-launches-lightweight-budget-friendly-hs35-v3-gaming-headsets",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sarah Jacobsson Purewal",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T15:20:00+00:00",
+      "summary": "Corsair launched its HS35 v3 lightweight gaming headsets — wired and wireless — at Computex 2026.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/heatsinks/noctua-shows-off-improved-thermosiphon-prototype-passively-circulated-liquid-cooler-gets-q3-2027-projected-launch-date",
+      "title": "Noctua shows off improved thermosiphon prototype — passively circulated liquid cooler gets Q3 2027 projected launch date",
+      "url": "https://www.tomshardware.com/pc-components/heatsinks/noctua-shows-off-improved-thermosiphon-prototype-passively-circulated-liquid-cooler-gets-q3-2027-projected-launch-date",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jeffrey Kampman",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T15:08:33+00:00",
+      "summary": "Noctua showed off a refined version of its passively circulated thermosiphon liquid cooler at Computex 2026 with an improved evaporator design. The company is confident enough in its progress with this product to set a Q3 2027 launch window.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/samsung-rolls-out-2026-odyssey-gaming-monitors-including-5k-and-6k-models-27-to-32-inches-with-up-to-330-hz-refresh-rate",
+      "title": "Samsung rolls out 2026 Odyssey gaming monitors, including 5K and 6K models — 27 to 32 inches with up to 330 Hz refresh rate",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/samsung-rolls-out-2026-odyssey-gaming-monitors-including-5k-and-6k-models-27-to-32-inches-with-up-to-330-hz-refresh-rate",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Brandon Hill",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T15:00:26+00:00",
+      "summary": "The Odyssey G8 (G80HS) features a 32-inch 6K IPS panel",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-executives-react-to-nvidias-rtx-spark-youre-just-wrong-if-you-dont-get-a-strix-halo-notebook",
+      "title": "AMD executives react to Nvidia’s RTX Spark — ‘you’re just wrong if you don’t get a Strix Halo notebook’",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-executives-react-to-nvidias-rtx-spark-youre-just-wrong-if-you-dont-get-a-strix-halo-notebook",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T15:00:00+00:00",
+      "summary": "AMD welcomes Nvidia into the market with RTX Spark, saying that its Strix Halo and upcoming Gorgon Halo products will be superior.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/dram/counterfeit-g-skill-and-v-color-ddr5-modules-hit-chinese-marketplaces-impacting-company-sales-cheap-contraband-memory-using-identical-pcbs-and-heat-spreaders-almost-impossible-to-spot",
+      "title": "Counterfeit G.Skill and V-Color DDR5 modules hit Chinese marketplaces, impacting company sales — cheap contraband memory using identical PCBs and heat spreaders almost impossible to spot",
+      "url": "https://www.tomshardware.com/pc-components/dram/counterfeit-g-skill-and-v-color-ddr5-modules-hit-chinese-marketplaces-impacting-company-sales-cheap-contraband-memory-using-identical-pcbs-and-heat-spreaders-almost-impossible-to-spot",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T13:32:40+00:00",
+      "summary": "Counterfeit memory modules with G.Skill and V-Color badges sold at Chinese marketplaces use identical PCBs and heat spreaders, are hard to identify.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/pc-cases/nzxt-showcases-h6-mid-tower-chassis-new-ultra-rgb-fans-and-a-white-h2-offering-boundless-rgb-customization-options-take-this-case-to-a-whole-new-level",
+      "title": "NZXT showcases H6 mid-tower chassis, new Ultra RGB fans, and a white H2 offering — boundless RGB customization options take this case to a whole new level",
+      "url": "https://www.tomshardware.com/pc-components/pc-cases/nzxt-showcases-h6-mid-tower-chassis-new-ultra-rgb-fans-and-a-white-h2-offering-boundless-rgb-customization-options-take-this-case-to-a-whole-new-level",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T13:31:33+00:00",
+      "summary": "Tom's Hardware stopped by NZXT at Computex 2026 to get a look at their latest offerings.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps",
+      "title": "Microsoft unveils Project Solara AI, a chip-to-cloud platform built to power a new generation of 'agent-first' enterprise devices — hardware designed to run AI agents instead of traditional apps",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T12:19:40+00:00",
+      "summary": "Microsoft has unveiled Project Solara, an Android-based chip-to-cloud platform for AI-first enterprise devices. The system combines Qualcomm and MediaTek hardware, Azure-hosted agents, and adaptive interfaces, with reference designs including a wearable AI badge and a desktop AI hub.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-signs-ai-executive-order-seeking-30-day-government-access-to-frontier-models-before-release",
+      "title": "Trump signs AI executive order seeking 30-day government access to frontier models before release — voluntary framework will include classified benchmark to determine which models qualify",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-signs-ai-executive-order-seeking-30-day-government-access-to-frontier-models-before-release",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T11:50:49+00:00",
+      "summary": "President Donald Trump signed an executive order on Tuesday that asks AI companies to give the federal government early access to their most capable models.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/land-an-rtx-5060-powered-oled-gaming-laptop-for-just-usd1-099-hps-omen-transcend-features-an-intel-core-ultra-7-255h-16-core-cpu-3k-resolution-and-wifi-7",
+      "title": "Land an RTX 5060-powered OLED gaming laptop for just $1,099 — HP's Omen Transcend features an Intel Core Ultra 7 255H 16-core CPU, 3K resolution, and WiFi 7",
+      "url": "https://www.tomshardware.com/laptops/gaming-laptops/land-an-rtx-5060-powered-oled-gaming-laptop-for-just-usd1-099-hps-omen-transcend-features-an-intel-core-ultra-7-255h-16-core-cpu-3k-resolution-and-wifi-7",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T11:31:43+00:00",
+      "summary": "A solid gaming laptop for just a smidgen over $1000. HP's Omen Transcend 14 with RTX 5060 is one of the best deals in HP's current flash sale.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/vpn/save-a-massive-90-percent-on-a-two-year-privadovpn-subscription-and-get-three-extra-months-for-free-huge-usd266-saving-on-this-affordable-vpn-with-a-strict-no-logs-policy-that-you-can-try-risk-free-for-30-days-for-just-usd30",
+      "title": "Save a massive 90% on a two-year PrivadoVPN subscription and get three extra months for free — huge $266 saving on this affordable VPN with a strict no-logs policy that you can try risk-free for 30 days for just $30",
+      "url": "https://www.tomshardware.com/software/vpn/save-a-massive-90-percent-on-a-two-year-privadovpn-subscription-and-get-three-extra-months-for-free-huge-usd266-saving-on-this-affordable-vpn-with-a-strict-no-logs-policy-that-you-can-try-risk-free-for-30-days-for-just-usd30",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T11:28:58+00:00",
+      "summary": "Secure a PrivadoVPN sub for just $30, down from as high as $296.73, giving you a two-year membership with a 90% discount along with three extra months completely free.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/manufacturing/korean-tech-workers-splash-cash-on-luxury-brands-after-bumper-bonus-payouts-luxury-goods-sales-rocket-nearly-150-percent-in-gyeonggi-province-semiconductor-belt",
+      "title": "Korean tech workers splash cash on luxury brands after bumper bonus payouts — luxury goods sales rocket nearly 150% in Gyeonggi Province semiconductor belt",
+      "url": "https://www.tomshardware.com/tech-industry/manufacturing/korean-tech-workers-splash-cash-on-luxury-brands-after-bumper-bonus-payouts-luxury-goods-sales-rocket-nearly-150-percent-in-gyeonggi-province-semiconductor-belt",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T11:15:00+00:00",
+      "summary": "South Korean media has noted a surge in spending on luxury goods following big bonus payouts to semiconductor workers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/liquid-cooling/noctuas-first-ever-aio-features-a-silenced-asetek-emma-v2-pump-and-nf-a12-14-fans-240mm-nl-lc1-starts-at-usd250-goes-up-to-usd325-for-420mm-cooler",
+      "title": "Noctua's first-ever AIO features a silenced Asetek Emma V2 pump and NF-A12/14 fans — 240mm NL-LC1 starts at around $250, could cost $325 for 420mm cooler",
+      "url": "https://www.tomshardware.com/pc-components/liquid-cooling/noctuas-first-ever-aio-features-a-silenced-asetek-emma-v2-pump-and-nf-a12-14-fans-240mm-nl-lc1-starts-at-usd250-goes-up-to-usd325-for-420mm-cooler",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T10:59:00+00:00",
+      "summary": "Noctua is officially entering the AIO market on June 16 with its new \"NL-LC1\" liquid cooler that starts at 220 EUR (around $250) for the 240mm variant. It features a customized Asetek Emma V2 pump with a lot of soundproofing, NF-A12x25 G2 or NF-A14x25 G2 fans and SecuFirm2+ mounting.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/toms-hardware-unfiltered-computex-2026-day-2-interviews-roundtables-and-the-first-day-at-the-nanggang-exhibition-center",
+      "title": "Tom's Hardware Unfiltered: Computex 2026, Day 2 — Interviews, roundtables, and the first day at the Nanggang Exhibition Center",
+      "url": "https://www.tomshardware.com/tech-industry/toms-hardware-unfiltered-computex-2026-day-2-interviews-roundtables-and-the-first-day-at-the-nanggang-exhibition-center",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Matt Safford",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T10:39:54+00:00",
+      "summary": "As Computex 2026 fully kicks off, our team finally enters the halls of the Nanggang Exhibition Center in Taipei in the latest in our series of daily blogs.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building",
+      "title": "32GB of DDR5 now costs $375 minimum — AI shortage continues to squeeze PC building",
+      "url": "https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stephen Warwick",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T10:38:51+00:00",
+      "summary": "32GB of DDR5 RAM can now no longer be found for less than $374.97.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/gaming-mice/corsair-shows-off-gaming-mouse-with-dedicated-stream-deck-launch-button-wireless-mouse-also-gets-almost-50-hours-of-8k-battery-life",
+      "title": "Corsair shows off gaming mouse with dedicated Stream Deck launch button — wireless mouse also gets almost 50 hours of 8K battery life",
+      "url": "https://www.tomshardware.com/peripherals/gaming-mice/corsair-shows-off-gaming-mouse-with-dedicated-stream-deck-launch-button-wireless-mouse-also-gets-almost-50-hours-of-8k-battery-life",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sarah Jacobsson Purewal",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T10:30:00+00:00",
+      "summary": "Corsair showed off its Stream Deck-integrated gaming mouse, the Nightsword v2 Wireless SD, which has a dedicated Stream Deck launch button.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ram/memory-chip-crisis-hits-action-camera-industry-gopro-says-that-its-in-substantial-doubt-about-the-companys-ability-to-continue-in-regulatory-filings",
+      "title": "GoPro warns 'substantial doubt about the company’s ability to continue' in regulatory filings — AI memory shortage hits action camera maker",
+      "url": "https://www.tomshardware.com/pc-components/ram/memory-chip-crisis-hits-action-camera-industry-gopro-says-that-its-in-substantial-doubt-about-the-companys-ability-to-continue-in-regulatory-filings",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T10:10:00+00:00",
+      "summary": "Higher memory costs and lower sales is hitting GoPro hard. The company isn't filing for bankruptcy yet, but it might end up doing that if it does not resolve the issue sooner.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ram/amd-says-new-expo-ultra-low-latency-ddr5-memory-should-be-effectively-the-same-price-as-current-kits-feature-will-work-on-existing-chipsets-but-will-require-new-dimms",
+      "title": "AMD says new EXPO ‘Ultra Low Latency’ DDR5 memory should be 'effectively the same price' as current kits — feature will work on existing chipsets, but will require new DIMMs",
+      "url": "https://www.tomshardware.com/pc-components/ram/amd-says-new-expo-ultra-low-latency-ddr5-memory-should-be-effectively-the-same-price-as-current-kits-feature-will-work-on-existing-chipsets-but-will-require-new-dimms",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T10:00:00+00:00",
+      "summary": "AMD provides us with a bit more detail about its upcoming EXPO Ultra Low Latency mode, which should be available from leading memory partners soon.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intels-5-7-ghz-s-features-12-p-cores-and-a-desktop-class-lga1700-socket-unusual-server-cpu-prioritizes-clock-speed-over-core-count",
+      "title": "Intel's 5.7 GHz Xeon 6377P features 12 P-cores and a desktop-class LGA1700 socket — unusual server CPU prioritizes clock speed over core count",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intels-5-7-ghz-s-features-12-p-cores-and-a-desktop-class-lga1700-socket-unusual-server-cpu-prioritizes-clock-speed-over-core-count",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T10:00:00+00:00",
+      "summary": "Intel has unveiled the Xeon 6377P, a 12-core Bartlett Lake server processor featuring a 5.7 GHz boost clock, ECC support, and a 95W TDP. The unusual Xeon targets entry-level enterprise workloads where single-threaded performance matters more than massive core counts.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/github-copilot-customers-suffer-from-sticker-shock-as-microsoft-switches-to-usage-based-pricing-customers-report-up-to-100-fold-price-hikes",
+      "title": "Github Copilot customers report up to 100-fold price hikes — AI sticker shock bites as Microsoft switches to usage-based pricing",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/github-copilot-customers-suffer-from-sticker-shock-as-microsoft-switches-to-usage-based-pricing-customers-report-up-to-100-fold-price-hikes",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T09:55:12+00:00",
+      "summary": "Github Copilot customers suffer from sticker shock syndrome as Microsoft switches to usage-based pricing — customers reporting ten- to hundred-fold price hikes",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/dram/amds-gorgon-halo-pushes-on-device-ai-memory-to-192gb-as-dram-prices-hit-15-year-high",
+      "title": "The rise of local agentic computing faces a brutal reality: rising DRAM prices — RTX Spark, Gorgon Halo chips subject to 63% DRAM contract price hike this quarter",
+      "url": "https://www.tomshardware.com/pc-components/dram/amds-gorgon-halo-pushes-on-device-ai-memory-to-192gb-as-dram-prices-hit-15-year-high",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T09:47:58+00:00",
+      "summary": "DRAM contract prices are forecast to climb another 58% to 63% this quarter.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/servers/astera-labs-showcases-320-lane-pcie-6-0-switch-for-vendor-agnostic-scaling-in-data-centers-up-to-80-accelerators-can-be-scaled-up-using-pcie-alone",
+      "title": "Astera Labs showcases 320-lane PCIe 6.0 switch for vendor-agnostic scaling in data centers — up to 80 accelerators can be scaled up using PCIe alone",
+      "url": "https://www.tomshardware.com/desktops/servers/astera-labs-showcases-320-lane-pcie-6-0-switch-for-vendor-agnostic-scaling-in-data-centers-up-to-80-accelerators-can-be-scaled-up-using-pcie-alone",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-03T09:24:32+00:00",
+      "summary": "Astera Labs has shown off the Scorpio X-Series 320-lane PCIe switch that promises to enable vendor-agnostic scale-up capability for AI infrastructure and disaggregated data center infrastructure.",
       "lang": "en"
     },
     {
@@ -248,484 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/networking/routers/asus-unveils-its-first-wi-fi-8-router-rog-rapture-gt-bn98-pro-offers-up-to-2x-real-world-throughput-uplift-over-wi-fi-7",
-      "title": "Asus unveils its first Wi-Fi 8 router — ROG Rapture GT-BN98 Pro offers up to 2x real-world throughput uplift over Wi-Fi 7",
-      "url": "https://www.tomshardware.com/networking/routers/asus-unveils-its-first-wi-fi-8-router-rog-rapture-gt-bn98-pro-offers-up-to-2x-real-world-throughput-uplift-over-wi-fi-7",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Brandon Hill",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T18:52:45+00:00",
-      "summary": "Wi-Fi 8 is aimed at improving real-world performance over Wi-Fi 7",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intels-next-gen-lga1954-socket-will-support-nova-lake-razor-lake-and-beyond-finally-an-intel-socket-that-outlives-its-cpus",
-      "title": "Intel’s next-gen LGA1954 socket will support Nova Lake, Razor Lake, and beyond — finally an Intel socket that outlives its CPUs",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intels-next-gen-lga1954-socket-will-support-nova-lake-razor-lake-and-beyond-finally-an-intel-socket-that-outlives-its-cpus",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T17:32:36+00:00",
-      "summary": "Reputable Intel hardware leaker Jaykihn reveals new information about Intel's next-generation LGA1954 socket.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/mini-pcs/microsoft-debuts-surface-rtx-spark-dev-box-nvidia-powered-mini-pc-helps-devs-get-ready-for-an-agentic-windows",
-      "title": "Microsoft debuts Surface RTX Spark Dev Box — Nvidia-powered mini-PC helps devs get ready for an agentic Windows",
-      "url": "https://www.tomshardware.com/desktops/mini-pcs/microsoft-debuts-surface-rtx-spark-dev-box-nvidia-powered-mini-pc-helps-devs-get-ready-for-an-agentic-windows",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Andrew E. Freedman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T16:47:17+00:00",
-      "summary": "At Microsoft Build, the company debuted its Surface RTX Spark Dev Box, a system for developers to come up with new AI applications.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/networking/routers/msi-unveils-latest-set-of-wifi-7-gaming-routers-touting-ultra-fast-speeds-flagship-radix-be19000-model-comes-with-a-built-in-ssd-slot-for-nas-lite-experience-and-wireless-speeds-up-to-19-gbps",
-      "title": "MSI unveils latest set of WiFi 7 gaming routers touting ultra-fast speeds — flagship RadiXBE19000 model comes with a built-in SSD slot for 'NAS Lite' experience and wireless speeds up to 19 Gbps",
-      "url": "https://www.tomshardware.com/networking/routers/msi-unveils-latest-set-of-wifi-7-gaming-routers-touting-ultra-fast-speeds-flagship-radix-be19000-model-comes-with-a-built-in-ssd-slot-for-nas-lite-experience-and-wireless-speeds-up-to-19-gbps",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T16:34:20+00:00",
-      "summary": "MSI have revealed three new gaming routers with WiFi 7 support at Computex, with its flagship BE19000 model featuring a built-in SSD slot, eight antennas and a sci fi-esque translucent design.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/computex-2026-day-one-wrap-up-arm-makes-a-bold-play-for-windows-pcs-pcie-6-0-ssds-are-coming-asus-embraces-black-and-gold-for-rog-20th",
-      "title": "Computex 2026 Day One Wrap-Up: Arm makes a bold play for Windows PCs, PCIe 6.0 SSDs are coming, Asus embraces black and gold for ROG 20th",
-      "url": "https://www.tomshardware.com/pc-components/cpus/computex-2026-day-one-wrap-up-arm-makes-a-bold-play-for-windows-pcs-pcie-6-0-ssds-are-coming-asus-embraces-black-and-gold-for-rog-20th",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Brandon Hill",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T16:18:07+00:00",
-      "summary": "Our team is on the ground in Taipei bringing you the latest from Computex 2026",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/power-supplies/cooler-master-shows-off-new-mwe-gold-v4-power-supplies-and-gpu-shield-adapter-per-pin-monitoring-can-dynamically-scale-down-power-to-stop-cables-melting",
-      "title": "Cooler Master shows off new MWE Gold V4 Power supplies and GPU Shield adapter — per-pin monitoring can dynamically scale down power to stop cables melting",
-      "url": "https://www.tomshardware.com/pc-components/power-supplies/cooler-master-shows-off-new-mwe-gold-v4-power-supplies-and-gpu-shield-adapter-per-pin-monitoring-can-dynamically-scale-down-power-to-stop-cables-melting",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T15:59:56+00:00",
-      "summary": "Cooler Master has new power supplies and a GPU Shield adapter on display at Computex.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/mainland-chinese-exhibitors-locked-out-of-computex-2026",
-      "title": "Mainland Chinese exhibitors reportedly locked out of Computex 2026, as Taiwan entry permits stall — parties complain applications left pending or hit with last-minute documentation requests",
-      "url": "https://www.tomshardware.com/tech-industry/mainland-chinese-exhibitors-locked-out-of-computex-2026",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T15:43:37+00:00",
-      "summary": "Mainland Chinese companies among the 219 listed mainland exhibitors at Computex 2026 in Taipei have been kept off the show floor by stalled entry permits.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-reportedly-no-longer-working-on-6-core-nova-lake-mobile-sku-alleges-new-rumor-wildcat-lake-refresh-to-become-focus-for-next-gen-budget-markets-instead",
-      "title": "Intel reportedly no longer working on 6-core Nova Lake mobile SKU, alleges new rumor — Wildcat Lake Refresh to become focus for next-gen budget markets instead",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-reportedly-no-longer-working-on-6-core-nova-lake-mobile-sku-alleges-new-rumor-wildcat-lake-refresh-to-become-focus-for-next-gen-budget-markets-instead",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T15:39:39+00:00",
-      "summary": "Intel is still on schedule to at least announce Nova Lake at the end of the year, even if all rumors say the timelines have moved to next year. Apparently, the lowest-end 6-core Nova Lake mobile part targeted at budget markets won't be a part of that launch as the company is prioritizing Wildcat Lake for this segment.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-is-considering-a-potential-ryzen-5-9600x3d-company-says-six-core-zen-5-x3d-chip-maybe-something-we-look-at-doing-later-this-year",
-      "title": "AMD is considering a potential Ryzen 5 9600X3D — company says six-core Zen 5 X3D chip 'maybe something we look at doing... later this year'",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-is-considering-a-potential-ryzen-5-9600x3d-company-says-six-core-zen-5-x3d-chip-maybe-something-we-look-at-doing-later-this-year",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T15:00:00+00:00",
-      "summary": "AMD says that six-core X3D chips don't make sense for a broad market for a number of reasons, but a six-core X3D chip with the Zen 5 architecture is something the company is considering.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cooling/cooler-master-shows-off-new-haf-500-chassis-aluminum-fans-and-new-air-coolers-new-v8-cooler-masterfan-anm-and-updated-silencio-600-and-haf-chassis-add-to-an-already-comprehensive-product-stack",
-      "title": "Cooler Master shows off new HAF II 500 chassis, aluminum fans, and new air coolers — New V8 Cooler, Masterfan A, and updated Silencio 600 and HAF chassis’ add to an already comprehensive product stack",
-      "url": "https://www.tomshardware.com/pc-components/cooling/cooler-master-shows-off-new-haf-500-chassis-aluminum-fans-and-new-air-coolers-new-v8-cooler-masterfan-anm-and-updated-silencio-600-and-haf-chassis-add-to-an-already-comprehensive-product-stack",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T14:32:11+00:00",
-      "summary": "Cooler Master had a lot of things to show off at Computex 2026.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/phison-shows-pcie-6-0-x3-ssd-controller-with-28-gb-s-of-bandwidth-and-6-8-million-iops-supports-2-petabytes-per-drive-also-new-power-sipping-e37t-ssds-for-pcie-5-0-systems-consume-a-mere-4-5w",
-      "title": "Phison shows PCIe 6.0 X3 SSD controller with 28 GB/s of bandwidth and 6.8 million IOPS, supports 2 petabytes per drive— also new power-sipping E37T SSDs for PCIe 5.0 systems consume a mere 4.5W",
-      "url": "https://www.tomshardware.com/pc-components/ssds/phison-shows-pcie-6-0-x3-ssd-controller-with-28-gb-s-of-bandwidth-and-6-8-million-iops-supports-2-petabytes-per-drive-also-new-power-sipping-e37t-ssds-for-pcie-5-0-systems-consume-a-mere-4-5w",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Paul Alcorn",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T13:54:22+00:00",
-      "summary": "Phison's booth at Computex 2026 had its new PCIe 6.0 SSD controller, dubbed the X3, on display, with claims of up to 28 GB/s of sequential throughput and 6.8 million IOPS in random read/write workloads.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/intel-xeon-6-plus-roundtable-transcript-computex-2026",
-      "title": "Intel Xeon 6+ Computex roundtable interview transcript — Kira Boyko and Tim Wilson on 18A wafer allocation, Clearwater Forest, and dropping hyper-threading",
-      "url": "https://www.tomshardware.com/tech-industry/intel-xeon-6-plus-roundtable-transcript-computex-2026",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T12:24:32+00:00",
-      "summary": "Intel launched its Xeon 6+ processors at Computex, and on Monday, two of the individuals responsible for the product sat down with the press to answer questions.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/bernie-sanders-pushes-for-50-percent-public-ownership-of-american-ai-companies-proposes-ai-sovereign-wealth-fund-that-would-hold-direct-ownership-stakes-in-largest-ai-firms",
-      "title": "Bernie Sanders pushes for 50% public ownership of American AI companies — proposes AI sovereign wealth fund that would hold direct ownership stakes in largest AI firms",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/bernie-sanders-pushes-for-50-percent-public-ownership-of-american-ai-companies-proposes-ai-sovereign-wealth-fund-that-would-hold-direct-ownership-stakes-in-largest-ai-firms",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T12:15:57+00:00",
-      "summary": "The U.S. Senator is arguing that since AI companies use public data to generate a lot of revenue, the public should benefit from it as well. He also said that the people should have a say in the direction of AI by giving them a 50% direct stake in the biggest companies that develop this technology.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/grab-this-rtx-5070-gaming-pc-with-a-7800x3d-from-cyberpowerpc-for-under-usd1-960-right-now-exclusive-discount-available-on-4k-ready-pre-built-rig-with-32gb-ddr5-and-1tb-ssd-that-knocks-usd210-off",
-      "title": "Grab this RTX 5070 gaming PC with a 7800X3D from CyberPowerPC for under $1,960 right now — exclusive discount available on 4K-ready pre-built rig with 32GB DDR5 and 1TB SSD that knocks $210 off",
-      "url": "https://www.tomshardware.com/pc-components/grab-this-rtx-5070-gaming-pc-with-a-7800x3d-from-cyberpowerpc-for-under-usd1-960-right-now-exclusive-discount-available-on-4k-ready-pre-built-rig-with-32gb-ddr5-and-1tb-ssd-that-knocks-usd210-off",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T11:35:57+00:00",
-      "summary": "Save $210 on this powerful CyberPowerPC gaming rig, powered by the AMD Ryzen 7 7800X3D and the all-impressive RTX 5070, alongside a 1TB SSD and 32GB of DDR5 RAM, all for just $1,959.99.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gigabyte-showcases-new-infinity-products-for-its-40th-anniversary-the-x870-infinity-next-halo-motherboard-boasts-metal-3d-printed-elements-aero-wood-goes-dark-microatx-stealth-boards-infinity-style-gpus-extend-down-the-product-stack",
-      "title": "Gigabyte showcases new Infinity products for its 40th anniversary — X870 Infinity Next halo motherboard boasts metal 3D-printed elements, Aero Wood goes dark, MicroATX Stealth boards, Infinity-style GPUs extend down the product stack",
-      "url": "https://www.tomshardware.com/pc-components/gigabyte-showcases-new-infinity-products-for-its-40th-anniversary-the-x870-infinity-next-halo-motherboard-boasts-metal-3d-printed-elements-aero-wood-goes-dark-microatx-stealth-boards-infinity-style-gpus-extend-down-the-product-stack",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T11:30:00+00:00",
-      "summary": "Gigabyte showcases stunning new Infinity products for its 40th anniversary",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/dram/sk-hynix-to-double-memory-wafer-capacity-over-five-years",
-      "title": "SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030",
-      "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-to-double-memory-wafer-capacity-over-five-years",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T11:25:00+00:00",
-      "summary": "SK hynix will double its memory wafer capacity within five years, SK Group chairman Chey Tae-won told reporters at Computex in Taipei on June 2nd.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-humanity-with-rtx-spark-nvidia-ceo-touts-support-of-literally-every-computer-maker-in-the-world-for-its-agentic-ai-pc-platform",
-      "title": "Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-humanity-with-rtx-spark-nvidia-ceo-touts-support-of-literally-every-computer-maker-in-the-world-for-its-agentic-ai-pc-platform",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jeffrey Kampman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T11:20:00+00:00",
-      "summary": "In a press Q&amp;A held at Computex 2026, Nvidia CEO Jensen Huang discussed why the company is entering the PC market now and its ambitions for the future of computing.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/toms-hardware-unfiltered-computex-2026-day-1-night-markets-taking-the-mrt-train-and-a-slew-of-demos",
-      "title": "Tom's Hardware Unfiltered: Computex 2026, Day 1 — night markets, taking the MRT train, and a slew of demos",
-      "url": "https://www.tomshardware.com/tech-industry/toms-hardware-unfiltered-computex-2026-day-1-night-markets-taking-the-mrt-train-and-a-slew-of-demos",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Paul Alcorn",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T11:06:04+00:00",
-      "summary": "The Tom's Hardware team in Taipei reports back on what they've been up to as Computex 2026 begins to gather momentum. Take a look at how we're making",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/drones-to-protect-undersea-cables-from-russian-sabotage-touted-in-new-defense-pact-us-one-of-three-partners-developing-new-tech-to-protect-usd1-8-trillion-in-daily-transactions",
-      "title": "Drones to protect undersea cables from Russian sabotage touted in new defense pact — US one of three partners developing new tech to protect $1.8 trillion in daily transactions",
-      "url": "https://www.tomshardware.com/tech-industry/drones-to-protect-undersea-cables-from-russian-sabotage-touted-in-new-defense-pact-us-one-of-three-partners-developing-new-tech-to-protect-usd1-8-trillion-in-daily-transactions",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T11:00:00+00:00",
-      "summary": "The Australian, UK, and U.S. governments just announced a cooperation to develop new technologies to protect underwater cables. The move comes after recent incidents of damages to undersea cables across the world, as well as the Russian Navy's surveying of areas near where undersea cables run.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/take-home-gigabytes-aero-x16-gaming-laptop-for-just-usd1-389-99-and-save-usd610-packed-with-32gb-of-ram-and-a-powerful-rtx-5070-gpu",
-      "title": "Take home Gigabyte's Aero X16 gaming laptop for just $1,389.99 and save $610 — packed with 32GB of RAM and a powerful RTX 5070 GPU",
-      "url": "https://www.tomshardware.com/laptops/gaming-laptops/take-home-gigabytes-aero-x16-gaming-laptop-for-just-usd1-389-99-and-save-usd610-packed-with-32gb-of-ram-and-a-powerful-rtx-5070-gpu",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T10:56:16+00:00",
-      "summary": "Gigabyte's Aero X16 packs 32GB of RAM, a 1TB SSD, and a powerful Nvidia RTX 5070 GPU all for $1389.99 in this Best Buy deal.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-had-to-re-engineer-the-ryzen-7-5800x3d-for-a-re-release-10th-anniversary-edition-chip-had-a-whole-body-of-engineering-work-put-into-it",
-      "title": "AMD ‘had to re-engineer’ the Ryzen 7 5800X3D for a re-release — 10th Anniversary Edition chip had ‘a whole body of engineering work’ put into it",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-had-to-re-engineer-the-ryzen-7-5800x3d-for-a-re-release-10th-anniversary-edition-chip-had-a-whole-body-of-engineering-work-put-into-it",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T10:41:03+00:00",
-      "summary": "AMD just reintroduced the Ryzen 7 5800X3D, but it wasn't as simple as spinning up the old manufacturing process, as the original bonding method TSMC used was no longer available.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-arc-g3-interview-transcript-intels-senior-product-director-talks-new-handheld-chips-arrow-lake-refresh-and-rtx-spark",
-      "title": "Intel Arc G3 interview transcript — Intel's Senior Product Director talks new handheld chips, Arrow Lake Refresh, and RTX Spark",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-arc-g3-interview-transcript-intels-senior-product-director-talks-new-handheld-chips-arrow-lake-refresh-and-rtx-spark",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T10:30:00+00:00",
-      "summary": "Intel's Nish Neelalojanan spoke to us at Computex 2026 about Intel's new G3 chip line, how it impacts the burgeoning handheld gaming market, and how Intel is responding to rising chip and memory prices the world over.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/frore-systems-solid-state-airjet-mini-cools-intels-wildcat-lake-laptop-reference-design-15w-of-sustained-fanless-cooling-helps-macbook-neo-competitor-reach-a-svelte-11-3-mm-remain-silent",
-      "title": "Frore System’s solid-state AirJet Mini cools Intel’s Wildcat Lake laptop reference design – 15W of sustained, fanless cooling helps MacBook Neo competitor reach a svelte 11.3 mm, remain silent",
-      "url": "https://www.tomshardware.com/laptops/frore-systems-solid-state-airjet-mini-cools-intels-wildcat-lake-laptop-reference-design-15w-of-sustained-fanless-cooling-helps-macbook-neo-competitor-reach-a-svelte-11-3-mm-remain-silent",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Matt Safford",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T10:10:00+00:00",
-      "summary": "Frore has worked with Intel to feature its AirJet solid-state cooling chip inside its much-hyped Wildcat Lake reference laptop. These laptops will need to stay slim, quiet, and affordable if they want to compete with the MacBook Neo, and the AirJet should help Intel fight Apple on at least two of those fronts.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/speakers/teens-bluetooth-speaker-named-bomb-caused-a-10-hour-delay-on-flight-from-newark-to-spain-passenger-reported-concerns-to-flight-attendant-at-32-000-feet-forcing-plane-back-to-the-us",
-      "title": "Teen’s Bluetooth speaker named ‘BOMB’ caused a 10-hour delay on flight from Newark to Spain — passenger reported concerns to flight attendant at 32,000 feet, forcing plane back to the US",
-      "url": "https://www.tomshardware.com/speakers/teens-bluetooth-speaker-named-bomb-caused-a-10-hour-delay-on-flight-from-newark-to-spain-passenger-reported-concerns-to-flight-attendant-at-32-000-feet-forcing-plane-back-to-the-us",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T10:00:00+00:00",
-      "summary": "Passengers on United Airlines flight UA236 on Saturday were subjected to deplaning, TSA rescreening, and over 10 hours of delays thanks to a teen foolishly naming their Bluetooth speaker 'BOMB.'",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-says-something-has-to-give-with-memory-prices-company-says-it-will-continue-to-make-sure-that-there-are-products-which-can-take-care-of-older-memory-technologies",
-      "title": "Intel says 'something has to give' with memory prices — company says it 'will continue to make sure that there are products which can take care of older memory technologies'",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-says-something-has-to-give-with-memory-prices-company-says-it-will-continue-to-make-sure-that-there-are-products-which-can-take-care-of-older-memory-technologies",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T09:30:00+00:00",
-      "summary": "Intel sat down with Tom's Hardware at Computex 2026, and the company says it recognizes the importance of Raptor Lake and DDR4 platforms as the memory crunch continues.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/chinese-military-has-been-acquiring-nvidia-chips-even-post-washington-export-controls-research-claims-multiple-institutions-linked-to-the-pla-asked-for-nvidia-ai-chips-according-to-publicly-available-documents",
-      "title": "Chinese military has been acquiring Nvidia chips, even post-Washington export controls, research claims — multiple institutions linked to the PLA asked for Nvidia AI chips, according to publicly available documents",
-      "url": "https://www.tomshardware.com/tech-industry/chinese-military-has-been-acquiring-nvidia-chips-even-post-washington-export-controls-research-claims-multiple-institutions-linked-to-the-pla-asked-for-nvidia-ai-chips-according-to-publicly-available-documents",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T09:00:00+00:00",
-      "summary": "A business-intelligence researcher said that the Chinese military has been actively acquiring Nvidia AI chips, even after the U.S. put export controls on them. Public documents show that some institutions ask for these chips either through the specifications they demand or by directly asking for Nvidia chips by name.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/watch-intels-computex-2026-keynote-here-ceo-lip-bu-tan-takes-the-stage-in-taipei-at-10-30pm-pt-on-june-1",
-      "title": "Watch Intel's Computex 2026 keynote here — CEO Lip-Bu Tan takes the stage in Taipei at 10:30pm PT on June 1",
-      "url": "https://www.tomshardware.com/tech-industry/watch-intels-computex-2026-keynote-here-ceo-lip-bu-tan-takes-the-stage-in-taipei-at-10-30pm-pt-on-june-1",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T03:30:00+00:00",
-      "summary": "Intel CEO Lip-Bu Tan is set to take the stage at Computex 2026 for a keynote address at 10:30 pm PT on June 1",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48012477",
-      "title": "Offenders sentenced up to 10 years for spying on TSMC",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/04/28/2003856358",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48012477",
-        "name": "ironyman",
-        "hn_url": "https://news.ycombinator.com/item?id=48012477"
-      },
-      "duration_sec": null,
-      "views": 127,
-      "comments": 24,
-      "published_at": "2026-05-04T18:04:33+00:00",
-      "summary": "",
-      "matched_keyword": "TSMC",
-      "lang": "en"
-    },
-    {
       "id": "hn:48274048",
       "title": "Taiwan Overtakes India as Fifth-Largest Stock Market",
       "url": "https://www.bloomberg.com/news/articles/2026-05-26/tsmc-s-relentless-rise-powers-taiwan-s-market-value-above-india",
@@ -745,6 +896,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48377404",
+      "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
+      "url": "https://github.com/c0dejedi/nbd-vram",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48377404",
+        "name": "tanelpoder",
+        "hn_url": "https://news.ycombinator.com/item?id=48377404"
+      },
+      "duration_sec": null,
+      "views": 459,
+      "comments": 117,
+      "published_at": "2026-06-02T22:55:33+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:48352939",
       "title": "Nvidia RTX Spark",
       "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
@@ -756,8 +926,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48352939"
       },
       "duration_sec": null,
-      "views": 422,
-      "comments": 414,
+      "views": 424,
+      "comments": 416,
       "published_at": "2026-06-01T05:24:40+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -775,28 +945,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=48355720"
       },
       "duration_sec": null,
-      "views": 284,
-      "comments": 621,
+      "views": 285,
+      "comments": 640,
       "published_at": "2026-06-01T12:04:29+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48377404",
-      "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
-      "url": "https://github.com/c0dejedi/nbd-vram",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48377404",
-        "name": "tanelpoder",
-        "hn_url": "https://news.ycombinator.com/item?id=48377404"
-      },
-      "duration_sec": null,
-      "views": 282,
-      "comments": 76,
-      "published_at": "2026-06-02T22:55:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -832,7 +983,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48291230"
       },
       "duration_sec": null,
-      "views": 54,
+      "views": 55,
       "comments": 23,
       "published_at": "2026-05-27T08:15:35+00:00",
       "summary": "",
@@ -954,25 +1105,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:48361912",
-      "title": "Michael Burry Just Called Nvidia's SpaceX Chip Deal 'Fugazi.'",
-      "url": "https://247wallst.com/investing/2026/06/01/michael-burry-just-called-nvidias-spacex-chip-deal-fugazi-heres-why-it-all-seems-wrong/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48361912",
-        "name": "johnbarron",
-        "hn_url": "https://news.ycombinator.com/item?id=48361912"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 6,
-      "published_at": "2026-06-01T20:06:32+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:48234574",
       "title": "How do you build a semiconductor company on something that's free?",
       "url": "https://www.siliconimist.com/p/the-open-source-silicon-business",
@@ -1060,7 +1192,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48356312"
       },
       "duration_sec": null,
-      "views": 98,
+      "views": 99,
       "comments": 26,
       "published_at": "2026-06-01T13:05:02+00:00",
       "summary": "",
