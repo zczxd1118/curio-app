@@ -1,67 +1,84 @@
 # Curio · AI 算力 / 半导体 · 2026-06-04
 
-> 今日 2 条头条 + 4 条备选
+> 今日 3 条头条 + 3 条备选
 
-_今日 Computex 2026 进入高潮：Nvidia 发布 RTX Spark AI PC 芯片，微软推出 Agent-first 的 Project Solara 平台，AI 硬件战局从云端烧到终端。同时博通财报指引不及预期引发盘后暴跌 14%，ASIC 阵营出现分化信号。DRAM 价格飙至 15 年新高，32GB DDR5 最低 $375，AI 内存短缺正在冲击全行业。_
+_今天的关键信号：博通AI指引不及预期引发抛售，ASIC阵营分化加剧，但华尔街认为长期逻辑未变；Nvidia RTX Spark与微软Project Solara重新定义AI PC与Agent-first设备，本地AI算力竞争白热化；台积电称数年内无法满足芯片需求，资本开支无停下指标。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Nvidia 发布 RTX Spark 个人 AI 超级计算机芯片，PC 端 AI 算力竞赛正式开打
+### 2. Nvidia发布RTX Spark：专为AI PC打造的新一代芯片，微软Surface Laptop Ultra首发搭载
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _shenli3514_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Nvidia_
 
-Nvidia 在 Computex 2026 上正式发布 RTX Spark 系列芯片，面向个人电脑和工作站，内置 Grace CPU 和 Blackwell GPU 架构，目标是在本地运行大模型和 AI Agent。微软同步推出搭载 RTX Spark 的 Surface Laptop Ultra，AMD 高管则回应称 Strix Halo 笔记本才是正确选择。一场围绕「AI PC 芯片」的战争已经打响。
+Nvidia正式推出RTX Spark系列，面向个人电脑的AI加速芯片，微软同步发布搭载该芯片的Surface Laptop Ultra，直接对标MacBook Pro。AMD高管回应称Strix Halo更优，AI PC芯片大战正式打响。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Nvidia 发布 RTX Spark N1/N1X 芯片，集成 Grace CPU 和 Blackwell GPU | RTX Spark 实际推理性能 vs Strix Halo 尚无第三方基准测试 |
-| 微软推出 Surface Laptop Ultra，搭载 RTX Spark，定位 MacBook Pro 竞品 | PC 端 AI Agent 应用场景是否足够支撑大规模换机需求存疑 |
-| AMD 高管公开回应，认为 Strix Halo 笔记本性能优于 RTX Spark 方案 | Nvidia 在消费级市场的品牌认知和渠道能力有待验证 |
-| Nvidia 已规划后续 N2X、N3X 芯片，目标直指 Star Trek 级 AI 计算机 | Intel 和 AMD 的 AI PC 路线图（Lunar Lake、Strix Halo）将如何反制 |
-|  | RTX Spark 定价和功耗细节尚未公布，影响实际竞争力 |
+| Nvidia发布RTX Spark，面向AI PC | RTX Spark实际性能与开发者生态尚未验证 |
+| 微软发布Surface Laptop Ultra，搭载RTX Spark | 微软Surface Laptop Ultra定价与市场接受度未知 |
+| AMD高管回应称Strix Halo笔记本更具优势 | AMD Strix Halo与RTX Spark的基准对比尚未公开 |
+| Nvidia已规划N2X、N3X后续芯片 | AI PC是否真的能带来杀手级应用仍存疑 |
 
 **📖 主编点评**
 
-你正在做 content-curator Agent 项目，RTX Spark 意味着未来你可以用一台笔记本本地运行 Claude 或 Gemini 级别的模型，而不依赖云 API。建议关注 RTX Spark 的开发者工具链（CUDA、TensorRT）是否开放给个人开发者，这决定了你的 Agent 项目能否真正「离线可用」。
+AI PC从概念走向产品，你作为AI产品玩家，应关注本地推理能力对Agent工作流的实际提升。RTX Spark若能降低本地AI门槛，你的content-curator项目可考虑集成本地模型。
 
 📺 [打开原文](https://www.nvidia.com/en-us/products/rtx-spark/)
 
 ---
 
-### 4. DRAM 价格飙至 15 年新高：32GB DDR5 最低 $375，AI 内存短缺冲击全行业
+### 3. 微软发布Project Solara：从芯片到云的Agent-first企业设备平台
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Stephen Warwick_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-DRAM 合约价本季度预计再涨 58%-63%，32GB DDR5 套条最低价已涨至 $374.97，创 15 年新高。AI 对 HBM 和 DDR5 的抢购正在挤压消费级市场，GoPro 甚至警告「持续经营能力存在重大疑问」。AMD 的 Gorgon Halo 芯片虽支持 192GB 本地 AI 内存，但高昂的 DRAM 成本正在成为本地 Agentic Computing 落地的最大障碍。
+微软在Build大会上推出Project Solara，一个基于Android的芯片到云平台，专为运行AI Agent而非传统应用设计。结合Qualcomm/MediaTek硬件、Azure托管Agent和自适应推理，标志着企业设备从app-first向agent-first的范式转变。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 32GB DDR5 最低价 $374.97，较年初翻倍 | DRAM 涨价周期何时见顶？三星和 SK 海力士增产节奏是关键 |
-| DRAM 合约价本季度预计再涨 58%-63% | 消费级 PC 市场是否会因内存成本过高而萎缩 |
-| GoPro 在监管文件中警告持续经营能力存疑，归因于内存成本飙升 | 本地 AI 推理的经济账是否还成立？32GB $375 意味着 64GB 配置成本超 $750 |
-| AMD Gorgon Halo 支持 192GB 内存，但 DRAM 成本制约普及 | HBM5 的推出能否缓解 DDR5 的供给压力？ |
-|  | 中国 DRAM 厂商（长鑫存储）的产能爬坡能否改变格局 |
+| Project Solara是Android-based芯片到云平台 | 实际落地时间表和首批设备未知 |
+| 硬件由Qualcomm和MediaTek提供 | 企业客户对agent-first模式的接受度待验证 |
+| Agent托管在Azure上，支持自适应推理 | 与现有企业软件生态的兼容性存疑 |
+| 目标企业设备，替代传统应用模式 | 微软自身Copilot产品线是否整合尚不明确 |
 
 **📖 主编点评**
 
-你正在做本地 Agent 项目，DRAM 涨价直接影响你的硬件成本。如果计划用本地模型（如 7B/13B 参数），至少需要 32GB 内存，当前 $375 的成本可能让 Side Project 的硬件门槛变高。建议考虑量化模型（GGUF/GPTQ）或云 API 混合方案，在成本可控的前提下验证产品逻辑。
+Agent-first设备是未来方向，你的content-curator项目可提前思考Agent在本地设备上的运行模式。关注Project Solara的SDK和开发者工具，可能成为你项目的部署平台。
 
-📺 [打开原文](https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps)
+
+---
+
+### 4. 台积电魏哲家：数年内都无法满足芯片需求，资本开支高点“我也不知道”
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+台积电股东大会上，董事长魏哲家预计全年营收增速维持超30%，Q2毛利率指引65.5%-67.5%。他坦言资本支出高峰未知，强调“没看到停止的指标”，并指出token消耗量激增推升算力需求，自动驾驶与机器人构成下一波增长引擎。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 台积电预计全年营收增速超30% | 资本支出持续高企是否影响利润率 |
+| Q2毛利率指引65.5%至67.5% | 数年内无法满足需求的具体时间范围 |
+| 员工分红连续三年增超30% | 自动驾驶与机器人需求的实际落地节奏 |
+| 资本支出高峰未知，无停止指标 | 地缘政治风险对产能扩张的影响 |
+
+**📖 主编点评**
+
+台积电的产能紧张意味着AI芯片供应将持续偏紧，你如果做AI应用部署，需提前规划算力资源。同时，关注台积电先进封装（CoWoS/CoWoP）进展，这直接影响AI芯片性能。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3773834)
 
 ---
 
 ## 📋 备选阅读
 
-- [三星展示首款 HBM5 原型，采用 Heat Path Block 散热](https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling) —— HBM5 散热方案竞争白热化，三星与 SK 海力士的热管理技术路线分化值得关注。
-  _Luke James_
-- [Astera Labs 展示 320 通道 PCIe 6.0 交换机，支持 80 个加速器扩展](https://www.tomshardware.com/desktops/servers/astera-labs-showcases-320-lane-pcie-6-0-switch-for-vendor-agnostic-scaling-in-data-centers-up-to-80-accelerators-can-be-scaled-up-using-pcie-alone) —— PCIe 6.0 交换机为 AI 数据中心提供供应商无关的扩展方案，降低对 NVLink 的依赖。
-  _Anton Shilov_
-- [微软发布 Majorana 2 量子芯片，目标 2029 年实用化](https://www.tomshardware.com/tech-industry/quantum-computing/microsoft-announces-majorana-2-quantum-computing-chip-claims-a-practical-machine-will-come-in-2029) —— 微软改用铅基材料推进拓扑量子计算，路线图加速，但 2029 年目标仍极具挑战。
-  _Andrew E. Freedman_
-- [Intel 承认 Arrow Lake 失误，Arrow Lake Refresh 低价策略意在重建声誉](https://www.tomshardware.com/pc-components/cpus/intel-addresses-arrow-lake-blunder-we-needed-to-build-back-our-reputation-says-arrow-lake-refreshs-low-price-a-key-first-step-laying-the-groundwork-for-nova-lake) —— Intel 公开反思 Arrow Lake 性能问题，Refresh 降价为 Nova Lake 铺路，态度诚恳但执行力待验证。
-  _Jake Roach_
+- [Samsung展示首款HBM5 mockup，采用Heat Path Block冷却](https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling) —— Computex 2026上三星展示HBM5实物，与SK hynix的散热竞争升级，影响AI芯片性能。
+  _Tom's Hardware_
+- [32GB DDR5价格最低$375，AI短缺持续挤压PC组装](https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building) —— DRAM合约价本季度再涨58-63%，AI需求吞噬内存产能，个人装机成本飙升。
+  _Tom's Hardware_
+- [AMD Gorgon Halo将本地AI内存推至192GB，但DRAM价格高企](https://www.tomshardware.com/pc-components/dram/amds-gorgon-halo-pushes-on-device-ai-memory-to-192gb-as-dram-prices-hit-15-year-high) —— 本地Agent计算兴起面临残酷现实：DRAM价格15年新高，大内存AI设备成本高企。
+  _Tom's Hardware_
 
 ---
 

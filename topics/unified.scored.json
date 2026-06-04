@@ -1,192 +1,225 @@
 {
   "date": "2026-06-04",
-  "intro": "今日 Computex 2026 进入高潮：Nvidia 发布 RTX Spark AI PC 芯片，微软推出 Agent-first 的 Project Solara 平台，AI 硬件战局从云端烧到终端。同时博通财报指引不及预期引发盘后暴跌 14%，ASIC 阵营出现分化信号。DRAM 价格飙至 15 年新高，32GB DDR5 最低 $375，AI 内存短缺正在冲击全行业。",
+  "intro": "今天的关键信号：博通AI指引不及预期引发抛售，ASIC阵营分化加剧，但华尔街认为长期逻辑未变；Nvidia RTX Spark与微软Project Solara重新定义AI PC与Agent-first设备，本地AI算力竞争白热化；台积电称数年内无法满足芯片需求，资本开支无停下指标。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI 算力 / 半导体",
-      "id": "hn:48352939",
-      "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
-      "source": "shenli3514",
-      "stars": 5,
-      "title": "Nvidia 发布 RTX Spark 个人 AI 超级计算机芯片，PC 端 AI 算力竞赛正式开打",
-      "lead": "Nvidia 在 Computex 2026 上正式发布 RTX Spark 系列芯片，面向个人电脑和工作站，内置 Grace CPU 和 Blackwell GPU 架构，目标是在本地运行大模型和 AI Agent。微软同步推出搭载 RTX Spark 的 Surface Laptop Ultra，AMD 高管则回应称 Strix Halo 笔记本才是正确选择。一场围绕「AI PC 芯片」的战争已经打响。",
-      "confirmed": [
-        "Nvidia 发布 RTX Spark N1/N1X 芯片，集成 Grace CPU 和 Blackwell GPU",
-        "微软推出 Surface Laptop Ultra，搭载 RTX Spark，定位 MacBook Pro 竞品",
-        "AMD 高管公开回应，认为 Strix Halo 笔记本性能优于 RTX Spark 方案",
-        "Nvidia 已规划后续 N2X、N3X 芯片，目标直指 Star Trek 级 AI 计算机"
-      ],
-      "judgment": [
-        "RTX Spark 实际推理性能 vs Strix Halo 尚无第三方基准测试",
-        "PC 端 AI Agent 应用场景是否足够支撑大规模换机需求存疑",
-        "Nvidia 在消费级市场的品牌认知和渠道能力有待验证",
-        "Intel 和 AMD 的 AI PC 路线图（Lunar Lake、Strix Halo）将如何反制",
-        "RTX Spark 定价和功耗细节尚未公布，影响实际竞争力"
-      ],
-      "implication": "你正在做 content-curator Agent 项目，RTX Spark 意味着未来你可以用一台笔记本本地运行 Claude 或 Gemini 级别的模型，而不依赖云 API。建议关注 RTX Spark 的开发者工具链（CUDA、TensorRT）是否开放给个人开发者，这决定了你的 Agent 项目能否真正「离线可用」。"
-    },
-    {
-      "rank": 2,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps",
-      "source": "Etiido Uko",
-      "stars": 5,
-      "title": "微软发布 Project Solara：从芯片到云的 Agent-first 企业设备平台，AI 不再只是 App",
-      "lead": "微软在 Computex 2026 上揭晓 Project Solara，一个基于 Android 的芯片到云平台，专为「Agent-first」企业设备设计。硬件采用 Qualcomm 和 MediaTek 芯片，云端对接 Azure Agent 服务，设备本身不再运行传统 App，而是直接运行 AI Agent。这可能是自 iPhone 以来最激进的设备范式转变。",
-      "confirmed": [
-        "Project Solara 是 Android 基础的全栈平台，从芯片到云专为 AI Agent 设计",
-        "硬件合作伙伴包括 Qualcomm 和 MediaTek",
-        "设备运行 Agent 而非传统 App，Azure 提供云端 Agent 托管",
-        "微软在 Build 2026 上展示了 Spark Agent 原型，效果「令人恐惧」"
-      ],
-      "judgment": [
-        "Solara 设备何时上市、首批合作伙伴是谁尚未公布",
-        "Agent-first 设备对现有 App 生态的兼容性未知",
-        "企业客户是否愿意接受从 App 到 Agent 的迁移成本",
-        "Google 的 Gemini Spark Agent 是竞品还是合作对象？",
-        "Solara 的开发者工具链和 Agent 分发机制尚未披露"
-      ],
-      "implication": "如果你正在做 Agent 项目，Solara 意味着微软在赌 Agent 是下一代计算范式。你的 content-curator 项目如果做成 Agent 形态，未来可能直接部署在 Solara 设备上。建议关注微软 Agent SDK 和 Azure AI Agent Service 的更新，这可能是你项目从 Side Project 走向产品的关键路径。"
-    },
-    {
-      "rank": 3,
       "domain": "股票",
       "id": "wscn:3773858",
       "url": "https://wallstreetcn.com/articles/3773858",
-      "source": "华尔街见闻 API",
-      "stars": 4,
-      "title": "博通 AI 指引不及预期盘后暴跌 14%，ASIC 阵营出现分化信号",
-      "lead": "博通最新财报的 AI 营收指引低于市场预期，盘后股价重挫 14%。华尔街分析师认为市场过度反应——德银指出博通订单能见度已延伸至 2028 年，预计 2027 财年 AI 营收达 1250 亿美元，2028 年飙升至 1900 亿美元。但短期看，博通向 AI 客户转型的速度慢于预期，ASIC 阵营内部（博通 vs Marvell）的分化正在加剧。",
+      "source": "华尔街见闻",
+      "stars": 5,
+      "title": "博通AI指引“不够炸裂”引发抛售，华尔街却喊错杀：真正爆发在2027年后",
+      "lead": "博通盘后重挫14%，因AI营收展望低于市场最激进的预期。但德银认为市场低估了长期潜力：订单能见度已延伸至2028年，预计2027财年AI营收达1250亿美元，2028年飙升至1900亿美元。ASIC阵营内部分化正在显现。",
       "confirmed": [
-        "博通 AI 营收指引低于市场预期，盘后暴跌 14%",
-        "德银认为市场低估长期潜力，2027 年 AI 营收预期 1250 亿美元",
-        "博通偏重「网络+ASIC」组合，Marvell 受互连叙事强化",
-        "云厂商自研 ASIC 加速，可能重构供应链格局"
+        "博通Q2业绩后盘后跌14%，因AI指引不及预期",
+        "德银预计2027财年AI营收1250亿美元，高于公司指引",
+        "订单能见度已延伸至2028年",
+        "ASIC阵营内部分化：博通偏网络+ASIC，Marvell受互连叙事强化"
       ],
       "judgment": [
-        "暴跌是错杀还是基本面恶化？需观察后续客户订单数据",
-        "ASIC 阵营分化是否意味着定制芯片市场进入红海",
-        "博通指引不及预期是否反映 AI 资本开支增速放缓",
-        "Marvell 是否会受益于博通的暂时失势",
-        "对台积电 CoWoS 产能的影响有待评估"
+        "短期抛售是否过度仍需观察",
+        "云厂商自研ASIC是否会挤压博通份额",
+        "2027年AI营收能否兑现1250亿美元存在不确定性",
+        "ASIC与GPU路线之争的长期格局未定"
       ],
-      "implication": "博通暴跌对 AI 硬件投资情绪有短期冲击，但长期 ASIC 需求逻辑未变。如果你关注半导体投资或硬件选型，建议区分短期波动与长期趋势——定制 AI 芯片（ASIC）的渗透率仍在提升，但供应商集中度风险值得警惕。"
+      "implication": "博通大跌是情绪性错杀还是趋势拐点？你应该关注ASIC长期渗透率逻辑是否动摇。如果你持有或关注AI芯片股，短期波动不必恐慌，但需留意云厂商自研进度。"
+    },
+    {
+      "rank": 2,
+      "domain": "AI 算力 / 半导体",
+      "id": "hn:48352939",
+      "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
+      "source": "Nvidia",
+      "stars": 5,
+      "title": "Nvidia发布RTX Spark：专为AI PC打造的新一代芯片，微软Surface Laptop Ultra首发搭载",
+      "lead": "Nvidia正式推出RTX Spark系列，面向个人电脑的AI加速芯片，微软同步发布搭载该芯片的Surface Laptop Ultra，直接对标MacBook Pro。AMD高管回应称Strix Halo更优，AI PC芯片大战正式打响。",
+      "confirmed": [
+        "Nvidia发布RTX Spark，面向AI PC",
+        "微软发布Surface Laptop Ultra，搭载RTX Spark",
+        "AMD高管回应称Strix Halo笔记本更具优势",
+        "Nvidia已规划N2X、N3X后续芯片"
+      ],
+      "judgment": [
+        "RTX Spark实际性能与开发者生态尚未验证",
+        "微软Surface Laptop Ultra定价与市场接受度未知",
+        "AMD Strix Halo与RTX Spark的基准对比尚未公开",
+        "AI PC是否真的能带来杀手级应用仍存疑"
+      ],
+      "implication": "AI PC从概念走向产品，你作为AI产品玩家，应关注本地推理能力对Agent工作流的实际提升。RTX Spark若能降低本地AI门槛，你的content-curator项目可考虑集成本地模型。"
+    },
+    {
+      "rank": 3,
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps",
+      "source": "Tom's Hardware",
+      "stars": 5,
+      "title": "微软发布Project Solara：从芯片到云的Agent-first企业设备平台",
+      "lead": "微软在Build大会上推出Project Solara，一个基于Android的芯片到云平台，专为运行AI Agent而非传统应用设计。结合Qualcomm/MediaTek硬件、Azure托管Agent和自适应推理，标志着企业设备从app-first向agent-first的范式转变。",
+      "confirmed": [
+        "Project Solara是Android-based芯片到云平台",
+        "硬件由Qualcomm和MediaTek提供",
+        "Agent托管在Azure上，支持自适应推理",
+        "目标企业设备，替代传统应用模式"
+      ],
+      "judgment": [
+        "实际落地时间表和首批设备未知",
+        "企业客户对agent-first模式的接受度待验证",
+        "与现有企业软件生态的兼容性存疑",
+        "微软自身Copilot产品线是否整合尚不明确"
+      ],
+      "implication": "Agent-first设备是未来方向，你的content-curator项目可提前思考Agent在本地设备上的运行模式。关注Project Solara的SDK和开发者工具，可能成为你项目的部署平台。"
     },
     {
       "rank": 4,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building",
-      "url": "https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building",
-      "source": "Stephen Warwick",
+      "id": "wscn:3773834",
+      "url": "https://wallstreetcn.com/articles/3773834",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "DRAM 价格飙至 15 年新高：32GB DDR5 最低 $375，AI 内存短缺冲击全行业",
-      "lead": "DRAM 合约价本季度预计再涨 58%-63%，32GB DDR5 套条最低价已涨至 $374.97，创 15 年新高。AI 对 HBM 和 DDR5 的抢购正在挤压消费级市场，GoPro 甚至警告「持续经营能力存在重大疑问」。AMD 的 Gorgon Halo 芯片虽支持 192GB 本地 AI 内存，但高昂的 DRAM 成本正在成为本地 Agentic Computing 落地的最大障碍。",
+      "title": "台积电魏哲家：数年内都无法满足芯片需求，资本开支高点“我也不知道”",
+      "lead": "台积电股东大会上，董事长魏哲家预计全年营收增速维持超30%，Q2毛利率指引65.5%-67.5%。他坦言资本支出高峰未知，强调“没看到停止的指标”，并指出token消耗量激增推升算力需求，自动驾驶与机器人构成下一波增长引擎。",
       "confirmed": [
-        "32GB DDR5 最低价 $374.97，较年初翻倍",
-        "DRAM 合约价本季度预计再涨 58%-63%",
-        "GoPro 在监管文件中警告持续经营能力存疑，归因于内存成本飙升",
-        "AMD Gorgon Halo 支持 192GB 内存，但 DRAM 成本制约普及"
+        "台积电预计全年营收增速超30%",
+        "Q2毛利率指引65.5%至67.5%",
+        "员工分红连续三年增超30%",
+        "资本支出高峰未知，无停止指标"
       ],
       "judgment": [
-        "DRAM 涨价周期何时见顶？三星和 SK 海力士增产节奏是关键",
-        "消费级 PC 市场是否会因内存成本过高而萎缩",
-        "本地 AI 推理的经济账是否还成立？32GB $375 意味着 64GB 配置成本超 $750",
-        "HBM5 的推出能否缓解 DDR5 的供给压力？",
-        "中国 DRAM 厂商（长鑫存储）的产能爬坡能否改变格局"
+        "资本支出持续高企是否影响利润率",
+        "数年内无法满足需求的具体时间范围",
+        "自动驾驶与机器人需求的实际落地节奏",
+        "地缘政治风险对产能扩张的影响"
       ],
-      "implication": "你正在做本地 Agent 项目，DRAM 涨价直接影响你的硬件成本。如果计划用本地模型（如 7B/13B 参数），至少需要 32GB 内存，当前 $375 的成本可能让 Side Project 的硬件门槛变高。建议考虑量化模型（GGUF/GPTQ）或云 API 混合方案，在成本可控的前提下验证产品逻辑。"
+      "implication": "台积电的产能紧张意味着AI芯片供应将持续偏紧，你如果做AI应用部署，需提前规划算力资源。同时，关注台积电先进封装（CoWoS/CoWoP）进展，这直接影响AI芯片性能。"
+    },
+    {
+      "rank": 5,
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/github-copilot-customers-suffer-from-sticker-shock-as-microsoft-switches-to-usage-based-pricing-customers-report-up-to-100-fold-price-hikes",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/github-copilot-customers-suffer-from-sticker-shock-as-microsoft-switches-to-usage-based-pricing-customers-report-up-to-100-fold-price-hikes",
+      "source": "Tom's Hardware",
+      "stars": 4,
+      "title": "GitHub Copilot转向按用量计费，客户报告价格飙升10-100倍",
+      "lead": "微软将GitHub Copilot从固定订阅转为基于消耗的计费模式，部分客户账单暴涨10-100倍。开发者社区愤怒，威胁迁移到替代工具。此举反映了AI编程工具成本结构的不成熟，也加速了开源替代方案的竞争。",
+      "confirmed": [
+        "GitHub Copilot从固定订阅转为按用量计费",
+        "部分客户报告价格飙升10-100倍",
+        "开发者社区出现迁移威胁",
+        "微软尚未调整定价策略"
+      ],
+      "judgment": [
+        "价格飙升是否普遍还是个别案例",
+        "微软是否会因用户反弹调整定价",
+        "开源替代（如Codex、Claude Code）能否承接流失用户",
+        "对AI编程工具整体市场格局的影响"
+      ],
+      "implication": "如果你重度使用Copilot，应立即评估实际用量和成本，考虑备选方案如Claude Code、Cursor或开源工具。你的content-curator项目可考虑集成多种AI编程后端，避免供应商锁定。"
     }
   ],
   "shortlist": [
     {
+      "domain": "AI",
+      "title": "Claude Code Workflow隐藏功能实战教程：多Agent协同工作流",
+      "url": "http://www.bilibili.com/video/av116629702777532",
+      "source": "AI超元域",
+      "one_liner": "Anthropic未官宣的Workflow功能，Claude Code V2.1.47/48新增，脚本化Agent协作，适合深度用户探索。"
+    },
+    {
+      "domain": "AI",
+      "title": "Superpowers：让Claude Code写出工程级代码，遵循TDD最佳实践",
+      "url": "http://www.bilibili.com/video/av115877227860495",
+      "source": "AI超元域",
+      "one_liner": "开源工作流系统，将工程团队方法论固化为Skills，告别vibe coding混乱，适合追求代码质量的开发者。"
+    },
+    {
+      "domain": "AI",
+      "title": "Antigravity IDE零基础保姆级教程：MCP、Skill、Rules、Workflows、Agent完整案例",
+      "url": "http://www.bilibili.com/video/av116526640274279",
+      "source": "下班学AI",
+      "one_liner": "新兴AI IDE，集成MCP/Skills/Rules，免费使用Claude/Gemini，值得关注作为Cursor替代。"
+    },
+    {
       "domain": "AI 算力 / 半导体",
-      "title": "三星展示首款 HBM5 原型，采用 Heat Path Block 散热",
+      "title": "Samsung展示首款HBM5 mockup，采用Heat Path Block冷却",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling",
-      "source": "Luke James",
-      "one_liner": "HBM5 散热方案竞争白热化，三星与 SK 海力士的热管理技术路线分化值得关注。"
+      "source": "Tom's Hardware",
+      "one_liner": "Computex 2026上三星展示HBM5实物，与SK hynix的散热竞争升级，影响AI芯片性能。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Astera Labs 展示 320 通道 PCIe 6.0 交换机，支持 80 个加速器扩展",
-      "url": "https://www.tomshardware.com/desktops/servers/astera-labs-showcases-320-lane-pcie-6-0-switch-for-vendor-agnostic-scaling-in-data-centers-up-to-80-accelerators-can-be-scaled-up-using-pcie-alone",
-      "source": "Anton Shilov",
-      "one_liner": "PCIe 6.0 交换机为 AI 数据中心提供供应商无关的扩展方案，降低对 NVLink 的依赖。"
+      "title": "32GB DDR5价格最低$375，AI短缺持续挤压PC组装",
+      "url": "https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building",
+      "source": "Tom's Hardware",
+      "one_liner": "DRAM合约价本季度再涨58-63%，AI需求吞噬内存产能，个人装机成本飙升。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "微软发布 Majorana 2 量子芯片，目标 2029 年实用化",
-      "url": "https://www.tomshardware.com/tech-industry/quantum-computing/microsoft-announces-majorana-2-quantum-computing-chip-claims-a-practical-machine-will-come-in-2029",
-      "source": "Andrew E. Freedman",
-      "one_liner": "微软改用铅基材料推进拓扑量子计算，路线图加速，但 2029 年目标仍极具挑战。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Intel 承认 Arrow Lake 失误，Arrow Lake Refresh 低价策略意在重建声誉",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-addresses-arrow-lake-blunder-we-needed-to-build-back-our-reputation-says-arrow-lake-refreshs-low-price-a-key-first-step-laying-the-groundwork-for-nova-lake",
-      "source": "Jake Roach",
-      "one_liner": "Intel 公开反思 Arrow Lake 性能问题，Refresh 降价为 Nova Lake 铺路，态度诚恳但执行力待验证。"
+      "title": "AMD Gorgon Halo将本地AI内存推至192GB，但DRAM价格高企",
+      "url": "https://www.tomshardware.com/pc-components/dram/amds-gorgon-halo-pushes-on-device-ai-memory-to-192gb-as-dram-prices-hit-15-year-high",
+      "source": "Tom's Hardware",
+      "one_liner": "本地Agent计算兴起面临残酷现实：DRAM价格15年新高，大内存AI设备成本高企。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "GitHub Copilot 切换用量计费，客户面临最高 100 倍涨价",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/github-copilot-customers-suffer-from-sticker-shock-as-microsoft-switches-to-usage-based-pricing-customers-report-up-to-100-fold-price-hikes",
-      "source": "Bruno Ferreira",
-      "one_liner": "Copilot 从固定订阅转向按量计费，重度用户成本飙升，开发者社区出现逃离情绪。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Alphabet 完成创纪录的 850 亿美元股票融资，用于 AI 投资",
+      "title": "Alphabet创纪录$850亿融资用于Google AI业务",
       "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/",
-      "source": "Julie Bort",
-      "one_liner": "Google 以史上最大规模股权融资为 AI 军备竞赛补充弹药，信号意义大于实际金额。"
+      "source": "TechCrunch",
+      "one_liner": "Alphabet通过股票出售筹集850亿美元，创纪录，显示投资者对AI基础设施的强烈 appetite。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "特朗普签署 AI 行政令，要求前沿模型发布前 30 天向政府开放",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-signs-ai-executive-order-seeking-30-day-government-access-to-frontier-models-before-release",
-      "source": "Luke James",
-      "one_liner": "美国 AI 监管新框架：自愿但可能通过分类基准强制，对 OpenAI/Anthropic 的发布节奏产生影响。"
+      "title": "Lovable与Google Cloud签署多年协议，用量扩大5倍",
+      "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+      "source": "TechCrunch",
+      "one_liner": "AI应用构建平台Lovable扩大与Google Cloud合作，同时获得更多Anthropic Claude访问权限。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "GitLab裁员14%，退出22个国家，聚焦AI工作负载",
+      "url": "https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/",
+      "source": "TechCrunch",
+      "one_liner": "GitLab重组以服务AI工作负载，裁员14%并退出22国，反映AI对开发工具链的冲击。"
     },
     {
       "domain": "股票",
-      "title": "SpaceX 以 1.77 万亿美元估值启动 IPO 路演，Morningstar 估值仅 7800 亿",
+      "title": "SpaceX IPO定价$1.77万亿，Morningstar估值仅$7800亿",
       "url": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
-      "source": "gen220",
-      "one_liner": "SpaceX IPO 定价与第三方估值差距巨大，市场对马斯克溢价的分歧空前。"
+      "source": "CNBC",
+      "one_liner": "SpaceX目标估值1.77万亿美元，但Morningstar估值仅一半，分歧巨大，IPO风险高。"
     },
     {
       "domain": "股票",
-      "title": "软银单日暴跌 11%，OpenAI 押注占比或达投资组合 30%",
+      "title": "软银单日暴跌11%，重押OpenAI的代价显现",
       "url": "https://wallstreetcn.com/articles/3773851",
-      "source": "华尔街见闻 API",
-      "one_liner": "软银杠杆押注 OpenAI 的风险暴露，标普下调信用展望至负面，WeWork 教训历历在目。"
+      "source": "华尔街见闻",
+      "one_liner": "软银有息债务1040亿美元，对OpenAI押注占比或达30%，标普下调展望，流动性风险上升。"
     },
     {
       "domain": "股票",
-      "title": "台积电魏哲家：数年内都无法满足芯片需求，资本开支无停止指标",
-      "url": "https://wallstreetcn.com/articles/3773834",
-      "source": "华尔街见闻 API",
-      "one_liner": "台积电董事长确认 AI 芯片需求远超供给，资本开支高峰未知，员工分红连续三年增超 30%。"
-    },
-    {
-      "domain": "股票",
-      "title": "鸿海与英特尔达成战略合作，共同开发 AI 平台",
+      "title": "鸿海与英特尔达成战略合作，共同开发AI平台",
       "url": "https://wallstreetcn.com/articles/3773845",
-      "source": "华尔街见闻 API",
-      "one_liner": "Intel 联手鸿海、SambaNova 推出机架级 AI 基础设施，推理时代 CPU 与 GPU 比例从 1:4 向 1:1 演变。"
+      "source": "华尔街见闻",
+      "one_liner": "Computex上英特尔联手鸿海、SambaNova推出机架级AI基础设施，发布首款18A Xeon 6+处理器。"
     },
     {
       "domain": "金融",
-      "title": "美国通胀升至 3.8%，伊朗战争推高能源成本",
+      "title": "美国通胀升至3.8%，伊朗战争推升能源成本",
       "url": "https://www.bbc.com/news/articles/c202pgxx89lo",
-      "source": "tartoran",
-      "one_liner": "伊朗冲突持续推高油价，美国通胀反弹至 3.8%，美联储降息预期进一步推迟。"
+      "source": "BBC",
+      "one_liner": "伊朗战争导致能源价格飙升，美国通胀反弹至3.8%，可能影响美联储政策。"
+    },
+    {
+      "domain": "金融",
+      "title": "日本央行考虑6月加息25基点至1%，年内可能再次加息",
+      "url": "https://wallstreetcn.com/articles/3773842",
+      "source": "华尔街见闻",
+      "one_liner": "日央行官员认为实际利率仍低，通胀上行风险持续，加息周期可能超预期。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-04T08:14:30+0000"
+    "scored_at": "2026-06-04T08:53:47+0000"
   }
 }

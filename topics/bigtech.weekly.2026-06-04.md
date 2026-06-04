@@ -2,42 +2,41 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今日 Computex 2026 进入高潮：Nvidia 发布 RTX Spark AI PC 芯片，微软推出 Agent-first 的 Project Solara 平台，AI 硬件战局从云端烧到终端。同时博通财报指引不及预期引发盘后暴跌 14%，ASIC 阵营出现分化信号。DRAM 价格飙至 15 年新高，32GB DDR5 最低 $375，AI 内存短缺正在冲击全行业。_
+_今天的关键信号：博通AI指引不及预期引发抛售，ASIC阵营分化加剧，但华尔街认为长期逻辑未变；Nvidia RTX Spark与微软Project Solara重新定义AI PC与Agent-first设备，本地AI算力竞争白热化；台积电称数年内无法满足芯片需求，资本开支无停下指标。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. 微软发布 Project Solara：从芯片到云的 Agent-first 企业设备平台，AI 不再只是 App
+### 5. GitHub Copilot转向按用量计费，客户报告价格飙升10-100倍
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Etiido Uko_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Tom's Hardware_
 
-微软在 Computex 2026 上揭晓 Project Solara，一个基于 Android 的芯片到云平台，专为「Agent-first」企业设备设计。硬件采用 Qualcomm 和 MediaTek 芯片，云端对接 Azure Agent 服务，设备本身不再运行传统 App，而是直接运行 AI Agent。这可能是自 iPhone 以来最激进的设备范式转变。
+微软将GitHub Copilot从固定订阅转为基于消耗的计费模式，部分客户账单暴涨10-100倍。开发者社区愤怒，威胁迁移到替代工具。此举反映了AI编程工具成本结构的不成熟，也加速了开源替代方案的竞争。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Project Solara 是 Android 基础的全栈平台，从芯片到云专为 AI Agent 设计 | Solara 设备何时上市、首批合作伙伴是谁尚未公布 |
-| 硬件合作伙伴包括 Qualcomm 和 MediaTek | Agent-first 设备对现有 App 生态的兼容性未知 |
-| 设备运行 Agent 而非传统 App，Azure 提供云端 Agent 托管 | 企业客户是否愿意接受从 App 到 Agent 的迁移成本 |
-| 微软在 Build 2026 上展示了 Spark Agent 原型，效果「令人恐惧」 | Google 的 Gemini Spark Agent 是竞品还是合作对象？ |
-|  | Solara 的开发者工具链和 Agent 分发机制尚未披露 |
+| GitHub Copilot从固定订阅转为按用量计费 | 价格飙升是否普遍还是个别案例 |
+| 部分客户报告价格飙升10-100倍 | 微软是否会因用户反弹调整定价 |
+| 开发者社区出现迁移威胁 | 开源替代（如Codex、Claude Code）能否承接流失用户 |
+| 微软尚未调整定价策略 | 对AI编程工具整体市场格局的影响 |
 
 **📖 主编点评**
 
-如果你正在做 Agent 项目，Solara 意味着微软在赌 Agent 是下一代计算范式。你的 content-curator 项目如果做成 Agent 形态，未来可能直接部署在 Solara 设备上。建议关注微软 Agent SDK 和 Azure AI Agent Service 的更新，这可能是你项目从 Side Project 走向产品的关键路径。
+如果你重度使用Copilot，应立即评估实际用量和成本，考虑备选方案如Claude Code、Cursor或开源工具。你的content-curator项目可考虑集成多种AI编程后端，避免供应商锁定。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-unveils-project-solara-ai-a-chip-to-cloud-platform-built-to-power-a-new-generation-of-agent-first-enterprise-devices-hardware-designed-to-run-ai-agents-instead-of-traditional-apps)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/github-copilot-customers-suffer-from-sticker-shock-as-microsoft-switches-to-usage-based-pricing-customers-report-up-to-100-fold-price-hikes)
 
 ---
 
 ## 📋 备选阅读
 
-- [GitHub Copilot 切换用量计费，客户面临最高 100 倍涨价](https://www.tomshardware.com/tech-industry/artificial-intelligence/github-copilot-customers-suffer-from-sticker-shock-as-microsoft-switches-to-usage-based-pricing-customers-report-up-to-100-fold-price-hikes) —— Copilot 从固定订阅转向按量计费，重度用户成本飙升，开发者社区出现逃离情绪。
-  _Bruno Ferreira_
-- [Alphabet 完成创纪录的 850 亿美元股票融资，用于 AI 投资](https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/) —— Google 以史上最大规模股权融资为 AI 军备竞赛补充弹药，信号意义大于实际金额。
-  _Julie Bort_
-- [特朗普签署 AI 行政令，要求前沿模型发布前 30 天向政府开放](https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-signs-ai-executive-order-seeking-30-day-government-access-to-frontier-models-before-release) —— 美国 AI 监管新框架：自愿但可能通过分类基准强制，对 OpenAI/Anthropic 的发布节奏产生影响。
-  _Luke James_
+- [Alphabet创纪录$850亿融资用于Google AI业务](https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/) —— Alphabet通过股票出售筹集850亿美元，创纪录，显示投资者对AI基础设施的强烈 appetite。
+  _TechCrunch_
+- [Lovable与Google Cloud签署多年协议，用量扩大5倍](https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/) —— AI应用构建平台Lovable扩大与Google Cloud合作，同时获得更多Anthropic Claude访问权限。
+  _TechCrunch_
+- [GitLab裁员14%，退出22个国家，聚焦AI工作负载](https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/) —— GitLab重组以服务AI工作负载，裁员14%并退出22国，反映AI对开发工具链的冲击。
+  _TechCrunch_
 
 ---
 
