@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-04T07:58:10.279625+00:00",
+  "fetched_at": "2026-06-05T07:15:31.683281+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/chips-act-2-0-puts-demand-at-center-of-europes-semiconductor-strategy/",
+      "title": "Chips Act 2.0 Puts Demand at Center of Europe’s Semiconductor Strategy",
+      "url": "https://www.eetimes.com/chips-act-2-0-puts-demand-at-center-of-europes-semiconductor-strategy/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-05T07:00:00+00:00",
+      "summary": "Chips Act 2.0 shifts EU focus from factory subsidies to chip design and demand. The post Chips Act 2.0 Puts Demand at Center of Europe’s Semiconductor Strategy appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/netrasemi-brings-up-a2000-ai-chip-begins-customer-evaluation-phase/",
+      "title": "Netrasemi Brings Up A2000 AI Chip, Begins Customer Evaluation Phase",
+      "url": "https://www.eetimes.com/netrasemi-brings-up-a2000-ai-chip-begins-customer-evaluation-phase/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-04T22:00:00+00:00",
+      "summary": "Indian startup Netrasemi launched the A2000 AI chip built on a 12-nm technology node. The post Netrasemi Brings Up A2000 AI Chip, Begins Customer Evaluation Phase appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/",
+      "title": "Computex 2026: Are We Heading for the Agentic PC Era Yet?",
+      "url": "https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-04T13:59:22+00:00",
+      "summary": "In this video interview, explore whether agentic PCs are truly here as Nvidia and Microsoft unveil new tech at Computex 2026. The post Computex 2026: Are We Heading for the Agentic PC Era Yet? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/european-electronic-waste-dilemma/",
       "title": "European Electronic Waste Dilemma",
       "url": "https://www.eetimes.com/european-electronic-waste-dilemma/",
@@ -308,57 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/sciosense-launches-ufc23-ultrasonic-flow-converter-for-high-precision-ultra-low-power-smart-metering/",
-      "title": "ScioSense Launches UFC23 Ultrasonic Flow Converter for High-Precision, Ultra-Low-Power Smart Metering",
-      "url": "https://www.eetimes.com/sciosense-launches-ufc23-ultrasonic-flow-converter-for-high-precision-ultra-low-power-smart-metering/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T07:00:00+00:00",
-      "summary": "The UFC23 ultrasonic flow converter is claimed to allow manufacturers to retain flexibility over system architecture and microcontroller selection. The post ScioSense Launches UFC23 Ultrasonic Flow Converter for High-Precision, Ultra-Low-Power Smart Metering appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/tsmc-defends-transistor-scaling-amid-huaweis-hers-law-proposal/",
-      "title": "TSMC Defends Transistor Scaling Amid Huawei’s ‘Her’s Law’ Proposal",
-      "url": "https://www.eetimes.com/tsmc-defends-transistor-scaling-amid-huaweis-hers-law-proposal/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T18:12:48+00:00",
-      "summary": "Kevin Zhang said 3D integration is important, but transistor scaling remains the semiconductor industry's primary driver of performance and energy-efficiency gains. The post TSMC Defends Transistor Scaling Amid Huawei&#8217;s ‘Her’s Law’ Proposal appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/early-memory-contention-checks-reduce-ic-design-risks/",
-      "title": "Early Memory Contention Checks Reduce IC Design Risks",
-      "url": "https://www.eetimes.com/early-memory-contention-checks-reduce-ic-design-risks/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Chun-hsiang Chang",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-01T14:00:00+00:00",
-      "summary": "Automated schematic-level contention analysis detects memory bottlenecks early, improving SoC reliability, predictability, and silicon quality. The post Early Memory Contention Checks Reduce IC Design Risks appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48274048",
       "title": "Taiwan Overtakes India as Fifth-Largest Stock Market",
       "url": "https://www.bloomberg.com/news/articles/2026-05-26/tsmc-s-relentless-rise-powers-taiwan-s-market-value-above-india",
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48377404"
       },
       "duration_sec": null,
-      "views": 459,
-      "comments": 117,
+      "views": 463,
+      "comments": 121,
       "published_at": "2026-06-02T22:55:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48352939"
       },
       "duration_sec": null,
-      "views": 424,
-      "comments": 416,
+      "views": 425,
+      "comments": 417,
       "published_at": "2026-06-01T05:24:40+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -427,8 +427,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48355720"
       },
       "duration_sec": null,
-      "views": 285,
-      "comments": 640,
+      "views": 286,
+      "comments": 649,
       "published_at": "2026-06-01T12:04:29+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -447,7 +447,7 @@
       },
       "duration_sec": null,
       "views": 149,
-      "comments": 27,
+      "comments": 28,
       "published_at": "2026-06-01T13:32:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
