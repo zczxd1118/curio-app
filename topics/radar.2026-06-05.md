@@ -1,8 +1,8 @@
 # Curio 趋势雷达 · 2026-06-05
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
+> 你的私人主编 · 今日跨域精选 4 条头条 + 14 条备选
 
-_今天Computex 2026余波未平：NVIDIA RTX Spark AI PC芯片正式亮相，微软Surface Laptop Ultra首发搭载；TSMC坦言产能远不能满足AI需求，CEO称“还需很久”；与此同时，韩国股市因AI泡沫担忧暴跌5.5%，SK海力士跌近10%。AI成本问题被Sam Altman公开承认是“巨大问题”，而Anthropic和OpenAI的IPO竞赛进入白热化。_
+_今日最重磅的信号来自Computex 2026：NVIDIA RTX Spark AI PC芯片、AMD Helios MI455X平台、TSMC产能告急三大事件共振，AI硬件进入新竞赛周期。同时，Anthropic与OpenAI密集筹备IPO，AI行业烧钱危机被Sam Altman公开承认，资本市场对AI回报的质疑升温。韩国股市因AI泡沫担忧暴跌5.5%，全球科技股承压。_
 
 ---
 
@@ -12,41 +12,41 @@ _今天Computex 2026余波未平：NVIDIA RTX Spark AI PC芯片正式亮相，�
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _shenli3514_
 
-NVIDIA在Computex 2026上正式发布RTX Spark，这是一款集成CPU和GPU的AI超级芯片，专为个人电脑设计。微软同步推出Surface Laptop Ultra，成为首款搭载该芯片的设备，目标110W TDP。这标志着AI PC从云端走向本地，Agentic PC时代加速到来。
+NVIDIA在Computex 2026上正式推出RTX Spark超级芯片，集成CPU+GPU+AI加速器，面向个人电脑。微软同步发布Surface Laptop Ultra，搭载该芯片，目标110W TDP，直接对标MacBook Pro。这是NVIDIA首次将数据中心级AI能力下放到个人电脑，标志着AI PC从NPU辅助向独立AI计算单元演进。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| NVIDIA发布RTX Spark，集成CPU和GPU的AI超级芯片 | RTX Spark实际性能表现尚未有第三方评测 |
-| 微软Surface Laptop Ultra首发搭载，目标110W TDP | 110W TDP下能否持续维持高AI推理吞吐量存疑 |
-| Windows on Arm生态获得重要硬件支撑 | 开发者生态和工具链成熟度待观察 |
-| NVIDIA同时发布Cosmos 3物理AI模型 | 与现有AI PC方案（如Qualcomm、AMD）的性价比对比未明朗 |
-| Qualcomm在Computex上展示Snapdragon C竞争方案 | Agentic PC概念是否真正落地仍需应用验证 |
+| NVIDIA发布RTX Spark超级芯片，集成CPU、GPU、AI加速器 | RTX Spark实际性能和能效比尚未有独立评测 |
+| 微软Surface Laptop Ultra首发搭载，目标110W TDP | 110W TDP下AI算力能否匹敌云端推理仍是未知 |
+| Windows on Arm原生支持，Qualcomm Snapdragon C同步竞争 | Windows on Arm生态成熟度可能限制初期体验 |
+| NVIDIA称RTX Spark可运行本地AI Agent和推理任务 | 定价策略未公布，可能影响消费者接受度 |
+| Computex 2026上多家OEM展示基于RTX Spark的原型机 | 与Qualcomm Snapdragon C的竞争格局尚不明朗 |
 
 **📖 主编点评**
 
-这对你意味着：如果你在做AI Agent或本地推理项目，RTX Spark可能成为你的新选择。关注Surface Laptop Ultra的实测性能，特别是本地运行Claude Code或大型模型的体验。建议等待第三方评测后再决定是否入手。
+你正在做content-curator Agent项目，RTX Spark意味着未来个人设备可以本地运行更复杂的AI工作流，不再完全依赖云端API。建议关注其推理性能和开发者工具链，如果支持本地MCP或Agent框架，你的项目可以直接受益于边缘AI算力。
 
 📺 [打开原文](https://www.nvidia.com/en-us/products/rtx-spark/)
 
 ---
 
-### 2. TSMC CEO：满足AI客户需求还需很久，但承诺不涨价
+### 3. TSMC CEO："很长一段时间内无法满足客户需求"，但承诺不涨价
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Jowi Morales_
 
-TSMC在Computex期间召开股东大会，CEO魏哲家坦言产能远不能满足AI超大规模客户的需求，且“还需要很长时间”才能匹配。但他同时承诺保持价格稳定，不会实施涨价。这一矛盾信号反映出半导体供应链的深层紧张。
+TSMC董事长魏哲家在股东大会上表示，AI超大规模客户的需求远超产能，"需要很长时间才能满足"。但他同时承诺维持价格稳定，不实施涨价。这一表态正值Computex 2026期间，AMD、NVIDIA、Intel均展示新一代AI芯片，对先进制程的争夺白热化。TSMC的产能瓶颈已成为整个AI产业的卡脖子环节。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| TSMC CEO表示无法满足AI客户当前需求 | TSMC不涨价是否意味着利润压力或长期合同锁定 |
-| 承诺保持价格稳定，不涨价 | 产能瓶颈何时能缓解没有明确时间表 |
-| AI需求主要由超大规模云厂商驱动 | Intel和三星能否趁机抢占份额 |
-| TSMC正在全球扩建产能，但进度有限 | NVIDIA Vera Rubin等下一代芯片对先进制程的依赖度 |
-| 三星和SK海力士在HBM5上展开散热竞争 | 地缘政治风险（如台海局势）对产能的影响 |
+| TSMC CEO魏哲家称"很长一段时间内无法满足客户需求" | "不涨价"承诺能否持续取决于产能扩张成本和客户谈判 |
+| 承诺维持价格稳定，不实施涨价 | 产能分配可能偏向大客户，中小AI公司面临供应风险 |
+| AI超大规模客户需求远超当前产能 | Intel代工服务和三星能否分流部分订单尚不确定 |
+| AMD Helios MI455X平台、NVIDIA Vera Rubin均依赖TSMC先进制程 | 地缘政治风险可能影响TSMC海外工厂建设进度 |
+| 三星和SK海力士在HBM5上展开散热技术竞赛 | HBM5散热方案将成为内存竞争的关键差异化因素 |
 
 **📖 主编点评**
 
-对于你的项目，这意味着AI芯片和算力成本短期内不会下降。如果你在部署AI服务，建议提前锁定云资源合同，并关注AMD Helios等替代方案。个人项目可优先使用API而非自建推理。
+TSMC产能紧张意味着AI芯片供应将持续受限，可能推高云端推理成本。你的Agent项目如果依赖云端API，建议关注模型蒸馏和量化技术以降低token消耗，同时考虑本地推理方案作为备份。
 
 📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand-tells-shareholders-that-he-will-keep-prices-stable-refrain-from-implementing-price-hikes)
 
@@ -54,23 +54,23 @@ TSMC在Computex期间召开股东大会，CEO魏哲家坦言产能远不能满�
 
 ## 🌟 大厂 AI 动态
 
-### 3. Anthropic年化收入470亿美元，Daniela Amodei在IPO前回应AI回报质疑
+### 2. Anthropic年化收入飙至470亿美元，Daniela Amodei在IPO前回应AI回报质疑
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Marina Temkin_
 
-Anthropic联合创始人Daniela Amodei在IPO前夕接受采访，透露公司年化收入已从2025年底的90亿美元飙升至470亿美元。面对AI投资回报率的质疑，她表示“我们才刚刚开始”。与此同时，OpenAI也在准备IPO，两大AI巨头争相上市。
+Anthropic CEO Daniela Amodei在IPO前夕接受专访，透露公司年化收入已从2025年底的90亿美元跃升至470亿美元，增长超5倍。她同时回应了外界对AI行业巨额投入能否产生回报的质疑，强调企业客户需求真实且持续。此前OpenAI CEO Sam Altman也公开承认AI token成本已成为"巨大问题"，两大AI巨头在IPO窗口期面临截然不同的叙事。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic年化收入达470亿美元，较2025年底增长超5倍 | 470亿美元收入中多少来自API调用 vs 定制服务 |
-| Anthropic已秘密递交IPO申请 | 高增长能否持续，客户留存率如何 |
-| OpenAI也在准备IPO，预计近期提交文件 | IPO估值是否合理，是否存在泡沫 |
-| Sam Altman公开承认AI token成本已成为“巨大问题” | OpenAI和Anthropic的竞争是否会压低利润率 |
-| AI行业整体面临成本失控和客户预算超支 | 监管风险（如SEC对AI公司披露要求的审查） |
+| Anthropic年化收入达470亿美元，较2025年底的90亿美元增长超5倍 | 470亿美元收入中多少来自长期合同 vs 按用量付费尚不明确 |
+| Anthropic已秘密递交IPO申请 | 客户留存率和续约率未披露，可能存在客户流失风险 |
+| OpenAI CEO Sam Altman承认AI token成本是"巨大问题" | AI模型幻觉问题仍未解决，可能影响企业采用深度 |
+| OpenAI最大客户单月消耗1000亿tokens，Uber全年AI预算四个月耗尽 | IPO估值是否合理取决于市场对AI长期盈利能力的判断 |
+| 两家公司均面临客户对AI支出回报率的质疑 | 两家公司同时IPO可能分散投资者注意力 |
 
 **📖 主编点评**
 
-作为AI产品用户，你需要关注：Anthropic和OpenAI的IPO可能带来API价格调整。建议在IPO前锁定长期合同或预付费方案。同时，关注Claude Code等工具的定价变化，这对你的content-curator项目成本有直接影响。
+你正在用Claude Code做项目，Anthropic的快速增长意味着Claude API的稳定性和价格可能改善，但也要关注成本控制。建议在content-curator项目中实现token用量监控和预算告警，避免月底超支。
 
 📺 [打开原文](https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/)
 
@@ -78,49 +78,25 @@ Anthropic联合创始人Daniela Amodei在IPO前夕接受采访，透露公司年
 
 ## 🌟 股票
 
-### 4. AI热潮降温，韩国股市暴跌5.5%，SK海力士跌近10%
+### 4. AI热潮降温：韩国股市暴跌5.5%，SK海力士跌近10%，全球科技股承压
 
 **[股票]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
 
-韩国KOSPI指数今日收跌5.5%，创年内最大单日跌幅。SK海力士跌近10%，三星电子跌超6%。此前韩国股市因AI概念暴涨，散户杠杆融资余额创历史新高。央行已开始盯紧杠杆，市场担忧泡沫破裂。
+韩国KOSPI指数今日收跌5.5%，创年内最大单日跌幅，SK海力士跌近10%，三星电子跌超6%。此前韩国股市因AI概念暴涨，年内涨幅一度超100%，散户杠杆融资余额创历史新高。新任韩国央行行长承诺加强融资融券监控，市场担忧AI泡沫破裂。纳斯达克100期货同步下跌1%，MSCI亚洲指数跌1.6%。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 韩国KOSPI指数收跌5.5% | 这是短期回调还是AI泡沫破裂的开始 |
-| SK海力士跌近10%，三星电子跌超6% | 韩国半导体出口数据是否支撑估值 |
-| 韩国散户融资余额达38万亿韩元历史新高 | 全球AI股是否面临类似调整风险 |
-| 新任韩国央行行长承诺加强融资融券监控 | 散户高杠杆是否引发系统性风险 |
-| 大摩等机构预测韩国央行7月加息 | 日本和台湾股市是否会跟随下跌 |
+| 韩国KOSPI指数收跌5.5%，SK海力士跌近10% | 韩国股市暴跌是短期回调还是AI泡沫破裂的开端尚不明朗 |
+| 韩国股市年内暴涨109%，家庭股票账面增值超1000万亿韩元 | 韩国央行7月是否加息将影响市场流动性 |
+| 融资余额达38万亿韩元创历史新高，散户高杠杆入场 | 全球科技股联动下跌可能引发更广泛的避险情绪 |
+| 新任韩国央行行长承诺加强融资融券监控 | AI概念股估值是否已透支未来增长存在分歧 |
+| 纳斯达克100期货下跌1%，MSCI亚洲指数跌1.6% | 韩国散户高杠杆可能引发强制平仓连锁反应 |
 
 **📖 主编点评**
 
-如果你持有或关注AI相关股票，这是重要警示信号。韩国市场的高杠杆和散户狂热与2021年ARK Innovation Fund的崩溃类似。建议审视自己的投资组合，避免追高AI概念股。对于你的个人项目，算力成本可能因市场调整而下降。
+韩国股市暴跌是AI泡沫风险的警示信号。如果你持有相关资产或使用杠杆，建议降低风险敞口。对于你的Agent项目，市场波动不影响技术路线，但提醒你关注AI行业融资环境变化，可能影响API定价和创业公司生存。
 
 📺 [打开原文](https://wallstreetcn.com/articles/3773946)
-
----
-
-## 🌟 AI
-
-### 5. Sam Altman承认AI token成本成“巨大问题”，企业客户预算四个月耗尽
-
-**[AI]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
-
-OpenAI CEO Sam Altman公开承认，AI运行成本已从年初的“无人提起”变成企业客户的“巨大问题”。最大客户单月消耗1000亿tokens，Uber全年AI预算四个月耗尽。使用量百万倍级暴增正在击穿企业预算，控费、模型分层、智能路由成为新常态。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Sam Altman承认AI token成本是“巨大问题” | OpenAI是否会降价或推出分层定价 |
-| OpenAI最大客户单月消耗1000亿tokens | 企业是否会转向开源模型或自建推理 |
-| Uber全年AI预算在4个月内耗尽 | 成本问题是否抑制AI应用创新 |
-| AI使用量呈现百万倍级增长 | Anthropic等竞争对手如何应对 |
-| 行业从增长叙事转向单位经济优化 | AI行业是否面临“效率危机” |
-
-**📖 主编点评**
-
-这对你的content-curator项目是直接利好：如果你依赖API，成本控制是关键。建议关注OpenAI和Anthropic的定价变化，同时探索本地模型（如通过Ollama）或更便宜的替代方案（如DeepSeek）。你的项目应优先设计token高效的架构。
-
-📺 [打开原文](https://wallstreetcn.com/articles/3773933)
 
 ---
 
@@ -128,45 +104,40 @@ OpenAI CEO Sam Altman公开承认，AI运行成本已从年初的“无人提起
 
 ### AI 算力 / 半导体
 
-- [AMD Helios MI455X AI平台曝光，采用UALink-over-Ethernet互联](https://www.tomshardware.com/tech-industry/artificial-intelligence/amds-helios-mi455x-ai-platform-breaks-cover-initial-systems-use-ualink-over-ethernet-interconnects-amds-vera-rubin-rival-surfaces-but-the-downsides-of-ethernet-could-hamstring-performance) —— AMD Vera Rubin竞品亮相，但Ethernet互联可能影响性能，适合关注AI芯片竞争格局的读者。
+- [AMD Helios MI455X AI平台曝光：UALink-over-Ethernet互连，对标NVIDIA Vera Rubin](https://www.tomshardware.com/tech-industry/artificial-intelligence/amds-helios-mi455x-ai-platform-breaks-cover-initial-systems-use-ualink-over-ethernet-interconnects-amds-vera-rubin-rival-surfaces-but-the-downsides-of-ethernet-could-hamstring-performance) —— AMD的AI芯片平台首次公开，但Ethernet互连可能成为性能瓶颈，与NVIDIA的竞争格局初现。
   _Anton Shilov_
-- [Samsung展示首款HBM5原型，采用Heat Path Block散热](https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling) —— HBM5散热竞争白热化，三星和SK海力士展开技术竞赛，影响AI训练成本。
+- [Samsung展示首款HBM5原型，配备Heat Path Block散热方案](https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling) —— HBM5散热成为竞争焦点，三星和SK海力士在封装冷却技术上展开竞赛，影响AI芯片性能上限。
   _Luke James_
-- [Frore展示LiquidJet Nexus冷板，声称提升NVIDIA Vera Rubin 10% token生成](https://www.tomshardware.com/pc-components/liquid-cooling/frore-shows-off-liquidjet-nexus-coldplate-for-nvidia-vera-rubin-other-ai-accelerators-offers-up-claimed-10-percent-token-generation-boost-over-rival-liquid-cooling-solutions) —— 散热创新直接提升AI推理效率，对自建算力的开发者有参考价值。
-  _Anton Shilov_
-- [Microsoft Surface Laptop Ultra目标110W TDP，RTX Spark Superchip细节曝光](https://www.tomshardware.com/laptops/surface-laptop-ultra-targets-110w-tdp-for-rtx-spark-superchip-microsoft-reveals-power-budget-of-its-high-end-15-system-in-hands-on-session) —— RTX Spark功耗细节：110W TDP，适合关注AI PC性能的读者。
-  _Jeffrey Kampman_
+- [SpaceX获德州55亿美元Terafab半导体工厂100%财产税减免](https://www.tomshardware.com/tech-industry/big-tech/elon-musks-spacex-secures-100-percent-property-tax-exemption-for-planned-usd55-billion-terafab-semiconductor-factory-in-texas-county-approves-35-year-deal-worth-hundreds-of-millions-despite-resident-backlash) —— Elon Musk的半导体野心再进一步，但35年免税引发居民反弹，芯片制造本土化争议持续。
+  _Etiido Uko_
+- [Cloudflare CEO：机器人流量首次超过人类，Agentic流量提前一年到来](https://www.tomshardware.com/tech-industry/artificial-intelligence/bots-have-now-passed-human-traffic-online-cloudflare-boss-laments-says-agentic-traffic-wasnt-expected-to-eclipse-real-people-until-next-year) —— AI Agent产生的互联网流量已超过人类，对网络安全和内容生态产生深远影响。
+  _Mark Tyson_
+- [美国科技行业5月裁员38,242人，AI是首要原因](https://www.tomshardware.com/tech-industry/artificial-intelligence/tech-sector-cut-us-jobs-by-38242-in-may) —— AI替代效应开始显现，科技行业裁员创两年新高，但你的Agent项目正是利用AI提升效率。
+  _Luke James_
+- [欧盟芯片法案2.0：从补贴工厂转向聚焦芯片设计和需求侧](https://www.eetimes.com/chips-act-2-0-puts-demand-at-center-of-europes-semiconductor-strategy/) —— 欧洲半导体战略转向，不再单纯补贴制造，而是通过需求拉动创新，可能影响全球芯片格局。
+  _Pat Brans_
 
 ### 大厂 AI 动态
 
-- [Stratechery专访微软CEO Satya Nadella：关于核心竞争力的寻找](https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/) —— 深度访谈，微软AI战略、与OpenAI关系、资本支出和Agent平台，适合战略思考者。
+- [Stratechery专访微软CEO Satya Nadella：AI时代微软的核心竞争力是什么？](https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/) —— Nadella深度讨论微软在AI时代的角色、与OpenAI的关系、资本支出策略，以及Agent平台愿景。
   _Ben Thompson_
-- [GitHub Copilot推出独立App，同时因计量计费引发开发者不满](https://github.com/features/preview/github-app) —— Copilot独立App上线，但计量计费导致大量开发者威胁迁移，影响AI编程工具生态。
-  _theanonymousone_
-- [Apple批准Poke成为首个Messages for Business平台AI Agent](https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/) —— Apple开放商业消息平台给AI Agent，标志着Agent进入主流通信渠道。
+- [Apple批准Poke成为首个Messages for Business平台上的AI Agent](https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/) —— Apple终于向AI Agent开放商业消息平台，Poke通过短信提供Agent服务，可能开启新交互范式。
   _Sarah Perez_
-- [Meta在Facebook上推出AI创作者助手](https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/) —— AI辅助内容创作工具，对做内容运营的读者有参考价值。
-  _Aisha Malik_
-- [Airbnb CEO Brian Chesky计划成立新AI实验室](https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/) —— Airbnb加入AI军备竞赛，但尚未选择LLM合作伙伴，值得关注。
-  _Tim Fernholz_
+- [Ramp以440亿美元估值融资7.5亿美元，AI+金融科技故事受追捧](https://techcrunch.com/2026/06/04/ramp-raises-750m-at-44b-valuation-as-investors-hunger-for-fintechs-with-an-ai-story/) —— Ramp估值一年内翻近3倍，AI在财务自动化领域的落地能力获得资本认可。
+  _Ram Iyer_
+- [Sam Altman支持的核聚变公司Helion融资4.65亿美元，为微软建设发电厂](https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/) —— AI数据中心的能源需求催生核聚变投资，Helion计划2028年前为微软供电，但技术可行性存疑。
+  _Tim De Chant_
 
 ### 股票
 
-- [SpaceX IPO定价1.77万亿美元，但S&P拒绝快速纳入指数](https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html) —— SpaceX IPO估值争议巨大，Morningstar估值仅7800亿，散户参与门槛降低至2000美元。
-  _gen220_
-- [AI巨头IPO潮：Anthropic和OpenAI争相上市，被指是资本“逃生游戏”](https://wallstreetcn.com/articles/3773943) —— AI公司持续亏损、客户弃用、幻觉问题未解，IPO是否让散户接盘？
+- [韩国股市泡沫信号：老人卖保险炒股、杠杆创纪录，央行开始盯紧](https://wallstreetcn.com/articles/3773944) —— 韩国AI概念股暴涨背后是散户高杠杆和老年人入场，央行警告泡沫风险，今日暴跌验证担忧。
   _华尔街见闻 API_
-- [美国科技行业5月裁员38,242人，AI是主要原因](https://www.tomshardware.com/tech-industry/artificial-intelligence/tech-sector-cut-us-jobs-by-38242-in-may) —— AI取代人类工作的担忧正在变成现实，但也是开发者转型的机遇。
-  _Luke James_
-- [Cloudflare CEO：机器人流量已超过人类，Agentic流量提前一年到来](https://www.tomshardware.com/tech-industry/artificial-intelligence/bots-have-now-passed-human-traffic-online-cloudflare-boss-laments-says-agentic-traffic-wasnt-expected-to-eclipse-real-people-until-next-year) —— Agent流量超过人类，对网站防护和API成本有深远影响。
-  _Mark Tyson_
-
-### 金融
-
-- [AI成本比雇佣人类更贵？微软内部数据引发争议](https://finance.yahoo.com/sectors/technology/articles/microsoft-data-suggests-using-ai-173000141.html) —— 微软数据显示AI替代人工并不划算，对AI投资回报率提出质疑。
-  _voxadam_
-- [美国通胀升至3.8%，伊朗战争推高能源成本](https://www.bbc.com/news/articles/c202pgxx89lo) —— 宏观环境恶化，可能影响AI行业的融资和投资热情。
-  _tartoran_
+- [SpaceX未能提前加入标普500：纳指、罗素开绿灯，标普不跟](https://wallstreetcn.com/articles/3773929) —— 标普拒绝为超大市值IPO开辟快速通道，SpaceX至少一年内无缘指数，影响被动资金流入。
+  _华尔街见闻 API_
+- [Sam Altman公开承认AI成本是"巨大问题"，行业从增长叙事转向单位经济](https://wallstreetcn.com/articles/3773933) —— AI token成本从"无人提起"变成企业客户核心痛点，控费和模型分层成为新常态。
+  _华尔街见闻 API_
+- [代码暴增300%，成果只多30%：AI红利遭遇尴尬现实](https://wallstreetcn.com/articles/3773945) —— AI编程工具提升代码产出但软件发布量仅增30%，全球AI支出突破1万亿美元，回报率存疑。
+  _华尔街见闻 API_
 
 ---
 
