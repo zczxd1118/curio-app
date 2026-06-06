@@ -1,65 +1,44 @@
 # Curio · AI · 2026-06-06
 
-> 今日 2 条头条 + 4 条备选
+> 今日 1 条头条 + 4 条备选
 
-_今日核心信号：全球AI大牛市遭遇黑色星期五，费城半导体指数单日暴跌逾10%，美光因报告重创跌13%。但与此同时，Anthropic IPO在即（年化营收470亿美元），SpaceX以1.77万亿美元估值启动路演，算力租赁大单频出。市场在恐惧与贪婪间剧烈摇摆，你的content-curator项目应关注AI工程化落地而非短期波动。_
+_今天全球AI牛市遭遇黑色星期五，费城半导体指数暴跌超10%，美光因内存需求降温担忧单日重挫13%。与此同时，SpaceX IPO进入倒计时，与Anthropic和谷歌签下合计700亿美元算力大单，但Morningstar估值仅为IPO目标一半。Anthropic IPO也箭在弦上，年化营收已达470亿美元。Claude Code的Ultracode功能悄然上线，可操控100个Agent并行开发，是本周最值得关注的工程实践。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. Claude Ultracode 超码上线：操控100个Agent并行开发，保姆级实战教程
+### 1. Claude Code Ultracode上线：操控100个Agent并行开发，Vibe Coding进入脚本化新纪元
 
 **[AI]** · ⭐⭐⭐⭐⭐ · _技术胖_
 
-Anthropic为Claude Code新增Ultracode（超码）功能，可同时调度100个Agent并行处理大型任务，解决了此前单Agent跑不完复杂项目的痛点。该功能于6月5日上线，已有完整实战教程。
+Anthropic为Claude Code V2.1.47/48秘密新增了Workflow功能，被官方从Changelog中删除但未从代码中移除。该功能允许用户通过JS脚本定义多Agent协同工作流，单个任务可拆解给100个子Agent并行执行。这是自MCP以来Claude Code最重要的架构升级，直接解决了大型项目单Agent跑不完的痛点。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Claude Code新增Ultracode功能，支持并行调度最多100个Agent | Ultracode是否意味着AI编程从"辅助"跃迁至"团队级自动化"？ |
-| 该功能解决了大型任务单次执行超时/失败的问题 | 100个Agent并行时的成本控制与结果一致性如何保证？ |
-| 6月5日上线，已有中文保姆级实战教程（含文字版） | 该功能是否已向所有Claude Code用户开放，还是仅限企业版？ |
-| 技术胖视频详细演示了从安装到多Agent协作的完整流程 | 与Codex、Cursor的多Agent方案相比优劣势如何？ |
+| Claude Code V2.1.47/48新增Workflow功能，支持JS脚本定义多Agent工作流 | 官方删除Changelog的原因不明，可能是功能尚未稳定或策略调整 |
+| 单个Workflow可调度最多100个Agent并行执行子任务 | 100个Agent并行实际效果取决于任务拆分粒度，存在边际收益递减 |
+| 功能被官方从Changelog中删除但代码中保留，可通过特定方式启用 | 脚本化工作流对非开发者用户门槛较高，可能限制普及速度 |
+| Ultracode（超码）为同一功能的中文社区命名 | 与Anthropic即将IPO的节奏是否相关，有待观察 |
 
 **📖 主编点评**
 
-这对你的含义：Ultracode是你content-curator项目的理想加速器——可以用它并行爬取、分析、摘要多篇候选文章。建议本周末就跟着教程跑一遍，把你的Agent工作流从单线程升级到多Agent并行。这比任何股价波动都更值得投入时间。
+你应该立即尝试这个功能。如果你在用Claude Code做Side Project，Workflow能让你把"写一个记账App"拆成"设计数据库→写API→写前端→部署"四个子任务并行执行，效率翻倍。关注技术胖视频中的具体配置方法，尤其是JS脚本的编写模板——这是未来AI编程的标配能力。
 
 📺 [打开原文](http://www.bilibili.com/video/av116697163896598)
 
 ---
 
-### 5. 开源项目：我制作了一个Vibe Coding键盘
-
-**[AI]** · ⭐⭐⭐⭐ · _工科男孙老师_
-
-一位硬件开发者制作了专为Vibe Coding设计的开源键盘，集成了常用AI编程快捷键和宏命令，可显著提升Claude Code/Cursor等工具的操作效率。项目已在GitHub开源。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| 开源Vibe Coding专用键盘，硬件设计文件和固件代码已公开 | 专用键盘是否比软件快捷键方案有实质性效率提升？ |
-| 集成了Claude Code、Cursor等工具的常用快捷键和宏 | 该设计是否兼容主流机械键盘轴体和键帽？ |
-| 支持自定义按键映射，适配不同AI编程工作流 | 是否有计划推出更通用的版本（如QMK固件）？ |
-| 项目在B站发布后获得3.4万播放量 | Vibe Coding硬件生态是否会成为新趋势？ |
-
-**📖 主编点评**
-
-这对你的含义：如果你每天花大量时间在Claude Code/Cursor上，这个开源键盘值得一试。硬件加速虽然小众，但能培养肌肉记忆，长期看可能比软件方案更高效。建议先下载固件看看实现逻辑，说不定能启发你为content-curator项目设计一个专用输入设备。
-
-📺 [打开原文](http://www.bilibili.com/video/av116696660576856)
-
----
-
 ## 📋 备选阅读
 
-- [Claude Code Workflow隐藏功能：Ultrawork召唤无数Agent协同](http://www.bilibili.com/video/av116629702777532) —— Anthropic未官宣的Workflow功能详解，与Ultracode互补，适合深度用户探索。
-  _AI超元域_
-- [100小时测试Claude Code vs Codex真实结果](http://www.bilibili.com/video/av116656495925868) —— 横向对比两大AI编程工具，为你的工具选型提供实测数据。
-  _设计之道_
-- [手把手教你在Claude Code中熟练使用SKILL技能](http://www.bilibili.com/video/av116453927814340) —— Skill是Claude Code的核心扩展机制，教程含安装、创建、管理全流程。
-  _我是阿众_
-- [从夯到拉，锐评32个AI编程工具](http://www.bilibili.com/video/av116578532200786) —— 一次性了解主流AI编程工具优劣，帮你快速定位最适合自己的工具。
-  _程序员鱼皮_
+- [Anthropic：Claude现在编写超过80%的合并代码，警告递归自我改进风险](https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code) —— Anthropic内部报告显示Claude已主导自身代码编写，同时呼吁建立前沿AI暂停机制——既是技术里程碑也是IPO前的风险提示。
+  _Tom's Hardware_
+- [NSA被曝使用Anthropic Mythos进行网络攻击，6名Anthropic工程师嵌入该机构](https://www.tomshardware.com/tech-industry/artificial-intelligence/nsa-using-clause-mythos-for-offensive-cyber-operations-report-claims-says-half-a-dozen-anthropic-engineers-embedded-inside-the-agency) —— AI军事化应用加速，Anthropic与NSA的合作可能影响其IPO合规审查。
+  _Tom's Hardware_
+- [Reid Hoffman离开微软董事会，全职投入AI药物发现初创Manus](https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/) —— LinkedIn联合创始人从微软董事会抽身，All in AI+生物——信号：AI制药赛道正在吸引顶级人才。
+  _TechCrunch_
+- [Google将每月向SpaceX支付9.2亿美元算力费](https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/) —— Google成为SpaceX算力租赁第二大客户，显示云巨头对GPU的渴求已突破传统供应商边界。
+  _TechCrunch_
 
 ---
 

@@ -2,28 +2,28 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今日核心信号：全球AI大牛市遭遇黑色星期五，费城半导体指数单日暴跌逾10%，美光因报告重创跌13%。但与此同时，Anthropic IPO在即（年化营收470亿美元），SpaceX以1.77万亿美元估值启动路演，算力租赁大单频出。市场在恐惧与贪婪间剧烈摇摆，你的content-curator项目应关注AI工程化落地而非短期波动。_
+_今天全球AI牛市遭遇黑色星期五，费城半导体指数暴跌超10%，美光因内存需求降温担忧单日重挫13%。与此同时，SpaceX IPO进入倒计时，与Anthropic和谷歌签下合计700亿美元算力大单，但Morningstar估值仅为IPO目标一半。Anthropic IPO也箭在弦上，年化营收已达470亿美元。Claude Code的Ultracode功能悄然上线，可操控100个Agent并行开发，是本周最值得关注的工程实践。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. Anthropic IPO在即：年化营收470亿美元，Daniela Amodei回应AI回报质疑
+### 3. Anthropic年化营收达470亿美元，Daniela Amodei在IPO前回应AI回报质疑
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Marina Temkin_
 
-Anthropic联合创始人Daniela Amodei在IPO前夕接受专访，透露公司年化营收已从2025年底的90亿美元飙升至470亿美元，并淡化了市场对AI投资回报的担忧。Anthropic已秘密提交IPO文件，预计将成为今年最大科技IPO之一。
+Anthropic CFO Daniela Amodei在IPO路演前接受专访，透露公司年化营收已从2025年底的90亿美元飙升至470亿美元。她表示对AI投资回报率充满信心，并驳斥了市场对AI泡沫的担忧。Anthropic已秘密提交IPO文件，预计将成为2026年最受瞩目的科技IPO之一。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic年化营收在2026年5月达到470亿美元，较2025年底的90亿美元增长超5倍 | 470亿美元年化营收的可持续性如何？其中多少来自OpenAI竞争下的短期合同？ |
-| 公司已秘密提交IPO文件，预计近期启动路演 | Anthropic IPO估值是否已充分反映其增速放缓风险？ |
-| Daniela Amodei在采访中表示对AI长期回报充满信心 | Claude Mythos被NSA用于网络作战的报道是否会影响IPO进程？ |
-| Anthropic同时与SpaceX签署每月12.5亿美元的算力租赁协议 | 与SpaceX的算力协议是否意味着Anthropic在基础设施上过度依赖外部？ |
+| Anthropic年化营收从2025年底的约90亿美元增长至2026年5月的470亿美元 | 470亿美元年化营收的可持续性存疑，部分可能来自一次性大单 |
+| 公司已秘密提交IPO文件，预计近期正式启动路演 | IPO定价将是对AI行业估值的重要锚定，可能影响整个AI板块 |
+| Daniela Amodei在专访中表示AI投资回报率被低估 | Anthropic与SpaceX的算力协议存在利益冲突（马斯克同时控制xAI） |
+| Anthropic与SpaceX签署每月12.5亿美元的算力租赁协议 |  |
 
 **📖 主编点评**
 
-这对你的含义：Anthropic的爆发式增长验证了AI平台层的商业价值。作为AI产品重度玩家，你应该密切关注其IPO后的产品路线图——尤其是Claude Code和MCP生态的演进。建议把Anthropic的IPO招股书加入阅读清单，了解其技术护城河。
+Anthropic IPO是你作为AI产品玩家需要密切跟踪的事件。如果定价合理，可以考虑参与打新——但注意其营收高度依赖Claude API调用，一旦开源模型追上，护城河可能变窄。对你的content-curator项目来说，关注Anthropic IPO后是否会降低API价格，这将直接影响你的项目运营成本。
 
 📺 [打开原文](https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/)
 
@@ -31,12 +31,12 @@ Anthropic联合创始人Daniela Amodei在IPO前夕接受专访，透露公司年
 
 ## 📋 备选阅读
 
-- [Google将每月向SpaceX支付9.2亿美元算力费](https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/) —— Google与SpaceX签署巨额算力租赁协议，AI军备竞赛进一步升级。
+- [Supabase估值8个月翻倍至100亿美元，受益于AI编程工具生态](https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/) —— 开源BaaS平台因Claude Code/Codex等AI编程工具的普及而爆发——你的Side Project后端可以优先考虑Supabase。
   _TechCrunch_
-- [Reid Hoffman离开微软董事会，专注AI药物发现初创公司Manus](https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/) —— LinkedIn联合创始人回归创始人模式，AI+生物医药赛道再获关注。
+- [Airbnb CEO Brian Chesky计划成立新AI实验室](https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/) —— 非传统AI公司也开始自建AI研发能力，说明AI人才争夺战从大厂蔓延至各行业。
   _TechCrunch_
-- [Supabase估值8个月翻倍至100亿美元](https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/) —— 开源后端平台受益于AI编程工具爆发，成为Vibe Coding时代的基础设施赢家。
-  _TechCrunch_
+- [Google Gemini CLI将于6月18日停止服务，迁移至Antigravity CLI](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) —— 如果你在用Gemini CLI做自动化脚本，只剩两周迁移时间——注意检查Antigravity CLI的兼容性。
+  _Google Developers Blog_
 
 ---
 
