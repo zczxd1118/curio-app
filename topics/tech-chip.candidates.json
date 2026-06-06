@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-05T07:15:31.683281+00:00",
+  "fetched_at": "2026-06-06T06:36:06.592578+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 8,
+    "HN · Nvidia": 9,
     "HN · semiconductor": 4,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 33,
+  "total": 34,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/geopolitics-ai-and-jensen-huang-fuel-electronics-rock-and-roll-era/",
+      "title": "Geopolitics, AI, and Jensen Huang Fuel Electronics’ Rock-and-Roll Era",
+      "url": "https://www.eetimes.com/geopolitics-ai-and-jensen-huang-fuel-electronics-rock-and-roll-era/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-05T22:00:00+00:00",
+      "summary": "Jensen Huang and AI frenzy steal the show at Computex 2026—dive in to see how Taiwan leads the electronics. The post Geopolitics, AI, and Jensen Huang Fuel Electronics’ Rock-and-Roll Era appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/manufacturing-accelerates-in-may-amid-inflation-and-geopolitical-headwinds/",
+      "title": "Manufacturing Accelerates in May Amid Inflation and Geopolitical Headwinds",
+      "url": "https://www.eetimes.com/manufacturing-accelerates-in-may-amid-inflation-and-geopolitical-headwinds/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "News Desk",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-05T13:17:36+00:00",
+      "summary": "Manufacturing expanded further in May despite Inflation and lower GDP. The post Manufacturing Accelerates in May Amid Inflation and Geopolitical Headwinds appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/chips-act-2-0-puts-demand-at-center-of-europes-semiconductor-strategy/",
       "title": "Chips Act 2.0 Puts Demand at Center of Europe’s Semiconductor Strategy",
       "url": "https://www.eetimes.com/chips-act-2-0-puts-demand-at-center-of-europes-semiconductor-strategy/",
@@ -325,40 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/photonics-a-foundational-scaling-layer-for-ai-era-computing/",
-      "title": "Photonics: A Foundational Scaling Layer for AI-Era Computing",
-      "url": "https://www.eetimes.com/photonics-a-foundational-scaling-layer-for-ai-era-computing/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Maurice Steinman",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-03T00:08:10+00:00",
-      "summary": "Photonics supercharges AI computing by shattering data bottlenecks. The post Photonics: A Foundational Scaling Layer for AI-Era Computing appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/physical-ai-pushes-chipmakers-up-the-value-chain/",
-      "title": "Physical AI Pushes Chipmakers Up the Value Chain",
-      "url": "https://www.eetimes.com/physical-ai-pushes-chipmakers-up-the-value-chain/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-02T14:00:00+00:00",
-      "summary": "At the TSMC European Symposium, European semiconductor CEOs spoke about how AI in influencing business. The post Physical AI Pushes Chipmakers Up the Value Chain appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48274048",
       "title": "Taiwan Overtakes India as Fifth-Largest Stock Market",
       "url": "https://www.bloomberg.com/news/articles/2026-05-26/tsmc-s-relentless-rise-powers-taiwan-s-market-value-above-india",
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48377404"
       },
       "duration_sec": null,
-      "views": 463,
-      "comments": 121,
+      "views": 467,
+      "comments": 125,
       "published_at": "2026-06-02T22:55:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48352939"
       },
       "duration_sec": null,
-      "views": 425,
-      "comments": 417,
+      "views": 426,
+      "comments": 419,
       "published_at": "2026-06-01T05:24:40+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -428,7 +428,7 @@
       },
       "duration_sec": null,
       "views": 286,
-      "comments": 649,
+      "comments": 652,
       "published_at": "2026-06-01T12:04:29+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -492,25 +492,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:48245087",
-      "title": "Nvidia Removes Gaming Revenue Category from Financial Reports",
-      "url": "https://www.guru3d.com/story/nvidia-removes-gaming-revenue-category-from-financial-reports/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48245087",
-        "name": "theanonymousone",
-        "hn_url": "https://news.ycombinator.com/item?id=48245087"
-      },
-      "duration_sec": null,
-      "views": 41,
-      "comments": 10,
-      "published_at": "2026-05-23T05:50:28+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:48352693",
       "title": "A powerful new chapter for Windows PCs, accelerated by Nvidia RTX Spark",
       "url": "https://blogs.windows.com/windowsexperience/2026/05/31/introducing-a-powerful-new-chapter-for-windows-pcs-accelerated-by-nvidia-rtx-spark/",
@@ -523,8 +504,46 @@
       },
       "duration_sec": null,
       "views": 34,
-      "comments": 36,
+      "comments": 37,
       "published_at": "2026-06-01T04:45:20+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48323697",
+      "title": "The Nvidia Tax",
+      "url": "https://www.cringely.com/2026/05/29/the-nvidia-tax/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48323697",
+        "name": "HotGarbage",
+        "hn_url": "https://news.ycombinator.com/item?id=48323697"
+      },
+      "duration_sec": null,
+      "views": 23,
+      "comments": 5,
+      "published_at": "2026-05-29T14:41:43+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48398107",
+      "title": "Nemotron 3 Ultra: Open Moe Hybrid Mamba-Transformer for Agentic Reasoning [pdf]",
+      "url": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48398107",
+        "name": "victormustar",
+        "hn_url": "https://news.ycombinator.com/item?id=48398107"
+      },
+      "duration_sec": null,
+      "views": 23,
+      "comments": 2,
+      "published_at": "2026-06-04T13:06:01+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
