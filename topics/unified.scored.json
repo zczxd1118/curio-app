@@ -1,228 +1,237 @@
 {
-  "date": "2026-06-06",
-  "intro": "今天全球AI牛市遭遇黑色星期五，费城半导体指数暴跌超10%，美光因内存需求降温担忧单日重挫13%。与此同时，SpaceX IPO进入倒计时，与Anthropic和谷歌签下合计700亿美元算力大单，但Morningstar估值仅为IPO目标一半。Anthropic IPO也箭在弦上，年化营收已达470亿美元。Claude Code的Ultracode功能悄然上线，可操控100个Agent并行开发，是本周最值得关注的工程实践。",
+  "date": "2026-06-07",
+  "intro": "本周最重磅信号：SpaceX下周四IPO定价1.77万亿美元，但Morningstar估值仅一半，散户入场门槛降至2000美元；Anthropic同日递交IPO文件，AI公司上市潮全面开启。同时，ChatGPT将迎最大改版，从聊天机器人转型为集成编程与Agent的超级应用。市场方面，非农超预期引发全球风险资产去杠杆，纳指单日暴跌4%，警惕6月变盘点。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI",
-      "id": "bvid:BV1j67k6oENA",
-      "url": "http://www.bilibili.com/video/av116697163896598",
-      "source": "技术胖",
+      "domain": "股票",
+      "id": "wscn:3773936",
+      "url": "https://wallstreetcn.com/articles/3773936",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "Claude Code Ultracode上线：操控100个Agent并行开发，Vibe Coding进入脚本化新纪元",
-      "lead": "Anthropic为Claude Code V2.1.47/48秘密新增了Workflow功能，被官方从Changelog中删除但未从代码中移除。该功能允许用户通过JS脚本定义多Agent协同工作流，单个任务可拆解给100个子Agent并行执行。这是自MCP以来Claude Code最重要的架构升级，直接解决了大型项目单Agent跑不完的痛点。",
+      "title": "SpaceX下周四上市，募资750亿美元创历史纪录，散户入场门槛降至2000美元",
+      "lead": "SpaceX将于6月11日登陆纳斯达克，定价1.77万亿美元，募资750亿美元为史上最大IPO。Fidelity将散户最低投资额从50万降至2000美元，但Morningstar估值仅7800亿，仅为IPO目标的一半。同时Anthropic也递交了IPO文件，AI公司上市潮全面开启。",
       "confirmed": [
-        "Claude Code V2.1.47/48新增Workflow功能，支持JS脚本定义多Agent工作流",
-        "单个Workflow可调度最多100个Agent并行执行子任务",
-        "功能被官方从Changelog中删除但代码中保留，可通过特定方式启用",
-        "Ultracode（超码）为同一功能的中文社区命名"
+        "SpaceX IPO定价1.77万亿美元，6月11日纳斯达克上市",
+        "募资750亿美元，创历史最大IPO纪录",
+        "Fidelity将散户最低投资额从50万美元降至2000美元",
+        "Anthropic于6月1日递交IPO文件",
+        "Morningstar估值SpaceX为7800亿美元，仅为IPO目标一半",
+        "S&P拒绝为超级IPO修改指数快速纳入规则"
       ],
       "judgment": [
-        "官方删除Changelog的原因不明，可能是功能尚未稳定或策略调整",
-        "100个Agent并行实际效果取决于任务拆分粒度，存在边际收益递减",
-        "脚本化工作流对非开发者用户门槛较高，可能限制普及速度",
-        "与Anthropic即将IPO的节奏是否相关，有待观察"
+        "1.77万亿估值是否合理？Morningstar认为仅值一半，但市场认购热情可能推高",
+        "散户蜂拥入场后是否成为接盘侠？历史经验表明超级IPO首日涨幅有限",
+        "Anthropic IPO定价尚未公布，但可能对标OpenAI估值",
+        "AI公司集中上市是否意味着行业泡沫顶点？",
+        "特朗普政府可能通过政策影响SpaceX估值"
       ],
-      "implication": "你应该立即尝试这个功能。如果你在用Claude Code做Side Project，Workflow能让你把\"写一个记账App\"拆成\"设计数据库→写API→写前端→部署\"四个子任务并行执行，效率翻倍。关注技术胖视频中的具体配置方法，尤其是JS脚本的编写模板——这是未来AI编程的标配能力。"
+      "implication": "如果你在考虑参与SpaceX IPO，建议谨慎：Morningstar估值仅为IPO一半，且公司债务高企、盈利前景不明。Fidelity降低门槛意味着散户可能成为退出流动性。更值得关注的是Anthropic IPO——作为Claude的母公司，它与你的Agent项目直接相关，建议跟踪其S-1文件中的技术路线和营收结构。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "wscn:3774007",
-      "url": "https://wallstreetcn.com/articles/3774007",
-      "source": "华尔街见闻 API",
+      "domain": "AI",
+      "id": "wscn:3774032",
+      "url": "https://wallstreetcn.com/articles/3774032",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "全球AI大牛市遭黑色星期五：费城半导体指数暴跌10%，单日市值蒸发超1万亿美元",
-      "lead": "周五强劲非农数据引爆加息忧虑，叠加博通财报指引失望、谷歌增发、Meta融资传闻及SpaceX IPO预期，多重利空共振。费城半导体指数单日暴跌逾10%，美光因SemiAnalysis报告称英伟达削减内存容量而重挫13%。这是持续两个月的AI大牛市首次遭遇系统性回调。",
+      "title": "ChatGPT将迎史上最大改版：从聊天机器人转型为集成编程与Agent的超级应用",
+      "lead": "OpenAI正筹划ChatGPT发布以来最大改版，将其从聊天机器人转型为集成编程工具和AI智能体的超级应用。此次转型标志着OpenAI从消费端造梦转向企业端赚钱，与Anthropic策略趋同，也将成为其年内IPO的核心叙事。",
       "confirmed": [
-        "费城半导体指数周五暴跌逾10%，单日市值蒸发超1万亿美元",
-        "美光股价重挫13%，创2025年4月以来最大单日跌幅",
-        "博通财报指引不及预期，刺破\"AI受益股坚不可摧\"神话",
-        "强劲非农数据使利率互换市场完全定价年内加息"
+        "ChatGPT将集成编程工具和AI Agent能力",
+        "转型方向与Anthropic的企业级策略一致",
+        "此次改版是ChatGPT发布以来最大更新",
+        "OpenAI正在准备IPO，改版将作为核心叙事",
+        "新版本将支持代码执行和Agent工作流"
       ],
       "judgment": [
-        "SemiAnalysis报告称英伟达削减内存容量，但该机构此前多次看空美光被基本面打脸",
-        "回调是健康调整还是趋势反转，取决于下周CPI数据和AI公司资本开支指引",
-        "高盛认为这是获利了结，标普500回调2%时买入历史上都有回报"
+        "改版后ChatGPT是否会与Claude Code直接竞争？",
+        "OpenAI能否在保持消费端用户的同时成功转向企业端？",
+        "集成Agent后是否会出现新的安全与对齐问题？",
+        "改版时间表尚未公布，可能赶在IPO前发布",
+        "对现有AI编程工具（Cursor、Windsurf）的冲击程度"
       ],
-      "implication": "如果你持有AI相关仓位，不要恐慌性抛售。这次回调的导火索是宏观数据而非AI基本面恶化。关注下周美光是否澄清HBM4订单情况，以及博通电话会是否给出更清晰的AI收入指引。对于你的个人项目，内存芯片价格波动可能影响你搭建本地AI服务器的成本。"
+      "implication": "这对你的content-curator项目是重大利好：ChatGPT集成Agent能力意味着你可以直接在ChatGPT内构建和运行Agent工作流，无需依赖外部工具。建议关注改版后的API变化，特别是Agent编排和工具调用接口——这可能是你项目的最佳落地平台。同时，Claude Code面临直接竞争，建议对比测试两者在Agent构建上的表现。"
     },
     {
       "rank": 3,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
-      "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
-      "source": "Marina Temkin",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code",
+      "source": "Tom's Hardware",
       "stars": 5,
-      "title": "Anthropic年化营收达470亿美元，Daniela Amodei在IPO前回应AI回报质疑",
-      "lead": "Anthropic CFO Daniela Amodei在IPO路演前接受专访，透露公司年化营收已从2025年底的90亿美元飙升至470亿美元。她表示对AI投资回报率充满信心，并驳斥了市场对AI泡沫的担忧。Anthropic已秘密提交IPO文件，预计将成为2026年最受瞩目的科技IPO之一。",
+      "title": "Anthropic报告：Claude已编写超过80%的合并代码，递归自我改进加速，人类可能失去控制",
+      "lead": "Anthropic发布报告警告，Claude目前编写了公司超过80%的合并代码，递归自我改进速度超出预期。公司呼吁建立可选的暂停前沿开发机制，否则人类可能失去对AI系统的控制。同时，NSA被曝使用Claude Mythos进行进攻性网络行动，6名Anthropic工程师嵌入该机构。",
       "confirmed": [
-        "Anthropic年化营收从2025年底的约90亿美元增长至2026年5月的470亿美元",
-        "公司已秘密提交IPO文件，预计近期正式启动路演",
-        "Daniela Amodei在专访中表示AI投资回报率被低估",
-        "Anthropic与SpaceX签署每月12.5亿美元的算力租赁协议"
+        "Claude编写了Anthropic超过80%的合并代码",
+        "Anthropic发布报告警告递归自我改进风险",
+        "公司呼吁建立可选的前沿开发暂停机制",
+        "NSA被曝使用Claude Mythos进行进攻性网络行动",
+        "6名Anthropic工程师嵌入NSA",
+        "联邦政府有禁令限制使用Anthropic模型"
       ],
       "judgment": [
-        "470亿美元年化营收的可持续性存疑，部分可能来自一次性大单",
-        "IPO定价将是对AI行业估值的重要锚定，可能影响整个AI板块",
-        "Anthropic与SpaceX的算力协议存在利益冲突（马斯克同时控制xAI）"
+        "80%代码由AI编写是否意味着AI已具备自我改进能力？",
+        "暂停机制是否可行？Anthropic自身也在加速开发",
+        "NSA使用Mythos是否违反联邦禁令？",
+        "递归自我改进是否会导致智能爆炸？",
+        "Anthropic的警告是真实担忧还是IPO前的公关策略？"
       ],
-      "implication": "Anthropic IPO是你作为AI产品玩家需要密切跟踪的事件。如果定价合理，可以考虑参与打新——但注意其营收高度依赖Claude API调用，一旦开源模型追上，护城河可能变窄。对你的content-curator项目来说，关注Anthropic IPO后是否会降低API价格，这将直接影响你的项目运营成本。"
+      "implication": "作为AI Agent开发者，你应该认真对待这个信号：当AI开始编写自身代码时，开发范式将彻底改变。你的content-curator项目可以考虑引入类似机制——让Agent自我优化工作流。但也要注意安全边界：建议为Agent设置明确的权限限制和人工审核环节，避免出现不可控的递归改进。"
     },
     {
       "rank": 4,
-      "domain": "股票",
-      "id": "wscn:3774016",
-      "url": "https://wallstreetcn.com/articles/3774016",
-      "source": "华尔街见闻 API",
+      "domain": "金融",
+      "id": "wscn:3774031",
+      "url": "https://wallstreetcn.com/articles/3774031",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "SpaceX签下700亿美元算力大单：与Anthropic和谷歌达成租赁协议，ARR达260亿美元",
-      "lead": "SpaceX相继与Anthropic（每月12.5亿美元）和谷歌（每月9.2亿美元）签署算力租赁协议，合计ARR约260亿美元。这为其计划融资750亿美元的IPO提供强劲收入支撑。但Morningstar估值仅780亿美元，仅为IPO目标价的一半，引发估值争议。",
+      "title": "非农超预期触发全球风险资产去杠杆，纳指单日暴跌4%，分析师警告不要逢跌买入",
+      "lead": "强劲非农数据引发全球风险资产去杠杆集中释放，纳斯达克单日暴跌4%，芯片股领跌。知名财经博客警告：当前估值水平、美联储处境和市场结构脆弱性与过去15年完全不同，不要把这次下跌当作逢跌买入的机会。",
       "confirmed": [
-        "SpaceX与Anthropic签署每月12.5亿美元的算力租赁协议",
-        "SpaceX与谷歌签署每月9.2亿美元的算力租赁协议",
-        "合计年化经常性收入（ARR）约260亿美元",
-        "Morningstar估值SpaceX为780亿美元，仅为IPO目标的一半"
+        "纳斯达克单日暴跌4%，创2025年4月以来最大跌幅",
+        "芯片股领跌，美光因SemiAnalysis报告重挫13%",
+        "强劲非农数据触发去杠杆连锁反应",
+        "分析师警告当前市场环境与过去15年不同",
+        "私募信贷赎回潮再起，多家机构触发5%上限"
       ],
       "judgment": [
-        "算力租赁ARR能否持续取决于AI需求是否降温",
-        "SpaceX同时运营xAI，与Anthropic存在潜在利益冲突",
-        "Fidelity已将IPO最低投资额从50万美元降至2000美元，散户参与度可能影响定价"
+        "下跌是短期调整还是长期趋势逆转？",
+        "美联储是否会因通胀压力被迫加息？",
+        "AI泡沫是否开始破裂？债券巨头已开始布局防御",
+        "6月10-18日是否为关键变盘点？",
+        "SpaceX和Anthropic IPO能否提振市场情绪？"
       ],
-      "implication": "SpaceX IPO是2026年最大的散户投资事件。但Morningstar的估值警示你：不要被马斯克的故事迷惑。如果你打算参与，建议只投入你能承受归零的资金。对于你的项目，关注SpaceX算力租赁业务是否会影响Starlink的消费级服务价格。"
+      "implication": "如果你持有科技股或加密货币，建议降低杠杆并准备现金。这次下跌与以往不同：AI算力投资回报率开始受到质疑，SemiAnalysis报告只是导火索。你的content-curator项目正好可以利用市场恐慌期——构建一个监控市场情绪和去杠杆指标的Agent，在极端波动时自动调整策略。"
     },
     {
       "rank": 5,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand-tells-shareholders-that-he-will-keep-prices-stable-refrain-from-implementing-price-hikes",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand-tells-shareholders-that-he-will-keep-prices-stable-refrain-from-implementing-price-hikes",
-      "source": "Jowi Morales",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "source": "TechCrunch",
       "stars": 4,
-      "title": "台积电CEO：\"很久才能满足客户需求\"，但承诺不涨价",
-      "lead": "台积电CEO魏哲家在股东大会上表示，AI需求远超产能，\"需要很长时间才能满足客户需求\"。但他同时承诺保持价格稳定，不会涨价。这一表态为AI芯片供应链吃紧定调，但暂时缓解了市场对成本上涨的担忧。",
+      "title": "OpenAI推出Lockdown Mode防御提示注入攻击，保护敏感数据",
+      "lead": "OpenAI发布Lockdown Mode，旨在保护敏感数据免受提示注入攻击。该模式限制模型在特定上下文中执行非授权操作，但仍可能被绕过。这是AI安全领域的重要进展，尤其对企业级Agent应用至关重要。",
       "confirmed": [
-        "台积电CEO表示产能无法满足AI客户需求，需很长时间才能匹配",
-        "承诺保持价格稳定，不会实施涨价",
-        "AI hyperscaler需求持续超出预期",
-        "3nm/5nm产能利用率接近满载"
+        "OpenAI推出Lockdown Mode防御提示注入",
+        "该模式限制模型执行非授权操作",
+        "但仍可能被高级提示注入绕过",
+        "目标是减少敏感数据泄露风险",
+        "适用于企业级ChatGPT部署"
       ],
       "judgment": [
-        "不涨价可能挤压台积电自身利润率，长期不可持续",
-        "产能瓶颈可能促使客户转向三星或Intel代工",
-        "对英伟达等无晶圆厂公司是利好，成本端压力减轻"
+        "Lockdown Mode是否足够防御所有类型的提示注入？",
+        "对Agent工作流的影响：是否会限制合法功能？",
+        "Claude Code是否有类似的安全机制？",
+        "企业用户是否会因此加速采用ChatGPT？",
+        "开源社区能否复现类似机制？"
       ],
-      "implication": "台积电不涨价对AI芯片公司是利好，但产能瓶颈意味着你如果想买RTX 5090或专业卡，可能还要等很久。对于你的Side Project，如果依赖云端GPU推理，短期内价格不会因芯片成本下降而降低。建议关注台积电是否会在下半年调整定价策略。"
+      "implication": "这对你的Agent项目是重要参考：在构建content-curator时，应该内置类似的安全机制——限制Agent访问敏感数据、设置操作白名单、实现人工审核回路。建议研究OpenAI Lockdown Mode的实现原理，将其作为你项目安全设计的基线。同时，提示注入是Agent开发中最容易被忽视的风险，务必在早期就纳入防御。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI",
-      "title": "Anthropic：Claude现在编写超过80%的合并代码，警告递归自我改进风险",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code",
+      "domain": "AI 算力 / 半导体",
+      "title": "Huawei-led team post-trained DeepSeek 1.6T model on 1,000 Ascend 910C chips",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-led-team-claims-it-post-trained-deepseeks-1-6-trillion-parameter-models-on-ascend-910c-chips",
       "source": "Tom's Hardware",
-      "one_liner": "Anthropic内部报告显示Claude已主导自身代码编写，同时呼吁建立前沿AI暂停机制——既是技术里程碑也是IPO前的风险提示。"
-    },
-    {
-      "domain": "AI",
-      "title": "NSA被曝使用Anthropic Mythos进行网络攻击，6名Anthropic工程师嵌入该机构",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nsa-using-clause-mythos-for-offensive-cyber-operations-report-claims-says-half-a-dozen-anthropic-engineers-embedded-inside-the-agency",
-      "source": "Tom's Hardware",
-      "one_liner": "AI军事化应用加速，Anthropic与NSA的合作可能影响其IPO合规审查。"
-    },
-    {
-      "domain": "AI",
-      "title": "Reid Hoffman离开微软董事会，全职投入AI药物发现初创Manus",
-      "url": "https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/",
-      "source": "TechCrunch",
-      "one_liner": "LinkedIn联合创始人从微软董事会抽身，All in AI+生物——信号：AI制药赛道正在吸引顶级人才。"
-    },
-    {
-      "domain": "AI",
-      "title": "Google将每月向SpaceX支付9.2亿美元算力费",
-      "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
-      "source": "TechCrunch",
-      "one_liner": "Google成为SpaceX算力租赁第二大客户，显示云巨头对GPU的渴求已突破传统供应商边界。"
+      "one_liner": "国产替代里程碑：华为用1000块Ascend 910C完成DeepSeek 1.6万亿参数模型后训练，证明国产芯片集群可行性。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia RTX Spark正式发布：面向个人电脑的AI芯片",
+      "title": "Nvidia RTX Spark announced for personal computers",
       "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
       "source": "Nvidia",
-      "one_liner": "Nvidia将AI推理能力带入PC端，RTX Spark系列可能改变本地AI部署格局——你的下一台笔记本可能自带专用AI核。"
+      "one_liner": "Nvidia发布RTX Spark个人AI芯片，将AI算力引入桌面端，与微软Surface Laptop Ultra深度整合。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "微软推出NVIDIA版Surface Laptop Ultra，对标MacBook Pro",
-      "url": "https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/",
-      "source": "Windows Latest",
-      "one_liner": "微软首次在Surface中搭载NVIDIA GPU，AI PC战事升级——对开发者意味着本地运行大模型成为可能。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "行业联盟敦促特朗普政府解决AI数据中心导致的内存芯片短缺",
+      "title": "Industry coalition warns AI data centers causing memory chip shortage",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/industry-coalition-urges-trump-administration-to-take-urgent-action-as-ai-data-centers-extreme-memory-consumption-threatens-other-industries-ai-driven-memory-chip-shortage-could-raise-prices-in-automotive-medical-telecommunications-sectors",
       "source": "Tom's Hardware",
-      "one_liner": "9家美国贸易协会警告AI数据中心正在吞噬DRAM产能，汽车、医疗等行业面临芯片涨价——这是你买不到便宜内存的深层原因。"
+      "one_liner": "9个美国贸易协会联合呼吁政府干预AI数据中心导致的DRAM短缺，警告汽车、医疗等行业将面临涨价。"
     },
     {
-      "domain": "股票",
-      "title": "SpaceX IPO获超额认购，预计6月12日开盘交易",
-      "url": "https://wallstreetcn.com/articles/3774001",
-      "source": "华尔街见闻",
-      "one_liner": "史上最大IPO进入倒计时，但散户入场门槛已降至2000美元——注意估值泡沫风险。"
-    },
-    {
-      "domain": "股票",
-      "title": "S&P拒绝为SpaceX等超级IPO修改指数快速纳入规则",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
-      "source": "Bloomberg",
-      "one_liner": "SpaceX无法立即纳入标普500，被动基金不会被迫接盘——短期抛压可能来自散户获利了结。"
-    },
-    {
-      "domain": "股票",
-      "title": "美国5月科技行业裁员38,242人，AI是最主要原因",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tech-sector-cut-us-jobs-by-38242-in-may",
+      "domain": "AI 算力 / 半导体",
+      "title": "Lexar manager says RAM prices expected to double by end of 2026",
+      "url": "https://www.tomshardware.com/pc-components/ram/lexar-regional-manager-says-that-ram-prices-are-expected-to-double-by-the-end-of-the-year-discounts-and-stabilized-prices-result-from-distributors-getting-rid-of-old-stock-or-sourcing-products-from-other-regions",
       "source": "Tom's Hardware",
-      "one_liner": "AI替代效应开始显性化，信息业岗位自2022年峰值已净流失超30万个——你的职业规划需要考虑AI原生技能。"
+      "one_liner": "Lexar高管预测年底内存价格翻倍，当前降价只是清库存，AI需求将持续推高价格。"
     },
     {
-      "domain": "股票",
-      "title": "特朗普表态支持美国政府持有顶级AI公司股权，考虑向公众分配收益",
-      "url": "https://wallstreetcn.com/articles/3774004",
-      "source": "华尔街见闻",
-      "one_liner": "\"AI全民红利\"从韩国传到美国，但前白宫AI主管Sacks警告这可能导致\"国有化\"风险。"
+      "domain": "AI 算力 / 半导体",
+      "title": "Seattle passes one-year AI data center moratorium",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/seattle-to-pass-one-year-ai-data-center-moratorium-next-week-will-use-window-to-study-community-impact-of-ai-buildouts",
+      "source": "Tom's Hardware",
+      "one_liner": "西雅图通过一年期AI数据中心建设禁令，研究社区影响，反映AI基建引发的社会反弹。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Supabase估值8个月翻倍至100亿美元，受益于AI编程工具生态",
+      "title": "Google to pay SpaceX $920M per month for compute",
+      "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "source": "TechCrunch",
+      "one_liner": "Google每月向SpaceX支付9.2亿美元算力租赁费，AI算力需求已催生天价基础设施合同。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Reid Hoffman leaves Microsoft board to focus on AI drug discovery startup Manus",
+      "url": "https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/",
+      "source": "TechCrunch",
+      "one_liner": "LinkedIn联合创始人离开微软董事会，全职投入AI药物发现创业，标志AI+生物技术赛道升温。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Supabase doubles valuation to $10B in 8 months, boosted by AI coding tools",
       "url": "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/",
       "source": "TechCrunch",
-      "one_liner": "开源BaaS平台因Claude Code/Codex等AI编程工具的普及而爆发——你的Side Project后端可以优先考虑Supabase。"
+      "one_liner": "开源BaaS平台Supabase估值8个月翻倍至100亿美元，受益于Claude Code、Codex等AI编程工具生态。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Airbnb CEO Brian Chesky计划成立新AI实验室",
-      "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
-      "source": "TechCrunch",
-      "one_liner": "非传统AI公司也开始自建AI研发能力，说明AI人才争夺战从大厂蔓延至各行业。"
+      "title": "Meta AI app creates its own clickbait news feed with AI-generated articles",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+      "source": "The Verge",
+      "one_liner": "Meta AI应用推出AI生成点击诱饵文章信息流，内容质量堪忧，但用户增长迅猛。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "Google Gemini CLI将于6月18日停止服务，迁移至Antigravity CLI",
-      "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
-      "source": "Google Developers Blog",
-      "one_liner": "如果你在用Gemini CLI做自动化脚本，只剩两周迁移时间——注意检查Antigravity CLI的兼容性。"
-    },
-    {
-      "domain": "金融",
-      "title": "美国5月非农超预期，利率互换市场完全定价年内加息",
-      "url": "https://wallstreetcn.com/articles/3774008",
+      "domain": "股票",
+      "title": "博通CEO：与OpenAI定制AI芯片进展顺利，未来两年营收将翻倍",
+      "url": "https://wallstreetcn.com/articles/3774025",
       "source": "华尔街见闻",
-      "one_liner": "高盛放弃降息预测，花旗成为唯一仍坚持年内降息三次的投行——宏观环境对高估值科技股不利。"
+      "one_liner": "博通确认与OpenAI合作AI芯片今年量产，深度绑定谷歌TPU抗衡英伟达，预计两年内营收新增超500亿美元。"
+    },
+    {
+      "domain": "股票",
+      "title": "阿波罗、黑石和博通联手为Anthropic融资350亿美元租赁谷歌TPU",
+      "url": "https://wallstreetcn.com/articles/3774013",
+      "source": "华尔街见闻",
+      "one_liner": "史上最大芯片融资：SPV架构募资350亿美元，博通提供信用背书，用于Anthropic向谷歌租赁TPU。"
+    },
+    {
+      "domain": "股票",
+      "title": "中国央行连续19个月增持黄金，5月增持量加速至32万盎司",
+      "url": "https://wallstreetcn.com/articles/3774030",
+      "source": "华尔街见闻",
+      "one_liner": "央行黄金增持量从2月3万盎司升至5月32万盎司，去美元化趋势加速，金价稳守4400美元。"
+    },
+    {
+      "domain": "股票",
+      "title": "债券巨头买入债券为AI泡沫破裂做准备",
+      "url": "https://wallstreetcn.com/articles/3774027",
+      "source": "华尔街见闻",
+      "one_liner": "DoubleLine和Oaktree开始布局防御性债券，认为AI公司持续烧钱将导致泡沫破裂，寻找能存活的结构性标的。"
+    },
+    {
+      "domain": "股票",
+      "title": "S&P拒绝为SpaceX修改指数快速纳入规则",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
+      "source": "Bloomberg",
+      "one_liner": "S&P维持现有指数纳入规则，SpaceX等超级IPO无法快速进入指数，被动基金配置受限。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-06T07:32:46+0000"
+    "scored_at": "2026-06-07T07:49:36+0000"
   }
 }
