@@ -1,48 +1,65 @@
 # Curio · 股票 · 2026-06-07
 
-> 今日 1 条头条 + 5 条备选
+> 今日 2 条头条 + 4 条备选
 
-_本周最重磅信号：SpaceX下周四IPO定价1.77万亿美元，但Morningstar估值仅一半，散户入场门槛降至2000美元；Anthropic同日递交IPO文件，AI公司上市潮全面开启。同时，ChatGPT将迎最大改版，从聊天机器人转型为集成编程与Agent的超级应用。市场方面，非农超预期引发全球风险资产去杠杆，纳指单日暴跌4%，警惕6月变盘点。_
+_本周最重磅信号：SpaceX IPO 定价 1.77 万亿美元，下周登陆纳斯达克，同时 OpenAI 和 Anthropic 也在冲刺 IPO，AI 资本化进入高潮。但周五美股大跌 4%，芯片股领跌，SemiAnalysis 报告重创美光，AI 泡沫争论再起。你的 content-curator 项目可以关注 Anthropic 的 Claude 自写代码比例超 80% 这一工程细节，以及 Claude Code 新出的 Ultracode 多 Agent 并行模式。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. SpaceX下周四上市，募资750亿美元创历史纪录，散户入场门槛降至2000美元
+### 1. SpaceX 定价 1.77 万亿美元 IPO，下周登陆纳斯达克
 
-**[股票]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
+**[股票]** · ⭐⭐⭐⭐⭐ · _CNBC_
 
-SpaceX将于6月11日登陆纳斯达克，定价1.77万亿美元，募资750亿美元为史上最大IPO。Fidelity将散户最低投资额从50万降至2000美元，但Morningstar估值仅7800亿，仅为IPO目标的一半。同时Anthropic也递交了IPO文件，AI公司上市潮全面开启。
+SpaceX 将于 6 月 8 日当周上市，募资 750 亿美元创历史纪录。Fidelity 将入场门槛从 50 万降至 2000 美元，散户也能参与。但 Morningstar 估值仅 7800 亿，仅为 IPO 目标的一半，争议巨大。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| SpaceX IPO定价1.77万亿美元，6月11日纳斯达克上市 | 1.77万亿估值是否合理？Morningstar认为仅值一半，但市场认购热情可能推高 |
-| 募资750亿美元，创历史最大IPO纪录 | 散户蜂拥入场后是否成为接盘侠？历史经验表明超级IPO首日涨幅有限 |
-| Fidelity将散户最低投资额从50万美元降至2000美元 | Anthropic IPO定价尚未公布，但可能对标OpenAI估值 |
-| Anthropic于6月1日递交IPO文件 | AI公司集中上市是否意味着行业泡沫顶点？ |
-| Morningstar估值SpaceX为7800亿美元，仅为IPO目标一半 | 特朗普政府可能通过政策影响SpaceX估值 |
-| S&P拒绝为超级IPO修改指数快速纳入规则 |  |
+| SpaceX 定价 1.77 万亿美元，募资 750 亿美元 | Morningstar 估值 7800 亿 vs IPO 定价 1.77 万亿，谁更合理？ |
+| 6 月 8 日当周在纳斯达克上市，代码 SPACE | SpaceX 2025 年亏损，算力租赁 ARR 260 亿美元能否支撑估值？ |
+| Fidelity 将散户最低投资额降至 2000 美元 | 散户热情 vs 机构质疑，首日表现可能剧烈波动 |
+| S&P 拒绝为 mega-cap IPO 修改快速纳入规则 | 特朗普政府可能通过政策影响 SpaceX 估值 |
 
 **📖 主编点评**
 
-如果你在考虑参与SpaceX IPO，建议谨慎：Morningstar估值仅为IPO一半，且公司债务高企、盈利前景不明。Fidelity降低门槛意味着散户可能成为退出流动性。更值得关注的是Anthropic IPO——作为Claude的母公司，它与你的Agent项目直接相关，建议跟踪其S-1文件中的技术路线和营收结构。
+你不需要买 SpaceX 股票，但它的 IPO 是 AI 算力需求的风向标。关注其算力租赁业务（与 Anthropic、谷歌的合同）的 ARR 增长，这比火箭发射更能反映 AI 基础设施的真实需求。你的 content-curator 项目可以跟踪这类算力经济数据。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3773936)
+📺 [打开原文](https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html)
+
+---
+
+### 4. ChatGPT 最大改版：从聊天机器人转型为集成编程和 Agent 的超级应用
+
+**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+OpenAI 正筹划 ChatGPT 发布以来最大改版，将其从聊天机器人转型为集成编程工具和 AI Agent 的超级应用。这标志着 OpenAI 从消费端转向企业端，与 Anthropic 策略趋同，也将成为其年内 IPO 的核心叙事。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| ChatGPT 将集成编程工具和 AI Agent 功能 | 改版后是否保持免费层？ |
+| 改版是发布以来最大规模 | 与 Claude Code、Cursor 的竞争格局如何？ |
+| OpenAI 正在准备 IPO 文件 | 企业端定价策略？ |
+| 转向企业端变现 | IPO 时间表是否受市场波动影响？ |
+
+**📖 主编点评**
+
+如果你正在用 Claude Code 做 content-curator，需要关注 ChatGPT 的编程能力是否足够好。建议保持工具多样性，不要绑定单一平台。同时，OpenAI 的 IPO 可能带来更多 API 降价或免费额度，可以等待时机。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3774032)
 
 ---
 
 ## 📋 备选阅读
 
-- [博通CEO：与OpenAI定制AI芯片进展顺利，未来两年营收将翻倍](https://wallstreetcn.com/articles/3774025) —— 博通确认与OpenAI合作AI芯片今年量产，深度绑定谷歌TPU抗衡英伟达，预计两年内营收新增超500亿美元。
+- [周五美股大跌 4%，芯片股领跌，SemiAnalysis 报告重创美光](https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html) —— 市场波动：非农数据超预期引发去杠杆，美光因 AI 需求降温报告暴跌 13%，注意风险。
+  _CNBC_
+- [博通 CEO：与 OpenAI 合作 AI 芯片今年量产，未来两年营收翻倍](https://wallstreetcn.com/articles/3774025) —— 算力需求依然强劲：博通确认 OpenAI 定制芯片进展，预计新增 500 亿美元营收，利好半导体。
   _华尔街见闻_
-- [阿波罗、黑石和博通联手为Anthropic融资350亿美元租赁谷歌TPU](https://wallstreetcn.com/articles/3774013) —— 史上最大芯片融资：SPV架构募资350亿美元，博通提供信用背书，用于Anthropic向谷歌租赁TPU。
+- [中国央行连续 19 个月增持黄金，5 月增持 32 万盎司](https://wallstreetcn.com/articles/3774030) —— 避险信号：央行加速增持黄金，月增量从 3 万升至 32 万盎司，地缘风险下黄金配置价值凸显。
   _华尔街见闻_
-- [中国央行连续19个月增持黄金，5月增持量加速至32万盎司](https://wallstreetcn.com/articles/3774030) —— 央行黄金增持量从2月3万盎司升至5月32万盎司，去美元化趋势加速，金价稳守4400美元。
+- [下周重磅日程：SpaceX 上市、苹果 WWDC、中美通胀数据](https://wallstreetcn.com/articles/3773936) —— 超级周预告：SpaceX IPO、WWDC、中美 CPI 将决定市场方向，建议提前做好仓位管理。
   _华尔街见闻_
-- [债券巨头买入债券为AI泡沫破裂做准备](https://wallstreetcn.com/articles/3774027) —— DoubleLine和Oaktree开始布局防御性债券，认为AI公司持续烧钱将导致泡沫破裂，寻找能存活的结构性标的。
-  _华尔街见闻_
-- [S&P拒绝为SpaceX修改指数快速纳入规则](https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation) —— S&P维持现有指数纳入规则，SpaceX等超级IPO无法快速进入指数，被动基金配置受限。
-  _Bloomberg_
 
 ---
 
