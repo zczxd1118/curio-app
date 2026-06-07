@@ -2,14 +2,14 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-06-06T06:35:54.042132+00:00",
+  "fetched_at": "2026-06-07T07:11:34.692396+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 20,
-    "HN · stock market": 15,
+    "HN · stock market": 18,
     "HN · IPO": 22,
     "HN · earnings": 0,
     "HN · Federal Reserve": 0,
@@ -18,8 +18,184 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 75,
+  "total": 78,
   "items": [
+    {
+      "id": "wscn:3774033",
+      "title": "张忆东：警惕6月10-18日变盘点！6-8月“夏日寒风”，活着最重要、勿加杠杆；快则8月慢则9月，恒科恒指有望随A股迎主升浪",
+      "url": "https://wallstreetcn.com/articles/3774033",
+      "summary": "今年9月直到2028年，有可能是这一轮牛市真正的扩散和高潮期。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-07T07:02:08+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3774032",
+      "title": "\"聊天已死\"！ChatGPT最大改版来了，OpenAI要造\"超级应用\"",
+      "url": "https://wallstreetcn.com/articles/3774032",
+      "summary": "OpenAI正筹划ChatGPT发布以来最大改版，将其从聊天机器人转型为集成编程工具和AI智能体的\"超级应用\"。此次转型标志着OpenAI从消费端\"造梦\"转向企业端\"赚钱\"，与竞争对手Anthropic的策略趋同，也将成为其年内IPO的核心叙事。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-07T04:45:29+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3774031",
+      "title": "无论如何，不要“无视”周五的大跌",
+      "url": "https://wallstreetcn.com/articles/3774031",
+      "summary": "知名财经博客QTR's Fringe Finance撰文警告：不要把这次下跌当作又一个逢跌买入的机会。当前的估值水平、美联储的处境以及市场结构的脆弱性，与过去15年投资者习惯的\"每跌必救\"环境已经完全不同。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-07T04:20:35+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3774029",
+      "title": "高盛金属主管谈“金银铜铝”：金银承压，铜有风险，铝最确定",
+      "url": "https://wallstreetcn.com/articles/3774029",
+      "summary": "高盛金属交易主管Tony Kim直言，机构净抛售逾400亿美元，金价却稳守4400美元，这恰恰证明黄金\"完成了使命\"，但突破6000美元仍是\"巨大挑战\"。铜价被AI叙事与关税预期双重推高，库存却创五年新高，多头逻辑\"难以深信\"；铝因中东冲突摧毁大量冶炼厂，供需缺口最为清晰，短期或上探4000美元。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-07T04:00:55+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3774028",
+      "title": "伊战已打100天了，为何油价没有飞天，后续还会不会飞天？",
+      "url": "https://wallstreetcn.com/articles/3774028",
+      "summary": "需求端收缩的同时供给端展现出意外的弹性，共同将油价从美伊冲突初期的140美元上方拉回100美元以下。不过，太平洋投资管理大宗商品投资负责人Greg Sharenow认为，缓冲可能在未来几个月内耗尽——届时，即便相对较小的供应中断，也足以触发剧烈的价格飙升。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-07T03:14:58+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3774023",
+      "title": "非农只是导火索：风险资产大跌背后的去杠杆链条",
+      "url": "https://wallstreetcn.com/premium/articles/3774023?layout=wscn-layout",
+      "summary": "强劲非农数据触发全球风险资产去杠杆集中释放，后续关键看这一趋势是否持续扩散。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-07T02:46:43+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773964",
+      "title": "5%赎回上限再现：私募信贷流动性压力又来了？",
+      "url": "https://wallstreetcn.com/premium/articles/3773964?layout=wscn-layout",
+      "summary": "私募信贷赎回潮再起，多家机构触发5%上限，流动性压力持续，底层资产恶化和违约率创新高。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-07T02:37:07+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3770375",
+      "title": "出海新亮点：军贸放量，叠加新质战力，三大主线拐点打开",
+      "url": "https://wallstreetcn.com/premium/articles/3770375?layout=wscn-layout",
+      "summary": "全球军贸格局正在深刻重塑。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-07T02:36:11+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3774030",
+      "title": "中国央行加速增持黄金！连续19个月增持，5月环比增加32万盎司",
+      "url": "https://wallstreetcn.com/articles/3774030",
+      "summary": "数据显示，央行黄金储备的单月增持量从2月的3万盎司逐步攀升至5月的32万盎司，增持幅度持续加大。5月，外汇储备规模为34422.38亿美元，黄金储备的美元估值报3407.52亿美元。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-07T02:04:38+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3773936",
+      "title": "下周重磅日程：SpaceX上市、苹果WWDC大会、中美通胀数据",
+      "url": "https://wallstreetcn.com/articles/3773936",
+      "summary": "SpaceX将登陆纳斯达克，募资750亿美元创历史纪录，马斯克距万亿富豪仅一步之遥。苹果WWDC开发者大会被视为“AI兑现时刻”，升级版Siri与折叠屏iPhone或亮相。智谱、MiniMax预计将被纳入恒生科技指数。宏观方面，中美通胀、中国进出口数据出炉，欧央行或转向加息。此外，甲骨文财报出炉，世界杯开幕。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-07T01:37:11+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3774027",
+      "title": "债券巨头买入债券，为AI泡沫破裂做准备",
+      "url": "https://wallstreetcn.com/articles/3774027",
+      "summary": "信用债巨头DoubleLine Capital和Oaktree Capital正在为AI泡沫可能的破裂提前布局，买入能在深度信贷周期中存活的债券。DoubleLine Capital基金经理Robert Cohen认为，随着科技公司持续向AI倾注巨资，未来数月或数年内无疑将达到泡沫水平，投资者需要寻找那些通过结构性安排或强大资产负债表就能存活的标的。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-07T01:36:19+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3774025",
+      "title": "亮眼财报后股价大跌？博通CEO：永远不关心股价，死磕技术客户就不会跑，看好“博通-谷歌-Anthropic”铁三角",
+      "url": "https://wallstreetcn.com/articles/3774025",
+      "summary": "博通CEO首度确认与OpenAI合作的定制AI芯片进展顺利，无需微软批准，将于“今年晚些时候投入量产”；同时透露博通深度绑定谷歌TPU以抗衡英伟达，并因押注Anthropic获得惊人技术回报。基于AI算力“贪得无厌”的需求，陈福阳预计公司未来两年营收将翻倍新增超500亿美元，明确表示当下将专注内生增长，暂不考虑并购重组。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-06T11:57:32+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3774024",
+      "title": "东吴商社吴劲草：消费正在磨底，不直接V型反转；品牌出海或是未来最重要的成长主线",
+      "url": "https://wallstreetcn.com/premium/articles/3774024?layout=wscn-layout",
+      "summary": "卖便宜没有门槛，卖得贵才是能力。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-06T10:50:35+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3774021",
+      "title": "谁在撒谎？这家顶级风投把Altman这些硅谷大佬聚在一起，办了场“狼人杀”真人秀",
+      "url": "https://wallstreetcn.com/articles/3774021",
+      "summary": "不聊AI与融资，硅谷千亿大佬竟组局玩起“狼人杀”？顶级VC操刀的这档真人秀《MAFIA》，在镜头下的美国版本的狼人杀，实为一场高压下的“人格显影实验”，Sam Altman像分析AI模型一样拆解每个人的发言逻辑，牌桌上的极限交锋，尽显他们制胜商业的底层基因。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-06T09:42:14+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3774016",
+      "title": "合计700亿美元！SpaceX先后与Anthropic和谷歌签下大单，“算力租赁”ARR高达260亿美元",
+      "url": "https://wallstreetcn.com/articles/3774016",
+      "summary": "SpaceX相继与Anthropic（每月12.5亿美元）和谷歌（每月9.2亿美元）签署算力租赁协议。此举为其计划融资750亿美元的IPO提供强劲支撑。但同时，旗下xAI实验室正面临核心人才流失与研发受挫等挑战，引发外界对其自主AI研发能力的质疑。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-06T08:45:34+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3774022",
+      "title": "吴清：公募基金要坚决遏制赌押赛道、风格漂移、高位发行等顽疾",
+      "url": "https://wallstreetcn.com/articles/3774022",
+      "summary": "中国证监会主席吴清表示，当前公募基金改革迎来了“棋至中盘”的关键节点，行业声誉有所回升，必须要毫不放松、再接再厉，持续巩固拓展改革发展成果。要强化利益绑定，在公司治理、产品发行、投资运作、绩效考核等各个方面落实好监管新规和改革要求，提升投资运作稳健性，增强逆周期思维，努力为投资者创造更可持续的中长期收益，坚决遏制赌押赛道、风格漂移、高位发行等顽疾，更不能回到“冲规模、赚快钱”的老路上去。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-06T07:10:23+00:00",
+      "points": 0
+    },
     {
       "id": "wscn:3774019",
       "title": "普京：泽连斯基“粗鲁无礼”，会面“没有任何意义”",
@@ -43,14 +219,14 @@
       "points": 0
     },
     {
-      "id": "wscn:3774016",
-      "title": "合计700亿美元！SpaceX先后与Anthropic和谷歌签下大单，“算力租赁”ARR高达260亿美元",
-      "url": "https://wallstreetcn.com/articles/3774016",
-      "summary": "SpaceX相继与Anthropic（每月12.5亿美元）和谷歌（每月9.2亿美元）签署算力租赁协议。此举为其计划融资750亿美元的IPO提供强劲支撑。但同时，旗下xAI实验室正面临核心人才流失与研发受挫等挑战，引发外界对其自主AI研发能力的质疑。",
+      "id": "wscn:3773871",
+      "title": "硅片行业的“结构性牛市”：AI芯片“喂饱”硅片巨头，国产硅片迎来黄金窗口",
+      "url": "https://wallstreetcn.com/premium/articles/3773871?layout=wscn-layout",
+      "summary": "硅片涨价真相：不是全面短缺，而是“冰火两重天”。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-06T03:05:37+00:00",
+      "published_at": "2026-06-06T03:22:14+00:00",
       "points": 0
     },
     {
@@ -65,182 +241,6 @@
       "points": 0
     },
     {
-      "id": "wscn:3774015",
-      "title": "美军打击伊朗目标，巴林、科威特拉响防空警报，特朗普坚称将很快从伊朗战事中“脱身”",
-      "url": "https://wallstreetcn.com/articles/3774015",
-      "summary": "美伊冲突持续升温，巴林、科威特相继拉响全国防空警报，美军击落4架伊朗无人机并空袭其沿海雷达站，伊朗导弹反击科威特、巴林美军基地。然而，特朗普声称将\"很快脱身\"，称伊朗军事力量已被\"彻底摧毁\"，但停火协议仍悬而未决。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-06T02:12:18+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774007",
-      "title": "黑色星期五！“人人赚钱”的全球AI大牛市遭遇“当头棒喝”",
-      "url": "https://wallstreetcn.com/articles/3774007",
-      "summary": "周五强劲非农数据引爆加息忧虑，而本周博通财报指引失望，已经刺破\"AI受益股坚不可摧\"神话，此外谷歌增发、Meta跟进融资传闻及SpaceX IPO预期叠加，引发资金虹吸效应。持续两个月的全球AI大牛市遭遇当头棒喝，周五费城半导体指数暴跌逾10%，单日市值蒸发逾1万亿美元。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-06T01:44:38+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774010",
-      "title": "美联储今年还会降息吗？整个华尔街只有1家投行还“坚持”：花旗",
-      "url": "https://wallstreetcn.com/articles/3774010",
-      "summary": "花旗仍预测年内将降息三次，认为当前就业强势难以持续，未来三个月劳动力市场将趋于疲软，届时将\"重新定价降息可能性，而非加息概率\"。强劲非农数据之后，目前利率互换市场已完全定价年内加息。华尔街主要投行纷纷放弃降息预测，部分转而预测加息。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-06T01:35:27+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774011",
-      "title": "90亿元“弹药”加码国际业务，国泰海通的下一个大动作",
-      "url": "https://wallstreetcn.com/articles/3774011",
-      "summary": "增资国泰海通金融控股",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-06T01:33:35+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773992",
-      "title": "勿用长期慢变量论证短期经济现象 | 余永定解读见证失衡1",
-      "url": "https://wallstreetcn.com/premium/articles/3773992?layout=wscn-layout",
-      "summary": "经济现象必须按领域、时间维度和性质进行严格归类，不同问题应运用不同政策工具，不能混为一谈",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-06T01:17:13+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774009",
-      "title": "美国就业：碳基和硅基的两重天",
-      "url": "https://wallstreetcn.com/articles/3774009",
-      "summary": "据国联民生，美国就业数据表面企稳，内里暗流涌动。信息业岗位自2022年峰值已净流失逾30万个，AI替代裁员占比突破20%，高学历青年就业规模骤降16%。但当前冲击仍以\"压制新增招聘\"为主，结构性重于总量性。长线预警更甚：智能体AI的落地将使影响从单纯“替代任务”跃升至端到端“替代岗位”，一场渐进的劳动力重构与“无就业繁荣”已然逼近。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-06T01:12:14+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774008",
-      "title": "强劲非农后，高盛“投降”：不再预计美联储今年降息",
-      "url": "https://wallstreetcn.com/articles/3774008",
-      "summary": "高盛认为，关税、高油价及AI需求三重推力将使2026年核心PCE通胀维持在3%以上，美联储缺乏降息紧迫感，因此放弃今年降息预期，将最后两次降息时间推迟至2027年6月和12月，同时将加息概率从10%上调至20%，并认为\"维持利率不变\"是合理替代方案。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-06T00:57:54+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774006",
-      "title": "大跌之夜，高盛合伙人喊“抄底”：今年这种买入的机会并不多",
-      "url": "https://wallstreetcn.com/articles/3774006",
-      "summary": "美股周五标普大跌2.6%，费城半导体指数暴跌逾10%，单日蒸发逾万亿美元。高盛美洲股票执行服务主管John Flood认为，认为此次回调本质是获利了结，属于历史上通常能回报买家的健康调整。他强调，标普500回调2%时买入往往有回报，这类机会全年难得。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-06T00:41:28+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774003",
-      "title": "币圈惨烈！比特币破6万美元，以太坊暴跌超10%，Strategy遭空头围猎",
-      "url": "https://wallstreetcn.com/articles/3774003",
-      "summary": "比特币本周暴跌16%，最低触及59,099美元，为2024年10月以来最低水平。核心原因是Strategy抛售与强劲非农数据推高美债收益率。比特币\"数字黄金\"与\"科技贝塔\"双重叙事同步瓦解，近期与美股新高走势严重背离。期权市场上针对Strategy的空头交易急剧升温，做空ETF近期上涨30%。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-05T23:54:08+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774004",
-      "title": "美国版“AI全民红利”？特朗普表态支持美国政府持有顶级AI公司股权",
-      "url": "https://wallstreetcn.com/articles/3774004",
-      "summary": "特朗普表示有意让美国政府持有顶级AI公司股权，并考虑向公众再分配收益。美国参议员Sanders也提出立法要求AI公司移交50%股权设立主权财富基金，但前白宫AI主管Sacks警告政府介入将引发\"国家化\"风险。此前韩国官员提议设立\"公民红利\"分享AI超额利润。AI扩张带来的电价上涨与就业压力，正将民众焦虑转化为政治诉求。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-05T23:46:56+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774005",
-      "title": "华尔街见闻早餐FM-Radio | 2026年6月6日",
-      "url": "https://wallstreetcn.com/articles/3774005",
-      "summary": "五分钟看懂全球市场，尽在财经早餐。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-05T23:42:55+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774002",
-      "title": "科技股暴跌与比特币重挫，SpaceX上市前夕散户资金面临终极考验",
-      "url": "https://wallstreetcn.com/articles/3774002",
-      "summary": "强劲非农数据打消降息预期，高估值资产全线承压。SpaceX史上最大IPO计划恰逢此时，前景添变数。数据显示散户现金储备已降至历史低位，且需与加密货币、AI概念股等众多投机标的争夺同一资金池。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-05T23:33:56+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774000",
-      "title": "“区区”17万的非农 凭什么让美股蒸发万亿！？",
-      "url": "https://wallstreetcn.com/premium/articles/3774000?layout=wscn-layout",
-      "summary": "就业数字暂时还撑着，但它是滞后指标——等它真正倒下的时候，衰退通常已经发生了。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-05T23:33:43+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774001",
-      "title": "报道：SpaceX IPO获超额认购，预计6月12日开盘交易",
-      "url": "https://wallstreetcn.com/articles/3774001",
-      "summary": "据媒体报道，马斯克旗下SpaceX认购订单已超可发行股份总量，预计6月11日定价，次日开盘交易，但目前仍处于路演早期阶段，相关细节仍可能发生变化。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-05T23:00:18+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773990",
-      "title": "“白宫股神”再吹票：特朗普：两房市值可达1万亿美元",
-      "url": "https://wallstreetcn.com/articles/3773990",
-      "summary": "周五美股盘初，房利美一度上涨10.4%，房地美一度上涨9.7%，随后大幅回落，最终房利美收跌0.74%，房地美收跌1.16%。此前英特尔、美光、戴尔等市场热门股大涨背后都有特朗普持仓或公开表态，市场对特朗普表态高度关注。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-05T22:46:15+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3773999",
-      "title": "迈威尔科技与Flex将被纳入标普500",
-      "url": "https://wallstreetcn.com/articles/3773999",
-      "summary": "本次变动将于6月22日周一美股开盘时生效，届时Campbell's与Pool Corp将同步从指数中移除。纳入标普500意味着触达更广泛的投资群体，涵盖追踪该指数的被动基金，以及在投资范围上存在限制的主动基金。Marvell盘后股价上涨6%，Flex上涨4%。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-05T22:26:56+00:00",
-      "points": 0
-    },
-    {
       "id": "hn:48364055",
       "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
       "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
@@ -252,8 +252,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48364055"
       },
       "duration_sec": null,
-      "views": 717,
-      "comments": 1265,
+      "views": 719,
+      "comments": 1266,
       "published_at": "2026-06-01T23:45:46+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -374,25 +374,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:48254524",
-      "title": "Reddit stock drops almost 6%, Meta launches standalone app for online forums",
-      "url": "https://www.cnbc.com/2026/05/22/reddit-stock-drops-after-meta-launches-forum-app.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48254524",
-        "name": "1vuio0pswjnm7",
-        "hn_url": "https://news.ycombinator.com/item?id=48254524"
-      },
-      "duration_sec": null,
-      "views": 21,
-      "comments": 1,
-      "published_at": "2026-05-24T04:58:51+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
       "id": "hn:48383625",
       "title": "Dell inks $9.7B Pentagon contract after Trump acquires stock",
       "url": "https://www.washingtonpost.com/politics/2026/05/28/dell-inks-97-billion-pentagon-contract-after-trump-acquires-stock-praises-company/",
@@ -431,6 +412,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48419956",
+      "title": "Nasdaq falls 4% and suffers worst day since April 2025 traders flee chip stocks",
+      "url": "https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48419956",
+        "name": "rawgabbit",
+        "hn_url": "https://news.ycombinator.com/item?id=48419956"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 4,
+      "published_at": "2026-06-06T00:02:38+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:48261390",
       "title": "Show HN: My homelab is outperforming the stock market",
       "url": "https://stocks.sjer.red",
@@ -445,6 +445,44 @@
       "views": 14,
       "comments": 4,
       "published_at": "2026-05-24T21:54:06+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48304589",
+      "title": "SpaceX IPO: Did Musk Rig the Stock Market? [video]",
+      "url": "https://www.youtube.com/watch?v=sYA-z0Y8WRQ",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48304589",
+        "name": "mgh2",
+        "hn_url": "https://news.ycombinator.com/item?id=48304589"
+      },
+      "duration_sec": null,
+      "views": 13,
+      "comments": 0,
+      "published_at": "2026-05-28T04:42:25+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48377119",
+      "title": "Short Seller (Andrew Left) Convicted for $21M Stock Market Manipulation Scheme",
+      "url": "https://www.justice.gov/opa/pr/activist-short-seller-convicted-21m-stock-market-manipulation-scheme",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48377119",
+        "name": "gnabgib",
+        "hn_url": "https://news.ycombinator.com/item?id=48377119"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 2,
+      "published_at": "2026-06-02T22:19:48+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -526,6 +564,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48315925",
+      "title": "Dell Gets a $9.7B Defense Contract. Trump's Portfolio Stands to Benefit",
+      "url": "https://www.nytimes.com/2026/05/28/us/politics/trump-dell-stock-purchases.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48315925",
+        "name": "spankibalt",
+        "hn_url": "https://news.ycombinator.com/item?id=48315925"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 0,
+      "published_at": "2026-05-28T21:42:12+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:48405718",
       "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
       "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
@@ -537,8 +594,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48405718"
       },
       "duration_sec": null,
-      "views": 976,
-      "comments": 492,
+      "views": 1048,
+      "comments": 509,
       "published_at": "2026-06-04T22:48:19+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -614,7 +671,7 @@
       },
       "duration_sec": null,
       "views": 141,
-      "comments": 121,
+      "comments": 120,
       "published_at": "2026-06-04T04:52:37+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -746,7 +803,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48391046"
       },
       "duration_sec": null,
-      "views": 28,
+      "views": 29,
       "comments": 7,
       "published_at": "2026-06-03T22:32:44+00:00",
       "summary": "",
@@ -823,7 +880,7 @@
       },
       "duration_sec": null,
       "views": 134,
-      "comments": 153,
+      "comments": 154,
       "published_at": "2026-06-02T10:09:21+00:00",
       "summary": "",
       "matched_keyword": "IPO",
