@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-07T07:11:47.520542+00:00",
+  "fetched_at": "2026-06-08T08:18:46.406838+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,13 +10,13 @@
   "source_stats": {
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
-    "HN · TSMC": 1,
+    "HN · TSMC": 2,
     "HN · Nvidia": 8,
     "HN · semiconductor": 5,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 34,
+  "total": 35,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/antenna-first-design-the-rf-shift-iot-cannot-avoid/",
+      "title": "Antenna-First Design: The RF Shift IoT Cannot Avoid",
+      "url": "https://www.eetimes.com/antenna-first-design-the-rf-shift-iot-cannot-avoid/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Senior Director of Engineering at Ignion",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T08:00:00+00:00",
+      "summary": "Wireless IoT devices are shrinking while adding bands and certification complexity. Antenna integration can't wait until after layout lock. The post Antenna-First Design: The RF Shift IoT Cannot Avoid appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/connectivity-revolution-or-evolution-inside-data-centers/",
+      "title": "Connectivity Revolution or Evolution Inside Data Centers?",
+      "url": "https://www.eetimes.com/connectivity-revolution-or-evolution-inside-data-centers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Teresa Monteiro and Rimlee Deb Roy",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T07:00:00+00:00",
+      "summary": "AI transforms intra-data center networking, accelerating optical innovation while extending decades-long evolution in high-performance connectivity. The post Connectivity Revolution or Evolution Inside Data Centers? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/geopolitics-ai-and-jensen-huang-fuel-electronics-rock-and-roll-era/",
       "title": "Geopolitics, AI, and Jensen Huang Fuel Electronics’ Rock-and-Roll Era",
       "url": "https://www.eetimes.com/geopolitics-ai-and-jensen-huang-fuel-electronics-rock-and-roll-era/",
@@ -325,37 +359,22 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/lpddr6-roadmap-leads-to-the-data-center/",
-      "title": "LPDDR6 Roadmap Leads to the Data Center",
-      "url": "https://www.eetimes.com/lpddr6-roadmap-leads-to-the-data-center/",
-      "platform": "rss",
+      "id": "hn:48430986",
+      "title": "TSMC CEO: I envy their 80% gross margins, but I would never do that",
+      "url": "https://www.thestreet.com/investing/stocks/tsmc-taiwan-semiconductor-ceo-sends-blunt-message-to-memory-chip-rivals",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
+        "type": "hackernews",
+        "id": "48430986",
+        "name": "teleforce",
+        "hn_url": "https://news.ycombinator.com/item?id=48430986"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-03T14:30:00+00:00",
-      "summary": "Low-power memory has evolved from its mobile device roots to meet the demands of AI data centers. The post LPDDR6 Roadmap Leads to the Data Center appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/taiwan-minister-emphasizes-collaboration-and-future-focus-on-photonics-wbg-and-quantum/",
-      "title": "Taiwan Minister Emphasizes Collaboration and Future Focus on Photonics, WBG, and Quantum",
-      "url": "https://www.eetimes.com/taiwan-minister-emphasizes-collaboration-and-future-focus-on-photonics-wbg-and-quantum/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-03T06:00:00+00:00",
-      "summary": "In an exclusive video interview, NSTC Minister Wu shares Taiwan's four-pillar shift from chipmaker to AI enabler. The post Taiwan Minister Emphasizes Collaboration and Future Focus on Photonics, WBG, and Quantum appeared first on EE Times.",
+      "views": 10,
+      "comments": 3,
+      "published_at": "2026-06-07T01:53:27+00:00",
+      "summary": "",
+      "matched_keyword": "TSMC",
       "lang": "en"
     },
     {
@@ -389,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48377404"
       },
       "duration_sec": null,
-      "views": 468,
+      "views": 470,
       "comments": 125,
       "published_at": "2026-06-02T22:55:33+00:00",
       "summary": "",
@@ -416,6 +435,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48424605",
+      "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
+      "url": "https://twitter.com/lemire/status/2062880075117113739",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48424605",
+        "name": "tosh",
+        "hn_url": "https://news.ycombinator.com/item?id=48424605"
+      },
+      "duration_sec": null,
+      "views": 325,
+      "comments": 540,
+      "published_at": "2026-06-06T12:52:18+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:48355720",
       "title": "Microsoft builds MacBook Pro rival with NVIDIA-powered Surface Laptop Ultra",
       "url": "https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/",
@@ -428,27 +466,8 @@
       },
       "duration_sec": null,
       "views": 286,
-      "comments": 652,
+      "comments": 653,
       "published_at": "2026-06-01T12:04:29+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48424605",
-      "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
-      "url": "https://twitter.com/lemire/status/2062880075117113739",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48424605",
-        "name": "tosh",
-        "hn_url": "https://news.ycombinator.com/item?id=48424605"
-      },
-      "duration_sec": null,
-      "views": 268,
-      "comments": 454,
-      "published_at": "2026-06-06T12:52:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -579,8 +598,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48431367"
       },
       "duration_sec": null,
-      "views": 30,
-      "comments": 13,
+      "views": 52,
+      "comments": 33,
       "published_at": "2026-06-07T03:00:52+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
@@ -606,20 +625,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:48063979",
-      "title": "When semiconductor materials misbehave",
-      "url": "https://semiengineering.com/when-semiconductor-materials-misbehave/",
+      "id": "hn:48439316",
+      "title": "Huawei executive credits bans for accelerating domestic chip independence",
+      "url": "https://www.techradar.com/pro/huaweis-chairman-officially-thanks-the-us-government-for-enabling-chinas-semiconductor-industry-chain-to-truly-grow",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "48063979",
-        "name": "PaulHoule",
-        "hn_url": "https://news.ycombinator.com/item?id=48063979"
+        "id": "48439316",
+        "name": "yogthos",
+        "hn_url": "https://news.ycombinator.com/item?id=48439316"
       },
       "duration_sec": null,
-      "views": 21,
-      "comments": 4,
-      "published_at": "2026-05-08T14:43:50+00:00",
+      "views": 20,
+      "comments": 0,
+      "published_at": "2026-06-07T22:38:25+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
       "lang": "en"

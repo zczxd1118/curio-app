@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-06-07T07:11:15.424076+00:00",
+  "fetched_at": "2026-06-08T08:18:14.966726+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -12,7 +12,7 @@
     "EE Times": 10,
     "AnandTech": 0,
     "Tom's Hardware": 30,
-    "HN · TSMC": 1,
+    "HN · TSMC": 2,
     "HN · Nvidia": 12,
     "HN · semiconductor": 5,
     "HN · ASML / EUV": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 69,
+  "total": 70,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/antenna-first-design-the-rf-shift-iot-cannot-avoid/",
+      "title": "Antenna-First Design: The RF Shift IoT Cannot Avoid",
+      "url": "https://www.eetimes.com/antenna-first-design-the-rf-shift-iot-cannot-avoid/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Senior Director of Engineering at Ignion",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T08:00:00+00:00",
+      "summary": "Wireless IoT devices are shrinking while adding bands and certification complexity. Antenna integration can't wait until after layout lock. The post Antenna-First Design: The RF Shift IoT Cannot Avoid appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/connectivity-revolution-or-evolution-inside-data-centers/",
+      "title": "Connectivity Revolution or Evolution Inside Data Centers?",
+      "url": "https://www.eetimes.com/connectivity-revolution-or-evolution-inside-data-centers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Teresa Monteiro and Rimlee Deb Roy",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T07:00:00+00:00",
+      "summary": "AI transforms intra-data center networking, accelerating optical innovation while extending decades-long evolution in high-performance connectivity. The post Connectivity Revolution or Evolution Inside Data Centers? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/geopolitics-ai-and-jensen-huang-fuel-electronics-rock-and-roll-era/",
       "title": "Geopolitics, AI, and Jensen Huang Fuel Electronics’ Rock-and-Roll Era",
       "url": "https://www.eetimes.com/geopolitics-ai-and-jensen-huang-fuel-electronics-rock-and-roll-era/",
@@ -333,37 +367,224 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/lpddr6-roadmap-leads-to-the-data-center/",
-      "title": "LPDDR6 Roadmap Leads to the Data Center",
-      "url": "https://www.eetimes.com/lpddr6-roadmap-leads-to-the-data-center/",
+      "id": "rss:https://www.tomshardware.com/pc-components/anycubic-photon-mono-4-dips-below-usd190-saving-you-21-percent-off-its-retail-price-amazon-deal-saves-usd50-on-this-entry-level-resin-3d-printer",
+      "title": "Anycubic Photon Mono 4 dips below $190 saving you 21% off its retail price — Amazon deal saves $50 on this entry-level resin 3D printer",
+      "url": "https://www.tomshardware.com/pc-components/anycubic-photon-mono-4-dips-below-usd190-saving-you-21-percent-off-its-retail-price-amazon-deal-saves-usd50-on-this-entry-level-resin-3d-printer",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-03T14:30:00+00:00",
-      "summary": "Low-power memory has evolved from its mobile device roots to meet the demands of AI data centers. The post LPDDR6 Roadmap Leads to the Data Center appeared first on EE Times.",
+      "published_at": "2026-06-07T14:22:50+00:00",
+      "summary": "The Anycubic Photon Mono 4 is on-sale at $189.99, giving you a $50 discount and saving you 21% off its retail price.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/taiwan-minister-emphasizes-collaboration-and-future-focus-on-photonics-wbg-and-quantum/",
-      "title": "Taiwan Minister Emphasizes Collaboration and Future Focus on Photonics, WBG, and Quantum",
-      "url": "https://www.eetimes.com/taiwan-minister-emphasizes-collaboration-and-future-focus-on-photonics-wbg-and-quantum/",
+      "id": "rss:https://www.tomshardware.com/monitors/msi-gigabyte-debut-new-5k-27-inch-mini-led-monitors-with-2-304-dimming-zones-and-glossy-panel-both-models-double-the-native-180-hz-refresh-rate-to-330-hz-at-1440p",
+      "title": "MSI, Gigabyte debut new 5K 27-inch Mini-LED monitors with 2,304 dimming zones and glossy panel — both models double the native 180 Hz refresh rate to 330 Hz at 1440p",
+      "url": "https://www.tomshardware.com/monitors/msi-gigabyte-debut-new-5k-27-inch-mini-led-monitors-with-2-304-dimming-zones-and-glossy-panel-both-models-double-the-native-180-hz-refresh-rate-to-330-hz-at-1440p",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-03T06:00:00+00:00",
-      "summary": "In an exclusive video interview, NSTC Minister Wu shares Taiwan's four-pillar shift from chipmaker to AI enabler. The post Taiwan Minister Emphasizes Collaboration and Future Focus on Photonics, WBG, and Quantum appeared first on EE Times.",
+      "published_at": "2026-06-07T14:19:42+00:00",
+      "summary": "New Mini-LED monitors from MSI and Gigabyte featuring 5K panels with 2,304 dimming zones and glossy coatings have just been announced. These feature dual- and even triple-mode support, along with full-fat DP 2.1 80 Gbps ports and high peak brightness numbers for HDR. They're also color-accurate enough for professional work.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/ukraines-birds-adapt-to-battlefield-environment-weaving-optical-fiber-nests-for-warmth-canny-feathered-friends-repurpose-scraps-of-this-spun-off-insulator-material",
+      "title": "Ukraine’s birds adapt to battlefield environment, weaving nests out of drone fiber-optic cables — resourceful wildlife adapts to miles of littered drone fibers",
+      "url": "https://www.tomshardware.com/networking/ukraines-birds-adapt-to-battlefield-environment-weaving-optical-fiber-nests-for-warmth-canny-feathered-friends-repurpose-scraps-of-this-spun-off-insulator-material",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-07T13:55:53+00:00",
+      "summary": "Birds in Donbas have been discovered feathering their nests with optical fiber.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/amds-rdna-5-gaming-gpus-are-coming-late-next-year-according-to-aibs-at-computex-manufacturers-expect-new-team-red-cards-in-the-second-half-of-2027-alongside-nvidia",
+      "title": "AMD's RDNA 5 gaming GPUs are coming late next year, according to AIBs at Computex — manufacturers expect new Team Red cards in the second half of 2027 alongside Nvidia",
+      "url": "https://www.tomshardware.com/pc-components/gpus/amds-rdna-5-gaming-gpus-are-coming-late-next-year-according-to-aibs-at-computex-manufacturers-expect-new-team-red-cards-in-the-second-half-of-2027-alongside-nvidia",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-07T13:30:00+00:00",
+      "summary": "AIB partners for AMD at the Computex 2026 show floor have said they expect next-gen RDNA 5 gaming GPUs to land sometime in the second half of 2027, or maybe even in early 2028. That launch schedule lines up closely with Nvidia's RTX 60 series, which is also expected in late 2027 based on current rumors.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/asml-beocmes-europes-most-valuable-company-ever-as-analysts-bet-on-higher-euv-output",
+      "title": "ASML becomes Europe's most valuable company ever as analysts bet on higher EUV output — its market cap hit $674 billion this week",
+      "url": "https://www.tomshardware.com/tech-industry/asml-beocmes-europes-most-valuable-company-ever-as-analysts-bet-on-higher-euv-output",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-07T13:05:00+00:00",
+      "summary": "ASML closed Wednesday, June 3rd, as the most valuable company in European history, reaching a market cap of $668 billion.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/google-signs-usd920m-monthly-compute-deal-with-spacex-companys-projected-annual-data-center-revenue-to-exceed-its-combined-proceeds-from-starlink-launch-services-and-ai-in-2025",
+      "title": "Google signs $920M monthly compute deal with SpaceX — company’s projected annual data center revenue to exceed its combined proceeds from Starlink, launch services, and AI in 2025",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-signs-usd920m-monthly-compute-deal-with-spacex-companys-projected-annual-data-center-revenue-to-exceed-its-combined-proceeds-from-starlink-launch-services-and-ai-in-2025",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-07T12:45:00+00:00",
+      "summary": "Google's $920-million-a-month deal with SpaceX will let it secure 110,000 Nvidia GPUs starting October 2026. This is the second data center deal that SpaceX has secured in a matter of weeks, especially as it's quickly approaching its IPO on June 12, 2026.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/windows/retropad-is-a-full-feature-parity-version-of-notepad-from-xp-in-just-2-749-bytes-x86-assembly-coded-apps-comes-from-windows-legend-dave-w-plummer",
+      "title": "RetroPad is a ‘full-feature-parity version of Notepad from XP’ in just 2,749 bytes — x86 assembly coded apps comes from Windows legend Dave W Plummer",
+      "url": "https://www.tomshardware.com/software/windows/retropad-is-a-full-feature-parity-version-of-notepad-from-xp-in-just-2-749-bytes-x86-assembly-coded-apps-comes-from-windows-legend-dave-w-plummer",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-07T12:20:00+00:00",
+      "summary": "A 'full-feature-parity version of Notepad' has been written in x86 assembly and it weighs in at under 3KB.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/russias-rassvet-constellation-loses-its-first-satellite-to-orbital-decay",
+      "title": "Russia’s new ‘Starlink‑Style’ Rassvet fleet loses its first satellite after weeks — Object 4 drops out of orbit but 15 others remain",
+      "url": "https://www.tomshardware.com/tech-industry/russias-rassvet-constellation-loses-its-first-satellite-to-orbital-decay",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-07T12:00:00+00:00",
+      "summary": "Object 4, one of 16 satellites in the first operational batch of Russia's Rassvet broadband network, re-entered Earth's atmosphere on approximately June 6th.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/handheld-gaming/developer-gets-half-life-running-at-30-fps-on-a-2007-nokia-n95",
+      "title": "Developer gets Half-Life running at 30 FPS on a Nokia N95 — proves 2007 phones can just about match 1998 PCs",
+      "url": "https://www.tomshardware.com/video-games/handheld-gaming/developer-gets-half-life-running-at-30-fps-on-a-2007-nokia-n95",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-07T11:33:09+00:00",
+      "summary": "Argentine developer Dante Leoncini has gotten the original Half-Life running at 30 FPS on a Nokia N95, the Symbian slider phone that launched in 2007.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/3d-printing/elegoo-jupiter-2-resin-3d-printer-review",
+      "title": "Elegoo Jupiter 2 Resin 3D Printer review: The giant returns for round two",
+      "url": "https://www.tomshardware.com/3d-printing/elegoo-jupiter-2-resin-3d-printer-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Matt Farmer",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-07T11:00:00+00:00",
+      "summary": "Elegoo’s Jupiter 2 is a resin powerhouse with a large print area and 16K high-quality 3D printing at a reasonable price.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-reaches-almost-45-percent-cpu-share-in-the-latest-steam-hardware-survey-for-windows-gaming-pcs-ryzen-is-steadily-gaining-ground-against-intels-legacy-domination",
+      "title": "AMD reaches almost 45% CPU share in the latest Steam Hardware Survey for Windows gaming PCs — Ryzen is steadily gaining ground against Intel's legacy domination",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-reaches-almost-45-percent-cpu-share-in-the-latest-steam-hardware-survey-for-windows-gaming-pcs-ryzen-is-steadily-gaining-ground-against-intels-legacy-domination",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-07T11:00:00+00:00",
+      "summary": "The latest Steam Hardware Survey is out and it's showing positive signs of growth for AMD, while Intel is unfortunately on a decline. The Red Team posted its best-ever CPU market share numbers in May 2026 with 45% of all CPUs on Windows being from AMD, while Intel is down to 55%, which is still more for now.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/youtube-slams-1-7-volts-into-6700k-in-an-attempt-to-stop-the-cpu-from-bottlenecking-an-rtx-3080-pushes-gpu-utilization-from-60-percent-to-74-percent",
+      "title": "Ludicrous overclock slams 1.7 volts into 6700K in an attempt to stop CPU from bottlenecking an RTX 3080 — 5.2 GHz on aging four-core pushes GPU utilization from 60% to 74%",
+      "url": "https://www.tomshardware.com/pc-components/cpus/youtube-slams-1-7-volts-into-6700k-in-an-attempt-to-stop-the-cpu-from-bottlenecking-an-rtx-3080-pushes-gpu-utilization-from-60-percent-to-74-percent",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Aaron Klotz",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-07T11:00:00+00:00",
+      "summary": "YouTuber challenges himself to alleviate a CPU bottleneck with a Core i7-6700K paired with an RTX 3080 through overclocking.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-adds-igpu-less-mobile-chips-to-core-200h-lineup-raptor-lake-based-core-7-230h-and-core-5-205h-sport-disabled-graphics-for-small-form-factor-desktop-boards",
+      "title": "Intel adds iGPU-less mobile chips to Core 200H lineup — Raptor Lake-based Core 7 230H and Core 5 205H sport disabled graphics for small form factor desktop boards",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-adds-igpu-less-mobile-chips-to-core-200h-lineup-raptor-lake-based-core-7-230h-and-core-5-205h-sport-disabled-graphics-for-small-form-factor-desktop-boards",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Aaron Klotz",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-07T10:00:00+00:00",
+      "summary": "Intel introduces two new Raptor Lake CPUs in its Core 200H series lineup featuring disabled integrated graphics chips. The new CPUs are likely geared towards SFF desktops rather than laptops and 2-in-1 devices.",
       "lang": "en"
     },
     {
@@ -656,224 +877,22 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/acer-ma200-1tb-ssd-review",
-      "title": "Acer MA200 1TB SSD Review: Good enough, and that’s the point",
-      "url": "https://www.tomshardware.com/pc-components/ssds/acer-ma200-1tb-ssd-review",
-      "platform": "rss",
+      "id": "hn:48430986",
+      "title": "TSMC CEO: I envy their 80% gross margins, but I would never do that",
+      "url": "https://www.thestreet.com/investing/stocks/tsmc-taiwan-semiconductor-ceo-sends-blunt-message-to-memory-chip-rivals",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
+        "type": "hackernews",
+        "id": "48430986",
+        "name": "teleforce",
+        "hn_url": "https://news.ycombinator.com/item?id=48430986"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T15:36:58+00:00",
-      "summary": "The Acer MA200 is a competent M.2 2230 NVMe SSD with reasonably good performance and power-efficiency, even if it’s not the fastest drive out there.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/seattle-to-pass-one-year-ai-data-center-moratorium-next-week-will-use-window-to-study-community-impact-of-ai-buildouts",
-      "title": "Seattle to pass one-year AI data center moratorium next week — will use window to study community impact of AI buildouts",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/seattle-to-pass-one-year-ai-data-center-moratorium-next-week-will-use-window-to-study-community-impact-of-ai-buildouts",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T15:29:37+00:00",
-      "summary": "Two Seattle city council committees have passed a one-year moratorium and a resolution on data centers. The measures are still up for a vote in the full council, but many consider that simply as a formality.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-is-reportedly-still-planning-fabled-rtx-50-super-series-for-2026-leak-claims-lineup-could-now-include-a-potential-rtx-5060-super-with-12gb-of-vram",
-      "title": "Nvidia is reportedly still planning fabled RTX 50 Super series for 2026, leak claims — lineup could now include a potential 'RTX 5060 Super' with 12GB of VRAM",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-is-reportedly-still-planning-fabled-rtx-50-super-series-for-2026-leak-claims-lineup-could-now-include-a-potential-rtx-5060-super-with-12gb-of-vram",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T15:17:59+00:00",
-      "summary": "For almost a year, the RTX 50 Super series has been part of the rumor mill, but with the AI boom snatching production lines, causing memory prices to skyrocket, hype for the lineup had died down. Now, a potential RTX 5060 Super with 12GB of VRAM is apparently in the works, with the 50 Super series as a whole allegedly getting \"back on track.\"",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/valve-says-steam-machine-and-steam-frame-shipping-this-summer-company-confirms-release-window-as-it-expands-verified-program",
-      "title": "Valve says Steam Machine and Steam Frame 'shipping this summer' — company confirms release window as it expands Verified program",
-      "url": "https://www.tomshardware.com/video-games/pc-gaming/valve-says-steam-machine-and-steam-frame-shipping-this-summer-company-confirms-release-window-as-it-expands-verified-program",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T14:43:50+00:00",
-      "summary": "Valve Steam Machine summer release is now set in stone — company launch window and expands Verified program",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/industry-coalition-urges-trump-administration-to-take-urgent-action-as-ai-data-centers-extreme-memory-consumption-threatens-other-industries-ai-driven-memory-chip-shortage-could-raise-prices-in-automotive-medical-telecommunications-sectors",
-      "title": "Industry coalition urges Trump administration to take urgent action as AI data centers' extreme memory consumption threatens other industries — AI-driven memory chip shortage could raise prices in automotive, medical, telecommunications sectors",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/industry-coalition-urges-trump-administration-to-take-urgent-action-as-ai-data-centers-extreme-memory-consumption-threatens-other-industries-ai-driven-memory-chip-shortage-could-raise-prices-in-automotive-medical-telecommunications-sectors",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T12:20:01+00:00",
-      "summary": "A coalition of nine U.S. trade associations has urged the Trump administration to address an AI-driven memory chip shortage, warning that soaring DRAM prices and constrained supply could raise costs for consumer electronics, automobiles, medical devices, and broadband infrastructure while disrupting supply chains through at least 2027.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/elegoo-announces-bizarre-3d-printer-collab-with-emoji-brand-special-edition-centauri-carbon-2-combo-is-priced-at-usd489-usd",
-      "title": "Elegoo announces bizarre 3D printer collab with Emoji brand — special edition Centauri Carbon 2 Combo is priced at $489 USD",
-      "url": "https://www.tomshardware.com/3d-printing/elegoo-announces-bizarre-3d-printer-collab-with-emoji-brand-special-edition-centauri-carbon-2-combo-is-priced-at-usd489-usd",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Denise Bertacchi",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T12:00:00+00:00",
-      "summary": "Elegoo announced the new machine as a fun and creative collab with the emoji® brand, a German company that has trademarked the commercial use of emojis on physical merch and media.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/vpn/save-55-percent-on-12-months-of-norton-vpn-coverage-pay-just-usd49-99-for-complete-protection-from-scams-malware-and-nefarious-ads",
-      "title": "Save 55% on 12 months of Norton VPN coverage — pay just $49.99 for complete protection from scams, malware, and nefarious ads",
-      "url": "https://www.tomshardware.com/software/vpn/save-55-percent-on-12-months-of-norton-vpn-coverage-pay-just-usd49-99-for-complete-protection-from-scams-malware-and-nefarious-ads",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T11:39:33+00:00",
-      "summary": "$4.17 per month for Norton VPN. Save 55% by picking up a 12-month subscription for just $49.99. Watch the World Cup from anywhere.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code",
-      "title": "Anthropic warns Claude AI is building itself faster than expected, calls for option to halt frontier development —'recursive self improvement' increases risk humans lose control of AI",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T11:29:35+00:00",
-      "summary": "Anthropic has published a report warning that the development path it’s on could eventually leave humans unable to control AI systems.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-usd550-on-this-4k-ready-gaming-pc-with-a-9800x3d-and-rx-9070-xt-now-just-usd1-749-huge-discount-makes-this-the-cheapest-pc-with-these-specs-on-sale-right-now-shipping-with-32gb-ddr5-and-a-1tb-ssd",
-      "title": "Save $550 on this 4K-ready gaming PC with a 9800X3D and RX 9070 XT, now just $1,749 — huge discount makes this the cheapest PC with these specs on sale right now, shipping with 32GB DDR5 and a 1TB SSD",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd550-on-this-4k-ready-gaming-pc-with-a-9800x3d-and-rx-9070-xt-now-just-usd1-749-huge-discount-makes-this-the-cheapest-pc-with-these-specs-on-sale-right-now-shipping-with-32gb-ddr5-and-a-1tb-ssd",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T11:18:11+00:00",
-      "summary": "This $1,749 Skytech gaming PC is an elite-level rig for 1440p and 4K gaming, fitted with a 9800X3D, RX 9070 XT, 32GB DDR5, and a 1TB SSD.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/toms-hardware-unfiltered-computex-2026-day-4-the-b2b-shift-and-we-say-farewell-to-taipei",
-      "title": "Tom's Hardware Unfiltered: Computex 2026, Day 4 — the B2B shift, and we say farewell to Taipei",
-      "url": "https://www.tomshardware.com/tech-industry/toms-hardware-unfiltered-computex-2026-day-4-the-b2b-shift-and-we-say-farewell-to-taipei",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Paul Alcorn",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T11:12:41+00:00",
-      "summary": "In the final entry in our series of daily Computex blogs, our team ruminates on their thoughts from the show itself.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/jensen-huang-says-every-edge-device-will-become-autonomous",
-      "title": "Jensen Huang says 'every edge device will become autonomous' — Nvidia maps one computing pattern from the cloud to robotics",
-      "url": "https://www.tomshardware.com/tech-industry/jensen-huang-says-every-edge-device-will-become-autonomous",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T11:00:00+00:00",
-      "summary": "\"There's a new computing pattern,\" the Nvidia CEO told reporters at a press gaggle the day after his GTC Taipei keynote.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-putting-up-tents-across-the-us-to-house-ai-servers-like-a-scene-out-of-the-movie-mad-max-structures-take-three-months-to-build-and-use-jet-engines-for-power",
-      "title": "Meta putting up tents across the US to house AI servers, like ‘a scene out of the movie Mad Max’ — structures take three months to build and use jet engines for power",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-putting-up-tents-across-the-us-to-house-ai-servers-like-a-scene-out-of-the-movie-mad-max-structures-take-three-months-to-build-and-use-jet-engines-for-power",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T10:59:42+00:00",
-      "summary": "Meta is reportedly building more tents that house expensive data centers across the U.S., as it reportedly cuts construction time from two to three years to just a few months. It's also bringing its own power instead of relying on electricity from the grid.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/outlook-may-have-allowed-unencrypted-connections-for-decades-report-claims-fedora-and-dovecot-upgrade-reveal-protocol-downgrade-issue-present-since-at-least-2007",
-      "title": "Outlook may have allowed unencrypted connections for decades, report claims — Fedora and Dovecot upgrade reveal protocol downgrade issue present since at least 2007",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/outlook-may-have-allowed-unencrypted-connections-for-decades-report-claims-fedora-and-dovecot-upgrade-reveal-protocol-downgrade-issue-present-since-at-least-2007",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T10:30:00+00:00",
-      "summary": "Ssh, don't tell the customer anything.",
+      "views": 10,
+      "comments": 3,
+      "published_at": "2026-06-07T01:53:27+00:00",
+      "summary": "",
+      "matched_keyword": "TSMC",
       "lang": "en"
     },
     {
@@ -907,7 +926,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48377404"
       },
       "duration_sec": null,
-      "views": 468,
+      "views": 470,
       "comments": 125,
       "published_at": "2026-06-02T22:55:33+00:00",
       "summary": "",
@@ -934,6 +953,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48424605",
+      "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
+      "url": "https://twitter.com/lemire/status/2062880075117113739",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48424605",
+        "name": "tosh",
+        "hn_url": "https://news.ycombinator.com/item?id=48424605"
+      },
+      "duration_sec": null,
+      "views": 325,
+      "comments": 540,
+      "published_at": "2026-06-06T12:52:18+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:48355720",
       "title": "Microsoft builds MacBook Pro rival with NVIDIA-powered Surface Laptop Ultra",
       "url": "https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/",
@@ -946,27 +984,8 @@
       },
       "duration_sec": null,
       "views": 286,
-      "comments": 652,
+      "comments": 653,
       "published_at": "2026-06-01T12:04:29+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48424605",
-      "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
-      "url": "https://twitter.com/lemire/status/2062880075117113739",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48424605",
-        "name": "tosh",
-        "hn_url": "https://news.ycombinator.com/item?id=48424605"
-      },
-      "duration_sec": null,
-      "views": 267,
-      "comments": 454,
-      "published_at": "2026-06-06T12:52:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1173,8 +1192,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48431367"
       },
       "duration_sec": null,
-      "views": 30,
-      "comments": 13,
+      "views": 52,
+      "comments": 33,
       "published_at": "2026-06-07T03:00:52+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
@@ -1200,20 +1219,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:48063979",
-      "title": "When semiconductor materials misbehave",
-      "url": "https://semiengineering.com/when-semiconductor-materials-misbehave/",
+      "id": "hn:48439316",
+      "title": "Huawei executive credits bans for accelerating domestic chip independence",
+      "url": "https://www.techradar.com/pro/huaweis-chairman-officially-thanks-the-us-government-for-enabling-chinas-semiconductor-industry-chain-to-truly-grow",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "48063979",
-        "name": "PaulHoule",
-        "hn_url": "https://news.ycombinator.com/item?id=48063979"
+        "id": "48439316",
+        "name": "yogthos",
+        "hn_url": "https://news.ycombinator.com/item?id=48439316"
       },
       "duration_sec": null,
-      "views": 21,
-      "comments": 4,
-      "published_at": "2026-05-08T14:43:50+00:00",
+      "views": 20,
+      "comments": 0,
+      "published_at": "2026-06-07T22:38:25+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
       "lang": "en"
