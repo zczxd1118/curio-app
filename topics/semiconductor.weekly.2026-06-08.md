@@ -2,41 +2,41 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_全球科技股暴跌，AI芯片板块遭去杠杆式抛售，但黄仁勋在首尔喊话「打折买入」并宣布与SK海力士、LG集团合作，AI基建叙事未破。与此同时，Anthropic、SpaceX、OpenAI相继推进IPO，AI公司上市潮与市场恐慌形成鲜明对比。本周关注美联储议息及CPI数据，决定调整深度。_
+_全球科技股经历剧烈调整，AI芯片板块因仓位拥挤和非农数据触发去杠杆，韩股单日暴跌8%触发熔断。但产业基本面未变：黄仁勋在首尔喊话“打折买入”，英伟达与SK海力士、LG签署多年AI芯片与工厂协议。同时，Anthropic、SpaceX、OpenAI三巨头密集推进IPO，市场正从“AI军备竞赛”进入“资本化兑现”阶段。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. Nvidia 发布 RTX Spark：面向个人电脑的AI芯片，微软同步推出Surface Laptop Ultra
+### 3. Google 与 SpaceX 签署每月9.2亿美元算力合同，锁定11万块NVIDIA GPU
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _NVIDIA_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-Nvidia 在 Computex 2026 上正式发布 RTX Spark，一款面向个人电脑的AI加速芯片。微软随即宣布推出搭载 RTX Spark 的 Surface Laptop Ultra，定位 MacBook Pro 竞品。这标志着AI计算从云端向个人设备的战略转移——Windows PC 将原生支持本地AI推理。
+Google 与 SpaceX 达成每月9.2亿美元的算力租赁协议，从2026年10月起获得11万块NVIDIA GPU。这笔交易将使SpaceX的数据中心年收入超过其Starlink、发射服务和AI业务的收入总和，标志着算力租赁市场进入“军备竞赛”阶段。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Nvidia 发布 RTX Spark，专为个人电脑AI推理设计 | RTX Spark 的具体算力参数（TOPS、显存）尚未公布 |
-| 微软发布 Surface Laptop Ultra，搭载 RTX Spark，定位 MacBook Pro 竞品 | 定价策略和上市时间未知，预计2026年下半年 |
-| Windows 官方博客宣布「Windows PC 新篇章，由 Nvidia RTX Spark 加速」 | 本地AI芯片能否撼动云端AI的主导地位，取决于应用生态和开发者支持 |
-| RTX Spark 支持本地运行大模型和AI应用，无需联网 | 与Apple Silicon的AI性能对比是关注焦点 |
+| Google 与 SpaceX 签署每月9.2亿美元、为期多年的算力租赁合同 | Google 为何选择 SpaceX 而非传统云提供商？是否与 SpaceX 的低成本能源或特殊部署能力有关？ |
+| 合同涉及11万块NVIDIA GPU，从2026年10月开始交付 | 每月9.2亿美元的价格是否合理？对比CoreWeave等专业算力租赁商，性价比如何？ |
+| SpaceX 的数据中心年收入预计将超过其Starlink、发射服务和AI业务的总和 | 这笔交易是否会加速其他科技巨头与SpaceX的类似合作？ |
+| 这是SpaceX在数周内获得的第二个大型数据中心合同 | 对NVIDIA GPU供应链的影响：11万块GPU是否会加剧市场短缺？ |
 
 **📖 主编点评**
 
-如果你在做AI Agent工具链，RTX Spark 意味着你的Agent未来可以完全在本地运行，无需API调用。这对隐私敏感场景和离线使用是重大利好。建议关注RTX Spark的开发者SDK，提前规划本地推理的架构设计。
+算力正在成为新的“石油”——Google 用每月9.2亿美元锁定GPU，说明AI基础设施的稀缺性远超预期。如果你在做AI Agent项目，建议关注算力成本趋势：未来小型开发者可能更难获得廉价GPU，提前规划推理优化（如量化、蒸馏）会更划算。
 
-📺 [打开原文](https://www.nvidia.com/en-us/products/rtx-spark/)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-signs-usd920m-monthly-compute-deal-with-spacex-companys-projected-annual-data-center-revenue-to-exceed-its-combined-proceeds-from-starlink-launch-services-and-ai-in-2025)
 
 ---
 
 ## 📋 备选阅读
 
-- [Nvidia Cosmos 3](https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/) —— Nvidia发布Cosmos 3，面向物理AI推理的世界模型，适合机器人领域，但偏研究向。
-  _NVIDIA_
-- [ASML becomes Europe's most valuable company ever](https://www.tomshardware.com/tech-industry/asml-beocmes-europes-most-valuable-company-ever-as-analysts-bet-on-higher-euv-output) —— ASML市值达6740亿美元，成欧洲史上最高，反映半导体设备需求强劲。
+- [ASML becomes Europe's most valuable company ever](https://www.tomshardware.com/tech-industry/asml-beocmes-europes-most-valuable-company-ever-as-analysts-bet-on-higher-euv-output) —— ASML市值达6740亿美元，成欧洲史上最高，分析师看好EUV光刻机需求，半导体设备龙头地位稳固。
   _Tom's Hardware_
-- [Huawei-led team claims it post-trained DeepSeek's 1.6-trillion-parameter model on Ascend 910C chips](https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-led-team-claims-it-post-trained-deepseeks-1-6-trillion-parameter-models-on-ascend-910c-chips) —— 华为团队声称用1000块昇腾910C完成DeepSeek 1.6万亿参数模型后训练，国产替代里程碑。
+- [Huawei-led team claims it post-trained DeepSeek's 1.6-trillion-parameter model on Ascend 910C chips](https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-led-team-claims-it-post-trained-deepseeks-1-6-trillion-parameter-models-on-ascend-910c-chips) —— 华为团队用1000块昇腾910C完成DeepSeek 1.6万亿参数模型的后训练，国产芯片追赶英伟达的重要信号。
   _Tom's Hardware_
+- [Nvidia is proposing a beast of a CPU system for Windows PCs](https://twitter.com/lemire/status/2062880075117113739) —— 英伟达计划为Windows PC打造高性能CPU系统，结合RTX Spark，可能重塑PC计算格局。
+  _Hacker News_
 
 ---
 

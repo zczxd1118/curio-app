@@ -1,6 +1,6 @@
 {
   "date": "2026-06-08",
-  "intro": "全球科技股暴跌，AI芯片板块遭去杠杆式抛售，但黄仁勋在首尔喊话「打折买入」并宣布与SK海力士、LG集团合作，AI基建叙事未破。与此同时，Anthropic、SpaceX、OpenAI相继推进IPO，AI公司上市潮与市场恐慌形成鲜明对比。本周关注美联储议息及CPI数据，决定调整深度。",
+  "intro": "全球科技股经历剧烈调整，AI芯片板块因仓位拥挤和非农数据触发去杠杆，韩股单日暴跌8%触发熔断。但产业基本面未变：黄仁勋在首尔喊话“打折买入”，英伟达与SK海力士、LG签署多年AI芯片与工厂协议。同时，Anthropic、SpaceX、OpenAI三巨头密集推进IPO，市场正从“AI军备竞赛”进入“资本化兑现”阶段。",
   "headlines": [
     {
       "rank": 1,
@@ -9,23 +9,23 @@
       "url": "https://wallstreetcn.com/articles/3774056",
       "source": "华尔街见闻",
       "stars": 5,
-      "title": "韩股暴跌8%触发熔断，黄仁勋救场后再度下挫——AI芯片股遭遇去杠杆式抛售",
-      "lead": "韩国股市周一暴跌8.2%触发熔断，尽管黄仁勋盘中抛出芯片采购利好与韩国总统李在明「喊话」救场，午后市场信心再度崩溃，韩股再次跌超7%。纳斯达克上周五已暴跌4%，创2025年4月以来最差单日表现。这轮抛售的核心不是基本面恶化，而是AI芯片板块仓位极度拥挤、杠杆过高，非农数据成为去杠杆的扳机。",
+      "title": "韩股暴跌8%触发熔断，黄仁勋喊话“打折买入”后反弹再跌超7%",
+      "lead": "韩国股市周一开盘暴跌8.2%触发熔断，盘中黄仁勋抛出芯片采购利好与韩国总统李在明“喊话”救场，但午后市场信心再度崩溃，韩股再次下跌超7%。全球科技股抛售潮蔓延至A股，创业板重挫4%，超4500股飘绿。",
       "confirmed": [
-        "韩国KOSPI指数周一暴跌8.2%触发熔断，午后再度跌超7%",
-        "纳斯达克上周五（6月4日）暴跌4%，半导体指数单日跌超10%",
-        "黄仁勋在首尔表示「现在是打折买入的好时机」，并宣布与SK海力士签署多年AI内存联合开发协议",
+        "韩国KOSPI指数周一暴跌8.2%触发熔断机制",
+        "黄仁勋在首尔表示“现在是打折买入的好时机”，并宣布与SK海力士签署多年联合开发AI内存芯片协议",
         "英伟达与LG集团宣布共建AI工厂，覆盖机器人、数据中心、自动驾驶",
-        "华尔街见闻分析指出，抛压集中在前期涨幅最大的个股，是典型去杠杆而非基本面崩塌"
+        "A股创业板重挫4%，半导体、AI算力、锂电池等板块跌幅居前",
+        "现货黄金下跌约1%至4287美元，油价飙升5%推高通胀预期"
       ],
       "judgment": [
-        "调整深度取决于本周美国CPI（6月10日）和美联储议息（6月11日）结果",
-        "若CPI超预期，加息预期升温可能引发第二波抛售；若CPI温和，市场可能阶段性企稳",
-        "AI产业需求（英伟达订单、云厂商资本开支）未见转弱信号，但估值消化需要时间",
-        "韩股能否止跌是观察亚洲科技股情绪的关键指标",
-        "黄仁勋的「打折买入」言论是短期情绪提振还是中期底部信号，尚需验证"
+        "此次调整是阶段性去杠杆还是AI周期顶点？多数机构认为基本面未变，但需警惕叙事框架松动",
+        "黄仁勋的“打折买入”言论能否真正稳定市场信心？本周美国CPI和美联储议息是关键变量",
+        "韩股后续走势取决于SK海力士等芯片股能否止跌，以及外资是否持续流出",
+        "A股科技股调整是否已充分？机构建议逢低吸纳但需控制仓位",
+        "油价上涨可能进一步加剧通胀，影响美联储货币政策路径"
       ],
-      "implication": "如果你持有AI芯片相关仓位，本周CPI和美联储决议是决定去留的关键节点。不建议恐慌抛售，但应降低杠杆、预留现金。黄仁勋的采购承诺和LG合作是产业层面的利好，但市场需要时间消化拥挤仓位。关注周三美国CPI，若低于预期可逢低加仓核心标的。"
+      "implication": "你正在做的content-curator项目，今天全球科技股暴跌是绝佳案例——建议追踪黄仁勋首尔行程的后续影响，以及本周美国CPI数据发布后的市场反应。如果你持有AI相关仓位，短期波动难免，但产业需求（英伟达与SK海力士的多年协议）未变，可视为长期布局窗口。"
     },
     {
       "rank": 2,
@@ -34,90 +34,90 @@
       "url": "http://www.bilibili.com/video/av116697163896598",
       "source": "技术胖",
       "stars": 5,
-      "title": "Claude Code 推出「超码」Ultracode：操控100个Agent并行开发，解决大型任务跑不完的痛点",
-      "lead": "Anthropic 在 Claude Code 中上线了 Ultracode 功能，允许用户同时调度最多100个Agent并行执行任务。这解决了Claude Code此前一次性跑不完大型项目的核心痛点——现在你可以拆解任务、并行开发、自动协调。技术胖的保姆级教程展示了从安装到实战的完整流程，包含具体命令和配置。",
+      "title": "Claude Code 上线 Ultracode“超码”功能：操控100个Agent并行开发",
+      "lead": "Anthropic 在 Claude Code 中推出 Ultracode 模式，允许用户同时调度最多100个Agent并行处理大型任务。技术胖的保姆级教程展示了如何用该功能解决Claude Code一次性跑不完大型任务的痛点，并提供了完整配置和实战演示。",
       "confirmed": [
-        "Ultracode 是 Claude Code 的新功能，支持最多100个Agent并行工作",
-        "功能于2026年6月4日上线，技术胖在6月5日发布实战教程",
-        "教程包含具体安装步骤、任务拆分策略、Agent协调配置",
-        "Ultracode 解决了 Claude Code 此前大型任务超时或上下文溢出问题"
+        "Ultracode 是 Claude Code 的新功能，支持并行调度最多100个Agent",
+        "该功能解决了单Agent模式下大型任务跑不完、上下文遗忘的问题",
+        "技术胖发布了40分钟以上的详细教程，包含配置步骤和项目实测",
+        "教程已整理成文字版，便于快速查阅"
       ],
       "judgment": [
-        "100个Agent并行是否会产生协调开销和token浪费，需实测验证",
-        "该功能是否仅限Claude Code Pro用户，定价策略尚未明确",
-        "与GitHub Copilot App、Cursor等竞品的多Agent能力对比尚缺",
-        "实际工程中能否稳定运行100个Agent，取决于任务类型和API稳定性"
+        "Ultracode 是否真正解决了多Agent协调中的通信和冲突问题？",
+        "100个Agent并行对API成本和速率限制的影响如何？",
+        "该功能是否会成为AI编程的标配，还是仅适用于特定大型项目？",
+        "与GitHub Copilot、Cursor等竞品的多Agent方案相比，优劣势如何？"
       ],
-      "implication": "这对你的 content-curator 项目是直接利好——可以用 Ultracode 并行爬取、清洗、分类多个信息源，大幅缩短开发周期。建议今晚就跟着技术胖的视频搭环境，从拆分你的Agent任务开始试水。注意控制并行度，先跑10个Agent测试稳定性。"
+      "implication": "这对你的content-curator项目是直接利好：Ultracode 可以让你同时跑多个子任务（如爬取、摘要、排版），大幅缩短日报生成时间。建议今晚就用 Claude Code 试一下 Ultracode，把之前需要串行执行的4-5个步骤改成并行，体验一下“100个Agent帮你打工”的效率。"
     },
     {
       "rank": 3,
       "domain": "AI 算力 / 半导体",
-      "id": "hn:48352939",
-      "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
-      "source": "NVIDIA",
-      "stars": 4,
-      "title": "Nvidia 发布 RTX Spark：面向个人电脑的AI芯片，微软同步推出Surface Laptop Ultra",
-      "lead": "Nvidia 在 Computex 2026 上正式发布 RTX Spark，一款面向个人电脑的AI加速芯片。微软随即宣布推出搭载 RTX Spark 的 Surface Laptop Ultra，定位 MacBook Pro 竞品。这标志着AI计算从云端向个人设备的战略转移——Windows PC 将原生支持本地AI推理。",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/google-signs-usd920m-monthly-compute-deal-with-spacex-companys-projected-annual-data-center-revenue-to-exceed-its-combined-proceeds-from-starlink-launch-services-and-ai-in-2025",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-signs-usd920m-monthly-compute-deal-with-spacex-companys-projected-annual-data-center-revenue-to-exceed-its-combined-proceeds-from-starlink-launch-services-and-ai-in-2025",
+      "source": "Tom's Hardware",
+      "stars": 5,
+      "title": "Google 与 SpaceX 签署每月9.2亿美元算力合同，锁定11万块NVIDIA GPU",
+      "lead": "Google 与 SpaceX 达成每月9.2亿美元的算力租赁协议，从2026年10月起获得11万块NVIDIA GPU。这笔交易将使SpaceX的数据中心年收入超过其Starlink、发射服务和AI业务的收入总和，标志着算力租赁市场进入“军备竞赛”阶段。",
       "confirmed": [
-        "Nvidia 发布 RTX Spark，专为个人电脑AI推理设计",
-        "微软发布 Surface Laptop Ultra，搭载 RTX Spark，定位 MacBook Pro 竞品",
-        "Windows 官方博客宣布「Windows PC 新篇章，由 Nvidia RTX Spark 加速」",
-        "RTX Spark 支持本地运行大模型和AI应用，无需联网"
+        "Google 与 SpaceX 签署每月9.2亿美元、为期多年的算力租赁合同",
+        "合同涉及11万块NVIDIA GPU，从2026年10月开始交付",
+        "SpaceX 的数据中心年收入预计将超过其Starlink、发射服务和AI业务的总和",
+        "这是SpaceX在数周内获得的第二个大型数据中心合同"
       ],
       "judgment": [
-        "RTX Spark 的具体算力参数（TOPS、显存）尚未公布",
-        "定价策略和上市时间未知，预计2026年下半年",
-        "本地AI芯片能否撼动云端AI的主导地位，取决于应用生态和开发者支持",
-        "与Apple Silicon的AI性能对比是关注焦点"
+        "Google 为何选择 SpaceX 而非传统云提供商？是否与 SpaceX 的低成本能源或特殊部署能力有关？",
+        "每月9.2亿美元的价格是否合理？对比CoreWeave等专业算力租赁商，性价比如何？",
+        "这笔交易是否会加速其他科技巨头与SpaceX的类似合作？",
+        "对NVIDIA GPU供应链的影响：11万块GPU是否会加剧市场短缺？"
       ],
-      "implication": "如果你在做AI Agent工具链，RTX Spark 意味着你的Agent未来可以完全在本地运行，无需API调用。这对隐私敏感场景和离线使用是重大利好。建议关注RTX Spark的开发者SDK，提前规划本地推理的架构设计。"
+      "implication": "算力正在成为新的“石油”——Google 用每月9.2亿美元锁定GPU，说明AI基础设施的稀缺性远超预期。如果你在做AI Agent项目，建议关注算力成本趋势：未来小型开发者可能更难获得廉价GPU，提前规划推理优化（如量化、蒸馏）会更划算。"
     },
     {
       "rank": 4,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
-      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
-      "source": "TechCrunch",
-      "stars": 4,
-      "title": "OpenAI 推出 Lockdown Mode：防止提示注入攻击，保护敏感数据",
-      "lead": "OpenAI 发布了 Lockdown Mode，一项旨在防止提示注入攻击的新安全功能。该模式限制ChatGPT在对话中共享敏感数据，即使攻击者试图通过恶意提示绕过限制。这是OpenAI在安全方面的重要一步，尤其适合企业级部署。不过TechCrunch指出，Lockdown Mode并不能完全免疫所有提示注入攻击。",
-      "confirmed": [
-        "OpenAI 于6月6日发布 Lockdown Mode",
-        "该模式旨在防止提示注入攻击导致敏感数据泄露",
-        "Lockdown Mode 会限制模型在对话中输出特定类型的信息",
-        "OpenAI 承认该模式不能完全消除提示注入风险"
-      ],
-      "judgment": [
-        "Lockdown Mode 的具体实现机制（基于规则还是模型微调）未公开",
-        "该功能是否适用于API调用，还是仅限ChatGPT界面",
-        "与Anthropic的Constitutional AI等安全方案相比效果如何",
-        "企业用户是否愿意为安全功能支付溢价"
-      ],
-      "implication": "如果你正在用AI Agent处理用户数据或内部文档，Lockdown Mode 是一个必须关注的安全更新。建议在 content-curator 项目中集成该模式，防止用户通过恶意提示窃取你的爬虫配置或API密钥。同时注意，它并非银弹，仍需配合输入验证和权限控制。"
-    },
-    {
-      "rank": 5,
       "domain": "股票",
       "id": "hn:48405718",
       "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
       "source": "Bloomberg",
       "stars": 4,
-      "title": "S&P 拒绝为SpaceX等超级IPO修改快速纳入规则，指数基金被动配置承压",
-      "lead": "S&P Dow Jones 在咨询后决定维持现有指数纳入规则，拒绝为SpaceX、Anthropic等超级IPO提供快速通道。这意味着即使这些公司上市后市值巨大，也必须等待至少12个月才能被纳入S&P 500等主流指数。此举将迫使指数基金在IPO后通过主动交易来追踪，增加了跟踪误差和成本。",
+      "title": "S&P 拒绝为 SpaceX 等巨型IPO修改快速纳入规则",
+      "lead": "S&P Dow Jones 在咨询后决定维持现有指数纳入规则，拒绝为 SpaceX、Anthropic 等巨型IPO提供快速通道。这意味着即使 SpaceX 以1.77万亿美元估值上市，也无法立即被纳入S&P 500指数，主动基金和指数基金将面临更复杂的配置决策。",
       "confirmed": [
-        "S&P Dow Jones 于6月4日宣布维持现有指数纳入规则",
-        "SpaceX 估值目标1.77万亿美元，Anthropic 估值超600亿美元",
-        "现有规则要求公司至少上市12个月才能被纳入S&P 500",
-        "Bloomberg报道称，此举将增加指数基金的跟踪成本和交易复杂度"
+        "S&P Dow Jones 宣布不修改快速纳入规则，维持现有标准",
+        "SpaceX 计划以1.77万亿美元估值进行IPO",
+        "Morningstar 对 SpaceX 的估值为7800亿美元，仅为IPO目标的一半",
+        "Fidelity 将 SpaceX IPO 的最低投资门槛从50万美元降至2000美元"
       ],
       "judgment": [
-        "SpaceX IPO定价和上市时间尚未最终确定，路演仍在进行",
-        "Fidelity已将SpaceX IPO最低投资额从50万美元降至2000美元，散户参与度可能提升",
-        "若SpaceX上市后股价大幅波动，指数基金可能面临较大的跟踪误差",
-        "长期看，S&P可能在未来重新评估规则，但短期内不会改变"
+        "S&P 的决定是否会降低投资者对 SpaceX IPO 的热情？",
+        "没有指数基金被动买入，SpaceX 股价是否会更波动？",
+        "Anthropic 和 OpenAI 的IPO是否会面临同样问题？",
+        "Fidelity 降低门槛是否意味着散户投资者将承担更多风险？"
       ],
-      "implication": "如果你计划参与SpaceX或Anthropic的IPO，注意它们不会很快进入指数，意味着主动选股而非被动配置。对于你的content-curator项目，这是一个值得追踪的金融事件——IPO动态和指数规则变化会影响科技股的整体流动性。建议关注SpaceX路演进展和最终定价。"
+      "implication": "如果你关注IPO投资，S&P 的决定意味着 SpaceX 上市后不会立即有指数基金被动买入，股价可能更依赖基本面而非资金流入。对于你的content-curator项目，这是一个很好的“金融+AI”交叉选题——可以写一篇“AI公司IPO热潮背后的指数规则博弈”的分析。"
+    },
+    {
+      "rank": 5,
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "source": "TechCrunch",
+      "stars": 4,
+      "title": "OpenAI 推出 Lockdown Mode 防御提示注入攻击，保护敏感数据",
+      "lead": "OpenAI 发布 Lockdown Mode，旨在防止ChatGPT在处理敏感数据时被提示注入攻击窃取信息。该模式限制了模型对系统指令的修改能力，但仍可能被高级攻击绕过。与此同时，OpenAI 还在开发“超级应用”，内部员工称“Chat已死”。",
+      "confirmed": [
+        "OpenAI 推出 Lockdown Mode 以防御提示注入攻击",
+        "该模式限制模型修改系统指令的能力，降低敏感数据泄露风险",
+        "OpenAI 内部员工表示“Chat is dead”，暗示正在开发超级应用",
+        "Lockdown Mode 仍可能被高级提示注入攻击绕过"
+      ],
+      "judgment": [
+        "Lockdown Mode 的实际防护效果如何？能否应对真实世界的攻击？",
+        "OpenAI 的“超级应用”会是什么形态？是否整合了搜索、Agent、多模态？",
+        "该功能是否会成为企业采用ChatGPT的关键障碍消除因素？",
+        "对比 Anthropic 的 Constitutional AI，谁的安全方案更优？"
+      ],
+      "implication": "如果你在content-curator项目中用ChatGPT处理敏感数据（如私有API密钥、用户信息），Lockdown Mode 值得关注。建议在测试环境中开启该模式，评估对正常功能的影响。同时，OpenAI 的“超级应用”方向也值得跟踪——可能改变你构建Agent的方式。"
     }
   ],
   "shortlist": [
@@ -126,102 +126,102 @@
       "title": "Claude Code 从 0 到 1 全攻略：MCP / SubAgent / Agent Skill / Hook / 图片 / 上下文处理/ 后台任务",
       "url": "http://www.bilibili.com/video/av115954889596221",
       "source": "马克的技术工作坊",
-      "one_liner": "Claude Code 深度教程，涵盖MCP、SubAgent等高级功能，适合系统学习，但发布时间较早（1月），新颖度一般。"
+      "one_liner": "2小时超详细Claude Code实战教程，覆盖MCP、SubAgent、Hook等核心功能，适合系统学习，但发布时间较早（1月），新颖度一般。"
     },
     {
       "domain": "AI",
-      "title": "Anthropic发出警告，AI已经开始自我进化！",
-      "url": "http://www.bilibili.com/video/av116696123771860",
-      "source": "杜雨说AI",
-      "one_liner": "Anthropic关于AI自我进化的警告，话题性强但缺乏具体技术细节，适合快速浏览。"
+      "title": "Claude Code Agent Teams上手指南+项目实测",
+      "url": "http://www.bilibili.com/video/av116037064331269",
+      "source": "程序员阿江-Relakkes",
+      "one_liner": "Claude Code多Agent协作实战，解决单Agent上下文遗忘和串行效率问题，与Ultracode互补，但深度不如技术胖教程。"
     },
     {
       "domain": "AI",
-      "title": "Claude Code多Agent模式实战分享",
-      "url": "http://www.bilibili.com/video/av116454666012312",
-      "source": "Simon林_",
-      "one_liner": "Claude Code多Agent模式的实战经验，与Ultracode互补，但内容较短，深度有限。"
+      "title": "一个CLI干掉所有MCP工具，省99%的token mcp2cli",
+      "url": "http://www.bilibili.com/video/av116204349953548",
+      "source": "探索未至之境",
+      "one_liner": "开源项目mcp2cli将MCP服务器转为CLI工具，节省99% token，但争议较大：CLI能否真正替代MCP？适合技术尝鲜。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia Cosmos 3",
-      "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/",
-      "source": "NVIDIA",
-      "one_liner": "Nvidia发布Cosmos 3，面向物理AI推理的世界模型，适合机器人领域，但偏研究向。"
+      "domain": "AI",
+      "title": "DeepSeek-Reasonix 【保姆级教程】：专为 DeepSeek 打造的 AI 编程 Agent客户端",
+      "url": "http://www.bilibili.com/video/av116647486556383",
+      "source": "程序员晓刘",
+      "one_liner": "DeepSeek生态的AI编程客户端，支持MCP、记忆缓存，适合低成本编程，但生态成熟度不如Claude Code。"
     },
     {
       "domain": "AI 算力 / 半导体",
       "title": "ASML becomes Europe's most valuable company ever",
       "url": "https://www.tomshardware.com/tech-industry/asml-beocmes-europes-most-valuable-company-ever-as-analysts-bet-on-higher-euv-output",
       "source": "Tom's Hardware",
-      "one_liner": "ASML市值达6740亿美元，成欧洲史上最高，反映半导体设备需求强劲。"
+      "one_liner": "ASML市值达6740亿美元，成欧洲史上最高，分析师看好EUV光刻机需求，半导体设备龙头地位稳固。"
     },
     {
       "domain": "AI 算力 / 半导体",
       "title": "Huawei-led team claims it post-trained DeepSeek's 1.6-trillion-parameter model on Ascend 910C chips",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-led-team-claims-it-post-trained-deepseeks-1-6-trillion-parameter-models-on-ascend-910c-chips",
       "source": "Tom's Hardware",
-      "one_liner": "华为团队声称用1000块昇腾910C完成DeepSeek 1.6万亿参数模型后训练，国产替代里程碑。"
+      "one_liner": "华为团队用1000块昇腾910C完成DeepSeek 1.6万亿参数模型的后训练，国产芯片追赶英伟达的重要信号。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "OpenAI is still working on that 'super app'",
-      "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
-      "source": "TechCrunch",
-      "one_liner": "OpenAI高级员工称「Chat已死」，暗示超级应用方向，但细节有限。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "What to expect from WWDC 2026: Siri's highly anticipated revamp and Apple Intelligence updates",
-      "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
-      "source": "TechCrunch",
-      "one_liner": "WWDC 2026前瞻：Siri大改版和Apple Intelligence更新，值得关注但尚未发生。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "NSA using Claude Mythos for 'offensive cyber operations,' report claims",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nsa-using-clause-mythos-for-offensive-cyber-operations-report-claims-says-half-a-dozen-anthropic-engineers-embedded-inside-the-agency",
-      "source": "Tom's Hardware",
-      "one_liner": "NSA被曝使用Claude Mythos进行网络攻击，Anthropic工程师嵌入，争议性大但需核实。"
-    },
-    {
-      "domain": "股票",
-      "title": "Anthropic Files to Go Public, Setting Stage for Huge I.P.O.",
-      "url": "https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html",
-      "source": "NYT",
-      "one_liner": "Anthropic正式提交IPO文件，AI公司上市潮延续，但估值和时机存争议。"
-    },
-    {
-      "domain": "股票",
-      "title": "Goldman Sachs CEO says markets in 'greed' mode as AI companies seek billions",
-      "url": "https://www.cnbc.com/2026/06/02/goldman-ceo-david-solomon-greed-mode-ai-firms-ipos.html",
-      "source": "CNBC",
-      "one_liner": "高盛CEO警告市场处于「贪婪」模式，AI公司融资额惊人，需警惕泡沫。"
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
+      "url": "https://twitter.com/lemire/status/2062880075117113739",
+      "source": "Hacker News",
+      "one_liner": "英伟达计划为Windows PC打造高性能CPU系统，结合RTX Spark，可能重塑PC计算格局。"
     },
     {
       "domain": "股票",
       "title": "SemiAnalysis回应Vera SOCAMM争议：质疑者没去过Computex海力士展台",
       "url": "https://wallstreetcn.com/articles/3774082",
       "source": "华尔街见闻",
-      "one_liner": "SemiAnalysis驳斥英伟达Vera内存削减利空，称SK海力士已展示192GB SOCAMM2实物。"
+      "one_liner": "英伟达Vera平台内存削减至28TB引发美光暴跌，但SK海力士已展示192GB SOCAMM2实物，容量下调或为HBM产能挤出效应。"
     },
     {
       "domain": "股票",
       "title": "拥挤、估值、加息预期扰动不断：科技是否仍然值得坚守？",
       "url": "https://wallstreetcn.com/articles/3774093",
       "source": "华尔街见闻",
-      "one_liner": "多家机构逆势看好科技股，认为调整是布局窗口，但需警惕利率风险。"
+      "one_liner": "多家机构逆势看好科技股，认为EPS上修斜率未逆转，调整是最佳布局窗口，但需警惕四大事件。"
     },
     {
-      "domain": "股票",
+      "domain": "大厂 AI 动态",
+      "title": "OpenAI is still working on that ‘super app’",
+      "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+      "source": "TechCrunch",
+      "one_liner": "OpenAI内部称“Chat已死”，超级应用正在开发中，可能整合搜索、Agent、多模态，值得关注。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+      "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "source": "TechCrunch",
+      "one_liner": "WWDC 2026即将召开，Siri大改版和Apple Intelligence更新是焦点，可能影响AI终端生态。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "NSA using Claude Mythos for 'offensive cyber operations,' report claims",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nsa-using-clause-mythos-for-offensive-cyber-operations-report-claims-says-half-a-dozen-anthropic-engineers-embedded-inside-the-agency",
+      "source": "Tom's Hardware",
+      "one_liner": "NSA被曝使用Anthropic的Claude Mythos进行网络攻击，6名Anthropic工程师嵌入机构，AI安全与军事应用引发争议。"
+    },
+    {
+      "domain": "金融",
+      "title": "IMF总裁警告：全球经济尚未准备好应对不断累积的冲击",
+      "url": "https://wallstreetcn.com/articles/3774090",
+      "source": "华尔街见闻",
+      "one_liner": "IMF总裁罕见警告全球经济未准备好迎接持续冲击，AI浪潮可能重蹈全球化覆辙，繁荣背后社区岗位被掏空。"
+    },
+    {
+      "domain": "金融",
       "title": "欧央行本周加息在即，经济学家警告：或在重蹈2011年政策错误",
       "url": "https://wallstreetcn.com/articles/3774092",
       "source": "华尔街见闻",
-      "one_liner": "欧央行本周料加息，但经济萎缩背景下可能重演2011年政策错误，影响全球流动性。"
+      "one_liner": "欧央行本周料加息，但经济学家警告可能重演2011年两度加息后被迫逆转的历史，欧元区面临双底衰退风险。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-08T08:48:20+0000"
+    "scored_at": "2026-06-08T09:27:27+0000"
   }
 }
