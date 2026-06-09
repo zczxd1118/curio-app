@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-06-08T08:18:14.966726+00:00",
+  "fetched_at": "2026-06-09T06:55:23.103761+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,7 +13,7 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 2,
-    "HN · Nvidia": 12,
+    "HN · Nvidia": 13,
     "HN · semiconductor": 5,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 70,
+  "total": 71,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/risc-v-summit-europe-2026-industry-and-academia-unite-in-bologna-to-advance-open-hardware/",
+      "title": "RISC-V Summit Europe 2026: Industry and Academia Unite in Bologna to Advance Open Hardware",
+      "url": "https://www.eetimes.com/risc-v-summit-europe-2026-industry-and-academia-unite-in-bologna-to-advance-open-hardware/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "RISC-V Summit",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T16:10:19+00:00",
+      "summary": "RISC-V Summit Europe is coming to Bologna, Italy, with a program that reflects just how far the ecosystem has come since we gathered in Paris a year ago. Taking place June 8–12 2026 at the Palazzo dei Congressi, the summit unites members, manufacturers, researchers, public institutions, academics and students, all helping to nurture the RISC-V [&#8230;] The post RISC-V Summit Europe 2026: Industry and Academia Unite in Bologna to Advance Open Hardware appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/chips-act-2-0-inside-europes-semiconductor-rethink/",
+      "title": "Inside Europe’s Chip Rethink: Why Fabs Weren’t Enough and Why Spain Matters",
+      "url": "https://www.eetimes.com/chips-act-2-0-inside-europes-semiconductor-rethink/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T12:00:00+00:00",
+      "summary": "Spain is emerging as a more influential player in Europe’s next chip debate—through design startups, photonics, quantum technologies, and a growing talent base. The post Inside Europe’s Chip Rethink: Why Fabs Weren’t Enough and Why Spain Matters appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/antenna-first-design-the-rf-shift-iot-cannot-avoid/",
       "title": "Antenna-First Design: The RF Shift IoT Cannot Avoid",
       "url": "https://www.eetimes.com/antenna-first-design-the-rf-shift-iot-cannot-avoid/",
@@ -333,37 +367,258 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/inchfab-sells-10m-mini-fabs-to-democratize-chipmaking/",
-      "title": "InchFab Sells $10M Mini Fabs to Democratize Chipmaking",
-      "url": "https://www.eetimes.com/inchfab-sells-10m-mini-fabs-to-democratize-chipmaking/",
+      "id": "rss:https://www.tomshardware.com/pc-components/cooling/levelplay-shows-off-magnetically-attached-fans-that-are-reversible-connect-via-pogo-pins-and-usb-c-plus-an-aio-that-trades-a-screen-for-a-big-knob",
+      "title": "Levelplay shows off magnetically attached fans that are reversible, connect via pogo pins and USB-C – plus an AIO that trades a screen for a big knob",
+      "url": "https://www.tomshardware.com/pc-components/cooling/levelplay-shows-off-magnetically-attached-fans-that-are-reversible-connect-via-pogo-pins-and-usb-c-plus-an-aio-that-trades-a-screen-for-a-big-knob",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Matt Safford",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-03T22:00:00+00:00",
-      "summary": "InchFab's mini fabs are cost-competitive with larger 8-inch wafer fabs at the half-micron and larger nodes. The post InchFab Sells $10M Mini Fabs to Democratize Chipmaking appeared first on EE Times.",
+      "published_at": "2026-06-08T19:32:35+00:00",
+      "summary": "Levelplay took to Computex with some interesting cooling concepts, like magnetic fans that can be reversed in seconds, and an AIO that puts a big tactile knob for fan control on top of your CPU.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/secure-your-supply-accelerate-your-designs-a-practical-guide-to-the-memory-super-cycle/",
-      "title": "Secure Your Supply, Accelerate Your Designs: A Practical Guide to the Memory Super Cycle",
-      "url": "https://www.eetimes.com/secure-your-supply-accelerate-your-designs-a-practical-guide-to-the-memory-super-cycle/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/chinese-startup-claims-photonic-chip-production-without-duv-lithography-says-nanoimprint-process-cuts-costs-by-90-percent-8-inch-wafers-produced-without-conventional-optical-lithography",
+      "title": "Chinese startup claims photonic chip production without DUV lithography, says nanoimprint process cuts costs by 90% — 8-inch wafers produced without conventional optical lithography",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/chinese-startup-claims-photonic-chip-production-without-duv-lithography-says-nanoimprint-process-cuts-costs-by-90-percent-8-inch-wafers-produced-without-conventional-optical-lithography",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Infineon Technologies and Arrow Electronics",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-03T18:16:56+00:00",
-      "summary": "Date: Thursday, July 9, 2026 Time 15:00 CEST The AI revolution is reshaping the memory industry, presenting unique supply challenges—such as longer lead times and allocation-based supply—and new opportunities for engineers and procurement professionals.&#160; Join this practical webinar where we will help you understand what&#8217;s behind these changes, what to expect next, and how to make [&#8230;] The post Secure Your Supply, Accelerate Your Designs: A Practical Guide to the Memory Super Cycl...",
+      "published_at": "2026-06-08T18:54:45+00:00",
+      "summary": "Chinese startup Prinano claims it produced 8-inch photonic chip wafers without DUV lithography, using nanoimprint technology that cuts costs by 90%.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/macos/apple-demonstrates-cross-platform-siri-upgrades-in-macos-27-golden-gate-at-wwdc-update-brings-liquid-glass-improvements-and-unifies-ai-strategy",
+      "title": "Apple demonstrates cross-platform Siri upgrades in macOS 27 Golden Gate at WWDC — update brings Liquid Glass improvements and unifies AI strategy",
+      "url": "https://www.tomshardware.com/software/macos/apple-demonstrates-cross-platform-siri-upgrades-in-macos-27-golden-gate-at-wwdc-update-brings-liquid-glass-improvements-and-unifies-ai-strategy",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Andrew E. Freedman",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T18:40:17+00:00",
+      "summary": "At WWDC, Apple revealed its upcoming macOS update, macOS 27 Golden Gate, with a more refined Liquid Glass design and cross-platform Siri and Apple Intelligence features.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-expands-new-game-boosting-ibot-software-with-seven-more-games-up-to-a-27-percent-improvement-team-blue-claims-12-percent-average-jump-in-newly-supported-titles",
+      "title": "Intel expands new game-boosting iBOT software with seven more games, up to a 27% improvement — Team Blue claims 12% average jump in newly-supported titles",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-expands-new-game-boosting-ibot-software-with-seven-more-games-up-to-a-27-percent-improvement-team-blue-claims-12-percent-average-jump-in-newly-supported-titles",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T17:49:06+00:00",
+      "summary": "Intel is expanding its performance-boosting iBOT feature with seven new games.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/most-new-us-ai-data-centers-are-going-up-on-drought-land",
+      "title": "Most new U.S. AI data centers are being built in drought zones — two-thirds of 809 planned projects set for areas with water shortages",
+      "url": "https://www.tomshardware.com/tech-industry/most-new-us-ai-data-centers-are-going-up-on-drought-land",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T16:39:27+00:00",
+      "summary": "About two-thirds of the 809 data centers planned across the U.S. are slated for land that has been in drought over the past year.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-decade",
+      "title": "Farmer donates land for a park, city sells it for data center development — $10 gift became $10M for city government, with $30M tax expected over next decade",
+      "url": "https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-decade",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T16:24:05+00:00",
+      "summary": "Texas farmland originally donated in 1999 to be used only as a public park has been sold to a data center developer for $10 million.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/demand-for-data-center-cpus-has-surged-and-ai-agents-are-responsible-why-the-cpu-to-gpu-ratio-is-more-important-than-ever-for-hyperscalers",
+      "title": "Demand for data center CPUs has surged, and AI agents are responsible – why the CPU to GPU ratio is more important than ever for hyperscalers",
+      "url": "https://www.tomshardware.com/pc-components/cpus/demand-for-data-center-cpus-has-surged-and-ai-agents-are-responsible-why-the-cpu-to-gpu-ratio-is-more-important-than-ever-for-hyperscalers",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Chris Stokel-Walker",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T15:15:55+00:00",
+      "summary": "The massive AI gold rush has a new bottleneck set in its sights, CPUs. But what's driving the demand? We interview industry experts to find out.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/asml-staff-want-to-boycott-musk",
+      "title": "Disgruntled ASML employees threaten to boycott Elon Musk conference appearance — staff express ire at political involvement and 'Nazi sympathies'",
+      "url": "https://www.tomshardware.com/tech-industry/asml-staff-want-to-boycott-musk",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T13:27:58+00:00",
+      "summary": "ASML has confirmed that a group of disgruntled workers is pushing back hard against an invitation for Elon Musk to address the equipment maker’s closed annual tech conference.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/routers/travlfi-journeygo-5g-mobile-hotspot-review",
+      "title": "Travlfi JourneyGo 5G mobile hotspot review – Affordably priced, but lacking in performance and features",
+      "url": "https://www.tomshardware.com/networking/routers/travlfi-journeygo-5g-mobile-hotspot-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Brandon Hill",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T13:11:43+00:00",
+      "summary": "The Travlfi JourneyGo 5G makes a good first impression with its $299 price and lightweight design, but that shine wears off quickly.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/finland-concludes-baltic-cable-sabotage-investigation-with-four-suspects-referred-to-prosecutors",
+      "title": "Four suspects identified in Finland undersea cable damage investigation — criminal case referred to prosecutors for consideration of charges",
+      "url": "https://www.tomshardware.com/networking/finland-concludes-baltic-cable-sabotage-investigation-with-four-suspects-referred-to-prosecutors",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T12:32:55+00:00",
+      "summary": "Finland's National Bureau of Investigation has concluded its criminal investigation into the damage to two undersea telecommunications cables in the Gulf of Finland on December 31st.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/vpn/bag-a-huge-usd308-saving-on-a-two-year-expressvpn-advanced-sub-and-get-four-bonus-months-on-top-for-free-78-percent-discount-gets-you-this-fast-no-logs-vpn-service-with-support-for-12-simultaneous-connections-for-just-usd83",
+      "title": "Bag a huge $308 saving on a two-year ExpressVPN Advanced sub and get four bonus months on top for free — 78% discount gets you this fast no-logs VPN service with support for 12 simultaneous connections for just $83",
+      "url": "https://www.tomshardware.com/software/vpn/bag-a-huge-usd308-saving-on-a-two-year-expressvpn-advanced-sub-and-get-four-bonus-months-on-top-for-free-78-percent-discount-gets-you-this-fast-no-logs-vpn-service-with-support-for-12-simultaneous-connections-for-just-usd83",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T11:41:23+00:00",
+      "summary": "Save over $300 on this two-year ExpressVPN Advanced subscription, with support for 12 simultaneous devices, advanced web protection, and a bunch of other tools for just $83.72, with four months extra for free.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/dram/nvidia-and-sk-hynix-ink-multi-year-memory-co-development-and-supply-agreement-seeks-to-address-extended-development-cycles",
+      "title": "Nvidia and SK hynix ink multi-year memory co-development and supply agreement — seeks to address extended development cycles",
+      "url": "https://www.tomshardware.com/pc-components/dram/nvidia-and-sk-hynix-ink-multi-year-memory-co-development-and-supply-agreement-seeks-to-address-extended-development-cycles",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T11:23:57+00:00",
+      "summary": "Nvidia and SK hynix have inked a multi-year collaboration agreement under which the companies will co-develop next-generation memory technologies for Nvidia's upcoming platforms and SK hynix will supply them to Nvidia.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-introduced-the-first-processor-in-the-x86-series-and-the-first-8086-microprocessor-on-this-day-in-1978-cpu-was-designed-as-a-temporary-substitute-for-the-delayed-iapx-432-project",
+      "title": "Intel introduced ‘the first processor in the x86 series and the first 8086 microprocessor’ on this day in 1978 — CPU was designed as a temporary substitute for the delayed iAPX 432 project",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-introduced-the-first-processor-in-the-x86-series-and-the-first-8086-microprocessor-on-this-day-in-1978-cpu-was-designed-as-a-temporary-substitute-for-the-delayed-iapx-432-project",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T11:21:46+00:00",
+      "summary": "June 8, 1978, marked the birth of the x86 architecture with the arrival of the 16-bit Intel 8086 CPU.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/executives-are-cutting-jobs-for-an-ai-future-that-hasnt-fully-arrived-yet-even-as-productivity-gains-remain-difficult-to-prove-data-neither-confirms-nor-refutes-an-ai-unemployment-apocalypse",
+      "title": "Executives are cutting jobs for an AI future that hasn't fully arrived yet, even as productivity gains remain difficult to prove — data neither confirms nor refutes an AI unemployment apocalypse",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/executives-are-cutting-jobs-for-an-ai-future-that-hasnt-fully-arrived-yet-even-as-productivity-gains-remain-difficult-to-prove-data-neither-confirms-nor-refutes-an-ai-unemployment-apocalypse",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T11:20:00+00:00",
+      "summary": "A growing number of CEOs expect AI-driven layoffs, but economic data paints a more complex picture as companies cut junior roles before proving AI delivers meaningful productivity gains.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/amazon-is-offering-a-usd324-nvidia-rtx-5060-gpu-deal-in-a-lightning-sale-making-it-the-cheapest-model-available-1080p-gaming-on-a-budget",
+      "title": "Amazon is offering a $324 Nvidia RTX 5060 GPU deal in a lightning sale, making it the cheapest model available — 1080p gaming on a budget",
+      "url": "https://www.tomshardware.com/pc-components/gpus/amazon-is-offering-a-usd324-nvidia-rtx-5060-gpu-deal-in-a-lightning-sale-making-it-the-cheapest-model-available-1080p-gaming-on-a-budget",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T11:06:53+00:00",
+      "summary": "Grab an RTX 5060 GPU deal while you still can. The $324 deal is selling out fast in Amazon's limited-time sale.",
       "lang": "en"
     },
     {
@@ -520,20 +775,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/3d-printing/elegoo-jupiter-2-resin-3d-printer-review",
-      "title": "Elegoo Jupiter 2 Resin 3D Printer review: The giant returns for round two",
-      "url": "https://www.tomshardware.com/3d-printing/elegoo-jupiter-2-resin-3d-printer-review",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/youtube-slams-1-7-volts-into-6700k-in-an-attempt-to-stop-the-cpu-from-bottlenecking-an-rtx-3080-pushes-gpu-utilization-from-60-percent-to-74-percent",
+      "title": "Ludicrous overclock slams 1.7 volts into 6700K in an attempt to stop CPU from bottlenecking an RTX 3080 — 5.2 GHz on aging four-core pushes GPU utilization from 60% to 74%",
+      "url": "https://www.tomshardware.com/pc-components/cpus/youtube-slams-1-7-volts-into-6700k-in-an-attempt-to-stop-the-cpu-from-bottlenecking-an-rtx-3080-pushes-gpu-utilization-from-60-percent-to-74-percent",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Matt Farmer",
+        "name": "Aaron Klotz",
         "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
       "published_at": "2026-06-07T11:00:00+00:00",
-      "summary": "Elegoo’s Jupiter 2 is a resin powerhouse with a large print area and 16K high-quality 3D printing at a reasonable price.",
+      "summary": "YouTuber challenges himself to alleviate a CPU bottleneck with a Core i7-6700K paired with an RTX 3080 through overclocking.",
       "lang": "en"
     },
     {
@@ -554,20 +809,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/youtube-slams-1-7-volts-into-6700k-in-an-attempt-to-stop-the-cpu-from-bottlenecking-an-rtx-3080-pushes-gpu-utilization-from-60-percent-to-74-percent",
-      "title": "Ludicrous overclock slams 1.7 volts into 6700K in an attempt to stop CPU from bottlenecking an RTX 3080 — 5.2 GHz on aging four-core pushes GPU utilization from 60% to 74%",
-      "url": "https://www.tomshardware.com/pc-components/cpus/youtube-slams-1-7-volts-into-6700k-in-an-attempt-to-stop-the-cpu-from-bottlenecking-an-rtx-3080-pushes-gpu-utilization-from-60-percent-to-74-percent",
+      "id": "rss:https://www.tomshardware.com/3d-printing/elegoo-jupiter-2-resin-3d-printer-review",
+      "title": "Elegoo Jupiter 2 Resin 3D Printer review: The giant returns for round two",
+      "url": "https://www.tomshardware.com/3d-printing/elegoo-jupiter-2-resin-3d-printer-review",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Aaron Klotz",
+        "name": "Matt Farmer",
         "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
       "published_at": "2026-06-07T11:00:00+00:00",
-      "summary": "YouTuber challenges himself to alleviate a CPU bottleneck with a Core i7-6700K paired with an RTX 3080 through overclocking.",
+      "summary": "Elegoo’s Jupiter 2 is a resin powerhouse with a large print area and 16K high-quality 3D printing at a reasonable price.",
       "lang": "en"
     },
     {
@@ -619,261 +874,6 @@
       "views": null,
       "published_at": "2026-06-06T16:06:19+00:00",
       "summary": "Security researcher Rasmus Moorats has demonstrated that Creative's Sound Blaster Katana V2X gaming soundbar can be hijacked over Bluetooth from up to 16 yards away.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/upgrade-your-pc-with-a-2tb-pcie-4-0-ssd-750w-power-supply-and-240mm-aio-for-usd300-hardware-bundle-saves-you-nearly-usd200",
-      "title": "Upgrade your PC with a 2TB PCIe 4.0 SSD, 750W power supply, and 240mm AIO for $300 — hardware bundle saves you nearly $200",
-      "url": "https://www.tomshardware.com/pc-components/upgrade-your-pc-with-a-2tb-pcie-4-0-ssd-750w-power-supply-and-240mm-aio-for-usd300-hardware-bundle-saves-you-nearly-usd200",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-06T15:33:18+00:00",
-      "summary": "Even though power supplies and CPU coolers have remained unaffected by the AI boom, storage costs have skyrocketed, which makes this deal even more lucrative. You're getting a blazing-fast 2TB SSD, a genuinely solid power supply, and a decent AIO that can help you stop worrying about the small things and focus on sourcing cheaper memory and GPUs.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/usd6000-semi-truck-gaming-rig-just-got-a-massive-upgrade-cabin-overhaul-includes-new-racing-bucket-seat-pedals-and-other-accessories-to-level-up-their-truck",
-      "title": "$6000 semi-truck gaming rig just got a massive upgrade — cabin overhaul includes new racing bucket seat, pedals, and other accessories to level up their truck",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/usd6000-semi-truck-gaming-rig-just-got-a-massive-upgrade-cabin-overhaul-includes-new-racing-bucket-seat-pedals-and-other-accessories-to-level-up-their-truck",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-06T15:22:57+00:00",
-      "summary": "The trucker worked with Conspit to install a new seat, pedals, and other parts and accessories to level up their already insane semi-truck sim rig.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/storage/the-floppy-disk-patent-was-granted-today-in-1972-when-80kb-took-up-8-inches-and-were-really-floppy",
-      "title": "The Floppy Disk patent was granted today in 1972 — when 80KB took up 8 inches and were really floppy",
-      "url": "https://www.tomshardware.com/pc-components/storage/the-floppy-disk-patent-was-granted-today-in-1972-when-80kb-took-up-8-inches-and-were-really-floppy",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-06T14:45:15+00:00",
-      "summary": "The patent application for the floppy disk was granted to two IBM engineers on this day in 1972.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/prusa-research-goes-full-spectrum-in-anticipation-of-indx",
-      "title": "Prusa Research goes full spectrum in anticipation of INDX",
-      "url": "https://www.tomshardware.com/3d-printing/prusa-research-goes-full-spectrum-in-anticipation-of-indx",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Denise Bertacchi",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-06T13:34:49+00:00",
-      "summary": "Prusa Research has announced a new open-source ColorMix engine for both PrusaSlicer and its web-based EasyPrint slicer.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/motherboards/gigabyte-z890-aorus-elite-wifi7-plus-motherboard-review",
-      "title": "Gigabyte Z890 Aorus Elite Wifi7 Plus Motherboard Review: Cost-conscious refresh board delivers (almost) all the fixens",
-      "url": "https://www.tomshardware.com/pc-components/motherboards/gigabyte-z890-aorus-elite-wifi7-plus-motherboard-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-06T13:13:12+00:00",
-      "summary": "At under $270, the Gigabyte Z890 Aorus Elite Wifi7 Plus is a worthwhile mainstream motherboard. Fast networking and ample storage options are just two of the highlights of this refreshed Z890 offering.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ram/lexar-regional-manager-says-that-ram-prices-are-expected-to-double-by-the-end-of-the-year-discounts-and-stabilized-prices-result-from-distributors-getting-rid-of-old-stock-or-sourcing-products-from-other-regions",
-      "title": "Lexar regional manager says that RAM prices are expected to double by the end of the year — 'discounts' and stabilized prices result from distributors getting rid of old stock or sourcing products from other regions",
-      "url": "https://www.tomshardware.com/pc-components/ram/lexar-regional-manager-says-that-ram-prices-are-expected-to-double-by-the-end-of-the-year-discounts-and-stabilized-prices-result-from-distributors-getting-rid-of-old-stock-or-sourcing-products-from-other-regions",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-06T13:00:00+00:00",
-      "summary": "Industry insiders say that RAM prices will continue to go up in the next eight to nine months, as the memory chip crisis goes from bad to worse. While retailers make moves to temporarily reduce prices, these will eventually run out, so if you need to buy RAM, you should buy it now.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/pc-cases/taiwanese-startup-formulav-line-wants-to-break-into-us-market-with-two-new-unique-cases-company-expects-products-to-become-available-on-newegg-later-this-year",
-      "title": "Taiwanese startup FormulaV Line wants to break into US market with two new unique cases — company expects products to become available on Newegg later this year",
-      "url": "https://www.tomshardware.com/pc-components/pc-cases/taiwanese-startup-formulav-line-wants-to-break-into-us-market-with-two-new-unique-cases-company-expects-products-to-become-available-on-newegg-later-this-year",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-06T12:40:00+00:00",
-      "summary": "Taiwanese startup FormulaV Line wants to break into the U.S. market with these two new and unique cases. It also showed off a plethora of other components, including PSUs, cooling solutions, and even a gaming chair on the showfloor at Computex 2026.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ram/g-skill-explains-how-amd-expo-ull-unlocks-additional-performance-expanded-profiles-allow-memory-makers-to-include-subtiming-tweaks-for-the-first-time",
-      "title": "G.Skill explains how AMD EXPO ULL unlocks additional performance — expanded profiles allow memory makers to include subtiming tweaks for the first time",
-      "url": "https://www.tomshardware.com/pc-components/ram/g-skill-explains-how-amd-expo-ull-unlocks-additional-performance-expanded-profiles-allow-memory-makers-to-include-subtiming-tweaks-for-the-first-time",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jeffrey Kampman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-06T12:20:00+00:00",
-      "summary": "AMD's EXPO Ultra Low Latency program, announced at Computex 2026, aims to give users a one-click route to lower memory latencies than its existing EXPO profiles",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-led-team-claims-it-post-trained-deepseeks-1-6-trillion-parameter-models-on-ascend-910c-chips",
-      "title": "Huawei-led team claims it post-trained DeepSeek's 1.6-trillion-parameter model — 1,000 Ascend 910C chips used in training",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-led-team-claims-it-post-trained-deepseeks-1-6-trillion-parameter-models-on-ascend-910c-chips",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-06T12:00:00+00:00",
-      "summary": "A research group that includes Huawei Technologies says it completed full-parameter post-training of DeepSeek's V4-Pro, a 1.6-trillion-parameter model.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/unreleased-rtx-3050-ti-engineering-sample-appears-in-photos-and-benchmarks-the-rtx-3060-alternative-that-never-happened",
-      "title": "Unreleased RTX 3050 Ti engineering sample appears in photos and benchmarks — the RTX 3060 alternative that never happened",
-      "url": "https://www.tomshardware.com/pc-components/gpus/unreleased-rtx-3050-ti-engineering-sample-appears-in-photos-and-benchmarks-the-rtx-3060-alternative-that-never-happened",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-06T11:40:00+00:00",
-      "summary": "Hardware leaker shares photographs and benchmarks for Nvidia's GeForce RTX 3050 Ti desktop graphics card that was never released.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/finland-deploys-new-system-to-detect-threats-to-undersea-cables-distributed-acoustic-sensors-measure-vibrations-from-the-seabed-and-informs-the-authorities-and-operators-of-suspicious-activities",
-      "title": "Finland deploys new system to detect threats to undersea cables — distributed acoustic sensors measure vibrations from the seabed and informs the authorities and operators of suspicious activities",
-      "url": "https://www.tomshardware.com/tech-industry/finland-deploys-new-system-to-detect-threats-to-undersea-cables-distributed-acoustic-sensors-measure-vibrations-from-the-seabed-and-informs-the-authorities-and-operators-of-suspicious-activities",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-06T10:30:00+00:00",
-      "summary": "Finnish companies and academic institutions, alongside the Finnish Navy and Border Guards, worked together to develop a system that used existing undersea cables to detect potential disturbances on the seabed. This system would allow the authorities to respond to any detected anomaly, potentially preventing critical undersea infrastructure from getting damaged.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/retro-gaming-enthusiast-attempts-loading-games-to-sega-genesis-from-a-vinyl-record-player-recording-game-data-as-sound-mega-everdrive-pro-and-pi-pico-2-board-not-enough-to-overcome-limitations-of-the-turntable",
-      "title": "Retro gaming enthusiast attempts loading games to Sega Genesis from a vinyl record player, recording game data as sound — Mega EverDrive Pro and Pi Pico 2 board not enough to overcome limitations of the turntable",
-      "url": "https://www.tomshardware.com/video-games/retro-gaming/retro-gaming-enthusiast-attempts-loading-games-to-sega-genesis-from-a-vinyl-record-player-recording-game-data-as-sound-mega-everdrive-pro-and-pi-pico-2-board-not-enough-to-overcome-limitations-of-the-turntable",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-06T10:00:00+00:00",
-      "summary": "A quirky tech enthusiast attempted to load Sega Genesis console games through a vinyl record player.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/nsa-using-clause-mythos-for-offensive-cyber-operations-report-claims-says-half-a-dozen-anthropic-engineers-embedded-inside-the-agency",
-      "title": "NSA using Claude Mythos for 'offensive cyber operations,' report claims — says 'half-a-dozen' Anthropic engineers embedded inside the agency",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nsa-using-clause-mythos-for-offensive-cyber-operations-report-claims-says-half-a-dozen-anthropic-engineers-embedded-inside-the-agency",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T16:53:46+00:00",
-      "summary": "US National Security Agency reportedly using Mythos for conducting cyber-attacks — report reveals Anthropic engineers inside the NSA",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/mini-pcs/aoostar-mini-pcs-bring-elite-ryzen-power-in-a-tiny-footprint-for-under-usd400",
-      "title": "Aoostar mini-PCs bring elite Ryzen power in a tiny footprint for under $400",
-      "url": "https://www.tomshardware.com/desktops/mini-pcs/aoostar-mini-pcs-bring-elite-ryzen-power-in-a-tiny-footprint-for-under-usd400",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sponsored",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T16:52:17+00:00",
-      "summary": "Aoostar's Maco, G-Flip, and Gem12 Max mini-PCs go on sale for a limited time on AliExpress with free shipping from a local U.S. warehouse.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-will-reportedly-upgrade-its-wildcat-lake-refresh-to-an-8-core-config-next-year-leak-claims-top-end-silicon-tipped-to-feature-4-p-cores-and-4-lp-e-cores-as-part-of-core-400-series",
-      "title": "Intel will reportedly upgrade its Wildcat Lake refresh to an 8-core config next year, leak claims — top-end silicon tipped to feature 4 P-cores and 4 LP-E cores as part of 'Core 400' series",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-will-reportedly-upgrade-its-wildcat-lake-refresh-to-an-8-core-config-next-year-leak-claims-top-end-silicon-tipped-to-feature-4-p-cores-and-4-lp-e-cores-as-part-of-core-400-series",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T16:02:36+00:00",
-      "summary": "Intel's Wildcat Lake refresh that's supposedly debuting next year will shift focus to a more upmarket audience, only refreshing its Core 5 and Core 7 tiers. The new silicon at the top-end would feature 8 cores, up from 6 cores on Wildcat Lake right now, with the 4 P-cores and 4 LP-E cores. The Core 3 parts are claimed to remain unchanged.",
       "lang": "en"
     },
     {
@@ -964,8 +964,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48424605"
       },
       "duration_sec": null,
-      "views": 325,
-      "comments": 540,
+      "views": 329,
+      "comments": 556,
       "published_at": "2026-06-06T12:52:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1005,6 +1005,25 @@
       "views": 149,
       "comments": 28,
       "published_at": "2026-06-01T13:32:44+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48444451",
+      "title": "Nvidia partners with LG robotics to build humanoid robots in South Korea",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48444451",
+        "name": "spwa4",
+        "hn_url": "https://news.ycombinator.com/item?id=48444451"
+      },
+      "duration_sec": null,
+      "views": 57,
+      "comments": 81,
+      "published_at": "2026-06-08T12:25:14+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1192,8 +1211,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48431367"
       },
       "duration_sec": null,
-      "views": 52,
-      "comments": 33,
+      "views": 53,
+      "comments": 36,
       "published_at": "2026-06-07T03:00:52+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
@@ -1230,8 +1249,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48439316"
       },
       "duration_sec": null,
-      "views": 20,
-      "comments": 0,
+      "views": 21,
+      "comments": 2,
       "published_at": "2026-06-07T22:38:25+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
@@ -1249,8 +1268,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48356312"
       },
       "duration_sec": null,
-      "views": 101,
-      "comments": 27,
+      "views": 102,
+      "comments": 28,
       "published_at": "2026-06-01T13:05:02+00:00",
       "summary": "",
       "matched_keyword": "data center OR datacenter",

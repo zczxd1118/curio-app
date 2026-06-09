@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-08T08:18:46.406838+00:00",
+  "fetched_at": "2026-06-09T06:55:55.298215+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 8,
+    "HN · Nvidia": 9,
     "HN · semiconductor": 5,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 35,
+  "total": 36,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/risc-v-summit-europe-2026-industry-and-academia-unite-in-bologna-to-advance-open-hardware/",
+      "title": "RISC-V Summit Europe 2026: Industry and Academia Unite in Bologna to Advance Open Hardware",
+      "url": "https://www.eetimes.com/risc-v-summit-europe-2026-industry-and-academia-unite-in-bologna-to-advance-open-hardware/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "RISC-V Summit",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T16:10:19+00:00",
+      "summary": "RISC-V Summit Europe is coming to Bologna, Italy, with a program that reflects just how far the ecosystem has come since we gathered in Paris a year ago. Taking place June 8–12 2026 at the Palazzo dei Congressi, the summit unites members, manufacturers, researchers, public institutions, academics and students, all helping to nurture the RISC-V [&#8230;] The post RISC-V Summit Europe 2026: Industry and Academia Unite in Bologna to Advance Open Hardware appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/chips-act-2-0-inside-europes-semiconductor-rethink/",
+      "title": "Inside Europe’s Chip Rethink: Why Fabs Weren’t Enough and Why Spain Matters",
+      "url": "https://www.eetimes.com/chips-act-2-0-inside-europes-semiconductor-rethink/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-08T12:00:00+00:00",
+      "summary": "Spain is emerging as a more influential player in Europe’s next chip debate—through design startups, photonics, quantum technologies, and a growing talent base. The post Inside Europe’s Chip Rethink: Why Fabs Weren’t Enough and Why Spain Matters appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/antenna-first-design-the-rf-shift-iot-cannot-avoid/",
       "title": "Antenna-First Design: The RF Shift IoT Cannot Avoid",
       "url": "https://www.eetimes.com/antenna-first-design-the-rf-shift-iot-cannot-avoid/",
@@ -325,40 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/inchfab-sells-10m-mini-fabs-to-democratize-chipmaking/",
-      "title": "InchFab Sells $10M Mini Fabs to Democratize Chipmaking",
-      "url": "https://www.eetimes.com/inchfab-sells-10m-mini-fabs-to-democratize-chipmaking/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-03T22:00:00+00:00",
-      "summary": "InchFab's mini fabs are cost-competitive with larger 8-inch wafer fabs at the half-micron and larger nodes. The post InchFab Sells $10M Mini Fabs to Democratize Chipmaking appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/secure-your-supply-accelerate-your-designs-a-practical-guide-to-the-memory-super-cycle/",
-      "title": "Secure Your Supply, Accelerate Your Designs: A Practical Guide to the Memory Super Cycle",
-      "url": "https://www.eetimes.com/secure-your-supply-accelerate-your-designs-a-practical-guide-to-the-memory-super-cycle/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Infineon Technologies and Arrow Electronics",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-03T18:16:56+00:00",
-      "summary": "Date: Thursday, July 9, 2026 Time 15:00 CEST The AI revolution is reshaping the memory industry, presenting unique supply challenges—such as longer lead times and allocation-based supply—and new opportunities for engineers and procurement professionals.&#160; Join this practical webinar where we will help you understand what&#8217;s behind these changes, what to expect next, and how to make [&#8230;] The post Secure Your Supply, Accelerate Your Designs: A Practical Guide to the Memory Super Cycl...",
-      "lang": "en"
-    },
-    {
       "id": "hn:48430986",
       "title": "TSMC CEO: I envy their 80% gross margins, but I would never do that",
       "url": "https://www.thestreet.com/investing/stocks/tsmc-taiwan-semiconductor-ceo-sends-blunt-message-to-memory-chip-rivals",
@@ -446,8 +446,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48424605"
       },
       "duration_sec": null,
-      "views": 325,
-      "comments": 540,
+      "views": 329,
+      "comments": 556,
       "published_at": "2026-06-06T12:52:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -487,6 +487,25 @@
       "views": 149,
       "comments": 28,
       "published_at": "2026-06-01T13:32:44+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48444451",
+      "title": "Nvidia partners with LG robotics to build humanoid robots in South Korea",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48444451",
+        "name": "spwa4",
+        "hn_url": "https://news.ycombinator.com/item?id=48444451"
+      },
+      "duration_sec": null,
+      "views": 57,
+      "comments": 81,
+      "published_at": "2026-06-08T12:25:14+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -598,8 +617,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48431367"
       },
       "duration_sec": null,
-      "views": 52,
-      "comments": 33,
+      "views": 53,
+      "comments": 36,
       "published_at": "2026-06-07T03:00:52+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
@@ -636,8 +655,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48439316"
       },
       "duration_sec": null,
-      "views": 20,
-      "comments": 0,
+      "views": 21,
+      "comments": 2,
       "published_at": "2026-06-07T22:38:25+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
