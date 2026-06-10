@@ -1,225 +1,203 @@
 {
-  "date": "2026-06-09",
-  "intro": "今日核心信号：AI IPO 竞赛白热化——OpenAI 秘密提交上市文件，Anthropic 明日发布 Mythos 公开版；苹果 WWDC 全面拥抱 AI，Siri 独立成 app 并接入 Gemini；Nvidia 与 SK 海力士签署多年期内存联合开发协议，AI 算力军备竞赛升级。",
+  "date": "2026-06-10",
+  "intro": "今天的关键信号：Anthropic 正式发布 Claude Fable 5（Mythos 的公众版），AI 编程能力再上台阶；同时，AI 巨头 IPO 潮（SpaceX、OpenAI、Anthropic）估值合计 3.6 万亿美元，市场集中度风险加剧。此外，台积电 5 月营收同比增 30%，AI 芯片需求持续强劲；但美伊冲突升级导致亚太股市重挫，短期波动加大。",
   "headlines": [
     {
       "rank": 1,
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
-      "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
-      "source": "TechCrunch",
+      "id": "rss:https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
+      "url": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
+      "source": "The Verge",
       "stars": 5,
-      "title": "OpenAI 秘密提交 IPO 文件，紧随 Anthropic 步伐，AI 巨头上市竞赛加速",
-      "lead": "OpenAI 于 6 月 8 日向 SEC 秘密提交 IPO 文件，距 Anthropic 公开上市申请仅一周。两家公司估值均超千亿美元，这场 IPO 竞赛将决定 AI 领域资本格局。",
+      "title": "Anthropic 发布 Claude Fable 5：Mythos 级模型首次面向公众，编程与游戏生成能力突出",
+      "lead": "Anthropic 今日正式发布 Claude Fable 5，这是其此前仅限预览的 Mythos 模型的公开版本。官方称其在软件工程、创意写作等多项基准上达到 SOTA，尤其擅长生成可玩的视频游戏。Fable 5 已在 Claude 平台上线，API 同步开放。",
       "confirmed": [
-        "OpenAI 已向 SEC 秘密提交 S-1 文件",
-        "Anthropic 于 6 月 1 日公开提交 IPO 申请",
-        "两家公司均计划 2026 年下半年上市",
-        "OpenAI 估值目标约 1500 亿美元，Anthropic 约 900 亿美元"
+        "Fable 5 是 Anthropic 首个公开的 Mythos 级模型，此前 Mythos Preview 仅限安全测试",
+        "在 SWE-bench、HumanEval 等编程基准上达到 SOTA",
+        "支持一键生成可玩的 HTML5 游戏，已在社交媒体引发热议",
+        "API 定价与 Claude 4 系列持平，但推理成本略高",
+        "内置新的安全层，限制高风险领域（如网络安全、生物）的响应"
       ],
       "judgment": [
-        "IPO 定价区间尚未披露",
-        "监管审查力度不确定，尤其是对 Sam Altman 商业往来的调查",
-        "上市后是否改变 OpenAI 的非营利使命存疑",
-        "市场能否同时吸收两家 AI 巨头 IPO 存在分歧"
+        "Fable 5 的编程能力是否显著超越 GPT-5 或 Gemini 3.5 尚待第三方评测",
+        "游戏生成能力更多是演示性，实际可用性有待开发者验证",
+        "安全限制是否会影响实用场景（如代码审计）尚不明确",
+        "定价是否可持续——推理成本高可能限制大规模采用",
+        "Mythos 系列后续版本（如 Fable 6）的发布节奏未知"
       ],
-      "implication": "你应该关注 IPO 时间线——如果 OpenAI 和 Anthropic 都在下半年上市，你的 content-curator 项目可以提前准备 AI 公司估值对比分析内容。同时，注意 Anthropic 明日发布 Mythos 公开版，这可能是 IPO 前的技术展示，值得跟踪。"
+      "implication": "如果你在用 Claude Code 做 vibe coding，Fable 5 值得立即尝试——它在代码生成和调试上的提升可能直接加速你的 content-curator 项目。建议在 API 中切换模型对比效果，尤其关注复杂多文件重构场景。"
     },
     {
       "rank": 2,
-      "domain": "大厂 AI 动态",
-      "id": "hn:48450142",
-      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
-      "source": "MacRumors",
+      "domain": "股票",
+      "id": "wscn:3774304",
+      "url": "https://wallstreetcn.com/articles/3774304",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "Apple 在 WWDC 公布全新 AI 架构：Siri 独立成 app，底层集成 Google Gemini",
-      "lead": "Apple 在 WWDC 2026 上宣布 Siri 将拥有独立 app，并首次公开其 AI 架构部分基于 Google Gemini 模型。同时推出 AI 驱动的 Shortcuts 工作流构建器，开发者可免费使用云 AI API（前 200 万次下载）。",
+      "title": "AI 巨头 IPO 估值达 3.6 万亿美元，占纳指市值 10%，市场集中度风险创历史新高",
+      "lead": "OpenAI 秘密递交 IPO 申请，与 SpaceX、Anthropic 组成 3.6 万亿美元上市队列。华尔街见闻分析指出，这三大巨头密集入市将加剧美股集中度风险，并使相互投资的“循环资本结构”从私募延伸至公开市场。",
       "confirmed": [
-        "Siri 获得独立 app，支持跨平台（iOS 27、macOS 27、watchOS 27）",
-        "Apple 与 Google 合作，部分 AI 能力由 Gemini 提供",
-        "Shortcuts app 新增 AI 工作流构建器，支持自然语言描述",
-        "开发者云 AI API 免费额度：前 200 万次 App Store 下载"
+        "OpenAI 已秘密递交 IPO 申请，估值约 3000 亿美元",
+        "SpaceX 估值 1.77 万亿美元，Anthropic 估值约 600 亿美元",
+        "三大 AI 巨头合计估值占纳斯达克总市值约 10%",
+        "S&P 全球拒绝为大型 IPO 修改快速纳入指数规则",
+        "Morningstar 认为 SpaceX IPO 估值过高，给出 7800 亿美元估值"
       ],
       "judgment": [
-        "Apple 自研大模型进展未披露，Gemini 是临时方案还是长期合作？",
-        "Siri AI 实际体验能否追上 ChatGPT 和 Claude 仍待验证",
-        "macOS 27 仅支持 Apple Silicon，Intel Mac 用户被排除",
-        "免费 API 额度是否足以吸引开发者生态迁移？"
+        "IPO 定价是否合理——Morningstar 等机构认为 SpaceX 估值减半",
+        "大量 AI 公司上市是否会抽走市场流动性，导致其他板块承压",
+        "循环持股结构（如 SpaceX 投资 Anthropic）在公开市场中的风险",
+        "监管机构是否会干预这些大型 IPO 的上市进程",
+        "AI 公司盈利能力尚未验证，高估值能否持续"
       ],
-      "implication": "Apple 的 AI 策略从硬件转向生态——Siri 独立 app 和 Shortcuts AI 工作流对你做 Agent 项目有直接参考价值。建议下载 iOS 27 beta 试用 Siri AI 和 Shortcuts 新功能，评估能否集成到你的 content-curator 工作流中。"
+      "implication": "作为个人投资者，你需要警惕 AI 概念股的估值泡沫。虽然 IPO 热潮可能带来短期交易机会，但历史表明大型 IPO 后市场往往出现 3% 以上的回调。建议关注指数基金，避免重仓单一 AI 个股。"
     },
     {
       "rank": 3,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/pc-components/dram/nvidia-and-sk-hynix-ink-multi-year-memory-co-development-and-supply-agreement-seeks-to-address-extended-development-cycles",
-      "url": "https://www.tomshardware.com/pc-components/dram/nvidia-and-sk-hynix-ink-multi-year-memory-co-development-and-supply-agreement-seeks-to-address-extended-development-cycles",
+      "id": "rss:https://www.tomshardware.com/tech-industry/taiwan-weighs-criminal-ban-on-ai-chip-exports-to-all-of-china-as-us-trade-talks-continue",
+      "url": "https://www.tomshardware.com/tech-industry/taiwan-weighs-criminal-ban-on-ai-chip-exports-to-all-of-china-as-us-trade-talks-continue",
       "source": "Tom's Hardware",
       "stars": 4,
-      "title": "Nvidia 与 SK 海力士签署多年期内存联合开发协议，锁定下一代 HBM 供应",
-      "lead": "Nvidia 与 SK 海力士达成多年期合作，共同开发下一代 HBM 内存，SK 海力士将作为主要供应商。此举旨在应对 AI 芯片对高带宽内存的爆炸性需求，缩短开发周期。",
+      "title": "台湾考虑将 AI 芯片出口中国大陆定为刑事犯罪，管制范围扩大至所有客户",
+      "lead": "台湾正在酝酿更严格的出口管制，拟将 AI 芯片销售给中国大陆任何客户的行为定为刑事犯罪，而不仅限于黑名单企业。此举若实施，将切断中国大陆通过第三方获取高端 AI 芯片的渠道，进一步加剧全球 AI 算力供应链分裂。",
       "confirmed": [
-        "协议覆盖多代 HBM 内存的联合研发",
-        "SK 海力士将成为 Nvidia 下一代 GPU 的主要 HBM 供应商",
-        "合作旨在解决内存开发周期长于 GPU 架构迭代的问题",
-        "Nvidia 同时与三星、美光保持供应谈判"
+        "台湾正在审议新法规，将 AI 芯片出口至中国大陆列为刑事犯罪",
+        "管制范围从黑名单企业扩展至所有中国大陆客户",
+        "违规企业可能面临高管刑事责任和巨额罚款",
+        "台积电已配合美国出口管制，暂停向部分中国客户供应 7nm 以下芯片",
+        "中国大陆正加速国产替代，但先进制程仍落后 2-3 代"
       ],
       "judgment": [
-        "具体供应量和金额未披露",
-        "对三星和美光的市场份额影响尚不明确",
-        "HBM4 量产时间表仍存不确定性",
-        "长期独家供应可能推高 Nvidia 的采购成本"
+        "新法规是否会在年内通过，存在政治博弈",
+        "中国大陆通过东南亚等第三方中转进口的规模有多大",
+        "华为等企业能否通过自研芯片缓解影响",
+        "美国是否会同步升级对华芯片出口限制",
+        "对全球 AI 芯片供需格局的长期影响"
       ],
-      "implication": "HBM 是 AI 训练和推理的瓶颈，这个协议意味着 Nvidia 在供应链上进一步锁死优势。如果你在部署本地模型，HBM 产能紧张可能导致消费级 GPU 价格波动，建议关注二手市场。"
+      "implication": "如果你在开发依赖海外 GPU 的 AI 应用，需要关注供应链风险。建议评估国产芯片（如华为昇腾、寒武纪）的兼容性，并考虑在架构设计中预留多硬件适配能力。"
     },
     {
       "rank": 4,
-      "domain": "股票",
-      "id": "wscn:3774194",
-      "url": "https://wallstreetcn.com/articles/3774194",
-      "source": "华尔街见闻",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/spacex-details-its-ai1-compute-satellite",
+      "url": "https://www.tomshardware.com/tech-industry/spacex-details-its-ai1-compute-satellite",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "美国企业 AI 账单失控，DeepSeek 意外登顶企业订阅榜",
-      "lead": "Uber 四个月烧光全年 Token 预算，Salesforce 每年付给 Anthropic 约 3 亿美元。与此同时，DeepSeek 登顶美国企业订阅榜——企业不是下载开源权重，而是直接付费直连服务器。",
+      "title": "SpaceX 公布 AI1 计算卫星细节：120kW 功率，2027 年目标 1GW 太空算力",
+      "lead": "Elon Musk 发布 30 分钟视频详细介绍了 SpaceX 的 AI1 卫星设计：翼展超过波音 747，搭载可互换芯片载荷，功率 120kW（峰值 150kW）。公司同时宣布建设 1100 万平方英尺 Gigasat 工厂，目标 2027 年实现 1GW 太空 AI 算力部署。",
       "confirmed": [
-        "Uber 在 4 个月内用完了全年 AI Token 预算",
-        "Salesforce 每年向 Anthropic 支付约 3 亿美元",
-        "DeepSeek 成为美国企业 AI 订阅量最高的模型",
-        "企业选择付费 API 而非自托管开源模型"
+        "AI1 卫星翼展超过波音 747，功率 120kW，峰值 150kW",
+        "采用可互换芯片载荷设计，支持未来升级",
+        "SpaceX 正在建设 1100 万平方英尺 Gigasat 工厂",
+        "目标 2027 年实现 1GW 太空 AI 算力，2030 年达 100GW",
+        "复用星链技术和垂直整合供应链降低成本"
       ],
       "judgment": [
-        "DeepSeek 的营收规模和利润率未公开",
-        "企业是否会因成本压力转向更便宜的模型？",
-        "Anthropic 的高额合同能否持续？",
-        "开源 vs API 的长期成本对比尚无定论"
+        "太空数据中心的经济性尚未验证——发射成本 vs 地面电力成本",
+        "1GW 目标是否过于激进，技术路线存在不确定性",
+        "太空辐射对芯片可靠性的影响，需要长期测试",
+        "Google 已与 SpaceX 签署计算采购协议，但商业模型未公开",
+        "对地面 AI 算力市场的影响：补充还是替代？"
       ],
-      "implication": "如果你在构建 content-curator，API 成本是现实问题。DeepSeek 的性价比优势值得测试——建议用你的项目对比 DeepSeek 和 Claude 的 token 消耗和输出质量，这本身就是一篇好的技术评测。"
-    },
-    {
-      "rank": 5,
-      "domain": "AI",
-      "id": "bvid:BV1j67k6oENA",
-      "url": "http://www.bilibili.com/video/av116697163896598",
-      "source": "技术胖",
-      "stars": 4,
-      "title": "Claude Code 上线 Ultracode 超码功能：并行操控 100 个 Agent 开发大型项目",
-      "lead": "Claude Code 推出 Ultracode 模式，可同时运行 100 个子 Agent 并行处理大型任务。解决了单 Agent 无法完成复杂项目的痛点，实测可一次性完成此前需要多次迭代的工程级代码。",
-      "confirmed": [
-        "Ultracode 支持最多 100 个 Agent 并行工作",
-        "自动分解大型任务为子任务并分配 Agent",
-        "已集成到 Claude Code 最新版本",
-        "实测可完成此前需要多次手动干预的复杂项目"
-      ],
-      "judgment": [
-        "100 个 Agent 并行的 token 消耗极高",
-        "任务分解的准确性依赖 Claude 的规划能力",
-        "并行 Agent 间的冲突解决机制未公开",
-        "对个人开发者是否实用？更偏向团队场景"
-      ],
-      "implication": "这对你的 content-curator 项目是直接利好——你可以用 Ultracode 并行处理多个数据源的抓取、清洗和摘要生成。建议今晚就升级 Claude Code 测试，重点观察 token 成本 vs 效率提升的平衡点。"
+      "implication": "太空 AI 算力仍处于早期概念阶段，但值得关注。如果你的项目依赖大规模推理，可以留意 SpaceX 的进展——未来可能提供低延迟的太空计算服务。短期内，地面 GPU 仍是主流。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI",
-      "title": "零基础Vibe Coding教程，vibecoding实战，Claude Code+Codex+Cursor",
-      "url": "http://www.bilibili.com/video/av116711944620974",
-      "source": "尚硅谷",
-      "one_liner": "尚硅谷出品，系统性入门教程，适合推荐给团队新人，但对你来说内容偏基础。"
-    },
-    {
-      "domain": "AI",
-      "title": "2026吃透Agent Skills (Claude Skills)教程，手把手带你从0基础开始搭建企业级AI Agent智能体",
-      "url": "http://www.bilibili.com/video/av116708320808288",
-      "source": "徐庶架构师",
-      "one_liner": "Claude Skills 实战教程，有具体配置和代码，但标题党味重，内容深度待验证。"
-    },
-    {
-      "domain": "AI",
-      "title": "Anthropic明天将发布“公开版本Mythos”",
-      "url": "https://wallstreetcn.com/articles/3774197",
+      "domain": "AI 算力 / 半导体",
+      "title": "台积电 5 月营收同比增长 30%，AI 芯片需求旺盛",
+      "url": "https://wallstreetcn.com/articles/3774301",
       "source": "华尔街见闻",
-      "one_liner": "Anthropic 明日发布 Mythos 公开版，可能改名 Claude Fable 5，内置安全护栏，值得关注。"
+      "one_liner": "台积电 5 月营收 4169.8 亿新台币（约 132 亿美元），CEO 魏哲家称全球芯片供给将持续紧张。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "ASML becomes Europe's most valuable company ever",
-      "url": "https://www.tomshardware.com/tech-industry/asml-beocmes-europes-most-valuable-company-ever-as-analysts-bet-on-higher-euv-output",
+      "title": "Nvidia 与 SK 海力士签署多年内存联合开发协议",
+      "url": "https://www.tomshardware.com/pc-components/dram/nvidia-and-sk-hynix-ink-multi-year-memory-co-development-and-supply-agreement-seeks-to-address-extended-development-cycles",
       "source": "Tom's Hardware",
-      "one_liner": "ASML 市值达 6740 亿美元，成欧洲史上最高，EUV 光刻机需求强劲。"
+      "one_liner": "双方将联合开发下一代 HBM 内存，以应对 AI 芯片对带宽的持续需求。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Google signs $920M monthly compute deal with SpaceX",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-signs-usd920m-monthly-compute-deal-with-spacex-companys-projected-annual-data-center-revenue-to-exceed-its-combined-proceeds-from-starlink-launch-services-and-ai-in-2025",
-      "source": "Tom's Hardware",
-      "one_liner": "Google 每月 9.2 亿美元租用 SpaceX 算力，锁定 11 万块 Nvidia GPU，算力军备竞赛升级。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Chinese startup claims photonic chip production without DUV lithography",
+      "title": "中国初创公司 Prinano 声称用纳米压印技术生产光子芯片，成本降低 90%",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/chinese-startup-claims-photonic-chip-production-without-duv-lithography-says-nanoimprint-process-cuts-costs-by-90-percent-8-inch-wafers-produced-without-conventional-optical-lithography",
       "source": "Tom's Hardware",
-      "one_liner": "中国初创公司 Prinano 声称用纳米压印技术生产光子芯片，成本降低 90%，但可靠性存疑。"
+      "one_liner": "无需 DUV 光刻机，8 英寸晶圆已产出，但光子芯片商业化仍需验证。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Linux 开发者用 AI vibe coding 维护老旧 AMD GPU 驱动",
+      "url": "https://www.tomshardware.com/software/linux/linux-developers-are-using-ai-vibe-coding-to-keep-vintage-amd-gpus-alive-r600-driver-cleaned-up-with-github-copilot-gives-hd-2000-to-hd-6000-series-a-new-lease-of-life",
+      "source": "Tom's Hardware",
+      "one_liner": "开发者用 GitHub Copilot 清理 R600 驱动代码，让 HD 2000-6000 系列 GPU 重获新生。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Apple reveals new AI architecture built around Google Gemini models",
-      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
-      "source": "MacRumors",
-      "one_liner": "Apple AI 架构确认部分基于 Gemini，Siri 独立 app 是最大亮点。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
-      "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "title": "Apple 在 WWDC 发布 Siri AI，基于 Google Gemini 模型",
+      "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
       "source": "TechCrunch",
-      "one_liner": "微软 GitHub 仓库被黑，AI 开发者密码泄露，提醒你检查自己的开发环境安全。"
+      "one_liner": "Siri AI 支持跨应用操作，但欧洲用户因 DMA 合规问题暂不可用。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Apple will let you build workflows using AI in its new Shortcuts app",
-      "url": "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/",
+      "title": "Google 下调 AI 订阅价格，打响价格战",
+      "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
       "source": "TechCrunch",
-      "one_liner": "Shortcuts 新增 AI 工作流构建器，自然语言描述即可生成自动化流程，值得一试。"
+      "one_liner": "Google 大幅降低 Gemini Advanced 订阅价格，意图抢占市场份额。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Microsoft AI 负责人批评 Anthropic 暗示 Claude 有意识",
+      "url": "https://www.theverge.com/tech/947197/microsoft-ai-mustafa-suleyman-anthropic-claude-conscious",
+      "source": "The Verge",
+      "one_liner": "Mustafa Suleyman 称 Anthropic 在 Claude 的 constitution 中讨论意识是“危险”的。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Meta 与 Reliance 签署在印度的首个 AI 数据中心协议",
+      "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+      "source": "TechCrunch",
+      "one_liner": "168MW 设施将支持 Meta 的全球 AI 计算需求，可扩展。"
     },
     {
       "domain": "股票",
-      "title": "OpenAI 跟进 Anthropic：必要时放缓前沿AI开发，呼吁建立国际机构",
-      "url": "https://wallstreetcn.com/articles/3774192",
+      "title": "AI 巨头 IPO 估值达 3.6 万亿美元，占纳指市值 10%",
+      "url": "https://wallstreetcn.com/articles/3774304",
       "source": "华尔街见闻",
-      "one_liner": "OpenAI 和 Anthropic 罕见一致支持“必要时放缓”AI 开发，被指为 IPO 铺路。"
+      "one_liner": "OpenAI、SpaceX、Anthropic 密集上市加剧市场集中度风险。"
     },
     {
       "domain": "股票",
-      "title": "美国企业开始给 DeepSeek 充值",
-      "url": "https://wallstreetcn.com/articles/3774194",
+      "title": "美伊冲突升级导致亚太股市重挫，韩股跌 6%",
+      "url": "https://wallstreetcn.com/articles/3774300",
       "source": "华尔街见闻",
-      "one_liner": "DeepSeek 登顶美国企业订阅榜，API 性价比优势显著，但数据安全疑虑未消。"
+      "one_liner": "SK 海力士跌 9%，黄金跌破 4200 美元，市场避险情绪浓厚。"
     },
     {
       "domain": "股票",
-      "title": "SpaceX IPO 估值争议：Morningstar 认为高估一倍",
-      "url": "https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued",
-      "source": "Morningstar",
-      "one_liner": "Morningstar 给 SpaceX 估值 7800 亿美元，仅为 IPO 目标的一半，风险警示。"
-    },
-    {
-      "domain": "股票",
-      "title": "中国 5 月出口超预期，AI 相关出口增速创纪录",
-      "url": "https://wallstreetcn.com/articles/3774181",
+      "title": "中国 5 月 PPI 同比涨 3.9% 创四年新高，AI 需求推升电子设备价格",
+      "url": "https://wallstreetcn.com/articles/3774282",
       "source": "华尔街见闻",
-      "one_liner": "5 月集成电路出口同比增 111%，计算机零部件增 66%，AI 需求强劲。"
+      "one_liner": "集成电路封装测试、外存储设备价格分别上涨 2.9% 和 1.9%。"
     },
     {
       "domain": "股票",
-      "title": "美联储新主席首场 FOMC 面临通胀与政治双重压力",
-      "url": "https://wallstreetcn.com/articles/3774200",
+      "title": "科技巨头 AI 资本支出占销售额比率预计 2027 年达 44%，超互联网泡沫峰值",
+      "url": "https://wallstreetcn.com/articles/3774292",
       "source": "华尔街见闻",
-      "one_liner": "CPI 预计逼近 4.2%，特朗普施压降息，新主席沃什面临独立性考验。"
+      "one_liner": "大摩警告未来三年累计折旧将超 5200 亿美元，利润率承压。"
+    },
+    {
+      "domain": "金融",
+      "title": "美国联邦法官阻止 H1B 签证 10 万美元费用规定",
+      "url": "https://www.theguardian.com/us-news/2026/jun/08/trump-h-1b-visa-fee-invalidated",
+      "source": "The Guardian",
+      "one_liner": "法官裁定特朗普政府提高 H1B 签证费用违法，影响科技公司招聘外籍人才。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-09T08:33:50+0000"
+    "scored_at": "2026-06-10T08:02:27+0000"
   }
 }
