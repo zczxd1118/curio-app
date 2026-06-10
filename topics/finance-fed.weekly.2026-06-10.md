@@ -2,19 +2,19 @@
 
 > 今日 1 条头条 + 0 条备选
 
-_今天的关键信号：Anthropic 正式发布 Claude Fable 5（Mythos 的公众版），AI 编程能力再上台阶；同时，AI 巨头 IPO 潮（SpaceX、OpenAI、Anthropic）估值合计 3.6 万亿美元，市场集中度风险加剧。此外，台积电 5 月营收同比增 30%，AI 芯片需求持续强劲；但美伊冲突升级导致亚太股市重挫，短期波动加大。_
+_今日核心信号：Anthropic 发布首个面向公众的 Mythos 级模型 Claude Fable 5，AI 编程能力再上台阶；同时 OpenAI 秘密递交 IPO 申请，与 SpaceX、Anthropic 组成 3.6 万亿美元上市队列，AI 资本化进入新阶段。此外，台积电 5 月营收同比增长 30%，AI 芯片需求持续旺盛。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. 美国联邦法官阻止 H1B 签证 10 万美元费用规定
+### 1. 联邦法官阻止 H1B 签证 10 万美元费用规定
 
-**[金融]** · ⭐⭐⭐ · _The Guardian_
+**[金融]** · ⭐⭐⭐ · _Alaska's News Source_
 
-法官裁定特朗普政府提高 H1B 签证费用违法，影响科技公司招聘外籍人才。
+对计划留美工作的中国学生是利好消息，但政策不确定性仍在。
 
-📺 [打开原文](https://www.theguardian.com/us-news/2026/jun/08/trump-h-1b-visa-fee-invalidated)
+📺 [打开原文](https://www.alaskasnewssource.com/2026/06/08/federal-judge-blocks-h1-b-visa-100k-fee/)
 
 ---
 
