@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-09T06:55:55.298215+00:00",
+  "fetched_at": "2026-06-10T07:15:06.623795+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 9,
+    "HN · Nvidia": 8,
     "HN · semiconductor": 5,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 36,
+  "total": 35,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/indias-2035-chip-ambitions-focus-on-targeted-design-manufacturing-leadership/",
+      "title": "India’s 2035 Chip Ambitions Focus on Targeted Design, Manufacturing Leadership",
+      "url": "https://www.eetimes.com/indias-2035-chip-ambitions-focus-on-targeted-design-manufacturing-leadership/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-09T22:00:00+00:00",
+      "summary": "India maps out a bold $150B chip strategy for 2035—see why this time might be different. The post India’s 2035 Chip Ambitions Focus on Targeted Design, Manufacturing Leadership appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/efinix-rethinking-the-logic-routing-tradeoff-in-fpgas/",
+      "title": "Rethinking the Logic-Routing Tradeoff in FPGAs",
+      "url": "https://www.eetimes.com/efinix-rethinking-the-logic-routing-tradeoff-in-fpgas/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-09T17:00:00+00:00",
+      "summary": "Efinix’ exchangeable logic-and-routing technology aims to cut power and die area while enabling memory integration and greater flexibility for AI edge designs. The post Rethinking the Logic-Routing Tradeoff in FPGAs appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/the-concerning-unchecked-rise-of-e2e-ai-in-physical-applications/",
+      "title": "The Concerning, Unchecked Rise of E2E AI in Physical Applications",
+      "url": "https://www.eetimes.com/the-concerning-unchecked-rise-of-e2e-ai-in-physical-applications/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Girish Mhatre",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-09T13:24:48+00:00",
+      "summary": "Don’t let the bodies pile up The post The Concerning, Unchecked Rise of E2E AI in Physical Applications appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/xensiv-tmr-based-sensors-unlocking-new-possibilities-in-magnetic-sensing/",
+      "title": "XENSIV™ TMR-based Sensors: Unlocking New Possibilities in Magnetic Sensing",
+      "url": "https://www.eetimes.com/xensiv-tmr-based-sensors-unlocking-new-possibilities-in-magnetic-sensing/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Marc Biehn, Head of Product Group Industrial Consumer Magnetic Sensing; Sebastian Maerz, Business Developer Magnetic Sensing, Infineon Technologies AG",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-09T13:00:00+00:00",
+      "summary": "Explore how Infineon's TMR-based XENSIV™ sensors deliver high-sensitivity, low-noise magnetic sensing for position, current, and overcurrent protection. The post XENSIV™ TMR-based Sensors: Unlocking New Possibilities in Magnetic Sensing appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/as-chips-go-vertical-metrology-struggles-to-keep-up/",
+      "title": "As Chips Go Vertical, Metrology Struggles to Keep Up",
+      "url": "https://www.eetimes.com/as-chips-go-vertical-metrology-struggles-to-keep-up/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "summary": "Chip technology dives deeper into the Z-axis, pushing metrology to innovate or risk becoming a bottleneck. The post As Chips Go Vertical, Metrology Struggles to Keep Up appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/risc-v-summit-europe-2026-industry-and-academia-unite-in-bologna-to-advance-open-hardware/",
       "title": "RISC-V Summit Europe 2026: Industry and Academia Unite in Bologna to Advance Open Hardware",
       "url": "https://www.eetimes.com/risc-v-summit-europe-2026-industry-and-academia-unite-in-bologna-to-advance-open-hardware/",
@@ -230,7 +315,7 @@
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Senior Director of Engineering at Ignion",
+        "name": "Sifiso Gambahaya, Senior Director of Engineering at Ignion",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
@@ -271,91 +356,6 @@
       "views": null,
       "published_at": "2026-06-05T22:00:00+00:00",
       "summary": "Jensen Huang and AI frenzy steal the show at Computex 2026—dive in to see how Taiwan leads the electronics. The post Geopolitics, AI, and Jensen Huang Fuel Electronics’ Rock-and-Roll Era appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/manufacturing-accelerates-in-may-amid-inflation-and-geopolitical-headwinds/",
-      "title": "Manufacturing Accelerates in May Amid Inflation and Geopolitical Headwinds",
-      "url": "https://www.eetimes.com/manufacturing-accelerates-in-may-amid-inflation-and-geopolitical-headwinds/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "News Desk",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T13:17:36+00:00",
-      "summary": "Manufacturing expanded further in May despite Inflation and lower GDP. The post Manufacturing Accelerates in May Amid Inflation and Geopolitical Headwinds appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/chips-act-2-0-puts-demand-at-center-of-europes-semiconductor-strategy/",
-      "title": "Chips Act 2.0 Puts Demand at Center of Europe’s Semiconductor Strategy",
-      "url": "https://www.eetimes.com/chips-act-2-0-puts-demand-at-center-of-europes-semiconductor-strategy/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T07:00:00+00:00",
-      "summary": "Chips Act 2.0 shifts EU focus from factory subsidies to chip design and demand. The post Chips Act 2.0 Puts Demand at Center of Europe’s Semiconductor Strategy appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/netrasemi-brings-up-a2000-ai-chip-begins-customer-evaluation-phase/",
-      "title": "Netrasemi Brings Up A2000 AI Chip, Begins Customer Evaluation Phase",
-      "url": "https://www.eetimes.com/netrasemi-brings-up-a2000-ai-chip-begins-customer-evaluation-phase/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-04T22:00:00+00:00",
-      "summary": "Indian startup Netrasemi has launched the A2000 AI chip built on a 12-nm technology node. The post Netrasemi Brings Up A2000 AI Chip, Begins Customer Evaluation Phase appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/",
-      "title": "Computex 2026: Are We Heading for the Agentic PC Era Yet?",
-      "url": "https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-04T13:59:22+00:00",
-      "summary": "In this video interview, explore whether agentic PCs are truly here as Nvidia and Microsoft unveil new tech at Computex 2026. The post Computex 2026: Are We Heading for the Agentic PC Era Yet? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/european-electronic-waste-dilemma/",
-      "title": "European Electronic Waste Dilemma",
-      "url": "https://www.eetimes.com/european-electronic-waste-dilemma/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-04T07:30:00+00:00",
-      "summary": "European electronic waste is being collected, but the economics of recycling are complex. The post European Electronic Waste Dilemma appeared first on EE Times.",
       "lang": "en"
     },
     {
@@ -408,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48377404"
       },
       "duration_sec": null,
-      "views": 470,
+      "views": 471,
       "comments": 125,
       "published_at": "2026-06-02T22:55:33+00:00",
       "summary": "",
@@ -446,7 +446,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48424605"
       },
       "duration_sec": null,
-      "views": 329,
+      "views": 330,
       "comments": 556,
       "published_at": "2026-06-06T12:52:18+00:00",
       "summary": "",
@@ -503,8 +503,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48444451"
       },
       "duration_sec": null,
-      "views": 57,
-      "comments": 81,
+      "views": 58,
+      "comments": 86,
       "published_at": "2026-06-08T12:25:14+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -544,25 +544,6 @@
       "views": 46,
       "comments": 2,
       "published_at": "2026-06-01T10:33:25+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48352693",
-      "title": "A powerful new chapter for Windows PCs, accelerated by Nvidia RTX Spark",
-      "url": "https://blogs.windows.com/windowsexperience/2026/05/31/introducing-a-powerful-new-chapter-for-windows-pcs-accelerated-by-nvidia-rtx-spark/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48352693",
-        "name": "WalterSobchak",
-        "hn_url": "https://news.ycombinator.com/item?id=48352693"
-      },
-      "duration_sec": null,
-      "views": 34,
-      "comments": 37,
-      "published_at": "2026-06-01T04:45:20+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -655,7 +636,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48439316"
       },
       "duration_sec": null,
-      "views": 21,
+      "views": 22,
       "comments": 2,
       "published_at": "2026-06-07T22:38:25+00:00",
       "summary": "",
