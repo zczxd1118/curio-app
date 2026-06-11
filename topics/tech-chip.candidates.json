@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-10T07:15:06.623795+00:00",
+  "fetched_at": "2026-06-11T08:10:52.791502+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/startup-ricursive-to-create-an-end-to-end-ai-model-for-chip-design/",
+      "title": "Startup Ricursive to Create an End-to-End AI Model for Chip Design",
+      "url": "https://www.eetimes.com/startup-ricursive-to-create-an-end-to-end-ai-model-for-chip-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T16:26:51+00:00",
+      "summary": "“We are definitely not an EDA company,” Ricursive co-founders told EE Times. The post Startup Ricursive to Create an End-to-End AI Model for Chip Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/massive-ai-storage-demand-creates-a-new-memory-wall/",
+      "title": "Massive AI Storage Demand Creates a New Memory Wall",
+      "url": "https://www.eetimes.com/massive-ai-storage-demand-creates-a-new-memory-wall/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alper Ilkbahar",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T14:22:01+00:00",
+      "summary": "As AI models scale to trillions of parameters, conventional memory architectures face mounting capacity and efficiency constraints. The post Massive AI Storage Demand Creates a New Memory Wall appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ai-driven-memory-shortage-upends-it-budgets/",
+      "title": "AI-Driven Memory Shortage Upends IT Budgets",
+      "url": "https://www.eetimes.com/ai-driven-memory-shortage-upends-it-budgets/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T07:47:11+00:00",
+      "summary": "IT departments find that purchasing servers and computers has become much more difficult because of surging memory prices and shortages. The post AI-Driven Memory Shortage Upends IT Budgets appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/indias-2035-chip-ambitions-focus-on-targeted-design-manufacturing-leadership/",
       "title": "India’s 2035 Chip Ambitions Focus on Targeted Design, Manufacturing Leadership",
       "url": "https://www.eetimes.com/indias-2035-chip-ambitions-focus-on-targeted-design-manufacturing-leadership/",
@@ -305,57 +356,6 @@
       "views": null,
       "published_at": "2026-06-08T12:00:00+00:00",
       "summary": "Spain is emerging as a more influential player in Europe’s next chip debate—through design startups, photonics, quantum technologies, and a growing talent base. The post Inside Europe’s Chip Rethink: Why Fabs Weren’t Enough and Why Spain Matters appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/antenna-first-design-the-rf-shift-iot-cannot-avoid/",
-      "title": "Antenna-First Design: The RF Shift IoT Cannot Avoid",
-      "url": "https://www.eetimes.com/antenna-first-design-the-rf-shift-iot-cannot-avoid/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sifiso Gambahaya, Senior Director of Engineering at Ignion",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T08:00:00+00:00",
-      "summary": "Wireless IoT devices are shrinking while adding bands and certification complexity. Antenna integration can't wait until after layout lock. The post Antenna-First Design: The RF Shift IoT Cannot Avoid appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/connectivity-revolution-or-evolution-inside-data-centers/",
-      "title": "Connectivity Revolution or Evolution Inside Data Centers?",
-      "url": "https://www.eetimes.com/connectivity-revolution-or-evolution-inside-data-centers/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Teresa Monteiro and Rimlee Deb Roy",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T07:00:00+00:00",
-      "summary": "AI transforms intra-data center networking, accelerating optical innovation while extending decades-long evolution in high-performance connectivity. The post Connectivity Revolution or Evolution Inside Data Centers? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/geopolitics-ai-and-jensen-huang-fuel-electronics-rock-and-roll-era/",
-      "title": "Geopolitics, AI, and Jensen Huang Fuel Electronics’ Rock-and-Roll Era",
-      "url": "https://www.eetimes.com/geopolitics-ai-and-jensen-huang-fuel-electronics-rock-and-roll-era/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T22:00:00+00:00",
-      "summary": "Jensen Huang and AI frenzy steal the show at Computex 2026—dive in to see how Taiwan leads the electronics. The post Geopolitics, AI, and Jensen Huang Fuel Electronics’ Rock-and-Roll Era appeared first on EE Times.",
       "lang": "en"
     },
     {
@@ -511,25 +511,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:48291230",
-      "title": "Nvidia Vera CPU Benchmarks: Olympus Cores Delivering Great Performance",
-      "url": "https://www.phoronix.com/review/nvidia-vera-benchmarks",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48291230",
-        "name": "naves",
-        "hn_url": "https://news.ycombinator.com/item?id=48291230"
-      },
-      "duration_sec": null,
-      "views": 55,
-      "comments": 23,
-      "published_at": "2026-05-27T08:15:35+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:48354967",
       "title": "Nvidia announces new AI chip for personal computers",
       "url": "https://www.bbc.com/news/articles/crmp9mppvzro",
@@ -544,6 +525,25 @@
       "views": 46,
       "comments": 2,
       "published_at": "2026-06-01T10:33:25+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48352693",
+      "title": "A powerful new chapter for Windows PCs, accelerated by Nvidia RTX Spark",
+      "url": "https://blogs.windows.com/windowsexperience/2026/05/31/introducing-a-powerful-new-chapter-for-windows-pcs-accelerated-by-nvidia-rtx-spark/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48352693",
+        "name": "WalterSobchak",
+        "hn_url": "https://news.ycombinator.com/item?id=48352693"
+      },
+      "duration_sec": null,
+      "views": 34,
+      "comments": 37,
+      "published_at": "2026-06-01T04:45:20+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

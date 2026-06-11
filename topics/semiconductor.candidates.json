@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-06-10T07:14:35.204257+00:00",
+  "fetched_at": "2026-06-11T08:10:21.244719+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,7 +13,7 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 2,
-    "HN · Nvidia": 11,
+    "HN · Nvidia": 10,
     "HN · semiconductor": 5,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 69,
+  "total": 68,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/startup-ricursive-to-create-an-end-to-end-ai-model-for-chip-design/",
+      "title": "Startup Ricursive to Create an End-to-End AI Model for Chip Design",
+      "url": "https://www.eetimes.com/startup-ricursive-to-create-an-end-to-end-ai-model-for-chip-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T16:26:51+00:00",
+      "summary": "“We are definitely not an EDA company,” Ricursive co-founders told EE Times. The post Startup Ricursive to Create an End-to-End AI Model for Chip Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/massive-ai-storage-demand-creates-a-new-memory-wall/",
+      "title": "Massive AI Storage Demand Creates a New Memory Wall",
+      "url": "https://www.eetimes.com/massive-ai-storage-demand-creates-a-new-memory-wall/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alper Ilkbahar",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T14:22:01+00:00",
+      "summary": "As AI models scale to trillions of parameters, conventional memory architectures face mounting capacity and efficiency constraints. The post Massive AI Storage Demand Creates a New Memory Wall appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ai-driven-memory-shortage-upends-it-budgets/",
+      "title": "AI-Driven Memory Shortage Upends IT Budgets",
+      "url": "https://www.eetimes.com/ai-driven-memory-shortage-upends-it-budgets/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T07:47:11+00:00",
+      "summary": "IT departments find that purchasing servers and computers has become much more difficult because of surging memory prices and shortages. The post AI-Driven Memory Shortage Upends IT Budgets appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/indias-2035-chip-ambitions-focus-on-targeted-design-manufacturing-leadership/",
       "title": "India’s 2035 Chip Ambitions Focus on Targeted Design, Manufacturing Leadership",
       "url": "https://www.eetimes.com/indias-2035-chip-ambitions-focus-on-targeted-design-manufacturing-leadership/",
@@ -316,54 +367,190 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/antenna-first-design-the-rf-shift-iot-cannot-avoid/",
-      "title": "Antenna-First Design: The RF Shift IoT Cannot Avoid",
-      "url": "https://www.eetimes.com/antenna-first-design-the-rf-shift-iot-cannot-avoid/",
+      "id": "rss:https://www.tomshardware.com/pc-components/chipsets/intels-upcoming-z790-and-z990-flagship-chipsets-will-reportedly-consume-up-to-14w-at-peak-load-courtesy-of-more-pcie-5-0-support-nova-lake-motherboards-may-feature-a-22-percent-smaller-pch-than-z890",
+      "title": "Intel's upcoming Z970 and Z990 flagship chipsets will reportedly consume up to 14W at peak load, courtesy of more PCIe 5.0 support — Nova Lake motherboards may feature a 22% smaller PCH than Z890",
+      "url": "https://www.tomshardware.com/pc-components/chipsets/intels-upcoming-z790-and-z990-flagship-chipsets-will-reportedly-consume-up-to-14w-at-peak-load-courtesy-of-more-pcie-5-0-support-nova-lake-motherboards-may-feature-a-22-percent-smaller-pch-than-z890",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sifiso Gambahaya, Senior Director of Engineering at Ignion",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-08T08:00:00+00:00",
-      "summary": "Wireless IoT devices are shrinking while adding bands and certification complexity. Antenna integration can't wait until after layout lock. The post Antenna-First Design: The RF Shift IoT Cannot Avoid appeared first on EE Times.",
+      "published_at": "2026-06-10T16:35:19+00:00",
+      "summary": "The Z990 PCH for Nova Lake motherboards is apparently 22% smaller than Z890, despite featuring a higher power maximum power draw of up to 14W. The leaked picture of the PCH shows a 11.15 x 6.5mm die and 25 x 24mm package, but we're unsure what motherboard it actually comes from.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/connectivity-revolution-or-evolution-inside-data-centers/",
-      "title": "Connectivity Revolution or Evolution Inside Data Centers?",
-      "url": "https://www.eetimes.com/connectivity-revolution-or-evolution-inside-data-centers/",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-fires-back-at-nvidia-claiming-256-core-zen-6-venice-cpu-beats-vera-by-3-3x-in-rack-level-performance-company-shares-first-estimated-epyc-venice-benchmarks",
+      "title": "AMD fires back at Nvidia, claiming 256-core Zen 6 'Venice' CPU beats Vera by 3.3x in rack-level performance — company shares first estimated EPYC Venice benchmarks",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-fires-back-at-nvidia-claiming-256-core-zen-6-venice-cpu-beats-vera-by-3-3x-in-rack-level-performance-company-shares-first-estimated-epyc-venice-benchmarks",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Teresa Monteiro and Rimlee Deb Roy",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-08T07:00:00+00:00",
-      "summary": "AI transforms intra-data center networking, accelerating optical innovation while extending decades-long evolution in high-performance connectivity. The post Connectivity Revolution or Evolution Inside Data Centers? appeared first on EE Times.",
+      "published_at": "2026-06-10T16:00:29+00:00",
+      "summary": "AMD has shared the first official results for its 256-core EPYC Venice CPU, saying it beats Nvidia's Vera by 3.3x in a rack-level deployment.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/geopolitics-ai-and-jensen-huang-fuel-electronics-rock-and-roll-era/",
-      "title": "Geopolitics, AI, and Jensen Huang Fuel Electronics’ Rock-and-Roll Era",
-      "url": "https://www.eetimes.com/geopolitics-ai-and-jensen-huang-fuel-electronics-rock-and-roll-era/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/google-reportedly-books-intel-for-more-than-3-million-tpus-in-2028",
+      "title": "Google reportedly books Intel for packaging more than 3 million TPUs in 2028 — SK hynix is testing Intel's EMIB packaging for HBM integration",
+      "url": "https://www.tomshardware.com/tech-industry/google-reportedly-books-intel-for-more-than-3-million-tpus-in-2028",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-05T22:00:00+00:00",
-      "summary": "Jensen Huang and AI frenzy steal the show at Computex 2026—dive in to see how Taiwan leads the electronics. The post Geopolitics, AI, and Jensen Huang Fuel Electronics’ Rock-and-Roll Era appeared first on EE Times.",
+      "published_at": "2026-06-10T15:49:41+00:00",
+      "summary": "Google has placed an order for Intel to build more than 3 million of its TPUs in 2028 after months of testing Intel's advanced packaging.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/samsung-heavy-industries-recruits-greek-shipowner-and-supermicro-to-bring-50mw-floating-ai-data-centers-to-market",
+      "title": "Samsung Heavy Industries recruits Greek shipowner and Supermicro to bring 50MW floating AI data centers to market — can be powered by solid oxide fuel cells running on liquefied natural gas",
+      "url": "https://www.tomshardware.com/tech-industry/samsung-heavy-industries-recruits-greek-shipowner-and-supermicro-to-bring-50mw-floating-ai-data-centers-to-market",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T14:42:30+00:00",
+      "summary": "Besides Samsung Heavy, Japan’s MOL is also building a 73 MW floating data center with Karpowership for a 2027 deployment.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/valve-to-discontinue-physical-steam-gift-cards-by-the-end-of-2026-due-to-scammers-says-nefarious-actors-continue-to-exploit-them-despite-years-of-restrictions",
+      "title": "Valve to discontinue physical Steam gift cards by the end of 2026 due to scammers — says nefarious actors continue to exploit them despite years of restrictions",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/valve-to-discontinue-physical-steam-gift-cards-by-the-end-of-2026-due-to-scammers-says-nefarious-actors-continue-to-exploit-them-despite-years-of-restrictions",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T13:20:50+00:00",
+      "summary": "Physical Steam gift cards will no longer be restocked at retail stores, though digital gifting options and existing cards will remain supported.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/console-gaming/overenthusiastic-gta-6-fan-claims-to-be-monitoring-oxygen-levels-acoustic-noise-from-the-bushes-at-rockstar-north-hq-promises-trailer-3-launch-is-imminent-based-on-heightened-activity",
+      "title": "Overenthusiastic GTA 6 fan claims to be monitoring oxygen levels, acoustic noise from the bushes at Rockstar North HQ — promises trailer 3 launch is imminent based on heightened activity",
+      "url": "https://www.tomshardware.com/video-games/console-gaming/overenthusiastic-gta-6-fan-claims-to-be-monitoring-oxygen-levels-acoustic-noise-from-the-bushes-at-rockstar-north-hq-promises-trailer-3-launch-is-imminent-based-on-heightened-activity",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zak Killian",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T12:11:06+00:00",
+      "summary": "Either a dedicated jokester or a deranged fan has been posting advanced surveillance on Reddit in an attempt to predict the next GTA 6 trailer.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/analyzing-tsmcs-fab-expansion-roadmap-multi-fab-n2-ramp-cowos-soic-and-uncorking-bottlenecks",
+      "title": "Analyzing TSMC's fab expansion roadmap — multi-fab N2 ramp, CoWoS, SoIC, and uncorking bottlenecks",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/analyzing-tsmcs-fab-expansion-roadmap-multi-fab-n2-ramp-cowos-soic-and-uncorking-bottlenecks",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T11:41:11+00:00",
+      "summary": "TSMC is executing the largest manufacturing expansion in semiconductor industry history that combines simultaneous multi-fab N2 ramps, AI-driven manufacturing optimizations, and massive CoWoS/SoIC packaging capacity expansion to meet increasing demand for AI accelerators.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/grab-an-usd800-saving-on-this-rtx-5070-ti-gaming-laptop-from-hp-with-customizable-specs-and-a-20-core-cpu-base-model-costs-just-usd1-999-for-16-inch-rig-with-16gb-ddr5-with-oled-costing-just-usd60-extra",
+      "title": "Grab an $800 saving on this RTX 5070 Ti gaming laptop from HP with customizable specs and a 20-core CPU — base model costs just $1,999 for 16-inch rig with 16GB DDR5, with OLED costing just $60 extra",
+      "url": "https://www.tomshardware.com/laptops/gaming-laptops/grab-an-usd800-saving-on-this-rtx-5070-ti-gaming-laptop-from-hp-with-customizable-specs-and-a-20-core-cpu-base-model-costs-just-usd1-999-for-16-inch-rig-with-16gb-ddr5-with-oled-costing-just-usd60-extra",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T11:30:01+00:00",
+      "summary": "Save $800 on this customizable RTX 5070 Ti HP Omen Max 16 gaming laptop with 16GB DDR5, 1TB SSD, and a 16-inch display.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/gigabytes-sensational-rtx-5070-ti-aorus-prime-5-gaming-pc-has-had-usd500-slashed-off-the-list-price-at-walmart-32gb-of-ddr5-ram-and-2tb-of-storage-for-just-usd1-999",
+      "title": "Gigabyte's sensational RTX 5070 Ti Aorus Prime 5 gaming PC has had $500 slashed off the list price at Walmart — 32GB of DDR5 RAM, and 2TB of storage for just $1,999",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/gigabytes-sensational-rtx-5070-ti-aorus-prime-5-gaming-pc-has-had-usd500-slashed-off-the-list-price-at-walmart-32gb-of-ddr5-ram-and-2tb-of-storage-for-just-usd1-999",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T11:09:29+00:00",
+      "summary": "A powerful gaming desktop with a 16GB RTX 5070 Ti GPU at its heart, discounted by a massive $500 at Walmart right now.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/china-drafts-295-billion-plan-to-build-a-national-ai-data-center-grid-running-on-80-percent-domestic-chips",
+      "title": "China drafts $295 billion plan to build national AI data center grid running on 80% homemade silicon — projected 2028 timeline could run into limits of local chip production",
+      "url": "https://www.tomshardware.com/tech-industry/china-drafts-295-billion-plan-to-build-a-national-ai-data-center-grid-running-on-80-percent-domestic-chips",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T10:00:00+00:00",
+      "summary": "China is drafting a plan to spend roughly 2 trillion yuan over five years on a nationwide grid of AI data centers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/3d-printing/3d-printed-triaxial-electrospray-nozzles-could-revolutionize-drug-and-self-healing-material-manufacturing-mit-developed-technique-makes-cleanroom-fabrication-optional",
+      "title": "3D-printed nozzles could revolutionize drug and self-healing material manufacturing — MIT-developed triaxial electrospray design makes cleanroom fabrication optional",
+      "url": "https://www.tomshardware.com/3d-printing/3d-printed-triaxial-electrospray-nozzles-could-revolutionize-drug-and-self-healing-material-manufacturing-mit-developed-technique-makes-cleanroom-fabrication-optional",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-10T09:30:00+00:00",
+      "summary": "MIT's 3D-printed triaxial electrospray nozzles could revolutionize drug and self-healing material manufacturing. By using a relatively inexpensive resin printing approach, the new nozzle fabrication technique removes the need for a semiconductor-class cleanroom facility.",
       "lang": "en"
     },
     {
@@ -690,193 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/demand-for-data-center-cpus-has-surged-and-ai-agents-are-responsible-why-the-cpu-to-gpu-ratio-is-more-important-than-ever-for-hyperscalers",
-      "title": "Demand for data center CPUs has surged, and AI agents are responsible – why the CPU to GPU ratio is more important than ever for hyperscalers",
-      "url": "https://www.tomshardware.com/pc-components/cpus/demand-for-data-center-cpus-has-surged-and-ai-agents-are-responsible-why-the-cpu-to-gpu-ratio-is-more-important-than-ever-for-hyperscalers",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Chris Stokel-Walker",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T15:15:55+00:00",
-      "summary": "The massive AI gold rush has a new bottleneck set in its sights, CPUs. But what's driving the demand? We interview industry experts to find out.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/asml-staff-want-to-boycott-musk",
-      "title": "Disgruntled ASML employees threaten to boycott Elon Musk conference appearance — staff express ire at political involvement and 'Nazi sympathies'",
-      "url": "https://www.tomshardware.com/tech-industry/asml-staff-want-to-boycott-musk",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T13:27:58+00:00",
-      "summary": "ASML has confirmed that a group of disgruntled workers is pushing back hard against an invitation for Elon Musk to address the equipment maker’s closed annual tech conference.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/networking/routers/travlfi-journeygo-5g-mobile-hotspot-review",
-      "title": "Travlfi JourneyGo 5G mobile hotspot review – Affordably priced, but lacking in performance and features",
-      "url": "https://www.tomshardware.com/networking/routers/travlfi-journeygo-5g-mobile-hotspot-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Brandon Hill",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T13:11:43+00:00",
-      "summary": "The Travlfi JourneyGo 5G makes a good first impression with its $299 price and lightweight design, but that shine wears off quickly.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/networking/finland-concludes-baltic-cable-sabotage-investigation-with-four-suspects-referred-to-prosecutors",
-      "title": "Four suspects identified in Finland undersea cable damage investigation — criminal case referred to prosecutors for consideration of charges",
-      "url": "https://www.tomshardware.com/networking/finland-concludes-baltic-cable-sabotage-investigation-with-four-suspects-referred-to-prosecutors",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T12:32:55+00:00",
-      "summary": "Finland's National Bureau of Investigation has concluded its criminal investigation into the damage to two undersea telecommunications cables in the Gulf of Finland on December 31st.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/vpn/bag-a-huge-usd308-saving-on-a-two-year-expressvpn-advanced-sub-and-get-four-bonus-months-on-top-for-free-78-percent-discount-gets-you-this-fast-no-logs-vpn-service-with-support-for-12-simultaneous-connections-for-just-usd83",
-      "title": "Bag a huge $308 saving on a two-year ExpressVPN Advanced sub and get four bonus months on top for free — 78% discount gets you this fast no-logs VPN service with support for 12 simultaneous connections for just $83",
-      "url": "https://www.tomshardware.com/software/vpn/bag-a-huge-usd308-saving-on-a-two-year-expressvpn-advanced-sub-and-get-four-bonus-months-on-top-for-free-78-percent-discount-gets-you-this-fast-no-logs-vpn-service-with-support-for-12-simultaneous-connections-for-just-usd83",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T11:41:23+00:00",
-      "summary": "Save over $300 on this two-year ExpressVPN Advanced subscription, with support for 12 simultaneous devices, advanced web protection, and a bunch of other tools for just $83.72, with four months extra for free.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/dram/nvidia-and-sk-hynix-ink-multi-year-memory-co-development-and-supply-agreement-seeks-to-address-extended-development-cycles",
-      "title": "Nvidia and SK hynix ink multi-year memory co-development and supply agreement — seeks to address extended development cycles",
-      "url": "https://www.tomshardware.com/pc-components/dram/nvidia-and-sk-hynix-ink-multi-year-memory-co-development-and-supply-agreement-seeks-to-address-extended-development-cycles",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T11:23:57+00:00",
-      "summary": "Nvidia and SK hynix have inked a multi-year collaboration agreement under which the companies will co-develop next-generation memory technologies for Nvidia's upcoming platforms and SK hynix will supply them to Nvidia.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-introduced-the-first-processor-in-the-x86-series-and-the-first-8086-microprocessor-on-this-day-in-1978-cpu-was-designed-as-a-temporary-substitute-for-the-delayed-iapx-432-project",
-      "title": "Intel introduced ‘the first processor in the x86 series and the first 8086 microprocessor’ on this day in 1978 — CPU was designed as a temporary substitute for the delayed iAPX 432 project",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-introduced-the-first-processor-in-the-x86-series-and-the-first-8086-microprocessor-on-this-day-in-1978-cpu-was-designed-as-a-temporary-substitute-for-the-delayed-iapx-432-project",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T11:21:46+00:00",
-      "summary": "June 8, 1978, marked the birth of the x86 architecture with the arrival of the 16-bit Intel 8086 CPU.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/executives-are-cutting-jobs-for-an-ai-future-that-hasnt-fully-arrived-yet-even-as-productivity-gains-remain-difficult-to-prove-data-neither-confirms-nor-refutes-an-ai-unemployment-apocalypse",
-      "title": "Executives are cutting jobs for an AI future that hasn't fully arrived yet, even as productivity gains remain difficult to prove — data neither confirms nor refutes an AI unemployment apocalypse",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/executives-are-cutting-jobs-for-an-ai-future-that-hasnt-fully-arrived-yet-even-as-productivity-gains-remain-difficult-to-prove-data-neither-confirms-nor-refutes-an-ai-unemployment-apocalypse",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T11:20:00+00:00",
-      "summary": "A growing number of CEOs expect AI-driven layoffs, but economic data paints a more complex picture as companies cut junior roles before proving AI delivers meaningful productivity gains.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/amazon-is-offering-a-usd324-nvidia-rtx-5060-gpu-deal-in-a-lightning-sale-making-it-the-cheapest-model-available-1080p-gaming-on-a-budget",
-      "title": "Amazon is offering a $324 Nvidia RTX 5060 GPU deal in a lightning sale, making it the cheapest model available — 1080p gaming on a budget",
-      "url": "https://www.tomshardware.com/pc-components/gpus/amazon-is-offering-a-usd324-nvidia-rtx-5060-gpu-deal-in-a-lightning-sale-making-it-the-cheapest-model-available-1080p-gaming-on-a-budget",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T11:06:53+00:00",
-      "summary": "Grab an RTX 5060 GPU deal while you still can. The $324 deal is selling out fast in Amazon's limited-time sale.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/anycubic-photon-mono-4-dips-below-usd190-saving-you-21-percent-off-its-retail-price-amazon-deal-saves-usd50-on-this-entry-level-resin-3d-printer",
-      "title": "Anycubic Photon Mono 4 dips below $190 saving you 21% off its retail price — Amazon deal saves $50 on this entry-level resin 3D printer",
-      "url": "https://www.tomshardware.com/pc-components/anycubic-photon-mono-4-dips-below-usd190-saving-you-21-percent-off-its-retail-price-amazon-deal-saves-usd50-on-this-entry-level-resin-3d-printer",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-07T14:22:50+00:00",
-      "summary": "The Anycubic Photon Mono 4 is on-sale at $189.99, giving you a $50 discount and saving you 21% off its retail price.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/msi-gigabyte-debut-new-5k-27-inch-mini-led-monitors-with-2-304-dimming-zones-and-glossy-panel-both-models-double-the-native-180-hz-refresh-rate-to-330-hz-at-1440p",
-      "title": "MSI, Gigabyte debut new 5K 27-inch Mini-LED monitors with 2,304 dimming zones and glossy panel — both models double the native 180 Hz refresh rate to 330 Hz at 1440p",
-      "url": "https://www.tomshardware.com/monitors/msi-gigabyte-debut-new-5k-27-inch-mini-led-monitors-with-2-304-dimming-zones-and-glossy-panel-both-models-double-the-native-180-hz-refresh-rate-to-330-hz-at-1440p",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-07T14:19:42+00:00",
-      "summary": "New Mini-LED monitors from MSI and Gigabyte featuring 5K panels with 2,304 dimming zones and glossy coatings have just been announced. These feature dual- and even triple-mode support, along with full-fat DP 2.1 80 Gbps ports and high peak brightness numbers for HDR. They're also color-accurate enough for professional work.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48430986",
       "title": "TSMC CEO: I envy their 80% gross margins, but I would never do that",
       "url": "https://www.thestreet.com/investing/stocks/tsmc-taiwan-semiconductor-ceo-sends-blunt-message-to-memory-chip-rivals",
@@ -1024,25 +1024,6 @@
       "views": 58,
       "comments": 86,
       "published_at": "2026-06-08T12:25:14+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48291230",
-      "title": "Nvidia Vera CPU Benchmarks: Olympus Cores Delivering Great Performance",
-      "url": "https://www.phoronix.com/review/nvidia-vera-benchmarks",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48291230",
-        "name": "naves",
-        "hn_url": "https://news.ycombinator.com/item?id=48291230"
-      },
-      "duration_sec": null,
-      "views": 55,
-      "comments": 23,
-      "published_at": "2026-05-27T08:15:35+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
