@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-11T08:10:52.791502+00:00",
+  "fetched_at": "2026-06-12T07:29:06.961111+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/rebellions-bets-on-memory-centric-architecture-as-it-weighs-ipo-options/",
+      "title": "Rebellions Bets on Memory-Centric Architecture as it Weighs IPO Options",
+      "url": "https://www.eetimes.com/rebellions-bets-on-memory-centric-architecture-as-it-weighs-ipo-options/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-11T22:00:00+00:00",
+      "summary": "Rebellions leverages memory-centric AI chip designs with SK Hynix and Samsung to fuel IPO ambitions. The post Rebellions Bets on Memory-Centric Architecture as it Weighs IPO Options appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/gigadevice-introduces-gd32e512-and-gd32e252-mcus-for-optical-modules/",
+      "title": "GigaDevice Introduces GD32E512 and GD32E252 MCUs for Optical Modules",
+      "url": "https://www.eetimes.com/gigadevice-introduces-gd32e512-and-gd32e252-mcus-for-optical-modules/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "GigaDevice",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-11T16:00:00+00:00",
+      "summary": "GigaDevice has introduced the new GD32E512 and GD32E252 series MCUs specifically designed for optical module applications. The post GigaDevice Introduces GD32E512 and GD32E252 MCUs for Optical Modules appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/risc-v-targets-data-centers-edge-ai-space/",
+      "title": "RISC-V Targets Data Centers, Edge AI, Space",
+      "url": "https://www.eetimes.com/risc-v-targets-data-centers-edge-ai-space/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-11T13:24:38+00:00",
+      "summary": "\"RISC-V is now,\" said Andrea Gallo, CEO of RISC-V International, during his keynote at this week's RISC-V Summit Europe 2026 in Bologna. The post RISC-V Targets Data Centers, Edge AI, Space appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/logistics-leaders-navigate-cost-and-automation/",
+      "title": "Logistics Leaders Navigate Cost and Automation",
+      "url": "https://www.eetimes.com/logistics-leaders-navigate-cost-and-automation/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-11T08:11:49+00:00",
+      "summary": "Gartner's VP analyst David Gonzalez shares strategies for profitability and technology in supply chain management. The post Logistics Leaders Navigate Cost and Automation appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/startup-ricursive-to-create-an-end-to-end-ai-model-for-chip-design/",
       "title": "Startup Ricursive to Create an End-to-End AI Model for Chip Design",
       "url": "https://www.eetimes.com/startup-ricursive-to-create-an-end-to-end-ai-model-for-chip-design/",
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/xensiv-tmr-based-sensors-unlocking-new-possibilities-in-magnetic-sensing/",
-      "title": "XENSIV™ TMR-based Sensors: Unlocking New Possibilities in Magnetic Sensing",
-      "url": "https://www.eetimes.com/xensiv-tmr-based-sensors-unlocking-new-possibilities-in-magnetic-sensing/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Marc Biehn, Head of Product Group Industrial Consumer Magnetic Sensing; Sebastian Maerz, Business Developer Magnetic Sensing, Infineon Technologies AG",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-09T13:00:00+00:00",
-      "summary": "Explore how Infineon's TMR-based XENSIV™ sensors deliver high-sensitivity, low-noise magnetic sensing for position, current, and overcurrent protection. The post XENSIV™ TMR-based Sensors: Unlocking New Possibilities in Magnetic Sensing appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/as-chips-go-vertical-metrology-struggles-to-keep-up/",
-      "title": "As Chips Go Vertical, Metrology Struggles to Keep Up",
-      "url": "https://www.eetimes.com/as-chips-go-vertical-metrology-struggles-to-keep-up/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-09T07:00:00+00:00",
-      "summary": "Chip technology dives deeper into the Z-axis, pushing metrology to innovate or risk becoming a bottleneck. The post As Chips Go Vertical, Metrology Struggles to Keep Up appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/risc-v-summit-europe-2026-industry-and-academia-unite-in-bologna-to-advance-open-hardware/",
-      "title": "RISC-V Summit Europe 2026: Industry and Academia Unite in Bologna to Advance Open Hardware",
-      "url": "https://www.eetimes.com/risc-v-summit-europe-2026-industry-and-academia-unite-in-bologna-to-advance-open-hardware/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "RISC-V Summit",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T16:10:19+00:00",
-      "summary": "RISC-V Summit Europe is coming to Bologna, Italy, with a program that reflects just how far the ecosystem has come since we gathered in Paris a year ago. Taking place June 8–12 2026 at the Palazzo dei Congressi, the summit unites members, manufacturers, researchers, public institutions, academics and students, all helping to nurture the RISC-V [&#8230;] The post RISC-V Summit Europe 2026: Industry and Academia Unite in Bologna to Advance Open Hardware appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/chips-act-2-0-inside-europes-semiconductor-rethink/",
-      "title": "Inside Europe’s Chip Rethink: Why Fabs Weren’t Enough and Why Spain Matters",
-      "url": "https://www.eetimes.com/chips-act-2-0-inside-europes-semiconductor-rethink/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-08T12:00:00+00:00",
-      "summary": "Spain is emerging as a more influential player in Europe’s next chip debate—through design startups, photonics, quantum technologies, and a growing talent base. The post Inside Europe’s Chip Rethink: Why Fabs Weren’t Enough and Why Spain Matters appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48430986",
       "title": "TSMC CEO: I envy their 80% gross margins, but I would never do that",
       "url": "https://www.thestreet.com/investing/stocks/tsmc-taiwan-semiconductor-ceo-sends-blunt-message-to-memory-chip-rivals",
@@ -409,7 +409,7 @@
       },
       "duration_sec": null,
       "views": 471,
-      "comments": 125,
+      "comments": 126,
       "published_at": "2026-06-02T22:55:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
