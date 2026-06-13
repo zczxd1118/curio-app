@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-12T07:29:06.961111+00:00",
+  "fetched_at": "2026-06-13T07:04:09.782549+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 8,
+    "HN · Nvidia": 9,
     "HN · semiconductor": 5,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 35,
+  "total": 36,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,8 +189,76 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/uclas-125m-semiconductor-hub-we-want-high-impact-not-incremental-research/",
+      "title": "UCLA’s $125M Semiconductor Hub: “We Want High Impact, Not Incremental Research”",
+      "url": "https://www.eetimes.com/uclas-125m-semiconductor-hub-we-want-high-impact-not-incremental-research/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-12T19:00:00+00:00",
+      "summary": "UCLA launches a $125M semiconductor hub to smash chip bottlenecks with AI research. The post UCLA’s $125M Semiconductor Hub: “We Want High Impact, Not Incremental Research” appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/tecate-group-announces-new-ultracapacitor-cells-rated-foroperation-up-to-105c-221f/",
+      "title": "Tecate Group Announces New Ultracapacitor Cells Rated forOperation up to 105°C (221°F)",
+      "url": "https://www.eetimes.com/tecate-group-announces-new-ultracapacitor-cells-rated-foroperation-up-to-105c-221f/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Tecate Group",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-12T18:49:02+00:00",
+      "summary": "San Diego, CA: June 1, 2026. Tecate Group today announced the expansion of its ultracapacitorproduct offerings with new cells rated for operation up to 105°C (221°F). The new TPLT productseries is rated at 2.3V and currently includes four sizes: 3.3F, 4F, 6F, and 11F. Additional sizes arein development. Tecate Group’s current TPL and TPLH series [&#8230;] The post Tecate Group Announces New Ultracapacitor Cells Rated forOperation up to 105°C (221°F) appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/peak-goes-automotive-ethernet-pae-media-converter-connects-100-1000base-t1-with-standard-ethernet/",
+      "title": "PEAK Goes Automotive Ethernet: PAE-Media Converter connects 100/1000BASE-T1 with Standard Ethernet",
+      "url": "https://www.eetimes.com/peak-goes-automotive-ethernet-pae-media-converter-connects-100-1000base-t1-with-standard-ethernet/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "HMS Networks",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-12T17:01:05+00:00",
+      "summary": "Unique Features for Automotive Testing The PAE-Media Converter addresses crucial market challenges in automotive development and validation with three core innovations. It enables realistic fault simulation by allowing physical interruption of the Automotive Ethernet link. This can be triggered directly on the device or via an API, supporting reproducible and controlled test scenarios. “We empower [&#8230;] The post PEAK Goes Automotive Ethernet: PAE-Media Converter connects 100/1000BASE-T1 with...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/indian-firm-scales-single-walled-carbon-nanotube-production-for-batteries-and-chips/",
+      "title": "Indian Firm Scales Single-Walled Carbon Nanotube Production for Batteries and Chips",
+      "url": "https://www.eetimes.com/indian-firm-scales-single-walled-carbon-nanotube-production-for-batteries-and-chips/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-12T08:04:16+00:00",
+      "summary": "NoPo scales HiPco single-walled carbon nanotube output for sub-2-nm chips and anodes. The post Indian Firm Scales Single-Walled Carbon Nanotube Production for Batteries and Chips appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/rebellions-bets-on-memory-centric-architecture-as-it-weighs-ipo-options/",
-      "title": "Rebellions Bets on Memory-Centric Architecture as it Weighs IPO Options",
+      "title": "Rebellions Bets on Memory-Centric Architecture as It Weighs IPO Options",
       "url": "https://www.eetimes.com/rebellions-bets-on-memory-centric-architecture-as-it-weighs-ipo-options/",
       "platform": "rss",
       "source": {
@@ -202,7 +270,7 @@
       "duration_sec": null,
       "views": null,
       "published_at": "2026-06-11T22:00:00+00:00",
-      "summary": "Rebellions leverages memory-centric AI chip designs with SK Hynix and Samsung to fuel IPO ambitions. The post Rebellions Bets on Memory-Centric Architecture as it Weighs IPO Options appeared first on EE Times.",
+      "summary": "Rebellions leverages memory-centric AI chip designs with SK Hynix and Samsung to fuel IPO ambitions. The post Rebellions Bets on Memory-Centric Architecture as It Weighs IPO Options appeared first on EE Times.",
       "lang": "en"
     },
     {
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/ai-driven-memory-shortage-upends-it-budgets/",
-      "title": "AI-Driven Memory Shortage Upends IT Budgets",
-      "url": "https://www.eetimes.com/ai-driven-memory-shortage-upends-it-budgets/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-10T07:47:11+00:00",
-      "summary": "IT departments find that purchasing servers and computers has become much more difficult because of surging memory prices and shortages. The post AI-Driven Memory Shortage Upends IT Budgets appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/indias-2035-chip-ambitions-focus-on-targeted-design-manufacturing-leadership/",
-      "title": "India’s 2035 Chip Ambitions Focus on Targeted Design, Manufacturing Leadership",
-      "url": "https://www.eetimes.com/indias-2035-chip-ambitions-focus-on-targeted-design-manufacturing-leadership/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-09T22:00:00+00:00",
-      "summary": "India maps out a bold $150B chip strategy for 2035—see why this time might be different. The post India’s 2035 Chip Ambitions Focus on Targeted Design, Manufacturing Leadership appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/efinix-rethinking-the-logic-routing-tradeoff-in-fpgas/",
-      "title": "Rethinking the Logic-Routing Tradeoff in FPGAs",
-      "url": "https://www.eetimes.com/efinix-rethinking-the-logic-routing-tradeoff-in-fpgas/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-09T17:00:00+00:00",
-      "summary": "Efinix’ exchangeable logic-and-routing technology aims to cut power and die area while enabling memory integration and greater flexibility for AI edge designs. The post Rethinking the Logic-Routing Tradeoff in FPGAs appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/the-concerning-unchecked-rise-of-e2e-ai-in-physical-applications/",
-      "title": "The Concerning, Unchecked Rise of E2E AI in Physical Applications",
-      "url": "https://www.eetimes.com/the-concerning-unchecked-rise-of-e2e-ai-in-physical-applications/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Girish Mhatre",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-09T13:24:48+00:00",
-      "summary": "Don’t let the bodies pile up The post The Concerning, Unchecked Rise of E2E AI in Physical Applications appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48430986",
       "title": "TSMC CEO: I envy their 80% gross margins, but I would never do that",
       "url": "https://www.thestreet.com/investing/stocks/tsmc-taiwan-semiconductor-ceo-sends-blunt-message-to-memory-chip-rivals",
@@ -408,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48377404"
       },
       "duration_sec": null,
-      "views": 471,
+      "views": 472,
       "comments": 126,
       "published_at": "2026-06-02T22:55:33+00:00",
       "summary": "",
@@ -427,8 +427,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48352939"
       },
       "duration_sec": null,
-      "views": 427,
-      "comments": 420,
+      "views": 428,
+      "comments": 421,
       "published_at": "2026-06-01T05:24:40+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -465,7 +465,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48355720"
       },
       "duration_sec": null,
-      "views": 286,
+      "views": 287,
       "comments": 653,
       "published_at": "2026-06-01T12:04:29+00:00",
       "summary": "",
@@ -484,7 +484,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48356654"
       },
       "duration_sec": null,
-      "views": 149,
+      "views": 150,
       "comments": 28,
       "published_at": "2026-06-01T13:32:44+00:00",
       "summary": "",
@@ -503,7 +503,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48444451"
       },
       "duration_sec": null,
-      "views": 58,
+      "views": 59,
       "comments": 86,
       "published_at": "2026-06-08T12:25:14+00:00",
       "summary": "",
@@ -544,6 +544,25 @@
       "views": 34,
       "comments": 37,
       "published_at": "2026-06-01T04:45:20+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48509844",
+      "title": "SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48509844",
+        "name": "taubek",
+        "hn_url": "https://news.ycombinator.com/item?id=48509844"
+      },
+      "duration_sec": null,
+      "views": 37,
+      "comments": 4,
+      "published_at": "2026-06-12T21:49:49+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
