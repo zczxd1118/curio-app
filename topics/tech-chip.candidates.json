@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-14T07:28:42.595178+00:00",
+  "fetched_at": "2026-06-15T09:30:55.130106+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 9,
-    "HN · semiconductor": 5,
+    "HN · Nvidia": 7,
+    "HN · semiconductor": 3,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 36,
+  "total": 32,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/imec-pushes-quantum-toward-manufacturable-silicon-systems/",
+      "title": "Imec Pushes Quantum Toward Manufacturable Silicon Systems",
+      "url": "https://www.eetimes.com/imec-pushes-quantum-toward-manufacturable-silicon-systems/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T08:13:05+00:00",
+      "summary": "Imec says advanced lithography and semiconductor integration techniques may help scale silicon spin qubits toward manufacturable quantum systems. The post Imec Pushes Quantum Toward Manufacturable Silicon Systems appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/uclas-125m-semiconductor-hub-we-want-high-impact-not-incremental-research/",
       "title": "UCLA’s $125M Semiconductor Hub: “We Want High Impact, Not Incremental Research”",
       "url": "https://www.eetimes.com/uclas-125m-semiconductor-hub-we-want-high-impact-not-incremental-research/",
@@ -342,23 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/massive-ai-storage-demand-creates-a-new-memory-wall/",
-      "title": "Massive AI Storage Demand Creates a New Memory Wall",
-      "url": "https://www.eetimes.com/massive-ai-storage-demand-creates-a-new-memory-wall/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alper Ilkbahar",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-10T14:22:01+00:00",
-      "summary": "As AI models scale to trillions of parameters, conventional memory architectures face mounting capacity and efficiency constraints. The post Massive AI Storage Demand Creates a New Memory Wall appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48430986",
       "title": "TSMC CEO: I envy their 80% gross margins, but I would never do that",
       "url": "https://www.thestreet.com/investing/stocks/tsmc-taiwan-semiconductor-ceo-sends-blunt-message-to-memory-chip-rivals",
@@ -411,25 +411,6 @@
       "views": 472,
       "comments": 126,
       "published_at": "2026-06-02T22:55:33+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48352939",
-      "title": "Nvidia RTX Spark",
-      "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48352939",
-        "name": "shenli3514",
-        "hn_url": "https://news.ycombinator.com/item?id=48352939"
-      },
-      "duration_sec": null,
-      "views": 428,
-      "comments": 421,
-      "published_at": "2026-06-01T05:24:40+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -530,25 +511,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:48352693",
-      "title": "A powerful new chapter for Windows PCs, accelerated by Nvidia RTX Spark",
-      "url": "https://blogs.windows.com/windowsexperience/2026/05/31/introducing-a-powerful-new-chapter-for-windows-pcs-accelerated-by-nvidia-rtx-spark/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48352693",
-        "name": "WalterSobchak",
-        "hn_url": "https://news.ycombinator.com/item?id=48352693"
-      },
-      "duration_sec": null,
-      "views": 34,
-      "comments": 37,
-      "published_at": "2026-06-01T04:45:20+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:48509844",
       "title": "SkillSpector",
       "url": "https://github.com/NVIDIA/SkillSpector",
@@ -620,44 +582,6 @@
       "views": 53,
       "comments": 36,
       "published_at": "2026-06-07T03:00:52+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48151102",
-      "title": "Infineon Unveils Auto Industry's First RISC-V MCU: Linux Era for Semiconductors",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=116421",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48151102",
-        "name": "fork-bomber",
-        "hn_url": "https://news.ycombinator.com/item?id=48151102"
-      },
-      "duration_sec": null,
-      "views": 22,
-      "comments": 1,
-      "published_at": "2026-05-15T17:05:52+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48439316",
-      "title": "Huawei executive credits bans for accelerating domestic chip independence",
-      "url": "https://www.techradar.com/pro/huaweis-chairman-officially-thanks-the-us-government-for-enabling-chinas-semiconductor-industry-chain-to-truly-grow",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48439316",
-        "name": "yogthos",
-        "hn_url": "https://news.ycombinator.com/item?id=48439316"
-      },
-      "duration_sec": null,
-      "views": 22,
-      "comments": 2,
-      "published_at": "2026-06-07T22:38:25+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
       "lang": "en"

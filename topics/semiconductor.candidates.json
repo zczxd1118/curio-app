@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-06-14T07:28:10.579492+00:00",
+  "fetched_at": "2026-06-15T09:30:22.852330+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,8 +13,8 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 2,
-    "HN · Nvidia": 9,
-    "HN · semiconductor": 5,
+    "HN · Nvidia": 7,
+    "HN · semiconductor": 4,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
     "HN · 数据中心 / 算力": 1
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 67,
+  "total": 64,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/imec-pushes-quantum-toward-manufacturable-silicon-systems/",
+      "title": "Imec Pushes Quantum Toward Manufacturable Silicon Systems",
+      "url": "https://www.eetimes.com/imec-pushes-quantum-toward-manufacturable-silicon-systems/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T08:13:05+00:00",
+      "summary": "Imec says advanced lithography and semiconductor integration techniques may help scale silicon spin qubits toward manufacturable quantum systems. The post Imec Pushes Quantum Toward Manufacturable Silicon Systems appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/uclas-125m-semiconductor-hub-we-want-high-impact-not-incremental-research/",
       "title": "UCLA’s $125M Semiconductor Hub: “We Want High Impact, Not Incremental Research”",
       "url": "https://www.eetimes.com/uclas-125m-semiconductor-hub-we-want-high-impact-not-incremental-research/",
@@ -350,20 +367,258 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/massive-ai-storage-demand-creates-a-new-memory-wall/",
-      "title": "Massive AI Storage Demand Creates a New Memory Wall",
-      "url": "https://www.eetimes.com/massive-ai-storage-demand-creates-a-new-memory-wall/",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intels-upcoming-raptor-lake-next-will-reportedly-top-out-at-20-cores-and-retain-core-200-branding-lineup-may-include-a-special-10-core-sku-with-24mb-of-l3-cache",
+      "title": "Intel's upcoming 'Raptor Lake Next' will reportedly top out at 20 cores and retain Core 200 branding — Lineup may include a special 10-core SKU with 24MB of L3 cache",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intels-upcoming-raptor-lake-next-will-reportedly-top-out-at-20-cores-and-retain-core-200-branding-lineup-may-include-a-special-10-core-sku-with-24mb-of-l3-cache",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alper Ilkbahar",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-10T14:22:01+00:00",
-      "summary": "As AI models scale to trillions of parameters, conventional memory architectures face mounting capacity and efficiency constraints. The post Massive AI Storage Demand Creates a New Memory Wall appeared first on EE Times.",
+      "published_at": "2026-06-14T14:57:07+00:00",
+      "summary": "Intel's Raptor Lake family might be coming back for a third time and sit alongside Nova Lake on shelves as the budget-oriented offering from the company.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/servers/amazon-says-its-data-centers-consume-only-0-075-percent-of-the-water-americans-use-for-watering-their-lawns-and-gardens-company-also-boasts-of-its-improvements-in-water-efficiency",
+      "title": "Amazon says its data centers consume only 0.075% of the water Americans use for watering their lawns and gardens — company also boasts of its improvements in water efficiency",
+      "url": "https://www.tomshardware.com/desktops/servers/amazon-says-its-data-centers-consume-only-0-075-percent-of-the-water-americans-use-for-watering-their-lawns-and-gardens-company-also-boasts-of-its-improvements-in-water-efficiency",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T14:25:00+00:00",
+      "summary": "Amazon says that it uses 2.5 billion gallons of water annually for data center cooling but compares it to the 3.3 trillion gallons of water used for watering lawns and gardens in the U.S. every year.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/computer-history-museum-recalls-astonishing-retro-haul-recovered-from-abandoned-german-warehouse-over-2-000-artifacts-spanning-the-1930s-to-1980s-required-seven-tractor-trailers-after-a-wwii-bomb-scare",
+      "title": "Computer History Museum recalls ‘astonishing’ retro haul recovered from abandoned German warehouse — over 2,000 artifacts spanning the 1930s to 1980s required seven tractor-trailers after a WWII bomb scare",
+      "url": "https://www.tomshardware.com/tech-industry/computer-history-museum-recalls-astonishing-retro-haul-recovered-from-abandoned-german-warehouse-over-2-000-artifacts-spanning-the-1930s-to-1980s-required-seven-tractor-trailers-after-a-wwii-bomb-scare",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T14:00:00+00:00",
+      "summary": "The Computer History Museum recalls one of its biggest ever retro treasure troves. This ‘astonishing’ haul was rescued from an abandoned warehouse in the town of Castrop-Rauxel, Germany.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/apple-made-marketing-gold-from-the-power-mac-g4-supercomputer-export-ban-in-1999-pentagon-banned-sales-of-the-400-mhz-g4-in-50-countries-when-it-launched-and-became-the-first-pc-to-be-classed-as-a-weapon",
+      "title": "Apple made marketing gold from the export ban on Power Mac G4 'supercomputer' in 1999, 'for the first time in history a personal computer has been classified as a weapon' — Pentagon banned sales of the 400 MHz G4 in 50 countries when it launched",
+      "url": "https://www.tomshardware.com/tech-industry/apple-made-marketing-gold-from-the-power-mac-g4-supercomputer-export-ban-in-1999-pentagon-banned-sales-of-the-400-mhz-g4-in-50-countries-when-it-launched-and-became-the-first-pc-to-be-classed-as-a-weapon",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T14:00:00+00:00",
+      "summary": "In the context of the recent tech export bans, we look back at the Apple PowerMac G4 export ban from 1999 and Steve Jobs making marketing gold from the situation.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/servers/researchers-recycle-old-phones-and-cluster-them-into-computing-platforms-says-processors-on-modern-smartphones-deliver-higher-single-core-performance-than-comparable-multicore-servers",
+      "title": "Researchers recycle old phones and cluster them into ‘computing platforms’ that operate as a low-cost data center — says processors on modern smartphones deliver higher single-core performance than comparable multicore servers",
+      "url": "https://www.tomshardware.com/desktops/servers/researchers-recycle-old-phones-and-cluster-them-into-computing-platforms-says-processors-on-modern-smartphones-deliver-higher-single-core-performance-than-comparable-multicore-servers",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T13:34:49+00:00",
+      "summary": "A team of researchers from UC San Diego found that 'old' smartphones from 2023 could be combined to build a server capable of running apps locally, instead of relying on cloud servers located on a distant site.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/3d-printing/snapmaker-launches-usd150-000-innovation-fund-for-open-source-3d-printing-cash-rewards-target-developers-backing-the-u1-toolchanger-across-klipper-orcaslicer-and-moonraker-ecosystems",
+      "title": "Snapmaker launches $150,000 Innovation Fund for open source 3D printing — cash rewards target developers backing the U1 toolchanger across Klipper, OrcaSlicer, and Moonraker ecosystems",
+      "url": "https://www.tomshardware.com/3d-printing/snapmaker-launches-usd150-000-innovation-fund-for-open-source-3d-printing-cash-rewards-target-developers-backing-the-u1-toolchanger-across-klipper-orcaslicer-and-moonraker-ecosystems",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Denise Bertacchi",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T13:30:00+00:00",
+      "summary": "Snapmaker celebrates 10 years in business by sponsoring open-source developers and you.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/grab-this-msi-codex-z2-16-thread-gaming-ryzen-pc-with-a-2tb-ssd-at-a-usd400-discount-system-packs-a-ryzen-8700f-16gb-ddr5-and-rtx-5060-ti-8gb-for-usd1-499",
+      "title": "Grab this MSI Codex Z2 16-thread gaming Ryzen PC with a 2TB SSD at a $400 discount — system packs a Ryzen 8700F, 16GB DDR5, and RTX 5060 Ti 8GB for $1,499",
+      "url": "https://www.tomshardware.com/pc-components/grab-this-msi-codex-z2-16-thread-gaming-ryzen-pc-with-a-2tb-ssd-at-a-usd400-discount-system-packs-a-ryzen-8700f-16gb-ddr5-and-rtx-5060-ti-8gb-for-usd1-499",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T13:28:13+00:00",
+      "summary": "MSI's prebuilt gaming desktop pairs a Zen 4 processor with Nvidia's latest RTX 5060 Ti graphics card and comes housed in an airflow-focused chassis with ARGB lighting.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/3d-printing/nist-gets-metal-3d-printers-to-mix-alloys-mid-print-by-rewriting-the-lasers-path",
+      "title": "New 3D printer tech uses elliptical laser beams to stir molten metal and create ‘alloys-on-demand’ — existing machinery can implement technique in software meaning for more convenient, stronger alloy printing",
+      "url": "https://www.tomshardware.com/3d-printing/nist-gets-metal-3d-printers-to-mix-alloys-mid-print-by-rewriting-the-lasers-path",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T13:02:26+00:00",
+      "summary": "NIST has demonstrated a metal 3D printing method that stirs molten metal during the print by sending the laser along looping elliptical paths instead of straight lines.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/windows/microsoft-is-reportedly-testing-copilot-ai-features-with-discrete-gpus-instead-of-npus-a-feature-available-on-windows-app-sdk-with-a-windows-insider-experimental-channel-build-and-developer-mode-turned-on",
+      "title": "Microsoft is reportedly testing Copilot+ AI features with discrete GPUs instead of NPUs — a feature available on Windows App SDK with a Windows Insider Experimental Channel build and Developer Mode turned on",
+      "url": "https://www.tomshardware.com/software/windows/microsoft-is-reportedly-testing-copilot-ai-features-with-discrete-gpus-instead-of-npus-a-feature-available-on-windows-app-sdk-with-a-windows-insider-experimental-channel-build-and-developer-mode-turned-on",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T13:00:00+00:00",
+      "summary": "Microsoft is experimenting with Windows AI features on non-Copilot devices, finally allowing AI features to run on discrete GPUs. This move expands its user base and gives more users access to Windows 11 local AI capabilities.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-hit-with-sweeping-probe-from-massive-coalition-of-42-us-state-attorneys-general-just-days-after-reported-ipo-filing-subpoena-targets-chatgpt-makers-ads-data-practices-handling-of-minors-model-sycophancy-and-safety-policies",
+      "title": "OpenAI hit with sweeping probe from massive coalition of 42 US state attorneys general just days after reported IPO filing — subpoena targets ChatGPT maker’s ads, data practices, handling of minors, model sycophancy, and safety policies",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-hit-with-sweeping-probe-from-massive-coalition-of-42-us-state-attorneys-general-just-days-after-reported-ipo-filing-subpoena-targets-chatgpt-makers-ads-data-practices-handling-of-minors-model-sycophancy-and-safety-policies",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T12:30:00+00:00",
+      "summary": "State attorneys general have opened a broad investigation into OpenAI, subpoenaing documents on ads, user retention, data handling, minors, health data, model behavior, and safety policies.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/macbooks/amd-taunts-apples-macbook-neo-for-failing-to-run-75-percent-of-top-pc-games-only-5-out-of-the-20-top-pc-games-work-on-the-neo-while-all-run-on-amds-budget-offerings",
+      "title": "AMD taunts Apple's MacBook Neo for failing to run 75% of top PC games — Only 5 out of the 20 top PC games work on the Neo, while all run on AMD's budget offerings",
+      "url": "https://www.tomshardware.com/laptops/macbooks/amd-taunts-apples-macbook-neo-for-failing-to-run-75-percent-of-top-pc-games-only-5-out-of-the-20-top-pc-games-work-on-the-neo-while-all-run-on-amds-budget-offerings",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T12:00:00+00:00",
+      "summary": "AMD is reminding folks not to buy a MacBook, even if it's as good of a deal as the Neo, if you primarily want to game on it. Instead, AMD's own budget laptops can run all the modern titles you want, with a small caveat.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-adviser-david-sacks-says-anthropic-refused-to-fix-fable-5-jailbreak-before-us-export-controls",
+      "title": "US government warned Anthropic that Fable 5 had been jailbroken, but firm 'refused' to fix before US implemented export controls — Anthropic defended its decision by saying the jailbreak 'isn’t serious,' Chinese group had reportedly accessed model",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-adviser-david-sacks-says-anthropic-refused-to-fix-fable-5-jailbreak-before-us-export-controls",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T11:46:43+00:00",
+      "summary": "David Sacks said the US government warned Anthropic that Claude Fable 5 had been jailbroken and that CEO Dario Amodei refused to fix the flaw.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cryptomining-networks-320-000-rtx-3090-class-gpus-allegedly-burn-112-megawatts-of-power-on-zero-useful-ai-computation-pearls-gpus-are-doing-random-matrix-math-study-claims",
+      "title": "AI cryptomining network's 320,000 RTX 3090-class GPUs allegedly burn 112 megawatts of power on ‘zero useful AI computation’ — GPU rental costs jump 38%, but Pearl’s cards are doing random matrix math, study claims",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cryptomining-networks-320-000-rtx-3090-class-gpus-allegedly-burn-112-megawatts-of-power-on-zero-useful-ai-computation-pearls-gpus-are-doing-random-matrix-math-study-claims",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T11:30:00+00:00",
+      "summary": "A preprint claims Pearl’s AI mining network consumes 320,000 GPU-equivalents and 112 MW while producing no verified useful AI computation.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/webcams/razer-kiyo-v2-x-review",
+      "title": "Razer Kiyo V2 X Review: Auto-focus for life",
+      "url": "https://www.tomshardware.com/peripherals/webcams/razer-kiyo-v2-x-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sarah Jacobsson Purewal",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T11:10:00+00:00",
+      "summary": "Razer's Kiyo V2 X is the most budget-friendly of its current webcam lineup; it records video at 1440p / 60 fps and features \"speedy\" auto-focus, a wide 80-degree field of view, and a smoothly integrated physical privacy shutter.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/console-gaming/hardcore-spongebob-speedrunners-smudged-xbox-optical-disks-to-exploit-lag-clip-trick-filthy-disks-smeared-with-grease-and-sweat-cut-gameplay-times-in-ultimate-pursuit-of-speed",
+      "title": "Hardcore SpongeBob speedrunners smudged Xbox optical disks with sweat and grease to exploit 'lag clip' trick — filthy smeared disks cut gameplay times in ultimate pursuit of speed",
+      "url": "https://www.tomshardware.com/video-games/console-gaming/hardcore-spongebob-speedrunners-smudged-xbox-optical-disks-to-exploit-lag-clip-trick-filthy-disks-smeared-with-grease-and-sweat-cut-gameplay-times-in-ultimate-pursuit-of-speed",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-14T11:00:00+00:00",
+      "summary": "A grease smear-induced optical disc reading quirk can save speedrunners lots of time in SpongeBob SquarePants: Battle for Bikini Bottom on Xbox.",
       "lang": "en"
     },
     {
@@ -622,261 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/microsofts-bug-hunting-nemesis-extends-vendetta-with-more-zero-day-attacks-nightmare-eclipse-publishes-rogueplanet-and-greatxml-local-privilege-escalation-exploits",
-      "title": "Microsoft's bug-hunting nemesis extends vendetta with more zero-day attacks — Nightmare Eclipse publishes RoguePlanet and GreatXML local privilege escalation exploits",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-bug-hunting-nemesis-extends-vendetta-with-more-zero-day-attacks-nightmare-eclipse-publishes-rogueplanet-and-greatxml-local-privilege-escalation-exploits",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T14:48:03+00:00",
-      "summary": "Nightmare-Eclipse's vendetta against Microsoft and Windows continues apace — researcher publishes RoguePlanet and GreatXML local privilege escalation zero-day exploits",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/motherboards/various-vendors-add-amd-expo-ultra-low-latency-to-600-series-motherboards-in-latest-bios-updates-tech-tightens-memory-subtimings-on-compatible-kits-boosting-fps-by-up-to-4-percent",
-      "title": "Various vendors add AMD EXPO Ultra-Low Latency to 600-series motherboards in latest BIOS updates — tech tightens memory subtimings on compatible kits, boosting FPS by up to 4%",
-      "url": "https://www.tomshardware.com/pc-components/motherboards/various-vendors-add-amd-expo-ultra-low-latency-to-600-series-motherboards-in-latest-bios-updates-tech-tightens-memory-subtimings-on-compatible-kits-boosting-fps-by-up-to-4-percent",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T14:17:36+00:00",
-      "summary": "New BIOS updates featuring AMD EXPO Ultra Low Latency support are being released across a plethora of 600-series motherboards by multiple vendors.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/republican-lawmakers-urge-itc-to-block-imports-of-infringing-tsmc-chips-as-patent-ruling-imminent",
-      "title": "Republican lawmakers urge federal agency to block imports of infringing TSMC chips as patent ruling nears — five asserted U.S. patents come from United Microelectronics Corporation",
-      "url": "https://www.tomshardware.com/tech-industry/republican-lawmakers-urge-itc-to-block-imports-of-infringing-tsmc-chips-as-patent-ruling-imminent",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T13:29:20+00:00",
-      "summary": "Four Republican members of Congress have urged the U.S. ITC to block imports of foreign-made chips found to infringe U.S. patents",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/save-usd300-on-gigabytes-gaming-a16-gaming-laptop-at-walmart-budget-rtx-5060-powered-16-inch-laptop-is-now-only-usd1-199",
-      "title": "Save $300 on Gigabyte's Gaming A16 gaming laptop at Walmart — Budget RTX 5060 -powered 16-inch laptop is now only $1,199",
-      "url": "https://www.tomshardware.com/laptops/gaming-laptops/save-usd300-on-gigabytes-gaming-a16-gaming-laptop-at-walmart-budget-rtx-5060-powered-16-inch-laptop-is-now-only-usd1-199",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T11:29:07+00:00",
-      "summary": "Save $300 on Gigabyte's Gaming A16 gaming laptop at Walmart. Budget RTX 5060 -powered 16-inch laptop is now only $1,199.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-a-massive-usd751-on-this-rtx-5070-ti-gaming-pc-with-a-9800x3d-right-now-liquid-cooled-4k-ready-skytech-rig-with-32gb-ddr5-and-a-2tb-ssd-is-now-just-usd2-249",
-      "title": "Save a massive $751 on this RTX 5070 Ti gaming PC with a 9800X3D right now — liquid-cooled, 4K-ready Skytech rig with 32GB DDR5 and a 2TB SSD is now just $2,249",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-a-massive-usd751-on-this-rtx-5070-ti-gaming-pc-with-a-9800x3d-right-now-liquid-cooled-4k-ready-skytech-rig-with-32gb-ddr5-and-a-2tb-ssd-is-now-just-usd2-249",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T11:15:31+00:00",
-      "summary": "Save $750 on this Skytech gaming PC for gaming at 1440p and 4K, featuring a 9800X3D, RTX 5070 Ti, 32GB DDR5, and a 2 TB SSD.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/xbox/xbox-will-pay-five-times-more-for-components-in-2027-than-it-did-two-years-ago-ceo-asha-sharma-admits-theres-an-unsustainable-hardware-gap-that-cannot-continue",
-      "title": "Xbox will pay five times more for memory and storage in 2027 than it did two years ago — CEO Asha Sharma admits there's an unsustainable hardware gap that 'cannot continue'",
-      "url": "https://www.tomshardware.com/video-games/xbox/xbox-will-pay-five-times-more-for-components-in-2027-than-it-did-two-years-ago-ceo-asha-sharma-admits-theres-an-unsustainable-hardware-gap-that-cannot-continue",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T11:00:00+00:00",
-      "summary": "The next-gen Xbox Helix is looking in trouble due to surging memory and storage costs that are forcing even a giant like Microsoft to bend down.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/get-32gb-of-ddr5-ram-for-only-usd255-in-this-2-item-combo-from-newegg-just-usd514-99-gets-you-corsair-vengeance-rgb-ram-and-a-gigabyte-x870-aorus-elite-motherboard-26-percent-off",
-      "title": "Get 32GB of DDR5 RAM for only $255 in this 2-item combo from Newegg — just $514.99 gets you Corsair Vengeance RGB RAM and a Gigabyte X870 Aorus Elite motherboard, 26% off",
-      "url": "https://www.tomshardware.com/pc-components/get-32gb-of-ddr5-ram-for-only-usd255-in-this-2-item-combo-from-newegg-just-usd514-99-gets-you-corsair-vengeance-rgb-ram-and-a-gigabyte-x870-aorus-elite-motherboard-26-percent-off",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T10:42:16+00:00",
-      "summary": "Newegg slashes ~$185 off this 2-item combo, dropping the RAM to an affordable $255 - just $514.99 gets you a solid Gigabyte X870 motherboards, and 32GB of RAM in this incredible Newegg combo deal.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/hades-malware-campaign-now-tricks-ai-bots-by-injecting-text-about-biological-and-nuclear-weapons-failsafe-mechanisms-triggered-by-prompts-for-weapon-creation-stop-scans-before-payload-is-seen",
-      "title": "New malware campaign tricks AI scanners with fake nuclear weapon prompts — malicious code triggers safety failsafes so scanners skip the payload",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/hades-malware-campaign-now-tricks-ai-bots-by-injecting-text-about-biological-and-nuclear-weapons-failsafe-mechanisms-triggered-by-prompts-for-weapon-creation-stop-scans-before-payload-is-seen",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T10:30:00+00:00",
-      "summary": "Hades malware campaign now tricks AI bots into not scanning development packages, as prompts for bio- and nuclear weapons trigger failsafe mechanisms.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/amd-denies-researcher-a-usd10-000-bug-bounty-after-fixing-critical-auto-updater-vulnerability-security-flaw-took-124-days-to-patch",
-      "title": "AMD denies researcher a $10,000 bug bounty after fixing critical auto-updater vulnerability — security flaw took 124 days to patch",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/amd-denies-researcher-a-usd10-000-bug-bounty-after-fixing-critical-auto-updater-vulnerability-security-flaw-took-124-days-to-patch",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T10:00:00+00:00",
-      "summary": "AMD took over four months to fix a critical security bug in its autoupdater, and the security researcher didn't see a dime for his efforts",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/security-software/several-police-officers-arrested-for-using-controversial-flock-ai-license-plate-reader-system-to-stalk-romantic-partners-says-report-investigators-have-unearthed-at-least-18-such-cases-in-the-us-over-recent-years",
-      "title": "Several police officers arrested for using controversial Flock AI license plate reader system to stalk romantic partners, says report — investigators have unearthed at least 18 such cases in the US over recent years",
-      "url": "https://www.tomshardware.com/software/security-software/several-police-officers-arrested-for-using-controversial-flock-ai-license-plate-reader-system-to-stalk-romantic-partners-says-report-investigators-have-unearthed-at-least-18-such-cases-in-the-us-over-recent-years",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T09:30:00+00:00",
-      "summary": "Tens of officers have been fired, and some even arrested, for abuse of the Flock license plate reader system used by police departments throughout the US, according to a new report.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-bans-china-linked-chatgpt-accounts-that-amplified-us-data-center-electricity-price-backlash",
-      "title": "OpenAI bans China-linked ChatGPT accounts that amplified US data center electricity price backlash — used AI-generated cartoons to stoke fears over U.S. data center energy costs",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-bans-china-linked-chatgpt-accounts-that-amplified-us-data-center-electricity-price-backlash",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-11T18:48:34+00:00",
-      "summary": "OpenAI says it has banned two clusters of ChatGPT accounts it believes are operating from China, and that used its models for covert influence campaigns targeting U.S. tech and policy debates.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/memory-famine-compels-gpu-vendors-to-re-release-2020-graphics-cards-geforce-rtx-3060-and-geforce-rtx-3050-return-to-asian-market",
-      "title": "Memory famine compels GPU vendors to re-release 2020 graphics cards — GeForce RTX 3060 and GeForce RTX 3050 return to Asian market",
-      "url": "https://www.tomshardware.com/pc-components/gpus/memory-famine-compels-gpu-vendors-to-re-release-2020-graphics-cards-geforce-rtx-3060-and-geforce-rtx-3050-return-to-asian-market",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-11T16:33:50+00:00",
-      "summary": "Graphics card manufacturer Manli adds new GeForce RTX 3060 and GeForce RTX 3050 SKUs to its portfolio.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-cuts-manus-off-from-its-internal-systems-as-china-ordered-breakup-of-2-billion-ai-deal-begins",
-      "title": "After spat with Chinese gov't, Meta cuts AI Manus off from its internal systems and is 'sunsetting' platform, report claims — Beijing-ordered breakup of $2 billion AI deal begins",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-cuts-manus-off-from-its-internal-systems-as-china-ordered-breakup-of-2-billion-ai-deal-begins",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-11T14:47:26+00:00",
-      "summary": "Meta has finished separating its operations from Manus, the Chinese-founded agentic AI startup it acquired for roughly $2 billion in December.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/razer-blade-18-2026-review",
-      "title": "Razer Blade 18 (2026) review: Coming in fast and hot",
-      "url": "https://www.tomshardware.com/laptops/gaming-laptops/razer-blade-18-2026-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Andrew E. Freedman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-11T12:57:02+00:00",
-      "summary": "The Razer Blade 18 is a large gaming rig with an 18-inch dual-mode display and strong performance, but it runs hot and is very expensive.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/vpn/watching-the-world-cup-online-shouldnt-risk-your-precious-data-or-cost-you-the-earth-save-money-on-these-vpn-deals-now",
-      "title": "Watching the World Cup online is easier with these VPN deals — deals for watching the FIFA World Cup 2026",
-      "url": "https://www.tomshardware.com/software/vpn/watching-the-world-cup-online-shouldnt-risk-your-precious-data-or-cost-you-the-earth-save-money-on-these-vpn-deals-now",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-11T12:35:37+00:00",
-      "summary": "A choice of VPN subscriptions to cover you over the FIFA World Cup 2026 and beyond. Stay safe online for less.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48430986",
       "title": "TSMC CEO: I envy their 80% gross margins, but I would never do that",
       "url": "https://www.thestreet.com/investing/stocks/tsmc-taiwan-semiconductor-ceo-sends-blunt-message-to-memory-chip-rivals",
@@ -929,25 +929,6 @@
       "views": 472,
       "comments": 126,
       "published_at": "2026-06-02T22:55:33+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48352939",
-      "title": "Nvidia RTX Spark",
-      "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48352939",
-        "name": "shenli3514",
-        "hn_url": "https://news.ycombinator.com/item?id=48352939"
-      },
-      "duration_sec": null,
-      "views": 428,
-      "comments": 421,
-      "published_at": "2026-06-01T05:24:40+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1048,25 +1029,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:48352693",
-      "title": "A powerful new chapter for Windows PCs, accelerated by Nvidia RTX Spark",
-      "url": "https://blogs.windows.com/windowsexperience/2026/05/31/introducing-a-powerful-new-chapter-for-windows-pcs-accelerated-by-nvidia-rtx-spark/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48352693",
-        "name": "WalterSobchak",
-        "hn_url": "https://news.ycombinator.com/item?id=48352693"
-      },
-      "duration_sec": null,
-      "views": 34,
-      "comments": 37,
-      "published_at": "2026-06-01T04:45:20+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:48509844",
       "title": "SkillSpector",
       "url": "https://github.com/NVIDIA/SkillSpector",
@@ -1138,25 +1100,6 @@
       "views": 53,
       "comments": 36,
       "published_at": "2026-06-07T03:00:52+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48151102",
-      "title": "Infineon Unveils Auto Industry's First RISC-V MCU: Linux Era for Semiconductors",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=116421",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48151102",
-        "name": "fork-bomber",
-        "hn_url": "https://news.ycombinator.com/item?id=48151102"
-      },
-      "duration_sec": null,
-      "views": 22,
-      "comments": 1,
-      "published_at": "2026-05-15T17:05:52+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
       "lang": "en"
