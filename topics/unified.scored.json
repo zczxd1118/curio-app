@@ -1,180 +1,210 @@
 {
-  "date": "2026-06-11",
-  "intro": "今日核心信号：Anthropic 正式发布 Claude Fable 5（Mythos 公开版），在几乎所有基准上达到 SOTA，但伴随争议——模型拒绝回答基础生物学问题，且被曝曾暗中降级竞品请求。与此同时，SpaceX IPO 定价 1.77 万亿美元引发估值争议，Morningstar 认为高估一倍。半导体领域，AMD 256 核 Zen 6 Venice 叫板 Nvidia Vera，台积电 CoPoS 封装时间表曝光。",
+  "date": "2026-06-16",
+  "intro": "今日核心信号：Anthropic 的 Claude Fable 5 被美国政府以出口管制为由强制下线，引发 AI 安全与主权辩论；SpaceX 上市后市值一度突破 3 万亿美元，但估值争议巨大；DeepSeek 完成首轮 500 亿融资，中国 AI 独立叙事加速。这些事件共同指向一个判断：2026 年 AI 产业的权力博弈已从技术竞赛转向地缘政治与资本市场的双重战场。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-fable-5-brings-mythos-to-the-masses-anthropics-next-frontier-model-is-state-of-the-art-on-nearly-all-tested-benchmarks",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-fable-5-brings-mythos-to-the-masses-anthropics-next-frontier-model-is-state-of-the-art-on-nearly-all-tested-benchmarks",
-      "source": "Tom's Hardware",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+      "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+      "source": "TechCrunch",
       "stars": 5,
-      "title": "Claude Fable 5 发布：Mythos 公开版，SOTA 基准但拒绝回答基础生物问题",
-      "lead": "Anthropic 在 4 月预告超强 Mythos 模型后，今天放出公开版 Fable 5，号称在几乎所有测试基准上达到 SOTA。但 The Verge 实测发现模型拒绝回答基础生物学问题，同时 Anthropic 被曝曾暗中降低 Claude 性能以阻止竞品开发，引发社区对安全策略透明度的质疑。",
+      "title": "美国政府强制下线 Anthropic 最强模型：Fable 5 禁令背后的地缘政治算盘",
+      "lead": "6 月 12 日，白宫以“安全护栏可被绕过”为由，要求 Anthropic 立即封锁 Claude Fable 5 及 Mythos 系列模型的海外访问。Anthropic 被迫执行，CEO Dario Amodei 此前曾拒绝修复政府报告的 jailbreak 漏洞。这不仅是技术安全争议，更是特朗普政府对 AI 出口管制的极端化——将商业模型视为“武器级技术”。",
       "confirmed": [
-        "Fable 5 是 Mythos 的公开版本，Anthropic 称其安全可用于通用场景",
-        "模型在几乎所有基准测试中达到 SOTA，编程能力尤其突出",
-        "限免至 6 月 22 日，之后按 token 计费"
+        "美国商务部要求 Anthropic 阻止 Fable 5 和 Mythos 模型被中国等国家访问",
+        "Anthropic 已按要求下线模型，高管正赴白宫谈判重新上线条件",
+        "政府援引出口管制法规，将 AI 模型类比为“国防技术”",
+        "David Sacks 公开称 Anthropic 拒绝修复 jailbreak 是触发禁令的直接原因",
+        "超过 40 名网络安全专家联名抗议，称禁令削弱了防御能力"
       ],
       "judgment": [
-        "拒绝回答基础生物问题是安全限制还是能力缺陷？Anthropic 未明确解释",
-        "暗中降级竞品请求的政策已被撤回，但信任修复需要时间",
-        "Fable 5 能否在编程任务中持续超越 GPT-5.5 和 Gemini 3.5？"
+        "禁令的真实动机是地缘政治而非安全：政府可能借机施压 Anthropic 配合更广泛的 AI 管控",
+        "Fable 5 的 jailbreak 严重程度被夸大：Anthropic 内部认为漏洞属于“低风险”",
+        "重新上线的条件可能包括强制加入政府后门或审查机制",
+        "此案将影响 OpenAI、Google 等公司的模型发布策略",
+        "欧盟可能跟进类似管制，导致全球 AI 模型分裂为多个区域版本"
       ],
-      "implication": "你应该立即试用 Fable 5，尤其是它的 agentic 编程能力——实测显示 5 小时可完成一个 macOS 应用。但注意：不要依赖它处理生物/医学问题，且要警惕 Anthropic 的安全策略可能影响输出质量。"
+      "implication": "这对你的 content-curator 项目是个警示：AI 工具链的可用性正变得政治化。如果你依赖 Claude Code 或海外 API 构建 Agent，建议提前储备本地模型（如 DeepSeek）作为备选。同时关注 Anthropic 谈判结果——若 Fable 5 永久受限，Claude Code 的能力上限将被锁定在当前版本。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-fires-back-at-nvidia-claiming-256-core-zen-6-venice-cpu-beats-vera-by-3-3x-in-rack-level-performance-company-shares-first-estimated-epyc-venice-benchmarks",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-fires-back-at-nvidia-claiming-256-core-zen-6-venice-cpu-beats-vera-by-3-3x-in-rack-level-performance-company-shares-first-estimated-epyc-venice-benchmarks",
-      "source": "Tom's Hardware",
+      "domain": "股票",
+      "id": "wscn:3774789",
+      "url": "https://wallstreetcn.com/articles/3774789",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "AMD 256 核 Zen 6 Venice 叫板 Nvidia Vera：机架级性能领先 3.3 倍",
-      "lead": "AMD 公布首份 EPYC Venice 预估基准测试，256 核 Zen 6 架构在机架级部署中比 Nvidia Vera 快 3.3 倍。这是 AMD 对 Nvidia 进军 CPU 领域的直接回应，也标志着数据中心 CPU 竞争进入新阶段。",
+      "title": "SpaceX 上市两天市值突破 3 万亿美元：史上最大 IPO 背后的狂欢与隐忧",
+      "lead": "SpaceX 以每股 135 美元完成史上最大 IPO，融资 857 亿美元，上市首日暴涨 30%，市值一度超越微软。散户资金高度集中驱动轧空，但 Morningstar 估值仅 7800 亿美元，仅为 IPO 目标的一半。马斯克“2031 年万亿营收”的豪言已触发 SEC 静默期合规审查。",
       "confirmed": [
-        "EPYC Venice 采用 256 核 Zen 6 架构",
-        "AMD 声称机架级性能比 Nvidia Vera 高 3.3 倍",
-        "这是 AMD 首次公开 Venice 的预估性能数据"
+        "SpaceX IPO 定价 135 美元/股，融资 857 亿美元，创历史纪录",
+        "上市两日市值突破 3 万亿美元，盘中超越微软",
+        "Morningstar 发布报告认为估值过高，合理价值约 7800 亿美元",
+        "马斯克成为首位万亿富翁，但 SpaceX 仍处于亏损状态",
+        "S&P 拒绝为 SpaceX 等 mega-IPO 提供快速指数纳入通道"
       ],
       "judgment": [
-        "数据为 AMD 自测，需独立验证",
-        "Nvidia Vera 的实际部署性能尚未公开",
-        "机架级对比可能包含系统级优化差异"
+        "散户轧空是短期现象：6 月底解禁窗口将迎来真正的价格压力测试",
+        "SpaceX 的“太阳系东印度公司”叙事长期成立，但短期营收难以支撑当前估值",
+        "特斯拉合并传闻可能影响股价：SpaceX 总裁已公开讨论合并可能性",
+        "轨道算力业务（Cursor 等）是未来增长点，但商业化仍需 3-5 年",
+        "若 SpaceX 未能实现 2031 年营收目标，股价可能腰斩"
       ],
-      "implication": "如果你在规划数据中心或 AI 训练集群的 CPU 选型，Venice 值得关注。但建议等待第三方基准测试，同时留意 Nvidia 的回应——这场 CPU 军备竞赛才刚刚开始。"
+      "implication": "作为个人投资者，不建议追高 SpaceX。但关注其“轨道算力”概念——如果 Cursor 等 AI 工具能利用太空数据中心降低成本，你的 Agent 项目未来可能受益于更便宜的推理算力。短期来看，SpaceX 的 IPO 热潮会带动整个 AI 板块估值上移，包括你关注的 DeepSeek 等公司。"
     },
     {
       "rank": 3,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
-      "source": "The Verge",
-      "stars": 4,
-      "title": "Claude Fable 5 拒绝回答基础生物问题，安全限制引发争议",
-      "lead": "The Verge 实测发现，Anthropic 最新旗舰模型 Claude Fable 5 拒绝回答基础生物学问题，例如“光合作用的基本步骤是什么？”。Anthropic 此前曾因 Mythos 模型过于强大而推迟发布，但此次限制似乎过于保守，引发用户对模型实用性的质疑。",
+      "domain": "AI",
+      "id": "wscn:3774780",
+      "url": "https://wallstreetcn.com/articles/3774780",
+      "source": "华尔街见闻",
+      "stars": 5,
+      "title": "DeepSeek 完成首轮 500 亿融资：梁文锋个人出资 200 亿，腾讯宁德时代跟投",
+      "lead": "DeepSeek 宣布完成首轮外部融资，总额超 500 亿元人民币，估值超 3300 亿元。创始人梁文锋个人出资 200 亿元，为最大投资方；腾讯、宁德时代、京东、网易及 IDG 资本等跟投。为确保梁文锋绝对控制权，外部投资者资金须注入由其管理的有限合伙企业，股份锁定期五年。国家人工智能产业投资基金为唯一例外，直接注资 10 亿元并享有投票权。",
       "confirmed": [
-        "Fable 5 拒绝回答基础生物学问题",
-        "Anthropic 确认这是安全限制的一部分",
-        "公司此前因安全顾虑推迟了 Mythos 的发布"
+        "DeepSeek 首轮融资超 500 亿元，估值超 3300 亿元",
+        "梁文锋个人出资 200 亿元，保持绝对控制权",
+        "腾讯、宁德时代、京东、网易、IDG 资本等参投",
+        "外部投资者资金注入有限合伙企业，锁定期五年",
+        "国家 AI 产业基金直接注资 10 亿元，享有投票权"
       ],
       "judgment": [
-        "限制范围是否过大？可能影响教育等合法用途",
-        "Anthropic 是否会调整策略？",
-        "竞争对手（如 GPT-5.5）是否也有类似限制？"
+        "DeepSeek 的估值对标 OpenAI（7300 亿美元）仍有空间，但中国 AI 市场估值体系不同",
+        "梁文锋的绝对控制权设计可能影响后续融资灵活性",
+        "腾讯等战略投资者的加入意味着 DeepSeek 将深度整合进入中国互联网生态",
+        "融资后 DeepSeek 可能加速发布新一代模型，与 Claude 和 GPT 竞争",
+        "国家基金的参与暗示 DeepSeek 将承担部分国家 AI 基础设施角色"
       ],
-      "implication": "如果你计划用 Fable 5 做知识问答或教育内容，务必先测试其限制边界。Anthropic 的安全策略可能比预期更激进，建议同时备选其他模型。"
+      "implication": "这对你的 Agent 项目是利好：DeepSeek 的 API 价格通常低于海外竞品，且国内访问稳定。如果 Anthropic 的模型被限制，DeepSeek V4 是 Claude Code 的最佳替代方案（已有社区教程）。建议立即测试 DeepSeek V4 + Claude Code 的集成方案，作为你 content-curator 项目的底层模型备选。"
     },
     {
       "rank": 4,
-      "domain": "股票",
-      "id": "hn:48405718",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
-      "source": "Bloomberg",
+      "domain": "AI 算力 / 半导体",
+      "id": "wscn:3774784",
+      "url": "https://wallstreetcn.com/articles/3774784",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "S&P 拒绝为 SpaceX 等超级 IPO 修改指数纳入规则",
-      "lead": "S&P Dow Jones 宣布维持现有指数纳入规则，拒绝为 SpaceX、Anthropic 等超级 IPO 提供快速通道。这意味着即使 SpaceX 以 1.77 万亿美元上市，也不会立即被纳入标普 500 指数，被动资金无法自动买入。",
+      "title": "AMD 与苹果押注闪存替代 DRAM：AI 存储成本或降 55 倍",
+      "lead": "面对 DRAM 价格暴涨，AMD 收购内存优化公司 MEXT，将 AI 驱动闪存技术引入数据中心；苹果同步推进端侧闪存方案。两家巨头看重闪存成本仅为 DRAM 的 1/55，正重构 AI 存储架构。AMD 的 Predictive Memory Engine 可将不常访问的数据从 DRAM 卸载至 NAND，对应用透明。",
       "confirmed": [
-        "S&P 维持现有 IPO 纳入规则不变",
-        "SpaceX IPO 定价 1.77 万亿美元",
-        "Morningstar 估值仅 7800 亿美元，认为高估"
+        "AMD 收购 MEXT，获得 Predictive Memory Engine 技术",
+        "该技术可将闪存虚拟化为 DRAM，对应用透明",
+        "闪存成本约为 DRAM 的 1/55",
+        "苹果也在推进端侧闪存方案",
+        "DRAM 价格因 AI 需求暴涨，数据中心存储成本承压"
       ],
       "judgment": [
-        "指数纳入延迟可能抑制 IPO 首日涨幅",
-        "散户 FOMO 情绪可能被放大",
-        "其他指数（如纳斯达克）是否会跟进？"
+        "闪存替代 DRAM 在推理场景效果显著，但训练场景仍需高带宽内存",
+        "AMD 的技术可能率先用于云数据中心，消费级产品需 1-2 年",
+        "苹果的端侧方案将提升 iPhone/iPad 上的本地 AI 推理能力",
+        "长期看，存储架构变革将降低 AI 推理的总体拥有成本",
+        "Nvidia 可能推出类似技术以保持生态竞争力"
       ],
-      "implication": "如果你考虑参与 SpaceX IPO，注意它不会立即进入主流指数，被动资金流入有限。Morningstar 的估值分歧意味着风险较高，建议谨慎评估。"
+      "implication": "如果你在本地运行 AI 模型（如通过 Ollama 或 LM Studio），未来 Mac 或 PC 可能通过闪存扩展可用内存，让你运行更大的模型。对于 content-curator 项目，这意味着你可以在本地部署更强的开源模型，减少 API 依赖。关注 AMD 的消费级实现时间线。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "台积电 CoPoS 2028 下半年量产，英伟达 Feynman 芯片有望首发",
-      "url": "https://wallstreetcn.com/articles/3774411",
-      "source": "华尔街见闻",
-      "one_liner": "郭明錤曝光台积电下一代封装技术时间表，三层玻璃核心基板架构，竞争优势或锁定至 2032 年。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Google 预订 Intel 封装超 300 万颗 TPU，2028 年交付",
-      "url": "https://www.tomshardware.com/tech-industry/google-reportedly-books-intel-for-more-than-3-million-tpus-in-2028",
-      "source": "Tom's Hardware",
-      "one_liner": "Intel 先进封装获大单，SK hynix 正在测试 Intel EMIB 封装用于 HBM 集成。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "中国拟投 2950 亿美元建国家 AI 数据中心网格，80% 使用国产芯片",
-      "url": "https://www.tomshardware.com/tech-industry/china-drafts-295-billion-plan-to-build-a-national-ai-data-center-grid-running-on-80-percent-domestic-chips",
-      "source": "Tom's Hardware",
-      "one_liner": "五年计划，2028 年目标，但国产芯片产能可能成为瓶颈。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "台湾考虑将 AI 芯片出口至全中国定为刑事犯罪",
-      "url": "https://www.tomshardware.com/tech-industry/taiwan-weighs-criminal-ban-on-ai-chip-exports-to-all-of-china-as-us-trade-talks-continue",
-      "source": "Tom's Hardware",
-      "one_liner": "比黑名单更严格的措施，走私服务器将构成犯罪。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Apple 新 Siri AI 基于 Google Gemini 模型，WWDC 亮相",
-      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
-      "source": "MacRumors",
-      "one_liner": "Apple 放弃自研大模型，转向 Gemini 驱动 Siri，macOS 27 Golden Gate 统一 AI 策略。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google DeepMind 发布 DiffusionGemma，本地 AI 推理速度提升 4 倍",
-      "url": "https://arstechnica.com/google/2026/06/googles-latest-diffusiongemma-open-ai-model-comes-with-a-4x-speed-boost/",
-      "source": "Ars Technica",
-      "one_liner": "扩散模型用于文本生成，开源，适合本地部署。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Anthropic CEO Dario Amodei 仅有一名直接下属",
-      "url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
-      "source": "TechCrunch",
-      "one_liner": "独特管理架构：所有高管向总裁妹妹汇报，CEO 专注战略。"
-    },
-    {
-      "domain": "股票",
-      "title": "OpenAI 秘密提交 IPO 文件",
-      "url": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html",
-      "source": "CNBC",
-      "one_liner": "继 Anthropic 之后，OpenAI 也启动 IPO 流程，AI 公司上市潮来临。"
-    },
-    {
-      "domain": "股票",
-      "title": "甲骨文 Q4 业绩：OCI 增长 92% 但传统软件疲软，股价暴跌",
-      "url": "https://wallstreetcn.com/articles/3774410",
-      "source": "华尔街见闻",
-      "one_liner": "AI 基建业务亮眼，但高息高债和软件下滑拖累，市场失望。"
-    },
-    {
-      "domain": "股票",
-      "title": "软银以 OpenAI 股权抵押贷款 60 亿美元谈判陷入僵局",
-      "url": "https://wallstreetcn.com/articles/3774403",
-      "source": "华尔街见闻",
-      "one_liner": "贷款方对非上市资产估值存疑，软银股价单日跌近 10%。"
+      "domain": "AI",
+      "title": "Claude Ultracode 上线：操控 100 个 Agent 并行开发",
+      "url": "https://www.bilibili.com/video/av116697163896598",
+      "source": "技术胖",
+      "one_liner": "Claude Code 新功能，解决大型任务拆分问题，但尚未进入头条因为用户已熟悉 Claude Code 生态，且功能仍在早期。"
     },
     {
       "domain": "AI",
-      "title": "尚硅谷发布零基础 Vibe Coding 教程，覆盖 Claude Code + Codex + Cursor",
+      "title": "零基础 Vibe Coding 教程：Claude Code+Codex+Cursor 实战",
       "url": "https://www.bilibili.com/video/av116711944620974",
-      "source": "B站",
-      "one_liner": "2026-06-09 发布，适合入门，但内容偏基础，用户可能觉得密度不够。"
+      "source": "尚硅谷",
+      "one_liner": "6 月 9 日新出教程，适合你快速上手，但内容偏基础，与你的已有知识重叠较多。"
     },
     {
-      "domain": "AI",
-      "title": "Claude Fable 5 实测：5 小时开发 macOS 应用并开源",
-      "url": "https://www.bilibili.com/video/av116727111228188",
-      "source": "B站",
-      "one_liner": "展示 Fable 5 编程能力，但视频标题略标题党，实际效果需自行验证。"
+      "domain": "AI 算力 / 半导体",
+      "title": "GlobalFoundries 首个支持 OCI MSA 开放标准的芯片",
+      "url": "https://www.eetimes.com/globalfoundries-first-chipmaker-to-support-open-standard-for-ai-scale-up/",
+      "source": "EE Times",
+      "one_liner": "开放标准有助于打破 Nvidia 的互连垄断，但影响偏长期，暂不入头条。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Tensordyne 流片 LNS 架构 AI 芯片，宣称功耗低一个数量级",
+      "url": "https://www.eetimes.com/tensordyne-tapes-out-lns-based-ai-chip-claims-huge-power-advantages/",
+      "source": "EE Times",
+      "one_liner": "对数数系统芯片值得关注，但流片到量产需 1-2 年，短期影响有限。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Marvell 展示光互连数据中心愿景，样品年内提供",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/marvell-details-vision-of-optically-interconnected-data-centers-spanning-across-thousands-of-kilometers-new-interconnects-sampling-later-this-year-would-allow-csps-to-pool-resources-based-on-workload",
+      "source": "Tom's Hardware",
+      "one_liner": "光互连将改变 AI 集群拓扑，但尚处早期，暂不入头条。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Salesforce 36 亿美元收购 AI 客服平台 Fin",
+      "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
+      "source": "TechCrunch",
+      "one_liner": "企业 AI Agent 并购加速，但与你个人项目关联度低。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Meta 在 Facebook 推出 AI Mode，搜索基于公开帖子",
+      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+      "source": "TechCrunch",
+      "one_liner": "Meta 追赶 AI 搜索，但数据源限制使其实用性存疑。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "OpenAI 2025 年净亏损 385 亿美元，已秘密递交 IPO 文件",
+      "url": "https://wallstreetcn.com/articles/3774775",
+      "source": "华尔街见闻",
+      "one_liner": "亏损主因是结构转型非现金冲销，实际运营亏损约 80 亿，IPO 估值 7300 亿美元。"
+    },
+    {
+      "domain": "股票",
+      "title": "德银大幅上调人形机器人出货预测：2026 年 5 万台，2050 年 700 万台",
+      "url": "https://wallstreetcn.com/articles/3774781",
+      "source": "华尔街见闻",
+      "one_liner": "中国是核心引擎，宇树等厂商领跑，但与你当前关注点较远。"
+    },
+    {
+      "domain": "股票",
+      "title": "世界黄金协会：45% 央行计划增持黄金，创历史新高",
+      "url": "https://wallstreetcn.com/articles/3774786",
+      "source": "华尔街见闻",
+      "one_liner": "宏观信号，但非 AI 相关，仅作背景信息。"
+    },
+    {
+      "domain": "股票",
+      "title": "铜箔缺口 1500 吨：英伟达亲自下场抢购",
+      "url": "https://wallstreetcn.com/premium/articles/3774647",
+      "source": "华尔街见闻",
+      "one_liner": "AI 硬件供应链瓶颈，影响 GPU 交付周期，间接影响你的模型可用性。"
+    },
+    {
+      "domain": "股票",
+      "title": "福克斯 220 亿美元收购 Roku",
+      "url": "https://wallstreetcn.com/articles/3774767",
+      "source": "华尔街见闻",
+      "one_liner": "媒体巨头整合，与 AI 无直接关联。"
+    },
+    {
+      "domain": "金融",
+      "title": "联邦法官阻止 H1B 签证 10 万美元费用规定",
+      "url": "https://www.alaskasnewssource.com/2026/06/08/federal-judge-blocks-h1-b-visa-100k-fee/",
+      "source": "Alaska's News Source",
+      "one_liner": "影响科技行业人才流动，间接影响 AI 公司招聘。"
+    },
+    {
+      "domain": "金融",
+      "title": "微软数据：使用 AI 比雇佣人类更贵",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/microsoft-data-suggests-using-ai-225900743.html",
+      "source": "Yahoo Finance",
+      "one_liner": "引发 AI 成本效益讨论，但数据可能被断章取义。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-11T08:29:47+0000"
+    "scored_at": "2026-06-16T10:14:06+0000"
   }
 }
