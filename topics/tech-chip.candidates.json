@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-15T09:30:55.130106+00:00",
+  "fetched_at": "2026-06-16T08:52:25.942428+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 7,
+    "HN · Nvidia": 4,
     "HN · semiconductor": 3,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 32,
+  "total": 29,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/risc-v-silicon-in-the-jungle-could-save-the-amazon/",
+      "title": "RISC-V Silicon in the Jungle Could Save the Amazon",
+      "url": "https://www.eetimes.com/risc-v-silicon-in-the-jungle-could-save-the-amazon/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T08:41:10+00:00",
+      "summary": "Researchers at the University of São Paulo use RISC-V to build the Internet of Trees, a real-time monitoring network for the Amazon rainforest. The post RISC-V Silicon in the Jungle Could Save the Amazon appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/globalfoundries-first-chipmaker-to-support-open-standard-for-ai-scale-up/",
+      "title": "GlobalFoundries: First Chipmaker to Support Open Standard for AI Scale Up",
+      "url": "https://www.eetimes.com/globalfoundries-first-chipmaker-to-support-open-standard-for-ai-scale-up/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T22:00:00+00:00",
+      "summary": "GlobalFoundries leads with the first silicon to support OCI MSA, shaking up AI data centers. The post GlobalFoundries: First Chipmaker to Support Open Standard for AI Scale Up appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/tensordyne-tapes-out-lns-based-ai-chip-claims-huge-power-advantages/",
+      "title": "Tensordyne Tapes Out LNS-Based AI Chip, Claims Huge Power Advantages",
+      "url": "https://www.eetimes.com/tensordyne-tapes-out-lns-based-ai-chip-claims-huge-power-advantages/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T16:00:00+00:00",
+      "summary": "The company said it can consume an order of magnitude less power per token versus GPU alternatives. The post Tensordyne Tapes Out LNS-Based AI Chip, Claims Huge Power Advantages appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/andy-mclean-rapidus-mou-will-help-british-innovators-access-2-nm-technology/",
+      "title": "Andy McLean: Rapidus MoU Will Help British Innovators Access 2-nm Technology",
+      "url": "https://www.eetimes.com/andy-mclean-rapidus-mou-will-help-british-innovators-access-2-nm-technology/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T13:10:12+00:00",
+      "summary": "As the UK Semiconductor Centre signs an MoU with Rapidus, EE Times speaks exclusively with its new CEO, Andy McLean. The post Andy McLean: Rapidus MoU Will Help British Innovators Access 2-nm Technology appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/how-multi-sense-technologies-are-redefining-human-machine-interfaces-and-dexterous-robotics/",
+      "title": "How Multi-Sense Technologies Are Redefining Human-Machine Interfaces and Dexterous Robotics",
+      "url": "https://www.eetimes.com/how-multi-sense-technologies-are-redefining-human-machine-interfaces-and-dexterous-robotics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Vibheesh Bharathan, Director, Head of PSOC™ Multi-Sense MCUs, Infineon",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T13:00:00+00:00",
+      "summary": "Discover how multi-sense technologies are transforming HMIs, smart appliances, and dexterous robotics with AI-powered tactile sensing. The post How Multi-Sense Technologies Are Redefining Human-Machine Interfaces and Dexterous Robotics appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/imec-pushes-quantum-toward-manufacturable-silicon-systems/",
       "title": "Imec Pushes Quantum Toward Manufacturable Silicon Systems",
       "url": "https://www.eetimes.com/imec-pushes-quantum-toward-manufacturable-silicon-systems/",
@@ -274,91 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/rebellions-bets-on-memory-centric-architecture-as-it-weighs-ipo-options/",
-      "title": "Rebellions Bets on Memory-Centric Architecture as It Weighs IPO Options",
-      "url": "https://www.eetimes.com/rebellions-bets-on-memory-centric-architecture-as-it-weighs-ipo-options/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-11T22:00:00+00:00",
-      "summary": "Rebellions leverages memory-centric AI chip designs with SK Hynix and Samsung to fuel IPO ambitions. The post Rebellions Bets on Memory-Centric Architecture as It Weighs IPO Options appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/gigadevice-introduces-gd32e512-and-gd32e252-mcus-for-optical-modules/",
-      "title": "GigaDevice Introduces GD32E512 and GD32E252 MCUs for Optical Modules",
-      "url": "https://www.eetimes.com/gigadevice-introduces-gd32e512-and-gd32e252-mcus-for-optical-modules/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "GigaDevice",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-11T16:00:00+00:00",
-      "summary": "GigaDevice has introduced the new GD32E512 and GD32E252 series MCUs specifically designed for optical module applications. The post GigaDevice Introduces GD32E512 and GD32E252 MCUs for Optical Modules appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/risc-v-targets-data-centers-edge-ai-space/",
-      "title": "RISC-V Targets Data Centers, Edge AI, Space",
-      "url": "https://www.eetimes.com/risc-v-targets-data-centers-edge-ai-space/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-11T13:24:38+00:00",
-      "summary": "\"RISC-V is now,\" said Andrea Gallo, CEO of RISC-V International, during his keynote at this week's RISC-V Summit Europe 2026 in Bologna. The post RISC-V Targets Data Centers, Edge AI, Space appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/logistics-leaders-navigate-cost-and-automation/",
-      "title": "Logistics Leaders Navigate Cost and Automation",
-      "url": "https://www.eetimes.com/logistics-leaders-navigate-cost-and-automation/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-11T08:11:49+00:00",
-      "summary": "Gartner's VP analyst David Gonzalez shares strategies for profitability and technology in supply chain management. The post Logistics Leaders Navigate Cost and Automation appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/startup-ricursive-to-create-an-end-to-end-ai-model-for-chip-design/",
-      "title": "Startup Ricursive to Create an End-to-End AI Model for Chip Design",
-      "url": "https://www.eetimes.com/startup-ricursive-to-create-an-end-to-end-ai-model-for-chip-design/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-10T16:26:51+00:00",
-      "summary": "“We are definitely not an EDA company,” Ricursive co-founders told EE Times. The post Startup Ricursive to Create an End-to-End AI Model for Chip Design appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48430986",
       "title": "TSMC CEO: I envy their 80% gross margins, but I would never do that",
       "url": "https://www.thestreet.com/investing/stocks/tsmc-taiwan-semiconductor-ceo-sends-blunt-message-to-memory-chip-rivals",
@@ -428,46 +428,8 @@
       },
       "duration_sec": null,
       "views": 331,
-      "comments": 556,
+      "comments": 557,
       "published_at": "2026-06-06T12:52:18+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48355720",
-      "title": "Microsoft builds MacBook Pro rival with NVIDIA-powered Surface Laptop Ultra",
-      "url": "https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48355720",
-        "name": "jbk",
-        "hn_url": "https://news.ycombinator.com/item?id=48355720"
-      },
-      "duration_sec": null,
-      "views": 287,
-      "comments": 653,
-      "published_at": "2026-06-01T12:04:29+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48356654",
-      "title": "Nvidia Cosmos 3",
-      "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48356654",
-        "name": "tosh",
-        "hn_url": "https://news.ycombinator.com/item?id=48356654"
-      },
-      "duration_sec": null,
-      "views": 150,
-      "comments": 28,
-      "published_at": "2026-06-01T13:32:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -492,25 +454,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:48354967",
-      "title": "Nvidia announces new AI chip for personal computers",
-      "url": "https://www.bbc.com/news/articles/crmp9mppvzro",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48354967",
-        "name": "rishikeshs",
-        "hn_url": "https://news.ycombinator.com/item?id=48354967"
-      },
-      "duration_sec": null,
-      "views": 46,
-      "comments": 2,
-      "published_at": "2026-06-01T10:33:25+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:48509844",
       "title": "SkillSpector",
       "url": "https://github.com/NVIDIA/SkillSpector",
@@ -522,7 +465,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48509844"
       },
       "duration_sec": null,
-      "views": 47,
+      "views": 49,
       "comments": 4,
       "published_at": "2026-06-12T21:49:49+00:00",
       "summary": "",
@@ -580,7 +523,7 @@
       },
       "duration_sec": null,
       "views": 53,
-      "comments": 36,
+      "comments": 35,
       "published_at": "2026-06-07T03:00:52+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",

@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-06-15T09:30:22.852330+00:00",
+  "fetched_at": "2026-06-16T08:51:54.703229+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,18 +13,18 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 2,
-    "HN · Nvidia": 7,
+    "HN · Nvidia": 4,
     "HN · semiconductor": 4,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
-    "HN · 数据中心 / 算力": 1
+    "HN · 数据中心 / 算力": 0
   },
   "subtopics": [
     {
       "name": "default"
     }
   ],
-  "total": 64,
+  "total": 60,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/risc-v-silicon-in-the-jungle-could-save-the-amazon/",
+      "title": "RISC-V Silicon in the Jungle Could Save the Amazon",
+      "url": "https://www.eetimes.com/risc-v-silicon-in-the-jungle-could-save-the-amazon/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T08:41:10+00:00",
+      "summary": "Researchers at the University of São Paulo use RISC-V to build the Internet of Trees, a real-time monitoring network for the Amazon rainforest. The post RISC-V Silicon in the Jungle Could Save the Amazon appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/globalfoundries-first-chipmaker-to-support-open-standard-for-ai-scale-up/",
+      "title": "GlobalFoundries: First Chipmaker to Support Open Standard for AI Scale Up",
+      "url": "https://www.eetimes.com/globalfoundries-first-chipmaker-to-support-open-standard-for-ai-scale-up/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T22:00:00+00:00",
+      "summary": "GlobalFoundries leads with the first silicon to support OCI MSA, shaking up AI data centers. The post GlobalFoundries: First Chipmaker to Support Open Standard for AI Scale Up appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/tensordyne-tapes-out-lns-based-ai-chip-claims-huge-power-advantages/",
+      "title": "Tensordyne Tapes Out LNS-Based AI Chip, Claims Huge Power Advantages",
+      "url": "https://www.eetimes.com/tensordyne-tapes-out-lns-based-ai-chip-claims-huge-power-advantages/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T16:00:00+00:00",
+      "summary": "The company said it can consume an order of magnitude less power per token versus GPU alternatives. The post Tensordyne Tapes Out LNS-Based AI Chip, Claims Huge Power Advantages appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/andy-mclean-rapidus-mou-will-help-british-innovators-access-2-nm-technology/",
+      "title": "Andy McLean: Rapidus MoU Will Help British Innovators Access 2-nm Technology",
+      "url": "https://www.eetimes.com/andy-mclean-rapidus-mou-will-help-british-innovators-access-2-nm-technology/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T13:10:12+00:00",
+      "summary": "As the UK Semiconductor Centre signs an MoU with Rapidus, EE Times speaks exclusively with its new CEO, Andy McLean. The post Andy McLean: Rapidus MoU Will Help British Innovators Access 2-nm Technology appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/how-multi-sense-technologies-are-redefining-human-machine-interfaces-and-dexterous-robotics/",
+      "title": "How Multi-Sense Technologies Are Redefining Human-Machine Interfaces and Dexterous Robotics",
+      "url": "https://www.eetimes.com/how-multi-sense-technologies-are-redefining-human-machine-interfaces-and-dexterous-robotics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Vibheesh Bharathan, Director, Head of PSOC™ Multi-Sense MCUs, Infineon",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T13:00:00+00:00",
+      "summary": "Discover how multi-sense technologies are transforming HMIs, smart appliances, and dexterous robotics with AI-powered tactile sensing. The post How Multi-Sense Technologies Are Redefining Human-Machine Interfaces and Dexterous Robotics appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/imec-pushes-quantum-toward-manufacturable-silicon-systems/",
       "title": "Imec Pushes Quantum Toward Manufacturable Silicon Systems",
       "url": "https://www.eetimes.com/imec-pushes-quantum-toward-manufacturable-silicon-systems/",
@@ -282,88 +367,241 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/rebellions-bets-on-memory-centric-architecture-as-it-weighs-ipo-options/",
-      "title": "Rebellions Bets on Memory-Centric Architecture as It Weighs IPO Options",
-      "url": "https://www.eetimes.com/rebellions-bets-on-memory-centric-architecture-as-it-weighs-ipo-options/",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-takes-over-mext-to-address-growing-memory-constraints-in-the-data-center-memory-tiering-technology-enables-flash-to-appear-as-dram-to-applications",
+      "title": "AMD takes over MEXT to 'address growing memory constraints' in the data center — memory tiering technology enables flash to appear as DRAM to applications",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-takes-over-mext-to-address-growing-memory-constraints-in-the-data-center-memory-tiering-technology-enables-flash-to-appear-as-dram-to-applications",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-11T22:00:00+00:00",
-      "summary": "Rebellions leverages memory-centric AI chip designs with SK Hynix and Samsung to fuel IPO ambitions. The post Rebellions Bets on Memory-Centric Architecture as It Weighs IPO Options appeared first on EE Times.",
+      "published_at": "2026-06-15T19:00:47+00:00",
+      "summary": "AMD acquires MEXT to get Predictive Memory Engine that offloads infrequently accessed data from DRAM to NAND storage.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/gigadevice-introduces-gd32e512-and-gd32e252-mcus-for-optical-modules/",
-      "title": "GigaDevice Introduces GD32E512 and GD32E252 MCUs for Optical Modules",
-      "url": "https://www.eetimes.com/gigadevice-introduces-gd32e512-and-gd32e252-mcus-for-optical-modules/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/multiple-small-tennessee-counties-pass-temporary-data-center-bans-nashville-also-passed-near-unanimous-moratorium-on-first-reading",
+      "title": "Multiple small Tennessee counties pass temporary data center bans — Nashville also passed near-unanimous moratorium on first reading",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/multiple-small-tennessee-counties-pass-temporary-data-center-bans-nashville-also-passed-near-unanimous-moratorium-on-first-reading",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "GigaDevice",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-11T16:00:00+00:00",
-      "summary": "GigaDevice has introduced the new GD32E512 and GD32E252 series MCUs specifically designed for optical module applications. The post GigaDevice Introduces GD32E512 and GD32E252 MCUs for Optical Modules appeared first on EE Times.",
+      "published_at": "2026-06-15T18:06:33+00:00",
+      "summary": "Two jurisdictions in Tennessee just passed a data center moratorium as three more a set to vote on bills that delay these projects. These temporary bans have gained widespread support, especially in rural regions where developers are increasingly looking to for building their massive projects.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/risc-v-targets-data-centers-edge-ai-space/",
-      "title": "RISC-V Targets Data Centers, Edge AI, Space",
-      "url": "https://www.eetimes.com/risc-v-targets-data-centers-edge-ai-space/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/marvell-details-vision-of-optically-interconnected-data-centers-spanning-across-thousands-of-kilometers-new-interconnects-sampling-later-this-year-would-allow-csps-to-pool-resources-based-on-workload",
+      "title": "Marvell details vision of optically-interconnected data centers spanning across thousands of kilometers — new interconnects sampling later this year would allow CSPs to pool resources based on workload",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/marvell-details-vision-of-optically-interconnected-data-centers-spanning-across-thousands-of-kilometers-new-interconnects-sampling-later-this-year-would-allow-csps-to-pool-resources-based-on-workload",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-11T13:24:38+00:00",
-      "summary": "\"RISC-V is now,\" said Andrea Gallo, CEO of RISC-V International, during his keynote at this week's RISC-V Summit Europe 2026 in Bologna. The post RISC-V Targets Data Centers, Edge AI, Space appeared first on EE Times.",
+      "published_at": "2026-06-15T16:49:39+00:00",
+      "summary": "Marvell shares its vision for optically connected data centers, connecting devices across hundreds of kilometers, and the company already has hardware to build them.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/logistics-leaders-navigate-cost-and-automation/",
-      "title": "Logistics Leaders Navigate Cost and Automation",
-      "url": "https://www.eetimes.com/logistics-leaders-navigate-cost-and-automation/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/chinas-top-court-bars-infineon-from-selling-gan-power-chips-in-china",
+      "title": "China's supreme court bans Infineon from selling GaN power chips in China — market-leader Innoscience secures major victory in multi-region patent war",
+      "url": "https://www.tomshardware.com/tech-industry/chinas-top-court-bars-infineon-from-selling-gan-power-chips-in-china",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-11T08:11:49+00:00",
-      "summary": "Gartner's VP analyst David Gonzalez shares strategies for profitability and technology in supply chain management. The post Logistics Leaders Navigate Cost and Automation appeared first on EE Times.",
+      "published_at": "2026-06-15T14:27:11+00:00",
+      "summary": "China's Supreme People's Court on Friday upheld an injunction prohibiting Infineon from selling disputed GaN products in mainland China.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/startup-ricursive-to-create-an-end-to-end-ai-model-for-chip-design/",
-      "title": "Startup Ricursive to Create an End-to-End AI Model for Chip Design",
-      "url": "https://www.eetimes.com/startup-ricursive-to-create-an-end-to-end-ai-model-for-chip-design/",
+      "id": "rss:https://www.tomshardware.com/3d-printing/bambu-labs-big-anniversary-sale-is-live-with-up-to-52-percent-off-score-huge-discounts-on-their-most-popular-3d-printers-and-accessories",
+      "title": "Bambu Lab's big anniversary sale is live with up to 52% off — score huge discounts on their most popular 3D printers and accessories",
+      "url": "https://www.tomshardware.com/3d-printing/bambu-labs-big-anniversary-sale-is-live-with-up-to-52-percent-off-score-huge-discounts-on-their-most-popular-3d-printers-and-accessories",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-10T16:26:51+00:00",
-      "summary": "“We are definitely not an EDA company,” Ricursive co-founders told EE Times. The post Startup Ricursive to Create an End-to-End AI Model for Chip Design appeared first on EE Times.",
+      "published_at": "2026-06-15T14:14:33+00:00",
+      "summary": "Save on some of the best 3D printers in Bambu Lab's Anniversary sale",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/cancelled-xbox-360-version-of-goldeneye-007-gets-recompiled-for-pc-no-emulator-the-game-runs-as-a-real-native-executable-insists-dev",
+      "title": "Cancelled Xbox 360 version of GoldenEye 007 gets recompiled for PC — ‘No emulator, the game runs as a real native executable,’ insists dev",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/cancelled-xbox-360-version-of-goldeneye-007-gets-recompiled-for-pc-no-emulator-the-game-runs-as-a-real-native-executable-insists-dev",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T13:43:30+00:00",
+      "summary": "GoldenEye Recomp v1.0 has been released, providing 'a native PC port of GoldenEye 007 built by statically recompiling the original game into C++' with no emulation involved.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/docking-stations-hubs/cooler-master-masterhub-review",
+      "title": "Cooler Master MasterHUB review: A modular stream deck with potential",
+      "url": "https://www.tomshardware.com/peripherals/docking-stations-hubs/cooler-master-masterhub-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sarah Jacobsson Purewal",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T13:10:00+00:00",
+      "summary": "Cooler Master's MasterHUB is a modular customizable macropad that's perhaps a little too ambitious. Its modularity is nicely implemented, but it's limited by its software and lack of plugins.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/score-32gb-of-ddr5-ram-from-only-usd240-in-these-newegg-hardware-bundles-for-intel-and-amd-gaming-pc-builds-huge-savings-on-premium-gigabyte-motherboards-coupled-with-popular-corsair-vengeance-memory",
+      "title": "Score 32GB of DDR5 RAM from only $240 in these Newegg hardware bundles for Intel and AMD gaming PC builds — huge savings on premium Gigabyte motherboards coupled with popular Corsair Vengeance memory",
+      "url": "https://www.tomshardware.com/pc-components/score-32gb-of-ddr5-ram-from-only-usd240-in-these-newegg-hardware-bundles-for-intel-and-amd-gaming-pc-builds-huge-savings-on-premium-gigabyte-motherboards-coupled-with-popular-corsair-vengeance-memory",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T12:19:25+00:00",
+      "summary": "These Newegg bundles for Intel and AMD gaming PC builds feature 32GB of Corsair Vengeance DDR5 RAM from only $240, featuring Gigabyte motherboards.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/asus-proart-pa27usd-27-inch-oled-review",
+      "title": "Asus ProArt PA27USD 27-inch OLED review: Precision color with high-speed gaming prowess",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/asus-proart-pa27usd-27-inch-oled-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Christian Eberle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T12:10:00+00:00",
+      "summary": "Asus combines professional and gaming cred in the ProArt PA27USD. It’s a 27-inch QD-OLED with 4K resolution, professional image modes, auto-calibration, 240 Hz, Adaptive-Sync, HDR10, HLG, Dolby Vision and wide gamut color.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/chromebooks/google-chromebook-marks-its-15th-anniversary-slow-feature-rollouts-and-a-canceled-steam-beta-leave-it-largely-stuck-in-classrooms",
+      "title": "Google Chromebook marks its 15th anniversary — slow feature rollouts and a canceled Steam beta leave it largely stuck in classrooms",
+      "url": "https://www.tomshardware.com/laptops/chromebooks/google-chromebook-marks-its-15th-anniversary-slow-feature-rollouts-and-a-canceled-steam-beta-leave-it-largely-stuck-in-classrooms",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T12:00:01+00:00",
+      "summary": "Today marks 15 years since the first Chromebooks hit the market.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/samsungs-49-inch-ultrawide-odyssey-g9-gaming-monitor-dips-to-the-lowest-ever-price-of-usd664-at-amazon-get-240hz-refresh-rate-and-dense-109-ppi-for-34-percent-off",
+      "title": "Samsung's 49-inch ultrawide Odyssey G9 gaming monitor dips to the lowest-ever price of $664 at Amazon — get 240Hz refresh rate and dense 109 PPI for 34% off",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/samsungs-49-inch-ultrawide-odyssey-g9-gaming-monitor-dips-to-the-lowest-ever-price-of-usd664-at-amazon-get-240hz-refresh-rate-and-dense-109-ppi-for-34-percent-off",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T11:18:44+00:00",
+      "summary": "Save 34% on Samsung's Odyssey G9 gaming monitor and pick up this massive 49-inch display for just $664.99. Its lowest-ever price.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/fbi-and-google-dismantle-chinese-phishing-service-that-coached-buyers-to-generate-scam-sites-with-gemini",
+      "title": "FBI dismantles Chinese phishing service that coached buyers to generate scam sites using AI —$88 cybercrime product linked to $1.9 billion in losses, 3.87 million stolen cards",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/fbi-and-google-dismantle-chinese-phishing-service-that-coached-buyers-to-generate-scam-sites-with-gemini",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T11:10:54+00:00",
+      "summary": "The FBI, Google, and Lumen Technologies say they’ve dismantled a China-based phishing-as-a-service operation called Outsider Enterprise.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/42-percent-slashed-of-samsungs-990-pro-ssd-2tb-now-usd369-usd270-savings-brings-one-of-the-fastest-pcie-4-0-ssds-to-its-lowest-price-in-months",
+      "title": "42% slashed off Samsung's 990 Pro SSD, 2TB now $369 — $270 savings brings one of the fastest PCIe 4.0 SSDs to its lowest price in months",
+      "url": "https://www.tomshardware.com/pc-components/42-percent-slashed-of-samsungs-990-pro-ssd-2tb-now-usd369-usd270-savings-brings-one-of-the-fastest-pcie-4-0-ssds-to-its-lowest-price-in-months",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T10:49:25+00:00",
+      "summary": "Samsung's 990 Pro 2TB is one of the fastest PCIe 4.0 M.2 SSDs around, delivering excellent performance and efficiency and backed by a 5-year warranty - now priced at $369.99, it's not the cheapest around, but is a well-rounded storage upgrade for any build.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/2021-honda-civic-infotainment-system-can-be-jailbroken-via-usb-flaw-uses-public-android-test-keys-to-install-unauthorized-apps-enables-for-evilvalet-attacks",
+      "title": "2021 Honda Civic infotainment system can be jailbroken via USB — flaw uses public Android test keys to install unauthorized apps, enables for 'EvilValet' attacks",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/2021-honda-civic-infotainment-system-can-be-jailbroken-via-usb-flaw-uses-public-android-test-keys-to-install-unauthorized-apps-enables-for-evilvalet-attacks",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-15T10:00:00+00:00",
+      "summary": "A software architect determined that they could practically install anything they want on the infotainment system of their 2021 Honda Civic through the front USB port. While the head unit required a signed AOSP file to update itself, the AOSP test key is publicly known, meaning anyone with the knowledge could potentially build their own update file and load it with malware.",
       "lang": "en"
     },
     {
@@ -639,244 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/more-than-75-data-center-build-outs-worth-usd130-billion-have-been-successfully-blocked-in-the-first-four-months-of-2026-bipartisan-opposition-mounts-nationwide-over-fears-of-soaring-power-and-water-costs",
-      "title": "More than 75 data center build-outs worth $130 billion have been successfully blocked in the first three months of 2026 — bipartisan opposition mounts nationwide over fears of soaring power and water costs",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/more-than-75-data-center-build-outs-worth-usd130-billion-have-been-successfully-blocked-in-the-first-four-months-of-2026-bipartisan-opposition-mounts-nationwide-over-fears-of-soaring-power-and-water-costs",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-13T14:13:22+00:00",
-      "summary": "A research firm says the number of blocked data centers in the first quarter of 2026 already matches the number of projects stopped in 2025. The opposition also comes from both sides of the aisle, despite President Trump's push for more AI development inside the U.S.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/mini-pcs/amd-challenges-nvidias-dgx-spark-with-usd3-999-ryzen-ai-halo-with-windows-11-support-strix-halo-desktop-undercuts-nvidia-by-usd700-packs-128gb-of-unified-memory",
-      "title": "AMD challenges Nvidia's DGX Spark with $3,999 Ryzen AI Halo with Windows 11 support — Strix Halo desktop undercuts Nvidia by $700, packs 128GB of unified memory",
-      "url": "https://www.tomshardware.com/desktops/mini-pcs/amd-challenges-nvidias-dgx-spark-with-usd3-999-ryzen-ai-halo-with-windows-11-support-strix-halo-desktop-undercuts-nvidia-by-usd700-packs-128gb-of-unified-memory",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-13T14:12:34+00:00",
-      "summary": "Powered by the Ryzen AI Max+ 395 processor and 128GB of unified memory, AMD's developer kit arrives as a direct competitor to Nvidia's DGX Spark, which recently saw a price increase to $4,699.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/networking/routers/netgear-countersues-tp-link-alleging-its-american-company-rebrand-is-false-advertising",
-      "title": "Netgear countersues TP-Link, saying firm 'remains, at its core, a Chinese company selling Chinese-made products' — alleges its 'American company' rebrand is false advertising",
-      "url": "https://www.tomshardware.com/networking/routers/netgear-countersues-tp-link-alleging-its-american-company-rebrand-is-false-advertising",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-13T13:47:29+00:00",
-      "summary": "Netgear filed counterclaims against TP-Link in federal court in Delaware on June 11, accusing its larger rival of false advertising under the Lanham Act.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-raises-rtx-pro-6000-blackwell-gpu-pricing-to-usd13-250-55-percent-increase-over-msrp-in-a-years-time",
-      "title": "Nvidia raises RTX Pro 6000 Blackwell GPU pricing to $13,250 — 55% increase over MSRP in a year's time",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-raises-rtx-pro-6000-blackwell-gpu-pricing-to-usd13-250-55-percent-increase-over-msrp-in-a-years-time",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-13T12:30:00+00:00",
-      "summary": "Nvidia now sells the RTX Pro 6000 Blackwell graphics cards for $13,250, while partner offerings start at $11,359.99.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-costs-spike-as-subscriptions-hit-pricing-wall-firms-turn-towards-chinese-llms-open-source-models-to-extend-budget",
-      "title": "AI costs spike as subscriptions hit pricing wall — firms turn towards Chinese LLMs, open-source models to extend budget",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-costs-spike-as-subscriptions-hit-pricing-wall-firms-turn-towards-chinese-llms-open-source-models-to-extend-budget",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-13T12:00:00+00:00",
-      "summary": "Companies look for cheaper alternatives as token costs for frontier AI models skyrocket, potentially impacting OpenAI and Anthropic's bottom lines. Subscriptions also take a bite out of these startup's profitability, as utilization rates higher than 5.7% could lead to losses.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-reportedly-preparing-surprise-return-to-ddr4-systems-with-raptor-lake-next-ddr4-platform-slated-for-the-first-half-of-2027-on-the-lga-1700-socket-takes-a-page-from-amds-book-by-extending-budget-platform-longevity",
-      "title": "Intel reportedly preparing surprise return to DDR4 systems with 'Raptor Lake Next' — LGA 1700 platform apparently slated for first half of 2027, takes a page from AMD's book by extending budget platform longevity",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-reportedly-preparing-surprise-return-to-ddr4-systems-with-raptor-lake-next-ddr4-platform-slated-for-the-first-half-of-2027-on-the-lga-1700-socket-takes-a-page-from-amds-book-by-extending-budget-platform-longevity",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-13T11:30:00+00:00",
-      "summary": "The name came up a few times during our conversations at Computex. Intel has declined to comment on it.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/us-export-control-order-forces-anthropic-to-disable-claude-fable-5-and-mythos-5-worldwide",
-      "title": "U.S. gov't orders Anthropic to disable its newest AI models worldwide due to security threats — ban on Claude Fable 5 and Mythos 5 bars access by any foreign national, even its own employees",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-export-control-order-forces-anthropic-to-disable-claude-fable-5-and-mythos-5-worldwide",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-13T11:24:13+00:00",
-      "summary": "Anthropic disabled its two most capable AI models, Claude Fable 5 and Claude Mythos 5, for every customer worldwide on Friday.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/ukraine-used-10-ai-controlled-terminator-drones-to-kill-russian-soldiers-two-years-ago-marking-first-autonomous-killings-of-humans-senior-ukrainian-defense-industry-figure-confirms-this-autonomous-watershed-was-passed-in-2024",
-      "title": "Ukraine used ten AI-controlled ‘Terminator’ drones to kill Russian soldiers two years ago, marking first autonomous killings of humans — autonomous killer quadcopters left ‘everything dead’ says senior Ukrainian defense industry figure",
-      "url": "https://www.tomshardware.com/tech-industry/ukraine-used-10-ai-controlled-terminator-drones-to-kill-russian-soldiers-two-years-ago-marking-first-autonomous-killings-of-humans-senior-ukrainian-defense-industry-figure-confirms-this-autonomous-watershed-was-passed-in-2024",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-13T10:46:57+00:00",
-      "summary": "A watershed moment occurred on the battlefields of Ukraine in 2024 when 10 fully autonomous AI-controlled quadcopter drones were sent to the front lines against Russia with ‘Terminator Mode’ engaged.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/video-editing-graphic-design/dev-releases-unblockable-ascii-video-stream-software-mode-5-rendering-puts-out-360p-at-30-fps-using-pure-text",
-      "title": "Dev releases ‘unblockable’ ASCII video stream software, stoking fears of unstoppable ads — delivers 360p video at 30 FPS and acts as a ‘bridge for AI’",
-      "url": "https://www.tomshardware.com/software/video-editing-graphic-design/dev-releases-unblockable-ascii-video-stream-software-mode-5-rendering-puts-out-360p-at-30-fps-using-pure-text",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-13T10:11:13+00:00",
-      "summary": "A new and unique video streaming solution is pitched as a 'high-performance, real-time ASCII video rendering engine' that can be used to broadcast 'an unblockable video stream.'",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/nvidia-offers-china-early-access-to-vera-cpus-as-h200-sales-stay-frozen",
-      "title": "Nvidia preps to sell its Vera CPUs into China as its GPU sales stay frozen — customers encouraged to place orders for CPU shipments as early as August",
-      "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-offers-china-early-access-to-vera-cpus-as-h200-sales-stay-frozen",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T16:17:42+00:00",
-      "summary": "Nvidia has told Chinese clients that its Arm-based Vera server CPUs could be available as soon as August.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tag/prime-day",
-      "title": "Amazon Prime Day",
-      "url": "https://www.tomshardware.com/tag/prime-day",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "The Editors of Tom&#039;s Hardware",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T16:12:44+00:00",
-      "summary": "Amazon Prime Day",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/controllers-gamepads/thrustmasters-new-specialized-t-flight-hotas-5-microsoft-flight-simulator-edition-provides-a-plug-and-play-flight-sim-setup-for-just-usd109-featuring-5-axis-control-with-16-bit-precision-and-dual-rudder-system",
-      "title": "Thrustmaster's new specialized T.Flight Hotas 5 Microsoft Flight Simulator Edition provides a plug-and-play flight sim setup for just $109 — featuring 5-axis control with 16-bit precision and dual-rudder system",
-      "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/thrustmasters-new-specialized-t-flight-hotas-5-microsoft-flight-simulator-edition-provides-a-plug-and-play-flight-sim-setup-for-just-usd109-featuring-5-axis-control-with-16-bit-precision-and-dual-rudder-system",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T16:05:13+00:00",
-      "summary": "Rocking 16-bit precision, dual-rudder yaw, 5-axis control and a plug-and-play profile for Microsoft Flight Simulator 2024, the new T.Flight Hotas 5 is a solid entry point to flight sims. It works with PlayStation consoles and PC out of the box, with convenient features like a detachable throttle.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/radeon-rx-9070-xt-finally-appears-in-steam-hardware-survey-rdna-4-flagship-surprisingly-lands-just-behind-rtx-5080",
-      "title": "Radeon RX 9070 XT finally appears in Steam Hardware Survey — RDNA 4 flagship surprisingly lands just behind RTX 5080",
-      "url": "https://www.tomshardware.com/pc-components/gpus/radeon-rx-9070-xt-finally-appears-in-steam-hardware-survey-rdna-4-flagship-surprisingly-lands-just-behind-rtx-5080",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T15:09:30+00:00",
-      "summary": "AMD’s Radeon RX 9070 XT graphics card has finally penetrated the Steam Survey video card results table, going straight in at position 25.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/nvidias-high-speed-ai-data-center-storage-servers-break-cover-touting-2-9-petabytes-of-storage-and-extreme-pcie-6-0-performance-wiwynn-shows-off-scada-server-with-gpu-accelerated-storage",
-      "title": "Nvidia's high-speed AI data center storage servers break cover, touting 2.9 petabytes of storage and extreme PCIe 6.0 performance — Wiwynn shows off SCADA server with GPU-accelerated storage",
-      "url": "https://www.tomshardware.com/pc-components/ssds/nvidias-high-speed-ai-data-center-storage-servers-break-cover-touting-2-9-petabytes-of-storage-and-extreme-pcie-6-0-performance-wiwynn-shows-off-scada-server-with-gpu-accelerated-storage",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T15:01:59+00:00",
-      "summary": "Wiwynn is among the first to demonstrate Nvidia SCADA server that promises to offer AI systems petabytes of ultra-fast storage thanks to GPU-accelerated storage acceleration.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48430986",
       "title": "TSMC CEO: I envy their 80% gross margins, but I would never do that",
       "url": "https://www.thestreet.com/investing/stocks/tsmc-taiwan-semiconductor-ceo-sends-blunt-message-to-memory-chip-rivals",
@@ -946,46 +946,8 @@
       },
       "duration_sec": null,
       "views": 331,
-      "comments": 556,
+      "comments": 557,
       "published_at": "2026-06-06T12:52:18+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48355720",
-      "title": "Microsoft builds MacBook Pro rival with NVIDIA-powered Surface Laptop Ultra",
-      "url": "https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48355720",
-        "name": "jbk",
-        "hn_url": "https://news.ycombinator.com/item?id=48355720"
-      },
-      "duration_sec": null,
-      "views": 287,
-      "comments": 653,
-      "published_at": "2026-06-01T12:04:29+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48356654",
-      "title": "Nvidia Cosmos 3",
-      "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48356654",
-        "name": "tosh",
-        "hn_url": "https://news.ycombinator.com/item?id=48356654"
-      },
-      "duration_sec": null,
-      "views": 150,
-      "comments": 28,
-      "published_at": "2026-06-01T13:32:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1010,25 +972,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:48354967",
-      "title": "Nvidia announces new AI chip for personal computers",
-      "url": "https://www.bbc.com/news/articles/crmp9mppvzro",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48354967",
-        "name": "rishikeshs",
-        "hn_url": "https://news.ycombinator.com/item?id=48354967"
-      },
-      "duration_sec": null,
-      "views": 46,
-      "comments": 2,
-      "published_at": "2026-06-01T10:33:25+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:48509844",
       "title": "SkillSpector",
       "url": "https://github.com/NVIDIA/SkillSpector",
@@ -1040,7 +983,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48509844"
       },
       "duration_sec": null,
-      "views": 47,
+      "views": 49,
       "comments": 4,
       "published_at": "2026-06-12T21:49:49+00:00",
       "summary": "",
@@ -1098,7 +1041,7 @@
       },
       "duration_sec": null,
       "views": 53,
-      "comments": 36,
+      "comments": 35,
       "published_at": "2026-06-07T03:00:52+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
@@ -1121,25 +1064,6 @@
       "published_at": "2026-06-07T22:38:25+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48356312",
-      "title": "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
-      "url": "https://news.ycombinator.com/item?id=48356312",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48356312",
-        "name": "ismaeel_bashir",
-        "hn_url": "https://news.ycombinator.com/item?id=48356312"
-      },
-      "duration_sec": null,
-      "views": 103,
-      "comments": 28,
-      "published_at": "2026-06-01T13:05:02+00:00",
-      "summary": "",
-      "matched_keyword": "data center OR datacenter",
       "lang": "en"
     }
   ]
