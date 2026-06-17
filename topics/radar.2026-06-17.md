@@ -1,0 +1,169 @@
+# Curio 趋势雷达 · 2026-06-17
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
+
+_今日核心信号：AI算力成本飙升与硬件军备竞赛加速。英伟达B200租赁价将翻倍，交付周期拉长至12-15个月，同时AMD收购MEXT、Intel 18A-P进入风险生产，半导体制造端竞争白热化。大厂动态方面，SpaceX以600亿美元收购Cursor，Anthropic暂停Agent SDK按token计费，AI应用层格局生变。_
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 1. 英伟达B200租赁价将翻倍，GPU采购新订单排到明年Q2
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
+
+AI推理基础设施服务商Baseten CEO透露，其云服务商已通知B200 GPU租赁价格将于10月续约时上涨约94%，同时采购1000块GPU的交付周期已长达12至15个月。交付瓶颈与租赁涨价叠加，AI推理的算力成本正遭受系统性抬升。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| B200 GPU租赁价格将在10月续约时上涨约94% | 涨价是否仅限B200，还是将蔓延至H100/H200等型号 |
+| 采购1000块GPU的交付周期已延长至12-15个月 | 云服务商能否通过增加供应缓解交付瓶颈 |
+| Baseten CEO公开透露涨价信息 | 涨价是否会导致部分AI公司转向替代方案（如AMD MI系列） |
+| AI推理算力成本面临系统性上升 | 长期看，算力成本上升是否会抑制AI应用创新 |
+|  | 是否触发新一轮GPU囤货潮 |
+
+**📖 主编点评**
+
+如果你正在做AI产品，尤其是依赖第三方推理API的，建议立即锁定长期合约或评估自建推理集群的成本。B200涨价只是开始，算力成本将成为2026下半年AI创业公司的核心风险。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3774898)
+
+---
+
+### 3. AMD收购MEXT：用内存分层技术打破AI内存墙，让Flash充当DRAM
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _EE Times_
+
+AMD收购MEXT，获得其Predictive Memory Engine技术，该技术可将不常访问的数据从DRAM卸载到NAND存储，使Flash在应用层表现为DRAM。这直接针对AI数据中心日益严重的内存瓶颈——大模型推理时，KVCache等数据占用大量DRAM，而MEXT技术可显著降低内存成本。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| AMD收购MEXT，获得Predictive Memory Engine技术 | MEXT技术在实际AI工作负载中的性能表现如何 |
+| 该技术实现内存分层，让Flash充当DRAM | 与Intel的CXL内存分层方案相比优劣如何 |
+| 针对AI数据中心的内存瓶颈问题 | AMD是否会将该技术集成到EPYC或Instinct产品线 |
+| 可降低AI推理的内存成本 | 对现有DRAM市场格局的潜在冲击 |
+|  | 软件生态适配难度 |
+
+**📖 主编点评**
+
+内存分层是AI基础设施的关键趋势。如果你在搭建推理集群，关注AMD的MEXT技术路线，它可能在未来1-2年显著降低你的内存成本。同时留意Intel的CXL方案，两者将形成竞争。
+
+📺 [打开原文](https://www.eetimes.com/amd-snaps-mext-to-break-the-memory-wall/)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 2. SpaceX以600亿美元股票收购Cursor，AI编程工具赛道格局突变
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
+
+SpaceX在IPO后数日即以600亿美元股票收购AI编程平台Cursor。这笔交易旨在强化SpaceX的AI部门，公司此前向IPO投资者表示其AI业务可触及26万亿美元市场。Cursor是目前最热门的AI编程工具之一，与Claude Code、Copilot等直接竞争。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| SpaceX以600亿美元股票收购Cursor | Cursor团队能否在SpaceX内部保持独立性和创新速度 |
+| 交易发生在SpaceX IPO后数日 | SpaceX的AI部门此前表现不佳，收购能否扭转局面 |
+| Cursor是AI编程工具，与Claude Code、Copilot竞争 | 交易是否会影响Cursor对其他模型（如Claude、GPT）的接入 |
+| SpaceX向IPO投资者称AI市场达26万亿美元 | 其他AI编程工具（如Claude Code、Copilot）是否会加速独立发展 |
+|  | 600亿美元估值是否合理，是否存在溢价 |
+
+**📖 主编点评**
+
+AI编程工具赛道进入整合期。如果你在用Cursor，短期内服务应不受影响，但长期需关注其开放性和模型支持。建议同时熟悉Claude Code等替代工具，分散风险。
+
+📺 [打开原文](https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/)
+
+---
+
+### 5. Anthropic暂停Claude Agent SDK按token计费计划，避免激怒重度用户
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Ars Technica_
+
+Anthropic原计划周一推出的Claude Agent SDK按token计费模式被暂停。该模式将大幅增加重度用户的使用成本，引发社区强烈反对。Anthropic表示将重新评估定价策略。Claude Agent SDK是开发者构建AI Agent的核心工具，支持MCP协议。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Anthropic暂停了Claude Agent SDK的按token计费计划 | Anthropic最终会采用何种定价模式 |
+| 原计划周一上线，因社区反对暂停 | 暂停是否会影响Anthropic的营收预期 |
+| 按token计费将大幅增加重度用户成本 | 开发者是否会因定价不确定性转向其他Agent框架 |
+| Anthropic将重新评估定价策略 | OpenAI和Google是否会跟进类似定价调整 |
+|  | 按token计费是否是AI Agent商业化的必然方向 |
+
+**📖 主编点评**
+
+如果你在用Claude Agent SDK做项目，暂时不用担心成本飙升。但建议关注Anthropic的最终定价方案，并对比OpenAI Agents SDK和Google ADK的成本。长期看，按token计费可能是趋势，提前优化Agent的token消耗是明智之举。
+
+📺 [打开原文](https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/)
+
+---
+
+## 🌟 AI
+
+### 4. 60分钟全面掌握Claude Code：从安装到高级用法的保姆级教程
+
+**[AI]** · ⭐⭐⭐⭐ · _秋芝2046_
+
+B站UP主秋芝2046发布60分钟Claude Code完整教程，覆盖从安装到高级用法的全部内容。视频获得117万播放量，是近期最受欢迎的Claude Code教程之一。Claude Code是Anthropic推出的AI编程工具，与Cursor、Copilot竞争，支持终端内代码生成、编辑和调试。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 视频时长60分钟，覆盖Claude Code完整使用流程 | 教程是否涵盖最新的Claude Code版本特性 |
+| 播放量117万，是B站热门Claude Code教程 | 是否包含MCP集成等高级用法 |
+| 内容包含安装、原理、真实用法 | 与官方文档相比，教程的独特价值在哪里 |
+| UP主自称花了三周制作 | 是否适合零基础用户 |
+
+**📖 主编点评**
+
+如果你正在学习Claude Code，这个教程是很好的入门资源。结合你的vibe coding兴趣，建议先看前20分钟掌握安装和基础用法，然后直接上手项目。注意教程发布于5月，可能未覆盖最新更新。
+
+📺 [打开原文](http://www.bilibili.com/video/av116522328524431)
+
+---
+
+## 📋 备选池
+
+### AI 算力 / 半导体
+
+- [Intel 18A-P进入风险生产，性能提升9%](https://www.tomshardware.com/tech-industry/semiconductors/intels-performance-enhanced-18a-p-process-enters-risk-production-enhanced-node-promises-9-percent-performance-improvement-at-iso-power) —— Intel 18A-P是18A的增强版，承诺等功率下性能提升9%，热阻降低40%，已进入风险生产阶段，是Intel代工业务的关键节点。
+  _Tom's Hardware_
+- [TSMC：面板级封装短期内不会取代CoWoS](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-says-panel-packaging-wont-replace-cowos-anytime-soon-for-the-largest-future-ai-processors-wafer-level-tech-can-scale-to-58-massive-dies-in-one-package) —— TSMC表示晶圆级封装（CoWoS）仍将主导AI芯片封装，可支持单个封装内集成58个大型芯片，面板级封装（CoPoS）短期内无法替代。
+  _Tom's Hardware_
+- [Qualcomm拟以80-100亿美元收购Tenstorrent](https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-mulls-taking-over-jim-kellers-tenstorrent-report-claims-deal-for-ai-chipmaker-would-value-the-company-at-between-usd8-billion-and-usd10-billion) —— Qualcomm正在洽谈收购Jim Keller的RISC-V AI芯片公司Tenstorrent，估值80-100亿美元，将直接挑战NVIDIA在AI加速器领域的地位。
+  _Tom's Hardware_
+- [SMIC 7nm金属间距优于Intel 18A，但密度落后38%](https://www.tomshardware.com/tech-industry/semiconductors/semianalysis-opens-its-own-chip-teardown-lab) —— SemiAnalysis拆解发现，SMIC第三代7nm工艺的最小金属间距为32.5nm，优于Intel 18A，但晶体管密度落后38%，显示中国半导体在特定指标上取得进展。
+  _Tom's Hardware_
+- [Tensordyne流片基于LNS的AI芯片，功耗比GPU低一个数量级](https://www.eetimes.com/tensordyne-tapes-out-lns-based-ai-chip-claims-huge-power-advantages/) —— Tensordyne流片了基于对数数系（LNS）的AI芯片，声称每token功耗比GPU低一个数量级，可能改变AI推理的能效格局。
+  _EE Times_
+- [SiMa发布面向物理AI的Agentic开发环境](https://www.eetimes.com/sima-launches-agentic-development-environment-for-physical-ai/) —— 边缘AI芯片公司SiMa推出Agentic开发环境，声称可将工程师迁移到其硬件的时间从数月缩短到数小时，面向机器人等物理AI应用。
+  _EE Times_
+
+### 大厂 AI 动态
+
+- [OpenAI被曝每年亏损数十亿美元](https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/) —— 泄露财务文件显示OpenAI年亏损数十亿美元，收入增长被研发和其他费用大幅超过，引发对其商业模式可持续性的质疑。
+  _Ars Technica_
+- [Snap正式发布AR眼镜Specs，售价2195美元](https://techcrunch.com/2026/06/16/snap-finally-debuts-its-long-awaited-ar-glasses-specs-and-oof-they-arent-cheap/) —— Snap历经十年研发，终于推出面向公众的AR眼镜Specs，售价2195美元，支持AR叠加和手势交互，但价格高昂可能限制普及。
+  _TechCrunch_
+- [Google/Xreal Aura XR眼镜开放预购](https://www.theverge.com/gadgets/950597/xreal-google-aura-xr-glasses-deposit-scheme) —— Google与Xreal合作的Aura XR眼镜开放预购，是第二款Android XR设备，与Snap Specs形成直接竞争，但具体价格和规格尚未完全公布。
+  _The Verge_
+- [Android 17正式推送：新增浮动气泡多任务和屏幕反应录制](https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/) —— Google正式推送Android 17，新增浮动气泡窗口实现多任务、屏幕反应录制模式，以及针对折叠屏的50/50分屏游戏模式，同时扩展Gemini AI功能。
+  _TechCrunch_
+- [Anthropic与特朗普政府冲突反而促进销售](https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/) —— Ramp数据显示，Anthropic与特朗普政府的公开冲突反而提升了其企业用户增长，安全形象成为差异化优势，销售数据表现强劲。
+  _TechCrunch_
+
+### 股票
+
+- [韩国半导体出口暴增206%，AI周期金丝雀再鸣](https://wallstreetcn.com/premium/articles/3774795?layout=wscn-layout) —— 韩国半导体出口同比暴增206%，验证AI算力投资仍在加速兑现，但需警惕未来技术迭代与产能扩张带来的周期波动风险。
+  _华尔街见闻_
+- [General Atlantic领投快手可灵AI，估值约180亿美元](https://wallstreetcn.com/articles/3774889) —— 美国私募巨头General Atlantic正洽谈领投快手旗下可灵AI，目标融资逾20亿美元、估值约180亿美元，可灵AI一季度营收同比暴增逾300%。
+  _华尔街见闻_
+- [黄仁勋为Coherent光芯片工厂破土，英伟达20亿美元投资落地](https://wallstreetcn.com/articles/3774893) —— 黄仁勋亲赴德州为Coherent扩建厂房破土，全球首条6英寸磷化铟量产线即将提速，光互联正成为AI扩张不可绕过的硬件命题。
+  _华尔街见闻_
+- [韩国央行警告：AI芯片公司巨额奖金可能加剧通胀](https://wallstreetcn.com/articles/3774882) —— 韩国央行报告称，三星、SK海力士等芯片巨头发放的巨额奖金可能引发跨行业薪资竞争与消费扩张，加剧通胀压力，央行行长暗示可能加息。
+  _华尔街见闻_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
