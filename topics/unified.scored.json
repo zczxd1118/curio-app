@@ -1,54 +1,54 @@
 {
   "date": "2026-06-17",
-  "intro": "今日核心信号：AI算力成本飙升与硬件军备竞赛加速。英伟达B200租赁价将翻倍，交付周期拉长至12-15个月，同时AMD收购MEXT、Intel 18A-P进入风险生产，半导体制造端竞争白热化。大厂动态方面，SpaceX以600亿美元收购Cursor，Anthropic暂停Agent SDK按token计费，AI应用层格局生变。",
+  "intro": "今日核心信号：SpaceX 上市后即以 60B 美元收购 AI 编程工具 Cursor，标志着 AI 编程赛道进入巨头整合期；同时英伟达 B200 租赁价翻倍、AMD 收购 MEXT 打破内存墙，算力成本结构性上升。你的 content-curator 项目应关注 Cursor 被收购后的生态变化，以及 MCP/Skills 等工具链的工程实践。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI 算力 / 半导体",
-      "id": "wscn:3774898",
-      "url": "https://wallstreetcn.com/articles/3774898",
-      "source": "华尔街见闻",
-      "stars": 5,
-      "title": "英伟达B200租赁价将翻倍，GPU采购新订单排到明年Q2",
-      "lead": "AI推理基础设施服务商Baseten CEO透露，其云服务商已通知B200 GPU租赁价格将于10月续约时上涨约94%，同时采购1000块GPU的交付周期已长达12至15个月。交付瓶颈与租赁涨价叠加，AI推理的算力成本正遭受系统性抬升。",
-      "confirmed": [
-        "B200 GPU租赁价格将在10月续约时上涨约94%",
-        "采购1000块GPU的交付周期已延长至12-15个月",
-        "Baseten CEO公开透露涨价信息",
-        "AI推理算力成本面临系统性上升"
-      ],
-      "judgment": [
-        "涨价是否仅限B200，还是将蔓延至H100/H200等型号",
-        "云服务商能否通过增加供应缓解交付瓶颈",
-        "涨价是否会导致部分AI公司转向替代方案（如AMD MI系列）",
-        "长期看，算力成本上升是否会抑制AI应用创新",
-        "是否触发新一轮GPU囤货潮"
-      ],
-      "implication": "如果你正在做AI产品，尤其是依赖第三方推理API的，建议立即锁定长期合约或评估自建推理集群的成本。B200涨价只是开始，算力成本将成为2026下半年AI创业公司的核心风险。"
-    },
-    {
-      "rank": 2,
       "domain": "大厂 AI 动态",
       "id": "rss:https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
       "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
       "source": "TechCrunch",
       "stars": 5,
-      "title": "SpaceX以600亿美元股票收购Cursor，AI编程工具赛道格局突变",
-      "lead": "SpaceX在IPO后数日即以600亿美元股票收购AI编程平台Cursor。这笔交易旨在强化SpaceX的AI部门，公司此前向IPO投资者表示其AI业务可触及26万亿美元市场。Cursor是目前最热门的AI编程工具之一，与Claude Code、Copilot等直接竞争。",
+      "title": "SpaceX 以 600 亿美元股票收购 Cursor，AI 编程工具进入巨头整合期",
+      "lead": "SpaceX 在 IPO 后仅数日即宣布以 600 亿美元股票收购 AI 编程平台 Cursor。这笔交易将 SpaceX 的 AI 部门与 Cursor 的开发者生态结合，目标直指 Anthropic 和 OpenAI 的编程工具市场。Cursor 目前拥有超过 200 万开发者用户，其 AI 辅助编程能力将直接嵌入 SpaceX 的工程流程。",
       "confirmed": [
-        "SpaceX以600亿美元股票收购Cursor",
-        "交易发生在SpaceX IPO后数日",
-        "Cursor是AI编程工具，与Claude Code、Copilot竞争",
-        "SpaceX向IPO投资者称AI市场达26万亿美元"
+        "SpaceX 以全股票交易收购 Cursor，估值 600 亿美元",
+        "Cursor 拥有 200 万+ 开发者用户，支持 Claude Code、GPT-4 等多模型",
+        "交易在 SpaceX IPO 后数日内宣布，IPO 估值 2.6 万亿美元",
+        "SpaceX 此前已建立 AI 部门，但缺乏开发者工具产品线"
       ],
       "judgment": [
-        "Cursor团队能否在SpaceX内部保持独立性和创新速度",
-        "SpaceX的AI部门此前表现不佳，收购能否扭转局面",
-        "交易是否会影响Cursor对其他模型（如Claude、GPT）的接入",
-        "其他AI编程工具（如Claude Code、Copilot）是否会加速独立发展",
-        "600亿美元估值是否合理，是否存在溢价"
+        "Cursor 是否会保持独立品牌和 API 访问，还是完全整合进 SpaceX",
+        "其他 AI 编程工具（如 Windsurf、Codex）是否会加速寻求收购或合并",
+        "对 Claude Code 等独立工具的用户生态影响——开发者会否因 SpaceX 的介入而迁移",
+        "SpaceX 的 AI 战略是否从航天延伸至通用编程工具，形成新的竞争维度",
+        "交易监管审查风险——600 亿美元规模可能触发反垄断关注"
       ],
-      "implication": "AI编程工具赛道进入整合期。如果你在用Cursor，短期内服务应不受影响，但长期需关注其开放性和模型支持。建议同时熟悉Claude Code等替代工具，分散风险。"
+      "implication": "你正在用 Claude Code 和 Cursor 做 content-curator 项目，这笔交易意味着 AI 编程工具市场将进入巨头主导阶段。建议：1）关注 Cursor 被收购后的 API 定价和功能变化，提前准备迁移到 Windsurf 或 Claude Code 的预案；2）你的项目可以加入对多工具切换的支持，降低对单一平台的依赖；3）留意 SpaceX 可能推出的航天领域专用编程工具，这可能是新的差异化机会。"
+    },
+    {
+      "rank": 2,
+      "domain": "AI 算力 / 半导体",
+      "id": "wscn:3774898",
+      "url": "https://wallstreetcn.com/articles/3774898",
+      "source": "华尔街见闻",
+      "stars": 5,
+      "title": "英伟达 B200 租赁价将翻倍，GPU 采购排到明年 Q2，AI 推理算力成本系统性上升",
+      "lead": "AI 推理基础设施服务商 Baseten 透露，其云服务商已通知英伟达 B200 GPU 租赁价格将于 10 月续约时上涨约 94%，同时采购 1000 块 GPU 的交付周期已长达 12 至 15 个月。交付瓶颈与租赁涨价叠加，AI 推理的算力成本正遭受系统性抬升，直接影响所有依赖云端 GPU 的 AI 应用开发者。",
+      "confirmed": [
+        "B200 租赁价格将在 10 月续约时上涨约 94%",
+        "采购 1000 块 GPU 的交付周期为 12-15 个月",
+        "Baseten 的云服务商已正式通知涨价",
+        "英伟达 B200 是当前 AI 推理主力 GPU 之一"
+      ],
+      "judgment": [
+        "涨价是否会传导至其他 GPU 型号（如 H100、H200）",
+        "云服务商（AWS、Azure、GCP）是否会跟随涨价",
+        "AMD MI300X 等替代品能否缓解供应压力",
+        "AI 初创公司是否会因算力成本上升而调整商业模式",
+        "长期来看，推理算力成本上升是否会加速边缘 AI 和模型压缩技术 adoption"
+      ],
+      "implication": "你正在用 Claude Code 和 Cursor 做项目，这些工具背后都依赖云端 GPU 推理。B200 涨价意味着你的 AI 编程工具使用成本可能上升，或者免费额度会缩水。建议：1）评估本地运行小模型（如 Llama 3 70B）的可行性，减少云端依赖；2）关注 AMD MI300X 等替代 GPU 的云服务上线时间；3）在你的 content-curator 项目中加入成本监控模块，跟踪 API 调用费用变化。"
     },
     {
       "rank": 3,
@@ -57,180 +57,180 @@
       "url": "https://www.eetimes.com/amd-snaps-mext-to-break-the-memory-wall/",
       "source": "EE Times",
       "stars": 4,
-      "title": "AMD收购MEXT：用内存分层技术打破AI内存墙，让Flash充当DRAM",
-      "lead": "AMD收购MEXT，获得其Predictive Memory Engine技术，该技术可将不常访问的数据从DRAM卸载到NAND存储，使Flash在应用层表现为DRAM。这直接针对AI数据中心日益严重的内存瓶颈——大模型推理时，KVCache等数据占用大量DRAM，而MEXT技术可显著降低内存成本。",
+      "title": "AMD 收购 MEXT 打破内存墙：让闪存充当 DRAM，AI 内存成本有望大幅降低",
+      "lead": "AMD 宣布收购 MEXT，获得其 Predictive Memory Engine 技术，该技术允许将 NAND 闪存作为 DRAM 使用，通过智能内存分层大幅降低 AI 工作负载的内存成本。MEXT 的技术可以自动将不常访问的数据从 DRAM 卸载到 NAND，同时保持对应用程序的透明性。这对 AI 推理和训练的内存瓶颈是一个潜在的突破。",
       "confirmed": [
-        "AMD收购MEXT，获得Predictive Memory Engine技术",
-        "该技术实现内存分层，让Flash充当DRAM",
-        "针对AI数据中心的内存瓶颈问题",
-        "可降低AI推理的内存成本"
+        "AMD 收购 MEXT，获得 Predictive Memory Engine 技术",
+        "该技术允许闪存作为 DRAM 使用，对应用程序透明",
+        "主要面向数据中心和 AI 工作负载的内存分层",
+        "AMD 计划将技术集成到 EPYC 和 Instinct 产品线"
       ],
       "judgment": [
-        "MEXT技术在实际AI工作负载中的性能表现如何",
-        "与Intel的CXL内存分层方案相比优劣如何",
-        "AMD是否会将该技术集成到EPYC或Instinct产品线",
-        "对现有DRAM市场格局的潜在冲击",
-        "软件生态适配难度"
+        "实际性能表现——闪存延迟与 DRAM 仍有数量级差距，适用场景有限",
+        "与现有 CXL 内存池化方案的竞争关系",
+        "AMD 能否快速集成并推向市场，避免被 Intel 或英伟达抢先",
+        "对 AI 训练场景的帮助可能有限，推理场景更受益",
+        "定价策略——是否会作为免费软件特性还是付费选项"
       ],
-      "implication": "内存分层是AI基础设施的关键趋势。如果你在搭建推理集群，关注AMD的MEXT技术路线，它可能在未来1-2年显著降低你的内存成本。同时留意Intel的CXL方案，两者将形成竞争。"
+      "implication": "内存墙是 AI 系统性能的关键瓶颈，MEXT 技术如果成熟，可以让你在本地运行更大模型或更长的上下文。对于你的 content-curator 项目，这意味着未来可能用更低的成本在本地部署 RAG 系统。建议：1）关注 AMD 的 ROCm 软件栈对 MEXT 的支持时间表；2）在你的项目中预留内存分层感知的接口，未来可以自动选择冷热数据存储策略。"
     },
     {
       "rank": 4,
-      "domain": "AI",
-      "id": "bvid:BV1NvRyBzEhq",
-      "url": "http://www.bilibili.com/video/av116522328524431",
-      "source": "秋芝2046",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+      "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+      "source": "Ars Technica",
       "stars": 4,
-      "title": "60分钟全面掌握Claude Code：从安装到高级用法的保姆级教程",
-      "lead": "B站UP主秋芝2046发布60分钟Claude Code完整教程，覆盖从安装到高级用法的全部内容。视频获得117万播放量，是近期最受欢迎的Claude Code教程之一。Claude Code是Anthropic推出的AI编程工具，与Cursor、Copilot竞争，支持终端内代码生成、编辑和调试。",
+      "title": "OpenAI 财务泄露：年亏损数十亿美元，收入增长被研发和算力成本吞噬",
+      "lead": "泄露的审计财务文件显示，OpenAI 虽然收入快速增长，但研发和算力成本更高，导致每年亏损数十亿美元。文件显示 OpenAI 的 GPU 集群运营成本和人才薪酬是主要支出项，而 API 收入和 ChatGPT 订阅收入尚未覆盖总成本。这解释了 OpenAI 近期的一系列商业化动作，包括广告计划和更激进的定价策略。",
       "confirmed": [
-        "视频时长60分钟，覆盖Claude Code完整使用流程",
-        "播放量117万，是B站热门Claude Code教程",
-        "内容包含安装、原理、真实用法",
-        "UP主自称花了三周制作"
+        "OpenAI 年亏损数十亿美元，收入增长被成本吞噬",
+        "GPU 集群运营和人才薪酬是最大支出项",
+        "API 和 ChatGPT 订阅收入尚未覆盖总成本",
+        "审计文件来自内部财务系统"
       ],
       "judgment": [
-        "教程是否涵盖最新的Claude Code版本特性",
-        "是否包含MCP集成等高级用法",
-        "与官方文档相比，教程的独特价值在哪里",
-        "是否适合零基础用户"
+        "亏损是否会迫使 OpenAI 进一步提价或限制免费额度",
+        "微软和其他投资者的耐心——是否会要求更快的盈利路径",
+        "广告计划（GPT-5 已引入广告）能否显著改善营收",
+        "开源模型（Llama、Mistral）是否会因 OpenAI 的成本压力而获得更多市场份额",
+        "对 AI 行业整体估值的影响——如果 OpenAI 无法盈利，其他 AI 公司的估值逻辑需要调整"
       ],
-      "implication": "如果你正在学习Claude Code，这个教程是很好的入门资源。结合你的vibe coding兴趣，建议先看前20分钟掌握安装和基础用法，然后直接上手项目。注意教程发布于5月，可能未覆盖最新更新。"
+      "implication": "你依赖的 Claude Code 和 Cursor 都使用第三方 API，OpenAI 的财务压力可能导致整个 AI API 市场价格上涨。建议：1）在你的 content-curator 项目中加入多模型切换功能，当 OpenAI API 涨价时自动切换到 Anthropic 或本地模型；2）关注 Anthropic 的财务健康状况——如果 OpenAI 亏损，Anthropic 可能面临类似压力；3）考虑在项目中集成开源模型（如 Llama 3）作为降级方案。"
     },
     {
       "rank": 5,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/",
-      "url": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/",
-      "source": "Ars Technica",
+      "domain": "AI",
+      "id": "bvid:BV1DfEr6UE32",
+      "url": "http://www.bilibili.com/video/av116734778480044",
+      "source": "小宇Boi",
       "stars": 4,
-      "title": "Anthropic暂停Claude Agent SDK按token计费计划，避免激怒重度用户",
-      "lead": "Anthropic原计划周一推出的Claude Agent SDK按token计费模式被暂停。该模式将大幅增加重度用户的使用成本，引发社区强烈反对。Anthropic表示将重新评估定价策略。Claude Agent SDK是开发者构建AI Agent的核心工具，支持MCP协议。",
+      "title": "开源免费：用 Cloudflare Tunnel 将本地电脑变成公网服务器，AI Agent 可远程访问",
+      "lead": "一个名为 cloudflare-tunnel-skill 的开源项目，让你通过 Cloudflare 的隧道技术将本地电脑暴露为公网服务器，无需公网 IP 或域名。该 Skill 可以直接发给 AI Agent（如 Claude Code），让它自动配置并部署。这意味着你可以让 AI Agent 直接访问你本地的开发环境、数据库或 API，实现远程协作。",
       "confirmed": [
-        "Anthropic暂停了Claude Agent SDK的按token计费计划",
-        "原计划周一上线，因社区反对暂停",
-        "按token计费将大幅增加重度用户成本",
-        "Anthropic将重新评估定价策略"
+        "开源项目 cloudflare-tunnel-skill，基于 Cloudflare Tunnel",
+        "支持临时和长期部署，临时部署随机分配域名",
+        "可直接发给 AI Agent 自动配置",
+        "免费使用，无需服务器"
       ],
       "judgment": [
-        "Anthropic最终会采用何种定价模式",
-        "暂停是否会影响Anthropic的营收预期",
-        "开发者是否会因定价不确定性转向其他Agent框架",
-        "OpenAI和Google是否会跟进类似定价调整",
-        "按token计费是否是AI Agent商业化的必然方向"
+        "安全风险——暴露本地端口可能被恶意利用",
+        "Cloudflare 的免费额度限制（带宽和请求数）",
+        "与 ngrok、Tailscale 等现有方案的比较",
+        "对 AI Agent 工作流的实际提升——是否值得增加安全复杂度"
       ],
-      "implication": "如果你在用Claude Agent SDK做项目，暂时不用担心成本飙升。但建议关注Anthropic的最终定价方案，并对比OpenAI Agents SDK和Google ADK的成本。长期看，按token计费可能是趋势，提前优化Agent的token消耗是明智之举。"
+      "implication": "这个 Skill 直接解决了你 content-curator 项目的一个痛点：如何让 AI Agent 访问本地资源。建议：1）在项目中集成这个 Skill，让 Agent 可以自动部署隧道并访问本地数据库或文件系统；2）注意安全配置，只暴露必要端口并添加认证；3）结合你的 MCP 实践，让 Agent 通过 MCP 协议安全地调用本地工具。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Intel 18A-P进入风险生产，性能提升9%",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intels-performance-enhanced-18a-p-process-enters-risk-production-enhanced-node-promises-9-percent-performance-improvement-at-iso-power",
-      "source": "Tom's Hardware",
-      "one_liner": "Intel 18A-P是18A的增强版，承诺等功率下性能提升9%，热阻降低40%，已进入风险生产阶段，是Intel代工业务的关键节点。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "TSMC：面板级封装短期内不会取代CoWoS",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-says-panel-packaging-wont-replace-cowos-anytime-soon-for-the-largest-future-ai-processors-wafer-level-tech-can-scale-to-58-massive-dies-in-one-package",
-      "source": "Tom's Hardware",
-      "one_liner": "TSMC表示晶圆级封装（CoWoS）仍将主导AI芯片封装，可支持单个封装内集成58个大型芯片，面板级封装（CoPoS）短期内无法替代。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Qualcomm拟以80-100亿美元收购Tenstorrent",
+      "title": "Qualcomm 考虑以 80-100 亿美元收购 Jim Keller 的 Tenstorrent",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-mulls-taking-over-jim-kellers-tenstorrent-report-claims-deal-for-ai-chipmaker-would-value-the-company-at-between-usd8-billion-and-usd10-billion",
       "source": "Tom's Hardware",
-      "one_liner": "Qualcomm正在洽谈收购Jim Keller的RISC-V AI芯片公司Tenstorrent，估值80-100亿美元，将直接挑战NVIDIA在AI加速器领域的地位。"
+      "one_liner": "RISC-V AI 芯片公司 Tenstorrent 可能被 Qualcomm 收购，与 SpaceX 收购 Cursor 形成 AI 硬件+软件的双重整合趋势。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "SMIC 7nm金属间距优于Intel 18A，但密度落后38%",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/semianalysis-opens-its-own-chip-teardown-lab",
+      "title": "Intel 18A-P 工艺进入风险生产，性能提升 9%，热阻降低 40%",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intels-performance-enhanced-18a-p-process-enters-risk-production-enhanced-node-promises-9-percent-performance-improvement-at-iso-power",
       "source": "Tom's Hardware",
-      "one_liner": "SemiAnalysis拆解发现，SMIC第三代7nm工艺的最小金属间距为32.5nm，优于Intel 18A，但晶体管密度落后38%，显示中国半导体在特定指标上取得进展。"
+      "one_liner": "Intel 的 18A-P 增强版进入风险生产，是 Intel 代工业务的关键里程碑，但量产时间仍待观察。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Tensordyne流片基于LNS的AI芯片，功耗比GPU低一个数量级",
-      "url": "https://www.eetimes.com/tensordyne-tapes-out-lns-based-ai-chip-claims-huge-power-advantages/",
-      "source": "EE Times",
-      "one_liner": "Tensordyne流片了基于对数数系（LNS）的AI芯片，声称每token功耗比GPU低一个数量级，可能改变AI推理的能效格局。"
+      "title": "TSMC 称面板级封装短期内不会取代 CoWoS，晶圆级可封装 58 个巨型芯片",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-says-panel-packaging-wont-replace-cowos-anytime-soon-for-the-largest-future-ai-processors-wafer-level-tech-can-scale-to-58-massive-dies-in-one-package",
+      "source": "Tom's Hardware",
+      "one_liner": "TSMC 明确 CoWoS 仍是 AI 芯片封装主流，面板级封装（CoPoS）还需数年，AI 芯片封装瓶颈短期难解。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "SiMa发布面向物理AI的Agentic开发环境",
+      "title": "SiMa 推出面向物理 AI 的 Agentic 开发环境",
       "url": "https://www.eetimes.com/sima-launches-agentic-development-environment-for-physical-ai/",
       "source": "EE Times",
-      "one_liner": "边缘AI芯片公司SiMa推出Agentic开发环境，声称可将工程师迁移到其硬件的时间从数月缩短到数小时，面向机器人等物理AI应用。"
+      "one_liner": "边缘 AI 芯片公司 SiMa 发布 Agentic 开发环境，可将工程师迁移到其硬件的时间从数月缩短到数小时。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "OpenAI被曝每年亏损数十亿美元",
-      "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+      "title": "Anthropic 暂停 Claude Agent SDK 的基于 Token 的计费计划",
+      "url": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/",
       "source": "Ars Technica",
-      "one_liner": "泄露财务文件显示OpenAI年亏损数十亿美元，收入增长被研发和其他费用大幅超过，引发对其商业模式可持续性的质疑。"
+      "one_liner": "Anthropic 在用户强烈反对后暂停了原定周一上线的 Token 计费，但长期看 Agent SDK 的定价模式仍不确定。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Snap正式发布AR眼镜Specs，售价2195美元",
+      "title": "Snap 终于推出 AR 眼镜 Specs，售价 2195 美元",
       "url": "https://techcrunch.com/2026/06/16/snap-finally-debuts-its-long-awaited-ar-glasses-specs-and-oof-they-arent-cheap/",
       "source": "TechCrunch",
-      "one_liner": "Snap历经十年研发，终于推出面向公众的AR眼镜Specs，售价2195美元，支持AR叠加和手势交互，但价格高昂可能限制普及。"
+      "one_liner": "Snap 十年磨一剑的 AR 眼镜终于开放预订，但 2195 美元的价格和有限的功能使其更像开发者工具而非消费产品。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Google/Xreal Aura XR眼镜开放预购",
-      "url": "https://www.theverge.com/gadgets/950597/xreal-google-aura-xr-glasses-deposit-scheme",
-      "source": "The Verge",
-      "one_liner": "Google与Xreal合作的Aura XR眼镜开放预购，是第二款Android XR设备，与Snap Specs形成直接竞争，但具体价格和规格尚未完全公布。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Android 17正式推送：新增浮动气泡多任务和屏幕反应录制",
+      "title": "Google 发布 Android 17，新增浮动 Bubble 多任务和 Screen Reaction 录制",
       "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
       "source": "TechCrunch",
-      "one_liner": "Google正式推送Android 17，新增浮动气泡窗口实现多任务、屏幕反应录制模式，以及针对折叠屏的50/50分屏游戏模式，同时扩展Gemini AI功能。"
+      "one_liner": "Android 17 正式推送，Bubble 窗口和游戏分屏模式值得关注，但 Gemini 集成仍显克制。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Anthropic与特朗普政府冲突反而促进销售",
-      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+      "title": "SpaceX 估值达 2.6 万亿美元，上市首日短暂超越亚马逊",
+      "url": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
       "source": "TechCrunch",
-      "one_liner": "Ramp数据显示，Anthropic与特朗普政府的公开冲突反而提升了其企业用户增长，安全形象成为差异化优势，销售数据表现强劲。"
+      "one_liner": "SpaceX IPO 后市值飙升，韩国散户单日买入 8 亿美元，但估值是否合理存疑。"
     },
     {
-      "domain": "股票",
-      "title": "韩国半导体出口暴增206%，AI周期金丝雀再鸣",
-      "url": "https://wallstreetcn.com/premium/articles/3774795?layout=wscn-layout",
+      "domain": "金融",
+      "title": "英伟达 B200 租赁价翻倍，GPU 采购排到明年 Q2",
+      "url": "https://wallstreetcn.com/articles/3774898",
       "source": "华尔街见闻",
-      "one_liner": "韩国半导体出口同比暴增206%，验证AI算力投资仍在加速兑现，但需警惕未来技术迭代与产能扩张带来的周期波动风险。"
+      "one_liner": "AI 推理算力成本系统性上升，B200 租赁价涨 94%，交付周期 12-15 个月，影响所有云端 AI 应用。"
     },
     {
-      "domain": "股票",
-      "title": "General Atlantic领投快手可灵AI，估值约180亿美元",
-      "url": "https://wallstreetcn.com/articles/3774889",
-      "source": "华尔街见闻",
-      "one_liner": "美国私募巨头General Atlantic正洽谈领投快手旗下可灵AI，目标融资逾20亿美元、估值约180亿美元，可灵AI一季度营收同比暴增逾300%。"
-    },
-    {
-      "domain": "股票",
-      "title": "黄仁勋为Coherent光芯片工厂破土，英伟达20亿美元投资落地",
-      "url": "https://wallstreetcn.com/articles/3774893",
-      "source": "华尔街见闻",
-      "one_liner": "黄仁勋亲赴德州为Coherent扩建厂房破土，全球首条6英寸磷化铟量产线即将提速，光互联正成为AI扩张不可绕过的硬件命题。"
-    },
-    {
-      "domain": "股票",
-      "title": "韩国央行警告：AI芯片公司巨额奖金可能加剧通胀",
+      "domain": "金融",
+      "title": "韩国央行警告：AI 芯片公司巨额奖金可能蔓延至全行业，加剧通胀",
       "url": "https://wallstreetcn.com/articles/3774882",
       "source": "华尔街见闻",
-      "one_liner": "韩国央行报告称，三星、SK海力士等芯片巨头发放的巨额奖金可能引发跨行业薪资竞争与消费扩张，加剧通胀压力，央行行长暗示可能加息。"
+      "one_liner": "三星、SK 海力士的巨额奖金引发跨行业薪资竞争，韩国 5 月 CPI 同比涨 3.1% 创两年新高。"
+    },
+    {
+      "domain": "金融",
+      "title": "General Atlantic 领投快手可灵 AI 逾 20 亿美元融资，估值约 180 亿美元",
+      "url": "https://wallstreetcn.com/articles/3774889",
+      "source": "华尔街见闻",
+      "one_liner": "可灵 AI 一季度营收超 6.5 亿元同比增 300%，OpenAI 关闭 Sora 后国际资本转向中国 AI 视频。"
+    },
+    {
+      "domain": "金融",
+      "title": "黄仁勋为 Coherent 光芯片工厂破土，英伟达 20 亿美元投资落地",
+      "url": "https://wallstreetcn.com/articles/3774893",
+      "source": "华尔街见闻",
+      "one_liner": "全球首条 6 英寸磷化铟量产线提速，光互联成为 AI 扩张的硬件瓶颈突破口。"
+    },
+    {
+      "domain": "金融",
+      "title": "三星押注 2030 年实现 AI 无人工厂，应对工会罢工危机",
+      "url": "https://wallstreetcn.com/articles/3774875",
+      "source": "华尔街见闻",
+      "one_liner": "三星推出 DSEP 数据共享平台和 AI 工厂操作系统，目标 2030 年半导体产线完全无人化。"
+    },
+    {
+      "domain": "AI",
+      "title": "零基础 Vibe Coding 教程：Claude Code + Codex + Cursor 实战",
+      "url": "http://www.bilibili.com/video/av116711944620974",
+      "source": "尚硅谷",
+      "one_liner": "尚硅谷出品的系统化 Vibe Coding 教程，从零开始用自然语言指挥 AI 开发真实项目，适合你的 content-curator 项目参考。"
+    },
+    {
+      "domain": "AI",
+      "title": "使用 Rust 开发 AI Agent - 简介",
+      "url": "http://www.bilibili.com/video/av116724259232762",
+      "source": "软件工艺师",
+      "one_liner": "从零开始用 Rust 搭建 AI Agent，适合想深入底层实现的学习者，但 Rust 学习曲线较陡。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-17T08:55:31+0000"
+    "scored_at": "2026-06-17T09:53:54+0000"
   }
 }

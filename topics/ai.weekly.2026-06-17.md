@@ -1,33 +1,40 @@
 # Curio · AI · 2026-06-17
 
-> 今日 1 条头条 + 0 条备选
+> 今日 1 条头条 + 2 条备选
 
-_今日核心信号：AI算力成本飙升与硬件军备竞赛加速。英伟达B200租赁价将翻倍，交付周期拉长至12-15个月，同时AMD收购MEXT、Intel 18A-P进入风险生产，半导体制造端竞争白热化。大厂动态方面，SpaceX以600亿美元收购Cursor，Anthropic暂停Agent SDK按token计费，AI应用层格局生变。_
+_今日核心信号：SpaceX 上市后即以 60B 美元收购 AI 编程工具 Cursor，标志着 AI 编程赛道进入巨头整合期；同时英伟达 B200 租赁价翻倍、AMD 收购 MEXT 打破内存墙，算力成本结构性上升。你的 content-curator 项目应关注 Cursor 被收购后的生态变化，以及 MCP/Skills 等工具链的工程实践。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. 60分钟全面掌握Claude Code：从安装到高级用法的保姆级教程
+### 5. 开源免费：用 Cloudflare Tunnel 将本地电脑变成公网服务器，AI Agent 可远程访问
 
-**[AI]** · ⭐⭐⭐⭐ · _秋芝2046_
+**[AI]** · ⭐⭐⭐⭐ · _小宇Boi_
 
-B站UP主秋芝2046发布60分钟Claude Code完整教程，覆盖从安装到高级用法的全部内容。视频获得117万播放量，是近期最受欢迎的Claude Code教程之一。Claude Code是Anthropic推出的AI编程工具，与Cursor、Copilot竞争，支持终端内代码生成、编辑和调试。
+一个名为 cloudflare-tunnel-skill 的开源项目，让你通过 Cloudflare 的隧道技术将本地电脑暴露为公网服务器，无需公网 IP 或域名。该 Skill 可以直接发给 AI Agent（如 Claude Code），让它自动配置并部署。这意味着你可以让 AI Agent 直接访问你本地的开发环境、数据库或 API，实现远程协作。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 视频时长60分钟，覆盖Claude Code完整使用流程 | 教程是否涵盖最新的Claude Code版本特性 |
-| 播放量117万，是B站热门Claude Code教程 | 是否包含MCP集成等高级用法 |
-| 内容包含安装、原理、真实用法 | 与官方文档相比，教程的独特价值在哪里 |
-| UP主自称花了三周制作 | 是否适合零基础用户 |
+| 开源项目 cloudflare-tunnel-skill，基于 Cloudflare Tunnel | 安全风险——暴露本地端口可能被恶意利用 |
+| 支持临时和长期部署，临时部署随机分配域名 | Cloudflare 的免费额度限制（带宽和请求数） |
+| 可直接发给 AI Agent 自动配置 | 与 ngrok、Tailscale 等现有方案的比较 |
+| 免费使用，无需服务器 | 对 AI Agent 工作流的实际提升——是否值得增加安全复杂度 |
 
 **📖 主编点评**
 
-如果你正在学习Claude Code，这个教程是很好的入门资源。结合你的vibe coding兴趣，建议先看前20分钟掌握安装和基础用法，然后直接上手项目。注意教程发布于5月，可能未覆盖最新更新。
+这个 Skill 直接解决了你 content-curator 项目的一个痛点：如何让 AI Agent 访问本地资源。建议：1）在项目中集成这个 Skill，让 Agent 可以自动部署隧道并访问本地数据库或文件系统；2）注意安全配置，只暴露必要端口并添加认证；3）结合你的 MCP 实践，让 Agent 通过 MCP 协议安全地调用本地工具。
 
-📺 [打开原文](http://www.bilibili.com/video/av116522328524431)
+📺 [打开原文](http://www.bilibili.com/video/av116734778480044)
 
 ---
+
+## 📋 备选阅读
+
+- [零基础 Vibe Coding 教程：Claude Code + Codex + Cursor 实战](http://www.bilibili.com/video/av116711944620974) —— 尚硅谷出品的系统化 Vibe Coding 教程，从零开始用自然语言指挥 AI 开发真实项目，适合你的 content-curator 项目参考。
+  _尚硅谷_
+- [使用 Rust 开发 AI Agent - 简介](http://www.bilibili.com/video/av116724259232762) —— 从零开始用 Rust 搭建 AI Agent，适合想深入底层实现的学习者，但 Rust 学习曲线较陡。
+  _软件工艺师_
 
 ---
 
