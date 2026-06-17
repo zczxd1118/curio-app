@@ -2,21 +2,20 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-16T08:52:25.942428+00:00",
+  "fetched_at": "2026-06-17T08:34:25.103158+00:00",
   "platforms": [
-    "hackernews",
     "rss"
   ],
   "source_stats": {
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
-    "HN · TSMC": 2,
-    "HN · Nvidia": 4,
-    "HN · semiconductor": 3,
+    "HN · TSMC": 0,
+    "HN · Nvidia": 0,
+    "HN · semiconductor": 0,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 29,
+  "total": 20,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +188,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/ee-times-magazine-june-2026/",
+      "title": "EE Times Magazine – June 2026",
+      "url": "https://www.eetimes.com/ee-times-magazine-june-2026/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Anne-Françoise Pelé",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T22:30:00+00:00",
+      "summary": "The June 2026 edition of EE Times Magazine explores autonomous aerospace and defense systems—from orbital data centers to AI-enabled drones. The post EE Times Magazine – June 2026 appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/sima-launches-agentic-development-environment-for-physical-ai/",
+      "title": "SiMa Launches Agentic Development Environment for Physical AI",
+      "url": "https://www.eetimes.com/sima-launches-agentic-development-environment-for-physical-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T17:50:36+00:00",
+      "summary": "Edge AI chip company said it can speed up engineer productivity when transferring to its hardware from months to hours. The post SiMa Launches Agentic Development Environment for Physical AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/amd-snaps-mext-to-break-the-memory-wall/",
+      "title": "AMD Snaps MEXT to Break the Memory Wall",
+      "url": "https://www.eetimes.com/amd-snaps-mext-to-break-the-memory-wall/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T13:50:23+00:00",
+      "summary": "AMD acquires MEXT to slash AI memory costs and break the memory wall. The post AMD Snaps MEXT to Break the Memory Wall appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ymin-slx-hybrid-supercapacitors-replace-batteries-in-space-constrained-designs/",
+      "title": "YMIN SLX Hybrid Supercapacitors Replace Batteries in Space-Constrained Designs",
+      "url": "https://www.eetimes.com/ymin-slx-hybrid-supercapacitors-replace-batteries-in-space-constrained-designs/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Shanghai Yongming Electronic Co.,Ltd",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T13:00:00+00:00",
+      "summary": "YMIN SLX Hybrid Supercapacitors feature ultra-small diameters, enabling fast charging, long life, safety, and battery-free advantages. The post YMIN SLX Hybrid Supercapacitors Replace Batteries in Space-Constrained Designs appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/risc-v-silicon-in-the-jungle-could-save-the-amazon/",
       "title": "RISC-V Silicon in the Jungle Could Save the Amazon",
       "url": "https://www.eetimes.com/risc-v-silicon-in-the-jungle-could-save-the-amazon/",
@@ -288,245 +355,6 @@
       "views": null,
       "published_at": "2026-06-15T08:13:05+00:00",
       "summary": "Imec says advanced lithography and semiconductor integration techniques may help scale silicon spin qubits toward manufacturable quantum systems. The post Imec Pushes Quantum Toward Manufacturable Silicon Systems appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/uclas-125m-semiconductor-hub-we-want-high-impact-not-incremental-research/",
-      "title": "UCLA’s $125M Semiconductor Hub: “We Want High Impact, Not Incremental Research”",
-      "url": "https://www.eetimes.com/uclas-125m-semiconductor-hub-we-want-high-impact-not-incremental-research/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T19:00:00+00:00",
-      "summary": "UCLA launches a $125M semiconductor hub to smash chip bottlenecks with AI research. The post UCLA’s $125M Semiconductor Hub: “We Want High Impact, Not Incremental Research” appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/tecate-group-announces-new-ultracapacitor-cells-rated-foroperation-up-to-105c-221f/",
-      "title": "Tecate Group Announces New Ultracapacitor Cells Rated forOperation up to 105°C (221°F)",
-      "url": "https://www.eetimes.com/tecate-group-announces-new-ultracapacitor-cells-rated-foroperation-up-to-105c-221f/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Tecate Group",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T18:49:02+00:00",
-      "summary": "San Diego, CA: June 1, 2026. Tecate Group today announced the expansion of its ultracapacitorproduct offerings with new cells rated for operation up to 105°C (221°F). The new TPLT productseries is rated at 2.3V and currently includes four sizes: 3.3F, 4F, 6F, and 11F. Additional sizes arein development. Tecate Group’s current TPL and TPLH series [&#8230;] The post Tecate Group Announces New Ultracapacitor Cells Rated forOperation up to 105°C (221°F) appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/peak-goes-automotive-ethernet-pae-media-converter-connects-100-1000base-t1-with-standard-ethernet/",
-      "title": "PEAK Goes Automotive Ethernet: PAE-Media Converter connects 100/1000BASE-T1 with Standard Ethernet",
-      "url": "https://www.eetimes.com/peak-goes-automotive-ethernet-pae-media-converter-connects-100-1000base-t1-with-standard-ethernet/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "HMS Networks",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T17:01:05+00:00",
-      "summary": "Unique Features for Automotive Testing The PAE-Media Converter addresses crucial market challenges in automotive development and validation with three core innovations. It enables realistic fault simulation by allowing physical interruption of the Automotive Ethernet link. This can be triggered directly on the device or via an API, supporting reproducible and controlled test scenarios. “We empower [&#8230;] The post PEAK Goes Automotive Ethernet: PAE-Media Converter connects 100/1000BASE-T1 with...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/indian-firm-scales-single-walled-carbon-nanotube-production-for-batteries-and-chips/",
-      "title": "Indian Firm Scales Single-Walled Carbon Nanotube Production for Batteries and Chips",
-      "url": "https://www.eetimes.com/indian-firm-scales-single-walled-carbon-nanotube-production-for-batteries-and-chips/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T08:04:16+00:00",
-      "summary": "NoPo scales HiPco single-walled carbon nanotube output for sub-2-nm chips and anodes. The post Indian Firm Scales Single-Walled Carbon Nanotube Production for Batteries and Chips appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48430986",
-      "title": "TSMC CEO: I envy their 80% gross margins, but I would never do that",
-      "url": "https://www.thestreet.com/investing/stocks/tsmc-taiwan-semiconductor-ceo-sends-blunt-message-to-memory-chip-rivals",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48430986",
-        "name": "teleforce",
-        "hn_url": "https://news.ycombinator.com/item?id=48430986"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 3,
-      "published_at": "2026-06-07T01:53:27+00:00",
-      "summary": "",
-      "matched_keyword": "TSMC",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48274048",
-      "title": "Taiwan Overtakes India as Fifth-Largest Stock Market",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-26/tsmc-s-relentless-rise-powers-taiwan-s-market-value-above-india",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48274048",
-        "name": "leopoldj",
-        "hn_url": "https://news.ycombinator.com/item?id=48274048"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 0,
-      "published_at": "2026-05-26T01:49:54+00:00",
-      "summary": "",
-      "matched_keyword": "TSMC",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48377404",
-      "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
-      "url": "https://github.com/c0dejedi/nbd-vram",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48377404",
-        "name": "tanelpoder",
-        "hn_url": "https://news.ycombinator.com/item?id=48377404"
-      },
-      "duration_sec": null,
-      "views": 472,
-      "comments": 126,
-      "published_at": "2026-06-02T22:55:33+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48424605",
-      "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
-      "url": "https://twitter.com/lemire/status/2062880075117113739",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48424605",
-        "name": "tosh",
-        "hn_url": "https://news.ycombinator.com/item?id=48424605"
-      },
-      "duration_sec": null,
-      "views": 331,
-      "comments": 557,
-      "published_at": "2026-06-06T12:52:18+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48444451",
-      "title": "Nvidia partners with LG robotics to build humanoid robots in South Korea",
-      "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48444451",
-        "name": "spwa4",
-        "hn_url": "https://news.ycombinator.com/item?id=48444451"
-      },
-      "duration_sec": null,
-      "views": 59,
-      "comments": 86,
-      "published_at": "2026-06-08T12:25:14+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48509844",
-      "title": "SkillSpector",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48509844",
-        "name": "taubek",
-        "hn_url": "https://news.ycombinator.com/item?id=48509844"
-      },
-      "duration_sec": null,
-      "views": 49,
-      "comments": 4,
-      "published_at": "2026-06-12T21:49:49+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48234574",
-      "title": "How do you build a semiconductor company on something that's free?",
-      "url": "https://www.siliconimist.com/p/the-open-source-silicon-business",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48234574",
-        "name": "johncole",
-        "hn_url": "https://news.ycombinator.com/item?id=48234574"
-      },
-      "duration_sec": null,
-      "views": 99,
-      "comments": 36,
-      "published_at": "2026-05-22T11:49:04+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48220446",
-      "title": "IBM invented semiconductor manufacturing automation",
-      "url": "https://spectrum.ieee.org/semiconductor-fabrication",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48220446",
-        "name": "rbanffy",
-        "hn_url": "https://news.ycombinator.com/item?id=48220446"
-      },
-      "duration_sec": null,
-      "views": 81,
-      "comments": 6,
-      "published_at": "2026-05-21T10:39:48+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48431367",
-      "title": "The Russian who invented semiconductors 25 years before the USA",
-      "url": "https://www.semidoped.com/p/til-the-man-who-invented-the-future",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48431367",
-        "name": "johncole",
-        "hn_url": "https://news.ycombinator.com/item?id=48431367"
-      },
-      "duration_sec": null,
-      "views": 53,
-      "comments": 35,
-      "published_at": "2026-06-07T03:00:52+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
       "lang": "en"
     }
   ]

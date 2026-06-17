@@ -2,9 +2,8 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-06-16T08:51:54.703229+00:00",
+  "fetched_at": "2026-06-17T08:33:54.170187+00:00",
   "platforms": [
-    "hackernews",
     "rss"
   ],
   "source_stats": {
@@ -12,9 +11,9 @@
     "EE Times": 10,
     "AnandTech": 0,
     "Tom's Hardware": 30,
-    "HN · TSMC": 2,
-    "HN · Nvidia": 4,
-    "HN · semiconductor": 4,
+    "HN · TSMC": 0,
+    "HN · Nvidia": 0,
+    "HN · semiconductor": 0,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
     "HN · 数据中心 / 算力": 0
@@ -24,7 +23,7 @@
       "name": "default"
     }
   ],
-  "total": 60,
+  "total": 50,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +196,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/ee-times-magazine-june-2026/",
+      "title": "EE Times Magazine – June 2026",
+      "url": "https://www.eetimes.com/ee-times-magazine-june-2026/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Anne-Françoise Pelé",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T22:30:00+00:00",
+      "summary": "The June 2026 edition of EE Times Magazine explores autonomous aerospace and defense systems—from orbital data centers to AI-enabled drones. The post EE Times Magazine – June 2026 appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/sima-launches-agentic-development-environment-for-physical-ai/",
+      "title": "SiMa Launches Agentic Development Environment for Physical AI",
+      "url": "https://www.eetimes.com/sima-launches-agentic-development-environment-for-physical-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T17:50:36+00:00",
+      "summary": "Edge AI chip company said it can speed up engineer productivity when transferring to its hardware from months to hours. The post SiMa Launches Agentic Development Environment for Physical AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/amd-snaps-mext-to-break-the-memory-wall/",
+      "title": "AMD Snaps MEXT to Break the Memory Wall",
+      "url": "https://www.eetimes.com/amd-snaps-mext-to-break-the-memory-wall/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T13:50:23+00:00",
+      "summary": "AMD acquires MEXT to slash AI memory costs and break the memory wall. The post AMD Snaps MEXT to Break the Memory Wall appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ymin-slx-hybrid-supercapacitors-replace-batteries-in-space-constrained-designs/",
+      "title": "YMIN SLX Hybrid Supercapacitors Replace Batteries in Space-Constrained Designs",
+      "url": "https://www.eetimes.com/ymin-slx-hybrid-supercapacitors-replace-batteries-in-space-constrained-designs/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Shanghai Yongming Electronic Co.,Ltd",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T13:00:00+00:00",
+      "summary": "YMIN SLX Hybrid Supercapacitors feature ultra-small diameters, enabling fast charging, long life, safety, and battery-free advantages. The post YMIN SLX Hybrid Supercapacitors Replace Batteries in Space-Constrained Designs appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/risc-v-silicon-in-the-jungle-could-save-the-amazon/",
       "title": "RISC-V Silicon in the Jungle Could Save the Amazon",
       "url": "https://www.eetimes.com/risc-v-silicon-in-the-jungle-could-save-the-amazon/",
@@ -299,76 +366,450 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/uclas-125m-semiconductor-hub-we-want-high-impact-not-incremental-research/",
-      "title": "UCLA’s $125M Semiconductor Hub: “We Want High Impact, Not Incremental Research”",
-      "url": "https://www.eetimes.com/uclas-125m-semiconductor-hub-we-want-high-impact-not-incremental-research/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/intels-performance-enhanced-18a-p-process-enters-risk-production-enhanced-node-promises-9-percent-performance-improvement-at-iso-power",
+      "title": "Intel’s performance-enhanced 18A-P process enters risk production — drop-in 18A upgrade promises 9% performance improvement at iso-power, cuts thermal resistance by 40%",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intels-performance-enhanced-18a-p-process-enters-risk-production-enhanced-node-promises-9-percent-performance-improvement-at-iso-power",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-12T19:00:00+00:00",
-      "summary": "UCLA launches a $125M semiconductor hub to smash chip bottlenecks with AI research. The post UCLA’s $125M Semiconductor Hub: “We Want High Impact, Not Incremental Research” appeared first on EE Times.",
+      "published_at": "2026-06-16T21:00:00+00:00",
+      "summary": "Intel's enhanced 18A-P has entered risk production, laying the groundwork to ramp the node into full production in the coming months.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/tecate-group-announces-new-ultracapacitor-cells-rated-foroperation-up-to-105c-221f/",
-      "title": "Tecate Group Announces New Ultracapacitor Cells Rated forOperation up to 105°C (221°F)",
-      "url": "https://www.eetimes.com/tecate-group-announces-new-ultracapacitor-cells-rated-foroperation-up-to-105c-221f/",
+      "id": "rss:https://www.tomshardware.com/laptops/dells-usd699-xps-13-laptop-is-now-available-with-the-macbook-neo-in-its-sights-entry-level-xps-design-comes-with-wildcat-lake-8gb-of-ram-and-a-512gb-ssd",
+      "title": "Dell's $699 XPS 13 laptop is now available with the MacBook Neo in its sights — entry-level XPS design comes with Wildcat Lake, 8GB of RAM, and a 512GB SSD",
+      "url": "https://www.tomshardware.com/laptops/dells-usd699-xps-13-laptop-is-now-available-with-the-macbook-neo-in-its-sights-entry-level-xps-design-comes-with-wildcat-lake-8gb-of-ram-and-a-512gb-ssd",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Tecate Group",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-12T18:49:02+00:00",
-      "summary": "San Diego, CA: June 1, 2026. Tecate Group today announced the expansion of its ultracapacitorproduct offerings with new cells rated for operation up to 105°C (221°F). The new TPLT productseries is rated at 2.3V and currently includes four sizes: 3.3F, 4F, 6F, and 11F. Additional sizes arein development. Tecate Group’s current TPL and TPLH series [&#8230;] The post Tecate Group Announces New Ultracapacitor Cells Rated forOperation up to 105°C (221°F) appeared first on EE Times.",
+      "published_at": "2026-06-16T17:22:07+00:00",
+      "summary": "Dell's $699 XPS 13 laptop ($599 for students) has the MacBook Neo in its sights, and it's now available sporting one of Intel's new entry-level Wildcat Lake CPUs.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/peak-goes-automotive-ethernet-pae-media-converter-connects-100-1000base-t1-with-standard-ethernet/",
-      "title": "PEAK Goes Automotive Ethernet: PAE-Media Converter connects 100/1000BASE-T1 with Standard Ethernet",
-      "url": "https://www.eetimes.com/peak-goes-automotive-ethernet-pae-media-converter-connects-100-1000base-t1-with-standard-ethernet/",
+      "id": "rss:https://www.tomshardware.com/pc-components/ssds/sandisk-optimus-gx-pro-8100-8tb-ssd-review",
+      "title": "SanDisk Optimus GX Pro 8100 8TB SSD Review — the undisputed king of high-capacity PCIe 5.0 SSDs",
+      "url": "https://www.tomshardware.com/pc-components/ssds/sandisk-optimus-gx-pro-8100-8tb-ssd-review",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "HMS Networks",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-12T17:01:05+00:00",
-      "summary": "Unique Features for Automotive Testing The PAE-Media Converter addresses crucial market challenges in automotive development and validation with three core innovations. It enables realistic fault simulation by allowing physical interruption of the Automotive Ethernet link. This can be triggered directly on the device or via an API, supporting reproducible and controlled test scenarios. “We empower [&#8230;] The post PEAK Goes Automotive Ethernet: PAE-Media Converter connects 100/1000BASE-T1 with...",
+      "published_at": "2026-06-16T16:30:43+00:00",
+      "summary": "The SanDisk Optimus GX Pro 8100 is a top-tier drive with excellent performance, exceptional random read latency, and good power efficiency. As you'd imagine, it just has a pricing issue.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/indian-firm-scales-single-walled-carbon-nanotube-production-for-batteries-and-chips/",
-      "title": "Indian Firm Scales Single-Walled Carbon Nanotube Production for Batteries and Chips",
-      "url": "https://www.eetimes.com/indian-firm-scales-single-walled-carbon-nanotube-production-for-batteries-and-chips/",
+      "id": "rss:https://www.tomshardware.com/pc-components/motherboards/build-an-elite-amd-gaming-pc-around-gigabytes-x870-motherboard-for-usd70-off-gigabyte-x870-aorus-elite-wifi7-drops-to-usd249",
+      "title": "Build an elite AMD gaming PC around Gigabyte's X870 motherboard for $70 off — Gigabyte X870 Aorus Elite WiFi7 drops to $249",
+      "url": "https://www.tomshardware.com/pc-components/motherboards/build-an-elite-amd-gaming-pc-around-gigabytes-x870-motherboard-for-usd70-off-gigabyte-x870-aorus-elite-wifi7-drops-to-usd249",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sponsored",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-12T08:04:16+00:00",
-      "summary": "NoPo scales HiPco single-walled carbon nanotube output for sub-2-nm chips and anodes. The post Indian Firm Scales Single-Walled Carbon Nanotube Production for Batteries and Chips appeared first on EE Times.",
+      "published_at": "2026-06-16T16:30:00+00:00",
+      "summary": "The Gigabyte X870 Aorus Elite WiFi7 usually retails for $319..99, but the premium motherboard has gone on sale for $249.99.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/gaming-mice/logitechs-new-g305-x-superlight-weighs-just-59-grams-and-costs-usd79-company-also-releases-new-hot-swappable-g316-x-98-keyboard",
+      "title": "Logitech's new G305 X Superlight weighs just 59 grams and costs $79 — company also releases hot-swappable G316 X 98 keyboard with pixel display, translucent control knob",
+      "url": "https://www.tomshardware.com/peripherals/gaming-mice/logitechs-new-g305-x-superlight-weighs-just-59-grams-and-costs-usd79-company-also-releases-new-hot-swappable-g316-x-98-keyboard",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T16:05:05+00:00",
+      "summary": "Logitech's latest gaming peripherals include a redesigned 59-gram G305 X Superlight mouse with 8,000 Hz polling and a customizable G316 X 98 mechanical keyboard featuring hot-swappable switches and a control dial.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ssds/the-retail-ssd-market-has-almost-disappeared-says-silicon-motion-exec-pc-oems-are-buying-third-party-drives-as-direct-nand-supply-dries-up",
+      "title": "'The retail SSD market has almost disappeared,' says Silicon Motion exec — PC OEMs are buying third-party drives as direct NAND supply dries up",
+      "url": "https://www.tomshardware.com/pc-components/ssds/the-retail-ssd-market-has-almost-disappeared-says-silicon-motion-exec-pc-oems-are-buying-third-party-drives-as-direct-nand-supply-dries-up",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T15:27:52+00:00",
+      "summary": "Vice president of client storage solutions at Silicon Motion warns that the retail SSD market has almost disappeared as NAND makers prioritize shipments of memory to AI data centers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/semianalysis-opens-its-own-chip-teardown-lab",
+      "title": "Chinese fab SMIC's 7nm metal pitch beats Intel 18A but lags 38% on density, teardown finds — Huawei's sanctions-beating HiSilicon Kirin 9030 is the first subject of SemiAnalysis's new teardown lab",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/semianalysis-opens-its-own-chip-teardown-lab",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T15:06:00+00:00",
+      "summary": "SemiAnalysis has published the first teardown from its new in-house lab, focusing on the minimum local metal pitch on SMIC’s third-gen 7nm at 32.5nm.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/liquid-cooling/noctua-finally-releases-its-first-aio-coolers-prices-start-at-usd220-for-240mm-features-the-companys-legendary-a-series-fans",
+      "title": "Noctua finally releases its first AIO coolers — prices start at $220 for 240mm, features the company’s legendary A-series fans",
+      "url": "https://www.tomshardware.com/pc-components/liquid-cooling/noctua-finally-releases-its-first-aio-coolers-prices-start-at-usd220-for-240mm-features-the-companys-legendary-a-series-fans",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T14:05:03+00:00",
+      "summary": "Noctua just dropped its NL-LC1 AIO coolers on Amazon, with the 240mm option starting at $219.95. It also comes with an optional 80mm auxiliary fan to help keep other components cooler and reduce case fan speed.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/18-funky-tech-gift-ideas-for-fathers-day-2026-get-something-a-little-different-for-dad-this-year",
+      "title": "18 funky tech gift ideas for Father's Day 2026 — get something a little different for dad this year",
+      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/18-funky-tech-gift-ideas-for-fathers-day-2026-get-something-a-little-different-for-dad-this-year",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T14:00:00+00:00",
+      "summary": "Celebrate Father's Day this Sunday, the 21st of June, by getting your pops a nice little tech gift for his collection.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ssds/smis-pcie-6-0-ssd-controller-for-consumer-ssds-coming-next-year-but-severe-nand-shortages-will-get-even-worse-in-2027-as-ai-data-centers-swallow-supply-an-interview-with-silicon-motions-svp-nelson-duann",
+      "title": "SMI's PCIe 6.0 SSD controller for consumer SSDs coming next year, but severe NAND shortages will get even worse in 2027 as AI data centers swallow supply — An interview with Silicon Motion's SVP Nelson Duann",
+      "url": "https://www.tomshardware.com/pc-components/ssds/smis-pcie-6-0-ssd-controller-for-consumer-ssds-coming-next-year-but-severe-nand-shortages-will-get-even-worse-in-2027-as-ai-data-centers-swallow-supply-an-interview-with-silicon-motions-svp-nelson-duann",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T13:30:00+00:00",
+      "summary": "Silicon Motion's Nelson Duann discusses NAND supply crisis in the consumer SSD market and the future of consumer storage.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/liquid-cooling/msi-mpg-coreliquid-p22-360-review",
+      "title": "MSI MPG Coreliquid P22 360 Review: Low noise, strong performance, budget price",
+      "url": "https://www.tomshardware.com/pc-components/liquid-cooling/msi-mpg-coreliquid-p22-360-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Albert Thomas",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T13:00:00+00:00",
+      "summary": "The MSI MPG Coreliquid P22 360 is a new AIO with a low price tag, strong thermal performance, and a 2.1-inch IPS display. We’ve tested this liquid cooler paired with AMD’s Ryzen 9 9950X3D CPU to benchmark thermal efficiency.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/microsoft-debuts-surface-pro-and-surface-laptop-with-new-jade-green-color-and-qualcomm-snapdragon-x2-chips-refreshed-devices-start-at-usd1-499-with-16gb-of-ram",
+      "title": "Microsoft debuts Surface Pro and Surface Laptop with new jade green color and Qualcomm Snapdragon X2 chips — refreshed devices start at $1,499 with 16GB of RAM",
+      "url": "https://www.tomshardware.com/laptops/microsoft-debuts-surface-pro-and-surface-laptop-with-new-jade-green-color-and-qualcomm-snapdragon-x2-chips-refreshed-devices-start-at-usd1-499-with-16gb-of-ram",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Andrew E. Freedman",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T13:00:00+00:00",
+      "summary": "Microsoft is updating the Surface Pro and Surface Laptop using the latest Qualcomm Snapdragon X2 chips, along with haptic feedback on the Laptop's touchpad and a new jade color.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-mulls-taking-over-jim-kellers-tenstorrent-report-claims-deal-for-ai-chipmaker-would-value-the-company-at-between-usd8-billion-and-usd10-billion",
+      "title": "Qualcomm mulls taking over Jim Keller's Tenstorrent, report claims — deal for AI chipmaker would value the company at between $8 billion and $10 billion",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-mulls-taking-over-jim-kellers-tenstorrent-report-claims-deal-for-ai-chipmaker-would-value-the-company-at-between-usd8-billion-and-usd10-billion",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T12:48:21+00:00",
+      "summary": "Qualcomm is in talks to buy RISC-V-based AI accelerator and CPU developer Tenstorrent for $8 billion - $10 billion.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ssds/agi-ai858-2tb-ssd-review",
+      "title": "AGI AI858 2TB SSD Review — High-end PCIe 5 speeds on a budget",
+      "url": "https://www.tomshardware.com/pc-components/ssds/agi-ai858-2tb-ssd-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T12:10:00+00:00",
+      "summary": "The AGI AI858 is a wallet-friendly entry into the high-end PCIe 5.0 SSD playground with good random read latency, a bundled heatsink, and minimal trade-offs.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intels-one-two-punch-plan-in-desktop-cpus-is-taking-shape-z990-spotted-nova-lake-detailed-raptor-lake-next-teased",
+      "title": "Intel's one-two punch plan in desktop CPUs is taking shape — Z990 spotted, Nova Lake detailed, ‘Raptor Lake Next’ teased",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intels-one-two-punch-plan-in-desktop-cpus-is-taking-shape-z990-spotted-nova-lake-detailed-raptor-lake-next-teased",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T12:00:00+00:00",
+      "summary": "Intel’s next-gen desktop plans are starting to take shape, and Computex entertained a lot of murmurs about what’s coming from Team Blue over the next year at the event.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/phones/commodore-announces-linux-based-flip-phone-with-no-social-media-no-browser-the-callback-8020-will-be-available-in-five-retro-colorways-starting-at-usd499-runs-99-percent-of-android-apps",
+      "title": "Commodore announces Linux-based flip phone with ‘no social media, no browser’ — the Callback 8020 will be available in five retro colorways starting at $499, runs 99% of Android apps",
+      "url": "https://www.tomshardware.com/phones/commodore-announces-linux-based-flip-phone-with-no-social-media-no-browser-the-callback-8020-will-be-available-in-five-retro-colorways-starting-at-usd499-runs-99-percent-of-android-apps",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T11:42:13+00:00",
+      "summary": "After some teasing and a couple of red herrings Commodore today unveiled a retro-styled flip phone dubbed the Callback 8020.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/microsd-cards/save-40-percent-on-this-ultra-fast-samsung-microsd-card-with-256gb-storage-now-just-usd47-99-usd32-saving-on-p9-express-model-with-read-speeds-of-up-to-800-mb-s-perfect-for-a-gaming-laptop-or-a-nintendo-switch-2",
+      "title": "Save 40% on this ultra-fast Samsung microSD card with 256GB storage, now just $47.99 — $32 saving on P9 Express model with read speeds of up to 800 MB/s, perfect for a gaming laptop or a Nintendo Switch 2",
+      "url": "https://www.tomshardware.com/pc-components/microsd-cards/save-40-percent-on-this-ultra-fast-samsung-microsd-card-with-256gb-storage-now-just-usd47-99-usd32-saving-on-p9-express-model-with-read-speeds-of-up-to-800-mb-s-perfect-for-a-gaming-laptop-or-a-nintendo-switch-2",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T11:24:29+00:00",
+      "summary": "Save $32 on this Samsung P9 Express microSD card with read speeds up to 800MB/s.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/get-an-rtx-5090-gaming-laptop-for-less-than-usd3-000-acers-16-inch-predator-with-2tb-of-storage-and-32gb-of-ram-is-now-usd500-off",
+      "title": "Get an RTX 5090 gaming laptop for less than $3,000 — Acer's 16-inch Predator with 2TB of storage and 32GB of RAM is now $500 off",
+      "url": "https://www.tomshardware.com/laptops/gaming-laptops/get-an-rtx-5090-gaming-laptop-for-less-than-usd3-000-acers-16-inch-predator-with-2tb-of-storage-and-32gb-of-ram-is-now-usd500-off",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T11:24:20+00:00",
+      "summary": "Save $500 on a super-powerful 16-inch gaming laptop with RTX 5090 graphics and a 240Hz OLED screen. Acer's Predator Helios AI falls to just $2,999.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/gaming-keyboards/these-are-the-four-keyboards-im-still-using-after-reviewing-keyboards-for-years-how-a-500-hz-tkl-and-a-stream-deck-layout-dominated-my-desk",
+      "title": "These are the four keyboards I'm still using after reviewing keyboards for years — How a 500 Hz TKL and a Stream Deck layout dominated my desk",
+      "url": "https://www.tomshardware.com/peripherals/gaming-keyboards/these-are-the-four-keyboards-im-still-using-after-reviewing-keyboards-for-years-how-a-500-hz-tkl-and-a-stream-deck-layout-dominated-my-desk",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sarah Jacobsson Purewal",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T11:10:00+00:00",
+      "summary": "It's hard to find a keyboard that's satisfying for both writing and gaming and I'm not sure the perfect board even exists. But while I wait to find it, these are the keyboards I keep coming back to, for one reason or another.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amds-massive-sp7-socket-for-epyc-venice-and-intels-gargantuan-9-324-pin-socket-for-diamond-rapids-appear-at-computex-sp7-and-lga9324-1-sockets-will-power-the-next-generation-of-ai-servers",
+      "title": "AMD’s massive SP7 socket for EPYC Venice and Intel’s gargantuan 9,324-pin socket for Diamond Rapids appear at Computex — SP7 and LGA9324-1 sockets will power the next generation of AI servers",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amds-massive-sp7-socket-for-epyc-venice-and-intels-gargantuan-9-324-pin-socket-for-diamond-rapids-appear-at-computex-sp7-and-lga9324-1-sockets-will-power-the-next-generation-of-ai-servers",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T11:06:33+00:00",
+      "summary": "Next-generation data center processors from AMD and Intel with 16 DDR5 memory channels are even bigger than today’s designs.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/finland-charges-russian-captain-and-crew-member-of-ship-suspected-of-damaging-undersea-cables-prosecutors-claim-ship-had-eight-more-targets-before-it-was-stopped-by-coast-guard",
+      "title": "Finland charges Russian captain and crew member of ship suspected of damaging undersea cables — prosecutors claim ship had eight more targets before it was stopped by coast guard",
+      "url": "https://www.tomshardware.com/networking/finland-charges-russian-captain-and-crew-member-of-ship-suspected-of-damaging-undersea-cables-prosecutors-claim-ship-had-eight-more-targets-before-it-was-stopped-by-coast-guard",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T11:04:28+00:00",
+      "summary": "Finnish prosecutors charged two crew members of a cargo ship suspected of deliberately damaging two undersea cables at the turn of the year, with two more remaining detained in Finland. This is the second investigation to result in charges, although the first case failed to secure a conviction, with the case still on appeal.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/tsmc-says-panel-packaging-wont-replace-cowos-anytime-soon-for-the-largest-future-ai-processors-wafer-level-tech-can-scale-to-58-massive-dies-in-one-package",
+      "title": "TSMC says panel packaging won't replace CoWoS anytime soon for the largest future AI processors — wafer-level tech can scale to 58 massive dies in one package",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-says-panel-packaging-wont-replace-cowos-anytime-soon-for-the-largest-future-ai-processors-wafer-level-tech-can-scale-to-58-massive-dies-in-one-package",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T11:00:00+00:00",
+      "summary": "TSMC is exploring panel-level packaging and is working on its CoPoS technology, but the company's Kevin Zhang says wafer-level packaging technologies is considerably more advanced than panel-level packaging.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/intels-cancelled-arctic-sound-xe-hp-multi-tile-gpu-surfaces-in-new-engineering-sample-companys-long-lost-data-center-prototype-features-32gb-of-hbm2e",
+      "title": "Intel's long-lost data center prototype 'Arctic Sound' Xe-HP multi-tile GPU surfaces in new engineering sample — Company's cancelled AI processor features 32GB of HBM2E",
+      "url": "https://www.tomshardware.com/pc-components/gpus/intels-cancelled-arctic-sound-xe-hp-multi-tile-gpu-surfaces-in-new-engineering-sample-companys-long-lost-data-center-prototype-features-32gb-of-hbm2e",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T10:30:00+00:00",
+      "summary": "Intel's cancelled \"Arctic Sound\" AI GPU based on the original Xe-HP architecture has been pictured sporting two tiles and 32GB of HBM2E.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/amazon-uk-has-slashed-43-percent-off-this-excellent-4k-32-inch-oled-gaming-monitor-lowest-ever-price-on-this-asus-rog-strix-oled-now-just-gbp599",
+      "title": "Amazon UK has slashed 43% off this excellent 4K 32-inch OLED gaming monitor — lowest-ever price on this ASUS ROG Strix OLED now just £599",
+      "url": "https://www.tomshardware.com/pc-components/amazon-uk-has-slashed-43-percent-off-this-excellent-4k-32-inch-oled-gaming-monitor-lowest-ever-price-on-this-asus-rog-strix-oled-now-just-gbp599",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stephen Warwick",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T10:17:13+00:00",
+      "summary": "Get 43% off this excellent Asus ROG Strix OLED monitor.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/project-jupiter-ai-data-center-build-raises-concerns-about-water-usage-in-rural-new-mexico-desert-oracle-calls-water-usage-negligible-for-11-million-gallon-one-time-fill",
+      "title": "Project Jupiter AI data center build raises concerns about water usage in rural New Mexico desert — Oracle calls water usage 'negligible' for 11 million gallon one-time fill",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/project-jupiter-ai-data-center-build-raises-concerns-about-water-usage-in-rural-new-mexico-desert-oracle-calls-water-usage-negligible-for-11-million-gallon-one-time-fill",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T10:00:00+00:00",
+      "summary": "Oracle's Project Jupiter is targeting a New Mexico desert already struggling with water consumption, but the company assures residents that the data center's water usage is \"negligible.\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/operating-systems/reddit-user-gets-valves-amd-first-gaming-os-running-on-intel-hardware-steamos-boots-on-intel-arc-b580-desktop-gpu-but-it-takes-a-radeon-card-installer-workaround-and-resizable-bar-fix",
+      "title": "Enthusiast hacks Valve’s AMD-first gaming OS to run on Intel hardware — SteamOS boots on Intel Arc B580 desktop GPU, but it takes a Radeon card, installer workaround, and Resizable BAR fix",
+      "url": "https://www.tomshardware.com/software/operating-systems/reddit-user-gets-valves-amd-first-gaming-os-running-on-intel-hardware-steamos-boots-on-intel-arc-b580-desktop-gpu-but-it-takes-a-radeon-card-installer-workaround-and-resizable-bar-fix",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-16T09:30:00+00:00",
+      "summary": "A Reddit user has shown SteamOS running on an Intel Arc B580 desktop GPU, but the early proof of concept required a Radeon-assisted install workaround and Resizable BAR to recover performance.",
       "lang": "en"
     },
     {
       "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-takes-over-mext-to-address-growing-memory-constraints-in-the-data-center-memory-tiering-technology-enables-flash-to-appear-as-dram-to-applications",
-      "title": "AMD takes over MEXT to 'address growing memory constraints' in the data center — memory tiering technology enables flash to appear as DRAM to applications",
+      "title": "AMD takes over MEXT for memory tiering tech that enables flash to appear as DRAM to applications — tech to 'address growing memory constraints' in the data center",
       "url": "https://www.tomshardware.com/pc-components/cpus/amd-takes-over-mext-to-address-growing-memory-constraints-in-the-data-center-memory-tiering-technology-enables-flash-to-appear-as-dram-to-applications",
       "platform": "rss",
       "source": {
@@ -432,638 +873,6 @@
       "views": null,
       "published_at": "2026-06-15T14:27:11+00:00",
       "summary": "China's Supreme People's Court on Friday upheld an injunction prohibiting Infineon from selling disputed GaN products in mainland China.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/bambu-labs-big-anniversary-sale-is-live-with-up-to-52-percent-off-score-huge-discounts-on-their-most-popular-3d-printers-and-accessories",
-      "title": "Bambu Lab's big anniversary sale is live with up to 52% off — score huge discounts on their most popular 3D printers and accessories",
-      "url": "https://www.tomshardware.com/3d-printing/bambu-labs-big-anniversary-sale-is-live-with-up-to-52-percent-off-score-huge-discounts-on-their-most-popular-3d-printers-and-accessories",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-15T14:14:33+00:00",
-      "summary": "Save on some of the best 3D printers in Bambu Lab's Anniversary sale",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/cancelled-xbox-360-version-of-goldeneye-007-gets-recompiled-for-pc-no-emulator-the-game-runs-as-a-real-native-executable-insists-dev",
-      "title": "Cancelled Xbox 360 version of GoldenEye 007 gets recompiled for PC — ‘No emulator, the game runs as a real native executable,’ insists dev",
-      "url": "https://www.tomshardware.com/video-games/retro-gaming/cancelled-xbox-360-version-of-goldeneye-007-gets-recompiled-for-pc-no-emulator-the-game-runs-as-a-real-native-executable-insists-dev",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-15T13:43:30+00:00",
-      "summary": "GoldenEye Recomp v1.0 has been released, providing 'a native PC port of GoldenEye 007 built by statically recompiling the original game into C++' with no emulation involved.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/docking-stations-hubs/cooler-master-masterhub-review",
-      "title": "Cooler Master MasterHUB review: A modular stream deck with potential",
-      "url": "https://www.tomshardware.com/peripherals/docking-stations-hubs/cooler-master-masterhub-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sarah Jacobsson Purewal",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-15T13:10:00+00:00",
-      "summary": "Cooler Master's MasterHUB is a modular customizable macropad that's perhaps a little too ambitious. Its modularity is nicely implemented, but it's limited by its software and lack of plugins.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/score-32gb-of-ddr5-ram-from-only-usd240-in-these-newegg-hardware-bundles-for-intel-and-amd-gaming-pc-builds-huge-savings-on-premium-gigabyte-motherboards-coupled-with-popular-corsair-vengeance-memory",
-      "title": "Score 32GB of DDR5 RAM from only $240 in these Newegg hardware bundles for Intel and AMD gaming PC builds — huge savings on premium Gigabyte motherboards coupled with popular Corsair Vengeance memory",
-      "url": "https://www.tomshardware.com/pc-components/score-32gb-of-ddr5-ram-from-only-usd240-in-these-newegg-hardware-bundles-for-intel-and-amd-gaming-pc-builds-huge-savings-on-premium-gigabyte-motherboards-coupled-with-popular-corsair-vengeance-memory",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-15T12:19:25+00:00",
-      "summary": "These Newegg bundles for Intel and AMD gaming PC builds feature 32GB of Corsair Vengeance DDR5 RAM from only $240, featuring Gigabyte motherboards.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/asus-proart-pa27usd-27-inch-oled-review",
-      "title": "Asus ProArt PA27USD 27-inch OLED review: Precision color with high-speed gaming prowess",
-      "url": "https://www.tomshardware.com/monitors/gaming-monitors/asus-proart-pa27usd-27-inch-oled-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Christian Eberle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-15T12:10:00+00:00",
-      "summary": "Asus combines professional and gaming cred in the ProArt PA27USD. It’s a 27-inch QD-OLED with 4K resolution, professional image modes, auto-calibration, 240 Hz, Adaptive-Sync, HDR10, HLG, Dolby Vision and wide gamut color.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/chromebooks/google-chromebook-marks-its-15th-anniversary-slow-feature-rollouts-and-a-canceled-steam-beta-leave-it-largely-stuck-in-classrooms",
-      "title": "Google Chromebook marks its 15th anniversary — slow feature rollouts and a canceled Steam beta leave it largely stuck in classrooms",
-      "url": "https://www.tomshardware.com/laptops/chromebooks/google-chromebook-marks-its-15th-anniversary-slow-feature-rollouts-and-a-canceled-steam-beta-leave-it-largely-stuck-in-classrooms",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-15T12:00:01+00:00",
-      "summary": "Today marks 15 years since the first Chromebooks hit the market.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/samsungs-49-inch-ultrawide-odyssey-g9-gaming-monitor-dips-to-the-lowest-ever-price-of-usd664-at-amazon-get-240hz-refresh-rate-and-dense-109-ppi-for-34-percent-off",
-      "title": "Samsung's 49-inch ultrawide Odyssey G9 gaming monitor dips to the lowest-ever price of $664 at Amazon — get 240Hz refresh rate and dense 109 PPI for 34% off",
-      "url": "https://www.tomshardware.com/monitors/gaming-monitors/samsungs-49-inch-ultrawide-odyssey-g9-gaming-monitor-dips-to-the-lowest-ever-price-of-usd664-at-amazon-get-240hz-refresh-rate-and-dense-109-ppi-for-34-percent-off",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-15T11:18:44+00:00",
-      "summary": "Save 34% on Samsung's Odyssey G9 gaming monitor and pick up this massive 49-inch display for just $664.99. Its lowest-ever price.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/fbi-and-google-dismantle-chinese-phishing-service-that-coached-buyers-to-generate-scam-sites-with-gemini",
-      "title": "FBI dismantles Chinese phishing service that coached buyers to generate scam sites using AI —$88 cybercrime product linked to $1.9 billion in losses, 3.87 million stolen cards",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/fbi-and-google-dismantle-chinese-phishing-service-that-coached-buyers-to-generate-scam-sites-with-gemini",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-15T11:10:54+00:00",
-      "summary": "The FBI, Google, and Lumen Technologies say they’ve dismantled a China-based phishing-as-a-service operation called Outsider Enterprise.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/42-percent-slashed-of-samsungs-990-pro-ssd-2tb-now-usd369-usd270-savings-brings-one-of-the-fastest-pcie-4-0-ssds-to-its-lowest-price-in-months",
-      "title": "42% slashed off Samsung's 990 Pro SSD, 2TB now $369 — $270 savings brings one of the fastest PCIe 4.0 SSDs to its lowest price in months",
-      "url": "https://www.tomshardware.com/pc-components/42-percent-slashed-of-samsungs-990-pro-ssd-2tb-now-usd369-usd270-savings-brings-one-of-the-fastest-pcie-4-0-ssds-to-its-lowest-price-in-months",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-15T10:49:25+00:00",
-      "summary": "Samsung's 990 Pro 2TB is one of the fastest PCIe 4.0 M.2 SSDs around, delivering excellent performance and efficiency and backed by a 5-year warranty - now priced at $369.99, it's not the cheapest around, but is a well-rounded storage upgrade for any build.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/2021-honda-civic-infotainment-system-can-be-jailbroken-via-usb-flaw-uses-public-android-test-keys-to-install-unauthorized-apps-enables-for-evilvalet-attacks",
-      "title": "2021 Honda Civic infotainment system can be jailbroken via USB — flaw uses public Android test keys to install unauthorized apps, enables for 'EvilValet' attacks",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/2021-honda-civic-infotainment-system-can-be-jailbroken-via-usb-flaw-uses-public-android-test-keys-to-install-unauthorized-apps-enables-for-evilvalet-attacks",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-15T10:00:00+00:00",
-      "summary": "A software architect determined that they could practically install anything they want on the infotainment system of their 2021 Honda Civic through the front USB port. While the head unit required a signed AOSP file to update itself, the AOSP test key is publicly known, meaning anyone with the knowledge could potentially build their own update file and load it with malware.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intels-upcoming-raptor-lake-next-will-reportedly-top-out-at-20-cores-and-retain-core-200-branding-lineup-may-include-a-special-10-core-sku-with-24mb-of-l3-cache",
-      "title": "Intel's upcoming 'Raptor Lake Next' will reportedly top out at 20 cores and retain Core 200 branding — Lineup may include a special 10-core SKU with 24MB of L3 cache",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intels-upcoming-raptor-lake-next-will-reportedly-top-out-at-20-cores-and-retain-core-200-branding-lineup-may-include-a-special-10-core-sku-with-24mb-of-l3-cache",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T14:57:07+00:00",
-      "summary": "Intel's Raptor Lake family might be coming back for a third time and sit alongside Nova Lake on shelves as the budget-oriented offering from the company.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/servers/amazon-says-its-data-centers-consume-only-0-075-percent-of-the-water-americans-use-for-watering-their-lawns-and-gardens-company-also-boasts-of-its-improvements-in-water-efficiency",
-      "title": "Amazon says its data centers consume only 0.075% of the water Americans use for watering their lawns and gardens — company also boasts of its improvements in water efficiency",
-      "url": "https://www.tomshardware.com/desktops/servers/amazon-says-its-data-centers-consume-only-0-075-percent-of-the-water-americans-use-for-watering-their-lawns-and-gardens-company-also-boasts-of-its-improvements-in-water-efficiency",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T14:25:00+00:00",
-      "summary": "Amazon says that it uses 2.5 billion gallons of water annually for data center cooling but compares it to the 3.3 trillion gallons of water used for watering lawns and gardens in the U.S. every year.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/computer-history-museum-recalls-astonishing-retro-haul-recovered-from-abandoned-german-warehouse-over-2-000-artifacts-spanning-the-1930s-to-1980s-required-seven-tractor-trailers-after-a-wwii-bomb-scare",
-      "title": "Computer History Museum recalls ‘astonishing’ retro haul recovered from abandoned German warehouse — over 2,000 artifacts spanning the 1930s to 1980s required seven tractor-trailers after a WWII bomb scare",
-      "url": "https://www.tomshardware.com/tech-industry/computer-history-museum-recalls-astonishing-retro-haul-recovered-from-abandoned-german-warehouse-over-2-000-artifacts-spanning-the-1930s-to-1980s-required-seven-tractor-trailers-after-a-wwii-bomb-scare",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T14:00:00+00:00",
-      "summary": "The Computer History Museum recalls one of its biggest ever retro treasure troves. This ‘astonishing’ haul was rescued from an abandoned warehouse in the town of Castrop-Rauxel, Germany.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/apple-made-marketing-gold-from-the-power-mac-g4-supercomputer-export-ban-in-1999-pentagon-banned-sales-of-the-400-mhz-g4-in-50-countries-when-it-launched-and-became-the-first-pc-to-be-classed-as-a-weapon",
-      "title": "Apple made marketing gold from the export ban on Power Mac G4 'supercomputer' in 1999, 'for the first time in history a personal computer has been classified as a weapon' — Pentagon banned sales of the 400 MHz G4 in 50 countries when it launched",
-      "url": "https://www.tomshardware.com/tech-industry/apple-made-marketing-gold-from-the-power-mac-g4-supercomputer-export-ban-in-1999-pentagon-banned-sales-of-the-400-mhz-g4-in-50-countries-when-it-launched-and-became-the-first-pc-to-be-classed-as-a-weapon",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T14:00:00+00:00",
-      "summary": "In the context of the recent tech export bans, we look back at the Apple PowerMac G4 export ban from 1999 and Steve Jobs making marketing gold from the situation.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/servers/researchers-recycle-old-phones-and-cluster-them-into-computing-platforms-says-processors-on-modern-smartphones-deliver-higher-single-core-performance-than-comparable-multicore-servers",
-      "title": "Researchers recycle old phones and cluster them into ‘computing platforms’ that operate as a low-cost data center — says processors on modern smartphones deliver higher single-core performance than comparable multicore servers",
-      "url": "https://www.tomshardware.com/desktops/servers/researchers-recycle-old-phones-and-cluster-them-into-computing-platforms-says-processors-on-modern-smartphones-deliver-higher-single-core-performance-than-comparable-multicore-servers",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T13:34:49+00:00",
-      "summary": "A team of researchers from UC San Diego found that 'old' smartphones from 2023 could be combined to build a server capable of running apps locally, instead of relying on cloud servers located on a distant site.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/snapmaker-launches-usd150-000-innovation-fund-for-open-source-3d-printing-cash-rewards-target-developers-backing-the-u1-toolchanger-across-klipper-orcaslicer-and-moonraker-ecosystems",
-      "title": "Snapmaker launches $150,000 Innovation Fund for open source 3D printing — cash rewards target developers backing the U1 toolchanger across Klipper, OrcaSlicer, and Moonraker ecosystems",
-      "url": "https://www.tomshardware.com/3d-printing/snapmaker-launches-usd150-000-innovation-fund-for-open-source-3d-printing-cash-rewards-target-developers-backing-the-u1-toolchanger-across-klipper-orcaslicer-and-moonraker-ecosystems",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Denise Bertacchi",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T13:30:00+00:00",
-      "summary": "Snapmaker celebrates 10 years in business by sponsoring open-source developers and you.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/grab-this-msi-codex-z2-16-thread-gaming-ryzen-pc-with-a-2tb-ssd-at-a-usd400-discount-system-packs-a-ryzen-8700f-16gb-ddr5-and-rtx-5060-ti-8gb-for-usd1-499",
-      "title": "Grab this MSI Codex Z2 16-thread gaming Ryzen PC with a 2TB SSD at a $400 discount — system packs a Ryzen 8700F, 16GB DDR5, and RTX 5060 Ti 8GB for $1,499",
-      "url": "https://www.tomshardware.com/pc-components/grab-this-msi-codex-z2-16-thread-gaming-ryzen-pc-with-a-2tb-ssd-at-a-usd400-discount-system-packs-a-ryzen-8700f-16gb-ddr5-and-rtx-5060-ti-8gb-for-usd1-499",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T13:28:13+00:00",
-      "summary": "MSI's prebuilt gaming desktop pairs a Zen 4 processor with Nvidia's latest RTX 5060 Ti graphics card and comes housed in an airflow-focused chassis with ARGB lighting.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/nist-gets-metal-3d-printers-to-mix-alloys-mid-print-by-rewriting-the-lasers-path",
-      "title": "New 3D printer tech uses elliptical laser beams to stir molten metal and create ‘alloys-on-demand’ — existing machinery can implement technique in software meaning for more convenient, stronger alloy printing",
-      "url": "https://www.tomshardware.com/3d-printing/nist-gets-metal-3d-printers-to-mix-alloys-mid-print-by-rewriting-the-lasers-path",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T13:02:26+00:00",
-      "summary": "NIST has demonstrated a metal 3D printing method that stirs molten metal during the print by sending the laser along looping elliptical paths instead of straight lines.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/windows/microsoft-is-reportedly-testing-copilot-ai-features-with-discrete-gpus-instead-of-npus-a-feature-available-on-windows-app-sdk-with-a-windows-insider-experimental-channel-build-and-developer-mode-turned-on",
-      "title": "Microsoft is reportedly testing Copilot+ AI features with discrete GPUs instead of NPUs — a feature available on Windows App SDK with a Windows Insider Experimental Channel build and Developer Mode turned on",
-      "url": "https://www.tomshardware.com/software/windows/microsoft-is-reportedly-testing-copilot-ai-features-with-discrete-gpus-instead-of-npus-a-feature-available-on-windows-app-sdk-with-a-windows-insider-experimental-channel-build-and-developer-mode-turned-on",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T13:00:00+00:00",
-      "summary": "Microsoft is experimenting with Windows AI features on non-Copilot devices, finally allowing AI features to run on discrete GPUs. This move expands its user base and gives more users access to Windows 11 local AI capabilities.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-hit-with-sweeping-probe-from-massive-coalition-of-42-us-state-attorneys-general-just-days-after-reported-ipo-filing-subpoena-targets-chatgpt-makers-ads-data-practices-handling-of-minors-model-sycophancy-and-safety-policies",
-      "title": "OpenAI hit with sweeping probe from massive coalition of 42 US state attorneys general just days after reported IPO filing — subpoena targets ChatGPT maker’s ads, data practices, handling of minors, model sycophancy, and safety policies",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-hit-with-sweeping-probe-from-massive-coalition-of-42-us-state-attorneys-general-just-days-after-reported-ipo-filing-subpoena-targets-chatgpt-makers-ads-data-practices-handling-of-minors-model-sycophancy-and-safety-policies",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T12:30:00+00:00",
-      "summary": "State attorneys general have opened a broad investigation into OpenAI, subpoenaing documents on ads, user retention, data handling, minors, health data, model behavior, and safety policies.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/macbooks/amd-taunts-apples-macbook-neo-for-failing-to-run-75-percent-of-top-pc-games-only-5-out-of-the-20-top-pc-games-work-on-the-neo-while-all-run-on-amds-budget-offerings",
-      "title": "AMD taunts Apple's MacBook Neo for failing to run 75% of top PC games — Only 5 out of the 20 top PC games work on the Neo, while all run on AMD's budget offerings",
-      "url": "https://www.tomshardware.com/laptops/macbooks/amd-taunts-apples-macbook-neo-for-failing-to-run-75-percent-of-top-pc-games-only-5-out-of-the-20-top-pc-games-work-on-the-neo-while-all-run-on-amds-budget-offerings",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T12:00:00+00:00",
-      "summary": "AMD is reminding folks not to buy a MacBook, even if it's as good of a deal as the Neo, if you primarily want to game on it. Instead, AMD's own budget laptops can run all the modern titles you want, with a small caveat.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-adviser-david-sacks-says-anthropic-refused-to-fix-fable-5-jailbreak-before-us-export-controls",
-      "title": "US government warned Anthropic that Fable 5 had been jailbroken, but firm 'refused' to fix before US implemented export controls — Anthropic defended its decision by saying the jailbreak 'isn’t serious,' Chinese group had reportedly accessed model",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-adviser-david-sacks-says-anthropic-refused-to-fix-fable-5-jailbreak-before-us-export-controls",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T11:46:43+00:00",
-      "summary": "David Sacks said the US government warned Anthropic that Claude Fable 5 had been jailbroken and that CEO Dario Amodei refused to fix the flaw.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cryptomining-networks-320-000-rtx-3090-class-gpus-allegedly-burn-112-megawatts-of-power-on-zero-useful-ai-computation-pearls-gpus-are-doing-random-matrix-math-study-claims",
-      "title": "AI cryptomining network's 320,000 RTX 3090-class GPUs allegedly burn 112 megawatts of power on ‘zero useful AI computation’ — GPU rental costs jump 38%, but Pearl’s cards are doing random matrix math, study claims",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-cryptomining-networks-320-000-rtx-3090-class-gpus-allegedly-burn-112-megawatts-of-power-on-zero-useful-ai-computation-pearls-gpus-are-doing-random-matrix-math-study-claims",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T11:30:00+00:00",
-      "summary": "A preprint claims Pearl’s AI mining network consumes 320,000 GPU-equivalents and 112 MW while producing no verified useful AI computation.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/webcams/razer-kiyo-v2-x-review",
-      "title": "Razer Kiyo V2 X Review: Auto-focus for life",
-      "url": "https://www.tomshardware.com/peripherals/webcams/razer-kiyo-v2-x-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sarah Jacobsson Purewal",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T11:10:00+00:00",
-      "summary": "Razer's Kiyo V2 X is the most budget-friendly of its current webcam lineup; it records video at 1440p / 60 fps and features \"speedy\" auto-focus, a wide 80-degree field of view, and a smoothly integrated physical privacy shutter.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/console-gaming/hardcore-spongebob-speedrunners-smudged-xbox-optical-disks-to-exploit-lag-clip-trick-filthy-disks-smeared-with-grease-and-sweat-cut-gameplay-times-in-ultimate-pursuit-of-speed",
-      "title": "Hardcore SpongeBob speedrunners smudged Xbox optical disks with sweat and grease to exploit 'lag clip' trick — filthy smeared disks cut gameplay times in ultimate pursuit of speed",
-      "url": "https://www.tomshardware.com/video-games/console-gaming/hardcore-spongebob-speedrunners-smudged-xbox-optical-disks-to-exploit-lag-clip-trick-filthy-disks-smeared-with-grease-and-sweat-cut-gameplay-times-in-ultimate-pursuit-of-speed",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-14T11:00:00+00:00",
-      "summary": "A grease smear-induced optical disc reading quirk can save speedrunners lots of time in SpongeBob SquarePants: Battle for Bikini Bottom on Xbox.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-usd500-on-this-beastly-gaming-rig-with-an-rtx-5060-ti-16gb-ryzen-7800x3d-and-32gb-of-ram-skytechs-desktop-gaming-pc-now-just-usd1-499",
-      "title": "Save $500 on this beastly gaming rig with an RTX 5060 Ti 16GB, Ryzen 7800X3D, and 32GB of RAM — Skytech's desktop gaming PC now just $1,499",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd500-on-this-beastly-gaming-rig-with-an-rtx-5060-ti-16gb-ryzen-7800x3d-and-32gb-of-ram-skytechs-desktop-gaming-pc-now-just-usd1-499",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-13T14:29:37+00:00",
-      "summary": "Looking for a solid gaming PC but tired of seeing exorbitant prices on every retailer's website? We've got you covered with this prebuilt, equipped with high-quality components ready for 1440p gaming and more, with a clear upgrade path once prices settle down.",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48430986",
-      "title": "TSMC CEO: I envy their 80% gross margins, but I would never do that",
-      "url": "https://www.thestreet.com/investing/stocks/tsmc-taiwan-semiconductor-ceo-sends-blunt-message-to-memory-chip-rivals",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48430986",
-        "name": "teleforce",
-        "hn_url": "https://news.ycombinator.com/item?id=48430986"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 3,
-      "published_at": "2026-06-07T01:53:27+00:00",
-      "summary": "",
-      "matched_keyword": "TSMC",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48274048",
-      "title": "Taiwan Overtakes India as Fifth-Largest Stock Market",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-26/tsmc-s-relentless-rise-powers-taiwan-s-market-value-above-india",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48274048",
-        "name": "leopoldj",
-        "hn_url": "https://news.ycombinator.com/item?id=48274048"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 0,
-      "published_at": "2026-05-26T01:49:54+00:00",
-      "summary": "",
-      "matched_keyword": "TSMC",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48377404",
-      "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
-      "url": "https://github.com/c0dejedi/nbd-vram",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48377404",
-        "name": "tanelpoder",
-        "hn_url": "https://news.ycombinator.com/item?id=48377404"
-      },
-      "duration_sec": null,
-      "views": 472,
-      "comments": 126,
-      "published_at": "2026-06-02T22:55:33+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48424605",
-      "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
-      "url": "https://twitter.com/lemire/status/2062880075117113739",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48424605",
-        "name": "tosh",
-        "hn_url": "https://news.ycombinator.com/item?id=48424605"
-      },
-      "duration_sec": null,
-      "views": 331,
-      "comments": 557,
-      "published_at": "2026-06-06T12:52:18+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48444451",
-      "title": "Nvidia partners with LG robotics to build humanoid robots in South Korea",
-      "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48444451",
-        "name": "spwa4",
-        "hn_url": "https://news.ycombinator.com/item?id=48444451"
-      },
-      "duration_sec": null,
-      "views": 59,
-      "comments": 86,
-      "published_at": "2026-06-08T12:25:14+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48509844",
-      "title": "SkillSpector",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48509844",
-        "name": "taubek",
-        "hn_url": "https://news.ycombinator.com/item?id=48509844"
-      },
-      "duration_sec": null,
-      "views": 49,
-      "comments": 4,
-      "published_at": "2026-06-12T21:49:49+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48234574",
-      "title": "How do you build a semiconductor company on something that's free?",
-      "url": "https://www.siliconimist.com/p/the-open-source-silicon-business",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48234574",
-        "name": "johncole",
-        "hn_url": "https://news.ycombinator.com/item?id=48234574"
-      },
-      "duration_sec": null,
-      "views": 99,
-      "comments": 36,
-      "published_at": "2026-05-22T11:49:04+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48220446",
-      "title": "IBM invented semiconductor manufacturing automation",
-      "url": "https://spectrum.ieee.org/semiconductor-fabrication",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48220446",
-        "name": "rbanffy",
-        "hn_url": "https://news.ycombinator.com/item?id=48220446"
-      },
-      "duration_sec": null,
-      "views": 81,
-      "comments": 6,
-      "published_at": "2026-05-21T10:39:48+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48431367",
-      "title": "The Russian who invented semiconductors 25 years before the USA",
-      "url": "https://www.semidoped.com/p/til-the-man-who-invented-the-future",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48431367",
-        "name": "johncole",
-        "hn_url": "https://news.ycombinator.com/item?id=48431367"
-      },
-      "duration_sec": null,
-      "views": 53,
-      "comments": 35,
-      "published_at": "2026-06-07T03:00:52+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48439316",
-      "title": "Huawei executive credits bans for accelerating domestic chip independence",
-      "url": "https://www.techradar.com/pro/huaweis-chairman-officially-thanks-the-us-government-for-enabling-chinas-semiconductor-industry-chain-to-truly-grow",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48439316",
-        "name": "yogthos",
-        "hn_url": "https://news.ycombinator.com/item?id=48439316"
-      },
-      "duration_sec": null,
-      "views": 22,
-      "comments": 2,
-      "published_at": "2026-06-07T22:38:25+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
       "lang": "en"
     }
   ]
