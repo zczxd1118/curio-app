@@ -1,166 +1,170 @@
 # Curio 趋势雷达 · 2026-06-18
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 14 条备选
 
-_今日最重磅的信号是 Anthropic 的 Fable 5 模型被美国政府突然切断出口，引发全球盟友对 AI 供应链安全的恐慌——这比任何技术发布都更影响你的 Agent 项目部署策略。同时 AMD 收购 MEXT 打破内存墙、Intel 18A-P 进入风险量产，半导体制造端迎来关键转折。金融端全球央行同步加息，美联储新主席沃什鹰派首秀，宏观环境正在快速收紧。_
+_今日最大信号：美国政府对Anthropic Fable 5模型实施出口禁令，引发全球盟友恐慌，AI地缘政治进入新阶段。与此同时，Qualcomm拟80-100亿美元收购Tenstorrent，AMD收购MEXT突破内存墙，AI芯片格局加速重塑。国内七部门发文推进"AI+消费"，长存集团IPO前夕武汉新芯控股权易主。_
 
 ---
 
 ## 🌟 大厂 AI 动态
 
-### 1. 美国对 Anthropic Fable 5 模型按下“终止开关”，全球盟友紧急应对
+### 1. 美国对Anthropic Fable 5模型按下"终止开关"，全球盟友恐慌
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-特朗普政府突然下令 Anthropic 切断所有外国用户对 Fable 5 及 Mythos 5 模型的访问权限，欧洲和加拿大领导人公开表达担忧，称此举可能迫使各国加速自主 AI 研发。这是美国首次对已商用的前沿 AI 模型实施出口禁令，影响远超芯片管制。
+特朗普政府突然下令Anthropic切断所有外国用户对Fable 5的访问，包括欧洲和加拿大盟友。法国总统马克龙和印度总理莫迪在G7峰会上公开警告：美国可以一夜之间切断AI供应。这可能是AI主权运动的转折点。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 美国商务部要求 Anthropic 立即停止向非美国公民提供 Fable 5 和 Mythos 5 模型服务 | 禁令是否基于 Fable 5 的“越狱”漏洞（Stratechery 分析认为可能性大） |
-| 法国总统马克龙和印度总理莫迪在 G7 峰会上公开批评该决定 | Anthropic 是否会因此加速非美国数据中心部署 |
-| Anthropic 正在寻求法律途径恢复服务 | 欧洲和加拿大自主 AI 模型（如 Mistral、Cohere）能否填补空白 |
-| 受影响用户包括欧洲、加拿大、日本等盟友国家的企业和研究机构 | 该禁令是否会扩展到 OpenAI 和 Google 的模型 |
-|  | 美国国内对禁令的法律挑战前景 |
+| 美国商务部要求Anthropic立即停止向外国用户提供Fable 5模型 | 欧洲和加拿大是否会加速自主AI模型开发？ |
+| Anthropic正与政府协商恢复访问，但尚无时间表 | Anthropic是否会因此调整模型发布策略？ |
+| 法国总统马克龙和印度总理莫迪在G7峰会上表达严重关切 | 其他美国AI公司（OpenAI、Google）是否会面临类似限制？ |
+| Stratechery分析认为政府判断可能错误，但责任在Anthropic | 该禁令是否会被法院挑战或修改？ |
+|  | 对全球AI供应链的长期影响尚不明朗 |
 
 **📖 主编点评**
 
-这对你的 content-curator 项目意味着：如果你依赖 Anthropic API 构建 Agent，需要立即评估替代方案（如本地部署模型或非美国 API）。同时关注欧洲模型（Mistral、DeepSeek）的可用性——供应链风险已经从芯片蔓延到模型层。建议在你的项目里加入多模型路由能力，避免单点依赖。
+如果你正在做content-curator项目，这个事件是绝佳案例：AI模型不再是纯技术产品，而是地缘政治筹码。建议你跟踪Anthropic后续应对和各国AI主权政策，这会影响你未来Agent工具依赖的模型可用性。
 
 📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/us-pulls-the-kill-switch-on-anthropics-fable-5-ai-models-sending-global-allies-scrambling-european-and-canadian-leaders-alarm-allies-over-sudden-export-bans)
 
 ---
 
-### 5. Stratechery 深度分析：Fable 越狱问题与 SpaceX 收购 Cursor
+## 🌟 AI 算力 / 半导体
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Stratechery_
+### 2. Qualcomm拟80-100亿美元收购Jim Keller的Tenstorrent，RISC-V AI芯片格局生变
 
-Ben Thompson 发表重磅分析，认为美国政府封杀 Fable 5 很可能是基于模型的“越狱”漏洞——模型可以被诱导生成危险内容。同时 SpaceX 收购 AI 编程工具 Cursor，标志着太空公司开始整合 AI 开发能力。
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+
+Qualcomm正在洽谈收购RISC-V AI加速器开发商Tenstorrent，估值80-100亿美元。Tenstorrent由传奇芯片架构师Jim Keller领导，其RISC-V架构可能挑战NVIDIA的CUDA生态。这笔交易若达成，将重塑AI芯片竞争格局。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| SpaceX 已收购 AI 编程工具 Cursor（具体金额未披露） | Cursor 被收购后是否会停止对个人用户的服务 |
-| Stratechery 分析认为 Fable 5 存在严重越狱漏洞 | SpaceX 将如何利用 Cursor 加速火箭和卫星软件开发 |
-| Anthropic 此前曾公开承认 Fable 5 在红队测试中发现安全问题 | Fable 5 的越狱问题是否可以通过补丁修复 |
-| 收购后 Cursor 团队将并入 SpaceX 的软件部门 | AI 编程工具市场是否会因此加速整合 |
+| Qualcomm与Tenstorrent进入收购谈判，估值80-100亿美元 | 交易能否通过反垄断审查？ |
+| Tenstorrent由Jim Keller领导，专注RISC-V AI加速器 | Jim Keller是否会留任？ |
+| Qualcomm希望借此加强AI芯片能力，减少对ARM依赖 | 对NVIDIA和AMD的竞争影响有多大？ |
+| Tenstorrent已有多家客户，包括三星和LG | RISC-V在AI训练场景的可行性仍需验证 |
+|  | Qualcomm能否整合Tenstorrent的技术到其移动生态？ |
 
 **📖 主编点评**
 
-SpaceX 收购 Cursor 对你这样的 AI 编程工具重度用户是重要信号：独立 AI 编程工具可能被大公司收购，影响定价和功能。建议保持对多个工具（Claude Code、Codex、Windsurf）的熟悉度，避免依赖单一平台。同时关注 Cursor 被收购后的 API 变化。
+如果你关注AI硬件趋势，这是重要信号。RISC-V在AI领域的崛起可能降低未来Agent部署的硬件成本。建议你关注Tenstorrent的开源生态，未来你的Agent项目可能跑在RISC-V芯片上。
 
-📺 [打开原文](https://stratechery.com/2026/the-state-of-fable-the-jailbreak-problem-spacex-acquires-cursor/)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-mulls-taking-over-jim-kellers-tenstorrent-report-claims-deal-for-ai-chipmaker-would-value-the-company-at-between-usd8-billion-and-usd10-billion)
 
 ---
 
-## 🌟 AI 算力 / 半导体
+### 3. AMD收购MEXT突破AI内存墙，降低HBM成本
 
-### 2. AMD 收购 MEXT 打破 AI 内存墙，成本有望大幅下降
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _EE Times_
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _EE Times_
-
-AMD 宣布收购内存计算初创公司 MEXT，旨在解决 AI 推理和训练中的“内存墙”瓶颈。MEXT 的技术可减少数据在 GPU 和内存之间的搬运，据称能显著降低 AI 推理的总体拥有成本（TCO）。这笔交易金额未披露，但信号明确：AMD 正在从芯片设计转向系统级优化。
+AMD收购MEXT，一家专注于内存计算的公司，旨在降低AI推理的内存成本。MEXT的技术允许在内存中直接进行计算，减少数据搬运，有望将HBM成本降低30%以上。这对AMD的MI系列AI加速器至关重要。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| AMD 已签署收购 MEXT 的最终协议 | MEXT 技术是否能在 AMD 的 CDNA 架构中快速集成 |
-| MEXT 的技术专注于近内存计算和内存内处理 | 与 NVIDIA 的 NVLink/C2C 相比，实际性能提升幅度 |
-| 目标是将 AI 推理的每 token 成本降低 40% 以上 | 收购价格是否合理（MEXT 此前融资约 1.2 亿美元） |
-| 收购后 MEXT 团队将并入 AMD 数据中心事业部 | 对 AMD 在 AI 推理市场份额的拉动作用 |
+| AMD收购MEXT，金额未披露 | MEXT技术是否已成熟到可量产？ |
+| MEXT技术可在内存中直接计算，减少数据搬运 | 对NVIDIA的HBM供应链影响有多大？ |
+| 目标是将AI推理内存成本降低30%以上 | AMD能否在2027年前推出集成MEXT的产品？ |
+| AMD计划将MEXT技术集成到下一代MI加速器 | 其他厂商（Intel、NVIDIA）是否会跟进类似技术？ |
+|  | 内存计算在训练场景的适用性仍待验证 |
 
 **📖 主编点评**
 
-如果你在构建 AI Agent 或 RAG 系统，内存墙是实际瓶颈——长上下文推理成本极高。AMD 的这一步可能在未来 1-2 年内降低推理硬件成本，但短期内建议关注软件层面的优化（如 KV cache 量化、投机解码）。你的 content-curator 项目可以提前预留对 AMD ROCm 的支持。
+内存墙是当前AI推理的主要瓶颈。AMD这一收购可能在未来1-2年降低你运行本地模型的成本。如果你在部署Agent时遇到内存限制，可以关注AMD后续产品路线图。
 
 📺 [打开原文](https://www.eetimes.com/amd-snaps-mext-to-break-the-memory-wall/)
 
 ---
 
-### 3. Intel 18A-P 进入风险生产，性能提升 9% 且热阻降低 40%
-
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
-
-Intel 宣布其增强型 18A-P 工艺已进入风险生产阶段，这是 18A 节点的性能优化版本，承诺在同等功耗下性能提升 9%，同时热阻降低 40%。该节点面向高性能计算和 AI 芯片，是 Intel 代工业务的关键里程碑。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| 18A-P 是 18A 的 drop-in 升级，客户无需重新设计 | 18A-P 能否在 2027 年如期进入量产 |
-| 性能提升 9% 来自工艺优化而非架构变化 | 良率是否达到客户接受水平（尤其是外部代工客户） |
-| 热阻降低 40% 意味着更好的散热表现 | 与台积电 N2P 相比的实际竞争力 |
-| 风险生产已在俄亥俄州工厂启动 | 苹果与 Intel 合作（见今日其他新闻）是否基于此节点 |
-
-**📖 主编点评**
-
-Intel 代工业务的进展直接影响 AI 芯片的供应格局。如果你关注硬件成本，Intel 18A-P 可能为 AI 推理芯片提供新的选择。但风险生产到量产仍有距离，短期内台积电仍占主导。建议在项目规划中保持硬件无关性。
-
-📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/intels-performance-enhanced-18a-p-process-enters-risk-production-enhanced-node-promises-9-percent-performance-improvement-at-iso-power)
-
----
-
 ## 🌟 股票
 
-### 4. 全球央行同步加息：欧日齐步紧缩，美联储秋季加息风险骤升
+### 4. 七部门发文推进"AI+消费"，17项举措加速AI落地
 
 **[股票]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-欧洲央行近两年来首次加息，日本利率升至 30 年高位，高盛警告美联储可能在秋季连续加息 2-3 次。中东战火推高能源价格，全球通胀压力迫使央行集体转向鹰派。市场对美联储首次加息的预期从 2027 年提前至 2026 年 10 月。
+中国七部门联合发布《促进平台经济大中小企业协同发展行动方案》，提出17项举措推进"人工智能+消费"。重点包括：扩大智能终端供给、布局人形机器人消费赛道、提升Token普惠服务能力、培育AI一人公司（AI OPC）。这是中国AI政策的重要信号。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 欧洲央行加息 25 个基点至 3.75% | 沃什的改革工作组是否会实质改变美联储政策框架 |
-| 日本央行加息至 1.5%，为 30 年最高 | 中东局势若缓和，通胀压力能否缓解 |
-| 美联储新主席沃什在首次 FOMC 会议上拒填点阵图，设立五大改革工作组 | 加息对科技股估值的冲击程度 |
-| 高盛将美联储首次加息预期从 2027 年提前至 2026 年 10 月 | 中国央行是否会跟随加息 |
+| 七部门联合发布《行动方案》，2026-2028年实施 | 政策落地效果需观察，具体补贴和监管细则未出 |
+| 推动消费电子产品从功能型向智能型转变 | AI OPC概念能否真正降低创业门槛？ |
+| 布局人形机器人消费新赛道 | 人形机器人消费化是否过早？ |
+| 提升平台企业Token普惠服务能力 | Token普惠服务可能改变AI应用商业模式 |
+| 培育AI一人公司（AI OPC） | 对现有AI公司竞争格局的影响 |
 
 **📖 主编点评**
 
-全球加息周期对你的个人项目和求职都有影响：科技公司融资成本上升，可能减少招聘；但 AI 领域资本开支仍在增长。建议关注利率敏感度较低的 AI 基础设施和工具层公司。你的 content-curator 项目如果涉及付费 API，需考虑汇率和成本波动。
+这对你的content-curator项目是利好：政策明确支持AI一人公司，降低Token获取门槛。你可以关注后续Token补贴政策，可能降低你的Agent运行成本。同时，人形机器人赛道值得跟踪。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3774999)
+📺 [打开原文](https://wallstreetcn.com/articles/3775007)
+
+---
+
+## 🌟 AI
+
+### 5. Claude Code推出"超码"功能，并行100个Agent开发大型项目
+
+**[AI]** · ⭐⭐⭐⭐ · _技术胖_
+
+Claude Code新增Ultracode功能，可并行运行100个Agent协同开发。这解决了大型项目单Agent跑不完的问题。视频详细演示了如何配置和使用，包含实际项目案例。对Vibe Coding重度用户是重大效率提升。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Claude Code推出Ultracode功能，支持并行100个Agent | 并行Agent的协调和冲突解决机制是否成熟？ |
+| 可自动拆分大型任务到多个Agent并行执行 | Token消耗是否会大幅增加？ |
+| 视频包含完整配置和实战演示 | 对Cursor/Windsurf等竞品的影响 |
+| 解决了单Agent处理大型项目的瓶颈 | 是否支持自定义Agent角色和分工？ |
+|  | 长期来看可能改变AI编程工作流 |
+
+**📖 主编点评**
+
+如果你在用Claude Code做content-curator项目，这个功能可以大幅提升开发效率。建议你立即尝试Ultracode，将项目拆分为多个子Agent并行开发。注意控制Token预算，并行模式可能消耗更快。
+
+📺 [打开原文](http://www.bilibili.com/video/av116697163896598)
 
 ---
 
 ## 📋 备选池
 
-### AI
-
-- [Claude Ultracode 上线：操控 100 个 Agent 并行开发](https://www.bilibili.com/video/av116697163896598) —— Claude Code 新功能，解决大型任务一次性跑不完的问题，适合你的 content-curator 项目中的多 Agent 编排。
-  _技术胖_
-- [10分钟+300个Agent：保姆级教程学会 Agent Skills](https://www.bilibili.com/video/av116758736279146) —— 从零到一构建 Agent Skill 的实操教程，国内国外工具都覆盖，适合你的 Agent 项目实战。
-  _Work-Fisher_
-- [SiMa 发布面向物理 AI 的 Agentic 开发环境](https://www.eetimes.com/sima-launches-agentic-development-environment-for-physical-ai/) —— 边缘 AI 芯片公司推出开发环境，将工程师迁移到其硬件的时间从数月缩短到数小时。
-  _EE Times_
-
 ### AI 算力 / 半导体
 
-- [SMI 称 NVIDIA 驱动消费级 PCIe 6.0 路线图，RTX Spark 平台推动存储带宽需求](https://www.tomshardware.com/pc-components/ssds/silicon-motions-client-pcie-6-x-roadmap-is-driven-by-nvidia-not-by-amd-and-intel-rtx-spark-agentic-ai-platform-could-fuel-a-hunger-for-storage-bandwidth) —— NVIDIA 的客户端 AI 平台 RTX Spark 对存储带宽的需求正在推动 PCIe 6.0 的消费级落地。
+- [Intel 18A-P进入风险生产，性能提升9%](https://www.tomshardware.com/tech-industry/semiconductors/intels-performance-enhanced-18a-p-process-enters-risk-production-enhanced-node-promises-9-percent-performance-improvement-at-iso-power) —— Intel 18A-P进入风险生产，承诺9%性能提升和40%热阻降低，但量产时间仍不确定。
   _Tom's Hardware_
-- [AMD 下一代 Threadripper “Mustang Peak” 曝光：支持 DDR5、PCIe 6.0](https://www.tomshardware.com/pc-components/cpus/first-official-details-of-amds-next-gen-mustang-peak-threadripper-cpus-come-into-view-chips-feature-ddr5-pcie-6-0-and-a-new-socket) —— Zen 6 架构的 Threadripper 首次曝光，工作站平台将迎来大升级。
+- [SMIC 7nm金属间距超越Intel 18A，但密度落后38%](https://www.tomshardware.com/tech-industry/semiconductors/semianalysis-opens-its-own-chip-teardown-lab) —— SemiAnalysis拆解发现SMIC 7nm金属间距32.5nm优于Intel 18A，但晶体管密度落后38%，制裁下的追赶仍在继续。
   _Tom's Hardware_
-- [Qualcomm 考虑以 80-100 亿美元收购 Jim Keller 的 Tenstorrent](https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-mulls-taking-over-jim-kellers-tenstorrent-report-claims-deal-for-ai-chipmaker-would-value-the-company-at-between-usd8-billion-and-usd10-billion) —— RISC-V AI 芯片公司 Tenstorrent 可能被 Qualcomm 收购，估值 80-100 亿美元。
+- [中国内存品牌转向国产CXMT和YMTC芯片](https://www.tomshardware.com/pc-components/ram/chinese-memory-vendors-snub-industry-giants-in-favor-of-homegrown-ram-chips-samsung-micron-and-sk-hynix-face-a-chinese-supply-chain-revolt) —— Gloway和KingBank等中国内存品牌开始使用国产DDR5芯片，Corsair、HP、Dell已采用，供应链去美化加速。
   _Tom's Hardware_
-- [中国内存品牌抛弃三星、美光，改用国产 CXMT 和 YMTC 芯片](https://www.tomshardware.com/pc-components/ram/chinese-memory-vendors-snub-industry-giants-in-favor-of-homegrown-ram-chips-samsung-micron-and-sk-hynix-face-a-chinese-supply-chain-revolt) —— 国产 DDR5 内存开始替代进口，Corsair、HP、Dell 已采用中国产芯片。
+- [零售SSD市场几乎消失，NAND被AI数据中心吞噬](https://www.tomshardware.com/pc-components/ssds/the-retail-ssd-market-has-almost-disappeared-says-silicon-motion-exec-pc-oems-are-buying-third-party-drives-as-direct-nand-supply-dries-up) —— Silicon Motion高管警告零售SSD市场几乎消失，NAND厂商优先供应AI数据中心，2027年短缺将更严重。
   _Tom's Hardware_
-- [NVIDIA 展示自学习安装 GPU 的机器人：AI 编码 Agent 自主指导机器人训练](https://arstechnica.com/ai/2026/06/ai-coding-agents-can-autonomously-direct-robot-training/) —— NVIDIA 用 AI 编码 Agent 团队教会机器人高精度操作，如安装 GPU 和剪扎带。
-  _Ars Technica_
 
 ### 大厂 AI 动态
 
-- [Midjourney 从生成猫图转向全身超声扫描——首款硬件产品亮相](https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan) —— Midjourney 展示首款硬件产品，进军医疗影像 AI，同时计划在旧金山建 spa。
-  _The Verge_
-- [Tim Cook 称 RAM 成本“不可持续”，苹果将提高价格](https://www.theverge.com/tech/951948/apple-tim-cook-price-increases-ram) —— 内存短缺导致苹果产品涨价，AI 对存储的需求正在推高整个行业的成本。
-  _The Verge_
-- [Google 推出 Gemini 驱动的 Home Speaker，售价 99.99 美元](https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/) —— Google 用生成式 AI 重塑智能音箱，从固定命令转向对话式交互。
+- [Google推出Gemini驱动的Home Speaker，售价$99.99](https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/) —— Google Home Speaker用Gemini替代传统语音助手，支持自然对话，6月25日发货，但音频质量一般。
   _TechCrunch_
-- [SpaceX 上市三天散户净买入 3.7 亿美元，超过科技七巨头总和](https://wallstreetcn.com/articles/3774996) —— SpaceX 成为史上最大 IPO，散户热情高涨，吸金力碾压苹果、英伟达等巨头。
+- [Midjourney发布首款硬件产品：全身体超声扫描仪](https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan) —— Midjourney CEO展示首款硬件——AI超声扫描仪，并计划在旧金山建SPA，从生成猫图跨界到医疗。
+  _The Verge_
+- [Snap发布$2,195 AR眼镜Specs，股价下跌](https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/) —— Snap推出12年研发的AR眼镜Specs，售价$2,195，市场反应冷淡，股价下跌。
+  _TechCrunch_
+- [SpaceX上市三天散户净买入3.7亿美元，超科技七巨头总和](https://wallstreetcn.com/articles/3774996) —— SpaceX上市后散户净买入3.7亿美元，超过苹果、微软、英伟达等七巨头同期总和，吸金力惊人。
+  _华尔街见闻_
+- [特朗普宣布苹果与英特尔合作在美国生产芯片](https://wallstreetcn.com/articles/3774995) —— 特朗普亲自宣布苹果与英特尔合作在美国设计和制造芯片，苹果分散对台积电依赖，英特尔获顶级客户背书。
   _华尔街见闻_
 
 ### 股票
 
-- [特朗普宣布苹果将与 Intel 合作在美国生产芯片](https://wallstreetcn.com/articles/3774995) —— 苹果分散对台积电依赖，Intel 代工业务获关键客户背书，Intel 盘前涨 7%。
+- [美联储新主席沃什首秀：鹰派信号震动市场](https://wallstreetcn.com/articles/3775003) —— 沃什以史上最短FOMC声明完成首秀，拒填点阵图、设立五大改革工作组，美元录年内最大单日涨幅。
   _华尔街见闻_
-- [中国七部门发文推进“人工智能+消费”，培育 AI 一人公司](https://wallstreetcn.com/articles/3775000) —— 政策鼓励 AI OPC（一人公司）和 Token 普惠服务，降低中小企业 AI 门槛。
+- [全球央行集体加息：欧日齐步，美联储秋季紧缩风险骤升](https://wallstreetcn.com/articles/3774999) —— 欧洲央行近两年首度加息，日本利率升至30年高位，高盛警告美联储秋季或连续加息2-3次。
   _华尔街见闻_
-- [当微软都烧不起 Token，“模型路由”成为企业 AI 核心需求](https://wallstreetcn.com/articles/3774993) —— Token 成本飙升，企业转向动态模型路由——你的 content-curator 项目可以借鉴此思路。
+- [72家A股公司连夜提示风险，概念炒作降温](https://wallstreetcn.com/articles/3774997) —— 6月17日晚72家A股公司集中发布风险提示，涉及大量热门概念股，监管层警示概念炒作风险。
   _华尔街见闻_
+
+### AI
+
+- [10分钟+300个Agent：保姆级教程学会Agent Skills](http://www.bilibili.com/video/av116758736279146) —— 从零到一教你创建Agent Skill，覆盖国内外工具，适合想构建个人Agent生态的开发者。
+  _Work-Fisher_
+- [快手P9专家讲解Structured Vibe Coding系统实战](http://www.bilibili.com/video/av116731490081424) —— 从Karpathy原始定义到四大工具品类全景图，30分钟Live Demo用Cursor构建项目，有工程细节。
+  _印客学院_
 
 ---
 
