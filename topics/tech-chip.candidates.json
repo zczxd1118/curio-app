@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-18T08:14:44.983351+00:00",
+  "fetched_at": "2026-06-19T08:38:03.653245+00:00",
   "platforms": [
     "rss"
   ],
@@ -188,6 +188,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/all-semiconductor-roads-lead-to-taiwan/",
+      "title": "All Semiconductor Roads Lead to Taiwan",
+      "url": "https://www.eetimes.com/all-semiconductor-roads-lead-to-taiwan/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Anne-Françoise Pelé",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T07:45:00+00:00",
+      "summary": "Small in size but outsized in influence, Taiwan has become a linchpin of the global semiconductor supply chain. The post All Semiconductor Roads Lead to Taiwan appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/billions-pour-into-autonomous-defense-as-ai-redefines-warfare/",
+      "title": "Billions Pour into Autonomous Defense as AI Redefines Warfare",
+      "url": "https://www.eetimes.com/billions-pour-into-autonomous-defense-as-ai-redefines-warfare/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Rebecca Pool",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-18T19:09:37+00:00",
+      "summary": "Record investment is accelerating autonomous military tech, putting edge AI and drones at the center of modern conflict. The post Billions Pour into Autonomous Defense as AI Redefines Warfare appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/the-new-software-standard-for-physical-ai-insert-return-here-for-new-line-accelerating-development-and-deployment-from-months-to-days/",
+      "title": "The New Software Standard for Physical AI",
+      "url": "https://www.eetimes.com/the-new-software-standard-for-physical-ai-insert-return-here-for-new-line-accelerating-development-and-deployment-from-months-to-days/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Manuel Roldan, Software Product Manager, SiMa.ai",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-18T14:00:00+00:00",
+      "summary": "Building real-time physical AI applications—such as high-performance, multimodal object tracking for autonomous systems within a constrained power envelope—is notoriously difficult. It requires coordinating specialized hardware, managing complex data flows, and optimizing every microsecond for maximum performance. This tech paper explores how agentic software environments can dramatically accelerate the development and deployment of physical AI applications. [&#8230;] The post The New Software S...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/intelligent-power-solutions-for-next-gen-robotics-compute-platforms/",
+      "title": "Intelligent Power Solutions for Next-Gen Robotics Compute Platforms",
+      "url": "https://www.eetimes.com/intelligent-power-solutions-for-next-gen-robotics-compute-platforms/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Monolithic Power Systems Inc.",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-18T13:07:18+00:00",
+      "summary": "Date: Tuesday, July 21, 2026 Time: 9:00am PDT &#124; 12:00pm EDT Not your time zone? Please join us on Tuesday, July 28th @ 15:00 CEST Register Here! Rapid advances in humanoid robotics are being driven by breakthroughs in compute power. As AI workloads continue to scale, most of the elements that process data demand higher [&#8230;] The post Intelligent Power Solutions for Next-Gen Robotics Compute Platforms appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/space-industry-is-standardizing-on-risc-v/",
+      "title": "Space Industry Is Standardizing on RISC-V",
+      "url": "https://www.eetimes.com/space-industry-is-standardizing-on-risc-v/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-18T12:00:00+00:00",
+      "summary": "Experts at RISC-V Summit Europe outlined how open architectures are transforming computing across the space economy. The post Space Industry Is Standardizing on RISC-V appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/can-catalonia-deliver-on-its-distributed-semiconductor-network/",
       "title": "Can Catalonia’s Distributed Semiconductor Network Deliver?",
       "url": "https://www.eetimes.com/can-catalonia-deliver-on-its-distributed-semiconductor-network/",
@@ -229,7 +314,7 @@
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Simon Reuning",
+        "name": "YAGEO Group, Simon Reuning",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
@@ -270,91 +355,6 @@
       "views": null,
       "published_at": "2026-06-17T13:00:00+00:00",
       "summary": "Memory shortages put edge AI at risk. NVIDIA Jetson™ integrates validated LPDDR5 DRAM on-module—giving teams a faster, confident path to production. The post Built-In Memory. Built-In Confidence. appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/beyond-chiplets-cmos-2-0-moves-scaling-into-the-circuit/",
-      "title": "Beyond Chiplets, CMOS 2.0 Moves Scaling into the Circuit",
-      "url": "https://www.eetimes.com/beyond-chiplets-cmos-2-0-moves-scaling-into-the-circuit/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T12:47:44+00:00",
-      "summary": "Imec’s Zsolt Tokei and Arm’s Mohamed Awad explain why CMOS 2.0 could redefine semiconductor scaling beyond chiplets. The post Beyond Chiplets, CMOS 2.0 Moves Scaling into the Circuit appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ai-isnt-the-real-bottleneck-in-autonomy-wireless-is/",
-      "title": "AI Isn’t the Real Bottleneck in Autonomy; Wireless Is",
-      "url": "https://www.eetimes.com/ai-isnt-the-real-bottleneck-in-autonomy-wireless-is/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Andrew Skafel",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T08:37:54+00:00",
-      "summary": "The future of drones, robotics, and autonomous systems will depend not only on AI, but also on reliable communications in congested, contested, and degraded environments. The post AI Isn’t the Real Bottleneck in Autonomy; Wireless Is appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ee-times-magazine-june-2026/",
-      "title": "EE Times Magazine – June 2026",
-      "url": "https://www.eetimes.com/ee-times-magazine-june-2026/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Anne-Françoise Pelé",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-16T22:30:00+00:00",
-      "summary": "The June 2026 edition of EE Times Magazine explores autonomous aerospace and defense systems—from orbital data centers to AI-enabled drones. The post EE Times Magazine – June 2026 appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/sima-launches-agentic-development-environment-for-physical-ai/",
-      "title": "SiMa Launches Agentic Development Environment for Physical AI",
-      "url": "https://www.eetimes.com/sima-launches-agentic-development-environment-for-physical-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-16T17:50:36+00:00",
-      "summary": "Edge AI chip company said it can speed up engineer productivity when transferring to its hardware from months to hours. The post SiMa Launches Agentic Development Environment for Physical AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/amd-snaps-mext-to-break-the-memory-wall/",
-      "title": "AMD Snaps MEXT to Break the Memory Wall",
-      "url": "https://www.eetimes.com/amd-snaps-mext-to-break-the-memory-wall/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-16T13:50:23+00:00",
-      "summary": "AMD acquires MEXT to slash AI memory costs and break the memory wall. The post AMD Snaps MEXT to Break the Memory Wall appeared first on EE Times.",
       "lang": "en"
     }
   ]
