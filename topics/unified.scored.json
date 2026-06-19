@@ -1,231 +1,202 @@
 {
-  "date": "2026-06-18",
-  "intro": "今日最大信号：美国政府对Anthropic Fable 5模型实施出口禁令，引发全球盟友恐慌，AI地缘政治进入新阶段。与此同时，Qualcomm拟80-100亿美元收购Tenstorrent，AMD收购MEXT突破内存墙，AI芯片格局加速重塑。国内七部门发文推进\"AI+消费\"，长存集团IPO前夕武汉新芯控股权易主。",
+  "date": "2026-06-19",
+  "intro": "今日核心信号：美国对Anthropic Fable 5模型实施出口禁令，全球AI供应链面临断裂风险；同时DeepSeek完成510亿元融资引入腾讯、宁德时代等战略股东，中国AI自主化加速。半导体领域，英特尔CEO陈立武提出5-10年10倍回报目标，押注先进封装与新材料。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "大厂 AI 动态",
+      "domain": "AI 算力 / 半导体",
       "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/us-pulls-the-kill-switch-on-anthropics-fable-5-ai-models-sending-global-allies-scrambling-european-and-canadian-leaders-alarm-allies-over-sudden-export-bans",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-pulls-the-kill-switch-on-anthropics-fable-5-ai-models-sending-global-allies-scrambling-european-and-canadian-leaders-alarm-allies-over-sudden-export-bans",
       "source": "Tom's Hardware",
       "stars": 5,
-      "title": "美国对Anthropic Fable 5模型按下\"终止开关\"，全球盟友恐慌",
-      "lead": "特朗普政府突然下令Anthropic切断所有外国用户对Fable 5的访问，包括欧洲和加拿大盟友。法国总统马克龙和印度总理莫迪在G7峰会上公开警告：美国可以一夜之间切断AI供应。这可能是AI主权运动的转折点。",
+      "title": "美国对Anthropic Fable 5模型实施出口禁令，全球盟友紧急应对",
+      "lead": "特朗普政府突然封锁Anthropic的Mythos 5和Fable 5模型出口，欧洲和加拿大领导人警告此举将迫使盟友自主开发前沿AI。这是美国首次对AI模型本身实施出口管制，而非仅限制芯片。",
       "confirmed": [
-        "美国商务部要求Anthropic立即停止向外国用户提供Fable 5模型",
-        "Anthropic正与政府协商恢复访问，但尚无时间表",
-        "法国总统马克龙和印度总理莫迪在G7峰会上表达严重关切",
-        "Stratechery分析认为政府判断可能错误，但责任在Anthropic"
+        "美国商务部将Anthropic的Fable 5和Mythos 5模型列入出口管制清单",
+        "欧洲和加拿大领导人公开表达担忧，称可能被迫自研替代模型",
+        "Anthropic尚未公开回应，但内部消息称正在评估合规方案",
+        "此举被视为美国AI霸权政策的升级，从硬件扩展到软件层"
       ],
       "judgment": [
-        "欧洲和加拿大是否会加速自主AI模型开发？",
-        "Anthropic是否会因此调整模型发布策略？",
-        "其他美国AI公司（OpenAI、Google）是否会面临类似限制？",
-        "该禁令是否会被法院挑战或修改？",
-        "对全球AI供应链的长期影响尚不明朗"
+        "禁令是否适用于已部署的API接口尚不明确",
+        "盟友自研替代模型的时间表和可行性存疑",
+        "Anthropic是否会通过海外子公司规避管制仍待观察",
+        "此举可能加速全球AI模型生态的分裂"
       ],
-      "implication": "如果你正在做content-curator项目，这个事件是绝佳案例：AI模型不再是纯技术产品，而是地缘政治筹码。建议你跟踪Anthropic后续应对和各国AI主权政策，这会影响你未来Agent工具依赖的模型可用性。"
+      "implication": "如果你正在做Agent项目依赖Anthropic模型，建议评估替代方案（如DeepSeek、开源模型）。同时关注Fable 5的API是否还能正常调用——出口禁令可能影响你正在使用的服务。这是AI地缘政治的关键转折点，值得持续跟踪。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-mulls-taking-over-jim-kellers-tenstorrent-report-claims-deal-for-ai-chipmaker-would-value-the-company-at-between-usd8-billion-and-usd10-billion",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-mulls-taking-over-jim-kellers-tenstorrent-report-claims-deal-for-ai-chipmaker-would-value-the-company-at-between-usd8-billion-and-usd10-billion",
-      "source": "Tom's Hardware",
+      "domain": "股票",
+      "id": "wscn:3775067",
+      "url": "https://wallstreetcn.com/articles/3775067",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "Qualcomm拟80-100亿美元收购Jim Keller的Tenstorrent，RISC-V AI芯片格局生变",
-      "lead": "Qualcomm正在洽谈收购RISC-V AI加速器开发商Tenstorrent，估值80-100亿美元。Tenstorrent由传奇芯片架构师Jim Keller领导，其RISC-V架构可能挑战NVIDIA的CUDA生态。这笔交易若达成，将重塑AI芯片竞争格局。",
+      "title": "DeepSeek融资510亿元：腾讯、宁德时代、京东、网易入局，梁文锋选资方重产业协同",
+      "lead": "DeepSeek完成510亿元融资，引入腾讯、宁德时代、京东、网易等战略投资者。梁文锋拒绝大量财务投资者，优先选择能带来产业协同的股东。分析认为，DeepSeek意识到仅靠自有资金难以跟上全球AI算力竞赛，需扩大资本开支。",
       "confirmed": [
-        "Qualcomm与Tenstorrent进入收购谈判，估值80-100亿美元",
-        "Tenstorrent由Jim Keller领导，专注RISC-V AI加速器",
-        "Qualcomm希望借此加强AI芯片能力，减少对ARM依赖",
-        "Tenstorrent已有多家客户，包括三星和LG"
+        "融资总额510亿元，估值未披露但预计超千亿",
+        "投资方包括腾讯、宁德时代、京东、网易等",
+        "梁文锋亲自筛选投资者，优先产业协同而非财务回报",
+        "资金将用于扩大AI算力基础设施和研发投入"
       ],
       "judgment": [
-        "交易能否通过反垄断审查？",
-        "Jim Keller是否会留任？",
-        "对NVIDIA和AMD的竞争影响有多大？",
-        "RISC-V在AI训练场景的可行性仍需验证",
-        "Qualcomm能否整合Tenstorrent的技术到其移动生态？"
+        "宁德时代参投可能意在'算电协同'，为AI数据中心提供储能方案",
+        "腾讯、京东、网易的AI战略与DeepSeek如何协同尚不清晰",
+        "融资后DeepSeek是否会改变开源策略值得关注",
+        "国资背景投资者占比未披露，可能影响公司治理"
       ],
-      "implication": "如果你关注AI硬件趋势，这是重要信号。RISC-V在AI领域的崛起可能降低未来Agent部署的硬件成本。建议你关注Tenstorrent的开源生态，未来你的Agent项目可能跑在RISC-V芯片上。"
+      "implication": "DeepSeek的融资结构表明中国AI正在形成'产业资本+技术'的闭环。如果你在做Agent项目，DeepSeek的模型可能获得更多资源支持，值得作为备选。同时关注宁德时代入局背后的'算电协同'趋势——这可能是未来AI基础设施的关键变量。"
     },
     {
       "rank": 3,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.eetimes.com/amd-snaps-mext-to-break-the-memory-wall/",
-      "url": "https://www.eetimes.com/amd-snaps-mext-to-break-the-memory-wall/",
-      "source": "EE Times",
+      "id": "wscn:3775077",
+      "url": "https://wallstreetcn.com/articles/3775077",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "AMD收购MEXT突破AI内存墙，降低HBM成本",
-      "lead": "AMD收购MEXT，一家专注于内存计算的公司，旨在降低AI推理的内存成本。MEXT的技术允许在内存中直接进行计算，减少数据搬运，有望将HBM成本降低30%以上。这对AMD的MI系列AI加速器至关重要。",
+      "title": "英特尔CEO陈立武首谈复兴计划：5-10年10倍回报，押注先进封装、玻璃基板与人工钻石",
+      "lead": "英特尔CEO陈立武在播客访谈中设定5至10年实现10倍回报的目标，通过EMIB先进封装、玻璃基板及合成钻石等新材料重构技术路线图。智能体AI爆发带动CPU需求回升，代工业务聚焦良率与信任，并与马斯克共建Terafab项目。",
       "confirmed": [
-        "AMD收购MEXT，金额未披露",
-        "MEXT技术可在内存中直接计算，减少数据搬运",
-        "目标是将AI推理内存成本降低30%以上",
-        "AMD计划将MEXT技术集成到下一代MI加速器"
+        "陈立武设定5-10年10倍回报的财务目标",
+        "重点投入EMIB先进封装、玻璃基板和合成钻石技术",
+        "智能体AI爆发带动CPU需求强劲回升",
+        "与马斯克合作建设Terafab项目，预计2030年后释放潜力"
       ],
       "judgment": [
-        "MEXT技术是否已成熟到可量产？",
-        "对NVIDIA的HBM供应链影响有多大？",
-        "AMD能否在2027年前推出集成MEXT的产品？",
-        "其他厂商（Intel、NVIDIA）是否会跟进类似技术？",
-        "内存计算在训练场景的适用性仍待验证"
+        "10倍回报目标是否过于激进，市场反应待观察",
+        "玻璃基板和合成钻石技术量产时间表未明确",
+        "代工业务能否获得足够客户信任仍是挑战",
+        "Terafab项目的具体投资规模和合作模式尚未披露"
       ],
-      "implication": "内存墙是当前AI推理的主要瓶颈。AMD这一收购可能在未来1-2年降低你运行本地模型的成本。如果你在部署Agent时遇到内存限制，可以关注AMD后续产品路线图。"
+      "implication": "英特尔的转型路线图对你做AI基础设施选型有参考价值。如果考虑本地部署推理，英特尔CPU+先进封装方案可能在能效上带来优势。玻璃基板技术若成功，将改变芯片散热格局，影响你未来搭建本地AI服务器的硬件选择。"
     },
     {
       "rank": 4,
-      "domain": "股票",
-      "id": "wscn:3775007",
-      "url": "https://wallstreetcn.com/articles/3775007",
-      "source": "华尔街见闻",
-      "stars": 4,
-      "title": "七部门发文推进\"AI+消费\"，17项举措加速AI落地",
-      "lead": "中国七部门联合发布《促进平台经济大中小企业协同发展行动方案》，提出17项举措推进\"人工智能+消费\"。重点包括：扩大智能终端供给、布局人形机器人消费赛道、提升Token普惠服务能力、培育AI一人公司（AI OPC）。这是中国AI政策的重要信号。",
-      "confirmed": [
-        "七部门联合发布《行动方案》，2026-2028年实施",
-        "推动消费电子产品从功能型向智能型转变",
-        "布局人形机器人消费新赛道",
-        "提升平台企业Token普惠服务能力",
-        "培育AI一人公司（AI OPC）"
-      ],
-      "judgment": [
-        "政策落地效果需观察，具体补贴和监管细则未出",
-        "AI OPC概念能否真正降低创业门槛？",
-        "人形机器人消费化是否过早？",
-        "Token普惠服务可能改变AI应用商业模式",
-        "对现有AI公司竞争格局的影响"
-      ],
-      "implication": "这对你的content-curator项目是利好：政策明确支持AI一人公司，降低Token获取门槛。你可以关注后续Token补贴政策，可能降低你的Agent运行成本。同时，人形机器人赛道值得跟踪。"
-    },
-    {
-      "rank": 5,
       "domain": "AI",
       "id": "bvid:BV1j67k6oENA",
       "url": "http://www.bilibili.com/video/av116697163896598",
       "source": "技术胖",
       "stars": 4,
-      "title": "Claude Code推出\"超码\"功能，并行100个Agent开发大型项目",
-      "lead": "Claude Code新增Ultracode功能，可并行运行100个Agent协同开发。这解决了大型项目单Agent跑不完的问题。视频详细演示了如何配置和使用，包含实际项目案例。对Vibe Coding重度用户是重大效率提升。",
+      "title": "Claude Code推出'超码'功能：操控100个Agent并行开发，解决大型任务跑不完的痛点",
+      "lead": "Claude Code新功能'Ultracode'允许用户同时调度100个Agent并行开发，解决大型项目一次性跑不完的问题。技术胖的保姆级教程详细演示了配置和使用方法，适合Vibe Coding进阶用户。",
       "confirmed": [
-        "Claude Code推出Ultracode功能，支持并行100个Agent",
-        "可自动拆分大型任务到多个Agent并行执行",
-        "视频包含完整配置和实战演示",
-        "解决了单Agent处理大型项目的瓶颈"
+        "Claude Code新增Ultracode功能，支持100个Agent并行",
+        "该功能解决大型任务因上下文限制而中断的问题",
+        "技术胖发布了完整的保姆级实战教程",
+        "教程包含文字版，方便查阅和复现"
       ],
       "judgment": [
-        "并行Agent的协调和冲突解决机制是否成熟？",
-        "Token消耗是否会大幅增加？",
-        "对Cursor/Windsurf等竞品的影响",
-        "是否支持自定义Agent角色和分工？",
-        "长期来看可能改变AI编程工作流"
+        "100个Agent并行是否会导致资源竞争和效率下降",
+        "该功能是否仅限Claude Code Pro用户使用",
+        "并行Agent之间的协调机制和冲突解决策略未公开",
+        "实际效果是否如演示般流畅需自行测试"
       ],
-      "implication": "如果你在用Claude Code做content-curator项目，这个功能可以大幅提升开发效率。建议你立即尝试Ultracode，将项目拆分为多个子Agent并行开发。注意控制Token预算，并行模式可能消耗更快。"
+      "implication": "如果你正在用Claude Code做大型项目（如content-curator），Ultracode可以大幅提升效率。建议先看技术胖的教程，重点理解并行任务的拆分策略。但注意成本——100个Agent并行可能快速消耗API额度。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Intel 18A-P进入风险生产，性能提升9%",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intels-performance-enhanced-18a-p-process-enters-risk-production-enhanced-node-promises-9-percent-performance-improvement-at-iso-power",
-      "source": "Tom's Hardware",
-      "one_liner": "Intel 18A-P进入风险生产，承诺9%性能提升和40%热阻降低，但量产时间仍不确定。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "SMIC 7nm金属间距超越Intel 18A，但密度落后38%",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/semianalysis-opens-its-own-chip-teardown-lab",
-      "source": "Tom's Hardware",
-      "one_liner": "SemiAnalysis拆解发现SMIC 7nm金属间距32.5nm优于Intel 18A，但晶体管密度落后38%，制裁下的追赶仍在继续。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "中国内存品牌转向国产CXMT和YMTC芯片",
-      "url": "https://www.tomshardware.com/pc-components/ram/chinese-memory-vendors-snub-industry-giants-in-favor-of-homegrown-ram-chips-samsung-micron-and-sk-hynix-face-a-chinese-supply-chain-revolt",
-      "source": "Tom's Hardware",
-      "one_liner": "Gloway和KingBank等中国内存品牌开始使用国产DDR5芯片，Corsair、HP、Dell已采用，供应链去美化加速。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "零售SSD市场几乎消失，NAND被AI数据中心吞噬",
-      "url": "https://www.tomshardware.com/pc-components/ssds/the-retail-ssd-market-has-almost-disappeared-says-silicon-motion-exec-pc-oems-are-buying-third-party-drives-as-direct-nand-supply-dries-up",
-      "source": "Tom's Hardware",
-      "one_liner": "Silicon Motion高管警告零售SSD市场几乎消失，NAND厂商优先供应AI数据中心，2027年短缺将更严重。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google推出Gemini驱动的Home Speaker，售价$99.99",
-      "url": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/",
-      "source": "TechCrunch",
-      "one_liner": "Google Home Speaker用Gemini替代传统语音助手，支持自然对话，6月25日发货，但音频质量一般。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Midjourney发布首款硬件产品：全身体超声扫描仪",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
-      "source": "The Verge",
-      "one_liner": "Midjourney CEO展示首款硬件——AI超声扫描仪，并计划在旧金山建SPA，从生成猫图跨界到医疗。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Snap发布$2,195 AR眼镜Specs，股价下跌",
-      "url": "https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/",
-      "source": "TechCrunch",
-      "one_liner": "Snap推出12年研发的AR眼镜Specs，售价$2,195，市场反应冷淡，股价下跌。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "SpaceX上市三天散户净买入3.7亿美元，超科技七巨头总和",
-      "url": "https://wallstreetcn.com/articles/3774996",
-      "source": "华尔街见闻",
-      "one_liner": "SpaceX上市后散户净买入3.7亿美元，超过苹果、微软、英伟达等七巨头同期总和，吸金力惊人。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "特朗普宣布苹果与英特尔合作在美国生产芯片",
-      "url": "https://wallstreetcn.com/articles/3774995",
-      "source": "华尔街见闻",
-      "one_liner": "特朗普亲自宣布苹果与英特尔合作在美国设计和制造芯片，苹果分散对台积电依赖，英特尔获顶级客户背书。"
-    },
-    {
-      "domain": "股票",
-      "title": "美联储新主席沃什首秀：鹰派信号震动市场",
-      "url": "https://wallstreetcn.com/articles/3775003",
-      "source": "华尔街见闻",
-      "one_liner": "沃什以史上最短FOMC声明完成首秀，拒填点阵图、设立五大改革工作组，美元录年内最大单日涨幅。"
-    },
-    {
-      "domain": "股票",
-      "title": "全球央行集体加息：欧日齐步，美联储秋季紧缩风险骤升",
-      "url": "https://wallstreetcn.com/articles/3774999",
-      "source": "华尔街见闻",
-      "one_liner": "欧洲央行近两年首度加息，日本利率升至30年高位，高盛警告美联储秋季或连续加息2-3次。"
-    },
-    {
-      "domain": "股票",
-      "title": "72家A股公司连夜提示风险，概念炒作降温",
-      "url": "https://wallstreetcn.com/articles/3774997",
-      "source": "华尔街见闻",
-      "one_liner": "6月17日晚72家A股公司集中发布风险提示，涉及大量热门概念股，监管层警示概念炒作风险。"
+      "domain": "AI",
+      "title": "SpaceX宣布以600亿美元收购Cursor",
+      "url": "http://www.bilibili.com/video/av116762880247152",
+      "source": "橘鸦Juya",
+      "one_liner": "AI编程工具Cursor被SpaceX高价收购，但消息来源为B站AI早报，需核实权威性。"
     },
     {
       "domain": "AI",
-      "title": "10分钟+300个Agent：保姆级教程学会Agent Skills",
-      "url": "http://www.bilibili.com/video/av116758736279146",
-      "source": "Work-Fisher",
-      "one_liner": "从零到一教你创建Agent Skill，覆盖国内外工具，适合想构建个人Agent生态的开发者。"
+      "title": "智谱发布GLM-5.2，FrontierSWE得分74.4%接近Opus 4.8",
+      "url": "https://wallstreetcn.com/articles/3775064",
+      "source": "华尔街见闻",
+      "one_liner": "国产开源模型追赶Fable级别，马斯克预测中国明年Q1达到，智谱CEO称更快。"
     },
     {
       "domain": "AI",
-      "title": "快手P9专家讲解Structured Vibe Coding系统实战",
-      "url": "http://www.bilibili.com/video/av116731490081424",
-      "source": "印客学院",
-      "one_liner": "从Karpathy原始定义到四大工具品类全景图，30分钟Live Demo用Cursor构建项目，有工程细节。"
+      "title": "Snap分拆AI视频团队成立新公司Dotmo",
+      "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
+      "source": "TechCrunch",
+      "one_liner": "Snap因成本压力将AI视频团队独立，反映大厂AI投入的盈利压力。"
+    },
+    {
+      "domain": "AI",
+      "title": "OpenAI IPO前引入Transformer共同发明人Noam Shazeer和前特朗普AI政策官员",
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "source": "TechCrunch",
+      "one_liner": "OpenAI为IPO储备人才，技术+政策双线布局。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "苹果CEO库克警告AI驱动价格上涨不可避免",
+      "url": "https://www.tomshardware.com/laptops/apple-ceo-tim-cook-warns-ai-driven-price-increases-are-unavoidable-says-company-is-trying-its-best-but-the-situation-has-become-unsustainable",
+      "source": "Tom's Hardware",
+      "one_liner": "DRAM和NAND涨价传导至终端，AI硬件成本上升趋势确认。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "特朗普称苹果已同意与英特尔合作在美国制造芯片",
+      "url": "https://www.tomshardware.com/tech-industry/trump-says-apple-agreed-to-build-chips-with-intel",
+      "source": "Tom's Hardware",
+      "one_liner": "政治声明未获双方确认，但英特尔股价大涨，关注后续进展。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "AMD下一代Threadripper 'Mustang Peak'曝光：支持DDR5、PCIe 6.0、新插槽",
+      "url": "https://www.tomshardware.com/pc-components/cpus/first-official-details-of-amds-next-gen-mustang-peak-threadripper-cpus-come-into-view-chips-feature-ddr5-pcie-6-0-and-a-new-socket",
+      "source": "Tom's Hardware",
+      "one_liner": "Zen 6架构Threadripper细节流出，工作站和本地AI部署的新选择。"
+    },
+    {
+      "domain": "股票",
+      "title": "埃森哲股价暴跌18%创近十年新低：AI冲击与中东动荡双重施压",
+      "url": "https://wallstreetcn.com/articles/3775063",
+      "source": "华尔街见闻",
+      "one_liner": "咨询巨头受AI替代担忧和地缘风险冲击，反映传统服务模式的脆弱性。"
+    },
+    {
+      "domain": "股票",
+      "title": "日元跌至161近40年低位，日本财长重申将采取大胆行动",
+      "url": "https://wallstreetcn.com/articles/3775080",
+      "source": "华尔街见闻",
+      "one_liner": "美日利差持续施压日元，干预效果有限，关注7月加息预期。"
+    },
+    {
+      "domain": "股票",
+      "title": "SpaceX上市一周涨37%，市销率39倍超越所有标普500成分股",
+      "url": "https://wallstreetcn.com/articles/3775062",
+      "source": "华尔街见闻",
+      "one_liner": "SpaceX估值2.4万亿美元，分析师目标价分歧悬殊，注意泡沫风险。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "亚马逊计划直接销售AI芯片挑战Nvidia",
+      "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+      "source": "TechCrunch",
+      "one_liner": "AWS拟向第三方数据中心出售Trainium芯片，CEO称500亿美元机会。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "FERC为AI数据中心提供并网快速通道",
+      "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
+      "source": "TechCrunch",
+      "one_liner": "美国监管机构加速数据中心并网，但未解决电力供应短缺问题。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Bernie Sanders提出7万亿美元计划让美国民众控制AI产业",
+      "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry/",
+      "source": "Ars Technica",
+      "one_liner": "激进政策提案，反映AI产业集中化引发的政治反弹。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Baseten据报以130亿美元估值融资15亿美元",
+      "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "source": "TechCrunch",
+      "one_liner": "AI推理基础设施持续吸引巨额资本，'推理淘金热'持续。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-18T09:19:40+0000"
+    "scored_at": "2026-06-19T09:01:03+0000"
   }
 }
