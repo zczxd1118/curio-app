@@ -2,61 +2,61 @@
 
 > 今日 2 条头条 + 3 条备选
 
-_今日核心信号：美国对Anthropic Fable 5模型实施出口禁令，全球AI供应链面临断裂风险；同时DeepSeek完成510亿元融资引入腾讯、宁德时代等战略股东，中国AI自主化加速。半导体领域，英特尔CEO陈立武提出5-10年10倍回报目标，押注先进封装与新材料。_
+_今日信号：美国对Anthropic Fable 5模型实施出口禁令，全球AI供应链面临割裂；英特尔CEO陈立武提出5-10年10倍回报目标，押注先进封装与新材料。同时，DeepSeek完成510亿元融资，中国大模型追赶速度超预期。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. 美国对Anthropic Fable 5模型实施出口禁令，全球盟友紧急应对
+### 2. 英特尔CEO陈立武首度播客：5-10年10倍回报，押注先进封装与玻璃基板
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-特朗普政府突然封锁Anthropic的Mythos 5和Fable 5模型出口，欧洲和加拿大领导人警告此举将迫使盟友自主开发前沿AI。这是美国首次对AI模型本身实施出口管制，而非仅限制芯片。
+陈立武在播客中详细阐述英特尔复兴计划：EMIB先进封装、玻璃基板、合成钻石散热材料，以及为马斯克建造Terafab项目。智能体AI爆发带动CPU需求回升，代工业务聚焦良率与信任。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 美国商务部将Anthropic的Fable 5和Mythos 5模型列入出口管制清单 | 禁令是否适用于已部署的API接口尚不明确 |
-| 欧洲和加拿大领导人公开表达担忧，称可能被迫自研替代模型 | 盟友自研替代模型的时间表和可行性存疑 |
-| Anthropic尚未公开回应，但内部消息称正在评估合规方案 | Anthropic是否会通过海外子公司规避管制仍待观察 |
-| 此举被视为美国AI霸权政策的升级，从硬件扩展到软件层 | 此举可能加速全球AI模型生态的分裂 |
+| 陈立武设定5-10年实现10倍回报的目标 | 10倍回报目标能否实现取决于代工客户获取和良率提升 |
+| 英特尔发力EMIB先进封装、玻璃基板及合成钻石新材料 | 玻璃基板和合成钻石技术量产时间表未明确 |
+| 智能体AI爆发正带动CPU需求强劲回升 | Terafab项目的具体投资规模和合作细节尚未披露 |
+| 与马斯克共建Terafab项目，预计2030年后潜力全面显现 | 英特尔能否在先进制程上追赶台积电仍存疑 |
 
 **📖 主编点评**
 
-如果你正在做Agent项目依赖Anthropic模型，建议评估替代方案（如DeepSeek、开源模型）。同时关注Fable 5的API是否还能正常调用——出口禁令可能影响你正在使用的服务。这是AI地缘政治的关键转折点，值得持续跟踪。
+如果你是AI工程实践者，英特尔在先进封装和散热上的突破可能影响你未来的硬件选型。关注EMIB和玻璃基板进展，它们可能改变AI推理服务器的成本和性能格局。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/us-pulls-the-kill-switch-on-anthropics-fable-5-ai-models-sending-global-allies-scrambling-european-and-canadian-leaders-alarm-allies-over-sudden-export-bans)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/intels-fab-roadmap-examined)
 
 ---
 
-### 3. 英特尔CEO陈立武首谈复兴计划：5-10年10倍回报，押注先进封装、玻璃基板与人工钻石
+### 4. Nvidia展示AI机器人自学安装GPU：高精度任务自主完成
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _华尔街见闻_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
 
-英特尔CEO陈立武在播客访谈中设定5至10年实现10倍回报的目标，通过EMIB先进封装、玻璃基板及合成钻石等新材料重构技术路线图。智能体AI爆发带动CPU需求回升，代工业务聚焦良率与信任，并与马斯克共建Terafab项目。
+Nvidia发布视频展示其AI机器人通过自我学习完成高精度任务——将GPU安装到主板上。机器人无需人工编程，通过强化学习自主掌握插拔、对准等精细操作。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 陈立武设定5-10年10倍回报的财务目标 | 10倍回报目标是否过于激进，市场反应待观察 |
-| 重点投入EMIB先进封装、玻璃基板和合成钻石技术 | 玻璃基板和合成钻石技术量产时间表未明确 |
-| 智能体AI爆发带动CPU需求强劲回升 | 代工业务能否获得足够客户信任仍是挑战 |
-| 与马斯克合作建设Terafab项目，预计2030年后释放潜力 | Terafab项目的具体投资规模和合作模式尚未披露 |
+| Nvidia展示机器人自主安装GPU到主板的视频 | 机器人是否已进入量产阶段未知 |
+| 机器人通过自我学习掌握高精度任务 | 安装成功率未公开 |
+| 采用强化学习而非传统编程方式 | 对其他电子装配任务的泛化能力待验证 |
+| 任务包括插拔、对准等精细操作 | Nvidia是否计划将技术用于自有工厂未说明 |
 
 **📖 主编点评**
 
-英特尔的转型路线图对你做AI基础设施选型有参考价值。如果考虑本地部署推理，英特尔CPU+先进封装方案可能在能效上带来优势。玻璃基板技术若成功，将改变芯片散热格局，影响你未来搭建本地AI服务器的硬件选择。
+如果你关注AI Agent在物理世界的应用，这是具身智能的重要进展。未来AI Agent不仅写代码，还能操作硬件。你可以思考如何将类似的强化学习思路融入你的Agent项目。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3775077)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-reveals-ai-robots-that-taught-themselves-to-install-gpus-into-motherboards-video-shows-robot-solve-high-precision-tasks-like-installing-gpus-all-by-itself)
 
 ---
 
 ## 📋 备选阅读
 
-- [苹果CEO库克警告AI驱动价格上涨不可避免](https://www.tomshardware.com/laptops/apple-ceo-tim-cook-warns-ai-driven-price-increases-are-unavoidable-says-company-is-trying-its-best-but-the-situation-has-become-unsustainable) —— DRAM和NAND涨价传导至终端，AI硬件成本上升趋势确认。
+- [Ditching the cloud for local AI: 用两台迷你PC每天处理百万token](https://www.tomshardware.com/tech-industry/artificial-intelligence/ditching-the-cloud-for-local-ai-how-i-use-two-mini-pcs-to-process-millions-of-tokens-a-day-and-save-money-on-costly-api-fees) —— 实测本地推理替代API，成本大幅降低，适合个人项目。
   _Tom's Hardware_
-- [特朗普称苹果已同意与英特尔合作在美国制造芯片](https://www.tomshardware.com/tech-industry/trump-says-apple-agreed-to-build-chips-with-intel) —— 政治声明未获双方确认，但英特尔股价大涨，关注后续进展。
-  _Tom's Hardware_
-- [AMD下一代Threadripper 'Mustang Peak'曝光：支持DDR5、PCIe 6.0、新插槽](https://www.tomshardware.com/pc-components/cpus/first-official-details-of-amds-next-gen-mustang-peak-threadripper-cpus-come-into-view-chips-feature-ddr5-pcie-6-0-and-a-new-socket) —— Zen 6架构Threadripper细节流出，工作站和本地AI部署的新选择。
+- [SpaceX上市一周涨37%，市销率39倍超越所有标普500成分股](https://wallstreetcn.com/articles/3775062) —— SpaceX IPO后市值2.4万亿美元，分析师目标价分歧悬殊。
+  _华尔街见闻_
+- [Trump称苹果同意与Intel合作造芯片，双方未确认](https://www.tomshardware.com/tech-industry/trump-says-apple-agreed-to-build-chips-with-intel) —— 政治声明引发Intel股价飙升，但苹果和Intel均未证实。
   _Tom's Hardware_
 
 ---

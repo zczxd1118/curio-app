@@ -2,43 +2,43 @@
 
 > 今日 1 条头条 + 4 条备选
 
-_今日核心信号：美国对Anthropic Fable 5模型实施出口禁令，全球AI供应链面临断裂风险；同时DeepSeek完成510亿元融资引入腾讯、宁德时代等战略股东，中国AI自主化加速。半导体领域，英特尔CEO陈立武提出5-10年10倍回报目标，押注先进封装与新材料。_
+_今日信号：美国对Anthropic Fable 5模型实施出口禁令，全球AI供应链面临割裂；英特尔CEO陈立武提出5-10年10倍回报目标，押注先进封装与新材料。同时，DeepSeek完成510亿元融资，中国大模型追赶速度超预期。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. Claude Code推出'超码'功能：操控100个Agent并行开发，解决大型任务跑不完的痛点
+### 1. 美国对Anthropic Fable 5模型按下“杀毒开关”，欧洲加拿大盟友紧急应对
 
-**[AI]** · ⭐⭐⭐⭐ · _技术胖_
+**[AI]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-Claude Code新功能'Ultracode'允许用户同时调度100个Agent并行开发，解决大型项目一次性跑不完的问题。技术胖的保姆级教程详细演示了配置和使用方法，适合Vibe Coding进阶用户。
+特朗普政府突然禁止Anthropic的Mythos 5和Fable 5模型出口，盟友担忧无法获取前沿模型，可能被迫自研。这是美国首次对AI模型本身实施出口管制，而非仅限制芯片。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Claude Code新增Ultracode功能，支持100个Agent并行 | 100个Agent并行是否会导致资源竞争和效率下降 |
-| 该功能解决大型任务因上下文限制而中断的问题 | 该功能是否仅限Claude Code Pro用户使用 |
-| 技术胖发布了完整的保姆级实战教程 | 并行Agent之间的协调机制和冲突解决策略未公开 |
-| 教程包含文字版，方便查阅和复现 | 实际效果是否如演示般流畅需自行测试 |
+| 美国政府对Anthropic的Fable 5和Mythos 5模型实施出口禁令 | 禁令是否会扩展到其他前沿模型（如OpenAI的GPT-5）尚不明朗 |
+| 欧洲和加拿大领导人对此表示震惊，认为可能被迫自研替代模型 | 盟友自研替代模型的能力和时间表不确定 |
+| 这是美国首次直接限制AI模型出口，而非仅限制硬件 | Anthropic是否会通过法律途径挑战禁令未知 |
+| 禁令立即生效，影响全球AI开发者生态 | 对全球AI开源社区的影响程度有待观察 |
 
 **📖 主编点评**
 
-如果你正在用Claude Code做大型项目（如content-curator），Ultracode可以大幅提升效率。建议先看技术胖的教程，重点理解并行任务的拆分策略。但注意成本——100个Agent并行可能快速消耗API额度。
+你正在做的content-curator项目如果依赖海外模型API，需要提前考虑合规风险。建议关注国产模型（如GLM-5.2）的替代方案，同时留意政策动向，避免项目被供应链中断影响。
 
-📺 [打开原文](http://www.bilibili.com/video/av116697163896598)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/us-pulls-the-kill-switch-on-anthropics-fable-5-ai-models-sending-global-allies-scrambling-european-and-canadian-leaders-alarm-allies-over-sudden-export-bans)
 
 ---
 
 ## 📋 备选阅读
 
-- [SpaceX宣布以600亿美元收购Cursor](http://www.bilibili.com/video/av116762880247152) —— AI编程工具Cursor被SpaceX高价收购，但消息来源为B站AI早报，需核实权威性。
-  _橘鸦Juya_
-- [智谱发布GLM-5.2，FrontierSWE得分74.4%接近Opus 4.8](https://wallstreetcn.com/articles/3775064) —— 国产开源模型追赶Fable级别，马斯克预测中国明年Q1达到，智谱CEO称更快。
+- [Claude Code + DeepSeek V4 是最有性价比的个人AI Agent？](http://www.bilibili.com/video/av116732144392386) —— 实测Claude Code搭配DeepSeek V4 API，成本降低但效果接近，适合个人开发者。
+  _呱声一片_
+- [Claude Ultracode 超码上线：操控100个Agent并行开发](http://www.bilibili.com/video/av116697163896598) —— Claude Code新功能，解决大型任务一次性跑不完的问题，适合复杂项目。
+  _技术胖_
+- [10分钟+300个Agent：保姆级教程学会Agent Skills](http://www.bilibili.com/video/av116758736279146) —— 从概念到实操，手把手教你创建自己的Agent Skill，适合入门。
+  _Work-Fisher_
+- [智谱GLM-5.2开源，FrontierSWE得分74.4%逼近Opus 4.8](https://wallstreetcn.com/articles/3775064) —— 国产模型追赶速度超预期，马斯克预测中国模型明年Q1达到Fable级别。
   _华尔街见闻_
-- [Snap分拆AI视频团队成立新公司Dotmo](https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/) —— Snap因成本压力将AI视频团队独立，反映大厂AI投入的盈利压力。
-  _TechCrunch_
-- [OpenAI IPO前引入Transformer共同发明人Noam Shazeer和前特朗普AI政策官员](https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/) —— OpenAI为IPO储备人才，技术+政策双线布局。
-  _TechCrunch_
 
 ---
 
