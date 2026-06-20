@@ -1,208 +1,232 @@
 {
-  "date": "2026-06-19",
-  "intro": "今日信号：美国对Anthropic Fable 5模型实施出口禁令，全球AI供应链面临割裂；英特尔CEO陈立武提出5-10年10倍回报目标，押注先进封装与新材料。同时，DeepSeek完成510亿元融资，中国大模型追赶速度超预期。",
+  "date": "2026-06-20",
+  "intro": "今天最关键的信号是：Anthropic 的 Mythos 出口管制事件持续发酵，SK Telecom 被点名，特朗普态度摇摆；同时，谷歌微软联手推出 ARD 协议围堵 Anthropic 和 OpenAI，企业 AI 生态主导权争夺白热化。半导体方面，imec/ASML/TSMC 在 2D 晶体管上取得突破，英特尔挖来前 SK 海力士 CEO 重整封装业务。金融端，德银转向鹰派，预计今年加息 50 基点，AI 算力成本数据曝光——1GW Vera Rubin 数据中心年电力成本 13 亿美元。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/us-pulls-the-kill-switch-on-anthropics-fable-5-ai-models-sending-global-allies-scrambling-european-and-canadian-leaders-alarm-allies-over-sudden-export-bans",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-pulls-the-kill-switch-on-anthropics-fable-5-ai-models-sending-global-allies-scrambling-european-and-canadian-leaders-alarm-allies-over-sudden-export-bans",
+      "domain": "大厂讯息",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls",
       "source": "Tom's Hardware",
       "stars": 5,
-      "title": "美国对Anthropic Fable 5模型按下“杀毒开关”，欧洲加拿大盟友紧急应对",
-      "lead": "特朗普政府突然禁止Anthropic的Mythos 5和Fable 5模型出口，盟友担忧无法获取前沿模型，可能被迫自研。这是美国首次对AI模型本身实施出口管制，而非仅限制芯片。",
+      "title": "SK Telecom 被指为 Anthropic Mythos 出口管制事件核心，白宫下令切断其访问权限",
+      "lead": "Wired 确认 SK Telecom 就是被白宫要求切断 Anthropic Claude Mythos 模型访问的韩国运营商。此前 Anthropic 被美国政府要求将 Fable 5 和 Mythos 5 下线，理由是国家安全——Amazon 研究人员称这些模型可能被用于网络攻击。特朗普态度摇摆，一周前视 Anthropic 为威胁，现在又说“不是”。",
       "confirmed": [
-        "美国政府对Anthropic的Fable 5和Mythos 5模型实施出口禁令",
-        "欧洲和加拿大领导人对此表示震惊，认为可能被迫自研替代模型",
-        "这是美国首次直接限制AI模型出口，而非仅限制硬件",
-        "禁令立即生效，影响全球AI开发者生态"
+        "Wired 确认 SK Telecom 是涉事韩国运营商",
+        "白宫以国家安全为由下令切断 SK Telecom 对 Mythos 的访问",
+        "Anthropic 的 Fable 5 和 Mythos 5 已被下线",
+        "特朗普称 Anthropic 现在不是威胁，但一周前是"
       ],
       "judgment": [
-        "禁令是否会扩展到其他前沿模型（如OpenAI的GPT-5）尚不明朗",
-        "盟友自研替代模型的能力和时间表不确定",
-        "Anthropic是否会通过法律途径挑战禁令未知",
-        "对全球AI开源社区的影响程度有待观察"
+        "Mythos 是否真的被用于攻击性网络行动？",
+        "出口管制能否真正阻止技术扩散？历史证明效果有限",
+        "Anthropic 与政府的关系将如何演变？",
+        "其他外国运营商是否会受到类似限制？"
       ],
-      "implication": "你正在做的content-curator项目如果依赖海外模型API，需要提前考虑合规风险。建议关注国产模型（如GLM-5.2）的替代方案，同时留意政策动向，避免项目被供应链中断影响。"
+      "implication": "你正在做 content-curator Agent，Mythos 事件说明 AI 安全模型可能成为地缘政治工具。建议关注 Anthropic 后续的合规调整，以及类似出口管制对 AI 开源生态的影响——你的 Agent 如果依赖海外模型，需要评估供应链风险。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/intels-fab-roadmap-examined",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intels-fab-roadmap-examined",
-      "source": "Tom's Hardware",
+      "domain": "大厂讯息",
+      "id": "wscn:3775088",
+      "title": "谷歌微软联手推 ARD 协议，用标准战围堵 Anthropic 和 OpenAI 的企业 AI 入口",
+      "url": "https://wallstreetcn.com/articles/3775088",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "英特尔CEO陈立武首度播客：5-10年10倍回报，押注先进封装与玻璃基板",
-      "lead": "陈立武在播客中详细阐述英特尔复兴计划：EMIB先进封装、玻璃基板、合成钻石散热材料，以及为马斯克建造Terafab项目。智能体AI爆发带动CPU需求回升，代工业务聚焦良率与信任。",
+      "lead": "谷歌、微软等传统巨头联合推出“代理资源发现”（ARD）协议，旨在将自身产品打造为企业 AI 的统一入口。这与 Anthropic 和 OpenAI 试图将 Claude/ChatGPT 做成独立主入口的战略直接冲突。企业 AI 生态的主导权争夺进入新阶段。",
       "confirmed": [
-        "陈立武设定5-10年实现10倍回报的目标",
-        "英特尔发力EMIB先进封装、玻璃基板及合成钻石新材料",
-        "智能体AI爆发正带动CPU需求强劲回升",
-        "与马斯克共建Terafab项目，预计2030年后潜力全面显现"
+        "谷歌、微软等联合推出 ARD 协议",
+        "ARD 旨在让企业通过传统巨头的平台统一管理 AI 代理",
+        "Anthropic 和 OpenAI 正推动 Claude/ChatGPT 成为独立入口",
+        "双方在企业 AI 生态上形成直接竞争"
       ],
       "judgment": [
-        "10倍回报目标能否实现取决于代工客户获取和良率提升",
-        "玻璃基板和合成钻石技术量产时间表未明确",
-        "Terafab项目的具体投资规模和合作细节尚未披露",
-        "英特尔能否在先进制程上追赶台积电仍存疑"
+        "ARD 能否被广泛采纳？需要看第三方开发者和企业客户的态度",
+        "Anthropic 和 OpenAI 是否会推出自己的替代标准？",
+        "企业客户更倾向于单一入口还是多模型混用？",
+        "标准战是否会延缓企业 AI 落地？"
       ],
-      "implication": "如果你是AI工程实践者，英特尔在先进封装和散热上的突破可能影响你未来的硬件选型。关注EMIB和玻璃基板进展，它们可能改变AI推理服务器的成本和性能格局。"
+      "implication": "你在做 Agent 项目，这个协议直接影响你未来如何集成 AI 能力。如果 ARD 成为标准，你的 Agent 可能需要兼容谷歌/微软的生态；如果 Anthropic/OpenAI 胜出，则可以直接调用。建议先观望，但保持对 MCP 和 ARD 两种协议的关注。"
     },
     {
       "rank": 3,
-      "domain": "股票",
-      "title": "DeepSeek融资510亿元，腾讯、宁德时代、网易、京东参投，梁文锋选资方重产业协同",
-      "lead": "DeepSeek完成510亿元融资，投资方包括腾讯、宁德时代、网易、京东。国资分析人士指出，梁文锋选择资方更看重产业协同而非单纯资金。此次开放融资或源于DeepSeek意识到仅靠自有资金难跟上全球AI算力军备竞赛。",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/imec-asml-and-tsmc-build-complementary-2d-material-transistors-at-50nm-pitch-on-a-300mm-wafer",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/imec-asml-and-tsmc-build-complementary-2d-material-transistors-at-50nm-pitch-on-a-300mm-wafer",
+      "source": "Tom's Hardware",
+      "stars": 5,
+      "title": "imec/ASML/TSMC 在 300mm 晶圆上造出 50nm 间距 2D 晶体管，后硅时代逼近",
+      "lead": "imec、ASML 和 TSMC 首次在 300mm 晶圆上集成了 n 型和 p 型 2D 材料晶体管，间距 50nm。这标志着 2D 材料从实验室走向量产的关键一步，为超越硅基晶体管的未来铺路。",
       "confirmed": [
-        "DeepSeek完成510亿元融资",
-        "投资方包括腾讯、宁德时代、网易、京东",
-        "梁文锋选资方更重产业协同",
-        "融资目的为扩大资本开支以跟上全球AI算力竞赛"
+        "在 300mm 晶圆上成功集成互补 2D 晶体管",
+        "晶体管间距为 50nm",
+        "参与方包括 imec、ASML 和 TSMC",
+        "2D 材料被认为是后硅时代的关键候选"
       ],
       "judgment": [
-        "融资后DeepSeek的估值未公开",
-        "产业协同的具体合作方向尚未披露",
-        "是否会影响DeepSeek的开源策略不确定",
-        "其他潜在投资方（如阿里、字节）为何未参与未知"
+        "50nm 间距距离量产仍有距离，良率和成本未知",
+        "2D 晶体管能否在性能上超越 FinFET/GAA？",
+        "量产时间表可能在 2030 年后",
+        "对现有半导体设备市场的影响尚不明确"
       ],
-      "implication": "DeepSeek的融资结构表明中国AI竞争进入产业协同阶段。你如果做Agent项目，可以关注DeepSeek与腾讯、京东的生态整合机会，可能获得更好的API或模型支持。",
-      "id": "wscn:3775067",
-      "url": "https://wallstreetcn.com/articles/3775067",
-      "source": "华尔街见闻"
+      "implication": "虽然离你的项目很远，但作为电子信息工程学生，这是你应该知道的行业前沿。2D 材料可能改变未来芯片设计范式，建议关注 imec 的后续进展，这对理解半导体路线图有帮助。"
     },
     {
       "rank": 4,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-reveals-ai-robots-that-taught-themselves-to-install-gpus-into-motherboards-video-shows-robot-solve-high-precision-tasks-like-installing-gpus-all-by-itself",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-reveals-ai-robots-that-taught-themselves-to-install-gpus-into-motherboards-video-shows-robot-solve-high-precision-tasks-like-installing-gpus-all-by-itself",
-      "source": "Tom's Hardware",
+      "domain": "股票",
+      "id": "wscn:3775110",
+      "url": "https://wallstreetcn.com/articles/3775110",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "Nvidia展示AI机器人自学安装GPU：高精度任务自主完成",
-      "lead": "Nvidia发布视频展示其AI机器人通过自我学习完成高精度任务——将GPU安装到主板上。机器人无需人工编程，通过强化学习自主掌握插拔、对准等精细操作。",
+      "title": "德银转向鹰派：预计今年加息 50 基点，7 月可能提前行动",
+      "lead": "德银彻底扭转宽松预期，全面上调通胀预测，预计今年加息两次共 50 基点，利率升至 4.1%，甚至不排除 7 月提前加息 75 基点。触发因素是美联储新主席沃什的鹰派表态和通胀压力广泛持续。",
       "confirmed": [
-        "Nvidia展示机器人自主安装GPU到主板的视频",
-        "机器人通过自我学习掌握高精度任务",
-        "采用强化学习而非传统编程方式",
-        "任务包括插拔、对准等精细操作"
+        "德银预计今年加息 50 基点",
+        "7 月可能提前加息",
+        "利率目标上调至 4.1%",
+        "沃什鹰派表态是触发因素"
       ],
       "judgment": [
-        "机器人是否已进入量产阶段未知",
-        "安装成功率未公开",
-        "对其他电子装配任务的泛化能力待验证",
-        "Nvidia是否计划将技术用于自有工厂未说明"
+        "市场是否已充分定价加息？",
+        "加息对 AI 等成长股估值的影响",
+        "沃什的 AI 生产率叙事能否延缓加息？",
+        "其他投行是否会跟进德银的预测？"
       ],
-      "implication": "如果你关注AI Agent在物理世界的应用，这是具身智能的重要进展。未来AI Agent不仅写代码，还能操作硬件。你可以思考如何将类似的强化学习思路融入你的Agent项目。"
+      "implication": "加息预期直接影响科技股估值和融资环境。你在做 Agent 项目，如果融资变难，可能需要更注重成本控制。同时，加息可能压制 AI 概念股的短期表现，但长期看，生产率提升的故事仍在。"
+    },
+    {
+      "rank": 5,
+      "domain": "AI 算力 / 半导体",
+      "id": "wscn:3775108",
+      "url": "https://wallstreetcn.com/articles/3775108",
+      "source": "华尔街见闻",
+      "stars": 4,
+      "title": "鸿海董事长：1GW Vera Rubin 数据中心资本开支 470 亿美元，年电力成本 13 亿美元",
+      "lead": "刘扬伟在公开场合披露了 AI 数据中心的惊人成本：1GW 规模的 Vera Rubin 数据中心，资本开支 470 亿美元，年电力成本 13 亿美元，硬件折旧每年 78 亿美元。他预计 2030 年全球算力将新增 106GW 电力需求。",
+      "confirmed": [
+        "1GW Vera Rubin 数据中心资本开支 470 亿美元",
+        "年电力成本 13 亿美元",
+        "年折旧约 78 亿美元",
+        "刘扬伟预计 2030 年全球新增 106GW 算力电力需求"
+      ],
+      "judgment": [
+        "这些数字是否包含全部隐性成本？",
+        "如此高的成本是否会抑制 AI 投资？",
+        "能源效率改进能否降低长期成本？",
+        "对 NVIDIA 等硬件厂商的定价能力意味着什么？"
+      ],
+      "implication": "这些数字让你理解为什么 AI 公司都在自研芯片和优化推理成本。你的 Agent 项目如果依赖云端 API，需要考虑成本结构——未来推理成本可能下降，但训练成本依然高昂。建议关注边缘推理和模型压缩技术。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI",
-      "title": "Claude Code + DeepSeek V4 是最有性价比的个人AI Agent？",
-      "url": "http://www.bilibili.com/video/av116732144392386",
-      "source": "呱声一片",
-      "one_liner": "实测Claude Code搭配DeepSeek V4 API，成本降低但效果接近，适合个人开发者。"
-    },
-    {
-      "domain": "AI",
-      "title": "Claude Ultracode 超码上线：操控100个Agent并行开发",
-      "url": "http://www.bilibili.com/video/av116697163896598",
-      "source": "技术胖",
-      "one_liner": "Claude Code新功能，解决大型任务一次性跑不完的问题，适合复杂项目。"
-    },
-    {
-      "domain": "AI",
-      "title": "10分钟+300个Agent：保姆级教程学会Agent Skills",
-      "url": "http://www.bilibili.com/video/av116758736279146",
-      "source": "Work-Fisher",
-      "one_liner": "从概念到实操，手把手教你创建自己的Agent Skill，适合入门。"
-    },
-    {
-      "domain": "AI",
-      "title": "智谱GLM-5.2开源，FrontierSWE得分74.4%逼近Opus 4.8",
-      "url": "https://wallstreetcn.com/articles/3775064",
-      "source": "华尔街见闻",
-      "one_liner": "国产模型追赶速度超预期，马斯克预测中国模型明年Q1达到Fable级别。"
-    },
-    {
       "domain": "AI 算力 / 半导体",
-      "title": "Ditching the cloud for local AI: 用两台迷你PC每天处理百万token",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ditching-the-cloud-for-local-ai-how-i-use-two-mini-pcs-to-process-millions-of-tokens-a-day-and-save-money-on-costly-api-fees",
-      "source": "Tom's Hardware",
-      "one_liner": "实测本地推理替代API，成本大幅降低，适合个人项目。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "SpaceX上市一周涨37%，市销率39倍超越所有标普500成分股",
-      "url": "https://wallstreetcn.com/articles/3775062",
-      "source": "华尔街见闻",
-      "one_liner": "SpaceX IPO后市值2.4万亿美元，分析师目标价分歧悬殊。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Trump称苹果同意与Intel合作造芯片，双方未确认",
-      "url": "https://www.tomshardware.com/tech-industry/trump-says-apple-agreed-to-build-chips-with-intel",
-      "source": "Tom's Hardware",
-      "one_liner": "政治声明引发Intel股价飙升，但苹果和Intel均未证实。"
-    },
-    {
-      "domain": "股票",
-      "title": "埃森哲股价暴跌18%创近十年新低，AI冲击与中东动荡双重施压",
-      "url": "https://wallstreetcn.com/articles/3775063",
-      "source": "华尔街见闻",
-      "one_liner": "AI工具快速演进引发对咨询业商业模式的深度质疑。"
-    },
-    {
-      "domain": "股票",
-      "title": "日元跌至161近40年低位，财长重申将采取大胆行动",
-      "url": "https://wallstreetcn.com/articles/3775080",
-      "source": "华尔街见闻",
-      "one_liner": "美日高利差与套利交易持续施压，干预效果有限。"
-    },
-    {
-      "domain": "股票",
-      "title": "Kalshi年化营收突破20亿美元，已与投行初步接洽IPO",
-      "url": "https://wallstreetcn.com/articles/3775082",
-      "source": "华尔街见闻",
-      "one_liner": "预测市场平台增长迅猛，但面临监管诉讼和高管空缺挑战。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "OpenAI IPO前引入重磅人物：Transformer共同发明人Noam Shazeer",
-      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
-      "source": "TechCrunch",
-      "one_liner": "OpenAI为IPO做准备，同时招揽前特朗普AI政策官员Dean Ball。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Amazon计划直接销售AI芯片挑战Nvidia，CEO称5000亿美元机会",
+      "title": "Amazon 开始对外销售 AI 芯片，挑战 NVIDIA",
       "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
       "source": "TechCrunch",
-      "one_liner": "AWS拟向其他数据中心销售Trainium芯片，与Nvidia正面竞争。"
+      "one_liner": "AWS 计划向其他数据中心出售 Trainium 芯片，CEO 称这是 500 亿美元机会，但挑战 NVIDIA 的 CUDA 生态壁垒极高。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "Snap分拆AI视频团队为新公司Dotmo，因成本过高",
+      "domain": "AI 算力 / 半导体",
+      "title": "英特尔任命前 SK 海力士 CEO 领导封装业务，股价大涨 10%",
+      "url": "https://wallstreetcn.com/articles/3775097",
+      "source": "华尔街见闻",
+      "one_liner": "英特尔加速代工转型，先进封装成为独立业务板块，苹果同日确认合作，双重利好推动股价创历史新高。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "ASML 否认 EUV 光刻机已运往中国，美国商务部表示担忧",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-denies-us-government-report-that-its-euv-chipmaking-tool-was-shipped-to-china-says-rumors-are-inaccurate-and-damaging-to-our-reputation",
+      "source": "Tom's Hardware",
+      "one_liner": "ASML 强烈否认美国政府的报告，称谣言不实且损害声誉，但美方仍担忧中国可能已获得 EUV 技术。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "AMD 将在 7 月通过 BIOS 更新恢复 Ryzen 9000 内存加密功能",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback",
+      "source": "Tom's Hardware",
+      "one_liner": "AMD 因社区反馈恢复 TSME 功能，对注重安全的开发者是利好。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "美国能源监管机构要求电网运营商加速 AI 数据中心并网",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/us-energy-regulator-to-order-grid-operators-to-expedite-ai-data-center-applications-says-projects-should-bring-their-own-power-or-cut-usage-during-high-demand",
+      "source": "Tom's Hardware",
+      "one_liner": "FERC 要求电网运营商为自带电源或可削减高峰负荷的数据中心提供快速通道，但未解决电力供应短缺的根本问题。"
+    },
+    {
+      "domain": "大厂讯息",
+      "title": "OpenAI 在 IPO 前引入 Transformer 共同发明人 Noam Shazeer 和前特朗普 AI 政策官员",
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "source": "TechCrunch",
+      "one_liner": "OpenAI 在 IPO 前加强团队，Shazeer 的加入可能加速下一代模型研发，政策官员则有助于应对监管。"
+    },
+    {
+      "domain": "大厂讯息",
+      "title": "Snap 分拆 AI 视频团队成立新公司 Dotmo",
       "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/",
       "source": "TechCrunch",
-      "one_liner": "Snap继续剥离内部AI团队，Dotmo专注AI视频开发。"
+      "one_liner": "Snap 因成本压力将内部 AI 视频团队剥离为独立公司，反映大厂在 AI 投入上的成本控制趋势。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "AI推理初创Baseten据报融资15亿美元，估值130亿",
-      "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "domain": "大厂讯息",
+      "title": "Elastic 以 8500 万美元收购 AI 调试初创公司 Deductive AI",
+      "url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
       "source": "TechCrunch",
-      "one_liner": "推理需求爆发，Baseten数月内再获巨额融资。"
+      "one_liner": "Elastic 收购 AI 调试工具，将 AI 能力集成到其搜索和可观测性平台，对开发者工具生态有参考意义。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "Bernie Sanders提出7万亿美元计划让美国人控制AI产业",
+      "domain": "大厂讯息",
+      "title": "Bernie Sanders 提出 7 万亿美元 AI 公有化法案，特朗普支持“预分配”",
       "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry/",
       "source": "Ars Technica",
-      "one_liner": "激进政策提案，大型AI公司可能强烈反对。"
+      "one_liner": "Sanders 提案要求 AI 公司 50% 公有化并向公民发放股息，特朗普倾向预分配而非直接发钱，AI 治理成为政治焦点。"
+    },
+    {
+      "domain": "股票",
+      "title": "高盛警告：地缘动能停滞，CTA 下行风险不对称",
+      "url": "https://wallstreetcn.com/articles/3775101",
+      "source": "华尔街见闻",
+      "one_liner": "高盛交易台指出美伊核谈判受阻、油价地缘溢价未被充分定价，CTA 已形成下行不对称格局，短期风险上升。"
+    },
+    {
+      "domain": "股票",
+      "title": "德银：前沿模型与开源模型成本差距达 65 倍，可能引发 AI 市场重估",
+      "url": "https://wallstreetcn.com/articles/3775111",
+      "source": "华尔街见闻",
+      "one_liner": "Claude Fable 5 每任务成本 3.25 美元，DeepSeek V4-Pro 仅 5 美分，对 90% 任务表现相当，企业成本意识觉醒将改变定价锚点。"
+    },
+    {
+      "domain": "股票",
+      "title": "谷歌和博通学习英伟达，开启“AI 芯片融资闭环”模式",
+      "url": "https://wallstreetcn.com/articles/3775105",
+      "source": "华尔街见闻",
+      "one_liner": "谷歌以 850 亿美元融资担保撬动自研芯片销售，博通联合私募设立 350 亿美元算力平台，冲击英伟达垄断地位。"
+    },
+    {
+      "domain": "AI",
+      "title": "Claude Code 新 Workflow 功能：可召唤多个 Agent 协同开发",
+      "url": "https://www.bilibili.com/video/av116629702777532",
+      "source": "B站",
+      "one_liner": "Anthropic 为 Claude Code 添加 Workflow 功能，支持多 Agent 并行工作，对 Vibe Coding 工作流是重大升级。"
+    },
+    {
+      "domain": "AI",
+      "title": "Claude Code + DeepSeek V4 被推荐为最具性价比的个人 AI Agent 组合",
+      "url": "https://www.bilibili.com/video/av116732144392386",
+      "source": "B站",
+      "one_liner": "实测显示 Claude Code 搭配 DeepSeek V4 在成本和效果上取得平衡，适合个人开发者。"
+    },
+    {
+      "domain": "AI",
+      "title": "2026 AI Agent 深度横评：OpenClaw、Codex、Hermes 等主流工具对比",
+      "url": "https://www.bilibili.com/video/av116747361322195",
+      "source": "B站",
+      "one_liner": "视频对比了 5 款主流 AI Agent 工具，帮你避免踩坑，适合正在选型 Agent 框架的你。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-19T09:47:02+0000"
+    "scored_at": "2026-06-20T07:44:49+0000"
   }
 }
