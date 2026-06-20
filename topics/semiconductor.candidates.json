@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-06-19T08:37:33.705442+00:00",
+  "fetched_at": "2026-06-20T07:05:52.120736+00:00",
   "platforms": [
     "rss"
   ],
@@ -196,6 +196,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/defense-sends-clear-signal-to-canadian-semiconductor-industry/",
+      "title": "Defense Sends Clear Signal to Canadian Semiconductor Industry",
+      "url": "https://www.eetimes.com/defense-sends-clear-signal-to-canadian-semiconductor-industry/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T22:00:00+00:00",
+      "summary": "Canada sharpens its defense and tech edge with policies to boost homegrown chip power. The post Defense Sends Clear Signal to Canadian Semiconductor Industry appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/amazon-newest-gambit-selling-ai-chips/",
+      "title": "Amazon’s Newest Gambit: Selling AI Chips",
+      "url": "https://www.eetimes.com/amazon-newest-gambit-selling-ai-chips/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T12:19:36+00:00",
+      "summary": "The world’s largest hyperscaler wants to seize the semiconductor moment by selling AI accelerators at scale. The post Amazon’s Newest Gambit: Selling AI Chips appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/all-semiconductor-roads-lead-to-taiwan/",
       "title": "All Semiconductor Roads Lead to Taiwan",
       "url": "https://www.eetimes.com/all-semiconductor-roads-lead-to-taiwan/",
@@ -244,23 +278,6 @@
       "views": null,
       "published_at": "2026-06-18T14:00:00+00:00",
       "summary": "Building real-time physical AI applications—such as high-performance, multimodal object tracking for autonomous systems within a constrained power envelope—is notoriously difficult. It requires coordinating specialized hardware, managing complex data flows, and optimizing every microsecond for maximum performance. This tech paper explores how agentic software environments can dramatically accelerate the development and deployment of physical AI applications. [&#8230;] The post The New Software S...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/intelligent-power-solutions-for-next-gen-robotics-compute-platforms/",
-      "title": "Intelligent Power Solutions for Next-Gen Robotics Compute Platforms",
-      "url": "https://www.eetimes.com/intelligent-power-solutions-for-next-gen-robotics-compute-platforms/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Monolithic Power Systems Inc.",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-18T13:07:18+00:00",
-      "summary": "Date: Tuesday, July 21, 2026 Time: 9:00am PDT &#124; 12:00pm EDT Not your time zone? Please join us on Tuesday, July 28th @ 15:00 CEST Register Here! Rapid advances in humanoid robotics are being driven by breakthroughs in compute power. As AI workloads continue to scale, most of the elements that process data demand higher [&#8230;] The post Intelligent Power Solutions for Next-Gen Robotics Compute Platforms appeared first on EE Times.",
       "lang": "en"
     },
     {
@@ -349,20 +366,326 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/built-in-memory-built-in-confidence/",
-      "title": "Built-In Memory. Built-In Confidence.",
-      "url": "https://www.eetimes.com/built-in-memory-built-in-confidence/",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback",
+      "title": "AMD will reinstate memory encryption on Ryzen 9000 CPUs through a BIOS update in July — TSME is coming back after 'valuable community feedback'",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Morten Block, Global Eng. Director, Segments and Technology go-to-market",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-17T13:00:00+00:00",
-      "summary": "Memory shortages put edge AI at risk. NVIDIA Jetson™ integrates validated LPDDR5 DRAM on-module—giving teams a faster, confident path to production. The post Built-In Memory. Built-In Confidence. appeared first on EE Times.",
+      "published_at": "2026-06-19T21:02:49+00:00",
+      "summary": "AMD says it will reinstate firmware memory encryption (TSME) on non-PRO Ryzen 9000 desktop CPUs through a BIOS update in July, following the feature's removal through an earlier firmware update.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/your-15-inch-daily-driver-is-now-usd250-off-dell-15-laptop-with-hexa-core-cpu-8gb-ram-dips-to-usd349",
+      "title": "Your 15-inch daily driver is now $250 off — Dell 15 laptop with hexa-core CPU, 8GB RAM dips to $349",
+      "url": "https://www.tomshardware.com/laptops/your-15-inch-daily-driver-is-now-usd250-off-dell-15-laptop-with-hexa-core-cpu-8gb-ram-dips-to-usd349",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sponsored",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T18:00:00+00:00",
+      "summary": "The Dell 15 laptop has just come down from its regular price of $599.99 to $349.99.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/docking-stations-hubs/the-best-thunderbolt-and-usb-c-docks-for-laptops",
+      "title": "The Best Thunderbolt and USB-C Docks in 2026: Up to 140W power delivery, 10 GbE, and even internal M.2 SSD slots",
+      "url": "https://www.tomshardware.com/peripherals/docking-stations-hubs/the-best-thunderbolt-and-usb-c-docks-for-laptops",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Brandon Hill",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T16:31:46+00:00",
+      "summary": "These are the best Thunderbolt and USB-C docks for expanding your laptop's port options.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/amazon-workers-who-testified-against-ai-data-centers-say-they-were-intimidated-by-the-company-monitored-at-work-employees-face-possible-termination-for-violating-company-policy-speaking-as-representatives",
+      "title": "Amazon workers who testified against AI data centers say they were intimidated by the company, monitored at work — employees face possible termination for violating company policy, speaking as representatives",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/amazon-workers-who-testified-against-ai-data-centers-say-they-were-intimidated-by-the-company-monitored-at-work-employees-face-possible-termination-for-violating-company-policy-speaking-as-representatives",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T15:55:04+00:00",
+      "summary": "The three Amazon workers claim that they've been intimidated during the Zoom meetings and were being monitored while at work.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/bernie-sanders-files-bill-proposing-50-percent-public-ownership-of-us-ai-firms-and-giving-out-usd1-000-dividends-vp-vance-says-trump-supports-giving-the-american-people-a-stake-in-ai-companies-prefers-pre-distribution-over-giving-away-cash",
+      "title": "Bernie Sanders files bill proposing 50% public ownership of US AI firms and giving out $1,000 dividends — VP Vance says Trump supports giving the American people a stake in AI companies, prefers ‘pre-distribution’ over giving away cash",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/bernie-sanders-files-bill-proposing-50-percent-public-ownership-of-us-ai-firms-and-giving-out-usd1-000-dividends-vp-vance-says-trump-supports-giving-the-american-people-a-stake-in-ai-companies-prefers-pre-distribution-over-giving-away-cash",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T14:50:06+00:00",
+      "summary": "U.S. politicians are thinking about how they can ensure that the American people can benefit from AI.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/asml-denies-us-government-report-that-its-euv-chipmaking-tool-was-shipped-to-china-says-rumors-are-inaccurate-and-damaging-to-our-reputation",
+      "title": "ASML denies US government report that its EUV chipmaking tool was shipped to China — says 'rumors' are 'inaccurate and damaging to our reputation'",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-denies-us-government-report-that-its-euv-chipmaking-tool-was-shipped-to-china-says-rumors-are-inaccurate-and-damaging-to-our-reputation",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T14:20:34+00:00",
+      "summary": "U.S. Commerce Secretary Lutnick expresses concerns in a conversation with ASML executives that China has an EUV lithography system as ASML denies shipping such scanners to the PRC.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/epic-games-unveils-launcher-v2-in-re-attempt-to-topple-steam-says-redesigned-storefront-is-up-to-6-5x-faster-promises-player-profiles-user-reviews-universal-controller-support-and-much-more",
+      "title": "Epic Games unveils Launcher V2 in re-attempt to topple Steam, says redesigned storefront is up to 6.5x faster — promises player profiles, user reviews, universal controller support, and much more",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/epic-games-unveils-launcher-v2-in-re-attempt-to-topple-steam-says-redesigned-storefront-is-up-to-6-5x-faster-promises-player-profiles-user-reviews-universal-controller-support-and-much-more",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T13:57:28+00:00",
+      "summary": "Epic Games has just shown off a new year-long roadmap for its launcher, promising to bring community-requested features and a faster overall platform in the next 12 months.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/imec-asml-and-tsmc-build-complementary-2d-material-transistors-at-50nm-pitch-on-a-300mm-wafer",
+      "title": "Post-silicon era gets closer as industry giants crack the 2D transistor scaling bottleneck with breakthrough tech — imec, ASML, and TSMC fab complementary 2D-material transistors at 50nm pitch on a 300mm wafer",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/imec-asml-and-tsmc-build-complementary-2d-material-transistors-at-50nm-pitch-on-a-300mm-wafer",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T13:13:07+00:00",
+      "summary": "Imec, ASML, and TSMC have integrated both n-type and p-type transistors with atomically thin 2D channels on a single 300mm wafer.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/usb/best-usb-charger-deals",
+      "title": "Best USB charger deals 2026 – from tiny single-port smartphone chargers to large multi-port laptop chargers, we've found the best deals",
+      "url": "https://www.tomshardware.com/peripherals/usb/best-usb-charger-deals",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T12:30:00+00:00",
+      "summary": "From small smart devices to laptop charging, we dug up some of the best deals on 30W single-port to 100W multi-port chargers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/viewsonic-vx2730d-4k-27-inch-4k-dual-refresh-gaming-monitor-review",
+      "title": "ViewSonic VX2730D-4K 27-inch 4K dual-refresh gaming monitor review: Delivering speed, color, accuracy, and pixel density",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/viewsonic-vx2730d-4k-27-inch-4k-dual-refresh-gaming-monitor-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Christian Eberle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T12:10:00+00:00",
+      "summary": "ViewSonic’s VX2730D-4K is a stellar value. It’s a 27-inch 4K gaming monitor with 144 Hz, 288 Hz in FHD, Adaptive-Sync, wide gamut color and HDR. Accurate color and high performance deliver an excellent price/performance ratio.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/intel-hires-former-sk-hynix-chief-seok-hee-lee-to-lead-intel-foundry-advanced-packaging",
+      "title": "Intel hires former SK hynix chief Seok-Hee Lee to lead Intel Foundry advanced packaging — company establishing section as 'focused business with dedicated leadership'",
+      "url": "https://www.tomshardware.com/tech-industry/intel-hires-former-sk-hynix-chief-seok-hee-lee-to-lead-intel-foundry-advanced-packaging",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T11:58:41+00:00",
+      "summary": "Intel has appointed Seok-Hee Lee, the former chief executive of memory maker SK hynix and battery maker SK On, as executive vice president of Intel Foundry.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-that-china-will-have-a-fable-5-class-ai-model-probably-q1-next-year-ceo-of-chinese-anthropic-rival-says-it-wont-take-that-long",
+      "title": "CEO of Chinese Anthropic rival tells Elon Musk that China will have a Fable 5-class AI model before next year — it ‘won’t take that long’ says Jie Tang in response to Musk's prediction of a Q1 target",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-that-china-will-have-a-fable-5-class-ai-model-probably-q1-next-year-ceo-of-chinese-anthropic-rival-says-it-wont-take-that-long",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T11:38:05+00:00",
+      "summary": "Elon Musk estimated that Chinese AI firms would have an LLM with Mythos level capability by the first quarter of 2027. However, the CEO of Beijing-based Z.ai responded to the comment, saying that their company will achieve this soon, but did not give a concrete timeline.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/network-switches/woot-slashes-up-to-46-percent-off-these-wd-black-sn850p-ssds-for-pc-and-ps5-1tb-for-usd189-2tb-for-usd299-and-4tb-for-usd549",
+      "title": "Woot slashes up to 46% off these WD Black SN850P SSDs for PC and PS5 — 1TB for $189, 2TB for $299, and 4TB for $549",
+      "url": "https://www.tomshardware.com/networking/network-switches/woot-slashes-up-to-46-percent-off-these-wd-black-sn850p-ssds-for-pc-and-ps5-1tb-for-usd189-2tb-for-usd299-and-4tb-for-usd549",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T11:21:37+00:00",
+      "summary": "Grab a great discount on these officially licensed PlayStation 5 SSDs at Woot. The WD Black SN850P in 1TB, 2TB, and 4TB capacities is discounted up to 46% today, or until stocks run out.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls",
+      "title": "SK Telecom named as the Korean carrier at the center of Anthropic's Mythos export controls controversy — access was revoked days before White House took Mythos and Fable 5 offline for all foreign nationals",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T10:54:58+00:00",
+      "summary": "Wired has identified SK Telecom as the South Korean telecom company whose access to Anthropic's Claude Mythos model the White House ordered revoked over alleged ties to China.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ssds/16-year-old-sata-ii-ssd-survives-1-petabyte-of-writes-25x-over-the-drives-tbw-rating",
+      "title": "16-year-old SATA II SSD survives 1 petabyte of writes — 25x more than the drive's endurance rating",
+      "url": "https://www.tomshardware.com/pc-components/ssds/16-year-old-sata-ii-ssd-survives-1-petabyte-of-writes-25x-over-the-drives-tbw-rating",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zhiye Liu",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T10:30:00+00:00",
+      "summary": "As part of an experiment, an enthusiast has written one petabyte of data on a legacy Sandisk P4 SATA II SSD that was released 16 years ago.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/servers/tesco-uk-supermarket-chain-removes-40-000-servers-from-vmware-infrastructure-mass-exodus-continues-due-to-broadcoms-aggressive-subscription-model",
+      "title": "Tesco UK supermarket chain removes 40,000 servers from VMware infrastructure — mass exodus continues due to Broadcom's aggressive subscription model",
+      "url": "https://www.tomshardware.com/desktops/servers/tesco-uk-supermarket-chain-removes-40-000-servers-from-vmware-infrastructure-mass-exodus-continues-due-to-broadcoms-aggressive-subscription-model",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T10:00:00+00:00",
+      "summary": "Tesco UK supermarket chain moves 40,000 servers off of VMWare infrastructure — mass exodus continues thanks to Broadcom's pricing shenanigans",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-a-massive-usd1-390-on-this-rtx-5080-alienware-gaming-pc-now-just-usd3-159-enormous-discount-delivers-top-specs-for-4k-gameplay-including-a-24-core-intel-cpu-32gb-ddr5-ram-and-a-2tb-ssd",
+      "title": "Save a massive $1,390 on this RTX 5080 Alienware gaming PC, now just $3,159 — enormous discount delivers top specs for 4K gameplay, including a 24-core Intel CPU, 32GB DDR5 RAM, and a 2TB SSD",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-a-massive-usd1-390-on-this-rtx-5080-alienware-gaming-pc-now-just-usd3-159-enormous-discount-delivers-top-specs-for-4k-gameplay-including-a-24-core-intel-cpu-32gb-ddr5-ram-and-a-2tb-ssd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T09:53:09+00:00",
+      "summary": "Don't miss this incredible deal on a high-end Alienware gaming PC with an RTX 5080, 24-core Intel Core Ultra 9 285K, 32GB of fast DDR5 RAM, and a 2TB SSD, all with a whopping $1,390 saving that brings it down to just $3,159.99.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/us-energy-regulator-to-order-grid-operators-to-expedite-ai-data-center-applications-says-projects-should-bring-their-own-power-or-cut-usage-during-high-demand",
+      "title": "US energy regulator to order grid operators to expedite AI data center applications — says projects should bring their own power or cut usage during high demand",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/us-energy-regulator-to-order-grid-operators-to-expedite-ai-data-center-applications-says-projects-should-bring-their-own-power-or-cut-usage-during-high-demand",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T09:45:00+00:00",
+      "summary": "The FERC says that it will order grid operators to fast-track AI data center connections that generate their own power or reduce demand during peak hours. It demands that these changes must be enacted within 90 days.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/scammers-in-china-sell-usd222-rtx-4090-with-fake-gpu-die-made-out-of-plastic-instead-of-real-silicon-marked-with-2030-production-dates-the-card-didnt-even-have-working-vram",
+      "title": "Scammers in China sell $222 RTX 4090 with fake GPU die made out of plastic instead of real silicon — marked with 2030 production dates, the card didn't even have working VRAM",
+      "url": "https://www.tomshardware.com/pc-components/gpus/scammers-in-china-sell-usd222-rtx-4090-with-fake-gpu-die-made-out-of-plastic-instead-of-real-silicon-marked-with-2030-production-dates-the-card-didnt-even-have-working-vram",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T09:29:20+00:00",
+      "summary": "Nvidia dupes keep getting more sophisticated as time goes on, with the latest example using a plastic die instead of real silicon on an RTX 4090.",
       "lang": "en"
     },
     {
@@ -550,329 +873,6 @@
       "views": null,
       "published_at": "2026-06-18T11:45:06+00:00",
       "summary": "Apple's Tim Cook says that Apple can no longer 'shield' its customers from increased prices of DRAM and NAND memory.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/bosch-to-pay-usd36-million-penalty-for-usd72-million-in-illicit-sales-to-huawei-german-company-sold-export-controlled-goods-and-software-to-banned-chinese-firm-between-2020-and-2024",
-      "title": "Bosch to pay $36 million penalty for $72 million in ‘illicit’ sales to Huawei — German company sold export-controlled goods and software to banned Chinese firm between 2020 and 2024",
-      "url": "https://www.tomshardware.com/tech-industry/bosch-to-pay-usd36-million-penalty-for-usd72-million-in-illicit-sales-to-huawei-german-company-sold-export-controlled-goods-and-software-to-banned-chinese-firm-between-2020-and-2024",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-18T11:42:18+00:00",
-      "summary": "The U.S. fined Bosch $36 million for selling export-controlled product to Huawei, including software and MEMS sensors. The German company agreed to pay the penalty, as well as disgorging part of the profits it made from the 'illicit' sales.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/trump-says-apple-agreed-to-build-chips-with-intel",
-      "title": "Trump says Apple has agreed to 'build' chips with Intel — neither company confirms deal as Intel share price rockets",
-      "url": "https://www.tomshardware.com/tech-industry/trump-says-apple-agreed-to-build-chips-with-intel",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-18T11:32:41+00:00",
-      "summary": "President Donald Trump said on Thursday that Apple has agreed to work with Intel to “design and build” chips in the United States.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/chinese-makers-of-dram-modules-ssds-have-a-serious-advantage-over-american-and-taiwanese-suppliers-says-smi-svp-state-guidance-secures-local-dram-and-ssd-supply-while-the-big-three-chase-ai-margins",
-      "title": "Chinese makers of DRAM modules, SSDs have a serious advantage over American and Taiwanese suppliers, says SMI SVP — state guidance secures local DRAM and SSD supply while the Big Three chase AI margins",
-      "url": "https://www.tomshardware.com/pc-components/ssds/chinese-makers-of-dram-modules-ssds-have-a-serious-advantage-over-american-and-taiwanese-suppliers-says-smi-svp-state-guidance-secures-local-dram-and-ssd-supply-while-the-big-three-chase-ai-margins",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-18T10:30:00+00:00",
-      "summary": "CCP directives can be lifebuoy for Chinese producers of DRAM modules and solid-state drives as domestic memory makers may be obliged to support the module industry.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cryptocurrency/digital-entrepreneur-creates-humorous-physical-nft-minting-device-using-a-raspberry-pi-in-quest-for-infinite-money-machine-contraption-trained-on-m3-macbook-can-generate-an-nft-in-3-seconds-has-so-far-sold-one-for-usd9-92",
-      "title": "Digital entrepreneur creates humorous 'physical NFT minting device' using a Raspberry Pi in quest for 'infinite money machine' — contraption trained on M3 MacBook can generate an NFT in 3 seconds, has so far sold one for $9.92",
-      "url": "https://www.tomshardware.com/tech-industry/cryptocurrency/digital-entrepreneur-creates-humorous-physical-nft-minting-device-using-a-raspberry-pi-in-quest-for-infinite-money-machine-contraption-trained-on-m3-macbook-can-generate-an-nft-in-3-seconds-has-so-far-sold-one-for-usd9-92",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-18T10:26:50+00:00",
-      "summary": "An enterprising young man aims to catch up with the collective wealth of Elon Musk, and his first money spinner is a portable NFT minting gadget.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/kaspersky-finds-malware-hidden-in-steam-wallpapers-that-hijacks-accounts-to-spread-itself",
-      "title": "Kaspersky finds malware hidden in Steam Wallpaper Engine that hijacks accounts to spread itself — dozens of malicious packages downloaded tens of thousands of times",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/kaspersky-finds-malware-hidden-in-steam-wallpapers-that-hijacks-accounts-to-spread-itself",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-18T10:00:00+00:00",
-      "summary": "Attackers have spent the past several months smuggling malware into Steam through animated desktop wallpapers.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/frontier-airlines-site-leaks-all-personal-info-with-just-a-glance-at-a-boarding-pass-researcher-claims-booking-number-and-last-name-nets-you-every-passengers-personal-info-including-address-passport-tsa-precheck-and-most-credit-card-info",
-      "title": "Frontier Airlines site leaks all personal info with just a glance at a boarding pass, researcher claims — booking number and last name nets you every passenger's personal info, including address, passport, TSA PreCheck, and most credit card info",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/frontier-airlines-site-leaks-all-personal-info-with-just-a-glance-at-a-boarding-pass-researcher-claims-booking-number-and-last-name-nets-you-every-passengers-personal-info-including-address-passport-tsa-precheck-and-most-credit-card-info",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-18T09:30:00+00:00",
-      "summary": "Frontier Airlines site leaks all personal info with just a glance at a boarding pass — just a booking number and last name nets you all passengers' personal info including address, passport, TSA PreCheck, and most credit card info",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/intels-fab-roadmap-examined",
-      "title": "Intel's fab roadmap examined — Arizona, Ohio, Ireland, and the two deadlines deciding 14A process node",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intels-fab-roadmap-examined",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T20:46:27+00:00",
-      "summary": "This roadmap provides an in-depth analysis of Intel's current plans for its chip production capacity.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/us-pulls-the-kill-switch-on-anthropics-fable-5-ai-models-sending-global-allies-scrambling-european-and-canadian-leaders-alarm-allies-over-sudden-export-bans",
-      "title": "US pulls the 'kill-switch' on Anthropic's Fable 5 AI models, sending global allies scrambling — European and Canadian leaders alarm allies over sudden export bans",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-pulls-the-kill-switch-on-anthropics-fable-5-ai-models-sending-global-allies-scrambling-european-and-canadian-leaders-alarm-allies-over-sudden-export-bans",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jon Martindale",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T17:36:41+00:00",
-      "summary": "Following the Trump administration's block on Anthropic's Mythos 5 and Fable 5 models, world leaders have raised concerns that without direct access to frontier models, they may need to develop their own national alternatives.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/deepseek-was-set-to-be-added-to-us-entity-list-for-supporting-chinas-military-and-intelligence-operations-report-claims-white-house-holds-off-to-avoid-escalating-tensions-with-china",
-      "title": "DeepSeek was set to be added to US Entity List for supporting China’s military and intelligence operations, report claims — White House holds off to avoid escalating tensions with China",
-      "url": "https://www.tomshardware.com/tech-industry/deepseek-was-set-to-be-added-to-us-entity-list-for-supporting-chinas-military-and-intelligence-operations-report-claims-white-house-holds-off-to-avoid-escalating-tensions-with-china",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T16:00:45+00:00",
-      "summary": "DeepSeek and CXMT, which have both been tagged as supporting Chinese military and intelligence operations, are set to be added to the U.S.'s Entity List. However, the White House hasn't included them yet in order to avoid escalating trade tensions with Beijing.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/snag-a-pro-level-gaming-monitor-at-entry-level-pricing-gigabyte-27-inch-1440p-180-hz-monitor-up-for-grabs-at-usd159",
-      "title": "Snag a pro-level 180 Hz gaming monitor at entry-level pricing — Gigabyte 27-inch 1440p monitor up for grabs at $159",
-      "url": "https://www.tomshardware.com/monitors/gaming-monitors/snag-a-pro-level-gaming-monitor-at-entry-level-pricing-gigabyte-27-inch-1440p-180-hz-monitor-up-for-grabs-at-usd159",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sponsored",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T16:00:00+00:00",
-      "summary": "For a limited time, Newegg has the Gigabyte GS27QA on sale for $159.99, 36%off its regular price.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-releases-rtx-remix-1-5-with-new-rtx-io-compression-reducing-mod-file-sizes-by-up-to-37-percent-update-also-adds-smooth-normals-and-rtx-remix-skills-agents",
-      "title": "Nvidia releases RTX Remix 1.5 with new RTX IO compression reducing mod file sizes by up to 37% — update also adds Smooth Normals and 'RTX Remix Skills' Agents",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-releases-rtx-remix-1-5-with-new-rtx-io-compression-reducing-mod-file-sizes-by-up-to-37-percent-update-also-adds-smooth-normals-and-rtx-remix-skills-agents",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T15:33:55+00:00",
-      "summary": "Nvidia has updated RTX Remix with a bunch of new features that will help improve the fidelity and reduce the file size of modded games, along with the complexity of developing said mods.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-build-brain-like-memory-device-for-ai-sensors-that-may-improve-energy-efficiency-phototransistor-device-combines-light-sensing-memory-and-processing-to-cut-data-movement",
-      "title": "Researchers build brain-like memory device for AI sensors that may improve energy efficiency — phototransistor device combines light sensing, memory, and processing to cut data movement",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-build-brain-like-memory-device-for-ai-sensors-that-may-improve-energy-efficiency-phototransistor-device-combines-light-sensing-memory-and-processing-to-cut-data-movement",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T14:19:33+00:00",
-      "summary": "Oregon State University researchers have developed a brain-inspired phototransistor that combines light sensing, memory, and signal processing in one device. The hardware can electronically control how long optical memories persist or fade, potentially improving energy efficiency in future AI vision systems.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/networking/undersea-cable-connecting-egypt-and-syria-has-been-cut-damascus-blames-systematic-sabotage-campaign-as-cause-of-damage",
-      "title": "Undersea cable connecting Egypt and Syria has been cut, state-owned telecom operator says — Damascus blames 'systematic sabotage campaign' as cause of damage",
-      "url": "https://www.tomshardware.com/networking/undersea-cable-connecting-egypt-and-syria-has-been-cut-damascus-blames-systematic-sabotage-campaign-as-cause-of-damage",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T13:31:39+00:00",
-      "summary": "The Syrian government blamed a third party for the damage on its undersea cable that connects it to Egypt. Damascus didn't mention any specific state or non-state actor, but its location makes it a prime target for disruption.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/first-official-details-of-amds-next-gen-mustang-peak-threadripper-cpus-come-into-view-chips-feature-ddr5-pcie-6-0-and-a-new-socket",
-      "title": "First official details of AMD's next-gen 'Mustang Peak' Threadripper CPUs come into view — chips feature DDR5, PCIe 6.0, and a new socket",
-      "url": "https://www.tomshardware.com/pc-components/cpus/first-official-details-of-amds-next-gen-mustang-peak-threadripper-cpus-come-into-view-chips-feature-ddr5-pcie-6-0-and-a-new-socket",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zak Killian",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T13:17:24+00:00",
-      "summary": "We now have the first confirmed details about AMD's Zen 6-based Threadripper CPUs, code-named Mustang Peak.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/save-usd500-on-this-acer-16-predator-helios-neo-16-ips-gaming-laptop-just-usd1-499-99-gets-you-a-powerful-portable-gaming-rig-with-an-rtx-5070-32gb-ddr5-and-intel-core-ultra-9-275-hx-processor",
-      "title": "Save $500 on this Acer 16” Predator Helios Neo 16 IPS Gaming laptop — just $1,499.99 gets you a powerful portable gaming rig with an RTX 5070, 32GB DDR5, and Intel Core Ultra 9 275 HX processor",
-      "url": "https://www.tomshardware.com/pc-components/save-usd500-on-this-acer-16-predator-helios-neo-16-ips-gaming-laptop-just-usd1-499-99-gets-you-a-powerful-portable-gaming-rig-with-an-rtx-5070-32gb-ddr5-and-intel-core-ultra-9-275-hx-processor",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T12:11:51+00:00",
-      "summary": "Save $500 on Acer’s Predator Helios Neo 16 AI Gaming laptop and score a powerful gaming laptop with 32GB of RAM and RTX 5070 for only $1,499.99.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/viewsonic-vx2738-2k-27-inch-oled-review",
-      "title": "ViewSonic VX2738-2K 27-inch OLED review: An OLED value play",
-      "url": "https://www.tomshardware.com/monitors/gaming-monitors/viewsonic-vx2738-2k-27-inch-oled-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Christian Eberle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T12:10:00+00:00",
-      "summary": "ViewSonic’s VX2738-2K OLED is a high-performance 27-inch QHD gaming monitor with 240 Hz, Adaptive-Sync, HDR and Quantum Dot color. It delivers smooth speed, quick response and saturated color for a relatively low price.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-reveals-ai-robots-that-taught-themselves-to-install-gpus-into-motherboards-video-shows-robot-solve-high-precision-tasks-like-installing-gpus-all-by-itself",
-      "title": "Nvidia reveals AI robots that taught themselves to install GPUs into motherboards — video shows robot ‘solve high-precision tasks like… installing GPUs all by itself’",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-reveals-ai-robots-that-taught-themselves-to-install-gpus-into-motherboards-video-shows-robot-solve-high-precision-tasks-like-installing-gpus-all-by-itself",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T12:06:48+00:00",
-      "summary": "Nvidia showcases agentic robots that can teach themselves high-precision and dexterous tasks - like PC building - in the real world.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/fight-the-price-rises-on-ssds-with-this-31-percent-saving-on-samsungs-brilliant-1tb-990-pro-ssd-now-usd219-at-amazon-lowest-price-since-april",
-      "title": "Fight the price rises on SSDs with this 31% saving on Samsung's brilliant 1TB 990 Pro SSD — now $219 at Amazon, lowest price since April",
-      "url": "https://www.tomshardware.com/pc-components/ssds/fight-the-price-rises-on-ssds-with-this-31-percent-saving-on-samsungs-brilliant-1tb-990-pro-ssd-now-usd219-at-amazon-lowest-price-since-april",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T11:43:24+00:00",
-      "summary": "Save $100 off the price of this 1TB Samsung 990 Pro SSD. Amazon's 31% discount fights off the current storage price rises.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/u-s-govt-asks-court-to-dismiss-naacp-lawsuit-against-elon-musks-xai-over-use-of-unpermitted-gas-turbines-doj-says-grok-model-running-at-colossus-2-supports-mission-critical-operations",
-      "title": "U.S. gov't asks court to dismiss NAACP lawsuit against Elon Musk's xAI over use of unpermitted gas turbines — DOJ says Grok model running at Colossus 2 ‘supports mission-critical operations’",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/u-s-govt-asks-court-to-dismiss-naacp-lawsuit-against-elon-musks-xai-over-use-of-unpermitted-gas-turbines-doj-says-grok-model-running-at-colossus-2-supports-mission-critical-operations",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T11:00:00+00:00",
-      "summary": "The US government is seeking dismissal of a lawsuit from the NAACP, arguing that the Colossus 2 data center is crucial for national security. The data center runs the Grok Gov AI model, and the government claims a shutdown \"directly threatens ongoing national security interests.\"",
       "lang": "en"
     }
   ]

@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-19T08:38:03.653245+00:00",
+  "fetched_at": "2026-06-20T07:06:23.283732+00:00",
   "platforms": [
     "rss"
   ],
@@ -188,6 +188,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/defense-sends-clear-signal-to-canadian-semiconductor-industry/",
+      "title": "Defense Sends Clear Signal to Canadian Semiconductor Industry",
+      "url": "https://www.eetimes.com/defense-sends-clear-signal-to-canadian-semiconductor-industry/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T22:00:00+00:00",
+      "summary": "Canada sharpens its defense and tech edge with policies to boost homegrown chip power. The post Defense Sends Clear Signal to Canadian Semiconductor Industry appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/amazon-newest-gambit-selling-ai-chips/",
+      "title": "Amazon’s Newest Gambit: Selling AI Chips",
+      "url": "https://www.eetimes.com/amazon-newest-gambit-selling-ai-chips/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-19T12:19:36+00:00",
+      "summary": "The world’s largest hyperscaler wants to seize the semiconductor moment by selling AI accelerators at scale. The post Amazon’s Newest Gambit: Selling AI Chips appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/all-semiconductor-roads-lead-to-taiwan/",
       "title": "All Semiconductor Roads Lead to Taiwan",
       "url": "https://www.eetimes.com/all-semiconductor-roads-lead-to-taiwan/",
@@ -236,23 +270,6 @@
       "views": null,
       "published_at": "2026-06-18T14:00:00+00:00",
       "summary": "Building real-time physical AI applications—such as high-performance, multimodal object tracking for autonomous systems within a constrained power envelope—is notoriously difficult. It requires coordinating specialized hardware, managing complex data flows, and optimizing every microsecond for maximum performance. This tech paper explores how agentic software environments can dramatically accelerate the development and deployment of physical AI applications. [&#8230;] The post The New Software S...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/intelligent-power-solutions-for-next-gen-robotics-compute-platforms/",
-      "title": "Intelligent Power Solutions for Next-Gen Robotics Compute Platforms",
-      "url": "https://www.eetimes.com/intelligent-power-solutions-for-next-gen-robotics-compute-platforms/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Monolithic Power Systems Inc.",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-18T13:07:18+00:00",
-      "summary": "Date: Tuesday, July 21, 2026 Time: 9:00am PDT &#124; 12:00pm EDT Not your time zone? Please join us on Tuesday, July 28th @ 15:00 CEST Register Here! Rapid advances in humanoid robotics are being driven by breakthroughs in compute power. As AI workloads continue to scale, most of the elements that process data demand higher [&#8230;] The post Intelligent Power Solutions for Next-Gen Robotics Compute Platforms appeared first on EE Times.",
       "lang": "en"
     },
     {
@@ -338,23 +355,6 @@
       "views": null,
       "published_at": "2026-06-17T17:42:45+00:00",
       "summary": "This paper provides an over view of the Melexis solutions for Zero latency high precision motor control and end of shaft position and torque sensing. A family of magnetic and inductive products for every joint type in a robot, from humanoid to Cobots, from legs to fingers. The post The First-Time-Right Revolution appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/built-in-memory-built-in-confidence/",
-      "title": "Built-In Memory. Built-In Confidence.",
-      "url": "https://www.eetimes.com/built-in-memory-built-in-confidence/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Morten Block, Global Eng. Director, Segments and Technology go-to-market",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T13:00:00+00:00",
-      "summary": "Memory shortages put edge AI at risk. NVIDIA Jetson™ integrates validated LPDDR5 DRAM on-module—giving teams a faster, confident path to production. The post Built-In Memory. Built-In Confidence. appeared first on EE Times.",
       "lang": "en"
     }
   ]
