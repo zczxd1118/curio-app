@@ -1,165 +1,164 @@
 # Curio 趋势雷达 · 2026-06-20
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 11 条备选
 
-_今天最关键的信号是：Anthropic 的 Mythos 出口管制事件持续发酵，SK Telecom 被点名，特朗普态度摇摆；同时，谷歌微软联手推出 ARD 协议围堵 Anthropic 和 OpenAI，企业 AI 生态主导权争夺白热化。半导体方面，imec/ASML/TSMC 在 2D 晶体管上取得突破，英特尔挖来前 SK 海力士 CEO 重整封装业务。金融端，德银转向鹰派，预计今年加息 50 基点，AI 算力成本数据曝光——1GW Vera Rubin 数据中心年电力成本 13 亿美元。_
-
----
-
-## 🌟 大厂讯息
-
-### 1. SK Telecom 被指为 Anthropic Mythos 出口管制事件核心，白宫下令切断其访问权限
-
-**[大厂讯息]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
-
-Wired 确认 SK Telecom 就是被白宫要求切断 Anthropic Claude Mythos 模型访问的韩国运营商。此前 Anthropic 被美国政府要求将 Fable 5 和 Mythos 5 下线，理由是国家安全——Amazon 研究人员称这些模型可能被用于网络攻击。特朗普态度摇摆，一周前视 Anthropic 为威胁，现在又说“不是”。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Wired 确认 SK Telecom 是涉事韩国运营商 | Mythos 是否真的被用于攻击性网络行动？ |
-| 白宫以国家安全为由下令切断 SK Telecom 对 Mythos 的访问 | 出口管制能否真正阻止技术扩散？历史证明效果有限 |
-| Anthropic 的 Fable 5 和 Mythos 5 已被下线 | Anthropic 与政府的关系将如何演变？ |
-| 特朗普称 Anthropic 现在不是威胁，但一周前是 | 其他外国运营商是否会受到类似限制？ |
-
-**📖 主编点评**
-
-你正在做 content-curator Agent，Mythos 事件说明 AI 安全模型可能成为地缘政治工具。建议关注 Anthropic 后续的合规调整，以及类似出口管制对 AI 开源生态的影响——你的 Agent 如果依赖海外模型，需要评估供应链风险。
-
-📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls)
-
----
-
-### 2. 谷歌微软联手推 ARD 协议，用标准战围堵 Anthropic 和 OpenAI 的企业 AI 入口
-
-**[大厂讯息]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
-
-谷歌、微软等传统巨头联合推出“代理资源发现”（ARD）协议，旨在将自身产品打造为企业 AI 的统一入口。这与 Anthropic 和 OpenAI 试图将 Claude/ChatGPT 做成独立主入口的战略直接冲突。企业 AI 生态的主导权争夺进入新阶段。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| 谷歌、微软等联合推出 ARD 协议 | ARD 能否被广泛采纳？需要看第三方开发者和企业客户的态度 |
-| ARD 旨在让企业通过传统巨头的平台统一管理 AI 代理 | Anthropic 和 OpenAI 是否会推出自己的替代标准？ |
-| Anthropic 和 OpenAI 正推动 Claude/ChatGPT 成为独立入口 | 企业客户更倾向于单一入口还是多模型混用？ |
-| 双方在企业 AI 生态上形成直接竞争 | 标准战是否会延缓企业 AI 落地？ |
-
-**📖 主编点评**
-
-你在做 Agent 项目，这个协议直接影响你未来如何集成 AI 能力。如果 ARD 成为标准，你的 Agent 可能需要兼容谷歌/微软的生态；如果 Anthropic/OpenAI 胜出，则可以直接调用。建议先观望，但保持对 MCP 和 ARD 两种协议的关注。
-
-📺 [打开原文](https://wallstreetcn.com/articles/3775088)
+_今日核心信号：Anthropic 的 Mythos 出口管制事件持续发酵，SK Telecom 被点名，特朗普态度摇摆；同时，谷歌微软联手推 ARD 协议围堵 Anthropic 和 OpenAI，企业 AI 生态主导权争夺白热化。半导体方面，imec/ASML/TSMC 实现 2D 材料晶体管 50nm 间距突破，后硅时代逼近。金融端，德银转向鹰派，预计今年加息 50 基点，AI 成本压力倒逼企业从“Token 竞赛”转向“Token 节流”。_
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 3. imec/ASML/TSMC 在 300mm 晶圆上造出 50nm 间距 2D 晶体管，后硅时代逼近
+### 1. imec、ASML、TSMC 联手在 300mm 晶圆上实现 50nm 间距 2D 材料互补晶体管，后硅时代迈出关键一步
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-imec、ASML 和 TSMC 首次在 300mm 晶圆上集成了 n 型和 p 型 2D 材料晶体管，间距 50nm。这标志着 2D 材料从实验室走向量产的关键一步，为超越硅基晶体管的未来铺路。
+imec、ASML 和 TSMC 首次在 300mm 晶圆上成功集成 n 型和 p 型原子级薄 2D 沟道晶体管，间距仅 50nm。这标志着 2D 材料从实验室走向量产的关键里程碑，直接挑战传统硅基 FinFET 的物理极限。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 在 300mm 晶圆上成功集成互补 2D 晶体管 | 50nm 间距距离量产仍有距离，良率和成本未知 |
-| 晶体管间距为 50nm | 2D 晶体管能否在性能上超越 FinFET/GAA？ |
-| 参与方包括 imec、ASML 和 TSMC | 量产时间表可能在 2030 年后 |
-| 2D 材料被认为是后硅时代的关键候选 | 对现有半导体设备市场的影响尚不明确 |
+| imec、ASML、TSMC 三方合作在 300mm 晶圆上制造出互补 2D 材料晶体管 | 2D 材料晶体管能否在 2028 年前实现量产仍不确定 |
+| 晶体管间距达到 50nm，接近当前先进工艺节点 | 50nm 间距的良率和可靠性尚未公开 |
+| 同时集成了 n 型和 p 型两种沟道类型 | 与现有硅基工艺的集成成本是主要障碍 |
+| 该成果在 VLSI 2025 会议上展示 | 该技术是否会被台积电 2nm 以下节点采用尚未确认 |
+|  | 2D 材料（如 MoS2）的长期稳定性需进一步验证 |
 
 **📖 主编点评**
 
-虽然离你的项目很远，但作为电子信息工程学生，这是你应该知道的行业前沿。2D 材料可能改变未来芯片设计范式，建议关注 imec 的后续进展，这对理解半导体路线图有帮助。
+这对你意味着：如果你在做 AI 芯片或硬件相关项目，2D 晶体管是未来 3-5 年必须关注的底层技术。建议跟踪 imec 的 roadmap，尤其是 2027 年后的量产时间表。对于个人项目，短期内影响有限，但理解这一趋势有助于在面试或技术讨论中展现前瞻性。
 
 📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/imec-asml-and-tsmc-build-complementary-2d-material-transistors-at-50nm-pitch-on-a-300mm-wafer)
 
 ---
 
-### 5. 鸿海董事长：1GW Vera Rubin 数据中心资本开支 470 亿美元，年电力成本 13 亿美元
+### 5. SK Telecom 被确认为 Anthropic Mythos 出口管制事件中的韩国运营商，白宫下令切断访问
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _华尔街见闻_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
 
-刘扬伟在公开场合披露了 AI 数据中心的惊人成本：1GW 规模的 Vera Rubin 数据中心，资本开支 470 亿美元，年电力成本 13 亿美元，硬件折旧每年 78 亿美元。他预计 2030 年全球算力将新增 106GW 电力需求。
+Wired 确认 SK Telecom 是白宫下令切断 Anthropic Claude Mythos 模型访问的韩国电信公司，理由是涉嫌与中国关联。事件凸显 AI 模型出口管制的地缘政治复杂性，以及 Anthropic 在国家安全压力下的困境。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 1GW Vera Rubin 数据中心资本开支 470 亿美元 | 这些数字是否包含全部隐性成本？ |
-| 年电力成本 13 亿美元 | 如此高的成本是否会抑制 AI 投资？ |
-| 年折旧约 78 亿美元 | 能源效率改进能否降低长期成本？ |
-| 刘扬伟预计 2030 年全球新增 106GW 算力电力需求 | 对 NVIDIA 等硬件厂商的定价能力意味着什么？ |
+| SK Telecom 被确认为涉事韩国运营商 | Mythos 出口管制是否有效？历史表明类似管制往往效果有限 |
+| 白宫以国家安全为由下令切断 Mythos 访问 | Anthropic 是否会因此调整其模型发布策略？ |
+| Mythos 是 Anthropic 的网络安全 AI 模型 | 其他国家的 AI 模型出口管制可能跟进 |
+| 事件发生在亚马逊研究人员指控之后 | SK Telecom 是否面临进一步制裁？ |
+|  | 该事件对 Anthropic IPO 估值的影响尚不明确 |
 
 **📖 主编点评**
 
-这些数字让你理解为什么 AI 公司都在自研芯片和优化推理成本。你的 Agent 项目如果依赖云端 API，需要考虑成本结构——未来推理成本可能下降，但训练成本依然高昂。建议关注边缘推理和模型压缩技术。
+这对你意味着：如果你计划在 content-curator 中使用 Anthropic 的模型，需要关注出口管制风险。建议同时集成开源模型（如 DeepSeek）作为备选，避免单一依赖。这也是你简历中展示风险意识的好素材。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3775108)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls)
 
 ---
 
-## 🌟 股票
+## 🌟 大厂 AI 动态
 
-### 4. 德银转向鹰派：预计今年加息 50 基点，7 月可能提前行动
+### 2. 谷歌微软联手推 ARD 协议，传统科技巨头借标准战围堵 Anthropic 和 OpenAI
 
-**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
 
-德银彻底扭转宽松预期，全面上调通胀预测，预计今年加息两次共 50 基点，利率升至 4.1%，甚至不排除 7 月提前加息 75 基点。触发因素是美联储新主席沃什的鹰派表态和通胀压力广泛持续。
+谷歌、微软等传统科技巨头联合推出“代理资源发现”（ARD）新协议，旨在将自身产品打造为企业 AI 的统一入口。此举直接对抗 Anthropic 和 OpenAI 试图将 Claude、ChatGPT 打造成独立主入口的战略，企业 AI 生态主导权争夺进入新阶段。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 德银预计今年加息 50 基点 | 市场是否已充分定价加息？ |
-| 7 月可能提前加息 | 加息对 AI 等成长股估值的影响 |
-| 利率目标上调至 4.1% | 沃什的 AI 生产率叙事能否延缓加息？ |
-| 沃什鹰派表态是触发因素 | 其他投行是否会跟进德银的预测？ |
+| 谷歌、微软等联合推出 ARD 协议 | ARD 能否被广泛采纳仍不确定，需观察开发者社区反应 |
+| ARD 旨在让企业通过统一接口发现和调用 AI 代理资源 | Anthropic 和 OpenAI 可能推出自己的替代协议 |
+| 该协议将谷歌/微软的 AI 产品定位为企业 AI 入口 | 企业用户可能面临协议碎片化问题 |
+| Anthropic 和 OpenAI 未参与该协议 | ARD 的实际性能和安全性与现有方案对比未知 |
+|  | 该协议可能引发反垄断审查 |
 
 **📖 主编点评**
 
-加息预期直接影响科技股估值和融资环境。你在做 Agent 项目，如果融资变难，可能需要更注重成本控制。同时，加息可能压制 AI 概念股的短期表现，但长期看，生产率提升的故事仍在。
+这对你意味着：如果你在构建 AI Agent 或 MCP 相关工具，需要密切关注 ARD 协议的演进。建议在 content-curator 项目中预留接口兼容多种协议，避免绑定单一生态。同时，关注 Anthropic 和 OpenAI 的回应，它们很可能推出竞品协议。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3775088)
+
+---
+
+## 🌟 金融
+
+### 3. 德银彻底转鹰：预计今年加息 50 基点，甚至 7 月提前加息
+
+**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+德银全面扭转原有宽松预期，预计美联储今年将加息两次共 50 基点，利率升至 4.1%，并警告可能 7 月提前加息或全年加息 75 基点。触发因素是新主席沃什鹰派表态及通胀压力广泛持续。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 德银预计 2026 年加息 50 基点至 4.1% | 市场是否已充分定价加息风险？当前美股资金流入创纪录，可能过度乐观 |
+| 可能 7 月提前加息 | 沃什的 AI 生产率叙事可能延缓加息节奏 |
+| 全面上调通胀预测 | 加息对 AI 算力投资成本的影响尚未被充分讨论 |
+| 沃什鹰派表态是主要触发因素 | 欧洲和日本央行可能跟随美联储紧缩 |
+|  | 地缘政治风险（中东、台海）可能打乱加息路径 |
+
+**📖 主编点评**
+
+这对你意味着：加息预期将推高 AI 算力基础设施的融资成本，可能影响你个人项目的云服务预算。建议关注 AWS/GCP 等是否调整定价，同时考虑本地推理方案（如你正在做的 content-curator 项目）以对冲成本上升。
 
 📺 [打开原文](https://wallstreetcn.com/articles/3775110)
 
 ---
 
+## 🌟 AI
+
+### 4. 从 Token 竞赛到 Token 节流：月人均成本 7500 美元，天价账单倒逼巨头集体踩刹车
+
+**[AI]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+企业 AI 支出从“极限消耗”转向“极限节流”，巨头纷纷为 AI 使用和智能体工具设置上限以应对失控的成本压力。月人均成本高达 7500 美元，这一趋势催生了成本优化、网关工具及模型路由器等基础设施商机。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 企业 AI 月人均成本达 7500 美元 | 成本压力是否会抑制 AI 创新应用？ |
+| 微软、Databricks 等推出成本优化工具 | 开源模型（如 DeepSeek V4）能否替代专有模型降低成本？ |
+| 企业开始设置 AI 使用上限 | 成本优化工具市场可能快速饱和 |
+| 模型路由器（如基于任务复杂度选择模型）成为新热点 | 企业是否会转向本地部署以控制成本？ |
+|  | 该趋势对 AI 芯片需求的影响尚不明确 |
+
+**📖 主编点评**
+
+这对你意味着：作为个人开发者，你已经在用 Claude Code + DeepSeek V4 的组合来平衡成本，这是正确的方向。建议在 content-curator 项目中加入 token 用量监控和成本估算功能，这既是实用工具，也是简历亮点。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3775094)
+
+---
+
 ## 📋 备选池
-
-### AI 算力 / 半导体
-
-- [Amazon 开始对外销售 AI 芯片，挑战 NVIDIA](https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/) —— AWS 计划向其他数据中心出售 Trainium 芯片，CEO 称这是 500 亿美元机会，但挑战 NVIDIA 的 CUDA 生态壁垒极高。
-  _TechCrunch_
-- [英特尔任命前 SK 海力士 CEO 领导封装业务，股价大涨 10%](https://wallstreetcn.com/articles/3775097) —— 英特尔加速代工转型，先进封装成为独立业务板块，苹果同日确认合作，双重利好推动股价创历史新高。
-  _华尔街见闻_
-- [ASML 否认 EUV 光刻机已运往中国，美国商务部表示担忧](https://www.tomshardware.com/tech-industry/semiconductors/asml-denies-us-government-report-that-its-euv-chipmaking-tool-was-shipped-to-china-says-rumors-are-inaccurate-and-damaging-to-our-reputation) —— ASML 强烈否认美国政府的报告，称谣言不实且损害声誉，但美方仍担忧中国可能已获得 EUV 技术。
-  _Tom's Hardware_
-- [AMD 将在 7 月通过 BIOS 更新恢复 Ryzen 9000 内存加密功能](https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback) —— AMD 因社区反馈恢复 TSME 功能，对注重安全的开发者是利好。
-  _Tom's Hardware_
-- [美国能源监管机构要求电网运营商加速 AI 数据中心并网](https://www.tomshardware.com/tech-industry/data-centers/us-energy-regulator-to-order-grid-operators-to-expedite-ai-data-center-applications-says-projects-should-bring-their-own-power-or-cut-usage-during-high-demand) —— FERC 要求电网运营商为自带电源或可削减高峰负荷的数据中心提供快速通道，但未解决电力供应短缺的根本问题。
-  _Tom's Hardware_
-
-### 大厂讯息
-
-- [OpenAI 在 IPO 前引入 Transformer 共同发明人 Noam Shazeer 和前特朗普 AI 政策官员](https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/) —— OpenAI 在 IPO 前加强团队，Shazeer 的加入可能加速下一代模型研发，政策官员则有助于应对监管。
-  _TechCrunch_
-- [Snap 分拆 AI 视频团队成立新公司 Dotmo](https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/) —— Snap 因成本压力将内部 AI 视频团队剥离为独立公司，反映大厂在 AI 投入上的成本控制趋势。
-  _TechCrunch_
-- [Elastic 以 8500 万美元收购 AI 调试初创公司 Deductive AI](https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/) —— Elastic 收购 AI 调试工具，将 AI 能力集成到其搜索和可观测性平台，对开发者工具生态有参考意义。
-  _TechCrunch_
-- [Bernie Sanders 提出 7 万亿美元 AI 公有化法案，特朗普支持“预分配”](https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry/) —— Sanders 提案要求 AI 公司 50% 公有化并向公民发放股息，特朗普倾向预分配而非直接发钱，AI 治理成为政治焦点。
-  _Ars Technica_
-
-### 股票
-
-- [高盛警告：地缘动能停滞，CTA 下行风险不对称](https://wallstreetcn.com/articles/3775101) —— 高盛交易台指出美伊核谈判受阻、油价地缘溢价未被充分定价，CTA 已形成下行不对称格局，短期风险上升。
-  _华尔街见闻_
-- [德银：前沿模型与开源模型成本差距达 65 倍，可能引发 AI 市场重估](https://wallstreetcn.com/articles/3775111) —— Claude Fable 5 每任务成本 3.25 美元，DeepSeek V4-Pro 仅 5 美分，对 90% 任务表现相当，企业成本意识觉醒将改变定价锚点。
-  _华尔街见闻_
-- [谷歌和博通学习英伟达，开启“AI 芯片融资闭环”模式](https://wallstreetcn.com/articles/3775105) —— 谷歌以 850 亿美元融资担保撬动自研芯片销售，博通联合私募设立 350 亿美元算力平台，冲击英伟达垄断地位。
-  _华尔街见闻_
 
 ### AI
 
-- [Claude Code 新 Workflow 功能：可召唤多个 Agent 协同开发](https://www.bilibili.com/video/av116629702777532) —— Anthropic 为 Claude Code 添加 Workflow 功能，支持多 Agent 并行工作，对 Vibe Coding 工作流是重大升级。
+- [Claude Code Workflow 隐藏功能：Ultrawork 实现多 Agent 协同](https://www.bilibili.com/video/av116629702777532) —— Anthropic 未官宣的 Claude Code Workflow 功能，可召唤多个 Agent 协同开发，但尚未正式发布，适合尝鲜但稳定性存疑。
   _B站_
-- [Claude Code + DeepSeek V4 被推荐为最具性价比的个人 AI Agent 组合](https://www.bilibili.com/video/av116732144392386) —— 实测显示 Claude Code 搭配 DeepSeek V4 在成本和效果上取得平衡，适合个人开发者。
-  _B站_
-- [2026 AI Agent 深度横评：OpenClaw、Codex、Hermes 等主流工具对比](https://www.bilibili.com/video/av116747361322195) —— 视频对比了 5 款主流 AI Agent 工具，帮你避免踩坑，适合正在选型 Agent 框架的你。
-  _B站_
+- [Elon Musk 预测中国将在 Q1 2027 拥有 Fable 5 级 AI 模型，中国 AI 公司 CEO 称更快](https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-that-china-will-have-a-fable-5-class-ai-model-probably-q1-next-year-ceo-of-chinese-anthropic-rival-says-it-wont-take-that-long) —— 中国 AI 追赶速度超预期，但模型能力差距仍需验证，对个人开发者意味着更多开源模型选择。
+  _Tom's Hardware_
+- [OpenAI 为 IPO 招兵买马：Transformer 共同发明人 Noam Shazeer 加入](https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/) —— OpenAI 在 IPO 前引入关键人才，强化技术领导力，但 IPO 时间表和估值仍不确定。
+  _TechCrunch_
+
+### AI 算力 / 半导体
+
+- [Intel 任命前 SK 海力士 CEO 领导先进封装，股价大涨 10%](https://wallstreetcn.com/articles/3775097) —— Intel 代工业务加速，先进封装独立运营，苹果确认合作，但能否扭转颓势仍需观察。
+  _华尔街见闻_
+- [Amazon 计划直接销售 AI 芯片，挑战 Nvidia](https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/) —— AWS 拟将 Trainium 芯片对外销售，CEO 称这是 500 亿美元机会，但 Nvidia 生态壁垒极高。
+  _TechCrunch_
+- [ASML 否认 EUV 光刻机已运往中国，美国商务部表达担忧](https://www.tomshardware.com/tech-industry/semiconductors/asml-denies-us-government-report-that-its-euv-chipmaking-tool-was-shipped-to-china-says-rumors-are-inaccurate-and-damaging-to-our-reputation) —— ASML 强烈否认向中国出口 EUV 设备，但美国商务部仍表关切，地缘政治风险持续。
+  _Tom's Hardware_
+
+### 金融
+
+- [Bernie Sanders 提出 AI 企业 50% 公有化法案，特朗普支持“预分配”](https://www.tomshardware.com/tech-industry/artificial-intelligence/bernie-sanders-files-bill-proposing-50-percent-public-ownership-of-us-ai-firms-and-giving-out-usd1-000-dividends-vp-vance-says-trump-supports-giving-the-american-people-a-stake-in-ai-companies-prefers-pre-distribution-over-giving-away-cash) —— AI 公有化提案引发争议，虽通过可能性低，但反映 AI 财富分配成为政治焦点。
+  _Tom's Hardware_
+- [本周美股资金流入创纪录 1192 亿美元，科技股最受追捧](https://wallstreetcn.com/articles/3775107) —— 资金疯狂涌入科技股，但美银警告若特朗普支持率不反弹，市场情绪可能逆转。
+  _华尔街见闻_
+
+### 大厂 AI 动态
+
+- [Snap 分拆 AI 视频团队成立新公司 Dotmo](https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/) —— Snap 因成本压力分拆 AI 视频团队，独立运营能否成功存疑。
+  _TechCrunch_
+- [Baseten 据报以 130 亿美元估值融资 15 亿美元](https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/) —— AI 推理基础设施持续吸金，Baseten 估值飙升，但竞争激烈。
+  _TechCrunch_
+- [Elastic 以 8500 万美元收购 AI 调试初创公司 Deductive AI](https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/) —— AI 调试工具受大厂青睐，但收购金额不大，市场仍在早期。
+  _TechCrunch_
 
 ---
 
