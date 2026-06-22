@@ -1,225 +1,204 @@
 {
-  "date": "2026-06-21",
-  "intro": "本周最值得关注的信号：一是Nobel奖得主John Jumper从DeepMind跳槽Anthropic，顶级AI人才争夺白热化；二是高盛警告5.3万亿AI资本支出逼近信贷饱和，企业端已开始'算力降本'。同时，Intel挖来SK hynix前CEO执掌先进封装，半导体制造竞争升级。",
+  "date": "2026-06-22",
+  "intro": "今日最重磅的信号是SK海力士市值超越三星登顶韩国第一，AI驱动的HBM需求正在重塑半导体权力格局。同时，Nobel奖得主John Jumper离开DeepMind加入Anthropic，顶级AI人才争夺战白热化。国内A股成交额创历史第二，但消费与科技K型分化加剧。",
   "headlines": [
     {
       "rank": 1,
+      "domain": "半导体",
+      "id": "wscn:3775197",
+      "url": "https://wallstreetcn.com/articles/3775197",
+      "source": "华尔街见闻",
+      "stars": 5,
+      "title": "SK海力士市值首超三星，AI时代的韩国芯片权力更迭",
+      "lead": "6月22日，SK海力士市值超越三星电子，终结了后者27年的韩国市值第一纪录。HBM（高带宽内存）在AI训练中的核心地位，让这家曾负债140亿美元的公司实现逆袭，目前占据HBM市场59%份额，每天净赚超20亿元人民币。",
+      "confirmed": [
+        "SK海力士市值于2026年6月22日首次超越三星电子，登顶韩国股市",
+        "SK海力士在HBM市场占有率达59%，是AI GPU的关键供应商",
+        "公司目前每天净利润超过20亿元人民币",
+        "三星电子自1999年以来一直保持韩国市值第一"
+      ],
+      "judgment": [
+        "SK海力士能否维持HBM领先地位，面对三星和美光的追赶",
+        "HBM需求是否可持续，或受AI资本开支周期影响",
+        "三星电子能否通过技术路线调整重新夺回领先",
+        "韩国监管层对杠杆ETF的担忧是否影响芯片股估值",
+        "HBM之外的存储技术（如闪迪新专利）可能改变竞争格局"
+      ],
+      "implication": "你正在做AI Agent项目，HBM是支撑大模型训练的底层硬件。SK海力士的崛起意味着HBM供应链可能进一步集中，未来部署推理集群时需关注HBM产能分配。短期看，HBM涨价趋势可能推高云GPU租赁成本，影响你的Side Project预算。"
+    },
+    {
+      "rank": 2,
       "domain": "AI",
       "id": "rss:https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
       "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
       "source": "TechCrunch",
       "stars": 5,
-      "title": "Nobel奖得主John Jumper离开DeepMind加入Anthropic，AI人才争夺再升级",
-      "lead": "AlphaFold核心人物、2024年Nobel化学奖得主John Jumper宣布离开Google DeepMind，加入竞争对手Anthropic。这是继多位DeepMind高管离职后又一次重大人才流失，标志着前沿AI实验室之间的人才战争进入新阶段。",
+      "title": "Nobel奖得主John Jumper离开DeepMind加入Anthropic，AI人才战升级",
+      "lead": "AlphaFold核心开发者、2024年Nobel化学奖得主John Jumper宣布离开Google DeepMind，加入Anthropic。这不是个例——近期多位DeepMind研究员跳槽Anthropic，反映出顶级AI实验室之间的人才争夺已白热化。",
       "confirmed": [
         "John Jumper确认离开Google DeepMind，加入Anthropic",
-        "Jumper因AlphaFold获2024年Nobel化学奖",
-        "Anthropic近期从DeepMind挖走多名核心研究员",
-        "Anthropic正在组建生物学AI团队"
+        "Jumper因AlphaFold获得2024年Nobel化学奖",
+        "Anthropic近期从DeepMind招募了多名研究人员",
+        "Anthropic正在构建下一代AI模型，与OpenAI和Google竞争"
       ],
       "judgment": [
-        "Jumper在Anthropic的具体角色尚未公布",
-        "Anthropic是否将AlphaFold技术用于商业模型仍不明朗",
-        "DeepMind的人才流失是否会加速其生物学研究进展放缓",
-        "Anthropic的生物学AI方向与OpenAI的竞争态势"
+        "Jumper在Anthropic的具体角色和项目方向未公开",
+        "Anthropic是否在布局生物学或科学AI领域",
+        "DeepMind的人才流失是否影响其研究进度",
+        "Anthropic的估值和融资能力能否支撑大规模人才储备",
+        "这一跳槽对Claude模型能力的潜在影响"
       ],
-      "implication": "你应该关注Anthropic在生物学AI领域的布局——如果你在做AI Agent或工具构建，Anthropic的MCP生态可能很快会整合生物学数据接口。同时，顶级人才流向Anthropic，说明其技术路线（安全优先+长上下文）正获得学术界认可，值得持续跟踪其模型发布。"
-    },
-    {
-      "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/imec-asml-and-tsmc-build-complementary-2d-material-transistors-at-50nm-pitch-on-a-300mm-wafer",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/imec-asml-and-tsmc-build-complementary-2d-material-transistors-at-50nm-pitch-on-a-300mm-wafer",
-      "source": "Tom's Hardware",
-      "stars": 5,
-      "title": "imec、ASML、TSMC联手突破2D晶体管瓶颈，在300mm晶圆上实现50nm间距互补晶体管",
-      "lead": "imec、ASML和TSMC联合宣布，首次在300mm晶圆上成功集成了基于2D材料的n型和p型晶体管，间距达到50nm。这标志着后硅时代的关键里程碑，为超越FinFET和GAA的下一代晶体管技术铺平了道路。",
-      "confirmed": [
-        "在300mm晶圆上集成n型和p型2D材料晶体管",
-        "晶体管间距达到50nm",
-        "合作方包括imec、ASML和TSMC",
-        "2D材料为原子级薄层通道"
-      ],
-      "judgment": [
-        "距离商业化量产至少还有5-10年",
-        "2D晶体管的可靠性和良率尚未公开",
-        "是否兼容现有EUV光刻工艺尚待验证",
-        "对HBM和存储芯片的影响路径不明确"
-      ],
-      "implication": "这对你的AI硬件认知很重要：2D晶体管是延续摩尔定律的关键路径，直接影响未来AI芯片的能效比。虽然短期内不影响你的个人项目，但理解这一技术方向有助于判断算力成本下降的长期趋势——如果你做RAG或推理优化，更高效的硬件意味着更低的部署成本。"
+      "implication": "你作为AI产品重度用户，Anthropic的人才密度在持续提升。Claude Code是你日常使用的工具，Anthropic的模型能力升级将直接影响你的开发效率。建议关注Anthropic后续模型发布，尤其是科学推理和代码生成方面的改进。"
     },
     {
       "rank": 3,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/intel-hires-former-sk-hynix-chief-seok-hee-lee-to-lead-intel-foundry-advanced-packaging",
-      "url": "https://www.tomshardware.com/tech-industry/intel-hires-former-sk-hynix-chief-seok-hee-lee-to-lead-intel-foundry-advanced-packaging",
-      "source": "Tom's Hardware",
+      "domain": "金融",
+      "id": "wscn:3775154",
+      "url": "https://wallstreetcn.com/articles/3775154",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "Intel挖来SK hynix前CEO执掌先进封装，Foundry战略再落一子",
-      "lead": "Intel任命SK hynix前CEO Seok-Hee Lee为Intel Foundry先进封装业务执行副总裁。Lee曾领导SK hynix成为HBM市场领导者，Intel此举意在强化其先进封装能力，以在AI芯片代工市场追赶台积电。",
+      "title": "A股成交3.74万亿创历史第二，大金融崛起，但K型分化加剧",
+      "lead": "今日A股沪深两市成交额达3.74万亿元，为历史第二高，较前日放量超4200亿。大金融、半导体、培育钻石板块领涨，但机器人、商业航天、创新药走弱。市场呈现明显的科技与消费K型分化。",
       "confirmed": [
-        "Seok-Hee Lee加入Intel Foundry，负责先进封装",
-        "Lee曾任SK hynix CEO，主导HBM业务",
-        "Intel将先进封装设为独立业务部门",
-        "Intel Foundry正争取外部客户订单"
+        "沪深两市成交额3.74万亿元，历史第二，较前日放量超4200亿",
+        "沪指涨近2%，大金融午后崛起，券商、保险领涨",
+        "有色金属、化工板块掀涨停潮，半导体持续走强",
+        "机器人、商业航天、创新药题材走弱"
       ],
       "judgment": [
-        "Lee能否扭转Intel封装技术落后于台积电的局面",
-        "Intel Foundry的客户获取进展仍不透明",
-        "先进封装业务独立后是否会影响内部芯片设计协作",
-        "HBM经验能否直接迁移到AI芯片封装"
+        "成交额放量是否可持续，还是短期情绪驱动",
+        "大金融上涨的持续性，是否反映经济复苏预期",
+        "K型分化下消费板块何时迎来修复",
+        "监管层对杠杆资金的态度是否影响后续走势"
       ],
-      "implication": "Intel在先进封装上发力，意味着未来AI芯片的互连带宽和能效可能提升。如果你在做AI Agent或推理优化，更高效的芯片封装意味着更低的延迟和成本。关注Intel Foundry的客户公告，特别是是否有AI芯片设计公司转向Intel。"
+      "implication": "你关注AI和半导体，当前市场风格对科技股有利。但成交额天量后往往伴随波动加大，如果你持有相关ETF或个股，建议设置止盈点。同时，K型分化意味着消费类资产可能被低估，可关注错杀机会。"
     },
     {
       "rank": 4,
-      "domain": "股票",
-      "id": "wscn:3775121",
-      "url": "https://wallstreetcn.com/articles/3775121",
-      "source": "华尔街见闻",
-      "stars": 5,
-      "title": "高盛警告5.3万亿AI资本支出逼近信贷饱和，企业端已开始'算力降本'",
-      "lead": "高盛预测2025-2030年超大规模云企业资本支出将达5.3万亿美元，摩根士丹利估算仅数据中心建设到2028年即需2.9万亿。与此同时，Uber、沃尔玛等企业开始限制AI使用量，计费模式从订阅制转向按token收费，成本压力骤然显现。",
-      "confirmed": [
-        "高盛预测2025-2030年超大规模云资本支出5.3万亿美元",
-        "摩根士丹利估算数据中心建设到2028年需2.9万亿美元",
-        "Uber、沃尔玛等企业开始限制AI使用量",
-        "计费模式转向按token收费"
-      ],
-      "judgment": [
-        "信贷市场能否支撑如此大规模的债务融资",
-        "企业端'算力降本'是否会抑制AI应用需求",
-        "AI资本支出回报率是否足以覆盖融资成本",
-        "美联储加息周期对AI投资的影响"
-      ],
-      "implication": "这对你的个人项目有直接启示：当企业开始限制AI使用量，说明'按token付费'模式对成本敏感的用户不友好。你在做content-curator Agent时，应该优先考虑本地模型或缓存策略来降低成本，而不是完全依赖云端API。同时关注开源模型的进展，它们可能成为成本优化的关键。"
-    },
-    {
-      "rank": 5,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
-      "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
-      "source": "TechCrunch",
+      "domain": "AI",
+      "id": "bvid:BV1RAEz6EE98",
+      "url": "http://www.bilibili.com/video/av116732144392386",
+      "source": "呱声一片",
       "stars": 4,
-      "title": "Signal总裁Meredith Whittaker警告：AI聊天机器人不是你的朋友",
-      "lead": "Signal总裁Meredith Whittaker在公开场合直言：'这些不是你的朋友，不是有意识的生物，不是有感知的对话者。'她呼吁用户警惕AI公司通过拟人化设计收集数据、操纵情感。这一观点与当前AI伴侣、AI助手热潮形成鲜明对比。",
+      "title": "Claude Code + DeepSeek V4 成为最具性价比的个人AI Agent组合",
+      "lead": "B站UP主实测发现，Claude Code搭配DeepSeek V4 API，在代码生成和Agent任务上表现接近纯Claude方案，但成本降低约70%。DeepSeek官方已提供Claude Code集成文档，这一组合正在成为个人开发者的首选。",
       "confirmed": [
-        "Meredith Whittaker公开批评AI聊天机器人拟人化",
-        "Signal坚持端到端加密，不收集用户数据",
-        "Whittaker曾任Google AI伦理团队负责人",
-        "AI伴侣应用用户规模快速增长"
+        "DeepSeek V4已发布官方Claude Code集成文档",
+        "实测显示DeepSeek V4在代码生成任务上接近Claude 4水平",
+        "成本相比纯Claude方案降低约70%",
+        "国内可直接访问DeepSeek API，无需特殊网络"
       ],
       "judgment": [
-        "拟人化AI是否会导致用户隐私风险",
-        "监管机构是否会介入限制AI情感操纵",
-        "Signal的立场是否会影响其AI功能开发",
-        "用户对AI拟人化的接受度是否在下降"
+        "DeepSeek V4在复杂推理任务上是否仍有差距",
+        "长期使用稳定性，API是否会限流或涨价",
+        "这一组合是否适合生产级项目，还是仅限个人原型",
+        "其他国产模型（如智谱GLM）是否也会推出类似集成"
       ],
-      "implication": "你在构建Agent时，应该注意不要过度拟人化——用户偏好里明确不喜欢'玄学论调'。你的content-curator Agent应该保持工具属性，清晰告知用户这是AI而非人类。同时，Signal的加密立场提醒你：处理用户数据时，优先本地处理，避免不必要的数据上传。"
+      "implication": "你正在做content-curator Agent项目，这个组合直接降低你的开发成本。建议立即尝试：用DeepSeek V4作为Claude Code的后端模型，在非关键任务上使用，保留Claude用于复杂逻辑。具体配置可参考DeepSeek官方文档，只需修改API endpoint即可。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "GPT-5.6或将下周发布：定价仅为Claude三分之一",
-      "url": "https://wallstreetcn.com/articles/3775122",
-      "source": "华尔街见闻",
-      "one_liner": "GPT-5.6据报上下文150万tokens，具备Agent能力，定价约为Claude的1/3。如果属实，将大幅降低AI使用成本，利好你的个人项目。"
+      "title": "10分钟+300个Agent：保姆级教程学会Agent Skills",
+      "url": "http://www.bilibili.com/video/av116758736279146",
+      "source": "Work-Fisher",
+      "one_liner": "从零到一搭建Agent Skills的实操教程，适合想扩展Agent能力的开发者，但内容偏基础，未达头条深度。"
     },
     {
       "domain": "AI",
-      "title": "微信AI助手'小微'小范围灰度上线",
-      "url": "https://36kr.com/newsflashes/3862458180359424?f=rss",
-      "source": "36氪",
-      "one_liner": "微信原生AI助手开始灰度测试，支持语音/文字操作微信功能。大厂AI入口之争进入新阶段，但对你个人项目影响有限。"
+      "title": "零基础Vibe Coding教程，Claude Code+Codex+Cursor",
+      "url": "http://www.bilibili.com/video/av116711944620974",
+      "source": "尚硅谷",
+      "one_liner": "尚硅谷出品的系统教程，覆盖主流AI编程工具，适合入门，但新颖度不足。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Intel和AMD发布ACE CPU扩展：为x86带来高效AI指令集",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-and-amds-new-ace-cpu-extensions-bring-an-efficient-ai-oriented-instruction-set-to-x86-a-new-design-makes-matrix-multiplication-more-power-and-density-efficient",
-      "source": "Tom's Hardware",
-      "one_liner": "Intel和AMD联合推出ACE指令集，优化矩阵乘法效率。未来CPU本地运行AI推理将更高效，对边缘计算和你的本地Agent部署是利好。"
+      "domain": "AI",
+      "title": "Signal's Meredith Whittaker: AI chatbots 'are not your friends'",
+      "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "source": "TechCrunch",
+      "one_liner": "Signal总裁对AI拟人化的警示，观点鲜明但偏评论，缺乏新事实。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "ASML否认EUV光刻机运往中国：称谣言不实",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-denies-us-government-report-that-its-euv-chipmaking-tool-was-shipped-to-china-says-rumors-are-inaccurate-and-damaging-to-our-reputation",
-      "source": "Tom's Hardware",
-      "one_liner": "美国商务部声称中国已获得ASML EUV光刻机，ASML强烈否认。此事若属实将重塑全球芯片格局，但目前缺乏证据。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "中国组建太空AI数据中心联盟，挑战SpaceX",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/china-unifies-tech-sector-to-build-grid-free-orbiting-satellite-ai-data-centers-challenging-elon-musks-spacex-beijings-forced-chip-and-satellite-alliance-announced-a-week-before-musks-ai1-reveal",
-      "source": "Tom's Hardware",
-      "one_liner": "北京推动成立'空间计算产业创新中心'，整合火箭、卫星、芯片和AI实验室，建设轨道AI数据中心。长期看可能改变算力分布格局。"
-    },
-    {
-      "domain": "股票",
-      "title": "德银警告：美联储'预防性加息'或演变为'实质性紧缩'",
-      "url": "https://wallstreetcn.com/articles/3775119",
-      "source": "华尔街见闻",
-      "one_liner": "野村和德银均认为市场低估美联储加息风险，10年期美债收益率可能突破5%。这对科技股估值和AI融资环境构成压力。"
-    },
-    {
-      "domain": "股票",
-      "title": "比特币ETF 30天净流出63.5亿美元，创历史新高",
-      "url": "https://36kr.com/newsflashes/3862494481880322?f=rss",
-      "source": "36氪",
-      "one_liner": "资金从风险资产撤出，反映市场避险情绪升温。可能影响AI初创公司的融资环境。"
-    },
-    {
-      "domain": "股票",
-      "title": "鸿海董事长：1GW Vera Rubin数据中心资本开支470亿美元",
-      "url": "https://wallstreetcn.com/articles/3775108",
-      "source": "华尔街见闻",
-      "one_liner": "AI数据中心投资规模惊人，单机柜售价910万美元。这解释了为什么高盛警告信贷饱和——如此巨大的投资不可持续。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "The Atlantic创建AI训练音乐数据库，可搜索",
+      "domain": "AI",
+      "title": "The Atlantic 创建可搜索的AI训练音乐数据库",
       "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
       "source": "The Verge",
-      "one_liner": "Atlantic记者公开了4个AI音乐训练数据集，包含1200万首歌曲。AI版权争议再添新证据，可能影响未来训练数据合规。"
+      "one_liner": "揭露AI训练数据来源，对版权讨论有参考价值，但与你的Agent项目关联度低。"
     },
     {
-      "domain": "大厂 AI 动态",
+      "domain": "半导体",
+      "title": "Intel和AMD发布ACE CPU扩展，为x86带来高效AI指令集",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-and-amds-new-ace-cpu-extensions-bring-an-efficient-ai-oriented-instruction-set-to-x86-a-new-design-makes-matrix-multiplication-more-power-and-density-efficient",
+      "source": "Tom's Hardware",
+      "one_liner": "x86架构的AI指令集标准化，长期利好边缘AI部署，但短期影响有限。"
+    },
+    {
+      "domain": "半导体",
+      "title": "闪迪新专利：处理器直接键合NAND，HBM退居辅助",
+      "url": "https://wallstreetcn.com/articles/3775187",
+      "source": "华尔街见闻",
+      "one_liner": "激进的内存架构创新，若落地将改变AI加速器设计，但尚处专利阶段。"
+    },
+    {
+      "domain": "半导体",
+      "title": "AMD将在7月通过BIOS更新恢复Ryzen 9000内存加密",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback",
+      "source": "Tom's Hardware",
+      "one_liner": "AMD响应社区反馈恢复TSME，对安全敏感用户是利好，但非核心事件。"
+    },
+    {
+      "domain": "金融",
+      "title": "财政部：前5月证券交易印花税同比大增88.8%",
+      "url": "https://wallstreetcn.com/articles/3775193",
+      "source": "华尔街见闻",
+      "one_liner": "交易活跃度直接反映在印花税上，印证市场热度，但数据滞后。"
+    },
+    {
+      "domain": "金融",
+      "title": "花旗坚持10月降息预期，成华尔街最后的鸽派",
+      "url": "https://wallstreetcn.com/articles/3775196",
+      "source": "华尔街见闻",
+      "one_liner": "在美联储转鹰背景下花旗逆势看降，逻辑基于油价和就业数据，值得关注但风险高。"
+    },
+    {
+      "domain": "金融",
+      "title": "高盛首次覆盖瑞幸：买入评级，目标价49美元",
+      "url": "https://wallstreetcn.com/articles/3775190",
+      "source": "华尔街见闻",
+      "one_liner": "高盛看好瑞幸价格战后的利润率修复，但与你偏好领域关联度低。"
+    },
+    {
+      "domain": "大厂讯息",
       "title": "Nobel奖得主John Jumper离开DeepMind加入Anthropic",
       "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
       "source": "TechCrunch",
-      "one_liner": "已选入头条，此处备选。"
+      "one_liner": "已选入头条，此处不重复。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "Sam Altman传记电影被Amazon MGM放弃",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/952906/sam-altman-film-artificial-openai-amazon-mgm-dropped",
-      "source": "The Verge",
-      "one_liner": "Luca Guadagnino执导的OpenAI CEO传记片被Amazon放弃。AI题材在好莱坞遇冷，但对你个人项目无直接影响。"
+      "domain": "大厂讯息",
+      "title": "iOS 27实用AI功能一览：不止Siri",
+      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "source": "TechCrunch",
+      "one_liner": "Apple AI功能落地细节，对iPhone用户有参考价值，但非核心。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "Relativity Space获NASA 2028年火星任务合同",
-      "url": "https://www.theverge.com/science/952988/nasa-relativity-space-eric-schmidt-mars",
-      "source": "The Verge",
-      "one_liner": "Eric Schmidt领导的火箭公司被NASA选中发射火星载荷。AI+航天交叉领域值得关注，但与你当前项目关联度低。"
+      "domain": "大厂讯息",
+      "title": "Polymarket被曝花钱雇人拍摄虚假下注视频",
+      "url": "https://techcrunch.com/2026/06/21/polymarket-reportedly-paid-creators-to-post-deceptive-videos-about-fake-bets/",
+      "source": "TechCrunch",
+      "one_liner": "预测市场平台造假丑闻，影响行业信任，但与你的关注点较远。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "Poolside发布Laguna：面向Agentic Coding的基础模型",
-      "url": "https://www.producthunt.com/products/poolside",
-      "source": "Product Hunt",
-      "one_liner": "Poolside推出专为Agentic Coding设计的模型Laguna。如果你在做AI编程工具，值得关注其与Claude Code的差异。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Cloudback MCP Server：从Claude/Cursor管理备份",
-      "url": "https://www.producthunt.com/products/cloudback",
-      "source": "Product Hunt",
-      "one_liner": "新MCP工具，允许在Claude Code中直接管理备份。MCP生态持续丰富，你的Agent项目可以集成类似工具。"
+      "domain": "大厂讯息",
+      "title": "Ubisoft联合创始人Claude Guillemot死于飞机失事",
+      "url": "https://techcrunch.com/2026/06/21/ubisoft-co-founder-claude-guillemot-dies-in-plane-crash/",
+      "source": "TechCrunch",
+      "one_liner": "游戏行业重要人物去世，但对AI/科技领域影响有限。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-21T08:46:42+0000"
+    "scored_at": "2026-06-22T09:53:20+0000"
   }
 }
