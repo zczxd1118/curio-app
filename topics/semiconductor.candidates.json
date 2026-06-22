@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-06-21T08:05:49.022264+00:00",
+  "fetched_at": "2026-06-22T09:17:11.534030+00:00",
   "platforms": [
     "rss"
   ],
@@ -196,6 +196,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/securing-next-generation-defense-by-design/",
+      "title": "Securing Next-Generation Defense by Design",
+      "url": "https://www.eetimes.com/securing-next-generation-defense-by-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Daryl Flack",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-22T07:00:00+00:00",
+      "summary": "In an environment of cloud platforms and AI models, security must be embedded into defense systems from the outset. The post Securing Next-Generation Defense by Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/defense-sends-clear-signal-to-canadian-semiconductor-industry/",
       "title": "Defense Sends Clear Signal to Canadian Semiconductor Industry",
       "url": "https://www.eetimes.com/defense-sends-clear-signal-to-canadian-semiconductor-industry/",
@@ -349,20 +366,275 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/the-first-time-right-revolution/",
-      "title": "The First-Time-Right Revolution",
-      "url": "https://www.eetimes.com/the-first-time-right-revolution/",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/powerhouse-amd-ryzen-7-9800x3d-hits-record-low-price-at-amazon-uk-now-just-gbp339-99-get-one-of-our-favourite-gaming-cpus-with-its-game-changing-amd-3d-v-cache-technology",
+      "title": "Powerhouse AMD Ryzen 7 9800X3D hits record-low price at Amazon UK, now just £339.99 — get one of our favourite gaming CPUs with its game-changing AMD 3D V-cache technology",
+      "url": "https://www.tomshardware.com/pc-components/cpus/powerhouse-amd-ryzen-7-9800x3d-hits-record-low-price-at-amazon-uk-now-just-gbp339-99-get-one-of-our-favourite-gaming-cpus-with-its-game-changing-amd-3d-v-cache-technology",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Atanas Dikov",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-17T17:42:45+00:00",
-      "summary": "This paper provides an over view of the Melexis solutions for Zero latency high precision motor control and end of shaft position and torque sensing. A family of magnetic and inductive products for every joint type in a robot, from humanoid to Cobots, from legs to fingers. The post The First-Time-Right Revolution appeared first on EE Times.",
+      "published_at": "2026-06-22T08:00:05+00:00",
+      "summary": "The AMD Ryzen 7 9800X3D has hit a record low Amazon UK price of £339.99, making it a must-buy option for any gaming PC build or upgrade.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/handheld-gaming/nintendo-switch-2-is-usd399-at-woot-for-new-customers-usd419-for-returning-customers-with-code-save-up-to-usd100-on-gaming-handheld-while-stocks-last",
+      "title": "Nintendo Switch 2 is $399 at Woot for new customers, $419 for returning customers with code — save up to $100 on gaming handheld while stocks last",
+      "url": "https://www.tomshardware.com/video-games/handheld-gaming/nintendo-switch-2-is-usd399-at-woot-for-new-customers-usd419-for-returning-customers-with-code-save-up-to-usd100-on-gaming-handheld-while-stocks-last",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stephen Warwick",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-22T07:42:42+00:00",
+      "summary": "Get a brand new Nintendo Switch 2 for less.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/live/news/amazon-prime-day-2026",
+      "title": "Best Amazon Prime Day tech deals live — PC hardware deals on SSDs, RAM, GPUs, CPUs, gaming laptops, and more",
+      "url": "https://www.tomshardware.com/live/news/amazon-prime-day-2026",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "The Editors of Tom&#039;s Hardware",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-22T06:11:33+00:00",
+      "summary": "Find the very best PC hardware deals during Amazon Prime Day.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cooler-master-nr2-pro-mini-itx-system-packing-an-rtx-5080-is-usd400-off-in-newegg-deal-grab-a-compact-yet-powerful-liquid-cooled-gaming-pc-for-usd2-799-99",
+      "title": "Cooler Master NR2 Pro mini-ITX system packing an RTX 5080 is $400 off in Newegg deal — grab a compact yet powerful liquid cooled gaming PC for $2,799.99",
+      "url": "https://www.tomshardware.com/pc-components/cooler-master-nr2-pro-mini-itx-system-packing-an-rtx-5080-is-usd400-off-in-newegg-deal-grab-a-compact-yet-powerful-liquid-cooled-gaming-pc-for-usd2-799-99",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T16:47:16+00:00",
+      "summary": "The Cooler Master NR2 Pro combines a Gigabyte RTX 5080, Intel Core Ultra 7 265F, 2TB Gen 4.0 SSD, and the NR200P Max chassis into a compact gaming machine that can tackle 4K titles with ease.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/corsairs-tiny-touchscreen-display-is-on-sale-at-20-percent-off-ahead-of-prime-day-get-the-xeneon-edge-14-5-inch-lcd-touchscreen-for-just-usd199-99",
+      "title": "Corsair’s tiny touchscreen display is on sale at 20% off ahead of Prime Day — get the Xeneon Edge 14.5-inch LCD touchscreen for just $199.99.",
+      "url": "https://www.tomshardware.com/pc-components/corsairs-tiny-touchscreen-display-is-on-sale-at-20-percent-off-ahead-of-prime-day-get-the-xeneon-edge-14-5-inch-lcd-touchscreen-for-just-usd199-99",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T15:41:18+00:00",
+      "summary": "Corsair just put a 20% discount on the 14.5-inch Xeneon Edge touchscreen display. This brings its price down to just $199.99, saving you $50 from its original purchase price.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/ingenious-modder-converts-countertop-ice-machine-into-an-rtx-3060-gpu-cooler-with-a-beer-fridge-thermostat-mod-reduces-temps-by-up-to-62-percent-in-games-cyberpunk-2077-runs-at-22-c",
+      "title": "Ingenious modder converts countertop ice machine into an RTX 3060 GPU cooler with a beer fridge thermostat — mod reduces temps by up to 62% in games, Cyberpunk 2077 runs at 22°C",
+      "url": "https://www.tomshardware.com/pc-components/gpus/ingenious-modder-converts-countertop-ice-machine-into-an-rtx-3060-gpu-cooler-with-a-beer-fridge-thermostat-mod-reduces-temps-by-up-to-62-percent-in-games-cyberpunk-2077-runs-at-22-c",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T14:40:14+00:00",
+      "summary": "Turns out, an ice machine can cool a GPU perfectly fine as long as you're willing to modify it to the extreme and are patient enough to deal with the leaks.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpu-drivers/open-source-nvidia-vulkan-driver-nvk-gains-experimental-dlss-support-by-importing-pre-baked-cuda-binaries",
+      "title": "Open-source Vulkan driver NVK gains experimental DLSS support — bringing Nvidia’s upscaling tech to Linux via imported CUDA binaries",
+      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/open-source-nvidia-vulkan-driver-nvk-gains-experimental-dlss-support-by-importing-pre-baked-cuda-binaries",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T14:27:19+00:00",
+      "summary": "NVK, the community-built open-source Vulkan driver for Nvidia GPUs in Mesa, has gained experimental DLSS support.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/ubisoft-co-founder-claude-guillemot-dies-in-plane-crash-french-publisher-established-in-1986-became-one-of-the-biggest-entertainment-companies-in-the-world",
+      "title": "Ubisoft co-founder Claude Guillemot dies in plane crash — French publisher established in 1986 became one of the biggest entertainment companies in the world",
+      "url": "https://www.tomshardware.com/video-games/ubisoft-co-founder-claude-guillemot-dies-in-plane-crash-french-publisher-established-in-1986-became-one-of-the-biggest-entertainment-companies-in-the-world",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T14:04:20+00:00",
+      "summary": "Ubisoft co-founder Claude Guillemot was killed when his twin-engine private plane crashed enroute to an airshow. Aside from building the French gaming empire, Guillemot was also a licensed and avid pilot.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/samsungs-32-inch-1440p-165-hz-gaming-monitor-falls-to-its-lowest-price-yet-with-46-percent-off-for-prime-day-grab-the-curved-odyssey-g55c-at-just-usd189-99",
+      "title": "Samsung's 32-inch 1440p 165 Hz gaming monitor falls to its lowest price yet with 46% off for Prime Day — grab the curved Odyssey G55C at just $189.99",
+      "url": "https://www.tomshardware.com/pc-components/samsungs-32-inch-1440p-165-hz-gaming-monitor-falls-to-its-lowest-price-yet-with-46-percent-off-for-prime-day-grab-the-curved-odyssey-g55c-at-just-usd189-99",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T13:56:33+00:00",
+      "summary": "Featuring a 32-inch 1000R curved QHD panel, 165 Hz refresh rate, 1 ms MPRT response time, and AMD FreeSync support, the Samsung Odyssey G5 G55C has dropped to its lowest price of $189.99 ahead of Prime Day.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/mechanical-keyboards/one-of-our-favorite-budget-gaming-keyboards-drops-back-down-to-its-lowest-ever-price-of-usd45-at-amazon-rk-r65-packs-lubed-switches-metallic-knob-and-gasket-mount-for-excellent-sound-and-feel",
+      "title": "One of our favorite budget gaming keyboards drops back down to its lowest-ever price of $45 at Amazon — RK R65 packs lubed switches, metallic knob, and gasket mount for excellent sound and feel",
+      "url": "https://www.tomshardware.com/peripherals/mechanical-keyboards/one-of-our-favorite-budget-gaming-keyboards-drops-back-down-to-its-lowest-ever-price-of-usd45-at-amazon-rk-r65-packs-lubed-switches-metallic-knob-and-gasket-mount-for-excellent-sound-and-feel",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Matt Safford",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T13:41:14+00:00",
+      "summary": "Our favorite 60% budget gaming keyboard, the Royal Kludge R65, is back down to just $44 with coupon at Amazon, its lowest-ever price. This wired clacker delivers excellent sound and feel for the price, thanks to lubed switches, a gasket mount, and silicone pads. It also has a metal knob and QMK/VIA support.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/mini-pcs/dramatically-redesigned-gmktec-evo-x3-shown-bearing-lisa-sus-signature-of-approval-flagship-ai-mini-pc-workstation-is-built-around-amds-ryzen-ai-max-395-strix-halo-processor-again",
+      "title": "Dramatically redesigned GMKtec EVO-X3 shown bearing Lisa Su’s signature of approval — flagship AI mini PC workstation is built around AMD’s Ryzen AI Max+ 395 'Strix Halo' processor, again",
+      "url": "https://www.tomshardware.com/desktops/mini-pcs/dramatically-redesigned-gmktec-evo-x3-shown-bearing-lisa-sus-signature-of-approval-flagship-ai-mini-pc-workstation-is-built-around-amds-ryzen-ai-max-395-strix-halo-processor-again",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T12:46:59+00:00",
+      "summary": "GMKtec's dramatically redesigned EVO-X3 'Strix Halo' Mini PC gets Lisa Su’s signature of approval.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/bank-of-korea-flags-samsung-and-sk-hynix-chip-bonuses-as-a-national-inflation-risk",
+      "title": "Samsung and SK hynix bonuses for chip workers flagged as a national inflation risk — Bank of Korea projects full-year inflation significantly above its 2% target",
+      "url": "https://www.tomshardware.com/tech-industry/bank-of-korea-flags-samsung-and-sk-hynix-chip-bonuses-as-a-national-inflation-risk",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T11:58:39+00:00",
+      "summary": "The Bank of Korea has named performance bonuses at Samsung Electronics and SK hynix as a risk to the country's inflationary stability.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/gaming-mice/telehealth-doctor-treats-patients-using-razer-naga-gaming-mouse-12-button-mmo-thumb-grid-simplifies-medical-workflow-automates-medical-scripting",
+      "title": "Telehealth doctor treats patients using Razer Naga gaming mouse — 12-button MMO thumb grid simplifies medical workflow, automates medical scripting",
+      "url": "https://www.tomshardware.com/peripherals/gaming-mice/telehealth-doctor-treats-patients-using-razer-naga-gaming-mouse-12-button-mmo-thumb-grid-simplifies-medical-workflow-automates-medical-scripting",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T11:30:00+00:00",
+      "summary": "Dr. James Ries says that his Razer Naga V2 MMO gaming mouse helps him treat patients by keeping relevant medical responses at his fingertips.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/maker-stem/creality-falcon-t1-review",
+      "title": "Creality Falcon T1 review: Modular laser engraving",
+      "url": "https://www.tomshardware.com/maker-stem/creality-falcon-t1-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Andrew Sink",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T11:10:00+00:00",
+      "summary": "The Creality Falcon T1 is a galvo laser engraver that uses swappable diode, fiber, UV, and MOPA laser modules to engrave wood, crystal, metal, and a wide range of other materials. With a base price of $2,249, the Falcon T1 offers a promising platform for an ecosystem that includes a conveyor belt, rotary attachment, and an air filter. Only three of the five advertised modules are available for purchase at launch, so while the T1 is off to a good start, it may need more time to mature.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/age-of-empires-iis-goats-used-as-ai-building-blocks-to-build-a-neural-network-goaty-experiment-mocks-the-idea-of-chatbot-consciousness-microsoft-ai-researchers-project-makes-an-absurdist-point-about-ai-consciousness",
+      "title": "Age of Empires II’s goats used as AI building blocks to build a neural network — goaty experiment mocks the idea of chatbot consciousness, Microsoft AI researcher’s project makes an absurdist point about AI consciousness",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/age-of-empires-iis-goats-used-as-ai-building-blocks-to-build-a-neural-network-goaty-experiment-mocks-the-idea-of-chatbot-consciousness-microsoft-ai-researchers-project-makes-an-absurdist-point-about-ai-consciousness",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T11:00:00+00:00",
+      "summary": "People seem all-too-ready to anthropomorphize LLMs and AI chatbots like ChatGPT, Claude, and Gemini, reckons a Microsoft AI researcher.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/acoustic-mapping-app-uses-thousands-of-networked-old-android-phones-to-hunt-shahed-drones-crowd-sourced-microphone-network-spots-small-low-rcs-military-targets",
+      "title": "Acoustic mapping app uses thousands of networked old Android phones to hunt Shahed drones — crowd-sourced microphone network spots small, low-RCS military targets",
+      "url": "https://www.tomshardware.com/tech-industry/drones/acoustic-mapping-app-uses-thousands-of-networked-old-android-phones-to-hunt-shahed-drones-crowd-sourced-microphone-network-spots-small-low-rcs-military-targets",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-21T10:30:00+00:00",
+      "summary": "This app would crowdsource drone detection and help map their location and direction long before they reach their targets.",
       "lang": "en"
     },
     {
@@ -601,278 +873,6 @@
       "views": null,
       "published_at": "2026-06-19T21:02:49+00:00",
       "summary": "AMD says it will reinstate firmware memory encryption (TSME) on non-PRO Ryzen 9000 desktop CPUs through a BIOS update in July, following the feature's removal through an earlier firmware update.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/your-15-inch-daily-driver-is-now-usd250-off-dell-15-laptop-with-hexa-core-cpu-8gb-ram-dips-to-usd349",
-      "title": "Your 15-inch daily driver is now $250 off — Dell 15 laptop with hexa-core CPU, 8GB RAM dips to $349",
-      "url": "https://www.tomshardware.com/laptops/your-15-inch-daily-driver-is-now-usd250-off-dell-15-laptop-with-hexa-core-cpu-8gb-ram-dips-to-usd349",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sponsored",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T18:00:00+00:00",
-      "summary": "The Dell 15 laptop has just come down from its regular price of $599.99 to $349.99.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/docking-stations-hubs/the-best-thunderbolt-and-usb-c-docks-for-laptops",
-      "title": "The Best Thunderbolt and USB-C Docks in 2026: Up to 140W power delivery, 10 GbE, and even internal M.2 SSD slots",
-      "url": "https://www.tomshardware.com/peripherals/docking-stations-hubs/the-best-thunderbolt-and-usb-c-docks-for-laptops",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Brandon Hill",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T16:31:46+00:00",
-      "summary": "These are the best Thunderbolt and USB-C docks for expanding your laptop's port options.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/amazon-workers-who-testified-against-ai-data-centers-say-they-were-intimidated-by-the-company-monitored-at-work-employees-face-possible-termination-for-violating-company-policy-speaking-as-representatives",
-      "title": "Amazon workers who testified against AI data centers say they were intimidated by the company, monitored at work — employees face possible termination for violating company policy, speaking as representatives",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/amazon-workers-who-testified-against-ai-data-centers-say-they-were-intimidated-by-the-company-monitored-at-work-employees-face-possible-termination-for-violating-company-policy-speaking-as-representatives",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T15:55:04+00:00",
-      "summary": "The three Amazon workers claim that they've been intimidated during the Zoom meetings and were being monitored while at work.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/bernie-sanders-files-bill-proposing-50-percent-public-ownership-of-us-ai-firms-and-giving-out-usd1-000-dividends-vp-vance-says-trump-supports-giving-the-american-people-a-stake-in-ai-companies-prefers-pre-distribution-over-giving-away-cash",
-      "title": "Bernie Sanders files bill proposing 50% public ownership of US AI firms and giving out $1,000 dividends — VP Vance says Trump supports giving the American people a stake in AI companies, prefers ‘pre-distribution’ over giving away cash",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/bernie-sanders-files-bill-proposing-50-percent-public-ownership-of-us-ai-firms-and-giving-out-usd1-000-dividends-vp-vance-says-trump-supports-giving-the-american-people-a-stake-in-ai-companies-prefers-pre-distribution-over-giving-away-cash",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T14:50:06+00:00",
-      "summary": "U.S. politicians are thinking about how they can ensure that the American people can benefit from AI.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/asml-denies-us-government-report-that-its-euv-chipmaking-tool-was-shipped-to-china-says-rumors-are-inaccurate-and-damaging-to-our-reputation",
-      "title": "ASML denies US government report that its EUV chipmaking tool was shipped to China — says 'rumors' are 'inaccurate and damaging to our reputation'",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-denies-us-government-report-that-its-euv-chipmaking-tool-was-shipped-to-china-says-rumors-are-inaccurate-and-damaging-to-our-reputation",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T14:20:34+00:00",
-      "summary": "U.S. Commerce Secretary Lutnick expresses concerns in a conversation with ASML executives that China has an EUV lithography system as ASML denies shipping such scanners to the PRC.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/epic-games-unveils-launcher-v2-in-re-attempt-to-topple-steam-says-redesigned-storefront-is-up-to-6-5x-faster-promises-player-profiles-user-reviews-universal-controller-support-and-much-more",
-      "title": "Epic Games unveils Launcher V2 in re-attempt to topple Steam, says redesigned storefront is up to 6.5x faster — promises player profiles, user reviews, universal controller support, and much more",
-      "url": "https://www.tomshardware.com/video-games/pc-gaming/epic-games-unveils-launcher-v2-in-re-attempt-to-topple-steam-says-redesigned-storefront-is-up-to-6-5x-faster-promises-player-profiles-user-reviews-universal-controller-support-and-much-more",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T13:57:28+00:00",
-      "summary": "Epic Games has just shown off a new year-long roadmap for its launcher, promising to bring community-requested features and a faster overall platform in the next 12 months.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/imec-asml-and-tsmc-build-complementary-2d-material-transistors-at-50nm-pitch-on-a-300mm-wafer",
-      "title": "Post-silicon era gets closer as industry giants crack the 2D transistor scaling bottleneck with breakthrough tech — imec, ASML, and TSMC fab complementary 2D-material transistors at 50nm pitch on a 300mm wafer",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/imec-asml-and-tsmc-build-complementary-2d-material-transistors-at-50nm-pitch-on-a-300mm-wafer",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T13:13:07+00:00",
-      "summary": "Imec, ASML, and TSMC have integrated both n-type and p-type transistors with atomically thin 2D channels on a single 300mm wafer.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/usb/best-usb-charger-deals",
-      "title": "Best USB charger deals 2026 – from tiny single-port smartphone chargers to large multi-port laptop chargers, we've found the best deals",
-      "url": "https://www.tomshardware.com/peripherals/usb/best-usb-charger-deals",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T12:30:00+00:00",
-      "summary": "From small smart devices to laptop charging, we dug up some of the best deals on 30W single-port to 100W multi-port chargers.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/viewsonic-vx2730d-4k-27-inch-4k-dual-refresh-gaming-monitor-review",
-      "title": "ViewSonic VX2730D-4K 27-inch 4K dual-refresh gaming monitor review: Delivering speed, color, accuracy, and pixel density",
-      "url": "https://www.tomshardware.com/monitors/gaming-monitors/viewsonic-vx2730d-4k-27-inch-4k-dual-refresh-gaming-monitor-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Christian Eberle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T12:10:00+00:00",
-      "summary": "ViewSonic’s VX2730D-4K is a stellar value. It’s a 27-inch 4K gaming monitor with 144 Hz, 288 Hz in FHD, Adaptive-Sync, wide gamut color and HDR. Accurate color and high performance deliver an excellent price/performance ratio.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/intel-hires-former-sk-hynix-chief-seok-hee-lee-to-lead-intel-foundry-advanced-packaging",
-      "title": "Intel hires former SK hynix chief Seok-Hee Lee to lead Intel Foundry advanced packaging — company establishing section as 'focused business with dedicated leadership'",
-      "url": "https://www.tomshardware.com/tech-industry/intel-hires-former-sk-hynix-chief-seok-hee-lee-to-lead-intel-foundry-advanced-packaging",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T11:58:41+00:00",
-      "summary": "Intel has appointed Seok-Hee Lee, the former chief executive of memory maker SK hynix and battery maker SK On, as executive vice president of Intel Foundry.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-that-china-will-have-a-fable-5-class-ai-model-probably-q1-next-year-ceo-of-chinese-anthropic-rival-says-it-wont-take-that-long",
-      "title": "CEO of Chinese Anthropic rival tells Elon Musk that China will have a Fable 5-class AI model before next year — it ‘won’t take that long’ says Jie Tang in response to Musk's prediction of a Q1 target",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-that-china-will-have-a-fable-5-class-ai-model-probably-q1-next-year-ceo-of-chinese-anthropic-rival-says-it-wont-take-that-long",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T11:38:05+00:00",
-      "summary": "Elon Musk estimated that Chinese AI firms would have an LLM with Mythos level capability by the first quarter of 2027. However, the CEO of Beijing-based Z.ai responded to the comment, saying that their company will achieve this soon, but did not give a concrete timeline.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/networking/network-switches/woot-slashes-up-to-46-percent-off-these-wd-black-sn850p-ssds-for-pc-and-ps5-1tb-for-usd189-2tb-for-usd299-and-4tb-for-usd549",
-      "title": "Woot slashes up to 46% off these WD Black SN850P SSDs for PC and PS5 — 1TB for $189, 2TB for $299, and 4TB for $549",
-      "url": "https://www.tomshardware.com/networking/network-switches/woot-slashes-up-to-46-percent-off-these-wd-black-sn850p-ssds-for-pc-and-ps5-1tb-for-usd189-2tb-for-usd299-and-4tb-for-usd549",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T11:21:37+00:00",
-      "summary": "Grab a great discount on these officially licensed PlayStation 5 SSDs at Woot. The WD Black SN850P in 1TB, 2TB, and 4TB capacities is discounted up to 46% today, or until stocks run out.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls",
-      "title": "SK Telecom named as the Korean carrier at the center of Anthropic's Mythos export controls controversy — access was revoked days before White House took Mythos and Fable 5 offline for all foreign nationals",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-telecom-named-as-the-korean-carrier-at-the-center-of-anthropics-mythos-export-controls",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T10:54:58+00:00",
-      "summary": "Wired has identified SK Telecom as the South Korean telecom company whose access to Anthropic's Claude Mythos model the White House ordered revoked over alleged ties to China.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/16-year-old-sata-ii-ssd-survives-1-petabyte-of-writes-25x-over-the-drives-tbw-rating",
-      "title": "16-year-old SATA II SSD survives 1 petabyte of writes — 25x more than the drive's endurance rating",
-      "url": "https://www.tomshardware.com/pc-components/ssds/16-year-old-sata-ii-ssd-survives-1-petabyte-of-writes-25x-over-the-drives-tbw-rating",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T10:30:00+00:00",
-      "summary": "As part of an experiment, an enthusiast has written one petabyte of data on a legacy Sandisk P4 SATA II SSD that was released 16 years ago.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/servers/tesco-uk-supermarket-chain-removes-40-000-servers-from-vmware-infrastructure-mass-exodus-continues-due-to-broadcoms-aggressive-subscription-model",
-      "title": "Tesco UK supermarket chain removes 40,000 servers from VMware infrastructure — mass exodus continues due to Broadcom's aggressive subscription model",
-      "url": "https://www.tomshardware.com/desktops/servers/tesco-uk-supermarket-chain-removes-40-000-servers-from-vmware-infrastructure-mass-exodus-continues-due-to-broadcoms-aggressive-subscription-model",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T10:00:00+00:00",
-      "summary": "Tesco UK supermarket chain moves 40,000 servers off of VMWare infrastructure — mass exodus continues thanks to Broadcom's pricing shenanigans",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-a-massive-usd1-390-on-this-rtx-5080-alienware-gaming-pc-now-just-usd3-159-enormous-discount-delivers-top-specs-for-4k-gameplay-including-a-24-core-intel-cpu-32gb-ddr5-ram-and-a-2tb-ssd",
-      "title": "Save a massive $1,390 on this RTX 5080 Alienware gaming PC, now just $3,159 — enormous discount delivers top specs for 4K gameplay, including a 24-core Intel CPU, 32GB DDR5 RAM, and a 2TB SSD",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-a-massive-usd1-390-on-this-rtx-5080-alienware-gaming-pc-now-just-usd3-159-enormous-discount-delivers-top-specs-for-4k-gameplay-including-a-24-core-intel-cpu-32gb-ddr5-ram-and-a-2tb-ssd",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T09:53:09+00:00",
-      "summary": "Don't miss this incredible deal on a high-end Alienware gaming PC with an RTX 5080, 24-core Intel Core Ultra 9 285K, 32GB of fast DDR5 RAM, and a 2TB SSD, all with a whopping $1,390 saving that brings it down to just $3,159.99.",
       "lang": "en"
     }
   ]

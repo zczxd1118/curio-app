@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-21T08:06:19.501657+00:00",
+  "fetched_at": "2026-06-22T09:17:42.710497+00:00",
   "platforms": [
     "rss"
   ],
@@ -188,6 +188,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/securing-next-generation-defense-by-design/",
+      "title": "Securing Next-Generation Defense by Design",
+      "url": "https://www.eetimes.com/securing-next-generation-defense-by-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Daryl Flack",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-22T07:00:00+00:00",
+      "summary": "In an environment of cloud platforms and AI models, security must be embedded into defense systems from the outset. The post Securing Next-Generation Defense by Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/defense-sends-clear-signal-to-canadian-semiconductor-industry/",
       "title": "Defense Sends Clear Signal to Canadian Semiconductor Industry",
       "url": "https://www.eetimes.com/defense-sends-clear-signal-to-canadian-semiconductor-industry/",
@@ -338,23 +355,6 @@
       "views": null,
       "published_at": "2026-06-17T18:01:28+00:00",
       "summary": "Machine vision has become a critical quality gate in modern industrial automation, helping manufacturers inspect products, guide robots, verify assemblies, and reduce production errors. However, reliable vision performance depends on more than the camera, lens, lighting, or software. In real factory environments, vision systems are exposed to electrical noise from motors, drives, relays, switching supplies, [&#8230;] The post Reliable Machine Vision Starts at the Circuit Level appeared first on ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/the-first-time-right-revolution/",
-      "title": "The First-Time-Right Revolution",
-      "url": "https://www.eetimes.com/the-first-time-right-revolution/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Atanas Dikov",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T17:42:45+00:00",
-      "summary": "This paper provides an over view of the Melexis solutions for Zero latency high precision motor control and end of shaft position and torque sensing. A family of magnetic and inductive products for every joint type in a robot, from humanoid to Cobots, from legs to fingers. The post The First-Time-Right Revolution appeared first on EE Times.",
       "lang": "en"
     }
   ]
