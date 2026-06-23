@@ -1,42 +1,46 @@
 # Curio · 大厂 AI 动态 · 2026-06-23
 
-> 今日 1 条头条 + 3 条备选
+> 今日 1 条头条 + 5 条备选
 
-_今日全球市场剧烈震荡，科技股领跌，韩股暴跌10%，纳指期货跌2%。AI领域，Anthropic的Mythos模型在NSA红队测试中数小时内攻破几乎所有机密系统，引发美国政府紧急出口禁令。半导体方面，Arm服务器营收占比超45%，x86统治地位动摇。大厂动态中，SpaceX与Reflection AI签署每月1.5亿美元算力协议，Groq完成6.5亿美元融资。金融市场上，德银大幅下调金价预期，六氟化钨等半导体材料价格暴涨。_
+_今日全球市场剧烈震荡：科技股遭抛售，韩股跌10%、纳指期货跌2%，AI芯片与算力板块承压。但产业端信号密集——Anthropic Mythos AI在NSA红队测试中数小时攻破几乎所有系统，引发出口禁令；Arm服务器收入占比超45%，x86统治终结；豆包大模型2.1上线，Token调用量增长10倍。你的content-curator项目正处在AI Agent工具链爆发期，Claude Code、MCP、Vibe Coding等实战内容值得深挖。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. SpaceX与Reflection AI签署每月1.5亿美元算力协议，开放模型获超级算力支持
+### 3. SpaceX 与开源AI实验室 Reflection AI 签下每月1.5亿美元算力大单
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
 
-Reflection AI将从7月起每月支付1.5亿美元，获得SpaceX Colossus 2数据中心中NVIDIA GB300芯片的访问权，合同持续至2029年。这是开源AI实验室获得的最大规模算力合同之一，标志着开放模型阵营在算力竞赛中不再落后。
+Reflection AI 将从2026年7月起，每月支付1.5亿美元，获得 SpaceX Colossus 2 数据中心内 NVIDIA GB300 芯片的访问权，合同持续至2029年。这是开源AI实验室获得的最大单笔算力交易，也标志着 SpaceX 正式成为算力提供商。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Reflection AI每月支付1.5亿美元 | Reflection AI的融资能力能否支撑长期支付 |
-| 合同从2026年7月1日持续至2029年 | 该算力是否足以训练前沿开源模型 |
-| 算力来自SpaceX的Colossus 2数据中心 | SpaceX进入算力租赁市场的影响 |
-| 使用NVIDIA最新GB300 AI芯片 | 对现有云服务商的竞争压力 |
+| Reflection AI 每月支付 1.5 亿美元，从 2026 年 7 月 1 日起 | Reflection AI 的资金来源未完全披露 |
+| 合同持续至 2029 年 | 该交易对 OpenAI/Anthropic 等闭源模型的竞争格局影响待观察 |
+| 算力来自 SpaceX 的 Colossus 2 数据中心 | SpaceX 是否会向更多客户开放算力尚不确定 |
+| 使用 NVIDIA 最新的 GB300 AI 芯片 | GB300 的实际性能和可用性有待验证 |
 
 **📖 主编点评**
 
-开源AI获得超级算力支持，意味着你未来可以期待更多高质量开源模型。建议关注Reflection AI的模型发布，可能成为你content-curator Agent的优质基座模型。
+开源AI实验室获得如此大规模的算力，意味着开源模型的能力可能加速追赶闭源。你的 content-curator 项目可以考虑集成开源模型（如 Reflection AI 的成果）来降低成本。同时，关注 SpaceX 的算力服务是否会形成新的云市场。
 
-📺 [打开原文](https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/)
+📺 [打开原文](https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab)
 
 ---
 
 ## 📋 备选阅读
 
-- [Valve Steam Machine定价1049美元起，采用随机排队防黄牛](https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/) —— Steam Machine价格高昂且供应有限，但SteamOS 3.8将开放给DIY玩家。
-  _Ars Technica_
-- [微软与雪佛龙计划建设美国最大天然气数据中心之一](https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/) —— 20年天然气购电协议锁定碳排放，AI的能源代价引发争议。
-  _TechCrunch_
-- [甲骨文一年裁员2.1万人，承认AI取代部分岗位](https://wallstreetcn.com/articles/3775269) —— AI裁员潮正式写入财报，甲骨文首次公开承认AI导致岗位消失。
+- [甲骨文一年裁员2.1万人，承认AI取代部分岗位](https://wallstreetcn.com/articles/3775269) —— AI替代人工的又一实证，但对你个人项目而言是背景信息。
   _华尔街见闻_
+- [微软与雪佛龙计划建设美国最大天然气数据中心之一](https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/) —— AI算力需求推动化石能源回潮，环境争议加剧，但非直接技术信号。
+  _TechCrunch_
+- [AI芯片公司Groq确认融资6.5亿美元，Nvidia 200亿美元“非收购”交易后重组](https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/) —— Groq在Nvidia巨额交易后获得新融资，转向云业务，对AI芯片竞争格局有影响。
+  _TechCrunch_
+- [Anthropic 更新隐私政策：Claude 可能要求查看你的身份证](https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/) —— AI身份验证趋势，对使用Claude API的项目有合规影响，但当前仅限特定场景。
+  _TechCrunch_
+- [Valve Steam Machine 定价1049美元起，6月29日发货](https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/) —— Valve进军客厅游戏主机，但高价和限量供应可能限制影响力。
+  _Ars Technica_
 
 ---
 
