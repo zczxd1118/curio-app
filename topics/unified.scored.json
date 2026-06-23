@@ -1,196 +1,204 @@
 {
-  "date": "2026-06-22",
-  "intro": "今日最大信号：SK海力士市值超越三星登顶韩国，AI驱动的HBM霸权正式确立；同时，诺贝尔奖得主John Jumper从DeepMind跳槽Anthropic，顶级AI人才争夺战白热化。半导体格局与AI人才流动两条主线交织，值得深度关注。",
+  "date": "2026-06-23",
+  "intro": "今日全球市场剧烈震荡，科技股领跌，韩股暴跌10%，纳指期货跌2%。AI领域，Anthropic的Mythos模型在NSA红队测试中数小时内攻破几乎所有机密系统，引发美国政府紧急出口禁令。半导体方面，Arm服务器营收占比超45%，x86统治地位动摇。大厂动态中，SpaceX与Reflection AI签署每月1.5亿美元算力协议，Groq完成6.5亿美元融资。金融市场上，德银大幅下调金价预期，六氟化钨等半导体材料价格暴涨。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI",
-      "id": "rss:https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
-      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
-      "source": "TechCrunch",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
+      "source": "Tom's Hardware",
       "stars": 5,
-      "title": "诺贝尔奖得主John Jumper离开DeepMind加入Anthropic，AI人才争夺战升级",
-      "lead": "AlphaFold之父、2024年诺贝尔化学奖得主John Jumper宣布离开Google DeepMind，加入竞争对手Anthropic。这不仅是个人选择，更标志着Anthropic在基础研究人才储备上的一次重大胜利。Jumper将领导Anthropic的新生物学研究团队，直接对标DeepMind的核心优势领域。",
+      "title": "Anthropic Mythos AI 数小时内攻破几乎所有NSA机密系统，美国政府紧急封禁",
+      "lead": "据The Economist报道，Anthropic的旗舰模型Mythos在NSA红队测试中，仅用数小时便攻破了几乎所有分类系统。这一结果直接导致美国政府突然宣布禁止该模型出口。事件凸显了前沿AI能力的双刃剑效应——安全测试越成功，监管反应越激烈。",
       "confirmed": [
-        "John Jumper确认离开DeepMind，加入Anthropic",
-        "Jumper将领导Anthropic新成立的生物学研究团队",
-        "Anthropic近期从DeepMind、OpenAI等公司挖角多名高级研究员",
-        "Jumper因AlphaFold获2024年诺贝尔化学奖"
+        "Mythos在NSA红队测试中数小时内攻破'几乎所有'机密系统",
+        "美国政府随后对Mythos实施出口禁令",
+        "Anthropic此前曾多次公开警告AI的潜在危险",
+        "禁令引发业界对AI安全与监管平衡的讨论"
       ],
       "judgment": [
-        "Jumper的加入是否意味着Anthropic将进军蛋白质折叠等生物学AI领域",
-        "DeepMind是否会采取反制措施或调整人才保留策略",
-        "Anthropic能否在基础研究上复制DeepMind的成功",
-        "此举对AI制药等下游应用的影响尚待观察",
-        "Jumper在Anthropic的具体研究方向尚未公开"
+        "Mythos的具体能力细节尚未公开",
+        "出口禁令的实际执行范围和期限不明",
+        "Anthropic是否提前知晓测试结果存疑",
+        "其他AI模型是否面临类似风险待评估",
+        "禁令对Anthropic商业影响尚不确定"
       ],
-      "implication": "你应该关注Anthropic在基础科学AI领域的布局。如果你在做AI+生物相关的side project，Anthropic的模型可能在蛋白质、分子等任务上获得独特优势。同时，这信号表明顶级AI人才正在从大厂流向创业公司，你的职业规划也可以参考这个趋势。"
+      "implication": "你正在做content-curator Agent，这个案例说明AI安全已从理论进入实战。建议关注Anthropic后续的安全披露，以及美国政府出口管制政策的变化——这直接影响你未来可能用到的模型API可用性。"
     },
     {
       "rank": 2,
       "domain": "AI 算力 / 半导体",
-      "id": "wscn:3775197",
-      "url": "https://wallstreetcn.com/articles/3775197",
-      "source": "华尔街见闻",
+      "id": "rss:https://www.tomshardware.com/desktops/servers/arm-servers-capture-over-45-percent-of-data-center-market-revenue-gpu-clusters-and-high-end-ai-infrastructure-fuel-a-tectonic-shift-away-from-x86",
+      "url": "https://www.tomshardware.com/desktops/servers/arm-servers-capture-over-45-percent-of-data-center-market-revenue-gpu-clusters-and-high-end-ai-infrastructure-fuel-a-tectonic-shift-away-from-x86",
+      "source": "Tom's Hardware",
       "stars": 5,
-      "title": "SK海力士市值首超三星，AI时代HBM王者登顶韩国股市",
-      "lead": "2026年6月22日，SK海力士市值超越统治韩国资本市场27年的三星电子，成为韩国市值最大的公司。背后是HBM（高带宽内存）在AI算力中的核心地位——SK海力士占据全球HBM市场59%份额，每天净利润超20亿元人民币。",
+      "title": "Arm服务器营收占比超45%，x86统治地位加速瓦解",
+      "lead": "2026年Q1，Arm架构服务器贡献了数据中心市场近一半营收，主要由GPU集群和AI基础设施驱动。这一数字标志着x86在服务器领域的垄断地位正被快速侵蚀。AWS Graviton、Ampere等Arm芯片在能效和AI推理场景的优势持续扩大。",
       "confirmed": [
-        "SK海力士市值今日首次超越三星电子",
-        "SK海力士在HBM市场占有59%份额",
-        "公司每天净利润超过20亿元人民币",
-        "HBM是AI训练芯片的关键组件"
+        "Arm服务器营收占比超过45%",
+        "GPU集群和AI基础设施是主要驱动力",
+        "x86在服务器市场的份额持续下降",
+        "AWS、Ampere等厂商的Arm芯片出货量增长"
       ],
       "judgment": [
-        "三星电子能否通过技术追赶夺回HBM领先地位",
-        "HBM需求是否会在2027年面临产能过剩风险",
-        "SK海力士的高利润率能否持续",
-        "韩国监管机构对杠杆ETF的干预可能影响股价波动"
+        "Arm在出货量上何时超越x86尚不确定",
+        "企业级传统应用迁移至Arm的速度存疑",
+        "Intel和AMD的应对策略效果待观察",
+        "Arm生态成熟度是否足以支撑全面替代"
       ],
-      "implication": "你应该意识到HBM是AI硬件投资的核心赛道。如果你在配置个人投资或研究AI基础设施，SK海力士的崛起验证了\"卖铲子\"逻辑——在AI淘金热中，硬件供应商往往比模型公司更早盈利。关注HBM产业链上的材料、设备公司。"
+      "implication": "如果你在考虑部署AI推理服务，Arm架构的性价比和能效优势越来越明显。建议在Side Project中尝试AWS Graviton实例或Ampere芯片，提前积累Arm生态经验。"
     },
     {
       "rank": 3,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-and-amds-new-ace-cpu-extensions-bring-an-efficient-ai-oriented-instruction-set-to-x86-a-new-design-makes-matrix-multiplication-more-power-and-density-efficient",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-and-amds-new-ace-cpu-extensions-bring-an-efficient-ai-oriented-instruction-set-to-x86-a-new-design-makes-matrix-multiplication-more-power-and-density-efficient",
-      "source": "Tom's Hardware",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "source": "TechCrunch",
       "stars": 4,
-      "title": "Intel和AMD联合发布ACE指令集，x86架构迎来AI原生加速",
-      "lead": "Intel与AMD宣布联合推出ACE（Advanced Compute Extensions）指令集，为x86 CPU带来高效的AI矩阵运算能力。新指令集专为矩阵乘法优化，能效和密度显著提升，有望让CPU在轻量级AI推理任务中替代部分GPU工作。",
+      "title": "SpaceX与Reflection AI签署每月1.5亿美元算力协议，开放模型获超级算力支持",
+      "lead": "Reflection AI将从7月起每月支付1.5亿美元，获得SpaceX Colossus 2数据中心中NVIDIA GB300芯片的访问权，合同持续至2029年。这是开源AI实验室获得的最大规模算力合同之一，标志着开放模型阵营在算力竞赛中不再落后。",
       "confirmed": [
-        "Intel和AMD联合发布ACE CPU扩展指令集",
-        "ACE专为矩阵乘法优化，提升AI推理效率",
-        "新指令集在功耗和面积效率上优于现有方案",
-        "ACE将集成到未来两家的x86处理器中"
+        "Reflection AI每月支付1.5亿美元",
+        "合同从2026年7月1日持续至2029年",
+        "算力来自SpaceX的Colossus 2数据中心",
+        "使用NVIDIA最新GB300 AI芯片"
       ],
       "judgment": [
-        "ACE指令集的实际性能提升幅度尚未公布",
-        "软件生态（编译器、框架）支持需要时间",
-        "与NVIDIA GPU的AI推理性能对比尚不明确",
-        "ACE是否会被Arm架构的AI指令集（如SVE）压制"
+        "Reflection AI的融资能力能否支撑长期支付",
+        "该算力是否足以训练前沿开源模型",
+        "SpaceX进入算力租赁市场的影响",
+        "对现有云服务商的竞争压力"
       ],
-      "implication": "这对你的个人项目很重要：如果你在本地跑小模型（如通过Ollama运行7B以下模型），未来Intel/AMD CPU可以直接高效推理，无需独立GPU。关注2027年支持ACE的消费级CPU发布，可能改变你搭建本地AI工作站的选择。"
+      "implication": "开源AI获得超级算力支持，意味着你未来可以期待更多高质量开源模型。建议关注Reflection AI的模型发布，可能成为你content-curator Agent的优质基座模型。"
     },
     {
       "rank": 4,
-      "domain": "AI",
-      "id": "bvid:BV1RAEz6EE98",
-      "url": "http://www.bilibili.com/video/av116732144392386",
-      "source": "呱声一片",
+      "domain": "股票",
+      "id": "wscn:3775262",
+      "url": "https://wallstreetcn.com/articles/3775262",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "Claude Code + DeepSeek V4 组合成最具性价比个人AI Agent方案",
-      "lead": "B站UP主实测发现，将Claude Code与DeepSeek V4 API结合，能以极低成本实现强大的个人AI Agent能力。DeepSeek V4在编程和推理任务上表现接近Claude 4，但价格仅为后者的1/10。这一组合正在成为独立开发者和小团队的首选。",
+      "title": "全球股市黑色星期二：韩股暴跌10%，纳指期货跌2%，科技热潮急剧降温",
+      "lead": "6月23日，全球股市遭遇重挫。韩国首尔综指收跌10%，日经225跌3.5%，纳斯达克100期货跌2%。科技股领跌，铠侠股价一度跌16%。黄金回吐涨幅，美元走强。市场对AI投资回报的担忧加剧，叠加美联储鹰派信号，引发恐慌性抛售。",
       "confirmed": [
-        "Claude Code支持接入第三方模型API",
-        "DeepSeek V4在编程任务上表现接近Claude 4",
-        "DeepSeek V4 API价格约为Claude 4的1/10",
-        "已有详细配置教程和官方文档支持"
+        "韩国首尔综指收跌10%",
+        "日经225指数收跌3.5%",
+        "纳斯达克100期货跌2%",
+        "铠侠股价一度下跌16%",
+        "黄金下跌逾1%，美元走强"
       ],
       "judgment": [
-        "DeepSeek V4在复杂推理任务上是否真的接近Claude 4",
-        "这种组合的稳定性和长期可用性",
-        "Anthropic是否会限制第三方模型接入Claude Code",
-        "DeepSeek V4的上下文长度和延迟是否满足生产需求"
+        "回调是短期恐慌还是趋势反转",
+        "AI资本开支是否已过度",
+        "美联储后续政策走向",
+        "亚洲市场是否面临更大风险"
       ],
-      "implication": "如果你在做content-curator这类个人Agent项目，这个组合值得立刻尝试。用Claude Code的交互体验 + DeepSeek V4的低成本推理，可以大幅降低你的API开销。建议先跑通官方示例，再迁移到你的项目工作流中。"
+      "implication": "市场对AI泡沫的担忧正在兑现。如果你持有相关资产或计划融资，建议重新评估风险敞口。但长期来看，AI基础设施需求依然强劲，回调可能是布局机会。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "10分钟+300个Agent：保姆级教程学会Agent Skills",
-      "url": "http://www.bilibili.com/video/av116758736279146",
-      "source": "Work-Fisher",
-      "one_liner": "从零到一搭建Agent Skill的实操教程，适合想快速上手子Agent开发的读者，但内容偏入门，深度不够进头条。"
+      "title": "豆包大模型2.1上线，日均Token调用量突破180万亿",
+      "url": "https://wallstreetcn.com/articles/3775276",
+      "source": "华尔街见闻",
+      "one_liner": "火山引擎发布豆包2.1，Pro版成本降至每百万Tokens 1.96元，但用户更关注Agent和多模态能力提升。"
     },
     {
       "domain": "AI",
-      "title": "AI Agent 别乱选！2026 AI Agent 深度横评",
-      "url": "http://www.bilibili.com/video/av116747361322195",
-      "source": "AI实战派Pro",
-      "one_liner": "OpenClaw、Codex、Hermes等主流Agent工具对比，帮你选型，但评测维度偏主观，缺乏量化数据。"
+      "title": "OpenAI启动开源漏洞查找与修复计划",
+      "url": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "source": "TechCrunch",
+      "one_liner": "OpenAI用AI帮助开源社区修复漏洞，但具体效果待验证。"
     },
     {
       "domain": "AI",
-      "title": "Signal’s Meredith Whittaker: AI chatbots ‘are not your friends’",
-      "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "title": "Google DeepMind投资7500万美元与A24合作开发AI电影工具",
+      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
       "source": "TechCrunch",
-      "one_liner": "Signal总裁尖锐批评AI拟人化倾向，观点犀利但偏立场表达，信息增量有限。"
+      "one_liner": "AI进入好莱坞，但创意行业对AI替代的担忧可能阻碍合作。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "China unifies tech sector to build grid-free orbiting satellite AI data centers",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/china-unifies-tech-sector-to-build-grid-free-orbiting-satellite-ai-data-centers-challenging-elon-musks-spacex-beijings-forced-chip-and-satellite-alliance-announced-a-week-before-musks-ai1-reveal",
-      "source": "Tom's Hardware",
-      "one_liner": "中国组建太空计算联盟，挑战SpaceX的卫星AI数据中心计划，地缘政治色彩浓，技术细节少。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Intel 18A Details & Cost, Future of DRAM 4F2 vs 3D, Backside Power Adoption",
-      "url": "https://semianalysis.com/2025/07/21/vlsi2025/",
-      "source": "SemiAnalysis",
-      "one_liner": "SemiAnalysis的VLSI 2025深度技术分析，含Intel 18A成本、DRAM路线图等，但发布于2025年7月，时效性不足。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "AMD will reinstate memory encryption on Ryzen 9000 CPUs through a BIOS update in July",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback",
-      "source": "Tom's Hardware",
-      "one_liner": "AMD因社区反馈将在7月BIOS更新中恢复Ryzen 9000的内存加密功能，对安全敏感用户是利好，但影响面窄。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Open-source Vulkan driver NVK gains experimental DLSS support",
-      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/open-source-nvidia-vulkan-driver-nvk-gains-experimental-dlss-support-by-importing-pre-baked-cuda-binaries",
-      "source": "Tom's Hardware",
-      "one_liner": "开源NVIDIA Vulkan驱动NVK获得实验性DLSS支持，对Linux游戏玩家是好消息，但离实用还有距离。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Beyond Siri: Practical AI features coming to your iPhone in iOS 27",
-      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "domain": "AI",
+      "title": "Anthropic更新隐私政策：Claude可能要求用户出示身份证",
+      "url": "https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/",
       "source": "TechCrunch",
-      "one_liner": "iOS 27的实用AI功能汇总，包括照片、邮件等系统级AI增强，但多为增量更新，缺乏突破性亮点。"
+      "one_liner": "AI身份验证趋势初现，但用户隐私担忧随之而来。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "The Atlantic created a searchable database of the music used to train AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+      "domain": "AI 算力 / 半导体",
+      "title": "NVIDIA Rubin数据中心设计：更高温度运行以减少用水量",
+      "url": "https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling",
       "source": "The Verge",
-      "one_liner": "Atlantic制作了AI训练音乐数据集的可搜索数据库，对版权研究有价值，但偏法律/伦理议题。"
+      "one_liner": "NVIDIA推出全液冷参考设计，但水资源消耗问题远未解决。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Groq完成6.5亿美元融资，重新招聘高管",
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "source": "TechCrunch",
+      "one_liner": "Groq在NVIDIA 200亿美元收购失败后获得新资金，转向云服务业务。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "AMD为RX 7000系列GPU提供官方FSR 4.1支持",
+      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/amd-brings-official-fsr-4-1-support-to-rx-7000-series-gpus-int8-model-now-available-in-300-games-rdna-3-apus-also-getting-fsr-4-1-soon",
+      "source": "Tom's Hardware",
+      "one_liner": "FSR 4.1通过INT8模型支持300+游戏，但画质仍不及DLSS。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Polymarket reportedly paid creators to post deceptive videos about fake bets",
-      "url": "https://techcrunch.com/2026/06/21/polymarket-reportedly-paid-creators-to-post-deceptive-videos-about-fake-bets/",
+      "title": "Valve Steam Machine定价1049美元起，采用随机排队防黄牛",
+      "url": "https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/",
+      "source": "Ars Technica",
+      "one_liner": "Steam Machine价格高昂且供应有限，但SteamOS 3.8将开放给DIY玩家。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "微软与雪佛龙计划建设美国最大天然气数据中心之一",
+      "url": "https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/",
       "source": "TechCrunch",
-      "one_liner": "Polymarket被曝付费制作虚假投注视频，涉及平台诚信问题，但与AI/技术主线偏离。"
+      "one_liner": "20年天然气购电协议锁定碳排放，AI的能源代价引发争议。"
     },
     {
-      "domain": "金融",
-      "title": "财政部：前5月证券交易印花税同比大增88.8%",
-      "url": "https://wallstreetcn.com/articles/3775193",
+      "domain": "大厂 AI 动态",
+      "title": "甲骨文一年裁员2.1万人，承认AI取代部分岗位",
+      "url": "https://wallstreetcn.com/articles/3775269",
       "source": "华尔街见闻",
-      "one_liner": "A股交易活跃度显著提升，印花税大增反映市场热度，但属于滞后指标，对决策参考价值有限。"
+      "one_liner": "AI裁员潮正式写入财报，甲骨文首次公开承认AI导致岗位消失。"
     },
     {
-      "domain": "金融",
-      "title": "花旗坚持10月重启降息，成华尔街\"最后的倔强\"",
-      "url": "https://wallstreetcn.com/articles/3775196",
+      "domain": "股票",
+      "title": "六氟化钨暴涨865%，半导体上游材料危机浮现",
+      "url": "https://wallstreetcn.com/articles/3775267",
       "source": "华尔街见闻",
-      "one_liner": "花旗逆势看多降息，核心逻辑是油价下跌和劳动力走弱，但市场主流预期已转鹰，分歧较大。"
+      "one_liner": "日本停产引发六氟化钨价格飙升，中国蛰伏20年的产业逆袭故事浮出水面。"
     },
     {
-      "domain": "金融",
-      "title": "高盛首次覆盖瑞幸即看多，目标价隐含61%上行空间",
-      "url": "https://wallstreetcn.com/articles/3775190",
+      "domain": "股票",
+      "title": "特斯拉Optimus 3量产倒计时，供应商开始备货",
+      "url": "https://wallstreetcn.com/articles/3775272",
       "source": "华尔街见闻",
-      "one_liner": "高盛看好瑞幸价格战后的利润率修复和门店扩张，但消费股不在你的偏好范围内，仅作市场动态参考。"
+      "one_liner": "台湾供应商已向Optimus 3输送谐波减速器与光学镜头，量产信号明确。"
+    },
+    {
+      "domain": "股票",
+      "title": "德银大幅下调金价预期，最高下调22%",
+      "url": "https://wallstreetcn.com/articles/3775274",
+      "source": "华尔街见闻",
+      "one_liner": "美联储鹰派转向叠加ETF流出，华尔街看多黄金热情降温。"
+    },
+    {
+      "domain": "股票",
+      "title": "美国最大锂矿Thacker Pass即将投产，但工艺未经验证",
+      "url": "https://wallstreetcn.com/articles/3775265",
+      "source": "华尔街见闻",
+      "one_liner": "通用汽车包销全部产能，但黏土提锂技术从未商业化，股价已跌56%。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-22T10:44:03+0000"
+    "scored_at": "2026-06-23T07:41:58+0000"
   }
 }
