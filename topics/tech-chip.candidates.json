@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-22T09:17:42.710497+00:00",
+  "fetched_at": "2026-06-23T06:57:10.560842+00:00",
   "platforms": [
     "rss"
   ],
@@ -188,6 +188,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/critical-components-for-reliable-factory-automation-design/",
+      "title": "Critical Components for Reliable Factory Automation Design",
+      "url": "https://www.eetimes.com/critical-components-for-reliable-factory-automation-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Same Sky and Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-22T17:15:13+00:00",
+      "summary": "This webinar will provide a practical overview of product selection and implementation within factory automation applications. The post Critical Components for Reliable Factory Automation Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/globalfoundries-qualinx-put-europes-chip-sovereignty-to-the-fab-test/",
+      "title": "GlobalFoundries, Qualinx Put Europe’s Chip Sovereignty to the Fab Test",
+      "url": "https://www.eetimes.com/globalfoundries-qualinx-put-europes-chip-sovereignty-to-the-fab-test/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-22T17:00:00+00:00",
+      "summary": "GlobalFoundries and Qualinx deliver Europe's first fully secure chip supply chain. The post GlobalFoundries, Qualinx Put Europe’s Chip Sovereignty to the Fab Test appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/software-to-silicon-with-risc-v-for-physical-ai/",
+      "title": "Software to Silicon With RISC-V for Physical AI",
+      "url": "https://www.eetimes.com/software-to-silicon-with-risc-v-for-physical-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "EE Times Staff",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-22T14:13:07+00:00",
+      "summary": "Discover how RISC-V is reshaping AI chip design—watch to see why it's becoming the default ISA. The post Software to Silicon With RISC-V for Physical AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/beyond-isolation-novosenses-isolation-platform-elevates-system-safety-for-advanced-power-systems/",
+      "title": "Beyond Isolation: NOVOSENSE’s Isolation+ Platform Elevates System Safety for Advanced Power Systems",
+      "url": "https://www.eetimes.com/beyond-isolation-novosenses-isolation-platform-elevates-system-safety-for-advanced-power-systems/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Christopher McGrady",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-22T10:00:00+00:00",
+      "summary": "Isolation+ is the strategic framework that unifies NOVOSENSE’s entire isolation portfolio. The post Beyond Isolation: NOVOSENSE&#8217;s Isolation+ Platform Elevates System Safety for Advanced Power Systems appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/securing-next-generation-defense-by-design/",
       "title": "Securing Next-Generation Defense by Design",
       "url": "https://www.eetimes.com/securing-next-generation-defense-by-design/",
@@ -287,74 +355,6 @@
       "views": null,
       "published_at": "2026-06-18T14:00:00+00:00",
       "summary": "Building real-time physical AI applications—such as high-performance, multimodal object tracking for autonomous systems within a constrained power envelope—is notoriously difficult. It requires coordinating specialized hardware, managing complex data flows, and optimizing every microsecond for maximum performance. This tech paper explores how agentic software environments can dramatically accelerate the development and deployment of physical AI applications. [&#8230;] The post The New Software S...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/space-industry-is-standardizing-on-risc-v/",
-      "title": "Space Industry Is Standardizing on RISC-V",
-      "url": "https://www.eetimes.com/space-industry-is-standardizing-on-risc-v/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-18T12:00:00+00:00",
-      "summary": "Experts at RISC-V Summit Europe outlined how open architectures are transforming computing across the space economy. The post Space Industry Is Standardizing on RISC-V appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/can-catalonia-deliver-on-its-distributed-semiconductor-network/",
-      "title": "Can Catalonia’s Distributed Semiconductor Network Deliver?",
-      "url": "https://www.eetimes.com/can-catalonia-deliver-on-its-distributed-semiconductor-network/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-18T07:15:00+00:00",
-      "summary": "Catalonia is unifying its fragmented tech ecosystem into a coordinated semiconductor cluster spanning photonics, packaging, AI, and chip research. The post Can Catalonia’s Distributed Semiconductor Network Deliver? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/canadian-researchers-reduce-quantum-atmospheric-turbulence/",
-      "title": "Canadian Researchers Reduce Quantum Atmospheric Turbulence",
-      "url": "https://www.eetimes.com/canadian-researchers-reduce-quantum-atmospheric-turbulence/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T19:00:00+00:00",
-      "summary": "uOttawa cracks quantum turbulence, making ultra-secure communication cheaper. The post Canadian Researchers Reduce Quantum Atmospheric Turbulence appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/reliable-machine-vision-starts-at-the-circuit-level/",
-      "title": "Reliable Machine Vision Starts at the Circuit Level",
-      "url": "https://www.eetimes.com/reliable-machine-vision-starts-at-the-circuit-level/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "YAGEO Group, Simon Reuning",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-17T18:01:28+00:00",
-      "summary": "Machine vision has become a critical quality gate in modern industrial automation, helping manufacturers inspect products, guide robots, verify assemblies, and reduce production errors. However, reliable vision performance depends on more than the camera, lens, lighting, or software. In real factory environments, vision systems are exposed to electrical noise from motors, drives, relays, switching supplies, [&#8230;] The post Reliable Machine Vision Starts at the Circuit Level appeared first on ...",
       "lang": "en"
     }
   ]
