@@ -1,203 +1,214 @@
 {
-  "date": "2026-06-23",
-  "intro": "今日全球市场剧烈震荡：科技股遭抛售，韩股跌10%、纳指期货跌2%，AI芯片与算力板块承压。但产业端信号密集——Anthropic Mythos AI在NSA红队测试中数小时攻破几乎所有系统，引发出口禁令；Arm服务器收入占比超45%，x86统治终结；豆包大模型2.1上线，Token调用量增长10倍。你的content-curator项目正处在AI Agent工具链爆发期，Claude Code、MCP、Vibe Coding等实战内容值得深挖。",
+  "date": "2026-06-24",
+  "intro": "今日核心信号：Anthropic 推出 Claude Tag，将 AI 从工具升级为异步协作的团队成员，Karpathy 称之为 LLM 第三次交互革命；与此同时，全球科技股因 HBM4 扩产放缓、杠杆 ETF 监管等多重共振暴跌，AI 叙事正从“无限想象”切换至“计算回报”。豆包正式收费、微信 AI 助手内测，国内大厂加速 AI 商业化。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-powerful-mythos-ai-reportedly-breached-almost-all-nsa-classified-systems-within-a-few-hours-during-red-team-test-report-sheds-more-light-on-the-u-s-governments-sudden-ban-on-the-flagship-models",
-      "source": "Tom's Hardware",
+      "id": "wscn:3775375",
+      "url": "https://wallstreetcn.com/articles/3775375",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "Anthropic Mythos AI 红队测试数小时攻破NSA几乎所有系统，美国政府紧急出口禁令",
-      "lead": "Anthropic 的旗舰模型 Mythos 在 NSA 红队测试中，数小时内攻破了几乎所有机密系统。这一结果直接导致美国政府紧急禁止该模型出口。事件揭示了前沿AI的安全双刃剑效应——能力越强，被滥用的风险也越大。",
+      "title": "Anthropic 发布 Claude Tag：AI 从工具进化为异步协作的团队成员",
+      "lead": "Anthropic 推出 Claude Code 进化版 Claude Tag，以团队成员身份接入 Slack，具备多人协作、持续学习、主动介入与异步执行四大能力。Karpathy 称其开启了 LLM 第三次交互革命：AI 已演变为拥有组织工具和上下文、与人类并肩工作的独立异步实体。",
       "confirmed": [
-        "Anthropic Mythos AI 在 NSA 红队测试中数小时内攻破几乎所有分类系统",
-        "美国政府已对 Mythos 实施出口禁令",
-        "该消息由 The Economist 报道，Tom's Hardware 进一步披露细节",
-        "Anthropic 此前多次公开警告AI安全风险"
+        "Claude Tag 以团队成员身份接入 Slack，可被 @提及、分配任务",
+        "具备持续学习能力：能记住项目上下文、历史对话和团队偏好",
+        "支持主动介入：当检测到相关问题或机会时，可主动发起对话",
+        "支持异步执行：任务可后台运行，完成后通知团队成员",
+        "Karpathy 公开评价：这是 LLM 第三次交互革命"
       ],
       "judgment": [
-        "Mythos 的具体能力边界和攻击方法未公开",
-        "出口禁令是否会影响 Anthropic 的商业化节奏尚不明朗",
-        "其他前沿模型（如 GPT-5）是否面临类似审查不确定",
-        "红队测试的细节（是否允许迭代、有无人类辅助）未披露",
-        "禁令对全球AI竞争格局的长期影响有待观察"
+        "Claude Tag 的实际协作效率提升幅度尚未有公开基准测试",
+        "持续学习能力是否会导致隐私或数据安全风险尚不明确",
+        "主动介入的准确率和误触发率未知",
+        "企业部署成本和对现有工作流的冲击程度待评估",
+        "与微软 Copilot、Google Duet AI 等竞品的差异化优势需进一步验证"
       ],
-      "implication": "你正在做的 content-curator 项目如果用到 Claude API，需关注出口管制对模型可用性的潜在影响。同时，这件事提醒你：AI Agent 的安全边界设计（权限控制、沙箱）不是可选项，而是必须。建议在项目 README 中明确安全策略，这会是简历上的加分项。"
+      "implication": "你应该立即关注 Claude Tag 的 Slack 集成体验，尤其是异步执行和持续学习能力。如果你正在做 content-curator 项目，可以思考如何将类似的多 Agent 协作模式引入你的工具——让不同的子 Agent 分别负责采集、筛选、撰写，并共享上下文。这可能是你项目简历亮点的关键差异化方向。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/desktops/servers/arm-servers-capture-over-45-percent-of-data-center-market-revenue-gpu-clusters-and-high-end-ai-infrastructure-fuel-a-tectonic-shift-away-from-x86",
-      "url": "https://www.tomshardware.com/desktops/servers/arm-servers-capture-over-45-percent-of-data-center-market-revenue-gpu-clusters-and-high-end-ai-infrastructure-fuel-a-tectonic-shift-away-from-x86",
-      "source": "Tom's Hardware",
-      "stars": 5,
-      "title": "Arm 服务器收入占比超45%，GPU集群与AI基础设施推动x86版图剧变",
-      "lead": "2026年Q1，Arm架构服务器收入已占数据中心市场近一半，x86的统治地位正在瓦解。驱动因素正是AI训练集群对GPU和专用加速器的需求——Arm在能效和定制化上的优势被放大。",
+      "domain": "AI",
+      "id": "bvid:BV1RPET6tEp2",
+      "url": "http://www.bilibili.com/video/av116711944620974",
+      "source": "尚硅谷",
+      "stars": 4,
+      "title": "零基础 Vibe Coding 实战教程：Claude Code + Codex + Cursor 从 0 到 1 做项目",
+      "lead": "尚硅谷发布 6 小时 Vibe Coding 实战教程，覆盖 Claude Code、Codex、Cursor 三款主流工具，从自然语言描述需求到完整软件项目开发部署全流程。这是目前中文社区最系统的 Vibe Coding 实操课程，适合你正在做的 content-curator 项目。",
       "confirmed": [
-        "Arm 服务器在 2026 Q1 收入占比超过 45%",
-        "增长主要由 GPU 集群和 AI 基础设施驱动",
-        "x86 份额相应下降，但单位出货量仍占多数",
-        "AWS Graviton、Ampere 等是主要推动者"
+        "教程时长 6 小时，覆盖 Claude Code、Codex、Cursor 三款工具",
+        "包含从需求描述到项目部署的全流程演示",
+        "配套资料可通过公众号免费获取",
+        "2026 年 6 月 9 日发布，时效性高"
       ],
       "judgment": [
-        "Arm 在出货量上何时超越 x86 仍不确定",
-        "Intel 和 AMD 的应对策略（如 Sierra Forest）能否扭转趋势未知",
-        "软件生态迁移成本可能延缓部分企业转向",
-        "AI 推理场景中 Arm 的优势是否持续有待验证"
+        "教程深度可能偏向入门，高级工程实践细节需自行探索",
+        "三款工具的横向对比结论可能带有主观偏好",
+        "实际项目复杂度有限，与大型生产项目有差距"
       ],
-      "implication": "如果你未来部署 content-curator 的推理服务，Arm 架构的云实例（如 AWS Graviton）可能是性价比更高的选择。关注 Ampere 和 NVIDIA Grace 的进展，它们可能改变你项目的成本结构。"
+      "implication": "如果你正在用 Claude Code 或 Cursor 做 content-curator 项目，这个教程可以帮你快速补齐从开发到部署的完整链路。建议重点看 Claude Code 和 Cursor 的对比部分，结合你的实际场景选择主力工具。另外，教程中的部署环节（可能涉及 Devbox/Sealos）值得关注，能帮你把项目真正跑起来作为简历 demo。"
     },
     {
       "rank": 3,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
-      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
-      "source": "TechCrunch",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/supercomputers/chinas-lineshine-supercomputer-dethrones-us-el-capitan-secures-first-place-in-top-500-list-first-machine-in-the-rankings-to-sustain-more-than-2-exaflops-of-double-precision-performance-using-only-cpus",
+      "url": "https://www.tomshardware.com/tech-industry/supercomputers/chinas-lineshine-supercomputer-dethrones-us-el-capitan-secures-first-place-in-top-500-list-first-machine-in-the-rankings-to-sustain-more-than-2-exaflops-of-double-precision-performance-using-only-cpus",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "SpaceX 与开源AI实验室 Reflection AI 签下每月1.5亿美元算力大单",
-      "lead": "Reflection AI 将从2026年7月起，每月支付1.5亿美元，获得 SpaceX Colossus 2 数据中心内 NVIDIA GB300 芯片的访问权，合同持续至2029年。这是开源AI实验室获得的最大单笔算力交易，也标志着 SpaceX 正式成为算力提供商。",
+      "title": "中国 LineShine 超算登顶 Top500：纯 CPU 实现 2 ExaFLOPS FP64，超越美国 El Capitan",
+      "lead": "中国 LineShine 超算在最新 Top500 榜单中夺得第一，成为首台纯 CPU 持续 FP64 性能超过 2 ExaFLOPS 的机器，超越美国 El Capitan。但混合精度性能仍落后于 El Capitan、Frontier 和 Aurora。这标志着中国在传统 HPC 领域的突破，也暗示了 AI 算力竞赛的新维度。",
       "confirmed": [
-        "Reflection AI 每月支付 1.5 亿美元，从 2026 年 7 月 1 日起",
-        "合同持续至 2029 年",
-        "算力来自 SpaceX 的 Colossus 2 数据中心",
-        "使用 NVIDIA 最新的 GB300 AI 芯片"
+        "LineShine 在 Top500 榜单中排名第一",
+        "持续 FP64 性能超过 2 ExaFLOPS，为历史首次纯 CPU 达成",
+        "混合精度性能仍落后于 El Capitan、Frontier 和 Aurora",
+        "2026 年 6 月 23 日发布"
       ],
       "judgment": [
-        "Reflection AI 的资金来源未完全披露",
-        "该交易对 OpenAI/Anthropic 等闭源模型的竞争格局影响待观察",
-        "SpaceX 是否会向更多客户开放算力尚不确定",
-        "GB300 的实际性能和可用性有待验证"
+        "LineShine 的具体架构和芯片细节尚未完全公开",
+        "纯 CPU 路线与 GPU 加速路线的能效对比尚不明确",
+        "该超算是否用于 AI 训练尚不清楚",
+        "对全球超算竞争格局的长期影响有待观察"
       ],
-      "implication": "开源AI实验室获得如此大规模的算力，意味着开源模型的能力可能加速追赶闭源。你的 content-curator 项目可以考虑集成开源模型（如 Reflection AI 的成果）来降低成本。同时，关注 SpaceX 的算力服务是否会形成新的云市场。"
+      "implication": "这对你意味着两件事：一是中国在算力基础设施上的自主突破可能影响未来 AI 芯片供应链格局；二是如果你关注 AI 工程实践中的推理优化，纯 CPU 路线的高精度计算能力值得留意——某些场景下 CPU 可能比 GPU 更适合。不过短期内，你的个人项目仍应聚焦 GPU/TPU 生态。"
     },
     {
       "rank": 4,
-      "domain": "AI",
-      "id": "wscn:3775276",
-      "url": "https://wallstreetcn.com/articles/3775276",
+      "domain": "股票",
+      "id": "wscn:3775364",
+      "url": "https://wallstreetcn.com/articles/3775364",
       "source": "华尔街见闻",
       "stars": 4,
-      "title": "豆包大模型2.1上线，日均Token调用量180万亿，增长超10倍",
-      "lead": "火山引擎发布豆包大模型2.1系列（Pro/Turbo），编程、智能体、多模态性能逼近国际顶尖。Seedance 2.5视频生成模型预计7月初上线。截至6月，豆包日均Token调用量突破180万亿，较去年增长超10倍，Pro版特定场景成本降至每百万Tokens 1.96元。",
+      "title": "全球科技股暴跌：HBM4 扩产放缓、杠杆 ETF 监管、养老基金做空四重共振",
+      "lead": "HBM4 扩产放缓消息、美光财报前仓位出逃、监管警告杠杆 ETF、养老基金罕见转身做卖方，四重信号 24 小时共振，在韩国引爆被 300 亿美元杠杆产品深度绑架的市场，并向全球传导。AI 叙事正从\"无限想象\"切换至\"计算回报\"，美光财报将是定性这场暴跌的关键。",
       "confirmed": [
-        "豆包大模型 2.1 系列包含 Pro 和 Turbo 版本",
-        "Seedance 2.5 视频生成模型预计 7 月初上线",
-        "日均 Token 调用量 180 万亿，增长超 10 倍",
-        "Pro 版特定场景成本降至每百万 Tokens 1.96 元"
+        "HBM4 扩产放缓消息引发市场担忧",
+        "韩国市场被 300 亿美元杠杆产品深度绑架",
+        "监管机构警告杠杆 ETF 风险",
+        "养老基金罕见转为做卖方",
+        "AI 叙事从\"无限想象\"切换至\"计算回报\""
       ],
       "judgment": [
-        "与 GPT-4o/Claude 4 的具体性能对比数据未公布",
-        "低成本策略能否持续（是否补贴）不确定",
-        "Seedance 2.5 的实际生成质量有待评测",
-        "企业客户采用率是否匹配调用量增长未知"
+        "暴跌是技术性踩踏还是牛市转折，取决于美光财报",
+        "HBM4 扩产放缓的具体原因和持续时间尚未明确",
+        "杠杆 ETF 监管是否会进一步收紧不确定",
+        "养老基金做空是短期策略还是长期转向待观察"
       ],
-      "implication": "豆包的低价策略可能挤压其他API提供商，你的 content-curator 项目可以考虑将豆包作为备选模型，尤其是中文场景。关注 Seedance 2.5 的发布，视频生成能力可能为你的项目增加多模态功能。"
+      "implication": "如果你持有或关注 AI 相关股票，美光财报将是本周最重要的风向标。对于你的个人项目，这场暴跌提醒你：AI 基础设施投资的回报验证期正在到来。做 content-curator 时，可以多关注 AI 公司的财务数据和商业化进展，而不是只追技术动态。"
+    },
+    {
+      "rank": 5,
+      "domain": "大厂 AI 动态",
+      "id": "wscn:3775360",
+      "url": "https://wallstreetcn.com/articles/3775360",
+      "source": "华尔街见闻",
+      "stars": 4,
+      "title": "豆包正式推出收费版：三档定价最高 6000 元/年，接入 2.1 Pro 模型",
+      "lead": "豆包上线专业版付费订阅，三档定价 68/200/500 元每月，高级版年费 6000 元。核心新功能是接入豆包 2.1 Pro 模型的\"办公任务模式\"，支持操控本地电脑、定时任务、内置 Office 套件。收费背后是严峻的成本压力：日均算力消耗数千万元，日收入不足百万元。",
+      "confirmed": [
+        "三档定价：68 元/月、200 元/月、500 元/月",
+        "高级版年费 6000 元",
+        "核心新功能：办公任务模式，支持操控本地电脑、定时任务、内置 Office",
+        "免费版日常功能不受影响",
+        "日均算力成本数千万元，日收入不足百万元"
+      ],
+      "judgment": [
+        "6000 元/年的定价在 C 端 AI 助手中偏高，用户接受度待验证",
+        "办公任务模式的实际体验和稳定性尚未有大量用户反馈",
+        "豆包 2.1 Pro 模型与竞品（如 ChatGPT、Claude）的对比优势不明确",
+        "成本压力下是否会影响免费版服务质量不确定"
+      ],
+      "implication": "豆包收费标志着国内 AI 助手从免费烧钱转向商业化验证。对于你来说，如果你正在做 content-curator 项目，可以关注豆包 2.1 Pro 的\"办公任务模式\"——这种本地操控 + 定时任务的能力正是 Agent 工具的核心功能。你可以思考如何在自己的项目中实现类似的自动化工作流。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "OpenAI 启动开源漏洞查找与修复计划",
-      "url": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
-      "source": "TechCrunch",
-      "one_liner": "OpenAI 用AI帮助开源社区自动发现和修复漏洞，对安全领域有长期影响，但短期新闻性一般。"
+      "title": "Claude Code 平替 Kimi Code 教程：视频理解、数据插件、Swarm 等进阶玩法",
+      "url": "http://www.bilibili.com/video/av116798313727318",
+      "source": "技术爬爬虾",
+      "one_liner": "如果你用不起 Claude Code，Kimi Code 是国产平替，但功能深度和生态成熟度有差距。"
     },
     {
       "domain": "AI",
-      "title": "AI世界正在变得“loopy”：持续运行的Agent群",
-      "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
-      "source": "TechCrunch",
-      "one_liner": "Agent从单次任务转向持续后台运行，与你正在做的content-curator方向高度相关，但概念性较强，缺乏具体产品细节。"
+      "title": "100 小时测试 Claude Code vs Codex（真实结果）",
+      "url": "http://www.bilibili.com/video/av116656495925868",
+      "source": "设计之道",
+      "one_liner": "100 小时实测对比，结果可能颠覆你的工具选择，但评测方有推广链接，需自行判断客观性。"
     },
     {
       "domain": "AI",
-      "title": "Google DeepMind 投资7500万美元与A24合作开发AI电影工具",
-      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
-      "source": "TechCrunch",
-      "one_liner": "AI进入好莱坞的标志性事件，但对你个人项目的直接帮助有限。"
+      "title": "为什么越来越多的人抛弃 MCP，转向 CLI？",
+      "url": "http://www.bilibili.com/video/av116377675373297",
+      "source": "马克的技术工作坊",
+      "one_liner": "MCP 生态过热后出现反思声音，CLI 方案更轻量，适合个人项目快速迭代。"
+    },
+    {
+      "domain": "AI",
+      "title": "AI Agent 别乱选！2026 主流 AI Agent 深度横评",
+      "url": "http://www.bilibili.com/video/av116747361322195",
+      "source": "AI实战派Pro",
+      "one_liner": "OpenClaw、Codex、Claude Cowork 等 5 款 Agent 横向对比，帮你选型，但评测深度有限。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia Rubin数据中心设计：更高温度运行以减少用水",
-      "url": "https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling",
-      "source": "The Verge",
-      "one_liner": "Nvidia Rubin代际采用全液冷参考设计，宣称减少用水，但实际环境影响存疑。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "AMD 为 RX 7000 系列 GPU 正式支持 FSR 4.1，覆盖300+游戏",
-      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/amd-brings-official-fsr-4-1-support-to-rx-7000-series-gpus-int8-model-now-available-in-300-games-rdna-3-apus-also-getting-fsr-4-1-soon",
+      "title": "Nvidia 发布新型液冷系统：冷却液温度 45°C，减少 100% 用水",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-announces-liquid-cooling-system-that-runs-hotter-than-a-hot-tub-promises-to-reduce-electricity-consumption-and-cut-water-use-by-up-to-100-percent-but-sustainability-challenges-remain",
       "source": "Tom's Hardware",
-      "one_liner": "AMD将FSR 4.1下放至上一代显卡，对游戏玩家利好，但与AI工程关系不大。"
+      "one_liner": "Nvidia 液冷技术突破，但可持续性挑战仍在，对 AI 数据中心能耗有长期影响。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "DDR2内存价格暴涨60%，AI驱动的DRAM短缺波及最老标准",
-      "url": "https://www.tomshardware.com/pc-components/dram/ddr2-memory-prices-jump-up-to-60-percent",
+      "title": "Synopsys 发布 Ansys 收购后首款多物理场融合工具",
+      "url": "https://www.eetimes.com/snug-india-2026-synopsys-unveils-first-multiphysics-fusion-tools-since-ansys-deal/",
+      "source": "EE Times",
+      "one_liner": "EDA+物理仿真融合，对先进封装和 3DIC 设计至关重要，但短期内影响有限。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "微信 6 年来最大改版：AI 助手“小微”灰度测试",
+      "url": "https://wallstreetcn.com/articles/3775356",
+      "source": "华尔街见闻",
+      "one_liner": "微信 AI 助手内测，14 亿用户基础可能使其成为全球第二大 AI 助手，但变现路径不清晰。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Oracle 一年裁员 21000 人，AI 自动化和基础设施投资是主因",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/oracle-lays-off-21-000-employees-in-just-12-months-due-to-ai-adoption-and-costly-ai-infrastructure-ambitions-says-layoffs-will-continue-as-internal-ai-deployment-grows",
       "source": "Tom's Hardware",
-      "one_liner": "AI需求导致DRAM全面涨价，甚至波及DDR2，对硬件采购成本有警示意义。"
+      "one_liner": "AI 替代人工的典型案例，但 Oracle 的激进策略是否可持续存疑。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "甲骨文一年裁员2.1万人，承认AI取代部分岗位",
-      "url": "https://wallstreetcn.com/articles/3775269",
-      "source": "华尔街见闻",
-      "one_liner": "AI替代人工的又一实证，但对你个人项目而言是背景信息。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "微软与雪佛龙计划建设美国最大天然气数据中心之一",
-      "url": "https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/",
+      "title": "Meta 推出自有品牌廉价智能眼镜",
+      "url": "https://techcrunch.com/2026/06/23/meta-debuts-new-cheaper-smart-glasses-under-its-own-brand/",
       "source": "TechCrunch",
-      "one_liner": "AI算力需求推动化石能源回潮，环境争议加剧，但非直接技术信号。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "AI芯片公司Groq确认融资6.5亿美元，Nvidia 200亿美元“非收购”交易后重组",
-      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
-      "source": "TechCrunch",
-      "one_liner": "Groq在Nvidia巨额交易后获得新融资，转向云业务，对AI芯片竞争格局有影响。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Anthropic 更新隐私政策：Claude 可能要求查看你的身份证",
-      "url": "https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/",
-      "source": "TechCrunch",
-      "one_liner": "AI身份验证趋势，对使用Claude API的项目有合规影响，但当前仅限特定场景。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Valve Steam Machine 定价1049美元起，6月29日发货",
-      "url": "https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/",
-      "source": "Ars Technica",
-      "one_liner": "Valve进军客厅游戏主机，但高价和限量供应可能限制影响力。"
+      "one_liner": "Meta 智能眼镜降价，AI 可穿戴设备普及加速，但功能有限，适合尝鲜。"
     },
     {
       "domain": "股票",
-      "title": "全球股市“黑色星期二”：韩股跌10%，纳指期货跌2%",
-      "url": "https://wallstreetcn.com/articles/3775262",
+      "title": "美银美林：AI 需求可见度延伸至 2028 年，存储不会供过于求",
+      "url": "https://wallstreetcn.com/articles/3775365",
       "source": "华尔街见闻",
-      "one_liner": "科技股回调显著，但对你个人项目影响间接，可作为市场情绪参考。"
+      "one_liner": "与科技股暴跌形成反差，长期看多 AI 基础设施，但短期波动不可避免。"
     },
     {
       "domain": "股票",
-      "title": "特斯拉Optimus 3量产倒计时，供应商已开始备货",
-      "url": "https://wallstreetcn.com/articles/3775272",
+      "title": "高盛：腾讯估值修复取决于 AI 叙事进展，微信 AI 内测是关键",
+      "url": "https://wallstreetcn.com/articles/3775368",
       "source": "华尔街见闻",
-      "one_liner": "人形机器人供应链启动，对AI+硬件方向有长期意义，但短期缺乏工程细节。"
+      "one_liner": "腾讯 AI 叙事能否支撑估值修复，微信 AI 助手是核心变量，但市场疑虑仍在。"
     },
     {
       "domain": "股票",
-      "title": "六氟化钨暴涨：半导体上游材料短缺，日本停产危机",
-      "url": "https://wallstreetcn.com/articles/3775267",
+      "title": "A 股再现“大肉签”：臻宝科技上市首日涨超 900%",
+      "url": "https://wallstreetcn.com/articles/3775374",
       "source": "华尔街见闻",
-      "one_liner": "半导体材料短缺事件，对芯片制造有影响，但与你的AI Agent项目关联度低。"
+      "one_liner": "半导体核心零部件国产替代逻辑受追捧，但单日暴涨后风险极高。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-23T08:31:59+0000"
+    "scored_at": "2026-06-24T07:34:33+0000"
   }
 }
