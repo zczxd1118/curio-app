@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-06-23T06:57:05.951356+00:00",
+  "fetched_at": "2026-06-24T06:54:32.347313+00:00",
   "platforms": [
     "rss"
   ],
@@ -10,7 +10,7 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 20,
-    "arXiv q-fin（量化金融论文）": 0,
+    "arXiv q-fin（量化金融论文）": 21,
     "HN · Federal Reserve": 0,
     "HN · inflation": 0,
     "HN · Tesla": 0,
@@ -18,8 +18,25 @@
     "HN · fed": 0
   },
   "subtopics": [],
-  "total": 50,
+  "total": 71,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/memory-chips-and-china-microsoft-and-chinese-models/",
+      "title": "Memory Chips and China, Microsoft and Chinese Models",
+      "url": "https://stratechery.com/2026/memory-chips-and-china-microsoft-and-chinese-models/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-23T10:00:00+00:00",
+      "summary": "The big three memory makers may come to regret opening up the door to Chinese memory makers; Microsoft, meanwhile, is very incentivized to use Chinese models.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/apple-price-increases-apple-intelligence-and-the-e-u/",
       "title": "Apple Price Increases, Apple Intelligence and the E.U.",
@@ -171,23 +188,6 @@
       "views": null,
       "published_at": "2026-06-10T10:00:00+00:00",
       "summary": "Fable 5 is the public version of Mythos, and while it is very capable it sets some troubling new precedents.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/the-iphones-last-stand/",
-      "title": "The iPhone’s Last Stand",
-      "url": "https://stratechery.com/2026/the-iphones-last-stand/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-09T10:00:00+00:00",
-      "summary": "Siri isn't state of the art, but as long as it works — and it appears it does — it's good enough for the consumer market.",
       "lang": "en"
     },
     {
@@ -531,47 +531,91 @@
       "lang": "en"
     },
     {
-      "id": "wscn:3775276",
-      "title": "Token调用量增长超10倍！豆包大模型2.1上线，Seedance 2.5预计7月初正式上线",
-      "url": "https://wallstreetcn.com/articles/3775276",
-      "summary": "火山引擎发布豆包大模型2.1系列，包含Pro和Turbo版本，并预告Seedance 2.5视频生成模型。新模型在编程、智能体及多模态领域性能逼近或超越国际顶尖模型，Pro版在特定场景综合成本降至每百万Tokens 1.96元。截至今年6月，豆包大模型日均Token调用量已突破180万亿，较去年增长超10倍。",
+      "id": "wscn:3775351",
+      "title": "全球股市波动加剧，韩股上演“过山车行情”，美元触及七个月高位，黄金跌超1.3%",
+      "url": "https://wallstreetcn.com/articles/3775351",
+      "summary": "韩国首尔综指收涨3.3%，报8471.02点。此前一度跌超1%。美国股指期货小幅走高。国际原油价格继续承压，WTI原油日内跌幅0.42%、跌破73关口。10年期美债收益率持稳于4.5%下方。美元指数在连续两日上涨后趋于稳定，日内微涨0.05%，持平于101.4附近。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-23T06:53:22+00:00",
+      "published_at": "2026-06-24T06:38:15+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775262",
-      "title": "科技热潮降温 ，全球股市“黑色星期二”，韩股收跌10%，纳指期货跌2%，黄金回吐隔夜涨幅",
-      "url": "https://wallstreetcn.com/articles/3775262",
-      "summary": "日经225指数收跌3.5%，报69788.38点。韩国首尔综指收跌10%，报8203.84点。铠侠股价一度下跌16%，为自2025年11月以来最大跌幅。美股纳斯达克100指数期货跌2%；黄金下跌逾1%，白银跌幅超过3%，比特币下跌逾1%。美元兑多数主要货币走强，日元徘徊于1986年以来最低水平附近。",
+      "id": "wscn:3775374",
+      "title": "A股再现“大肉签”！688797，飙涨900%",
+      "url": "https://wallstreetcn.com/articles/3775374",
+      "summary": "国产半导体核心零部件龙头臻宝科技6月24日登陆科创板，盘中最高涨幅超900%，股价一度飙至465元，中一签最高盈利超20万元，总市值近660亿元，较44.56元的发行价暴涨逾850%，成为近期A股市场最强新股之一。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-23T06:51:53+00:00",
+      "published_at": "2026-06-24T06:28:19+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775254",
-      "title": "AH股齐跌：创业板跌逾4%，PCB、CPO齐跌、有色金属重挫，港股“大模型双雄”大跌",
-      "url": "https://wallstreetcn.com/articles/3775254",
-      "summary": "盘面上，个股涨多跌少，沪深京三市约3400股飘红，上午半天成交2.34万亿。沪深两市半日成交额2.32万亿，较上个交易日缩量1870亿。板块方面，能源金属、工业金属概念股携手领跌；半导体、算力产业链回调，PCB、CPO方向跌幅明显；光伏、商业航天、AI应用题材走弱。创新药概念股开启反弹，大金融延续强势。",
+      "id": "wscn:3775295",
+      "title": "李蓓私募单周净值跌超15%：市场正在经历怎样的K型裂变？",
+      "url": "https://wallstreetcn.com/premium/articles/3775295?layout=wscn-layout",
+      "summary": "李蓓规模腰斩折射市场K型分化加剧，科技资本开支扩张主导行情，AI泡沫隐现但产业景气尚未见顶。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-23T06:47:50+00:00",
+      "published_at": "2026-06-24T06:18:33+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775274",
-      "title": "高盛之后，德银也大砍金价预期，最高下调22%",
-      "url": "https://wallstreetcn.com/articles/3775274",
-      "summary": "华尔街看多黄金的集体热情正在降温。德意志银行将三季度金价预测最高下调22%至4300美元，高盛此前亦将2026年底目标价砍去500美元——美联储鹰派转向、ETF持续净流出、中国进口需求疲软，多重压力叠加令金价本季度已跌逾11%。不过，两大投行均强调央行购金构成关键支撑，高盛更预判中期金价存在突破6000美元的可能。",
+      "id": "wscn:3775375",
+      "title": "Anthropic发布重大更新推出CC进化版Claude Tag，Karpathy：LLM第三次交互革命来了",
+      "url": "https://wallstreetcn.com/articles/3775375",
+      "summary": "Anthropic推出Claude Code进化版“Claude Tag”。它以团队成员身份接入Slack，具备多人协作、持续学习、主动介入与异步执行四大核心能力。Karpathy称其开启了LLM第三次交互革命：AI已演变为拥有组织工具和上下文、与人类并肩工作的独立异步实体。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-23T06:36:11+00:00",
+      "published_at": "2026-06-24T06:14:56+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775378",
+      "title": "华硕预判PC涨价潮降温，预计第三季度只会出现个位数的涨幅",
+      "url": "https://wallstreetcn.com/articles/3775378",
+      "summary": "华硕预计第三季度产品价格涨幅将收窄至个位数，意味着自2025年四季度以来累计上涨30%的PC涨价潮有所放缓。这主要得益于核心零部件价格回调及市场承压，但分析师警告内存价格上涨压力或延续至2028年。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-24T05:43:31+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775377",
+      "title": "特朗普施压石油公司：油价必须更快下跌，否则面临司法部调查",
+      "url": "https://wallstreetcn.com/articles/3775377",
+      "summary": "特朗普怒斥大型石油公司\"哄抬油价\"，亲自喊话司法部立即介入调查，强硬表态再度拖累国际油价跌破关键位。然而专家直言此举不过是\"政治秀\"——汽油定价链条复杂，零售价滞后原油数周才能传导。与此同时，霍尔木兹海峡通航改善，供应压力或迎来实质性缓解。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-24T05:41:48+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775380",
+      "title": "奥斯曼・登贝莱 （OUSMANE DEMBÉLÉ） 携手亨利・雅克（Henry Jacques） 不期而遇，续写宿命之约",
+      "url": "https://wallstreetcn.com/articles/3775380",
+      "summary": "胆识与创造力兼具的传奇香氛世家，邂逅心怀热爱的香水藏家，万般可能，皆由此生。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-24T05:37:24+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775362",
+      "title": "创业板涨1%，科创50暴涨近4%，PCB、光通信反弹，创新药再拉升，恒科指涨超2%，半导体狂飙",
+      "url": "https://wallstreetcn.com/articles/3775362",
+      "summary": "盘面上，个股跌多涨少，沪深京三市近4500股飘绿，上午半天成交2.1万亿。沪深两市半日成交额2.09万亿，较上个交易日缩量2318亿。板块方面，半导体产业链逆势走强，先进封装、存储器、PCB方向领涨；锂矿、CRO、氟化工概念股活跃。金融科技、AI应用、工业金属、大消费题材调整。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-24T05:30:49+00:00",
       "points": 0
     },
     {
@@ -582,106 +626,7 @@
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-23T06:27:57+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3775272",
-      "title": "特斯拉Optimus 3量产倒计时，供应商已开始备货",
-      "url": "https://wallstreetcn.com/articles/3775272",
-      "summary": "特斯拉人形机器人量产进入倒计时——中国台湾供应商已开始向Optimus 3输送谐波减速器与光学镜头，弗里蒙特年产百万台生产线同步推进，马斯克的\"机器人帝国\"正从构想加速走向产线，供应链端的实质备货为这场豪赌提供了最有力的外部背书。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-23T06:24:01+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3775270",
-      "title": "商务部等9部门：全链条扩大汽车消费！改革试点40城名单公布",
-      "url": "https://wallstreetcn.com/articles/3775270",
-      "summary": "商务部等8部门公布40个汽车流通消费改革试点城市，天津聚焦汽车改装、沈阳深耕二手车、扬州发力房车露营……9部门推出17条硬核措施，从改装、露营、经典车到赛事运动、租赁创新全面发力，一场覆盖汽车消费全链条的政策组合拳正式落地。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-23T05:34:45+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3775267",
-      "title": "六氟化钨暴涨：一条被忽略的半导体上游咽喉",
-      "url": "https://wallstreetcn.com/articles/3775267",
-      "summary": "一种冷门造芯气体六氟化钨，正引爆A股865%的暴涨神话。日本巨头停产危机，彻底揭开中国蛰伏20年、从“低端卖矿”到“高端突围”的产业逆袭史。资本狂欢背后，全球半导体供应链的权力重构已然打响。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-23T05:11:23+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3775269",
-      "title": "甲骨文一年裁员2.1万人，承认AI取代部分岗位",
-      "url": "https://wallstreetcn.com/articles/3775269",
-      "summary": "甲骨文披露，过去一年全球裁员约2.1万人（降幅13%），并首次在文件中承认AI技术的部署导致了岗位消失。大规模削减人力成本旨在缓解因兴建AI数据中心、服务OpenAI等客户带来的高额资本开支与重组财务压力。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-23T05:10:38+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3774904",
-      "title": "硅电容：MLCC潜在颠覆者？AI先进封装时代的百亿冠军赛道",
-      "url": "https://wallstreetcn.com/premium/articles/3774904?layout=wscn-layout",
-      "summary": "三星电机宣布签下1.5万亿韩元（约合人民币68亿元）硅电容供应大单，标志着这一长期隐身于MLCC阴影下的细分赛道正式进入资本市场的聚光灯。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-23T04:19:25+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3775137",
-      "title": "K 型分化加剧：科技红利狂飙，消费红利何时到来？",
-      "url": "https://wallstreetcn.com/premium/articles/3775137?layout=wscn-layout",
-      "summary": "消费修复仍缓、科技投资持续扩张，中国经济中期将呈现消费筑底、科技向上的K型分化新常态。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-23T04:10:11+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3775265",
-      "title": "美国最大锂矿即将投产，锂供应链重塑在即",
-      "url": "https://wallstreetcn.com/articles/3775265",
-      "summary": "美国最大锂矿Thacker Pass预计明年底投产，产量将是美国现有锂产量的10倍，通用汽车已包揽第一阶段全部20年产能，美国政府亦直接入股并提供22亿美元低息贷款。然而，该矿山采用从未在商业规模验证的黏土提锂工艺，公司股价已较去年峰值跌逾56%。CEO表示，首批产出将是估值重新定价的关键节点。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-23T03:42:19+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3775259",
-      "title": "打破在离岸资金池壁垒：六大行直连离岸交易，央行重塑人民币定价权",
-      "url": "https://wallstreetcn.com/articles/3775259",
-      "summary": "中国央行通过打通在岸与离岸人民币市场壁垒，重塑汇率定价权。六大国有银行获准直接从内地总部开展离岸人民币交易，首批430亿元清算已完成。此举终结了依赖自贸区分支机构的繁琐流程，压缩在离岸价差、抬高做空成本，强化央行对汇率的管控能力。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-23T03:38:47+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3775264",
-      "title": "日本财长确认与贝森特通话，日元徘徊近40年低位，干预预期升温",
-      "url": "https://wallstreetcn.com/articles/3775264",
-      "summary": "日本财务大臣片山皋月周二确认，已于周一晚间与美财长贝森特通话近一小时，称美日在汇率问题上“合作与协调更加紧密”，并重申“必要时将采取大胆行动”的干预立场。通话时日元一度触及161.93，接近40年低位，消息提振效果短暂。日本上月干预规模已创纪录达11.73万亿日元，但干预效果难以为继。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-23T03:21:37+00:00",
+      "published_at": "2026-06-24T05:17:21+00:00",
       "points": 0
     },
     {
@@ -692,63 +637,475 @@
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-23T03:20:40+00:00",
+      "published_at": "2026-06-24T04:10:34+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775256",
-      "title": "芯片扩产+液冷双引擎爆发，氟化工站上AI超级风口！",
-      "url": "https://wallstreetcn.com/articles/3775256",
-      "summary": "AI算力狂飙，氟化工迎来历史性重估窗口。芯片制造端，电子级氢氟酸供应偏紧、3M退场留下13亿美元缺口、六氟化钨价格大涨；数据中心端，液冷市场2030年或达310亿美元。瑞银指出，氟化工材料供应商相较电子化学品公司仍存明显折价，市场远未充分定价AI增长红利。",
+      "id": "wscn:3775139",
+      "title": "高端PI膜：黄金薄膜的\"供需悬崖\"，从1.2万吨缺口演化220亿国产替代蓝海",
+      "url": "https://wallstreetcn.com/premium/articles/3775139?layout=wscn-layout",
+      "summary": "产业链反馈显示，宇部兴产（UBE）电子级PI膜80%产能已被下游以溢价锁定，海外大厂产能被英伟达等AI算力巨头锁至2027年。这揭示了高端PI膜很可能正经历结构性供需失衡的临界点。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-23T03:14:16+00:00",
+      "published_at": "2026-06-24T04:01:25+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775260",
-      "title": "油价下跌，美债为什么不跟？",
-      "url": "https://wallstreetcn.com/articles/3775260",
-      "summary": "国泰君安国际认为，本轮油价下跌源于地缘风险溢价回吐而非需求走弱，属\"良性通缩\"，未触发避险买盘；油价虽压低通胀预期约20-30bp，但实际利率同步上行将其对冲。根本驱动在于，沃什主导下美联储政策框架转向\"价格稳定优先\"，市场重新上修利率路径，实际利率已取代通胀预期成为定价核心变量。",
+      "id": "wscn:3775368",
+      "title": "高盛相信“腾讯估值修复取决于AI叙事进展”，微信AI内测是关键一步",
+      "url": "https://wallstreetcn.com/articles/3775368",
+      "summary": "微信AI助手\"小微\"启动内测，标志着这一超级应用正式进军智能体赛道。然而腾讯股价周一下跌1.6%，跑输大盘。高盛指出，市场疑虑集中于三点：自研WeLM模型与混元并行引发资源重复投入担忧；全面推广后推理成本或侵蚀利润达5%-17%；短期变现路径尚不清晰。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-23T02:56:22+00:00",
+      "published_at": "2026-06-24T03:48:36+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775252",
-      "title": "特朗普高调宣称伊朗接受武器检查，智库揭底：霍尔木兹海峡重开实为美方“付费”妥协",
-      "url": "https://wallstreetcn.com/articles/3775252",
-      "summary": "美伊临时协议落地，霍尔木兹海峡26艘超级油轮顺利通行，布伦特原油应声跌破79美元。智库直指协议本质：伊朗核计划未作实质让步，美方不过是\"付费开路\"——以经济利益换取航道短期畅通。强硬修辞之下，暗流涌动的核风险仍是悬于全球能源市场的定时炸弹。",
+      "id": "wscn:3775369",
+      "title": "种种迹象显示“接近周期顶部”，但瑞银坚持：现在退出中国科技股“为时过早”",
+      "url": "https://wallstreetcn.com/articles/3775369",
+      "summary": "全球芯片股暴跌当日，瑞银发布报告指出中国AI科技上行周期已出现仓位拥挤、估值偏高、IPO增多等“接近顶部”信号，但维持超配判断。核心依据是：当前盈利增速约80%，过去3个月盈利预期上调15%，订单能见度延伸至2027年底；历史上科技股在触顶前最后3个月平均仍有48%涨幅。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-23T02:17:40+00:00",
+      "published_at": "2026-06-24T03:47:50+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775225",
-      "title": "印尼股市“保级”成功，但更大的考验还在后面？",
-      "url": "https://wallstreetcn.com/premium/articles/3775225?layout=wscn-layout",
-      "summary": "印尼股市料将保住新兴市场地位，避免被动资金出逃，但宏观逆风与政策不确定性压制估值，反转需待信心修复。",
+      "id": "wscn:3775354",
+      "title": "终于涨不动了，开启调整的美股支撑位在哪？",
+      "url": "https://wallstreetcn.com/articles/3775354",
+      "summary": "美股三个月狂飙后骤然失速，芯片股抛售拖累纳指重挫，标普逼近技术十字路口。标普500指数近端支撑是7340、7237点，中期防线为7000点；纳指100指数方面，29300、28930点和50日均线为支撑位；市场广度能否修复，或成AI行情续命关键。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-23T02:05:20+00:00",
+      "published_at": "2026-06-24T03:38:25+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775251",
-      "title": "十年七相，英国到底怎么了？",
-      "url": "https://wallstreetcn.com/articles/3775251",
-      "summary": "英国十年七相，斯塔默辞职再掀政坛风暴。德银直指深层病灶：脱欧撕裂政治生态、财政空间持续收窄、选民耐心耗尽三重困境叠加，令历任首相政治资本迅速燃尽。Truss仅45天的前车之鉴警示市场——当财政公信力动摇，债市可直接压缩政治时间表。德银判断，破局关键或寄望于AI能否真正重振生产率。",
+      "id": "wscn:3775365",
+      "title": "“AI需求可见度”延伸至2028年！美银美林：存储在此之前不会“供过于求”，半导体设备将大幅增长",
+      "url": "https://wallstreetcn.com/articles/3775365",
+      "summary": "在全球芯片股遭遇“芯片惨剧”当天，美银发布报告，将AI需求可见度延伸至2028年。DRAM/NAND供给充裕率在2028年前持续高于110%，不存在实质性过剩风险；半导体设备支出2028年将达2500亿美元，较此前预测上调23%。该行据此将美光目标价上调至1500美元。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-23T01:55:51+00:00",
+      "published_at": "2026-06-24T03:16:39+00:00",
       "points": 0
+    },
+    {
+      "id": "wscn:3774983",
+      "title": "锂电添加剂VC：淡季不淡仅是序章，Q3量价齐升或为高潮",
+      "url": "https://wallstreetcn.com/premium/articles/3774983?layout=wscn-layout",
+      "summary": "VC淡季不淡验证景气上行。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-24T02:49:56+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775360",
+      "title": "豆包正式推出收费版，三档定价、最高一年6000元，贵不贵？",
+      "url": "https://wallstreetcn.com/articles/3775360",
+      "summary": "豆包正式上线专业版付费订阅，三档定价为68元、200元、500元/月，高级版一年最高6000元，免费版日常功能不受影响。核心新功能是接入豆包2.1 Pro模型的“办公任务模式”，支持操控本地电脑、定时任务、内置Office套件等。收费背后是严峻的成本压力：日均算力消耗数千万元，但日收入不足百万元。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-24T02:38:34+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775367",
+      "title": "越疆科技一季度营收增长111%：“All in 具身智能”战略进入商业回报期",
+      "url": "https://wallstreetcn.com/articles/3775367",
+      "summary": "2026年6月23日，越疆科技披露一季度未经审计营运数据：营业收入约人民币1.12亿元，同比增长约1...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-24T02:36:17+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775356",
+      "title": "微信6年来最大改版——关于微信AI助手小微的15条思考",
+      "url": "https://wallstreetcn.com/articles/3775356",
+      "summary": "微信6年最大改版来了——AI助手“小微”低调灰度测试，却暗藏大棋局。语音优先、多入口融合、自然语言激活支付/朋友圈等沉寂数据，还能几分钟生成专属小工具。更关键的是，小微一旦全量上线，凭借14亿用户或将成全球第二大AI助手，真正的对手不是豆包，而是苹果Siri。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-24T02:36:16+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775364",
+      "title": "全球科技股暴跌：AI牛市的又一场压力测试",
+      "url": "https://wallstreetcn.com/articles/3775364",
+      "summary": "HBM4扩产放缓消息、美光财报前仓位出逃、监管警告杠杆ETF、养老基金罕见转身做卖方，四重信号24小时共振，在韩国引爆了一个被300亿美元杠杆产品深度绑架的市场，并向全球市场传导。AI叙事正从\"无限想象\"切换至\"计算回报\"，美光财报将是定性这场暴跌究竟是技术踩踏还是牛市转折的最终裁判。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-24T02:07:38+00:00",
+      "points": 0
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.23873",
+      "title": "Relaxation Times for Nonextensive Systems Using Gradient Flow for the Maximization of Tsallis Entropy: An Application to Financial Market Dynamics",
+      "url": "https://arxiv.org/abs/2606.23873",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Sandhya Devi",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.23873v1 Announce Type: new Abstract: In this work, we develop a method to estimate the relaxation time (the time required to reach equilibrium) of a nonextensive system such as financial market dynamics, using a Euclidean Gradient Flow (EGF) framework for the maximization of Tsallis entropy. The equilibrium state is defined as the maximum-entropy state. Specifically, the dynamics are expressed in terms of the time variations of the q-Gaussian parameters -- the entropic index q and the...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.23883",
+      "title": "Monotonicity of Normalized Implied-Volatility Coordinates under No-Arbitrage",
+      "url": "https://arxiv.org/abs/2606.23883",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Jian Sun",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.23883v1 Announce Type: new Abstract: For a fixed maturity, an arbitrage-free option smile induces natural normalized strike coordinates. This paper makes three contributions. First, it gives an elementary discrete no-arbitrage proof of monotonicity for the central Black--Scholes normalized coordinate \\(k/v(k)\\), using only finite-strike comparisons, convexity, monotonicity, and put--call parity. Thus the argument applies directly to finitely quoted option chains and does not require a...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.23922",
+      "title": "Regenerative Bonds: Formal Debt, Mutual-Aid, and Local Settlement Capacity",
+      "url": "https://arxiv.org/abs/2606.23922",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "William O. Ruddick (Yeshey), Alex (Yeshey), Cahana, Tom Shael",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.23922v1 Announce Type: new Abstract: This paper develops regenerative bonds as formal debt instruments whose disclosed use-of-proceeds and governance rules allocate proceeds to locally governed settlement systems designed to strengthen settlement capacity across locally specified productive, ecological, care, mutual-aid, and repair commitments without converting those commitments into investor collateral. It separates bondholder claims from local redeemable commitments and models comm...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.24019",
+      "title": "Empirical Confirmation of the Square-Root Law of Market Impact in a U.S. Large-Cap Equity",
+      "url": "https://arxiv.org/abs/2606.24019",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Aniket Vasaikar",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.24019v1 Announce Type: new Abstract: We test the square-root law (SRL) of market impact on a single U.S. large-capitalisation equity, Apple Inc. (AAPL), using the full Nasdaq TotalView-ITCH market-by-order feed over 178 trading days (2 December 2024 -- 19 August 2025; ~0.5 billion events). Without broker-tagged parent orders, we reconstruct metaorders from the anonymous tape and calibrate impact as $I/\\sigma_D = c\\,(Q/V_D)^{1/2}$ with the exponent fixed at the universal value $1/2$. W...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.24212",
+      "title": "Path Space Robust Bayesian Portfolio Selection",
+      "url": "https://arxiv.org/abs/2606.24212",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Andy Au",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.24212v1 Announce Type: new Abstract: A Bayesian investor learns an unknown asset drift by Kalman-Bucy filtering and trades the mean-variance optimal portfolio, but his observation model may be wrong. We make the policy robust to an adversary who distorts the law of observed prices, paying for it in relative entropy. Because wealth and beliefs are driven by the same Brownian motion, one distortion corrupts trading profits and the filter together. The robust policy and its price are the...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.24309",
+      "title": "Randomized Neural Networks for estimation of exposure profiles and Credit Valuation Adjustment (CVA) for American Equity Options",
+      "url": "https://arxiv.org/abs/2606.24309",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Isidro Moroso Varona, Jakub Micha\\'nk\\'ow, Pawe{\\l} Sakowski",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.24309v1 Announce Type: new Abstract: This thesis studies the use of randomized neural networks for the estimation of exposure profiles and unilateral CVA of American options within a Monte Carlo framework. The analysis is carried out separately under both Black-Scholes and Heston dynamics, combining American option valuation, expected exposure and potential future exposure estimation, and unilateral CVA calculation with portfolio netting effects. The numerical experiment compares this...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.24319",
+      "title": "Spatial accessibility to food banks hinders food parcel uptake in England and Wales, particularly in rural areas",
+      "url": "https://arxiv.org/abs/2606.24319",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Laura Sheppard, Carmen Cabrera, Daphne Badounas, Bonnie Boyana Buyuklieva, Sukankana Chakraborty, Huanfa Chen, Sarah Wise, Howard Wong, Rachael Jones, Neave O'Clery",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.24319v1 Announce Type: new Abstract: Food bank use in the UK has soared in recent years. The combination of a global pandemic, over-stretched and underfunded public services, and a cost-of-living crisis has meant that millions of people cannot afford basic essentials such as food, heating, housing, and baby supplies. Food bank use is driven by a complex range of factors, including poverty, health emergencies, income shocks, delays to universal credit payments, housing issues, and home...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.24399",
+      "title": "Energy Poverty as a Structural Trap: The Role of Housing Efficiency and Non-Convex Technology",
+      "url": "https://arxiv.org/abs/2606.24399",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Nazaria Solferino",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.24399v1 Announce Type: new Abstract: Energy poverty persists even among households that are not income-poor, suggesting a deeper mechanism than mere budget constraints. We develop a model in which indoor thermal comfort is produced through a non-convex technology that couples energy input with dwelling efficiency. A critical efficiency threshold emerges below which the minimum comfort level is physically unattainable, regardless of how much energy is purchased. Households below this t...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.24439",
+      "title": "Change from within? The strategies used by public officials to advance post-growth approaches",
+      "url": "https://arxiv.org/abs/2606.24439",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Laura Angresius, Milena B\\\"uchs, Daniel W. O'Neill",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.24439v1 Announce Type: new Abstract: Current societies face interconnected environmental and social crises. Post-growth research argues that addressing these challenges requires a reorganization of society around the priorities of environmental sustainability, social equity, and human wellbeing over economic growth. While scholars highlight the state's potential role in enabling post-growth transformations through changes from within government institutions, post-growth-minded public ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.23980",
+      "title": "Diagonal Frog: High-order positivity-preserving FD schemes for anisotropic Fokker-Planck equations",
+      "url": "https://arxiv.org/abs/2606.23980",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Andrey Itkin",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.23980v1 Announce Type: cross Abstract: The Fokker-Planck equation is fundamental to statistical mechanics, yet in settings with multiple state variables, anisotropic (cross-) diffusion, and jumps, conventional discretizations frequently produce non-physical negative probability densities. Building on the operator approach of \"A. Itkin, Pricing derivatives under Levy models. Modern finite difference and pseudo-differential operators approach, Springer, 2017, ISBN 978-1-4939-6792-6\", we...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.24616",
+      "title": "AI Tokenomics: The Economics of Tokens, Computation, and Pricing in Foundation Models",
+      "url": "https://arxiv.org/abs/2606.24616",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Quanyan Zhu",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.24616v1 Announce Type: cross Abstract: Tokens have become the practical accounting unit for modern foundation model services, linking information processing, computation, memory use, energy expenditure, pricing, and economic value. This paper develops a framework for AI tokenomics: the study of how tokens are generated, consumed, priced, allocated, and optimized across AI systems. We connect token-level technical costs to workflow-level production functions, enterprise resource alloca...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2108.02283",
+      "title": "Machine Learning Classification and Portfolio Construction: Does the Loss Function Matter?",
+      "url": "https://arxiv.org/abs/2108.02283",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Yang Bai, Kuntara Pukthuanthong",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2108.02283v3 Announce Type: replace Abstract: Classification outperforms regression across matched machine learning models in portfolio construction. A stacking ensemble of gradient boosted tree, random forest, and neural network yields a value-weighted annualized Sharpe ratio of 1.83 for classification and 1.11 for regression. This outperformance persists in multiclass settings, across subsamples, and after transaction costs. Spanning tests show that classification retains economically la...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2407.18957",
+      "title": "When AI Meets Finance (StockAgent): Large Language Model-based Stock Trading in Simulated Real-world Environments",
+      "url": "https://arxiv.org/abs/2407.18957",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Chong Zhang, Xinyi Liu, Zhongmou Zhang, Mingyu Jin, Lingyao Li, Zhenting Wang, Wenyue Hua, Dong Shu, Suiyuan Zhu, Xiaobo Jin, Sujian Li, Mengnan Du, Yongfeng Zhang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2407.18957v5 Announce Type: replace Abstract: Can AI Agents simulate real-world trading environments to investigate the impact of external factors on stock trading activities (e.g., macroeconomics, policy changes, company fundamentals, and global events)? These factors, which frequently influence trading behaviors, are critical elements in the quest for maximizing investors' profits. Our work attempts to solve this problem through large language model based agents. We have developed a mult...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2509.00368",
+      "title": "Exploring Trade Openness and Logistics Efficiency in the G20 Economies: A Bootstrap ARDL Analysis of Growth Dynamics",
+      "url": "https://arxiv.org/abs/2509.00368",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Haibo Wang, Lutfu Sua",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2509.00368v3 Announce Type: replace Abstract: This study examines the relationship between trade openness, logistics performance, and economic growth within G20 economies. Using a Bootstrap Autoregressive Distributed Lag (ARDL) model augmented by a dynamic error correction mechanism (ECM), the analysis quantifies both short run and long run effects of trade facilitation and logistics infrastructure, measured via the World Bank's Logistics Performance Index (LPI) from 2007 to 2023, on econo...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2510.19271",
+      "title": "Managing Portfolios Across the Return Distribution",
+      "url": "https://arxiv.org/abs/2510.19271",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Jozef Barunik, Lukas Janasek, Attila Sarkany",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2510.19271v2 Announce Type: replace Abstract: We develop a dynamic portfolio-choice framework in which investors target the region of the payoff distribution that the portfolio is designed to improve. Out of sample, the estimated policies form an ordered frontier: the policy focused on the downside delivers the strongest left-tail protection and the highest Sharpe ratio, while the policy focused on the upper quantile earns the highest mean return. The gains over volatility-managed portfoli...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2510.19511",
+      "title": "Compensation-based risk-sharing",
+      "url": "https://arxiv.org/abs/2510.19511",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Jan Dhaene, Atibhav Chaudhry, Ka Chun Cheung, Austin Riis-Due",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2510.19511v4 Announce Type: replace Abstract: This paper studies the mathematical problem of allocating payouts (compensations) in an endowment contingency fund using a risk-sharing rule that satisfies full allocation. Besides the participants, an administrator manages the fund by collecting ex-ante contributions to establish the fund and distributing ex-post payouts to members. Two types of administrators are considered. An 'active' administrator both invests in the fund and receives the ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.08419",
+      "title": "The Winner's Bliss in Common-Value Auctions under Horizontal Differentiation",
+      "url": "https://arxiv.org/abs/2606.08419",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Jiawei Chen, Anh Nguyen, Matthew Shum",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.08419v2 Announce Type: replace Abstract: We study common-value auctions in which bidders have horizontally differentiated preferences. In a specific two-bidder parameterization, winning conveys good news about the object's value to the winner, a phenomenon we call the winner's bliss in contrast to the conventional winner's curse. Additional implications also differ from the conventional analysis. When bidders' preferences are horizontally differentiated, seller revenue is reduced with...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2506.08026",
+      "title": "TIP-Search: Time-Predictable Inference Scheduling for Market Prediction under Uncertain Load",
+      "url": "https://arxiv.org/abs/2506.08026",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Xibai Wang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2506.08026v4 Announce Type: replace-cross Abstract: Real-time market prediction services need correct predictions before a decision deadline; a correct prediction delivered late is not usable. TIP-Search studies time-predictable inference scheduling over fixed market predictors under uncertain load. It filters conformal latency-quantile feasible models, dispatches over finite workers, and uses shielded constrained online experts to trade accuracy, queue pressure, and deadline risk. On the ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.15991",
+      "title": "Quantum Futures Interactive: A Live Demonstration of Post-Quantum Blockchain Security, Infrastructure Tradeoffs, and Sustainable Distributed Trust",
+      "url": "https://arxiv.org/abs/2605.15991",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Dongping Liu, Aoyu Zhang, Luyao Zhang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2605.15991v3 Announce Type: replace-cross Abstract: Advances in quantum computing challenge the hardness assumptions underlying widely deployed public-key cryptography in blockchain systems. Although post-quantum cryptography (PQC) standards are emerging, understanding quantum risk remains fragmented across research, engineering, governance, and investment communities. This demo presents Quantum Futures Interactive, a live interdisciplinary demonstration combining educational visualization...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.22337",
+      "title": "Theorist Toolbox: Tools for Agent Based LLM-assisted economic theory Research",
+      "url": "https://arxiv.org/abs/2606.22337",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Moran Koren",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.22337v2 Announce Type: replace-cross Abstract: Empirical economists often start their projects with a toolbox. Shared packages, replication archives, and circulated guides shorten the time between and idea and a rough initial draft. Theorists, on the other-hand, largely start from a blank page. By 2026, large language models can a produce and check nontrivial mathematics. The can also hallucinate and write wrong claims very convincingly. The current bottleneck on machine-assisted theo...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.23032",
+      "title": "IPO Finance Agent: Evaluation of LLM Financial Analysts beyond Finance Agent v2, with Automated Rubric Generation -- the Case of the SpaceX (SPCX) IPO",
+      "url": "https://arxiv.org/abs/2606.23032",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Mostapha Benhenda",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T04:00:00+00:00",
+      "summary": "arXiv:2606.23032v2 Announce Type: replace-cross Abstract: Finance Agent v2 (by Vals AI) has emerged as the reference benchmark for evaluating both Anthropic Claude and OpenAI ChatGPT frontier language models on financial tasks. However, it narrowly deals with periodic reporting from publicly traded companies (SEC 10-K and 10-Q filings), and its agentic harness relies on naive, unenriched chunk retrieval. Neither the task design nor the retrieval approach addresses the distinct challenges of IPO ...",
+      "lang": "en"
     }
   ]
 }
