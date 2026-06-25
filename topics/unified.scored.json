@@ -1,214 +1,236 @@
 {
   "date": "2026-06-25",
-  "intro": "今日核心信号：存储芯片超级周期确认——美光财报炸裂、SK海力士拟赴美上市募资290亿美元、TSMC全线涨价5-10%，AI硬件需求远未见顶。同时，企业开始控制AI支出（瑞银调研60%已设限），模型路由与开源模型崛起。OpenAI首款自研推理芯片Jalapeño发布，标志AI芯片竞争进入新阶段。",
+  "intro": "今日核心信号：美光财报炸裂，HBM产能提前售罄，存储短缺可能延续到2027年，AI需求见顶的担忧被击碎。同时，OpenAI与Broadcom发布自研推理芯片Jalapeño，AI芯片竞争进入新阶段。但瑞银调研显示60%企业已开始控制AI支出，模型路由策略兴起，高端模型收入增速承压。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-reportedly-hiking-prices-for-all-advanced-nodes-accounting-for-74-percent-of-the-companys-wafer-business-nvidia-amd-apple-qualcomm-and-others-will-face-higher-wafer-costs",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-reportedly-hiking-prices-for-all-advanced-nodes-accounting-for-74-percent-of-the-companys-wafer-business-nvidia-amd-apple-qualcomm-and-others-will-face-higher-wafer-costs",
-      "source": "Tom's Hardware",
+      "domain": "AI",
+      "id": "rss:https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "source": "Russell Brandom",
       "stars": 5,
-      "title": "TSMC全线涨价5-10%：先进制程成本压力向全产业链传导",
-      "lead": "TSMC通知客户，所有先进节点（3nm、5nm、7nm等）价格上调5-10%，覆盖其74%的晶圆业务。Nvidia、AMD、Apple、Qualcomm等客户将直接面临成本上升。这是继2024年涨价后的又一次全面提价，反映AI芯片需求持续挤压产能。",
+      "title": "OpenAI联合Broadcom发布首款自研推理芯片Jalapeño，9个月流片，性能功耗比领先",
+      "lead": "OpenAI与Broadcom合作推出的Jalapeño芯片，是一款针对LLM推理优化的巨型ASIC，采用reticle-sized设计，开发周期仅9个月。该芯片宣称在性能功耗比上超越现有方案，标志着OpenAI从模型公司向芯片设计公司的关键一步。",
       "confirmed": [
-        "TSMC已通知客户所有先进节点涨价5-10%",
-        "涨价覆盖3nm、5nm、7nm及部分成熟制程",
-        "先进节点占TSMC晶圆业务74%",
-        "Nvidia、AMD、Apple、Qualcomm等主要客户受影响"
+        "Jalapeño是OpenAI首款自研芯片，由Broadcom代工设计",
+        "芯片为reticle-sized ASIC，专为推理优化",
+        "开发周期仅9个月，远超行业常规",
+        "性能功耗比宣称超越现有领先方案"
       ],
       "judgment": [
-        "涨价是否会在Q3全面生效尚待确认",
-        "客户能否将成本转嫁给终端消费者不确定",
-        "对非AI芯片（如手机SoC）的涨价幅度可能不同",
-        "TSMC是否同步增加产能分配以缓解涨价压力未知",
-        "长期看是否加速客户自研芯片（如OpenAI、Google）"
+        "具体性能数据尚未公开，需第三方验证",
+        "量产时间和规模未披露",
+        "对NVIDIA的替代效应尚不明朗",
+        "成本与定价策略未知",
+        "与Broadcom的长期合作排他性未说明"
       ],
-      "implication": "你正在做的content-curator项目如果涉及AI推理成本估算，需要将芯片成本上浮纳入模型。TSMC涨价意味着未来6-12个月AI硬件（GPU、加速卡）价格可能继续走高，对个人开发者来说，租用云GPU比自建更划算。关注Nvidia、AMD的定价策略变化。"
+      "implication": "你应该关注Jalapeño的能效比数据，如果属实，将显著降低你的推理部署成本。对于正在做content-curator Agent的你，未来可能用上更便宜的API。同时，这预示着AI芯片格局正在松动，NVIDIA的垄断地位面临挑战。"
     },
     {
       "rank": 2,
       "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/broadcom-and-openai-unveil-custom-built-jalapeno-inference-processor-openais-first-chip-is-a-massive-reticle-sized-asic-built-in-an-ultra-fast-nine-month-development-cycle",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/broadcom-and-openai-unveil-custom-built-jalapeno-inference-processor-openais-first-chip-is-a-massive-reticle-sized-asic-built-in-an-ultra-fast-nine-month-development-cycle",
-      "source": "Tom's Hardware",
+      "id": "wscn:3775486",
+      "url": "https://wallstreetcn.com/articles/3775486",
+      "source": "华尔街见闻 API",
       "stars": 5,
-      "title": "OpenAI首款自研芯片Jalapeño发布：9个月流片，推理性能功耗比领先",
-      "lead": "OpenAI与Broadcom联合发布Jalapeño推理ASIC，采用reticle-size设计，开发周期仅9个月。该芯片专为LLM推理优化，宣称能效比超越现有方案。这是OpenAI减少对Nvidia依赖的关键一步，也标志着AI芯片定制化趋势加速。",
+      "title": "美光财报炸裂：HBM产能提前售罄，存储短缺延续至2027年，AI需求见顶论被击碎",
+      "lead": "美光最新财报显示数据中心收入超预期近七成，HBM产能已提前售罄，第四财季指引大幅上修，并签下覆盖数千亿美元收入的长期协议。这直接回应了市场对AI基建降温的担忧，存储短缺可能持续到2027年以后。",
       "confirmed": [
-        "Jalapeño为OpenAI与Broadcom联合开发",
-        "芯片为reticle-sized ASIC，专为推理设计",
-        "开发周期仅9个月",
-        "能效比宣称领先现有方案"
+        "数据中心收入超预期近70%",
+        "HBM产能已提前售罄",
+        "第四财季指引大幅上修",
+        "签下覆盖数千亿美元收入的长期协议"
       ],
       "judgment": [
-        "实际性能与能效比尚未有第三方独立验证",
-        "量产时间和规模未公布",
-        "是否仅用于OpenAI内部还是对外供应不明",
-        "与Nvidia GPU的具体对比数据缺失",
-        "成本与定价策略未知"
+        "存储涨价能否持续取决于AI需求实际增速",
+        "HBM盈利能力仍低于通用DRAM约30个百分点",
+        "2027年HBM盈利能力能否追上通用DRAM存不确定性",
+        "其他存储厂商产能扩张速度可能影响供需平衡",
+        "宏观经济下行风险可能抑制需求"
       ],
-      "implication": "这对你的Agent项目是利好：推理成本有望下降。如果Jalapeño量产，OpenAI的API价格可能进一步降低。建议关注后续第三方评测，尤其是推理延迟和性价比数据。你的content-curator项目如果依赖OpenAI API，未来可考虑切换至自研芯片优化的模型。"
+      "implication": "美光财报对你意味着：AI基础设施投资远未结束，你的Agent项目依赖的算力成本短期内不会下降。但存储短缺可能导致硬件涨价，如果你计划部署本地模型，建议提前锁定存储资源。"
     },
     {
       "rank": 3,
-      "domain": "金融",
-      "id": "wscn:3775486",
-      "url": "https://wallstreetcn.com/articles/3775486",
-      "source": "华尔街见闻",
-      "stars": 5,
-      "title": "美光财报炸裂：HBM产能售罄至2027年，AI存储短缺确认",
-      "lead": "美光最新财报击碎AI需求见顶担忧：数据中心收入超预期近70%，HBM产能提前售罄，Q4指引大幅上修。公司签下覆盖数千亿美元的长期协议，存储短缺可能延续到2027年以后。SK海力士同步飙升10%创新高，韩股收涨5.8%。",
+      "domain": "AI",
+      "id": "wscn:3775468",
+      "url": "https://wallstreetcn.com/articles/3775468",
+      "source": "华尔街见闻 API",
+      "stars": 4,
+      "title": "瑞银调研：60%企业已开始控制AI支出，模型路由策略兴起，中国开源模型受益",
+      "lead": "瑞银调研显示约60%企业已为Token使用加设护栏，有公司单用户单月花费3.5万美元。企业普遍采用\"模型路由\"策略，简单任务转向低价甚至中国开源模型，高端模型收入增速承压。",
       "confirmed": [
-        "美光数据中心收入超预期近70%",
-        "HBM产能已提前售罄",
-        "Q4财季指引大幅上修",
-        "签下覆盖数千亿美元的长期协议"
+        "60%企业已实施AI支出控制措施",
+        "模型路由策略成为主流，简单任务用低成本模型",
+        "中国开源模型（如DeepSeek）被纳入路由选项",
+        "高端模型收入增速面临压力"
       ],
       "judgment": [
-        "存储短缺是否真的延续到2027年取决于需求增速",
-        "其他存储厂商（三星、SK海力士）扩产节奏能否跟上",
-        "HBM价格涨幅是否可持续",
-        "PC和手机DRAM需求疲软是否会拖累整体",
-        "美光股价已大幅上涨，估值是否合理"
+        "模型路由是否会导致高端模型降价尚不确定",
+        "企业控制支出是否长期趋势有待观察",
+        "中国开源模型的质量和可靠性仍需验证",
+        "对AI初创公司估值的影响可能滞后",
+        "开源模型商业化路径尚不清晰"
       ],
-      "implication": "存储芯片超级周期确认，这对你的AI项目意味着：HBM/DRAM成本短期内不会下降。如果你计划部署本地推理服务器，建议提前锁定存储合同。另外，关注SK海力士的Nasdaq上市（拟募资290亿美元），可能带来更多投资机会。"
+      "implication": "这对你是个好消息：模型路由意味着你可以用更低的成本运行简单任务，把预算留给复杂推理。建议你在content-curator项目中集成模型路由逻辑，根据任务复杂度动态选择模型，能省下不少Token费。"
     },
     {
       "rank": 4,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
-      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
-      "source": "TechCrunch",
+      "domain": "AI",
+      "id": "rss:https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/",
+      "url": "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/",
+      "source": "Ben Thompson",
       "stars": 4,
-      "title": "AI人才持续从Google流向Anthropic：Jonas Adler和Alexander Pritzel加入",
-      "lead": "继Noam Shazeer和John Jumper之后，又有两位顶级AI研究员Jonas Adler和Alexander Pritzel离开Google加入Anthropic。人才流失加剧，反映Google在AI前沿竞争中的内部挑战。Anthropic正通过吸纳顶尖人才巩固其模型能力。",
+      "title": "Ben Thompson深度体验Vibe Coding：10条经验总结，从App构思到上线的完整实录",
+      "lead": "Stratechery作者Ben Thompson分享了他用Vibe Coding（Claude Code等工具）开发一个实际App的全过程，并总结了10条经验。这不是教程，而是一个资深科技分析师对AI编程范式的第一手反思，包括如何定义需求、管理AI输出、以及最终产品的质量评估。",
       "confirmed": [
-        "Jonas Adler和Alexander Pritzel离开Google加入Anthropic",
-        "此前已有Noam Shazeer和John Jumper等顶级科学家离开",
-        "Anthropic持续从Google吸引AI人才"
+        "Thompson使用Claude Code等工具开发了一个实际可用的App",
+        "他总结了10条关于Vibe Coding的经验教训",
+        "App已上线并计划日常使用",
+        "文章包含对AI编程效率与质量的真实评估"
       ],
       "judgment": [
-        "人才流失对Google AI研发能力的具体影响尚不明确",
-        "Anthropic能否有效整合这些人才并产出突破性成果",
-        "Google是否在调整策略以留住人才",
-        "这一趋势是否意味着Anthropic在模型竞赛中加速"
+        "Thompson的经验是否适用于非技术用户存疑",
+        "Vibe Coding生成代码的可维护性未经长期验证",
+        "对复杂项目的适用性尚不明确",
+        "AI编程工具的依赖风险未充分讨论",
+        "成本效益分析缺乏具体数字"
       ],
-      "implication": "Anthropic的人才储备在增强，其模型（如Claude）可能在未来6-12个月有显著提升。你正在使用Claude Code做项目，建议持续关注Anthropic的模型更新，可能带来更好的vibe coding体验。同时，Google的Gemini团队需要证明其竞争力。"
+      "implication": "作为正在做content-curator Agent的你，这篇文章值得细读。Thompson的10条经验可以直接指导你的开发实践，比如如何编写清晰的Prompt、如何管理AI的上下文窗口、以及如何评估AI生成的代码质量。建议你把这篇文章当作项目参考。"
     },
     {
       "rank": 5,
       "domain": "AI",
-      "id": "wscn:3775468",
-      "url": "https://wallstreetcn.com/articles/3775468",
-      "source": "华尔街见闻",
+      "id": "bvid:BV1rKjG6yEh2",
+      "url": "http://www.bilibili.com/video/av116758736279146",
+      "source": "Work-Fisher",
       "stars": 4,
-      "title": "瑞银调研：60%企业已开始控制AI支出，模型路由与开源模型崛起",
-      "lead": "瑞银调研显示约60%企业已为Token使用设限，有公司单用户月花费3.5万美元。企业采用\"模型路由\"策略：简单任务转向低价或中国开源模型。高端模型收入增速承压，AI增长逻辑未变但斜率之争开始。",
+      "title": "10分钟+300个Agent：保姆级教程学会Agent Skills，从概念到实战",
+      "lead": "这期视频从基础概念讲到上手实操，完整演示了一个Skill从无到有的创建过程，并对比了国内外创建工具。对于正在构建Agent的你，这是直接可用的实战指南。",
       "confirmed": [
-        "约60%企业已为Token使用设置预算上限",
-        "有公司单用户单月AI花费达3.5万美元",
-        "企业开始采用模型路由策略",
-        "简单任务转向低成本或中国开源模型"
+        "视频完整演示了Agent Skill的创建流程",
+        "对比了国内外多个创建工具",
+        "提供了从0到1的实操步骤",
+        "视频时长10分钟，效率高"
       ],
       "judgment": [
-        "模型路由是否会长期压低高端模型定价",
-        "中国开源模型（如DeepSeek）能否持续满足企业需求",
-        "企业AI预算控制是否会影响整体AI投资增速",
-        "高端模型提供商（OpenAI、Anthropic）如何应对",
-        "这一趋势对AI初创公司融资环境的影响"
+        "Skill的复杂场景适用性未深入探讨",
+        "工具间的优劣对比可能不够全面",
+        "视频中的示例可能偏简单",
+        "长期维护Skill的最佳实践未涉及"
       ],
-      "implication": "这对你的content-curator项目是重要信号：在构建Agent时，应考虑模型路由策略——简单任务使用低成本模型（如DeepSeek），复杂推理才用Claude/GPT-4。这能大幅降低你的API成本。建议在你的项目中集成模型选择逻辑，根据任务复杂度动态切换。"
+      "implication": "如果你正在用Agent Skills构建content-curator的工作流，这个视频可以帮你快速上手。建议你跟着视频实操一遍，然后尝试将你的内容筛选逻辑封装成可复用的Skill。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "SK hynix拟在Nasdaq上市募资290亿美元，全部用于AI存储产能",
+      "domain": "AI",
+      "title": "SK hynix Nasdaq上市申请：融资290亿美元用于AI内存扩产",
       "url": "https://www.tomshardware.com/tech-industry/sk-hynix-files-to-raise-up-to-29-billion-in-nasdaq-listing",
-      "source": "Tom's Hardware",
-      "one_liner": "存储巨头SK海力士启动史上最大规模半导体IPO，募资全部投入HBM和EUV产能，进一步确认AI存储需求爆发。"
+      "source": "Luke James",
+      "one_liner": "SK海力士申请在美上市，融资额创纪录，全部投入AI内存和EUV设备，进一步确认存储超级周期。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "中国超算LineShine以2.198 exaflops登顶TOP500，纯CPU无GPU",
-      "url": "https://www.tomshardware.com/tech-industry/supercomputers/china-tops-the-top500-with-a-cpu-only-supercomputer-ending-el-capitans-reign",
-      "source": "Tom's Hardware",
-      "one_liner": "中国纯CPU超算夺冠，显示在受限环境下仍能实现高性能计算，但AI训练场景下GPU仍是关键。"
+      "domain": "AI",
+      "title": "TSMC计划涨价：先进节点涨价5-10%，波及NVIDIA/AMD/Apple",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-reportedly-hiking-prices-for-all-advanced-nodes-accounting-for-74-percent-of-the-companys-wafer-business-nvidia-amd-apple-qualcomm-and-others-will-face-higher-wafer-costs",
+      "source": "Etiido Uko",
+      "one_liner": "台积电拟对7nm以下全线涨价，AI芯片成本将上升，但产能依然紧张。"
     },
     {
-      "domain": "AI 算力 / 半导体",
+      "domain": "AI",
+      "title": "AI数据中心的\"人肉瓶颈\"：熟练工人短缺可能拖慢部署",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-center-boom-hits-a-human-bottleneck-critical-skilled-labor-shortages-could-slow-deployment-despite-billions-in-funding",
+      "source": "Zak Killian",
+      "one_liner": "尽管资本涌入，但数据中心建设缺乏熟练工人，可能成为AI基建的隐形瓶颈。"
+    },
+    {
+      "domain": "AI",
+      "title": "中国黑市NVIDIA A100服务器价格飙升至8.2万美元",
+      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/five-year-old-nvidia-a100-servers-triple-in-price-in-china",
+      "source": "Luke James",
+      "one_liner": "美国制裁导致中国二手A100服务器价格暴涨3倍，反映AI算力供需极度失衡。"
+    },
+    {
+      "domain": "AI",
       "title": "Meta暂停强制AI培训项目：因数据泄露暴露员工键盘记录",
       "url": "https://www.tomshardware.com/tech-industry/big-tech/meta-pauses-mandatory-ai-training-program-that-tracked-employee-keystrokes-after-internal-data-leak-exposed-sensitive-staff-information-company-wide-employees-express-frustration-over-poor-handling-of-data",
-      "source": "Tom's Hardware",
-      "one_liner": "Meta内部AI培训项目因数据泄露暂停，暴露了企业AI部署中的隐私与安全风险，值得开发者警惕。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Synopsys发布后Ansys时代首款多物理场融合工具",
-      "url": "https://www.eetimes.com/snug-india-2026-synopsys-unveils-first-multiphysics-fusion-tools-since-ansys-deal/",
-      "source": "EE Times",
-      "one_liner": "EDA巨头整合Ansys技术，推出统一多物理场仿真工具，对先进封装和3DIC设计意义重大。"
+      "source": "Etiido Uko",
+      "one_liner": "Meta内部AI训练项目因数据泄露暂停，暴露了企业AI数据治理的脆弱性。"
     },
     {
       "domain": "AI",
-      "title": "Stratechery：Ben Thompson的Vibe Coding实践与10条经验",
-      "url": "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/",
-      "source": "Stratechery",
-      "one_liner": "Ben Thompson亲身体验vibe coding开发实用App，总结10条经验，对AI编程实践者极具参考价值。"
+      "title": "AI研究人员持续从Google流向Anthropic",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "source": "Amanda Silberling, Lucas Ropek",
+      "one_liner": "两位顶级AI研究员离开Google加入Anthropic，人才争夺战持续升温。"
     },
     {
       "domain": "AI",
-      "title": "Figma更新：新增代码层、动画支持和更多AI功能",
-      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
-      "source": "TechCrunch",
-      "one_liner": "Figma引入代码层和AI插件功能，设计到开发的衔接更紧密，对全栈开发者是利好。"
-    },
-    {
-      "domain": "金融",
-      "title": "美银警告：纳斯达克已达泡沫临界点，BRI指标升至0.8",
-      "url": "https://wallstreetcn.com/articles/3775478",
-      "source": "华尔街见闻",
-      "one_liner": "美银衍生品团队发出泡沫警告，半导体驱动的纳指涨幅已超30%，但短期回调风险不容忽视。"
-    },
-    {
-      "domain": "金融",
-      "title": "MLCC价格狂飙：高端产品年内涨3-5倍，现货报价30分钟一变",
-      "url": "https://wallstreetcn.com/articles/3775491",
-      "source": "华尔街见闻",
-      "one_liner": "AI服务器需求引爆MLCC缺货潮，高端电容交期拉长至20周以上，电子元器件涨价潮蔓延。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google Play Store正式开放第三方支付，降低抽成",
-      "url": "https://www.theverge.com/policy/956296/google-play-app-store-alternative-billing-fee-antitrust",
-      "source": "The Verge",
-      "one_liner": "Google在Epic诉讼和解后开放第三方支付，开发者可绕过30%抽成，对独立开发者是重大利好。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Microsoft推出低价Surface：8GB内存版起价849美元",
-      "url": "https://www.theverge.com/tech/956504/microsoft-surface-pro-laptop-ram",
-      "source": "The Verge",
-      "one_liner": "微软推出8GB内存版Surface Pro和Laptop，价格下探但性能妥协，适合轻度办公用户。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Agility Robotics拟通过SPAC上市，估值25亿美元",
+      "title": "Agility Robotics计划通过SPAC上市，估值25亿美元",
       "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
-      "source": "TechCrunch",
-      "one_liner": "人形机器人公司Agility Robotics计划SPAC上市，预计融资6.2亿美元，机器人商业化加速。"
+      "source": "Kirsten Korosec",
+      "one_liner": "人形机器人公司Agility Robotics拟SPAC上市，预计融资6.2亿美元，机器人商业化加速。"
     },
     {
-      "domain": "金融",
-      "title": "沃什强鹰首秀：美元走强，黄金跌破4000美元，比特币重挫",
-      "url": "https://wallstreetcn.com/articles/3775489",
-      "source": "华尔街见闻",
-      "one_liner": "美联储新理事沃什鹰派言论引发市场剧震，美元升值压制黄金和比特币，资金涌入半导体板块。"
+      "domain": "AI",
+      "title": "Figma新更新：支持代码层、动画和更多AI功能",
+      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+      "source": "Ivan Mehta",
+      "one_liner": "Figma新增代码层和AI插件功能，设计到开发的衔接更紧密，对前端开发者是利好。"
+    },
+    {
+      "domain": "AI",
+      "title": "Cerebras财报后股价暴跌：毛利率展望被误解",
+      "url": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
+      "source": "Aisha Malik",
+      "one_liner": "AI芯片公司Cerebras上市后首份财报引发股价大跌，市场对AI芯片盈利模式存疑。"
+    },
+    {
+      "domain": "AI",
+      "title": "瑞银：高端PI膜供需失衡，英伟达锁定产能至2027年",
+      "url": "https://wallstreetcn.com/premium/articles/3775139",
+      "source": "华尔街见闻 API",
+      "one_liner": "AI算力需求带动高端PI膜紧缺，国产替代空间达220亿，供应链机会值得关注。"
+    },
+    {
+      "domain": "AI",
+      "title": "SambaNova估值或达百亿：英特尔背书，能耗仅为NVIDIA GPU十分之一",
+      "url": "https://wallstreetcn.com/articles/3775477",
+      "source": "华尔街见闻 API",
+      "one_liner": "AI芯片新秀SambaNova获英特尔支持，RDU芯片能效优势显著，估值四个月暴涨五倍。"
+    },
+    {
+      "domain": "AI",
+      "title": "中国超算LineShine登顶TOP500：纯CPU实现2.198 Exaflops",
+      "url": "https://www.tomshardware.com/tech-industry/supercomputers/china-tops-the-top500-with-a-cpu-only-supercomputer-ending-el-capitans-reign",
+      "source": "Luke James",
+      "one_liner": "中国纯CPU超算LineShine以2.198 Exaflops性能登顶，显示CPU架构仍有潜力。"
+    },
+    {
+      "domain": "AI",
+      "title": "Google Play Store开放第三方支付：降低开发者佣金",
+      "url": "https://www.theverge.com/policy/956296/google-play-app-store-alternative-billing-fee-antitrust",
+      "source": "Richard Lawler",
+      "one_liner": "Google在Epic诉讼和解后，正式允许开发者使用替代支付系统，佣金将下降。"
+    },
+    {
+      "domain": "AI",
+      "title": "微软推出低价Surface：8GB内存版849美元起",
+      "url": "https://www.theverge.com/tech/956504/microsoft-surface-pro-laptop-ram",
+      "source": "Emma Roth",
+      "one_liner": "微软推出8GB内存版Surface Pro和Laptop，起售价849美元，降低入门门槛。"
+    },
+    {
+      "domain": "AI",
+      "title": "Nature论文质疑微软量子芯片Majorana 1：基础技术被指夸大",
+      "url": "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
+      "source": "Sophia Chen",
+      "one_liner": "Nature发表批评文章，质疑微软Majorana 1量子芯片的基础技术，量子计算商业化再添变数。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-25T07:36:52+0000"
+    "scored_at": "2026-06-25T08:25:57+0000"
   }
 }
