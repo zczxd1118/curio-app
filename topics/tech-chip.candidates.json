@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-24T06:54:36.987485+00:00",
+  "fetched_at": "2026-06-25T06:54:14.205888+00:00",
   "platforms": [
     "rss"
   ],
@@ -188,6 +188,108 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/the-rise-of-autonomous-drone-warfare/",
+      "title": "The Rise of Autonomous Drone Warfare",
+      "url": "https://www.eetimes.com/the-rise-of-autonomous-drone-warfare/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Rebecca Pool",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T22:14:58+00:00",
+      "summary": "Cheap, autonomous drones developed in Ukraine are driving a new era of drone-on-drone warfare. The post The Rise of Autonomous Drone Warfare appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/deep-uv-lithography-processing-the-best-kept-secret-of-euv-lithography/",
+      "title": "Deep UV Lithography Processing, the Best Kept Secret of EUV Lithography",
+      "url": "https://www.eetimes.com/deep-uv-lithography-processing-the-best-kept-secret-of-euv-lithography/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Drew Chambers",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T15:35:14+00:00",
+      "summary": "EUV grabs the glory, but DUV does the dirty work that keeps advanced chips alive. The post Deep UV Lithography Processing, the Best Kept Secret of EUV Lithography appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/pressure-and-ultrasonic-flow-sensing-for-smarter-fluid-systems-2/",
+      "title": "Pressure and Ultrasonic Flow Sensing for Smarter Fluid Systems",
+      "url": "https://www.eetimes.com/pressure-and-ultrasonic-flow-sensing-for-smarter-fluid-systems-2/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Analog Devices",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T14:00:00+00:00",
+      "summary": "Modern fluid systems demand accurate, reliable monitoring to detect inefficiencies, prevent failures, and optimise performance. Engineers often face challenges with measurement accuracy at low flow rates, maintenance from mechanical wear, and complex calibration processes. This paper explains how non-invasive sensing approaches can overcome these issues, enabling stable, low-power measurement of flow, pressure, and temperature. By [&#8230;] The post Pressure and Ultrasonic Flow Sensing for Smart...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/boosting-motor-control-performance-with-advanced-microcontroller-technology/",
+      "title": "Boosting Motor Control Performance with Advanced Microcontroller Technology",
+      "url": "https://www.eetimes.com/boosting-motor-control-performance-with-advanced-microcontroller-technology/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "GigaDevice",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T13:09:05+00:00",
+      "summary": "Join this webinar where our expert will introduce key control concepts such as field-oriented control and power factor correction. The post Boosting Motor Control Performance with Advanced Microcontroller Technology appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/solid-state-circuit-breakers-for-dc-grids-architecture-protection-performance/",
+      "title": "Solid-State Circuit Breakers for DC Grids Architecture, Protection Performance",
+      "url": "https://www.eetimes.com/solid-state-circuit-breakers-for-dc-grids-architecture-protection-performance/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Infineon Technologies and Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T12:59:13+00:00",
+      "summary": "Join this webinar where our expert will present an SSCB for DC grids, developed with building blocks such as Si/SiC JFET/MOSFET switches. The post Solid-State Circuit Breakers for DC Grids Architecture, Protection Performance appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/silicon-saxony-shows-promise-limits-of-europes-chips-act/",
+      "title": "Silicon Saxony Shows Promise, Limits of Europe’s Chips Act",
+      "url": "https://www.eetimes.com/silicon-saxony-shows-promise-limits-of-europes-chips-act/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-24T08:32:24+00:00",
+      "summary": "At Silicon Saxony Days 2026, Frank Bösenberg said Dresden illustrates “what is possible” under Europe’s first Chips Act. The post Silicon Saxony Shows Promise, Limits of Europe’s Chips Act appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/snug-india-2026-synopsys-unveils-first-multiphysics-fusion-tools-since-ansys-deal/",
       "title": "SNUG India 2026: Synopsys Unveils First Multiphysics Fusion Tools Since Ansys Deal",
       "url": "https://www.eetimes.com/snug-india-2026-synopsys-unveils-first-multiphysics-fusion-tools-since-ansys-deal/",
@@ -253,108 +355,6 @@
       "views": null,
       "published_at": "2026-06-22T17:15:13+00:00",
       "summary": "This webinar will provide a practical overview of product selection and implementation within factory automation applications. The post Critical Components for Reliable Factory Automation Design appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/globalfoundries-qualinx-put-europes-chip-sovereignty-to-the-fab-test/",
-      "title": "GlobalFoundries, Qualinx Put Europe’s Chip Sovereignty to the Fab Test",
-      "url": "https://www.eetimes.com/globalfoundries-qualinx-put-europes-chip-sovereignty-to-the-fab-test/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-22T17:00:00+00:00",
-      "summary": "GlobalFoundries and Qualinx deliver Europe's first fully secure chip supply chain. The post GlobalFoundries, Qualinx Put Europe’s Chip Sovereignty to the Fab Test appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/software-to-silicon-with-risc-v-for-physical-ai/",
-      "title": "Software to Silicon With RISC-V for Physical AI",
-      "url": "https://www.eetimes.com/software-to-silicon-with-risc-v-for-physical-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times Staff",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-22T14:13:07+00:00",
-      "summary": "Discover how RISC-V is reshaping AI chip design—watch to see why it's becoming the default ISA. The post Software to Silicon With RISC-V for Physical AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/beyond-isolation-novosenses-isolation-platform-elevates-system-safety-for-advanced-power-systems/",
-      "title": "Beyond Isolation: NOVOSENSE’s Isolation+ Platform Elevates System Safety for Advanced Power Systems",
-      "url": "https://www.eetimes.com/beyond-isolation-novosenses-isolation-platform-elevates-system-safety-for-advanced-power-systems/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Christopher McGrady",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-22T10:00:00+00:00",
-      "summary": "Isolation+ is the strategic framework that unifies NOVOSENSE’s entire isolation portfolio. The post Beyond Isolation: NOVOSENSE&#8217;s Isolation+ Platform Elevates System Safety for Advanced Power Systems appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/securing-next-generation-defense-by-design/",
-      "title": "Securing Next-Generation Defense by Design",
-      "url": "https://www.eetimes.com/securing-next-generation-defense-by-design/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Daryl Flack",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-22T07:00:00+00:00",
-      "summary": "In an environment of cloud platforms and AI models, security must be embedded into defense systems from the outset. The post Securing Next-Generation Defense by Design appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/defense-sends-clear-signal-to-canadian-semiconductor-industry/",
-      "title": "Defense Sends Clear Signal to Canadian Semiconductor Industry",
-      "url": "https://www.eetimes.com/defense-sends-clear-signal-to-canadian-semiconductor-industry/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T22:00:00+00:00",
-      "summary": "Canada sharpens its defense and tech edge with policies to boost homegrown chip power. The post Defense Sends Clear Signal to Canadian Semiconductor Industry appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/amazon-newest-gambit-selling-ai-chips/",
-      "title": "Amazon’s Newest Gambit: Selling AI Chips",
-      "url": "https://www.eetimes.com/amazon-newest-gambit-selling-ai-chips/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T12:19:36+00:00",
-      "summary": "The world’s largest hyperscaler wants to seize the semiconductor moment by selling AI accelerators at scale. The post Amazon’s Newest Gambit: Selling AI Chips appeared first on EE Times.",
       "lang": "en"
     }
   ]
