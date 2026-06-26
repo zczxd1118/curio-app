@@ -1,96 +1,72 @@
 # Curio 趋势雷达 · 2026-06-26
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 13 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
 
-_今日全球科技市场遭遇剧烈震荡：内存涨价潮引发苹果、微软、Xbox 全线提价，亚洲芯片股暴跌，韩股熔断。与此同时，AI 领域多线并进——OpenAI 的 GPT-5.6 因白宫要求推迟发布，Anthropic 指控阿里大规模蒸馏 Claude，Qualcomm 发布 HBC 近存计算架构。存储超级周期共识空前强烈，但终端需求反噬风险已现。_
+_今日全球科技与金融市场剧烈震荡：内存涨价潮全面冲击终端，苹果、微软同日提价，亚洲芯片股暴跌；Anthropic指控阿里大规模蒸馏Claude模型；OpenAI与Broadcom发布专用推理芯片Jalapeño，同时白宫要求推迟GPT-5.6发布。存储超级周期共识强化，但终端需求反噬风险已现。_
 
 ---
 
 ## 🌟 AI
 
-### 1. Anthropic 指控阿里用 2.5 万假账号、2880 万次对话蒸馏 Claude，要求严惩
+### 1. OpenAI发布Jalapeño推理芯片，更关键的是其芯片设计AI
 
-**[AI]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI]** · ⭐⭐⭐⭐⭐ · _Sally Ward-Foxton_
 
-Anthropic 公开指控阿里巴巴在 2026 年 4 月至 6 月期间，通过 25,000 个虚假账户与 Claude 进行了 2880 万次交互，系统性地蒸馏模型能力用于训练自家 AI。Anthropic 称此举违反服务条款，且发生在特朗普政府加强对华 AI 技术管控的背景下，要求追究责任。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Anthropic 追踪到 25,000 个虚假账户，产生 2,880 万次 API 调用 | 阿里是否将蒸馏成果用于其通义千问系列模型尚未确认 |
-| 蒸馏活动集中在 2026 年 4 月至 6 月 | 美国政府是否会采取实质性制裁仍不确定 |
-| Anthropic 已向美国政府通报此事 | 蒸馏对 Claude 模型性能的具体影响程度未知 |
-| 阿里此前曾因类似行为被多家 AI 公司警告 | 阿里可能辩称这是常规的模型评估行为 |
-
-**📖 主编点评**
-
-这是 AI 领域迄今规模最大的模型蒸馏攻击事件。如果你在用 Claude API 做产品，建议关注 Anthropic 是否会加强反爬和速率限制，提前规划备用模型。同时，这起事件可能加速美国对华 AI 技术出口管制升级，影响国内开发者获取前沿模型的渠道。
-
-📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-claims-that-chinas-alibaba-illicitly-distilled-its-models-from-april-to-june-2026-says-effort-involved-25-000-fake-accounts-and-28-8-million-exchanges-on-claude)
-
----
-
-## 🌟 AI 算力 / 半导体
-
-### 2. Qualcomm 发布 HBC 近存计算架构，AI250/AI350 加速器能效比 HBM 高 6 倍
-
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
-
-Qualcomm 在数据中心日上公布了全新的 HBC（Hybrid Bonded Capacitor）近存计算架构，以及基于该架构的 AI250 和 AI350 推理加速器。官方宣称 HBC 的带宽功耗比是 HBM 的 6 倍，容量可达片上 SRAM 的 200 倍，旨在打破 AI 推理的“内存墙”。
+OpenAI与Broadcom联合推出的Jalapeño芯片专为大模型推理优化，但EETimes认为，真正有长期影响的是OpenAI在芯片设计过程中使用的AI自动化工具——这可能是芯片设计范式转变的开端。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| HBC 架构采用混合键合电容技术，实现近存计算 | 实际量产时间和客户导入计划未公布 |
-| AI250 和 AI350 两款加速器面向数据中心推理场景 | 与 NVIDIA 和 AMD 现有产品的性能对比数据缺失 |
-| 带宽功耗比是 HBM 的 6 倍 | HBC 技术的良率和成本尚未披露 |
-| 容量是片上 SRAM 的 200 倍 | Qualcomm 在数据中心领域缺乏生态积累 |
+| OpenAI与Broadcom合作推出Jalapeño芯片，专为LLM推理设计 | AI设计芯片的实际效果与人工设计团队的对比尚未公开 |
+| 芯片采用先进封装，针对高吞吐低延迟推理场景优化 | Jalapeño的能效比相比NVIDIA H100/B200的具体数据未披露 |
+| 设计过程中大量使用AI自动化工具辅助布局与优化 | OpenAI是否会将芯片设计AI工具对外商业化尚不明朗 |
+| Jalapeño预计2027年量产，将部署在Azure及OpenAI自有基础设施 | 该芯片对NVIDIA市场地位的实际冲击程度有待观察 |
+|  | 量产时间表可能受制于先进封装产能 |
 
 **📖 主编点评**
 
-Qualcomm 这次不是小打小闹——HBC 架构如果落地，可能改变 AI 推理芯片的竞争格局。对做 AI 部署的你来说，这意味着未来可能有更省电、更便宜的推理方案。但 Qualcomm 数据中心执行力存疑，建议保持关注但不要押注，等首批客户测试结果。
-
-📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-reveals-hbc-near-memory-ai-architecture-ai250-and-ai350-accelerators-touts-6x-higher-bandwidth-per-watt-compared-to-hbm-200x-capacity-compared-to-on-chip-sram)
-
----
-
-### 5. OpenAI 与 Broadcom 发布推理芯片 Jalapeño，更值得关注的是其芯片设计 AI
-
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _EE Times_
-
-OpenAI 与 Broadcom 联合发布了名为 Jalapeño 的定制推理加速器，但 EE Times 分析认为，真正有长期影响的是 OpenAI 在芯片设计过程中使用的 AI 自动化工具——它可能改变芯片设计行业本身。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Jalapeño 是 OpenAI 与 Broadcom 合作的定制推理芯片 | Jalapeño 的性能指标尚未公开 |
-| 芯片设计过程中使用了 AI 自动化工具 | AI 设计工具的具体能力边界不明确 |
-| Jalapeño 针对 LLM 推理场景优化 | 与 NVIDIA 现有产品的性价比对比未知 |
-| OpenAI 计划大规模部署该芯片 | 芯片量产时间和成本未披露 |
-
-**📖 主编点评**
-
-OpenAI 造芯片本身不意外，但用 AI 设计芯片这件事值得你关注。如果你做 AI 工程，这意味着未来芯片设计工具可能成为新的 AI 应用方向。短期内，Jalapeño 对普通开发者影响有限，但长期看，AI 驱动的芯片设计可能降低定制芯片门槛。
+你应该关注的不是Jalapeño本身，而是OpenAI正在构建的芯片设计AI能力。如果你在做AI基础设施相关项目，这个方向意味着未来芯片设计门槛可能大幅降低——你的side project或许可以用AI辅助设计专用加速器。
 
 📺 [打开原文](https://www.eetimes.com/openai-jalapeno-will-be-spicy-but-the-real-sizzle-is-its-chip-design-ai/)
 
 ---
 
-## 🌟 大厂 AI 动态
+### 2. Anthropic指控阿里用2.5万假账号、2880万次对话蒸馏Claude模型
 
-### 3. 白宫要求 OpenAI 推迟 GPT-5.6 发布，仅限合作伙伴内测
+**[AI]** · ⭐⭐⭐⭐⭐ · _Jowi Morales_
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _The Verge_
-
-据 The Information 报道，特朗普政府出于安全顾虑，要求 OpenAI 推迟 GPT-5.6 的公开上线。OpenAI CEO Sam Altman 同意将模型先向有限合作伙伴开放，而非全面发布。这标志着美国政府首次直接干预大模型发布节奏。
+Anthropic公开指控阿里巴巴在2026年4月至6月期间，通过大规模虚假账户网络对Claude进行模型蒸馏，涉及2.5万个账号和2880万次API交互。这是目前公开报道中规模最大的模型蒸馏攻击事件。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 白宫以安全为由要求 OpenAI 推迟 GPT-5.6 公开发布 | 推迟时间长度未公布，可能为数周至数月 |
-| OpenAI 同意改为向精选合作伙伴先行开放 | 合作伙伴名单和评估标准未披露 |
-| GPT-5.6 是 GPT-5 系列的增量更新版本 | GPT-5.6 的具体能力提升细节尚未公开 |
-| 这是美国政府首次直接要求 AI 公司推迟模型发布 | 此举是否会成为未来大模型发布的常态尚不确定 |
+| Anthropic追踪到2.5万个疑似阿里控制的虚假账号 | 蒸馏所得模型的具体能力与Claude的差距未知 |
+| 这些账号在4月至6月期间进行了2880万次API调用 | 阿里是否将蒸馏技术用于商业产品尚未确认 |
+| Anthropic已向阿里发出法律通知并可能提起诉讼 | 此事件可能加速API安全机制的升级（如行为检测、速率限制） |
+| 阿里方面尚未正式回应 | 对中美AI技术竞争格局的长期影响尚待观察 |
 
 **📖 主编点评**
 
-政府介入模型发布节奏是全新信号。如果你依赖 OpenAI 的最新模型做产品，需要为不确定性做好准备——考虑多模型备份方案。同时，这可能会让更多开发者转向开源模型或 Anthropic 等替代方案。
+如果你在用Claude API做产品，注意Anthropic可能会加强反爬和速率限制，影响你的调用策略。同时，这个案例说明模型蒸馏已从技术实验升级为国家级竞争手段——你的content-curator项目如果涉及模型调用，建议预留多模型切换能力。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-claims-that-chinas-alibaba-illicitly-distilled-its-models-from-april-to-june-2026-says-effort-involved-25-000-fake-accounts-and-28-8-million-exchanges-on-claude)
+
+---
+
+### 3. 白宫要求OpenAI推迟GPT-5.6发布，分批推送以降低安全风险
+
+**[AI]** · ⭐⭐⭐⭐ · _Hayden Field_
+
+特朗普政府出于安全顾虑，要求OpenAI分批发布GPT-5.6。OpenAI CEO Sam Altman同意先向有限合作伙伴开放，而非全面公测。这是美国政府首次直接干预大模型发布节奏。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 白宫要求OpenAI推迟GPT-5.6的全面发布 | 分批发布的具体时间表未公布 |
+| OpenAI计划先向精选合作伙伴开放测试 | 安全评估的具体发现未公开 |
+| 安全评估是推迟的主要原因 | 此举是否会影响OpenAI的竞争优势尚不确定 |
+| GPT-5.6据称在推理和代码生成上有显著提升 | 其他大模型公司可能面临类似监管压力 |
+
+**📖 主编点评**
+
+GPT-5.6延迟意味着短期内Claude、Gemini等竞品有窗口期。如果你在做AI Agent项目，建议同时测试Claude Code和Codex，不要押注单一模型。另外，监管介入可能成为常态，你的content-curator需要跟踪政策动态。
 
 📺 [打开原文](https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request)
 
@@ -98,24 +74,48 @@ OpenAI 造芯片本身不意外，但用 AI 设计芯片这件事值得你关注
 
 ## 🌟 金融
 
-### 4. 内存涨价反噬终端需求：苹果涨价 + OpenAI IPO 推迟引爆亚洲芯片股崩盘
+### 4. 内存涨价反噬终端需求：苹果涨价+OpenAI IPO推迟引爆亚洲芯片股崩盘
 
-**[金融]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
+**[金融]** · ⭐⭐⭐⭐⭐ · _华尔街见闻 API_
 
-苹果和微软因存储短缺同日宣布涨价，叠加 OpenAI 考虑推迟 IPO 的消息，周五亚洲科技股遭猛烈抛售。韩股一度重挫近 9% 触发熔断，日经 225 跌约 5%，软银暴跌 14%。市场开始重新评估：内存涨价带来的芯片利润扩张，是否正在以压制终端消费为代价？
+苹果和微软因存储短缺同日宣布涨价，叠加OpenAI考虑推迟IPO，周五亚洲科技股遭猛烈抛售。市场重新评估：内存涨价带来的芯片股利润扩张，是否以压制终端消费需求为代价？
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 苹果 Mac/iPad 全线涨价，最高涨幅 $500 | 存储涨价是否已到拐点尚未可知 |
-| 微软 Xbox 系列第三次涨价，涨幅 $100-$150 | 终端需求萎缩是否会倒逼芯片降价仍不确定 |
-| OpenAI 考虑推迟 IPO | OpenAI IPO 推迟的具体原因和时长未确认 |
-| 韩股触发熔断，日经 225 跌 5%，软银跌 14% | 亚洲科技股回调幅度是否过度需观察 |
+| 苹果Mac和iPad全线涨价，最高涨幅$500 | 终端涨价是否会抑制消费需求尚待观察 |
+| 微软Xbox Series X/S涨价$100-$150 | OpenAI IPO推迟的具体原因未明确 |
+| OpenAI考虑推迟IPO | 存储超级周期能否持续取决于AI需求是否足以抵消消费端下滑 |
+| 亚洲芯片股暴跌：三星、SK海力士跌超4%，软银一度跌14% | 韩国散户与外资的博弈可能加剧市场波动 |
+| 韩股触发熔断，日经225跌约5% |  |
 
 **📖 主编点评**
 
-存储超级周期正在从利好芯片厂转向压制终端消费。如果你在考虑买新电脑或服务器，现在不是好时机——价格还在涨。对做 AI 项目的你，硬件成本上升可能影响部署预算，建议优先优化模型效率而非堆硬件。
+如果你持有或关注芯片股，注意短期回调风险。但存储超级周期的结构性逻辑（HBM、LTA协议）未破，回调可能是布局机会。你的content-curator项目可以加入存储产业链监控，跟踪美光、三星的LTA签约动态。
 
 📺 [打开原文](https://wallstreetcn.com/articles/3775589)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 5. Jim Keller：AI仍受制于旧的计算定律，内存和通信比更大处理器更重要
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Sally Ward-Foxton_
+
+Tenstorrent CEO Jim Keller在采访中援引Rent's Rule和Amdahl's Law，认为AI基础设施的未来瓶颈是内存和通信，而非更大规模的处理器。他同时透露Tenstorrent的Blackhole芯片正在规模化，并暗示IPO计划。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Keller认为内存带宽和芯片间通信是AI性能的关键瓶颈 | Blackhole的实际性能数据尚未完全公开 |
+| Tenstorrent的Blackhole芯片已进入规模化阶段 | Tenstorrent能否在NVIDIA主导的市场中突围不确定 |
+| 公司有IPO意向但未公布时间表 | IPO时间表和估值未定 |
+| Keller强调开放标准（RISC-V）和生态合作的重要性 | Keller的观点是否代表行业共识有待验证 |
+
+**📖 主编点评**
+
+Keller的观点与你关注的AI工程实践高度相关：如果你在优化推理部署，应优先关注内存带宽和通信效率，而非单纯追求更大模型。Tenstorrent的开放生态可能成为你的side project的备选硬件平台。
+
+📺 [打开原文](https://www.eetimes.com/jim-keller-on-tenstorrents-blackhole-scaling-and-ipo-ambitions/)
 
 ---
 
@@ -123,41 +123,45 @@ OpenAI 造芯片本身不意外，但用 AI 设计芯片这件事值得你关注
 
 ### AI
 
-- [Stratechery 创始人 Ben Thompson 的 Vibe Coding 实战总结：10 条 takeaways](https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/) —— 深度长文，从真实项目出发总结 vibe coding 经验，比教程更有洞察，适合想认真用 AI 编程的你。
-  _Stratechery_
-- [Patronus AI 获 5000 万美元融资，构建“数字世界”压力测试 AI Agent](https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/) —— Agent 测试赛道升温，如果你在构建 Agent 产品，Patronus 的方案值得参考。
+- [Patronus AI获5000万美元融资，构建测试AI Agent的“数字世界”](https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/) —— Agent测试赛道升温，Patronus AI由前Meta研究员创立，需求旺盛，适合关注Agent质量保障的你。
   _TechCrunch_
-- [General Intuition 融资 3.2 亿美元，用游戏训练 AI Agent 的直觉](https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/) —— 用游戏数据训练 Agent 是个有趣方向，但估值 23 亿美元偏高，观察后续产品落地。
+- [General Intuition融资3.2亿美元，用游戏训练AI Agent](https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/) —— 估值23亿美元，用数百万小时游戏数据训练Agent，思路新颖但商业化路径不明。
+  _TechCrunch_
+- [Databricks前AI负责人创立Un-0，声称可将AI功耗降低1000倍](https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/) —— 图像生成系统Un-0首次展示，但1000倍降功耗的声明需谨慎看待。
+  _TechCrunch_
+- [Notion Mail关停，转向AI Agent处理邮件](https://techcrunch.com/2026/06/25/notion-mail-shuts-down-amid-agent-takeover/) —— Notion认为用户更倾向用AI Agent管理邮箱，传统邮件客户端模式正在被颠覆。
+  _TechCrunch_
+- [Anthropic的Claude在付费消费者市场追赶ChatGPT](https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/) —— 数据显示付费用户正从ChatGPT转向Claude，对开发者生态有长期影响。
   _TechCrunch_
 
 ### AI 算力 / 半导体
 
-- [IBM 展示 0.7nm 芯片技术，目标 5 年内量产](https://www.eetimes.com/ibm-shows-sub-1-nm-chips-targeting-production-in-5-years/) —— IBM 的 nanostack 晶体管技术令人印象深刻，但量产时间表遥远，短期影响有限。
+- [Qualcomm发布HBC近存计算架构，AI250/AI350加速器](https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-reveals-hbc-near-memory-ai-architecture-ai250-and-ai350-accelerators-touts-6x-higher-bandwidth-per-watt-compared-to-hbm-200x-capacity-compared-to-on-chip-sram) —— 宣称带宽每瓦比HBM高6倍，容量比片上SRAM高200倍，但实际落地时间未知。
+  _Tom's Hardware_
+- [IBM展示0.7nm芯片技术，目标5年内量产](https://www.eetimes.com/ibm-shows-sub-1-nm-chips-targeting-production-in-5-years/) —— 1000亿晶体管、更密SRAM，但量产时间线较长，短期影响有限。
   _EE Times_
-- [Qualcomm 计划为中国市场定制数据中心芯片，规避出口限制](https://www.tomshardware.com/tech-industry/qualcomm-plans-china-specific-data-center-chips-built-to-clear-us-export-limits) —— Dragonfly 系列将推出中国特供版，性能缩水但合规，对国内 AI 算力市场是利好。
-  _Tom's Hardware_
-- [Micron 签署 1000 亿美元长期供应协议，称存储危机何时结束未知](https://www.tomshardware.com/pc-components/dram/micron-inks-long-term-supply-agreements-worth-usd100-billion-says-it-has-no-idea-when-ram-crisis-will-end) —— 16 份 LTA 锁定 1000 亿美元收入，存储涨价至少持续到 2027 年，买硬件趁早。
-  _Tom's Hardware_
-
-### 大厂 AI 动态
-
-- [Notion Mail 关停，转向 AI Agent 处理邮件](https://techcrunch.com/2026/06/25/notion-mail-shuts-down-amid-agent-takeover/) —— Notion 认为用户更想要 AI 代理管理邮箱而非传统邮件客户端，Agent 替代 SaaS 的趋势加速。
-  _TechCrunch_
-- [Adobe 收购 Topaz Labs，整合 AI 图像增强工具](https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/) —— Adobe 在 AI 工具上继续买买买，Topaz 的降噪和超分能力将融入全家桶。
-  _TechCrunch_
-- [Amazon 向印度追加 130 亿美元 AI 基础设施投资](https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/) —— AWS 在印度建 AI 数据中心，全球算力布局加速，对出海开发者是利好。
-  _TechCrunch_
 
 ### 金融
 
-- [美光长协含金量：客户预付 220 亿美元，锁定“史上最赚钱”毛利率](https://wallstreetcn.com/articles/3775569) —— 存储周期被长协熨平，美光从周期股变成长股，但终端涨价风险也在累积。
+- [美光签署1600亿美元长期供应协议，称存储超级周期或持续至2030年](https://www.tomshardware.com/pc-components/dram/micron-inks-long-term-supply-agreements-worth-usd100-billion-says-it-has-no-idea-when-ram-crisis-will-end) —— 16份LTA锁定客户220亿美元押金，存储行业从周期性转向结构性增长。
+  _Tom's Hardware_
+- [联想预警：DRAM和NAND高价将成“新常态”至2030年后](https://wallstreetcn.com/articles/3775587) —— 终端厂商首次明确表态存储涨价是结构性而非周期性，PC/手机将持续涨价。
   _华尔街见闻_
-- [联想预警：内存涨价是“新常态”，高价将持续至 2030 年后](https://wallstreetcn.com/articles/3775587) —— 联想认为 DRAM/NAND 价格已结构性上涨，PC 和手机将持续涨价，买数码产品趁早。
+- [三星、SK海力士酝酿赴美上市，以消除“韩国折价”](https://wallstreetcn.com/articles/3775584) —— 继SK海力士下月纳斯达克发行ADR后，三星赴美挂牌传闻升温。
   _华尔街见闻_
-- [三星和 SK 海力士酝酿赴美上市，以消除“韩国折价”](https://wallstreetcn.com/articles/3775584) —— 韩国半导体双雄寻求美国上市，吸引全球被动资金，对股价是催化剂。
+- [摩根大通接班人浮现：交易员出身的Troy Rohrbaugh成黑马](https://wallstreetcn.com/articles/3775572) —— Marianne Lake出局退休，Rohrbaugh因调任消费者业务意外领跑。
   _华尔街见闻_
-- [SpaceX 光环消退，美股航天概念股 6 月跌幅超 50%](https://wallstreetcn.com/articles/3775575) —— 航天泡沫破裂，商业化周期太长撑不起高估值，短期回避。
-  _华尔街见闻_
+
+### 大厂 AI 动态
+
+- [Adobe收购图像增强工具Topaz Labs](https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/) —— Adobe将Topaz Labs的AI工具集成到全家桶，对设计师是利好。
+  _TechCrunch_
+- [亚马逊向印度追加130亿美元AI基础设施投资](https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/) —— 全球科技巨头争抢印度AI基建市场，AWS加速扩张。
+  _TechCrunch_
+- [Stratechery专访Figma CEO Dylan Field：AI是Figma的顺风](https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/) —— 深度访谈，适合了解AI如何重塑设计工具赛道。
+  _Stratechery_
+- [Ben Thompson的Vibe Coding实战：10条经验总结](https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/) —— Stratechery创始人亲测Vibe Coding开发实际应用，与你正在做的content-curator项目高度相关。
+  _Stratechery_
 
 ---
 
