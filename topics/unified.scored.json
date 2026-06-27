@@ -1,234 +1,215 @@
 {
-  "date": "2026-06-26",
-  "intro": "今日全球科技与金融市场剧烈震荡：内存涨价潮全面冲击终端，苹果、微软同日提价，亚洲芯片股暴跌；Anthropic指控阿里大规模蒸馏Claude模型；OpenAI与Broadcom发布专用推理芯片Jalapeño，同时白宫要求推迟GPT-5.6发布。存储超级周期共识强化，但终端需求反噬风险已现。",
+  "date": "2026-06-27",
+  "intro": "今日核心信号：美国政府同时放行 Anthropic Mythos 5 并限制 OpenAI GPT-5.6，AI 监管进入“选择性松绑”新阶段；半导体领域 Onsemi 70 亿美元收购 Synaptics 押注边缘 AI，但市场用暴跌投票。你的 content-curator 项目可关注 Mythos 5 的 Agent 能力实测与边缘 AI 硬件趋势。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI",
-      "id": "rss:https://www.eetimes.com/openai-jalapeno-will-be-spicy-but-the-real-sizzle-is-its-chip-design-ai/",
-      "url": "https://www.eetimes.com/openai-jalapeno-will-be-spicy-but-the-real-sizzle-is-its-chip-design-ai/",
-      "source": "Sally Ward-Foxton",
+      "id": "wscn:3775650",
+      "url": "https://wallstreetcn.com/articles/3775650",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "OpenAI发布Jalapeño推理芯片，更关键的是其芯片设计AI",
-      "lead": "OpenAI与Broadcom联合推出的Jalapeño芯片专为大模型推理优化，但EETimes认为，真正有长期影响的是OpenAI在芯片设计过程中使用的AI自动化工具——这可能是芯片设计范式转变的开端。",
+      "title": "OpenAI 发布 GPT-5.6 系列，Sol 基准超 Mythos 5，应美政府要求限量开放",
+      "lead": "OpenAI 推出三款新模型：旗舰 Sol、均衡 Terra、轻量 Luna。Sol 在 Agent 编程基准上超越 Anthropic Mythos 5，定价仅为 Fable 5 的一半。但美国政府要求 OpenAI 在发布前 30 天提交审批，目前仅限可信合作伙伴预览。",
       "confirmed": [
-        "OpenAI与Broadcom合作推出Jalapeño芯片，专为LLM推理设计",
-        "芯片采用先进封装，针对高吞吐低延迟推理场景优化",
-        "设计过程中大量使用AI自动化工具辅助布局与优化",
-        "Jalapeño预计2027年量产，将部署在Azure及OpenAI自有基础设施"
+        "GPT-5.6 系列包含 Sol、Terra、Luna 三个版本",
+        "Sol 在 Agent 编程基准测试中超越 Mythos 5",
+        "Sol 定价 5 美元/百万输入 token、30 美元/百万输出 token",
+        "应美国政府要求，目前仅向有限合作伙伴开放预览",
+        "OpenAI 公开反对将政府审批流程常态化"
       ],
       "judgment": [
-        "AI设计芯片的实际效果与人工设计团队的对比尚未公开",
-        "Jalapeño的能效比相比NVIDIA H100/B200的具体数据未披露",
-        "OpenAI是否会将芯片设计AI工具对外商业化尚不明朗",
-        "该芯片对NVIDIA市场地位的实际冲击程度有待观察",
-        "量产时间表可能受制于先进封装产能"
+        "Sol 的 Agent 能力是否真正超越 Mythos 5 有待第三方复现",
+        "限量开放将持续多久？后续是否扩大范围？",
+        "政府审批是否会成为美国 AI 模型发布的长期机制",
+        "定价仅为 Fable 5 一半，是否引发价格战？",
+        "Terra 和 Luna 的具体能力边界尚未明确"
       ],
-      "implication": "你应该关注的不是Jalapeño本身，而是OpenAI正在构建的芯片设计AI能力。如果你在做AI基础设施相关项目，这个方向意味着未来芯片设计门槛可能大幅降低——你的side project或许可以用AI辅助设计专用加速器。"
+      "implication": "GPT-5.6 的 Agent 能力提升对你做 content-curator 项目是利好——更强的编程 Agent 意味着更高效的开发。建议关注 Sol 的 Agent 编程基准细节，看能否用于自动化你的工作流。同时，政府介入模型发布可能影响 API 可用性，建议备选方案（如 Claude Code + DeepSeek V4）。"
     },
     {
       "rank": 2,
       "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-claims-that-chinas-alibaba-illicitly-distilled-its-models-from-april-to-june-2026-says-effort-involved-25-000-fake-accounts-and-28-8-million-exchanges-on-claude",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-claims-that-chinas-alibaba-illicitly-distilled-its-models-from-april-to-june-2026-says-effort-involved-25-000-fake-accounts-and-28-8-million-exchanges-on-claude",
-      "source": "Jowi Morales",
+      "id": "wscn:3775659",
+      "url": "https://wallstreetcn.com/articles/3775659",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "Anthropic指控阿里用2.5万假账号、2880万次对话蒸馏Claude模型",
-      "lead": "Anthropic公开指控阿里巴巴在2026年4月至6月期间，通过大规模虚假账户网络对Claude进行模型蒸馏，涉及2.5万个账号和2880万次API交互。这是目前公开报道中规模最大的模型蒸馏攻击事件。",
+      "title": "美国放行 Anthropic Mythos 5，超 100 家机构获准使用，Fable 5 仍受限",
+      "lead": "美国政府解除对 Anthropic Claude Mythos 5 的出口限制，允许超过 100 家企业和联邦机构访问。但另一旗舰模型 Fable 5 的禁令未解除。此前 Anthropic 指控阿里巴巴使用 2.5 万个账户、2880 万次对话克隆 Claude。",
       "confirmed": [
-        "Anthropic追踪到2.5万个疑似阿里控制的虚假账号",
-        "这些账号在4月至6月期间进行了2880万次API调用",
-        "Anthropic已向阿里发出法律通知并可能提起诉讼",
-        "阿里方面尚未正式回应"
+        "Mythos 5 出口限制解除，超 100 家机构获准使用",
+        "Fable 5 的出口禁令仍然有效",
+        "Anthropic 此前指控阿里巴巴大规模克隆 Claude",
+        "Mythos 5 在 Agent 能力上被 GPT-5.6 Sol 超越"
       ],
       "judgment": [
-        "蒸馏所得模型的具体能力与Claude的差距未知",
-        "阿里是否将蒸馏技术用于商业产品尚未确认",
-        "此事件可能加速API安全机制的升级（如行为检测、速率限制）",
-        "对中美AI技术竞争格局的长期影响尚待观察"
+        "Mythos 5 放行是否意味着美国 AI 监管转向务实？",
+        "Fable 5 为何继续受限？能力更强还是安全风险更高？",
+        "阿里巴巴克隆事件是否影响中美 AI 合作？",
+        "Mythos 5 的实际 Agent 表现能否通过第三方评测"
       ],
-      "implication": "如果你在用Claude API做产品，注意Anthropic可能会加强反爬和速率限制，影响你的调用策略。同时，这个案例说明模型蒸馏已从技术实验升级为国家级竞争手段——你的content-curator项目如果涉及模型调用，建议预留多模型切换能力。"
+      "implication": "Mythos 5 放行意味着你可以通过合规渠道使用最强 Claude 模型。结合你正在做的 content-curator 项目，Mythos 5 的 Agent 能力可能比 GPT-5.6 更适合长文本处理。建议申请接入测试，对比两者在内容聚合场景下的表现。"
     },
     {
       "rank": 3,
-      "domain": "AI",
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
-      "source": "Hayden Field",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/onsemi-buying-cash-strapped-synaptics-in-usd7-billion-all-stock-deal-smart-power-meets-edge-ai-hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/onsemi-buying-cash-strapped-synaptics-in-usd7-billion-all-stock-deal-smart-power-meets-edge-ai-hardware",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "白宫要求OpenAI推迟GPT-5.6发布，分批推送以降低安全风险",
-      "lead": "特朗普政府出于安全顾虑，要求OpenAI分批发布GPT-5.6。OpenAI CEO Sam Altman同意先向有限合作伙伴开放，而非全面公测。这是美国政府首次直接干预大模型发布节奏。",
+      "title": "Onsemi 70 亿美元全股票收购 Synaptics，智能功率芯片 + 边缘 AI 硬件整合",
+      "lead": "Onsemi 宣布以 70 亿美元全股票交易收购 Synaptics，旨在打造机器人及物理 AI 的完整平台。Synaptics 拥有边缘 AI 计算 IP，Onsemi 则强于功率半导体。但市场反应负面，Onsemi 股价暴跌 24%，创近六年最大单日跌幅。",
       "confirmed": [
-        "白宫要求OpenAI推迟GPT-5.6的全面发布",
-        "OpenAI计划先向精选合作伙伴开放测试",
-        "安全评估是推迟的主要原因",
-        "GPT-5.6据称在推理和代码生成上有显著提升"
+        "交易金额 70 亿美元，全股票形式",
+        "Onsemi 将获得 Synaptics 的边缘 AI 计算资产",
+        "目标市场：机器人、物理 AI 应用",
+        "Onsemi 股价当日暴跌 24%",
+        "Synaptics 此前财务状况不佳"
       ],
       "judgment": [
-        "分批发布的具体时间表未公布",
-        "安全评估的具体发现未公开",
-        "此举是否会影响OpenAI的竞争优势尚不确定",
-        "其他大模型公司可能面临类似监管压力"
+        "市场暴跌是反映收购价过高还是对整合前景悲观？",
+        "边缘 AI 硬件市场是否真如 Onsemi 预期那样快速增长？",
+        "Synaptics 的技术能否与 Onsemi 现有产品线有效协同？",
+        "这笔交易是否会引发边缘 AI 芯片领域的并购潮？"
       ],
-      "implication": "GPT-5.6延迟意味着短期内Claude、Gemini等竞品有窗口期。如果你在做AI Agent项目，建议同时测试Claude Code和Codex，不要押注单一模型。另外，监管介入可能成为常态，你的content-curator需要跟踪政策动态。"
+      "implication": "边缘 AI 硬件整合加速，对你做 Agent 项目意味着未来本地推理芯片选择更多。如果你计划将 content-curator 的某些功能部署到边缘设备，关注 Onsemi 后续产品路线图。短期市场恐慌可能是长期布局的机会。"
     },
     {
       "rank": 4,
-      "domain": "金融",
-      "id": "wscn:3775589",
-      "url": "https://wallstreetcn.com/articles/3775589",
-      "source": "华尔街见闻 API",
-      "stars": 5,
-      "title": "内存涨价反噬终端需求：苹果涨价+OpenAI IPO推迟引爆亚洲芯片股崩盘",
-      "lead": "苹果和微软因存储短缺同日宣布涨价，叠加OpenAI考虑推迟IPO，周五亚洲科技股遭猛烈抛售。市场重新评估：内存涨价带来的芯片股利润扩张，是否以压制终端消费需求为代价？",
-      "confirmed": [
-        "苹果Mac和iPad全线涨价，最高涨幅$500",
-        "微软Xbox Series X/S涨价$100-$150",
-        "OpenAI考虑推迟IPO",
-        "亚洲芯片股暴跌：三星、SK海力士跌超4%，软银一度跌14%",
-        "韩股触发熔断，日经225跌约5%"
-      ],
-      "judgment": [
-        "终端涨价是否会抑制消费需求尚待观察",
-        "OpenAI IPO推迟的具体原因未明确",
-        "存储超级周期能否持续取决于AI需求是否足以抵消消费端下滑",
-        "韩国散户与外资的博弈可能加剧市场波动"
-      ],
-      "implication": "如果你持有或关注芯片股，注意短期回调风险。但存储超级周期的结构性逻辑（HBM、LTA协议）未破，回调可能是布局机会。你的content-curator项目可以加入存储产业链监控，跟踪美光、三星的LTA签约动态。"
-    },
-    {
-      "rank": 5,
       "domain": "AI 算力 / 半导体",
       "id": "rss:https://www.eetimes.com/jim-keller-on-tenstorrents-blackhole-scaling-and-ipo-ambitions/",
       "url": "https://www.eetimes.com/jim-keller-on-tenstorrents-blackhole-scaling-and-ipo-ambitions/",
-      "source": "Sally Ward-Foxton",
+      "source": "EE Times",
       "stars": 4,
-      "title": "Jim Keller：AI仍受制于旧的计算定律，内存和通信比更大处理器更重要",
-      "lead": "Tenstorrent CEO Jim Keller在采访中援引Rent's Rule和Amdahl's Law，认为AI基础设施的未来瓶颈是内存和通信，而非更大规模的处理器。他同时透露Tenstorrent的Blackhole芯片正在规模化，并暗示IPO计划。",
+      "title": "Jim Keller 访谈：AI 仍服从旧的计算定律，内存和通信比更大处理器更重要",
+      "lead": "Tenstorrent CEO Jim Keller 在访谈中援引 Rent's Rule 和 Amdahl's Law，认为 AI 基础设施的未来瓶颈是内存和通信，而非更大处理器。他透露 Tenstorrent 的 Blackhole 芯片正在 scaling，并有 IPO 意向。",
       "confirmed": [
-        "Keller认为内存带宽和芯片间通信是AI性能的关键瓶颈",
-        "Tenstorrent的Blackhole芯片已进入规模化阶段",
-        "公司有IPO意向但未公布时间表",
-        "Keller强调开放标准（RISC-V）和生态合作的重要性"
+        "Keller 认为内存和通信是 AI 基础设施的未来瓶颈",
+        "Tenstorrent 的 Blackhole 芯片正在 scaling",
+        "公司有 IPO 计划",
+        "Keller 强调 Rent's Rule 和 Amdahl's Law 仍然适用"
       ],
       "judgment": [
-        "Blackhole的实际性能数据尚未完全公开",
-        "Tenstorrent能否在NVIDIA主导的市场中突围不确定",
-        "IPO时间表和估值未定",
-        "Keller的观点是否代表行业共识有待验证"
+        "Tenstorrent 的架构能否真正挑战 NVIDIA？",
+        "Blackhole 芯片的实际性能数据尚未公开",
+        "IPO 时间表和估值预期如何？",
+        "Keller 的观点是否代表行业共识？"
       ],
-      "implication": "Keller的观点与你关注的AI工程实践高度相关：如果你在优化推理部署，应优先关注内存带宽和通信效率，而非单纯追求更大模型。Tenstorrent的开放生态可能成为你的side project的备选硬件平台。"
+      "implication": "Keller 的观点对你选择 AI 开发平台有指导意义：关注内存带宽和通信延迟，而非单纯追求算力。在你的 content-curator 项目中，如果涉及本地模型推理，优先考虑内存带宽大的硬件（如 Apple M 系列统一内存）。"
+    },
+    {
+      "rank": 5,
+      "domain": "股票",
+      "id": "wscn:3775664",
+      "url": "https://wallstreetcn.com/articles/3775664",
+      "source": "华尔街见闻",
+      "stars": 4,
+      "title": "Mag 7 本周重挫 6%，市值蒸发 3 万亿美元，AI 投入回报不明成主因",
+      "lead": "科技七巨头本周累计下跌 6%，纳指跌约 4%。Mag 7 本月市值蒸发约 3 万亿美元，相关 ETF 6 月跌 13% 创史上最差月度表现。AI 投入高企但回报不明，加上芯片、算力等板块崛起，Mag 7 领导地位承压。",
+      "confirmed": [
+        "Mag 7 本周跌 6%，纳指跌 4%",
+        "本月市值蒸发约 3 万亿美元",
+        "相关 ETF 6 月跌 13%，创历史最差月度表现",
+        "AI 投入高企但回报不明是核心原因",
+        "芯片、算力等板块崛起分流资金"
+      ],
+      "judgment": [
+        "这是拥挤头寸出清还是 AI 泡沫破裂的开始？",
+        "Mag 7 的 AI 投资何时能转化为收入？",
+        "资金从 Mag 7 流出后流向哪些板块？",
+        "是否会出现类似 2000 年的科技股调整？"
+      ],
+      "implication": "市场对 AI 投入回报的质疑正在加剧。对你个人而言，这意味着 AI 创业公司融资可能变难，但同时也意味着真正有工程价值的项目（如你的 content-curator）会更受关注。建议在项目中强调实际效率提升和可量化的成本节约。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "Patronus AI获5000万美元融资，构建测试AI Agent的“数字世界”",
-      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
-      "source": "TechCrunch",
-      "one_liner": "Agent测试赛道升温，Patronus AI由前Meta研究员创立，需求旺盛，适合关注Agent质量保障的你。"
-    },
-    {
-      "domain": "AI",
-      "title": "General Intuition融资3.2亿美元，用游戏训练AI Agent",
-      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
-      "source": "TechCrunch",
-      "one_liner": "估值23亿美元，用数百万小时游戏数据训练Agent，思路新颖但商业化路径不明。"
-    },
-    {
-      "domain": "AI",
-      "title": "Databricks前AI负责人创立Un-0，声称可将AI功耗降低1000倍",
-      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
-      "source": "TechCrunch",
-      "one_liner": "图像生成系统Un-0首次展示，但1000倍降功耗的声明需谨慎看待。"
-    },
-    {
-      "domain": "AI",
-      "title": "Notion Mail关停，转向AI Agent处理邮件",
+      "title": "Notion Mail 关停：用户转向 AI Agent 管理邮箱",
       "url": "https://techcrunch.com/2026/06/25/notion-mail-shuts-down-amid-agent-takeover/",
       "source": "TechCrunch",
-      "one_liner": "Notion认为用户更倾向用AI Agent管理邮箱，传统邮件客户端模式正在被颠覆。"
+      "one_liner": "Notion 停掉邮件应用，全力押注 AI Agent 接管收件箱——验证了 Agent 替代传统 SaaS 的趋势，对你做 Agent 项目是正面信号。"
     },
     {
       "domain": "AI",
-      "title": "Anthropic的Claude在付费消费者市场追赶ChatGPT",
-      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "title": "Patronus AI 融资 5000 万美元，构建 AI Agent 压力测试数字世界",
+      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
       "source": "TechCrunch",
-      "one_liner": "数据显示付费用户正从ChatGPT转向Claude，对开发者生态有长期影响。"
+      "one_liner": "Agent 测试赛道获资本认可，如果你做 Agent 项目，可以关注他们的测试方法论来优化自己的 Agent。"
+    },
+    {
+      "domain": "AI",
+      "title": "Anthropic 指控阿里巴巴大规模克隆 Claude，涉及 2880 万次对话",
+      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
+      "source": "Ars Technica",
+      "one_liner": "模型安全与地缘政治交织，如果你用 Claude API，注意账户安全和合规风险。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Qualcomm发布HBC近存计算架构，AI250/AI350加速器",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-reveals-hbc-near-memory-ai-architecture-ai250-and-ai350-accelerators-touts-6x-higher-bandwidth-per-watt-compared-to-hbm-200x-capacity-compared-to-on-chip-sram",
+      "title": "IBM 展示 0.7nm 芯片，目标 5 年内量产",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/ibm-goes-sub-1nm-develops-0-7nm-class-technology-offering-up-to-50-percent-higher-performance-and-70-percent-higher-energy-efficiency-compared-to-ibms-2nm-class-node",
       "source": "Tom's Hardware",
-      "one_liner": "宣称带宽每瓦比HBM高6倍，容量比片上SRAM高200倍，但实际落地时间未知。"
+      "one_liner": "IBM 0.7nm 技术性能提升 50%、能效提升 70%，但量产还需 5 年，短期对 AI 硬件格局无影响。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "IBM展示0.7nm芯片技术，目标5年内量产",
-      "url": "https://www.eetimes.com/ibm-shows-sub-1-nm-chips-targeting-production-in-5-years/",
+      "title": "Qualcomm 预测数据中心新方案将带来数十亿美元额外收入",
+      "url": "https://www.eetimes.com/qualcomm-forecasts-billions-in-additional-revenue-from-new-data-center-solutions/",
       "source": "EE Times",
-      "one_liner": "1000亿晶体管、更密SRAM，但量产时间线较长，短期影响有限。"
+      "one_liner": "高通进军数据中心 AI 加速器，可能改变 NVIDIA 一家独大的局面，但产品尚未落地。"
     },
     {
-      "domain": "金融",
-      "title": "美光签署1600亿美元长期供应协议，称存储超级周期或持续至2030年",
-      "url": "https://www.tomshardware.com/pc-components/dram/micron-inks-long-term-supply-agreements-worth-usd100-billion-says-it-has-no-idea-when-ram-crisis-will-end",
+      "domain": "AI 算力 / 半导体",
+      "title": "Solidigm VP 谈 PCIe 6.0 SSD、浮栅 NAND 和液冷存储",
+      "url": "https://www.tomshardware.com/pc-components/ssds/solidigm-vp-talks-pcie-6-0-ssds-next-gen-floating-gate-nand-liquid-cooled-storage-and-more-avi-shetty-vp-of-ai-solutions-and-market-enablement-discusses-the-future-of-enterprise-storage-tech",
       "source": "Tom's Hardware",
-      "one_liner": "16份LTA锁定客户220亿美元押金，存储行业从周期性转向结构性增长。"
+      "one_liner": "PCIe 6.0 SSD 和液冷存储将影响 AI 训练基础设施的存储瓶颈，适合关注硬件趋势的读者。"
     },
     {
-      "domain": "金融",
-      "title": "联想预警：DRAM和NAND高价将成“新常态”至2030年后",
-      "url": "https://wallstreetcn.com/articles/3775587",
+      "domain": "股票",
+      "title": "SpaceX 债券暴跌至垃圾级，250 亿美元发行后 48 小时遭猛烈抛售",
+      "url": "https://wallstreetcn.com/articles/3775665",
       "source": "华尔街见闻",
-      "one_liner": "终端厂商首次明确表态存储涨价是结构性而非周期性，PC/手机将持续涨价。"
+      "one_liner": "SpaceX 债券暴跌反映市场对 AI 相关债务泡沫的担忧，AI 债券发行同比激增 357%，信用风险积聚。"
     },
     {
-      "domain": "金融",
-      "title": "三星、SK海力士酝酿赴美上市，以消除“韩国折价”",
-      "url": "https://wallstreetcn.com/articles/3775584",
+      "domain": "股票",
+      "title": "中国 5 月工业企业利润增长 21.1%，电子设备制造业大增 103.9%",
+      "url": "https://wallstreetcn.com/articles/3775667",
       "source": "华尔街见闻",
-      "one_liner": "继SK海力士下月纳斯达克发行ADR后，三星赴美挂牌传闻升温。"
+      "one_liner": "AI 芯片需求拉动中国电子行业利润翻倍，验证 AI 硬件产业链的景气度。"
     },
     {
-      "domain": "金融",
-      "title": "摩根大通接班人浮现：交易员出身的Troy Rohrbaugh成黑马",
-      "url": "https://wallstreetcn.com/articles/3775572",
+      "domain": "股票",
+      "title": "苹果 Vision Pro 主管跳槽 OpenAI，智能眼镜项目受挫",
+      "url": "https://wallstreetcn.com/articles/3775657",
       "source": "华尔街见闻",
-      "one_liner": "Marianne Lake出局退休，Rohrbaugh因调任消费者业务意外领跑。"
+      "one_liner": "苹果 AR 硬件人才流失，OpenAI 加速硬件布局，AI 可穿戴赛道竞争加剧。"
+    },
+    {
+      "domain": "股票",
+      "title": "马斯克获批收购光通信企业 Mesh，推进太空算力战略",
+      "url": "https://wallstreetcn.com/articles/3775656",
+      "source": "华尔街见闻",
+      "one_liner": "SpaceX 收购 Mesh 布局太空光通信，与 IPO 时描述的太空算力战略一致，但短期对 AI 市场无直接影响。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Adobe收购图像增强工具Topaz Labs",
-      "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
-      "source": "TechCrunch",
-      "one_liner": "Adobe将Topaz Labs的AI工具集成到全家桶，对设计师是利好。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "亚马逊向印度追加130亿美元AI基础设施投资",
-      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
-      "source": "TechCrunch",
-      "one_liner": "全球科技巨头争抢印度AI基建市场，AWS加速扩张。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Stratechery专访Figma CEO Dylan Field：AI是Figma的顺风",
+      "title": "Figma CEO Dylan Field 访谈：AI 给 Figma 带来顺风",
       "url": "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
       "source": "Stratechery",
-      "one_liner": "深度访谈，适合了解AI如何重塑设计工具赛道。"
+      "one_liner": "Ben Thompson 深度访谈，Figma 认为 AI 是设计工具的加速器而非替代者，适合产品思维读者。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Ben Thompson的Vibe Coding实战：10条经验总结",
-      "url": "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/",
-      "source": "Stratechery",
-      "one_liner": "Stratechery创始人亲测Vibe Coding开发实际应用，与你正在做的content-curator项目高度相关。"
+      "title": "微软延长 Windows 10 免费安全更新至 2027 年 10 月",
+      "url": "https://www.tomshardware.com/software/windows/microsoft-extends-free-windows-10-security-updates-for-a-second-year",
+      "source": "Tom's Hardware",
+      "one_liner": "Windows 10 用户多了一年缓冲期，但对你做 AI 开发影响不大，建议尽早迁移到 Linux 或 Windows 11。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-26T08:32:51+0000"
+    "scored_at": "2026-06-27T07:35:30+0000"
   }
 }
