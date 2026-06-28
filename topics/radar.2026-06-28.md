@@ -1,0 +1,167 @@
+# Curio 趋势雷达 · 2026-06-28
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 13 条备选
+
+_本周AI领域两大信号：美国政府要求OpenAI限制GPT-5.6发布，同时授权超100家机构使用Anthropic Mythos，AI模型正从技术竞赛转向政治博弈。半导体端，Onsemi 70亿美元收购Synaptics，边缘AI落地加速；IBM展示0.7nm芯片，5年内量产。市场层面，英伟达以太网交换机收入暴增193%，AI算力需求从GPU蔓延至网络基础设施。_
+
+---
+
+## 🌟 AI
+
+### 1. OpenAI应政府要求限制GPT-5.6发布，Anthropic Mythos获准供100+机构使用
+
+**[AI]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
+
+美国政府对AI模型的管控从口头警告升级为实际行动。OpenAI在政府要求下主动限制GPT-5.6的广泛发布，同时特朗普政府批准超100家企业和机构使用Anthropic的Mythos模型。这标志着美国AI监管进入'事前审批'阶段，对开发者生态影响深远。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| OpenAI应美国政府请求，限制GPT-5.6的全面发布，仅向部分合作伙伴开放 | 政府审批是否会成为所有前沿模型的标配流程 |
+| 特朗普政府授权超过100家美国公司和政府机构使用Anthropic Mythos 5 | OpenAI和Anthropic是否会因此加速非美国市场的模型部署 |
+| OpenAI公开表示'不希望这种政府审批成为长期常态' | 亚洲AI初创公司已开始推出类似Mythos的模型，抢占被禁市场 |
+| 此前Anthropic的Mythos也曾因政府要求延迟发布 | 开发者获取最新模型的渠道可能持续受限 |
+|  | 长期看，开源模型可能因此获得更大发展空间 |
+
+**📖 主编点评**
+
+如果你正在做AI Agent项目，短期应关注Anthropic Mythos的可用性（你已获授权），同时评估GPT-5.6受限对你的开发计划的影响。建议准备多模型切换方案，并关注亚洲替代模型（如DeepSeek）的进展——它们可能成为你的备选推理引擎。
+
+📺 [打开原文](https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 2. Onsemi 70亿美元全股收购Synaptics：边缘AI硬件整合加速
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+
+功率半导体巨头Onsemi以70亿美元全股收购触控与AI芯片公司Synaptics，旨在打造面向机器人和物理AI的完整平台。这笔交易印证了边缘AI从概念走向规模落地——将AI推理能力嵌入工业、汽车等终端设备。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Onsemi以全股交易方式收购Synaptics，交易价值约70亿美元 | 整合后的平台能否与NVIDIA Jetson等现有边缘AI方案竞争 |
+| Synaptics拥有Edge AI计算资产，包括AI加速器和NPU | Onsemi的功率半导体与Synaptics的AI计算能否产生实质协同 |
+| 合并后公司将聚焦机器人、物理AI和智能传感应用 | 交易是否会引起反垄断审查 |
+| Synaptics近年现金流紧张，此次收购为其提供资金支持 | 边缘AI市场是否足够大以支撑70亿美元估值 |
+
+**📖 主编点评**
+
+边缘AI正在从'概念验证'走向'规模化部署'。如果你在规划AI Agent的端侧推理方案，可以关注Onsemi+Synaptics后续推出的集成平台。对于你的content-curator项目，未来可能用上更便宜的边缘AI硬件来运行本地模型。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/onsemi-buying-cash-strapped-synaptics-in-usd7-billion-all-stock-deal-smart-power-meets-edge-ai-hardware)
+
+---
+
+### 3. IBM展示0.7nm芯片：1000亿晶体管，5年内量产
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _EE Times_
+
+IBM在VLSI 2026会议上展示了0.7nm纳米堆叠（nanostack）芯片，晶体管密度达到1000亿个，SRAM密度显著提升。这不仅是工艺节点的突破，更意味着AI训练和推理的算力天花板将被进一步推高。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| IBM展示0.7nm纳米堆叠芯片，晶体管数量达1000亿 | 0.7nm工艺的量产良率和成本能否达到商业可行 |
+| SRAM密度相比现有工艺有显著提升 | IBM的芯片制造合作伙伴（如三星或英特尔）能否承接量产 |
+| 目标5年内实现量产 | 与台积电A16工艺的竞争态势如何 |
+| 采用新型纳米片（nanosheet）架构 | 1000亿晶体管芯片的功耗和散热解决方案 |
+
+**📖 主编点评**
+
+虽然5年量产周期看似遥远，但IBM的0.7nm芯片为AI算力规划提供了长期坐标。如果你在考虑未来2-3年的硬件选型，可以关注这一技术路线对AI推理成本的影响——更密集的晶体管意味着更低的单token成本。
+
+📺 [打开原文](https://www.eetimes.com/ibm-shows-sub-1-nm-chips-targeting-production-in-5-years/)
+
+---
+
+## 🌟 股票
+
+### 4. 英伟达数据中心以太网交换机收入暴增193%，首次登顶全球第一
+
+**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+英伟达在Q1 2026首次成为全球数据中心以太网交换机市场第一，季度营收21亿美元，同比增长192.7%，市场份额21.5%。核心驱动力是Spectrum-X平台——专为大规模GPU集群设计的端到端网络方案。这标志着AI算力瓶颈正从GPU本身转向网络互联。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 英伟达Q1 2026数据中心以太网交换机营收21亿美元，同比增192.7% | 英伟达的网络业务能否持续挑战博通和思科的根基 |
+| 市场份额21.5%，首次超越博通、思科等传统网络巨头 | Spectrum-X的客户粘性是否足够高 |
+| 增长核心是Spectrum-X平台，专为AI集群优化 | AI网络市场是否会出现类似GPU的'赢家通吃'格局 |
+| AI训练集群对网络带宽的需求呈指数级增长 | 对传统网络设备商的长期影响 |
+
+**📖 主编点评**
+
+AI基础设施的投资正在从GPU向网络、存储等周边扩散。如果你在关注AI工程实践，网络架构将成为不可忽视的优化维度——例如，你的Agent项目如果需要分布式推理，网络延迟就是关键瓶颈。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3775674)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 5. 亚洲AI初创公司推出类Mythos模型，填补Anthropic出口禁令留下的空白
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
+
+随着Anthropic的Mythos模型因美国出口禁令无法进入亚洲市场，多家亚洲AI初创公司迅速推出具备类似能力的替代模型。这些模型在编码、推理等任务上声称达到Mythos级别，且不受美国出口管制。美国AI实验室可能因此永久失去这一巨大市场。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 多家亚洲AI初创公司发布声称性能接近Anthropic Mythos的模型 | 这些替代模型的实际性能是否真的达到Mythos水平 |
+| 这些模型不受美国出口管制，可自由在亚洲市场部署 | 美国AI实验室是否会因此调整出口策略 |
+| Anthropic的Mythos因美国政府限制，无法向亚洲客户提供 | 亚洲模型能否在生态和开发者支持上追赶美国产品 |
+| 亚洲市场是全球最大的AI消费市场之一 | 对全球AI竞争格局的长期影响 |
+
+**📖 主编点评**
+
+如果你在考虑AI模型的供应链安全，亚洲替代模型值得关注。对于你的content-curator项目，如果未来需要部署在亚洲市场，这些模型可能是更合规的选择。建议现在就开始测试DeepSeek等亚洲模型的API，评估其在实际任务中的表现。
+
+📺 [打开原文](https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/)
+
+---
+
+## 📋 备选池
+
+### AI
+
+- [特朗普政府释放Anthropic Mythos供100+美国机构使用](https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/) —— Mythos获准大规模商用，但仅限于美国实体，进一步加剧全球AI模型分裂。
+  _TechCrunch_
+- [Apple Vision Pro负责人Paul Meade离职加入OpenAI硬件团队](https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/) —— OpenAI加速硬件布局，Jalapeño芯片之后，人才争夺战升级。
+  _TechCrunch_
+- [OpenAI从Uber印度挖来负责人，拓展最大海外市场](https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/) —— 印度成为AI兵家必争之地，OpenAI与亚洲本土模型正面竞争。
+  _TechCrunch_
+
+### AI 算力 / 半导体
+
+- [Intel Nova Lake 52核CPU功耗高达474W，需3个8-pin电源接口](https://www.tomshardware.com/pc-components/cpus/intels-next-gen-52-core-nova-lake-cpu-could-pull-up-to-474w-high-end-lga1954-motherboards-may-need-three-8-pin-power-connectors-to-feed-the-monster) —— 桌面CPU功耗竞赛白热化，AI工作负载推动核心数激增。
+  _Tom's Hardware_
+- [Apple跳过高端M6芯片，加速开发AI专用M7系列](https://www.tomshardware.com/tech-industry/apple-will-skip-its-high-end-m6-mac-chips-and-fast-track-an-ai-focused-m7-generation-for-2027) —— Apple战略转向AI推理芯片，M7系列预计2027年面世。
+  _Tom's Hardware_
+- [Qualcomm预测数据中心新业务将带来数十亿美元额外收入](https://www.eetimes.com/qualcomm-forecasts-billions-in-additional-revenue-from-new-data-center-solutions/) —— 高通大举进军数据中心，AI推理芯片市场迎来新玩家。
+  _EE Times_
+
+### 股票
+
+- [高盛合伙人：本周市场动荡源于AI再平衡，而非美联储](https://wallstreetcn.com/articles/3775685) —— AI投资热潮进入'赢家与输家'重估阶段，市场波动可能持续。
+  _华尔街见闻_
+- [英伟达AI版图再扩张：数据中心以太网交换机收入暴增193%](https://wallstreetcn.com/articles/3775674) —— 英伟达从GPU霸主延伸至网络设备，AI基础设施全栈化趋势明显。
+  _华尔街见闻_
+- [钽价年内暴涨超150%，AI需求驱动稀有金属短缺](https://wallstreetcn.com/premium/articles/3775504) —— AI硬件供应链压力向上游原材料传导，钽电容成本飙升。
+  _华尔街见闻_
+
+### 大厂 AI 动态
+
+- [NYT指控微软为OpenAI建造侵权超级计算机](https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged/) —— AI版权诉讼升级，微软基础设施被卷入，或影响未来训练数据获取。
+  _Ars Technica_
+- [South Korea plans to train entire military as 'drone warriors'](https://arstechnica.com/ai/2026/06/south-korea-plans-to-train-entire-military-as-drone-warriors/) —— 50万军队全员无人机训练，AI军事化应用加速。
+  _Ars Technica_
+- [TikTok's road to becoming a super app](https://techcrunch.com/2026/06/26/tiktoks-road-to-becoming-a-super-app/) —— TikTok加速超级App化，AI推荐引擎是核心驱动力。
+  _TechCrunch_
+- [Instagram测试更多算法自定义方式](https://techcrunch.com/2026/06/27/instagram-is-testing-more-ways-for-users-to-customize-your-algorithm/) —— 社交平台算法透明度提升，用户控制权增加。
+  _TechCrunch_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
