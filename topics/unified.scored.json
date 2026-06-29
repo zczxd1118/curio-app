@@ -1,100 +1,102 @@
 {
   "date": "2026-06-29",
-  "intro": "今日核心信号：存储芯片价格暴涨引发连锁反应——苹果寻求从中国CXMT采购DRAM，三星、SK海力士宣布800万亿韩元扩产计划，同时面临美国集体诉讼。AI模型监管收紧，GPT-5.6和Claude Mythos均受限，亚洲替代模型加速涌现。",
+  "intro": "今日核心信号：存储三巨头遭集体诉讼，但韩国800万亿韩元芯片投资计划强势对冲，DRAM产能翻倍目标明确；同时，OpenAI GPT-5.6与Anthropic Mythos双双遭政府限制，AI安全监管进入新阶段。你的content-curator项目可关注AI Agent安全漏洞（Mozilla 0din团队新发现）和MCP实战教程。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/apple-reportedly-lobbies-uncle-sam-for-access-to-chinese-memory-chips-tech-giant-allegedly-wants-to-buy-from-blacklisted-cxmt",
-      "url": "https://www.tomshardware.com/tech-industry/apple-reportedly-lobbies-uncle-sam-for-access-to-chinese-memory-chips-tech-giant-allegedly-wants-to-buy-from-blacklisted-cxmt",
-      "source": "Hassam Nasir",
+      "domain": "AI",
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/ai-coding-agents-can-be-tricked-into-installing-malware-via-clean-github-repositories-mozillas-0din-team-shows-how-claude-code-can-be-exploited-by-its-own-helpfulness",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/ai-coding-agents-can-be-tricked-into-installing-malware-via-clean-github-repositories-mozillas-0din-team-shows-how-claude-code-can-be-exploited-by-its-own-helpfulness",
+      "source": "Bruno Ferreira",
       "stars": 5,
-      "title": "苹果游说美国政府批准采购中国CXMT内存芯片，存储价格危机升级",
-      "lead": "DRAM价格四年暴涨700%，苹果为保利润向华盛顿寻求豁免，试图从被列入实体清单的长鑫存储（CXMT）采购廉价内存。花旗认为此举已将长鑫从\"国产替代\"重新定义为\"全球第四大可信赖DRAM制造商\"。",
+      "title": "Mozilla 0din团队演示：AI编程Agent可被诱骗安装恶意软件——Claude Code的“乐于助人”反成漏洞",
+      "lead": "Mozilla的0din安全团队发现，攻击者只需创建一个看似干净的GitHub仓库，就能诱导Claude Code等AI编程Agent在初始化项目时自动下载并执行恶意代码。该攻击利用了AI Agent对用户指令的过度服从，无需任何社会工程学。",
       "confirmed": [
-        "苹果正在游说美国政府，寻求批准从中国CXMT采购DRAM芯片",
-        "CXMT目前被列入美国实体清单，采购需获商务部许可",
-        "DRAM价格自2022年以来累计涨幅超700%，苹果iPad和Mac已提价",
-        "三星、SK海力士、美光被指控协同减产操纵价格，遭美国集体诉讼"
+        "Mozilla 0din团队成功复现攻击：一个最小化的GitHub仓库即可触发",
+        "Claude Code在初始化项目时会自动执行仓库中的脚本",
+        "攻击无需用户交互，Agent自主完成恶意代码下载",
+        "其他AI编程工具（如Cursor、Copilot）也可能存在类似风险"
       ],
       "judgment": [
-        "美国政府是否会批准苹果的采购请求尚不确定",
-        "若获批，可能引发其他科技巨头效仿，改变DRAM供应链格局",
-        "集体诉讼结果将影响存储三巨头的定价策略",
-        "CXMT的产能和良率能否满足苹果需求待验证",
-        "此举可能加剧中美科技脱钩与反制"
+        "Anthropic是否会发布官方补丁或安全指南？",
+        "该漏洞是否已被恶意利用？",
+        "其他AI Agent（如Codex、Windsurf）的具体受影响程度",
+        "Mozilla是否计划公开PoC代码？",
+        "行业是否会推动AI Agent安全标准？"
       ],
-      "implication": "你正在做的content-curator项目如果涉及数据存储或AI推理，DRAM成本将直接影响你的部署预算。建议关注CXMT的产能爬坡进度和HBM替代方案，同时留意苹果获批后可能引发的DRAM价格拐点——这对你的个人Agent项目长期运维成本有实际意义。"
+      "implication": "你在做content-curator Agent项目时，务必注意：不要让你的Agent自动执行来自不可信源的代码或命令。建议在Agent工作流中加入沙箱执行或人工确认环节。这个漏洞也提醒我们，AI Agent的“乐于助人”需要边界——你的项目可以借鉴0din的思路，增加安全审计模块。"
     },
     {
       "rank": 2,
       "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-chatgpt-5-6-gets-the-same-banhammer-treatment-as-anthropics-mythos-from-the-federal-government-source-says-that-washington-cautioned-openai-against-releasing-the-model-without-receiving-approval",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-chatgpt-5-6-gets-the-same-banhammer-treatment-as-anthropics-mythos-from-the-federal-government-source-says-that-washington-cautioned-openai-against-releasing-the-model-without-receiving-approval",
-      "source": "Jowi Morales",
+      "id": "wscn:3775753",
+      "url": "https://wallstreetcn.com/articles/3775753",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "美国政府要求OpenAI推迟发布GPT-5.6，最强版本被\"切脑\"限制",
-      "lead": "继Anthropic的Claude Mythos被限制出口后，OpenAI的GPT-5.6也遭联邦政府\"banhammer\"——华盛顿要求OpenAI在发布前30天提交模型供安全审查，最强能力版本可能被永久限制。亚洲初创趁机推出Mythos替代品。",
+      "title": "GPT-5.6遭“切脑”限制，Fable 5被迫下架——美国AI安全监管进入强硬期",
+      "lead": "继Anthropic的Mythos被限制后，OpenAI的GPT-5.6也未能幸免。美国政府要求OpenAI在发布前30天提交模型供审查，最强版本被限制访问。同时，Anthropic的Fable 5因暴露网络攻击风险被下架，预计将以“阉割版”回归。",
       "confirmed": [
-        "美国政府要求OpenAI在发布GPT-5.6前30天提交模型供审查",
-        "GPT-5.6的最强能力版本可能被限制访问（\"切脑\"）",
-        "此前Anthropic的Claude Mythos已因安全原因被限制出口",
-        "亚洲AI初创公司（如Z.ai的GLM-5.2）声称在网络安全任务上可媲美Mythos"
+        "美国政府要求OpenAI在GPT-5.6公开发布前30天提交审查",
+        "GPT-5.6的最强版本被限制访问，仅限内部研究",
+        "Anthropic的Fable 5因网络安全风险被下架",
+        "OpenAI表示自愿配合行政命令，但呼吁更明确的监管框架"
       ],
       "judgment": [
-        "监管收紧可能导致美国AI模型能力\"降级\"，影响开发者生态",
-        "亚洲替代模型可能借此抢占市场份额，尤其在企业级应用",
-        "OpenAI和Anthropic可能加速在海外（如日本、欧洲）部署模型以规避监管",
-        "安全审查标准不透明，开发者面临模型可用性不确定性"
+        "GPT-5.6的“阉割版”何时能面向公众？",
+        "Fable 5的回归版本会削弱多少能力？",
+        "中国AI公司是否会借此窗口期加速追赶？",
+        "监管是否会进一步扩展到开源模型？",
+        "开发者社区是否会抗议“降智”模型？"
       ],
-      "implication": "如果你在content-curator项目中依赖GPT或Claude API，需要关注模型版本变更对输出质量的影响。建议同时测试亚洲替代模型（如GLM-5.2）作为备选，避免因监管导致的API中断或能力降级。另外，关注开源模型的进展——监管收紧可能加速Llama等开源生态的采用。"
+      "implication": "你正在用Claude Code和Cursor做项目，短期内这些工具的能力可能不会受影响，但长期看，前沿模型的发布延迟可能影响你获取最新能力。建议关注Anthropic和OpenAI的合规动态，同时储备本地模型（如DeepSeek）作为备选。你的content-curator项目也可以考虑加入“模型可用性监控”功能。"
     },
     {
       "rank": 3,
-      "domain": "股票",
-      "id": "wscn:3775739",
-      "url": "https://wallstreetcn.com/articles/3775739",
-      "source": "华尔街见闻 API",
-      "stars": 5,
-      "title": "韩国史上最大产业投资：三星、SK海力士五年内DRAM产能翻倍，总投资800万亿韩元",
-      "lead": "韩国总统李在明宣布\"三大超级项目\"，三星与SK海力士将在西南部合建四座芯片工厂，目标五年内DRAM产能翻倍。AI数据中心领域投入更高达1000万亿韩元。消息一出，此前重挫的韩国股市迅速逆转，KOSDAQ大涨逾8%。",
+      "domain": "AI",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-chatgpt-5-6-gets-the-same-banhammer-treatment-as-anthropics-mythos-from-the-federal-government-source-says-that-washington-cautioned-openai-against-releasing-the-model-without-receiving-approval",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-chatgpt-5-6-gets-the-same-banhammer-treatment-as-anthropics-mythos-from-the-federal-government-source-says-that-washington-cautioned-openai-against-releasing-the-model-without-receiving-approval",
+      "source": "Jowi Morales",
+      "stars": 4,
+      "title": "存储三巨头遭美国集体诉讼：被控合谋削减DRAM产能，价格四年暴涨700%",
+      "lead": "三星、SK海力士、美光被指控以转型HBM为名，协同削减DDR3/DDR4产能，导致内存价格四年暴涨700%，直接推高苹果iPad和Mac售价。Jefferies预测内存高价将成新常态，三季度再涨40-50%。",
       "confirmed": [
-        "三星与SK海力士将在韩国西南部合建四座芯片工厂",
-        "总投资约800万亿韩元（约合4.4万亿元人民币）",
-        "目标五年内DRAM产能翻倍",
-        "AI数据中心领域另投入1000万亿韩元",
-        "韩国股市应声反弹，KOSDAQ大涨超8%"
+        "美国集体诉讼指控三星、SK海力士、美光合谋操纵DRAM价格",
+        "DDR3/DDR4价格四年内上涨700%",
+        "苹果iPad和Mac因内存成本上涨而提价",
+        "Jefferies预测三季度DRAM价格环比再涨40-50%"
       ],
       "judgment": [
-        "如此大规模投资能否按计划落地存在执行风险",
-        "产能翻倍后可能导致DRAM价格在2028年后大幅下跌",
-        "美国集体诉讼可能影响三星、SK海力士的财务灵活性",
-        "中国CXMT的崛起可能改变全球DRAM竞争格局"
+        "诉讼是否会达成和解或进入审判？",
+        "三巨头是否会调整产能策略以平息舆论？",
+        "中国DRAM厂商（长鑫存储）能否借此机会扩大市场份额？",
+        "苹果游说美国政府采购长鑫芯片的进展如何？",
+        "高价内存是否会抑制AI服务器需求？"
       ],
-      "implication": "存储芯片的供需格局正在剧烈变化。短期内存价格仍将高企，影响你搭建个人AI服务器的成本；但长期看，韩国扩产和国产替代可能带来价格拐点。建议你的content-curator项目优先使用云端API而非本地部署，以规避硬件成本波动。"
+      "implication": "你在做AI项目时，内存成本直接影响你的硬件预算。如果DRAM价格持续高企，考虑使用更便宜的DDR5替代方案，或关注国产长鑫存储的进展。另外，苹果游说采购长鑫芯片的消息值得跟踪——如果获批，可能改变DRAM市场格局。"
     },
     {
       "rank": 4,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on",
-      "source": "Kate Park",
-      "stars": 4,
-      "title": "亚洲AI初创集体推出Mythos级模型，Anthropic出口禁令反成催化剂",
-      "lead": "Anthropic的Claude Mythos因美国出口管制无法进入亚洲市场，反而催生了本土替代品的爆发。Z.ai（智谱）的GLM-5.2、DeepSeek等模型在多项基准上接近Mythos水平，且不受出口限制。美国AI实验室可能永远失去这个巨大市场。",
+      "domain": "AI",
+      "id": "wscn:3775739",
+      "url": "https://wallstreetcn.com/articles/3775739",
+      "source": "华尔街见闻",
+      "stars": 5,
+      "title": "韩国史上最大产业投资：三星、SK海力士五年内DRAM产能翻倍，AI数据中心投入1000万亿韩元",
+      "lead": "韩国总统李在明宣布“三大超级项目”：三星与SK海力士将在西南部合建四座芯片工厂，投资约800万亿韩元，目标五年内DRAM产能翻倍；AI数据中心领域投入高达1000万亿韩元。消息一出，KOSDAQ大涨逾8%。",
       "confirmed": [
-        "Z.ai（智谱AI）发布开源模型GLM-5.2，在网络安全任务上声称媲美Mythos",
-        "DeepSeek完成74亿美元融资，创始人梁文锋称受Claude刺激决定重仓AGI",
-        "亚洲多家AI初创推出Mythos级模型，不受美国出口管制",
-        "美国AI实验室因出口禁令可能永久失去亚洲市场份额"
+        "三星与SK海力士合建四座芯片工厂，总投资约800万亿韩元",
+        "目标五年内DRAM产能翻倍",
+        "AI数据中心领域投入1000万亿韩元",
+        "韩国股市应声大涨，KOSDAQ涨超8%"
       ],
       "judgment": [
-        "亚洲模型在推理、代码生成等任务上能否真正媲美Mythos仍需第三方评测",
-        "出口禁令可能加速亚洲AI生态独立，形成与美国平行的技术栈",
-        "开源模型（如GLM-5.2）可能成为亚洲开发者的首选",
-        "美国政策制定者面临放松管制或失去AI领导地位的两难"
+        "如此大规模投资是否会导致产能过剩？",
+        "美国是否会以国家安全为由限制韩国芯片出口？",
+        "中国半导体产业如何应对韩国产能扩张？",
+        "AI数据中心投资是否过于激进？",
+        "三星和SK海力士的HBM产能是否会同步扩张？"
       ],
-      "implication": "这对你的content-curator项目是重大利好——亚洲开源模型（如GLM-5.2）可能提供更低成本、无监管风险的替代方案。建议立即开始测试GLM-5.2在内容摘要、分类等任务上的表现，如果效果接近GPT-4，可以大幅降低你的API成本并规避政策风险。"
+      "implication": "这对你的AI项目是长期利好：DRAM产能翻倍有望在未来几年降低内存成本。但短期内，诉讼和投资计划的博弈可能导致价格波动。建议你关注三星和SK海力士的HBM产品线，它们直接影响AI训练卡的性能。另外，韩国股市的高波动性（年内5次熔断）提醒你注意投资风险。"
     },
     {
       "rank": 5,
@@ -104,130 +106,131 @@
       "source": "数字黑魔法",
       "stars": 4,
       "title": "我做AI Agent一年，90%在做表面功夫——直到我换了思路",
-      "lead": "一位AI Agent开发者分享了一年来的教训：大多数Agent项目停留在\"调API+套Prompt\"的表面功夫，真正的突破来自重新思考Agent架构——从工具调用转向状态机+子Agent编排。视频包含具体代码和架构图。",
+      "lead": "一位AI Agent开发者分享反思：一年来90%的工作是搭建花哨的界面和流程，但真正提升Agent智能的是底层数据质量和反馈循环。视频详细拆解了从“堆功能”到“优化数据飞轮”的转变过程。",
       "confirmed": [
-        "作者分享了一年AI Agent开发经验，指出90%项目停留在表面",
-        "核心突破来自从工具调用转向状态机+子Agent编排",
-        "视频包含具体代码示例和架构图",
-        "发布时间为2026年6月26日，属于最新内容"
+        "作者一年来90%时间花在UI和流程设计上",
+        "转向数据质量优化后，Agent性能提升显著",
+        "具体方法包括：改进训练数据标注、引入用户反馈闭环",
+        "推荐使用Claude Code的Skill功能来管理Agent行为"
       ],
       "judgment": [
-        "作者的架构方案是否适用于大规模生产环境待验证",
-        "状态机+子Agent模式可能增加系统复杂度",
-        "该方法与MCP、Agent Skill等新标准的兼容性未知"
+        "该方法是否适用于所有类型的Agent？",
+        "数据飞轮的成本是否过高？",
+        "是否有开源工具可以简化数据管理？",
+        "作者是否会开源其数据管道？"
       ],
-      "implication": "你正在构建content-curator Agent，这个视频直接相关。建议重点看作者如何从\"调API\"升级到\"状态机编排\"——这可能帮你避免重复造轮子。结合你熟悉的Claude Code和MCP，尝试将Agent拆分为多个子Agent（如采集、摘要、评分），用状态机管理流程，而不是写一个巨大的prompt。"
+      "implication": "你在做content-curator Agent时，这个视频的教训很关键：不要过早优化UI，先确保数据质量。建议你从简单的RAG管道开始，逐步加入用户反馈机制。视频中提到的Claude Code Skill功能也值得尝试——可以用它来封装你的Agent行为逻辑。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "AI编程Agent可被恶意GitHub仓库植入恶意软件——Mozilla 0din团队演示Claude Code漏洞",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/ai-coding-agents-can-be-tricked-into-installing-malware-via-clean-github-repositories-mozillas-0din-team-shows-how-claude-code-can-be-exploited-by-its-own-helpfulness",
-      "source": "Bruno Ferreira",
-      "one_liner": "安全风险提醒：如果你用Claude Code或Cursor自动初始化项目，攻击者可通过看似干净的GitHub仓库植入恶意代码。建议在Agent工作流中加入沙箱执行。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Onsemi以70亿美元全股票收购Synaptics，边缘AI硬件整合加速",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/onsemi-buying-cash-strapped-synaptics-in-usd7-billion-all-stock-deal-smart-power-meets-edge-ai-hardware",
-      "source": "Anton Shilov",
-      "one_liner": "功率半导体与边缘AI的结合信号，可能影响未来AI推理芯片的能效设计。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "IBM展示0.7nm芯片，目标5年内量产",
-      "url": "https://www.eetimes.com/ibm-shows-sub-1-nm-chips-targeting-production-in-5-years/",
-      "source": "Alan Patterson",
-      "one_liner": "1000亿晶体管、更密SRAM，但量产时间线较长，短期对AI硬件影响有限。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Intel Nova Lake 52核CPU功耗高达474W，需三个8-pin电源接口",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intels-next-gen-52-core-nova-lake-cpu-could-pull-up-to-474w-high-end-lga1954-motherboards-may-need-three-8-pin-power-connectors-to-feed-the-monster",
-      "source": "Kunal Khullar",
-      "one_liner": "桌面CPU功耗竞赛加剧，对个人AI工作站散热和电源提出更高要求。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "中国Loongson发布16核服务器CPU 3C3000，40W功耗瞄准SMB市场",
-      "url": "https://www.tomshardware.com/pc-components/cpus/chinas-loongson-launches-homegrown-16-core-server-cpu-built-on-loongarch-architecture-40w-chip-with-ddr4-ecc-and-32-pcie-lanes-targets-cheap-smb-file-database-and-web-servers",
-      "source": "Etiido Uko",
-      "one_liner": "国产替代在低端服务器领域取得进展，但性能与x86仍有差距，适合轻量级AI推理。"
-    },
-    {
-      "domain": "股票",
-      "title": "存储三巨头遭美国集体诉讼，被指控操纵DRAM价格",
-      "url": "https://wallstreetcn.com/articles/3775741",
-      "source": "华尔街见闻 API",
-      "one_liner": "诉讼可能改变DRAM定价机制，但短期内存价格仍将高位运行。"
-    },
-    {
-      "domain": "股票",
-      "title": "DeepSeek完成74亿美元融资，梁文锋称受Claude刺激重仓AGI",
-      "url": "https://wallstreetcn.com/articles/3775740",
-      "source": "华尔街见闻 API",
-      "one_liner": "中国AI融资热潮持续，DeepSeek将重点投入国产芯片适配和开源模型，值得关注其后续模型发布。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "快手可灵AI事业部获两位技术高管加入，或为上市做准备",
-      "url": "https://36kr.com/newsflashes/3873959791613185",
-      "source": "36氪",
-      "one_liner": "可灵AI在视频生成领域的商业化加速，可能成为快手第二增长曲线。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "三星宣布2655万亿韩元投资计划，含半导体、AI数据中心",
-      "url": "https://36kr.com/newsflashes/3873950707733767",
-      "source": "36氪",
-      "one_liner": "与韩国政府800万亿韩元芯片计划呼应，三星的AI基础设施投资规模空前。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Sand.ai获超亿美元融资，创始人曹越谈视频生成通往世界模型",
-      "url": "https://36kr.com/p/3873965241931014?f=rss",
-      "source": "36氪",
-      "one_liner": "视频生成赛道持续火热，Sand.ai的非共识路线（押注视频而非文本）值得关注。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "福特重新聘用退休工程师，承认AI未能达到预期",
-      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
-      "source": "Anthony Ha",
-      "one_liner": "AI在制造业的落地仍面临挑战，人类专家经验不可替代——对AI工程化有警示意义。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Apple Vision Pro高管离职加入OpenAI硬件团队",
-      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
-      "source": "Anthony Ha",
-      "one_liner": "人才从苹果流向OpenAI，暗示OpenAI可能在AR/硬件领域有重大布局。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "中国超级计算机LineShine登顶TOP500，超越El Capitan",
-      "url": "https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer",
-      "source": "Terrence O’Brien",
-      "one_liner": "尽管受贸易限制，中国在超算领域仍取得领先，对AI训练算力格局有潜在影响。"
-    },
-    {
       "domain": "AI",
-      "title": "Claude Code Workflow隐藏功能实战：UltraWork召唤多Agent协同",
-      "url": "http://www.bilibili.com/video/av116629702777532",
-      "source": "AI超元域",
-      "one_liner": "Claude Code未官宣的Workflow功能可编排多个子Agent，适合复杂项目，但可能被官方移除。"
-    },
-    {
-      "domain": "AI",
-      "title": "零基础Vibe Coding教程：Claude Code+Codex+Cursor实战",
+      "title": "零基础Vibe Coding教程，vibecoding实战，Claude Code+Codex+Cursor",
       "url": "http://www.bilibili.com/video/av116711944620974",
       "source": "尚硅谷",
-      "one_liner": "2026年6月9日发布的最新Vibe Coding教程，覆盖主流AI编程工具，适合快速上手。"
+      "one_liner": "尚硅谷出品的Vibe Coding实战教程，覆盖三大主流工具，适合快速上手，但内容偏基础，适合入门。"
+    },
+    {
+      "domain": "AI",
+      "title": "Claude Code 从 0 到 1 全攻略：MCP / SubAgent / Agent Skill / Hook / 图片 / 上下文处理/ 后台任务",
+      "url": "http://www.bilibili.com/video/av115954889596221",
+      "source": "马克的技术工作坊",
+      "one_liner": "Claude Code深度教程，涵盖MCP、SubAgent等高级功能，适合进阶用户，但发布时间较早（1月），部分内容可能过时。"
+    },
+    {
+      "domain": "AI",
+      "title": "MCP实战指南，mcp视频教程，2小时学透mcp",
+      "url": "http://www.bilibili.com/video/av114380213586544",
+      "source": "尚硅谷",
+      "one_liner": "MCP入门实战教程，2小时覆盖核心概念和SpringAI集成，适合快速掌握MCP基础。"
+    },
+    {
+      "domain": "AI",
+      "title": "【2026最新Codex】Codex保姆级完整教程",
+      "url": "http://www.bilibili.com/video/av116707129561197",
+      "source": "编程大佬陈悠秀",
+      "one_liner": "Codex最新教程，强调免费额度高、不限速，适合预算有限的开发者。"
+    },
+    {
+      "domain": "AI",
+      "title": "从夯到拉，锐评 32 个 AI 编程工具！",
+      "url": "http://www.bilibili.com/video/av116578532200786",
+      "source": "程序员鱼皮",
+      "one_liner": "32款AI编程工具横向评测，帮你快速选型，但内容偏主观，缺乏量化对比。"
+    },
+    {
+      "domain": "AI",
+      "title": "Claude Code Workflow功能完整实战教程",
+      "url": "http://www.bilibili.com/video/av116629702777532",
+      "source": "AI超元域",
+      "one_liner": "Claude Code隐藏Workflow功能揭秘，可召唤多个Agent协同，但功能未官宣，稳定性存疑。"
+    },
+    {
+      "domain": "AI",
+      "title": "中国卖家涌向拉美：高增长与合规门槛齐升",
+      "url": "https://36kr.com/p/3873539789034501?f=rss",
+      "source": "36氪",
+      "one_liner": "亚马逊推出“拉美速通计划”，中国卖家出海新方向，但合规门槛高，适合有长期投入意愿的卖家。"
+    },
+    {
+      "domain": "AI",
+      "title": "豆包回应“内测社交功能”传闻：没有该计划",
+      "url": "https://36kr.com/newsflashes/3873979081626631?f=rss",
+      "source": "36氪",
+      "one_liner": "字节跳动豆包否认社交功能计划，但飞书协同尝试值得关注。"
+    },
+    {
+      "domain": "AI",
+      "title": "消息称快手社科线两位技术高管转岗可灵事业部，或为上市做准备",
+      "url": "https://36kr.com/newsflashes/3873959791613185?f=rss",
+      "source": "36氪",
+      "one_liner": "快手可灵AI事业部人事调整，技术高管转岗或为独立上市铺路。"
+    },
+    {
+      "domain": "AI",
+      "title": "三星正式宣布2655万亿韩元的投资计划，涉及半导体、AI算力数据中心等",
+      "url": "https://36kr.com/newsflashes/3873950707733767?f=rss",
+      "source": "36氪",
+      "one_liner": "三星巨额投资计划细节公布，半导体和AI数据中心是重点，但执行风险高。"
+    },
+    {
+      "domain": "AI",
+      "title": "存储三巨头三星、海力士、美光遭美国集体诉讼，HBM转型被指操纵DRAM价格",
+      "url": "https://wallstreetcn.com/articles/3775741",
+      "source": "华尔街见闻",
+      "one_liner": "DRAM价格操纵诉讼升级，可能影响全球存储市场定价，但诉讼周期长，短期影响有限。"
+    },
+    {
+      "domain": "AI",
+      "title": "韩国重磅芯片计划支撑市场，韩股收复跌幅，SK海力士转涨",
+      "url": "https://wallstreetcn.com/articles/3775727",
+      "source": "华尔街见闻",
+      "one_liner": "韩国芯片投资计划提振市场，但高波动性提示风险，适合短线交易者。"
+    },
+    {
+      "domain": "AI",
+      "title": "功率半导体行业：AI算力与新能源双轮驱动，供给紧俏开启景气上行周期",
+      "url": "https://wallstreetcn.com/premium/articles/3775164?layout=wscn-layout",
+      "source": "华尔街见闻",
+      "one_liner": "功率半导体受益于AI和新能源，但国产替代空间大，适合长期关注。"
+    },
+    {
+      "domain": "AI",
+      "title": "Claude Mythos让梁文锋决定融资",
+      "url": "https://wallstreetcn.com/articles/3775740",
+      "source": "华尔街见闻",
+      "one_liner": "DeepSeek获74亿美元融资，梁文锋重仓AGI，国产芯片适配成关键，但研发空窗期风险高。"
+    },
+    {
+      "domain": "AI",
+      "title": "智平方完成50亿融资，估值升至200亿",
+      "url": "https://wallstreetcn.com/articles/3775735",
+      "source": "华尔街见闻",
+      "one_liner": "具身智能赛道火热，智平方融资加速，但商业化路径仍不清晰。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-06-29T08:52:08+0000"
+    "scored_at": "2026-06-29T09:52:27+0000"
   }
 }
