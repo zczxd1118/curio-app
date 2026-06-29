@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-06-28T07:07:57.588794+00:00",
+  "fetched_at": "2026-06-29T08:21:57.424096+00:00",
   "platforms": [
     "rss"
   ],
@@ -10,7 +10,7 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 20,
-    "arXiv q-fin（量化金融论文）": 0,
+    "arXiv q-fin（量化金融论文）": 16,
     "HN · Federal Reserve": 0,
     "HN · inflation": 0,
     "HN · Tesla": 0,
@@ -18,7 +18,7 @@
     "HN · fed": 0
   },
   "subtopics": [],
-  "total": 50,
+  "total": 66,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/summer-vibes/",
@@ -531,25 +531,80 @@
       "lang": "en"
     },
     {
-      "id": "wscn:3775694",
-      "title": "算力告急：谷歌悄然对Meta实施Gemini使用上限",
-      "url": "https://wallstreetcn.com/articles/3775694",
-      "summary": "全球AI算力告急！因不堪负荷，谷歌被迫对巨头Meta实施算力限流，致其多个项目延误。这场风波不仅逼迫谷歌急向SpaceX租借算力救场，更倒逼Meta加速转向自研模型。AI推理算力争夺战已全面白热化！",
+      "id": "wscn:3775751",
+      "title": "苹果，向长鑫投下一张信任票？",
+      "url": "https://wallstreetcn.com/articles/3775751",
+      "summary": "花旗认为，无论美国政府审批结果如何，苹果此举已将长鑫存储从\"国产替代\"重新定义为\"全球第四大可信赖DRAM制造商\"。而且这张\"信任票\"正沿供应链传导，封测及设备领域有望迎来估值重估。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-28T06:57:01+00:00",
+      "published_at": "2026-06-29T07:56:12+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775691",
-      "title": "利率破 5，黄金崩？长江证券想证明：加息未必利空黄金",
-      "url": "https://wallstreetcn.com/articles/3775691",
-      "summary": "“利率破5，黄金必崩”已成历史偏见！在史无前例的“高债务+高利率”共振下，美国巨额利息支出首超国防预算。黄金定价正从“机会成本”向“信用替代”颠覆性切换，高利率持续反噬美元信用，系统性强化黄金中期配置价值。",
+      "id": "wscn:3775737",
+      "title": "Switch交换芯片：AI组网革新的\"第三核心硬件\"，国产替代能否破局？",
+      "url": "https://wallstreetcn.com/premium/articles/3775737?layout=wscn-layout",
+      "summary": "全球以太网交换机市场收入达551亿美元，同比增长31.5%，其中数据中心交换机收入达325亿美元，同比增长53.5%。AI训练与推理对超低延迟、高带宽互联的需求急剧上升，正直接带动Switch产品量价齐升。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-28T06:40:49+00:00",
+      "published_at": "2026-06-29T07:50:32+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775752",
+      "title": "宇树验证一个新趋势：具身智能的核心战场，不只是模型",
+      "url": "https://wallstreetcn.com/articles/3775752",
+      "summary": "具身智能告别“唯模型论”！宇树无遥操落地与NXP架构释放明确信号：竞争壁垒正转向软硬协同、边缘控制与实体数据。掌控全栈能力的玩家，正构筑纯云端难以逾越的超级护城河。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-29T07:43:04+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775754",
+      "title": "央行公告：首次3000亿元落地！",
+      "url": "https://wallstreetcn.com/articles/3775754",
+      "summary": "6月29日，央行首次开展3000亿元隔夜逆回购操作，同步开展1575亿元7天期逆回购，以应对半年末跨季流动性压力。此举既是精准\"削峰填谷\"的短期应对，也是货币政策框架转型的重要举措——隔夜逆回购从临时工具升级为常规品种，与7天期形成期限搭配，有助于完善短端利率调控机制。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-29T07:33:13+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775753",
+      "title": "GPT5.6惨遭切脑！Fable 5回归要变弱鸡版？",
+      "url": "https://wallstreetcn.com/articles/3775753",
+      "summary": "受AI安全监管影响，两大顶尖模型双双受限：GPT-5.6被迫拆分，最强版被限制访问，惨遭“切脑”；Fable 5因暴露网络攻击风险遭下架，预计将以加固护栏的“阉割版”回归。开发者担忧，严苛审查将导致AI模型严重降智，并面临重重使用限制。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-29T07:30:46+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775749",
+      "title": "地震冲击委内瑞拉能源基础设施：最大炼油厂因停电停产",
+      "url": "https://wallstreetcn.com/articles/3775749",
+      "summary": "委内瑞拉强震造成重大伤亡，并严重冲击该国能源系统。最大炼油厂阿穆艾及另一重要炼油厂因断电、缺水被迫停产，国内燃油及石化产品供应面临严峻挑战。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-29T07:26:57+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3775744",
+      "title": "美团王兴再谈AI投资 称不超财务能力盲目投入",
+      "url": "https://wallstreetcn.com/articles/3775744",
+      "summary": "“还没看到爆发性的结果”",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-06-29T07:26:43+00:00",
       "points": 0
     },
     {
@@ -560,128 +615,106 @@
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-28T05:18:51+00:00",
+      "published_at": "2026-06-29T07:26:22+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775689",
-      "title": "美联储的集权式改革以及沃什的阳谋",
-      "url": "https://wallstreetcn.com/articles/3775689",
-      "summary": "美联储正掀起隐秘的集权风暴！新主席沃什悄然将货币框架转至“稀缺准备金”，近期短端收益率正挂实为资金缺口而非加息预期。此举不仅彻底铲除点阵图根基，更令“资金投放量”重夺定价权。抛弃旧历，紧盯美联储的实际操作才是当下破局关键！",
+      "id": "wscn:3775745",
+      "title": "极端天气成AI数据中心新威胁：险企、运营商同时拉响警报",
+      "url": "https://wallstreetcn.com/articles/3775745",
+      "summary": "AI基建狂飙正遭极端天气“背刺”！全球近八成数据中心面临气候威胁，已跃升为相关保险首要损失来源。高温与高能耗危机正倒逼险企重新定价，并迫使微软、英伟达等巨头加速冷却技术重构，气候风险正全面重塑AI底层逻辑。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-28T04:31:07+00:00",
+      "published_at": "2026-06-29T06:51:42+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775688",
-      "title": "“战略模糊”、“数据驱动”！沃什要做格林斯潘？那“看跌期权”要学吗？",
-      "url": "https://wallstreetcn.com/articles/3775688",
-      "summary": "美联储新帅沃什全面致敬格林斯潘，重拾“战略模糊”与数据驱动，为市场复刻昔日暴涨繁荣打开想象空间。但暗礁已现：他能否在缔造高增长、低通胀奇迹的同时，避开资产泡沫，并亲手击碎“美联储兜底股市”的危险幻觉？",
+      "id": "wscn:3775741",
+      "title": "存储三巨头三星、海力士、美光遭美国集体诉讼，HBM转型被指操纵DRAM价格",
+      "url": "https://wallstreetcn.com/articles/3775741",
+      "summary": "原告指控三星、SK海力士与美光以转型HBM为名，协同削减DDR3、DDR4等传统DRAM产能，致价格四年内暴涨700%，直接引发苹果iPad和Mac提价。Jefferies预测内存高价将成新常态，三季度环比再涨40%至50%，高位或延续至2028年。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-28T04:11:40+00:00",
+      "published_at": "2026-06-29T06:41:22+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775687",
-      "title": "7月美联储决议前，沃什有两次\"重要亮相\"，下周是第一次！",
-      "url": "https://wallstreetcn.com/articles/3775687",
-      "summary": "美联储新主席沃什的政策底牌仍是“黑箱”！下周他将迎来海外首秀，与欧英加三大央行巨头同台。面对强劲非农或再燃加息预期及AI过热风险，这场巅峰对话将是市场拿着放大镜“解码”美联储利率路径的最关键窗口。",
+      "id": "wscn:3775727",
+      "title": "韩国重磅芯片计划支撑市场，韩股收复跌幅，SK海力士转涨，油价一度回到70上方",
+      "url": "https://wallstreetcn.com/articles/3775727",
+      "summary": "韩国政府宣布将在西南部建设四座芯片厂，总投资约800万亿韩元。Kospi应声由跌转涨，SK海力士此前一度下跌近6%后也随之收复失地。标普500指数期货和纳斯达克100指数期货均上涨至少0.7%，欧洲股指期货同步走高。布伦特原油则抹去早间涨幅，转为基本持平，报每桶约72美元。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-28T02:42:34+00:00",
+      "published_at": "2026-06-29T06:11:12+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775686",
-      "title": "下周重磅日程：美国非农、中国PMI、沃什出席欧洲央行论坛，半导体“7月涨价潮”",
-      "url": "https://wallstreetcn.com/articles/3775686",
-      "summary": "下周宏观焦点集中于美国6月非农报告与中国官方PMI，数据将直接关乎美联储加息预期与中国制造业增长成色。事件方面，欧洲央行年度论坛汇聚沃什、拉加德等全球央行舵手，货币政策信号密集。产业端，三星计划宣布历史性的1000万亿韩元本土投资计划，AI需求驱动全球半导体涨价潮7月全面引爆，村田、英飞凌等十余家企业集体提价。",
+      "id": "wscn:3775739",
+      "title": "韩国史上最大规模产业投资计划！五年内DRAM产能翻倍，三星、SK海力士各新建两座芯片厂",
+      "url": "https://wallstreetcn.com/articles/3775739",
+      "summary": "韩国总统李在明宣布\"三大超级项目\"：三星与SK海力士将在西南部合建四座芯片工厂，投资规模约800万亿韩元，目标五年内DRAM产能翻倍；AI数据中心领域投入更高达1000万亿韩元。消息一出，此前重挫的韩国股市迅速逆转，KOSDAQ大涨逾8%。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-28T02:26:17+00:00",
+      "published_at": "2026-06-29T06:07:05+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775684",
-      "title": "欧洲遭遇史上最严酷热浪，空调卖爆了，美的PortaSlit“二手价格超过新机”",
-      "url": "https://wallstreetcn.com/articles/3775684",
-      "summary": "极端高温暴露欧洲基建短板，亚洲家电巨头狂揽“气候红利”。美的PortaSlit凭借精准规避严苛法规的免安装设计，强势击穿欧洲制冷市场壁垒。",
+      "id": "wscn:3775164",
+      "title": "功率半导体行业：AI算力与新能源双轮驱动，供给紧俏开启景气上行周期",
+      "url": "https://wallstreetcn.com/premium/articles/3775164?layout=wscn-layout",
+      "summary": "AI算力+新能源+供给收缩，功率半导体迎来新一轮上行周期。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-28T02:00:09+00:00",
+      "published_at": "2026-06-29T06:04:06+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775585",
-      "title": "“K型分化”时代启幕：中国楼市的复苏，不再是一条直线",
-      "url": "https://wallstreetcn.com/premium/articles/3775585?layout=wscn-layout",
-      "summary": "中国地产市场进入K型分化时代。",
+      "id": "wscn:3775742",
+      "title": "韩国股市绑架日本？高盛警告：“北亚半导体联合体”正在放大AI交易风险",
+      "url": "https://wallstreetcn.com/articles/3775742",
+      "summary": "年内5次熔断！韩国股市正沦为高杠杆“踩踏温床”。高盛警告，日韩股市已异化为深度绑定的“北亚半导体联合体”。如今买日股，实则是买首尔内存周期的高危门票。AI硬件底盘虽稳，但极端波动已成新常态。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-28T01:47:37+00:00",
+      "published_at": "2026-06-29T06:03:50+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775685",
-      "title": "什么导致本周市场大动荡？高盛合伙人：不是沃什，而是AI再平衡",
-      "url": "https://wallstreetcn.com/articles/3775685",
-      "summary": "“目前仍是股市在驱动宏观，而非宏观在驱动股市”。这场波动并非AI投资周期终结的信号——\"我们仍处于一场历史性投资热潮的进行之中\"——但市场对这轮热潮中净赢家与净输家的判断，正在经历一次深层次的重估。",
+      "id": "wscn:3775723",
+      "title": "创业板午后拉升翻红，创新药大爆发，科技股集体调整，恒科指暴涨近4%，科网股集体反攻",
+      "url": "https://wallstreetcn.com/articles/3775723",
+      "summary": "盘面上，个股跌多涨少，沪深京三市超3500股飘绿，上午半天成交2.52万亿。沪深两市半日成交额2.5万亿，较上个交易日放量不足800亿。板块方面，医药生物板块爆发，创新药、CRO方向领涨。晶圆产业、白酒、大基建、煤炭、黄金、氟化工题材走强。算力硬件产业链下挫，PCB、CPO方向大跌。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-28T01:35:23+00:00",
+      "published_at": "2026-06-29T06:01:38+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775683",
-      "title": "特朗普威胁：伊朗或将不复存在；美军连续第二天空袭伊朗，伊朗革命卫队威胁对美军基地发起“地狱”式打击",
-      "url": "https://wallstreetcn.com/articles/3775683",
-      "summary": "中东地缘风暴升级！特朗普强硬警告“伊朗或将不复存在”，美军连续两天空袭伊朗，霍尔木兹海峡能源动脉拉响警报。同时，以黎停火框架遭真主党强烈抵制。中东火药桶一触即发，全球市场避险情绪或再迎巨震！",
+      "id": "wscn:3775740",
+      "title": "Claude Mythos让梁文锋决定融资",
+      "url": "https://wallstreetcn.com/articles/3775740",
+      "summary": "受Claude刺激，DeepSeek完成74亿美元巨额融资，创始人梁文锋狂砸200亿重仓AGI！公司团队招人翻倍并全力死磕国产芯片。无惧15个月研发空窗期，其开源模型凭借极致性价比，在美单月市场份额狂飙至17%。一场打破AI垄断的硬核突围战已全面打响！",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-28T00:40:02+00:00",
+      "published_at": "2026-06-29T05:43:09+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775485",
-      "title": "mSAP大分歧：精密线路\"最后的堡垒\"，15微米能否重构450亿美元PCB产业链条？",
-      "url": "https://wallstreetcn.com/premium/articles/3775485?layout=wscn-layout",
-      "summary": "mSAP工艺已不仅是一项改良技术,而是半导体后道再分布层(RDL)与高端硬件主板融合的核心咽喉。",
+      "id": "wscn:3775738",
+      "title": "“豆包手机”获得半年豆包会员 尝试软件补贴硬件",
+      "url": "https://wallstreetcn.com/articles/3775738",
+      "summary": "软硬绑定。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-28T00:01:14+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3775582",
-      "title": "逼近40年低点！日元跌向162，美日是否会联合干预？",
-      "url": "https://wallstreetcn.com/premium/articles/3775582?layout=wscn-layout",
-      "summary": "日元逼近162干预红线，美日联合干预预期升温，但利差未改，汇率中长期仍面临贬值压力。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-27T23:59:50+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3775504",
-      "title": "钽：AI敞口最大、上涨斜率最陡战略稀有金属，年内为何大涨超150%？",
-      "url": "https://wallstreetcn.com/premium/articles/3775504?layout=wscn-layout",
-      "summary": "2026年，全球钽精矿价格从不到80美元/磅飙升至257.5美元/磅，年内涨幅超150%。这轮暴涨的底层驱动力来自一个历史性的供需错配。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-27T23:51:35+00:00",
+      "published_at": "2026-06-29T05:15:42+00:00",
       "points": 0
     },
     {
@@ -692,63 +725,302 @@
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-27T14:09:00+00:00",
+      "published_at": "2026-06-29T03:53:19+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775681",
-      "title": "东鹏饮料回应网络不实传言：相关视频系凭空捏造，已报警追责",
-      "url": "https://wallstreetcn.com/articles/3775681",
-      "summary": "6月27日，东鹏饮料发布《关于网络不实谣言的澄清声明》，回应近期围绕公司的网络传言。\n东鹏饮料在声明...",
+      "id": "wscn:3775735",
+      "title": "智平方完成50亿融资，估值升至200亿",
+      "url": "https://wallstreetcn.com/articles/3775735",
+      "summary": "加速推进“机器人大脑”的迭代升级与规模化量产进程",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-27T11:59:45+00:00",
+      "published_at": "2026-06-29T03:45:00+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775680",
-      "title": "下半年美元指数何去何从",
-      "url": "https://wallstreetcn.com/articles/3775680",
-      "summary": "信达证券认为，全球流动性已触及紧缩区间，地缘冲突推升通胀驱动多国央行转向收紧。历史显示美联储加息周期中美元指数多呈震荡。下半年中东局势缓和或缓解油价压力，美联储加息动力减弱，美元或步入宽幅震荡阶段。",
+      "id": "wscn:3775734",
+      "title": "油价跌至战前水平，美元利率为何不跟？",
+      "url": "https://wallstreetcn.com/articles/3775734",
+      "summary": "美伊达成协议以来，国际两油价格已不知不觉逼近3月初水平，超出市场预期。然而1Y SOFR却自5月以来逆势走高，美国强劲基本面叠加鹰派新主席沃什的不确定性溢价，令美元利率对油价“跟涨不跟跌”，短端利率大跌或只能等CPI破3%或美股崩盘。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-06-27T11:43:10+00:00",
+      "published_at": "2026-06-29T03:41:07+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3775678",
-      "title": "铜价走到哪了？",
-      "url": "https://wallstreetcn.com/articles/3775678",
-      "summary": "招商宏观认为，铜正从“铜博士”蜕变为战略资源：AI算力与能源转型引爆需求，全球供给受资源集中、开发周期长等令铜市场持续偏紧。短期看，全球逾10家央行已启动加息，流动性边际收紧压制铜价上移空间。但以3—5年维度审视，若29—30年全球步入新一轮康波周期，铜价中枢上行仍值得期待。",
-      "source": "华尔街见闻 API",
+      "id": "rss:https://arxiv.org/abs/2606.27525",
+      "title": "Measuring Racial Disparities in Rent Growth Under Algorithmic Landlord Concentration in U.S. Metros",
+      "url": "https://arxiv.org/abs/2606.27525",
       "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-27T10:56:18+00:00",
-      "points": 0
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Advay Ranade",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2606.27525v1 Announce Type: new Abstract: The 2024 Department of Justice antitrust complaint against RealPage, Inc. named five major residential REITs for coordinating algorithmic rent pricing across hundreds of thousands of apartment units in major US metropolitan areas. This paper studies whether census-tract-level corporate landlord concentration (CLC), measured from SEC EDGAR 10-K property filings geocoded to census tracts, the first such application in the literature, is associated wi...",
+      "lang": "en"
     },
     {
-      "id": "wscn:3775679",
-      "title": "美伊交火击碎停火幻象！伊革命卫队实质打击美军据点，霍尔木兹海峡“法理争夺”推升能源断航溢价",
-      "url": "https://wallstreetcn.com/articles/3775679",
-      "summary": "美伊再度交火：伊朗6月25日以无人机袭击一艘新加坡籍商船，美军26日随即空袭伊朗锡里克地区，伊朗革命卫队随后宣布打击美军在中东多处据点。这是美伊签署谅解备忘录后首次互相动武。双方围绕“谁先违约”展开激烈交锋。冲突升级直接推升霍尔木兹海峡断航风险溢价，对原油、航运及避险资产定价构成压力。",
-      "source": "华尔街见闻 API",
+      "id": "rss:https://arxiv.org/abs/2606.27804",
+      "title": "Methods for Uncertainty Representation in Risk Management: A Comparative Review and Decision-Oriented Framework",
+      "url": "https://arxiv.org/abs/2606.27804",
       "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-27T09:26:10+00:00",
-      "points": 0
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Albert Kutej, Stefan Rass",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2606.27804v1 Announce Type: new Abstract: The consideration of uncertainty is a central but frequently inadequately addressed component of risk management. A systematic treatment of uncertainty is essential for ensuring the quality and traceability of decision-making processes, particularly in complex and safety-critical environments. This review systematically analyzes how established risk management approaches conceptualize and represent uncertainty in both their theoretical foundations ...",
+      "lang": "en"
     },
     {
-      "id": "wscn:3775674",
-      "title": "英伟达AI版图再扩张！数据中心以太网交换机收入暴增193%，悄然登顶全球第一",
-      "url": "https://wallstreetcn.com/articles/3775674",
-      "summary": "数据显示，英伟达在Q1 2026首次登顶全球数据中心以太网交换机市场，季度营收21亿美元，同比暴增192.7%，市场份额达21.5%。这是一个传统上由博通、思科等网络巨头主导的领域。而英伟达的核心驱动力是其Spectrum-X平台——专为大规模GPU集群设计的端到端网络方案。",
-      "source": "华尔街见闻 API",
+      "id": "rss:https://arxiv.org/abs/2606.27845",
+      "title": "LLM Agents as Static Level-k Players in Behavioural Games",
+      "url": "https://arxiv.org/abs/2606.27845",
       "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-06-27T09:05:20+00:00",
-      "points": 0
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Po Han Teo",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2606.27845v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly used as stand-ins in behavioural games. These stand-ins rely on the assumption that the LLM's distribution of choices meaningfully matches how humans play the same game. This study tests that assumption through two games. The first is a p-beauty contest, and the second one is a public goods game. The study first investigates five local-model settings within the same model family. These settings are vari...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.27924",
+      "title": "Heterogeneous Diffusion of Electric Vehicles in China: Demand, Learning, Product Entry, and the Incidence of Industrial Policy",
+      "url": "https://arxiv.org/abs/2606.27924",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Yu (Jasmine), Hao, Jinge Li",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2606.27924v1 Announce Type: new Abstract: China's electric-vehicle (EV) sales share rose from about 1% in 2015 to roughly 45% in 2024. We evaluate this technology transition with an equilibrium differentiated-products model of the Chinese auto market, and quantify both its attribution and its welfare and reallocation consequences. Every yuan of 2024 EV subsidy delivered about 3.38 yuan of private surplus, but this surplus accrued asymmetrically. Per-capita consumer-surplus loss from subsid...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.27932",
+      "title": "(In)Efficient Market States and Rough Volatility Detected via Grunwald-Letnikov Fractional Derivative",
+      "url": "https://arxiv.org/abs/2606.27932",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Daniele Angelini",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2606.27932v1 Announce Type: new Abstract: Testing self-similarity in fractional processes from a single observed trajectory is difficult under long-range dependence, because the associated Kolmogorov--Smirnov (KS) statistic undergoes a phase transition when $H>1/2$. In this regime, the classical limit collapses to a non-functional absolute Gaussian law and finite-sample convergence becomes severely distorted. This paper introduces a regime-adaptive KS/GL--KS framework based on the discrete...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.28063",
+      "title": "How to deal with machine learning bias in economic history",
+      "url": "https://arxiv.org/abs/2606.28063",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Torben S. D. Johansen, Julius Koschnick, Christian Vedel",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2606.28063v1 Announce Type: new Abstract: Machine learning (ML) has rapidly transformed economic history, lowering costs of digitization, data linkage, and imputation, and making information in historical text usable at scale. This paper offers a practical guide to using these tools well. However, ML tools have also created new problems. Prediction errors are often systematically correlated with covariates of interest, so even highly accurate models can distort and sometimes reverse coeffi...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.28312",
+      "title": "Optimal Deployment of Electric Aircraft for Canadian Domestic Flights",
+      "url": "https://arxiv.org/abs/2606.28312",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Elham Soufiani, Mehrdad Pirnia",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2606.28312v1 Announce Type: new Abstract: This paper presents a multi-period mixed-integer linear programming (MILP) framework for planning the transition from conventional to electric aircraft in regional aviation. The model jointly optimizes fleet acquisition, infrastructure deployment, and service allocation over time, while accounting for policy constraints such as emissions reduction targets, electric service share, and budget limits. A real-world case study based on Helijet's short-h...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.27462",
+      "title": "The Decision Geometry of Covariance Estimation for the Global Minimum-Variance Portfolio under Heavy Tails",
+      "url": "https://arxiv.org/abs/2606.27462",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Xavier Fonseca",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2606.27462v1 Announce Type: cross Abstract: The global minimum-variance portfolio (GMVP) is the canonical decision built from an estimated covariance matrix, yet covariance estimators are universally evaluated by matrix-norm loss, which is not the object the decision depends on. We characterise exactly how covariance-estimation error maps into GMVP suboptimality. We prove an exact regret identity and a non-asymptotic bound showing decision regret depends on the estimation error only throug...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.27670",
+      "title": "CryptoGAT: Are Time Series Models Effective for Cryptocurrency Forecasting?",
+      "url": "https://arxiv.org/abs/2606.27670",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Yu Peng, Matloob Khushi, Josiah Poon",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2606.27670v1 Announce Type: cross Abstract: Cryptocurrency price prediction is a significant challenge in quantitative investment. In recent years, time series models have made significant progress in financial forecasting tasks, especially in the stock market. Despite the growing performance over the past few years, we question the validity of this line of research in cryptocurrency prediction. Specifically, time series models (e.g., LSTM, GRU, and Transformers) are effective at extractin...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2512.18342",
+      "title": "The Emergency-Care Consequences of Disrupted Prevention: Evidence from Mammography Screening Pathway",
+      "url": "https://arxiv.org/abs/2512.18342",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Moslem Rashidi, Luke B. Connelly, Gianluca Fiorentini",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2512.18342v5 Announce Type: replace Abstract: Do disruptions to organized preventive-care pathways increase the likelihood of downstream overnight emergency hospitalizations? We study this question using the COVID-19 pandemic as a natural experiment. Using SHARE Wave~9 data on women aged 50--69 in eight European countries, we instrument for mammography uptake -- an observable indicator of access to organized preventive-care pathways -- with the interaction between country-level pandemic re...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2601.10517",
+      "title": "From rough to multifractal multidimensional volatility: A multidimensional Log S-fBM model",
+      "url": "https://arxiv.org/abs/2601.10517",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Othmane Zarhali, Emmanuel Bacry, Jean-Fran\\c{c}ois Muzy",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2601.10517v2 Announce Type: replace Abstract: We introduce the multivariate Log S-fBM model (mLog S-fBM), extending the univariate framework proposed by Wu \\textit{et al.} to the multidimensional setting. We define the multidimensional Stationary fractional Brownian motion (mS-fBM), characterized by marginals following S-fBM dynamics and a specific cross-covariance structure. It is parametrized by a correlation scale $T$, marginal-specific intermittency parameters and Hurst exponents, as w...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.23596",
+      "title": "Anatomy of the Market: A Body-Tail Test of Factor Models",
+      "url": "https://arxiv.org/abs/2606.23596",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Useong Shin",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2606.23596v3 Announce Type: replace Abstract: In an ideal stochastic discount factor, zero pricing errors and the maximum Sharpe ratio coincide; in a low-dimensional approximation they need not. I study this separation by decomposing an investible CRSP market portfolio into dynamic value-weighted body and tail legs that recombine to the market return. All models pass the aggregate benchmark, and the recombination identity does not require zero leg alphas. Yet the identity holds for every m...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.26731",
+      "title": "Robust Hedging Valuation Adjustment under Liquidity--Demand Stress",
+      "url": "https://arxiv.org/abs/2606.26731",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Takayuki Sakuma",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2606.26731v2 Announce Type: replace Abstract: This paper develops a robust hedging valuation adjustment (HVA) measure for dynamic hedging. Simulated rebalancing and maturity-unwind trades generate a loss distribution for each no-trade-band rule, and we define robust HVA as the worst-case expected loss over a relative-entropy neighborhood of that distribution. Because band width affects turnover, the same relative-entropy radius applied to different bands can imply different levels of deman...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2308.05201",
+      "title": "\"Generate\" the Future of Work through AI: Empirical Evidence from Online Labor Markets",
+      "url": "https://arxiv.org/abs/2308.05201",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Jin Liu, Xingchen Xu, Xi Nan, Yongjun Li, Yong Tan",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2308.05201v4 Announce Type: replace-cross Abstract: Large Language Model (LLM)-based generative AI systems are general-purpose tools capable of augmenting or even automating a wide range of job functions, positioning them to reshape labor market dynamics. However, predicting their precise impact a priori is challenging, given AI's simultaneous effects on both demand and supply, as well as the strategic responses of market participants. Leveraging an extensive dataset from a leading online ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2412.18032",
+      "title": "Major Space Weather Risks Identified via Coupled Physics-Engineering-Economic Modeling",
+      "url": "https://arxiv.org/abs/2412.18032",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Edward J. Oughton, Dennies K. Bor, Robert Weigel, C. Trevor Gaunt, Ridvan Dogan, Liling Huang, Jeffrey J. Love, Michael Wiltberger",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2412.18032v3 Announce Type: replace-cross Abstract: Space weather poses an important but under-quantified threat to society. While severe geomagnetic storms are recognized as potential global catastrophes, their socio-economic impacts remain poorly quantified. We present a novel physics-engineering-economic framework that links geophysical drivers to power grid geoelectric fields, transformer vulnerability, and macroeconomic consequences. Using the United States as an example, we estimate ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2602.16862",
+      "title": "Action-Space Entropy Regularization in Bayesian Markowitz",
+      "url": "https://arxiv.org/abs/2602.16862",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Andy Au",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T04:00:00+00:00",
+      "summary": "arXiv:2602.16862v4 Announce Type: replace-cross Abstract: We solve the entropy-regularized mean--variance portfolio problem under Bayesian drift uncertainty. We combine continuous-time Bayesian filtering with stochastic policy optimization; the main finding is negative: the two mechanisms are orthogonal. Posterior dynamics are policy-independent, so entropy regularization cannot accelerate learning about the unknown drift. The mean control is identical to the deterministic Bayesian Markowitz fee...",
+      "lang": "en"
     }
   ]
 }

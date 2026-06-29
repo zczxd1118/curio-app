@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-28T07:08:02.915340+00:00",
+  "fetched_at": "2026-06-29T08:22:02.321591+00:00",
   "platforms": [
     "rss"
   ],
@@ -188,6 +188,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/satvu-targets-industrial-intelligence-with-thermal-imaging/",
+      "title": "SatVu Targets Industrial Intelligence with Thermal Imaging",
+      "url": "https://www.eetimes.com/satvu-targets-industrial-intelligence-with-thermal-imaging/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Rebecca Pool",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T07:20:00+00:00",
+      "summary": "With HotSat-2 in orbit and fresh funding, U.K. startup SatVu is demonstrating how high-resolution thermal satellite data can reveal real-world industrial activity. The post SatVu Targets Industrial Intelligence with Thermal Imaging appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/synaptics-acquisition-by-onsemi-affirms-edge-ai-is-for-real/",
       "title": "Synaptics Acquisition by Onsemi Affirms Edge AI Is for Real",
       "url": "https://www.eetimes.com/synaptics-acquisition-by-onsemi-affirms-edge-ai-is-for-real/",
@@ -338,23 +355,6 @@
       "views": null,
       "published_at": "2026-06-24T22:14:58+00:00",
       "summary": "Cheap, autonomous drones developed in Ukraine are driving a new era of drone-on-drone warfare. The post The Rise of Autonomous Drone Warfare appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/deep-uv-lithography-processing-the-best-kept-secret-of-euv-lithography/",
-      "title": "Deep UV Lithography Processing, the Best Kept Secret of EUV Lithography",
-      "url": "https://www.eetimes.com/deep-uv-lithography-processing-the-best-kept-secret-of-euv-lithography/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Drew Chambers",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-24T15:35:14+00:00",
-      "summary": "EUV grabs the glory, but DUV does the dirty work that keeps advanced chips alive. The post Deep UV Lithography Processing, the Best Kept Secret of EUV Lithography appeared first on EE Times.",
       "lang": "en"
     }
   ]

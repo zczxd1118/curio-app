@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-06-28T07:07:28.020556+00:00",
+  "fetched_at": "2026-06-29T08:21:19.558246+00:00",
   "platforms": [
     "rss"
   ],
@@ -196,6 +196,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/satvu-targets-industrial-intelligence-with-thermal-imaging/",
+      "title": "SatVu Targets Industrial Intelligence with Thermal Imaging",
+      "url": "https://www.eetimes.com/satvu-targets-industrial-intelligence-with-thermal-imaging/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Rebecca Pool",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T07:20:00+00:00",
+      "summary": "With HotSat-2 in orbit and fresh funding, U.K. startup SatVu is demonstrating how high-resolution thermal satellite data can reveal real-world industrial activity. The post SatVu Targets Industrial Intelligence with Thermal Imaging appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/synaptics-acquisition-by-onsemi-affirms-edge-ai-is-for-real/",
       "title": "Synaptics Acquisition by Onsemi Affirms Edge AI Is for Real",
       "url": "https://www.eetimes.com/synaptics-acquisition-by-onsemi-affirms-edge-ai-is-for-real/",
@@ -349,20 +366,139 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/deep-uv-lithography-processing-the-best-kept-secret-of-euv-lithography/",
-      "title": "Deep UV Lithography Processing, the Best Kept Secret of EUV Lithography",
-      "url": "https://www.eetimes.com/deep-uv-lithography-processing-the-best-kept-secret-of-euv-lithography/",
+      "id": "rss:https://www.tomshardware.com/pc-components/pnys-performance-32gb-ddr5-5600-ram-becomes-the-cheapest-2x16gb-kit-ddr5-kit-gets-a-usd70-discount",
+      "title": "PNY's Performance 32GB DDR5-5600 RAM becomes the cheapest 2x16GB kit— DDR5 kit gets a $70 discount",
+      "url": "https://www.tomshardware.com/pc-components/pnys-performance-32gb-ddr5-5600-ram-becomes-the-cheapest-2x16gb-kit-ddr5-kit-gets-a-usd70-discount",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Drew Chambers",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-24T15:35:14+00:00",
-      "summary": "EUV grabs the glory, but DUV does the dirty work that keeps advanced chips alive. The post Deep UV Lithography Processing, the Best Kept Secret of EUV Lithography appeared first on EE Times.",
+      "published_at": "2026-06-28T14:32:37+00:00",
+      "summary": "This 32GB DDR5 memory kit won't impress enthusiasts with its timings or design, but its aggressive price makes it difficult to overlook.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ram/lenovo-says-the-ramageddon-is-the-new-normal-outlines-survival-guide-at-isc-2026-an-exec-said-it-will-never-be-like-it-was-last-year",
+      "title": "Lenovo says the 'RAMageddon' is the new normal, outlines survival guide — at ISC 2026 an exec said 'it will never be like it was last year'",
+      "url": "https://www.tomshardware.com/pc-components/ram/lenovo-says-the-ramageddon-is-the-new-normal-outlines-survival-guide-at-isc-2026-an-exec-said-it-will-never-be-like-it-was-last-year",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zak Killian",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-28T13:50:59+00:00",
+      "summary": "At the International Supercomputing Conference this past week, Lenovo reportedly said the memory market 'it will never be like it was last year.'",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/pc-building/diy-3d-printed-steam-machine-a-like-uses-diagonal-mobo-mounting-parts-include-a-mini-itx-motherboard-rtx-5060-and-a-flex-atx-psu",
+      "title": "AMD engineer 3D-prints Steam Machine-a-like with diagonal mobo mounting — parts include a Mini ITX motherboard, RTX 5060, and a flex ATX PSU",
+      "url": "https://www.tomshardware.com/desktops/pc-building/diy-3d-printed-steam-machine-a-like-uses-diagonal-mobo-mounting-parts-include-a-mini-itx-motherboard-rtx-5060-and-a-flex-atx-psu",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-28T12:36:37+00:00",
+      "summary": "The Terk Box v1.1 looks like the closest DIY alternative to Valve's Steam Machine yet. 3D print source files are available.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/service-providers/streaming/us-seizes-nearly-400-domains-streaming-the-2026-world-cup",
+      "title": "400 domains used for illegal 2026 World Cup streams seized by US Justice Department — operation is five times the scale of the previous crackdown",
+      "url": "https://www.tomshardware.com/service-providers/streaming/us-seizes-nearly-400-domains-streaming-the-2026-world-cup",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-28T12:18:15+00:00",
+      "summary": "The US Department of Justice has announced that it has seized nearly 400 domains that were illegally streaming live matches from the 2026 FIFA World Cup.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/chinas-loongson-launches-homegrown-16-core-server-cpu-built-on-loongarch-architecture-40w-chip-with-ddr4-ecc-and-32-pcie-lanes-targets-cheap-smb-file-database-and-web-servers",
+      "title": "China’s Loongson launches homegrown 16-core server CPU built on LoongArch architecture — 40W chip with DDR4 ECC and 32 PCIe lanes targets cheap SMB file, database, and web servers",
+      "url": "https://www.tomshardware.com/pc-components/cpus/chinas-loongson-launches-homegrown-16-core-server-cpu-built-on-loongarch-architecture-40w-chip-with-ddr4-ecc-and-32-pcie-lanes-targets-cheap-smb-file-database-and-web-servers",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-28T12:00:00+00:00",
+      "summary": "Loongson has announced the 3C3000, a 16-core LoongArch server CPU with DDR4 ECC, 32 PCIe lanes, 40W typical power, and performance claimed to match the earlier 3C5000.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/ai-coding-agents-can-be-tricked-into-installing-malware-via-clean-github-repositories-mozillas-0din-team-shows-how-claude-code-can-be-exploited-by-its-own-helpfulness",
+      "title": "AI coding agents can be tricked into installing malware via 'clean' GitHub repositories — Mozilla's 0din team shows how Claude Code can be exploited by its own helpfulness",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/ai-coding-agents-can-be-tricked-into-installing-malware-via-clean-github-repositories-mozillas-0din-team-shows-how-claude-code-can-be-exploited-by-its-own-helpfulness",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-28T11:30:00+00:00",
+      "summary": "Claude and other AI agents fooled into running malware with just a minimal GitHub repository — ask the bot to initialize the project and you get hacked",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/playstation/playstation-is-removing-over-500-movies-from-uk-customers-accounts-with-no-refunds-iconic-films-like-terminator-2-apocalypse-now-and-mulholland-drive-are-getting-deleted",
+      "title": "PlayStation is removing over 500 movies from UK customers' accounts with no refunds — Iconic films like Terminator 2, Apocalypse Now, and Mulholland Drive are getting deleted",
+      "url": "https://www.tomshardware.com/video-games/playstation/playstation-is-removing-over-500-movies-from-uk-customers-accounts-with-no-refunds-iconic-films-like-terminator-2-apocalypse-now-and-mulholland-drive-are-getting-deleted",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-28T11:00:00+00:00",
+      "summary": "Sony will delete 551 movies from PlayStation users' accounts in the UK on September 1, 2026. These are films distributed by StudioCanal that no longer come under licensing agreements between the two companies.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/pc-building/japanese-firm-launches-hyper-realistic-capsule-toy-pc-parts-you-can-assemble-and-play-with-tiny-motherboards-cases-and-cpus-are-coming-after-tarlin-inks-collab-with-the-big-four-pc-parts-makers",
+      "title": "Japanese firm launches hyper-realistic capsule toy PC parts ‘you can assemble and play with’ — tiny motherboards, cases, and CPUs are coming after Tarlin inks collab with the ‘big four’ PC parts makers",
+      "url": "https://www.tomshardware.com/desktops/pc-building/japanese-firm-launches-hyper-realistic-capsule-toy-pc-parts-you-can-assemble-and-play-with-tiny-motherboards-cases-and-cpus-are-coming-after-tarlin-inks-collab-with-the-big-four-pc-parts-makers",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-28T10:30:00+00:00",
+      "summary": "A Japanese capsule toy maker has announced an official collaboration with ASRock, Gigabyte, MSI, and Intel to make tiny PC components that buyers 'can assemble and play with.'",
       "lang": "en"
     },
     {
@@ -737,142 +873,6 @@
       "views": null,
       "published_at": "2026-06-26T15:15:45+00:00",
       "summary": "Now's the best time to get Amazon's flagship Wi-Fi 7 Eero mesh system",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/frameworks-laptop-13-pro-diy-edition-now-costs-less-than-before-but-a-cpu-price-hike-might-be-coming-cheaper-pcie-5-0-drives-from-adata-upgrade-customers-from-500gb-to-1tb-for-free",
-      "title": "Framework's Laptop 13 Pro DIY Edition now costs less than before, but a CPU price hike might be coming — Cheaper PCIe 5.0 drives from Adata upgrade customers from 500GB to 1TB for free",
-      "url": "https://www.tomshardware.com/laptops/frameworks-laptop-13-pro-diy-edition-now-costs-less-than-before-but-a-cpu-price-hike-might-be-coming-cheaper-pcie-5-0-drives-from-adata-upgrade-customers-from-500gb-to-1tb-for-free",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T15:14:13+00:00",
-      "summary": "Framework has secured cheaper PCIe 5.0 SSDs for the DIY Edition of its Laptop 13 Pro, upgrading existing customers from 500GB to 1TB drives for free. Unfortunately, it seems like CPU prices are about to rise soon, which will make the laptop more expensive overall anyways.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/last-chance-to-save-up-to-55-percent-on-these-brilliant-hoto-tools-for-pc-builders-and-hobbyists-starting-from-usd14-super-low-prices-set-to-end-soon-on-cordless-electric-screwdrivers-drills-flashlights-vacuum-cleaners-and-more",
-      "title": "Last chance to save up to 55% on these brilliant Hoto tools for PC builders and hobbyists, starting from $14 — super low prices set to end soon on cordless electric screwdrivers, drills, flashlights, vacuum cleaners, and more",
-      "url": "https://www.tomshardware.com/peripherals/last-chance-to-save-up-to-55-percent-on-these-brilliant-hoto-tools-for-pc-builders-and-hobbyists-starting-from-usd14-super-low-prices-set-to-end-soon-on-cordless-electric-screwdrivers-drills-flashlights-vacuum-cleaners-and-more",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T14:03:01+00:00",
-      "summary": "A full spectrum of Hoto tools for hobbyists and PC builders is now on sale, thanks to Amazon Prime Day.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/apple-will-skip-its-high-end-m6-mac-chips-and-fast-track-an-ai-focused-m7-generation-for-2027",
-      "title": "Apple will skip its high-end M6 Mac chips and fast-track an AI-focused M7 generation for 2027, report claims — may release a base M6 chip for entry-level Macs this year",
-      "url": "https://www.tomshardware.com/tech-industry/apple-will-skip-its-high-end-m6-mac-chips-and-fast-track-an-ai-focused-m7-generation-for-2027",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T13:51:26+00:00",
-      "summary": "Apple will release a base M6 chip for entry-level Macs this year but skip the Pro and Max versions of that generation, jumping instead to an accelerated M7 family.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/solidigm-vp-talks-pcie-6-0-ssds-next-gen-floating-gate-nand-liquid-cooled-storage-and-more-avi-shetty-vp-of-ai-solutions-and-market-enablement-discusses-the-future-of-enterprise-storage-tech",
-      "title": "Solidigm VP talks PCIe 6.0 SSDs, next-gen floating gate NAND, liquid cooled storage and more — Avi Shetty, VP of AI, Solutions & Market Enablement discusses the future of enterprise storage tech",
-      "url": "https://www.tomshardware.com/pc-components/ssds/solidigm-vp-talks-pcie-6-0-ssds-next-gen-floating-gate-nand-liquid-cooled-storage-and-more-avi-shetty-vp-of-ai-solutions-and-market-enablement-discusses-the-future-of-enterprise-storage-tech",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T13:25:48+00:00",
-      "summary": "In an interview with Tom’s Hardware Premium, Solidigm's Avi Shetty discusses the future of high-capacity SSDs, Floating-Gate NAND, PLC memory, PCIe 6.0 storage, liquid-cooled SSDs, Nvidia's Storage Next vision, and why the company believes AI will drive demand for even denser NAND flash-based storage technologies.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-5800x3d-vs-intel-core-i7-14700k-faceoff",
-      "title": "AMD Ryzen 7 5800X3D vs Intel Core i7-14700K faceoff — A new battle for DDR4 supremacy in 2026",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-5800x3d-vs-intel-core-i7-14700k-faceoff",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T13:10:00+00:00",
-      "summary": "We tested both CPUs across gaming, rendering, encoding, efficiency, and pricing to see if the Ryzen 7 5800X3D can keep up with the newer Core i7-14700K with DDR4.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/amds-new-10th-anniversary-ryzen-7-5800x3d-cpu-is-now-available-revamped-processor-is-the-fastest-gaming-chip-available-for-ddr4-systems-breathes-new-life-into-am4-platforms",
-      "title": "AMD's new 10th Anniversary Ryzen 7 5800X3D CPU back in stock — Here's where to buy the revamped processor that's the fastest gaming chip available for AM4 platforms [Updated]",
-      "url": "https://www.tomshardware.com/pc-components/amds-new-10th-anniversary-ryzen-7-5800x3d-cpu-is-now-available-revamped-processor-is-the-fastest-gaming-chip-available-for-ddr4-systems-breathes-new-life-into-am4-platforms",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Paul Alcorn",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T12:26:20+00:00",
-      "summary": "AMD's new 10th-anniversary Ryzen 7 5800X3D is now available for purchase at B&amp;H Photo at MSRP, a welcome relief for those who have been searching for the chip, only to find it being scalped at twice the MSRP after yesterday's launch.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/windows/microsoft-extends-free-windows-10-security-updates-for-a-second-year",
-      "title": "Microsoft extends free Windows 10 security updates for a second year — program now ends on October 12, 2027",
-      "url": "https://www.tomshardware.com/software/windows/microsoft-extends-free-windows-10-security-updates-for-a-second-year",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T11:31:26+00:00",
-      "summary": "Microsoft has extended its free consumer Windows 10 Extended Security Updates (ESU) program by a year, pushing the cutoff for critical security patches to October 14th, 2027.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/digitize-your-library-with-these-blu-ray-or-dvd-drives-from-as-little-as-usd27-in-these-prime-day-deals-revive-your-old-dvd-blu-ray-collection-with-these-drive-deals",
-      "title": "Digitize your library with these Blu-Ray or DVD drives from as little as $27 in these Prime Day deals — revive your old DVD/Blu-Ray collection with these drive deals",
-      "url": "https://www.tomshardware.com/peripherals/digitize-your-library-with-these-blu-ray-or-dvd-drives-from-as-little-as-usd27-in-these-prime-day-deals-revive-your-old-dvd-blu-ray-collection-with-these-drive-deals",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T11:10:36+00:00",
-      "summary": "Disk drive deals on DVD and Blu-Ray burners from Asus. Burn, rewrite, or play your movie collections, or backup your data to disk.",
       "lang": "en"
     }
   ]
