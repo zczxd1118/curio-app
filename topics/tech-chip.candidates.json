@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-06-29T08:22:02.321591+00:00",
+  "fetched_at": "2026-06-30T07:01:20.051373+00:00",
   "platforms": [
     "rss"
   ],
@@ -188,6 +188,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/model-context-protocol-emerges-as-a-common-framework-for-enterprise-ai-systems/",
+      "title": "Model Context Protocol Emerges as a Common Framework for Enterprise AI Systems",
+      "url": "https://www.eetimes.com/model-context-protocol-emerges-as-a-common-framework-for-enterprise-ai-systems/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-30T07:00:00+00:00",
+      "summary": "MCP gives enterprise AI a common, open plumbing layer to connect models with tools, data, and agents. The post Model Context Protocol Emerges as a Common Framework for Enterprise AI Systems appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/u-s-eyes-china-expanding-role-in-latin-america/",
+      "title": "U.S. Eyes China’s Expanding Role in Latin America",
+      "url": "https://www.eetimes.com/u-s-eyes-china-expanding-role-in-latin-america/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T21:00:00+00:00",
+      "summary": "As U.S. regulators focus on supply chain transparency, China's expanding presence in Latin America has emerged as a major strategic challenge. The post U.S. Eyes China&#8217;s Expanding Role in Latin America appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/panel-with-arteris-gf-tenstorrent-risc-v-ecosystem-growth-for-physical-ai/",
+      "title": "Panel with Arteris, GlobalFoundries, Tenstorrent: RISC-V Ecosystem Growth for Physical AI",
+      "url": "https://www.eetimes.com/panel-with-arteris-gf-tenstorrent-risc-v-ecosystem-growth-for-physical-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "EE Times Staff",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T16:53:48+00:00",
+      "summary": "RISC-V heavyweights tackle physical AI, edge autonomy, and TOPS-per-watt—watch how robots chase their killer app. The post Panel with Arteris, GlobalFoundries, Tenstorrent: RISC-V Ecosystem Growth for Physical AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/europes-path-to-defense-resilience-lies-in-technological-independence/",
+      "title": "Europe’s Path to Defense Resilience Lies in Technological Independence",
+      "url": "https://www.eetimes.com/europes-path-to-defense-resilience-lies-in-technological-independence/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Florian Pivit",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T12:34:57+00:00",
+      "summary": "If Europe wants true defense resilience, it must reduce its dependence on big foreign tech ecosystems. The post Europe’s Path to Defense Resilience Lies in Technological Independence appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/satvu-targets-industrial-intelligence-with-thermal-imaging/",
       "title": "SatVu Targets Industrial Intelligence with Thermal Imaging",
       "url": "https://www.eetimes.com/satvu-targets-industrial-intelligence-with-thermal-imaging/",
@@ -287,74 +355,6 @@
       "views": null,
       "published_at": "2026-06-25T15:59:00+00:00",
       "summary": "The custom inference accelerator follows the hyperscaler playbook, but the AI-automated chip design process could prove the more consequential announcement. The post OpenAI’s Jalapeño Will Be Spicy, But the Real Sizzle Is Its Chip Design AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/vicfuse-introduces-ul-class-fuse-series-for-modern-ai-infrastructure-and-industrial-protection/",
-      "title": "Vicfuse Introduces UL Class Fuse Series for Modern AI Infrastructure and Industrial Protection",
-      "url": "https://www.eetimes.com/vicfuse-introduces-ul-class-fuse-series-for-modern-ai-infrastructure-and-industrial-protection/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "VICFUSE",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-25T13:00:00+00:00",
-      "summary": "Vicfuse introduces its UL Class fuse series, an industrial circuit-protection portfolio designed for AC and DC applications. The post Vicfuse Introduces UL Class Fuse Series for Modern AI Infrastructure and Industrial Protection appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ibm-shows-sub-1-nm-chips-targeting-production-in-5-years/",
-      "title": "IBM Shows Sub-1-nm Chips, Targeting Production in 5 Years",
-      "url": "https://www.eetimes.com/ibm-shows-sub-1-nm-chips-targeting-production-in-5-years/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-25T10:00:00+00:00",
-      "summary": "IBM unveils 0.7-nm nanostack chips promising 100 billion transistors, denser SRAM, and production within five years. The post IBM Shows Sub-1-nm Chips, Targeting Production in 5 Years appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/qualcomm-forecasts-billions-in-additional-revenue-from-new-data-center-solutions/",
-      "title": "Qualcomm Forecasts Billions in Additional Revenue from New Data Center Solutions",
-      "url": "https://www.eetimes.com/qualcomm-forecasts-billions-in-additional-revenue-from-new-data-center-solutions/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Jim McGregor",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-25T07:52:39+00:00",
-      "summary": "Qualcomm takes the data center by storm with networking, AI accelerators, and both custom and standard CPUs. The post Qualcomm Forecasts Billions in Additional Revenue from New Data Center Solutions appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/the-rise-of-autonomous-drone-warfare/",
-      "title": "The Rise of Autonomous Drone Warfare",
-      "url": "https://www.eetimes.com/the-rise-of-autonomous-drone-warfare/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Rebecca Pool",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-24T22:14:58+00:00",
-      "summary": "Cheap, autonomous drones developed in Ukraine are driving a new era of drone-on-drone warfare. The post The Rise of Autonomous Drone Warfare appeared first on EE Times.",
       "lang": "en"
     }
   ]

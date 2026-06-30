@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-06-29T08:21:19.558246+00:00",
+  "fetched_at": "2026-06-30T07:00:44.938512+00:00",
   "platforms": [
     "rss"
   ],
@@ -196,6 +196,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/model-context-protocol-emerges-as-a-common-framework-for-enterprise-ai-systems/",
+      "title": "Model Context Protocol Emerges as a Common Framework for Enterprise AI Systems",
+      "url": "https://www.eetimes.com/model-context-protocol-emerges-as-a-common-framework-for-enterprise-ai-systems/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-30T07:00:00+00:00",
+      "summary": "MCP gives enterprise AI a common, open plumbing layer to connect models with tools, data, and agents. The post Model Context Protocol Emerges as a Common Framework for Enterprise AI Systems appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/u-s-eyes-china-expanding-role-in-latin-america/",
+      "title": "U.S. Eyes China’s Expanding Role in Latin America",
+      "url": "https://www.eetimes.com/u-s-eyes-china-expanding-role-in-latin-america/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T21:00:00+00:00",
+      "summary": "As U.S. regulators focus on supply chain transparency, China's expanding presence in Latin America has emerged as a major strategic challenge. The post U.S. Eyes China&#8217;s Expanding Role in Latin America appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/panel-with-arteris-gf-tenstorrent-risc-v-ecosystem-growth-for-physical-ai/",
+      "title": "Panel with Arteris, GlobalFoundries, Tenstorrent: RISC-V Ecosystem Growth for Physical AI",
+      "url": "https://www.eetimes.com/panel-with-arteris-gf-tenstorrent-risc-v-ecosystem-growth-for-physical-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "EE Times Staff",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T16:53:48+00:00",
+      "summary": "RISC-V heavyweights tackle physical AI, edge autonomy, and TOPS-per-watt—watch how robots chase their killer app. The post Panel with Arteris, GlobalFoundries, Tenstorrent: RISC-V Ecosystem Growth for Physical AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/europes-path-to-defense-resilience-lies-in-technological-independence/",
+      "title": "Europe’s Path to Defense Resilience Lies in Technological Independence",
+      "url": "https://www.eetimes.com/europes-path-to-defense-resilience-lies-in-technological-independence/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Florian Pivit",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T12:34:57+00:00",
+      "summary": "If Europe wants true defense resilience, it must reduce its dependence on big foreign tech ecosystems. The post Europe’s Path to Defense Resilience Lies in Technological Independence appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/satvu-targets-industrial-intelligence-with-thermal-imaging/",
       "title": "SatVu Targets Industrial Intelligence with Thermal Imaging",
       "url": "https://www.eetimes.com/satvu-targets-industrial-intelligence-with-thermal-imaging/",
@@ -298,76 +366,212 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/vicfuse-introduces-ul-class-fuse-series-for-modern-ai-infrastructure-and-industrial-protection/",
-      "title": "Vicfuse Introduces UL Class Fuse Series for Modern AI Infrastructure and Industrial Protection",
-      "url": "https://www.eetimes.com/vicfuse-introduces-ul-class-fuse-series-for-modern-ai-infrastructure-and-industrial-protection/",
+      "id": "rss:https://www.tomshardware.com/pc-components/ram/amd-expo-ull-ram-drops-at-jaw-dropping-usd1-099-despite-promises-of-it-being-effectively-the-same-price-ddr5-6000-c26-32gb-kit-sports-80-percent-ull-tax",
+      "title": "AMD EXPO ULL RAM drops at jaw-dropping $1,099 despite promises of it being 'effectively the same price' — DDR5-6000 C26 32GB kit sports 80% ULL tax",
+      "url": "https://www.tomshardware.com/pc-components/ram/amd-expo-ull-ram-drops-at-jaw-dropping-usd1-099-despite-promises-of-it-being-effectively-the-same-price-ddr5-6000-c26-32gb-kit-sports-80-percent-ull-tax",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "VICFUSE",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zhiye Liu",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-25T13:00:00+00:00",
-      "summary": "Vicfuse introduces its UL Class fuse series, an industrial circuit-protection portfolio designed for AC and DC applications. The post Vicfuse Introduces UL Class Fuse Series for Modern AI Infrastructure and Industrial Protection appeared first on EE Times.",
+      "published_at": "2026-06-29T20:16:12+00:00",
+      "summary": "Newegg has started selling G.Skill’s Trident Z5 NeoX memory kits featuring AMD ULL technology, and the prices are already high.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/ibm-shows-sub-1-nm-chips-targeting-production-in-5-years/",
-      "title": "IBM Shows Sub-1-nm Chips, Targeting Production in 5 Years",
-      "url": "https://www.eetimes.com/ibm-shows-sub-1-nm-chips-targeting-production-in-5-years/",
+      "id": "rss:https://www.tomshardware.com/pc-components/gpu-drivers/cuda-emulator-for-amd-gpus-zluda-loses-funding-with-v6-release-embattled-project-goes-back-to-hobby-status-but-now-includes-32-bit-physx-support",
+      "title": "CUDA emulator for AMD GPUs Zluda loses funding with v6 release — embattled project goes back to hobby status but now includes 32-bit PhysX support",
+      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/cuda-emulator-for-amd-gpus-zluda-loses-funding-with-v6-release-embattled-project-goes-back-to-hobby-status-but-now-includes-32-bit-physx-support",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-25T10:00:00+00:00",
-      "summary": "IBM unveils 0.7-nm nanostack chips promising 100 billion transistors, denser SRAM, and production within five years. The post IBM Shows Sub-1-nm Chips, Targeting Production in 5 Years appeared first on EE Times.",
+      "published_at": "2026-06-29T18:29:21+00:00",
+      "summary": "Zluda is back to a hobby, as the open-source project has lost commercial funding with version 6 but added early 32-bit PhysX support.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/qualcomm-forecasts-billions-in-additional-revenue-from-new-data-center-solutions/",
-      "title": "Qualcomm Forecasts Billions in Additional Revenue from New Data Center Solutions",
-      "url": "https://www.eetimes.com/qualcomm-forecasts-billions-in-additional-revenue-from-new-data-center-solutions/",
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/valve-threatens-legal-action-against-dbrand-over-its-unsanctioned-portal-2-inspired-companion-cube-edgy-accessories-manufacturer-kills-product-after-asking-for-licensing-deal-admits-it-didnt-have-the-right-to-make-it",
+      "title": "Valve threatens legal action against Dbrand over its unsanctioned Portal 2-inspired Companion Cube — edgy accessories manufacturer kills product after asking for licensing deal, admits it didn't have 'the right to make it'",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/valve-threatens-legal-action-against-dbrand-over-its-unsanctioned-portal-2-inspired-companion-cube-edgy-accessories-manufacturer-kills-product-after-asking-for-licensing-deal-admits-it-didnt-have-the-right-to-make-it",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Jim McGregor",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-25T07:52:39+00:00",
-      "summary": "Qualcomm takes the data center by storm with networking, AI accelerators, and both custom and standard CPUs. The post Qualcomm Forecasts Billions in Additional Revenue from New Data Center Solutions appeared first on EE Times.",
+      "published_at": "2026-06-29T17:26:18+00:00",
+      "summary": "Valve has asked Dbrand to stop selling its Portal 2-themed Companion Cube cases for the Steam Machine, since it never asked the company permission to begin with.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/the-rise-of-autonomous-drone-warfare/",
-      "title": "The Rise of Autonomous Drone Warfare",
-      "url": "https://www.eetimes.com/the-rise-of-autonomous-drone-warfare/",
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/legacy-nvidia-rtx-3060-12gb-returns-to-retail-five-years-after-original-launch-priced-at-usd339-resurrected-gpu-strategy-that-jensen-called-a-good-idea-apparently-comes-to-fruition",
+      "title": "Legacy Nvidia RTX 3060 12GB returns to retail five years after original launch, priced at $339 — resurrected GPU strategy that Jensen called a 'good idea' apparently comes to fruition",
+      "url": "https://www.tomshardware.com/pc-components/gpus/legacy-nvidia-rtx-3060-12gb-returns-to-retail-five-years-after-original-launch-priced-at-usd339-resurrected-gpu-strategy-that-jensen-called-a-good-idea-apparently-comes-to-fruition",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Rebecca Pool",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jeffrey Kampman",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-24T22:14:58+00:00",
-      "summary": "Cheap, autonomous drones developed in Ukraine are driving a new era of drone-on-drone warfare. The post The Rise of Autonomous Drone Warfare appeared first on EE Times.",
+      "published_at": "2026-06-29T17:11:15+00:00",
+      "summary": "After Nvidia CEO Jensen Huang said that \"it's a good idea\" to consider re-introducing older GPUs made on trailing process nodes, the five-year-old RTX 3060 is back on e-tailer shelves, priced at $339.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/south-korea-unveils-usd520-billion-investment-plan-with-samsung-and-sk-hynix-to-expand-memory-chip-dominance-plan-includes-four-new-fabs-and-hbm-facilities-amid-strong-government-support",
+      "title": "South Korea unveils $520 billion investment plan with Samsung and SK Hynix to expand memory chip dominance — plan includes four new fabs and HBM facilities, amid strong government support",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/south-korea-unveils-usd520-billion-investment-plan-with-samsung-and-sk-hynix-to-expand-memory-chip-dominance-plan-includes-four-new-fabs-and-hbm-facilities-amid-strong-government-support",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T14:12:23+00:00",
+      "summary": "President Lee unveiled an 800 trillion won ($520B) public-private plan for four new Samsung and SK Hynix fabs, dwarfing the US CHIPS Act tenfold.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/steamroller-becomes-first-prebuilt-gaming-pc-to-ship-with-steamos-ryzen-9600x-radeon-rx-7600-16gb-ddr5-ram-system-available-for-preorder-at-usd1-299",
+      "title": "Steamroller becomes first prebuilt gaming PC to ship with SteamOS — Ryzen 9600X, Radeon RX 7600, 16GB DDR5 RAM system available for preorder at $1,299",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/steamroller-becomes-first-prebuilt-gaming-pc-to-ship-with-steamos-ryzen-9600x-radeon-rx-7600-16gb-ddr5-ram-system-available-for-preorder-at-usd1-299",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T13:30:00+00:00",
+      "summary": "Steamroller is the first commercially available prebuilt gaming PC running SteamOS, pairing standard desktop components with future upgradeability.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/samsung-sk-hynix-and-micron-sued-over-alleged-dram-price-fixing-amid-record-memory-costs",
+      "title": "Samsung, SK hynix, and Micron sued over alleged DRAM price fixing amid record memory costs — lawsuit claims coordinated HBM shift was cover to curtail DDR3 and DDR4 production",
+      "url": "https://www.tomshardware.com/tech-industry/samsung-sk-hynix-and-micron-sued-over-alleged-dram-price-fixing-amid-record-memory-costs",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T13:18:54+00:00",
+      "summary": "Samsung, SK hynix, and Micron were sued on June 25th in the U.S. District Court for the Northern District of California.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/imecs-2026-roadmap-details-0-3nm-nodes-by-2038-cfet-transistors-become-viable-at-0-7nm-company-redefines-moores-law-as-cell-sizes-gain-importance-for-density",
+      "title": "Imec's 2026 roadmap details 0.3nm nodes by 2038, CFET transistors become viable at 0.7nm — company redefines Moore's Law as cell sizes gain importance for density",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/imecs-2026-roadmap-details-0-3nm-nodes-by-2038-cfet-transistors-become-viable-at-0-7nm-company-redefines-moores-law-as-cell-sizes-gain-importance-for-density",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T13:15:14+00:00",
+      "summary": "As CPP shrinking stalls, chipmakers find a new way to increase transistor density. Imec foresees 0.3nm in 2038, CFET insertion in 2038, HLSI era.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-a-massive-usd1-100-on-this-rtx-5080-gaming-pc-with-a-9800x3d-from-hp-now-just-usd2-499-liquid-cooled-omen-35l-rig-unlocks-4k-gameplay-with-32gb-ddr5-and-a-2tb-ssd",
+      "title": "Save a massive $1,100 on this RTX 5080 gaming PC with a 9800X3D from HP, now just $2,499 — liquid-cooled Omen 35L rig unlocks 4K gameplay with 32GB DDR5 and a 2TB SSD",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-a-massive-usd1-100-on-this-rtx-5080-gaming-pc-with-a-9800x3d-from-hp-now-just-usd2-499-liquid-cooled-omen-35l-rig-unlocks-4k-gameplay-with-32gb-ddr5-and-a-2tb-ssd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T11:15:36+00:00",
+      "summary": "Save $1,100 on this HP Omen 45L gaming rig, fitted with a 9800X3D, RTX 5080, 32GB of DDR5 RAM, and 2TB in SSD storage, all for just $2,499.99.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/pc-building/pick-up-hotos-ultra-useful-3d-printing-tool-for-just-usd29-save-40-percent-on-this-35-piece-cordless-rotary-tool-to-give-your-creations-a-finishing-touch",
+      "title": "Pick up Hoto's ultra-useful 3D printing tool for just $29 — save 40% on this 35-piece Cordless Rotary Tool to give your creations a finishing touch",
+      "url": "https://www.tomshardware.com/desktops/pc-building/pick-up-hotos-ultra-useful-3d-printing-tool-for-just-usd29-save-40-percent-on-this-35-piece-cordless-rotary-tool-to-give-your-creations-a-finishing-touch",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T11:12:00+00:00",
+      "summary": "Save on these brilliant Hoto tools for PC builders and hobbyists. Hoto's cordless rotary tool is now only $29.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/chinas-hollow-core-fiber-trial-pushes-51-3-tb-s-over-128-miles-without-signal-regeneration-milestone-targets-ai-era-networking-bottlenecks",
+      "title": "China’s hollow-core fiber trial pushes 51.3 Tb/s over 128 miles without signal regeneration — milestone targets AI-era networking bottlenecks",
+      "url": "https://www.tomshardware.com/networking/chinas-hollow-core-fiber-trial-pushes-51-3-tb-s-over-128-miles-without-signal-regeneration-milestone-targets-ai-era-networking-bottlenecks",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T10:00:00+00:00",
+      "summary": "YOFC, China Telecom, and Dekoli claim a 51.3 Tb/s hollow-core fiber field-trial record over 206.5 km, using 1.2 Tb/s-per-wavelength WDM transmission without repeaters or remote-pumped amplifiers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/pong-game-that-recompiles-itself-every-frame-wins-the-ioccc29-obfuscated-c-contest",
+      "title": "Pong game recompiles its own source code every frame — winning entry at IOCCC29 was generated by a custom compiler",
+      "url": "https://www.tomshardware.com/tech-industry/pong-game-that-recompiles-itself-every-frame-wins-the-ioccc29-obfuscated-c-contest",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-29T09:30:00+00:00",
+      "summary": "Jonah Uellenberg won the Ping Pong Prize at the 29th International Obfuscated C Code Contest earlier this month, with a version of Pong that recompiles its own source code on every frame.",
       "lang": "en"
     },
     {
       "id": "rss:https://www.tomshardware.com/pc-components/pnys-performance-32gb-ddr5-5600-ram-becomes-the-cheapest-2x16gb-kit-ddr5-kit-gets-a-usd70-discount",
-      "title": "PNY's Performance 32GB DDR5-5600 RAM becomes the cheapest 2x16GB kit— DDR5 kit gets a $70 discount",
+      "title": "Corsair's Vengeance 32GB DDR5-5600 RAM becomes the cheapest 2x16GB kit— DDR5 kit gets a $111 discount",
       "url": "https://www.tomshardware.com/pc-components/pnys-performance-32gb-ddr5-5600-ram-becomes-the-cheapest-2x16gb-kit-ddr5-kit-gets-a-usd70-discount",
       "platform": "rss",
       "source": {
@@ -669,210 +873,6 @@
       "views": null,
       "published_at": "2026-06-26T20:01:01+00:00",
       "summary": "The iBuyPower Y40 PC is on an incredible sale, offering a Ryzen 7 9800X3D, RX 9070 XT, 1TB of storage, and 32GB of memory for $750 off.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/networking/network-switches/tp-links-8-port-2-5g-unmanaged-ethernet-switch-is-a-smokin-bargain-at-usd50-upgrade-your-home-network-for-half-price",
-      "title": "TP-Link's 8-port 2.5G unmanaged Ethernet switch is a smokin' bargain at $50 — upgrade your home network for half price",
-      "url": "https://www.tomshardware.com/networking/network-switches/tp-links-8-port-2-5g-unmanaged-ethernet-switch-is-a-smokin-bargain-at-usd50-upgrade-your-home-network-for-half-price",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Brandon Hill",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T19:56:13+00:00",
-      "summary": "The TP-Link TL-SG108S-M2 offers 8 2.5 GbE ports and cost just under $50",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/gigabyte-aero-x16-gaming-laptop-delivers-rtx-5060-32gb-ram-and-16-inch-165hz-1600p-display-for-usd1-099",
-      "title": "Gigabyte Aero X16 gaming laptop delivers RTX 5060, 32GB RAM, and a 16-inch 165Hz 1600p display for 21% off",
-      "url": "https://www.tomshardware.com/laptops/gaming-laptops/gigabyte-aero-x16-gaming-laptop-delivers-rtx-5060-32gb-ram-and-16-inch-165hz-1600p-display-for-usd1-099",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Brandon Hill",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T18:45:00+00:00",
-      "summary": "The Gigabyte Aero 16X packs a Ryzen AI 7 350 CPU, 32GB of RAM, and an RTX 5060",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/this-is-what-toms-hardware-readers-clicked-the-most-during-prime-day-portable-displays-dvd-burners-the-nintendo-switch-2-and-two-decent-ssd-deals-among-others",
-      "title": "This is what Tom's Hardware readers clicked the most during Prime Day — Portable displays, DVD burners, the Nintendo Switch 2, and two decent SSD deals, among others",
-      "url": "https://www.tomshardware.com/pc-components/this-is-what-toms-hardware-readers-clicked-the-most-during-prime-day-portable-displays-dvd-burners-the-nintendo-switch-2-and-two-decent-ssd-deals-among-others",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Matt Safford",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T18:11:41+00:00",
-      "summary": "Here are the products our readers clicked on the most during this Prime Week, from optical drives and small touchscreens to the Nintendo Switch 2, and the two name-brand SSDs that were actually on sale.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/save-usd250-on-this-amd-am5-bundle-get-samsung-990-pro-ssd-for-basically-free-grab-the-amd-ryzen-5-9600x-gigabyte-b850-aorus-elite-motherboard-and-990-pro-1tb-ssd-for-36-percent-off",
-      "title": "Save $250 on this AMD AM5 bundle, get Samsung 990 Pro SSD for basically free — grab the AMD Ryzen 5 9600X, Gigabyte B850 Aorus Elite motherboard, and 990 Pro 1TB SSD for 36% off",
-      "url": "https://www.tomshardware.com/pc-components/save-usd250-on-this-amd-am5-bundle-get-samsung-990-pro-ssd-for-basically-free-grab-the-amd-ryzen-5-9600x-gigabyte-b850-aorus-elite-motherboard-and-990-pro-1tb-ssd-for-36-percent-off",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T17:57:34+00:00",
-      "summary": "Save nearly $250 on three essential PC components with this Newegg bundle featuring AMD's Ryzen 5 9600X, a Gigabyte B850 motherboard, and Samsung's flagship PCIe 4.0 SSD.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/sony-wh-1000xm5-active-noise-canceling-headphones-for-an-all-time-low-usd198-at-amazon-audiophile-grade-audio-and-anc-for-an-affordable-price",
-      "title": "Sony WH-1000XM5 active noise-canceling headphones for an all-time low $198 at Amazon — audiophile-grade audio and ANC for an affordable price",
-      "url": "https://www.tomshardware.com/pc-components/sony-wh-1000xm5-active-noise-canceling-headphones-for-an-all-time-low-usd198-at-amazon-audiophile-grade-audio-and-anc-for-an-affordable-price",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T17:23:28+00:00",
-      "summary": "Sony WH-1000XM5 active noise-cancelling headphones for just $198 at Amazon — audiophile-grade audio and ANC for an affordable price",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/meta-quest-3s-drops-to-pre-rampocalypse-prices-for-a-prime-day-wireless-vr-headset-goes-on-sale-for-a-limited-time-get-15-percent-off-and-save-more-than-usd50-if-you-get-it-right-now",
-      "title": "Meta Quest 3S drops to pre-RAMpocalypse prices for a Prime Day — wireless VR headset goes on sale for a limited time, get 15% off and save more than $50 if you get it right now",
-      "url": "https://www.tomshardware.com/pc-components/meta-quest-3s-drops-to-pre-rampocalypse-prices-for-a-prime-day-wireless-vr-headset-goes-on-sale-for-a-limited-time-get-15-percent-off-and-save-more-than-usd50-if-you-get-it-right-now",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T17:23:04+00:00",
-      "summary": "The Meta Quest 3S is one sale at $296.79, saving you $53.20 from its original price of $349.99, making it more affordable than its pre-memory chip shortage price of $300.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/the-logitech-g29-racing-wheel-and-pedal-set-with-real-force-feedback-is-on-a-deep-40-percent-discount-for-prime-day-get-a-racing-sim-setup-for-just-usd180",
-      "title": "The Logitech G29 racing wheel and pedal set with real force feedback is on a deep 40% discount for Prime Day — get a racing sim setup for just $180",
-      "url": "https://www.tomshardware.com/pc-components/the-logitech-g29-racing-wheel-and-pedal-set-with-real-force-feedback-is-on-a-deep-40-percent-discount-for-prime-day-get-a-racing-sim-setup-for-just-usd180",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T16:48:43+00:00",
-      "summary": "The Logitech G29 is on a deep discount of 40% for Prime Day, marking its lowest price in half a decade at the retailer.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/asus-rog-zephyrus-g16-gaming-laptop-with-an-rtx-5070-and-240hz-oled-display-is-on-sale-for-usd757-off-save-on-an-excellent-laptop-with-a-16-core-flagship-cpu-and-top-tier-build-quality",
-      "title": "Asus' ROG Zephyrus G16 with an RTX 5070 & 240Hz OLED display is on sale for just $1,575 — Save $575 on an excellent gaming laptop with a 16-core flagship CPU & top-tier build quality",
-      "url": "https://www.tomshardware.com/pc-components/asus-rog-zephyrus-g16-gaming-laptop-with-an-rtx-5070-and-240hz-oled-display-is-on-sale-for-usd757-off-save-on-an-excellent-laptop-with-a-16-core-flagship-cpu-and-top-tier-build-quality",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T16:28:47+00:00",
-      "summary": "Best Buy is slashing almost $600 off a fantastic gaming laptop that basically has no compromises. It delivers solid performance across a wide variety of workloads and rocks a stunning 16-inch 240Hz OLED that can make anything look good. Asus has put 16GB of RAM and a 1TB PCIe 4.0 SSD onboard, too.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/onsemi-buying-cash-strapped-synaptics-in-usd7-billion-all-stock-deal-smart-power-meets-edge-ai-hardware",
-      "title": "Onsemi buying cash-strapped Synaptics in $7 billion all-stock deal — smart power meets edge AI hardware",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/onsemi-buying-cash-strapped-synaptics-in-usd7-billion-all-stock-deal-smart-power-meets-edge-ai-hardware",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T16:07:40+00:00",
-      "summary": "Onsemi and Synaptics to merge in a bid to build comprehensive platforms for robotics, physical AI applications.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/the-ryzen-7-5800x3d-is-sold-out-but-these-prime-day-cpus-with-ddr5-are-cheaper-offset-the-cost-of-a-ddr5-upgrade-with-a-cpu-discount",
-      "title": "The Ryzen 7 5800X3D is tough to find, but these Prime Day CPUs with DDR5 are cheaper — offset the cost of a DDR5 upgrade with a CPU discount",
-      "url": "https://www.tomshardware.com/pc-components/the-ryzen-7-5800x3d-is-sold-out-but-these-prime-day-cpus-with-ddr5-are-cheaper-offset-the-cost-of-a-ddr5-upgrade-with-a-cpu-discount",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T15:54:29+00:00",
-      "summary": "AMD's re-released Ryzen 7 5800X3D sold out almost immediately when it launched, but if you're tired of waiting, you can easily upgrade to a DDR5 platform with these Prime Day CPUs deals, all of which are cheaper than the 5800X3D's recommended $350 MSRP.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-chatgpt-5-6-gets-the-same-banhammer-treatment-as-anthropics-mythos-from-the-federal-government-source-says-that-washington-cautioned-openai-against-releasing-the-model-without-receiving-approval",
-      "title": "OpenAI's ChatGPT-5.6 gets the same banhammer treatment as Anthropic’s Mythos from the federal government — source says that Washington cautioned OpenAI against releasing the model without receiving approval",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-chatgpt-5-6-gets-the-same-banhammer-treatment-as-anthropics-mythos-from-the-federal-government-source-says-that-washington-cautioned-openai-against-releasing-the-model-without-receiving-approval",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T15:17:55+00:00",
-      "summary": "The U.S. government wants dibs on U.S. AI labs' most powerful models, asking for access 30 days before they go public. OpenAI is voluntarily complying with the President's executive order but wants 'to achieve a more sustainable approach for future releases.'",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/networking/routers/amazon-eero-max-7-wi-fi-7-mesh-router-4-pack-price-slashed-by-50-percent-flagship-wi-fi-7-at-a-major-discount-for-prime-day",
-      "title": "Amazon Eero Max 7 Wi-Fi 7 mesh router 4-pack price slashed by 50 percent — flagship Wi-Fi 7 at a major discount for Prime Day",
-      "url": "https://www.tomshardware.com/networking/routers/amazon-eero-max-7-wi-fi-7-mesh-router-4-pack-price-slashed-by-50-percent-flagship-wi-fi-7-at-a-major-discount-for-prime-day",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Brandon Hill",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T15:15:45+00:00",
-      "summary": "Now's the best time to get Amazon's flagship Wi-Fi 7 Eero mesh system",
       "lang": "en"
     }
   ]
