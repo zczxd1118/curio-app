@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-07-01T07:17:40.101117+00:00",
+  "fetched_at": "2026-07-02T06:47:15.849487+00:00",
   "platforms": [
     "rss"
   ],
@@ -196,6 +196,108 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/engineering-heterogeneity-at-scale/",
+      "title": "Engineering Heterogeneity at Scale",
+      "url": "https://www.eetimes.com/engineering-heterogeneity-at-scale/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T20:49:24+00:00",
+      "summary": "AI has outgrown traditional chips. The future belongs to integrated systems that stack compute, memory, photonics, and power, and HLSI is driving the shift. The post Engineering Heterogeneity at Scale appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/design-of-a-single-pair-ethernet-system-with-power-over-data-lines-spoe/",
+      "title": "Design of a Single Pair Ethernet System with Power over Data Lines (SPoE)",
+      "url": "https://www.eetimes.com/design-of-a-single-pair-ethernet-system-with-power-over-data-lines-spoe/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Dr.-Ing. Heinz Zenkner",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T14:00:00+00:00",
+      "summary": "Single Pair Ethernet is becoming increasingly popular in industrial networking due to the simplified cabling with just one twisted pair of wires. If power is also supplied via this, the SPE transmission standard with Power over Data Lines is unbeatable simple, but the implementation not trivial. The reference design for Single Pair Ethernet (SPE) with [&#8230;] The post Design of a Single Pair Ethernet System with Power over Data Lines (SPoE) appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/",
+      "title": "Oxmiq Raises $35M for GPU IP, Expands Focus to Data Center Design",
+      "url": "https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T13:15:00+00:00",
+      "summary": "OxCore GPU IP is up and running on FPGA today, CEO Raja Koduri told EE Times. The post Oxmiq Raises $35M for GPU IP, Expands Focus to Data Center Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/rapid-component-obsolescence-is-reshaping-todays-semiconductor-procurement-dynamics/",
+      "title": "Rapid Component Obsolescence Is Reshaping Today’s Semiconductor Procurement Dynamics",
+      "url": "https://www.eetimes.com/rapid-component-obsolescence-is-reshaping-todays-semiconductor-procurement-dynamics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Landyn Murphy, Senior Content Marketing Specialist, Rochester Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T13:00:00+00:00",
+      "summary": "Today’s semiconductor component&#160;landscape is more complex than ever. Obsolescence has shifted from an occasional disruption to a persistent operational risk. As product lifecycles shorten and supply markets tighten, procurement teams must now treat lifecycle awareness as a core part of their role. Production stability depends on it. &#160; Several forces are accelerating this change. Semiconductor manufacturers continue&#160;advancing to&#160;new [&#8230;] The post Rapid Component Obsolesce...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/sales-forecasting-guide-for-electronics-manufacturing-smbs/",
+      "title": "Sales Forecasting Guide for Electronics Manufacturing SMBs",
+      "url": "https://www.eetimes.com/sales-forecasting-guide-for-electronics-manufacturing-smbs/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "MRPeasy",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T13:00:00+00:00",
+      "summary": "Sales forecasting helps manufacturers estimate future demand so they can plan production, purchasing, and capacity before customer orders become urgent. The post Sales Forecasting Guide for Electronics Manufacturing SMBs appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/eu-chips-act-2-award-winning-sequel-or-straight-to-video/",
+      "title": "EU Chips Act 2: Award-Winning Sequel or Straight to Video?",
+      "url": "https://www.eetimes.com/eu-chips-act-2-award-winning-sequel-or-straight-to-video/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Bram De Muer",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T07:45:07+00:00",
+      "summary": "EU Chips Act 2.0 gets the plot right: Fabs aren’t enough. Europe needs design-layer muscle and multi-foundry freedom. The post EU Chips Act 2: Award-Winning Sequel or Straight to Video? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/heat-telemetry-and-the-rise-of-the-self-aware-spacecraft/",
       "title": "Heat, Telemetry, and the Rise of the Self-Aware Spacecraft",
       "url": "https://www.eetimes.com/heat-telemetry-and-the-rise-of-the-self-aware-spacecraft/",
@@ -264,105 +366,241 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/europes-path-to-defense-resilience-lies-in-technological-independence/",
-      "title": "Europe’s Path to Defense Resilience Lies in Technological Independence",
-      "url": "https://www.eetimes.com/europes-path-to-defense-resilience-lies-in-technological-independence/",
+      "id": "rss:https://www.tomshardware.com/video-games/console-gaming/xbox-reportedly-testing-a-way-to-digitize-physical-games-in-the-wake-of-playstation-killing-game-discs-feature-said-to-go-back-to-xbox-one-era-games",
+      "title": "Xbox reportedly testing a way to digitize physical games in the wake of PlayStation killing game discs — feature said to go back to Xbox One-era games",
+      "url": "https://www.tomshardware.com/video-games/console-gaming/xbox-reportedly-testing-a-way-to-digitize-physical-games-in-the-wake-of-playstation-killing-game-discs-feature-said-to-go-back-to-xbox-one-era-games",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Florian Pivit",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Andrew E. Freedman",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-29T12:34:57+00:00",
-      "summary": "If Europe wants true defense resilience, it must reduce its dependence on big foreign tech ecosystems. The post Europe’s Path to Defense Resilience Lies in Technological Independence appeared first on EE Times.",
+      "published_at": "2026-07-01T19:19:25+00:00",
+      "summary": "Microsoft is reportedly testing a feature to digitize physical games going back to the Xbox One with digital copies tied to the owner of the physical disc.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/satvu-targets-industrial-intelligence-with-thermal-imaging/",
-      "title": "SatVu Targets Industrial Intelligence with Thermal Imaging",
-      "url": "https://www.eetimes.com/satvu-targets-industrial-intelligence-with-thermal-imaging/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/tesla-hires-17-year-intel-veteran-responsible-for-billion-dollar-fab-startups-gary-jiang-likely-chosen-to-oversee-fab-efforts-for-terafabs-licensing-of-14a",
+      "title": "Tesla hires 17-year Intel veteran responsible for billion-dollar fab startups — Gary Jiang likely chosen to oversee fab efforts for Terafab's licensing of 14A",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tesla-hires-17-year-intel-veteran-responsible-for-billion-dollar-fab-startups-gary-jiang-likely-chosen-to-oversee-fab-efforts-for-terafabs-licensing-of-14a",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Rebecca Pool",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-29T07:20:00+00:00",
-      "summary": "With HotSat-2 in orbit and fresh funding, U.K. startup SatVu is demonstrating how high-resolution thermal satellite data can reveal real-world industrial activity. The post SatVu Targets Industrial Intelligence with Thermal Imaging appeared first on EE Times.",
+      "published_at": "2026-07-01T14:07:26+00:00",
+      "summary": "Tesla hires an Intel veteran, who most recently was responsible for installing advanced tools at Intel's Arizona fab that is now ramping production of chips using 18A fabrication process.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/synaptics-acquisition-by-onsemi-affirms-edge-ai-is-for-real/",
-      "title": "Synaptics Acquisition by Onsemi Affirms Edge AI Is for Real",
-      "url": "https://www.eetimes.com/synaptics-acquisition-by-onsemi-affirms-edge-ai-is-for-real/",
+      "id": "rss:https://www.tomshardware.com/pc-components/get-32gb-ddr5-for-less-than-usd260-in-this-b-and-h-ram-bundle-deal-for-an-amd-am5-build-save-usd119-on-this-pc-parts-kit-that-includes-a-ryzen-5-cpu-and-an-asus-b650e-motherboard",
+      "title": "Get 16GB DDR5 for less than $260 in this B&H RAM bundle deal for an AMD AM5 build — save $119 on this PC parts kit that includes a Ryzen 5 CPU and an Asus B650E motherboard",
+      "url": "https://www.tomshardware.com/pc-components/get-32gb-ddr5-for-less-than-usd260-in-this-b-and-h-ram-bundle-deal-for-an-amd-am5-build-save-usd119-on-this-pc-parts-kit-that-includes-a-ryzen-5-cpu-and-an-asus-b650e-motherboard",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-26T14:41:31+00:00",
-      "summary": "Here is why a power and sensing specialist has snapped AI-native compute assets to foray into the physical AI world. The post Synaptics Acquisition by Onsemi Affirms Edge AI Is for Real appeared first on EE Times.",
+      "published_at": "2026-07-01T14:01:49+00:00",
+      "summary": "Save 18% on a solid AMD AM5 starter bundle with a Ryzen 5 7600X, 16GB DDR5-6000 RAM, and an Asus B650E motherboard, a solid and affordable foundation today with an easy path to future Ryzen upgrades tomorrow.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/the-pqc-silicon-is-here-today-for-tomorrows-quantum-threats/",
-      "title": "The PQC Silicon Is Here Today for Tomorrow’s Quantum Threats",
-      "url": "https://www.eetimes.com/the-pqc-silicon-is-here-today-for-tomorrows-quantum-threats/",
+      "id": "rss:https://www.tomshardware.com/video-games/playstation/sony-officially-kills-the-playstation-disc-ending-physical-game-production-in-2028-shutting-down-the-playstation-store-on-the-playstation-3-and-ps-vita-systems",
+      "title": "Sony officially kills the PlayStation disc, ending physical game production in 2028 — shutting down the PlayStation Store on the PlayStation 3 and PS Vita systems",
+      "url": "https://www.tomshardware.com/video-games/playstation/sony-officially-kills-the-playstation-disc-ending-physical-game-production-in-2028-shutting-down-the-playstation-store-on-the-playstation-3-and-ps-vita-systems",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zak Killian",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-26T08:38:45+00:00",
-      "summary": "Two new security chips aim to future-proof devices for the quantum era by integrating hardware accelerators that support PQC algorithms. The post The PQC Silicon Is Here Today for Tomorrow’s Quantum Threats appeared first on EE Times.",
+      "published_at": "2026-07-01T13:56:51+00:00",
+      "summary": "While Nintendo remains a holdout, this announcement essentially sounds the death knell for physical media in cutting-edge gaming.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/next%e2%80%91gen-adas-ad-architectures-power-networking-safety-sensors/",
-      "title": "Next‑Gen ADAS/AD Architectures: Power, Networking, Safety & Sensors",
-      "url": "https://www.eetimes.com/next%e2%80%91gen-adas-ad-architectures-power-networking-safety-sensors/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/starlink-offers-50-percent-discount-free-hardware-rental-for-residents-surrounding-its-data-centers-move-comes-as-elon-musk-faces-lawsuits-from-residents-complaining-about-noise-and-air-pollution-from-developments",
+      "title": "Elon Musk offers Starlink discount to AI data center neighbors following air and noise pollution lawsuits — 50% off plans and free hardware rental",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/starlink-offers-50-percent-discount-free-hardware-rental-for-residents-surrounding-its-data-centers-move-comes-as-elon-musk-faces-lawsuits-from-residents-complaining-about-noise-and-air-pollution-from-developments",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Infineon Technologies",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-26T08:13:23+00:00",
-      "summary": "Join this webinar and learn how high‑performance semiconductor technologies support centralized sensor fusion and reliable ADAS systems. The post Next‑Gen ADAS/AD Architectures: Power, Networking, Safety &amp; Sensors appeared first on EE Times.",
+      "published_at": "2026-07-01T13:50:06+00:00",
+      "summary": "SpaceXAI is trying to win residents living close to the Colossus 1 and 2 data centers by giving them discounted internet access. However, critics say that this is just a PR stunt to help win the community, even as it battles two lawsuits based on air and noise pollution complaints from people living near its data centers.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/jim-keller-on-tenstorrents-blackhole-scaling-and-ipo-ambitions/",
-      "title": "Jim Keller: ‘AI Still Obeys the Old Laws of Compute’",
-      "url": "https://www.eetimes.com/jim-keller-on-tenstorrents-blackhole-scaling-and-ipo-ambitions/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-restores-claude-fable-5-as-us-lifts-export-controls",
+      "title": "Anthropic restores Claude Fable 5 as US lifts export controls — single filter now blocks prompt that could identify software vulnerabilities and write code to exploit them",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-restores-claude-fable-5-as-us-lifts-export-controls",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-25T22:00:00+00:00",
-      "summary": "Invoking Rent's Rule and Amdahl's Law, Keller argues that memory and communication, not bigger processors, will define the future of AI infrastructure The post Jim Keller: ‘AI Still Obeys the Old Laws of Compute’ appeared first on EE Times.",
+      "published_at": "2026-07-01T11:30:51+00:00",
+      "summary": "Anthropic has restored global access to Claude Fable 5, a day after the U.S. Department of Commerce withdrew the export controls.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/vpn/grab-a-massive-usd464-saving-on-a-two-year-nordvpn-subscription-with-three-extra-months-free-69-percent-saving-unlocks-this-privacy-first-vpn-service-with-scam-protection-password-manager-1tb-cloud-storage-ad-blocking-and-more",
+      "title": "Grab a massive $464 saving on a two-year NordVPN subscription with three extra months free — 69% saving unlocks this privacy-first VPN service with scam protection, password manager, 1TB cloud storage, ad blocking and more",
+      "url": "https://www.tomshardware.com/software/vpn/grab-a-massive-usd464-saving-on-a-two-year-nordvpn-subscription-with-three-extra-months-free-69-percent-saving-unlocks-this-privacy-first-vpn-service-with-scam-protection-password-manager-1tb-cloud-storage-ad-blocking-and-more",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T11:12:36+00:00",
+      "summary": "A big sale on NordVPN's top Prime package means you can save over $464 on a 2-year sub with three additional months thrown in for free.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/the-bifurcated-laptop-landscape-of-computex-2026-macbook-neo-competitors-with-8gb-of-ram-and-expensive-nvidia-laptops-promising-an-agentic-focused-future-of-windows-on-arm",
+      "title": "The bifurcated laptop landscape of Computex 2026 – MacBook Neo competitors with 8GB of RAM, and expensive Nvidia laptops promising an agentic-focused future of Windows on Arm",
+      "url": "https://www.tomshardware.com/laptops/the-bifurcated-laptop-landscape-of-computex-2026-macbook-neo-competitors-with-8gb-of-ram-and-expensive-nvidia-laptops-promising-an-agentic-focused-future-of-windows-on-arm",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Matt Safford",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T11:00:00+00:00",
+      "summary": "With no new GPUs or major mobile CPU platform launches surrounding the show, the laptop announcements at Computex this year fell into two disparate categories, appealing to users with very different budgets.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/philippine-town-closes-all-pisonet-computer-rental-shops-in-wake-of-school-shooting-incident-blamed-on-violent-video-games-shops-closed-for-the-safety-of-the-youth",
+      "title": "Philippine town closes all 'Pisonet' computer rental shops in wake of school shooting — incident blamed on violent video games, shops closed 'for the safety of the youth'",
+      "url": "https://www.tomshardware.com/video-games/philippine-town-closes-all-pisonet-computer-rental-shops-in-wake-of-school-shooting-incident-blamed-on-violent-video-games-shops-closed-for-the-safety-of-the-youth",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T10:48:28+00:00",
+      "summary": "A town in northern Philippines closed down all computer rental shops, with the mayor saying that these establishments distracted students from their studies and led to abuse and other dangers. The move came a little over a week after many people have started blaming a deadly school shooting in central Philippines on a violent video game that the perpetrators played.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/virginia-county-asks-all-employees-including-schools-to-save-power-due-to-ai-driven-electricity-price-hikes-states-400-plus-data-centers-steadily-increasing-demand-grid-expansion-and-pricing",
+      "title": "Virginia county asks all employees, including schools, to conserve power due to AI-driven electricity price hikes — state's 400-plus data centers steadily increasing demand, grid expansion, and pricing",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/virginia-county-asks-all-employees-including-schools-to-save-power-due-to-ai-driven-electricity-price-hikes-states-400-plus-data-centers-steadily-increasing-demand-grid-expansion-and-pricing",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T10:30:00+00:00",
+      "summary": "Virginia county asks all employees including schools to save power, due to AI-driven power requirements— state's 400-plus datacenters steadily increasing demand, grid expansion, and pricing",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/new-pc-purchases-see-sharpest-drop-in-nearly-three-years-as-memory-and-storage-prices-bite-shipments-fall-by-7-percent-analysts-forecast-14-percent-contraction-that-will-hit-budget-laptops-hard",
+      "title": "New PC purchases see sharpest drop in nearly three years as memory and storage prices bite — shipments fall by 7%, analysts forecast 14% contraction that will hit budget laptops hard",
+      "url": "https://www.tomshardware.com/tech-industry/new-pc-purchases-see-sharpest-drop-in-nearly-three-years-as-memory-and-storage-prices-bite-shipments-fall-by-7-percent-analysts-forecast-14-percent-contraction-that-will-hit-budget-laptops-hard",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T10:02:16+00:00",
+      "summary": "A research firm says that PC deliveries for the first quarter of 2026 fell by 7%, with the entire industry expected to ship 14.4% less units for the entire year.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-models-handed-over-a-cocaine-recipe-after-being-told-the-user-was-wearing-a-green-shirt",
+      "title": "AI researchers trick chatbots into sharing how to make cocaine as long as they believe a user is wearing a green shirt — 'CoT Forgery' exploit spurs LLMs to divulge forbidden info by faking trusted chains of thought",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-models-handed-over-a-cocaine-recipe-after-being-told-the-user-was-wearing-a-green-shirt",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T10:00:00+00:00",
+      "summary": "Tagged partitions of a LLM's input sequence are meant to provide security through trusted roles, but it turns out that models judge whether inputs sound like they belong in certain tags rather than literally interpreting them, making them vulnerable to prompt injection.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/32gb-corsair-vengeance-ddr5-is-usd314-in-this-woot-sale-the-lowest-standalone-ram-price-in-months-thanks-to-usd125-discount",
+      "title": "32GB Corsair Vengeance DDR5 is $314 in this Woot sale — the lowest standalone RAM price in months, thanks to $125 discount",
+      "url": "https://www.tomshardware.com/pc-components/32gb-corsair-vengeance-ddr5-is-usd314-in-this-woot-sale-the-lowest-standalone-ram-price-in-months-thanks-to-usd125-discount",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stephen Warwick",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T09:34:11+00:00",
+      "summary": "Get Corsair Vengeance DDR5 for just $314 at Woot.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/esa-tells-california-lawmakers-that-private-game-servers-are-piracy",
+      "title": "Private and community servers for Minecraft and COD are illegal and amount to piracy, ESA tells California Senate — Stop Killing Games-backed bill fails to pass committee",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/esa-tells-california-lawmakers-that-private-game-servers-are-piracy",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T09:30:00+00:00",
+      "summary": "The Entertainment Software Association, in its infinite wisdom, has told a California Senate committee that private and community servers are illegal and amount to piracy.",
       "lang": "en"
     },
     {
@@ -635,244 +873,6 @@
       "views": null,
       "published_at": "2026-06-29T20:16:12+00:00",
       "summary": "Newegg has started selling G.Skill’s Trident Z5 NeoX memory kits featuring AMD ULL technology, and the prices are already high.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpu-drivers/cuda-emulator-for-amd-gpus-zluda-loses-funding-with-v6-release-embattled-project-goes-back-to-hobby-status-but-now-includes-32-bit-physx-support",
-      "title": "CUDA emulator for AMD GPUs Zluda loses funding with v6 release — embattled project goes back to hobby status but now includes 32-bit PhysX support",
-      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/cuda-emulator-for-amd-gpus-zluda-loses-funding-with-v6-release-embattled-project-goes-back-to-hobby-status-but-now-includes-32-bit-physx-support",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T18:29:21+00:00",
-      "summary": "Zluda is back to a hobby, as the open-source project has lost commercial funding with version 6 but added early 32-bit PhysX support.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/valve-threatens-legal-action-against-dbrand-over-its-unsanctioned-portal-2-inspired-companion-cube-edgy-accessories-manufacturer-kills-product-after-asking-for-licensing-deal-admits-it-didnt-have-the-right-to-make-it",
-      "title": "Valve threatens legal action against Dbrand over its unsanctioned Portal 2-inspired Companion Cube — edgy accessories manufacturer kills product after asking for licensing deal, admits it didn't have 'the right to make it'",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/valve-threatens-legal-action-against-dbrand-over-its-unsanctioned-portal-2-inspired-companion-cube-edgy-accessories-manufacturer-kills-product-after-asking-for-licensing-deal-admits-it-didnt-have-the-right-to-make-it",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T17:26:18+00:00",
-      "summary": "Valve has asked Dbrand to stop selling its Portal 2-themed Companion Cube cases for the Steam Machine, since it never asked the company permission to begin with.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/legacy-nvidia-rtx-3060-12gb-returns-to-retail-five-years-after-original-launch-priced-at-usd339-resurrected-gpu-strategy-that-jensen-called-a-good-idea-apparently-comes-to-fruition",
-      "title": "Legacy Nvidia RTX 3060 12GB returns to retail five years after original launch, priced at $339 — resurrected GPU strategy that Jensen called a 'good idea' apparently comes to fruition",
-      "url": "https://www.tomshardware.com/pc-components/gpus/legacy-nvidia-rtx-3060-12gb-returns-to-retail-five-years-after-original-launch-priced-at-usd339-resurrected-gpu-strategy-that-jensen-called-a-good-idea-apparently-comes-to-fruition",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jeffrey Kampman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T17:11:15+00:00",
-      "summary": "After Nvidia CEO Jensen Huang said that \"it's a good idea\" to consider re-introducing older GPUs made on trailing process nodes, the five-year-old RTX 3060 is back on e-tailer shelves, priced at $339.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/south-korea-unveils-usd520-billion-investment-plan-with-samsung-and-sk-hynix-to-expand-memory-chip-dominance-plan-includes-four-new-fabs-and-hbm-facilities-amid-strong-government-support",
-      "title": "South Korea unveils $520 billion investment plan with Samsung and SK Hynix to expand memory chip dominance — plan includes four new fabs and HBM facilities, amid strong government support",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/south-korea-unveils-usd520-billion-investment-plan-with-samsung-and-sk-hynix-to-expand-memory-chip-dominance-plan-includes-four-new-fabs-and-hbm-facilities-amid-strong-government-support",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T14:12:23+00:00",
-      "summary": "President Lee unveiled an 800 trillion won ($520B) public-private plan for four new Samsung and SK Hynix fabs, dwarfing the US CHIPS Act tenfold.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/steamroller-becomes-first-prebuilt-gaming-pc-to-ship-with-steamos-ryzen-9600x-radeon-rx-7600-16gb-ddr5-ram-system-available-for-preorder-at-usd1-299",
-      "title": "Steamroller becomes first prebuilt gaming PC to ship with SteamOS — Ryzen 9600X, Radeon RX 7600, 16GB DDR5 RAM system available for preorder at $1,299",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/steamroller-becomes-first-prebuilt-gaming-pc-to-ship-with-steamos-ryzen-9600x-radeon-rx-7600-16gb-ddr5-ram-system-available-for-preorder-at-usd1-299",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T13:30:00+00:00",
-      "summary": "Steamroller is the first commercially available prebuilt gaming PC running SteamOS, pairing standard desktop components with future upgradeability.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/samsung-sk-hynix-and-micron-sued-over-alleged-dram-price-fixing-amid-record-memory-costs",
-      "title": "Samsung, SK hynix, and Micron sued over alleged DRAM price fixing amid record memory costs — lawsuit claims coordinated HBM shift was cover to curtail DDR3 and DDR4 production",
-      "url": "https://www.tomshardware.com/tech-industry/samsung-sk-hynix-and-micron-sued-over-alleged-dram-price-fixing-amid-record-memory-costs",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T13:18:54+00:00",
-      "summary": "Samsung, SK hynix, and Micron were sued on June 25th in the U.S. District Court for the Northern District of California.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/imecs-2026-roadmap-details-0-3nm-nodes-by-2038-cfet-transistors-become-viable-at-0-7nm-company-redefines-moores-law-as-cell-sizes-gain-importance-for-density",
-      "title": "Imec's 2026 roadmap details 0.3nm nodes by 2038, CFET transistors become viable at 0.7nm — company redefines Moore's Law as cell sizes gain importance for density",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/imecs-2026-roadmap-details-0-3nm-nodes-by-2038-cfet-transistors-become-viable-at-0-7nm-company-redefines-moores-law-as-cell-sizes-gain-importance-for-density",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T13:15:14+00:00",
-      "summary": "As CPP shrinking stalls, chipmakers find a new way to increase transistor density. Imec foresees 0.3nm in 2038, CFET insertion in 2038, HLSI era.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-a-massive-usd1-100-on-this-rtx-5080-gaming-pc-with-a-9800x3d-from-hp-now-just-usd2-499-liquid-cooled-omen-35l-rig-unlocks-4k-gameplay-with-32gb-ddr5-and-a-2tb-ssd",
-      "title": "Save a massive $1,100 on this RTX 5080 gaming PC with a 9800X3D from HP, now just $2,499 — liquid-cooled Omen 35L rig unlocks 4K gameplay with 32GB DDR5 and a 2TB SSD",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-a-massive-usd1-100-on-this-rtx-5080-gaming-pc-with-a-9800x3d-from-hp-now-just-usd2-499-liquid-cooled-omen-35l-rig-unlocks-4k-gameplay-with-32gb-ddr5-and-a-2tb-ssd",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T11:15:36+00:00",
-      "summary": "Save $1,100 on this HP Omen 45L gaming rig, fitted with a 9800X3D, RTX 5080, 32GB of DDR5 RAM, and 2TB in SSD storage, all for just $2,499.99.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/pc-building/pick-up-hotos-ultra-useful-3d-printing-tool-for-just-usd29-save-40-percent-on-this-35-piece-cordless-rotary-tool-to-give-your-creations-a-finishing-touch",
-      "title": "Pick up Hoto's ultra-useful 3D printing tool for just $29 — save 40% on this 35-piece Cordless Rotary Tool to give your creations a finishing touch",
-      "url": "https://www.tomshardware.com/desktops/pc-building/pick-up-hotos-ultra-useful-3d-printing-tool-for-just-usd29-save-40-percent-on-this-35-piece-cordless-rotary-tool-to-give-your-creations-a-finishing-touch",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T11:12:00+00:00",
-      "summary": "Save on these brilliant Hoto tools for PC builders and hobbyists. Hoto's cordless rotary tool is now only $29.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/networking/chinas-hollow-core-fiber-trial-pushes-51-3-tb-s-over-128-miles-without-signal-regeneration-milestone-targets-ai-era-networking-bottlenecks",
-      "title": "China’s hollow-core fiber trial pushes 51.3 Tb/s over 128 miles without signal regeneration — milestone targets AI-era networking bottlenecks",
-      "url": "https://www.tomshardware.com/networking/chinas-hollow-core-fiber-trial-pushes-51-3-tb-s-over-128-miles-without-signal-regeneration-milestone-targets-ai-era-networking-bottlenecks",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T10:00:00+00:00",
-      "summary": "YOFC, China Telecom, and Dekoli claim a 51.3 Tb/s hollow-core fiber field-trial record over 206.5 km, using 1.2 Tb/s-per-wavelength WDM transmission without repeaters or remote-pumped amplifiers.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/pong-game-that-recompiles-itself-every-frame-wins-the-ioccc29-obfuscated-c-contest",
-      "title": "Pong game recompiles its own source code every frame — winning entry at IOCCC29 was generated by a custom compiler",
-      "url": "https://www.tomshardware.com/tech-industry/pong-game-that-recompiles-itself-every-frame-wins-the-ioccc29-obfuscated-c-contest",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T09:30:00+00:00",
-      "summary": "Jonah Uellenberg won the Ping Pong Prize at the 29th International Obfuscated C Code Contest earlier this month, with a version of Pong that recompiles its own source code on every frame.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/pnys-performance-32gb-ddr5-5600-ram-becomes-the-cheapest-2x16gb-kit-ddr5-kit-gets-a-usd70-discount",
-      "title": "Corsair's Vengeance 32GB DDR5-5200 RAM becomes the cheapest 2x16GB kit— DDR5 kit still $379",
-      "url": "https://www.tomshardware.com/pc-components/pnys-performance-32gb-ddr5-5600-ram-becomes-the-cheapest-2x16gb-kit-ddr5-kit-gets-a-usd70-discount",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-28T14:32:37+00:00",
-      "summary": "This 32GB DDR5 memory kit won't impress enthusiasts with its timings or design, but its aggressive price makes it difficult to overlook.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ram/lenovo-says-the-ramageddon-is-the-new-normal-outlines-survival-guide-at-isc-2026-an-exec-said-it-will-never-be-like-it-was-last-year",
-      "title": "Lenovo says the 'RAMageddon' is the new normal, outlines survival guide — at ISC 2026 an exec said 'it will never be like it was last year'",
-      "url": "https://www.tomshardware.com/pc-components/ram/lenovo-says-the-ramageddon-is-the-new-normal-outlines-survival-guide-at-isc-2026-an-exec-said-it-will-never-be-like-it-was-last-year",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zak Killian",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-28T13:50:59+00:00",
-      "summary": "At the International Supercomputing Conference this past week, Lenovo reportedly said the memory market 'it will never be like it was last year.'",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/pc-building/diy-3d-printed-steam-machine-a-like-uses-diagonal-mobo-mounting-parts-include-a-mini-itx-motherboard-rtx-5060-and-a-flex-atx-psu",
-      "title": "AMD engineer 3D-prints Steam Machine-a-like with diagonal mobo mounting — parts include a Mini ITX motherboard, RTX 5060, and a flex ATX PSU",
-      "url": "https://www.tomshardware.com/desktops/pc-building/diy-3d-printed-steam-machine-a-like-uses-diagonal-mobo-mounting-parts-include-a-mini-itx-motherboard-rtx-5060-and-a-flex-atx-psu",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-28T12:36:37+00:00",
-      "summary": "The Terk Box v1.1 looks like the closest DIY alternative to Valve's Steam Machine yet. 3D print source files are available.",
       "lang": "en"
     }
   ]

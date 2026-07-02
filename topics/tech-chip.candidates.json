@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-07-01T07:18:11.125709+00:00",
+  "fetched_at": "2026-07-02T06:47:46.895131+00:00",
   "platforms": [
     "rss"
   ],
@@ -188,6 +188,108 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/engineering-heterogeneity-at-scale/",
+      "title": "Engineering Heterogeneity at Scale",
+      "url": "https://www.eetimes.com/engineering-heterogeneity-at-scale/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T20:49:24+00:00",
+      "summary": "AI has outgrown traditional chips. The future belongs to integrated systems that stack compute, memory, photonics, and power, and HLSI is driving the shift. The post Engineering Heterogeneity at Scale appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/design-of-a-single-pair-ethernet-system-with-power-over-data-lines-spoe/",
+      "title": "Design of a Single Pair Ethernet System with Power over Data Lines (SPoE)",
+      "url": "https://www.eetimes.com/design-of-a-single-pair-ethernet-system-with-power-over-data-lines-spoe/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Dr.-Ing. Heinz Zenkner",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T14:00:00+00:00",
+      "summary": "Single Pair Ethernet is becoming increasingly popular in industrial networking due to the simplified cabling with just one twisted pair of wires. If power is also supplied via this, the SPE transmission standard with Power over Data Lines is unbeatable simple, but the implementation not trivial. The reference design for Single Pair Ethernet (SPE) with [&#8230;] The post Design of a Single Pair Ethernet System with Power over Data Lines (SPoE) appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/",
+      "title": "Oxmiq Raises $35M for GPU IP, Expands Focus to Data Center Design",
+      "url": "https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T13:15:00+00:00",
+      "summary": "OxCore GPU IP is up and running on FPGA today, CEO Raja Koduri told EE Times. The post Oxmiq Raises $35M for GPU IP, Expands Focus to Data Center Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/rapid-component-obsolescence-is-reshaping-todays-semiconductor-procurement-dynamics/",
+      "title": "Rapid Component Obsolescence Is Reshaping Today’s Semiconductor Procurement Dynamics",
+      "url": "https://www.eetimes.com/rapid-component-obsolescence-is-reshaping-todays-semiconductor-procurement-dynamics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Landyn Murphy, Senior Content Marketing Specialist, Rochester Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T13:00:00+00:00",
+      "summary": "Today’s semiconductor component&#160;landscape is more complex than ever. Obsolescence has shifted from an occasional disruption to a persistent operational risk. As product lifecycles shorten and supply markets tighten, procurement teams must now treat lifecycle awareness as a core part of their role. Production stability depends on it. &#160; Several forces are accelerating this change. Semiconductor manufacturers continue&#160;advancing to&#160;new [&#8230;] The post Rapid Component Obsolesce...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/sales-forecasting-guide-for-electronics-manufacturing-smbs/",
+      "title": "Sales Forecasting Guide for Electronics Manufacturing SMBs",
+      "url": "https://www.eetimes.com/sales-forecasting-guide-for-electronics-manufacturing-smbs/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "MRPeasy",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T13:00:00+00:00",
+      "summary": "Sales forecasting helps manufacturers estimate future demand so they can plan production, purchasing, and capacity before customer orders become urgent. The post Sales Forecasting Guide for Electronics Manufacturing SMBs appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/eu-chips-act-2-award-winning-sequel-or-straight-to-video/",
+      "title": "EU Chips Act 2: Award-Winning Sequel or Straight to Video?",
+      "url": "https://www.eetimes.com/eu-chips-act-2-award-winning-sequel-or-straight-to-video/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Bram De Muer",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-01T07:45:07+00:00",
+      "summary": "EU Chips Act 2.0 gets the plot right: Fabs aren’t enough. Europe needs design-layer muscle and multi-foundry freedom. The post EU Chips Act 2: Award-Winning Sequel or Straight to Video? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/heat-telemetry-and-the-rise-of-the-self-aware-spacecraft/",
       "title": "Heat, Telemetry, and the Rise of the Self-Aware Spacecraft",
       "url": "https://www.eetimes.com/heat-telemetry-and-the-rise-of-the-self-aware-spacecraft/",
@@ -253,108 +355,6 @@
       "views": null,
       "published_at": "2026-06-29T16:53:48+00:00",
       "summary": "RISC-V heavyweights tackle physical AI, edge autonomy, and TOPS-per-watt—watch how robots chase their killer app. The post Panel with Arteris, GlobalFoundries, Tenstorrent: RISC-V Ecosystem Growth for Physical AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/europes-path-to-defense-resilience-lies-in-technological-independence/",
-      "title": "Europe’s Path to Defense Resilience Lies in Technological Independence",
-      "url": "https://www.eetimes.com/europes-path-to-defense-resilience-lies-in-technological-independence/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Florian Pivit",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T12:34:57+00:00",
-      "summary": "If Europe wants true defense resilience, it must reduce its dependence on big foreign tech ecosystems. The post Europe’s Path to Defense Resilience Lies in Technological Independence appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/satvu-targets-industrial-intelligence-with-thermal-imaging/",
-      "title": "SatVu Targets Industrial Intelligence with Thermal Imaging",
-      "url": "https://www.eetimes.com/satvu-targets-industrial-intelligence-with-thermal-imaging/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Rebecca Pool",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-29T07:20:00+00:00",
-      "summary": "With HotSat-2 in orbit and fresh funding, U.K. startup SatVu is demonstrating how high-resolution thermal satellite data can reveal real-world industrial activity. The post SatVu Targets Industrial Intelligence with Thermal Imaging appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/synaptics-acquisition-by-onsemi-affirms-edge-ai-is-for-real/",
-      "title": "Synaptics Acquisition by Onsemi Affirms Edge AI Is for Real",
-      "url": "https://www.eetimes.com/synaptics-acquisition-by-onsemi-affirms-edge-ai-is-for-real/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T14:41:31+00:00",
-      "summary": "Here is why a power and sensing specialist has snapped AI-native compute assets to foray into the physical AI world. The post Synaptics Acquisition by Onsemi Affirms Edge AI Is for Real appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/the-pqc-silicon-is-here-today-for-tomorrows-quantum-threats/",
-      "title": "The PQC Silicon Is Here Today for Tomorrow’s Quantum Threats",
-      "url": "https://www.eetimes.com/the-pqc-silicon-is-here-today-for-tomorrows-quantum-threats/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T08:38:45+00:00",
-      "summary": "Two new security chips aim to future-proof devices for the quantum era by integrating hardware accelerators that support PQC algorithms. The post The PQC Silicon Is Here Today for Tomorrow’s Quantum Threats appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/next%e2%80%91gen-adas-ad-architectures-power-networking-safety-sensors/",
-      "title": "Next‑Gen ADAS/AD Architectures: Power, Networking, Safety & Sensors",
-      "url": "https://www.eetimes.com/next%e2%80%91gen-adas-ad-architectures-power-networking-safety-sensors/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Infineon Technologies",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T08:13:23+00:00",
-      "summary": "Join this webinar and learn how high‑performance semiconductor technologies support centralized sensor fusion and reliable ADAS systems. The post Next‑Gen ADAS/AD Architectures: Power, Networking, Safety &amp; Sensors appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/jim-keller-on-tenstorrents-blackhole-scaling-and-ipo-ambitions/",
-      "title": "Jim Keller: ‘AI Still Obeys the Old Laws of Compute’",
-      "url": "https://www.eetimes.com/jim-keller-on-tenstorrents-blackhole-scaling-and-ipo-ambitions/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-25T22:00:00+00:00",
-      "summary": "Invoking Rent's Rule and Amdahl's Law, Keller argues that memory and communication, not bigger processors, will define the future of AI infrastructure The post Jim Keller: ‘AI Still Obeys the Old Laws of Compute’ appeared first on EE Times.",
       "lang": "en"
     }
   ]
