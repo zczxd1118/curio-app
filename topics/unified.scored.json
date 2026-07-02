@@ -1,29 +1,28 @@
 {
-  "date": "2026-07-01",
-  "intro": "今天最值得关注的信号：Anthropic 的 Fable 5 终于解禁回归，同时推出更便宜的 Sonnet 5 和面向科学家的 Claude Science，产品矩阵加速扩张；Nvidia 取消四芯片 Rubin Ultra 转向双 GPU 设计，折射出先进封装与制造执行力的现实瓶颈。此外，韩国芯片巨头 HBM 定价模式生变，SK 海力士长约不设上限，三星 HBM4E 良率突破 70%，存储竞争进入新阶段。",
+  "date": "2026-07-02",
+  "intro": "今日核心信号：Anthropic Fable 5 解禁全球发布，美国 AI 监管转向自愿安全标准；Nvidia 取消四芯 Rubin Ultra 转向双芯设计，AMD 确认 Zen 6 引入大小核架构。AI 编程工具生态持续分化，Claude Code 封号事件引发对 Anthropic 用户标记系统的讨论。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
-      "source": "The Verge",
+      "domain": "AI",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-restores-claude-fable-5-as-us-lifts-export-controls",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-restores-claude-fable-5-as-us-lifts-export-controls",
+      "source": "Tom's Hardware",
       "stars": 5,
-      "title": "Anthropic 的 Fable 5 解禁回归，同时推出 Sonnet 5 和 Claude Science",
-      "lead": "经过数周与特朗普政府谈判，Anthropic 的旗舰模型 Fable 5 获准恢复上线。同一天，公司还发布了更便宜的 Claude Sonnet 5（主打 Agent 能力）和面向科研的 Claude Science 工作台。三管齐下，Anthropic 正在从单一模型公司转向平台生态。",
+      "title": "Anthropic 恢复 Claude Fable 5 全球访问，美国撤销出口管制",
+      "lead": "美国商务部撤销对 Anthropic 高级模型的出口限制，Fable 5 和 Mythos 模型重新面向全球用户开放。此前因安全担忧被限制仅在美国可用，如今白宫转向自愿安全标准框架。",
       "confirmed": [
-        "Fable 5 将于本周开始逐步恢复访问，此前因监管限制被下线数周",
-        "Claude Sonnet 5 发布，定价低于 Opus，强化 Agent 调用能力",
-        "Claude Science 是一个集成环境，整合数据库、计算管道和工具链",
-        "Sonnet 5 定位为 GPT-5.5 和 Gemini Pro 的廉价替代方案"
+        "美国商务部撤销对 Anthropic Fable 5 和 Mythos 的出口管制",
+        "Anthropic 已恢复全球访问，单一安全过滤器用于阻止漏洞利用提示",
+        "白宫计划下周推出前沿模型自愿安全标准",
+        "GPT-5.6 发布节奏也受监管影响，初始仅向审查用户开放"
       ],
       "judgment": [
-        "Fable 5 恢复后是否会调整安全策略尚不明确",
-        "Sonnet 5 的 Agent 能力在实际复杂任务中能否媲美 Opus 有待验证",
-        "Claude Science 能否真正替代科研人员现有的 Jupyter/Colab 工作流存疑",
-        "Anthropic 的产品线扩张速度可能超过企业客户的采纳节奏"
+        "自愿标准能否有效约束模型安全尚不确定",
+        "出口管制撤销是否意味着美国 AI 监管整体放松仍待观察",
+        "白宫对 GPT-5.6 的干预模式可能成为未来模型发布的先例"
       ],
-      "implication": "如果你在用 Claude Code 做 Agent 项目，Sonnet 5 的性价比值得立即测试——更低的 token 成本意味着你可以跑更多实验。Claude Science 对科研场景的整合思路也值得借鉴到你的 content-curator 项目中：把多个工具链塞进一个统一环境。"
+      "implication": "Fable 5 解禁意味着你可以直接使用 Anthropic 最强模型进行开发。但注意白宫正在制定模型发布标准，未来前沿模型的上线节奏可能变慢。建议关注下周白宫的自愿安全标准细节，这会影响你 content-curator 项目依赖的模型可用性。"
     },
     {
       "rank": 2,
@@ -32,171 +31,173 @@
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-reportedly-cancels-quad-die-rubin-ultra-gpu-in-favor-of-dual-gpu-design-report-claims-complex-design-purportedly-scrapped-over-manufacturing-execution-concerns",
       "source": "Tom's Hardware",
       "stars": 5,
-      "title": "Nvidia 取消四芯片 Rubin Ultra，转向双 GPU 设计——制造执行成瓶颈",
-      "lead": "据多个信源报道，Nvidia 已放弃原计划的四芯片 Rubin Ultra GPU，改为双 GPU 方案。原因是四芯片设计的制造执行难度过高，良率和散热无法达到预期。这标志着 Nvidia 在追求极致算力时首次因物理限制而被迫降级架构。",
+      "title": "Nvidia 取消四芯 Rubin Ultra GPU，转向双芯设计",
+      "lead": "因制造执行担忧，Nvidia 放弃四芯片 Rubin Ultra 方案，改为双 GPU 设计。这一变动可能影响下一代 AI 训练集群的算力密度和功耗规划。",
       "confirmed": [
-        "四芯片 Rubin Ultra 被取消，改为双 GPU 设计",
-        "取消原因被描述为 'manufacturing execution concerns'",
-        "新方案将采用两个独立 GPU 通过 NVLink 互联",
-        "Rubin 系列的其他产品线（如 Rubin CPX）不受影响"
+        "Nvidia 取消四芯 Rubin Ultra GPU 计划",
+        "新方案采用双 GPU 设计，原因涉及制造执行问题",
+        "Rubin 系列仍按计划推进，但 Ultra 版本规格调整"
       ],
       "judgment": [
-        "双 GPU 方案的实际性能可能比原四芯片设计低 30-40%",
-        "Nvidia 是否会在后续架构中重新尝试多芯片封装尚不确定",
-        "AMD 和 Intel 的多芯片方案可能因此获得相对优势",
-        "数据中心客户可能推迟采购计划以等待新架构评估"
+        "双芯设计相比四芯的算力密度下降幅度未知",
+        "制造问题是否影响 Rubin 整体时间表尚不明确",
+        "竞争对手 AMD 和 Intel 可能借此缩小差距"
       ],
-      "implication": "这对你正在做的 AI 项目影响不大，但如果你想理解算力瓶颈的物理极限，这是一个经典案例。多芯片封装不是万能药，制造良率才是真正的天花板。未来一年 GPU 供给可能比预期更紧张，租卡成本可能继续上涨。"
+      "implication": "如果你在规划 AI 训练集群或采购 GPU 算力，Rubin Ultra 的规格变化意味着你需要重新评估未来 1-2 年的算力密度预期。双芯设计可能降低单机柜的算力上限，但或许能更快量产。建议关注后续官方规格披露。"
     },
     {
       "rank": 3,
-      "domain": "股票",
-      "id": "wscn:3775931",
-      "url": "https://wallstreetcn.com/articles/3775931",
-      "source": "华尔街见闻",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-confirms-low-power-cpu-cores-in-linux-kernel-patch-zen-6-chips-could-follow-in-intels-footsteps-with-new-core-type-for-background-tasks",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-confirms-low-power-cpu-cores-in-linux-kernel-patch-zen-6-chips-could-follow-in-intels-footsteps-with-new-core-type-for-background-tasks",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "SK 海力士长约价格不设上限，存储定价博弈白热化",
-      "lead": "SK 海力士在最新一轮长约（LTA）中打破行业惯例，不再设置价格上限，成为唯一能在供需紧张时完整享受现货涨价的存储厂商。同时将长约期限拉长至 3-5 年。美光虽也上调长约价格，但仍设上限。两大巨头的定价策略差异折射出存储行业话语权的根本性转移。",
+      "title": "AMD 确认 Zen 6 将引入低功耗核心，Linux 内核补丁曝光",
+      "lead": "AMD 在 Linux 内核补丁中确认下一代 Zen 6 架构将采用大小核设计，低功耗核心用于后台任务以提升能效。这标志着 AMD 正式跟随 Intel 的混合架构路线。",
       "confirmed": [
-        "SK 海力士新长约取消价格上限条款",
-        "长约期限从传统的 1-2 年延长至 3-5 年",
-        "美光新长约以 2026 年 Q2 市价设上限，但底线毛利率仍远超历史峰值",
-        "HBM 和 DDR5 需求持续旺盛，供给端产能扩张有限"
+        "AMD 在 Linux 内核补丁中确认低功耗 CPU 核心计划",
+        "Zen 6 将采用异构核心设计，类似 Intel 的 P-core/E-core",
+        "低功耗核心用于后台任务以降低整体功耗"
       ],
       "judgment": [
-        "无上限长约可能加剧下游客户的成本波动风险",
-        "三星是否会跟进类似策略尚不确定",
-        "监管机构可能关注这种定价模式是否构成市场操纵",
-        "长期合约锁定了客户，但可能削弱 SK 海力士在现货市场的灵活性"
+        "大小核调度优化是否成熟尚待验证",
+        "Zen 6 发布时间和具体性能提升未公布",
+        "低功耗核心的性能表现和能效比需实测确认"
       ],
-      "implication": "如果你关注存储价格对 AI 服务器成本的影响，SK 海力士的定价模式意味着 HBM 和 DDR5 价格易涨难跌。做 AI 推理部署的话，尽早锁定硬件成本可能比等待降价更明智。"
+      "implication": "Zen 6 的大小核设计将影响你未来选购笔记本和台式机的决策。如果你做 AI 开发需要多核性能，大核数量和小核调度效率是关键。建议等待更多基准测试，但可以提前关注 AMD 的混合架构生态。"
     },
     {
       "rank": 4,
-      "domain": "AI",
-      "id": "bvid:BV1JU7E6PEar",
-      "url": "http://www.bilibili.com/video/av116819553683121",
-      "source": "小狗瑞恩Ryan",
+      "domain": "大厂讯息",
+      "id": "rss:https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+      "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+      "source": "TechCrunch",
       "stars": 4,
-      "title": "Cursor 重度用户退订：Claude Code 和 Codex 已成更好选择",
-      "lead": "一位一年多的 Cursor 重度用户详细解释了退订原因：底层模型差距拉大——Claude 有 Opus 和 Fable 5，Codex 有 GPT-5.5/5.6，而 Cursor 的 Composer 模型落后一代；且 Cursor 本质是 VS Code 壳子，只适合程序员，而 Claude Code 和 Codex 的独立 harness 效率更高。",
+      "title": "Together AI 完成 8 亿美元融资，估值跃升至 83 亿",
+      "lead": "AI 云服务商 Together AI 获得 8 亿美元新融资，估值从年初的 33 亿飙升至 83 亿。该公司专注于托管开源模型，本轮融资显示市场对开源 AI 基础设施的强烈需求。",
       "confirmed": [
-        "用户退订 Cursor 转向 Claude Code 和 Codex",
-        "Cursor 的 Composer 模型在代码生成质量上落后 Claude Opus/Fable 5",
-        "Claude Code 和 Codex 的独立 harness 比 VS Code 壳子更高效",
-        "模型性能差距约 5%，但 harness 效率差距可达 30%"
+        "Together AI 完成 8 亿美元融资，估值 83 亿美元",
+        "公司专注于开源模型托管和推理服务",
+        "此前在 2025 年初估值 33 亿美元"
       ],
       "judgment": [
-        "Cursor 是否会升级底层模型以缩小差距尚不确定",
-        "对于非程序员用户，Cursor 的 VS Code 界面可能仍有易用性优势",
-        "Claude Code 和 Codex 的定价可能高于 Cursor",
-        "Vibe Coding 工具市场正在快速分化，未来可能出现更多垂直工具"
+        "高估值是否可持续取决于开源模型商业化的盈利能力",
+        "与 CoreWeave 等竞争对手的差异化优势尚不清晰",
+        "融资将用于扩大 GPU 集群和全球覆盖"
       ],
-      "implication": "如果你正在选择 AI 编程工具，这个视频给出了一个关键判断：模型只差 5%，但 harness 能差 30%。建议你亲自对比 Claude Code 和 Cursor 在同一个项目上的表现，尤其是复杂重构和 Agent 任务。你的 content-curator 项目正好可以用 Claude Code 来加速开发。"
+      "implication": "Together AI 的融资表明开源模型基础设施赛道正在升温。如果你在构建依赖开源模型的 Agent 应用，Together AI 的服务可能成为重要的推理后端。建议关注其 API 定价和可用模型列表，未来可能成为你 content-curator 项目的备选部署方案。"
+    },
+    {
+      "rank": 5,
+      "domain": "金融",
+      "id": "wscn:3776046",
+      "url": "https://wallstreetcn.com/articles/3776046",
+      "source": "华尔街见闻",
+      "stars": 4,
+      "title": "美联储主席沃什释放通胀缓和信号，但拒绝透露 7 月是否加息",
+      "lead": "美联储主席沃什在欧洲央行论坛表示通胀预期下降，但刻意回避 7 月加息问题。内部分歧明显：18 位官员中 9 人支持加息，8 人主张按兵不动。白宫公开反对加息，沃什强硬回应维护独立性。",
+      "confirmed": [
+        "沃什称近期通胀预期下降是强硬立场奏效的证据",
+        "18 位美联储官员中 9 人支持年内加息，8 人主张按兵不动",
+        "白宫公开反对加息，沃什回应美联储独立性不变",
+        "市场对 9 月加息概率定价达 80%"
+      ],
+      "judgment": [
+        "沃什的鸽派言论是否意味着加息周期接近尾声",
+        "今晚非农数据将决定市场对加息路径的重新定价",
+        "白宫与美联储的分歧可能影响后续政策沟通"
+      ],
+      "implication": "今晚非农数据是关键。如果数据低于预期，美债和美元可能剧烈波动，进而影响科技股估值。你持有的 AI 相关资产可能受利率预期影响，建议关注非农公布后的市场反应。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "South Korea unveils $520B investment plan with Samsung and SK Hynix",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/south-korea-unveils-usd520-billion-investment-plan-with-samsung-and-sk-hynix-to-expand-memory-chip-dominance-plan-includes-four-new-fabs-and-hbm-facilities-amid-strong-government-support",
-      "source": "Tom's Hardware",
-      "one_liner": "韩国公布 5200 亿美元半导体投资计划，新建 4 座晶圆厂和 HBM 设施，规模是 CHIPS 法案的 10 倍，但落地周期长，短期影响有限。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Imec's 2026 roadmap details 0.3nm nodes by 2038, CFET at 0.7nm",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/imecs-2026-roadmap-details-0-3nm-nodes-by-2038-cfet-transistors-become-viable-at-0-7nm-company-redefines-moores-law-as-cell-sizes-gain-importance-for-density",
-      "source": "Tom's Hardware",
-      "one_liner": "Imec 发布最新路线图：0.3nm 节点要到 2038 年，CFET 晶体管在 0.7nm 才可行，摩尔定律正在重新定义。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "AMD confirms low-power CPU cores in Linux kernel patch — Zen 6",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-confirms-low-power-cpu-cores-in-linux-kernel-patch-zen-6-chips-could-follow-in-intels-footsteps-with-new-core-type-for-background-tasks",
-      "source": "Tom's Hardware",
-      "one_liner": "AMD 确认 Zen 6 将引入低功耗核心，类似 Intel 的 E-core，用于后台任务以降低功耗，Linux 内核补丁已暴露细节。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Samsung HBM4E yield breaks 70%, seventh-gen AI memory stable",
-      "url": "https://wallstreetcn.com/articles/3775933",
-      "source": "华尔街见闻",
-      "one_liner": "三星 HBM4E 测试良率突破 70%，进入稳定量产阶段，下一代 DRAM 工艺瞄准 11 月量产认证，有望提前锁定英伟达订单。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Amazon launches new $1B FDE org, following OpenAI and Anthropic",
-      "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
-      "source": "TechCrunch",
-      "one_liner": "亚马逊成立 10 亿美元 FDE（现场部署工程）组织，工程师将嵌入客户公司部署定制 AI Agent，效仿 OpenAI 和 Anthropic 的模式。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "X now offers an MCP server to make its platform easier for AI tools",
-      "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
-      "source": "TechCrunch",
-      "one_liner": "X（Twitter）推出官方 MCP 服务器，让 AI 工具可以直接通过 MCP 协议访问平台数据，对 Agent 开发者是重大利好。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Meta adds rate limits and soft paywall to smart glasses",
-      "url": "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
-      "source": "The Verge",
-      "one_liner": "Meta 为 Ray-Ban 智能眼镜引入速率限制和 $20/月订阅费，Conversation Focus 功能需付费，引发用户不满。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google's NotebookLM can sum up your research in a TikTok-style clip",
-      "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
-      "source": "The Verge",
-      "one_liner": "NotebookLM 新增 AI 生成 60 秒短视频功能，将笔记转为 TikTok 风格摘要，面向 AI Ultra/Pro 订阅用户。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "OpenClaw is finally available on Android and iOS",
-      "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
-      "source": "TechCrunch",
-      "one_liner": "开源 Agent 框架 OpenClaw 正式登陆移动端，可在手机上运行 Agent 工作流，对个人项目开发者是免费利器。"
-    },
-    {
-      "domain": "股票",
-      "title": "MLCC 龙头国巨涨价 50%，AI 服务器用量暴涨 13 倍",
-      "url": "https://wallstreetcn.com/articles/3775938",
-      "source": "华尔街见闻",
-      "one_liner": "国巨 MLCC 涨价 50%，村田、三星电机跟进，AI 服务器 MLCC 用量是传统服务器的 13 倍，紧缺预计延续到 2028 年。"
-    },
-    {
-      "domain": "股票",
-      "title": "美国最大电网 PJM 容量电价两年暴涨超 1000%",
-      "url": "https://wallstreetcn.com/articles/3775930",
-      "source": "华尔街见闻",
-      "one_liner": "PJM 容量电价两年涨超 1000%，AI 数据中心用电需求将电网推向临界点，新方案要求数据中心二选一：自费扩容或接受高峰断电。"
-    },
-    {
-      "domain": "股票",
-      "title": "硅基流动递表港交所，2025 年营收增超六倍但毛利转负",
-      "url": "https://wallstreetcn.com/articles/3775943",
-      "source": "华尔街见闻",
-      "one_liner": "中国最大独立 Token 供应商硅基流动申请港股上市，营收增长 6 倍但算力成本攀升导致毛利转负，反映 AI 算力中间商的盈利困境。"
+      "domain": "AI",
+      "title": "Claude Code 封号原因曝光：Anthropic 植入用户标记系统",
+      "url": "http://www.bilibili.com/video/av116844031774993",
+      "source": "程序员鱼皮",
+      "one_liner": "国外开发者逆向发现 Anthropic 在客户端中隐藏用户标记系统，导致部分用户被封。对 Claude Code 重度用户有直接影响，但信息来自视频而非官方确认。"
     },
     {
       "domain": "AI",
-      "title": "黑马程序员发布 Vibe Coding 零基础入门教程",
-      "url": "http://www.bilibili.com/video/av116838327388595",
-      "source": "黑马程序员",
-      "one_liner": "黑马程序员推出 Vibe Coding 系统教程，涵盖 Claude Code、Cursor、Codex、Agent 开发，适合零基础入门，但内容偏教程类，新颖度一般。"
+      "title": "Gemini Spark 谷歌 Agent 助手登陆 Mac",
+      "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "source": "TechCrunch",
+      "one_liner": "谷歌 24/7 Agent 助手 Gemini Spark 正式支持 Mac，新增实时追踪和更多应用集成。Agent 工具生态进一步丰富，但功能成熟度待观察。"
     },
     {
       "domain": "AI",
-      "title": "Vibe Coding 是什么？从 AI 模型、Agent 到工作流彻底搞懂",
-      "url": "http://www.bilibili.com/video/av116796937997854",
-      "source": "隔壁的程序员老王",
-      "one_liner": "一篇 Vibe Coding 概念梳理视频，适合新手建立认知框架，但深度有限，老手可跳过。"
+      "title": "Meta 计划出售 AI 算力，与云厂商竞争",
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "source": "TechCrunch",
+      "one_liner": "Meta 将闲置 AI 算力变现，可能冲击 CoreWeave 等云算力厂商。对开发者意味着更多算力选择，但 Meta 的定价和稳定性未知。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Oxmiq 获 3500 万美元融资，Raja Koduri 带队扩展 GPU IP 至数据中心",
+      "url": "https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/",
+      "source": "EE Times",
+      "one_liner": "前 Intel 高管 Raja Koduri 的 GPU IP 公司 Oxmiq 完成融资，OxCore 已在 FPGA 上运行。数据中心 GPU 市场迎来新玩家，但距离量产尚远。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Tesla 聘请 Intel 17 年老将 Gary Jiang 负责 Terafab 14A 晶圆厂",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tesla-hires-17-year-intel-veteran-responsible-for-billion-dollar-fab-startups-gary-jiang-likely-chosen-to-oversee-fab-efforts-for-terafabs-licensing-of-14a",
+      "source": "Tom's Hardware",
+      "one_liner": "Tesla 为 AI 芯片自造布局，挖来 Intel 晶圆厂启动专家。显示 Tesla 在 AI 硬件上的野心，但晶圆厂建设周期长，短期影响有限。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Meta 开发 CXL 2.0 芯片复用旧 DDR4 内存至新服务器",
+      "url": "https://www.tomshardware.com/pc-components/dram/meta-fights-soaring-hardware-costs-by-reusing-old-ddr4-server-memory-in-new-ddr5-only-servers-custom-cxl-2-0-chip-marries-legacy-ddr4-2400-with-cutting-edge-ddr5-6400",
+      "source": "Tom's Hardware",
+      "one_liner": "Meta 自研 Vistara CXL 内存扩展器，将旧 DDR4 用于新 AMD EPYC 服务器。降低硬件成本的工程创新，对大规模部署有参考价值。"
+    },
+    {
+      "domain": "大厂讯息",
+      "title": "Bending Spoons 上市首日涨 40%，市值 180 亿美元",
+      "url": "https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading/",
+      "source": "TechCrunch",
+      "one_liner": "收购 Evernote、Meetup 等老牌软件的意大利公司上市表现强劲。显示 AI 改造传统 SaaS 的商业模式获得市场认可。"
+    },
+    {
+      "domain": "大厂讯息",
+      "title": "Cloudflare 新政策：AI 公司需为出版商内容付费",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "source": "TechCrunch",
+      "one_liner": "Cloudflare 要求 AI 公司在 9 月 15 日前区分搜索爬虫和 AI 训练爬虫，否则默认屏蔽。影响 AI 训练数据获取，对内容聚合类项目有间接影响。"
+    },
+    {
+      "domain": "大厂讯息",
+      "title": "Venice AI 以 65M A 轮融资成为独角兽",
+      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "source": "TechCrunch",
+      "one_liner": "隐私优先的 AI 平台 Venice AI 获 6500 万美元 A 轮融资，年化收入超 7000 万。显示用户对隐私保护 AI 服务的需求增长。"
+    },
+    {
+      "domain": "金融",
+      "title": "英伟达为新兴云厂商提供 GPU 算力回租，抽取营收分成",
+      "url": "https://wallstreetcn.com/articles/3776047",
+      "source": "华尔街见闻",
+      "one_liner": "英伟达向下游延伸，为新兴云厂商提供 GPU 算力回租财务兜底，换取营收分成。可能改变 AI 算力市场格局，但具体条款未公开。"
+    },
+    {
+      "domain": "金融",
+      "title": "创业板大跌近 5%，算力硬件、芯片集体下挫",
+      "url": "https://wallstreetcn.com/articles/3776030",
+      "source": "华尔街见闻",
+      "one_liner": "A 股科技板块大幅回调，半导体、算力硬件领跌。可能与美联储加息预期和全球科技股调整有关，短期波动需关注。"
+    },
+    {
+      "domain": "金融",
+      "title": "SemiAnalysis：xAI 在孟菲斯采用“先建设后审批”策略解决电力问题",
+      "url": "https://wallstreetcn.com/articles/3776035",
+      "source": "华尔街见闻",
+      "one_liner": "xAI 在孟菲斯数据中心的移动燃气轮机数量五个月内翻倍，且多在无正式空气许可下运行。显示 AI 算力扩张的激进程度。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-01T08:51:55+0000"
+    "scored_at": "2026-07-02T07:24:26+0000"
   }
 }

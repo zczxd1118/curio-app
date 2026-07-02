@@ -1,0 +1,161 @@
+# Curio 趋势雷达 · 2026-07-02
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 12 条备选
+
+_今日核心信号：Anthropic Fable 5 解禁全球发布，美国 AI 监管转向自愿安全标准；Nvidia 取消四芯 Rubin Ultra 转向双芯设计，AMD 确认 Zen 6 引入大小核架构。AI 编程工具生态持续分化，Claude Code 封号事件引发对 Anthropic 用户标记系统的讨论。_
+
+---
+
+## 🌟 AI
+
+### 1. Anthropic 恢复 Claude Fable 5 全球访问，美国撤销出口管制
+
+**[AI]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+
+美国商务部撤销对 Anthropic 高级模型的出口限制，Fable 5 和 Mythos 模型重新面向全球用户开放。此前因安全担忧被限制仅在美国可用，如今白宫转向自愿安全标准框架。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 美国商务部撤销对 Anthropic Fable 5 和 Mythos 的出口管制 | 自愿标准能否有效约束模型安全尚不确定 |
+| Anthropic 已恢复全球访问，单一安全过滤器用于阻止漏洞利用提示 | 出口管制撤销是否意味着美国 AI 监管整体放松仍待观察 |
+| 白宫计划下周推出前沿模型自愿安全标准 | 白宫对 GPT-5.6 的干预模式可能成为未来模型发布的先例 |
+| GPT-5.6 发布节奏也受监管影响，初始仅向审查用户开放 |  |
+
+**📖 主编点评**
+
+Fable 5 解禁意味着你可以直接使用 Anthropic 最强模型进行开发。但注意白宫正在制定模型发布标准，未来前沿模型的上线节奏可能变慢。建议关注下周白宫的自愿安全标准细节，这会影响你 content-curator 项目依赖的模型可用性。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-restores-claude-fable-5-as-us-lifts-export-controls)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 2. Nvidia 取消四芯 Rubin Ultra GPU，转向双芯设计
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+
+因制造执行担忧，Nvidia 放弃四芯片 Rubin Ultra 方案，改为双 GPU 设计。这一变动可能影响下一代 AI 训练集群的算力密度和功耗规划。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Nvidia 取消四芯 Rubin Ultra GPU 计划 | 双芯设计相比四芯的算力密度下降幅度未知 |
+| 新方案采用双 GPU 设计，原因涉及制造执行问题 | 制造问题是否影响 Rubin 整体时间表尚不明确 |
+| Rubin 系列仍按计划推进，但 Ultra 版本规格调整 | 竞争对手 AMD 和 Intel 可能借此缩小差距 |
+
+**📖 主编点评**
+
+如果你在规划 AI 训练集群或采购 GPU 算力，Rubin Ultra 的规格变化意味着你需要重新评估未来 1-2 年的算力密度预期。双芯设计可能降低单机柜的算力上限，但或许能更快量产。建议关注后续官方规格披露。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-reportedly-cancels-quad-die-rubin-ultra-gpu-in-favor-of-dual-gpu-design-report-claims-complex-design-purportedly-scrapped-over-manufacturing-execution-concerns)
+
+---
+
+### 3. AMD 确认 Zen 6 将引入低功耗核心，Linux 内核补丁曝光
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+
+AMD 在 Linux 内核补丁中确认下一代 Zen 6 架构将采用大小核设计，低功耗核心用于后台任务以提升能效。这标志着 AMD 正式跟随 Intel 的混合架构路线。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| AMD 在 Linux 内核补丁中确认低功耗 CPU 核心计划 | 大小核调度优化是否成熟尚待验证 |
+| Zen 6 将采用异构核心设计，类似 Intel 的 P-core/E-core | Zen 6 发布时间和具体性能提升未公布 |
+| 低功耗核心用于后台任务以降低整体功耗 | 低功耗核心的性能表现和能效比需实测确认 |
+
+**📖 主编点评**
+
+Zen 6 的大小核设计将影响你未来选购笔记本和台式机的决策。如果你做 AI 开发需要多核性能，大核数量和小核调度效率是关键。建议等待更多基准测试，但可以提前关注 AMD 的混合架构生态。
+
+📺 [打开原文](https://www.tomshardware.com/pc-components/cpus/amd-confirms-low-power-cpu-cores-in-linux-kernel-patch-zen-6-chips-could-follow-in-intels-footsteps-with-new-core-type-for-background-tasks)
+
+---
+
+## 🌟 大厂讯息
+
+### 4. Together AI 完成 8 亿美元融资，估值跃升至 83 亿
+
+**[大厂讯息]** · ⭐⭐⭐⭐ · _TechCrunch_
+
+AI 云服务商 Together AI 获得 8 亿美元新融资，估值从年初的 33 亿飙升至 83 亿。该公司专注于托管开源模型，本轮融资显示市场对开源 AI 基础设施的强烈需求。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Together AI 完成 8 亿美元融资，估值 83 亿美元 | 高估值是否可持续取决于开源模型商业化的盈利能力 |
+| 公司专注于开源模型托管和推理服务 | 与 CoreWeave 等竞争对手的差异化优势尚不清晰 |
+| 此前在 2025 年初估值 33 亿美元 | 融资将用于扩大 GPU 集群和全球覆盖 |
+
+**📖 主编点评**
+
+Together AI 的融资表明开源模型基础设施赛道正在升温。如果你在构建依赖开源模型的 Agent 应用，Together AI 的服务可能成为重要的推理后端。建议关注其 API 定价和可用模型列表，未来可能成为你 content-curator 项目的备选部署方案。
+
+📺 [打开原文](https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/)
+
+---
+
+## 🌟 金融
+
+### 5. 美联储主席沃什释放通胀缓和信号，但拒绝透露 7 月是否加息
+
+**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+美联储主席沃什在欧洲央行论坛表示通胀预期下降，但刻意回避 7 月加息问题。内部分歧明显：18 位官员中 9 人支持加息，8 人主张按兵不动。白宫公开反对加息，沃什强硬回应维护独立性。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 沃什称近期通胀预期下降是强硬立场奏效的证据 | 沃什的鸽派言论是否意味着加息周期接近尾声 |
+| 18 位美联储官员中 9 人支持年内加息，8 人主张按兵不动 | 今晚非农数据将决定市场对加息路径的重新定价 |
+| 白宫公开反对加息，沃什回应美联储独立性不变 | 白宫与美联储的分歧可能影响后续政策沟通 |
+| 市场对 9 月加息概率定价达 80% |  |
+
+**📖 主编点评**
+
+今晚非农数据是关键。如果数据低于预期，美债和美元可能剧烈波动，进而影响科技股估值。你持有的 AI 相关资产可能受利率预期影响，建议关注非农公布后的市场反应。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3776046)
+
+---
+
+## 📋 备选池
+
+### AI
+
+- [Claude Code 封号原因曝光：Anthropic 植入用户标记系统](http://www.bilibili.com/video/av116844031774993) —— 国外开发者逆向发现 Anthropic 在客户端中隐藏用户标记系统，导致部分用户被封。对 Claude Code 重度用户有直接影响，但信息来自视频而非官方确认。
+  _程序员鱼皮_
+- [Gemini Spark 谷歌 Agent 助手登陆 Mac](https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/) —— 谷歌 24/7 Agent 助手 Gemini Spark 正式支持 Mac，新增实时追踪和更多应用集成。Agent 工具生态进一步丰富，但功能成熟度待观察。
+  _TechCrunch_
+- [Meta 计划出售 AI 算力，与云厂商竞争](https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/) —— Meta 将闲置 AI 算力变现，可能冲击 CoreWeave 等云算力厂商。对开发者意味着更多算力选择，但 Meta 的定价和稳定性未知。
+  _TechCrunch_
+
+### AI 算力 / 半导体
+
+- [Oxmiq 获 3500 万美元融资，Raja Koduri 带队扩展 GPU IP 至数据中心](https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/) —— 前 Intel 高管 Raja Koduri 的 GPU IP 公司 Oxmiq 完成融资，OxCore 已在 FPGA 上运行。数据中心 GPU 市场迎来新玩家，但距离量产尚远。
+  _EE Times_
+- [Tesla 聘请 Intel 17 年老将 Gary Jiang 负责 Terafab 14A 晶圆厂](https://www.tomshardware.com/tech-industry/semiconductors/tesla-hires-17-year-intel-veteran-responsible-for-billion-dollar-fab-startups-gary-jiang-likely-chosen-to-oversee-fab-efforts-for-terafabs-licensing-of-14a) —— Tesla 为 AI 芯片自造布局，挖来 Intel 晶圆厂启动专家。显示 Tesla 在 AI 硬件上的野心，但晶圆厂建设周期长，短期影响有限。
+  _Tom's Hardware_
+- [Meta 开发 CXL 2.0 芯片复用旧 DDR4 内存至新服务器](https://www.tomshardware.com/pc-components/dram/meta-fights-soaring-hardware-costs-by-reusing-old-ddr4-server-memory-in-new-ddr5-only-servers-custom-cxl-2-0-chip-marries-legacy-ddr4-2400-with-cutting-edge-ddr5-6400) —— Meta 自研 Vistara CXL 内存扩展器，将旧 DDR4 用于新 AMD EPYC 服务器。降低硬件成本的工程创新，对大规模部署有参考价值。
+  _Tom's Hardware_
+
+### 大厂讯息
+
+- [Bending Spoons 上市首日涨 40%，市值 180 亿美元](https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading/) —— 收购 Evernote、Meetup 等老牌软件的意大利公司上市表现强劲。显示 AI 改造传统 SaaS 的商业模式获得市场认可。
+  _TechCrunch_
+- [Cloudflare 新政策：AI 公司需为出版商内容付费](https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/) —— Cloudflare 要求 AI 公司在 9 月 15 日前区分搜索爬虫和 AI 训练爬虫，否则默认屏蔽。影响 AI 训练数据获取，对内容聚合类项目有间接影响。
+  _TechCrunch_
+- [Venice AI 以 65M A 轮融资成为独角兽](https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/) —— 隐私优先的 AI 平台 Venice AI 获 6500 万美元 A 轮融资，年化收入超 7000 万。显示用户对隐私保护 AI 服务的需求增长。
+  _TechCrunch_
+
+### 金融
+
+- [英伟达为新兴云厂商提供 GPU 算力回租，抽取营收分成](https://wallstreetcn.com/articles/3776047) —— 英伟达向下游延伸，为新兴云厂商提供 GPU 算力回租财务兜底，换取营收分成。可能改变 AI 算力市场格局，但具体条款未公开。
+  _华尔街见闻_
+- [创业板大跌近 5%，算力硬件、芯片集体下挫](https://wallstreetcn.com/articles/3776030) —— A 股科技板块大幅回调，半导体、算力硬件领跌。可能与美联储加息预期和全球科技股调整有关，短期波动需关注。
+  _华尔街见闻_
+- [SemiAnalysis：xAI 在孟菲斯采用“先建设后审批”策略解决电力问题](https://wallstreetcn.com/articles/3776035) —— xAI 在孟菲斯数据中心的移动燃气轮机数量五个月内翻倍，且多在无正式空气许可下运行。显示 AI 算力扩张的激进程度。
+  _华尔街见闻_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
