@@ -1,189 +1,233 @@
 {
-  "date": "2026-07-02",
-  "intro": "今日核心信号：Anthropic Fable 5 全球解禁，白宫加速制定 AI 模型发布标准，AI 监管进入新阶段。同时，Nvidia 取消四芯片 Rubin Ultra，转向双 GPU 设计，算力硬件格局生变。金融端，沃什首份非农今晚出炉，世界杯或虚增就业数据。",
+  "date": "2026-07-03",
+  "intro": "今日核心信号：Anthropic与三星洽谈定制AI芯片，引爆韩股反弹；Meta内部承认AI Agent进展慢于预期，但算力投资不减反增。OpenAI向美国政府提议5%股权，AI地缘博弈进入新阶段。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-restores-claude-fable-5-as-us-lifts-export-controls",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-restores-claude-fable-5-as-us-lifts-export-controls",
-      "source": "Tom's Hardware",
+      "id": "rss:https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "source": "TechCrunch",
       "stars": 5,
-      "title": "Anthropic 恢复 Claude Fable 5 全球访问，美国解除出口管制",
-      "lead": "美国商务部撤回对 Anthropic 先进模型的出口限制，Fable 5 和 Mythos 模型重新面向全球用户开放。此前因安全测试争议，特朗普政府曾短暂限制这些模型。",
+      "title": "Anthropic与三星洽谈定制AI芯片，韩股暴涨5%触发熔断",
+      "lead": "Anthropic正在与三星讨论开发定制AI芯片，消息一出韩国KOSPI指数从跌超3%飙涨5%触发熔断，三星电子涨近9%。这是继OpenAI与Broadcom合作后，又一家AI巨头寻求自研芯片。",
       "confirmed": [
-        "美国商务部于 6 月 30 日撤回对 Anthropic 的出口管制",
-        "Claude Fable 5 和 Mythos 模型已恢复全球访问",
-        "Anthropic 配合白宫安全测试后获得解禁",
-        "单一安全过滤器现在可以阻止识别漏洞并编写利用代码的提示"
+        "Anthropic与三星电子就定制AI芯片展开初步讨论",
+        "消息发布后韩国KOSPI指数暴涨5%触发熔断机制",
+        "三星电子股价当日涨近9%",
+        "此前OpenAI已与Broadcom合作开发自有AI芯片"
       ],
       "judgment": [
-        "白宫即将推出的自愿安全标准是否将成为常态",
-        "模型发布前审查是否会延长前沿模型的上市周期",
-        "其他 AI 公司（如 OpenAI）是否会面临类似限制",
-        "解禁后 Fable 5 的全球使用量是否会激增",
-        "安全过滤器的有效性是否经得起实际攻击考验"
+        "定制芯片的具体架构、制程节点尚未披露",
+        "合作是否涉及独家供应或联合开发仍不明朗",
+        "Anthropic此前已与台积电有合作，三星角色待定",
+        "三星在AI芯片代工领域能否与台积电竞争存疑",
+        "定制芯片量产时间表未知"
       ],
-      "implication": "这对你意味着，如果你之前因为地区限制无法使用 Fable 5，现在可以尝试了。同时，白宫正在制定 AI 模型发布标准，未来前沿模型发布可能面临更多合规要求。建议关注 Anthropic 的安全实践，这可能是未来行业标准。"
+      "implication": "你应该关注Anthropic的芯片策略：如果成功，它将摆脱对NVIDIA和OpenAI的依赖，形成独立AI基础设施。对你做content-curator项目而言，这意味着未来Agent工具链可能跑在定制芯片上，值得提前了解其生态。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-reportedly-cancels-quad-die-rubin-ultra-gpu-in-favor-of-dual-gpu-design-report-claims-complex-design-purportedly-scrapped-over-manufacturing-execution-concerns",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-reportedly-cancels-quad-die-rubin-ultra-gpu-in-favor-of-dual-gpu-design-report-claims-complex-design-purportedly-scrapped-over-manufacturing-execution-concerns",
-      "source": "Tom's Hardware",
+      "domain": "AI",
+      "id": "wscn:3776134",
+      "url": "https://wallstreetcn.com/articles/3776134",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "Nvidia 取消四芯片 Rubin Ultra GPU，转向双 GPU 设计",
-      "lead": "据 SemiAnalysis 报道，Nvidia 因制造执行问题放弃了四芯片 Rubin Ultra GPU 计划，改为双 GPU 设计。这可能会影响下一代 AI 训练集群的算力密度。",
+      "title": "扎克伯格承认AI Agent进展慢于预期，但Meta算力投资不减反增",
+      "lead": "Meta内部会议录音流出：扎克伯格承认AI Agent过去四个月进展慢于预期。但同一时间，AI负责人透露新模型已追上GPT-5.5，算力投入高出一个数量级。SemiAnalysis驳斥算力过剩论，称Meta明年资本开支将\"高得惊人\"。",
       "confirmed": [
-        "Nvidia 取消了四芯片 Rubin Ultra GPU 计划",
-        "原因被报道为 '制造执行问题'",
-        "替代方案是双 GPU 设计",
-        "Rubin 系列仍按计划推进，但 Ultra 版本规格变更"
+        "扎克伯格在内部会议承认AI Agent进展慢于预期",
+        "Meta AI负责人透露代号\"西瓜\"的新模型在基准测试上追上GPT-5.5",
+        "新模型算力投入比上一代高出一个数量级",
+        "SemiAnalysis报告称Meta今年上半年已签约超5GW数据中心容量"
       ],
       "judgment": [
-        "双 GPU 设计是否能达到原本四芯片的性能目标",
-        "制造问题是否会影响 Rubin 的发布时间表",
-        "对 Nvidia 在 AI 训练市场份额的影响",
-        "AMD 和 Intel 是否会趁机追赶"
+        "Meta算力是否过剩仍存争议，SemiAnalysis与市场观点对立",
+        "Meta计划出租AI算力的传闻尚未官方确认",
+        "新模型\"西瓜\"的具体能力对比细节未公开",
+        "AI Agent进展慢是技术瓶颈还是资源分配问题不明"
       ],
-      "implication": "如果你在规划 AI 训练基础设施，需要重新评估 Nvidia 下一代产品的算力密度。双 GPU 设计可能意味着单机柜性能低于预期，但良率和供应稳定性可能更好。建议关注 Rubin 的最终规格和实际性能数据。"
+      "implication": "Meta的算力军备竞赛对你意味着：Agent工具链的底层基础设施正在快速膨胀。如果你的content-curator项目未来需要大规模推理，应关注Meta的Llama生态和可能的算力租赁服务，这可能是低成本获取算力的新渠道。"
     },
     {
       "rank": 3,
-      "domain": "股票",
-      "id": "wscn:3776051",
-      "url": "https://wallstreetcn.com/articles/3776051",
-      "source": "华尔街见闻",
+      "domain": "AI",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-floats-5-percent-government-stake-days-after-washington-delayed-gpt-5-6",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-floats-5-percent-government-stake-days-after-washington-delayed-gpt-5-6",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "沃什时代首份非农今晚出炉，世界杯或营造就业虚火",
-      "lead": "美联储新主席 Warsh 上任后首份非农就业报告今晚揭晓，市场预期新增 11.3 万，但高盛警告 FIFA 世界杯可能虚增约 4 万临时岗位。数据若低于预期，美债与美元将剧烈波动。",
+      "title": "OpenAI提议向美国政府捐赠5%股权，换取监管绿灯",
+      "lead": "Sam Altman向特朗普政府提议将OpenAI 5%股权注入美国主权财富基金，此举发生在华盛顿推迟GPT-5.6发布之后。Altman还倡议所有领先AI实验室向类似阿拉斯加永久基金的公共基金缴费。",
       "confirmed": [
-        "6 月非农就业报告将于今晚公布",
-        "市场共识预期新增 11.3 万，较 5 月大幅回落",
-        "高盛预计世界杯带来约 4 万个临时岗位",
-        "ADP、PMI 就业分项、初请失业金人数多项指标显示降温"
+        "Altman向特朗普、商务部长和财长提出5%股权方案",
+        "该提议发生在美国商务部推迟GPT-5.6发布之后",
+        "Altman希望所有美国领先AI实验室向公共基金缴费",
+        "OpenAI正在从非营利转型为营利性公司"
       ],
       "judgment": [
-        "剔除世界杯效应后，真实就业增长可能低于 8 万",
-        "9 月加息概率已达 80%，非农数据可能影响加息节奏",
-        "沃什是否会因数据疲软而释放鸽派信号",
-        "美元和美债的短期波动方向"
+        "美国政府是否接受该提议尚未确定",
+        "5%股权估值基础不明确（OpenAI估值约3000亿美元）",
+        "其他AI实验室是否同意类似安排存疑",
+        "此举可能影响OpenAI的独立性和国际竞争力"
       ],
-      "implication": "今晚非农数据是判断美联储政策路径的关键。如果数据低于预期，可能缓解加息压力，利好风险资产。建议关注剔除世界杯效应的核心数据，以及沃什的后续评论。"
+      "implication": "OpenAI的\"股权换监管\"策略可能重塑AI行业格局。对你而言，如果OpenAI成为半国有实体，其API定价、模型开放性和地缘限制都会变化。做Agent项目时，建议同时储备开源模型方案以对冲风险。"
     },
     {
       "rank": 4,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
-      "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
-      "source": "TechCrunch",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/",
+      "url": "https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/",
+      "source": "EE Times",
       "stars": 4,
-      "title": "Neocloud Together AI 融资 8 亿美元，估值跃升至 83 亿",
-      "lead": "AI 算力提供商 Together AI 完成 8 亿美元融资，估值从 2025 年初的 33 亿飙升至 83 亿。该公司专注于托管开源模型，与 Nvidia 的云服务竞争。",
+      "title": "前Intel高管Raja Koduri创立的Oxmiq获3500万美元融资，GPU IP已在FPGA上运行",
+      "lead": "由前Intel GPU架构师Raja Koduri创立的Oxmiq完成3500万美元融资，其OxCore GPU IP已在FPGA上成功运行。公司正将业务从IP授权扩展到数据中心设计，瞄准AI推理市场。",
       "confirmed": [
-        "Together AI 完成 8 亿美元融资",
-        "估值达到 83 亿美元",
-        "公司专注于开源模型托管",
-        "上一轮融资在 2025 年初，估值 33 亿美元"
+        "Oxmiq完成3500万美元融资，由Raja Koduri领导",
+        "OxCore GPU IP已在FPGA上运行验证",
+        "公司业务从IP授权扩展到数据中心整体设计",
+        "Raja Koduri此前在Intel负责独立GPU项目"
       ],
       "judgment": [
-        "AI 算力需求是否持续推动此类公司估值",
-        "Together AI 能否与 Nvidia 和云巨头竞争",
-        "开源模型托管市场是否足够大",
-        "融资后是否会加速扩张导致利润率下降"
+        "OxCore GPU性能指标尚未公开",
+        "与NVIDIA、AMD等成熟产品相比竞争力未知",
+        "数据中心设计业务能否找到首批客户不确定",
+        "融资额3500万美元在芯片领域规模较小"
       ],
-      "implication": "AI 算力基础设施赛道持续火热，但竞争也在加剧。如果你在考虑使用开源模型托管服务，Together AI 是一个值得关注的选项，但要注意其长期可持续性。"
+      "implication": "Raja Koduri的创业项目值得跟踪。如果OxCore能提供高能效比的AI推理IP，可能会成为你未来构建边缘Agent设备的备选方案。建议关注其开源工具链和开发者社区建设。"
+    },
+    {
+      "rank": 5,
+      "domain": "股票",
+      "id": "wscn:3776123",
+      "url": "https://wallstreetcn.com/articles/3776123",
+      "source": "华尔街见闻",
+      "stars": 4,
+      "title": "SemiAnalysis驳斥算力过剩论：Meta算力扩张远超想象",
+      "lead": "SemiAnalysis发布深度报告，认为市场对Meta\"算力过剩\"的担忧是误判。Meta今年上半年已签约超5GW数据中心容量，明年资本开支将\"高得惊人\"。报告指出Meta手握AI模型、广告扩容、API服务与短期租赁四大变现渠道。",
+      "confirmed": [
+        "Meta上半年签约超5GW数据中心容量",
+        "SemiAnalysis预计Meta明年资本开支将大幅增长",
+        "Meta拥有AI模型、广告、API、租赁四大变现路径",
+        "Meta正考虑出租AI算力，与AWS形成竞争"
+      ],
+      "judgment": [
+        "算力租赁业务的具体定价和客户尚未披露",
+        "5GW容量中有多少用于训练vs推理未知",
+        "Meta的AI模型变现效率能否覆盖算力成本不确定",
+        "出租算力可能影响Meta与云厂商的关系"
+      ],
+      "implication": "算力过剩与否的争论对你选择Agent开发平台有直接影响。如果Meta推出算力租赁服务，可能成为比AWS更便宜的推理方案。建议关注Meta的Llama API定价和Compute租赁计划，这对你的content-curator项目成本很关键。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "Claude Code 封号原因曝光：Anthropic 在客户端中植入用户标记系统",
-      "url": "https://www.bilibili.com/video/av116844031774993",
+      "title": "Claude Code封号原因曝光：Anthropic植入隐形用户标记系统",
+      "url": "http://www.bilibili.com/video/av116844031774993",
       "source": "程序员鱼皮",
-      "one_liner": "逆向分析发现 Anthropic 通过隐蔽代码标记用户，导致中国用户被封。对使用 Claude Code 的开发者有直接警示意义。"
+      "one_liner": "国外开发者逆向Claude Code源码发现Anthropic内置用户标记系统，可能是封号主因。对使用Claude Code做Agent开发的你，需注意合规使用。"
     },
     {
       "domain": "AI",
-      "title": "Gemini Spark 谷歌智能助手现已登陆 Mac",
-      "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "title": "Meta发布AI应用Pocket：用自然语言生成和分享小游戏",
+      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
       "source": "TechCrunch",
-      "one_liner": "谷歌 24/7 代理助手 Gemini Spark 扩展至 Mac，支持实时追踪和更多应用。对 Agent 玩家是值得尝试的新工具。"
+      "one_liner": "Meta的vibe coding实验产品，用提示词生成交互游戏。可作为你content-curator项目\"AI生成内容\"的参考案例。"
     },
     {
       "domain": "AI",
-      "title": "白宫加速制定 AI 模型发布标准，GPT-5.6 发布受限",
-      "url": "https://wallstreetcn.com/articles/3776040",
-      "source": "华尔街见闻",
-      "one_liner": "白宫拟推出前沿模型自愿安全标准，GPT-5.6 初始阶段仅向特定群体开放。监管趋严可能影响模型发布节奏。"
+      "title": "Google 2025年AI建设导致用电量激增37%",
+      "url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/",
+      "source": "Ars Technica",
+      "one_liner": "AI的能源成本正在成为制约因素。对你而言，选择模型时需考虑推理效率，未来Agent项目的碳足迹可能成为简历亮点。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Oxmiq 融资 3500 万美元用于 GPU IP，扩展数据中心设计",
-      "url": "https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/",
-      "source": "EE Times",
-      "one_liner": "Raja Koduri 的 Oxmiq 获得 3500 万美元融资，其 GPU IP 已在 FPGA 上运行。对关注 GPU 替代方案的读者有参考价值。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "AMD 确认 Zen 6 将引入低功耗核心，类似 Intel 大小核设计",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-confirms-low-power-cpu-cores-in-linux-kernel-patch-zen-6-chips-could-follow-in-intels-footsteps-with-new-core-type-for-background-tasks",
+      "title": "SK海力士宣布投资7125亿美元扩建韩国NAND和DRAM产能",
+      "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-to-invest-usd712-5-billion-in-south-korean-operations-cheongju-nand-expansion-yongin-semiconductor-cluster-for-dram-detailed",
       "source": "Tom's Hardware",
-      "one_liner": "AMD 在 Linux 内核补丁中确认 Zen 6 将采用低功耗核心，用于后台任务。对 PC 硬件爱好者是重要架构变化。"
+      "one_liner": "存储巨头继续扩产，HBM和NAND供应紧张将持续。影响你构建Agent时的硬件成本和可用性。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Meta 开发定制 CXL 芯片，在 DDR5 服务器中复用旧 DDR4 内存",
-      "url": "https://www.tomshardware.com/pc-components/dram/meta-fights-soaring-hardware-costs-by-reusing-old-ddr4-server-memory-in-new-ddr5-only-servers-custom-cxl-2-0-chip-marries-legacy-ddr4-2400-with-cutting-edge-ddr5-6400",
+      "title": "NVIDIA推出新商业模式：从AI云收入中抽成，不限于硬件销售",
+      "url": "https://www.tomshardware.com/tech-industry/nvidia-to-take-a-cut-of-ai-cloud-revenue-on-top-of-hardware-sales",
       "source": "Tom's Hardware",
-      "one_liner": "Meta 自研 Vistara CXL 内存扩展器，将旧 DDR4 内存用于新服务器。对关注数据中心成本优化的读者有启发。"
+      "one_liner": "NVIDIA从卖硬件转向卖服务+抽成，可能推高AI云成本。你的Agent项目若依赖GPU云，需关注定价变化。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Intel扩大加州光掩模产能，聚焦EUV和高数值孔径EUV",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-expands-production-of-photomasks-in-california-euv-and-high-na-euv-in-the-focal-point",
+      "source": "Tom's Hardware",
+      "one_liner": "Intel在先进制程上持续投资，18A工艺进展将影响未来AI芯片格局。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Meta 计划出售 AI 算力，与云厂商竞争",
-      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "title": "Microsoft推出AI部署公司，承诺投入25亿美元",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
       "source": "TechCrunch",
-      "one_liner": "Meta 开发云基础设施业务，出售 AI 算力和模型访问权限。可能改变云市场格局，对 AWS、Google Cloud 构成威胁。"
+      "one_liner": "微软跟随Amazon、OpenAI成立专属AI部署团队，企业AI落地竞争加剧。你的Agent项目可考虑Azure AI生态。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Cloudflare 新政策：AI 公司需为出版商内容付费",
-      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
-      "source": "TechCrunch",
-      "one_liner": "Cloudflare 要求 AI 公司 9 月 15 日前区分搜索爬虫和训练爬虫，否则默认被出版商网站屏蔽。影响 AI 训练数据获取。"
+      "title": "Tesla Q2销量增长25%，交付超48万辆",
+      "url": "https://www.theverge.com/transportation/957685/tesla-q2-2026-sales-production-delivery-report",
+      "source": "The Verge",
+      "one_liner": "Tesla复苏信号，但FSD事故导致过失杀人指控，自动驾驶监管风险上升。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Venice AI 以 65 亿美元估值完成 A 轮融资，主打隐私优先",
-      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
-      "source": "TechCrunch",
-      "one_liner": "隐私优先的 AI 平台 Venice AI 完成 6500 万美元 A 轮融资，年化收入超 7000 万美元。对关注隐私 AI 的读者是重要信号。"
+      "title": "Sony宣布2028年停止生产PlayStation光盘，物理游戏时代终结",
+      "url": "https://www.tomshardware.com/video-games/playstation/sony-officially-kills-the-playstation-disc-ending-physical-game-production-in-2028-shutting-down-the-playstation-store-on-the-playstation-3-and-ps-vita-systems",
+      "source": "Tom's Hardware",
+      "one_liner": "数字分发成为唯一渠道，对AI内容分发模式有启示意义。"
     },
     {
       "domain": "股票",
-      "title": "英伟达为新兴云厂商提供 GPU 算力回租，抽取营收分成",
-      "url": "https://wallstreetcn.com/articles/3776047",
+      "title": "三星电子Q3 DRAM价格将上调至多20%",
+      "url": "https://wallstreetcn.com/articles/3776132",
       "source": "华尔街见闻",
-      "one_liner": "英伟达通过财务兜底帮助新兴云厂商融资，换取营收分成。此举将 Nvidia 的掌控力延伸至下游算力市场。"
+      "one_liner": "存储涨价周期延续，AI基础设施投资持续拉动需求。影响你构建Agent时的硬件成本。"
     },
     {
       "domain": "股票",
-      "title": "SemiAnalysis：xAI 在孟菲斯以“先建设后审批”方式解决电力问题",
-      "url": "https://wallstreetcn.com/articles/3776035",
+      "title": "黑石退出全球最大数据中心园区项目，投资超1000亿美元",
+      "url": "https://wallstreetcn.com/articles/3776118",
       "source": "华尔街见闻",
-      "one_liner": "xAI 在孟菲斯采用激进策略，移动燃气轮机数量五个月内翻倍，多数无正式空气许可。反映 AI 算力扩张中的电力瓶颈。"
+      "one_liner": "数据中心建设面临社区和法律阻力，算力供给扩张可能不及预期。"
     },
     {
       "domain": "股票",
-      "title": "马斯克承认 Optimus 量产初期“极其缓慢”",
-      "url": "https://wallstreetcn.com/articles/3776054",
+      "title": "美国6月非农仅增5.7万人，花旗预计美联储10月重启降息",
+      "url": "https://wallstreetcn.com/articles/3776126",
       "source": "华尔街见闻",
-      "one_liner": "马斯克为 Optimus 量产预期降温，称初期将极其缓慢。对机器人板块有短期情绪影响。"
+      "one_liner": "就业数据疲软，降息预期升温，利好科技成长股估值。"
+    },
+    {
+      "domain": "股票",
+      "title": "快手可灵AI估值达180亿美元，BAT全数入股",
+      "url": "https://wallstreetcn.com/articles/3776128",
+      "source": "华尔街见闻",
+      "one_liner": "中国AI视频生成赛道火热，可灵估值已达快手市值的76%。"
+    },
+    {
+      "domain": "股票",
+      "title": "韩国AI大跃进：三星SK未来十年投入21万亿元人民币",
+      "url": "https://wallstreetcn.com/articles/3776121",
+      "source": "华尔街见闻",
+      "one_liner": "韩国举国押注AI半导体，与Anthropic芯片合作形成联动。"
+    },
+    {
+      "domain": "AI",
+      "title": "Anthropic恢复Claude Fable 5全球访问，美国解除出口管制",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-restores-claude-fable-5-as-us-lifts-export-controls",
+      "source": "Tom's Hardware",
+      "one_liner": "Claude Fable 5恢复可用，对你的Agent项目是利好，可重新评估其编程能力。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-02T08:14:36+0000"
+    "scored_at": "2026-07-03T06:55:49+0000"
   }
 }
