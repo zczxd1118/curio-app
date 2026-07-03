@@ -1,45 +1,45 @@
-# Curio · AI 算力 / 半导体 · 2026-07-03
+# Curio · 半导体 · 2026-07-03
 
 > 今日 1 条头条 + 3 条备选
 
-_今日核心信号：Anthropic与三星洽谈定制AI芯片，引爆韩股反弹；Meta内部承认AI Agent进展慢于预期，但算力投资不减反增。OpenAI向美国政府提议5%股权，AI地缘博弈进入新阶段。_
+_今日核心信号：Anthropic与三星洽谈定制AI芯片，引爆韩国股市V型反转，三星涨9%；同时Meta被曝计划出租算力，扎克伯格承认AI Agent进展慢于预期，但SemiAnalysis驳斥算力过剩论。OpenAI向美国政府提议捐赠5%股权，AI产业与地缘政治深度交织。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. 前Intel高管Raja Koduri创立的Oxmiq获3500万美元融资，GPU IP已在FPGA上运行
+### 4. Nvidia推出新商业模式：从AI云收入中抽成，硬件之外再收费
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _EE Times_
+**[半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
 
-由前Intel GPU架构师Raja Koduri创立的Oxmiq完成3500万美元融资，其OxCore GPU IP已在FPGA上成功运行。公司正将业务从IP授权扩展到数据中心设计，瞄准AI推理市场。
+Nvidia宣布可选融资方案，允许客户以未来云收入分成换取硬件，实现同一芯片双重收费。这标志着Nvidia从硬件销售向"硬件+收入分成"模式转型，可能重塑AI算力定价体系。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Oxmiq完成3500万美元融资，由Raja Koduri领导 | OxCore GPU性能指标尚未公开 |
-| OxCore GPU IP已在FPGA上运行验证 | 与NVIDIA、AMD等成熟产品相比竞争力未知 |
-| 公司业务从IP授权扩展到数据中心整体设计 | 数据中心设计业务能否找到首批客户不确定 |
-| Raja Koduri此前在Intel负责独立GPU项目 | 融资额3500万美元在芯片领域规模较小 |
+| Nvidia推出新融资方案，以未来AI云收入分成换取硬件 | 该模式是否会成为行业标准，AMD/Intel是否跟进 |
+| 客户可选择用token或收入分成支付 | 对中小AI公司而言，收入分成是否比预付更友好 |
+| 该模式使Nvidia能从同一芯片获得持续收入 | Nvidia是否借此锁定客户生态，加剧垄断 |
+| 此举可能改变AI算力采购的财务结构 | 具体分成比例和适用条件尚未披露 |
 
 **📖 主编点评**
 
-Raja Koduri的创业项目值得跟踪。如果OxCore能提供高能效比的AI推理IP，可能会成为你未来构建边缘Agent设备的备选方案。建议关注其开源工具链和开发者社区建设。
+如果你计划创业或做AI项目，Nvidia的新模式可能降低初期硬件门槛，但长期成本更高。建议仔细计算TCO，并关注AMD/Intel的替代方案。对个人Agent项目影响有限，但了解行业趋势有助于判断算力成本走向。
 
-📺 [打开原文](https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/nvidia-to-take-a-cut-of-ai-cloud-revenue-on-top-of-hardware-sales)
 
 ---
 
 ## 📋 备选阅读
 
-- [SK海力士宣布投资7125亿美元扩建韩国NAND和DRAM产能](https://www.tomshardware.com/pc-components/dram/sk-hynix-to-invest-usd712-5-billion-in-south-korean-operations-cheongju-nand-expansion-yongin-semiconductor-cluster-for-dram-detailed) —— 存储巨头继续扩产，HBM和NAND供应紧张将持续。影响你构建Agent时的硬件成本和可用性。
+- [SK hynix宣布在韩国投资7125亿美元，扩建NAND和DRAM产能](https://www.tomshardware.com/pc-components/dram/sk-hynix-to-invest-usd712-5-billion-in-south-korean-operations-cheongju-nand-expansion-yongin-semiconductor-cluster-for-dram-detailed) —— 韩国存储双雄持续扩产，AI需求驱动HBM和DDR5价格坚挺，但需警惕产能过剩风险。
   _Tom's Hardware_
-- [NVIDIA推出新商业模式：从AI云收入中抽成，不限于硬件销售](https://www.tomshardware.com/tech-industry/nvidia-to-take-a-cut-of-ai-cloud-revenue-on-top-of-hardware-sales) —— NVIDIA从卖硬件转向卖服务+抽成，可能推高AI云成本。你的Agent项目若依赖GPU云，需关注定价变化。
-  _Tom's Hardware_
-- [Intel扩大加州光掩模产能，聚焦EUV和高数值孔径EUV](https://www.tomshardware.com/tech-industry/semiconductors/intel-expands-production-of-photomasks-in-california-euv-and-high-na-euv-in-the-focal-point) —— Intel在先进制程上持续投资，18A工艺进展将影响未来AI芯片格局。
-  _Tom's Hardware_
+- [Oxmiq融资3500万美元开发GPU IP，前Intel高管Raja Koduri带队](https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/) —— Raja Koduri的GPU IP初创公司获融资，FPGA已跑通，瞄准数据中心市场，挑战NVIDIA。
+  _EE Times_
+- [三星电子Q3 DRAM价格计划上调至多20%](https://wallstreetcn.com/articles/3776132) —— 存储涨价周期延续，AI基础设施投资持续拉动需求，但下游客户承受力存疑。
+  _华尔街见闻_
 
 ---
 
-## 💬 觉得 AI 算力 / 半导体 这期怎么样？
+## 💬 觉得 半导体 这期怎么样？
 
 [提一条反馈 Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
