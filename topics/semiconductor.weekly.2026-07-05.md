@@ -1,42 +1,63 @@
 # Curio · AI 算力 / 半导体 · 2026-07-05
 
-> 今日 1 条头条 + 3 条备选
+> 今日 2 条头条 + 3 条备选
 
-_今日核心信号：Claude Code 封号事件持续发酵，阿里内部全面禁用，暴露AI编程工具的安全隐忧；同时，Scaling Law 被曝存在方向性错误，可能意味着过去数年大量算力投入效率打折。半导体方面，SK海力士、美光等扩产与HBM竞赛白热化，DRAM价格高企倒逼技术路线转向。_
+_今日核心信号：阿里因后门风险全面禁用Claude Code，国内AI工具链面临信任危机；OpenAI Scaling Law被曝基础bug，全球算力配置可能长期错配。两条新闻叠加，提示AI工程实践需要更审慎的评估框架。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. DRAM 价格暴涨成 AI 算力瓶颈，HBM 挤占产能倒逼技术路线转向
+### 3. DRAM价格暴涨成AI算力瓶颈，技术路线被迫转向分层内存架构
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-DRAM 价格持续飙升，根源在于 HBM 挤占通用产能。AMD 以 AI 调度冷数据至闪存，Apple 将模型常驻 NAND，Marvell 以硬件压缩扩容，闪迪推 HBF 新架构。纯 DRAM 堆砌时代结束，AI 推理转向多层内存架构。
+DRAM价格持续攀升，根源在于HBM挤占产能。AMD、Apple、Marvell等厂商已开始转向AI调度冷数据至闪存、模型常驻NAND等分层策略，纯DRAM堆砌时代正在结束。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DRAM 价格暴涨已成 AI 算力部署关键瓶颈 | 多层内存架构能否完全缓解 DRAM 短缺不确定 |
-| 根源在于 HBM 持续挤占通用 DRAM 产能 | HBM4 量产时间（2026 Q2）可能影响供需格局 |
-| AMD、Apple、Marvell、闪迪等已转向替代方案 | 消费者端价格承受力已接近极限 |
-| PC 经销商称价格至少一年内看不到下降尽头 | AI 需求是否见顶将决定价格走势 |
+| DRAM价格因HBM产能挤占持续上涨，PC内存一天三个价 | 分层内存架构能否完全替代DRAM堆砌尚不确定 |
+| AMD推出AI调度方案将冷数据迁移至闪存 | 闪迪HBF新架构的成熟度与量产时间未知 |
+| Apple将部分模型参数常驻NAND以降低DRAM需求 | HBM4的出货节奏可能缓解部分压力 |
+| Marvell发布硬件压缩方案扩容内存带宽 | 消费者端涨价趋势至少持续到2027年 |
 
 **📖 主编点评**
 
-如果你在搭建个人 AI 项目，内存成本会持续高企。考虑使用量化模型、闪存缓存或云端推理来降低本地内存需求。关注 HBF 等新架构的进展，可能成为未来性价比之选。
+如果你在部署AI应用或做推理优化，需要重新评估内存预算。可以考虑使用量化、模型剪枝等技术减少DRAM占用，或者关注支持闪存直存的推理框架。
 
 📺 [打开原文](https://wallstreetcn.com/articles/3776211)
 
 ---
 
+### 4. SK海力士宣布7130亿美元国内投资计划，并筹备纳斯达克上市
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _EE Times_
+
+SK海力士计划投资7130亿美元（约合713B韩元）扩大韩国本土半导体制造产能，同时正在筹备纳斯达克上市。这是韩国存储芯片史上最大规模投资，旨在巩固HBM市场领导地位。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| SK海力士宣布7130亿美元国内投资计划 | 投资落地时间表尚未公布，可能分5-10年完成 |
+| 投资将用于扩建HBM和先进DRAM产能 | 纳斯达克上市估值和具体时间未定 |
+| 公司正在筹备纳斯达克上市 | 对全球DRAM供需格局的影响需观察 |
+| 韩国政府将提供税收优惠和补贴支持 | 三星和美光可能跟进类似投资计划 |
+
+**📖 主编点评**
+
+存储芯片产能扩张对AI算力成本有长期利好，但短期涨价压力仍在。关注SK海力士美股上市后的融资用途，可能影响HBM4的研发进度。
+
+📺 [打开原文](https://www.eetimes.com/sk-hynix-plans-713b-domestic-investment/)
+
+---
+
 ## 📋 备选阅读
 
-- [SK hynix 计划投资 7130 亿美元扩产并寻求纳斯达克上市](https://www.eetimes.com/sk-hynix-plans-713b-domestic-investment/) —— 存储巨头巨额投资，但属于长期战略，短期影响有限。
-  _EE Times_
-- [Intel 18A 晶圆对晶圆良率问题已解决，月产能达 1.5 万片](https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-wafer-to-wafer-yield-issues-fixed-report-claims-says-production-up-to-15-000-wafers-per-month-at-both-sites) —— Intel 先进制程进展，但尚未大规模量产，对市场影响待观察。
+- [Intel 18A wafer-to-wafer yield issues fixed](https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-wafer-to-wafer-yield-issues-fixed-report-claims-says-production-up-to-15-000-wafers-per-month-at-both-sites) —— Intel 18A良率问题修复，月产能达1.5万片，对先进制程竞争有影响但用户关注度较低。
   _Tom's Hardware_
-- [美光日本 90 亿美元 HBM 扩建项目开工，预计 2028 年出货](https://wallstreetcn.com/articles/3776210) —— HBM 产能扩张，但 2028 年才出货，短期无法缓解当前短缺。
+- [美光日本90亿美元扩建项目开工，预计2028年出货HBM](https://wallstreetcn.com/articles/3776210) —— 美光93亿美元扩建广岛工厂，日本政府补贴5000亿日元，HBM产能竞赛加剧。
   _华尔街见闻_
+- [SK hynix, Samsung, Micron面临第三起DRAM价格操纵诉讼](https://www.tomshardware.com/pc-components/dram/samsung-sk-hynix-and-micron-face-a-third-dram-price-fixing-lawsuit) —— 17名原告在加州北区法院起诉三大存储厂商，HBM分配可能成为新焦点。
+  _Tom's Hardware_
 
 ---
 

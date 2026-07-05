@@ -1,52 +1,52 @@
 # Curio 趋势雷达 · 2026-07-05
 
-> 你的私人主编 · 今日跨域精选 4 条头条 + 12 条备选
+> 你的私人主编 · 今日跨域精选 4 条头条 + 13 条备选
 
-_今日核心信号：Claude Code 封号事件持续发酵，阿里内部全面禁用，暴露AI编程工具的安全隐忧；同时，Scaling Law 被曝存在方向性错误，可能意味着过去数年大量算力投入效率打折。半导体方面，SK海力士、美光等扩产与HBM竞赛白热化，DRAM价格高企倒逼技术路线转向。_
+_今日核心信号：阿里因后门风险全面禁用Claude Code，国内AI工具链面临信任危机；OpenAI Scaling Law被曝基础bug，全球算力配置可能长期错配。两条新闻叠加，提示AI工程实践需要更审慎的评估框架。_
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 1. 阿里内部全面禁用Claude Code，因发现隐蔽后门代码
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
+
+据TechCrunch报道，阿里已将Claude Code列为高风险软件并禁止员工使用。此前B站up主程序员鱼皮逆向Claude Code源码，发现Anthropic在客户端中植入了一套隐蔽的用户标记系统，可能用于检测和封禁中国区用户。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 阿里内部邮件将Claude Code列为高风险软件，要求员工立即停止使用 | Anthropic是否故意针对中国用户设计此机制尚未确认 |
+| 国外开发者逆向Claude Code源码发现隐蔽的用户标记系统 | 其他AI编程工具（如Cursor、Codex）是否存在类似后门未知 |
+| 该标记系统可识别用户地理位置并触发封号 | 国内替代方案（如DeepSeek、通义灵码）能否承接需求待观察 |
+| 此前大量中国用户遭遇Claude Code封号，原因不明 | 此举是否违反中国网络安全法中的用户知情权条款 |
+
+**📖 主编点评**
+
+你在做content-curator项目时如果依赖Claude Code，需要立即评估风险。建议切换到开源方案或本地部署模型，至少不要在涉及个人数据和项目代码的环节使用。这也提醒你：AI工具的供应链安全正在成为新的工程实践课题。
+
+📺 [打开原文](https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/)
 
 ---
 
 ## 🌟 AI
 
-### 1. Claude Code 封号原因曝光：Anthropic 植入隐形用户标记系统，阿里内部全面禁用
-
-**[AI]** · ⭐⭐⭐⭐⭐ · _程序员鱼皮_
-
-国外开发者逆向 Claude Code 源码发现，Anthropic 在客户端里藏了一套隐蔽的用户标记系统，用于识别并封禁非合规用户。阿里内部已将此工具列为高风险软件，全面禁用。事件折射出AI编程工具的安全性与供应链风险。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| 国外开发者逆向 Claude Code 源码发现隐蔽用户标记系统 | 标记系统具体触发条件尚不明确 |
-| Anthropic 客户端内置了针对中国用户的隐形代码 | Anthropic 官方尚未公开回应此事 |
-| 阿里内部将 Claude Code 列为高风险软件并全面禁用 | 其他中国科技公司是否跟进禁用未知 |
-| 36氪从阿里内部人士处确认该消息 | 该事件对Claude Code用户信任的长期影响待观察 |
-|  | 是否涉及数据合规问题需进一步确认 |
-
-**📖 主编点评**
-
-如果你在用 Claude Code 做 side project，建议暂时切换到 Cursor 或 Codex，并关注 Anthropic 的官方回应。对于 content-curator 项目，可以考虑用本地模型或开源工具替代，避免依赖单一闭源服务。
-
-📺 [打开原文](http://www.bilibili.com/video/av116844031774993)
-
----
-
-### 2. OpenAI Scaling Law 原作被曝存在 bug：方向错误导致万亿算力浪费
+### 2. OpenAI Scaling Law被曝基础bug，全球或浪费万亿算力
 
 **[AI]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
 
-DeepMind 研究员指出，OpenAI 最初的 Scaling Law 错误引导行业长期“重参数、轻数据”，让大量模型训练不足、算力配置失衡。后续研究证实模型与数据应同步放大，此前方向可能浪费了海量 GPU 资源。
+DeepMind研究员指出，OpenAI最初的Scaling Law论文存在方法论错误，导致行业长期「重参数、轻数据」，大量模型训练不足、算力配置失衡。后续研究证实模型与数据应同步放大，此前方向可能浪费了海量GPU资源。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DeepMind 研究员指出 OpenAI Scaling Law 存在方向性错误 | 具体浪费的算力规模尚无精确估算 |
-| 错误引导行业长期“重参数、轻数据” | OpenAI 是否已内部修正该方向未知 |
-| 后续研究证实模型与数据应同步放大 | 对现有大模型训练策略的调整影响待评估 |
-| 全球可能因此浪费了数年研发时间和海量 GPU 资源 | 该发现是否会改变行业共识尚不确定 |
-|  | 对下游应用（如 Agent 工具）的间接影响需观察 |
+| DeepMind研究员指出OpenAI Scaling Law论文存在方法论缺陷 | 具体浪费的算力规模尚无精确估算，但可能达数千亿美元 |
+| 原论文错误引导行业优先增加参数而非数据量 | OpenAI是否已在新模型中修正该错误未公开 |
+| 后续实验证明模型与数据需同步缩放才能达到最优 | 对已训练完成的大模型（如GPT-4）影响程度未知 |
+| 多家实验室已开始调整训练策略，重新评估数据配比 | 该发现是否会导致行业训练范式根本性转变待观察 |
 
 **📖 主编点评**
 
-这对你的 content-curator 项目是个提醒：不要盲目追求大模型参数，数据质量和配比同样关键。在构建 Agent 时，优先优化 prompt 和工具调用效率，而非单纯堆模型能力。
+这对你理解AI行业走向很重要：如果你在做Agent项目，不要盲目追求大参数模型，数据质量和配比可能更关键。建议关注DeepMind后续的修正论文，这可能会改变未来6-12个月的模型选型策略。
 
 📺 [打开原文](https://wallstreetcn.com/articles/3776218)
 
@@ -54,47 +54,45 @@ DeepMind 研究员指出，OpenAI 最初的 Scaling Law 错误引导行业长期
 
 ## 🌟 AI 算力 / 半导体
 
-### 3. DRAM 价格暴涨成 AI 算力瓶颈，HBM 挤占产能倒逼技术路线转向
+### 3. DRAM价格暴涨成AI算力瓶颈，技术路线被迫转向分层内存架构
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-DRAM 价格持续飙升，根源在于 HBM 挤占通用产能。AMD 以 AI 调度冷数据至闪存，Apple 将模型常驻 NAND，Marvell 以硬件压缩扩容，闪迪推 HBF 新架构。纯 DRAM 堆砌时代结束，AI 推理转向多层内存架构。
+DRAM价格持续攀升，根源在于HBM挤占产能。AMD、Apple、Marvell等厂商已开始转向AI调度冷数据至闪存、模型常驻NAND等分层策略，纯DRAM堆砌时代正在结束。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DRAM 价格暴涨已成 AI 算力部署关键瓶颈 | 多层内存架构能否完全缓解 DRAM 短缺不确定 |
-| 根源在于 HBM 持续挤占通用 DRAM 产能 | HBM4 量产时间（2026 Q2）可能影响供需格局 |
-| AMD、Apple、Marvell、闪迪等已转向替代方案 | 消费者端价格承受力已接近极限 |
-| PC 经销商称价格至少一年内看不到下降尽头 | AI 需求是否见顶将决定价格走势 |
+| DRAM价格因HBM产能挤占持续上涨，PC内存一天三个价 | 分层内存架构能否完全替代DRAM堆砌尚不确定 |
+| AMD推出AI调度方案将冷数据迁移至闪存 | 闪迪HBF新架构的成熟度与量产时间未知 |
+| Apple将部分模型参数常驻NAND以降低DRAM需求 | HBM4的出货节奏可能缓解部分压力 |
+| Marvell发布硬件压缩方案扩容内存带宽 | 消费者端涨价趋势至少持续到2027年 |
 
 **📖 主编点评**
 
-如果你在搭建个人 AI 项目，内存成本会持续高企。考虑使用量化模型、闪存缓存或云端推理来降低本地内存需求。关注 HBF 等新架构的进展，可能成为未来性价比之选。
+如果你在部署AI应用或做推理优化，需要重新评估内存预算。可以考虑使用量化、模型剪枝等技术减少DRAM占用，或者关注支持闪存直存的推理框架。
 
 📺 [打开原文](https://wallstreetcn.com/articles/3776211)
 
 ---
 
-## 🌟 大厂 AI 动态
+### 4. SK海力士宣布7130亿美元国内投资计划，并筹备纳斯达克上市
 
-### 4. 苹果 AI 功能未能引爆换机潮，瑞银调查显示用户升级意愿持续下滑
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _EE Times_
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _华尔街见闻_
-
-瑞银调查显示，因 Apple Intelligence 提前换机的意愿降至约 24%，认为对购机“无影响”的比例升至约 31%。折叠屏 iPhone 被视为潜在亮点，初期或贡献约 500 万台销量。
+SK海力士计划投资7130亿美元（约合713B韩元）扩大韩国本土半导体制造产能，同时正在筹备纳斯达克上市。这是韩国存储芯片史上最大规模投资，旨在巩固HBM市场领导地位。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 因 Apple Intelligence 提前换机的意愿降至约 24% | Apple Intelligence 功能体验是否达到用户预期存疑 |
-| 认为对购机无影响的比例升至约 31% | 折叠屏能否成为真正需求驱动因素不确定 |
-| 美国市场 iPhone 购买意向同比上升约 300 个基点至约 20% | 安卓阵营 AI 功能竞争可能进一步分流用户 |
-| 折叠屏 iPhone 初期或贡献约 500 万台销量 | 换机周期延长趋势是否持续需观察 |
+| SK海力士宣布7130亿美元国内投资计划 | 投资落地时间表尚未公布，可能分5-10年完成 |
+| 投资将用于扩建HBM和先进DRAM产能 | 纳斯达克上市估值和具体时间未定 |
+| 公司正在筹备纳斯达克上市 | 对全球DRAM供需格局的影响需观察 |
+| 韩国政府将提供税收优惠和补贴支持 | 三星和美光可能跟进类似投资计划 |
 
 **📖 主编点评**
 
-苹果 AI 未能拉动换机，说明当前手机端 AI 功能对普通用户吸引力有限。做 Agent 项目时，优先考虑桌面端或云端部署，移动端 AI 体验仍需等待硬件和交互创新。
+存储芯片产能扩张对AI算力成本有长期利好，但短期涨价压力仍在。关注SK海力士美股上市后的融资用途，可能影响HBM4的研发进度。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3776203)
+📺 [打开原文](https://www.eetimes.com/sk-hynix-plans-713b-domestic-investment/)
 
 ---
 
@@ -102,38 +100,37 @@ DRAM 价格持续飙升，根源在于 HBM 挤占通用产能。AMD 以 AI 调�
 
 ### AI
 
-- [吴恩达 2026 Agent 智能体教程（附课件代码）](http://www.bilibili.com/video/av115897075242856) —— 经典教程但发布于1月，时效性一般，适合入门但非今日必读。
-  _吴恩达Agent_
-- [Claude Science 发布：专为科研打造的 AI 工具](http://www.bilibili.com/video/av116840541984361) —— Anthropic 新工具，内置科学渲染器和持久化内核，但面向科研场景，与你的 Agent 项目关联度较低。
+- [Claude Code封号原因曝光：Anthropic植入隐蔽用户标记系统](http://www.bilibili.com/video/av116844031774993) —— B站up主逆向Claude Code源码发现隐蔽标记系统，与阿里禁用事件互为补充，但深度不及TechCrunch报道。
+  _程序员鱼皮_
+- [Claude官方发布科研神器Claude Science](http://www.bilibili.com/video/av116840541984361) —— 内置科学渲染器、持久化Python/R内核，可连接本地GPU/HPC集群，对科研场景有价值但非用户当前关注点。
   _旭光升_
-- [零基础 Vibe Coding 教程（尚硅谷）](http://www.bilibili.com/video/av116711944620974) —— 2026年6月发布的系统教程，适合入门但内容偏基础，对已有经验的你帮助有限。
-  _尚硅谷_
-- [MCP 终极指南 - 从原理到实战（基础篇）](http://www.bilibili.com/video/av114339210073708) —— MCP 深度教程，但发布于4月，且你已熟悉 MCP，可作为备查。
-  _马克的技术工作坊_
+- [Vibe Coding零基础入门教程（黑马程序员）](http://www.bilibili.com/video/av116838327388595) —— 涵盖Claude Code、Cursor、Codex等工具，适合新手但内容偏基础，用户可能已掌握。
+  _黑马程序员_
+- [Cursor已死？退订Cursor转投Claude Code和Codex](http://www.bilibili.com/video/av116819553683121) —— 个人体验分享，观点有参考价值但缺乏工程细节，作为头条深度不够。
+  _小狗瑞恩Ryan_
 
 ### AI 算力 / 半导体
 
-- [SK hynix 计划投资 7130 亿美元扩产并寻求纳斯达克上市](https://www.eetimes.com/sk-hynix-plans-713b-domestic-investment/) —— 存储巨头巨额投资，但属于长期战略，短期影响有限。
-  _EE Times_
-- [Intel 18A 晶圆对晶圆良率问题已解决，月产能达 1.5 万片](https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-wafer-to-wafer-yield-issues-fixed-report-claims-says-production-up-to-15-000-wafers-per-month-at-both-sites) —— Intel 先进制程进展，但尚未大规模量产，对市场影响待观察。
+- [Intel 18A wafer-to-wafer yield issues fixed](https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-wafer-to-wafer-yield-issues-fixed-report-claims-says-production-up-to-15-000-wafers-per-month-at-both-sites) —— Intel 18A良率问题修复，月产能达1.5万片，对先进制程竞争有影响但用户关注度较低。
   _Tom's Hardware_
-- [美光日本 90 亿美元 HBM 扩建项目开工，预计 2028 年出货](https://wallstreetcn.com/articles/3776210) —— HBM 产能扩张，但 2028 年才出货，短期无法缓解当前短缺。
+- [美光日本90亿美元扩建项目开工，预计2028年出货HBM](https://wallstreetcn.com/articles/3776210) —— 美光93亿美元扩建广岛工厂，日本政府补贴5000亿日元，HBM产能竞赛加剧。
   _华尔街见闻_
+- [SK hynix, Samsung, Micron面临第三起DRAM价格操纵诉讼](https://www.tomshardware.com/pc-components/dram/samsung-sk-hynix-and-micron-face-a-third-dram-price-fixing-lawsuit) —— 17名原告在加州北区法院起诉三大存储厂商，HBM分配可能成为新焦点。
+  _Tom's Hardware_
 
 ### 大厂 AI 动态
 
-- [阿里内部全面禁用 Claude Code](https://36kr.com/p/3880629882679301?f=rss) —— 与头条1事件相同，但36氪报道更详细，可作为补充。
+- [Midjourney要求好莱坞披露AI使用细节](https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/) —— 法律纠纷中Midjourney要求三家好莱坞工作室披露AI使用情况，涉及版权和透明度。
+  _TechCrunch_
+- [硅基流动向港交所递交上市申请](https://36kr.com/p/3879814941437956?f=rss) —— 袁进辉新公司成立不到三年冲刺港股IPO，AI基础设施赛道资本化加速。
   _36氪_
-- [硅基流动向港交所递交上市申请](https://36kr.com/p/3879814941437956?f=rss) —— AI 算力平台 IPO，反映行业资本化加速，但与你直接关联不大。
+- [小米前高管唐沐创业咖啡机器人，完成数亿融资](https://36kr.com/p/3882361033322755?f=rss) —— 影智XBOT获3-5亿元B轮融资，餐饮垂直机器人赛道最大融资之一。
   _36氪_
-- [理想汽车组织再动刀：产品部部分职能并入研发](https://36kr.com/p/3877919172047111?f=rss) —— 车企组织调整，非 AI 核心，但体现行业趋势。
+- [Meta打算出售富余算力引发科技股回落](https://36kr.com/p/3880629882679301?f=rss) —— Meta拟向外部客户出售AI算力，市场担忧资本开支回报率，短期情绪扰动。
   _36氪_
-
-### 金融
-
-- [高盛：美股 AI 上涨力竭，下半年布局防御板块](https://wallstreetcn.com/articles/3776200) —— 投行观点，对个人投资有参考价值，但非技术内容。
+- [苹果AI功能未能引爆换机潮，用户升级意愿持续下滑](https://wallstreetcn.com/articles/3776203) —— 瑞银调查显示因Apple Intelligence换机意愿降至24%，折叠屏iPhone被视为潜在亮点。
   _华尔街见闻_
-- [天下苦 DRAM 久矣：价格暴涨倒逼技术路线转向](https://wallstreetcn.com/articles/3776211) —— 与头条3相同，但更侧重金融视角，可作补充。
+- [当AI账单失控，模型路由器成为企业降本新宠](https://wallstreetcn.com/articles/3776199) —— 按任务复杂度调度大小模型，最高节省97%算力开支，Agent工程实践值得关注。
   _华尔街见闻_
 
 ---
