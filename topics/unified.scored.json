@@ -1,217 +1,190 @@
 {
-  "date": "2026-07-04",
-  "intro": "今天三个关键信号：Anthropic 与三星洽谈定制芯片，AI 军备竞赛从模型层烧到硅层；OpenAI 向美国政府让出 5% 股权，地缘政治博弈加速；美国电网因 AI 数据中心和极端高温濒临极限，北弗吉尼亚电价飙升 60 倍。你的 content-curator 项目正好赶上 Agent 工具链的爆发期，Claude Code 封号事件和 Meta 的 vibe coding 游戏 app 都是实操信号。",
+  "date": "2026-07-05",
+  "intro": "今日核心信号：Claude Code 封号事件持续发酵，阿里内部全面禁用，暴露AI编程工具的安全隐忧；同时，Scaling Law 被曝存在方向性错误，可能意味着过去数年大量算力投入效率打折。半导体方面，SK海力士、美光等扩产与HBM竞赛白热化，DRAM价格高企倒逼技术路线转向。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI / 科技",
-      "id": "rss:https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-      "source": "TechCrunch",
-      "stars": 5,
-      "title": "Anthropic 与三星洽谈定制 AI 芯片，继 OpenAI 后又一模型厂商自研硅片",
-      "lead": "继 OpenAI 上周宣布与 Broadcom 合作开发定制芯片后，Anthropic 也被曝正在与三星讨论自研芯片。三星代工业务订单积压已达 50 万亿韩元，客户包括特斯拉、Meta 和 Anthropic，核心驱动力是其 2nm 制程。这意味着 AI 模型公司正在集体从\"租算力\"转向\"造算力\"，芯片定制化成为下一阶段竞争壁垒。",
-      "confirmed": [
-        "Anthropic 与三星正在进行定制 AI 芯片的早期讨论",
-        "三星代工业务订单积压约 50 万亿韩元（约 380 亿美元）",
-        "Meta 和特斯拉已转向三星 2nm 制程",
-        "OpenAI 一周前宣布与 Broadcom 合作开发定制芯片"
-      ],
-      "judgment": [
-        "Anthropic 芯片的具体架构和量产时间表尚未披露",
-        "三星 2nm 良率是否满足 AI 训练/推理芯片要求仍待验证",
-        "定制芯片能否显著降低 Anthropic 的推理成本尚未量化"
-      ],
-      "implication": "你正在做的 content-curator Agent 项目，未来可能直接受益于更便宜的推理芯片。关注 Anthropic 的定制芯片进展——如果它用自研芯片降低 API 价格，你的 Agent 运行成本也会下降。同时，三星 2nm 代工产能的分配情况会影响整个 AI 硬件供应链，建议跟踪三星代工业务 Q4 是否如期扭亏。"
-    },
-    {
-      "rank": 2,
-      "domain": "AI / 科技",
-      "id": "rss:https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
-      "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
-      "source": "TechCrunch",
-      "stars": 5,
-      "title": "OpenAI 提议向美国政府让出 5% 股权，Altman 试图用\"公共基金\"换监管绿灯",
-      "lead": "Sam Altman 向特朗普政府提议将 OpenAI 5% 的股权注入美国主权财富基金，同时希望每个领先的 AI 实验室都向类似 Alaska 模式的公共基金缴费。此举发生在华盛顿推迟 GPT-5.6 发布之后数天。OpenAI 正在用股权换监管空间，这可能是 AI 行业\"国家化\"的开端。",
-      "confirmed": [
-        "Altman 已向特朗普、商务部长和财政部长提出 5% 股权方案",
-        "该提议发生在美国政府推迟 GPT-5.6 发布之后",
-        "Altman 希望所有美国 AI 实验室向公共基金缴费"
-      ],
-      "judgment": [
-        "5% 股权估值基础未公开（OpenAI 最新估值约 3000 亿美元）",
-        "国会是否会立法强制 AI 公司让出股权仍不确定",
-        "其他 AI 公司（Anthropic、xAI）是否跟进未知"
-      ],
-      "implication": "这对你的 content-curator 项目意味着：如果 OpenAI 被纳入政府监管框架，API 的可用性和定价可能更稳定，但创新速度可能放缓。建议你同时依赖多个模型供应商（如 Anthropic、Google），避免单一依赖。另外，关注 GPT-5.6 的发布延迟是否会影响你项目中的模型选择。"
-    },
-    {
-      "rank": 3,
-      "domain": "AI / 科技",
+      "domain": "AI",
       "id": "bvid:BV1VDTv6rEtM",
       "url": "http://www.bilibili.com/video/av116844031774993",
       "source": "程序员鱼皮",
-      "stars": 4,
-      "title": "Claude Code 封号原因曝光：Anthropic 在客户端植入隐形用户标记系统",
-      "lead": "国外开发者逆向 Claude Code 源码发现，Anthropic 内置了一套隐蔽的用户标记系统，用于检测和封禁非授权地区的用户。这对中国开发者影响直接——你正在用 Claude Code 做 content-curator 项目，需要了解封号机制以避免 workflow 中断。",
+      "stars": 5,
+      "title": "Claude Code 封号原因曝光：Anthropic 植入隐形用户标记系统，阿里内部全面禁用",
+      "lead": "国外开发者逆向 Claude Code 源码发现，Anthropic 在客户端里藏了一套隐蔽的用户标记系统，用于识别并封禁非合规用户。阿里内部已将此工具列为高风险软件，全面禁用。事件折射出AI编程工具的安全性与供应链风险。",
       "confirmed": [
-        "逆向分析发现 Claude Code 客户端包含用户标记代码",
-        "该系统用于检测非授权地区用户并触发封号",
-        "大量中国用户近期遭遇封号"
+        "国外开发者逆向 Claude Code 源码发现隐蔽用户标记系统",
+        "Anthropic 客户端内置了针对中国用户的隐形代码",
+        "阿里内部将 Claude Code 列为高风险软件并全面禁用",
+        "36氪从阿里内部人士处确认该消息"
       ],
       "judgment": [
-        "Anthropic 官方尚未公开承认该标记系统",
-        "绕过方法（如代理）的长期有效性不确定",
-        "是否会影响已购买 Pro 订阅的用户未知"
+        "标记系统具体触发条件尚不明确",
+        "Anthropic 官方尚未公开回应此事",
+        "其他中国科技公司是否跟进禁用未知",
+        "该事件对Claude Code用户信任的长期影响待观察",
+        "是否涉及数据合规问题需进一步确认"
       ],
-      "implication": "如果你在用 Claude Code 开发 content-curator，建议准备备用方案：配置 Cursor 或 Codex 作为 fallback，或者使用本地部署的模型（如 Code Llama）。同时关注社区提供的\"干净\"客户端修改版，但注意安全风险。"
+      "implication": "如果你在用 Claude Code 做 side project，建议暂时切换到 Cursor 或 Codex，并关注 Anthropic 的官方回应。对于 content-curator 项目，可以考虑用本地模型或开源工具替代，避免依赖单一闭源服务。"
+    },
+    {
+      "rank": 2,
+      "domain": "AI",
+      "id": "wscn:3776218",
+      "url": "https://wallstreetcn.com/articles/3776218",
+      "source": "华尔街见闻",
+      "stars": 5,
+      "title": "OpenAI Scaling Law 原作被曝存在 bug：方向错误导致万亿算力浪费",
+      "lead": "DeepMind 研究员指出，OpenAI 最初的 Scaling Law 错误引导行业长期“重参数、轻数据”，让大量模型训练不足、算力配置失衡。后续研究证实模型与数据应同步放大，此前方向可能浪费了海量 GPU 资源。",
+      "confirmed": [
+        "DeepMind 研究员指出 OpenAI Scaling Law 存在方向性错误",
+        "错误引导行业长期“重参数、轻数据”",
+        "后续研究证实模型与数据应同步放大",
+        "全球可能因此浪费了数年研发时间和海量 GPU 资源"
+      ],
+      "judgment": [
+        "具体浪费的算力规模尚无精确估算",
+        "OpenAI 是否已内部修正该方向未知",
+        "对现有大模型训练策略的调整影响待评估",
+        "该发现是否会改变行业共识尚不确定",
+        "对下游应用（如 Agent 工具）的间接影响需观察"
+      ],
+      "implication": "这对你的 content-curator 项目是个提醒：不要盲目追求大模型参数，数据质量和配比同样关键。在构建 Agent 时，优先优化 prompt 和工具调用效率，而非单纯堆模型能力。"
+    },
+    {
+      "rank": 3,
+      "domain": "AI 算力 / 半导体",
+      "id": "wscn:3776211",
+      "url": "https://wallstreetcn.com/articles/3776211",
+      "source": "华尔街见闻",
+      "stars": 4,
+      "title": "DRAM 价格暴涨成 AI 算力瓶颈，HBM 挤占产能倒逼技术路线转向",
+      "lead": "DRAM 价格持续飙升，根源在于 HBM 挤占通用产能。AMD 以 AI 调度冷数据至闪存，Apple 将模型常驻 NAND，Marvell 以硬件压缩扩容，闪迪推 HBF 新架构。纯 DRAM 堆砌时代结束，AI 推理转向多层内存架构。",
+      "confirmed": [
+        "DRAM 价格暴涨已成 AI 算力部署关键瓶颈",
+        "根源在于 HBM 持续挤占通用 DRAM 产能",
+        "AMD、Apple、Marvell、闪迪等已转向替代方案",
+        "PC 经销商称价格至少一年内看不到下降尽头"
+      ],
+      "judgment": [
+        "多层内存架构能否完全缓解 DRAM 短缺不确定",
+        "HBM4 量产时间（2026 Q2）可能影响供需格局",
+        "消费者端价格承受力已接近极限",
+        "AI 需求是否见顶将决定价格走势"
+      ],
+      "implication": "如果你在搭建个人 AI 项目，内存成本会持续高企。考虑使用量化模型、闪存缓存或云端推理来降低本地内存需求。关注 HBF 等新架构的进展，可能成为未来性价比之选。"
     },
     {
       "rank": 4,
-      "domain": "AI / 科技",
-      "id": "rss:https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
-      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
-      "source": "TechCrunch",
-      "stars": 4,
-      "title": "Meta 低调发布 vibe coding 游戏应用 Pocket，用提示词生成可分享的迷你游戏",
-      "lead": "Meta 的实验性 AI 应用 Pocket 允许用户通过文本提示词生成并分享交互式迷你游戏。这是 Meta 在 AI Agent 和生成式娱乐领域的又一次试探，也验证了\"vibe coding\"（用自然语言编程）从开发者工具扩展到消费级产品的趋势。",
-      "confirmed": [
-        "Pocket 是 Meta 内部孵化的实验性 AI 应用",
-        "用户通过文本提示词生成可交互的迷你游戏",
-        "支持游戏分享功能"
-      ],
-      "judgment": [
-        "Pocket 是否独立运营还是集成到 Meta 现有产品未知",
-        "生成游戏的质量和复杂度上限未公开",
-        "Meta 是否计划商业化该产品不确定"
-      ],
-      "implication": "vibe coding 正在从开发者工具走向大众消费，你的 content-curator 项目可以借鉴这一思路：让用户通过自然语言配置自己的信息流 Agent，而不是写代码。关注 Pocket 的技术实现（可能基于 Meta 的 Llama 模型），这可能会影响你项目中 Agent 的交互设计。"
-    },
-    {
-      "rank": 5,
-      "domain": "AI / 科技",
-      "id": "wscn:3776184",
-      "url": "https://wallstreetcn.com/articles/3776184",
+      "domain": "大厂 AI 动态",
+      "id": "wscn:3776203",
+      "url": "https://wallstreetcn.com/articles/3776203",
       "source": "华尔街见闻",
-      "stars": 5,
-      "title": "美国最大电网电价飙升 60 倍：AI 数据中心扩张撞上极端高温，PJM 触发二级紧急警报",
-      "lead": "美国最大电网运营商 PJM 在高温、机组故障和输电过载三重压力下触发二级能源紧急警报。全球最大数据中心集群所在地北弗吉尼亚现货电价突破 2500 美元/MWh（平时约 40 美元）。这直接冲击 AI 训练和推理成本——你的 content-curator 如果依赖云 API，未来可能面临成本波动。",
+      "stars": 4,
+      "title": "苹果 AI 功能未能引爆换机潮，瑞银调查显示用户升级意愿持续下滑",
+      "lead": "瑞银调查显示，因 Apple Intelligence 提前换机的意愿降至约 24%，认为对购机“无影响”的比例升至约 31%。折叠屏 iPhone 被视为潜在亮点，初期或贡献约 500 万台销量。",
       "confirmed": [
-        "PJM 电网 7 月 2 日触发二级能源紧急警报",
-        "北弗吉尼亚现货电价突破 2500 美元/MWh",
-        "能源部下令所有机组满负荷运行",
-        "极端高温叠加数据中心扩张是主因"
+        "因 Apple Intelligence 提前换机的意愿降至约 24%",
+        "认为对购机无影响的比例升至约 31%",
+        "美国市场 iPhone 购买意向同比上升约 300 个基点至约 20%",
+        "折叠屏 iPhone 初期或贡献约 500 万台销量"
       ],
       "judgment": [
-        "电价飙升是否会导致 AI 公司调整训练计划未确认",
-        "PJM 电网基础设施升级时间表不确定",
-        "是否引发 AI 公司加速自建数据中心和核电未知"
+        "Apple Intelligence 功能体验是否达到用户预期存疑",
+        "折叠屏能否成为真正需求驱动因素不确定",
+        "安卓阵营 AI 功能竞争可能进一步分流用户",
+        "换机周期延长趋势是否持续需观察"
       ],
-      "implication": "如果你计划长期运行 content-curator Agent，建议关注推理成本的地域差异：选择电价较低区域的数据中心（如美国西北部或北欧）。同时，关注 Valar Atomics 等公司的小型核反应堆进展——它们可能在未来 2-3 年改变 AI 计算的能源格局。"
+      "implication": "苹果 AI 未能拉动换机，说明当前手机端 AI 功能对普通用户吸引力有限。做 Agent 项目时，优先考虑桌面端或云端部署，移动端 AI 体验仍需等待硬件和交互创新。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI / 科技",
-      "title": "Meta 内部会议：Zuckerberg 称 AI Agent 进展不及预期",
-      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
-      "source": "TechCrunch",
-      "one_liner": "Zuckerberg 承认 Meta 的 AI Agent 开发慢于预期，说明 Agent 落地仍有工程瓶颈，你的 content-curator 项目需要管理好预期。"
+      "domain": "AI",
+      "title": "吴恩达 2026 Agent 智能体教程（附课件代码）",
+      "url": "http://www.bilibili.com/video/av115897075242856",
+      "source": "吴恩达Agent",
+      "one_liner": "经典教程但发布于1月，时效性一般，适合入门但非今日必读。"
     },
     {
-      "domain": "AI / 科技",
-      "title": "Google 2025 年电力消耗因 AI 增长 37%",
-      "url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/",
-      "source": "Ars Technica",
-      "one_liner": "Google 的 AI 建设导致电力消耗暴增，与 PJM 电价飙升形成呼应——AI 的能源成本正在成为硬约束。"
+      "domain": "AI",
+      "title": "Claude Science 发布：专为科研打造的 AI 工具",
+      "url": "http://www.bilibili.com/video/av116840541984361",
+      "source": "旭光升",
+      "one_liner": "Anthropic 新工具，内置科学渲染器和持久化内核，但面向科研场景，与你的 Agent 项目关联度较低。"
     },
     {
-      "domain": "AI / 科技",
-      "title": "豆包与通义千问将于 7 月 15 日下线智能体功能",
-      "url": "https://wallstreetcn.com/articles/3776193",
-      "source": "华尔街见闻",
-      "one_liner": "国内 AI 智能体因监管收紧集体下线，你的 content-curator 如果面向国内用户需要关注合规风险。"
+      "domain": "AI",
+      "title": "零基础 Vibe Coding 教程（尚硅谷）",
+      "url": "http://www.bilibili.com/video/av116711944620974",
+      "source": "尚硅谷",
+      "one_liner": "2026年6月发布的系统教程，适合入门但内容偏基础，对已有经验的你帮助有限。"
     },
     {
-      "domain": "AI / 科技",
-      "title": "Anthropic 发布 Claude Science：面向科研人员的 AI 工作台",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
-      "source": "The Verge",
-      "one_liner": "Anthropic 推出专为科研设计的 AI 工具，内置科学渲染器和持久化内核，可能成为你 content-curator 项目中的信息分析模块参考。"
+      "domain": "AI",
+      "title": "MCP 终极指南 - 从原理到实战（基础篇）",
+      "url": "http://www.bilibili.com/video/av114339210073708",
+      "source": "马克的技术工作坊",
+      "one_liner": "MCP 深度教程，但发布于4月，且你已熟悉 MCP，可作为备查。"
     },
     {
-      "domain": "AI / 科技",
+      "domain": "AI 算力 / 半导体",
+      "title": "SK hynix 计划投资 7130 亿美元扩产并寻求纳斯达克上市",
+      "url": "https://www.eetimes.com/sk-hynix-plans-713b-domestic-investment/",
+      "source": "EE Times",
+      "one_liner": "存储巨头巨额投资，但属于长期战略，短期影响有限。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
       "title": "Intel 18A 晶圆对晶圆良率问题已解决，月产能达 1.5 万片",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-wafer-to-wafer-yield-issues-fixed-report-claims-says-production-up-to-15-000-wafers-per-month-at-both-sites",
       "source": "Tom's Hardware",
-      "one_liner": "Intel 18A 工艺良率修复，月产能爬坡至 1.5 万片，可能影响未来 AI 芯片的代工格局。"
+      "one_liner": "Intel 先进制程进展，但尚未大规模量产，对市场影响待观察。"
     },
     {
-      "domain": "AI / 科技",
-      "title": "SK hynix 宣布 7125 亿美元韩国本土投资计划",
-      "url": "https://www.eetimes.com/sk-hynix-plans-713b-domestic-investment/",
-      "source": "EE Times",
-      "one_liner": "SK hynix 大规模投资 NAND 和 DRAM 产能，HBM 供应紧张可能缓解，利好 AI 训练成本下降。"
-    },
-    {
-      "domain": "AI / 科技",
-      "title": "Nvidia 推出\"收入分成\"新商业模式：用算力换云收入分成",
-      "url": "https://www.tomshardware.com/tech-industry/nvidia-to-take-a-cut-of-ai-cloud-revenue-on-top-of-hardware-sales",
-      "source": "Tom's Hardware",
-      "one_liner": "Nvidia 不再只卖硬件，还要从 AI 云收入中抽成——这会推高推理成本，你的 Agent 项目需要关注。"
-    },
-    {
-      "domain": "AI / 科技",
-      "title": "OpenAI 提议 5% 股权给美国政府（备选补充）",
-      "url": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
-      "source": "Ars Technica",
-      "one_liner": "同一事件的不同角度：Ars Technica 报道称 Trump 接受了低于 Sanders 目标的股权比例。"
-    },
-    {
-      "domain": "AI / 科技",
-      "title": "台积电 CoPoS 首代或不采用玻璃基板",
-      "url": "https://wallstreetcn.com/articles/3776175",
+      "domain": "AI 算力 / 半导体",
+      "title": "美光日本 90 亿美元 HBM 扩建项目开工，预计 2028 年出货",
+      "url": "https://wallstreetcn.com/articles/3776210",
       "source": "华尔街见闻",
-      "one_liner": "市场炒作\"玻璃基板\"概念可能被证伪，台积电从未考虑玻璃中介层，投资半导体概念股需谨慎。"
+      "one_liner": "HBM 产能扩张，但 2028 年才出货，短期无法缓解当前短缺。"
     },
     {
-      "domain": "AI / 科技",
-      "title": "黑马程序员发布 Vibe Coding 零基础入门教程",
-      "url": "http://www.bilibili.com/video/av116838327388595",
-      "source": "黑马程序员",
-      "one_liner": "新出的 Vibe Coding 教程覆盖 Claude Code、Cursor、Codex，适合你系统学习 AI 编程工具链。"
+      "domain": "大厂 AI 动态",
+      "title": "阿里内部全面禁用 Claude Code",
+      "url": "https://36kr.com/p/3880629882679301?f=rss",
+      "source": "36氪",
+      "one_liner": "与头条1事件相同，但36氪报道更详细，可作为补充。"
     },
     {
-      "domain": "AI / 科技",
-      "title": "程序员鱼皮锐评 32 个 AI 编程工具",
-      "url": "http://www.bilibili.com/video/av116578532200786",
-      "source": "程序员鱼皮",
-      "one_liner": "实测对比 32 个 AI 编程工具，帮你快速选择最适合 content-curator 项目的工具。"
+      "domain": "大厂 AI 动态",
+      "title": "硅基流动向港交所递交上市申请",
+      "url": "https://36kr.com/p/3879814941437956?f=rss",
+      "source": "36氪",
+      "one_liner": "AI 算力平台 IPO，反映行业资本化加速，但与你直接关联不大。"
     },
     {
-      "domain": "AI / 科技",
-      "title": "Valar Atomics 现场用核微反应堆给 Nvidia 桌面 PC 供电",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/startup-activates-nuclear-microreactor-live-on-stage-to-power-an-nvidia-rtx-spark-desktop-pc-firm-working-with-nvidia-to-build-a-30mw-closed-loop-ai-factory-that-doesnt-use-local-water",
-      "source": "Tom's Hardware",
-      "one_liner": "核能微型反应堆首次公开演示为 AI 硬件供电，未来可能解决数据中心的能源瓶颈。"
+      "domain": "大厂 AI 动态",
+      "title": "理想汽车组织再动刀：产品部部分职能并入研发",
+      "url": "https://36kr.com/p/3877919172047111?f=rss",
+      "source": "36氪",
+      "one_liner": "车企组织调整，非 AI 核心，但体现行业趋势。"
     },
     {
-      "domain": "AI / 科技",
-      "title": "Palantir CEO 炮轰 AI 公司窃取客户数据并收取无效 token 费用",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/palantir-ceo-alex-karp-claims-ai-companies-are-stealing-customers-data-while-charging-them-for-unproductive-tokens-says-livid-businesses-are-paying-for-tokens-that-create-no-value",
-      "source": "Tom's Hardware",
-      "one_liner": "Alex Karp 的批评直击 AI 行业痛点——你的 content-curator 项目应避免无效 token 消耗，优化 prompt 设计。"
+      "domain": "金融",
+      "title": "高盛：美股 AI 上涨力竭，下半年布局防御板块",
+      "url": "https://wallstreetcn.com/articles/3776200",
+      "source": "华尔街见闻",
+      "one_liner": "投行观点，对个人投资有参考价值，但非技术内容。"
     },
     {
-      "domain": "AI / 科技",
-      "title": "GitHub 推出 Repo CD：将公开仓库刻录成 CD-ROM",
-      "url": "https://www.tomshardware.com/pc-components/storage/github-thumbs-nose-at-sonys-controversial-end-to-physical-media-with-its-introduction-of-repo-cds-offers-limited-run-of-1-000-cd-rom-copies-of-public-github-repos-for-preservation",
-      "source": "Tom's Hardware",
-      "one_liner": "GitHub 用 CD-ROM 保存开源代码，限量 1000 张，适合作为你项目代码归档的参考。"
+      "domain": "金融",
+      "title": "天下苦 DRAM 久矣：价格暴涨倒逼技术路线转向",
+      "url": "https://wallstreetcn.com/articles/3776211",
+      "source": "华尔街见闻",
+      "one_liner": "与头条3相同，但更侧重金融视角，可作补充。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-04T07:22:35+0000"
+    "scored_at": "2026-07-05T07:18:37+0000"
   }
 }
