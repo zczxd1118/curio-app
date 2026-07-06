@@ -1,43 +1,64 @@
 # Curio · AI · 2026-07-06
 
-> 今日 1 条头条 + 3 条备选
+> 今日 2 条头条 + 3 条备选
 
-_今日核心信号：Alibaba 封禁 Claude Code 事件持续发酵，暴露 AI 编程工具的地缘风险；三星 Q2 利润预计暴增 18 倍，AI 存储需求依然强劲，但 HBM 混合键合技术推迟暗示封装路线正在调整。_
+_今日核心信号：Alibaba 封禁 Claude Code 引爆 AI 编程工具安全争议，三星 Q2 利润暴增 18 倍刷新纪录，HBM 混合键合技术推迟但光芯片涨价逻辑更健康。AI 编程工具进入地缘政治博弈期，半导体存储与光互联两条主线持续升温。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Alibaba 封禁 Claude Code：隐藏的“中国检测”后门被发现，员工转用 Qoder
+### 1. Alibaba 封禁 Claude Code：Anthropic 被曝植入中国检测代码，地缘政治撕裂 AI 编程工具市场
 
-**[AI]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI]** · ⭐⭐⭐⭐⭐ · _程序员鱼皮_
 
-Anthropic 在 Claude Code 客户端中嵌入了一套隐蔽的用户标记系统，可检测用户是否位于中国并触发封号。Alibaba 将其列为高风险软件，要求员工切换至国产替代 Qoder。这不仅是企业级 AI 工具的地缘政治分水岭，也直接影响了你的 content-curator 项目——如果你依赖 Claude Code 构建 Agent 工作流，需要评估替代方案。
+Alibaba 将 Claude Code 列为高风险软件并全面封禁，员工被要求切换至国产替代 Qoder。国外开发者逆向 Claude Code 源码发现 Anthropic 内置了一套隐蔽的中国用户标记系统，触发封号。这不仅是封号问题，而是 AI 编程工具正在成为地缘政治博弈的新战场。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 国外开发者逆向 Claude Code 源码发现隐蔽的“中国检测”标记系统 | 该检测系统是 Anthropic 主动设计还是第三方库引入？尚未明确 |
-| Alibaba 正式将 Claude Code 列为高风险软件，禁止内部使用 | Qoder 在 Agent 工作流（MCP、多 Agent 协作）上的能力是否足以替代 Claude Code？ |
-| Alibaba 员工被要求切换至国产 AI 编程工具 Qoder | 其他中国科技公司是否会跟进封禁？ |
-| Anthropic 与 Alibaba 之间的裂痕进一步加深 | Anthropic 是否会调整策略以挽回中国市场？ |
-|  | 该事件是否会加速中国 AI 编程工具的自主化进程？ |
+| Alibaba 内部通知将 Claude Code 列为高风险软件，禁止员工使用 | Anthropic 是否故意针对中国用户设计检测机制尚未官方确认 |
+| 国外开发者逆向 Claude Code 源码发现 Anthropic 内置中国检测代码 | Qoder 能否在功能上替代 Claude Code 尚待验证 |
+| Alibaba 员工被要求切换至国产 AI 编程工具 Qoder | 其他中国科技公司是否会跟进封禁 Claude Code |
+| Anthropic 与 Alibaba 关系持续恶化，此前已有多轮摩擦 | 美国政府对 AI 工具出口管制的进一步动作 |
+|  | 开源替代方案（如 Codex）是否会因此受益 |
 
 **📖 主编点评**
 
-如果你正在用 Claude Code 做 content-curator 项目，建议立即备份配置和 prompt，并测试 Qoder 或 Codex 作为备选。长期看，地缘风险可能迫使 AI 工具生态分裂，提前布局多工具兼容的 Agent 架构会更安全。
+你正在做 content-curator Agent 项目，如果依赖 Claude Code 作为编程工具，需要评估被封风险。建议同时配置 Codex 或 Qoder 作为备选，并在项目中保持工具链的灵活性。这件事也提醒你：AI 编程工具的选择不再只是技术决策，地缘政治风险正在渗透到开发者日常。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/alibaba-bans-anthropics-claude-code-after-an-alleged-hidden-china-detection-backdoor-is-uncovered-employees-told-to-switch-to-qoder-as-the-rift-between-the-firms-widens)
+📺 [打开原文](http://www.bilibili.com/video/av116844031774993)
+
+---
+
+### 5. 黑马程序员发布 Vibe Coding 零基础入门教程，涵盖 Claude Code、Cursor、Codex、Agent 开发全栈
+
+**[AI]** · ⭐⭐⭐ · _黑马程序员_
+
+黑马程序员在 7 月 1 日发布了一套完整的 Vibe Coding 零基础入门教程，覆盖 Claude Code、Cursor、Codex、SDD、LangChain、Agent 开发等主流工具和框架。这是目前中文社区最系统的 Vibe Coding 教程之一，适合零基础到进阶的全链路学习。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 教程发布于 2026 年 7 月 1 日 | 教程深度是否足够满足有编程基础的开发者 |
+| 涵盖 Claude Code、Cursor、Codex、SDD、LangChain、Agent 开发 | 是否包含实际项目案例而非纯理论讲解 |
+| 黑马程序员是知名 IT 培训机构，教程质量有保障 | 与尚硅谷等其他机构的 Vibe Coding 教程相比优劣如何 |
+| 配套资料可通过公众号免费获取 | 教程是否及时更新了最新的工具版本 |
+
+**📖 主编点评**
+
+你正在做 content-curator Agent 项目，这套教程可以帮你快速补齐 Vibe Coding 全栈技能。建议重点看 Agent 开发和 LangChain 部分，直接应用到你的项目中。教程免费，性价比很高。
+
+📺 [打开原文](http://www.bilibili.com/video/av116838327388595)
 
 ---
 
 ## 📋 备选阅读
 
-- [Claude Code 封号原因被曝光：隐藏的中国用户标记系统](https://www.bilibili.com/video/av116844031774993) —— 逆向分析证实 Anthropic 在客户端中嵌入隐蔽标记，解释了近期大量中国用户被封的原因。
-  _程序员鱼皮_
-- [Codex 多 Agent 协同开发实战](https://www.bilibili.com/video/av116839870891259) —— 手摸手演示 Codex 多 Agent 协作，适合想搭建复杂 Agent 工作流的开发者。
-  _路边爱吃瓜_
-- [Cursor 已死？退订 Cursor 的真实原因](https://www.bilibili.com/video/av116819553683121) —— 重度用户对比 Cursor、Claude Code、Codex 后选择退订，底层模型差距是关键。
-  _小狗瑞恩Ryan_
+- [星动纪元完成新一轮 10 亿元融资，2026 年来累计融资近 50 亿](https://wallstreetcn.com/articles/3776271) —— 人形机器人赛道持续吸金，但商业化落地仍是未知数，暂不入头条。
+  _华尔街见闻_
+- [千问大模型升级实时语音识别模型 Fun-ASR-Realtime，支持 16 种方言和 30 种语言](https://36kr.com/newsflashes/3883798757683464) —— 百毫秒级首字延迟，对语音 Agent 项目有参考价值，但非独家突破。
+  _36氪_
+- [爱仕达与智元机器人签署战略合作，五大方向开展深度合作](https://36kr.com/newsflashes/3883821411545091) —— 传统制造企业加速布局人形机器人，但合作细节未披露，暂不入头条。
+  _36氪_
 
 ---
 
