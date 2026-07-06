@@ -1,0 +1,173 @@
+# Curio 趋势雷达 · 2026-07-06
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 14 条备选
+
+_今日核心信号：Alibaba 封禁 Claude Code 事件持续发酵，暴露 AI 编程工具的地缘风险；三星 Q2 利润预计暴增 18 倍，AI 存储需求依然强劲，但 HBM 混合键合技术推迟暗示封装路线正在调整。_
+
+---
+
+## 🌟 AI
+
+### 1. Alibaba 封禁 Claude Code：隐藏的“中国检测”后门被发现，员工转用 Qoder
+
+**[AI]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+
+Anthropic 在 Claude Code 客户端中嵌入了一套隐蔽的用户标记系统，可检测用户是否位于中国并触发封号。Alibaba 将其列为高风险软件，要求员工切换至国产替代 Qoder。这不仅是企业级 AI 工具的地缘政治分水岭，也直接影响了你的 content-curator 项目——如果你依赖 Claude Code 构建 Agent 工作流，需要评估替代方案。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 国外开发者逆向 Claude Code 源码发现隐蔽的“中国检测”标记系统 | 该检测系统是 Anthropic 主动设计还是第三方库引入？尚未明确 |
+| Alibaba 正式将 Claude Code 列为高风险软件，禁止内部使用 | Qoder 在 Agent 工作流（MCP、多 Agent 协作）上的能力是否足以替代 Claude Code？ |
+| Alibaba 员工被要求切换至国产 AI 编程工具 Qoder | 其他中国科技公司是否会跟进封禁？ |
+| Anthropic 与 Alibaba 之间的裂痕进一步加深 | Anthropic 是否会调整策略以挽回中国市场？ |
+|  | 该事件是否会加速中国 AI 编程工具的自主化进程？ |
+
+**📖 主编点评**
+
+如果你正在用 Claude Code 做 content-curator 项目，建议立即备份配置和 prompt，并测试 Qoder 或 Codex 作为备选。长期看，地缘风险可能迫使 AI 工具生态分裂，提前布局多工具兼容的 Agent 架构会更安全。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/alibaba-bans-anthropics-claude-code-after-an-alleged-hidden-china-detection-backdoor-is-uncovered-employees-told-to-switch-to-qoder-as-the-rift-between-the-firms-widens)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 2. 三星 Q2 利润预计暴增 18 倍，高管称“今年利润顶过去 40 年”
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
+
+三星电子二季度营业利润一致预期高达 84.6 万亿韩元，若达标将超越英伟达，刷新全球科技企业单季利润历史纪录。DRAM/NAND 价格单季飙升超 50%，AI 推理需求超预期是主要驱动力。但 2 万亿美元扩产豪赌被指“周期顶部融资”，奖金拨备超 40 万亿韩元悬而未决。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 三星 Q2 营业利润一致预期 84.6 万亿韩元，同比暴增约 18 倍 | 84.6 万亿韩元利润能否实际达成？存在不确定性 |
+| DRAM/NAND 价格单季飙升超 50% | 2 万亿美元扩产计划是否会在周期顶部引发产能过剩？ |
+| 管理层称“今年利润将超过过去 40 年累计总和” | 苹果被迫涨价后，消费电子需求弹性是否会影响存储价格？ |
+| AI 推理需求超预期是主要增长动力 | 奖金拨备超 40 万亿韩元如何落地？ |
+|  | HBM 混合键合推迟是否会影响三星在 AI 存储的长期竞争力？ |
+
+**📖 主编点评**
+
+存储涨价直接推高 AI 服务器成本，如果你在部署推理服务，建议提前锁定 DRAM/NAND 合同。三星的扩产豪赌也意味着 2027 年后存储可能供过于求，长期采购策略需要更灵活。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3776259)
+
+---
+
+### 3. HBM 封装技术生变：三星、SK 海力士双双推迟混合键合导入
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+三星与 SK 海力士相继将混合键合技术的 HBM 导入节点推后——原定 HBM4 首发，如今可能延至第七代 HBM4E 甚至更晚。厚度标准放宽、散热替代方案落地，令这项技术的紧迫性骤降。但随着 HBM5E 的 I/O 数量或再度翻倍至 4096 个，混合键合并非被抛弃，而是在等待那个间距极限真正到来的时刻。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 三星和 SK 海力士均推迟混合键合技术在 HBM 中的导入 | 混合键合推迟是否会影响 HBM4 的性能提升幅度？ |
+| 原计划 HBM4 首发，现可能延至 HBM4E 或更晚 | 现有 TC-NCF 工艺能否满足未来 I/O 密度需求？ |
+| 厚度标准放宽和散热替代方案降低了混合键合的紧迫性 | 推迟是否为中国存储厂商提供了追赶窗口？ |
+| HBM5E 的 I/O 数量可能翻倍至 4096 个 | 散热替代方案的具体技术路线是什么？ |
+|  | HBM5E 的 4096 I/O 是否会重新推动混合键合需求？ |
+
+**📖 主编点评**
+
+混合键合推迟意味着现有 HBM 产能利用率将维持更久，短期利好存储厂商。但如果你在规划 AI 芯片的封装设计，需要关注 TC-NCF 的长期演进能力，避免在 2028 年后陷入 I/O 瓶颈。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3776263)
+
+---
+
+## 🌟 金融
+
+### 4. 对冲基金连续四周抛售科技股，高盛交易员：“买入一切 AI”时代终结
+
+**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+对冲基金连续四周抛售科技股，芯片组合暴跌 19%。高盛交易员直言“买入一切 AI”的时代已经结束。这并非 AI 神话破灭，而是残酷的风格洗牌：资金正加速出清拥挤仓位，市场将重新奖励“质量与执行力”，大分化降临。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 对冲基金连续四周净卖出科技股 | 抛售是短期获利了结还是长期趋势逆转？ |
+| 芯片相关股票组合累计下跌 19% | 哪些 AI 细分领域仍能获得资金青睐？ |
+| 高盛交易员公开表示“买入一切 AI”策略终结 | 抛售是否与即将到来的美股二季报有关？ |
+| 资金从拥挤的 AI 仓位转向质量与执行力标的 | 散户杠杆是否加剧了抛售幅度？ |
+|  | AI 基础设施（算力、存储）是否也会被波及？ |
+
+**📖 主编点评**
+
+如果你持有 AI 相关股票或 ETF，建议审视持仓的盈利质量和估值合理性。对于个人项目，这意味着融资环境可能收紧，依赖 VC 的 AI 创业公司需要更注重现金流。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3776266)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 5. 星动纪元完成新一轮 10 亿元融资，2026 年来累计融资近 50 亿
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+人形机器人公司星动纪元再获 10 亿元融资，2026 年以来累计融资近 50 亿元。资本正在押注人形机器人从“能动”走向“能干活”的拐点。但 CEO 坦言，机器人进入家庭仍需数年，工业场景才是近期落地方向。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 星动纪元完成新一轮 10 亿元融资 | 50 亿融资能否支撑到商业化盈利？ |
+| 2026 年以来累计融资近 50 亿元 | 工业场景的 ROI 是否足以吸引持续投资？ |
+| 资金将用于工业场景的落地和产品迭代 | 与 Tesla Optimus、Figure 等竞品相比，星动纪元的差异化在哪？ |
+| CEO 表示家庭场景仍需数年才能实现 | 人形机器人的“干活”能力是否已跨越实用门槛？ |
+|  | 融资热潮是否会导致行业泡沫？ |
+
+**📖 主编点评**
+
+人形机器人正在从概念走向工业落地，如果你在关注具身智能，可以跟踪星动纪元的工业客户案例。对于个人项目，机器人相关的仿真、控制软件可能成为新的工具需求。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3776271)
+
+---
+
+## 📋 备选池
+
+### AI
+
+- [Claude Code 封号原因被曝光：隐藏的中国用户标记系统](https://www.bilibili.com/video/av116844031774993) —— 逆向分析证实 Anthropic 在客户端中嵌入隐蔽标记，解释了近期大量中国用户被封的原因。
+  _程序员鱼皮_
+- [Codex 多 Agent 协同开发实战](https://www.bilibili.com/video/av116839870891259) —— 手摸手演示 Codex 多 Agent 协作，适合想搭建复杂 Agent 工作流的开发者。
+  _路边爱吃瓜_
+- [Cursor 已死？退订 Cursor 的真实原因](https://www.bilibili.com/video/av116819553683121) —— 重度用户对比 Cursor、Claude Code、Codex 后选择退订，底层模型差距是关键。
+  _小狗瑞恩Ryan_
+
+### AI 算力 / 半导体
+
+- [SK Hynix 计划 7130 亿美元国内投资](https://www.eetimes.com/sk-hynix-plans-713b-domestic-investment/) —— SK 海力士宣布史上最大投资计划，并考虑纳斯达克上市，AI 存储军备竞赛升级。
+  _EE Times_
+- [Jim Keller 的 Atomic Semi 更名为 Fab2，转向德州](https://www.tomshardware.com/tech-industry/atomic-semi-rebrands-as-fab2-and-shifts-operations-to-texas) —— Jim Keller 的半导体初创公司更名并迁至德州，计划量产小型半导体 fab。
+  _Tom's Hardware_
+- [Oxmiq 获 3500 万美元融资，GPU IP 已跑在 FPGA 上](https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/) —— 前 Intel 高管 Raja Koduri 的 GPU IP 公司融资，瞄准数据中心市场。
+  _EE Times_
+
+### 金融
+
+- [三星明日初步财报：Q2 利润预计暴增 18 倍](https://wallstreetcn.com/articles/3776259) —— 三星 Q2 利润预期 84.6 万亿韩元，若达标将超越英伟达创历史纪录。
+  _华尔街见闻_
+- [科技股遭对冲基金连抛四周，高盛称“买入一切 AI”时代终结](https://wallstreetcn.com/articles/3776266) —— 对冲基金连续四周抛售科技股，芯片组合暴跌 19%，市场风格切换。
+  _华尔街见闻_
+- [韩国 6 月出口同比飙升 70.9%，AI 链需求火热](https://wallstreetcn.com/articles/3776256) —— 半导体与计算机出口贡献增速近八成，印证 AI 供应链全面受益。
+  _华尔街见闻_
+
+### 大厂 AI 动态
+
+- [Alibaba 封禁 Claude Code，员工转用 Qoder](https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/) —— Alibaba 将 Claude Code 列为高风险软件，地缘政治影响 AI 工具选择。
+  _TechCrunch_
+- [星动纪元完成新一轮 10 亿元融资](https://wallstreetcn.com/articles/3776271) —— 人形机器人公司 2026 年累计融资近 50 亿，工业场景落地加速。
+  _华尔街见闻_
+- [千问大模型升级实时语音识别模型 Fun-ASR-Realtime](https://36kr.com/newsflashes/3883798757683464) —— 首字延迟百毫秒，支持 16 种方言和 30 种语言，实时语音识别新突破。
+  _36氪_
+- [AI 砍掉的第一批大厂人：高薪、高绩效、高 P](https://36kr.com/p/3883456791163138) —— AI 提效导致大厂裁员，高绩效员工也被波及，行业焦虑蔓延。
+  _36氪_
+- [Midjourney 要求好莱坞披露 AI 使用细节](https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/) —— 法律纠纷中 Midjourney 要求对方公开 AI 使用情况，行业透明度博弈。
+  _TechCrunch_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
