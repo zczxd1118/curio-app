@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-07-05T06:47:42.215069+00:00",
+  "fetched_at": "2026-07-06T07:19:48.695580+00:00",
   "platforms": [
     "rss"
   ],
@@ -188,6 +188,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/breakthrough-cnt-pellicles-deliver-66x-durability-and-sufficient-transmittance/",
+      "title": "Breakthrough CNT Pellicles Deliver 66x Durability and Sufficient Transmittance",
+      "url": "https://www.eetimes.com/breakthrough-cnt-pellicles-deliver-66x-durability-and-sufficient-transmittance/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Lintec",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-06T04:00:00+00:00",
+      "summary": "Explore the latest breakthrough in CNT pellicles for EUV lithography: durability is up to 66 times higher, with less transmittance loss. The post Breakthrough CNT Pellicles Deliver 66x Durability and Sufficient Transmittance appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/inside-infineon-e5b-dresden-fab-virtual-fab-cloning-fast-tracked-the-launch/",
       "title": "Inside Infineon’s €5B Dresden Fab: Virtual Fab Cloning Fast-Tracked the Launch",
       "url": "https://www.eetimes.com/inside-infineon-e5b-dresden-fab-virtual-fab-cloning-fast-tracked-the-launch/",
@@ -206,7 +223,7 @@
     },
     {
       "id": "rss:https://www.eetimes.com/sk-hynix-plans-713b-domestic-investment/",
-      "title": "SK hynix Plans $713B Domestic Investment",
+      "title": "SK Hynix Plans $713B Domestic Investment",
       "url": "https://www.eetimes.com/sk-hynix-plans-713b-domestic-investment/",
       "platform": "rss",
       "source": {
@@ -218,7 +235,7 @@
       "duration_sec": null,
       "views": null,
       "published_at": "2026-07-03T13:57:51+00:00",
-      "summary": "SK hynix is set to invest $713 billion to expand its semiconductor manufacturing capacity in South Korea and plans a Nasdaq listing. The post SK hynix Plans $713B Domestic Investment appeared first on EE Times.",
+      "summary": "SK Hynix is set to invest $713 billion to expand its semiconductor manufacturing capacity in South Korea and plans a Nasdaq listing. The post SK Hynix Plans $713B Domestic Investment appeared first on EE Times.",
       "lang": "en"
     },
     {
@@ -338,23 +355,6 @@
       "views": null,
       "published_at": "2026-07-01T13:00:00+00:00",
       "summary": "Today’s semiconductor component&#160;landscape is more complex than ever. Obsolescence has shifted from an occasional disruption to a persistent operational risk. As product lifecycles shorten and supply markets tighten, procurement teams must now treat lifecycle awareness as a core part of their role. Production stability depends on it. &#160; Several forces are accelerating this change. Semiconductor manufacturers continue&#160;advancing to&#160;new [&#8230;] The post Rapid Component Obsolesce...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/sales-forecasting-guide-for-electronics-manufacturing-smbs/",
-      "title": "Sales Forecasting Guide for Electronics Manufacturing SMBs",
-      "url": "https://www.eetimes.com/sales-forecasting-guide-for-electronics-manufacturing-smbs/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "MRPeasy",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-01T13:00:00+00:00",
-      "summary": "Sales forecasting helps manufacturers estimate future demand so they can plan production, purchasing, and capacity before customer orders become urgent. The post Sales Forecasting Guide for Electronics Manufacturing SMBs appeared first on EE Times.",
       "lang": "en"
     }
   ]
