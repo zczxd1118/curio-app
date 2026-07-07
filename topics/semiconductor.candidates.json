@@ -2,12 +2,12 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-07-06T07:19:16.860262+00:00",
+  "fetched_at": "2026-07-07T06:52:42.209163+00:00",
   "platforms": [
     "rss"
   ],
   "source_stats": {
-    "SemiAnalysis（半导体首选深度）": 10,
+    "SemiAnalysis（半导体首选深度）": 0,
     "EE Times": 10,
     "AnandTech": 0,
     "Tom's Hardware": 30,
@@ -23,176 +23,74 @@
       "name": "default"
     }
   ],
-  "total": 50,
+  "total": 40,
   "items": [
     {
-      "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
-      "title": "xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
-      "url": "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+      "id": "rss:https://www.eetimes.com/canadas-ai-ecosystem-needs-more-urgency/",
+      "title": "Canada’s AI Ecosystem Needs More Urgency",
+      "url": "https://www.eetimes.com/canadas-ai-ecosystem-needs-more-urgency/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Jeremie Eliahou Ontiveros",
-        "feed_title": "SemiAnalysis"
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2025-09-16T17:38:01+00:00",
-      "summary": "Much has been written about xAI’s Colossus 1. The Memphis build belongs in the history books: the largest AI training cluster, erected from scratch in 122 days. With roughly 200,000 H100/H200s and ~30,000 GB200 NVL72, it remains, today, the largest fully operational, single-coherent cluster (setting apart Google, master of multi-datacenter-training). However, Colossus 1’s ~300 MW [&#8230;]",
+      "published_at": "2026-07-06T22:00:00+00:00",
+      "summary": "Canada has the AI talent. Now, it’s time to scale its domestic compute and sovereign hardware. The post Canada’s AI Ecosystem Needs More Urgency appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
-      "title": "Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack",
-      "url": "https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
+      "id": "rss:https://www.eetimes.com/mips-software-to-silicon-with-risc-v-interview-with-mips-physical-ai-is-agentic-ai-at-the-edge/",
+      "title": "MIPS on the RISC-V Shift: ‘Physical AI Is Agentic AI at the Edge’",
+      "url": "https://www.eetimes.com/mips-software-to-silicon-with-risc-v-interview-with-mips-physical-ai-is-agentic-ai-at-the-edge/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
-        "feed_title": "SemiAnalysis"
+        "id": "https://www.eetimes.com/feed",
+        "name": "EE Times Staff",
+        "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2025-09-10T19:57:18+00:00",
-      "summary": "Nvidia announced the Rubin CPX, a solution that is specifically designed to be optimized for the prefill phase, with the single-die Rubin CPX heavily emphasizing compute FLOPS over memory bandwidth. This is a game changer for inference, and its significance is surpassed only by the March 2024 announcement of the GB200 NVL72 Oberon rack-scale form [&#8230;]",
+      "published_at": "2026-07-06T17:00:00+00:00",
+      "summary": "MIPS bets RISC-V and ARC AI will power physical AI in cars and factory robots. Watch the interview and learn more. The post MIPS on the RISC-V Shift: &#8216;Physical AI Is Agentic AI at the Edge&#8217; appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
-      "title": "Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck",
-      "url": "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
+      "id": "rss:https://www.eetimes.com/voice-is-key-to-physical-ai-development-methods-need-to-catch-up/",
+      "title": "Voice Is Key to Physical AI; Development Methods Need to Catch Up",
+      "url": "https://www.eetimes.com/voice-is-key-to-physical-ai-development-methods-need-to-catch-up/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
-        "feed_title": "SemiAnalysis"
+        "id": "https://www.eetimes.com/feed",
+        "name": "Finnur Pind",
+        "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2025-09-08T09:54:57+00:00",
-      "summary": "Compute is the lifeblood of AI. He who controls the spice controls the universe the compute will control the production of tokens and reap the benefits of AI. Without compute you do not have a seat at the table. The United States technology community is all in on compute and AI as the next platform [&#8230;]",
+      "published_at": "2026-07-06T12:41:56+00:00",
+      "summary": "To solve far-field ASR challenges, physical AI needs acoustic reality, prompting engineers to use physics-based simulation. The post Voice Is Key to Physical AI; Development Methods Need to Catch Up appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
-      "title": "Amazon’s AI Resurgence: AWS & Anthropic’s Multi-Gigawatt Trainium Expansion",
-      "url": "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
+      "id": "rss:https://www.eetimes.com/kioxia-all-set-to-raise-the-nand-game-in-ai-ssds/",
+      "title": "Kioxia All Set to Raise the NAND Game in AI SSDs",
+      "url": "https://www.eetimes.com/kioxia-all-set-to-raise-the-nand-game-in-ai-ssds/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Jeremie Eliahou Ontiveros",
-        "feed_title": "SemiAnalysis"
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2025-09-03T20:55:46+00:00",
-      "summary": "Two-and-a-half years ago, we flagged a looming “cloud crisis” at AWS. Today, the evidence has mounted. AWS is the crown jewel of the Amazon empire, generating ~60% of group profits, and dominating the lucrative Cloud Computing market. But it struggles to translate this strength into the new GPU/XPU Cloud era. Microsoft Azure now leads the [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
-      "title": "H100 vs GB200 NVL72 Training Benchmarks – Power, TCO, and Reliability Analysis, Software Improvement Over Time",
-      "url": "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
-        "feed_title": "SemiAnalysis"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2025-08-20T04:56:35+00:00",
-      "summary": "Frontier model training has pushed GPUs and AI systems to their absolute limits, making cost, efficiency, power, performance per TCO, and reliability central to the discussion on effective training. The Hopper vs Blackwell comparisons are not as simple as Nvidia would have you believe. In this report, we will start by present the results of [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
-      "title": "GPT-5 Set the Stage for Ad Monetization and the SuperApp",
-      "url": "https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Doug OLaughlin",
-        "feed_title": "SemiAnalysis"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2025-08-13T00:27:14+00:00",
-      "summary": "To many power users (Pro and Plus), GPT5 was a disappointing release. But with closer inspection, the real release is focused on the vast majority of ChatGPT’s users, which is the 700m+ free userbase that is growing rapidly. Power users should be disappointed; this release wasn’t for them. The real consumer opportunity for OpenAI lies [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
-      "title": "Scaling the Memory Wall: The Rise and Roadmap of HBM",
-      "url": "https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
-        "feed_title": "SemiAnalysis"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2025-08-12T01:16:06+00:00",
-      "summary": "The first portion of this report will explain HBM, the manufacturing process, dynamics between vendors, KVCache offload, disaggregated prefill decode, and wide / high-rank EP. The rest of the report will dive deeply into the future of HBM. We will cover the revolutionary change coming to HBM4 with custom base dies for HBM, what various [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
-      "title": "Robotics Levels of Autonomy",
-      "url": "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Reyk Knuhtsen",
-        "feed_title": "SemiAnalysis"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2025-07-30T17:02:25+00:00",
-      "summary": "Robots have powered manufacturing for decades, yet they stayed single-purpose and thrived only in perfect settings. Previous attempts at intelligent machines overpromised and underdelivered. But they were too early. Today, modern AI paradigms convert most robot roadblocks into data problems and push machines toward capabilities once thought impossible. As these models absorb real-world experience, robots [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://semianalysis.com/2025/07/21/vlsi2025/",
-      "title": "Intel 18A Details & Cost, Future of DRAM 4F2 vs 3D, Backside Power Adoption (or Not), China’s FlipFET, Digital Twins from Atoms to Fabs, and More",
-      "url": "https://semianalysis.com/2025/07/21/vlsi2025/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
-        "feed_title": "SemiAnalysis"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2025-07-21T14:23:37+00:00",
-      "summary": "Long time readers will recall that SemiAnalysis covers more than just datacenters and AMD. Today we’re back to semiconductors with a tech-focused roundup of the best from this year’s VLSI conference, the premiere design and integration. That includes the latest in chips manufacturing: fab digital twins, the future of advanced logic transistors and interconnects, DRAM [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
-      "title": "Meta Superintelligence – Leadership Compute, Talent, and Data",
-      "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
-        "feed_title": "SemiAnalysis"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2025-07-11T20:12:19+00:00",
-      "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance.",
+      "published_at": "2026-07-06T07:29:33+00:00",
+      "summary": "Here is how the Japanese chipmaker is cashing in on NAND flash demand in data center SSDs. The post Kioxia All Set to Raise the NAND Game in AI SSDs appeared first on EE Times.",
       "lang": "en"
     },
     {
@@ -298,71 +196,224 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/engineering-heterogeneity-at-scale/",
-      "title": "Engineering Heterogeneity at Scale",
-      "url": "https://www.eetimes.com/engineering-heterogeneity-at-scale/",
+      "id": "rss:https://www.tomshardware.com/pc-components/ddr5/china-made-cxmt-memory-now-supports-faster-speeds-on-msis-amd-motherboards-new-bios-adds-ddr5-8200-validation-on-dual-dimm-ddr5-7200-on-quad-dimm-models",
+      "title": "China-made CXMT memory now supports faster speeds on MSI's AMD motherboards — new BIOS adds DDR5-8200 validation on dual-DIMM, DDR5-7200 on quad-DIMM models",
+      "url": "https://www.tomshardware.com/pc-components/ddr5/china-made-cxmt-memory-now-supports-faster-speeds-on-msis-amd-motherboards-new-bios-adds-ddr5-8200-validation-on-dual-dimm-ddr5-7200-on-quad-dimm-models",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-01T20:49:24+00:00",
-      "summary": "AI has outgrown traditional chips. The future belongs to integrated systems that stack compute, memory, photonics, and power, and HLSI is driving the shift. The post Engineering Heterogeneity at Scale appeared first on EE Times.",
+      "published_at": "2026-07-06T16:20:37+00:00",
+      "summary": "MSI has officially validated region-bound Chinese RAM using CXMT modules to run at up to 8,200 MT/s on its AM5 motherboards. Models with two RAM slots can handle these high frequencies a bit better than four-DIMM variants.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/design-of-a-single-pair-ethernet-system-with-power-over-data-lines-spoe/",
-      "title": "Design of a Single Pair Ethernet System with Power over Data Lines (SPoE)",
-      "url": "https://www.eetimes.com/design-of-a-single-pair-ethernet-system-with-power-over-data-lines-spoe/",
+      "id": "rss:https://www.tomshardware.com/video-games/xbox/microsoft-resets-xbox-by-cutting-3-200-jobs-this-year-divesting-five-game-studios-firm-cites-margins-that-are-3-10x-lower-than-comparable-platform-and-publishing-businesses",
+      "title": "Microsoft 'resets' Xbox by cutting 3,200 jobs this year, divesting five game studios — firm cites 'margins that are 3-10x lower than comparable platform and publishing businesses'",
+      "url": "https://www.tomshardware.com/video-games/xbox/microsoft-resets-xbox-by-cutting-3-200-jobs-this-year-divesting-five-game-studios-firm-cites-margins-that-are-3-10x-lower-than-comparable-platform-and-publishing-businesses",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Dr.-Ing. Heinz Zenkner",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Andrew E. Freedman",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-01T14:00:00+00:00",
-      "summary": "Single Pair Ethernet is becoming increasingly popular in industrial networking due to the simplified cabling with just one twisted pair of wires. If power is also supplied via this, the SPE transmission standard with Power over Data Lines is unbeatable simple, but the implementation not trivial. The reference design for Single Pair Ethernet (SPE) with [&#8230;] The post Design of a Single Pair Ethernet System with Power over Data Lines (SPoE) appeared first on EE Times.",
+      "published_at": "2026-07-06T15:39:52+00:00",
+      "summary": "Xbox CEO Asha Sharma announced that Microsoft's gaming division will cut 3,200 jobs throughout FY27 and is spinning out studios but not canceling any games.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/",
-      "title": "Oxmiq Raises $35M for GPU IP, Expands Focus to Data Center Design",
-      "url": "https://www.eetimes.com/oxmiq-raises-35m-for-gpu-ip-expands-focus-to-data-center-design/",
+      "id": "rss:https://www.tomshardware.com/peripherals/printers/raspberry-pi-powered-open-source-printer-earns-design-award-nomination-but-still-has-no-price-nine-months-after-reveal",
+      "title": "Working prototype of open-source printer that promises user-repairability and no subscriptions appears in first video — DRM-free 'Open Printer' inkjet still has no announced price, ship date, or print speed, nine months after it first appeared",
+      "url": "https://www.tomshardware.com/peripherals/printers/raspberry-pi-powered-open-source-printer-earns-design-award-nomination-but-still-has-no-price-nine-months-after-reveal",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-01T13:15:00+00:00",
-      "summary": "OxCore GPU IP is up and running on FPGA today, CEO Raja Koduri told EE Times. The post Oxmiq Raises $35M for GPU IP, Expands Focus to Data Center Design appeared first on EE Times.",
+      "published_at": "2026-07-06T15:30:17+00:00",
+      "summary": "Open Tools, a Paris-based startup, has announced that its Open Printer has been nominated for two French Design Awards.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/rapid-component-obsolescence-is-reshaping-todays-semiconductor-procurement-dynamics/",
-      "title": "Rapid Component Obsolescence Is Reshaping Today’s Semiconductor Procurement Dynamics",
-      "url": "https://www.eetimes.com/rapid-component-obsolescence-is-reshaping-todays-semiconductor-procurement-dynamics/",
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/embargo-mon-july-6-8am-pt-1100-edt-amd-ryzen-ai-halo-review",
+      "title": "AMD Ryzen AI Halo review: AMD builds a DGX Spark of its own",
+      "url": "https://www.tomshardware.com/pc-components/gpus/embargo-mon-july-6-8am-pt-1100-edt-amd-ryzen-ai-halo-review",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Landyn Murphy, Senior Content Marketing Specialist, Rochester Electronics",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jeffrey Kampman",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-01T13:00:00+00:00",
-      "summary": "Today’s semiconductor component&#160;landscape is more complex than ever. Obsolescence has shifted from an occasional disruption to a persistent operational risk. As product lifecycles shorten and supply markets tighten, procurement teams must now treat lifecycle awareness as a core part of their role. Production stability depends on it. &#160; Several forces are accelerating this change. Semiconductor manufacturers continue&#160;advancing to&#160;new [&#8230;] The post Rapid Component Obsolesce...",
+      "published_at": "2026-07-06T15:00:15+00:00",
+      "summary": "The Ryzen AI Halo is a turn-key AMD local AI box that’s backed up with first-party software support, handy utilities, and plenty of documentation for local AI explorers. But the performance and application compatibility of the Ryzen AI Max+ 395 (aka Strix Halo) SoC still trails Nvidia’s GB10, and it’s pricey for what it offers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/you-can-now-use-your-sony-headphones-as-a-real-time-head-tracker-for-race-and-flight-simulators-on-pc-several-hundred-games-already-supported-enthusiast-creates-open-source-app-that-translates-live-sensor-data-into-in-game-camera-controls",
+      "title": "You can now use your Sony headphones as a free real-time head tracker for race and flight simulators on PC, several hundred games already supported — enthusiast creates open-source app that translates live sensor data into in-game camera controls",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/you-can-now-use-your-sony-headphones-as-a-real-time-head-tracker-for-race-and-flight-simulators-on-pc-several-hundred-games-already-supported-enthusiast-creates-open-source-app-that-translates-live-sensor-data-into-in-game-camera-controls",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-06T14:36:21+00:00",
+      "summary": "A new open-source app called Sony Head Tracker, developed by Nicholas Slattery, reads raw sensor data from Sony headphones and earbuds and converts them into something OpenTrack can understand. From there, it can be used for head tracking in over 200 PC games.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidias-kyber-rack-for-rubin-ultra-slips-to-2028",
+      "title": "Nvidia's Kyber rack for Rubin Ultra reportedly delayed to 2028, stopgap solution also axed due to customer pushback — Analyst firm SemiAnalysis says PCB midplane problems led to the delay [Updated]",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-kyber-rack-for-rubin-ultra-slips-to-2028",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-06T13:33:34+00:00",
+      "summary": "Nvidia reportedly won't ship its Kyber NVL144 rack until 2028, a delay of more than 12 months.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/nvidia-and-intel-tout-chips-built-in-america-but-every-arizona-made-blackwell-die-is-still-packaged-in-taiwan",
+      "title": "Nvidia and Intel tout homegrown American chip supply chain prowess as country bolsters local production, but gaps remain — crucial Blackwell packaging steps remain offshore as projects grow in scope and scale",
+      "url": "https://www.tomshardware.com/tech-industry/nvidia-and-intel-tout-chips-built-in-america-but-every-arizona-made-blackwell-die-is-still-packaged-in-taiwan",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-06T12:51:09+00:00",
+      "summary": "America's AI supply chain now starts and ends in the U.S., while its most valuable middle steps remain entirely offshore until at least 2028.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/electric-drone-breaks-world-air-speed-record-at-434-mph-designed-for-anti-aircraft-interceptor-roles-german-firm-convincingly-smashed-the-official-409-mph-record-hopes-to-get-stamp-of-approval-from-guinness-soon",
+      "title": "Electric drone breaks world air speed record at 434 mph, designed for anti-aircraft interceptor roles — German firm convincingly smashed the official 409 mph record, hopes to get stamp of approval from Guinness soon",
+      "url": "https://www.tomshardware.com/tech-industry/drones/electric-drone-breaks-world-air-speed-record-at-434-mph-designed-for-anti-aircraft-interceptor-roles-german-firm-convincingly-smashed-the-official-409-mph-record-hopes-to-get-stamp-of-approval-from-guinness-soon",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-06T12:39:54+00:00",
+      "summary": "Quantum Systems Group reckons it has broken the flight speed record for an electric drone. During internal testing last month the Munich-based firm recorded its Apex Recordhunter drone hitting a top speed of 434 mph in straight and level flight.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/chinas-huawei-to-enter-south-korean-ai-chip-market-with-new-atlas-superpods-clusters-pack-8-192-ascend-950-accelerators-per-deployment-reportedly-challenges-nvidia-dominance-with-tripled-inference-performance-of-h20-at-one-quarter-the-cost",
+      "title": "China’s Huawei to enter South Korean AI chip market with new Atlas SuperPods, clusters pack 8,192 Ascend 950 accelerators per deployment — reportedly challenges Nvidia dominance with 'tripled inference performance' of H20 at one-quarter the cost",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/chinas-huawei-to-enter-south-korean-ai-chip-market-with-new-atlas-superpods-clusters-pack-8-192-ascend-950-accelerators-per-deployment-reportedly-challenges-nvidia-dominance-with-tripled-inference-performance-of-h20-at-one-quarter-the-cost",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-06T12:31:48+00:00",
+      "summary": "Huawei is reportedly preparing to enter South Korea's AI accelerator market with its Ascend 950 chips and Atlas 950 SuperPod, challenging Nvidia through aggressive pricing, amid a broader push to expand its AI ecosystem beyond China",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/score-a-massive-usd1-050-saving-on-this-rtx-5090-gaming-pc-thats-just-16-percent-more-than-the-gpus-standalone-price-right-now-epic-discount-secures-you-a-formidable-4k-gaming-rig-with-a-9800x3d-32gb-ddr5-and-a-2tb-ssd",
+      "title": "Score a massive $1,050 saving on this RTX 5090 gaming PC that's just 16% more than the GPU's standalone price right now — epic discount secures you a formidable 4K gaming rig with a 9800X3D, 32GB DDR5, and a 2TB SSD",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/score-a-massive-usd1-050-saving-on-this-rtx-5090-gaming-pc-thats-just-16-percent-more-than-the-gpus-standalone-price-right-now-epic-discount-secures-you-a-formidable-4k-gaming-rig-with-a-9800x3d-32gb-ddr5-and-a-2tb-ssd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-06T11:45:52+00:00",
+      "summary": "Save $1,050 on this epic ABS Kaze II Ruby gaming PC, fitted with a 9800X3D, RTX 5090, 32GB DDR5, and 2TB SSD for just $4,749.05 for a limited time only.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/steam-machine-interview-full-transcript-valve-engineers-discuss-usd1-049-pricing-compact-design-component-shortages-and-windows-support",
+      "title": "Steam Machine interview full transcript: Valve engineers discuss $1,049 pricing, compact design, component shortages, and Windows support",
+      "url": "https://www.tomshardware.com/video-games/steam-machine-interview-full-transcript-valve-engineers-discuss-usd1-049-pricing-compact-design-component-shortages-and-windows-support",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Andrew E. Freedman",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-06T11:32:00+00:00",
+      "summary": "Valve's Pierre-Loup Griffais and Yazan Aldehayyat talked to Tom's Hardware about the Steam Machine, it's pricing, engineering, and even Windows support.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/wisconsin-residents-file-class-action-lawsuit-against-microsofts-worlds-most-powerful-ai-data-center-due-to-data-center-noise-plaintiffs-also-mention-construction-noise-and-extreme-light-pollution-from-usd7-3-billion-facility",
+      "title": "Wisconsin residents file class-action lawsuit against Microsoft's 'world's most powerful AI data center' due to data center noise — plaintiffs also mention construction noise and extreme light pollution from $7.3 billion facility",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/wisconsin-residents-file-class-action-lawsuit-against-microsofts-worlds-most-powerful-ai-data-center-due-to-data-center-noise-plaintiffs-also-mention-construction-noise-and-extreme-light-pollution-from-usd7-3-billion-facility",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-06T11:00:00+00:00",
+      "summary": "Wisconsin residents file class-action lawsuit against Microsoft due to data center noise — plaintiffs also mention construction noise and extreme light pollution",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/bigme-introduces-a-color-e-ink-monitor-that-could-reportedly-hit-60-fps-25-3-inch-display-will-come-with-a-3200-x-1800-resolution-and-support-for-4096-colors",
+      "title": "Bigme introduces a color e-ink monitor that could reportedly hit 60 FPS — 25.3-inch display will come with a 3200 x 1800 resolution and support for 4096 colors",
+      "url": "https://www.tomshardware.com/monitors/bigme-introduces-a-color-e-ink-monitor-that-could-reportedly-hit-60-fps-25-3-inch-display-will-come-with-a-3200-x-1800-resolution-and-support-for-4096-colors",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-06T10:00:00+00:00",
+      "summary": "This is the first e-ink monitor that can hit 60 FPS, making it useful in more tasks outside of just reading. While you likely won't be able to play fast-paced games on this display, it should still make other everyday tasks on it easier while reducing eye strain.",
       "lang": "en"
     },
     {
@@ -498,7 +549,7 @@
       "duration_sec": null,
       "views": null,
       "published_at": "2026-07-05T14:05:19+00:00",
-      "summary": "tktk",
+      "summary": "With a year of updates behind it and a major overhaul now in place, this is the perfect opportunity to revisit F1 25 and see where performance stands in 2026 with a selection of both Nvidia and AMD GPUs.",
       "lang": "en"
     },
     {
@@ -652,227 +703,6 @@
       "views": null,
       "published_at": "2026-07-05T11:20:00+00:00",
       "summary": "This website lets you \"buy\" all the Steam games you want without spending anything at all. It was primarily made for the dopamine hit, but the Achievements page is quite engaging, too.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/drones/darpa-plans-30-year-endurance-nuclear-waste-batteries-to-power-next-gen-drones-says-report-project-symphonee-aims-to-harvest-strontium-90-to-power-persistent-military-drones",
-      "title": "DARPA plans 30-year endurance nuclear waste batteries to power next-gen drones, says report — project SYMPHONEE aims to harvest Strontium-90 to power persistent military drones",
-      "url": "https://www.tomshardware.com/tech-industry/drones/darpa-plans-30-year-endurance-nuclear-waste-batteries-to-power-next-gen-drones-says-report-project-symphonee-aims-to-harvest-strontium-90-to-power-persistent-military-drones",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-05T10:49:55+00:00",
-      "summary": "A report suggests that upcoming nuclear waste-powered radiovoltaic batteries could last as long as 30 years and power next-gen drones.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/50-feet-long-fiber-optic-hdmi-cable-and-steam-controller-2-is-enthusiasts-answer-to-the-steam-machine-dismisses-valves-new-console-for-a-diy-bazzite-setup-with-a-controller",
-      "title": "50-feet-long fiber optic HDMI cable and Steam Controller 2 is enthusiasts' answer to the Steam Machine — dismisses Valve's new console for a DIY Bazzite setup with a controller",
-      "url": "https://www.tomshardware.com/video-games/pc-gaming/50-feet-long-fiber-optic-hdmi-cable-and-steam-controller-2-is-enthusiasts-answer-to-the-steam-machine-dismisses-valves-new-console-for-a-diy-bazzite-setup-with-a-controller",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T16:58:51+00:00",
-      "summary": "An enthusiast is DIYing his own Steam Machine through ancient, lost methods known as cables that turn his existing PC into the perfect couch gaming setup. As expected, the Steam Controller 2 is also involved, alongside Bazzite.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/console-gaming/sony-crammed-an-entire-ps1-into-a-dualshock-controller-that-connects-to-your-tv-but-killed-the-project-playstation-puga-offered-game-studios-a-mere-10-cents-per-unit-sold",
-      "title": "Sony crammed an entire PS1 into a DualShock controller that connects to your TV, but killed the project — PlayStation Puga offered game studios a mere 10 cents per unit sold",
-      "url": "https://www.tomshardware.com/video-games/console-gaming/sony-crammed-an-entire-ps1-into-a-dualshock-controller-that-connects-to-your-tv-but-killed-the-project-playstation-puga-offered-game-studios-a-mere-10-cents-per-unit-sold",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T15:16:24+00:00",
-      "summary": "Sony successfully built a PlayStation 1 console that fit inside a controller but had to cancel the project after game studios were unhappy with the royalties they would make from the project.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/chinese-ymtc-ssds-make-their-way-into-retail-lenovo-laptops-media-outlet-slams-ymtc-pcie-4-0-drive-for-below-average-for-an-ssd-in-an-office-laptop-in-review",
-      "title": "Chinese YMTC SSDs make their way into retail Lenovo laptops — media outlet slams YMTC PCIe 4.0 drive for 'below average for an SSD in an office laptop' in review",
-      "url": "https://www.tomshardware.com/pc-components/ssds/chinese-ymtc-ssds-make-their-way-into-retail-lenovo-laptops-media-outlet-slams-ymtc-pcie-4-0-drive-for-below-average-for-an-ssd-in-an-office-laptop-in-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T15:07:08+00:00",
-      "summary": "Lenovo has seemingly begun using YMTC SSDs in some of its laptop models, allowing the Chinese storage chip company to gain a foothold in the U.S. This is despite its inclusion on the U.S. Department of Commerce's Entity List and its branding by the Pentagon as a Chinese military company.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/get-a-premium-27-inch-1440p-240-hz-oled-gaming-monitor-for-only-usd349-oled-for-the-price-of-ips",
-      "title": "Get a premium 27-inch 1440p 240 Hz OLED gaming monitor for only $349 — OLED for the price of IPS",
-      "url": "https://www.tomshardware.com/monitors/gaming-monitors/get-a-premium-27-inch-1440p-240-hz-oled-gaming-monitor-for-only-usd349-oled-for-the-price-of-ips",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T14:16:28+00:00",
-      "summary": "If you've been meaning to upgrade to an OLED monitor but budget options scare you off because of burn-in, Asus has the answer for you. Not only does this monitor feature great specs, but it also has a proximity sensor that automatically turns off the display when you step away.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/cheyenne-suspends-data-center-fill-and-flush-and-closed-loop-discharges-after-meta-contractor-contaminated-its-reuse-water-system",
-      "title": "Meta data center water discharges suspended after contaminating the city's reclamation water supply with bacterium — system offline for months for cleaning, closed-loop cooling system purge spread rare metal-resistant bacteria in Cheyenne’s water system",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/cheyenne-suspends-data-center-fill-and-flush-and-closed-loop-discharges-after-meta-contractor-contaminated-its-reuse-water-system",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T14:02:22+00:00",
-      "summary": "Fill-and-flush is a commissioning step whereby crews fill a cooling loop's piping with water and flush it to clear debris before the system is run.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/aoc-u27g4xm-27-inch-4k-160-hz-dual-refresh-gaming-monitor-review",
-      "title": "AOC U27G4XM 27-inch 4K 160 Hz Dual-Refresh Gaming Monitor Review: Speed, Flexibility And Value",
-      "url": "https://www.tomshardware.com/monitors/gaming-monitors/aoc-u27g4xm-27-inch-4k-160-hz-dual-refresh-gaming-monitor-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Christian Eberle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T13:17:31+00:00",
-      "summary": "AOC brings speed, flexibility, and value in its U27G4XM. It’s a 27-inch dual-mode IPS panel with 4K resolution at 160 Hz, FHD resolution at 320 Hz and Adaptive-Sync. It also has a Mini LED backlight with 1,000 nits for HDR and wide gamut color.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ram/memory-price-surge-begins-to-cool-as-consumers-hit-affordability-limit-ai-demand-still-keeps-dram-and-nand-prices-climbing-through-q3-2026",
-      "title": "Memory price surge begins to cool as consumers hit affordability limit — AI demand still keeps DRAM and NAND prices climbing through Q3 2026",
-      "url": "https://www.tomshardware.com/pc-components/ram/memory-price-surge-begins-to-cool-as-consumers-hit-affordability-limit-ai-demand-still-keeps-dram-and-nand-prices-climbing-through-q3-2026",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T11:47:34+00:00",
-      "summary": "TrendForce says DRAM and NAND prices will continue to rise through Q3 2026, but AI-driven gains are slowing as PC and smartphone makers reach their affordability limits.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/the-ultimate-4k-rtx-5090-gaming-titan-plummets-usd2-580-huge-discount-makes-the-alienware-area-51-with-24-core-cpu-and-64gb-ram-irresistible",
-      "title": "The ultimate 4K RTX 5090 gaming titan plummets $2,580 — huge discount makes the Alienware Area-51 with 24-core CPU and 64GB RAM irresistible",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/the-ultimate-4k-rtx-5090-gaming-titan-plummets-usd2-580-huge-discount-makes-the-alienware-area-51-with-24-core-cpu-and-64gb-ram-irresistible",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sponsored",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T11:43:13+00:00",
-      "summary": "Dell has slashed the price of the Alienware Area-51 with a Core Ultra 9 285K, GeForce RTX 5090, and 64GB of DDR5 RAM by $2,580.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cooling/windows-guru-uses-stirling-engine-to-cool-amd-threadripper-3970x-waste-heat-energy-spins-the-engines-flywheel",
-      "title": "Windows guru uses 19th-century Stirling Engine tech for auxiliary cooling on AMD Threadripper 3970X system — waste heat energy spins the $40 engine's flywheel",
-      "url": "https://www.tomshardware.com/pc-components/cooling/windows-guru-uses-stirling-engine-to-cool-amd-threadripper-3970x-waste-heat-energy-spins-the-engines-flywheel",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T11:30:00+00:00",
-      "summary": "Windows development guru Dave W. Plummer shared a brief video demonstrating a novel Stirling Engine powered cooling solution for his AMD Threadripper chipset.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/enthusiast-hides-gaming-pc-inside-living-room-fan-using-3d-printed-parts-disassembled-atomman-g7-cooled-by-dreo-tower-fan-that-shifts-air-at-28-feet-per-second",
-      "title": "Enthusiast hides gaming PC inside living room fan using 3D-printed parts — disassembled AtomMan G7 cooled by Dreo tower fan that shifts air at 28 feet per second",
-      "url": "https://www.tomshardware.com/3d-printing/enthusiast-hides-gaming-pc-inside-living-room-fan-using-3d-printed-parts-disassembled-atomman-g7-cooled-by-dreo-tower-fan-that-shifts-air-at-28-feet-per-second",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T11:00:00+00:00",
-      "summary": "Creator Zac Builds mounted their mini-PC to the side of their living room fan to hide it plain sight.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/startup-unveils-3d-printed-nuclear-reactor-module-to-power-ai-data-centers-touted-as-the-worlds-first-subcritical-solid-state-factory-built-thorium-nuclear-reactor",
-      "title": "Startup unveils 3D-printed nuclear reactor module to power AI data centers —touted as ‘the world’s first subcritical, solid-state, factory-built thorium nuclear reactor’",
-      "url": "https://www.tomshardware.com/3d-printing/startup-unveils-3d-printed-nuclear-reactor-module-to-power-ai-data-centers-touted-as-the-worlds-first-subcritical-solid-state-factory-built-thorium-nuclear-reactor",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T11:00:00+00:00",
-      "summary": "Nuclear tech startup Ampera revealed a small modular reactor manufactured using 3D printing techniques. The company says that it expects to be the first one to mass produce these power sources for data centers and other applications.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/companies-join-hands-to-collectively-dunk-on-playstations-all-digital-future-dominos-pizza-kfc-and-gamesir-all-threaten-an-end-to-physical-production",
-      "title": "Companies join hands to collectively dunk on PlayStation's all-digital future — Domino's pizza, KFC, and GameSir all threaten an end to physical production",
-      "url": "https://www.tomshardware.com/tech-industry/companies-join-hands-to-collectively-dunk-on-playstations-all-digital-future-dominos-pizza-kfc-and-gamesir-all-threaten-an-end-to-physical-production",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T10:00:00+00:00",
-      "summary": "Companies on social media are coming together to mock Sony's decision of ceasing production of physical discs for PlayStation games. These brands are shifting to a digital-only model in an even more absurd manner.",
       "lang": "en"
     }
   ]
