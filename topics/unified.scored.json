@@ -1,234 +1,206 @@
 {
-  "date": "2026-07-06",
-  "intro": "今日核心信号：Alibaba 封禁 Claude Code 引爆 AI 编程工具安全争议，三星 Q2 利润暴增 18 倍刷新纪录，HBM 混合键合技术推迟但光芯片涨价逻辑更健康。AI 编程工具进入地缘政治博弈期，半导体存储与光互联两条主线持续升温。",
+  "date": "2026-07-07",
+  "intro": "今日核心信号：中国AI模型以价格优势加速渗透美国企业市场，OpenRouter平台占比一度达46%，性能差距缩至6-9个月；三星利润暴增19倍但股价暴跌8%，存储周期见顶担忧蔓延；微软Xbox大裁员4800人并剥离四家工作室，游戏行业收缩加剧。",
   "headlines": [
     {
       "rank": 1,
+      "domain": "股票",
+      "id": "wscn:3776361",
+      "url": "https://wallstreetcn.com/articles/3776361",
+      "source": "华尔街见闻",
+      "stars": 5,
+      "title": "美国企业加速采用中国AI模型，OpenRouter平台占比一度达46%",
+      "lead": "中国AI模型正以比Anthropic、OpenAI便宜60%-90%的价格抢占美国企业市场。开发者平台OpenRouter数据显示，美企使用中国模型的占比从4.5%飙升至峰值46%。创业公司Lindy一键切换DeepSeek后数月省下数百万美元。",
+      "confirmed": [
+        "中国AI模型价格比美国竞品低60%-90%",
+        "OpenRouter平台美企使用中国模型占比从4.5%升至峰值46%",
+        "性能差距已缩至6-9个月",
+        "创业公司Lindy切换DeepSeek后节省数百万美元"
+      ],
+      "judgment": [
+        "价格优势能否持续（中国模型可能提价）",
+        "性能差距是否进一步缩小",
+        "美国政策风险（可能限制中国企业服务美企）",
+        "企业客户粘性：切换成本低但数据主权顾虑",
+        "对Anthropic/OpenAI定价权的长期影响"
+      ],
+      "implication": "如果你在做AI产品，现在应该认真评估中国模型API。DeepSeek等模型在编程、推理任务上已接近Claude/GPT水平，成本却低一个数量级。建议在你的content-curator项目中测试DeepSeek作为备选推理引擎，尤其适合批量处理任务。"
+    },
+    {
+      "rank": 2,
       "domain": "AI",
       "id": "bvid:BV1VDTv6rEtM",
       "url": "http://www.bilibili.com/video/av116844031774993",
       "source": "程序员鱼皮",
       "stars": 5,
-      "title": "Alibaba 封禁 Claude Code：Anthropic 被曝植入中国检测代码，地缘政治撕裂 AI 编程工具市场",
-      "lead": "Alibaba 将 Claude Code 列为高风险软件并全面封禁，员工被要求切换至国产替代 Qoder。国外开发者逆向 Claude Code 源码发现 Anthropic 内置了一套隐蔽的中国用户标记系统，触发封号。这不仅是封号问题，而是 AI 编程工具正在成为地缘政治博弈的新战场。",
+      "title": "Claude Code封号原因曝光：Anthropic植入中国用户检测代码",
+      "lead": "国外开发者逆向Claude Code源码，发现Anthropic在客户端中隐藏了一套用户标记系统，可检测中国用户并触发封号。此事引发Alibaba全面封禁Claude Code，要求员工切换至国产工具Qoder。",
       "confirmed": [
-        "Alibaba 内部通知将 Claude Code 列为高风险软件，禁止员工使用",
-        "国外开发者逆向 Claude Code 源码发现 Anthropic 内置中国检测代码",
-        "Alibaba 员工被要求切换至国产 AI 编程工具 Qoder",
-        "Anthropic 与 Alibaba 关系持续恶化，此前已有多轮摩擦"
+        "逆向分析发现Claude Code客户端含中国检测代码",
+        "Alibaba已全面封禁Claude Code并要求员工转用Qoder",
+        "Anthropic回应称是\"实验性功能\"已停止",
+        "大量中国用户遭遇封号"
       ],
       "judgment": [
-        "Anthropic 是否故意针对中国用户设计检测机制尚未官方确认",
-        "Qoder 能否在功能上替代 Claude Code 尚待验证",
-        "其他中国科技公司是否会跟进封禁 Claude Code",
-        "美国政府对 AI 工具出口管制的进一步动作",
-        "开源替代方案（如 Codex）是否会因此受益"
+        "Anthropic是否真的停止检测",
+        "其他美国AI公司是否有类似做法",
+        "中国监管可能出台反制措施",
+        "国产替代工具Qoder能否承接需求",
+        "对中国开发者使用海外AI工具的信心影响"
       ],
-      "implication": "你正在做 content-curator Agent 项目，如果依赖 Claude Code 作为编程工具，需要评估被封风险。建议同时配置 Codex 或 Qoder 作为备选，并在项目中保持工具链的灵活性。这件事也提醒你：AI 编程工具的选择不再只是技术决策，地缘政治风险正在渗透到开发者日常。"
-    },
-    {
-      "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "wscn:3776259",
-      "url": "https://wallstreetcn.com/articles/3776259",
-      "source": "华尔街见闻",
-      "stars": 5,
-      "title": "三星 Q2 利润暴增 18 倍，高管放话“一年利润顶过去 40 年”，DRAM/NAND 价格单季飙升 50%",
-      "lead": "三星电子二季度营业利润一致预期高达 84.6 万亿韩元，若达标将超越英伟达刷新全球科技企业单季利润历史纪录。管理层罕见主动背书，称今年利润将超过过去 40 年累计总和。背后是 AI 推理需求超预期拉动存储价格暴涨，但 2 万亿美元扩产豪赌被指“周期顶部融资”。",
-      "confirmed": [
-        "三星 Q2 营业利润一致预期 84.6 万亿韩元，同比暴增约 18 倍",
-        "DRAM/NAND 价格单季飙升逾 50%，AI 推理需求是主要驱动力",
-        "管理层内部放话“今年利润将超过 40 年累计总和”",
-        "三星计划 2 万亿美元扩产，但市场担忧周期顶部风险"
-      ],
-      "judgment": [
-        "84.6 万亿韩元利润能否实际达成仍有不确定性",
-        "2 万亿美元扩产是否会在周期下行时造成产能过剩",
-        "苹果被迫涨价后需求弹性是否会影响存储价格走势",
-        "HBM 混合键合技术推迟对三星长期竞争力的影响",
-        "SK Hynix 美股首秀是否会分流三星的资金关注"
-      ],
-      "implication": "存储芯片的超级周期正在加速，你如果做 AI 推理相关项目，需要关注 HBM 和 DDR5 的供应与价格趋势。三星的扩产计划意味着未来 1-2 年存储成本可能先升后降，建议在项目预算中预留弹性空间。同时，SK Hynix 美股上市可能带来新的投资机会。"
+      "implication": "如果你在用Claude Code做项目，建议准备备用方案。可以测试Codex、国产Qoder或本地部署模型。你的content-curator项目如果依赖Claude API，注意账户安全，考虑多账户轮换或使用国内代理。"
     },
     {
       "rank": 3,
       "domain": "AI 算力 / 半导体",
-      "id": "wscn:3776263",
-      "url": "https://wallstreetcn.com/articles/3776263",
-      "source": "华尔街见闻",
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidias-kyber-rack-for-rubin-ultra-slips-to-2028",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-kyber-rack-for-rubin-ultra-slips-to-2028",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "HBM 封装技术生变：三星、SK 海力士双双推迟混合键合导入，光芯片涨价逻辑更受青睐",
-      "lead": "三星与 SK 海力士相继将混合键合技术的 HBM 导入节点推后——原定 HBM4 首发，如今可能延至第七代 HBM4E 甚至更晚。厚度标准放宽、散热替代方案落地，令这项技术的紧迫性骤降。与此同时，光模块的涨价逻辑被国盛证券称为“更健康”——从 400G 到 1.6T，单价持续上行但每比特成本下降。",
+      "title": "Nvidia Kyber机架延迟至2028年，PCB中板问题导致供应链震荡",
+      "lead": "SemiAnalysis报告称Nvidia Rubin Ultra的Kyber NVL144机架因PCB中板问题延迟超12个月，原定2027年推迟至2028年。消息导致中国台湾CCL/PCB板块单日重挫8-9%，但美银认为高端CCL和ABF基板供不应求格局不变。",
       "confirmed": [
-        "三星和 SK 海力士均推迟 HBM 混合键合技术导入时间",
-        "原定 HBM4 首发混合键合，现可能延至 HBM4E 或更晚",
-        "厚度标准放宽和散热替代方案降低了混合键合的紧迫性",
-        "光模块从 400G 到 1.6T 单价持续上行，但每比特成本下降"
+        "Kyber NVL144机架延迟至2028年",
+        "延迟原因为PCB中板设计问题",
+        "中国台湾CCL/PCB板块单日下跌8-9%",
+        "美银维持高端CCL/ABF基板供不应求判断"
       ],
       "judgment": [
-        "HBM5E 的 I/O 数量可能翻倍至 4096 个，届时混合键合仍可能回归",
-        "光芯片产能紧缺（高端 EML/CW 激光器供需缺口超 30%）是否持续",
-        "光芯片订单排至 2028 年，但产能扩张速度能否跟上需求",
-        "混合键合推迟是否会影响 HBM4 的性能提升幅度"
+        "延迟是否影响Nvidia整体路线图",
+        "AMD/其他厂商能否趁机抢占市场",
+        "PCB/CCL厂商订单调整幅度",
+        "Nvidia是否有替代方案（如简化版机架）",
+        "对AI服务器出货量的实际影响"
       ],
-      "implication": "对于你的 AI 项目，HBM 技术路线推迟意味着短期内高带宽内存的供应仍以现有方案为主，成本下降速度可能慢于预期。而光芯片的涨价逻辑更可持续，如果你涉及数据中心或 AI 集群设计，光互联方案值得优先考虑。"
+      "implication": "如果你关注AI硬件供应链，短期PCB/CCL板块有回调压力，但高端材料长期逻辑未破。做AI部署的话，Nvidia高端GPU供应可能趋紧，可以考虑AMD MI系列或国产算力作为备选。"
     },
     {
       "rank": 4,
-      "domain": "大厂讯息",
-      "id": "wscn:3776266",
-      "url": "https://wallstreetcn.com/articles/3776266",
-      "source": "华尔街见闻",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "source": "TechCrunch",
       "stars": 4,
-      "title": "对冲基金连抛科技股四周，高盛交易员宣告“买入一切 AI”时代终结，大分化降临",
-      "lead": "对冲基金连续四周抛售科技股，芯片组合暴跌 19%。高盛交易员直言“买入一切 AI”的时代已经结束。这并非 AI 神话破灭，而是残酷的风格洗牌：资金正加速出清拥挤仓位，市场将重新奖励“质量与执行力”。AI 投资从 beta 驱动转向 alpha 驱动。",
+      "title": "微软裁员4800人，Xbox部门剥离四家工作室，游戏行业加速AI化",
+      "lead": "微软裁减约4800个岗位（占全球2.1%），其中Xbox部门裁员3200人并剥离Compulsion、Double Fine、Ninja Theory、Undead Labs四家工作室。CEO称此举为\"重置\"，将聚焦核心IP和AI驱动的开发流程。",
       "confirmed": [
-        "对冲基金连续四周净卖出科技股",
-        "芯片股组合累计下跌 19%",
-        "高盛交易员公开表示“买入一切 AI”时代终结",
-        "资金从拥挤的 AI 仓位向质量股轮动"
+        "微软裁员4800人，Xbox部门占3200人",
+        "剥离四家游戏工作室，但保留其游戏IP",
+        "Xbox部门裁员比例约20%",
+        "2026年科技公司因AI裁员名单持续扩大"
       ],
       "judgment": [
-        "这是短期回调还是长期趋势逆转尚待观察",
-        "AI 基础设施股（如英伟达）是否会进一步承压",
-        "AI 应用层公司是否会成为资金轮动的受益者",
-        "宏观因素（利率、地缘政治）对科技股估值的影响程度"
+        "被剥离工作室能否独立生存",
+        "微软游戏业务是否转向AI生成内容",
+        "其他游戏平台（索尼、任天堂）是否跟进",
+        "AI替代游戏开发人员的速度",
+        "对独立游戏生态的长期影响"
       ],
-      "implication": "如果你持有或关注 AI 相关股票/加密货币，需要警惕短期波动。但这对你的个人项目是好事——当市场从“买故事”转向“买执行”，真正有工程实践能力的开发者会更受重视。你的 content-curator Agent 项目如果做出实际效果，简历价值会更高。"
-    },
-    {
-      "rank": 5,
-      "domain": "AI",
-      "id": "bvid:BV1RFTc62EaK",
-      "url": "http://www.bilibili.com/video/av116838327388595",
-      "source": "黑马程序员",
-      "stars": 3,
-      "title": "黑马程序员发布 Vibe Coding 零基础入门教程，涵盖 Claude Code、Cursor、Codex、Agent 开发全栈",
-      "lead": "黑马程序员在 7 月 1 日发布了一套完整的 Vibe Coding 零基础入门教程，覆盖 Claude Code、Cursor、Codex、SDD、LangChain、Agent 开发等主流工具和框架。这是目前中文社区最系统的 Vibe Coding 教程之一，适合零基础到进阶的全链路学习。",
-      "confirmed": [
-        "教程发布于 2026 年 7 月 1 日",
-        "涵盖 Claude Code、Cursor、Codex、SDD、LangChain、Agent 开发",
-        "黑马程序员是知名 IT 培训机构，教程质量有保障",
-        "配套资料可通过公众号免费获取"
-      ],
-      "judgment": [
-        "教程深度是否足够满足有编程基础的开发者",
-        "是否包含实际项目案例而非纯理论讲解",
-        "与尚硅谷等其他机构的 Vibe Coding 教程相比优劣如何",
-        "教程是否及时更新了最新的工具版本"
-      ],
-      "implication": "你正在做 content-curator Agent 项目，这套教程可以帮你快速补齐 Vibe Coding 全栈技能。建议重点看 Agent 开发和 LangChain 部分，直接应用到你的项目中。教程免费，性价比很高。"
+      "implication": "游戏行业正在经历AI驱动的结构性裁员。如果你在考虑游戏开发方向，AI工具（如Claude Code+Unity/Unreal）能大幅降低个人开发成本，但大厂就业机会在减少。你的content-curator项目可以关注AI+游戏开发工具的趋势。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "星动纪元完成新一轮 10 亿元融资，2026 年来累计融资近 50 亿",
-      "url": "https://wallstreetcn.com/articles/3776271",
-      "source": "华尔街见闻",
-      "one_liner": "人形机器人赛道持续吸金，但商业化落地仍是未知数，暂不入头条。"
+      "title": "OpenClaw登顶GitHub历史第一，超越React",
+      "url": "https://36kr.com/p/3885061350617350?f=rss",
+      "source": "36氪",
+      "one_liner": "AI Agent框架OpenClaw以25.2万星标超越Meta React，标志AI Agent时代来临，但需警惕炒作成分。"
     },
     {
       "domain": "AI",
-      "title": "千问大模型升级实时语音识别模型 Fun-ASR-Realtime，支持 16 种方言和 30 种语言",
-      "url": "https://36kr.com/newsflashes/3883798757683464",
-      "source": "36氪",
-      "one_liner": "百毫秒级首字延迟，对语音 Agent 项目有参考价值，但非独家突破。"
+      "title": "Vercel CEO：模型与Agent分离是未来趋势",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "source": "TechCrunch",
+      "one_liner": "Guillermo Rauch认为生产环境应关注性价比，模型和Agent解耦是必然方向。"
     },
     {
       "domain": "AI",
-      "title": "爱仕达与智元机器人签署战略合作，五大方向开展深度合作",
-      "url": "https://36kr.com/newsflashes/3883821411545091",
-      "source": "36氪",
-      "one_liner": "传统制造企业加速布局人形机器人，但合作细节未披露，暂不入头条。"
+      "title": "AMD Ryzen AI Halo评测：本地AI盒子对标DGX Spark",
+      "url": "https://www.tomshardware.com/pc-components/gpus/embargo-mon-july-6-8am-pt-1100-edt-amd-ryzen-ai-halo-review",
+      "source": "Tom's Hardware",
+      "one_liner": "AMD推出完整本地AI解决方案，性能和应用生态仍需观察，但对个人开发者是低成本入门选择。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "SK Hynix 计划 713 亿美元国内投资，并筹备纳斯达克上市",
+      "title": "SK海力士计划713亿美元国内投资并赴美上市",
       "url": "https://www.eetimes.com/sk-hynix-plans-713b-domestic-investment/",
       "source": "EE Times",
-      "one_liner": "存储巨头加码产能，美股上市将改变行业资金格局，但信息已部分消化。"
+      "one_liner": "SK海力士巨额投资+美股IPO，AI存储需求持续旺盛，但三星财报后股价暴跌显示周期风险。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "英特尔上调多款 CPU 价格，服务器芯片最高涨超 1300 美元",
-      "url": "https://wallstreetcn.com/articles/3776265",
-      "source": "华尔街见闻",
-      "one_liner": "消费端温和、服务器端暴涨，反映 AI 算力需求旺盛，但非突发新闻。"
+      "title": "Huawei Atlas 950 SuperPod进入韩国市场，挑战Nvidia",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/chinas-huawei-to-enter-south-korean-ai-chip-market-with-new-atlas-superpods-clusters-pack-8-192-ascend-950-accelerators-per-deployment-reportedly-challenges-nvidia-dominance-with-tripled-inference-performance-of-h20-at-one-quarter-the-cost",
+      "source": "Tom's Hardware",
+      "one_liner": "华为Ascend 950集群宣称推理性能3倍于H20、价格仅1/4，但生态和软件栈仍是短板。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Jim Keller 的 Atomic Semi 更名为 Fab2，转向德州建设小型半导体工厂",
+      "title": "Jim Keller的Atomic Semi更名为Fab2，转向量产小型晶圆厂",
       "url": "https://www.tomshardware.com/tech-industry/atomic-semi-rebrands-as-fab2-and-shifts-operations-to-texas",
       "source": "Tom's Hardware",
-      "one_liner": "芯片架构大神的新动向，但距离量产还很远，暂不入头条。"
+      "one_liner": "芯片架构师Jim Keller的创业公司从工具制造转向晶圆厂量产，瞄准小规模定制芯片需求。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "TrendForce：内存价格涨势放缓，消费者触及承受力上限，但 AI 需求仍推动 Q3 上涨",
-      "url": "https://www.tomshardware.com/pc-components/ram/memory-price-surge-begins-to-cool-as-consumers-hit-affordability-limit-ai-demand-still-keeps-dram-and-nand-prices-climbing-through-q3-2026",
-      "source": "Tom's Hardware",
-      "one_liner": "存储涨价出现分化信号，对 DIY 和云成本有影响，但非头条级。"
+      "domain": "股票",
+      "title": "三星利润暴增19倍但股价暴跌8%：存储周期见顶信号",
+      "url": "https://wallstreetcn.com/articles/3776348",
+      "source": "华尔街见闻",
+      "one_liner": "三星Q2营业利润同比增19倍至89.4万亿韩元，但Meta暗示AI资本支出设限、存储竞争加剧，\"买预期卖事实\"。"
     },
     {
-      "domain": "大厂讯息",
-      "title": "亚马逊 Mechanical Turk 停止接受新客户，AI 数据标注模式面临终结",
-      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "domain": "股票",
+      "title": "华尔街警告美股\"双重泡沫\"：价格泡沫+盈利泡沫，或暴跌50%",
+      "url": "https://wallstreetcn.com/articles/3776359",
+      "source": "华尔街见闻",
+      "one_liner": "若盈利修正至历史增速，标普500估值将达67.6倍PE，超越所有资产泡沫峰值。"
+    },
+    {
+      "domain": "股票",
+      "title": "韩股大跌8%触发熔断，三星SK海力士重挫10%",
+      "url": "https://wallstreetcn.com/articles/3776355",
+      "source": "华尔街见闻",
+      "one_liner": "芯片板块成重灾区，纳指期货跌1%，全球科技股回调压力加大。"
+    },
+    {
+      "domain": "股票",
+      "title": "腾讯WorkBuddy登顶国内效率AI DAU第一，月访问量885万",
+      "url": "https://wallstreetcn.com/premium/articles/3776357?layout=wscn-layout",
+      "source": "华尔街见闻",
+      "one_liner": "上线3个月即登顶，企业版涨价仍供不应求，腾讯AI产品能力被低估。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Even Realities获1.5亿美元融资，估值10亿美元",
+      "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
       "source": "TechCrunch",
-      "one_liner": "众包数据标注平台关停，AI 训练数据获取方式正在转变，但影响渐进。"
+      "one_liner": "前苹果团队打造无摄像头智能眼镜，美团腾讯领投，AI眼镜赛道持续升温。"
     },
     {
-      "domain": "大厂讯息",
-      "title": "AI 砍掉的第一批大厂人：高薪、高绩效、高P",
-      "url": "https://36kr.com/p/3883456791163138",
-      "source": "36氪",
-      "one_liner": "AI 提效导致大厂裁员，对求职者有警示意义，但偏社会话题。"
-    },
-    {
-      "domain": "大厂讯息",
-      "title": "Midjourney 要求好莱坞披露 AI 使用细节，法律纠纷升级",
-      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "domain": "大厂 AI 动态",
+      "title": "Agility Robotics通过SPAC上市，CEO称家用机器人仍需时日",
+      "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
       "source": "TechCrunch",
-      "one_liner": "AI 版权争议持续，但与你个人项目关联度低。"
+      "one_liner": "人形机器人公司务实上市，工业场景先行，家用场景预期管理理性。"
     },
     {
-      "domain": "金融",
-      "title": "科技股遭对冲基金连抛四周，高盛交易员宣告“买入一切 AI”时代终结",
-      "url": "https://wallstreetcn.com/articles/3776266",
-      "source": "华尔街见闻",
-      "one_liner": "已选入头条，此处不重复。"
+      "domain": "大厂 AI 动态",
+      "title": "iOS 27 Beta允许自定义Siri语速和表现力",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "source": "TechCrunch",
+      "one_liner": "Apple用生成式AI重建Siri，个性化语音是第一步，但相比竞品仍落后。"
     },
     {
-      "domain": "金融",
-      "title": "三星明日初步财报：Q2 利润预计暴增 18 倍",
-      "url": "https://wallstreetcn.com/articles/3776259",
-      "source": "华尔街见闻",
-      "one_liner": "已选入头条，此处不重复。"
-    },
-    {
-      "domain": "金融",
-      "title": "华泰宏观：韩国出口增 7 成印证 AI 链火热需求",
-      "url": "https://wallstreetcn.com/articles/3776256",
-      "source": "华尔街见闻",
-      "one_liner": "宏观验证性信息，对投资有参考但非独立头条。"
-    },
-    {
-      "domain": "金融",
-      "title": "中金：港股市场的底部特征",
-      "url": "https://wallstreetcn.com/articles/3776247",
-      "source": "华尔街见闻",
-      "one_liner": "港股深度分析，对投资有参考但偏长线。"
-    },
-    {
-      "domain": "金融",
-      "title": "日本经济复苏虚实：投资者狂欢 vs 民众勒紧裤腰带",
-      "url": "https://wallstreetcn.com/articles/3776267",
-      "source": "华尔街见闻",
-      "one_liner": "宏观撕裂现象，与 AI 主题关联弱。"
+      "domain": "大厂 AI 动态",
+      "title": "Reddit用LLM对抗LLM生成的垃圾内容",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+      "source": "TechCrunch",
+      "one_liner": "AI生成内容泛滥，平台被迫用AI检测AI，猫鼠游戏升级。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-06T08:47:02+0000"
+    "scored_at": "2026-07-07T07:31:56+0000"
   }
 }
