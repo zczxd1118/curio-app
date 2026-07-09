@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-07-08T05:59:25.403166+00:00",
+  "fetched_at": "2026-07-09T06:51:40.348893+00:00",
   "platforms": [
     "rss"
   ],
@@ -188,6 +188,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/white-house-executive-order-brings-new-urgency-to-post-quantum-cryptography/",
+      "title": "White House Executive Order Brings New Urgency to Post-Quantum Cryptography",
+      "url": "https://www.eetimes.com/white-house-executive-order-brings-new-urgency-to-post-quantum-cryptography/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-08T17:00:00+00:00",
+      "summary": "Quantum hackers won’t wait: White House orders PQC by 2030, forcing contractors and tech firms to move now. The post White House Executive Order Brings New Urgency to Post-Quantum Cryptography appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/rise-of-the-ai-data-center-why-infrastructure-strategy-is-now-a-board-level-issue/",
+      "title": "Rise of the AI Data Center – Why Infrastructure Strategy Is Now a Board-Level Issue",
+      "url": "https://www.eetimes.com/rise-of-the-ai-data-center-why-infrastructure-strategy-is-now-a-board-level-issue/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Delta Electronics Americas",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-08T14:00:00+00:00",
+      "summary": "This white paper describes the critical engineering and strategic pain points behind today&#8217;s AI data center infrastructure gap and offers practical frameworks for resolving them. Whether you&#8217;re architecting a new hyperscale facility or expanding or hardening an existing one, here you’ll find the technical and business insights you need to make smarter, more effective infrastructure [&#8230;] The post Rise of the AI Data Center &#8211; Why Infrastructure Strategy Is Now a Board-Level ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/sambanova-raises-1-billion-signs-jpmorganchase-as-a-customer/",
+      "title": "SambaNova Raises $1B, Signs JPMorganChase as a Customer",
+      "url": "https://www.eetimes.com/sambanova-raises-1-billion-signs-jpmorganchase-as-a-customer/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-08T07:45:00+00:00",
+      "summary": "The enterprise market is beginning to kick in, SambaNova CEO tells EE Times. The post SambaNova Raises $1B, Signs JPMorganChase as a Customer appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/mems-heralds-an-overdue-step-change-in-switching-technology/",
+      "title": "MEMS Heralds an Overdue Step Change in Switching Technology",
+      "url": "https://www.eetimes.com/mems-heralds-an-overdue-step-change-in-switching-technology/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Russ Garcia",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-08T07:40:00+00:00",
+      "summary": "Ditch creaky relays: MEMS switches slash heat, power draw and bulk for AI data centers and automation. The post MEMS Heralds an Overdue Step Change in Switching Technology appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/can-agentic-ai-solve-the-embedded-software-problem/",
       "title": "Can Agentic AI Solve the Embedded Software Problem?",
       "url": "https://www.eetimes.com/can-agentic-ai-solve-the-embedded-software-problem/",
@@ -287,74 +355,6 @@
       "views": null,
       "published_at": "2026-07-06T17:00:00+00:00",
       "summary": "MIPS bets RISC-V and ARC AI will power physical AI in cars and factory robots. Watch the interview and learn more. The post MIPS on the RISC-V Shift: &#8216;Physical AI Is Agentic AI at the Edge&#8217; appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/voice-is-key-to-physical-ai-development-methods-need-to-catch-up/",
-      "title": "Voice Is Key to Physical AI; Development Methods Need to Catch Up",
-      "url": "https://www.eetimes.com/voice-is-key-to-physical-ai-development-methods-need-to-catch-up/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Finnur Pind",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-06T12:41:56+00:00",
-      "summary": "To solve far-field ASR challenges, physical AI needs acoustic reality, prompting engineers to use physics-based simulation. The post Voice Is Key to Physical AI; Development Methods Need to Catch Up appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/kioxia-all-set-to-raise-the-nand-game-in-ai-ssds/",
-      "title": "Kioxia All Set to Raise the NAND Game in AI SSDs",
-      "url": "https://www.eetimes.com/kioxia-all-set-to-raise-the-nand-game-in-ai-ssds/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-06T07:29:33+00:00",
-      "summary": "Here is how the Japanese chipmaker is cashing in on NAND flash demand in data center SSDs. The post Kioxia All Set to Raise the NAND Game in AI SSDs appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/breakthrough-cnt-pellicles-deliver-66x-durability-and-sufficient-transmittance/",
-      "title": "Breakthrough CNT Pellicles Deliver 66x Durability and Sufficient Transmittance",
-      "url": "https://www.eetimes.com/breakthrough-cnt-pellicles-deliver-66x-durability-and-sufficient-transmittance/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Lintec",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-06T04:00:00+00:00",
-      "summary": "Explore the latest breakthrough in CNT pellicles for EUV lithography: durability is up to 66 times higher, with less transmittance loss. The post Breakthrough CNT Pellicles Deliver 66x Durability and Sufficient Transmittance appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/inside-infineon-e5b-dresden-fab-virtual-fab-cloning-fast-tracked-the-launch/",
-      "title": "Inside Infineon’s €5B Dresden Fab: Virtual Fab Cloning Fast-Tracked the Launch",
-      "url": "https://www.eetimes.com/inside-infineon-e5b-dresden-fab-virtual-fab-cloning-fast-tracked-the-launch/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-04T10:40:05+00:00",
-      "summary": "At the opening of its Dresden smart power fab, Infineon’s COO said virtual fab cloning enabled delivery three months ahead of schedule. The post Inside Infineon&#8217;s €5B Dresden Fab: Virtual Fab Cloning Fast-Tracked the Launch appeared first on EE Times.",
       "lang": "en"
     }
   ]
