@@ -1,42 +1,66 @@
 # Curio · AI 算力 / 半导体 · 2026-07-09
 
-> 今日 1 条头条 + 3 条备选
+> 今日 2 条头条 + 4 条备选
 
-_今日核心信号：xAI 发布 Grok 4.5，性能追平 Opus 但价格砍半，AI 模型价格战进入新阶段；同时，中国指控 Claude Code 含后门，AI 编程工具的安全性与地缘博弈成为焦点。半导体方面，JEDEC 发布 SPHBM4 标准，有望降低 AI 内存成本。_
+_今日核心信号：Grok 4.5 以 Opus 级性能+1/4 Token 成本杀回牌局，xAI 收购 Cursor 争夺编程代理市场；JEDEC 发布 SPHBM4 标准，有望用有机基板替代硅中介层，大幅降低 AI 内存成本；中国指控 Claude Code 含后门，地缘技术博弈加剧。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. JEDEC 发布 SPHBM4 标准：去掉硅中介层，AI 内存成本有望大幅下降
+### 2. JEDEC 发布 SPHBM4 标准：512-bit 接口，用有机基板替代硅中介层，AI 内存成本有望大幅下降
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-JEDEC 发布新的 SPHBM4 内存标准，采用窄 512-bit 接口，允许使用有机基板替代昂贵的硅中介层和 CoWoS 封装。这意味着 HBM4 级别的带宽可以以更低成本实现。
+JEDEC 正式发布 SPHBM4 标准，通过窄 512-bit 接口设计，允许使用有机基板替代昂贵的硅中介层和 CoWoS 封装。这意味着 HBM4 类带宽可以在不依赖先进封装的情况下实现，有望显著降低 AI 训练/推理的内存成本。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| SPHBM4 标准已由 JEDEC 正式发布 | SPHBM4 的实际量产时间表尚未公布 |
-| 窄 512-bit 接口设计可去掉硅中介层 | 与标准 HBM4 的性能差距有多大？ |
-| 使用有机基板替代 CoWoS 封装 | 生态支持情况（GPU/加速器厂商的适配意愿） |
-| 目标是为 AI 训练和推理提供低成本高带宽内存 | 成本降低幅度能否达到预期？ |
-|  | 对现有 HBM 供应商（三星、SK 海力士、美光）的影响 |
+| SPHBM4 采用 512-bit 接口，带宽与 HBM4 相当 | 有机基板的良率和可靠性是否满足大规模量产要求 |
+| 无需硅中介层和 CoWoS 封装，使用有机基板 | SPHBM4 的实际量产时间表（预计 2027-2028） |
+| JEDEC 正式发布该标准 | HBM 厂商（三星、SK 海力士、美光）是否会跟进 |
+| 目标市场为 AI 训练和推理场景 | 对现有 HBM 生态的冲击程度 |
+|  | 成本降低幅度是否如预期显著 |
 
 **📖 主编点评**
 
-SPHBM4 如果成功量产，将直接降低 AI 服务器的内存成本，这对你的个人项目部署成本是利好。建议关注首批支持 SPHBM4 的 GPU 或 AI 加速器产品，未来搭建个人 AI 工作站时可以考虑。
+如果你在做 AI 推理优化或模型部署，SPHBM4 可能在未来 2 年改变内存成本结构。短期关注三星和 SK 海力士的反应，长期看这会降低 AI 基础设施的 TCO，对个人开发者意味着更便宜的云端推理资源。
 
 📺 [打开原文](https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates)
 
 ---
 
+### 3. 中国指控 Claude Code 含后门：2026 年 4-6 月版本存在隐蔽代码，向远程服务器发送敏感信息
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+
+中国官方指控 Claude Code 2026 年 4 月至 6 月发布的版本中存在隐蔽代码，会在未经用户同意的情况下向远程服务器发送敏感信息。此前已有国外开发者逆向发现 Anthropic 在客户端中内置了用户标记系统。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 中国官方发布安全警告，指控 Claude Code 存在后门 | Anthropic 是否承认该机制存在 |
+| 涉及 2026 年 4-6 月发布的版本 | 该机制是安全功能还是后门（如遥测/反滥用） |
+| 隐蔽代码可向远程服务器发送敏感信息 | 对 Claude Code 在中国及全球市场的影响 |
+| 此前已有国外开发者发现类似标记系统 | 是否会导致更多国家出台类似限制 |
+|  | 开源替代方案（如 OpenCode）是否会受益 |
+
+**📖 主编点评**
+
+如果你在用 Claude Code，建议检查版本号并关注 Anthropic 的官方回应。对于你的 content-curator 项目，可以考虑将 OpenCode 等开源工具作为备选，避免单一依赖风险。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/china-alleges-that-claude-code-contains-backdoors-calls-mechanism-a-serious-threat-govt-claims-claude-sends-sensitive-information-to-remote-servers-without-consent)
+
+---
+
 ## 📋 备选阅读
 
-- [Nvidia Vera CPU 单线程性能号称比 x86 高 1.8 倍](https://www.tomshardware.com/pc-components/cpus/nvidia-touts-vera-cpus-single-threaded-performance-as-its-agentic-ai-advantage-frames-chip-as-a-max-single-threaded-cpu-at-scale-not-a-parallel-monster) —— Nvidia 将 Vera CPU 定位为 Agentic AI 的单线程性能怪兽，但实际应用场景有限。
+- [SambaNova 融资 10 亿美元，签下摩根大通客户](https://www.eetimes.com/sambanova-raises-1-billion-signs-jpmorganchase-as-a-customer/) —— 企业级 AI 芯片市场开始放量，SambaNova 获大行背书，但融资额和客户级别仍需观察后续订单。
+  _EE Times_
+- [Nvidia 称 Vera CPU 单线程性能领先 x86 1.8 倍，专为 Agentic AI 设计](https://www.tomshardware.com/pc-components/cpus/nvidia-touts-vera-cpus-single-threaded-performance-as-its-agentic-ai-advantage-frames-chip-as-a-max-single-threaded-cpu-at-scale-not-a-parallel-monster) —— Nvidia 首次公开 Vera CPU 单线程性能数据，Agent 推理场景可能成为其新护城河。
   _Tom's Hardware_
-- [韩国 8800 亿美元芯片计划面临电力和水挑战](https://www.tomshardware.com/tech-industry/power-and-water-lag-the-fabs-in-south-koreas-880-billion-chip-and-ai-plan) —— 韩国半导体雄心遭遇基础设施瓶颈，单个集群用电量相当于首尔四分之一。
+- [JEDEC 发布 SPHBM4 标准，AI 内存成本有望大幅下降](https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates) —— 已选入头条，此处略。
   _Tom's Hardware_
-- [Rapidus 首座先进制程晶圆厂路线图曝光](https://www.tomshardware.com/tech-industry/semiconductors/rapidus-fab-roadmap-examined) —— 日本重返先进制程的孤注一掷：一座晶圆厂、2027 年截止日期、60 家潜在客户。
+- [中国指控 Claude Code 含后门](https://www.tomshardware.com/tech-industry/artificial-intelligence/china-alleges-that-claude-code-contains-backdoors-calls-mechanism-a-serious-threat-govt-claims-claude-sends-sensitive-information-to-remote-servers-without-consent) —— 已选入头条，此处略。
   _Tom's Hardware_
 
 ---
