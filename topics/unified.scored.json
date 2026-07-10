@@ -1,223 +1,195 @@
 {
-  "date": "2026-07-09",
-  "intro": "今日核心信号：Grok 4.5 以 Opus 级性能+1/4 Token 成本杀回牌局，xAI 收购 Cursor 争夺编程代理市场；JEDEC 发布 SPHBM4 标准，有望用有机基板替代硅中介层，大幅降低 AI 内存成本；中国指控 Claude Code 含后门，地缘技术博弈加剧。",
+  "date": "2026-07-10",
+  "intro": "今日核心信号：OpenAI 正式发布 GPT-5.6 并推出 'ChatGPT Work'，同时关闭 Atlas 浏览器，战略聚焦 agent 工作流。中国长征十号乙火箭首飞成功，实现全球首次海上网系回收，航天成本有望骤降 80%。国产 AI 芯片燧原科技科创板注册生效，半导体自主化再进一步。三星 'GAIA' AI PC 芯片送样，NAND 涨价潮持续。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI",
-      "id": "wscn:3776545",
-      "url": "https://wallstreetcn.com/articles/3776545",
-      "source": "华尔街见闻",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+      "source": "The Verge",
       "stars": 5,
-      "title": "Grok 4.5 发布：1.5T 参数、80 TPS、API 价格比对手低 60%，xAI 同时收购 Cursor",
-      "lead": "xAI 联合 Cursor 发布 Grok 4.5，1.5T 参数是前代 3 倍，编程能力追平 Claude Opus，推理速度 80 TPS，API 价格便宜 60% 以上。更关键的是，推理优化软件尚未上线，速度有望再翻倍。同时 xAI 收购 Cursor，意在获取真实编程数据构建飞轮，争夺编程代理市场。",
+      "title": "OpenAI 获政府绿灯发布 GPT-5.6，同步推出 'ChatGPT Work' 并关闭 Atlas 浏览器",
+      "lead": "OpenAI 在经历两周监管审查后，正式向公众发布 GPT-5.6 模型家族，同时宣布推出 'ChatGPT Work'——一个可独立运行数小时的 agent 工作流工具。作为战略收缩，去年 10 月发布的 AI 浏览器 Atlas 被关闭，其 agent 能力将整合到桌面应用和 Chrome 扩展中。这标志着 OpenAI 从 'AI 浏览器' 转向 'AI 工作助手' 的明确路线调整。",
       "confirmed": [
-        "Grok 4.5 参数规模 1.5T，是 Grok 4 的 3 倍",
-        "推理速度 80 TPS，API 价格比 Claude Opus 低 60% 以上",
-        "xAI 收购 Cursor，整合编程代理能力",
-        "推理优化软件尚未上线，速度有望再翻倍"
+        "GPT-5.6 已获得特朗普政府批准，面向所有用户开放",
+        "OpenAI 推出 'ChatGPT Work'，支持长时间独立运行的 agent 工作流",
+        "AI 浏览器 Atlas 正式关闭，生命周期不到一年",
+        "Atlas 的 agent 功能将迁移至桌面应用和 Chrome 扩展",
+        "GPT-5.6 在网络安全等多项基准上有所提升"
       ],
       "judgment": [
-        "Grok 4.5 编程能力是否真正追平 Opus 需第三方评测验证",
-        "低价策略能否持续，取决于推理优化后的实际成本",
-        "收购 Cursor 后，xAI 能否在编程代理市场挑战 Anthropic/OpenAI",
-        "Grok 4.5 的 token 效率优势是否足以改变开发者选择",
-        "xAI 的算力储备能否支撑大规模推理需求"
+        "GPT-5.6 相比 GPT-5 的具体能力提升幅度尚未公开",
+        "'ChatGPT Work' 的实际可用性和可靠性有待验证",
+        "OpenAI 与微软 Copilot 的合作关系是否因 'ChatGPT Work' 产生变化尚不明朗",
+        "Atlas 关闭是否意味着 OpenAI 放弃了浏览器入口战略",
+        "政府审批流程对后续模型发布节奏的影响未知"
       ],
-      "implication": "Grok 4.5 的低价策略直接冲击 Claude 和 GPT 的定价体系，如果你在做 Agent 项目，可以立即测试 Grok 4.5 的编程和推理能力，尤其是 token 成本降低 75% 对个人开发者是重大利好。xAI 收购 Cursor 意味着编程代理赛道进入巨头整合期，建议关注 Cursor 后续的模型切换策略。"
+      "implication": "你应该关注 'ChatGPT Work' 的 agent 能力——它可能成为你 content-curator 项目的直接竞品或灵感来源。GPT-5.6 的发布也意味着 API 能力升级，建议尽快测试其编程和推理表现，评估是否替换当前使用的模型。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates",
-      "url": "https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates",
-      "source": "Tom's Hardware",
+      "domain": "股票",
+      "id": "wscn:3776638",
+      "url": "https://wallstreetcn.com/articles/3776638",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "JEDEC 发布 SPHBM4 标准：512-bit 接口，用有机基板替代硅中介层，AI 内存成本有望大幅下降",
-      "lead": "JEDEC 正式发布 SPHBM4 标准，通过窄 512-bit 接口设计，允许使用有机基板替代昂贵的硅中介层和 CoWoS 封装。这意味着 HBM4 类带宽可以在不依赖先进封装的情况下实现，有望显著降低 AI 训练/推理的内存成本。",
+      "title": "长征十号乙首飞成功：中国实现全球首次海上网系火箭回收，发射成本有望骤降 80%",
+      "lead": "2026 年 7 月 10 日，长征十号乙运载火箭首飞成功，以全球首创的 '海上网系捕获' 方式完成一子级回收。这是中国首次成功实施运载火箭一级可控回收，开辟了一条独立于 SpaceX 的技术路径。据测算，复用 10 次以上单次发射成本有望降低 80%，面对国内 2.8 万颗卫星的庞大市场需求，商业航天板块迎来实质性利好。",
       "confirmed": [
-        "SPHBM4 采用 512-bit 接口，带宽与 HBM4 相当",
-        "无需硅中介层和 CoWoS 封装，使用有机基板",
-        "JEDEC 正式发布该标准",
-        "目标市场为 AI 训练和推理场景"
+        "长征十号乙今日首飞成功，完成一级可控回收",
+        "采用全球首创的海上网系捕获回收方式",
+        "这是中国首次成功实施运载火箭一级可控回收",
+        "复用 10 次以上单次发射成本有望降低 80%",
+        "国内卫星市场需求约 2.8 万颗"
       ],
       "judgment": [
-        "有机基板的良率和可靠性是否满足大规模量产要求",
-        "SPHBM4 的实际量产时间表（预计 2027-2028）",
-        "HBM 厂商（三星、SK 海力士、美光）是否会跟进",
-        "对现有 HBM 生态的冲击程度",
-        "成本降低幅度是否如预期显著"
+        "实际复用次数和成本降低效果需多次飞行验证",
+        "海上网系回收对海况的适应性尚未充分测试",
+        "与 SpaceX 猎鹰 9 号的成本差距仍需量化比较",
+        "商业航天板块的短期涨幅是否已透支预期",
+        "后续型号（长十甲、长十丙）的研发进度不确定"
       ],
-      "implication": "如果你在做 AI 推理优化或模型部署，SPHBM4 可能在未来 2 年改变内存成本结构。短期关注三星和 SK 海力士的反应，长期看这会降低 AI 基础设施的 TCO，对个人开发者意味着更便宜的云端推理资源。"
+      "implication": "这对你的 content-curator 项目意味着：中国航天进入低成本发射时代，卫星互联网和太空经济将成为长期叙事。建议关注商业航天 ETF 和相关零部件供应商，但警惕短期炒作。作为技术爱好者，可以深入研究海上网系回收的工程细节，这可能是很好的技术分析素材。"
     },
     {
       "rank": 3,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/china-alleges-that-claude-code-contains-backdoors-calls-mechanism-a-serious-threat-govt-claims-claude-sends-sensitive-information-to-remote-servers-without-consent",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/china-alleges-that-claude-code-contains-backdoors-calls-mechanism-a-serious-threat-govt-claims-claude-sends-sensitive-information-to-remote-servers-without-consent",
-      "source": "Tom's Hardware",
+      "id": "wscn:3776640",
+      "url": "https://wallstreetcn.com/articles/3776640",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "中国指控 Claude Code 含后门：2026 年 4-6 月版本存在隐蔽代码，向远程服务器发送敏感信息",
-      "lead": "中国官方指控 Claude Code 2026 年 4 月至 6 月发布的版本中存在隐蔽代码，会在未经用户同意的情况下向远程服务器发送敏感信息。此前已有国外开发者逆向发现 Anthropic 在客户端中内置了用户标记系统。",
+      "title": "三星开发 AI PC 专用芯片 'GAIA'，4nm 制程已向联想、惠普送样",
+      "lead": "三星正以代号 'GAIA' 的 AI 加速芯片悄然杀入 PC 市场。这款采用 4nm 制程、深度融合下一代 PIM 内存技术的专用 NPU，已向联想、惠普送样验证，最快明年量产。三星选择差异化路线：不替代主处理器，而是以专用 AI 计算模块协同作战，避开与英伟达、高通、英特尔的正面竞争。",
       "confirmed": [
-        "中国官方发布安全警告，指控 Claude Code 存在后门",
-        "涉及 2026 年 4-6 月发布的版本",
-        "隐蔽代码可向远程服务器发送敏感信息",
-        "此前已有国外开发者发现类似标记系统"
+        "三星开发代号 'GAIA' 的 AI PC 加速芯片",
+        "采用 4nm 制程，集成下一代 PIM 内存技术",
+        "已向联想、惠普送样验证",
+        "最快 2027 年量产",
+        "定位为专用 NPU 模块，非主处理器替代方案"
       ],
       "judgment": [
-        "Anthropic 是否承认该机制存在",
-        "该机制是安全功能还是后门（如遥测/反滥用）",
-        "对 Claude Code 在中国及全球市场的影响",
-        "是否会导致更多国家出台类似限制",
-        "开源替代方案（如 OpenCode）是否会受益"
+        "实际性能表现尚无第三方评测数据",
+        "PIM 内存技术的能效优势在 PC 场景是否显著",
+        "联想、惠普的采用意愿和订单量未披露",
+        "与高通骁龙 X Elite、英特尔 Lunar Lake 的竞争格局不明",
+        "三星在 PC 芯片领域的客户基础和生态建设尚弱"
       ],
-      "implication": "如果你在用 Claude Code，建议检查版本号并关注 Anthropic 的官方回应。对于你的 content-curator 项目，可以考虑将 OpenCode 等开源工具作为备选，避免单一依赖风险。"
+      "implication": "AI PC 芯片赛道正在快速拥挤，三星的入局可能加速 NPU 标准化。如果你在考虑下一台笔记本电脑，建议等待明年 GAIA 量产后的评测。对于 content-curator 项目，本地 AI 推理能力增强意味着你可以考虑将更多处理放在端侧，减少 API 依赖。"
     },
     {
       "rank": 4,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
-      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
-      "source": "TechCrunch",
-      "stars": 4,
-      "title": "OpenAI 发布 GPT-Live-1 语音模型：可同时听说，中断更少，支持实时翻译",
-      "lead": "OpenAI 发布新语音模型 GPT-Live-1，设计目标是更像真人对话：能同时听和说，减少不必要的打断，等待用户说完再回应。该模型还支持实时翻译，是语音交互体验的一次重要升级。",
-      "confirmed": [
-        "GPT-Live-1 支持全双工语音（同时听说）",
-        "减少打断，等待用户说完再回应",
-        "支持实时翻译功能",
-        "已在 ChatGPT 中上线"
-      ],
-      "judgment": [
-        "实际延迟和自然度是否明显优于前代",
-        "对第三方语音助手（如 Alexa、Siri）的竞争影响",
-        "API 是否开放给开发者",
-        "多语言支持质量",
-        "对 Agent 语音交互场景的适用性"
-      ],
-      "implication": "GPT-Live-1 的全双工能力对 Agent 交互是质变——你的 content-curator 项目如果未来加入语音交互，可以直接调用这个模型。建议尽快测试实时翻译和对话流畅度，评估是否适合集成到你的工作流中。"
-    },
-    {
-      "rank": 5,
-      "domain": "金融",
-      "id": "wscn:3776547",
-      "url": "https://wallstreetcn.com/articles/3776547",
+      "domain": "股票",
+      "id": "wscn:3776644",
+      "url": "https://wallstreetcn.com/articles/3776644",
       "source": "华尔街见闻",
       "stars": 4,
-      "title": "韩国加息靴子或下周落地：外资狂抛、杠杆ETF反噬，三重危机引爆“半导体悖论”",
-      "lead": "市场普遍预期韩国央行将在 7 月 16 日加息，为 2021 年 8 月以来首次。外资持续抛售、杠杆 ETF 反噬、半导体巨头业绩狂飙却遭血洗，三重压力下韩国资本市场面临严峻考验。",
+      "title": "国产 AI 芯片独角兽燧原科技科创板 IPO 注册生效，腾讯为第一大股东",
+      "lead": "燧原科技科创板 IPO 注册正式生效，这家腾讯系 AI 芯片公司即将登陆 A 股。燧原专注于 AI 训练和推理芯片，产品覆盖云端和边缘计算。在国产替代大背景下，其上市被视为中国半导体自主化的重要里程碑，也为 AI 芯片板块带来新的估值锚点。",
       "confirmed": [
-        "韩国央行 7 月 16 日会议大概率加息",
-        "外资近期持续抛售韩股",
-        "杠杆 ETF 出现反噬效应",
-        "三星、SK 海力士业绩强劲但股价下跌"
+        "燧原科技科创板 IPO 注册生效",
+        "腾讯为第一大股东",
+        "公司主营 AI 训练和推理芯片",
+        "产品覆盖云端和边缘计算场景"
       ],
       "judgment": [
-        "加息幅度（预计 25bp）",
-        "加息后韩股能否企稳",
-        "半导体出口是否受汇率影响",
-        "对中国半导体板块的传导效应",
-        "量化基金回撤是否会加剧抛售"
+        "发行估值和募资金额尚未公布",
+        "与华为昇腾、寒武纪的竞争格局待观察",
+        "实际出货量和客户导入情况不透明",
+        "科创板对 AI 芯片公司的估值偏好不确定",
+        "上市后股价表现受市场情绪影响较大"
       ],
-      "implication": "韩国加息和半导体股回调可能传导至 A 股半导体板块，短期注意风险。但长鑫 IPO 获批（拟募资 295 亿）显示国产替代逻辑仍在，建议关注设备/材料环节的独立行情。"
+      "implication": "燧原上市将为国产 AI 芯片板块提供新的对标标的。如果你关注半导体投资，可以研究其招股说明书中的客户结构和研发路线图。对于技术选型，燧原的芯片若在性价比上突破，可能成为你未来部署推理服务的替代选择。"
     }
   ],
   "shortlist": [
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Meta 发布 Muse Spark 1.1 进入 AI 编程战场",
+      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "source": "TechCrunch",
+      "one_liner": "Meta 加入 AI 编程工具混战，Spark 1.1 主打大型 agent 工作负载和代码迁移，但差异化不足，暂不入头条。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "OpenAI 关闭 Atlas 浏览器，agent 功能迁移至桌面应用",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
+      "source": "The Verge",
+      "one_liner": "Atlas 浏览器不到一年即被关闭，OpenAI 战略收缩至 agent 工作流，印证了浏览器入口不是 AI 公司的核心战场。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Ollama 获 6500 万美元融资加速开源模型发展",
+      "url": "https://ollama.com/blog/all-aboard-open-models",
+      "source": "Ollama",
+      "one_liner": "Ollama 融资 6500 万美元，开源本地模型生态再获资本加持，对个人开发者是利好，但信息量不足以进头条。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "微软 Patch Tuesday 将引入 AI 安全更新，补丁规模扩大",
+      "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
+      "source": "The Verge",
+      "one_liner": "微软用 AI 提前识别漏洞，Patch Tuesday 将包含更多安全修复，对 Windows 用户是好事，但偏运维向。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "JEDEC 发布 SPHBM4 标准，降低 AI 内存成本",
+      "url": "https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates",
+      "source": "Tom's Hardware",
+      "one_liner": "SPHBM4 通过窄接口和有机基板替代硅中介层，有望降低 HBM 成本，对 AI 推理部署是长期利好。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "AMD Zen 6 Medusa Point 10 核 APU 现身 Geekbench，性能超越前代",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amds-upcoming-zen-6-medusa-point-10-core-apu-pops-up-on-geekbench-chip-is-faster-than-ryzen-ai-9-hx-370-and-even-ryzen-ai-max-395",
+      "source": "Tom's Hardware",
+      "one_liner": "AMD 下一代 APU 工程样片跑分曝光，单核多核均超越现有旗舰，AI PC 性能竞赛升温。"
+    },
     {
       "domain": "AI 算力 / 半导体",
       "title": "SambaNova 融资 10 亿美元，签下摩根大通客户",
       "url": "https://www.eetimes.com/sambanova-raises-1-billion-signs-jpmorganchase-as-a-customer/",
       "source": "EE Times",
-      "one_liner": "企业级 AI 芯片市场开始放量，SambaNova 获大行背书，但融资额和客户级别仍需观察后续订单。"
+      "one_liner": "AI 芯片创企 SambaNova 获 10 亿美元融资并拿下摩根大通订单，企业级 AI 推理市场正在启动。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia 称 Vera CPU 单线程性能领先 x86 1.8 倍，专为 Agentic AI 设计",
-      "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-touts-vera-cpus-single-threaded-performance-as-its-agentic-ai-advantage-frames-chip-as-a-max-single-threaded-cpu-at-scale-not-a-parallel-monster",
-      "source": "Tom's Hardware",
-      "one_liner": "Nvidia 首次公开 Vera CPU 单线程性能数据，Agent 推理场景可能成为其新护城河。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "JEDEC 发布 SPHBM4 标准，AI 内存成本有望大幅下降",
-      "url": "https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates",
-      "source": "Tom's Hardware",
-      "one_liner": "已选入头条，此处略。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "中国指控 Claude Code 含后门",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/china-alleges-that-claude-code-contains-backdoors-calls-mechanism-a-serious-threat-govt-claims-claude-sends-sensitive-information-to-remote-servers-without-consent",
-      "source": "Tom's Hardware",
-      "one_liner": "已选入头条，此处略。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Meta 正在开发全天候录音的智能眼镜",
-      "url": "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai",
-      "source": "The Verge",
-      "one_liner": "Meta 的“超级感知”眼镜原型可连续录音和拍照，隐私争议将再次升温。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "ChatGPT 升级语音模式 GPT-Live-1",
-      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
-      "source": "TechCrunch",
-      "one_liner": "已选入头条，此处略。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Prime Intellect 获 1.3 亿美元 A 轮融资，帮企业构建自有 AI Agent",
-      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
-      "source": "TechCrunch",
-      "one_liner": "企业级 Agent 构建平台获资本追捧，验证了 Agent 基础设施赛道的热度。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google Photos 推出 AI 视频重混工具",
-      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
-      "source": "TechCrunch",
-      "one_liner": "AI 视频编辑进入消费级市场，但功能仍偏娱乐，对专业用户价值有限。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "xAI 发布 Grok 4.5，同时收购 Cursor",
-      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
-      "source": "TechCrunch",
-      "one_liner": "已选入头条，此处略。"
-    },
-    {
-      "domain": "金融",
-      "title": "韩国加息预期升温，韩股巨震",
-      "url": "https://wallstreetcn.com/articles/3776547",
+      "domain": "股票",
+      "title": "存储模组厂威刚：三季度 DRAM 涨 20-30%，NAND 涨 35-40%",
+      "url": "https://wallstreetcn.com/articles/3776624",
       "source": "华尔街见闻",
-      "one_liner": "已选入头条，此处略。"
+      "one_liner": "威刚董事长确认三季度存储涨价幅度，DRAM 和 NAND 供需紧张持续至 2028 年，利好存储板块。"
     },
     {
-      "domain": "金融",
-      "title": "长鑫科技 IPO 获批，拟募资 295 亿元扩产",
-      "url": "https://wallstreetcn.com/articles/3776548",
+      "domain": "股票",
+      "title": "SK 海力士重启大连二期扩建，NAND 价格单季涨 70%",
+      "url": "https://wallstreetcn.com/articles/3776637",
       "source": "华尔街见闻",
-      "one_liner": "国产 DRAM 龙头上市在即，设备/材料环节有望率先受益，但估值和产能爬坡节奏仍存不确定性。"
+      "one_liner": "NAND 涨价红利驱动 SK 海力士重启中国工厂扩建，与三星西安工厂同步扩产，供给端重回扩张。"
     },
     {
-      "domain": "金融",
-      "title": "美银称英伟达估值“不合理折价”，PE 跌至 7 年最低",
-      "url": "https://wallstreetcn.com/articles/3776518",
+      "domain": "股票",
+      "title": "MiniMax 创始人放弃薪酬、拿出 5% 股份激励团队，股价仍承压",
+      "url": "https://wallstreetcn.com/articles/3776635",
       "source": "华尔街见闻",
-      "one_liner": "英伟达远期 PE 约 18 倍，市场过度担忧内存成本和 ASIC 竞争，但美银认为护城河仍在。"
+      "one_liner": "MiniMax 创始人 '创始人式押注' 稳定军心，但 IPO 解禁潮下股价压力仍在，反映 AI 公司估值泡沫风险。"
     },
     {
-      "domain": "金融",
-      "title": "贝恩资本清仓铠侠，10 年投资回报超 4800%",
-      "url": "https://wallstreetcn.com/articles/3776532",
+      "domain": "股票",
+      "title": "费城半导体指数年内暴涨 83%，七巨头原地踏步，华尔街策略师喊 '换牌'",
+      "url": "https://wallstreetcn.com/articles/3776622",
       "source": "华尔街见闻",
-      "one_liner": "存储周期顶点的标志性退出，但 AI 存储需求是否可持续仍需观察。"
+      "one_liner": "资金从科技巨头流向芯片股，费半指数暴涨 83%，但七巨头估值已回落，机构建议重新布局。"
+    },
+    {
+      "domain": "股票",
+      "title": "美联储沃什推动五大工作组，市场预期四季度降息",
+      "url": "https://wallstreetcn.com/articles/3776621",
+      "source": "华尔街见闻",
+      "one_liner": "美联储新框架改革进入实质阶段，高盛、瑞银认为通胀读数将被系统性压低，降息预期升温。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-09T08:37:03+0000"
+    "scored_at": "2026-07-10T07:28:30+0000"
   }
 }
