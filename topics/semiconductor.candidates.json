@@ -2,8 +2,9 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-07-09T06:51:10.287202+00:00",
+  "fetched_at": "2026-07-10T06:51:31.136791+00:00",
   "platforms": [
+    "hackernews",
     "rss"
   ],
   "source_stats": {
@@ -11,9 +12,9 @@
     "EE Times": 10,
     "AnandTech": 0,
     "Tom's Hardware": 30,
-    "HN · TSMC": 0,
-    "HN · Nvidia": 0,
-    "HN · semiconductor": 0,
+    "HN · TSMC": 1,
+    "HN · Nvidia": 3,
+    "HN · semiconductor": 3,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
     "HN · 数据中心 / 算力": 0
@@ -23,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 50,
+  "total": 57,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -196,6 +197,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/simplifying-intelligent-wireless-design-and-security-certification-for-healthcare-devices/",
+      "title": "Simplifying Intelligent Wireless Design and Security Certification for Healthcare Devices",
+      "url": "https://www.eetimes.com/simplifying-intelligent-wireless-design-and-security-certification-for-healthcare-devices/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Infineon Technologies and Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T17:32:02+00:00",
+      "summary": "Join Infineon Technologies and Ezurio for a 60-minute webinar exploring the challenges of designing and certifying secured wireless devices for healthcare applications. The post Simplifying Intelligent Wireless Design and Security Certification for Healthcare Devices appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/voyager-spacecraft-the-ultimate-power-management-challenge/",
+      "title": "Voyager Spacecraft: The Ultimate Power Management Challenge?",
+      "url": "https://www.eetimes.com/voyager-spacecraft-the-ultimate-power-management-challenge/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Bill Schweber",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T14:00:00+00:00",
+      "summary": "Voyager’s plutonium heart is fading, forcing NASA to kill instruments one by one; see how engineers ration watts 15B miles away. The post Voyager Spacecraft: The Ultimate Power Management Challenge? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/as-ai-moves-from-training-to-inference-optics-moves-closer-to-the-chip/",
+      "title": "As AI Moves from Training to Inference, Optics Moves Closer to the Chip",
+      "url": "https://www.eetimes.com/as-ai-moves-from-training-to-inference-optics-moves-closer-to-the-chip/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T07:15:00+00:00",
+      "summary": "Imec researchers argue that co-packaged optics will not be enough for future AI systems, pushing the industry toward 2.5D and eventually 3D optical I/O. The post As AI Moves from Training to Inference, Optics Moves Closer to the Chip appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/white-house-executive-order-brings-new-urgency-to-post-quantum-cryptography/",
       "title": "White House Executive Order Brings New Urgency to Post-Quantum Cryptography",
       "url": "https://www.eetimes.com/white-house-executive-order-brings-new-urgency-to-post-quantum-cryptography/",
@@ -315,54 +367,326 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/esim-evolves-from-subscriber-identity-to-device-trust/",
-      "title": "eSIM Evolves from Subscriber Identity to Device Trust",
-      "url": "https://www.eetimes.com/esim-evolves-from-subscriber-identity-to-device-trust/",
+      "id": "rss:https://www.tomshardware.com/pc-components/ssds/teamgroup-g70-pro-2tb-ssd-review",
+      "title": "TeamGroup G70 Pro 2TB SSD Review: Low latency meets affordable DRAM",
+      "url": "https://www.tomshardware.com/pc-components/ssds/teamgroup-g70-pro-2tb-ssd-review",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-07T07:00:00+00:00",
-      "summary": "eSIM turns SIMs into device trust anchors for IoT, cars and AI, letting fleets switch networks and stay secure remotely. The post eSIM Evolves from Subscriber Identity to Device Trust appeared first on EE Times.",
+      "published_at": "2026-07-09T17:17:56+00:00",
+      "summary": "The TeamGroup G70 Pro is a high-end drive without a high-end price. Good performance, but poor power efficiency keeps it in check.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/canadas-ai-ecosystem-needs-more-urgency/",
-      "title": "Canada’s AI Ecosystem Needs More Urgency",
-      "url": "https://www.eetimes.com/canadas-ai-ecosystem-needs-more-urgency/",
+      "id": "rss:https://www.tomshardware.com/pc-components/external-ssds/redditor-buys-suspicious-drives-on-ebay-just-to-report-the-scamming-sellers-if-they-get-a-fake-ssd-or-hdd-latest-16tb-find-has-weights-and-microsd-card-hot-glued-inside-the-enclosure-to-make-it-feel-legit",
+      "title": "Redditor buys suspicious drives on eBay just to report the scamming sellers if they get a fake SSD or HDD — latest '16TB' find has weights and microSD card hot-glued inside the enclosure to make it feel legit",
+      "url": "https://www.tomshardware.com/pc-components/external-ssds/redditor-buys-suspicious-drives-on-ebay-just-to-report-the-scamming-sellers-if-they-get-a-fake-ssd-or-hdd-latest-16tb-find-has-weights-and-microsd-card-hot-glued-inside-the-enclosure-to-make-it-feel-legit",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-06T22:00:00+00:00",
-      "summary": "Canada has the AI talent. Now, it’s time to scale its domestic compute and sovereign hardware. The post Canada’s AI Ecosystem Needs More Urgency appeared first on EE Times.",
+      "published_at": "2026-07-09T16:03:35+00:00",
+      "summary": "u/Hartkralle says that eBay refunds them when they report these fake drives, so getting scammers banned from the platform is worth their effort. While fake sellers would likely just create a new account on eBay in an hour or so, they say that it's still another hour before an unsuspecting victim buys these fraudulent items.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/mips-software-to-silicon-with-risc-v-interview-with-mips-physical-ai-is-agentic-ai-at-the-edge/",
-      "title": "MIPS on the RISC-V Shift: ‘Physical AI Is Agentic AI at the Edge’",
-      "url": "https://www.eetimes.com/mips-software-to-silicon-with-risc-v-interview-with-mips-physical-ai-is-agentic-ai-at-the-edge/",
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/ingenious-father-fixes-dead-rtx-3070-with-a-jerry-rigged-capacitor-from-an-old-radio-saves-worried-son-usd120-in-repair-costs-gpu-works-better-than-before-now",
+      "title": "Ingenious father fixes dead RTX 3070 with a jerry-rigged capacitor from an old radio — Saves worried son $120 in repair costs, GPU 'works better than before' now",
+      "url": "https://www.tomshardware.com/pc-components/gpus/ingenious-father-fixes-dead-rtx-3070-with-a-jerry-rigged-capacitor-from-an-old-radio-saves-worried-son-usd120-in-repair-costs-gpu-works-better-than-before-now",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times Staff",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-06T17:00:00+00:00",
-      "summary": "MIPS bets RISC-V and ARC AI will power physical AI in cars and factory robots. Watch the interview and learn more. The post MIPS on the RISC-V Shift: &#8216;Physical AI Is Agentic AI at the Edge&#8217; appeared first on EE Times.",
+      "published_at": "2026-07-09T15:53:52+00:00",
+      "summary": "A Russian family has just saved the house $120 in GPU repairs after the father fixed it with a salvaged capacitor from an old radio.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/while-the-u-s-flip-flops-on-chip-sanctions-china-is-building-its-own-chip-supply-market-export-controls-are-creating-conditions-for-a-sino-russian-chip-trade-alliance",
+      "title": "While the U.S. flip-flops on chip sanctions, China is building its own chip supply market — export controls are creating conditions for a Sino-Russian chip trade alliance",
+      "url": "https://www.tomshardware.com/tech-industry/while-the-u-s-flip-flops-on-chip-sanctions-china-is-building-its-own-chip-supply-market-export-controls-are-creating-conditions-for-a-sino-russian-chip-trade-alliance",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sayem Ahmed",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T15:24:39+00:00",
+      "summary": "As the U.S. makes up its mind on export controls for Chinese chips, China has been developing its own supply chain, and associated trade network.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-revives-aging-zen-2-processor-for-budget-pcs-ryzen-7-4700le-resurfaces-in-a-new-usd800-rtx-3050-prebuilt",
+      "title": "AMD revives aging Zen 2 processor for budget PCs — Ryzen 7 4700LE resurfaces in a new $800 RTX 3050 prebuilt",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-revives-aging-zen-2-processor-for-budget-pcs-ryzen-7-4700le-resurfaces-in-a-new-usd800-rtx-3050-prebuilt",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T14:30:22+00:00",
+      "summary": "AMD's quiet revival of older Ryzen processors continues, with the Ryzen 7 4700LE now appearing in a prebuilt gaming desktop priced at $799.99.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-preps-28-core-nova-lake-s-cpus-for-dunlow-workstation-platform-entry-level-xeon-chip-features-lga1954-socket",
+      "title": "Intel preps 28-core Nova Lake-S CPUs for Dunlow workstation platform — Entry-level Xeon chip features LGA1954 socket",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-preps-28-core-nova-lake-s-cpus-for-dunlow-workstation-platform-entry-level-xeon-chip-features-lga1954-socket",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T14:24:21+00:00",
+      "summary": "Intel readies Xeon 'Dunlow' platform with 28 cores in LGA1954 packaging for entry-level servers and workstations.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-shows-off-geforce-trading-cards-series-1-collectible-cards-show-off-games-gpus-and-tech-demos-and-will-be-available-for-free-at-upcoming-events",
+      "title": "Nvidia shows off GeForce Trading Cards Series 1 — collectible cards show off games, GPUs, and tech demos, and will be available for free at upcoming events",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-shows-off-geforce-trading-cards-series-1-collectible-cards-show-off-games-gpus-and-tech-demos-and-will-be-available-for-free-at-upcoming-events",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T14:12:10+00:00",
+      "summary": "Nvidia is creating a set of collectible trading cards that will be given away for free during live events and giveaways this summer.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/professor-suspected-ai-powered-cheating-on-take-home-midterms-makes-finals-in-person-only-two-students-scored-within-10-percent-of-their-midterm-score",
+      "title": "Professor suspected AI-powered cheating on take-home midterms, makes finals in-person — only two students scored within 10% of their midterm score",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/professor-suspected-ai-powered-cheating-on-take-home-midterms-makes-finals-in-person-only-two-students-scored-within-10-percent-of-their-midterm-score",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T14:10:43+00:00",
+      "summary": "A Brown University professor suspected that almost his entire class cheated on take-home mid-term exams using AI tools after they scored unusually high. In-person final exams showed that only two students scored within 10% of their midterm score, with just one getting a higher grade compared to their midterms.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/segas-usd5m-investment-saved-nvidia-in-1996-now-jensen-huang-is-heading-to-tokyo-to-mark-30-years-of-partnership-akihabara-event-will-include-a-geforce-rtx-5090-fe-lottery-an-rtx-spark-presentation-and-more",
+      "title": "Sega’s $5M investment saved Nvidia in 1996, now Jensen Huang is heading to Tokyo to mark 30 years of partnership — Akihabara event will include a GeForce RTX 5090 FE lottery, an RTX Spark presentation, and more",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/segas-usd5m-investment-saved-nvidia-in-1996-now-jensen-huang-is-heading-to-tokyo-to-mark-30-years-of-partnership-akihabara-event-will-include-a-geforce-rtx-5090-fe-lottery-an-rtx-spark-presentation-and-more",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T13:32:50+00:00",
+      "summary": "Nvidia and Sega have scheduled an event next week to celebrate their history and longstanding friendship.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/alienware-aw3426dw-34-inch-qd-oled-gaming-monitor-review",
+      "title": "Alienware AW3426DW gaming monitor review: Premium gaming and OLED goodness in a value-priced package",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/alienware-aw3426dw-34-inch-qd-oled-gaming-monitor-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Christian Eberle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T13:00:00+00:00",
+      "summary": "Alienware delivers value from a 34-inch ultra-wide OLED with the AW3426DW. This WQHD curved screen sports Quantum Dot wide gamut color, HDR500, Dolby Vision, 280 Hz, and Adaptive-Sync.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/save-32-percent-on-this-samsung-1440p-gaming-monitor-with-a-fast-240hz-refresh-rate-now-usd169-score-this-27-inch-ips-display-upgrade-with-a-fast-200hz-refresh-rate-for-your-gaming-pc-with-an-usd80-discount",
+      "title": "Save 32% on this Samsung 1440p gaming monitor with a fast 240Hz refresh rate, now $169 — score this 27-inch IPS display upgrade with a fast 200Hz refresh rate for your gaming PC with an $80 discount",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/save-32-percent-on-this-samsung-1440p-gaming-monitor-with-a-fast-240hz-refresh-rate-now-usd169-score-this-27-inch-ips-display-upgrade-with-a-fast-200hz-refresh-rate-for-your-gaming-pc-with-an-usd80-discount",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T12:54:10+00:00",
+      "summary": "This 27-inch Samsung Odyssey G53F gaming monitor is on sale for $169.99 right now, offering a 1440p resolution and fast 200Hz refresh rate at a great price.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amds-upcoming-zen-6-medusa-point-10-core-apu-pops-up-on-geekbench-chip-is-faster-than-ryzen-ai-9-hx-370-and-even-ryzen-ai-max-395",
+      "title": "AMD's upcoming Zen 6 Medusa Point 10-core APU pops up on Geekbench — chip is faster than Ryzen AI 9 HX 370 & even Ryzen AI Max+ 395",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amds-upcoming-zen-6-medusa-point-10-core-apu-pops-up-on-geekbench-chip-is-faster-than-ryzen-ai-9-hx-370-and-even-ryzen-ai-max-395",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T12:47:57+00:00",
+      "summary": "A new 10-core engineering sample from AMD has surfaced on Geekbench, being identified as part of the Medusa Point family. It's likely the Ryzen AI 9 565 and its scores easily beat the Ryzen AI 9 HX 370 and even the Ryzen AI Max+ 395 in certain benchmarks.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/elon-musk-receives-ftc-greenlight-to-buy-mesh-optical-as-interconnects-emerge-as-ais-tightest-bottleneck-the-move-will-expand-musks-growing-stack-of-critical-ai-infrastructure",
+      "title": "Elon Musk receives FTC greenlight to buy Mesh Optical as interconnects emerge as AI's tightest bottleneck — the move will expand Musk's growing stack of critical AI infrastructure",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/elon-musk-receives-ftc-greenlight-to-buy-mesh-optical-as-interconnects-emerge-as-ais-tightest-bottleneck-the-move-will-expand-musks-growing-stack-of-critical-ai-infrastructure",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T12:42:23+00:00",
+      "summary": "FTC clearance to acquire Mesh Optical hands Musk the missing layer between Terafab's chips and Gigasat's satellites, amid tightening interconnect AI bottleneck",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/hallusquatting-is-the-latest-agentic-ai-exploit-where-models-dream-up-potentially-malicious-urls-in-tool-calls-attack-exploits-a-fundamental-weakness-in-every-available-model",
+      "title": "New hack exploits AI hallucinations to trick agents into running malicious code — 'HalluSquatting' attack exploits a fundamental weakness in every available model",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/hallusquatting-is-the-latest-agentic-ai-exploit-where-models-dream-up-potentially-malicious-urls-in-tool-calls-attack-exploits-a-fundamental-weakness-in-every-available-model",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T11:15:00+00:00",
+      "summary": "Attackers can exploit how AI bots hallucinate software URLs to create massive botnets. The vulnerability is endemic to every model.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/future-nostalgia-project-asks-retro-hoarders-to-copy-that-floppy-flips-the-early-1990s-anti-piracy-campaign-on-its-head-to-encourage-budding-archivists",
+      "title": "Future Nostalgia Project asks retro hoarders to ‘Copy That Floppy!’ — flips the early 1990s anti-piracy campaign on its head to encourage budding archivists",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/future-nostalgia-project-asks-retro-hoarders-to-copy-that-floppy-flips-the-early-1990s-anti-piracy-campaign-on-its-head-to-encourage-budding-archivists",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T11:07:00+00:00",
+      "summary": "Flipping the infamous early 1990s anti-piracy campaign messaging on its head, the Future Nostalgia Project is asking retro hoarders to Copy That Floppy!",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/pc-building/save-usd60-on-this-hoto-diy-and-pc-maintenance-bundle-with-electric-screwdriver-and-4-in-1-air-duster-just-usd89-for-popular-usb-c-rechargeable-driver-with-25-bits-along-with-a-separate-blower-and-vacuum-cleaner-to-keep-your-setup-clean",
+      "title": "Save $60 on this Hoto DIY and PC maintenance bundle with electric screwdriver and 4-in-1 air duster — just $89 for popular USB-C rechargeable driver with 25 bits, along with a separate blower and vacuum cleaner to keep your setup clean",
+      "url": "https://www.tomshardware.com/desktops/pc-building/save-usd60-on-this-hoto-diy-and-pc-maintenance-bundle-with-electric-screwdriver-and-4-in-1-air-duster-just-usd89-for-popular-usb-c-rechargeable-driver-with-25-bits-along-with-a-separate-blower-and-vacuum-cleaner-to-keep-your-setup-clean",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T11:00:20+00:00",
+      "summary": "Save nearly $61 on this two-for-one Hoto combo deal at Amazon right now, giving you the NEX O1 Pro mini electric screwdriver set with 25 bits with its AutoCare 4-in-1 air duster and vacuum cleaner in a combo Amazon deal for under $90.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ram/amd-expo-ull-shows-middling-performance-gains-in-initial-tests-despite-price-increase-first-benchmarks-show-up-to-a-4-percent-improvement-with-ddr5-6000-cl36",
+      "title": "AMD EXPO ULL shows middling performance gains in initial tests despite eye-watering price increase — first benchmarks show up to a 4% improvement with DDR5-6000 CL36",
+      "url": "https://www.tomshardware.com/pc-components/ram/amd-expo-ull-shows-middling-performance-gains-in-initial-tests-despite-price-increase-first-benchmarks-show-up-to-a-4-percent-improvement-with-ddr5-6000-cl36",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T10:50:00+00:00",
+      "summary": "The first independent benchmarks for AMD's EXPO ULL memory are available, showing just up to a 4% improvement despite an increase in price.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-servers-will-consume-more-power-than-conventional-data-center-hardware-by-2027-gartner-forecasts",
+      "title": "AI servers will consume more power than all conventional data center hardware combined by 2027 — global data center electricity consumption set to grow by 26% this year, Gartner forecasts",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-servers-will-consume-more-power-than-conventional-data-center-hardware-by-2027-gartner-forecasts",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T10:25:00+00:00",
+      "summary": "Global data center electricity consumption will grow 26% in 2026 to reach 565 TWh, up from 447 TWh in 2025.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/chinese-courts-allow-heirs-to-inherent-accounts-of-deceased-gamers-multiple-cases-spanning-years-establish-precedent-for-digital-ownership-of-games-in-game-items-and-microtransactions",
+      "title": "Chinese courts allow heirs to inherit accounts of deceased gamers — multiple cases spanning years establish precedent for digital ownership of games, in-game items, and microtransactions",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/chinese-courts-allow-heirs-to-inherent-accounts-of-deceased-gamers-multiple-cases-spanning-years-establish-precedent-for-digital-ownership-of-games-in-game-items-and-microtransactions",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "summary": "A Reddit user named u/Slawrfp shared on the r/pcmasterrace subreddit that Chinese courts have allowed heirs to inherit games and other digital assets after the original user has since passed on. While Chinese inheritance law hasn't explicitly covered digital properties, multiple rulings have already set precedent.",
       "lang": "en"
     },
     {
@@ -553,326 +877,136 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/cracked-version-of-assassins-creed-black-flag-resynced-leaked-days-prior-to-official-release-despite-denuvo-drm-protection-denuvo-unable-to-stop-crackers-with-some-finding-ways-to-completely-remove-it-from-other-titles",
-      "title": "Cracked version of Assassin’s Creed Black Flag Resynced leaked days prior to official release despite Denuvo DRM protection — Denuvo unable to stop crackers, with some finding ways to completely remove it from other titles",
-      "url": "https://www.tomshardware.com/video-games/pc-gaming/cracked-version-of-assassins-creed-black-flag-resynced-leaked-days-prior-to-official-release-despite-denuvo-drm-protection-denuvo-unable-to-stop-crackers-with-some-finding-ways-to-completely-remove-it-from-other-titles",
-      "platform": "rss",
+      "id": "hn:48734960",
+      "title": "Etched has officially come out of stealth",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/ai-chip-startup-etched-says-jane-street-tsmc-linked-vc-invested",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
+        "type": "hackernews",
+        "id": "48734960",
+        "name": "seventeen29",
+        "hn_url": "https://news.ycombinator.com/item?id=48734960"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-08T12:29:12+00:00",
-      "summary": "Ubisoft's remake of the 2013 game has been circulating online more than a month before its official release date, despite Denuvo DRM protection. Incident questions the effectivity of anti-piracy app, which causes performance hits and requires intrusive online check-ins.",
+      "views": 10,
+      "comments": 2,
+      "published_at": "2026-06-30T16:21:13+00:00",
+      "summary": "",
+      "matched_keyword": "TSMC",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/modding-tool-dlss-swapper-might-infect-your-pc-with-malware-if-you-download-the-wrong-files-app-creator-warns-against-using-random-user-submitted-dlls",
-      "title": "Modding tool 'DLSS Swapper' might infect your PC with malware if you download the wrong files — App creator warns against using random, user-submitted DLLs",
-      "url": "https://www.tomshardware.com/video-games/pc-gaming/modding-tool-dlss-swapper-might-infect-your-pc-with-malware-if-you-download-the-wrong-files-app-creator-warns-against-using-random-user-submitted-dlls",
-      "platform": "rss",
+      "id": "hn:48730713",
+      "title": "Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs)",
+      "url": "https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
+        "type": "hackernews",
+        "id": "48730713",
+        "name": "Tiberium",
+        "hn_url": "https://news.ycombinator.com/item?id=48730713"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-08T12:18:47+00:00",
-      "summary": "The creator of DLSS Swapper is warning against using random DLLs that claim to fix issues pertaining to DLSS, FSR, or XeSS, even if said file is available on the app's GitHub repo.",
+      "views": 163,
+      "comments": 14,
+      "published_at": "2026-06-30T10:34:25+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/peripherals/gaming-mice/save-usd527-on-this-1440p-gaming-pc-from-newegg-with-a-16gb-rtx-5060-ti-right-now-huge-discount-for-high-end-performance-rig-with-an-intel-core-i7-14700f-32gb-ddr5-and-a-1tb-ssd",
-      "title": "Save $527 on this 1440p gaming PC from Newegg with a 16GB RTX 5060 Ti right now — huge discount for high-end performance rig with an Intel Core i7-14700F, 32GB DDR5, and a 1TB SSD",
-      "url": "https://www.tomshardware.com/peripherals/gaming-mice/save-usd527-on-this-1440p-gaming-pc-from-newegg-with-a-16gb-rtx-5060-ti-right-now-huge-discount-for-high-end-performance-rig-with-an-intel-core-i7-14700f-32gb-ddr5-and-a-1tb-ssd",
-      "platform": "rss",
+      "id": "hn:48759308",
+      "title": "Nvidia offers startup customers chance to swap compute power for revenue share",
+      "url": "https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
+        "type": "hackernews",
+        "id": "48759308",
+        "name": "root-parent",
+        "hn_url": "https://news.ycombinator.com/item?id=48759308"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-08T11:44:32+00:00",
-      "summary": "This great value gaming PC from Newegg's ABS brand features a 16GB RTX 5060 Ti GPU and 32GB of DDR5-6400 RAM, giving you a rig ready for 1440p gaming.",
+      "views": 26,
+      "comments": 10,
+      "published_at": "2026-07-02T10:41:33+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/video-games/console-gaming/valve-releases-drivers-notes-to-make-windows-work-on-steam-hardware-but-refuses-to-support-it-tells-users-it-doesnt-offer-support-for-windows-on-steam-hardware-gaming-company-provides-resources-as-is",
-      "title": "Valve releases drivers, notes to make Windows work on Steam hardware, but refuses to support it — tells users it doesn’t offer support for ‘Windows on Steam Hardware,’ gaming company provides resources ‘as is’",
-      "url": "https://www.tomshardware.com/video-games/console-gaming/valve-releases-drivers-notes-to-make-windows-work-on-steam-hardware-but-refuses-to-support-it-tells-users-it-doesnt-offer-support-for-windows-on-steam-hardware-gaming-company-provides-resources-as-is",
-      "platform": "rss",
+      "id": "hn:48845518",
+      "title": "Reverse-engineering Nvidia's CUDA-checkpoint for faster cold starts",
+      "url": "https://blog.doubleword.ai/what-happens-when-you-checkpoint-a-cuda-process",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
+        "type": "hackernews",
+        "id": "48845518",
+        "name": "ilreb",
+        "hn_url": "https://news.ycombinator.com/item?id=48845518"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-08T11:20:00+00:00",
-      "summary": "These drivers will make it easier for your Steam Deck or Steam Machine to play nicely with Windows 11. However, Valve says it does not offer customer support for 'Windows on Steam Hardware,' and instead points stuck users to the SteamOS recovery instructions.",
+      "views": 18,
+      "comments": 3,
+      "published_at": "2026-07-09T13:29:52+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/peripherals/controllers-gamepads/8bitdos-wireless-pro-2-gaming-controller-falls-to-all-time-low-price-hall-effect-gamepad-is-38-percent-off-just-usd37-19",
-      "title": "8Bitdo's wireless Pro 2 gaming controller falls to all-time low price — hall-effect gamepad is 38% off, just $37.19",
-      "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/8bitdos-wireless-pro-2-gaming-controller-falls-to-all-time-low-price-hall-effect-gamepad-is-38-percent-off-just-usd37-19",
-      "platform": "rss",
+      "id": "hn:48554206",
+      "title": "Semiconductor Lifeline Keeps Fighter Jets in the Air",
+      "url": "https://spectrum.ieee.org/phoenix-semiconductors-legacychips-oems",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
+        "type": "hackernews",
+        "id": "48554206",
+        "name": "rbanffy",
+        "hn_url": "https://news.ycombinator.com/item?id=48554206"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-08T11:18:06+00:00",
-      "summary": "Hitting an all-time low price at Amazon, 8Bitdo's wireless Pro 2 gaming controller with hall-effect joysticks is 38% off for Prime members.",
+      "views": 79,
+      "comments": 23,
+      "published_at": "2026-06-16T12:31:02+00:00",
+      "summary": "",
+      "matched_keyword": "semiconductor",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/nvidia-touts-vera-cpus-single-threaded-performance-as-its-agentic-ai-advantage-frames-chip-as-a-max-single-threaded-cpu-at-scale-not-a-parallel-monster",
-      "title": "Nvidia touts Vera CPU's single-threaded performance as its agentic AI advantage, reveals next-gen 'Rigel' Arm CPU cores — frames chip as a 'max single-threaded CPU at scale,' not a parallel monster",
-      "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-touts-vera-cpus-single-threaded-performance-as-its-agentic-ai-advantage-frames-chip-as-a-max-single-threaded-cpu-at-scale-not-a-parallel-monster",
-      "platform": "rss",
+      "id": "hn:48597201",
+      "title": "Samsung demonstrates 3D stacked FETs with triple nanosheet channels at 42nm",
+      "url": "https://semiconductor.samsung.com/news-events/tech-blog/from-gaa-to-3d-stacked-fet-expanding-the-transistor-into-the-third-dimension/",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
+        "type": "hackernews",
+        "id": "48597201",
+        "name": "its_ajseven",
+        "hn_url": "https://news.ycombinator.com/item?id=48597201"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-08T11:00:00+00:00",
-      "summary": "Nvidia lifts the veil a little bit more on its Vera CPU and reveals a single-thread performance monster — company claims a 1.8x uplift versus x86 competition in agentic workloads and 1.5x in coding.",
+      "views": 127,
+      "comments": 46,
+      "published_at": "2026-06-19T11:03:52+00:00",
+      "summary": "",
+      "matched_keyword": "semiconductor",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/arrest-and-extradition-of-scattered-spider-hacker-shines-light-on-how-windows-telemetry-gdids-can-identify-users-microsoft-device-identifier-is-just-one-digital-fingerprint-in-a-software-world-rife-with-them",
-      "title": "Arrest and extradition of Scattered Spider hacker shines light on how Windows telemetry GDIDs can identify and track users — Microsoft device identifier is just one digital fingerprint in a software world rife with them",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/arrest-and-extradition-of-scattered-spider-hacker-shines-light-on-how-windows-telemetry-gdids-can-identify-users-microsoft-device-identifier-is-just-one-digital-fingerprint-in-a-software-world-rife-with-them",
-      "platform": "rss",
+      "id": "hn:48601996",
+      "title": "ASML denies US Government report that EUV chipmaking tool was shipped to China",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-denies-us-government-report-that-its-euv-chipmaking-tool-was-shipped-to-china-says-rumors-are-inaccurate-and-damaging-to-our-reputation",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
+        "type": "hackernews",
+        "id": "48601996",
+        "name": "srameshc",
+        "hn_url": "https://news.ycombinator.com/item?id=48601996"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-08T10:30:00+00:00",
-      "summary": "While the use of Windows' GDID to catch Scattered Spider hacking group member Peter Stokes is unusual, that device identifier is only one bit of telemetry that can be used to fingerprint a user across the wider Internet these days.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/space/space-force-gets-first-mobile-high-powered-electromagnetic-beam-weapon-to-cripple-enemy-satellites-plans-to-deploy-32-meadowlands-units-to-detect-deny-disrupt-and-degrade-hostile-space-assets",
-      "title": "Space Force gets first mobile high-powered electromagnetic beam weapon to cripple enemy satellites — plans to deploy 32 ‘Meadowlands’ units to detect, deny, disrupt, and degrade hostile space assets",
-      "url": "https://www.tomshardware.com/tech-industry/space/space-force-gets-first-mobile-high-powered-electromagnetic-beam-weapon-to-cripple-enemy-satellites-plans-to-deploy-32-meadowlands-units-to-detect-deny-disrupt-and-degrade-hostile-space-assets",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-08T10:00:00+00:00",
-      "summary": "Space Force has announced that the first high-energy 'Meadowlands' electronic warfare system has been delivered for operational duty.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/unannounced-nvidia-rtx-50-super-gpus-appear-in-seasonic-psu-calculator-unreleased-graphics-cards-shown-with-10-17-percent-higher-tgp-over-original-models",
-      "title": "Unannounced Nvidia RTX 50 Super GPUs appear in Seasonic PSU calculator — unreleased graphics cards shown with 10-17% higher TGP over original models",
-      "url": "https://www.tomshardware.com/pc-components/gpus/unannounced-nvidia-rtx-50-super-gpus-appear-in-seasonic-psu-calculator-unreleased-graphics-cards-shown-with-10-17-percent-higher-tgp-over-original-models",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jeffrey Kampman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-07T21:34:05+00:00",
-      "summary": "Total graphics power figures for Nvidia's unanounced, unreleased RTX 50 Super-series graphics cards have appeared in Seasonic's PSU capacity calculator, revealing potentially higher TGPs of those products.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/power-and-water-lag-the-fabs-in-south-koreas-880-billion-chip-and-ai-plan",
-      "title": "South Korea's $880 billion chip and AI plan faces big power and water challenges — a single megacluster requires a quarter of Seoul's total power demand",
-      "url": "https://www.tomshardware.com/tech-industry/power-and-water-lag-the-fabs-in-south-koreas-880-billion-chip-and-ai-plan",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-07T17:27:41+00:00",
-      "summary": "The ₩1,350 trillion total combines a $520 billion semiconductor program with AI data center and robotics spending, mostly made up of corporate capex.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/chinese-memory-and-storage-firm-expected-to-post-more-than-60-000-percent-jump-in-profits-due-to-exploding-demand-lexar-owner-longsys-forecasts-nearly-usd1-5-billion-profit-for-1h26-compared-to-usd2-1-million-last-year",
-      "title": "Chinese memory and storage firm expected to post more than 60,000% jump in profits due to exploding demand — Lexar owner Longsys forecasts nearly $1.5 billion profit for 1H26 compared to $2.1 million last year",
-      "url": "https://www.tomshardware.com/tech-industry/chinese-memory-and-storage-firm-expected-to-post-more-than-60-000-percent-jump-in-profits-due-to-exploding-demand-lexar-owner-longsys-forecasts-nearly-usd1-5-billion-profit-for-1h26-compared-to-usd2-1-million-last-year",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-07T16:13:09+00:00",
-      "summary": "Chinese memory and storage manufacturer Longsys expects to post a massive increase in profits due to the AI-driven chip shortage.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/save-nearly-usd2-000-on-this-rtx-5090-oled-gaming-laptop-right-now-massive-discount-on-powerhouse-16-inch-lenovo-rig-with-240hz-refresh-rate-32gb-ddr5-ram-2tb-ssd-and-a-24-core-intel-cpu-all-for-usd3-199",
-      "title": "Save nearly $2,000 on this RTX 5090 OLED gaming laptop right now — massive discount on powerhouse 16-inch Lenovo rig with 240Hz refresh rate, 32GB DDR5 RAM, 2TB SSD, and a 24-core Intel CPU, all for $3,199",
-      "url": "https://www.tomshardware.com/pc-components/save-nearly-usd2-000-on-this-rtx-5090-oled-gaming-laptop-right-now-massive-discount-on-powerhouse-16-inch-lenovo-rig-with-240hz-refresh-rate-32gb-ddr5-ram-2tb-ssd-and-a-24-core-intel-cpu-all-for-usd3-199",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-07T14:52:28+00:00",
-      "summary": "Grab this Lenovo Legion Pro 7i gaming laptop with an RTX 5090 for just $3,199 right now at B&amp;H Photo, saving you $1,800.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/avx-512-support-is-reportedly-returning-with-intels-next-gen-nova-lake-cpus-latest-linux-kernel-patches-reveal-p-cores-and-e-cores-will-gain-native-512-bit-execution",
-      "title": "AVX-512 support is reportedly returning with Intel's next-gen Nova Lake CPUs — Latest Linux kernel patches reveal P-cores and E-cores will gain native 512-bit execution",
-      "url": "https://www.tomshardware.com/pc-components/cpus/avx-512-support-is-reportedly-returning-with-intels-next-gen-nova-lake-cpus-latest-linux-kernel-patches-reveal-p-cores-and-e-cores-will-gain-native-512-bit-execution",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-07T14:47:47+00:00",
-      "summary": "It looks like Intel is adding back AVX-512 support to its client CPUs starting from the upcoming Nova Lake desktop lineup. Previously, we expected to see AVX-256 debut on a consumer family, allowing E-cores to execute 256-bit code, but now it seems that even the E-cores will gain native 512-bit registers.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/windows/companies-are-now-using-automatic-windows-installers-to-display-adware-through-the-microsoft-store-when-you-install-new-hardware-customer-immediately-gets-mcafee-ads-on-their-pc-after-connecting-new-lg-monitor-heres-how-to-block-the-new-ads",
-      "title": "Companies are now using automatic Windows installers to display Adware through the Microsoft Store when you install new hardware — customer immediately gets McAfee ads on their PC after connecting new LG monitor; here's how to block the new ads",
-      "url": "https://www.tomshardware.com/software/windows/companies-are-now-using-automatic-windows-installers-to-display-adware-through-the-microsoft-store-when-you-install-new-hardware-customer-immediately-gets-mcafee-ads-on-their-pc-after-connecting-new-lg-monitor-heres-how-to-block-the-new-ads",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-07T14:46:20+00:00",
-      "summary": "LG monitors apparently auto-install an app on your PC when you first connect them, all thanks to the Microsoft Store.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/playstation/playstation-disc-petition-approaches-200000-signatures",
-      "title": "PlayStation disc petition approaches 200,000 signatures as backlash grows over Sony's decision to stop producing new physical media — firm still plans to produce optical media for existing titles, but new games will be digital only",
-      "url": "https://www.tomshardware.com/video-games/playstation/playstation-disc-petition-approaches-200000-signatures",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-07T14:38:31+00:00",
-      "summary": "A Change.org petition urging Sony to keep making physical PlayStation games has passed 172,000 signatures.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/mini-pcs/steam-machines-with-the-red-line-of-death-get-a-simple-official-cure-clear-the-cmos-clearing-the-cmos-can-revive-flat-red-lining-cubes",
-      "title": "Steam Machines with the ‘Red Line of Death’ get a simple, official cure: Clear the CMOS — clearing the CMOS can revive flat(red)-lining cubes",
-      "url": "https://www.tomshardware.com/desktops/mini-pcs/steam-machines-with-the-red-line-of-death-get-a-simple-official-cure-clear-the-cmos-clearing-the-cmos-can-revive-flat-red-lining-cubes",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-07T12:55:43+00:00",
-      "summary": "Valve’s official account on Reddit has responded to RLOD victims with simple step-by-step instructions to get any affected Steam Machine up and running again.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/uk-gives-data-centers-option-to-apply-for-national-importance-status-that-overrides-local-regulations-cuts-timeline-by-a-year-eligible-projects-to-bypass-local-councils-save-more-than-a-billion-dollars-in-nimby-fights",
-      "title": "UK gives data centers option to apply for 'national importance' status that overrides local regulations, cuts timeline by a year — eligible projects to bypass local councils, save more than a billion dollars in NIMBY fights",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/uk-gives-data-centers-option-to-apply-for-national-importance-status-that-overrides-local-regulations-cuts-timeline-by-a-year-eligible-projects-to-bypass-local-councils-save-more-than-a-billion-dollars-in-nimby-fights",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-07T12:34:12+00:00",
-      "summary": "The British government ruled that nationally significant infrastructure projects, which include data centers, can bypass local council approvals. This move is expected to speed up developments by up to a year and save more than a billion dollars.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/snag-32gb-of-ddr5-memory-ryzen-7-9800x3d-and-gigabyte-x870e-motherboard-for-usd233-off-deal-includes-free-aio-in-a-four-item-combo-from-newegg",
-      "title": "Snag 32GB of DDR5 memory, Ryzen 7 9800X3D, and Gigabyte X870E motherboard for $233 off — deal includes 'free' AIO in a four-item combo from Newegg",
-      "url": "https://www.tomshardware.com/pc-components/snag-32gb-of-ddr5-memory-ryzen-7-9800x3d-and-gigabyte-x870e-motherboard-for-usd233-off-deal-includes-free-aio-in-a-four-item-combo-from-newegg",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-07T12:01:22+00:00",
-      "summary": "Missed Prime Day? You can still soften the blow of buying PC parts with this three-item AM5 Newegg combo - 32GB of DDR5, 9800X3D, Gigabyte X870E motherboard, and a free AIO to take the sting out of buying",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/pc-cases/corsair-2800x-rs-r-argb-micro-atx-pc-case-hands-on",
-      "title": "Hands-on with Corsair's 2800X RS-R ARGB Micro-ATX PC Case – smaller footprint, roomy internals, includes three fans",
-      "url": "https://www.tomshardware.com/pc-components/pc-cases/corsair-2800x-rs-r-argb-micro-atx-pc-case-hands-on",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-07T12:00:00+00:00",
-      "summary": "Corsair’s 2800X RS-R ARGB brings a compact MicroATX design with room for full-size hardware, strong cooling support, and three pre-installed ARGB fans. Priced under $90, it offers solid value for a small-form-factor chassis.",
+      "views": 10,
+      "comments": 0,
+      "published_at": "2026-06-19T19:03:30+00:00",
+      "summary": "",
+      "matched_keyword": "semiconductor",
       "lang": "en"
     }
   ]

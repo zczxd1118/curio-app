@@ -2,20 +2,21 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-07-09T06:51:40.348893+00:00",
+  "fetched_at": "2026-07-10T06:52:02.821161+00:00",
   "platforms": [
+    "hackernews",
     "rss"
   ],
   "source_stats": {
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
-    "HN · TSMC": 0,
-    "HN · Nvidia": 0,
-    "HN · semiconductor": 0,
+    "HN · TSMC": 1,
+    "HN · Nvidia": 3,
+    "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 20,
+  "total": 26,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -188,6 +189,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/simplifying-intelligent-wireless-design-and-security-certification-for-healthcare-devices/",
+      "title": "Simplifying Intelligent Wireless Design and Security Certification for Healthcare Devices",
+      "url": "https://www.eetimes.com/simplifying-intelligent-wireless-design-and-security-certification-for-healthcare-devices/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Infineon Technologies and Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T17:32:02+00:00",
+      "summary": "Join Infineon Technologies and Ezurio for a 60-minute webinar exploring the challenges of designing and certifying secured wireless devices for healthcare applications. The post Simplifying Intelligent Wireless Design and Security Certification for Healthcare Devices appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/voyager-spacecraft-the-ultimate-power-management-challenge/",
+      "title": "Voyager Spacecraft: The Ultimate Power Management Challenge?",
+      "url": "https://www.eetimes.com/voyager-spacecraft-the-ultimate-power-management-challenge/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Bill Schweber",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T14:00:00+00:00",
+      "summary": "Voyager’s plutonium heart is fading, forcing NASA to kill instruments one by one; see how engineers ration watts 15B miles away. The post Voyager Spacecraft: The Ultimate Power Management Challenge? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/as-ai-moves-from-training-to-inference-optics-moves-closer-to-the-chip/",
+      "title": "As AI Moves from Training to Inference, Optics Moves Closer to the Chip",
+      "url": "https://www.eetimes.com/as-ai-moves-from-training-to-inference-optics-moves-closer-to-the-chip/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-09T07:15:00+00:00",
+      "summary": "Imec researchers argue that co-packaged optics will not be enough for future AI systems, pushing the industry toward 2.5D and eventually 3D optical I/O. The post As AI Moves from Training to Inference, Optics Moves Closer to the Chip appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/white-house-executive-order-brings-new-urgency-to-post-quantum-cryptography/",
       "title": "White House Executive Order Brings New Urgency to Post-Quantum Cryptography",
       "url": "https://www.eetimes.com/white-house-executive-order-brings-new-urgency-to-post-quantum-cryptography/",
@@ -307,54 +359,117 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/esim-evolves-from-subscriber-identity-to-device-trust/",
-      "title": "eSIM Evolves from Subscriber Identity to Device Trust",
-      "url": "https://www.eetimes.com/esim-evolves-from-subscriber-identity-to-device-trust/",
-      "platform": "rss",
+      "id": "hn:48734960",
+      "title": "Etched has officially come out of stealth",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-30/ai-chip-startup-etched-says-jane-street-tsmc-linked-vc-invested",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
+        "type": "hackernews",
+        "id": "48734960",
+        "name": "seventeen29",
+        "hn_url": "https://news.ycombinator.com/item?id=48734960"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-07T07:00:00+00:00",
-      "summary": "eSIM turns SIMs into device trust anchors for IoT, cars and AI, letting fleets switch networks and stay secure remotely. The post eSIM Evolves from Subscriber Identity to Device Trust appeared first on EE Times.",
+      "views": 10,
+      "comments": 2,
+      "published_at": "2026-06-30T16:21:13+00:00",
+      "summary": "",
+      "matched_keyword": "TSMC",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/canadas-ai-ecosystem-needs-more-urgency/",
-      "title": "Canada’s AI Ecosystem Needs More Urgency",
-      "url": "https://www.eetimes.com/canadas-ai-ecosystem-needs-more-urgency/",
-      "platform": "rss",
+      "id": "hn:48730713",
+      "title": "Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs)",
+      "url": "https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
+        "type": "hackernews",
+        "id": "48730713",
+        "name": "Tiberium",
+        "hn_url": "https://news.ycombinator.com/item?id=48730713"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-06T22:00:00+00:00",
-      "summary": "Canada has the AI talent. Now, it’s time to scale its domestic compute and sovereign hardware. The post Canada’s AI Ecosystem Needs More Urgency appeared first on EE Times.",
+      "views": 163,
+      "comments": 14,
+      "published_at": "2026-06-30T10:34:25+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/mips-software-to-silicon-with-risc-v-interview-with-mips-physical-ai-is-agentic-ai-at-the-edge/",
-      "title": "MIPS on the RISC-V Shift: ‘Physical AI Is Agentic AI at the Edge’",
-      "url": "https://www.eetimes.com/mips-software-to-silicon-with-risc-v-interview-with-mips-physical-ai-is-agentic-ai-at-the-edge/",
-      "platform": "rss",
+      "id": "hn:48759308",
+      "title": "Nvidia offers startup customers chance to swap compute power for revenue share",
+      "url": "https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times Staff",
-        "feed_title": "EE Times"
+        "type": "hackernews",
+        "id": "48759308",
+        "name": "root-parent",
+        "hn_url": "https://news.ycombinator.com/item?id=48759308"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-06T17:00:00+00:00",
-      "summary": "MIPS bets RISC-V and ARC AI will power physical AI in cars and factory robots. Watch the interview and learn more. The post MIPS on the RISC-V Shift: &#8216;Physical AI Is Agentic AI at the Edge&#8217; appeared first on EE Times.",
+      "views": 26,
+      "comments": 10,
+      "published_at": "2026-07-02T10:41:33+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48845518",
+      "title": "Reverse-engineering Nvidia's CUDA-checkpoint for faster cold starts",
+      "url": "https://blog.doubleword.ai/what-happens-when-you-checkpoint-a-cuda-process",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48845518",
+        "name": "ilreb",
+        "hn_url": "https://news.ycombinator.com/item?id=48845518"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 3,
+      "published_at": "2026-07-09T13:29:52+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48554206",
+      "title": "Semiconductor Lifeline Keeps Fighter Jets in the Air",
+      "url": "https://spectrum.ieee.org/phoenix-semiconductors-legacychips-oems",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48554206",
+        "name": "rbanffy",
+        "hn_url": "https://news.ycombinator.com/item?id=48554206"
+      },
+      "duration_sec": null,
+      "views": 79,
+      "comments": 23,
+      "published_at": "2026-06-16T12:31:02+00:00",
+      "summary": "",
+      "matched_keyword": "semiconductor",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48597201",
+      "title": "Samsung demonstrates 3D stacked FETs with triple nanosheet channels at 42nm",
+      "url": "https://semiconductor.samsung.com/news-events/tech-blog/from-gaa-to-3d-stacked-fet-expanding-the-transistor-into-the-third-dimension/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48597201",
+        "name": "its_ajseven",
+        "hn_url": "https://news.ycombinator.com/item?id=48597201"
+      },
+      "duration_sec": null,
+      "views": 127,
+      "comments": 46,
+      "published_at": "2026-06-19T11:03:52+00:00",
+      "summary": "",
+      "matched_keyword": "semiconductor",
       "lang": "en"
     }
   ]
