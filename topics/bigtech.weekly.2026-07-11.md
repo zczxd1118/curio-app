@@ -2,7 +2,7 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今日最核心的信号是SK海力士以265亿美元创纪录IPO登陆纳斯达克，CEO警告2027年将出现史上最严重存储芯片短缺，AI硬件供应链紧张预期进一步强化。同时苹果起诉OpenAI窃取硬件商业机密，硅谷巨头反目揭示AI人才与技术的争夺已白热化。_
+_今日核心信号：SK海力士以265亿美元创美国史上最大外国IPO，首日涨13%，CEO警告2027年将现最严重存储芯片短缺；苹果起诉OpenAI窃取硬件商业机密，硅谷巨头反目。AI通胀效应开始显现，高盛测算年底前或推高核心PCE 0.5个百分点。_
 
 ---
 
@@ -12,18 +12,18 @@ _今日最核心的信号是SK海力士以265亿美元创纪录IPO登陆纳斯�
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _The Verge_
 
-苹果指控OpenAI蓄意策动苹果员工泄露未发布产品的相关信息，服务于其硬件自主研发计划。现任OpenAI首席硬件官Tang Tan是核心被告之一，其曾任苹果产品设计副总裁。
+苹果指控OpenAI蓄意策动前苹果员工（现任OpenAI首席硬件官Tang Tan）泄露未发布产品信息，用于其AI硬件自研计划。苹果要求OpenAI销毁所有涉案材料并重新设计产品。OpenAI回应称对其他公司的商业秘密没兴趣。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 苹果7月10日向法院提起诉讼，指控OpenAI窃取硬件商业机密 | 诉讼是否涉及OpenAI自研AI芯片计划？Tang Tan在OpenAI负责硬件战略，可能涉及芯片设计 |
-| 核心被告包括现任OpenAI首席硬件官Tang Tan（前苹果产品设计副总裁） | 苹果能否证明OpenAI系统性窃密？需提供具体证据，如邮件、代码或设计文件 |
-| 苹果要求OpenAI销毁所有涉案材料并重新设计产品，确保不含苹果技术 | 此案可能影响OpenAI与苹果未来合作，包括iPhone上运行AI模型的潜在协议 |
-| OpenAI回应称'对其他公司的商业秘密没兴趣' | 硅谷人才竞业禁止与商业秘密保护的边界将再次被法律检验 |
+| 苹果在加州联邦法院提起诉讼，指控OpenAI窃取硬件商业机密 | 诉讼可能长期化，但苹果更可能寻求和解而非彻底禁售OpenAI产品 |
+| 核心被告包括现任OpenAI首席硬件官Tang Tan（前苹果产品设计副总裁） | Tang Tan在OpenAI的硬件项目（传闻中的AI芯片）可能被迫调整路线 |
+| 苹果要求OpenAI销毁所有涉案资料并重新设计产品 | 此案可能影响硅谷人才流动规则，其他大厂或收紧竞业条款 |
+| OpenAI回应称对其他公司的商业秘密没兴趣 |  |
 
 **📖 主编点评**
 
-这是硅谷AI人才争夺战的标志性事件。如果你在考虑加入AI硬件创业公司，需要警惕竞业条款和商业秘密风险。对于你的content-curator项目，关注此案进展可帮助判断OpenAI硬件自研的可行性。
+硅谷巨头之间的'人才+技术'摩擦正在升级。如果你在考虑加入AI硬件创业公司，需要警惕竞业风险。对于你的content-curator项目，短期内无需担心，但长期看OpenAI的硬件自研进度可能受阻，依赖其API的开发者应关注模型服务稳定性。
 
 📺 [打开原文](https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets)
 
@@ -31,12 +31,12 @@ _今日最核心的信号是SK海力士以265亿美元创纪录IPO登陆纳斯�
 
 ## 📋 备选阅读
 
-- [Kimi K2.7代码模型现已在GitHub Copilot中可用](https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/) —— 月之暗面Kimi K2.7代码模型集成至GitHub Copilot，提供中文优化的代码补全能力，值得在项目中尝试。
-  _Hacker News_
-- [Google限制Meta使用其Gemini AI模型](https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html) —— Google限制Meta对Gemini API的访问，AI巨头之间的竞争从模型发布延伸到生态封锁。
-  _Hacker News_
-- [Hugging Face CEO：企业不再'租用'AI，开源模型崛起](https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/) —— Hugging Face CEO Clem Delangue称企业正从API调用转向自托管开源模型，成本和安全是主因。
+- [Meta关闭Instagram AI深度伪造功能：用户可基于公开账户生成图片](https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes) —— Meta因强烈反对关闭'AI Muse'功能，该功能允许用户基于公开Instagram账户生成AI图片，引发隐私争议。
+  _The Verge_
+- [OpenAI二号人物Fidji Simo因医疗休假延长而离职](https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/) —— OpenAI首席运营官Fidji Simo在医疗休假后正式离职，领导层真空可能影响公司IPO进程。
   _TechCrunch_
+- [Kimi K2.7代码模型正式登陆GitHub Copilot](https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/) —— 月之暗面Kimi K2.7代码模型集成至GitHub Copilot，国产AI编程工具首次进入主流开发者平台。
+  _GitHub_
 
 ---
 
