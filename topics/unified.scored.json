@@ -1,226 +1,225 @@
 {
-  "date": "2026-07-10",
-  "intro": "今日最大信号：OpenAI 正式发布 GPT-5.6 系列，获政府安全绿灯后全面开放，同时推出「ChatGPT Work」工作流工具，AI 编程战场再升级。另一边，中国长征十号乙火箭实现全球首次海上网系回收，航天成本有望骤降80%。半导体方面，JEDEC 发布 SPHBM4 标准，有望大幅降低 AI 内存成本。",
+  "date": "2026-07-11",
+  "intro": "今日最核心的信号是SK海力士以265亿美元创纪录IPO登陆纳斯达克，CEO警告2027年将出现史上最严重存储芯片短缺，AI硬件供应链紧张预期进一步强化。同时苹果起诉OpenAI窃取硬件商业机密，硅谷巨头反目揭示AI人才与技术的争夺已白热化。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "source": "The Verge",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-raises-a-record-usd26-5-billion-in-historic-u-s-ipo-south-korean-memory-giant-to-fund-massive-hbm-manufacturing-expansions",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-raises-a-record-usd26-5-billion-in-historic-u-s-ipo-south-korean-memory-giant-to-fund-massive-hbm-manufacturing-expansions",
+      "source": "Tom's Hardware",
       "stars": 5,
-      "title": "OpenAI 正式发布 GPT-5.6，获政府安全绿灯，同步推出「ChatGPT Work」工作流工具",
-      "lead": "经过两周的政府有限预览，OpenAI 的 GPT-5.6 系列模型终于获得特朗普政府批准全面上线。同时推出的「ChatGPT Work」允许模型独立运行数小时完成复杂任务，这是对 Codex 的全面升级。",
+      "title": "SK海力士创纪录265亿美元美股IPO，CEO预警2027年最严重存储芯片短缺",
+      "lead": "SK海力士ADR首日收涨13%，IPO融资265亿美元刷新阿里保持的海外赴美IPO纪录。CEO Kwak Noh-Jung在采访中表示，存储芯片需求将持续超过产能至2030年后，2027年将成为供应短缺最严重的一年。",
       "confirmed": [
-        "GPT-5.6 系列模型已获美国政府安全批准，全面开放使用",
-        "新模型在网络安全、代码生成等多项基准上显著提升",
-        "同步推出「ChatGPT Work」功能，支持长时间自主工作流",
-        "GPT-5.6 被指定为 Microsoft Copilot 365 的「首选模型」"
+        "SK海力士7月10日登陆纳斯达克，发行近1.8亿ADR，融资265亿美元，为海外企业赴美最大IPO",
+        "ADR首日开盘涨14%，盘中一度涨近19%，收涨13%",
+        "CEO Kwak Noh-Jung称2027年将出现史上最严重存储芯片短缺，供不应求或持续至2030年后",
+        "SK集团董事长崔泰源表示若股价稳定，考虑增发美国ADR并推出'内存即服务'新模式"
       ],
       "judgment": [
-        "政府安全审查的具体标准仍未公开，透明度存疑",
-        "「ChatGPT Work」的实际可靠性尚需大规模用户验证",
-        "GPT-5.6 与 Anthropic Mythos/Fable 的竞争格局尚未明朗",
-        "OpenAI 与微软的合作关系在「分手传闻」下仍存在变数",
-        "模型能力提升是否足以支撑高昂的推理成本，有待观察"
+        "265亿美元IPO是否已充分定价HBM长期需求？当前估值对应2027年预期盈利约15倍PE，但供应短缺若持续超预期，仍有上行空间",
+        "'内存即服务'租赁模式能否被云厂商接受？可能改变HBM定价结构，但需观察客户签约意愿",
+        "SK海力士美国建厂计划尚未公布具体选址和产能，地缘政治风险仍是变量",
+        "三星、美光同步扩产，2027年短缺程度是否如CEO所言'最严重'存在不确定性"
       ],
-      "implication": "GPT-5.6 的全面开放意味着你可以在自己的 Agent 项目中直接调用最新模型，尤其是「ChatGPT Work」的长时间自主执行能力，非常适合你的 content-curator 项目——让 Agent 独立完成跨平台内容采集、筛选和简报生成。建议立即申请 API 测试，对比与 Claude Code 的差异。"
+      "implication": "你应该关注HBM供应链的长期紧张格局。SK海力士IPO是AI硬件投资的风向标，其'内存即服务'模式可能改变你部署AI推理集群的成本结构。如果你在做Agent项目，未来HBM的获取成本和周期将直接影响你的推理部署策略。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates",
-      "url": "https://www.tomshardware.com/pc-components/dram/jedec-releases-new-sphbm4-standard-to-slash-ai-memory-costs-narrow-512-bit-interface-enables-dropping-expensive-interposers-for-organic-substrates",
-      "source": "Tom's Hardware",
-      "stars": 4,
-      "title": "JEDEC 发布 SPHBM4 标准：窄接口设计可省去硅中介层，AI 内存成本有望大幅下降",
-      "lead": "JEDEC 正式发布 SPHBM4 标准，通过 512-bit 窄接口设计，让 HBM4 级带宽不再依赖昂贵的硅中介层和 CoWoS 封装，可直接使用有机基板。",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+      "url": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+      "source": "The Verge",
+      "stars": 5,
+      "title": "苹果起诉OpenAI窃取硬件商业机密，要求销毁涉密资料并重设计AI硬件",
+      "lead": "苹果指控OpenAI蓄意策动苹果员工泄露未发布产品的相关信息，服务于其硬件自主研发计划。现任OpenAI首席硬件官Tang Tan是核心被告之一，其曾任苹果产品设计副总裁。",
       "confirmed": [
-        "SPHBM4 标准已由 JEDEC 正式发布",
-        "512-bit 接口设计可省去硅中介层，使用有机基板",
-        "目标提供 HBM4 级别的带宽，同时显著降低成本",
-        "适用于 AI 训练和推理场景的高带宽内存需求"
+        "苹果7月10日向法院提起诉讼，指控OpenAI窃取硬件商业机密",
+        "核心被告包括现任OpenAI首席硬件官Tang Tan（前苹果产品设计副总裁）",
+        "苹果要求OpenAI销毁所有涉案材料并重新设计产品，确保不含苹果技术",
+        "OpenAI回应称'对其他公司的商业秘密没兴趣'"
       ],
       "judgment": [
-        "实际量产时间表尚未公布，预计需要 1-2 年",
-        "有机基板的散热和信号完整性是否能满足 HBM4 要求仍需验证",
-        "对现有 HBM 供应链（SK 海力士、三星、美光）的冲击程度不明",
-        "窄接口可能限制单颗芯片的容量扩展"
+        "诉讼是否涉及OpenAI自研AI芯片计划？Tang Tan在OpenAI负责硬件战略，可能涉及芯片设计",
+        "苹果能否证明OpenAI系统性窃密？需提供具体证据，如邮件、代码或设计文件",
+        "此案可能影响OpenAI与苹果未来合作，包括iPhone上运行AI模型的潜在协议",
+        "硅谷人才竞业禁止与商业秘密保护的边界将再次被法律检验"
       ],
-      "implication": "如果你在搭建个人 AI 服务器或推理集群，SPHBM4 意味着未来 2-3 年内高带宽内存成本可能大幅下降。建议关注首批采用该标准的厂商和产品，这将直接影响你部署本地大模型的性价比。"
+      "implication": "这是硅谷AI人才争夺战的标志性事件。如果你在考虑加入AI硬件创业公司，需要警惕竞业条款和商业秘密风险。对于你的content-curator项目，关注此案进展可帮助判断OpenAI硬件自研的可行性。"
     },
     {
       "rank": 3,
       "domain": "股票",
-      "id": "wscn:3776638",
-      "url": "https://wallstreetcn.com/articles/3776638",
+      "id": "wscn:3776692",
+      "url": "https://wallstreetcn.com/articles/3776692",
       "source": "华尔街见闻",
-      "stars": 5,
-      "title": "长征十号乙首飞成功：全球首次海上网系回收，中国航天迈入火箭回收时代",
-      "lead": "2026年7月10日，长征十号乙运载火箭首飞成功，以全球首创「海上网系捕获」方式完成一子级回收，开辟出独立于 SpaceX 的全新技术路径。复用10次以上单次发射成本有望骤降80%。",
+      "stars": 4,
+      "title": "Meta单周大涨15%重回AI一线，自研芯片Iris 9月量产",
+      "lead": "Meta创2024年2月以来单周最强表现。核心驱动来自多重AI利好：最新AI模型性能超越Gemini且定价仅为竞品四分之一，自研芯片'Iris'或9月量产，算力规模2027年扩至14吉瓦。",
       "confirmed": [
-        "长征十号乙今日首飞成功，完成一级火箭可控回收",
-        "采用全球首创的「海上网系捕获」回收方式",
-        "这是中国首次成功实施运载火箭一级可控回收",
-        "复用不足5次即可体现成本优势，复用10次以上成本降80%"
+        "Meta本周股价累计上涨15%，创2024年2月以来最佳单周表现",
+        "最新AI模型在多项基准上超越Gemini，定价仅为竞品25%",
+        "自研AI芯片'Iris'预计9月量产，将用于推理和训练",
+        "SemiAnalysis预测Meta有望半年内在前沿AI能力上超越谷歌"
       ],
       "judgment": [
-        "海上网系回收技术的可靠性和可重复性需更多任务验证",
-        "与 SpaceX 猎鹰9号的回收成本对比尚未有权威数据",
-        "国内2.8万颗卫星的发射需求能否支撑高频次复用存疑",
-        "该技术路线是否适用于更大吨位的火箭尚不确定"
+        "Meta的AI模型超越Gemini是阶段性突破还是可持续优势？需要更多第三方评测验证",
+        "Iris芯片量产后的实际性能与成本效益尚未公开，能否替代NVIDIA GPU仍是未知",
+        "Meta的AI资本开支计划（14GW算力）是否过于激进？债券市场已对AI投资回报存疑",
+        "Meta、OpenAI、Anthropic三足鼎立格局是否稳定？谷歌和微软仍在大力投入"
       ],
-      "implication": "火箭回收技术突破将直接降低卫星互联网和太空基建成本，对你关注的 AI 算力布局也有间接影响——低轨卫星通信可能成为 AI 边缘节点的回传方案。建议关注后续复用次数和成本数据，这将是判断商业航天投资价值的关键。"
+      "implication": "Meta的AI突围对你意味着更多模型选择。如果Iris芯片量产成功，可能降低AI推理成本，你的Agent项目可以关注Meta的开源模型和芯片生态。但需警惕Meta股价已计入较多乐观预期。"
     },
     {
       "rank": 4,
-      "domain": "AI",
-      "id": "bvid:BV1VDTv6rEtM",
-      "url": "http://www.bilibili.com/video/av116844031774993",
-      "source": "程序员鱼皮",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-it-can-read-claudes-thoughts-as-detailed-in-new-research-paper-models-observed-to-have-a-global-workspace-revealing-more-of-what-makes-llms-tick",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-it-can-read-claudes-thoughts-as-detailed-in-new-research-paper-models-observed-to-have-a-global-workspace-revealing-more-of-what-makes-llms-tick",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "Claude Code 封号原因曝光：Anthropic 被指植入隐蔽用户标记系统，针对中国用户",
-      "lead": "国外开发者逆向 Claude Code 源码发现，Anthropic 在客户端中嵌入了一套隐蔽的用户标记系统，这可能是导致大量中国用户被封号的真正原因。",
+      "title": "Anthropic新研究：可读取Claude内部'思维'，发现类似人类全局工作空间",
+      "lead": "Anthropic在最新研究论文中揭示，他们发现了Claude模型内部的'J-space'（全局工作空间），该区域在处理复杂任务时活跃，类似于人类的全局工作记忆。这一发现为理解LLM内部机制提供了新视角。",
       "confirmed": [
-        "国外开发者逆向 Claude Code 源码发现了隐蔽的用户标记系统",
-        "该系统可识别并标记特定地区用户",
-        "2026年4月至6月版本涉及敏感信息外传问题",
-        "中国官方已警告 Claude Code 存在后门风险"
+        "Anthropic发表新研究论文，声称可读取Claude模型的内部'思维'",
+        "发现模型存在一个'J-space'（全局工作空间），在处理复杂推理时活跃",
+        "该空间类似于人类的全局工作记忆，整合不同模块的信息",
+        "研究团队认为这有助于解释LLM的推理能力和潜在的安全风险"
       ],
       "judgment": [
-        "该标记系统是否专门针对中国用户尚未有官方确认",
-        "Anthropic 尚未对此事做出正式回应",
-        "封号是否完全由该机制导致仍需更多证据",
-        "其他 AI 编程工具（如 Codex、Cursor）是否存在类似机制未知"
+        "'读取思维'的说法是否过度拟人化？实际是激活模式分析，并非真正的意识",
+        "该发现能否用于提升模型安全性？例如检测模型是否在'欺骗'或产生有害内容",
+        "J-space是否普遍存在于其他LLM（如GPT-5.6、Gemini）？需要跨模型验证",
+        "Anthropic是否会将此技术商业化？可能用于Claude的监控和调试工具"
       ],
-      "implication": "如果你正在使用 Claude Code 做项目，建议立即检查版本并考虑备份工作流。对于你的 content-curator 项目，可以评估切换到开源替代方案（如 OpenCode）或使用 API 直连模式以避免客户端风险。"
+      "implication": "这对你的Agent项目有直接意义：如果你使用Claude构建Agent，未来可能获得更透明的内部状态监控能力。建议关注Anthropic后续是否开源相关工具，可用于调试Agent的决策过程。"
     },
     {
       "rank": 5,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-      "source": "TechCrunch",
-      "stars": 4,
-      "title": "Meta 发布 Muse Spark 1.1 进军 AI 编程，主打大型 Agent 工作负载",
-      "lead": "Meta 正式加入 AI 编程工具混战，推出 Muse Spark 1.1，主打处理大型 Agent 工作负载、自动修复 bug 和代码迁移，瞄准企业级市场。",
+      "domain": "AI",
+      "id": "bvid:BV1SRM86xEPE",
+      "url": "http://www.bilibili.com/video/av116879800665673",
+      "source": "Git源宝",
+      "stars": 3,
+      "title": "Vibe Coding实战教程：从零到第一个项目，附完整文档",
+      "lead": "B站最新Vibe Coding教程（7月8日发布），涵盖Claude Code、Codex、Cursor三大工具，从安装到部署完整流程。适合零基础用户快速上手AI编程。",
       "confirmed": [
-        "Meta 发布 Muse Spark 1.1，进入 AI 编程工具市场",
-        "主打大型 Agent 工作负载处理、自动 bug 修复和代码迁移",
-        "定位企业级自动化场景",
-        "与 OpenAI Codex、Claude Code、Cursor 等直接竞争"
+        "教程发布于2026年7月8日，时效性高",
+        "覆盖Claude Code、Codex、Cursor三种主流AI编程工具",
+        "包含从安装到部署的完整流程，附配套文档和源码",
+        "播放量已超9.2万，社区反馈积极"
       ],
       "judgment": [
-        "Muse Spark 1.1 的实际性能尚未有第三方评测",
-        "Meta 的开源策略是否适用于该产品尚不明确",
-        "企业级市场已有多个成熟玩家，Meta 的差异化优势待验证",
-        "与 Meta 现有 AI 基础设施（如 Llama 系列）的整合程度未知"
+        "教程深度是否足够？9分钟时长可能仅覆盖基础操作，缺少高级调试技巧",
+        "是否包含实际项目案例？摘要未明确，需观看确认",
+        "与尚硅谷等机构的长教程相比，内容密度可能较低",
+        "用户偏好'长内容优先'，此教程偏短，适合快速入门"
       ],
-      "implication": "AI 编程工具的选择越来越多，对你来说是个好消息。建议关注 Muse Spark 1.1 的实测表现，特别是其 Agent 工作负载能力——如果足够强，可能成为你 content-curator 项目的新选择。保持对多工具的横向对比，不要过早锁定单一平台。"
+      "implication": "如果你刚开始接触Vibe Coding，这个教程可以作为快速入门。但你的项目需要更深入的工程实践，建议配合尚硅谷的2小时教程或官方文档使用。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI",
-      "title": "Ollama 获 6500 万美元融资，加速开源模型生态",
-      "url": "https://ollama.com/blog/all-aboard-open-models",
-      "source": "Ollama Blog",
-      "one_liner": "Ollama 完成 6500 万美元融资，用于支持更多开源模型和开发者工具，利好本地模型部署场景。"
-    },
-    {
-      "domain": "AI",
-      "title": "Kimi K2.7 代码模型正式登陆 GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
-      "source": "GitHub Blog",
-      "one_liner": "月之暗面的 Kimi K2.7 代码模型进入 GitHub Copilot，国产模型在编程助手领域迈出重要一步。"
-    },
-    {
-      "domain": "AI",
-      "title": "OpenAI 关闭 ChatGPT Atlas 浏览器，功能并入桌面端",
-      "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-      "source": "TechCrunch",
-      "one_liner": "上线不到一年的 AI 浏览器 Atlas 被砍，但 Agent 浏览功能将整合到桌面应用和 Chrome 扩展中。"
-    },
-    {
-      "domain": "AI",
-      "title": "「Slopfix」团队收费 1 万美元/周，用 AI Agent 删除 AI 生成的冗余代码",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/a-team-of-engineers-called-slopfix-charges-10000-a-week-to-delete-ai-generated-code-using-ai-agents",
-      "source": "Tom's Hardware",
-      "one_liner": "讽刺的是，这家公司用 AI Agent 来清理 AI 生成的代码垃圾，最多可减少 65% 的代码量。"
+      "domain": "AI 算力 / 半导体",
+      "title": "Zluda 6发布：在非NVIDIA GPU上运行未修改的CUDA应用",
+      "url": "https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/",
+      "source": "Hacker News",
+      "one_liner": "开源项目Zluda发布第6版，支持在AMD/Intel GPU上直接运行CUDA程序，无需修改代码，可能降低AI推理对NVIDIA硬件的依赖。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "SambaNova 融资 10 亿美元，签下摩根大通客户",
+      "title": "三星展示3D堆叠FET晶体管，42nm间距三纳米片通道",
+      "url": "https://semiconductor.samsung.com/news-events/tech-blog/from-gaa-to-3d-stacked-fet-expanding-the-transistor-into-the-third-dimension/",
+      "source": "Hacker News",
+      "one_liner": "三星在IEDM上展示3D堆叠FET技术，三纳米片通道间距仅42nm，为未来3nm以下制程提供新路径。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Apple 300亿美元Broadcom交易：AI数据中心与美国供应链扩张",
+      "url": "https://www.eetimes.com/apples-30b-broadcom-deal-signals-expansions-in-ai-u-s-supply-chain/",
+      "source": "EE Times",
+      "one_liner": "Apple与Broadcom签署300亿美元协议，用于AI数据中心芯片和本土制造，可能为Intel带来转机。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "SambaNova融资10亿美元，JPMorgan Chase成为客户",
       "url": "https://www.eetimes.com/sambanova-raises-1-billion-signs-jpmorganchase-as-a-customer/",
       "source": "EE Times",
-      "one_liner": "AI 芯片公司 SambaNova 完成 10 亿美元融资，企业市场开始发力。"
+      "one_liner": "AI芯片初创SambaNova获10亿美元融资，并签下摩根大通作为客户，企业级AI推理市场加速启动。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Kimi K2.7代码模型现已在GitHub Copilot中可用",
+      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
+      "source": "Hacker News",
+      "one_liner": "月之暗面Kimi K2.7代码模型集成至GitHub Copilot，提供中文优化的代码补全能力，值得在项目中尝试。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Google限制Meta使用其Gemini AI模型",
+      "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+      "source": "Hacker News",
+      "one_liner": "Google限制Meta对Gemini API的访问，AI巨头之间的竞争从模型发布延伸到生态封锁。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Hugging Face CEO：企业不再'租用'AI，开源模型崛起",
+      "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "source": "TechCrunch",
+      "one_liner": "Hugging Face CEO Clem Delangue称企业正从API调用转向自托管开源模型，成本和安全是主因。"
+    },
+    {
+      "domain": "股票",
+      "title": "高盛：AI加剧通胀，内存、电力和软件涨价或推高核心PCE 0.5个百分点",
+      "url": "https://wallstreetcn.com/articles/3776689",
+      "source": "华尔街见闻",
+      "one_liner": "高盛测算AI驱动的内存涨价、软件提价和电费攀升已推高核心PCE逾0.2个百分点，年底或达0.5个百分点。"
+    },
+    {
+      "domain": "股票",
+      "title": "大摩警告：芯片制造商定价权承压，AI资本开支增速放缓",
+      "url": "https://wallstreetcn.com/articles/3776686",
+      "source": "华尔街见闻",
+      "one_liner": "摩根士丹利称超大规模云厂商自研芯片蚕食定价权，AI资本开支增速开始放缓，半导体板块'明显超买'。"
+    },
+    {
+      "domain": "股票",
+      "title": "硅谷疯狂举债：AI相关债券发行2700亿美元，市场抛售加剧",
+      "url": "https://wallstreetcn.com/articles/3776690",
+      "source": "华尔街见闻",
+      "one_liner": "AI债券供给过剩压垮需求，投资者对长期回报存疑，债券市场比股市更审慎看待AI建设浪潮。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Gartner 预测：AI 服务器功耗 2027 年将超过所有传统数据中心总和",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-servers-will-consume-more-power-than-conventional-data-center-hardware-by-2027-gartner-forecasts",
+      "title": "Elon Musk获FTC批准收购Mesh Optical，AI互联瓶颈成新战场",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/elon-musk-receives-ftc-greenlight-to-buy-mesh-optical-as-interconnects-emerge-as-ais-tightest-bottleneck-the-move-will-expand-musks-growing-stack-of-critical-ai-infrastructure",
       "source": "Tom's Hardware",
-      "one_liner": "全球数据中心用电量 2026 年将增长 26% 至 565 TWh，AI 是主要推手。"
+      "one_liner": "Musk收购光互联公司Mesh Optical，补齐Terafab芯片与Gigasat卫星之间的关键层，AI基础设施垂直整合加速。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "AMD Zen 6 Medusa Point 10 核 APU 现身 Geekbench，性能超越前代",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amds-upcoming-zen-6-medusa-point-10-core-apu-pops-up-on-geekbench-chip-is-faster-than-ryzen-ai-9-hx-370-and-even-ryzen-ai-max-395",
+      "title": "SK海力士与TetraMem合作开发忆阻器存内计算芯片，用于边缘AI",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-hynix-and-tetramem-collaborate-on-experimental-chip-to-bolster-energy-efficiency-for-edge-ai-devices-memristor-based-in-memory-soc-research-leaves-performance-questions-up-in-the-air",
       "source": "Tom's Hardware",
-      "one_liner": "AMD 下一代 APU 工程样片跑分曝光，单核和多核性能均显著提升，值得关注。"
+      "one_liner": "SK海力士与TetraMem合作开发忆阻器存内计算SoC，能效提升但性能存疑，边缘AI硬件仍在探索期。"
     },
     {
-      "domain": "股票",
-      "title": "国产 AI 芯片公司燧原科技科创板 IPO 注册生效",
-      "url": "https://wallstreetcn.com/articles/3776644",
-      "source": "华尔街见闻",
-      "one_liner": "腾讯为第一大股东，燧原科技即将登陆科创板，国产 AI 芯片再添上市力量。"
+      "domain": "AI",
+      "title": "Claude Code封号原因曝光：Anthropic植入隐形用户标记系统",
+      "url": "http://www.bilibili.com/video/av116844031774993",
+      "source": "B站",
+      "one_liner": "国外开发者逆向Claude Code源码发现Anthropic内置隐蔽用户标记系统，或导致中国用户被封号。"
     },
     {
-      "domain": "股票",
-      "title": "存储模组厂威刚：三季度 DRAM 涨 20-30%，NAND 涨 35-40%",
-      "url": "https://wallstreetcn.com/articles/3776624",
-      "source": "华尔街见闻",
-      "one_liner": "存储涨价周期确认延续，对 AI 服务器和 PC 成本影响显著。"
-    },
-    {
-      "domain": "股票",
-      "title": "MiniMax CEO 放弃薪酬，拿出 4% 股份激励团队，股价承压",
-      "url": "https://wallstreetcn.com/articles/3776635",
-      "source": "华尔街见闻",
-      "one_liner": "IPO 后解禁潮引发股价重挫，创始人押注个人股份稳定军心。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google 将标注 AI 生成的广告内容",
-      "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
-      "source": "TechCrunch",
-      "one_liner": "Google 在「我的广告中心」新增 AI 内容标注，提升透明度。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Meta 的 AI 芯片将于 9 月投产",
-      "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
-      "source": "TechCrunch",
-      "one_liner": "Meta 自研 AI 芯片采用模块化设计，9 月进入生产阶段，减少对第三方依赖。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "微软碳排放在 2026 年上升 25%，AI 扩张是主因",
-      "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
-      "source": "The Verge",
-      "one_liner": "微软 2026 年可持续发展报告显示碳排放不降反升，AI 数据中心扩张的环保代价凸显。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Lyzr 用自家 AI Agent 完成 1 亿美元融资",
-      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-      "source": "TechCrunch",
-      "one_liner": "AI Agent 初创公司 Lyzr 让自家 Agent 主导融资流程，证明产品实用性。"
+      "domain": "AI",
+      "title": "Cursor已死？深度用户退订转向Claude Code和Codex",
+      "url": "http://www.bilibili.com/video/av116819553683121",
+      "source": "B站",
+      "one_liner": "一年重度用户退订Cursor，称Claude Code和Codex的底层模型更强，Cursor仅适合程序员。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-10T08:27:10+0000"
+    "scored_at": "2026-07-11T06:07:53+0000"
   }
 }
