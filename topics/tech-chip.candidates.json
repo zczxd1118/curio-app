@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-07-11T05:46:46.700829+00:00",
+  "fetched_at": "2026-07-12T06:10:37.267952+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 3,
+    "HN · Nvidia": 4,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 26,
+  "total": 27,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -375,6 +375,25 @@
       "published_at": "2026-06-30T16:21:13+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48873836",
+      "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48873836",
+        "name": "adletbalzhanov",
+        "hn_url": "https://news.ycombinator.com/item?id=48873836"
+      },
+      "duration_sec": null,
+      "views": 216,
+      "comments": 71,
+      "published_at": "2026-07-11T17:21:49+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {

@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-07-11T05:46:41.837487+00:00",
+  "fetched_at": "2026-07-12T06:10:32.135291+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -15,11 +15,11 @@
     "HN · Federal Reserve": 0,
     "HN · inflation": 3,
     "HN · Tesla": 3,
-    "HN · finance": 11,
-    "HN · fed": 20
+    "HN · finance": 13,
+    "HN · fed": 21
   },
   "subtopics": [],
-  "total": 86,
+  "total": 89,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/xbox-on-the-rocks/",
@@ -532,6 +532,193 @@
       "lang": "en"
     },
     {
+      "id": "wscn:3776716",
+      "title": "机构实地调研：台积电赢了现在的CPO，三星在押注下一场",
+      "url": "https://wallstreetcn.com/articles/3776716",
+      "summary": "台积电凭借博通、英伟达的交换机CPO产品率先商业化落地；三星则另辟蹊径，布局将HBM、逻辑芯片与硅光芯片整合于同一封装的2.xD方案，瞄准AI计算封装的光学I/O赛道。三星的\"三位一体\"垂直整合是潜在优势，但良率挑战与商业化时间表仍是最大变数。订单落地，才是检验胜负的唯一标准。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-12T05:47:23+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776551",
+      "title": "MSCI中国相对收益跌到25年以来最低位：全球资金为何开始回头？",
+      "url": "https://wallstreetcn.com/premium/articles/3776551?layout=wscn-layout",
+      "summary": "彭博社一张图把中国资产的相对低迷推到聚光灯下：MSCI中国相对MSCI全球的收益比值，已降至2001年以来少见低位。但这并不意味着中国资产缺少机会，而是MSCI中国的指数结构没有充分暴露于本轮全球AI硬件和科技牛市。随着全球AI交易拥挤、海外资金低配中国、A股硬科技和中国AI价值链开始被重新定价，全球资金正在从“是否回避中国”转向“如何重新配置中国”。这是全面反转的信号，还是一轮结构性重估的开始？",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-12T04:24:09+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776714",
+      "title": "全球存储扩产+海外设备供应告急，国产半导体设备迎“超级时代”",
+      "url": "https://wallstreetcn.com/articles/3776714",
+      "summary": "国金证券认为AI算力驱动存储扩产，国产半导体设备迎历史机遇。海外设备交期拉长至12-24个月，长鑫、长江存储2026年采购规模预计达550-630亿元，国产替代加速落地。量检测与FT测试设备国产化率最低，替代空间最大，为当前核心关注方向。风险在于资本开支不及预期及验证进度滞后。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-12T04:00:53+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776709",
+      "title": "蚂蚁灵波，为什么要从头训练机器人大脑",
+      "url": "https://wallstreetcn.com/articles/3776709",
+      "summary": "灵波发布 6 款模型，更像是在拆解机器人大脑仍未解决的单点问题。模型数量未来反而可能减少。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-12T03:21:53+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776708",
+      "title": "翰森制药的出海，不靠声量",
+      "url": "https://wallstreetcn.com/articles/3776708",
+      "summary": "一次三期成功，兑现的是走了十年的路。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-12T03:21:47+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776715",
+      "title": "三星电子将龙仁首座芯片厂投产提前至2029年，比原计划早1-2年",
+      "url": "https://wallstreetcn.com/articles/3776715",
+      "summary": "报道称三星电子已将龙仁国家产业园区首座晶圆厂的投产目标定为2029年，较此前市场预期的2030至2031年有所提前。三星电子此前已宣布，将在平泽、龙仁半导体集群等地合计投资2030万亿韩元。投产时间的提前，意味着三星电子得以更迅速地回应全球人工智能芯片需求的快速增长。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-12T03:18:32+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776710",
+      "title": "伊朗关闭霍尔木兹海峡、打击美在中东目标，美军对伊发动新一轮袭击、多地传出爆炸声",
+      "url": "https://wallstreetcn.com/articles/3776710",
+      "summary": "伊朗革命卫队于7月12日宣布封闭霍尔木兹海峡，禁止所有船只通行，直至美国停止干预为止。美军宣布对伊朗发动打击，以回应海峡民用船只遇袭事件。伊朗随后对美国在中东多国目标实施报复。巴林、约旦、科威特、卡塔尔、阿联酋相继响起防空警报或爆炸声，伊朗南部多地亦传出爆炸。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-12T03:06:04+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776713",
+      "title": "美银Hartnett：日本银行股是“全球避险情绪领先指标”，下半年有“四大逆向交易机会”",
+      "url": "https://wallstreetcn.com/articles/3776713",
+      "summary": "美银策略师Hartnett警告，当前市场存在\"四个不\"共识：美国经济不着陆、美联储不加息、AI资本开支不削减、美国民主党不横扫中期选举。这种罕见的全面乐观本身即为最大风险，任一共识落空将引发剧烈重定价。他提出四类逆向交易策略，并将日本银行股视为全球风险偏好的预警指标。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-12T02:46:01+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776632",
+      "title": "下周重磅日程：中国GDP与美国CPI、沃什听证会、WAIC大会、长鑫科技打新与台积电财报",
+      "url": "https://wallstreetcn.com/articles/3776632",
+      "summary": "美国6月CPI、PPI及经济褐皮书密集出炉，美联储主席沃什首次出席国会听证；中国二季度GDP、社零、工业增加值等数据同步亮相。WAIC人工智能大会召开，华为Atlas 950真机或首秀，Gemini 3.5 Pro传将发布。财报季方面，华尔街五大行同日放榜，ASML、台积电验证AI需求；国内长鑫科技IPO打新备受关注。此外，韩国央行预计时隔五年重启加息，而霍尔木兹再度关闭，美伊局势再升级。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-12T02:05:46+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776712",
+      "title": "财报季、沃什和美国通胀--美联储和市场将走向何方？下周“初见端倪”！",
+      "url": "https://wallstreetcn.com/articles/3776712",
+      "summary": "美联储新主席沃什下周将首次出席国会听证，恰逢美国6月CPI、PPI数据密集发布。市场对7月加息隐含概率仅24%，彭博经济学家认为超预期通胀与沃什鹰派表态同时发生概率不高。而高盛认为美联储政策路径的不确定性，已成为短期内股市面临的最关键风险变量，叠加下周Q2财报季开幕，市场波动性或将显著上升。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-12T01:36:15+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776711",
+      "title": "不是稀土，却胜似稀土：中国为何开始管控氦气出口？一场半导体供应链保卫战正在展开",
+      "url": "https://wallstreetcn.com/premium/articles/3776711?layout=wscn-layout",
+      "summary": "从气球填充气体到AI时代的“隐形命脉”，氦气正在经历一场产业价值重估。2026年7月，中国宣布限制氦气出口，而全球市场此前已经因卡塔尔供应扰动、俄罗斯出口收紧以及AI半导体需求爆发陷入紧平衡。作为先进制程、HBM、高速光通信和航空航天领域不可替代的关键材料，氦气的重要性正在快速提升。此次政策并非简单的贸易限制，而是全球产业链围绕稀缺资源展开竞争的缩影。随着供应端约束长期存在、需求端受AI产业驱动持续增长，氦气产业链可能迎来类似电子特气、稀土等战略资源的重新定价周期。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-12T00:40:55+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776706",
+      "title": "全球市场步入“动荡之夏”：警惕美联储变局、日元危机和财报季大考",
+      "url": "https://wallstreetcn.com/articles/3776706",
+      "summary": "全球金融市场看似平静却暗流汹涌：美联储新主席沃什减少前瞻指引放大政策不确定性，日元跌破162关口再触套利爆仓危机。瑞银脆弱度指标飚至0.9高位，单股波动率超指数三倍。在夏季流动性匮乏之际，美股二季度财报24%的高增长预期一旦落空，恐引爆指数级剧烈回撤。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-11T12:11:58+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776707",
+      "title": "智谱创始人唐杰发布内部信：将开启 Touch High（摸高）计划，“不登顶，就是失败”",
+      "url": "https://wallstreetcn.com/articles/3776707",
+      "summary": "今日智谱创始人唐杰发布内部信，阐述智谱对 AGI 接下来竞争的理解。唐杰在信中表示，智谱接下来将继续延续所谓 “反直觉” 路线，开启 “Touch High（摸高）计划”，即继续聚焦于 AGI 研究，而不是短期商业变现。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-11T11:32:09+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776705",
+      "title": "伊朗最高领袖称将报复美以，特朗普：1000枚导弹已瞄准伊朗",
+      "url": "https://wallstreetcn.com/articles/3776705",
+      "summary": "穆杰塔巴再次将美国和以色列列为已故最高领袖及其他遇难者遇难事件的责任方，表示伊朗将继续追究其责任，并强调将作出报复回应。美国总统特朗普10日说，1000枚导弹已瞄准伊朗。若伊朗暗杀或试图暗杀他本人，还会有数千枚导弹随即发射。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-11T11:02:00+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776704",
+      "title": "成也 Seedance 2.0，败也 Seedance 2.0！AI漫剧行业已经没有了？",
+      "url": "https://wallstreetcn.com/articles/3776704",
+      "summary": "国内 AI 漫剧和 AI 剧已经从「效率红利」进入「慢性死亡」：政策风向、平台流量、供给爆炸、工具公司被大厂挤压，几股力量叠在一起，把一个刚刚冒头的内容生意迅速打成了彩票生意。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-11T10:28:23+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776703",
+      "title": "阿里合计持股长鑫科技近5%，超过董事长朱一明",
+      "url": "https://wallstreetcn.com/articles/3776703",
+      "summary": "阿里巴巴以76亿元押注长鑫科技，合计持股近5%，持股数量甚至超过创始人朱一明。这笔投资远不止财务回报——长鑫科技已是阿里云核心供应商，双方深度绑定\"算存一体化\"产业链。此次长鑫科技冲刺科创板第二大IPO，募资295亿元，阿里从存储芯片、大模型到具身智能的全链布局正加速兑现。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-11T08:22:28+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3776701",
+      "title": "过去两年规模几乎翻倍，美国ETF“火的发烫”",
+      "url": "https://wallstreetcn.com/articles/3776701",
+      "summary": "美国ETF行业正经历史无前例的扩张，2026年资产规模逼近16万亿美元，年内净流入破万亿。主动型ETF包揽四成资金，杠杆ETF成交量激增50%放大流动性。精准化集中主题ETF崛起，美股科技与半导体成核心驱动力。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-11T06:00:08+00:00",
+      "points": 0
+    },
+    {
       "id": "wscn:3776698",
       "title": "1个月上涨25%后，美国生物医药板块周五重挫",
       "url": "https://wallstreetcn.com/articles/3776698",
@@ -543,212 +730,25 @@
       "points": 0
     },
     {
-      "id": "wscn:3776573",
-      "title": "去杠杆风暴下半场：美韩半导体风险释放到什么程度？",
-      "url": "https://wallstreetcn.com/premium/articles/3776573?layout=wscn-layout",
-      "summary": "美韩半导体去杠杆或正进入中后期，流动性出清仍未完成，估值修复仍需等待基本面接力。",
+      "id": "wscn:3776700",
+      "title": "昂跑亚太区将换帅，中国增长功臣升任全球市场负责人",
+      "url": "https://wallstreetcn.com/articles/3776700",
+      "summary": "继任者未定",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-11T04:21:16+00:00",
+      "published_at": "2026-07-11T05:04:49+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776695",
-      "title": "中美一样的困惑：硅碳能从分化到共赢吗？",
-      "url": "https://wallstreetcn.com/articles/3776695",
-      "summary": "国信证券认为，美股分化更早、A股分化程度更大，根源是硅基盈利明显强于碳基。AI红利尚未惠及碳基。AI 资本开支成为中美经济亮点，我国 Token 调用量激增 81 倍。展望未来，硅碳终将走向共赢。当AI从大模型步入物理应用时，中国智造有工程师红利与算力成本优势，届时新老经济融合共赢。",
+      "id": "wscn:3776699",
+      "title": "牧原上半年预亏57亿至67亿元 降本与屠宰业务提供缓冲",
+      "url": "https://wallstreetcn.com/articles/3776699",
+      "summary": "成本持续压降",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-11T03:02:13+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776697",
-      "title": "“权益高地”诺安基金高管更替：刘翔升任总经理",
-      "url": "https://wallstreetcn.com/articles/3776697",
-      "summary": "公募基金公司再现“掌门”更替。\n7月10日晚间，诺安基金公告齐斌因个人原因离任总经理职位，原副总经理...",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-11T02:52:01+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776696",
-      "title": "对话即刻2.5 lab技术负责人：做AI应用会优先考虑利润",
-      "url": "https://wallstreetcn.com/articles/3776696",
-      "summary": "中小AI应用的现实生存样本。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-11T02:41:16+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776694",
-      "title": "美股处于“极度脆弱”的时候，财报季开启了",
-      "url": "https://wallstreetcn.com/articles/3776694",
-      "summary": "美股指数表面平静（VIX低迷），但瑞银市场脆弱度指标飙升至0.9的历史高位。在二季度盈利预期大涨24%的“高期望”财报季拉开帷幕之际，市场内部压力正加速积聚：单股波动率已超出指数三倍，债市收益率逼近4.6%，且油价走高（布油逼近80美元）正威胁通胀及欧洲股市。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-11T01:50:01+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776692",
-      "title": "重回AI一线？Meta单周大涨15%",
-      "url": "https://wallstreetcn.com/articles/3776692",
-      "summary": "Meta创2024年2月以来单周最强表现。核心驱动来自多重AI利好，最新AI模型性能超越Gemini，且定价仅为竞品四分之一。自研芯片\"Iris\"或9月量产，算力规模于2027年扩至14吉瓦。研究机构SemiAnalysis预测，Meta有望半年内在前沿AI能力上超越谷歌，行业格局或重塑为Meta、OpenAI、Anthropic三足鼎立。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-11T01:42:40+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776691",
-      "title": "“以打促谈”还是“战略转变”？美国给出“周六开通霍尔木兹海峡”的“最后通牒”",
-      "url": "https://wallstreetcn.com/articles/3776691",
-      "summary": "特朗普政府高级官员周五罕见承认，通过和平谈判达成核协议的可能性正日益降低，与此同时，美方向伊朗发出限期警告——要求其在周六前作出承诺，声明霍尔木兹海峡已开放并停止对船只开火。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-11T01:04:20+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776690",
-      "title": "硅谷疯狂举债，市场凶猛抛售",
-      "url": "https://wallstreetcn.com/articles/3776690",
-      "summary": "AI相关债券今年发行规模达2700亿美元，供给过剩压垮需求。投资者对AI资本支出长期回报存疑，叠加高利率环境下短端美债已具吸引力，机构纷纷转向短期债券。债券市场正以行动表明，对AI建设浪潮的长远承诺，远比股市更为审慎。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-11T00:56:42+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776623",
-      "title": "科技股续撑纳指三连阳，SK海力士ADR首日大涨13%，布油冲高转跌，黄金走V仍收跌",
-      "url": "https://wallstreetcn.com/articles/3776623",
-      "summary": "标普收创一个多月新高，和纳指连涨两周。Meta收涨6%，全周涨近15%。英伟达收涨4%。特朗普重燃美伊谈判希望，十年期美债收益率刷新日高，美元指数一度转跌。离岸人民币两周多来首次盘中涨破6.78。比特币盘中创逾两周新高、较日低涨近3%。原油跳涨超1%后重回跌势，黄金跌超1%后收窄多数跌幅。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-10T23:11:15+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776687",
-      "title": "华尔街见闻早餐FM-Radio | 2026年7月11日",
-      "url": "https://wallstreetcn.com/articles/3776687",
-      "summary": "五分钟看懂全球市场，尽在财经早餐。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-10T23:05:12+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776688",
-      "title": "硅谷巨头反目！苹果起诉OpenAI窃取商业机密，要求销毁涉密资料并重设计AI硬件",
-      "url": "https://wallstreetcn.com/articles/3776688",
-      "summary": "苹果指控OpenAI蓄意策动苹果员工泄露未发布产品的相关信息，服务于其硬件自主研发计划。要求OpenAI销毁所有涉案材料，重新设计产品，确保不含苹果技术。现任OpenAI首席硬件官Tang Tan是本案核心被告之一，其曾任苹果产品设计副总裁。OpenAI回应称，对其他公司的商业秘密没兴趣。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-10T22:39:37+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776689",
-      "title": "AI加剧美国通胀？高盛：内存、电力和软件涨价年底或推高核心PCE 0.5个百分点",
-      "url": "https://wallstreetcn.com/articles/3776689",
-      "summary": "高盛最新测算显示，AI驱动的内存价格暴涨、软件提价、电费攀升三重冲击已推高美国核心PCE逾0.2个百分点，预计至年底该贡献将升至0.5个百分点。这一估算尚未完全反映各类溢出效应，实际冲击可能更大。多数美联储官员认为，在某些情景下，AI相关需求强劲可能导致通胀持续高企。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-10T22:16:00+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776680",
-      "title": "AI狂欢持续！SK海力士创海外赴美最大IPO，美股首秀收涨13%",
-      "url": "https://wallstreetcn.com/articles/3776680",
-      "summary": "SK海力士ADR开盘涨14%，盘中一度涨近19%。此次IPO发行近1.8亿ADR、融资265亿美元，刷新阿里保持十余年的海外企业赴美IPO融资纪录。据称三家基石投资者合计获配50亿美元ADR。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-10T20:53:59+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776677",
-      "title": "特朗普称美国已同意继续和伊朗谈判，美媒称新一轮谈判或下周举行、伊媒否认",
-      "url": "https://wallstreetcn.com/articles/3776677",
-      "summary": "伊朗外交部：从未提出与美谈判诉求，同意调解方访伊。据美媒，卡塔尔谈判代表周五在与美方协调后前往伊朗，与伊朗官员会面，为美伊谈判恢复创造条件；外交官称，美伊都希望回到谅解备忘录框架下；美官员称，特朗普政府的策略是实施打击后暂停军事行动，避免局势进一步升级并留出外交斡旋空间。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-10T20:19:28+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776685",
-      "title": "SK海力士CEO：2027年将迎来史上最严重存储芯片短缺，供不应求或持续至2030年后",
-      "url": "https://wallstreetcn.com/articles/3776685",
-      "summary": "SK海力士CEOKwak Noh-Jung在美国存托凭证发行后接受采访时表示，预计2027年将成为存储芯片行业供应短缺最严重的一年。预计存储芯片需求将持续超过公司的生产能力，并一直延续到2030年以后。同时表示，越来越多客户选择签订长期供货合同，由于其普遍认为供应紧张将持续较长时间。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-10T20:18:18+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776686",
-      "title": "大摩泼冷水：芯片制造商定价权承压、AI资本开支开始放缓、美股半导体“明显超买”",
-      "url": "https://wallstreetcn.com/articles/3776686",
-      "summary": "摩根士丹利财富管理首席投资官表示，超大规模云服务商加速自研低成本芯片，正蚕食芯片制造商的定价权；企业已经开始讨论AI投资的节奏及回报率，目前正处于AI资本开支增速开始放缓的初期阶段；费城半导体指数市盈率自2022年以来上涨逾三倍，半导体板块已经出现“明显超买”迹象。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-10T19:53:30+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776683",
-      "title": "财相\"点名\"1.8万亿GPIF引发日元脉冲跳涨，高盛泼冷水：不过是\"过度反应\"",
-      "url": "https://wallstreetcn.com/articles/3776683",
-      "summary": "日本财务大臣表示，包括全球最大养老基金之一GPIF在内的养老金机构应增加对日本国内金融资产的投资。日元兑美元短线急涨至161.29，日本国债收益率曲线整体下行约10个基点。然而，高盛指出这一债市反弹是\"过度反应\"，维持对超长期日本国债的看空立场，认为此次反弹并非趋势逆转。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-10T18:54:53+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776682",
-      "title": "SK集团董事长：若股价稳定，考虑增发美国股票、扩大在美投资、推出\"内存即服务\"新模式",
-      "url": "https://wallstreetcn.com/articles/3776682",
-      "summary": "SK海力士在美股首日开盘涨14%。SK集团董事长崔泰源表示，若股价保持稳定，SK海力士有意发行更多美国存托凭证；SK集团在美投资规模将远超目前已公布的350亿美元。其还提出了\"内存即服务\"的新商业模式构想，允许客户租用内存芯片使用权。SK海力士CEO郭鲁正表示，存储芯片供应短缺可能会持续至2030年之后。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-10T18:34:19+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3776684",
-      "title": "一天940万桶缺口！IEA警告美伊再交火或颠覆明年石油过剩预期",
-      "url": "https://wallstreetcn.com/articles/3776684",
-      "summary": "IEA报告称，6月全球石油供应因霍尔木兹海峡重新开放而回升410万桶/日，但相比战前水平缺口仍高达940万桶/日；持久和平协议是油市正常化的“必要条件”；当前原油表面供应充裕，成品油却持续偏紧，这一“割裂”推动裂解价差和炼油利润率本月初飙升至四年高位；预计今年全球油需下降100万桶/日，为疫情以来六年内首次年度下滑。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-10T18:13:56+00:00",
+      "published_at": "2026-07-11T05:02:45+00:00",
       "points": 0
     },
     {
@@ -878,7 +878,7 @@
       },
       "duration_sec": null,
       "views": 694,
-      "comments": 1583,
+      "comments": 1584,
       "published_at": "2026-06-29T10:45:51+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -973,7 +973,7 @@
       },
       "duration_sec": null,
       "views": 58,
-      "comments": 76,
+      "comments": 75,
       "published_at": "2026-07-05T06:40:05+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -991,28 +991,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=48824584"
       },
       "duration_sec": null,
-      "views": 38,
+      "views": 39,
       "comments": 19,
       "published_at": "2026-07-07T22:04:18+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48500251",
-      "title": "Infineon to open fab in Germany as part of sovereignty push",
-      "url": "https://sg.finance.yahoo.com/news/infineon-open-german-chip-fab-225013833.html?guccounter=1",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48500251",
-        "name": "SanjayMehta",
-        "hn_url": "https://news.ycombinator.com/item?id=48500251"
-      },
-      "duration_sec": null,
-      "views": 25,
-      "comments": 13,
-      "published_at": "2026-06-12T05:26:12+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1070,6 +1051,63 @@
       "views": 16,
       "comments": 2,
       "published_at": "2026-07-07T22:00:45+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48678979",
+      "title": "Trump administration asks OpenAI to stagger release of new model",
+      "url": "https://ca.finance.yahoo.com/news/trump-administration-asks-openai-stagger-204300837.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48678979",
+        "name": "fla",
+        "hn_url": "https://news.ycombinator.com/item?id=48678979"
+      },
+      "duration_sec": null,
+      "views": 13,
+      "comments": 2,
+      "published_at": "2026-06-25T20:47:46+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48852473",
+      "title": "Meta is staring down $1.4T in lawsuit over teen mental health",
+      "url": "https://finance.yahoo.com/technology/articles/meta-staring-down-1-4t-173432639.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48852473",
+        "name": "randycupertino",
+        "hn_url": "https://news.ycombinator.com/item?id=48852473"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 2,
+      "published_at": "2026-07-09T21:15:06+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48767569",
+      "title": "Trump Made $1B on Crypto Deals While His Fans Lost a Fortune",
+      "url": "https://www.wsj.com/finance/currencies/trump-made-1-billion-on-crypto-deals-while-his-fans-lost-a-fortune-408754c9",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48767569",
+        "name": "doener",
+        "hn_url": "https://news.ycombinator.com/item?id=48767569"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 3,
+      "published_at": "2026-07-02T21:25:54+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1260,6 +1298,25 @@
       "views": 47,
       "comments": 29,
       "published_at": "2026-07-01T22:45:41+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48878126",
+      "title": "Under federal rule, colleges must leave grads better off or lose financial aid",
+      "url": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48878126",
+        "name": "nradov",
+        "hn_url": "https://news.ycombinator.com/item?id=48878126"
+      },
+      "duration_sec": null,
+      "views": 43,
+      "comments": 52,
+      "published_at": "2026-07-12T04:00:14+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
