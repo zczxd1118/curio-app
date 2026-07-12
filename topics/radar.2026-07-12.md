@@ -1,0 +1,168 @@
+# Curio 趋势雷达 · 2026-07-12
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 14 条备选
+
+_本周AI编程工具格局生变：Claude Code封号事件曝光Anthropic的隐蔽用户标记系统，同时Colibrì以25GB RAM运行1.5TB模型，为本地AI推理开辟新路径。半导体领域SK Hynix创纪录IPO和Apple起诉OpenAI泄露商业秘密，显示AI军备竞赛已进入法律与资本层面。全球资金开始重新配置中国资产，MSCI中国处于25年低位，但AI硬件链和国产替代正被重新定价。_
+
+---
+
+## 🌟 AI
+
+### 1. Claude Code封号原因曝光：Anthropic植入隐形用户标记系统，中国用户成重点目标
+
+**[AI]** · ⭐⭐⭐⭐⭐ · _程序员鱼皮_
+
+国外开发者逆向Claude Code源码发现，Anthropic在客户端中隐藏了一套用户标记系统，可识别并限制特定地区用户。程序员鱼皮还原了整个封号事件链，并给出国内用户的应对建议。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 国外开发者逆向Claude Code源码，发现隐蔽的用户标记系统 | 该标记系统是否仅用于合规目的（如出口管制）还是更广泛的监控 |
+| 该系统可识别用户地理位置并实施差异化限制 | 其他AI编程工具（如Codex、Cursor）是否存在类似机制 |
+| 中国用户是重点标记对象，封号率显著高于其他地区 | Anthropic是否会因舆论压力调整策略 |
+| Anthropic官方尚未公开承认该系统的存在 | 国内用户是否有长期稳定的替代方案 |
+
+**📖 主编点评**
+
+如果你在用Claude Code做项目，建议准备备用方案：Cursor+本地模型或Codex。同时，关注开源替代如Continue.dev。你的content-curator项目可以考虑优先使用Cursor或Windsurf，避免依赖单一工具。
+
+📺 [打开原文](http://www.bilibili.com/video/av116844031774993)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 2. Colibrì概念验证：1.5TB参数模型仅需25GB RAM运行，本地AI推理迎来突破
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+
+Colibrì项目展示了一种新型模型压缩与推理方法，让1.5TB参数的前沿模型在仅25GB RAM和普通CPU上运行。这为个人开发者运行大模型提供了全新可能。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Colibrì概念验证成功运行1.5TB参数模型 | 推理速度是否能满足交互式应用需求 |
+| 仅需25GB RAM和普通CPU，无需高端GPU | 该方法是否适用于更广泛的模型架构 |
+| 采用新型稀疏激活和内存映射技术 | 开源实现和社区支持情况 |
+| 模型质量接近前沿水平 | 与现有量化/蒸馏技术的对比优势 |
+
+**📖 主编点评**
+
+这对你的content-curator项目是重大利好：未来可能用消费级硬件运行本地Agent模型，无需依赖云端API。建议关注Colibrì的GitHub仓库，测试其与你的工作流整合的可能性。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/colibri-proof-of-concept-gains-frontier-level-1-5-tb-ai-model-novel-approach-runs-on-only-25gb-of-ram-and-shows-promise-for-local-ai-setups)
+
+---
+
+### 3. SK Hynix创纪录265亿美元纳斯达克IPO，HBM产能扩张加速
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+
+SK Hynix以265亿美元融资成为美国史上最大外国IPO，CEO警告2027年将是内存短缺最严重的一年，短缺将持续到2030年。资金将用于HBM制造扩张。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| SK Hynix在纳斯达克IPO融资265亿美元，创外国公司记录 | HBM供应紧张是否会进一步推高AI训练成本 |
+| CEO Kwak Noh-jung预测2027年内存短缺最严重 | 三星和Micron的扩产计划能否缓解短缺 |
+| 短缺预计持续到2030年 | 中国存储厂商（长鑫、长江存储）的替代机会 |
+| 资金将用于HBM产能扩张 | 对AI初创公司算力成本的影响 |
+
+**📖 主编点评**
+
+HBM短缺意味着AI训练成本短期内不会下降。如果你计划部署大型模型，建议提前锁定云服务合同或考虑使用更高效的模型架构。同时，关注国产存储替代机会，长鑫科技IPO可能受益。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-raises-a-record-usd26-5-billion-in-historic-u-s-ipo-south-korean-memory-giant-to-fund-massive-hbm-manufacturing-expansions)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 4. Apple起诉OpenAI窃取商业秘密，指控其指导新员工携带机密信息
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+
+Apple在诉讼中指控OpenAI系统性地窃取商业秘密，包括指导新员工如何将前雇主的机密信息带入公司。这是两大AI硬件竞争对手之间的法律冲突升级。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Apple正式起诉OpenAI窃取商业秘密 | 诉讼是否会阻碍OpenAI的硬件扩张计划 |
+| 指控OpenAI指导新员工携带前雇主机密信息 | Apple的AI芯片进展是否会因此加速 |
+| 涉及Apple的AI硬件业务机密 | 对两家公司人才流动的影响 |
+| 包括Apple前员工在内的多名被告 | 是否会导致更严格的行业保密协议 |
+
+**📖 主编点评**
+
+AI人才争夺战已进入法律层面。如果你在考虑跳槽，务必注意竞业协议和保密条款。对于你的项目，关注Apple AI芯片进展可能带来新的本地推理硬件选择。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/big-tech/apple-sues-openai-over-alleged-theft-of-trade-secrets-claims-company-mentored-incoming-employees-on-bringing-confidential-information)
+
+---
+
+## 🌟 股票
+
+### 5. MSCI中国相对收益跌至25年最低，全球资金开始重新配置中国资产
+
+**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+MSCI中国相对MSCI全球的收益比值降至2001年以来最低。但全球AI交易拥挤、海外资金低配中国，以及A股硬科技价值重估，正促使资金从“是否回避中国”转向“如何重新配置中国”。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| MSCI中国相对收益跌至25年最低位 | 这是全面反转信号还是结构性重估的开始 |
+| 全球AI硬件和科技牛市未充分反映在中国指数中 | 中国AI公司（如智谱、长鑫）能否吸引全球资本 |
+| 海外资金开始考虑重新配置中国资产 | 地缘政治风险是否仍为外资主要顾虑 |
+| A股硬科技和AI价值链被重新定价 | 对个人投资者的资产配置建议 |
+
+**📖 主编点评**
+
+如果你有投资A股或港股AI标的，当前可能是布局窗口。关注长鑫科技IPO和智谱的Touch High计划，这些公司可能成为外资重新配置的受益者。
+
+📺 [打开原文](https://wallstreetcn.com/premium/articles/3776551?layout=wscn-layout)
+
+---
+
+## 📋 备选池
+
+### AI
+
+- [Anthropic声称能读取Claude的“思维”，发现内部全局工作空间](https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-it-can-read-claudes-thoughts-as-detailed-in-new-research-paper-models-observed-to-have-a-global-workspace-revealing-more-of-what-makes-llms-tick) —— Anthropic发现Claude内部存在类似人类思维的全局工作空间，可解释LLM推理过程，但距离实际应用还有距离。
+  _Tom's Hardware_
+- [Tencent据悉谈判收购Manus from Meta，北京要求解除交易](https://www.tomshardware.com/tech-industry/artificial-intelligence/tencent-is-reportedly-in-talks-to-acquire-manus-from-meta-following-beijing-intervention-company-expects-to-remain-independent-of-chinese-tech-giant) —— 腾讯正谈判以20亿美元从Meta手中收购Manus，北京此前要求双方解除交易，Manus期望保持独立。
+  _Tom's Hardware_
+- [SambaNova融资10亿美元，JPMorgan Chase成为客户](https://www.eetimes.com/sambanova-raises-1-billion-signs-jpmorganchase-as-a-customer/) —— AI芯片公司SambaNova获10亿美元融资，并签约摩根大通，企业AI市场开始启动。
+  _EE Times_
+
+### AI 算力 / 半导体
+
+- [Apple与Broadcom达成300亿美元AI芯片供应协议](https://www.eetimes.com/apples-30b-broadcom-deal-signals-expansions-in-ai-u-s-supply-chain/) —— Apple与Broadcom签署300亿美元协议，用于AI数据中心和芯片制造，可能为Intel提供转机。
+  _EE Times_
+- [三星展示3D堆叠FET晶体管，42nm间距三纳米片通道](https://semiconductor.samsung.com/news-events/tech-blog/from-gaa-to-3d-stacked-fet-expanding-the-transistor-into-the-third-dimension/) —— 三星在IEDM展示3D堆叠FET技术，42nm间距三纳米片通道，为未来晶体管架构探索新方向。
+  _Samsung_
+- [SK Hynix与TetraMem合作开发忆阻器存算一体芯片，用于边缘AI](https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-hynix-and-tetramem-collaborate-on-experimental-chip-to-bolster-energy-efficiency-for-edge-ai-devices-memristor-based-in-memory-soc-research-leaves-performance-questions-up-in-the-air) —— SK Hynix与TetraMem合作开发忆阻器存算一体SoC，能效出色但性能仍存疑。
+  _Tom's Hardware_
+- [日本Rapidus计划2027年推出2nm级晶圆，定价约2万美元](https://www.tomshardware.com/tech-industry/semiconductors/japanese-chipmaker-rapidus-to-offer-lower-wafer-pricing-than-tsmc-2nm-class-silicon-to-be-priced-around-usd20-000-on-2027-launch) —— 日本芯片制造商Rapidus计划2027年推出2nm级晶圆，定价约2万美元，低于台积电。
+  _Tom's Hardware_
+
+### 大厂 AI 动态
+
+- [Google限制Meta使用其Gemini AI模型](https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html) —— Google限制Meta使用Gemini模型，反映大厂间AI合作日益紧张。
+  _CNBC_
+- [Hugging Face CEO：企业不再租赁AI，开源模型崛起](https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/) —— Hugging Face CEO认为企业正从租赁AI转向自建和开源，平台已成长为AI领域的GitHub。
+  _TechCrunch_
+
+### 股票
+
+- [智谱创始人唐杰发布内部信：开启Touch High计划，聚焦AGI研究](https://wallstreetcn.com/articles/3776707) —— 智谱创始人唐杰表示将继续聚焦AGI研究而非短期变现，开启Touch High计划。
+  _华尔街见闻_
+- [长鑫科技冲刺科创板第二大IPO，阿里持股近5%](https://wallstreetcn.com/articles/3776703) —— 长鑫科技IPO募资295亿元，阿里巴巴持股近5%，双方深度绑定算存一体化产业链。
+  _华尔街见闻_
+- [中国限制氦气出口，半导体供应链保卫战升级](https://wallstreetcn.com/premium/articles/3776711?layout=wscn-layout) —— 中国宣布限制氦气出口，氦气作为先进制程和HBM关键材料，供应链风险上升。
+  _华尔街见闻_
+- [美银Hartnett：日本银行股是全球避险情绪领先指标，下半年有四大逆向交易机会](https://wallstreetcn.com/articles/3776713) —— 美银策略师警告市场存在四个不共识，日本银行股可作为风险偏好预警指标。
+  _华尔街见闻_
+- [全球市场步入动荡之夏：警惕美联储变局、日元危机和财报季大考](https://wallstreetcn.com/articles/3776706) —— 美联储新主席减少前瞻指引、日元跌破162、美股Q2财报预期过高，市场波动性上升。
+  _华尔街见闻_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。

@@ -1,206 +1,225 @@
 {
-  "date": "2026-07-11",
-  "intro": "今日核心信号：SK海力士以265亿美元创美国史上最大外国IPO，首日涨13%，CEO警告2027年将现最严重存储芯片短缺；苹果起诉OpenAI窃取硬件商业机密，硅谷巨头反目。AI通胀效应开始显现，高盛测算年底前或推高核心PCE 0.5个百分点。",
+  "date": "2026-07-12",
+  "intro": "本周AI编程工具格局生变：Claude Code封号事件曝光Anthropic的隐蔽用户标记系统，同时Colibrì以25GB RAM运行1.5TB模型，为本地AI推理开辟新路径。半导体领域SK Hynix创纪录IPO和Apple起诉OpenAI泄露商业秘密，显示AI军备竞赛已进入法律与资本层面。全球资金开始重新配置中国资产，MSCI中国处于25年低位，但AI硬件链和国产替代正被重新定价。",
   "headlines": [
     {
       "rank": 1,
+      "domain": "AI",
+      "id": "bvid:BV1VDTv6rEtM",
+      "url": "http://www.bilibili.com/video/av116844031774993",
+      "source": "程序员鱼皮",
+      "stars": 5,
+      "title": "Claude Code封号原因曝光：Anthropic植入隐形用户标记系统，中国用户成重点目标",
+      "lead": "国外开发者逆向Claude Code源码发现，Anthropic在客户端中隐藏了一套用户标记系统，可识别并限制特定地区用户。程序员鱼皮还原了整个封号事件链，并给出国内用户的应对建议。",
+      "confirmed": [
+        "国外开发者逆向Claude Code源码，发现隐蔽的用户标记系统",
+        "该系统可识别用户地理位置并实施差异化限制",
+        "中国用户是重点标记对象，封号率显著高于其他地区",
+        "Anthropic官方尚未公开承认该系统的存在"
+      ],
+      "judgment": [
+        "该标记系统是否仅用于合规目的（如出口管制）还是更广泛的监控",
+        "其他AI编程工具（如Codex、Cursor）是否存在类似机制",
+        "Anthropic是否会因舆论压力调整策略",
+        "国内用户是否有长期稳定的替代方案"
+      ],
+      "implication": "如果你在用Claude Code做项目，建议准备备用方案：Cursor+本地模型或Codex。同时，关注开源替代如Continue.dev。你的content-curator项目可以考虑优先使用Cursor或Windsurf，避免依赖单一工具。"
+    },
+    {
+      "rank": 2,
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/colibri-proof-of-concept-gains-frontier-level-1-5-tb-ai-model-novel-approach-runs-on-only-25gb-of-ram-and-shows-promise-for-local-ai-setups",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/colibri-proof-of-concept-gains-frontier-level-1-5-tb-ai-model-novel-approach-runs-on-only-25gb-of-ram-and-shows-promise-for-local-ai-setups",
+      "source": "Tom's Hardware",
+      "stars": 5,
+      "title": "Colibrì概念验证：1.5TB参数模型仅需25GB RAM运行，本地AI推理迎来突破",
+      "lead": "Colibrì项目展示了一种新型模型压缩与推理方法，让1.5TB参数的前沿模型在仅25GB RAM和普通CPU上运行。这为个人开发者运行大模型提供了全新可能。",
+      "confirmed": [
+        "Colibrì概念验证成功运行1.5TB参数模型",
+        "仅需25GB RAM和普通CPU，无需高端GPU",
+        "采用新型稀疏激活和内存映射技术",
+        "模型质量接近前沿水平"
+      ],
+      "judgment": [
+        "推理速度是否能满足交互式应用需求",
+        "该方法是否适用于更广泛的模型架构",
+        "开源实现和社区支持情况",
+        "与现有量化/蒸馏技术的对比优势"
+      ],
+      "implication": "这对你的content-curator项目是重大利好：未来可能用消费级硬件运行本地Agent模型，无需依赖云端API。建议关注Colibrì的GitHub仓库，测试其与你的工作流整合的可能性。"
+    },
+    {
+      "rank": 3,
       "domain": "AI 算力 / 半导体",
       "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-raises-a-record-usd26-5-billion-in-historic-u-s-ipo-south-korean-memory-giant-to-fund-massive-hbm-manufacturing-expansions",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-raises-a-record-usd26-5-billion-in-historic-u-s-ipo-south-korean-memory-giant-to-fund-massive-hbm-manufacturing-expansions",
       "source": "Tom's Hardware",
       "stars": 5,
-      "title": "SK海力士265亿美元创美国史上最大外国IPO，CEO预警2027年最严重存储芯片短缺",
-      "lead": "SK海力士ADR在纳斯达克首日收涨13%，融资265亿美元刷新阿里纪录。CEO Kwak Noh-Jung称2027年将现史上最严重存储芯片短缺，供不应求或持续至2030年后。SK集团同时提出'内存即服务'新模式，允许客户租用HBM。",
+      "title": "SK Hynix创纪录265亿美元纳斯达克IPO，HBM产能扩张加速",
+      "lead": "SK Hynix以265亿美元融资成为美国史上最大外国IPO，CEO警告2027年将是内存短缺最严重的一年，短缺将持续到2030年。资金将用于HBM制造扩张。",
       "confirmed": [
-        "SK海力士ADR发行近1.8亿份，融资265亿美元，为美国史上最大外国IPO",
-        "首日开盘涨14%，盘中一度涨近19%，收涨13%",
-        "三家基石投资者合计获配50亿美元ADR",
-        "CEO称2027年将是最严重存储芯片短缺年份，供不应求持续至2030年后"
+        "SK Hynix在纳斯达克IPO融资265亿美元，创外国公司记录",
+        "CEO Kwak Noh-jung预测2027年内存短缺最严重",
+        "短缺预计持续到2030年",
+        "资金将用于HBM产能扩张"
       ],
       "judgment": [
-        "SK集团考虑若股价稳定则增发更多ADR，但市场承接力待观察",
-        "'内存即服务'新商业模式能否被大型云客户接受尚不确定",
-        "存储芯片短缺预期已部分反映在股价中，实际供需缺口可能小于预期"
+        "HBM供应紧张是否会进一步推高AI训练成本",
+        "三星和Micron的扩产计划能否缓解短缺",
+        "中国存储厂商（长鑫、长江存储）的替代机会",
+        "对AI初创公司算力成本的影响"
       ],
-      "implication": "你应该关注HBM供应链的长期紧张格局。SK海力士的IPO和产能扩张计划直接关系到AI训练/推理的算力成本。如果你在做AI Agent项目，未来内存成本可能持续走高，建议提前评估模型部署的存储开销，并关注国产替代方案（如长鑫存储）的进展。"
-    },
-    {
-      "rank": 2,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
-      "url": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
-      "source": "The Verge",
-      "stars": 5,
-      "title": "苹果起诉OpenAI窃取硬件商业机密，要求销毁涉密资料并重设计AI硬件",
-      "lead": "苹果指控OpenAI蓄意策动前苹果员工（现任OpenAI首席硬件官Tang Tan）泄露未发布产品信息，用于其AI硬件自研计划。苹果要求OpenAI销毁所有涉案材料并重新设计产品。OpenAI回应称对其他公司的商业秘密没兴趣。",
-      "confirmed": [
-        "苹果在加州联邦法院提起诉讼，指控OpenAI窃取硬件商业机密",
-        "核心被告包括现任OpenAI首席硬件官Tang Tan（前苹果产品设计副总裁）",
-        "苹果要求OpenAI销毁所有涉案资料并重新设计产品",
-        "OpenAI回应称对其他公司的商业秘密没兴趣"
-      ],
-      "judgment": [
-        "诉讼可能长期化，但苹果更可能寻求和解而非彻底禁售OpenAI产品",
-        "Tang Tan在OpenAI的硬件项目（传闻中的AI芯片）可能被迫调整路线",
-        "此案可能影响硅谷人才流动规则，其他大厂或收紧竞业条款"
-      ],
-      "implication": "硅谷巨头之间的'人才+技术'摩擦正在升级。如果你在考虑加入AI硬件创业公司，需要警惕竞业风险。对于你的content-curator项目，短期内无需担心，但长期看OpenAI的硬件自研进度可能受阻，依赖其API的开发者应关注模型服务稳定性。"
-    },
-    {
-      "rank": 3,
-      "domain": "股票",
-      "id": "wscn:3776689",
-      "url": "https://wallstreetcn.com/articles/3776689",
-      "source": "华尔街见闻",
-      "stars": 4,
-      "title": "高盛测算：AI驱动的内存、电力和软件涨价年底或推高核心PCE 0.5个百分点",
-      "lead": "高盛最新报告指出，AI热潮已通过三条路径推高通胀：内存价格暴涨、软件提价、电费攀升。目前这三项已推高核心PCE逾0.2个百分点，预计年底贡献将升至0.5个百分点。多数美联储官员认为AI相关需求强劲可能导致通胀持续高企。",
-      "confirmed": [
-        "高盛测算AI相关涨价已推高核心PCE超0.2个百分点",
-        "预计至年底贡献将升至0.5个百分点",
-        "三条路径：内存价格暴涨、软件提价、电费攀升",
-        "多数美联储官员认为AI需求可能导致通胀持续高企"
-      ],
-      "judgment": [
-        "0.5个百分点的估算尚未完全覆盖溢出效应，实际冲击可能更大",
-        "AI通胀效应可能迫使美联储推迟降息，进而影响科技股估值",
-        "内存涨价已传导至终端产品，但软件提价是否可持续存疑"
-      ],
-      "implication": "AI正在从'技术故事'变成'宏观变量'。如果你持有科技股或加密货币，需警惕通胀预期升温带来的流动性收紧。对于你的Side Project，建议优先使用按需付费的API而非自建推理集群，以规避硬件成本上涨风险。"
+      "implication": "HBM短缺意味着AI训练成本短期内不会下降。如果你计划部署大型模型，建议提前锁定云服务合同或考虑使用更高效的模型架构。同时，关注国产存储替代机会，长鑫科技IPO可能受益。"
     },
     {
       "rank": 4,
-      "domain": "AI",
-      "id": "bvid:BV1SRM86xEPE",
-      "url": "http://www.bilibili.com/video/av116879800665673",
-      "source": "Git源宝",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/apple-sues-openai-over-alleged-theft-of-trade-secrets-claims-company-mentored-incoming-employees-on-bringing-confidential-information",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/apple-sues-openai-over-alleged-theft-of-trade-secrets-claims-company-mentored-incoming-employees-on-bringing-confidential-information",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "Vibe Coding零基础实战教程：从开荒到做出第一个项目（附完整文档）",
-      "lead": "B站最新发布的Vibe Coding教程，从安装Cursor/Claude Code到完成第一个可部署项目，全程实操。适合想快速上手AI编程但缺乏经验的开发者。教程附带完整文档和源码，覆盖从环境配置到部署的全流程。",
+      "title": "Apple起诉OpenAI窃取商业秘密，指控其指导新员工携带机密信息",
+      "lead": "Apple在诉讼中指控OpenAI系统性地窃取商业秘密，包括指导新员工如何将前雇主的机密信息带入公司。这是两大AI硬件竞争对手之间的法律冲突升级。",
       "confirmed": [
-        "教程发布于2026年7月8日，时效性强",
-        "覆盖Cursor和Claude Code两款主流AI编程工具",
-        "包含从零到部署的完整项目流程",
-        "提供配套文档和源码下载"
+        "Apple正式起诉OpenAI窃取商业秘密",
+        "指控OpenAI指导新员工携带前雇主机密信息",
+        "涉及Apple的AI硬件业务机密",
+        "包括Apple前员工在内的多名被告"
       ],
       "judgment": [
-        "教程深度可能不及官方文档，但胜在中文+实操",
-        "适合零基础入门，但高级技巧需要额外补充",
-        "依赖的工具版本可能快速迭代，教程需及时更新"
+        "诉讼是否会阻碍OpenAI的硬件扩张计划",
+        "Apple的AI芯片进展是否会因此加速",
+        "对两家公司人才流动的影响",
+        "是否会导致更严格的行业保密协议"
       ],
-      "implication": "如果你正在做content-curator项目，Vibe Coding可以大幅提升开发效率。建议先看这个教程快速上手，然后结合Claude Code的官方文档深入。记住：AI编程工具的核心优势是快速原型，但代码质量仍需人工审查。"
+      "implication": "AI人才争夺战已进入法律层面。如果你在考虑跳槽，务必注意竞业协议和保密条款。对于你的项目，关注Apple AI芯片进展可能带来新的本地推理硬件选择。"
     },
     {
       "rank": 5,
-      "domain": "AI 算力 / 半导体",
-      "id": "hn:48730713",
-      "url": "https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/",
-      "source": "Hacker News",
+      "domain": "股票",
+      "id": "wscn:3776551",
+      "url": "https://wallstreetcn.com/premium/articles/3776551?layout=wscn-layout",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "Zluda 6发布：在非NVIDIA GPU上运行未修改的CUDA应用",
-      "lead": "Zluda 6正式发布，允许在AMD、Intel等非NVIDIA GPU上直接运行未经修改的CUDA程序。这一突破性进展可能打破NVIDIA在AI训练/推理领域的硬件垄断，降低开发者对特定硬件的依赖。",
+      "title": "MSCI中国相对收益跌至25年最低，全球资金开始重新配置中国资产",
+      "lead": "MSCI中国相对MSCI全球的收益比值降至2001年以来最低。但全球AI交易拥挤、海外资金低配中国，以及A股硬科技价值重估，正促使资金从“是否回避中国”转向“如何重新配置中国”。",
       "confirmed": [
-        "Zluda 6支持在非NVIDIA GPU上运行未修改的CUDA应用",
-        "兼容AMD RDNA3和Intel Arc系列GPU",
-        "性能接近原生CUDA的80-90%（官方数据）",
-        "开源项目，GitHub已发布"
+        "MSCI中国相对收益跌至25年最低位",
+        "全球AI硬件和科技牛市未充分反映在中国指数中",
+        "海外资金开始考虑重新配置中国资产",
+        "A股硬科技和AI价值链被重新定价"
       ],
       "judgment": [
-        "企业级部署仍需验证稳定性和兼容性",
-        "NVIDIA可能通过法律或技术手段反制",
-        "对个人开发者和小团队是重大利好，可降低硬件成本"
+        "这是全面反转信号还是结构性重估的开始",
+        "中国AI公司（如智谱、长鑫）能否吸引全球资本",
+        "地缘政治风险是否仍为外资主要顾虑",
+        "对个人投资者的资产配置建议"
       ],
-      "implication": "Zluda 6对你的意义：如果你在content-curator项目中需要本地跑模型推理，现在可以用更便宜的AMD显卡替代NVIDIA。建议在测试环境中试用Zluda，评估性能是否满足需求。长期看，CUDA生态的垄断被打破将利好整个AI开源社区。"
+      "implication": "如果你有投资A股或港股AI标的，当前可能是布局窗口。关注长鑫科技IPO和智谱的Touch High计划，这些公司可能成为外资重新配置的受益者。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Anthropic声称能读取Claude的'思想'：发现内部全局工作空间",
+      "domain": "AI",
+      "title": "Anthropic声称能读取Claude的“思维”，发现内部全局工作空间",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-it-can-read-claudes-thoughts-as-detailed-in-new-research-paper-models-observed-to-have-a-global-workspace-revealing-more-of-what-makes-llms-tick",
       "source": "Tom's Hardware",
-      "one_liner": "Anthropic发现Claude内部存在类似人类全局工作空间的'J-space'，可解释性研究取得突破，但距离实际应用尚远。"
+      "one_liner": "Anthropic发现Claude内部存在类似人类思维的全局工作空间，可解释LLM推理过程，但距离实际应用还有距离。"
+    },
+    {
+      "domain": "AI",
+      "title": "Tencent据悉谈判收购Manus from Meta，北京要求解除交易",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tencent-is-reportedly-in-talks-to-acquire-manus-from-meta-following-beijing-intervention-company-expects-to-remain-independent-of-chinese-tech-giant",
+      "source": "Tom's Hardware",
+      "one_liner": "腾讯正谈判以20亿美元从Meta手中收购Manus，北京此前要求双方解除交易，Manus期望保持独立。"
+    },
+    {
+      "domain": "AI",
+      "title": "SambaNova融资10亿美元，JPMorgan Chase成为客户",
+      "url": "https://www.eetimes.com/sambanova-raises-1-billion-signs-jpmorganchase-as-a-customer/",
+      "source": "EE Times",
+      "one_liner": "AI芯片公司SambaNova获10亿美元融资，并签约摩根大通，企业AI市场开始启动。"
     },
     {
       "domain": "AI 算力 / 半导体",
       "title": "Apple与Broadcom达成300亿美元AI芯片供应协议",
       "url": "https://www.eetimes.com/apples-30b-broadcom-deal-signals-expansions-in-ai-u-s-supply-chain/",
       "source": "EE Times",
-      "one_liner": "Apple向Broadcom采购300亿美元AI芯片组件，加速美国本土供应链建设，可能为Intel带来转机。"
+      "one_liner": "Apple与Broadcom签署300亿美元协议，用于AI数据中心和芯片制造，可能为Intel提供转机。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "三星展示3D堆叠FET晶体管：42nm间距三纳米片通道",
+      "title": "三星展示3D堆叠FET晶体管，42nm间距三纳米片通道",
       "url": "https://semiconductor.samsung.com/news-events/tech-blog/from-gaa-to-3d-stacked-fet-expanding-the-transistor-into-the-third-dimension/",
       "source": "Samsung",
-      "one_liner": "三星在IEDM展示3D堆叠FET技术，将晶体管扩展到第三维度，有望突破传统微缩瓶颈。"
+      "one_liner": "三星在IEDM展示3D堆叠FET技术，42nm间距三纳米片通道，为未来晶体管架构探索新方向。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "SK海力士与TetraMem合作开发忆阻器存内计算SoC",
+      "title": "SK Hynix与TetraMem合作开发忆阻器存算一体芯片，用于边缘AI",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-hynix-and-tetramem-collaborate-on-experimental-chip-to-bolster-energy-efficiency-for-edge-ai-devices-memristor-based-in-memory-soc-research-leaves-performance-questions-up-in-the-air",
       "source": "Tom's Hardware",
-      "one_liner": "SK海力士联合开发忆阻器存内计算芯片，能效提升显著但性能表现存疑，边缘AI场景值得关注。"
+      "one_liner": "SK Hynix与TetraMem合作开发忆阻器存算一体SoC，能效出色但性能仍存疑。"
     },
     {
       "domain": "AI 算力 / 半导体",
       "title": "日本Rapidus计划2027年推出2nm级晶圆，定价约2万美元",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/japanese-chipmaker-rapidus-to-offer-lower-wafer-pricing-than-tsmc-2nm-class-silicon-to-be-priced-around-usd20-000-on-2027-launch",
       "source": "Tom's Hardware",
-      "one_liner": "Rapidus以低于台积电的价格策略切入2nm市场，日本半导体复兴计划迈出关键一步。"
+      "one_liner": "日本芯片制造商Rapidus计划2027年推出2nm级晶圆，定价约2万美元，低于台积电。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Meta关闭Instagram AI深度伪造功能：用户可基于公开账户生成图片",
-      "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-      "source": "The Verge",
-      "one_liner": "Meta因强烈反对关闭'AI Muse'功能，该功能允许用户基于公开Instagram账户生成AI图片，引发隐私争议。"
+      "title": "Google限制Meta使用其Gemini AI模型",
+      "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+      "source": "CNBC",
+      "one_liner": "Google限制Meta使用Gemini模型，反映大厂间AI合作日益紧张。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "OpenAI二号人物Fidji Simo因医疗休假延长而离职",
-      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+      "title": "Hugging Face CEO：企业不再租赁AI，开源模型崛起",
+      "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
       "source": "TechCrunch",
-      "one_liner": "OpenAI首席运营官Fidji Simo在医疗休假后正式离职，领导层真空可能影响公司IPO进程。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Kimi K2.7代码模型正式登陆GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
-      "source": "GitHub",
-      "one_liner": "月之暗面Kimi K2.7代码模型集成至GitHub Copilot，国产AI编程工具首次进入主流开发者平台。"
+      "one_liner": "Hugging Face CEO认为企业正从租赁AI转向自建和开源，平台已成长为AI领域的GitHub。"
     },
     {
       "domain": "股票",
-      "title": "Meta单周大涨15%：AI模型性能超越Gemini，自研芯片Iris 9月量产",
-      "url": "https://wallstreetcn.com/articles/3776692",
+      "title": "智谱创始人唐杰发布内部信：开启Touch High计划，聚焦AGI研究",
+      "url": "https://wallstreetcn.com/articles/3776707",
       "source": "华尔街见闻",
-      "one_liner": "Meta多重AI利好推动股价创2024年2月以来最佳周表现，SemiAnalysis预测其半年内AI能力超越谷歌。"
+      "one_liner": "智谱创始人唐杰表示将继续聚焦AGI研究而非短期变现，开启Touch High计划。"
     },
     {
       "domain": "股票",
-      "title": "硅谷巨头疯狂举债2700亿美元，债券市场抛售信号明显",
-      "url": "https://wallstreetcn.com/articles/3776690",
+      "title": "长鑫科技冲刺科创板第二大IPO，阿里持股近5%",
+      "url": "https://wallstreetcn.com/articles/3776703",
       "source": "华尔街见闻",
-      "one_liner": "AI相关债券今年发行规模达2700亿美元，供给过剩压垮需求，市场对AI资本支出长期回报存疑。"
+      "one_liner": "长鑫科技IPO募资295亿元，阿里巴巴持股近5%，双方深度绑定算存一体化产业链。"
     },
     {
       "domain": "股票",
-      "title": "大摩警告：芯片制造商定价权承压，AI资本开支开始放缓",
-      "url": "https://wallstreetcn.com/articles/3776686",
+      "title": "中国限制氦气出口，半导体供应链保卫战升级",
+      "url": "https://wallstreetcn.com/premium/articles/3776711?layout=wscn-layout",
       "source": "华尔街见闻",
-      "one_liner": "摩根士丹利指出超大规模云厂商自研芯片侵蚀传统芯片商定价权，半导体板块已'明显超买'。"
+      "one_liner": "中国宣布限制氦气出口，氦气作为先进制程和HBM关键材料，供应链风险上升。"
     },
     {
-      "domain": "金融",
-      "title": "欧盟威胁Meta：不关闭自动播放和无限滚动将面临巨额罚款",
-      "url": "https://arstechnica.com/tech-policy/2026/07/disable-auto-play-and-infinite-scroll-or-risk-massive-fines-eu-tells-meta/",
-      "source": "Ars Technica",
-      "one_liner": "欧盟依据数字服务法要求Meta移除成瘾性功能，否则面临巨额罚款，可能改变社交平台产品形态。"
+      "domain": "股票",
+      "title": "美银Hartnett：日本银行股是全球避险情绪领先指标，下半年有四大逆向交易机会",
+      "url": "https://wallstreetcn.com/articles/3776713",
+      "source": "华尔街见闻",
+      "one_liner": "美银策略师警告市场存在四个不共识，日本银行股可作为风险偏好预警指标。"
+    },
+    {
+      "domain": "股票",
+      "title": "全球市场步入动荡之夏：警惕美联储变局、日元危机和财报季大考",
+      "url": "https://wallstreetcn.com/articles/3776706",
+      "source": "华尔街见闻",
+      "one_liner": "美联储新主席减少前瞻指引、日元跌破162、美股Q2财报预期过高，市场波动性上升。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-11T07:14:33+0000"
+    "scored_at": "2026-07-12T06:27:23+0000"
   }
 }
