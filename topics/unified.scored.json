@@ -1,237 +1,199 @@
 {
-  "date": "2026-07-12",
-  "intro": "本周最值得关注的信号：SK海力士创纪录IPO（$26.5B）和Apple诉OpenAI窃密案，标志着AI硬件与人才争夺战同时升级。同时，Anthropic首次揭示Claude内部\"思维空间\"，Colibrì用25GB RAM跑1.5TB模型——本地AI推理正在突破算力边界。",
+  "date": "2026-07-13",
+  "intro": "今日市场剧烈震荡：中东战事引发韩股暴跌9%触发熔断，SK海力士重挫14%，存储芯片恐慌蔓延至A股。同时，SK海力士CEO警告2027年将现史上最严重存储短缺，台积电6月营收同比暴增67.9%创纪录。AI硬件投资狂热与地缘风险交织，产业链利润正从上游算力向下游应用迁移。",
   "headlines": [
     {
       "rank": 1,
+      "domain": "股票",
+      "id": "wscn:3776754",
+      "url": "https://wallstreetcn.com/articles/3776754",
+      "source": "华尔街见闻",
+      "stars": 5,
+      "title": "中东战事搅动全球市场：韩股暴跌9%触发熔断，SK海力士重挫14%，存储芯片恐慌蔓延",
+      "lead": "伊朗冲突升级引发全球风险资产抛售。韩国KOSPI指数日内跌超9%，触发熔断；SK海力士跌14.5%，三星电子跌11%。纳斯达克100期货下跌1.3%，欧洲股市期货同步走低。黄金下跌1.3%至4065美元，白银跌近3%。",
+      "confirmed": [
+        "韩国KOSPI指数日内一度跌超9%，触发熔断机制暂停交易20分钟",
+        "SK海力士跌14.5%，三星电子跌11%",
+        "纳斯达克100指数期货下跌1.3%",
+        "黄金下跌1.3%至约4065美元/盎司，白银跌幅接近3%"
+      ],
+      "judgment": [
+        "冲突持续时间和油价走势仍不确定，高盛认为通胀传导效应将在三四季度减弱",
+        "韩股熔断后能否企稳取决于地缘局势演变",
+        "存储芯片板块恐慌是否过度——SK海力士基本面（HBM供不应求）与股价背离"
+      ],
+      "implication": "你正在做的content-curator项目如果涉及金融数据聚合，今天的事件是绝佳的实时行情抓取+情绪分析案例。建议关注韩股熔断机制触发条件、存储芯片板块的恐慌指数，这些数据可以作为你Agent系统的信号源。另外，你的个人投资组合如果持有半导体相关资产，短期波动不可避免，但SK海力士CEO对2027年短缺的警告意味着中长期逻辑未变。"
+    },
+    {
+      "rank": 2,
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/pc-components/dram/sk-hynix-says-2027-will-be-the-worst-year-for-memory-shortage-forecasts-crunch-to-last-until-2030-ceo-shares-grim-outlook-on-the-day-sk-hynix-gets-listed-on-nasdaq",
+      "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-says-2027-will-be-the-worst-year-for-memory-shortage-forecasts-crunch-to-last-until-2030-ceo-shares-grim-outlook-on-the-day-sk-hynix-gets-listed-on-nasdaq",
+      "source": "Tom's Hardware",
+      "stars": 5,
+      "title": "SK海力士CEO：2027年将成存储史上最严重短缺年，供需紧张持续到2030年",
+      "lead": "SK海力士CEO Kwak Noh-jung在纳斯达克上市当天发出警告：2027年将是存储行业历史上供应最紧张的一年，短缺将持续到2030年。公司同日完成265亿美元创纪录IPO，将用于HBM产能扩张。",
+      "confirmed": [
+        "SK海力士CEO明确表示2027年将是存储行业历史上供应最紧张的一年",
+        "短缺预计持续到2030年",
+        "公司通过纳斯达克IPO筹集265亿美元，创美国史上最大IPO纪录",
+        "资金将用于HBM（高带宽内存）制造扩张"
+      ],
+      "judgment": [
+        "短缺程度是否如CEO所言'史上最严重'，需观察三星、美光等竞争对手的扩产节奏",
+        "HBM需求能否持续高增长——AI训练/推理需求增速可能放缓",
+        "265亿美元IPO资金能否有效转化为产能，建设周期存在不确定性"
+      ],
+      "implication": "这对你的content-curator项目是个信号：存储芯片供需是未来2-3年AI硬件投资的核心变量。建议在你的Agent中加入SK海力士、三星、美光的产能动态跟踪。如果你在做AI编程工具（Claude Code/Cursor）的Side Project，HBM短缺可能影响云端推理成本，进而影响你选择模型和部署策略。"
+    },
+    {
+      "rank": 3,
       "domain": "AI 算力 / 半导体",
       "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-raises-a-record-usd26-5-billion-in-historic-u-s-ipo-south-korean-memory-giant-to-fund-massive-hbm-manufacturing-expansions",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-raises-a-record-usd26-5-billion-in-historic-u-s-ipo-south-korean-memory-giant-to-fund-massive-hbm-manufacturing-expansions",
       "source": "Tom's Hardware",
       "stars": 5,
-      "title": "SK海力士创纪录IPO募资265亿美元，HBM扩产与内存短缺预警同步释放",
-      "lead": "SK海力士在纳斯达克完成史上最大外国公司IPO，募资265亿美元。CEO同日警告2027年将是内存短缺最严重的一年，短缺可能持续到2030年。这笔资金将用于HBM制造扩张，直接服务于AI训练/推理需求。",
+      "title": "SK海力士纳斯达克IPO募资265亿美元创纪录，全力扩产HBM",
+      "lead": "SK海力士在纳斯达克上市，以265亿美元融资额刷新美国IPO历史纪录。公司计划将资金投入HBM制造扩张，以满足AI芯片对高带宽内存的爆发式需求。同日CEO警告2027年将出现史上最严重存储短缺。",
       "confirmed": [
-        "SK海力士IPO募资265亿美元，为美股史上最大外国公司IPO",
-        "CEO Kwak Noh-jung在上市日公开表示2027年将是内存短缺最严重的一年",
-        "短缺预计持续到2030年，HBM产能已全部售罄",
-        "资金将用于新建HBM产线和先进封装设施"
+        "SK海力士IPO募资265亿美元，为美国史上最大IPO",
+        "资金将用于HBM制造设施扩张",
+        "公司HBM产能已售罄至2027年",
+        "同日CEO发出存储短缺警告"
       ],
       "judgment": [
-        "265亿美元能否转化为足够的HBM产能增量，仍取决于良率和设备交期",
-        "三星、美光同步扩产，2027年供需格局可能比预期更复杂",
-        "中国存储厂商（长鑫、长江存储）的国产替代进度是潜在变量",
-        "AI推理需求爆发是否持续拉动HBM，还是转向其他内存架构，尚不明朗",
-        "美国要求SK海力士在美建厂的政治压力可能增加资本开支"
+        "265亿美元能否满足扩产需求——建设先进封装厂成本极高",
+        "HBM价格是否会在2027年前出现拐点",
+        "美国本土建厂（受特朗普政府施压）可能增加成本"
       ],
-      "implication": "你正在做的content-curator项目如果涉及本地AI推理，HBM短缺意味着GPU成本短期不会下降。建议关注HBM替代方案（如Colibrì的CPU-only推理），同时留意长鑫科技科创板IPO——它可能是国产存储替代的关键标的。"
-    },
-    {
-      "rank": 2,
-      "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-it-can-read-claudes-thoughts-as-detailed-in-new-research-paper-models-observed-to-have-a-global-workspace-revealing-more-of-what-makes-llms-tick",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-it-can-read-claudes-thoughts-as-detailed-in-new-research-paper-models-observed-to-have-a-global-workspace-revealing-more-of-what-makes-llms-tick",
-      "source": "Tom's Hardware",
-      "stars": 4,
-      "title": "Anthropic发现Claude内部\"全局工作空间\"，首次实现模型思维过程可观测",
-      "lead": "Anthropic发表新论文，声称发现了Claude模型内部的\"J-space\"——一个类似人类全局工作空间的表征区域。通过分析这个空间，研究人员可以观察到模型在生成回答前的\"思考\"过程。这是可解释性研究的重要突破，可能影响未来模型安全和对齐方法。",
-      "confirmed": [
-        "Anthropic在Claude模型中识别出一个称为\"J-space\"的内部表征区域",
-        "该区域表现出类似人类全局工作空间的特性，整合多模态信息",
-        "通过分析J-space，可以预测模型即将输出的内容",
-        "论文已公开，技术细节可复现"
-      ],
-      "judgment": [
-        "Anthropic将内部表征称为\"思维\"存在拟人化风险，实际机制仍需验证",
-        "J-space的发现是否适用于其他架构（如MoE模型）尚未证实",
-        "该技术能否用于实时监控模型安全性，还是仅限研究用途",
-        "OpenAI、Google等可能已有类似发现但未公开",
-        "对Agent开发的影响：未来可能通过内部状态监控来调试Agent行为"
-      ],
-      "implication": "如果你在做Agent项目，这个发现意味着未来可能通过模型内部状态来调试Agent的决策过程，而不是仅靠输入输出。建议关注Anthropic后续是否开放相关API或工具，这可能是构建更可控Agent的关键基础设施。"
-    },
-    {
-      "rank": 3,
-      "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/colibri-proof-of-concept-gains-frontier-level-1-5-tb-ai-model-novel-approach-runs-on-only-25gb-of-ram-and-shows-promise-for-local-ai-setups",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/colibri-proof-of-concept-gains-frontier-level-1-5-tb-ai-model-novel-approach-runs-on-only-25gb-of-ram-and-shows-promise-for-local-ai-setups",
-      "source": "Tom's Hardware",
-      "stars": 4,
-      "title": "Colibrì概念验证：1.5TB参数模型仅需25GB内存运行，本地AI推理迎来突破",
-      "lead": "Colibrì项目展示了一种新型模型压缩和推理方法，让1.5TB参数的frontier级模型在仅25GB RAM的普通CPU上运行。这打破了\"大模型必须高端GPU\"的假设，对个人开发者和小型团队意义重大。",
-      "confirmed": [
-        "Colibrì成功运行1.5TB参数模型，仅需25GB RAM",
-        "推理在普通CPU上完成，无需高端GPU",
-        "方法基于新型稀疏化和量化技术，非传统蒸馏",
-        "项目已开源，代码和论文可获取"
-      ],
-      "judgment": [
-        "1.5TB是原始模型大小，实际有效参数可能远小于此",
-        "推理速度尚未公布，可能远慢于GPU方案",
-        "是否支持所有模型架构，还是仅限特定类型",
-        "生产环境稳定性未验证，目前为概念验证阶段",
-        "对Agent项目：如果推理速度可接受，将极大降低本地Agent部署成本"
-      ],
-      "implication": "这对你的content-curator项目是重大利好——如果你计划在本地运行AI模型进行内容处理，Colibrì的方法可能让你用普通笔记本就能跑前沿模型。建议关注其推理延迟数据，如果延迟在可接受范围内，可以尝试集成到你的Agent工作流中。"
+      "implication": "这是AI硬件军备竞赛的标志性事件。你如果关注AI工程实践，HBM的供应状况直接影响你使用Claude Code等工具时的推理成本和可用性。建议在你的Agent中跟踪HBM价格指数和产能利用率，这些数据对评估AI应用部署成本很有价值。"
     },
     {
       "rank": 4,
       "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/apple-sues-openai-over-alleged-theft-of-trade-secrets-claims-company-mentored-incoming-employees-on-bringing-confidential-information",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/apple-sues-openai-over-alleged-theft-of-trade-secrets-claims-company-mentored-incoming-employees-on-bringing-confidential-information",
-      "source": "Tom's Hardware",
+      "id": "bvid:BV1KDNA6eEgr",
+      "url": "http://www.bilibili.com/video/av116901594337479",
+      "source": "网络小白_Uncle城",
       "stars": 4,
-      "title": "Apple起诉OpenAI窃取商业机密，指控其系统性引导员工携带前雇主机密",
-      "lead": "Apple在加州联邦法院起诉OpenAI，指控其有计划地招募Apple员工并鼓励他们携带机密信息。诉讼特别提到OpenAI高管指导新员工如何规避保密协议。这是AI人才争夺战升级的标志性事件。",
+      "title": "Claude Code暗藏监控后门：Unicode隐写+时区检测专门标记中国用户",
+      "lead": "Reddit用户逆向Claude Code源码发现一套隐藏的检测代码：每次AI请求用肉眼无法分辨的Unicode字符标记用户是否来自中国。后门从4月2日运行到6月30日被发现，持续三个月。工信部已发布安全风险提示。",
       "confirmed": [
-        "Apple在加州联邦法院正式起诉OpenAI",
-        "指控OpenAI系统性招募Apple员工并获取商业机密",
-        "诉讼称OpenAI高管指导员工如何规避前雇主保密协议",
-        "涉及Apple的AI硬件和芯片设计机密"
+        "逆向发现Claude Code客户端包含用户标记系统",
+        "使用Unicode隐写术（U+0027→U+2019/U+02BC/U+02B9）标记中国用户",
+        "检测机制包括时区检测和147条加密域名黑名单（XOR key=91）",
+        "后门从4月2日运行至6月30日被发现",
+        "工信部NVDB已发布Claude Code防范提示"
       ],
       "judgment": [
-        "案件可能持续数年，短期内不会影响OpenAI运营",
-        "Apple自身也在招募OpenAI人才，双方均有动机",
-        "诉讼可能促使更多公司加强员工竞业限制",
-        "对AI行业人才流动的影响：可能推高合规成本",
-        "政治因素：Trump政府可能干预此类诉讼"
+        "Anthropic是否故意为之——官方尚未回应",
+        "其他AI编程工具（Cursor、Codex）是否存在类似后门",
+        "对中国用户的实际影响——是否导致封号或数据泄露"
       ],
-      "implication": "如果你考虑加入AI公司，建议仔细审查竞业协议和保密条款。这个案例表明，AI人才流动正成为法律战场。对于你的项目，短期内无需担心，但长期看可能影响开源模型的可用性。"
-    },
-    {
-      "rank": 5,
-      "domain": "股票",
-      "id": "wscn:3776711",
-      "url": "https://wallstreetcn.com/premium/articles/3776711?layout=wscn-layout",
-      "source": "华尔街见闻",
-      "stars": 4,
-      "title": "中国限制氦气出口：半导体供应链的\"隐形稀土\"争夺战",
-      "lead": "2026年7月，中国宣布限制氦气出口。氦气是先进制程、HBM制造、光刻和光纤通信中不可替代的关键材料，全球市场此前已因卡塔尔供应扰动和AI需求爆发陷入紧平衡。此举被视为半导体供应链博弈的新战线。",
-      "confirmed": [
-        "中国于2026年7月实施氦气出口限制",
-        "氦气是半导体制造（光刻、HBM）和光纤通信的关键材料",
-        "全球氦气市场此前已因卡塔尔供应问题和AI需求增长而紧张",
-        "中国是全球主要氦气消费国之一，但自身产量有限"
-      ],
-      "judgment": [
-        "短期影响有限：中国氦气产量占全球比例不高，但消费量大",
-        "长期可能推高全球氦气价格，影响半导体制造成本",
-        "可能加速氦气回收技术和替代气体的研发",
-        "与美国对华芯片出口管制形成对称博弈",
-        "对AI硬件供应链的影响：HBM和先进制程成本可能上升"
-      ],
-      "implication": "如果你关注半导体供应链，氦气限制是继稀土之后的新变量。对于你的项目，硬件成本可能间接上升，但更重要的是，这凸显了供应链多元化的必要性。建议关注国产氦气回收技术和替代方案进展。"
+      "implication": "你正在用Claude Code做content-curator项目，这个发现直接影响你的工具选择。建议：1）使用Docker Sandbox隔离运行Claude Code（参考sbx方案）；2）考虑切换到开源替代如OpenCode；3）在项目README中标注此风险，体现你的安全意识。这也是你Agent项目可以追踪的供应链安全信号。"
     }
   ],
   "shortlist": [
+    {
+      "domain": "AI",
+      "title": "Anthropic发现Claude内部'全局工作空间'，可读取模型'思考'过程",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-it-can-read-claudes-thoughts-as-detailed-in-new-research-paper-models-observed-to-have-a-global-workspace-revealing-more-of-what-makes-llms-tick",
+      "source": "Tom's Hardware",
+      "one_liner": "Anthropic论文揭示Claude存在类似人类全局工作空间的内部表征，可观测推理过程，对AI可解释性有深远意义，但头条已满故放备选。"
+    },
+    {
+      "domain": "AI",
+      "title": "Colibrì概念验证：1.5TB参数前沿模型仅需25GB内存运行",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/colibri-proof-of-concept-gains-frontier-level-1-5-tb-ai-model-novel-approach-runs-on-only-25gb-of-ram-and-shows-promise-for-local-ai-setups",
+      "source": "Tom's Hardware",
+      "one_liner": "新型模型压缩技术让1.5TB模型在25GB内存上运行，对本地AI部署是重大突破，但尚处概念验证阶段。"
+    },
+    {
+      "domain": "AI",
+      "title": "2026年过半，我是怎样使用Agent的？",
+      "url": "http://www.bilibili.com/video/av116887417522347",
+      "source": "卡普迪姆",
+      "one_liner": "实战分享如何用Claude Code调度Codex exec调用GPT 5.5实现sub-agent工作流，对正在做Agent项目的你很有参考价值。"
+    },
+    {
+      "domain": "AI",
+      "title": "大厂Agent实战对比：LobsterAI vs Workbuddy vs TRAE Work",
+      "url": "http://www.bilibili.com/video/av116879297352139",
+      "source": "网络小白_Uncle城",
+      "one_liner": "三款国产桌面Agent同台PK，Excel整合、竞品调研、数据看板部署实测，帮你选型参考。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "台积电6月营收4426.8亿新台币，同比增长67.9%创纪录",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-june-2026-revenue",
+      "source": "Tom's Hardware",
+      "one_liner": "台积电6月营收同比增67.9%，上半年累计增35.6%，AI芯片需求持续爆发，但市场已充分预期。"
+    },
     {
       "domain": "AI 算力 / 半导体",
       "title": "Apple与Broadcom达成300亿美元AI芯片供应协议",
       "url": "https://www.eetimes.com/apples-30b-broadcom-deal-signals-expansions-in-ai-u-s-supply-chain/",
       "source": "EE Times",
-      "one_liner": "Apple与Broadcom签署300亿美元协议，为AI数据中心和U.S.芯片制造注入强心针，Intel可能间接受益。"
+      "one_liner": "Apple 300亿美元押注Broadcom AI芯片，可能给Intel带来代工机会，但具体细节未披露。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Samsung展示3D堆叠FET晶体管，42nm间距三纳米片",
-      "url": "https://semiconductor.samsung.com/news-events/tech-blog/from-gaa-to-3d-stacked-fet-expanding-the-transistor-into-the-third-dimension/",
-      "source": "Samsung",
-      "one_liner": "Samsung在VLSI 2026上展示3D堆叠FET，42nm间距三纳米片，为超越GAA架构的下一代晶体管技术铺路。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Zluda 6发布：在非Nvidia GPU上运行CUDA应用",
-      "url": "https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/",
-      "source": "Hacker News",
-      "one_liner": "Zluda 6发布，允许在AMD/Intel GPU上运行未修改的CUDA应用，打破Nvidia生态垄断，对AI推理部署有潜在影响。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia, CoreWeave, Nebius：GPU繁荣中的循环融资",
-      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
-      "source": "Hacker News",
-      "one_liner": "深度分析Nvidia与CoreWeave、Nebius之间的循环融资模式，揭示GPU算力泡沫风险。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Rapidus 2nm晶圆定价约2万美元，低于台积电",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/japanese-chipmaker-rapidus-to-offer-lower-wafer-pricing-than-tsmc-2nm-class-silicon-to-be-priced-around-usd20-000-on-2027-launch",
-      "source": "Tom's Hardware",
-      "one_liner": "日本Rapidus计划2027年量产2nm芯片，晶圆定价约2万美元，低于台积电，可能重塑代工格局。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "SambaNova融资10亿美元，签下摩根大通客户",
-      "url": "https://www.eetimes.com/sambanova-raises-1-billion-signs-jpmorganchase-as-a-customer/",
-      "source": "EE Times",
-      "one_liner": "AI芯片初创SambaNova完成10亿美元融资，并签下摩根大通作为客户，企业AI市场开始放量。"
-    },
-    {
-      "domain": "AI",
-      "title": "Kimi K2.7 Code在GitHub Copilot中正式可用",
-      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
-      "source": "GitHub Blog",
-      "one_liner": "月之暗面Kimi K2.7代码模型集成GitHub Copilot，国产AI编程工具进入主流开发者生态。"
-    },
-    {
-      "domain": "AI",
-      "title": "Google Gemini 3.5 Flash新增Computer Use功能",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
-      "source": "Google Blog",
-      "one_liner": "Gemini 3.5 Flash支持Computer Use，可直接操控桌面应用，Agent能力再升级。"
-    },
-    {
-      "domain": "AI",
-      "title": "Tencent拟从Meta手中收购Manus，北京介入要求解除交易",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tencent-is-reportedly-in-talks-to-acquire-manus-from-meta-following-beijing-intervention-company-expects-to-remain-independent-of-chinese-tech-giant",
-      "source": "Tom's Hardware",
-      "one_liner": "腾讯计划以20亿美元从Meta手中收购AI Agent平台Manus，北京要求解除此前Meta的收购，地缘政治影响AI并购。"
+      "title": "三星完成特斯拉AI5芯片流片，2nm工艺量产在即",
+      "url": "https://wallstreetcn.com/articles/3776772",
+      "source": "华尔街见闻",
+      "one_liner": "三星2nm拿下特斯拉AI5订单，晶圆代工扭亏在望，但良率仍是关键变数。"
     },
     {
       "domain": "股票",
-      "title": "MSCI中国相对收益跌至25年最低，全球资金开始回头",
-      "url": "https://wallstreetcn.com/premium/articles/3776551?layout=wscn-layout",
+      "title": "美AI巨头发债2440亿美元翻倍，债市承压",
+      "url": "https://wallstreetcn.com/articles/3776773",
       "source": "华尔街见闻",
-      "one_liner": "MSCI中国相对MSCI全球收益比值降至2001年以来最低，全球资金正从\"是否回避中国\"转向\"如何重新配置中国\"。"
+      "one_liner": "六大AI超大规模计算商今年发债2440亿美元，较去年翻倍，信用利差走阔，数千亿新债在路上。"
     },
     {
       "domain": "股票",
-      "title": "下周重磅：中国GDP、美国CPI、沃什听证会、台积电财报",
-      "url": "https://wallstreetcn.com/articles/3776632",
+      "title": "高盛：伊朗战争不足以打乱通胀锚，预计美联储全年按兵不动",
+      "url": "https://wallstreetcn.com/articles/3776775",
       "source": "华尔街见闻",
-      "one_liner": "下周中国GDP、美国CPI、美联储主席沃什首场听证会、台积电财报密集来袭，市场波动性预计显著上升。"
-    },
-    {
-      "domain": "股票",
-      "title": "智谱创始人唐杰发布内部信：启动Touch High计划，聚焦AGI研究",
-      "url": "https://wallstreetcn.com/articles/3776707",
-      "source": "华尔街见闻",
-      "one_liner": "智谱创始人唐杰内部信宣布\"Touch High\"计划，继续聚焦AGI研究而非短期变现，坚持\"反直觉\"路线。"
-    },
-    {
-      "domain": "股票",
-      "title": "阿里合计持股长鑫科技近5%，超创始人朱一明",
-      "url": "https://wallstreetcn.com/articles/3776703",
-      "source": "华尔街见闻",
-      "one_liner": "阿里巴巴以76亿元持股长鑫科技近5%，成为重要股东，长鑫冲刺科创板第二大IPO，募资295亿元。"
-    },
-    {
-      "domain": "股票",
-      "title": "美银Hartnett：日本银行股是全球避险情绪领先指标",
-      "url": "https://wallstreetcn.com/articles/3776713",
-      "source": "华尔街见闻",
-      "one_liner": "美银策略师Hartnett警告市场存在\"四个不\"共识，将日本银行股视为全球风险偏好的预警指标。"
+      "one_liner": "高盛认为油价冲击正在消退，核心PCE维持20-23bp月涨幅，美联储可维持观望，但容错空间有限。"
     },
     {
       "domain": "金融",
-      "title": "JPMorgan、美银等探索收购卡网络以提高借记卡费用",
-      "url": "https://www.wsj.com/finance/banking/jpmorgan-bank-of-america-and-other-banks-explore-a-deal-to-shake-up-payments-world-9d8639fb",
-      "source": "WSJ",
-      "one_liner": "JPMorgan、美银等大型银行探索收购卡网络，意图打破Visa/Mastercard双寡头，提高借记卡交换费。"
+      "title": "韩国政府设立'未来应对基金'，推进AI半导体等三大超级项目",
+      "url": "https://wallstreetcn.com/articles/3776771",
+      "source": "华尔街见闻",
+      "one_liner": "韩国政府下场支持AI半导体，与SK海力士、三星的扩产计划形成政策合力。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Apple起诉OpenAI窃取商业机密",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/apple-sues-openai-over-alleged-theft-of-trade-secrets-claims-company-mentored-incoming-employees-on-bringing-confidential-information",
+      "source": "Tom's Hardware",
+      "one_liner": "Apple指控OpenAI教唆员工携带机密信息入职，涉及AI硬件业务，诉讼可能影响人才流动。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Tencent拟收购Meta旗下Manus，北京要求交易撤销",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tencent-is-reportedly-in-talks-to-acquire-manus-from-meta-following-beijing-intervention-company-expects-to-remain-independent-of-chinese-tech-giant",
+      "source": "Tom's Hardware",
+      "one_liner": "腾讯欲20亿美元收购Manus，北京此前已要求Meta与Manus解除收购，地缘政治影响AI资产交易。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "SambaNova融资10亿美元，JPMorgan Chase成客户",
+      "url": "https://www.eetimes.com/sambanova-raises-1-billion-signs-jpmorganchase-as-a-customer/",
+      "source": "EE Times",
+      "one_liner": "AI芯片创企SambaNova获10亿美元融资并签下摩根大通，企业AI推理市场开始放量。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "爱尔兰数据中心2025年消耗全国23%电力，接近家庭用电总和",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/irelands-data-centers-consumed-nearly-as-much-electricity-as-every-home-in-the-country-combined-in-2025-server-farms-gulped-23-percent-of-national-power-despite-years-of-grid-restrictions",
+      "source": "Tom's Hardware",
+      "one_liner": "AI算力扩张的能源代价：爱尔兰数据中心用电占比已达23%，限制新接入仍无法遏制增长。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-12T07:07:13+0000"
+    "scored_at": "2026-07-13T06:47:07+0000"
   }
 }
