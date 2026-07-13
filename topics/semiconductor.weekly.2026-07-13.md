@@ -1,50 +1,74 @@
 # Curio · AI 算力 / 半导体 · 2026-07-13
 
-> 今日 2 条头条 + 4 条备选
+> 今日 3 条头条 + 4 条备选
 
-_今日市场剧烈震荡：中东战事引发韩股暴跌9%触发熔断，SK海力士重挫14%，存储芯片恐慌蔓延至A股。同时，SK海力士CEO警告2027年将现史上最严重存储短缺，台积电6月营收同比暴增67.9%创纪录。AI硬件投资狂热与地缘风险交织，产业链利润正从上游算力向下游应用迁移。_
+_今日市场剧烈震荡：中东战事升级引发韩股暴跌9%熔断，SK海力士重挫14%，存储芯片板块承压。与此同时，Anthropic首次揭示可读取Claude内部"思维"，Colibrì实现1.5TB模型仅需25GB内存运行，AI工程化迎来新突破。SK海力士创纪录265亿美元IPO登陆纳斯达克，CEO警告2027年将现史上最严重存储短缺。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. SK海力士CEO：2027年将成存储史上最严重短缺年，供需紧张持续到2030年
+### 1. 中东战事升级，韩股暴跌9%熔断，SK海力士重挫14%
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
 
-SK海力士CEO Kwak Noh-jung在纳斯达克上市当天发出警告：2027年将是存储行业历史上供应最紧张的一年，短缺将持续到2030年。公司同日完成265亿美元创纪录IPO，将用于HBM产能扩张。
+伊朗冲突持续发酵，韩国KOSPI指数日内跌超9%触发熔断，SK海力士跌14.5%，三星电子跌11%。纳斯达克100期货下跌1.3%，黄金跌至4065美元。市场恐慌情绪蔓延至全球科技股。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| SK海力士CEO明确表示2027年将是存储行业历史上供应最紧张的一年 | 短缺程度是否如CEO所言'史上最严重'，需观察三星、美光等竞争对手的扩产节奏 |
-| 短缺预计持续到2030年 | HBM需求能否持续高增长——AI训练/推理需求增速可能放缓 |
-| 公司通过纳斯达克IPO筹集265亿美元，创美国史上最大IPO纪录 | 265亿美元IPO资金能否有效转化为产能，建设周期存在不确定性 |
-| 资金将用于HBM（高带宽内存）制造扩张 |  |
+| 韩国KOSPI指数日内跌超9%，触发熔断机制暂停交易20分钟 | 冲突持续时间及对全球供应链的实际影响尚不明朗 |
+| SK海力士跌14.5%，三星电子跌11% | 韩国政府已宣布设立"未来应对基金"推进AI半导体等超级项目，但具体规模未定 |
+| 纳斯达克100指数期货下跌1.3% | 高盛认为伊朗战争不足以打乱通胀锚，预计美联储全年按兵不动 |
+| 黄金下跌1.3%至4065美元/盎司，白银跌近3% | 韩国信贷空间收紧可能进一步压制股市杠杆资金 |
+| 韩国五大商业银行上半年已消耗超85%全年家庭贷款额度，杠杆资金面临断供 | SK海力士HBM长期合约价格约束导致ASP涨幅低于预期，但基本面未恶化 |
 
 **📖 主编点评**
 
-这对你的content-curator项目是个信号：存储芯片供需是未来2-3年AI硬件投资的核心变量。建议在你的Agent中加入SK海力士、三星、美光的产能动态跟踪。如果你在做AI编程工具（Claude Code/Cursor）的Side Project，HBM短缺可能影响云端推理成本，进而影响你选择模型和部署策略。
+今天韩股熔断是你关注存储芯片和AI硬件供应链的一个强烈信号。SK海力士作为HBM龙头，单日14%的跌幅更多是地缘情绪+杠杆踩踏，而非基本面反转——CEO刚警告2027年将现史上最严重存储短缺。如果你在关注HBM或存储相关标的，现在是研究入场时机而非恐慌抛售的时刻。建议跟踪今晚美国CPI数据和美联储主席沃什国会首秀，这将是短期方向的关键。
 
-📺 [打开原文](https://www.tomshardware.com/pc-components/dram/sk-hynix-says-2027-will-be-the-worst-year-for-memory-shortage-forecasts-crunch-to-last-until-2030-ceo-shares-grim-outlook-on-the-day-sk-hynix-gets-listed-on-nasdaq)
+📺 [打开原文](https://wallstreetcn.com/articles/3776754)
 
 ---
 
-### 3. SK海力士纳斯达克IPO募资265亿美元创纪录，全力扩产HBM
+### 3. Colibrì概念验证：1.5TB参数模型仅需25GB内存即可运行
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
 
-SK海力士在纳斯达克上市，以265亿美元融资额刷新美国IPO历史纪录。公司计划将资金投入HBM制造扩张，以满足AI芯片对高带宽内存的爆发式需求。同日CEO警告2027年将出现史上最严重存储短缺。
+Colibrì项目展示了一种全新方法，让一个前沿级别的1.5TB参数AI模型仅需25GB RAM和普通CPU即可运行。这一突破性进展为本地AI部署打开了新大门，可能彻底改变个人和企业使用大模型的方式。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| SK海力士IPO募资265亿美元，为美国史上最大IPO | 265亿美元能否满足扩产需求——建设先进封装厂成本极高 |
-| 资金将用于HBM制造设施扩张 | HBM价格是否会在2027年前出现拐点 |
-| 公司HBM产能已售罄至2027年 | 美国本土建厂（受特朗普政府施压）可能增加成本 |
-| 同日CEO发出存储短缺警告 |  |
+| Colibrì成功运行1.5TB参数模型仅需25GB RAM | 实际推理速度尚未公布，可能远低于GPU方案 |
+| 该模型达到前沿级别性能 | 模型精度和与完整版模型的差距未量化 |
+| 可在普通CPU上运行，无需高端GPU | 是否支持所有模型架构或仅针对特定架构优化未知 |
+| 这是一个概念验证（proof-of-concept）项目 | 从概念验证到可产品化部署仍有距离 |
+|  | 对现有AI硬件市场（如NVIDIA GPU）的冲击程度取决于实际性能 |
 
 **📖 主编点评**
 
-这是AI硬件军备竞赛的标志性事件。你如果关注AI工程实践，HBM的供应状况直接影响你使用Claude Code等工具时的推理成本和可用性。建议在你的Agent中跟踪HBM价格指数和产能利用率，这些数据对评估AI应用部署成本很有价值。
+这对你个人做Agent项目是个好消息：如果你想让content-curator在本地运行而不依赖云端API，Colibrì的路线值得关注。25GB内存门槛意味着普通笔记本就能跑大模型，但要注意速度可能是个瓶颈。建议先关注其开源进展和技术报告，如果推理速度能达到可接受水平，这将是你项目"去API依赖"的关键技术。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/colibri-proof-of-concept-gains-frontier-level-1-5-tb-ai-model-novel-approach-runs-on-only-25gb-of-ram-and-shows-promise-for-local-ai-setups)
+
+---
+
+### 4. SK海力士创纪录265亿美元纳斯达克IPO，CEO警告2027年存储短缺
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+
+SK海力士在纳斯达克完成史上最大规模IPO，募资265亿美元。CEO Kwak Noh-jung在上市当天警告：2027年将成为存储行业历史上供应最紧张的一年，短缺将持续到2030年。公司计划将资金用于大规模HBM制造扩张。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| SK海力士IPO募资265亿美元，为纳斯达克史上最大 | SK海力士今日股价因地缘冲突暴跌14%，与长期基本面形成反差 |
+| CEO称2027年将是存储行业"最糟糕的一年" | HBM产能扩张能否满足AI需求仍取决于良率提升速度 |
+| 短缺预计持续到2030年 | 美国施压SK海力士在美建厂，会长崔泰源称"条件合适就投资" |
+| 资金将用于HBM制造扩张 | 三星已完成特斯拉AI5芯片流片，2nm工艺量产良率仍是关键变数 |
+| 台积电6月营收4426.8亿新台币，同比增长67.9%创纪录 | 存储短缺预期已部分反映在股价中，需警惕预期差 |
+
+**📖 主编点评**
+
+SK海力士的IPO和CEO警告对你意味着：AI硬件供应链的瓶颈正在从GPU转向HBM内存。如果你在做Agent项目，未来API调用成本可能受HBM供需影响——短缺意味着推理成本难以下降。建议关注HBM相关ETF或个股作为长期配置，同时留意三星2nm代工进展，这可能改变AI芯片格局。
 
 📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-raises-a-record-usd26-5-billion-in-historic-u-s-ipo-south-korean-memory-giant-to-fund-massive-hbm-manufacturing-expansions)
 
@@ -52,13 +76,13 @@ SK海力士在纳斯达克上市，以265亿美元融资额刷新美国IPO历史
 
 ## 📋 备选阅读
 
-- [台积电6月营收4426.8亿新台币，同比增长67.9%创纪录](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-june-2026-revenue) —— 台积电6月营收同比增67.9%，上半年累计增35.6%，AI芯片需求持续爆发，但市场已充分预期。
-  _Tom's Hardware_
-- [Apple与Broadcom达成300亿美元AI芯片供应协议](https://www.eetimes.com/apples-30b-broadcom-deal-signals-expansions-in-ai-u-s-supply-chain/) —— Apple 300亿美元押注Broadcom AI芯片，可能给Intel带来代工机会，但具体细节未披露。
-  _EE Times_
-- [三星完成特斯拉AI5芯片流片，2nm工艺量产在即](https://wallstreetcn.com/articles/3776772) —— 三星2nm拿下特斯拉AI5订单，晶圆代工扭亏在望，但良率仍是关键变数。
-  _华尔街见闻_
-- [爱尔兰数据中心2025年消耗全国23%电力，接近家庭用电总和](https://www.tomshardware.com/tech-industry/data-centers/irelands-data-centers-consumed-nearly-as-much-electricity-as-every-home-in-the-country-combined-in-2025-server-farms-gulped-23-percent-of-national-power-despite-years-of-grid-restrictions) —— AI算力扩张的能源代价：爱尔兰数据中心用电占比已达23%，限制新接入仍无法遏制增长。
+- [Samsung demonstrates 3D stacked FETs with triple nanosheet channels at 42nm](https://semiconductor.samsung.com/news-events/tech-blog/from-gaa-to-3d-stacked-fet-expanding-the-transistor-into-the-third-dimension/) —— 三星展示3D堆叠FET晶体管，42nm间距三纳米片通道，延续GAA路线。
+  _Samsung_
+- [Zluda 6 release: run unmodified CUDA applications on non-Nvidia GPUs](https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/) —— Zluda 6发布，可在非NVIDIA GPU上运行未修改CUDA程序，打破CUDA生态垄断。
+  _GitHub_
+- [Nvidia offers startup customers chance to swap compute power for revenue share](https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html) —— Nvidia向初创公司提供算力换收入分成模式，降低AI创业算力门槛。
+  _CNBC_
+- [Ireland's data centers consumed 23% of national electricity in 2025](https://www.tomshardware.com/tech-industry/data-centers/irelands-data-centers-consumed-nearly-as-much-electricity-as-every-home-in-the-country-combined-in-2025-server-farms-gulped-23-percent-of-national-power-despite-years-of-grid-restrictions) —— 爱尔兰数据中心2025年消耗全国23%电力，AI算力扩张与能源矛盾加剧。
   _Tom's Hardware_
 
 ---
