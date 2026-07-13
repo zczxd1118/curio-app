@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-07-12T06:10:32.135291+00:00",
+  "fetched_at": "2026-07-13T06:26:39.667535+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,15 +11,15 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 20,
-    "arXiv q-fin（量化金融论文）": 0,
+    "arXiv q-fin（量化金融论文）": 24,
     "HN · Federal Reserve": 0,
     "HN · inflation": 3,
     "HN · Tesla": 3,
-    "HN · finance": 13,
-    "HN · fed": 21
+    "HN · finance": 11,
+    "HN · fed": 22
   },
   "subtopics": [],
-  "total": 89,
+  "total": 112,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/xbox-on-the-rocks/",
@@ -532,224 +532,632 @@
       "lang": "en"
     },
     {
-      "id": "wscn:3776716",
-      "title": "机构实地调研：台积电赢了现在的CPO，三星在押注下一场",
-      "url": "https://wallstreetcn.com/articles/3776716",
-      "summary": "台积电凭借博通、英伟达的交换机CPO产品率先商业化落地；三星则另辟蹊径，布局将HBM、逻辑芯片与硅光芯片整合于同一封装的2.xD方案，瞄准AI计算封装的光学I/O赛道。三星的\"三位一体\"垂直整合是潜在优势，但良率挑战与商业化时间表仍是最大变数。订单落地，才是检验胜负的唯一标准。",
+      "id": "wscn:3776754",
+      "title": "中东战事搅动市场，韩股大跌9%触发熔断，SK海力士重挫14%，原油上涨，黄金下跌",
+      "url": "https://wallstreetcn.com/articles/3776754",
+      "summary": "韩国KOSPI指数日内一度跌超9%，SK海力士跌14.5%，三星电子跌11%。此前韩股跌超8%，触发熔断机制，暂停交易20分钟。纳斯达克100指数期货下跌1.3%，欧洲股市开盘前期货亦显示将下跌约1%。黄金下跌1.3%，报每盎司约4065美元；白银跌幅接近3%，报每盎司约58.20美元。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-12T05:47:23+00:00",
+      "published_at": "2026-07-13T06:16:18+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776551",
-      "title": "MSCI中国相对收益跌到25年以来最低位：全球资金为何开始回头？",
-      "url": "https://wallstreetcn.com/premium/articles/3776551?layout=wscn-layout",
-      "summary": "彭博社一张图把中国资产的相对低迷推到聚光灯下：MSCI中国相对MSCI全球的收益比值，已降至2001年以来少见低位。但这并不意味着中国资产缺少机会，而是MSCI中国的指数结构没有充分暴露于本轮全球AI硬件和科技牛市。随着全球AI交易拥挤、海外资金低配中国、A股硬科技和中国AI价值链开始被重新定价，全球资金正在从“是否回避中国”转向“如何重新配置中国”。这是全面反转的信号，还是一轮结构性重估的开始？",
+      "id": "wscn:3776775",
+      "title": "高盛：伊朗战争不足以打乱通胀锚，预计美联储全年按兵不动",
+      "url": "https://wallstreetcn.com/articles/3776775",
+      "summary": "美伊冲突持续升温，但高盛最新研究显示，油价较战时峰值已下跌约30%，大宗商品冲击正在快速消退，通胀传导效应将于三四季度明显减弱。核心PCE月涨幅料维持20至23个基点区间，这一路径足以让美联储全年按兵不动——但容错空间极为有限，一旦油价重返100美元，货币政策天平随时可能倾斜。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-12T04:24:09+00:00",
+      "published_at": "2026-07-13T06:16:06+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776714",
-      "title": "全球存储扩产+海外设备供应告急，国产半导体设备迎“超级时代”",
-      "url": "https://wallstreetcn.com/articles/3776714",
-      "summary": "国金证券认为AI算力驱动存储扩产，国产半导体设备迎历史机遇。海外设备交期拉长至12-24个月，长鑫、长江存储2026年采购规模预计达550-630亿元，国产替代加速落地。量检测与FT测试设备国产化率最低，替代空间最大，为当前核心关注方向。风险在于资本开支不及预期及验证进度滞后。",
+      "id": "wscn:3776758",
+      "title": "创业板跌3%，科创50大跌近4%，存储芯片重挫、兆易创新跌停，恒科指跌超1%，科网股普跌",
+      "url": "https://wallstreetcn.com/articles/3776758",
+      "summary": "盘面上，个股呈现普跌态势，沪深京三市下跌个股超4600只。量能大幅萎缩，上午半天成交1.86万亿。沪深两市半日成交额1.85万亿，较上个交易日缩量近3200亿。板块方面，商业航天概念大幅下挫；算力硬件产业链走弱，超硬材料、PCB方向领跌；光伏、AI应用、锂电池、人形机器人、工业金属、金融科技概念股跌幅靠前。中药、银行板块逆势走强。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-12T04:00:53+00:00",
+      "published_at": "2026-07-13T06:14:28+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776709",
-      "title": "蚂蚁灵波，为什么要从头训练机器人大脑",
-      "url": "https://wallstreetcn.com/articles/3776709",
-      "summary": "灵波发布 6 款模型，更像是在拆解机器人大脑仍未解决的单点问题。模型数量未来反而可能减少。",
+      "id": "wscn:3776777",
+      "title": "特朗普政府施压，SK海力士在美选址建厂，崔泰源：条件合适就投资！",
+      "url": "https://wallstreetcn.com/articles/3776777",
+      "summary": "SK海力士会长崔泰源首度公开表态正在全球物色存储晶圆厂选址，美国在列。这是迄今最明确的赴美建厂信号——背后是美国商务部长点名施压、美光2500亿美元扩产的步步紧逼。与此同时，海力士CEO警告2027年将现史上最严存储荒，HBM需求更是供不应求。这家市值1.2万亿美元的芯片巨头，正站在全球产业版图重构的风暴中心。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-12T03:21:53+00:00",
+      "published_at": "2026-07-13T06:05:36+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776708",
-      "title": "翰森制药的出海，不靠声量",
-      "url": "https://wallstreetcn.com/articles/3776708",
-      "summary": "一次三期成功，兑现的是走了十年的路。",
+      "id": "wscn:3776776",
+      "title": "韩国银行贷款额度耗尽85%，股市杠杆资金面临断供，借钱炒股或“刹车”！",
+      "url": "https://wallstreetcn.com/articles/3776776",
+      "summary": "韩国信贷空间亮起红灯：五大商业银行上半年已消耗超85%的全年家庭贷款额度，其中两家更是直接“超限”。受监管总量管控限制，下半年信贷面临“断崖式”收紧，银行将被迫压降余额。这导致此前由住房和信用贷款持续驱动的增量资金来源遭切断，下半年股市加杠杆的外部融资通道将实质性收窄，市场杠杆资金面临强制降温。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-12T03:21:47+00:00",
+      "published_at": "2026-07-13T05:59:44+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776715",
-      "title": "三星电子将龙仁首座芯片厂投产提前至2029年，比原计划早1-2年",
-      "url": "https://wallstreetcn.com/articles/3776715",
-      "summary": "报道称三星电子已将龙仁国家产业园区首座晶圆厂的投产目标定为2029年，较此前市场预期的2030至2031年有所提前。三星电子此前已宣布，将在平泽、龙仁半导体集群等地合计投资2030万亿韩元。投产时间的提前，意味着三星电子得以更迅速地回应全球人工智能芯片需求的快速增长。",
+      "id": "wscn:3776772",
+      "title": "三星已完成特斯拉AI5芯片流片，即将进入大规模量产准备阶段",
+      "url": "https://wallstreetcn.com/articles/3776772",
+      "summary": "特斯拉下一代AI芯片AI5已完成流片，即将在三星德克萨斯泰勒工厂以2纳米工艺量产，这是三星晶圆代工首次承接超大型2纳米商业订单。当前非存储器部门单季亏损约6000亿韩元，分析人士认为，随着明年特斯拉订单正式出货，三星晶圆代工扭亏在望，但量产良率仍是关键变数。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-12T03:18:32+00:00",
+      "published_at": "2026-07-13T05:56:46+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776710",
-      "title": "伊朗关闭霍尔木兹海峡、打击美在中东目标，美军对伊发动新一轮袭击、多地传出爆炸声",
-      "url": "https://wallstreetcn.com/articles/3776710",
-      "summary": "伊朗革命卫队于7月12日宣布封闭霍尔木兹海峡，禁止所有船只通行，直至美国停止干预为止。美军宣布对伊朗发动打击，以回应海峡民用船只遇袭事件。伊朗随后对美国在中东多国目标实施报复。巴林、约旦、科威特、卡塔尔、阿联酋相继响起防空警报或爆炸声，伊朗南部多地亦传出爆炸。",
+      "id": "wscn:3776773",
+      "title": "美AI巨头发债2440亿较去年翻倍，债市喊撑不住了",
+      "url": "https://wallstreetcn.com/articles/3776773",
+      "summary": "科技巨头的AI军备竞赛正将债券市场逼向极限。Alphabet、亚马逊、Meta等六大\"AI超大规模计算商\"今年已累计发债2440亿美元，较去年翻超一倍。英伟达、亚马逊接连250亿美元的发行令市场猝不及防，信用利差加速走阔。更令投资者不安的是——这场烧钱竞赛远未终止，数千亿新债仍在路上。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-12T03:06:04+00:00",
+      "published_at": "2026-07-13T05:54:36+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776713",
-      "title": "美银Hartnett：日本银行股是“全球避险情绪领先指标”，下半年有“四大逆向交易机会”",
-      "url": "https://wallstreetcn.com/articles/3776713",
-      "summary": "美银策略师Hartnett警告，当前市场存在\"四个不\"共识：美国经济不着陆、美联储不加息、AI资本开支不削减、美国民主党不横扫中期选举。这种罕见的全面乐观本身即为最大风险，任一共识落空将引发剧烈重定价。他提出四类逆向交易策略，并将日本银行股视为全球风险偏好的预警指标。",
+      "id": "wscn:3776769",
+      "title": "调整已至尾声，新一轮上涨缓图之",
+      "url": "https://wallstreetcn.com/articles/3776769",
+      "summary": "申万宏源认为，科技与非科技板块调整结构已趋完备，本轮市场调整步入尾声。短期资金惯性被打破，上涨节奏放缓，需等待新产业催化重启行情。中期AI产业趋势仍是主战场，未来行情将呈“科技领涨、百花齐放”格局。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-12T02:46:01+00:00",
+      "published_at": "2026-07-13T05:47:09+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776632",
-      "title": "下周重磅日程：中国GDP与美国CPI、沃什听证会、WAIC大会、长鑫科技打新与台积电财报",
-      "url": "https://wallstreetcn.com/articles/3776632",
-      "summary": "美国6月CPI、PPI及经济褐皮书密集出炉，美联储主席沃什首次出席国会听证；中国二季度GDP、社零、工业增加值等数据同步亮相。WAIC人工智能大会召开，华为Atlas 950真机或首秀，Gemini 3.5 Pro传将发布。财报季方面，华尔街五大行同日放榜，ASML、台积电验证AI需求；国内长鑫科技IPO打新备受关注。此外，韩国央行预计时隔五年重启加息，而霍尔木兹再度关闭，美伊局势再升级。",
+      "id": "wscn:3776725",
+      "title": "BBU小圆柱电池——AI算力时代的“隐形刚需”，被低估的千亿级赛道？",
+      "url": "https://wallstreetcn.com/premium/articles/3776725?layout=wscn-layout",
+      "summary": "BBU（电池备份单元）正从AI服务器的“可选配件”跃升为“架构刚需”，2026-2030年全球BBU电芯需求将从近4亿颗爆发式增长至28亿颗，市场空间有望突破1000亿元。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-12T02:05:46+00:00",
+      "published_at": "2026-07-13T05:38:13+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776712",
-      "title": "财报季、沃什和美国通胀--美联储和市场将走向何方？下周“初见端倪”！",
-      "url": "https://wallstreetcn.com/articles/3776712",
-      "summary": "美联储新主席沃什下周将首次出席国会听证，恰逢美国6月CPI、PPI数据密集发布。市场对7月加息隐含概率仅24%，彭博经济学家认为超预期通胀与沃什鹰派表态同时发生概率不高。而高盛认为美联储政策路径的不确定性，已成为短期内股市面临的最关键风险变量，叠加下周Q2财报季开幕，市场波动性或将显著上升。",
+      "id": "wscn:3776774",
+      "title": "台积电6月营收4426.8亿元台币，同比增长67.9％创纪录，上半年揽入逾2.4万亿新台币",
+      "url": "https://wallstreetcn.com/articles/3776774",
+      "summary": "彭博计算显示台积电第二季度营收1.27万亿元台币。分析师普遍预期，2026年第三季度单季营收有望刷新历史纪录，全年营收增速或维持在30%以上的高景气区间。数据显示，2026年1至6月合并营收合计约2.40万亿元新台币，较去年同期增长35.6%。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-12T01:36:15+00:00",
+      "published_at": "2026-07-13T05:33:28+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776711",
-      "title": "不是稀土，却胜似稀土：中国为何开始管控氦气出口？一场半导体供应链保卫战正在展开",
-      "url": "https://wallstreetcn.com/premium/articles/3776711?layout=wscn-layout",
-      "summary": "从气球填充气体到AI时代的“隐形命脉”，氦气正在经历一场产业价值重估。2026年7月，中国宣布限制氦气出口，而全球市场此前已经因卡塔尔供应扰动、俄罗斯出口收紧以及AI半导体需求爆发陷入紧平衡。作为先进制程、HBM、高速光通信和航空航天领域不可替代的关键材料，氦气的重要性正在快速提升。此次政策并非简单的贸易限制，而是全球产业链围绕稀缺资源展开竞争的缩影。随着供应端约束长期存在、需求端受AI产业驱动持续增长，氦气产业链可能迎来类似电子特气、稀土等战略资源的重新定价周期。",
+      "id": "wscn:3776768",
+      "title": "红烛故事停服 字节继续调整内容业务版图",
+      "url": "https://wallstreetcn.com/articles/3776768",
+      "summary": "资源有新投向。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-12T00:40:55+00:00",
+      "published_at": "2026-07-13T05:22:10+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776706",
-      "title": "全球市场步入“动荡之夏”：警惕美联储变局、日元危机和财报季大考",
-      "url": "https://wallstreetcn.com/articles/3776706",
-      "summary": "全球金融市场看似平静却暗流汹涌：美联储新主席沃什减少前瞻指引放大政策不确定性，日元跌破162关口再触套利爆仓危机。瑞银脆弱度指标飚至0.9高位，单股波动率超指数三倍。在夏季流动性匮乏之际，美股二季度财报24%的高增长预期一旦落空，恐引爆指数级剧烈回撤。",
+      "id": "wscn:3776717",
+      "title": "油价崩了，CPI降了：美国6月CPI会改变美联储路径吗？",
+      "url": "https://wallstreetcn.com/premium/articles/3776717?layout=wscn-layout",
+      "summary": "6月CPI或因油价回落明显降温，但核心通胀粘性仍强，美联储短期料维持观望，政策转向仍待后续。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-11T12:11:58+00:00",
+      "published_at": "2026-07-13T05:22:00+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776707",
-      "title": "智谱创始人唐杰发布内部信：将开启 Touch High（摸高）计划，“不登顶，就是失败”",
-      "url": "https://wallstreetcn.com/articles/3776707",
-      "summary": "今日智谱创始人唐杰发布内部信，阐述智谱对 AGI 接下来竞争的理解。唐杰在信中表示，智谱接下来将继续延续所谓 “反直觉” 路线，开启 “Touch High（摸高）计划”，即继续聚焦于 AGI 研究，而不是短期商业变现。",
+      "id": "wscn:3776771",
+      "title": "韩国政府：将设立“未来应对基金”，推进AI半导体等三大“超级项目”",
+      "url": "https://wallstreetcn.com/articles/3776771",
+      "summary": "更多消息，持续更新中",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-11T11:32:09+00:00",
+      "published_at": "2026-07-13T05:16:05+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776705",
-      "title": "伊朗最高领袖称将报复美以，特朗普：1000枚导弹已瞄准伊朗",
-      "url": "https://wallstreetcn.com/articles/3776705",
-      "summary": "穆杰塔巴再次将美国和以色列列为已故最高领袖及其他遇难者遇难事件的责任方，表示伊朗将继续追究其责任，并强调将作出报复回应。美国总统特朗普10日说，1000枚导弹已瞄准伊朗。若伊朗暗杀或试图暗杀他本人，还会有数千枚导弹随即发射。",
+      "id": "wscn:3776770",
+      "title": "量产与动工同月落地、十年长约锁定北美：台积电封装“第二增长曲线”浮出水面",
+      "url": "https://wallstreetcn.com/articles/3776770",
+      "summary": "AI芯片需求持续爆发，台积电正以前所未有的速度重构全球先进封装版图。嘉义二期破土、美国亚利桑那双厂落子，CoWoS产能订单排至2027年，年复合增速超80%。先进封装营收占比将于2027年突破15%，正式跃升为台积电继先进制程之后的第二条核心增长引擎。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-11T11:02:00+00:00",
+      "published_at": "2026-07-13T04:56:35+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776704",
-      "title": "成也 Seedance 2.0，败也 Seedance 2.0！AI漫剧行业已经没有了？",
-      "url": "https://wallstreetcn.com/articles/3776704",
-      "summary": "国内 AI 漫剧和 AI 剧已经从「效率红利」进入「慢性死亡」：政策风向、平台流量、供给爆炸、工具公司被大厂挤压，几股力量叠在一起，把一个刚刚冒头的内容生意迅速打成了彩票生意。",
+      "id": "wscn:3776562",
+      "title": "交换机超级周期：AI\"第三个算力瓶颈\"，以太网主宰万亿盛宴？",
+      "url": "https://wallstreetcn.com/premium/articles/3776562?layout=wscn-layout",
+      "summary": "全球AI以太网数据中心交换机市场正经历前所未有的超级周期，2025-2030年CAGR高达61%，市场规模将从约81亿美元飙升至889亿美元。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-11T10:28:23+00:00",
+      "published_at": "2026-07-13T04:27:39+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776703",
-      "title": "阿里合计持股长鑫科技近5%，超过董事长朱一明",
-      "url": "https://wallstreetcn.com/articles/3776703",
-      "summary": "阿里巴巴以76亿元押注长鑫科技，合计持股近5%，持股数量甚至超过创始人朱一明。这笔投资远不止财务回报——长鑫科技已是阿里云核心供应商，双方深度绑定\"算存一体化\"产业链。此次长鑫科技冲刺科创板第二大IPO，募资295亿元，阿里从存储芯片、大模型到具身智能的全链布局正加速兑现。",
+      "id": "wscn:3776767",
+      "title": "时隔4个月，“海选”总经理到位，海富通副总魏峻履新鹏安基金",
+      "url": "https://wallstreetcn.com/articles/3776767",
+      "summary": "业内人才均衡布局中",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-11T08:22:28+00:00",
+      "published_at": "2026-07-13T04:13:00+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776701",
-      "title": "过去两年规模几乎翻倍，美国ETF“火的发烫”",
-      "url": "https://wallstreetcn.com/articles/3776701",
-      "summary": "美国ETF行业正经历史无前例的扩张，2026年资产规模逼近16万亿美元，年内净流入破万亿。主动型ETF包揽四成资金，杠杆ETF成交量激增50%放大流动性。精准化集中主题ETF崛起，美股科技与半导体成核心驱动力。",
+      "id": "wscn:3776764",
+      "title": "韩国券商一句业绩“不及预期”，SK海力士大跌12%，存储板块全线承压！",
+      "url": "https://wallstreetcn.com/articles/3776764",
+      "summary": "韩国券商KIS预测SK海力士Q2营业利润60.4万亿韩元，同比暴增556%，但低于市场共识65万亿韩元约8%。核心原因是HBM收入占比高、受长期合约价格约束，ASP涨幅低于市场均值。KIS同步下调2026、2027年盈利预期9%和11%，但维持380万韩元目标价，称下调仅是LTA修正非基本面恶化。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-11T06:00:08+00:00",
+      "published_at": "2026-07-13T04:02:44+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776698",
-      "title": "1个月上涨25%后，美国生物医药板块周五重挫",
-      "url": "https://wallstreetcn.com/articles/3776698",
-      "summary": "美股生物医药板块因集中获利了结引发急跌，高贝塔代表性ETF（XBI）单日大跌4%。Moderna、ImmunityBio等年内暴涨股在无基本面利空的情况下回撤8%~11%，资金呈现从高风险小盘股向强防御大市值药企跨板块结构性轮动。",
+      "id": "wscn:3776752",
+      "title": "海峡\"罗生门\"推升加息押注，对冲基金黄金多头降至11.5万份",
+      "url": "https://wallstreetcn.com/articles/3776752",
+      "summary": "美伊冲突持续升级，霍尔木兹海峡通航陷入罗生门，油价走高重燃通胀警报，金价周一跌逾1%至4073美元，三年牛市已告终结、自高位累计回落超两成。加息预期卷土重来令贵金属承压，本周二美联储主席沃什国会首秀叠加6月CPI数据，将成决定金价短期走向的关键时刻。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-11T05:26:59+00:00",
+      "published_at": "2026-07-13T03:59:04+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776700",
-      "title": "昂跑亚太区将换帅，中国增长功臣升任全球市场负责人",
-      "url": "https://wallstreetcn.com/articles/3776700",
-      "summary": "继任者未定",
+      "id": "wscn:3776765",
+      "title": "对话《盛世天下》总制作人Demi：互动影视开始走出“新手村”",
+      "url": "https://wallstreetcn.com/articles/3776765",
+      "summary": "自己决定剧情走向",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-11T05:04:49+00:00",
+      "published_at": "2026-07-13T03:46:31+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3776699",
-      "title": "牧原上半年预亏57亿至67亿元 降本与屠宰业务提供缓冲",
-      "url": "https://wallstreetcn.com/articles/3776699",
-      "summary": "成本持续压降",
+      "id": "wscn:3776761",
+      "title": "付鹏：深度解析AI产业链周期与2026下半年最重要的观察指标【付鹏说29】",
+      "url": "https://wallstreetcn.com/premium/articles/3776761?layout=wscn-layout",
+      "summary": "AI产业“修路式”上游算力资本支出周期已现增速见顶信号，科技大厂自由现金流归零可能结束粗放烧钱扩张阶段，当前产业正式从硬件生产力投入期，迈入依赖Token降价、真实终端需求落地的软件与垂直应用价值兑现期，产业链利润重心将持续向下游迁移",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-11T05:02:45+00:00",
+      "published_at": "2026-07-13T03:40:08+00:00",
       "points": 0
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.08849",
+      "title": "Experimental Evidence on the Learning Impact of Generative AI",
+      "url": "https://arxiv.org/abs/2607.08849",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Zara Contractor, Germ\\'an Reyes",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.08849v1 Announce Type: new Abstract: We study how generative AI affects student learning in a randomized experiment. In proctored, in-person sessions, undergraduates learn about an unfamiliar topic and write an analytical essay with or without access to off-the-shelf generative AI, then complete unaided assessments immediately and one week later. We measure learning with knowledge tests (factual and conceptual understanding) and open-ended essays (higher-order skills). AI access raise...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.08907",
+      "title": "Herding and Liquidity in Order-Book Markets. I. A Robust Liquidity-Stress Crossover and its Reflexive Mechanism",
+      "url": "https://arxiv.org/abs/2607.08907",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Jan Novotny",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.08907v1 Announce Type: new Abstract: Agent-based models of markets readily produce emergent instabilities, but telling a genuine collective effect apart from a parameter artefact takes discipline. We apply Bouchaud's phase-diagram method to a continuous-double-auction order-book model. The method is to map the full phase diagram, test its robustness to rule changes, and rule out degenerate and numerical origins before we call any feature a tipping point. The model has fundamental-anch...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.08920",
+      "title": "AI Adoption in S&P 500 Firms",
+      "url": "https://arxiv.org/abs/2607.08920",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Yang Yu, Martin Fleming, Lucy Hampton, Christophe Combemale, Neil Thompson",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.08920v1 Announce Type: new Abstract: The adoption of artificial intelligence (AI) by large enterprises is an important potential source of aggregate productivity improvement and labor market impact. We study AI adoption of S&amp;P 500 firms over the period 2016 to 2025, estimating adoption at the enterprise level. While generative AI tools are useful for personal and professional applications, our focus is on the deep integration of AI in the business processes of large enterprises wh...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09132",
+      "title": "Distortion risk measures of step-weighted distribution",
+      "url": "https://arxiv.org/abs/2607.09132",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Chunle Huang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09132v1 Announce Type: new Abstract: In this note, we study distortion risk measures of step-weighted distribution.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09230",
+      "title": "When Does Order Flow Matter? State-Dependent L2 Liquidity-State Transitions in Crypto Futures",
+      "url": "https://arxiv.org/abs/2607.09230",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Joohyoung Jeon",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09230v1 Announce Type: new Abstract: Building event-conditioned market models requires separating macro-event labels from persistent microstructure state. We study this distinction in Binance BTCUSDT and ETHUSDT futures from 2023-2026, combining top-20 L2 order book data, trade-flow records, and macro-event windows. We define a supervised discrete L2 liquidity-state transition task, distinct from latent-regime detection and price-direction prediction, and evaluate models in rolling mo...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09355",
+      "title": "Ever since Ellsberg",
+      "url": "https://arxiv.org/abs/2607.09355",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Aluma Dembo, Shachar Kariv, Matthew Polisson, John K. -H. Quah",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09355v1 Announce Type: new Abstract: Ellsberg's famous paradox challenged Savage's subjective expected utility theory (EUT) -- which reduces uncertainty to risk -- by suggesting an aversion toward ambiguity. We provide a revealed preference test of the full set of axioms underpinning subjective EUT under uncertainty and compare it to an analogous test of objective EUT under risk. We find that individual choices are as consistent with utility maximization and expected utility maximizat...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09426",
+      "title": "The Quarter-Hour Effect: Periodic Algorithmic Trading and Return Predictability in Cryptocurrency Futures",
+      "url": "https://arxiv.org/abs/2607.09426",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Chan Kim, Peter Reinhard Hansen",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09426v1 Announce Type: new Abstract: Cryptocurrency markets exhibit periodic bursts in volatility and volume at one-, five-, and quarter-hour marks. Using trade data for six Binance perpetual contracts, we associate these bursts with algorithmic trading: trade-size roundness declines sharply within them, a behavioral signature of algorithmic participation. The Autocorrelation Map, a clock-phase-resolved display, reveals serial dependence in order flow and returns at the quarter-hour o...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09461",
+      "title": "Deep Learning for Dynamic Programming with Recursive Utility Using First-order Conditions",
+      "url": "https://arxiv.org/abs/2607.09461",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Xianhua Peng, Wu Guo, Songyan Wang, Jianfei Zhu",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09461v1 Announce Type: new Abstract: This paper proposes the certainty-equivalent first-order learning (CEFOL) algorithm, a deep learning algorithm for solving discrete-time dynamic programming problems with recursive utility. Dynamic programming with recursive utility is challenging because nonlinear certainty equivalent appears in the Bellman equation and the first-order optimality conditions but is difficult to evaluate. By introducing a separate neural network to represent the cer...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09505",
+      "title": "Objective and subjective entropy measures of portfolio suboptimality",
+      "url": "https://arxiv.org/abs/2607.09505",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Ati S Sharma",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09505v1 Announce Type: new Abstract: The cost of holding a suboptimal portfolio instead of the Kelly-optimal one admits two exact relative-entropy representations. Under the true measure, the expected log-wealth shortfall equals the KL divergence from the true measure to the measure under which the suboptimal portfolio would be optimal. Under that measure, the suboptimal portfolio appears to outperform the Kelly portfolio, and the apparent outperformance equals the reverse KL divergen...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09514",
+      "title": "Does Regulation Bite at Gateways? Evidence from MiCA and Stablecoins",
+      "url": "https://arxiv.org/abs/2607.09514",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Nicola Borri, Kirill Shakhnov",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09514v1 Announce Type: new Abstract: Gateways are trading venues where regulation can change the assets investors can trade. We study this margin using MiCA-EU's Markets in Crypto-Assets Regulation-which led several exchanges to delist USDT pairs for European Economic Area users, while USDC obtained MiCA authorization. First, aggregate market shares and trading volumes barely move. Second, comparing Regulated-facing exchanges with globally oriented exchanges where MiCA is less likely ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09589",
+      "title": "Regional Economic Impacts of the Just Energy Transition: Lessons for Coal Regions",
+      "url": "https://arxiv.org/abs/2607.09589",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Imke Rhoden, Jae-Hyuck Lee",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09589v1 Announce Type: new Abstract: The coal phase-out's regional economic impact is a key challenge of the energy transition, as employment and fiscal dependence in coal regions face structural adjustment without automatic market solutions. Analyzing European Union NUTS 2 regions from 2000-2022 with fixed effects and clustered errors, coal regions show a consistent 1.1 percentage points unemployment premium and grow faster in gross domestic product per capita at 0.2 percentage point...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.08681",
+      "title": "SolarChain-Eval: A Physics-Constrained Benchmark for Trustworthy Economic Agents in Decentralized Energy Markets",
+      "url": "https://arxiv.org/abs/2607.08681",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Shilin Ou, Yifan Xu, Luyao Zhang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.08681v1 Announce Type: cross Abstract: As agentic AI systems are increasingly applied to cyber-physical environments, their evaluation requires assessment of both task performance and trustworthiness. In decentralized energy markets, autonomous agents may improve market utility, but may also exploit invalid physical data, create artificial liquidity, and produce unstable governance decisions. Therefore, we propose SolarChain-Eval, a physics-constrained benchmark for evaluating trustwo...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09121",
+      "title": "Augmenting Fundamental Analysis with Large Language Models: A RAG-Based System for Generating Investor Briefs",
+      "url": "https://arxiv.org/abs/2607.09121",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Bartosz Zi\\'o{\\l}ko, Kacper Dobrzeniewski",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09121v1 Announce Type: cross Abstract: In this study, we examine the opportunities brought by Large Language Models (LLMs) to various aspects of fundamental analysis of companies based on their reports as well as data and documents describing macroeconomic situation like GDP and inflation changes as well as documents filled to the U.S. Securities and Exchange Commission (SEC) which can be found in EDGAR. We were preprocessing those data and than sending via API to gpt-4o model in a Re...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09435",
+      "title": "Voting Biases in Decentralized Autonomous Organization (DAO) Governance",
+      "url": "https://arxiv.org/abs/2607.09435",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Stefano Balietti, Pietro Saggese, Markus Strohmaier",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09435v1 Announce Type: cross Abstract: Decentralized Autonomous Organizations (DAOs) use token-weighted voting to allocate resources, set protocol rules, and legitimate collective decisions. Yet, support in DAO voting is strikingly concentrated. What happens inside the ballot that produces this concentration? We study DAOs' governance at the proposal-choice level, linking each choice's voting-power share to three observable features: whether it expresses an approval-oriented stance, w...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09556",
+      "title": "A novel robust mixed integer linear programming model for index tracking problem under no rebalancing: heuristic optimization approach",
+      "url": "https://arxiv.org/abs/2607.09556",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Danial Ramezani, Mostafa Abouei Ardakan, Mohamadreza Dehghani Ahmadabad",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09556v1 Announce Type: cross Abstract: Passive management has increasingly won popularity over the past few years because of its advantages, such as lower management fees and transaction costs. Index tracking endeavors to reproduce the performance of an index with smaller sets of assets. In this paper, a novel formulation is proposed that is not only more robust than the existing ones but also performs better on out-of-sample data and tracks indices over long periods without any consi...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09566",
+      "title": "Large-Scale Portfolio Optimization Problem Under Cardinality Constraint With Enhanced Multi-Objective Evolutionary Algorithms",
+      "url": "https://arxiv.org/abs/2607.09566",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Danial Ramezani, Mostafa Abouei Ardakan",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09566v1 Announce Type: cross Abstract: Decision-making is posing an increasingly formidable challenge to investors because of the growing number of alternatives available in financial markets. A hot area of research over the past few decades has been portfolio optimization that seeks to determine how much an investor should invest in which asset. Introducing real-world conditions to the optimization model turns the problem into an NP-hard one for whose solution exact methods become in...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.09568",
+      "title": "Perturbed utility Markovian traffic equilibrium: theory and computation",
+      "url": "https://arxiv.org/abs/2607.09568",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Rui Yao, Kenan Zhang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.09568v1 Announce Type: cross Abstract: Large-scale traffic assignment requires equilibrium models that are both behaviorally plausible and computationally tractable. This paper develops a perturbed utility Markovian equilibrium (PUME) framework that preserves the scalability of link-based Markovian traffic equilibrium models and extends their applicability to settings with boundary choice probabilities, undiscounted network loading, and general link interactions. As the behavioral bas...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2410.21019",
+      "title": "Beyond Trade Openness: Network-Based Evidence on African Economic Integration",
+      "url": "https://arxiv.org/abs/2410.21019",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Tekilu Tadesse Choramo, Jemal Abafita, Yerali Gandica, Luis E C Rocha",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2410.21019v2 Announce Type: replace Abstract: This paper develops a network-based methodology for measuring economic integration in Africa. Conventional indicators such as trade openness and intra-regional trade shares capture the volume of trade but not countries' structural roles within the continental trade system. Using bilateral intra-African trade data for 2000-2019, we construct annual directed trade networks and measure countries' direct connectivity, recursive influence, brokerage...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2507.01365",
+      "title": "Consumption Stimulus with Digital Coupons: Heterogeneity and Policy Design",
+      "url": "https://arxiv.org/abs/2507.01365",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Ying Chen, Mingyi Li, Jonathan J. Mao, Jingyi Zhou",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2507.01365v3 Announce Type: replace Abstract: We study consumption stimulus using digital coupons, which provide time-limited subsidies contingent on minimum spending. Analyzing a large-scale program in China, we find that the program generates large and heterogeneous short-term effects. Consumption responses vary across both consumers and locations, reflecting both demand-side and supply-side factors. This heterogeneity shapes the incidence of the program: high-response consumers tend to ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2603.09006",
+      "title": "Spectral Portfolio Theory: From SGD Weight Matrices to Wealth Dynamics",
+      "url": "https://arxiv.org/abs/2603.09006",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Anders G Fr{\\o}seth",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2603.09006v3 Announce Type: replace Abstract: We develop spectral portfolio theory by establishing a direct identification: neural network weight matrices trained on stochastic processes are portfolio allocation matrices, and their spectral structure encodes factor decompositions and wealth concentration patterns. The three forces governing stochastic gradient descent (SGD) - gradient signal, dimensional regularisation, and eigenvalue repulsion - translate directly into portfolio dynamics:...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.05091",
+      "title": "Any Axes Are Allowed: A Characteristic-Axis Integral Diagnostic of Factor Models",
+      "url": "https://arxiv.org/abs/2607.05091",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Useong Shin",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.05091v4 Announce Type: replace Abstract: This paper extends the cap-axis integral diagnostic to general characteristic axes, measuring factor-model pricing errors as bridge-alpha curves. A predetermined characteristic order generates prefix portfolios; subtracting equal-exposure aggregate portfolios yields zero-investment bridges indexed by cutoff p. The null is a zero-curve restriction on the subspace generated by the order, not a pointwise decile test. In 1967-2024 CRSP data, adding...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2603.16006",
+      "title": "Heterogeneous Returns and Wealth Tax Neutrality: A Fokker-Planck Framework",
+      "url": "https://arxiv.org/abs/2603.16006",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Anders G Fr{\\o}seth",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2603.16006v3 Announce Type: replace-cross Abstract: We extend the Fokker-Planck framework of Froseth (2026, arXiv:2603.05283) to populations of investors with heterogeneous, persistent return-generating ability. When the drift coefficient in the Langevin equation for log-wealth varies across investors, the proportional wealth tax remains a uniform drift shift but ceases to be neutral in the economic sense: its real incidence differs across ability types, and the stationary wealth distribut...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2603.24190",
+      "title": "Dynamical thermalization and turbulence in social stratification models",
+      "url": "https://arxiv.org/abs/2603.24190",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Klaus M. Frahm, Dima L. Shepelyansky",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2603.24190v2 Announce Type: replace-cross Abstract: We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions. It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society. The Hamiltonian evolution is charac...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.03888",
+      "title": "Local Gaussian Correlation in the Tails: A Scarcity Diagnostic, an Optimal Local Bandwidth, and the Limits of Adaptivity",
+      "url": "https://arxiv.org/abs/2607.03888",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Akash Deep, Gagan Deep",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-13T04:00:00+00:00",
+      "summary": "arXiv:2607.03888v2 Announce Type: replace-cross Abstract: Local Gaussian correlation (LGC) measures dependence locally, making it a natural tool for tail dependence and financial contagion, but its estimates degrade in the joint tails, where they are most needed. Location-adaptive bandwidths have been tried for LGC and found inferior to a single global bandwidth; we explain why, and map the regime in which adaptivity does help. First, a diagnostic: across heavy-tailed data-generating processes t...",
+      "lang": "en"
     },
     {
       "id": "hn:48523232",
@@ -877,8 +1285,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48717469"
       },
       "duration_sec": null,
-      "views": 694,
-      "comments": 1584,
+      "views": 695,
+      "comments": 1585,
       "published_at": "2026-06-29T10:45:51+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -937,6 +1345,25 @@
       "views": 67,
       "comments": 11,
       "published_at": "2026-06-30T15:34:27+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48884775",
+      "title": "Storm clouds gather over America's financial supremacy",
+      "url": "https://www.economist.com/finance-and-economics/2026/07/12/storm-clouds-gather-over-americas-financial-supremacy",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48884775",
+        "name": "pseudolus",
+        "hn_url": "https://news.ycombinator.com/item?id=48884775"
+      },
+      "duration_sec": null,
+      "views": 63,
+      "comments": 19,
+      "published_at": "2026-07-12T21:04:13+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1029,7 +1456,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48849827"
       },
       "duration_sec": null,
-      "views": 16,
+      "views": 17,
       "comments": 2,
       "published_at": "2026-07-09T17:49:05+00:00",
       "summary": "",
@@ -1051,63 +1478,6 @@
       "views": 16,
       "comments": 2,
       "published_at": "2026-07-07T22:00:45+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48678979",
-      "title": "Trump administration asks OpenAI to stagger release of new model",
-      "url": "https://ca.finance.yahoo.com/news/trump-administration-asks-openai-stagger-204300837.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48678979",
-        "name": "fla",
-        "hn_url": "https://news.ycombinator.com/item?id=48678979"
-      },
-      "duration_sec": null,
-      "views": 13,
-      "comments": 2,
-      "published_at": "2026-06-25T20:47:46+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48852473",
-      "title": "Meta is staring down $1.4T in lawsuit over teen mental health",
-      "url": "https://finance.yahoo.com/technology/articles/meta-staring-down-1-4t-173432639.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48852473",
-        "name": "randycupertino",
-        "hn_url": "https://news.ycombinator.com/item?id=48852473"
-      },
-      "duration_sec": null,
-      "views": 12,
-      "comments": 2,
-      "published_at": "2026-07-09T21:15:06+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48767569",
-      "title": "Trump Made $1B on Crypto Deals While His Fans Lost a Fortune",
-      "url": "https://www.wsj.com/finance/currencies/trump-made-1-billion-on-crypto-deals-while-his-fans-lost-a-fortune-408754c9",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48767569",
-        "name": "doener",
-        "hn_url": "https://news.ycombinator.com/item?id=48767569"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 3,
-      "published_at": "2026-07-02T21:25:54+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1170,6 +1540,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48878126",
+      "title": "Under federal rule, colleges must leave grads better off or lose financial aid",
+      "url": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48878126",
+        "name": "nradov",
+        "hn_url": "https://news.ycombinator.com/item?id=48878126"
+      },
+      "duration_sec": null,
+      "views": 190,
+      "comments": 490,
+      "published_at": "2026-07-12T04:00:14+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
       "id": "hn:48703613",
       "title": "Feds Killed Polestar and Spared Volvo",
       "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
@@ -1219,7 +1608,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48735748"
       },
       "duration_sec": null,
-      "views": 82,
+      "views": 83,
       "comments": 124,
       "published_at": "2026-06-30T17:05:58+00:00",
       "summary": "",
@@ -1303,20 +1692,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:48878126",
-      "title": "Under federal rule, colleges must leave grads better off or lose financial aid",
-      "url": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
+      "id": "hn:48880233",
+      "title": "IT administrators are \"fed up\" with Microsoft's \"useless\" apps and Windows 11",
+      "url": "https://www.neowin.net/news/it-admins-feel-overwhelmingly-sick-of-microsoft-and-windows-11-garbage-apps-products/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "48878126",
-        "name": "nradov",
-        "hn_url": "https://news.ycombinator.com/item?id=48878126"
+        "id": "48880233",
+        "name": "01-_-",
+        "hn_url": "https://news.ycombinator.com/item?id=48880233"
       },
       "duration_sec": null,
-      "views": 43,
-      "comments": 52,
-      "published_at": "2026-07-12T04:00:14+00:00",
+      "views": 44,
+      "comments": 25,
+      "published_at": "2026-07-12T11:22:42+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
