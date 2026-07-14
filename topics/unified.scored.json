@@ -1,212 +1,188 @@
 {
-  "date": "2026-07-13",
-  "intro": "今日市场剧烈震荡：中东战事升级引发韩股暴跌9%触发熔断，SK海力士重挫14%，存储芯片板块承压。但产业层面信号密集——SK海力士完成史上最大IPO募资265亿美元，台积电6月营收同比暴增67.9%创纪录，三星完成特斯拉AI5芯片流片。AI算力军备竞赛从芯片蔓延至债市，六大科技巨头今年已发债2440亿美元翻倍。",
+  "date": "2026-07-14",
+  "intro": "今日最关键的信号是韩国股市因单股杠杆ETF踩踏暴跌后深V反弹，但去杠杆尚未出清，监管会议在即；同时苹果起诉OpenAI窃取商业机密，Siri AI公测版上线，AI竞争进入法律与产品双线战场。半导体方面，SK海力士预警2027年将是内存短缺最严重的一年，供给瓶颈持续至2030年。",
   "headlines": [
     {
       "rank": 1,
       "domain": "股票",
-      "id": "wscn:3776754",
-      "url": "https://wallstreetcn.com/articles/3776754",
+      "id": "wscn:3776861",
+      "url": "https://wallstreetcn.com/articles/3776861",
       "source": "华尔街见闻",
       "stars": 5,
-      "title": "中东战事搅动全球市场：韩股暴跌9%触发熔断，SK海力士重挫14%",
-      "lead": "伊朗冲突升级引发全球避险情绪，韩国KOSPI指数日内跌超9%触发熔断，SK海力士暴跌14.5%，三星电子跌11%。纳斯达克100期货跌1.3%，黄金跌至4065美元。这是自2020年3月以来韩国首次触发熔断。",
+      "title": "韩股单日暴跌9%后深V反弹，杠杆ETF踩踏引发流动性危机",
+      "lead": "韩国KOSPI指数周一暴跌超8%触发年内第七次熔断，盘中一度跌超5%后转涨。高盛一线交易员指出，这不是基本面恶化，而是单股杠杆ETF集中去杠杆引发的仓位清洗，外资与本地机构合计净卖出超26亿美元。韩国政府周四将开会讨论监管措施。",
       "confirmed": [
-        "韩国KOSPI指数日内跌超9%，触发熔断机制暂停交易20分钟",
-        "SK海力士跌14.5%，三星电子跌11%",
-        "纳斯达克100指数期货下跌1.3%",
-        "黄金下跌1.3%至4065美元/盎司，白银跌近3%"
+        "KOSPI单日暴跌超8%，触发年内第七次熔断",
+        "外资与本地机构合计净卖出超26亿美元",
+        "韩国政府周四召开会议讨论单股杠杆ETF监管",
+        "高盛认为这是流动性危机而非周期顶部"
       ],
       "judgment": [
-        "地缘冲突持续性存疑，伊朗是否进一步封锁霍尔木兹海峡是关键变量",
-        "韩国政府已宣布设立'未来应对基金'稳定市场，实际效果待观察",
-        "高盛认为伊朗战争不足以打乱通胀锚，预计美联储全年按兵不动",
-        "韩国银行贷款额度已消耗85%，下半年杠杆资金面临强制降温"
+        "杠杆是否已完全出清仍不确定，短期赎回压力仍在",
+        "监管可能提高保证金或限制波动幅度，但治标不治本",
+        "韩元升值与股市下跌的负相关可能成为新常态",
+        "存储芯片基本面未变，极端波动或是布局窗口"
       ],
-      "implication": "今天全球市场剧烈波动，你的持仓如果涉及韩股或半导体，需要密切关注今晚美股开盘。短期避险情绪可能延续，但高盛认为大宗商品冲击正在消退。建议检查你的投资组合中存储芯片相关敞口，考虑对冲工具。"
+      "implication": "如果你持有韩股或相关ETF，短期不要抄底——杠杆出清需要时间，周四监管会议可能带来额外波动。但长期看，SK海力士、三星等存储龙头的AI需求逻辑未变，极端恐慌反而是分批建仓的窗口。关注高盛说的'流动性危机不是周期顶部'，用仓位控制风险。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-raises-a-record-usd26-5-billion-in-historic-u-s-ipo-south-korean-memory-giant-to-fund-massive-hbm-manufacturing-expansions",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-raises-a-record-usd26-5-billion-in-historic-u-s-ipo-south-korean-memory-giant-to-fund-massive-hbm-manufacturing-expansions",
-      "source": "Tom's Hardware",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
+      "url": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
+      "source": "TechCrunch",
       "stars": 5,
-      "title": "SK海力士创纪录265亿美元纳斯达克IPO，HBM扩产全面加速",
-      "lead": "SK海力士在纳斯达克完成史上最大规模IPO，募资265亿美元用于HBM制造扩张。CEO同时警告2027年将出现'史上最严重存储短缺'，预计持续到2030年。公司正考虑'内存即服务'模式，允许客户租赁而非购买芯片。",
+      "title": "苹果起诉OpenAI：前员工利用漏洞窃取商业机密",
+      "lead": "苹果指控一名前员工在离职加入OpenAI后，利用系统漏洞下载大量机密文件。Stratechery的Ben Thompson评论称，这更像是苹果在AI竞争压力下的'发泄'，但案件可能影响两家公司的合作关系。同日，iOS 27公测版上线，Siri AI正式开放给公众测试。",
       "confirmed": [
-        "SK海力士IPO募资265亿美元，为纳斯达克史上最大",
-        "CEO郭鲁正称2027年将是存储行业历史上供应最紧张的一年",
-        "HBM产能已售罄，公司计划用IPO资金建设新晶圆厂",
-        "公司正考虑推出'内存即服务'租赁模式"
+        "苹果起诉OpenAI，指控前员工窃取商业机密",
+        "该员工利用系统漏洞在离职后仍可访问苹果网络",
+        "iOS 27公测版上线，Siri AI首次开放公众测试",
+        "Stratechery分析认为苹果此举是'发泄'而非真正维权"
       ],
       "judgment": [
-        "265亿美元能否满足HBM产能扩张需求仍存疑，建厂周期长",
-        "'内存即服务'模式可能改变AI芯片采购格局，但定价机制未明",
-        "特朗普政府施压SK海力士在美建厂，会长崔泰源表示'条件合适就投资'",
-        "韩国券商KIS预测Q2营业利润60.4万亿韩元，低于市场共识8%"
+        "案件可能影响苹果与OpenAI未来的合作（如ChatGPT集成）",
+        "Siri AI公测表现将决定苹果能否在AI助手赛道翻身",
+        "苹果内部AI人才流失问题可能比公开的更严重",
+        "法律战可能拖延OpenAI的IPO进程"
       ],
-      "implication": "SK海力士的IPO和产能警告直接关系到AI芯片供应链。如果你在做AI基础设施相关的项目或投资，HBM的供应紧张意味着GPU成本可能持续高企。建议关注国产HBM替代方案和内存租赁模式对AI创业公司算力成本的影响。"
+      "implication": "这对你意味着两件事：第一，如果你在用苹果生态，立刻升级iOS 27公测版体验Siri AI——这是苹果AI战略的'交卷时刻'，值得亲自测试。第二，苹果与OpenAI的法律纠纷提醒你：AI人才争夺已白热化，如果你在考虑跳槽，注意竞业协议和数据安全条款。"
     },
     {
       "rank": 3,
       "domain": "AI 算力 / 半导体",
-      "id": "wscn:3776772",
-      "url": "https://wallstreetcn.com/articles/3776772",
-      "source": "华尔街见闻",
-      "stars": 4,
-      "title": "三星完成特斯拉AI5芯片流片，2纳米工艺量产在即",
-      "lead": "特斯拉下一代AI芯片AI5已完成流片，将在三星德克萨斯泰勒工厂以2纳米工艺量产。这是三星晶圆代工首次承接超大型2纳米商业订单，有望帮助其非存储器部门扭亏为盈。",
+      "id": "rss:https://www.tomshardware.com/pc-components/dram/sk-hynix-says-2027-will-be-the-worst-year-for-memory-shortage-forecasts-crunch-to-last-until-2030-ceo-shares-grim-outlook-on-the-day-sk-hynix-gets-listed-on-nasdaq",
+      "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-says-2027-will-be-the-worst-year-for-memory-shortage-forecasts-crunch-to-last-until-2030-ceo-shares-grim-outlook-on-the-day-sk-hynix-gets-listed-on-nasdaq",
+      "source": "Tom's Hardware",
+      "stars": 5,
+      "title": "SK海力士CEO预警：2027年将是内存短缺最严重的一年，供需紧张持续到2030年",
+      "lead": "SK海力士CEO Kwak Noh-jung在纳斯达克上市当天发出罕见严厉警告：AI驱动的HBM需求将导致2027年成为内存短缺'最糟糕的一年'，短缺将持续到2030年。公司同日宣布在美投资250亿美元，目标到2035年将40%的DRAM产能放在美国。",
       "confirmed": [
-        "特斯拉AI5芯片已完成流片",
-        "将在三星德克萨斯泰勒工厂以2纳米工艺量产",
-        "这是三星晶圆代工首次承接超大型2纳米商业订单",
-        "三星非存储器部门当前单季亏损约6000亿韩元"
+        "SK海力士CEO称2027年将是内存短缺最严重的一年",
+        "短缺预计持续到2030年",
+        "公司宣布在美投资250亿美元，目标40% DRAM美国制造",
+        "同日SK海力士在纳斯达克上市"
       ],
       "judgment": [
-        "量产良率仍是关键变数，三星2纳米良率此前未公开",
-        "特斯拉订单能否帮助三星晶圆代工扭亏，预计明年见分晓",
-        "AI5芯片具体性能指标尚未公布",
-        "三星与台积电在2纳米领域的竞争格局将因这笔订单发生变化"
+        "三星、美光等竞争对手可能同步扩产，但供给瓶颈短期难解",
+        "HBM3e和HBM4的良率爬坡速度将决定短缺程度",
+        "美国本土制造能否按计划落地存疑（人才、补贴到位慢）",
+        "内存价格上涨可能抑制部分AI项目的部署节奏"
       ],
-      "implication": "三星拿下特斯拉AI5订单，意味着AI芯片代工市场不再是台积电一家独大。如果你关注AI芯片供应链，这是重要的产业信号——未来AI芯片的代工选择更多，可能影响成本和交付周期。对于你的content-curator项目，可以考虑追踪三星2纳米良率进展作为行业指标。"
+      "implication": "如果你在做AI推理或训练部署，现在就要锁定内存供应合同——2027年可能有钱也买不到HBM。对于你的content-curator项目，如果涉及本地模型部署，建议优先考虑量化模型或边缘端方案，减少对高带宽内存的依赖。长期来看，存储芯片股（SK海力士、三星、美光）的AI叙事依然坚实，回调是机会。"
     },
     {
       "rank": 4,
       "domain": "AI",
-      "id": "bvid:BV1KDNA6eEgr",
-      "url": "http://www.bilibili.com/video/av116901594337479",
-      "source": "网络小白_Uncle城",
+      "id": "bvid:BV1QnML6pEZr",
+      "url": "https://www.bilibili.com/video/av116887417522347",
+      "source": "卡普迪姆",
       "stars": 4,
-      "title": "Claude Code暗藏监控后门：Unicode隐写+时区检测专门标记中国用户",
-      "lead": "Reddit用户逆向Claude Code源码发现一套隐藏检测代码：每次AI请求用肉眼无法分辨的Unicode字符标记用户是否来自中国。后门从4月2日运行到6月30日被发现，整整三个月。工信部NVDB已发布风险提示。",
+      "title": "2026年过半，我是怎样使用Agent的？——调度sub-agent的实战经验",
+      "lead": "B站UP主分享了自己半年来的Agent使用心得，核心技巧是用Claude Code调度多个sub-agent，让Codex执行便宜模型（如GPT 5.5）来降低成本。视频包含具体的prompt架构和调度策略，对正在做content-curator项目的你很有参考价值。",
       "confirmed": [
-        "Reddit用户逆向Claude Code源码发现隐藏检测代码",
-        "使用Unicode隐写术：U+0027→U+2019/U+02BC/U+02B9标记中国用户",
-        "包含时区检测+147条加密域名黑名单（XOR key=91）",
-        "后门从4月2日运行到6月30日，持续三个月",
-        "工信部NVDB已发布Claude Code安全后门隐患风险提示"
+        "UP主使用Claude Code调度多个sub-agent",
+        "用Codex exec调用便宜的GPT 5.5模型降低成本",
+        "分享了调度sub-agent的提示词原图",
+        "参考了Theo的推文和mattpocock的skill库"
       ],
       "judgment": [
-        "Anthropic官方尚未回应，动机不明",
-        "其他AI编程工具（Codex、Cursor）是否也存在类似后门待查",
-        "社区已提供Docker沙盒隔离方案，但完全规避需替代工具",
-        "国内用户使用Claude Code面临数据泄露和法律双重风险"
+        "这种多模型调度策略的稳定性有待长期验证",
+        "GPT 5.5的便宜是否意味着质量下降？需要权衡",
+        "sub-agent之间的上下文传递可能成为瓶颈",
+        "该方法是否适用于非编程类Agent任务？"
       ],
-      "implication": "如果你在用Claude Code做项目，建议立即检查版本并考虑沙盒隔离。对于你的content-curator项目，这个事件提醒你：依赖闭源AI工具存在供应链安全风险。可以考虑在项目中预留模型切换接口，避免被单一工具绑定。"
-    },
-    {
-      "rank": 5,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/apple-sues-openai-over-alleged-theft-of-trade-secrets-claims-company-mentored-incoming-employees-on-bringing-confidential-information",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/apple-sues-openai-over-alleged-theft-of-trade-secrets-claims-company-mentored-incoming-employees-on-bringing-confidential-information",
-      "source": "Tom's Hardware",
-      "stars": 4,
-      "title": "苹果起诉OpenAI窃取商业机密：指其指导新员工携带机密信息入职",
-      "lead": "苹果正式起诉OpenAI，指控其窃取商业机密，包括指导即将入职的员工从苹果携带机密信息。两家公司正在AI硬件领域展开竞争，苹果此前与OpenAI有过合作但关系紧张。",
-      "confirmed": [
-        "苹果已向法院提起诉讼，指控OpenAI窃取商业机密",
-        "起诉对象包括OpenAI及苹果前员工",
-        "指控OpenAI指导新员工从苹果携带机密信息入职",
-        "两家公司在AI硬件领域存在直接竞争"
-      ],
-      "judgment": [
-        "诉讼可能涉及苹果AI芯片和硬件设计机密",
-        "苹果与OpenAI此前合作关系（如ChatGPT集成）可能受影响",
-        "案件可能影响硅谷人才流动规则",
-        "苹果正在自研AI芯片，与OpenAI的硬件需求形成竞争"
-      ],
-      "implication": "苹果与OpenAI的诉讼升级意味着AI行业的人才和知识产权争夺进入白热化。如果你在AI公司工作或求职，需要关注竞业协议和知识产权的边界。对于你的个人项目，建议使用开源模型和工具，避免卷入商业纠纷。"
+      "implication": "你的content-curator项目正好需要这种多Agent协作思路——用Claude Code做编排，Codex做执行，可以大幅降低API成本。建议你直接去B站看视频，重点抄作业调度prompt和sub-agent分工模式。但注意：不要照搬，要根据你的RAG流程调整上下文窗口大小。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "台积电6月营收4426.8亿新台币，同比增长67.9%创纪录",
-      "url": "https://36kr.com/newsflashes/3893644459768578?f=rss",
-      "source": "36氪",
-      "one_liner": "AI芯片需求持续爆发，台积电上半年营收2.4万亿新台币同比增35.6%，先进封装产能排至2027年。"
+      "domain": "AI",
+      "title": "Claude Code多Agent模式实战分享",
+      "url": "https://www.bilibili.com/video/av116454666012312",
+      "source": "Simon林_",
+      "one_liner": "介绍了Claude Code的两种多Agent模式（subagents和独立agent），对理解Agent架构有帮助，但内容较浅，适合入门。"
+    },
+    {
+      "domain": "AI",
+      "title": "别再二选一：Claude Code + Codex 联用才是最强姿势",
+      "url": "https://www.bilibili.com/video/av116537746791000",
+      "source": "星小脉",
+      "one_liner": "与头条4观点类似但更早发布，核心思路一致，可作为补充参考。"
+    },
+    {
+      "domain": "AI",
+      "title": "Claude code接管科研全流程：cc-kaiti 带你从 0 走到开题报告和答辩 PPT",
+      "url": "https://www.bilibili.com/video/av116866278233889",
+      "source": "做科研的大师兄",
+      "one_liner": "展示了Claude Code在科研场景的深度应用，但用户非科研背景，优先级降低。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "美AI巨头发债2440亿美元较去年翻倍，债市承压",
-      "url": "https://wallstreetcn.com/articles/3776773",
-      "source": "华尔街见闻",
-      "one_liner": "六大科技巨头今年发债2440亿，英伟达、亚马逊各250亿，信用利差走阔，数千亿新债仍在路上。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Colibrì概念验证：1.5TB AI模型仅需25GB RAM运行",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/colibri-proof-of-concept-gains-frontier-level-1-5-tb-ai-model-novel-approach-runs-on-only-25gb-of-ram-and-shows-promise-for-local-ai-setups",
+      "title": "Tesla's AI5 with 2nm-class node tapes out at Samsung Foundry",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/teslas-ai5-with-2nm-class-node-tapes-out-at-samsung-foundry-production-starts-soon-months-after-tsmc-tape-out",
       "source": "Tom's Hardware",
-      "one_liner": "新型方法让超大模型在消费级硬件上运行，对本地AI部署和边缘计算有重大意义。"
+      "one_liner": "特斯拉AI5芯片在三星流片，与TSMC双供应商策略，对自动驾驶和AI推理有长期影响，但短期无实质变化。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Anthropic称可读取Claude的'思考过程'，发现全局工作空间",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-it-can-read-claudes-thoughts-as-detailed-in-new-research-paper-models-observed-to-have-a-global-workspace-revealing-more-of-what-makes-llms-tick",
+      "title": "Meta expands Hyperion AI supercluster plans to 5GW, pushes Louisiana investment past $50B",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/meta-expands-colossal-hyperion-ai-supercluster-plans-to-5gw-pushes-louisiana-investment-past-usd50-billion-as-ai-race-accelerates-says-it-plans-to-invest-over-usd1-billion-in-local-infrastructure-improvements",
       "source": "Tom's Hardware",
-      "one_liner": "Anthropic发现Claude内部'J-space'类似人类思维，可解释性研究取得突破，但距离实际应用尚远。"
+      "one_liner": "Meta将Hyperion集群从2GW扩至5GW，AI军备竞赛持续升级，但这类新闻已不新鲜，缺乏增量信息。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "SambaNova获10亿美元融资，摩根大通成为客户",
-      "url": "https://www.eetimes.com/sambanova-raises-1-billion-signs-jpmorganchase-as-a-customer/",
-      "source": "EE Times",
-      "one_liner": "AI芯片创企SambaNova获10亿融资，企业市场开始发力，摩根大通成为客户。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Rapidus 2nm晶圆定价约2万美元，低于台积电",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/japanese-chipmaker-rapidus-to-offer-lower-wafer-pricing-than-tsmc-2nm-class-silicon-to-be-priced-around-usd20-000-on-2027-launch",
+      "title": "Apple's rumored M7 Ultra targets 1.5TB of memory and Blackwell-class AI performance",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/apples-rumored-m7-ultra-targets-1-5tb-of-memory-and-blackwell-class-ai",
       "source": "Tom's Hardware",
-      "one_liner": "日本芯片制造商Rapidus计划2027年推出2nm晶圆，定价约2万美元低于台积电，但量产能力存疑。"
+      "one_liner": "苹果M7 Ultra传闻支持1.5TB统一内存，AI性能对标Blackwell，但2028年才可能推出，太遥远。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Tencent拟收购Manus，Meta被迫出售",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tencent-is-reportedly-in-talks-to-acquire-manus-from-meta-following-beijing-intervention-company-expects-to-remain-independent-of-chinese-tech-giant",
-      "source": "Tom's Hardware",
-      "one_liner": "北京干预后腾讯欲20亿美元收购Manus，Meta被迫出售，中国AI监管影响跨境并购。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Kimi K2.7 Code正式登陆GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
-      "source": "GitHub Blog",
-      "one_liner": "国产AI编程模型Kimi K2.7进入GitHub Copilot，开发者多了一个国产编程助手选择。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "OpenAI招聘家庭产品经理，ChatGPT深入家庭场景",
-      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "title": "Anthropic starts localizing Claude pricing for India",
+      "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
       "source": "TechCrunch",
-      "one_liner": "OpenAI设家庭产品经理岗，ChatGPT瞄准家庭、老年人和儿童市场。"
+      "one_liner": "Anthropic在印度推出本地化定价，暗示新兴市场拓展，但对你影响有限。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Satya Nadella has issued a shocking warning to companies using AI",
+      "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+      "source": "TechCrunch",
+      "one_liner": "纳德拉警告企业不要过度依赖单一AI供应商，但内容偏宏观，缺乏实操建议。"
     },
     {
       "domain": "股票",
-      "title": "高盛：伊朗战争不足以打乱通胀锚，预计美联储全年按兵不动",
-      "url": "https://wallstreetcn.com/articles/3776775",
+      "title": "大模型7月激战：国产性能快速攀升，海外巨头开启价格战",
+      "url": "https://wallstreetcn.com/premium/articles/3776757",
       "source": "华尔街见闻",
-      "one_liner": "高盛认为大宗商品冲击消退，核心PCE维持20-23个基点，美联储全年按兵不动，但油价若重返100美元则天平倾斜。"
+      "one_liner": "全球大模型能力代差收窄，价格战开启，对开发者是利好，但信息较泛。"
     },
     {
       "domain": "股票",
-      "title": "韩国政府设立'未来应对基金'推进AI半导体等三大超级项目",
-      "url": "https://wallstreetcn.com/articles/3776771",
+      "title": "华尔街不担心资本开支！大摩：明年五大云厂资本开支1.2万亿美元",
+      "url": "https://wallstreetcn.com/articles/3776864",
       "source": "华尔街见闻",
-      "one_liner": "韩国政府宣布设立基金推进AI半导体等超级项目，应对市场动荡和产业竞争。"
+      "one_liner": "大摩预测2027年五大云厂资本开支1.2万亿美元，算力扩张4倍，但市场已部分定价。"
     },
     {
       "domain": "金融",
-      "title": "美国6月CPI数据即将公布，油价下跌或推动通胀降温",
-      "url": "https://wallstreetcn.com/premium/articles/3776717?layout=wscn-layout",
-      "source": "华尔街见闻",
-      "one_liner": "6月CPI或因油价回落明显降温，但核心通胀粘性仍强，美联储短期料维持观望。"
+      "title": "Digital euro clears key hurdle as EU seeks to break free from U.S. credit cards",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/ecb-secures-key-parliamentary-backing-102718449.html",
+      "source": "Yahoo Finance",
+      "one_liner": "数字欧元获欧盟议会关键支持，长期影响支付格局，但落地仍需数年。"
+    },
+    {
+      "domain": "金融",
+      "title": "Storm clouds gather over America's financial supremacy",
+      "url": "https://www.economist.com/finance-and-economics/2026/07/12/storm-clouds-gather-over-americas-financial-supremacy",
+      "source": "The Economist",
+      "one_liner": "经济学人分析美国金融霸权面临挑战，但内容偏宏观，适合周末深度阅读。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-13T08:19:48+0000"
+    "scored_at": "2026-07-14T06:05:11+0000"
   }
 }
