@@ -2,28 +2,28 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今日最关键的信号是韩国股市因单股杠杆ETF踩踏暴跌后深V反弹，但去杠杆尚未出清，监管会议在即；同时苹果起诉OpenAI窃取商业机密，Siri AI公测版上线，AI竞争进入法律与产品双线战场。半导体方面，SK海力士预警2027年将是内存短缺最严重的一年，供给瓶颈持续至2030年。_
+_今日核心信号：韩国股市因单股杠杆ETF踩踏暴跌后反弹，但去杠杆尚未出清；苹果起诉OpenAI窃取商业机密，背后是AI人才争夺战升级。大摩预测2028年五大云厂资本开支达1.4万亿美元，算力扩张4倍，但SK海力士警告2027年内存短缺最严重。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. 2026年过半，我是怎样使用Agent的？——调度sub-agent的实战经验
+### 4. 2026年过半，我是怎样使用 Agent 的？——调度sub-agent的实战技巧
 
 **[AI]** · ⭐⭐⭐⭐ · _卡普迪姆_
 
-B站UP主分享了自己半年来的Agent使用心得，核心技巧是用Claude Code调度多个sub-agent，让Codex执行便宜模型（如GPT 5.5）来降低成本。视频包含具体的prompt架构和调度策略，对正在做content-curator项目的你很有参考价值。
+up主分享了自己使用Claude Code调度多个sub-agent的实战经验，核心思路是让Claude Code利用Codex exec调用便宜的GPT 5.5作为子Agent，实现多模型协作。视频包含具体的调度提示词和配置方法，是少有的Agent工程实践内容。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| UP主使用Claude Code调度多个sub-agent | 这种多模型调度策略的稳定性有待长期验证 |
-| 用Codex exec调用便宜的GPT 5.5模型降低成本 | GPT 5.5的便宜是否意味着质量下降？需要权衡 |
-| 分享了调度sub-agent的提示词原图 | sub-agent之间的上下文传递可能成为瓶颈 |
-| 参考了Theo的推文和mattpocock的skill库 | 该方法是否适用于非编程类Agent任务？ |
+| up主使用Claude Code调度多个sub-agent | 该方法是否适用于大规模项目尚不确定 |
+| 核心技巧：让Claude Code调用Codex exec执行GPT 5.5 | 多Agent协作的稳定性和成本需要进一步验证 |
+| 提供了调度sub-agent的提示词原图 | 提示词是否通用，还是仅适用于特定场景 |
+| 视频发布于2026-07-09，时效性好 |  |
 
 **📖 主编点评**
 
-你的content-curator项目正好需要这种多Agent协作思路——用Claude Code做编排，Codex做执行，可以大幅降低API成本。建议你直接去B站看视频，重点抄作业调度prompt和sub-agent分工模式。但注意：不要照搬，要根据你的RAG流程调整上下文窗口大小。
+你正在做content-curator Agent项目，这个视频直接展示了多Agent调度的工程实现。建议你参考其调度思路，用Claude Code作为主Agent，调用更便宜的模型处理子任务，可以降低API成本。视频中的提示词值得一试。
 
 📺 [打开原文](https://www.bilibili.com/video/av116887417522347)
 
@@ -31,12 +31,12 @@ B站UP主分享了自己半年来的Agent使用心得，核心技巧是用Claude
 
 ## 📋 备选阅读
 
-- [Claude Code多Agent模式实战分享](https://www.bilibili.com/video/av116454666012312) —— 介绍了Claude Code的两种多Agent模式（subagents和独立agent），对理解Agent架构有帮助，但内容较浅，适合入门。
-  _Simon林__
-- [别再二选一：Claude Code + Codex 联用才是最强姿势](https://www.bilibili.com/video/av116537746791000) —— 与头条4观点类似但更早发布，核心思路一致，可作为补充参考。
-  _星小脉_
-- [Claude code接管科研全流程：cc-kaiti 带你从 0 走到开题报告和答辩 PPT](https://www.bilibili.com/video/av116866278233889) —— 展示了Claude Code在科研场景的深度应用，但用户非科研背景，优先级降低。
+- [Claude code接管科研全流程：cc-kaiti 从0到开题报告和答辩PPT](https://www.bilibili.com/video/av116866278233889) —— up主分享用Claude Code Skill自动生成开题报告和PPT，适合学生党，但需验证实用性。
   _做科研的大师兄_
+- [安卓最强AI Agent，对标claude code，支持mcp/Agent/skills](https://www.bilibili.com/video/av116771772243496) —— 安卓端AI Agent工具，支持MCP和Skills，可连接Termux，适合移动端开发，但生态尚小。
+  _红温火龙果1_
+- [Vibe Coding纯小白教程：对AI说话就做出软件](https://www.bilibili.com/video/av116521405780262) —— 零基础Vibe Coding实操，从需求到部署完整演示，适合想快速上手AI编程的新手。
+  _大牙大-_
 
 ---
 
