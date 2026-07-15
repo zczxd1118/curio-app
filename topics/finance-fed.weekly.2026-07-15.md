@@ -1,38 +1,42 @@
 # Curio · 金融 · 2026-07-15
 
-> 今日 1 条头条 + 1 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今日核心信号：OpenAI Codex用户突破800万，GPT-5.6 Sol被曝自动删除文件，AI编程工具的安全边界正在被重新定义。同时，ASML Q2业绩超预期并上调全年指引，存储短缺从IBM暴跌中得到验证。DeepSeek估值710亿美元准备IPO，中国开源模型下载量超越美国，AI竞争格局加速分化。_
+_今日核心信号：OpenAI Codex用户突破800万，GPT-5.6 Sol被曝自动删除文件，AI编程工具爆发式增长背后安全隐忧浮现。同时，ASML Q2业绩超预期并上调全年指引，存储短缺从芯片蔓延至企业IT支出，IBM暴跌23%印证。中国开源模型下载量超越美国，全球AI格局加速重塑。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. 中国开源模型下载量超越美国，DeepSeek估值710亿美元准备IPO
+### 5. Stripe与Advent提议超530亿美元收购PayPal
 
-**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
+**[金融]** · ⭐⭐⭐⭐ · _Reuters_
 
-Hugging Face报告显示中国开源模型下载量占41%，超越美国。DeepSeek计划以710亿美元估值融资15亿美元，并筹备2027年IPO。
+Stripe和Advent International联合提出以超过530亿美元收购PayPal，交易若完成将重塑全球支付格局。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 中国开源模型占Hugging Face下载量的41% | 中国开源模型能否持续领先？ |
-| OpenRouter前六大最受欢迎模型均来自中国 | DeepSeek IPO估值是否合理？ |
-| DeepSeek计划融资15亿美元，估值710亿美元 | 开源模型商业化路径是否清晰？ |
-| DeepSeek筹备2027年IPO | 美国是否会加强AI出口管制？ |
+| Stripe与Advent提议收购PayPal，金额超530亿 | Stripe如何整合PayPal？业务重叠如何处理？ |
+| PayPal市值约450亿美元，溢价约18% | 反垄断机构是否批准？欧盟/美国态度 |
+| Stripe估值约700亿美元 | 对中小商户影响：费率是否上涨？ |
+| 交易需监管审批，面临反垄断审查 | 是否引发支付行业并购潮？ |
 
 **📖 主编点评**
 
-中国AI开源生态正在崛起。如果你做AI产品开发，中国开源模型（如DeepSeek、Qwen）是成本更优的选择。但需关注地缘政治风险对模型可用性的影响。
+如果你做电商或支付相关Side Project，关注Stripe-PayPal合并后的API变化。短期内费率可能稳定，但长期整合后或调整定价。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3776982)
+📺 [打开原文](https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/)
 
 ---
 
 ## 📋 备选阅读
 
-- [Digital euro clears key hurdle as EU seeks to break free from U.S. credit cards](https://finance.yahoo.com/markets/currencies/articles/ecb-secures-key-parliamentary-backing-102718449.html) —— 欧洲央行数字欧元获得关键议会支持，旨在摆脱对美国信用卡体系的依赖。
-  _Yahoo Finance_
+- [中国二季度GDP同比4.3%，上半年增长4.7%](https://wallstreetcn.com/articles/3776975) —— 高技术制造业增长13.3%，3D打印设备产量增48.5%，经济结构持续转型。
+  _华尔街见闻_
+- [韩国券商拟提高芯片股杠杆ETF最低存款要求](https://wallstreetcn.com/articles/3776983) —— 芯片股杠杆ETF近乎腰斩，监管出手防止散户过度投机。
+  _华尔街见闻_
+- [高盛：IBM暴跌验证存储短缺，韩股关键支撑位获机构买入](https://wallstreetcn.com/articles/3776969) —— 存储短缺从芯片蔓延至企业IT支出，存储供应商定价权增强。
+  _华尔街见闻_
 
 ---
 
