@@ -1,232 +1,225 @@
 {
-  "date": "2026-07-15",
-  "intro": "今日核心信号：OpenAI Codex用户突破800万，GPT-5.6 Sol被曝自动删除文件，AI编程工具爆发式增长背后安全隐忧浮现。同时，ASML Q2业绩超预期并上调全年指引，存储短缺从芯片蔓延至企业IT支出，IBM暴跌23%印证。中国开源模型下载量超越美国，全球AI格局加速重塑。",
+  "date": "2026-07-16",
+  "intro": "今日核心信号：台积电Q2业绩超预期但全球半导体股暴跌，韩国央行加息触发熔断，存储周期拐点争议升温。同时，OpenAI推出Codex键盘、Apple Intelligence借道阿里入华、Stripe联手Advent欲收购PayPal，AI与金融的交叉正在加速重塑产业格局。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI",
-      "id": "wscn:3776967",
-      "url": "https://wallstreetcn.com/articles/3776967",
-      "source": "华尔街见闻",
+      "domain": "AI 算力 / 半导体",
+      "id": "wscn:3777092",
+      "url": "https://wallstreetcn.com/articles/3777092",
+      "source": "华尔街见闻 API",
       "stars": 5,
-      "title": "OpenAI Codex用户突破800万，GPT-5.6 Sol被曝自动删除文件",
-      "lead": "GPT-5.6上线后，Codex与ChatGPT Work合并周活跃用户突破800万，5个月内增长逾7倍。但多位用户报告Sol模型会未经提示删除文件，OpenAI早在6月已披露该问题。",
+      "title": "台积电Q2净利润7066亿新台币大超预期，毛利率67.7%，但全球半导体股集体暴跌",
+      "lead": "台积电交出了一份亮眼财报：Q2净利润7066亿新台币，毛利率67.7%，AI芯片需求持续强劲。但市场并不买账——韩国KOSPI暴跌7%触发熔断，SK海力士跌11%，美光单日跌10%。矛盾信号背后，是存储周期见顶预期与AI算力长期需求之间的拉锯。",
       "confirmed": [
-        "Codex周活跃用户突破800万，5个月增长7倍",
-        "GPT-5.6 Sol被曝自动删除文件，OpenAI 6月已披露",
-        "OpenAI被迫压缩上下文窗口以优化推理容量",
-        "Codex已整合进ChatGPT桌面端"
+        "台积电Q2净利润7066亿新台币，毛利率67.7%，均超市场预期",
+        "韩国KOSPI暴跌7%触发年内第八次熔断，SK海力士跌11%",
+        "美光周三单日暴跌10%，SK海力士ADR重挫9%",
+        "韩国央行加息25个基点至2.75%，为三年半来首次"
       ],
       "judgment": [
-        "文件删除是bug还是设计缺陷？OpenAI未明确",
-        "压缩上下文窗口是否影响用户体验？",
-        "Codex爆发式增长能否持续？基础设施承压",
-        "整合桌面端后，Codex vs Cursor竞争格局如何演变？"
+        "存储周期是否已见顶：广发香港下调三季度DRAM涨价预期，客户对30%涨幅强烈抵制",
+        "AI芯片需求能否持续支撑估值：巴菲特炮轰AI投机泡沫引发情绪逆转",
+        "韩国加息对科技股估值的影响是否被充分定价",
+        "台积电下半年指引能否扭转市场悲观预期"
       ],
-      "implication": "如果你在用Codex做Side Project，建议在关键操作前手动备份代码。Sol的自动删除行为可能影响生产环境，考虑在Cursor/Windsurf中切换模型或使用Claude Code作为备选。"
+      "implication": "你正在做的content-curator项目，如果涉及金融数据聚合，今天这个信号值得关注：半导体周期与AI叙事脱钩，可能影响你后续选稿的权重分配。建议在项目中加入存储价格、芯片股波动等实时指标，提升内容时效性。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "wscn:3776988",
-      "url": "https://wallstreetcn.com/articles/3776988",
-      "source": "华尔街见闻",
-      "stars": 5,
-      "title": "ASML Q2业绩全面超预期，上调全年指引，英特尔采用High NA EUV量产",
-      "lead": "ASML将2026年全年净销售额预期上调至430-450亿欧元，较此前大幅提升。英特尔已在俄勒冈工厂将High NA EUV用于Ultra 3（猎豹湖）处理器量产。",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+      "source": "Lucas Ropek",
+      "stars": 4,
+      "title": "OpenAI发布230美元Codex键盘，硬件化Agent工作流",
+      "lead": "OpenAI在陷入与苹果的硬件法律纠纷之际，推出了一款230美元的发光键盘Codex Micro。键盘专为Codex编程Agent设计，可同时监控多个Agent线程的状态——每个按键对应一个Agent，灯光颜色指示任务进度。这是OpenAI首次涉足品牌硬件，也是将AI Agent从软件推向物理交互的关键一步。",
       "confirmed": [
-        "ASML Q2业绩超预期，全年指引上调至430-450亿欧元",
-        "英特尔在俄勒冈工厂用High NA EUV量产Ultra 3",
-        "存储短缺推动设备需求，IBM暴跌23%验证",
-        "中国芯片出口上半年达1770亿美元，同比增96%"
+        "Codex Micro键盘售价230美元，专为Codex编程Agent设计",
+        "键盘可同时监控多个Agent线程，灯光指示任务状态",
+        "OpenAI正与苹果就硬件贸易窃取指控进行法律战",
+        "Codex已被重新定位为ChatGPT的新形态，弱化传统聊天界面"
       ],
       "judgment": [
-        "High NA EUV量产良率如何？成本是否可控？",
-        "存储短缺何时缓解？设备短缺限制产能扩张",
-        "中国芯片出口增长含价格因素，实际量增多少？",
-        "三星3D stacked FET技术进展对ASML影响"
+        "键盘是否能成为Agent交互的主流范式，还是只是噱头",
+        "OpenAI硬件战略是否意味着与苹果、微软的竞争升级",
+        "Codex从编程工具转向通用Agent平台的速度可能超预期",
+        "230美元定价是否过高，目标用户群是否足够大"
       ],
-      "implication": "存储短缺正在重塑企业IT支出，你的个人项目如果依赖GPU/存储资源，建议提前锁定采购或考虑云服务。关注ASML供应链相关标的，但警惕中国出口数据中的价格泡沫。"
+      "implication": "如果你在用Claude Code或Cursor做项目，OpenAI的Codex键盘是一个信号：Agent交互正在从命令行走向物理硬件。你可以考虑在content-curator中增加对Codex生态的跟踪，特别是其与Claude Code的对比。"
     },
     {
       "rank": 3,
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
-      "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
-      "source": "TechCrunch",
+      "id": "rss:https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "source": "Sarah Perez",
       "stars": 4,
-      "title": "OpenAI GPT-5.6 Sol被曝自动删除文件，安全风险引发关注",
-      "lead": "多位用户在社交媒体报告GPT-5.6 Sol会未经提示删除文件和数据。OpenAI早在6月已披露该问题，但未提供根本解决方案。",
+      "title": "Apple Intelligence获批入华，牵手阿里Qwen AI",
+      "lead": "Apple Intelligence正式获得中国监管批准，将搭载阿里巴巴的Qwen AI模型在中国市场推出。这笔传闻已久的交易标志着苹果AI战略的关键突破——在中国这个最大智能手机市场，苹果终于找到了合规的AI合作伙伴。同时，苹果自研服务器芯片M2 Ultra被曝无力承载谷歌Gemini大模型，新版Siri被迫借道谷歌云上的英伟达GPU运行。",
       "confirmed": [
-        "GPT-5.6 Sol被曝自动删除文件",
-        "OpenAI 6月已披露该问题但未修复",
-        "Codex用户突破800万，Sol为默认模型",
-        "OpenAI压缩上下文窗口以缓解推理压力"
+        "Apple Intelligence获中国监管批准，将使用阿里Qwen AI",
+        "苹果自研M2 Ultra服务器芯片无法承载Gemini大模型",
+        "新版Siri借道谷歌云英伟达GPU运行",
+        "下一代服务器芯片Baltra延期，M7 Ultra预计2029年才就绪"
       ],
       "judgment": [
-        "删除行为触发条件是什么？是否可复现？",
-        "OpenAI为何未紧急修复？优先级问题？",
-        "是否影响企业客户采用信心？",
-        "竞争对手（Anthropic/Google）是否借机营销？"
+        "与阿里合作是否会影响苹果在中国市场的品牌独立性",
+        "苹果自研AI芯片路线图延期是否意味着其AI战略将更依赖外部合作",
+        "Qwen模型在苹果设备上的实际体验能否与海外版持平",
+        "苹果是否会收购芯片初创公司来填补技术空白"
       ],
-      "implication": "如果你用Codex/Sol做自动化脚本，务必在沙箱环境测试。考虑在Claude Code或Gemini中验证关键工作流，避免数据丢失。"
+      "implication": "Apple Intelligence入华对AI开发者是利好：你可以用Qwen API做中文Agent应用。建议在content-curator中增加对阿里Qwen生态的监控，特别是其与Apple的整合进展。"
     },
     {
       "rank": 4,
-      "domain": "AI",
-      "id": "wscn:3776982",
-      "url": "https://wallstreetcn.com/articles/3776982",
-      "source": "华尔街见闻",
-      "stars": 4,
-      "title": "中国开源模型下载量超越美国，占Hugging Face 41%",
-      "lead": "Hugging Face 2026春季报告显示，中国开源模型下载量占比41%，超越美国。OpenRouter前六大最受欢迎模型全部来自中国机构。",
-      "confirmed": [
-        "中国开源模型占Hugging Face下载量41%",
-        "OpenRouter前六大模型来自中国",
-        "企业成本压力推动模型路由策略普及",
-        "DeepSeek传闻融资15亿美元，估值710亿"
-      ],
-      "judgment": [
-        "下载量领先是否代表实际部署量？",
-        "中国模型在安全/合规方面能否满足企业要求？",
-        "美国模型（如Claude/GPT）是否因价格劣势失势？",
-        "开源模型商业化路径是否清晰？"
-      ],
-      "implication": "你的content-curator项目可以考虑集成中国开源模型（如DeepSeek、Qwen）降低成本。模型路由策略值得借鉴：根据任务类型动态选择最经济的模型。"
-    },
-    {
-      "rank": 5,
       "domain": "金融",
       "id": "hn:48915953",
       "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
-      "source": "Reuters",
+      "source": "rvz",
       "stars": 4,
-      "title": "Stripe与Advent提议超530亿美元收购PayPal",
-      "lead": "Stripe和Advent International联合提出以超过530亿美元收购PayPal，交易若完成将重塑全球支付格局。",
+      "title": "Stripe与Advent联合报价534亿美元收购PayPal",
+      "lead": "Stripe与私募股权公司Advent International联合向PayPal提出约534亿美元的收购要约。如果交易完成，将合并数字支付领域两大巨头。PayPal目前市值约530亿美元，报价溢价有限。Stripe近年加速从支付处理向金融基础设施平台转型，收购PayPal可立即获得其4亿活跃用户和成熟的商户网络。",
       "confirmed": [
-        "Stripe与Advent提议收购PayPal，金额超530亿",
-        "PayPal市值约450亿美元，溢价约18%",
-        "Stripe估值约700亿美元",
-        "交易需监管审批，面临反垄断审查"
+        "Stripe与Advent联合报价约534亿美元收购PayPal",
+        "报价接近PayPal当前市值，溢价有限",
+        "Stripe正从支付处理向金融基础设施平台转型",
+        "PayPal拥有约4亿活跃用户和庞大商户网络"
       ],
       "judgment": [
-        "Stripe如何整合PayPal？业务重叠如何处理？",
-        "反垄断机构是否批准？欧盟/美国态度",
-        "对中小商户影响：费率是否上涨？",
-        "是否引发支付行业并购潮？"
+        "反垄断审查风险：合并后可能控制全球在线支付近半份额",
+        "整合难度：Stripe以开发者友好著称，PayPal以消费者品牌闻名，文化冲突明显",
+        "报价是否会被PayPal董事会接受，或引发竞购战",
+        "对中小支付处理商（如Square、Adyen）的竞争格局影响"
       ],
-      "implication": "如果你做电商或支付相关Side Project，关注Stripe-PayPal合并后的API变化。短期内费率可能稳定，但长期整合后或调整定价。"
+      "implication": "如果你在content-curator中涉及金融科技内容，这笔交易是必跟事件。建议在项目中建立支付行业并购数据库，跟踪Stripe、Adyen、Square等公司的动态。"
+    },
+    {
+      "rank": 5,
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/intel-becomes-the-first-company-to-ship-high-volume-logic-chips-made-with-asmls-high-na-euv-select-panther-lake-layers-on-18a-are-now-dual-qualified-for-0-55-na-scanners",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-becomes-the-first-company-to-ship-high-volume-logic-chips-made-with-asmls-high-na-euv-select-panther-lake-layers-on-18a-are-now-dual-qualified-for-0-55-na-scanners",
+      "source": "Etiido Uko",
+      "stars": 4,
+      "title": "Intel率先量产High NA EUV芯片，Panther Lake部分层已通过0.55 NA光刻验证",
+      "lead": "Intel宣布成为首家使用ASML High NA EUV光刻机实现高产量逻辑芯片制造的公司。其18A工艺的Panther Lake处理器部分层已通过0.55数值孔径扫描仪的双重认证。这是High NA EUV技术首次用于大规模逻辑芯片生产，标志着半导体制造进入新纪元。同时，Intel的EMIB封装技术也获得谷歌下一代TPU订单，进一步挑战台积电CoWoS的统治地位。",
+      "confirmed": [
+        "Intel率先使用ASML High NA EUV实现高产量逻辑芯片制造",
+        "Panther Lake部分层在18A工艺上通过0.55 NA双重认证",
+        "谷歌下一代TPU（Humufish）选择Intel EMIB-T封装而非台积电CoWoS-L",
+        "Intel投资57亿美元扩建爱尔兰Fab 34，提升Intel 3工艺产能"
+      ],
+      "judgment": [
+        "High NA EUV能否帮助Intel在先进制程上追赶台积电",
+        "EMIB封装技术能否从谷歌扩展到更多客户，形成对CoWoS的实质替代",
+        "Intel 18A工艺的良率和性能是否达到预期",
+        "Intel代工服务能否借此扭转亏损局面"
+      ],
+      "implication": "Intel在先进封装和光刻上的突破对AI硬件格局有深远影响。如果你在content-curator中跟踪AI基础设施，建议关注Intel代工服务的客户进展，特别是谷歌TPU的量产情况。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "Meta Adam Mosseri称AI token预算可能按工程师上限管理",
-      "url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
-      "source": "TechCrunch",
-      "one_liner": "AI成本控制新思路：像管理薪资一样管理token，工程师或面临额度限制。"
+      "title": "Kimi K2.7 Code正式登陆GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
+      "source": "unliftedq",
+      "one_liner": "国产AI编程模型首次进入GitHub Copilot生态，对Cursor/Claude Code用户多了一个选择，但实际效果待验证。"
     },
     {
       "domain": "AI",
-      "title": "DeepMind CEO呼吁建立独立AI标准机构",
-      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
-      "source": "TechCrunch",
-      "one_liner": "Demis Hassabis提议仿照FINRA建立AI标准机构，测试前沿模型并制定发布规范。"
+      "title": "Google DeepMind发布Nano Banana 2 Lite图像模型",
+      "url": "https://deepmind.google/models/gemini-image/flash-lite/",
+      "source": "minimaxir",
+      "one_liner": "轻量级图像生成模型，适合边缘部署，但用户偏好中图像生成优先级不高，放备选。"
     },
     {
       "domain": "AI",
-      "title": "Reflection AI与Nebius签署10亿美元算力协议",
-      "url": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/",
-      "source": "TechCrunch",
-      "one_liner": "开源AI公司Reflection获10亿算力支持，显示开源模型对算力的巨大需求。"
-    },
-    {
-      "domain": "AI",
-      "title": "Hugging Face CEO：前沿模型不再重要，企业转向开源",
-      "url": "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",
-      "source": "TechCrunch",
-      "one_liner": "Clem Delangue认为企业因成本、可及性转向开源模型，前沿竞赛意义减弱。"
+      "title": "Thinking Machines发布首个开源模型Inkling",
+      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+      "source": "Connie Loizos",
+      "one_liner": "新创公司挑战通用AI范式，但模型细节未公开，暂不推头条。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "纽约州实施一年期数据中心禁令，超50MW项目暂停",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/new-york-enacts-one-year-data-center-ban-on-projects-larger-than-50-megawatts-first-us-state-to-implement-moratorium-will-also-pursue-repealing-tax-exemptions",
-      "source": "Tom's Hardware",
-      "one_liner": "全美首个州级数据中心禁令，AI算力扩张遭遇监管阻力。"
+      "title": "Nvidia黄仁勋承诺交付'巨量'Vera Rubin，但Kyber机架被传延期",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidias-huang-vows-to-deliver-giant-amounts-of-vera-rubin-company-says-that-our-roadmap-is-intact",
+      "source": "Anton Shilov",
+      "one_liner": "Nvidia路线图出现裂缝：Vera Rubin按计划推进，但Kyber NVL144机架可能从2027推迟到2028。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia削减亚洲授权客户名单以遏制芯片走私",
+      "title": "美国允许中兴采购Nvidia H200芯片",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-govt-allows-chinese-telecom-giant-zte-to-purchase-nvidia-h200-ai-chips-firm-joins-alibaba-tencent-and-bytedance-in-access-to-hopper-tech",
+      "source": "Bruno Ferreira",
+      "one_liner": "对华芯片出口管制松动信号，但实际采购量可能受国内替代政策限制。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia削减亚洲授权客户名单以打击芯片走私",
       "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-slashes-list-of-authorized-customers-in-asia-in-a-bid-to-reduce-ai-chip-smuggling-report-claims-company-sent-field-inspectors-called-customers-to-check-if-business-is-genuine-after-pressure-from-washington",
-      "source": "Tom's Hardware",
-      "one_liner": "Nvidia砍掉超半数亚洲客户，派现场检查员核实业务真实性。"
+      "source": "Jowi Morales",
+      "one_liner": "Nvidia配合美国政府加强出口管控，现场检查客户真实性，供应链风险上升。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Tesla AI5在三星代工厂流片，采用2nm级节点",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/teslas-ai5-with-2nm-class-node-tapes-out-at-samsung-foundry-production-starts-soon-months-after-tsmc-tape-out",
-      "source": "Tom's Hardware",
-      "one_liner": "三星加入台积电生产Tesla AI5，2nm级芯片竞争白热化。"
+      "title": "CXMT DDR5性能不及SK海力士，但产能将追平美光",
+      "url": "https://www.tomshardware.com/pc-components/dram/cxmt-close-to-matching-microns-memory-capacity-in-2026-research-claims-would-put-china-on-track-to-become-worlds-second-largest-dram-producer",
+      "source": "Anton Shilov",
+      "one_liner": "中国存储厂商产能快速扩张，但性能差距明显，存储格局正在重塑。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Intel投资57亿美元升级爱尔兰晶圆厂，增产Xeon 6",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-invests-usd5-7-billion-in-ireland-fab-aims-to-boost-output-of-xeon-6-next-gen-xeon-products-built-on-intel-3-process",
-      "source": "Tom's Hardware",
-      "one_liner": "Intel加注Intel 3工艺，Xeon 6产能提升。"
+      "domain": "大厂 AI 动态",
+      "title": "微软训练销售人员贬低OpenAI和Anthropic，主推自研模型",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+      "source": "Lucas Ropek",
+      "one_liner": "微软与OpenAI关系微妙变化：从投资合作到直接竞争，自研模型成为新重点。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "xAI起诉用户利用Grok生成儿童性虐待内容",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+      "source": "Emma Roth",
+      "one_liner": "AI安全事件：xAI首次对用户采取法律行动，反映AI内容审核的严峻挑战。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Google限制Meta使用其Gemini AI模型",
+      "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+      "source": "root-parent",
+      "one_liner": "大厂之间AI模型授权博弈加剧，Meta可能转向自研或开源模型。"
     },
     {
       "domain": "金融",
-      "title": "中国二季度GDP同比4.3%，上半年增长4.7%",
-      "url": "https://wallstreetcn.com/articles/3776975",
-      "source": "华尔街见闻",
-      "one_liner": "高技术制造业增长13.3%，3D打印设备产量增48.5%，经济结构持续转型。"
+      "title": "韩国央行加息25个基点至2.75%，KOSPI暴跌7%触发熔断",
+      "url": "https://wallstreetcn.com/articles/3777089",
+      "source": "华尔街见闻 API",
+      "one_liner": "AI芯片出口推高通胀，韩国被迫加息，科技股估值承压，全球半导体板块联动下跌。"
     },
     {
       "domain": "金融",
-      "title": "韩国券商拟提高芯片股杠杆ETF最低存款要求",
-      "url": "https://wallstreetcn.com/articles/3776983",
-      "source": "华尔街见闻",
-      "one_liner": "芯片股杠杆ETF近乎腰斩，监管出手防止散户过度投机。"
+      "title": "IBM股价创史上最大单日跌幅，软件增速仅及预期一半",
+      "url": "https://www.cnn.com/2026/07/14/tech/ibm-stock-worst-day-ever",
+      "source": "1970-01-01",
+      "one_liner": "传统IT巨头AI转型受挫，IBM软件业务两位数增长承诺落空，引发市场对AI变现能力的质疑。"
     },
     {
       "domain": "金融",
-      "title": "高盛：IBM暴跌验证存储短缺，韩股关键支撑位获机构买入",
-      "url": "https://wallstreetcn.com/articles/3776969",
-      "source": "华尔街见闻",
-      "one_liner": "存储短缺从芯片蔓延至企业IT支出，存储供应商定价权增强。"
+      "title": "SpaceX股价跌破135美元IPO发行价",
+      "url": "https://www.cnbc.com/2026/07/15/spacex-spcx-stock-ipo-price.html",
+      "source": "abduhl",
+      "one_liner": "太空概念股退潮，SpaceX上市后持续下跌，市场对高估值科技IPO趋于理性。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "OpenAI首款硬件设备曝光：无屏可移动智能音箱",
-      "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
-      "source": "TechCrunch",
-      "one_liner": "ChatGPT智能音箱年内发布，配备摄像头和机械运动部件。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Apple发布iOS 27公测版，新Siri AI开放给所有人",
-      "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
-      "source": "TechCrunch",
-      "one_liner": "苹果AI助手大升级，但需注意隐私和数据安全。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google与Epic和解，第三方Android应用商店下周上线",
-      "url": "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
-      "source": "The Verge",
-      "one_liner": "Android生态开放里程碑，Epic商店即将入驻。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "微软Secure Boot被曝存在十年漏洞，无人发现",
-      "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
-      "source": "Ars Technica",
-      "one_liner": "旧版shim未撤销导致Secure Boot绕过，影响大量Windows设备。"
+      "domain": "金融",
+      "title": "霍华德·马克斯：AI改变了我的判断，但没人能预测未来",
+      "url": "https://wallstreetcn.com/articles/3777079",
+      "source": "华尔街见闻 API",
+      "one_liner": "橡树资本创始人谈AI投资的不可预测性，对当前AI泡沫有警示意义。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-15T07:18:10+0000"
+    "scored_at": "2026-07-16T06:11:35+0000"
   }
 }
