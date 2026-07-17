@@ -1,41 +1,43 @@
 # Curio · 大厂 AI 动态 · 2026-07-17
 
-> 今日 1 条头条 + 3 条备选
+> 今日 1 条头条 + 4 条备选
 
-_今天市场信号密集：TSMC 宣布再投 1000 亿美元在亚利桑那建 2nm 厂，Intel 首次用 High NA EUV 量产 Panther Lake，半导体制造竞赛白热化。同时，Stripe+Advent 超 530 亿美元收购 PayPal，金融支付格局面临重塑。AI 领域，Google 将 NotebookLM 更名为 Gemini Notebook，并开放 AI Mode 链接应用，生态整合加速。_
+_今日核心信号：TSMC再投1000亿美元在美建2nm厂，半导体制造重心加速西移；Stripe+Advent拟超530亿美元收购PayPal，支付格局面临重塑。AI编程工具生态持续分化，Claude Code封号事件暴露区域限制策略，Linus Torvalds公开力挺AI辅助编码。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. Google AI Mode 升级：可链接并操作第三方应用，从问答走向任务执行
+### 4. Linus Torvalds回应AI编码争议：反对者可以fork或走开，Linux不是反AI项目
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Ars Technica_
 
-Google 宣布 AI Mode（原 Search Generative Experience）新增应用链接能力，用户可以直接通过 AI Mode 与 Gmail、Calendar、Maps 等应用交互，完成订餐、查行程、发邮件等任务。这意味着 Google 的 AI 搜索正在从信息检索向 Agent 式任务执行演进。
+在Linux内核邮件列表的激烈讨论后，Linus Torvalds公开表态支持AI辅助编码工具。他表示将"非常大声地忽略"那些主张禁止AI工具的人，并称AI是"显然有用的工具"。这标志着Linux内核项目正式接纳AI辅助开发，对开源社区具有风向标意义。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| AI Mode 现在可以链接并操作 Gmail、Calendar、Maps 等 Google 应用 | 第三方应用接入的时间表和开放程度未公布 |
-| 支持通过自然语言完成订餐、创建事件、发送邮件等任务 | 与 Apple Intelligence 和 OpenAI 的 Agent 竞争格局如何 |
-| 该功能基于 Gemini 模型的多模态和工具调用能力 | 用户隐私和数据安全方案尚未详细说明 |
-| Google 计划逐步开放给第三方开发者 | 实际任务完成率和错误率有待大规模测试 |
+| Linus Torvalds公开支持AI辅助编码工具 | AI生成代码的质量审查流程尚未明确 |
+| 他表示将忽略禁止AI工具的呼声 | 内核贡献者使用AI工具的具体指南可能后续发布 |
+| 称AI是"clearly a useful one" | 其他大型开源项目可能跟进类似立场 |
+| Linux内核社区此前对AI工具存在分歧 | AI工具对内核安全性的长期影响有待评估 |
 
 **📖 主编点评**
 
-这对你正在做的 content-curator 项目是个信号：AI 从信息聚合转向任务执行是明确趋势。你可以考虑在项目中集成类似工具调用能力，让 Agent 不仅能读内容，还能帮你发推、存笔记、安排日程。关注 Google 的第三方 API 开放计划。
+Linus的立场对你这样的AI编程重度用户是强信号：AI辅助编码已成为主流。你的content-curator项目可以大胆使用Claude Code/Cursor，但建议保持代码审查习惯。关注Linux内核的AI使用指南，可能成为行业标准。
 
-📺 [打开原文](https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/)
+📺 [打开原文](https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/)
 
 ---
 
 ## 📋 备选阅读
 
-- [Google 将 NotebookLM 更名为 Gemini Notebook，并集成 AI Mode 搜索](https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/) —— 品牌统一化，功能上 Notebook 内容可通过 AI Mode 搜索访问，生态整合加深。
+- [Google将NotebookLM更名为Gemini Notebook，并集成AI Mode搜索](https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/) —— 品牌整合但功能变化不大，对现有用户影响有限。
   _TechCrunch_
-- [EU 强制 Google 向 AI 竞争对手开放 Android 和搜索数据](https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/) —— DMA 新规可能改变 AI 搜索和移动端 AI 助手的竞争格局，但隐私争议大。
+- [DoorDash推出命令行工具dd-cli，支持AI Agent直接下单](https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/) —— API化外卖服务，为AI Agent接入真实世界服务铺路，但beta阶段功能有限。
+  _TechCrunch_
+- [欧盟要求Google向AI竞争对手开放Android，并共享搜索数据](https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/) —— DMA监管加码，可能改变移动AI生态格局，但执行细节仍待明确。
   _Ars Technica_
-- [xAI 起诉 Grok 用户生成儿童性虐待内容，首次法律行动](https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/) —— AI 内容安全责任问题再次凸显，xAI 试图通过起诉用户来规避平台责任。
+- [xAI起诉Grok用户生成儿童色情内容，首次对用户采取法律行动](https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/) —— AI安全治理的典型案例，xAI试图通过法律手段转移监管压力。
   _Ars Technica_
 
 ---
