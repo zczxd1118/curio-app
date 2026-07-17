@@ -2,7 +2,7 @@
   "domain": "大厂 AI 动态",
   "domain_id": "bigtech",
   "topic_id": "default",
-  "fetched_at": "2026-07-16T05:46:36.553584+00:00",
+  "fetched_at": "2026-07-17T05:47:32.893680+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -15,7 +15,7 @@
     "Product Hunt（新产品脉搏）": 30,
     "36氪 AI": 30,
     "少数派": 10,
-    "HN · Gemini": 6,
+    "HN · Gemini": 7,
     "HN · Copilot": 5,
     "HN · Apple Intelligence": 1,
     "HN · Llama": 2,
@@ -27,29 +27,29 @@
       "name": "default"
     }
   ],
-  "total": 148,
+  "total": 149,
   "items": [
     {
-      "id": "rss:https://www.theverge.com/tech/966022/skullcandy-cruser-1080-anc-bose-tuning-noise-cancelling-wireless-headphones",
-      "title": "Skullcandy’s bass-boosting Crusher headphones now come with Bose’s ANC",
-      "url": "https://www.theverge.com/tech/966022/skullcandy-cruser-1080-anc-bose-tuning-noise-cancelling-wireless-headphones",
+      "id": "rss:https://www.theverge.com/games/966815/epic-games-fortnite-ai-powered-personas",
+      "title": "Fortnite is getting a bunch of AI-powered ‘personas’",
+      "url": "https://www.theverge.com/games/966815/epic-games-fortnite-ai-powered-personas",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Andrew Liszewski",
+        "name": "Jay Peters",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T00:00:00+00:00",
-      "summary": "Skullcandy announced a new version of its Crusher wireless headphones today featuring a few of Bose's audio technologies including its QuietControl ANC and head-tracking spatial audio. The Crusher headphone line differentiates itself from the competition through the use of both full-range and dedicated bass drivers in each ear cup to boost deeper frequencies. Skullcandy admits [&#8230;]",
+      "published_at": "2026-07-16T21:30:35+00:00",
+      "summary": "Get ready for more AI characters in Fortnite. Developer Epic Games is going to let Fortnite creators publish experiences featuring characters with AI-powered voices starting on July 30th, and ahead of that launch, it's created 36 characters with \"consistent voices and personas\" that creators can use as NPCs. The characters include Fortnite staples like Agent [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/gadgets/966209/hp-omnibook-x-flip-oled-laptop-windows-11-deal-sale",
-      "title": "HP&#8217;s OLED-equipped 2-in-1 laptop is a solid back-to-school deal",
-      "url": "https://www.theverge.com/gadgets/966209/hp-omnibook-x-flip-oled-laptop-windows-11-deal-sale",
+      "id": "rss:https://www.theverge.com/gadgets/966613/samsung-the-frame-art-tv-deal-sale",
+      "title": "Samsung’s 55-inch Frame art TV is $200 cheaper than usual",
+      "url": "https://www.theverge.com/gadgets/966613/samsung-the-frame-art-tv-deal-sale",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -59,48 +59,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T22:47:11+00:00",
-      "summary": "With storage and memory prices still at an all-time high, we’re happy to tell you about a solid deal on a good laptop when we find one, rare as they are. Best Buy is selling the HP OmniBook X Flip 2 in 1 for $999.99 (usually $1,649.99) with an Intel Core 7 Ultra CPU, 16GB [&#8230;]",
+      "published_at": "2026-07-16T20:47:30+00:00",
+      "summary": "Samsung’s Frame is different from your average 4K TV. Its biggest selling point involves what it does when you aren’t actively using it. It can display art, turning your living room into a gallery. The Frame has bezels that make it look like — you guessed it — framed art, and its matte finish can [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/tech/966219/apple-care-plus-price-increase",
-      "title": "Apple’s reportedly raising the price for AppleCare Plus on Macs and iPads",
-      "url": "https://www.theverge.com/tech/966219/apple-care-plus-price-increase",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Stevie Bonifield",
-        "feed_title": "The Verge"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T22:39:40+00:00",
-      "summary": "An AppleCare Plus subscription for a Mac or iPad will cost more soon, with prices going up by $0.50 per month or $5 per year for new sign-ups while remaining the same for existing subscribers, according to Bloomberg's Mark Gurman. Gurman says that under the new AppleCare Plus pricing, \"a plan for a new 13-inch [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.theverge.com/games/966106/valve-ifixit-will-keep-selling-steam-deck-lcd-battery",
-      "title": "Valve says iFixit will keep selling Steam Deck batteries after all",
-      "url": "https://www.theverge.com/games/966106/valve-ifixit-will-keep-selling-steam-deck-lcd-battery",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Sean Hollister",
-        "feed_title": "The Verge"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T22:16:46+00:00",
-      "summary": "Valve has been incredibly friendly to customers who need repairs - which is why it was so surprising to hear that Valve was already discontinuing the battery for the Steam Deck LCD handheld. It would have meant you could no longer just buy a battery from iFixit and install it yourself. Why would Valve stop [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
-      "title": "xAI sues a man for using Grok to generate CSAM &#8216;deepfakes&#8217;",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+      "id": "rss:https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings",
+      "title": "Netflix says around 300 titles used generative AI",
+      "url": "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -110,31 +76,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T21:33:20+00:00",
-      "summary": "The Elon Musk-owned xAI is suing a South Carolina man who allegedly used the company's Grok AI chatbot to generate child sexual abuse material (CSAM). In a lawsuit reported earlier by Reuters, xAI claims Terry Wayne Harwood \"knowingly and intentionally used Grok to circumvent safeguards, alter nonconsensual images, and generate and distribute CSAM,\" breaching the [&#8230;]",
+      "published_at": "2026-07-16T20:29:27+00:00",
+      "summary": "Netflix says roughly 300 titles on its platform used generative AI, most of which occurred in post-production. The streaming service revealed the news in its second-quarter earnings report released on Thursday, saying it's \"increasingly leveraging these tools to deliver higher quality output more quickly and at a lower cost.\" It also provided some examples of [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/policy/966283/fcc-broadcast-ownership-cap-brendan-carr",
-      "title": "Brendan Carr plans to let broadcast giants dominate the airwaves",
-      "url": "https://www.theverge.com/policy/966283/fcc-broadcast-ownership-cap-brendan-carr",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Lauren Feiner",
-        "feed_title": "The Verge"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T21:30:17+00:00",
-      "summary": "The Federal Communications Commission will vote next month on whether a single company can own broadcast stations that reach more than 39 percent of US TV households. In a Breitbart op-ed on Wednesday, Republican Chair Brendan Carr announced an August 6th vote to end the national ownership cap rule, which was intended to prevent one [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.theverge.com/games/966181/roblox-connect-video-chat-calling-service-shut-down",
-      "title": "Roblox is shutting down its video chat service",
-      "url": "https://www.theverge.com/games/966181/roblox-connect-video-chat-calling-service-shut-down",
+      "id": "rss:https://www.theverge.com/entertainment/966726/cd-sales-vinyl-physical-media-luminate",
+      "title": "Why are people buying so many CDs?",
+      "url": "https://www.theverge.com/entertainment/966726/cd-sales-vinyl-physical-media-luminate",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -144,48 +93,82 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T20:02:26+00:00",
-      "summary": "Roblox will be shutting down Roblox Connect, its video calling service introduced in 2023. Roblox Connect let you video chat with other people using your Roblox avatar, which would be able to mimic the movements you were making in real life. You could also run around with people on the call in a shared virtual [&#8230;]",
+      "published_at": "2026-07-16T19:55:29+00:00",
+      "summary": "CD sales are apparently going up, reportedly thanks to fans realizing they're an affordable way to support their favorite artists. According to a new report from research firm Luminate, 16.3 million CDs were sold in the first half of 2026 in the US, a 16 percent increase year-over-year. The growth in CD sales was driven [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
-      "title": "AI slop movies are the new direct-to-video cash grabs",
-      "url": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
+      "id": "rss:https://www.theverge.com/news/966676/trump-teleprompter-operator-kalshi-bets-mention-markets-investigation",
+      "title": "Kalshi says it caught Trump&#8217;s teleprompter operator insider trading",
+      "url": "https://www.theverge.com/news/966676/trump-teleprompter-operator-kalshi-bets-mention-markets-investigation",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Charles Pulliam-Moore",
+        "name": "Mia Sato",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T20:00:00+00:00",
-      "summary": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey. It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaking tech to make the Homeric [&#8230;]",
+      "published_at": "2026-07-16T18:43:14+00:00",
+      "summary": "Kalshi users betting on what President Donald Trump would say during his speeches were reportedly up against tough competition: the president's teleprompter operator. ABC News reports that federal investigators believe Gabriel Perez - Trump's teleprompter operator since 2016 - used inside information to make bets on Kalshi, a major prediction market platform that allows users [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/policy/966111/cyclospora-explosive-diarrhea-parasite-fda-cdc-taco-bell",
-      "title": "Enshittification",
-      "url": "https://www.theverge.com/policy/966111/cyclospora-explosive-diarrhea-parasite-fda-cdc-taco-bell",
+      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
+      "title": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Gaby Del Valle",
+        "name": "Emma Roth",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T18:40:00+00:00",
-      "summary": "Bryan, a food broker from Michigan, wasn't sure if he'd be able to make it to urgent care in time. He started feeling off on Thursday, and by Saturday, he was having to use the bathroom every 15 to 30 minutes. \"It's no joke about the explosive diarrhea,\" Bryan, who asked that his last name [&#8230;]",
+      "published_at": "2026-07-16T17:58:37+00:00",
+      "summary": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg's Odd Lots podcast, Hochul said that her team is using \"AI to analyze every single rule, regulation, [and] policy\" to check for outdated [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/tech/966120/google-pixel-11-camera-bar-teaser",
-      "title": "Something&#8217;s glowing on the Pixel 11&#8217;s camera bar",
-      "url": "https://www.theverge.com/tech/966120/google-pixel-11-camera-bar-teaser",
+      "id": "rss:https://www.theverge.com/gadgets/966651/ecovacs-deebot-x11-robot-vacuum-deal-sale",
+      "title": "Ecovacs&#8217; self-cleaning Deebot X11 has hit a new low price",
+      "url": "https://www.theverge.com/gadgets/966651/ecovacs-deebot-x11-robot-vacuum-deal-sale",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Sheena Vasani",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T17:57:15+00:00",
+      "summary": "Sometimes it feels like keeping your floors clean is one of those never-ending chores, which is why it's nice to have a versatile robot vacuum take it off your hands. The Ecovacs Deebot X11 robovac / mop hybrid is designed to do just that, and it's now $699 ($400 off) at Amazon and directly from [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
+      "title": "Google is better than Apple at playing the AI regulations game",
+      "url": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Robert Hart",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T16:55:54+00:00",
+      "summary": "Today, the European Union ordered Google to give its AI rivals greater access to Android, the open-source operating system that powers billions of devices worldwide. The demand is hardly surprising. It may look like a defeat on paper for Google, which has spent years resisting exactly this kind of access, but it is a regulatory [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/games/966589/roblox-build-ai-phone-moblie-games",
+      "title": "Roblox will let people use AI to make games on their phone",
+      "url": "https://www.theverge.com/games/966589/roblox-build-ai-phone-moblie-games",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -195,82 +178,48 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T18:24:22+00:00",
-      "summary": "A new teaser for Google's upcoming Pixel 11 lineup reveals that the phones will feature some kind of glowing orb on the camera bar, as reported by 9to5Google. Google's store page for the Pixel 11 has a short video that shows the glowing, color-shifting orb to the one side of the camera bar. The store [&#8230;]",
+      "published_at": "2026-07-16T16:45:29+00:00",
+      "summary": "Roblox is about to let people make games with AI right inside its mobile app, which could make a platform that's already filled with content of questionable quality feel even more overloaded. The company has embraced AI with open arms, including a preview of an ambitious take on AI world models similar to Google's Project [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/07/15/lululemon-backs-nylon-recycling-startup-syntetica-in-30m-series-a/",
-      "title": "Lululemon backs nylon-recycling startup Syntetica in $30M Series A",
-      "url": "https://techcrunch.com/2026/07/15/lululemon-backs-nylon-recycling-startup-syntetica-in-30m-series-a/",
+      "id": "rss:https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "title": "Google is renaming NotebookLM to Gemini Notebook",
+      "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Emma Roth",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T16:00:00+00:00",
+      "summary": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then called Project Tailwind - in May 2023 before widely releasing [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/",
+      "title": "San Francisco mayor pushes for tougher rules after the Waymo traffic fiasco",
+      "url": "https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://techcrunch.com/feed/",
-        "name": "Anna Heim",
+        "name": "Kirsten Korosec",
         "feed_title": "TechCrunch"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T04:00:00+00:00",
-      "summary": "Syntetica, a French startup that has developed a novel approach to recycling nylon, has already obtained big-name partners and investors.",
+      "published_at": "2026-07-16T23:25:22+00:00",
+      "summary": "In the wake of a massive hours-long gridlock event, San Francisco mayor Daniel Lurie has told state regulators it's time to put more requirements on robotaxi operators like Waymo.",
       "lang": "en"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
-      "title": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
-      "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Ram Iyer",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-16T04:00:00+00:00",
-      "summary": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more/",
-      "title": "Why Greylock capped its new fund at $1.5B when it says it could have raised more",
-      "url": "https://techcrunch.com/2026/07/15/why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Marina Temkin",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-16T00:20:42+00:00",
-      "summary": "By keeping the number of investments to about 25 per fund, Greylock aims to remain what it calls \"the most important partner\" to its founders.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
-      "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
-      "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Lucas Ropek",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T23:59:44+00:00",
-      "summary": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/tesla-driver-in-fatal-texas-crash-pressed-accelerator-100-ntsb-confirms/",
-      "title": "Tesla driver in fatal Texas crash pressed accelerator 100%, NTSB confirms",
-      "url": "https://techcrunch.com/2026/07/15/tesla-driver-in-fatal-texas-crash-pressed-accelerator-100-ntsb-confirms/",
+      "id": "rss:https://techcrunch.com/2026/07/16/spacex-suddenly-aborts-second-starship-v3-launch-after-ignition/",
+      "title": "SpaceX suddenly aborts second Starship V3 launch after ignition",
+      "url": "https://techcrunch.com/2026/07/16/spacex-suddenly-aborts-second-starship-v3-launch-after-ignition/",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -280,184 +229,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T20:22:52+00:00",
-      "summary": "The safety board confirmed Tesla's account of the crash, which the company shared days after it happened last month.",
+      "published_at": "2026-07-16T23:01:27+00:00",
+      "summary": "The company didn't immediately say what went wrong. SpaceX's stock plunged more than 4% in after-hours trading before paring losses.",
       "lang": "en"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/",
-      "title": "Daniel Ek’s body-scanning startup Neko Health raises another $700M",
-      "url": "https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Julie Bort",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T19:46:54+00:00",
-      "summary": "Neko Health has developed proprietary body-scanning technology, which it couples with bloodwork, to assess a person's health.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
-      "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
-      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Lucas Ropek",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T19:41:38+00:00",
-      "summary": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/microsoft-patches-bug-in-video-game-age-of-empires-ii/",
-      "title": "Microsoft patches bug in video game Age of Empires II",
-      "url": "https://techcrunch.com/2026/07/15/microsoft-patches-bug-in-video-game-age-of-empires-ii/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Lorenzo Franceschi-Bicchierai",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T18:47:01+00:00",
-      "summary": "The vulnerability in the decades-old game could have allowed hackers to take over victims’ computers with a malicious game invite.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/",
-      "title": "Apple bans home services from its upcoming Maps ads",
-      "url": "https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Sarah Perez",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T18:21:22+00:00",
-      "summary": "Apple has published the policies governing its upcoming Maps advertising business, revealing a strategy that differs from Google’s. The new rules prohibit home services businesses like plumbers, electricians, locksmiths, and roofers from advertising on Apple Maps, along with several other sensitive categories, suggesting Apple is taking a more curated approach to these ads.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/",
-      "title": "SpaceX falls to $135 IPO price ahead of Starship launch",
-      "url": "https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Sean O'Kane",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T18:06:05+00:00",
-      "summary": "The stock has steadily fallen from the euphoric post-IPO high, showing that markets may be sobering up to the promises CEO Elon Musk made before and after SpaceX went public.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
-      "title": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
-      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Connie Loizos",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T18:04:06+00:00",
-      "summary": "It's the company's first public proof point after a year and a half spent building AI infrastructure largely out of public view.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations/",
-      "title": "Phone maker OnePlus reportedly plans to wind down US and Europe operations",
-      "url": "https://techcrunch.com/2026/07/15/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Ivan Mehta",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T17:53:32+00:00",
-      "summary": "OnePlus could also wind down its operations in India by 2027.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/googles-biggest-clean-power-project-is-40-miles-north-of-xais-unpermitted-gas-power-plant/",
-      "title": "Google’s biggest clean power project is 40 miles north of xAI’s unpermitted gas power plant",
-      "url": "https://techcrunch.com/2026/07/15/googles-biggest-clean-power-project-is-40-miles-north-of-xais-unpermitted-gas-power-plant/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Tim De Chant",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T17:39:54+00:00",
-      "summary": "Google's biggest solar and battery project stands in sharp contrast with xAI's nearby unpermitted power plant.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
-      "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
-      "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Amanda Silberling",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T17:00:34+00:00",
-      "summary": "The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations/",
-      "title": "Whatnot acquires Shaped to power real-time live shopping recommendations",
-      "url": "https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Lauren Forristal",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T17:00:00+00:00",
-      "summary": "Livestream shopping platform Whatnot has acquired AI startup Shaped, a machine learning company focused on real-time recommendations and search. The deal will bolster Whatnot’s personalization and discovery features as it expands into new product categories.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
-      "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
-      "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+      "id": "rss:https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/",
+      "title": "Coca-Cola suspended production at its Fairlife dairy after a ransomware attack",
+      "url": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -467,31 +246,31 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T16:20:18+00:00",
-      "summary": "Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries with AI.",
+      "published_at": "2026-07-16T21:22:31+00:00",
+      "summary": "Coca Cola said dairy production at its Fairlife unit will \"remain suspended\" in the United States following a hack.",
       "lang": "en"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/07/15/stripe-and-advent-reportedly-offered-to-buy-paypal-for-around-53-4b/",
-      "title": "Stripe and Advent reportedly offered to buy PayPal for around $53.4B",
-      "url": "https://techcrunch.com/2026/07/15/stripe-and-advent-reportedly-offered-to-buy-paypal-for-around-53-4b/",
+      "id": "rss:https://techcrunch.com/2026/07/16/founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills/",
+      "title": "Founders Fund hires former OpenAI exec Ryan Beiermeister (and not because of her ‘Mafia’ skills)",
+      "url": "https://techcrunch.com/2026/07/16/founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://techcrunch.com/feed/",
-        "name": "Lauren Forristal",
+        "name": "Julie Bort",
         "feed_title": "TechCrunch"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T15:30:26+00:00",
-      "summary": "If completed, the acquisition would unite two of the biggest names in digital payments.",
+      "published_at": "2026-07-16T20:07:14+00:00",
+      "summary": "Ryan Beiermeister, who demonstrated cool analysis in the Founders Fund YouTube series \"Mafia,\" has joined the firm as a partner.",
       "lang": "en"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-      "title": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
-      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "id": "rss:https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+      "title": "Google Vids now lets you star in your own AI videos",
+      "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -501,31 +280,116 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T15:29:33+00:00",
-      "summary": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+      "published_at": "2026-07-16T18:32:54+00:00",
+      "summary": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
       "lang": "en"
     },
     {
-      "id": "rss:https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
-      "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
-      "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
+      "id": "rss:https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+      "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
+      "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://techcrunch.com/feed/",
-        "name": "Theresa Loconsolo",
+        "name": "Lauren Forristal",
         "feed_title": "TechCrunch"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T15:00:00+00:00",
-      "summary": "Can a handful of engineers really do the work of an army of consultants?&#160;That’s&#160;the bet behind Ode with Anthropic —&#160;the joint venture dedicated to embedding forward-deployed engineers in enterprise firms, backed by&#160;Anthropic, Blackstone, Hellman &#38; Friedman, Goldman&#160;Sachs&#160;and others.&#160;&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast, Rebecca Bellan sits down with Ode’s leaders&#160;Chris Taylor&#160;and&#160;Eddie Siegel,&#160;who founded...",
+      "published_at": "2026-07-16T18:22:06+00:00",
+      "summary": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
       "lang": "en"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/07/15/spotify-expands-parent-managed-accounts-to-users-on-its-free-tier/",
-      "title": "Spotify expands parent-managed accounts to users on its free tier",
-      "url": "https://techcrunch.com/2026/07/15/spotify-expands-parent-managed-accounts-to-users-on-its-free-tier/",
+      "id": "rss:https://techcrunch.com/2026/07/16/oil-giant-bp-shutters-its-corporate-venture-arm-after-20-years/",
+      "title": "Oil giant BP shutters its corporate venture arm after 20 years",
+      "url": "https://techcrunch.com/2026/07/16/oil-giant-bp-shutters-its-corporate-venture-arm-after-20-years/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Tim De Chant",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T17:37:03+00:00",
+      "summary": "BP Ventures is shutting down, ending a nearly 20-year run that was marked by reportedly lackluster returns.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/",
+      "title": "Uber’s $14.8B Delivery Hero deal would nearly double its global footprint",
+      "url": "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Kirsten Korosec",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T17:12:00+00:00",
+      "summary": "Uber has agreed to acquire Delivery Hero in a $14.8 billion all-stock deal that would nearly double the company’s global footprint and create one of the world’s largest food-delivery platforms outside China.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/newsletter-platform-beehiiv-now-lets-subscribers-chat-with-each-other-adds-ai/",
+      "title": "Newsletter platform Beehiiv now lets subscribers chat with each other, adds AI",
+      "url": "https://techcrunch.com/2026/07/16/newsletter-platform-beehiiv-now-lets-subscribers-chat-with-each-other-adds-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Ivan Mehta",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T17:00:00+00:00",
+      "summary": "Beehiiv is launching an AI Copilot to help publishers with user growth and analytics.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/x-cracks-down-on-creators-who-steal-content/",
+      "title": "X cracks down on creators who steal content",
+      "url": "https://techcrunch.com/2026/07/16/x-cracks-down-on-creators-who-steal-content/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Sarah Perez",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T16:40:36+00:00",
+      "summary": "X will use Grok AI to better detect stolen content, redirect payouts to original creators, and crack down on engagement bait.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m/",
+      "title": "AI-powered travel agency Fora hits unicorn status, raises $60M",
+      "url": "https://techcrunch.com/2026/07/16/ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Dominic-Madori Davis",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T16:08:40+00:00",
+      "summary": "Travel agency Fora announced a $60 million Series D round led by Forerunner and Tactile Ventures, valuing the company at $1 billion.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+      "title": "Google’s AI Mode now lets you link and interact with select apps",
+      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -535,8 +399,144 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T14:42:10+00:00",
-      "summary": "The feature was previously only available to paid subscribers.",
+      "published_at": "2026-07-16T16:00:00+00:00",
+      "summary": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/",
+      "title": "Google continues its renaming streak by turning NotebookLM to Gemini Notebook",
+      "url": "https://techcrunch.com/2026/07/16/google-continues-its-renaming-streak-by-turning-notebooklm-to-gemini-notebook/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Ivan Mehta",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T16:00:00+00:00",
+      "summary": "Google said users can soon access their notebooks through AI Mode in Search.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+      "title": "Yes, you can now order DoorDash from the command line",
+      "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Sarah Perez",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T15:38:55+00:00",
+      "summary": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/uk-cops-say-arrest-of-two-young-hackers-disrupted-the-operations-of-an-infamous-hacking-group/",
+      "title": "UK cops say arrest of two young hackers disrupted the operations of an infamous hacking group",
+      "url": "https://techcrunch.com/2026/07/16/uk-cops-say-arrest-of-two-young-hackers-disrupted-the-operations-of-an-infamous-hacking-group/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Lorenzo Franceschi-Bicchierai",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T15:37:47+00:00",
+      "summary": "Owen Flowers and Thalha Jubair, two members of the prolific Scattered Spider hacking group, pleaded guilty and were sentenced to five years and six months in jail for hacking London’s metropolitan transit system.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/period-tracker-stardust-shares-users-health-data-with-analytics-firm-says-mozilla-research/",
+      "title": "Period tracker Stardust shares users’ health data with analytics firm, says Mozilla research",
+      "url": "https://techcrunch.com/2026/07/16/period-tracker-stardust-shares-users-health-data-with-analytics-firm-says-mozilla-research/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Zack Whittaker",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T15:33:28+00:00",
+      "summary": "One period tracker app tested by Mozilla was 'squeaky clean,' while another app was seen sharing users' health data with an analytics company, underscoring vast differences in user privacy among these apps.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+      "title": "Why is OpenAI selling a ChatGPT basketball?",
+      "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Amanda Silberling",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T15:31:09+00:00",
+      "summary": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+      "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Maggie Nye",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T15:02:00+00:00",
+      "summary": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/sheryl-sandberg-leads-10-million-investment-in-ai-powered-vehicle-inspection-service/",
+      "title": "Sheryl Sandberg leads $10 million investment in AI-powered vehicle inspection service",
+      "url": "https://techcrunch.com/2026/07/16/sheryl-sandberg-leads-10-million-investment-in-ai-powered-vehicle-inspection-service/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Sean O'Kane",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T15:00:00+00:00",
+      "summary": "The startup, founded in 2021, lets enterprise customers use smartphones to scan and spot vehicle damage.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+      "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+      "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Kate Park",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T14:40:00+00:00",
+      "summary": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
       "lang": "en"
     },
     {
@@ -710,6 +710,295 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://arstechnica.com/space/2026/07/spacex-scrubs-starship-launch-after-some-of-its-engines-didnt-start/",
+      "title": "SpaceX scrubs Starship launch after some of its engines didn't start",
+      "url": "https://arstechnica.com/space/2026/07/spacex-scrubs-starship-launch-after-some-of-its-engines-didnt-start/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Stephen Clark",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-17T00:02:54+00:00",
+      "summary": "\"Now offloading propellant. Next launch attempt hopefully in a few days.\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/health/2026/07/two-trump-health-nominees-crash-and-burn-in-tense-senate-hearing/",
+      "title": "Two Trump health nominees crash and burn in tense Senate hearing",
+      "url": "https://arstechnica.com/health/2026/07/two-trump-health-nominees-crash-and-burn-in-tense-senate-hearing/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Beth Mole",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T22:33:24+00:00",
+      "summary": "Both nominees flailed in their own unique ways as senators sought answers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
+      "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
+      "url": "https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Scharon Harding",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T22:02:31+00:00",
+      "summary": "Resellers threatened to ditch HP printing supplies for counterfeits.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/tech-policy/2026/07/t-mobile-bungled-forced-plan-migration-canceling-some-users-free-lines/",
+      "title": "T-Mobile bungled forced plan migration, canceling some users' free lines",
+      "url": "https://arstechnica.com/tech-policy/2026/07/t-mobile-bungled-forced-plan-migration-canceling-some-users-free-lines/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jon Brodkin",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T20:52:47+00:00",
+      "summary": "T-Mobile to restore free lines lost during plan migration, but price hikes remain.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+      "title": "It's official: EU will force Google to share search data and open up AI on Android",
+      "url": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Ryan Whitwam",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T20:41:45+00:00",
+      "summary": "Google says these changes could endanger user privacy and security.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
+      "title": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
+      "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Ashley Belanger",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T20:26:23+00:00",
+      "summary": "Elon Musk's xAI files first lawsuit against Grok user accused of making child sex images.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+      "title": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
+      "url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jeremy Hsu",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T20:09:48+00:00",
+      "summary": "Hyundai aims to deploy 25,000 Atlas robots starting with US factories in 2028.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/culture/2026/07/trump-teleprompter-aide-made-100000-betting-on-what-trump-would-say-reports-say/",
+      "title": "Trump teleprompter aide made $100,000 betting on what Trump would say, reports say",
+      "url": "https://arstechnica.com/culture/2026/07/trump-teleprompter-aide-made-100000-betting-on-what-trump-would-say-reports-say/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Nate Anderson",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T19:55:46+00:00",
+      "summary": "If only someone could have predicted it.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/cars/2026/07/2026-toyota-rav4-plug-in-review-good-but-skip-the-gr-sport/",
+      "title": "2026 Toyota RAV4 plug-in: Big battery means daily drives are all-electric",
+      "url": "https://arstechnica.com/cars/2026/07/2026-toyota-rav4-plug-in-review-good-but-skip-the-gr-sport/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jonathan M. Gitlin",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T19:46:22+00:00",
+      "summary": "Toyota's everyday small SUV should rarely require trips to the gas station.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/",
+      "title": "Now, even Russia's most elite hackers are using Clickfix to infect devices",
+      "url": "https://arstechnica.com/security/2026/07/now-even-russias-most-elite-hackers-are-using-clickfix-to-infect-devices/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Dan Goodin",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T19:28:33+00:00",
+      "summary": "The social-engineering technique has primarily been a tool of financially motivated criminals.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
+      "title": "Linus Torvalds to critics of AI coding in Linux: \"Fork it. Or just walk away.\"",
+      "url": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Kyle Orland",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T19:18:23+00:00",
+      "summary": "Creator says he will \"very loudly ignore\" those arguing for a ban on AI tools.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/science/2026/07/weve-seen-helium-baked-off-a-rocky-exoplanets-atmosphere/",
+      "title": "We've seen helium baked off a rocky exoplanet's atmosphere",
+      "url": "https://arstechnica.com/science/2026/07/weve-seen-helium-baked-off-a-rocky-exoplanets-atmosphere/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "John Timmer",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T18:00:15+00:00",
+      "summary": "If the large, rocky planet is losing helium, then we can infer what is left behind.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/gadgets/2026/07/oneplus-ends-phone-releases-in-us-and-europe-further-reducing-smartphone-choice/",
+      "title": "OnePlus confirms shutdown in the US and Europe, ending months of speculation",
+      "url": "https://arstechnica.com/gadgets/2026/07/oneplus-ends-phone-releases-in-us-and-europe-further-reducing-smartphone-choice/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Ryan Whitwam",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T16:29:46+00:00",
+      "summary": "OnePlus promises to continue supporting the phones it has already released.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/space/2026/07/could-china-and-russia-really-destroy-starlink-only-with-a-boomerang/",
+      "title": "Could China and Russia really destroy Starlink? Only with a boomerang.",
+      "url": "https://arstechnica.com/space/2026/07/could-china-and-russia-really-destroy-starlink-only-with-a-boomerang/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Stephen Clark",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T16:19:28+00:00",
+      "summary": "\"We will likely have similar concerns and discussions when China fields its Starlink-like constellation.\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Martha Muir in New York",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T15:48:21+00:00",
+      "summary": "Companies coming to market are raising money at fastest pace this century.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/tech-policy/2026/07/tesla-driver-who-blamed-crash-on-autopilot-pressed-accelerator-100-ntsb-finds/",
+      "title": "Tesla driver who blamed crash on autopilot pressed accelerator 100%, NTSB finds",
+      "url": "https://arstechnica.com/tech-policy/2026/07/tesla-driver-who-blamed-crash-on-autopilot-pressed-accelerator-100-ntsb-finds/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Ashley Belanger",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T14:48:32+00:00",
+      "summary": "NTSB findings back Elon Musk's claim that driver manually overrode FSD.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/space/2026/07/move-over-gps-navigation-satellites-in-low-earth-orbit-are-making-a-comeback/",
+      "title": "Move over, GPS: Navigation satellites in low-Earth orbit are making a comeback",
+      "url": "https://arstechnica.com/space/2026/07/move-over-gps-navigation-satellites-in-low-earth-orbit-are-making-a-comeback/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jeremy Hsu",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T11:00:21+00:00",
+      "summary": "Xona aims to deploy 258 satellites into low-Earth orbit as a GPS alternative.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://arstechnica.com/gaming/2026/07/hundreds-rally-at-bethesda-hq-to-protest-xbox-layoffs-and-ars-was-there/",
       "title": "Hundreds rally at Bethesda HQ to protest Xbox layoffs, and Ars was there",
       "url": "https://arstechnica.com/gaming/2026/07/hundreds-rally-at-bethesda-hq-to-protest-xbox-layoffs-and-ars-was-there/",
@@ -761,332 +1050,77 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arstechnica.com/tech-policy/2026/07/judge-trump-cant-deport-researchers-just-for-working-in-content-moderation/",
-      "title": "Judge: Trump can’t deport researchers just for working in content moderation",
-      "url": "https://arstechnica.com/tech-policy/2026/07/judge-trump-cant-deport-researchers-just-for-working-in-content-moderation/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Ashley Belanger",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T21:26:02+00:00",
-      "summary": "Disinformation researchers praise ruling blocking Trump visa denials and deportations.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/gadgets/2026/07/engineer-identifies-and-explains-every-90s-computer-seen-in-jurassic-park/",
-      "title": "Engineer identifies and explains every '90s computer seen in Jurassic Park",
-      "url": "https://arstechnica.com/gadgets/2026/07/engineer-identifies-and-explains-every-90s-computer-seen-in-jurassic-park/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Samuel Axon",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T21:04:22+00:00",
-      "summary": "Yes, it was, in fact, a Unix system.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
-      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
-      "url": "https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Dan Goodin",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T19:59:48+00:00",
-      "summary": "HiveLegacy is a \"powerful primitive\" that's likely capable of other nefarious actions.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/tech-policy/2026/07/fcc-to-repeal-39-tv-ownership-cap-in-boost-for-trump-friendly-news-orgs/",
-      "title": "FCC to repeal 39% TV ownership cap in boost for Trump-friendly news orgs",
-      "url": "https://arstechnica.com/tech-policy/2026/07/fcc-to-repeal-39-tv-ownership-cap-in-boost-for-trump-friendly-news-orgs/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jon Brodkin",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T18:52:22+00:00",
-      "summary": "FCC chairman claims power to repeal TV ownership limit set by Congress.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/culture/2026/07/in-memoriam-seven-of-our-favorite-sam-neill-films/",
-      "title": "In memoriam: 7 of our favorite Sam Neill films",
-      "url": "https://arstechnica.com/culture/2026/07/in-memoriam-seven-of-our-favorite-sam-neill-films/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jennifer Ouellette",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T18:39:58+00:00",
-      "summary": "The actor, who starred in 1993's Jurassic Park, died Monday in Sydney, Australia, at the age of 78.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/gadgets/2026/07/third-party-app-stores-coming-to-google-play-next-week-as-epic-settlement-withdrawn/",
-      "title": "Third-party app stores coming to Google Play next week as Epic settlement withdrawn",
-      "url": "https://arstechnica.com/gadgets/2026/07/third-party-app-stores-coming-to-google-play-next-week-as-epic-settlement-withdrawn/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Ryan Whitwam",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T16:55:12+00:00",
-      "summary": "With the settlement withdrawn, Google is now bound by the court's full antitrust remedies.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/",
-      "title": "OpenAI's first branded hardware is... a light-up keyboard?",
-      "url": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Kyle Orland",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T16:00:33+00:00",
-      "summary": "The Codex Micro is designed to monitor multiple agentic threads at a glance.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/space/2026/07/a-most-improbable-astronaut-just-went-to-space/",
-      "title": "A most improbable astronaut just went to space",
-      "url": "https://arstechnica.com/space/2026/07/a-most-improbable-astronaut-just-went-to-space/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Eric Berger",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T11:30:07+00:00",
-      "summary": "\"I pretty much, at that point in time, gave up on being an astronaut.\"",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/space/2026/07/how-hard-is-it-to-build-orbital-data-centers-actually/",
-      "title": "How hard is it to build orbital data centers, actually?",
-      "url": "https://arstechnica.com/space/2026/07/how-hard-is-it-to-build-orbital-data-centers-actually/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Eric Berger",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T11:00:09+00:00",
-      "summary": "\"The ISS radiators are expensive and heavy. We're focused on making them cheap and light.\"",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/science/2026/07/sothebys-big-t-rex-auction-raises-concerns-hype-and-wealth-are-upending-science/",
-      "title": "Sotheby's big T. rex auction raises concerns hype and wealth are upending science",
-      "url": "https://arstechnica.com/science/2026/07/sothebys-big-t-rex-auction-raises-concerns-hype-and-wealth-are-upending-science/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Kate Wong, WIRED.com",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T10:30:39+00:00",
-      "summary": "Private buyers are increasingly outbidding museums for fossils.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
-      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
-      "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Dan Goodin",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T22:20:48+00:00",
-      "summary": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/",
-      "title": "Trump admin puts Americans in Congo on \"do-not-board\" list, barring return",
-      "url": "https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Beth Mole",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T22:09:31+00:00",
-      "summary": "Citizens must now spend 21 days in a third country before they are allowed to come home.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
-      "title": "Lawsuit claims Meta's layoff decisions were made by AI, not humans",
-      "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jon Brodkin",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T20:05:53+00:00",
-      "summary": "Meta denies using AI to terminate workers with disabilities and medical problems.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/",
-      "title": "Probe into explosive diarrheal cases points to Taco Bell and bad lettuce",
-      "url": "https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Beth Mole",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T19:00:02+00:00",
-      "summary": "Federal officials have not confirmed a source yet—and there may be multiple sources.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
-      "title": "US military sent explosive drone boats into combat for the first time",
-      "url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jeremy Hsu",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T18:00:01+00:00",
-      "summary": "US military’s drone boats struck an Iranian naval port as war heats up again.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/",
-      "title": "These painted e-tattoos could be the future of wearable biosensors",
-      "url": "https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jennifer Ouellette",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T17:31:58+00:00",
-      "summary": "Conductive ink is painted directly onto the skin in colorful custom designs, drying into working electrodes.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai/",
-      "title": "Google revamps image search for its 25th anniversary with more images and more AI",
-      "url": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Ryan Whitwam",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T16:28:14+00:00",
-      "summary": "The new Google image search will use your \"unique interests\" to create an always-updated gallery.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/mentalhappy",
-      "title": "MentalHappy 3.0",
-      "url": "https://www.producthunt.com/products/mentalhappy",
+      "id": "rss:https://www.producthunt.com/products/clipmatch",
+      "title": "ClipMatch",
+      "url": "https://www.producthunt.com/products/clipmatch",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Tamar Blue",
+        "name": "Abigail Williams",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-13T02:17:09+00:00",
-      "summary": "Find & host online support groups that actually fill up Discussion | Link",
+      "published_at": "2026-07-16T05:16:07+00:00",
+      "summary": "Turn your camera roll into social content with AI Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/quickquill-2",
-      "title": "QuickQuill",
-      "url": "https://www.producthunt.com/products/quickquill-2",
+      "id": "rss:https://www.producthunt.com/products/bricksolvr",
+      "title": "BrickSolvr",
+      "url": "https://www.producthunt.com/products/bricksolvr",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Taisei",
+        "name": "shuaibird",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-14T14:30:55+00:00",
-      "summary": "Private, on-device meeting notes for Mac Discussion | Link",
+      "published_at": "2026-07-15T08:30:49+00:00",
+      "summary": "Turn any 3D model into a buildable brick design Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/v2fun",
-      "title": "V2Fun",
-      "url": "https://www.producthunt.com/products/v2fun",
+      "id": "rss:https://www.producthunt.com/products/amami",
+      "title": "Amami",
+      "url": "https://www.producthunt.com/products/amami",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "dss cdd",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-15T04:17:53+00:00",
+      "summary": "Analytics that lives inside your AI assistant Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/in-parallel",
+      "title": "In Parallel MCP",
+      "url": "https://www.producthunt.com/products/in-parallel",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Paulina Krakowska-Luoma",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-14T12:55:10+00:00",
+      "summary": "Your context, available to every agent. Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/openai",
+      "title": "Codex Micro",
+      "url": "https://www.producthunt.com/products/openai",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1096,150 +1130,99 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-02T11:20:04+00:00",
-      "summary": "Generate 3D character with 8K textures and AI motion capture Discussion | Link",
+      "published_at": "2026-07-16T03:23:59+00:00",
+      "summary": "Tactile controls for your Codex agents Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/eqk-eq-with-ai",
-      "title": "EQK",
-      "url": "https://www.producthunt.com/products/eqk-eq-with-ai",
+      "id": "rss:https://www.producthunt.com/products/nuvio-2",
+      "title": "Nuvio",
+      "url": "https://www.producthunt.com/products/nuvio-2",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Aakashdhruv Vashisht",
+        "name": "Ammar Rayess",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-11T15:26:52+00:00",
-      "summary": "Mac app with dynamic AI EQ Discussion | Link",
+      "published_at": "2026-07-14T16:35:02+00:00",
+      "summary": "Connect your X bio to your MRR and GA4 for auto updates Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/crustdata-2",
-      "title": "Crustdata Recruiter",
-      "url": "https://www.producthunt.com/products/crustdata-2",
+      "id": "rss:https://www.producthunt.com/products/river-9",
+      "title": "River",
+      "url": "https://www.producthunt.com/products/river-9",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Garry Tan",
+        "name": "Kevin William David",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-14T03:38:01+00:00",
-      "summary": "Claude Skills to turn Claude into a 100x Recruiter Discussion | Link",
+      "published_at": "2026-07-16T00:40:17+00:00",
+      "summary": "AI account executives that demo and close B2B deals Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/agently",
-      "title": "Agently",
-      "url": "https://www.producthunt.com/products/agently",
+      "id": "rss:https://www.producthunt.com/products/graft-ai",
+      "title": "Graft AI",
+      "url": "https://www.producthunt.com/products/graft-ai",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Ben Lang",
+        "name": "Yashas Gunderia",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-04-22T03:12:38+00:00",
-      "summary": "Your whole stack, running itself! Discussion | Link",
+      "published_at": "2026-07-15T17:24:23+00:00",
+      "summary": "Turn company operations into a living map for agents Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/nudge-26",
-      "title": "nudge2.0",
-      "url": "https://www.producthunt.com/products/nudge-26",
+      "id": "rss:https://www.producthunt.com/products/inbix",
+      "title": "Inbix",
+      "url": "https://www.producthunt.com/products/inbix",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Shunsuke Nakagawa",
+        "name": "Sandi Andrian",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T04:42:28+00:00",
-      "summary": "AI schedules your whole week to take action Discussion | Link",
+      "published_at": "2026-07-15T15:17:54+00:00",
+      "summary": "Cloudflare-native Email Infrastructure for Developers Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/ifttt",
-      "title": "New AI tools by IFTTT",
-      "url": "https://www.producthunt.com/products/ifttt",
+      "id": "rss:https://www.producthunt.com/products/simpli-3",
+      "title": "SIMPLI",
+      "url": "https://www.producthunt.com/products/simpli-3",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Chelsea C.",
+        "name": "Viivek Mehata",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-07T21:58:15+00:00",
-      "summary": "Automate with Grok, Gemini, Perplexity, and more Discussion | Link",
+      "published_at": "2026-07-13T08:39:23+00:00",
+      "summary": "Split expenses in a live cosmos Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/deskmat-for-mac",
-      "title": "DeskMat 1.3",
-      "url": "https://www.producthunt.com/products/deskmat-for-mac",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Matthias Gansrigler",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T09:58:37+00:00",
-      "summary": "Now hide individual files + folders for more private desktop Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/ccshare",
-      "title": "ccshare",
-      "url": "https://www.producthunt.com/products/ccshare",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Vedanta SP",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T08:43:39+00:00",
-      "summary": "multiplayer claude code Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/velo-4",
-      "title": "Velo 3.0",
-      "url": "https://www.producthunt.com/products/velo-4",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Rohan Chaubey",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T11:21:50+00:00",
-      "summary": "AI video infrastructure to explain, train, and sell faster. Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/flutterflow",
-      "title": "Campus",
-      "url": "https://www.producthunt.com/products/flutterflow",
+      "id": "rss:https://www.producthunt.com/products/zro",
+      "title": "Zro",
+      "url": "https://www.producthunt.com/products/zro",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1249,116 +1232,116 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-08T16:46:51+00:00",
-      "summary": "One project space for humans and AI agents Discussion | Link",
+      "published_at": "2026-07-15T15:45:09+00:00",
+      "summary": "Private inference for coding agents Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/codenearby",
-      "title": "CodeNearby 2.0",
-      "url": "https://www.producthunt.com/products/codenearby",
+      "id": "rss:https://www.producthunt.com/products/nitrosend",
+      "title": "Nitrosend",
+      "url": "https://www.producthunt.com/products/nitrosend",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Subhadip Saha",
+        "name": "George H.",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-11T18:43:04+00:00",
-      "summary": "Tinder for developers! Find coding partners & build together Discussion | Link",
+      "published_at": "2026-07-15T01:41:49+00:00",
+      "summary": "Email for AI agents. They sign up, send and reply. Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/withmantle",
-      "title": "Clerk | AI Assistant for Cap Tables",
-      "url": "https://www.producthunt.com/products/withmantle",
+      "id": "rss:https://www.producthunt.com/products/weave-9",
+      "title": "Weave",
+      "url": "https://www.producthunt.com/products/weave-9",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Mat Sherman",
+        "name": "Emmanuel Adesola",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-05-05T15:37:15+00:00",
-      "summary": "Issue grants, model funding rounds, ask it anything equity Discussion | Link",
+      "published_at": "2026-07-15T23:37:50+00:00",
+      "summary": "Think out loud and watch it become a living map. Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/tiptap",
-      "title": "Tiptap AI Toolkit",
-      "url": "https://www.producthunt.com/products/tiptap",
+      "id": "rss:https://www.producthunt.com/products/ventorah-browser-cfd",
+      "title": "Ventorah",
+      "url": "https://www.producthunt.com/products/ventorah-browser-cfd",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Philip Isik",
+        "name": "Kavan Shah",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T06:01:24+00:00",
-      "summary": "Empower your AI to directly edit documents in real time. Discussion | Link",
+      "published_at": "2026-07-16T06:37:09+00:00",
+      "summary": "run virtual wind tunnel aerodynamic analysis in your browser Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/yagni",
-      "title": "YAGNI",
-      "url": "https://www.producthunt.com/products/yagni",
+      "id": "rss:https://www.producthunt.com/products/flightglitch-airline-error-fare-alerts",
+      "title": "FlightGlitch",
+      "url": "https://www.producthunt.com/products/flightglitch-airline-error-fare-alerts",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Jack Collins",
+        "name": "Shahvaiz Mirza",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-10T03:45:28+00:00",
-      "summary": "Proactive agent teams you manage like humans Discussion | Link",
+      "published_at": "2026-07-15T17:36:23+00:00",
+      "summary": "Catch mistake fares before airlines fix them Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/keepresso",
-      "title": "Keepresso",
-      "url": "https://www.producthunt.com/products/keepresso",
+      "id": "rss:https://www.producthunt.com/products/microflow",
+      "title": "Microflow",
+      "url": "https://www.producthunt.com/products/microflow",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Gyorgy",
+        "name": "Sander Boer",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-14T13:34:13+00:00",
-      "summary": "Keep your Mac awake, on your terms. Free and open source Discussion | Link",
+      "published_at": "2026-07-13T09:56:27+00:00",
+      "summary": "Microcontrollers made simple. Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/flodesk-studio",
-      "title": "Flodesk Studio",
-      "url": "https://www.producthunt.com/products/flodesk-studio",
+      "id": "rss:https://www.producthunt.com/products/breadcromb",
+      "title": "Breadcromb",
+      "url": "https://www.producthunt.com/products/breadcromb",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Axel Florence",
+        "name": "Christophe CHEULEU",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-06T17:55:45+00:00",
-      "summary": "A place to make beautiful emails. Discussion | Link",
+      "published_at": "2026-07-14T21:17:28+00:00",
+      "summary": "A browser that remembers everything and can act on anything Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/recordmeeting",
-      "title": "RecordMeeting",
-      "url": "https://www.producthunt.com/products/recordmeeting",
+      "id": "rss:https://www.producthunt.com/products/cloud-halo",
+      "title": "Cloud Halo",
+      "url": "https://www.producthunt.com/products/cloud-halo",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1368,201 +1351,218 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-19T12:30:12+00:00",
-      "summary": "Record and transcribe any calls without announcement Discussion | Link",
+      "published_at": "2026-07-10T12:04:10+00:00",
+      "summary": "Azure FinOps for MSPs with flat pricing Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/co-present",
-      "title": "Copresent",
-      "url": "https://www.producthunt.com/products/co-present",
+      "id": "rss:https://www.producthunt.com/products/kit-for-ai",
+      "title": "Kit For AI",
+      "url": "https://www.producthunt.com/products/kit-for-ai",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "PT",
+        "name": "Aymen",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-09T09:43:18+00:00",
-      "summary": "Turn your phone into a Google Slides remote Discussion | Link",
+      "published_at": "2026-07-15T10:39:04+00:00",
+      "summary": "The memory layer for AI agents Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/jam-pod",
-      "title": "Jam-Pod",
-      "url": "https://www.producthunt.com/products/jam-pod",
+      "id": "rss:https://www.producthunt.com/products/alert-audit-by-doctor-droid",
+      "title": "Alert Grouping by DrDroid",
+      "url": "https://www.producthunt.com/products/alert-audit-by-doctor-droid",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Gianpaolo Campoli",
+        "name": "Siddarth Jain",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-14T17:08:42+00:00",
-      "summary": "A player for people who keep their own music collection Discussion | Link",
+      "published_at": "2026-07-15T06:55:52+00:00",
+      "summary": "Reduce Your Alerts Noise Completely Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/eddie-your-ai-video-editor",
-      "title": "Review by Eddie AI",
-      "url": "https://www.producthunt.com/products/eddie-your-ai-video-editor",
+      "id": "rss:https://www.producthunt.com/products/albato",
+      "title": "Albato AI",
+      "url": "https://www.producthunt.com/products/albato",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "KP",
+        "name": "Wenddy Dias",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-13T16:45:01+00:00",
-      "summary": "Time-stamped feedback on your video frm your team & AI. Free Discussion | Link",
+      "published_at": "2025-11-10T17:10:46+00:00",
+      "summary": "Build AI-driven workflows across 1,000+ apps Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/pazi",
-      "title": "Pazi",
-      "url": "https://www.producthunt.com/products/pazi",
+      "id": "rss:https://www.producthunt.com/products/manta-ai",
+      "title": "Manta AI",
+      "url": "https://www.producthunt.com/products/manta-ai",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Garry Tan",
+        "name": "AbdelRahman El-Sergani",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-25T22:37:53+00:00",
-      "summary": "Vibe code business operations Discussion | Link",
+      "published_at": "2026-07-13T12:00:36+00:00",
+      "summary": "Your AI agent for autonomous web app testing Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/breva",
-      "title": "Breva",
-      "url": "https://www.producthunt.com/products/breva",
+      "id": "rss:https://www.producthunt.com/products/dot-7",
+      "title": "dot.",
+      "url": "https://www.producthunt.com/products/dot-7",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Dvain",
+        "name": "Munimur Ashrafy",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-08T09:55:11+00:00",
-      "summary": "Turn your Mac trackpad into a gentle breathing guide Discussion | Link",
+      "published_at": "2026-07-06T18:22:12+00:00",
+      "summary": "The feedback layer for anything you build with AI. Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/sourclip",
-      "title": "Sourclip",
-      "url": "https://www.producthunt.com/products/sourclip",
+      "id": "rss:https://www.producthunt.com/products/the-eureka-database",
+      "title": "The Eureka Database",
+      "url": "https://www.producthunt.com/products/the-eureka-database",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Aditya Kumar",
+        "name": "Jeremy Galang",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-10T18:08:01+00:00",
-      "summary": "Turn NotebookLM into a complete research workflow Discussion | Link",
+      "published_at": "2026-07-16T00:20:11+00:00",
+      "summary": "Turn a Reddit complaint into your next company Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/mojave-paint",
-      "title": "Mojave Paint",
-      "url": "https://www.producthunt.com/products/mojave-paint",
+      "id": "rss:https://www.producthunt.com/products/node-health",
+      "title": "Node Health",
+      "url": "https://www.producthunt.com/products/node-health",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "John Simons",
+        "name": "Ben Renhuldt",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-14T03:39:00+00:00",
-      "summary": "Direct manipulation of static images on the Mac platform Discussion | Link",
+      "published_at": "2026-07-15T07:08:33+00:00",
+      "summary": "Your private home for every lab result Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/clawteams",
-      "title": "ClawTeams",
-      "url": "https://www.producthunt.com/products/clawteams",
+      "id": "rss:https://www.producthunt.com/products/paradigm-3",
+      "title": "Paradigm",
+      "url": "https://www.producthunt.com/products/paradigm-3",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Chris Messina",
+        "name": "Justin Jincaid",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-09T01:25:53+00:00",
-      "summary": "The first goal-driven, proactive AI team for e-commerce Discussion | Link",
+      "published_at": "2026-06-18T02:09:41+00:00",
+      "summary": "Turn any goal into a personalized, adaptive learning path. Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/vocalvia",
-      "title": "VocalVia",
-      "url": "https://www.producthunt.com/products/vocalvia",
+      "id": "rss:https://www.producthunt.com/products/chikitai",
+      "title": "ChikitAI",
+      "url": "https://www.producthunt.com/products/chikitai",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Zoey",
+        "name": "Sujit Routray",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-13T08:25:34+00:00",
-      "summary": "Turn documents and articles into editable multi-voice audio Discussion | Link",
+      "published_at": "2026-07-14T20:54:35+00:00",
+      "summary": "Agentic AI for Healthcare Triage and Care Automation Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/flyout",
-      "title": "Flyout",
-      "url": "https://www.producthunt.com/products/flyout",
+      "id": "rss:https://www.producthunt.com/products/cito",
+      "title": "Cito",
+      "url": "https://www.producthunt.com/products/cito",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Görkem Yıldırım",
+        "name": "Tao An",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-13T10:10:46+00:00",
-      "summary": "Rich-text notes that fly out from your Mac's screen edge Discussion | Link",
+      "published_at": "2026-07-13T20:26:53+00:00",
+      "summary": "Hybrid academic search over 236M papers, built for agents Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/claude-overlay",
-      "title": "Claude Overlay",
-      "url": "https://www.producthunt.com/products/claude-overlay",
+      "id": "rss:https://www.producthunt.com/products/resonantgenesis",
+      "title": "DevSwat",
+      "url": "https://www.producthunt.com/products/resonantgenesis",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Jason Lin",
+        "name": "Liubov Nemesh",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-10T14:54:54+00:00",
-      "summary": "A floating Claude Code chat that sees your screen Discussion | Link",
+      "published_at": "2026-07-15T17:33:34+00:00",
+      "summary": "Turn codebases into interactive maps, graphs, and governance Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://36kr.com/p/3896639942592134?f=rss",
-      "title": "大厂医疗AI战，开始“卷”减重",
-      "url": "https://36kr.com/p/3896639942592134?f=rss",
+      "id": "rss:https://www.producthunt.com/products/sonof",
+      "title": "SonOf",
+      "url": "https://www.producthunt.com/products/sonof",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Oleksii Sekundant",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-15T14:09:29+00:00",
+      "summary": "Empty your backlog. Pay only when it ships Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://36kr.com/p/3898476192941697?f=rss",
+      "title": "震业新材完成超亿元A轮融资，招商致远、玉柴股份、海富产业基金领投｜36氪首发",
+      "url": "https://36kr.com/p/3898476192941697?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1572,14 +1572,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T02:21:30+00:00",
-      "summary": "文｜胡香赟 编辑｜海若镜 互联网大厂做医疗AI，越来越偏爱“减重”场景。 近日，蚂蚁集团宣布投资薄荷健康，持股比例超28%，成为薄荷健康最大外部股东。薄荷健康成立于2008年，这家互联网医疗公司通过为用户提供饮食记录、科学减重方案等，聚拢了超2亿用户，收录160万条食物数据条目。 2021年，薄荷健康完成D轮融资，估值为20亿人民币。本次投资，据接近交易人士介绍，“从战投角度来做，蚂蚁整体投资金额为数亿人民币，价格比较合理”。关于对价，蚂蚁方面并未回应。 据36氪了解，薄荷健康的主要收入来源包括食品、功效产品等电商销售，会员付费。近两年，在严肃医疗场景，薄荷健康与减重创新药企、CRO公司的合作，增长势头也较强。多位AI医疗从业者认为，这种把单一健康管理场景服务做深，并形成强用户粘性和商业转化的能力，是蚂蚁看重薄荷健康的重要因素之一。 在大健康赛道，医疗是相对低频的场景。为提高医疗AI类应用的用户留存和粘性，各家纷纷看中了高频、刚需且下游可拓展品类广阔的“减重”场景。 投资薄荷健康前，蚂蚁健康就通过供应9.9元“白菜价”体脂秤，号召用户在“阿福”APP上参与“科学减重1亿斤”活动。 7月...",
+      "published_at": "2026-07-17T05:41:21+00:00",
+      "summary": "36氪获悉，ADI金属材料企业震业新材近期完成超亿元A轮融资。 本轮融资由招商致远资本、玉柴股份、海富产业基金领投，中金资本、江苏省沿海集团、黄海金控跟投，所融资金将主要用于ADI材料产线扩建、核心工艺迭代研发，以及乘用车、商用车、工程机械等下游场景的商业化落地。 震业新材告诉36氪：“在ADI行业，1200MPa抗拉强度、4%延伸率是行业通用性能标准。延伸率达到5%~6%以上，才算真正意义的高韧性结构材料，这也是行业关键技术分水岭，高强韧性可满足齿轮、底盘、重载传动等核心安全件的抗冲击、抗疲劳、不断裂要求。” 而行业主流厂商的技术水平，普遍停留在QTD 900-8（900MPa抗拉强度、8%延伸率）、QTD1200-3（1200MPa抗拉强度、3%延伸率）QTD 1400-1（1400MPa抗拉强度、1%延伸率）、QTD 1600-1（1600MPa抗拉强度、1%延伸率），也就是说，高强度下延伸率极低，无法适配高端重载、精密齿轮核心工况。 “ 震业新材在2024年实现关键技术突破，具备了量产 QTD 1200-10（1200MPa抗拉强度、10%延伸率）、QTD 1400-7（140...",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3897686922266244?f=rss",
-      "title": "硬氪首发 | 民用航空动力企业再获近亿元融资，切入国际巨头垄断的关键功率段",
-      "url": "https://36kr.com/p/3897686922266244?f=rss",
+      "id": "rss:https://36kr.com/p/3899128277452681?f=rss",
+      "title": "36氪首发 | 港科大博士创业做机器人全身触觉系统，红杉、瓴智、智元共同押注",
+      "url": "https://36kr.com/p/3899128277452681?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1589,14 +1589,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T02:12:48+00:00",
-      "summary": "作者&nbsp;|&nbsp;乔钰杰 编辑&nbsp;|&nbsp;袁斯来 硬氪获悉，民用航空动力企业汉发长空近日完成近亿元Pre-A轮融资，本轮融资由方广资本领投，致道资本、六翼投资共同投资。 融资资金将主要用于提升400kW级通用核心机平台的技术成熟度与工程化验证，加速发动机向量产阶段迈进。400kW级平台包括涡轴发动机S4、涡桨发动机P4以及涡电发动机H4。涡轴发动机S4已进入挂飞测试阶段；涡桨发动机P4与涡电发动机H4预计将在今年下半年完成首装下线并开展地面试验。 在航空涡轮发动机领域，国内长期以军用动力为主，面向低空经济领域的民用动力长期处于空缺状态，而国际航发巨头则长期垄断着市场。动力产品的现状，不仅推高了飞行器整机成本，也制约了无人机、eVTOL等低空飞行器的大规模商业化，成为当前低空经济发展的核心瓶颈之一。 汉发长空针对国内全新的无人物流场景、复杂地形运输场景、长航程大载重的evtol场景，采用“核心机平台化”的构型衍生模式，全流程正向研发400千瓦级通用核心机平台。以通用核心机为基础，衍生出涡轴、涡桨与涡电三类动力构型。同时，为了提高飞行器的经济性，从发动机的设计源头...",
+      "published_at": "2026-07-17T02:39:17+00:00",
+      "summary": "作者&nbsp;|&nbsp;乔钰杰 编辑&nbsp;|&nbsp;袁斯来 硬氪获悉，全身多模态融合触觉解决方案公司模感科技（MoSense）近日完成数千万元天使轮融资，投资方包括红杉中国、高瓴创投及智元机器人。本轮融资资金将主要用于加速研发、团队扩充、算力投入及量产测试体系建设。 模感科技成立于2026年5月，总部注册于上海，在深圳前海设有研发中心，聚焦机器人全身多模态触觉感知系统研发。公司正式成立仅一个月便获得头部美元基金及人形厂商的共同押注。 随着人形机器人逐步从展示场景走向工业制造、物流搬运及家庭服务等真实复杂人物场景，机器人对环境的全面泛化感知能力正成为制约落地的重要瓶颈。相比视觉能够获取环境信息，触觉负责感知接触、受力、摩擦等物理交互状态，是机器人完成稳定操作和自主决策的重要基础。 不过，目前行业中的触觉方案大多集中部署于灵巧手或夹爪指尖指腹等局部位置，仅能应对局部精细操作需求。在复杂场景下，机器人身体其他部位仍然缺乏触觉反馈，难以形成完整的物理交互能力。同时，多种传统技术路线还受到成本、面积覆盖和感知模态等因素限制，难以实现大面积、连续曲面的规模化部署。 为增强机器人的全...",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3896586337978244?f=rss",
-      "title": "众筹近400万美金，这家明星AI体育硬件公司做了款多合一教练机器人 ｜产品观察",
-      "url": "https://36kr.com/p/3896586337978244?f=rss",
+      "id": "rss:https://36kr.com/p/3899081603483525?f=rss",
+      "title": "36氪首发 | 前蔚来、华为智驾核心成员联手创业具身世界模型，三个月内完成数亿元融资",
+      "url": "https://36kr.com/p/3899081603483525?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1606,14 +1606,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T01:30:00+00:00",
-      "summary": "作者｜黄楠 编辑｜袁斯来 在首款网球发球机卖爆后，庞伯特做了一款多合一AI教练机器人 。 这家公司是在一级市场很受关注的标的，2025年半年内完成三轮融资累计数亿元；旗下产品也在全球拥有了30余万用户，设备累计发球总量超20亿次。 但当下硬件赛道已经不容小而美的公司慢慢成长，网球赛道涌入了越来越多的对手，国内硬件创业团队快速入局，海外老牌专业设备厂商也在加速占据全球专业市场。 庞伯特很早就有拓宽赛道的想法，直到今年5月，其首款多运动合一智能体育AI教练机器人Aura发布，完成了从网球场景的训练工具、到多运动AI教练机器人的落地。这款产品在Kickstarter上线当天，仅5小时众筹金额便超过100万美金，累计金额近400万美元。 它的核心思路很直接：与其让用户为每一项运动分别买单，不如用一台设备覆盖尽可能多的场景，包括时下热门的板式网球、匹克球等等。基于所搭载的AI Coach智能教练体系，拓宽产品适用场景与用户覆盖范围。 从单一专项的训练工具，到兼容多类隔网运动的AI私教，庞伯特Aura所代表的，是智能硬件从专业竞技赛道向大众运动场景的一次纵深延伸。当设备不再只为少数人的性能指标服务...",
+      "published_at": "2026-07-17T01:52:16+00:00",
+      "summary": "作者&nbsp;|&nbsp;乔钰杰 编辑&nbsp;|&nbsp;袁斯来 硬氪获悉，具身智能世界模型公司日冕开物（北京日冕机器人有限公司）近期完成连续两轮种子轮融资，融资合计金额达数亿元人民币，由鼎峰科创、远图未来、百度风投、沃衍资本、武岳峰科创、万林国际共同参与投资。同时，新一轮融资也在同步交割中。 此前融资资金主要用于自研世界模型 LaMPA 的研发迭代、强化学习体系建设，以及数据闭环和产品交付能力的持续完善。 日冕开物成立于2026年3月，聚焦物理世界基础模型研发，希望打造能够理解物理世界、预测环境变化并驱动机器人执行任务的基础模型，帮助机器人从单一场景能力，逐步迈向跨场景泛化。 日冕创始团队均为清华自动驾驶背景，主导过行业首批智驾世界模型研发落地以及首批具身强化学习与交付工作。创始人肖中阳博士，曾主导智驾行业首个复杂交互场景的世界模型交付，该模型已搭载超过70万辆蔚来汽车；团队基座模型负责人，“华为天才少年”钟元鑫博士，曾主导华为新一代智驾世界模型基模的设计与量产落地工作；模型后训练与交付负责人，蔚来Super Spark王云龙博士，曾在智元机器人负责大模型与真机强化学习算法...",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3895721094842249?f=rss",
-      "title": "斯年智驾获3亿元C轮融资，自动驾驶重卡赛道再升温｜36氪独家",
-      "url": "https://36kr.com/p/3895721094842249?f=rss",
+      "id": "rss:https://36kr.com/p/3899057634363266?f=rss",
+      "title": "36氪首发 | 这家人形机器人ODM厂商获千万融资，飞荣达、索辰科技接连下注",
+      "url": "https://36kr.com/p/3899057634363266?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1623,14 +1623,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T00:00:00+00:00",
-      "summary": "自动驾驶重卡赛道，今年显著升温。 36氪独家获悉，斯年智驾近日已完成 3 亿元 C 轮融资，由兴证资本、颐道资本联合投资，资金将主要用于新一代车规级自动驾驶方案研发。 2026年1-6月，该赛道公开披露的融资已达5起，累计金额近70亿人民币，IPO动作也非常密集。资本热的背后，自动驾驶重卡在商业化层面逐渐拥有清晰的落地答案。港口、矿山、钢铁等封闭场景逐渐对无人重卡形成稳定需求，干线物流等开放场景也伴随政策开始逐渐落地，进入规模化前夜。 斯年智驾成立于2020年4月，是一家专注于重载物流领域无人驾驶技术研发与落地的公司，提供港口、园区、干线等多场景的自动驾驶解决方案。 目前，斯年智驾的商业模式呈现多车型、多场景、多作业链路的特点。 在产品端，无人集卡、无人自卸车和无人平板车构成了斯年的主力阵容。支撑这些产品的，是其自研的一段式世界模型自动驾驶方案，以及域控制器、定位板卡在内的核心硬件。 落地模式上，斯年智驾提供两种方案：既可以直接卖整车，也可以提供运力服务。在封闭场景，公司已实现从传统集装箱港口、散杂货堆场，到钢厂、纸厂、铝厂、铁路站场和物流枢纽等场景的落地；在开放场景中，公司也已与部分...",
+      "published_at": "2026-07-17T01:26:47+00:00",
+      "summary": "图源/企业 本文约2400字，建议阅读6分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，人形机器人ODM方案商半醒具身（BXI Robotics）于近期完成千万元级新一轮融资，投资方为A股上市公司索辰科技。本轮资金将主要用于下一代人形机器人研发及海外市场拓展。此前，半醒具身曾于2025年完成首轮机构融资，投资方为上市公司飞荣达。 半醒具身成立于2022年，但团队早在2020年便开始了人形机器人的研发工作。公司联合创始人兼CEO陈彦2003年毕业于东南大学计算机专业，在投身机器人创业前拥有多年二级市场量化交易经验；联合创始人刘福强本科毕业于西南科技大学，大学期间连续四年参加全国大学生机器人大赛并多次获奖。 公司专注于高动态双足人形机器人的全栈自研，是国内少数同时具备整机设计、核心电机、运动控制算法与场景软件交付能力的团队之一。目前，公司主要为品牌客户提供通用人形机器人ODM服务，方案涵盖白牌整机、关节电机模组、运动控制算法及应用软件开发等。 半醒具身相关产品展示（图源/企业） 选择ODM路线，源于半醒具身团队对市场需求的务实判断。公司创始人陈彦告诉36氪，人形机器人赛道火热之后，大量公司希望快...",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3897553391978371?f=rss",
-      "title": "8点1氪丨国行苹果AI功能完成备案；三家共享单车上调起步价；知情人曝DeepSeek开始筹备IPO",
-      "url": "https://36kr.com/p/3897553391978371?f=rss",
+      "id": "rss:https://36kr.com/p/3899040301876868?f=rss",
+      "title": "自研氢能催化剂关键材料，稳定性提升50%，「铂氢科技」完成数千万元Pre-A轮融资 | 36氪首发",
+      "url": "https://36kr.com/p/3899040301876868?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1640,14 +1640,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T23:59:41+00:00",
-      "summary": "今日热点导览 澳洲将设AI办公室，限制数据中心能源消耗 巴菲特宣布8年内清仓伯克希尔股票 前高通自动驾驶工程副总裁将加入英伟达自动驾驶团队 长鑫科技：上市后仍将保持无实际控制人的控制权架构 谷歌参与建设美国最大太阳能项目，总规模达2.5GW TOP 3大新闻 阿里、百度分别为苹果智能提供AI相关能力支撑 36氪获悉，网信办公布7款端侧生成式AI服务备案，苹果“Apple智能”大模型7月8日完成备案。阿里千问将为苹果全系列国行设备提供文本、图像生成AI能力，百度则负责配套AI搜索功能，二者共同完善国内版苹果智能套件与Siri功能。 三家共享单车上调起步价，拉长基础骑行时长 近期，美团单车、滴滴青桔、哈啰单车相继在北京等多个城市上调计费规则，三大平台不约而同地采取了“提高起步定价、拉长基础骑行时长”的组合策略：起步价从此前的1.5元/30分钟左右，普遍调整为1.88元至1.99元/60分钟。这成为共享单车行业近年来较大范围的一次集体调价。（金融时报） 知情人曝DeepSeek已开始筹备IPO，最快可能今年提交申请 据彭博社报道，知情人士透露，DeepSeek已开始筹备首次公开募股（IPO）...",
+      "published_at": "2026-07-17T01:09:52+00:00",
+      "summary": "36氪获悉，苏州铂氢科技源科技有限公司（以下简称「铂氢科技」）宣布完成数千万元Pre-A轮融资。本轮融资由东运创投领投、新晖资本跟投，老股东熔拓资本追投，资金将主要用于催化剂与膜电极新产线建设、研发及运营团队扩充。 铂氢科技成立于2023年5月，专注于氢能等新兴领域的贵金属催化剂及膜电极等下游产品研发、生产与销售。产品矩阵覆盖燃料电池催化剂（铂碳、铂黑、铂钌黑、铂基合金等系列）和水电解催化剂（氧化铱、铱黑、负载型氧化铱、铱钌合金等）两大品类，并申请发明专利和实用新型专利15余件。 公司负责人邹亮亮是中国科学院大学博士，现担任苏州科技大学教授、博士生导师，拥有十余年贵金属催化剂研发经验。运营团队核心成员长期在能源和材料领域从事项目研发与市场拓展。 1.以配方和结构设计创新，解决催化剂效率难题 当下我国氢能产业正处在一个微妙的发展节点。一方面，据GEP Research统计，2026年中国在全球氢燃料电池催化剂市场中的占比提升至38.7%，达到108.1亿美元，成为全球最大的单一区域市场。氢能不仅被《能源法》纳入国家能源体系，还被列为“十五五”规划六大未来产业之一。但另一方面，产业实际需求...",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3896830362601351?f=rss",
-      "title": "独家｜面壁智能端侧大模型将搭载三星手机上市",
-      "url": "https://36kr.com/p/3896830362601351?f=rss",
+      "id": "rss:https://36kr.com/p/3898662052693894?f=rss",
+      "title": "独家 | 智谱 ARR 达到10 亿美元，半年增长 15 倍",
+      "url": "https://36kr.com/p/3898662052693894?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1657,14 +1657,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T11:47:14+00:00",
-      "summary": "文｜邓咏仪 编辑｜张雨忻 杨轩 《智能涌现》独家获悉，端侧大模型公司面壁智能已与三星手机达成合作，其自主研发的MiniCPM系列端侧模型将搭载于三星手机上市，覆盖数款旗舰机型。 就在同一日，网信部门发布公告，包括“Apple智能”等7款提供手机端侧生成式人工智能服务完成备案。 公告显示，Apple智能、华为小艺AI大模型、OPPO Andes GPT、vivo蓝心端侧大模型、小米澎湃AI、三星盖乐世AI以及努比亚豆包手机大模型共7款服务完成备案。 大模型浪潮来临后，端侧AI一直处于技术探索和萌芽期。此次七款手机端侧AI同日获批，是业界的重要里程碑——端侧AI不再是概念演示，进入了规模化落地阶段。 △来源：网信中国 同日，阿里巴巴向媒体确认，阿里千问将作为AI能力集成至Apple智能，覆盖iOS、iPadOS、macOS和visionOS的国行设备，用户无需切换App即可在苹果设备上体验千问的文本与图像理解、内容生成等能力。此后，阿里股价应声上涨超过5%。 此前，国内手机厂商的端侧AI能力大多由自研模型支撑——华为有小艺、OPPO有AndesGPT、vivo有蓝心、小米有澎湃AI。而如今...",
+      "published_at": "2026-07-17T01:05:04+00:00",
+      "summary": "文 | 周鑫雨 编辑 | 张雨忻 智能涌现从多个独立信源处获悉，截至 2026 年 7 月， 智谱的 ARR（年度经常性收入）已经达到 10 亿美元。 截至发稿前，针对上述信息，智谱未回复。 过去一年，AI Coding 和视频生成模型已经成为全球造血能力最强的 AI 赛道。 海外，Anthropic 的 Claude Code 仅发布半年，ARR 就飙升至 10 亿美金。这一现金牛产品，也将 Anthropic 的整体 估值抬高到万亿美金（2026 年 5 月），超过了 OpenAI。 但此前，对于国内大模型公司能否复刻 Anthropic 的财富神话，市场一直抱有疑问。一方面，背靠企业付费意愿高、订阅生态成熟的北美市场，Anthropic 有天然优渥的商业化土壤。另一方面，Anthropic 的估值，与智谱最新市值仍存在一个数量级的差距——这意味着，Anthropic 有更大量的资金能获取训练资源，这是国内模型厂商还比不了的。 但智谱达到 10 亿美金 ARR 的速度，远超预期。曾有投资人对我们表示，智谱的 ARR 预计到 2026 年底，才能达到 10 亿-15 亿美金。 一个更...",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3896563671222147?f=rss",
-      "title": "氪星晚报｜LG新能源将为谷歌规模最大的“光储一体”项目供应电池；元宝与京东AI Agent正式打通小程序生态；日本散户持有美元净空头飙至2.79万亿日元，创2008年以来历史之最",
-      "url": "https://36kr.com/p/3896563671222147?f=rss",
+      "id": "rss:https://36kr.com/p/3898973942007684?f=rss",
+      "title": "8点1氪丨长鑫科技网上发行初步中签率为0.40995452%；特朗普头像将被印上硬币，面值1美元；多家NFC鲜榨果汁生产车间被曝无水果",
+      "url": "https://36kr.com/p/3898973942007684?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1674,14 +1674,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T11:37:31+00:00",
-      "summary": "大公司： 美团、青桔、哈啰共享单车调价 近期，美团单车、滴滴青桔、哈啰单车相继在北京等多个城市上调计费规则，三大平台不约而同地采取了“提高起步定价、拉长基础骑行时长”的组合策略：起步价从此前的1.5元/30分钟左右，普遍调整为1.88元至1.99元/60分钟。这成为共享单车行业近年来较大范围的一次集体调价。（金融时报） 瓜子二手车线下直卖场首店今日正式开业 36氪获悉，瓜子二手车线下直卖场首店苏州直卖场今日正式开业。据介绍，瓜子此次重回线下，主打100%个人直卖车源。目前瓜子在沈阳、济南等同类型门店已同步启动，并推动全国落地中。 LG新能源将为谷歌规模最大的“光储一体”项目供应电池 据业内人士周三透露，韩国LG新能源将为谷歌规模最大的太阳能与储能项目供应电池，此举标志着该公司进一步拓展了与AI数据中心激增的电力需求相关的能源基础设施业务。谷歌与可再生能源开发商Cypress Creek Energy在阿肯色州联合公布了“钢铁河能源中心”项目。该项目初期将配置1.6吉瓦（GW）的太阳能发电能力与约2吉瓦时（GWh）的电池储能系统；到2029年，规模将扩大至2.5吉瓦太阳能发电和2.9吉瓦...",
+      "published_at": "2026-07-17T00:05:38+00:00",
+      "summary": "今日热点导览 SpaceX市值蒸发近8500亿美元 韩国将暂停新的单一股票杠杆ETF上市，以抑制市场波动 泡泡玛特创始人王宁带队探访苹果总部 亚马逊Leo与南非企业达成协议，预计明年启动卫星互联网服务 日本拟采购2.75万颗英伟达Rubin芯片，打造本土机器人AI基础模型 TOP 3大新闻 长鑫科技：网上发行初步中签率为0.40995452% 36氪获悉，长鑫科技公告，根据上交所提供的数据，本次网上发行有效申购户数为9,428,778户，有效申购股数为816,920,125,000股。网上发行初步中签率为0.40995452%。 特朗普头像将被印上硬币，面值1美元 美国财政部长贝森特15日说，为纪念美国建国250周年，美国铸币局将开始铸造正面印有特朗普总统头像的1美元硬币。该硬币的正面还印有“自由”“我们信仰上帝”“1776—2026”等，背面则是白头海雕图案。特朗普表示，这款硬币令他感到“荣幸”。 但批评人士对该硬币的合法性提出了质疑。1866年的一项美国法律规定，在世人物的肖像不得用在美国货币上，但该法律指的是由美国印刷局印制的纸币，硬币则由美国铸币局铸造。（第一财经） 多家NFC...",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3896755010963333?f=rss",
-      "title": "下一代AI原生UGC平台，藏在《蛋仔派对》里",
-      "url": "https://36kr.com/p/3896755010963333?f=rss",
+      "id": "rss:https://36kr.com/p/3898370289846153?f=rss",
+      "title": "商汤001号员工创办AI公司：将AI角色引擎做成护城河，获种子轮融资 | 36氪首发",
+      "url": "https://36kr.com/p/3898370289846153?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1691,14 +1691,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T10:36:56+00:00",
-      "summary": "2026年，一个新的业务概念正在引起不少人注意——OPC（One Person Company)，或称「一人公司」。它所指的，是那些能借助人工智能等数字工具完成项目内容，成员仅有1-3人的微型团队。 但很少有人注意到，在游戏行业，这种变化其实早已有了天然土壤——UGC创作社区。 AI&nbsp;技术的普及，正在持续重构内容创作的生产力边界。原本需要专业团队完成的开发工作，如今个体创作者借助工具就能实现。这一趋势在游戏&nbsp;UGC&nbsp;领域体现得尤为明显：普通用户不再只是内容消费者，也能成为游戏玩法的开发者。 只不过，过去的UGC&nbsp;创作者大多停留在&nbsp;「用爱发电」&nbsp;的业余阶段，受限于工具能力与变现空间，很难成长为真正意义上的微型创业主体。直到&nbsp;AI&nbsp;的深度渗透，让这层天花板开始松动。 上周末，网易《蛋仔派对》举办了第四届创作者大会，在公布了自己在UGC生态成果的同时，正式推出行业首个同时覆盖帧同步与状态同步的UGC编辑器体——「双子星」编辑器体系，并进一步升级AI能力在创作全链路中的应用。 相比一次简单的工具升级，此次调整更像是...",
+      "published_at": "2026-07-17T00:00:59+00:00",
+      "summary": "文丨刘士武 36氪游戏获悉， AI 角色硬件公司酷奇奇科技（Coolqq.com）已完成数千万元种子轮融资，本轮融资由上海浦东人工智能种子基金领投，商汤科技、零以创投跟投。云杉资本Spruce Capital担任长期独家财务顾问。 酷奇奇创办于2025年，创始人徐持衡是商汤科技001号员工，师从汤晓鸥教授，与团队共同开发的人脸识别技术，是商汤科技早期最重要的技术里程碑之一。此外， 他曾在灵宇宙担任CTO，带领AI教育产品“Ling”从概念落地到完整实现。&nbsp; 酷奇奇现阶段的核心产品「CookiePi 角色互动伙伴」是一款分布式多端互动产品：多个AI互动伙伴融入家居各处，主动探索，能陪用户聊天，也能即兴演剧，共同演绎日常生活。它由触发器Cookie和角色端Pi共同组成，体积小巧，可适配玩偶、手办、家居等各种类型的物理实体，让数字生命能够以具身形态存在于现实场景中。&nbsp; CookiePi 互动伙伴 产品的核心看似是聊天，但酷奇奇的研发重点却比较特别。在外界普遍把 AI 陪伴的焦点放在“对话质量”上时，徐持衡的判断是：聊天记录只是用户可以实时消费的内容，真正能沉淀下来的，是用...",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3896720584738435?f=rss",
-      "title": "支付宝不想做AI时代的配角",
-      "url": "https://36kr.com/p/3896720584738435?f=rss",
+      "id": "rss:https://36kr.com/p/3896564308379525?f=rss",
+      "title": "氪星晚报｜IDC：百度智能云蝉联中国金融大模型市场份额第一；腾讯云与RoboScience机器科学达成战略合作；商务部回应推动解决安世半导体问题进展",
+      "url": "https://36kr.com/p/3896564308379525?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1708,14 +1708,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T09:50:30+00:00",
-      "summary": "作者&nbsp;|&nbsp;王晗玉 编辑&nbsp;|&nbsp;张帆 支付宝首页调出AI界面，对话框取代了密密麻麻的小程序；用户对着“阿宝”说一句“找附近的奶茶优惠券”，周边门店的活动自动匹配好，核销下单一步完成。 最近，支付宝完成了上线22年来最大一次改版。 本月初，AI版支付宝“阿宝”正式开启全量公测，几乎同一时间，微信支付“AI专属卡”也在智能体WorkBuddy中落地。 进入2026年以来，从头部平台到各家支付机构密集亮出AI底牌，支付行业的智能体竞争悄然开场。 从“用完即走”到“主动来聊” 伴随AI化进程，支付APP第一次出现了非工具属性的用户行为。 在AI版本开启内测后，支付宝相关人士告诉36氪，在此期间一个现象让团队意外：很多用户打开阿宝不是为了办事，而是单纯来“遛”它——比如闲聊、问脑洞问题、测试各种反应等。“‘阿宝’的活人感增加了用户的沟通兴趣，很多人来‘遛’阿宝，这个我们也挺意外。在传统版支付宝，这个是不太可能发生的。” 这是一个标志性的信号。 过去十年，支付APP的核心诉求是“高效、无感、用完即走”，用户停留时间越短，说明体验越好。 一如支付宝，过去作为依附具...",
+      "published_at": "2026-07-16T10:58:17+00:00",
+      "summary": "大公司： OPPO：realme新品将聚焦海外市场，中国市场暂停产品更新 36氪从OPPO方面获悉，为了进一步整合集团资源，实现全球产品战略的协同，未来 realme 新品将聚焦海外市场，在中国市场暂停产品更新；一加在中国市场的产品更新保持不变。realme和一加将持续在游戏和性能领域为用户提供优质的体验。 IDC：百度智能云蝉联中国金融大模型市场份额第一 36氪获悉，根据国际数据公司（IDC）最新发布的《中国金融行业生成式AI平台及应用解决方案市场份额，2025》报告，2025年中国金融行业生成式AI市场迎来爆发式增长，整体规模达到17.40亿元人民币，同比增速高达90.4%。在高速增长的赛道中，百度智能云凭借在技术底座与场景落地上的双重优势，以16.6%的市场份额位居中国金融行业生成式AI平台及应用解决方案市场第一。 深圳华强：积极协助华为建设算力生态，相关工作已在尽快推进落地中 36氪获悉，深圳华强在互动平台表示，公司是华为计算部件（含昇腾、鲲鹏）总经销商，将持续推进华为计算部件的技术和产品推广，积极协助华为建设算力生态，相关工作已在尽快推进落地中。二季度具体经营情况请以公司后续...",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3896639400183687?f=rss",
-      "title": "越过湖畔，AI在阳澄湖半岛「跑进」真实生活",
-      "url": "https://36kr.com/p/3896639400183687?f=rss",
+      "id": "rss:https://36kr.com/p/3898151587890824?f=rss",
+      "title": "中专生拍出破亿爆款，影视圈边缘人靠AI改命丨深氪lite",
+      "url": "https://36kr.com/p/3898151587890824?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1725,14 +1725,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T08:30:35+00:00",
-      "summary": "7月3日-7月4日，「越过湖畔 进化新生」首届阳澄湖半岛旅游度假区AI嘉年华在苏州工业园区圆满举行。 这个夏天，阳澄湖畔的吸引力有了新的注脚。 对AI创业者和OPC来说，阳澄湖半岛不只是一个风景秀丽的度假胜地。这里拥有50公里湖岸线、8平方公里生态内湖，也有比斯特购物村、酒店群、网球中心、康养社区、宠物友好空间等高频线下场景。更重要的是，2025年阳澄湖半岛接待游客量达到950万人次。这意味着，这里本身就是一个足够真实、足够丰富，也足够开放的流量场。 AI产品好不好用？用户愿不愿意停下来体验？场景方是否愿意继续合作？这些问题很难只靠PPT回答，AI应用需要在线下社区和商业街区中反复测试，才能变得越来越成熟。 阳澄湖半岛的价值，也正在这里显现。游客会为一次新鲜体验停下脚步，运动爱好者愿意尝试新的训练方式，亲子家庭、爱宠人士、康养人群、酒店住客等人群，则构成了更多元的生活切面。对一家AI企业而言，这样的场景才能真正产生有价值的反馈。 从更大的行业背景看，AI正在从“能不能做出来”，走向“能不能用起来”。文旅、运动、康养、宠物这些日常场景，恰恰给了AI应用落地的入口。阳澄湖半岛背后的苏州工业...",
+      "published_at": "2026-07-16T10:07:26+00:00",
+      "summary": "“AI改了我的命” AI时代的精英叙事里，出现了草根翻身的故事。 5月，来自云南玉溪地产行业的中专生刘梓瑜，创作出了全网播放破亿的《丧尸清道夫》，被称为“国产爱死机”。他因此收到了好莱坞制作人的跨洋Offer。这部短片配有英文字幕，但一位接触过刘梓瑜的从业者表示，他的英语并不好，甚至“不会翻墙”。 一个月后，97年出生的刘梓瑜在抖音电影奇遇夜上被评为“抖音新锐未来导演”，在他的账号下，一位名为“AAA云还路**建材批发发哥”的网友评论道，“牛逼，也是登上AIGC这艘诺亚方舟了，什么时候我们这些打工仔也能翻身。”后面跟了一个大哭的表情。 《丧尸清道夫》海报，图片源自刘梓瑜小红书账号 同样“翻身”的还有生于2004年的孟柯。他最近凭一部网吧里做出来的AI短片《霉》，拿下了北影节AIGC最佳导演。非科班出身的孟柯在采访中说，“如果没有AI，我可能一辈子都无法接触电影节的舞台”，“AI改了我的命。” 孟柯拥有一个二十多人的团队，几乎都是00后，甚至还有不少大学生。他说，如果努力一辈子，只是为了一套一两百万的房子，那也太没有价值了。 过去，想要成为一位导演，几乎不允许踏错一步。首先，他几乎只能毕...",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897893445633671?f=rss",
-      "title": "南向资金净买入额达40亿港元",
-      "url": "https://36kr.com/newsflashes/3897893445633671?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899305058535041?f=rss",
+      "title": "创业板指跌超7%，三市下跌个股近5000只",
+      "url": "https://36kr.com/newsflashes/3899305058535041?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1742,14 +1742,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T05:42:15+00:00",
-      "summary": "36氪获悉，截至目前，南向资金净买入额达40亿港元。",
+      "published_at": "2026-07-17T05:38:13+00:00",
+      "summary": "36氪获悉，指数走弱，创业板指下挫跌超7%，沪指跌2.69%，深成指跌5.30%。算力硬件、半导体芯片、医药医疗、贵金属、游戏传媒等方向跌幅居前，沪深京三市下跌个股近5000只，其中近660股跌超9%。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897883855455875?f=rss",
-      "title": "台积电二季度净利润为7065.6亿新台币，同比增长77.4%",
-      "url": "https://36kr.com/newsflashes/3897883855455875?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899301443585666?f=rss",
+      "title": "曙光8000亮相WAIC 2026，单个计算单元算力密度提升20倍",
+      "url": "https://36kr.com/newsflashes/3899301443585666?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1759,14 +1759,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T05:32:30+00:00",
-      "summary": "台积电7月16日公布截至6月30日的2026年二季度合并财务报告。合并营收为12703.8亿新台币，同比增长36%，净利润为7065.6亿新台币，同比增长77.4%；毛利率为67.7%，营业利润率为60.3%，净利润率为55.6%。二季度晶圆总营收中，2纳米、3纳米、5纳米和7纳米制程出货分别占比3%、30%、33%和11%，7纳米及更先进制程合计占晶圆总营收的77%。（界面）",
+      "published_at": "2026-07-17T05:34:32+00:00",
+      "summary": "7月17日，曙光8000（登峰）在2026世界人工智能大会以真机形态首次公开亮相，入选大会“镇馆之宝”。该系统采用超智融合架构，支持FP64至INT8全精度计算，单个计算单元算力密度提升20倍；自研scaleFabric互连技术可支撑十万卡规模稳定互连。系统已完成300余项重点应用适配，覆盖20余个科研与产业领域。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897879626106753?f=rss",
-      "title": "阿里国际站：1-6月，其平台移动房屋品类GMV同比增长超50%",
-      "url": "https://36kr.com/newsflashes/3897879626106753?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899295688640136?f=rss",
+      "title": "长安汽车党委副书记谭本宏：自研智驾是为了探索AI技术，完成向科技公司跨越",
+      "url": "https://36kr.com/newsflashes/3899295688640136?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1776,14 +1776,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T05:28:12+00:00",
-      "summary": "36氪获悉，据阿里国际站数据，今年1-6月，其平台移动房屋品类GMV同比增长超50%，买家来源Top3为美国（占比超20%）、澳大利亚和墨西哥。",
+      "published_at": "2026-07-17T05:28:41+00:00",
+      "summary": "36氪获悉，7月14日，长安汽车年中媒体沟通会上，中国长安汽车集团有限公司党委副书记、董事谭本宏在谈到“为何坚持自研智能驾驶”时表示：很多供应商都能提供成熟方案，但自研的价值不止于技术本身，智能驾驶的背后是AI，是大模型，是对算力的深度理解。这也是未来企业能否完成向科技公司的跨越，是转型中至关重要的实践。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897876326025094?f=rss",
-      "title": "特来电等在山西成立新充电网运营公司",
-      "url": "https://36kr.com/newsflashes/3897876326025094?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899288374773380?f=rss",
+      "title": "恒生科技指数午后跌幅扩大至5%",
+      "url": "https://36kr.com/newsflashes/3899288374773380?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1793,14 +1793,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T05:24:50+00:00",
-      "summary": "36氪获悉，天眼查App显示，近日，山西成丰特来电充电网运营新能源有限公司成立，法定代表人为张玉龙，注册资本2000万人民币，经营范围包括电动汽车充电基础设施运营、集中式快速充电站、充电桩销售、机动车充电销售等，由特来电新能源股份有限公司、山西贵恩博信息科技有限公司共同持股。",
+      "published_at": "2026-07-17T05:21:15+00:00",
+      "summary": "36氪获悉，恒生科技指数午后跌幅扩大至5%，恒生指数跌超2%，智谱跌超26%，MINIMAX跌超14%。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897871453341568?f=rss",
-      "title": "韩国上半年水果出口额同比增长近20%创历史新高",
-      "url": "https://36kr.com/newsflashes/3897871453341568?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899286064187015?f=rss",
+      "title": "科创50、创业板指跌逾6%",
+      "url": "https://36kr.com/newsflashes/3899286064187015?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1810,14 +1810,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T05:19:53+00:00",
-      "summary": "韩国海关周四公布的数据显示，受全球高端农产品需求增长、冷链海运配套设施完善双重利好推动，2026年上半年韩国水果出口额创下历史新高。数据显示，今年1至6月期间，韩国水果出口总额达9572万美元，同比增长19.7%。2025年全年韩国水果出口额曾创下2.4亿美元的历史纪录。（新浪财经）",
+      "published_at": "2026-07-17T05:18:54+00:00",
+      "summary": "36氪获悉，指数走弱，科创50、创业板指下挫跌逾6%，沪指跌2.21%，深成指跌4.60%。算力硬件、半导体芯片、医药医疗、贵金属、游戏传媒等方向跌幅居前，沪深京三市下跌个股近4700只，其中近500股跌超9%。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897859672606592?f=rss",
-      "title": "沪深两市成交额突破1.5万亿",
-      "url": "https://36kr.com/newsflashes/3897859672606592?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899239815956352?f=rss",
+      "title": "中公教育、武汉东湖学院合资成立教育科技公司，注册资本1000万",
+      "url": "https://36kr.com/newsflashes/3899239815956352?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1827,14 +1827,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T05:07:54+00:00",
-      "summary": "36氪获悉，沪深两市成交额突破1.5万亿。",
+      "published_at": "2026-07-17T04:52:45+00:00",
+      "summary": "36氪获悉，天眼查App显示，近日，国稷（湖北）教育科技有限公司成立，法定代表人为周宝生，注册资本1000万人民币，经营范围包括信息技术咨询服务、教育咨询服务、人力资源服务、企业管理咨询等。股东信息显示，该公司由武汉东湖学院、中公教育科技股份有限公司共同持股。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897846021834626?f=rss",
-      "title": "花样年控股境外债务重组最新进展：指定7月30日为重组生效日期",
-      "url": "https://36kr.com/newsflashes/3897846021834626?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899257544656773?f=rss",
+      "title": "国家发改委发布《人工智能合作发展行动计划》",
+      "url": "https://36kr.com/newsflashes/3899257544656773?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1844,14 +1844,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T04:54:00+00:00",
-      "summary": "36氪获悉，7月16日午间，花样年控股在港交所公告境外债务重组最新进展：有关向国家发改委申请并取得监管批准的重组条件第(d)(i)段已于2026年7月16日获达成。因此，公司已指定2026年7月30日为重组生效日期，惟须待其余重组条件根据各计划条款获达成或获豁免后，方可作实。",
+      "published_at": "2026-07-17T04:49:53+00:00",
+      "summary": "36氪获悉，国家发改委发布《人工智能合作发展行动计划》，内容包括：一、优质数据供给行动。二、智能算力普惠行动。三、开源生态共享行动。四、人工智能深度赋能行动。五、数智人才共育行动。六、规则标准共建行动。七、安全治理协作行动。八、人工智能向善行动。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897829594662536?f=rss",
-      "title": "IDC：百度智能云蝉联中国金融大模型市场份额第一",
-      "url": "https://36kr.com/newsflashes/3897829594662536?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899245938689924?f=rss",
+      "title": "新易盛据悉提交融资不超过50亿美元的香港上市申请",
+      "url": "https://36kr.com/newsflashes/3899245938689924?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1861,14 +1861,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T04:37:18+00:00",
-      "summary": "36氪获悉，根据国际数据公司（IDC）最新发布的《中国金融行业生成式AI平台及应用解决方案市场份额，2025》报告，2025年中国金融行业生成式AI市场迎来爆发式增长，整体规模达到17.40亿元人民币，同比增速高达90.4%。在高速增长的赛道中，百度智能云凭借在技术底座与场景落地上的双重优势，以16.6%的市场份额位居中国金融行业生成式AI平台及应用解决方案市场第一。",
+      "published_at": "2026-07-17T04:45:00+00:00",
+      "summary": "据媒体援引知情人士透露，中国光模块制造商新易盛已经以保密形式提交在香港上市的申请。一些知情人士称，新易盛或通过在香港发行股票筹集40亿至50亿美元。知情人士透露，摩根士丹利也加入了安排此次发行交易的银行之列。媒体4月份曾报道，新易盛正与中信证券和摩根大通合作筹备香港上市事宜。（新浪财经）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897825535772553?f=rss",
-      "title": "深圳华强：积极协助华为建设算力生态，相关工作已在尽快推进落地中",
-      "url": "https://36kr.com/newsflashes/3897825535772553?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899239107331970?f=rss",
+      "title": "机器人：目前暂无脑机接口相关产品",
+      "url": "https://36kr.com/newsflashes/3899239107331970?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1878,14 +1878,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T04:33:10+00:00",
-      "summary": "36氪获悉，深圳华强在互动平台表示，公司是华为计算部件（含昇腾、鲲鹏）总经销商，将持续推进华为计算部件的技术和产品推广，积极协助华为建设算力生态，相关工作已在尽快推进落地中。二季度具体经营情况请以公司后续披露的定期报告为准。",
+      "published_at": "2026-07-17T04:40:03+00:00",
+      "summary": "36氪获悉，机器人在互动平台表示，公司目前暂无脑机接口相关产品。在半导体装备业务领域产品包括 EFEM、大气机械手、真空机械手及真空传输平台等，主要应用于刻蚀、薄膜、离子注入等工艺环节及领域。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897816342431363?f=rss",
-      "title": "现代汽车集团将把波士顿动力转为全资子公司",
-      "url": "https://36kr.com/newsflashes/3897816342431363?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899237882054534?f=rss",
+      "title": "凯美特气：报道称公司电子特气全年在手订单超4亿元不属实",
+      "url": "https://36kr.com/newsflashes/3899237882054534?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1895,14 +1895,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T04:23:49+00:00",
-      "summary": "现代汽车集团7月16日表示，将收购软银持有的波士顿动力公司近10%股份，把后者转变为全资子公司。该集团称，此举将有助于其在各项业务中部署先进机器人技术。此前有媒体报道称，这笔交易的价值预计近5000亿韩元（约合3.35亿美元）。（界面）",
+      "published_at": "2026-07-17T04:37:44+00:00",
+      "summary": "36氪获悉，有投资者在互动平台提问凯美特气：有报道称公司电子特气全年在手订单超4亿元，客户包括中芯国际、长江存储、长鑫存储、三星、海力士等知名企业消息是否属实？对此，凯美特气回复，报道称公司电子特气全年在手订单超4亿元不属实。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897812582762371?f=rss",
-      "title": "泡泡玛特创始人王宁带队探访苹果总部",
-      "url": "https://36kr.com/newsflashes/3897812582762371?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899234261714824?f=rss",
+      "title": "新易盛：1.6T光模块目前订单情况良好，公司根据客户需求情况持续进行扩产",
+      "url": "https://36kr.com/newsflashes/3899234261714824?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1912,14 +1912,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T04:20:00+00:00",
-      "summary": "36氪获悉，当地时间7月14日下午，泡泡玛特创始人王宁率领核心高管团队探访美国硅谷苹果总部Apple Park，并与苹果现任CEO Tim Cook、即将上任的新任CEO John Ternus等高管会面。双方围绕创意设计、数字生态与全球消费趋势展开了深入而友好的交流。",
+      "published_at": "2026-07-17T04:26:12+00:00",
+      "summary": "36氪获悉，新易盛在互动平台表示，1.6T光模块目前订单情况良好，公司根据客户需求情况持续进行扩产，当前公司供应链体系整体稳定。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897805223462784?f=rss",
-      "title": "恒指午间休盘涨1.93%，恒生科技指数涨3.08%",
-      "url": "https://36kr.com/newsflashes/3897805223462784?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899226569524866?f=rss",
+      "title": "宸境科技携系列核心产品亮相WAIC 2026",
+      "url": "https://36kr.com/newsflashes/3899226569524866?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1929,14 +1929,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T04:12:30+00:00",
-      "summary": "36氪获悉，恒指午间休盘涨1.93%，恒生科技指数涨3.08%；耐用消费品、汽车、传媒板块领涨，布鲁可涨超9%，泡泡玛特涨超6%，小鹏集团涨超7%，快手涨超6%；半导体、机械、硬件设备板块走弱，兆易创新跌超7%，森松国际跌超4%，联想集团跌超3%；南向资金净买入37.17亿港元。",
+      "published_at": "2026-07-17T04:18:22+00:00",
+      "summary": "7月17日，宸境科技携Insight相机、Looper采集套件、NavCore AI大脑三款核心产品亮相WAIC 2026世博展馆，完成了空间感知、具身数据生产、机器人导航的一体化布局。据悉，宸境科技旨在以硬核基础设施破除实验室壁垒，助力国产具身智能大规模走进真实产业场景。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897779661784965?f=rss",
-      "title": "极氪9X五座版官宣28日上市",
-      "url": "https://36kr.com/newsflashes/3897779661784965?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899225671370625?f=rss",
+      "title": "2026年7月票房破20亿",
+      "url": "https://36kr.com/newsflashes/3899225671370625?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1946,14 +1946,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T03:46:30+00:00",
-      "summary": "7月16日，极氪官宣9X五座版将于7月28日上午10点直接开启大定，不举办线下发布会。公开信息显示，极氪9X上市以来连续7个月获得50万级大型SUV销冠，成交均价超过53万元，最近杰兰路报告显示其NPS用户净推荐值获得50万元以上全车型第一。迈莎锐、虏曼等欧洲改装品牌先后为其推出定制方案，其中迈莎锐版9X海外售价超40万美元。",
+      "published_at": "2026-07-17T04:17:28+00:00",
+      "summary": "36氪获悉，据灯塔专业版，截至7月17日，2026年7月总票房（含预售）突破20亿，《功夫女足》《小黄人与大怪兽》《四渡》《特立独行》《后室》暂列7月票房榜前五。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897778096326535?f=rss",
-      "title": "先正达面临推迟50亿美元香港IPO",
-      "url": "https://36kr.com/newsflashes/3897778096326535?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899215060436864?f=rss",
+      "title": "习近平宣布中国支持全球人工智能发展重大举措",
+      "url": "https://36kr.com/newsflashes/3899215060436864?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1963,14 +1963,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T03:44:55+00:00",
-      "summary": "据报道，先正达面临推迟50亿美元香港IPO。（财联社）",
+      "published_at": "2026-07-17T04:06:40+00:00",
+      "summary": "国家主席习近平在上海世界会客厅出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话。习近平指出，在各方共同努力下，世界人工智能合作组织在上海应运而生。这是中方响应全球南方呼声、团结国际社会积极推动人工智能发展和治理的重大举措，将成为人工智能发展史上的一个重要里程碑。习近平宣布，为进一步支持全球人工智能发展、推进全球人工智能能力建设，未来5年，中国将面向发展中国家提供5000个人工智能专题研修培训名额；面向东盟、阿盟、非盟、拉共体、上合组织、金砖国家建设国际人工智能应用合作中心；推动气象智能预警方案“妈祖”在30个国家落地应用，守望万家灯火，护佑四海安澜。（新华社）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897776189802370?f=rss",
-      "title": "海天瑞声在金华成立数智科技公司",
-      "url": "https://36kr.com/newsflashes/3897776189802370?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899213359548293?f=rss",
+      "title": "恒指午间休盘跌1.98%，恒生科技指数跌4.04%",
+      "url": "https://36kr.com/newsflashes/3899213359548293?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1980,14 +1980,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T03:42:58+00:00",
-      "summary": "36氪获悉，天眼查App显示，近日，金华瑞天数智科技有限公司成立，法定代表人为曹德翊，注册资本1000万人民币，经营范围包括技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广，信息系统集成服务，软件销售等，由海天瑞声全资持股。",
+      "published_at": "2026-07-17T04:04:56+00:00",
+      "summary": "36氪获悉，恒指午间休盘跌1.98%，恒生科技指数跌4.04%；GEO、半导体、科技领跌，智谱跌近22%，MINIMAX-W跌近14%，澜起科技跌近8%，媒体跌超6%，快手、哔哩哔哩跌超5%；南向资金净买入9.72亿港元。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897768944355204?f=rss",
-      "title": "腾讯云与RoboScience机器科学达成战略合作",
-      "url": "https://36kr.com/newsflashes/3897768944355204?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899199543805831?f=rss",
+      "title": "半日主力资金加仓公用事业、基础化工股",
+      "url": "https://36kr.com/newsflashes/3899199543805831?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1997,14 +1997,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T03:35:36+00:00",
-      "summary": "36氪获悉，7月15日，腾讯云与全球领先的通用具身智能企业RoboScience机器科学签署战略合作协议。双方将基于腾讯云基础设施服务能力，共同打造面向具身智能产业的一体化底座，打通从数据采集、多地协同标注到模型训练与商业化落地的规模化路径，共同打造行业首个云端EaaS（Embodied-Al-as-a-Service）具身智能服务。",
+      "published_at": "2026-07-17T03:50:53+00:00",
+      "summary": "主力资金早间净流入公用事业、基础化工、非银金融、银行等板块，净流出电子、医药生物、通信、计算机等板块。具体到个股来看，星网锐捷、东方财富、九安医疗获净流入12.36亿元、8.14亿元、7.06亿元。净流出方面，东山精密、中兴通讯、中际旭创遭抛售41.09亿元、21.3亿元、17.5亿元。（第一财经）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897765234558594?f=rss",
-      "title": "A股三大指数午间休盘集体下跌，芯片股走弱",
-      "url": "https://36kr.com/newsflashes/3897765234558594?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899182670497414?f=rss",
+      "title": "A股三大指数午间休盘集体下跌，全市场近4400股飘绿",
+      "url": "https://36kr.com/newsflashes/3899182670497414?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -2014,14 +2014,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T03:31:50+00:00",
-      "summary": "36氪获悉，A股三大指数午间休盘集体下跌，沪指跌0.82%，深成指跌0.83%，创业板指跌1.73%；通信设备、半导体、能源板块领跌，移为通信跌超14%，华微电子跌超8%，恒通股份跌超4%；汽车、贵金属、地产板块走强，雪龙集团涨超6%，赤峰黄金涨超5%，滨江集团涨超4%。",
+      "published_at": "2026-07-17T03:33:43+00:00",
+      "summary": "36氪获悉，A股三大指数午间休盘集体下跌，沪指跌1.64%，深成指跌3.7%，创业板指跌4.71%；光模块、半导体大跌，德明利、东山精密跌停，长光华芯逼近跌停，源杰科技、中际旭创、天孚通信跌超10%；CRO概念下挫，百诚医药、凯莱英、昭衍新药跌停；电力股逆势走强，桂冠电力、乐山电力涨停；个股跌多涨少，全市场近4400股飘绿。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897757496592265?f=rss",
-      "title": "蚂蚁灵波入选WAIC镇馆之宝",
-      "url": "https://36kr.com/newsflashes/3897757496592265?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899177729820297?f=rss",
+      "title": "SK集团会长崔泰源回应近期股价下跌：内存芯片需求支撑下股价将长期上涨",
+      "url": "https://36kr.com/newsflashes/3899177729820297?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -2031,14 +2031,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T03:23:57+00:00",
-      "summary": "2026世界人工智能大会（WAIC）即将于7月17日在上海开幕。日前，大会展览板块最高荣誉“镇馆之宝”名单正式揭晓，蚂蚁集团旗下具身智能公司蚂蚁灵波携手国大药房打造的“机器人智慧药房”成功入选。该智慧药房基于蚂蚁灵波“具身原生”技术路线下的跨本体具身基座模型打造，核心技术亮点是“一脑多机”。蚂蚁灵波的“通用大脑”能驱动多种机器人，并根据各自的结构和运动能力生成相应动作，协同完成接单、取药和交付。目前，该方案已在国大药房上海门店投入运营。",
+      "published_at": "2026-07-17T03:28:41+00:00",
+      "summary": "SK集团会长崔泰源认为，在内存芯片需求的支撑下，SK海力士股价将呈长期上涨趋势。“对内存芯片的需求呈指数级增长，这就是为什么SK海力士和三星电子股价自去年以来出现快速飙升，”他在周五韩国工商会主办的论坛上表示。被问及近期股价下跌时他表示，股价通常会随着市场预期上涨，然后在经历一波过度上涨后出现回调。“我认为内存芯片的需求将持续存在，因此股价走势将随着时间的推移呈现上行趋势，”他说。（财联社）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897754239469444?f=rss",
-      "title": "前IBM金融掌门人范斌空降中关村科金，出任高级副总裁",
-      "url": "https://36kr.com/newsflashes/3897754239469444?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899155513591429?f=rss",
+      "title": "外汇局：严厉打击地下钱庄等外汇违法违规活动，上半年相关罚没款超4亿元",
+      "url": "https://36kr.com/newsflashes/3899155513591429?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -2048,14 +2048,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T03:20:39+00:00",
-      "summary": "7月16日，中关村科金宣布，前IBM金融行业总经理范斌出任高级副总裁，他将负责银行及信贷事业部、财富及保险事业部、联合运营事业部以及海外业务战略及拓展。这步人事落子，透露出中关村科金两大战略意图：加固金融基本盘，提速出海新增长。 范斌拥有25年金融咨询经验，是中国区唯一的IBM金融行业学院院士，曾操盘国内大量核心银行系统变革项目。",
+      "published_at": "2026-07-17T03:06:06+00:00",
+      "summary": "7月17日，国家外汇管理局副局长李斌在国新办新闻发布会上表示，国家外汇局强化外汇市场监管，严厉打击地下钱庄等外汇违法违规活动。今年上半年查处相关案件超300件、罚没款超4亿元，有效维护外汇市场运行秩序。（证券时报）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3897745219618433?f=rss",
-      "title": "四方光电、高德红外等在武汉成立传感科技公司",
-      "url": "https://36kr.com/newsflashes/3897745219618433?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3899153286989441?f=rss",
+      "title": "铁路部门试点提前60天预约购票服务",
+      "url": "https://36kr.com/newsflashes/3899153286989441?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -2065,8 +2065,93 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T03:11:28+00:00",
-      "summary": "36氪获悉，天眼查App显示，���日，武汉光谷芯微传感科技有限公司成立，法定代表人为施维轩，注册资本500万人民币，经营范围包括技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广、物联网技术研发、企业管理咨询等。股东信息显示，该公司由武汉汇科智感科技合伙企业（有限合伙）、武汉光谷新技术产业投资有限公司、武汉华工新高理电子有限公司、四方光电、高德红外等共同持股。",
+      "published_at": "2026-07-17T03:03:50+00:00",
+      "summary": "17日从中国国家铁路集团有限公司客运中心获悉，7月20日起，铁路部门将在京沪高铁、京沪铁路的200多趟列车试点新增火车票预约购票服务，旅客可通过铁路12306手机客户端“预约购票”专区，在列车开车前第60天至第17天填报预约需求，铁路12306系统将于开车前第20天至第16天兑现预约订单。7月20日至8月29日为过渡期，可依次预约9月15日及以后的车票，8月30日起，可常态化预约开车前第60天至第17天车票。（新华社）",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://sspai.com/post/111128",
+      "title": "UniGetUI：可能是 Windows 下最好用的应用商店",
+      "url": "https://sspai.com/post/111128",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://sspai.com/feed",
+        "name": "Bestony",
+        "feed_title": "少数派"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-17T02:37:12+00:00",
+      "summary": "UniGetUI 是一个不错的包管理器，它提供的统一的更新 UI，让你的软件最大程度集中在一起管理，还可以用于需要批量配置的场景。查看全文",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://sspai.com/post/112414",
+      "title": "派早报：OPPO 宣布调整旗下子品牌的全球产品策略等",
+      "url": "https://sspai.com/post/112414",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://sspai.com/feed",
+        "name": "少数派编辑部",
+        "feed_title": "少数派"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-17T00:45:30+00:00",
+      "summary": "月之暗面发布 Kimi K3 模型，支付宝升级 Apple 教育优惠认证等。查看全文",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://sspai.com/post/112400",
+      "title": "新玩意 246｜少数派的编辑们最近买了啥？",
+      "url": "https://sspai.com/post/112400",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://sspai.com/feed",
+        "name": "少数派编辑部",
+        "feed_title": "少数派"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T09:39:52+00:00",
+      "summary": "编注：很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有 ...查看全文",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://sspai.com/post/112386",
+      "title": "Apple 高校优惠活动开始了，今年有些不一样",
+      "url": "https://sspai.com/post/112386",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://sspai.com/feed",
+        "name": "少数派编辑部",
+        "feed_title": "少数派"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T08:03:38+00:00",
+      "summary": "又到了一年一度的Apple高校优惠活动季，高校师生们可以在活动期间，购买指定型号iPad或Mac设备，获得指定配件产品，享受到限时的教育优惠+买赠活动。与往年不同的是，今年的Apple高校优惠活动不论 ...查看全文",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://sspai.com/post/112375",
+      "title": "具透 | macOS 27 首个公开测试版来了，这些是值得你关注的新特性",
+      "url": "https://sspai.com/post/112375",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://sspai.com/feed",
+        "name": "少数派编辑部",
+        "feed_title": "少数派"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T07:00:00+00:00",
+      "summary": "全面 ARM 化后的第一个 macOS 版本，Golden Gate 27 还有这些变化。查看全文",
       "lang": "zh"
     },
     {
@@ -2155,89 +2240,23 @@
       "lang": "zh"
     },
     {
-      "id": "rss:https://sspai.com/post/112334",
-      "title": "派早报：Meta 被诉借助 AI 违规裁员、Google 被诉使用版权内容训练 Gemini 模型等",
-      "url": "https://sspai.com/post/112334",
-      "platform": "rss",
+      "id": "hn:48936451",
+      "title": "NotebookLM is now Gemini Notebook",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "少数派编辑部",
-        "feed_title": "少数派"
+        "type": "hackernews",
+        "id": "48936451",
+        "name": "xnx",
+        "hn_url": "https://news.ycombinator.com/item?id=48936451"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T00:19:12+00:00",
-      "summary": "Google 推出新版图片搜索功能，Spotify 开启语音交互功能内测等。查看全文",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://sspai.com/post/112320",
-      "title": "社区速递 149｜派友热议睡眠数据化、观穹 6×24 望远镜与 RG Rotate 旋转屏掌机",
-      "url": "https://sspai.com/post/112320",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "Matrix机器人",
-        "feed_title": "少数派"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T09:27:39+00:00",
-      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://sspai.com/post/112287",
-      "title": "具透 | iOS 27 首个公开测试版来了，这些是值得你关注的新功能",
-      "url": "https://sspai.com/post/112287",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "少数派编辑部",
-        "feed_title": "少数派"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T07:00:00+00:00",
-      "summary": "少数派在体验了新版系统之后，帮你整理了 iOS 27 中值得关注的新功能和新特性，希望帮你能了解新版系统的方方面面。查看全文",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://sspai.com/post/112288",
-      "title": "iOS / iPadOS 27 Public Beta 公测版来了：升降级指南 & 注意事项",
-      "url": "https://sspai.com/post/112288",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "少数派编辑部",
-        "feed_title": "少数派"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T04:07:18+00:00",
-      "summary": "7月14日凌晨，Apple终于推送了今年iOS27、iPadOS27、watchOS27、macOSGoldenGate、HomePod软件27以及AirPods固件新版的首个PublicBeta公开 ...查看全文",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://sspai.com/post/112229",
-      "title": "派评 | 近期值得关注的 App",
-      "url": "https://sspai.com/post/112229",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "少数派编辑部",
-        "feed_title": "少数派"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-13T09:55:40+00:00",
-      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
-      "lang": "zh"
+      "views": 279,
+      "comments": 142,
+      "published_at": "2026-07-16T16:08:13+00:00",
+      "summary": "",
+      "matched_keyword": "Gemini",
+      "lang": "en"
     },
     {
       "id": "hn:48662999",
@@ -2517,8 +2536,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=48925271"
       },
       "duration_sec": null,
-      "views": 311,
-      "comments": 155,
+      "views": 356,
+      "comments": 165,
       "published_at": "2026-07-15T18:40:34+00:00",
       "summary": "",
       "matched_keyword": "DeepMind",
