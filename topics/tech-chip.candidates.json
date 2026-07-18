@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-07-17T05:47:51.209970+00:00",
+  "fetched_at": "2026-07-18T05:33:51.707645+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/new-material-beats-coppers-thermal-conductivity/",
+      "title": "New Material Beats Copper’s Thermal Conductivity",
+      "url": "https://www.eetimes.com/new-material-beats-coppers-thermal-conductivity/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Bill Schweber",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-17T19:00:00+00:00",
+      "summary": "Meet θ-TaN, a metal that moves heat nearly 3× better than copper—and could upend chip cooling layers. The post New Material Beats Copper’s Thermal Conductivity appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/asml-raises-outlook-plans-more-euv-capacity/",
+      "title": "ASML Raises Outlook, Plans More EUV Capacity",
+      "url": "https://www.eetimes.com/asml-raises-outlook-plans-more-euv-capacity/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-17T14:00:00+00:00",
+      "summary": "ASML raised its full-year outlook as AI demand prompted plans to expand lithography capacity through at least 2028. The post ASML Raises Outlook, Plans More EUV Capacity appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/tsmc-boosts-2026-expansion-budget-adds-100b-to-u-s-investment/",
+      "title": "TSMC Boosts 2026 Expansion Budget, Adds $100B to U.S. Investment",
+      "url": "https://www.eetimes.com/tsmc-boosts-2026-expansion-budget-adds-100b-to-u-s-investment/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-17T05:55:59+00:00",
+      "summary": "TSMC is raising its 2026 capital budget to $64 billion and adding $100 billion to its U.S. investment for AI. The post TSMC Boosts 2026 Expansion Budget, Adds $100B to U.S. Investment appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/ai-data-centers-push-silicon-photonics-toward-300-mm-scale/",
       "title": "AI Data Centers Push Silicon Photonics Toward 300-mm Scale",
       "url": "https://www.eetimes.com/ai-data-centers-push-silicon-photonics-toward-300-mm-scale/",
@@ -308,57 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/probabilistic-computing-is-already-here-here-is-how-it-works/",
-      "title": "Probabilistic Computing Is Already Here; Here Is How It Works",
-      "url": "https://www.eetimes.com/probabilistic-computing-is-already-here-here-is-how-it-works/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Phillip Stanley-Marbel",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-15T07:21:54+00:00",
-      "summary": "Probabilistic computing is addressing Monte Carlo bottlenecks, with UxHw hardware in use at Boeing and CERN. The post Probabilistic Computing Is Already Here; Here Is How It Works appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/electronic-design-industry-rides-chip-wave-apac-leads-q1-2026-growth/",
-      "title": "Electronic Design Industry Rides Chip Wave, APAC Leads Q1 2026 Growth",
-      "url": "https://www.eetimes.com/electronic-design-industry-rides-chip-wave-apac-leads-q1-2026-growth/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T17:00:00+00:00",
-      "summary": "Chip design tools are cashing in: Q1 EDA revenue hit $5.7B as APAC surged 17.7% and hyperscalers went DIY. The post Electronic Design Industry Rides Chip Wave, APAC Leads Q1 2026 Growth appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/five-test-considerations-to-prepare-for-q-day/",
-      "title": "Five Test Considerations to Prepare for Q-Day",
-      "url": "https://www.eetimes.com/five-test-considerations-to-prepare-for-q-day/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sameh Yamany",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T12:30:00+00:00",
-      "summary": "Q-Day is coming fast, and “harvest now, decrypt later” is already in play. The post Five Test Considerations to Prepare for Q-Day appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48734960",
       "title": "Etched has officially come out of stealth",
       "url": "https://www.bloomberg.com/news/articles/2026-06-30/ai-chip-startup-etched-says-jane-street-tsmc-linked-vc-invested",
@@ -408,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48903715"
       },
       "duration_sec": null,
-      "views": 141,
+      "views": 142,
       "comments": 75,
       "published_at": "2026-07-14T08:24:49+00:00",
       "summary": "",
