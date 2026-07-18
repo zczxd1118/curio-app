@@ -1,42 +1,64 @@
 # Curio · AI 算力 / 半导体 · 2026-07-18
 
-> 今日 1 条头条 + 3 条备选
+> 今日 2 条头条 + 4 条备选
 
-_今日最大信号是AI估值泡沫的集中释放：费城半导体指数跌入技术性熊市，SpaceX市值蒸发超1万亿美元，甲骨文CDS飙至历史新高。与此同时，中国Moonshot AI发布2.8万亿参数开源模型Kimi K3，在编程基准上超越Claude Fable 5，引发市场对AI竞争格局的重新定价。你需要关注的是：资金正从AI硬件转向软件和应用层，你的content-curator项目恰好踩在这个节点上。_
+_今天最关键的信号是：AI 牛市正在经历一次剧烈的资产重定价。费城半导体指数跌入技术性熊市，SpaceX 市值蒸发超万亿美元，甲骨文 CDS 飙至历史新高——但 Kimi K3 的发布和苹果的逆袭暗示市场并非全线溃败，而是从"卖铲子"转向"用铲子的人"。你的 content-curator 项目正好可以关注这个趋势：AI 应用层的价值正在被重新发现。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. 费城半导体指数跌入技术性熊市，高盛定性为'有记录以来最大动量抛售之一'
+### 1. Moonshot AI 发布 2.8 万亿参数 Kimi K3，开源模型首次超越闭源旗舰
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-费城半导体指数单周暴跌近10%，较6月高点回撤超20%，正式进入技术性熊市。高盛称这是'有记录以来最大规模的动量策略抛售之一'，主因是对冲基金集中平仓'做多半导体、做空云计算'的配对交易，叠加台积电资本开支预警引发过度投资忧虑。SK海力士前两日跌超20%，存储芯片指数本周跌超17%。
+Moonshot AI 今天发布了 Kimi K3，一个 2.8 万亿参数的开源模型，在 Frontend Code Arena 上击败了 Claude Fable 5。这是中国公司首次在开源模型中达到闭源旗舰水平，高盛点评称其 API 定价 2.3 美元/百万 token，标志着中国 AI 从价格战转向定价权争夺。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 费城半导体指数较6月高点回撤超20% | 抛售是基本面恶化还是技术性调整 |
-| 高盛定性为有记录以来最大动量抛售 | AI资本开支是否真的过度，还是短期恐慌 |
-| SK海力士两日跌超20% | 半导体板块何时企稳，取决于下周财报 |
-| 存储芯片指数本周跌超17% | 存储芯片价格是否已见顶 |
-| 台积电资本开支预警引发过度投资忧虑 | 对中国半导体产业链的传导效应 |
+| Kimi K3 拥有 2.8 万亿参数，是目前最大的开源模型 | 2.8T 参数是否带来推理成本的显著增加？ |
+| 在 Frontend Code Arena 上超越 Claude Fable 5 | 开源协议的具体限制（是否允许商用）尚未明确 |
+| API 定价 2.3 美元/百万 token，创中国模型定价新高 | 在更广泛的基准（如 MMLU、GSM8K）上表现如何？ |
+| Moonshot AI 声称这是全球首个 3T 级开源系统 | 中国模型在受制裁下的算力瓶颈是否被突破？ |
 
 **📖 主编点评**
 
-如果你持有相关股票或计划投资，现在不是抄底的时候——动量抛售通常需要数周才能出清。但对你个人项目而言，GPU租赁成本可能会下降，可以关注云厂商的降价动态。另外，这个信号说明AI基础设施的估值正在回归理性，你的content-curator项目如果主打'轻量级AI应用'，反而更容易获得关注。
+你应该关注 Kimi K3 的代码仓库和技术报告。如果它真的开源且可用，你的 content-curator 项目可以尝试用它替代 Claude 进行内容处理——2.8T 参数意味着更强的代码和逻辑能力，而且 API 价格比 Claude 便宜得多。但注意：Moonshot 的服务器稳定性是个未知数。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3777275)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3)
+
+---
+
+### 3. 台积电再投 1000 亿美元在亚利桑那建至少四座 2nm 晶圆厂，2026 年资本支出或达 640 亿美元
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+
+台积电宣布将在美国亚利桑那州追加 1000 亿美元投资，建设至少四座 2nm 晶圆厂和先进封装设施。同时，2026 年资本支出可能达到 640 亿美元，创历史新高。这一举动既是对 AI 需求的回应，也是地缘政治压力下的战略布局。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 台积电追加 1000 亿美元在亚利桑那建厂 | 1000 亿美元投资能否获得足够的美国补贴？ |
+| 至少四座 2nm 晶圆厂和先进封装设施 | 2nm 产能的客户需求是否足以支撑如此大的扩张？ |
+| 2026 年资本支出可能达到 640 亿美元 | ASML 的涨价是否会压缩台积电的利润率？ |
+| ASML 计划提高 Low-NA EUV 价格，TSMC 对此不满 | 美国本土供应链（化学品、设备）能否跟上？ |
+
+**📖 主编点评**
+
+作为电子信息工程学生，你应该关注台积电 2nm 的工艺细节——这是未来三年芯片设计的基准。同时，台积电的扩张意味着 EDA 工具和 IP 供应商（如 Synopsys、Cadence）会有更多机会。如果你在搜狗做 AI 相关实习，了解 2nm 的功耗优势对移动端 AI 部署很有价值。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/tsmc-commits-another-100-billion-to-arizona-for-at-least-four-more-2nm-fabs)
 
 ---
 
 ## 📋 备选阅读
 
-- [TSMC boosts 2026 expansion budget, adds $100B to U.S. investment](https://www.eetimes.com/tsmc-boosts-2026-expansion-budget-adds-100b-to-u-s-investment/) —— 台积电2026资本支出上调至640亿美元，再投1000亿在亚利桑那建至少4座2nm工厂——长期利好但短期加剧产能过剩担忧。
-  _EE Times_
-- [ASML raises outlook, plans more EUV capacity](https://www.eetimes.com/asml-raises-outlook-plans-more-euv-capacity/) —— ASML上调全年展望并计划扩产EUV光刻机至2028年，但涨价计划引发台积电不满——设备商与晶圆厂的博弈。
-  _EE Times_
-- [New material beats copper's thermal conductivity](https://www.eetimes.com/new-material-beats-coppers-thermal-conductivity/) —— θ-TaN金属导热性比铜高近3倍，可能颠覆芯片散热层设计——对AI芯片散热是潜在突破，但离商用还远。
+- [Nvidia 与日本 Noetra 合作建设 140MW Rubin AI 工厂，配备 27,500 块 GPU](https://www.tomshardware.com/pc-components/gpus/nvidia-and-japans-noetra-consortium-to-build-140mw-rubin-ai-factory-with-27500-gpus) —— 日本首个国家级 AI 基础设施，但 140MW 的功耗和 27,500 块 Rubin GPU 的规模相比 xAI 的 Colossus 2 仍显保守。
+  _Tom's Hardware_
+- [ASML 计划提高 Low-NA EUV 价格，TSMC 不满](https://www.tomshardware.com/tech-industry/semiconductors/asmls-planned-low-na-euv-machine-price-hikes-reportedly-frustrate-tsmc) —— ASML 想从 TSMC 的盈利中分一杯羹，但涨价可能影响整个芯片制造成本。
+  _Tom's Hardware_
+- [三星展示 3D 堆叠 FET 晶体管，42nm 间距三纳米片通道](https://semiconductor.samsung.com/news-events/tech-blog/from-gaa-to-3d-stacked-fet-expanding-the-transistor-into-the-third-dimension/) —— 三星在晶体管架构上取得突破，但距离量产还有数年，短期内不影响台积电地位。
+  _Samsung_
+- [新材料 θ-TaN 导热性比铜高近 3 倍，有望颠覆芯片散热](https://www.eetimes.com/new-material-beats-coppers-thermal-conductivity/) —— 材料科学突破，但产业化路径不明，短期内对 AI 芯片散热影响有限。
   _EE Times_
 
 ---
