@@ -1,216 +1,216 @@
 {
   "date": "2026-07-19",
-  "intro": "本周最值得关注的信号：Kimi K3 以 2.8 万亿参数成为最大开源模型，在编程基准上超越 Claude Fable 5，同时 DeepSeek V4 满血版即将发布，中国 AI 模型从价格战转向技术定价权。另一边，SpaceX 股价跌破发行价，空头获利 40 亿美元，AI 算力投资泡沫争议再起。半导体方面，ASML 计划提高 EUV 价格，TSMC A14 工艺进展超预期。",
+  "intro": "今日最值得关注的信号：Kimi K3 以 2.8 万亿参数成为最大开源模型，在编程基准上超越 Claude Fable 5，但高盛指出中国模型公司开始从价格战转向定价权争夺，市场分化加剧。同时 SpaceX 股价跌破 IPO 价，空头获利 87 亿美元，AI 算力泡沫与地缘风险交织。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3",
-      "source": "Tom's Hardware",
+      "id": "bvid:BV1GRKJ6fEgn",
+      "url": "http://www.bilibili.com/video/av116934511239163",
+      "source": "AI超元域",
       "stars": 5,
-      "title": "Moonshot AI 发布 2.8 万亿参数 Kimi K3，开源模型首次在编程基准上超越 Claude Fable 5",
-      "lead": "Moonshot AI 于 7 月 17 日发布 Kimi K3，2.8 万亿参数、100 万 token 上下文，在 Frontend Code Arena 上超越 Claude Fable 5 和 GPT-5.6。这是中国公司绕开美国算力限制后交出的最大开源模型，API 定价 2.3 美元/百万 token，创国内新高。",
+      "title": "Kimi K3 实测：2.8 万亿参数开源模型编程能力超越 Claude Fable 5，国产模型跻身第一梯队",
+      "lead": "月之暗面发布 Kimi K3，2.8 万亿参数、100 万 token 上下文窗口，在 Frontend Code Arena 基准上超越 Claude Fable 5。B 站 up 主实测显示其在 Claude Code 中开发 macOS 应用和游戏表现惊艳。高盛点评称这是中国开源模型智能达到全球普及关键点的标志。",
       "confirmed": [
-        "Kimi K3 拥有 2.8 万亿参数，100 万 token 上下文窗口",
-        "在 Frontend Code Arena 编程基准上超越 Claude Fable 5 和 GPT-5.6",
-        "API 定价每百万 token 2.3 美元，为国内模型最高定价",
-        "Moonshot AI 称其为“世界首个开放 3T 级系统”",
-        "已可接入 Claude Code 等工具使用"
+        "Kimi K3 参数规模 2.8 万亿，为目前最大开源模型",
+        "在 Frontend Code Arena 基准上超越 Claude Fable 5",
+        "支持 100 万 token 上下文窗口",
+        "API 定价每百万 token 2.3 美元，创中国模型新高",
+        "B 站实测显示可接入 Claude Code 完成复杂编程任务"
       ],
       "judgment": [
-        "2.8T 参数是否带来推理成本过高，实际部署性价比存疑",
-        "编程基准领先能否泛化到其他复杂任务（如数学、推理）",
-        "高定价策略能否持续，还是短期营销手段",
-        "开源程度：是否完全开放权重，还是部分开源",
-        "对国内其他模型（DeepSeek、智谱）的竞争压力评估"
+        "2.8 万亿参数是否带来推理效率问题？实际部署成本尚不明确",
+        "超越 Fable 5 仅限于前端编程基准，其他任务表现待验证",
+        "高定价能否持续？中国模型公司正从价格战转向定价权争夺",
+        "开源协议细节未公布，商业使用限制未知",
+        "与 GPT-5.6 等闭源模型的全面对比尚未有独立评测"
       ],
-      "implication": "如果你在做 Agent 或编程工具，Kimi K3 值得立刻接入测试。2.8T 参数意味着更强的代码理解和生成能力，尤其适合复杂多文件项目。但注意 API 成本，建议先用小量测试对比 Claude Fable 5 和 GPT-5.6 在你的具体场景下的表现。同时关注 DeepSeek V4 明天发布后的定价策略，可能引发新一轮价格战。"
+      "implication": "你应该关注 Kimi K3 在 Claude Code 中的实际表现，尤其是前端开发场景。如果你在做 content-curator 项目，可以尝试用 K3 替代现有模型，看能否降低 API 成本。但注意高盛警告：中国 AI 公司估值分化加剧，智谱单日跌 28%，选模型供应商时要考虑其商业可持续性。"
     },
     {
       "rank": 2,
-      "domain": "股票",
-      "id": "wscn:3777331",
-      "url": "https://wallstreetcn.com/articles/3777331",
-      "source": "华尔街见闻",
-      "stars": 5,
-      "title": "SpaceX 股价跌破发行价，空头 10 天借出 10% 股份，累计获利 40 亿美元",
-      "lead": "SpaceX 股价较 IPO 高点下跌约 40%，跌破 135 美元发行价。做空比例 10 天内飙升 10 个百分点，空头累计获利约 40 亿美元。约 9 亿股解禁将至，债券收益率向垃圾级靠拢，市场对 SpaceX 的股债两端重新定价。",
-      "confirmed": [
-        "SpaceX 股价已跌破 IPO 发行价 135 美元",
-        "空头借出比例 10 天内从约 5% 升至 15%",
-        "空头累计获利约 40 亿美元",
-        "约 9 亿股限售股即将解禁",
-        "债券收益率上升，接近垃圾级"
-      ],
-      "judgment": [
-        "股价下跌是基本面恶化还是市场情绪过度反应",
-        "Starship 发射推迟对估值的影响程度",
-        "解禁后是否引发更大抛售潮",
-        "马斯克分心政治言论是否损害投资者信心",
-        "AI 数据中心业务能否支撑长期价值"
-      ],
-      "implication": "SpaceX 的暴跌是 AI 泡沫争论的缩影。如果你持有相关资产，注意解禁风险；如果做空，注意短期反弹可能。更重要的信号是：市场开始对“明星科技股”的估值逻辑产生怀疑，这种情绪可能蔓延到其他 AI 概念股。建议关注下周谷歌、特斯拉财报，它们将提供更清晰的行业基本面信号。"
-    },
-    {
-      "rank": 3,
       "domain": "AI 算力 / 半导体",
       "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/tsmc-confirms-significant-yield-and-performance-improvements-in-a14-update-strong-interest-from-ai-hpc-and-smartphone-customers",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-confirms-significant-yield-and-performance-improvements-in-a14-update-strong-interest-from-ai-hpc-and-smartphone-customers",
-      "source": "Tom's Hardware",
-      "stars": 4,
-      "title": "TSMC 确认 A14 工艺良率和性能大幅提升，AI/HPC 客户兴趣强烈",
-      "lead": "TSMC 在 7 月 17 日更新中表示，其 A14（1.4nm）工艺进展快于同期 N2，良率和性能提升显著。AI/HPC 和智能手机客户表现出强烈兴趣。同时 TSMC 将 2026 年资本预算提高至 640 亿美元，并追加 1000 亿美元美国投资。",
+      "source": "Anton Shilov",
+      "stars": 5,
+      "title": "TSMC A14 工艺良率与性能大幅提升，AI/HPC 客户兴趣强烈，2026 资本预算上调至 640 亿美元",
+      "lead": "TSMC 确认其 A14 工艺（1.4nm 级）进展快于同期 N2，良率和性能均有显著改善，已吸引大量 AI/HPC 和智能手机客户。同时 TSMC 将 2026 年资本预算上调至 640 亿美元，并追加 1000 亿美元美国投资。ASML 则计划提高 Low-NA EUV 光刻机价格，引发 TSMC 不满。",
       "confirmed": [
-        "A14 工艺良率和性能提升显著，进展快于 N2 同期",
-        "AI/HPC 和智能手机客户均表现出强烈兴趣",
-        "2026 年资本预算提高至 640 亿美元",
+        "TSMC A14 工艺良率和性能改善显著，进展快于 N2 同期",
+        "AI/HPC 和智能手机客户对 A14 兴趣强烈",
+        "2026 年资本预算上调至 640 亿美元",
         "追加 1000 亿美元美国投资",
-        "ASML 计划提高 Low-NA EUV 价格，可能增加 TSMC 成本"
+        "ASML 计划提高 Low-NA EUV 光刻机价格"
       ],
       "judgment": [
-        "A14 量产时间表是否提前（原计划 2028 年）",
-        "ASML 涨价对 TSMC 毛利率的影响程度",
-        "美国工厂能否按时投产并达到良率目标",
-        "英特尔 Nova Lake 采用外部代工是否分流订单"
+        "A14 量产时间表尚未公布，预计 2027-2028 年",
+        "ASML 涨价可能影响 TSMC 未来扩产成本",
+        "美国建厂的实际进度和成本超支风险仍存",
+        "A14 相比 Intel 18A 的竞争力需进一步数据",
+        "AI 需求能否持续支撑如此大规模资本开支？"
       ],
-      "implication": "A14 的快速进展意味着 2028 年前后你将看到更强大的 AI 芯片。对于做 AI 推理优化，这意味着更低的每 token 成本和更高的能效。但注意 ASML 涨价可能推高芯片成本，最终转嫁给云服务用户。建议关注 TSMC 下周法说会上的具体时间表。"
+      "implication": "TSMC 的 A14 进展对 AI 芯片性能至关重要。如果你在关注 AI 推理硬件，A14 将直接影响未来 GPU/ASIC 的能效比。同时 ASML 涨价可能传导至芯片成本，长期看会影响 AI 部署的经济性。建议跟踪 TSMC 2026 年 Q3 法说会上的 A14 量产时间表。"
+    },
+    {
+      "rank": 3,
+      "domain": "股票",
+      "id": "hn:48948435",
+      "url": "https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/",
+      "source": "1vuio0pswjnm7",
+      "stars": 5,
+      "title": "SpaceX 股价跌破 IPO 价，空头获利 87 亿美元，10 天内借出 10% 股份",
+      "lead": "SpaceX 自 IPO 以来股价持续下跌，已跌破 135 美元发行价，较盘中高点跌约 40%。空头借出比例 10 天内骤升 10 个百分点，累计获利约 87 亿美元。约 9 亿股解禁将至加剧抛压，债券收益率向垃圾级靠拢。华尔街最空新股票 SPCX 引发对 AI 泡沫的广泛讨论。",
+      "confirmed": [
+        "SpaceX 股价跌破 IPO 价 135 美元，较高点跌约 40%",
+        "空头 10 天内借出比例上升 10 个百分点",
+        "空头累计获利约 87 亿美元",
+        "约 9 亿股解禁将至",
+        "SPCX 成为华尔街最空新股票"
+      ],
+      "judgment": [
+        "股价下跌是否反映基本面恶化？Starship 进度延迟是主因",
+        "解禁后抛压可能进一步压低股价",
+        "债券收益率上升是否预示融资困难？",
+        "马斯克对英国种族问题的频繁发帖是否影响投资者信心？",
+        "AI 泡沫论是否过度？SpaceX 与 AI 关联度有限"
+      ],
+      "implication": "SpaceX 的暴跌是科技股估值修正的缩影。虽然 SpaceX 本身与你的 AI 项目无关，但这一信号值得警惕：当市场最热门的 IPO 开始崩跌，整体科技股风险偏好可能下降。如果你持有相关 ETF 或考虑投资 AI 公司，建议等待财报季消化后再做决策。高盛指出本轮抛售接近尾声，但缺乏反转催化剂。"
     },
     {
       "rank": 4,
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act",
-      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act",
-      "source": "TechCrunch",
+      "id": "hn:48936451",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "source": "xnx",
       "stars": 4,
-      "title": "Databricks 估值达 1880 亿美元，AI 第二曲线验证数据平台价值",
-      "lead": "Databricks 在 7 月 17 日宣布新一轮融资，估值升至 1880 亿美元。公司已成功转型为 AI 公司，并发布研究证明开源权重模型在编程任务上的成本优势。其平台成为企业 AI 基础设施的关键一环。",
+      "title": "NotebookLM 正式更名为 Gemini Notebook，Google 整合 AI 笔记产品",
+      "lead": "Google 宣布 NotebookLM 更名为 Gemini Notebook，并整合进 Gemini 产品线。NotebookLM 此前以 AI 笔记和研究助手功能获得大量用户，此次更名意味着 Google 将 AI 笔记能力作为 Gemini 生态的核心组件。同时 Gemini 3.5 Flash 新增计算机使用能力。",
       "confirmed": [
-        "Databricks 估值达到 1880 亿美元",
-        "公司已从大数据平台转型为 AI 公司",
-        "发布研究证明开源权重 AI 模型在编程任务上的成本优势",
-        "企业客户将 Databricks 作为 AI 数据基础设施核心"
+        "NotebookLM 更名为 Gemini Notebook",
+        "整合进 Gemini 产品线",
+        "Gemini 3.5 Flash 新增计算机使用能力",
+        "Google 同时开源 3D 表情符号"
       ],
       "judgment": [
-        "1880 亿估值是否合理，对比 Snowflake 等同行",
-        "AI 收入占比和增长速度",
-        "开源模型成本优势能否持续转化为商业订单",
-        "与云厂商（AWS、Azure、GCP）的竞合关系"
+        "更名是否意味着功能重大升级？目前未见详细说明",
+        "计算机使用能力在 Gemini 3.5 Flash 上的实际表现待测",
+        "Google 的 AI 产品线整合能否提升用户体验？",
+        "与 NotebookLM 原有用户群体的兼容性如何？"
       ],
-      "implication": "Databricks 的崛起说明“AI 基础设施”是比“AI 模型”更确定的赛道。如果你在做个人项目，可以考虑基于 Databricks 的开源组件（如 MLflow、Delta Lake）构建自己的数据管道。对于求职，Databricks 生态相关技能（Spark、MLflow、Delta Lake）仍然是简历亮点。"
+      "implication": "如果你在用 NotebookLM 做研究笔记，建议关注迁移后的功能变化。Gemini Notebook 可能提供更好的多模态支持和 Agent 集成。对于你的 content-curator 项目，可以考虑用 Gemini Notebook 的 API 来构建知识库功能，但要注意 Google 的定价策略可能调整。"
     },
     {
       "rank": 5,
-      "domain": "AI",
-      "id": "wscn:3777339",
-      "url": "https://wallstreetcn.com/articles/3777339",
-      "source": "华尔街见闻",
+      "domain": "金融",
+      "id": "hn:48915953",
+      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
+      "source": "rvz",
       "stars": 4,
-      "title": "DeepSeek V4 满血版最快明日发布，性能直追 GPT-5.6，首推峰谷计费",
-      "lead": "据华尔街见闻 7 月 19 日报道，DeepSeek V4 满血版最快明天发布。新版性能直追 GPT-5.6，并首次引入“峰谷计费”模式，价格仅为巨头的七分之一。这将是继 Kimi K3 之后中国 AI 模型的又一重磅发布。",
+      "title": "Stripe 与 Advent 联合报价超 530 亿美元收购 PayPal，支付行业巨震",
+      "lead": "据路透社消息，Stripe 与私募股权公司 Advent International 联合提出以超过 530 亿美元收购 PayPal。若交易达成，将重塑全球支付格局。Stripe 作为 AI 时代的基础设施公司，此举显示其从开发者工具向综合金融平台的野心。",
       "confirmed": [
-        "DeepSeek V4 满血版最快 7 月 20 日发布",
-        "性能目标直追 GPT-5.6",
-        "首次引入峰谷计费模式",
-        "定价仅为 OpenAI 等巨头的七分之一"
+        "Stripe 与 Advent 联合报价超 530 亿美元收购 PayPal",
+        "PayPal 市值约 500 亿美元，报价有一定溢价",
+        "交易尚在谈判阶段，未达成最终协议"
       ],
       "judgment": [
-        "满血版具体参数规模和架构细节",
-        "实际性能是否真能对标 GPT-5.6",
-        "峰谷计费的具体规则和对用户成本的影响",
-        "对国内其他模型（Kimi K3、智谱）的竞争冲击"
+        "反垄断审查风险极高，Stripe 和 PayPal 合计市场份额过大",
+        "Stripe 的融资能力是否足以支撑？可能需发行大量债券",
+        "PayPal 的 Venmo 等消费者业务与 Stripe 的企业端如何整合？",
+        "交易若失败，Stripe 可能转而寻求 IPO"
       ],
-      "implication": "如果你在用 Claude Code 或 Codex，明天 DeepSeek V4 发布后值得立即测试。峰谷计费可能大幅降低你的 API 成本，尤其适合批量推理和夜间任务。建议提前准备好测试用例，重点关注代码生成和 Agent 任务场景。同时关注其是否支持 MCP 协议，这将决定能否无缝替换现有工具链。"
+      "implication": "Stripe 收购 PayPal 将深刻影响 AI 支付基础设施。如果你在开发需要支付功能的 Agent 或应用，建议关注 Stripe 的 API 是否会整合 PayPal 的消费者网络。短期内 Stripe 的定价可能因竞争减少而上升，但长期看统一平台可能降低集成成本。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
       "title": "GPT-5.6 在 Claude Code 中表现远超 Codex",
-      "url": "https://www.bilibili.com/video/av116929612221157",
+      "url": "http://www.bilibili.com/video/av116929612221157",
       "source": "浮生千山路w",
-      "one_liner": "Theo 实测显示 GPT-5.6 Sol 版本在 Claude Code 中编程体验远超 Codex，值得关注模型选择对工具链的影响。"
+      "one_liner": "Theo 实测显示 GPT-5.6 Sol 版本在 Claude Code 中编程表现显著优于 Codex，但需注意这是第三方测试，非官方基准。"
     },
     {
       "domain": "AI",
-      "title": "Linus Torvalds 表态 Linux 内核不排斥 AI 辅助代码审查",
+      "title": "Linus Torvalds 驳斥 Linux 内核反 AI 立场",
       "url": "https://www.tomshardware.com/software/linux/linus-torvalds-rebukes-anti-ai-stances-in-the-linux-kernel-code-review-process-says-linux-is-not-one-of-those-anti-ai-projects-creator-embraces-ai-as-just-a-tool-and-clearly-a-useful-one",
-      "source": "Tom's Hardware",
-      "one_liner": "Linus 明确支持 AI 工具，这对 AI 编程工具的合法性是重要信号，尤其对开源项目贡献者。"
+      "source": "Bruno Ferreira",
+      "one_liner": "Linus 明确表示 Linux 不是反 AI 项目，AI 工具是有用的，这对 AI 辅助编程在开源社区的接受度是积极信号。"
     },
     {
       "domain": "AI",
-      "title": "NotebookLM 更名为 Gemini Notebook",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
-      "source": "Google Blog",
-      "one_liner": "Google 将 NotebookLM 整合进 Gemini 品牌，可能意味着更深度的 AI 笔记功能，值得个人知识管理用户关注。"
+      "title": "DeepSeek V4 满血版最快明日发布",
+      "url": "https://wallstreetcn.com/articles/3777339",
+      "source": "华尔街见闻 API",
+      "one_liner": "DeepSeek V4 性能直追 GPT-5.6，首度引入峰谷计费，价格仅为巨头的七分之一，可能再次引发价格战。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "ASML 计划提高 Low-NA EUV 价格，TSMC 不满",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asmls-planned-low-na-euv-machine-price-hikes-reportedly-frustrate-tsmc",
-      "source": "Tom's Hardware",
-      "one_liner": "ASML 想从 TSMC 的盈利中分走更多，可能推高先进制程芯片成本，最终影响 AI 硬件价格。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "新材料 θ-TaN 导热性比铜高近 3 倍",
+      "title": "新材料 θ-TaN 导热性接近铜的 3 倍",
       "url": "https://www.eetimes.com/new-material-beats-coppers-thermal-conductivity/",
-      "source": "EE Times",
-      "one_liner": "可能颠覆芯片散热层设计，对 AI 高功耗芯片的散热方案有长期影响，但距离量产尚远。"
+      "source": "Bill Schweber",
+      "one_liner": "θ-TaN 金属导热性接近铜的 3 倍，可能颠覆芯片散热层设计，对 AI 芯片热管理有重大意义。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia RTX 50 Super 因 GDDR7 成本过高推迟",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing",
-      "source": "Tom's Hardware",
-      "one_liner": "3GB GDDR7 成本是 2GB 的三倍，可能影响消费级 GPU 升级节奏，对 AI 推理卡也有间接影响。"
+      "title": "ASML 上调展望，计划扩大 EUV 产能",
+      "url": "https://www.eetimes.com/asml-raises-outlook-plans-more-euv-capacity/",
+      "source": "Pablo Valerio",
+      "one_liner": "ASML 因 AI 需求上调全年展望，计划至少到 2028 年扩大光刻产能，但涨价计划引发 TSMC 不满。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia RTX 50 Super 因 GDDR7 定价过高陷入僵局",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing-3gb-gddr7-module-costs-triple-the-price-of-2gb",
+      "source": "Jowi Morales",
+      "one_liner": "3GB GDDR7 芯片成本是 2GB 的 2-3 倍，导致 RTX 50 Super 系列发布延迟，影响 AI 推理卡定价。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Stripe 与 Advent 联合报价 530 亿美元收购 PayPal",
-      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
-      "source": "Reuters",
-      "one_liner": "支付领域重大整合，Stripe 若成功将获得 PayPal 的商户网络，可能改变 AI 工具支付生态。"
+      "title": "Databricks 估值达 1880 亿美元",
+      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+      "source": "Julie Bort",
+      "one_liner": "Databricks 转型 AI 公司成功，估值 1880 亿美元，其开源模型成本研究对 AI 部署有参考价值。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Google 限制 Meta 使用其 Gemini AI 模型",
-      "url": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
-      "source": "CNBC",
-      "one_liner": "大模型授权战升级，Meta 可能被迫加速自研或转向其他开源模型，影响 AI 生态格局。"
+      "title": "Patreon 开始用 Cloudflare 阻止 AI 爬虫",
+      "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+      "source": "Sarah Perez",
+      "one_liner": "Patreon 从请求转为主动阻止 AI 爬虫，反映内容创作者对 AI 训练数据使用的态度转变。"
     },
     {
       "domain": "股票",
-      "title": "高盛：美股动量因子回撤 28%，TMT 回撤 40%，创历史最快最深",
+      "title": "高盛：AI 抛售接近尾声，但缺乏反转催化剂",
       "url": "https://wallstreetcn.com/articles/3777330",
-      "source": "华尔街见闻",
-      "one_liner": "高盛认为平仓接近尾声但缺乏反转催化剂，建议关注下周财报季能否提供新方向。"
+      "source": "华尔街见闻 API",
+      "one_liner": "高盛指出本轮科技股抛售已持续 17 个交易日，动量因子回撤 40%，创历史纪录，平仓接近尾声。"
     },
     {
       "domain": "股票",
-      "title": "IBM 股价创史上最大单日跌幅，跌 23%",
-      "url": "https://www.cnn.com/2026/07/14/tech/ibm-stock-worst-day-ever",
-      "source": "CNN",
-      "one_liner": "IBM 业绩不及预期，客户支出转向硬件和存储芯片，传统 IT 巨头在 AI 时代的转型困境。"
+      "title": "甲骨文 AI 数据中心成本暴增",
+      "url": "https://wallstreetcn.com/articles/3777336",
+      "source": "华尔街见闻 API",
+      "one_liner": "甲骨文因环保审批被迫改用燃料电池，165 亿美元数据中心成本骤增，凸显 AI 基础设施的隐性成本。"
+    },
+    {
+      "domain": "金融",
+      "title": "Stripe 与 Advent 联合报价超 530 亿美元收购 PayPal",
+      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
+      "source": "rvz",
+      "one_liner": "若交易达成，将重塑支付格局，但反垄断风险极高。"
     },
     {
       "domain": "金融",
       "title": "美国企业内幕人士以接近创纪录速度抛售股票",
       "url": "https://www.bloomberg.com/news/articles/2026-07-17/us-corporate-insiders-are-selling-stocks-at-a-near-record-pace",
-      "source": "Bloomberg",
-      "one_liner": "内部人抛售是市场见顶的领先指标，结合 AI 板块回调，需警惕系统性风险。"
-    },
-    {
-      "domain": "金融",
-      "title": "Stripe 与 Advent 联合报价 530 亿美元收购 PayPal",
-      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
-      "source": "Reuters",
-      "one_liner": "支付领域重大整合，Stripe 若成功将获得 PayPal 的商户网络，可能改变 AI 工具支付生态。"
+      "source": "pimienta",
+      "one_liner": "内部人抛售加速，通常被视为市场见顶信号，值得警惕。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-19T06:24:24+0000"
+    "scored_at": "2026-07-19T07:05:29+0000"
   }
 }
