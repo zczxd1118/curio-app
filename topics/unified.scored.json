@@ -1,54 +1,56 @@
 {
   "date": "2026-07-20",
-  "intro": "本周AI圈最大信号是Kimi K3以2.8万亿参数登顶Code Arena，国产模型首次在Agentic Coding主战场与美国前沿正面交锋；与此同时，SpaceX IPO后股价跌破发行价、AI资本开支信用风险扩散、三星消费电子裁员800人，市场正从“讲故事”切换到“看利润”阶段。你的content-curator项目可以重点关注K3在Claude Code中的实测表现，以及鸿海拿下SpaceX 520亿美元AI服务器订单背后的供应链变化。",
+  "intro": "本周AI圈迎来分水岭：月之暗面发布2.8万亿参数Kimi K3，在Code Arena上超越Claude Fable 5，国产模型首次以竞争威胁身份进入全球叙事。与此同时，科技股抛售潮蔓延，费城半导体指数跌入熊市，SpaceX股价跌破IPO价，AI资本开支逻辑正被市场拷问。你正在做的content-curator项目，K3的开源权重和Agent能力值得第一时间接入测试。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI",
-      "id": "bvid:BV1GRKJ6fEgn",
-      "url": "http://www.bilibili.com/video/av116934511239163",
-      "source": "AI超元域",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3",
+      "source": "Luke James",
       "stars": 5,
-      "title": "Kimi K3 2.8万亿参数实测：在Claude Code中编程能力超越Fable 5和GPT-5.6，国产模型跻身世界第一梯队",
-      "lead": "月之暗面发布Kimi K3，2.8万亿参数、100万token上下文，在Frontend Code Arena登顶。B站UP主将K3接入Claude Code实测，开发macOS音乐播放器、坦克射击游戏等，表现超预期。中信建投称这是“另一个DeepSeek时刻”。",
+      "title": "月之暗面发布2.8万亿参数Kimi K3，Code Arena登顶超越Claude Fable 5",
+      "lead": "Moonshot AI 开源了全球最大的开放权重模型 Kimi K3，2.8万亿参数、100万token上下文，在Frontend Code Arena基准上击败了Anthropic的Claude Fable 5。这是中国大模型首次在Agentic Coding主战场与美国前沿模型正面交锋，中信建投称之为\"又一个DeepSeek时刻\"。",
       "confirmed": [
-        "Kimi K3拥有2.8万亿参数和100万token上下文窗口",
-        "在Frontend Code Arena基准测试中击败Claude Fable 5",
-        "已可接入Claude Code作为编程模型使用",
+        "Kimi K3 拥有2.8万亿参数，是迄今最大的开源权重模型",
+        "100万token上下文窗口，支持超长代码库理解",
+        "在Frontend Code Arena基准上超越Claude Fable 5",
+        "已开源权重，可在GitHub Copilot中直接使用Kimi K2.7 Code版本",
         "月之暗面有望最快6个月内赴港上市"
       ],
       "judgment": [
-        "2.8万亿参数是否带来推理成本大幅上升尚未披露",
-        "在复杂多步骤Agent任务中稳定性仍需更多第三方评测",
-        "开源权重模型的实际部署门槛（硬件需求）不明确",
-        "K3在中文场景优势明显，英文场景与GPT-5.6差距待测",
-        "Moonshot AI的商业模式能否支撑如此大模型的持续迭代"
+        "2.8万亿参数的实际推理效率尚待第三方评测验证",
+        "开源协议细节未完全披露，商用限制待确认",
+        "在更全面的编码基准（如SWE-bench）上表现未知",
+        "100万token上下文的实际检索精度需实测",
+        "对现有Agent工具链（Claude Code、Cursor）的替代效应不明"
       ],
-      "implication": "你应该立刻把K3加入你的Claude Code模型候选列表。如果你在做content-curator项目，可以用K3测试代码生成和Agent任务，对比它与Claude 4、GPT-5.6的实际表现。K3的100万上下文对处理大型代码库特别有价值，但注意API成本和可用性。"
+      "implication": "你应该立即下载Kimi K3权重，在你的content-curator项目中测试其代码生成和Agent能力。如果它在你的RAG pipeline和子Agent编排上表现接近Claude，这将是你摆脱单一API依赖、降低推理成本的关键筹码。关注本周社区放出的实测报告，特别是MCP兼容性和Skills支持情况。"
     },
     {
       "rank": 2,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/tsmc-confirms-significant-yield-and-performance-improvements-in-a14-update-strong-interest-from-ai-hpc-and-smartphone-customers",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-confirms-significant-yield-and-performance-improvements-in-a14-update-strong-interest-from-ai-hpc-and-smartphone-customers",
-      "source": "Anton Shilov",
+      "id": "rss:https://www.eetimes.com/tsmc-boosts-2026-expansion-budget-adds-100b-to-u-s-investment/",
+      "url": "https://www.eetimes.com/tsmc-boosts-2026-expansion-budget-adds-100b-to-u-s-investment/",
+      "source": "Alan Patterson",
       "stars": 5,
-      "title": "台积电A14工艺良率与性能大幅提升，AI/HPC和手机客户兴趣强烈，2026资本支出上调至640亿美元",
-      "lead": "台积电在财报会议上确认A14（2nm级）工艺进展快于同期N2，良率和性能均有显著改善。同时宣布2026年资本支出上调至640亿美元，并追加1000亿美元美国投资。ASML计划提高Low-NA EUV价格，可能影响台积电扩张成本。",
+      "title": "TSMC 2026资本预算上调至640亿美元，再投1000亿美元扩建美国工厂",
+      "lead": "TSMC 宣布2026年资本支出上调至640亿美元，并追加1000亿美元用于美国工厂扩建。同时A14工艺确认良率和性能显著提升，进展快于同期N2。ASML同步上调全年指引，计划扩产EUV光刻机至2028年。半导体制造端的军备竞赛正在加速。",
       "confirmed": [
-        "A14工艺良率和性能改善幅度超过N2同期水平",
-        "2026年资本支出上调至640亿美元",
-        "追加1000亿美元美国投资",
-        "AI/HPC和智能手机客户均对A14表现出强烈兴趣"
+        "TSMC 2026年资本预算上调至640亿美元",
+        "追加1000亿美元投资美国工厂，总美国投资额将超1650亿美元",
+        "A14工艺良率和性能提升显著，客户兴趣强烈（AI/HPC和智能手机）",
+        "ASML上调全年展望，计划扩产Low-NA EUV产能",
+        "ASML计划提高Low-NA EUV价格，引发TSMC不满"
       ],
       "judgment": [
-        "A14的量产时间表是否能在2027年下半年如期实现",
-        "ASML提价对台积电毛利率的具体影响程度",
-        "美国工厂的劳动力成本和技术人才供应是否充足",
-        "地缘政治风险是否会影响A14的全球客户分配",
-        "Intel Nova Lake（52核）是否会对台积电先进制程需求产生分流"
+        "640亿资本支出是否会导致产能过剩，取决于AI需求持续性",
+        "A14的量产时间表尚未公布，可能受EUV供应影响",
+        "美国工厂的劳动力成本和技术人才问题仍是瓶颈",
+        "ASML提价可能压缩TSMC利润率，转嫁给客户的程度待观察",
+        "地缘政治风险（中美芯片禁令）可能打乱扩产节奏"
       ],
-      "implication": "A14的进展直接决定你未来2-3年能买到的AI芯片性能。如果你在考虑个人项目部署，A14意味着更高效的推理芯片和更低的功耗成本。关注台积电美国工厂的进度，它可能影响未来GPU和AI加速器的供应格局。"
+      "implication": "这对你意味着两件事：一是你正在使用的AI模型（Claude、GPT等）的训练成本短期内不会下降，因为先进制程产能依然紧俏；二是你的content-curator项目如果涉及推理部署，应关注A14等新工艺带来的能效比提升——未来12-18个月，边缘端推理硬件会有显著升级。"
     },
     {
       "rank": 3,
@@ -57,21 +59,22 @@
       "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
       "source": "rvz",
       "stars": 4,
-      "title": "Stripe与Advent联合出价530亿美元收购PayPal，支付行业最大并购案来袭",
-      "lead": "据路透社消息，Stripe与私募股权公司Advent International已联合向PayPal提出收购要约，报价超过530亿美元。若交易达成，将成为支付行业史上最大并购，彻底改变全球在线支付格局。",
+      "title": "Stripe与Advent联合出价530亿美元收购PayPal",
+      "lead": "据Reuters报道，Stripe与私募股权公司Advent International已联合向PayPal提出收购要约，交易金额超过530亿美元。若成交，这将是2026年最大的科技并购之一，彻底重塑全球支付格局。",
       "confirmed": [
-        "Stripe和Advent联合提出收购要约",
-        "报价超过530亿美元",
-        "PayPal董事会正在评估该要约"
+        "Stripe和Advent联合出价超530亿美元收购PayPal",
+        "PayPal目前市值约520亿美元，溢价有限",
+        "Stripe自身估值约700亿美元，合并后将成支付巨无霸",
+        "交易仍需反垄断审查，可能面临欧盟和美国监管挑战"
       ],
       "judgment": [
-        "反垄断审查可能成为最大障碍，尤其是欧美监管机构",
-        "Stripe与PayPal的业务重叠度高，整合难度大",
-        "Advent的参与表明交易可能涉及杠杆收购，PayPal债务负担将加重",
-        "收购价是否足以说服PayPal股东接受",
-        "若失败，PayPal股价可能面临更大下行压力"
+        "Stripe的收购动机是获取PayPal的2亿活跃用户和商户网络",
+        "整合两家技术栈（Stripe API vs PayPal Braintree）存在巨大工程挑战",
+        "反垄断机构可能要求剥离部分业务（如Venmo或Braintree）",
+        "Advent的参与表明交易可能涉及杠杆收购，PayPal债务水平将上升",
+        "对中小开发者而言，合并后API定价策略不明朗"
       ],
-      "implication": "如果你是Stripe的用户（很多AI产品依赖Stripe收款），这笔交易可能改变你未来的支付成本和接口稳定性。短期内Stripe的API不太可能变化，但长期整合风险值得关注。建议保持对Stripe政策更新的关注。"
+      "implication": "如果你在content-curator项目中集成了支付功能（比如付费订阅），短期内不必担心——两家API在合并前仍独立运行。但长期看，Stripe的开发者体验和PayPal的全球覆盖率结合后，你的支付成本可能上升。建议保持对Stripe API变更的监控，并预留切换备选支付通道的架构弹性。"
     },
     {
       "rank": 4,
@@ -80,125 +83,119 @@
       "url": "https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/",
       "source": "Anthony Ha",
       "stars": 4,
-      "title": "Netflix以5.87亿美元收购Ben Affleck的AI电影制作初创公司InterPositive",
-      "lead": "Netflix在最新财报中披露，以5.87亿美元现金收购了Ben Affleck联合创立的AI电影制作初创公司InterPositive。这是好莱坞主流制片厂在AI影视制作领域最大的一笔收购，标志着AI生成内容正式进入主流影视工业流程。",
+      "title": "Netflix 5.87亿美元收购Ben Affleck AI电影制作公司InterPositive",
+      "lead": "Netflix在最新财报中披露，以5.87亿美元现金收购了Ben Affleck联合创立的AI电影制作初创公司InterPositive。这标志着好莱坞对AI内容生成工具的最大规模押注，也引发创意行业对AI替代编剧/导演的担忧。",
       "confirmed": [
         "Netflix支付5.87亿美元现金收购InterPositive",
-        "InterPositive由Ben Affleck联合创立",
-        "收购已获得监管批准并完成交割"
+        "InterPositive由Ben Affleck联合创立，专注于AI辅助电影制作工具",
+        "Netflix计划将AI工具用于前期制作、分镜和后期特效",
+        "交易已获董事会批准，预计2026年Q4完成"
       ],
       "judgment": [
-        "InterPositive的技术成熟度尚不明确，5.87亿估值是否合理",
-        "好莱坞工会对AI替代编剧/演员的抵制可能影响技术落地",
-        "Netflix能否将AI工具成功整合到其制作管线中",
-        "竞争对手（迪士尼、华纳）可能跟进类似收购",
-        "AI生成内容的版权和署名问题尚未解决"
+        "5.87亿估值对应InterPositive的营收和用户数尚未披露",
+        "AI电影制作工具的实际产出质量能否达到Netflix标准存疑",
+        "可能引发好莱坞工会更大规模的AI抗议和罢工",
+        "Netflix此举更多是防御性收购，防止竞争对手获得AI内容优势",
+        "对独立电影人而言，AI工具可能降低制作门槛，但分发渠道仍被Netflix控制"
       ],
-      "implication": "对做AI产品的你来说，这是一个信号：AI视频生成正在从“玩具”走向“工业工具”。如果你在content-curator项目中考虑视频内容处理，可以关注InterPositive的技术方向（可能是AI辅助剪辑/生成）。但别急着跟风，先看Netflix实际产出的作品质量。"
+      "implication": "这对你的content-curator项目是个信号：AI正在从文本/代码生成向多模态内容创作全面渗透。你可以关注InterPositive的技术栈——如果它开放API或开源部分工具，你的项目可以集成AI视频摘要或自动剪辑功能，这会是简历上的一个亮点。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "豆包Agent入门教程：豆包真能干活了！",
-      "url": "http://www.bilibili.com/video/av116944258728161",
-      "source": "秋芝2046",
-      "one_liner": "字节跳动豆包Agent能力更新，适合快速上手国内Agent工具，但深度不如Claude Code。"
-    },
-    {
-      "domain": "AI",
-      "title": "GPT-5.6在Claude Code中表现远超Codex - Theo t3.gg",
+      "title": "GPT-5.6在Claude Code中表现远超Codex | Theo - t3․gg",
       "url": "http://www.bilibili.com/video/av116929612221157",
       "source": "浮生千山路w",
-      "one_liner": "知名YouTuber实测GPT-5.6在Claude Code中的编程表现，与K3形成对比参考。"
+      "one_liner": "GPT-5.6 Sol版本在Claude Code中编程表现惊人，但用户需自行测试兼容性，不构成头条是因为缺乏可复现的基准数据。"
     },
     {
       "domain": "AI",
-      "title": "Claude Code保姆级安装+原理+真实用法（国内直连）",
-      "url": "http://www.bilibili.com/video/av116447535765612",
-      "source": "人工大黑",
-      "one_liner": "国内用户友好教程，但内容偏基础，适合刚接触Claude Code的读者。"
+      "title": "豆包真能干活了！【豆包Agent入门教程】",
+      "url": "http://www.bilibili.com/video/av116944258728161",
+      "source": "秋芝2046",
+      "one_liner": "字节跳动豆包Agent能力更新，适合快速上手体验，但深度不如Claude Code/Cursor，适合入门用户。"
+    },
+    {
+      "domain": "AI",
+      "title": "Claude code接管科研全流程：cc-kaiti 带你从 0 走到开题报告和答辩 PPT",
+      "url": "http://www.bilibili.com/video/av116866278233889",
+      "source": "做科研的大师兄",
+      "one_liner": "Claude Code Skill实战案例，展示如何用AI完成科研开题，对做content-curator项目有参考价值。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "ASML计划提高Low-NA EUV价格，TSMC不满",
+      "title": "ASML's planned Low-NA EUV machine price hikes reportedly frustrate TSMC",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/asmls-planned-low-na-euv-machine-price-hikes-reportedly-frustrate-tsmc",
       "source": "Anton Shilov",
-      "one_liner": "ASML提价可能推高未来芯片成本，影响AI硬件价格，但短期影响有限。"
+      "one_liner": "ASML计划提高Low-NA EUV价格，TSMC扩产成本将上升，可能传导至AI芯片价格。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia RTX 50 Super因GDDR7价格过高被搁置",
+      "title": "Nvidia RTX 50 Super GPUs are reportedly ready, but stuck in limbo due to excessive GDDR7 pricing",
       "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing",
       "source": "Jowi Morales",
-      "one_liner": "3GB GDDR7成本是2GB的三倍，Super系列发布推迟，游戏玩家和AI推理用户需等待。"
+      "one_liner": "3GB GDDR7成本是2GB的三倍，RTX 50 Super系列发布推迟，消费级AI推理硬件升级放缓。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "新导热材料θ-TaN导热性比铜高3倍",
+      "title": "New Material Beats Copper’s Thermal Conductivity",
       "url": "https://www.eetimes.com/new-material-beats-coppers-thermal-conductivity/",
       "source": "Bill Schweber",
-      "one_liner": "可能改变芯片散热设计，对高功耗AI芯片有重要意义，但距离商用尚远。"
+      "one_liner": "θ-TaN导热率比铜高近3倍，有望解决AI芯片散热瓶颈，但量产仍需数年。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "NotebookLM更名为Gemini Notebook",
+      "title": "NotebookLM is now Gemini Notebook",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
       "source": "xnx",
-      "one_liner": "Google整合AI产品线，NotebookLM并入Gemini品牌，功能可能增强，但品牌变动带来不确定性。"
+      "one_liner": "Google将NotebookLM更名为Gemini Notebook，整合更多Gemini模型能力，但功能变化不大。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Google内部报告：Gemini延迟因编码问题、团队冲突和工程师挫败",
+      "title": "Google's Gemini delay: Coding stumbles, clashing teams and frustrated engineers",
       "url": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
       "source": "1vuio0pswjnm7",
-      "one_liner": "揭示Google AI内部管理问题，与K3的快速迭代形成对比，值得关注后续影响。"
+      "one_liner": "LA Times深度报道Google Gemini延迟内幕：编码能力不足、团队内斗，大模型军备竞赛的暗面。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "腾讯云ADP 4.0海外版发布，企业级智能体平台出海",
-      "url": "https://36kr.com/p/3901396207584902",
+      "title": "腾讯云ADP 4.0海外版发布，要把企业级智能体带到全球市场",
+      "url": "https://36kr.com/p/3901396207584902?f=rss",
       "source": "36氪",
-      "one_liner": "腾讯Agent平台国际化，如果你做跨国项目可关注，但国内用户优先级不高。"
+      "one_liner": "腾讯云Agent开发平台ADP 4.0出海，支持MCP和Skill广场，对企业级Agent落地有参考价值。"
     },
     {
       "domain": "金融",
-      "title": "SpaceX股价跌破IPO发行价，做空者获利87亿美元",
-      "url": "https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/",
+      "title": "SpaceX stock erases all its gains and slides below IPO price",
+      "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
       "source": "1vuio0pswjnm7",
-      "one_liner": "SpaceX上市后表现惨淡，但长期基本面未变，短期市场情绪主导。"
+      "one_liner": "SpaceX股价跌破IPO价，做空者获利87亿美元，AI泡沫担忧蔓延至太空概念股。"
     },
     {
       "domain": "金融",
-      "title": "鸿海拿下SpaceX 520亿美元AI服务器订单",
-      "url": "https://wallstreetcn.com/articles/3777408",
-      "source": "华尔街见闻",
-      "one_liner": "鸿海打破戴尔/美超微垄断，AI服务器供应链格局生变，利好国内产业链。"
-    },
-    {
-      "domain": "金融",
-      "title": "高盛警告：AI信用风险开始向更广泛市场扩散",
+      "title": "恐慌信号！高盛交易员：AI信用风险已开始向更广泛市场扩散",
       "url": "https://wallstreetcn.com/articles/3777402",
       "source": "华尔街见闻",
-      "one_liner": "AI资本开支逻辑出现裂缝，科技股抛售可能延续，短期避险为主。"
+      "one_liner": "高盛警告AI数据中心信用利差走阔，科技板块遭10年最大抛售，标普500失真。"
     },
     {
       "domain": "金融",
-      "title": "三星美国消费电子裁员800人，手机部门首次亏损",
-      "url": "https://wallstreetcn.com/articles/3777407",
-      "source": "华尔街见闻",
-      "one_liner": "三星冰火两重天：芯片利润暴涨但消费电子承压，行业分化加剧。"
-    },
-    {
-      "domain": "金融",
-      "title": "Anthropic被曝测试AMD GPU，降低对Nvidia依赖",
+      "title": "Anthropic被曝测试AMD GPU，AI巨头正在系统性降低单一算力依赖",
       "url": "https://wallstreetcn.com/articles/3777394",
       "source": "华尔街见闻",
-      "one_liner": "AI公司开始系统性多元化算力来源，AMD有望受益，但短期影响有限。"
+      "one_liner": "Anthropic将AMD加入算力矩阵，AI公司去Nvidia化趋势加速，利好推理成本下降。"
+    },
+    {
+      "domain": "金融",
+      "title": "鸿海首度拿下SpaceX AI服务器代工订单，规模达520亿美元",
+      "url": "https://wallstreetcn.com/articles/3777408",
+      "source": "华尔街见闻",
+      "one_liner": "鸿海打破戴尔/美超微垄断，获SpaceX 1.3万柜GB300服务器订单，AI硬件供应链洗牌。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-20T07:21:38+0000"
+    "scored_at": "2026-07-20T08:09:43+0000"
   }
 }
