@@ -2,7 +2,7 @@
   "domain": "大厂 AI 动态",
   "domain_id": "bigtech",
   "topic_id": "default",
-  "fetched_at": "2026-07-19T06:05:03.357986+00:00",
+  "fetched_at": "2026-07-20T06:23:18.848798+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -15,10 +15,10 @@
     "Product Hunt（新产品脉搏）": 30,
     "36氪 AI": 30,
     "少数派": 10,
-    "HN · Gemini": 6,
+    "HN · Gemini": 8,
     "HN · Copilot": 5,
     "HN · Apple Intelligence": 0,
-    "HN · Llama": 2,
+    "HN · Llama": 3,
     "HN · Bedrock": 0,
     "HN · DeepMind": 4
   },
@@ -27,12 +27,12 @@
       "name": "default"
     }
   ],
-  "total": 146,
+  "total": 149,
   "items": [
     {
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
-      "title": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "id": "rss:https://www.theverge.com/entertainment/967696/four-tet-wingdings-album-review",
+      "title": "This unpronounceable series of glyphs is an incredible side project from Kieran Hebden (aka Four Tet)",
+      "url": "https://www.theverge.com/entertainment/967696/four-tet-wingdings-album-review",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -42,14 +42,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-18T20:54:42+00:00",
-      "summary": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer [&#8230;]",
+      "published_at": "2026-07-19T21:02:45+00:00",
+      "summary": "Just why? &#645;&#865;&#865;&#865;&#865;&#865;&#865;&#865;&#865;&#865;&#865;&#865;(&#824;&#802;&#795;&#828;&#798;&#813;&#843;&#837;)&#824;&#858;&#816;&#859;&#788;&#830;&#768;&#831;&#850;&#834;:&#820;&#851;&#798;&#785;&#780;&#770;&#774;&#778;&#843;&#768;:&#824;&#846;&#799;&#815;&#770;&#787;&#780;&#12288;&#1161;&#12288;&#12288;&#12288;&#12288;&#12288;&#865;&#12288;&#862;&#12288;&#862;&#12288;&#862;&#12288;&#1161;&#9679;&#8195;&#4032;&#8195;&#9679;&#8195;&#8195;&#4032;&#8195;&#8195;&#9679;&#12288;&...",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak",
-      "title": "Google might not kneecap the Pixel 11a with an old processor",
-      "url": "https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak",
+      "id": "rss:https://www.theverge.com/gadgets/967687/kodak-ec35-point-and-shoot-film-camera",
+      "title": "Kodak EC35 is a dirt-cheap point-and-shoot film camera",
+      "url": "https://www.theverge.com/gadgets/967687/kodak-ec35-point-and-shoot-film-camera",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -59,14 +59,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-18T18:25:08+00:00",
-      "summary": "Mystic Leaks suggests that the Pixel 11a will return to featuring a flagship-grade processor with the Tensor G6. Rather than the Tensor G5 found in the Pixel 10 and 10 Pro, the Pixel 10a shipped with the previous generation Tensor G4. That was a huge disappointment since, typically, the Pixel a lineup kept the modern [&#8230;]",
+      "published_at": "2026-07-19T19:26:06+00:00",
+      "summary": "Following the success of its $99 Kodak-branded Snapic A1, Reto Project is releasing the Kodak EC35, an even more affordable 35mm film camera for just $34.99. The EC35 certainly isn't fancy. Its 25mm acrylic lens with a fixed f/10 aperture and 1/100 shutter speed basically put it on par with a drugstore disposable. The fact [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/design/967606/google-open-source-3d-emoji",
-      "title": "Google is open-sourcing its 3D emoji",
-      "url": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
+      "id": "rss:https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
+      "title": "I hate that I don’t hate this song made with Suno",
+      "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -76,31 +76,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-18T16:40:55+00:00",
-      "summary": "Now, if you want to, you can use Google's 3D emoji in your own creations. The company shared some details about how it went about designing the little pictograms and why, as part of World Emoji Day on Friday. Things you might not necessarily worry about in a 2D illustration suddenly become very important when [&#8230;]",
+      "published_at": "2026-07-19T17:35:54+00:00",
+      "summary": "I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring, especially the outputs of Suno. So I'm having a bit of a tough time processing the fact that [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale",
-      "title": "GoPro&#8217;s discounted Max 2 bundle includes $100 worth of accessories",
-      "url": "https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Brad Bourque",
-        "feed_title": "The Verge"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-18T15:00:00+00:00",
-      "summary": "A 360-degree camera is a great way to ensure you capture every bit of the action, but prices tend to be on the high end for models worth your attention. That’s why it’s notable that the GoPro Max 2 accessory bundle is discounted to $369 at Amazon (a dollar more at Best Buy and GoPro). [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.theverge.com/report/967583/guardian-carter-sherman-podcast-interview",
-      "title": "The Guardian’s Carter Sherman fondly remembers being terrified by Ocarina of Time",
-      "url": "https://www.theverge.com/report/967583/guardian-carter-sherman-podcast-interview",
+      "id": "rss:https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults",
+      "title": "The FBI reportedly won’t investigate ICE anymore",
+      "url": "https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -110,65 +93,65 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-18T14:30:00+00:00",
-      "summary": "Carter Sherman has been covering sex, gender, and the complex personal and national politics that accompany them for years. She was a senior reporter for Vice and has written for Elle, Ms. magazine, and Los Angeles magazine as well. Along the way, she's garnered a Scripps Howard Award, a National Press Club Journalism Award, and [&#8230;]",
+      "published_at": "2026-07-19T16:42:10+00:00",
+      "summary": "According to the New York Times, federal agents have been told that the FBI will no longer be investigating confrontations involving ICE agents. The DHS and DOJ denied the change in policy to The Times. The reported change in guidance follows renewed scrutiny of violence by ICE agents who have killed two people in the [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review",
-      "title": "Surprise! Facial recognition smart locks are actually good",
-      "url": "https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review",
+      "id": "rss:https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review",
+      "title": "Orchid is a delightfully retro and approachable hipster synth",
+      "url": "https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Jennifer Pattison Tuohy",
+        "name": "Terrence O’Brien",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-18T14:00:00+00:00",
-      "summary": "Hands-free unlocking is the future of smart locks. The best smart home tech removes friction, and having your door unlock for you as you walk up is as frictionless as it gets - no passcodes to remember, no need to have a free hand to wave, press, or poke at the lock. One way to [&#8230;]",
+      "published_at": "2026-07-19T15:15:00+00:00",
+      "summary": "In 2017, I bought an old Magnus chord organ off Craigslist for $10. It's one of my favorite music gear purchases. Electric chord organs let you play full chords with just a press of a button, making them perfect for aspiring singer-songwriters or fooling around at home. But chord organs largely fell out of favor [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/tech/966788/sony-bravia-9-ii-tv-review",
-      "title": "Sony’s flagship RGB LED TV is incredible",
-      "url": "https://www.theverge.com/tech/966788/sony-bravia-9-ii-tv-review",
+      "id": "rss:https://www.theverge.com/gadgets/967336/birdfy-feeder-ai-powered-smart-bird-feeder-with-camera-deal-sale",
+      "title": "Birdfy&#8217;s solar-powered smart feeder is down to one of its best prices",
+      "url": "https://www.theverge.com/gadgets/967336/birdfy-feeder-ai-powered-smart-bird-feeder-with-camera-deal-sale",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "John.Higgins",
+        "name": "Sheena Vasani",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-18T12:30:00+00:00",
-      "summary": "The Sony Bravia 9 II is the most anticipated new TV in years. It's an amazing RGB LED TV. I watched Dungeons &#38; Dragons: Honor Among Thieves on the new Bravia with my son, who has been getting into the roleplaying game but had never seen the movie. The landscapes of Faer&#251;n looked natural and [&#8230;]",
+      "published_at": "2026-07-19T15:00:00+00:00",
+      "summary": "Birdfy has kicked off a midyear sale, taking up to 40 percent off a range of its smart bird feeders. One of the best deals is on Netvue’s Birdfy Feeder AI-Powered Smart Bird Feeder with Camera, which has dropped to $149.99 at Birdfy and is its second-best price to date. The bundle, which includes a [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/games/961152/denshattack-review",
-      "title": "More games should be on rails (literally)",
-      "url": "https://www.theverge.com/games/961152/denshattack-review",
+      "id": "rss:https://www.theverge.com/policy/967651/us-marshals-arrest-the-tate-brothers-in-miami",
+      "title": "US Marshals arrest the Tate brothers in Miami",
+      "url": "https://www.theverge.com/policy/967651/us-marshals-arrest-the-tate-brothers-in-miami",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Jay Peters",
+        "name": "Terrence O’Brien",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-18T12:00:00+00:00",
-      "summary": "It's been a good few weeks for games on rails. Nintendo's Star Fox remake wisely kept the tightly scripted, action-packed levels from Star Fox 64 largely the same, and they're still fun to fly through nearly 20 years later. Denshattack!, a new game from Undercoders, similarly features levels packed with carefully orchestrated sequences to great [&#8230;]",
+      "published_at": "2026-07-19T14:20:48+00:00",
+      "summary": "The manosphere influencers Andrew and Tristan Tate were arrested Saturday in Miami by US Marshals in relation to new rape and sex trafficking charges in England. According to the Associated Press, British authorities are seeking the brothers' extradition. The new charges facing Andrew Tate include seven counts of rape, three of sex trafficking, three counts [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/tech/967544/best-apps-gadgets-reading-installer",
-      "title": "The apps, gadgets, and tools every reader needs",
-      "url": "https://www.theverge.com/tech/967544/best-apps-gadgets-reading-installer",
+      "id": "rss:https://www.theverge.com/podcast/967642/the-clapper-version-history",
+      "title": "The Clapper was a bad smart home gadget — and a viral sensation",
+      "url": "https://www.theverge.com/podcast/967642/the-clapper-version-history",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -178,25 +161,144 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-18T12:00:00+00:00",
-      "summary": "Hi, friends! Welcome to Installer No. 136, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, hope your neighborhood isn't as smoky as mine, and also you can read all the old editions at the Installer homepage.) This week, I've been recording the next season of Version History [&#8230;]",
+      "published_at": "2026-07-19T13:28:26+00:00",
+      "summary": "Clap on. Clap off. Well, more like, Clap, pause for half a beat but no longer because otherwise it'll stop hearing you, clap again because you waited too long, clap louder and faster, that didn't work, clap two more times, and suddenly: on. The Clapper didn't always work - and even when it did, it [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/tech/966964/emtb-riders-are-not-cheaters",
-      "title": "Fine, electric mountain bikes don’t suck",
-      "url": "https://www.theverge.com/tech/966964/emtb-riders-are-not-cheaters",
+      "id": "rss:https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games",
+      "title": "The future of physical games is not looking great",
+      "url": "https://www.theverge.com/column/967179/physical-discs-gta-vi-playstation-rockstar-games",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Thomas Ricker",
+        "name": "Jay Peters",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-18T07:00:00+00:00",
-      "summary": "Cheater, I'd grumble between huffs as yet another e-bike rider casually skittered past me on a steep ascent. It's this purist attitude that, for years, has left me blind to one simple fact: electric mountain bikes are fun! My attitude adjustment came a few weeks ago, the very first time I rode an Amflow PX [&#8230;]",
+      "published_at": "2026-07-19T12:00:00+00:00",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on video games and physical media, follow Jay Peters. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started As a kid, I relished trips to [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/transportation/966701/solar-car-challenge-high-school-student-race-texas",
+      "title": "The grueling, 630-mile road race where the only fuel is sunlight",
+      "url": "https://www.theverge.com/transportation/966701/solar-car-challenge-high-school-student-race-texas",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Andrew J. Hawkins",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T11:00:00+00:00",
+      "summary": "On July 19th, dozens of teams of high school students will begin a five-day, 630-mile road race from Fort Worth to Fort Stockton in Texas. But this is not your typical contest. The students design and build the cars themselves, using off-the-shelf parts and 3D printed materials. The winner is the team that accumulates the [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/",
+      "title": "Netflix paid $587M for Ben Affleck’s AI filmmaking startup",
+      "url": "https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Anthony Ha",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T21:45:00+00:00",
+      "summary": "Netflix revealed that it paid $587 million in cash for InterPositive, a startup co-founded by Ben Affleck.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+      "title": "What to watch for after Jensen Huang’s Japan visit",
+      "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Kate Park",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T21:16:07+00:00",
+      "summary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Anthony Ha",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T19:24:45+00:00",
+      "summary": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/19/techcrunch-mobility-the-battle-over-robotaxi-rules/",
+      "title": "TechCrunch Mobility: The battle over robotaxi rules",
+      "url": "https://techcrunch.com/2026/07/19/techcrunch-mobility-the-battle-over-robotaxi-rules/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Kirsten Korosec",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T16:05:00+00:00",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+      "title": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+      "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Anthony Ha",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T14:52:08+00:00",
+      "summary": "\"Everybody knows the Greeks are inside.\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+      "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Kate Park",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T14:00:00+00:00",
+      "summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
       "lang": "en"
     },
     {
@@ -438,108 +540,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/07/17/i-replaced-my-space-heater-and-ceiling-fan-with-one-dyson-appliance/",
-      "title": "I replaced my space heater and ceiling fan with one Dyson appliance",
-      "url": "https://techcrunch.com/2026/07/17/i-replaced-my-space-heater-and-ceiling-fan-with-one-dyson-appliance/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Aisha Malik",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T18:00:17+00:00",
-      "summary": "Designed for year-round comfort, the Dyson Hot+Cool HF1 combines quiet operation and simple controls with Dyson's signature bladeless design.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
-      "title": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
-      "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Theresa Loconsolo",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T17:45:46+00:00",
-      "summary": "Apple&#160;filed a trade secrets&#160;lawsuit against OpenAI&#160;last Friday, and&#160;it&#8217;s&#160;not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI&#8217;s chief hardware officer and claims more than 400 former Apple employees now work at the company.&#160;OpenAI&#8217;s response so far&#160;has been carefully hedged, and the timing&#160;couldn&#8217;t&#160;be worse with the company&#160;reportedly eyeing&#160;an IPO [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/17/fbi-arrests-man-accused-of-using-steam-games-to-drain-victims-crypto-wallets/",
-      "title": "FBI arrests man accused of using Steam games to drain victims’ crypto wallets",
-      "url": "https://techcrunch.com/2026/07/17/fbi-arrests-man-accused-of-using-steam-games-to-drain-victims-crypto-wallets/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Lorenzo Franceschi-Bicchierai",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T16:18:09+00:00",
-      "summary": "Prosecutors accused 21-year-old student Zyaire Wilkins of publishing on Steam several fake video games that contained malware, infecting thousands of victims, and stealing crypto from some of them.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/17/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
-      "title": "Parents want safer phones for kids. These companies are answering the call.",
-      "url": "https://techcrunch.com/2026/07/17/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Lauren Forristal",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T16:12:46+00:00",
-      "summary": "As parents look for alternatives to unrestricted smartphones, a growing number of companies are building phones designed specifically for kids, from feature-limited mobile devices to minimalist home phones.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/",
-      "title": "Amazon fixing bug that billed some AWS customers billions of dollars",
-      "url": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Zack Whittaker",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T15:29:21+00:00",
-      "summary": "Some Amazon customers logged on Friday to a surprise bill estimate claiming that they owed the tech and cloud giant billions in fees.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
-      "title": "Patreon stops asking AI bots not to scrape — and starts blocking them",
-      "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Sarah Perez",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T15:21:17+00:00",
-      "summary": "Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators’ content without permission. The move marks a shift away from relying on websites using robots.txt alone to actively block unauthorized AI training.",
-      "lang": "en"
-    },
-    {
       "id": "rss:https://stratechery.com/2026/mainframes-and-main-characters/",
       "title": "2026.29: Mainframes and Main Characters",
       "url": "https://stratechery.com/2026/mainframes-and-main-characters/",
@@ -707,6 +707,40 @@
       "views": null,
       "published_at": "2026-06-25T10:00:00+00:00",
       "summary": "An interview with Figma CEO Dylan Field about building Figma, and why he believes AI gives the company a tailwind.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
+      "title": "India's first privately-developed rocket reaches orbit on dramatic debut launch",
+      "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Stephen Clark",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T22:11:21+00:00",
+      "summary": "\"On the first attempt, reaching orbit, I never thought it was possible.\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/",
+      "title": "As mosquito ranges expand, better monitoring is key to preventing disease",
+      "url": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Madeline Shaw, Inside Climate News",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T11:19:31+00:00",
+      "summary": "Monitoring is expensive and labor intensive. But it helps public health officials stop outbreaks.",
       "lang": "en"
     },
     {
@@ -1016,71 +1050,105 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-      "title": "It's official: EU will force Google to share search data and open up AI on Android",
-      "url": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Ryan Whitwam",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-16T20:41:45+00:00",
-      "summary": "Google says these changes could endanger user privacy and security.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
-      "title": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
-      "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Ashley Belanger",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-16T20:26:23+00:00",
-      "summary": "Elon Musk's xAI files first lawsuit against Grok user accused of making child sex images.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/zoodata",
-      "title": "ZooData",
-      "url": "https://www.producthunt.com/products/zoodata",
+      "id": "rss:https://www.producthunt.com/products/openseo",
+      "title": "OpenSEO",
+      "url": "https://www.producthunt.com/products/openseo",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Justin Jincaid",
+        "name": "fmerian",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-07T09:57:18+00:00",
-      "summary": "The data layer for AI agents Discussion | Link",
+      "published_at": "2026-07-17T13:34:52+00:00",
+      "summary": "The open source Ahrefs alternative Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/wx",
-      "title": "WX",
-      "url": "https://www.producthunt.com/products/wx",
+      "id": "rss:https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac",
+      "title": "Rewisp",
+      "url": "https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Metehan Sipahi",
+        "name": "Yashmit Bhaverisetti",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-14T14:38:29+00:00",
-      "summary": "An experimental synth for playable generative sound Discussion | Link",
+      "published_at": "2026-07-18T11:45:09+00:00",
+      "summary": "See it once. Ask forever. Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/basert",
+      "title": "BaseRT",
+      "url": "https://www.producthunt.com/products/basert",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Lukas Wesemann",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-18T08:15:22+00:00",
+      "summary": "6.4x faster than llama.cpp, 3.9x faster than MLX Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/kobbe",
+      "title": "Kobbe",
+      "url": "https://www.producthunt.com/products/kobbe",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Michael Andreuzza",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-16T07:41:42+00:00",
+      "summary": "Privacy-friendly web analytics with traffic and revenue. Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/detourmap",
+      "title": "Detourmap",
+      "url": "https://www.producthunt.com/products/detourmap",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Albanius",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-18T09:27:10+00:00",
+      "summary": "Every place worth the detour, on one interactive map Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/spycost",
+      "title": "Spycost",
+      "url": "https://www.producthunt.com/products/spycost",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Hlib Sukhovoi",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-06-26T09:13:16+00:00",
+      "summary": "Fell for a discount again? Discussion | Link",
       "lang": "en"
     },
     {
@@ -1101,6 +1169,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.producthunt.com/products/clark-agent",
+      "title": "Clark",
+      "url": "https://www.producthunt.com/products/clark-agent",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Ben Lang",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-05-27T09:38:52+00:00",
+      "summary": "An AI coworker with its own cloud computer Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/zoodata",
+      "title": "ZooData",
+      "url": "https://www.producthunt.com/products/zoodata",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Justin Jincaid",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-07T09:57:18+00:00",
+      "summary": "The data layer for AI agents Discussion | Link",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.producthunt.com/products/docusmart-ai",
       "title": "DocuSmart AI",
       "url": "https://www.producthunt.com/products/docusmart-ai",
@@ -1115,6 +1217,23 @@
       "views": null,
       "published_at": "2026-03-12T17:37:12+00:00",
       "summary": "Turning fragmented knowledge into one simple system Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/wx",
+      "title": "WX",
+      "url": "https://www.producthunt.com/products/wx",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Metehan Sipahi",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-14T14:38:29+00:00",
+      "summary": "An experimental synth for playable generative sound Discussion | Link",
       "lang": "en"
     },
     {
@@ -1135,6 +1254,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.producthunt.com/products/openmarkdown",
+      "title": "OpenMarkdown",
+      "url": "https://www.producthunt.com/products/openmarkdown",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "XUEYANZ",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-15T04:32:04+00:00",
+      "summary": "A markdown editor you and your agent co-edit Discussion | Link",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.producthunt.com/products/mirage-15",
       "title": "Mirage",
       "url": "https://www.producthunt.com/products/mirage-15",
@@ -1149,23 +1285,6 @@
       "views": null,
       "published_at": "2026-07-11T07:48:47+00:00",
       "summary": "Turn your SaaS into a clickable demo in 90 seconds. Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/clark-agent",
-      "title": "Clark",
-      "url": "https://www.producthunt.com/products/clark-agent",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Ben Lang",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-27T09:38:52+00:00",
-      "summary": "An AI coworker with its own cloud computer Discussion | Link",
       "lang": "en"
     },
     {
@@ -1186,71 +1305,37 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/openmarkdown",
-      "title": "OpenMarkdown",
-      "url": "https://www.producthunt.com/products/openmarkdown",
+      "id": "rss:https://www.producthunt.com/products/pebbles-ai",
+      "title": "Pebbles Ai",
+      "url": "https://www.producthunt.com/products/pebbles-ai",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "XUEYANZ",
+        "name": "ISTIAK AHMAD",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T04:32:04+00:00",
-      "summary": "A markdown editor you and your agent co-edit Discussion | Link",
+      "published_at": "2026-07-14T04:03:42+00:00",
+      "summary": "AI sales platform for modern B2B teams Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/kimi-ai-assistant",
-      "title": "Kimi K3",
-      "url": "https://www.producthunt.com/products/kimi-ai-assistant",
+      "id": "rss:https://www.producthunt.com/products/scribble-party",
+      "title": "Scribble Party",
+      "url": "https://www.producthunt.com/products/scribble-party",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Zac Zuo",
+        "name": "Dakota Kim",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-17T02:39:47+00:00",
-      "summary": "The world's first open 3T-class model Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/pixycad-3d-solid-modelling",
-      "title": "PixyCAD",
-      "url": "https://www.producthunt.com/products/pixycad-3d-solid-modelling",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Andrea Sartori",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-16T07:15:45+00:00",
-      "summary": "Fast & precise 3D CAD built natively for iPad and Mac Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/toybird-labs",
-      "title": "Pocket Screen",
-      "url": "https://www.producthunt.com/products/toybird-labs",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Masaki Iino",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T06:58:59+00:00",
-      "summary": "Keep any Mac window visible in a floating mini screen Discussion | Link",
+      "published_at": "2026-07-17T02:55:51+00:00",
+      "summary": "A local-first whiteboard studio for teachers and creators Discussion | Link",
       "lang": "en"
     },
     {
@@ -1305,40 +1390,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/scribble-party",
-      "title": "Scribble Party",
-      "url": "https://www.producthunt.com/products/scribble-party",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Dakota Kim",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T02:55:51+00:00",
-      "summary": "A local-first whiteboard studio for teachers and creators Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/pebbles-ai",
-      "title": "Pebbles Ai",
-      "url": "https://www.producthunt.com/products/pebbles-ai",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "ISTIAK AHMAD",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-14T04:03:42+00:00",
-      "summary": "AI sales platform for modern B2B teams Discussion | Link",
-      "lang": "en"
-    },
-    {
       "id": "rss:https://www.producthunt.com/products/unabyss",
       "title": "Unabyss for Claude",
       "url": "https://www.producthunt.com/products/unabyss",
@@ -1353,6 +1404,40 @@
       "views": null,
       "published_at": "2026-07-10T19:19:45+00:00",
       "summary": "Shared memory across all apps and LLMs. In Claude Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/toybird-labs",
+      "title": "Pocket Screen",
+      "url": "https://www.producthunt.com/products/toybird-labs",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Masaki Iino",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-14T06:58:59+00:00",
+      "summary": "Keep any Mac window visible in a floating mini screen Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/kimi-ai-assistant",
+      "title": "Kimi K3",
+      "url": "https://www.producthunt.com/products/kimi-ai-assistant",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Zac Zuo",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-17T02:39:47+00:00",
+      "summary": "The world's first open 3T-class model Discussion | Link",
       "lang": "en"
     },
     {
@@ -1373,20 +1458,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/clipmatch",
-      "title": "ClipMatch",
-      "url": "https://www.producthunt.com/products/clipmatch",
+      "id": "rss:https://www.producthunt.com/products/pixycad-3d-solid-modelling",
+      "title": "PixyCAD",
+      "url": "https://www.producthunt.com/products/pixycad-3d-solid-modelling",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Abigail Williams",
+        "name": "Andrea Sartori",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T05:16:07+00:00",
-      "summary": "Turn your camera roll into social content with AI Discussion | Link",
+      "published_at": "2026-07-16T07:15:45+00:00",
+      "summary": "Fast & precise 3D CAD built natively for iPad and Mac Discussion | Link",
       "lang": "en"
     },
     {
@@ -1407,20 +1492,37 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/weave-9",
-      "title": "Weave",
-      "url": "https://www.producthunt.com/products/weave-9",
+      "id": "rss:https://www.producthunt.com/products/graft-ai",
+      "title": "Graft AI",
+      "url": "https://www.producthunt.com/products/graft-ai",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Emmanuel Adesola",
+        "name": "Yashas Gunderia",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T23:37:50+00:00",
-      "summary": "Think out loud and watch it become a living map. Discussion | Link",
+      "published_at": "2026-07-15T17:24:23+00:00",
+      "summary": "Turn company operations into a living map for agents Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/amami",
+      "title": "Amami",
+      "url": "https://www.producthunt.com/products/amami",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "dss cdd",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-15T04:17:53+00:00",
+      "summary": "Analytics that lives inside your AI assistant Discussion | Link",
       "lang": "en"
     },
     {
@@ -1441,123 +1543,174 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/the-eureka-database",
-      "title": "The Eureka Database",
-      "url": "https://www.producthunt.com/products/the-eureka-database",
+      "id": "rss:https://www.producthunt.com/products/dot-7",
+      "title": "dot.",
+      "url": "https://www.producthunt.com/products/dot-7",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Jeremy Galang",
+        "name": "Munimur Ashrafy",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-16T00:20:11+00:00",
-      "summary": "Turn a Reddit complaint into your next company Discussion | Link",
+      "published_at": "2026-07-06T18:22:12+00:00",
+      "summary": "The feedback layer for anything you build with AI. Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/chikitai",
-      "title": "ChikitAI",
-      "url": "https://www.producthunt.com/products/chikitai",
+      "id": "rss:https://36kr.com/p/3902068392658566?f=rss",
+      "title": "专访靳玉志：「境」和「界」并不冲突，共同落实「电子螺丝钉」的战略定位",
+      "url": "https://36kr.com/p/3902068392658566?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Sujit Routray",
-        "feed_title": "Product Hunt — The best new products, every day"
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-14T20:54:35+00:00",
-      "summary": "Agentic AI for Healthcare Triage and Care Automation Discussion | Link",
-      "lang": "en"
+      "published_at": "2026-07-20T04:32:43+00:00",
+      "summary": "华为公司高级副总裁、引望公司CEO 靳玉志 文｜肖漫 编辑｜李勤、杨轩 过去几年，华为一直强调自己在汽车行业的身份只有一个——“智能网联汽车的增量部件提供商”。 尽管一遍遍地强调，但随着合作车型不断扩容，“界”（指鸿蒙智行生态联盟中的问界、享界、智界、尊界、尚界）之外又出现了“境”（启境、奕境等），华为乾崑智驾授权体验中心开始向消费者开放，华为在汽车产业中的角色再一次被审视：它究竟是一家供应商，还是已经越来越像一家汽车品牌？“界”和“境”的关系是什么？ “我们的定位从来没有变化。”面对外界讨论，华为公司高级副总裁、引望公司CEO靳玉志近日接受采访时再次强调，引望始终坚持“电子螺丝钉”的战略定位，不和整车造车产生冲突，帮助车企造好车、卖好车，使华为乾崑真正成为汽车行业智能化的公共平台。 靳玉志自1998年加入华为，从波分领域工程师一路晋升为光产品线总裁，2023年担任华为智能汽车解决方案BU CEO，主导华为乾崑的研发，以及与车企的合作。 “互补而非竞争”，这是华为乾崑首次回应“界”与“境”之间的关系，两者都是建立在华为乾崑公共技术底座上的全栈样板点。 在华为内部，很早就达成了共识：鸿蒙...",
+      "lang": "zh"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/graft-ai",
-      "title": "Graft AI",
-      "url": "https://www.producthunt.com/products/graft-ai",
+      "id": "rss:https://36kr.com/p/3903396279125888?f=rss",
+      "title": "在WAIC地下一层找机会的年轻人：光鲜是过去，眼下是生存",
+      "url": "https://36kr.com/p/3903396279125888?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Yashas Gunderia",
-        "feed_title": "Product Hunt — The best new products, every day"
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T17:24:23+00:00",
-      "summary": "Turn company operations into a living map for agents Discussion | Link",
-      "lang": "en"
+      "published_at": "2026-07-20T03:02:32+00:00",
+      "summary": "6个年轻创业者在WAIC的故事 文｜温丽虹 王欣逸 编辑｜张雨忻 在上海世博的WAIC现场，想找初创公司的主场H4得颇费一番功夫。 经安检进入主会场，远远只看到会场墙壁上H1到H3的标识。跟随汹涌人群挤进一楼主展馆，几名忙着操纵具身智能机器人的知名厂商工程师翻了翻他们群聊里的展会地图，抱歉地告诉我，他们也不清楚：“这里只有H1到H3，没有H4。你是不是去分会场找找？” 属于初创团队的场地在主展馆地下一层偏居一隅，一道亮黄色的大门默不作声地支在场馆西北侧的角落。穿过这道大门，就是遍布初创公司的一方天地。 来之前，我们知道并非所有的AI创业者与科创公司都对参加WAIC怀抱热情。但对于手握产品与创业理想，又欠缺助力的初创团队来说，参与这次展会是一件有点“不得不去”的事情。 你能轻易辨认出那些为这个机会拼尽全力的人。他们中的一些人，手中用于演示的样机还贴着临时修补的胶带，但站在那里时，目光总在捕捉每一个放慢脚步的观众。一天下来，他们所做的，就是把产品的逻辑和未来的愿景一遍遍说给人听。 也有些人，连展位的方寸之地都无法拥有。他们穿梭在展馆的人流里，胸前挂着的参会证可能是整个团队团队唯一的入场凭证...",
+      "lang": "zh"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/resonantgenesis",
-      "title": "DevSwat AST- visualizer with analyzer",
-      "url": "https://www.producthunt.com/products/resonantgenesis",
+      "id": "rss:https://36kr.com/p/3903383663478403?f=rss",
+      "title": "谁还在卷参数？WAIC2026全是能干活的实体AI！",
+      "url": "https://36kr.com/p/3903383663478403?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Liubov Nemesh",
-        "feed_title": "Product Hunt — The best new products, every day"
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T17:33:34+00:00",
-      "summary": "Turn codebases into interactive maps, graphs, and governance Discussion | Link",
-      "lang": "en"
+      "published_at": "2026-07-20T02:49:41+00:00",
+      "summary": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;7月17日-20日，一起在WAIC2026现场，看见人工智能真正进入产业深处。 过去一年，围绕AI行业的讨论正在变得更具体。大模型能力仍在持续迭代，但外界关注的重点，已经不再只停留在模型参数、模型发布和单点能力展示上。随着智能体、具身智能、空间智能、AI基础设施等方向不断演进，行业开始更频繁地追问：AI如何进入真实流程，如何完成复杂任务，又如何在产业场景中形成可持续价值。 这种变化背后，是AI竞争维度的继续扩展：模型能力仍是基础，但企业真正要面对的，已经包括数据质量、工程系统、场景理解、交付能力和商业闭环等更复杂的问题。智能体需要从工具调用走向任务协同，机器人需要在真实场景中完成稳定作业，AI视频和空间智能正在改变内容生产与三维世界理解，算力、连接和云服务也在支撑更大规模的应用落地。模型能力仍是起点，但不再是全部答案。 这也让今年的WAIC有了更清晰的观察价值：当AI从技术热词变成产业变量，真正值得追问的，不再只是“它有多强”，而是“它如何被使用、如何被交付、如何形成新的商业秩...",
+      "lang": "zh"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/inbix",
-      "title": "Inbix",
-      "url": "https://www.producthunt.com/products/inbix",
+      "id": "rss:https://36kr.com/p/3903365398185857?f=rss",
+      "title": "从“连得上”到“算得懂”，天基通算融合初创公司押注无人系统，首轮融资数千万元｜36氪首发",
+      "url": "https://36kr.com/p/3903365398185857?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Sandi Andrian",
-        "feed_title": "Product Hunt — The best new products, every day"
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T15:17:54+00:00",
-      "summary": "Cloudflare-native Email Infrastructure for Developers Discussion | Link",
-      "lang": "en"
+      "published_at": "2026-07-20T02:30:06+00:00",
+      "summary": "文&nbsp;|&nbsp;阿至 封面来源｜Pexels 中国低轨卫星星座的规模化部署已经进入关键时间窗口。 一组直观的数据进展是：中国星网已完成第一代组网，垣信卫星在轨运行卫星数量突破200颗，长征十号乙型火箭成功完成全球首次海上网系回收，头部商业公司的可回收火箭也将迎来关键首飞节点。 当“上天”这件事的成本有望迅速下降，产业链的注意力也在从“怎么把卫星打上去”转向一个更务实的问题：卫星组网之后，要给谁用、怎么用？ 这个问题目前还没有标准答案，但市场上不乏想要给出解法的玩家。 一家成立不到半年、聚焦“无人系统通算融合”的初创企业「星联天枢」，近日正式宣布完成数千万元天使轮融资，这也是星联天枢完成的首轮融资。 简单来说，星联天枢的核心业务是让无人机、无人车、无人船等无人系统，通过一套极轻的卫星通信终端直连卫星，并将采集到的数据在卫星上完成AI处理与决策，再把结果回传地面——这套“地数天算”的模式，不是单纯的卖设备，而是要把通信和算力打包，面向无人系统提供通算一体的服务解决方案。 这也是一个信号。它意味着，在中国低轨星座从试验验证走向规模化商用的过渡期里，产业链条上的创业者们已经开始深入...",
+      "lang": "zh"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/nitrosend",
-      "title": "Nitrosend",
-      "url": "https://www.producthunt.com/products/nitrosend",
+      "id": "rss:https://36kr.com/p/3901396207584902?f=rss",
+      "title": "腾讯云ADP 4.0海外版发布，要把企业级智能体带到全球市场 | 最前线",
+      "url": "https://36kr.com/p/3901396207584902?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "George H.",
-        "feed_title": "Product Hunt — The best new products, every day"
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-15T01:41:49+00:00",
-      "summary": "Email for AI agents. They sign up, send and reply. Discussion | Link",
-      "lang": "en"
+      "published_at": "2026-07-20T01:30:27+00:00",
+      "summary": "腾讯云的企业级智能体平台，正式出海了。 7月18日，在2026世界人工智能大会上，腾讯云正式发布了智能体开发平台 ADP 4.0海外版，同步升级智能工作台、Claw 模式、Skill 广场三大核心模块，围绕触达、交互、生态、连接四大能力做了全面国际化适配。 ADP 的全称是 Agent Development Platform，定位为企业级 AgentOps 平台，覆盖智能体的构建、分发和治理全生命周期。 简单来说，它解决的是企业智能体从建立、运行到管理的问题。 智能体开发平台 ADP 4.0海外版 这次企业级智能体海外版的核心升级集中在四个方面：一是渠道，Claw 应用支持 LINE、Telegram 等主流海外社交渠道，一站发布即可跨区域触达全球用户； 而在交互体验上，智能工作台支持自定义时区与多区域调度，模型输出可跟随用户输入语言自动响应； 在开放生态上，模型广场已经接入多家国际主流大模型，平台 Skill 完成国际化适配；并且，平台深度接入 Google Workspace、Confluence、Jira 等海外主流 SaaS 应用。 ADP 4.0的一个关键能力升级是 Age...",
+      "lang": "zh"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/paradigm-3",
-      "title": "Paradigm",
-      "url": "https://www.producthunt.com/products/paradigm-3",
+      "id": "rss:https://36kr.com/p/3902007640459145?f=rss",
+      "title": "从烤披萨到拿快递，满场跑的机器人终于要进你家了｜WAIC 2026全面探展",
+      "url": "https://36kr.com/p/3902007640459145?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Justin Jincaid",
-        "feed_title": "Product Hunt — The best new products, every day"
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-18T02:09:41+00:00",
-      "summary": "Turn any goal into a personalized, adaptive learning path. Discussion | Link",
-      "lang": "en"
+      "published_at": "2026-07-20T01:20:44+00:00",
+      "summary": "史上最热的WAIC都整了哪些活？看这一篇就够了。 文｜邓咏仪 周鑫雨 王欣逸 温丽虹 编辑｜张雨忻 如果你想知道今年的AI圈第一盛事热度如何，只要来上海感受逼近40度的高温，就能同频共振。 没有很热，只有更热。 7月17日，2026年世界人工智能大会在上海世博展览馆正式开幕。展览面积首次突破10万平方米，1100余家企业参展，3000余项展品集中亮相，超300款产品全球首发。从展商数量来看，和2023年400家、2025年800家相比——两年翻了一倍还多。 从网传的消息来看，本届WAIC门票售罄的日子比以往也要更早——原价168元的单日票已经被黄牛炒到近十倍价格，三天通票则被炒到3000元。 论坛阵容同样也比此前要更豪华。9位图灵奖、诺贝尔奖得主出席本届WAIC大会，强化学习之父理查德·萨顿、深度学习三巨头之一约书亚·本吉奥悉数到场。 继2023年的数十款大模型竞相争抢风头，2024年应用井喷，2025年的具身爆发，2026年的WAIC可以说真正做到全面开花——展品的多样性远胜以往，超过108款芯片、261款大模型、208款具身智能终端，都在这次展会中亮相。 如果说以前WAIC还在追问...",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/p/3899612612494976?f=rss",
+      "title": "红熊AI完成数亿元A+轮融资，基于AI“记忆科学”从To B服务延伸至To C应用｜36氪首发",
+      "url": "https://36kr.com/p/3899612612494976?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-20T01:00:00+00:00",
+      "summary": "36氪获悉，红熊AI今日宣布完成数亿元人民币A+轮融资，投后估值接近30亿元人民币。本轮融资由浙江九纬私募基金、嘉兴彰元创业投资与老股东格睿丰联合投资。这是红熊AI在短短15个月内完成的第6轮融资。 据了解，本轮融资资金将主要用于持续深化AI记忆科学的类人大脑基础研究、加速OpenBear通用大模型与MemoryBear记忆科学系统的深度融合，以及扩大智能客服、智能营销、ChatBI与智能教育四大核心应用场景的市场覆盖。 在经历了大模型参数量与算力的早期竞赛后，行业正逐步步入“以应用论英雄”的商业化深水区。目前，围绕大模型“记忆层（Memory）”这一维度的技术成为重要的攻坚点。 今年融资事件频发，并明显呈加速状态：由在Anthropic负责Claude预训练工作的Andrej Karpathy等参与投资、估值达6亿美元的13人团队Engram已公开亮相；定位于连接个人数据与智能体生态记忆层的Clipto，已获红杉中国、高瓴创投等多轮追投；国内完成近亿元天使轮融资、专注于开发开源记忆操作系统MemOS的“记忆张量”，以及在2026年春季相继完成种子轮与种子+轮、两轮累计融资金额超1亿元...",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/p/3903220264404608?f=rss",
+      "title": "8点1氪丨长鑫科技中签号出炉：共约770.22万个；西班牙1-0战胜阿根廷，夺得本届世界杯冠军；月之暗面有望最快6个月内赴港上市",
+      "url": "https://36kr.com/p/3903220264404608?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-20T00:05:13+00:00",
+      "summary": "今日热点导览 任泽平团队回应VIP群聊解散 市场监管总局发布《个体工商户信用信息应用指南》 “工业维生素”价格暴涨，钼铁一天跳涨1500元 黄仁勋皮夹克拍出96万美元天价 韩国承诺放宽韩元获取渠道，力争实现“自由兑换货币”目标 TOP3大新闻 长鑫科技中签号出炉：共约770.22万个 36氪获悉，长鑫科技披露首次公开发行股票网上中签结果，中签号码共有7702207个，每个中签号码只能认购500股长鑫科技A股股票。 长鑫科技中签号出炉 西班牙队1-0战胜阿根廷队，夺得本届世界杯冠军 北京时间7月20日，2026美加墨世界杯迎来终极对决。比赛常规时间，西班牙与阿根廷0-0战平。加时赛阶段，西班牙凭借费兰·托雷斯的进球，最终1-0战胜阿根廷，夺得本届世界杯冠军。这也是西班牙时隔16年再度登顶。 上半场比赛，双方0-0战平，阿根廷0射门，西班牙3脚射门2次射正。全场补时阶段，阿根廷队球员费尔南德斯收到本场比赛个人第二张黄牌，两黄变一红被罚下。常规时间结束，双方均未取得进球，比赛进入加时赛阶段。加时赛上半场，西班牙前场连线破门，犯规在先被判无效。第106分钟，西班牙队球员费兰·托雷斯劲射破门。最...",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://36kr.com/p/3902428274427525?f=rss",
+      "title": "科氪 | 从生命预警到七诊合参，安顿“双核首发”的技术密码",
+      "url": "https://36kr.com/p/3902428274427525?f=rss",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://36kr.com/feed",
+        "name": "36氪",
+        "feed_title": "36氪"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T10:35:30+00:00",
+      "summary": "在2026世界人工智能大会（WAIC 2026）上，安顿健康以两项首发引发广泛关注：我国首个生命预警表标准，以及行业首个七诊合参中医机器人——安顿中医机器人。 WAIC现场图片 两项首发背后，是一套从感知层到算法层再到输出层的完整技术体系。 核心引擎：天回·AI脉诊算法与三重置信体系 安顿双核首发的技术底座，是一套名为\"天回·AI脉诊算法\"的自研核心技术。该算法首次将中医24种脉象细分为120余个可量化的特征点，实现了中医脉诊从经验判断到数据驱动的范式转换。 算法之上，安顿构建了三重置信体系：天回中医药大模型、西医临床诊断模型、以及个人专属健康模型协同评估。 在数据监测端，安顿生命预警表以每日2000组高频监测心率、血压、血氧、ECG心电、体温等深层生理信号，可对心梗、脑卒中、肿瘤等重大风险实现提前1至7天的发现与预警，真正做到主动健康管理。 &nbsp; 七诊合参与三大首创 安顿中医机器人的七诊合参体系，是安顿在本届WAIC上最受关注的技术亮点。传统中医\"望闻问切\"被拓展为七个维度的同步采集与融合分析： AI面诊：高清视觉摄像头完成面部气色与形态的数字化采集。 红外面诊（首创）：基于...",
+      "lang": "zh"
     },
     {
       "id": "rss:https://36kr.com/p/3900449325287305?f=rss",
@@ -1577,9 +1730,9 @@
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3900439867147909?f=rss",
-      "title": "印奇在 WAIC 2026 开幕式主论坛发表主题演讲：当智能体走进物理世界",
-      "url": "https://36kr.com/p/3900439867147909?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903594720396932?f=rss",
+      "title": "源杰科技盘中触及20CM跌停",
+      "url": "https://36kr.com/newsflashes/3903594720396932?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1589,14 +1742,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-18T00:53:35+00:00",
-      "summary": "2026 世界人工智能大会（WAIC 2026）于 7 月 17 日正式开幕。作为全球人工智能领域的顶级盛会，本届大会以“智能伙伴 共创未来”为主题。阶跃星辰董事长、千里科技董事长印奇作为特邀嘉宾出席大会开幕式并在大会主论坛（上午场）发表主题演讲《当智能体进入物理世界》。回顾 15 年 AI 创业历程，他表示，AI 创业已从小众赛道成为全球重要共识。今天的 AI 研究者和创业者既站在几代科学家持续探索的肩膀上，也受益于信息技术、移动互联网、云计算、半导体、新能源等产业积累，能够参与这场时代变革无比幸运。 印奇判断，2026 年模型能力正在跨越关键临界点，AI 已从只能连续执行数秒任务，进阶到能够独立工作数十小时，行业正站在 AGI 高峰的山脚下。继自然语言之后，编程正成为衡量 AI 能力跃迁的重要标尺。随着智能体模型与下一代终端产品加速结合，智能正从数字屏幕走向真实物理世界，智能体也将从聊天工具进化为能够感知、决策和执行任务的生产力最小单元。未来，工程师、设计师、研究员等都能拥有专属智能体，使一个人具备一支团队的能力。 印奇指出，智能体浪潮将推动新系统、新载体、新网络三大结构性变革。在...",
+      "published_at": "2026-07-20T06:21:53+00:00",
+      "summary": "36氪获悉，源杰科技盘中触及20CM跌停，报1324.80元。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3896564485572489?f=rss",
-      "title": "氪星晚报｜阿里1688将推出AI时代B2B交易互联互通开放标准；英特尔与Google Cloud宣布深化战略合作；铁路部门试点提前60天预约购票服务",
-      "url": "https://36kr.com/p/3896564485572489?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903591202162562?f=rss",
+      "title": "报告：腾讯WorkBuddy在国内PC端AI原生办公智能体市场6月单月访问量破2000万",
+      "url": "https://36kr.com/newsflashes/3903591202162562?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1606,14 +1759,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-17T13:01:42+00:00",
-      "summary": "大公司： 成大生物：流感病毒裂解疫苗（高剂量）进入I期临床试验 36氪获悉，成大生物公告，公司全资子公司成大生物(本溪)研发的流感病毒裂解疫苗（高剂量）已获国家药监局临床试验批准，并完成I期临床试验筹备工作，正式进入I期临床试验阶段。该疫苗抗原含量为常规剂量四倍，适用于60岁以上老年人群及高风险人群，国内尚无同类产品获批上市，有望填补市场空白。 苏宁易购携手人工智能合作伙伴，布局家用服务机器人 36氪获悉，近日，苏宁易购旗下碧英科技入围工信部人工智能揭榜挂帅项目，将联合产业生态合作伙伴研发智能家庭陪护机器人。该项目面向老龄化背景下的居家照护需求，结合具身智能技术，探索家用机器人商业化路径。 阿里1688将推出AI时代B2B交易互联互通开放标准 7月17日，在2026世界人工智能大会上，阿里1688宣布将在本月底推出UTP通用交易协议（UniversalTradeProtocol，简称“UTP”）。随着AI越来越会做生意，B2B正在演变为A2A——买家的AI直接对接工厂的AI自动完成交易，但不同AI之间缺一套行业通用交易协议。UTP相当于为A2A时代的全球贸易建立统一的交易基础设施。UT...",
+      "published_at": "2026-07-20T06:18:18+00:00",
+      "summary": "7月20日，最新发布的《2026年Q2中国办公智能体平台市场洞察报告》显示：腾讯WorkBuddy在国内PC端AI原生办公智能体市场6月单月访问量破2000万，保持市场第一领先优势。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3899556701128578?f=rss",
-      "title": "对话森博科技董事长于林义：AI应用拼的不只是技术，更是实证有效的业务闭环",
-      "url": "https://36kr.com/p/3899556701128578?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903585520371588?f=rss",
+      "title": "中信建投：Kimi K3模型达全球Tier1，国产模型再现DeepSeek时刻",
+      "url": "https://36kr.com/newsflashes/3903585520371588?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1623,14 +1776,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-17T10:51:22+00:00",
-      "summary": "7月17日，2026世界人工智能大会在上海开场。作为36氪连续第三年深入WAIC现场的重要内容窗口，「氪话未来」直播间也在大会首日同步开启现场对话。森博科技董事长于林义在WAIC现场接受36氪「氪话未来」特邀专访，围绕企业级AI、智能体落地、行业know-how与业务闭环等话题，分享了森博从营销服务公司转向AI驱动科技服务公司的实践路径。 本届WAIC以“智能伙伴，共创未来”为主题。相比过去几年行业对模型能力、参数规模和Demo效果的集中关注，2026年的AI产业讨论正在明显后移：企业更关心AI能否进入真实流程，能否承担具体任务，能否被业务结果验证。换句话说，AI不再只是一个“会回答”的工具，而是要成为能够协同人类、嵌入组织、创造ROI的业务伙伴。 这也让企业级Agent的落地逻辑变得更清晰。通用模型能力已经足够强，但进入企业现场后，真正决定应用效果的，往往不是模型本身，而是业务上下文、行业方法论、流程拆解能力和可验证的结果反馈。森博科技的观察正落在这一点上：企业级AI的胜负手，不在“技术找场景”，而在“场景炼技术”。 &nbsp; 以下为对谈实录，经36氪编辑： 36kr：今年 WA...",
+      "published_at": "2026-07-20T06:12:32+00:00",
+      "summary": "36氪获悉，中信建投研报指出，坚定看好AI产业趋势。我们认为，K3是本周全球大模型行业的分水岭事件，也是另一个DeepSeek时刻：K3的发布意味着中国大模型第一次以“竞争威胁”身份进入全球大模型叙事——2.8万亿参数 + 100万上下文+Code Arena登顶，证明国产模型已在Agentic Coding主战场与美国前沿模型正面交锋。其他建议重点关注应用层机会：1）K3提升了开源模型智能水平，应用层使用tier1模型的门槛、成本预计均将降低，利好后续应用场景进一步打开；2）头部和第二梯队模型厂商的竞争均较为激烈，竞争维度已经从模型能力延伸至价格、产品力、场景拓展、成本优化等，我们认为利好应用层。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3899597215745664?f=rss",
-      "title": "2026最受投资人关注人工智能/具身智能企业50揭晓",
-      "url": "https://36kr.com/p/3899597215745664?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903580278785669?f=rss",
+      "title": "波音预计未来20年全球民航服务市场规模达4.9万亿美元",
+      "url": "https://36kr.com/newsflashes/3903580278785669?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1640,14 +1793,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-17T10:45:58+00:00",
-      "summary": "&nbsp; 人工智能正在进入一个新的产业周期。 过去一年，大模型能力持续演进，生成式AI、多模态交互、智能体等技术方向快速推进；而具身智能也从早期的技术探索阶段，逐渐步入产业验证的深水区，机器人开始成为人工智能与现实世界的重要载体。 市场率先给出了回应。据36氪研究院测算，中国具身智能市场规模已从2018年的2133亿元增长至2025年的9150亿元，2026年有望突破万亿关口。IT桔子数据显示，2026上半年具身智能融资总金额达到935亿元，较2025上半年提升近5倍，投融资事件达到322起，同比增长137%。 但硬币的另一面同样刺眼。智源研究院在《2026十大AI技术趋势》中直言，具身智能创业公司业务模式同质化严重，普遍采用“通用开源大模型+运动控制”的组合在单一场景做优化。国家发改委近期也公开提醒，具身智能产业要着力防范重复度高的产品“扎堆”上市等风险。 一边是万亿市场、数百亿热钱涌入；一边是同质化严重、淘汰加速的行业预警。 2026年，人工智能正在经历一个重要的阶段切换，如何将技术转化为真实应用、商业价值和产业影响力，正在成为企业下一阶段发展的关键。 多年来，36氪持续关注人...",
+      "published_at": "2026-07-20T06:07:12+00:00",
+      "summary": "波音公司7月18日发布报告称，未来20年全球民航服务市场规模预计将达到4.9万亿美元，同时行业将需要新增超过240万名民航专业人员，以支持机队扩张和航空业发展。报告预计，到2045年前，全球民航业将需要新增约67.4万名飞行员、72.8万名维修技术人员和102.3万名客舱乘务人员。其中，约三分之二的人才需求用于替代退休人员，另外三分之一用于支持全球机队增长。（界面）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3899439565325953?f=rss",
-      "title": "最前线｜中科天塔星载激光通信终端智能产线投产，一期年产能规划600套",
-      "url": "https://36kr.com/p/3899439565325953?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903572084164482?f=rss",
+      "title": "广发证券刘晨明：近期市场调整主要受外部输入性因素影响",
+      "url": "https://36kr.com/newsflashes/3903572084164482?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1657,14 +1810,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-17T07:55:26+00:00",
-      "summary": "随着低轨卫星星座建设提速，卫星之间需要传输的数据量持续增长，星间激光通信正成为卫星互联网的重要基础设施。相比传统微波通信，激光通信具备更高带宽、更低时延以及更强抗干扰能力，已成为大型卫星星座组网的重要技术方向。 7月16日，中科天塔星载激光通信智能产线正式在西安投产，一期规划年产能600套，公司计划到2027年将年产能提升至千套以上。 据中科天塔总经理曾伟刚介绍，此次投产的智能产线占地约2000平方米，位于西安高新区曲率引擎光子制造园，覆盖零部件装调、整机集成、精密调试、空间环境模拟及自动化检测等生产环节，并配套数字化管理系统和自动化测试平台，可同步完成多台设备性能检测，并通过智能系统辅助进行产品状态监测和故障识别。 按照规划，量产的星载激光通信终端通信速率覆盖5Gbps至100Gbps，具备体积小、功耗低、抗干扰能力强等特点，可适配不同类型低轨卫星星座。 激光通信终端产品光机装配生产车间现场 据了解，中科天塔的技术来源于中国科学院西安光学精密机械研究所（以下简称\"西安光机所\"）二十余年的空间激光通信研究积累。 西安光机所自2004年开始布局空间激光通信技术，围绕星间高速光通信、弱光接...",
+      "published_at": "2026-07-20T05:58:52+00:00",
+      "summary": "广发证券策略首席分析师刘晨明表示，近期A股回调主要源于外部输入性因素，属于情绪面和资金面冲击，核心定价因素是内外的流动性冲击，而非国内基本面或产业趋势发生变化。刘晨明指出，调整触发因素主要有三方面：海外杠杆资金冲击，韩国等市场杠杆资金快速去化带来的恐慌情绪通过风险偏好传导；重要节点预期过于一致后引发短期踩踏；地缘冲突与油价反复叠加通胀担忧升温。这些因素均属短期扰动。刘晨明认为，当前A股以国内基本面为锚，外资持股占比基本稳定，外部冲击已较为充分，继续大幅下行空间有限。（证券时报）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3899428949132932?f=rss",
-      "title": "我们有多久，没长久地喜欢过一个东西了？",
-      "url": "https://36kr.com/p/3899428949132932?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903568287434630?f=rss",
+      "title": "三星电子晶圆代工正评估将美国泰勒厂的初期生产规模扩大至原计划的2倍",
+      "url": "https://36kr.com/newsflashes/3903568287434630?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1674,14 +1827,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-17T07:46:38+00:00",
-      "summary": "我们有多久没有长久地喜欢过一个东西了？ 在这个注意力被成倍压缩、审美红利稍纵即逝的快消时代，新鲜感的贬值速度快得惊人。换一部手机，追一个新坑，或者刷完几个短视频，我们的注意力就被迅速瓜分干净，连喜爱都变得行色匆匆。 但在这个热闹又健忘的环境里，却存在着反常的例外——一个不说话，甚至从不微笑的潮流手办，竟然被人们安静地喜爱了整整二十年。 &nbsp; 为什么不同年龄、不同背景的人，都愿意和她建立情感链接？为什么每个人眼里的她，好像都不太一样，却又都觉得她始终陪伴着自己？ 带着这些疑问，我们一起重新回看MOLLY这个潮流手办的20年。 不被定义的“不讨好” 北京798的展厅里，人比想象中还要多。 仔细观察看展人潮，你会发现他们来自不同的世界：有60多岁的奶奶，牛仔裤、白T恤，看起来特别潮流，她已经喜欢MOLLY十多年了。走进展厅后，她最感兴趣的是MOLLY与不同领域艺术家的合作作品。看到非遗蜀绣版MOLLY时，她跟着讲解员一起寻找MOLLY脸上的那颗痣；看到展厅中作为装饰摆放的陶瓷MOLLY，又忍不住对导览人员感叹：“这个好看！做成周边费了不少料！” 在她眼里，这个嘴唇抿得紧紧的小女孩，不...",
+      "published_at": "2026-07-20T05:55:00+00:00",
+      "summary": "据报道，三星电子晶圆代工正评估将美国泰勒厂的初期生产规模扩大至原计划的2倍。（财联社）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3899398088509319?f=rss",
-      "title": "科氪 | 中国联通携华为发布全球最大规模 5G-A百兆大上行网络",
-      "url": "https://36kr.com/p/3899398088509319?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903560826832520?f=rss",
+      "title": "广州小马智卡科技公司增资至2亿，增幅25%",
+      "url": "https://36kr.com/newsflashes/3903560826832520?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1691,14 +1844,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-17T07:13:05+00:00",
-      "summary": "[中国，北京，2026年7月15日]今日，中国联通北京市分公司携华为发布全球最大规模5G-A大上行商用网络。该创新网络在北京全域重点区域实现百兆大上行网络连续覆盖，基站数超10000。经现场路测，七家受邀第三方媒体作为体验官共同见证了该网络“网络覆盖好，业务体验稳”——上行100MHz生效比83%、上行边缘差点（&lt;20Mbps）占比仅0.1%。优异的现网测评结果标志着联通好网络在北京区域已经从5G-A全城点亮迈向全域大上行的发展新阶段。 “5G Capital”路上见媒体路测 在现场路测中，中国联通北京市分公司通过3.5G+2.1G协同组网支撑了大上行网络指标测评和AI终端业务体验。长达34公里的测试路线中，上行100MHz生效比83%、上行峰值速率1Gbps、上行平均速率397Mbps、上行极致体验（&gt;300Mbps）占比72%、上行边缘差点（&lt;20Mbps）占比仅0.1%。优异的上行网络指标表现，完全支撑了车载移动场景下AI眼镜毫秒级回传、无感交互，AI手机流畅与Agent交互，AI智能相机实时回传至云端进行AI分析与内容生成、拍摄即上传等应用的流畅体验。 中国联...",
+      "published_at": "2026-07-20T05:47:24+00:00",
+      "summary": "36氪获悉，天眼查App显示，近日，广州小马智卡科技有限公司发生工商变更，注册资本由1.6亿人民币增至2亿人民币，增幅25%。该公司成立于2020年12月，法定代表人为贺星，经营范围包括软件外包服务、软件开发、人工智能硬件销售等，由北京小马慧行���技有限公司全资持股。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3898476192941697?f=rss",
-      "title": "震业新材完成超亿元A轮融资，招商致远、玉柴股份、海富产业基金领投｜36氪首发",
-      "url": "https://36kr.com/p/3898476192941697?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903551836096128?f=rss",
+      "title": "泰国拟推出个人投资账户，鼓励居民长期投资",
+      "url": "https://36kr.com/newsflashes/3903551836096128?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1708,14 +1861,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-17T05:41:21+00:00",
-      "summary": "36氪获悉，ADI金属材料企业震业新材近期完成超亿元A轮融资。 本轮融资由招商致远资本、玉柴股份、海富产业基金领投，中金资本、江苏省沿海集团、黄海金控跟投，所融资金将主要用于ADI材料产线扩建、核心工艺迭代研发，以及乘用车、商用车、工程机械等下游场景的商业化落地。 震业新材告诉36氪：“在ADI行业，1200MPa抗拉强度、4%延伸率是行业通用性能标准。延伸率达到5%~6%以上，才算真正意义的高韧性结构材料，这也是行业关键技术分水岭，高强韧性可满足齿轮、底盘、重载传动等核心安全件的抗冲击、抗疲劳、不断裂要求。” 而行业主流厂商的技术水平，普遍停留在QTD 900-8（900MPa抗拉强度、8%延伸率）、QTD1200-3（1200MPa抗拉强度、3%延伸率）QTD 1400-1（1400MPa抗拉强度、1%延伸率）、QTD 1600-1（1600MPa抗拉强度、1%延伸率），也就是说，高强度下延伸率极低，无法适配高端重载、精密齿轮核心工况。 “ 震业新材在2024年实现关键技术突破，具备了量产 QTD 1200-10（1200MPa抗拉强度、10%延伸率）、QTD 1400-7（140...",
+      "published_at": "2026-07-20T05:38:16+00:00",
+      "summary": "7月20日，泰国证券交易委员会表示，泰国计划于今年推出一项新的个人储蓄投资账户制度，并提供税收优惠，以鼓励居民长期投资股票、债券和共同基金，同时增强退休储蓄能力。根据初步方案，个人每年投资至少60万泰铢（约1.78万美元）可获得税收优惠，以推动家庭将更多储蓄转化为长期金融资产。此外，泰国政府还在考虑推出儿童投资账户，为儿童投资收益提供税收减免。拟议方案下，父母可在子女20岁前每年为其投资最多20万泰铢。（界面）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/p/3899128277452681?f=rss",
-      "title": "36氪首发 | 港科大博士创业做机器人全身触觉系统，红杉、瓴智、智元共同押注",
-      "url": "https://36kr.com/p/3899128277452681?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903548418049673?f=rss",
+      "title": "中国诚通等在南京成立新合伙企业，出资额约1.1亿",
+      "url": "https://36kr.com/newsflashes/3903548418049673?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1725,14 +1878,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-17T02:39:17+00:00",
-      "summary": "作者&nbsp;|&nbsp;乔钰杰 编辑&nbsp;|&nbsp;袁斯来 硬氪获悉，全身多模态融合触觉解决方案公司模感科技（MoSense）近日完成数千万元天使轮融资，投资方包括红杉中国、高瓴创投及智元机器人。本轮融资资金将主要用于加速研发、团队扩充、算力投入及量产测试体系建设。 模感科技成立于2026年5月，总部注册于上海，在深圳前海设有研发中心，聚焦机器人全身多模态触觉感知系统研发。公司正式成立仅一个月便获得头部美元基金及人形厂商的共同押注。 随着人形机器人逐步从展示场景走向工业制造、物流搬运及家庭服务等真实复杂人物场景，机器人对环境的全面泛化感知能力正成为制约落地的重要瓶颈。相比视觉能够获取环境信息，触觉负责感知接触、受力、摩擦等物理交互状态，是机器人完成稳定操作和自主决策的重要基础。 不过，目前行业中的触觉方案大多集中部署于灵巧手或夹爪指尖指腹等局部位置，仅能应对局部精细操作需求。在复杂场景下，机器人身体其他部位仍然缺乏触觉反馈，难以形成完整的物理交互能力。同时，多种传统技术路线还受到成本、面积覆盖和感知模态等因素限制，难以实现大面积、连续曲面的规模化部署。 为增强机器人的全...",
+      "published_at": "2026-07-20T05:34:47+00:00",
+      "summary": "36氪获悉，天眼查App显示，近日，南京诚之材股权投资合伙企业（有限合伙）成立，执行事务合伙人为上海诚之鑫企业咨询有限责任公司，出资额约1.1亿人民币，经营范围为股权投资、以自有资金从事投资活动。合伙人信息显示，该合伙企业由中国国有企业混合所有制改革基金有限公司、诚通科创投资基金（北京）合伙企业（有限合伙）等共同出资。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3902154707568265?f=rss",
-      "title": "2026年度总票房破200亿",
-      "url": "https://36kr.com/newsflashes/3902154707568265?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903544335550085?f=rss",
+      "title": "韩国今年人均GDP有望达3.9万美元，增幅7.6%",
+      "url": "https://36kr.com/newsflashes/3903544335550085?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1742,14 +1895,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T05:57:02+00:00",
-      "summary": "据网络平台数据，截至7月19日，2026年度大盘票房(含预售)突破200亿，《飞驰人生3》《给阿嫲的情书》《镖人：风起大漠》暂列票房榜前三。",
+      "published_at": "2026-07-20T05:30:38+00:00",
+      "summary": "得益于半导体旺季推动出口增加，韩国今年人均GDP有望大幅提升。综合韩国财政经济部、韩国银行和国家数据处19日的数据，今年韩国人均GDP有望达到3.9164万美元，同比增加2750美元，增幅为7.6%，增幅为2021年（11.5%）以来近5年之最。若韩元对美元年平均汇率低于1456.1韩元，届时韩国人均GDP有望迈入“4万美元时代”。（财联社）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3902093496813441?f=rss",
-      "title": "一目科技完成超10亿元E轮融资 估值过百亿元",
-      "url": "https://36kr.com/newsflashes/3902093496813441?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903543147103881?f=rss",
+      "title": "印度央行计划试点发行塑料钞票",
+      "url": "https://36kr.com/newsflashes/3903543147103881?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1759,14 +1912,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T05:15:39+00:00",
-      "summary": "36氪获悉，7月18日晚间，一目科技宣布完成超10亿元E轮融资，估值突破100亿元。据悉，本轮融资由多家一线人民币基金、头部美元基金和知名产业方联合参与，所融资金将用于具身智能触觉感知材料、芯片、算法和模型的研发，以及产线订单的规模化量产和高质量交付。",
+      "published_at": "2026-07-20T05:29:25+00:00",
+      "summary": "印度多家媒体援引消息人士的话报道，印度储备银行，即印度央行计划试点阶段发行面额10卢比和20卢比的塑料钞票，如果试点顺利，或将进一步推广。印度央行下属的货币印制公司发布招标公告，为印制塑料钞票所需的特殊材料招标，投标截止日期为8��18日。由于流通频繁和气候因素，印度每年大量破损纸币被回收销毁。此外，印度市场上近年来大面额的假币增多，尤其是500卢比的伪钞，使用塑料钞票也有望提高防伪性能。（央视财经）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3902090005743493?f=rss",
-      "title": "“人工智能+防震减灾”行动方案发布",
-      "url": "https://36kr.com/newsflashes/3902090005743493?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903538833704834?f=rss",
+      "title": "马斯克称特斯拉FSD会模仿驾驶风格",
+      "url": "https://36kr.com/newsflashes/3903538833704834?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1776,14 +1929,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T05:00:07+00:00",
-      "summary": "7月19日，2026世界人工智能大会——地震人工智能论坛在上海召开。会议聚焦人工智能与防震减灾深度融合发展，集中展示了人工智能技术在防震减灾领域的最新科研成果和实际应用。中国地震局在论坛上发布《“人工智能+防震减灾”行动方案（2026—2028年）》。未来3年，将围绕地震智能监测处理系统、智能化地震预警技术研发与示范应用等九方面任务，构建起“数据—模型—平台—应用”四位一体的人工智能技术体系，进一步夯实数据基础、突破核心技术、打造“AI+地震”系列支撑平台。到2028年，实现人工智能技术对防震减灾业务的有效支撑，进一步巩固我国在防震减灾人工智能领域的先发优势。（央视新闻）",
+      "published_at": "2026-07-20T05:25:02+00:00",
+      "summary": "7月20日，埃隆·马斯克已确认特斯拉FSD（Full Self-Driving）软件正在从过去的“通用型、一套方案适用于所有用户”的驾驶系统，转变为真正的个性化驾驶系统。 近日，一名特斯拉FSD用户在X平台上抱怨，车辆经常会在不该离开的位置驶出高载客车道或快速车道，主动退出左侧高效车道后进入拥堵车流，而旁边最左侧车道上的车辆仍然畅通无阻，非常令人烦恼。 对此，马斯克回应称：“车辆将开始记住你具体的人工干预行为，并根据每个人的个人偏好进行调整。”（新浪财经）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3901996759729799?f=rss",
-      "title": "蚂蚁韩歆毅：没有企业专属数据，就没有企业专属智能",
-      "url": "https://36kr.com/newsflashes/3901996759729799?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903531939448453?f=rss",
+      "title": "黑石集团同意投资韩国机器人供应商Futronic",
+      "url": "https://36kr.com/newsflashes/3903531939448453?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1793,14 +1946,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T04:45:15+00:00",
-      "summary": "36氪获悉，7月19日，2026世界人工智能大会期间，蚂蚁集团首席执行官韩歆毅围绕企业AI如何从第一轮部署走向深度价值落地，分享了三点思考：企业AI的智能不止于知识累积，更在于经验沉淀；企业AI的更高价值，不止于个体提效，更在于组织进化；实现深度落地的路径，是打造“组织智能”。他表示，企业AI落地不能停留在工具提效层面，而要扎根产业场景，务实追求价值落地。",
+      "published_at": "2026-07-20T05:18:01+00:00",
+      "summary": "黑石集团7月20日宣布，旗下关联私募股权基金将对Futronic进行“重大投资”，Futronic是一家生产用于工业机器人和汽车行业的高精度执行器的韩国供应商。根据声明，Futronic创始人Jin-ho Ko将继续担任董事长兼首席执行官，并与黑石集团合作，加速公司全球发展。（界面）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3901995647321736?f=rss",
-      "title": "量子科技公司两仪万象完成A+轮融资",
-      "url": "https://36kr.com/newsflashes/3901995647321736?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903531051501446?f=rss",
+      "title": "三峡能源：控股股东拟以15亿元—30亿元增持公司股份",
+      "url": "https://36kr.com/newsflashes/3903531051501446?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1810,14 +1963,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T04:30:09+00:00",
-      "summary": "7月19日，两仪万象科技有限公司（以下简称“两仪万象”）宣布完成数亿元A+轮融资。4月初，该公司刚官宣了A轮融资。A+轮融资由君联资本领投。新增投资机构包括北京基石创投、上海科创基金、北洋海棠基金和中信建投投资，形成了由地方、财务和券商等多元化机构组成的投资矩阵。A轮的投资方顺为资本和科大讯飞再次加注。（每经网）",
+      "published_at": "2026-07-20T05:17:07+00:00",
+      "summary": "36氪获悉，三峡能源公告，控股股东中国长江三峡集团有限公司（简称“三峡集团”）计划在未来12个月内通过二级市场增持公司股份，包括集中竞价、大宗交易等交易方式，增持金额不低于15亿元、不高于30亿元,本次增持不设置固定价格区间，结合资本市场行情择机开展股票增持，资金来源为三峡集团自有资金或自筹资金。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3901994798466952?f=rss",
-      "title": "韩国财政部表示，将允许外国投资者交易更多以韩元计价的债券，并可从国内外汇银行借入韩元",
-      "url": "https://36kr.com/newsflashes/3901994798466952?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903528451311240?f=rss",
+      "title": "海南：“十五五”时期全省共谋划公路水路项目223个，总投资1363亿元",
+      "url": "https://36kr.com/newsflashes/3903528451311240?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1827,14 +1980,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T04:15:17+00:00",
-      "summary": "韩国财政部表示，将允许外国投资者交易更多以韩元计价的债券，并可从国内外汇银行借入韩元。（财联社）",
+      "published_at": "2026-07-20T05:14:28+00:00",
+      "summary": "记者从省交通运输厅获悉，《海南省“十五五”综合交通运输（公路水路）发展规划》（以下简称规划）日前已正式印发实施，切实推进人享其行、物畅其流，为海南自由贸易港建设���实交通根基。根据规划，“十五五”期间，全省共谋划公路水路项目223个，总投资1363亿元。其中，公路及枢纽项目130个，投资1030.9亿元；水路项目83个，投资312.9亿元；数字化转型项目10个，投资19.2亿元。（海南日报）",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3901993231550085?f=rss",
-      "title": "上海“星枢计划”首发星座发布",
-      "url": "https://36kr.com/newsflashes/3901993231550085?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903518606477188?f=rss",
+      "title": "中国软件国际：与月之暗面签署Token分成及联合创新合作协议",
+      "url": "https://36kr.com/newsflashes/3903518606477188?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1844,14 +1997,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T04:00:00+00:00",
-      "summary": "7月18日，在2026世界人工智能大会上，上海标志性太空数字基建工程“星枢计划”首发星座正式对外发布。仪式由WAIC组委会与复旦大学联合主办，作为上海重点布局的太空算力产业标杆项目，项目定位为上海市旗舰级太空算力星座工程，该星座由三颗卫星组成，核心是通过太空直接处理数据，减少对地面设备的依赖。（央视新闻）",
+      "published_at": "2026-07-20T05:04:28+00:00",
+      "summary": "36氪获悉，中国软件国际公告，近日，公司已与北京月之暗面科技有限公司（简称“月之暗面”）正式签署“登月计划”之Token分成及联合创新合作协议，是公司面向高专业价值Token运营商转型的关键战略举措。双方将围绕企业服务领域Agentic AI开展全方位深度合作，共同打通大模型商业化落地最后一公里。双方将共建FDE创新实验室，共同开展企业级Agent产品的定义、研发、交付、打磨、测试与持续迭代。首期合作将优先聚焦能源电力关键行业，围绕行业核心业务场景开展技术攻关与场景创新。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3901954555938437?f=rss",
-      "title": "HappyOyster 1.0来了，现已登陆百炼，开启灰测",
-      "url": "https://36kr.com/newsflashes/3901954555938437?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903508146407298?f=rss",
+      "title": "恒力石化：拟以2亿元—3亿元回购公司股份",
+      "url": "https://36kr.com/newsflashes/3903508146407298?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1861,14 +2014,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T03:45:21+00:00",
-      "summary": "7月19日，阿里云百炼正式上线可实时构建和交互的开放式世界模型产品HappyOyster 1.0（快乐生蚝1.0）。该模型深度学习物理世界状态转移规律，能主动推演从动作到反馈的因果链，并保持人物和环境的长程一致性。HappyOyster 1.0具备世界探索（Adventure）和实时导演（Directing）两大模式，用户输入一句话或一张图即可生成可互动、可探索的AI数字世界。目前已提供Android/iOS/Web三端SDK，在阿里云百炼开启灰测。（人民财讯）",
+      "published_at": "2026-07-20T04:53:49+00:00",
+      "summary": "36氪获悉，恒力石化公告，公司拟用自有资金或自筹资金通过集中竞价交易方式进行股份回购，用于员工持股计划或股权激励。回购金额2亿元（含）—3亿元（含），回购股份价格不超过25元/股（含）。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3901954083030918?f=rss",
-      "title": "百度一镜WAIC首发数字人视频播客，突破数字人微表情技术",
-      "url": "https://36kr.com/newsflashes/3901954083030918?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903492123739784?f=rss",
+      "title": "上汽集团：控股股东承诺6个月内不减持公司股份",
+      "url": "https://36kr.com/newsflashes/3903492123739784?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1878,14 +2031,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T03:30:53+00:00",
-      "summary": "36氪获悉，7月17日，WAIC世界人工智能大会上，百度一镜现场首发数字人视频播客解决方案，突破数字人微表情技术，呈现自然插话、专业影视视听语言能力。该方案解决了真人访谈成本高、传统数字人神态僵硬、多人对话割裂、模态拼接失真等行业痛点，将推动数字人在深度访谈类内容工业化量产。 技术层面，该方案构建三层底层壁垒：文心大模型对微表情的细粒度规划，不再局限单一情绪标签；自研数字人专精模型将表情控制粒度压缩至 1 秒内，精准同步眼神、肢体与语音；海量专业视听样本精细化训练，实现多模态深度统一，大幅提升数字人生成能力。 产品端依托编剧、导演、剪辑三大 AI 智能体及超80个skills，自动生成思辨访谈脚本，支持单人讲学、双人观点对谈，覆盖财经、法律、科技、人文全垂类。实测数据显示，该数字人播客解决方案使制作成本下降 74%，内容表现力提升 785%，平均播放时长上涨 29%，人物自然度全面超越市面主流模型。",
+      "published_at": "2026-07-20T04:37:31+00:00",
+      "summary": "36氪获悉，上汽集团公告，持股63.71%的控股股东上海汽车工业（集团）有限公司承诺自承诺函签署之日（7月20日）起6个月内，不以任何方式减持其持有的公司股份（包括因公司资本公积转增股本、派送股票红利等事项取得的新增股份）。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3901996167513985?f=rss",
-      "title": "蚂蚁数科WAIC发布“智能体超级工厂”，首批预置近200个岗位级数字专家",
-      "url": "https://36kr.com/newsflashes/3901996167513985?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903475106596482?f=rss",
+      "title": "同花顺：董事长提议实施2026年中期利润分配方案，拟10派2元",
+      "url": "https://36kr.com/newsflashes/3903475106596482?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1895,14 +2048,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T03:15:45+00:00",
-      "summary": "7月19日，在2026世界人工智能大会上，蚂蚁数科发布新一代企业 AI 解决方案——智能体超级工厂核心平台 Agentar 2.0。据悉，Agentar2.0首批预置近200个岗位级数字专家模板，并提供数百个可订阅的Skills级开箱可用的智能体工具。企业可以根据具体岗位和经营需求，快速启用具备专业知识、业务流程及工具调用能力的数字专家，无需从零起步。据IDC报告最新披露，在中国智能体开发平台私有化市场份额中，蚂蚁数科位列非云厂商第一，并位列2025年中国金融大模型、智能体应用及服务市场占有率第一。",
+      "published_at": "2026-07-20T04:30:11+00:00",
+      "summary": "36氪获悉，同花顺公告，公司董事长易峥提议实施2026年中期利润分配方案，提议以2026年半年度以公司2026年6月30日的总股本为基数向全体股东每10股派发现金2元（含税），共计派发现金1.51亿元（含税），不送红股，不以资本公积转增股本。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3901895756679047?f=rss",
-      "title": "中信证券与光谷金控签署框架合作协议",
-      "url": "https://36kr.com/newsflashes/3901895756679047?f=rss",
+      "id": "rss:https://36kr.com/newsflashes/3903464856520328?f=rss",
+      "title": "量坤科技携三大核心产品亮相WAIC 2026",
+      "url": "https://36kr.com/newsflashes/3903464856520328?f=rss",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1912,161 +2065,42 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T03:15:30+00:00",
-      "summary": "7月17日，中信证券与东湖高新区国有企业——光谷金控集团（简称“光谷金控”）签署框架合作协议。此次签约后，双方将聚焦光谷主导产业与新兴赛道，常态化开展优质项目筛选、落地培育、投资赋能等工作，共建企业全生命周期资本市场服务体系，协同开展境内外IPO、股权再融资、债券发行、并购重组、股权投资、产业基金设立等全品类资本市场业务，辐射服务上市后备企业、专精特新企业等各类经营主体，推动科创、产业、金融三类资源高效融合，助力光谷打造万亿级产业集群。（e公司）",
+      "published_at": "2026-07-20T04:20:44+00:00",
+      "summary": "36氪获悉，日前，2026世界人工智能大会（WAIC 2026）于上海正式开幕。量坤科技携旗下最新“量子×AI×HPC”异构智能计算平台登陆本届大会并主办“量超智融合论坛”。量坤科技创始人吕定顺博士于论坛期间发表“当量子计算遇见AI与HPC”主题演讲，并正式发布三款最新核心产品：国内首个量子智能体平台“量启AI Agent”，量子软硬件统一控制套件 “fieldqkit”，以及材料科学数据智能预测平台“元材智库”。",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3901893488805766?f=rss",
-      "title": "立中集团：预计上半年归母净利润同比增长34.57%-45.78%",
-      "url": "https://36kr.com/newsflashes/3901893488805766?f=rss",
+      "id": "rss:https://sspai.com/post/112425",
+      "title": "2026 年再看 iPhone 8 Plus，它还够用吗？",
+      "url": "https://sspai.com/post/112425",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
+        "id": "https://sspai.com/feed",
+        "name": "旋转的陀螺",
+        "feed_title": "少数派"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T03:00:13+00:00",
-      "summary": "36氪获悉，立中集团7月18日公告，预计2026年上半年归母净利润5.4亿元-5.85亿元，同比增长34.57%-45.78%，上年同期盈利4.01亿元。",
+      "published_at": "2026-07-20T03:00:00+00:00",
+      "summary": "高考结束后，又有一大批同学开始考虑换新手机啦。在预算差不多的情况下，很多人会纠结是买一台较新的中端机，还是买一台年份更老、但曾经是旗舰级的机型。于是我把 2020 年购入的 iPhone 8 Plus 拿出来当了一星期主力机，看看这台 2017 年发布的手机，放到今天还能不能胜任日常使用。查看全文",
       "lang": "zh"
     },
     {
-      "id": "rss:https://36kr.com/newsflashes/3901892952917890?f=rss",
-      "title": "电影《功夫女足》票房破13亿",
-      "url": "https://36kr.com/newsflashes/3901892952917890?f=rss",
+      "id": "rss:https://sspai.com/post/112498",
+      "title": "派早报：锂电池消费税分阶段恢复征收",
+      "url": "https://sspai.com/post/112498",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
+        "id": "https://sspai.com/feed",
+        "name": "少数派编辑部",
+        "feed_title": "少数派"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-19T02:45:34+00:00",
-      "summary": "据网络平台数据，截至7月19日9时12分，影片《功夫女足》票房突破13亿元。（界面）",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3901852568929920?f=rss",
-      "title": "上半年天津实现进出口4059亿元",
-      "url": "https://36kr.com/newsflashes/3901852568929920?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-19T02:30:36+00:00",
-      "summary": "36氪获悉，据天津日报，从天津海关获悉，今年上半年，天津市外贸进出口总值达4059亿元，同比增长2.4%。其中，出口2266亿元，同比增长9.2%。进出口值、出口值均创下历史同期新高。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3901850165151624?f=rss",
-      "title": "千分一创业板IPO终止审核",
-      "url": "https://36kr.com/newsflashes/3901850165151624?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-19T02:15:10+00:00",
-      "summary": "7月18日，据深交所网站披露，因深圳市千分一智能技术股份有限公司、保荐人撤回发行上市申请，深交所决定终止其首次公开发行股票并在创业板上市的审核。（界面）",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3901848349165441?f=rss",
-      "title": "我国具身智能正加速迈向产业应用阶段",
-      "url": "https://36kr.com/newsflashes/3901848349165441?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-19T02:10:18+00:00",
-      "summary": "2026世界人工智能大会上，各类人工智能终端令人目不暇接，但记者注意到，行业关注的焦点已经从人工智能技术的展示转向相关技术如何更好地应用在生产和生活中。专家指出，数据规模、评测标准、网联协同——这些“幕后”工作决定着AI能否从展台真正走进工厂和家庭。（央视新闻）",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3901847114155651?f=rss",
-      "title": "比亚迪巴西工厂第10万辆新能源汽车下线",
-      "url": "https://36kr.com/newsflashes/3901847114155651?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-19T02:00:04+00:00",
-      "summary": "36氪获悉，据比亚迪消息，当地时间7月16日，比亚迪巴西工厂第10万辆新能源汽车正式下线，本次下线车型为比亚迪海鸥；与此同时，工厂在岗员工规模达5500人。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3901844156991109?f=rss",
-      "title": "中国商飞：公司与柬埔寨民航国务秘书处签署战略合作谅解备忘录",
-      "url": "https://36kr.com/newsflashes/3901844156991109?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-19T01:45:53+00:00",
-      "summary": "中国商飞消息，7月17日，柬埔寨国家航空与中国商飞公司在上海签署20架C909飞机购机协议。同日，中国商飞公司还与柬埔寨民航国务秘书处签署战略合作谅解备忘录，双方将在航空安全、适航审定和人才培养等方面深化合作。（界面）",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3901843257870211?f=rss",
-      "title": "市场监管总局发布《个体工商户信用信息应用指南》",
-      "url": "https://36kr.com/newsflashes/3901843257870211?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-19T01:30:08+00:00",
-      "summary": "36氪获悉，市场监管总局发布《个体工商户信用信息应用指南》推荐性国家标准，明确个体工商户信用信息内容和主要应用场景。",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://36kr.com/newsflashes/3901842262132355?f=rss",
-      "title": "IPO排队券商“半年考” 东莞证券上半年净利大增超70%",
-      "url": "https://36kr.com/newsflashes/3901842262132355?f=rss",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://36kr.com/feed",
-        "name": "36氪",
-        "feed_title": "36氪"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-19T01:14:04+00:00",
-      "summary": "36氪获悉，据券商中国，正在IPO排队的东莞证券率先报喜。近日，锦龙股份披露东莞证券上半年未经审计业绩显示，该公司今年以来业绩继续实现稳健增长，净利润8.2亿元同比增长超七成。东莞证券的业绩增长，也为其参股股东锦龙股份的扣非净利润扭亏提供了关键支撑。目前排队IPO券商共有4家，分别为东莞证券、财信证券、华龙证券和渤海证券。",
+      "published_at": "2026-07-19T23:11:33+00:00",
+      "summary": "锂电池消费税分阶段恢复征收白宫提词器操作员利用内幕信息下注被查LG 显示器连接电脑后自动安装广告程序新一代豆包手机不再模拟点击操作亚马逊错发数亿美元云服务账单京沪线试点 12306 预约购票，最早提前 60 天看看就行的小道消息少数派的近期动态你可能错过的好文章查看全文",
       "lang": "zh"
     },
     {
@@ -2206,40 +2240,6 @@
       "lang": "zh"
     },
     {
-      "id": "rss:https://sspai.com/post/112375",
-      "title": "具透 | macOS 27 首个公开测试版来了，这些是值得你关注的新特性",
-      "url": "https://sspai.com/post/112375",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "少数派编辑部",
-        "feed_title": "少数派"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-16T07:00:00+00:00",
-      "summary": "全面 ARM 化后的第一个 macOS 版本，Golden Gate 27 还有这些变化。查看全文",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://sspai.com/post/111086",
-      "title": "翻译「世界杯」的赛事名称，为什么中文比日文更简洁？",
-      "url": "https://sspai.com/post/111086",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "王隐",
-        "feed_title": "少数派"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-16T02:58:08+00:00",
-      "summary": "国名也好、赛事名称也好，日语走上了片假名这条路——那为什么日本人不能像中文一样，直接造出「美加墨W杯」这样的简称？查看全文",
-      "lang": "zh"
-    },
-    {
       "id": "hn:48936451",
       "title": "NotebookLM is now Gemini Notebook",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
@@ -2251,7 +2251,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48936451"
       },
       "duration_sec": null,
-      "views": 368,
+      "views": 371,
       "comments": 185,
       "published_at": "2026-07-16T16:08:13+00:00",
       "summary": "",
@@ -2330,6 +2330,44 @@
       "views": 64,
       "comments": 51,
       "published_at": "2026-07-03T12:52:48+00:00",
+      "summary": "",
+      "matched_keyword": "Gemini",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48938111",
+      "title": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48938111",
+        "name": "mfiguiere",
+        "hn_url": "https://news.ycombinator.com/item?id=48938111"
+      },
+      "duration_sec": null,
+      "views": 29,
+      "comments": 6,
+      "published_at": "2026-07-16T18:13:00+00:00",
+      "summary": "",
+      "matched_keyword": "Gemini",
+      "lang": "en"
+    },
+    {
+      "id": "hn:48965012",
+      "title": "Google's Gemini delay: Coding stumbles, clashing teams and frustrated engineers",
+      "url": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48965012",
+        "name": "1vuio0pswjnm7",
+        "hn_url": "https://news.ycombinator.com/item?id=48965012"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 6,
+      "published_at": "2026-07-19T04:35:08+00:00",
       "summary": "",
       "matched_keyword": "Gemini",
       "lang": "en"
@@ -2468,6 +2506,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48965880",
+      "title": "Ollama: All Aboard Open Models",
+      "url": "https://ollama.com/blog/all-aboard-open-models",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48965880",
+        "name": "inferhaven",
+        "hn_url": "https://news.ycombinator.com/item?id=48965880"
+      },
+      "duration_sec": null,
+      "views": 132,
+      "comments": 53,
+      "published_at": "2026-07-19T07:59:44+00:00",
+      "summary": "",
+      "matched_keyword": "Llama",
+      "lang": "en"
+    },
+    {
       "id": "hn:48846086",
       "title": "Ollama Raises $65M to Accelerate Open Models",
       "url": "https://ollama.com/blog/all-aboard-open-models",
@@ -2517,7 +2574,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=48959297"
       },
       "duration_sec": null,
-      "views": 77,
+      "views": 81,
       "comments": 23,
       "published_at": "2026-07-18T16:02:45+00:00",
       "summary": "",

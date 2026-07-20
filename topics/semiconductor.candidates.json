@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-07-19T06:04:50.718305+00:00",
+  "fetched_at": "2026-07-20T06:23:06.142086+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -14,7 +14,7 @@
     "Tom's Hardware": 30,
     "HN · TSMC": 1,
     "HN · Nvidia": 3,
-    "HN · semiconductor": 3,
+    "HN · semiconductor": 1,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
     "HN · 数据中心 / 算力": 0
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 57,
+  "total": 55,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -364,6 +364,176 @@
       "views": null,
       "published_at": "2026-07-15T11:24:18+00:00",
       "summary": "Leixlip cannot replace Magdeburg, but it shows the value of expanding where fabs, demand, and ecosystems already exist. The post After Magdeburg, Intel Builds on Ireland’s Existing Strength appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/creality-k2-se-3d-printer-price-slashed-by-17-percent-now-under-usd250-grab-a-competitive-entry-level-high-speed-multicolor-device-at-a-bargain-price",
+      "title": "Creality K2 SE 3D printer price slashed by 17%, now under $250 — grab a competitive entry-level high-speed multicolor device at a bargain price",
+      "url": "https://www.tomshardware.com/pc-components/creality-k2-se-3d-printer-price-slashed-by-17-percent-now-under-usd250-grab-a-competitive-entry-level-high-speed-multicolor-device-at-a-bargain-price",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T15:04:07+00:00",
+      "summary": "The Creality K2 SE drops to $248.99 in this limited-time deal, making it a great option for anyone looking to start 3D printing but want to have access to some advanced features.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amds-next-gen-10-core-medusa-point-apu-shows-up-on-geekbench-again-with-its-best-score-yet-leaked-sku-outpaces-every-other-x86-mobile-chip-in-the-single-core-test",
+      "title": "AMD's next-gen 10-core 'Medusa Point' APU shows up on Geekbench again, with its best score yet — leaked SKU outpaces every other x86 mobile chip in the single-core test",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amds-next-gen-10-core-medusa-point-apu-shows-up-on-geekbench-again-with-its-best-score-yet-leaked-sku-outpaces-every-other-x86-mobile-chip-in-the-single-core-test",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T14:35:00+00:00",
+      "summary": "AMD's next 10-core mobile part from the Medusa Point family is looking a lot faster than its previous two Gorgon Point and Strix Point SKUs, respectively. Early leaks keep highlighting an ever-improving part that has just benched its best score yet.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/zilog-z80-turns-50-as-open-source-replacement-heads-for-drop-in-dip40-silicon",
+      "title": "Zilog Z80 turns 50 as an open-source replacement heads to drop-in DIP40 silicon — iconic 8-bit CPU launched in July 1976 and was discontinued in 2024",
+      "url": "https://www.tomshardware.com/tech-industry/zilog-z80-turns-50-as-open-source-replacement-heads-for-drop-in-dip40-silicon",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T14:12:55+00:00",
+      "summary": "The original Z80 packed 8,500 transistors on a 4μm process and typically ran at 2.5 MHz.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/policy/memory-chip-boss-admits-ram-prices-are-abnormally-high-sk-group-chairman-considering-building-a-semiconductor-plant-in-the-us-to-expand-supply-calm-chipflation",
+      "title": "Memory chip boss admits RAM prices are 'abnormally high' — SK Group chairman considering building a semiconductor plant in the US to expand supply, calm ‘chipflation’",
+      "url": "https://www.tomshardware.com/tech-industry/policy/memory-chip-boss-admits-ram-prices-are-abnormally-high-sk-group-chairman-considering-building-a-semiconductor-plant-in-the-us-to-expand-supply-calm-chipflation",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T13:55:00+00:00",
+      "summary": "SK Group Chairman Chey Tae-won said that prices for memory chips are \"abnormally high\" and that the industry must take steps to increase production and reduce prices. If it fails to do that, new entrants could challenge the incumbent leaders and make the market much more competitive, especially once demand falls back down to more manageable levels.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/phantom-twist-drone-spins-so-fast-that-it-is-nearly-invisible-flying-device-adds-motion-blur-to-the-real-world",
+      "title": "‘Phantom Twist’ drone spins so fast that it is nearly invisible — flying device adds motion blur to the real world",
+      "url": "https://www.tomshardware.com/tech-industry/drones/phantom-twist-drone-spins-so-fast-that-it-is-nearly-invisible-flying-device-adds-motion-blur-to-the-real-world",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T13:27:34+00:00",
+      "summary": "Researchers from Northwestern University in Illinois have built a drone that rotates so fast it is cloaked by motion blur.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/samsung-cuts-hundreds-of-us-consumer-electronics-jobs-ahead-of-texas-hq-move",
+      "title": "Samsung cuts hundreds of US consumer electronics jobs ahead of Texas HQ move — 739 roles affected in New Jersey as chip division posts record profit",
+      "url": "https://www.tomshardware.com/tech-industry/samsung-cuts-hundreds-of-us-consumer-electronics-jobs-ahead-of-texas-hq-move",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T12:48:01+00:00",
+      "summary": "Samsung told Reuters that a majority of the affected New Jersey employees received relocation offers, while others were let go.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/russian-drones-spotted-using-screwed-on-magnetic-compasses-as-navigation-aids-the-on-board-camera-can-occasionally-tilt-down-to-check-bearings-if-satellite-comms-are-lost",
+      "title": "Russian drones spotted using screwed-on magnetic compasses as navigation aids — the on-board camera can occasionally tilt down to check bearings if satellite comms are lost",
+      "url": "https://www.tomshardware.com/tech-industry/drones/russian-drones-spotted-using-screwed-on-magnetic-compasses-as-navigation-aids-the-on-board-camera-can-occasionally-tilt-down-to-check-bearings-if-satellite-comms-are-lost",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T12:05:34+00:00",
+      "summary": "Russian drone troops are adding cheap magnetic compasses to help find their bearings. Crude add-on helps them find their bearings and locate their targets even without GPS.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/coil-whine-can-be-musical-demonstrates-engineering-student-this-usually-hated-noise-can-make-some-people-happy",
+      "title": "Coil whine can be musical, demonstrates engineering student — this usually hated noise can make some people happy",
+      "url": "https://www.tomshardware.com/pc-components/coil-whine-can-be-musical-demonstrates-engineering-student-this-usually-hated-noise-can-make-some-people-happy",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T11:20:34+00:00",
+      "summary": "Video shows that electronic noise pollution can become music.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/pc-building/crazed-enthusiast-runs-pc-on-192-aa-batteries-successfully-boots-into-hannah-montana-linux-system-is-stable-during-stress-testing-and-even-plays-freedoom",
+      "title": "Crazed enthusiast runs PC on 192 AA batteries, successfully boots into Hannah Montana Linux — System is stable during stress testing and even plays FreeDoom",
+      "url": "https://www.tomshardware.com/desktops/pc-building/crazed-enthusiast-runs-pc-on-192-aa-batteries-successfully-boots-into-hannah-montana-linux-system-is-stable-during-stress-testing-and-even-plays-freedoom",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T10:00:00+00:00",
+      "summary": "A creator by the name of \"Uwoslab\" just jerry-rigged three battery banks together, each made up of 64 AA Alkaline cells, to form a giant 192-cell array that's enough to power an AM4 system.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds",
+      "title": "Clever hacker fits 537,000 domains in a tiny $5 ESP32 ad-blocking dongle — firmware uses only around 50KB of RAM and can answer blocked lookups in 10 milliseconds",
+      "url": "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zak Killian",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-19T10:00:00+00:00",
+      "summary": "This project uses a clever hashing trick to fit over half a million blocked domains into just 4MB of flash memory.",
       "lang": "en"
     },
     {
@@ -707,176 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/score-usd1-100-off-this-oled-gaming-laptop-with-rtx-5070-ti-the-ultimate-back-to-school-powerhouse-also-features-a-24-core-ultra-9-290hx-32gb-of-ram-and-a-1tb-ssd",
-      "title": "Score $1,100 off this OLED gaming laptop with RTX 5070 Ti, the ultimate Back to School powerhouse — also features a 24-core Ultra 9 290HX, 32GB of RAM, and a 1TB SSD",
-      "url": "https://www.tomshardware.com/laptops/gaming-laptops/score-usd1-100-off-this-oled-gaming-laptop-with-rtx-5070-ti-the-ultimate-back-to-school-powerhouse-also-features-a-24-core-ultra-9-290hx-32gb-of-ram-and-a-1tb-ssd",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stephen Warwick",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T11:24:25+00:00",
-      "summary": "Get $1,100 off this HP Omen Max laptop with OLED display, Ultra 9 290HX, 32GB of RAM, and RTX 5070 Ti.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/get-amds-new-ryzen-7-7700x3d-with-16gb-of-ram-and-a-motherboard-for-just-usd450-save-31-percent-on-a-b650m-micro-atx-and-g-skill-ddr5-for-an-epic-small-build",
-      "title": "Get AMD’s new Ryzen 7 7700X3D with 16GB of RAM and a motherboard for just $450 — save 31% on a B650M Micro ATX and G.Skill DDR5 for an epic small build",
-      "url": "https://www.tomshardware.com/laptops/get-amds-new-ryzen-7-7700x3d-with-16gb-of-ram-and-a-motherboard-for-just-usd450-save-31-percent-on-a-b650m-micro-atx-and-g-skill-ddr5-for-an-epic-small-build",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T11:22:31+00:00",
-      "summary": "Save over 31% on the price of this Newegg 7700X3D bundle. CPU, motherboard, and RAM combo is just $450 after discounts.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/motherboards/msi-mag-z890-tomahawk-wifi-ii-motherboard-review",
-      "title": "MSI MAG Z890 Tomahawk Wifi II motherboard review: Loses features from the original, but shaves a few dollars off the price",
-      "url": "https://www.tomshardware.com/pc-components/motherboards/msi-mag-z890-tomahawk-wifi-ii-motherboard-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T11:10:00+00:00",
-      "summary": "SI’s Z890 Tomahawk Wifi II trims a couple of connectivity features, but at its sub-$200 price, it’s still a reasonably equipped budget Z890 board.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/asml-looks-to-increase-prices-of-its-low-na-euv-tools-beyond-existing-productivity-based-model-company-wants-to-capture-the-value-of-all-the-advantages-its-tools-offer-not-just-wafer-throughput-improvements",
-      "title": "ASML looks to increase prices of its Low-NA EUV tools beyond existing productivity-based model — company wants to capture the value of all the advantages its tools offer, not just wafer throughput improvements",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-looks-to-increase-prices-of-its-low-na-euv-tools-beyond-existing-productivity-based-model-company-wants-to-capture-the-value-of-all-the-advantages-its-tools-offer-not-just-wafer-throughput-improvements",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T10:30:00+00:00",
-      "summary": "ASML's comments point to intentions to increase prices, though the company is expected to maintain its value-based approach to price setting. Yet, TSMC is reportedly unhappy about the potential plan.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/mario-kart-wii-recompiled-for-pc-using-ai-with-4k-potential-and-uncapped-frame-rates-first-static-recompilation-of-a-wii-game-supports-over-200-tracks-thanks-to-retro-rewind-compatibility",
-      "title": "Mario Kart Wii recompiled for PC using AI, with 4K potential and uncapped frame rates — 'first static recompilation of a Wii game' supports over 200 tracks thanks to Retro Rewind compatibility",
-      "url": "https://www.tomshardware.com/video-games/retro-gaming/mario-kart-wii-recompiled-for-pc-using-ai-with-4k-potential-and-uncapped-frame-rates-first-static-recompilation-of-a-wii-game-supports-over-200-tracks-thanks-to-retro-rewind-compatibility",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T10:00:33+00:00",
-      "summary": "Mario Kart Wiicompiled, a claimed 'first static recompilation of a Wii game,' is scheduled to be released in August.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/shark-robot-vacuum-flaw-lets-one-stolen-certificate-run-root-commands-on-others-in-the-same-aws-region",
-      "title": "Robot vacuum flaw lets one stolen certificate run root commands on other Shark robovacs in the same AWS region — unpatched flaw exposes live camera feeds, stored home maps, and Wi-Fi credentials",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/shark-robot-vacuum-flaw-lets-one-stolen-certificate-run-root-commands-on-others-in-the-same-aws-region",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T10:00:00+00:00",
-      "summary": "The problem is an over-permissive AWS IoT policy.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/linux/linus-torvalds-rebukes-anti-ai-stances-in-the-linux-kernel-code-review-process-says-linux-is-not-one-of-those-anti-ai-projects-creator-embraces-ai-as-just-a-tool-and-clearly-a-useful-one",
-      "title": "Linus Torvalds rebukes anti-AI stances in the Linux kernel code review process, says 'Linux is not one of those anti-AI projects' — creator embraces AI as just a tool and 'clearly a useful one'",
-      "url": "https://www.tomshardware.com/software/linux/linus-torvalds-rebukes-anti-ai-stances-in-the-linux-kernel-code-review-process-says-linux-is-not-one-of-those-anti-ai-projects-creator-embraces-ai-as-just-a-tool-and-clearly-a-useful-one",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-16T16:59:13+00:00",
-      "summary": "Linus Torvalds, Linux's creator and kernel manager, has seemingly taken an accepting stance of AI-assisted tooling.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/quantum-computing/neural-atom-quantum-computing-roadmap-how-laser-cooled-trapped-atoms-could-pave-the-path-beyond-physical-qubit-counts",
-      "title": "Neural atom quantum computing roadmap — how laser-cooled trapped atoms could pave the path beyond physical qubit counts",
-      "url": "https://www.tomshardware.com/tech-industry/quantum-computing/neural-atom-quantum-computing-roadmap-how-laser-cooled-trapped-atoms-could-pave-the-path-beyond-physical-qubit-counts",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Francisco Pires",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-16T16:52:54+00:00",
-      "summary": "Neural Atom Quantum Computing is a rapidly accelerating part of the Quantum puzzle. Featuring software-defined configurable arrays, qubits can be physically moved mid-computation, and this roadmap highlights three leading companies, QuEra, Atom Computing, and Pasqal, who operate within the space.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-7700x3d-is-exclusive-to-newegg-in-north-america-usd329-cpu-wont-be-available-at-other-vendors-until-at-least-q4",
-      "title": "AMD Ryzen 7 7700X3D is exclusive to Newegg in North America — $329 CPU won't be available at other vendors until at least Q4",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-7700x3d-is-exclusive-to-newegg-in-north-america-usd329-cpu-wont-be-available-at-other-vendors-until-at-least-q4",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-16T16:47:21+00:00",
-      "summary": "AMD's newest CPU, the Ryzen 7 7700X3D, costs $329 and is available exclusively at Newegg in Canada and the United States till the end of Q3 2026. It's a great gaming performer but there are better options if you want a good all-rounder chip for professional tasks as well.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/tower-semiconductor-revives-shuttered-panasonic-era-fab-in-3-billion-japan-photonics-expansion",
-      "title": "Tower Semiconductor revives shuttered Panasonic-era fab in $3 billion Japan photonics expansion — METI-backed plan targets $3.6 billion revenue by 2028",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tower-semiconductor-revives-shuttered-panasonic-era-fab-in-3-billion-japan-photonics-expansion",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-16T15:39:09+00:00",
-      "summary": "Tower Semiconductor has announced a dual-track expansion of its 300mm silicon photonics, silicon germanium, and advanced packaging operations in Japan",
-      "lang": "en"
-    },
-    {
       "id": "hn:48734960",
       "title": "Etched has officially come out of stealth",
       "url": "https://www.bloomberg.com/news/articles/2026-06-30/ai-chip-startup-etched-says-jane-street-tsmc-linked-vc-invested",
@@ -908,7 +908,7 @@
       },
       "duration_sec": null,
       "views": 370,
-      "comments": 180,
+      "comments": 181,
       "published_at": "2026-07-11T17:21:49+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -953,25 +953,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:48597201",
-      "title": "Samsung demonstrates 3D stacked FETs with triple nanosheet channels at 42nm",
-      "url": "https://semiconductor.samsung.com/news-events/tech-blog/from-gaa-to-3d-stacked-fet-expanding-the-transistor-into-the-third-dimension/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48597201",
-        "name": "its_ajseven",
-        "hn_url": "https://news.ycombinator.com/item?id=48597201"
-      },
-      "duration_sec": null,
-      "views": 127,
-      "comments": 46,
-      "published_at": "2026-06-19T11:03:52+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
       "id": "hn:48894277",
       "title": "Apple's rumored M7 Ultra targets 1.5TB and Blackwell-class AI performance",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/apples-rumored-m7-ultra-targets-1-5tb-of-memory-and-blackwell-class-ai",
@@ -986,25 +967,6 @@
       "views": 26,
       "comments": 31,
       "published_at": "2026-07-13T15:32:19+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48601996",
-      "title": "ASML denies US Government report that EUV chipmaking tool was shipped to China",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-denies-us-government-report-that-its-euv-chipmaking-tool-was-shipped-to-china-says-rumors-are-inaccurate-and-damaging-to-our-reputation",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48601996",
-        "name": "srameshc",
-        "hn_url": "https://news.ycombinator.com/item?id=48601996"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 0,
-      "published_at": "2026-06-19T19:03:30+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
       "lang": "en"

@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-07-19T06:05:23.250685+00:00",
+  "fetched_at": "2026-07-20T06:23:38.571746+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -12,11 +12,11 @@
     "EE Times": 10,
     "HN · TSMC": 1,
     "HN · Nvidia": 2,
-    "HN · semiconductor": 2,
+    "HN · semiconductor": 1,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 25,
+  "total": 24,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -390,7 +390,7 @@
       },
       "duration_sec": null,
       "views": 370,
-      "comments": 180,
+      "comments": 181,
       "published_at": "2026-07-11T17:21:49+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -413,25 +413,6 @@
       "published_at": "2026-07-14T08:24:49+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48597201",
-      "title": "Samsung demonstrates 3D stacked FETs with triple nanosheet channels at 42nm",
-      "url": "https://semiconductor.samsung.com/news-events/tech-blog/from-gaa-to-3d-stacked-fet-expanding-the-transistor-into-the-third-dimension/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48597201",
-        "name": "its_ajseven",
-        "hn_url": "https://news.ycombinator.com/item?id=48597201"
-      },
-      "duration_sec": null,
-      "views": 127,
-      "comments": 46,
-      "published_at": "2026-06-19T11:03:52+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
       "lang": "en"
     },
     {
