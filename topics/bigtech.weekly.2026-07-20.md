@@ -2,42 +2,42 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今日最核心的信号是AI算力投资逻辑出现裂缝：高盛警告信用风险扩散，科技股遭10年最大抛售，费城半导体指数跌入熊市。但国产模型Kimi K3以2.8万亿参数登顶Code Arena，证明中国AI在Agentic Coding主战场已具备全球竞争力。同时，鸿海拿下SpaceX 520亿美元AI服务器订单，打破戴尔/美超微寡占格局。本周Mag 7财报将决定美股方向。_
+_本周AI圈最大信号是Kimi K3以2.8万亿参数登顶Code Arena，国产模型首次在Agentic Coding主战场与美国前沿正面交锋；与此同时，SpaceX IPO后股价跌破发行价、AI资本开支信用风险扩散、三星消费电子裁员800人，市场正从“讲故事”切换到“看利润”阶段。你的content-curator项目可以重点关注K3在Claude Code中的实测表现，以及鸿海拿下SpaceX 520亿美元AI服务器订单背后的供应链变化。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. 鸿海首度拿下SpaceX AI服务器代工订单，规模达520亿美元，打破戴尔/美超微寡占
+### 4. Netflix以5.87亿美元收购Ben Affleck的AI电影制作初创公司InterPositive
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _华尔街见闻_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Anthony Ha_
 
-鸿海斩获SpaceX价值520亿美元的AI大单，涵盖1.3万柜英伟达GB300服务器，打破戴尔与美超微的寡占格局。这是鸿海首次打入SpaceX供应链，订单未计入此前指引，将显著调升其下半年至明年业绩。鸿海今年AI服务器全球市占率有望超四成。
+Netflix在最新财报中披露，以5.87亿美元现金收购了Ben Affleck联合创立的AI电影制作初创公司InterPositive。这是好莱坞主流制片厂在AI影视制作领域最大的一笔收购，标志着AI生成内容正式进入主流影视工业流程。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 鸿海获得 SpaceX 价值 520 亿美元的 AI 服务器订单 | SpaceX 为何选择鸿海而非传统供应商？价格还是产能？ |
-| 订单涵盖 1.3 万柜英伟达 GB300 服务器 | 520 亿美元订单的交付周期和利润率如何？ |
-| 这是鸿海首次打入 SpaceX 供应链 | 是否意味着 SpaceX 在 AI 基础设施上的投入远超预期？ |
-| 该订单未计入鸿海此前业绩指引 | 对戴尔和美超微的竞争格局影响有多大？ |
-| 鸿海今年 AI 服务器全球市占率有望超 40% |  |
+| Netflix支付5.87亿美元现金收购InterPositive | InterPositive的技术成熟度尚不明确，5.87亿估值是否合理 |
+| InterPositive由Ben Affleck联合创立 | 好莱坞工会对AI替代编剧/演员的抵制可能影响技术落地 |
+| 收购已获得监管批准并完成交割 | Netflix能否将AI工具成功整合到其制作管线中 |
+|  | 竞争对手（迪士尼、华纳）可能跟进类似收购 |
+|  | AI生成内容的版权和署名问题尚未解决 |
 
 **📖 主编点评**
 
-鸿海拿下这个订单说明 AI 服务器供应链正在从寡头走向多元，对你而言意味着：如果你在做 AI 部署相关项目，未来可能有更多硬件选项和更低的成本。同时关注 GB300 的出货节奏——它可能影响你使用的云服务价格。
+对做AI产品的你来说，这是一个信号：AI视频生成正在从“玩具”走向“工业工具”。如果你在content-curator项目中考虑视频内容处理，可以关注InterPositive的技术方向（可能是AI辅助剪辑/生成）。但别急着跟风，先看Netflix实际产出的作品质量。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3777408)
+📺 [打开原文](https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/)
 
 ---
 
 ## 📋 备选阅读
 
-- [NotebookLM is now Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/) —— Google将NotebookLM更名为Gemini Notebook，整合更多Gemini模型能力，但功能变化不大，品牌统一为主。
-  _Google Blog_
-- [Google's Gemini delay: Coding stumbles, clashing teams and frustrated engineers](https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers) —— 内部报告揭露Gemini延迟原因：编码能力不足、团队冲突和工程师士气低落，反映大厂AI研发内耗。
-  _LA Times_
-- [Netflix paid $587M for Ben Affleck's AI filmmaking startup](https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/) —— Netflix以5.87亿美元收购AI电影制作初创公司InterPositive，显示流媒体巨头押注AI内容生成。
-  _TechCrunch_
+- [NotebookLM更名为Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/) —— Google整合AI产品线，NotebookLM并入Gemini品牌，功能可能增强，但品牌变动带来不确定性。
+  _xnx_
+- [Google内部报告：Gemini延迟因编码问题、团队冲突和工程师挫败](https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers) —— 揭示Google AI内部管理问题，与K3的快速迭代形成对比，值得关注后续影响。
+  _1vuio0pswjnm7_
+- [腾讯云ADP 4.0海外版发布，企业级智能体平台出海](https://36kr.com/p/3901396207584902) —— 腾讯Agent平台国际化，如果你做跨国项目可关注，但国内用户优先级不高。
+  _36氪_
 
 ---
 

@@ -2,42 +2,42 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今日最核心的信号是AI算力投资逻辑出现裂缝：高盛警告信用风险扩散，科技股遭10年最大抛售，费城半导体指数跌入熊市。但国产模型Kimi K3以2.8万亿参数登顶Code Arena，证明中国AI在Agentic Coding主战场已具备全球竞争力。同时，鸿海拿下SpaceX 520亿美元AI服务器订单，打破戴尔/美超微寡占格局。本周Mag 7财报将决定美股方向。_
+_本周AI圈最大信号是Kimi K3以2.8万亿参数登顶Code Arena，国产模型首次在Agentic Coding主战场与美国前沿正面交锋；与此同时，SpaceX IPO后股价跌破发行价、AI资本开支信用风险扩散、三星消费电子裁员800人，市场正从“讲故事”切换到“看利润”阶段。你的content-curator项目可以重点关注K3在Claude Code中的实测表现，以及鸿海拿下SpaceX 520亿美元AI服务器订单背后的供应链变化。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. 月之暗面发布2.8万亿参数Kimi K3，Code Arena超越Claude Fable 5，国产模型首次登顶Agentic Coding基准
+### 1. Kimi K3 2.8万亿参数实测：在Claude Code中编程能力超越Fable 5和GPT-5.6，国产模型跻身世界第一梯队
 
-**[AI]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI]** · ⭐⭐⭐⭐⭐ · _AI超元域_
 
-Moonshot AI 发布了 Kimi K3——2.8万亿参数、100万token上下文窗口，在Frontend Code Arena上超越Claude Fable 5。这是中国大模型首次以“竞争威胁”身份进入全球叙事。中信建投称其为“另一个DeepSeek时刻”。K3已开源，可在GitHub Copilot中使用。
+月之暗面发布Kimi K3，2.8万亿参数、100万token上下文，在Frontend Code Arena登顶。B站UP主将K3接入Claude Code实测，开发macOS音乐播放器、坦克射击游戏等，表现超预期。中信建投称这是“另一个DeepSeek时刻”。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Kimi K3 参数量达 2.8 万亿，为目前最大开源模型 | K3 在更广泛的 Agentic Coding 基准（如 SWE-bench）上表现如何尚未公布 |
-| 上下文窗口 100 万 token | 2.8T 参数的实际推理成本和部署可行性待验证 |
-| Frontend Code Arena 得分超越 Claude Fable 5 | 美国出口管制是否会影响其后续训练和迭代 |
-| 已在 GitHub Copilot 中可用（Kimi K2.7 版本先行） | 开源协议细节和对商业使用的限制尚不明确 |
-| Moonshot AI 为北京公司，受美国对华算力限制影响 | 能否在真实工程场景中持续超越 Claude Code 等工具仍需观察 |
+| Kimi K3拥有2.8万亿参数和100万token上下文窗口 | 2.8万亿参数是否带来推理成本大幅上升尚未披露 |
+| 在Frontend Code Arena基准测试中击败Claude Fable 5 | 在复杂多步骤Agent任务中稳定性仍需更多第三方评测 |
+| 已可接入Claude Code作为编程模型使用 | 开源权重模型的实际部署门槛（硬件需求）不明确 |
+| 月之暗面有望最快6个月内赴港上市 | K3在中文场景优势明显，英文场景与GPT-5.6差距待测 |
+|  | Moonshot AI的商业模式能否支撑如此大模型的持续迭代 |
 
 **📖 主编点评**
 
-你应该立即下载 K3 权重或在 Copilot 中试用。如果你在做 content-curator 项目，K3 的 100 万上下文窗口意味着可以一次性塞入整个代码库进行分析。这是国产模型第一次在 Agent 编程领域给你提供了真正的备选方案，尤其适合需要本地部署或担心 API 成本的场景。
+你应该立刻把K3加入你的Claude Code模型候选列表。如果你在做content-curator项目，可以用K3测试代码生成和Agent任务，对比它与Claude 4、GPT-5.6的实际表现。K3的100万上下文对处理大型代码库特别有价值，但注意API成本和可用性。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3)
+📺 [打开原文](http://www.bilibili.com/video/av116934511239163)
 
 ---
 
 ## 📋 备选阅读
 
-- [GPT-5.6在Claude Code中表现远超Codex - Theo评测](https://www.bilibili.com/video/av116929612221157) —— Theo实测显示GPT-5.6 Sol在Claude Code中编程体验显著优于Codex，但用户需注意这是单一评测，且依赖Claude Code的封装。
-  _B站_
-- [豆包Agent入门教程：豆包真能干活了！](https://www.bilibili.com/video/av116944258728161) —— 字节跳动豆包Agent能力更新，适合国内用户快速上手，但深度不如Claude Code，适合入门体验。
-  _B站_
-- [Claude Code保姆级安装+原理+真实用法（国内直连）](https://www.bilibili.com/video/av116447535765612) —— 9分钟快速上手Claude Code，适合国内用户，但内容较浅，已有基础可跳过。
-  _B站_
+- [豆包Agent入门教程：豆包真能干活了！](http://www.bilibili.com/video/av116944258728161) —— 字节跳动豆包Agent能力更新，适合快速上手国内Agent工具，但深度不如Claude Code。
+  _秋芝2046_
+- [GPT-5.6在Claude Code中表现远超Codex - Theo t3.gg](http://www.bilibili.com/video/av116929612221157) —— 知名YouTuber实测GPT-5.6在Claude Code中的编程表现，与K3形成对比参考。
+  _浮生千山路w_
+- [Claude Code保姆级安装+原理+真实用法（国内直连）](http://www.bilibili.com/video/av116447535765612) —— 国内用户友好教程，但内容偏基础，适合刚接触Claude Code的读者。
+  _人工大黑_
 
 ---
 

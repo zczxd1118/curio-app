@@ -2,42 +2,42 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今日最核心的信号是AI算力投资逻辑出现裂缝：高盛警告信用风险扩散，科技股遭10年最大抛售，费城半导体指数跌入熊市。但国产模型Kimi K3以2.8万亿参数登顶Code Arena，证明中国AI在Agentic Coding主战场已具备全球竞争力。同时，鸿海拿下SpaceX 520亿美元AI服务器订单，打破戴尔/美超微寡占格局。本周Mag 7财报将决定美股方向。_
+_本周AI圈最大信号是Kimi K3以2.8万亿参数登顶Code Arena，国产模型首次在Agentic Coding主战场与美国前沿正面交锋；与此同时，SpaceX IPO后股价跌破发行价、AI资本开支信用风险扩散、三星消费电子裁员800人，市场正从“讲故事”切换到“看利润”阶段。你的content-curator项目可以重点关注K3在Claude Code中的实测表现，以及鸿海拿下SpaceX 520亿美元AI服务器订单背后的供应链变化。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. TSMC 2026年资本支出上调至640亿美元，追加1000亿美元美国投资，A14工艺良率显著提升
+### 2. 台积电A14工艺良率与性能大幅提升，AI/HPC和手机客户兴趣强烈，2026资本支出上调至640亿美元
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _EE Times_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Anton Shilov_
 
-TSMC 将 2026 年资本预算提高至 640 亿美元，并追加 1000 亿美元美国投资。同时，TSMC 确认 A14 工艺在良率和性能上取得显著进步，进展快于同期 N2，AI/HPC 和智能手机客户兴趣浓厚。ASML 则计划提高 Low-NA EUV 价格，引发 TSMC 不满。
+台积电在财报会议上确认A14（2nm级）工艺进展快于同期N2，良率和性能均有显著改善。同时宣布2026年资本支出上调至640亿美元，并追加1000亿美元美国投资。ASML计划提高Low-NA EUV价格，可能影响台积电扩张成本。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| TSMC 2026 年资本预算上调至 640 亿美元 | A14 的量产时间表是否会提前？ |
-| 追加 1000 亿美元美国投资 | 1000 亿美元美国投资的具体分配和产能规划？ |
-| A14 工艺良率和性能显著提升，进展快于同期 N2 | ASML 涨价是否会影响 TSMC 的扩产节奏？ |
-| AI/HPC 和智能手机客户对 A14 兴趣浓厚 | A14 相比 N2 的具体性能优势数据尚未公开 |
-| ASML 计划提高 Low-NA EUV 价格，TSMC 不满 |  |
+| A14工艺良率和性能改善幅度超过N2同期水平 | A14的量产时间表是否能在2027年下半年如期实现 |
+| 2026年资本支出上调至640亿美元 | ASML提价对台积电毛利率的具体影响程度 |
+| 追加1000亿美元美国投资 | 美国工厂的劳动力成本和技术人才供应是否充足 |
+| AI/HPC和智能手机客户均对A14表现出强烈兴趣 | 地缘政治风险是否会影响A14的全球客户分配 |
+|  | Intel Nova Lake（52核）是否会对台积电先进制程需求产生分流 |
 
 **📖 主编点评**
 
-TSMC 的持续扩产对你意味着未来 2-3 年 AI 芯片供应不会成为瓶颈。A14 工艺的快速推进可能让 2027-2028 年的 AI 加速器性能大幅提升。如果你在做推理优化，可以提前关注 A14 的能效特性。
+A14的进展直接决定你未来2-3年能买到的AI芯片性能。如果你在考虑个人项目部署，A14意味着更高效的推理芯片和更低的功耗成本。关注台积电美国工厂的进度，它可能影响未来GPU和AI加速器的供应格局。
 
-📺 [打开原文](https://www.eetimes.com/tsmc-boosts-2026-expansion-budget-adds-100b-to-u-s-investment/)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-confirms-significant-yield-and-performance-improvements-in-a14-update-strong-interest-from-ai-hpc-and-smartphone-customers)
 
 ---
 
 ## 📋 备选阅读
 
-- [ASML Raises Outlook, Plans More EUV Capacity](https://www.eetimes.com/asml-raises-outlook-plans-more-euv-capacity/) —— ASML因AI需求上调全年展望，计划扩产EUV至2028年，但Low-NA EUV涨价引发TSMC不满，供应链博弈加剧。
-  _EE Times_
-- [Nvidia RTX 50 Super GPUs stuck due to GDDR7 pricing](https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing-3gb-gddr7-module-costs-triple-the-price-of-2gb) —— 3GB GDDR7芯片成本是2GB的三倍，导致RTX 50 Super系列发布延迟，影响中高端显卡市场。
-  _Tom's Hardware_
-- [New Material Beats Copper’s Thermal Conductivity: θ-TaN](https://www.eetimes.com/new-material-beats-coppers-thermal-conductivity/) —— θ-TaN导热性比铜高近3倍，可能颠覆芯片散热层设计，但量产和集成仍需数年。
-  _EE Times_
+- [ASML计划提高Low-NA EUV价格，TSMC不满](https://www.tomshardware.com/tech-industry/semiconductors/asmls-planned-low-na-euv-machine-price-hikes-reportedly-frustrate-tsmc) —— ASML提价可能推高未来芯片成本，影响AI硬件价格，但短期影响有限。
+  _Anton Shilov_
+- [Nvidia RTX 50 Super因GDDR7价格过高被搁置](https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing) —— 3GB GDDR7成本是2GB的三倍，Super系列发布推迟，游戏玩家和AI推理用户需等待。
+  _Jowi Morales_
+- [新导热材料θ-TaN导热性比铜高3倍](https://www.eetimes.com/new-material-beats-coppers-thermal-conductivity/) —— 可能改变芯片散热设计，对高功耗AI芯片有重要意义，但距离商用尚远。
+  _Bill Schweber_
 
 ---
 
