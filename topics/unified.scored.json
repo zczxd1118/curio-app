@@ -1,201 +1,198 @@
 {
-  "date": "2026-07-20",
-  "intro": "本周AI圈迎来分水岭：月之暗面发布2.8万亿参数Kimi K3，在Code Arena上超越Claude Fable 5，国产模型首次以竞争威胁身份进入全球叙事。与此同时，科技股抛售潮蔓延，费城半导体指数跌入熊市，SpaceX股价跌破IPO价，AI资本开支逻辑正被市场拷问。你正在做的content-curator项目，K3的开源权重和Agent能力值得第一时间接入测试。",
+  "date": "2026-07-21",
+  "intro": "今日核心信号：Anthropic 15亿美元版权和解获批，为AI训练数据使用设立里程碑式判例；Kimi K3发布引发中美AI模型安全博弈，华尔街认为其反而强化算力需求。同时，英伟达秘密铺设暗光纤网络，AI基础设施竞争从芯片延伸至网络层。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3",
-      "source": "Luke James",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+      "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+      "source": "TechCrunch",
       "stars": 5,
-      "title": "月之暗面发布2.8万亿参数Kimi K3，Code Arena登顶超越Claude Fable 5",
-      "lead": "Moonshot AI 开源了全球最大的开放权重模型 Kimi K3，2.8万亿参数、100万token上下文，在Frontend Code Arena基准上击败了Anthropic的Claude Fable 5。这是中国大模型首次在Agentic Coding主战场与美国前沿模型正面交锋，中信建投称之为\"又一个DeepSeek时刻\"。",
+      "title": "Anthropic 15亿美元版权和解获批，AI训练数据使用迎来判例",
+      "lead": "法院最终批准了Anthropic与版权方的15亿美元和解协议，这是AI行业迄今最大规模的版权案结案。协议虽未确立通用规则，但为其他AI公司提供了谈判模板——数据来源合规成本正在显性化。",
       "confirmed": [
-        "Kimi K3 拥有2.8万亿参数，是迄今最大的开源权重模型",
-        "100万token上下文窗口，支持超长代码库理解",
-        "在Frontend Code Arena基准上超越Claude Fable 5",
-        "已开源权重，可在GitHub Copilot中直接使用Kimi K2.7 Code版本",
-        "月之暗面有望最快6个月内赴港上市"
+        "Anthropic与多家出版商的集体诉讼达成15亿美元和解",
+        "法院已给出最终批准，和解条款包括未来数据使用授权框架",
+        "Anthropic同意建立透明数据溯源机制",
+        "和解金将分配给受影响的版权持有者"
       ],
       "judgment": [
-        "2.8万亿参数的实际推理效率尚待第三方评测验证",
-        "开源协议细节未完全披露，商用限制待确认",
-        "在更全面的编码基准（如SWE-bench）上表现未知",
-        "100万token上下文的实际检索精度需实测",
-        "对现有Agent工具链（Claude Code、Cursor）的替代效应不明"
+        "该判例是否会成为其他AI公司（如OpenAI、Meta）的参照标准",
+        "15亿美元是否足以覆盖所有潜在版权索赔",
+        "未来训练数据使用是否会转向更严格的授权模式"
       ],
-      "implication": "你应该立即下载Kimi K3权重，在你的content-curator项目中测试其代码生成和Agent能力。如果它在你的RAG pipeline和子Agent编排上表现接近Claude，这将是你摆脱单一API依赖、降低推理成本的关键筹码。关注本周社区放出的实测报告，特别是MCP兼容性和Skills支持情况。"
+      "implication": "如果你在做自己的Agent项目，数据来源合规性需要提前考虑。建议关注Anthropic公开的数据溯源方案，未来可能成为行业标准。另外，开源模型使用公开数据训练的风险也在增加，部署时注意检查训练数据许可。"
     },
     {
       "rank": 2,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.eetimes.com/tsmc-boosts-2026-expansion-budget-adds-100b-to-u-s-investment/",
-      "url": "https://www.eetimes.com/tsmc-boosts-2026-expansion-budget-adds-100b-to-u-s-investment/",
-      "source": "Alan Patterson",
+      "title": "英伟达秘密铺设百亿美元暗光纤，AI基础设施竞争从芯片延伸至网络",
+      "id": "wscn:3777530",
+      "url": "https://wallstreetcn.com/articles/3777530",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "TSMC 2026资本预算上调至640亿美元，再投1000亿美元扩建美国工厂",
-      "lead": "TSMC 宣布2026年资本支出上调至640亿美元，并追加1000亿美元用于美国工厂扩建。同时A14工艺确认良率和性能显著提升，进展快于同期N2。ASML同步上调全年指引，计划扩产EUV光刻机至2028年。半导体制造端的军备竞赛正在加速。",
+      "lead": "英伟达正斥资50-100亿美元在全美收购暗光纤，自建总带宽7.6 Petabits/秒的电信级网络。当博通、Marvell定制芯片蚕食GPU份额时，英伟达选择将战场延伸至\"谁能把算力直接送到客户手里\"。",
       "confirmed": [
-        "TSMC 2026年资本预算上调至640亿美元",
-        "追加1000亿美元投资美国工厂，总美国投资额将超1650亿美元",
-        "A14工艺良率和性能提升显著，客户兴趣强烈（AI/HPC和智能手机）",
-        "ASML上调全年展望，计划扩产Low-NA EUV产能",
-        "ASML计划提高Low-NA EUV价格，引发TSMC不满"
+        "英伟达已投入50-100亿美元收购暗光纤",
+        "自建网络总带宽达7.6 Petabits/秒",
+        "网络将直接连接主要数据中心和云厂商",
+        "此举旨在降低AI训练和推理的网络延迟"
       ],
       "judgment": [
-        "640亿资本支出是否会导致产能过剩，取决于AI需求持续性",
-        "A14的量产时间表尚未公布，可能受EUV供应影响",
-        "美国工厂的劳动力成本和技术人才问题仍是瓶颈",
-        "ASML提价可能压缩TSMC利润率，转嫁给客户的程度待观察",
-        "地缘政治风险（中美芯片禁令）可能打乱扩产节奏"
+        "暗光纤网络能否成为英伟达新的护城河",
+        "电信运营商是否会反击或合作",
+        "对云厂商（AWS、Azure）的议价能力影响"
       ],
-      "implication": "这对你意味着两件事：一是你正在使用的AI模型（Claude、GPT等）的训练成本短期内不会下降，因为先进制程产能依然紧俏；二是你的content-curator项目如果涉及推理部署，应关注A14等新工艺带来的能效比提升——未来12-18个月，边缘端推理硬件会有显著升级。"
+      "implication": "这对你的content-curator项目意味着：AI基础设施的竞争维度正在扩展。如果你需要部署分布式Agent或RAG系统，网络架构将成为性能瓶颈。建议关注英伟达的InfiniBand和NVLink技术演进，它们可能改变未来AI应用的部署方式。"
     },
     {
       "rank": 3,
-      "domain": "金融",
-      "id": "hn:48915953",
-      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
-      "source": "rvz",
+      "domain": "AI",
+      "title": "Kimi K3实测：2.8万亿参数模型接入Claude Code，编程能力跻身第一梯队",
+      "id": "bvid:BV1GRKJ6fEgn",
+      "url": "http://www.bilibili.com/video/av116934511239163",
+      "source": "AI超元域",
       "stars": 4,
-      "title": "Stripe与Advent联合出价530亿美元收购PayPal",
-      "lead": "据Reuters报道，Stripe与私募股权公司Advent International已联合向PayPal提出收购要约，交易金额超过530亿美元。若成交，这将是2026年最大的科技并购之一，彻底重塑全球支付格局。",
+      "lead": "月之暗面发布Kimi K3，2.8万亿参数、100万token上下文窗口。实测显示其在Claude Code中完成macOS音乐播放器、3D游戏等复杂任务，编程能力与GPT-5.6、Fable 5相当。国产模型首次在工程实践中达到世界一流水平。",
       "confirmed": [
-        "Stripe和Advent联合出价超530亿美元收购PayPal",
-        "PayPal目前市值约520亿美元，溢价有限",
-        "Stripe自身估值约700亿美元，合并后将成支付巨无霸",
-        "交易仍需反垄断审查，可能面临欧盟和美国监管挑战"
+        "Kimi K3拥有2.8万亿参数和100万token上下文",
+        "已成功接入Claude Code并完成多项编程任务",
+        "实测表现与GPT-5.6、Fable 5相当",
+        "月之暗面已开源模型权重"
       ],
       "judgment": [
-        "Stripe的收购动机是获取PayPal的2亿活跃用户和商户网络",
-        "整合两家技术栈（Stripe API vs PayPal Braintree）存在巨大工程挑战",
-        "反垄断机构可能要求剥离部分业务（如Venmo或Braintree）",
-        "Advent的参与表明交易可能涉及杠杆收购，PayPal债务水平将上升",
-        "对中小开发者而言，合并后API定价策略不明朗"
+        "2.8万亿参数在推理时的实际成本和延迟",
+        "开源权重是否会被美国政策限制",
+        "Kimi K3在长上下文任务中的稳定性"
       ],
-      "implication": "如果你在content-curator项目中集成了支付功能（比如付费订阅），短期内不必担心——两家API在合并前仍独立运行。但长期看，Stripe的开发者体验和PayPal的全球覆盖率结合后，你的支付成本可能上升。建议保持对Stripe API变更的监控，并预留切换备选支付通道的架构弹性。"
+      "implication": "如果你在做vibe coding或AI编程，Kimi K3是一个值得尝试的免费替代方案。建议在Claude Code中配置cc-switch工具，可以一键切换模型。注意：虽然性能强劲，但百万token上下文的实际推理成本仍需实测。"
     },
     {
       "rank": 4,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/",
-      "url": "https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/",
-      "source": "Anthony Ha",
+      "domain": "股票",
+      "title": "Stripe与Advent联合出价530亿美元收购PayPal，支付格局面临重塑",
+      "id": "hn:48915953",
+      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
+      "source": "Reuters",
       "stars": 4,
-      "title": "Netflix 5.87亿美元收购Ben Affleck AI电影制作公司InterPositive",
-      "lead": "Netflix在最新财报中披露，以5.87亿美元现金收购了Ben Affleck联合创立的AI电影制作初创公司InterPositive。这标志着好莱坞对AI内容生成工具的最大规模押注，也引发创意行业对AI替代编剧/导演的担忧。",
+      "lead": "Stripe联合私募Advent提出以超过530亿美元收购PayPal。若交易达成，将诞生全球最大在线支付平台，直接挑战Visa和Mastercard。同时，AI支付初创公司Natural刚获3000万美元融资，瞄准AI Agent支付基础设施。",
       "confirmed": [
-        "Netflix支付5.87亿美元现金收购InterPositive",
-        "InterPositive由Ben Affleck联合创立，专注于AI辅助电影制作工具",
-        "Netflix计划将AI工具用于前期制作、分镜和后期特效",
-        "交易已获董事会批准，预计2026年Q4完成"
+        "Stripe与Advent联合报价超过530亿美元收购PayPal",
+        "交易若完成将整合两大支付巨头",
+        "AI支付初创Natural获3000万美元融资",
+        "Natural旨在为AI Agent提供支付基础设施"
       ],
       "judgment": [
-        "5.87亿估值对应InterPositive的营收和用户数尚未披露",
-        "AI电影制作工具的实际产出质量能否达到Netflix标准存疑",
-        "可能引发好莱坞工会更大规模的AI抗议和罢工",
-        "Netflix此举更多是防御性收购，防止竞争对手获得AI内容优势",
-        "对独立电影人而言，AI工具可能降低制作门槛，但分发渠道仍被Netflix控制"
+        "反垄断审查是否会阻止交易",
+        "PayPal股东是否会接受报价",
+        "AI Agent支付是否将成为新赛道"
       ],
-      "implication": "这对你的content-curator项目是个信号：AI正在从文本/代码生成向多模态内容创作全面渗透。你可以关注InterPositive的技术栈——如果它开放API或开源部分工具，你的项目可以集成AI视频摘要或自动剪辑功能，这会是简历上的一个亮点。"
+      "implication": "这对你来说：如果你在构建Agent项目，支付能力是未来变现的关键。Natural的融资说明AI Agent支付基础设施正在成为热点。建议关注Stripe的Agent支付API，可能比传统支付更适配你的content-curator项目。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI",
-      "title": "GPT-5.6在Claude Code中表现远超Codex | Theo - t3․gg",
-      "url": "http://www.bilibili.com/video/av116929612221157",
-      "source": "浮生千山路w",
-      "one_liner": "GPT-5.6 Sol版本在Claude Code中编程表现惊人，但用户需自行测试兼容性，不构成头条是因为缺乏可复现的基准数据。"
-    },
-    {
-      "domain": "AI",
-      "title": "豆包真能干活了！【豆包Agent入门教程】",
-      "url": "http://www.bilibili.com/video/av116944258728161",
-      "source": "秋芝2046",
-      "one_liner": "字节跳动豆包Agent能力更新，适合快速上手体验，但深度不如Claude Code/Cursor，适合入门用户。"
-    },
-    {
-      "domain": "AI",
-      "title": "Claude code接管科研全流程：cc-kaiti 带你从 0 走到开题报告和答辩 PPT",
-      "url": "http://www.bilibili.com/video/av116866278233889",
-      "source": "做科研的大师兄",
-      "one_liner": "Claude Code Skill实战案例，展示如何用AI完成科研开题，对做content-curator项目有参考价值。"
+      "domain": "AI 算力 / 半导体",
+      "title": "Microsoft将部署AMD Helios机架级AI加速器到Azure",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-will-deploy-amds-helios-rack-scale-ai-accelerator-at-scale-on-azure-radeon-instinct-mi455x-and-epyc-venice-power-will-be-available-through-redmonds-cloud-infrastructure",
+      "source": "Tom's Hardware",
+      "one_liner": "微软与AMD合作，在Azure上大规模部署Helios加速器，打破英伟达垄断。对开发者意味着更多云GPU选择，可能降低推理成本。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "ASML's planned Low-NA EUV machine price hikes reportedly frustrate TSMC",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asmls-planned-low-na-euv-machine-price-hikes-reportedly-frustrate-tsmc",
-      "source": "Anton Shilov",
-      "one_liner": "ASML计划提高Low-NA EUV价格，TSMC扩产成本将上升，可能传导至AI芯片价格。"
+      "title": "TSMC 2026年资本预算提至640亿美元，追加1000亿美元美国投资",
+      "url": "https://www.eetimes.com/tsmc-boosts-2026-expansion-budget-adds-100b-to-u-s-investment/",
+      "source": "EE Times",
+      "one_liner": "台积电大幅扩产，AI芯片产能紧张有望缓解。但短期先进制程依然供不应求。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia RTX 50 Super GPUs are reportedly ready, but stuck in limbo due to excessive GDDR7 pricing",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing",
-      "source": "Jowi Morales",
-      "one_liner": "3GB GDDR7成本是2GB的三倍，RTX 50 Super系列发布推迟，消费级AI推理硬件升级放缓。"
+      "title": "ASML上调展望，计划增加EUV产能",
+      "url": "https://www.eetimes.com/asml-raises-outlook-plans-more-euv-capacity/",
+      "source": "EE Times",
+      "one_liner": "ASML因AI需求上调全年展望，光刻机产能扩张至2028年。半导体设备板块景气度确认。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "New Material Beats Copper’s Thermal Conductivity",
-      "url": "https://www.eetimes.com/new-material-beats-coppers-thermal-conductivity/",
-      "source": "Bill Schweber",
-      "one_liner": "θ-TaN导热率比铜高近3倍，有望解决AI芯片散热瓶颈，但量产仍需数年。"
+      "title": "SK集团董事长承认内存价格异常高，考虑在美建厂",
+      "url": "https://www.tomshardware.com/tech-industry/policy/memory-chip-boss-admits-ram-prices-are-abnormally-high-sk-group-chairman-considering-building-a-semiconductor-plant-in-the-us-to-expand-supply-calm-chipflation",
+      "source": "Tom's Hardware",
+      "one_liner": "HBM和DDR5价格高企，SK海力士考虑美国建厂。AI训练成本中内存占比持续上升。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia RTX 50 Super因GDDR7成本过高被搁置",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing-3gb-gddr7-module-costs-triple-the-price-of-2gb",
+      "source": "Tom's Hardware",
+      "one_liner": "3GB GDDR7芯片成本是2GB的三倍，RTX 50 Super系列发布推迟。消费级GPU升级节奏放缓。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "NotebookLM is now Gemini Notebook",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
-      "source": "xnx",
-      "one_liner": "Google将NotebookLM更名为Gemini Notebook，整合更多Gemini模型能力，但功能变化不大。"
+      "title": "Google正在开发新AI芯片以提高Gemini效率",
+      "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+      "source": "TechCrunch",
+      "one_liner": "Google自研芯片进一步深化，TPU之后的新芯片专为Gemini优化。对开发者意味着Gemini API可能降价。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Google's Gemini delay: Coding stumbles, clashing teams and frustrated engineers",
-      "url": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
-      "source": "1vuio0pswjnm7",
-      "one_liner": "LA Times深度报道Google Gemini延迟内幕：编码能力不足、团队内斗，大模型军备竞赛的暗面。"
+      "title": "Netflix以5.87亿美元收购Ben Affleck的AI电影制作公司",
+      "url": "https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/",
+      "source": "TechCrunch",
+      "one_liner": "AI内容生成进入影视制作核心环节。Netflix押注AI降低制作成本，但创意行业争议持续。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "腾讯云ADP 4.0海外版发布，要把企业级智能体带到全球市场",
-      "url": "https://36kr.com/p/3901396207584902?f=rss",
-      "source": "36氪",
-      "one_liner": "腾讯云Agent开发平台ADP 4.0出海，支持MCP和Skill广场，对企业级Agent落地有参考价值。"
+      "title": "Hugging Face确认数据泄露，建议用户轮换令牌",
+      "url": "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/",
+      "source": "TechCrunch",
+      "one_liner": "Hugging Face内部数据集和凭据泄露。如果你使用HF存储模型或数据集，立即轮换访问令牌。"
     },
     {
-      "domain": "金融",
-      "title": "SpaceX stock erases all its gains and slides below IPO price",
-      "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
-      "source": "1vuio0pswjnm7",
-      "one_liner": "SpaceX股价跌破IPO价，做空者获利87亿美元，AI泡沫担忧蔓延至太空概念股。"
+      "domain": "大厂 AI 动态",
+      "title": "OpenAI担心开源模型，美国应如何应对？",
+      "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
+      "source": "TechCrunch",
+      "one_liner": "OpenAI游说美国政府限制开源模型，但开源社区和学术界强烈反对。对开发者来说，开源模型可用性面临政策风险。"
     },
     {
-      "domain": "金融",
-      "title": "恐慌信号！高盛交易员：AI信用风险已开始向更广泛市场扩散",
-      "url": "https://wallstreetcn.com/articles/3777402",
+      "domain": "股票",
+      "title": "SpaceX股价跌破IPO发行价，空头获利87亿美元",
+      "url": "https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/",
+      "source": "Reuters",
+      "one_liner": "SpaceX上市后股价持续下跌，空头大赚。但长期看，星链和星舰业务基本面未变。"
+    },
+    {
+      "domain": "股票",
+      "title": "AI将转向按结果付费？OpenAI董事长预言Token计费模式将终结",
+      "url": "https://wallstreetcn.com/articles/3777531",
       "source": "华尔街见闻",
-      "one_liner": "高盛警告AI数据中心信用利差走阔，科技板块遭10年最大抛售，标普500失真。"
+      "one_liner": "OpenAI董事长称一年内Token计费将被按业务结果付费取代。对开发者意味着API定价模式可能变革，需关注新计费方式对成本的影响。"
+    },
+    {
+      "domain": "股票",
+      "title": "摩根大通CEO戴蒙警告市场低估地缘和财政风险，不买股票和长期美债",
+      "url": "https://wallstreetcn.com/articles/3777523",
+      "source": "华尔街见闻",
+      "one_liner": "戴蒙罕见亮出底牌，认为市场过于乐观。对AI投资需谨慎，但长期趋势不变。"
+    },
+    {
+      "domain": "股票",
+      "title": "AI数据中心融资成华尔街新资产类别，摩根士丹利上半年费用暴增60%",
+      "url": "https://wallstreetcn.com/articles/3777519",
+      "source": "华尔街见闻",
+      "one_liner": "摩根士丹利将AI数据中心贷款证券化，上半年资本市场费用达23亿美元。但信用风险正在积累。"
     },
     {
       "domain": "金融",
-      "title": "Anthropic被曝测试AMD GPU，AI巨头正在系统性降低单一算力依赖",
-      "url": "https://wallstreetcn.com/articles/3777394",
-      "source": "华尔街见闻",
-      "one_liner": "Anthropic将AMD加入算力矩阵，AI公司去Nvidia化趋势加速，利好推理成本下降。"
-    },
-    {
-      "domain": "金融",
-      "title": "鸿海首度拿下SpaceX AI服务器代工订单，规模达520亿美元",
-      "url": "https://wallstreetcn.com/articles/3777408",
-      "source": "华尔街见闻",
-      "one_liner": "鸿海打破戴尔/美超微垄断，获SpaceX 1.3万柜GB300服务器订单，AI硬件供应链洗牌。"
+      "title": "Stripe与Advent联合出价530亿美元收购PayPal",
+      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
+      "source": "Reuters",
+      "one_liner": "支付行业最大并购案，若成功将改变在线支付格局。对开发者意味着API整合机会。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-20T08:09:43+0000"
+    "scored_at": "2026-07-21T06:23:12+0000"
   }
 }
