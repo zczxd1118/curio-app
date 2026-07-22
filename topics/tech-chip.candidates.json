@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-07-21T05:57:17.368735+00:00",
+  "fetched_at": "2026-07-22T05:56:21.209882+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,13 +10,13 @@
   "source_stats": {
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
-    "HN · TSMC": 1,
+    "HN · TSMC": 2,
     "HN · Nvidia": 2,
-    "HN · semiconductor": 1,
+    "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 24,
+  "total": 25,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/sk-hynix-nasdaq-debut-shows-global-memory-expansion-race/",
+      "title": "SK Hynix Nasdaq Debut Shows Global Memory Expansion Race",
+      "url": "https://www.eetimes.com/sk-hynix-nasdaq-debut-shows-global-memory-expansion-race/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-21T20:10:00+00:00",
+      "summary": "SK Hynix Nasdaq debut highlights capex-funded memory expansion. Both Samsung and Micron follow suit. The post SK Hynix Nasdaq Debut Shows Global Memory Expansion Race appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/how-quantum-computing-earns-its-place-in-the-data-center/",
+      "title": "How Quantum Computing Earns Its Place in the Data Center",
+      "url": "https://www.eetimes.com/how-quantum-computing-earns-its-place-in-the-data-center/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Zeynep Korutürk, Kris Naudts, Donald Harmitt",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-21T13:08:25+00:00",
+      "summary": "Quantum won’t win in labs; it must survive racks, cooling, power and networks. The post How Quantum Computing Earns Its Place in the Data Center appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/carbon-nanotube-firm-strengthens-executive-team-to-build-cnt-ecosystem/",
+      "title": "Carbon Nanotube Firm Strengthens Executive Team to Build CNT Ecosystem",
+      "url": "https://www.eetimes.com/carbon-nanotube-firm-strengthens-executive-team-to-build-cnt-ecosystem/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-21T07:00:00+00:00",
+      "summary": "Canatu stacks its C-suite to push CNTs into chips, cars, and diagnostics—watch how its new CEO plans to turn nanotube hype into yield. The post Carbon Nanotube Firm Strengthens Executive Team to Build CNT Ecosystem appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/uma-the-architecture-edge-ai-needs-to-scale/",
       "title": "UMA: The Architecture Edge AI Needs to Scale",
       "url": "https://www.eetimes.com/uma-the-architecture-edge-ai-needs-to-scale/",
@@ -308,54 +359,22 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/asml-raises-outlook-plans-more-euv-capacity/",
-      "title": "ASML Raises Outlook, Plans More EUV Capacity",
-      "url": "https://www.eetimes.com/asml-raises-outlook-plans-more-euv-capacity/",
-      "platform": "rss",
+      "id": "hn:48992221",
+      "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
+        "type": "hackernews",
+        "id": "48992221",
+        "name": "speckx",
+        "hn_url": "https://news.ycombinator.com/item?id=48992221"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T14:00:00+00:00",
-      "summary": "ASML raised its full-year outlook as AI demand prompted plans to expand lithography capacity through at least 2028. The post ASML Raises Outlook, Plans More EUV Capacity appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/tsmc-boosts-2026-expansion-budget-adds-100b-to-u-s-investment/",
-      "title": "TSMC Boosts 2026 Expansion Budget, Adds $100B to U.S. Investment",
-      "url": "https://www.eetimes.com/tsmc-boosts-2026-expansion-budget-adds-100b-to-u-s-investment/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-17T05:55:59+00:00",
-      "summary": "TSMC is raising its 2026 capital budget to $64 billion and adding $100 billion to its U.S. investment for AI. The post TSMC Boosts 2026 Expansion Budget, Adds $100B to U.S. Investment appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ai-data-centers-push-silicon-photonics-toward-300-mm-scale/",
-      "title": "AI Data Centers Push Silicon Photonics Toward 300-mm Scale",
-      "url": "https://www.eetimes.com/ai-data-centers-push-silicon-photonics-toward-300-mm-scale/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-16T14:00:00+00:00",
-      "summary": "AI data centers are torching copper’s reign as ST pushes 300-mm silicon photonics for faster, denser optical links. The post AI Data Centers Push Silicon Photonics Toward 300-mm Scale appeared first on EE Times.",
+      "views": 32,
+      "comments": 6,
+      "published_at": "2026-07-21T13:40:51+00:00",
+      "summary": "",
+      "matched_keyword": "TSMC",
       "lang": "en"
     },
     {
