@@ -1,33 +1,42 @@
 # Curio · AI · 2026-07-24
 
-> 今日 1 条头条 + 0 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今日最关键的信号是AI资本开支从现金流驱动转向债务扩张，中金测算未来五年或现3.5万亿美元融资缺口，Meta发债成本已上升。同时AMD发布Helios机架系统、MI455X加速器及256核Venice CPU，正面挑战Nvidia；Etched以300M融资和1B预订单证明非GPU推理芯片的商业可行性。你的content-curator项目可关注这些基础设施变化对Agent部署成本的影响。_
+_今日AI芯片军备竞赛进入新阶段：AMD发布MI455X加速器与Helios机架系统，直接对标Nvidia；Etched以103亿美元估值完成3亿美元融资，其Transformer专用芯片即将出货。同时，AI资本开支的债务风险开始显性化——Meta发债成本上升，五大科技巨头隐藏债务达1.65万亿美元。你的content-curator项目可关注AMD Helios的开放生态和Etched的架构创新。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. Claude Code超强平替来了！彻底告别封号——Qoder CLI实测
+### 5. Claude Code超强平替来了！Qoder CLI彻底告别封号困扰
 
-**[AI]** · ⭐⭐⭐⭐ · _我是阿众_
+**[AI]** · ⭐⭐⭐ · _我是阿众_
 
-B站UP主实测Qoder CLI作为Claude Code的国内平替，无需魔法、无需海外订阅，直接使用国产模型。视频展示了从安装到完成项目的完整流程，并对比了与Claude Code的差异。这对国内开发者尤其有价值。
+针对国内用户使用Claude Code的封号和订阅难题，视频介绍了国产替代工具Qoder CLI。它提供类似Claude Code的终端编程体验，无需魔法和海外支付。对于正在做content-curator项目的你，这类工具能降低Agent开发的门槛。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Qoder CLI支持国内直连，无需科学上网 | Qoder CLI的代码生成质量与Claude Code的差距未量化 |
-| 可接入DeepSeek等国产模型 | 长期稳定性和更新频率未知 |
-| 视频展示了完整的安装和使用流程 | 是否支持复杂项目（多文件、长上下文）待验证 |
-| UP主对比了Qoder与Claude Code的优缺点 | 社区生态和插件支持远不如Claude Code |
+| Qoder CLI是Claude Code的国产替代品 | Qoder CLI的代码生成质量与Claude Code的差距未量化 |
+| 无需科学上网和海外支付方式 | 长期稳定性和更新频率未知 |
+| 提供终端内的AI编程体验 | 是否开源或存在数据隐私风险未说明 |
+| 支持主流模型接入 | 与Cursor/Codex等工具的对比评测缺乏 |
 
 **📖 主编点评**
 
-如果你因为封号问题困扰，Qoder CLI是一个值得尝试的备选。但你的content-curator项目涉及多文件操作和复杂工作流，建议先在简单任务上测试Qoder，确认其稳定性和能力后再迁移。同时保留Claude Code作为主力。
+做content-curator项目时，工具链的稳定性比功能丰富更重要。Qoder CLI可以作为Claude Code的备选，但建议先在非核心任务上试用。你的项目需要长期维护，优先选择有明确商业模式的工具。
 
 📺 [打开原文](http://www.bilibili.com/video/av116954828374073)
 
 ---
+
+## 📋 备选阅读
+
+- [Kimi K3编程能力实测：接入Claude Code表现超预期](http://www.bilibili.com/video/av116934511239163) —— 国产模型Kimi K3在Claude Code中实测编程能力，2.8万亿参数+100万上下文，值得关注。
+  _AI超元域_
+- [吴恩达Vibe Coding教程上线](http://www.bilibili.com/video/av116894866677118) —— 系统化Vibe Coding工作流，适合你学习AI编程最佳实践，但内容偏基础。
+  _吴恩达的AI课_
+- [Claude Code接管科研全流程：cc-kaiti Skill从开题到答辩PPT](http://www.bilibili.com/video/av116866278233889) —— Claude Code Skill用于科研，可借鉴其工作流设计到你的content-curator项目中。
+  _做科研的大师兄_
 
 ---
 
