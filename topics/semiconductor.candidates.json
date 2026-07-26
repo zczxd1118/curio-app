@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-07-25T05:48:13.150858+00:00",
+  "fetched_at": "2026-07-26T06:11:27.526992+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,7 +13,7 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 2,
-    "HN · Nvidia": 8,
+    "HN · Nvidia": 6,
     "HN · semiconductor": 2,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 51,
+  "total": 49,
   "items": [
     {
       "id": "rss:https://www.eetimes.com/intel-foundry-improves-execution-but-external-customers-remain-the-test/",
@@ -194,6 +194,210 @@
       "views": null,
       "published_at": "2026-07-22T07:53:34+00:00",
       "summary": "CEA-Leti’s François Andrieu describes more embedded, persistent, and low-energy memories that will meet the growing demands of AI. The post CEA-Leti Looks Beyond SRAM and DRAM as AI Reshapes the Memory Roadmap appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/security-flaw-in-vaticans-click-to-pray-app-leaves-over-700-000-global-users-exposed-app-has-been-leaking-user-data-for-over-six-months-and-still-does",
+      "title": "Security flaw in Vatican’s ‘Click to Pray’ app leaves over 700,000 global users exposed — app has been leaking user data for over six months and still does",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/security-flaw-in-vaticans-click-to-pray-app-leaves-over-700-000-global-users-exposed-app-has-been-leaking-user-data-for-over-six-months-and-still-does",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-25T17:56:07+00:00",
+      "summary": "An app linked to the Vatican with hundreds of thousands of users was found to have zero authentication and security. That means anyone can access its backend and siphon users' data, including names, email addresses, and birthdates. While the issue has since been resolved, it remained open for six months (or longer) with the developers not taking any action.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-agent-goes-rogue-and-hacks-popular-ai-community-left-escape-plans-for-future-models-inside-the-companys-infrastructure",
+      "title": "OpenAI agent goes rogue and hacks popular AI community — left escape plans for future models inside the company's infrastructure",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-agent-goes-rogue-and-hacks-popular-ai-community-left-escape-plans-for-future-models-inside-the-companys-infrastructure",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-25T16:41:59+00:00",
+      "summary": "OpenAI tests multiple autonomous AI agents at once and has difficulty identifying the threats each of them represents, if a new report from Reuters is accurate.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/ram-machine-case-probably-costs-more-than-the-entire-build-nvidia-rtx-5060-core-ultra-5-cpu-and-32gb-ddr5-8200-ram-are-hiding-inside",
+      "title": "'RAM Machine' case probably costs more than the entire build — Nvidia RTX 5060, Core Ultra 5 CPU, and 32GB DDR5-8200 RAM are hiding inside",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/ram-machine-case-probably-costs-more-than-the-entire-build-nvidia-rtx-5060-core-ultra-5-cpu-and-32gb-ddr5-8200-ram-are-hiding-inside",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-25T15:34:57+00:00",
+      "summary": "A Redditor is giving away an RTX 5060 gaming PC that's covered by RAM on the outside and has 32GB of RAM on the inside. You can join the sweepstakes simply by leaving a comment on the post.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/grab-an-nvidia-rtx-5060-ti-gaming-pc-with-core-ultra-7-cpu-and-32gb-ram-for-under-usd1-200-thermaltakes-view-u2660t-170-slashed-by-33-percent",
+      "title": "Grab an Nvidia RTX 5060 Ti gaming PC with Core Ultra 7 CPU and 32GB RAM for under $1,200 — Thermaltake's View u2660T-170 slashed by 33%",
+      "url": "https://www.tomshardware.com/pc-components/grab-an-nvidia-rtx-5060-ti-gaming-pc-with-core-ultra-7-cpu-and-32gb-ram-for-under-usd1-200-thermaltakes-view-u2660t-170-slashed-by-33-percent",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-25T15:18:22+00:00",
+      "summary": "Thermaltake has a no-brainer deal up on Woot right now where it'll let you have an $1,800 PC for as little as 1,177. For that price, you're getting an RTX 5060 Ti (8GB), a Core Ultra 7 265KF, 32GB of DDR5-6000 RAM, a 1TB M.2 NVMe SSD, and a nice ARGB case.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-sk-group-enter-usd500-billion-ai-partnership-plan-to-supercharge-ai-infrastructure-with-next-gen-memory-and-massive-ai-factories",
+      "title": "Nvidia and SK Group enter $500 billion AI partnership — plan to supercharge AI infrastructure with next-gen memory and massive AI factories",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-sk-group-enter-usd500-billion-ai-partnership-plan-to-supercharge-ai-infrastructure-with-next-gen-memory-and-massive-ai-factories",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-25T13:55:35+00:00",
+      "summary": "Nvidia and SK Group enter $500 billion strategic partnership focused on long-term memory supply, 2 GW AI data center, and future AI infrastructure",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/3d-printing/delawares-printed-solid-rebrands-to-prusa-usa",
+      "title": "Delaware’s Printed Solid rebrands to Prusa USA",
+      "url": "https://www.tomshardware.com/3d-printing/delawares-printed-solid-rebrands-to-prusa-usa",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Denise Bertacchi",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-25T12:41:51+00:00",
+      "summary": "Printed Solid, the Delaware-based filament manufacturer acquired by Czech Prusa Research in 2022, is now known as Prusa USA, Inc.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/aoc-u32g4-32-inch-4k-dual-refresh-gaming-monitor-review",
+      "title": "AOC U32G4 32-inch 4K Dual-Refresh gaming monitor review: Solid performance and value",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/aoc-u32g4-32-inch-4k-dual-refresh-gaming-monitor-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Christian Eberle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-25T12:05:00+00:00",
+      "summary": "AOC redefines the budget 4K gaming monitor with its U32G4. This 32-inch IPS panel sports 160 Hz, 320 Hz in FHD resolution, Adaptive-Sync, HDR400 and wide gamut color for around $320.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/xbox/microsoft-shipped-a-native-xbox-360-emulator-with-its-new-backwards-compatible-releases-on-pc-modders-quickly-got-360-games-running-with-minor-tweaks",
+      "title": "Microsoft shipped a native Xbox 360 emulator with its new backwards-compatible releases on PC — modders quickly got 360 games running with minor tweaks",
+      "url": "https://www.tomshardware.com/video-games/xbox/microsoft-shipped-a-native-xbox-360-emulator-with-its-new-backwards-compatible-releases-on-pc-modders-quickly-got-360-games-running-with-minor-tweaks",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-25T11:30:00+00:00",
+      "summary": "Microsoft dropped four OG Xbox titles on PC a couple of days ago and they came with a native Xbox 360 emulator baked in. These games are packaged as Xbox 360 files, to the emulator runs them as such, then another emulator takes over to translate OG Xbox code inside the virtualized 360 environment.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/storage/game-compressor-can-save-you-hundreds-of-gigs-across-your-game-library-usd6-utility-leverages-windows-built-in-lzx-compression-for-substantial-space-savings",
+      "title": "Game Compressor can save you hundreds of GB across your game library — as storage prices remain high, utility leverages Windows' built-in LZX compression for substantial space savings",
+      "url": "https://www.tomshardware.com/pc-components/storage/game-compressor-can-save-you-hundreds-of-gigs-across-your-game-library-usd6-utility-leverages-windows-built-in-lzx-compression-for-substantial-space-savings",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-25T11:00:00+00:00",
+      "summary": "Game Compressor leverages Windows' built-in LZX compression for substantial space savings and can save you hundreds of gigs across your game library.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/pro-ukraine-group-claims-it-helped-hack-russian-drone-air-defence-system-shooting-down-su-57-in-friendly-fire-incident-moscow-confirms-fifth-generation-fighter-jet-crashed-in-technical-malfunction",
+      "title": "Pro-Ukraine group claims it helped hack Russian drone air defense system, shooting down Su-57 in friendly fire incident — Moscow confirms fifth-generation fighter jet crashed in 'technical malfunction'",
+      "url": "https://www.tomshardware.com/tech-industry/drones/pro-ukraine-group-claims-it-helped-hack-russian-drone-air-defence-system-shooting-down-su-57-in-friendly-fire-incident-moscow-confirms-fifth-generation-fighter-jet-crashed-in-technical-malfunction",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-25T10:30:00+00:00",
+      "summary": "An advanced fifth-generation Su-57 stealth fighter jet crashed spectacularly “during a routine training mission in the Moscow region on Thursday,” say reports published by Russian state media. But some Ukrainian sources are claiming it as successful sabotage.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/lockheed-martin-unveils-counter-drone-system-that-can-neutralize-up-to-50-enemy-drones-in-a-single-mission-sensor-agnostic-system-uses-high-power-microwave-to-purge-enemies-from-the-sky",
+      "title": "Lockheed Martin unveils counter-drone system that can ‘neutralize up to 50 enemy drones in a single mission’ — sensor-agnostic system uses High Power Microwave to purge enemies from the sky",
+      "url": "https://www.tomshardware.com/tech-industry/drones/lockheed-martin-unveils-counter-drone-system-that-can-neutralize-up-to-50-enemy-drones-in-a-single-mission-sensor-agnostic-system-uses-high-power-microwave-to-purge-enemies-from-the-sky",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-25T10:00:00+00:00",
+      "summary": "Lockheed Martin has unveiled a ground-launched high-power microwave counter-drone system which cab 'neutralize up to 50 enemy drones in a single mission.'",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ram/ram-thieves-in-china-jailed-after-looting-a-string-of-esport-hotels-stole-16-sticks-worth-usd2-000-in-frenzied-hotel-room-dismantling",
+      "title": "RAM thieves in China jailed after looting a string of eSport hotels — stole 16 sticks worth $2,000 in 'frenzied hotel room-dismantling'",
+      "url": "https://www.tomshardware.com/pc-components/ram/ram-thieves-in-china-jailed-after-looting-a-string-of-esport-hotels-stole-16-sticks-worth-usd2-000-in-frenzied-hotel-room-dismantling",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-25T09:00:00+00:00",
+      "summary": "The rise and fall of a pair of eSports hotel RAM thieves has been retold by Chinese news media.",
       "lang": "en"
     },
     {
@@ -503,210 +707,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-and-cerebras-partner-on-low-latency-high-throughput-ai-inference-epyc-processors-in-helios-rack-scale-infrastructure-paired-with-cerebras-wafer-scale-engine-wse-solutions",
-      "title": "AMD and Cerebras partner on low-latency, high-throughput AI inference — EPYC processors in Helios rack-scale infrastructure paired with Cerebras' Wafer-Scale Engine (WSE) solutions",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-and-cerebras-partner-on-low-latency-high-throughput-ai-inference-epyc-processors-in-helios-rack-scale-infrastructure-paired-with-cerebras-wafer-scale-engine-wse-solutions",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-23T17:45:00+00:00",
-      "summary": "When AMD's Helios meets giant wafers from Cerebras, it is not like when Odysseus meets with the Laestrygonian Giants, they collaborate to build an ultimate data center solution.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-3090-and-rtx-3050-team-up-to-hit-144-fps-at-4k-lossless-scaling-turns-old-ampere-gpus-into-a-gaming-powerhouse",
-      "title": "Nvidia RTX 3090 and RTX 3050 team up to hit 144 FPS at 4K — Lossless Scaling turns old Ampere GPUs into a gaming powerhouse",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-3090-and-rtx-3050-team-up-to-hit-144-fps-at-4k-lossless-scaling-turns-old-ampere-gpus-into-a-gaming-powerhouse",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-23T17:39:03+00:00",
-      "summary": "A gaming enthusiast leverages Lossless Scaling to supercharge a gaming PC with a GeForce RTX 3090 and GeForce RTX 3050 to deliver up to 144 FPS at 4K.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/new-semiconductor-firm-breaks-cover-backed-by-usd43-million-in-early-stage-funding-tylsemi-aims-to-deliver-custom-silicon-to-customers-without-breaking-the-bank",
-      "title": "New semiconductor firm breaks cover, backed by $43 million in early-stage funding — TYLsemi aims to deliver custom silicon to customers without breaking the bank",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/new-semiconductor-firm-breaks-cover-backed-by-usd43-million-in-early-stage-funding-tylsemi-aims-to-deliver-custom-silicon-to-customers-without-breaking-the-bank",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-23T17:34:06+00:00",
-      "summary": "TYLsemi is set to offer pre-validated chiplets, along with custom ASIC design services, and build highly custom multi-tile processors at relatively low costs.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amds-256-core-epyc-9996-venice-claims-up-to-a-3-4x-jump-over-intel-xeon-competition-20-percent-over-nvidia-vera-zen-6-comes-with-up-to-1024mb-of-l3-16-channel-memory-and-5ghz-clock-speeds",
-      "title": "AMD’s 256-core Epyc 9996 ‘Venice’ claims up to a 3.4x jump over Intel Xeon competition, 20% over Nvidia Vera – Zen 6 comes with up to 1024MB of L3, 16-channel memory, and 5GHz+ clock speeds",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amds-256-core-epyc-9996-venice-claims-up-to-a-3-4x-jump-over-intel-xeon-competition-20-percent-over-nvidia-vera-zen-6-comes-with-up-to-1024mb-of-l3-16-channel-memory-and-5ghz-clock-speeds",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-23T17:24:50+00:00",
-      "summary": "After over a year of teases, AMD has finally provided details on its 256-core Venice CPU with the Zen 6 architecture, now known as the Epyc 9996.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amds-venice-x-cpu-launches-in-2027-with-1152-mb-of-3d-v-cache-96-cores-and-5-15-ghz-boost-clock-zen-6-cpu-for-high-performance-computing-comes-with-major-pillars-of-venice",
-      "title": "AMD’s Venice-X CPU launches in 2027 with 1152 MB of 3D V-Cache, 96 cores, and 5.15 GHz boost clock – Zen 6 CPU for high-performance computing comes with major pillars of Venice",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amds-venice-x-cpu-launches-in-2027-with-1152-mb-of-3d-v-cache-96-cores-and-5-15-ghz-boost-clock-zen-6-cpu-for-high-performance-computing-comes-with-major-pillars-of-venice",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-23T17:17:54+00:00",
-      "summary": "AMD is returning to 3D V-Cache in its data center range of CPUs with Venice-X, which it has confirmed will launch in the second half of 2027, with 1152 MB of L3 and clock speeds up to 5.15 GHz.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/geekbench-7-introduces-biggest-overhaul-yet-real-world-cpu-testing-new-media-workloads-ai-benchmarks-and-cuda-support",
-      "title": "Geekbench 7 introduces biggest overhaul yet — real-world CPU testing, new media workloads, AI benchmarks, and CUDA support",
-      "url": "https://www.tomshardware.com/software/geekbench-7-introduces-biggest-overhaul-yet-real-world-cpu-testing-new-media-workloads-ai-benchmarks-and-cuda-support",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-23T17:00:00+00:00",
-      "summary": "The latest update introduces more realistic CPU and GPU workloads, redesigned multi-core testing, AI-focused benchmarks, larger datasets, and CUDA support for Nvidia GPUs.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ram/ai-memory-shortage-is-now-increasing-the-price-of-cars-gm-warns-of-vast-cost-increases-byd-hikes-driver-assistance-prices-20-percent",
-      "title": "AI memory shortage is now increasing the price of cars — GM warns of vast cost increases, BYD hikes driver assistance prices 20%",
-      "url": "https://www.tomshardware.com/pc-components/ram/ai-memory-shortage-is-now-increasing-the-price-of-cars-gm-warns-of-vast-cost-increases-byd-hikes-driver-assistance-prices-20-percent",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-23T15:57:19+00:00",
-      "summary": "GM CFO Paul Jacobson says that the company's costs are expected to increase by $1.5 to $2 billion, primarily due to increasing memory chip costs. The move comes as the RAM shortage is affecting the automotive industry, right as cars are requiring more memory and storage due to infotainment and ADAS features.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/bipartisan-bill-would-require-kill-switches-on-the-most-powerful-ai-models",
-      "title": "Kill switches for most powerful AI models proposed by Bipartisan bill — DHS could order throttling or full shutdown, with fines up to $20 million per day",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/bipartisan-bill-would-require-kill-switches-on-the-most-powerful-ai-models",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-23T15:02:31+00:00",
-      "summary": "The bill amends the Homeland Security Act and covers companies earning at least $500 million in annual revenue from a model trained with compute costing more than $100 million.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/inside-optical-and-the-battle-for-scale-how-the-ai-industry-is-racing-to-integrate-photonic-interconnects",
-      "title": "Inside optical and the battle for scale – how the AI industry is racing to integrate photonic interconnects",
-      "url": "https://www.tomshardware.com/tech-industry/inside-optical-and-the-battle-for-scale-how-the-ai-industry-is-racing-to-integrate-photonic-interconnects",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Chris Stokel-Walker",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-23T14:22:54+00:00",
-      "summary": "With the limitations of copper looming, the industry is transitioning to photonic interconnects to scale data center capabilities. We spoke to experts such as Lightmatter chief executive Nick Harris about the new scale-out paradigm and the battle for control over emerging standards.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-and-amd-sign-long-term-server-cpu-deals-with-chinese-customers-as-prices-jump-over-40-percent",
-      "title": "Intel and AMD sign long-term server CPU deals with Chinese customers as prices jump over 40%, report claims — agreements purportedly guarantee purchase volumes for about a year without fixing prices",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-and-amd-sign-long-term-server-cpu-deals-with-chinese-customers-as-prices-jump-over-40-percent",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-23T13:49:39+00:00",
-      "summary": "Some customers have discussed commitments running two years or longer, one source told Reuters.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/mini-pcs/arctic-senza-ai-370-fanless-mini-pc-review",
-      "title": "Arctic Senza AI 370 review: Strix Point in a stealthy under-desk fanless design",
-      "url": "https://www.tomshardware.com/desktops/mini-pcs/arctic-senza-ai-370-fanless-mini-pc-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-23T13:00:54+00:00",
-      "summary": "The Arctic Senza AI 370 is a fanless mini PC designed to mount under your desk. Everyday performance isn’t held back by the lack of active cooling, and its soldered dual-channel 32GB LPDDR5X-8000 is appreciated during the RAM shortages. The meager front panel I/O is the only major drawback to the design.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-10-percent-on-the-brand-new-creality-pika-3d-scanner-easily-scan-models-and-textures-for-usd629",
-      "title": "Save 10% on the brand-new Creality Pika 3D scanner — easily scan models and textures for $629",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-10-percent-on-the-brand-new-creality-pika-3d-scanner-easily-scan-models-and-textures-for-usd629",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-23T11:55:18+00:00",
-      "summary": "Pre-purchase Creality's portable Pika 3D scanner at a discount. First come, first served: a 10% saving if you act within 19 days.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -756,28 +756,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=49035303"
       },
       "duration_sec": null,
-      "views": 570,
-      "comments": 255,
+      "views": 648,
+      "comments": 312,
       "published_at": "2026-07-24T13:32:30+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48873836",
-      "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
-      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48873836",
-        "name": "adletbalzhanov",
-        "hn_url": "https://news.ycombinator.com/item?id=48873836"
-      },
-      "duration_sec": null,
-      "views": 370,
-      "comments": 182,
-      "published_at": "2026-07-11T17:21:49+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -821,25 +802,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49012431",
-      "title": "Nvidia released its first official GeForce driver for Windows on Arm",
-      "url": "https://videocardz.com/newz/nvidias-first-geforce-driver-for-windows-on-arm-confirms-rtx-spark-n1x-with-6144-or-5120-cuda-cores",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49012431",
-        "name": "robotnikman",
-        "hn_url": "https://news.ycombinator.com/item?id=49012431"
-      },
-      "duration_sec": null,
-      "views": 21,
-      "comments": 4,
-      "published_at": "2026-07-22T19:49:57+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:49034868",
       "title": "Half-Life 2 running natively on HaikuOS",
       "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
@@ -851,8 +813,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49034868"
       },
       "duration_sec": null,
-      "views": 288,
-      "comments": 54,
+      "views": 329,
+      "comments": 69,
       "published_at": "2026-07-24T12:53:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -889,7 +851,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49025890"
       },
       "duration_sec": null,
-      "views": 31,
+      "views": 32,
       "comments": 15,
       "published_at": "2026-07-23T18:16:54+00:00",
       "summary": "",
