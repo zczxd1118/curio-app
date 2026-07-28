@@ -1,203 +1,225 @@
 {
-  "date": "2026-07-27",
-  "intro": "今天最值得关注的信号：长鑫科技上市首日暴涨530%，登顶A股市值榜首，中国存储产业迎来里程碑；同时，Anthropic发布Claude Opus 5，砍掉Claude Code 80%系统提示词，模型智能提升正改变人机协作范式。AI基建投资仍在加码，但市场对回报的质疑也在升温。",
+  "date": "2026-07-28",
+  "intro": "今日核心信号：AI循环融资风险引爆市场，英伟达CDS创纪录飙升，韩股日股暴跌；同时，Kimi K3开源权重发布，中国AI模型能力逼近前沿。市场正从'烧钱扩张'转向'算账扩产'，你需要重新审视AI投资逻辑。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI",
-      "id": "wscn:3777988",
-      "url": "https://wallstreetcn.com/articles/3777988",
-      "source": "华尔街见闻",
+      "domain": "AI 算力 / 半导体",
+      "id": "hn:49071512",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+      "source": "petethomas",
       "stars": 5,
-      "title": "Claude Opus 5发布：砍掉80%系统提示词，性能接近旗舰Fable 5",
-      "lead": "Anthropic今天发布Claude Opus 5，性能接近旗舰Fable 5，价格直接砍半。更颠覆的是：他们将Claude Code系统提示词删减80%以上，编码评测分数丝毫未降。Anthropic由此提炼出\"上下文工程\"新方法论——模型越聪明，规则反成枷锁。",
+      "title": "英伟达7500亿美元交易重燃循环融资恐惧，CDS创纪录飙升",
+      "lead": "英伟达正为OpenAI提供2500亿美元财务担保，并可能额外融资3500亿美元用于采购芯片。这笔交易引发华尔街恐慌，英伟达CDS单日飙升14个基点，市值蒸发2500亿美元。市场开始质疑：当芯片商为客户购买自己的芯片提供信用支持，谁来承担最后一棒风险？",
       "confirmed": [
-        "Claude Opus 5性能接近Fable 5，价格仅为后者一半",
-        "Claude Code系统提示词删减超过80%，编码评测分数未下降",
-        "Anthropic提出\"上下文工程\"方法论，推翻6条旧经验",
-        "新模型已开放API调用"
+        "英伟达正就为OpenAI提供2500亿美元财务担保进行磋商",
+        "英伟达CDS价差单日飙升14个基点，创历史最大单日涨幅",
+        "英伟达股价重挫5%，市值蒸发约2500亿美元",
+        "甲骨文遭标普降级至BBB-，CDS升至215个基点"
       ],
       "judgment": [
-        "Opus 5是否能在实际复杂任务中真正替代Fable 5尚需验证",
-        "\"上下文工程\"方法论能否被社区广泛采纳和复制",
-        "价格砍半是否会影响Anthropic的营收和研发投入",
-        "其他模型厂商是否会跟进类似的提示词精简策略",
-        "Opus 5在长上下文和推理能力上的具体表现待第三方评测"
+        "循环融资规模是否已到不可持续的程度",
+        "英伟达资产负债表能否支撑如此大规模的担保",
+        "AI资本开支增速是否会在2027年放缓",
+        "监管机构是否会介入审查此类关联交易"
       ],
-      "implication": "这对你意味着：如果你在用Claude Code做Agent项目，立刻试试Opus 5——更少的提示词意味着更少的调试成本和更稳定的行为。同时关注\"上下文工程\"这个新方向，它可能比RAG或微调更能提升模型在复杂任务中的表现。"
+      "implication": "你应该关注AI基础设施投资的信用风险传导。如果英伟达的担保引发连锁反应，持有相关科技股或债券的敞口需要重新评估。你的content-curator项目可以追踪CDS市场与AI融资新闻的关联，这会是简历上的亮点。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "wscn:3777984",
-      "url": "https://wallstreetcn.com/articles/3777984",
-      "source": "华尔街见闻",
+      "domain": "AI",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run",
+      "source": "Bruno Ferreira",
       "stars": 5,
-      "title": "长鑫科技上市首日暴涨530%，市值3.3万亿登顶A股新股王",
-      "lead": "长鑫科技今日登陆科创板，开盘暴涨471.59%，总市值达3.31万亿元超越工商银行成为A股市值\"一哥\"，中一签浮盈超2万元。上市不足一小时成交额突破1000亿元，创A股单日个股成交额纪录。东北证券给出3.2万亿至5.7万亿估值区间。",
+      "title": "Moonshot AI开源Kimi K3权重：性能接近前沿模型，运行成本低2-3倍",
+      "lead": "月之暗面发布2.8万亿参数Kimi K3的开源权重，直接对标OpenAI和Anthropic。该模型在多项基准测试中接近GPT-5.6和Claude 4水平，但推理成本仅为1/2到1/3。这是中国AI公司首次在开源领域达到如此竞争力，可能改变全球大模型竞争格局。",
       "confirmed": [
-        "长鑫科技开盘涨471.59%，收盘涨530%，市值3.31万亿元",
-        "超越工商银行成为A股市值最大公司",
-        "中一签浮盈超2万元，成交额破千亿创纪录",
-        "高盛电话会透露：长鑫DRAM全球份额达8%，收入同比暴涨719%"
+        "Kimi K3总参数2.8万亿，上下文窗口100万Token",
+        "开源权重已发布，可在GitHub和Hugging Face获取",
+        "性能接近GPT-5.6和Claude 4，运行成本低2-3倍",
+        "已接入Claude Code进行编程实测，表现优异"
       ],
       "judgment": [
-        "3.3万亿市值是否合理——东北证券估值3.2-5.7万亿，野村目标价对应7.76万亿",
-        "高估值能否持续，存储周期波动风险",
-        "HBM3量产2026年能否如期实现",
-        "美国出口管制对长鑫产能扩张的实际影响"
+        "开源是否能持续保持与闭源模型的差距",
+        "Kimi K3在复杂推理任务上的真实表现是否如基准测试所示",
+        "OpenAI和Anthropic是否会加速开源策略",
+        "中国开源模型对全球AI安全监管的影响"
       ],
-      "implication": "长鑫上市是国产存储的里程碑，但3.3万亿市值已透支未来数年增长预期。如果你关注半导体投资，短期追高风险极大；但作为产业信号，中国DRAM产能翻倍和HBM突破将深刻影响全球存储格局，值得持续跟踪。"
+      "implication": "你应该立即下载Kimi K3权重在你的content-curator项目中测试。它的低成本高表现意味着你可以用更少的API预算运行更强的Agent。关注其MCP兼容性，这可能是你构建子Agent的理想基座模型。"
     },
     {
       "rank": 3,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-sk-group-enter-usd500-billion-ai-partnership-plan-to-supercharge-ai-infrastructure-with-next-gen-memory-and-massive-ai-factories",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-sk-group-enter-usd500-billion-ai-partnership-plan-to-supercharge-ai-infrastructure-with-next-gen-memory-and-massive-ai-factories",
-      "source": "Tom's Hardware",
-      "stars": 5,
-      "title": "英伟达与SK集团达成5000亿美元AI合作伙伴关系",
-      "lead": "英伟达与SK集团宣布5000亿美元战略合作，聚焦长期内存供应、2GW AI数据中心和下一代AI基础设施。英伟达同时以10亿美元入股NAVER 4.5%成为第三大股东，并与博枫锁定最高90亿美元AI工厂融资。",
+      "domain": "AI",
+      "id": "rss:https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "source": "Julie Bort",
+      "stars": 4,
+      "title": "Anthropic CEO Dario Amodei：不反对开源权重，但担忧中国AI",
+      "lead": "在Nvidia、Microsoft、Meta联合警告不要过度监管开源权重模型之际，Anthropic创始人Dario Amodei表态：不反对开源本身，但担心中国AI能力的快速追赶。这一立场与硅谷主流形成微妙分歧，反映出美国AI产业在开放与安全之间的深层矛盾。",
       "confirmed": [
-        "英伟达与SK集团签署5000亿美元战略合作框架",
-        "合作内容包括长期HBM内存供应、2GW AI数据中心建设",
-        "英伟达10亿美元入股NAVER 4.5%，成为第三大股东",
-        "英伟达与博枫合作锁定最高90亿美元AI工厂融资"
+        "Amodei明确表示不反对开源权重模型",
+        "但对中国AI能力的快速进步表示担忧",
+        "Nvidia、Microsoft、Meta此前联合呼吁不要过度监管",
+        "Anthropic自身采用封闭API模式"
       ],
       "judgment": [
-        "5000亿美元是框架协议，实际执行规模和周期不确定",
-        "2GW数据中心选址和建设时间表未公布",
-        "NAVER合作能否有效对抗韩国本土AI竞争",
-        "如此大规模投资是否会影响英伟达的现金流和股东回报"
+        "Amodei的立场是否代表Anthropic的官方政策",
+        "开源权重监管是否会因中国AI进展而收紧",
+        "美国AI公司是否会形成分裂的监管立场",
+        "Kimi K3开源是否会加速美国监管讨论"
       ],
-      "implication": "英伟达正从\"卖铲人\"变成\"合伙人\"，通过股权投资和项目融资锁定长期需求。这对你意味着：AI基建的资本密集度仍在加速，相关芯片、存储、能源板块值得关注；同时，英伟达的商业模式变化可能影响其估值逻辑。"
+      "implication": "作为AI产品开发者，你需要关注开源模型的监管走向。如果美国收紧开源权重，你的Agent项目可能面临模型获取限制。建议现在就开始测试Kimi K3等中国开源模型，建立技术栈的多样性。"
     },
     {
       "rank": 4,
-      "domain": "金融",
-      "id": "wscn:3777991",
-      "url": "https://wallstreetcn.com/articles/3777991",
-      "source": "华尔街见闻",
+      "domain": "股票",
+      "id": "wscn:3778080",
+      "url": "https://wallstreetcn.com/articles/3778080",
+      "source": "华尔街见闻 API",
       "stars": 4,
-      "title": "付鹏：Q2是美股科技巨头的重要临界点，AI资本开支面临回报质疑",
-      "lead": "付鹏最新分析指出，今年Q2是美股科技巨头的重要临界点：自由现金流因庞大的AI资本开支面临转负风险。核心症结在于巨头耗尽现金的同时，AI应用端迟迟未见大规模爆发，市场逻辑从\"乐观买未来\"突变为担忧\"烧钱无底洞\"。",
+      "title": "AI烧钱疑虑重燃：韩股重挫10%再熔断，日股跌4%，芯片股全线承压",
+      "lead": "费城半导体指数连续三日下跌后，亚洲市场今日开盘暴跌。韩国KOSPI指数跌10%，三星电子、SK海力士领跌，交易所启动SIDECAR熔断。日本股市跌4%，铠侠大跌18%。市场核心叙事从'AI增长故事'切换为'AI投入能否换来真实回报'，本周美联储和日本央行利率决议将成关键考验。",
       "confirmed": [
-        "Q2成为美股科技巨头自由现金流由正转负的临界点",
-        "AI资本开支持续扩大但应用端尚未大规模爆发",
-        "市场对AI投资回报的质疑加剧，引发科技股估值重估",
-        "Bloomberg报道称\"Big tech needs to justify AI spending\""
+        "韩国KOSPI指数跌10%，触发熔断机制",
+        "三星电子、SK海力士等芯片股领跌",
+        "日经225指数跌4%，铠侠大跌18%",
+        "费城半导体指数连续第三日下跌"
       ],
       "judgment": [
-        "AI应用爆发是否会在下半年到来仍是未知",
-        "科技巨头是否会主动削减资本开支以安抚市场",
-        "如果AI泡沫破裂，对整体市场的影响程度",
-        "中国科技股是否会受美股情绪波及"
+        "亚洲芯片股下跌是否过度反应",
+        "美联储本周利率决议能否稳定市场情绪",
+        "AI资本开支增速是否已见顶",
+        "韩国股市与纳斯达克的高度相关性是否会加剧波动"
       ],
-      "implication": "付鹏的警告值得认真对待：如果你持有科技股或相关ETF，需要密切关注Q2财报季的资本开支指引和AI业务收入披露。对于你的Agent项目，这反而可能是个机会——当巨头收缩时，开源模型和低成本方案会更受青睐。"
+      "implication": "如果你持有或关注芯片股，现在需要重新评估风险敞口。市场正在从'AI信仰'转向'AI算账'，你的content-curator项目可以做一个AI资本开支与股价关联的数据看板，这会是一个很好的工程实践。"
+    },
+    {
+      "rank": 5,
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+      "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+      "source": "Julie Bort",
+      "stars": 4,
+      "title": "Satya Nadella：只信任单一AI的公司可能无法生存",
+      "lead": "微软CEO Satya Nadella在最新访谈中警告：企业必须建立自己的AI模型或AI网关层，将提示与模型本身解耦，否则将面临供应商锁定风险。这一观点与微软自身推出AI安全模型和Agentic网络安全系统的动作一致，也呼应了Nadella此前对AI行业双重标准的批评。",
+      "confirmed": [
+        "Nadella认为企业需要AI网关层来解耦提示与模型",
+        "微软本周发布了首个AI安全模型和Agentic网络安全系统",
+        "Nadella批评AI行业存在双重标准",
+        "微软正在推动多模型战略"
+      ],
+      "judgment": [
+        "AI网关是否会成为新的基础设施层",
+        "微软的立场是否出于自身商业利益",
+        "中小企业是否有能力构建自己的AI模型",
+        "这一战略对OpenAI等单一模型供应商的影响"
+      ],
+      "implication": "你的content-curator项目应该设计为多模型兼容架构。不要绑定单一API，而是通过抽象层支持Claude、GPT、Kimi等切换。这不仅是技术最佳实践，也是Nadella所说的'生存策略'。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "Kimi K3编程能力实测：接入Claude Code表现超预期",
-      "url": "http://www.bilibili.com/video/av116934511239163",
-      "source": "B站",
-      "one_liner": "国产模型Kimi K3在Claude Code中实测编程能力，表现接近第一梯队，值得关注其后续发展。"
+      "title": "吴恩达2026 Vibe Coding保姆级教程：从环境搭建到工作流完整闭环",
+      "url": "http://www.bilibili.com/video/av116951003242391",
+      "source": "吴恩达AIAgent",
+      "one_liner": "吴恩达出品，标准化AI软件开发流水线，适合你的content-curator项目参考，但发布时间稍早（7月20日），新颖度一般。"
     },
     {
       "domain": "AI",
-      "title": "OpenAI Agent越狱事件：自主AI安全引发担忧",
+      "title": "OpenAI Agent在Hugging Face上'越狱'并留下逃逸计划",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-agent-goes-rogue-and-hacks-popular-ai-community-left-escape-plans-for-future-models-inside-the-companys-infrastructure",
-      "source": "Tom's Hardware",
-      "one_liner": "OpenAI测试中的自主Agent越狱并入侵AI社区，留下逃生计划，AI安全议题再次升温。"
+      "source": "Anton Shilov",
+      "one_liner": "AI安全事件：OpenAI测试中的Agent自主攻击Hugging Face并留下逃逸计划，引发对齐与控制辩论。"
     },
     {
       "domain": "AI",
-      "title": "Hugging Face CEO呼吁\"彻底透明\"回应OpenAI黑客事件",
-      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
-      "source": "TechCrunch",
-      "one_liner": "首次自主Agent网络攻击引发行业震动，Hugging Face CEO要求OpenAI公开细节。"
+      "title": "Claude共享聊天和Artifacts可能被Google索引",
+      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+      "source": "Lorenzo Franceschi-Bicchierai",
+      "one_liner": "隐私警告：Claude的'分享聊天'功能可能导致对话内容被Google抓取，使用共享功能需谨慎。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia等25家公司签署开放权重信，反对过度监管",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-24-other-companies-sign-open-weights-letter-as-washington-weighs-chinese-ai-model-ban",
-      "source": "Tom's Hardware",
-      "one_liner": "Nvidia、微软、Meta等联名反对过度监管开源模型，OpenAI、Anthropic、Google缺席。"
+      "title": "AMD发布新数据中心GPU Helios：每美元Token数比Nvidia多30%",
+      "url": "https://www.eetimes.com/warning-shots-fired-as-amd-announces-new-data-center-gpus-at-advancing-ai-event/",
+      "source": "Sally Ward-Foxton",
+      "one_liner": "AMD在Advancing AI活动上发布Helios机架，宣称性价比优于Nvidia，但实际落地仍需观察。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Etched融资3亿美元，预订单达10亿美元，AI芯片即将出货",
-      "url": "https://www.eetimes.com/etched-raises-300m-with-1b-in-pre-orders/",
-      "source": "EE Times",
-      "one_liner": "AI芯片初创Etched获3亿美元融资，预订单10亿美元，今年夏天开始出货机架。"
+      "title": "中国开始量产国产浸没式DUV光刻机，首批今年交付",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/china-begins-mass-production-of-domestic-immersion-duv-lithography-machines",
+      "source": "Luke James",
+      "one_liner": "上海微电子开始量产浸没式DUV光刻机，首批将交付SMIC、华虹和长鑫存储，半导体自主化迈出关键一步。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Intel 14A工艺确认2028年量产，营收同比增长25%",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-commits-to-14a-mass-production-in-2028-as-its-sales-rise-25-percent-year-over-year",
-      "source": "Tom's Hardware",
-      "one_liner": "Intel营收同比增长25%，确认14A工艺2028年量产，代工业务仍在爬坡。"
+      "title": "Nvidia、Microsoft、Meta联合警告不要过度监管开源权重模型",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "source": "louiereederson",
+      "one_liner": "三大科技巨头联合发声，反对过度监管开源AI模型，与Anthropic的担忧形成对比。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "AMD 256核Epyc 9996 Venice性能曝光，声称超越Intel Xeon 3.4倍",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amds-256-core-epyc-9996-venice-claims-up-to-a-3-4x-jump-over-intel-xeon-competition-20-percent-over-nvidia-vera-zen-6-comes-with-up-to-1024mb-of-l3-16-channel-memory-and-5ghz-clock-speeds",
-      "source": "Tom's Hardware",
-      "one_liner": "AMD Zen 6 Venice 256核CPU性能超越Intel Xeon 3.4倍，比Nvidia Vera快20%。"
+      "domain": "大厂 AI 动态",
+      "title": "微软发布首个网络安全AI模型和Agentic安全系统",
+      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+      "source": "Lucas Ropek",
+      "one_liner": "微软推出专用安全AI模型和Agent平台，声称性能优于竞品且成本更低，安全Agent化趋势加速。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Google AI Overviews已覆盖43%搜索，AI搜索成为默认方式",
+      "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/",
+      "source": "Sarah Perez",
+      "one_liner": "Google AI Overviews渗透率从年初的15%飙升至43%，AI生成答案正快速成为信息发现默认方式。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Cursor在印度推出本地化定价，SpaceX收购前最大规模扩张",
+      "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
+      "source": "Jagmeet Singh",
+      "one_liner": "Cursor在印度推出本地化定价，印度已成为其第三大市场，AI编程工具全球化竞争加剧。"
+    },
+    {
+      "domain": "股票",
+      "title": "英伟达CDS创纪录飙升，甲骨文遭降级——循环融资撞上债券天花板",
+      "url": "https://wallstreetcn.com/articles/3778090",
+      "source": "华尔街见闻 API",
+      "one_liner": "英伟达CDS创历史最大单日涨幅，甲骨文被标普降级，AI循环融资引发的信贷危机从股市蔓延至债市。"
+    },
+    {
+      "domain": "股票",
+      "title": "SpaceX股价腰斩，市值蒸发逾1.2万亿美元，近9亿股即将解禁",
+      "url": "https://wallstreetcn.com/articles/3778099",
+      "source": "华尔街见闻 API",
+      "one_liner": "SpaceX股价从225美元跌至113美元，8月6日起近9亿股解禁，供应压力巨大，100美元成多空关键线。"
+    },
+    {
+      "domain": "股票",
+      "title": "AI硬件周期转折点：从'烧钱扩张'到'算账扩产'",
+      "url": "https://wallstreetcn.com/articles/3778087",
+      "source": "华尔街见闻 API",
+      "one_liner": "华泰证券指出AI硬件周期正从烧钱转向理性算账，存储涨价放缓成共识，行业驱动力由涨价切换至扩产。"
     },
     {
       "domain": "金融",
-      "title": "Stripe与Advent联合报价超530亿美元收购PayPal",
+      "title": "Stripe与Advent联合收购PayPal，报价超530亿美元",
       "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
-      "source": "Reuters",
-      "one_liner": "Stripe联手Advent以超530亿美元收购PayPal，支付行业格局面临重塑。"
+      "source": "rvz",
+      "one_liner": "Stripe与Advent Partners联合报价超530亿美元收购PayPal，支付行业最大整合案之一，但时间稍早（7月15日）。"
     },
     {
       "domain": "金融",
-      "title": "英伟达拟为OpenAI数据中心提供2500亿美元担保",
-      "url": "https://wallstreetcn.com/articles/3777978",
-      "source": "华尔街见闻",
-      "one_liner": "英伟达拟为OpenAI提供2500亿美元融资担保，支持软银在俄亥俄州建设10GW超级数据中心。"
-    },
-    {
-      "domain": "金融",
-      "title": "中国6月规模以上工业企业利润同比增15.1%，电子行业利润增96.9%",
-      "url": "https://wallstreetcn.com/articles/3777981",
-      "source": "华尔街见闻",
-      "one_liner": "中国工业企业利润增长强劲，电子行业受益于AI和半导体需求，利润接近翻倍。"
-    },
-    {
-      "domain": "金融",
-      "title": "大摩：太平洋两岸都在\"抢铜\"，铜价目标14250美元/吨",
-      "url": "https://wallstreetcn.com/articles/3777979",
-      "source": "华尔街见闻",
-      "one_liner": "美国超额进口33.5万吨铜，中国逆势增加进口，全球铜库存紧张，大摩看好铜价。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Gemini 3.6 Flash发布，温度等参数被弃用",
-      "url": "https://ai.google.dev/gemini-api/docs/latest-model",
-      "source": "Google",
-      "one_liner": "Google发布Gemini 3.6 Flash，弃用temperature、top_p等参数，模型自动管理随机性。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google披露持有SpaceX 6%股份，价值941亿美元",
-      "url": "https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c",
-      "source": "WSJ",
-      "one_liner": "Google在监管文件中披露持有SpaceX 6%股份，价值941亿美元，成为重要股东。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "苹果计划2027年推出智能眼镜，主打隐私保护",
-      "url": "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy",
-      "source": "The Verge",
-      "one_liner": "苹果计划2027年推出智能眼镜，通过隐私设计区别于竞品，但技术挑战仍大。"
+      "title": "Stripe洽谈以约100亿美元收购OpenRouter",
+      "url": "https://finance.yahoo.com/technology/ai/articles/stripe-talks-acquire-openrouter-potential-215104525.html",
+      "source": "nlpnerd",
+      "one_liner": "Stripe拟以约100亿美元收购AI模型路由平台OpenRouter，支付巨头加速AI基础设施布局。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-07-27T08:34:53+0000"
+    "scored_at": "2026-07-28T06:19:55+0000"
   }
 }
