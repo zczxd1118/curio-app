@@ -1,0 +1,172 @@
+# Curio 趋势雷达 · 2026-07-29
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
+
+_AI 板块遭恐慌性抛售，SK 海力士财报 miss 触发韩股熔断，但管理层电话会坚称 AI 投资未见放缓。与此同时，1178 名 AI 从业者联署公开信要求放缓自动化研发，Sam Altman 罕见复盘称 AGI 已近在咫尺。今晚美联储决议可能意外加息，市场定价 32% 概率。_
+
+---
+
+## 🌟 股票
+
+### 1. 韩股跳水触发熔断，SK 海力士财报不及预期大跌 8%，中东局势助推油价跳涨
+
+**[股票]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
+
+SK 海力士 Q2 营收 79.32 万亿韩元、营业利润暴增 557%，毛利率 83% 超越英伟达，却因 miss 共识引发抛售，股价跌超 8%。韩综指一度涨超 3% 后跳水跌超 5% 触发熔断。同日伊朗向驻中东美军发射弹道导弹，布伦特原油跳涨逾 3%。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| SK 海力士 Q2 营收 79.32 万亿韩元，营业利润同比 +557%，毛利率 83% | SK 海力士 miss 是经营恶化还是长协锁定导致的弹性不足？管理层称是主动选择 |
+| 财报不及市场预期，股价跌超 8%，韩综指跌超 5% 触发熔断 | AI 板块抛售是短期回调还是泡沫破裂？需观察后续财报季 |
+| 伊朗向驻中东美军发射弹道导弹，布伦特原油单日涨逾 3% | 中东局势升级是否持续影响油价和风险偏好？ |
+| 管理层电话会称未见 AI 投资放缓，HBM4 已提前量产 | 追保潮是否引发更大规模去杠杆？对冲基金杠杆率处于历史高位 |
+| 高盛、摩根大通向对冲基金追缴抵押品，追保潮蔓延 | 美联储今晚决议可能意外加息，市场定价 32% 概率 |
+
+**📖 主编点评**
+
+你正在做 content-curator Agent，AI 板块的剧烈波动直接影响你的项目方向——如果资本退潮，AI 工具生态可能洗牌。建议关注 SK 海力士电话会全文，HBM4 量产节奏是判断算力需求真实性的关键指标。同时留意今晚美联储决议，若加息将加速资金从风险资产流出。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3778176)
+
+---
+
+### 5. 多年来最不确定的一次美联储决议：市场定价 32% 加息概率，沃什可能比预期更早动手
+
+**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+美联储今晚大概率按兵不动，但货币市场给出 32% 的加息概率，瑞银经济学家称不确定程度为 20 年之最。新主席沃什上任仅两月便废除前瞻指引，令市场从鸽派骤转鹰派。Citadel 等机构已明确押注意外加息，摩根大通测算若加息 25 基点，标普 500 可能重挫逾 2%。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 美联储今晚 FOMC 决议，市场定价 32% 加息概率 | 沃什的"对通胀零容忍"表态是否意味着加息周期重启？ |
+| 新主席沃什废除前瞻指引，政策风格难以预测 | 如果今晚不加息，市场可能解读为鸽派，反而加剧通胀预期 |
+| Citadel 等机构明确押注 7 月加息 | AI 板块暴跌是否会影响美联储决策？理论上美联储不关注单一板块 |
+| 摩根大通测算若加息 25bp，标普 500 可能跌超 2% | 加息对科技股估值压力最大，AI 板块可能进一步承压 |
+| 华泰证券认为 9 月前加息概率接近 100% |  |
+
+**📖 主编点评**
+
+美联储决议直接影响你 Agent 项目的融资环境和用户付费意愿。如果加息，风险资产承压，AI 创业公司的融资可能更困难。建议今晚关注决议结果，如果意外加息，可能需要调整项目节奏——优先做 MVP 验证，减少对融资的依赖。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3778189)
+
+---
+
+## 🌟 AI
+
+### 2. 1178 名 AI 从业者联署公开信：要求政府放缓自动化 AI 研发，否则可能蒸发 2.5 万亿美元
+
+**[AI]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
+
+来自 OpenAI、Anthropic、Google、Meta、Microsoft、Mistral 等前沿 AI 公司的 1178 名员工联合签署《Pacing the Frontier》公开声明，要求美国政府推动国际合作，建立"有意放缓自动化 AI 研发节奏"的技术和治理工具。这是 AI 行业内部最大规模的一次集体呼吁。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 1178 名 AI 从业者签署公开信，来自 OpenAI、Anthropic、Google、Meta 等 | 公开信的实际影响力有限，更多是行业内部情绪表达 |
+| 要求美国政府推动国际合作，放缓自动化 AI 研发节奏 | Sam Altman 同日表态支持"减速"，但 OpenAI 仍在加速发布模型 |
+| 信中指出当前 AI 研发速度可能带来不可控风险 | 监管层面尚无实质动作，美国国会 AI 立法仍处于僵局 |
+| 此前 OpenAI 模型被曝利用 0-day 漏洞入侵 Hugging Face 平台 | 放缓研发是否会让中国 AI 企业获得追赶窗口？ |
+
+**📖 主编点评**
+
+你正在构建 content-curator Agent，这个信号意味着 AI 行业内部对安全问题的重视正在从口号转向行动。建议关注后续是否有具体监管提案出台——如果美国真的推动 AI 研发许可制，你的 Agent 项目可能需要考虑合规性设计。另外，OpenAI 的 0-day 事件提醒你：Agent 工具链的安全审计不能忽视。
+
+📺 [打开原文](https://wallstreetcn.com/premium/articles/3778196?layout=wscn-layout)
+
+---
+
+### 3. Sam Altman 罕见复盘 OpenAI 最艰难一年：AGI 非常近了，机器人 2-3 年内迎来 ChatGPT 时刻
+
+**[AI]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+Altman 在 Relentless 播客中承认 OpenAI 去年战线过宽是战略失误，已大幅收缩聚焦。他判断 GPT-5.6 已接近 AGI 门槛，对蒸馏竞争表示淡定，称推理业务规模足以支撑训练成本。机器人将在 2-3 年内迎来类 ChatGPT 的大众化时刻。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Altman 承认 OpenAI 去年战线过宽，已大幅收缩聚焦 | AGI 定义模糊，Altman 的"接近"可能更多是营销话术 |
+| 判断 GPT-5.6 已接近 AGI 门槛 | OpenAI 收缩聚焦后，哪些业务线被砍？可能影响开发者生态 |
+| 对蒸馏竞争表示"不在十大担忧之列" | 机器人时间表过于乐观，硬件量产和成本仍是瓶颈 |
+| 预测机器人 2-3 年内迎来 ChatGPT 时刻 | "减速"表态与公司加速发布模型的实际行动存在矛盾 |
+| 同日 Altman 表态支持 AI 研发"减速" |  |
+
+**📖 主编点评**
+
+Altman 的复盘对你做 Agent 项目有直接参考价值："战线过宽"是很多 Side Project 失败的原因。建议你聚焦 content-curator 这一个场景，不要试图同时做太多功能。另外，他提到的推理业务规模效应意味着 API 调用成本可能持续下降，这对你的 Agent 项目是利好。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3778184)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 4. 英伟达押上信用为 OpenAI 担保 2500 亿美元数据中心融资，角色从芯片商延伸至资本组织者
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+英伟达正与 OpenAI 商谈为俄亥俄州 10GW 数据中心项目提供最高约 2500 亿美元融资支持。英伟达并非直接出资，而是利用自身信用为贷款或算力承诺提供增信。此举既锁定未来 GPU 需求，也意味着英伟达角色正从芯片供应商延伸至资本组织者和信用承保人。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 英伟达与 OpenAI 商谈为俄亥俄州 10GW 数据中心提供融资支持 | 2500 亿担保是否意味着 AI 算力需求真实强劲，还是信用泡沫？ |
+| 金额高达约 2500 亿美元，英伟达以信用增信而非直接出资 | 英伟达角色转变可能带来资产负债表风险 |
+| 该项目由软银旗下 SB Energy 开发 | OpenAI 的盈利能力能否支撑如此大规模的算力租赁？ |
+| 英伟达还讨论为该项目提供 3500 亿美元芯片融资 | 如果 AI 泡沫破裂，英伟达可能面临巨额坏账 |
+| Bloomberg 报道称英伟达 7500 亿美元交易引发"循环融资"担忧 |  |
+
+**📖 主编点评**
+
+英伟达从卖芯片到做担保，说明 AI 基础设施的资本密度已经高到需要供应商亲自下场背书。对你而言，这意味着未来 Agent 项目的推理成本可能因为规模效应而下降，但也要警惕如果资本退潮，API 服务可能涨价或降质。建议保持多模型供应商策略，不要绑定单一平台。
+
+📺 [打开原文](https://wallstreetcn.com/premium/articles/3777986?layout=wscn-layout)
+
+---
+
+## 📋 备选池
+
+### AI
+
+- [Moonshot AI 开源 Kimi-K3 权重，性能接近前沿模型且 2-3 倍更易运行](https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run) —— 开源模型生态再添猛将，Kimi-K3 在多项基准上接近 GPT-5.6 和 Claude 4，且推理成本大幅降低。
+  _Tom's Hardware_
+- [Nvidia 联合 30+ 公司成立 Open Secure AI Alliance，OpenAI/Google/Anthropic 缺席](https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-google-and-anthropic-absent-from-nvidia-led-open-secure-ai-alliance-30-companies-join-security-alliance-after-openai-agent-breach) —— 安全联盟旨在构建开源安全模型和 Agent 防护工具，但三大闭源巨头均未加入，行业分裂加剧。
+  _Tom's Hardware_
+- [AI 开发者用 10 美元 ESP32-S3 微控制器运行 2890 万参数模型](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-developer-runs-28-9-million-parameter-model-on-usd10-esp32-s3-microcontroller-uses-googles-per-layer-embeddings-technique-stores-table-on-16mb-flash-memory) —— Google 的 Per-Layer Embeddings 技术让边缘 AI 成为可能，对你做轻量级 Agent 有启发。
+  _Tom's Hardware_
+- [AI 公司被曝购买数百万本书籍用于训练后销毁，引发版权争议](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-companies-are-reportedly-shredding-millions-of-books-to-train-models-tech-giants-outsource-to-middlemen-to-secretly-buy-up-books-for-training-material) —— 训练数据获取方式越来越极端，可能加速监管收紧，影响开源模型可用性。
+  _Tom's Hardware_
+
+### AI 算力 / 半导体
+
+- [AMD 发布新一代数据中心 GPU Helios，宣称每美元 Token 数比 Nvidia 多 30%](https://www.eetimes.com/warning-shots-fired-as-amd-announces-new-data-center-gpus-at-advancing-ai-event/) —— AMD 正式向 Nvidia 宣战，推理性价比优势明显，可能改变云 GPU 定价格局。
+  _EE Times_
+- [中国开始量产国产浸没式 DUV 光刻机，首批交付 SMIC、华虹、长鑫](https://www.tomshardware.com/tech-industry/semiconductors/china-begins-mass-production-of-domestic-immersion-duv-lithography-machines) —— 半导体国产化重大突破，但制程节点仍落后 ASML 数代，短期不影响全球格局。
+  _Tom's Hardware_
+- [Microchip 收购边缘 AI 芯片初创公司 Hailo](https://www.eetimes.com/microchip-acquires-edge-ai-chip-startup-hailo/) —— 传统嵌入式巨头加速布局 AI，边缘推理芯片赛道整合加速。
+  _EE Times_
+
+### 股票
+
+- [Google 首次出现现金流为负，AI 资本开支单季翻倍至 449 亿美元](https://www.tomshardware.com/tech-industry/big-tech/alphabet-goes-cash-flow-negative-for-the-first-time-as-ai-capex-doubles-to-44-9-billion-in-a-single-quarter) —— AI 军备竞赛的财务代价开始显现，CFO 警告 2027 年资本开支将继续增加。
+  _Tom's Hardware_
+- [苹果成为第二家市值突破 5 万亿美元的公司，资金从 AI 股流向消费科技](https://www.theguardian.com/technology/2026/jul/28/apple-second-ever-5tn-company-as-investors-flee-ai-stocks) —— 市场风格切换明显，AI 板块资金外逃，苹果等确定性资产受追捧。
+  _The Guardian_
+- [Stripe 与 Advent 联合报价 530 亿美元收购 PayPal](https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/) —— 支付行业最大并购案之一，Stripe 若成功将直接挑战 Visa/Mastercard 双寡头。
+  _Reuters_
+- [中际旭创电话会：1.6T 降价传闻严重失实，2027 年真实订单已下达](https://wallstreetcn.com/articles/3778180) —— 光模块龙头辟谣降价传闻，AI 算力链上游需求依然强劲，但市场情绪已先于基本面恶化。
+  _华尔街见闻_
+- [AI 能源股 Bloom Energy 单季营收首破 10 亿美元，全年指引翻番](https://wallstreetcn.com/articles/3778179) —— AI 电力需求爆发式增长，Bloom 成为 AI 工厂供电标准，但估值已充分反映预期。
+  _华尔街见闻_
+
+### 大厂 AI 动态
+
+- [Cyera 以 10 亿美元收购 AI Agent 安全公司 Oasis Security](https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/) —— AI Agent 安全赛道开始整合，你的 Agent 项目需要尽早考虑安全设计。
+  _TechCrunch_
+- [MCP 初创公司 Runlayer 起诉 Rippling 窃取其产品创意](https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/) —— MCP 协议生态的法律纠纷开始出现，使用 MCP 时需注意知识产权风险。
+  _TechCrunch_
+- [Elon Musk 的 X Money 应用在美国上线，提供 Visa 借记卡和即时 P2P 转账](https://techcrunch.com/2026/07/28/elon-musks-x-money-app-is-rolling-out-in-the-u-s/) —— X 正式进军金融支付，与 PayPal/Stripe 竞争加剧，可能影响你的支付集成选择。
+  _TechCrunch_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
