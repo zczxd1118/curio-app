@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-07-29T05:58:30.541418+00:00",
+  "fetched_at": "2026-07-30T05:49:29.788160+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 5,
+    "HN · Nvidia": 6,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 28,
+  "total": 29,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,108 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/iot-tech-expo-europe-returns-to-amsterdam-as-industrial-ai-and-edge-intelligence-reshape-connected-industry/",
+      "title": "IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Reshape Connected Industry",
+      "url": "https://www.eetimes.com/iot-tech-expo-europe-returns-to-amsterdam-as-industrial-ai-and-edge-intelligence-reshape-connected-industry/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "IoT Tech Expo",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-30T00:42:04+00:00",
+      "summary": "https://www.iottechexpo.com/europe/ From autonomous factories and AI-powered robots to connected vehicles and smart cities, organizations are entering a new era where connected systems are expected not only to collect data, but also to analyze, decide, and act in real time. As Industrial IoT continues to evolve, the focus has shifted beyond deploying connected devices. Today&#8217;s challenge [&#8230;] The post IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Resh...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/dynamic-ai-demands-drive-memory-diversity/",
+      "title": "Dynamic AI Demands Drive Memory Diversity",
+      "url": "https://www.eetimes.com/dynamic-ai-demands-drive-memory-diversity/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T18:00:00+00:00",
+      "summary": "AI workloads aren't creating new memory categories—they're sharpening the trade-offs between capacity, latency, and power. The post Dynamic AI Demands Drive Memory Diversity appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/commercial-space-screening-approach-for-agile-high-reliability-payloads-2/",
+      "title": "Commercial Space Screening Approach for Agile, High-Reliability Payloads",
+      "url": "https://www.eetimes.com/commercial-space-screening-approach-for-agile-high-reliability-payloads-2/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Analog Devices",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T14:00:00+00:00",
+      "summary": "As satellite deployments accelerate and mission economics evolve, engineers face a growing challenge: balancing the reliability demands of space operation with the cost, lead-time, size, and technology limitations associated with traditional space-qualified components. Conventional qualification approaches provide proven reliability but often introduce lengthy procurement cycles, larger package footprints, higher mass, and restricted access to the [&#8230;] The post Commercial Space Screening Ap...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/physical-ai-isnt-just-bigger-ai-its-a-systems-architecture-challenge/",
+      "title": "Physical AI Isn’t Just Bigger AI; It’s a Systems Architecture Challenge",
+      "url": "https://www.eetimes.com/physical-ai-isnt-just-bigger-ai-its-a-systems-architecture-challenge/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Rahul Patel, president and CEO, board director, Synaptics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T14:00:00+00:00",
+      "summary": "Physical AI wins by fusing sensors, edge compute, and feedback loops. Learn why systems, not TOPS, matter. The post Physical AI Isn&#8217;t Just Bigger AI; It&#8217;s a Systems Architecture Challenge appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/designing-efficient-signal-chains-with-easy-drive-adcs/",
+      "title": "Designing Efficient Signal Chains with Easy Drive ADCs",
+      "url": "https://www.eetimes.com/designing-efficient-signal-chains-with-easy-drive-adcs/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Analog Devices, Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T12:50:29+00:00",
+      "summary": "Date: Wednesday, August 19, 2026 or Wednesday, August 26, 2026 This webcast will explain how and why Easy Drive SAR ADCs from Analog Devices can deliver the precision you need without the headache of high-speed ADC driver amplifiers. Join us&#160;for this webcast, where our expert will begin with an overview of why conventional SAR ADCs have historically [&#8230;] The post Designing Efficient Signal Chains with Easy Drive ADCs appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/from-co-packaged-optics-to-nanolasers-photonics-moves-inward/",
+      "title": "From Co-Packaged Optics to Nanolasers, Photonics Moves Inward",
+      "url": "https://www.eetimes.com/from-co-packaged-optics-to-nanolasers-photonics-moves-inward/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T08:02:27+00:00",
+      "summary": "CEA-Leti, Scintil Photonics, and NcodiN show how optical interconnects are moving from data center racks toward co-packaged optics and chiplet-level communication. The post From Co-Packaged Optics to Nanolasers, Photonics Moves Inward appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/microchip-acquires-edge-ai-chip-startup-hailo/",
       "title": "Microchip Acquires Edge AI Chip Startup Hailo",
       "url": "https://www.eetimes.com/microchip-acquires-edge-ai-chip-startup-hailo/",
@@ -257,108 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/warning-shots-fired-as-amd-announces-new-data-center-gpus-at-advancing-ai-event/",
-      "title": "Warning Shots Fired as AMD Announces New Data Center GPUs",
-      "url": "https://www.eetimes.com/warning-shots-fired-as-amd-announces-new-data-center-gpus-at-advancing-ai-event/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T16:58:23+00:00",
-      "summary": "Red team’s new Helios racks offer 30% more tokens per dollar than Nvidia. The post Warning Shots Fired as AMD Announces New Data Center GPUs appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/automotive-ethernet-and-time-sensitive-networking-tsn-for-next-generation-vehicles/",
-      "title": "Automotive Ethernet and Time Sensitive Networking (TSN) for Next Generation Vehicles",
-      "url": "https://www.eetimes.com/automotive-ethernet-and-time-sensitive-networking-tsn-for-next-generation-vehicles/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "eInfochips",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T15:59:39+00:00",
-      "summary": "In this session, our expert will provide a practical overview of Automotive Ethernet, TSN, and much more. The post Automotive Ethernet and Time Sensitive Networking (TSN) for Next Generation Vehicles appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/bringing-inference-to-the-patient-systems-architecture-for-healthcare-edge-ai/",
-      "title": "Bringing Inference to the Patient: Systems Architecture for Healthcare Edge AI",
-      "url": "https://www.eetimes.com/bringing-inference-to-the-patient-systems-architecture-for-healthcare-edge-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Beenish Zia, Principal Engineer, Intel",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T13:00:00+00:00",
-      "summary": "Scaling healthcare AI effectively—starting with the right edge infrastructure. The post Bringing Inference to the Patient: Systems Architecture for Healthcare Edge AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/adaptive-hardware-could-change-how-ev-chargers-are-designed/",
-      "title": "Adaptive Hardware Could Change How EV Chargers Are Designed",
-      "url": "https://www.eetimes.com/adaptive-hardware-could-change-how-ev-chargers-are-designed/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T13:00:00+00:00",
-      "summary": "Vanix bets adaptive AMD hardware can make India’s EV chargers upgradeable, not disposable. The post Adaptive Hardware Could Change How EV Chargers Are Designed appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/cxmt-ipo-where-chinas-largest-dram-maker-stands/",
-      "title": "CXMT IPO: Where China’s Largest DRAM Maker Stands?",
-      "url": "https://www.eetimes.com/cxmt-ipo-where-chinas-largest-dram-maker-stands/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T07:20:00+00:00",
-      "summary": "CXMT eyes one of China’s largest semiconductor IPOs amid once-in-four-decades memory shortage. The post CXMT IPO: Where China’s Largest DRAM Maker Stands? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/intel-foundry-improves-execution-but-external-customers-remain-the-test/",
-      "title": "Intel Foundry Improves Execution, but External Customers Remain the Test",
-      "url": "https://www.eetimes.com/intel-foundry-improves-execution-but-external-customers-remain-the-test/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-24T22:00:00+00:00",
-      "summary": "Intel’s fabs are healing, but $293M in outside revenue won’t scare TSMC yet. The post Intel Foundry Improves Execution, but External Customers Remain the Test appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -408,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49035303"
       },
       "duration_sec": null,
-      "views": 657,
+      "views": 659,
       "comments": 318,
       "published_at": "2026-07-24T13:32:30+00:00",
       "summary": "",
@@ -428,7 +428,7 @@
       },
       "duration_sec": null,
       "views": 102,
-      "comments": 79,
+      "comments": 80,
       "published_at": "2026-07-19T19:44:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -465,7 +465,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49034868"
       },
       "duration_sec": null,
-      "views": 338,
+      "views": 339,
       "comments": 71,
       "published_at": "2026-07-24T12:53:59+00:00",
       "summary": "",
@@ -487,6 +487,25 @@
       "views": 112,
       "comments": 2,
       "published_at": "2026-07-24T13:58:12+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49025890",
+      "title": "AMD's 256-core Epyc 9996 'Venice' claims up to a 3.4x jump over Intel Xeon",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amds-256-core-epyc-9996-venice-claims-up-to-a-3-4x-jump-over-intel-xeon-competition-20-percent-over-nvidia-vera-zen-6-comes-with-up-to-1024mb-of-l3-16-channel-memory-and-5ghz-clock-speeds",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49025890",
+        "name": "rndsignals",
+        "hn_url": "https://news.ycombinator.com/item?id=49025890"
+      },
+      "duration_sec": null,
+      "views": 32,
+      "comments": 15,
+      "published_at": "2026-07-23T18:16:54+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

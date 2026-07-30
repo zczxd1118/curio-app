@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-07-29T05:57:58.899166+00:00",
+  "fetched_at": "2026-07-30T05:48:57.941317+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -197,6 +197,108 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/iot-tech-expo-europe-returns-to-amsterdam-as-industrial-ai-and-edge-intelligence-reshape-connected-industry/",
+      "title": "IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Reshape Connected Industry",
+      "url": "https://www.eetimes.com/iot-tech-expo-europe-returns-to-amsterdam-as-industrial-ai-and-edge-intelligence-reshape-connected-industry/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "IoT Tech Expo",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-30T00:42:04+00:00",
+      "summary": "https://www.iottechexpo.com/europe/ From autonomous factories and AI-powered robots to connected vehicles and smart cities, organizations are entering a new era where connected systems are expected not only to collect data, but also to analyze, decide, and act in real time. As Industrial IoT continues to evolve, the focus has shifted beyond deploying connected devices. Today&#8217;s challenge [&#8230;] The post IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Resh...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/dynamic-ai-demands-drive-memory-diversity/",
+      "title": "Dynamic AI Demands Drive Memory Diversity",
+      "url": "https://www.eetimes.com/dynamic-ai-demands-drive-memory-diversity/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T18:00:00+00:00",
+      "summary": "AI workloads aren't creating new memory categories—they're sharpening the trade-offs between capacity, latency, and power. The post Dynamic AI Demands Drive Memory Diversity appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/commercial-space-screening-approach-for-agile-high-reliability-payloads-2/",
+      "title": "Commercial Space Screening Approach for Agile, High-Reliability Payloads",
+      "url": "https://www.eetimes.com/commercial-space-screening-approach-for-agile-high-reliability-payloads-2/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Analog Devices",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T14:00:00+00:00",
+      "summary": "As satellite deployments accelerate and mission economics evolve, engineers face a growing challenge: balancing the reliability demands of space operation with the cost, lead-time, size, and technology limitations associated with traditional space-qualified components. Conventional qualification approaches provide proven reliability but often introduce lengthy procurement cycles, larger package footprints, higher mass, and restricted access to the [&#8230;] The post Commercial Space Screening Ap...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/physical-ai-isnt-just-bigger-ai-its-a-systems-architecture-challenge/",
+      "title": "Physical AI Isn’t Just Bigger AI; It’s a Systems Architecture Challenge",
+      "url": "https://www.eetimes.com/physical-ai-isnt-just-bigger-ai-its-a-systems-architecture-challenge/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Rahul Patel, president and CEO, board director, Synaptics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T14:00:00+00:00",
+      "summary": "Physical AI wins by fusing sensors, edge compute, and feedback loops. Learn why systems, not TOPS, matter. The post Physical AI Isn&#8217;t Just Bigger AI; It&#8217;s a Systems Architecture Challenge appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/designing-efficient-signal-chains-with-easy-drive-adcs/",
+      "title": "Designing Efficient Signal Chains with Easy Drive ADCs",
+      "url": "https://www.eetimes.com/designing-efficient-signal-chains-with-easy-drive-adcs/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Analog Devices, Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T12:50:29+00:00",
+      "summary": "Date: Wednesday, August 19, 2026 or Wednesday, August 26, 2026 This webcast will explain how and why Easy Drive SAR ADCs from Analog Devices can deliver the precision you need without the headache of high-speed ADC driver amplifiers. Join us&#160;for this webcast, where our expert will begin with an overview of why conventional SAR ADCs have historically [&#8230;] The post Designing Efficient Signal Chains with Easy Drive ADCs appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/from-co-packaged-optics-to-nanolasers-photonics-moves-inward/",
+      "title": "From Co-Packaged Optics to Nanolasers, Photonics Moves Inward",
+      "url": "https://www.eetimes.com/from-co-packaged-optics-to-nanolasers-photonics-moves-inward/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T08:02:27+00:00",
+      "summary": "CEA-Leti, Scintil Photonics, and NcodiN show how optical interconnects are moving from data center racks toward co-packaged optics and chiplet-level communication. The post From Co-Packaged Optics to Nanolasers, Photonics Moves Inward appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/microchip-acquires-edge-ai-chip-startup-hailo/",
       "title": "Microchip Acquires Edge AI Chip Startup Hailo",
       "url": "https://www.eetimes.com/microchip-acquires-edge-ai-chip-startup-hailo/",
@@ -265,105 +367,360 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/warning-shots-fired-as-amd-announces-new-data-center-gpus-at-advancing-ai-event/",
-      "title": "Warning Shots Fired as AMD Announces New Data Center GPUs",
-      "url": "https://www.eetimes.com/warning-shots-fired-as-amd-announces-new-data-center-gpus-at-advancing-ai-event/",
+      "id": "rss:https://www.tomshardware.com/video-games/xbox/microsoft-says-physical-discs-should-not-have-stopped-working-during-the-xbox-outage-clarifies-issue-with-entitlement-checks-that-failed-to-read-licenses-correctly-update-on-the-way",
+      "title": "Microsoft says physical discs should not have stopped working during the Xbox outage — clarifies issue with entitlement checks that failed to read licenses correctly, update on the way",
+      "url": "https://www.tomshardware.com/video-games/xbox/microsoft-says-physical-discs-should-not-have-stopped-working-during-the-xbox-outage-clarifies-issue-with-entitlement-checks-that-failed-to-read-licenses-correctly-update-on-the-way",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-27T16:58:23+00:00",
-      "summary": "Red team’s new Helios racks offer 30% more tokens per dollar than Nvidia. The post Warning Shots Fired as AMD Announces New Data Center GPUs appeared first on EE Times.",
+      "published_at": "2026-07-29T18:05:17+00:00",
+      "summary": "Microsoft has confirmed that you should've been able to play your discs offline during the Xbox outage yesterday. The company has identified an issue with entitlement checks that prevented the correct ones from loading during the outage, breaking intended functionality.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/automotive-ethernet-and-time-sensitive-networking-tsn-for-next-generation-vehicles/",
-      "title": "Automotive Ethernet and Time Sensitive Networking (TSN) for Next Generation Vehicles",
-      "url": "https://www.eetimes.com/automotive-ethernet-and-time-sensitive-networking-tsn-for-next-generation-vehicles/",
+      "id": "rss:https://www.tomshardware.com/pc-components/hdds/seagate-to-start-qualifying-record-setting-50tb-hdds-in-2027-most-drives-are-sold-out-through-2028",
+      "title": "Seagate to start qualifying record-setting 50TB HDDs in 2027 — most drives are sold out through 2028",
+      "url": "https://www.tomshardware.com/pc-components/hdds/seagate-to-start-qualifying-record-setting-50tb-hdds-in-2027-most-drives-are-sold-out-through-2028",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "eInfochips",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-27T15:59:39+00:00",
-      "summary": "In this session, our expert will provide a practical overview of Automotive Ethernet, TSN, and much more. The post Automotive Ethernet and Time Sensitive Networking (TSN) for Next Generation Vehicles appeared first on EE Times.",
+      "published_at": "2026-07-29T16:40:53+00:00",
+      "summary": "Seagate expects to begin customer qualification of its 50TB-class HAMR hard drives in late 2027 with shipments in 2028 as AI-driven storage demand keeps production largely sold out through 2028.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/bringing-inference-to-the-patient-systems-architecture-for-healthcare-edge-ai/",
-      "title": "Bringing Inference to the Patient: Systems Architecture for Healthcare Edge AI",
-      "url": "https://www.eetimes.com/bringing-inference-to-the-patient-systems-architecture-for-healthcare-edge-ai/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/nvidia-employee-implicated-in-escalating-supermicro-smuggling-scandal-but-demand-only-intensifies-for-nvidia-hardware",
+      "title": "Nvidia employee implicated in escalating Supermicro smuggling scandal, but demand only intensifies for Nvidia hardware",
+      "url": "https://www.tomshardware.com/tech-industry/nvidia-employee-implicated-in-escalating-supermicro-smuggling-scandal-but-demand-only-intensifies-for-nvidia-hardware",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Beenish Zia, Principal Engineer, Intel",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jon Martindale",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-27T13:00:00+00:00",
-      "summary": "Scaling healthcare AI effectively—starting with the right edge infrastructure. The post Bringing Inference to the Patient: Systems Architecture for Healthcare Edge AI appeared first on EE Times.",
+      "published_at": "2026-07-29T15:10:06+00:00",
+      "summary": "An Nvidia employee has been implicated in the Supermicro smuggling scandal, with his home and desk searched. He's been detained over allegations of forgery and breach of trust. Meanwhile, Nvidia is collapsing its buyer list in order to root out potential smuggling chains.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/adaptive-hardware-could-change-how-ev-chargers-are-designed/",
-      "title": "Adaptive Hardware Could Change How EV Chargers Are Designed",
-      "url": "https://www.eetimes.com/adaptive-hardware-could-change-how-ev-chargers-are-designed/",
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/valve-says-that-steam-machine-reservations-wont-be-fulfilled-until-the-end-of-this-year-company-also-releases-cad-files-for-the-pc-consoles-external-shell-under-creative-commons",
+      "title": "Valve says that Steam Machine reservations won't be fulfilled until ‘the end of this year’ — company also releases CAD files for the PC console’s external shell under Creative Commons",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/valve-says-that-steam-machine-reservations-wont-be-fulfilled-until-the-end-of-this-year-company-also-releases-cad-files-for-the-pc-consoles-external-shell-under-creative-commons",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-27T13:00:00+00:00",
-      "summary": "Vanix bets adaptive AMD hardware can make India’s EV chargers upgradeable, not disposable. The post Adaptive Hardware Could Change How EV Chargers Are Designed appeared first on EE Times.",
+      "published_at": "2026-07-29T15:03:56+00:00",
+      "summary": "Everyone who reserved the Steam Machine can get the chance to buy one before the year ends. Valve says availability differs between models and regions, and that some areas have already completed the reservations, meaning the company is opening the sale of the PC console to waitlisted buyers.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/cxmt-ipo-where-chinas-largest-dram-maker-stands/",
-      "title": "CXMT IPO: Where China’s Largest DRAM Maker Stands?",
-      "url": "https://www.eetimes.com/cxmt-ipo-where-chinas-largest-dram-maker-stands/",
+      "id": "rss:https://www.tomshardware.com/laptops/an-inside-tour-of-lenovos-north-carolina-ai-server-manufacturing-line-expansion-chinese-firm-expanding-us-native-production-to-meet-exploding-demand",
+      "title": "An inside tour of Lenovo’s North Carolina AI server manufacturing line expansion — Chinese firm expanding US-native production to meet exploding demand",
+      "url": "https://www.tomshardware.com/laptops/an-inside-tour-of-lenovos-north-carolina-ai-server-manufacturing-line-expansion-chinese-firm-expanding-us-native-production-to-meet-exploding-demand",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Brandon Hill",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-27T07:20:00+00:00",
-      "summary": "CXMT eyes one of China’s largest semiconductor IPOs amid once-in-four-decades memory shortage. The post CXMT IPO: Where China’s Largest DRAM Maker Stands? appeared first on EE Times.",
+      "published_at": "2026-07-29T14:27:06+00:00",
+      "summary": "Lenovo is fulfilling demand for homemade servers to fuel the AI boom.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/intel-foundry-improves-execution-but-external-customers-remain-the-test/",
-      "title": "Intel Foundry Improves Execution, but External Customers Remain the Test",
-      "url": "https://www.eetimes.com/intel-foundry-improves-execution-but-external-customers-remain-the-test/",
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/gpu-repair-service-will-upgrade-the-11gb-of-vram-on-your-rtx-2080-ti-to-22gb-mod-involves-physically-adjusting-the-strap-resistors-on-the-pcb-to-support-a-new-bios",
+      "title": "GPU repair service will upgrade the 11GB of VRAM on your RTX 2080 Ti to 22GB — mod involves physically adjusting the strap resistors on the PCB to support a new BIOS",
+      "url": "https://www.tomshardware.com/pc-components/gpus/gpu-repair-service-will-upgrade-the-11gb-of-vram-on-your-rtx-2080-ti-to-22gb-mod-involves-physically-adjusting-the-strap-resistors-on-the-pcb-to-support-a-new-bios",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-24T22:00:00+00:00",
-      "summary": "Intel’s fabs are healing, but $293M in outside revenue won’t scare TSMC yet. The post Intel Foundry Improves Execution, but External Customers Remain the Test appeared first on EE Times.",
+      "published_at": "2026-07-29T14:00:12+00:00",
+      "summary": "A GPU repair shop in the UAE is promising to upgrade the VRAM capacity of an RTX 2080 Ti from 11GB to 22GB by swapping the 1GB GDDR6 modules with 2GB chips and modifying the strap resistors to recognize the new VRAM.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/testing-laptops-on-battery-life-and-ac-power-comparing-intel-qualcomm-apple-and-amd",
+      "title": "Testing laptops on battery and AC power — Comparing Intel, Qualcomm, Apple, and AMD",
+      "url": "https://www.tomshardware.com/laptops/testing-laptops-on-battery-life-and-ac-power-comparing-intel-qualcomm-apple-and-amd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Andrew E. Freedman",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T13:07:18+00:00",
+      "summary": "We tested laptops with processors from Intel, AMD, Qualcomm, and Apple to see the differences in how they perform on and off the charger.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/teacher-arrested-for-clapping-in-support-of-opposition-at-an-ai-data-center-meeting-gigawatt-scale-project-gets-approved-anyway-despite-community-resistance",
+      "title": "Teacher arrested for clapping in support of opposition at an AI data center meeting — gigawatt-scale project gets approved anyway despite community resistance",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/teacher-arrested-for-clapping-in-support-of-opposition-at-an-ai-data-center-meeting-gigawatt-scale-project-gets-approved-anyway-despite-community-resistance",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T13:06:16+00:00",
+      "summary": "A Physics teacher was arrested for clapping multiple times during a public hearing to rezone land for a proposed gigawatt-scale data center near Emporia, Kansas. The man refused to cooperate when the police asked him to leave and was subsequently dragged out of the venue by four officers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/mini-pcs/msi-cubi-nuc-ai-3mg-review",
+      "title": "MSI Cubi NUC AI+ 3MG review: Panther Lake in an understated mini PC",
+      "url": "https://www.tomshardware.com/desktops/mini-pcs/msi-cubi-nuc-ai-3mg-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T13:00:00+00:00",
+      "summary": "The MSI Cubi NUC AI+ 3MG is a compact, understated design, providing an Intel Core Ultra 9 386H in a tiny desktop. It’s easy to upgrade and relatively quiet but could do with a few more ports at the back and a more attractive price.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/how-to-buy-second-hand-pc-hardware-without-getting-scammed-essential-rules-of-engagement-for-finding-used-parts-and-machines-in-an-inflated-market",
+      "title": "How to buy second-hand PC hardware without getting scammed — essential rules of engagement for finding used parts and machines in an inflated market",
+      "url": "https://www.tomshardware.com/pc-components/how-to-buy-second-hand-pc-hardware-without-getting-scammed-essential-rules-of-engagement-for-finding-used-parts-and-machines-in-an-inflated-market",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T12:07:36+00:00",
+      "summary": "Buying second-hand can be a great way to pick up a bargain on PC hardware, but you'll need to keep this advice in mind to make sure you avoid the scams.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/sk-hynix-operating-profit-rises-557-percent",
+      "title": "Memory maker SK hynix's profit rises 557% amid global shortage, expansion costs climb to $27 billion — shares slide despite mammoth earnings as expectations outpace reality and global AI selloffs continue",
+      "url": "https://www.tomshardware.com/tech-industry/sk-hynix-operating-profit-rises-557-percent",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T11:56:18+00:00",
+      "summary": "SK hynix has reported second-quarter revenue of 79.32 trillion won, and operating profit of 60.54 trillion won, the latter up 557% year over year.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/three-us-states-to-deploy-60mph-drones-armed-with-pepper-spray-to-neutralize-school-shooters-campus-guardian-angel-drones-can-also-smash-windows-and-ram-attackers",
+      "title": "Three US states to deploy 60mph drones armed with pepper spray to neutralize school shooters — ‘Campus Guardian Angel’ drones can also smash windows and ram attackers",
+      "url": "https://www.tomshardware.com/tech-industry/drones/three-us-states-to-deploy-60mph-drones-armed-with-pepper-spray-to-neutralize-school-shooters-campus-guardian-angel-drones-can-also-smash-windows-and-ram-attackers",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T11:36:04+00:00",
+      "summary": "The drone arms race is set to enter U.S. schools with Mithril Defense’s Campus Guardian Angel drones in at least nine schools across three states before the year is out.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/webcams/how-to-look-better-on-webcam-tips-for-the-average-person-to-look-better-and-more-professional",
+      "title": "How to look better on webcam — tips for the average person to look better and more professional",
+      "url": "https://www.tomshardware.com/peripherals/webcams/how-to-look-better-on-webcam-tips-for-the-average-person-to-look-better-and-more-professional",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sarah Jacobsson Purewal",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T11:32:03+00:00",
+      "summary": "Some tips for the average non-streaming webcam user to look better and more professional.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intels-upcoming-nova-lake-desktop-sku-to-require-65w-of-separate-power-delivery-for-its-igpu-leaker-claims-beefy-integrated-graphics-could-require-two-vccgt-phases-for-12-xe3p-cores",
+      "title": "Intel's upcoming Nova Lake desktop SKU to require 65W of separate power delivery for its iGPU, leaker claims — beefy integrated graphics could require two VCCGT phases for 12 Xe3P cores",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intels-upcoming-nova-lake-desktop-sku-to-require-65w-of-separate-power-delivery-for-its-igpu-leaker-claims-beefy-integrated-graphics-could-require-two-vccgt-phases-for-12-xe3p-cores",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T11:01:22+00:00",
+      "summary": "Intel seems to be working on a 16-core Nova Lake desktop APU with 12 Xe3P cores that will require 65W of power delivery on their own to achieve maximum performance. Two separate VCCGT phases will be needed to power said integrated graphics, since one phase can't sustain up to 65W.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/3d-printing/get-usd180-of-3d-printing-filament-for-just-usd86-in-this-ebay-blowout-save-52-percent-on-10-reels-of-crealitys-hyper-pla-just-usd8-63-a-spool",
+      "title": "Get $180 of 3D printing filament for just $86 in this eBay blowout — save 52% on 10 reels of Creality's Hyper PLA, just $8.63 a spool",
+      "url": "https://www.tomshardware.com/3d-printing/get-usd180-of-3d-printing-filament-for-just-usd86-in-this-ebay-blowout-save-52-percent-on-10-reels-of-crealitys-hyper-pla-just-usd8-63-a-spool",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T10:57:04+00:00",
+      "summary": "Stock up on your favorite colors in this unbelievable Creality Hyper PLA filament bundle deal. Save 52% on 10 spools of high-speed printing plastics.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ssds/state-of-play-ssd-pricing-one-year-into-the-ai-component-crisis-220-percent-price-increases-are-crippling-the-diy-market",
+      "title": "State of play: SSD pricing one year into the AI component crisis — 220% price increases are crippling the DIY market",
+      "url": "https://www.tomshardware.com/pc-components/ssds/state-of-play-ssd-pricing-one-year-into-the-ai-component-crisis-220-percent-price-increases-are-crippling-the-diy-market",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stephen Warwick",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T10:52:51+00:00",
+      "summary": "We look at the state of SSD pricing one year into the AI apocalypse.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ram/dram-chip-supply-to-module-makers-could-drop-by-more-than-70-percent-year-on-year-in-2027-says-apacer-ceo-demand-for-hbm-and-server-ram-continues-to-devour-manufacturing-capacity",
+      "title": "DRAM chip supply to module makers could drop by more than 70% year-on-year in 2027, says Apacer CEO — demand for HBM and server RAM continues to devour manufacturing capacity",
+      "url": "https://www.tomshardware.com/pc-components/ram/dram-chip-supply-to-module-makers-could-drop-by-more-than-70-percent-year-on-year-in-2027-says-apacer-ceo-demand-for-hbm-and-server-ram-continues-to-devour-manufacturing-capacity",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T10:30:00+00:00",
+      "summary": "Apacer warns DRAM allocations to module makers could fall below 30% of 2026 levels as AI demand tightens supply and pushes memory prices higher.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-up-to-usd700-on-these-ibuypower-gaming-pcs-fitted-with-an-rx-9070-xt-for-4k-gaming-liquid-cooled-amd-rigs-feature-either-a-9800x3d-or-9900x-cpu-along-with-32gb-ddr5-and-a-1tb-ssd-starting-from-usd1-799",
+      "title": "Save up to $700 on these iBuyPower gaming PCs, fitted with an RX 9070 XT for 4K gaming — liquid-cooled AMD rigs feature either a 9800X3D or 9900X CPU, along with 32GB DDR5 and a 1TB SSD, starting from $1,799",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-up-to-usd700-on-these-ibuypower-gaming-pcs-fitted-with-an-rx-9070-xt-for-4k-gaming-liquid-cooled-amd-rigs-feature-either-a-9800x3d-or-9900x-cpu-along-with-32gb-ddr5-and-a-1tb-ssd-starting-from-usd1-799",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T10:09:58+00:00",
+      "summary": "Two iBuyPower rigs are on offer at Walmart right now, both fitted with an AMD Radeon RX 9070 XT, in a deal that could save you up to $700 on a 4K-ready gaming PC.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-moonshot-ai-reportedly-used-nvidia-blackwell-chips-for-training-kimi-k3-company-circumvented-both-u-s-export-and-chinese-import-controls-to-acquire-compute",
+      "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-moonshot-ai-reportedly-used-nvidia-blackwell-chips-for-training-kimi-k3-company-circumvented-both-u-s-export-and-chinese-import-controls-to-acquire-compute",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T10:00:00+00:00",
+      "summary": "Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — potentially circumventing both U.S. export and Chinese import controls",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/intel-closes-out-the-defense-program-that-paid-nvidia-and-others-to-run-test-chips-on-18a",
+      "title": "Intel closes out RAMP-C production pilot that paid Nvidia and others to run test chips on 18A — program helped lay a path for secure domestic chip production on advanced processes",
+      "url": "https://www.tomshardware.com/tech-industry/intel-closes-out-the-defense-program-that-paid-nvidia-and-others-to-run-test-chips-on-18a",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T09:30:00+00:00",
+      "summary": "Intel Foundry says that it has completed RAMP-C, the U.S. defense program awarded to the company in 2021 to stand up a domestic leading-edge chip ecosystem on its 18A process.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/developer-uses-ai-to-bring-a-native-version-of-the-legend-of-zelda-ocarina-of-time-to-ios-no-emulation-required-to-play-one-of-gamings-all-time-greats-on-an-iphone-or-ipad",
+      "title": "Developer uses AI to bring a native version of The Legend of Zelda: Ocarina of Time to iOS — no emulation required to play one of gaming's all-time greats on an iPhone or iPad",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/developer-uses-ai-to-bring-a-native-version-of-the-legend-of-zelda-ocarina-of-time-to-ios-no-emulation-required-to-play-one-of-gamings-all-time-greats-on-an-iphone-or-ipad",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zhiye Liu",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-29T09:00:00+00:00",
+      "summary": "A developer has used OpenAI's Codex and GPT-5.6 Sol to help port a native version of The Legend of Zelda: Ocarina of Time to iOS and iPadOS devices.",
       "lang": "en"
     },
     {
@@ -520,363 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-usd1-000-on-this-rtx-5090-gaming-pc-from-msi-just-17-percent-more-than-the-gpus-standalone-cost-right-now-score-this-4k-powerhouse-with-64gb-ddr5-and-a-2tb-ssd-for-usd4-899",
-      "title": "Save $1,000 on this RTX 5090 gaming PC from MSI, just 17% more than the GPU's standalone cost right now —score this 4K powerhouse with 64GB DDR5 and a 2TB SSD for $4,899",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd1-000-on-this-rtx-5090-gaming-pc-from-msi-just-17-percent-more-than-the-gpus-standalone-cost-right-now-score-this-4k-powerhouse-with-64gb-ddr5-and-a-2tb-ssd-for-usd4-899",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T11:36:14+00:00",
-      "summary": "Save $1,000 on this MSI Aegis R2 gaming PC, fitted with an RTX 5090, 64GB DDR5, and 2TB SSD for just $4,899.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/xbox/xbox-blames-a-licensing-service-outside-xbox-for-the-16-hour-outage-that-blocked-disc-games",
-      "title": "16-hour Xbox outage even stopped physical games from working — company blames licensing issue for incident that prohibited gaming across three generations of console",
-      "url": "https://www.tomshardware.com/video-games/xbox/xbox-blames-a-licensing-service-outside-xbox-for-the-16-hour-outage-that-blocked-disc-games",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T11:31:17+00:00",
-      "summary": "Xbox CTO Scott Van Vliet said that a licensing service sitting outside Xbox, which the platform depends on, began failing late on July 26 and took roughly 16 hours to clear.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/alphabet-goes-cash-flow-negative-for-the-first-time-as-ai-capex-doubles-to-44-9-billion-in-a-single-quarter",
-      "title": "Google goes cash flow negative for the first time as AI data center buildout increases capex to a staggering $44.9 billion in a single quarter — CFO warns that capex will increase in 2027 as company banks big on TPUs",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/alphabet-goes-cash-flow-negative-for-the-first-time-as-ai-capex-doubles-to-44-9-billion-in-a-single-quarter",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T11:12:23+00:00",
-      "summary": "On the same day, CFO Anat Ashkenazi raised full-year capex guidance to between $195 billion and $205 billion.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/crealitys-multicolor-k2-3d-printer-hits-an-all-time-low-price-of-usd499-save-usd200-today-with-the-perfect-printer-for-jumping-into-the-hobby",
-      "title": "Creality's multicolor K2 3D printer hits an all-time low price of $499 — save $200 today, with the perfect printer for jumping into the hobby",
-      "url": "https://www.tomshardware.com/3d-printing/crealitys-multicolor-k2-3d-printer-hits-an-all-time-low-price-of-usd499-save-usd200-today-with-the-perfect-printer-for-jumping-into-the-hobby",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T11:11:23+00:00",
-      "summary": "Save $200 on the Creality K2 Combo 3D printer bundle in Creality's Mega Summer Sales event.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/leaked-radeon-rx-9050-hints-at-the-return-of-4gb-vram-gpus-in-2026-new-budget-rdna-4-card-also-spotted-in-8gb-config-with-half-the-power-of-an-rx-9060",
-      "title": "ASRock officially announces Radeon RX 9050 with 8GB VRAM — RDNA 4 card offers boost clock of up to 2600MHz (updated)",
-      "url": "https://www.tomshardware.com/pc-components/gpus/leaked-radeon-rx-9050-hints-at-the-return-of-4gb-vram-gpus-in-2026-new-budget-rdna-4-card-also-spotted-in-8gb-config-with-half-the-power-of-an-rx-9060",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T11:00:22+00:00",
-      "summary": "ASRock has listed the long-rumored RX 9050 GPU on its website in both a 4GB and 8GB configuration, but has deleted those pages since.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/nvidias-taipei-office-searched-as-taiwan-detains-employee-in-ai-chip-smuggling-probe",
-      "title": "Nvidia employee detained in Taiwan as part of chip smuggling probe — held on suspicion of falsifying business documents, company says smuggling 'a nonstarter'",
-      "url": "https://www.tomshardware.com/tech-industry/nvidias-taipei-office-searched-as-taiwan-detains-employee-in-ai-chip-smuggling-probe",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T10:34:07+00:00",
-      "summary": "Taiwan's prosecutors say they've detained a man surnamed Chang on suspicion of falsifying business documents, after investigators searched his home and workplace.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ddr5/re-examining-the-ddr4-gaming-gap-with-intels-lga-1700-cpus-in-mid-2026-performance-drops-of-14-percent-on-average-and-up-to-25-percent-in-some-games",
-      "title": "Re-examining the DDR4 gaming gap with Intel’s LGA 1700 CPUs in mid-2026 — performance drops of 14% on average, and up to 25% in some games",
-      "url": "https://www.tomshardware.com/pc-components/ddr5/re-examining-the-ddr4-gaming-gap-with-intels-lga-1700-cpus-in-mid-2026-performance-drops-of-14-percent-on-average-and-up-to-25-percent-in-some-games",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T10:32:27+00:00",
-      "summary": "Given the unprecedented surge in memory prices, we’re looking back on Intel’s LGA 1700 stack of CPUs to see how DDR4 and DDR5 match up with our modern gaming suite in 2026.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-companies-are-reportedly-shredding-millions-of-books-to-train-models-tech-giants-outsource-to-middlemen-to-secretly-buy-up-books-for-training-material",
-      "title": "AI companies are reportedly shredding millions of books after using them to train AI models — tech giants outsource to middlemen to secretly buy up books for training material",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-companies-are-reportedly-shredding-millions-of-books-to-train-models-tech-giants-outsource-to-middlemen-to-secretly-buy-up-books-for-training-material",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T10:30:00+00:00",
-      "summary": "New report reveals that AI companies are buying up physical books to train their LLMs and destroying them in the process.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/programming/daring-coder-gets-doom-running-with-regular-expressions-at-180-seconds-per-frame-like-playing-correspondence-chess-with-a-shotgun-nearly-14-million-substitutions-to-render-a-frame-at-80-000-substitutions-per-second",
-      "title": "Daring coder gets Doom running with regular expressions at 180 seconds per frame, like playing 'correspondence chess with a shotgun' — nearly 14 million substitutions to render a frame at 80,000 substitutions per second",
-      "url": "https://www.tomshardware.com/software/programming/daring-coder-gets-doom-running-with-regular-expressions-at-180-seconds-per-frame-like-playing-correspondence-chess-with-a-shotgun-nearly-14-million-substitutions-to-render-a-frame-at-80-000-substitutions-per-second",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T10:00:00+00:00",
-      "summary": "Daring coder gets Doom running with regular expressions at 180 seconds per frame by using one text string to the machine, engine, and video output",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/msi-and-colorful-raise-nvidia-rtx-50-series-prices-in-china-by-up-to-59-percent-across-the-entire-lineup-change-in-distributer-pricing-suggests-gpu-price-hikes-are-on-the-way",
-      "title": "MSI and Colorful raise Nvidia RTX 50-series prices in China by up to 59% across the entire lineup — change in distributer pricing suggests GPU price hikes are on the way",
-      "url": "https://www.tomshardware.com/pc-components/gpus/msi-and-colorful-raise-nvidia-rtx-50-series-prices-in-china-by-up-to-59-percent-across-the-entire-lineup-change-in-distributer-pricing-suggests-gpu-price-hikes-are-on-the-way",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T19:47:49+00:00",
-      "summary": "GPU prices seem to be on the rise once again with official distributor announcements in China hiking up the entire Blackwell lineup overnight. Compared to MSRP, we're witnessing a staggering bump of up to 75% at the top-end.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-google-and-anthropic-absent-from-nvidia-led-open-secure-ai-alliance-30-companies-join-security-alliance-after-openai-agent-breach",
-      "title": "OpenAI, Google, and Anthropic absent from Nvidia-led Open Secure AI Alliance — 30+ companies join security alliance after OpenAI agent breach",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-google-and-anthropic-absent-from-nvidia-led-open-secure-ai-alliance-30-companies-join-security-alliance-after-openai-agent-breach",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T19:03:47+00:00",
-      "summary": "Industry leading tech companies have formed an \"Open Secure AI Alliance\" that will build open-source models, agent harnesses, and cybersecurity tools, arguing that defenders need locally controlled AI after closed-model safeguards reportedly obstructed analysis of the OpenAI–Hugging Face breach.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run",
-      "title": "Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T18:40:58+00:00",
-      "summary": "Moonshot AI has released the weights for its recent Kimi-K3 model, directly going against OpenAI and Anthropic.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/china-begins-mass-production-of-domestic-immersion-duv-lithography-machines",
-      "title": "China begins mass production of homegrown immersion chipmaking machines in major breakthrough, report claims — first DUV lithography units will be delivered this year to SMIC, Hua Hong, and CXMT",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/china-begins-mass-production-of-domestic-immersion-duv-lithography-machines",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T16:51:35+00:00",
-      "summary": "A state-backed company in Shanghai has begun mass-producing immersion deep ultraviolet lithography machines and is due to deliver the first units this year.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/gaming-mice/why-an-mmo-mouse-isnt-just-for-gaming-make-use-of-the-myriad-of-buttons-for-enhancing-your-productivity-workflows-in-popular-software-applications",
-      "title": "Why an MMO mouse isn’t just for gaming — make use of the myriad of buttons for enhancing your productivity workflows in popular software applications",
-      "url": "https://www.tomshardware.com/peripherals/gaming-mice/why-an-mmo-mouse-isnt-just-for-gaming-make-use-of-the-myriad-of-buttons-for-enhancing-your-productivity-workflows-in-popular-software-applications",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T15:39:54+00:00",
-      "summary": "MMO mice are designed with many buttons to make it easier to play games with lots of spells and abilities, but MMO mice are also fantastic for automating your productivity workflows.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/handheld-gaming/upgrading-an-msi-claw-8-ex-ai-handheld-gaming-pc-with-a-2tb-ssd",
-      "title": "Upgrading an MSI Claw 8 EX AI+ handheld gaming PC with a 2TB SSD",
-      "url": "https://www.tomshardware.com/video-games/handheld-gaming/upgrading-an-msi-claw-8-ex-ai-handheld-gaming-pc-with-a-2tb-ssd",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Brandon Hill",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T15:04:32+00:00",
-      "summary": "I go through the steps of replacing the standard 1TB SSD in an MSI Claw 8 EX AI+ with a 2TB SSD.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-unveiled-its-iconic-core-2-duo-family-20-years-ago-legendary-chip-dethroned-amd-athlon-restoring-the-chipmakers-performance-lead",
-      "title": "Intel unveiled its iconic Core 2 Duo family 20 years ago — legendary chip dethroned AMD Athlon, restoring the chipmaker’s performance lead",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-unveiled-its-iconic-core-2-duo-family-20-years-ago-legendary-chip-dethroned-amd-athlon-restoring-the-chipmakers-performance-lead",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T15:01:11+00:00",
-      "summary": "Today marks 20 years since the first raft of Intel Core 2 Duo processors, codename Conroe, was launched.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/framework-laptop-13-pro-review",
-      "title": "Framework Laptop 13 Pro review: It cleans up nice",
-      "url": "https://www.tomshardware.com/laptops/framework-laptop-13-pro-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Andrew E. Freedman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T15:00:00+00:00",
-      "summary": "The Framework Laptop 13 Pro is its most solidly built laptop ever, with a bright display and long battery life sweetening the deal — if you can afford it.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/nvidia-weighs-250-billion-guarantee-so-openai-can-lease-softbanks-10-gigawatt-ohio-campus",
-      "title": "Nvidia weighs $250 billion guarantee so OpenAI can lease SoftBank's 10-gigawatt Ohio campus, report claims — Nvidia also said to be discussing $350 billion deal to finance chips for the site",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-weighs-250-billion-guarantee-so-openai-can-lease-softbanks-10-gigawatt-ohio-campus",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T13:34:28+00:00",
-      "summary": "OpenAI is in advanced talks to lease SB Energy's 10 GW data center campus in Piketon, Ohio, with Nvidia in discussions to guarantee roughly $250 billion of the financing behind it.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-developer-runs-28-9-million-parameter-model-on-usd10-esp32-s3-microcontroller-uses-googles-per-layer-embeddings-technique-stores-table-on-16mb-flash-memory",
-      "title": "AI developer runs 28.9-million-parameter model on $10 ESP32-S3 microcontroller — uses Google's Per-Layer Embeddings technique, stores table on 16MB Flash memory",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-developer-runs-28-9-million-parameter-model-on-usd10-esp32-s3-microcontroller-uses-googles-per-layer-embeddings-technique-stores-table-on-16mb-flash-memory",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zak Killian",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T13:07:53+00:00",
-      "summary": "Getting a local language model running on a sub-$10 microcontroller is impressive despite its obvious limitations.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/handheld-gaming/disgruntled-gamer-builds-booby-trapped-steam-deck-with-3d-printed-spikes-and-a-built-in-taser-raspberry-pi-powers-speaker-camera-and-alarm-to-stop-family-members-draining-his-battery",
-      "title": "Disgruntled gamer builds booby-trapped Steam Deck with 3D-printed spikes and a built-in taser — Raspberry Pi powers speaker, camera, and alarm to stop family members draining his battery",
-      "url": "https://www.tomshardware.com/video-games/handheld-gaming/disgruntled-gamer-builds-booby-trapped-steam-deck-with-3d-printed-spikes-and-a-built-in-taser-raspberry-pi-powers-speaker-camera-and-alarm-to-stop-family-members-draining-his-battery",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T12:10:35+00:00",
-      "summary": "A Steam Deck devotee was so fed up with their family borrowing their handheld and leaving it with a flat battery that they have resorted to quite extreme anti-sharing measures.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-splits-zen-7-into-three-epyc-families-for-2028-and-starts-selling-server-cpus-by-the-agent",
-      "title": "AMD splits Zen 7 into three EPYC families for 2028 and starts selling server CPUs by the agent — Florence, Ferrara, and Fidenza to be applied across AI-focused product stack",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-splits-zen-7-into-three-epyc-families-for-2028-and-starts-selling-server-cpus-by-the-agent",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-27T12:04:52+00:00",
-      "summary": "The company named Florence, Ferrara, and Fidenza in its launch release, extended its annual CPU, GPU, networking, and rack cadence out to 2030.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -926,7 +926,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49035303"
       },
       "duration_sec": null,
-      "views": 657,
+      "views": 659,
       "comments": 318,
       "published_at": "2026-07-24T13:32:30+00:00",
       "summary": "",
@@ -946,7 +946,7 @@
       },
       "duration_sec": null,
       "views": 102,
-      "comments": 79,
+      "comments": 80,
       "published_at": "2026-07-19T19:44:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1021,7 +1021,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49093429"
       },
       "duration_sec": null,
-      "views": 11,
+      "views": 15,
       "comments": 0,
       "published_at": "2026-07-29T04:29:58+00:00",
       "summary": "",
@@ -1097,7 +1097,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49034868"
       },
       "duration_sec": null,
-      "views": 338,
+      "views": 339,
       "comments": 71,
       "published_at": "2026-07-24T12:53:59+00:00",
       "summary": "",

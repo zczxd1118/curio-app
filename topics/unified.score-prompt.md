@@ -23,7 +23,7 @@
 
 ## 输入（变量替换）
 
-- 今日日期：`2026-07-29`
+- 今日日期：`2026-07-30`
 - 用户画像：
   ```yaml
   电子信息工程大四 + 搜狗实习生 + AI 产品 / Agent 重度玩家。
@@ -47,7 +47,7 @@
 
 ```json
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "intro": "今日大意（80-150 字，1 段，告诉读者今天最重要的 1-2 个信号是什么，给个判断）",
   "headlines": [
     {
@@ -135,9 +135,20 @@
     "url": "http://www.bilibili.com/video/av115897075242856",
     "source": "吴恩达Agent",
     "platform": "bilibili",
-    "points": 3967476,
+    "points": 3987393,
     "published_at": "2026-01-15T03:56:12+00:00",
     "summary": "视频来源：DeepLearning.AI\n课件代码：评论区自取\n本课程我们将学习到：\n1. 构建智能体设计模式：反射、工具使用、规划与多智能体工作流；\n2. 将人工智能与外部工具集成：数据库、API、网络搜索与代码执行；\n3. 评估并优化人工智能系统：性能指标、错误分析与生产部署"
+  },
+  {
+    "id": "bvid:BV1wt411T7Hy",
+    "domain": "AI",
+    "title": "3分钟创建你的饥荒联机专属服务器！纯免费！良心教学！steam+wegame均有！【饥荒五耀】",
+    "url": "http://www.bilibili.com/video/av62522150",
+    "source": "五耀",
+    "platform": "bilibili",
+    "points": 1779258,
+    "published_at": "2019-08-06T14:03:34+00:00",
+    "summary": "本期教大家怎么在饥荒联机版中创建自己的服务器，纯免费，良心干货教学！3分钟学会！\nP1是steam版本的创建教学，P2是Wegame版本的创建教学。"
   },
   {
     "id": "bvid:BV1KjoxBoEQJ",
@@ -146,20 +157,20 @@
     "url": "http://www.bilibili.com/video/av116447535765612",
     "source": "人工大黑",
     "platform": "bilibili",
-    "points": 1624660,
+    "points": 1630762,
     "published_at": "2026-04-22T09:02:25+00:00",
     "summary": "本期视频因为白菜要毕业了，up伤心过度导致了拖更（）"
   },
   {
-    "id": "bvid:BV1E7wtzaEdq",
+    "id": "bvid:BV1NvRyBzEhq",
     "domain": "AI",
-    "title": "从 LLM 到 Agent Skill，一期视频带你打通底层逻辑！",
-    "url": "http://www.bilibili.com/video/av116227955497963",
-    "source": "马克的技术工作坊",
+    "title": "全网最全！60分钟全面掌握Claude Code～【附完整文档】",
+    "url": "http://www.bilibili.com/video/av116522328524431",
+    "source": "秋芝2046",
     "platform": "bilibili",
-    "points": 1500177,
-    "published_at": "2026-03-14T14:22:56+00:00",
-    "summary": "AI 核心概念大串联：LLM, Token, Context, Context Window, Prompt, User Prompt, System Prompt, Tool, MCP, Agent, Agent Skill，一期视频带你打通 AI 底层逻辑！"
+    "points": 1455128,
+    "published_at": "2026-05-05T14:08:25+00:00",
+    "summary": "Claude Code保姆级教学【收藏起来不会错！】\n从上手安装，到高级用法，这期一次讲全～\n花了三周做教程，希望能帮到你嘻嘻，感谢朋友们的三连+关注啦～"
   },
   {
     "id": "bvid:BV1j9MP6wEV9",
@@ -168,7 +179,7 @@
     "url": "http://www.bilibili.com/video/av116861865887789",
     "source": "秋芝2046",
     "platform": "bilibili",
-    "points": 1289968,
+    "points": 1293753,
     "published_at": "2026-07-05T02:00:00+00:00",
     "summary": "用不上codex的朋友们！新的国产Agent直接上手，来跑通8大用法～\n感谢朋友们的三连+关注～"
   },
@@ -179,7 +190,7 @@
     "url": "http://www.bilibili.com/video/av116554859545963",
     "source": "数字游牧人",
     "platform": "bilibili",
-    "points": 1005874,
+    "points": 1008360,
     "published_at": "2026-05-11T09:02:15+00:00",
     "summary": "文档链接：https://lcnaoyjp4e3z.feishu.cn/wiki/MtJlwX0B5iy6y9k5GZTcdjSknTd"
   },
@@ -190,7 +201,7 @@
     "url": "http://www.bilibili.com/video/av116711944620974",
     "source": "尚硅谷",
     "platform": "bilibili",
-    "points": 990076,
+    "points": 999138,
     "published_at": "2026-06-09T02:00:00+00:00",
     "summary": "【配套资料】关注公众号：尚硅谷教育，回复“VibeCoding”免费获取\n【课程简介】从零开始，用自然语言指挥AI开发真实软件项目！"
   },
@@ -201,9 +212,20 @@
     "url": "http://www.bilibili.com/video/av116187623069851",
     "source": "AI-智能体搭建教程",
     "platform": "bilibili",
-    "points": 970736,
+    "points": 976110,
     "published_at": "2026-03-07T11:28:39+00:00",
     "summary": "【2026最新】B站最全最细的AI Agent智能体搭建教程，从入门到实战！手把手教你快速打造自己的专属智能体，一次性搞懂AI大模型智能体开发，学完薪资翻倍！"
+  },
+  {
+    "id": "bvid:BV1aeLqzUE6L",
+    "domain": "AI",
+    "title": "10分钟讲清楚 Prompt, Agent, MCP 是什么",
+    "url": "http://www.bilibili.com/video/av114410228025650",
+    "source": "隔壁的程序员老王",
+    "platform": "bilibili",
+    "points": 866782,
+    "published_at": "2025-05-01T09:00:00+00:00",
+    "summary": "up的科学星球：https://t.zsxq.com/ubYr8"
   },
   {
     "id": "bvid:BV1cq5q6CEu3",
@@ -212,7 +234,7 @@
     "url": "http://www.bilibili.com/video/av116578532200786",
     "source": "程序员鱼皮",
     "platform": "bilibili",
-    "points": 573419,
+    "points": 575923,
     "published_at": "2026-05-15T12:35:03+00:00",
     "summary": "一口气带你认识 Cursor、Claude Code、Codex、GitHub Copilot、Windsurf、Trae、Kiro、Qoder、CodeBuddy 等 32 个主流的 AI 编程工具的实测表现，帮你快速找到最适合自己的。\n编程学习教程+实战项目+简历模板：codefather.cn\n开源 AI 编程教程：github.com/liyupi/ai-guide\n视频涵盖 Cursor"
   },
@@ -223,31 +245,9 @@
     "url": "http://www.bilibili.com/video/av116879800665673",
     "source": "Git源宝",
     "platform": "bilibili",
-    "points": 429466,
+    "points": 430022,
     "published_at": "2026-07-08T03:10:00+00:00",
     "summary": "安装包+全部配套课程源码+学习资料\n\n领取方式：关注 + 私信【让我看看】！"
-  },
-  {
-    "id": "bvid:BV1gV5v6HEVG",
-    "domain": "AI",
-    "title": "同样是服务器！为啥绝密服务器是大红，阵列服务器只配当大金？",
-    "url": "http://www.bilibili.com/video/av116577894669157",
-    "source": "游戏推推棒",
-    "platform": "bilibili",
-    "points": 422105,
-    "published_at": "2026-05-15T09:33:43+00:00",
-    "summary": "绝密服务器，主播到现在都还没摸到了，服了！"
-  },
-  {
-    "id": "bvid:BV1AnQNYxEsy",
-    "domain": "AI",
-    "title": "MCP是啥？技术原理是什么？一个视频搞懂MCP的一切。Windows系统配置MCP，Cursor Cline使用MCP",
-    "url": "http://www.bilibili.com/video/av114155298228756",
-    "source": "技术爬爬虾",
-    "platform": "bilibili",
-    "points": 418825,
-    "published_at": "2025-03-13T13:18:09+00:00",
-    "summary": "MCP是近期的AI领域的热点，特别是在海外社区获得热烈讨论，每天都有大量MCP工具诞生。本期视频我们从MCP的概念，技术原理，到多场景实战，一个视频看懂MCP的全部内容。\n\n\nMCP官方开源仓库：https://github.com/modelcontextprotocol/servers\nMCP合集网站：  https://smithery.ai/\nVscode下载：https://code.v"
   },
   {
     "id": "bvid:BV1RFTc62EaK",
@@ -256,9 +256,20 @@
     "url": "http://www.bilibili.com/video/av116838327388595",
     "source": "黑马程序员",
     "platform": "bilibili",
-    "points": 417952,
+    "points": 428290,
     "published_at": "2026-07-01T02:00:00+00:00",
     "summary": "本套视频教程所有配套资料领取方式如下：\n关注黑马程序员公 粽 号，回复关键词：260701\n【AI大模型学习路线图】展开查看更多内容\nhttps://www.bilibili.com/opus/1129722427782201345\n如何下载资料\nhttps://www.bilibili.com/opus/443715248901563958\n\nAI大模型开发热门教程：\nAI大模型开发：BV1h1"
+  },
+  {
+    "id": "bvid:BV1AnQNYxEsy",
+    "domain": "AI",
+    "title": "MCP是啥？技术原理是什么？一个视频搞懂MCP的一切。Windows系统配置MCP，Cursor Cline使用MCP",
+    "url": "http://www.bilibili.com/video/av114155298228756",
+    "source": "技术爬爬虾",
+    "platform": "bilibili",
+    "points": 418920,
+    "published_at": "2025-03-13T13:18:09+00:00",
+    "summary": "MCP是近期的AI领域的热点，特别是在海外社区获得热烈讨论，每天都有大量MCP工具诞生。本期视频我们从MCP的概念，技术原理，到多场景实战，一个视频看懂MCP的全部内容。\n\n\nMCP官方开源仓库：https://github.com/modelcontextprotocol/servers\nMCP合集网站：  https://smithery.ai/\nVscode下载：https://code.v"
   },
   {
     "id": "bvid:BV1xwVr6FEh4",
@@ -267,20 +278,20 @@
     "url": "http://www.bilibili.com/video/av116680671890321",
     "source": "AI大模型码农",
     "platform": "bilibili",
-    "points": 356543,
+    "points": 366679,
     "published_at": "2026-06-02T14:20:53+00:00",
     "summary": "视频配套仔料+大模型入门到进阶全套仔料\n已经整理打包好\n如果视频对你有用的话请一键三连【长按点赞】支持一下up哦"
   },
   {
-    "id": "bvid:BV1ahFmzqE9z",
+    "id": "bvid:BV1rBRQBSEwB",
     "domain": "AI",
-    "title": "【2026版Agent Skills保姆级教程】2小时从会用到会造，全方位提升工作效率。Claude Skills、Agent技能、OpenCode",
-    "url": "http://www.bilibili.com/video/av116044177936465",
-    "source": "博学谷",
+    "title": "Claude Code+DeepSeek V4 Pro安装教程｜3步从零装好开始用 | Mac Windows",
+    "url": "http://www.bilibili.com/video/av116543199385810",
+    "source": "大牙大-",
     "platform": "bilibili",
-    "points": 281368,
-    "published_at": "2026-02-10T03:28:31+00:00",
-    "summary": "视频配套资源领取方式戳：https://www.bilibili.com/opus/1167610370075918393\n或关注博学谷公综号领取，回复关键词：0102\n============================\n学完本课程，就能通过现有的Skill技能让你的AI更聪明，更能干，更可靠，全方位提升工作效率，还可以根据自己需要造出自己想要的skill，用AI 360°武装自己，直接从小"
+    "points": 327737,
+    "published_at": "2026-05-09T10:10:00+00:00",
+    "summary": "上期vibe coding零基础教程10万多人看了，私信和评论里问最多的居然不是怎么写需求。\n 而是Claude Code怎么装？DeepSeek怎么接进去？🫣\n\n所以这期作为补丁教程，专门帮大家搞定这3件事：\n 1️⃣ 安装Claude Code\n 2️⃣ 把DeepSeek V4 Pro百万上下文满血版接入Claude Code\n 3️⃣ 在VS Code里正式用起来\n\nMac和Windows"
   },
   {
     "id": "bvid:BV1uronYREWR",
@@ -289,7 +300,7 @@
     "url": "http://www.bilibili.com/video/av114339210073708",
     "source": "马克的技术工作坊",
     "platform": "bilibili",
-    "points": 250608,
+    "points": 251576,
     "published_at": "2025-04-15T00:59:13+00:00",
     "summary": "MCP终极指南 - 带你深入掌握MCP（基础篇）\n\n时间轴：\n01:05 MCP简要介绍\n02:47 安装 MCP Host（Cline）\n03:15 配置 Cline 用的 API Key\n06:01 第一个 MCP 问题\n06:31 概念解释：MCP Server 和 Tool\n09:13 配置 MCP Server\n14:19 使用 MCP Server\n15:24 MCP 交互流程详解\n1"
   },
@@ -300,7 +311,7 @@
     "url": "http://www.bilibili.com/video/av116521405780262",
     "source": "大牙大-",
     "platform": "bilibili",
-    "points": 209580,
+    "points": 211359,
     "published_at": "2026-05-05T10:13:18+00:00",
     "summary": "🤔如果你最近也在想一件事：我一个完全不会代码的人，真的可以用 AI 为自己做出一个软件吗？\n🌟我的答案是：当然可以！\n\n📚我把自己这4个月Vibe Coding里最重要的经验，浓缩成了一次完整实操演示。\n不是只告诉你装什么工具，而是直接带你从0到1做出一个真正能运行的软件：怎么提第一次需求，怎么让AI稳定执行，怎么一步一步把项目推进下去。\n\n如果你刚开始对Vibe Coding感兴趣，那这条就是为"
   },
@@ -311,7 +322,7 @@
     "url": "http://www.bilibili.com/video/av116796937997854",
     "source": "隔壁的程序员老王",
     "platform": "bilibili",
-    "points": 187907,
+    "points": 190575,
     "published_at": "2026-06-25T09:00:00+00:00",
     "summary": "作者知识星球：https://t.zsxq.com/ubYr8\n作者的第一个VibeCoding：https://github.com/cradiator/memory_map_visualizer"
   },
@@ -322,20 +333,20 @@
     "url": "http://www.bilibili.com/video/av114358956854079",
     "source": "玄离199",
     "platform": "bilibili",
-    "points": 178048,
+    "points": 178132,
     "published_at": "2025-04-18T12:48:54+00:00",
     "summary": "MCPPPPPPPPPPPPPPPPPPPP"
   },
   {
-    "id": "bvid:BV16NvCBrEVs",
+    "id": "bvid:BV1ExV36wEsE",
     "domain": "AI",
-    "title": "什么是Vibe Coding，以及怎么使用？",
-    "url": "http://www.bilibili.com/video/av115797133368973",
-    "source": "清华姜学长",
+    "title": "VS Code 安装 Claude Code 并接入 DeepSeek！Claude Code for VS Code！VSCode使用ClaudeCode插件",
+    "url": "http://www.bilibili.com/video/av116662871268177",
+    "source": "FutureAI实验室",
     "platform": "bilibili",
-    "points": 162656,
-    "published_at": "2025-12-28T12:36:33+00:00",
-    "summary": "-"
+    "points": 152311,
+    "published_at": "2026-05-30T09:44:52+00:00",
+    "summary": "本节视频编号71，评论区自助领取配套文档，记得一键三连哦！"
   },
   {
     "id": "bvid:BV1JBorBoEXh",
@@ -344,7 +355,7 @@
     "url": "http://www.bilibili.com/video/av116475771755099",
     "source": "舔砖加瓦编程小马",
     "platform": "bilibili",
-    "points": 120562,
+    "points": 123351,
     "published_at": "2026-04-27T08:51:41+00:00",
     "summary": "Claude Code保姆级全套教程（软件+文档）\n   喜欢视频课程的同学一键三连多多支持一下，长按点赞五秒=lv6大佬 可以的发送彩色弹幕哦。\n配套源码项目已打包评论区回复up"
   },
@@ -355,31 +366,9 @@
     "url": "http://www.bilibili.com/video/av116678943839396",
     "source": "有点子is丫",
     "platform": "bilibili",
-    "points": 110519,
+    "points": 111939,
     "published_at": "2026-06-02T05:57:01+00:00",
     "summary": "【2026最新版】这绝对是B站讲的最好的Cursor全流程实战教程， 全程干货无废话，学完即就业！\n视频教程 附 所需源码 文档 软件"
-  },
-  {
-    "id": "bvid:BV1EVuqzrEMJ",
-    "domain": "AI",
-    "title": "【保姆级教程】手把手教你低成本制作AI女友，【一定要看置顶评论】，可随身携带，自由对话",
-    "url": "http://www.bilibili.com/video/av114851468812000",
-    "source": "往生堂研发",
-    "platform": "bilibili",
-    "points": 110297,
-    "published_at": "2025-07-14T12:03:53+00:00",
-    "summary": "文档地址\nhttps://github.com/xinnan-tech/xiaozhi-esp32-server/blob/main/docs/Deployment.md?_refluxos=a10#%E6%96%B9%E5%BC%8F%E4%B8%80docker%E5%8F%AA%E8%BF%90%E8%A1%8Cserver"
-  },
-  {
-    "id": "bvid:BV1t9oZBDENp",
-    "domain": "AI",
-    "title": "Agent Loop: 多智能体协同，让AI长时工作，从原理到实践",
-    "url": "http://www.bilibili.com/video/av116469396413175",
-    "source": "费曼学徒冬瓜",
-    "platform": "bilibili",
-    "points": 105929,
-    "published_at": "2026-04-26T12:00:00+00:00",
-    "summary": "睡前给AI丢了一句话，醒来直接验收成果——怎么让AI连续干活几小时不拉胯？\n这期我们从原理到实战，彻底讲清楚 Harness 工程：让 AI 长时间自主工作的核心技术。\n内容涵盖两种方案：\nRalph 方案：用 while 循环不断启动新会话，通过文件系统衔接上下文\n多智能体方案（推荐）：主 Agent 只协调不干活，子 Agent 各司其职，开发测试分工明确\n重点讲了多智能体的完整流程设计：怎么"
   },
   {
     "id": "bvid:BV1QuZAY2EW1",
@@ -388,7 +377,7 @@
     "url": "http://www.bilibili.com/video/av114246079809849",
     "source": "Geek4Fun",
     "platform": "bilibili",
-    "points": 92821,
+    "points": 92837,
     "published_at": "2025-03-29T14:02:03+00:00",
     "summary": "Hello 大家好，不需要懂任何编程知识，也不需要写一行代码，10 分钟让你彻底学会 AI 编程！手把手带你从:\n- 0基础到入门\n- 用户端的选择\n- 开发出一款非常有实用价值的应用\n- 借助 AI 来画设计图！\n- 接入 Deepseek 和把数据存在云服务器\n- 实用的 AI 进阶技巧"
   },
@@ -399,20 +388,31 @@
     "url": "http://www.bilibili.com/video/av116934511239163",
     "source": "AI超元域",
     "platform": "bilibili",
-    "points": 86450,
+    "points": 87192,
     "published_at": "2026-07-17T09:10:43+00:00",
     "summary": "视频简介：\n\n月之暗面最新发布的 Kimi K3，拥有2.8万亿参数和100万 Token 上下文窗口，它的真实编程能力究竟怎么样？\n\n本期视频将对 Kimi K3 进行一次完整的高难度编程实测。我们先在官方网页版测试 SVG 手绘灯泡、复杂过河动画、南宋古都轻功游戏和土星自行车比赛，再将 Kimi K3 接入 Claude Code，开发原生 macOS 音乐播放器、侏罗纪坦克射击游戏以及 iO"
   },
   {
-    "id": "bvid:BV1A24y1J7Dt",
+    "id": "bvid:BV1Tv3i6LEX1",
     "domain": "AI",
-    "title": "如何在VS Code中使用Cursor自动生成代码",
-    "url": "http://www.bilibili.com/video/av781409810",
-    "source": "许你再少年",
+    "title": "用Codex、cursor 还是Claude ？程序员不作选择题，我都要用，还一起用 | Orca ADE 介绍",
+    "url": "http://www.bilibili.com/video/av116996217838997",
+    "source": "技术胖",
     "platform": "bilibili",
-    "points": 73917,
-    "published_at": "2023-03-23T11:32:23+00:00",
-    "summary": ""
+    "points": 67695,
+    "published_at": "2026-07-28T06:41:31+00:00",
+    "summary": "如果能把 Codex、Claude Code、Grok、Cursor 等智能编程工具整合到同一个工作环境中，再让多个 Agent 像团队成员一样分工协作，软件开发的效率将得到显著提升。Orca ADE 正是为此而生：它是一款开源、免费的 Agent 开发环境，专注于代码管理与命令行工作流，不仅能够接入多种编程 Agent，还支持语音操作和手机远程管理。接下来，我们就来认识一下 Orca ADE，看"
+  },
+  {
+    "id": "bvid:BV19wXvBpEaL",
+    "domain": "AI",
+    "title": "认真用 Claude Code 的人，迟早会遇见 Everything Claude Code",
+    "url": "http://www.bilibili.com/video/av116319122885806",
+    "source": "极客魔导师",
+    "platform": "bilibili",
+    "points": 63276,
+    "published_at": "2026-03-30T16:47:51+00:00",
+    "summary": "Everything Claude Code 是目前 GitHub 上 116K star 的 Claude Code 配置项目。本期从斜杠命令、子代理、Hooks 到学习系统，带你把这个项目真正用起来。"
   },
   {
     "id": "bvid:BV1BnVpz5EBD",
@@ -421,20 +421,9 @@
     "url": "http://www.bilibili.com/video/av114461616643308",
     "source": "直男山禾",
     "platform": "bilibili",
-    "points": 53409,
+    "points": 53438,
     "published_at": "2025-05-06T15:38:52+00:00",
     "summary": "今天聊聊MCP"
-  },
-  {
-    "id": "bvid:BV1RrZHYqEvm",
-    "domain": "AI",
-    "title": "Cursor+Figma MCP，自动生成可编辑设计稿",
-    "url": "http://www.bilibili.com/video/av114257538650701",
-    "source": "Next蔡蔡",
-    "platform": "bilibili",
-    "points": 52381,
-    "published_at": "2025-03-31T14:36:31+00:00",
-    "summary": "分享了两种Figma MCP。一种是通过获取Figma API key来实现Cursor和Figma的连接，更侧重精准控制。\n.\n因为大多数 Figma 文件都会非常大，如果你想让Cursor精准链接到文件中的特定元素，一般选择这个MCP会更合适。\n.\n另一种则是通过Figma插件形式，通过channel实现与Cursor的连接，更侧重从0到1的设计元素生成，比较适合没有太多设计基础的用户。\n.\n"
   },
   {
     "id": "bvid:BV1vYFQzQE4P",
@@ -443,31 +432,9 @@
     "url": "http://www.bilibili.com/video/av116046157647899",
     "source": "AI超元域",
     "platform": "bilibili",
-    "points": 47508,
+    "points": 47514,
     "published_at": "2026-02-10T11:44:51+00:00",
     "summary": "🚀OpenClaw高级使用经验之如何调用Claude Code最省Token！2026年最强生产力！Claude Code Hooks回调+Agent Teams实现全自动开发零轮询方案详解！效率神器\n\n\n\n🚀🚀🚀视频简介：\n✅重磅教程！用Claude Code Hooks彻底解决OpenClaw轮询消耗Token的痛点！Stop Hook自动回调让Token消耗从暴涨变为几乎忽略不计！\n🔥 本期"
-  },
-  {
-    "id": "bvid:BV1HaN162EPT",
-    "domain": "AI",
-    "title": "【Codex】2026最新Codex保姆级教程，ChatGPT + Codex 开发实战全流程，环境配置、核心功能、使用技巧到项目实战一学就会，少走99%弯路！",
-    "url": "http://www.bilibili.com/video/av116911660665280",
-    "source": "今天AI了吗",
-    "platform": "bilibili",
-    "points": 46994,
-    "published_at": "2026-07-13T09:01:50+00:00",
-    "summary": "如果视频对你有用的话请 一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！\n【视频配套籽料+问题解答请看”平论区置顶”自取哦】"
-  },
-  {
-    "id": "bvid:BV1aqjX61E6g",
-    "domain": "AI",
-    "title": "【2026最新】B站最全最细的AI零基础入门教程，教学通俗易懂，小白适用！普通人也能抓住的AI风口！学完即就业，带你玩转AI赛道！大模型|agent",
-    "url": "http://www.bilibili.com/video/av116803598557031",
-    "source": "大模型开发",
-    "platform": "bilibili",
-    "points": 45571,
-    "published_at": "2026-06-24T06:22:18+00:00",
-    "summary": "【2026最新】B站最全最细的AI零基础入门教程，教学通俗易懂，小白适用！普通人也能抓住的AI风口！学完即就业，带你玩转AI赛道！大模型|agent"
   },
   {
     "id": "bvid:BV1SqdeBnEvV",
@@ -476,7 +443,7 @@
     "url": "http://www.bilibili.com/video/av116415373778266",
     "source": "leookun",
     "platform": "bilibili",
-    "points": 44406,
+    "points": 44536,
     "published_at": "2026-04-16T17:16:48+00:00",
     "summary": "Cursor 助手已发布！下载使用文档：https://docs.leokun.cn\n\n我在本地实现了Cursor 的大部分官方服务(主要是bidi+runSSE的grpc)，然后以标准的 Openai API 或Anthropic接口直接发送给其他 API，全程流量都没有到 cursor官方，真正的 local first，支持思维链，支持局域网地址"
   },
@@ -487,7 +454,7 @@
     "url": "http://www.bilibili.com/video/av113888003622214",
     "source": "影刀RPA",
     "platform": "bilibili",
-    "points": 41099,
+    "points": 41116,
     "published_at": "2025-02-06T02:00:00+00:00",
     "summary": "AI智能体：场景化智能助手，打造企业AI超级员工\n影刀AI Power，帮助企业将AI用起来。让每个员工都能拥有AI能力，在工作中使用AI解决问题。\n\n影刀AP企业版免费试用申请：http://s.winrobot360.com/g02tp\n影刀AP社区版使用：https://www.yingdao.com/ai-power/"
   },
@@ -498,7 +465,7 @@
     "url": "http://www.bilibili.com/video/av114351574879067",
     "source": "狠活AI科技",
     "platform": "bilibili",
-    "points": 39347,
+    "points": 39398,
     "published_at": "2025-04-17T05:15:27+00:00",
     "summary": "3步将DeepSeek接入Cursor，免费无限制使用Composer Agent、代码补全等AI编程功能，无需魔法无需订阅速度飞快，DeepSeek-V3-0324效果媲美Pro版会员， 还有Claude 3.7、Gemini 2.5 Pro 等顶级模型"
   },
@@ -509,20 +476,9 @@
     "url": "http://www.bilibili.com/video/av116854601286698",
     "source": "马士兵老师",
     "platform": "bilibili",
-    "points": 37819,
+    "points": 38211,
     "published_at": "2026-07-03T06:28:48+00:00",
     "summary": "迈入AI赋能的网络安全新时代！\n\n本课程带你打通大模型与安全实战的底层逻辑。从大模型演进到安全智能体（Agent）构建，硬核实战拉满！手把手教你利用大模型API自动化搞定信息收集、黑盒挖洞、代码审计、解CTF题目及报告编写。深度破解AI挖洞的高效提示词秘籍，攻克复杂场景下的Agent架构与成本选型。\n\n2026安全防线全面升级，带你用AI武装自己，成为驾驭大模型的稀缺AI安全专家！"
-  },
-  {
-    "id": "bvid:BV1cCj2ztEf5",
-    "domain": "AI",
-    "title": "Cursor+Claude Code+Claude 4终极组合！仅用10分钟为开源项目Magentic-UI完美集成JWT用户认证系统，编程效率提升300%",
-    "url": "http://www.bilibili.com/video/av114574527307727",
-    "source": "AI超元域",
-    "platform": "bilibili",
-    "points": 35024,
-    "published_at": "2025-05-26T14:20:15+00:00",
-    "summary": "Cursor+Claude Code+Claude 4终极组合！仅用10分钟为开源项目Magentic-UI完美集成JWT用户认证系统，编程效率提升300%，告别传统开发模式！小白也能轻松开发商业项目\n\n🚀🚀🚀视频简介：\n✅【保姆级教程】从技术栈分析到功能实现：Claude Code完整开发流程深度解析！从零开始为微软开源智能体项目添加完整用户认证功能，支持注册登录退出，让你的AI应用瞬间变身多用"
   },
   {
     "id": "bvid:BV1uyLjzHEMS",
@@ -531,20 +487,9 @@
     "url": "http://www.bilibili.com/video/av114395598293799",
     "source": "神秘的鱼仔",
     "platform": "bilibili",
-    "points": 33952,
+    "points": 33961,
     "published_at": "2025-04-24T23:46:15+00:00",
     "summary": "VSCode最新版已经原生支持MCP！本期视频通过一个实际例子教会大家如何通过VSCode实现MCP的调用"
-  },
-  {
-    "id": "bvid:BV1NpubzYE8c",
-    "domain": "AI",
-    "title": "Cursor用不了？三款AI编程工具完美代替Cursor",
-    "url": "http://www.bilibili.com/video/av114863061864380",
-    "source": "AI随风随风",
-    "platform": "bilibili",
-    "points": 29509,
-    "published_at": "2025-07-16T13:10:54+00:00",
-    "summary": "Cursor用不了？三款AI编程工具完美代替Cursor\naugmentCode\nTrae\nKiro"
   },
   {
     "id": "bvid:BV11K9gBqEnW",
@@ -553,53 +498,9 @@
     "url": "http://www.bilibili.com/video/av116341654755924",
     "source": "分歧点WhatIf",
     "platform": "bilibili",
-    "points": 25765,
+    "points": 25799,
     "published_at": "2026-04-03T16:14:43+00:00",
     "summary": "每个参数都是干什么的，如何修改提示词的教程。\n不知道这是什么？请看合集内的视频~\n我做了一个 AI 的杀戮尖塔2MOD！\n可以和怪物对话，策反怪物，带着怪物爬塔（重写了几乎每一个怪物在友方时候的行为），还能给怪物打防御，带个沙虫全吃了！\n可以和上古之民对话，聊嗨了会给你 1～2 个额外赐福，还能帮你指示为未来\n可以让偷窃草蜢偷队友的 key 卡，想无限？偷了！\n可以和商人讨价还价，甚至白嫖\n多人的"
-  },
-  {
-    "id": "bvid:BV1njtUeeE56",
-    "domain": "AI",
-    "title": "Unity + Cursor AI编程，让AI帮你写代码",
-    "url": "http://www.bilibili.com/video/av113179434683184",
-    "source": "Cool灬浩",
-    "platform": "bilibili",
-    "points": 22660,
-    "published_at": "2024-09-22T05:02:40+00:00",
-    "summary": ""
-  },
-  {
-    "id": "bvid:BV1XxXpBEEHU",
-    "domain": "AI",
-    "title": "Claude Code远程开发终极方案！手机改代码+实时预览~【小白教程】",
-    "url": "http://www.bilibili.com/video/av116294326230438",
-    "source": "爱听书的程序员阿超",
-    "platform": "bilibili",
-    "points": 22107,
-    "published_at": "2026-03-26T12:00:00+00:00",
-    "summary": "之前，我一直在研究怎么远程使用 Claude Code 开发项目，并且能实时预览效果。但是一直都没有找到合适的解决方案，要么就是给一个临时公网链接预览，每次都需要再配置，要么就是购买云服务器来配置，都感觉挺麻烦的~\n\n最近，我发现这个蒲公英异地组网的方案，用来做远程开发 Claude Code 项目，感觉非常方便，不仅能修改代码，而且我实时预览的需求也很好的满足了。\n\n这样我随时随地都可以用 AI"
-  },
-  {
-    "id": "bvid:BV16ggC6DEZK",
-    "domain": "AI",
-    "title": "【Claude Code】这绝对是b站讲的最好的Claude Code教程，手把手教你在国内从安装到代码实战的保姆级教程！!让你少走99%弯路！AI大模型",
-    "url": "http://www.bilibili.com/video/av116963049212769",
-    "source": "双非本想做大模型",
-    "platform": "bilibili",
-    "points": 21460,
-    "published_at": "2026-07-22T10:10:42+00:00",
-    "summary": "如果视频对你有用的话请 一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！\n【视频配套籽料+问题解答请看”平论区置顶”自取哦】"
-  },
-  {
-    "id": "bvid:BV14erKYuEaE",
-    "domain": "AI",
-    "title": "最强编程AI Cursor+Unity制作一个史诗游戏(详细)",
-    "url": "http://www.bilibili.com/video/av113774908413987",
-    "source": "多西杰克",
-    "platform": "bilibili",
-    "points": 17650,
-    "published_at": "2025-01-05T09:01:00+00:00",
-    "summary": "网上惊呼Cursor AI厉害的内容很多，但结合Unity做游戏的不多，我就来实测一下，做一个AAA大作......"
   },
   {
     "id": "bvid:BV1oG3w6wEZB",
@@ -608,20 +509,64 @@
     "url": "http://www.bilibili.com/video/av116992023462138",
     "source": "学姐潇潇",
     "platform": "bilibili",
-    "points": 16872,
+    "points": 24627,
     "published_at": "2026-07-27T12:55:18+00:00",
     "summary": "因为我在刚开始的阶段，碰到了很多并不是零基础的教程，所以有了这期视频~"
   },
   {
-    "id": "bvid:BV15phrzqEzK",
+    "id": "bvid:BV1w9Nc69EXP",
     "domain": "AI",
-    "title": "【Claude Code Router】一键直连五大模型",
-    "url": "http://www.bilibili.com/video/av115121162553281",
-    "source": "她笑中藏泪花",
+    "title": "[电赛AIskill]写0行代码/纯agent速通2024年电赛H题——思路&amp;代码分享",
+    "url": "http://www.bilibili.com/video/av116900721922369",
+    "source": "3545D",
     "platform": "bilibili",
-    "points": 16948,
-    "published_at": "2025-08-31T03:09:22+00:00",
-    "summary": "Claude Code Router 教程：手把手完成 CCR 配置与 PROXY_URL 代理，一次直连 Gemini、Kimi、DeepSeek、GLM、Qwen，区分 Anthropic 与 OpenAI 端点，并附 /model 切换与报错速查。点击查看。\n博文链接：https://rosetears.cn/archives/61/"
+    "points": 23196,
+    "published_at": "2026-07-11T09:56:10+00:00",
+    "summary": "使用mspm0-skill速通2024年电赛h题教程/思路，视频内使用的是codex桌面端（现在叫ChatGPT桌面端），天猛星开发板+ccs环境编译+OpenOCD/DAPLink烧录，视频内skill支持各种开发板/工具链/Agent/烧录器/IDE等，详见https://github.com/mc3545dada/mspm0-skill，感兴趣的欢迎交流/Issue/PR/star等，谢谢a"
+  },
+  {
+    "id": "bvid:BV16ggC6DEZK",
+    "domain": "AI",
+    "title": "【Claude Code】这绝对是b站讲的最好的Claude Code教程，手把手教你在国内从安装到代码实战的保姆级教程！!让你少走99%弯路！AI大模型",
+    "url": "http://www.bilibili.com/video/av116963049212769",
+    "source": "双非本想做大模型",
+    "platform": "bilibili",
+    "points": 23115,
+    "published_at": "2026-07-22T10:10:42+00:00",
+    "summary": "如果视频对你有用的话请 一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！\n【视频配套籽料+问题解答请看”平论区置顶”自取哦】"
+  },
+  {
+    "id": "bvid:BV1njtUeeE56",
+    "domain": "AI",
+    "title": "Unity + Cursor AI编程，让AI帮你写代码",
+    "url": "http://www.bilibili.com/video/av113179434683184",
+    "source": "Cool灬浩",
+    "platform": "bilibili",
+    "points": 22663,
+    "published_at": "2024-09-22T05:02:40+00:00",
+    "summary": ""
+  },
+  {
+    "id": "bvid:BV1nf42127MW",
+    "domain": "AI",
+    "title": "用AI Agent做一个法律咨询助手，罗老看了都直呼内行 feat.通义千问大模型&amp;阿里云百炼平台",
+    "url": "http://www.bilibili.com/video/av1204786228",
+    "source": "御风大世界",
+    "platform": "bilibili",
+    "points": 21288,
+    "published_at": "2024-05-21T05:09:48+00:00",
+    "summary": ""
+  },
+  {
+    "id": "bvid:BV1WS5B6WECp",
+    "domain": "AI",
+    "title": "10分钟完成Ubuntu安装Claude Code并免费使用DeepSeekV4模型",
+    "url": "http://www.bilibili.com/video/av116579891153749",
+    "source": "不倒翁lhj",
+    "platform": "bilibili",
+    "points": 17161,
+    "published_at": "2026-05-15T18:01:19+00:00",
+    "summary": "10分钟完成Ubuntu安装Claude Code并免费使用DeepSeekV4模型\n代金券领取链接：https://cloud.siliconflow.cn/i/hkV35uvp\nnodejs下载链接：Node.js — Download Node.js®\ncc-switch下载链接：github.com/farion1231/cc-switch/releases\n安装包和笔记下载链接：http"
   },
   {
     "id": "bvid:BV1Z5KU6UExC",
@@ -630,7 +575,7 @@
     "url": "http://www.bilibili.com/video/av116951003242391",
     "source": "吴恩达AIAgent",
     "platform": "bilibili",
-    "points": 16114,
+    "points": 16672,
     "published_at": "2026-07-20T07:01:13+00:00",
     "summary": "本套课专门解决 AI 写代码无规范、项目混乱、新旧代码无法兼容、迭代失控等痛点，完整演示一套标准化 AI 软件开发流水线：从环境初始化、项目章程、功能规范编写，到 AI 自动编码、自动化校验、多轮需求迭代、MVP 交付，最后讲解遗留项目改造、自定义工作流、可替换编码 Agent 底层设计，全程带完整项目实操。"
   },
@@ -641,20 +586,20 @@
     "url": "http://www.bilibili.com/video/av116543333601720",
     "source": "设计之道",
     "platform": "bilibili",
-    "points": 15762,
+    "points": 15807,
     "published_at": "2026-05-09T07:11:36+00:00",
     "summary": "【简介】\nAnthropic 刚刚发布了用于创意工具的官方 Claude Connectors —— 其中 Blender 连接器对 3D 艺术家来说最重要。在本视频中，我将展示最佳的 Claude + Blender 免费设置，以及为什么这次更新可能会改变我们构建 3D 场景的方式。\n\n【你将学到】\n01:13 步骤 1：安装 Blender MCP 和 Claude Code\n02:31 步骤"
   },
   {
-    "id": "bvid:BV15hNq6LE6V",
+    "id": "bvid:BV178Lx6kEeZ",
     "domain": "AI",
-    "title": "7月最新Claude防封号最安全的！注册+订阅充值教程！A畜看到直接腿软，大喊完蛋了，随后呜呼",
-    "url": "http://www.bilibili.com/video/av116923035617928",
-    "source": "iwenwikii",
+    "title": "新手入门 Claude Code 最优搭配   VSCode+Claude Code+DeepS",
+    "url": "http://www.bilibili.com/video/av116609704269045",
+    "source": "慢炖AI",
     "platform": "bilibili",
-    "points": 12897,
-    "published_at": "2026-07-15T09:16:34+00:00",
-    "summary": "AI充值站：njzqhy.top"
+    "points": 13717,
+    "published_at": "2026-05-21T00:25:36+00:00",
+    "summary": "新手入门 Claude Code 最优搭配 —VSCode+Claude Code+DeepSeek V4Pro 完整教程。\n我有三个理由：\n\n首先第一点，安装简单，不用繁琐的配置环境、操作命令，直接在VS code中安装Claude code插件就可以了，2分钟就可以搞定。\n\n第二个理由是在VS code里的操作更方便，不用记那么多命令，另外在左侧还可以清晰的看到文件目录，随时查看和修改里面的内"
   },
   {
     "id": "bvid:BV1vLN769EJa",
@@ -663,20 +608,75 @@
     "url": "http://www.bilibili.com/video/av116894866677118",
     "source": "吴恩达的AI课",
     "platform": "bilibili",
-    "points": 12848,
+    "points": 13031,
     "published_at": "2026-07-10T09:04:48+00:00",
     "summary": "【代码已整理】\n无论你是从零开始开发项目，还是对现有代码进行现代化改造，本课程都能为你提供一套严谨的工作流程，让你按自己的方式构建软件。"
   },
   {
-    "id": "bvid:BV11EJn6JEk9",
+    "id": "bvid:BV1mPkbBhEPX",
     "domain": "AI",
-    "title": "claude+ccswitch配置glm5.2",
-    "url": "http://www.bilibili.com/video/av116742495999581",
-    "source": "cctryflow",
+    "title": "我让 AI 自己写Agent Skill，再让 AI 自己调用，真·开始自动干活了？",
+    "url": "http://www.bilibili.com/video/av115917476338200",
+    "source": "小豹一",
     "platform": "bilibili",
-    "points": 12724,
-    "published_at": "2026-06-13T11:13:45+00:00",
-    "summary": "智谱文档：https://docs.bigmodel.cn/cn/coding-plan/latest-model"
+    "points": 11796,
+    "published_at": "2026-01-18T18:20:40+00:00",
+    "summary": "claude code 仓库：\nhttps://github.com/anthropics/claude-code\n\n智普配置claude code：\nhttps://docs.bigmodel.cn/cn/coding-plan/tool/claude#%E6%96%B9%E5%BC%8F%E4%B8%89%EF%BC%9A%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE"
+  },
+  {
+    "id": "bvid:BV1dsNv66E3Q",
+    "domain": "AI",
+    "title": "【Cursor】2026年最新版免费永久使用cursor使用教程，程序员编程必备，史上最强AI编程工具(附安装包)",
+    "url": "http://www.bilibili.com/video/av116922599344955",
+    "source": "六月要癫",
+    "platform": "bilibili",
+    "points": 11545,
+    "published_at": "2026-07-15T06:39:18+00:00",
+    "summary": ""
+  },
+  {
+    "id": "bvid:BV1zV54zbEbU",
+    "domain": "AI",
+    "title": "2分钟在vscode里使用MCP服务",
+    "url": "http://www.bilibili.com/video/av114365231531540",
+    "source": "程序员三千",
+    "platform": "bilibili",
+    "points": 10863,
+    "published_at": "2025-04-19T15:10:12+00:00",
+    "summary": "-"
+  },
+  {
+    "id": "bvid:BV15JdkYxEGg",
+    "domain": "AI",
+    "title": "MCP还不会配置？Cherry Studio软件MCP服务配置教程",
+    "url": "http://www.bilibili.com/video/av114331324778025",
+    "source": "去飞GoFly",
+    "platform": "bilibili",
+    "points": 9247,
+    "published_at": "2025-04-14T02:30:00+00:00",
+    "summary": "MCP服务网站：https://smithery.ai/\nCherry Studio官方网站：https://cherry-ai.com/"
+  },
+  {
+    "id": "bvid:BV1GD7qzREVA",
+    "domain": "AI",
+    "title": "【MCP部署实战】手把手教你把MCP接入各大热门工具，保姆级教学，我奶听了都能学会，CherryStudio配置MCP",
+    "url": "http://www.bilibili.com/video/av114623818763366",
+    "source": "亿点点大模型",
+    "platform": "bilibili",
+    "points": 8803,
+    "published_at": "2025-06-04T07:08:58+00:00",
+    "summary": "全程干货无废话！MCP最新实战教程，从环境部署、原理详解到项目实战，带你彻底吃透MCP！MCPServer开发，mcp开发，mcp教程，mcp项目 完整视频教程+讲解课件+学习笔记+AI大模型知识库已打包可分享！"
+  },
+  {
+    "id": "bvid:BV12MEg6pE9o",
+    "domain": "AI",
+    "title": "【乐鑫教程】乐鑫文档 MCP 服务器上线，现已支持微信登录！",
+    "url": "http://www.bilibili.com/video/av116713957956440",
+    "source": "乐鑫信息科技",
+    "platform": "bilibili",
+    "points": 8033,
+    "published_at": "2026-06-08T10:17:31+00:00",
+    "summary": "手把手教你如何使用最新乐鑫文档知识库，帮你在 Claude / Cursor 等平台解答问题、生成代码、迁移 ESP-IDF 版本、烧录固件。 MCP 服务器现已支持微信扫码一键登录，快来一试！\n\n视频重点内容包括👇：\n\n- 如何将 MCP 服务器添加到 VS Code\n- 让 Copilot 基于乐鑫文档对比旧版和最新版 I2C 驱动\n- 驱动迁移\n- Copilot 编译代码、烧录代码并监控输"
   },
   {
     "id": "hn:49035303",
@@ -685,7 +685,7 @@
     "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
     "source": "louiereederson",
     "platform": "hackernews",
-    "points": 657,
+    "points": 659,
     "published_at": "2026-07-24T13:32:30+00:00",
     "summary": ""
   },
@@ -696,19 +696,8 @@
     "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
     "source": "m0do1",
     "platform": "hackernews",
-    "points": 338,
+    "points": 339,
     "published_at": "2026-07-24T12:53:59+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:49071512",
-    "domain": "AI 算力 / 半导体",
-    "title": "Nvidia's $750B in Deals Reignite Circular AI Fears",
-    "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
-    "source": "petethomas",
-    "platform": "hackernews",
-    "points": 81,
-    "published_at": "2026-07-27T16:02:00+00:00",
     "summary": ""
   },
   {
@@ -720,6 +709,17 @@
     "platform": "hackernews",
     "points": 112,
     "published_at": "2026-07-24T13:58:12+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:49071512",
+    "domain": "AI 算力 / 半导体",
+    "title": "Nvidia's $750B in Deals Reignite Circular AI Fears",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+    "source": "petethomas",
+    "platform": "hackernews",
+    "points": 81,
+    "published_at": "2026-07-27T16:02:00+00:00",
     "summary": ""
   },
   {
@@ -745,59 +745,81 @@
     "summary": ""
   },
   {
-    "id": "hn:49070311",
-    "domain": "AI 算力 / 半导体",
-    "title": "Ilya Sutskever's SSI and Nvidia Announce Long-Term Strategic Partnership",
-    "url": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership",
-    "source": "lanakei",
-    "platform": "hackernews",
-    "points": 16,
-    "published_at": "2026-07-27T14:33:53+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:49075171",
-    "domain": "AI 算力 / 半导体",
-    "title": "Sam Altman says we are in the singularity: 'This is the moment'",
-    "url": "https://www.businessinsider.com/sam-altman-openai-the-singularity-agi-prediction-anthropic-nvidia-2026-7",
-    "source": "doener",
-    "platform": "hackernews",
-    "points": 15,
-    "published_at": "2026-07-27T20:35:02+00:00",
-    "summary": ""
-  },
-  {
     "id": "hn:49093429",
     "domain": "AI 算力 / 半导体",
     "title": "Kospi Plunges After Nvidia CEO's Visits Spark 'Huang Curse' Fears",
     "url": "https://www.chosun.com/english/market-money-en/2026/07/29/6FEUZWQT5BG3HMJ3G2RZPHROGM/",
     "source": "mapping365",
     "platform": "hackernews",
-    "points": 11,
+    "points": 15,
     "published_at": "2026-07-29T04:29:58+00:00",
     "summary": ""
   },
   {
-    "id": "hn:49069995",
+    "id": "rss:https://www.eetimes.com/iot-tech-expo-europe-returns-to-amsterdam-as-industrial-ai-and-edge-intelligence-reshape-connected-industry/",
     "domain": "AI 算力 / 半导体",
-    "title": "Nvidia investing to 10x SSI compute in the next 12 months",
-    "url": "https://twitter.com/ssi/status/2081732119194394763",
-    "source": "primaprashant",
-    "platform": "hackernews",
-    "points": 11,
-    "published_at": "2026-07-27T14:11:31+00:00",
-    "summary": ""
+    "title": "IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Reshape Connected Industry",
+    "url": "https://www.eetimes.com/iot-tech-expo-europe-returns-to-amsterdam-as-industrial-ai-and-edge-intelligence-reshape-connected-industry/",
+    "source": "IoT Tech Expo",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T00:42:04+00:00",
+    "summary": "https://www.iottechexpo.com/europe/ From autonomous factories and AI-powered robots to connected vehicles and smart cities, organizations are entering a new era where connected systems are expected no"
   },
   {
-    "id": "hn:49068730",
+    "id": "rss:https://www.eetimes.com/dynamic-ai-demands-drive-memory-diversity/",
     "domain": "AI 算力 / 半导体",
-    "title": "Nvidia Launches Open Secure AI Alliance",
-    "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
-    "source": "BlueBerry2001",
-    "platform": "hackernews",
-    "points": 10,
-    "published_at": "2026-07-27T12:31:17+00:00",
-    "summary": ""
+    "title": "Dynamic AI Demands Drive Memory Diversity",
+    "url": "https://www.eetimes.com/dynamic-ai-demands-drive-memory-diversity/",
+    "source": "Gary Hilson",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T18:00:00+00:00",
+    "summary": "AI workloads aren't creating new memory categories—they're sharpening the trade-offs between capacity, latency, and power. The post Dynamic AI Demands Drive Memory Diversity appeared first on EE Times"
+  },
+  {
+    "id": "rss:https://www.eetimes.com/commercial-space-screening-approach-for-agile-high-reliability-payloads-2/",
+    "domain": "AI 算力 / 半导体",
+    "title": "Commercial Space Screening Approach for Agile, High-Reliability Payloads",
+    "url": "https://www.eetimes.com/commercial-space-screening-approach-for-agile-high-reliability-payloads-2/",
+    "source": "Analog Devices",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T14:00:00+00:00",
+    "summary": "As satellite deployments accelerate and mission economics evolve, engineers face a growing challenge: balancing the reliability demands of space operation with the cost, lead-time, size, and technolog"
+  },
+  {
+    "id": "rss:https://www.eetimes.com/physical-ai-isnt-just-bigger-ai-its-a-systems-architecture-challenge/",
+    "domain": "AI 算力 / 半导体",
+    "title": "Physical AI Isn’t Just Bigger AI; It’s a Systems Architecture Challenge",
+    "url": "https://www.eetimes.com/physical-ai-isnt-just-bigger-ai-its-a-systems-architecture-challenge/",
+    "source": "Rahul Patel, president and CEO, board director, Synaptics",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T14:00:00+00:00",
+    "summary": "Physical AI wins by fusing sensors, edge compute, and feedback loops. Learn why systems, not TOPS, matter. The post Physical AI Isn&#8217;t Just Bigger AI; It&#8217;s a Systems Architecture Challenge "
+  },
+  {
+    "id": "rss:https://www.eetimes.com/designing-efficient-signal-chains-with-easy-drive-adcs/",
+    "domain": "AI 算力 / 半导体",
+    "title": "Designing Efficient Signal Chains with Easy Drive ADCs",
+    "url": "https://www.eetimes.com/designing-efficient-signal-chains-with-easy-drive-adcs/",
+    "source": "Analog Devices, Arrow Electronics",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T12:50:29+00:00",
+    "summary": "Date: Wednesday, August 19, 2026 or Wednesday, August 26, 2026 This webcast will explain how and why Easy Drive SAR ADCs from Analog Devices can deliver the precision you need without the headache of "
+  },
+  {
+    "id": "rss:https://www.eetimes.com/from-co-packaged-optics-to-nanolasers-photonics-moves-inward/",
+    "domain": "AI 算力 / 半导体",
+    "title": "From Co-Packaged Optics to Nanolasers, Photonics Moves Inward",
+    "url": "https://www.eetimes.com/from-co-packaged-optics-to-nanolasers-photonics-moves-inward/",
+    "source": "Pat Brans",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T08:02:27+00:00",
+    "summary": "CEA-Leti, Scintil Photonics, and NcodiN show how optical interconnects are moving from data center racks toward co-packaged optics and chiplet-level communication. The post From Co-Packaged Optics to "
   },
   {
     "id": "rss:https://www.eetimes.com/microchip-acquires-edge-ai-chip-startup-hailo/",
@@ -844,59 +866,235 @@
     "summary": "The EU faces challenges in building its digital defenses, as the cost of replacing Chinese telecom equipment across Europe could reach $46 billion. The post Will Purging Chinese Tech Cost Europe Its D"
   },
   {
-    "id": "rss:https://www.eetimes.com/warning-shots-fired-as-amd-announces-new-data-center-gpus-at-advancing-ai-event/",
+    "id": "rss:https://www.tomshardware.com/video-games/xbox/microsoft-says-physical-discs-should-not-have-stopped-working-during-the-xbox-outage-clarifies-issue-with-entitlement-checks-that-failed-to-read-licenses-correctly-update-on-the-way",
     "domain": "AI 算力 / 半导体",
-    "title": "Warning Shots Fired as AMD Announces New Data Center GPUs",
-    "url": "https://www.eetimes.com/warning-shots-fired-as-amd-announces-new-data-center-gpus-at-advancing-ai-event/",
-    "source": "Sally Ward-Foxton",
+    "title": "Microsoft says physical discs should not have stopped working during the Xbox outage — clarifies issue with entitlement checks that failed to read licenses correctly, update on the way",
+    "url": "https://www.tomshardware.com/video-games/xbox/microsoft-says-physical-discs-should-not-have-stopped-working-during-the-xbox-outage-clarifies-issue-with-entitlement-checks-that-failed-to-read-licenses-correctly-update-on-the-way",
+    "source": "Hassam Nasir",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-27T16:58:23+00:00",
-    "summary": "Red team’s new Helios racks offer 30% more tokens per dollar than Nvidia. The post Warning Shots Fired as AMD Announces New Data Center GPUs appeared first on EE Times."
+    "published_at": "2026-07-29T18:05:17+00:00",
+    "summary": "Microsoft has confirmed that you should've been able to play your discs offline during the Xbox outage yesterday. The company has identified an issue with entitlement checks that prevented the correct"
   },
   {
-    "id": "rss:https://www.eetimes.com/automotive-ethernet-and-time-sensitive-networking-tsn-for-next-generation-vehicles/",
+    "id": "rss:https://www.tomshardware.com/pc-components/hdds/seagate-to-start-qualifying-record-setting-50tb-hdds-in-2027-most-drives-are-sold-out-through-2028",
     "domain": "AI 算力 / 半导体",
-    "title": "Automotive Ethernet and Time Sensitive Networking (TSN) for Next Generation Vehicles",
-    "url": "https://www.eetimes.com/automotive-ethernet-and-time-sensitive-networking-tsn-for-next-generation-vehicles/",
-    "source": "eInfochips",
+    "title": "Seagate to start qualifying record-setting 50TB HDDs in 2027 — most drives are sold out through 2028",
+    "url": "https://www.tomshardware.com/pc-components/hdds/seagate-to-start-qualifying-record-setting-50tb-hdds-in-2027-most-drives-are-sold-out-through-2028",
+    "source": "Anton Shilov",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-27T15:59:39+00:00",
-    "summary": "In this session, our expert will provide a practical overview of Automotive Ethernet, TSN, and much more. The post Automotive Ethernet and Time Sensitive Networking (TSN) for Next Generation Vehicles "
+    "published_at": "2026-07-29T16:40:53+00:00",
+    "summary": "Seagate expects to begin customer qualification of its 50TB-class HAMR hard drives in late 2027 with shipments in 2028 as AI-driven storage demand keeps production largely sold out through 2028."
   },
   {
-    "id": "rss:https://www.eetimes.com/bringing-inference-to-the-patient-systems-architecture-for-healthcare-edge-ai/",
+    "id": "rss:https://www.tomshardware.com/tech-industry/nvidia-employee-implicated-in-escalating-supermicro-smuggling-scandal-but-demand-only-intensifies-for-nvidia-hardware",
     "domain": "AI 算力 / 半导体",
-    "title": "Bringing Inference to the Patient: Systems Architecture for Healthcare Edge AI",
-    "url": "https://www.eetimes.com/bringing-inference-to-the-patient-systems-architecture-for-healthcare-edge-ai/",
-    "source": "Beenish Zia, Principal Engineer, Intel",
+    "title": "Nvidia employee implicated in escalating Supermicro smuggling scandal, but demand only intensifies for Nvidia hardware",
+    "url": "https://www.tomshardware.com/tech-industry/nvidia-employee-implicated-in-escalating-supermicro-smuggling-scandal-but-demand-only-intensifies-for-nvidia-hardware",
+    "source": "Jon Martindale",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-27T13:00:00+00:00",
-    "summary": "Scaling healthcare AI effectively—starting with the right edge infrastructure. The post Bringing Inference to the Patient: Systems Architecture for Healthcare Edge AI appeared first on EE Times."
+    "published_at": "2026-07-29T15:10:06+00:00",
+    "summary": "An Nvidia employee has been implicated in the Supermicro smuggling scandal, with his home and desk searched. He's been detained over allegations of forgery and breach of trust. Meanwhile, Nvidia is co"
   },
   {
-    "id": "rss:https://www.eetimes.com/adaptive-hardware-could-change-how-ev-chargers-are-designed/",
+    "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/valve-says-that-steam-machine-reservations-wont-be-fulfilled-until-the-end-of-this-year-company-also-releases-cad-files-for-the-pc-consoles-external-shell-under-creative-commons",
     "domain": "AI 算力 / 半导体",
-    "title": "Adaptive Hardware Could Change How EV Chargers Are Designed",
-    "url": "https://www.eetimes.com/adaptive-hardware-could-change-how-ev-chargers-are-designed/",
-    "source": "Yashasvini Razdan",
+    "title": "Valve says that Steam Machine reservations won't be fulfilled until ‘the end of this year’ — company also releases CAD files for the PC console’s external shell under Creative Commons",
+    "url": "https://www.tomshardware.com/desktops/gaming-pcs/valve-says-that-steam-machine-reservations-wont-be-fulfilled-until-the-end-of-this-year-company-also-releases-cad-files-for-the-pc-consoles-external-shell-under-creative-commons",
+    "source": "Jowi Morales",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-27T13:00:00+00:00",
-    "summary": "Vanix bets adaptive AMD hardware can make India’s EV chargers upgradeable, not disposable. The post Adaptive Hardware Could Change How EV Chargers Are Designed appeared first on EE Times."
+    "published_at": "2026-07-29T15:03:56+00:00",
+    "summary": "Everyone who reserved the Steam Machine can get the chance to buy one before the year ends. Valve says availability differs between models and regions, and that some areas have already completed the r"
   },
   {
-    "id": "rss:https://www.eetimes.com/cxmt-ipo-where-chinas-largest-dram-maker-stands/",
+    "id": "rss:https://www.tomshardware.com/laptops/an-inside-tour-of-lenovos-north-carolina-ai-server-manufacturing-line-expansion-chinese-firm-expanding-us-native-production-to-meet-exploding-demand",
     "domain": "AI 算力 / 半导体",
-    "title": "CXMT IPO: Where China’s Largest DRAM Maker Stands?",
-    "url": "https://www.eetimes.com/cxmt-ipo-where-chinas-largest-dram-maker-stands/",
-    "source": "Majeed Ahmad",
+    "title": "An inside tour of Lenovo’s North Carolina AI server manufacturing line expansion — Chinese firm expanding US-native production to meet exploding demand",
+    "url": "https://www.tomshardware.com/laptops/an-inside-tour-of-lenovos-north-carolina-ai-server-manufacturing-line-expansion-chinese-firm-expanding-us-native-production-to-meet-exploding-demand",
+    "source": "Brandon Hill",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-27T07:20:00+00:00",
-    "summary": "CXMT eyes one of China’s largest semiconductor IPOs amid once-in-four-decades memory shortage. The post CXMT IPO: Where China’s Largest DRAM Maker Stands? appeared first on EE Times."
+    "published_at": "2026-07-29T14:27:06+00:00",
+    "summary": "Lenovo is fulfilling demand for homemade servers to fuel the AI boom."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/gpus/gpu-repair-service-will-upgrade-the-11gb-of-vram-on-your-rtx-2080-ti-to-22gb-mod-involves-physically-adjusting-the-strap-resistors-on-the-pcb-to-support-a-new-bios",
+    "domain": "AI 算力 / 半导体",
+    "title": "GPU repair service will upgrade the 11GB of VRAM on your RTX 2080 Ti to 22GB — mod involves physically adjusting the strap resistors on the PCB to support a new BIOS",
+    "url": "https://www.tomshardware.com/pc-components/gpus/gpu-repair-service-will-upgrade-the-11gb-of-vram-on-your-rtx-2080-ti-to-22gb-mod-involves-physically-adjusting-the-strap-resistors-on-the-pcb-to-support-a-new-bios",
+    "source": "Hassam Nasir",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T14:00:12+00:00",
+    "summary": "A GPU repair shop in the UAE is promising to upgrade the VRAM capacity of an RTX 2080 Ti from 11GB to 22GB by swapping the 1GB GDDR6 modules with 2GB chips and modifying the strap resistors to recogni"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/laptops/testing-laptops-on-battery-life-and-ac-power-comparing-intel-qualcomm-apple-and-amd",
+    "domain": "AI 算力 / 半导体",
+    "title": "Testing laptops on battery and AC power — Comparing Intel, Qualcomm, Apple, and AMD",
+    "url": "https://www.tomshardware.com/laptops/testing-laptops-on-battery-life-and-ac-power-comparing-intel-qualcomm-apple-and-amd",
+    "source": "Andrew E. Freedman",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T13:07:18+00:00",
+    "summary": "We tested laptops with processors from Intel, AMD, Qualcomm, and Apple to see the differences in how they perform on and off the charger."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/teacher-arrested-for-clapping-in-support-of-opposition-at-an-ai-data-center-meeting-gigawatt-scale-project-gets-approved-anyway-despite-community-resistance",
+    "domain": "AI 算力 / 半导体",
+    "title": "Teacher arrested for clapping in support of opposition at an AI data center meeting — gigawatt-scale project gets approved anyway despite community resistance",
+    "url": "https://www.tomshardware.com/tech-industry/data-centers/teacher-arrested-for-clapping-in-support-of-opposition-at-an-ai-data-center-meeting-gigawatt-scale-project-gets-approved-anyway-despite-community-resistance",
+    "source": "Jowi Morales",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T13:06:16+00:00",
+    "summary": "A Physics teacher was arrested for clapping multiple times during a public hearing to rezone land for a proposed gigawatt-scale data center near Emporia, Kansas. The man refused to cooperate when the "
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/desktops/mini-pcs/msi-cubi-nuc-ai-3mg-review",
+    "domain": "AI 算力 / 半导体",
+    "title": "MSI Cubi NUC AI+ 3MG review: Panther Lake in an understated mini PC",
+    "url": "https://www.tomshardware.com/desktops/mini-pcs/msi-cubi-nuc-ai-3mg-review",
+    "source": "Mark Tyson",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T13:00:00+00:00",
+    "summary": "The MSI Cubi NUC AI+ 3MG is a compact, understated design, providing an Intel Core Ultra 9 386H in a tiny desktop. It’s easy to upgrade and relatively quiet but could do with a few more ports at the b"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/how-to-buy-second-hand-pc-hardware-without-getting-scammed-essential-rules-of-engagement-for-finding-used-parts-and-machines-in-an-inflated-market",
+    "domain": "AI 算力 / 半导体",
+    "title": "How to buy second-hand PC hardware without getting scammed — essential rules of engagement for finding used parts and machines in an inflated market",
+    "url": "https://www.tomshardware.com/pc-components/how-to-buy-second-hand-pc-hardware-without-getting-scammed-essential-rules-of-engagement-for-finding-used-parts-and-machines-in-an-inflated-market",
+    "source": "Ben Stockton",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T12:07:36+00:00",
+    "summary": "Buying second-hand can be a great way to pick up a bargain on PC hardware, but you'll need to keep this advice in mind to make sure you avoid the scams."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/tech-industry/sk-hynix-operating-profit-rises-557-percent",
+    "domain": "AI 算力 / 半导体",
+    "title": "Memory maker SK hynix's profit rises 557% amid global shortage, expansion costs climb to $27 billion — shares slide despite mammoth earnings as expectations outpace reality and global AI selloffs cont",
+    "url": "https://www.tomshardware.com/tech-industry/sk-hynix-operating-profit-rises-557-percent",
+    "source": "Luke James",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T11:56:18+00:00",
+    "summary": "SK hynix has reported second-quarter revenue of 79.32 trillion won, and operating profit of 60.54 trillion won, the latter up 557% year over year."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/tech-industry/drones/three-us-states-to-deploy-60mph-drones-armed-with-pepper-spray-to-neutralize-school-shooters-campus-guardian-angel-drones-can-also-smash-windows-and-ram-attackers",
+    "domain": "AI 算力 / 半导体",
+    "title": "Three US states to deploy 60mph drones armed with pepper spray to neutralize school shooters — ‘Campus Guardian Angel’ drones can also smash windows and ram attackers",
+    "url": "https://www.tomshardware.com/tech-industry/drones/three-us-states-to-deploy-60mph-drones-armed-with-pepper-spray-to-neutralize-school-shooters-campus-guardian-angel-drones-can-also-smash-windows-and-ram-attackers",
+    "source": "Mark Tyson",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T11:36:04+00:00",
+    "summary": "The drone arms race is set to enter U.S. schools with Mithril Defense’s Campus Guardian Angel drones in at least nine schools across three states before the year is out."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/peripherals/webcams/how-to-look-better-on-webcam-tips-for-the-average-person-to-look-better-and-more-professional",
+    "domain": "AI 算力 / 半导体",
+    "title": "How to look better on webcam — tips for the average person to look better and more professional",
+    "url": "https://www.tomshardware.com/peripherals/webcams/how-to-look-better-on-webcam-tips-for-the-average-person-to-look-better-and-more-professional",
+    "source": "Sarah Jacobsson Purewal",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T11:32:03+00:00",
+    "summary": "Some tips for the average non-streaming webcam user to look better and more professional."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/cpus/intels-upcoming-nova-lake-desktop-sku-to-require-65w-of-separate-power-delivery-for-its-igpu-leaker-claims-beefy-integrated-graphics-could-require-two-vccgt-phases-for-12-xe3p-cores",
+    "domain": "AI 算力 / 半导体",
+    "title": "Intel's upcoming Nova Lake desktop SKU to require 65W of separate power delivery for its iGPU, leaker claims — beefy integrated graphics could require two VCCGT phases for 12 Xe3P cores",
+    "url": "https://www.tomshardware.com/pc-components/cpus/intels-upcoming-nova-lake-desktop-sku-to-require-65w-of-separate-power-delivery-for-its-igpu-leaker-claims-beefy-integrated-graphics-could-require-two-vccgt-phases-for-12-xe3p-cores",
+    "source": "Hassam Nasir",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T11:01:22+00:00",
+    "summary": "Intel seems to be working on a 16-core Nova Lake desktop APU with 12 Xe3P cores that will require 65W of power delivery on their own to achieve maximum performance. Two separate VCCGT phases will be n"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/3d-printing/get-usd180-of-3d-printing-filament-for-just-usd86-in-this-ebay-blowout-save-52-percent-on-10-reels-of-crealitys-hyper-pla-just-usd8-63-a-spool",
+    "domain": "AI 算力 / 半导体",
+    "title": "Get $180 of 3D printing filament for just $86 in this eBay blowout — save 52% on 10 reels of Creality's Hyper PLA, just $8.63 a spool",
+    "url": "https://www.tomshardware.com/3d-printing/get-usd180-of-3d-printing-filament-for-just-usd86-in-this-ebay-blowout-save-52-percent-on-10-reels-of-crealitys-hyper-pla-just-usd8-63-a-spool",
+    "source": "Stewart Bendle",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T10:57:04+00:00",
+    "summary": "Stock up on your favorite colors in this unbelievable Creality Hyper PLA filament bundle deal. Save 52% on 10 spools of high-speed printing plastics."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/ssds/state-of-play-ssd-pricing-one-year-into-the-ai-component-crisis-220-percent-price-increases-are-crippling-the-diy-market",
+    "domain": "AI 算力 / 半导体",
+    "title": "State of play: SSD pricing one year into the AI component crisis — 220% price increases are crippling the DIY market",
+    "url": "https://www.tomshardware.com/pc-components/ssds/state-of-play-ssd-pricing-one-year-into-the-ai-component-crisis-220-percent-price-increases-are-crippling-the-diy-market",
+    "source": "Stephen Warwick",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T10:52:51+00:00",
+    "summary": "We look at the state of SSD pricing one year into the AI apocalypse."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/ram/dram-chip-supply-to-module-makers-could-drop-by-more-than-70-percent-year-on-year-in-2027-says-apacer-ceo-demand-for-hbm-and-server-ram-continues-to-devour-manufacturing-capacity",
+    "domain": "AI 算力 / 半导体",
+    "title": "DRAM chip supply to module makers could drop by more than 70% year-on-year in 2027, says Apacer CEO — demand for HBM and server RAM continues to devour manufacturing capacity",
+    "url": "https://www.tomshardware.com/pc-components/ram/dram-chip-supply-to-module-makers-could-drop-by-more-than-70-percent-year-on-year-in-2027-says-apacer-ceo-demand-for-hbm-and-server-ram-continues-to-devour-manufacturing-capacity",
+    "source": "Etiido Uko",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T10:30:00+00:00",
+    "summary": "Apacer warns DRAM allocations to module makers could fall below 30% of 2026 levels as AI demand tightens supply and pushes memory prices higher."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-up-to-usd700-on-these-ibuypower-gaming-pcs-fitted-with-an-rx-9070-xt-for-4k-gaming-liquid-cooled-amd-rigs-feature-either-a-9800x3d-or-9900x-cpu-along-with-32gb-ddr5-and-a-1tb-ssd-starting-from-usd1-799",
+    "domain": "AI 算力 / 半导体",
+    "title": "Save up to $700 on these iBuyPower gaming PCs, fitted with an RX 9070 XT for 4K gaming — liquid-cooled AMD rigs feature either a 9800X3D or 9900X CPU, along with 32GB DDR5 and a 1TB SSD, starting from",
+    "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-up-to-usd700-on-these-ibuypower-gaming-pcs-fitted-with-an-rx-9070-xt-for-4k-gaming-liquid-cooled-amd-rigs-feature-either-a-9800x3d-or-9900x-cpu-along-with-32gb-ddr5-and-a-1tb-ssd-starting-from-usd1-799",
+    "source": "Ben Stockton",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T10:09:58+00:00",
+    "summary": "Two iBuyPower rigs are on offer at Walmart right now, both fitted with an AMD Radeon RX 9070 XT, in a deal that could save you up to $700 on a 4K-ready gaming PC."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-moonshot-ai-reportedly-used-nvidia-blackwell-chips-for-training-kimi-k3-company-circumvented-both-u-s-export-and-chinese-import-controls-to-acquire-compute",
+    "domain": "AI 算力 / 半导体",
+    "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-moonshot-ai-reportedly-used-nvidia-blackwell-chips-for-training-kimi-k3-company-circumvented-both-u-s-export-and-chinese-import-controls-to-acquire-compute",
+    "source": "Bruno Ferreira",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T10:00:00+00:00",
+    "summary": "Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — potentially circumventing both U.S. export and Chinese import controls"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/tech-industry/intel-closes-out-the-defense-program-that-paid-nvidia-and-others-to-run-test-chips-on-18a",
+    "domain": "AI 算力 / 半导体",
+    "title": "Intel closes out RAMP-C production pilot that paid Nvidia and others to run test chips on 18A — program helped lay a path for secure domestic chip production on advanced processes",
+    "url": "https://www.tomshardware.com/tech-industry/intel-closes-out-the-defense-program-that-paid-nvidia-and-others-to-run-test-chips-on-18a",
+    "source": "Luke James",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T09:30:00+00:00",
+    "summary": "Intel Foundry says that it has completed RAMP-C, the U.S. defense program awarded to the company in 2021 to stand up a domestic leading-edge chip ecosystem on its 18A process."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/developer-uses-ai-to-bring-a-native-version-of-the-legend-of-zelda-ocarina-of-time-to-ios-no-emulation-required-to-play-one-of-gamings-all-time-greats-on-an-iphone-or-ipad",
+    "domain": "AI 算力 / 半导体",
+    "title": "Developer uses AI to bring a native version of The Legend of Zelda: Ocarina of Time to iOS — no emulation required to play one of gaming's all-time greats on an iPhone or iPad",
+    "url": "https://www.tomshardware.com/video-games/retro-gaming/developer-uses-ai-to-bring-a-native-version-of-the-legend-of-zelda-ocarina-of-time-to-ios-no-emulation-required-to-play-one-of-gamings-all-time-greats-on-an-iphone-or-ipad",
+    "source": "Zhiye Liu",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T09:00:00+00:00",
+    "summary": "A developer has used OpenAI's Codex and GPT-5.6 Sol to help port a native version of The Legend of Zelda: Ocarina of Time to iOS and iPadOS devices."
   },
   {
     "id": "rss:https://www.tomshardware.com/laptops/an-affordable-oled-laptop-for-just-usd699-acers-swift-go-16-ai-back-to-school-deal",
@@ -998,235 +1196,48 @@
     "summary": "For as little as $10 (or less on sale), you can use an old drive as external storage, but will that dusty drive deliver the speed you need?"
   },
   {
-    "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-usd1-000-on-this-rtx-5090-gaming-pc-from-msi-just-17-percent-more-than-the-gpus-standalone-cost-right-now-score-this-4k-powerhouse-with-64gb-ddr5-and-a-2tb-ssd-for-usd4-899",
+    "id": "hn:49070311",
     "domain": "AI 算力 / 半导体",
-    "title": "Save $1,000 on this RTX 5090 gaming PC from MSI, just 17% more than the GPU's standalone cost right now —score this 4K powerhouse with 64GB DDR5 and a 2TB SSD for $4,899",
-    "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd1-000-on-this-rtx-5090-gaming-pc-from-msi-just-17-percent-more-than-the-gpus-standalone-cost-right-now-score-this-4k-powerhouse-with-64gb-ddr5-and-a-2tb-ssd-for-usd4-899",
-    "source": "Ben Stockton",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T11:36:14+00:00",
-    "summary": "Save $1,000 on this MSI Aegis R2 gaming PC, fitted with an RTX 5090, 64GB DDR5, and 2TB SSD for just $4,899."
+    "title": "Ilya Sutskever's SSI and Nvidia Announce Long-Term Strategic Partnership",
+    "url": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership",
+    "source": "lanakei",
+    "platform": "hackernews",
+    "points": 16,
+    "published_at": "2026-07-27T14:33:53+00:00",
+    "summary": ""
   },
   {
-    "id": "rss:https://www.tomshardware.com/video-games/xbox/xbox-blames-a-licensing-service-outside-xbox-for-the-16-hour-outage-that-blocked-disc-games",
+    "id": "hn:49075171",
     "domain": "AI 算力 / 半导体",
-    "title": "16-hour Xbox outage even stopped physical games from working — company blames licensing issue for incident that prohibited gaming across three generations of console",
-    "url": "https://www.tomshardware.com/video-games/xbox/xbox-blames-a-licensing-service-outside-xbox-for-the-16-hour-outage-that-blocked-disc-games",
-    "source": "Luke James",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T11:31:17+00:00",
-    "summary": "Xbox CTO Scott Van Vliet said that a licensing service sitting outside Xbox, which the platform depends on, began failing late on July 26 and took roughly 16 hours to clear."
+    "title": "Sam Altman says we are in the singularity: 'This is the moment'",
+    "url": "https://www.businessinsider.com/sam-altman-openai-the-singularity-agi-prediction-anthropic-nvidia-2026-7",
+    "source": "doener",
+    "platform": "hackernews",
+    "points": 15,
+    "published_at": "2026-07-27T20:35:02+00:00",
+    "summary": ""
   },
   {
-    "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/alphabet-goes-cash-flow-negative-for-the-first-time-as-ai-capex-doubles-to-44-9-billion-in-a-single-quarter",
+    "id": "hn:49069995",
     "domain": "AI 算力 / 半导体",
-    "title": "Google goes cash flow negative for the first time as AI data center buildout increases capex to a staggering $44.9 billion in a single quarter — CFO warns that capex will increase in 2027 as company b",
-    "url": "https://www.tomshardware.com/tech-industry/big-tech/alphabet-goes-cash-flow-negative-for-the-first-time-as-ai-capex-doubles-to-44-9-billion-in-a-single-quarter",
-    "source": "Luke James",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T11:12:23+00:00",
-    "summary": "On the same day, CFO Anat Ashkenazi raised full-year capex guidance to between $195 billion and $205 billion."
+    "title": "Nvidia investing to 10x SSI compute in the next 12 months",
+    "url": "https://twitter.com/ssi/status/2081732119194394763",
+    "source": "primaprashant",
+    "platform": "hackernews",
+    "points": 11,
+    "published_at": "2026-07-27T14:11:31+00:00",
+    "summary": ""
   },
   {
-    "id": "rss:https://www.tomshardware.com/3d-printing/crealitys-multicolor-k2-3d-printer-hits-an-all-time-low-price-of-usd499-save-usd200-today-with-the-perfect-printer-for-jumping-into-the-hobby",
-    "domain": "AI 算力 / 半导体",
-    "title": "Creality's multicolor K2 3D printer hits an all-time low price of $499 — save $200 today, with the perfect printer for jumping into the hobby",
-    "url": "https://www.tomshardware.com/3d-printing/crealitys-multicolor-k2-3d-printer-hits-an-all-time-low-price-of-usd499-save-usd200-today-with-the-perfect-printer-for-jumping-into-the-hobby",
-    "source": "Stewart Bendle",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T11:11:23+00:00",
-    "summary": "Save $200 on the Creality K2 Combo 3D printer bundle in Creality's Mega Summer Sales event."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/pc-components/gpus/leaked-radeon-rx-9050-hints-at-the-return-of-4gb-vram-gpus-in-2026-new-budget-rdna-4-card-also-spotted-in-8gb-config-with-half-the-power-of-an-rx-9060",
-    "domain": "AI 算力 / 半导体",
-    "title": "ASRock officially announces Radeon RX 9050 with 8GB VRAM — RDNA 4 card offers boost clock of up to 2600MHz (updated)",
-    "url": "https://www.tomshardware.com/pc-components/gpus/leaked-radeon-rx-9050-hints-at-the-return-of-4gb-vram-gpus-in-2026-new-budget-rdna-4-card-also-spotted-in-8gb-config-with-half-the-power-of-an-rx-9060",
-    "source": "Hassam Nasir",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T11:00:22+00:00",
-    "summary": "ASRock has listed the long-rumored RX 9050 GPU on its website in both a 4GB and 8GB configuration, but has deleted those pages since."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/nvidias-taipei-office-searched-as-taiwan-detains-employee-in-ai-chip-smuggling-probe",
-    "domain": "AI 算力 / 半导体",
-    "title": "Nvidia employee detained in Taiwan as part of chip smuggling probe — held on suspicion of falsifying business documents, company says smuggling 'a nonstarter'",
-    "url": "https://www.tomshardware.com/tech-industry/nvidias-taipei-office-searched-as-taiwan-detains-employee-in-ai-chip-smuggling-probe",
-    "source": "Luke James",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T10:34:07+00:00",
-    "summary": "Taiwan's prosecutors say they've detained a man surnamed Chang on suspicion of falsifying business documents, after investigators searched his home and workplace."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/pc-components/ddr5/re-examining-the-ddr4-gaming-gap-with-intels-lga-1700-cpus-in-mid-2026-performance-drops-of-14-percent-on-average-and-up-to-25-percent-in-some-games",
-    "domain": "AI 算力 / 半导体",
-    "title": "Re-examining the DDR4 gaming gap with Intel’s LGA 1700 CPUs in mid-2026 — performance drops of 14% on average, and up to 25% in some games",
-    "url": "https://www.tomshardware.com/pc-components/ddr5/re-examining-the-ddr4-gaming-gap-with-intels-lga-1700-cpus-in-mid-2026-performance-drops-of-14-percent-on-average-and-up-to-25-percent-in-some-games",
-    "source": "Jake Roach",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T10:32:27+00:00",
-    "summary": "Given the unprecedented surge in memory prices, we’re looking back on Intel’s LGA 1700 stack of CPUs to see how DDR4 and DDR5 match up with our modern gaming suite in 2026."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-companies-are-reportedly-shredding-millions-of-books-to-train-models-tech-giants-outsource-to-middlemen-to-secretly-buy-up-books-for-training-material",
-    "domain": "AI 算力 / 半导体",
-    "title": "AI companies are reportedly shredding millions of books after using them to train AI models — tech giants outsource to middlemen to secretly buy up books for training material",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-companies-are-reportedly-shredding-millions-of-books-to-train-models-tech-giants-outsource-to-middlemen-to-secretly-buy-up-books-for-training-material",
-    "source": "Zhiye Liu",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T10:30:00+00:00",
-    "summary": "New report reveals that AI companies are buying up physical books to train their LLMs and destroying them in the process."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/software/programming/daring-coder-gets-doom-running-with-regular-expressions-at-180-seconds-per-frame-like-playing-correspondence-chess-with-a-shotgun-nearly-14-million-substitutions-to-render-a-frame-at-80-000-substitutions-per-second",
-    "domain": "AI 算力 / 半导体",
-    "title": "Daring coder gets Doom running with regular expressions at 180 seconds per frame, like playing 'correspondence chess with a shotgun' — nearly 14 million substitutions to render a frame at 80,000 subst",
-    "url": "https://www.tomshardware.com/software/programming/daring-coder-gets-doom-running-with-regular-expressions-at-180-seconds-per-frame-like-playing-correspondence-chess-with-a-shotgun-nearly-14-million-substitutions-to-render-a-frame-at-80-000-substitutions-per-second",
-    "source": "Bruno Ferreira",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T10:00:00+00:00",
-    "summary": "Daring coder gets Doom running with regular expressions at 180 seconds per frame by using one text string to the machine, engine, and video output"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/pc-components/gpus/msi-and-colorful-raise-nvidia-rtx-50-series-prices-in-china-by-up-to-59-percent-across-the-entire-lineup-change-in-distributer-pricing-suggests-gpu-price-hikes-are-on-the-way",
-    "domain": "AI 算力 / 半导体",
-    "title": "MSI and Colorful raise Nvidia RTX 50-series prices in China by up to 59% across the entire lineup — change in distributer pricing suggests GPU price hikes are on the way",
-    "url": "https://www.tomshardware.com/pc-components/gpus/msi-and-colorful-raise-nvidia-rtx-50-series-prices-in-china-by-up-to-59-percent-across-the-entire-lineup-change-in-distributer-pricing-suggests-gpu-price-hikes-are-on-the-way",
-    "source": "Hassam Nasir",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-27T19:47:49+00:00",
-    "summary": "GPU prices seem to be on the rise once again with official distributor announcements in China hiking up the entire Blackwell lineup overnight. Compared to MSRP, we're witnessing a staggering bump of u"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-google-and-anthropic-absent-from-nvidia-led-open-secure-ai-alliance-30-companies-join-security-alliance-after-openai-agent-breach",
-    "domain": "AI 算力 / 半导体",
-    "title": "OpenAI, Google, and Anthropic absent from Nvidia-led Open Secure AI Alliance — 30+ companies join security alliance after OpenAI agent breach",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-google-and-anthropic-absent-from-nvidia-led-open-secure-ai-alliance-30-companies-join-security-alliance-after-openai-agent-breach",
-    "source": "Etiido Uko",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-27T19:03:47+00:00",
-    "summary": "Industry leading tech companies have formed an \"Open Secure AI Alliance\" that will build open-source models, agent harnesses, and cybersecurity tools, arguing that defenders need locally controlled AI"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run",
-    "domain": "AI 算力 / 半导体",
-    "title": "Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run",
-    "source": "Bruno Ferreira",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-27T18:40:58+00:00",
-    "summary": "Moonshot AI has released the weights for its recent Kimi-K3 model, directly going against OpenAI and Anthropic."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/china-begins-mass-production-of-domestic-immersion-duv-lithography-machines",
-    "domain": "AI 算力 / 半导体",
-    "title": "China begins mass production of homegrown immersion chipmaking machines in major breakthrough, report claims — first DUV lithography units will be delivered this year to SMIC, Hua Hong, and CXMT",
-    "url": "https://www.tomshardware.com/tech-industry/semiconductors/china-begins-mass-production-of-domestic-immersion-duv-lithography-machines",
-    "source": "Luke James",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-27T16:51:35+00:00",
-    "summary": "A state-backed company in Shanghai has begun mass-producing immersion deep ultraviolet lithography machines and is due to deliver the first units this year."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/peripherals/gaming-mice/why-an-mmo-mouse-isnt-just-for-gaming-make-use-of-the-myriad-of-buttons-for-enhancing-your-productivity-workflows-in-popular-software-applications",
-    "domain": "AI 算力 / 半导体",
-    "title": "Why an MMO mouse isn’t just for gaming — make use of the myriad of buttons for enhancing your productivity workflows in popular software applications",
-    "url": "https://www.tomshardware.com/peripherals/gaming-mice/why-an-mmo-mouse-isnt-just-for-gaming-make-use-of-the-myriad-of-buttons-for-enhancing-your-productivity-workflows-in-popular-software-applications",
-    "source": "Stewart Bendle",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-27T15:39:54+00:00",
-    "summary": "MMO mice are designed with many buttons to make it easier to play games with lots of spells and abilities, but MMO mice are also fantastic for automating your productivity workflows."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/video-games/handheld-gaming/upgrading-an-msi-claw-8-ex-ai-handheld-gaming-pc-with-a-2tb-ssd",
-    "domain": "AI 算力 / 半导体",
-    "title": "Upgrading an MSI Claw 8 EX AI+ handheld gaming PC with a 2TB SSD",
-    "url": "https://www.tomshardware.com/video-games/handheld-gaming/upgrading-an-msi-claw-8-ex-ai-handheld-gaming-pc-with-a-2tb-ssd",
-    "source": "Brandon Hill",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-27T15:04:32+00:00",
-    "summary": "I go through the steps of replacing the standard 1TB SSD in an MSI Claw 8 EX AI+ with a 2TB SSD."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-unveiled-its-iconic-core-2-duo-family-20-years-ago-legendary-chip-dethroned-amd-athlon-restoring-the-chipmakers-performance-lead",
-    "domain": "AI 算力 / 半导体",
-    "title": "Intel unveiled its iconic Core 2 Duo family 20 years ago — legendary chip dethroned AMD Athlon, restoring the chipmaker’s performance lead",
-    "url": "https://www.tomshardware.com/pc-components/cpus/intel-unveiled-its-iconic-core-2-duo-family-20-years-ago-legendary-chip-dethroned-amd-athlon-restoring-the-chipmakers-performance-lead",
-    "source": "Mark Tyson",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-27T15:01:11+00:00",
-    "summary": "Today marks 20 years since the first raft of Intel Core 2 Duo processors, codename Conroe, was launched."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/laptops/framework-laptop-13-pro-review",
-    "domain": "AI 算力 / 半导体",
-    "title": "Framework Laptop 13 Pro review: It cleans up nice",
-    "url": "https://www.tomshardware.com/laptops/framework-laptop-13-pro-review",
-    "source": "Andrew E. Freedman",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-27T15:00:00+00:00",
-    "summary": "The Framework Laptop 13 Pro is its most solidly built laptop ever, with a bright display and long battery life sweetening the deal — if you can afford it."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/nvidia-weighs-250-billion-guarantee-so-openai-can-lease-softbanks-10-gigawatt-ohio-campus",
-    "domain": "AI 算力 / 半导体",
-    "title": "Nvidia weighs $250 billion guarantee so OpenAI can lease SoftBank's 10-gigawatt Ohio campus, report claims — Nvidia also said to be discussing $350 billion deal to finance chips for the site",
-    "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-weighs-250-billion-guarantee-so-openai-can-lease-softbanks-10-gigawatt-ohio-campus",
-    "source": "Luke James",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-27T13:34:28+00:00",
-    "summary": "OpenAI is in advanced talks to lease SB Energy's 10 GW data center campus in Piketon, Ohio, with Nvidia in discussions to guarantee roughly $250 billion of the financing behind it."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-developer-runs-28-9-million-parameter-model-on-usd10-esp32-s3-microcontroller-uses-googles-per-layer-embeddings-technique-stores-table-on-16mb-flash-memory",
-    "domain": "AI 算力 / 半导体",
-    "title": "AI developer runs 28.9-million-parameter model on $10 ESP32-S3 microcontroller — uses Google's Per-Layer Embeddings technique, stores table on 16MB Flash memory",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-developer-runs-28-9-million-parameter-model-on-usd10-esp32-s3-microcontroller-uses-googles-per-layer-embeddings-technique-stores-table-on-16mb-flash-memory",
-    "source": "Zak Killian",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-27T13:07:53+00:00",
-    "summary": "Getting a local language model running on a sub-$10 microcontroller is impressive despite its obvious limitations."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/video-games/handheld-gaming/disgruntled-gamer-builds-booby-trapped-steam-deck-with-3d-printed-spikes-and-a-built-in-taser-raspberry-pi-powers-speaker-camera-and-alarm-to-stop-family-members-draining-his-battery",
-    "domain": "AI 算力 / 半导体",
-    "title": "Disgruntled gamer builds booby-trapped Steam Deck with 3D-printed spikes and a built-in taser — Raspberry Pi powers speaker, camera, and alarm to stop family members draining his battery",
-    "url": "https://www.tomshardware.com/video-games/handheld-gaming/disgruntled-gamer-builds-booby-trapped-steam-deck-with-3d-printed-spikes-and-a-built-in-taser-raspberry-pi-powers-speaker-camera-and-alarm-to-stop-family-members-draining-his-battery",
-    "source": "Mark Tyson",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-27T12:10:35+00:00",
-    "summary": "A Steam Deck devotee was so fed up with their family borrowing their handheld and leaving it with a flat battery that they have resorted to quite extreme anti-sharing measures."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-splits-zen-7-into-three-epyc-families-for-2028-and-starts-selling-server-cpus-by-the-agent",
-    "domain": "AI 算力 / 半导体",
-    "title": "AMD splits Zen 7 into three EPYC families for 2028 and starts selling server CPUs by the agent — Florence, Ferrara, and Fidenza to be applied across AI-focused product stack",
-    "url": "https://www.tomshardware.com/pc-components/cpus/amd-splits-zen-7-into-three-epyc-families-for-2028-and-starts-selling-server-cpus-by-the-agent",
-    "source": "Luke James",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-27T12:04:52+00:00",
-    "summary": "The company named Florence, Ferrara, and Fidenza in its launch release, extended its annual CPU, GPU, networking, and rack cadence out to 2030."
+    "id": "hn:49096188",
+    "domain": "大厂 AI 动态",
+    "title": "Document-borne AI worms can self-propagate through Copilot for Word",
+    "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+    "source": "Canopy9560",
+    "platform": "hackernews",
+    "points": 358,
+    "published_at": "2026-07-29T11:44:33+00:00",
+    "summary": ""
   },
   {
     "id": "hn:48735444",
@@ -1279,19 +1290,8 @@
     "url": "https://www.lesswrong.com/posts/iKm2FhpWkuuBojm82/why-i-left-google-deepmind",
     "source": "eatitraw",
     "platform": "hackernews",
-    "points": 194,
+    "points": 196,
     "published_at": "2026-07-27T09:56:37+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:48998606",
-    "domain": "大厂 AI 动态",
-    "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
-    "url": "https://ai.google.dev/gemini-api/docs/latest-model",
-    "source": "greatgib",
-    "platform": "hackernews",
-    "points": 135,
-    "published_at": "2026-07-21T21:27:54+00:00",
     "summary": ""
   },
   {
@@ -1306,6 +1306,28 @@
     "summary": ""
   },
   {
+    "id": "hn:48998606",
+    "domain": "大厂 AI 动态",
+    "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
+    "url": "https://ai.google.dev/gemini-api/docs/latest-model",
+    "source": "greatgib",
+    "platform": "hackernews",
+    "points": 135,
+    "published_at": "2026-07-21T21:27:54+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:49096841",
+    "domain": "大厂 AI 动态",
+    "title": "Google DeepMind dismantles AlphaFold team",
+    "url": "https://www.ft.com/content/61b2953d-ee0d-45de-af6e-a9c1cf524b33",
+    "source": "ainch",
+    "platform": "hackernews",
+    "points": 49,
+    "published_at": "2026-07-29T12:50:44+00:00",
+    "summary": ""
+  },
+  {
     "id": "hn:48864507",
     "domain": "大厂 AI 动态",
     "title": "Please don't discontinue Gemini 2.5 Flash",
@@ -1314,17 +1336,6 @@
     "platform": "hackernews",
     "points": 135,
     "published_at": "2026-07-10T20:00:28+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:48993130",
-    "domain": "大厂 AI 动态",
-    "title": "Gemini 3.6 Flash",
-    "url": "https://console.cloud.google.com/agent-platform/publishers/google/model-garden/gemini-3.6-flash",
-    "source": "marrf",
-    "platform": "hackernews",
-    "points": 74,
-    "published_at": "2026-07-21T14:56:15+00:00",
     "summary": ""
   },
   {
@@ -1350,433 +1361,422 @@
     "summary": ""
   },
   {
-    "id": "rss:https://www.theverge.com/tech/972259/us-foreign-robots-power-inverter-ban",
+    "id": "rss:https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
     "domain": "大厂 AI 动态",
-    "title": "The US is banning foreign robots",
-    "url": "https://www.theverge.com/tech/972259/us-foreign-robots-power-inverter-ban",
-    "source": "Sean Hollister",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T22:37:53+00:00",
-    "summary": "The US government is targeting China with a new import ban on \"advanced robotic devices\" and power inverters made in foreign countries, as reported earlier by Reuters. In an announcement on Tuesday, t"
-  },
-  {
-    "id": "rss:https://www.theverge.com/entertainment/972233/ariana-grande-hacking-lawsuit",
-    "domain": "大厂 AI 动态",
-    "title": "Ariana Grande is suing the hackers who&#8217;ve been leaking her songs and videos for years",
-    "url": "https://www.theverge.com/entertainment/972233/ariana-grande-hacking-lawsuit",
-    "source": "Stevie Bonifield",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T21:48:50+00:00",
-    "summary": "Ariana Grande filed a lawsuit on Monday in the Los Angeles County Superior Court against the currently unidentified hackers who allegedly stole and leaked private content. It aims to \"uncover the iden"
-  },
-  {
-    "id": "rss:https://www.theverge.com/news/972182/wikipedia-wikimedia-foundation-union-editor-strike",
-    "domain": "大厂 AI 动态",
-    "title": "The union drive at the Wikimedia Foundation is expanding",
-    "url": "https://www.theverge.com/news/972182/wikipedia-wikimedia-foundation-union-editor-strike",
-    "source": "Mia Sato",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T21:11:11+00:00",
-    "summary": "In June, UK staff at the nonprofit that runs Wikipedia became the first to announce their intention to form a union. Now, US-based employees at the Wikimedia Foundation are joining the union drive, bu"
-  },
-  {
-    "id": "rss:https://www.theverge.com/tech/972209/ebay-cyberstalking-harassment-settlement",
-    "domain": "大厂 AI 动态",
-    "title": "eBay&#8217;s bizarre cyberstalking saga ends with a $56 million settlement",
-    "url": "https://www.theverge.com/tech/972209/ebay-cyberstalking-harassment-settlement",
+    "title": "Microsoft confirms Copilot ‘super app’ coming this year",
+    "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
     "source": "Emma Roth",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T21:11:11+00:00",
-    "summary": "eBay and three former executives will pay $55.7 million as part of a settlement with a Massachusetts couple targeted with a bizarre harassment and cyberstalking campaign in 2019, as reported earlier b"
+    "published_at": "2026-07-29T22:17:38+00:00",
+    "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both"
   },
   {
-    "id": "rss:https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+    "id": "rss:https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
     "domain": "大厂 AI 动态",
-    "title": "AI leaders sign a statement asking the government to do something about automated AI",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+    "title": "Mark Zuckerberg is planning a big push into personal AI agents",
+    "url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
     "source": "Jay Peters",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T19:46:43+00:00",
-    "summary": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowd"
+    "published_at": "2026-07-29T21:48:07+00:00",
+    "summary": "Meta is all-in on AI, and sometime soon, the company is going to make a big push into personal AI agents that can do things on your behalf. On Wednesday's Q2 2026 earnings call, CEO Mark Zuckerberg pr"
   },
   {
-    "id": "rss:https://www.theverge.com/report/972146/cbp-phone-search-airport-duress-password",
+    "id": "rss:https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings",
     "domain": "大厂 AI 动态",
-    "title": "Is it illegal to trick the US government into wiping your phone during a questionably legal search?",
-    "url": "https://www.theverge.com/report/972146/cbp-phone-search-airport-duress-password",
-    "source": "Gaby Del Valle",
+    "title": "Qualcomm is raising phone chip prices starting September 1st",
+    "url": "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings",
+    "source": "Stevie Bonifield",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T19:35:00+00:00",
-    "summary": "A Georgia man was charged with a felony for allegedly wiping his phone while being questioned by Customs and Border Protection. Samuel Tunick had something in common with others who have had their dev"
+    "published_at": "2026-07-29T21:41:56+00:00",
+    "summary": "RAMageddon won't be the only reason your next phone costs more - Qualcomm is about to raise prices on all its processors, as well. Qualcomm CEO Cristiano Amon said on Wednesday that \"prices are going "
   },
   {
-    "id": "rss:https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
+    "id": "rss:https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
     "domain": "大厂 AI 动态",
-    "title": "AI’s finally expensive enough to make Wall Street nervous",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
-    "source": "Elizabeth Lopatto",
+    "title": "xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law",
+    "url": "https://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit",
+    "source": "Sarah Jeong",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T19:33:03+00:00",
-    "summary": "It's earnings season, and investors got an unpleasant surprise from Google: an increase on its spending estimate, to as much as $205 billion - from the last quarter's projection of up to $190 billion."
+    "published_at": "2026-07-29T21:06:52+00:00",
+    "summary": "xAI is suing Minnesota Attorney General Keith Ellison over a law passed back in May that broadly targets \"nudification\" apps, claiming that the statute's punitive provisions leave the company with \"no"
   },
   {
-    "id": "rss:https://www.theverge.com/gadgets/972021/epos-h3-hybrid-wired-gaming-headset-deal-sale",
+    "id": "rss:https://www.theverge.com/gadgets/972777/cyberpunk-2077-deal-sale",
     "domain": "大厂 AI 动态",
-    "title": "This comfy gaming headset that can play audio from two sources is $25",
-    "url": "https://www.theverge.com/gadgets/972021/epos-h3-hybrid-wired-gaming-headset-deal-sale",
+    "title": "Cyberpunk 2077 packs a lot of fun into its discounted $20 price",
+    "url": "https://www.theverge.com/gadgets/972777/cyberpunk-2077-deal-sale",
     "source": "Brad Bourque",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T19:18:15+00:00",
-    "summary": "While most gaming headsets have moved towards low-latency wireless connections, there’s something to be said for a budget-friendly, capable wired headset. The EPOS H3 Hybrid is on sale for just $24.99"
+    "published_at": "2026-07-29T21:02:50+00:00",
+    "summary": "Over the last few years, CD Projekt Red put a ton of work into fixing Cyberpunk 2077, squashing bugs, polishing content, and even launching new DLC in 2023, Phantom Liberty. As a result, this game has"
   },
   {
-    "id": "rss:https://www.theverge.com/tech/971963/logitech-user-replacable-batteries-europe",
+    "id": "rss:https://www.theverge.com/tech/972738/xbox-revenue-microsoft-earnings-q4-2026",
     "domain": "大厂 AI 动态",
-    "title": "Logitech will pull a Nintendo — only European mice will come with replaceable batteries",
-    "url": "https://www.theverge.com/tech/971963/logitech-user-replacable-batteries-europe",
-    "source": "Sean Hollister",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T19:12:48+00:00",
-    "summary": "In June, Nintendo announced a new version of the Switch 2 that should let you easily replace its battery pack - but only for Europe. Logitech will do much the same. User-replaceable batteries will be "
-  },
-  {
-    "id": "rss:https://www.theverge.com/tech/972063/apple-upgrade-program-no-restricted-mode",
-    "domain": "大厂 AI 动态",
-    "title": "Apple won’t turn on any ‘restricted mode’ for missed lease payments",
-    "url": "https://www.theverge.com/tech/972063/apple-upgrade-program-no-restricted-mode",
+    "title": "Xbox revenue drops 10 percent as Microsoft&#8217;s cloud and AI business surges",
+    "url": "https://www.theverge.com/tech/972738/xbox-revenue-microsoft-earnings-q4-2026",
     "source": "Emma Roth",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T18:43:57+00:00",
-    "summary": "Apple says it won't limit the capabilities of devices leased through its new Upgrade program if you miss a payment. In an emailed statement to The Verge, Apple spokesperson Brian Bumbery says, \"There "
+    "published_at": "2026-07-29T20:26:48+00:00",
+    "summary": "Xbox is having yet another tough quarter, as revenue from content and services like its Game Pass subscription dipped 10 percent over the past few months. At the same time, Xbox hardware sales decline"
   },
   {
-    "id": "rss:https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
+    "id": "rss:https://www.theverge.com/tech/972583/apple-upgrade-program-deal",
     "domain": "大厂 AI 动态",
-    "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
-    "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
-    "source": "Marina Temkin",
+    "title": "What’s the catch with the Apple Upgrade program?",
+    "url": "https://www.theverge.com/tech/972583/apple-upgrade-program-deal",
+    "source": "Emma Roth",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T00:09:05+00:00",
-    "summary": "The deal is Cyera's third acquisition this year."
+    "published_at": "2026-07-29T18:40:06+00:00",
+    "summary": "Apple's new Upgrade program is here, allowing you to lease select models of iPhones, iPads, Macs, and Watches with a relatively low monthly payment. The company promises you won't pay more than the fu"
   },
   {
-    "id": "rss:https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
+    "id": "rss:https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
     "domain": "大厂 AI 动态",
-    "title": "Bot-detection startup Spur nabs $200M from Insight",
-    "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
+    "title": "OpenAI president says it&#8217;s &#8216;building a family of devices&#8217; for its AI chatbots",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
+    "source": "Stevie Bonifield",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T18:15:02+00:00",
+    "summary": "In an interview with our friend Joanna Stern on her YouTube channel, OpenAI president Greg Brockman said the company is working on a \"family of devices\" for interacting with its AI models. However, Br"
+  },
+  {
+    "id": "rss:https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums",
+    "domain": "大厂 AI 动态",
+    "title": "The US government just banned Roombas",
+    "url": "https://www.theverge.com/policy/972312/us-robot-ban-sweep-up-chinese-vacuums",
+    "source": "Sean Hollister",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T18:13:09+00:00",
+    "summary": "When the Trump administration announced yesterday that it was banning \"advanced robotic devices\" from entering the United States, the headlines were all about humanoids. But spying doesn't require leg"
+  },
+  {
+    "id": "rss:https://www.theverge.com/policy/972607/full-school-day-cell-phone-bans-are-more-popular-than-ever",
+    "domain": "大厂 AI 动态",
+    "title": "Full school day cellphone bans are more popular than ever",
+    "url": "https://www.theverge.com/policy/972607/full-school-day-cell-phone-bans-are-more-popular-than-ever",
+    "source": "Lauren Feiner",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T16:42:44+00:00",
+    "summary": "As schools across the country continue to implement cellphone bans, a new Pew Research Center survey shows they continue to gain support. Seventy-seven percent of US adults support banning cellphones "
+  },
+  {
+    "id": "rss:https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+    "domain": "大厂 AI 动态",
+    "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+    "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
     "source": "Julie Bort",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T21:29:34+00:00",
-    "summary": "Spur Intelligence has raised a $200 million round from Insight Partners for its tech that can identify legit human traffic from bots."
+    "published_at": "2026-07-30T00:21:06+00:00",
+    "summary": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth."
   },
   {
-    "id": "rss:https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
+    "id": "rss:https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
     "domain": "大厂 AI 动态",
-    "title": "MCP startup Runlayer accuses Rippling of stealing its product idea",
-    "url": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
-    "source": "Julie Bort",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T20:45:12+00:00",
-    "summary": "Runlayer is suing Rippling after Rippling evaluated the startup's MCP gateway product and then opted to build one itself."
-  },
-  {
-    "id": "rss:https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
-    "domain": "大厂 AI 动态",
-    "title": "Sam Altman is ready to decelerate",
-    "url": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
-    "source": "Tim Fernholz",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T20:17:08+00:00",
-    "summary": "His change of position comes after \"the first security incident that I have felt very viscerally.\""
-  },
-  {
-    "id": "rss:https://techcrunch.com/2026/07/28/ozlos-sleepbuds-2-build-on-boses-sleep-earbud-legacy/",
-    "domain": "大厂 AI 动态",
-    "title": "Ozlo’s Sleepbuds 2 build on Bose’s sleep earbud legacy",
-    "url": "https://techcrunch.com/2026/07/28/ozlos-sleepbuds-2-build-on-boses-sleep-earbud-legacy/",
-    "source": "Sarah Perez",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T19:09:18+00:00",
-    "summary": "Ozlo’s first major update to its sleep earbuds introduces longer battery life, improved connectivity, enhanced audio, and new sleep features as the startup continues the product line once abandoned by"
-  },
-  {
-    "id": "rss:https://techcrunch.com/2026/07/28/the-robot-nasa-hired-to-lift-a-orbital-telescope-is-tumbling-out-of-control/",
-    "domain": "大厂 AI 动态",
-    "title": "The robot NASA hired to lift a orbital telescope tumbled out of control",
-    "url": "https://techcrunch.com/2026/07/28/the-robot-nasa-hired-to-lift-a-orbital-telescope-is-tumbling-out-of-control/",
-    "source": "Tim Fernholz",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T19:07:31+00:00",
-    "summary": "According to NASA, two of the three reaction wheels that control the spacecraft's alignment have failed, and there are problems with one of the spacecraft's thruster systems."
-  },
-  {
-    "id": "rss:https://techcrunch.com/2026/07/28/waymo-robotaxi-operators-face-fresh-scrutiny-over-emergency-response-failures/",
-    "domain": "大厂 AI 动态",
-    "title": "Waymo, robotaxi operators face fresh scrutiny over emergency response failures",
-    "url": "https://techcrunch.com/2026/07/28/waymo-robotaxi-operators-face-fresh-scrutiny-over-emergency-response-failures/",
-    "source": "Kirsten Korosec",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T19:06:33+00:00",
-    "summary": "Rep. Kevin Mullin (D-California ) has proposed a bill that would direct federal regulators to establish minimum national safety standards for autonomous vehicle operators."
-  },
-  {
-    "id": "rss:https://techcrunch.com/2026/07/28/ebay-reaches-56m-settlement-with-e-commerce-newsletter-writers-it-terrorized-in-2019/",
-    "domain": "大厂 AI 动态",
-    "title": "eBay reaches $56M settlement with e-commerce newsletter writers it terrorized in 2019",
-    "url": "https://techcrunch.com/2026/07/28/ebay-reaches-56m-settlement-with-e-commerce-newsletter-writers-it-terrorized-in-2019/",
-    "source": "Lucas Ropek",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T18:35:29+00:00",
-    "summary": "Ina and David Steiner inspired the ire of high-level eBay executives after occasionally criticizing the company in their newsletter. In 2019, a plot was concocted to intimidate the couple into halting"
-  },
-  {
-    "id": "rss:https://techcrunch.com/2026/07/28/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
-    "domain": "大厂 AI 动态",
-    "title": "These App Store hidden gems prove there’s still room for great software in the AI era",
-    "url": "https://techcrunch.com/2026/07/28/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
-    "source": "Sarah Perez",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T18:16:39+00:00",
-    "summary": "Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital "
-  },
-  {
-    "id": "rss:https://techcrunch.com/2026/07/28/hbo-max-embraces-vertical-video-with-a-new-shorts-feed/",
-    "domain": "大厂 AI 动态",
-    "title": "HBO Max embraces vertical video with a new ‘Shorts’ feed",
-    "url": "https://techcrunch.com/2026/07/28/hbo-max-embraces-vertical-video-with-a-new-shorts-feed/",
-    "source": "Aisha Malik",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T17:57:57+00:00",
-    "summary": "HBO Max, like other streaming platforms, is rethinking content discovery as large libraries are making it hard for viewers to find something to watch and as audiences become accustomed to short-form c"
-  },
-  {
-    "id": "rss:https://techcrunch.com/2026/07/28/saudi-prince-buys-5-stake-in-lucid-motors/",
-    "domain": "大厂 AI 动态",
-    "title": "Saudi prince buys 5% stake in Lucid Motors",
-    "url": "https://techcrunch.com/2026/07/28/saudi-prince-buys-5-stake-in-lucid-motors/",
-    "source": "Sean O'Kane",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T17:33:51+00:00",
-    "summary": "The investment comes after speculation that Saudi Arabia may take Lucid Motors private -- which the EV maker has denied."
-  },
-  {
-    "id": "rss:https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
-    "domain": "大厂 AI 动态",
-    "title": "Data centers may face temporary power cuts to prevent blackouts on largest US grid",
-    "url": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
-    "source": "Tim De Chant",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T15:42:26+00:00",
-    "summary": "The decision arrives as the breakneck pace of data center construction has grid operators scrambling to generate power."
-  },
-  {
-    "id": "rss:https://techcrunch.com/2026/07/28/paypal-leaves-the-door-open-to-a-higher-takeover-offer-following-earnings-beat/",
-    "domain": "大厂 AI 动态",
-    "title": "PayPal leaves the door open to a higher takeover offer following earnings beat",
-    "url": "https://techcrunch.com/2026/07/28/paypal-leaves-the-door-open-to-a-higher-takeover-offer-following-earnings-beat/",
-    "source": "Sarah Perez",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-28T15:10:10+00:00",
-    "summary": "After reporting better-than-expected Q2 results, PayPal said it remains focused on its AI-driven turnaround, but would consider a deal that creates more value for shareholders."
-  },
-  {
-    "id": "rss:https://techcrunch.com/2026/07/28/elon-musks-x-money-app-is-rolling-out-in-the-u-s/",
-    "domain": "大厂 AI 动态",
-    "title": "Elon Musk’s X Money app is rolling out in the US",
-    "url": "https://techcrunch.com/2026/07/28/elon-musks-x-money-app-is-rolling-out-in-the-u-s/",
+    "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
+    "url": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years/",
     "source": "Amanda Silberling",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T14:57:12+00:00",
-    "summary": "Users get an X Visa debit card, which they can immediately add to Apple Pay and use to make instant peer-to-peer transfers within the app without fees or limits."
+    "published_at": "2026-07-29T23:00:11+00:00",
+    "summary": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price."
   },
   {
-    "id": "rss:https://techcrunch.com/2026/07/28/whatsapp-now-lets-you-make-calls-using-its-web-app/",
+    "id": "rss:https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
     "domain": "大厂 AI 动态",
-    "title": "WhatsApp now lets you make calls using its web app",
-    "url": "https://techcrunch.com/2026/07/28/whatsapp-now-lets-you-make-calls-using-its-web-app/",
-    "source": "Ivan Mehta",
+    "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
+    "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+    "source": "Julie Bort",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T14:53:22+00:00",
-    "summary": "Similar to the smartphone and desktop apps, the web app will support calling features such as screen-sharing and reactions."
+    "published_at": "2026-07-29T22:46:03+00:00",
+    "summary": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and compe"
   },
   {
-    "id": "rss:https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+    "id": "rss:https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
     "domain": "大厂 AI 动态",
-    "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
-    "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
-    "source": "Ivan Mehta",
+    "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
+    "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
+    "source": "Sarah Perez",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T14:00:00+00:00",
-    "summary": "Since launching last year, the startup today has more than 8 million people using the open source or hosted version of its models, and now generates annual recurring revenue of $21 million."
+    "published_at": "2026-07-29T22:23:12+00:00",
+    "summary": "On the company’s second-quarter earnings call Wednesday, CEO Mark Zuckerberg said Meta sees a “large enterprise opportunity” spanning AI agents, APIs, compute, and internal software."
   },
   {
-    "id": "rss:https://techcrunch.com/2026/07/28/apple-launches-upgrade-device-leasing-program-in-partnership-with-klarna/",
+    "id": "rss:https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
     "domain": "大厂 AI 动态",
-    "title": "Apple launches ‘Upgrade’ device leasing program in partnership with Klarna",
-    "url": "https://techcrunch.com/2026/07/28/apple-launches-upgrade-device-leasing-program-in-partnership-with-klarna/",
-    "source": "Aisha Malik",
+    "title": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+    "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
+    "source": "TechCrunch Events",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T13:50:27+00:00",
-    "summary": "The rollout of the program comes as Apple has been struggling with supply chain issues related to \"RAMageddon,\" which refers to the industry-wide shortage of memory chips that is driving up the price "
+    "published_at": "2026-07-29T21:16:39+00:00",
+    "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups."
   },
   {
-    "id": "rss:https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+    "id": "rss:https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
     "domain": "大厂 AI 动态",
-    "title": "Recursive Superintelligence signs $410M compute deal with Amazon",
-    "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
-    "source": "Russell Brandom",
+    "title": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
+    "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
+    "source": "Amanda Silberling",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T13:19:17+00:00",
-    "summary": "Recursive’s emphasis on self-improving AI systems means much of the budget that would traditionally go toward headcount and operations is put straight into compute, as the company seeks to automate it"
+    "published_at": "2026-07-29T21:07:48+00:00",
+    "summary": "Weng previously served as the VP of AI Safety Research at OpenAI."
   },
   {
-    "id": "rss:https://techcrunch.com/2026/07/28/granola-launches-an-apple-watch-app/",
+    "id": "rss:https://techcrunch.com/2026/07/29/winamp-aims-for-a-comeback-with-a-new-music-player-powered-by-deezer/",
     "domain": "大厂 AI 动态",
-    "title": "Granola launches an Apple Watch app",
-    "url": "https://techcrunch.com/2026/07/28/granola-launches-an-apple-watch-app/",
-    "source": "Ivan Mehta",
+    "title": "Winamp aims for a comeback with a new music player powered by Deezer",
+    "url": "https://techcrunch.com/2026/07/29/winamp-aims-for-a-comeback-with-a-new-music-player-powered-by-deezer/",
+    "source": "Lauren Forristal",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T13:00:00+00:00",
-    "summary": "AI note-taking app Granola is launching an app for the Apple Watch in hopes that its users will want to record meetings and take notes without using their smartphones."
+    "published_at": "2026-07-29T21:02:12+00:00",
+    "summary": "Winamp is preparing to relaunch with a Deezer-powered premium music service, betting its nostalgic brand and a new all-in-one music player can stand out in today’s crowded streaming market."
   },
   {
-    "id": "rss:https://techcrunch.com/2026/07/28/lyft-and-baidu-enter-londons-robotaxi-battleground-as-testing-begins/",
+    "id": "rss:https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
     "domain": "大厂 AI 动态",
-    "title": "Lyft and Baidu enter London’s robotaxi battleground as testing begins",
-    "url": "https://techcrunch.com/2026/07/28/lyft-and-baidu-enter-londons-robotaxi-battleground-as-testing-begins/",
+    "title": "The Hugging Face AI break-in explained",
+    "url": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
+    "source": "Connie Loizos",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T19:44:49+00:00",
+    "summary": "Another way to think about the whole thing is to picture a bear at a campsite. (Really, we are going there.)"
+  },
+  {
+    "id": "rss:https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
+    "domain": "大厂 AI 动态",
+    "title": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
+    "url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
+    "source": "Julie Bort",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T18:45:27+00:00",
+    "summary": "Andon Labs' latest vending machine simulation shows Opus 5 lied and colluded its way to become the best AI capitalist ever."
+  },
+  {
+    "id": "rss:https://techcrunch.com/2026/07/29/sorry-haters-ferraris-first-ev-is-doing-just-fine/",
+    "domain": "大厂 AI 动态",
+    "title": "Sorry, haters. Ferrari’s first EV is doing just fine",
+    "url": "https://techcrunch.com/2026/07/29/sorry-haters-ferraris-first-ev-is-doing-just-fine/",
+    "source": "Tim De Chant",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T17:57:45+00:00",
+    "summary": "To the horror of commenters across the internet, the Ferrari Luce appears to be a sales success."
+  },
+  {
+    "id": "rss:https://techcrunch.com/2026/07/29/waymo-robotaxis-are-starting-to-return-to-freeways/",
+    "domain": "大厂 AI 动态",
+    "title": "Waymo robotaxis are starting to return to freeways",
+    "url": "https://techcrunch.com/2026/07/29/waymo-robotaxis-are-starting-to-return-to-freeways/",
     "source": "Kirsten Korosec",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T08:00:00+00:00",
-    "summary": "Baidu's Apollo Go autonomous vehicles will be available on Freenow, the mobility network that Lyft acquired in 2025."
+    "published_at": "2026-07-29T17:50:57+00:00",
+    "summary": "The freeway pause — and its restart — comes amid increased scrutiny into Waymo and other robotaxi operators, particularly over how these self-driving vehicles behave in certain high-traffic situations"
   },
   {
-    "id": "rss:https://stratechery.com/2026/vacation-week-of-july-27/",
+    "id": "rss:https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/",
     "domain": "大厂 AI 动态",
-    "title": "Vacation: Week of July 27",
-    "url": "https://stratechery.com/2026/vacation-week-of-july-27/",
-    "source": "Ben Thompson",
+    "title": "US government bans new foreign-made humanoids, robot dogs, and solar inverters, citing risks to national security",
+    "url": "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/",
+    "source": "Zack Whittaker",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-27T10:00:00+00:00",
-    "summary": "Stratechery is on vacation the week of July 27. There will be no Weekly Article or Updates. The next Update will be on Monday, August 3. Sharp Tech, and Greatest of All Talk&#160;&#160;will also retur"
+    "published_at": "2026-07-29T17:41:09+00:00",
+    "summary": "The ban largely affects U.S. imports from China, which currently dominates the global market for making humanoid robots and solar inverters."
   },
   {
-    "id": "rss:https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
+    "id": "rss:https://techcrunch.com/2026/07/29/google-is-rolling-out-its-age-assurance-tech-for-apps-worldwide-by-year-end/",
     "domain": "大厂 AI 动态",
-    "title": "Audi has a new flagship designed with the US in mind: The 2027 Q9",
-    "url": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
-    "source": "Jonathan M. Gitlin",
+    "title": "Google brings its age-assurance technology to Android developers worldwide",
+    "url": "https://techcrunch.com/2026/07/29/google-is-rolling-out-its-age-assurance-tech-for-apps-worldwide-by-year-end/",
+    "source": "Sarah Perez",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T01:00:36+00:00",
-    "summary": "The new full-size flagship SUV starts at $87,700 when it goes on sale in Q4."
+    "published_at": "2026-07-29T17:00:00+00:00",
+    "summary": "Google is expanding its Play Age Signals API, giving Android developers a privacy-preserving way to tailor experiences based on users’ age ranges."
   },
   {
-    "id": "rss:https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
+    "id": "rss:https://techcrunch.com/2026/07/29/elon-musks-x-settles-multiyear-legal-battle-with-the-world-federation-of-advertisers/",
     "domain": "大厂 AI 动态",
-    "title": "Reaction wheel failures leave Swift rescue mission spinning in orbit",
-    "url": "https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
-    "source": "Stephen Clark",
+    "title": "Elon Musk’s X settles multiyear legal battle with the World Federation of Advertisers",
+    "url": "https://techcrunch.com/2026/07/29/elon-musks-x-settles-multiyear-legal-battle-with-the-world-federation-of-advertisers/",
+    "source": "Aisha Malik",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T22:09:00+00:00",
-    "summary": "\"Preliminary investigation shows that two of Link's three reaction wheels currently are not operable.\""
+    "published_at": "2026-07-29T15:36:48+00:00",
+    "summary": "X sued the WFA in 2024 for conducting what it called a \"systematic illegal boycott\" of the platform after it saw a decline in advertising revenue following Musk's $44 billion takeover of the social ne"
   },
   {
-    "id": "rss:https://arstechnica.com/health/2026/07/college-lab-class-ends-with-32-people-on-antibiotics-for-deadly-germ-exposure/",
+    "id": "rss:https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
     "domain": "大厂 AI 动态",
-    "title": "College lab class ends with 32 people on antibiotics for deadly germ exposure",
-    "url": "https://arstechnica.com/health/2026/07/college-lab-class-ends-with-32-people-on-antibiotics-for-deadly-germ-exposure/",
-    "source": "Beth Mole",
+    "title": "Hint, a new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners",
+    "url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
+    "source": "Sarah Perez",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T21:49:52+00:00",
-    "summary": "Lab students were supposed to ID a mild germ. They all identified a deadly pathogen."
+    "published_at": "2026-07-29T15:35:09+00:00",
+    "summary": "AI home management startup Hint, co-founded by Martha Stewart, wants to become an “AI for your home,” combining property records, maintenance schedules, home documents, and an AI assistant into a sing"
   },
   {
-    "id": "rss:https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
+    "id": "rss:https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work/",
     "domain": "大厂 AI 动态",
-    "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
-    "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
+    "title": "Perplexity employee who worked on Comet launches an AI browser aimed at knowledge work",
+    "url": "https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work/",
+    "source": "Ivan Mehta",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T15:00:00+00:00",
+    "summary": "Polar has come out with an AI-first browser aimed at knowledge workers, and it has now raised a $5.7 million seed round led by Madrona."
+  },
+  {
+    "id": "rss:https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
+    "domain": "大厂 AI 动态",
+    "title": "Encore AI raises $30M to build AI agents that learn from customer calls",
+    "url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
+    "source": "Ram Iyer",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T14:41:06+00:00",
+    "summary": "The startup analyzes calls, messages, and CRM data to identify effective sales techniques and turn them into playbooks for AI agents."
+  },
+  {
+    "id": "rss:https://techcrunch.com/video/no-ones-making-a-phone-like-this-lights-co-founders-on-building-for-the-anti-smartphone-generation/",
+    "domain": "大厂 AI 动态",
+    "title": "‘No one’s making a phone like this’: Light’s co-founders on building for the anti-smartphone generation",
+    "url": "https://techcrunch.com/video/no-ones-making-a-phone-like-this-lights-co-founders-on-building-for-the-anti-smartphone-generation/",
+    "source": "Theresa Loconsolo",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T14:00:00+00:00",
+    "summary": "With the&#160;Light Phone,&#160;Kaiwei Tang&#160;and&#160;Joe Hollier&#160;have spent over a decade exploring the value of simplicity in our relationship to technology, partnering along the way with p"
+  },
+  {
+    "id": "rss:https://techcrunch.com/2026/07/29/doordash-is-building-its-own-drone-delivery-business/",
+    "domain": "大厂 AI 动态",
+    "title": "DoorDash is building its own drone delivery business",
+    "url": "https://techcrunch.com/2026/07/29/doordash-is-building-its-own-drone-delivery-business/",
+    "source": "Kirsten Korosec",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T13:00:00+00:00",
+    "summary": "DoorDash has received FAA approval to operate a commercial drone delivery service in the United States."
+  },
+  {
+    "id": "rss:https://techcrunch.com/2026/07/29/fast-metals-is-treating-waste-with-more-waste-to-extract-critical-minerals/",
+    "domain": "大厂 AI 动态",
+    "title": "Fast Metals is treating waste with more waste to extract critical minerals",
+    "url": "https://techcrunch.com/2026/07/29/fast-metals-is-treating-waste-with-more-waste-to-extract-critical-minerals/",
+    "source": "Tim De Chant",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T12:00:00+00:00",
+    "summary": "Aluminum production has saddled the world with billions of tons of caustic waste. One startup has a plan to clean it up and turn a profit."
+  },
+  {
+    "id": "rss:https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
+    "domain": "大厂 AI 动态",
+    "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
+    "url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
     "source": "Dan Goodin",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T21:36:39+00:00",
-    "summary": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch."
+    "published_at": "2026-07-29T22:07:06+00:00",
+    "summary": "HAWK withstood years of testing that had yet to uncover a fatal weakness found through Mythos."
   },
   {
-    "id": "rss:https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/",
+    "id": "rss:https://arstechnica.com/tech-policy/2026/07/musk-went-to-war-sought-jail-time-for-x-ad-boycotts-but-case-ends-with-a-whimper/",
     "domain": "大厂 AI 动态",
-    "title": "eBay pays $46M to journalists it targeted in bizarre harassment campaign",
-    "url": "https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/",
+    "title": "Musk went to “war,” sought jail time for X ad boycotts—but case ends with a whimper",
+    "url": "https://arstechnica.com/tech-policy/2026/07/musk-went-to-war-sought-jail-time-for-x-ad-boycotts-but-case-ends-with-a-whimper/",
+    "source": "Ashley Belanger",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T20:57:35+00:00",
+    "summary": "Advertisers agreed to “reset” relationship with X."
+  },
+  {
+    "id": "rss:https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/",
+    "domain": "大厂 AI 动态",
+    "title": "Who wins and who loses after US bans foreign robots?",
+    "url": "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/",
+    "source": "Jeremy Hsu",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T20:03:42+00:00",
+    "summary": "Government ban on foreign-made robots may hinder instead of help US robotics."
+  },
+  {
+    "id": "rss:https://arstechnica.com/tech-policy/2026/07/comcast-store-punished-low-sales-by-smashing-pies-in-workers-faces-lawsuit-claims/",
+    "domain": "大厂 AI 动态",
+    "title": "Comcast store punished low sales by smashing pies in workers' faces, lawsuit claims",
+    "url": "https://arstechnica.com/tech-policy/2026/07/comcast-store-punished-low-sales-by-smashing-pies-in-workers-faces-lawsuit-claims/",
     "source": "Jon Brodkin",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T21:02:15+00:00",
-    "summary": "eBay sent bloody pig mask and other macabre deliveries to journalists' home."
+    "published_at": "2026-07-29T19:33:55+00:00",
+    "summary": "Comcast, accused of negligence, says lawsuit mischaracterized alleged events."
   },
   {
-    "id": "rss:https://arstechnica.com/science/2026/07/dust-cloud-from-dino-killing-asteroid-charbroiled-the-earth/",
+    "id": "rss:https://arstechnica.com/staff/2026/07/customize-ars-your-way-with-an-ars-pro-subscription/",
     "domain": "大厂 AI 动态",
-    "title": "Study: Dinosaurs were charbroiled after Chicxulub impact",
-    "url": "https://arstechnica.com/science/2026/07/dust-cloud-from-dino-killing-asteroid-charbroiled-the-earth/",
-    "source": "Jennifer Ouellette",
+    "title": "Customize Ars your way with an Ars Pro subscription",
+    "url": "https://arstechnica.com/staff/2026/07/customize-ars-your-way-with-an-ars-pro-subscription/",
+    "source": "Eric Bangeman",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T20:51:45+00:00",
-    "summary": "“We're in the realm where we might be essentially killing off everything within that first hour or two.\""
+    "published_at": "2026-07-29T19:23:27+00:00",
+    "summary": "Ars Pro subscribers get customizable layouts along with no ads and no trackers."
   },
   {
-    "id": "rss:https://arstechnica.com/tech-policy/2026/07/philly-suburb-sure-build-that-data-center-but-first-meet-our-43-demands/",
+    "id": "rss:https://arstechnica.com/gadgets/2026/07/google-begins-global-rollout-of-age-verification-api-in-google-play/",
     "domain": "大厂 AI 动态",
-    "title": "Philly suburb: Sure, build that data center—but first meet our 43 demands",
-    "url": "https://arstechnica.com/tech-policy/2026/07/philly-suburb-sure-build-that-data-center-but-first-meet-our-43-demands/",
-    "source": "Nate Anderson",
+    "title": "Google's \"privacy-preserving\" age verification system is coming to the Play Store",
+    "url": "https://arstechnica.com/gadgets/2026/07/google-begins-global-rollout-of-age-verification-api-in-google-play/",
+    "source": "Ryan Whitwam",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T20:43:19+00:00",
-    "summary": "The final condition will shock you! (It won’t. It’s taxes.)"
+    "published_at": "2026-07-29T18:08:22+00:00",
+    "summary": "Google's new API relies on parents to set age ranges in Family Link."
   },
   {
-    "id": "rss:https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/",
+    "id": "rss:https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/",
     "domain": "大厂 AI 动态",
-    "title": "Despite AI hype, Google's data shows workers aren't automating themselves away",
-    "url": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/",
-    "source": "Kyle Orland",
+    "title": "Elon Musk’s xAI is trying to sue its way out of a Grok reckoning",
+    "url": "https://arstechnica.com/tech-policy/2026/07/elon-musks-xai-is-trying-to-sue-its-way-out-of-a-grok-reckoning/",
+    "source": "Ashley Belanger",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-28T20:20:20+00:00",
-    "summary": "Analysis of 15 million real AI interactions finds most tasks at most jobs are unaffected."
+    "published_at": "2026-07-29T17:58:24+00:00",
+    "summary": "Musk defends Grok, says Minnesota's nudifying app ban is unconstitutional."
+  },
+  {
+    "id": "rss:https://arstechnica.com/science/2026/07/quantum-computing-roundup-still-more-technologies-making-waves/",
+    "domain": "大厂 AI 动态",
+    "title": "Yet more qubit tech: New quantum dot options, diamond vacancies",
+    "url": "https://arstechnica.com/science/2026/07/quantum-computing-roundup-still-more-technologies-making-waves/",
+    "source": "John Timmer",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-29T17:37:47+00:00",
+    "summary": "Companies are making sure we have a surplus of options for building qubits."
   },
   {
     "id": "hn:49057574",
@@ -1785,7 +1785,7 @@
     "url": "https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c",
     "source": "1vuio0pswjnm7",
     "platform": "hackernews",
-    "points": 340,
+    "points": 341,
     "published_at": "2026-07-26T12:43:21+00:00",
     "summary": ""
   },
@@ -1818,7 +1818,7 @@
     "url": "https://www.bbc.com/news/articles/cly8zng43npo",
     "source": "yogthos",
     "platform": "hackernews",
-    "points": 45,
+    "points": 74,
     "published_at": "2026-07-29T01:56:00+00:00",
     "summary": ""
   },
@@ -1851,8 +1851,19 @@
     "url": "https://www.theguardian.com/technology/2026/jul/28/apple-second-ever-5tn-company-as-investors-flee-ai-stocks",
     "source": "devonnull",
     "platform": "hackernews",
-    "points": 13,
+    "points": 17,
     "published_at": "2026-07-28T23:41:59+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:49095568",
+    "domain": "股票",
+    "title": "Korean Stocks Plunge 16% in Two-Day Burst of Retail Selling",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-29/korean-stocks-tumble-a-second-day-as-sk-hynix-results-disappoint",
+    "source": "emsidisii",
+    "platform": "hackernews",
+    "points": 13,
+    "published_at": "2026-07-29T10:25:59+00:00",
     "summary": ""
   },
   {
@@ -1867,26 +1878,191 @@
     "summary": ""
   },
   {
-    "id": "wscn:3778182",
+    "id": "wscn:3778287",
     "domain": "股票",
-    "title": "创业板午后拉升涨超2%，金融科技、锂电池爆发，存储芯片跌幅收窄、兆易创新打开跌停，恒科指一度大涨3%，小米涨逾7%",
-    "url": "https://wallstreetcn.com/articles/3778182",
+    "title": "科技巨头财报难顶压力，韩股午后转跌、三星抹平涨幅，美债原油同步走低",
+    "url": "https://wallstreetcn.com/articles/3778287",
     "source": "华尔街见闻 API",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T05:44:00+00:00",
-    "summary": "盘面上，个股涨多跌少，沪深京三市超3400股飘红，上午半天成交1.49万亿。沪深两市半日成交额1.48万亿，较上个交易日放量超1500亿。板块方面，半导体、算力硬件产业链持续下探，光刻机、HBM、CPO、PCB、存储器方向领跌；脑机接口、光伏概念股跌幅靠前。大消费、汽车、煤炭、金融板块走强。"
+    "published_at": "2026-07-30T05:46:38+00:00",
+    "summary": "韩国首尔综指回吐稍早逾5%的涨幅转跌，此前两个交易日该指数累计下跌16%，并连续两日触发全市场熔断机制。三星电子二季度业绩大幅超预期，股价一度涨5.5%，SK海力士涨2%。微软盘后涨近9%，提振纳指100期货上涨0.6%，市场情绪有所企稳。"
   },
   {
-    "id": "wscn:3778189",
+    "id": "wscn:3778286",
     "domain": "股票",
-    "title": "多年来“最不确定”的一次！今晚的美联储会给“惊吓”吗？",
-    "url": "https://wallstreetcn.com/articles/3778189",
+    "title": "创业板跌超5%，工行建行逆势创新高，半导体、算力硬件再跌、光模块掀跌停潮，中际旭创港股IPO首日破发",
+    "url": "https://wallstreetcn.com/articles/3778286",
     "source": "华尔街见闻 API",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T05:31:29+00:00",
-    "summary": "美联储今晚大概率按兵不动，但这或许是近年最不平静的一次“暂停”。货币市场给出32%的加息概率，瑞银经济学家直言不确定程度为20年之最。内部鹰派分歧扩大，沃什政策风格成谜，Citadel等机构已明确押注意外加息。摩根大通测算，若加息25基点，标普500可能重挫逾2%——今晚，“不变”本身也可能是一场震动。"
+    "published_at": "2026-07-30T04:06:41+00:00",
+    "summary": "盘面上，个股跌多涨少，沪深京三市超3400股飘绿，上午半天成交1.46万亿。沪深两市半日成交额1.45万亿，较上个交易日缩量不到300亿。板块方面，半导体、算力硬件产业链深度回调，CPO、PCB、HBM方向大跌，中际旭创跌逾15%。机器人、光伏、商业航天、创新药题材跌幅靠前。白酒、银行、汽车板块逆势走强。"
+  },
+  {
+    "id": "wscn:3778294",
+    "domain": "股票",
+    "title": "抢夺企业Agent入口！腾讯、阿里、字节新一轮大战一触即发",
+    "url": "https://wallstreetcn.com/articles/3778294",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T04:05:16+00:00",
+    "summary": "从各自试错到集中兵力，腾讯、阿里、字节几乎同时收拢AI战线，企业Agent竞争正式进入决战阶段。争夺的已不只是一个AI产品，而是企业每天工作的第一入口——谁占住办公场景，谁就更有机会成为下一代企业AI生态的核心。"
+  },
+  {
+    "id": "wscn:3778296",
+    "domain": "股票",
+    "title": "字节跳动重组AI业务线：飞书与豆包产品线融合",
+    "url": "https://wallstreetcn.com/articles/3778296",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T04:02:15+00:00",
+    "summary": "To B战略升级。"
+  },
+  {
+    "id": "wscn:3778291",
+    "domain": "股票",
+    "title": "高通的底牌：当手机不再是主场",
+    "url": "https://wallstreetcn.com/articles/3778291",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T04:01:24+00:00",
+    "summary": "高通正经历结构性转型：受存储涨价与苹果订单加速流失影响，手机业务营收大跌，主场权重持续稀释。但其“底牌”已浮出水面：汽车芯片创纪录增长，兜住中期确定性；数据中心业务全面铺开，决定未来估值上限。年底至明年初将是其各业务线成效的关键验证期。"
+  },
+  {
+    "id": "wscn:3778260",
+    "domain": "股票",
+    "title": "韩股连续两日熔断之后：去杠杆是否已接近尾声？",
+    "url": "https://wallstreetcn.com/premium/articles/3778260?layout=wscn-layout",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T03:59:51+00:00",
+    "summary": "韩股去杠杆接近尾声，被动抛售高峰已过，但散户信心重创，市场震荡寻底，反转有待业绩确认。"
+  },
+  {
+    "id": "wscn:3778290",
+    "domain": "股票",
+    "title": "OpenAI年化收入提速，CFO内部喊话：7月一个月顶过整个二季度",
+    "url": "https://wallstreetcn.com/articles/3778290",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T03:21:48+00:00",
+    "summary": "OpenAI CFO内部会议罕见披露：7月单月新增年化经常性收入已超整个二季度，增长引擎来自GPT-5.6、企业Agent及编程工具Codex的爆发式普及。有分析认为，这意味着今年ARR或逼近600亿美元，与Anthropic差距收窄。在估值达8520亿美元、IPO申请已秘密递交的关键节点，这份收入加速曲线，或将成为其上市路演最强底牌。"
+  },
+  {
+    "id": "wscn:3778293",
+    "domain": "股票",
+    "title": "不只可远观，更能亲手造：在L'ÉCOLE触摸两千年前的金工温度",
+    "url": "https://wallstreetcn.com/articles/3778293",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T03:03:24+00:00",
+    "summary": "继巴黎首展、首尔巡展之后，“金手匠艺：铁器时代的金饰重生”终于来到上海。\n由Van Cleef &..."
+  },
+  {
+    "id": "wscn:3778292",
+    "domain": "股票",
+    "title": "字节重大调整：豆包和火山吃下了飞书",
+    "url": "https://wallstreetcn.com/articles/3778292",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T02:45:11+00:00",
+    "summary": "字节跳动宣布重大组织调整，飞书被降级打散：其产品团队并入豆包，商业化团队并入火山引擎。此举标志字节放弃三者独立运营思路，集中资源发力AI，转而打造以豆包为智能核心、飞书为工作入口、火山引擎为云底座的企业AI体系。"
+  },
+  {
+    "id": "wscn:3778288",
+    "domain": "股票",
+    "title": "数据鸽派、市场鹰派：英国央行周四面临政策信号考验",
+    "url": "https://wallstreetcn.com/articles/3778288",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T02:40:31+00:00",
+    "summary": "英国6月CPI降至15个月低点，私营部门工资增速跌至2020年来最低，新政府取消家庭电费增值税则进一步压低通胀预期，多数经济学家预计本周四英国央行将维持利率3.75%不变。但利率期货市场押注英国央行11月加息25个基点，押注主要源于油价上行风险。"
+  },
+  {
+    "id": "wscn:3778272",
+    "domain": "股票",
+    "title": "三星Q2创史上最强盈利季：净利润暴涨1299.9%超预期，AI芯片狂揽99%利润",
+    "url": "https://wallstreetcn.com/articles/3778272",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T02:08:34+00:00",
+    "summary": "三星电子2026年Q2创史上最强单季：营收171.5万亿韩元同比暴增130%，营业利润89.49万亿韩元同比飙升1814%，利润率高达52.2%。核心引擎是半导体——DS部门独揽全公司99%利润，HBM4已完成规模量产并率先发货HBM4E样品，AI超级周期红利尽收囊中。净现金头寸167.6万亿韩元较去年近乎翻倍，ROE从5%跃升至56%。"
+  },
+  {
+    "id": "wscn:3778285",
+    "domain": "股票",
+    "title": "微软财报点评：大涨8%市场奖励正现金流，Azure证明AI“供不应求”",
+    "url": "https://wallstreetcn.com/premium/articles/3778285?layout=wscn-layout",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T02:04:04+00:00",
+    "summary": "总营收900亿美元全面超预期；Azure CC增速43%；资本开支414亿再创新高；折旧年限调整释放隐形成长性。"
+  },
+  {
+    "id": "wscn:3778281",
+    "domain": "股票",
+    "title": "鸽派的Warsh，鹰派的市场",
+    "url": "https://wallstreetcn.com/articles/3778281",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T01:58:35+00:00",
+    "summary": "本次FOMC会议，Warsh态度鸽派，拒绝主动引导市场预期，选择\"事后救场\"而非\"事前预判\"。市场对通胀担忧未获解答，长端利率大幅走高，曲线陡峭创纪录。联储反应函数趋于被动：通胀预期低于2.5%不鹰，核心通胀未达2%不降息。当前宏观主线回归AI Capex走向与地缘扰动。"
+  },
+  {
+    "id": "wscn:3778265",
+    "domain": "股票",
+    "title": "Meta电话会：扎克伯格强调“卖掉算力换短期利润是愚蠢的”，烧钱买算力不是赌博是必须",
+    "url": "https://wallstreetcn.com/articles/3778265",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T01:56:33+00:00",
+    "summary": "扎克伯格在电话会中指出，广告业务收入同比增速超越同行，AI投资正在获得回报；关于出售算力，其表示仅仅出售所有的计算能力并获取短期利润是愚蠢的，相信销售智能的利润率将持续显著高于直接销售计算能力；其还指出，当前开源模型不如前沿模型强大，Meta作为一家“全栈科技公司”，必须拥有自主构建模型的能力。"
+  },
+  {
+    "id": "wscn:3778284",
+    "domain": "股票",
+    "title": "A股SoC芯片公司上半年业绩狂欢背后，一半是周期潮水，一半是AI曙光",
+    "url": "https://wallstreetcn.com/articles/3778284",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T01:55:28+00:00",
+    "summary": "A股SoC芯片半年报集体爆发，星宸科技净利润增长近6倍、北京君正超4倍，但繁荣背后暗藏分化——涨价周期与AI结构性需求正以截然不同的逻辑驱动各家利润，谁在吃周期红利、谁在真正跑通AI商业化，将决定下半年格局走向。此外，中际旭创驳斥1.6T光模块大幅降价传闻，兆易创新朱一明提议公司回购不低于10亿。"
+  },
+  {
+    "id": "wscn:3778279",
+    "domain": "股票",
+    "title": "韩股“去杠杆”完成了吗？摩根大通“机构已近尾声”，汇丰“散户仍处高位”",
+    "url": "https://wallstreetcn.com/articles/3778279",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T01:09:10+00:00",
+    "summary": "摩根大通认为，韩国杠杆ETF去杠杆已基本完成，对冲基金去杠杆进度约达90%，KOSPI估值降至5倍市盈率的“危机水平”、整体配置吸引力已现。汇丰则指出散户融资余额仅较峰值下降约15%，仍高达约220亿美元，且ETF规模缩水主要源于亏损而非主动撤退，去杠杆远未结束。"
+  },
+  {
+    "id": "wscn:3778276",
+    "domain": "股票",
+    "title": "高通电话会：全线双位数涨价对冲内存成本，预计苹果订单下季度环比腰斩，年底量产数据中心芯片",
+    "url": "https://wallstreetcn.com/articles/3778276",
+    "source": "华尔街见闻 API",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T00:59:27+00:00",
+    "summary": "面临内存等供应链成本飙升及产能100%满载的压力，高通将采取两位数幅度的全线提价以修复毛利率；高盛承认苹果订单流失加速，预计12月季度环比腰斩，但强调，同比激增61%的汽车业务（上调年化目标至70亿美元）及12月即将创收的数据中心AI芯片业务，将在2027财年彻底填补苹果退出的收入缺口。"
   },
   {
     "id": "wscn:3778196",
@@ -1896,195 +2072,30 @@
     "source": "华尔街见闻 API",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:54:02+00:00",
+    "published_at": "2026-07-30T00:58:42+00:00",
     "summary": "2026年7月28日，来自OpenAI、Anthropic、Google、Meta、Microsoft、Mistral、Thinking Machines等前沿AI公司的1178名员工联合签署《Pacing the Frontier》公开声明，要求美国政府推动国际合作，建立\"有意放缓自动化AI研发节奏\"的技术和治理工具。"
   },
   {
-    "id": "wscn:3778195",
+    "id": "wscn:3778271",
     "domain": "股票",
-    "title": "OceanBase拟募资至多30亿元，蚂蚁集团数据业务加速市场化独立步伐",
-    "url": "https://wallstreetcn.com/articles/3778195",
+    "title": "美国原油和汽油库存降至“及其危险的低水平”，炼油厂产能利用率已达97%",
+    "url": "https://wallstreetcn.com/articles/3778271",
     "source": "华尔街见闻 API",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:40:44+00:00",
-    "summary": "7月29日，华尔街见闻获悉，数据库公司OceanBase正在与投资者洽谈A轮融资，目前，该公司已与多..."
+    "published_at": "2026-07-30T00:56:06+00:00",
+    "summary": "美国原油库存正以惊人速度告急，上周商业库存单周骤降720万桶，战略石油储备跌至40年最低的3.077亿桶，炼油厂更以97%高负荷全力压榨产能。美伊冲突封锁霍尔木兹，分析师直言库存已处\"极其危险水平\"。当全球最后的能源缓冲垫加速抽空，油价的临界点或近在眼前。"
   },
   {
-    "id": "wscn:3778190",
+    "id": "wscn:3778280",
     "domain": "股票",
-    "title": "\"史上最强\"之后，海力士开始难超预期了",
-    "url": "https://wallstreetcn.com/articles/3778190",
+    "title": "从千问Work到WorkBuddy：Harness执行中间层成巨头争夺\"必选项\"",
+    "url": "https://wallstreetcn.com/articles/3778280",
     "source": "华尔街见闻 API",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:38:50+00:00",
-    "summary": "SK海力士二季度营收79.32万亿韩元、营业利润暴增557%，利润率76.3%刷新存储业历史纪录，毛利率83%已超越英伟达——却成了本轮超级周期中唯一miss共识的巨头。根源在于：HBM霸主地位反噬，50%收入被LTA长协锁定，现货狂涨时只能眼看三星、美光收割ASP弹性。这不是经营恶化，而是一场\"用确定性换弹性\"的主动选择。下半年HBM4放量，才是判断这笔交易值不值的真正答案。"
-  },
-  {
-    "id": "wscn:3777986",
-    "domain": "股票",
-    "title": "危险的信号？5000亿美元数据中心担保融资，英伟达开始押上自己的信用换芯片订单",
-    "url": "https://wallstreetcn.com/premium/articles/3777986?layout=wscn-layout",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T04:06:03+00:00",
-    "summary": "英伟达正与OpenAI商谈，为美国俄亥俄州一座10GW级数据中心项目提供最高约2500亿美元融资支持。英伟达并非直接投入等额现金，而是利用自身信用，为项目贷款或OpenAI的长期算力承诺提供增信。此举既能帮助英伟达锁定未来GPU需求，也意味着其角色正在由芯片供应商延伸至资本组织者和信用承保人。真正值得关注的是：当AI客户需要供应商担保才能继续扩大采购，巨额算力订单究竟反映了终端需求的强劲，还是信用"
-  },
-  {
-    "id": "wscn:3778192",
-    "domain": "股票",
-    "title": "加息还是暂停？新美联储通讯社：今晚FOMC三大看点全解析",
-    "url": "https://wallstreetcn.com/articles/3778192",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T03:59:20+00:00",
-    "summary": "Timiraos认为，本次FOMC会议异常难以预判。三大看点：一是决策结果，按兵不动为常规，意外加息将冲击公信力；二是战略意图，看其是否借加息重塑抗通胀形象；三是政策解释，其叙事框架比决策更左右市场。最终，取决于数据的9月才是真正分水岭。"
-  },
-  {
-    "id": "wscn:3778181",
-    "domain": "股票",
-    "title": "韩股如何“收复失地”？从“杠杆牛”到“回购牛”",
-    "url": "https://wallstreetcn.com/articles/3778181",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T03:59:15+00:00",
-    "summary": "野村认为，此轮去杠杆是市场\"重置\"而非趋势逆转，韩股正从\"杠杆牛\"切换至\"回购牛\"。2026年企业回购规模将创纪录达116万亿韩元（其中90%来自两大半导体巨头），叠加AI盈利周期与政府治理改革，将成为韩股收复失地、冲击万点目标的核心引擎。"
-  },
-  {
-    "id": "wscn:3778184",
-    "domain": "股票",
-    "title": "Altman复盘OpenAI最艰难一年：蒸馏不在我的十大担忧，AGI近在咫尺，机器人2-3年将迎来ChatGPT时刻",
-    "url": "https://wallstreetcn.com/articles/3778184",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T03:34:23+00:00",
-    "summary": "Altman罕见复盘了公司过去一年的战略失误，承认战线过宽是根本原因，并已大幅收缩聚焦。他对外界热议的蒸馏竞争表现淡定，直言“不在我的十大担忧之列”，因为推理业务规模足以支撑训练成本。他判断AGI“非常近了”，GPT-5.6已接近门槛；机器人将在2-3年内迎来类ChatGPT的大众化时刻。"
-  },
-  {
-    "id": "wscn:3778194",
-    "domain": "股票",
-    "title": "从锆材料到特种尼龙，长裕集团新增长曲线渐成",
-    "url": "https://wallstreetcn.com/articles/3778194",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T03:27:39+00:00",
-    "summary": "今年以来，氧氯化锆市场景气度明显回升。\n受下游需求增长、市场供应偏紧等因素的影响，氧氯化锆价格持续走..."
-  },
-  {
-    "id": "wscn:3778191",
-    "domain": "股票",
-    "title": "淘宝便利店扩土：一场「反直觉」突围？",
-    "url": "https://wallstreetcn.com/articles/3778191",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T03:11:48+00:00",
-    "summary": "更多货架的意义"
-  },
-  {
-    "id": "wscn:3778188",
-    "domain": "股票",
-    "title": "AI股暴跌引发追保潮，高盛摩根大通向对冲基金追讨抵押品",
-    "url": "https://wallstreetcn.com/articles/3778188",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T03:06:49+00:00",
-    "summary": "追保行动的背后，是对冲基金在今年前五个月大幅加杠杆的后遗症。高盛在近期客户报告中指出，今年前五个月对冲基金总杠杆率的累计增幅，是该行自2016年开始追踪这一数据以来所记录的最大单次累计增长。分析认为，这标志着抛售潮已蔓延至信用与风险管理层面。"
-  },
-  {
-    "id": "wscn:3778185",
-    "domain": "股票",
-    "title": "废除前瞻指引后，沃什可能比市场预期更早加息",
-    "url": "https://wallstreetcn.com/articles/3778185",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T03:04:14+00:00",
-    "summary": "华泰证券认为，美联储新主席沃什上任仅两月，便以\"对通胀零容忍\"和废除前瞻指引两记重拳震动市场，令定价从鸽派骤转鹰派。然而公信力指标旋即反弹后再度走弱，市场已从\"听其言\"切换至\"观其行\"。7月加息概率略超五成，高于市场预期的40%；9月前加息概率接近100%——越早出手，驯服市场的代价越小，最终所需加息次数或反而越少。"
-  },
-  {
-    "id": "wscn:3778177",
-    "domain": "股票",
-    "title": "股价仍跌超10%！SK海力士电话会：未见AI投资放缓迹象，HBM4已提前量产，长协不会导致供应过剩",
-    "url": "https://wallstreetcn.com/articles/3778177",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T03:01:46+00:00",
-    "summary": "电话会上，管理层明确表示“目前没有看到人工智能投资放缓的迹象”，并预计2027年后AI基础设施投资仍将保持稳健。HBM4已较预期提前一个季度量产，HBM4E已确认2027年起量产。2026年资本开支上调至40万亿韩元中高水平，5年期长期协议不会导致供应过剩。尽管管理层表态积极，电话会结束后SK海力士股价仍转跌10%。"
-  },
-  {
-    "id": "wscn:3778180",
-    "domain": "股票",
-    "title": "中际旭创电话会：1.6T降价传闻严重失实，2027年“真实订单”已下达，新品上量将拉动毛利率",
-    "url": "https://wallstreetcn.com/articles/3778180",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T02:09:32+00:00",
-    "summary": "中际旭创表示，公司明年1.6T产品价格“肯定远高于传闻所说的水平”，同行也没有这么低的价格；从加权平均ASP看，相关传闻“非常离谱”；“几乎所有客户都已经下达了2027年订单”，且不是一般性指引，而是真实订单；部分重点客户已给出2028年新产品具体需求指引，金额“非常大”。"
-  },
-  {
-    "id": "wscn:3777781",
-    "domain": "股票",
-    "title": "中国双龙反超韩系双雄，全球黑电产业进入“中国主导”时代？",
-    "url": "https://wallstreetcn.com/premium/articles/3777781?layout=wscn-layout",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T02:08:31+00:00",
-    "summary": "2026年以来，全球电视出货边际回暖。但比世界杯备货更重要的是，TCL、海信持续跑赢全球大盘，两家公司合计出货量已在部分口径下超过三星与LG；国内销量虽然仍受高基数和补贴退坡压制，大屏、Mini LED及均价却在逆势提升。全球电视总量已进入存量阶段，中国企业的增长逻辑也由需求扩张转向份额获取，并进一步由成本优势升级为技术、品牌和产业链协同优势——世界杯之后，这场全球电视格局的重构还会继续吗？"
-  },
-  {
-    "id": "wscn:3778176",
-    "domain": "股票",
-    "title": "韩股跳水触发熔断，海力士财报不及预期大跌8%，中东局势助推油价跳涨",
-    "url": "https://wallstreetcn.com/articles/3778176",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T01:58:57+00:00",
-    "summary": "韩国SK海力士净利润暴增557%，虽不及预期并未大幅偏离预期，首尔综指一度涨逾3%，但随后跳水跌超5%，SK海力士跌超8%。中东局势骤然升温，伊朗向驻中东美军发射弹道导弹，布伦特原油单日跳涨逾3%，终结三日连跌，霍尔木兹海峡断供风险重回市场视野。"
-  },
-  {
-    "id": "wscn:3778179",
-    "domain": "股票",
-    "title": "“AI能源妖股”Bloom单季营收首破十亿美元，大幅上调全年指引，CEO电话会放话：芯片没电是库存",
-    "url": "https://wallstreetcn.com/articles/3778179",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T01:09:44+00:00",
-    "summary": "财报显示，Q2营收10.65亿美元（同比+166%），首次突破单季10亿美元，非GAAP EPS 0.78美元同比暴增680%，双双大幅超出市场预期。公司将全年营收指引上调至39亿至42亿美元，中值较2025年实现翻番，全年EPS指引升至2.55至2.85美元。CEO Sridhar宣告，所有主要美国超大规模云厂商及逾十二家AI相关客户已完成验证，Bloom已成为AI工厂供电标准。"
-  },
-  {
-    "id": "wscn:3778178",
-    "domain": "股票",
-    "title": "宁德时代的焦虑，和英伟达一模一样",
-    "url": "https://wallstreetcn.com/articles/3778178",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T01:07:50+00:00",
-    "summary": "宁德时代上半年营收2769亿、净利433亿，数据亮眼却难掩毛利率跌至23.2%的隐忧。这并非能力不足，而是一场主动为之的战略让利——用价格换份额，为下游“挡子弹”，护住47%的国内乘用车市占率。合同负债连降、库存商品占比悄然抬升，宁王的焦虑与英伟达如出一辙：巨头的护城河，终究建在下游生态的繁荣之上。"
-  },
-  {
-    "id": "wscn:3778086",
-    "domain": "股票",
-    "title": "山西“十七条意见”限产：出清表外亿吨级产量，供给硬约束煤价或上行",
-    "url": "https://wallstreetcn.com/premium/articles/3778086?layout=wscn-layout",
-    "source": "华尔街见闻 API",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-07-29T00:51:03+00:00",
-    "summary": "2026年7月21日，山西省发布《统筹煤炭行业发展和安全新规十七条（征求意见稿）》。这不仅是\"5·22\"沁源煤矿82人遇难特大事故后的政策回应，更是中国煤炭行业供给秩序的一次结构性重塑。"
+    "published_at": "2026-07-30T00:55:49+00:00",
+    "summary": "中信证券认为，Harness核心价值：一是解决长程任务痛点，将模型能力转化为稳定、低成本的端到端交付；二是连接模型与泛办公场景，拓展万亿市场并沉淀稀缺数据反哺迭代。AI竞争正由模型转向任务交付，成熟Harness厂商将占先机。"
   },
   {
     "id": "hn:48950580",
@@ -2095,17 +2106,6 @@
     "platform": "hackernews",
     "points": 74,
     "published_at": "2026-07-17T18:26:02+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:49024958",
-    "domain": "股票",
-    "title": "DOT cranks up its campaign to strip bike lane references from federal websites",
-    "url": "https://text.npr.org/nx-s1-5900901",
-    "source": "Jtsummers",
-    "platform": "hackernews",
-    "points": 43,
-    "published_at": "2026-07-23T17:11:39+00:00",
     "summary": ""
   },
   {
@@ -2206,6 +2206,17 @@
     "points": null,
     "published_at": "2026-07-24T16:33:10+00:00",
     "summary": "Inside the Bid for an Iconic Fintech"
+  },
+  {
+    "id": "hn:48967807",
+    "domain": "股票",
+    "title": "Claude Code skill for searching royalty-free stock photos via the Pexels API",
+    "url": "https://github.com/amalshehu/pexels-skill",
+    "source": "amalshehu",
+    "platform": "hackernews",
+    "points": 15,
+    "published_at": "2026-07-19T12:55:11+00:00",
+    "summary": ""
   },
   {
     "id": "hn:48947500",
@@ -2318,28 +2329,6 @@
     "summary": "Wise and the Business of Moving Money"
   },
   {
-    "id": "rss:https://www.netinterest.co/p/jules-rimet-still-gleaming",
-    "domain": "股票",
-    "title": "Jules Rimet Still Gleaming",
-    "url": "https://www.netinterest.co/p/jules-rimet-still-gleaming",
-    "source": "Marc Rubinstein",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-06-12T16:13:59+00:00",
-    "summary": "The World Cup Comes to Prediction Markets"
-  },
-  {
-    "id": "hn:48717469",
-    "domain": "金融",
-    "title": "The CEO of Mullvad is the main financer of the Swedish Örebro party",
-    "url": "https://det.social/@lostgen/116820546568940358",
-    "source": "Risse",
-    "platform": "hackernews",
-    "points": 695,
-    "published_at": "2026-06-29T10:45:51+00:00",
-    "summary": ""
-  },
-  {
     "id": "hn:48759634",
     "domain": "金融",
     "title": "PeerTube is a free, decentralized and federated video platform",
@@ -2368,19 +2357,8 @@
     "url": "https://en.wikipedia.org/wiki/Mondragon_Corporation",
     "source": "brnt",
     "platform": "hackernews",
-    "points": 169,
+    "points": 173,
     "published_at": "2026-07-28T12:19:07+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:49046525",
-    "domain": "金融",
-    "title": "The Fedora 45 Sausage Factory",
-    "url": "https://supakeen.com/weblog/the-fedora-45-sausage-factory/",
-    "source": "6581",
-    "platform": "hackernews",
-    "points": 156,
-    "published_at": "2026-07-25T11:04:57+00:00",
     "summary": ""
   },
   {
@@ -2392,6 +2370,17 @@
     "platform": "hackernews",
     "points": 198,
     "published_at": "2026-07-12T04:00:14+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:49046525",
+    "domain": "金融",
+    "title": "The Fedora 45 Sausage Factory",
+    "url": "https://supakeen.com/weblog/the-fedora-45-sausage-factory/",
+    "source": "6581",
+    "platform": "hackernews",
+    "points": 156,
+    "published_at": "2026-07-25T11:04:57+00:00",
     "summary": ""
   },
   {
@@ -2412,8 +2401,19 @@
     "url": "https://www.economist.com/finance-and-economics/2026/07/28/ai-revenues-are-growing-fast-but-not-fast-enough",
     "source": "vinni2",
     "platform": "hackernews",
-    "points": 48,
+    "points": 49,
     "published_at": "2026-07-28T12:19:54+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:49097833",
+    "domain": "金融",
+    "title": "Show HN: The Federalist Papers, typeset as the 1787 newspapers they ran in",
+    "url": "https://federalistreader.org/",
+    "source": "vhwalke",
+    "platform": "hackernews",
+    "points": 39,
+    "published_at": "2026-07-29T14:13:54+00:00",
     "summary": ""
   },
   {
@@ -2428,191 +2428,290 @@
     "summary": ""
   },
   {
-    "id": "rss:https://arxiv.org/abs/2607.24879",
+    "id": "rss:https://arxiv.org/abs/2607.26068",
     "domain": "金融",
-    "title": "Generative Artificial Intelligence in Scientific Research: Individual Benefits, Collective Risks, and a Framework for Responsible Research with AI",
-    "url": "https://arxiv.org/abs/2607.24879",
-    "source": "Fulvio Castellacci, Tommaso Ciarli, Yuan Gao, Marianna Marino, Giacomo Marzi, Massimo Riccaboni, Maria Savona, Simone Vannuccini",
+    "title": "The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem",
+    "url": "https://arxiv.org/abs/2607.26068",
+    "source": "Sivasathivel Kandasamy",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2607.24879v1 Announce Type: new Abstract: This paper examines the tension between the benefits of generative artificial intelligence (AI) for scientific research and the unresolved governance qu"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.26068v1 Announce Type: new Abstract: Existing AI governance frameworks, including the EU AI Act and NIST AI RMF, address safety, transparency, and accountability but do not operationalize q"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2607.24973",
+    "id": "rss:https://arxiv.org/abs/2607.26188",
     "domain": "金融",
-    "title": "Discrete dividends after maturity adjust the stock and strike prices",
-    "url": "https://arxiv.org/abs/2607.24973",
-    "source": "Kevin W. Lu",
+    "title": "Bitcoin Runs on a Clock: Why Every Price Indicator Dies and the Halving Clock Doesn't",
+    "url": "https://arxiv.org/abs/2607.26188",
+    "source": "Josh Molnar",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2607.24973v1 Announce Type: new Abstract: The standard method to price European calls on a discrete dividend-paying stock is to subtract the present value of the dividends from the initial stock"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.26188v1 Announce Type: new Abstract: Every widely followed Bitcoin cycle indicator (Pi Cycle, MVRV, Mayer, Puell) called turns precisely for a decade, then degraded in one sequence: precise"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2607.25189",
+    "id": "rss:https://arxiv.org/abs/2607.26245",
     "domain": "金融",
-    "title": "Long-memory GARCH via a two-dimensional Markov chain",
-    "url": "https://arxiv.org/abs/2607.25189",
-    "source": "Kyungsub Lee, Kennedy Titus Kayaki",
+    "title": "OpenMarket: A Synchronized Polymarket-Binance Dataset for High-Frequency Prediction-Market Research",
+    "url": "https://arxiv.org/abs/2607.26245",
+    "source": "Gregory Young",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2607.25189v1 Announce Type: new Abstract: This paper proposes a GARCH-type volatility model in which level-and-slope updates of a latent power-law kernel generate state-dependent decay of past s"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.26245v1 Announce Type: new Abstract: OpenMarket began as an attempt to trade Polymarket's BTC 15-minute binary markets against Binance BTC/USDT order flow. The attempt did not produce a tra"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2607.25199",
+    "id": "rss:https://arxiv.org/abs/2607.26405",
     "domain": "金融",
-    "title": "RIDGE: An Autonomous Framework for Validation and Method Discovery in LLM-Generated Option Pricing",
-    "url": "https://arxiv.org/abs/2607.25199",
-    "source": "Liexin Cheng, Xue Cheng, Shuaiqiang Liu, Cornelis W. Oosterlee",
+    "title": "Multi-Currency AMMs for Decentralized FOREX Markets: Feasibility & Optimal Design",
+    "url": "https://arxiv.org/abs/2607.26405",
+    "source": "Reina Ke Xin Li, Andreas Park, Andreas Veneris, Srisht Fateh Singh",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2607.25199v1 Announce Type: new Abstract: Automated code generation is becoming an important tool in quantitative finance, where large language models can generate option pricing implementations"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.26405v1 Announce Type: new Abstract: Most currency pairs lack a direct liquid market, so international foreign exchange relies on routing transactions through a dominant vehicle currency. M"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2607.25258",
+    "id": "rss:https://arxiv.org/abs/2607.26859",
     "domain": "金融",
-    "title": "Robust Hedging Valuation Adjustment for Deep Hedging Policies under Market Frictions",
-    "url": "https://arxiv.org/abs/2607.25258",
-    "source": "Takayuki Sakuma",
+    "title": "No Data Is Not No Risk: Visibility Aware Graph-Based Inference of Business Conduct Risk",
+    "url": "https://arxiv.org/abs/2607.26859",
+    "source": "Tsuyoshi Iwata, Johannes Laurmaa, Ryohei Hisano",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2607.25258v1 Announce Type: new Abstract: Hedging a derivative position under transaction costs and market frictions requires a trading rule that adapts to changing conditions. Deep hedging trai"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.26859v1 Announce Type: new Abstract: The monitoring of business conduct risk is hindered by sparse, uneven, and visibility-biased data. Prior studies show that business conduct risk informa"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2607.25353",
+    "id": "rss:https://arxiv.org/abs/2607.27019",
     "domain": "金融",
-    "title": "How Likely and How Deep? Sharp Joint Bounds on Risk-Neutral Crash Probability and Conditional Depth from Option Bid-Ask Quotes",
-    "url": "https://arxiv.org/abs/2607.25353",
-    "source": "Jirong Zhuang",
+    "title": "Multi-Asset Liquidation in Dark Pools with Adverse Selection",
+    "url": "https://arxiv.org/abs/2607.27019",
+    "source": "Guanxing Fu, Johannes Ruf, Xiaomin Shi, Zuo Quan Xu",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2607.25353v1 Announce Type: new Abstract: A finite panel of option quotes with bid-ask spreads generally does not point-identify either the risk-neutral probability of breaching a specified thre"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.27019v1 Announce Type: new Abstract: Multi-asset liquidation in dark pools with adverse selection remains unsolved in literature. In this paper, we investigate multi-asset portfolio liquida"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2607.25472",
+    "id": "rss:https://arxiv.org/abs/2607.27063",
     "domain": "金融",
-    "title": "Algorithm-Driven Information Similarity and Collective Action: An Experimental Study",
-    "url": "https://arxiv.org/abs/2607.25472",
-    "source": "Manshu Khanna, Bozhang Xia",
+    "title": "Herding, Momentum, and Reversal in China's A-Share Market: An Agent-Based Network Model with Information Diffusion",
+    "url": "https://arxiv.org/abs/2607.27063",
+    "source": "Jiahao Weng",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2607.25472v1 Announce Type: new Abstract: We study how the similarity of individuals' information shapes collective action. When people draw on a common source of information, such as social med"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.27063v1 Announce Type: new Abstract: This study develops an agent-based financial market model to explain stock-price momentum and reversal through the joint effects of local herding and de"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2607.25599",
+    "id": "rss:https://arxiv.org/abs/2607.27070",
     "domain": "金融",
-    "title": "An Analytic COS Method for Compound Option Valuation",
-    "url": "https://arxiv.org/abs/2607.25599",
-    "source": "Zhipeng Huang, Cornelis W. Oosterlee",
+    "title": "Where does the criticality live? Early-warning signals are event-heterogeneous across seven crypto-perpetual liquidation cascades",
+    "url": "https://arxiv.org/abs/2607.27070",
+    "source": "Ramon Marc Garcia Seuma",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2607.25599v1 Announce Type: new Abstract: We develop an analytic Fourier cosine (COS) method for the valuation of compound options. By deriving closed-form expressions for the cosine coefficient"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.27070v1 Announce Type: new Abstract: Do crypto perpetual-futures crashes carry a reproducible early-warning fingerprint of a critical transition, and in which state variable? We study seven"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2607.25162",
+    "id": "rss:https://arxiv.org/abs/2607.27142",
     "domain": "金融",
-    "title": "Quantum Transformer BSDE Solver via Multi-Layer Fully-Connected Variational Quantum Circuits",
-    "url": "https://arxiv.org/abs/2607.25162",
-    "source": "Howard Su, Huan-Hsin Tseng, Chi-Sheng Chen, Lance Bai",
+    "title": "How Divorce Reforms Induced Married Couples to Supply More Labor",
+    "url": "https://arxiv.org/abs/2607.27142",
+    "source": "Yedilkhan Baigabulov",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2607.25162v1 Announce Type: cross Abstract: Solving high-dimensional parabolic partial differential equations (PDEs) is important in engineering, physics, and stochastic control. Deep BSDE metho"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.27142v1 Announce Type: new Abstract: This paper studies the dynamic effects of divorce legislation on the labor supply behavior and welfare of married couples. Using U.S. household panel da"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2607.25459",
+    "id": "rss:https://arxiv.org/abs/2607.26109",
     "domain": "金融",
-    "title": "Emergent Latent-State Computation under Stochastic Volatility",
-    "url": "https://arxiv.org/abs/2607.25459",
-    "source": "Xiaoyu Huang, Lulu Wang",
+    "title": "The Attention-Directing Ability of Teams",
+    "url": "https://arxiv.org/abs/2607.26109",
+    "source": "Olga Kokshagina, Marc Santolini, Christoph Riedl",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2607.25459v1 Announce Type: cross Abstract: Mechanistic interpretability has largely focused on language models and deterministic toy tasks. Much less is known about how sequence models internal"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.26109v1 Announce Type: cross Abstract: Why do some teams consistently mobilize collective effort and achieve superior performance while others struggle to coordinate action? We introduce At"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2607.26034",
+    "id": "rss:https://arxiv.org/abs/2607.26792",
     "domain": "金融",
-    "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment",
-    "url": "https://arxiv.org/abs/2607.26034",
-    "source": "Elias Fern\\'andez Domingos, The Anh Han",
+    "title": "Crossing-Free Probabilistic K-Line Forecasts Without Retraining",
+    "url": "https://arxiv.org/abs/2607.26792",
+    "source": "Runyao Yu, Yuchen Tao, Yujie Chen, Wentao Wang, Derek W. Bunn",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2607.26034v1 Announce Type: cross Abstract: Technological races create tension between speed and safety: actors may gain by moving faster than competitors, even when risky development is harmful"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.26792v1 Announce Type: cross Abstract: Probabilistic K-line forecasting describes uncertainty in four complementary prices, namely open--high--low--close (OHLC). However, it introduces two "
   },
   {
-    "id": "rss:https://arxiv.org/abs/2410.13878",
+    "id": "rss:https://arxiv.org/abs/2607.27039",
     "domain": "金融",
-    "title": "Damages and Materiality: Effects on voluntary disclosure",
-    "url": "https://arxiv.org/abs/2410.13878",
-    "source": "Miles B. Gietzmann, Adam J. Ostaszewski",
+    "title": "Forcing and duality-corrected contracts for volatility control",
+    "url": "https://arxiv.org/abs/2607.27039",
+    "source": "Alessandro Chiusolo, Emma Hubert, Dylan Possama\\\"i, Nizar Touzi",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2410.13878v3 Announce Type: replace Abstract: How should a court resolve a shareholder--management dispute following a materially significant price decline when it is suspected that management, "
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.27039v1 Announce Type: cross Abstract: In this paper, we revisit the construction of optimal incentives in continuous-time principal-agent problems with drift and volatility control. Origin"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2508.10682",
+    "id": "rss:https://arxiv.org/abs/2607.27099",
     "domain": "金融",
-    "title": "On data-driven robust distortion risk measures for non-negative risks with partial information",
-    "url": "https://arxiv.org/abs/2508.10682",
-    "source": "Xiangyu Han, Yijun Hu, Ran Wang, Linxiao Wei",
+    "title": "Rainfall is rough",
+    "url": "https://arxiv.org/abs/2607.27099",
+    "source": "Thomas Deschatre, Marc Hoffmann, Mathieu Rosenbaum",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2508.10682v2 Announce Type: replace Abstract: In this paper, by proposing two new kinds of distributional uncertainty sets, we explore robustness of distortion risk measures against distribution"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.27099v1 Announce Type: cross Abstract: We propose a new approach to model rainfall by combining heterogeneous data sources at different time scales. Continuous arrivals of rain cells are in"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2603.01109",
+    "id": "rss:https://arxiv.org/abs/2607.27188",
     "domain": "金融",
-    "title": "A stochastic correlation extension of the Vasicek credit risk model",
-    "url": "https://arxiv.org/abs/2603.01109",
-    "source": "Dhruv Bansal, Mayank Goud, Sourav Majumdar",
+    "title": "Inverse Learning of Latent Risk-Neutral Densities from Irregular Option Quotes",
+    "url": "https://arxiv.org/abs/2607.27188",
+    "source": "Lennon J. Shikhman, Michael Galarnyk, Aadi Dash, Nicholas A. Welsh",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2603.01109v3 Announce Type: replace Abstract: In this paper we extend the Vasicek credit risk model by modelling the correlation as a continuous-time process. The models for correlation follow d"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.27188v1 Announce Type: cross Abstract: Accurate option prices do not imply accurate recovery of the latent risk-neutral density. We study this distinction with two complementary benchmarks."
   },
   {
-    "id": "rss:https://arxiv.org/abs/2606.08232",
+    "id": "rss:https://arxiv.org/abs/2411.17136",
     "domain": "金融",
-    "title": "Hour-Aware Adaptive Risk Management for Autonomous Memecoin Trading on Solana DEXs: Evidence, Theory, and Design Lessons from a 15-Day Deployment",
-    "url": "https://arxiv.org/abs/2606.08232",
-    "source": "Arati Uday Kamat",
+    "title": "Financial Volatility and Risk Forecasting Incorporating a Larger Number of Realized Measures",
+    "url": "https://arxiv.org/abs/2411.17136",
+    "source": "Qianli Zhao, Chao Wang, Richard Gerlach, Giuseppe Storti, Lingxiang Zhang",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2606.08232v2 Announce Type: replace Abstract: We report a 15-day paper-traded deployment of an autonomous memecoin trading system on Solana decentralised exchanges (DEXs) as a controlled measure"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2411.17136v2 Announce Type: replace Abstract: Realised volatility has become increasingly prominent in volatility forecasting due to its ability to capture intraday price fluctuations. With a gr"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2606.22956",
+    "id": "rss:https://arxiv.org/abs/2505.03247",
     "domain": "金融",
-    "title": "Pareto Optimal Centralized Risk Sharing with Multiple Agents: Inclusivity and Fairness",
-    "url": "https://arxiv.org/abs/2606.22956",
-    "source": "Debora Daniela Escobar, Wing Fung Chong",
+    "title": "Strategic Effort and Non-Linear Positional Bandwagon Drafting Benefits in Multi-Stage Competitive Games: Evidence from Triathlon",
+    "url": "https://arxiv.org/abs/2505.03247",
+    "source": "Felix Reichel",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2606.22956v2 Announce Type: replace Abstract: This paper studies centralized risk sharing with endogenous prices. Multiple policyholders transfer risks to a central insurer through indemnity dec"
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2505.03247v3 Announce Type: replace Abstract: This paper examines strategic effort and positioning choices in finite multistage games These choices can generate positional bandwagon drafting ben"
   },
   {
-    "id": "rss:https://arxiv.org/abs/2607.21534",
+    "id": "rss:https://arxiv.org/abs/2511.22834",
     "domain": "金融",
-    "title": "Generative AI Availability, Grades, and Student Satisfaction at a Large University",
-    "url": "https://arxiv.org/abs/2607.21534",
-    "source": "James M. Zumel Dumlao, Meng Wang, Zhonghan Xie, Junyao Hu, Ivan Bar, George Chaney III, Henry Gold, Misha Teplitskiy",
+    "title": "Complexity Beyond Incentives: The Critical Role of Reporting Language",
+    "url": "https://arxiv.org/abs/2511.22834",
+    "source": "Rustamdjan Hakimov, Manshu Khanna",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-07-29T04:00:00+00:00",
-    "summary": "arXiv:2607.21534v2 Announce Type: replace-cross Abstract: The spread of generative AI (GenAI) in higher education has raised concerns that students offload cognitive effort to AI, earning high grades "
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2511.22834v2 Announce Type: replace Abstract: Mechanisms specify both allocation rules and message spaces. We study how message spaces affect behavior in a laboratory assignment environment in w"
+  },
+  {
+    "id": "rss:https://arxiv.org/abs/2601.07687",
+    "domain": "金融",
+    "title": "Physics-Informed Singular-Value Learning for Cross-Covariances Forecasting in Financial Markets",
+    "url": "https://arxiv.org/abs/2601.07687",
+    "source": "Efstratios Manolakis, Christian Bongiorno, Rosario Nunzio Mantegna",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2601.07687v3 Announce Type: replace Abstract: Recent advances in nonlinear shrinkage yield asymptotically optimal cleaners for large covariance matrices and have been extended to empirical cross"
+  },
+  {
+    "id": "rss:https://arxiv.org/abs/2601.10224",
+    "domain": "金融",
+    "title": "The hidden structure of innovation networks",
+    "url": "https://arxiv.org/abs/2601.10224",
+    "source": "Lorenzo Emer, Anna Gallo, Mattia Marzi, Andrea Mina, Tiziano Squartini, Andrea Vandin",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2601.10224v3 Announce Type: replace Abstract: Innovation emerges from complex collaboration patterns - among inventors, firms, or institutions. However, not much is known about the overall mesos"
+  },
+  {
+    "id": "rss:https://arxiv.org/abs/2605.10400",
+    "domain": "金融",
+    "title": "Resolution-Aware Perpetual Futures on Binary Prediction Markets: Failure Modes and Mechanical Stress Tests Using Polymarket Data",
+    "url": "https://arxiv.org/abs/2605.10400",
+    "source": "Maksym Nechepurenko",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2605.10400v2 Announce Type: replace Abstract: We study whether crypto-style perpetual-futures mechanics can be applied to a binary event claim that ultimately pays 0 or 1. A synthetic long enter"
+  },
+  {
+    "id": "rss:https://arxiv.org/abs/2605.10428",
+    "domain": "金融",
+    "title": "A Taxonomy of Event-Linked Perpetual Futures: Design Axes, Failure Modes, and Empirical Evaluability",
+    "url": "https://arxiv.org/abs/2605.10428",
+    "source": "Maksym Nechepurenko",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2605.10428v2 Announce Type: replace Abstract: The label event-linked perpetual often conflates mathematically different contracts. We replace a flat product list with a four-axis taxonomy: under"
+  },
+  {
+    "id": "rss:https://arxiv.org/abs/2605.10486",
+    "domain": "金融",
+    "title": "Manipulation, Informed Trading, and Regulation in Leveraged Event-Linked Markets",
+    "url": "https://arxiv.org/abs/2605.10486",
+    "source": "Maksym Nechepurenko",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2605.10486v2 Announce Type: replace Abstract: Leverage does not create manipulation or informed trading in event markets, but it changes their economics. We separate four conduct channels: marke"
+  },
+  {
+    "id": "rss:https://arxiv.org/abs/2606.06737",
+    "domain": "金融",
+    "title": "Fast-excursion limit of the Heston model",
+    "url": "https://arxiv.org/abs/2606.06737",
+    "source": "Ryan McCrickerd",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2606.06737v2 Announce Type: replace Abstract: This article introduces an unconventional model for price processes in finance that emerges from the classical Heston model under Mechkov's fast-rev"
+  },
+  {
+    "id": "rss:https://arxiv.org/abs/2607.05802",
+    "domain": "金融",
+    "title": "Failure Privacy and Safe Collective Expression with Social Assurance Contracts",
+    "url": "https://arxiv.org/abs/2607.05802",
+    "source": "Matthew Cashman",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2607.05802v4 Announce Type: replace Abstract: Controversial views sometimes remain unspoken because they invite retaliation. However, a sufficiently large group could speak safely if only they s"
+  },
+  {
+    "id": "rss:https://arxiv.org/abs/2505.10373",
+    "domain": "金融",
+    "title": "Reproducing the first and second moments of empirical degree distributions",
+    "url": "https://arxiv.org/abs/2505.10373",
+    "source": "Mattia Marzi, Francesca Giuffrida, Diego Garlaschelli, Tiziano Squartini",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2505.10373v5 Announce Type: replace-cross Abstract: The study of probabilistic models for the analysis of complex networks represents a flourishing research field. Among the former, Exponential "
+  },
+  {
+    "id": "rss:https://arxiv.org/abs/2602.21869",
+    "domain": "金融",
+    "title": "A Bayesian approach to out-of-sample network reconstruction",
+    "url": "https://arxiv.org/abs/2602.21869",
+    "source": "Mattia Marzi, Tiziano Squartini",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-07-30T04:00:00+00:00",
+    "summary": "arXiv:2602.21869v3 Announce Type: replace-cross Abstract: Networks underpin systems that range from finance to biology, yet their structure is often only partially observed. Current reconstruction met"
   },
   {
     "id": "hn:48735748",
@@ -2626,14 +2725,14 @@
     "summary": ""
   },
   {
-    "id": "hn:49047488",
+    "id": "hn:49024958",
     "domain": "金融",
-    "title": "Stripe in talks to acquire OpenRouter in potential $10B deal, WSJ reports",
-    "url": "https://finance.yahoo.com/technology/ai/articles/stripe-talks-acquire-openrouter-potential-215104525.html",
-    "source": "nlpnerd",
+    "title": "DOT cranks up its campaign to strip bike lane references from federal websites",
+    "url": "https://text.npr.org/nx-s1-5900901",
+    "source": "Jtsummers",
     "platform": "hackernews",
-    "points": 12,
-    "published_at": "2026-07-25T13:38:45+00:00",
+    "points": 43,
+    "published_at": "2026-07-23T17:11:39+00:00",
     "summary": ""
   },
   {
@@ -2692,28 +2791,6 @@
     "summary": ""
   },
   {
-    "id": "hn:48999329",
-    "domain": "金融",
-    "title": "A Man Who Runs the IRS Spied on Colleagues When He Worked at JPMorgan",
-    "url": "https://www.wsj.com/finance/banking/irs-bisignano-spying-jpmorgan-6cd1ddf0",
-    "source": "cwwc",
-    "platform": "hackernews",
-    "points": 25,
-    "published_at": "2026-07-21T22:40:46+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:49001708",
-    "domain": "金融",
-    "title": "Tesla Balance Bike",
-    "url": "https://shop.tesla.com/product/balance-bike-for-kids",
-    "source": "surprisetalk",
-    "platform": "hackernews",
-    "points": 21,
-    "published_at": "2026-07-22T04:00:11+00:00",
-    "summary": ""
-  },
-  {
     "id": "hn:48791799",
     "domain": "金融",
     "title": "Is The Economist Always Wrong?",
@@ -2725,17 +2802,6 @@
     "summary": ""
   },
   {
-    "id": "hn:48999988",
-    "domain": "金融",
-    "title": "Brazil and US clash over future of payments as Pix system stirs global interest",
-    "url": "https://www.reuters.com/business/finance/brazil-us-clash-over-future-payments-popular-pix-system-stirs-global-interest-2026-07-21/",
-    "source": "petethomas",
-    "platform": "hackernews",
-    "points": 17,
-    "published_at": "2026-07-21T23:52:52+00:00",
-    "summary": ""
-  },
-  {
     "id": "hn:49028304",
     "domain": "金融",
     "title": "US announces double-digit tariffs on most of globe to replace expiring duties",
@@ -2744,6 +2810,17 @@
     "platform": "hackernews",
     "points": 13,
     "published_at": "2026-07-23T21:28:52+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:49047488",
+    "domain": "金融",
+    "title": "Stripe in talks to acquire OpenRouter in potential $10B deal, WSJ reports",
+    "url": "https://finance.yahoo.com/technology/ai/articles/stripe-talks-acquire-openrouter-potential-215104525.html",
+    "source": "nlpnerd",
+    "platform": "hackernews",
+    "points": 12,
+    "published_at": "2026-07-25T13:38:45+00:00",
     "summary": ""
   },
   {
@@ -2780,102 +2857,25 @@
     "summary": ""
   },
   {
-    "id": "hn:48723371",
+    "id": "hn:48999329",
     "domain": "金融",
-    "title": "Feds Tracked Down an Anti-ICE Dad in NYC Hotel, but How?",
-    "url": "https://gizmodo.com/federal-agents-reportedly-tracked-down-an-anti-ice-dad-in-a-new-york-hotel-its-not-clear-how-2000778714",
-    "source": "ripe",
+    "title": "A Man Who Runs the IRS Spied on Colleagues When He Worked at JPMorgan",
+    "url": "https://www.wsj.com/finance/banking/irs-bisignano-spying-jpmorgan-6cd1ddf0",
+    "source": "cwwc",
     "platform": "hackernews",
-    "points": 42,
-    "published_at": "2026-06-29T18:42:54+00:00",
+    "points": 25,
+    "published_at": "2026-07-21T22:40:46+00:00",
     "summary": ""
   },
   {
-    "id": "hn:48986112",
+    "id": "hn:49001708",
     "domain": "金融",
-    "title": "The Fedora project grapples with change",
-    "url": "https://lwn.net/SubscriberLink/1081557/cde56e450fe4bf10/",
-    "source": "chmaynard",
+    "title": "Tesla Balance Bike",
+    "url": "https://shop.tesla.com/product/balance-bike-for-kids",
+    "source": "surprisetalk",
     "platform": "hackernews",
     "points": 21,
-    "published_at": "2026-07-20T23:17:33+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:48824584",
-    "domain": "金融",
-    "title": "JPMorgan, BofA and Others Explore Buying Card Network to Raise Debit-Card Fees",
-    "url": "https://www.wsj.com/finance/banking/jpmorgan-bank-of-america-and-other-banks-explore-a-deal-to-shake-up-payments-world-9d8639fb",
-    "source": "JumpCrisscross",
-    "platform": "hackernews",
-    "points": 39,
-    "published_at": "2026-07-07T22:04:18+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:48986211",
-    "domain": "金融",
-    "title": "Delayed Boeing jets only fit for baked bean tins, Emirates boss says",
-    "url": "https://finance.yahoo.com/technology/articles/delayed-boeing-jets-only-fit-162341761.html",
-    "source": "devonnull",
-    "platform": "hackernews",
-    "points": 15,
-    "published_at": "2026-07-20T23:29:15+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:48780128",
-    "domain": "金融",
-    "title": "AI First: How the Federal Government Is Prioritizing AI over People and Planet",
-    "url": "https://stopgreedbuildgreen.climateandcommunity.org/posts/ai-first",
-    "source": "eatox",
-    "platform": "hackernews",
-    "points": 32,
-    "published_at": "2026-07-03T21:21:08+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:48796110",
-    "domain": "金融",
-    "title": "Moving back home used to be a sign of failure. Now it shows financial savvy",
-    "url": "https://www.wsj.com/lifestyle/relationships/living-with-parents-finances-0c35530c",
-    "source": "apparent",
-    "platform": "hackernews",
-    "points": 23,
-    "published_at": "2026-07-05T17:34:49+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:48849827",
-    "domain": "金融",
-    "title": "FrontierFinance: The largest open benchmark for investor workflows",
-    "url": "https://research.samaya.ai/benchmarks/frontier-finance",
-    "source": "ashwinpp",
-    "platform": "hackernews",
-    "points": 18,
-    "published_at": "2026-07-09T17:49:05+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:48824532",
-    "domain": "金融",
-    "title": "SpaceX Shares Stumble in Nasdaq-100 Debut",
-    "url": "https://www.wsj.com/finance/stocks/spacex-shares-stumble-in-nasdaq-100-debut-9ec10565",
-    "source": "JumpCrisscross",
-    "platform": "hackernews",
-    "points": 16,
-    "published_at": "2026-07-07T22:00:45+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:48719682",
-    "domain": "金融",
-    "title": "Supreme Court rules Trump cannot fire Fed member Lisa Cook",
-    "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-rules-trump-cannot-fire-fed-member-lisa-cook-grants-powe-rcna234931",
-    "source": "ceejayoz",
-    "platform": "hackernews",
-    "points": 15,
-    "published_at": "2026-06-29T14:24:41+00:00",
+    "published_at": "2026-07-22T04:00:11+00:00",
     "summary": ""
   }
 ]

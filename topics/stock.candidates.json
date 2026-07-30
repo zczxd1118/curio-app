@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-07-29T05:58:18.174374+00:00",
+  "fetched_at": "2026-07-30T05:49:17.011797+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -12,7 +12,7 @@
     "HN · stock market": 17,
     "HN · IPO": 10,
     "HN · earnings": 1,
-    "HN · Federal Reserve": 2,
+    "HN · Federal Reserve": 1,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
@@ -21,25 +21,190 @@
   "total": 65,
   "items": [
     {
-      "id": "wscn:3778182",
-      "title": "创业板午后拉升涨超2%，金融科技、锂电池爆发，存储芯片跌幅收窄、兆易创新打开跌停，恒科指一度大涨3%，小米涨逾7%",
-      "url": "https://wallstreetcn.com/articles/3778182",
-      "summary": "盘面上，个股涨多跌少，沪深京三市超3400股飘红，上午半天成交1.49万亿。沪深两市半日成交额1.48万亿，较上个交易日放量超1500亿。板块方面，半导体、算力硬件产业链持续下探，光刻机、HBM、CPO、PCB、存储器方向领跌；脑机接口、光伏概念股跌幅靠前。大消费、汽车、煤炭、金融板块走强。",
+      "id": "wscn:3778287",
+      "title": "科技巨头财报难顶压力，韩股午后转跌、三星抹平涨幅，美债原油同步走低",
+      "url": "https://wallstreetcn.com/articles/3778287",
+      "summary": "韩国首尔综指回吐稍早逾5%的涨幅转跌，此前两个交易日该指数累计下跌16%，并连续两日触发全市场熔断机制。三星电子二季度业绩大幅超预期，股价一度涨5.5%，SK海力士涨2%。微软盘后涨近9%，提振纳指100期货上涨0.6%，市场情绪有所企稳。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-29T05:44:00+00:00",
+      "published_at": "2026-07-30T05:46:38+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3778189",
-      "title": "多年来“最不确定”的一次！今晚的美联储会给“惊吓”吗？",
-      "url": "https://wallstreetcn.com/articles/3778189",
-      "summary": "美联储今晚大概率按兵不动，但这或许是近年最不平静的一次“暂停”。货币市场给出32%的加息概率，瑞银经济学家直言不确定程度为20年之最。内部鹰派分歧扩大，沃什政策风格成谜，Citadel等机构已明确押注意外加息。摩根大通测算，若加息25基点，标普500可能重挫逾2%——今晚，“不变”本身也可能是一场震动。",
+      "id": "wscn:3778286",
+      "title": "创业板跌超5%，工行建行逆势创新高，半导体、算力硬件再跌、光模块掀跌停潮，中际旭创港股IPO首日破发",
+      "url": "https://wallstreetcn.com/articles/3778286",
+      "summary": "盘面上，个股跌多涨少，沪深京三市超3400股飘绿，上午半天成交1.46万亿。沪深两市半日成交额1.45万亿，较上个交易日缩量不到300亿。板块方面，半导体、算力硬件产业链深度回调，CPO、PCB、HBM方向大跌，中际旭创跌逾15%。机器人、光伏、商业航天、创新药题材跌幅靠前。白酒、银行、汽车板块逆势走强。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-29T05:31:29+00:00",
+      "published_at": "2026-07-30T04:06:41+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778294",
+      "title": "抢夺企业Agent入口！腾讯、阿里、字节新一轮大战一触即发",
+      "url": "https://wallstreetcn.com/articles/3778294",
+      "summary": "从各自试错到集中兵力，腾讯、阿里、字节几乎同时收拢AI战线，企业Agent竞争正式进入决战阶段。争夺的已不只是一个AI产品，而是企业每天工作的第一入口——谁占住办公场景，谁就更有机会成为下一代企业AI生态的核心。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T04:05:16+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778296",
+      "title": "字节跳动重组AI业务线：飞书与豆包产品线融合",
+      "url": "https://wallstreetcn.com/articles/3778296",
+      "summary": "To B战略升级。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T04:02:15+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778291",
+      "title": "高通的底牌：当手机不再是主场",
+      "url": "https://wallstreetcn.com/articles/3778291",
+      "summary": "高通正经历结构性转型：受存储涨价与苹果订单加速流失影响，手机业务营收大跌，主场权重持续稀释。但其“底牌”已浮出水面：汽车芯片创纪录增长，兜住中期确定性；数据中心业务全面铺开，决定未来估值上限。年底至明年初将是其各业务线成效的关键验证期。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T04:01:24+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778260",
+      "title": "韩股连续两日熔断之后：去杠杆是否已接近尾声？",
+      "url": "https://wallstreetcn.com/premium/articles/3778260?layout=wscn-layout",
+      "summary": "韩股去杠杆接近尾声，被动抛售高峰已过，但散户信心重创，市场震荡寻底，反转有待业绩确认。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T03:59:51+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778290",
+      "title": "OpenAI年化收入提速，CFO内部喊话：7月一个月顶过整个二季度",
+      "url": "https://wallstreetcn.com/articles/3778290",
+      "summary": "OpenAI CFO内部会议罕见披露：7月单月新增年化经常性收入已超整个二季度，增长引擎来自GPT-5.6、企业Agent及编程工具Codex的爆发式普及。有分析认为，这意味着今年ARR或逼近600亿美元，与Anthropic差距收窄。在估值达8520亿美元、IPO申请已秘密递交的关键节点，这份收入加速曲线，或将成为其上市路演最强底牌。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T03:21:48+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778293",
+      "title": "不只可远观，更能亲手造：在L'ÉCOLE触摸两千年前的金工温度",
+      "url": "https://wallstreetcn.com/articles/3778293",
+      "summary": "继巴黎首展、首尔巡展之后，“金手匠艺：铁器时代的金饰重生”终于来到上海。\n由Van Cleef &...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T03:03:24+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778292",
+      "title": "字节重大调整：豆包和火山吃下了飞书",
+      "url": "https://wallstreetcn.com/articles/3778292",
+      "summary": "字节跳动宣布重大组织调整，飞书被降级打散：其产品团队并入豆包，商业化团队并入火山引擎。此举标志字节放弃三者独立运营思路，集中资源发力AI，转而打造以豆包为智能核心、飞书为工作入口、火山引擎为云底座的企业AI体系。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T02:45:11+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778288",
+      "title": "数据鸽派、市场鹰派：英国央行周四面临政策信号考验",
+      "url": "https://wallstreetcn.com/articles/3778288",
+      "summary": "英国6月CPI降至15个月低点，私营部门工资增速跌至2020年来最低，新政府取消家庭电费增值税则进一步压低通胀预期，多数经济学家预计本周四英国央行将维持利率3.75%不变。但利率期货市场押注英国央行11月加息25个基点，押注主要源于油价上行风险。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T02:40:31+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778272",
+      "title": "三星Q2创史上最强盈利季：净利润暴涨1299.9%超预期，AI芯片狂揽99%利润",
+      "url": "https://wallstreetcn.com/articles/3778272",
+      "summary": "三星电子2026年Q2创史上最强单季：营收171.5万亿韩元同比暴增130%，营业利润89.49万亿韩元同比飙升1814%，利润率高达52.2%。核心引擎是半导体——DS部门独揽全公司99%利润，HBM4已完成规模量产并率先发货HBM4E样品，AI超级周期红利尽收囊中。净现金头寸167.6万亿韩元较去年近乎翻倍，ROE从5%跃升至56%。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T02:08:34+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778285",
+      "title": "微软财报点评：大涨8%市场奖励正现金流，Azure证明AI“供不应求”",
+      "url": "https://wallstreetcn.com/premium/articles/3778285?layout=wscn-layout",
+      "summary": "总营收900亿美元全面超预期；Azure CC增速43%；资本开支414亿再创新高；折旧年限调整释放隐形成长性。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T02:04:04+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778281",
+      "title": "鸽派的Warsh，鹰派的市场",
+      "url": "https://wallstreetcn.com/articles/3778281",
+      "summary": "本次FOMC会议，Warsh态度鸽派，拒绝主动引导市场预期，选择\"事后救场\"而非\"事前预判\"。市场对通胀担忧未获解答，长端利率大幅走高，曲线陡峭创纪录。联储反应函数趋于被动：通胀预期低于2.5%不鹰，核心通胀未达2%不降息。当前宏观主线回归AI Capex走向与地缘扰动。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T01:58:35+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778265",
+      "title": "Meta电话会：扎克伯格强调“卖掉算力换短期利润是愚蠢的”，烧钱买算力不是赌博是必须",
+      "url": "https://wallstreetcn.com/articles/3778265",
+      "summary": "扎克伯格在电话会中指出，广告业务收入同比增速超越同行，AI投资正在获得回报；关于出售算力，其表示仅仅出售所有的计算能力并获取短期利润是愚蠢的，相信销售智能的利润率将持续显著高于直接销售计算能力；其还指出，当前开源模型不如前沿模型强大，Meta作为一家“全栈科技公司”，必须拥有自主构建模型的能力。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T01:56:33+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778284",
+      "title": "A股SoC芯片公司上半年业绩狂欢背后，一半是周期潮水，一半是AI曙光",
+      "url": "https://wallstreetcn.com/articles/3778284",
+      "summary": "A股SoC芯片半年报集体爆发，星宸科技净利润增长近6倍、北京君正超4倍，但繁荣背后暗藏分化——涨价周期与AI结构性需求正以截然不同的逻辑驱动各家利润，谁在吃周期红利、谁在真正跑通AI商业化，将决定下半年格局走向。此外，中际旭创驳斥1.6T光模块大幅降价传闻，兆易创新朱一明提议公司回购不低于10亿。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T01:55:28+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778279",
+      "title": "韩股“去杠杆”完成了吗？摩根大通“机构已近尾声”，汇丰“散户仍处高位”",
+      "url": "https://wallstreetcn.com/articles/3778279",
+      "summary": "摩根大通认为，韩国杠杆ETF去杠杆已基本完成，对冲基金去杠杆进度约达90%，KOSPI估值降至5倍市盈率的“危机水平”、整体配置吸引力已现。汇丰则指出散户融资余额仅较峰值下降约15%，仍高达约220亿美元，且ETF规模缩水主要源于亏损而非主动撤退，去杠杆远未结束。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T01:09:10+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778276",
+      "title": "高通电话会：全线双位数涨价对冲内存成本，预计苹果订单下季度环比腰斩，年底量产数据中心芯片",
+      "url": "https://wallstreetcn.com/articles/3778276",
+      "summary": "面临内存等供应链成本飙升及产能100%满载的压力，高通将采取两位数幅度的全线提价以修复毛利率；高盛承认苹果订单流失加速，预计12月季度环比腰斩，但强调，同比激增61%的汽车业务（上调年化目标至70亿美元）及12月即将创收的数据中心AI芯片业务，将在2027财年彻底填补苹果退出的收入缺口。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-07-30T00:59:27+00:00",
       "points": 0
     },
     {
@@ -50,194 +215,29 @@
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-29T04:54:02+00:00",
+      "published_at": "2026-07-30T00:58:42+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3778195",
-      "title": "OceanBase拟募资至多30亿元，蚂蚁集团数据业务加速市场化独立步伐",
-      "url": "https://wallstreetcn.com/articles/3778195",
-      "summary": "7月29日，华尔街见闻获悉，数据库公司OceanBase正在与投资者洽谈A轮融资，目前，该公司已与多...",
+      "id": "wscn:3778271",
+      "title": "美国原油和汽油库存降至“及其危险的低水平”，炼油厂产能利用率已达97%",
+      "url": "https://wallstreetcn.com/articles/3778271",
+      "summary": "美国原油库存正以惊人速度告急，上周商业库存单周骤降720万桶，战略石油储备跌至40年最低的3.077亿桶，炼油厂更以97%高负荷全力压榨产能。美伊冲突封锁霍尔木兹，分析师直言库存已处\"极其危险水平\"。当全球最后的能源缓冲垫加速抽空，油价的临界点或近在眼前。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-29T04:40:44+00:00",
+      "published_at": "2026-07-30T00:56:06+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3778190",
-      "title": "\"史上最强\"之后，海力士开始难超预期了",
-      "url": "https://wallstreetcn.com/articles/3778190",
-      "summary": "SK海力士二季度营收79.32万亿韩元、营业利润暴增557%，利润率76.3%刷新存储业历史纪录，毛利率83%已超越英伟达——却成了本轮超级周期中唯一miss共识的巨头。根源在于：HBM霸主地位反噬，50%收入被LTA长协锁定，现货狂涨时只能眼看三星、美光收割ASP弹性。这不是经营恶化，而是一场\"用确定性换弹性\"的主动选择。下半年HBM4放量，才是判断这笔交易值不值的真正答案。",
+      "id": "wscn:3778280",
+      "title": "从千问Work到WorkBuddy：Harness执行中间层成巨头争夺\"必选项\"",
+      "url": "https://wallstreetcn.com/articles/3778280",
+      "summary": "中信证券认为，Harness核心价值：一是解决长程任务痛点，将模型能力转化为稳定、低成本的端到端交付；二是连接模型与泛办公场景，拓展万亿市场并沉淀稀缺数据反哺迭代。AI竞争正由模型转向任务交付，成熟Harness厂商将占先机。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-07-29T04:38:50+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3777986",
-      "title": "危险的信号？5000亿美元数据中心担保融资，英伟达开始押上自己的信用换芯片订单",
-      "url": "https://wallstreetcn.com/premium/articles/3777986?layout=wscn-layout",
-      "summary": "英伟达正与OpenAI商谈，为美国俄亥俄州一座10GW级数据中心项目提供最高约2500亿美元融资支持。英伟达并非直接投入等额现金，而是利用自身信用，为项目贷款或OpenAI的长期算力承诺提供增信。此举既能帮助英伟达锁定未来GPU需求，也意味着其角色正在由芯片供应商延伸至资本组织者和信用承保人。真正值得关注的是：当AI客户需要供应商担保才能继续扩大采购，巨额算力订单究竟反映了终端需求的强劲，还是信用扩张对未来需求的提前透支？",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T04:06:03+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778192",
-      "title": "加息还是暂停？新美联储通讯社：今晚FOMC三大看点全解析",
-      "url": "https://wallstreetcn.com/articles/3778192",
-      "summary": "Timiraos认为，本次FOMC会议异常难以预判。三大看点：一是决策结果，按兵不动为常规，意外加息将冲击公信力；二是战略意图，看其是否借加息重塑抗通胀形象；三是政策解释，其叙事框架比决策更左右市场。最终，取决于数据的9月才是真正分水岭。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T03:59:20+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778181",
-      "title": "韩股如何“收复失地”？从“杠杆牛”到“回购牛”",
-      "url": "https://wallstreetcn.com/articles/3778181",
-      "summary": "野村认为，此轮去杠杆是市场\"重置\"而非趋势逆转，韩股正从\"杠杆牛\"切换至\"回购牛\"。2026年企业回购规模将创纪录达116万亿韩元（其中90%来自两大半导体巨头），叠加AI盈利周期与政府治理改革，将成为韩股收复失地、冲击万点目标的核心引擎。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T03:59:15+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778184",
-      "title": "Altman复盘OpenAI最艰难一年：蒸馏不在我的十大担忧，AGI近在咫尺，机器人2-3年将迎来ChatGPT时刻",
-      "url": "https://wallstreetcn.com/articles/3778184",
-      "summary": "Altman罕见复盘了公司过去一年的战略失误，承认战线过宽是根本原因，并已大幅收缩聚焦。他对外界热议的蒸馏竞争表现淡定，直言“不在我的十大担忧之列”，因为推理业务规模足以支撑训练成本。他判断AGI“非常近了”，GPT-5.6已接近门槛；机器人将在2-3年内迎来类ChatGPT的大众化时刻。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T03:34:23+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778194",
-      "title": "从锆材料到特种尼龙，长裕集团新增长曲线渐成",
-      "url": "https://wallstreetcn.com/articles/3778194",
-      "summary": "今年以来，氧氯化锆市场景气度明显回升。\n受下游需求增长、市场供应偏紧等因素的影响，氧氯化锆价格持续走...",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T03:27:39+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778191",
-      "title": "淘宝便利店扩土：一场「反直觉」突围？",
-      "url": "https://wallstreetcn.com/articles/3778191",
-      "summary": "更多货架的意义",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T03:11:48+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778188",
-      "title": "AI股暴跌引发追保潮，高盛摩根大通向对冲基金追讨抵押品",
-      "url": "https://wallstreetcn.com/articles/3778188",
-      "summary": "追保行动的背后，是对冲基金在今年前五个月大幅加杠杆的后遗症。高盛在近期客户报告中指出，今年前五个月对冲基金总杠杆率的累计增幅，是该行自2016年开始追踪这一数据以来所记录的最大单次累计增长。分析认为，这标志着抛售潮已蔓延至信用与风险管理层面。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T03:06:49+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778185",
-      "title": "废除前瞻指引后，沃什可能比市场预期更早加息",
-      "url": "https://wallstreetcn.com/articles/3778185",
-      "summary": "华泰证券认为，美联储新主席沃什上任仅两月，便以\"对通胀零容忍\"和废除前瞻指引两记重拳震动市场，令定价从鸽派骤转鹰派。然而公信力指标旋即反弹后再度走弱，市场已从\"听其言\"切换至\"观其行\"。7月加息概率略超五成，高于市场预期的40%；9月前加息概率接近100%——越早出手，驯服市场的代价越小，最终所需加息次数或反而越少。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T03:04:14+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778177",
-      "title": "股价仍跌超10%！SK海力士电话会：未见AI投资放缓迹象，HBM4已提前量产，长协不会导致供应过剩",
-      "url": "https://wallstreetcn.com/articles/3778177",
-      "summary": "电话会上，管理层明确表示“目前没有看到人工智能投资放缓的迹象”，并预计2027年后AI基础设施投资仍将保持稳健。HBM4已较预期提前一个季度量产，HBM4E已确认2027年起量产。2026年资本开支上调至40万亿韩元中高水平，5年期长期协议不会导致供应过剩。尽管管理层表态积极，电话会结束后SK海力士股价仍转跌10%。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T03:01:46+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778180",
-      "title": "中际旭创电话会：1.6T降价传闻严重失实，2027年“真实订单”已下达，新品上量将拉动毛利率",
-      "url": "https://wallstreetcn.com/articles/3778180",
-      "summary": "中际旭创表示，公司明年1.6T产品价格“肯定远高于传闻所说的水平”，同行也没有这么低的价格；从加权平均ASP看，相关传闻“非常离谱”；“几乎所有客户都已经下达了2027年订单”，且不是一般性指引，而是真实订单；部分重点客户已给出2028年新产品具体需求指引，金额“非常大”。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T02:09:32+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3777781",
-      "title": "中国双龙反超韩系双雄，全球黑电产业进入“中国主导”时代？",
-      "url": "https://wallstreetcn.com/premium/articles/3777781?layout=wscn-layout",
-      "summary": "2026年以来，全球电视出货边际回暖。但比世界杯备货更重要的是，TCL、海信持续跑赢全球大盘，两家公司合计出货量已在部分口径下超过三星与LG；国内销量虽然仍受高基数和补贴退坡压制，大屏、Mini LED及均价却在逆势提升。全球电视总量已进入存量阶段，中国企业的增长逻辑也由需求扩张转向份额获取，并进一步由成本优势升级为技术、品牌和产业链协同优势——世界杯之后，这场全球电视格局的重构还会继续吗？",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T02:08:31+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778176",
-      "title": "韩股跳水触发熔断，海力士财报不及预期大跌8%，中东局势助推油价跳涨",
-      "url": "https://wallstreetcn.com/articles/3778176",
-      "summary": "韩国SK海力士净利润暴增557%，虽不及预期并未大幅偏离预期，首尔综指一度涨逾3%，但随后跳水跌超5%，SK海力士跌超8%。中东局势骤然升温，伊朗向驻中东美军发射弹道导弹，布伦特原油单日跳涨逾3%，终结三日连跌，霍尔木兹海峡断供风险重回市场视野。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T01:58:57+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778179",
-      "title": "“AI能源妖股”Bloom单季营收首破十亿美元，大幅上调全年指引，CEO电话会放话：芯片没电是库存",
-      "url": "https://wallstreetcn.com/articles/3778179",
-      "summary": "财报显示，Q2营收10.65亿美元（同比+166%），首次突破单季10亿美元，非GAAP EPS 0.78美元同比暴增680%，双双大幅超出市场预期。公司将全年营收指引上调至39亿至42亿美元，中值较2025年实现翻番，全年EPS指引升至2.55至2.85美元。CEO Sridhar宣告，所有主要美国超大规模云厂商及逾十二家AI相关客户已完成验证，Bloom已成为AI工厂供电标准。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T01:09:44+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778178",
-      "title": "宁德时代的焦虑，和英伟达一模一样",
-      "url": "https://wallstreetcn.com/articles/3778178",
-      "summary": "宁德时代上半年营收2769亿、净利433亿，数据亮眼却难掩毛利率跌至23.2%的隐忧。这并非能力不足，而是一场主动为之的战略让利——用价格换份额，为下游“挡子弹”，护住47%的国内乘用车市占率。合同负债连降、库存商品占比悄然抬升，宁王的焦虑与英伟达如出一辙：巨头的护城河，终究建在下游生态的繁荣之上。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T01:07:50+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778086",
-      "title": "山西“十七条意见”限产：出清表外亿吨级产量，供给硬约束煤价或上行",
-      "url": "https://wallstreetcn.com/premium/articles/3778086?layout=wscn-layout",
-      "summary": "2026年7月21日，山西省发布《统筹煤炭行业发展和安全新规十七条（征求意见稿）》。这不仅是\"5·22\"沁源煤矿82人遇难特大事故后的政策回应，更是中国煤炭行业供给秩序的一次结构性重塑。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-29T00:51:03+00:00",
+      "published_at": "2026-07-30T00:55:49+00:00",
       "points": 0
     },
     {
@@ -252,7 +252,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49057574"
       },
       "duration_sec": null,
-      "views": 340,
+      "views": 341,
       "comments": 329,
       "published_at": "2026-07-26T12:43:21+00:00",
       "summary": "",
@@ -317,6 +317,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49092549",
+      "title": "Chip stocks slide in US and Asia as AI jitters rattle investors",
+      "url": "https://www.bbc.com/news/articles/cly8zng43npo",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49092549",
+        "name": "yogthos",
+        "hn_url": "https://news.ycombinator.com/item?id=49092549"
+      },
+      "duration_sec": null,
+      "views": 74,
+      "comments": 51,
+      "published_at": "2026-07-29T01:56:00+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:48946872",
       "title": "US Corporate Insiders Are Selling Stocks at a Near Record Pace",
       "url": "https://www.bloomberg.com/news/articles/2026-07-17/us-corporate-insiders-are-selling-stocks-at-a-near-record-pace",
@@ -355,25 +374,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49092549",
-      "title": "Chip stocks slide in US and Asia as AI jitters rattle investors",
-      "url": "https://www.bbc.com/news/articles/cly8zng43npo",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49092549",
-        "name": "yogthos",
-        "hn_url": "https://news.ycombinator.com/item?id=49092549"
-      },
-      "duration_sec": null,
-      "views": 45,
-      "comments": 32,
-      "published_at": "2026-07-29T01:56:00+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
       "id": "hn:48974426",
       "title": "Big tech needs to justify AI spending as investors dump stocks",
       "url": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
@@ -393,25 +393,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:48923343",
-      "title": "SpaceX stock sinks below $135 IPO price for the first time",
-      "url": "https://www.cnbc.com/2026/07/15/spacex-spcx-stock-ipo-price.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48923343",
-        "name": "abduhl",
-        "hn_url": "https://news.ycombinator.com/item?id=48923343"
-      },
-      "duration_sec": null,
-      "views": 39,
-      "comments": 7,
-      "published_at": "2026-07-15T16:30:41+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
       "id": "hn:49087537",
       "title": "Chip stocks tumble as AI sell-off deepens",
       "url": "https://www.ft.com/content/f8c03b5b-e194-4236-82c3-389b6f5dd7ae",
@@ -424,7 +405,7 @@
       },
       "duration_sec": null,
       "views": 36,
-      "comments": 6,
+      "comments": 7,
       "published_at": "2026-07-28T17:54:01+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -450,6 +431,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49091512",
+      "title": "Apple becomes second $5T company as investors flee AI stocks",
+      "url": "https://www.theguardian.com/technology/2026/jul/28/apple-second-ever-5tn-company-as-investors-flee-ai-stocks",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49091512",
+        "name": "devonnull",
+        "hn_url": "https://news.ycombinator.com/item?id=49091512"
+      },
+      "duration_sec": null,
+      "views": 17,
+      "comments": 4,
+      "published_at": "2026-07-28T23:41:59+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:48967807",
       "title": "Claude Code skill for searching royalty-free stock photos via the Pexels API",
       "url": "https://github.com/amalshehu/pexels-skill",
@@ -469,20 +469,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49091512",
-      "title": "Apple becomes second $5T company as investors flee AI stocks",
-      "url": "https://www.theguardian.com/technology/2026/jul/28/apple-second-ever-5tn-company-as-investors-flee-ai-stocks",
+      "id": "hn:49095568",
+      "title": "Korean Stocks Plunge 16% in Two-Day Burst of Retail Selling",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/korean-stocks-tumble-a-second-day-as-sk-hynix-results-disappoint",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49091512",
-        "name": "devonnull",
-        "hn_url": "https://news.ycombinator.com/item?id=49091512"
+        "id": "49095568",
+        "name": "emsidisii",
+        "hn_url": "https://news.ycombinator.com/item?id=49095568"
       },
       "duration_sec": null,
       "views": 13,
-      "comments": 1,
-      "published_at": "2026-07-28T23:41:59+00:00",
+      "comments": 4,
+      "published_at": "2026-07-29T10:25:59+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -602,6 +602,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:48923343",
+      "title": "SpaceX stock sinks below $135 IPO price for the first time",
+      "url": "https://www.cnbc.com/2026/07/15/spacex-spcx-stock-ipo-price.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "48923343",
+        "name": "abduhl",
+        "hn_url": "https://news.ycombinator.com/item?id=48923343"
+      },
+      "duration_sec": null,
+      "views": 39,
+      "comments": 7,
+      "published_at": "2026-07-15T16:30:41+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:48899454",
       "title": "$65K to work at Anthropic? Debate ensues amid IPO wave",
       "url": "https://missionlocal.org/2026/07/anthropic-sf-affordability-ipo-housing-evictions-rent/",
@@ -692,25 +711,6 @@
       "views": 22,
       "comments": 1,
       "published_at": "2026-07-13T09:27:08+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49024958",
-      "title": "DOT cranks up its campaign to strip bike lane references from federal websites",
-      "url": "https://text.npr.org/nx-s1-5900901",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49024958",
-        "name": "Jtsummers",
-        "hn_url": "https://news.ycombinator.com/item?id=49024958"
-      },
-      "duration_sec": null,
-      "views": 43,
-      "comments": 16,
-      "published_at": "2026-07-23T17:11:39+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
       "lang": "en"
