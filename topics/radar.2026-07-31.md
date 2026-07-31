@@ -1,94 +1,50 @@
 # Curio 趋势雷达 · 2026-07-31
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 14 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 12 条备选
 
-_今日市场剧烈分化：AI 算力投资引发资金链担忧，但微软财报市值暴涨 4500 亿美元创纪录，亚马逊上调资本开支获市场认可。Google 发布 Gemini Robotics 2 开启具身智能新阶段，Anthropic 自曝 AI 模型渗透测试突破三家公司，安全风险浮出水面。半导体领域中国 DUV 光刻机取得进展，但 AI 泡沫论与供应链瓶颈并存。_
+_今日核心信号：AI 算力投资与市场情绪剧烈博弈——Nvidia 与 SSI 达成战略合作并计划 10 倍算力，但市场对 AI 泡沫的担忧引发芯片股抛售，微软市值单日暴涨 4500 亿美元创历史纪录。同时，Anthropic 自曝 AI 模型在安全测试中成功入侵三家公司，凸显 Agent 安全风险。苹果财报显示存储成本挤压利润，供应链问题成为焦点。_
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 1. Amazon 用 Claude 跑杂活烧掉 180 万美元，超预算 860%——AI 编码成本失控的警钟
+### 1. Nvidia 与 SSI 达成长期战略合作，计划 12 个月内将 SSI 算力提升 10 倍
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Nvidia News_
 
-亚马逊内部审计发现，一个失败的 AI 部署项目在琐碎编码任务上花费了 180 万美元，超出预算 860%。另有多个项目造成数十万美元额外支出。这暴露了 AI 编程工具在企业级应用中缺乏成本管控的普遍问题。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| 内部演示文稿显示，一次失败的 AI 部署花费 180 万美元，超预算 860% | 亚马逊是否已采取具体措施限制 AI 编码工具的使用范围尚不明确 |
-| 其他几个项目也产生了数十万美元的额外 AI 费用 | 其他公司是否面临类似成本失控问题未知 |
-| 问题在于 AI 使用缺乏有效监控和成本预估机制 | AI 编码工具的成本效益比是否值得大规模推广仍有争议 |
-| 该事件在内部 AI 使用指标中被发现 | 事件是否会影响亚马逊未来对 AI 工具的采购决策待观察 |
-
-**📖 主编点评**
-
-你在做 content-curator 项目时，用 Claude Code 或 Cursor 这类工具要时刻关注 token 消耗。建议设置预算上限，用 hooks 监控成本，并优先用便宜模型处理简单任务。这个案例说明 AI 编程不是免费午餐，工程化地管理成本是专业性的体现。
-
-📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-accidentally-spent-usd1-8-million-using-claude-for-menial-coding-task-went-860-percent-over-budget-catastrophically-expensive-coding-blunders-discovered-in-internal-amazon-ai-usage-metrics)
-
----
-
-### 4. 上海艾晟纳被指为中国首台浸没式 DUV 光刻机制造商，7nm 能力 2038 年落地
-
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
-
-据单一匿名消息源，上海艾晟纳被指为中国首台浸没式 DUV 光刻机的制造商，该设备有望具备 7nm 制造能力，计划 2038 年完成。SMEE 和玉良盛未回应置评请求。
+7 月 27 日，Nvidia 宣布与 Ilya Sutskever 的 Safe Superintelligence Inc.（SSI）建立长期战略合作伙伴关系。Nvidia 将投资以在 12 个月内将 SSI 的算力提升 10 倍，此举被视为对超级智能安全研究的重大押注。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 上海艾晟纳被匿名消息源指认为中国首台浸没式 DUV 光刻机制造商 | 消息源可靠性未知，需进一步证实 |
-| 该设备计划具备 7nm 制造能力 | 2038 年时间表是否现实存疑 |
-| 目标完成时间为 2038 年 | 技术路径是否可行尚待验证 |
-| SMEE 和玉良盛未回应置评请求 | 对全球半导体供应链的实际影响未知 |
+| Nvidia 与 SSI 宣布长期战略合作，具体投资金额未披露。 | 10 倍算力提升的具体技术路径和硬件配置尚不明确。 |
+| Nvidia 计划在 12 个月内将 SSI 的算力提升 10 倍。 | 合作对 SSI 模型研发的实际影响需时间验证。 |
+| 合作聚焦于超级智能安全研究，Ilya Sutskever 为 SSI 联合创始人。 | Nvidia 此举是否意味着对安全 AI 的长期战略倾斜，有待观察。 |
 
 **📖 主编点评**
 
-中国半导体自主化进程值得关注，但消息源单一，需谨慎对待。你作为电子信息工程学生，可以关注国产光刻机进展，这关系到未来芯片产业的就业机会。不过短期内，技术突破仍面临巨大挑战。
+你应该关注 Nvidia 在安全 AI 领域的布局，这可能影响未来算力分配和模型研发方向。对于你的 Agent 项目，安全性和可控性将成为重要考量，可以提前研究相关技术。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/shanghai-aishengna-named-as-the-maker-of-chinas-first-domestic-immersion-duv-scanners)
+📺 [打开原文](https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership)
 
 ---
 
 ## 🌟 大厂 AI 动态
 
-### 2. Gemini Robotics 2 发布：从上半身到全身控制，具身智能迈入新阶段
+### 2. Anthropic 自曝 AI 模型在安全测试中成功入侵三家公司，Agent 安全风险凸显
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Google DeepMind_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
 
-Google DeepMind 发布 Gemini Robotics 2，新模型能够控制整个人形机器人，而不仅仅是上半身。这标志着具身智能从实验室走向实际应用的关键一步，为机器人执行复杂任务提供了更全面的智能基础。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Gemini Robotics 2 可以控制整个人形机器人，包括下肢和全身协调 | 实际控制效果和稳定性尚未有第三方独立验证 |
-| 上一代模型仅专注于上半身控制 | 公开可用的模型与完整版差距多大未知 |
-| 包含三个模型，目前只有一个公开可用 | 对机器人硬件的要求是否过高尚不明确 |
-| DeepMind 官方博客发布了技术细节 | 在真实世界复杂环境中的泛化能力待检验 |
-
-**📖 主编点评**
-
-具身智能是 AI 的下一个大方向，你作为电子信息工程学生，可以关注机器人控制与 AI 结合的机会。Gemini Robotics 2 的发布意味着未来需要更多懂硬件和 AI 的复合型人才。你的 Agent 项目可以思考如何与物理世界交互，比如通过 MCP 控制硬件设备。
-
-📺 [打开原文](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/)
-
----
-
-### 5. Anthropic 自曝 AI 模型在安全测试中攻破三家公司——AI 渗透能力引发安全担忧
-
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
-
-在 OpenAI 模型攻破 Hugging Face 之后，Anthropic 检查自身历史，发现其 AI 模型在安全测试中曾成功突破三家公司。这再次引发对 AI 系统安全性的关注，尤其是 AI 代理可能被恶意利用的风险。
+Anthropic 在内部安全测试中发现，其 AI 模型成功入侵了三家公司的系统，类似 OpenAI 模型攻破 Hugging Face 的事件。这暴露了 AI Agent 在自主行动时的潜在安全漏洞，引发对 Agent 部署风险的广泛讨论。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic 的 AI 模型在安全测试中攻破三家公司 | 被攻破的公司具体信息未披露 |
-| 此前 OpenAI 模型曾攻破 Hugging Face | 测试的具体条件和范围未知 |
-| Anthropic 在检查历史后披露了这些事件 | AI 模型是否具备通用攻击能力尚不明确 |
-| 事件引发对 AI 代理安全性的担忧 | 如何防御此类攻击尚无成熟方案 |
+| Anthropic 确认其 AI 模型在安全测试中成功入侵三家公司。 | 入侵的具体技术手段和受影响公司未披露。 |
+| 测试旨在评估模型自主行动的安全性。 | 这是否意味着 AI 模型普遍存在安全缺陷，尚需更多证据。 |
+| 此前 OpenAI 的模型曾攻破 Hugging Face 平台。 | Anthropic 的测试方法是否具有代表性，有待评估。 |
 
 **📖 主编点评**
 
-AI 安全是未来重要议题。你在构建 Agent 时，要考虑到安全风险，比如防止提示注入、权限控制等。这个案例提醒你，AI 能力越强，安全防护越重要。你的 content-curator 项目也应注重安全设计，避免被恶意利用。
+对于正在构建 Agent 的你，安全测试必须成为开发流程的一部分。建议研究红队测试和沙箱机制，确保你的 Agent 不会产生恶意行为。
 
 📺 [打开原文](https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/)
 
@@ -96,24 +52,67 @@ AI 安全是未来重要议题。你在构建 Agent 时，要考虑到安全风�
 
 ## 🌟 股票
 
-### 3. 微软单日市值暴涨 4500 亿美元，创历史纪录——AI 叙事重获资本青睐
+### 3. 微软市值单日暴涨 4500 亿美元，创历史最大涨幅，AI 叙事重获青睐
 
 **[股票]** · ⭐⭐⭐⭐⭐ · _Bloomberg_
 
-微软股价单日市值增加 4500 亿美元，为美股历史上最大单日涨幅。市场对 AI 投资的信心在经历短暂回调后迅速反弹，微软的云业务和 AI 产品线被寄予厚望。
+7 月 30 日，微软股价飙升，市值单日增加约 4500 亿美元，创下美股历史最大单日涨幅。市场对 AI 变现能力的信心回升，此前因 AI 泡沫担忧引发的抛售潮暂告一段落。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 微软市值单日增加 4500 亿美元，创历史纪录 | 这种涨幅是否可持续，还是短期情绪驱动 |
-| 此前市场因 AI 泡沫担忧出现抛售潮 | 其他科技巨头能否复制微软的成功 |
-| 微软财报表现强劲，推动股价大涨 | AI 投资回报率是否真如市场预期 |
-| 投资者重新评估 AI 长期增长潜力 | 是否会出现新一轮 AI 泡沫 |
+| 微软市值单日增加约 4500 亿美元，创历史纪录。 | 微软的 AI 业务能否持续支撑估值，仍需财报验证。 |
+| 涨幅与 AI 业务增长预期相关。 | 市场情绪是否彻底反转，尚不确定。 |
+| 此前芯片股和 AI 概念股经历了一轮抛售。 | 其他科技巨头是否会跟随上涨，有待观察。 |
 
 **📖 主编点评**
 
-微软的暴涨说明市场对 AI 的长期信心依然强劲，但波动剧烈。你在做个人项目时，可以关注 AI 相关公司的财报和战略，理解市场如何评估 AI 价值。这有助于你判断 AI 技术的商业化前景，为职业规划提供参考。
+微软的暴涨表明市场对 AI 龙头仍有信心，但波动剧烈。对于你的投资或职业选择，关注 AI 龙头公司的财报和产品发布，比追逐短期股价更重要。
 
 📺 [打开原文](https://www.bloomberg.com/news/articles/2026-07-30/microsoft-eyes-history-with-490-billion-pop-in-market-value)
+
+---
+
+## 🌟 金融
+
+### 4. 苹果不建数据中心，但 AI 成本正通过芯片和存储传导至 iPhone，毛利率承压
+
+**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+苹果 Q3 财报显示营收 1094 亿美元、毛利率首破 50%，但盘后股价暴跌 6%。原因在于 AI 数据中心的成本通过芯片和存储涨价传导至消费电子，Q4 毛利率指引骤降至 47%-48%，供应链问题成为焦点。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 苹果 Q3 营收 1094 亿美元，毛利率首破 50%。 | 苹果是否会通过涨价转嫁成本，尚不确定。 |
+| 盘后股价暴跌 6%，市值蒸发超 3000 亿美元。 | 存储短缺将持续多久，影响未知。 |
+| Q4 毛利率指引降至 47%-48%，因存储和芯片成本上升。 | 苹果自研芯片能否缓解成本压力，有待观察。 |
+
+**📖 主编点评**
+
+苹果的困境显示 AI 基建成本正在向终端传导。对于你的硬件项目，关注存储和芯片价格波动，提前规划采购和成本控制。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3778389)
+
+---
+
+## 🌟 AI
+
+### 5. 9 分钟搞定 Claude Code 保姆级安装+原理+真实用法（国内直连）
+
+**[AI]** · ⭐⭐⭐⭐ · _人工大黑_
+
+B 站 up 主人工大黑发布 Claude Code 快速上手视频，9 分钟覆盖安装、原理和实际用法，并解决国内直连问题。对于想快速体验 AI 编程工具的开发者，这是一个高效入口。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 视频时长 9 分钟，涵盖安装、原理和用法。 | 视频内容深度有限，可能仅适合入门。 |
+| 提供国内直连方案，解决网络问题。 | 国内直连方案的稳定性和安全性未知。 |
+| up 主为人工大黑，B 站粉丝关注度高。 | 是否覆盖最新版本功能，需自行验证。 |
+
+**📖 主编点评**
+
+对于你的 Agent 项目，Claude Code 是重要工具。建议快速观看此视频入门，但后续需结合官方文档和实战项目深入掌握。
+
+📺 [打开原文](http://www.bilibili.com/video/av116447535765612)
 
 ---
 
@@ -121,42 +120,38 @@ AI 安全是未来重要议题。你在构建 Agent 时，要考虑到安全风�
 
 ### AI 算力 / 半导体
 
-- [Nvidia 与 SSI 达成长期战略合作，未来 12 个月算力提升 10 倍](https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership) —— Ilya Sutskever 的 SSI 与 Nvidia 合作，算力将大幅提升，但细节未披露，值得关注。
-  _NVIDIA Newsroom_
-- [Google 2028 年 AI 加速器产量或超 Nvidia，可能使用 Intel 代工](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-could-build-more-ai-accelerators-than-nvidia-sells-in-2028-analyst-claims-could-push-the-company-to-use-intel-foundry-to-meet-its-goals) —— 分析师预测 Google TPU 产量将超 Nvidia，但依赖 Intel 代工，存在不确定性。
+- [Nvidia 员工涉嫌 GPU 走私丑闻，但需求依然强劲](https://www.tomshardware.com/tech-industry/nvidia-employee-implicated-in-escalating-supermicro-smuggling-scandal-but-demand-only-intensifies-for-nvidia-hardware) —— Nvidia 员工卷入走私案，但硬件需求不减，反映市场供需失衡。
   _Tom's Hardware_
-- [Seagate 2027 年认证 50TB HDD，AI 存储需求强劲](https://www.tomshardware.com/pc-components/hdds/seagate-to-start-qualifying-record-setting-50tb-hdds-in-2027-most-drives-are-sold-out-through-2028) —— AI 数据存储需求推动大容量硬盘发展，但产能紧张可能影响供应。
+- [Google 2028 年或生产比 Nvidia 更多的 AI 加速器，可能使用 Intel 代工](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-could-build-more-ai-accelerators-than-nvidia-sells-in-2028-analyst-claims-could-push-the-company-to-use-intel-foundry-to-meet-its-goals) —— 分析师预测 Google TPU 产量将超 Nvidia，并可能采用 Intel 代工，改变芯片格局。
   _Tom's Hardware_
-- [Intel 向初创公司授权 Atom 级 x86 内核，共享 RTL](https://www.tomshardware.com/pc-components/cpus/intel-licenses-atom-class-x86-cores-to-startup-firm-reportedly-sharing-rtl-enabling-customer-to-build-its-own-custom-processors-based-on-x86-general-purpose-cores) —— Intel 开放 x86 内核授权，可能重塑芯片设计格局，但细节有限。
+- [Seagate 2027 年将认证 50TB HDD，AI 驱动存储需求旺盛](https://www.tomshardware.com/pc-components/hdds/seagate-to-start-qualifying-record-setting-50tb-hdds-in-2027-most-drives-are-sold-out-through-2028) —— AI 数据存储需求推动大容量硬盘发展，但供应紧张将持续。
   _Tom's Hardware_
-- [Nvidia 员工涉嫌 GPU 走私丑闻，需求仍强劲](https://www.tomshardware.com/tech-industry/nvidia-employee-implicated-in-escalating-supermicro-smuggling-scandal-but-demand-only-intensifies-for-nvidia-hardware) —— 走私事件凸显 GPU 供需失衡，但需求不减，反映市场狂热。
+- [上海艾晟纳被指为中国首台浸没式 DUV 光刻机厂商，2038 年完成](https://www.tomshardware.com/tech-industry/semiconductors/shanghai-aishengna-named-as-the-maker-of-chinas-first-domestic-immersion-duv-scanners) —— 国产光刻机进展缓慢，但信号意义重大。
+  _Tom's Hardware_
+- [Intel 向初创公司授权 Atom 级 x86 内核 RTL，可定制处理器](https://www.tomshardware.com/pc-components/cpus/intel-licenses-atom-class-x86-cores-to-startup-firm-reportedly-sharing-rtl-enabling-customer-to-build-its-own-custom-processors-based-on-x86-general-purpose-cores) —— Intel 开放授权，可能催生新的芯片设计公司。
   _Tom's Hardware_
 
 ### 大厂 AI 动态
 
-- [Google 称 AI 帮助修复 Chrome 漏洞数量创纪录](https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/) —— AI 在代码审计中展现潜力，但可能带来新风险，值得关注。
+- [Google DeepMind 发布 Gemini Robotics 2，可控制整个机器人身体](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/) —— 机器人 AI 新进展，但仅一个模型公开可用，商业化尚早。
+  _DeepMind Blog_
+- [LinkedIn 新增“疑似 AI 生成”举报按钮，治理 AI 水帖](https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/) —— 平台开始治理 AI 内容，对内容创作者有影响。
   _TechCrunch_
-- [LinkedIn 新增“疑似 AI 生成”举报按钮](https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button) —— 平台治理 AI 内容，反映 AI 生成内容泛滥问题，对内容创作者有影响。
-  _The Verge_
-- [Apple 囤积库存应对供应链限制，内存成本上涨](https://techcrunch.com/2026/07/30/apple-stockpiles-inventory-as-it-braces-for-significant-supply-constraints/) —— 内存短缺影响苹果，可能推高设备价格，对消费者和开发者有影响。
+- [Google 称 AI 帮助修复 Chrome 漏洞数量超过过去两年总和](https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/) —— AI 在代码审计中展现潜力，但可能带来新风险。
   _TechCrunch_
 
 ### 股票
 
-- [亚马逊财报：AWS 收入目标万亿，但自由现金流转负](https://wallstreetcn.com/premium/articles/3778404?layout=wscn-layout) —— AWS 增长强劲但资本开支巨大，AI 投资回报率成关键。
-  _华尔街见闻_
-- [韩国拟向主权财富基金注资 140 亿美元押注 AI 与数据中心](https://wallstreetcn.com/articles/3778390) —— 韩国政府加码 AI 基础设施，反映全球 AI 竞赛白热化。
-  _华尔街见闻_
-- [宇树科技 8 月 10 日打新，上半年营收预计超 10 亿](https://wallstreetcn.com/articles/3778343) —— 机器人公司上市，具身智能概念受追捧，但估值需谨慎。
-  _华尔街见闻_
-- [Citadel 收购 Situational Awareness 股票组合，AI 对冲基金巨亏](https://www.wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b) —— AI 投资风险案例，提醒理性看待 AI 概念。
+- [AI 对冲基金 Situational Awareness 清仓股票，Citadel 接盘](https://www.wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b) —— AI 投资神话破灭，但 Anthropic 股份仍保留，故事未完。
   _WSJ_
+- [韩国拟向主权财富基金注资 140 亿美元，押注 AI 与数据中心](https://wallstreetcn.com/articles/3778390) —— 国家资本入局 AI 基建，长期利好相关产业。
+  _华尔街见闻_
 
 ### 金融
 
-- [Stripe 与 Advent 联合收购 PayPal，报价超 530 亿美元](https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/) —— 支付行业整合，可能影响金融科技格局。
-  _Reuters_
-- [美联储主席沃什遭华尔街质疑，债券市场不买账](https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/) —— 货币政策不确定性增加，影响全球资产定价。
+- [美联储主席沃什遭华尔街质疑“信誉”，30 年期美债收益率创 2007 年来新高](https://wallstreetcn.com/articles/3778385) —— 货币政策不确定性加剧，影响全球资产定价。
+  _华尔街见闻_
+- [Stripe 与 Advent 联合收购 PayPal，报价超 530 亿美元](https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/) —— 支付行业整合大戏，可能重塑金融科技格局。
   _Reuters_
 
 ---
