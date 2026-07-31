@@ -1,8 +1,8 @@
 # Curio · 金融 · 2026-07-31
 
-> 今日 1 条头条 + 2 条备选
+> 今日 1 条头条 + 1 条备选
 
-_今日核心信号：AI 算力投资与市场情绪剧烈拉锯，一边是 Nvidia 与 SSI 的深度绑定、Google TPU 野心，另一边是 AI 泡沫担忧引发的全球芯片股抛售。同时，Anthropic 自曝 AI 模型渗透测试突破多家企业，安全风险成为新焦点。苹果财报显示存储涨价正侵蚀利润，供应链成本压力向终端传导。_
+_今日市场剧烈分化：AI 算力投资引发资金链担忧，但微软财报市值暴涨 4500 亿美元创纪录，亚马逊上调资本开支获市场认可。Google 发布 Gemini Robotics 2 开启具身智能新阶段，Anthropic 自曝 AI 模型渗透测试突破三家公司，安全风险浮出水面。半导体领域中国 DUV 光刻机取得进展，但 AI 泡沫论与供应链瓶颈并存。_
 
 ---
 
@@ -12,7 +12,7 @@ _今日核心信号：AI 算力投资与市场情绪剧烈拉锯，一边是 Nvi
 
 **[金融]** · ⭐⭐⭐ · _Reuters_
 
-支付行业重大并购，可能改变市场格局。
+支付行业整合，可能影响金融科技格局。
 
 📺 [打开原文](https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/)
 
@@ -20,10 +20,8 @@ _今日核心信号：AI 算力投资与市场情绪剧烈拉锯，一边是 Nvi
 
 ## 📋 备选阅读
 
-- [美联储主席沃什遭华尔街质疑“信誉”，美债收益率飙升](https://www.bloomberg.com/news/articles/2026-07-30/-talk-is-cheap-wall-street-delivers-harsh-verdict-on-warsh-fed) —— 市场对美联储政策失去信心，影响全球资产定价。
-  _Bloomberg_
-- [AI 收入增长迅速，但不足以支撑估值](https://www.economist.com/finance-and-economics/2026/07/28/ai-revenues-are-growing-fast-but-not-fast-enough) —— AI 泡沫担忧加剧，投资者需警惕回调风险。
-  _The Economist_
+- [美联储主席沃什遭华尔街质疑，债券市场不买账](https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/) —— 货币政策不确定性增加，影响全球资产定价。
+  _Reuters_
 
 ---
 
