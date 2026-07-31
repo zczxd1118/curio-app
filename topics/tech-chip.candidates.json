@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-07-30T05:49:29.788160+00:00",
+  "fetched_at": "2026-07-31T06:19:48.154130+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,13 +10,13 @@
   "source_stats": {
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
-    "HN · TSMC": 2,
+    "HN · TSMC": 1,
     "HN · Nvidia": 6,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 29,
+  "total": 28,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/space-grown-semiconductors-the-next-frontier-for-ai-compute/",
+      "title": "AI Is Compressing Software; Space Is Building the Physical Economy",
+      "url": "https://www.eetimes.com/space-grown-semiconductors-the-next-frontier-for-ai-compute/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Zaheer Ali",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-30T21:03:54+00:00",
+      "summary": "AI is squeezing software jobs; space and semiconductors are where tech turns physical. The post AI Is Compressing Software; Space Is Building the Physical Economy appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/why-qualcomm-bought-an-open-ai-software-stack/",
+      "title": "Why Qualcomm Bought An Open AI Software Stack",
+      "url": "https://www.eetimes.com/why-qualcomm-bought-an-open-ai-software-stack/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-30T14:43:40+00:00",
+      "summary": "Modular says Qualcomm is committed to keeping Mojo and Max hardware-agnostic as heterogeneous AI infrastructure moves from theory to reality. The post Why Qualcomm Bought An Open AI Software Stack appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/nidec-positions-precision-reducers-for-cobots-humanoids-and-automation/",
+      "title": "Nidec Positions Precision Reducers for Cobots, Humanoids, and Automation",
+      "url": "https://www.eetimes.com/nidec-positions-precision-reducers-for-cobots-humanoids-and-automation/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nidec",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-30T13:00:00+00:00",
+      "summary": "Discover Nidec's gear reducer solutions offering precise gear alignment, and low backlash for smooth, reliable operation under load. The post Nidec Positions Precision Reducers for Cobots, Humanoids, and Automation appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/indian-startup-vimag-labs-develops-wirelessly-excited-motor-without-rare-earth-magnets/",
+      "title": "Indian Startup Vimag Labs Develops Wirelessly Excited Motor Without Rare-Earth Magnets",
+      "url": "https://www.eetimes.com/indian-startup-vimag-labs-develops-wirelessly-excited-motor-without-rare-earth-magnets/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-30T07:00:00+00:00",
+      "summary": "Vimag Labs ditches rare-earth magnets with a wirelessly excited EV motor claiming PMSM-level punch. The post Indian Startup Vimag Labs Develops Wirelessly Excited Motor Without Rare-Earth Magnets appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/iot-tech-expo-europe-returns-to-amsterdam-as-industrial-ai-and-edge-intelligence-reshape-connected-industry/",
       "title": "IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Reshape Connected Industry",
       "url": "https://www.eetimes.com/iot-tech-expo-europe-returns-to-amsterdam-as-industrial-ai-and-edge-intelligence-reshape-connected-industry/",
@@ -202,7 +270,7 @@
       "duration_sec": null,
       "views": null,
       "published_at": "2026-07-30T00:42:04+00:00",
-      "summary": "https://www.iottechexpo.com/europe/ From autonomous factories and AI-powered robots to connected vehicles and smart cities, organizations are entering a new era where connected systems are expected not only to collect data, but also to analyze, decide, and act in real time. As Industrial IoT continues to evolve, the focus has shifted beyond deploying connected devices. Today&#8217;s challenge [&#8230;] The post IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Resh...",
+      "summary": "From autonomous factories and AI-powered robots to connected vehicles and smart cities, organizations are entering a new era where connected systems are expected not only to collect data, but also to analyze, decide, and act in real time. As Industrial IoT continues to evolve, the focus has shifted beyond deploying connected devices. Today&#8217;s challenge is [&#8230;] The post IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Reshape Connected Industry appeared f...",
       "lang": "en"
     },
     {
@@ -270,7 +338,7 @@
       "duration_sec": null,
       "views": null,
       "published_at": "2026-07-29T12:50:29+00:00",
-      "summary": "Date: Wednesday, August 19, 2026 or Wednesday, August 26, 2026 This webcast will explain how and why Easy Drive SAR ADCs from Analog Devices can deliver the precision you need without the headache of high-speed ADC driver amplifiers. Join us&#160;for this webcast, where our expert will begin with an overview of why conventional SAR ADCs have historically [&#8230;] The post Designing Efficient Signal Chains with Easy Drive ADCs appeared first on EE Times.",
+      "summary": "Date: Wednesday, August 19, 2026&#160;or&#160;Wednesday, August 26, 2026 This webcast will explain how and why Easy Drive SAR ADCs from Analog Devices can deliver the precision you need without the headache of high-speed ADC driver amplifiers. Join us&#160;for this webcast, where our expert will begin with an overview of why conventional SAR ADCs have historically [&#8230;] The post Designing Efficient Signal Chains with Easy Drive ADCs appeared first on EE Times.",
       "lang": "en"
     },
     {
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/microchip-acquires-edge-ai-chip-startup-hailo/",
-      "title": "Microchip Acquires Edge AI Chip Startup Hailo",
-      "url": "https://www.eetimes.com/microchip-acquires-edge-ai-chip-startup-hailo/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T17:04:30+00:00",
-      "summary": "Return to playbook for the acquisition-driven embedded giant. The post Microchip Acquires Edge AI Chip Startup Hailo appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/how-to-build-a-100gbps-server-grade-aoi-platform-for-next-generation-semiconductor-inspection/",
-      "title": "How to Build a 100Gbps Server-Grade AOI Platform for Next-Generation Semiconductor Inspection",
-      "url": "https://www.eetimes.com/how-to-build-a-100gbps-server-grade-aoi-platform-for-next-generation-semiconductor-inspection/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "ADLINK",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T14:00:00+00:00",
-      "summary": "Discover how to overcome the bandwidth, scalability, thermal, and system integration challenges of modern AI-powered AOI. This white paper explains how server-grade architecture, high-speed frame grabbers, and GPU computing enable reliable 100Gbps image acquisition for advanced semiconductor inspection. The post How to Build a 100Gbps Server-Grade AOI Platform for Next-Generation Semiconductor Inspection appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/vibe-coding-in-safety-critical-software-promise-pitfalls-and-a-path-forward/",
-      "title": "Vibe Coding in Safety-Critical Software: Promise, Pitfalls, and a Path Forward",
-      "url": "https://www.eetimes.com/vibe-coding-in-safety-critical-software-promise-pitfalls-and-a-path-forward/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Miroslaw Zielinski, director of product management, Parasoft.",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T13:52:38+00:00",
-      "summary": "Vibe coding can’t fly solo in safety-critical software; demand deterministic gates, human review, and proof before trusting AI-generated code. The post Vibe Coding in Safety-Critical Software: Promise, Pitfalls, and a Path Forward appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/will-purging-chinese-tech-cost-europe-its-digital-future/",
-      "title": "Will Purging Chinese Tech Cost Europe Its Digital Future?",
-      "url": "https://www.eetimes.com/will-purging-chinese-tech-cost-europe-its-digital-future/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-28T08:19:26+00:00",
-      "summary": "The EU faces challenges in building its digital defenses, as the cost of replacing Chinese telecom equipment across Europe could reach $46 billion. The post Will Purging Chinese Tech Cost Europe Its Digital Future? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -373,25 +373,6 @@
       "views": 32,
       "comments": 6,
       "published_at": "2026-07-21T13:40:51+00:00",
-      "summary": "",
-      "matched_keyword": "TSMC",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48734960",
-      "title": "Etched has officially come out of stealth",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-30/ai-chip-startup-etched-says-jane-street-tsmc-linked-vc-invested",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48734960",
-        "name": "seventeen29",
-        "hn_url": "https://news.ycombinator.com/item?id=48734960"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 2,
-      "published_at": "2026-06-30T16:21:13+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
       "lang": "en"
