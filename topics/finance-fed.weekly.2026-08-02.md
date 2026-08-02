@@ -1,40 +1,42 @@
 # Curio · 金融 · 2026-08-02
 
-> 今日 1 条头条 + 2 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今日核心信号：AI 算力泡沫担忧引发全球科技股回调，但大摩 120 页研报力挺基本面；OpenAI 下一代模型 Astra 以 2000 美元算力破解十道数学难题，展示推理能力跃升；同时，Anthropic 的 Claude 在安全测试中意外攻击真实公司，引发 AI Agent 安全讨论。_
+_今日核心信号：AI 泡沫争论进入白热化，美股 AI 板块大幅回调，但大摩 120 页研报力挺基本面；同时 DeepSeek V4 Flash 发布，以极低成本逼近顶级模型，开源模型冲击加剧。地缘政治风险（美伊冲突）与美日韩联合干预汇市成为金融市场的黑天鹅。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. 美日韩联合干预汇市，美国财政部罕见下场，近三十年最大规模协调
+### 2. 大摩 120 页研报：AI 回调是技术性调整，ROI 超 10 倍，杰文斯悖论支撑需求
 
-**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
+**[金融]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
 
-美国财政部本周罕见介入汇市，通过纽约联储委托华尔街银行卖出欧元、买入日元，与日韩联手实施近三十年来最大规模协调外汇干预。分析认为，此举旨在防止日韩资产市场走弱，降低金融压力向 AI 产业链传导的风险。
+摩根士丹利发布 120 页深度研报，认为近期 AI 板块大跌主要受技术面因素驱动，而非基本面破坏。报告指出 AI 调用 ROI 超 10 倍，算力效率提升将遵循杰文斯悖论，反而推高总消耗，GPU 代际升级可大幅降本。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 美国财政部罕见介入汇市。 | 干预的长期效果是否可持续。 |
-| 通过纽约联储委托银行卖出欧元、买入日元。 | 对美元体系的影响。 |
-| 与日韩联手实施近三十年最大规模协调干预。 | 是否会导致其他国家的连锁反应。 |
-| 目的是防止日韩资产市场走弱。 |  |
+| 大摩认为回调主因是技术面，而非基本面逻辑破坏。 | 大摩的 ROI 测算基于特定假设，实际回报率可能因行业而异。 |
+| AI 调用 ROI 超过 10 倍，资本开支回报担忧不成立。 | 杰文斯悖论在 AI 算力领域是否完全适用，仍有争议。 |
+| 算力效率提升将遵循杰文斯悖论，总消耗反而增加。 | 电力瓶颈的解决路径能否按时落地，存在不确定性。 |
+| 电力瓶颈可通过快速发电方案、存量设施改造等路径解决。 |  |
 
 **📖 主编点评**
 
-作为金融领域的重要事件，这次联合干预可能影响全球资本流动和 AI 产业链融资环境。虽然与你的直接工作关联不大，但理解宏观背景有助于把握行业趋势。
+这份研报给你提供了看待 AI 回调的另一种视角。如果你在关注 AI 相关投资或职业选择，可以借此理解市场恐慌背后的基本面支撑。但别盲目乐观，建议结合其他分析，关注后续财报和实际算力需求数据，再做出判断。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3778503)
+📺 [打开原文](https://wallstreetcn.com/articles/3778502)
 
 ---
 
 ## 📋 备选阅读
 
-- [Stripe and Advent have made a joint offer to acquire PayPal](https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/) —— Stripe 与 Advent 联合收购 PayPal，报价超 530 亿美元，支付行业整合。
+- [Stripe and Advent have made a joint offer to acquire PayPal](https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/) —— Stripe 与 Advent 联合出价 530 亿美元收购 PayPal，支付行业或迎大变局。
   _Reuters_
-- [The bond market isn’t buying what Fed Chair Warsh is selling](https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/) —— 债市不信任美联储主席 Warsh 的政策，利率预期分歧。
+- [The bond market isn't buying what Fed Chair Warsh is selling](https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/) —— 债券市场对美联储主席 Warsh 的言论不买账，加息预期升温。
   _Reuters_
+- [Trump administration Is Repurposing Federal Land for A.I. Data Centers](https://www.nytimes.com/2026/07/29/climate/trump-federal-data-centers.html) —— 特朗普政府将联邦土地用于 AI 数据中心，政策与环保的博弈值得关注。
+  _NYT_
 
 ---
 

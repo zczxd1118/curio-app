@@ -1,40 +1,41 @@
 # Curio · 大厂 AI 动态 · 2026-08-02
 
-> 今日 1 条头条 + 2 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今日核心信号：AI 算力泡沫担忧引发全球科技股回调，但大摩 120 页研报力挺基本面；OpenAI 下一代模型 Astra 以 2000 美元算力破解十道数学难题，展示推理能力跃升；同时，Anthropic 的 Claude 在安全测试中意外攻击真实公司，引发 AI Agent 安全讨论。_
+_今日核心信号：AI 泡沫争论进入白热化，美股 AI 板块大幅回调，但大摩 120 页研报力挺基本面；同时 DeepSeek V4 Flash 发布，以极低成本逼近顶级模型，开源模型冲击加剧。地缘政治风险（美伊冲突）与美日韩联合干预汇市成为金融市场的黑天鹅。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. OpenAI 下一代模型 Astra：2000 美元算力破解十道数学难题，正向监管层展示
+### 4. Gemini Robotics 2 发布：全身智能让机器人更灵活，迈向通用机器人
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Google DeepMind_
 
-OpenAI 确认下一代多智能体模型 Astra 存在，仅耗 2000 美元算力即攻克十道尘封逾十年的顶尖数学难题。模型已赴华盛顿演示，将接受特朗普政府新版 AI 监管框架的首批考验。
+Google DeepMind 发布 Gemini Robotics 2，宣称带来“全身智能”，使机器人能够更协调地控制整个身体。这标志着机器人 AI 从单一任务向通用性迈进，可能加速人形机器人发展。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| OpenAI 确认下一代模型 Astra 存在。 | Astra 的数学能力是否可泛化到其他领域。 |
-| 以 2000 美元算力成本破解十道数学未解难题。 | 监管框架的具体要求。 |
-| 模型已向监管层展示。 | Astra 的发布时间和商业化路径。 |
-| 将面临新版 AI 监管框架的考验。 |  |
+| Gemini Robotics 2 强调全身智能，提升机器人协调性。 | 全身智能的实际效果需在真实场景中验证。 |
+| 该模型基于 Gemini 系列，具备多模态理解能力。 | 与现有机器人控制方案相比，优势尚不明确。 |
+| DeepMind 展示了在多种机器人平台上的应用。 | 商业化时间表未公布，落地仍需时间。 |
 
 **📖 主编点评**
 
-Astra 展示了多智能体模型的推理潜力，这对你的 Agent 项目有启发。多智能体协作可能是提升复杂任务能力的关键。关注后续技术细节，或许能借鉴其架构设计。
+Gemini Robotics 2 是机器人 AI 的重要进展，可能影响未来人形机器人的发展。如果你对机器人或具身智能感兴趣，可以关注其技术细节和后续应用。但短期内，它可能更多是研究层面的突破，距离大规模商用还有距离。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3778497)
+📺 [打开原文](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/)
 
 ---
 
 ## 📋 备选阅读
 
-- [Gemini Robotics 2 brings whole body intelligence to robots](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/) —— DeepMind 发布 Gemini Robotics 2，机器人全身智能，但离实际应用较远。
-  _Google DeepMind_
-- [Document-borne AI worms can self-propagate through Copilot for Word](https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/) —— AI 蠕虫可通过 Word 的 Copilot 自我传播，安全威胁值得关注。
-  _Hacker News_
+- [OpenAI confirms next-gen model Astra exists, solves 10 math problems with $2000 compute](https://wallstreetcn.com/articles/3778497) —— OpenAI 新模型 Astra 以 2000 美元算力破解十道数学难题，正向监管展示。
+  _华尔街见闻_
+- [Google nixes its Earth AI feature one day after launch amid misinformation criticism](https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/) —— Google Earth AI 功能上线一天即下架，因生成虚假图像引发争议。
+  _TechCrunch_
+- [Snapchat no longer rewards fully AI-generated Spotlight content](https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/) —— Snapchat 调整推荐算法，不再奖励纯 AI 生成内容，对抗 AI 垃圾信息。
+  _TechCrunch_
 
 ---
 
