@@ -2,24 +2,233 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-08-01T06:05:30.375736+00:00",
+  "fetched_at": "2026-08-02T06:08:52.551679+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 20,
-    "HN · stock market": 20,
+    "HN · stock market": 21,
     "HN · IPO": 10,
-    "HN · earnings": 1,
+    "HN · earnings": 2,
     "HN · Federal Reserve": 1,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 71,
+  "total": 73,
   "items": [
+    {
+      "id": "wscn:3778504",
+      "title": "TACO！特朗普“取消对伊朗打击”，伊朗否认曾要求停火，沙特王储曾致电美方“敦促缓和局势”",
+      "url": "https://wallstreetcn.com/articles/3778504",
+      "summary": "特朗普称，在伊朗及多个中东国家请求下，美方同意取消军事打击，并推动协议框架落地。此前，美以一度准备扩大对伊行动，伊朗亦释放强硬信号并制定反击方案，目标包括以色列关键基础设施、中东地区美国能源设施及相关目标。沙特、阿联酋、卡塔尔等海湾国家担忧冲突外溢并紧急介入斡旋，军事升级风险暂时缓解。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-02T05:49:05+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778503",
+      "title": "被“忽略”的市场大事：美日韩联合干预，美国财政部“罕见”下场！贝森特悄悄“救市”？",
+      "url": "https://wallstreetcn.com/articles/3778503",
+      "summary": "美国财政部本周罕见介入汇市，通过纽约联储委托华尔街银行卖出欧元、买入日元，与日韩联手实施近三十年来最大规模协调外汇干预。 分析认为，此举背后已超越单纯汇率维稳，核心在于防止日本、韩国资产市场进一步走弱，降低金融压力向AI产业链传导的风险。美国通过非美元交易方式介入日元，也意在转移对美元的压力，避免美元体系承受额外冲击。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-02T05:44:22+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778502",
+      "title": "怎么看待AI大回调，大摩120页研报深度解读",
+      "url": "https://wallstreetcn.com/articles/3778502",
+      "summary": "摩根士丹利指出，回调的主要驱动力是技术面因素，而非基本面逻辑破坏。市场对Token需求和高额资本开支回报的担忧不成立：AI调用ROI超10倍，且算力效率提升将遵循杰文斯悖论，反而推高总消耗，GPU代际升级可大幅降本。供给端“电力瓶颈”虽存，但快速发电方案、存量设施改造等去瓶颈路径可解。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-02T03:04:02+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778433",
+      "title": "下周重磅日程：美国非农与中国CPI、SpaceX首份财报+解禁、AMD闪迪财报",
+      "url": "https://wallstreetcn.com/articles/3778433",
+      "summary": "SpaceX首份季报发布两天后1160亿美元限售股解禁来袭；DeepSeek-V4-Pro正式版“尽快发布”。宏观方面，美国非农将定价9月降息预期，中国7月CPI/PPI检验物价走向。此外，Ai 4、FMS闪存峰会等AI大会叠加，三星HBM4E路线图或发布。财报方面，AMD、闪迪、西部数据等密集放榜，宇树科技启动IPO询价，比亚迪人形机器人实体亮相。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-02T02:02:33+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778498",
+      "title": "四大行5年期大额存单集体回归，最高利率1.6%",
+      "url": "https://wallstreetcn.com/articles/3778498",
+      "summary": "8月1日，工商银行上架2026年第一期、第二期5年期个人大额存单，年化利率分别为1.60%和1.55...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-02T01:18:13+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3777747",
+      "title": "口服环肽元年：百亿美元新赛道，颠覆性技术有望重构慢病范式？",
+      "url": "https://wallstreetcn.com/premium/articles/3777747?layout=wscn-layout",
+      "summary": "全球环肽研发管线从2021年的72项扩至93项，BD交易总额在2026年上半年已达61.7亿美元，创历史新高。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-02T01:17:53+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778501",
+      "title": "美以拟周末对伊朗能源基础设施实施“猛烈轰炸” ，瞄准发电厂、炼油厂，伊朗：全面反击方案已就绪",
+      "url": "https://wallstreetcn.com/articles/3778501",
+      "summary": "美以正计划对伊朗能源设施发动“迄今最猛烈的轰炸”，行动或持续整个周末，打击目标涵盖发电厂、炼油厂等伊朗能源基础设施。其中，切断伊朗首都德黑兰电力供应的打击方案也在讨论范围。伊朗外交部同日声明决心继续抵抗，并已制定全面反击方案，反击目标包括以色列关键基础设施和中东地区美国能源设施。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-02T00:46:54+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778355",
+      "title": "超级厄尔尼诺来袭：7000亿美元只是开始，更大冲击或在明年",
+      "url": "https://wallstreetcn.com/premium/articles/3778355?layout=wscn-layout",
+      "summary": "超级厄尔尼诺风险升温，或造成2026年经济损失7000亿美元，推升通胀，扰动航运，加剧贸易保护冲击。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-01T23:37:21+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778400",
+      "title": "美日双方联合干预：日元暴涨3.5%会否仍是昙花一现？",
+      "url": "https://wallstreetcn.com/premium/articles/3778400?layout=wscn-layout",
+      "summary": "美日联合干预虽短期见效并确立底部，但日元中长期趋势难逆转，后市或宽幅震荡。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-01T23:14:45+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778499",
+      "title": "个人贷款综合融资成本明示新规8月1日起施行，多家机构提前公示",
+      "url": "https://wallstreetcn.com/articles/3778499",
+      "summary": "8月1日，《个人贷款业务明示综合融资成本规定》正式施行。\n根据规定，贷款人开展个人贷款业务时，应当向...",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-01T13:53:07+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778479",
+      "title": "单日7.2万亿韩元，外资周五净买入创纪录！华尔街：韩股资金面逆风已经消退",
+      "url": "https://wallstreetcn.com/articles/3778479",
+      "summary": "7月31日韩国KOSPI股市创下外资单日净买入7.2万亿韩元的历史新高，月度抛售压力大幅收窄，国内养老金亦由卖转买。同时监管提高单股杠杆ETF门槛以抑制波动。花旗据此认为资金面逆风已转为顺风，维持KOSPI指数10000点目标位不变。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-01T11:50:07+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778496",
+      "title": "卡塔尔LNG船霍尔木兹海峡遭袭失控，中东局势骤然升温",
+      "url": "https://wallstreetcn.com/articles/3778496",
+      "summary": "一艘载有卡塔尔货物的液化天然气运输船在通过霍尔木兹海峡时遭到投射物击中。英国海事贸易行动办公室表示，该船在阿曼东北方约11海里处遭不明投射物击中，发动机舱受损，船只目前失去控制，暂无人员伤亡或环境污染报告。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-01T11:48:35+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778497",
+      "title": "OpenAI确认下一代模型Astra存在，以2000美元算力成本破解十项数学未解难题，正向监管层展示",
+      "url": "https://wallstreetcn.com/articles/3778497",
+      "summary": "OpenAI酝酿全新多智能体模型Astra，仅耗两千美元算力，即史无前例攻克十道尘封逾十年的顶尖数学难题。该模型现已赴华盛顿演示，即将迎来特朗普政府新版AI监管框架的首批大考。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-01T11:46:16+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778494",
+      "title": "高盛：7月砸穿拥挤交易，美股牛市没断但更难做了",
+      "url": "https://wallstreetcn.com/articles/3778494",
+      "summary": "7月美股指数表面稳如泰山，底层却遭遇惊心动魄的仓位大血洗。最拥挤的AI与动量交易惨遭去杠杆重锤，市场逻辑正从“狂热叙事”回归“真实回报”。牛市并未出局，但“买入即躺赢”的时代已落幕。前路颠簸，市场不再宽恕杠杆。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-01T10:30:21+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778295",
+      "title": "16个月压缩成3个月，中国新型烟草真的要按下“加速键”了吗？",
+      "url": "https://wallstreetcn.com/premium/articles/3778295?layout=wscn-layout",
+      "summary": "加热卷烟国家标准从立项到发布征求意见稿，仅用了约三个月；与此同时，尼古丁袋也进入强制国标制定程序。中国过去对雾化电子烟强调收口、控产能，如今为何又开始为HNB和口含产品修建制度轨道？这并非监管转向鼓励尼古丁消费，而是在传统卷烟增长放缓、烟草利税承压和海外产品迭代加快之后，监管试图把存量需求纳入更安全、可控、可征税的专卖体系。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-01T09:45:58+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778495",
+      "title": "从韩国到美国：多亏了AI，蓝领越来越吃香了",
+      "url": "https://wallstreetcn.com/articles/3778495",
+      "summary": "当白领遭遇创纪录裁员，技术蓝领却迎历史性薪酬溢价。“防AI冲击”叠加基建狂潮，Z世代正加速抛弃大学光环涌入职业教育。面对百万级用工缺口，巨头纷纷重金抢人，一场颠覆认知的蓝领“淘金热”已全面爆发。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-01T09:35:58+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778493",
+      "title": "需求再度回落——7月制造业PMI数据点评",
+      "url": "https://wallstreetcn.com/articles/3778493",
+      "summary": "受地缘冲突与极端天气拖累，供需缺口走阔。但“新动能”保持扩张，中下游企业利润挤压边际缓解。展望下半年，广义财政提速落地将成托举内需、破局逆周期的核心筹码。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-01T08:33:58+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778492",
+      "title": "俄对乌发动大规模袭击，摧毁美国公司无人机工厂！俄方：使用陆基、海基远程高精度武器和无人机！特朗普：尚未同意授权乌生产“爱国者”",
+      "url": "https://wallstreetcn.com/articles/3778492",
+      "summary": "俄乌局势骤然升温！俄军大规模空袭基辅，首次摧毁一家美资无人机工厂。同时，双方针对炼油厂与物流枢纽展开激烈的“纵深互炸”。叠加美方暂未授权乌克兰生产“爱国者”拦截弹，这场牵动全球地缘与能源市场的博弈正步入危险新高潮。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-01T08:24:05+00:00",
+      "points": 0
+    },
+    {
+      "id": "wscn:3778491",
+      "title": "开源崛起、降价80%，大模型真的还能赚到钱吗？",
+      "url": "https://wallstreetcn.com/articles/3778491",
+      "summary": "OpenAI暴降价80%交锋Kimi开放权重，大模型竞争正式告别单纯“价格战”。悬殊的ROI测算揭开了算力利用率等盈利黑匣。Token贬值大势下，资本市场不再听故事，唯有打通“低成本生产与高溢价服务”闭环，方能在现金流大考中真正突围。",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "lang": "zh",
+      "published_at": "2026-08-01T06:52:09+00:00",
+      "points": 0
+    },
     {
       "id": "wscn:3778488",
       "title": "“债券抛售敲响警钟”！圣路易斯联储主席呼吁“尽早加息”",
@@ -29,215 +238,6 @@
       "platform": "rss",
       "lang": "zh",
       "published_at": "2026-08-01T05:29:22+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778489",
-      "title": "首个单月超10万的新势力出现了",
-      "url": "https://wallstreetcn.com/articles/3778489",
-      "summary": "利润是下一关。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T04:58:27+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778487",
-      "title": "韩国7月出口增速放缓但强于预期，芯片出口破400亿美元支撑贸易顺差",
-      "url": "https://wallstreetcn.com/articles/3778487",
-      "summary": "韩国7月出口同比大增62.8%至989亿美元，创历史单月第二高。芯片出口激增178.8%至410亿美元，AI数据中心需求旺盛致存储芯片供不应求。强劲的出口与经济基本面为韩国央行继续收紧货币政策提供支撑，市场预计央行或于8月或10月再度加息，并大幅上调全年经济增长预期。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T04:55:04+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778486",
-      "title": "铠侠拉开“巨额回购”大幕，存储巨头“回购牛市”即将到来？",
-      "url": "https://wallstreetcn.com/articles/3778486",
-      "summary": "日本NAND巨头铠侠一季度营业利润同比暴增28倍，并宣布最高8000亿日元回购及50%总回报目标，创下行业首例。受AI需求支撑，铠侠盈利大爆发；同时，野村预计韩股巨头也将迎来历史上最大规模回购潮，存储板块正开启以“企业回购”驱动的跨市场估值重塑牛市。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T04:07:29+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778485",
-      "title": "二季度利润率跌至近五年低点，宝马官宣启动人员精简",
-      "url": "https://wallstreetcn.com/articles/3778485",
-      "summary": "上半年在华交付缩水两成。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T03:32:26+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778484",
-      "title": "Stellantis二季度扭亏为盈，北美市场拉动业绩回暖",
-      "url": "https://wallstreetcn.com/articles/3778484",
-      "summary": "中国市场仍在调整期。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T03:30:35+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778482",
-      "title": "500亿美元投资都完成，亚马逊持股OpenAI 5%，此前已投Anthropic",
-      "url": "https://wallstreetcn.com/articles/3778482",
-      "summary": "亚马逊已完成对OpenAI共500亿美元的全额投资，持股约5%。此外，亚马逊还向Anthropic承诺最高330亿美元投资，旨在推动自研Trainium芯片渗透并巩固AWS市场地位。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T03:29:28+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778483",
-      "title": "雷诺上半年营收增9.5%，全球“量减收增”",
-      "url": "https://wallstreetcn.com/articles/3778483",
-      "summary": "中国角色彻底转向。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T03:29:10+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778478",
-      "title": "美股这个财报季盈利增长“超预期”，科技巨头“资本开支与AI回报”双涨",
-      "url": "https://wallstreetcn.com/articles/3778478",
-      "summary": "高盛表示，美股二季度财报表现强劲，标普500剔除一次性项目后EPS同比大增26%，AI基础设施贡献约三分之一盈利增长。云巨头云业务增速飙至48%，2027年资本开支预计突破1万亿美元，强劲基本面正为AI行情提供支撑。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T02:42:44+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778480",
-      "title": "对话TCL华星赵军：印刷OLED落地主流消费市场开启规模化",
-      "url": "https://wallstreetcn.com/articles/3778480",
-      "summary": "印刷OLED正式进入规模商业化新阶段",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T02:28:20+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778477",
-      "title": "长鑫LPDDR6迎来关键突破",
-      "url": "https://wallstreetcn.com/articles/3778477",
-      "summary": "长鑫科技LPDDR6研发验证据称接近尾声，距离量产更进一步。其首款产品设计速率12800 Mbps，颗粒容量16Gb，较前代性能大幅提升。按照时间推算，从LPDDR5发布到LPDDR6向核心客户送样，长鑫在DRAM两个代际的跨越上，只用了不到3年的时间。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T02:04:47+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778474",
-      "title": "“黑色7月”以“两连涨”收尾，“AI交易”见底了吗？",
-      "url": "https://wallstreetcn.com/articles/3778474",
-      "summary": "多数分析师认为经历动量股的大幅回调以及AI龙头估值有所修复后，轮动最剧烈轮动阶段已过。但同时强调并不意味着精确底部已经确认。摩根大通建议增配质量因子，高盛提示长端利率风险，建议维持高流动性、低复杂度持仓。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T01:57:47+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778476",
-      "title": "“AI股神”致信投资者：遭遇“银行挤兑”，再也不加杠杆了，今年仍涨80%，我们能东山再起",
-      "url": "https://wallstreetcn.com/articles/3778476",
-      "summary": "Leopold表示，为7月基金资产暴跌67%一事\"承担全部责任\"，并承诺将汲取\"代价惨重的教训\"。其基金将继续运营，不会退出公开股票市场，但今后不会再向银行借款以放大押注。\"我们能够承受损失，并有能力东山再起。\"",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T01:33:28+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778475",
-      "title": "拯救AI交易？Citadel接盘“AI股神”持仓，投行策略师“终于搞明白大跌原因，现在可以往前看了”",
-      "url": "https://wallstreetcn.com/articles/3778475",
-      "summary": "Citadel以逾10%折价接盘Situational基金160亿美元股票组合，清除了市场最大的“被迫卖家”，止住AI股连环踩踏并推动中美韩科技股大幅反弹。然而高杠杆与AI资本支出合理性的结构性隐忧依然存在。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-01T00:45:59+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778473",
-      "title": "华尔街见闻早餐FM-Radio | 2026年8月1日",
-      "url": "https://wallstreetcn.com/articles/3778473",
-      "summary": "五分钟看懂全球市场，尽在财经早餐。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-31T23:19:30+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778379",
-      "title": "AI盈利兑现主导交易，亚马逊涨15%力撑纳指收涨，苹果重挫7%，30年美债收益率涨破5.27%",
-      "url": "https://wallstreetcn.com/articles/3778379",
-      "summary": "标普涨0.70%，纳指涨1%。中概股指收涨1.47%。亚马逊创2012年以来最大单日涨幅。苹果创2025年4月份以来最大单日跌幅。美光跌5.90%。10年期美债收益率升约6个基点至4.74%，月内飙升逾30个基点，创2005年以来最大七月涨幅。美元兑日元跌1%、跌破158关口。现货黄金跌1.27%。WTI原油涨近1.3%。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-31T23:13:04+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778472",
-      "title": "Hugging Face并非个案？OpenAI扩大调查、据称发现更多AI智能体“失控”迹象",
-      "url": "https://wallstreetcn.com/articles/3778472",
-      "summary": "据报道，除了已披露的智能体攻击Hugging Face事件，OpenAI目前还在调查其他的智能体脱离隔离环境案例，这些“失控”事件的影响有限，且没有任何智能体离开OpenAI的网络。OpenAI和Anthropic均传出智能体“失控”后，欧盟委员会称与两家公司展开沟通，认为有必要持续监测高风险AI系统。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-31T23:02:13+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778471",
-      "title": "新兴市场股市创2008年以来最大单日涨幅，韩股创纪录飙升",
-      "url": "https://wallstreetcn.com/articles/3778471",
-      "summary": "MSCI新兴市场指数周五上涨6.6%，创2008年以来最佳单日表现，7月跌幅收窄至3.3%；韩国KOSPI综指周五创纪录大涨18%。分析指出，周五反弹或是空头回补，杠杆尚未完全出清，波动可能持续。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-31T23:02:01+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778470",
-      "title": "报道：OpenAI向美国监管机构演示新一代\"Astra\"AI模型",
-      "url": "https://wallstreetcn.com/articles/3778470",
-      "summary": "据The Information报道，OpenAI首席执行官Sam Altman本周亲赴华盛顿，向监管机构预演了一款名为\"Astra\"的全新AI模型系列。模型系列的核心能力在于支持多个AI智能体协同工作，并能够在较长时间跨度内持续执行复杂任务。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-31T22:45:18+00:00",
-      "points": 0
-    },
-    {
-      "id": "wscn:3778469",
-      "title": "AI安全警报！Anthropic、OpenAI接连“越狱”，专家警告国家安全风险",
-      "url": "https://wallstreetcn.com/articles/3778469",
-      "summary": "Anthropic旗下Claude模型因隔离失效，在逾14万次网络安全测试中意外接入互联网，真实窃取凭证、植入恶意软件；此前OpenAI的AI代理同样突破沙箱、渗透Hugging Face。多名前政府官员警告，随着自主AI系统攻击能力不断增强，相关威胁正逐步上升至国家安全层面。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-07-31T22:27:03+00:00",
       "points": 0
     },
     {
@@ -271,8 +271,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49122994"
       },
       "duration_sec": null,
-      "views": 144,
-      "comments": 150,
+      "views": 155,
+      "comments": 167,
       "published_at": "2026-07-31T13:37:36+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -374,6 +374,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49136787",
+      "title": "Reddit Stock Collapses 23% as AI Eats Away at User Growth",
+      "url": "https://www.barchart.com/story/news/3584357/reddit-stock-collapses-23-as-ai-eats-away-at-user-growth",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49136787",
+        "name": "thm",
+        "hn_url": "https://news.ycombinator.com/item?id=49136787"
+      },
+      "duration_sec": null,
+      "views": 28,
+      "comments": 26,
+      "published_at": "2026-08-01T18:03:08+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:49115139",
       "title": "Microsoft's $450B Jump Is Biggest in Stock Market History",
       "url": "https://www.bloomberg.com/news/articles/2026-07-30/microsoft-eyes-history-with-490-billion-pop-in-market-value",
@@ -385,7 +404,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49115139"
       },
       "duration_sec": null,
-      "views": 18,
+      "views": 20,
       "comments": 3,
       "published_at": "2026-07-30T20:12:40+00:00",
       "summary": "",
@@ -526,20 +545,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:48962049",
-      "title": "Elon Musk Runs from Interview at Last Minute as SpaceX Stock Crashed [video]",
-      "url": "https://www.youtube.com/shorts/TFpF7ZzHc3w",
+      "id": "hn:49113358",
+      "title": "South Korea's stock market plunges as AI-driven boom fades",
+      "url": "https://www.aljazeera.com/economy/2026/7/29/south-koreas-stock-market-plunges-as-ai-driven-boom-fades",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "48962049",
-        "name": "root-parent",
-        "hn_url": "https://news.ycombinator.com/item?id=48962049"
+        "id": "49113358",
+        "name": "thunderbong",
+        "hn_url": "https://news.ycombinator.com/item?id=49113358"
       },
       "duration_sec": null,
       "views": 10,
-      "comments": 3,
-      "published_at": "2026-07-18T20:30:33+00:00",
+      "comments": 0,
+      "published_at": "2026-07-30T17:54:23+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -633,7 +652,7 @@
       },
       "duration_sec": null,
       "views": 314,
-      "comments": 284,
+      "comments": 285,
       "published_at": "2026-07-16T12:02:11+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -789,6 +808,25 @@
       "published_at": "2026-07-17T18:26:02+00:00",
       "summary": "",
       "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49137024",
+      "title": "Oil companies report sky-high profits thanks to wartime crude prices",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5910660/big-oil-earnings-q2-2026",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49137024",
+        "name": "speckx",
+        "hn_url": "https://news.ycombinator.com/item?id=49137024"
+      },
+      "duration_sec": null,
+      "views": 57,
+      "comments": 74,
+      "published_at": "2026-08-01T18:28:06+00:00",
+      "summary": "",
+      "matched_keyword": "earnings",
       "lang": "en"
     },
     {
