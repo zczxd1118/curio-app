@@ -1,224 +1,243 @@
 {
-  "date": "2026-08-02",
-  "intro": "今日核心信号：AI 泡沫争论进入白热化，美股 AI 板块大幅回调，但大摩 120 页研报力挺基本面；同时 DeepSeek V4 Flash 发布，以极低成本逼近顶级模型，开源模型冲击加剧。地缘政治风险（美伊冲突）与美日韩联合干预汇市成为金融市场的黑天鹅。",
+  "date": "2026-08-03",
+  "intro": "今日核心信号：AI 算力链遭遇全球性去杠杆，韩国 KOSPI 暴跌、存储股重挫，但阿里发布千问 3.8-Max 开源模型，性能对标 Anthropic Fable 5，为市场注入强心剂。同时，SpaceX 首份季报在即，股价已跌去近半，成为观察 AI 泡沫成色的关键。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI",
-      "id": "bvid:BV172GP6rEZs",
-      "url": "http://www.bilibili.com/video/av117014605731815",
-      "source": "AI超元域",
+      "id": "wscn:3778546",
+      "url": "https://wallstreetcn.com/articles/3778546",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "DeepSeek V4 Flash 实测：284B 参数、100 万上下文，逼近 Claude Opus 4.8",
-      "lead": "DeepSeek 发布 V4 Flash 0731，总参数 284B、激活 13B、100 万 Token 上下文，官方基准接近 Claude Opus 4.8。UP 主接入 Claude Code 连续开发 7 个项目，实测性能与速度，并对比 Kimi K3，指出真实短板。",
+      "title": "阿里发布千问 3.8-Max：2.4 万亿参数开源，性能对标 Anthropic Fable 5",
+      "lead": "阿里巴巴今日发布千问 3.8-Max，参数规模达 2.4 万亿，是千问家族最强模型，也是首个开源 Max 级权重的版本（下周发布）。API 定价输入 2.0 美元/百万 tokens、输出 6.0 美元/百万 tokens。基准测试显示其编程与通用智能体能力与 Anthropic Fable 5 相当，部分指标超越，并在芯片设计、量化研究、电商模拟等长程任务中展现出显著的自主执行能力。",
       "confirmed": [
-        "DeepSeek V4 Flash 总参数 284B，激活参数仅 13B，上下文窗口 100 万 Token。",
-        "官方基准表现接近 Claude Opus 4.8，但实际开发中大型任务耗时数十分钟，疑似算力拥堵。",
-        "UP 主用 Claude Code 接入后连续完成 7 个项目，基础指令、逻辑推理全部通过。",
-        "与 Kimi K3 对比后，V4 Flash 在代码生成完整性上存在不足。"
+        "千问 3.8-Max 参数规模 2.4 万亿，为千问家族迄今最强模型",
+        "API 定价：输入 2.0 美元/百万 tokens，输出 6.0 美元/百万 tokens",
+        "基准测试显示编程与通用智能体能力与 Anthropic Fable 5 相当，部分指标超越",
+        "在芯片设计、量化研究、电商模拟等长程任务中展现显著自主执行能力",
+        "下周将发布开源 Max 级权重版本"
       ],
       "judgment": [
-        "官方基准接近 Opus 4.8 的说法有待更多第三方验证。",
-        "耗时问题是否因新模型上线调用高峰导致，尚需观察。",
-        "V4 Flash 能否在长上下文场景下保持稳定，仍需测试。"
+        "基准测试的具体方法论和测试集尚未公开，需独立验证",
+        "与 Anthropic Fable 5 的对比是否涵盖所有关键场景，尚不明确",
+        "开源版本的实际推理成本和部署难度有待评估",
+        "长程任务能力是否能在真实生产环境中稳定复现，仍需观察"
       ],
-      "implication": "你应该关注 DeepSeek V4 Flash 的性价比，它可能是你个人 Agent 项目的理想模型。284B 总参数但激活仅 13B，意味着推理成本极低，适合高频调用。建议你亲自接入 Claude Code 跑几个真实任务，验证它能否满足你的开发需求，同时留意官方后续的稳定性优化。"
+      "implication": "千问 3.8-Max 的开源策略直接冲击闭源模型市场，你应该关注其权重发布后的社区评测和微调案例。对于你的 Agent 项目，可以尝试用其 API 或本地部署测试长程任务处理能力，尤其在工具调用和自主规划方面。同时，留意阿里云生态的配套工具链，可能成为你构建 content-curator 的替代方案。"
     },
     {
       "rank": 2,
       "domain": "金融",
-      "id": "wscn:3778502",
-      "url": "https://wallstreetcn.com/articles/3778502",
+      "id": "wscn:3778557",
+      "url": "https://wallstreetcn.com/articles/3778557",
       "source": "华尔街见闻",
       "stars": 5,
-      "title": "大摩 120 页研报：AI 回调是技术性调整，ROI 超 10 倍，杰文斯悖论支撑需求",
-      "lead": "摩根士丹利发布 120 页深度研报，认为近期 AI 板块大跌主要受技术面因素驱动，而非基本面破坏。报告指出 AI 调用 ROI 超 10 倍，算力效率提升将遵循杰文斯悖论，反而推高总消耗，GPU 代际升级可大幅降本。",
+      "title": "韩国 KOSPI 再暴跌超 5%，监管拟强制降杠杆，存储股领跌",
+      "lead": "韩股今日再遭重挫，KOSDAQ 触发熔断，三星电子、SK海力士单日跌超 7%。监管层加速推进“紧急行动权限”立法，拟在市场剧烈波动时直接将单股杠杆 ETF 倍数从 2 倍强制下调至 1.5 倍乃至 1.1 倍。但机构普遍判断杠杆风险尚未完全出清，8 月中旬政策落地前韩股高波动格局难以打破。",
       "confirmed": [
-        "大摩认为回调主因是技术面，而非基本面逻辑破坏。",
-        "AI 调用 ROI 超过 10 倍，资本开支回报担忧不成立。",
-        "算力效率提升将遵循杰文斯悖论，总消耗反而增加。",
-        "电力瓶颈可通过快速发电方案、存量设施改造等路径解决。"
+        "KOSPI 今日暴跌超 5%，KOSDAQ 触发熔断机制",
+        "三星电子、SK海力士单日跌超 7%",
+        "韩国监管拟将单股杠杆 ETF 倍数从 2 倍强制下调至 1.5 倍乃至 1.1 倍",
+        "机构普遍判断杠杆风险尚未完全出清",
+        "8 月中旬政策落地前韩股高波动格局难以打破"
       ],
       "judgment": [
-        "大摩的 ROI 测算基于特定假设，实际回报率可能因行业而异。",
-        "杰文斯悖论在 AI 算力领域是否完全适用，仍有争议。",
-        "电力瓶颈的解决路径能否按时落地，存在不确定性。"
+        "监管干预能否有效遏制抛售，尚待观察",
+        "杠杆出清是否接近尾声，机构观点存在分歧",
+        "存储芯片价格走势是否已见顶，影响后续市场情绪",
+        "韩国市场波动是否会传导至全球 AI 算力链，需持续跟踪"
       ],
-      "implication": "这份研报给你提供了看待 AI 回调的另一种视角。如果你在关注 AI 相关投资或职业选择，可以借此理解市场恐慌背后的基本面支撑。但别盲目乐观，建议结合其他分析，关注后续财报和实际算力需求数据，再做出判断。"
+      "implication": "韩国市场的暴跌是全球 AI 去杠杆的缩影，直接影响存储芯片价格和供应链预期。对于你关注的 AI 工程实践，存储成本可能短期波动，但长期看，HBM 等高端存储需求仍强劲。建议你关注 SK 海力士和三星的后续财报，以及长鑫存储等国产替代的进展，这会影响你构建 Agent 时的硬件成本。"
     },
     {
       "rank": 3,
-      "domain": "AI 算力 / 半导体",
+      "domain": "半导体",
       "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/lumentum-ceo-says-the-indium-phosphide-shortage-will-become-worse-than-memory",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/lumentum-ceo-says-the-indium-phosphide-shortage-will-become-worse-than-memory",
       "source": "Tom's Hardware",
       "stars": 4,
-      "title": "Lumentum CEO 警告：磷化铟短缺将比内存更严重，硅光子材料缺口达 30%",
-      "lead": "Lumentum CEO Michael Hurlston 在 RAISE 峰会上表示，磷化铟（InP）正面临比内存更严重的短缺，目前材料缺口已落后客户需求 30%，而共封装光学（CPO）需求激增将加剧这一瓶颈。",
+      "title": "Lumentum CEO 警告：磷化铟短缺将比存储更严重，硅光子材料告急",
+      "lead": "Lumentum CEO Michael Hurlston 在 RAISE 峰会上表示，磷化铟（InP）正面临比存储更严重的短缺。目前 fab 和材料供应已落后客户需求 30%，而共封装光学（CPO）需求激增，将进一步加剧供需失衡。这一瓶颈将影响硅光子、光互连等 AI 基础设施的关键组件。",
       "confirmed": [
-        "Lumentum CEO 称磷化铟短缺将比内存更严重。",
-        "当前 fab 和材料缺口已落后客户需求 30%。",
-        "共封装光学（CPO）需求激增是主要驱动因素。"
+        "Lumentum CEO 在 RAISE 峰会上发出磷化铟短缺警告",
+        "fab 和材料供应已落后客户需求 30%",
+        "共封装光学（CPO）需求激增，加剧供需失衡",
+        "磷化铟是硅光子、光互连的关键材料"
       ],
       "judgment": [
-        "磷化铟短缺是否会持续恶化，取决于新产能投产速度。",
-        "CPO 需求增长能否持续，需观察 AI 基础设施投资节奏。",
-        "其他材料替代方案能否缓解短缺，尚不明朗。"
+        "短缺持续时间尚不明确，可能影响未来 1-2 年供应链",
+        "替代材料或新产能能否及时补充，存在不确定性",
+        "对 AI 基础设施成本的影响程度，有待量化",
+        "是否会导致光模块价格上涨，需观察市场反应"
       ],
-      "implication": "磷化铟是硅光子学的关键材料，短缺可能影响光模块和 AI 基础设施的供应链。如果你关注硬件或供应链，这值得留意。建议你跟踪相关厂商的扩产计划，以及 CPO 技术的采用率，这可能会影响未来硬件成本和性能。"
+      "implication": "磷化铟短缺将推高光模块和 CPO 成本，直接影响 AI 数据中心的建设成本。对于你关注的 AI 工程实践，这意味着未来部署大规模模型时，网络互连成本可能上升。建议你关注光通信领域的国产替代机会，以及 CPO 技术的成熟度，这可能影响你未来构建分布式 Agent 系统的架构选择。"
     },
     {
       "rank": 4,
-      "domain": "大厂 AI 动态",
-      "id": "hn:49111237",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "source": "Google DeepMind",
+      "domain": "大厂讯息",
+      "id": "wscn:3778555",
+      "url": "https://wallstreetcn.com/articles/3778555",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "Gemini Robotics 2 发布：全身智能让机器人更灵活，迈向通用机器人",
-      "lead": "Google DeepMind 发布 Gemini Robotics 2，宣称带来“全身智能”，使机器人能够更协调地控制整个身体。这标志着机器人 AI 从单一任务向通用性迈进，可能加速人形机器人发展。",
+      "title": "SpaceX 首份季报明日发布：股价已跌 46%，12 亿股解禁压顶",
+      "lead": "SpaceX 将于 8 月 4 日发布上市后首份季报。尽管股价自高点已下挫 46%，且面临超 12 亿股解禁抛压，但市场聚焦于 AI 数据中心租赁带来的营收弹性、Starlink 订阅用户增长以及 Starship 第 14 次飞测进展。华尔街预估二季度营收约 69 亿美元，该财报被视为能否扭转股价颓势的关键。",
       "confirmed": [
-        "Gemini Robotics 2 强调全身智能，提升机器人协调性。",
-        "该模型基于 Gemini 系列，具备多模态理解能力。",
-        "DeepMind 展示了在多种机器人平台上的应用。"
+        "SpaceX 将于 8 月 4 日发布上市后首份季报",
+        "股价自高点已下挫 46%",
+        "面临超 12 亿股解禁抛压",
+        "华尔街预估二季度营收约 69 亿美元",
+        "市场关注 AI 数据中心租赁、Starlink 用户增长和 Starship 进展"
       ],
       "judgment": [
-        "全身智能的实际效果需在真实场景中验证。",
-        "与现有机器人控制方案相比，优势尚不明确。",
-        "商业化时间表未公布，落地仍需时间。"
+        "财报能否超预期，存在不确定性",
+        "解禁抛压对股价的实际影响，尚待观察",
+        "AI 数据中心租赁业务的营收贡献，需要财报数据验证",
+        "Starship 飞测进展是否顺利，影响长期估值"
       ],
-      "implication": "Gemini Robotics 2 是机器人 AI 的重要进展，可能影响未来人形机器人的发展。如果你对机器人或具身智能感兴趣，可以关注其技术细节和后续应用。但短期内，它可能更多是研究层面的突破，距离大规模商用还有距离。"
+      "implication": "SpaceX 的财报是观察 AI 基建投资回报的窗口。如果 AI 数据中心租赁收入强劲，说明算力需求依然旺盛，你的 Agent 项目可以继续依赖云服务；如果不及预期，可能引发 AI 泡沫担忧，影响整个行业的融资环境。建议你关注财报后的市场反应，并调整你的技术选型策略。"
     },
     {
       "rank": 5,
-      "domain": "股票",
-      "id": "wscn:3778503",
-      "url": "https://wallstreetcn.com/articles/3778503",
-      "source": "华尔街见闻",
+      "domain": "AI",
+      "id": "bvid:BV172GP6rEZs",
+      "url": "http://www.bilibili.com/video/av117014605731815",
+      "source": "AI超元域",
       "stars": 4,
-      "title": "美日韩联合干预汇市，美国财政部罕见下场，近 30 年最大规模协调行动",
-      "lead": "美国财政部本周罕见介入汇市，通过纽约联储委托华尔街银行卖出欧元、买入日元，与日韩联手实施近三十年来最大规模协调外汇干预。分析认为，此举旨在防止日韩资产市场走弱，降低金融压力向 AI 产业链传导的风险。",
+      "title": "DeepSeek V4 Flash 实测：Claude Code 接入后连续开发 7 个项目，逼近 Opus 4.8",
+      "lead": "DeepSeek 发布 V4 Flash 0731 版本，284B 总参数、13B 激活参数、100 万 Token 上下文，官方基准表现接近 Claude Opus 4.8。UP 主实测将其接入 Claude Code，连续开发 7 个项目，评估其性能、速度与真实短板，并与 Kimi K3 对比。",
       "confirmed": [
-        "美国财政部通过纽约联储委托银行卖出欧元、买入日元。",
-        "与日韩联手实施近 30 年最大规模协调外汇干预。",
-        "干预目标包括稳定日元和韩元，防止资产市场进一步走弱。"
+        "DeepSeek V4 Flash 0731 版本发布",
+        "284B 总参数、13B 激活参数、100 万 Token 上下文",
+        "官方基准表现接近 Claude Opus 4.8",
+        "UP 主实测接入 Claude Code 连续开发 7 个项目",
+        "与 Kimi K3 进行了对比"
       ],
       "judgment": [
-        "干预能否长期稳定汇率，市场存在分歧。",
-        "美国通过非美元交易介入，意在转移对美元的压力。",
-        "后续是否继续干预，取决于市场反应和地缘局势。"
+        "官方基准与真实场景表现可能存在差距",
+        "13B 激活参数的实际推理效率，需进一步验证",
+        "100 万 Token 上下文的实用性，取决于具体任务",
+        "与 Claude Opus 4.8 的差距在哪些方面，尚不明确"
       ],
-      "implication": "美日韩联合干预汇市是重大金融事件，可能影响全球资本流动和 AI 产业链的融资环境。如果你关注宏观或投资，这值得重视。建议你关注日元和韩元的后续走势，以及干预对亚洲科技股的影响，这可能会波及你的投资组合。"
+      "implication": "DeepSeek V4 Flash 的低成本和高性能，可能成为你构建 Agent 的性价比之选。建议你观看视频，了解其在 Claude Code 中的实际表现，特别是长上下文和复杂任务处理能力。如果表现稳定，可以尝试将其作为 content-curator 的底层模型，降低 API 成本。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "吴恩达 Vibe Coding 教程：标准化 AI 软件开发流水线",
-      "url": "http://www.bilibili.com/video/av116951003242391",
-      "source": "吴恩达AIAgent",
-      "one_liner": "吴恩达亲自讲解 Vibe Coding 工作流，从环境搭建到 MVP 交付，适合系统学习。"
+      "title": "【吴恩达】2026年公认最好的【Agent智能体】教程！大模型入门到进阶，一套全解决！",
+      "url": "http://www.bilibili.com/video/av115897075242856",
+      "source": "吴恩达Agent",
+      "one_liner": "吴恩达的 Agent 教程，系统覆盖设计模式、工具集成与评估，适合作为 Agent 构建的系统性参考。"
     },
     {
       "domain": "AI",
-      "title": "OpenClaw 高级使用：Claude Code Hooks 回调省 Token",
-      "url": "http://www.bilibili.com/video/av116046157647899",
-      "source": "AI超元域",
-      "one_liner": "用 Hooks 回调解决轮询消耗 Token 的痛点，实现全自动开发，效率提升明显。"
+      "title": "从零开始，学会让桌面Agent帮你干活！【小白教程】",
+      "url": "http://www.bilibili.com/video/av116861865887789",
+      "source": "秋芝2046",
+      "one_liner": "国产桌面 Agent 实操教程，覆盖 8 大用法，适合快速上手桌面自动化。"
     },
     {
       "domain": "AI",
-      "title": "锐评 32 个 AI 编程工具",
+      "title": "零基础Vibe Coding教程，vibecoding实战，Claude Code+Codex+Cursor",
+      "url": "http://www.bilibili.com/video/av116711944620974",
+      "source": "尚硅谷",
+      "one_liner": "尚硅谷的 Vibe Coding 实战教程，从零开始用自然语言指挥 AI 开发项目，适合入门。"
+    },
+    {
+      "domain": "AI",
+      "title": "从夯到拉，锐评 32 个 AI 编程工具！",
       "url": "http://www.bilibili.com/video/av116578532200786",
       "source": "程序员鱼皮",
-      "one_liner": "一口气对比 Cursor、Claude Code、Codex 等 32 个工具，帮你快速选型。"
+      "one_liner": "鱼皮实测 32 个 AI 编程工具，帮你快速找到最适合自己的，避免踩坑。"
     },
     {
       "domain": "AI",
-      "title": "Claude Code 保姆级安装+原理+真实用法（国内直连）",
-      "url": "http://www.bilibili.com/video/av116447535765612",
-      "source": "人工大黑",
-      "one_liner": "9 分钟快速上手 Claude Code，适合国内用户，实用性强。"
+      "title": "Claude Code Agent Teams上手指南+项目实测",
+      "url": "http://www.bilibili.com/video/av116037064331269",
+      "source": "程序员阿江-Relakkes",
+      "one_liner": "深入讲解 Claude Code Agent Teams 的架构与实战，解决复杂任务并行处理问题。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
-      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "source": "CNBC",
-      "one_liner": "三大巨头联合反对过度监管开源模型，关乎 AI 生态发展，值得关注。"
+      "domain": "AI",
+      "title": "MCP是啥？技术原理是什么？一个视频搞懂MCP的一切。",
+      "url": "http://www.bilibili.com/video/av114155298228756",
+      "source": "技术爬爬虾",
+      "one_liner": "MCP 概念与实战全覆盖，适合理解 Agent 工具调用的底层原理。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Moonshot's Kimi uses 20k Nvidia chip cluster from Alibaba",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
-      "source": "Bloomberg",
-      "one_liner": "Kimi 使用阿里 2 万块 Nvidia 芯片集群，反映国产大模型算力布局。"
+      "domain": "AI",
+      "title": "【吴恩达2026】Vibe Coding保姆级教程，手把手从环境搭建到工作流完整闭环！",
+      "url": "http://www.bilibili.com/video/av116951003242391",
+      "source": "吴恩达AIAgent",
+      "one_liner": "吴恩达的 Vibe Coding 教程，强调标准化流水线，适合建立规范开发流程。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Big tech spends more than $1 trillion on AI infrastructure",
+      "domain": "AI",
+      "title": "用Codex、cursor 还是Claude ？程序员不作选择题，我都要用，还一起用 | Orca ADE 介绍",
+      "url": "http://www.bilibili.com/video/av116996217838997",
+      "source": "技术胖",
+      "one_liner": "Orca ADE 整合多 Agent 协作，开源免费，适合探索多工具协同工作流。"
+    },
+    {
+      "domain": "AI",
+      "title": "10分钟完成Ubuntu安装Claude Code并免费使用DeepSeekV4模型",
+      "url": "http://www.bilibili.com/video/av116579891153749",
+      "source": "不倒翁lhj",
+      "one_liner": "快速在 Ubuntu 上配置 Claude Code 并接入 DeepSeek V4，低成本体验。"
+    },
+    {
+      "domain": "半导体",
+      "title": "CEA-Leti Pushes Stacking Roadmap as AI Runs Into Memory and Power Limits",
+      "url": "https://www.eetimes.com/cea-leti-pushes-stacking-roadmap-as-ai-runs-into-memory-and-power-limits/",
+      "source": "EE Times",
+      "one_liner": "CEA-Leti 押注 3D 堆叠与 chiplet，应对 AI 内存墙与功耗瓶颈，值得关注。"
+    },
+    {
+      "domain": "半导体",
+      "title": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia",
+      "url": "https://www.ubergizmo.com/2026/06/hygon-512-thread-cpu/",
+      "source": "Ubergizmo",
+      "one_liner": "海光发布 512 线程 CPU 和 AI GPU，国产算力新选择，关注其性能与生态。"
+    },
+    {
+      "domain": "半导体",
+      "title": "Big tech spends more than $1 trillion on AI infrastructure — additional $745 billion expected in 2026",
       "url": "https://www.tomshardware.com/tech-industry/big-tech/big-tech-spends-more-than-usd1-trillion-on-ai-infrastructure-additional-usd745-billion-expected-to-be-added-to-the-figure-in-2026-alone",
       "source": "Tom's Hardware",
-      "one_liner": "四大科技巨头 AI 基础设施投资超 1 万亿美元，2026 年还将增加 7450 亿。"
+      "one_liner": "四大科技巨头 AI 资本开支超 1 万亿美元，2026 年再投 7450 亿，算力需求持续。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "OpenAI confirms next-gen model Astra exists, solves 10 math problems with $2000 compute",
-      "url": "https://wallstreetcn.com/articles/3778497",
+      "domain": "大厂讯息",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "source": "Google DeepMind",
+      "one_liner": "Gemini Robotics 2 发布，机器人全身智能，关注具身智能进展。"
+    },
+    {
+      "domain": "大厂讯息",
+      "title": "Document-borne AI worms can self-propagate through Copilot for Word",
+      "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+      "source": "Hacker News",
+      "one_liner": "AI 蠕虫可通过 Word 文档在 Copilot 中自我传播，安全风险需警惕。"
+    },
+    {
+      "domain": "金融",
+      "title": "高盛旗帜鲜明：这是人类历史上最大规模的资本需求周期，美联储只是看客",
+      "url": "https://wallstreetcn.com/articles/3778540",
       "source": "华尔街见闻",
-      "one_liner": "OpenAI 新模型 Astra 以 2000 美元算力破解十道数学难题，正向监管展示。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google nixes its Earth AI feature one day after launch amid misinformation criticism",
-      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
-      "source": "TechCrunch",
-      "one_liner": "Google Earth AI 功能上线一天即下架，因生成虚假图像引发争议。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
-      "url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
-      "source": "TechCrunch",
-      "one_liner": "Snapchat 调整推荐算法，不再奖励纯 AI 生成内容，对抗 AI 垃圾信息。"
-    },
-    {
-      "domain": "股票",
-      "title": "Reddit Stock Collapses 23% as AI Eats Away at User Growth",
-      "url": "https://www.barchart.com/story/news/3584357/reddit-stock-collapses-23-as-ai-eats-away-at-user-growth",
-      "source": "Barchart",
-      "one_liner": "Reddit 股价暴跌 23%，AI 工具蚕食用户增长，引发对内容平台未来的担忧。"
-    },
-    {
-      "domain": "股票",
-      "title": "Citadel Buys Situational Awareness's Stock Portfolio After Big Losses in AI",
-      "url": "https://www.wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b",
-      "source": "WSJ",
-      "one_liner": "Citadel 收购 Situational Awareness 的股票组合，AI 亏损引发对冲基金洗牌。"
+      "one_liner": "高盛认为资本稀缺时代来临，AI 基建与再工业化推升资本成本，影响投资范式。"
     },
     {
       "domain": "金融",
-      "title": "Stripe and Advent have made a joint offer to acquire PayPal",
-      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
-      "source": "Reuters",
-      "one_liner": "Stripe 与 Advent 联合出价 530 亿美元收购 PayPal，支付行业或迎大变局。"
-    },
-    {
-      "domain": "金融",
-      "title": "The bond market isn't buying what Fed Chair Warsh is selling",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/",
-      "source": "Reuters",
-      "one_liner": "债券市场对美联储主席 Warsh 的言论不买账，加息预期升温。"
-    },
-    {
-      "domain": "金融",
-      "title": "Trump administration Is Repurposing Federal Land for A.I. Data Centers",
-      "url": "https://www.nytimes.com/2026/07/29/climate/trump-federal-data-centers.html",
-      "source": "NYT",
-      "one_liner": "特朗普政府将联邦土地用于 AI 数据中心，政策与环保的博弈值得关注。"
+      "title": "去杠杆冲击之下，算力核心逻辑变了吗？",
+      "url": "https://wallstreetcn.com/articles/3778530",
+      "source": "华尔街见闻",
+      "one_liner": "中信建投分析韩国去杠杆影响，算力逻辑从涨价转向订单兑现，关注产能释放。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-02T07:07:54+0000"
+    "scored_at": "2026-08-03T06:53:28+0000"
   }
 }
