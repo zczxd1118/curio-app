@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-08-02T06:08:25.292300+00:00",
+  "fetched_at": "2026-08-03T06:29:58.424491+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,7 +13,7 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 1,
-    "HN · Nvidia": 14,
+    "HN · Nvidia": 13,
     "HN · semiconductor": 2,
     "HN · ASML / EUV": 1,
     "HN · AI chip 厂商": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 67,
+  "total": 66,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -367,6 +367,193 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/grab-this-240-hz-qd-oled-gaming-monitor-at-just-usd300-gigabytes-27-inch-go27q24a-is-now-usd150-off-at-newegg",
+      "title": "Grab this 240 Hz QD-OLED gaming monitor at just $300 — Gigabyte's 27-inch GO27Q24A is now $150 off at Newegg",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/grab-this-240-hz-qd-oled-gaming-monitor-at-just-usd300-gigabytes-27-inch-go27q24a-is-now-usd150-off-at-newegg",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-02T16:16:41+00:00",
+      "summary": "Gigabyte's GO27Q24A delivers a 240Hz QD-OLED panel, HDMI 2.1, and esports-focused features for just $299.99",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/space/errant-spacex-rocket-stage-set-to-smash-into-the-moon-at-5-400-mph-seven-times-the-speed-of-sound-nasa-and-south-korean-orbiters-prepare-to-track-3-ton-tnt-impact",
+      "title": "Errant SpaceX rocket stage set to smash into the moon at 5,400 mph, seven times the speed of sound — NASA and South Korean orbiters prepare to track 3-ton TNT impact",
+      "url": "https://www.tomshardware.com/tech-industry/space/errant-spacex-rocket-stage-set-to-smash-into-the-moon-at-5-400-mph-seven-times-the-speed-of-sound-nasa-and-south-korean-orbiters-prepare-to-track-3-ton-tnt-impact",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-02T15:44:51+00:00",
+      "summary": "A used SpaceX rocket segment used to deliver to lunar probes in 2025 is set to crash on the surface of the moon in the near future. This event will be monitored by two satellites as scientists and researchers study the effects of an impact on the surface of the moon in preparation for future developments.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/microsoft-paint-used-as-a-monitor-to-run-doom-at-up-to-35-fps-project-released-by-firms-azure-cto-runs-actual-doom-engine-and-loads-real-shareware-doom1-wad",
+      "title": "Microsoft Paint used as a 'monitor' to run Doom at up to 35 fps, project released by firm's Azure CTO — runs actual Doom engine and loads real shareware DOOM1.WAD",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/microsoft-paint-used-as-a-monitor-to-run-doom-at-up-to-35-fps-project-released-by-firms-azure-cto-runs-actual-doom-engine-and-loads-real-shareware-doom1-wad",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-02T14:14:24+00:00",
+      "summary": "DoomPaint stands out from the Doom crowd as it has been developed by Microsoft's Azure CTO and because it runs using MS Paint as the viewport for in-game action.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/iran-suspected-of-conducting-cyberattacks-on-us-water-suppliers-in-45-municipalities-small-towns-mostly-targeted-with-utilities-switching-to-manual-control",
+      "title": "Iran suspected of conducting cyberattacks on US water suppliers in 45 municipalities — small towns mostly targeted, with utilities switching to manual control",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/iran-suspected-of-conducting-cyberattacks-on-us-water-suppliers-in-45-municipalities-small-towns-mostly-targeted-with-utilities-switching-to-manual-control",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-02T13:10:00+00:00",
+      "summary": "Several US towns said that their water utilities have suffered from cyberattacks, which are suspected to have originated from Iran. While systems remain running, several have resorted to manual control to protect the water supply.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/commemorative-golden-doom-floppy-disks-go-up-for-pre-order-pair-of-limited-edition-dummy-imitation-gold-plating-disks-and-a-box-are-usd30-at-gamestop",
+      "title": "Commemorative golden Doom floppy disks go up for pre-order — pair of limited edition dummy ‘imitation gold plating’ disks and a box are $30 at GameStop",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/commemorative-golden-doom-floppy-disks-go-up-for-pre-order-pair-of-limited-edition-dummy-imitation-gold-plating-disks-and-a-box-are-usd30-at-gamestop",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-02T12:45:00+00:00",
+      "summary": "GameStop has listed a purely ornamental Doom Floppy Disk Limited Edition Imitation Gold Plated Replica at $29.99.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amds-upcoming-zen-6-processors-could-fix-microstutters-and-improve-1-percent-lows-in-games-next-gen-cpus-tipped-to-feature-per-core-optimizations-for-thermal-and-power-budgets",
+      "title": "AMD's upcoming Zen 6 processors could fix microstutters and improve 1% lows in games — Next-gen CPUs tipped to feature per-core optimizations for thermal and power budgets",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amds-upcoming-zen-6-processors-could-fix-microstutters-and-improve-1-percent-lows-in-games-next-gen-cpus-tipped-to-feature-per-core-optimizations-for-thermal-and-power-budgets",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-02T12:30:00+00:00",
+      "summary": "A new report suggests AMD is cooking up a range of per-core optimizations for Zen 6 that might not seem huge on their own, but they could add up to make a world of difference in gaming performance.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/motherboards/first-open-source-firmware-for-am5-officially-launches-dasharo-v0-9-0-brings-coreboot-and-opensil-to-zen-4-apus-on-msi-b850",
+      "title": "First open-source firmware for AM5 officially launches — Dasharo v0.9.0 brings Coreboot and openSIL to Zen 4 APUs on MSI B850",
+      "url": "https://www.tomshardware.com/pc-components/motherboards/first-open-source-firmware-for-am5-officially-launches-dasharo-v0-9-0-brings-coreboot-and-opensil-to-zen-4-apus-on-msi-b850",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Aaron Klotz",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-02T12:10:00+00:00",
+      "summary": "3mdeb has introduced a new open-source firmware for the MSI B850-P WiFi, marking the first time open-source firmware has been introduced to the AM5 platform.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/spacexai-says-it-will-remove-all-69-of-its-unpermitted-turbine-power-generators-but-expects-process-to-take-a-year-trailer-mounted-generators-to-be-replaced-by-1-2gw-power-plant",
+      "title": "SpaceXAI says it will remove all 69 of its unpermitted turbine power generators, but expects process to take a year — trailer-mounted generators to be replaced by 1.2GW power plant",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/spacexai-says-it-will-remove-all-69-of-its-unpermitted-turbine-power-generators-but-expects-process-to-take-a-year-trailer-mounted-generators-to-be-replaced-by-1-2gw-power-plant",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-02T11:50:00+00:00",
+      "summary": "These turbines have been the center of a lawsuit involving permits and pollution. While this is good news for the community, it will still take quite some time before they're fully removed from the premises.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/rtx-5060-ti-survives-car-crash-after-being-bent-in-half-short-pcb-saves-the-day-single-memory-chip-resolder-restore-full-performance",
+      "title": "RTX 5060 Ti survives car crash after being bent in half — short PCB saves the day, single memory chip resolder restore full performance",
+      "url": "https://www.tomshardware.com/pc-components/gpus/rtx-5060-ti-survives-car-crash-after-being-bent-in-half-short-pcb-saves-the-day-single-memory-chip-resolder-restore-full-performance",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-02T11:30:00+00:00",
+      "summary": "What happens when a graphics card gets in a car crash? If you're lucky, the damage is limited to just cosmetic scars that can go away over time with no serious damage under-the-hood.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/gem-mint-signed-1983-steve-jobs-business-card-opens-at-usd70-000-second-signed-card-from-that-era-after-usd180-000-record-sale",
+      "title": "Gem Mint signed 1983 Steve Jobs business card opens at $70,000 — second signed card from that era after $180,000 record sale",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/gem-mint-signed-1983-steve-jobs-business-card-opens-at-usd70-000-second-signed-card-from-that-era-after-usd180-000-record-sale",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-02T11:00:00+00:00",
+      "summary": "This rare business card is currently on RR Auction, with a previous example going for $180,000 just a couple of years ago. It's graded Gem Mint 10, meaning it's as perfect as it can get.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/prolific-team-fortress-2-collector-is-selling-his-in-game-case-arsenal-for-an-estimated-usd100-000-1-7-million-items-collected-over-10-years-are-enough-to-fund-a-house-purchase",
+      "title": "Prolific Team Fortress 2 collector is selling his in-game case arsenal for an estimated $100,000 — 1.7 million items collected over 10 years are enough to fund a house purchase",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/prolific-team-fortress-2-collector-is-selling-his-in-game-case-arsenal-for-an-estimated-usd100-000-1-7-million-items-collected-over-10-years-are-enough-to-fund-a-house-purchase",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stephen Warwick",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-02T10:30:00+00:00",
+      "summary": "One Team Fortress 2 player has amassed a collection of over 1.7 million cases from the game, and after nearly a decade of collecting, he’s selling the collection for an estimated $100,000.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life",
       "title": "Dell founder shows how a $100 billion empire started 42 years ago — CEO says ‘This one page changed my life’",
       "url": "https://www.tomshardware.com/tech-industry/dell-founder-shows-how-a-usd100-billion-empire-started-42-years-ago-ceo-says-this-one-page-changed-my-life",
@@ -436,7 +623,7 @@
     },
     {
       "id": "rss:https://www.tomshardware.com/3d-printing/nozzlegate-erupts-as-prusa-core-one-3d-ptinter-kits-arrive-with-soft-steel-nozzles-bondtech-admits-machining-flaws-with-no-quick-fix",
-      "title": "'Nozzlegate' erupts as Prusa CORE One 3D printer kits arrive with soft steel nozzles — Bondtech admits machining flaws with no quick fix",
+      "title": "'Nozzlegate' erupts as Prusa CORE One 3D printer kits arrive with soft steel nozzles — Bondtech admits machining flaws with no quick fix (Updated)",
       "url": "https://www.tomshardware.com/3d-printing/nozzlegate-erupts-as-prusa-core-one-3d-ptinter-kits-arrive-with-soft-steel-nozzles-bondtech-admits-machining-flaws-with-no-quick-fix",
       "platform": "rss",
       "source": {
@@ -690,193 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/ddr5/single-dimm-ddr5-gaming-works-better-than-you-probably-think-amds-3d-v-cache-chips-drop-less-than-3-percent-one-ddr5-dimm-beats-dual-channel-ddr4-ram",
-      "title": "Single-DIMM DDR5 gaming works better than you probably think — one DDR5 DIMM beats dual-channel DDR4 RAM, AMD's 3D V-Cache chips drop less than 3% with single stick",
-      "url": "https://www.tomshardware.com/pc-components/ddr5/single-dimm-ddr5-gaming-works-better-than-you-probably-think-amds-3d-v-cache-chips-drop-less-than-3-percent-one-ddr5-dimm-beats-dual-channel-ddr4-ram",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-31T11:43:24+00:00",
-      "summary": "To avoid rising RAM costs, some PC builders and OEMs have shifted toward using a single DDR5 module for gaming PCs. We test how much of a performance loss that actually represents.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/motherboards/are-your-motherboards-m-2-heatsinks-making-good-contact-with-your-ssd-we-tested-20-modern-intel-and-amd-motherboards-to-verify",
-      "title": "Your motherboard's M.2 SSD heatsink might be slowing down your SSD — Only 6 of 20 tested boards made full contact",
-      "url": "https://www.tomshardware.com/pc-components/motherboards/are-your-motherboards-m-2-heatsinks-making-good-contact-with-your-ssd-we-tested-20-modern-intel-and-amd-motherboards-to-verify",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-31T11:43:19+00:00",
-      "summary": "We tested 20 motherboards for proper M.2 contact and were surprised at the results – not all make good contact.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/playstation/ps5-emulation-hits-new-milestone-in-record-time-multiple-3d-games-now-playable-in-kyty-performance-and-support-steadily-improving-with-30-fps-gameplay-possible-today",
-      "title": "PS5 emulation hits new milestone in record time, multiple 3D games now playable in Kyty — Performance and support steadily improving with 30 FPS gameplay possible today",
-      "url": "https://www.tomshardware.com/video-games/playstation/ps5-emulation-hits-new-milestone-in-record-time-multiple-3d-games-now-playable-in-kyty-performance-and-support-steadily-improving-with-30-fps-gameplay-possible-today",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-31T11:40:00+00:00",
-      "summary": "The PS5 emulation scene is showing extremely impressive progress, with 3D titles now being playable at around 30 FPS just two weeks after the first 3D titles even became bootable.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/amds-new-radeon-rx-9050-is-roughly-30-percent-slower-than-the-rtx-5050-in-games-early-testing-shows-the-cheapest-8gb-rdna-4-gpu-comfortably-handles-1080p-gaming-but-doesnt-impress",
-      "title": "AMD's new Radeon RX 9050 is roughly 30% slower than the RTX 5050 in games, early testing shows — the cheapest 8GB RDNA 4 GPU comfortably handles 1080p gaming but doesn't impress",
-      "url": "https://www.tomshardware.com/pc-components/gpus/amds-new-radeon-rx-9050-is-roughly-30-percent-slower-than-the-rtx-5050-in-games-early-testing-shows-the-cheapest-8gb-rdna-4-gpu-comfortably-handles-1080p-gaming-but-doesnt-impress",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-31T11:28:54+00:00",
-      "summary": "The RX 9050 is slower than the RTX 5050 in every conceivable way except when the latter is constrained in some way. It performs worse in synthetic benchmarks and games but has more efficient power consumption. At 4K, it's about 42% slower, and at 1080p it's about 31% slower on average across various titles.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/motherboards/msi-promises-an-expo-ull-like-boost-for-your-existing-ddr5-high-efficiency-mode-brings-low-latency-tuning-to-older-ram",
-      "title": "MSI promises an EXPO ULL-like boost for your existing DDR5 memory — High-Efficiency Mode brings low-latency tuning to older RAM",
-      "url": "https://www.tomshardware.com/pc-components/motherboards/msi-promises-an-expo-ull-like-boost-for-your-existing-ddr5-high-efficiency-mode-brings-low-latency-tuning-to-older-ram",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-31T11:20:00+00:00",
-      "summary": "A new firmware update for MSI motherboards features High-Efficiency Mode, which offers latency tuning similar to AMD's EXPO ULL on regular memory kits.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-usd900-on-this-rtx-5070-gaming-pc-from-msi-in-this-limited-time-woot-deal-now-usd1-399-grab-a-huge-saving-on-this-codex-r2-rig-with-a-10-core-intel-cpu-32gb-ddr5-and-a-1tb-ssd",
-      "title": "Save $900 on this RTX 5070 gaming PC from MSI in this limited-time Woot deal, now $1,399 — grab a huge saving on this Codex R2 rig with a 10-core Intel CPU, 32GB DDR5, and a 1TB SSD",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd900-on-this-rtx-5070-gaming-pc-from-msi-in-this-limited-time-woot-deal-now-usd1-399-grab-a-huge-saving-on-this-codex-r2-rig-with-a-10-core-intel-cpu-32gb-ddr5-and-a-1tb-ssd",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-31T11:03:17+00:00",
-      "summary": "This MSI Codex R2 gaming PC is on sale at Woot for $1,399.99 right now, delivering you a rig with a 10-core Intel Core i5-14400F, Nvidia GeForce RTX 5070, 32GB of DDR5 RAM, and a 1TB SSD.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/samsungs-fastest-ssd-is-back-to-prime-day-pricing-only-usd30-difference-between-the-much-faster-gen-5-9100-pro-and-gen-4-990",
-      "title": "Samsung's fastest SSD is back to Prime Day pricing — only $30 difference between the much faster Gen 5 9100 Pro and Gen 4 990",
-      "url": "https://www.tomshardware.com/pc-components/ssds/samsungs-fastest-ssd-is-back-to-prime-day-pricing-only-usd30-difference-between-the-much-faster-gen-5-9100-pro-and-gen-4-990",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-31T11:00:29+00:00",
-      "summary": "Returning to Prime Day pricing, Samsung's fastest SSD, the 9100 Pro 2TB, is just $10 more than the previous PCIe generation's champion, the 2TB Samsung 990 Pro SSD.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cooling/modder-der8auer-builds-110cm-3d-printed-chimney-to-passively-cool-ryzen-7-9800x3d-without-fans-radically-simple-pc-mod-cuts-down-cpu-temps-by-19-c-using-the-stack-effect",
-      "title": "Modder der8auer builds 110cm 3D-printed chimney to passively cool Ryzen 7 9800X3D without fans, cuts temps by 19C — radically simple PC mod uses the 'stack effect'",
-      "url": "https://www.tomshardware.com/pc-components/cooling/modder-der8auer-builds-110cm-3d-printed-chimney-to-passively-cool-ryzen-7-9800x3d-without-fans-radically-simple-pc-mod-cuts-down-cpu-temps-by-19-c-using-the-stack-effect",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-31T11:00:00+00:00",
-      "summary": "What if instead of relying on mechanical pressure generated by fans, you could just passively cool your PC using natural convection? That's what der8auer managed to pull off in his new experiment using the stack effect that targets a similar pressure differential but achieves it without any fans.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/robotics/qualcomm-powered-robot-collapses-spectacularly-on-stage-during-presentation-prepared-stagehands-rush-to-cloak-and-then-carry-off-stricken-humanoid",
-      "title": "Qualcomm-powered robot collapses spectacularly on stage during company's keynote — prepared stagehands rush to cloak and then carry off stricken humanoid (updated)",
-      "url": "https://www.tomshardware.com/tech-industry/robotics/qualcomm-powered-robot-collapses-spectacularly-on-stage-during-presentation-prepared-stagehands-rush-to-cloak-and-then-carry-off-stricken-humanoid",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-31T10:40:00+00:00",
-      "summary": "A Qualcomm exec suffered from one of the most disastrous tech demos we’ve ever seen live on stage at Computex 2026 this summer when a humanoid robot spectacularly collapsed.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/mice/keyboard-giant-keychron-launches-nape-pro-wireless-trackball-mouse-rectangular-form-factor-designed-to-sit-under-spacebar-gives-users-six-customizable-buttons-and-a-control-dial",
-      "title": "Keyboard giant Keychron launches Nape Pro wireless trackball mouse — rectangular form factor designed to sit under spacebar gives users six customizable buttons and a control dial",
-      "url": "https://www.tomshardware.com/peripherals/mice/keyboard-giant-keychron-launches-nape-pro-wireless-trackball-mouse-rectangular-form-factor-designed-to-sit-under-spacebar-gives-users-six-customizable-buttons-and-a-control-dial",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-31T10:25:24+00:00",
-      "summary": "The Nape Pro wireless trackball mouse features a rectangular form factor, six customizable buttons, and a control dial. Its unique shape and wireless connectivity let users place it anywhere they like, ensuring that they can easily reach it without taking their hands off the keyboard.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/if-you-own-a-3d-printer-you-absolutely-need-to-try-hi3d",
-      "title": "If You Own a 3D Printer, You Absolutely Need to Try Hi3D",
-      "url": "https://www.tomshardware.com/3d-printing/if-you-own-a-3d-printer-you-absolutely-need-to-try-hi3d",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sponsored",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-31T10:20:00+00:00",
-      "summary": "Let AI Handle Every Tedious Slicing Step in One Click",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -927,27 +927,8 @@
       },
       "duration_sec": null,
       "views": 113,
-      "comments": 74,
+      "comments": 76,
       "published_at": "2026-07-31T13:24:03+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48971128",
-      "title": "Nvidia DGX Spark as a daily driver",
-      "url": "https://daniel.lawrence.lu/blog/2026-07-15-dgx-spark-as-daily-driver/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48971128",
-        "name": "plun9",
-        "hn_url": "https://news.ycombinator.com/item?id=48971128"
-      },
-      "duration_sec": null,
-      "views": 102,
-      "comments": 80,
-      "published_at": "2026-07-19T19:44:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

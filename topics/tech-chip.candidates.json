@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-02T06:09:04.930498+00:00",
+  "fetched_at": "2026-08-03T06:30:34.534621+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 7,
+    "HN · Nvidia": 6,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 29,
+  "total": 28,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -409,27 +409,8 @@
       },
       "duration_sec": null,
       "views": 113,
-      "comments": 74,
+      "comments": 76,
       "published_at": "2026-07-31T13:24:03+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48971128",
-      "title": "Nvidia DGX Spark as a daily driver",
-      "url": "https://daniel.lawrence.lu/blog/2026-07-15-dgx-spark-as-daily-driver/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48971128",
-        "name": "plun9",
-        "hn_url": "https://news.ycombinator.com/item?id=48971128"
-      },
-      "duration_sec": null,
-      "views": 102,
-      "comments": 80,
-      "published_at": "2026-07-19T19:44:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
