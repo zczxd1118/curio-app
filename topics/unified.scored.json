@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "intro": "今日信号：全球AI链遭遇杠杆出清，韩国KOSPI暴跌触发熔断，存储芯片股重挫，但阿里发布千问3.8-Max开源模型，性能对标Anthropic Fable 5，显示国产模型加速追赶。同时，SpaceX首份季报明日发布，或成AI股风向标。",
+  "intro": "今日全球市场被AI去杠杆主导：韩国股市暴跌触发熔断，存储芯片股重挫，但阿里发布千问3.8-Max开源模型，性能对标Anthropic Fable 5，成为罕见亮点。同时，SpaceX首份季报明日发布，或成AI股风向标。建议关注算力链风险重定价与国产模型突破。",
   "headlines": [
     {
       "rank": 1,
@@ -9,22 +9,23 @@
       "url": "https://wallstreetcn.com/articles/3778546",
       "source": "华尔街见闻",
       "stars": 5,
-      "title": "阿里千问3.8-Max发布：2.4万亿参数开源，性能对标Anthropic Fable 5",
-      "lead": "阿里巴巴今日发布千问3.8-Max，参数规模达2.4万亿，为千问家族最强模型，也是首个开源Max级权重的版本（下周发布）。API定价输入2.0美元/百万tokens、输出6.0美元/百万tokens。基准测试显示其编程与通用智能体能力与Anthropic Fable5相当，部分指标超越，并在芯片设计、量化研究、电商模拟等长程任务中展现出显著的自主执行能力。",
+      "title": "阿里发布千问3.8-Max：2.4万亿参数开源，性能对标Anthropic Fable 5",
+      "lead": "阿里巴巴今日发布千问3.8-Max，参数规模达2.4万亿，是千问家族最强模型，也是首个开源Max级权重版本（下周发布）。API定价输入2.0美元/百万tokens、输出6.0美元/百万tokens。基准测试显示其编程与通用智能体能力与Anthropic Fable 5相当，部分指标超越，并在芯片设计、量化研究、电商模拟等长程任务中展现出显著的自主执行能力。",
       "confirmed": [
-        "千问3.8-Max参数规模达2.4万亿，为千问家族迄今最强模型。",
-        "API定价输入2.0美元/百万tokens，输出6.0美元/百万tokens。",
-        "基准测试显示编程与通用智能体能力与Anthropic Fable5相当，部分指标超越。",
-        "下周将发布开源Max级权重版本。",
-        "在芯片设计、量化研究、电商模拟等长程任务中展现自主执行能力。"
+        "千问3.8-Max参数规模2.4万亿，为千问家族迄今最强模型",
+        "API定价输入2.0美元/百万tokens，输出6.0美元/百万tokens",
+        "基准测试显示编程与通用智能体能力与Anthropic Fable 5相当，部分指标超越",
+        "在芯片设计、量化研究、电商模拟等长程任务中展现出显著的自主执行能力",
+        "下周将发布开源Max级权重版本"
       ],
       "judgment": [
-        "开源版本的具体性能表现尚需实测验证。",
-        "与Anthropic Fable5的对比基准是否全面、客观存疑。",
-        "长程任务中的自主执行能力是否稳定可靠仍需更多测试。",
-        "2.4万亿参数的实际推理成本和部署难度尚未明确。"
+        "开源版本是否完全开放权重尚待确认，可能有限制",
+        "与Anthropic Fable 5的对比基准是否全面、有无 cherry-picking 未知",
+        "长程任务表现是否能在实际应用中复现，需进一步验证",
+        "2.4万亿参数的推理成本与部署门槛是否可控，尚不明确",
+        "开源后社区生态能否快速跟进，形成实际影响力，仍需观察"
       ],
-      "implication": "你应该关注这个模型的开源版本，它可能成为你个人Agent项目的强大基座。2.4万亿参数但API定价不高，意味着你可以用较低成本测试其长程任务能力。下周开源后，建议立即在本地或云端部署，对比Claude Code和Codex在vibe coding场景下的表现，或许能发现新的工作流优化点。"
+      "implication": "这是你该立刻试用的模型：2.4万亿参数开源且API价格不高，直接对标Claude级别。建议下周权重开放后，在你的content-curator项目里跑一遍长程任务，比如自动抓取、摘要、生成报告，对比Claude Code的实际效果。如果编程能力真的接近Fable 5，你完全可以把它接入Claude Code作为替代后端，省下不少API费用。"
     },
     {
       "rank": 2,
@@ -33,170 +34,202 @@
       "url": "https://wallstreetcn.com/articles/3778557",
       "source": "华尔街见闻",
       "stars": 5,
-      "title": "KOSPI暴跌超5%触发熔断，韩国监管拟强制降杠杆ETF倍数至1倍",
-      "lead": "韩股今日再遭重挫，KOSDAQ触发熔断机制，三星电子、SK海力士单日跌超7%。监管层加速推进“紧急行动权限”立法，拟在市场剧烈波动时直接将单股杠杆ETF倍数从2倍强制下调至1.5倍乃至1.1倍。但机构普遍判断杠杆风险尚未完全出清，8月中旬政策落地前韩股高波动格局难以打破。",
+      "title": "韩国KOSPI暴跌超5%触发熔断，监管拟砍杠杆ETF倍数至1倍",
+      "lead": "韩股再遭重挫，KOSDAQ触发熔断机制，三星电子、SK海力士单日跌超7%。监管层随即加速推进“紧急行动权限”立法，拟在市场剧烈波动时直接将单股杠杆ETF倍数从2倍强制下调至1.5倍乃至1.1倍。但机构普遍判断杠杆风险尚未完全出清，8月中旬政策落地前韩股高波动格局难以打破。",
       "confirmed": [
-        "KOSPI今日暴跌超5%，KOSDAQ触发熔断。",
-        "三星电子、SK海力士单日跌超7%。",
-        "韩国监管拟在市场剧烈波动时强制下调杠杆ETF倍数至1.5倍乃至1.1倍。",
-        "机构判断杠杆风险尚未完全出清。",
-        "8月中旬政策落地前韩股高波动格局难改。"
+        "KOSPI暴跌超5%，KOSDAQ触发熔断",
+        "三星电子、SK海力士单日跌超7%",
+        "韩国监管拟将单股杠杆ETF倍数从2倍强制下调至1.5倍乃至1.1倍",
+        "监管加速推进“紧急行动权限”立法",
+        "机构判断杠杆风险尚未完全出清"
       ],
       "judgment": [
-        "监管强制降杠杆能否有效抑制市场波动尚待观察。",
-        "杠杆ETF倍数下调可能引发进一步抛售。",
-        "韩国监管的“紧急行动权限”立法能否顺利通过存在变数。",
-        "全球AI链去杠杆是否接近尾声仍不确定。"
+        "监管措施能否有效遏制杠杆风险，尚不确定",
+        "8月中旬政策落地前市场高波动格局能否打破，存疑",
+        "韩国股市暴跌是否引发全球连锁反应，需观察",
+        "杠杆ETF倍数下调对市场流动性的影响，有待评估",
+        "三星、SK海力士等权重股后续走势，取决于AI需求是否真实放缓"
       ],
-      "implication": "韩国是全球AI链的“金丝雀”，这次暴跌和监管动作可能预示全球AI股去杠杆的持续。你如果持有相关资产或关注AI基础设施投资，应警惕短期波动。但这也可能是布局优质AI公司的机会，建议关注存储芯片和AI算力板块的长期逻辑是否改变。"
+      "implication": "韩国是全球AI周期的金丝雀，这次暴跌是杠杆出清，不是AI需求逆转。但你要警惕：如果存储芯片价格见顶，你的AI项目成本可能下降，但相关股票风险加大。别碰杠杆ETF，也别抄底。关注8月中旬政策落地后的市场反应，那才是真正的方向信号。"
     },
     {
       "rank": 3,
-      "domain": "AI 算力 / 半导体",
-      "id": "hn:49122838",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
-      "source": "Bloomberg",
+      "domain": "半导体",
+      "id": "wscn:3778549",
+      "url": "https://wallstreetcn.com/articles/3778549",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "月之暗面Kimi基于阿里2万块Nvidia芯片集群，算力军备竞赛白热化",
-      "lead": "据彭博社报道，Moonshot AI的Kimi模型基于阿里巴巴提供的2万块Nvidia芯片集群训练。这一消息凸显了国产大模型对高端算力的巨大需求，以及阿里在AI基础设施上的布局。在韩国存储芯片暴跌的背景下，算力资源的争夺成为AI竞争的关键。",
+      "title": "三星芯片工程师集体跳槽SK海力士，HBM奖金高达47.6万美元",
+      "lead": "AI芯片军备赛引爆半导体人才战争。SK海力士凭借HBM芯片豪掷47.6万美元奖金，三星某个工程师部门集体倒戈——30人团队几乎全员投递竞争对手简历，连老板也鼓励跳槽。三星诉诸法院、美光工人酝酿罢工，一场由AI红利分配不均引发的全球芯片人才争夺战正全面升级。",
       "confirmed": [
-        "Kimi模型基于阿里提供的2万块Nvidia芯片集群。",
-        "该集群用于训练Kimi模型。",
-        "阿里在AI基础设施上进行了大规模投入。"
+        "SK海力士为HBM芯片人才提供高达47.6万美元奖金",
+        "三星某工程师部门30人团队几乎全员投递SK海力士简历",
+        "三星已诉诸法院应对人才流失",
+        "美光工人酝酿罢工",
+        "AI红利分配不均引发全球芯片人才争夺战"
       ],
       "judgment": [
-        "该集群的具体规模和训练成本未公开。",
-        "阿里与Moonshot的合作细节尚不明确。",
-        "国产模型对Nvidia芯片的依赖程度可能引发供应链风险。"
+        "人才流失对三星HBM业务的具体影响尚待评估",
+        "SK海力士能否持续高薪挖角，取决于HBM市场景气度",
+        "法院诉讼结果未知，可能影响人才流动",
+        "美光罢工是否扩大，需关注",
+        "人才争夺战是否推高整个行业的薪酬成本，尚不明确"
       ],
-      "implication": "这则新闻告诉你，算力依然是AI竞争的核心壁垒。你正在构建个人Agent项目，虽然不需要2万块芯片，但理解算力成本对模型选择很重要。可以关注阿里云等平台的算力租赁服务，以低成本获取高性能计算资源，优化你的Agent开发。"
+      "implication": "这不仅是八卦，对你意味着：HBM是AI算力的瓶颈，人才争夺加剧说明这个领域有多火。如果你未来想切入AI硬件或芯片相关项目，HBM是个方向。另外，这也解释了为什么存储芯片价格高企——人力成本在涨。你可以关注SK海力士的技术路线，它可能影响未来AI芯片的供应格局。"
     },
     {
       "rank": 4,
       "domain": "大厂 AI 动态",
-      "id": "hn:49111237",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "source": "Google DeepMind",
-      "stars": 4,
-      "title": "Gemini Robotics 2发布：全身智能机器人，AI从数字走向物理世界",
-      "lead": "Google DeepMind今日发布Gemini Robotics 2，为机器人带来“全身智能”，使其能够协调整个身体进行复杂操作。这是AI从纯数字领域向物理世界延伸的重要一步。对于关注AI Agent的你，这意味着Agent的能力边界正在从软件扩展到硬件。",
-      "confirmed": [
-        "Gemini Robotics 2发布，带来全身智能。",
-        "机器人能够协调整个身体进行复杂操作。",
-        "这是AI从数字领域向物理世界延伸的重要进展。"
-      ],
-      "judgment": [
-        "Gemini Robotics 2的实际性能和应用场景尚待验证。",
-        "全身智能技术的成熟度可能仍需多年。",
-        "对个人开发者而言，相关工具链是否开放尚不明确。"
-      ],
-      "implication": "虽然你目前专注于软件Agent，但Gemini Robotics 2预示着AI Agent的未来可能涉及物理世界。你可以关注其API和工具链，未来或许能结合你的电子信息工程背景，开发软硬件结合的Agent项目。现在可以先了解其技术架构，为长期规划做准备。"
-    },
-    {
-      "rank": 5,
-      "domain": "股票",
       "id": "wscn:3778555",
       "url": "https://wallstreetcn.com/articles/3778555",
       "source": "华尔街见闻",
       "stars": 4,
-      "title": "SpaceX首份季报明日发布：股价已跌46%，能否扭转颓势？",
+      "title": "SpaceX首份季报明日发布，股价已跌46%面临12亿股解禁",
       "lead": "SpaceX将于8月4日发布上市后首份季报。尽管其股价自高点已下挫46%且面临超12亿股解禁抛压，但市场聚焦于AI数据中心租赁带来的营收弹性、Starlink订阅用户增长以及Starship第14次飞测进展。华尔街预估二季度营收约69亿美元，该财报被视为能否扭转股价颓势的关键。",
       "confirmed": [
-        "SpaceX将于8月4日发布上市后首份季报。",
-        "股价自高点已下挫46%。",
-        "面临超12亿股解禁抛压。",
-        "华尔街预估二季度营收约69亿美元。"
+        "SpaceX将于8月4日发布上市后首份季报",
+        "股价自高点已下挫46%",
+        "面临超12亿股解禁抛压",
+        "华尔街预估二季度营收约69亿美元",
+        "市场关注AI数据中心租赁、Starlink订阅用户增长、Starship第14次飞测进展"
       ],
       "judgment": [
-        "AI数据中心租赁带来的营收弹性是否兑现存疑。",
-        "Starlink订阅用户增长能否超预期不确定。",
-        "Starship第14次飞测进展可能影响市场情绪。",
-        "财报能否扭转股价颓势尚待观察。"
+        "财报能否扭转股价颓势，尚不确定",
+        "AI数据中心租赁带来的营收弹性有多大，需看具体数字",
+        "12亿股解禁抛压是否导致股价进一步下跌，未知",
+        "Starship第14次飞测进展是否顺利，影响市场情绪",
+        "Starlink订阅用户增长是否达到预期，待验证"
       ],
-      "implication": "SpaceX的财报是明日全球科技股的重要风向标。你作为AI产品爱好者，可以关注其AI数据中心业务，这反映了科技巨头对算力的需求。如果财报超预期，可能提振整个AI板块；反之则可能加剧市场担忧。建议明天留意财报发布后的市场反应。"
+      "implication": "SpaceX是AI+航天交叉的标杆，它的财报会告诉你AI基建的真实需求。如果你在考虑相关投资或职业方向，这份财报值得细读。重点关注AI数据中心租赁的营收贡献，这能反映大厂对算力的真实投入。另外，解禁压力可能带来短期波动，别急着入场。"
+    },
+    {
+      "rank": 5,
+      "domain": "AI",
+      "id": "bvid:BV172GP6rEZs",
+      "url": "http://www.bilibili.com/video/av117014605731815",
+      "source": "AI超元域",
+      "stars": 4,
+      "title": "DeepSeek V4 Flash实测：接入Claude Code连续开发7个项目，接近Opus 4.8？",
+      "lead": "DeepSeek 发布了 DeepSeek V4 Flash 0731：284B 总参数、13B 激活参数、100 万 Token 上下文，官方基准表现接近 Claude Opus 4.8。UP主实测接入Claude Code后连续开发7个项目，对比Kimi K3，优点和缺点都藏不住了。这是目前最便宜的国产模型之一，但真实性能如何？",
+      "confirmed": [
+        "DeepSeek V4 Flash 0731发布，284B总参数、13B激活参数、100万Token上下文",
+        "官方基准表现接近Claude Opus 4.8",
+        "UP主实测接入Claude Code连续开发7个项目",
+        "与Kimi K3对比，优缺点明显",
+        "是目前最便宜的国产模型之一"
+      ],
+      "judgment": [
+        "官方基准是否全面，需独立验证",
+        "实测中具体性能表现如何，需看视频细节",
+        "与Claude Opus 4.8的差距在哪些任务上，未知",
+        "100万Token上下文的实际可用性，待测试",
+        "价格优势能否弥补性能短板，需权衡"
+      ],
+      "implication": "这可能是你vibe coding的性价比之选。DeepSeek V4 Flash价格极低，如果实测接近Opus 4.8，你完全可以用它跑日常开发任务，省下大笔API费用。建议看完整视频，重点看它在长上下文和复杂任务上的表现。如果可行，把它接入你的Claude Code工作流，作为低成本备选。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "DeepSeek V4 Flash全面实测：Claude Code接入后连续开发7个项目",
-      "url": "http://www.bilibili.com/video/av117014605731815",
-      "source": "AI超元域",
-      "one_liner": "国产模型DeepSeek V4 Flash实测，性能接近Claude Opus 4.8，性价比高，适合关注国产模型的你。"
-    },
-    {
-      "domain": "AI",
-      "title": "【吴恩达2026】Vibe Coding保姆级教程，手把手从环境搭建到工作流完整闭环！",
+      "title": "吴恩达2026 Vibe Coding保姆级教程：从环境搭建到工作流闭环",
       "url": "http://www.bilibili.com/video/av116951003242391",
       "source": "吴恩达AIAgent",
-      "one_liner": "吴恩达最新Vibe Coding教程，系统讲解标准化AI软件开发流水线，适合提升你的Agent开发技能。"
+      "one_liner": "吴恩达出品，系统讲解标准化AI软件开发流水线，适合你完善个人Agent项目的工作流。"
     },
     {
       "domain": "AI",
-      "title": "用Codex、cursor 还是Claude ？程序员不作选择题，我都要用，还一起用 | Orca ADE 介绍",
-      "url": "http://www.bilibili.com/video/av116996217838997",
-      "source": "技术胖",
-      "one_liner": "开源免费的Agent开发环境Orca ADE，整合多种编程Agent，可能成为你个人Agent项目的新工具。"
+      "title": "OpenClaw高级使用：Claude Code Hooks回调+Agent Teams零轮询",
+      "url": "http://www.bilibili.com/video/av116046157647899",
+      "source": "AI超元域",
+      "one_liner": "解决OpenClaw轮询消耗Token的痛点，用Hooks实现全自动开发，效率提升明显。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia's $750B in Deals Reignite Circular AI Fears",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+      "domain": "AI",
+      "title": "Claude Code Agent Teams上手指南+项目实测",
+      "url": "http://www.bilibili.com/video/av116037064331269",
+      "source": "程序员阿江-Relakkes",
+      "one_liner": "官方Agent Teams功能实战，解决上下文遗忘和串行效率低，适合复杂任务。"
+    },
+    {
+      "domain": "AI",
+      "title": "从夯到拉，锐评32个AI编程工具",
+      "url": "http://www.bilibili.com/video/av116578532200786",
+      "source": "程序员鱼皮",
+      "one_liner": "一口气对比Cursor、Claude Code、Codex等32个工具，帮你选型。"
+    },
+    {
+      "domain": "AI",
+      "title": "让Agent在协作中自进化，清华00后博士获千万元融资",
+      "url": "https://36kr.com/p/3919025939246727?f=rss",
+      "source": "36氪",
+      "one_liner": "AI原生团队协作操作系统Nexus，人、Agent、任务基于同一份状态协作，值得关注。"
+    },
+    {
+      "domain": "半导体",
+      "title": "Moonshot's Kimi uses 20k Nvidia chip cluster from Alibaba",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
       "source": "Bloomberg",
-      "one_liner": "Nvidia 7500亿美元交易引发循环融资担忧，AI泡沫论再起，值得关注但非头条。"
+      "one_liner": "Kimi用阿里2万卡集群，国产大模型算力军备竞赛白热化。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Lumentum CEO warns of impending bottleneck on critical material used for silicon photonics",
+      "domain": "半导体",
+      "title": "Lumentum CEO warns of indium phosphide shortage worse than memory",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/lumentum-ceo-says-the-indium-phosphide-shortage-will-become-worse-than-memory",
       "source": "Tom's Hardware",
-      "one_liner": "磷化铟短缺或比内存更严重，影响硅光子学，对AI算力供应链有深远影响。"
+      "one_liner": "硅光子关键材料磷化铟短缺，或成下一个供应链瓶颈。"
+    },
+    {
+      "domain": "半导体",
+      "title": "CEA-Leti Pushes Stacking Roadmap as AI Runs Into Memory and Power Limits",
+      "url": "https://www.eetimes.com/cea-leti-pushes-stacking-roadmap-as-ai-runs-into-memory-and-power-limits/",
+      "source": "EE Times",
+      "one_liner": "3D堆叠和chiplet成为AI算力突破方向，值得关注。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "source": "DeepMind",
+      "one_liner": "谷歌机器人模型升级，具身智能新进展，但离实际应用尚远。"
     },
     {
       "domain": "大厂 AI 动态",
       "title": "Document-borne AI worms can self-propagate through Copilot for Word",
       "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
-      "source": "Hacker News",
-      "one_liner": "AI蠕虫可通过Word文档在Copilot中自我传播，安全风险值得警惕，但非主流。"
+      "source": "HN",
+      "one_liner": "AI蠕虫可通过Word文档传播，安全风险值得警惕。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "NotebookLM is now Gemini Notebook",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
-      "source": "Google",
-      "one_liner": "NotebookLM更名Gemini Notebook，可能带来新功能，但变化不大。"
+      "title": "办公Agent“三国杀”：字节、阿里、腾讯AI战略吞噬一切",
+      "url": "https://wallstreetcn.com/premium/articles/3778515?layout=wscn-layout",
+      "source": "华尔街见闻",
+      "one_liner": "字节飞书并入豆包，办公Agent大战升级，影响你的工具选择。"
     },
     {
-      "domain": "股票",
-      "title": "Google Discloses $94.1B in SpaceX Stock, Marking 6% Stake",
-      "url": "https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c",
-      "source": "WSJ",
-      "one_liner": "谷歌披露持有SpaceX 6%股份，价值941亿美元，显示科技巨头对太空和AI的交叉投资。"
-    },
-    {
-      "domain": "股票",
-      "title": "高盛旗帜鲜明：这是人类历史上最大规模的资本需求周期，美联储只是看客",
+      "domain": "金融",
+      "title": "高盛：人类历史上最大规模的资本需求周期，美联储只是看客",
       "url": "https://wallstreetcn.com/articles/3778540",
       "source": "华尔街见闻",
-      "one_liner": "高盛认为全球资本需求周期开启，AI基建和再工业化推动，影响投资范式。"
+      "one_liner": "AI基建、再工业化等需求爆发，资本成本结构性抬升，影响所有资产定价。"
+    },
+    {
+      "domain": "金融",
+      "title": "美日联手护盘日元，美国真实动机：防止日本抛售美债？",
+      "url": "https://wallstreetcn.com/articles/3778556",
+      "source": "华尔街见闻",
+      "one_liner": "日元干预背后是美债保卫战，全球金融格局暗流涌动。"
     },
     {
       "domain": "金融",
       "title": "Stripe and Advent have made a joint offer to acquire PayPal – sources",
       "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
       "source": "Reuters",
-      "one_liner": "Stripe和Advent联合收购PayPal，交易超530亿美元，支付行业格局或将改变。"
-    },
-    {
-      "domain": "金融",
-      "title": "The bond market isn’t buying what Fed Chair Warsh is selling",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/",
-      "source": "Reuters",
-      "one_liner": "债市不信任美联储主席Warsh，利率政策预期分化，影响全球资产定价。"
+      "one_liner": "Stripe联手Advent拟超530亿美元收购PayPal，支付行业大变局。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-03T07:38:35+0000"
+    "scored_at": "2026-08-03T08:33:24+0000"
   }
 }

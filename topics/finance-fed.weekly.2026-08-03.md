@@ -1,30 +1,30 @@
 # Curio · 金融 · 2026-08-03
 
-> 今日 1 条头条 + 2 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今日信号：全球AI链遭遇杠杆出清，韩国KOSPI暴跌触发熔断，存储芯片股重挫，但阿里发布千问3.8-Max开源模型，性能对标Anthropic Fable 5，显示国产模型加速追赶。同时，SpaceX首份季报明日发布，或成AI股风向标。_
+_今日全球市场被AI去杠杆主导：韩国股市暴跌触发熔断，存储芯片股重挫，但阿里发布千问3.8-Max开源模型，性能对标Anthropic Fable 5，成为罕见亮点。同时，SpaceX首份季报明日发布，或成AI股风向标。建议关注算力链风险重定价与国产模型突破。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. KOSPI暴跌超5%触发熔断，韩国监管拟强制降杠杆ETF倍数至1倍
+### 2. 韩国KOSPI暴跌超5%触发熔断，监管拟砍杠杆ETF倍数至1倍
 
 **[金融]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
 
-韩股今日再遭重挫，KOSDAQ触发熔断机制，三星电子、SK海力士单日跌超7%。监管层加速推进“紧急行动权限”立法，拟在市场剧烈波动时直接将单股杠杆ETF倍数从2倍强制下调至1.5倍乃至1.1倍。但机构普遍判断杠杆风险尚未完全出清，8月中旬政策落地前韩股高波动格局难以打破。
+韩股再遭重挫，KOSDAQ触发熔断机制，三星电子、SK海力士单日跌超7%。监管层随即加速推进“紧急行动权限”立法，拟在市场剧烈波动时直接将单股杠杆ETF倍数从2倍强制下调至1.5倍乃至1.1倍。但机构普遍判断杠杆风险尚未完全出清，8月中旬政策落地前韩股高波动格局难以打破。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| KOSPI今日暴跌超5%，KOSDAQ触发熔断。 | 监管强制降杠杆能否有效抑制市场波动尚待观察。 |
-| 三星电子、SK海力士单日跌超7%。 | 杠杆ETF倍数下调可能引发进一步抛售。 |
-| 韩国监管拟在市场剧烈波动时强制下调杠杆ETF倍数至1.5倍乃至1.1倍。 | 韩国监管的“紧急行动权限”立法能否顺利通过存在变数。 |
-| 机构判断杠杆风险尚未完全出清。 | 全球AI链去杠杆是否接近尾声仍不确定。 |
-| 8月中旬政策落地前韩股高波动格局难改。 |  |
+| KOSPI暴跌超5%，KOSDAQ触发熔断 | 监管措施能否有效遏制杠杆风险，尚不确定 |
+| 三星电子、SK海力士单日跌超7% | 8月中旬政策落地前市场高波动格局能否打破，存疑 |
+| 韩国监管拟将单股杠杆ETF倍数从2倍强制下调至1.5倍乃至1.1倍 | 韩国股市暴跌是否引发全球连锁反应，需观察 |
+| 监管加速推进“紧急行动权限”立法 | 杠杆ETF倍数下调对市场流动性的影响，有待评估 |
+| 机构判断杠杆风险尚未完全出清 | 三星、SK海力士等权重股后续走势，取决于AI需求是否真实放缓 |
 
 **📖 主编点评**
 
-韩国是全球AI链的“金丝雀”，这次暴跌和监管动作可能预示全球AI股去杠杆的持续。你如果持有相关资产或关注AI基础设施投资，应警惕短期波动。但这也可能是布局优质AI公司的机会，建议关注存储芯片和AI算力板块的长期逻辑是否改变。
+韩国是全球AI周期的金丝雀，这次暴跌是杠杆出清，不是AI需求逆转。但你要警惕：如果存储芯片价格见顶，你的AI项目成本可能下降，但相关股票风险加大。别碰杠杆ETF，也别抄底。关注8月中旬政策落地后的市场反应，那才是真正的方向信号。
 
 📺 [打开原文](https://wallstreetcn.com/articles/3778557)
 
@@ -32,9 +32,11 @@ _今日信号：全球AI链遭遇杠杆出清，韩国KOSPI暴跌触发熔断，
 
 ## 📋 备选阅读
 
-- [Stripe and Advent have made a joint offer to acquire PayPal – sources](https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/) —— Stripe和Advent联合收购PayPal，交易超530亿美元，支付行业格局或将改变。
-  _Reuters_
-- [The bond market isn’t buying what Fed Chair Warsh is selling](https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/) —— 债市不信任美联储主席Warsh，利率政策预期分化，影响全球资产定价。
+- [高盛：人类历史上最大规模的资本需求周期，美联储只是看客](https://wallstreetcn.com/articles/3778540) —— AI基建、再工业化等需求爆发，资本成本结构性抬升，影响所有资产定价。
+  _华尔街见闻_
+- [美日联手护盘日元，美国真实动机：防止日本抛售美债？](https://wallstreetcn.com/articles/3778556) —— 日元干预背后是美债保卫战，全球金融格局暗流涌动。
+  _华尔街见闻_
+- [Stripe and Advent have made a joint offer to acquire PayPal – sources](https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/) —— Stripe联手Advent拟超530亿美元收购PayPal，支付行业大变局。
   _Reuters_
 
 ---
