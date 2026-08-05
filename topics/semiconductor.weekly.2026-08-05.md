@@ -1,30 +1,50 @@
 # Curio · AI 算力 / 半导体 · 2026-08-05
 
-> 今日 1 条头条 + 3 条备选
+> 今日 2 条头条 + 4 条备选
 
-_AI 算力与股市冰火两重天：一边是 DeepSeek 重启融资、SpaceX 首份季报显示 AI 烧钱凶猛，另一边是德州暂停数据中心并网、存储价格暴涨引发连锁反应。对做 Agent 的你，DeepSeek V4 Flash 接入 Claude Code 的实测和开源模型安全报告更值得关注。_
+_今日核心信号：AI 算力投资与股价剧烈分化，SpaceX 首份财报显示 AI 业务烧钱凶猛，而存储、GPU 价格因供需失衡持续上涨；同时，DeepSeek 重启融资、高盛上调中国大模型收入预期，国产模型正从性价比走向收入兑现。半导体领域，德州暂停数据中心并网、美国拟禁中国光模块，地缘与基建风险升温。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. 德州暂停 1800 个数据中心并网：474GW 电力请求是峰值纪录 5 倍，AI 基建撞上电网墙
+### 2. SpaceX 首份财报：星链日赚 1800 万，AI 日烧 1.7 亿
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Jowi Morales_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _华尔街见闻 API_
 
-德州州长 Abbott 指示 PUCT 和 ERCOT 暂停所有数据中心并网申请，直到完成审计。474GW 的电力请求是峰值纪录的 5 倍，这个数字比美国全国发电能力还高。AI 算力扩张第一次在物理世界撞上硬约束。
+SpaceX 发布上市后首份季报，营收同比暴增 92% 至 78 亿美元，但 AI 单季资本开支高达 158 亿美元，超过英伟达全年研发预算。星链业务快速盈利，而 AI 算力扩张激进，马斯克试图在三种商业张力中维持平衡。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 德州州长 Greg Abbott 指示 PUCT 和 ERCOT 暂停所有数据中心并网申请 | 审计结果和恢复并网的时间表尚不明确 |
-| 474GW 电力请求是峰值纪录的 5 倍，涉及 1800 个数据中心 | 其他州可能跟进类似限制，影响全国数据中心布局 |
-| 暂停将持续到完成对数据中心开发商提交信息的审计 | 电力短缺是否会推高 AI 算力成本，进而影响模型价格 |
-| 此前德州被宣传为 AI 中心，宽松监管和充足电力是卖点 | 对现有数据中心项目的影响程度需要评估 |
-|  | 是否会导致算力向海外转移，值得关注 |
+| SpaceX 营收同比增 92% 至 78 亿美元 | SpaceX 能否同时支撑星链、AI、星舰三线作战存疑 |
+| AI 单季资本开支 158 亿美元，超过英伟达全年研发预算 | AI 资本开支的回报周期尚不明确 |
+| 星链业务日赚 1800 万美元 | 市场对 SpaceX 的估值是否已反映 AI 业务风险未知 |
+| AI 业务日烧 1.7 亿美元 |  |
 
 **📖 主编点评**
 
-这对你意味着 AI 算力成本可能上升，尤其是如果你依赖美国数据中心。短期看，模型 API 价格可能上涨；长期看，算力地理分布会变化。做 Agent 项目时，建议多关注国产算力和边缘部署方案，降低成本风险。
+SpaceX 的 AI 烧钱速度说明算力军备竞赛远未结束。你作为 AI 产品开发者，应关注算力成本趋势，这可能影响你部署模型的成本预算。同时，星链的盈利模式值得借鉴，或许你的 Agent 项目也能探索类似的订阅制。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3778720)
+
+---
+
+### 3. 德州暂停 1800 个数据中心并网，474GW 电力请求遭冻结
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Jowi Morales_
+
+德州州长 Greg Abbott 指示 PUCT 和 ERCOT 暂停所有数据中心并网申请，直到完成审计。目前电力请求总量达 474GW，是峰值记录的五倍。此举可能影响全美 AI 算力扩张节奏。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 德州暂停 1800 个数据中心并网申请 | 审计何时完成、是否恢复并网尚不确定 |
+| 电力请求总量 474GW，是峰值记录的五倍 | 对已开工项目的影响程度未知 |
+| 州长要求 PUCT 和 ERCOT 完成审计后再恢复 | 其他州是否会效仿德州的做法待观察 |
+| 此举可能影响 AI 算力扩张 |  |
+
+**📖 主编点评**
+
+数据中心电力瓶颈正在成为 AI 发展的硬约束。你如果考虑自建或使用本地模型，需关注电力成本与供应稳定性。这也可能推动边缘计算和模型优化需求，你的 Agent 项目可考虑轻量化部署。
 
 📺 [打开原文](https://www.tomshardware.com/tech-industry/data-centers/texas-slams-on-the-breaks-for-1-800-data-centers-power-grid-requirements-are-five-times-higher-than-peak-record-demand-474-gigawatts-of-power-requests-are-now-subject-to-new-moratorium)
 
@@ -32,11 +52,13 @@ _AI 算力与股市冰火两重天：一边是 DeepSeek 重启融资、SpaceX �
 
 ## 📋 备选阅读
 
-- [AMD 数据中心收入翻倍，游戏业务暴跌 31%](https://www.tomshardware.com/tech-industry/amd-doubles-data-center-revenue-year-over-year-but-gaming-revenue-plunged-by-31-percent-ceo-lisa-su-says-prices-have-weighed-on-consumer-demand-but-is-optimistic-about-client-market) —— Q2 营收创纪录，数据中心业务同比翻倍至 67 亿美元，但游戏业务拖后腿，Lisa Su 对客户端市场乐观。
+- [AMD 数据中心收入翻倍，游戏业务下滑 31%](https://www.tomshardware.com/tech-industry/amd-doubles-data-center-revenue-year-over-year-but-gaming-revenue-plunged-by-31-percent-ceo-lisa-su-says-prices-have-weighed-on-consumer-demand-but-is-optimistic-about-client-market) —— AMD 财报显示 AI 算力需求强劲，但消费市场疲软，关注后续产品策略。
   _Jake Roach_
-- [美国考虑禁止中国光模块进入数据中心，中国称将反制](https://www.tomshardware.com/tech-industry/data-centers/us-mulling-ban-on-key-chinese-networking-tech-in-data-center-component-crackdown-white-house-wants-to-impose-restrictions-in-2026-china-says-it-will-respond-if-necessary) —— FCC 起草禁令，限制中国光收发器，可能影响数据中心供应链，2026 年实施。
+- [美国拟禁止中国光模块，数据中心供应链再受冲击](https://www.tomshardware.com/tech-industry/data-centers/us-mulling-ban-on-key-chinese-networking-tech-in-data-center-component-crackdown-white-house-wants-to-impose-restrictions-in-2026-china-says-it-will-respond-if-necessary) —— 地缘政治影响硬件供应链，可能推高成本，关注后续政策。
   _Jowi Morales_
-- [Kioxia 和 SanDisk 展示 332 层 3D NAND，密度创纪录](https://www.tomshardware.com/pc-components/ssds/kioxia-and-sandisk-demonstrate-the-worlds-highest-density-3d-nand-flash-332-active-layers-and-up-to-4-800-mt-s-interface) —— BiCS10 3D QLC NAND，面积密度超 37 Gbit/mm²，存储技术持续突破。
+- [Renesas 发布 Gen3 DDR5 MRDIMM，带宽 16,000 MT/s](https://www.eetimes.com/renesas-tackles-memory-bottleneck-with-mrdimm-update/) —— 内存技术突破，缓解 AI 算力瓶颈，但商用尚早。
+  _Gary Hilson_
+- [Kioxia 和 Sandisk 展示 332 层 3D NAND，密度创纪录](https://www.tomshardware.com/pc-components/ssds/kioxia-and-sandisk-demonstrate-the-worlds-highest-density-3d-nand-flash-332-active-layers-and-up-to-4-800-mt-s-interface) —— 存储技术迭代，未来可能降低 SSD 成本，但量产时间未知。
   _Anton Shilov_
 
 ---
