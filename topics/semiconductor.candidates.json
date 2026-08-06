@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-08-05T05:51:47.369418+00:00",
+  "fetched_at": "2026-08-06T05:55:47.606138+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -197,6 +197,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
+      "title": "Samsung Lays Out AI Memory Roadmap",
+      "url": "https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T21:35:58+00:00",
+      "summary": "Samsung bets on zHBM and zNAND-O to smash AI’s memory wall, promising 8× HBM5 performance and 3D stacks. The post Samsung Lays Out AI Memory Roadmap appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/safeguarding-fab-throughput-with-ai-augmented-data-insights/",
+      "title": "Safeguarding Fab Throughput with AI-Augmented Data Insights",
+      "url": "https://www.eetimes.com/safeguarding-fab-throughput-with-ai-augmented-data-insights/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alessandro Chimera, Industry Solutions Lead, Spotfire",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T13:00:00+00:00",
+      "summary": "Discover how a Al-infused visual analytics platform empower engineers to solve complex manufacturing challenges for faster root cause analysis. The post Safeguarding Fab Throughput with AI-Augmented Data Insights appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/unstacking-the-future-navigating-the-3d-ic-frontier/",
+      "title": "Unstacking the Future: Navigating the 3D IC Frontier",
+      "url": "https://www.eetimes.com/unstacking-the-future-navigating-the-3d-ic-frontier/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Piyush Sancheti, VP Central Engineering Solutions (3D IC), and Todd Burkholder, 3D IC Technology Writer, Siemens EDA",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T13:00:00+00:00",
+      "summary": "3D IC introduces new system-level hurdles that demand innovative 3D IC solutions that address exploration, design, analysis, reliability, and test. The post Unstacking the Future: Navigating the 3D IC Frontier appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/neuromorphic-insect-eye-for-physical-ai/",
+      "title": "Insect-Inspired Neuromorphic Sensor Targets Physical AI",
+      "url": "https://www.eetimes.com/neuromorphic-insect-eye-for-physical-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T12:30:00+00:00",
+      "summary": "Neuromorphic engineering could address the latency and power limitations of conventional cameras. The post Insect-Inspired Neuromorphic Sensor Targets Physical AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/electronica-2026-electronics-as-the-basis-of-the-all-electric-society/",
+      "title": "electronica 2026: Electronics as the Basis of the All-Electric Society",
+      "url": "https://www.eetimes.com/electronica-2026-electronics-as-the-basis-of-the-all-electric-society/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T07:30:00+00:00",
+      "summary": "electronica 2026 puts chips, AI, energy efficiency, and cyber resilience at the heart of the all-electric society. The post electronica 2026: Electronics as the Basis of the All-Electric Society appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/automotive-cybersecurity-ai-attack-surfaces-grow/",
       "title": "Automotive Cybersecurity: AI Attack Surfaces Grow",
       "url": "https://www.eetimes.com/automotive-cybersecurity-ai-attack-surfaces-grow/",
@@ -282,88 +367,224 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/video-interview-chipagents-ceo-on-latest-funding-for-agentic-ai-in-eda/",
-      "title": "Video Interview: ChipAgents CEO on Latest Funding for Agentic AI in EDA",
-      "url": "https://www.eetimes.com/video-interview-chipagents-ceo-on-latest-funding-for-agentic-ai-in-eda/",
+      "id": "rss:https://www.tomshardware.com/video-games/xbox/microsoft-wants-the-next-gen-xbox-helix-to-play-every-xbox-game-ever-made-as-it-urges-publishers-to-opt-in-new-report-also-claims-xbox-360-games-coming-to-pc-soon",
+      "title": "Microsoft wants the next-gen Xbox Helix to play every Xbox game ever made as it urges publishers to opt in — New report also claims Xbox 360 games coming to PC soon",
+      "url": "https://www.tomshardware.com/video-games/xbox/microsoft-wants-the-next-gen-xbox-helix-to-play-every-xbox-game-ever-made-as-it-urges-publishers-to-opt-in-new-report-also-claims-xbox-360-games-coming-to-pc-soon",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-03T14:07:19+00:00",
-      "summary": "ChipAgents raises $60M as EDA’s AI gold rush heats up, pitching autonomous chip-design agents over tired copilots. The post Video Interview: ChipAgents CEO on Latest Funding for Agentic AI in EDA appeared first on EE Times.",
+      "published_at": "2026-08-05T14:51:31+00:00",
+      "summary": "The upcoming Xbox Helix is starting to feel more like a PC than any console before, and Microsoft's latest efforts to unite all Xbox generations under one roof, according to a new leaked memo, seem to signal that very explicitly.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/nxp-eying-ambarella-is-it-about-automotive-or-edge-ai/",
-      "title": "NXP Eying Ambarella: Is It About Automotive or Edge AI?",
-      "url": "https://www.eetimes.com/nxp-eying-ambarella-is-it-about-automotive-or-edge-ai/",
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/usd4-429-order-for-a-rog-astral-rtx-5090-cancelled-by-nvidia-due-to-a-late-price-increase-with-asus-blamed-marketplace-buyer-refunded-after-immediate-usd500-increase-with-top-spec-gpu-now-almost-2-5x-higher-than-msrp",
+      "title": "$4,429 order for a ROG Astral RTX 5090 cancelled by Nvidia due to a 'late' price increase, with Asus blamed — marketplace buyer refunded after immediate $500 increase, with top-spec GPU now almost 2.5x higher than MSRP",
+      "url": "https://www.tomshardware.com/pc-components/gpus/usd4-429-order-for-a-rog-astral-rtx-5090-cancelled-by-nvidia-due-to-a-late-price-increase-with-asus-blamed-marketplace-buyer-refunded-after-immediate-usd500-increase-with-top-spec-gpu-now-almost-2-5x-higher-than-msrp",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-03T08:24:34+00:00",
-      "summary": "Ambarella has quietly transformed its automotive computer-vision technology to serve edge AI applications. The post NXP Eying Ambarella: Is It About Automotive or Edge AI? appeared first on EE Times.",
+      "published_at": "2026-08-05T14:48:13+00:00",
+      "summary": "Nvidia cancelled a Redditor's Asus ROG Astral RTX 5090 BTF GPU order, originally priced at $4,429, because of a $500 price rise, with Nvidia blaming Asus for the confusion.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/humanoid-manipulation-at-the-edge-of-physical-interaction/",
-      "title": "Humanoid Manipulation at the Edge of Physical Interaction",
-      "url": "https://www.eetimes.com/humanoid-manipulation-at-the-edge-of-physical-interaction/",
+      "id": "rss:https://www.tomshardware.com/pc-components/dram/chinas-cxmt-targets-30-percent-dram-memory-market-share-by-2030-with-sixth-mega-fab-future-plans-bottlenecked-by-access-to-advanced-chipmaking-tools",
+      "title": "China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab — future plans bottlenecked by access to advanced chipmaking tools",
+      "url": "https://www.tomshardware.com/pc-components/dram/chinas-cxmt-targets-30-percent-dram-memory-market-share-by-2030-with-sixth-mega-fab-future-plans-bottlenecked-by-access-to-advanced-chipmaking-tools",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Renesas",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-01T14:00:00+00:00",
-      "summary": "This white paper examines emerging humanoid robot architectures, focusing on how joints and dexterous hands are becoming intelligent, sensor-rich subsystems that require tightly integrated control, communication, and edge processing. It outlines key design challenges and opportunities for building scalable, high-performance humanoid manipulation systems. The post Humanoid Manipulation at the Edge of Physical Interaction appeared first on EE Times.",
+      "published_at": "2026-08-05T14:31:50+00:00",
+      "summary": "ChangXin Memory Technologies (CXMT) began considering building its sixth DRAM fab in China to boost memory output in the coming years. If all announced projects proceed as planned, the company's production capacity could more than double in the mid-term future.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/erp-statistics-insights-from-70-manufacturing-case-studies/",
-      "title": "ERP Statistics: Insights From 70 Manufacturing Case Studies",
-      "url": "https://www.eetimes.com/erp-statistics-insights-from-70-manufacturing-case-studies/",
+      "id": "rss:https://www.tomshardware.com/software/windows/microsoft-quietly-purges-32gb-of-ram-recommendations-from-its-website-company-reels-from-the-effects-of-the-memory-shortage-as-it-released-8gb-base-models-for-surface-laptops-this-year",
+      "title": "Microsoft quietly purges 32GB of RAM recommendations from its website — company reels from the effects of the memory shortage as it released 8GB base models for Surface laptops this year",
+      "url": "https://www.tomshardware.com/software/windows/microsoft-quietly-purges-32gb-of-ram-recommendations-from-its-website-company-reels-from-the-effects-of-the-memory-shortage-as-it-released-8gb-base-models-for-surface-laptops-this-year",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "MRPeasy",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-01T13:00:00+00:00",
-      "summary": "We analyzed 70 customer case studies to better understand the ERP experiences of small manufacturers. Here’s what electronics manufacturers had to say. The post ERP Statistics: Insights From 70 Manufacturing Case Studies appeared first on EE Times.",
+      "published_at": "2026-08-05T13:12:34+00:00",
+      "summary": "Microsoft once recommended 32GB of RAM as a future-proof \"no worries\" upgrade for gamers, but it seems that it wants you to forget that it ever gave that suggestion. That's because laptop manufacturers, including Microsoft itself, has once again started selling models with a base configuration of 8GB of RAM as companies memory prices skyrocket out of control.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/cea-leti-pushes-stacking-roadmap-as-ai-runs-into-memory-and-power-limits/",
-      "title": "CEA-Leti Pushes Stacking Roadmap as AI Runs into Memory and Power Limits",
-      "url": "https://www.eetimes.com/cea-leti-pushes-stacking-roadmap-as-ai-runs-into-memory-and-power-limits/",
+      "id": "rss:https://www.tomshardware.com/pc-components/score-all-the-essentials-of-a-great-gaming-pc-for-only-usd983-98-usd155-savings-nets-9800x3d-1tb-samsung-9100-ssd-16gb-of-ddr5-ram-asus-b850-motherboard-and-free-msi-aio",
+      "title": "Score all the essentials of a great gaming PC for only $983.98 — $155 savings nets 9800X3D, 1TB Samsung 9100 SSD, 16GB of DDR5 RAM, Asus B850 motherboard, and free MSI AIO",
+      "url": "https://www.tomshardware.com/pc-components/score-all-the-essentials-of-a-great-gaming-pc-for-only-usd983-98-usd155-savings-nets-9800x3d-1tb-samsung-9100-ssd-16gb-of-ddr5-ram-asus-b850-motherboard-and-free-msi-aio",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-31T15:48:06+00:00",
-      "summary": "AI’s memory wall is turning packaging into architecture as CEA-Leti bets on 3D stacking, chiplets, and cooler power. The post CEA-Leti Pushes Stacking Roadmap as AI Runs into Memory and Power Limits appeared first on EE Times.",
+      "published_at": "2026-08-05T12:01:51+00:00",
+      "summary": "Save $155 on this 4-item Newegg Gaming PC Combo - $983 buys 9800X3D, Samsung's blazing fast 1TB 9100 Pro SSD, 16GB of RAM, and Asus B850 motherboard",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/us-military-gps-jamming-exercise-suspected-of-contributing-to-civilian-plane-crash-in-new-mexico-medevac-flight-lost-signal-before-flying-into-a-mountain-killing-everyone-onboard",
+      "title": "US military GPS jamming exercise suspected of contributing to civilian plane crash in New Mexico — medevac flight lost signal before flying into a mountain, killing everyone onboard",
+      "url": "https://www.tomshardware.com/tech-industry/us-military-gps-jamming-exercise-suspected-of-contributing-to-civilian-plane-crash-in-new-mexico-medevac-flight-lost-signal-before-flying-into-a-mountain-killing-everyone-onboard",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T12:00:16+00:00",
+      "summary": "A medevac flight in New Mexico suffered from GPS interference due to activities by nearby U.S. military units. Although it didn't directly cause the plane to crash, it added to the stress and workload of the pilots, causing them to miss one crucial piece of information.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-spacex-will-exclusively-use-nvidia-gpus-because-they-are-the-best-says-optimized-vera-rubin-nvl72-will-be-launched-into-space-next-year",
+      "title": "Elon Musk says SpaceX will exclusively use Nvidia GPUs 'because they are the best' — says optimized Vera Rubin NVL72 will be launched into space next year",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-spacex-will-exclusively-use-nvidia-gpus-because-they-are-the-best-says-optimized-vera-rubin-nvl72-will-be-launched-into-space-next-year",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T11:50:34+00:00",
+      "summary": "Elon Musk's SpaceX and xAI will exclusive use Nvidia AI accelerators for training and inference as companies believe Vera Rubin is the best AI compute architecture available today.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/huge-usd750-saving-makes-this-gigabyte-oled-gaming-laptop-with-an-rtx-5070-ti-an-absolute-steal-right-now-just-usd1-999-for-1600p-rig-with-32gb-ddr5-1tb-ssd-and-a-24-core-intel-cpu",
+      "title": "Huge $750 saving makes this Gigabyte OLED gaming laptop with an RTX 5070 Ti an absolute steal right now — just $1,999 for 1600p rig with 32GB DDR5, 1TB SSD, and a 24-core Intel CPU",
+      "url": "https://www.tomshardware.com/laptops/gaming-laptops/huge-usd750-saving-makes-this-gigabyte-oled-gaming-laptop-with-an-rtx-5070-ti-an-absolute-steal-right-now-just-usd1-999-for-1600p-rig-with-32gb-ddr5-1tb-ssd-and-a-24-core-intel-cpu",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T11:06:29+00:00",
+      "summary": "Save $750.99 on this powerhouse Gigabyte Aorus Master OLED gaming laptop with an RTX 5070 Ti and 32GB DDR5 for $1,999.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/liquid-cooling/frore-claims-its-liquidjet-can-drop-nvidia-rubin-gpu-temperatures-by-10-c-can-also-boost-performance-by-15-percent-as-hyperscalers-eye-using-delidded-gpus-in-production-environments",
+      "title": "Frore claims its LiquidJet can drop Nvidia Rubin GPU temperatures by 10°C — can also boost performance by 15% as hyperscalers eye using delidded GPUs in production environments",
+      "url": "https://www.tomshardware.com/pc-components/liquid-cooling/frore-claims-its-liquidjet-can-drop-nvidia-rubin-gpu-temperatures-by-10-c-can-also-boost-performance-by-15-percent-as-hyperscalers-eye-using-delidded-gpus-in-production-environments",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T11:02:00+00:00",
+      "summary": "As cooling becomes a crucial element for economic efficiency of AI data centers, Frore claims that using is LiquidJet coldplate could increase efficiency of token generation by 15%.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/pc-cases/montech-tg3-panoramic-mid-tower-case-review",
+      "title": "Montech TG3 Panoramic Mid-tower case review: a fantastic value, with four included RGB fans and panoramic views",
+      "url": "https://www.tomshardware.com/pc-components/pc-cases/montech-tg3-panoramic-mid-tower-case-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T11:00:00+00:00",
+      "summary": "Montech's TG3 is a marvelous value in the budget mid-tower space, with ample room for components and four included fans. It also offers solid noise-normalized cooling for the CPU and a good all-around noise profile",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/macbooks/best-buy-has-slashed-usd900-off-this-macbook-laden-with-memory-14-inch-m4-pro-with-48gb-of-memory-and-2tb-of-storage-now-only-usd2-999",
+      "title": "Best Buy has slashed $900 off this MacBook laden with memory — 14-inch M4 Pro with 48GB of memory and 2TB of storage now only $2,999",
+      "url": "https://www.tomshardware.com/laptops/macbooks/best-buy-has-slashed-usd900-off-this-macbook-laden-with-memory-14-inch-m4-pro-with-48gb-of-memory-and-2tb-of-storage-now-only-usd2-999",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T10:39:33+00:00",
+      "summary": "In a time of extreme memory and storage pricing, this Apple MacBook Pro deal from Best Buy slashes $900 off the 48GB M4 Pro machine.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/gaming-headsets/glorious-wireless-infiniteplay-gaming-headset-review",
+      "title": "Glorious Wireless InfinitePlay Gaming Headset Review",
+      "url": "https://www.tomshardware.com/peripherals/gaming-headsets/glorious-wireless-infiniteplay-gaming-headset-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Christopher Coke",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T10:00:00+00:00",
+      "summary": "The Glorious Wireless InfinitePlay offers solid sound, quality comms, and never-ending uptime at a reduced price. There’s a handful of trade-offs, but this headset has more wins than losses and is definitely worth considering.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/humble-nas-gets-transformed-into-a-gaming-pc-with-and-rtx-5060-hanging-from-its-side-frankenstein-rig-hides-dedicated-psu-in-drive-bay-to-achieve-vast-performance-increase-over-igpu",
+      "title": "Crazed modder turns NAS into a gaming PC with RTX 5060 hanging from the side, boosts frame rate by 828% — Frankenstein rig hides dedicated PSU in drive bay, breaks Time Spy world record for the onboard CPU",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/humble-nas-gets-transformed-into-a-gaming-pc-with-and-rtx-5060-hanging-from-its-side-frankenstein-rig-hides-dedicated-psu-in-drive-bay-to-achieve-vast-performance-increase-over-igpu",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T09:21:13+00:00",
+      "summary": "A modder has attached a full-sized RTX 5060 graphics card to a ZimaCube 2 NAS server and achieved up to 8x faster performance in games. The jerry-rigged setup doesn't look the most polished, and the CPU is heavily bottlenecked, but it still, uh, exists.",
       "lang": "en"
     },
     {
@@ -656,227 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/dram/new-micron-lawsuit-reignites-fight-over-new-york-fab-complaint-alleges-forever-chemicals-will-flow-into-oneida-river",
-      "title": "New Micron lawsuit reignites fight over New York fab — complaint alleges 'forever chemicals' will flow into Oneida River",
-      "url": "https://www.tomshardware.com/pc-components/dram/new-micron-lawsuit-reignites-fight-over-new-york-fab-complaint-alleges-forever-chemicals-will-flow-into-oneida-river",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T18:04:36+00:00",
-      "summary": "Micron's New York manufacturing facility is back in the crosshairs of another environmental lawsuit, claiming its wastewater and air permits should be nullified.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/in-a-troubling-sign-nvidia-rtx-50-series-prices-jump-up-to-30-percent-in-south-korea-tsmc-wafer-hikes-and-usd20-gddr7-modules-push-rtx-5090-past-usd5-100",
-      "title": "In a troubling sign, Nvidia RTX 50 series prices jump up to 30% in South Korea — TSMC wafer hikes and $20 GDDR7 modules push RTX 5090 past $5,100",
-      "url": "https://www.tomshardware.com/pc-components/gpus/in-a-troubling-sign-nvidia-rtx-50-series-prices-jump-up-to-30-percent-in-south-korea-tsmc-wafer-hikes-and-usd20-gddr7-modules-push-rtx-5090-past-usd5-100",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T16:39:36+00:00",
-      "summary": "The latest round of price increases affects the entire RTX 50 lineup, with premium models bearing the brunt of rising production costs.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-companies-are-now-racing-to-the-bottom-crashing-token-prices-and-competitive-models-push-companies-to-cut-costs",
-      "title": "AI companies are now racing to the bottom — crashing token prices and competitive models push companies to cut costs",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-companies-are-now-racing-to-the-bottom-crashing-token-prices-and-competitive-models-push-companies-to-cut-costs",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jon Martindale",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T16:26:15+00:00",
-      "summary": "All major AI developers are cutting prices to compete with impressive new releases from China. But as they shave margins to remain competitive, the profits they'll need to fulfil investment confidence may end up further out of reach.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/drone-flyover-reveals-rapid-progress-at-elon-musks-atcf-chip-fab-texas-site-prepares-for-all-in-one-logic-memory-and-packaging-facility",
-      "title": "Drone flyover reveals rapid progress at Elon Musk’s new ATCF chip fab — Texas site prepares for all-in-one logic, memory, and packaging facility",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/drone-flyover-reveals-rapid-progress-at-elon-musks-atcf-chip-fab-texas-site-prepares-for-all-in-one-logic-memory-and-packaging-facility",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T15:50:56+00:00",
-      "summary": "July drone flyovers of Elon Musk’s Advanced Technology Chip Fab in Texas appear to confirm progress has 'hit another gear.'",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ddr5/lexar-lists-32gb-ddr5-memory-with-homegrown-chinese-chips-3-999-yuan-usd592-price-undercuts-hopes-for-cheaper-cxmt-powered-ram",
-      "title": "Lexar lists 32GB DDR5 memory with homegrown Chinese chips — 3,999 Yuan ($592) price undercuts hopes for cheaper CXMT-powered RAM",
-      "url": "https://www.tomshardware.com/pc-components/ddr5/lexar-lists-32gb-ddr5-memory-with-homegrown-chinese-chips-3-999-yuan-usd592-price-undercuts-hopes-for-cheaper-cxmt-powered-ram",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T14:51:09+00:00",
-      "summary": "Lexar's latest Thor RGB kit likely uses CXMT-made DRAM, but its pricing remains comparable to premium DDR5 memory from established brands.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/xbox/microsoft-raises-european-xbox-prices-by-up-to-gbp200-rampocalypse-and-component-shortages-force-major-console-markups",
-      "title": "Microsoft raises European Xbox prices by up to £200 — RAMpocalypse and component shortages force major console markups",
-      "url": "https://www.tomshardware.com/video-games/xbox/microsoft-raises-european-xbox-prices-by-up-to-gbp200-rampocalypse-and-component-shortages-force-major-console-markups",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T14:49:11+00:00",
-      "summary": "Xbox price increases across the UK and Europe have been revealed, with prices upped by as much as £170 or €200.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/asus-proart-pa32ucdmr-32-inch-4k-professional-oled-monitor-review",
-      "title": "Asus ProArt PA32UCDMR 32-inch 4K professional OLED monitor review: Precision, speed, and flexibility",
-      "url": "https://www.tomshardware.com/monitors/asus-proart-pa32ucdmr-32-inch-4k-professional-oled-monitor-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Christian Eberle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T13:00:00+00:00",
-      "summary": "Asus delivers professional precision and premium gaming performance with the ProArt PA32UCDMR. It also comes with a slick calibrator and controller combination, and sports an all-metal chassis with elegant style.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/gaming-on-the-4gb-radeon-rx-6500-xt-and-gtx-1650-super-in-2026",
-      "title": "Gaming on the 4GB Radeon RX 6500 XT and GTX 1650 Super in 2026 — upscaling makes low-end GPUs viable for esports and internet cafes",
-      "url": "https://www.tomshardware.com/pc-components/gpus/gaming-on-the-4gb-radeon-rx-6500-xt-and-gtx-1650-super-in-2026",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jeffrey Kampman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T12:30:00+00:00",
-      "summary": "Practically every graphics card introduced since 2022 has had at least 6GB or 8GB of VRAM, but AMD is bucking that trend in 2026 with the new RX 9050 4GB. We dusted off two older 4GB cards to see if that little VRAM means an instant performance cliff.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/ai-enthusiast-mods-bios-with-claude-code-ai-defeats-rsa-2048-signature-checks-and-unlocks-55-hidden-settings",
-      "title": "AI enthusiast unlocks and mods BIOS with Claude Code — AI defeats RSA-2048 signature checks and unlocks 55 hidden settings",
-      "url": "https://www.tomshardware.com/laptops/ai-enthusiast-mods-bios-with-claude-code-ai-defeats-rsa-2048-signature-checks-and-unlocks-55-hidden-settings",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T11:55:17+00:00",
-      "summary": "A Redditor recently unlocked their HP laptop BIOS using Claude Code.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/co-packaged-optics-cpo-foundry-roadmaps-breaking-down-tsmc-intel-samsung-and-globalfoundries-approach-to-next-generation-scale-up-connectivity",
-      "title": "Co-Packaged Optics (CPO) foundry roadmaps — breaking down TSMC, Intel, Samsung, and GlobalFoundries' approach to next-generation scale-up connectivity",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/co-packaged-optics-cpo-foundry-roadmaps-breaking-down-tsmc-intel-samsung-and-globalfoundries-approach-to-next-generation-scale-up-connectivity",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T11:45:50+00:00",
-      "summary": "As AI systems outgrow copper interconnects, TSMC, Intel, Samsung Foundry, and GlobalFoundries are pursuing four distinctly different co-packaged optics strategies to bring optical connectivity closer to compute.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/gpu-prices-for-current-gen-nvidia-and-amd-price-increases-why-have-the-prices-not-dropped-and-can-you-still-buy-a-cheap-gpu",
-      "title": "GPU prices keep surging in 2026 — Lack of sale discounts and rising VRAM costs keep current-gen prices sky-high",
-      "url": "https://www.tomshardware.com/pc-components/gpus/gpu-prices-for-current-gen-nvidia-and-amd-price-increases-why-have-the-prices-not-dropped-and-can-you-still-buy-a-cheap-gpu",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T11:30:00+00:00",
-      "summary": "AI, tariffs, and greed have put pressure on PC builders wanting a new GPU. Can you still get a cheap GPU?",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/controllers-gamepads/arm-yourself-with-a-hall-effect-controller-for-just-usd9-gamesirs-tegenaria-lite-pc-controller-is-50-percent-off-for-a-limited-time",
-      "title": "Arm yourself with a Hall Effect controller for just $9 — GameSir's Tegenaria Lite PC controller is 50% off for a limited time",
-      "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/arm-yourself-with-a-hall-effect-controller-for-just-usd9-gamesirs-tegenaria-lite-pc-controller-is-50-percent-off-for-a-limited-time",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T11:00:52+00:00",
-      "summary": "Pick up a gaming controller complete with drift-free hall-effect thumbsticks for half the price.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/worlds-smallest-gpu-silicon-passes-real-world-testing-240-000-transistor-tinygpu-v2-0-renders-3d-graphics-at-up-to-15-fps-while-v3-0-prepares-for-2026-release",
-      "title": "World’s smallest GPU silicon passes real-world testing — 240,000-transistor TinyGPU v2.0 renders 3D graphics at up to 15 FPS while v3.0 prepares for 2026 release",
-      "url": "https://www.tomshardware.com/pc-components/gpus/worlds-smallest-gpu-silicon-passes-real-world-testing-240-000-transistor-tinygpu-v2-0-renders-3d-graphics-at-up-to-15-fps-while-v3-0-prepares-for-2026-release",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T11:00:00+00:00",
-      "summary": "The TinyGPU v2.0 'standalone GPU' silicon works, and was demonstrated in a video after it came back from its Tiny Tapeout production run.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -934,6 +934,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49189234",
+      "title": "NVIDIA’s Vera Whitepaper Has a Thread Loose",
+      "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49189234",
+        "name": "pella",
+        "hn_url": "https://news.ycombinator.com/item?id=49189234"
+      },
+      "duration_sec": null,
+      "views": 112,
+      "comments": 17,
+      "published_at": "2026-08-05T21:24:45+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49071512",
       "title": "Nvidia's $750B in Deals Reignite Circular AI Fears",
       "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
@@ -948,25 +967,6 @@
       "views": 81,
       "comments": 77,
       "published_at": "2026-07-27T16:02:00+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49012431",
-      "title": "Nvidia released its first official GeForce driver for Windows on Arm",
-      "url": "https://videocardz.com/newz/nvidias-first-geforce-driver-for-windows-on-arm-confirms-rtx-spark-n1x-with-6144-or-5120-cuda-cores",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49012431",
-        "name": "robotnikman",
-        "hn_url": "https://news.ycombinator.com/item?id=49012431"
-      },
-      "duration_sec": null,
-      "views": 21,
-      "comments": 4,
-      "published_at": "2026-07-22T19:49:57+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1105,6 +1105,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49177126",
+      "title": "It looks like 'Big Short' investor Michael Burry nailed bet against chip stocks",
+      "url": "https://www.businessinsider.com/big-short-michael-burry-ai-chip-stocks-soxx-nvidia-substack-2026-8",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49177126",
+        "name": "mapping365",
+        "hn_url": "https://news.ycombinator.com/item?id=49177126"
+      },
+      "duration_sec": null,
+      "views": 17,
+      "comments": 2,
+      "published_at": "2026-08-05T00:30:23+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49075171",
       "title": "Sam Altman says we are in the singularity: 'This is the moment'",
       "url": "https://www.businessinsider.com/sam-altman-openai-the-singularity-agi-prediction-anthropic-nvidia-2026-7",
@@ -1119,25 +1138,6 @@
       "views": 15,
       "comments": 14,
       "published_at": "2026-07-27T20:35:02+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49177126",
-      "title": "It looks like 'Big Short' investor Michael Burry nailed bet against chip stocks",
-      "url": "https://www.businessinsider.com/big-short-michael-burry-ai-chip-stocks-soxx-nvidia-substack-2026-8",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49177126",
-        "name": "mapping365",
-        "hn_url": "https://news.ycombinator.com/item?id=49177126"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 2,
-      "published_at": "2026-08-05T00:30:23+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

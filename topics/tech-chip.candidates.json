@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-05T05:52:18.582631+00:00",
+  "fetched_at": "2026-08-06T05:56:18.824255+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 6,
+    "HN · Nvidia": 7,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 28,
+  "total": 29,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
+      "title": "Samsung Lays Out AI Memory Roadmap",
+      "url": "https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T21:35:58+00:00",
+      "summary": "Samsung bets on zHBM and zNAND-O to smash AI’s memory wall, promising 8× HBM5 performance and 3D stacks. The post Samsung Lays Out AI Memory Roadmap appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/safeguarding-fab-throughput-with-ai-augmented-data-insights/",
+      "title": "Safeguarding Fab Throughput with AI-Augmented Data Insights",
+      "url": "https://www.eetimes.com/safeguarding-fab-throughput-with-ai-augmented-data-insights/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alessandro Chimera, Industry Solutions Lead, Spotfire",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T13:00:00+00:00",
+      "summary": "Discover how a Al-infused visual analytics platform empower engineers to solve complex manufacturing challenges for faster root cause analysis. The post Safeguarding Fab Throughput with AI-Augmented Data Insights appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/unstacking-the-future-navigating-the-3d-ic-frontier/",
+      "title": "Unstacking the Future: Navigating the 3D IC Frontier",
+      "url": "https://www.eetimes.com/unstacking-the-future-navigating-the-3d-ic-frontier/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Piyush Sancheti, VP Central Engineering Solutions (3D IC), and Todd Burkholder, 3D IC Technology Writer, Siemens EDA",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T13:00:00+00:00",
+      "summary": "3D IC introduces new system-level hurdles that demand innovative 3D IC solutions that address exploration, design, analysis, reliability, and test. The post Unstacking the Future: Navigating the 3D IC Frontier appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/neuromorphic-insect-eye-for-physical-ai/",
+      "title": "Insect-Inspired Neuromorphic Sensor Targets Physical AI",
+      "url": "https://www.eetimes.com/neuromorphic-insect-eye-for-physical-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T12:30:00+00:00",
+      "summary": "Neuromorphic engineering could address the latency and power limitations of conventional cameras. The post Insect-Inspired Neuromorphic Sensor Targets Physical AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/electronica-2026-electronics-as-the-basis-of-the-all-electric-society/",
+      "title": "electronica 2026: Electronics as the Basis of the All-Electric Society",
+      "url": "https://www.eetimes.com/electronica-2026-electronics-as-the-basis-of-the-all-electric-society/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-05T07:30:00+00:00",
+      "summary": "electronica 2026 puts chips, AI, energy efficiency, and cyber resilience at the heart of the all-electric society. The post electronica 2026: Electronics as the Basis of the All-Electric Society appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/automotive-cybersecurity-ai-attack-surfaces-grow/",
       "title": "Automotive Cybersecurity: AI Attack Surfaces Grow",
       "url": "https://www.eetimes.com/automotive-cybersecurity-ai-attack-surfaces-grow/",
@@ -274,91 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/video-interview-chipagents-ceo-on-latest-funding-for-agentic-ai-in-eda/",
-      "title": "Video Interview: ChipAgents CEO on Latest Funding for Agentic AI in EDA",
-      "url": "https://www.eetimes.com/video-interview-chipagents-ceo-on-latest-funding-for-agentic-ai-in-eda/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T14:07:19+00:00",
-      "summary": "ChipAgents raises $60M as EDA’s AI gold rush heats up, pitching autonomous chip-design agents over tired copilots. The post Video Interview: ChipAgents CEO on Latest Funding for Agentic AI in EDA appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/nxp-eying-ambarella-is-it-about-automotive-or-edge-ai/",
-      "title": "NXP Eying Ambarella: Is It About Automotive or Edge AI?",
-      "url": "https://www.eetimes.com/nxp-eying-ambarella-is-it-about-automotive-or-edge-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T08:24:34+00:00",
-      "summary": "Ambarella has quietly transformed its automotive computer-vision technology to serve edge AI applications. The post NXP Eying Ambarella: Is It About Automotive or Edge AI? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/humanoid-manipulation-at-the-edge-of-physical-interaction/",
-      "title": "Humanoid Manipulation at the Edge of Physical Interaction",
-      "url": "https://www.eetimes.com/humanoid-manipulation-at-the-edge-of-physical-interaction/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Renesas",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-01T14:00:00+00:00",
-      "summary": "This white paper examines emerging humanoid robot architectures, focusing on how joints and dexterous hands are becoming intelligent, sensor-rich subsystems that require tightly integrated control, communication, and edge processing. It outlines key design challenges and opportunities for building scalable, high-performance humanoid manipulation systems. The post Humanoid Manipulation at the Edge of Physical Interaction appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/erp-statistics-insights-from-70-manufacturing-case-studies/",
-      "title": "ERP Statistics: Insights From 70 Manufacturing Case Studies",
-      "url": "https://www.eetimes.com/erp-statistics-insights-from-70-manufacturing-case-studies/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "MRPeasy",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-01T13:00:00+00:00",
-      "summary": "We analyzed 70 customer case studies to better understand the ERP experiences of small manufacturers. Here’s what electronics manufacturers had to say. The post ERP Statistics: Insights From 70 Manufacturing Case Studies appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/cea-leti-pushes-stacking-roadmap-as-ai-runs-into-memory-and-power-limits/",
-      "title": "CEA-Leti Pushes Stacking Roadmap as AI Runs into Memory and Power Limits",
-      "url": "https://www.eetimes.com/cea-leti-pushes-stacking-roadmap-as-ai-runs-into-memory-and-power-limits/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-31T15:48:06+00:00",
-      "summary": "AI’s memory wall is turning packaging into architecture as CEA-Leti bets on 3D stacking, chiplets, and cooler power. The post CEA-Leti Pushes Stacking Roadmap as AI Runs into Memory and Power Limits appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -411,6 +411,25 @@
       "views": 114,
       "comments": 76,
       "published_at": "2026-07-31T13:24:03+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49189234",
+      "title": "NVIDIA’s Vera Whitepaper Has a Thread Loose",
+      "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49189234",
+        "name": "pella",
+        "hn_url": "https://news.ycombinator.com/item?id=49189234"
+      },
+      "duration_sec": null,
+      "views": 112,
+      "comments": 17,
+      "published_at": "2026-08-05T21:24:45+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
