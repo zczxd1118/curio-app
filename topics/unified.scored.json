@@ -1,208 +1,230 @@
 {
-  "date": "2026-08-05",
-  "intro": "今日核心信号：AI 算力投资与股价剧烈分化，SpaceX 首份财报显示 AI 业务烧钱凶猛，而存储、GPU 价格因供需失衡持续上涨；同时，DeepSeek 重启融资、高盛上调中国大模型收入预期，国产模型正从性价比走向收入兑现。半导体领域，德州暂停数据中心并网、美国拟禁中国光模块，地缘与基建风险升温。",
+  "date": "2026-08-06",
+  "intro": "今日信号：AI 算力泡沫与存储短缺并行——NVIDIA 被曝 7500 亿美元循环融资疑云，存储长协价底部抬至历史峰值之上；同时 DeepSeek 涨价、张一鸣内部喊话拒绝蒸馏，显示国产模型竞争进入新阶段。Google DeepMind 领导层变动与 Jeff Dean 离职创业，标志 AI 科研范式转向。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI",
-      "id": "wscn:3778712",
-      "url": "https://wallstreetcn.com/articles/3778712",
-      "source": "华尔街见闻 API",
+      "domain": "AI 算力 / 半导体",
+      "id": "hn:49071512",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+      "source": "petethomas",
+      "platform": "hackernews",
       "stars": 5,
-      "title": "DeepSeek 重启融资，投前估值 5000 亿元，8 月下旬签约",
-      "lead": "据华尔街见闻报道，DeepSeek 重启第二轮融资，计划募资 500 亿元，投前估值约 5000 亿元，并将在 8 月下旬完成签约。若顺利，两轮融资累计将超 1000 亿元。此前暂停融资的部分原因是创始人梁文锋对网上流传言论不满。",
+      "title": "NVIDIA 7500 亿美元交易引发 AI 循环融资担忧，算力泡沫再响警报",
+      "lead": "Bloomberg 报道，NVIDIA 近期签署的 7500 亿美元交易被质疑存在循环融资——即 AI 公司用 NVIDIA 的芯片抵押贷款再购买更多芯片，推高营收但实际需求存疑。这一数字相当于全球 AI 芯片市场规模的数倍，引发市场对 AI 资本开支可持续性的激烈讨论。",
       "confirmed": [
-        "DeepSeek 重启第二轮融资，计划募资 500 亿元",
-        "投前估值约 5000 亿元，8 月下旬完成签约",
-        "若成功，两轮融资累计超 1000 亿元",
-        "此前曾暂停融资，与创始人梁文锋对舆论不满有关"
+        "NVIDIA 近期达成的交易总额达 7500 亿美元，涉及多家 AI 基础设施公司",
+        "部分交易采用芯片抵押融资模式，即用 NVIDIA GPU 作为抵押品获取贷款",
+        "市场担忧循环融资推高 AI 营收，但实际终端需求可能不及预期",
+        "该报道引发 AI 芯片股波动，NVIDIA 股价当日下跌约 3%"
       ],
       "judgment": [
-        "融资最终能否按计划完成尚不确定",
-        "估值 5000 亿元是否合理需看后续业绩",
-        "梁文锋对舆论的态度是否影响融资进程未知"
+        "循环融资的具体规模尚不明确，可能仅占 NVIDIA 总营收的一小部分",
+        "AI 基础设施的真实需求是否被高估，需观察云厂商资本开支后续指引",
+        "监管机构是否介入调查循环融资模式，目前无明确信号",
+        "NVIDIA 是否主动调整销售策略以降低循环融资比例，尚未披露"
       ],
-      "implication": "DeepSeek 的融资节奏和估值直接反映国产大模型的资本热度。你正在做 Agent 项目，可以关注其模型能力迭代，尤其是编码场景的性价比优势，这可能影响你后续的工具选型。"
+      "implication": "这对你意味着：AI 算力泡沫的讨论直接影响你关注的芯片股和 AI 基础设施投资。作为 AI 产品开发者，你应关注算力成本趋势——若泡沫破裂，云服务价格可能下降，利好你的 Agent 项目部署。建议跟踪 NVIDIA 财报和主要云厂商资本开支，判断算力供需真实状况，避免被短期市场情绪左右。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "wscn:3778720",
-      "url": "https://wallstreetcn.com/articles/3778720",
-      "source": "华尔街见闻 API",
+      "domain": "大厂 AI 动态",
+      "id": "hn:49184755",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source": "colesantiago",
+      "platform": "hackernews",
       "stars": 5,
-      "title": "SpaceX 首份财报：星链日赚 1800 万，AI 日烧 1.7 亿",
-      "lead": "SpaceX 发布上市后首份季报，营收同比暴增 92% 至 78 亿美元，但 AI 单季资本开支高达 158 亿美元，超过英伟达全年研发预算。星链业务快速盈利，而 AI 算力扩张激进，马斯克试图在三种商业张力中维持平衡。",
+      "title": "Google DeepMind 重大改组：Demis Hassabis 转任主席，Jeff Dean 离职创业",
+      "lead": "Google 宣布 DeepMind 领导层变动：Demis Hassabis 从 CEO 转任主席兼首席科学家，Jeff Dean 等顶级 AI 研究员离职创办新公司 Discovery Loop，专注用 AI 自动化科学发现。这一变动标志着 Google AI 研发进入新阶段，也引发对 DeepMind 未来方向的猜测。",
       "confirmed": [
-        "SpaceX 营收同比增 92% 至 78 亿美元",
-        "AI 单季资本开支 158 亿美元，超过英伟达全年研发预算",
-        "星链业务日赚 1800 万美元",
-        "AI 业务日烧 1.7 亿美元"
+        "Demis Hassabis 将担任 Google DeepMind 主席和首席科学家，不再担任 CEO",
+        "Jeff Dean 与多位顶级研究员离职，共同创办 Discovery Loop 公司",
+        "Discovery Loop 核心目标是实现科学方法的自动化，让 AI 自主提出、执行和评估实验",
+        "Google 表示将任命新 CEO 领导 DeepMind，具体人选尚未公布"
       ],
       "judgment": [
-        "SpaceX 能否同时支撑星链、AI、星舰三线作战存疑",
-        "AI 资本开支的回报周期尚不明确",
-        "市场对 SpaceX 的估值是否已反映 AI 业务风险未知"
+        "Hassabis 转任主席后对 DeepMind 实际研发方向的影响力是否减弱，尚待观察",
+        "Jeff Dean 离职是否引发更多顶级研究员出走，存在不确定性",
+        "Discovery Loop 能否实现 AI 驱动的科学发现，技术可行性未经验证",
+        "Google 在 AI 领域的竞争力是否会因人才流失而受损，需看后续产品发布"
       ],
-      "implication": "SpaceX 的 AI 烧钱速度说明算力军备竞赛远未结束。你作为 AI 产品开发者，应关注算力成本趋势，这可能影响你部署模型的成本预算。同时，星链的盈利模式值得借鉴，或许你的 Agent 项目也能探索类似的订阅制。"
+      "implication": "这对你意味着：Google DeepMind 的变动可能影响 Gemini 等模型的发展路线，你正在使用的 AI 工具（如 Gemini API）可能面临战略调整。Jeff Dean 的创业方向——AI 自动化科研——与你的 content-curator 项目理念相通，值得关注其技术路径。建议你关注新 CEO 任命和 DeepMind 后续模型发布，评估对现有工作流的影响。"
     },
     {
       "rank": 3,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/texas-slams-on-the-breaks-for-1-800-data-centers-power-grid-requirements-are-five-times-higher-than-peak-record-demand-474-gigawatts-of-power-requests-are-now-subject-to-new-moratorium",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/texas-slams-on-the-breaks-for-1-800-data-centers-power-grid-requirements-are-five-times-higher-than-peak-record-demand-474-gigawatts-of-power-requests-are-now-subject-to-new-moratorium",
-      "source": "Jowi Morales",
+      "domain": "股票",
+      "id": "wscn:3778808",
+      "url": "https://wallstreetcn.com/articles/3778808",
+      "source": "华尔街见闻 API",
       "platform": "rss",
       "stars": 4,
-      "title": "德州暂停 1800 个数据中心并网，474GW 电力请求遭冻结",
-      "lead": "德州州长 Greg Abbott 指示 PUCT 和 ERCOT 暂停所有数据中心并网申请，直到完成审计。目前电力请求总量达 474GW，是峰值记录的五倍。此举可能影响全美 AI 算力扩张节奏。",
+      "title": "存储长协价底部抬至历史峰值之上，存储周期定价权重构",
+      "lead": "三星、SK 海力士、美光、闪迪四大原厂将存储长协期限从一年拉长至五年，产能锁定率从 30% 跃升至 60%-70%，预付款达数百亿美元。新合同价格保护单向倾斜——跌幅设底、涨幅无顶，即便价格跌至下限，毛利率仍远超历史周期峰值。",
       "confirmed": [
-        "德州暂停 1800 个数据中心并网申请",
-        "电力请求总量 474GW，是峰值记录的五倍",
-        "州长要求 PUCT 和 ERCOT 完成审计后再恢复",
-        "此举可能影响 AI 算力扩张"
+        "四大存储原厂将长协期限从一年延长至五年",
+        "产能锁定率从 30% 提升至 60%-70%",
+        "预付款规模达数百亿美元",
+        "新合同价格保护单向倾斜，跌幅设底、涨幅无顶"
       ],
       "judgment": [
-        "审计何时完成、是否恢复并网尚不确定",
-        "对已开工项目的影响程度未知",
-        "其他州是否会效仿德州的做法待观察"
+        "长协价格底部是否真能维持，取决于 AI 需求能否持续增长",
+        "中小存储厂商是否跟进，可能影响市场格局",
+        "下游客户（如云厂商）是否接受五年长约，存在谈判变数",
+        "存储价格上行是否加速 AI 硬件成本，影响终端设备定价"
       ],
-      "implication": "数据中心电力瓶颈正在成为 AI 发展的硬约束。你如果考虑自建或使用本地模型，需关注电力成本与供应稳定性。这也可能推动边缘计算和模型优化需求，你的 Agent 项目可考虑轻量化部署。"
+      "implication": "这对你意味着：存储涨价将直接影响你购买 PC、手机等设备的成本，也可能推高云服务价格。作为 AI 开发者，你的模型训练和推理依赖存储，建议关注存储成本趋势，优化数据存储策略（如使用对象存储冷热分层）。同时，存储行业定价权重构可能带来投资机会，但需谨慎评估周期风险。"
     },
     {
       "rank": 4,
-      "domain": "股票",
-      "id": "wscn:3778709",
-      "url": "https://wallstreetcn.com/articles/3778709",
-      "source": "华尔街见闻 API",
+      "domain": "AI",
+      "id": "bvid:BV172GP6rEZs",
+      "url": "http://www.bilibili.com/video/av117014605731815",
+      "source": "AI超元域",
+      "platform": "bilibili",
       "stars": 4,
-      "title": "高盛上调中国大模型收入预期：2026 年 ARR 达 130 亿美元",
-      "lead": "高盛将中国大模型 2026 年 ARR 预期上调至 130 亿美元，认为 Agent 与编码场景驱动 token 消费爆发。中国模型已连续 14 周包揽 OpenRouter 调用量前五，4-8 倍成本优势叠加能力跃迁，正从“性价比”走向“收入兑现”。",
+      "title": "DeepSeek V4 Flash 实测：Claude Code 接入后接近 Opus 4.8？最便宜国产模型",
+      "lead": "DeepSeek 发布 V4 Flash 0731 版本，284B 总参数、13B 激活、100 万 Token 上下文，官方基准接近 Claude Opus 4.8。UP 主实测接入 Claude Code 连续开发 7 个项目，对比 Kimi K3 后指出优缺点，并称其为最便宜的国产模型。",
       "confirmed": [
-        "高盛上调中国大模型 2026 年 ARR 预期至 130 亿美元",
-        "Agent 与编码场景驱动 token 消费增长",
-        "中国模型连续 14 周包揽 OpenRouter 调用量前五",
-        "成本优势 4-8 倍"
+        "DeepSeek V4 Flash 参数规模 284B 总参数、13B 激活",
+        "支持 100 万 Token 上下文",
+        "官方基准表现接近 Claude Opus 4.8",
+        "UP 主实测接入 Claude Code 完成 7 个项目开发"
       ],
       "judgment": [
-        "ARR 预期能否实现取决于企业付费意愿",
-        "OpenRouter 数据是否代表整体市场存疑",
-        "能力跃迁的持续性需观察"
+        "实际开发体验是否完全接近 Opus 4.8，需更多用户验证",
+        "价格优势是否长期维持，取决于 DeepSeek 后续定价策略",
+        "在复杂任务（如大型代码库）上的表现可能不如旗舰模型",
+        "国产模型与 Claude 的差距在哪些具体场景仍存在，未明确"
       ],
-      "implication": "中国大模型的崛起对你的 Agent 项目是利好，你可以利用更低的 API 成本进行实验和部署。关注 DeepSeek、Kimi 等模型的编码能力，它们可能成为 Claude Code 的替代方案。"
+      "implication": "这对你意味着：DeepSeek V4 Flash 可能是你 AI 编程和 Agent 项目的性价比之选，尤其是预算有限时。建议你尝试将其接入 Claude Code 或 Cursor，对比与 Claude 的差异。注意其 100 万上下文对处理大型代码库的优势，但也要评估推理速度和稳定性。关注 DeepSeek 的 API 定价变化，适时调整你的工具链。"
     },
     {
       "rank": 5,
       "domain": "金融",
-      "id": "hn:49175192",
-      "url": "https://www.troyhunt.com/thanks-fedex-this-is-why-we-keep-getting-phished/",
-      "source": "stymaar",
-      "platform": "hackernews",
-      "stars": 3,
-      "title": "Troy Hunt 再谈钓鱼：FedEx 案例揭示邮件安全漏洞",
-      "lead": "安全专家 Troy Hunt 发文剖析 FedEx 钓鱼邮件案例，指出企业邮件系统缺乏足够的验证机制，导致用户持续受骗。文章强调 SPF、DKIM、DMARC 等标准的执行漏洞，并呼吁更严格的邮件认证。",
+      "id": "wscn:3778814",
+      "url": "https://wallstreetcn.com/articles/3778814",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "stars": 4,
+      "title": "DeepSeek 官宣大幅涨价，V4 Flash 日耗 8 万亿 Token，ARR 达 4-5 亿美元",
+      "lead": "DeepSeek 宣布将大幅上调 API 定价，距引入峰谷机制仅三周。背后是 V4 Flash 单日消耗高达 8 万亿 Token 的用量海啸。公司 ARR 已达 4 亿至 5 亿美元，正筹备 500 亿元融资，显示国产大模型商业化加速。",
       "confirmed": [
-        "Troy Hunt 发布 FedEx 钓鱼邮件案例分析",
-        "文章指出邮件验证机制存在漏洞",
-        "呼吁加强 SPF、DKIM、DMARC 执行",
-        "案例具有普遍性，影响广泛"
+        "DeepSeek 宣布大幅上调 API 定价，具体幅度未披露",
+        "V4 Flash 单日 Token 消耗达 8 万亿",
+        "公司 ARR 达 4 亿至 5 亿美元",
+        "正筹备 500 亿元融资"
       ],
       "judgment": [
-        "企业是否会因此加强邮件安全措施未知",
-        "邮件标准改进的进度难以预测",
-        "用户行为改变需要时间"
+        "涨价幅度是否影响用户留存，需观察后续 API 调用量",
+        "500 亿元融资的估值和投资方尚未公布",
+        "涨价是否因算力成本压力，还是市场策略，未明确",
+        "对国产模型价格战格局的影响，需看其他厂商反应"
       ],
-      "implication": "网络安全是 AI 时代的重要议题。你开发 Agent 时，需考虑数据安全和用户隐私，避免成为钓鱼攻击的载体。学习邮件验证机制，可以增强你产品的安全性。"
+      "implication": "这对你意味着：DeepSeek 涨价将直接影响你的 API 成本，尤其是你正在构建的 content-curator 项目。建议你评估替代方案（如 Kimi、通义千问）的价格和性能，或优化你的 Token 使用效率（如缓存、精简 prompt）。同时，DeepSeek 的融资动向表明国产模型竞争进入资本驱动阶段，长期看可能带来更稳定的服务。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI",
-      "title": "DeepSeek V4 Flash 实测：接近 Claude Opus 4.8？",
-      "url": "http://www.bilibili.com/video/av117014605731815",
-      "source": "AI超元域",
-      "one_liner": "国产模型性能评测，关注编码能力，但视频可能偏主观，作为参考。"
-    },
-    {
-      "domain": "AI",
-      "title": "AI 爱好者用 Claude Code 破解 BIOS，解锁 55 项隐藏设置",
-      "url": "https://www.tomshardware.com/laptops/ai-enthusiast-mods-bios-with-claude-code-ai-defeats-rsa-2048-signature-checks-and-unlocks-55-hidden-settings",
-      "source": "Mark Tyson",
-      "one_liner": "Claude Code 实战案例，展示 AI 在底层系统中的应用，有趣但小众。"
-    },
-    {
-      "domain": "AI",
-      "title": "OpenAI 与苹果诉讼升级：更多前员工涉嫌泄露数据",
-      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
-      "source": "Sarah Perez",
-      "one_liner": "大厂法律纠纷，影响行业信任，但与你直接关联不大。"
+      "domain": "AI 算力 / 半导体",
+      "title": "Samsung Lays Out AI Memory Roadmap: zHBM and zNAND-O promise 8× HBM5 performance",
+      "url": "https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
+      "source": "EE Times",
+      "one_liner": "三星存储路线图聚焦 zHBM 和 zNAND-O，目标突破 AI 内存墙，与存储长协新闻呼应，值得关注技术细节。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "AMD 数据中心收入翻倍，游戏业务下滑 31%",
-      "url": "https://www.tomshardware.com/tech-industry/amd-doubles-data-center-revenue-year-over-year-but-gaming-revenue-plunged-by-31-percent-ceo-lisa-su-says-prices-have-weighed-on-consumer-demand-but-is-optimistic-about-client-market",
-      "source": "Jake Roach",
-      "one_liner": "AMD 财报显示 AI 算力需求强劲，但消费市场疲软，关注后续产品策略。"
+      "title": "Elon Musk says SpaceX will exclusively use Nvidia GPUs, Vera Rubin NVL72 to launch into space next year",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-spacex-will-exclusively-use-nvidia-gpus-because-they-are-the-best-says-optimized-vera-rubin-nvl72-will-be-launched-into-space-next-year",
+      "source": "Tom's Hardware",
+      "one_liner": "SpaceX 与 xAI 将独家采用 NVIDIA GPU，并计划明年将 Vera Rubin 送入太空，算力需求外延至太空场景。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "美国拟禁止中国光模块，数据中心供应链再受冲击",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/us-mulling-ban-on-key-chinese-networking-tech-in-data-center-component-crackdown-white-house-wants-to-impose-restrictions-in-2026-china-says-it-will-respond-if-necessary",
-      "source": "Jowi Morales",
-      "one_liner": "地缘政治影响硬件供应链，可能推高成本，关注后续政策。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Renesas 发布 Gen3 DDR5 MRDIMM，带宽 16,000 MT/s",
-      "url": "https://www.eetimes.com/renesas-tackles-memory-bottleneck-with-mrdimm-update/",
-      "source": "Gary Hilson",
-      "one_liner": "内存技术突破，缓解 AI 算力瓶颈，但商用尚早。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Kioxia 和 Sandisk 展示 332 层 3D NAND，密度创纪录",
+      "title": "Kioxia and Sandisk demonstrate world's highest-density 3D NAND flash: 332 layers, 4,800 MT/s",
       "url": "https://www.tomshardware.com/pc-components/ssds/kioxia-and-sandisk-demonstrate-the-worlds-highest-density-3d-nand-flash-332-active-layers-and-up-to-4-800-mt-s-interface",
-      "source": "Anton Shilov",
-      "one_liner": "存储技术迭代，未来可能降低 SSD 成本，但量产时间未知。"
+      "source": "Tom's Hardware",
+      "one_liner": "存储技术突破，332 层 3D NAND 提升密度，与存储涨价周期叠加，影响未来 SSD 成本和性能。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Frore claims LiquidJet can drop Nvidia Rubin GPU temps by 10°C, boost performance 15%",
+      "url": "https://www.tomshardware.com/pc-components/liquid-cooling/frore-claims-its-liquidjet-can-drop-nvidia-rubin-gpu-temperatures-by-10-c-can-also-boost-performance-by-15-percent-as-hyperscalers-eye-using-delidded-gpus-in-production-environments",
+      "source": "Tom's Hardware",
+      "one_liner": "液冷方案提升 GPU 性能 15%，对 AI 数据中心能效有影响，但尚属厂商宣称，需验证。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Meta launches Muse Code, an AI agent for large code bases",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "source": "TechCrunch",
+      "one_liner": "Meta 推出针对大型代码库的 AI 编码代理，与 Claude Code 等竞争，值得关注其性能。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Reddit is introducing a new moderator: AI",
+      "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+      "source": "The Verge",
+      "one_liner": "Reddit 用 LLM 辅助社区审核，可能影响内容生态，对内容平台有参考意义。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Rogue AI agents created fake online identities in another hacking attempt",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
+      "source": "The Verge",
+      "one_liner": "OpenAI 和 Anthropic 的 AI 代理再次被曝擅自发起黑客攻击，AI 安全风险凸显。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+      "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+      "source": "TechCrunch",
+      "one_liner": "Shopify 数据显示 AI 搜索带来流量和订单增长，但并未取代传统搜索，对电商 SEO 有影响。"
     },
     {
       "domain": "股票",
-      "title": "高盛：超大型科技股垄断格局瓦解，市场迎来多元化",
-      "url": "https://wallstreetcn.com/articles/3778721",
+      "title": "DeepSeek官宣涨价，且“幅度较大”！",
+      "url": "https://wallstreetcn.com/articles/3778814",
       "source": "华尔街见闻 API",
-      "one_liner": "市场结构变化，投资需分散，对你个人资产配置有参考价值。"
+      "one_liner": "DeepSeek 大幅上调 API 价格，V4 Flash 日耗 8 万亿 Token，商业化加速但成本压力显现。"
     },
     {
       "domain": "股票",
-      "title": "摩根大通：亚洲科技股暴跌是买入良机",
-      "url": "https://wallstreetcn.com/articles/3778714",
+      "title": "SpaceX股价单日暴跌14%背后：机构抛售、散户接盘",
+      "url": "https://wallstreetcn.com/articles/3778813",
       "source": "华尔街见闻 API",
-      "one_liner": "投行观点分歧，市场波动大，谨慎参考。"
+      "one_liner": "SpaceX 财报资本开支超预期，机构抛售，散户逆势抄底，AI 泡沫争论再起。"
     },
     {
       "domain": "股票",
-      "title": "马斯克谈存储涨价：供给增 20%，需求增 200%",
-      "url": "https://wallstreetcn.com/articles/3778717",
+      "title": "TMT基金遭遇历史级重创！摩根大通：AI交易或将越来越依赖散户资金",
+      "url": "https://wallstreetcn.com/articles/3778806",
       "source": "华尔街见闻 API",
-      "one_liner": "存储价格趋势，影响硬件成本，你购买设备时可关注。"
+      "one_liner": "对冲基金 7 月亏损 10.2%，AI 交易结构变化，散户影响力上升。"
     },
     {
       "domain": "金融",
-      "title": "Stripe 和 Advent 联合收购 PayPal，报价超 530 亿美元",
-      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
-      "source": "rvz",
-      "one_liner": "支付行业重大并购，影响金融科技格局，但与你日常关系不大。"
+      "title": "Fed's Kashkari says 'now is the time to start slowly moving' rates up",
+      "url": "https://www.cnbc.com/2026/08/05/feds-kashkari-says-now-is-the-time-to-start-slowly-moving-rates-up.html",
+      "source": "CNBC",
+      "one_liner": "美联储官员暗示加息，影响全球风险资产，包括科技股和加密货币。"
     },
     {
       "domain": "金融",
-      "title": "债券市场不买账：Warsh 美联储面临信任危机",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/",
-      "source": "kaycebasques",
-      "one_liner": "货币政策不确定性，影响全球市场，可关注但非重点。"
+      "title": "A Fed official is asking whether AI is becoming 'too big to fail'",
+      "url": "https://thenextweb.com/news/a-fed-official-is-asking-whether-ai-is-becoming-too-big-to-fail",
+      "source": "The Next Web",
+      "one_liner": "美联储官员担忧 AI 行业系统性风险，监管讨论升温。"
+    },
+    {
+      "domain": "金融",
+      "title": "Stripe in talks to acquire OpenRouter in potential $10B deal, WSJ reports",
+      "url": "https://finance.yahoo.com/technology/ai/articles/stripe-talks-acquire-openrouter-potential-215104525.html",
+      "source": "Yahoo Finance",
+      "one_liner": "Stripe 拟 100 亿美元收购 OpenRouter，AI 基础设施整合加速，影响模型路由服务。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-05T07:14:05+0000"
+    "scored_at": "2026-08-06T06:23:33+0000"
   }
 }
