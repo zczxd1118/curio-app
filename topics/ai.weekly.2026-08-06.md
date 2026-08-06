@@ -1,33 +1,63 @@
 # Curio · AI · 2026-08-06
 
-> 今日 1 条头条 + 0 条备选
+> 今日 2 条头条 + 3 条备选
 
-_今日信号：AI 算力泡沫与存储短缺并行——NVIDIA 被曝 7500 亿美元循环融资疑云，存储长协价底部抬至历史峰值之上；同时 DeepSeek 涨价、张一鸣内部喊话拒绝蒸馏，显示国产模型竞争进入新阶段。Google DeepMind 领导层变动与 Jeff Dean 离职创业，标志 AI 科研范式转向。_
+_今日AI领域迎来双重震荡：DeepSeek V4 Flash以超低价格逼近顶级模型，同时Google DeepMind高层巨变，Jeff Dean离职创业，Demis Hassabis转任董事长。存储行业长协价格底部抬升，AI基建需求持续验证。市场方面，AI股票抛售加剧，但微软市值单日暴涨4500亿美元，分化明显。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. DeepSeek V4 Flash 实测：Claude Code 接入后接近 Opus 4.8？最便宜国产模型
+### 1. DeepSeek V4 Flash实测：Claude Code接入后连续开发7个项目，逼近Claude Opus 4.8？
 
-**[AI]** · ⭐⭐⭐⭐ · _AI超元域_
+**[AI]** · ⭐⭐⭐⭐⭐ · _AI超元域_
 
-DeepSeek 发布 V4 Flash 0731 版本，284B 总参数、13B 激活、100 万 Token 上下文，官方基准接近 Claude Opus 4.8。UP 主实测接入 Claude Code 连续开发 7 个项目，对比 Kimi K3 后指出优缺点，并称其为最便宜的国产模型。
+DeepSeek发布V4 Flash 0731版本，284B总参数、13B激活，100万Token上下文，官方基准接近Claude Opus 4.8。UP主实测接入Claude Code连续开发7个项目，性能惊艳但大型任务耗时数十分钟，疑似算力拥堵。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DeepSeek V4 Flash 参数规模 284B 总参数、13B 激活 | 实际开发体验是否完全接近 Opus 4.8，需更多用户验证 |
-| 支持 100 万 Token 上下文 | 价格优势是否长期维持，取决于 DeepSeek 后续定价策略 |
-| 官方基准表现接近 Claude Opus 4.8 | 在复杂任务（如大型代码库）上的表现可能不如旗舰模型 |
-| UP 主实测接入 Claude Code 完成 7 个项目开发 | 国产模型与 Claude 的差距在哪些具体场景仍存在，未明确 |
+| DeepSeek V4 Flash 0731：284B总参数、13B激活参数、100万Token上下文 | 大型开发任务耗时数十分钟，是模型本身限制还是算力拥堵？ |
+| 官方基准表现接近Claude Opus 4.8，价格远低于后者 | 与Kimi K3对比，优缺点尚待更多第三方评测验证 |
+| 实测接入Claude Code连续开发7个项目，基础指令、逻辑推理全部答对 | 涨价后性价比是否依然突出，需观察用户留存 |
+| API定价大幅上调，单日消耗8万亿Token，ARR达4-5亿美元 |  |
 
 **📖 主编点评**
 
-这对你意味着：DeepSeek V4 Flash 可能是你 AI 编程和 Agent 项目的性价比之选，尤其是预算有限时。建议你尝试将其接入 Claude Code 或 Cursor，对比与 Claude 的差异。注意其 100 万上下文对处理大型代码库的优势，但也要评估推理速度和稳定性。关注 DeepSeek 的 API 定价变化，适时调整你的工具链。
+你应该立即尝试将DeepSeek V4 Flash接入你的Claude Code工作流，尤其是成本敏感的个人项目。它的100万上下文和低价格可能改变你的Agent构建方式。但注意大型任务耗时问题，建议先用小项目测试。
 
 📺 [打开原文](http://www.bilibili.com/video/av117014605731815)
 
 ---
+
+### 5. Vibe Coding竞赛：Claude Code遗憾落败？半天开发App上架全流程
+
+**[AI]** · ⭐⭐⭐ · _GenJi是真想教会你_
+
+UP主与源宝打赌，半天时间用vibe coding开发活动社交App，最终Claude Code遗憾落败。视频展示了用秒哒从想法到App上架应用商店的全套流程，包括开发过程中的趣事。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| UP主与源宝进行vibe coding竞赛，开发活动社交App | Claude Code落败是否因为工具本身限制，还是使用方式问题？ |
+| 使用秒哒平台，从想法到上架应用商店全流程 | 秒哒平台是否真的比Claude Code更适合快速开发？ |
+| Claude Code在竞赛中遗憾落败 | 半天开发App的流程是否具有可复制性？ |
+| 视频展示了开发过程中的趣事 |  |
+
+**📖 主编点评**
+
+这个视频展示了vibe coding的另一种可能，秒哒这类平台可能更适合快速原型验证。你可以对比Claude Code和秒哒的差异，优化自己的开发工作流。不过，对于复杂项目，Claude Code的灵活性和生态可能仍是优势。
+
+📺 [打开原文](http://www.bilibili.com/video/av117030980230736)
+
+---
+
+## 📋 备选阅读
+
+- [DeepSeek官宣涨价，且“幅度较大”！单日消耗8万亿Token](https://wallstreetcn.com/articles/3778814) —— DeepSeek V4 Flash用量海啸，API涨价但性价比仍高，值得关注后续定价策略。
+  _华尔街见闻 API_
+- [Meta launches Muse Code, an AI agent for large code bases](https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/) —— Meta进军AI编程，Muse Code针对大型代码库，与Claude Code竞争，值得关注。
+  _TechCrunch_
+- [【吴恩达2026】Vibe Coding保姆级教程，手把手从环境搭建到工作流完整闭环](http://www.bilibili.com/video/av116951003242391) —— 吴恩达的Vibe Coding教程，标准化AI软件开发流水线，适合系统学习。
+  _吴恩达AIAgent_
 
 ---
 

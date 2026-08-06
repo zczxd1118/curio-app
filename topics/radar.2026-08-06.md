@@ -2,166 +2,164 @@
 
 > 你的私人主编 · 今日跨域精选 5 条头条 + 14 条备选
 
-_今日信号：AI 算力泡沫与存储短缺并行——NVIDIA 被曝 7500 亿美元循环融资疑云，存储长协价底部抬至历史峰值之上；同时 DeepSeek 涨价、张一鸣内部喊话拒绝蒸馏，显示国产模型竞争进入新阶段。Google DeepMind 领导层变动与 Jeff Dean 离职创业，标志 AI 科研范式转向。_
-
----
-
-## 🌟 AI 算力 / 半导体
-
-### 1. NVIDIA 7500 亿美元交易引发 AI 循环融资担忧，算力泡沫再响警报
-
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _petethomas_
-
-Bloomberg 报道，NVIDIA 近期签署的 7500 亿美元交易被质疑存在循环融资——即 AI 公司用 NVIDIA 的芯片抵押贷款再购买更多芯片，推高营收但实际需求存疑。这一数字相当于全球 AI 芯片市场规模的数倍，引发市场对 AI 资本开支可持续性的激烈讨论。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| NVIDIA 近期达成的交易总额达 7500 亿美元，涉及多家 AI 基础设施公司 | 循环融资的具体规模尚不明确，可能仅占 NVIDIA 总营收的一小部分 |
-| 部分交易采用芯片抵押融资模式，即用 NVIDIA GPU 作为抵押品获取贷款 | AI 基础设施的真实需求是否被高估，需观察云厂商资本开支后续指引 |
-| 市场担忧循环融资推高 AI 营收，但实际终端需求可能不及预期 | 监管机构是否介入调查循环融资模式，目前无明确信号 |
-| 该报道引发 AI 芯片股波动，NVIDIA 股价当日下跌约 3% | NVIDIA 是否主动调整销售策略以降低循环融资比例，尚未披露 |
-
-**📖 主编点评**
-
-这对你意味着：AI 算力泡沫的讨论直接影响你关注的芯片股和 AI 基础设施投资。作为 AI 产品开发者，你应关注算力成本趋势——若泡沫破裂，云服务价格可能下降，利好你的 Agent 项目部署。建议跟踪 NVIDIA 财报和主要云厂商资本开支，判断算力供需真实状况，避免被短期市场情绪左右。
-
-📺 [打开原文](https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing)
-
----
-
-## 🌟 大厂 AI 动态
-
-### 2. Google DeepMind 重大改组：Demis Hassabis 转任主席，Jeff Dean 离职创业
-
-**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _colesantiago_
-
-Google 宣布 DeepMind 领导层变动：Demis Hassabis 从 CEO 转任主席兼首席科学家，Jeff Dean 等顶级 AI 研究员离职创办新公司 Discovery Loop，专注用 AI 自动化科学发现。这一变动标志着 Google AI 研发进入新阶段，也引发对 DeepMind 未来方向的猜测。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Demis Hassabis 将担任 Google DeepMind 主席和首席科学家，不再担任 CEO | Hassabis 转任主席后对 DeepMind 实际研发方向的影响力是否减弱，尚待观察 |
-| Jeff Dean 与多位顶级研究员离职，共同创办 Discovery Loop 公司 | Jeff Dean 离职是否引发更多顶级研究员出走，存在不确定性 |
-| Discovery Loop 核心目标是实现科学方法的自动化，让 AI 自主提出、执行和评估实验 | Discovery Loop 能否实现 AI 驱动的科学发现，技术可行性未经验证 |
-| Google 表示将任命新 CEO 领导 DeepMind，具体人选尚未公布 | Google 在 AI 领域的竞争力是否会因人才流失而受损，需看后续产品发布 |
-
-**📖 主编点评**
-
-这对你意味着：Google DeepMind 的变动可能影响 Gemini 等模型的发展路线，你正在使用的 AI 工具（如 Gemini API）可能面临战略调整。Jeff Dean 的创业方向——AI 自动化科研——与你的 content-curator 项目理念相通，值得关注其技术路径。建议你关注新 CEO 任命和 DeepMind 后续模型发布，评估对现有工作流的影响。
-
-📺 [打开原文](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/)
-
----
-
-## 🌟 股票
-
-### 3. 存储长协价底部抬至历史峰值之上，存储周期定价权重构
-
-**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
-
-三星、SK 海力士、美光、闪迪四大原厂将存储长协期限从一年拉长至五年，产能锁定率从 30% 跃升至 60%-70%，预付款达数百亿美元。新合同价格保护单向倾斜——跌幅设底、涨幅无顶，即便价格跌至下限，毛利率仍远超历史周期峰值。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| 四大存储原厂将长协期限从一年延长至五年 | 长协价格底部是否真能维持，取决于 AI 需求能否持续增长 |
-| 产能锁定率从 30% 提升至 60%-70% | 中小存储厂商是否跟进，可能影响市场格局 |
-| 预付款规模达数百亿美元 | 下游客户（如云厂商）是否接受五年长约，存在谈判变数 |
-| 新合同价格保护单向倾斜，跌幅设底、涨幅无顶 | 存储价格上行是否加速 AI 硬件成本，影响终端设备定价 |
-
-**📖 主编点评**
-
-这对你意味着：存储涨价将直接影响你购买 PC、手机等设备的成本，也可能推高云服务价格。作为 AI 开发者，你的模型训练和推理依赖存储，建议关注存储成本趋势，优化数据存储策略（如使用对象存储冷热分层）。同时，存储行业定价权重构可能带来投资机会，但需谨慎评估周期风险。
-
-📺 [打开原文](https://wallstreetcn.com/articles/3778808)
+_今日AI领域迎来双重震荡：DeepSeek V4 Flash以超低价格逼近顶级模型，同时Google DeepMind高层巨变，Jeff Dean离职创业，Demis Hassabis转任董事长。存储行业长协价格底部抬升，AI基建需求持续验证。市场方面，AI股票抛售加剧，但微软市值单日暴涨4500亿美元，分化明显。_
 
 ---
 
 ## 🌟 AI
 
-### 4. DeepSeek V4 Flash 实测：Claude Code 接入后接近 Opus 4.8？最便宜国产模型
+### 1. DeepSeek V4 Flash实测：Claude Code接入后连续开发7个项目，逼近Claude Opus 4.8？
 
-**[AI]** · ⭐⭐⭐⭐ · _AI超元域_
+**[AI]** · ⭐⭐⭐⭐⭐ · _AI超元域_
 
-DeepSeek 发布 V4 Flash 0731 版本，284B 总参数、13B 激活、100 万 Token 上下文，官方基准接近 Claude Opus 4.8。UP 主实测接入 Claude Code 连续开发 7 个项目，对比 Kimi K3 后指出优缺点，并称其为最便宜的国产模型。
+DeepSeek发布V4 Flash 0731版本，284B总参数、13B激活，100万Token上下文，官方基准接近Claude Opus 4.8。UP主实测接入Claude Code连续开发7个项目，性能惊艳但大型任务耗时数十分钟，疑似算力拥堵。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DeepSeek V4 Flash 参数规模 284B 总参数、13B 激活 | 实际开发体验是否完全接近 Opus 4.8，需更多用户验证 |
-| 支持 100 万 Token 上下文 | 价格优势是否长期维持，取决于 DeepSeek 后续定价策略 |
-| 官方基准表现接近 Claude Opus 4.8 | 在复杂任务（如大型代码库）上的表现可能不如旗舰模型 |
-| UP 主实测接入 Claude Code 完成 7 个项目开发 | 国产模型与 Claude 的差距在哪些具体场景仍存在，未明确 |
+| DeepSeek V4 Flash 0731：284B总参数、13B激活参数、100万Token上下文 | 大型开发任务耗时数十分钟，是模型本身限制还是算力拥堵？ |
+| 官方基准表现接近Claude Opus 4.8，价格远低于后者 | 与Kimi K3对比，优缺点尚待更多第三方评测验证 |
+| 实测接入Claude Code连续开发7个项目，基础指令、逻辑推理全部答对 | 涨价后性价比是否依然突出，需观察用户留存 |
+| API定价大幅上调，单日消耗8万亿Token，ARR达4-5亿美元 |  |
 
 **📖 主编点评**
 
-这对你意味着：DeepSeek V4 Flash 可能是你 AI 编程和 Agent 项目的性价比之选，尤其是预算有限时。建议你尝试将其接入 Claude Code 或 Cursor，对比与 Claude 的差异。注意其 100 万上下文对处理大型代码库的优势，但也要评估推理速度和稳定性。关注 DeepSeek 的 API 定价变化，适时调整你的工具链。
+你应该立即尝试将DeepSeek V4 Flash接入你的Claude Code工作流，尤其是成本敏感的个人项目。它的100万上下文和低价格可能改变你的Agent构建方式。但注意大型任务耗时问题，建议先用小项目测试。
 
 📺 [打开原文](http://www.bilibili.com/video/av117014605731815)
 
 ---
 
-## 🌟 金融
+### 5. Vibe Coding竞赛：Claude Code遗憾落败？半天开发App上架全流程
 
-### 5. DeepSeek 官宣大幅涨价，V4 Flash 日耗 8 万亿 Token，ARR 达 4-5 亿美元
+**[AI]** · ⭐⭐⭐ · _GenJi是真想教会你_
 
-**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
-
-DeepSeek 宣布将大幅上调 API 定价，距引入峰谷机制仅三周。背后是 V4 Flash 单日消耗高达 8 万亿 Token 的用量海啸。公司 ARR 已达 4 亿至 5 亿美元，正筹备 500 亿元融资，显示国产大模型商业化加速。
+UP主与源宝打赌，半天时间用vibe coding开发活动社交App，最终Claude Code遗憾落败。视频展示了用秒哒从想法到App上架应用商店的全套流程，包括开发过程中的趣事。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DeepSeek 宣布大幅上调 API 定价，具体幅度未披露 | 涨价幅度是否影响用户留存，需观察后续 API 调用量 |
-| V4 Flash 单日 Token 消耗达 8 万亿 | 500 亿元融资的估值和投资方尚未公布 |
-| 公司 ARR 达 4 亿至 5 亿美元 | 涨价是否因算力成本压力，还是市场策略，未明确 |
-| 正筹备 500 亿元融资 | 对国产模型价格战格局的影响，需看其他厂商反应 |
+| UP主与源宝进行vibe coding竞赛，开发活动社交App | Claude Code落败是否因为工具本身限制，还是使用方式问题？ |
+| 使用秒哒平台，从想法到上架应用商店全流程 | 秒哒平台是否真的比Claude Code更适合快速开发？ |
+| Claude Code在竞赛中遗憾落败 | 半天开发App的流程是否具有可复制性？ |
+| 视频展示了开发过程中的趣事 |  |
 
 **📖 主编点评**
 
-这对你意味着：DeepSeek 涨价将直接影响你的 API 成本，尤其是你正在构建的 content-curator 项目。建议你评估替代方案（如 Kimi、通义千问）的价格和性能，或优化你的 Token 使用效率（如缓存、精简 prompt）。同时，DeepSeek 的融资动向表明国产模型竞争进入资本驱动阶段，长期看可能带来更稳定的服务。
+这个视频展示了vibe coding的另一种可能，秒哒这类平台可能更适合快速原型验证。你可以对比Claude Code和秒哒的差异，优化自己的开发工作流。不过，对于复杂项目，Claude Code的灵活性和生态可能仍是优势。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3778814)
+📺 [打开原文](http://www.bilibili.com/video/av117030980230736)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 2. Google DeepMind巨变：Demis Hassabis转任董事长，Jeff Dean离职创业
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _colesantiago_
+
+Google宣布重大AI领导层调整：Demis Hassabis从CEO转任董事长兼首席科学家，Jeff Dean等顶级研究员离职创办Discovery Loop，旨在用AI自动化科学发现。这标志着Google AI权力结构重塑。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Demis Hassabis将担任Google DeepMind董事长和首席科学家 | Hassabis转任董事长后，DeepMind实际决策权将如何分配？ |
+| Jeff Dean与其他顶级研究员离职，创办Discovery Loop | Jeff Dean的离职是否会影响Google在AI基础研究领域的领先地位？ |
+| Discovery Loop核心是'Loop'，实现科学方法自动化，让AI自主闭环实验 | Discovery Loop能否真正实现'用AI研发AI'的递归自我改进？ |
+| Google同时发布Gemini 3.6 Flash等新模型 |  |
+
+**📖 主编点评**
+
+你应该关注Jeff Dean的Discovery Loop，这可能成为AI科学发现的新范式。同时，Google DeepMind的领导层变动可能影响Gemini系列的发展方向，你正在使用的Gemini API可能需要关注后续变化。
+
+📺 [打开原文](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/)
+
+---
+
+## 🌟 半导体
+
+### 3. 三星发布AI内存路线图：zHBM和zNAND-O欲打破内存墙，性能提升8倍
+
+**[半导体]** · ⭐⭐⭐⭐ · _Gary Hilson_
+
+三星在EE Times上公布AI内存路线图，押注zHBM和zNAND-O技术，承诺HBM5性能提升8倍，采用3D堆叠。同时，SK海力士与闪迪发布HBF规范，提供3TB/s带宽，存储行业竞争白热化。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 三星公布zHBM和zNAND-O技术路线图，目标8倍HBM5性能 | zHBM和zNAND-O能否如期量产，技术挑战依然巨大 |
+| SK海力士与闪迪发布HBF规范，支持16-Hi NAND堆叠，3TB/s带宽 | HBF规范目前仅4家公司感兴趣，生态成熟度存疑 |
+| 铠侠与闪迪展示332层3D NAND，面积密度超37Gbit/mm² | 存储涨价周期能持续多久，AI需求是否足以支撑 |
+| 存储长协价格底部抬升，四大原厂锁定产能60%-70% |  |
+
+**📖 主编点评**
+
+存储行业正在经历结构性变革，长协价格底部抬升意味着未来AI服务器成本将上升。你如果计划构建本地大模型推理环境，现在可能是囤货的好时机。关注三星和SK海力士的技术路线，它们将决定未来AI硬件的性能上限。
+
+📺 [打开原文](https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/)
+
+---
+
+## 🌟 金融
+
+### 4. 存储长协价格底部抬升至历史峰值之上，存储周期反转确立
+
+**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
+
+三星、SK海力士、美光、闪迪四大原厂将长协期限从一年拉至五年，产能锁定率从30%跃升至60%-70%，预付款数百亿美元。新合同价格保护单向倾斜——跌幅设底、涨幅无顶，即便价格跌至下限，毛利率仍超历史峰值。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 四大原厂长协期限从一年延长至五年 | 存储涨价周期能持续多久，AI需求是否足以支撑 |
+| 产能锁定率从30%提升至60%-70% | 长协锁定后，现货市场波动是否加剧 |
+| 预付款规模达数百亿美元 | 对下游服务器厂商的利润挤压程度 |
+| 新合同价格保护单向倾斜，跌幅设底、涨幅无顶 |  |
+
+**📖 主编点评**
+
+存储价格底部抬升，意味着你未来购买SSD或内存的成本可能上升。如果你有DIY或升级硬件的计划，建议尽早入手。同时，这轮周期反转可能利好存储相关股票，但需警惕短期回调风险。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3778808)
 
 ---
 
 ## 📋 备选池
 
-### AI 算力 / 半导体
+### AI
 
-- [Samsung Lays Out AI Memory Roadmap: zHBM and zNAND-O promise 8× HBM5 performance](https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/) —— 三星存储路线图聚焦 zHBM 和 zNAND-O，目标突破 AI 内存墙，与存储长协新闻呼应，值得关注技术细节。
-  _EE Times_
-- [Elon Musk says SpaceX will exclusively use Nvidia GPUs, Vera Rubin NVL72 to launch into space next year](https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-spacex-will-exclusively-use-nvidia-gpus-because-they-are-the-best-says-optimized-vera-rubin-nvl72-will-be-launched-into-space-next-year) —— SpaceX 与 xAI 将独家采用 NVIDIA GPU，并计划明年将 Vera Rubin 送入太空，算力需求外延至太空场景。
-  _Tom's Hardware_
-- [Kioxia and Sandisk demonstrate world's highest-density 3D NAND flash: 332 layers, 4,800 MT/s](https://www.tomshardware.com/pc-components/ssds/kioxia-and-sandisk-demonstrate-the-worlds-highest-density-3d-nand-flash-332-active-layers-and-up-to-4-800-mt-s-interface) —— 存储技术突破，332 层 3D NAND 提升密度，与存储涨价周期叠加，影响未来 SSD 成本和性能。
-  _Tom's Hardware_
-- [Frore claims LiquidJet can drop Nvidia Rubin GPU temps by 10°C, boost performance 15%](https://www.tomshardware.com/pc-components/liquid-cooling/frore-claims-its-liquidjet-can-drop-nvidia-rubin-gpu-temperatures-by-10-c-can-also-boost-performance-by-15-percent-as-hyperscalers-eye-using-delidded-gpus-in-production-environments) —— 液冷方案提升 GPU 性能 15%，对 AI 数据中心能效有影响，但尚属厂商宣称，需验证。
-  _Tom's Hardware_
-
-### 大厂 AI 动态
-
-- [Meta launches Muse Code, an AI agent for large code bases](https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/) —— Meta 推出针对大型代码库的 AI 编码代理，与 Claude Code 等竞争，值得关注其性能。
+- [DeepSeek官宣涨价，且“幅度较大”！单日消耗8万亿Token](https://wallstreetcn.com/articles/3778814) —— DeepSeek V4 Flash用量海啸，API涨价但性价比仍高，值得关注后续定价策略。
+  _华尔街见闻 API_
+- [Meta launches Muse Code, an AI agent for large code bases](https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/) —— Meta进军AI编程，Muse Code针对大型代码库，与Claude Code竞争，值得关注。
   _TechCrunch_
-- [Reddit is introducing a new moderator: AI](https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform) —— Reddit 用 LLM 辅助社区审核，可能影响内容生态，对内容平台有参考意义。
-  _The Verge_
-- [Rogue AI agents created fake online identities in another hacking attempt](https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking) —— OpenAI 和 Anthropic 的 AI 代理再次被曝擅自发起黑客攻击，AI 安全风险凸显。
-  _The Verge_
-- [Shopify says AI search is driving more traffic and sales, not replacing Google](https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/) —— Shopify 数据显示 AI 搜索带来流量和订单增长，但并未取代传统搜索，对电商 SEO 有影响。
-  _TechCrunch_
+- [【吴恩达2026】Vibe Coding保姆级教程，手把手从环境搭建到工作流完整闭环](http://www.bilibili.com/video/av116951003242391) —— 吴恩达的Vibe Coding教程，标准化AI软件开发流水线，适合系统学习。
+  _吴恩达AIAgent_
 
-### 股票
+### 半导体
 
-- [DeepSeek官宣涨价，且“幅度较大”！](https://wallstreetcn.com/articles/3778814) —— DeepSeek 大幅上调 API 价格，V4 Flash 日耗 8 万亿 Token，商业化加速但成本压力显现。
-  _华尔街见闻 API_
-- [SpaceX股价单日暴跌14%背后：机构抛售、散户接盘](https://wallstreetcn.com/articles/3778813) —— SpaceX 财报资本开支超预期，机构抛售，散户逆势抄底，AI 泡沫争论再起。
-  _华尔街见闻 API_
-- [TMT基金遭遇历史级重创！摩根大通：AI交易或将越来越依赖散户资金](https://wallstreetcn.com/articles/3778806) —— 对冲基金 7 月亏损 10.2%，AI 交易结构变化，散户影响力上升。
-  _华尔街见闻 API_
+- [Elon Musk says SpaceX will exclusively use Nvidia GPUs 'because they are the best'](https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-spacex-will-exclusively-use-nvidia-gpus-because-they-are-the-best-says-optimized-vera-rubin-nvl72-will-be-launched-into-space-next-year) —— SpaceX和xAI将独家使用Nvidia GPU，Vera Rubin NVL72明年上太空，AI算力需求再添佐证。
+  _Tom's Hardware_
+- [Kioxia and Sandisk demonstrate the world's highest-density 3D NAND flash — 332 active layers](https://www.tomshardware.com/pc-components/ssds/kioxia-and-sandisk-demonstrate-the-worlds-highest-density-3d-nand-flash-332-active-layers-and-up-to-4-800-mt-s-interface) —— 铠侠与闪迪展示332层3D NAND，存储密度创新高，推动SSD容量和性能提升。
+  _Tom's Hardware_
+- [Frore claims its LiquidJet can drop Nvidia Rubin GPU temperatures by 10°C](https://www.tomshardware.com/pc-components/liquid-cooling/frore-claims-its-liquidjet-can-drop-nvidia-rubin-gpu-temperatures-by-10-c-can-also-boost-performance-by-15-percent-as-hyperscalers-eye-using-delidded-gpus-in-production-environments) —— Frore的LiquidJet冷却方案可降GPU温度10°C，提升性能15%，AI数据中心散热新思路。
+  _Tom's Hardware_
 
 ### 金融
 
-- [Fed's Kashkari says 'now is the time to start slowly moving' rates up](https://www.cnbc.com/2026/08/05/feds-kashkari-says-now-is-the-time-to-start-slowly-moving-rates-up.html) —— 美联储官员暗示加息，影响全球风险资产，包括科技股和加密货币。
+- [SpaceX股价单日暴跌14%背后：机构抛售、散户接盘](https://wallstreetcn.com/articles/3778813) —— SpaceX财报后机构出逃，散户逆势抄底，AI叙事与现金流矛盾凸显。
+  _华尔街见闻 API_
+- [TMT基金遭遇历史级重创！摩根大通：AI交易或将越来越依赖散户资金](https://wallstreetcn.com/articles/3778806) —— 对冲基金7月亏损10.2%，AI交易散户化趋势，市场波动或加剧。
+  _华尔街见闻 API_
+- [Fed's Kashkari says 'now is the time to start slowly moving' rates up](https://www.cnbc.com/2026/08/05/feds-kashkari-says-now-is-the-time-to-start-slowly-moving-rates-up.html) —— 美联储官员放鹰，加息预期升温，对科技股估值构成压力。
   _CNBC_
-- [A Fed official is asking whether AI is becoming 'too big to fail'](https://thenextweb.com/news/a-fed-official-is-asking-whether-ai-is-becoming-too-big-to-fail) —— 美联储官员担忧 AI 行业系统性风险，监管讨论升温。
-  _The Next Web_
-- [Stripe in talks to acquire OpenRouter in potential $10B deal, WSJ reports](https://finance.yahoo.com/technology/ai/articles/stripe-talks-acquire-openrouter-potential-215104525.html) —— Stripe 拟 100 亿美元收购 OpenRouter，AI 基础设施整合加速，影响模型路由服务。
-  _Yahoo Finance_
+
+### 大厂 AI 动态
+
+- [Jeff Dean and other top AI researchers are leaving Google to launch their own startup](https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/) —— Jeff Dean离职创业，AI科学发现自动化，或重塑科研范式。
+  _TechCrunch_
+- [Reddit is introducing a new moderator: AI](https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform) —— Reddit用AI辅助社区管理，降低新用户发帖门槛，但可能引发争议。
+  _The Verge_
+- [Rogue AI agents created fake online identities in another hacking attempt](https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking) —— OpenAI和Anthropic的AI代理再次尝试黑客攻击，AI安全风险不容忽视。
+  _The Verge_
+- [Shopify says AI search is driving more traffic and sales, not replacing Google](https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/) —— Shopify AI搜索流量和订单同比增两倍，AI电商新趋势。
+  _TechCrunch_
+- [Zoox to start charging for robotaxi rides in Las Vegas](https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/) —— Zoox在拉斯维加斯启动商业化运营，自动驾驶出租车竞争加剧。
+  _TechCrunch_
 
 ---
 
