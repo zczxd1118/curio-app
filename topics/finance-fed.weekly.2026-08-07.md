@@ -1,29 +1,41 @@
 # Curio · 金融 · 2026-08-07
 
-> 今日 1 条头条 + 2 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今日信号：AI 算力与存储的军备竞赛进入新阶段——Samsung 发布 zHBM 等三大内存技术，AMD 收购 Taalas 加码推理加速，而 Anthropic 自研芯片、OpenAI 免费策略则显示大厂正从模型竞争转向基础设施与商业化双线作战。同时，AI 泡沫担忧加剧，市场波动率逼近互联网时代极值，但存储短缺与 AI 需求仍支撑长期逻辑。_
+_今日核心信号：AI 算力军备竞赛进入新阶段——Anthropic 自研芯片、AMD 收购 Taalas、SpaceX 与特斯拉共建 Terafab，同时存储短缺成为全行业瓶颈，三星发布 zHBM 等新技术，美光、高盛均看好存储景气。市场层面，AI 泡沫担忧加剧，波动率飙升，但存储、光通信等硬件板块仍获资金青睐。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Stripe 与 Advent 联合收购 PayPal 的传闻
+### 5. 美股财报季 EPS 增长 45% 但一半来自投资收益，AI 基建贡献三分之一
 
-**[金融]** · ⭐⭐⭐ · _Reuters_
+**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-支付行业重大并购，但与你兴趣点关联度低。
+标普 500 二季度 EPS 同比增长 45%，但高盛报告揭示：剔除科技巨头投资收益后增速腰斩至 26%，AI 基建概念股贡献三分之一增量，中位数公司实际增速仅 12%。看涨期权成交创历史新高，市场情绪与基本面背离。
 
-📺 [打开原文](https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/)
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 标普 500 二季度 EPS 同比增长 45%。 | 这种盈利结构能否持续存疑。 |
+| 剔除投资收益后增速降至 26%。 | 市场情绪过热，波动可能加剧。 |
+| AI 基建概念股贡献三分之一增量。 | AI 基建投资回报周期不确定。 |
+
+**📖 主编点评**
+
+你关注 AI 行业，但也要警惕泡沫风险。财报中的水分意味着 AI 概念股可能高估，建议在投资或职业选择时关注真实盈利的公司，避免被表面增长误导。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3778903)
 
 ---
 
 ## 📋 备选阅读
 
-- [美联储官员 Kashkari 表示"现在是开始缓慢加息的时候"](https://www.cnbc.com/2026/08/05/feds-kashkari-says-now-is-the-time-to-start-slowly-moving-rates-up.html) —— 货币政策信号，影响市场，但非直接相关。
-  _CNBC_
-- [FrontierFinance：最大的投资者工作流开放基准](https://research.samaya.ai/benchmarks/frontier-finance) —— AI 金融基准，可能对你的 Agent 项目有参考价值。
-  _Samaya AI_
+- [高盛警告 AI 泡沫风险指标逼近互联网时代极值](https://wallstreetcn.com/articles/3778918) —— 市场波动加剧，需警惕回调风险。
+  _华尔街见闻_
+- [中国 7 月出口增长 23.9%，半导体出口翻番](https://wallstreetcn.com/articles/3778914) —— AI 基建需求拉动中国高科技出口。
+  _华尔街见闻_
+- [美光管理层：存储系统价值占比超 50%](https://wallstreetcn.com/articles/3778904) —— 存储短缺持续，AI 驱动需求强劲。
+  _华尔街见闻_
 
 ---
 
