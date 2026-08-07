@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-06T05:56:18.824255+00:00",
+  "fetched_at": "2026-08-07T04:59:57.439749+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 7,
+    "HN · Nvidia": 6,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 29,
+  "total": 28,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
+      "title": "AI Chip Startup Taalas Acquired by AMD",
+      "url": "https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-06T20:05:00+00:00",
+      "summary": "AMD plans to use Taalas chips alongside its GPUs for AI inference, likely as an LLM decode accelerator. The post AI Chip Startup Taalas Acquired by AMD appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/globalfoundries-growth-makes-the-case-for-a-u-s-photonics-buildout/",
+      "title": "GlobalFoundries’ Growth Makes the Case for a U.S. Photonics Buildout",
+      "url": "https://www.eetimes.com/globalfoundries-growth-makes-the-case-for-a-u-s-photonics-buildout/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-06T16:17:00+00:00",
+      "summary": "GlobalFoundries’ data center surge turns U.S. photonics from subsidy pitch to AI bottleneck bet. The post GlobalFoundries’ Growth Makes the Case for a U.S. Photonics Buildout appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/u-s-manufacturing-activity-hits-four-year-high-in-july/",
+      "title": "U.S. Manufacturing Activity Hits Four-Year High in July",
+      "url": "https://www.eetimes.com/u-s-manufacturing-activity-hits-four-year-high-in-july/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "News Desk",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-06T12:31:16+00:00",
+      "summary": "In July, U.S. manufacturing activity remained in expansion territory, growing at its fastest pace in more than four years. The post U.S. Manufacturing Activity Hits Four-Year High in July appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/beyond-the-fab-building-europe-next-generation-of-semiconductor-champions/",
+      "title": "Beyond the Fab: Building Europe’s Next Generation of Semiconductor Champions",
+      "url": "https://www.eetimes.com/beyond-the-fab-building-europe-next-generation-of-semiconductor-champions/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Ian Lankshear",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-06T08:09:11+00:00",
+      "summary": "Europe's next semiconductor champions will emerge from design expertise, customer knowledge, and IP—not manufacturing capacity alone. The post Beyond the Fab: Building Europe&#8217;s Next Generation of Semiconductor Champions appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
       "title": "Samsung Lays Out AI Memory Roadmap",
       "url": "https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/jamie-urquhart-1957-2026-friendly-supportive-right-to-the-end/",
-      "title": "Jamie Urquhart (1957-2026): Friendly, Supportive, Right to the End",
-      "url": "https://www.eetimes.com/jamie-urquhart-1957-2026-friendly-supportive-right-to-the-end/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-04T17:33:32+00:00",
-      "summary": "Arm co-founder Jamie Urquhart backed chips, startups, and people to the end—read how his quiet force shaped an industry. The post Jamie Urquhart (1957-2026): Friendly, Supportive, Right to the End appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/new-space-power-computing-and-thermal-challenges-beyond-earth/",
-      "title": "New Space: Power, Computing and Thermal Challenges Beyond Earth",
-      "url": "https://www.eetimes.com/new-space-power-computing-and-thermal-challenges-beyond-earth/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times Staff",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-04T14:48:24+00:00",
-      "summary": "New Space explores the technologies reshaping the commercial space economy. The post New Space: Power, Computing and Thermal Challenges Beyond Earth appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/protecting-military-ai-agents-from-cyberthreats/",
-      "title": "Protecting Military AI Agents From Cyberthreats",
-      "url": "https://www.eetimes.com/protecting-military-ai-agents-from-cyberthreats/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Liam Critchley",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-04T07:36:29+00:00",
-      "summary": "Military AI faces hackers, poisoned data, and weak rules; lock it down with zero trust, red-teaming, and real governance. The post Protecting Military AI Agents From Cyberthreats appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/renesas-tackles-memory-bottleneck-with-mrdimm-update/",
-      "title": "Renesas Tackles Memory Bottleneck with MRDIMM Update",
-      "url": "https://www.eetimes.com/renesas-tackles-memory-bottleneck-with-mrdimm-update/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-03T19:00:00+00:00",
-      "summary": "Renesas’s Gen 3 DDR5 MRDIMM attacks AI’s memory choke point with 16,000 MT/s bandwidth and no platform overhaul. The post Renesas Tackles Memory Bottleneck with MRDIMM Update appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -397,6 +397,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49189234",
+      "title": "Nvidia’s Vera Whitepaper Has a Thread Loose",
+      "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49189234",
+        "name": "pella",
+        "hn_url": "https://news.ycombinator.com/item?id=49189234"
+      },
+      "duration_sec": null,
+      "views": 201,
+      "comments": 46,
+      "published_at": "2026-08-05T21:24:45+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49122838",
       "title": "Moonshot’s Kimi uses 20k Nvidia chip cluster from Alibaba",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
@@ -411,25 +430,6 @@
       "views": 114,
       "comments": 76,
       "published_at": "2026-07-31T13:24:03+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49189234",
-      "title": "NVIDIA’s Vera Whitepaper Has a Thread Loose",
-      "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49189234",
-        "name": "pella",
-        "hn_url": "https://news.ycombinator.com/item?id=49189234"
-      },
-      "duration_sec": null,
-      "views": 112,
-      "comments": 17,
-      "published_at": "2026-08-05T21:24:45+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -487,25 +487,6 @@
       "views": 112,
       "comments": 2,
       "published_at": "2026-07-24T13:58:12+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49025890",
-      "title": "AMD's 256-core Epyc 9996 'Venice' claims up to a 3.4x jump over Intel Xeon",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amds-256-core-epyc-9996-venice-claims-up-to-a-3-4x-jump-over-intel-xeon-competition-20-percent-over-nvidia-vera-zen-6-comes-with-up-to-1024mb-of-l3-16-channel-memory-and-5ghz-clock-speeds",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49025890",
-        "name": "rndsignals",
-        "hn_url": "https://news.ycombinator.com/item?id=49025890"
-      },
-      "duration_sec": null,
-      "views": 32,
-      "comments": 15,
-      "published_at": "2026-07-23T18:16:54+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
