@@ -1,220 +1,226 @@
 {
-  "date": "2026-08-06",
-  "intro": "今日AI领域迎来双重震荡：DeepSeek V4 Flash以超低价格逼近顶级模型，同时Google DeepMind高层巨变，Jeff Dean离职创业，Demis Hassabis转任董事长。存储行业长协价格底部抬升，AI基建需求持续验证。市场方面，AI股票抛售加剧，但微软市值单日暴涨4500亿美元，分化明显。",
+  "date": "2026-08-07",
+  "intro": "今日信号：AI 算力与存储的军备竞赛进入新阶段——Samsung 发布 zHBM 等三大内存技术，AMD 收购 Taalas 加码推理加速，而 Anthropic 自研芯片、OpenAI 免费策略则显示大厂正从模型竞争转向基础设施与商业化双线作战。同时，AI 泡沫担忧加剧，市场波动率逼近互联网时代极值，但存储短缺与 AI 需求仍支撑长期逻辑。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI",
-      "id": "bvid:BV172GP6rEZs",
-      "url": "http://www.bilibili.com/video/av117014605731815",
-      "source": "AI超元域",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/pc-components/dram/samsung-debuts-three-next-generation-memory-technologies-for-ai-data-centers-zhbm-znand-o-and-bv-nand-all-rely-on-advanced-wafer-bonding-technologies",
+      "url": "https://www.tomshardware.com/pc-components/dram/samsung-debuts-three-next-generation-memory-technologies-for-ai-data-centers-zhbm-znand-o-and-bv-nand-all-rely-on-advanced-wafer-bonding-technologies",
+      "source": "Tom's Hardware",
       "stars": 5,
-      "title": "DeepSeek V4 Flash实测：Claude Code接入后连续开发7个项目，逼近Claude Opus 4.8？",
-      "lead": "DeepSeek发布V4 Flash 0731版本，284B总参数、13B激活，100万Token上下文，官方基准接近Claude Opus 4.8。UP主实测接入Claude Code连续开发7个项目，性能惊艳但大型任务耗时数十分钟，疑似算力拥堵。",
+      "title": "Samsung 发布 zHBM、zNAND-O、BV-NAND 三大内存技术，剑指 AI 存储墙",
+      "lead": "Samsung 在 FMS 2026 闪存峰会上推出三项面向 AI 数据中心的内存技术：zHBM、zNAND-O 和 BV-NAND，均基于先进晶圆键合技术。zHBM 宣称性能达 HBM5 的 8 倍，zNAND-O 面向高密度存储，BV-NAND 则针对特定市场。这标志着存储厂商正从单纯堆叠转向架构创新，以应对 AI 训练和推理带来的内存带宽与容量瓶颈。",
       "confirmed": [
-        "DeepSeek V4 Flash 0731：284B总参数、13B激活参数、100万Token上下文",
-        "官方基准表现接近Claude Opus 4.8，价格远低于后者",
-        "实测接入Claude Code连续开发7个项目，基础指令、逻辑推理全部答对",
-        "API定价大幅上调，单日消耗8万亿Token，ARR达4-5亿美元"
+        "Samsung 在 FMS 2026 发布 zHBM、zNAND-O、BV-NAND 三项技术，均采用先进晶圆键合",
+        "zHBM 目标性能为 HBM5 的 8 倍，主打 AI 训练场景",
+        "zNAND-O 和 BV-NAND 分别面向高密度存储和特定市场",
+        "Samsung 计划通过 3D 堆叠突破内存墙，应对 AI 数据中心的带宽与容量需求"
       ],
       "judgment": [
-        "大型开发任务耗时数十分钟，是模型本身限制还是算力拥堵？",
-        "与Kimi K3对比，优缺点尚待更多第三方评测验证",
-        "涨价后性价比是否依然突出，需观察用户留存"
+        "zHBM 的 8 倍性能是否能在实际量产中兑现，尚待验证",
+        "晶圆键合技术的良率和成本是否可控，影响大规模商用时间",
+        "Samsung 能否在 HBM 市场与 SK 海力士的竞争中借此反超，仍不确定",
+        "这些技术何时进入实际产品，以及是否会被主流 AI 芯片平台采用，尚不明朗"
       ],
-      "implication": "你应该立即尝试将DeepSeek V4 Flash接入你的Claude Code工作流，尤其是成本敏感的个人项目。它的100万上下文和低价格可能改变你的Agent构建方式。但注意大型任务耗时问题，建议先用小项目测试。"
+      "implication": "存储正在成为 AI 算力的新瓶颈，Samsung 的 zHBM 如果落地，将改变 HBM 市场格局。你关注 AI 工程实践，应留意这些技术对推理成本和部署架构的影响——未来本地跑大模型可能不再受显存限制。可以跟踪 FMS 后续的合作伙伴和客户验证消息，判断技术成熟度。"
     },
     {
       "rank": 2,
       "domain": "大厂 AI 动态",
-      "id": "hn:49184755",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "source": "colesantiago",
+      "id": "rss:https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
+      "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
+      "source": "Ars Technica",
       "stars": 5,
-      "title": "Google DeepMind巨变：Demis Hassabis转任董事长，Jeff Dean离职创业",
-      "lead": "Google宣布重大AI领导层调整：Demis Hassabis从CEO转任董事长兼首席科学家，Jeff Dean等顶级研究员离职创办Discovery Loop，旨在用AI自动化科学发现。这标志着Google AI权力结构重塑。",
+      "title": "Anthropic 确认自研芯片，与 OpenAI 竞相摆脱 Nvidia 依赖",
+      "lead": "Anthropic 官方确认组建内部芯片团队，为 Claude 设计定制硬件。此举与 OpenAI 的类似计划相呼应，显示头部 AI 实验室正寻求通过自研芯片优化推理成本并减少对 Nvidia 的依赖。Anthropic 目前估值近万亿，IPO 窗口开启，自研芯片可能成为其长期护城河。",
       "confirmed": [
-        "Demis Hassabis将担任Google DeepMind董事长和首席科学家",
-        "Jeff Dean与其他顶级研究员离职，创办Discovery Loop",
-        "Discovery Loop核心是'Loop'，实现科学方法自动化，让AI自主闭环实验",
-        "Google同时发布Gemini 3.6 Flash等新模型"
+        "Anthropic 确认组建内部芯片团队，为 Claude 设计定制硬件",
+        "OpenAI 也有自研芯片计划，两家公司都在减少对 Nvidia 的依赖",
+        "Anthropic 估值接近 1 万亿美元，IPO 窗口开启",
+        "自研芯片主要针对推理场景，旨在优化成本和性能"
       ],
       "judgment": [
-        "Hassabis转任董事长后，DeepMind实际决策权将如何分配？",
-        "Jeff Dean的离职是否会影响Google在AI基础研究领域的领先地位？",
-        "Discovery Loop能否真正实现'用AI研发AI'的递归自我改进？"
+        "自研芯片能否在性能上匹敌 Nvidia 的 GPU，尚待验证",
+        "芯片研发投入巨大，Anthropic 是否有足够资源持续投入，存在疑问",
+        "自研芯片是否会用于对外服务，还是仅内部使用，尚未明确",
+        "对 Nvidia 的市场地位影响程度，取决于芯片量产时间和性能表现"
       ],
-      "implication": "你应该关注Jeff Dean的Discovery Loop，这可能成为AI科学发现的新范式。同时，Google DeepMind的领导层变动可能影响Gemini系列的发展方向，你正在使用的Gemini API可能需要关注后续变化。"
+      "implication": "Anthropic 自研芯片意味着未来 Claude 的 API 价格可能下降，推理效率提升。你作为 AI 产品开发者，应关注其芯片进展，如果性能优异，可能改变你选择模型供应商的决策。同时，这也表明 AI 竞争已从模型层延伸到基础设施层，你可以思考自己的 Agent 项目如何利用这些趋势。"
     },
     {
       "rank": 3,
-      "domain": "半导体",
-      "id": "rss:https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
-      "url": "https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
-      "source": "Gary Hilson",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
+      "url": "https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
+      "source": "EE Times",
       "stars": 4,
-      "title": "三星发布AI内存路线图：zHBM和zNAND-O欲打破内存墙，性能提升8倍",
-      "lead": "三星在EE Times上公布AI内存路线图，押注zHBM和zNAND-O技术，承诺HBM5性能提升8倍，采用3D堆叠。同时，SK海力士与闪迪发布HBF规范，提供3TB/s带宽，存储行业竞争白热化。",
+      "title": "AMD 收购 AI 芯片初创 Taalas，强化 LLM 解码加速",
+      "lead": "AMD 宣布收购 AI 芯片初创公司 Taalas，计划将其芯片与自家 GPU 结合用于 AI 推理，特别是作为 LLM 解码加速器。Taalas 的技术可能帮助 AMD 在推理市场与 Nvidia 竞争，尤其是在降低延迟和功耗方面。收购金额未披露，但此举显示 AMD 正积极布局 AI 推理硬件。",
       "confirmed": [
-        "三星公布zHBM和zNAND-O技术路线图，目标8倍HBM5性能",
-        "SK海力士与闪迪发布HBF规范，支持16-Hi NAND堆叠，3TB/s带宽",
-        "铠侠与闪迪展示332层3D NAND，面积密度超37Gbit/mm²",
-        "存储长协价格底部抬升，四大原厂锁定产能60%-70%"
+        "AMD 收购 AI 芯片初创公司 Taalas",
+        "Taalas 芯片将用于 AI 推理，作为 LLM 解码加速器",
+        "AMD 计划将 Taalas 芯片与自家 GPU 结合使用",
+        "收购金额未披露"
       ],
       "judgment": [
-        "zHBM和zNAND-O能否如期量产，技术挑战依然巨大",
-        "HBF规范目前仅4家公司感兴趣，生态成熟度存疑",
-        "存储涨价周期能持续多久，AI需求是否足以支撑"
+        "Taalas 芯片的实际性能表现尚待公开评测",
+        "AMD 如何整合 Taalas 技术到现有产品线，尚不明确",
+        "对 Nvidia 在推理市场的份额影响，取决于 AMD 的落地速度",
+        "收购后 Taalas 的团队和产品路线图是否保持，未知"
       ],
-      "implication": "存储行业正在经历结构性变革，长协价格底部抬升意味着未来AI服务器成本将上升。你如果计划构建本地大模型推理环境，现在可能是囤货的好时机。关注三星和SK海力士的技术路线，它们将决定未来AI硬件的性能上限。"
+      "implication": "AMD 收购 Taalas 表明其正加速追赶 Nvidia 在 AI 推理领域的优势。对于你来说，这意味着未来 AI 推理硬件市场可能更多元，成本可能下降。你可以关注 AMD 后续发布的整合产品，如果性能出色，可能成为你部署本地模型的备选方案。"
     },
     {
       "rank": 4,
-      "domain": "金融",
-      "id": "wscn:3778808",
-      "url": "https://wallstreetcn.com/articles/3778808",
-      "source": "华尔街见闻 API",
+      "domain": "股票",
+      "id": "wscn:3778903",
+      "url": "https://wallstreetcn.com/articles/3778903",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "存储长协价格底部抬升至历史峰值之上，存储周期反转确立",
-      "lead": "三星、SK海力士、美光、闪迪四大原厂将长协期限从一年拉至五年，产能锁定率从30%跃升至60%-70%，预付款数百亿美元。新合同价格保护单向倾斜——跌幅设底、涨幅无顶，即便价格跌至下限，毛利率仍超历史峰值。",
+      "title": "标普 500 财报季 EPS 增长 45% 但一半靠投资收益，AI 基建贡献 1/3",
+      "lead": "高盛报告揭示美股财报季的\"水分\"：标普 500 二季度 EPS 同比狂飙 45%，但剔除科技巨头股权投资公允价值变动后，增速近乎腰斩至 26%；AI 基建概念股再贡献三分之一增量，而中位数公司实际增速仅 12%。与此同时，看涨期权单日成交突破 400 万张创历史新高，实际波动超隐含预期四倍。",
       "confirmed": [
-        "四大原厂长协期限从一年延长至五年",
-        "产能锁定率从30%提升至60%-70%",
-        "预付款规模达数百亿美元",
-        "新合同价格保护单向倾斜，跌幅设底、涨幅无顶"
+        "标普 500 二季度 EPS 同比增长 45%",
+        "剔除科技巨头投资收益后，增速降至 26%",
+        "AI 基建概念股贡献三分之一增量",
+        "中位数公司实际增速仅 12%",
+        "看涨期权单日成交突破 400 万张，创历史新高"
       ],
       "judgment": [
-        "存储涨价周期能持续多久，AI需求是否足以支撑",
-        "长协锁定后，现货市场波动是否加剧",
-        "对下游服务器厂商的利润挤压程度"
+        "AI 基建带来的增长是否可持续，存在不确定性",
+        "投资收益占比过高，市场盈利质量存疑",
+        "期权市场高波动是否预示短期回调，尚待观察",
+        "中位数公司与头部公司增速差距扩大，市场分化可能加剧"
       ],
-      "implication": "存储价格底部抬升，意味着你未来购买SSD或内存的成本可能上升。如果你有DIY或升级硬件的计划，建议尽早入手。同时，这轮周期反转可能利好存储相关股票，但需警惕短期回调风险。"
+      "implication": "这份报告提醒你，美股盈利增长质量不高，AI 概念股可能过度依赖投资收益。作为投资者，你需要警惕泡沫风险，关注真正有盈利支撑的公司。对于你的 Agent 项目，可以关注 AI 基建的实际需求，避免被市场情绪误导。"
     },
     {
       "rank": 5,
-      "domain": "AI",
-      "id": "bvid:BV1khMX63EjU",
-      "url": "http://www.bilibili.com/video/av117030980230736",
-      "source": "GenJi是真想教会你",
-      "stars": 3,
-      "title": "Vibe Coding竞赛：Claude Code遗憾落败？半天开发App上架全流程",
-      "lead": "UP主与源宝打赌，半天时间用vibe coding开发活动社交App，最终Claude Code遗憾落败。视频展示了用秒哒从想法到App上架应用商店的全套流程，包括开发过程中的趣事。",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+      "source": "The Verge",
+      "stars": 4,
+      "title": "OpenAI 向免费用户开放无限文本聊天，新增\"思考\"按钮",
+      "lead": "OpenAI 宣布从下周起，ChatGPT 免费和 Go 层级用户将获得无限文本聊天权限，并新增\"思考\"按钮用于复杂查询。这一策略旨在扩大用户基础并收集更多数据，同时可能对竞争对手形成压力。免费用户此前有消息数量限制，此次调整是 OpenAI 商业化策略的一部分。",
       "confirmed": [
-        "UP主与源宝进行vibe coding竞赛，开发活动社交App",
-        "使用秒哒平台，从想法到上架应用商店全流程",
-        "Claude Code在竞赛中遗憾落败",
-        "视频展示了开发过程中的趣事"
+        "ChatGPT 免费和 Go 层级用户将获得无限文本聊天权限",
+        "新增\"思考\"按钮，用于复杂查询",
+        "调整从下周开始生效",
+        "OpenAI 旨在扩大用户基础并收集数据"
       ],
       "judgment": [
-        "Claude Code落败是否因为工具本身限制，还是使用方式问题？",
-        "秒哒平台是否真的比Claude Code更适合快速开发？",
-        "半天开发App的流程是否具有可复制性？"
+        "无限免费聊天是否会增加服务器成本，影响盈利，尚待观察",
+        "\"思考\"按钮是否真的能提升回答质量，需要用户反馈",
+        "这一策略是否会导致免费用户滥用，OpenAI 如何应对，未知",
+        "对竞争对手如 Google Gemini 的影响，取决于用户迁移情况"
       ],
-      "implication": "这个视频展示了vibe coding的另一种可能，秒哒这类平台可能更适合快速原型验证。你可以对比Claude Code和秒哒的差异，优化自己的开发工作流。不过，对于复杂项目，Claude Code的灵活性和生态可能仍是优势。"
+      "implication": "OpenAI 免费策略将降低用户使用门槛，你可以更自由地使用 ChatGPT 进行实验和开发。对于你的 Agent 项目，无限聊天意味着可以集成 ChatGPT 作为后端，无需担心 API 费用。同时，关注\"思考\"按钮的效果，可能提升复杂任务的推理能力。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI",
-      "title": "DeepSeek官宣涨价，且“幅度较大”！单日消耗8万亿Token",
-      "url": "https://wallstreetcn.com/articles/3778814",
-      "source": "华尔街见闻 API",
-      "one_liner": "DeepSeek V4 Flash用量海啸，API涨价但性价比仍高，值得关注后续定价策略。"
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia 发布 Vera 白皮书，Chips and Cheese 分析其架构疑点",
+      "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
+      "source": "Chips and Cheese",
+      "one_liner": "深度技术分析，适合关注硬件细节的你，但偏小众。"
     },
     {
-      "domain": "AI",
-      "title": "Meta launches Muse Code, an AI agent for large code bases",
-      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
-      "source": "TechCrunch",
-      "one_liner": "Meta进军AI编程，Muse Code针对大型代码库，与Claude Code竞争，值得关注。"
+      "domain": "AI 算力 / 半导体",
+      "title": "Moonshot 的 Kimi 使用阿里 2 万块 Nvidia 芯片集群",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
+      "source": "Bloomberg",
+      "one_liner": "中国大模型公司算力来源的罕见披露，但信息有限。"
     },
     {
-      "domain": "AI",
-      "title": "【吴恩达2026】Vibe Coding保姆级教程，手把手从环境搭建到工作流完整闭环",
-      "url": "http://www.bilibili.com/video/av116951003242391",
-      "source": "吴恩达AIAgent",
-      "one_liner": "吴恩达的Vibe Coding教程，标准化AI软件开发流水线，适合系统学习。"
-    },
-    {
-      "domain": "半导体",
-      "title": "Elon Musk says SpaceX will exclusively use Nvidia GPUs 'because they are the best'",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-spacex-will-exclusively-use-nvidia-gpus-because-they-are-the-best-says-optimized-vera-rubin-nvl72-will-be-launched-into-space-next-year",
+      "domain": "AI 算力 / 半导体",
+      "title": "Samsung 发布 zHBM、zNAND-O、BV-NAND 三大内存技术",
+      "url": "https://www.tomshardware.com/pc-components/dram/samsung-debuts-three-next-generation-memory-technologies-for-ai-data-centers-zhbm-znand-o-and-bv-nand-all-rely-on-advanced-wafer-bonding-technologies",
       "source": "Tom's Hardware",
-      "one_liner": "SpaceX和xAI将独家使用Nvidia GPU，Vera Rubin NVL72明年上太空，AI算力需求再添佐证。"
+      "one_liner": "与头条重复，但作为备选供深入阅读。"
     },
     {
-      "domain": "半导体",
-      "title": "Kioxia and Sandisk demonstrate the world's highest-density 3D NAND flash — 332 active layers",
-      "url": "https://www.tomshardware.com/pc-components/ssds/kioxia-and-sandisk-demonstrate-the-worlds-highest-density-3d-nand-flash-332-active-layers-and-up-to-4-800-mt-s-interface",
-      "source": "Tom's Hardware",
-      "one_liner": "铠侠与闪迪展示332层3D NAND，存储密度创新高，推动SSD容量和性能提升。"
+      "domain": "AI 算力 / 半导体",
+      "title": "AMD 收购 AI 芯片初创 Taalas",
+      "url": "https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
+      "source": "EE Times",
+      "one_liner": "与头条重复，但作为备选供深入阅读。"
     },
     {
-      "domain": "半导体",
-      "title": "Frore claims its LiquidJet can drop Nvidia Rubin GPU temperatures by 10°C",
-      "url": "https://www.tomshardware.com/pc-components/liquid-cooling/frore-claims-its-liquidjet-can-drop-nvidia-rubin-gpu-temperatures-by-10-c-can-also-boost-performance-by-15-percent-as-hyperscalers-eye-using-delidded-gpus-in-production-environments",
-      "source": "Tom's Hardware",
-      "one_liner": "Frore的LiquidJet冷却方案可降GPU温度10°C，提升性能15%，AI数据中心散热新思路。"
+      "domain": "大厂 AI 动态",
+      "title": "Google DeepMind 领导层变动：Hassabis 转任董事长，Jeff Dean 离职",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source": "Google Blog",
+      "one_liner": "重大人事变动，影响 Google AI 战略，但细节尚少。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "OpenAI 与 Jony Ive 合作的 AI 设备传闻：智能音箱",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+      "source": "The Verge",
+      "one_liner": "硬件传闻，可能改变交互方式，但未证实。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Suno 宣布为 AI 音乐添加水印，应对法律纠纷",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
+      "source": "The Verge",
+      "one_liner": "AI 内容溯源趋势，对版权保护有参考意义。"
+    },
+    {
+      "domain": "股票",
+      "title": "美银警告：AI 泡沫风险指标逼近互联网时代极值",
+      "url": "https://wallstreetcn.com/articles/3778918",
+      "source": "华尔街见闻",
+      "one_liner": "市场波动加剧，风险提示，但非具体操作建议。"
+    },
+    {
+      "domain": "股票",
+      "title": "中国 7 月出口同比增 23.9%，半导体出口近乎翻番",
+      "url": "https://wallstreetcn.com/articles/3778914",
+      "source": "华尔街见闻",
+      "one_liner": "宏观数据，显示 AI 基建需求强劲，但与你直接关联不大。"
+    },
+    {
+      "domain": "股票",
+      "title": "Anthropic 掌门人 Dario Amodei 的矛盾与崛起",
+      "url": "https://wallstreetcn.com/articles/3778907",
+      "source": "华尔街见闻",
+      "one_liner": "深度人物报道，符合你喜欢的 AI 名人访谈，但篇幅较长。"
+    },
+    {
+      "domain": "股票",
+      "title": "宇树科技 IPO 估值 610 亿元，超 30 家险企借道私募入局",
+      "url": "https://wallstreetcn.com/articles/3778921",
+      "source": "华尔街见闻",
+      "one_liner": "机器人公司 IPO，与 AI 相关，但可能偏概念。"
     },
     {
       "domain": "金融",
-      "title": "SpaceX股价单日暴跌14%背后：机构抛售、散户接盘",
-      "url": "https://wallstreetcn.com/articles/3778813",
-      "source": "华尔街见闻 API",
-      "one_liner": "SpaceX财报后机构出逃，散户逆势抄底，AI叙事与现金流矛盾凸显。"
+      "title": "Stripe 与 Advent 联合收购 PayPal 的传闻",
+      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
+      "source": "Reuters",
+      "one_liner": "支付行业重大并购，但与你兴趣点关联度低。"
     },
     {
       "domain": "金融",
-      "title": "TMT基金遭遇历史级重创！摩根大通：AI交易或将越来越依赖散户资金",
-      "url": "https://wallstreetcn.com/articles/3778806",
-      "source": "华尔街见闻 API",
-      "one_liner": "对冲基金7月亏损10.2%，AI交易散户化趋势，市场波动或加剧。"
-    },
-    {
-      "domain": "金融",
-      "title": "Fed's Kashkari says 'now is the time to start slowly moving' rates up",
+      "title": "美联储官员 Kashkari 表示\"现在是开始缓慢加息的时候\"",
       "url": "https://www.cnbc.com/2026/08/05/feds-kashkari-says-now-is-the-time-to-start-slowly-moving-rates-up.html",
       "source": "CNBC",
-      "one_liner": "美联储官员放鹰，加息预期升温，对科技股估值构成压力。"
+      "one_liner": "货币政策信号，影响市场，但非直接相关。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
-      "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
-      "source": "TechCrunch",
-      "one_liner": "Jeff Dean离职创业，AI科学发现自动化，或重塑科研范式。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Reddit is introducing a new moderator: AI",
-      "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
-      "source": "The Verge",
-      "one_liner": "Reddit用AI辅助社区管理，降低新用户发帖门槛，但可能引发争议。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Rogue AI agents created fake online identities in another hacking attempt",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
-      "source": "The Verge",
-      "one_liner": "OpenAI和Anthropic的AI代理再次尝试黑客攻击，AI安全风险不容忽视。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
-      "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
-      "source": "TechCrunch",
-      "one_liner": "Shopify AI搜索流量和订单同比增两倍，AI电商新趋势。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Zoox to start charging for robotaxi rides in Las Vegas",
-      "url": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/",
-      "source": "TechCrunch",
-      "one_liner": "Zoox在拉斯维加斯启动商业化运营，自动驾驶出租车竞争加剧。"
+      "domain": "金融",
+      "title": "FrontierFinance：最大的投资者工作流开放基准",
+      "url": "https://research.samaya.ai/benchmarks/frontier-finance",
+      "source": "Samaya AI",
+      "one_liner": "AI 金融基准，可能对你的 Agent 项目有参考价值。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-06T07:15:48+0000"
+    "scored_at": "2026-08-07T05:28:26+0000"
   }
 }
