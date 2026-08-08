@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-07T04:59:57.439749+00:00",
+  "fetched_at": "2026-08-08T04:15:45.597063+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 6,
+    "HN · Nvidia": 8,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 28,
+  "total": 30,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,108 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/after-seven-ceos-in-10-years-imagination-is-sticking-to-its-strategy/",
+      "title": "After Seven CEOs in 10 Years, Imagination Is Sticking to Its Strategy",
+      "url": "https://www.eetimes.com/after-seven-ceos-in-10-years-imagination-is-sticking-to-its-strategy/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-07T22:00:00+00:00",
+      "summary": "Imagination dumps CPU/NPU dreams, doubles down on GPUs and China under CEO No. 7. The post After Seven CEOs in 10 Years, Imagination Is Sticking to Its Strategy appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/rolecs-technoplus-ip-rated-pole-mount-plastic-enclosures-for-iot-iiot-and-factory-automation/",
+      "title": "ROLEC’s technoPLUS: IP-rated Pole-mount Plastic Enclosures for IoT/IIoT and Factory Automation",
+      "url": "https://www.eetimes.com/rolecs-technoplus-ip-rated-pole-mount-plastic-enclosures-for-iot-iiot-and-factory-automation/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "ROLEC",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-07T16:15:30+00:00",
+      "summary": "IoT/IIoT and factory automation are driving demand for ROLEC’s updated pole-mountable technoPLUS (IP 66, IP 67, IP 69K) plastic enclosures. Electronics designers specify them for ‘close-to-the-process’ devices that must survive dust, moisture and regular washdowns. Compact technoPLUS provides robust protection – allowing industrial electronics to be mounted directly on machine frames, production-line supports, conveyor structures [&#8230;] The post ROLEC’s technoPLUS: IP-rated Pole-mount Plastic...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/biwin-and-tera-industria-de-semicondutores-sign-strategic-partnership-agreement/",
+      "title": "BIWIN and Tera Indústria de Semicondutores Sign Strategic Partnership Agreement",
+      "url": "https://www.eetimes.com/biwin-and-tera-industria-de-semicondutores-sign-strategic-partnership-agreement/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "BIWIN Semiconductor",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-07T16:08:31+00:00",
+      "summary": "Shenzhen, China / Manaus, Brazil – August 6th, 2026: BIWIN Semiconductor (HK) Company Limited (&#8220;BIWIN&#8221;), a global provider of memory and storage packaging solutions, and TERA INDÚSTRIA DE SEMICONDUTORES S.A. (&#8220;Tera&#8221;), a Brazil-based semiconductor memory packaging company, announce the signing of a strategic partnership framework agreement to manufacture and distribute memory and storage solutions in [&#8230;] The post BIWIN and Tera Indústria de Semicondutores Sign Strate...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/",
+      "title": "Chiplet Architectures as a Practical Path to Scalable Automotive Compute",
+      "url": "https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Cyril Cordoba",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-07T13:56:43+00:00",
+      "summary": "Chiplets are auto’s escape hatch from bloated SoCs, scaling SDV compute without wrecking cost or software. The post Chiplet Architectures as a Practical Path to Scalable Automotive Compute appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/inside-device-connectivity-a-new-design-discipline-for-next-gen-vehicles/",
+      "title": "Inside Device Connectivity: A New Design Discipline for Next-Gen Vehicles",
+      "url": "https://www.eetimes.com/inside-device-connectivity-a-new-design-discipline-for-next-gen-vehicles/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "TE Connectivity",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-07T10:53:14+00:00",
+      "summary": "Join this webinar where our expert will introduce Inside Device Connectivity as a focused design discipline to ensure power, signal, and data move predictably and robustly within automotive electronics. The post Inside Device Connectivity: A New Design Discipline for Next-Gen Vehicles appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/stmicroelectronics-bets-on-hardware-based-post-quantum-cryptography-with-st54m/",
+      "title": "STMicroelectronics Bets on Hardware-Based Post-Quantum Cryptography with ST54M",
+      "url": "https://www.eetimes.com/stmicroelectronics-bets-on-hardware-based-post-quantum-cryptography-with-st54m/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-07T08:00:00+00:00",
+      "summary": "ST’s ST54M bakes post-quantum crypto into phone hardware before hackers harvest today’s secrets. The post STMicroelectronics Bets on Hardware-Based Post-Quantum Cryptography with ST54M appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
       "title": "AI Chip Startup Taalas Acquired by AMD",
       "url": "https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
@@ -257,108 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
-      "title": "Samsung Lays Out AI Memory Roadmap",
-      "url": "https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-05T21:35:58+00:00",
-      "summary": "Samsung bets on zHBM and zNAND-O to smash AI’s memory wall, promising 8× HBM5 performance and 3D stacks. The post Samsung Lays Out AI Memory Roadmap appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/safeguarding-fab-throughput-with-ai-augmented-data-insights/",
-      "title": "Safeguarding Fab Throughput with AI-Augmented Data Insights",
-      "url": "https://www.eetimes.com/safeguarding-fab-throughput-with-ai-augmented-data-insights/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alessandro Chimera, Industry Solutions Lead, Spotfire",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-05T13:00:00+00:00",
-      "summary": "Discover how a Al-infused visual analytics platform empower engineers to solve complex manufacturing challenges for faster root cause analysis. The post Safeguarding Fab Throughput with AI-Augmented Data Insights appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/unstacking-the-future-navigating-the-3d-ic-frontier/",
-      "title": "Unstacking the Future: Navigating the 3D IC Frontier",
-      "url": "https://www.eetimes.com/unstacking-the-future-navigating-the-3d-ic-frontier/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Piyush Sancheti, VP Central Engineering Solutions (3D IC), and Todd Burkholder, 3D IC Technology Writer, Siemens EDA",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-05T13:00:00+00:00",
-      "summary": "3D IC introduces new system-level hurdles that demand innovative 3D IC solutions that address exploration, design, analysis, reliability, and test. The post Unstacking the Future: Navigating the 3D IC Frontier appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/neuromorphic-insect-eye-for-physical-ai/",
-      "title": "Insect-Inspired Neuromorphic Sensor Targets Physical AI",
-      "url": "https://www.eetimes.com/neuromorphic-insect-eye-for-physical-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-05T12:30:00+00:00",
-      "summary": "Neuromorphic engineering could address the latency and power limitations of conventional cameras. The post Insect-Inspired Neuromorphic Sensor Targets Physical AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/electronica-2026-electronics-as-the-basis-of-the-all-electric-society/",
-      "title": "electronica 2026: Electronics as the Basis of the All-Electric Society",
-      "url": "https://www.eetimes.com/electronica-2026-electronics-as-the-basis-of-the-all-electric-society/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-05T07:30:00+00:00",
-      "summary": "electronica 2026 puts chips, AI, energy efficiency, and cyber resilience at the heart of the all-electric society. The post electronica 2026: Electronics as the Basis of the All-Electric Society appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/automotive-cybersecurity-ai-attack-surfaces-grow/",
-      "title": "Automotive Cybersecurity: AI Attack Surfaces Grow",
-      "url": "https://www.eetimes.com/automotive-cybersecurity-ai-attack-surfaces-grow/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Egil Juliussen",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-04T22:00:00+00:00",
-      "summary": "AI and software-defined cars turn APIs, servers, and chargers into hacker playgrounds; see why automakers must harden fleets now. The post Automotive Cybersecurity: AI Attack Surfaces Grow appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -378,25 +378,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49035303",
-      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
-      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49035303",
-        "name": "louiereederson",
-        "hn_url": "https://news.ycombinator.com/item?id=49035303"
-      },
-      "duration_sec": null,
-      "views": 659,
-      "comments": 318,
-      "published_at": "2026-07-24T13:32:30+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:49189234",
       "title": "Nvidia’s Vera Whitepaper Has a Thread Loose",
       "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
@@ -408,7 +389,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49189234"
       },
       "duration_sec": null,
-      "views": 201,
+      "views": 206,
       "comments": 46,
       "published_at": "2026-08-05T21:24:45+00:00",
       "summary": "",
@@ -454,39 +435,96 @@
       "lang": "en"
     },
     {
-      "id": "hn:49034868",
-      "title": "Half-Life 2 running natively on HaikuOS",
-      "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
+      "id": "hn:49070311",
+      "title": "Ilya Sutskever's SSI and Nvidia Announce Long-Term Strategic Partnership",
+      "url": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49034868",
-        "name": "m0do1",
-        "hn_url": "https://news.ycombinator.com/item?id=49034868"
+        "id": "49070311",
+        "name": "lanakei",
+        "hn_url": "https://news.ycombinator.com/item?id=49070311"
       },
       "duration_sec": null,
-      "views": 339,
-      "comments": 71,
-      "published_at": "2026-07-24T12:53:59+00:00",
+      "views": 18,
+      "comments": 4,
+      "published_at": "2026-07-27T14:33:53+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
-      "id": "hn:49035751",
-      "title": "Open Weights and American AI Leadership [pdf]",
-      "url": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
+      "id": "hn:49125140",
+      "title": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia",
+      "url": "https://www.ubergizmo.com/2026/06/hygon-512-thread-cpu/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49035751",
-        "name": "lairv",
-        "hn_url": "https://news.ycombinator.com/item?id=49035751"
+        "id": "49125140",
+        "name": "rbanffy",
+        "hn_url": "https://news.ycombinator.com/item?id=49125140"
       },
       "duration_sec": null,
-      "views": 112,
+      "views": 17,
+      "comments": 3,
+      "published_at": "2026-07-31T16:21:11+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49093429",
+      "title": "Kospi Plunges After Nvidia CEO's Visits Spark 'Huang Curse' Fears",
+      "url": "https://www.chosun.com/english/market-money-en/2026/07/29/6FEUZWQT5BG3HMJ3G2RZPHROGM/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49093429",
+        "name": "mapping365",
+        "hn_url": "https://news.ycombinator.com/item?id=49093429"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 0,
+      "published_at": "2026-07-29T04:29:58+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49177126",
+      "title": "It looks like 'Big Short' investor Michael Burry nailed bet against chip stocks",
+      "url": "https://www.businessinsider.com/big-short-michael-burry-ai-chip-stocks-soxx-nvidia-substack-2026-8",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49177126",
+        "name": "mapping365",
+        "hn_url": "https://news.ycombinator.com/item?id=49177126"
+      },
+      "duration_sec": null,
+      "views": 17,
       "comments": 2,
-      "published_at": "2026-07-24T13:58:12+00:00",
+      "published_at": "2026-08-05T00:30:23+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49075171",
+      "title": "Sam Altman says we are in the singularity: 'This is the moment'",
+      "url": "https://www.businessinsider.com/sam-altman-openai-the-singularity-agi-prediction-anthropic-nvidia-2026-7",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49075171",
+        "name": "doener",
+        "hn_url": "https://news.ycombinator.com/item?id=49075171"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 14,
+      "published_at": "2026-07-27T20:35:02+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
