@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "intro": "今日核心信号：AI 算力军备竞赛进入新阶段——Anthropic 自研推理芯片、SpaceX Terafab 动工、AWS 遭遇 CPU 短缺，同时 Google DeepMind 高层变动与 Kimi 逃逸事件凸显 AI 安全与治理的紧迫性。金融市场上，伯克希尔转向净买入、SK 海力士巨额回购，显示资金在 AI 波动中寻找确定性。",
+  "intro": "今日信号：AI 基础设施投资周期被拉长，从 GPU 蔓延到 CPU 和电力；Anthropic 自研芯片、AWS CPU 短缺、英伟达入股电力商，都指向算力瓶颈正在重塑产业链。同时，AI 应用公司毛利故事首次遭体检，Canva 和 Figma 的困境提醒：推理成本是悬在头上的剑。",
   "headlines": [
     {
       "rank": 1,
@@ -9,217 +9,224 @@
       "url": "https://www.tomshardware.com/tech-industry/anthropic-to-build-its-own-co-designed-custom-ai-accelerator-for-inferencing-workloads-samsung-reported-to-be-partnering-with-the-claude-ai-maker-for-manufacturing",
       "source": "Tom's Hardware",
       "stars": 5,
-      "title": "Anthropic 自研推理芯片，三星代工，摆脱英伟达依赖",
-      "lead": "Anthropic 宣布组建团队自研定制 ASIC 芯片，专攻 AI 推理负载，三星据报成为制造伙伴。此举意在降低对英伟达 GPU 的依赖，并优化推理成本。对 Claude 生态和整个 AI 算力格局都将产生深远影响。",
+      "title": "Anthropic 自研 AI 推理芯片，三星代工，绕开英伟达",
+      "lead": "Anthropic 宣布组建团队自研定制 ASIC 芯片，专攻推理负载，三星据报成为制造伙伴。这是继 OpenAI 之后又一家大模型公司向上游硬件延伸，直接冲击英伟达在 AI 推理市场的统治地位。对 Claude 用户而言，长期可能意味着更低的 API 成本和更强的算力控制力。",
       "confirmed": [
-        "Anthropic 已宣布组建团队，co-design 定制 ASIC 芯片用于 AI 推理。",
-        "三星被报道为 Anthropic 的制造合作伙伴。",
-        "该芯片将用于推理工作负载，而非训练。",
-        "Anthropic 旨在通过自研芯片获得对计算基础设施的更大控制权。"
+        "Anthropic 已宣布组建团队，co-design 定制 ASIC 芯片，用于 AI 推理工作负载。",
+        "三星被报道为制造合作伙伴，负责生产该芯片。",
+        "此举旨在减少对英伟达 GPU 的依赖，增强算力自主性。",
+        "Anthropic 计划将芯片用于自家模型推理，可能降低长期推理成本。"
       ],
       "judgment": [
-        "芯片的具体架构、性能指标和量产时间尚未公布。",
+        "芯片具体架构、性能指标和量产时间尚未披露。",
         "三星代工的具体工艺节点（如 3nm/2nm）和产能分配未确认。",
-        "自研芯片能否在成本/性能上真正超越英伟达 GPU，尚待验证。",
-        "对英伟达的依赖降低程度，以及是否会影响与英伟达的现有合作，尚不明朗。"
+        "自研芯片能否在性能上对标英伟达 GPU 仍是未知数。",
+        "对 Claude API 定价的短期影响有限，长期效果待观察。"
       ],
-      "implication": "你正在做 AI Agent 项目，推理成本是长期痛点。Anthropic 自研芯片若成功，可能降低 Claude API 价格，但短期影响有限。建议关注其进展，同时继续优化你的 prompt 和缓存策略来省 token。另外，三星代工意味着非台积电路线的成熟，未来 AI 芯片供应多元化，你选型时可以留意更多国产或非英伟达方案。"
+      "implication": "你正在用 Claude Code 做 Agent 项目，这个信号意味着未来推理成本可能下降，但短期别指望 API 降价。建议关注 Anthropic 后续芯片细节，如果性能达标，你的 Agent 工具链可以更激进地依赖 Claude。同时，这也说明大模型公司正在垂直整合，你的 content-curator 项目可以考虑接入更多国产模型（如 DeepSeek）来分散风险。"
     },
     {
       "rank": 2,
-      "domain": "大厂 AI 动态",
-      "id": "hn:49184755",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "source": "Google Blog",
-      "stars": 5,
-      "title": "Google DeepMind 换帅：Hassabis 转任董事长，Jeff Dean 离职",
-      "lead": "Demis Hassabis 从 CEO 转任 Google DeepMind 董事长，Jeff Dean 离开公司。这是 DeepMind 成立以来最大规模的高层变动，标志着一个时代的结束。新 CEO 人选未定，但谷歌 AI 战略方向可能面临调整。",
+      "domain": "股票",
+      "id": "wscn:3778989",
+      "url": "https://wallstreetcn.com/articles/3778989",
+      "source": "华尔街见闻",
+      "stars": 4,
+      "title": "AWS 出现 CPU 短缺，Agentic AI 成算力新瓶颈",
+      "lead": "AWS 高管警告工程师节省算力，内部 CPU 等待时间从数小时延长至数天。英特尔数据显示 CPU 与 GPU 使用比例已从 1:4 升至近 1:1。Agentic AI 的大规模应用正在改变算力需求结构，从 GPU 独大转向 CPU 与 GPU 并重，云计算成本面临上涨压力。",
       "confirmed": [
-        "Demis Hassabis 将卸任 Google DeepMind CEO，转任董事长。",
-        "Jeff Dean 将离开 Google DeepMind。",
-        "该消息由 Google 官方博客宣布。",
-        "Hassabis 将继续参与公司战略方向。"
+        "AWS 高管今年 5 月警告工程师须节省算力资源。",
+        "内部 CPU 等待时间从数小时延长至数天。",
+        "英特尔数据显示 CPU 与 GPU 使用比例从 1:4 升至近 1:1。",
+        "Agentic AI 大规模应用导致 CPU 需求激增。"
       ],
       "judgment": [
-        "新任 CEO 人选尚未公布，继任者未知。",
-        "Hassabis 转任董事长后对日常运营的影响程度不明。",
-        "Jeff Dean 的离职原因未披露。",
-        "此次变动对 Gemini 等产品路线图的影响尚待观察。"
+        "CPU 短缺是暂时性还是长期结构性变化，尚不明确。",
+        "AWS 是否会提高 EC2 实例价格，官方未表态。",
+        "其他云厂商（如 Azure、GCP）是否面临类似问题，未知。",
+        "CPU 短缺对 AI 应用开发成本的具体影响程度待评估。"
       ],
-      "implication": "你重度使用 Gemini 相关工具，这次换帅可能影响未来模型迭代方向。短期看，Gemini 3.6 Flash 等已发布产品不受影响，但长期战略可能调整。建议你关注新 CEO 任命，同时留意 DeepMind 与 Google Brain 的整合是否生变。你的 Agent 项目如果依赖 Gemini API，建议保持模型供应商的多样性以对冲风险。"
+      "implication": "你正在构建 content-curator Agent，如果依赖云 API，CPU 短缺可能推高你的运行成本。建议关注 AWS 定价调整，同时考虑本地跑模型（如 Ollama）或更轻量的推理方案。这也提醒你，Agent 设计时要优化 token 和计算资源使用，避免不必要的轮询。"
     },
     {
       "rank": 3,
-      "domain": "股票",
-      "id": "wscn:3778995",
-      "url": "https://wallstreetcn.com/articles/3778995",
-      "source": "华尔街见闻",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+      "source": "TechCrunch",
       "stars": 4,
-      "title": "伯克希尔终结净卖出，Q2 净买入 200 亿美元股票",
-      "lead": "巴菲特之后，Greg Abel 掌舵的伯克希尔在二季度净买入 200 亿美元股票，终结了持续三年多的净卖出态势。同时回购 45 亿美元，并收购 Taylor Morrison，现金储备降至 3647 亿美元。这标志着伯克希尔投资策略的重大转向。",
+      "title": "Cloudflare 发布 Kitesurf：为 AI Agent 打造的浏览器",
+      "lead": "Cloudflare 推出 Kitesurf，一个云托管的浏览器，专为 AI Agent 设计而非人类。它比 Chromium 更省算力，帮助开发者构建基于浏览器的 AI Agent。这是基础设施层对 Agent 生态的又一次加码，意味着 Agent 将更高效地操控网页。",
       "confirmed": [
-        "伯克希尔 Q2 净买入 200 亿美元股票。",
-        "斥资 45 亿美元回购自身股票。",
-        "以 68 亿美元收购房屋建筑商 Taylor Morrison。",
-        "现金储备降至 3647 亿美元，为四年来首次环比下降。"
+        "Kitesurf 是云托管浏览器，面向 AI Agent。",
+        "比 Chromium 使用更少的计算资源，适合自动化任务。",
+        "帮助开发者构建浏览器型 AI Agent。",
+        "Cloudflare 已正式发布该产品。"
       ],
       "judgment": [
-        "净买入的股票具体标的未完全披露，但谷歌进入前五大持仓。",
-        "Abel 的“果断行动”承诺能否持续，以及投资风格是否长期转变，尚待观察。",
-        "大规模买入是否意味着对市场估值的判断，不得而知。",
-        "现金储备下降是否影响未来并购能力，需后续财报验证。"
+        "Kitesurf 与 Playwright 等现有工具的具体差异未详细说明。",
+        "对现有 Agent 框架（如 Claude Code）的兼容性未知。",
+        "定价和可用性细节尚未公布。",
+        "能否成为主流 Agent 浏览器工具，需观察开发者采用率。"
       ],
-      "implication": "伯克希尔的动向常被视为聪明钱的风向标。它开始净买入，可能暗示当前市场存在价值机会，尤其是在 AI 股回调后。你如果关注美股，可以留意伯克希尔新买入的标的，但别盲目跟风。对你个人而言，这更多是宏观信号——AI 泡沫担忧下，长期资金开始布局，你该更理性看待 AI 概念股的波动。"
+      "implication": "你正在做 Agent 项目，Kitesurf 可能成为你自动化网页操作的新选择。建议关注其文档和 API，如果它支持 MCP 或类似协议，可以集成到你的 content-curator 中，实现更高效的网页数据抓取。同时，这也表明浏览器自动化是 Agent 的重要方向，值得投入学习。"
     },
     {
       "rank": 4,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/terafab-starts-to-take-shape-100-million-square-feet-of-manufacturing-space-and-usd16-8b-initial-capital-investment",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/terafab-starts-to-take-shape-100-million-square-feet-of-manufacturing-space-and-usd16-8b-initial-capital-investment",
-      "source": "Tom's Hardware",
+      "domain": "AI",
+      "id": "bvid:BV1gf3T6KEef",
+      "url": "http://www.bilibili.com/video/av116979708990688",
+      "source": "吴恩达Agentic",
       "stars": 4,
-      "title": "马斯克 Terafab 动工：1 亿平方英尺、168 亿美元，剑指芯片制造",
-      "lead": "SpaceX 和特斯拉正式开建 Terafab 芯片制造设施，占地 1 亿平方英尺，初始投资 168 亿美元，规模是三星平泽园区的三倍。该设施将为 xAI 和 SpaceX 的数据中心生产芯片，并依赖天然气发电。",
+      "title": "吴恩达 Vibe Coding 教程：标准化 AI 软件开发流水线",
+      "lead": "吴恩达在 DeepLearning.AI 推出 Vibe Coding 课程，解决 AI 写代码无规范、项目混乱、迭代失控等痛点。课程演示从环境初始化到 MVP 交付的完整流水线，包括项目章程、功能规范、自动化校验等。这是目前最系统的 Vibe Coding 方法论，适合想提升 AI 编程工程化能力的开发者。",
       "confirmed": [
-        "Terafab 正式开建，占地 1 亿平方英尺。",
-        "初始资本投资 168 亿美元。",
-        "该设施比三星平泽园区大三倍。",
-        "将为 SpaceX 和 xAI 的数据中心生产芯片。"
+        "课程来自 DeepLearning.AI，吴恩达出品。",
+        "内容涵盖环境初始化、项目章程、功能规范编写。",
+        "演示 AI 自动编码、自动化校验、多轮迭代、MVP 交付。",
+        "附带课件代码，评论区可获取。"
       ],
       "judgment": [
-        "Terafab 的具体产能和量产时间未公布。",
-        "依赖天然气发电，与特斯拉太阳能愿景不符，能源策略待明确。",
-        "芯片制造技术来源（自研或合作）未披露。",
-        "项目能否按期完成并盈利，存在不确定性。"
+        "课程深度和时长未明确，可能偏入门。",
+        "是否包含最新工具（如 Claude Code 新特性）未知。",
+        "对非英语用户是否有字幕或翻译，未说明。",
+        "实际效果需观看后评估，可能更适合初学者。"
       ],
-      "implication": "马斯克入局芯片制造，可能加剧 AI 算力竞争，但短期对市场影响有限。你作为 AI 从业者，更应关注算力供给的长期变化。Terafab 若成功，可能降低 AI 芯片成本，但项目风险高。建议你保持关注，但不必过度反应。你的 Agent 项目目前依赖云服务，算力价格波动可能影响成本，可考虑预留预算弹性。"
+      "implication": "你正在做 content-curator 项目，Vibe Coding 的标准化流程能帮你避免代码混乱。建议学习课程中的项目章程和功能规范方法，应用到你的 Agent 开发中。这也能成为你简历上的亮点——展示你掌握了系统化的 AI 编程方法论。"
     },
     {
       "rank": 5,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/",
-      "url": "https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/",
-      "source": "TechCrunch",
+      "domain": "金融",
+      "id": "wscn:3778990",
+      "url": "https://wallstreetcn.com/articles/3778990",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "Kimi 在安全测试中逃逸沙箱，AI 安全再敲警钟",
-      "lead": "研究人员称，月之暗面的 Kimi 模型在网络安全测试中逃逸了测试环境，原因是沙箱配置不当。这并非模型本身具有攻击性，而是测试基础设施的漏洞。事件凸显 AI 安全测试的复杂性。",
+      "title": "AI 应用公司毛利首次遭体检：Canva 降速、Figma 自吞成本",
+      "lead": "Canva 和 Figma 的财报揭示了 AI 应用公司的普遍困境：推理成本严重侵蚀毛利。Canva 为控成本暂缓 AI 铺开，导致营收降速；Figma 因免费测试自担成本，股价重挫。两者均寄望自研模型破局，但 AI 盈利路径仍待验证。",
       "confirmed": [
-        "Kimi 模型在网络安全测试中逃逸了测试环境。",
-        "逃逸原因是沙箱配置不当，而非模型自主行为。",
-        "该事件由 TechCrunch 报道。",
-        "Kimi 是月之暗面公司开发的 AI 模型。"
+        "Canva 主动暂缓 AI 功能铺开，导致营收增速放缓。",
+        "Figma 因免费测试 AI 功能自担推理成本，股价下跌。",
+        "两家公司都在考虑自研模型以降低成本。",
+        "推理成本成为 AI 应用公司毛利的主要压力点。"
       ],
       "judgment": [
-        "逃逸事件的具体影响范围未披露。",
-        "是否涉及数据泄露或系统破坏，尚不明确。",
-        "月之暗面公司的回应和整改措施未公布。",
-        "该事件对 Kimi 的商业化进程可能产生的影响未知。"
+        "自研模型能否成功降低成本，尚不确定。",
+        "AI 应用公司是否会普遍涨价，趋势不明。",
+        "推理成本下降速度（如硬件进步）能否缓解压力，待观察。",
+        "这对中小 AI 创业公司的影响可能更大，但未具体分析。"
       ],
-      "implication": "你正在构建 Agent 项目，安全是必须考虑的维度。Kimi 事件提醒你，即使模型本身安全，测试环境的配置失误也可能导致意外。建议你在开发中严格隔离测试和生产环境，并定期审计权限配置。同时，关注 AI 安全最佳实践，避免类似问题。"
+      "implication": "你正在做 AI 产品，这个案例提醒你：推理成本是产品设计的关键变量。建议在 content-curator 中优化 token 使用，比如缓存、批量处理，或选择更便宜的模型（如 DeepSeek）。同时，关注自研模型趋势，未来可能有更经济的方案。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia 的 Vera 白皮书存在漏洞？Chips and Cheese 深度分析",
-      "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
-      "source": "Chips and Cheese",
-      "one_liner": "技术深度分析，适合硬件爱好者，但用户更关注应用层，故入备选。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Moonshot 的 Kimi 使用阿里 2 万块 Nvidia 芯片集群",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
-      "source": "Bloomberg",
-      "one_liner": "Kimi 算力规模曝光，与逃逸事件关联，但信息量有限。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia 7500 亿美元交易引发循环融资担忧",
+      "title": "Nvidia's $750B in Deals Reignite Circular AI Fears",
       "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
       "source": "Bloomberg",
-      "one_liner": "AI 泡沫论的重要论据，但用户可能已了解，故不选头条。"
+      "one_liner": "英伟达 7500 亿美元交易引发循环融资担忧，AI 泡沫论再起，值得关注但非直接行动信号。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "AMD 收购 AI 芯片初创公司 Taalas",
+      "title": "Moonshot's Kimi uses 20k Nvidia chip cluster from Alibaba",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
+      "source": "Bloomberg",
+      "one_liner": "Kimi 使用阿里 2 万块 Nvidia 芯片集群，国产模型算力布局加速，对 Agent 开发者是生态信号。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
+      "source": "Tom's Hardware",
+      "one_liner": "台积电 2027 年拟涨价 25%，芯片成本传导至 AI 硬件，长期影响推理成本。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Elon Musk's massive Terafab chip-making facility starts to take shape — 100 million square feet of manufacturing space and $16.8B initial capital investment",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/terafab-starts-to-take-shape-100-million-square-feet-of-manufacturing-space-and-usd16-8b-initial-capital-investment",
+      "source": "Tom's Hardware",
+      "one_liner": "马斯克 Terafab 动工，1 亿平方英尺、168 亿美元，芯片制造格局生变，但离产出尚远。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "AI Chip Startup Taalas Acquired by AMD",
       "url": "https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
       "source": "EE Times",
-      "one_liner": "AMD 补强推理加速，对 AI 芯片竞争格局有影响，但相对小众。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "CXMT 内存超频突破 DDR5-8800，追赶 SK 海力士",
-      "url": "https://www.tomshardware.com/pc-components/ram/chinas-memory-making-champion-smashes-ddr5-8800-barrier-on-amd-platform-cxmt-chips-close-the-gap-with-sk-hynix",
-      "source": "Tom's Hardware",
-      "one_liner": "国产内存进步，但用户关注 AI 应用，硬件新闻优先级低。"
+      "one_liner": "AMD 收购 AI 芯片初创 Taalas，用于 LLM 解码加速，GPU 竞争加剧。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Cloudflare 推出 Kitesurf，专为 AI Agent 设计的浏览器",
-      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-      "source": "TechCrunch",
-      "one_liner": "与 Agent 开发相关，但用户可能更关注工具实战，而非基础设施。"
+      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source": "Google Blog",
+      "one_liner": "DeepMind 高层变动，Hassabis 转任主席，Jeff Dean 离职，AI 研究格局或受影响。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "OpenAI 收购演示文稿初创公司 NextSlide",
+      "title": "OpenAI acquires presentation startup NextSlide",
       "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
       "source": "TechCrunch",
-      "one_liner": "OpenAI 扩展产品线，但新闻价值一般，用户可能不感兴趣。"
+      "one_liner": "OpenAI 收购 NextSlide，团队并入 ChatGPT，办公场景 AI 整合加速。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "DeepMind 的 WeatherNext 模型在飓风预测上取得突破",
-      "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
-      "source": "Ars Technica",
-      "one_liner": "AI 在科学领域的应用，但用户偏好工程实践，故入备选。"
+      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "source": "TechCrunch",
+      "one_liner": "OpenAI 因安全担忧放缓 Astra 模型，AI 安全与能力发展的平衡点值得关注。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "source": "DeepMind Blog",
+      "one_liner": "DeepMind WeatherNext 突破飓风预测，AI 在科学领域的应用再添案例。"
     },
     {
       "domain": "股票",
-      "title": "SK 海力士拟推 710 亿美元股东回报计划，40% 用于回购",
+      "title": "SK海力士拟推710亿美元股东回报方案，40%用于回购股票",
       "url": "https://wallstreetcn.com/articles/3778998",
       "source": "华尔街见闻",
-      "one_liner": "HBM 需求强劲，存储巨头大手笔回购，对半导体板块有信号意义。"
+      "one_liner": "SK 海力士史上最大股东回报计划，HBM 需求强劲支撑，存储芯片景气度信号。"
     },
     {
       "domain": "股票",
-      "title": "英伟达拟 30 亿美元入股电力商 Lancium，锁定 OpenAI 星际之门电力",
+      "title": "英伟达盯上OpenAI“星际之门”背后的电力商，30亿美元直接入股",
       "url": "https://wallstreetcn.com/articles/3778988",
       "source": "华尔街见闻",
-      "one_liner": "算力军备竞赛延伸到电力，英伟达垂直整合，但用户可能不关心。"
+      "one_liner": "英伟达入股电力商 Lancium，AI 算力向电力基础设施延伸，能源成新瓶颈。"
     },
     {
       "domain": "股票",
-      "title": "Palantir 创 2024 年以来最强单周表现，美国商业收入增 149%",
-      "url": "https://wallstreetcn.com/articles/3778983",
-      "source": "华尔街见闻",
-      "one_liner": "AI 应用龙头业绩爆发，但用户可能更关注技术而非个股。"
-    },
-    {
-      "domain": "股票",
-      "title": "AAOI 业绩超预期，带飞光通信板块",
+      "title": "AAOI业绩爆了，带飞整个光通信",
       "url": "https://wallstreetcn.com/articles/3778985",
       "source": "华尔街见闻",
-      "one_liner": "光模块需求强劲，但用户非金融专业，故入备选。"
+      "one_liner": "AAOI 营收增 86%，光通信板块大涨，AI 数据中心光互联需求强劲。"
+    },
+    {
+      "domain": "股票",
+      "title": "“AI应用龙头”归来！Palantir创2024年以来“最强单周表现”",
+      "url": "https://wallstreetcn.com/articles/3778983",
+      "source": "华尔街见闻",
+      "one_liner": "Palantir 美国商业收入增 149%，AI 应用盈利模式获验证，但估值仍高。"
     },
     {
       "domain": "金融",
-      "title": "Stripe 和 Advent 联合报价 530 亿美元收购 PayPal",
+      "title": "Stripe and Advent have made a joint offer to acquire PayPal – sources",
       "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
       "source": "Reuters",
-      "one_liner": "支付行业重大并购，但用户可能不关注金融科技。"
+      "one_liner": "Stripe 与 Advent 拟 530 亿美元收购 PayPal，支付行业整合大戏，但非 AI 直接相关。"
     },
     {
       "domain": "金融",
-      "title": "美联储官员 Kashkari 表示现在是时候开始缓慢加息",
+      "title": "Fed's Kashkari says 'now is the time to start slowly moving' rates up",
       "url": "https://www.cnbc.com/2026/08/05/feds-kashkari-says-now-is-the-time-to-start-slowly-moving-rates-up.html",
       "source": "CNBC",
-      "one_liner": "货币政策转向信号，但用户可能更关心 AI 领域。"
+      "one_liner": "美联储 Kashkari 暗示加息，宏观环境变化影响科技股估值，但短期信号模糊。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-09T04:57:00+0000"
+    "scored_at": "2026-08-09T05:29:03+0000"
   }
 }
