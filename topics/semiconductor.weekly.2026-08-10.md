@@ -2,39 +2,39 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今日AI领域迎来双重变局：Anthropic将Claude Code的Auto模式设为默认，标志着AI编程从辅助走向自主执行；OpenAI被曝GPT-6即将发布，10万亿参数规模将刷新行业天花板。同时，Google DeepMind高层变动、AMD收购Taalas等事件，预示着AI竞争进入新阶段。金融市场上，AI芯片股剧烈波动，对冲基金转向做空，需警惕短期风险。_
+_今日AI圈动荡：OpenAI GPT-6传闻与Anthropic Sonnet 5.5泄露，大模型竞争白热化；Google DeepMind高层变动，Demis Hassabis转任董事长；同时，AI算力需求引发能源与芯片市场连锁反应，Amazon巨型数据中心争议不断。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. AMD收购AI芯片初创Taalas，强化推理加速能力
+### 3. Amazon 7.65GW德州数据中心电厂：或成美国最大碳排放源
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _EE Times_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
 
-AMD宣布收购AI芯片初创公司Taalas，计划将其芯片与GPU结合用于AI推理，特别是作为LLM解码加速器。这一收购将增强AMD在AI推理市场的竞争力，与Nvidia形成更直接对抗。
+Amazon在德州新建的AI数据中心配套一座7.65GW天然气电厂，获准每年排放3300万吨二氧化碳，可能成为美国最大单一碳排放源。这一事件凸显AI算力扩张与环保目标的冲突，也引发对数据中心能源消耗的广泛讨论。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| AMD收购AI芯片初创公司Taalas。 | Taalas芯片的实际性能如何？ |
-| Taalas芯片将用于AI推理，作为LLM解码加速器。 | AMD能否成功整合Taalas技术并推向市场？ |
-| 收购将增强AMD在AI推理市场的竞争力。 | 对Nvidia的市场地位构成多大威胁？ |
+| Amazon在德州建设7.65GW天然气电厂。 | 电厂建设进度和实际运营时间未明确。 |
+| 电厂获准每年排放3300万吨二氧化碳。 | 环保组织反对声音可能影响项目后续。 |
+| 该电厂将用于支持新的AI数据中心。 | 其他科技巨头是否跟进类似模式，需观察。 |
 
 **📖 主编点评**
 
-对于关注AI硬件生态的你，AMD的收购意味着更多选择。未来在部署AI模型时，AMD的推理方案可能成为Nvidia的替代。你可以关注AMD的ROCm生态发展，评估其与你的Agent项目的兼容性。
+你关注AI工程实践，数据中心能源问题将影响算力成本和可持续性。未来AI项目可能需要考虑绿色能源，或关注能效优化技术。这对你的Agent项目部署成本也有潜在影响。
 
-📺 [打开原文](https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/data-centers/amazons-new-7-65gw-texas-ai-data-center-power-plant-could-become-the-largest-source-of-co2-pollution-in-the-us-custom-35-turbine-gas-plant-authorized-to-emit-33-million-tons-of-annual-greenhouse-gases)
 
 ---
 
 ## 📋 备选阅读
 
-- [Nvidia's Vera Whitepaper Has a Thread Loose](https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread) —— 深入分析Nvidia Vera架构，对硬件爱好者有深度，但可能过于专业。
+- [Nvidia's Vera Whitepaper Has a Thread Loose](https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread) —— 深度技术分析Nvidia Vera架构，适合硬件爱好者，但可能偏专业。
   _Chips and Cheese_
-- [Moonshot's Kimi uses 20k Nvidia chip cluster from Alibaba](https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba) —— Kimi使用2万块Nvidia芯片，反映中国AI算力需求，但新闻性一般。
+- [Moonshot's Kimi uses 20k Nvidia chip cluster from Alibaba](https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba) —— Kimi使用阿里2万块Nvidia芯片，反映中国AI算力布局。
   _Bloomberg_
-- [TSMC eyes price hikes of up to 25% on chip production services in 2027](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes) —— 台积电涨价影响AI芯片成本，值得关注，但对你直接关联不大。
+- [TSMC eyes price hikes of up to 25% on chip production services in 2027](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes) —— 台积电2027年涨价25%，将推高AI芯片成本，影响下游。
   _Tom's Hardware_
 
 ---
