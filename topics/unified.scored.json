@@ -1,232 +1,216 @@
 {
-  "date": "2026-08-09",
-  "intro": "今日信号：AI 基础设施投资周期被拉长，从 GPU 蔓延到 CPU 和电力；Anthropic 自研芯片、AWS CPU 短缺、英伟达入股电力商，都指向算力瓶颈正在重塑产业链。同时，AI 应用公司毛利故事首次遭体检，Canva 和 Figma 的困境提醒：推理成本是悬在头上的剑。",
+  "date": "2026-08-10",
+  "intro": "今日AI领域迎来双重变局：Anthropic将Claude Code的Auto模式设为默认，标志着AI编程从辅助走向自主执行；OpenAI被曝GPT-6即将发布，10万亿参数规模将刷新行业天花板。同时，Google DeepMind高层变动、AMD收购Taalas等事件，预示着AI竞争进入新阶段。金融市场上，AI芯片股剧烈波动，对冲基金转向做空，需警惕短期风险。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/anthropic-to-build-its-own-co-designed-custom-ai-accelerator-for-inferencing-workloads-samsung-reported-to-be-partnering-with-the-claude-ai-maker-for-manufacturing",
-      "url": "https://www.tomshardware.com/tech-industry/anthropic-to-build-its-own-co-designed-custom-ai-accelerator-for-inferencing-workloads-samsung-reported-to-be-partnering-with-the-claude-ai-maker-for-manufacturing",
-      "source": "Tom's Hardware",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "source": "TechCrunch",
       "stars": 5,
-      "title": "Anthropic 自研 AI 推理芯片，三星代工，绕开英伟达",
-      "lead": "Anthropic 宣布组建团队自研定制 ASIC 芯片，专攻推理负载，三星据报成为制造伙伴。这是继 OpenAI 之后又一家大模型公司向上游硬件延伸，直接冲击英伟达在 AI 推理市场的统治地位。对 Claude 用户而言，长期可能意味着更低的 API 成本和更强的算力控制力。",
+      "title": "Anthropic将Claude Code的Auto模式设为默认，AI编程进入全自主时代",
+      "lead": "Anthropic宣布将Claude Code的Auto模式设为默认，这意味着AI编程工具将更少需要人工监督。此前Auto模式需要用户显式开启，现在将成为标准配置，开发者可以更专注于审查而非编写代码。这一变化将深刻影响AI辅助开发的实践方式。",
       "confirmed": [
-        "Anthropic 已宣布组建团队，co-design 定制 ASIC 芯片，用于 AI 推理工作负载。",
-        "三星被报道为制造合作伙伴，负责生产该芯片。",
-        "此举旨在减少对英伟达 GPU 的依赖，增强算力自主性。",
-        "Anthropic 计划将芯片用于自家模型推理，可能降低长期推理成本。"
+        "Anthropic将Claude Code的Auto模式设为默认，编程时需更少人工监督。",
+        "此前Auto模式为可选，现成为标准配置。",
+        "该变化旨在提升开发效率，减少开发者干预。"
       ],
       "judgment": [
-        "芯片具体架构、性能指标和量产时间尚未披露。",
-        "三星代工的具体工艺节点（如 3nm/2nm）和产能分配未确认。",
-        "自研芯片能否在性能上对标英伟达 GPU 仍是未知数。",
-        "对 Claude API 定价的短期影响有限，长期效果待观察。"
+        "Auto模式默认化后，代码质量和安全性如何保证？",
+        "开发者是否会过度依赖AI，导致技能退化？",
+        "这一变化对Claude Code的竞争对手（如Cursor）有何影响？"
       ],
-      "implication": "你正在用 Claude Code 做 Agent 项目，这个信号意味着未来推理成本可能下降，但短期别指望 API 降价。建议关注 Anthropic 后续芯片细节，如果性能达标，你的 Agent 工具链可以更激进地依赖 Claude。同时，这也说明大模型公司正在垂直整合，你的 content-curator 项目可以考虑接入更多国产模型（如 DeepSeek）来分散风险。"
+      "implication": "你应该立即更新Claude Code并测试Auto模式，评估其在你的项目中的表现。对于你的content-curator项目，可以尝试让AI自动完成更多编码任务，但务必保留代码审查环节，确保质量。关注社区反馈，了解潜在问题。"
     },
     {
       "rank": 2,
-      "domain": "股票",
-      "id": "wscn:3778989",
-      "url": "https://wallstreetcn.com/articles/3778989",
+      "domain": "AI",
+      "id": "wscn:3779038",
+      "url": "https://wallstreetcn.com/articles/3779038",
       "source": "华尔街见闻",
-      "stars": 4,
-      "title": "AWS 出现 CPU 短缺，Agentic AI 成算力新瓶颈",
-      "lead": "AWS 高管警告工程师节省算力，内部 CPU 等待时间从数小时延长至数天。英特尔数据显示 CPU 与 GPU 使用比例已从 1:4 升至近 1:1。Agentic AI 的大规模应用正在改变算力需求结构，从 GPU 独大转向 CPU 与 GPU 并重，云计算成本面临上涨压力。",
+      "stars": 5,
+      "title": "OpenAI曝光GPT-6：10万亿参数，8月强行发布，AI竞赛白热化",
+      "lead": "OpenAI被曝即将发布GPT-6（代号Astra），参数高达10万亿，是GPT-4的五倍。同时年底还有更强大的Doug模型。Anthropic则以Fable 5.1截击，谷歌DeepMind高层变动，AI三巨头格局生变。大模型王座之争将在8月见分晓。",
       "confirmed": [
-        "AWS 高管今年 5 月警告工程师须节省算力资源。",
-        "内部 CPU 等待时间从数小时延长至数天。",
-        "英特尔数据显示 CPU 与 GPU 使用比例从 1:4 升至近 1:1。",
-        "Agentic AI 大规模应用导致 CPU 需求激增。"
+        "OpenAI将发布GPT-6，参数规模达10万亿，为GPT-4的5倍。",
+        "年底还有代号Doug的更强模型。",
+        "Anthropic计划发布Fable 5.1进行竞争。"
       ],
       "judgment": [
-        "CPU 短缺是暂时性还是长期结构性变化，尚不明确。",
-        "AWS 是否会提高 EC2 实例价格，官方未表态。",
-        "其他云厂商（如 Azure、GCP）是否面临类似问题，未知。",
-        "CPU 短缺对 AI 应用开发成本的具体影响程度待评估。"
+        "GPT-6的实际性能是否与参数规模成正比？",
+        "OpenAI能否在8月如期发布？",
+        "谷歌DeepMind高层变动是否会影响其AI研发进度？"
       ],
-      "implication": "你正在构建 content-curator Agent，如果依赖云 API，CPU 短缺可能推高你的运行成本。建议关注 AWS 定价调整，同时考虑本地跑模型（如 Ollama）或更轻量的推理方案。这也提醒你，Agent 设计时要优化 token 和计算资源使用，避免不必要的轮询。"
+      "implication": "作为AI产品开发者，你需要密切关注GPT-6的发布，它可能带来新的能力上限。同时，Anthropic的Fable 5.1也值得关注，可能成为性价比之选。建议你提前规划如何将这些新模型集成到你的Agent项目中，保持技术领先。"
     },
     {
       "rank": 3,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-      "source": "TechCrunch",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
+      "url": "https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
+      "source": "EE Times",
       "stars": 4,
-      "title": "Cloudflare 发布 Kitesurf：为 AI Agent 打造的浏览器",
-      "lead": "Cloudflare 推出 Kitesurf，一个云托管的浏览器，专为 AI Agent 设计而非人类。它比 Chromium 更省算力，帮助开发者构建基于浏览器的 AI Agent。这是基础设施层对 Agent 生态的又一次加码，意味着 Agent 将更高效地操控网页。",
+      "title": "AMD收购AI芯片初创Taalas，强化推理加速能力",
+      "lead": "AMD宣布收购AI芯片初创公司Taalas，计划将其芯片与GPU结合用于AI推理，特别是作为LLM解码加速器。这一收购将增强AMD在AI推理市场的竞争力，与Nvidia形成更直接对抗。",
       "confirmed": [
-        "Kitesurf 是云托管浏览器，面向 AI Agent。",
-        "比 Chromium 使用更少的计算资源，适合自动化任务。",
-        "帮助开发者构建浏览器型 AI Agent。",
-        "Cloudflare 已正式发布该产品。"
+        "AMD收购AI芯片初创公司Taalas。",
+        "Taalas芯片将用于AI推理，作为LLM解码加速器。",
+        "收购将增强AMD在AI推理市场的竞争力。"
       ],
       "judgment": [
-        "Kitesurf 与 Playwright 等现有工具的具体差异未详细说明。",
-        "对现有 Agent 框架（如 Claude Code）的兼容性未知。",
-        "定价和可用性细节尚未公布。",
-        "能否成为主流 Agent 浏览器工具，需观察开发者采用率。"
+        "Taalas芯片的实际性能如何？",
+        "AMD能否成功整合Taalas技术并推向市场？",
+        "对Nvidia的市场地位构成多大威胁？"
       ],
-      "implication": "你正在做 Agent 项目，Kitesurf 可能成为你自动化网页操作的新选择。建议关注其文档和 API，如果它支持 MCP 或类似协议，可以集成到你的 content-curator 中，实现更高效的网页数据抓取。同时，这也表明浏览器自动化是 Agent 的重要方向，值得投入学习。"
+      "implication": "对于关注AI硬件生态的你，AMD的收购意味着更多选择。未来在部署AI模型时，AMD的推理方案可能成为Nvidia的替代。你可以关注AMD的ROCm生态发展，评估其与你的Agent项目的兼容性。"
     },
     {
       "rank": 4,
-      "domain": "AI",
-      "id": "bvid:BV1gf3T6KEef",
-      "url": "http://www.bilibili.com/video/av116979708990688",
-      "source": "吴恩达Agentic",
+      "domain": "股票",
+      "id": "wscn:3779045",
+      "url": "https://wallstreetcn.com/articles/3779045",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "吴恩达 Vibe Coding 教程：标准化 AI 软件开发流水线",
-      "lead": "吴恩达在 DeepLearning.AI 推出 Vibe Coding 课程，解决 AI 写代码无规范、项目混乱、迭代失控等痛点。课程演示从环境初始化到 MVP 交付的完整流水线，包括项目章程、功能规范、自动化校验等。这是目前最系统的 Vibe Coding 方法论，适合想提升 AI 编程工程化能力的开发者。",
+      "title": "SK海力士单周再跌15%，摩根大通拆解传言称最坏时刻已过",
+      "lead": "SK海力士上周股价重挫15%，市场恐慌源于英伟达削减HBM采购、股东回报未定等传言。摩根大通逐一拆解，认为五折定价系误读，资本支出属既定计划，股东回报时间表已提前，目标价仍有94%上行空间。",
       "confirmed": [
-        "课程来自 DeepLearning.AI，吴恩达出品。",
-        "内容涵盖环境初始化、项目章程、功能规范编写。",
-        "演示 AI 自动编码、自动化校验、多轮迭代、MVP 交付。",
-        "附带课件代码，评论区可获取。"
+        "SK海力士上周股价下跌15%。",
+        "市场传言包括英伟达削减HBM采购、半价折扣等。",
+        "摩根大通认为最坏时刻已过，目标价有94%上行空间。"
       ],
       "judgment": [
-        "课程深度和时长未明确，可能偏入门。",
-        "是否包含最新工具（如 Claude Code 新特性）未知。",
-        "对非英语用户是否有字幕或翻译，未说明。",
-        "实际效果需观看后评估，可能更适合初学者。"
+        "摩根大通的判断是否准确？",
+        "HBM需求是否真的减弱？",
+        "SK海力士股价能否反弹？"
       ],
-      "implication": "你正在做 content-curator 项目，Vibe Coding 的标准化流程能帮你避免代码混乱。建议学习课程中的项目章程和功能规范方法，应用到你的 Agent 开发中。这也能成为你简历上的亮点——展示你掌握了系统化的 AI 编程方法论。"
+      "implication": "虽然你不直接炒股，但SK海力士的波动反映了AI硬件市场的情绪。作为AI从业者，你可以从中判断HBM等关键组件的供应趋势，这影响你未来构建AI系统的成本和可行性。关注行业动态，但不必过度反应。"
     },
     {
       "rank": 5,
       "domain": "金融",
-      "id": "wscn:3778990",
-      "url": "https://wallstreetcn.com/articles/3778990",
+      "id": "wscn:3779049",
+      "url": "https://wallstreetcn.com/articles/3779049",
       "source": "华尔街见闻",
-      "stars": 4,
-      "title": "AI 应用公司毛利首次遭体检：Canva 降速、Figma 自吞成本",
-      "lead": "Canva 和 Figma 的财报揭示了 AI 应用公司的普遍困境：推理成本严重侵蚀毛利。Canva 为控成本暂缓 AI 铺开，导致营收降速；Figma 因免费测试自担成本，股价重挫。两者均寄望自研模型破局，但 AI 盈利路径仍待验证。",
+      "stars": 3,
+      "title": "私募信贷违约率创五年高位，软件贷款成最大隐忧",
+      "lead": "Ares、Blackstone等头部私募信贷基金违约率升至五年高位，内部风险观察名单扩大。软件公司贷款占基金组合超20%，在AI冲击下成为最大潜在风险点。市场情绪与管理人乐观表态形成落差。",
       "confirmed": [
-        "Canva 主动暂缓 AI 功能铺开，导致营收增速放缓。",
-        "Figma 因免费测试 AI 功能自担推理成本，股价下跌。",
-        "两家公司都在考虑自研模型以降低成本。",
-        "推理成本成为 AI 应用公司毛利的主要压力点。"
+        "头部私募信贷基金违约率升至五年高位。",
+        "软件公司贷款占基金组合超20%。",
+        "内部风险观察名单扩大。"
       ],
       "judgment": [
-        "自研模型能否成功降低成本，尚不确定。",
-        "AI 应用公司是否会普遍涨价，趋势不明。",
-        "推理成本下降速度（如硬件进步）能否缓解压力，待观察。",
-        "这对中小 AI 创业公司的影响可能更大，但未具体分析。"
+        "AI对软件公司的冲击有多大？",
+        "私募信贷风险是否会传导至更广的金融体系？",
+        "监管是否会介入？"
       ],
-      "implication": "你正在做 AI 产品，这个案例提醒你：推理成本是产品设计的关键变量。建议在 content-curator 中优化 token 使用，比如缓存、批量处理，或选择更便宜的模型（如 DeepSeek）。同时，关注自研模型趋势，未来可能有更经济的方案。"
+      "implication": "这条新闻虽与你的直接工作关联不大，但反映了AI对软件行业的颠覆性影响。作为AI产品开发者，你应意识到AI正在重塑软件行业，你的技能正当时。同时，关注金融风险，避免在个人投资中踩雷。"
     }
   ],
   "shortlist": [
     {
+      "domain": "AI",
+      "title": "吴恩达2026年Agent智能体教程",
+      "url": "http://www.bilibili.com/video/av115897075242856",
+      "source": "吴恩达Agent",
+      "one_liner": "吴恩达的Agent教程，内容系统，适合入门，但非最新，可作基础学习。"
+    },
+    {
+      "domain": "AI",
+      "title": "Claude Code保姆级安装+原理+真实用法",
+      "url": "http://www.bilibili.com/video/av116447535765612",
+      "source": "人工大黑",
+      "points": 1686089,
+      "one_liner": "快速上手Claude Code，但内容较浅，适合新手，对你有一定参考价值。"
+    },
+    {
+      "domain": "AI",
+      "title": "从LLM到Agent Skill，打通底层逻辑",
+      "url": "http://www.bilibili.com/video/av116227955497963",
+      "source": "马克的技术工作坊",
+      "one_liner": "梳理AI核心概念，适合巩固基础，但可能不够深入。"
+    },
+    {
+      "domain": "AI",
+      "title": "零基础Vibe Coding教程，实战Claude Code+Codex+Cursor",
+      "url": "http://www.bilibili.com/video/av116711944620974",
+      "source": "尚硅谷",
+      "one_liner": "尚硅谷的实战教程，内容全面，但可能偏基础，适合系统学习。"
+    },
+    {
+      "domain": "AI",
+      "title": "Superpowers让Claude Code写出工程级代码",
+      "url": "http://www.bilibili.com/video/av115877227860495",
+      "source": "AI超元域",
+      "one_liner": "介绍Superpowers工作流，提升代码质量，值得一试。"
+    },
+    {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia's $750B in Deals Reignite Circular AI Fears",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
-      "source": "Bloomberg",
-      "one_liner": "英伟达 7500 亿美元交易引发循环融资担忧，AI 泡沫论再起，值得关注但非直接行动信号。"
+      "title": "Nvidia's Vera Whitepaper Has a Thread Loose",
+      "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
+      "source": "Chips and Cheese",
+      "one_liner": "深入分析Nvidia Vera架构，对硬件爱好者有深度，但可能过于专业。"
     },
     {
       "domain": "AI 算力 / 半导体",
       "title": "Moonshot's Kimi uses 20k Nvidia chip cluster from Alibaba",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
       "source": "Bloomberg",
-      "one_liner": "Kimi 使用阿里 2 万块 Nvidia 芯片集群，国产模型算力布局加速，对 Agent 开发者是生态信号。"
+      "one_liner": "Kimi使用2万块Nvidia芯片，反映中国AI算力需求，但新闻性一般。"
     },
     {
       "domain": "AI 算力 / 半导体",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
       "source": "Tom's Hardware",
-      "one_liner": "台积电 2027 年拟涨价 25%，芯片成本传导至 AI 硬件，长期影响推理成本。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Elon Musk's massive Terafab chip-making facility starts to take shape — 100 million square feet of manufacturing space and $16.8B initial capital investment",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/terafab-starts-to-take-shape-100-million-square-feet-of-manufacturing-space-and-usd16-8b-initial-capital-investment",
-      "source": "Tom's Hardware",
-      "one_liner": "马斯克 Terafab 动工，1 亿平方英尺、168 亿美元，芯片制造格局生变，但离产出尚远。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "AI Chip Startup Taalas Acquired by AMD",
-      "url": "https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
-      "source": "EE Times",
-      "one_liner": "AMD 收购 AI 芯片初创 Taalas，用于 LLM 解码加速，GPU 竞争加剧。"
+      "one_liner": "台积电涨价影响AI芯片成本，值得关注，但对你直接关联不大。"
     },
     {
       "domain": "大厂 AI 动态",
       "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
       "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
       "source": "Google Blog",
-      "one_liner": "DeepMind 高层变动，Hassabis 转任主席，Jeff Dean 离职，AI 研究格局或受影响。"
+      "one_liner": "DeepMind高层变动，影响AI研发方向，但新闻已多日，非最新。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "OpenAI acquires presentation startup NextSlide",
-      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-      "source": "TechCrunch",
-      "one_liner": "OpenAI 收购 NextSlide，团队并入 ChatGPT，办公场景 AI 整合加速。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "OpenAI says it slowed Astra model development over security concerns",
-      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-      "source": "TechCrunch",
-      "one_liner": "OpenAI 因安全担忧放缓 Astra 模型，AI 安全与能力发展的平衡点值得关注。"
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "source": "DeepMind",
+      "one_liner": "Gemini Robotics 2发布，机器人AI新进展，但可能离你较远。"
     },
     {
       "domain": "大厂 AI 动态",
       "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
       "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "source": "DeepMind Blog",
-      "one_liner": "DeepMind WeatherNext 突破飓风预测，AI 在科学领域的应用再添案例。"
+      "source": "DeepMind",
+      "one_liner": "WeatherNext模型突破，AI应用新领域，但非你关注重点。"
     },
     {
       "domain": "股票",
-      "title": "SK海力士拟推710亿美元股东回报方案，40%用于回购股票",
-      "url": "https://wallstreetcn.com/articles/3778998",
-      "source": "华尔街见闻",
-      "one_liner": "SK 海力士史上最大股东回报计划，HBM 需求强劲支撑，存储芯片景气度信号。"
+      "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
+      "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
+      "source": "LA Times",
+      "one_liner": "SpaceX股价跌破IPO价，市场情绪波动，但与你无关。"
     },
     {
       "domain": "股票",
-      "title": "英伟达盯上OpenAI“星际之门”背后的电力商，30亿美元直接入股",
-      "url": "https://wallstreetcn.com/articles/3778988",
-      "source": "华尔街见闻",
-      "one_liner": "英伟达入股电力商 Lancium，AI 算力向电力基础设施延伸，能源成新瓶颈。"
-    },
-    {
-      "domain": "股票",
-      "title": "AAOI业绩爆了，带飞整个光通信",
-      "url": "https://wallstreetcn.com/articles/3778985",
-      "source": "华尔街见闻",
-      "one_liner": "AAOI 营收增 86%，光通信板块大涨，AI 数据中心光互联需求强劲。"
-    },
-    {
-      "domain": "股票",
-      "title": "“AI应用龙头”归来！Palantir创2024年以来“最强单周表现”",
-      "url": "https://wallstreetcn.com/articles/3778983",
-      "source": "华尔街见闻",
-      "one_liner": "Palantir 美国商业收入增 149%，AI 应用盈利模式获验证，但估值仍高。"
+      "title": "Situational Awareness down 67% in July in AI stock rout",
+      "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
+      "source": "WSJ",
+      "one_liner": "AI股票大跌，对冲基金损失惨重，反映市场风险，但非你关注。"
     },
     {
       "domain": "金融",
-      "title": "Stripe and Advent have made a joint offer to acquire PayPal – sources",
+      "title": "Stripe and Advent have made a joint offer to acquire PayPal",
       "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
       "source": "Reuters",
-      "one_liner": "Stripe 与 Advent 拟 530 亿美元收购 PayPal，支付行业整合大戏，但非 AI 直接相关。"
-    },
-    {
-      "domain": "金融",
-      "title": "Fed's Kashkari says 'now is the time to start slowly moving' rates up",
-      "url": "https://www.cnbc.com/2026/08/05/feds-kashkari-says-now-is-the-time-to-start-slowly-moving-rates-up.html",
-      "source": "CNBC",
-      "one_liner": "美联储 Kashkari 暗示加息，宏观环境变化影响科技股估值，但短期信号模糊。"
+      "one_liner": "Stripe和Advent联合收购PayPal，金融科技大事件，但与你关系不大。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-09T05:29:03+0000"
+    "scored_at": "2026-08-10T05:18:23+0000"
   }
 }
