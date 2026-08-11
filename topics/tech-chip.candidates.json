@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-10T04:45:31.889399+00:00",
+  "fetched_at": "2026-08-11T04:25:57.475092+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 8,
+    "HN · Nvidia": 6,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 30,
+  "total": 28,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/why-ai-adoption-in-materials-rd-depends-more-on-people-than-technology/",
+      "title": "Why AI Adoption in Materials R&D Depends More on People Than Technology",
+      "url": "https://www.eetimes.com/why-ai-adoption-in-materials-rd-depends-more-on-people-than-technology/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Ryo Matsushima",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-10T21:21:39+00:00",
+      "summary": "The technology works. The organization has to catch up. The post Why AI Adoption in Materials R&amp;D Depends More on People Than Technology appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/u-s-startup-fields-quantum-sensors-to-reduce-reliance-on-gps/",
+      "title": "U.S. Startup Fields Quantum Sensors to Reduce Reliance on GPS",
+      "url": "https://www.eetimes.com/u-s-startup-fields-quantum-sensors-to-reduce-reliance-on-gps/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-10T13:14:50+00:00",
+      "summary": "GPS spoofing is a sitting duck; Dirac’s quantum sensors aim to navigate air, sea, and tunnels without satellites. The post U.S. Startup Fields Quantum Sensors to Reduce Reliance on GPS appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/leading-edge-ai-ic-designs-demand-comprehensive-hav-methodologies/",
+      "title": "Leading-edge AI IC designs demand comprehensive HAV methodologies",
+      "url": "https://www.eetimes.com/leading-edge-ai-ic-designs-demand-comprehensive-hav-methodologies/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Juergen Jaeger, Director of Prototyping Product Strategy, Siemens EDA",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-10T13:00:00+00:00",
+      "summary": "Learn how comprehensive hardware-assisted verification helps AI SoC teams accelerate RTL, software development and system validation. The post Leading-edge AI IC designs demand comprehensive HAV methodologies appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/can-ai-command-earth-to-orbit-operations/",
+      "title": "Can AI Command Earth-to-Orbit Operations?",
+      "url": "https://www.eetimes.com/can-ai-command-earth-to-orbit-operations/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Anne-Françoise Pelé",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-10T08:00:00+00:00",
+      "summary": "The aerospace and defense sector is facing a confluence of geopolitical instability, rapid technological advances, evolving security requirements, and complex global supply chains. The post Can AI Command Earth-to-Orbit Operations? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/after-seven-ceos-in-10-years-imagination-is-sticking-to-its-strategy/",
       "title": "After Seven CEOs in 10 Years, Imagination Is Sticking to Its Strategy",
       "url": "https://www.eetimes.com/after-seven-ceos-in-10-years-imagination-is-sticking-to-its-strategy/",
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
-      "title": "AI Chip Startup Taalas Acquired by AMD",
-      "url": "https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-06T20:05:00+00:00",
-      "summary": "AMD plans to use Taalas chips alongside its GPUs for AI inference, likely as an LLM decode accelerator. The post AI Chip Startup Taalas Acquired by AMD appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/globalfoundries-growth-makes-the-case-for-a-u-s-photonics-buildout/",
-      "title": "GlobalFoundries’ Growth Makes the Case for a U.S. Photonics Buildout",
-      "url": "https://www.eetimes.com/globalfoundries-growth-makes-the-case-for-a-u-s-photonics-buildout/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-06T16:17:00+00:00",
-      "summary": "GlobalFoundries’ data center surge turns U.S. photonics from subsidy pitch to AI bottleneck bet. The post GlobalFoundries’ Growth Makes the Case for a U.S. Photonics Buildout appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/u-s-manufacturing-activity-hits-four-year-high-in-july/",
-      "title": "U.S. Manufacturing Activity Hits Four-Year High in July",
-      "url": "https://www.eetimes.com/u-s-manufacturing-activity-hits-four-year-high-in-july/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "News Desk",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-06T12:31:16+00:00",
-      "summary": "In July, U.S. manufacturing activity remained in expansion territory, growing at its fastest pace in more than four years. The post U.S. Manufacturing Activity Hits Four-Year High in July appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/beyond-the-fab-building-europe-next-generation-of-semiconductor-champions/",
-      "title": "Beyond the Fab: Building Europe’s Next Generation of Semiconductor Champions",
-      "url": "https://www.eetimes.com/beyond-the-fab-building-europe-next-generation-of-semiconductor-champions/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Ian Lankshear",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-06T08:09:11+00:00",
-      "summary": "Europe's next semiconductor champions will emerge from design expertise, customer knowledge, and IP—not manufacturing capacity alone. The post Beyond the Fab: Building Europe&#8217;s Next Generation of Semiconductor Champions appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -389,7 +389,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49189234"
       },
       "duration_sec": null,
-      "views": 206,
+      "views": 208,
       "comments": 46,
       "published_at": "2026-08-05T21:24:45+00:00",
       "summary": "",
@@ -416,39 +416,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49071512",
-      "title": "Nvidia's $750B in Deals Reignite Circular AI Fears",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+      "id": "hn:49248477",
+      "title": "Nvidia is pulling Wall Street into the AI buildout",
+      "url": "https://thenextweb.com/news/nvidia-500-billion-wall-street-ai-infrastructure-funding-package",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49071512",
-        "name": "petethomas",
-        "hn_url": "https://news.ycombinator.com/item?id=49071512"
+        "id": "49248477",
+        "name": "berkeleyjunk",
+        "hn_url": "https://news.ycombinator.com/item?id=49248477"
       },
       "duration_sec": null,
-      "views": 81,
-      "comments": 77,
-      "published_at": "2026-07-27T16:02:00+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49070311",
-      "title": "Ilya Sutskever's SSI and Nvidia Announce Long-Term Strategic Partnership",
-      "url": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49070311",
-        "name": "lanakei",
-        "hn_url": "https://news.ycombinator.com/item?id=49070311"
-      },
-      "duration_sec": null,
-      "views": 19,
+      "views": 18,
       "comments": 4,
-      "published_at": "2026-07-27T14:33:53+00:00",
+      "published_at": "2026-08-10T19:25:07+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -506,25 +487,6 @@
       "views": 17,
       "comments": 2,
       "published_at": "2026-08-05T00:30:23+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49075171",
-      "title": "Sam Altman says we are in the singularity: 'This is the moment'",
-      "url": "https://www.businessinsider.com/sam-altman-openai-the-singularity-agi-prediction-anthropic-nvidia-2026-7",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49075171",
-        "name": "doener",
-        "hn_url": "https://news.ycombinator.com/item?id=49075171"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 14,
-      "published_at": "2026-07-27T20:35:02+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
