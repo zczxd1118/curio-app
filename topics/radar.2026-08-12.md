@@ -2,118 +2,120 @@
 
 > 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
 
-_今日核心信号：AI 基础设施的金融化与算力军备竞赛进入新阶段——英伟达联手华尔街打造 5000 亿美元融资体系，马斯克给出 SpaceX AI 收入超越其他业务的时间表；同时，Gemini 月活突破 10 亿，与 ChatGPT 正面交锋。半导体领域，FCC 拟禁中国光模块，存储长协扩散至二三线厂商，供应链重构加速。_
-
----
-
-## 🌟 AI
-
-### 1. 英伟达联手华尔街，把 AI 算力变成可融资、可打包的资产
-
-**[AI]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
-
-英伟达与 Apollo、贝莱德、黑石等巨头拟构建 5000 亿美元 AI 芯片证券化融资体系，通过 SPV 将 GPU 打包成类抵押贷款的新资产类别。这相当于把 AI 算力变成像房贷一样的金融产品，为融资受困的中小 AI 企业开辟资本通道。但芯片保质期短、循环融资争议、零实际募资的现实，让这场金融创新悬于刀刃之上。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| 英伟达联合 Apollo、贝莱德、黑石等六家投资机构，计划创建 5000 亿美元 AI 基础设施基金。 | 5000 亿美元基金目前尚无实际募资，能否落地存疑。 |
-| 通过 SPV 将 GPU 打包成类抵押贷款的新资产类别，为中小 AI 企业提供融资。 | GPU 作为抵押品的残值评估缺乏历史数据，风险定价模型尚未验证。 |
-| 黄仁勋公开信回应质疑，称 A100 GPU 经济寿命延长至十年，2026 年仍可产生逾万美元/年租赁收入。 | 英伟达自身兜底可能引发循环融资，是否真正缓解行业资金压力还是仅创造金融幻觉。 |
-| 市场反应分化：KKR、Apollo 等另类资管巨头股价大涨 3%-7%，大型科技股连续两日承压。 | 这种金融创新是否会重演 2008 年 MBS 危机，监管如何介入尚不明朗。 |
-
-**📖 主编点评**
-
-这对你意味着 AI 基础设施的融资门槛正在降低，但风险也在积聚。如果你在创业或做 Agent 项目，未来可能更容易获得算力资源，但要注意成本结构。关注英伟达的金融化动作，它可能改变整个 AI 产业的资本逻辑。建议持续跟踪该基金的落地情况，以及监管层的态度。
-
-📺 [打开原文](https://wallstreetcn.com/articles/3779251)
-
----
-
-### 2. Gemini 月活突破 10 亿，追平 ChatGPT，成谷歌史上增速最快产品
-
-**[AI]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
-
-谷歌 CEO 皮查伊宣布 Gemini 月活用户突破 10 亿，与 ChatGPT 正面交锋。从 7.5 亿到 10 亿仅用半年，成为谷歌史上增速最快的产品。其中 63% 用户选择语音交互，绝大多数用户来自 Android 生态。十亿用户争夺战落幕，深度变现成为下一战场。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Gemini 月活用户突破 10 亿，与 ChatGPT 持平。 | 月活数据可能包含 Android 系统级集成带来的被动用户，真实活跃度待考。 |
-| 从 7.5 亿到 10 亿仅用半年，是谷歌史上增速最快的产品。 | 语音交互占比高，但语音广告变现模式尚未成熟。 |
-| 63% 的用户使用语音交互功能。 | 与 ChatGPT 的用户重叠度未知，竞争格局可能生变。 |
-| Gemini 现在每月生成超过 1.5 亿次语音交互。 | 深度变现策略能否成功，取决于 Gemini 的付费转化率。 |
-
-**📖 主编点评**
-
-作为 AI 产品开发者，你应该关注 Gemini 的生态扩张。10 亿用户意味着巨大的分发渠道，你的 Agent 或工具如果接入 Gemini，可能获得更多曝光。同时，语音交互的兴起提示你考虑语音界面的设计。建议研究 Gemini 的 API 和生态政策，寻找合作机会。
-
-📺 [打开原文](https://wallstreetcn.com/articles/3779244)
+_今日核心信号：英伟达联手华尔街打造5000亿美元AI基础设施融资体系，试图将GPU变成可融资资产，同时亲自下场训练万亿参数开源模型Nemotron 4，软硬通吃。另一边，Gemini月活突破10亿，与ChatGPT正面交锋，AI应用进入十亿用户时代。存储芯片长协扩散至二三线厂商，定价权重塑产业链。_
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 3. Intel 募资 197 亿美元备战 14A 工艺，需求高达 1000 亿美元
+### 1. 英伟达联手华尔街，把AI算力变成可融资、可打包的资产
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
 
-Intel 通过股票发行筹集 197 亿美元，以强化财务并推进 14A 工艺量产。据报道，此次售股吸引了 1000 亿美元的需求，显示市场对 Intel 代工业务重燃信心。这笔资金将用于扩大制造产能、开发下一代工艺技术，并吸引主要客户。
+英伟达联合Apollo、贝莱德、黑石等巨头，拟构建5000亿美元AI芯片证券化融资体系，通过SPV将GPU打包成类抵押贷款的新资产类别。此举为融资受困的中小AI企业开辟资本通道，但芯片"生菜般短暂"的保质期和英伟达自身兜底引发的循环融资争议，让这场金融创新悬于刀刃之上。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Intel 通过股票发行筹集 197 亿美元。 | 1000 亿美元需求是否包含投机性订单，实际长期投资者占比未知。 |
-| 此次售股吸引了 1000 亿美元的需求，超额认购约 5 倍。 | 14A 工艺能否按时量产并达到性能目标，仍存在技术风险。 |
-| 资金将用于 14A 工艺量产、扩大制造产能和开发下一代技术。 | Intel 代工业务能否在台积电主导的市场中分得一杯羹，尚待观察。 |
-| Intel 正努力吸引主要外部客户，以重振代工业务。 | 募资后 Intel 的债务结构变化，可能影响其长期财务健康。 |
+| 英伟达与Apollo、贝莱德、黑石等六家投资机构合作，创建5000亿美元AI基础设施基金。 | 该融资体系目前零实际募资，能否落地存疑。 |
+| 通过SPV将GPU打包成类抵押贷款资产，为AI数据中心建设提供长期融资。 | GPU作为抵押品的残值评估和寿命周期是否可靠，尚未经市场检验。 |
+| 黄仁勋公开回应质疑，称A100 GPU经济寿命延长至十年，2026年仍可产生逾万美元/年租赁收入。 | 英伟达亲自为客户找融资，是需求强劲还是需求需靠融资'创造'，市场解读不一。 |
+| 市场反应分化：KKR、阿波罗等另类资管巨头股价大涨3%-7%，大型科技股连续承压。 |  |
 
 **📖 主编点评**
 
-Intel 的复兴对半导体供应链有深远影响。如果你关注硬件或底层技术，14A 工艺的进展值得跟踪。作为开发者，这可能意味着未来有更多芯片选择，但短期内对市场格局影响有限。建议关注 Intel 代工客户的签约情况，这将是关键信号。
+这对你意味着AI算力成本结构可能发生根本变化。若GPU可融资租赁，中小团队和创业公司获取算力的门槛将大幅降低，你作为个人开发者或许能以更低成本租用高端GPU进行模型训练或推理。但要注意，这种金融创新可能加剧算力泡沫，长期看算力价格波动会更大。建议你关注后续实际募资和落地案例，同时保持对自建算力或使用国产替代方案的灵活度。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/intel-raises-usd19-7-billion-to-help-fund-future-projects-as-14a-production-looms-share-sale-attracted-usd100-billion-in-demand-report-claims)
+📺 [打开原文](https://wallstreetcn.com/articles/3779251)
 
 ---
 
-### 5. FCC 拟禁中国光模块，AI 互联供应链面临重构
+### 5. 英伟达开源战略升级：计划亲自打造全球顶尖开源AI模型
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-FCC 起草提案，拟将中国制造的新型光模块列入 Secure Networks Act 的进口禁令范围。中国厂商占据全球光模块市场 56% 的份额，此举将直接影响 AI 数据中心的互联基础设施。禁令一旦实施，可能推高 AI 建设成本，并加速供应链多元化。
+英伟达斥数十亿美元训练万亿参数开放大模型Nemotron 4，表面"不务正业"，实则暗藏商业逻辑：模型免费，算力收费。通过免费模型吸引企业、政府和开发者部署AI，推动GPU、网络、软件全栈消费。此举还有助于分散客户集中风险，对抗大客户自研芯片威胁。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| FCC 起草提案，拟将中国制造的新型光模块列入进口禁令。 | 提案尚在起草阶段，最终条款可能调整。 |
-| 中国厂商占据全球光模块市场 56% 的份额。 | 禁令实施时间表未定，短期影响有限。 |
-| 禁令针对 AI 数据中心的关键互联组件。 | 美国本土光模块产能不足，可能导致供应短缺。 |
-| Secure Networks Act 范围扩大，可能影响更多设备。 | 中国厂商可能通过海外设厂规避禁令。 |
+| 英伟达计划训练万亿参数开源模型Nemotron 4。 | 万亿参数开源模型能否达到顶尖水平，尚待验证。 |
+| 投入达数十亿美元。 | 免费模型策略能否有效拉动算力销售，需要时间检验。 |
+| Nemotron 3.5 Lightning已发布，30B A3B NVFP4。 | 与Anthropic、OpenAI等闭源模型的竞争格局将如何演变。 |
+| 英伟达开源战略从'支持者'转向'构建者'。 |  |
 
 **📖 主编点评**
 
-如果你在部署 AI 基础设施，光模块的供应风险需要纳入考量。建议关注供应链多元化，考虑非中国供应商。同时，这一政策可能推高 AI 建设成本，影响你的项目预算。持续跟踪 FCC 提案进展，提前做好应对。
+英伟达亲自做开源模型，对你这样的AI开发者是重大利好。你可以免费使用接近顶尖水平的模型，降低开发成本。同时，英伟达的模型会针对自家GPU优化，如果你使用NVIDIA硬件，性能可能更佳。建议你关注Nemotron 4的发布，并测试其在你的Agent工作流中的表现。这也意味着开源模型与闭源模型的差距可能缩小，你的技术选型可以更灵活。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/fcc-proposes-import-ban-on-chinese-optical-transceivers-blockade-targets-key-ai-interconnects-as-china-holds-56-percent-global-market-share)
+📺 [打开原文](https://wallstreetcn.com/articles/3779239)
+
+---
+
+## 🌟 AI
+
+### 2. DeepSeek V4 Flash实测：Claude Code接入后连续开发7个项目，逼近Claude Opus 4.8？
+
+**[AI]** · ⭐⭐⭐⭐ · _AI超元域_
+
+DeepSeek发布V4 Flash 0731版本：284B总参数、13B激活参数、100万Token上下文，官方基准表现接近Claude Opus 4.8。UP主实测将其接入Claude Code，连续开发7个项目，对比Kimi K3后优缺点明显。作为最便宜的国产模型，它可能改变AI编程的成本结构。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| DeepSeek V4 Flash 0731发布，284B总参数、13B激活参数、100万Token上下文。 | 实际编码能力是否真的接近Opus 4.8，需要更多场景验证。 |
+| 官方基准表现接近Claude Opus 4.8。 | 与Kimi K3对比的优缺点未详细披露，可能在某些任务上仍有差距。 |
+| 实测接入Claude Code后连续开发7个项目，表现稳定。 | 100万Token上下文的实际利用率和速度表现未知。 |
+| 价格在国产模型中最低。 |  |
+
+**📖 主编点评**
+
+作为AI编程重度玩家，你应该立即尝试将DeepSeek V4 Flash接入Claude Code或Cursor，它可能是目前性价比最高的编程模型。100万Token上下文意味着你可以让AI处理整个项目代码库，而13B激活参数保证了推理速度。建议你对比一下它在你的典型工作流（如RAG、Agent工具构建）中的表现，如果确实接近Opus 4.8，可以大幅降低你的API成本。
+
+📺 [打开原文](http://www.bilibili.com/video/av117014605731815)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 3. 追平OpenAI！Gemini月活用户突破10亿，为谷歌史上增速最快产品
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
+
+谷歌CEO皮查伊宣布Gemini月活突破10亿，与ChatGPT正面交锋。从7.5亿到10亿仅用半年，成为谷歌史上增速最快产品。63%用户选择语音交互，纯语音用户占比持续上升。十亿用户争夺战落幕，深度变现成为下一战场。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Gemini月活用户突破10亿。 | 用户数增长能否转化为实际收入，仍待观察。 |
+| 从7.5亿到10亿仅用半年，为谷歌史上增速最快产品。 | 语音交互占比高，但商业化模式尚不清晰。 |
+| 63%的Gemini用户使用语音交互功能。 | 与ChatGPT的竞争将进入深度变现阶段，可能影响产品定价策略。 |
+| Gemini每天生成超过1.5亿条语音交互。 |  |
+
+**📖 主编点评**
+
+Gemini突破10亿用户意味着AI助手成为主流入口，你作为AI产品开发者，应该考虑将产品适配到Gemini生态，尤其是语音交互场景。63%的语音使用率表明用户更倾向于自然交互，你的Agent项目可以借鉴这一点，增加语音输入输出能力。同时，关注谷歌后续的变现策略，可能为开发者带来新的分成机会。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3779244)
 
 ---
 
 ## 🌟 股票
 
-### 4. 马斯克：AI 收入下月将超越 SpaceX 其他业务，五年后占价值 99%
+### 4. 从闪迪到长鑫，内存长协扩散至二三线厂商，定价权重塑产业链
 
 **[股票]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-马斯克在 SpaceX 全员会上宣布，AI 收入将在 9 月首次超越所有其他业务，并设定明年底 AI 算力达 10 吉瓦的目标，对应潜在年收入 3000 亿至 5000 亿美元。他高喊“我们必须取得 AI 的胜利”，这是对 SpaceX AI 业务最明确的时间表和规模预测。
+全球存储芯片供需失衡加剧，长期供应协议（LTA）已从三星、SK海力士、美光扩散至闪迪和长鑫存储。苹果试图压低长鑫存储采购价遭拒，因华为、小米已锁定其产能。高盛将此视为本轮LTA与历轮最显著的区别，供应商定价权正深度重塑整条产业链议价逻辑。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 马斯克称 AI 收入将在 9 月首次超越 SpaceX 所有其他业务收入。 | 马斯克的时间表过于激进，实际执行可能延迟。 |
-| 设定明年底 AI 算力达 10 吉瓦的目标。 | 10 吉瓦算力目标需要巨额资本开支，资金来源存疑。 |
-| 对应潜在年收入 3000 亿至 5000 亿美元。 | Grok Bot 尚处早期测试阶段，能否与 OpenAI 竞争未知。 |
-| SpaceX AI 推出 Grok Bot，对标 Anthropic 与 OpenAI。 | AI 收入超越其他业务可能只是短期现象，长期结构待观察。 |
+| LTA已扩散至闪迪和长鑫存储等二三线厂商。 | LTA扩散是否会导致存储芯片价格持续上涨，尚需观察。 |
+| 苹果试图压低长鑫存储采购价遭拒。 | 二三线厂商的产能和良率能否满足大客户需求，存在不确定性。 |
+| 华为、小米已锁定长鑫存储产能。 | 苹果等大客户是否会寻找替代供应商，影响市场格局。 |
+| 高盛认为本轮LTA与历轮有显著区别。 |  |
 
 **📖 主编点评**
 
-马斯克的激进预测反映了 AI 算力需求的爆发。如果你在构建 AI 应用，算力成本可能成为瓶颈。关注 SpaceX AI 的进展，特别是 Grok Bot 的开放情况，它可能成为你的 Agent 工具链的一部分。同时，算力军备竞赛加剧，建议提前规划算力预算。
+存储芯片长协扩散意味着内存价格可能长期维持高位，你如果计划组装电脑或购买服务器，建议尽早锁定配置。对于你的Agent项目，如果依赖本地大模型推理，内存成本会直接影响部署方案。可以考虑使用量化模型或云端API来降低成本。同时，关注长鑫存储等国产厂商的进展，未来可能提供更具性价比的选择。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3779250)
+📺 [打开原文](https://wallstreetcn.com/articles/3779234)
 
 ---
 
@@ -121,48 +123,48 @@ FCC 起草提案，拟将中国制造的新型光模块列入 Secure Networks Ac
 
 ### AI
 
-- [DeepSeek V4 Flash 实测：接近 Claude Opus 4.8？](http://www.bilibili.com/video/av117014605731815) —— 国产模型性能再突破，但实际差距和成本优势需实测验证，适合关注模型选型。
+- [用Codex、cursor 还是Claude ？程序员不作选择题，我都要用，还一起用 | Orca ADE 介绍](http://www.bilibili.com/video/av116996217838997) —— 开源免费的Agent开发环境Orca ADE，整合多编程Agent并支持语音和手机远程管理，适合多工具协同工作流。
+  _技术胖_
+- [别再二选一：Claude Code + Codex 联用才是最强姿势](http://www.bilibili.com/video/av116537746791000) —— 实测Claude Code帮Codex抓出20个bug，强调tool agnostic思路，适合追求极致效率的开发者。
+  _星小脉_
+- [🚀OpenClaw高级使用经验之如何调用Claude Code最省Token！Claude Code Hooks回调+Agent Teams全自动开发零轮询](http://www.bilibili.com/video/av116046157647899) —— 用Hooks回调解决OpenClaw轮询消耗Token的痛点，实现全自动开发，适合Agent重度玩家。
   _AI超元域_
-- [吴恩达 Vibe Coding 保姆级教程：从环境搭建到工作流闭环](http://www.bilibili.com/video/av116951003242391) —— 权威教程，系统化 AI 编程工作流，适合提升你的 Agent 项目开发效率。
+- [【吴恩达2026】Vibe Coding保姆级教程，手把手从环境搭建到工作流完整闭环！——DeepLearning.AI—附带课件代码](http://www.bilibili.com/video/av116951003242391) —— 吴恩达亲授标准化AI软件开发流水线，解决项目混乱、迭代失控等痛点，适合系统学习Vibe Coding。
   _吴恩达AIAgent_
-- [OpenClaw 高级技巧：Claude Code Hooks 省 Token 方案](http://www.bilibili.com/video/av116046157647899) —— 针对 Token 消耗痛点的实战技巧，对重度 Agent 用户有直接价值。
-  _AI超元域_
+- [从夯到拉，锐评 32 个 AI 编程工具！](http://www.bilibili.com/video/av116578532200786) —— 一口气实测32个AI编程工具，帮你快速找到最适合自己的，避免踩坑。
+  _程序员鱼皮_
 
 ### AI 算力 / 半导体
 
-- [Nvidia Nemotron 3.5 Lightning 发布](https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/) —— 英伟达开源模型新进展，可能影响 AI 推理成本，值得关注。
-  _NVIDIA Blog_
-- [SK hynix 扩大中国产能，考虑 Solidigm IPO](https://www.tomshardware.com/pc-components/ssds/sk-hynix-to-expand-production-capacity-in-china-as-it-mulls-solidigm-ipo-report-claims-second-phase-of-fab-could-boost-local-production-by-50-percent) —— 存储巨头加码中国，或影响全球内存供应格局。
+- [Intel raises $19.7 billion to help fund future projects as 14A production looms](https://www.tomshardware.com/tech-industry/semiconductors/intel-raises-usd19-7-billion-to-help-fund-future-projects-as-14a-production-looms-share-sale-attracted-usd100-billion-in-demand-report-claims) —— Intel通过股票发行融资197亿美元，为14A工艺量产做准备，显示其代工业务扩张决心。
   _Tom's Hardware_
-- [Nvidia 测试 Rubin Ultra 低内存配置，应对内存短缺](https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-testing-lower-memory-configs-of-rubin-ultra-as-memory-shortage-bites-back-designs-tested-include-as-little-as-192-gb-and-step-back-to-hbm4) —— 内存短缺迫使英伟达调整产品，可能影响下一代 GPU 性能。
+- [Hyperscalers commit nearly $2 trillion to secure AI hardware and memory](https://www.tomshardware.com/tech-industry/semiconductors/hyperscalers-commit-nearly-usd2-trillion-to-secure-ai-hardware-and-memory-google-leads-usd811-billion-spending-surge-while-apple-trails-at-usd57-billion) —— 超大规模云厂商承诺近2万亿美元采购AI硬件和内存，谷歌领投8110亿美元，苹果仅570亿美元，行业格局剧变。
   _Tom's Hardware_
+- [US lawmaker wants gov't to enforce regulation to ensure 'chipmakers conduct adequate due diligence on their customers'](https://www.tomshardware.com/tech-industry/semiconductors/u-s-lawmaker-wants-govt-to-enforce-regulation-to-ensure-chipmakers-conduct-adequate-due-diligence-on-their-customers-house-member-calls-for-biden-era-export-control-to-be-enforced) —— 美国议员要求执行对芯片制造商客户尽职调查的法规，可能影响对华芯片出口。
+  _Tom's Hardware_
+
+### 大厂 AI 动态
+
+- [General Catalyst leads $1.1B round into 2-month-old River AI](https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/) —— xAI联合创始人Igor Babuschkin创立仅2个月的River AI获11亿美元融资，聚焦个人Agent，资本热度惊人。
+  _TechCrunch_
+- [Brad Lightcap, OpenAI's longtime COO, is leaving to 'start something new'](https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/) —— OpenAI前COO Brad Lightcap离职创业，高层持续变动，或影响公司战略稳定性。
+  _TechCrunch_
+- [OpenAI launches ChatGPT desktop app for Linux](https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/) —— OpenAI正式发布Linux版ChatGPT桌面应用，利好Linux开发者，可更便捷地集成到工作流。
+  _TechCrunch_
 
 ### 股票
 
-- [Kalshi 寻求 400 亿美元估值，世界杯押注推动营收翻倍](https://wallstreetcn.com/articles/3779252) —— 预测市场独角兽爆发，但高支出和监管风险并存。
+- [预测市场独角兽Kalshi寻求400亿美元估值，世界杯豪赌推动营收翻倍](https://wallstreetcn.com/articles/3779252) —— Kalshi年化营收突破40亿美元，估值目标400亿，世界杯押注是主要推手，但高支出和监管风险并存。
   _华尔街见闻_
-- [马斯克：AI 收入下月将超越 SpaceX 其他业务](https://wallstreetcn.com/articles/3779250) —— 激进预测，反映 AI 算力需求爆发，但需谨慎看待。
+- [马斯克：AI收入下月将超越SpaceX全部其他业务，五年后AI占SpaceX价值99%](https://wallstreetcn.com/articles/3779250) —— 马斯克给出SpaceX AI业务明确时间表：9月AI收入超其他业务，明年底算力达10GW，年收入3000-5000亿美元。
   _华尔街见闻_
-- [英伟达开源战略升级：计划打造全球顶尖开源 AI 模型](https://wallstreetcn.com/articles/3779239) —— 免费模型带动算力销售，可能重塑 AI 竞争格局。
-  _华尔街见闻_
-- [内存长协扩散至二三线厂商，存储定价权重塑](https://wallstreetcn.com/articles/3779234) —— 存储供需失衡加剧，长期协议成为新常态，影响下游成本。
+- [AI带来美国“就业末日”？美银：目前没有证据，但年轻人、信息业与金融业已现压力](https://wallstreetcn.com/articles/3779241) —— 美银研究显示AI对就业影响呈结构性分化，年轻毕业生和入门岗位承压，但数据中心建设创造12.7万岗位。
   _华尔街见闻_
 
 ### 金融
 
-- [美银：今夜 CPI 下行意外影响更大，或排除 9 月加息](https://wallstreetcn.com/articles/3779245) —— 通胀数据关键，市场对下行意外反应更敏感，影响资产定价。
-  _华尔街见闻_
-- [德银警告市场定价一个不存在的完美](https://wallstreetcn.com/articles/3779248) —— 市场押注强劲增长与温和加息，但容错空间极小，风险积聚。
-  _华尔街见闻_
-
-### 大厂 AI 动态
-
-- [OpenAI 发布 ChatGPT 桌面版 Linux 应用](https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/) —— Linux 用户福音，AI 工具链更完整，适合开发者。
-  _TechCrunch_
-- [Brad Lightcap 离开 OpenAI，加入高管离职潮](https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/) —— OpenAI 核心高管流失，或影响公司战略稳定性。
-  _TechCrunch_
-- [Anthropic 未发布模型在黎曼猜想上取得进展](https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/) —— AI 在数学难题上突破，展示推理能力提升，但未解决。
-  _TechCrunch_
+- [Force-Fed by ICE](https://www.theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli) —— ICE强制喂食被拘留者的报道，涉及人权问题，与科技行业关联度低，但值得关注社会议题。
+  _The Guardian_
 
 ---
 
