@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-08-11T04:25:26.132373+00:00",
+  "fetched_at": "2026-08-12T04:53:05.335419+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,7 +13,7 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 1,
-    "HN · Nvidia": 6,
+    "HN · Nvidia": 5,
     "HN · semiconductor": 2,
     "HN · ASML / EUV": 1,
     "HN · AI chip 厂商": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 59,
+  "total": 58,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/agentic-ai-multi-physics-and-standards-will-redefine-chips-design/",
+      "title": "Agentic AI, Multi‑Physics, and Standards Will Redefine Chips Design",
+      "url": "https://www.eetimes.com/agentic-ai-multi-physics-and-standards-will-redefine-chips-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T22:00:00+00:00",
+      "summary": "Agentic AI, brutal physics bottlenecks, and standards are remaking chip design from silicon to systems. The post Agentic AI, Multi‑Physics, and Standards Will Redefine Chips Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/amd-challenges-gpu-centric-architectures-as-it-takes-aim-at-nvidia-in-robotics/",
+      "title": "AMD Challenges GPU-Centric Architectures as It Takes Aim at Nvidia in Robotics",
+      "url": "https://www.eetimes.com/amd-challenges-gpu-centric-architectures-as-it-takes-aim-at-nvidia-in-robotics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T14:09:45+00:00",
+      "summary": "AMD’s new SoC for robots combines CPU, GPU, NPU on one chip with unified memory. The post AMD Challenges GPU-Centric Architectures as It Takes Aim at Nvidia in Robotics appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/managing-your-component-library-for-supply-chain-resilience/",
+      "title": "Managing Your Component Library for Supply Chain Resilience",
+      "url": "https://www.eetimes.com/managing-your-component-library-for-supply-chain-resilience/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Cadence Design Systems",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T14:00:00+00:00",
+      "summary": "To take a PCB from design to production, an unmanaged component library is a hidden liability. Obsolete parts, single-source vulnerabilities, long lead times, counterfeit exposure, and compliance gaps often go undetected until they trigger costly redesigns, audit failures, or production delays. This guide shows how to solve those problems at their source. By transitioning to [&#8230;] The post Managing Your Component Library for Supply Chain Resilience appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ai-hardwares-next-frontier-is-integration/",
+      "title": "AI Hardware’s Next Frontier Is Integration",
+      "url": "https://www.eetimes.com/ai-hardwares-next-frontier-is-integration/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T09:25:50+00:00",
+      "summary": "The LID World Summit 2026 showed why AI progress now depends on system-level advances in memory, packaging, photonics, and power. The post AI Hardware’s Next Frontier Is Integration appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/why-ai-adoption-in-materials-rd-depends-more-on-people-than-technology/",
       "title": "Why AI Adoption in Materials R&D Depends More on People Than Technology",
       "url": "https://www.eetimes.com/why-ai-adoption-in-materials-rd-depends-more-on-people-than-technology/",
@@ -299,71 +367,309 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/biwin-and-tera-industria-de-semicondutores-sign-strategic-partnership-agreement/",
-      "title": "BIWIN and Tera Indústria de Semicondutores Sign Strategic Partnership Agreement",
-      "url": "https://www.eetimes.com/biwin-and-tera-industria-de-semicondutores-sign-strategic-partnership-agreement/",
+      "id": "rss:https://www.tomshardware.com/peripherals/gaming-mice/razer-naga-v3-pro-review",
+      "title": "Razer Naga V3 Pro Review: My new 23-button mouse",
+      "url": "https://www.tomshardware.com/peripherals/gaming-mice/razer-naga-v3-pro-review",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "BIWIN Semiconductor",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sarah Jacobsson Purewal",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-07T16:08:31+00:00",
-      "summary": "Shenzhen, China / Manaus, Brazil – August 6th, 2026: BIWIN Semiconductor (HK) Company Limited (&#8220;BIWIN&#8221;), a global provider of memory and storage packaging solutions, and TERA INDÚSTRIA DE SEMICONDUTORES S.A. (&#8220;Tera&#8221;), a Brazil-based semiconductor memory packaging company, announce the signing of a strategic partnership framework agreement to manufacture and distribute memory and storage solutions in [&#8230;] The post BIWIN and Tera Indústria de Semicondutores Sign Strate...",
+      "published_at": "2026-08-11T20:18:32+00:00",
+      "summary": "Razer's Naga V3 Pro has the same form factor as its predecessor, but it features more buttons, an upgraded sensor and switches, and better battery life.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/",
-      "title": "Chiplet Architectures as a Practical Path to Scalable Automotive Compute",
-      "url": "https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/",
+      "id": "rss:https://www.tomshardware.com/pc-components/ssds/sk-hynix-to-expand-production-capacity-in-china-as-it-mulls-solidigm-ipo-report-claims-second-phase-of-fab-could-boost-local-production-by-50-percent",
+      "title": "SK hynix to expand production capacity in China as it mulls Solidigm IPO, report claims — second phase of fab could boost local production by 50%",
+      "url": "https://www.tomshardware.com/pc-components/ssds/sk-hynix-to-expand-production-capacity-in-china-as-it-mulls-solidigm-ipo-report-claims-second-phase-of-fab-could-boost-local-production-by-50-percent",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Cyril Cordoba",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-07T13:56:43+00:00",
-      "summary": "Chiplets are auto’s escape hatch from bloated SoCs, scaling SDV compute without wrecking cost or software. The post Chiplet Architectures as a Practical Path to Scalable Automotive Compute appeared first on EE Times.",
+      "published_at": "2026-08-11T16:39:42+00:00",
+      "summary": "As demand for high-end data center SSDs peak, SK hynix upgrades its Chinese facilities and plans Solidigm listing at NASDAQ.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/inside-device-connectivity-a-new-design-discipline-for-next-gen-vehicles/",
-      "title": "Inside Device Connectivity: A New Design Discipline for Next-Gen Vehicles",
-      "url": "https://www.eetimes.com/inside-device-connectivity-a-new-design-discipline-for-next-gen-vehicles/",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-highlights-ryzen-5-5500-briefly-topping-amazon-cpu-best-sellers-beating-9800x3d-usd80-ddr4-cpu-remains-a-top-seller-during-memory-crunch",
+      "title": "AMD highlights Ryzen 5 5500 briefly topping Amazon CPU best sellers, beating 9800X3D — $80 DDR4 CPU remains a top seller during memory crunch",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-highlights-ryzen-5-5500-briefly-topping-amazon-cpu-best-sellers-beating-9800x3d-usd80-ddr4-cpu-remains-a-top-seller-during-memory-crunch",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "TE Connectivity",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-07T10:53:14+00:00",
-      "summary": "Join this webinar where our expert will introduce Inside Device Connectivity as a focused design discipline to ensure power, signal, and data move predictably and robustly within automotive electronics. The post Inside Device Connectivity: A New Design Discipline for Next-Gen Vehicles appeared first on EE Times.",
+      "published_at": "2026-08-11T15:06:35+00:00",
+      "summary": "AMD's marketing director shared a screenshot of the Amazon CPU best sellers list, but the four-year-old, $80 Ryzen 5 5500 was at the top of the charts.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/stmicroelectronics-bets-on-hardware-based-post-quantum-cryptography-with-st54m/",
-      "title": "STMicroelectronics Bets on Hardware-Based Post-Quantum Cryptography with ST54M",
-      "url": "https://www.eetimes.com/stmicroelectronics-bets-on-hardware-based-post-quantum-cryptography-with-st54m/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/intel-raises-usd19-7-billion-to-help-fund-future-projects-as-14a-production-looms-share-sale-attracted-usd100-billion-in-demand-report-claims",
+      "title": "Intel raises $19.7 billion to help fund future projects as 14A production looms — share sale attracted $100 billion in demand, report claims",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-raises-usd19-7-billion-to-help-fund-future-projects-as-14a-production-looms-share-sale-attracted-usd100-billion-in-demand-report-claims",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-07T08:00:00+00:00",
-      "summary": "ST’s ST54M bakes post-quantum crypto into phone hardware before hackers harvest today’s secrets. The post STMicroelectronics Bets on Hardware-Based Post-Quantum Cryptography with ST54M appeared first on EE Times.",
+      "published_at": "2026-08-11T13:35:25+00:00",
+      "summary": "Intel is raising $19.7 billion through a stock offering to strengthen its finances as it expands manufacturing capacity, develops next-generation process technologies, and is trying to attract major external foundry customers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/benchmarking-amds-bc-250-offering-steam-machine-like-performance-at-half-the-price-unlocking-40-cus-eight-zen-2-cores-on-the-repurposed-ps5-apu",
+      "title": "Benchmarking AMD's BC-250, offering Steam Machine-like performance at half the price — unlocking 40 CUs, eight Zen 2 cores on the repurposed PS5 APU",
+      "url": "https://www.tomshardware.com/pc-components/cpus/benchmarking-amds-bc-250-offering-steam-machine-like-performance-at-half-the-price-unlocking-40-cus-eight-zen-2-cores-on-the-repurposed-ps5-apu",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T13:13:49+00:00",
+      "summary": "The popular BC-250 APU has seen some major advancements over the past few months, including a 40CU unlock and enabling all eight Zen 2 cores. We put together a BC-250 machine to see how it works, and what these new mods offer.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/air-cooling/deepcool-ak620-and-ak400-g2-review-quiet-and-powerful-with-woodgrain-or-a-digital-display",
+      "title": "DeepCool AK620 and AK400 G2 Review: Quiet and powerful, with woodgrain or a digital display",
+      "url": "https://www.tomshardware.com/pc-components/air-cooling/deepcool-ak620-and-ak400-g2-review-quiet-and-powerful-with-woodgrain-or-a-digital-display",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Albert Thomas",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T12:05:00+00:00",
+      "summary": "DeepCool’s latest AK G2 series air coolers feature your choice of woodgrain tops or a digital display. We’ve tested both AK620 and AK400 G2 coolers with AMD’s Ryzen 9 9950X3D to benchmark their thermal efficiency.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/fcc-proposes-import-ban-on-chinese-optical-transceivers-blockade-targets-key-ai-interconnects-as-china-holds-56-percent-global-market-share",
+      "title": "FCC proposes import ban on Chinese optical transceivers — blockade targets key AI interconnects as China holds 56% global market share",
+      "url": "https://www.tomshardware.com/tech-industry/fcc-proposes-import-ban-on-chinese-optical-transceivers-blockade-targets-key-ai-interconnects-as-china-holds-56-percent-global-market-share",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jon Martindale",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T12:03:36+00:00",
+      "summary": "The FCC is drafting a proposal that would expand its list of equipment and services covered by the Secure Networks Act to include imports of new-model optical transceivers manufactured in China.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/usd580-million-undersea-cable-rerouted-to-avoid-the-grave-of-dobby-the-house-elf-company-caves-to-fan-demands-to-safeguard-harry-potter-filming-location-will-instead-pass-by-bronze-age-burial-site",
+      "title": "$580 million undersea cable rerouted to avoid the grave of Dobby the House Elf — company caves to fan demands to safeguard Harry Potter filming location, will instead pass by Bronze Age burial site",
+      "url": "https://www.tomshardware.com/networking/usd580-million-undersea-cable-rerouted-to-avoid-the-grave-of-dobby-the-house-elf-company-caves-to-fan-demands-to-safeguard-harry-potter-filming-location-will-instead-pass-by-bronze-age-burial-site",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T11:47:22+00:00",
+      "summary": "The Greenlink Connector project, which will connect the grid of Ireland and Wales, had to reroute its path after Harry Potter fans complained that it would 'desecrate' the 'grave' of beloved character Dobby. The change of plans brought the undersea cable close to a few Bronze Age remains but allowed it to move forward without disturbing the free elf's \"resting place.\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/get-32gb-of-ddr5-for-usd261-in-this-am5-gaming-bundle-usd970-deal-features-ryzen-7-9800x3d-32gb-ddr5-ram-a-gigabyte-x870-motherboard-and-free-240mm-aio",
+      "title": "Get 32GB of DDR5 for $261 in this AM5 gaming bundle — $970 deal features Ryzen 7 9800X3D, 32GB DDR5 RAM, a Gigabyte X870 motherboard, and free 240mm AIO",
+      "url": "https://www.tomshardware.com/pc-components/get-32gb-of-ddr5-for-usd261-in-this-am5-gaming-bundle-usd970-deal-features-ryzen-7-9800x3d-32gb-ddr5-ram-a-gigabyte-x870-motherboard-and-free-240mm-aio",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T11:46:49+00:00",
+      "summary": "Newegg’s $969 AM5 combo pairs the Ryzen 7 9800X3D, 32GB of DDR5-6000 RAM, a Gigabyte X870 Aorus Elite Wi-Fi 7 motherboard, and a free 240mm AIO, saving nearly $220.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/u-s-lawmaker-wants-govt-to-enforce-regulation-to-ensure-chipmakers-conduct-adequate-due-diligence-on-their-customers-house-member-calls-for-biden-era-export-control-to-be-enforced",
+      "title": "US lawmaker wants gov't to enforce regulation to ensure 'chipmakers conduct adequate due diligence on their customers' — House member calls for Biden-era export control to be enforced",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/u-s-lawmaker-wants-govt-to-enforce-regulation-to-ensure-chipmakers-conduct-adequate-due-diligence-on-their-customers-house-member-calls-for-biden-era-export-control-to-be-enforced",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T11:20:00+00:00",
+      "summary": "Congressman John Moolenaar wants the Commerce Department's Bureau of Industry and Security to clarify whether Foundry Due Diligence Rule remains effective and continues to be enforced.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/pc-building/this-usd30-hoto-25-piece-electric-screwdriver-set-is-a-must-buy-option-for-pc-builders-and-hobbyists-40-percent-saving-on-portable-driver-with-long-life-1-500-mah-battery-and-25-ultra-hard-bits-for-your-next-project",
+      "title": "This $30 Hoto 25-piece electric screwdriver set is a must-buy option for PC builders and hobbyists —40% saving on portable driver with long-life 1,500 mAh battery and 25 ultra-hard bits for your next project",
+      "url": "https://www.tomshardware.com/desktops/pc-building/this-usd30-hoto-25-piece-electric-screwdriver-set-is-a-must-buy-option-for-pc-builders-and-hobbyists-40-percent-saving-on-portable-driver-with-long-life-1-500-mah-battery-and-25-ultra-hard-bits-for-your-next-project",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T11:09:08+00:00",
+      "summary": "Save 40% on this Hoto electric screwdriver with 25 bits, now just $29.99 for a limited time only.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-teams-up-with-financial-giants-to-create-usd500-billion-ai-infrastructure-funds-six-investment-firms-to-enable-access-to-long-term-funding-at-attractive-rates",
+      "title": "Nvidia teams up with financial giants to create $500 billion AI infrastructure funds — six investment firms to enable access to long-term funding at attractive rates",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-teams-up-with-financial-giants-to-create-usd500-billion-ai-infrastructure-funds-six-investment-firms-to-enable-access-to-long-term-funding-at-attractive-rates",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T11:04:32+00:00",
+      "summary": "Nvidia to arrange financing from major financial institutions at attractive rates for customers seeking to build AI data centers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/initial-seeder-on-popular-anime-torrenting-site-nyaa-arrested-by-japanese-authorities-anti-piracy-group-claims-it-identified-user-without-torrent-swarm-monitoring",
+      "title": "Japanese authorities use new tool to identify initial torrent uploaders — anti-piracy group says it identified seeder on popular anime torrenting website without torrent swarm monitoring",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/initial-seeder-on-popular-anime-torrenting-site-nyaa-arrested-by-japanese-authorities-anti-piracy-group-claims-it-identified-user-without-torrent-swarm-monitoring",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T11:00:00+00:00",
+      "summary": "Japanese authorities have taken a big step in cracking down on piracy by arresting an initial-seeder at popular anime torrenting website Nyaa.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/modder-adds-radeon-rx-9070-xt-egpu-to-steam-machine-runs-crimson-desert-at-over-100-fps-on-high-moves-boot-drive-to-usb-c-port-leverages-m-2-to-oculink-adaptor-and-egpu-dock",
+      "title": "Modder adds Radeon RX 9070 XT eGPU to Steam Machine, runs Crimson Desert at over 100 FPS on High — moves boot drive to USB-C port, leverages M.2 to OCuLink adaptor and eGPU dock",
+      "url": "https://www.tomshardware.com/pc-components/gpus/modder-adds-radeon-rx-9070-xt-egpu-to-steam-machine-runs-crimson-desert-at-over-100-fps-on-high-moves-boot-drive-to-usb-c-port-leverages-m-2-to-oculink-adaptor-and-egpu-dock",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T10:57:43+00:00",
+      "summary": "A Redditor has successfully connected a very powerful eGPU the Steam Machine via an M.2 to OCuLink adapter.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/wireless-ota-charging-with-lasers-could-keep-drones-airborne-indefinitely-improved-receiver-converts-at-38-49-percent-efficiency-and-uses-nanocrystalline-material-for-thermals",
+      "title": "Laser wireless charging could keep drones airborne indefinitely — improved receiver converts at 38.49% efficiency and uses nanocrystalline material for thermals",
+      "url": "https://www.tomshardware.com/tech-industry/drones/wireless-ota-charging-with-lasers-could-keep-drones-airborne-indefinitely-improved-receiver-converts-at-38-49-percent-efficiency-and-uses-nanocrystalline-material-for-thermals",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T10:30:00+00:00",
+      "summary": "Researchers use a ground-based laser to wirelessly deliver power to drones, potentially allowing them to stay airborne without landing to recharge.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/walmart-has-slashed-usd600-off-this-rtx-5060-powered-gaming-laptop-now-just-usd1-099-get-gigabytes-16-inch-aero-x16-with-16gb-of-ram-and-a-1tb-ssd",
+      "title": "Walmart has slashed $600 off this RTX 5060-powered gaming laptop, now just $1,099 — get Gigabyte's 16-inch Aero X16 with 16GB of RAM and a 1TB SSD",
+      "url": "https://www.tomshardware.com/laptops/gaming-laptops/walmart-has-slashed-usd600-off-this-rtx-5060-powered-gaming-laptop-now-just-usd1-099-get-gigabytes-16-inch-aero-x16-with-16gb-of-ram-and-a-1tb-ssd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T10:28:20+00:00",
+      "summary": "A gaming laptop that won't break the bank during the memory price crisis. Gigabyte's RTX 5060-powered Aero X16 has $600 slashed off the list price.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/gamer-recruitment-drive-results-in-supercharged-hiring-campaign-for-new-air-traffic-controllers-usdot-secretary-reckons-theyve-got-the-strongest-sharpest-workforce-in-aviation-history",
+      "title": "Gamer recruitment drive results in ‘supercharged’ hiring campaign for new Air Traffic Controllers — 94% hiring goal hit in record time with $155,000 salary potential; ‘the strongest, sharpest workforce in aviation history’",
+      "url": "https://www.tomshardware.com/video-games/gamer-recruitment-drive-results-in-supercharged-hiring-campaign-for-new-air-traffic-controllers-usdot-secretary-reckons-theyve-got-the-strongest-sharpest-workforce-in-aviation-history",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T10:00:00+00:00",
+      "summary": "The campaign to recruit video gamers into Air Traffic Control jobs has been a resounding success, according to U.S. Department of Transport head Secretary Sean P. Duffy.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/case-mods/diy-modder-creates-heat-engine-computing-device-powered-by-a-stirling-engine-80-mhz-esp32-can-run-tetris-snake-and-pong-on-just-150-milliwatts-of-power",
+      "title": "DIY modder creates 'heat engine computing device' powered by a Stirling engine, can run Tetris, Snake, and Pong — 80 MHz processor operates on just 150 milliwatts of power",
+      "url": "https://www.tomshardware.com/pc-components/case-mods/diy-modder-creates-heat-engine-computing-device-powered-by-a-stirling-engine-80-mhz-esp32-can-run-tetris-snake-and-pong-on-just-150-milliwatts-of-power",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T09:30:00+00:00",
+      "summary": "The custom machine uses an ESP32-C3, OLED display, and 16-key keypad while squeezing retro gaming into a tiny 150mW power budget.",
       "lang": "en"
     },
     {
@@ -436,7 +742,7 @@
     },
     {
       "id": "rss:https://www.tomshardware.com/pc-components/cpus/intels-core-ultra-5-250k-plus-is-down-to-its-lowest-price-ever-at-usd154-get-a-20-core-midrange-cpu-with-5-5-ghz-boost-for-an-entry-level-price",
-      "title": "Intel's Core Ultra 5 250K Plus is down to its lowest price ever at $154 — get a 20-core midrange CPU with 5.5 GHz boost for an entry-level price",
+      "title": "Intel's Core Ultra 5 250K Plus is down to its lowest price ever at $154 — get a 18-core midrange CPU with 5.3 GHz boost for an entry-level price",
       "url": "https://www.tomshardware.com/pc-components/cpus/intels-core-ultra-5-250k-plus-is-down-to-its-lowest-price-ever-at-usd154-get-a-20-core-midrange-cpu-with-5-5-ghz-boost-for-an-entry-level-price",
       "platform": "rss",
       "source": {
@@ -448,7 +754,7 @@
       "duration_sec": null,
       "views": null,
       "published_at": "2026-08-10T13:54:16+00:00",
-      "summary": "Intel's 20-core Core Ultra 5 250K Plus is down to its lowest price ever on Amazon, selling for just $154 on sale.",
+      "summary": "Intel's 18-core Core Ultra 5 250K Plus is down to its lowest price ever on Amazon, selling for just $154 on sale.",
       "lang": "en"
     },
     {
@@ -571,312 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/the-only-current-generation-graphics-card-on-sale-below-msrp-amds-radeon-rx-9070-gre-gpu-with-12gb-of-vram-returns-to-its-lowest-ever-price-of-usd499",
-      "title": "The only current-generation graphics card on sale below MSRP — AMD's Radeon RX 9070 GRE GPU with 12GB of VRAM returns to its lowest-ever price of $499",
-      "url": "https://www.tomshardware.com/pc-components/gpus/the-only-current-generation-graphics-card-on-sale-below-msrp-amds-radeon-rx-9070-gre-gpu-with-12gb-of-vram-returns-to-its-lowest-ever-price-of-usd499",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-10T10:58:38+00:00",
-      "summary": "Grab a new GPU for less than the MSRP launch price. Gigabyte's Gaming RX 9070 GRE falls to its lowest-ever price.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/drones/uks-royal-navy-sea-drones-contain-component-that-secretly-sent-data-to-china-report-claims-government-cuts-camera-connectivity-and-insists-data-wasnt-sensitive-only-heartbeat-communications",
-      "title": "UK's Royal Navy sea drones contain component that secretly sent data to China, report claims — government cuts camera connectivity and insists data wasn’t sensitive, only ‘heartbeat communications’",
-      "url": "https://www.tomshardware.com/tech-industry/drones/uks-royal-navy-sea-drones-contain-component-that-secretly-sent-data-to-china-report-claims-government-cuts-camera-connectivity-and-insists-data-wasnt-sensitive-only-heartbeat-communications",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-10T10:31:39+00:00",
-      "summary": "K3 Scout surveillance drones used by the UK’s Royal Navy contain components that have been secretly transmitting data to China, according to reports.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/windows/windows-11s-built-in-weather-app-hogs-more-than-1-2-gigabytes-of-ram-just-to-tell-the-forecast-memory-sucking-web-wrapper-filled-with-ads-masquerades-as-an-actual-application",
-      "title": "Windows 11's built-in weather app hogs more than 1.2 gigabytes of RAM just to tell the forecast — memory-sucking web wrapper filled with ads masquerades as an actual application",
-      "url": "https://www.tomshardware.com/software/windows/windows-11s-built-in-weather-app-hogs-more-than-1-2-gigabytes-of-ram-just-to-tell-the-forecast-memory-sucking-web-wrapper-filled-with-ads-masquerades-as-an-actual-application",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-10T10:30:00+00:00",
-      "summary": "MSN Weather acts as the native weather app for Windows 11 and all it does it run a bunch of Chromium subprocesses in the background to retrieve the forecast data. This causes it to use 5x more memory than the macOS weather app. And, oh, you also get to enjoy ads!",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/save-nearly-usd350-on-this-4tb-samsung-9910-pro-ssd-with-gen-5-speeds-right-now-limited-time-woot-sale-delivers-ultra-fast-storage-with-speeds-up-to-14-800-mb-s",
-      "title": "Save nearly $350 on this 4TB Samsung 9910 Pro SSD with Gen 5 speeds right now —limited-time Woot sale delivers ultra-fast storage with speeds up to 14,800 MB/s",
-      "url": "https://www.tomshardware.com/pc-components/ssds/save-nearly-usd350-on-this-4tb-samsung-9910-pro-ssd-with-gen-5-speeds-right-now-limited-time-woot-sale-delivers-ultra-fast-storage-with-speeds-up-to-14-800-mb-s",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-10T10:18:51+00:00",
-      "summary": "Save $413 on this 4TB Samsung 9100 Pro SSD, offering super-fast Gen 5 speeds, now priced at $619.99 in this limited-time Woot sale.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-farmer-kills-25-acres-of-crops-after-following-ai-generated-weed-and-pest-control-advice-farmer-trusted-pesticide-recipe-after-months-of-successful-advice",
-      "title": "Chinese farmer kills 25 acres of crops after following AI-generated weed and pest control advice — farmer trusted pesticide recipe after months of successful advice",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-farmer-kills-25-acres-of-crops-after-following-ai-generated-weed-and-pest-control-advice-farmer-trusted-pesticide-recipe-after-months-of-successful-advice",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-10T10:00:00+00:00",
-      "summary": "A farmer in China followed an AI app's advice for his 25-acre farmland, resulting in the death of his entire crop of sesame seedlings. 67-year-old man was initially skeptical of the tool but eventually trusted it after months of using it.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/space/europe-expands-its-starlink-rival-to-348-satellites-as-iris2-moves-into-implementation-eur15-6-billion-network-will-boost-eu-government-capacity-by-60-percent-with-launches-starting-in-2029",
-      "title": "Europe expands its Starlink rival to 348 satellites as IRIS² moves into implementation — €15.6 billion network will boost EU government capacity by 60%, with launches starting in 2029",
-      "url": "https://www.tomshardware.com/tech-industry/space/europe-expands-its-starlink-rival-to-348-satellites-as-iris2-moves-into-implementation-eur15-6-billion-network-will-boost-eu-government-capacity-by-60-percent-with-launches-starting-in-2029",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-10T09:30:00+00:00",
-      "summary": "Europe has finalized plans for its €15.6 billion IRIS² satellite network, expanding it to 348 satellites with first launches scheduled for 2029.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/wolfbox-mf60-compressed-air-duster-is-nearly-40-percent-off-in-a-limited-time-deal-powerful-rechargeable-devices-propulsion-fan-runs-at-up-to-110-000-rpm",
-      "title": "Wolfbox MF60 Compressed Air Duster is nearly 40% off in a limited-time deal — powerful rechargeable device's propulsion fan runs at up to 110,000 RPM",
-      "url": "https://www.tomshardware.com/pc-components/wolfbox-mf60-compressed-air-duster-is-nearly-40-percent-off-in-a-limited-time-deal-powerful-rechargeable-devices-propulsion-fan-runs-at-up-to-110-000-rpm",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T15:52:16+00:00",
-      "summary": "The Wolfbox MegaFlow 60 has surprisingly dipped below the price of the MegaFlow 50 air duster, and is currently just $30.39.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/gaming-keyboards/turtle-beach-command-series-kb5-review-a-touchscreen-and-a-numberpad-in-one-keyboard",
-      "title": "Turtle Beach Command Series KB5 Review: A touchscreen and a numberpad in one keyboard?",
-      "url": "https://www.tomshardware.com/peripherals/gaming-keyboards/turtle-beach-command-series-kb5-review-a-touchscreen-and-a-numberpad-in-one-keyboard",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sarah Jacobsson Purewal",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T15:02:16+00:00",
-      "summary": "The Turtle Beach Command Series KB5 is a full-size, wired, low-profile keyboard with a small, programmable touchscreen.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/pc-cases/noctua-finds-more-than-half-of-tested-pc-cases-misstate-cpu-cooler-clearances-hands-on-checks-reveal-errors-ranging-from-3-5mm-to-10mm-internal-compatibility-team-conducted-measurements-of-more-than-a-hundred-cases",
-      "title": "Noctua finds more than half of tested PC cases misstate CPU cooler clearances — hands-on checks reveal errors ranging from -3.5mm to +10mm, internal compatibility team conducted measurements of more than a hundred cases",
-      "url": "https://www.tomshardware.com/pc-components/pc-cases/noctua-finds-more-than-half-of-tested-pc-cases-misstate-cpu-cooler-clearances-hands-on-checks-reveal-errors-ranging-from-3-5mm-to-10mm-internal-compatibility-team-conducted-measurements-of-more-than-a-hundred-cases",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T14:35:00+00:00",
-      "summary": "Users are asking why some measurements on Noctua's compatibility page are different from manufacturer spec sheets.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/liquid-cooling/modder-pumps-liquid-directly-over-bare-gpu-silicon-via-3d-printed-block-drops-rtx-2060-super-load-temps-to-28-c-despite-initial-leaks",
-      "title": "Modder pumps liquid directly over bare GPU silicon via 3D-printed block — drops RTX 2060 Super load temps to 28°C despite initial leaks",
-      "url": "https://www.tomshardware.com/pc-components/liquid-cooling/modder-pumps-liquid-directly-over-bare-gpu-silicon-via-3d-printed-block-drops-rtx-2060-super-load-temps-to-28-c-despite-initial-leaks",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T14:15:00+00:00",
-      "summary": "The fearless TrashBench has been testing direct die water cooling of graphics cards and suffered most of the leaky nightmares you might expect.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/musks-terafab-projected-to-be-larger-than-the-pentagon-apple-park-mall-of-america-and-giga-texas-combined-all-in-one-chip-manufacturing-facility-visualized-to-show-the-projects-massive-footprint",
-      "title": "Musk’s Terafab projected to be larger than the Pentagon, Apple Park, Mall of America, and Giga Texas, combined — all-in-one chip manufacturing facility visualized to show the project’s massive footprint",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/musks-terafab-projected-to-be-larger-than-the-pentagon-apple-park-mall-of-america-and-giga-texas-combined-all-in-one-chip-manufacturing-facility-visualized-to-show-the-projects-massive-footprint",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T13:55:00+00:00",
-      "summary": "Elon Musk's Terafab will have at least 100 million sq. ft of interior space, making it the largest such structure on Earth by a big margin. It seems that it will need this amount of space, though, for Musk's ambitious plan of bringing multiple semiconductor manufacturing processes under one roof.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/microsoft-office/x64-port-of-microsoft-word-for-windows-1-1a-arrives-you-can-now-run-this-seminal-1990-word-processor-natively-in-windows-11",
-      "title": "x64 port of Microsoft Word for Windows 1.1a arrives — you can now run this seminal 1990 word processor natively in Windows 11",
-      "url": "https://www.tomshardware.com/software/microsoft-office/x64-port-of-microsoft-word-for-windows-1-1a-arrives-you-can-now-run-this-seminal-1990-word-processor-natively-in-windows-11",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T13:40:00+00:00",
-      "summary": "A developer has ported 1990's Microsoft Word for Windows 1.1a to x64 so it can run natively on Windows 11 PC systems.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/two-variants-of-nvidias-rtx-spark-show-up-on-geekbench-revealing-a-cut-down-18-core-model-full-20-core-beats-most-x86-mobile-chips-across-multi-core-and-single-core-tests",
-      "title": "Two variants of Nvidia's RTX Spark show up on Geekbench, revealing a cut-down 18-core model — Full 20-core beats most x86 mobile chips across multi-core and single-core tests",
-      "url": "https://www.tomshardware.com/pc-components/cpus/two-variants-of-nvidias-rtx-spark-show-up-on-geekbench-revealing-a-cut-down-18-core-model-full-20-core-beats-most-x86-mobile-chips-across-multi-core-and-single-core-tests",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T13:20:00+00:00",
-      "summary": "The 20-core SKU of the RTX Spark that we've known to exist for a long time scored 2,570 points in the single-core test and 23,126 points in the multi-core test. The second, 18-core cut-down SKU scored 2,541 points in the single-core test while its multi-core was 21,776 points.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/drones/fcc-moves-to-ban-lidar-equipped-foreign-drones-from-us-classifies-the-technology-as-military-grade-in-a-proposal-that-could-also-hit-thermal-models-and-the-swarms-used-drone-light-shows",
-      "title": "FCC moves to ban LiDAR-equipped foreign drones from US — classifies the technology as \"military-grade\" in a proposal that could also hit thermal models and the swarms used in drone light shows",
-      "url": "https://www.tomshardware.com/tech-industry/drones/fcc-moves-to-ban-lidar-equipped-foreign-drones-from-us-classifies-the-technology-as-military-grade-in-a-proposal-that-could-also-hit-thermal-models-and-the-swarms-used-drone-light-shows",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T13:00:00+00:00",
-      "summary": "The FCC is proposing a retroactive sales ban on previously approved foreign-made drones with LiDAR and other “military-grade” features, potentially removing several popular DJI models from U.S. stores.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/amazons-new-7-65gw-texas-ai-data-center-power-plant-could-become-the-largest-source-of-co2-pollution-in-the-us-custom-35-turbine-gas-plant-authorized-to-emit-33-million-tons-of-annual-greenhouse-gases",
-      "title": "Amazon’s new 7.65GW Texas AI data center power plant could become the largest source of CO₂ pollution in the US — custom 35-turbine gas plant authorized to emit 33 million tons of annual greenhouse gases",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/amazons-new-7-65gw-texas-ai-data-center-power-plant-could-become-the-largest-source-of-co2-pollution-in-the-us-custom-35-turbine-gas-plant-authorized-to-emit-33-million-tons-of-annual-greenhouse-gases",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T12:40:00+00:00",
-      "summary": "Amazon is reportedly building a 7.65GW natural gas power plant in Texas to feed a new AI data center, with permits allowing up to 33 million tons of CO₂ emissions per year.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/kansas-town-silences-public-comment-on-gigawatt-ai-data-center-after-receiving-death-threats-moves-to-virtual-meetings-shift-follows-physics-teachers-arrest-for-clapping-at-data-center-hearing",
-      "title": "Kansas town silences public comment on gigawatt AI data center after receiving death threats, moves to virtual meetings — shift follows physics teacher's arrest for clapping at data center hearing",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/kansas-town-silences-public-comment-on-gigawatt-ai-data-center-after-receiving-death-threats-moves-to-virtual-meetings-shift-follows-physics-teachers-arrest-for-clapping-at-data-center-hearing",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T12:20:00+00:00",
-      "summary": "Emporia, Kansas, switched to virtual city council meetings after death threats intensified against city leaders. The move also canceled public comments, prompting some members of the public to ask why it was affected, too.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-core-ultra-7-270k-plus-vs-amd-ryzen-7-7700x3d-faceoff",
-      "title": "Intel Core Ultra 7 270K Plus vs AMD Ryzen 7 7700X3D faceoff — battle of the upper mid-range CPUs",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-core-ultra-7-270k-plus-vs-amd-ryzen-7-7700x3d-faceoff",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T12:05:00+00:00",
-      "summary": "AMD's 3D V-Cache takes on Intel's latest Core Ultra architecture as we compare the two across various metrics including gaming, productivity, power consumption, and value.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/usb-flash-drives/open-source-stealth-usb-hides-an-encrypted-partition-behind-an-8gb-decoy-drive-phantom-drive-appears-as-a-regular-usb-stick-until-you-create-a-text-file-to-unlock-the-hidden-data",
-      "title": "Open-source stealth USB hides an encrypted partition behind an 8GB decoy drive — 'Phantom Drive' appears as a regular USB stick until you create a text file to unlock the hidden data",
-      "url": "https://www.tomshardware.com/pc-components/usb-flash-drives/open-source-stealth-usb-hides-an-encrypted-partition-behind-an-8gb-decoy-drive-phantom-drive-appears-as-a-regular-usb-stick-until-you-create-a-text-file-to-unlock-the-hidden-data",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T12:00:00+00:00",
-      "summary": "This USB looks like a standard 8GB drive, but it unlocks a hidden partition when you create a text file with the password inside. The password is never actually written to storage; it's instead intercepted by the custom firmware and copied into the microcontroller's SRAM during hashing.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -893,6 +893,25 @@
       "published_at": "2026-07-21T13:40:51+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49255710",
+      "title": "Nvidia's Risky Business",
+      "url": "https://stratechery.com/2026/nvidias-risky-business/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49255710",
+        "name": "jonbaer",
+        "hn_url": "https://news.ycombinator.com/item?id=49255710"
+      },
+      "duration_sec": null,
+      "views": 316,
+      "comments": 151,
+      "published_at": "2026-08-11T10:02:00+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
@@ -915,6 +934,44 @@
       "lang": "en"
     },
     {
+      "id": "hn:49263340",
+      "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49263340",
+        "name": "droidjj",
+        "hn_url": "https://news.ycombinator.com/item?id=49263340"
+      },
+      "duration_sec": null,
+      "views": 198,
+      "comments": 106,
+      "published_at": "2026-08-11T19:35:52+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49257947",
+      "title": "Nvidia Nemotron 3.5 Lightning",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49257947",
+        "name": "beklein",
+        "hn_url": "https://news.ycombinator.com/item?id=49257947"
+      },
+      "duration_sec": null,
+      "views": 119,
+      "comments": 29,
+      "published_at": "2026-08-11T13:26:02+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49122838",
       "title": "Moonshot’s Kimi uses 20k Nvidia chip cluster from Alibaba",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
@@ -929,82 +986,6 @@
       "views": 114,
       "comments": 76,
       "published_at": "2026-07-31T13:24:03+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49248477",
-      "title": "Nvidia is pulling Wall Street into the AI buildout",
-      "url": "https://thenextweb.com/news/nvidia-500-billion-wall-street-ai-infrastructure-funding-package",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49248477",
-        "name": "berkeleyjunk",
-        "hn_url": "https://news.ycombinator.com/item?id=49248477"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 4,
-      "published_at": "2026-08-10T19:25:07+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49125140",
-      "title": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia",
-      "url": "https://www.ubergizmo.com/2026/06/hygon-512-thread-cpu/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49125140",
-        "name": "rbanffy",
-        "hn_url": "https://news.ycombinator.com/item?id=49125140"
-      },
-      "duration_sec": null,
-      "views": 17,
-      "comments": 3,
-      "published_at": "2026-07-31T16:21:11+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49093429",
-      "title": "Kospi Plunges After Nvidia CEO's Visits Spark 'Huang Curse' Fears",
-      "url": "https://www.chosun.com/english/market-money-en/2026/07/29/6FEUZWQT5BG3HMJ3G2RZPHROGM/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49093429",
-        "name": "mapping365",
-        "hn_url": "https://news.ycombinator.com/item?id=49093429"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 0,
-      "published_at": "2026-07-29T04:29:58+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49177126",
-      "title": "It looks like 'Big Short' investor Michael Burry nailed bet against chip stocks",
-      "url": "https://www.businessinsider.com/big-short-michael-burry-ai-chip-stocks-soxx-nvidia-substack-2026-8",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49177126",
-        "name": "mapping365",
-        "hn_url": "https://news.ycombinator.com/item?id=49177126"
-      },
-      "duration_sec": null,
-      "views": 17,
-      "comments": 2,
-      "published_at": "2026-08-05T00:30:23+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

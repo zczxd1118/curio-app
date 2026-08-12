@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-11T04:25:57.475092+00:00",
+  "fetched_at": "2026-08-12T04:53:35.757009+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 6,
+    "HN · Nvidia": 5,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 28,
+  "total": 27,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/agentic-ai-multi-physics-and-standards-will-redefine-chips-design/",
+      "title": "Agentic AI, Multi‑Physics, and Standards Will Redefine Chips Design",
+      "url": "https://www.eetimes.com/agentic-ai-multi-physics-and-standards-will-redefine-chips-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T22:00:00+00:00",
+      "summary": "Agentic AI, brutal physics bottlenecks, and standards are remaking chip design from silicon to systems. The post Agentic AI, Multi‑Physics, and Standards Will Redefine Chips Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/amd-challenges-gpu-centric-architectures-as-it-takes-aim-at-nvidia-in-robotics/",
+      "title": "AMD Challenges GPU-Centric Architectures as It Takes Aim at Nvidia in Robotics",
+      "url": "https://www.eetimes.com/amd-challenges-gpu-centric-architectures-as-it-takes-aim-at-nvidia-in-robotics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T14:09:45+00:00",
+      "summary": "AMD’s new SoC for robots combines CPU, GPU, NPU on one chip with unified memory. The post AMD Challenges GPU-Centric Architectures as It Takes Aim at Nvidia in Robotics appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/managing-your-component-library-for-supply-chain-resilience/",
+      "title": "Managing Your Component Library for Supply Chain Resilience",
+      "url": "https://www.eetimes.com/managing-your-component-library-for-supply-chain-resilience/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Cadence Design Systems",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T14:00:00+00:00",
+      "summary": "To take a PCB from design to production, an unmanaged component library is a hidden liability. Obsolete parts, single-source vulnerabilities, long lead times, counterfeit exposure, and compliance gaps often go undetected until they trigger costly redesigns, audit failures, or production delays. This guide shows how to solve those problems at their source. By transitioning to [&#8230;] The post Managing Your Component Library for Supply Chain Resilience appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ai-hardwares-next-frontier-is-integration/",
+      "title": "AI Hardware’s Next Frontier Is Integration",
+      "url": "https://www.eetimes.com/ai-hardwares-next-frontier-is-integration/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T09:25:50+00:00",
+      "summary": "The LID World Summit 2026 showed why AI progress now depends on system-level advances in memory, packaging, photonics, and power. The post AI Hardware’s Next Frontier Is Integration appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/why-ai-adoption-in-materials-rd-depends-more-on-people-than-technology/",
       "title": "Why AI Adoption in Materials R&D Depends More on People Than Technology",
       "url": "https://www.eetimes.com/why-ai-adoption-in-materials-rd-depends-more-on-people-than-technology/",
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/biwin-and-tera-industria-de-semicondutores-sign-strategic-partnership-agreement/",
-      "title": "BIWIN and Tera Indústria de Semicondutores Sign Strategic Partnership Agreement",
-      "url": "https://www.eetimes.com/biwin-and-tera-industria-de-semicondutores-sign-strategic-partnership-agreement/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "BIWIN Semiconductor",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-07T16:08:31+00:00",
-      "summary": "Shenzhen, China / Manaus, Brazil – August 6th, 2026: BIWIN Semiconductor (HK) Company Limited (&#8220;BIWIN&#8221;), a global provider of memory and storage packaging solutions, and TERA INDÚSTRIA DE SEMICONDUTORES S.A. (&#8220;Tera&#8221;), a Brazil-based semiconductor memory packaging company, announce the signing of a strategic partnership framework agreement to manufacture and distribute memory and storage solutions in [&#8230;] The post BIWIN and Tera Indústria de Semicondutores Sign Strate...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/",
-      "title": "Chiplet Architectures as a Practical Path to Scalable Automotive Compute",
-      "url": "https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Cyril Cordoba",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-07T13:56:43+00:00",
-      "summary": "Chiplets are auto’s escape hatch from bloated SoCs, scaling SDV compute without wrecking cost or software. The post Chiplet Architectures as a Practical Path to Scalable Automotive Compute appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/inside-device-connectivity-a-new-design-discipline-for-next-gen-vehicles/",
-      "title": "Inside Device Connectivity: A New Design Discipline for Next-Gen Vehicles",
-      "url": "https://www.eetimes.com/inside-device-connectivity-a-new-design-discipline-for-next-gen-vehicles/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "TE Connectivity",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-07T10:53:14+00:00",
-      "summary": "Join this webinar where our expert will introduce Inside Device Connectivity as a focused design discipline to ensure power, signal, and data move predictably and robustly within automotive electronics. The post Inside Device Connectivity: A New Design Discipline for Next-Gen Vehicles appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/stmicroelectronics-bets-on-hardware-based-post-quantum-cryptography-with-st54m/",
-      "title": "STMicroelectronics Bets on Hardware-Based Post-Quantum Cryptography with ST54M",
-      "url": "https://www.eetimes.com/stmicroelectronics-bets-on-hardware-based-post-quantum-cryptography-with-st54m/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-07T08:00:00+00:00",
-      "summary": "ST’s ST54M bakes post-quantum crypto into phone hardware before hackers harvest today’s secrets. The post STMicroelectronics Bets on Hardware-Based Post-Quantum Cryptography with ST54M appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -375,6 +375,25 @@
       "published_at": "2026-07-21T13:40:51+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49255710",
+      "title": "Nvidia's Risky Business",
+      "url": "https://stratechery.com/2026/nvidias-risky-business/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49255710",
+        "name": "jonbaer",
+        "hn_url": "https://news.ycombinator.com/item?id=49255710"
+      },
+      "duration_sec": null,
+      "views": 316,
+      "comments": 151,
+      "published_at": "2026-08-11T10:02:00+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
@@ -397,6 +416,44 @@
       "lang": "en"
     },
     {
+      "id": "hn:49263340",
+      "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49263340",
+        "name": "droidjj",
+        "hn_url": "https://news.ycombinator.com/item?id=49263340"
+      },
+      "duration_sec": null,
+      "views": 198,
+      "comments": 106,
+      "published_at": "2026-08-11T19:35:52+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49257947",
+      "title": "Nvidia Nemotron 3.5 Lightning",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49257947",
+        "name": "beklein",
+        "hn_url": "https://news.ycombinator.com/item?id=49257947"
+      },
+      "duration_sec": null,
+      "views": 119,
+      "comments": 29,
+      "published_at": "2026-08-11T13:26:02+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49122838",
       "title": "Moonshot’s Kimi uses 20k Nvidia chip cluster from Alibaba",
       "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
@@ -411,82 +468,6 @@
       "views": 114,
       "comments": 76,
       "published_at": "2026-07-31T13:24:03+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49248477",
-      "title": "Nvidia is pulling Wall Street into the AI buildout",
-      "url": "https://thenextweb.com/news/nvidia-500-billion-wall-street-ai-infrastructure-funding-package",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49248477",
-        "name": "berkeleyjunk",
-        "hn_url": "https://news.ycombinator.com/item?id=49248477"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 4,
-      "published_at": "2026-08-10T19:25:07+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49125140",
-      "title": "Hygon Reveals 512-Thread CPU and AI GPU to Rival Intel Xeon and Nvidia",
-      "url": "https://www.ubergizmo.com/2026/06/hygon-512-thread-cpu/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49125140",
-        "name": "rbanffy",
-        "hn_url": "https://news.ycombinator.com/item?id=49125140"
-      },
-      "duration_sec": null,
-      "views": 17,
-      "comments": 3,
-      "published_at": "2026-07-31T16:21:11+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49093429",
-      "title": "Kospi Plunges After Nvidia CEO's Visits Spark 'Huang Curse' Fears",
-      "url": "https://www.chosun.com/english/market-money-en/2026/07/29/6FEUZWQT5BG3HMJ3G2RZPHROGM/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49093429",
-        "name": "mapping365",
-        "hn_url": "https://news.ycombinator.com/item?id=49093429"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 0,
-      "published_at": "2026-07-29T04:29:58+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49177126",
-      "title": "It looks like 'Big Short' investor Michael Burry nailed bet against chip stocks",
-      "url": "https://www.businessinsider.com/big-short-michael-burry-ai-chip-stocks-soxx-nvidia-substack-2026-8",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49177126",
-        "name": "mapping365",
-        "hn_url": "https://news.ycombinator.com/item?id=49177126"
-      },
-      "duration_sec": null,
-      "views": 17,
-      "comments": 2,
-      "published_at": "2026-08-05T00:30:23+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
