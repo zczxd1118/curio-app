@@ -1,257 +1,211 @@
 {
-  "date": "2026-08-12",
-  "intro": "今日核心信号：英伟达联手华尔街打造5000亿美元AI基础设施融资体系，试图将GPU变成可融资资产，同时亲自下场训练万亿参数开源模型Nemotron 4，软硬通吃。另一边，Gemini月活突破10亿，与ChatGPT正面交锋，AI应用进入十亿用户时代。存储芯片长协扩散至二三线厂商，定价权重塑产业链。",
+  "date": "2026-08-13",
+  "intro": "今日信号：AI 监管与合规进入深水区——Anthropic 为欧盟 AI 法案引入数字水印，引发效率与隐私之争；与此同时，AI 基础设施军备竞赛白热化，Nvidia 发布 Nemotron 3.5 Lightning 模型，CoreWeave 证明老旧 A100 仍能盈利，而 FCC 拟禁中国光模块，供应链博弈加剧。金融市场上，腾讯财报揭示 AI 投入对利润表的冲击，Citadel 看多 8 月美股。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI 算力 / 半导体",
-      "id": "wscn:3779251",
-      "url": "https://wallstreetcn.com/articles/3779251",
-      "source": "华尔街见闻",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-will-begin-digitally-watermarking-marking-ai-generated-text-and-images-anthropic-details-how-itll-comply-with-the-eus-artificial-intelligence-act",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-will-begin-digitally-watermarking-marking-ai-generated-text-and-images-anthropic-details-how-itll-comply-with-the-eus-artificial-intelligence-act",
+      "source": "Tom's Hardware",
       "stars": 5,
-      "title": "英伟达联手华尔街，把AI算力变成可融资、可打包的资产",
-      "lead": "英伟达联合Apollo、贝莱德、黑石等巨头，拟构建5000亿美元AI芯片证券化融资体系，通过SPV将GPU打包成类抵押贷款的新资产类别。此举为融资受困的中小AI企业开辟资本通道，但芯片\"生菜般短暂\"的保质期和英伟达自身兜底引发的循环融资争议，让这场金融创新悬于刀刃之上。",
+      "title": "Anthropic 为欧盟 AI 法案给 Claude 输出加数字水印，文本图像均可溯源",
+      "lead": "Anthropic 宣布将在未来版本的 Claude 中嵌入数字水印，以标识 AI 生成的文本和图像，满足欧盟《人工智能法案》的合规要求。这一举措引发用户强烈反弹，认为水印会暴露他们在工作和学习中使用 AI 的行为。Stratechery 的 Ben Thompson 撰文批评该方案“可能比看起来更糟”，认为其哲学基础就有问题。",
       "confirmed": [
-        "英伟达与Apollo、贝莱德、黑石等六家投资机构合作，创建5000亿美元AI基础设施基金。",
-        "通过SPV将GPU打包成类抵押贷款资产，为AI数据中心建设提供长期融资。",
-        "黄仁勋公开回应质疑，称A100 GPU经济寿命延长至十年，2026年仍可产生逾万美元/年租赁收入。",
-        "市场反应分化：KKR、阿波罗等另类资管巨头股价大涨3%-7%，大型科技股连续承压。"
+        "Anthropic 将开始对 Claude 生成的文本和图像进行数字水印标记。",
+        "此举是为了遵守欧盟《人工智能法案》的透明度要求。",
+        "部分 Claude 用户已在社交媒体上表达不满，担心水印会暴露其使用 AI 的行为。",
+        "Stratechery 的 Ben Thompson 发表分析文章，批评该水印方案。"
       ],
       "judgment": [
-        "该融资体系目前零实际募资，能否落地存疑。",
-        "GPU作为抵押品的残值评估和寿命周期是否可靠，尚未经市场检验。",
-        "英伟达亲自为客户找融资，是需求强劲还是需求需靠融资'创造'，市场解读不一。"
+        "水印的具体技术实现（如是否可见、嵌入强度）尚未公开。",
+        "水印是否会影响生成内容的质量或用户体验，尚待观察。",
+        "其他 AI 公司是否会跟进类似做法，仍不确定。",
+        "欧盟监管机构是否认可 Anthropic 的方案，尚未明确。"
       ],
-      "implication": "这对你意味着AI算力成本结构可能发生根本变化。若GPU可融资租赁，中小团队和创业公司获取算力的门槛将大幅降低，你作为个人开发者或许能以更低成本租用高端GPU进行模型训练或推理。但要注意，这种金融创新可能加剧算力泡沫，长期看算力价格波动会更大。建议你关注后续实际募资和落地案例，同时保持对自建算力或使用国产替代方案的灵活度。"
+      "implication": "你正在用 Claude Code 做 side project，如果水印覆盖代码或文档，可能影响你的工作流。建议关注 Anthropic 的技术细节，评估对本地生成内容的影响。同时，这标志着 AI 合规时代到来，你的 content-curator 项目或许可以加入“AI 内容检测”功能，提前布局。"
     },
     {
       "rank": 2,
-      "domain": "AI",
-      "id": "bvid:BV172GP6rEZs",
-      "url": "http://www.bilibili.com/video/av117014605731815",
-      "source": "AI超元域",
-      "stars": 4,
-      "title": "DeepSeek V4 Flash实测：Claude Code接入后连续开发7个项目，逼近Claude Opus 4.8？",
-      "lead": "DeepSeek发布V4 Flash 0731版本：284B总参数、13B激活参数、100万Token上下文，官方基准表现接近Claude Opus 4.8。UP主实测将其接入Claude Code，连续开发7个项目，对比Kimi K3后优缺点明显。作为最便宜的国产模型，它可能改变AI编程的成本结构。",
+      "domain": "AI 算力 / 半导体",
+      "id": "hn:49263340",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "source": "Hacker News",
+      "stars": 5,
+      "title": "Nvidia 发布 Nemotron 3.5 Lightning 与 NeMo Switchyard，推理效率再升级",
+      "lead": "Nvidia 推出 Nemotron 3.5 Lightning 模型（30B-A3B，NVFP4 量化）及配套的 NeMo Switchyard 工具，旨在提升推理效率并简化模型部署。该模型在 Hugging Face 上同步发布，引发开发者关注。此前 Nvidia 的 Vera 白皮书被 Chips and Cheese 指出存在漏洞，此次发布或为巩固其软件生态。",
       "confirmed": [
-        "DeepSeek V4 Flash 0731发布，284B总参数、13B激活参数、100万Token上下文。",
-        "官方基准表现接近Claude Opus 4.8。",
-        "实测接入Claude Code后连续开发7个项目，表现稳定。",
-        "价格在国产模型中最低。"
+        "Nvidia 发布 Nemotron 3.5 Lightning 模型，采用 30B-A3B 架构，支持 NVFP4 量化。",
+        "同时推出 NeMo Switchyard 工具，用于优化模型部署。",
+        "模型已在 Hugging Face 上线，供开发者下载。",
+        "Nvidia 的 Vera 白皮书此前被 Chips and Cheese 批评存在技术漏洞。"
       ],
       "judgment": [
-        "实际编码能力是否真的接近Opus 4.8，需要更多场景验证。",
-        "与Kimi K3对比的优缺点未详细披露，可能在某些任务上仍有差距。",
-        "100万Token上下文的实际利用率和速度表现未知。"
+        "Nemotron 3.5 Lightning 的实际性能与推理速度尚未有第三方基准测试。",
+        "NeMo Switchyard 是否能在企业级应用中普及，尚待观察。",
+        "Nvidia 在软件生态上的投入能否对抗 AMD 等竞争对手，仍不确定。",
+        "Vera 白皮书的问题是否会影响 Nvidia 的硬件路线图，尚未明确。"
       ],
-      "implication": "作为AI编程重度玩家，你应该立即尝试将DeepSeek V4 Flash接入Claude Code或Cursor，它可能是目前性价比最高的编程模型。100万Token上下文意味着你可以让AI处理整个项目代码库，而13B激活参数保证了推理速度。建议你对比一下它在你的典型工作流（如RAG、Agent工具构建）中的表现，如果确实接近Opus 4.8，可以大幅降低你的API成本。"
+      "implication": "作为 AI 产品开发者，你可以关注 Nemotron 3.5 Lightning 的量化版本，它可能适合在本地或边缘设备运行。NeMo Switchyard 或许能简化你的模型部署流程，值得研究。同时，Nvidia 的软件生态正在成为其护城河，你的 Agent 项目若依赖推理优化，可考虑跟进。"
     },
     {
       "rank": 3,
-      "domain": "大厂 AI 动态",
-      "id": "wscn:3779244",
-      "url": "https://wallstreetcn.com/articles/3779244",
+      "domain": "股票",
+      "id": "wscn:3779342",
+      "url": "https://wallstreetcn.com/articles/3779342",
       "source": "华尔街见闻",
-      "stars": 5,
-      "title": "追平OpenAI！Gemini月活用户突破10亿，为谷歌史上增速最快产品",
-      "lead": "谷歌CEO皮查伊宣布Gemini月活突破10亿，与ChatGPT正面交锋。从7.5亿到10亿仅用半年，成为谷歌史上增速最快产品。63%用户选择语音交互，纯语音用户占比持续上升。十亿用户争夺战落幕，深度变现成为下一战场。",
+      "stars": 4,
+      "title": "腾讯财报：AI 资本开支暴增至 528 亿，自由现金流转负，华尔街下调盈利预测",
+      "lead": "腾讯二季度财报显示，资本开支单季暴增至 528 亿元，自由现金流转负，AI 投入开始实质冲击利润表。华尔街四大投行集体下调盈利预测，核心担忧是混元模型、微信 Agent、WorkBuddy 的商业化速度能否追上持续攀升的训练与推理成本。瑞银已将全年资本开支预期上调至 2500 亿元。",
       "confirmed": [
-        "Gemini月活用户突破10亿。",
-        "从7.5亿到10亿仅用半年，为谷歌史上增速最快产品。",
-        "63%的Gemini用户使用语音交互功能。",
-        "Gemini每天生成超过1.5亿条语音交互。"
+        "腾讯二季度资本开支达 528 亿元，自由现金流转负。",
+        "高盛、瑞银等四大投行下调腾讯盈利预测。",
+        "瑞银将全年资本开支预期从 1700 亿元上调至 2500 亿元。",
+        "WorkBuddy 跃升中国 AI 生产力服务互动量第一。"
       ],
       "judgment": [
-        "用户数增长能否转化为实际收入，仍待观察。",
-        "语音交互占比高，但商业化模式尚不清晰。",
-        "与ChatGPT的竞争将进入深度变现阶段，可能影响产品定价策略。"
+        "腾讯 AI 投入何时能带来可观回报，尚不明朗。",
+        "混元 Hy4 模型年底发布，其竞争力有待市场检验。",
+        "微信 Agent 和 WorkBuddy 的商业化路径仍在探索中。",
+        "资本开支是否继续扩大，取决于管理层对 AI 战略的坚持。"
       ],
-      "implication": "Gemini突破10亿用户意味着AI助手成为主流入口，你作为AI产品开发者，应该考虑将产品适配到Gemini生态，尤其是语音交互场景。63%的语音使用率表明用户更倾向于自然交互，你的Agent项目可以借鉴这一点，增加语音输入输出能力。同时，关注谷歌后续的变现策略，可能为开发者带来新的分成机会。"
+      "implication": "你正在做 AI Agent 项目，腾讯的投入表明大厂正在重仓 AI，但商业化压力巨大。这提醒你，个人项目也要考虑成本与变现。WorkBuddy 的崛起说明企业级 AI 助手是热门方向，你的 content-curator 或许可以借鉴其思路，聚焦垂直场景。"
     },
     {
       "rank": 4,
-      "domain": "股票",
-      "id": "wscn:3779234",
-      "url": "https://wallstreetcn.com/articles/3779234",
-      "source": "华尔街见闻",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/coreweave-ceo-mike-intrator-says-it-has-signed-an-a100-contract-running-into-2029",
+      "url": "https://www.tomshardware.com/tech-industry/coreweave-ceo-mike-intrator-says-it-has-signed-an-a100-contract-running-into-2029",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "从闪迪到长鑫，内存长协扩散至二三线厂商，定价权重塑产业链",
-      "lead": "全球存储芯片供需失衡加剧，长期供应协议（LTA）已从三星、SK海力士、美光扩散至闪迪和长鑫存储。苹果试图压低长鑫存储采购价遭拒，因华为、小米已锁定其产能。高盛将此视为本轮LTA与历轮最显著的区别，供应商定价权正深度重塑整条产业链议价逻辑。",
+      "title": "CoreWeave 证明 2020 年的 A100 仍能盈利，签下 2029 年合同，季度营收 25.8 亿美元",
+      "lead": "CoreWeave  CEO 透露，公司已签下基于 A100 的合同，持续到 2029 年，证明老旧的 AI GPU 在电力受限和遗留基础设施下仍可盈利。CoreWeave 季度营收达 25.8 亿美元，同比增长 112%。这挑战了“AI 硬件快速迭代”的普遍认知，也为算力租赁市场提供了新视角。",
       "confirmed": [
-        "LTA已扩散至闪迪和长鑫存储等二三线厂商。",
-        "苹果试图压低长鑫存储采购价遭拒。",
-        "华为、小米已锁定长鑫存储产能。",
-        "高盛认为本轮LTA与历轮有显著区别。"
+        "CoreWeave 已签署 A100 合同，有效期至 2029 年。",
+        "CoreWeave 季度营收 25.8 亿美元，同比增长 112%。",
+        "A100 是 Nvidia 在 2020 年发布的 GPU。",
+        "CoreWeave 认为电力约束和遗留基础设施使旧 GPU 仍具经济性。"
       ],
       "judgment": [
-        "LTA扩散是否会导致存储芯片价格持续上涨，尚需观察。",
-        "二三线厂商的产能和良率能否满足大客户需求，存在不确定性。",
-        "苹果等大客户是否会寻找替代供应商，影响市场格局。"
+        "A100 合同的利润率是否与新一代 GPU 相当，未披露。",
+        "其他算力提供商是否会效仿，延长旧 GPU 的使用周期，尚不确定。",
+        "电力成本上升是否会影响 A100 的长期盈利能力，需观察。",
+        "CoreWeave 的商业模式是否可持续，取决于 AI 算力需求是否持续。"
       ],
-      "implication": "存储芯片长协扩散意味着内存价格可能长期维持高位，你如果计划组装电脑或购买服务器，建议尽早锁定配置。对于你的Agent项目，如果依赖本地大模型推理，内存成本会直接影响部署方案。可以考虑使用量化模型或云端API来降低成本。同时，关注长鑫存储等国产厂商的进展，未来可能提供更具性价比的选择。"
+      "implication": "这对你的 AI 工程实践有启示：不必一味追求最新硬件，优化推理效率、利用现有资源同样重要。你的个人 Agent 项目如果依赖云端算力，可以考虑使用 A100 等性价比更高的实例，降低成本。"
     },
     {
       "rank": 5,
-      "domain": "AI 算力 / 半导体",
-      "id": "wscn:3779239",
-      "url": "https://wallstreetcn.com/articles/3779239",
-      "source": "华尔街见闻",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+      "source": "TechCrunch",
       "stars": 4,
-      "title": "英伟达开源战略升级：计划亲自打造全球顶尖开源AI模型",
-      "lead": "英伟达斥数十亿美元训练万亿参数开放大模型Nemotron 4，表面\"不务正业\"，实则暗藏商业逻辑：模型免费，算力收费。通过免费模型吸引企业、政府和开发者部署AI，推动GPU、网络、软件全栈消费。此举还有助于分散客户集中风险，对抗大客户自研芯片威胁。",
+      "title": "AI 编程独角兽 Cognition 洽谈 400 亿美元估值融资，数月内估值翻倍",
+      "lead": "据 TechCrunch 报道，AI 编程初创公司 Cognition 正在洽谈新一轮融资，估值高达 400 亿美元。就在几个月前，该公司刚以 260 亿美元估值融资 10 亿美元。Cognition 是 Devin 的开发商，其快速估值增长反映了市场对 AI 编程工具的热情，但也引发了对泡沫的担忧。",
       "confirmed": [
-        "英伟达计划训练万亿参数开源模型Nemotron 4。",
-        "投入达数十亿美元。",
-        "Nemotron 3.5 Lightning已发布，30B A3B NVFP4。",
-        "英伟达开源战略从'支持者'转向'构建者'。"
+        "Cognition 正在洽谈以 400 亿美元估值融资。",
+        "此前公司刚完成 10 亿美元融资，估值 260 亿美元。",
+        "Cognition 是 AI 编程工具 Devin 的开发商。",
+        "融资谈判尚处于早期阶段，细节可能变化。"
       ],
       "judgment": [
-        "万亿参数开源模型能否达到顶尖水平，尚待验证。",
-        "免费模型策略能否有效拉动算力销售，需要时间检验。",
-        "与Anthropic、OpenAI等闭源模型的竞争格局将如何演变。"
+        "融资能否成功，以及最终估值是否达到 400 亿美元，尚不确定。",
+        "市场对 AI 编程工具的高估值是否可持续，存在争议。",
+        "Cognition 的营收和用户增长数据未公开。",
+        "竞争对手如 Lovable、Cursor 等也在快速融资，竞争格局未定。"
       ],
-      "implication": "英伟达亲自做开源模型，对你这样的AI开发者是重大利好。你可以免费使用接近顶尖水平的模型，降低开发成本。同时，英伟达的模型会针对自家GPU优化，如果你使用NVIDIA硬件，性能可能更佳。建议你关注Nemotron 4的发布，并测试其在你的Agent工作流中的表现。这也意味着开源模型与闭源模型的差距可能缩小，你的技术选型可以更灵活。"
+      "implication": "你正在用 vibe coding 工具，Cognition 的高估值说明资本看好 AI 编程赛道。但泡沫风险也在积累，作为开发者，你应关注工具的实用价值而非炒作。Devin 等 Agent 式编程工具可能改变你的工作流，值得尝试。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI",
-      "id": "bvid:BV1Tv3i6LEX1",
-      "title": "用Codex、cursor 还是Claude ？程序员不作选择题，我都要用，还一起用 | Orca ADE 介绍",
-      "url": "http://www.bilibili.com/video/av116996217838997",
-      "source": "技术胖",
-      "stars": 3,
-      "one_liner": "开源免费的Agent开发环境Orca ADE，整合多编程Agent并支持语音和手机远程管理，适合多工具协同工作流。"
-    },
-    {
-      "domain": "AI",
-      "id": "bvid:BV1zjd3BiEzo",
-      "title": "别再二选一：Claude Code + Codex 联用才是最强姿势",
-      "url": "http://www.bilibili.com/video/av116537746791000",
-      "source": "星小脉",
-      "stars": 3,
-      "one_liner": "实测Claude Code帮Codex抓出20个bug，强调tool agnostic思路，适合追求极致效率的开发者。"
-    },
-    {
-      "domain": "AI",
-      "id": "bvid:BV1vYFQzQE4P",
-      "title": "🚀OpenClaw高级使用经验之如何调用Claude Code最省Token！Claude Code Hooks回调+Agent Teams全自动开发零轮询",
-      "url": "http://www.bilibili.com/video/av116046157647899",
-      "source": "AI超元域",
-      "stars": 3,
-      "one_liner": "用Hooks回调解决OpenClaw轮询消耗Token的痛点，实现全自动开发，适合Agent重度玩家。"
-    },
-    {
-      "domain": "AI",
-      "id": "bvid:BV1Z5KU6UExC",
-      "title": "【吴恩达2026】Vibe Coding保姆级教程，手把手从环境搭建到工作流完整闭环！——DeepLearning.AI—附带课件代码",
-      "url": "http://www.bilibili.com/video/av116951003242391",
-      "source": "吴恩达AIAgent",
-      "stars": 3,
-      "one_liner": "吴恩达亲授标准化AI软件开发流水线，解决项目混乱、迭代失控等痛点，适合系统学习Vibe Coding。"
-    },
-    {
-      "domain": "AI",
-      "id": "bvid:BV1cq5q6CEu3",
-      "title": "从夯到拉，锐评 32 个 AI 编程工具！",
-      "url": "http://www.bilibili.com/video/av116578532200786",
-      "source": "程序员鱼皮",
-      "stars": 3,
-      "one_liner": "一口气实测32个AI编程工具，帮你快速找到最适合自己的，避免踩坑。"
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia's Risky Business (Stratechery)",
+      "url": "https://stratechery.com/2026/nvidias-risky-business/",
+      "source": "Hacker News",
+      "one_liner": "Stratechery 深度分析 Nvidia 的商业模式风险，值得一读，但偏宏观，非紧急。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/intel-raises-usd19-7-billion-to-help-fund-future-projects-as-14a-production-looms-share-sale-attracted-usd100-billion-in-demand-report-claims",
+      "title": "Sony-TSMC $4.7B Deal Helps Thwart Samsung, Analysts Say",
+      "url": "https://www.eetimes.com/sony-tsmc-4-7b-deal-helps-thwart-samsung-analysts-say/",
+      "source": "EE Times",
+      "one_liner": "索尼与台积电联手对抗三星，影响图像传感器市场，对半导体行业有参考价值。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "FCC proposes import ban on Chinese optical transceivers",
+      "url": "https://www.tomshardware.com/tech-industry/fcc-proposes-import-ban-on-chinese-optical-transceivers-blockade-targets-key-ai-interconnects-as-china-holds-56-percent-global-market-share",
+      "source": "Tom's Hardware",
+      "one_liner": "FCC 拟禁中国光模块，影响 AI 数据中心供应链，地缘政治风险需关注。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It?",
+      "url": "https://www.eetimes.com/meta-cuts-server-count-25-by-reusing-old-memory-can-anyone-else-do-it/",
+      "source": "EE Times",
+      "one_liner": "Meta 通过 CXL 复用旧内存减少服务器数量，对成本优化有启发，但技术门槛高。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
       "title": "Intel raises $19.7 billion to help fund future projects as 14A production looms",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-raises-usd19-7-billion-to-help-fund-future-projects-as-14a-production-looms-share-sale-attracted-usd100-billion-in-demand-report-claims",
       "source": "Tom's Hardware",
-      "stars": 4,
-      "one_liner": "Intel通过股票发行融资197亿美元，为14A工艺量产做准备，显示其代工业务扩张决心。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/hyperscalers-commit-nearly-usd2-trillion-to-secure-ai-hardware-and-memory-google-leads-usd811-billion-spending-surge-while-apple-trails-at-usd57-billion",
-      "title": "Hyperscalers commit nearly $2 trillion to secure AI hardware and memory",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/hyperscalers-commit-nearly-usd2-trillion-to-secure-ai-hardware-and-memory-google-leads-usd811-billion-spending-surge-while-apple-trails-at-usd57-billion",
-      "source": "Tom's Hardware",
-      "stars": 4,
-      "one_liner": "超大规模云厂商承诺近2万亿美元采购AI硬件和内存，谷歌领投8110亿美元，苹果仅570亿美元，行业格局剧变。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/u-s-lawmaker-wants-govt-to-enforce-regulation-to-ensure-chipmakers-conduct-adequate-due-diligence-on-their-customers-house-member-calls-for-biden-era-export-control-to-be-enforced",
-      "title": "US lawmaker wants gov't to enforce regulation to ensure 'chipmakers conduct adequate due diligence on their customers'",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/u-s-lawmaker-wants-govt-to-enforce-regulation-to-ensure-chipmakers-conduct-adequate-due-diligence-on-their-customers-house-member-calls-for-biden-era-export-control-to-be-enforced",
-      "source": "Tom's Hardware",
-      "stars": 3,
-      "one_liner": "美国议员要求执行对芯片制造商客户尽职调查的法规，可能影响对华芯片出口。"
+      "one_liner": "Intel 融资 197 亿美元，为 14A 工艺做准备，半导体竞争加剧。"
     },
     {
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
-      "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
-      "url": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
-      "source": "TechCrunch",
-      "stars": 4,
-      "one_liner": "xAI联合创始人Igor Babuschkin创立仅2个月的River AI获11亿美元融资，聚焦个人Agent，资本热度惊人。"
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "source": "Hacker News",
+      "one_liner": "Google 发布新 Gemini 模型，Flash 系列更新，值得关注性能提升。"
     },
     {
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
-      "title": "Brad Lightcap, OpenAI's longtime COO, is leaving to 'start something new'",
-      "url": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
-      "source": "TechCrunch",
-      "stars": 3,
-      "one_liner": "OpenAI前COO Brad Lightcap离职创业，高层持续变动，或影响公司战略稳定性。"
+      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source": "Hacker News",
+      "one_liner": "DeepMind 领导层变动，Hassabis 转任主席，可能影响 Google AI 战略。"
     },
     {
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
-      "title": "OpenAI launches ChatGPT desktop app for Linux",
-      "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+      "title": "Lovable confirms new $13.3B valuation, raises another $400M",
+      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
       "source": "TechCrunch",
-      "stars": 3,
-      "one_liner": "OpenAI正式发布Linux版ChatGPT桌面应用，利好Linux开发者，可更便捷地集成到工作流。"
+      "one_liner": "Lovable 估值 133 亿美元，AI 编程赛道持续火热，但泡沫风险需警惕。"
     },
     {
       "domain": "股票",
-      "id": "wscn:3779252",
-      "title": "预测市场独角兽Kalshi寻求400亿美元估值，世界杯豪赌推动营收翻倍",
-      "url": "https://wallstreetcn.com/articles/3779252",
+      "title": "Citadel十大理由看多8月美股",
+      "url": "https://wallstreetcn.com/articles/3779352",
       "source": "华尔街见闻",
-      "stars": 3,
-      "one_liner": "Kalshi年化营收突破40亿美元，估值目标400亿，世界杯押注是主要推手，但高支出和监管风险并存。"
+      "one_liner": "Citadel 看多 8 月美股，理由包括盈利强劲、回购创纪录，对市场情绪有参考。"
     },
     {
       "domain": "股票",
-      "id": "wscn:3779250",
-      "title": "马斯克：AI收入下月将超越SpaceX全部其他业务，五年后AI占SpaceX价值99%",
-      "url": "https://wallstreetcn.com/articles/3779250",
+      "title": "AI交易回暖，韩股重回技术牛市，三星电子、SK海力士双双涨逾4%",
+      "url": "https://wallstreetcn.com/articles/3779338",
       "source": "华尔街见闻",
-      "stars": 4,
-      "one_liner": "马斯克给出SpaceX AI业务明确时间表：9月AI收入超其他业务，明年底算力达10GW，年收入3000-5000亿美元。"
-    },
-    {
-      "domain": "股票",
-      "id": "wscn:3779241",
-      "title": "AI带来美国“就业末日”？美银：目前没有证据，但年轻人、信息业与金融业已现压力",
-      "url": "https://wallstreetcn.com/articles/3779241",
-      "source": "华尔街见闻",
-      "stars": 3,
-      "one_liner": "美银研究显示AI对就业影响呈结构性分化，年轻毕业生和入门岗位承压，但数据中心建设创造12.7万岗位。"
+      "one_liner": "韩股因 AI 交易回暖进入技术牛市，三星、海力士大涨，半导体板块反弹。"
     },
     {
       "domain": "金融",
-      "id": "hn:49245071",
-      "title": "Force-Fed by ICE",
-      "url": "https://www.theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli",
-      "source": "The Guardian",
-      "stars": 3,
-      "one_liner": "ICE强制喂食被拘留者的报道，涉及人权问题，与科技行业关联度低，但值得关注社会议题。"
+      "title": "Stripe and Advent have made a joint offer to acquire PayPal – sources",
+      "url": "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/",
+      "source": "Hacker News",
+      "one_liner": "Stripe 与 Advent 联合收购 PayPal，交易超 530 亿美元，金融科技格局生变。"
+    },
+    {
+      "domain": "金融",
+      "title": "The bond market isn’t buying what Fed Chair Warsh is selling",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/",
+      "source": "Hacker News",
+      "one_liner": "债市不信任美联储主席沃什，利率政策不确定性增加，影响全球资产。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-12T06:17:55+0000"
+    "scored_at": "2026-08-13T05:28:40+0000"
   }
 }
