@@ -1,27 +1,44 @@
 # Curio · 金融 · 2026-08-13
 
-> 今日 1 条头条 + 1 条备选
+> 今日 1 条头条 + 4 条备选
 
-_今日信号：AI 监管与合规进入深水区——Anthropic 为欧盟 AI 法案引入数字水印，引发效率与隐私之争；与此同时，AI 基础设施军备竞赛白热化，Nvidia 发布 Nemotron 3.5 Lightning 模型，CoreWeave 证明老旧 A100 仍能盈利，而 FCC 拟禁中国光模块，供应链博弈加剧。金融市场上，腾讯财报揭示 AI 投入对利润表的冲击，Citadel 看多 8 月美股。_
+_今日信号：AI 基础设施进入'硬件+政策'双重博弈期——Nvidia 涨价、FCC 拟禁中国光模块、Meta 用 CXL 省服务器，算力成本与供应链安全成为主线。同时，腾讯财报揭示 AI 投入对利润表的实质冲击，AI 编程赛道融资火热（Cognition 400 亿美元估值），提示 Agent 工具仍是资本与开发者双热的方向。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Stripe and Advent have made a joint offer to acquire PayPal – sources
+### 3. AI 交易回暖，韩股重回技术牛市，三星、SK 海力士双双涨逾 4%
 
-**[金融]** · ⭐⭐⭐ · _Hacker News_
+**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-Stripe 与 Advent 联合收购 PayPal，交易超 530 亿美元，金融科技格局生变。
+周四亚太时段，韩国综合股价指数一度涨逾 4.8%，较 7 月 30 日低点反弹约 22%，进入技术性牛市。三星电子和 SK 海力士双双涨逾 4%，AI 硬件需求回暖信号明确。
 
-📺 [打开原文](https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/)
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 韩国 KOSPI 指数较 7 月 30 日低点反弹约 22% | 韩股反弹能否持续，取决于 AI 需求是否真实回暖 |
+| 三星电子和 SK 海力士当日双双涨逾 4% | 半导体库存调整是否结束，尚待进一步数据确认 |
+| MSCI 亚太指数整体上涨约 1%，日经 225 上涨 1.2% | 美联储政策路径不明，可能影响全球风险偏好 |
+| 7 月 CPI 数据不及预期，打压加息预期 |  |
+
+**📖 主编点评**
+
+韩股技术性牛市是 AI 硬件需求回暖的领先指标。你关注半导体和 AI 基础设施，可以留意三星、SK 海力士的后续财报和订单数据，判断这波反弹的持续性。同时，这也提示你，AI 算力链的股票波动巨大，投资需谨慎。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3779338)
 
 ---
 
 ## 📋 备选阅读
 
-- [The bond market isn’t buying what Fed Chair Warsh is selling](https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/) —— 债市不信任美联储主席沃什，利率政策不确定性增加，影响全球资产。
-  _Hacker News_
+- [Citadel 十大理由看多 8 月美股，盈利增速创后衰退期最强](https://wallstreetcn.com/articles/3779352) —— 机构看多情绪浓，但需警惕市场波动。
+  _华尔街见闻_
+- [MSCI 纳入智谱等 33 只中国股票，月底生效](https://wallstreetcn.com/articles/3779337) —— 被动资金流入利好相关个股，但需注意短期波动。
+  _华尔街见闻_
+- [日本 PPI 高位，央行 9 月加息预期升温](https://wallstreetcn.com/articles/3779347) —— 日元贬值与通胀压力，或引发政策调整。
+  _华尔街见闻_
+- [Kalshi 寻求 400 亿美元估值融资，红杉领投](https://wallstreetcn.com/articles/3779348) —— 预测市场热度高，但监管风险不容忽视。
+  _华尔街见闻_
 
 ---
 
