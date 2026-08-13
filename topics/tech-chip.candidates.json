@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-12T04:53:35.757009+00:00",
+  "fetched_at": "2026-08-13T04:58:13.089782+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -12,11 +12,11 @@
     "EE Times": 10,
     "HN · TSMC": 1,
     "HN · Nvidia": 5,
-    "HN · semiconductor": 2,
+    "HN · semiconductor": 1,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 27,
+  "total": 26,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/revolutionizing-safety-unveiling-the-power-of-safety-bubble-detectors-in-robotics/",
+      "title": "Revolutionizing Safety: Unveiling the Power of Safety Bubble Detectors in Robotics",
+      "url": "https://www.eetimes.com/revolutionizing-safety-unveiling-the-power-of-safety-bubble-detectors-in-robotics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "\"Rajesh Mahapatra , Senior Manager, Anil Sripadarao , Principal Engineer, Prasanna Bhat , Engineer, Colm Prendergast , Senior Principal Engineer, Shane O’Meara, Senior Manager, Dara O’Sullivan, Director, Anders Frederiksen, Principal Specialist, and",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-12T19:34:18+00:00",
+      "summary": "This article will explain the architecture of real-time safety bubble detection that includes challenges for developing a modular solution, optimizing such a high data bandwidth application to run at 30 frames per second (FPS), and designing a multithread application and algorithm to accurately detect objects close to the ground. The post Revolutionizing Safety: Unveiling the Power of Safety Bubble Detectors in Robotics appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/meta-cuts-server-count-25-by-reusing-old-memory-can-anyone-else-do-it/",
+      "title": "Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It?",
+      "url": "https://www.eetimes.com/meta-cuts-server-count-25-by-reusing-old-memory-can-anyone-else-do-it/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-12T18:40:03+00:00",
+      "summary": "Meta squeezes 25% fewer servers from old DDR4 via CXL, but most firms face messy DIMM, power, and telemetry traps. The post Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/navigating-gmsl-how-pixel-and-tunnel-modes-enhance-system-performance/",
+      "title": "Navigating GMSL: How Pixel and Tunnel Modes Enhance System Performance",
+      "url": "https://www.eetimes.com/navigating-gmsl-how-pixel-and-tunnel-modes-enhance-system-performance/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Flavius Luntrașu , Senior Engineer",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-12T18:34:51+00:00",
+      "summary": "This article explores how GMSL™ technology transports high-speed CSI-2 video data and compares the advantages of pixel mode and tunnel mode in modern imaging systems. Learn how each approach impacts data integrity, stream aggregation, MIPI PHY translation, and system flexibility. With practical design insights and real-world use cases, the article helps engineers select the optimal [&#8230;] The post Navigating GMSL: How Pixel and Tunnel Modes Enhance System Performance appeared first on EE Time...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/building-supply-chain-resilience-selecting-reliable-capacitor-suppliers/",
+      "title": "Building Supply Chain Resilience: Selecting Reliable Capacitor Suppliers",
+      "url": "https://www.eetimes.com/building-supply-chain-resilience-selecting-reliable-capacitor-suppliers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Shanghai Yongming Electronic Co.,Ltd",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-12T13:00:00+00:00",
+      "summary": "Supply chain stability is becoming a key consideration for companies when selecting electronic components. Discover more! The post Building Supply Chain Resilience: Selecting Reliable Capacitor Suppliers appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/sony-tsmc-4-7b-deal-helps-thwart-samsung-analysts-say/",
+      "title": "Sony-TSMC $4.7B Deal Helps Thwart Samsung, Analysts Say",
+      "url": "https://www.eetimes.com/sony-tsmc-4-7b-deal-helps-thwart-samsung-analysts-say/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-12T10:06:27+00:00",
+      "summary": "Sony and TSMC have joined forces to counter Samsung's growing presence in smartphone image sensors, particularly for Apple. The post Sony-TSMC $4.7B Deal Helps Thwart Samsung, Analysts Say appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/agentic-ai-multi-physics-and-standards-will-redefine-chips-design/",
       "title": "Agentic AI, Multi‑Physics, and Standards Will Redefine Chips Design",
       "url": "https://www.eetimes.com/agentic-ai-multi-physics-and-standards-will-redefine-chips-design/",
@@ -274,91 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/u-s-startup-fields-quantum-sensors-to-reduce-reliance-on-gps/",
-      "title": "U.S. Startup Fields Quantum Sensors to Reduce Reliance on GPS",
-      "url": "https://www.eetimes.com/u-s-startup-fields-quantum-sensors-to-reduce-reliance-on-gps/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-10T13:14:50+00:00",
-      "summary": "GPS spoofing is a sitting duck; Dirac’s quantum sensors aim to navigate air, sea, and tunnels without satellites. The post U.S. Startup Fields Quantum Sensors to Reduce Reliance on GPS appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/leading-edge-ai-ic-designs-demand-comprehensive-hav-methodologies/",
-      "title": "Leading-edge AI IC designs demand comprehensive HAV methodologies",
-      "url": "https://www.eetimes.com/leading-edge-ai-ic-designs-demand-comprehensive-hav-methodologies/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Juergen Jaeger, Director of Prototyping Product Strategy, Siemens EDA",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-10T13:00:00+00:00",
-      "summary": "Learn how comprehensive hardware-assisted verification helps AI SoC teams accelerate RTL, software development and system validation. The post Leading-edge AI IC designs demand comprehensive HAV methodologies appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/can-ai-command-earth-to-orbit-operations/",
-      "title": "Can AI Command Earth-to-Orbit Operations?",
-      "url": "https://www.eetimes.com/can-ai-command-earth-to-orbit-operations/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Anne-Françoise Pelé",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-10T08:00:00+00:00",
-      "summary": "The aerospace and defense sector is facing a confluence of geopolitical instability, rapid technological advances, evolving security requirements, and complex global supply chains. The post Can AI Command Earth-to-Orbit Operations? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/after-seven-ceos-in-10-years-imagination-is-sticking-to-its-strategy/",
-      "title": "After Seven CEOs in 10 Years, Imagination Is Sticking to Its Strategy",
-      "url": "https://www.eetimes.com/after-seven-ceos-in-10-years-imagination-is-sticking-to-its-strategy/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-07T22:00:00+00:00",
-      "summary": "Imagination dumps CPU/NPU dreams, doubles down on GPUs and China under CEO No. 7. The post After Seven CEOs in 10 Years, Imagination Is Sticking to Its Strategy appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/rolecs-technoplus-ip-rated-pole-mount-plastic-enclosures-for-iot-iiot-and-factory-automation/",
-      "title": "ROLEC’s technoPLUS: IP-rated Pole-mount Plastic Enclosures for IoT/IIoT and Factory Automation",
-      "url": "https://www.eetimes.com/rolecs-technoplus-ip-rated-pole-mount-plastic-enclosures-for-iot-iiot-and-factory-automation/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "ROLEC",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-07T16:15:30+00:00",
-      "summary": "IoT/IIoT and factory automation are driving demand for ROLEC’s updated pole-mountable technoPLUS (IP 66, IP 67, IP 69K) plastic enclosures. Electronics designers specify them for ‘close-to-the-process’ devices that must survive dust, moisture and regular washdowns. Compact technoPLUS provides robust protection – allowing industrial electronics to be mounted directly on machine frames, production-line supports, conveyor structures [&#8230;] The post ROLEC’s technoPLUS: IP-rated Pole-mount Plastic...",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -389,9 +389,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=49255710"
       },
       "duration_sec": null,
-      "views": 316,
-      "comments": 151,
+      "views": 349,
+      "comments": 175,
       "published_at": "2026-08-11T10:02:00+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49263340",
+      "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49263340",
+        "name": "droidjj",
+        "hn_url": "https://news.ycombinator.com/item?id=49263340"
+      },
+      "duration_sec": null,
+      "views": 258,
+      "comments": 134,
+      "published_at": "2026-08-11T19:35:52+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -416,25 +435,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49263340",
-      "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
-      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49263340",
-        "name": "droidjj",
-        "hn_url": "https://news.ycombinator.com/item?id=49263340"
-      },
-      "duration_sec": null,
-      "views": 198,
-      "comments": 106,
-      "published_at": "2026-08-11T19:35:52+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:49257947",
       "title": "Nvidia Nemotron 3.5 Lightning",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
@@ -446,8 +446,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49257947"
       },
       "duration_sec": null,
-      "views": 119,
-      "comments": 29,
+      "views": 121,
+      "comments": 31,
       "published_at": "2026-08-11T13:26:02+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -470,25 +470,6 @@
       "published_at": "2026-07-31T13:24:03+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48894277",
-      "title": "Apple's rumored M7 Ultra targets 1.5TB and Blackwell-class AI performance",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/apples-rumored-m7-ultra-targets-1-5tb-of-memory-and-blackwell-class-ai",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48894277",
-        "name": "rbanffy",
-        "hn_url": "https://news.ycombinator.com/item?id=48894277"
-      },
-      "duration_sec": null,
-      "views": 26,
-      "comments": 31,
-      "published_at": "2026-07-13T15:32:19+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
       "lang": "en"
     }
   ]
