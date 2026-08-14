@@ -2,28 +2,28 @@
 
 > 今日 1 条头条 + 0 条备选
 
-_今日核心信号：AI 算力军备竞赛进入新阶段——Nvidia 发布 Nemotron 3.5 Lightning 与 NeMo Switchyard，同时 xAI 宣布数据中心容量 7 倍扩张；存储芯片市场因 CXMT 上市和闪迪指引而剧烈重估。OpenAI 年化收入 400 亿美元，冲刺 IPO。你的 Agent 项目可关注 DeepSeek Harness 开源带来的新工具链机会。_
+_今日核心信号：AI 算力军备竞赛进入新阶段——Nvidia 发布 Nemotron 3.5 Lightning 与 NeMo Switchyard，xAI 计划 2027 年将数据中心容量扩至 10GW，而 OpenAI 年化收入破 400 亿美元并推出 Ultrafast 模式。同时，DeepSeek Harness 开源引发自进化软件讨论，CXMT 上市 17 天市值超腾讯，存储芯片涨价潮持续。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. DeepSeek Harness 开源：Agent 自进化雏形，或重塑 AI 工程范式
+### 2. DeepSeek Harness 开源：Agent 自进化雏形，开发者实测称'牛逼'
 
-**[AI]** · ⭐⭐⭐⭐ · _Lau博士的云组会_
+**[AI]** · ⭐⭐⭐⭐⭐ · _Lau博士的云组会_
 
-DeepSeek 开源了其 Harness 工具，内测用户指出其具备“自进化”雏形，Agent 可自主编写并挂载插件。尽管当前动态插件重启即消失，但这一方向可能改变 AI 应用开发方式。
+DeepSeek 开源了其 Agent 运行时系统 Harness，内测用户指出其具备'自进化'雏形——Agent 可自主编写并挂载插件。B 站视频 13 万播放，华尔街见闻也发文讨论，称其为'自进化软件'的雏形。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DeepSeek Harness 已开源 | 自进化能力是否实用尚待验证 |
-| 支持 Agent 自主编写和挂载插件 | 插件生态能否繁荣取决于用户基数 |
-| 当前插件在重启后消失，仍属实验阶段 | 与 OpenAI 的 Harness 相比竞争力未知 |
-| 启动依赖 Node.js 工具链 | Node.js 依赖可能限制部分用户 |
+| DeepSeek Harness（DSH）已开源，提供 Agent 运行时环境 | 自进化能力是否真能稳定运行，还是仅限实验场景，尚不明确 |
+| 内测用户发现 Agent 可自主编写插件并挂载，但动态插件重启即消失 | 插件生态能否繁荣，取决于普通用户能否轻松上手 |
+| DSH 启动依赖 Node.js 工具链，用户体验有待改善 | DSH 与 Claude Code、OpenClaw 等现有工具相比，优势是否足够明显，需要实际对比 |
+| B 站视频播放量 13.8 万，华尔街见闻等媒体跟进报道 |  |
 
 **📖 主编点评**
 
-DeepSeek Harness 与你的 content-curator 项目高度相关，建议立即下载体验，尝试让 Agent 自动扩展功能。即使插件机制不完善，其设计思路也值得借鉴。关注后续更新，可能成为你简历上的亮点。
+你正在做 content-curator 项目，DeepSeek Harness 的开源值得你花时间研究。它的插件机制可能让你实现 Agent 的自我扩展，比如自动添加新的内容源或处理逻辑。建议你拉取源码，重点看它的插件挂载和自进化实现，这可能是你简历上的亮点。
 
 📺 [打开原文](http://www.bilibili.com/video/av117089415204498)
 
