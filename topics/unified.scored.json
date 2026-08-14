@@ -1,204 +1,204 @@
 {
-  "date": "2026-08-13",
-  "intro": "今日信号：AI 基础设施进入'硬件+政策'双重博弈期——Nvidia 涨价、FCC 拟禁中国光模块、Meta 用 CXL 省服务器，算力成本与供应链安全成为主线。同时，腾讯财报揭示 AI 投入对利润表的实质冲击，AI 编程赛道融资火热（Cognition 400 亿美元估值），提示 Agent 工具仍是资本与开发者双热的方向。",
+  "date": "2026-08-14",
+  "intro": "今日核心信号：AI 算力军备竞赛进入新阶段——Nvidia 发布 Nemotron 3.5 Lightning 与 NeMo Switchyard，同时 xAI 宣布数据中心容量 7 倍扩张；存储芯片市场因 CXMT 上市和闪迪指引而剧烈重估。OpenAI 年化收入 400 亿美元，冲刺 IPO。你的 Agent 项目可关注 DeepSeek Harness 开源带来的新工具链机会。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-doubles-rtx-pro-6000-blackwells-msrp-to-a-staggering-usd16-000-96gb-card-started-pre-orders-below-usd8-000-last-year",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-doubles-rtx-pro-6000-blackwells-msrp-to-a-staggering-usd16-000-96gb-card-started-pre-orders-below-usd8-000-last-year",
-      "source": "Tom's Hardware",
+      "id": "hn:49263340",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "source": "droidjj",
       "stars": 5,
-      "title": "Nvidia RTX PRO 6000 Blackwell 官方涨价至 16000 美元，一年翻倍",
-      "lead": "Nvidia 将 RTX PRO 6000 Blackwell 的 MSRP 从去年预购价不到 8000 美元直接翻倍到 16000 美元。这不仅是显卡涨价，更是 AI 算力供不应求的极端信号——数据中心 GPU 的定价权完全在卖方。",
+      "title": "Nvidia 发布 Nemotron 3.5 Lightning 与 NeMo Switchyard，推理效率再升级",
+      "lead": "Nvidia 官方博客今日发布 Nemotron 3.5 Lightning 模型及 NeMo Switchyard 推理框架，主打低延迟与高吞吐。这是 Nvidia 从训练向推理市场渗透的关键一步，直接对标 vLLM 等开源方案。",
       "confirmed": [
-        "RTX PRO 6000 Blackwell 96GB 版 MSRP 定为 16000 美元",
-        "去年预购价低于 8000 美元，一年内价格翻倍",
-        "涨价主因是 AI 数据中心需求爆发，供给紧张",
-        "Nvidia 在专业 GPU 市场拥有绝对定价权"
+        "Nemotron 3.5 Lightning 是 30B-A3B 的 MoE 模型，支持 NVFP4 量化",
+        "NeMo Switchyard 提供动态批处理和模型路由功能",
+        "官方宣称推理性能较上一代提升 2 倍",
+        "已开放 HuggingFace 权重下载"
       ],
       "judgment": [
-        "涨价是否会传导至消费级显卡，尚待观察",
-        "竞争对手 AMD、Intel 能否借机抢占份额，仍是未知",
-        "云厂商是否会因成本上升而放缓采购，存在不确定性"
+        "实际性能提升需第三方基准验证",
+        "NVFP4 量化对精度的影响尚不明确",
+        "能否撼动 vLLM 生态地位仍待观察",
+        "企业采用率未知"
       ],
-      "implication": "你如果做 AI 相关项目，无论是本地跑模型还是云上租 GPU，都要把算力成本上升考虑进去。建议关注二手市场和替代方案（如 AMD、Intel 或国产卡），同时优化你的推理代码，减少显存占用，别让硬件涨价吃掉你的预算。"
+      "implication": "你在做 Agent 项目时，可以关注 Nemotron 3.5 Lightning 的本地部署，其 30B 激活参数适合单卡运行。NeMo Switchyard 的模型路由概念值得借鉴，可用于你的 content-curator 中多模型调度。建议先跑通 HuggingFace 上的 demo，对比一下与 Qwen 等模型的输出质量。"
     },
     {
       "rank": 2,
       "domain": "大厂 AI 动态",
-      "id": "wscn:3779342",
-      "url": "https://wallstreetcn.com/articles/3779342",
-      "source": "华尔街见闻",
+      "id": "rss:https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "source": "Lucas Ropek",
       "stars": 5,
-      "title": "腾讯财报：AI 资本开支单季 528 亿，自由现金流转负，四大投行下调盈利预测",
-      "lead": "腾讯二季度基本盘稳，但 AI 投入开始实质冲击利润表：资本开支暴增至 528 亿元，自由现金流转负，瑞银将全年资本开支预期上调至 2500 亿元。高盛、瑞银等集体下调盈利预测，核心是混元、微信 Agent、WorkBuddy 的商业化速度能否追上成本。",
+      "title": "OpenAI 推出 Ultrafast 模式，GPT-5.6 Sol 提速 14 倍，年化收入破 400 亿美元",
+      "lead": "OpenAI 今日发布 Ultrafast 预览模式，让 GPT-5.6 Sol 推理速度提升 14 倍，主打企业级低延迟场景。同时，OpenAI 年化收入已达 400 亿美元，较去年底翻倍，IPO 进程加速。",
       "confirmed": [
-        "腾讯二季度资本开支单季 528 亿元，自由现金流转负",
-        "瑞银将全年资本开支预期从 1700 亿元上调至 2500 亿元",
-        "高盛、瑞银等四大投行集体下调盈利预测",
-        "WorkBuddy 跃升中国 AI 生产力服务互动量第一"
+        "Ultrafast 模式面向企业用户，提供 14 倍速度提升",
+        "OpenAI 年化收入超 400 亿美元，7 月环比增长超 20%",
+        "增长主要由 AI 编程工具、订阅和 Agent 企业需求驱动",
+        "部分模型已降价以应对 Anthropic 和开源竞争"
       ],
       "judgment": [
-        "混元 Hy4 年底发布，其商业化能力尚不明朗",
-        "微信 Agent 和 WorkBuddy 的变现路径仍在探索",
-        "AI 投入何时能产生正向回报，存在不确定性"
+        "Ultrafast 模式是否牺牲输出质量未知",
+        "400 亿美元收入中可持续性占比待考",
+        "IPO 估值可能受近期 AI 股回调影响",
+        "降价策略能否持续尚不明朗"
       ],
-      "implication": "腾讯的困境是所有大厂 AI 投入的缩影：不投就掉队，投了利润承压。你做 content-curator 这类 Agent 项目，应该关注的是如何用更低的成本实现功能，比如用开源模型或更高效的 API，避免重蹈大厂烧钱的覆辙。同时，WorkBuddy 的崛起说明垂直场景的 Agent 有市场，你的项目可以聚焦细分需求。"
+      "implication": "Ultrafast 模式对你的 Agent 项目是个利好：低延迟意味着可以构建更实时的交互体验。但要注意成本，建议先用 API 测试一下速度与质量的权衡。OpenAI 的降价趋势也值得关注，未来你的 content-curator 可以更便宜地调用顶级模型。"
     },
     {
       "rank": 3,
-      "domain": "金融",
-      "id": "wscn:3779338",
-      "url": "https://wallstreetcn.com/articles/3779338",
-      "source": "华尔街见闻",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-xai-will-increase-data-center-capacity-7x-by-2027-targeting-10-gigawatts-of-compute-up-to-usd500-billion-in-revenue-by-the-end-of-next-year",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-xai-will-increase-data-center-capacity-7x-by-2027-targeting-10-gigawatts-of-compute-up-to-usd500-billion-in-revenue-by-the-end-of-next-year",
+      "source": "Anton Shilov",
       "stars": 4,
-      "title": "AI 交易回暖，韩股重回技术牛市，三星、SK 海力士双双涨逾 4%",
-      "lead": "周四亚太时段，韩国综合股价指数一度涨逾 4.8%，较 7 月 30 日低点反弹约 22%，进入技术性牛市。三星电子和 SK 海力士双双涨逾 4%，AI 硬件需求回暖信号明确。",
+      "title": "xAI 数据中心容量 2027 年将扩 7 倍，目标 10GW 算力与 5000 亿美元营收",
+      "lead": "马斯克宣称 xAI 到 2027 年底将把数据中心容量提升至 10GW，较当前增长 7 倍，并设下 5000 亿美元营收目标。这标志着 AI 算力军备竞赛进一步白热化。",
       "confirmed": [
-        "韩国 KOSPI 指数较 7 月 30 日低点反弹约 22%",
-        "三星电子和 SK 海力士当日双双涨逾 4%",
-        "MSCI 亚太指数整体上涨约 1%，日经 225 上涨 1.2%",
-        "7 月 CPI 数据不及预期，打压加息预期"
+        "xAI 计划 2027 年底达到 10GW 算力",
+        "营收目标为 2027 年底 5000 亿美元",
+        "Colossus 2 已建成全球首个吉瓦级数据中心",
+        "xAI 采用独特 RL 方法论训练模型"
       ],
       "judgment": [
-        "韩股反弹能否持续，取决于 AI 需求是否真实回暖",
-        "半导体库存调整是否结束，尚待进一步数据确认",
-        "美联储政策路径不明，可能影响全球风险偏好"
+        "10GW 目标能否实现受电力供应和审批制约",
+        "5000 亿美元营收目标过于激进，可能无法达成",
+        "xAI 的算力扩张是否会导致行业过剩",
+        "电力成本上升可能压缩利润率"
       ],
-      "implication": "韩股技术性牛市是 AI 硬件需求回暖的领先指标。你关注半导体和 AI 基础设施，可以留意三星、SK 海力士的后续财报和订单数据，判断这波反弹的持续性。同时，这也提示你，AI 算力链的股票波动巨大，投资需谨慎。"
+      "implication": "算力扩张意味着未来模型能力会大幅提升，你的 Agent 项目可以提前布局，比如设计更复杂的多智能体协作。但也要警惕算力泡沫，建议关注 xAI 的实际落地进展，不要盲目跟风。"
     },
     {
       "rank": 4,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.eetimes.com/meta-cuts-server-count-25-by-reusing-old-memory-can-anyone-else-do-it/",
-      "url": "https://www.eetimes.com/meta-cuts-server-count-25-by-reusing-old-memory-can-anyone-else-do-it/",
-      "source": "EE Times",
+      "domain": "股票",
+      "id": "wscn:3779417",
+      "url": "https://wallstreetcn.com/articles/3779417",
+      "source": "华尔街见闻 API",
       "stars": 4,
-      "title": "Meta 用 CXL 复用旧内存，服务器数量减少 25%",
-      "lead": "Meta 通过 CXL 技术复用旧 DDR4 内存，将服务器数量削减 25%。但 EE Times 指出，大多数公司面临 DIMM 混乱、功耗和遥测陷阱，难以复制这一成功。",
+      "title": "AI 算力租赁价格创新高，CoreWeave 提价 25%，Nebius 拍卖溢价 15%",
+      "lead": "AI 算力供不应求，租赁价格持续攀升。Nebius 首次 Blackwell 芯片拍卖成交价较历史最高价高出 15%，CoreWeave 7 月宣布整体提价 25%，短期合同溢价显著。",
       "confirmed": [
-        "Meta 通过 CXL 复用旧 DDR4 内存，服务器数量减少 25%",
-        "CXL 技术允许旧内存池化，提升利用率",
-        "大多数公司面临 DIMM 兼容性、功耗和遥测问题"
+        "Nebius 每兆瓦年化合同价值突破 4000 万美元",
+        "CoreWeave 二季度营收 25.8 亿美元，同比增长 112%",
+        "Nebius 上调 2026 年末签约电力目标至 5GW",
+        "算力租赁市场短期合同溢价明显"
       ],
       "judgment": [
-        "CXL 复用方案能否在行业推广，尚不确定",
-        "Meta 的成功是否依赖其特定基础设施，有待验证",
-        "CXL 生态成熟度可能限制其他公司采用"
+        "高价格是否可持续取决于 AI 需求是否继续增长",
+        "短期合同溢价可能吸引更多竞争者进入",
+        "电力成本上升可能侵蚀利润率",
+        "客户是否愿意长期接受高价未知"
       ],
-      "implication": "Meta 的做法给你一个启发：优化现有资源比买新硬件更划算。你在做个人项目时，也可以考虑如何复用旧设备或云上闲置资源，降低成本。关注 CXL 技术的发展，未来可能在 AI 基础设施中扮演重要角色。"
+      "implication": "算力租赁价格上涨对你个人项目影响不大，但如果你未来需要部署模型，成本会更高。建议关注 CoreWeave 等公司的财报，了解算力市场的供需动态，以便在合适时机锁定价格。"
     },
     {
       "rank": 5,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
-      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
-      "source": "TechCrunch",
+      "domain": "AI",
+      "id": "bvid:BV1wugF6YEL3",
+      "url": "http://www.bilibili.com/video/av117089415204498",
+      "source": "Lau博士的云组会",
       "stars": 4,
-      "title": "AI 编程创企 Cognition 洽谈 400 亿美元估值融资，数月内估值翻倍",
-      "lead": "Cognition（Devin 开发商）在完成 10 亿美元融资、估值 260 亿美元后仅数月，又洽谈以 400 亿美元估值融资。AI 编程赛道资本热度不减，但高估值也引发泡沫担忧。",
+      "title": "DeepSeek Harness 开源：Agent 自进化雏形，或重塑 AI 工程范式",
+      "lead": "DeepSeek 开源了其 Harness 工具，内测用户指出其具备“自进化”雏形，Agent 可自主编写并挂载插件。尽管当前动态插件重启即消失，但这一方向可能改变 AI 应用开发方式。",
       "confirmed": [
-        "Cognition 正在洽谈 400 亿美元估值的新一轮融资",
-        "此前数月刚完成 10 亿美元融资，估值 260 亿美元",
-        "AI 编程工具需求旺盛，Devin 等产品受市场追捧"
+        "DeepSeek Harness 已开源",
+        "支持 Agent 自主编写和挂载插件",
+        "当前插件在重启后消失，仍属实验阶段",
+        "启动依赖 Node.js 工具链"
       ],
       "judgment": [
-        "高估值是否合理，取决于 AI 编程工具的长期价值",
-        "竞争加剧（如 Claude Code、Cursor）可能影响 Cognition 的市场地位",
-        "资本热潮可能催生泡沫，需警惕回调风险"
+        "自进化能力是否实用尚待验证",
+        "插件生态能否繁荣取决于用户基数",
+        "与 OpenAI 的 Harness 相比竞争力未知",
+        "Node.js 依赖可能限制部分用户"
       ],
-      "implication": "AI 编程赛道融资火热，说明市场对 Agent 工具的信心。你正在做 content-curator 项目，可以借鉴 Devin 的思路，但也要注意差异化。资本追捧意味着竞争激烈，你需要找到自己的独特价值，比如更垂直的场景或更优的成本结构。"
+      "implication": "DeepSeek Harness 与你的 content-curator 项目高度相关，建议立即下载体验，尝试让 Agent 自动扩展功能。即使插件机制不完善，其设计思路也值得借鉴。关注后续更新，可能成为你简历上的亮点。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI 算力 / 半导体",
-      "title": "FCC 提议禁止进口中国光模块，中国占全球市场 56%",
-      "url": "https://www.tomshardware.com/tech-industry/fcc-proposes-import-ban-on-chinese-optical-transceivers-blockade-targets-key-ai-interconnects-as-china-holds-56-percent-global-market-share",
-      "source": "Tom's Hardware",
-      "one_liner": "供应链安全升级，AI 互联成本或上升，但短期影响有限。"
+      "title": "CXMT 超越腾讯成中国市值最高公司，IPO 17 天市值 5240 亿美元",
+      "url": "https://www.tomshardware.com/tech-industry/cxmt-overtakes-tencent-to-become-chinas-most-valuable-company-17-days-after-its-ipo",
+      "source": "Luke James",
+      "one_liner": "存储芯片国产替代的里程碑，但估值泡沫风险高，适合关注而非追高。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Samsung Foundry 推迟 1.4nm 至 2029，High-NA EUV 用于 1nm 级",
-      "url": "https://www.tomshardware.com/tech-industry/samsung-foundry-updates-process-roadmap-to-move-1-4nm-node-to-2029-high-na-euv-will-enable-1nm-class-and-smaller-nodes-in-2030-and-beyond",
-      "source": "Tom's Hardware",
-      "one_liner": "先进制程竞赛放缓，但 High-NA EUV 仍是长期看点。"
+      "title": "Nvidia RTX PRO 6000 Blackwell 价格翻倍至 16000 美元",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-doubles-rtx-pro-6000-blackwells-msrp-to-a-staggering-usd16-000-96gb-card-started-pre-orders-below-usd8-000-last-year",
+      "source": "Hassam Nasir",
+      "one_liner": "AI 硬件成本飙升，个人开发者需关注性价比替代方案。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "YMTC 首次进入 NAND 前三，AI 服务器消耗 48% 闪存",
-      "url": "https://www.tomshardware.com/tech-industry/ymtc-breaks-into-the-top-three-nand-makers-for-the-first-time",
-      "source": "Tom's Hardware",
-      "one_liner": "国产存储崛起，AI 驱动闪存需求结构变化。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Intel 融资 197 亿美元，14A 量产在即",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-raises-usd19-7-billion-to-help-fund-future-projects-as-14a-production-looms-share-sale-attracted-usd100-billion-in-demand-report-claims",
-      "source": "Tom's Hardware",
-      "one_liner": "Intel 补血备战，但代工竞争力仍是未知数。"
+      "title": "Meta 通过复用旧内存削减 25% 服务器数量",
+      "url": "https://www.eetimes.com/meta-cuts-server-count-25-by-reusing-old-memory-can-anyone-else-do-it/",
+      "source": "Yashasvini Razdan",
+      "one_liner": "CXL 技术降低 AI 基础设施成本，值得关注其可复制性。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Anthropic 为遵守欧盟 AI 法案，将给文本和图像加水印",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-will-begin-digitally-watermarking-marking-ai-generated-text-and-images-anthropic-details-how-itll-comply-with-the-eus-artificial-intelligence-act",
-      "source": "Tom's Hardware",
-      "one_liner": "AI 内容可追溯性成趋势，但可能引发用户反感。"
+      "title": "Anthropic 多 Agent 实验引发“地盘争夺战”，安全测试面临新挑战",
+      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+      "source": "Rebecca Bellan",
+      "one_liner": "多 Agent 协作的潜在风险，对你的 Agent 项目有警示意义。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Google DeepMind 人事变动：Hassabis 转任主席，Jeff Dean 离职",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "source": "Google Blog",
-      "one_liner": "DeepMind 领导层更迭，或影响 AI 研究方向。"
+      "title": "IBM 与 OpenAI 合作，培训数万名顾问",
+      "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+      "source": "Jagmeet Singh",
+      "one_liner": "企业 AI 落地加速，OpenAI 生态进一步扩展。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Lovable 确认 133 亿美元估值，再融资 4 亿美元",
-      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
-      "source": "TechCrunch",
-      "one_liner": "AI 编程工具融资热，但盈利模式仍待验证。"
+      "title": "Microsoft 合并 Copilot 应用，砍掉 AI 播客等功能",
+      "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+      "source": "Sarah Perez",
+      "one_liner": "大厂 AI 产品策略调整，关注 Copilot 新方向。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "Twitch 主播默认允许亚马逊用内容训练 AI，可主动退出",
-      "url": "https://techcrunch.com/2026/08/12/amazon-will-train-on-twitch-streamers-content-by-default-unless-they-opt-out/",
-      "source": "TechCrunch",
-      "one_liner": "默认同意机制引发争议，数据伦理问题凸显。"
+      "domain": "股票",
+      "title": "闪迪投资者日：毛利率 80% 指引远超预期，股价大涨",
+      "url": "https://wallstreetcn.com/articles/3779419",
+      "source": "华尔街见闻 API",
+      "one_liner": "存储行业高景气信号，但需警惕周期性。"
     },
     {
-      "domain": "金融",
-      "title": "Citadel 十大理由看多 8 月美股，盈利增速创后衰退期最强",
-      "url": "https://wallstreetcn.com/articles/3779352",
-      "source": "华尔街见闻",
-      "one_liner": "机构看多情绪浓，但需警惕市场波动。"
+      "domain": "股票",
+      "title": "美债 30 年期得标利率创 2001 年新高，长端融资成本飙升",
+      "url": "https://wallstreetcn.com/articles/3779403",
+      "source": "华尔街见闻 API",
+      "one_liner": "宏观利率风险上升，影响科技股估值。"
     },
     {
-      "domain": "金融",
-      "title": "MSCI 纳入智谱等 33 只中国股票，月底生效",
-      "url": "https://wallstreetcn.com/articles/3779337",
-      "source": "华尔街见闻",
-      "one_liner": "被动资金流入利好相关个股，但需注意短期波动。"
-    },
-    {
-      "domain": "金融",
-      "title": "日本 PPI 高位，央行 9 月加息预期升温",
-      "url": "https://wallstreetcn.com/articles/3779347",
-      "source": "华尔街见闻",
-      "one_liner": "日元贬值与通胀压力，或引发政策调整。"
+      "domain": "股票",
+      "title": "OpenAI 年化收入 400 亿美元，冲刺 IPO",
+      "url": "https://wallstreetcn.com/articles/3779413",
+      "source": "华尔街见闻 API",
+      "one_liner": "AI 商业化标杆，但估值和可持续性存疑。"
     },
     {
       "domain": "金融",
-      "title": "Kalshi 寻求 400 亿美元估值融资，红杉领投",
-      "url": "https://wallstreetcn.com/articles/3779348",
-      "source": "华尔街见闻",
-      "one_liner": "预测市场热度高，但监管风险不容忽视。"
+      "title": "日本前财务官警告日元干预可能重演，9 月加息概率升至 76%",
+      "url": "https://wallstreetcn.com/articles/3779429",
+      "source": "华尔街见闻 API",
+      "one_liner": "全球流动性风险点，可能引发套利交易平仓。"
+    },
+    {
+      "domain": "金融",
+      "title": "央行开展万亿级买断式逆回购，首度启用隔夜逆回购",
+      "url": "https://wallstreetcn.com/articles/3779424",
+      "source": "华尔街见闻 API",
+      "one_liner": "国内流动性宽松信号，利好成长股。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-13T06:19:56+0000"
+    "scored_at": "2026-08-14T05:26:06+0000"
   }
 }
