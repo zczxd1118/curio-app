@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-08-14T04:53:44.500143+00:00",
+  "fetched_at": "2026-08-15T03:45:30.701391+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,9 +13,9 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 1,
-    "HN · Nvidia": 6,
+    "HN · Nvidia": 8,
     "HN · semiconductor": 1,
-    "HN · ASML / EUV": 1,
+    "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
     "HN · 数据中心 / 算力": 0
   },
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 58,
+  "total": 59,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/an-introduction-to-software-prototyping-unlocking-soc-software-verification-with-profpga-cs/",
+      "title": "An Introduction to Software Prototyping: Unlocking SoC Software Verification with proFPGA CS",
+      "url": "https://www.eetimes.com/an-introduction-to-software-prototyping-unlocking-soc-software-verification-with-profpga-cs/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Siemens",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T15:22:50+00:00",
+      "summary": "Discover how the Veloce™ proFPGA CS platform delivers a flexible, modular architecture that scales across the full spectrum of SoC software verification needs. The post An Introduction to Software Prototyping: Unlocking SoC Software Verification with proFPGA CS appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/intel-at-a-memory-crossroads-again/",
+      "title": "Intel at a Memory Crossroads, Again",
+      "url": "https://www.eetimes.com/intel-at-a-memory-crossroads-again/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T13:01:36+00:00",
+      "summary": "The CPU specialist heeds a memory comeback while memory chips transform from commodity to AI gold rush. The post Intel at a Memory Crossroads, Again appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/semiconductor-equipment-shifts-to-build-to-print-manufacturing/",
+      "title": "Semiconductor Equipment Shifts To Build-to-Print Manufacturing",
+      "url": "https://www.eetimes.com/semiconductor-equipment-shifts-to-build-to-print-manufacturing/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Emily Newton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T10:56:17+00:00",
+      "summary": "Semiconductor equipment OEMs look to build-to-print for greater capacity. The post Semiconductor Equipment Shifts To Build-to-Print Manufacturing appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/smartphone-makers-squeezed-by-soaring-chip-costs/",
       "title": "Smartphone Makers Squeezed by Soaring Chip Costs",
       "url": "https://www.eetimes.com/smartphone-makers-squeezed-by-soaring-chip-costs/",
@@ -316,54 +367,275 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/meta-cuts-server-count-25-by-reusing-old-memory-can-anyone-else-do-it/",
-      "title": "Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It?",
-      "url": "https://www.eetimes.com/meta-cuts-server-count-25-by-reusing-old-memory-can-anyone-else-do-it/",
+      "id": "rss:https://www.tomshardware.com/pc-components/ram/g-skill-trident-z5-neox-rgb-ddr5-6000-c30-2x16gb-review",
+      "title": "G.Skill Trident Z5 NeoX RGB DDR5-6000 C30 2x16GB Review — EXPO ULL memory kit to max out your Ryzen",
+      "url": "https://www.tomshardware.com/pc-components/ram/g-skill-trident-z5-neox-rgb-ddr5-6000-c30-2x16gb-review",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zhiye Liu",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-12T18:40:03+00:00",
-      "summary": "Meta squeezes 25% fewer servers from old DDR4 via CXL, but most firms face messy DIMM, power, and telemetry traps. The post Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It? appeared first on EE Times.",
+      "published_at": "2026-08-14T15:30:00+00:00",
+      "summary": "G.Skill's Trident Z5 NeoX is the brand's latest series with the AMD EXPO ULL feature, but can the DDR5-6000 C30 prove to be the fastest memory kit for AMD?",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/navigating-gmsl-how-pixel-and-tunnel-modes-enhance-system-performance/",
-      "title": "Navigating GMSL: How Pixel and Tunnel Modes Enhance System Performance",
-      "url": "https://www.eetimes.com/navigating-gmsl-how-pixel-and-tunnel-modes-enhance-system-performance/",
+      "id": "rss:https://www.tomshardware.com/pc-components/air-cooling/scythe-magoroku-review",
+      "title": "Scythe Magoroku Review: excellent RAM thermals, but needs improvement elsewhere",
+      "url": "https://www.tomshardware.com/pc-components/air-cooling/scythe-magoroku-review",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Flavius Luntrașu , Senior Engineer",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Albert Thomas",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-12T18:34:51+00:00",
-      "summary": "This article explores how GMSL™ technology transports high-speed CSI-2 video data and compares the advantages of pixel mode and tunnel mode in modern imaging systems. Learn how each approach impacts data integrity, stream aggregation, MIPI PHY translation, and system flexibility. With practical design insights and real-world use cases, the article helps engineers select the optimal [&#8230;] The post Navigating GMSL: How Pixel and Tunnel Modes Enhance System Performance appeared first on EE Time...",
+      "published_at": "2026-08-14T14:42:29+00:00",
+      "summary": "Scythe is back with another dual-tower air cooler, the Magoroku. This cooler performs best with an Intel Arrow Lake system.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/building-supply-chain-resilience-selecting-reliable-capacitor-suppliers/",
-      "title": "Building Supply Chain Resilience: Selecting Reliable Capacitor Suppliers",
-      "url": "https://www.eetimes.com/building-supply-chain-resilience-selecting-reliable-capacitor-suppliers/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/cargo-thieves-rammed-security-escorts-to-hijack-ai-hardware-shipments-in-california",
+      "title": "Cargo thieves ram security escorts to hijack AI hardware shipments in California — brazen thieves employ PIT maneuver, rear-ending tactics to secure goods for the black market",
+      "url": "https://www.tomshardware.com/tech-industry/cargo-thieves-rammed-security-escorts-to-hijack-ai-hardware-shipments-in-california",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Shanghai Yongming Electronic Co.,Ltd",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-12T13:00:00+00:00",
-      "summary": "Supply chain stability is becoming a key consideration for companies when selecting electronic components. Discover more! The post Building Supply Chain Resilience: Selecting Reliable Capacitor Suppliers appeared first on EE Times.",
+      "published_at": "2026-08-14T14:13:41+00:00",
+      "summary": "Cargo thieves knocked two private security escort vehicles out of action on California roads in recent months, then made off with millions of dollars in AI data center hardware.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/samsung-odyssey-g80hs-6k-gaming-monitor-review",
+      "title": "Samsung Odyssey G80HS 6K gaming monitor review: Upping the stakes in pixel density",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/samsung-odyssey-g80hs-6k-gaming-monitor-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Christian Eberle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T13:10:42+00:00",
+      "summary": "The Samsung Odyssey G80HS is a 32-inch IPS panel with 6K 6144x3456 resolution at 165 Hz plus 3072x1728 pixels at 330 Hz. It packs HDR wide-gamut color, Adaptive-Sync, and plenty of features into its slim chassis.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/plaintiff-busted-trying-to-use-ai-prompt-injection-to-win-court-case-hides-text-instruction-in-filing-demands-ai-model-reviewing-the-text-should-side-with-him-rumbled-because-of-strange-white-spaces-in-text",
+      "title": "Plaintiff busted trying to use AI prompt injection to win court case, hides text instruction in filing — demands AI model reviewing the text should side with him, rumbled because of strange white spaces in text",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/plaintiff-busted-trying-to-use-ai-prompt-injection-to-win-court-case-hides-text-instruction-in-filing-demands-ai-model-reviewing-the-text-should-side-with-him-rumbled-because-of-strange-white-spaces-in-text",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T12:23:35+00:00",
+      "summary": "A self-represented plaintiff in a Connecticut court added a hidden AI prompt injection attack in their filing in a failed attempt to influence a decision. The court bars them from submitting documents electronically and instead must print them and hand to the clerk of court.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/us-imposes-up-to-100-percent-tariffs-on-foreign-made-drones-and-components-china-remains-primary-target-as-washington-moves-to-reduce-reliance-on-overseas-suppliers",
+      "title": "US imposes up to 100% tariffs on foreign-made drones and components — China remains primary target as Washington moves to reduce reliance on overseas suppliers",
+      "url": "https://www.tomshardware.com/tech-industry/drones/us-imposes-up-to-100-percent-tariffs-on-foreign-made-drones-and-components-china-remains-primary-target-as-washington-moves-to-reduce-reliance-on-overseas-suppliers",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T11:53:06+00:00",
+      "summary": "The Trump administration says the new tariffs are necessary for national security and to address the US industry's heavy reliance on foreign-made drones and components, particularly from China.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/raptor-lake-is-a-core-part-of-the-portfolio-for-years-to-come-says-intel-theres-been-a-sudden-inrush-of-demand-for-lga-1700-chips-due-to-ddr5-prices",
+      "title": "Older Raptor Lake CPUs are a ‘core part of the portfolio’ for years to come, says Intel — there’s been a ‘sudden inrush of demand’ for LGA 1700 chips due to DDR5 prices",
+      "url": "https://www.tomshardware.com/pc-components/cpus/raptor-lake-is-a-core-part-of-the-portfolio-for-years-to-come-says-intel-theres-been-a-sudden-inrush-of-demand-for-lga-1700-chips-due-to-ddr5-prices",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T11:39:52+00:00",
+      "summary": "Intel has seen a “sudden inrush” of demand for Raptor Lake CPUs, and it says they’ll remain a part of the company’s lineup for desktop builders “for years to come.”",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-vp-robert-hallock-sets-nova-lake-expectations-teases-return-to-raptor-lake-for-ddr4-platforms-our-full-1-1-interview-transcript",
+      "title": "Intel VP Robert Hallock sets Nova Lake expectations, teases return to Raptor Lake for DDR4 platforms — our full 1:1 interview transcript",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-vp-robert-hallock-sets-nova-lake-expectations-teases-return-to-raptor-lake-for-ddr4-platforms-our-full-1-1-interview-transcript",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T11:00:00+00:00",
+      "summary": "We speak to Robert Hallock, Intel VP & GM of Enthusiast Channel Business, about Nova Lake rumors, how the company is focusing on DIY builders during RAMageddon, and how Raptor Lake refresh induced a paradigm shift for the company.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/hdds/usd29-per-terabyte-makes-this-24tb-seagate-barracuda-one-of-the-best-value-hard-drives-in-todays-market-usd50-off-at-newegg-makes-it-usd200-cheaper-than-the-20tb-version",
+      "title": "$29 per Terabyte makes this 24TB Seagate BarraCuda one of the best-value hard drives in today's market — $50 off at Newegg makes it $200 cheaper than the 20TB version",
+      "url": "https://www.tomshardware.com/pc-components/hdds/usd29-per-terabyte-makes-this-24tb-seagate-barracuda-one-of-the-best-value-hard-drives-in-todays-market-usd50-off-at-newegg-makes-it-usd200-cheaper-than-the-20tb-version",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T10:56:15+00:00",
+      "summary": "Save $50 on a 24TB Seagate Barracuda Compute HDD at Newegg with the limited-time discount code.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/start-your-pc-gaming-journey-with-this-usd1-100-1080p-gaming-rig-now-usd300-off-rtx-5060-rig-from-newegg-ships-with-a-10-core-intel-cpu-32gb-of-ram-and-a-1tb-ssd",
+      "title": "Start your PC gaming journey with this $1,100 1080p gaming rig, now $300 off — RTX 5060 rig from Newegg ships with a 10-core Intel CPU, 32GB of RAM, and a 1TB SSD",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/start-your-pc-gaming-journey-with-this-usd1-100-1080p-gaming-rig-now-usd300-off-rtx-5060-rig-from-newegg-ships-with-a-10-core-intel-cpu-32gb-of-ram-and-a-1tb-ssd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T10:43:57+00:00",
+      "summary": "This pre-built ABS Cyclone Aqua comes with a ten-core Intel Core i5-14400F CPU, an Nvidia GeForce RTX 5060 GPU, a 1TB SSD, and 32GB of RAM, all for $1,099.99.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-jetson-chip-found-in-russian-cruise-missile-ukraine-claims-presence-in-s-71-monochrome-weapon-may-indicate-use-of-ai-tech",
+      "title": "Nvidia Jetson chip found in Russian cruise missile, Ukraine claims — presence in S-71 'Monochrome' weapon may indicate use of AI tech",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-jetson-chip-found-in-russian-cruise-missile-ukraine-claims-presence-in-s-71-monochrome-weapon-may-indicate-use-of-ai-tech",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T10:30:00+00:00",
+      "summary": "Ukraine intelligence claims that Russia's latest S-71 'Monochrome' cruise missiles use Nvidia's Jetson Orin NX modules with AI capabilities, allegedly for terminal guidance.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cooling/modder-straps-two-desktop-cpu-coolers-to-zte-nubia-z70-ultra-turns-smartphone-into-a-gaming-pc-snapdragon-8-elite-soc-with-24gb-of-ram-runs-the-witcher-3-at-1080p-ultra",
+      "title": "Modder straps two desktop CPU coolers to ZTE handset, turns smartphone into a gaming PC — Snapdragon 8 Elite SoC with 24GB of RAM runs The Witcher 3 at 1080p ultra",
+      "url": "https://www.tomshardware.com/pc-components/cooling/modder-straps-two-desktop-cpu-coolers-to-zte-nubia-z70-ultra-turns-smartphone-into-a-gaming-pc-snapdragon-8-elite-soc-with-24gb-of-ram-runs-the-witcher-3-at-1080p-ultra",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T10:00:00+00:00",
+      "summary": "The heavily modified ZTE Nubia Z70 Ultra uses two full-size CPU coolers to keep its Snapdragon 8 Elite running under sustained loads, while Termux, Linux and compatibility layers turn it into a makeshift desktop PC.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-borrows-usd4-75-billion-for-general-corporate-purposes-company-gives-no-insight-into-how-it-plans-to-spend-cash-injection",
+      "title": "AMD borrows $4.75 billion for 'general corporate purposes' — company gives no insight into how it plans to spend cash injection",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-borrows-usd4-75-billion-for-general-corporate-purposes-company-gives-no-insight-into-how-it-plans-to-spend-cash-injection",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T09:48:59+00:00",
+      "summary": "In a surprising move, AMD announces plans to raise $4.75 billion and does not give a clue how it plans to spend them.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/motherboards/gigabyte-resurrects-8-year-old-b450-chipset-with-new-motherboards-am4-budget-king-returns-as-another-ddr4-solution-to-exorbitant-ram-prices",
+      "title": "Gigabyte resurrects 8-year-old B450 chipset with new motherboards — AM4 budget king returns as another DDR4 solution to exorbitant RAM prices",
+      "url": "https://www.tomshardware.com/pc-components/motherboards/gigabyte-resurrects-8-year-old-b450-chipset-with-new-motherboards-am4-budget-king-returns-as-another-ddr4-solution-to-exorbitant-ram-prices",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zhiye Liu",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T09:43:55+00:00",
+      "summary": "Gigabyte has quietly launched the B450M D3HP and B450M D3HP WIFI6E motherboards based on the AMD B450 chipset, which launched in 2018.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/just-one-instruction-on-amds-2015-era-cpus-gets-you-access-to-platform-security-processor-microcode-and-system-management-interface-exploit-for-15h-and-16h-chip-families-cracks-open-secret-memory-areas",
+      "title": "Just one instruction on AMD's 2015-era CPUs cracks open secret memory areas and gives full hardware-level control — exploit for 15h and 16h chip families gets you access to Platform Security Processor, microcode, and System Management Interface",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/just-one-instruction-on-amds-2015-era-cpus-gets-you-access-to-platform-security-processor-microcode-and-system-management-interface-exploit-for-15h-and-16h-chip-families-cracks-open-secret-memory-areas",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T09:33:09+00:00",
+      "summary": "Just one instruction on AMD CPUs gets you access to Platform Security Processor, microcode, and System Management Interface — exploit for 15h and 16h chip families cracks open secret memory areas",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/functioning-version-of-the-first-arcade-video-game-ever-created-heads-to-auction-with-usd200-000-estimate-green-sparkle-2-player-edition-of-computer-space-hails-from-1973",
+      "title": "Functioning version of 'the first arcade video game ever created' heads to auction with $200,000 estimate — green sparkle 2-player edition of Computer Space hails from 1973",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/functioning-version-of-the-first-arcade-video-game-ever-created-heads-to-auction-with-usd200-000-estimate-green-sparkle-2-player-edition-of-computer-space-hails-from-1973",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T09:00:00+00:00",
+      "summary": "A games industry veteran is selling off what is 'probably the rarest arcade game in existence' via Boston’s RR Auctions.",
       "lang": "en"
     },
     {
@@ -605,278 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/analysts-see-increasing-foundry-success-conviction-as-intel-ceo-puts-usd12-million-more-of-his-own-money-in-company-analysts-point-to-accelerating-foundry-progress-and-capex-expansion",
-      "title": "Analysts see 'increasing foundry success conviction' as Intel CEO puts $12 million more of his own money in company — analysts point to accelerating foundry progress and capex expansion",
-      "url": "https://www.tomshardware.com/pc-components/cpus/analysts-see-increasing-foundry-success-conviction-as-intel-ceo-puts-usd12-million-more-of-his-own-money-in-company-analysts-point-to-accelerating-foundry-progress-and-capex-expansion",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T11:00:00+00:00",
-      "summary": "Intel's Lip-Bu Ran reportedly buys $12 million worth of Intel stock as analysts believe that the management is increasingly convinced about landing external customers.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
-      "title": "PBS broadcaster loses access to 50TB of data comprising 70 years of TV history after contracted cloud storage vendor goes defunct — public TV channel sues Iron Mountain data center, which hosts archival materials, to ensure preservation",
-      "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T10:40:00+00:00",
-      "summary": "Public broadcaster Nine PBS is in trouble after its cloud storage provider went out of business and it now can't access more than 50TB of archival data. The data center hosting the files can't simply turn over the files, as it's legally owned by another entity, even if the channel is the ultimate owner of the stored data.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/alabama-residents-left-powerless-to-stop-massive-bitcoin-mining-data-center-despite-county-and-town-moratoriums-hole-in-state-zoning-laws-lets-facility-through",
-      "title": "Alabama residents left powerless to stop massive Bitcoin mining data center despite county and town moratoriums — hole in state zoning laws lets facility through",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/alabama-residents-left-powerless-to-stop-massive-bitcoin-mining-data-center-despite-county-and-town-moratoriums-hole-in-state-zoning-laws-lets-facility-through",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T10:20:00+00:00",
-      "summary": "Alabama residents left powerless to stop 50 MW Bitcoin mining facility despite county and town moratoriums thanks to the state's lack of appropriate zoning laws.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/portable-monitors/jsaux-flipgo-horizon-pro-dual-screen-portable-monitor-review",
-      "title": "JSAUX FlipGo Horizon Pro dual-screen portable monitor review: Jack of all trades, master of some",
-      "url": "https://www.tomshardware.com/monitors/portable-monitors/jsaux-flipgo-horizon-pro-dual-screen-portable-monitor-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Brandon Hill",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T10:05:00+00:00",
-      "summary": "The FlipGo Horizon Pro brings dual 15.6-inch displays and a built-in hub.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-xai-will-increase-data-center-capacity-7x-by-2027-targeting-10-gigawatts-of-compute-up-to-usd500-billion-in-revenue-by-the-end-of-next-year",
-      "title": "Elon Musk says xAI will increase data center capacity 7x by 2027 — targeting 10 gigawatts of compute, up to $500 billion in revenue by the end of next year",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-says-xai-will-increase-data-center-capacity-7x-by-2027-targeting-10-gigawatts-of-compute-up-to-usd500-billion-in-revenue-by-the-end-of-next-year",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T10:00:00+00:00",
-      "summary": "Elon Musk expects xAI to increase its nameplate power draw to 10 GW by late 2027, which will increase its performance by orders of magnitude what is available to AI today.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/cerebras-shares-plunge-nearly-20-percent-after-missing-earnings-expectations-hardware-sales-drop-but-ai-cloud-revenue-climbs-281-percent",
-      "title": "Cerebras shares plunge nearly 20% after missing earnings expectations — hardware sales drop but AI cloud revenue climbs 281%",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/cerebras-shares-plunge-nearly-20-percent-after-missing-earnings-expectations-hardware-sales-drop-but-ai-cloud-revenue-climbs-281-percent",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T09:46:20+00:00",
-      "summary": "Cerebras keeps growing, but misses forecast as hardware sales dip amid explosive increase of AI cloud revenue.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/the-current-state-of-pcie-6-0-ssds-and-controllers-marvell-phison-and-smi-prepare-controllers-as-drives-finally-come-to-market-following-years-of-delays",
-      "title": "The current state of PCIe 6.0 SSDs and controllers — Marvell, Phison, and SMI prepare controllers as drives finally come to market following years of delays",
-      "url": "https://www.tomshardware.com/tech-industry/the-current-state-of-pcie-6-0-ssds-and-controllers-marvell-phison-and-smi-prepare-controllers-as-drives-finally-come-to-market-following-years-of-delays",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T09:40:00+00:00",
-      "summary": "PCIe 6.0 SSDs are almost here. We review the state of PCIe 6.0 SSDs and controllers from Micron and Samsung, as well as controllers that can handle 2 Petabyte-class SSDs with 28 TB/s read/write speeds.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/applications/vibe-coded-app-adds-a-3d-video-rental-storefront-to-your-jellyfin-htpc-self-hosted-open-source-project-brings-back-memories-of-browsing-for-vhs-tapes-on-saturday-afternoons",
-      "title": "Vibe-coded app adds a 3D video rental storefront to your Jellyfin HTPC — self-hosted, open-source project brings back memories of browsing for VHS tapes on Saturday afternoons",
-      "url": "https://www.tomshardware.com/software/applications/vibe-coded-app-adds-a-3d-video-rental-storefront-to-your-jellyfin-htpc-self-hosted-open-source-project-brings-back-memories-of-browsing-for-vhs-tapes-on-saturday-afternoons",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T09:00:00+00:00",
-      "summary": "A Redditor vibe-coded a Jellyfin front-end that mimics that old video rental stores from the 1990s. This simulation is more than just a selection screen, though, and is a complete experience on its own.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/qualcomm-details-snapdragon-c-specs-for-usd300-laptops-for-the-first-time-claims-67-percent-faster-performance-on-battery-than-intel-n250-ac-performance-remains-a-mystery",
-      "title": "Qualcomm details Snapdragon C specs for $300 laptops for the first time — claims 67% faster performance on battery than Intel N250, AC performance remains a mystery (updated)",
-      "url": "https://www.tomshardware.com/pc-components/cpus/qualcomm-details-snapdragon-c-specs-for-usd300-laptops-for-the-first-time-claims-67-percent-faster-performance-on-battery-than-intel-n250-ac-performance-remains-a-mystery",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Andrew E. Freedman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T21:14:33+00:00",
-      "summary": "Qualcomm has detailed the specs for its Snapdragon C processor, with 8 cores and claimed \"all-day\" battery life.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/oracle-plans-more-layoffs-weeks-after-spending-most-of-its-2-1-billion-restructuring-budget",
-      "title": "Oracle plans more layoffs weeks after spending most of its $2.1 billion restructuring budget, report claims — some teams face double-digit percentage reductions, 21,000 full-time positions already eliminated",
-      "url": "https://www.tomshardware.com/tech-industry/oracle-plans-more-layoffs-weeks-after-spending-most-of-its-2-1-billion-restructuring-budget",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T17:00:04+00:00",
-      "summary": "Oracle plans to cut more jobs this month, with reductions on some teams reaching double-digit percentages.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-doubles-rtx-pro-6000-blackwells-msrp-to-a-staggering-usd16-000-96gb-card-started-pre-orders-below-usd8-000-last-year",
-      "title": "Nvidia doubles RTX PRO 6000 Blackwell's MSRP to a staggering $16,000 — 96GB card started pre-orders below $8,000 last year",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-doubles-rtx-pro-6000-blackwells-msrp-to-a-staggering-usd16-000-96gb-card-started-pre-orders-below-usd8-000-last-year",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T15:53:19+00:00",
-      "summary": "A data center GPU has become more expensive because of the AI boom enabled by unprecedented data center buildouts — shocking. Nvidia's RTX 6000 Pro Blackwell is now twice as costly as it was last year at the time of its launch, and 20% more expensive than even a couple of months ago.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/ai-data-center-developers-begin-suing-local-jurisdictions-behind-bans-and-moratoriums-claims-range-from-officials-exceeding-authority-to-violations-of-due-process-and-equal-protection-laws",
-      "title": "AI data center developers begin suing local jurisdictions behind bans and moratoriums — claims range from officials exceeding authority to violations of due process and equal protection laws",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-center-developers-begin-suing-local-jurisdictions-behind-bans-and-moratoriums-claims-range-from-officials-exceeding-authority-to-violations-of-due-process-and-equal-protection-laws",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T15:46:55+00:00",
-      "summary": "Some data center developers are suing local governments for passing temporary bans and moratorium, saying that they such moves violated their rights to due process and equal protection. This move has gotten one county to reverse their decision, while others are still fighting the cases in court.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/coreweave-ceo-mike-intrator-says-it-has-signed-an-a100-contract-running-into-2029",
-      "title": "CoreWeave proves Nvidia's aging AI GPUs from 2020 can generate profit nine years after deployment, signs A100 contracts into 2029 — power constraints and legacy infrastructure keep old GPUs profitable",
-      "url": "https://www.tomshardware.com/tech-industry/coreweave-ceo-mike-intrator-says-it-has-signed-an-a100-contract-running-into-2029",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T15:41:47+00:00",
-      "summary": "CoreWeave reported $2.58 billion in quarterly revenue, up 112% year over year.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/suspected-china-linked-hackers-used-ai-to-run-the-first-ever-end-to-end-autonomous-cyberattack-on-taiwans-government-israeli-firm-says-open-source-built-tool-continuously-devised-effective-hack-strategies-in-real-time",
-      "title": "Suspected China-linked hackers used AI to run the first-ever end-to-end autonomous cyberattack on Taiwan's government, Israeli firm says — open-source-built tool continuously devised effective hack strategies in real-time",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/suspected-china-linked-hackers-used-ai-to-run-the-first-ever-end-to-end-autonomous-cyberattack-on-taiwans-government-israeli-firm-says-open-source-built-tool-continuously-devised-effective-hack-strategies-in-real-time",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T14:58:54+00:00",
-      "summary": "Suspected China-linked hackers used autonomous AI agents to breach Taiwanese government systems, compromising 85 accounts and stealing 2,500+ records.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/qidi-plus5-3d-printer-review",
-      "title": "QIDI Plus5 3D printer review: The best one yet",
-      "url": "https://www.tomshardware.com/3d-printing/qidi-plus5-3d-printer-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Denise Bertacchi",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T14:08:09+00:00",
-      "summary": "QIDI Plus5 is polished, huge, and produces excellent prints with some of the toughest technical filaments.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/nova-lake-cpus-with-cut-down-e-core-clusters-may-still-retain-full-cache-pool-says-new-leak-8p-12e-config-predictions-revised-from-33mb-to-36mb-4p-4e-config-from-15mb-to-18mb",
-      "title": "Nova Lake CPUs with cut-down E-core clusters may still retain full cache pool, says new leak — 8P+12E config predictions revised from 33MB to 36MB, 4P+4E config from 15MB to 18MB",
-      "url": "https://www.tomshardware.com/pc-components/cpus/nova-lake-cpus-with-cut-down-e-core-clusters-may-still-retain-full-cache-pool-says-new-leak-8p-12e-config-predictions-revised-from-33mb-to-36mb-4p-4e-config-from-15mb-to-18mb",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T13:37:47+00:00",
-      "summary": "A new leak from Jaykihn says some Nova Lake SKUs, including mobile counterparts, will retain the cache config of their fully-enabled variants despite having reduced E-cores.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -907,7 +907,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49255710"
       },
       "duration_sec": null,
-      "views": 354,
+      "views": 355,
       "comments": 177,
       "published_at": "2026-08-11T10:02:00+00:00",
       "summary": "",
@@ -927,7 +927,7 @@
       },
       "duration_sec": null,
       "views": 261,
-      "comments": 136,
+      "comments": 138,
       "published_at": "2026-08-11T19:35:52+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -972,25 +972,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49122838",
-      "title": "Moonshot’s Kimi uses 20k Nvidia chip cluster from Alibaba",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49122838",
-        "name": "gk1",
-        "hn_url": "https://news.ycombinator.com/item?id=49122838"
-      },
-      "duration_sec": null,
-      "views": 114,
-      "comments": 76,
-      "published_at": "2026-07-31T13:24:03+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:49282762",
       "title": "Nvidia doubles RTX PRO 6000 Blackwell's MSRP to a staggering $16,000",
       "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-doubles-rtx-pro-6000-blackwells-msrp-to-a-staggering-usd16-000-96gb-card-started-pre-orders-below-usd8-000-last-year",
@@ -1010,22 +991,60 @@
       "lang": "en"
     },
     {
-      "id": "hn:49084371",
-      "title": "Show HN: Tines 3B – safe workflow automation for when everyone builds software",
-      "url": "https://www.tines.com/",
+      "id": "hn:49248477",
+      "title": "Nvidia is pulling Wall Street into the AI buildout",
+      "url": "https://thenextweb.com/news/nvidia-500-billion-wall-street-ai-infrastructure-funding-package",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49084371",
-        "name": "retsol",
-        "hn_url": "https://news.ycombinator.com/item?id=49084371"
+        "id": "49248477",
+        "name": "berkeleyjunk",
+        "hn_url": "https://news.ycombinator.com/item?id=49248477"
       },
       "duration_sec": null,
-      "views": 27,
-      "comments": 2,
-      "published_at": "2026-07-28T14:23:55+00:00",
+      "views": 18,
+      "comments": 7,
+      "published_at": "2026-08-10T19:25:07+00:00",
       "summary": "",
-      "matched_keyword": "ASML OR EUV",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49177126",
+      "title": "It looks like 'Big Short' investor Michael Burry nailed bet against chip stocks",
+      "url": "https://www.businessinsider.com/big-short-michael-burry-ai-chip-stocks-soxx-nvidia-substack-2026-8",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49177126",
+        "name": "mapping365",
+        "hn_url": "https://news.ycombinator.com/item?id=49177126"
+      },
+      "duration_sec": null,
+      "views": 17,
+      "comments": 2,
+      "published_at": "2026-08-05T00:30:23+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49279812",
+      "title": "Why space is a terrible place to cool a data center",
+      "url": "https://thenewstack.io/spacex-and-nvidias-orbital-ai-datacenter-fantasy/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49279812",
+        "name": "CrankyBear",
+        "hn_url": "https://news.ycombinator.com/item?id=49279812"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 3,
+      "published_at": "2026-08-12T23:08:21+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     }
   ]

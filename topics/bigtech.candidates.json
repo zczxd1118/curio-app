@@ -2,7 +2,7 @@
   "domain": "大厂 AI 动态",
   "domain_id": "bigtech",
   "topic_id": "default",
-  "fetched_at": "2026-08-14T04:53:56.902479+00:00",
+  "fetched_at": "2026-08-15T03:45:42.867394+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -15,12 +15,12 @@
     "Product Hunt（新产品脉搏）": 30,
     "36氪 AI": 0,
     "少数派": 10,
-    "HN · Gemini": 10,
+    "HN · Gemini": 11,
     "HN · Copilot": 3,
     "HN · Apple Intelligence": 0,
     "HN · Llama": 4,
     "HN · Bedrock": 1,
-    "HN · DeepMind": 9
+    "HN · DeepMind": 8
   },
   "subtopics": [
     {
@@ -30,60 +30,9 @@
   "total": 126,
   "items": [
     {
-      "id": "rss:https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
-      "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
-      "url": "https://www.theverge.com/policy/979977/trump-declares-100-percent-tariffs-on-many-drones-and-all-aircraft-parts",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Sean Hollister",
-        "feed_title": "The Verge"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-14T01:06:15+00:00",
-      "summary": "The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and parts, too. He's going to try to make them cost a lot more. In a presidential action, [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing",
-      "title": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
-      "url": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Jay Peters",
-        "feed_title": "The Verge"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T23:13:24+00:00",
-      "summary": "In a new filing in its long-running legal dispute with Epic Games, Apple has proposed a structure that would allow it to collect fees on digital purchases made via external links that don't use the company's in-app purchase system. Epic has already responded, saying that Apple's request is \"far outside of the bounds\" of the [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
-      "title": "‘That is not acceptable’: Judge orders Google to make rival app store installs easier",
-      "url": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Sean Hollister",
-        "feed_title": "The Verge"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T21:53:04+00:00",
-      "summary": "One month after Epic Games and Google seemingly stopped fighting over the future of Android app distribution, they were back in a San Francisco courtroom today - where Judge James Donato just ordered Google to make it easier to install rival app stores on Android. It's been nearly three years since a jury unanimously decided [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy",
-      "title": "The fight over Flock and other ALPRs",
-      "url": "https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy",
+      "id": "rss:https://www.theverge.com/gadgets/980547/samsung-galaxy-h1-over-ear-headphones",
+      "title": "Samsung has new Galaxy headphones in the works",
+      "url": "https://www.theverge.com/gadgets/980547/samsung-galaxy-h1-over-ear-headphones",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -93,14 +42,99 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T21:46:21+00:00",
-      "summary": "There are over 120,000 of Flock’s automatic license plate reader (ALPR) cameras installed all over the US. Flock’s cameras, and others like them, use AI to identify and track vehicles based on their license plate number, make, model, color, and other info, networked together to track vehicles and people&#8217;s movements throughout the day and across [&#8230;]",
+      "published_at": "2026-08-14T19:18:45+00:00",
+      "summary": "Strings of code in Samsung's Galaxy Wearable app hint at an upcoming pair of over-ear headphones that could compete with the AirPods Max, SamMobile reports. Samsung's reportedly referring to the headphones as the \"Galaxy H1,\" and SamMobile says they could launch sometime in 2027. That would make these the company's first pair of over-ear headphones [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
-      "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
-      "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
+      "id": "rss:https://www.theverge.com/tech/979996/best-laptops-students-middle-high-school",
+      "title": "A RAMageddon guide to back-to-school laptop shopping",
+      "url": "https://www.theverge.com/tech/979996/best-laptops-students-middle-high-school",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Antonio G. Di Benedetto",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T18:32:47+00:00",
+      "summary": "If you’re a student looking for an affordable laptop, I have bad news and I have good news. The bad news is that computer prices are out of whack due to the ongoing RAM and storage crunch, making some a little pricier than they used to be and others wildly more expensive. The good news? [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/transportation/979807/lamborghini-revuelto-sv-specs-performance",
+      "title": "Lamborghini’s flagship Revuelto levels up with SV trim",
+      "url": "https://www.theverge.com/transportation/979807/lamborghini-revuelto-sv-specs-performance",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Andrew J. Hawkins",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T18:00:00+00:00",
+      "summary": "A lot of automakers talk about wanting to minimize or eliminate driver distractions so as to make the experience of driving more rewarding and safer overall. Lamborghini has a different strategy; it wants the driver to become one with their vehicle. This helps explain the storied super car maker's tagline for the new Revuelto SV: [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/entertainment/979925/the-x-files-chris-carter-vrach-frankenshteyn-interview-hulu",
+      "title": "The X-Files creator Chris Carter wanted to make a more horrific movie",
+      "url": "https://www.theverge.com/entertainment/979925/the-x-files-chris-carter-vrach-frankenshteyn-interview-hulu",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Charles Pulliam-Moore",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T18:00:00+00:00",
+      "summary": "The version of The X-Files: I Want to Believe that premiered in 2008 was not exactly the movie co-writer / director Chris Carter intended to make. Carter wanted to bring agents Mulder and Scully back to the big screen with a grisly story about faith and the supernatural. But executives at 20th Century Fox felt [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/tech/980467/google-pixel-11-camera-looks-older-phones",
+      "title": "Google&#8217;s best new camera feature is only for the Pixel 11 series",
+      "url": "https://www.theverge.com/tech/980467/google-pixel-11-camera-looks-older-phones",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "David Imel",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T17:34:14+00:00",
+      "summary": "Arguably the coolest new photo feature for the Pixel 11 lineup is Google's new Camera Looks, which process image data differently at the sensor level to produce photos that don't have that \"smartphone\" look. The result is new styles like \"Digi,\" which mimics the style of photos taken by older digital cameras. But to use [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+      "title": "Mark Zuckerberg has an Instagzam",
+      "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "David Pierce",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T16:54:16+00:00",
+      "summary": "Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagram anymore. And we cannot figure out why Instagram decided to do this. On this episode of [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "title": "You can now turn off Google Gemini&#8217;s visible watermarks",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -110,93 +144,280 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T21:42:38+00:00",
-      "summary": "Microsoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot's voice mode. In a support page, Microsoft says it's going to move Mico to its Learn Live platform, where the avatar will have \"more to react to,\" as reported earlier by GeekWire. Mico launched in Copilot's voice mode last [&#8230;]",
+      "published_at": "2026-08-14T16:39:32+00:00",
+      "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/games/979855/netflix-shut-down-night-school-studio-moonloot-games",
-      "title": "Netflix is closing two game studios",
-      "url": "https://www.theverge.com/games/979855/netflix-shut-down-night-school-studio-moonloot-games",
+      "id": "rss:https://www.theverge.com/gadgets/980261/clair-obscur-pixel-11-gaming-laptop-4k-bluray-deal-sale",
+      "title": "2025 GOTY Clair Obscur: Expedition 33 is down to $33",
+      "url": "https://www.theverge.com/gadgets/980261/clair-obscur-pixel-11-gaming-laptop-4k-bluray-deal-sale",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Jay Peters",
+        "name": "Cameron Faulkner",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T20:52:58+00:00",
-      "summary": "Netflix plans to shut down two of its gaming studios, as reported by Game File and Variety, as it makes a bigger shift toward party games and titles streamed to TVs. One of the studios being shut down is Night School Studio, creators of the Oxenfree series. Netflix bought Night School in 2021, and it [&#8230;]",
+      "published_at": "2026-08-14T14:50:25+00:00",
+      "summary": "For RPG fans who dig Persona-style turn-based action and who are pursuing games with original stories and fantastic tunes, look no further than Clair Obscur: Expedition 33. This praise might come off sounding weird, but I really like that Sandfall Interactive’s breakout hit isn’t overly long compared to RPGs it was inspired by. It’s worth [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/gadgets/979699/hp-omnibook-x-flip-pixel-buds-pro-2-deal-sale",
-      "title": "This school-friendly laptop from HP is $300 off",
-      "url": "https://www.theverge.com/gadgets/979699/hp-omnibook-x-flip-pixel-buds-pro-2-deal-sale",
+      "id": "rss:https://www.theverge.com/tech/979928/cmf-clip-pro-review",
+      "title": "CMF&#8217;s clip earbuds hit the balance between cheap and good",
+      "url": "https://www.theverge.com/tech/979928/cmf-clip-pro-review",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Brad Bourque",
+        "name": "John.Higgins",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T20:07:53+00:00",
-      "summary": "With memory prices still high and showing no signs of dropping, we’re always happy to find a good deal on a budget-friendly system with an adequate amount of RAM. Best Buy has the HP OmniBook X Flip discounted by $300, bringing the cost down to $699.99. This model is equipped with an Intel Core Ultra [&#8230;]",
+      "published_at": "2026-08-14T12:00:00+00:00",
+      "summary": "Clip earbuds are an exercise in compromise. It's an inherent aspect of their design - and physics. They can be more comfortable for people that don't like something jammed in their ear, but sound response suffers. Ambient awareness is great because you can easily hear the sound around you, which means to hear your own [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
-      "title": "OpenAI is losing its second executive this week",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+      "id": "rss:https://www.theverge.com/games/977646/msi-claw-8-ex-review-intel-panther-lake-handheld",
+      "title": "The MSI Claw EX is the most important PC handheld since Steam Deck — I still wouldn’t buy one",
+      "url": "https://www.theverge.com/games/977646/msi-claw-8-ex-review-intel-panther-lake-handheld",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Jay Peters",
+        "name": "Sean Hollister",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T19:28:39+00:00",
-      "summary": "Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer in December after serving as CEO of Slack, will be leaving in the \"coming weeks\" to \"pursue other opportunities,\" she said in a team note posted to LinkedIn. Dali Rajic, president and COO of Wiz, will be taking over the [&#8230;]",
+      "published_at": "2026-08-14T11:00:00+00:00",
+      "summary": "As The Verge's resident handheld reviewer, I have nearly every portable gaming PC on a shelf in my house. The MSI Claw 8 EX AI Plus is now the first one I reach for. Thanks to a next-gen Intel chip and improved MSI design, the Claw EX is the most powerful handheld that truly feels [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/policy/979734/trump-administration-cybercrime-private-firms",
-      "title": "The Trump admin will start letting private firms launch international cyberattacks",
-      "url": "https://www.theverge.com/policy/979734/trump-administration-cybercrime-private-firms",
+      "id": "rss:https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
+      "title": "Talks to sell PayPal to Stripe and Advent are heating up",
+      "url": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Emma Roth",
-        "feed_title": "The Verge"
+        "id": "https://techcrunch.com/feed/",
+        "name": "Lucas Ropek",
+        "feed_title": "TechCrunch"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T18:56:13+00:00",
-      "summary": "The Trump administration is launching a new program that will allow private firms to perform cyberattacks against foreign criminals, as reported earlier by Bloomberg. The private firms would operate \"under the control and oversight\" of the federal government, giving them permission to surveil and disrupt criminal networks, according to a presidential memorandum published on Wednesday. [&#8230;]",
+      "published_at": "2026-08-14T22:43:24+00:00",
+      "summary": "PayPal is still reportedly negotiating a potential sale to Stripe and private equity firm Advent, as the fintech firm's new CEO attempts to turn the company around.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame",
-      "title": "I finally found a robot lawnmower I’d trust with my yard",
-      "url": "https://www.theverge.com/tech/978664/robot-lawnmower-review-segway-mammotion-husqvarna-roborock-dreame",
+      "id": "rss:https://techcrunch.com/2026/08/14/self-driving-trucks-are-officially-testing-on-california-highways/",
+      "title": "Self-driving trucks are officially testing on California highways",
+      "url": "https://techcrunch.com/2026/08/14/self-driving-trucks-are-officially-testing-on-california-highways/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Jennifer Pattison Tuohy",
-        "feed_title": "The Verge"
+        "id": "https://techcrunch.com/feed/",
+        "name": "Kirsten Korosec",
+        "feed_title": "TechCrunch"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T18:30:00+00:00",
-      "summary": "Robot lawnmowers are finally good enough to take a lot of work out of maintaining a yard, but they’re still not set-it-and-forget-it machines. If you don’t want these autonomous cutting machines to tear up your lawn or go roaming in your neighbors’ yard, you’re still going to need to keep an eye on them. But [&#8230;]",
+      "published_at": "2026-08-14T20:37:49+00:00",
+      "summary": "Aurora Innovation and Kodiak AI, two companies developing self-driving trucks, have received permits from the California Department of Motor Vehicles.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria/",
+      "title": "Thrive’s Joshua Kushner chides Silicon Valley VCs over AI euphoria",
+      "url": "https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Julie Bort",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T19:33:00+00:00",
+      "summary": "The AI opportunity is huge, but \"it would also be a grave error in our minds to let excitement weaken our investment discipline,\" Kushner warns in his first-ever investment letter.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/",
+      "title": "What we know about the alleged Iranian hacks on US water utilities",
+      "url": "https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Lorenzo Franceschi-Bicchierai",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T19:04:32+00:00",
+      "summary": "Over the last couple of weeks, hackers have targeted and broken into the systems of several water plants in the United States. Here’s what we know and don’t know about this wave of attacks allegedly carried out by the Iranian government.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/08/14/read-it-later-app-pocket-is-shutting-down-here-are-the-best-alternatives/",
+      "title": "Read-it-later app Pocket shut down — here are the best alternatives",
+      "url": "https://techcrunch.com/2026/08/14/read-it-later-app-pocket-is-shutting-down-here-are-the-best-alternatives/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Ivan Mehta, Sarah Perez",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T18:58:15+00:00",
+      "summary": "Pocket users have until October 8, 2025, to export their saved articles and other items, including lists, archives, favorites, notes, and highlights.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
+      "title": "Unforgetful is a new reminders app for people who can’t stop hitting snooze",
+      "url": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Sarah Perez",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T16:21:04+00:00",
+      "summary": "Unforgetful, the latest app from longtime indie developer Marco Arment, is designed to make reminders harder to ignore — or accidentally dismiss.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Ivan Mehta",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T16:13:40+00:00",
+      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+      "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Theresa Loconsolo",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T15:43:28+00:00",
+      "summary": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark Zuckerberg&#160;arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store/",
+      "title": "Apple proposes to take a 15% cut of purchases made outside the App Store",
+      "url": "https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Sarah Perez",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T14:54:48+00:00",
+      "summary": "Apple is asking a federal judge to allow it to charge commissions of up to 15% on purchases made through external links in iOS apps.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+      "title": "Kog is going deeper to squeeze more inference out of GPUs",
+      "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Anna Heim",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T14:50:11+00:00",
+      "summary": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+      "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
+      "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Tim De Chant",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T14:05:00+00:00",
+      "summary": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/08/14/us-courts-will-start-publishing-how-often-the-government-uses-spyware/",
+      "title": "US courts will start publishing how often the government uses spyware",
+      "url": "https://techcrunch.com/2026/08/14/us-courts-will-start-publishing-how-often-the-government-uses-spyware/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Lorenzo Franceschi-Bicchierai",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T13:29:04+00:00",
+      "summary": "The Administrative Office of the U.S. Courts told TechCrunch that it will start disclosing how many times judges authorized the use of spyware to wiretap suspected criminals.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/08/14/uber-and-pony-ai-plan-to-bring-2000-robotaxis-to-europe/",
+      "title": "Uber and Pony.ai plan to bring 2,000 robotaxis to Europe",
+      "url": "https://techcrunch.com/2026/08/14/uber-and-pony-ai-plan-to-bring-2000-robotaxis-to-europe/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Kirsten Korosec",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T10:44:30+00:00",
+      "summary": "The partnership is expanding beyond the initial market of Zagreb, Croatia to four additional European cities.",
       "lang": "en"
     },
     {
@@ -319,224 +540,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
-      "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
-      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+      "id": "rss:https://stratechery.com/2026/the-capex-train-keeps-rolling/",
+      "title": "2026.33: The CapEx Train Keeps Rolling",
+      "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Rebecca Bellan",
-        "feed_title": "TechCrunch"
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T18:28:14+00:00",
-      "summary": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
-      "title": "OpenAI hires new CRO as executive shake-up continues",
-      "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Tim Fernholz",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T17:07:13+00:00",
-      "summary": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/13/ford-on-track-to-complete-2b-factory-overhaul-for-fathom-ev-truck/",
-      "title": "Ford on track to complete $2B factory overhaul for Fathom EV truck",
-      "url": "https://techcrunch.com/2026/08/13/ford-on-track-to-complete-2b-factory-overhaul-for-fathom-ev-truck/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Kirsten Korosec",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T16:37:53+00:00",
-      "summary": "Ford expects to begin prototype builds of the Fathom EV in the first quarter of 2027.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/13/x-open-sources-its-ranking-algorithm-letting-users-see-if-theyve-been-shadowbanned/",
-      "title": "X open sources its ranking algorithm, letting users see if they’ve been ‘shadowbanned’",
-      "url": "https://techcrunch.com/2026/08/13/x-open-sources-its-ranking-algorithm-letting-users-see-if-theyve-been-shadowbanned/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Sarah Perez",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T16:00:00+00:00",
-      "summary": "X is expanding the open source code behind its 'For You' feed and launching new transparency tools that show users when its ranking systems have affected their accounts or posts.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/13/instagram-introduces-a-redesigned-wordmark/",
-      "title": "Instagram introduces a redesigned wordmark",
-      "url": "https://techcrunch.com/2026/08/13/instagram-introduces-a-redesigned-wordmark/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Sarah Perez",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T15:46:02+00:00",
-      "summary": "The social media giant says it was time for a sharper and more modern look after a decade.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
-      "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
-      "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Sarah Perez",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T15:30:52+00:00",
-      "summary": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
-      "title": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
-      "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Julie Bort",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T15:08:00+00:00",
-      "summary": "Nvidia has a plan to make sure its GPUs won't lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/13/bartesian-duet-cocktail-maker-review/",
-      "title": "Who really needs a cocktail robot?",
-      "url": "https://techcrunch.com/2026/08/13/bartesian-duet-cocktail-maker-review/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Amanda Silberling",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T15:00:00+00:00",
-      "summary": "Bartesian's cocktail makers would be best described like a Keurig or Nespresso machine, but for alcoholic drinks.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/",
-      "title": "Apple in talks to pay publishers to provide Siri with current news: report",
-      "url": "https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Aisha Malik",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T14:34:43+00:00",
-      "summary": "The tech giant has considered a nine-figure budget for the payments, according to the WSJ.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/",
-      "title": "In a first, US will allow some private firms to carry out cyberattacks",
-      "url": "https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Zack Whittaker",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T14:09:05+00:00",
-      "summary": "The new order sweeps away decades of existing U.S. cybersecurity policy prohibiting private companies from conducting 'hack back' attacks or offensive cyber operations.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/13/can-social-media-start-over-blueskys-ceo-and-coo-deliver-their-case-at-techcrunch-disrupt-2026/",
-      "title": "Can social media start over? Bluesky’s CEO and COO deliver their case at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/08/13/can-social-media-start-over-blueskys-ceo-and-coo-deliver-their-case-at-techcrunch-disrupt-2026/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "TechCrunch Events",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T13:30:00+00:00",
-      "summary": "Bluesky CEO Toni Schneider is joined by COO Rose Wang for a Disrupt Stage session on whether social media can start over and where Bluesky fits into that potential reboot.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
-      "title": "Some Claude users are mad that Anthropic’s new watermarks will catch them using it at their jobs, classes",
-      "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Lucas Ropek",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T22:26:37+00:00",
-      "summary": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/12/ai-nuclear-power-firm-fermi-finally-has-a-new-ceo/",
-      "title": "AI nuclear power firm Fermi finally has a new CEO",
-      "url": "https://techcrunch.com/2026/08/12/ai-nuclear-power-firm-fermi-finally-has-a-new-ceo/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Kirsten Korosec",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T22:24:00+00:00",
-      "summary": "Lee McIntire, an independent member of Fermi's board, has been hired as CEO, more than three months since the company fired co-founder Toby Neugebauer from the top post.",
+      "published_at": "2026-08-14T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of August 10, 2026, including the capital constraint, AI writing, and a tale of two cities.",
       "lang": "en"
     },
     {
@@ -693,20 +710,241 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://stratechery.com/2026/netflix-earnings-is-netflix-washed-additional-notes/",
-      "title": "Netflix Earnings, Is Netflix Washed?, Additional Notes",
-      "url": "https://stratechery.com/2026/netflix-earnings-is-netflix-washed-additional-notes/",
+      "id": "rss:https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+      "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
+        "id": "https://arstechnica.com/feed/",
+        "name": "Dan Goodin",
+        "feed_title": "Ars Technica"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-21T10:00:00+00:00",
-      "summary": "Netflix's earnings were fine, and befitting a mature company whose most exciting days are likely behind them.",
+      "published_at": "2026-08-14T18:32:14+00:00",
+      "summary": "Screen-sharing bug lets remote hackers log in without a password.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/",
+      "title": "First test flight of largest all-electric aircraft used just $5 of electricity",
+      "url": "https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jeremy Hsu",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T18:00:23+00:00",
+      "summary": "Airline-backed venture aims to develop a hybrid-electric commercial aircraft.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Ashley Belanger",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T17:26:53+00:00",
+      "summary": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/tech-policy/2026/08/state-judge-orders-kalshi-to-stop-offering-sports-bets-and-other-wagers/",
+      "title": "State judge orders Kalshi to stop offering sports bets and other wagers",
+      "url": "https://arstechnica.com/tech-policy/2026/08/state-judge-orders-kalshi-to-stop-offering-sports-bets-and-other-wagers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jon Brodkin",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T17:13:14+00:00",
+      "summary": "Kalshi ordered to stop offering bets in Washington, must implement geofencing.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+      "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
+      "url": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Scharon Harding",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T17:03:54+00:00",
+      "summary": "\"We don't have access to the data on the hardware/servers,\" Iron Mountain told Ars.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/space/2026/08/policy-experts-europe-stuck-between-rock-and-a-hard-place-on-launch/",
+      "title": "Policy experts: Europe stuck between \"rock and a hard place\" on launch",
+      "url": "https://arstechnica.com/space/2026/08/policy-experts-europe-stuck-between-rock-and-a-hard-place-on-launch/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Eric Berger",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T16:29:21+00:00",
+      "summary": "It turns out that the economics of rocket reuse are pretty, pretty good.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/gaming/2026/08/ars-live-recap-how-can-we-stop-publishers-from-killing-their-own-games/",
+      "title": "Ars Live recap: How can we stop publishers from killing their own games?",
+      "url": "https://arstechnica.com/gaming/2026/08/ars-live-recap-how-can-we-stop-publishers-from-killing-their-own-games/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Kyle Orland",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T16:11:37+00:00",
+      "summary": "The Stop Killing Games movement faces an uphill battle.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/gadgets/2026/08/google-ordered-to-make-it-easier-to-download-alternative-android-app-stores/",
+      "title": "Judge gives Google one week to fix \"anticompetitive\" app store download in Google Play",
+      "url": "https://arstechnica.com/gadgets/2026/08/google-ordered-to-make-it-easier-to-download-alternative-android-app-stores/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Ryan Whitwam",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T15:46:40+00:00",
+      "summary": "Third-party app stores are about to become more visible in Google Play.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/culture/2026/08/r-rated-directors-cut-of-x-files-film-restores-chris-carters-original-horror-vision/",
+      "title": "R-rated director's cut of X-Files film restores Chris Carter's original horror vision",
+      "url": "https://arstechnica.com/culture/2026/08/r-rated-directors-cut-of-x-files-film-restores-chris-carters-original-horror-vision/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jennifer Ouellette",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T15:18:22+00:00",
+      "summary": "Chris Carter chats with Ars about the film he originally wanted to make—and why it's more relevant than ever.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/health/2026/08/taylor-farms-connections-to-trump-admin-spurs-probe-into-cyclospora-response/",
+      "title": "Taylor Farms' connections to Trump admin spurs probe into Cyclospora response",
+      "url": "https://arstechnica.com/health/2026/08/taylor-farms-connections-to-trump-admin-spurs-probe-into-cyclospora-response/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Beth Mole",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T15:03:16+00:00",
+      "summary": "Senator Warren questions whether Taylor Farms' influence swayed Trump admin.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jamie John",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T14:27:14+00:00",
+      "summary": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
+      "title": "Rocket Report: Rocket Lab shows off its flexibility; Blue Origin's two-pad plan",
+      "url": "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Eric Berger",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T11:00:49+00:00",
+      "summary": "\"We’ve never seen launch capacity so constrained.\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/gadgets/2026/08/samsung-galaxy-z-fold-8-ultra-review-the-ultra-foldable-with-an-ultra-price/",
+      "title": "Samsung Galaxy Z Fold 8 Ultra review: The ultra foldable with an ultra price",
+      "url": "https://arstechnica.com/gadgets/2026/08/samsung-galaxy-z-fold-8-ultra-review-the-ultra-foldable-with-an-ultra-price/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Ryan Whitwam",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T11:00:05+00:00",
+      "summary": "Samsung didn't have to change much this year because its hardware is just that good.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/",
+      "title": "Organic-looking brake assemblies debut on new Czinger 21C Spyder",
+      "url": "https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jonathan M. Gitlin",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T07:01:15+00:00",
+      "summary": "Czinger used topological design and additive manufacturing to make the brakes.",
       "lang": "en"
     },
     {
@@ -812,451 +1050,196 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/",
-      "title": "The new Instagram logo is the perfect embodiment of AI slop",
-      "url": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Aurich Lawson",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T17:32:10+00:00",
-      "summary": "Opinion: Some remarks about the new wordmark accidentally being perfectly awful.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
-      "title": "Google announces Gemini 3.7 Flash just three weeks after previous release",
-      "url": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Ryan Whitwam",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T17:00:13+00:00",
-      "summary": "Gemini 3.6 Flash debuted just 3 weeks ago, but Google says 3.7 has \"substantial improvements.\"",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/cars/2026/08/rivian-tweaks-its-r1-range-for-model-year-2027/",
-      "title": "Rivian's 2027 changes include its No. 1 most-requested feature",
-      "url": "https://arstechnica.com/cars/2026/08/rivian-tweaks-its-r1-range-for-model-year-2027/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jonathan M. Gitlin",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T14:00:57+00:00",
-      "summary": "Pricing hasn't changed, and now you can get captain's chairs for the R1S.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-      "title": "Anthropic could be worth $2 trillion when it goes public",
-      "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "George Hammond, Financial Times",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T13:58:56+00:00",
-      "summary": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/science/2026/08/weve-flown-a-radiation-blocking-vest-to-the-moon-and-back-and-it-worked/",
-      "title": "We've flown a radiation-blocking vest to the Moon and back, and it worked",
-      "url": "https://arstechnica.com/science/2026/08/weve-flown-a-radiation-blocking-vest-to-the-moon-and-back-and-it-worked/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jacek Krywko",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T13:48:55+00:00",
-      "summary": "Let's shield the astronauts instead of the spacecraft.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
-      "title": "Claude's new Scarlet Letter watermark is invisible—for now",
-      "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Ashley Belanger",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T11:10:18+00:00",
-      "summary": "The mark flags anything Claude processed, even human writing it only edited.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/",
-      "title": "Toddler's tragic death from brain-destroying amoeba offers lessons for doctors",
-      "url": "https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Beth Mole",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T22:31:19+00:00",
-      "summary": "Boy's unusual symptoms could help identify the next case sooner.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
-      "title": "The web’s newest weapon against AI scrapers is a font",
-      "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Kyle Orland",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T22:02:25+00:00",
-      "summary": "“ShieldFont” aims to poison AI training data without making pages unreadable for people.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
-      "title": "Terabytes of credentials leaked in massive supply-chain attack",
-      "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Dan Goodin",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T21:43:21+00:00",
-      "summary": "The data was scraped and exfiltrated from 2,500 users of a compromised AI package.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/",
-      "title": "Have physicists finally discovered glueballs? New evidence points to yes.",
-      "url": "https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jennifer Ouellette",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T21:13:39+00:00",
-      "summary": "“It’s the strongest evidence yet that particles dominated by a glueball component can exist in nature.”",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
-      "title": "Twitch content has trained Amazon AI for years, but users can opt out now",
-      "url": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Scharon Harding",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T21:00:30+00:00",
-      "summary": "Streaming platform says user-generated content \"may be used for future Gen AI model improvements.\"",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/",
-      "title": "Trump sued over \"brazen\" scheme to sell Truth Social API access for $100K a month",
-      "url": "https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jon Brodkin",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T20:20:52+00:00",
-      "summary": "With Truth API, Trump is \"selling priority access to news he himself generates.\"",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/gadgets/2026/08/us-boosts-drone-surveillance-as-flesh-eating-screwworms-spread-in-texas/",
-      "title": "US boosts drone surveillance as flesh-eating screwworms spread in Texas",
-      "url": "https://arstechnica.com/gadgets/2026/08/us-boosts-drone-surveillance-as-flesh-eating-screwworms-spread-in-texas/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jeremy Hsu",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T19:40:46+00:00",
-      "summary": "Hundreds of Homeland Security drones retasked to survey wildlife and livestock.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/cars/2026/08/jcb-sets-a-new-406-mph-speed-record-for-hydrogen-powered-cars/",
-      "title": "Two hydrogen-burning engines powered this car to a new land speed record",
-      "url": "https://arstechnica.com/cars/2026/08/jcb-sets-a-new-406-mph-speed-record-for-hydrogen-powered-cars/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jonathan M. Gitlin",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T17:01:11+00:00",
-      "summary": "JCB has invested heavily in hydrogen to power its diggers and other machinery.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/kivicube",
-      "title": "Kivicube",
-      "url": "https://www.producthunt.com/products/kivicube",
+      "id": "rss:https://www.producthunt.com/products/freebuff-2",
+      "title": "Freebuff",
+      "url": "https://www.producthunt.com/products/freebuff-2",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "mindy333",
+        "name": "Matthew Do",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-12T23:52:57+00:00",
-      "summary": "Create AR experiences with AI, no code required! Discussion | Link",
+      "published_at": "2026-08-13T17:04:37+00:00",
+      "summary": "Free coding agents to kill Claude, Cursor, Replit, and Devin Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/dishylink",
-      "title": "Dishylink",
-      "url": "https://www.producthunt.com/products/dishylink",
+      "id": "rss:https://www.producthunt.com/products/basedash",
+      "title": "Basedash Tasks",
+      "url": "https://www.producthunt.com/products/basedash",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "David Herbert",
+        "name": "Max Musing",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-12T10:53:08+00:00",
-      "summary": "Open-source Starlink monitoring app for Mac, Windows and Web Discussion | Link",
+      "published_at": "2026-08-14T03:29:11+00:00",
+      "summary": "Run your business on autopilot Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/scrimba",
-      "title": "Scrimba Explain",
-      "url": "https://www.producthunt.com/products/scrimba",
+      "id": "rss:https://www.producthunt.com/products/ns1",
+      "title": "NS1",
+      "url": "https://www.producthunt.com/products/ns1",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Daniel B",
+        "name": "Jonny Miller",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-04T16:49:47+00:00",
-      "summary": "Ask any question, get a video back instantly Discussion | Link",
+      "published_at": "2026-08-13T14:43:54+00:00",
+      "summary": "Personalized Nervous System Training Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/webbrain",
-      "title": "WebBrain",
-      "url": "https://www.producthunt.com/products/webbrain",
+      "id": "rss:https://www.producthunt.com/products/gemini-3-7-flash",
+      "title": "Gemini 3.7 Flash",
+      "url": "https://www.producthunt.com/products/gemini-3-7-flash",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Chris Messina",
+        "name": "Ankit Sharma",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-13T07:42:44+00:00",
-      "summary": "The sidebar agent for the rest of us Discussion | Link",
+      "published_at": "2026-08-13T18:16:30+00:00",
+      "summary": "Google's smartest workhorse yet for coding & agents Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/execlave",
-      "title": "Execlave",
-      "url": "https://www.producthunt.com/products/execlave",
+      "id": "rss:https://www.producthunt.com/products/openmotion",
+      "title": "Openmotion",
+      "url": "https://www.producthunt.com/products/openmotion",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "fmerian",
+        "name": "Usman Farooq",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-06-30T05:47:14+00:00",
-      "summary": "The gate between your AI agents and the real world Discussion | Link",
+      "published_at": "2026-08-13T07:46:55+00:00",
+      "summary": "Turn product screenshots and prompts into motion videos Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/oasis-6",
-      "title": "Oasis",
-      "url": "https://www.producthunt.com/products/oasis-6",
+      "id": "rss:https://www.producthunt.com/products/contentblocks",
+      "title": "Outcome",
+      "url": "https://www.producthunt.com/products/contentblocks",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Chris Messina",
+        "name": "Daniel Zaitzow",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-11T17:33:46+00:00",
-      "summary": "Where humans and agents come to work. Discussion | Link",
+      "published_at": "2023-12-18T01:58:02+00:00",
+      "summary": "Turn your content into a personal outcome for every lead Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/kin-health",
-      "title": "Kin Health",
-      "url": "https://www.producthunt.com/products/kin-health",
+      "id": "rss:https://www.producthunt.com/products/compass-calendar",
+      "title": "Compass Calendar",
+      "url": "https://www.producthunt.com/products/compass-calendar",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Arpan Parikh",
+        "name": "Tyler Dane",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T05:35:04+00:00",
-      "summary": "Record doctor visits and get clear summaries Discussion | Link",
+      "published_at": "2026-08-13T19:31:57+00:00",
+      "summary": "The keyboard-first calendar to get organized quickly Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/pickle-browser",
-      "title": "Pickle Browser",
-      "url": "https://www.producthunt.com/products/pickle-browser",
+      "id": "rss:https://www.producthunt.com/products/muse-19",
+      "title": "Muse",
+      "url": "https://www.producthunt.com/products/muse-19",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Ismail Haddou",
+        "name": "THEODORE HQ",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-12T20:05:25+00:00",
-      "summary": "Browser for your agent. Runs local in a window you can see Discussion | Link",
+      "published_at": "2026-08-11T10:51:23+00:00",
+      "summary": "Al Visual Bookmark Manager for Mac Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/nuphos",
-      "title": "Nuphos",
-      "url": "https://www.producthunt.com/products/nuphos",
+      "id": "rss:https://www.producthunt.com/products/occasio-2",
+      "title": "Occasio®",
+      "url": "https://www.producthunt.com/products/occasio-2",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "fmerian",
+        "name": "Camilla S Andersen",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-04T09:42:20+00:00",
-      "summary": "The AI-Native DevOps Workspace. Discussion | Link",
+      "published_at": "2026-08-10T21:46:32+00:00",
+      "summary": "Pinboard meets citation manager for shared insights. Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/patience-2",
-      "title": "Patience",
-      "url": "https://www.producthunt.com/products/patience-2",
+      "id": "rss:https://www.producthunt.com/products/port22",
+      "title": "Port22",
+      "url": "https://www.producthunt.com/products/port22",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Jordan Shaw",
+        "name": "harsha chaganti",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-08T20:43:02+00:00",
-      "summary": "The only mechanic is waiting. The only currency is time. Discussion | Link",
+      "published_at": "2026-08-13T13:28:31+00:00",
+      "summary": "Claude Code, Codex & more on your phone Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/chiplab",
-      "title": "Chiplab",
-      "url": "https://www.producthunt.com/products/chiplab",
+      "id": "rss:https://www.producthunt.com/products/min-4",
+      "title": "min.",
+      "url": "https://www.producthunt.com/products/min-4",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Sohyeon Park",
+        "name": "Eric Wang",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-12T08:37:19+00:00",
-      "summary": "Test firmware on a virtual chip with no hardware needed Discussion | Link",
+      "published_at": "2026-08-13T03:00:00+00:00",
+      "summary": "AI that loves to follow up after meetings Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/caveman",
-      "title": "Caveman",
-      "url": "https://www.producthunt.com/products/caveman",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Julius Brussee",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-11T23:39:36+00:00",
-      "summary": "why use many token when few do trick Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/coarena-by-coasty",
-      "title": "Coarena by Coasty",
-      "url": "https://www.producthunt.com/products/coarena-by-coasty",
+      "id": "rss:https://www.producthunt.com/products/hoplite",
+      "title": "Hoplite",
+      "url": "https://www.producthunt.com/products/hoplite",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1266,14 +1249,31 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-05T19:20:58+00:00",
-      "summary": "The arena where agents battle on real-world work Discussion | Link",
+      "published_at": "2026-07-18T23:02:04+00:00",
+      "summary": "Effortlessly deploy cloud software factories. Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/insta-360",
-      "title": "Insta360 X6",
-      "url": "https://www.producthunt.com/products/insta-360",
+      "id": "rss:https://www.producthunt.com/products/munder-difflin",
+      "title": "Munder Difflin",
+      "url": "https://www.producthunt.com/products/munder-difflin",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Chaitanya Giri",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-12T13:04:54+00:00",
+      "summary": "Make clones with Claude Code and Codex to do your work Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/deepseek",
+      "title": "DeepSeek Harness",
+      "url": "https://www.producthunt.com/products/deepseek",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1283,116 +1283,31 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T04:36:50+00:00",
-      "summary": "A 360 camera, gimbal, and 3D scanner in one Discussion | Link",
+      "published_at": "2026-08-13T13:08:16+00:00",
+      "summary": "Composable agent harness where everything is a plugin Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/ito-ai-code-review-that-runs-code",
-      "title": "Ito",
-      "url": "https://www.producthunt.com/products/ito-ai-code-review-that-runs-code",
+      "id": "rss:https://www.producthunt.com/products/isolate-video",
+      "title": "isolate.video",
+      "url": "https://www.producthunt.com/products/isolate-video",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Ben Lang",
+        "name": "Vignesh Warar",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-23T17:38:37+00:00",
-      "summary": "AI code review that runs your code Discussion | Link",
+      "published_at": "2026-08-13T06:31:41+00:00",
+      "summary": "Turn screen recordings into engaging product videos Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/phinq",
-      "title": "Phinq",
-      "url": "https://www.producthunt.com/products/phinq",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Hitham Hassham",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T23:43:54+00:00",
-      "summary": "Stops AI agents before they break something Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/mem-2-0",
-      "title": "Mem Agent",
-      "url": "https://www.producthunt.com/products/mem-2-0",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Kevin Moody",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-11T18:55:10+00:00",
-      "summary": "The AI that refuses to let you drop the ball Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/kitbitz",
-      "title": "Kitbitz",
-      "url": "https://www.producthunt.com/products/kitbitz",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Gaby Araujo",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T07:42:53+00:00",
-      "summary": "2K+ free hand-drawn illustrations for your projects, CC0 Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/fluiddocs-html-deck-builder",
-      "title": "FluidDocs CLI",
-      "url": "https://www.producthunt.com/products/fluiddocs-html-deck-builder",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Nishant Aggarwal",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T05:48:59+00:00",
-      "summary": "Publish interactive docs that answer and report back Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/human-behavior",
-      "title": "Human Behavior",
-      "url": "https://www.producthunt.com/products/human-behavior",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Amogh Chaturvedi",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T06:47:23+00:00",
-      "summary": "Product analytics told you what happened. We handle it. Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/lambdatest",
-      "title": "Kane CLI",
-      "url": "https://www.producthunt.com/products/lambdatest",
+      "id": "rss:https://www.producthunt.com/products/browseract",
+      "title": "BrowserAct Cloud",
+      "url": "https://www.producthunt.com/products/browseract",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1402,59 +1317,76 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-10T07:21:45+00:00",
-      "summary": "Natural language browser & mobile app tests from terminal Discussion | Link",
+      "published_at": "2026-08-07T08:40:34+00:00",
+      "summary": "Scrape any data from any website with one prompt Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/apra-fleet",
-      "title": "apra-fleet",
-      "url": "https://www.producthunt.com/products/apra-fleet",
+      "id": "rss:https://www.producthunt.com/products/chordviz",
+      "title": "ChordViz",
+      "url": "https://www.producthunt.com/products/chordviz",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Akhil Kumar",
+        "name": "Charles-Antoine Pouliot",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-11T19:57:29+00:00",
-      "summary": "Run a fleet of AI agents across your machines Discussion | Link",
+      "published_at": "2026-08-14T01:28:45+00:00",
+      "summary": "Build your own music visualizer for MIDI & audio Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/skilldocs",
-      "title": "Skilldocs",
-      "url": "https://www.producthunt.com/products/skilldocs",
+      "id": "rss:https://www.producthunt.com/products/suno",
+      "title": "Suno Studio 2.0",
+      "url": "https://www.producthunt.com/products/suno",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Rajiv Ayyangar",
+        "name": "Chris Mayes-Wright",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-12T21:07:34+00:00",
-      "summary": "Figma for markdown Discussion | Link",
+      "published_at": "2026-08-13T20:42:41+00:00",
+      "summary": "Browser-based generative DAW Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/google",
-      "title": "Google Pixel 11",
-      "url": "https://www.producthunt.com/products/google",
+      "id": "rss:https://www.producthunt.com/products/oxpecker",
+      "title": "oxpecker",
+      "url": "https://www.producthunt.com/products/oxpecker",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Zac Zuo",
+        "name": "Ibrahim Chhipa",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T03:16:36+00:00",
-      "summary": "Your most personal Pixel yet Discussion | Link",
+      "published_at": "2026-08-13T14:59:15+00:00",
+      "summary": "Know which of your lines a vendor just broke Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/theos-rfm-remote-facility-manager",
+      "title": "Theos[RFM]",
+      "url": "https://www.producthunt.com/products/theos-rfm-remote-facility-manager",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Michael Martinez",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T02:57:16+00:00",
+      "summary": "Manage facilities in 3D, in the real world, in real time Discussion | Link",
       "lang": "en"
     },
     {
@@ -1475,23 +1407,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/aio-geo-protocol",
-      "title": "AIO.GEO Protocol",
-      "url": "https://www.producthunt.com/products/aio-geo-protocol",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Adrian Swish",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T17:21:27+00:00",
-      "summary": "Audit AI search structure. Dry run fixes. Receipts. Discussion | Link",
-      "lang": "en"
-    },
-    {
       "id": "rss:https://www.producthunt.com/products/qencode",
       "title": "Qencode MCP",
       "url": "https://www.producthunt.com/products/qencode",
@@ -1509,26 +1424,77 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/nearfield",
-      "title": "Nearfield",
-      "url": "https://www.producthunt.com/products/nearfield",
+      "id": "rss:https://www.producthunt.com/products/pickle-browser",
+      "title": "Pickle Browser",
+      "url": "https://www.producthunt.com/products/pickle-browser",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Vince Pataky",
+        "name": "Ismail Haddou",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-11T14:29:46+00:00",
-      "summary": "Turn two or more Studio Displays into stereo speakers Discussion | Link",
+      "published_at": "2026-08-12T20:05:25+00:00",
+      "summary": "Browser for your agent. Runs local in a window you can see Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/trigger-dev",
-      "title": "Chat Agent by Trigger.dev",
-      "url": "https://www.producthunt.com/products/trigger-dev",
+      "id": "rss:https://www.producthunt.com/products/scrimba",
+      "title": "Scrimba Explain",
+      "url": "https://www.producthunt.com/products/scrimba",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Daniel B",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-04T16:49:47+00:00",
+      "summary": "Ask any question, get a video back instantly Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/lambdatest",
+      "title": "Kane CLI",
+      "url": "https://www.producthunt.com/products/lambdatest",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Rohan Chaubey",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-10T07:21:45+00:00",
+      "summary": "Natural language browser & mobile app tests from terminal Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/kin-health",
+      "title": "Kin Health",
+      "url": "https://www.producthunt.com/products/kin-health",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Arpan Parikh",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-13T05:35:04+00:00",
+      "summary": "Record doctor visits and get clear summaries Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/execlave",
+      "title": "Execlave",
+      "url": "https://www.producthunt.com/products/execlave",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1538,26 +1504,94 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-10T20:10:54+00:00",
-      "summary": "AI chat that keeps running after you close the tab Discussion | Link",
+      "published_at": "2026-06-30T05:47:14+00:00",
+      "summary": "The gate between your AI agents and the real world Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/ballet",
-      "title": "Ballet",
-      "url": "https://www.producthunt.com/products/ballet",
+      "id": "rss:https://www.producthunt.com/products/kitbitz",
+      "title": "Kitbitz",
+      "url": "https://www.producthunt.com/products/kitbitz",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Daniel Kimber",
+        "name": "Gaby Araujo",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-07T16:27:58+00:00",
-      "summary": "Agentic workflows that deliver the same outcome every time Discussion | Link",
+      "published_at": "2026-08-12T07:42:53+00:00",
+      "summary": "2K+ free hand-drawn illustrations for your projects, CC0 Discussion | Link",
       "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/kivicube",
+      "title": "Kivicube",
+      "url": "https://www.producthunt.com/products/kivicube",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "mindy333",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-12T23:52:57+00:00",
+      "summary": "Create AR experiences with AI, no code required! Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/chiplab",
+      "title": "Chiplab",
+      "url": "https://www.producthunt.com/products/chiplab",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Sohyeon Park",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-12T08:37:19+00:00",
+      "summary": "Test firmware on a virtual chip with no hardware needed Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://sspai.com/post/113459",
+      "title": "本周看什么 | 最近值得一看的 9 部作品",
+      "url": "https://sspai.com/post/113459",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://sspai.com/feed",
+        "name": "少数派编辑部",
+        "feed_title": "少数派"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T09:50:02+00:00",
+      "summary": "📅本周新预告《不存在的罪人》正式预告8月11日，电影《不存在的罪人》发布了正式预告，将于10月2日在北美上映。迈克尔·肖沃特执导，安妮·海瑟薇、达科塔·约翰逊、乔什·哈奈特主演，当红小说家留下未竟手稿 ...查看全文",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://sspai.com/post/113416",
+      "title": "你初高中时的书单里，总有本「东野圭吾」吧？",
+      "url": "https://sspai.com/post/113416",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://sspai.com/feed",
+        "name": "潘誉晗",
+        "feed_title": "少数派"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T07:00:00+00:00",
+      "summary": "纪念并且感谢他为我们留下的推理世界。查看全文",
+      "lang": "zh"
     },
     {
       "id": "rss:https://sspai.com/post/111709",
@@ -1696,38 +1730,23 @@
       "lang": "zh"
     },
     {
-      "id": "rss:https://sspai.com/post/113219",
-      "title": "把「闪念胶囊」（Almost）放到 iPhone 锁屏",
-      "url": "https://sspai.com/post/113219",
-      "platform": "rss",
+      "id": "hn:49289112",
+      "title": "Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "Linery",
-        "feed_title": "少数派"
+        "type": "hackernews",
+        "id": "49289112",
+        "name": "thisisauserid",
+        "hn_url": "https://news.ycombinator.com/item?id=49289112"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T09:30:00+00:00",
-      "summary": "想法被及时、完好的记下来，然后呢？查看全文",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://sspai.com/post/113352",
-      "title": "对话少数派老麦：从 Palm、WebOS 到 AI 硬件，依然不想成为多数派",
-      "url": "https://sspai.com/post/113352",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "少数派播客",
-        "feed_title": "少数派"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T07:00:00+00:00",
-      "summary": "《三五环》主播刘飞邀请老麦聊了聊他从 Palm 时代开始的二十年数码时代的经营历程。复盘了少数派如何从一家媒体，一步步跑通「内容+产品」的商业闭环；也聊到了他与罗永浩那段「不打不相识」的往事，以及那些改变了他对科技媒体商业模式认知的故事。查看全文",
-      "lang": "zh"
+      "views": 949,
+      "comments": 482,
+      "published_at": "2026-08-13T17:23:22+00:00",
+      "summary": "",
+      "matched_keyword": "Gemini",
+      "lang": "en"
     },
     {
       "id": "hn:48993414",
@@ -1744,25 +1763,6 @@
       "views": 760,
       "comments": 577,
       "published_at": "2026-07-21T15:17:16+00:00",
-      "summary": "",
-      "matched_keyword": "Gemini",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49289112",
-      "title": "Gemini 3.7 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49289112",
-        "name": "thisisauserid",
-        "hn_url": "https://news.ycombinator.com/item?id=49289112"
-      },
-      "duration_sec": null,
-      "views": 698,
-      "comments": 387,
-      "published_at": "2026-08-13T17:23:22+00:00",
       "summary": "",
       "matched_keyword": "Gemini",
       "lang": "en"
@@ -1901,6 +1901,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49266731",
+      "title": "Gemini becomes Google's fastest-growing product ever as it hits 1B users",
+      "url": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49266731",
+        "name": "Gaishan",
+        "hn_url": "https://news.ycombinator.com/item?id=49266731"
+      },
+      "duration_sec": null,
+      "views": 30,
+      "comments": 41,
+      "published_at": "2026-08-12T01:16:43+00:00",
+      "summary": "",
+      "matched_keyword": "Gemini",
+      "lang": "en"
+    },
+    {
       "id": "hn:48938111",
       "title": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals",
       "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals",
@@ -1950,7 +1969,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49256057"
       },
       "duration_sec": null,
-      "views": 195,
+      "views": 197,
       "comments": 30,
       "published_at": "2026-08-11T10:40:47+00:00",
       "summary": "",
@@ -1988,8 +2007,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49267928"
       },
       "duration_sec": null,
-      "views": 361,
-      "comments": 162,
+      "views": 363,
+      "comments": 163,
       "published_at": "2026-08-12T04:51:59+00:00",
       "summary": "",
       "matched_keyword": "Llama",
@@ -2008,7 +2027,7 @@
       },
       "duration_sec": null,
       "views": 305,
-      "comments": 41,
+      "comments": 42,
       "published_at": "2026-08-11T14:50:33+00:00",
       "summary": "",
       "matched_keyword": "Llama",
@@ -2102,28 +2121,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=49220126"
       },
       "duration_sec": null,
-      "views": 447,
+      "views": 448,
       "comments": 130,
       "published_at": "2026-08-08T09:18:50+00:00",
-      "summary": "",
-      "matched_keyword": "DeepMind",
-      "lang": "en"
-    },
-    {
-      "id": "hn:48925271",
-      "title": "Why I Left Google DeepMind",
-      "url": "https://turntrout.com/why-i-left-google-deepmind",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "48925271",
-        "name": "apsec112",
-        "hn_url": "https://news.ycombinator.com/item?id=48925271"
-      },
-      "duration_sec": null,
-      "views": 390,
-      "comments": 170,
-      "published_at": "2026-07-15T18:40:34+00:00",
       "summary": "",
       "matched_keyword": "DeepMind",
       "lang": "en"

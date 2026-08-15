@@ -2,7 +2,7 @@
   "domain": "AI",
   "domain_id": "ai",
   "topic_id": "default",
-  "fetched_at": "2026-08-14T04:53:35.875778+00:00",
+  "fetched_at": "2026-08-15T03:45:21.386818+00:00",
   "platforms": [
     "bilibili",
     "hackernews",
@@ -23,24 +23,41 @@
     "arXiv cs.LG（机器学习）": 30,
     "arXiv cs.AI（人工智能）": 30,
     "HN · Claude Code": 13,
-    "HN · Cursor": 6,
-    "HN · AI agent": 23,
+    "HN · Cursor": 7,
+    "HN · AI agent": 21,
     "HN · vibe coding": 2,
     "HN · GPT-5": 14,
     "HN · LLM benchmark": 5,
     "HN · RAG": 2,
-    "HN · MCP": 15,
-    "HN · Anthropic": 9,
+    "HN · MCP": 14,
+    "HN · Anthropic": 12,
     "HN · Windsurf": 0,
-    "B站 · vibe coding": 99
+    "B站 · vibe coding": 96
   },
   "subtopics": [
     {
       "name": "default"
     }
   ],
-  "total": 464,
+  "total": 462,
   "items": [
+    {
+      "id": "rss:https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+      "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+      "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.latent.space/feed",
+        "name": "Latent.Space",
+        "feed_title": "Latent.Space"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T05:30:39+00:00",
+      "summary": "Down, but not out!",
+      "lang": "en"
+    },
     {
       "id": "rss:https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
       "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
@@ -365,20 +382,37 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
-      "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
-      "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+      "id": "rss:https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+      "title": "Northern Gannet",
+      "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.latent.space/feed",
-        "name": "Latent.Space",
-        "feed_title": "Latent.Space"
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-07-24T04:30:12+00:00",
-      "summary": "A HUGE win for BFL!",
+      "published_at": "2026-08-15T03:22:00+00:00",
+      "summary": "Northern Gannet, in Pillar Point Harbor, CA, USThis is Morris. Morris is a local celebrity: the only known Northern Gannet (Morus bassanus) in the entire Pacific Ocean. He showed up in the Farallon Islands off the coast of San Francisco 14 years ago. He has since made Pillar Point harbor his home, where he's quite easy to spot: the only white bird with a yellow head, usually hanging out with the smaller black Brandt’s cormorants near the harbor sign visible from the end of the commercial pier. T...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+      "title": "Don't classify. Hallucinate!",
+      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://simonwillison.net/atom/everything/",
+        "name": "Simon Willison's Weblog",
+        "feed_title": "Simon Willison's Weblog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T21:54:35+00:00",
+      "summary": "Don&#x27;t classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\". Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fi...",
       "lang": "en"
     },
     {
@@ -855,40 +889,6 @@
       "views": null,
       "published_at": "2026-08-05T23:45:32+00:00",
       "summary": "Third-party cyber evaluations involving OpenAI models And another one. I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see my previous post) and another attack enabled by Irregular: Irregular, one of our external cybersecurity testing partners, was running Capture-the-Flag-style evaluations intended to be isolated from the internet, but a testing-environment misconfiguration allowed models to access the...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://simonwillison.net/2026/Aug/5/incident-report/",
-      "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
-      "url": "https://simonwillison.net/2026/Aug/5/incident-report/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://simonwillison.net/atom/everything/",
-        "name": "Simon Willison's Weblog",
-        "feed_title": "Simon Willison's Weblog"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-05T23:32:06+00:00",
-      "summary": "Incident Report: unsanctioned agent behaviour during cyber testing It happened again. This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccessf...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://simonwillison.net/2026/Aug/5/raccoon-heist/",
-      "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
-      "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://simonwillison.net/atom/everything/",
-        "name": "Simon Willison's Weblog",
-        "feed_title": "Simon Willison's Weblog"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-05T19:42:38+00:00",
-      "summary": "Back in 2022 I tweeted screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web) could build the entire game from the content of that tweet. It did a pretty good job of it! You can play the game here. Here's the GitHub repo, and a short video demo: Your browser does not support HTML5 video. How I built this This is the August 5th, 2022 tweet: My ...",
       "lang": "en"
     },
     {
@@ -1402,6 +1402,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "title": "State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://huggingface.co/blog/feed.xml",
+        "name": "Hugging Face - Blog",
+        "feed_title": "Hugging Face - Blog"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T00:00:00+00:00",
+      "summary": "",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
@@ -1891,23 +1908,6 @@
       "duration_sec": null,
       "views": null,
       "published_at": "2026-06-30T18:32:50+00:00",
-      "summary": "",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "title": "Why Specialization Is Inevitable",
-      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://huggingface.co/blog/feed.xml",
-        "name": "Hugging Face - Blog",
-        "feed_title": "Hugging Face - Blog"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-30T14:39:11+00:00",
       "summary": "",
       "lang": "en"
     },
@@ -4833,8 +4833,27 @@
       },
       "duration_sec": null,
       "views": 172,
-      "comments": 71,
+      "comments": 72,
       "published_at": "2026-08-08T15:34:49+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49300800",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49300800",
+        "name": "twapi",
+        "hn_url": "https://news.ycombinator.com/item?id=49300800"
+      },
+      "duration_sec": null,
+      "views": 146,
+      "comments": 99,
+      "published_at": "2026-08-14T16:15:21+00:00",
       "summary": "",
       "matched_keyword": "Claude Code",
       "lang": "en"
@@ -4873,6 +4892,25 @@
       "views": 69,
       "comments": 14,
       "published_at": "2026-08-03T00:22:55+00:00",
+      "summary": "",
+      "matched_keyword": "Claude Code",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49299985",
+      "title": "Show HN: Graft – Claude Code hooks that cut grep tokens by 42%",
+      "url": "https://github.com/NanoNets/Graft",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49299985",
+        "name": "shrishdwi",
+        "hn_url": "https://news.ycombinator.com/item?id=49299985"
+      },
+      "duration_sec": null,
+      "views": 38,
+      "comments": 40,
+      "published_at": "2026-08-14T15:22:02+00:00",
       "summary": "",
       "matched_keyword": "Claude Code",
       "lang": "en"
@@ -4973,44 +5011,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49214994",
-      "title": "Claude Code: Starting August 14, auto mode will be the default permission mode",
-      "url": "https://twitter.com/ClaudeDevs/status/2085794862608318627",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49214994",
-        "name": "tosh",
-        "hn_url": "https://news.ycombinator.com/item?id=49214994"
-      },
-      "duration_sec": null,
-      "views": 23,
-      "comments": 23,
-      "published_at": "2026-08-07T19:11:00+00:00",
-      "summary": "",
-      "matched_keyword": "Claude Code",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49220827",
-      "title": "Auto Mode will be the default in Claude Code – because humans can't be trusted",
-      "url": "https://thenewstack.io/claude-code-auto-mode/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49220827",
-        "name": "maxloh",
-        "hn_url": "https://news.ycombinator.com/item?id=49220827"
-      },
-      "duration_sec": null,
-      "views": 23,
-      "comments": 6,
-      "published_at": "2026-08-08T11:35:06+00:00",
-      "summary": "",
-      "matched_keyword": "Claude Code",
-      "lang": "en"
-    },
-    {
       "id": "hn:49283063",
       "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
       "url": "https://www.codewithbullet.com",
@@ -5022,8 +5022,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49283063"
       },
       "duration_sec": null,
-      "views": 91,
-      "comments": 65,
+      "views": 107,
+      "comments": 86,
       "published_at": "2026-08-13T08:14:30+00:00",
       "summary": "",
       "matched_keyword": "Claude Code",
@@ -5041,8 +5041,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49283563"
       },
       "duration_sec": null,
-      "views": 88,
-      "comments": 79,
+      "views": 92,
+      "comments": 86,
       "published_at": "2026-08-13T09:34:13+00:00",
       "summary": "",
       "matched_keyword": "Claude Code",
@@ -5060,9 +5060,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=49135257"
       },
       "duration_sec": null,
-      "views": 336,
+      "views": 337,
       "comments": 153,
       "published_at": "2026-08-01T15:25:21+00:00",
+      "summary": "",
+      "matched_keyword": "Cursor",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49298211",
+      "title": "Cursor is now a part of SpaceX",
+      "url": "https://cursor.com/blog/joining-spacex",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49298211",
+        "name": "billy_jones_75",
+        "hn_url": "https://news.ycombinator.com/item?id=49298211"
+      },
+      "duration_sec": null,
+      "views": 96,
+      "comments": 109,
+      "published_at": "2026-08-14T13:10:12+00:00",
       "summary": "",
       "matched_keyword": "Cursor",
       "lang": "en"
@@ -5174,8 +5193,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49239751"
       },
       "duration_sec": null,
-      "views": 691,
-      "comments": 397,
+      "views": 692,
+      "comments": 396,
       "published_at": "2026-08-10T06:02:38+00:00",
       "summary": "",
       "matched_keyword": "AI agent",
@@ -5212,8 +5231,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49285604"
       },
       "duration_sec": null,
-      "views": 158,
-      "comments": 197,
+      "views": 163,
+      "comments": 203,
       "published_at": "2026-08-13T13:28:45+00:00",
       "summary": "",
       "matched_keyword": "AI agent",
@@ -5231,28 +5250,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=49269090"
       },
       "duration_sec": null,
-      "views": 155,
+      "views": 159,
       "comments": 35,
       "published_at": "2026-08-12T07:51:20+00:00",
-      "summary": "",
-      "matched_keyword": "AI agent",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49119274",
-      "title": "Show HN: What should the GUI for AI agents look like?",
-      "url": "https://marbleos.com/demo",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49119274",
-        "name": "akbabu",
-        "hn_url": "https://news.ycombinator.com/item?id=49119274"
-      },
-      "duration_sec": null,
-      "views": 139,
-      "comments": 86,
-      "published_at": "2026-07-31T05:17:29+00:00",
       "summary": "",
       "matched_keyword": "AI agent",
       "lang": "en"
@@ -5291,6 +5291,25 @@
       "views": 120,
       "comments": 35,
       "published_at": "2026-08-03T11:06:15+00:00",
+      "summary": "",
+      "matched_keyword": "AI agent",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49298088",
+      "title": "HashAgent – Share an AI agent as a URL, runs locally via WebGPU",
+      "url": "https://hashagent.pages.dev/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49298088",
+        "name": "masonhsu",
+        "hn_url": "https://news.ycombinator.com/item?id=49298088"
+      },
+      "duration_sec": null,
+      "views": 48,
+      "comments": 7,
+      "published_at": "2026-08-14T12:57:02+00:00",
       "summary": "",
       "matched_keyword": "AI agent",
       "lang": "en"
@@ -5345,7 +5364,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49238851"
       },
       "duration_sec": null,
-      "views": 211,
+      "views": 213,
       "comments": 89,
       "published_at": "2026-08-10T03:18:40+00:00",
       "summary": "",
@@ -5384,7 +5403,7 @@
       },
       "duration_sec": null,
       "views": 62,
-      "comments": 38,
+      "comments": 39,
       "published_at": "2026-08-07T04:04:07+00:00",
       "summary": "",
       "matched_keyword": "AI agent",
@@ -5421,8 +5440,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49241679"
       },
       "duration_sec": null,
-      "views": 1200,
-      "comments": 637,
+      "views": 1203,
+      "comments": 638,
       "published_at": "2026-08-10T10:10:02+00:00",
       "summary": "",
       "matched_keyword": "AI agent",
@@ -5460,7 +5479,7 @@
       },
       "duration_sec": null,
       "views": 81,
-      "comments": 70,
+      "comments": 71,
       "published_at": "2026-08-03T16:32:06+00:00",
       "summary": "",
       "matched_keyword": "AI agent",
@@ -5543,44 +5562,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49150561",
-      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
-      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49150561",
-        "name": "JSR_FDED",
-        "hn_url": "https://news.ycombinator.com/item?id=49150561"
-      },
-      "duration_sec": null,
-      "views": 213,
-      "comments": 106,
-      "published_at": "2026-08-03T02:30:30+00:00",
-      "summary": "",
-      "matched_keyword": "AI agent",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49221864",
-      "title": "Gentoo bugzilla closed due AI bot scraper overload",
-      "url": "https://social.treehouse.systems/@mgorny/117058483039362779",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49221864",
-        "name": "happosai",
-        "hn_url": "https://news.ycombinator.com/item?id=49221864"
-      },
-      "duration_sec": null,
-      "views": 173,
-      "comments": 114,
-      "published_at": "2026-08-08T13:55:42+00:00",
-      "summary": "",
-      "matched_keyword": "AI agent",
-      "lang": "en"
-    },
-    {
       "id": "hn:49033388",
       "title": "How do we stop vibe coding?",
       "url": "https://alexklos.ca/blog/how-do-we-stop-vibe-coding",
@@ -5619,6 +5600,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49289844",
+      "title": "Accelerating GPT-5.6 Sol Ultrafast",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49289844",
+        "name": "pr337h4m",
+        "hn_url": "https://news.ycombinator.com/item?id=49289844"
+      },
+      "duration_sec": null,
+      "views": 698,
+      "comments": 272,
+      "published_at": "2026-08-13T18:10:02+00:00",
+      "summary": "",
+      "matched_keyword": "GPT-5",
+      "lang": "en"
+    },
+    {
       "id": "hn:49112867",
       "title": "Advancing the price-performance frontier with GPT‑5.6",
       "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
@@ -5652,25 +5652,6 @@
       "views": 601,
       "comments": 391,
       "published_at": "2026-07-18T13:00:52+00:00",
-      "summary": "",
-      "matched_keyword": "GPT-5",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49289844",
-      "title": "Accelerating GPT-5.6 Sol Ultrafast",
-      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49289844",
-        "name": "pr337h4m",
-        "hn_url": "https://news.ycombinator.com/item?id=49289844"
-      },
-      "duration_sec": null,
-      "views": 496,
-      "comments": 205,
-      "published_at": "2026-08-13T18:10:02+00:00",
       "summary": "",
       "matched_keyword": "GPT-5",
       "lang": "en"
@@ -5991,8 +5972,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49269818"
       },
       "duration_sec": null,
-      "views": 476,
-      "comments": 339,
+      "views": 478,
+      "comments": 342,
       "published_at": "2026-08-12T09:35:30+00:00",
       "summary": "",
       "matched_keyword": "RAG",
@@ -6030,7 +6011,7 @@
       },
       "duration_sec": null,
       "views": 73,
-      "comments": 45,
+      "comments": 49,
       "published_at": "2026-08-11T05:26:58+00:00",
       "summary": "",
       "matched_keyword": "MCP",
@@ -6048,7 +6029,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49292584"
       },
       "duration_sec": null,
-      "views": 71,
+      "views": 73,
       "comments": 0,
       "published_at": "2026-08-13T22:26:25+00:00",
       "summary": "",
@@ -6067,7 +6048,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49286073"
       },
       "duration_sec": null,
-      "views": 57,
+      "views": 62,
       "comments": 35,
       "published_at": "2026-08-13T13:57:47+00:00",
       "summary": "",
@@ -6108,25 +6089,6 @@
       "views": 21,
       "comments": 2,
       "published_at": "2026-08-01T22:22:01+00:00",
-      "summary": "",
-      "matched_keyword": "MCP",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49124733",
-      "title": "Show HN: Shared memory graph for Claude and ChatGPT, over MCP",
-      "url": "https://uml.gpmai.workers.dev",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49124733",
-        "name": "12ziyad",
-        "hn_url": "https://news.ycombinator.com/item?id=49124733"
-      },
-      "duration_sec": null,
-      "views": 17,
-      "comments": 12,
-      "published_at": "2026-07-31T15:58:01+00:00",
       "summary": "",
       "matched_keyword": "MCP",
       "lang": "en"
@@ -6314,8 +6276,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49283891"
       },
       "duration_sec": null,
-      "views": 62,
-      "comments": 88,
+      "views": 63,
+      "comments": 92,
       "published_at": "2026-08-13T10:23:51+00:00",
       "summary": "",
       "matched_keyword": "Anthropic",
@@ -6379,6 +6341,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49303540",
+      "title": "Anthropic Risk August 2026 [pdf]",
+      "url": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49303540",
+        "name": "artninja1988",
+        "hn_url": "https://news.ycombinator.com/item?id=49303540"
+      },
+      "duration_sec": null,
+      "views": 53,
+      "comments": 49,
+      "published_at": "2026-08-14T19:32:15+00:00",
+      "summary": "",
+      "matched_keyword": "Anthropic",
+      "lang": "en"
+    },
+    {
       "id": "hn:49247070",
       "title": "Learning more about Claude's mathematical capabilities",
       "url": "https://www.anthropic.com/research/riemann-zeta",
@@ -6409,9 +6390,47 @@
         "hn_url": "https://news.ycombinator.com/item?id=49285909"
       },
       "duration_sec": null,
-      "views": 73,
-      "comments": 51,
+      "views": 78,
+      "comments": 53,
       "published_at": "2026-08-13T13:48:14+00:00",
+      "summary": "",
+      "matched_keyword": "Anthropic",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49294362",
+      "title": "Even Claude Is in the Dark About Dario Amodei's Wife",
+      "url": "https://www.wsj.com/tech/ai/claude-dario-amodei-wife-anthropic-e1eeda7d",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49294362",
+        "name": "latchkey",
+        "hn_url": "https://news.ycombinator.com/item?id=49294362"
+      },
+      "duration_sec": null,
+      "views": 45,
+      "comments": 7,
+      "published_at": "2026-08-14T03:06:04+00:00",
+      "summary": "",
+      "matched_keyword": "Anthropic",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49303350",
+      "title": "How Claude's text watermarking works",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49303350",
+        "name": "surprisetalk",
+        "hn_url": "https://news.ycombinator.com/item?id=49303350"
+      },
+      "duration_sec": null,
+      "views": 42,
+      "comments": 54,
+      "published_at": "2026-08-14T19:15:51+00:00",
       "summary": "",
       "matched_keyword": "Anthropic",
       "lang": "en"
@@ -6427,191 +6446,11 @@
         "name": "人工大黑"
       },
       "duration_sec": 2099,
-      "views": 1705902,
-      "danmaku": 17837,
-      "favorites": 101947,
+      "views": 1710380,
+      "danmaku": 17879,
+      "favorites": 102168,
       "published_at": "2026-04-22T09:02:25+00:00",
       "summary": "本期视频因为白菜要毕业了，up伤心过度导致了拖更（）",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1WS5B6WECp",
-      "title": "10分钟完成Ubuntu安装Claude Code并免费使用DeepSeekV4模型",
-      "url": "http://www.bilibili.com/video/av116579891153749",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "1105018344",
-        "name": "不倒翁lhj"
-      },
-      "duration_sec": 700,
-      "views": 19172,
-      "danmaku": 2,
-      "favorites": 535,
-      "published_at": "2026-05-15T18:01:19+00:00",
-      "summary": "10分钟完成Ubuntu安装Claude Code并免费使用DeepSeekV4模型\n代金券领取链接：https://cloud.siliconflow.cn/i/hkV35uvp\nnodejs下载链接：Node.js — Download Node.js®\ncc-switch下载链接：github.com/farion1231/cc-switch/releases\n安装包和笔记下载链接：https://pan.baidu.com/s/12IDm7vXhr-o8kL65S6tEyA?pwd=1029",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1xh3C6cEGv",
-      "title": "两周完成一篇SCI论文，用claude code帮你干",
-      "url": "http://www.bilibili.com/video/av117002408559933",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546632459127726",
-        "name": "博士大师兄木水"
-      },
-      "duration_sec": 805,
-      "views": 5767,
-      "danmaku": 1,
-      "favorites": 543,
-      "published_at": "2026-07-29T08:53:04+00:00",
-      "summary": "大师兄八股文SCI速成模板已制作成skill，手把手带你实现一键生成SCI论文初稿",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1vYFQzQE4P",
-      "title": "🚀OpenClaw高级使用经验之如何调用Claude Code最省Token！Claude Code Hooks回调+Agent Teams全自动开发零轮询",
-      "url": "http://www.bilibili.com/video/av116046157647899",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3493277319825652",
-        "name": "AI超元域"
-      },
-      "duration_sec": 640,
-      "views": 47596,
-      "danmaku": 20,
-      "favorites": 1819,
-      "published_at": "2026-02-10T11:44:51+00:00",
-      "summary": "🚀OpenClaw高级使用经验之如何调用Claude Code最省Token！2026年最强生产力！Claude Code Hooks回调+Agent Teams实现全自动开发零轮询方案详解！效率神器\n\n\n\n🚀🚀🚀视频简介：\n✅重磅教程！用Claude Code Hooks彻底解决OpenClaw轮询消耗Token的痛点！Stop Hook自动回调让Token消耗从暴涨变为几乎忽略不计！\n🔥 本期视频详细演示了如何通过Claude Code的Hooks回调机制，彻底解决OpenClaw调用Claude C",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1JBorBoEXh",
-      "title": "Claude Code保姆级全套教程（软件+文档），从入门到精通，搞定所有开发场景，零基础十分钟上手，全程干货无废话！",
-      "url": "http://www.bilibili.com/video/av116475771755099",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "602384997",
-        "name": "舔砖加瓦编程小马"
-      },
-      "duration_sec": 27607,
-      "views": 155087,
-      "danmaku": 109,
-      "favorites": 6871,
-      "published_at": "2026-04-27T08:51:41+00:00",
-      "summary": "Claude Code保姆级全套教程（软件+文档）\n   喜欢视频课程的同学一键三连多多支持一下，长按点赞五秒=lv6大佬 可以的发送彩色弹幕哦。\n配套源码项目已打包评论区回复up",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1wugF6YEL3",
-      "title": "再见Claude Code！你好DeepSeek Harness！",
-      "url": "http://www.bilibili.com/video/av117089415204498",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546659109735216",
-        "name": "Lau博士的云组会"
-      },
-      "duration_sec": 285,
-      "views": 138626,
-      "danmaku": 422,
-      "favorites": 2475,
-      "published_at": "2026-08-13T17:42:16+00:00",
-      "summary": "DeepSeek Harness开源了。看完就两个字：牛逼\n本期视频，Lau博士就带着大家一起，解读DeepSeek 亲手做的这个 Harness，到底有什么不一样。",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV13cmnBFEP9",
-      "title": "Claude Code教程9：Claude Code与GitHub的高效联动",
-      "url": "http://www.bilibili.com/video/av115689541077475",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "420718414",
-        "name": "木乐乐的异想世界"
-      },
-      "duration_sec": 347,
-      "views": 5354,
-      "danmaku": 0,
-      "favorites": 109,
-      "published_at": "2025-12-09T12:17:23+00:00",
-      "summary": "【Claude Code教程第9集中文翻译】Net Ninja带你解锁Claude Code与GitHub的高效联动！本集聚焦实用核心功能：无需复杂配置，在Claude聊天会话中即可设置GitHub集成——安装后自动创建两个关键GitHub Action：①自动审查拉取请求（PR）并给出精准反馈；②当仓库问题提及Claude时，自动在新功能分支处理该问题。注意：需先安装GitHub CLI（附官方安装指引）。作为AI辅助开发的落地技巧，本翻译视频帮中文开发者跳过英文文档门槛，快速掌握Claude Code",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1ia9UBPESQ",
-      "title": "在VScode中配置Claude Code并接入DeepSeek V4 Pro【oo唠嗑教程】",
-      "url": "http://www.bilibili.com/video/av116487012549813",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "1523447207",
-        "name": "沉默的羔丸voov"
-      },
-      "duration_sec": 1877,
-      "views": 305899,
-      "danmaku": 755,
-      "favorites": 15757,
-      "published_at": "2026-04-29T08:23:29+00:00",
-      "summary": "配置方法如下：\n(想用真心换取你的关注...蟹蟹泥...)\nsetting.json添加：\n{ &quot;name&quot;: &quot;ANTHROPIC_BASE_URL&quot;, &quot;value&quot;: &quot;https://xxxx&quot; }, \n{ &quot;name&quot;: &quot;ANTHROPIC_AUTH_TOKEN&quot;, &quot;value&quot;: &quot;xxxx&quot; }\n\ndeepseek:\nwww.deepseek.com\nhttps://api-docs.deepseek.com/zh-cn/quick_start/pricing\n\ngithub link:",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1XiD5BQEAj",
-      "title": "Claude Code 接入微信、一行命令把Claude Code装进微信、保姆级教程、微信支持Claude Code（cc-connect）远程开发",
-      "url": "http://www.bilibili.com/video/av116350093694897",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546599351388553",
-        "name": "下班学AI"
-      },
-      "duration_sec": 458,
-      "views": 38680,
-      "danmaku": 11,
-      "favorites": 1232,
-      "published_at": "2026-04-05T04:02:16+00:00",
-      "summary": "【别再看电脑了！】一行命令，让Claude Code实现远程调用🔥\n还在守着电脑终端敲Prompt？太Low了！今天手把手教你用 cc-connect 把Claude Code接入即时通讯工具，实现远程开发。\n👉 本期视频你将学到：\n1️⃣ 一行命令极速部署，无需复杂后端\n2️⃣ 手机端直接操控：发语音、发文字，AI帮你写代码、修Bug\n3️⃣ 远程开发实战：躺在沙发上用手机调优项目\n从此手机就是你的移动工作站，不再被电脑束缚！真正的保姆级教程，小白也能跟得上",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1cCj2ztEf5",
-      "title": "Cursor+Claude Code+Claude 4终极组合！仅用10分钟为开源项目Magentic-UI完美集成JWT用户认证系统，编程效率提升300%",
-      "url": "http://www.bilibili.com/video/av114574527307727",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3493277319825652",
-        "name": "AI超元域"
-      },
-      "duration_sec": 605,
-      "views": 35114,
-      "danmaku": 9,
-      "favorites": 976,
-      "published_at": "2025-05-26T14:20:15+00:00",
-      "summary": "Cursor+Claude Code+Claude 4终极组合！仅用10分钟为开源项目Magentic-UI完美集成JWT用户认证系统，编程效率提升300%，告别传统开发模式！小白也能轻松开发商业项目\n\n🚀🚀🚀视频简介：\n✅【保姆级教程】从技术栈分析到功能实现：Claude Code完整开发流程深度解析！从零开始为微软开源智能体项目添加完整用户认证功能，支持注册登录退出，让你的AI应用瞬间变身多用户平台的神级操作！\n🚀 本期视频详细演示了如何使用Anthropic最新发布的Claude Code工具，结合",
       "matched_keywords": [
         "Claude Code 实战"
       ]
@@ -6627,11 +6466,51 @@
         "name": "马克的技术工作坊"
       },
       "duration_sec": 2685,
-      "views": 1270299,
-      "danmaku": 1476,
-      "favorites": 108453,
+      "views": 1271771,
+      "danmaku": 1477,
+      "favorites": 108520,
       "published_at": "2026-01-25T08:55:20+00:00",
       "summary": "时间戳如下，方便大家跳转观看：\n \n第一部分：环境搭建与基础交互\n- 01:09 安装 Claude Code\n- 01:43 登录与授权\n- 02:55 第一个实战问题\n- 03:12 三种模式详解 (默认/自动/规划)\n \n第二部分：复杂任务处理与终端控制\n- 06:00 执行终端命令 (Bash)\n- 06:49 使用规划模式 (Plan Mode)\n- 11:06 跳过所有权限检测 (dangerously-skip-permissions)\n- 13:53 后台任务管理 (Background",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1wugF6YEL3",
+      "title": "再见Claude Code！你好DeepSeek Harness！",
+      "url": "http://www.bilibili.com/video/av117089415204498",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546659109735216",
+        "name": "Lau博士的云组会"
+      },
+      "duration_sec": 285,
+      "views": 311610,
+      "danmaku": 563,
+      "favorites": 5966,
+      "published_at": "2026-08-13T17:42:16+00:00",
+      "summary": "DeepSeek Harness开源了。看完就两个字：牛逼\n本期视频，Lau博士就带着大家一起，解读DeepSeek 亲手做的这个 Harness，到底有什么不一样。",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1xh3C6cEGv",
+      "title": "两周完成一篇SCI论文，用claude code帮你干",
+      "url": "http://www.bilibili.com/video/av117002408559933",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546632459127726",
+        "name": "博士大师兄木水"
+      },
+      "duration_sec": 805,
+      "views": 5908,
+      "danmaku": 1,
+      "favorites": 551,
+      "published_at": "2026-07-29T08:53:04+00:00",
+      "summary": "大师兄八股文SCI速成模板已制作成skill，手把手带你实现一键生成SCI论文初稿",
       "matched_keywords": [
         "Claude Code 实战"
       ]
@@ -6647,31 +6526,11 @@
         "name": "AI超元域"
       },
       "duration_sec": 1042,
-      "views": 91108,
+      "views": 91206,
       "danmaku": 91,
-      "favorites": 885,
+      "favorites": 887,
       "published_at": "2026-07-17T09:10:43+00:00",
       "summary": "视频简介：\n\n月之暗面最新发布的 Kimi K3，拥有2.8万亿参数和100万 Token 上下文窗口，它的真实编程能力究竟怎么样？\n\n本期视频将对 Kimi K3 进行一次完整的高难度编程实测。我们先在官方网页版测试 SVG 手绘灯泡、复杂过河动画、南宋古都轻功游戏和土星自行车比赛，再将 Kimi K3 接入 Claude Code，开发原生 macOS 音乐播放器、侏罗纪坦克射击游戏以及 iOS 背单词应用。\n\n最后，我们还会使用 Godot 4，让它挑战一款融合 Minecraft、恐龙、生存玩法、",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1iDRQBrEF6",
-      "title": "Claude + Blender 现在太强了 —— 完整免费设置",
-      "url": "http://www.bilibili.com/video/av116543333601720",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "393059167",
-        "name": "设计之道"
-      },
-      "duration_sec": 857,
-      "views": 16225,
-      "danmaku": 5,
-      "favorites": 1001,
-      "published_at": "2026-05-09T07:11:36+00:00",
-      "summary": "【简介】\nAnthropic 刚刚发布了用于创意工具的官方 Claude Connectors —— 其中 Blender 连接器对 3D 艺术家来说最重要。在本视频中，我将展示最佳的 Claude + Blender 免费设置，以及为什么这次更新可能会改变我们构建 3D 场景的方式。\n\n【你将学到】\n01:13 步骤 1：安装 Blender MCP 和 Claude Code\n02:31 步骤 2：连接 fal.ai（Patina PBR）\n05:09 步骤 3：添加 3D AI Studio（Tri",
       "matched_keywords": [
         "Claude Code 实战"
       ]
@@ -6687,32 +6546,255 @@
         "name": "尚硅谷"
       },
       "duration_sec": 48790,
-      "views": 1116191,
-      "danmaku": 3907,
-      "favorites": 27456,
+      "views": 1121793,
+      "danmaku": 3926,
+      "favorites": 27532,
       "published_at": "2026-06-09T02:00:00+00:00",
       "summary": "【配套资料】关注公众号：尚硅谷教育，回复“VibeCoding”免费获取\n【课程简介】从零开始，用自然语言指挥AI开发真实软件项目！",
       "matched_keywords": [
         "Claude Code 实战",
+        "Cursor AI 编程",
         "vibe coding"
       ]
     },
     {
-      "id": "bvid:BV1UP5Q6aEVT",
-      "title": "国内网络手把手安装安装Claude Code + 自动剪辑视频Skill",
-      "url": "http://www.bilibili.com/video/av116571787823926",
+      "id": "bvid:BV172GP6rEZs",
+      "title": "🚀DeepSeek V4 Flash全面实测：Claude Code接入后连续开发7个项目，真的已经接近Claude Opus 4.8了吗？最便宜的国产模型！",
+      "url": "http://www.bilibili.com/video/av117014605731815",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "510276123",
-        "name": "跟着阿亮学AI"
+        "id": "3493277319825652",
+        "name": "AI超元域"
       },
-      "duration_sec": 374,
-      "views": 6700,
-      "danmaku": 4,
-      "favorites": 422,
-      "published_at": "2026-05-14T07:40:10+00:00",
-      "summary": "国内网络手把手安装安装Claude Code！不用写代码，新手也能剪动画视频\n✅ Claude Code保姆及安装教程+配置Kimi模型\n✅ Remotion一句话出动画，一键剪辑skill开源，口播+字幕直接出成品\n全套教程文档已备好！小白也能实现动画剪视频自由",
+      "duration_sec": 792,
+      "views": 178270,
+      "danmaku": 457,
+      "favorites": 1525,
+      "published_at": "2026-07-31T12:42:57+00:00",
+      "summary": "🚀DeepSeek v4 flash全面实测：Claude Code接入后连续开发7个项目，真的已经接近Claude Opus 4.8了吗？最便宜的国产模型！性能、速度与真实短板全曝光！对比Kimi K3后优点和缺点都藏不住了\n\nDeepSeek 发布了 DeepSeek V4 Flash 0731：284B 总参数、13B 激活参数、100 万 Token 上下文，官方基准表现接近 Claude Opus 4.8，价格却更加便宜。\n\n它能否替代昂贵模型？又是否适合作为 Codex和Claude Code",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1WS5B6WECp",
+      "title": "10分钟完成Ubuntu安装Claude Code并免费使用DeepSeekV4模型",
+      "url": "http://www.bilibili.com/video/av116579891153749",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "1105018344",
+        "name": "不倒翁lhj"
+      },
+      "duration_sec": 700,
+      "views": 19268,
+      "danmaku": 2,
+      "favorites": 538,
+      "published_at": "2026-05-15T18:01:19+00:00",
+      "summary": "10分钟完成Ubuntu安装Claude Code并免费使用DeepSeekV4模型\n代金券领取链接：https://cloud.siliconflow.cn/i/hkV35uvp\nnodejs下载链接：Node.js — Download Node.js®\ncc-switch下载链接：github.com/farion1231/cc-switch/releases\n安装包和笔记下载链接：https://pan.baidu.com/s/12IDm7vXhr-o8kL65S6tEyA?pwd=1029",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1JBorBoEXh",
+      "title": "Claude Code保姆级全套教程（软件+文档），从入门到精通，搞定所有开发场景，零基础十分钟上手，全程干货无废话！",
+      "url": "http://www.bilibili.com/video/av116475771755099",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "602384997",
+        "name": "舔砖加瓦编程小马"
+      },
+      "duration_sec": 27607,
+      "views": 156400,
+      "danmaku": 111,
+      "favorites": 6914,
+      "published_at": "2026-04-27T08:51:41+00:00",
+      "summary": "Claude Code保姆级全套教程（软件+文档）\n   喜欢视频课程的同学一键三连多多支持一下，长按点赞五秒=lv6大佬 可以的发送彩色弹幕哦。\n配套源码项目已打包评论区回复up",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1W7gP6CEEV",
+      "title": "🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、代码分析！比Claude Code更强？",
+      "url": "http://www.bilibili.com/video/av117093206923174",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3493277319825652",
+        "name": "AI超元域"
+      },
+      "duration_sec": 774,
+      "views": 25967,
+      "danmaku": 39,
+      "favorites": 810,
+      "published_at": "2026-08-14T09:46:31+00:00",
+      "summary": "视频简介：\n\nDeepSeek突然开源Harness！一切皆插件+Web UI+多模型，我实测后发现它真可能挑战Claude Code和Codex\n\nDeepSeek 在 V4 Pro 之后紧接着开源了 DeepSeek Harness，它最核心的理念就是“一切皆插件”。\n\n这期视频从零开始安装并完整实测 DeepSeek Harness，包括 Web UI、远程访问、多模型接入、插件系统、不同 Agent 模式、执行轨迹、Issue/PR 分析以及会话分支。\n\n更重要的是，我使用 DeepSeek V4",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1dngn6CECd",
+      "title": "🚀只花5元开发了5个复杂项目！DeepSeek V4 Pro深度实测：1M上下文接入Claude Code实测表现竟然接近Kimi K3？Token超便宜！",
+      "url": "http://www.bilibili.com/video/av117087234430329",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3493277319825652",
+        "name": "AI超元域"
+      },
+      "duration_sec": 907,
+      "views": 36846,
+      "danmaku": 45,
+      "favorites": 253,
+      "published_at": "2026-08-13T08:26:59+00:00",
+      "summary": "视频简介：\n\n只花5.36元完成6个复杂编程项目！DeepSeek V4 Pro 0813 接入Claude Code完整实测！\n\nDeepSeek V4 Pro 0813 正式上线，这期视频我直接将它接入 Claude Code，测试它真实的编程开发能力。\n\n测试项目包括 SVG 动画、Three.js 古戈尔齿轮、科幻小说宇宙飞船复刻、南宋古城小游戏、Manim 数学动画、Godot 3D 恐龙射击游戏，以及 SwiftUI 原生 macOS 音乐播放器。\n\n整个测试不仅考察代码生成，还覆盖了工具调用",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1cCj2ztEf5",
+      "title": "Cursor+Claude Code+Claude 4终极组合！仅用10分钟为开源项目Magentic-UI完美集成JWT用户认证系统，编程效率提升300%",
+      "url": "http://www.bilibili.com/video/av114574527307727",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3493277319825652",
+        "name": "AI超元域"
+      },
+      "duration_sec": 605,
+      "views": 35117,
+      "danmaku": 9,
+      "favorites": 976,
+      "published_at": "2025-05-26T14:20:15+00:00",
+      "summary": "Cursor+Claude Code+Claude 4终极组合！仅用10分钟为开源项目Magentic-UI完美集成JWT用户认证系统，编程效率提升300%，告别传统开发模式！小白也能轻松开发商业项目\n\n🚀🚀🚀视频简介：\n✅【保姆级教程】从技术栈分析到功能实现：Claude Code完整开发流程深度解析！从零开始为微软开源智能体项目添加完整用户认证功能，支持注册登录退出，让你的AI应用瞬间变身多用户平台的神级操作！\n🚀 本期视频详细演示了如何使用Anthropic最新发布的Claude Code工具，结合",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1RFTc62EaK",
+      "title": "黑马Vibe Coding零基础入门，vibecoding项目，涵盖Claude Code、Cursor、Codex、SDD、LangChain、Agent开发",
+      "url": "http://www.bilibili.com/video/av116838327388595",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "37974444",
+        "name": "黑马程序员"
+      },
+      "duration_sec": 30533,
+      "views": 565296,
+      "danmaku": 1582,
+      "favorites": 22085,
+      "published_at": "2026-07-01T02:00:00+00:00",
+      "summary": "本套视频教程所有配套资料领取方式如下：\n关注黑马程序员公 粽 号，回复关键词：260701\n【AI大模型学习路线图】展开查看更多内容\nhttps://www.bilibili.com/opus/1129722427782201345\n如何下载资料\nhttps://www.bilibili.com/opus/443715248901563958\n\nAI大模型开发热门教程：\nAI大模型开发：BV1h1VbzHER2\nPython语言进阶：BV1U2WmzfEqp\nPython数据分析：BV1ReshzoEgG",
+      "matched_keywords": [
+        "Claude Code 实战",
+        "Cursor AI 编程",
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1NvRyBzEhq",
+      "title": "全网最全！60分钟全面掌握Claude Code～【附完整文档】",
+      "url": "http://www.bilibili.com/video/av116522328524431",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "385670211",
+        "name": "秋芝2046"
+      },
+      "duration_sec": 3369,
+      "views": 1500360,
+      "danmaku": 5222,
+      "favorites": 150808,
+      "published_at": "2026-05-05T14:08:25+00:00",
+      "summary": "Claude Code保姆级教学【收藏起来不会错！】\n从上手安装，到高级用法，这期一次讲全～\n花了三周做教程，希望能帮到你嘻嘻，感谢朋友们的三连+关注啦～",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1JgVq6ME6v",
+      "title": "超详细Claude Code+Harness教程",
+      "url": "http://www.bilibili.com/video/av116679111610655",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "349929259",
+        "name": "知了传课"
+      },
+      "duration_sec": 13343,
+      "views": 13259,
+      "danmaku": 37,
+      "favorites": 681,
+      "published_at": "2026-06-02T06:33:18+00:00",
+      "summary": "面向2026最新版超详细Claude Code+Harness教程，保姆级教程，高效AI编程技巧。资料领取请关注置顶评论。",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1vYFQzQE4P",
+      "title": "🚀OpenClaw高级使用经验之如何调用Claude Code最省Token！Claude Code Hooks回调+Agent Teams全自动开发零轮询",
+      "url": "http://www.bilibili.com/video/av116046157647899",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3493277319825652",
+        "name": "AI超元域"
+      },
+      "duration_sec": 640,
+      "views": 47608,
+      "danmaku": 20,
+      "favorites": 1818,
+      "published_at": "2026-02-10T11:44:51+00:00",
+      "summary": "🚀OpenClaw高级使用经验之如何调用Claude Code最省Token！2026年最强生产力！Claude Code Hooks回调+Agent Teams实现全自动开发零轮询方案详解！效率神器\n\n\n\n🚀🚀🚀视频简介：\n✅重磅教程！用Claude Code Hooks彻底解决OpenClaw轮询消耗Token的痛点！Stop Hook自动回调让Token消耗从暴涨变为几乎忽略不计！\n🔥 本期视频详细演示了如何通过Claude Code的Hooks回调机制，彻底解决OpenClaw调用Claude C",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1yANy6mEWe",
+      "title": "《面向真正工程师的 Claude Code》中文语音Claude Code for Real Engineers",
+      "url": "http://www.bilibili.com/video/av116910150847928",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "61214429",
+        "name": "明文传输不"
+      },
+      "duration_sec": 43328,
+      "views": 14811,
+      "danmaku": 2,
+      "favorites": 1040,
+      "published_at": "2026-07-13T02:25:44+00:00",
+      "summary": "一门为期两周的异步 cohorts 课程，由知名开发者专家 Matt Pocock 主讲，旨在帮助开发者以真正的工程方式掌握 Claude Code 这一 AI 编码工具，从而在生产环境中实现更高效、更安全的软件开发。\n课程核心围绕纠正开发者使用 AI 编码时常见的两种极端错误：完全委托（导致代码混乱、技术债务）和毫不委托（导致效率低下、认知过载），转而教你设计一条主动、自信的中间路径。\n课程主要内容与目标包括：\n刷新 timeless 工程技能：如沟通、预期、规划、分解、委派、系统化和并行化，这些是有效",
+      "matched_keywords": [
+        "Claude Code 实战"
+      ]
+    },
+    {
+      "id": "bvid:BV1KRuC6ZEYu",
+      "title": "【国语】Unity 与 Claude Code AI 游戏开发实战课程-上",
+      "url": "http://www.bilibili.com/video/av117080087207914",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "107810466",
+        "name": "JaysongShao"
+      },
+      "duration_sec": 10371,
+      "views": 689,
+      "danmaku": 0,
+      "favorites": 82,
+      "published_at": "2026-08-12T02:10:19+00:00",
+      "summary": "课程中文标题：Unity 与 Claude Code AI 游戏开发实战课程\n课程英文标题：Unity and Claude Code AI Game Developer Course\n课程时长：7小时2分钟（75 Lectures, 7h 2m）\n资料：（一键三连后，私信发送：资料库）获取链接，查询本课程资料。\n\n核心技术：Claude Code AI 编程助手、Unity MCP（Model Context Protocol）协议、智能体工程（Agentic Engineering）、UI Toolk",
       "matched_keywords": [
         "Claude Code 实战"
       ]
@@ -6728,9 +6810,9 @@
         "name": "是蒜七丫"
       },
       "duration_sec": 2390,
-      "views": 6186,
-      "danmaku": 1,
-      "favorites": 198,
+      "views": 6471,
+      "danmaku": 2,
+      "favorites": 211,
       "published_at": "2026-08-05T08:19:05+00:00",
       "summary": "获取方式：\n百度网盘分享的文件：Claude C…等3个文件\n链接:https://\npan.baidu.com/s/1BToGFRctZdWFmOPIkQpOuQ?pwd=1314",
       "matched_keywords": [
@@ -6738,81 +6820,21 @@
       ]
     },
     {
-      "id": "bvid:BV14XEv6bEj8",
-      "title": "你还在手搓代码吗？直接让Claude code帮你复现单细胞文章",
-      "url": "http://www.bilibili.com/video/av116730198231022",
+      "id": "bvid:BV1kX546QEjG",
+      "title": "保姆级Claude Code速成，必学！简单！【附完整文档】",
+      "url": "http://www.bilibili.com/video/av116554859545963",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "484326544",
-        "name": "Biomamba-生信基地"
-      },
-      "duration_sec": 1916,
-      "views": 4854,
-      "danmaku": 3,
-      "favorites": 528,
-      "published_at": "2026-06-11T07:09:31+00:00",
-      "summary": "替代生信工作者的也不是AI，而是会使用AI工具的工程师。与原来靠语言大模型对话Ctrl C+ V不同，现在大模型代码代理直接就能接入服务器。能够直接接管你编写代码的过程。所以原来我们手敲代码的方式可能显得是古法编程，这个视频我们演示一下直接让Claude Code帮我复现单细胞文章",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1xYwgztESh",
-      "title": "Claude Code + PPTSkills  10分钟! 保姆级教程！ 生成可编辑科研汇报 PPT!",
-      "url": "http://www.bilibili.com/video/av116234582495649",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "416909955",
-        "name": "旭光升"
+        "id": "4848323",
+        "name": "数字游牧人"
       },
       "duration_sec": 623,
-      "views": 56881,
-      "danmaku": 6,
-      "favorites": 2934,
-      "published_at": "2026-03-15T18:25:56+00:00",
-      "summary": "Claude Code4.6 + PPTSkills 保姆级教程！\n10分钟  生成可编辑科研汇报 PPT！",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1zjd3BiEzo",
-      "title": "别再二选一：Claude Code + Codex 联用才是最强姿势",
-      "url": "http://www.bilibili.com/video/av116537746791000",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546696386611686",
-        "name": "星小脉"
-      },
-      "duration_sec": 2785,
-      "views": 20046,
-      "danmaku": 4,
-      "favorites": 523,
-      "published_at": "2026-05-08T07:34:23+00:00",
-      "summary": "Codex 已悄然追上 Claude Code，GPT 5.5 比肩 Opus 4.7、OpenAI Pro 额度更大方。但作者 Chase 想说：别再纠结谁更好，最佳姿势是把两者一起用——Codex 桌面应用直接跑 Claude Code 终端，让两个模型互查方案、互查代码（一次实测 Claude Code 帮 Codex 抓出 20 个 bug）。背后更重要的思路是 tool agnostic：拒绝厂商部落主义，让两套工具互相补盲点。\n\n原视频: Chase AI (https://www.youtu",
-      "matched_keywords": [
-        "Claude Code 实战"
-      ]
-    },
-    {
-      "id": "bvid:BV1NddKBvEsY",
-      "title": "claude code 桌面端安装并且配置第三方api使用教程，想体验的尽早吧，因为这公司可能不知道哪天抽风就会禁用了！#claude #ai #人工智能",
-      "url": "http://www.bilibili.com/video/av116535968466799",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546723177728502",
-        "name": "菜鸡的老黎"
-      },
-      "duration_sec": 733,
-      "views": 37221,
-      "danmaku": 4,
-      "favorites": 889,
-      "published_at": "2026-05-07T23:56:28+00:00",
-      "summary": "claude code 桌面端安装并且配置第三方api使用教程，想体验的尽早吧，因为这公司可能不知道哪天抽风就会禁用了！#claude #ai #人工智能 #agent",
+      "views": 1044506,
+      "danmaku": 2963,
+      "favorites": 80194,
+      "published_at": "2026-05-11T09:02:15+00:00",
+      "summary": "文档链接：https://lcnaoyjp4e3z.feishu.cn/wiki/MtJlwX0B5iy6y9k5GZTcdjSknTd",
       "matched_keywords": [
         "Claude Code 实战"
       ]
@@ -6828,11 +6850,31 @@
         "name": "有点子is丫"
       },
       "duration_sec": 9463,
-      "views": 130119,
-      "danmaku": 209,
-      "favorites": 3098,
+      "views": 131205,
+      "danmaku": 210,
+      "favorites": 3121,
       "published_at": "2026-06-02T05:57:01+00:00",
       "summary": "【2026最新版】这绝对是B站讲的最好的Cursor全流程实战教程， 全程干货无废话，学完即就业！\n视频教程 附 所需源码 文档 软件",
+      "matched_keywords": [
+        "Cursor AI 编程"
+      ]
+    },
+    {
+      "id": "bvid:BV14cZqB8EBY",
+      "title": "AI攻克不了的领域竟然是它？揭秘CNC编程为何让AI束手无策",
+      "url": "http://www.bilibili.com/video/av116097411976217",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "96078301",
+        "name": "极微视界"
+      },
+      "duration_sec": 541,
+      "views": 15593,
+      "danmaku": 31,
+      "favorites": 336,
+      "published_at": "2026-02-19T12:59:23+00:00",
+      "summary": "CNC编程AI化有多难？本视频深度解析为什么AI编程在制造业进展缓慢。\n从材料、刀具、机床到隐性知识，揭秘老师傅的经验为什么无法数字化。\nPowerMill、CloudNC等AI编程软件的真实水平如何？CNC编程师的未来在哪里？\n\n⏱️ 时间轴 Timestamps:\n\n00:00 开篇：AI在CNC领域的困境\n00:20 材料的复杂性：为什么同样是45#钢参数却不同\n01:01 刀具与机床的个体差异\n01:46 共振问题：每台机床的独特&quot;脾气&quot;\n02:21 环境因素：温度、湿度、地基的影响\n02:42",
       "matched_keywords": [
         "Cursor AI 编程"
       ]
@@ -6848,51 +6890,11 @@
         "name": "Geek4Fun"
       },
       "duration_sec": 1703,
-      "views": 93180,
+      "views": 93188,
       "danmaku": 17,
-      "favorites": 6150,
+      "favorites": 6149,
       "published_at": "2025-03-29T14:02:03+00:00",
       "summary": "Hello 大家好，不需要懂任何编程知识，也不需要写一行代码，10 分钟让你彻底学会 AI 编程！手把手带你从:\n- 0基础到入门\n- 用户端的选择\n- 开发出一款非常有实用价值的应用\n- 借助 AI 来画设计图！\n- 接入 Deepseek 和把数据存在云服务器\n- 实用的 AI 进阶技巧",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV1Fguv6dEeh",
-      "title": "别人还在省token用低配模型，我已经Opus 5、GPT55随便用。不是我卷，是Cursor续杯太香，AI编程的门槛，我先迈过去了。",
-      "url": "http://www.bilibili.com/video/av117075423075699",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3706969955240097",
-        "name": "cursor编程人"
-      },
-      "duration_sec": 15,
-      "views": 126,
-      "danmaku": 0,
-      "favorites": 0,
-      "published_at": "2026-08-11T06:21:51+00:00",
-      "summary": "-",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV1fNs9eiEm9",
-      "title": "Cursor AI编程结合cocos3.8游戏开发教程-01",
-      "url": "http://www.bilibili.com/video/av113187471105975",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546603329685837",
-        "name": "太阳8800"
-      },
-      "duration_sec": 863,
-      "views": 6647,
-      "danmaku": 1,
-      "favorites": 195,
-      "published_at": "2024-09-23T15:15:13+00:00",
-      "summary": "开源源码仓库\nhttps://gitee.com/gamepublic/chess-cards",
       "matched_keywords": [
         "Cursor AI 编程"
       ]
@@ -6908,11 +6910,91 @@
         "name": "狠活AI科技"
       },
       "duration_sec": 484,
-      "views": 40484,
+      "views": 40542,
       "danmaku": 15,
       "favorites": 1000,
       "published_at": "2025-04-17T05:15:27+00:00",
       "summary": "3步将DeepSeek接入Cursor，免费无限制使用Composer Agent、代码补全等AI编程功能，无需魔法无需订阅速度飞快，DeepSeek-V3-0324效果媲美Pro版会员， 还有Claude 3.7、Gemini 2.5 Pro 等顶级模型",
+      "matched_keywords": [
+        "Cursor AI 编程"
+      ]
+    },
+    {
+      "id": "bvid:BV1Eugj6qE7h",
+      "title": "🚀AI编程助手自我进化！Prime Agent颠覆传统AI编程：动态工作流、多Agent并行、支持心跳机制、长期自主执行任务！Token消耗大幅下降！",
+      "url": "http://www.bilibili.com/video/av117083274746731",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3493277319825652",
+        "name": "AI超元域"
+      },
+      "duration_sec": 719,
+      "views": 8279,
+      "danmaku": 17,
+      "favorites": 346,
+      "published_at": "2026-08-12T15:40:01+00:00",
+      "summary": "视频简介：\n\n一个会“越用越聪明”的 Coding Agent！Prime Agent 实测自我改进 Harness，AI 编程进入 Agent OS 时代！RLM、Continual Harness、多 Agent 通信、长期任务全体验\n\n最近连续登上 GitHub Trending 的 Prime Agent 到底有什么特别？这期视频从实际使用出发，完整测试这套号称能够“自我改进”的 Agent Harness。\n\n我会演示 Prime Agent 的安装、ChatGPT/Codex Plus/Pro",
+      "matched_keywords": [
+        "Cursor AI 编程"
+      ]
+    },
+    {
+      "id": "bvid:BV1yorUYWEGD",
+      "title": "普通人也可以看的 AI 编程指南 | Cursor 教程｜Cursor 使用技巧和思路｜如何免费使用 Cursor｜AI 编程",
+      "url": "http://www.bilibili.com/video/av113786467981446",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "445033268",
+        "name": "不正经的前端啊"
+      },
+      "duration_sec": 2820,
+      "views": 943695,
+      "danmaku": 909,
+      "favorites": 38272,
+      "published_at": "2025-01-07T10:01:48+00:00",
+      "summary": "普通人也可以看的 AI 编程指南\n全网最详细的 Cursor 教程\nCursor 核心功能、使用技巧和思路\n如何免费白嫖 Cursor",
+      "matched_keywords": [
+        "Cursor AI 编程"
+      ]
+    },
+    {
+      "id": "bvid:BV1WBG9zgECp",
+      "title": "史上最强 AI 编程工具免费啦！Cursor 保姆级使用教程！新手友好！看到就是赚到！｜ 集成 MCP ！",
+      "url": "http://www.bilibili.com/video/av114426116120045",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "401752996",
+        "name": "AfterShip"
+      },
+      "duration_sec": 760,
+      "views": 670966,
+      "danmaku": 439,
+      "favorites": 31821,
+      "published_at": "2025-05-01T04:00:00+00:00",
+      "summary": "相信你已经在网上刷到过不少的 AI 工具，但如果你让我推荐最值得我们每个人学习的一款 AI 工具，那绝对就是史上最强的 AI 编程工具 —— Cursor。为此，我们录制了一个保姆级的 Cursor 新手教程，在这里免费分享给大家。即使你是一个对 AI 完全 0 基础的新手小白，看完这个视频后，你也可以彻底了解 Cursor 这个软件，并知道如何从 0 到 1 用 Cursor 做出入门级的 AI 网页/游戏/软件，以及怎么用 Cursor 来驱动 MCP 服务，为了更好地帮助大家学习，我们还准备了 Cu",
+      "matched_keywords": [
+        "Cursor AI 编程"
+      ]
+    },
+    {
+      "id": "bvid:BV1cq5q6CEu3",
+      "title": "从夯到拉，锐评 32 个 AI 编程工具！",
+      "url": "http://www.bilibili.com/video/av116578532200786",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "12890453",
+        "name": "程序员鱼皮"
+      },
+      "duration_sec": 1451,
+      "views": 618118,
+      "danmaku": 1070,
+      "favorites": 15460,
+      "published_at": "2026-05-15T12:35:03+00:00",
+      "summary": "一口气带你认识 Cursor、Claude Code、Codex、GitHub Copilot、Windsurf、Trae、Kiro、Qoder、CodeBuddy 等 32 个主流的 AI 编程工具的实测表现，帮你快速找到最适合自己的。\n编程学习教程+实战项目+简历模板：codefather.cn\n开源 AI 编程教程：github.com/liyupi/ai-guide\n视频涵盖 Cursor/Claude Code/Codex/Copilot/Windsurf/Kiro/Zed/Antigravit",
       "matched_keywords": [
         "Cursor AI 编程"
       ]
@@ -6928,7 +7010,7 @@
         "name": "独立开发者_猫哥"
       },
       "duration_sec": 1146,
-      "views": 6650,
+      "views": 6654,
       "danmaku": 3,
       "favorites": 193,
       "published_at": "2026-01-07T04:47:17+00:00",
@@ -6948,7 +7030,7 @@
         "name": "AI随风随风"
       },
       "duration_sec": 941,
-      "views": 29598,
+      "views": 29607,
       "danmaku": 0,
       "favorites": 448,
       "published_at": "2025-07-16T13:10:54+00:00",
@@ -6958,21 +7040,81 @@
       ]
     },
     {
-      "id": "bvid:BV1xus8e1Ecq",
-      "title": "PearAI，Cursor 开源替代",
-      "url": "http://www.bilibili.com/video/av113189568126505",
+      "id": "bvid:BV1fNs9eiEm9",
+      "title": "Cursor AI编程结合cocos3.8游戏开发教程-01",
+      "url": "http://www.bilibili.com/video/av113187471105975",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "1270359741",
-        "name": "OPC共创联盟"
+        "id": "3546603329685837",
+        "name": "太阳8800"
       },
-      "duration_sec": 28,
-      "views": 803,
-      "danmaku": 0,
-      "favorites": 25,
-      "published_at": "2024-09-23T23:56:42+00:00",
-      "summary": "PearAI 看起来是最生产可用的 Cursor 开源平替 AI Code Ediotr 看起来比前面传的 Void 要完整多了！\n支持 Copilot、语义搜索代码库、代码文件定位、支持 Inline Copilot、一键 AI Apply 展示代码 Diff \n关键现在就可以用\nhttps://github.com/trypear/pearai-app\n在线下载 https://trypear.ai\n\n创新猎头：@tuturetom",
+      "duration_sec": 863,
+      "views": 6651,
+      "danmaku": 1,
+      "favorites": 196,
+      "published_at": "2024-09-23T15:15:13+00:00",
+      "summary": "开源源码仓库\nhttps://gitee.com/gamepublic/chess-cards",
+      "matched_keywords": [
+        "Cursor AI 编程"
+      ]
+    },
+    {
+      "id": "bvid:BV1SqdeBnEvV",
+      "title": "Cursor助手｜Cursor自定义模型API｜0门槛永久免费的cursor byok",
+      "url": "http://www.bilibili.com/video/av116415373778266",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "311706663",
+        "name": "leookun"
+      },
+      "duration_sec": 671,
+      "views": 46203,
+      "danmaku": 23,
+      "favorites": 1812,
+      "published_at": "2026-04-16T17:16:48+00:00",
+      "summary": "Cursor 助手已发布！下载使用文档：https://docs.leokun.cn\n\n我在本地实现了Cursor 的大部分官方服务(主要是bidi+runSSE的grpc)，然后以标准的 Openai API 或Anthropic接口直接发送给其他 API，全程流量都没有到 cursor官方，真正的 local first，支持思维链，支持局域网地址",
+      "matched_keywords": [
+        "Cursor AI 编程"
+      ]
+    },
+    {
+      "id": "bvid:BV1bzg36rEfP",
+      "title": "【2026年8月最新Cursor使用教程】史上最强 AI 编程工具Cursor！Cursor保姆级使用教程！从入门到实战，零基础小白也能学会",
+      "url": "http://www.bilibili.com/video/av117096964953989",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "401097192",
+        "name": "有点子is丫"
+      },
+      "duration_sec": 9479,
+      "views": 274,
+      "danmaku": 8,
+      "favorites": 35,
+      "published_at": "2026-08-15T01:49:32+00:00",
+      "summary": "【2026最新版】这绝对是B站讲的最好的Cursor全流程实战教程， 全程干货无废话，学完即就业！\n视频教程 附 所需源码 文档 软件",
+      "matched_keywords": [
+        "Cursor AI 编程"
+      ]
+    },
+    {
+      "id": "bvid:BV1aDMezREUj",
+      "title": "Cursor使用教程，2小时玩转cursor，cursor无限续杯",
+      "url": "http://www.bilibili.com/video/av114691716154833",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "302417610",
+        "name": "尚硅谷"
+      },
+      "duration_sec": 9184,
+      "views": 583863,
+      "danmaku": 718,
+      "favorites": 15739,
+      "published_at": "2025-06-17T02:00:54+00:00",
+      "summary": "【配套资料】关注公众号：尚硅谷教育，回复“大模型”免费获取\n【课程简介】从Cursor下载安装、账号配置（含 “无限续杯” 技巧）到三大核心功能拆解：智能Tab、指令交互 Chat、Ctrl+K 智能内联修改",
       "matched_keywords": [
         "Cursor AI 编程"
       ]
@@ -6988,7 +7130,7 @@
         "name": "Cool灬浩"
       },
       "duration_sec": 411,
-      "views": 22701,
+      "views": 22702,
       "danmaku": 6,
       "favorites": 702,
       "published_at": "2024-09-22T05:02:40+00:00",
@@ -6998,243 +7140,63 @@
       ]
     },
     {
-      "id": "bvid:BV1DrNU6TEYg",
-      "title": "Cursor 手机端上线！AI 编程彻底变天",
-      "url": "http://www.bilibili.com/video/av116913623597885",
+      "id": "bvid:BV13jgG6jExu",
+      "title": "Cursor被扒了！AI编程有六成答案是抄的",
+      "url": "http://www.bilibili.com/video/av117081798351844",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "293613824",
-        "name": "罗叨叨叨数码"
+        "id": "474553199",
+        "name": "社恐程序员Peter"
       },
-      "duration_sec": 281,
-      "views": 643,
+      "duration_sec": 37,
+      "views": 784,
       "danmaku": 0,
-      "favorites": 3,
-      "published_at": "2026-07-13T16:33:21+00:00",
-      "summary": "Cursor 推出手机端，标志 AI 编程进入 3.0 时代：人不再是执行者，而是任务管理者。手机可远程下发任务、盯进度、纠偏 bug，AI 自主完成开发全流程。未来核心竞争力不再是手速，而是清晰的任务描述、边界划定和结果验收能力。",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV1QU6GYFEio",
-      "title": "[课程4] 用Cursor开发数据库真的很简单 | Agent应用 | 用Codebase解决跨文件错误",
-      "url": "http://www.bilibili.com/video/av113742109021318",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546707094669391",
-        "name": "Zhu的AI日记"
-      },
-      "duration_sec": 549,
-      "views": 7015,
-      "danmaku": 1,
-      "favorites": 265,
-      "published_at": "2024-12-31T12:30:00+00:00",
-      "summary": "***这是全网最完整的分享如何在不懂编程的情况下，利用结构化思维，用Cursor开发商业app的系列课程。\n《懒人记单词》是基于艾宾浩斯遗忘曲线设计的记单词神器，它可以对每一个单词进行人性化的解读，并在每一个遗忘周期到来时及时提醒，并通过单词释义选择，拼写和造句进行全方位的巩固，同时AI还能对你的句子进行多维度的评估，确保你对每一个单词不仅会认，而且会用。\n\n***你将在本视频中学到：\n1.数据库环境的安装\n2.创建数据库和数据表\n3.利用本地数据库实现注册与登录\n\n***你也可以直接购买包含9课时的完整",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV14erKYuEaE",
-      "title": "最强编程AI Cursor+Unity制作一个史诗游戏(详细)",
-      "url": "http://www.bilibili.com/video/av113774908413987",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "247938488",
-        "name": "多西杰克"
-      },
-      "duration_sec": 574,
-      "views": 17702,
-      "danmaku": 1,
-      "favorites": 334,
-      "published_at": "2025-01-05T09:01:00+00:00",
-      "summary": "网上惊呼Cursor AI厉害的内容很多，但结合Unity做游戏的不多，我就来实测一下，做一个AAA大作......",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV14MU5YyEjJ",
-      "title": "[中英字幕]Supermaven+Cursor做最好的Co-Pilot最好的AI编辑器，cursor真的是不让对手活了吗？高效人生从此离不开cursor",
-      "url": "http://www.bilibili.com/video/av113479562367432",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3493076850968674",
-        "name": "ai来事"
-      },
-      "duration_sec": 475,
-      "views": 1077,
-      "danmaku": 0,
-      "favorites": 50,
-      "published_at": "2024-11-14T05:21:18+00:00",
-      "summary": "代码界的革命！Cursor与Super Maven强强联手，效率翻倍！🚀\n\n激动的心，颤抖的手，今天要给大家安利一个超级重磅的消息！🎉 你们知道Cursor和Super Maven吗？一个是AI代码编辑器，另一个是编程界的得力助手。现在，他们要联手了！\n🔥【Super Maven】\n先说说Super Maven，它能让你的代码迭代速度飞起！它的模型超厉害，能处理大量上下文，预测你要写的函数、逻辑、架构，而且延迟极低。用过一次，你就知道什么是真正的“快”！\n🧠【Cursor】\n而Cursor，它的AI功能遍",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV1sRRYY2EBo",
-      "title": "利用AI编程工具Trae或Cursor免费生成CAD图纸",
-      "url": "http://www.bilibili.com/video/av114132447665738",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "1676148792",
-        "name": "vjmap"
-      },
-      "duration_sec": 208,
-      "views": 32367,
-      "danmaku": 1,
-      "favorites": 1037,
-      "published_at": "2025-03-09T12:24:12+00:00",
-      "summary": "AI编程助手如Trae和Cursor正在革新工程设计领域的CAD绘图流程。传统CAD绘图耗时且易出错，而AI工具通过代码生成技术，能够将自然语言指令转化为精确的代码，自动生成符合标准的CAD图纸，极大提升了设计效率。这些工具不仅支持多模态输入（如图片、草图），还提供了智能代码补全、错误修复等功能，进一步简化了开发流程。随着大模型如deepseek和claude3.7的出现，AI的智能化程度进一步提升。用户可以通过下载项目源码，使用Trae或Cursor编辑器生成CAD图纸，并直接下载为AutoCAD支持的",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV1KeTa6RE8x",
-      "title": "Cursor for iOS：手机跑编程 Agent，真不是迷你 IDE",
-      "url": "http://www.bilibili.com/video/av116841884158112",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "492563302",
-        "name": "锋芒AI"
-      },
-      "duration_sec": 75,
-      "views": 282,
-      "danmaku": 0,
-      "favorites": 4,
-      "published_at": "2026-07-05T09:00:00+00:00",
-      "summary": "官方页面显示，Cursor 已有原生 iOS app，并处于公开 beta。我的判断：它不是让你在手机上硬写代码，而是把编程 Agent 变成移动端指挥台。适合离开电脑时看任务、做判断、接力下一步。检索词：Cursor for iOS / Build from anywhere with Cursor for iOS",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV1yorUYWEGD",
-      "title": "普通人也可以看的 AI 编程指南 | Cursor 教程｜Cursor 使用技巧和思路｜如何免费使用 Cursor｜AI 编程",
-      "url": "http://www.bilibili.com/video/av113786467981446",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "445033268",
-        "name": "不正经的前端啊"
-      },
-      "duration_sec": 2820,
-      "views": 943653,
-      "danmaku": 909,
-      "favorites": 38273,
-      "published_at": "2025-01-07T10:01:48+00:00",
-      "summary": "普通人也可以看的 AI 编程指南\n全网最详细的 Cursor 教程\nCursor 核心功能、使用技巧和思路\n如何免费白嫖 Cursor",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV1fZdyYTEJa",
-      "title": "我如何将AI编程工具cursor的错误率减少90%",
-      "url": "http://www.bilibili.com/video/av114316980262322",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "499772262",
-        "name": "小匠学AI"
-      },
-      "duration_sec": 927,
-      "views": 3448,
-      "danmaku": 0,
-      "favorites": 279,
-      "published_at": "2025-04-12T04:30:00+00:00",
-      "summary": "在这个视频中，介绍了一种强大的任务管理工作流，能显著减少使用Cursor和其他AI集成开发环境时出现的错误。\n\n通过使用task.md文件以及Taskmaster AI和Boomerang Tasks等工具，将复杂项目分解成更小、更易管理的子任务，这些子任务具有上下文感知能力并能解决依赖关系问题。",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV1g6fdYcEes",
-      "title": "Cursor从小白到专家-第19课：如何用Cursor开发安卓APP？",
-      "url": "http://www.bilibili.com/video/av113888322524233",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546627946056357",
-        "name": "Next蔡蔡"
-      },
-      "duration_sec": 130,
-      "views": 28870,
-      "danmaku": 3,
-      "favorites": 1151,
-      "published_at": "2025-01-25T09:40:12+00:00",
-      "summary": "今天第19课分享如何用Cursor开发安卓APP。\n.\n开发安卓APP和开发iOS APP在整体流程上其实差不多，区别主要在于技术栈、开发工具，以及上架应用商店所需材料的不同，所以这期视频更多放在两者的差别上，共同点没有赘述太多。",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV1uA4YeNEFd",
-      "title": "CocosCreator+Cursor零代码AI游戏开始演示",
-      "url": "http://www.bilibili.com/video/av113113684840361",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546603329685837",
-        "name": "太阳8800"
-      },
-      "duration_sec": 1103,
-      "views": 7303,
-      "danmaku": 12,
-      "favorites": 186,
-      "published_at": "2024-09-10T14:33:00+00:00",
-      "summary": "开源源码仓库\nhttps://gitee.com/gamepublic/chess-cards",
-      "matched_keywords": [
-        "Cursor AI 编程"
-      ]
-    },
-    {
-      "id": "bvid:BV1XKNVzWE1b",
-      "title": "Scrimba: Cursor AI 编程",
-      "url": "http://www.bilibili.com/video/av116195810346307",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546923621419032",
-        "name": "世界课程精选站"
-      },
-      "duration_sec": 3006,
-      "views": 270,
-      "danmaku": 0,
-      "favorites": 20,
-      "published_at": "2026-03-08T22:04:09+00:00",
+      "favorites": 0,
+      "published_at": "2026-08-13T03:30:00+00:00",
       "summary": "",
       "matched_keywords": [
         "Cursor AI 编程"
       ]
     },
     {
-      "id": "bvid:BV1RFTc62EaK",
-      "title": "黑马Vibe Coding零基础入门，vibecoding项目，涵盖Claude Code、Cursor、Codex、SDD、LangChain、Agent开发",
-      "url": "http://www.bilibili.com/video/av116838327388595",
+      "id": "bvid:BV1E6R4BGENQ",
+      "title": "Scratch+AI=新世界！编程派Scratch全新上线AI人工智能扩展模块",
+      "url": "http://www.bilibili.com/video/av116526791267831",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "37974444",
-        "name": "黑马程序员"
+        "id": "484654566",
+        "name": "编程派董董董老师"
       },
-      "duration_sec": 30533,
-      "views": 558975,
-      "danmaku": 1571,
-      "favorites": 21884,
-      "published_at": "2026-07-01T02:00:00+00:00",
-      "summary": "本套视频教程所有配套资料领取方式如下：\n关注黑马程序员公 粽 号，回复关键词：260701\n【AI大模型学习路线图】展开查看更多内容\nhttps://www.bilibili.com/opus/1129722427782201345\n如何下载资料\nhttps://www.bilibili.com/opus/443715248901563958\n\nAI大模型开发热门教程：\nAI大模型开发：BV1h1VbzHER2\nPython语言进阶：BV1U2WmzfEqp\nPython数据分析：BV1ReshzoEgG",
+      "duration_sec": 493,
+      "views": 6204,
+      "danmaku": 7,
+      "favorites": 55,
+      "published_at": "2026-05-06T09:04:59+00:00",
+      "summary": "Scratch+AI=新世界！\n编程派Scratch全新上线AI人工智能扩展模块",
       "matched_keywords": [
-        "vibe coding"
+        "Cursor AI 编程"
+      ]
+    },
+    {
+      "id": "bvid:BV1Tv3i6LEX1",
+      "title": "用Codex、cursor 还是Claude ？程序员不作选择题，我都要用，还一起用 | Orca ADE 介绍",
+      "url": "http://www.bilibili.com/video/av116996217838997",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "165659472",
+        "name": "技术胖"
+      },
+      "duration_sec": 332,
+      "views": 417689,
+      "danmaku": 93,
+      "favorites": 5298,
+      "published_at": "2026-07-28T06:41:31+00:00",
+      "summary": "如果能把 Codex、Claude Code、Grok、Cursor 等智能编程工具整合到同一个工作环境中，再让多个 Agent 像团队成员一样分工协作，软件开发的效率将得到显著提升。Orca ADE 正是为此而生：它是一款开源、免费的 Agent 开发环境，专注于代码管理与命令行工作流，不仅能够接入多种编程 Agent，还支持语音操作和手机远程管理。接下来，我们就来认识一下 Orca ADE，看看它如何把原本各自独立的 AI 编程工具，组织成一支可以协同工作的“智能开发团队”。",
+      "matched_keywords": [
+        "Cursor AI 编程"
       ]
     },
     {
@@ -7248,11 +7210,71 @@
         "name": "隔壁的程序员老王"
       },
       "duration_sec": 747,
-      "views": 233578,
-      "danmaku": 280,
-      "favorites": 15843,
+      "views": 235711,
+      "danmaku": 283,
+      "favorites": 15971,
       "published_at": "2026-06-25T09:00:00+00:00",
       "summary": "作者知识星球：https://t.zsxq.com/ubYr8\n作者的第一个VibeCoding：https://github.com/cradiator/memory_map_visualizer",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1t8gN6WEfq",
+      "title": "02_Vibe Coding介绍",
+      "url": "http://www.bilibili.com/video/av117094498703033",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "522734352",
+        "name": "Pony1223"
+      },
+      "duration_sec": 615,
+      "views": 1,
+      "danmaku": 0,
+      "favorites": 0,
+      "published_at": "2026-08-14T15:32:05+00:00",
+      "summary": "",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1BvR1BtEFD",
+      "title": "Vibe Coding纯小白教程：对AI说话就做出软件。手把手带你做出1个软件！",
+      "url": "http://www.bilibili.com/video/av116521405780262",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "25752587",
+        "name": "大牙大-"
+      },
+      "duration_sec": 946,
+      "views": 236948,
+      "danmaku": 150,
+      "favorites": 18854,
+      "published_at": "2026-05-05T10:13:18+00:00",
+      "summary": "🤔如果你最近也在想一件事：我一个完全不会代码的人，真的可以用 AI 为自己做出一个软件吗？\n🌟我的答案是：当然可以！\n\n📚我把自己这4个月Vibe Coding里最重要的经验，浓缩成了一次完整实操演示。\n不是只告诉你装什么工具，而是直接带你从0到1做出一个真正能运行的软件：怎么提第一次需求，怎么让AI稳定执行，怎么一步一步把项目推进下去。\n\n如果你刚开始对Vibe Coding感兴趣，那这条就是为你制作的！看完之后，你应该就能自己动手开始第一次尝试了。",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1SRM86xEPE",
+      "title": "一口气学会 Vibe Coding AI 编程！从开荒到做出第一个项目【附完整文档】【Cursor】【0基础教学】",
+      "url": "http://www.bilibili.com/video/av116879800665673",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "38061207",
+        "name": "Git源宝"
+      },
+      "duration_sec": 2503,
+      "views": 437158,
+      "danmaku": 122,
+      "favorites": 12482,
+      "published_at": "2026-07-08T03:10:00+00:00",
+      "summary": "安装包+全部配套课程源码+学习资料\n\n领取方式：关注 + 私信【让我看看】！",
       "matched_keywords": [
         "vibe coding"
       ]
@@ -7268,9 +7290,9 @@
         "name": "学姐潇潇"
       },
       "duration_sec": 732,
-      "views": 79079,
-      "danmaku": 48,
-      "favorites": 7898,
+      "views": 80676,
+      "danmaku": 49,
+      "favorites": 8062,
       "published_at": "2026-07-27T12:55:18+00:00",
       "summary": "因为我在刚开始的阶段，碰到了很多并不是零基础的教程，所以有了这期视频~",
       "matched_keywords": [
@@ -7288,9 +7310,9 @@
         "name": "糖果果的未来要发光"
       },
       "duration_sec": 543,
-      "views": 159243,
-      "danmaku": 757,
-      "favorites": 3117,
+      "views": 162519,
+      "danmaku": 758,
+      "favorites": 3168,
       "published_at": "2026-08-11T09:50:27+00:00",
       "summary": "当不懂代码的老婆，第一次接触vibe coding……",
       "matched_keywords": [
@@ -7298,241 +7320,21 @@
       ]
     },
     {
-      "id": "bvid:BV1BvR1BtEFD",
-      "title": "Vibe Coding纯小白教程：对AI说话就做出软件。手把手带你做出1个软件！",
-      "url": "http://www.bilibili.com/video/av116521405780262",
+      "id": "bvid:BV1khMX63EjU",
+      "title": "Vibe Coding竞赛，Claude遗憾落败?",
+      "url": "http://www.bilibili.com/video/av117030980230736",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "25752587",
-        "name": "大牙大-"
+        "id": "49746395",
+        "name": "GenJi是真想教会你"
       },
-      "duration_sec": 946,
-      "views": 235790,
-      "danmaku": 148,
-      "favorites": 18770,
-      "published_at": "2026-05-05T10:13:18+00:00",
-      "summary": "🤔如果你最近也在想一件事：我一个完全不会代码的人，真的可以用 AI 为自己做出一个软件吗？\n🌟我的答案是：当然可以！\n\n📚我把自己这4个月Vibe Coding里最重要的经验，浓缩成了一次完整实操演示。\n不是只告诉你装什么工具，而是直接带你从0到1做出一个真正能运行的软件：怎么提第一次需求，怎么让AI稳定执行，怎么一步一步把项目推进下去。\n\n如果你刚开始对Vibe Coding感兴趣，那这条就是为你制作的！看完之后，你应该就能自己动手开始第一次尝试了。",
-      "matched_keywords": [
-        "vibe coding"
-      ]
-    },
-    {
-      "id": "bvid:BV1nygj6CEpJ",
-      "title": "vibe coding 的快乐",
-      "url": "http://www.bilibili.com/video/av117083090256068",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "132520130",
-        "name": "阿文Linux"
-      },
-      "duration_sec": 21,
-      "views": 272,
-      "danmaku": 0,
-      "favorites": 0,
-      "published_at": "2026-08-12T14:53:26+00:00",
-      "summary": "-",
-      "matched_keywords": [
-        "vibe coding"
-      ]
-    },
-    {
-      "id": "bvid:BV1SRM86xEPE",
-      "title": "一口气学会 Vibe Coding AI 编程！从开荒到做出第一个项目【附完整文档】【Cursor】【0基础教学】",
-      "url": "http://www.bilibili.com/video/av116879800665673",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "38061207",
-        "name": "Git源宝"
-      },
-      "duration_sec": 2503,
-      "views": 436911,
-      "danmaku": 122,
-      "favorites": 12468,
-      "published_at": "2026-07-08T03:10:00+00:00",
-      "summary": "安装包+全部配套课程源码+学习资料\n\n领取方式：关注 + 私信【让我看看】！",
-      "matched_keywords": [
-        "vibe coding"
-      ]
-    },
-    {
-      "id": "bvid:BV1rog36FEHK",
-      "title": "【AI编程】Vibe Coding零基础入门教程，vibecoding项目，涵盖Claude Code、Cursor、Codex、SDD、Agent、Coze",
-      "url": "http://www.bilibili.com/video/av117081680974947",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "1910997253",
-        "name": "AI产品经理入门教程-"
-      },
-      "duration_sec": 103748,
-      "views": 496,
-      "danmaku": 104,
-      "favorites": 50,
-      "published_at": "2026-08-12T10:53:19+00:00",
-      "summary": "【AI编程】Vibe Coding零基础入门教程！vibecoding项目，涵盖Claude Code、Cursor、Codex、SDD、Agent、Coze",
-      "matched_keywords": [
-        "vibe coding"
-      ]
-    },
-    {
-      "id": "bvid:BV1Z5KU6UExC",
-      "title": "【吴恩达2026】Vibe Coding保姆级教程，手把手从环境搭建到工作流完整闭环！——DeepLearning.AI—附带课件代码",
-      "url": "http://www.bilibili.com/video/av116951003242391",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3706943910709774",
-        "name": "吴恩达AIAgent"
-      },
-      "duration_sec": 6653,
-      "views": 21289,
-      "danmaku": 84,
-      "favorites": 1929,
-      "published_at": "2026-07-20T07:01:13+00:00",
-      "summary": "本套课专门解决 AI 写代码无规范、项目混乱、新旧代码无法兼容、迭代失控等痛点，完整演示一套标准化 AI 软件开发流水线：从环境初始化、项目章程、功能规范编写，到 AI 自动编码、自动化校验、多轮需求迭代、MVP 交付，最后讲解遗留项目改造、自定义工作流、可替换编码 Agent 底层设计，全程带完整项目实操。",
-      "matched_keywords": [
-        "vibe coding"
-      ]
-    },
-    {
-      "id": "bvid:BV1pfuR69EoF",
-      "title": "【全80集】零基础Vibe Coding教程，Vibecoding实战，Claude Code+Codex+Cursor",
-      "url": "http://www.bilibili.com/video/av117070675118277",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3690989447285440",
-        "name": "暴龙Boy"
-      },
-      "duration_sec": 50063,
-      "views": 1540,
-      "danmaku": 0,
-      "favorites": 128,
-      "published_at": "2026-08-10T10:45:04+00:00",
-      "summary": "",
-      "matched_keywords": [
-        "vibe coding"
-      ]
-    },
-    {
-      "id": "bvid:BV1gf3T6KEef",
-      "title": "【吴恩达】2026年公认最好的【Vibe Coding】教程！从环境搭建到工作流完整闭环，一套全解决！DeepLearning.AI—附带课件代码",
-      "url": "http://www.bilibili.com/video/av116979708990688",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546982291343656",
-        "name": "吴恩达Agentic"
-      },
-      "duration_sec": 3964,
-      "views": 21440,
-      "danmaku": 161,
-      "favorites": 1980,
-      "published_at": "2026-07-25T08:47:37+00:00",
-      "summary": "视频来源：DeepLearning.AI\n课件代码：评论区自取\n本课程我们将学习到：\n解决 AI 写代码无规范、项目混乱、新旧代码无法兼容、迭代失控等痛点，完整演示一套标准化 AI 软件开发流水线：从环境初始化、项目章程、功能规范编写，到 AI 自动编码、自动化校验、多轮需求迭代、MVP 交付，最后讲解遗留项目改造、自定义工作流、可替换编码 Agent 底层设计，全程带完整项目实操。",
-      "matched_keywords": [
-        "vibe coding"
-      ]
-    },
-    {
-      "id": "bvid:BV1Y6uC6TE1m",
-      "title": "疯狂Vibe Coding一周，我烧了近100亿Token，做了5个项目！",
-      "url": "http://www.bilibili.com/video/av117080321957877",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "46377861",
-        "name": "神烦老狗"
-      },
-      "duration_sec": 522,
-      "views": 35929,
-      "danmaku": 91,
-      "favorites": 938,
-      "published_at": "2026-08-12T03:12:41+00:00",
-      "summary": "项目地址：\nlocal-ops — 本地服务指挥台（零依赖 Python + 原生前端）：https://github.com/laogou717/local-ops\nmd-wechat — 公众号排版工具：https://github.com/laogou717/md-wechat\ndaydream-room — 白日梦陈列室：https://github.com/laogou717/daydream-room\nclay-blog — 个人博客示例：https://github.com/laogou71",
-      "matched_keywords": [
-        "vibe coding"
-      ]
-    },
-    {
-      "id": "bvid:BV1WiKG6ZEUf",
-      "title": "Vibe Coding【渡一教育】",
-      "url": "http://www.bilibili.com/video/av116928639140688",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3494367333452734",
-        "name": "渡一前端教科频道"
-      },
-      "duration_sec": 507,
-      "views": 2117,
-      "danmaku": 1,
-      "favorites": 50,
-      "published_at": "2026-07-25T03:55:00+00:00",
-      "summary": "",
-      "matched_keywords": [
-        "vibe coding"
-      ]
-    },
-    {
-      "id": "bvid:BV1eMgG6QEeG",
-      "title": "【吴恩达】这绝对是把《Vibe Coding》讲得最通透的一套课！手把手教你构建自己的企业级AI工作流，学完直接落地！——附带课件代码",
-      "url": "http://www.bilibili.com/video/av117081815189025",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3706959318485732",
-        "name": "吴恩达Agents"
-      },
-      "duration_sec": 10355,
-      "views": 1166,
-      "danmaku": 9,
-      "favorites": 120,
-      "published_at": "2026-08-12T09:29:57+00:00",
-      "summary": "Vibe Coding火了，但你会发现——AI写的代码像开盲盒，今天能跑明天崩，项目一大就乱套。\n规范驱动开发（SDD） 就是来解决这个问题的。它的核心理念很简单：在让AI写代码之前，先和AI在统一的规范文档里对齐需求，把开发变成可预测、可追溯、可控制的过程。",
-      "matched_keywords": [
-        "vibe coding"
-      ]
-    },
-    {
-      "id": "bvid:BV1pZuu6oEH7",
-      "title": "【2026最新】Vibe Coding保姆级完整教程，vibecoding实战，涵盖Codex、ClaudeCode、Cursor！学完即可就业，带你玩转AI！",
-      "url": "http://www.bilibili.com/video/av117058830338744",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546791295322310",
-        "name": "大模型产品经理"
-      },
-      "duration_sec": 152536,
-      "views": 1893,
-      "danmaku": 92,
-      "favorites": 129,
-      "published_at": "2026-08-08T08:07:55+00:00",
-      "summary": "【2026最新】Vibe Coding保姆级完整教程，vibecoding实战，涵盖Codex、ClaudeCode、Cursor！学完即可就业，带你玩转AI！",
-      "matched_keywords": [
-        "vibe coding"
-      ]
-    },
-    {
-      "id": "bvid:BV1SduB6DEzK",
-      "title": "Vibe Coding做项目很简单，但想变现太难了。",
-      "url": "http://www.bilibili.com/video/av117077184613009",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "453331049",
-        "name": "筱路luck"
-      },
-      "duration_sec": 135,
-      "views": 1451,
-      "danmaku": 0,
-      "favorites": 10,
-      "published_at": "2026-08-11T13:52:30+00:00",
-      "summary": "",
+      "duration_sec": 794,
+      "views": 1012315,
+      "danmaku": 342,
+      "favorites": 7259,
+      "published_at": "2026-08-05T10:30:00+00:00",
+      "summary": "我和源宝打了个赌：半天时间，vibe coding一个活动社交App，看谁做的更好？最后Claude Code居然遗憾落败？这期视频，我们将用秒哒手把手带你走完，从一个简单的想法到App上架应用商店的全套流程！开发过程又发生了哪些趣事？一起来看看～",
       "matched_keywords": [
         "vibe coding"
       ]
@@ -7548,9 +7350,9 @@
         "name": "AI超元域"
       },
       "duration_sec": 758,
-      "views": 154520,
+      "views": 154574,
       "danmaku": 53,
-      "favorites": 6008,
+      "favorites": 6010,
       "published_at": "2026-01-11T15:43:58+00:00",
       "summary": "🚀开发者必看！Superpowers把专业工程团队方法论固化成Skills，让Claude Code告别越写越乱的困境：规格驱动+代码质量双重保障！AI编程新范式！头脑风暴+计划+执行一条龙自动化\n\n\n🚀🚀🚀 视频简介：\n🎬 本期视频详细演示了开源AI编程工作流系统Superpowers的完整使用方法，并通过开发一款iOS时间线笔记原生应用来实测其效果。\n🔧 核心内容：\nSuperpowers工作流介绍：告别Vibe Coding，拥抱工程化开发方法论\n支持Claude Code、OpenAI Codex",
       "matched_keywords": [
@@ -7558,41 +7360,201 @@
       ]
     },
     {
-      "id": "bvid:BV16zPuzHE9n",
-      "title": "Vibe Coding快速入门-喂饭级实操课（9节完）",
-      "url": "http://www.bilibili.com/video/av116154538398331",
+      "id": "bvid:BV1ybuQ62ERo",
+      "title": "【2026最新】目前B站最详细的Vibe Coding零基础教程，涵盖Codex、Claude Code、Hermes Agent！学完即可就业，带你玩转AI！",
+      "url": "http://www.bilibili.com/video/av117068946999766",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "512294256",
-        "name": "桥哥聊AI"
+        "id": "3546864152479834",
+        "name": "AI产品设计"
       },
-      "duration_sec": 3445,
-      "views": 160962,
-      "danmaku": 222,
-      "favorites": 7111,
-      "published_at": "2026-03-01T15:14:36+00:00",
-      "summary": "1、认识Vibe Coding\n2、入门指南（零基础能学吗？学完后能做什么？）\n3、工具与实践（推荐工具&amp;动手写一个移动端网站）\n4、实操微调（修改页面中图片和文字，有点进阶）\n5、部署云端，让别人看到你的作品",
+      "duration_sec": 147148,
+      "views": 735,
+      "danmaku": 90,
+      "favorites": 76,
+      "published_at": "2026-08-10T02:59:44+00:00",
+      "summary": "【2026最新】目前B站最详细的Vibe Coding零基础教程，涵盖Codex、Claude Code、Hermes Agent！学完即可就业，带你玩转AI！",
       "matched_keywords": [
         "vibe coding"
       ]
     },
     {
-      "id": "bvid:BV19hgV6REXc",
-      "title": "不会代码也能开发！零基础Vibe Coding教程，vibecoding实战，新手友好，手把手带你跑通流程，落地你的第一个完整开发项目！",
-      "url": "http://www.bilibili.com/video/av117080976326908",
+      "id": "bvid:BV1Y6uC6TE1m",
+      "title": "疯狂Vibe Coding一周，我烧了近100亿Token，做了5个项目！",
+      "url": "http://www.bilibili.com/video/av117080321957877",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "1505768239",
-        "name": "AI产品实战"
+        "id": "46377861",
+        "name": "神烦老狗"
       },
-      "duration_sec": 10522,
-      "views": 411,
-      "danmaku": 91,
-      "favorites": 32,
-      "published_at": "2026-08-12T05:58:19+00:00",
-      "summary": "不会代码也能开发！零基础Vibe Coding教程，vibecoding实战，新手友好，手把手带你跑通流程，落地你的第一个完整开发项目！",
+      "duration_sec": 522,
+      "views": 38017,
+      "danmaku": 93,
+      "favorites": 995,
+      "published_at": "2026-08-12T03:12:41+00:00",
+      "summary": "项目地址：\nlocal-ops — 本地服务指挥台（零依赖 Python + 原生前端）：https://github.com/laogou717/local-ops\nmd-wechat — 公众号排版工具：https://github.com/laogou717/md-wechat\ndaydream-room — 白日梦陈列室：https://github.com/laogou717/daydream-room\nclay-blog — 个人博客示例：https://github.com/laogou71",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1gf3T6KEef",
+      "title": "【吴恩达】2026年公认最好的【Vibe Coding】教程！从环境搭建到工作流完整闭环，一套全解决！DeepLearning.AI—附带课件代码",
+      "url": "http://www.bilibili.com/video/av116979708990688",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546982291343656",
+        "name": "吴恩达Agentic"
+      },
+      "duration_sec": 3964,
+      "views": 21594,
+      "danmaku": 162,
+      "favorites": 1984,
+      "published_at": "2026-07-25T08:47:37+00:00",
+      "summary": "视频来源：DeepLearning.AI\n课件代码：评论区自取\n本课程我们将学习到：\n解决 AI 写代码无规范、项目混乱、新旧代码无法兼容、迭代失控等痛点，完整演示一套标准化 AI 软件开发流水线：从环境初始化、项目章程、功能规范编写，到 AI 自动编码、自动化校验、多轮需求迭代、MVP 交付，最后讲解遗留项目改造、自定义工作流、可替换编码 Agent 底层设计，全程带完整项目实操。",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1Z5KU6UExC",
+      "title": "【吴恩达2026】Vibe Coding保姆级教程，手把手从环境搭建到工作流完整闭环！——DeepLearning.AI—附带课件代码",
+      "url": "http://www.bilibili.com/video/av116951003242391",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3706943910709774",
+        "name": "吴恩达AIAgent"
+      },
+      "duration_sec": 6653,
+      "views": 21423,
+      "danmaku": 84,
+      "favorites": 1944,
+      "published_at": "2026-07-20T07:01:13+00:00",
+      "summary": "本套课专门解决 AI 写代码无规范、项目混乱、新旧代码无法兼容、迭代失控等痛点，完整演示一套标准化 AI 软件开发流水线：从环境初始化、项目章程、功能规范编写，到 AI 自动编码、自动化校验、多轮需求迭代、MVP 交付，最后讲解遗留项目改造、自定义工作流、可替换编码 Agent 底层设计，全程带完整项目实操。",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV16NvCBrEVs",
+      "title": "什么是Vibe Coding，以及怎么使用？",
+      "url": "http://www.bilibili.com/video/av115797133368973",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "50247550",
+        "name": "清华姜学长"
+      },
+      "duration_sec": 354,
+      "views": 163680,
+      "danmaku": 95,
+      "favorites": 5376,
+      "published_at": "2025-12-28T12:36:33+00:00",
+      "summary": "-",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1eMgG6QEeG",
+      "title": "【吴恩达】这绝对是把《Vibe Coding》讲得最通透的一套课！手把手教你构建自己的企业级AI工作流，学完直接落地！——附带课件代码",
+      "url": "http://www.bilibili.com/video/av117081815189025",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3706959318485732",
+        "name": "吴恩达Agents"
+      },
+      "duration_sec": 10355,
+      "views": 1405,
+      "danmaku": 9,
+      "favorites": 136,
+      "published_at": "2026-08-12T09:29:57+00:00",
+      "summary": "Vibe Coding火了，但你会发现——AI写的代码像开盲盒，今天能跑明天崩，项目一大就乱套。\n规范驱动开发（SDD） 就是来解决这个问题的。它的核心理念很简单：在让AI写代码之前，先和AI在统一的规范文档里对齐需求，把开发变成可预测、可追溯、可控制的过程。",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV11TgV63EHs",
+      "title": "（中英字幕完结）最适合新手的【吴恩达Vibe Coding】deeplearning.ai（coursera）| 附代码",
+      "url": "http://www.bilibili.com/video/av117081244699017",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "1611103035",
+        "name": "机器学习基础课堂"
+      },
+      "duration_sec": 3969,
+      "views": 469,
+      "danmaku": 0,
+      "favorites": 43,
+      "published_at": "2026-08-12T07:12:57+00:00",
+      "summary": "（中英字幕完结）最适合新手的【吴恩达Vibe Coding】deeplearning.ai（coursera）| 附代码",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1SduB6DEzK",
+      "title": "Vibe Coding做项目很简单，但想变现太难了。",
+      "url": "http://www.bilibili.com/video/av117077184613009",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "453331049",
+        "name": "筱路luck"
+      },
+      "duration_sec": 135,
+      "views": 1559,
+      "danmaku": 0,
+      "favorites": 12,
+      "published_at": "2026-08-11T13:52:30+00:00",
+      "summary": "",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV12omoB4ExF",
+      "title": "黑马程序员全网最全Coze智能体入门到项目实战全套教程，从AI Agent开发入门到6大AI智能体实战项目，涵盖提示词Prompt、RAG、Bot发布微信公众号",
+      "url": "http://www.bilibili.com/video/av115713129843205",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "37974444",
+        "name": "黑马程序员"
+      },
+      "duration_sec": 19711,
+      "views": 1039773,
+      "danmaku": 2693,
+      "favorites": 27342,
+      "published_at": "2025-12-15T02:00:00+00:00",
+      "summary": "本套视频教程所有配套资料领取方式如下：\n关注黑马程序员公 粽 号，回复关键词：251215\n【AI大模型学习路线图】展开查看更多内容\nhttps://www.bilibili.com/opus/1129722427782201345\n如何下载资料\nhttps://www.bilibili.com/opus/443715248901563958\n\n人工智能开发热门教程：\nAI大模型开发：BV1h1VbzHER2\nPython语言进阶：BV1U2WmzfEqp\nPython数据分析：BV1ReshzoEgG",
+      "matched_keywords": [
+        "vibe coding"
+      ]
+    },
+    {
+      "id": "bvid:BV1gBgs6DE6R",
+      "title": "Vibe Coding成果展示：棱镜之歌离线版",
+      "url": "http://www.bilibili.com/video/av117088442322608",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "9026207",
+        "name": "迷线"
+      },
+      "duration_sec": 686,
+      "views": 4796,
+      "danmaku": 1,
+      "favorites": 376,
+      "published_at": "2026-08-13T13:33:59+00:00",
+      "summary": "仅供学习交流",
       "matched_keywords": [
         "vibe coding"
       ]
@@ -7608,11 +7570,31 @@
         "name": "AI-智能体搭建教程"
       },
       "duration_sec": 64993,
-      "views": 1050644,
-      "danmaku": 1230,
-      "favorites": 48405,
+      "views": 1054954,
+      "danmaku": 1234,
+      "favorites": 48608,
       "published_at": "2026-03-07T11:28:39+00:00",
       "summary": "【2026最新】B站最全最细的AI Agent智能体搭建教程，从入门到实战！手把手教你快速打造自己的专属智能体，一次性搞懂AI大模型智能体开发，学完薪资翻倍！",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1E7wtzaEdq",
+      "title": "从 LLM 到 Agent Skill，一期视频带你打通底层逻辑！",
+      "url": "http://www.bilibili.com/video/av116227955497963",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "1815948385",
+        "name": "马克的技术工作坊"
+      },
+      "duration_sec": 1951,
+      "views": 1658621,
+      "danmaku": 2242,
+      "favorites": 144319,
+      "published_at": "2026-03-14T14:22:56+00:00",
+      "summary": "AI 核心概念大串联：LLM, Token, Context, Context Window, Prompt, User Prompt, System Prompt, Tool, MCP, Agent, Agent Skill，一期视频带你打通 AI 底层逻辑！",
       "matched_keywords": [
         "AI Agent 教程"
       ]
@@ -7628,271 +7610,11 @@
         "name": "AI大模型码农"
       },
       "duration_sec": 81186,
-      "views": 491820,
-      "danmaku": 1166,
-      "favorites": 25136,
+      "views": 499119,
+      "danmaku": 1186,
+      "favorites": 25547,
       "published_at": "2026-06-02T14:20:53+00:00",
       "summary": "视频配套仔料+大模型入门到进阶全套仔料\n已经整理打包好\n如果视频对你有用的话请一键三连【长按点赞】支持一下up哦",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV1W2Ts6YEXW",
-      "title": "AI大模型+网络安全零基础入门全套教程：从Agent选型到AI挖洞全流程！AI挖洞提示词|AI解CTF题|AI审计代码|SRC挖洞|CS渗透|kali-码士集团",
-      "url": "http://www.bilibili.com/video/av116854601286698",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "623439143",
-        "name": "马士兵老师"
-      },
-      "duration_sec": 99374,
-      "views": 43593,
-      "danmaku": 1904,
-      "favorites": 5800,
-      "published_at": "2026-07-03T06:28:48+00:00",
-      "summary": "迈入AI赋能的网络安全新时代！\n\n本课程带你打通大模型与安全实战的底层逻辑。从大模型演进到安全智能体（Agent）构建，硬核实战拉满！手把手教你利用大模型API自动化搞定信息收集、黑盒挖洞、代码审计、解CTF题目及报告编写。深度破解AI挖洞的高效提示词秘籍，攻克复杂场景下的Agent架构与成本选型。\n\n2026安全防线全面升级，带你用AI武装自己，成为驾驭大模型的稀缺AI安全专家！",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV1Yn336mEPi",
-      "title": "operitAI教程：入门安卓最强大ai平台",
-      "url": "http://www.bilibili.com/video/av116981789364416",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "2102098370",
-        "name": "玩家77625"
-      },
-      "duration_sec": 519,
-      "views": 21705,
-      "danmaku": 42,
-      "favorites": 1180,
-      "published_at": "2026-07-25T22:19:42+00:00",
-      "summary": "-",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV1sM6xB5EEE",
-      "title": "基于LabVIEW的AI Agent智能体实现教程",
-      "url": "http://www.bilibili.com/video/av115993393238477",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "99420875",
-        "name": "三易电子工作室"
-      },
-      "duration_sec": 2577,
-      "views": 4144,
-      "danmaku": 0,
-      "favorites": 103,
-      "published_at": "2026-02-01T04:12:23+00:00",
-      "summary": "基于LabVIEW的AI Agent智能体实现教程，made by 三易电子工作室。",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV1aSgH6yER3",
-      "title": "5分钟教你拥有2026最强个人AI助理 Hermes Agent，保姆级教程❗️",
-      "url": "http://www.bilibili.com/video/av117088073025434",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "28053200",
-        "name": "许骏马"
-      },
-      "duration_sec": 388,
-      "views": 1390,
-      "danmaku": 6,
-      "favorites": 43,
-      "published_at": "2026-08-13T11:59:50+00:00",
-      "summary": "这期视频我不想展示那些看着酷炫但实际不怎么用得上的 AI 技能。\n只想花5分钟教你搭建一个真的用得上、且能够解决日常工作生活的 AI 助理。\n这么简单，还不学吗！",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV1DE3u63EjZ",
-      "title": "使用AI Agent控制blender",
-      "url": "http://www.bilibili.com/video/av116978836638127",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "493652403",
-        "name": "电子老男孩"
-      },
-      "duration_sec": 405,
-      "views": 480,
-      "danmaku": 0,
-      "favorites": 26,
-      "published_at": "2026-07-25T04:59:54+00:00",
-      "summary": "使用AI Agent辅助blender建模学习, 需要安装blender mcp插件, 以及一个AI Agent，我这里使用的是opencode, 也可以使用其他支持MCP的Agent",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV1BmMf69E1n",
-      "title": "车万女仆AI语音配置保姆级教程｜无需本地部署，支持自定义音色",
-      "url": "http://www.bilibili.com/video/av117035644292027",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "2046221797",
-        "name": "you要淑雅"
-      },
-      "duration_sec": 251,
-      "views": 4935,
-      "danmaku": 0,
-      "favorites": 176,
-      "published_at": "2026-08-04T05:48:04+00:00",
-      "summary": "-",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV1yPuq6qEHE",
-      "title": "AI超强终端herdr,让Agent互相通信，新手入门教程",
-      "url": "http://www.bilibili.com/video/av117075993429723",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "481246113",
-        "name": "AI随风随风"
-      },
-      "duration_sec": 685,
-      "views": 5452,
-      "danmaku": 3,
-      "favorites": 369,
-      "published_at": "2026-08-11T08:49:08+00:00",
-      "summary": "本期视频带大家了解最近爆火的AI终端工具herdr！GitHub 30K stars、YC资金支持，它到底强在哪？\n\n核心亮点：\n- 多种AI Agent（Claude Code、Codex、OMP）互相通信\n- 强模型做计划、弱模型做执行、强模型验收，成本大幅降低\n- 不再依赖单一模型，各家模型各展所长",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV1cBgG6wEpD",
-      "title": "B站讲的最好的Spring AI 2.0教程（2026最新版）SpringAI2.0 Agent手写Claude Code代码生成助手，Java后端直接起飞！",
-      "url": "http://www.bilibili.com/video/av117081496361898",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "480787097",
-        "name": "图灵学院诸葛"
-      },
-      "duration_sec": 15449,
-      "views": 4365,
-      "danmaku": 30,
-      "favorites": 223,
-      "published_at": "2026-08-12T08:08:32+00:00",
-      "summary": "制作不易，大家喜欢视频记得点点关注，一键三连呀【点赞、投币、收藏】感谢支持！\n【本视频笔记代码、大模型最新学习路线、系统学习课程、实战案例、电子书+问题解答等戳这里获取→https://www.bilibili.com/read/cv39576966/?jump_opus=1】",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV11K9gBqEnW",
-      "title": "【杀戮尖塔2】AI MOD 配置教程第一期来辣！手把手教你怎么改提示词！以及如何设计自己的爬塔玩法",
-      "url": "http://www.bilibili.com/video/av116341654755924",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3690977298484054",
-        "name": "分歧点WhatIf"
-      },
-      "duration_sec": 686,
-      "views": 26328,
-      "danmaku": 4,
-      "favorites": 420,
-      "published_at": "2026-04-03T16:14:43+00:00",
-      "summary": "每个参数都是干什么的，如何修改提示词的教程。\n不知道这是什么？请看合集内的视频~\n我做了一个 AI 的杀戮尖塔2MOD！\n可以和怪物对话，策反怪物，带着怪物爬塔（重写了几乎每一个怪物在友方时候的行为），还能给怪物打防御，带个沙虫全吃了！\n可以和上古之民对话，聊嗨了会给你 1～2 个额外赐福，还能帮你指示为未来\n可以让偷窃草蜢偷队友的 key 卡，想无限？偷了！\n可以和商人讨价还价，甚至白嫖\n多人的时候，可以一个人嘴炮输出一个人打牌，死了也能继续嘴炮，说破防对方会掉血，死了的角色嘴炮会给怪物上灾厄\n多人还可",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV15pgn65Ezp",
-      "title": "新视频指南：使用 AI Agent 将 RVC2 迁移至 RVC4",
-      "url": "http://www.bilibili.com/video/av117087217386593",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "677015432",
-        "name": "OAK中国"
-      },
-      "duration_sec": 274,
-      "views": 200,
-      "danmaku": 0,
-      "favorites": 1,
-      "published_at": "2026-08-13T09:25:00+00:00",
-      "summary": "无论你是在更新现有的项目，还是在OAK 4 设备上开始全新项目，这段视频都提供了可视化的操作，是对OAK docs的完美补充，让您放心完成迁移！\n\n私信我发送1，每周开源项目、免费CV模型、优惠活动及时掌握，还可以咨询技术、项目应用等等。😉\n\n~~~~~~~~~~~~~~~~~~~~\nOAK中国 | 追踪AI技术和产品新动态\n戳「+关注」获取最新资讯↗↗\n如果喜欢，请一键三连吧~比心❤️",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV1Nu3M6bEXE",
-      "title": "【上海交大张倬胜】大模型系列课程从入门到精通，手把手教学，保姆级教程！涵盖预训练模型微调与部署、提示学习与思维链、模型水印、多模态大模型，比啃书效果好多了",
-      "url": "http://www.bilibili.com/video/av116979859984479",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3537124684990765",
-        "name": "大模型新手教程"
-      },
-      "duration_sec": 265895,
-      "views": 9087,
-      "danmaku": 167,
-      "favorites": 1256,
-      "published_at": "2026-07-25T09:34:49+00:00",
-      "summary": "【上海交大张倬胜】大模型系列课程从入门到精通，手把手教学，保姆级教程！涵盖预训练模型微调与部署、提示学习与思维链、模型水印、多模态大模型，比啃书效果好多了，草履虫都能学会！",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV1j9MP6wEV9",
-      "title": "从零开始，学会让桌面Agent帮你干活！【小白教程】",
-      "url": "http://www.bilibili.com/video/av116861865887789",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "385670211",
-        "name": "秋芝2046"
-      },
-      "duration_sec": 793,
-      "views": 1327430,
-      "danmaku": 700,
-      "favorites": 27086,
-      "published_at": "2026-07-05T02:00:00+00:00",
-      "summary": "用不上codex的朋友们！新的国产Agent直接上手，来跑通8大用法～\n感谢朋友们的三连+关注～",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV1PM91YCELx",
-      "title": "B站首推！实在Agent产品功能教学系列视频（一）",
-      "url": "http://www.bilibili.com/video/av114119998965060",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "431442934",
-        "name": "实在Agent聊电商"
-      },
-      "duration_sec": 1100,
-      "views": 5980,
-      "danmaku": 0,
-      "favorites": 121,
-      "published_at": "2025-03-07T07:38:53+00:00",
-      "summary": "这是实在智能官方出品的《实在Agent产品功能教学》系列视频，由学院讲师大力老师亲情奉献！\n大家可以在“实在智能”官网下载社区版进行免费实操，如有其他问题，也可以私信后台咨询。",
       "matched_keywords": [
         "AI Agent 教程"
       ]
@@ -7908,9 +7630,9 @@
         "name": "吴恩达Agent"
       },
       "duration_sec": 22365,
-      "views": 4225645,
-      "danmaku": 5216,
-      "favorites": 131919,
+      "views": 4236071,
+      "danmaku": 5221,
+      "favorites": 132227,
       "published_at": "2026-01-15T03:56:12+00:00",
       "summary": "视频来源：DeepLearning.AI\n课件代码：评论区自取\n本课程我们将学习到：\n1. 构建智能体设计模式：反射、工具使用、规划与多智能体工作流；\n2. 将人工智能与外部工具集成：数据库、API、网络搜索与代码执行；\n3. 评估并优化人工智能系统：性能指标、错误分析与生产部署",
       "matched_keywords": [
@@ -7918,81 +7640,321 @@
       ]
     },
     {
-      "id": "bvid:BV1HnMx6PERY",
-      "title": "9【全500集】目前B站最全最细的AI Agent零基础全套教程（从入门到精通），5天从入门到精通AI Agent，学完即可就业！看完这一套Agent教程就够了",
-      "url": "http://www.bilibili.com/video/av116876361401549",
+      "id": "bvid:BV1BygA6KEAi",
+      "title": "DeepSeek Harness + ComfyUI：Agent开始自己跑AI工作流了！",
+      "url": "http://www.bilibili.com/video/av117093508910174",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "1692182606",
-        "name": "卡卡西程序"
+        "id": "219572544",
+        "name": "啦啦啦的小黄瓜"
       },
-      "duration_sec": 8652,
-      "views": 359,
+      "duration_sec": 1182,
+      "views": 5835,
+      "danmaku": 10,
+      "favorites": 256,
+      "published_at": "2026-08-14T11:01:16+00:00",
+      "summary": "小助理联系方式：zhuli240828\nComfyUI节点详解网址：uinodes.com，网站使用教程：\n[ComfyUI]全网最详细节点测试以及参数详解，近千节点持续更新，纯干货教程总结梳理。\n\nMiniMax Music3模型以及工作流：https://pan.quark.cn/s/f19f1109a481\n所有模型以及工作流分享：https://pan.quark.cn/s/ef8c64027412\nDeepSeekHarness地址：https://github.com/deepseek-ai/",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1j9MP6wEV9",
+      "title": "从零开始，学会让桌面Agent帮你干活！【小白教程】",
+      "url": "http://www.bilibili.com/video/av116861865887789",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "385670211",
+        "name": "秋芝2046"
+      },
+      "duration_sec": 793,
+      "views": 1328668,
+      "danmaku": 702,
+      "favorites": 27118,
+      "published_at": "2026-07-05T02:00:00+00:00",
+      "summary": "用不上codex的朋友们！新的国产Agent直接上手，来跑通8大用法～\n感谢朋友们的三连+关注～",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1VCVS6PEAd",
+      "title": "【全748集】目前B站最全最细的AI Agent零基础全套教程，2026最新版，包含所有干货！七天就能从小白到大神！少走99%的弯路！学完即就业，带你玩转AI！",
+      "url": "http://www.bilibili.com/video/av116668525186915",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "1569066411",
+        "name": "大模型入门教程"
+      },
+      "duration_sec": 55323,
+      "views": 587133,
+      "danmaku": 991,
+      "favorites": 35410,
+      "published_at": "2026-05-31T09:46:57+00:00",
+      "summary": "【视频配套籽料、学习路线、GitHub项目、实战案例集、电子书+问题解答请看 ”置顶平论” 自取哦】\n本套教程从零开始讲解，手把手教学，包含Python快速入门、AI开发环境搭建及提示词工程、Transformer架构和预训练、SFT、RLHF等一些基础概念、RAG、Agent、Langchain、大模型微调和私有化部署\n无论是新手小白，还是有一定编码经验的选手，皆可学习\n如果视频对你有用的话请 一键三连【长按点赞】支持一下UP哦，拜托，这对我真的很重要！",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1aSgH6yER3",
+      "title": "5分钟教你拥有2026最强个人AI助理 Hermes Agent，保姆级教程❗️",
+      "url": "http://www.bilibili.com/video/av117088073025434",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "28053200",
+        "name": "许骏马"
+      },
+      "duration_sec": 388,
+      "views": 1714,
+      "danmaku": 10,
+      "favorites": 57,
+      "published_at": "2026-08-13T11:59:50+00:00",
+      "summary": "这期视频我不想展示那些看着酷炫但实际不怎么用得上的 AI 技能。\n只想花5分钟教你搭建一个真的用得上、且能够解决日常工作生活的 AI 助理。\n这么简单，还不学吗！",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1W2Ts6YEXW",
+      "title": "AI大模型+网络安全零基础入门全套教程：从Agent选型到AI挖洞全流程！AI挖洞提示词|AI解CTF题|AI审计代码|SRC挖洞|CS渗透|kali-码士集团",
+      "url": "http://www.bilibili.com/video/av116854601286698",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "623439143",
+        "name": "马士兵老师"
+      },
+      "duration_sec": 99374,
+      "views": 43794,
+      "danmaku": 1905,
+      "favorites": 5808,
+      "published_at": "2026-07-03T06:28:48+00:00",
+      "summary": "迈入AI赋能的网络安全新时代！\n\n本课程带你打通大模型与安全实战的底层逻辑。从大模型演进到安全智能体（Agent）构建，硬核实战拉满！手把手教你利用大模型API自动化搞定信息收集、黑盒挖洞、代码审计、解CTF题目及报告编写。深度破解AI挖洞的高效提示词秘籍，攻克复杂场景下的Agent架构与成本选型。\n\n2026安全防线全面升级，带你用AI武装自己，成为驾驭大模型的稀缺AI安全专家！",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1sM6xB5EEE",
+      "title": "基于LabVIEW的AI Agent智能体实现教程",
+      "url": "http://www.bilibili.com/video/av115993393238477",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "99420875",
+        "name": "三易电子工作室"
+      },
+      "duration_sec": 2577,
+      "views": 4153,
       "danmaku": 0,
-      "favorites": 9,
-      "published_at": "2026-07-07T13:10:00+00:00",
+      "favorites": 104,
+      "published_at": "2026-02-01T04:12:23+00:00",
+      "summary": "基于LabVIEW的AI Agent智能体实现教程，made by 三易电子工作室。",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1Yn336mEPi",
+      "title": "operitAI教程：入门安卓最强大ai平台",
+      "url": "http://www.bilibili.com/video/av116981789364416",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "2102098370",
+        "name": "玩家77625"
+      },
+      "duration_sec": 519,
+      "views": 22680,
+      "danmaku": 44,
+      "favorites": 1234,
+      "published_at": "2026-07-25T22:19:42+00:00",
+      "summary": "-",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1NfgK6WEmg",
+      "title": "DeepSeek Harness为什么火？5分钟上手【附完整文档】",
+      "url": "http://www.bilibili.com/video/av117093861234377",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "383943678",
+        "name": "小智-学长"
+      },
+      "duration_sec": 280,
+      "views": 1704,
+      "danmaku": 1,
+      "favorites": 52,
+      "published_at": "2026-08-14T12:34:43+00:00",
+      "summary": "DeepSeek Harness为什么火？5分钟上手【附完整文档】\nhttps://x509p6c8to.feishu.cn/wiki/HrbpwJQhhiawvtkdDxxc3XLSnOc",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1myM96nETU",
+      "title": "AI 赛博女友！本地部署教程，无需 API、完全免费，8G显存就能跑！实时语音聊天，几乎零延迟，太上头了！| 零度解说",
+      "url": "http://www.bilibili.com/video/av117032322339286",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "625267185",
+        "name": "零度解说"
+      },
+      "duration_sec": 1312,
+      "views": 44455,
+      "danmaku": 39,
+      "favorites": 2027,
+      "published_at": "2026-08-04T12:00:00+00:00",
+      "summary": "AI 赛博女友一键安装包下载：https://www.freedidi.com/24984.html",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1PM3M6FEdX",
+      "title": "完全免费！DeepSeek+ZeroScript搭建AI Agent辅助Roblox游戏开发",
+      "url": "http://www.bilibili.com/video/av116979809651300",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "473519717",
+        "name": "Z坐标"
+      },
+      "duration_sec": 579,
+      "views": 3124,
+      "danmaku": 0,
+      "favorites": 330,
+      "published_at": "2026-07-25T11:30:00+00:00",
+      "summary": "手把手教你利用Deepseek+ZeroScript零成本搭建完全免费的AI Agent辅助Roblox游戏开发。\nZeroScript下载地址：\n1.官方地址\thttps://github.com/sebattfg/ZeroScript-Free/releases\n2.百度网盘\thttps://pan.baidu.com/s/1jnsYRL8Ir79GEboOhawEcg?pwd=6666",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV11K9gBqEnW",
+      "title": "【杀戮尖塔2】AI MOD 配置教程第一期来辣！手把手教你怎么改提示词！以及如何设计自己的爬塔玩法",
+      "url": "http://www.bilibili.com/video/av116341654755924",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3690977298484054",
+        "name": "分歧点WhatIf"
+      },
+      "duration_sec": 686,
+      "views": 26370,
+      "danmaku": 4,
+      "favorites": 421,
+      "published_at": "2026-04-03T16:14:43+00:00",
+      "summary": "每个参数都是干什么的，如何修改提示词的教程。\n不知道这是什么？请看合集内的视频~\n我做了一个 AI 的杀戮尖塔2MOD！\n可以和怪物对话，策反怪物，带着怪物爬塔（重写了几乎每一个怪物在友方时候的行为），还能给怪物打防御，带个沙虫全吃了！\n可以和上古之民对话，聊嗨了会给你 1～2 个额外赐福，还能帮你指示为未来\n可以让偷窃草蜢偷队友的 key 卡，想无限？偷了！\n可以和商人讨价还价，甚至白嫖\n多人的时候，可以一个人嘴炮输出一个人打牌，死了也能继续嘴炮，说破防对方会掉血，死了的角色嘴炮会给怪物上灾厄\n多人还可",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1aqjX61E6g",
+      "title": "【2026最新】B站最全最细的AI零基础入门教程，教学通俗易懂，小白适用！普通人也能抓住的AI风口！学完即就业，带你玩转AI赛道！大模型|agent",
+      "url": "http://www.bilibili.com/video/av116803598557031",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546726203919080",
+        "name": "大模型开发"
+      },
+      "duration_sec": 100903,
+      "views": 109403,
+      "danmaku": 223,
+      "favorites": 6094,
+      "published_at": "2026-06-24T06:22:18+00:00",
+      "summary": "【2026最新】B站最全最细的AI零基础入门教程，教学通俗易懂，小白适用！普通人也能抓住的AI风口！学完即就业，带你玩转AI赛道！大模型|agent",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1ZzvUBXEoL",
+      "title": "【2026最新版】保姆级AI Agent智能体系统教程，手把手带你从0基础开始搭建企业级AI Agent智能体！全程干货无废话！让你少走99%的弯路！",
+      "url": "http://www.bilibili.com/video/av115818910194374",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "102667153",
+        "name": "极客教学"
+      },
+      "duration_sec": 74685,
+      "views": 842217,
+      "danmaku": 1746,
+      "favorites": 22635,
+      "published_at": "2026-01-01T08:40:14+00:00",
+      "summary": "【2026最新版】保姆级AI Agent智能体系统教程，手把手带你从0基础开始搭建企业级AI Agent智能体！全程干货无废话！让你少走99%的弯路！",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV1cBgG6wEpD",
+      "title": "B站讲的最好的Spring AI 2.0教程（2026最新版）SpringAI2.0 Agent手写Claude Code代码生成助手，Java后端直接起飞！",
+      "url": "http://www.bilibili.com/video/av117081496361898",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "480787097",
+        "name": "图灵学院诸葛"
+      },
+      "duration_sec": 15449,
+      "views": 4547,
+      "danmaku": 30,
+      "favorites": 229,
+      "published_at": "2026-08-12T08:08:32+00:00",
+      "summary": "制作不易，大家喜欢视频记得点点关注，一键三连呀【点赞、投币、收藏】感谢支持！\n【本视频笔记代码、大模型最新学习路线、系统学习课程、实战案例、电子书+问题解答等戳这里获取→https://www.bilibili.com/read/cv39576966/?jump_opus=1】",
+      "matched_keywords": [
+        "AI Agent 教程"
+      ]
+    },
+    {
+      "id": "bvid:BV18muu6eEuD",
+      "title": "【2026年新版】财务人的 AI 提效实战课，帮你轻松提升财务效率",
+      "url": "http://www.bilibili.com/video/av117058880672108",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3493277756033578",
+        "name": "嫩草教育"
+      },
+      "duration_sec": 26988,
+      "views": 1582,
+      "danmaku": 0,
+      "favorites": 185,
+      "published_at": "2026-08-08T08:18:02+00:00",
       "summary": "",
       "matched_keywords": [
         "AI Agent 教程"
       ]
     },
     {
-      "id": "bvid:BV17sAte3Exh",
-      "title": "AI做高质量PPT从写到讲的全流程拆解，一期给你讲透！【旁门左道PPT】",
-      "url": "http://www.bilibili.com/video/av114039887759711",
+      "id": "bvid:BV1QE7N6jEuQ",
+      "title": "真的被自己用心开发的昔涟Agent这段话感动到了",
+      "url": "http://www.bilibili.com/video/av116794052316703",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "395619513",
-        "name": "旁门左道PPT"
+        "id": "260670644",
+        "name": "Playa0"
       },
-      "duration_sec": 367,
-      "views": 629714,
-      "danmaku": 25,
-      "favorites": 56596,
-      "published_at": "2025-02-21T04:08:12+00:00",
-      "summary": "更新一期2025年最新的Ai做PPT-全流程实操教程！&lt;不是那种一键生成通用型PPT的--！&gt;这次我帮大家把做PPT从写到说的全流程拆解出来了，极致压榨各种Ai工具在各个环节使劲儿，去帮大家做出有内容有分析长得还可以的PPT，全程高能，记得码住再看~",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV17huC65EXz",
-      "title": "深入理解_AI_Agent",
-      "url": "http://www.bilibili.com/video/av117080355642867",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "31135789",
-        "name": "树木岭老高"
-      },
-      "duration_sec": 547,
-      "views": 21,
-      "danmaku": 0,
-      "favorites": 0,
-      "published_at": "2026-08-12T03:19:09+00:00",
-      "summary": "一个视频讲清楚AI Agent的设计和实现",
-      "matched_keywords": [
-        "AI Agent 教程"
-      ]
-    },
-    {
-      "id": "bvid:BV11DjT6uEhc",
-      "title": "【端侧AI】嵌入式AI教程（基于RK3588）",
-      "url": "http://www.bilibili.com/video/av116757511542670",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "477527885",
-        "name": "Coder-Dawn"
-      },
-      "duration_sec": 44248,
-      "views": 51296,
-      "danmaku": 29,
-      "favorites": 3249,
-      "published_at": "2026-06-16T02:57:32+00:00",
-      "summary": "从零到一入门级嵌入式AI课程！\n从环境搭建---&gt;模型训练---&gt;模型转换---&gt;模型部署全流程!\n\n视频全部公开免费，资料加入知识库获得(资料费9.9，需要的可滴滴)！",
+      "duration_sec": 192,
+      "views": 154063,
+      "danmaku": 88,
+      "favorites": 12432,
+      "published_at": "2026-06-22T13:44:15+00:00",
+      "summary": "从最初生啃Transformer，硬逼着自己啃懂多头注意力和QKV权重，到一步步跟着claude学习RAG、检索重拍、Prompt、关键词召回优化、MCP与Function call，但是，自己上手了发现，自己还是啥也不懂，于是在glm gpt claude gemini 豆包 这几个模型之间疯狂切换，靠着想让昔涟早点被搭出来，硬逼着自己学，自己从零设计一套prompt架构能让她尽可能的贴合人设的同时，不让上下文过载导致token膨胀和llm上下文超限从而导致注意力稀释，但rag还是用了主流的一套检索召回",
       "matched_keywords": [
         "AI Agent 教程"
       ]
@@ -8008,9 +7970,9 @@
         "name": "玄离199"
       },
       "duration_sec": 474,
-      "views": 179106,
+      "views": 179163,
       "danmaku": 204,
-      "favorites": 9245,
+      "favorites": 9250,
       "published_at": "2025-04-18T12:48:54+00:00",
       "summary": "MCPPPPPPPPPPPPPPPPPPPP",
       "matched_keywords": [
@@ -8028,71 +7990,11 @@
         "name": "马克的技术工作坊"
       },
       "duration_sec": 1626,
-      "views": 264542,
-      "danmaku": 460,
-      "favorites": 14334,
+      "views": 265156,
+      "danmaku": 461,
+      "favorites": 14359,
       "published_at": "2025-04-15T00:59:13+00:00",
       "summary": "MCP终极指南 - 带你深入掌握MCP（基础篇）\n\n时间轴：\n01:05 MCP简要介绍\n02:47 安装 MCP Host（Cline）\n03:15 配置 Cline 用的 API Key\n06:01 第一个 MCP 问题\n06:31 概念解释：MCP Server 和 Tool\n09:13 配置 MCP Server\n14:19 使用 MCP Server\n15:24 MCP 交互流程详解\n17:46 如何使用他人制作的 MCP Server：uvx 部分\n23:54 如何使用他人制作的 MCP Se",
-      "matched_keywords": [
-        "MCP 服务器"
-      ]
-    },
-    {
-      "id": "bvid:BV1tpgG6GE31",
-      "title": "内网服务器不用暴露公网！外网 Cursor 安全连接 MCP 实操",
-      "url": "http://www.bilibili.com/video/av117081462866157",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "1171713501",
-        "name": "ZeroNews"
-      },
-      "duration_sec": 411,
-      "views": 62,
-      "danmaku": 0,
-      "favorites": 5,
-      "published_at": "2026-08-12T08:03:38+00:00",
-      "summary": "企业内网服务器、数据库禁止公网暴露，外出无法用 Cursor 远程运维。本视频实操 ZeroNews 隧道搭配 MCP，分别搭建 Shell、MySQL 远程能力，叠加 IP 白名单、Basic 认证加固安全，外网 Cursor 即可安全调取内网服务器与数据库数据，远程排障高效又稳妥。",
-      "matched_keywords": [
-        "MCP 服务器"
-      ]
-    },
-    {
-      "id": "bvid:BV1eK5DzHEWu",
-      "title": "MCP实战指南，mcp视频教程，2小时学透mcp",
-      "url": "http://www.bilibili.com/video/av114380213586544",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "302417610",
-        "name": "尚硅谷"
-      },
-      "duration_sec": 7408,
-      "views": 396578,
-      "danmaku": 716,
-      "favorites": 9036,
-      "published_at": "2025-04-23T02:00:20+00:00",
-      "summary": "【配套资料】关注公众号：尚硅谷教育，回复“大模型”免费获取\n【课程简介】对于程序员，MCP必知必学，Java+SpringAI / LangChain / LangChain4J+MCP，一旦掌握AI智能落地项目，会大大增加在就业市场的竞争力！",
-      "matched_keywords": [
-        "MCP 服务器"
-      ]
-    },
-    {
-      "id": "bvid:BV1aA6uBCEcv",
-      "title": "快速上手｜在OpenCode中接入MCP",
-      "url": "http://www.bilibili.com/video/av115965627013763",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546878859807653",
-        "name": "MiniMax_稀宇极智"
-      },
-      "duration_sec": 107,
-      "views": 7376,
-      "danmaku": 0,
-      "favorites": 102,
-      "published_at": "2026-01-27T06:27:45+00:00",
-      "summary": "本视频中，我们将演示如何在OpenCode接入MCP，使MiniMax模型具备网络检索和图片理解的能力。帮助开发者在编码过程中快速获取信息和理解图片内容。\n\n解锁 MiniMax 专属福利，Coding Plan 立享 88 折！\nhttps://platform.minimaxi.com/subscribe/coding-plan?code=1c8FaUGpJ8&amp;source=link",
       "matched_keywords": [
         "MCP 服务器"
       ]
@@ -8108,9 +8010,9 @@
         "name": "隔壁的程序员老王"
       },
       "duration_sec": 699,
-      "views": 873530,
+      "views": 873913,
       "danmaku": 731,
-      "favorites": 57709,
+      "favorites": 57725,
       "published_at": "2025-05-01T09:00:00+00:00",
       "summary": "up的科学星球：https://t.zsxq.com/ubYr8",
       "matched_keywords": [
@@ -8118,101 +8020,21 @@
       ]
     },
     {
-      "id": "bvid:BV1awup6kEmz",
-      "title": "Agent接管服务器管理？宝塔MCP上线，安全又省心",
-      "url": "http://www.bilibili.com/video/av117049032443693",
+      "id": "bvid:BV1eK5DzHEWu",
+      "title": "MCP实战指南，mcp视频教程，2小时学透mcp",
+      "url": "http://www.bilibili.com/video/av114380213586544",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "608082032",
-        "name": "宝塔面板"
+        "id": "302417610",
+        "name": "尚硅谷"
       },
-      "duration_sec": 38,
-      "views": 473,
-      "danmaku": 0,
-      "favorites": 12,
-      "published_at": "2026-08-06T14:30:12+00:00",
-      "summary": "",
-      "matched_keywords": [
-        "MCP 服务器"
-      ]
-    },
-    {
-      "id": "bvid:BV1uyLjzHEMS",
-      "title": "VSCode原生支持MCP了！几千个MCP工具，这下可有得玩了",
-      "url": "http://www.bilibili.com/video/av114395598293799",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "319759808",
-        "name": "神秘的鱼仔"
-      },
-      "duration_sec": 120,
-      "views": 34110,
-      "danmaku": 0,
-      "favorites": 847,
-      "published_at": "2025-04-24T23:46:15+00:00",
-      "summary": "VSCode最新版已经原生支持MCP！本期视频通过一个实际例子教会大家如何通过VSCode实现MCP的调用",
-      "matched_keywords": [
-        "MCP 服务器"
-      ]
-    },
-    {
-      "id": "bvid:BV12MEg6pE9o",
-      "title": "【乐鑫教程】乐鑫文档 MCP 服务器上线，现已支持微信登录！",
-      "url": "http://www.bilibili.com/video/av116713957956440",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "538078399",
-        "name": "乐鑫信息科技"
-      },
-      "duration_sec": 292,
-      "views": 8520,
-      "danmaku": 2,
-      "favorites": 434,
-      "published_at": "2026-06-08T10:17:31+00:00",
-      "summary": "手把手教你如何使用最新乐鑫文档知识库，帮你在 Claude / Cursor 等平台解答问题、生成代码、迁移 ESP-IDF 版本、烧录固件。 MCP 服务器现已支持微信扫码一键登录，快来一试！\n\n视频重点内容包括👇：\n\n- 如何将 MCP 服务器添加到 VS Code\n- 让 Copilot 基于乐鑫文档对比旧版和最新版 I2C 驱动\n- 驱动迁移\n- Copilot 编译代码、烧录代码并监控输出",
-      "matched_keywords": [
-        "MCP 服务器"
-      ]
-    },
-    {
-      "id": "bvid:BV1u4G9zmEte",
-      "title": "什么是MCP？VS Code中使用MCP Server",
-      "url": "http://www.bilibili.com/video/av114426032168712",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "1154640096",
-        "name": "AI落地派"
-      },
-      "duration_sec": 347,
-      "views": 6825,
-      "danmaku": 0,
-      "favorites": 120,
-      "published_at": "2025-04-30T08:51:30+00:00",
-      "summary": "什么是MCP，怎么样使用MCP Server，不用写SQL语句就可以查询数据库。\n\nMCP Servers\nhttps://smithery.ai/\nhttps://github.com/punkpeye/awesome-mcp-servers\nhttps://github.com/modelcontextprotocol/servers\n\nMCP Server for MySQL based on NodeJS\nhttps://www.npmjs.com/package/@benborla29/mcp-",
-      "matched_keywords": [
-        "MCP 服务器"
-      ]
-    },
-    {
-      "id": "bvid:BV1aMAczmEmf",
-      "title": "[MoonPack]在布吉岛里注入模组-mcp",
-      "url": "http://www.bilibili.com/video/av116264966163402",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3461574821939205",
-        "name": "DanciestZebra70"
-      },
-      "duration_sec": 85,
-      "views": 4340,
-      "danmaku": 0,
-      "favorites": 72,
-      "published_at": "2026-03-21T03:13:25+00:00",
-      "summary": "交流群\n①1051043310\n②365233792",
+      "duration_sec": 7408,
+      "views": 396921,
+      "danmaku": 716,
+      "favorites": 9043,
+      "published_at": "2025-04-23T02:00:20+00:00",
+      "summary": "【配套资料】关注公众号：尚硅谷教育，回复“大模型”免费获取\n【课程简介】对于程序员，MCP必知必学，Java+SpringAI / LangChain / LangChain4J+MCP，一旦掌握AI智能落地项目，会大大增加在就业市场的竞争力！",
       "matched_keywords": [
         "MCP 服务器"
       ]
@@ -8228,9 +8050,9 @@
         "name": "直男山禾"
       },
       "duration_sec": 511,
-      "views": 54011,
+      "views": 54044,
       "danmaku": 121,
-      "favorites": 1941,
+      "favorites": 1942,
       "published_at": "2025-05-06T15:38:52+00:00",
       "summary": "今天聊聊MCP",
       "matched_keywords": [
@@ -8238,21 +8060,201 @@
       ]
     },
     {
-      "id": "bvid:BV1dpdZYBE9q",
-      "title": "零代码让AI秒接海量MCP工具！最适合小白的MCP集合平台",
-      "url": "http://www.bilibili.com/video/av114340703243255",
+      "id": "bvid:BV1AnQNYxEsy",
+      "title": "MCP是啥？技术原理是什么？一个视频搞懂MCP的一切。Windows系统配置MCP，Cursor Cline使用MCP",
+      "url": "http://www.bilibili.com/video/av114155298228756",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "2161614",
-        "name": "AI研究室-帆哥"
+        "id": "316183842",
+        "name": "技术爬爬虾"
       },
-      "duration_sec": 310,
-      "views": 99773,
-      "danmaku": 24,
-      "favorites": 1344,
-      "published_at": "2025-04-15T11:00:00+00:00",
-      "summary": "最近MCP太火了，阿里直接跟进把MCP整合到百炼平台里面了，做了一个MCP的“应用商店”。\n之前不管是在cursor还是Claude上还是需要配置一下MCP服务器，现在在百炼上就可以直接无脑添加MCP工具，非常方便。\n而且因为在平台上一体化，和大模型可以打包配置，让后端的运维部署变得更轻松。\n这个视频教你怎么用阿里云百炼的MCP工具创建一个agent应用。",
+      "duration_sec": 910,
+      "views": 420428,
+      "danmaku": 423,
+      "favorites": 24221,
+      "published_at": "2025-03-13T13:18:09+00:00",
+      "summary": "MCP是近期的AI领域的热点，特别是在海外社区获得热烈讨论，每天都有大量MCP工具诞生。本期视频我们从MCP的概念，技术原理，到多场景实战，一个视频看懂MCP的全部内容。\n\n\nMCP官方开源仓库：https://github.com/modelcontextprotocol/servers\nMCP合集网站：  https://smithery.ai/\nVscode下载：https://code.visualstudio.com/",
+      "matched_keywords": [
+        "MCP 服务器"
+      ]
+    },
+    {
+      "id": "bvid:BV1trg36gE2K",
+      "title": "Minecraft_ 1.21.11 - 多人游戏（第三方服务器） 2026-08-14 09-12-53",
+      "url": "http://www.bilibili.com/video/av117096948176943",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "1386571583",
+        "name": "枉厌魃"
+      },
+      "duration_sec": 121,
+      "views": 1,
+      "danmaku": 0,
+      "favorites": 0,
+      "published_at": "2026-08-15T01:35:07+00:00",
+      "summary": "满级坚守者",
+      "matched_keywords": [
+        "MCP 服务器"
+      ]
+    },
+    {
+      "id": "bvid:BV1K3gP6mEsN",
+      "title": "因算力慢半秒亏了一笔？这台服务器重新定义&quot;快&quot;",
+      "url": "http://www.bilibili.com/video/av117093273967478",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "62090670",
+        "name": "IT绿灯侠"
+      },
+      "duration_sec": 32,
+      "views": 38,
+      "danmaku": 0,
+      "favorites": 1,
+      "published_at": "2026-08-15T03:00:00+00:00",
+      "summary": "#量化交易#服务器#英伟达#显卡#数码科技",
+      "matched_keywords": [
+        "MCP 服务器"
+      ]
+    },
+    {
+      "id": "bvid:BV12MEg6pE9o",
+      "title": "【乐鑫教程】乐鑫文档 MCP 服务器上线，现已支持微信登录！",
+      "url": "http://www.bilibili.com/video/av116713957956440",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "538078399",
+        "name": "乐鑫信息科技"
+      },
+      "duration_sec": 292,
+      "views": 8545,
+      "danmaku": 2,
+      "favorites": 435,
+      "published_at": "2026-06-08T10:17:31+00:00",
+      "summary": "手把手教你如何使用最新乐鑫文档知识库，帮你在 Claude / Cursor 等平台解答问题、生成代码、迁移 ESP-IDF 版本、烧录固件。 MCP 服务器现已支持微信扫码一键登录，快来一试！\n\n视频重点内容包括👇：\n\n- 如何将 MCP 服务器添加到 VS Code\n- 让 Copilot 基于乐鑫文档对比旧版和最新版 I2C 驱动\n- 驱动迁移\n- Copilot 编译代码、烧录代码并监控输出",
+      "matched_keywords": [
+        "MCP 服务器"
+      ]
+    },
+    {
+      "id": "bvid:BV1CAdCBvEEk",
+      "title": "实测，高性能免费游戏服务器 居然还不用答题？",
+      "url": "http://www.bilibili.com/video/av116438090124350",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "53801910",
+        "name": "ZY林泽"
+      },
+      "duration_sec": 637,
+      "views": 28,
+      "danmaku": 0,
+      "favorites": 1,
+      "published_at": "2026-04-20T16:59:31+00:00",
+      "summary": "注册地址：https://tudouai.cn/r/wJ9qdGU\n邀请码：wJ9qdGU",
+      "matched_keywords": [
+        "MCP 服务器"
+      ]
+    },
+    {
+      "id": "bvid:BV1UpgA6nE3X",
+      "title": "第一个服务器我专门玩  谁想玩的过来找我",
+      "url": "http://www.bilibili.com/video/av117091663416694",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3546790058003115",
+        "name": "二次元重生成岛国圣兽"
+      },
+      "duration_sec": 12,
+      "views": 2,
+      "danmaku": 0,
+      "favorites": 0,
+      "published_at": "2026-08-14T03:12:24+00:00",
+      "summary": "1",
+      "matched_keywords": [
+        "MCP 服务器"
+      ]
+    },
+    {
+      "id": "bvid:BV1m7gJ6ZEHn",
+      "title": "【小决定】新手零基础｜一键Flutter解析+MCP隧道服务+AI 自动逆向",
+      "url": "http://www.bilibili.com/video/av117085439004709",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "1962680081",
+        "name": "Mod黑猫"
+      },
+      "duration_sec": 166,
+      "views": 446,
+      "danmaku": 0,
+      "favorites": 15,
+      "published_at": "2026-08-13T00:48:04+00:00",
+      "summary": "【超级会员】通过百度网盘分享的文件：小决定_26.6…\n链接:https://pan.baidu.com/s/1cT01gGk3WTNg_bAR94VFJA?pwd=25gp \n提取码:25gp\n复制这段内容打开「百度网盘APP 即可获取」",
+      "matched_keywords": [
+        "MCP 服务器"
+      ]
+    },
+    {
+      "id": "bvid:BV1aMAczmEmf",
+      "title": "[MoonPack]在布吉岛里注入模组-mcp",
+      "url": "http://www.bilibili.com/video/av116264966163402",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "3461574821939205",
+        "name": "DanciestZebra70"
+      },
+      "duration_sec": 85,
+      "views": 4390,
+      "danmaku": 0,
+      "favorites": 72,
+      "published_at": "2026-03-21T03:13:25+00:00",
+      "summary": "交流群\n①1051043310\n②365233792",
+      "matched_keywords": [
+        "MCP 服务器"
+      ]
+    },
+    {
+      "id": "bvid:BV1QfjJ6HECp",
+      "title": "嵌入式神级 MCP 服务器推荐！【Zephyr 101】SP01-2",
+      "url": "http://www.bilibili.com/video/av116781754621441",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "441765076",
+        "name": "MC-ALL"
+      },
+      "duration_sec": 728,
+      "views": 4194,
+      "danmaku": 1,
+      "favorites": 469,
+      "published_at": "2026-06-20T12:00:00+00:00",
+      "summary": "大家好，我是 Ellis\n这里没有 PPT，没有废话\n这是一个基于 STM32F411 的 Zephyr 实战系列\n嵌入式神级 MCP 服务器推荐！",
+      "matched_keywords": [
+        "MCP 服务器"
+      ]
+    },
+    {
+      "id": "bvid:BV1u4G9zmEte",
+      "title": "什么是MCP？VS Code中使用MCP Server",
+      "url": "http://www.bilibili.com/video/av114426032168712",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "1154640096",
+        "name": "AI落地派"
+      },
+      "duration_sec": 347,
+      "views": 6837,
+      "danmaku": 0,
+      "favorites": 120,
+      "published_at": "2025-04-30T08:51:30+00:00",
+      "summary": "什么是MCP，怎么样使用MCP Server，不用写SQL语句就可以查询数据库。\n\nMCP Servers\nhttps://smithery.ai/\nhttps://github.com/punkpeye/awesome-mcp-servers\nhttps://github.com/modelcontextprotocol/servers\n\nMCP Server for MySQL based on NodeJS\nhttps://www.npmjs.com/package/@benborla29/mcp-",
       "matched_keywords": [
         "MCP 服务器"
       ]
@@ -8268,9 +8270,9 @@
         "name": "去飞GoFly"
       },
       "duration_sec": 452,
-      "views": 9337,
+      "views": 9344,
       "danmaku": 1,
-      "favorites": 361,
+      "favorites": 363,
       "published_at": "2025-04-14T02:30:00+00:00",
       "summary": "MCP服务网站：https://smithery.ai/\nCherry Studio官方网站：https://cherry-ai.com/",
       "matched_keywords": [
@@ -8278,101 +8280,21 @@
       ]
     },
     {
-      "id": "bvid:BV1zV54zbEbU",
-      "title": "2分钟在vscode里使用MCP服务",
-      "url": "http://www.bilibili.com/video/av114365231531540",
+      "id": "bvid:BV1TPVR6KE85",
+      "title": "11、Codex MCP 使用详解",
+      "url": "http://www.bilibili.com/video/av116672048399991",
       "platform": "bilibili",
       "source": {
         "type": "bilibili",
-        "id": "207704732",
-        "name": "程序员三千"
+        "id": "478780537",
+        "name": "神秘的葱"
       },
-      "duration_sec": 100,
-      "views": 10980,
+      "duration_sec": 276,
+      "views": 4116,
       "danmaku": 0,
-      "favorites": 227,
-      "published_at": "2025-04-19T15:10:12+00:00",
-      "summary": "-",
-      "matched_keywords": [
-        "MCP 服务器"
-      ]
-    },
-    {
-      "id": "bvid:BV1ZQKUzYExM",
-      "title": "小智开源服务端支持MCP接入点功能",
-      "url": "http://www.bilibili.com/video/av114760469191241",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "2042143558",
-        "name": "这家伙更懒"
-      },
-      "duration_sec": 31,
-      "views": 6349,
-      "danmaku": 0,
-      "favorites": 37,
-      "published_at": "2025-06-28T10:18:17+00:00",
-      "summary": "开源小智服务端智控台正式推出MCP接入点功能，方便扩展自定义功能工具\n\n硬件设备开源地址：https://github.com/78/xiaozhi-esp32\n后端软件开源地址：https://github.com/xinnan-tech/xiaozhi-esp32-server",
-      "matched_keywords": [
-        "MCP 服务器"
-      ]
-    },
-    {
-      "id": "bvid:BV1SoTG6MEsA",
-      "title": "【我的世界AI】用了这个MCP，我的MC服务器终于有了“大脑”",
-      "url": "http://www.bilibili.com/video/av116830157019768",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "1319746293",
-        "name": "是小林呀awa"
-      },
-      "duration_sec": 239,
-      "views": 293,
-      "danmaku": 0,
-      "favorites": 7,
-      "published_at": "2026-06-28T22:47:30+00:00",
-      "summary": "",
-      "matched_keywords": [
-        "MCP 服务器"
-      ]
-    },
-    {
-      "id": "bvid:BV1GD7qzREVA",
-      "title": "【MCP部署实战】手把手教你把MCP接入各大热门工具，保姆级教学，我奶听了都能学会，CherryStudio配置MCP",
-      "url": "http://www.bilibili.com/video/av114623818763366",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "3546835570395440",
-        "name": "亿点点大模型"
-      },
-      "duration_sec": 3095,
-      "views": 8935,
-      "danmaku": 2,
-      "favorites": 189,
-      "published_at": "2025-06-04T07:08:58+00:00",
-      "summary": "全程干货无废话！MCP最新实战教程，从环境部署、原理详解到项目实战，带你彻底吃透MCP！MCPServer开发，mcp开发，mcp教程，mcp项目 完整视频教程+讲解课件+学习笔记+AI大模型知识库已打包可分享！",
-      "matched_keywords": [
-        "MCP 服务器"
-      ]
-    },
-    {
-      "id": "bvid:BV1tjdoY9EiK",
-      "title": "魔搭社区MCP服务",
-      "url": "http://www.bilibili.com/video/av114341424662555",
-      "platform": "bilibili",
-      "source": {
-        "type": "bilibili",
-        "id": "284451102",
-        "name": "chensong121"
-      },
-      "duration_sec": 252,
-      "views": 680,
-      "danmaku": 0,
-      "favorites": 8,
-      "published_at": "2025-04-15T10:12:08+00:00",
-      "summary": "",
+      "favorites": 94,
+      "published_at": "2026-06-01T00:38:57+00:00",
+      "summary": "【2025最新】B站讲的最好的Codex零基础入门到精通教程，逼自己5小时学完，即可快速入门Codex项目实战开发，请速取！！！需要视频参考资料的好友可前往获取：https://blog.csdn.net/zhangcongyi420/category_12749645.html",
       "matched_keywords": [
         "MCP 服务器"
       ]
@@ -8388,11 +8310,51 @@
         "name": "_Smzh_"
       },
       "duration_sec": 1649,
-      "views": 28637,
+      "views": 28675,
       "danmaku": 11,
-      "favorites": 1179,
+      "favorites": 1180,
       "published_at": "2025-07-04T10:00:00+00:00",
       "summary": "chatbox官网：https://chatboxai.app\ngithub仓库：https://github.com/chatboxai/chatbox\n\nLM Studio教程：BV1usrLYTEZR\nTGW懒人包部署教程：BV1dVCzYUE7G\n本地语言模型个人推荐：BV1Bb421E7j7",
+      "matched_keywords": [
+        "MCP 服务器"
+      ]
+    },
+    {
+      "id": "bvid:BV1Rj3R6gEAx",
+      "title": "dsv4flash接入识图mcp+内置浏览器生成我的世界",
+      "url": "http://www.bilibili.com/video/av117025410258672",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "323637465",
+        "name": "kdzzzds"
+      },
+      "duration_sec": 41,
+      "views": 2667,
+      "danmaku": 0,
+      "favorites": 26,
+      "published_at": "2026-08-02T10:25:28+00:00",
+      "summary": "",
+      "matched_keywords": [
+        "MCP 服务器"
+      ]
+    },
+    {
+      "id": "bvid:BV1zLuq6FEnz",
+      "title": "AI短剧公司-需要什么配置的NAS服务器 ？全面拆解！跟家用NAS有哪些区别？",
+      "url": "http://www.bilibili.com/video/av117076211533549",
+      "platform": "bilibili",
+      "source": {
+        "type": "bilibili",
+        "id": "256643605",
+        "name": "阿雷课堂"
+      },
+      "duration_sec": 513,
+      "views": 2925,
+      "danmaku": 1,
+      "favorites": 32,
+      "published_at": "2026-08-11T09:44:33+00:00",
+      "summary": "",
       "matched_keywords": [
         "MCP 服务器"
       ]
