@@ -1,195 +1,218 @@
 {
   "date": "2026-08-15",
-  "intro": "今日核心信号：Anthropic 营收爆发式增长，Q2 超 115 亿美元，同比增 14 倍，AI 商业化进入兑现期；但英伟达 5000 亿美元融资平台引发市场对 AI 泡沫的担忧，博通暴跌 20%，AI 资本开支的可持续性成为焦点。此外，DeepSeek 开源 Harness 和 V4 Pro 模型为开发者提供高性价比新选择，值得关注。",
+  "intro": "今日核心信号：AI 算力融资链条出现裂缝——博通因 3700 亿美元潜在债务风险暴跌 20%，英伟达的“算力抵押”模式引发 2008 式担忧；同时 Anthropic 营收暴涨 14 倍、OpenAI 推出 14 倍速模式，模型能力与资本风险赛跑。半导体端 CXMT 上市 17 天市值超腾讯，存储涨价潮重塑行业格局。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI",
-      "id": "bvid:BV1wugF6YEL3",
-      "url": "http://www.bilibili.com/video/av117089415204498",
-      "source": "Lau博士的云组会",
+      "domain": "股票",
+      "id": "wscn:3779502",
+      "url": "https://wallstreetcn.com/premium/articles/3779502?layout=wscn-layout",
+      "source": "华尔街见闻 API",
       "stars": 5,
-      "title": "DeepSeek Harness 开源：Claude Code 的强劲对手，Agent 开发新范式",
-      "lead": "DeepSeek 开源了其 Harness 工具，Lau 博士在视频中解读其独特之处。这不仅是又一个 CLI 工具，而是 DeepSeek 对 Agent 开发底层逻辑的重新思考，可能改变开发者构建 AI Agent 的方式。",
+      "title": "博通暴跌 20%：3700 亿美元隐形担保压垮市场信心",
+      "lead": "博通单日暴跌 20%，市值蒸发惊人。美银估算其芯片融资项目到 2029 年可能形成约 3700 亿美元高级债务，为 20GW 算力提供资金。市场突然意识到，AI 算力需求依赖庞大融资平台，估值逻辑必须考虑资产残值、违约率和供应商担保责任。",
       "confirmed": [
-        "DeepSeek Harness 已开源，视频详细解读其架构和设计理念。",
-        "Harness 被定位为 Claude Code 的替代或补充，强调其独特优势。",
-        "视频由 Lau 博士发布，内容深度解读，非简单教程。"
+        "博通股价单日暴跌 20%，市值大幅缩水",
+        "美银估算博通芯片融资项目到 2029 年可能形成约 3700 亿美元高级债务",
+        "该融资计划为 20GW 算力提供资金，单 2027 年可能新增约 1500 亿美元债务",
+        "市场开始关注 AI 产业链的资产残值、客户违约率、债务成本及供应商担保责任"
       ],
       "judgment": [
-        "Harness 的实际性能和稳定性尚未经过大规模社区验证。",
-        "其与 Claude Code 的生态兼容性未知，迁移成本待评估。",
-        "DeepSeek 官方对 Harness 的长期支持策略不明确。"
+        "3700 亿美元债务是否最终落地尚不确定，取决于 AI 算力需求持续性和融资条件",
+        "博通基本面是否受损仍待观察，暴跌更多是估值逻辑重估而非经营恶化",
+        "市场是否过度反应，需看后续融资进展和客户订单稳定性",
+        "该事件是否会引发系统性风险，取决于其他芯片厂商的类似融资模式"
       ],
-      "implication": "你应该立即关注 DeepSeek Harness，它可能成为你 content-curator 项目的底层工具。其开源特性意味着你可以深度定制，且 DeepSeek 的 API 成本远低于 Claude，适合预算有限的个人项目。建议观看视频并尝试部署，对比其与 Claude Code 在真实任务中的表现。"
+      "implication": "你应该警惕 AI 算力融资的杠杆风险。博通暴跌提醒你，AI 产业链的估值已绑定债务扩张，而非单纯的技术进步。关注博通后续财报和融资披露，如果债务规模超预期，可能引发连锁反应。你的 Agent 项目若依赖 AI 基础设施，需评估上游成本波动风险。"
     },
     {
       "rank": 2,
-      "domain": "AI",
-      "id": "bvid:BV1dngn6CECd",
-      "url": "http://www.bilibili.com/video/av117087234430329",
-      "source": "AI超元域",
+      "domain": "股票",
+      "id": "wscn:3779495",
+      "url": "https://wallstreetcn.com/articles/3779495",
+      "source": "华尔街见闻 API",
       "stars": 5,
-      "title": "DeepSeek V4 Pro 实测：5 元开发 5 个项目，1M 上下文，性价比之王",
-      "lead": "DeepSeek V4 Pro 0813 版本发布，AI 超元域将其接入 Claude Code 进行实测，仅花费 5.36 元完成 6 个复杂编程项目，性能接近 Kimi K3。这标志着国产模型在编程领域已具备极高性价比。",
+      "title": "Anthropic Q2 营收破 115 亿美元，同比暴增 14 倍并实现盈利",
+      "lead": "Anthropic 二季度初步营收超 115 亿美元，去年同期仅 7.87 亿美元，环比一季度 47.3 亿美元翻倍以上。同时实现调整后营业利润为正，标志着 AI 头部公司从烧钱转向造血。",
       "confirmed": [
-        "DeepSeek V4 Pro 0813 已上线，支持 1M 上下文。",
-        "实测中，使用 Claude Code 接入 V4 Pro 完成 6 个项目，总花费 5.36 元。",
-        "视频中对比了 Kimi K3，称性能接近。"
+        "Anthropic 二季度初步营收超过 115 亿美元",
+        "2025 年同期营收为 7.87 亿美元，同比增长超 14 倍",
+        "2026 年第一季度营收为 47.3 亿美元，环比增长超 140%",
+        "二季度实现调整后营业利润为正"
       ],
       "judgment": [
-        "测试项目类型有限，可能未覆盖所有复杂场景。",
-        "1M 上下文在长文档处理中的实际效果待验证。",
-        "与 Claude Opus 4.8 的差距未量化，可能仍有明显不足。"
+        "初步营收数据未经审计，最终数字可能有调整",
+        "盈利是否可持续，取决于模型成本下降和市场竞争",
+        "营收高增长能否维持，需观察企业客户留存和扩展",
+        "Anthropic 的估值是否合理，需对比 OpenAI 等竞争对手"
       ],
-      "implication": "对于你的 Agent 项目，DeepSeek V4 Pro 是极具吸引力的选择。超低成本和长上下文支持，让你可以大规模测试和迭代。建议尝试将 V4 Pro 接入你的工作流，对比其与 Claude 在代码生成、RAG 等任务上的表现，以决定是否作为主力模型。"
+      "implication": "Anthropic 的爆发式增长验证了 AI 商业化的可行性，但你也应看到其高增长伴随的资本消耗。如果你在构建 Agent 产品，可关注 Anthropic 的 API 定价和模型能力变化，这直接影响你的成本结构。同时，盈利转正可能吸引更多资本涌入，加剧竞争。"
     },
     {
       "rank": 3,
       "domain": "AI 算力 / 半导体",
-      "id": "wscn:3779503",
-      "url": "https://wallstreetcn.com/articles/3779503",
-      "source": "华尔街见闻 API",
+      "id": "rss:https://www.tomshardware.com/tech-industry/cxmt-overtakes-tencent-to-become-chinas-most-valuable-company-17-days-after-its-ipo",
+      "url": "https://www.tomshardware.com/tech-industry/cxmt-overtakes-tencent-to-become-chinas-most-valuable-company-17-days-after-its-ipo",
+      "source": "Luke James",
       "stars": 5,
-      "title": "英伟达 5000 亿美元融资平台：AI 资本开支的“信用背书”还是泡沫前兆？",
-      "lead": "英伟达通过“兜底换分润”模式为新兴 AI 云服务商提供信用背书，换取收益分成，构建 5000 亿美元融资平台。摩根士丹利看好其长远盈利，但市场对 AI 泡沫的担忧加剧，博通暴跌 20% 与此相关。",
+      "title": "CXMT 上市 17 天市值超腾讯，成中国最值钱公司",
+      "lead": "长鑫存储（CXMT）IPO 后 17 天市值达 5240 亿美元，超越腾讯成为中国市值最高公司。存储芯片在 AI 需求下成为稀缺资源，CXMT 的崛起标志着中国存储产业的历史性突破。",
       "confirmed": [
-        "英伟达与私营巨头搭建 5000 亿美元融资平台，为 neocloud 提供信用背书。",
-        "模式为“兜底换分润”，英伟达获得收益分成。",
-        "博通因 AI 融资担忧盘中重挫 7%，市值蒸发严重。"
+        "CXMT 上市 17 天后市值达 5240 亿美元",
+        "CXMT 超越腾讯成为中国市值最高的公司",
+        "CXMT 是存储芯片制造商，受益于 AI 对内存的强劲需求",
+        "存储芯片价格持续上涨，推动 CXMT 估值飙升"
       ],
       "judgment": [
-        "该模式是否可持续，取决于 AI 算力需求能否持续增长。",
-        "若 AI 泡沫破裂，英伟达可能面临巨大担保风险。",
-        "监管机构是否会介入此类金融创新尚不明确。"
+        "5240 亿美元市值是否高估，取决于存储周期持续性和公司盈利能力",
+        "CXMT 能否保持技术领先，需关注与三星、SK 海力士的竞争",
+        "中国存储产业崛起是否改变全球格局，需观察出口管制和产能扩张",
+        "市值超越腾讯是否具有象征意义，反映市场对硬科技的偏好"
       ],
-      "implication": "作为 AI 从业者，你需要关注 AI 资本开支的可持续性。英伟达的融资平台可能加剧行业波动，影响你的项目预算和模型选择。建议关注市场动态，保持技术栈的灵活性，避免过度依赖单一供应商。"
+      "implication": "CXMT 的暴涨是存储涨价潮的缩影，直接影响你的硬件成本和 AI 项目部署预算。如果你在构建本地模型或依赖大内存，应关注存储价格走势。同时，中国存储产业的崛起可能带来更多国产替代机会，值得你关注相关生态。"
     },
     {
       "rank": 4,
       "domain": "大厂 AI 动态",
-      "id": "hn:49289112",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "source": "thisisuserid",
+      "id": "rss:https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "source": "Lucas Ropek",
       "stars": 4,
-      "title": "Gemini 3.7 Flash 发布：Google 加速模型迭代，Flash 系列再升级",
-      "lead": "Google 发布 Gemini 3.7 Flash，延续 Flash 系列的高效路线，在推理速度和成本上进一步优化。HN 上获得 949 分，社区反响热烈。",
+      "title": "OpenAI 推出 Ultrafast 模式，GPT-5.6 Sol 提速 14 倍",
+      "lead": "OpenAI 预览 Ultrafast 模式，让 GPT-5.6 Sol 以 14 倍速度运行，旨在吸引企业用户。该模式可能通过蒸馏或简化推理路径实现，但可能牺牲一定质量。",
       "confirmed": [
-        "Gemini 3.7 Flash 已发布，官方博客宣布。",
-        "HN 热度高，获得 949 分。",
-        "Flash 系列定位高效推理，适合大规模应用。"
+        "OpenAI 发布 Ultrafast 模式预览，使 GPT-5.6 Sol 速度提升 14 倍",
+        "该模式主要面向企业用户，提高推理效率",
+        "Ultrafast 模式可能通过模型压缩或简化推理实现",
+        "OpenAI 正积极拓展企业市场，与 IBM 等合作"
       ],
       "judgment": [
-        "具体性能提升幅度未公布，需等待基准测试。",
-        "与 Gemini 3.6 Flash 的差异可能不大，属于增量更新。",
-        "API 价格是否调整未知。"
+        "14 倍速度是否影响输出质量，需实际测试",
+        "Ultrafast 模式的定价策略尚未公布，可能影响采用率",
+        "该模式是否适用于所有任务，还是仅限特定场景",
+        "竞争对手如 Anthropic、Google 是否会跟进类似功能"
       ],
-      "implication": "Gemini 3.7 Flash 可能成为你 content-curator 项目的候选模型，尤其是需要处理大量文本摘要时。其高效推理特性有助于降低成本。建议关注官方文档，了解其 API 细节和定价，对比现有模型。"
+      "implication": "Ultrafast 模式可能降低你的 API 调用成本和时间，尤其适合高频 Agent 任务。你可以测试该模式在代码生成、数据处理等场景的表现，权衡速度与质量。同时，关注 OpenAI 的定价调整，优化你的 Side Project 成本。"
     },
     {
       "rank": 5,
-      "domain": "金融",
-      "id": "wscn:3779495",
-      "url": "https://wallstreetcn.com/articles/3779495",
-      "source": "华尔街见闻 API",
+      "domain": "AI",
+      "id": "bvid:BV1wugF6YEL3",
+      "url": "http://www.bilibili.com/video/av117089415204498",
+      "source": "Lau博士的云组会",
       "stars": 4,
-      "title": "Anthropic Q2 营收超 115 亿美元，同比增 14 倍，AI 商业化拐点已至",
-      "lead": "Anthropic 二季度营收初步超过 115 亿美元，较去年同期 7.87 亿美元增长超 14 倍，并实现调整后营业利润为正。这是 AI 公司商业化能力的重要信号。",
+      "title": "DeepSeek Harness 开源：Claude Code 的替代方案？",
+      "lead": "DeepSeek 开源 Harness，一个类似 Claude Code 的 Agent 开发环境，引发社区关注。视频解读其独特之处，可能提供更便宜的编程 Agent 方案。",
       "confirmed": [
-        "Anthropic Q2 营收超 115 亿美元，同比增 14 倍。",
-        "Q1 营收为 47.3 亿美元，环比增长显著。",
-        "实现调整后营业利润为正，表明盈利能力改善。"
+        "DeepSeek Harness 已开源",
+        "该工具定位类似 Claude Code，用于 Agent 开发",
+        "视频作者 Lau 博士详细解读其架构和功能",
+        "DeepSeek 近期发布 V4 系列模型，性能接近 Claude Opus"
       ],
       "judgment": [
-        "营收增长是否可持续，取决于企业客户需求。",
-        "营业利润为正可能受一次性因素影响。",
-        "与 OpenAI 的竞争可能影响其市场份额。"
+        "DeepSeek Harness 是否成熟，需实际测试和社区反馈",
+        "与 Claude Code 相比，生态和文档是否完善",
+        "开源许可和商业化前景尚不明朗",
+        "DeepSeek 模型在复杂任务上的稳定性仍需验证"
       ],
-      "implication": "Anthropic 的强劲增长表明 AI 商业化正在加速，这对你的职业发展是利好。作为 AI 产品开发者，你可以更自信地投入 Agent 项目，市场对 AI 技能的需求将持续增长。建议关注 Anthropic 的 API 更新，利用其模型构建更强大的应用。"
+      "implication": "作为 AI Agent 爱好者，你可以尝试 DeepSeek Harness，它可能提供更低的成本或不同的工作流。结合 DeepSeek V4 的性价比，这可能是你构建个人 Agent 项目的可行选择。关注其社区发展和更新频率，评估长期可用性。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI",
-      "title": "Vibe Coding竞赛，Claude遗憾落败?",
-      "url": "http://www.bilibili.com/video/av117030980230736",
-      "source": "GenJi是真想教会你",
-      "one_liner": "实战对比 Claude Code 与秒哒，展示不同工具在快速开发中的优劣，对选择工具有参考价值。"
-    },
-    {
-      "domain": "AI",
-      "title": "从夯到拉，锐评 32 个 AI 编程工具！",
-      "url": "http://www.bilibili.com/video/av116578532200786",
-      "source": "程序员鱼皮",
-      "one_liner": "全面评测主流 AI 编程工具，帮你快速了解生态，但内容较泛，适合入门选型。"
-    },
-    {
-      "domain": "AI",
-      "title": "用Codex、cursor 还是Claude ？程序员不作选择题，我都要用，还一起用 | Orca ADE 介绍",
-      "url": "http://www.bilibili.com/video/av116996217838997",
-      "source": "技术胖",
-      "one_liner": "介绍开源 Agent 开发环境 Orca ADE，可整合多种编程 Agent，适合多工具协作场景。"
-    },
-    {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia's Risky Business",
-      "url": "https://stratechery.com/2026/nvidias-risky-business/",
-      "source": "jonbaer",
-      "stars": 4,
-      "one_liner": "Stratechery 深度分析英伟达的金融风险，与头条 3 呼应，提供更深入视角。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "CXMT overtakes Tencent to become China's most valuable company 17 days after its IPO",
-      "url": "https://www.tomshardware.com/tech-industry/cxmt-overtakes-tencent-to-become-chinas-most-valuable-company-17-days-after-its-ipo",
-      "source": "Luke James",
-      "one_liner": "存储芯片公司长鑫存储 IPO 后市值超腾讯，凸显半导体国产化趋势，值得关注。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia doubles RTX PRO 6000 Blackwell's MSRP to a staggering $16,000",
+      "title": "Nvidia 将 RTX PRO 6000 Blackwell 价格翻倍至 16000 美元",
       "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-doubles-rtx-pro-6000-blackwells-msrp-to-a-staggering-usd16-000-96gb-card-started-pre-orders-below-usd8-000-last-year",
-      "source": "jacquesm",
-      "one_liner": "英伟达专业显卡价格翻倍，反映 AI 硬件成本上升，影响个人开发者预算。"
+      "source": "Tom's Hardware",
+      "one_liner": "专业显卡价格飙升，反映 AI 硬件供不应求，但可能抑制中小企业采购。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "AMD 借款 47.5 亿美元用于一般公司用途",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-borrows-usd4-75-billion-for-general-corporate-purposes-company-gives-no-insight-into-how-it-plans-to-spend-cash-injection",
+      "source": "Tom's Hardware",
+      "one_liner": "AMD 大额融资但用途不明，可能为 AI 芯片研发或并购储备弹药。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "美国对进口无人机及零部件征收最高 100% 关税",
+      "url": "https://www.tomshardware.com/tech-industry/drones/us-imposes-up-to-100-percent-tariffs-on-foreign-made-drones-and-components-china-remains-primary-target-as-washington-moves-to-reduce-reliance-on-overseas-suppliers",
+      "source": "Tom's Hardware",
+      "one_liner": "关税政策影响供应链，可能推高硬件成本，但利好本土制造商。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "英伟达 Jetson 芯片疑似用于俄罗斯巡航导弹",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-jetson-chip-found-in-russian-cruise-missile-ukraine-claims-presence-in-s-71-monochrome-weapon-may-indicate-use-of-ai-tech",
+      "source": "Tom's Hardware",
+      "one_liner": "地缘政治风险加剧，可能引发更严格的芯片出口管制。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
-      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
-      "source": "Lucas Ropek",
-      "one_liner": "OpenAI 推出 Ultrafast 模式，大幅提升推理速度，对实时应用有吸引力。"
+      "title": "Google 允许用户移除 AI 生成内容的可见水印",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "source": "TechCrunch",
+      "one_liner": "水印移除引发版权和真实性担忧，但隐形水印仍保留。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "title": "IBM 与 OpenAI 合作推动企业 AI 应用",
+      "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+      "source": "TechCrunch",
+      "one_liner": "IBM 将培训数万名顾问，OpenAI 借力拓展企业市场。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Databricks 以 1900 亿美元估值融资 50 亿美元",
       "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
-      "source": "Julie Bort",
-      "one_liner": "Databricks 融资 50 亿美元，估值 1900 亿，反映 AI 基础设施投资热度。"
+      "source": "TechCrunch",
+      "one_liner": "AI 数据平台吸金能力强劲，但估值高企需关注盈利。"
     },
     {
-      "domain": "金融",
-      "title": "博通暴跌20% 市场在怕什么？",
-      "url": "https://wallstreetcn.com/premium/articles/3779502?layout=wscn-layout",
+      "domain": "股票",
+      "title": "英伟达首度披露 SpaceX 持仓，借道 xAI 间接持有约 210 亿美元",
+      "url": "https://wallstreetcn.com/articles/3779494",
       "source": "华尔街见闻 API",
-      "one_liner": "博通因 AI 融资担忧暴跌，与头条 3 相关，提供具体案例。"
+      "one_liner": "英伟达与 SpaceX 深度绑定，AI 与航天跨界投资。"
+    },
+    {
+      "domain": "股票",
+      "title": "老虎环球 Q2 押注 AI 二线选手：新进 Cerebras 和 AMD",
+      "url": "https://wallstreetcn.com/articles/3779485",
+      "source": "华尔街见闻 API",
+      "one_liner": "机构调仓显示 AI 投资从巨头向二线扩散。"
+    },
+    {
+      "domain": "股票",
+      "title": "甲骨文一度跌 5%，星际之门关键 AI 数据中心天然气管道延期",
+      "url": "https://wallstreetcn.com/articles/3779489",
+      "source": "华尔街见闻 API",
+      "one_liner": "基础设施延期凸显 AI 扩张的现实瓶颈。"
     },
     {
       "domain": "金融",
-      "title": "“AI股神”爆仓拖累，Jane Street7月巨亏150亿，十年来首次单月亏损！",
+      "title": "美联储 9 月加息概率骤降至 25%",
+      "url": "https://wallstreetcn.com/articles/3779497",
+      "source": "华尔街见闻 API",
+      "one_liner": "通胀降温改变利率预期，利好成长股但需警惕油价。"
+    },
+    {
+      "domain": "金融",
+      "title": "Jane Street 7 月巨亏 150 亿，十年来首次单月亏损",
       "url": "https://wallstreetcn.com/articles/3779493",
       "source": "华尔街见闻 API",
-      "one_liner": "Jane Street 因 AI 股爆仓巨亏，显示 AI 投资风险，对市场情绪有影响。"
+      "one_liner": "AI 股神爆仓拖累做市商，市场波动风险加剧。"
     },
     {
       "domain": "金融",
-      "title": "OpenAI talent exodus raises 'huge red flag' ahead of IPO",
-      "url": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
-      "source": "DGAP",
-      "one_liner": "OpenAI 人才流失引发 IPO 担忧，影响 AI 行业信心。"
+      "title": "AI 融资担忧发酵，博通盘中重挫 7%",
+      "url": "https://wallstreetcn.com/articles/3779486",
+      "source": "华尔街见闻 API",
+      "one_liner": "3700 亿潜在风险警钟，AI 产业链估值逻辑生变。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-15T04:21:51+0000"
+    "scored_at": "2026-08-15T04:56:40+0000"
   }
 }

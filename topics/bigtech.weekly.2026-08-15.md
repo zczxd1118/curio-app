@@ -1,39 +1,42 @@
 # Curio · 大厂 AI 动态 · 2026-08-15
 
-> 今日 1 条头条 + 2 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今日核心信号：Anthropic 营收爆发式增长，Q2 超 115 亿美元，同比增 14 倍，AI 商业化进入兑现期；但英伟达 5000 亿美元融资平台引发市场对 AI 泡沫的担忧，博通暴跌 20%，AI 资本开支的可持续性成为焦点。此外，DeepSeek 开源 Harness 和 V4 Pro 模型为开发者提供高性价比新选择，值得关注。_
+_今日核心信号：AI 算力融资链条出现裂缝——博通因 3700 亿美元潜在债务风险暴跌 20%，英伟达的“算力抵押”模式引发 2008 式担忧；同时 Anthropic 营收暴涨 14 倍、OpenAI 推出 14 倍速模式，模型能力与资本风险赛跑。半导体端 CXMT 上市 17 天市值超腾讯，存储涨价潮重塑行业格局。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. Gemini 3.7 Flash 发布：Google 加速模型迭代，Flash 系列再升级
+### 4. OpenAI 推出 Ultrafast 模式，GPT-5.6 Sol 提速 14 倍
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _thisisuserid_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Lucas Ropek_
 
-Google 发布 Gemini 3.7 Flash，延续 Flash 系列的高效路线，在推理速度和成本上进一步优化。HN 上获得 949 分，社区反响热烈。
+OpenAI 预览 Ultrafast 模式，让 GPT-5.6 Sol 以 14 倍速度运行，旨在吸引企业用户。该模式可能通过蒸馏或简化推理路径实现，但可能牺牲一定质量。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Gemini 3.7 Flash 已发布，官方博客宣布。 | 具体性能提升幅度未公布，需等待基准测试。 |
-| HN 热度高，获得 949 分。 | 与 Gemini 3.6 Flash 的差异可能不大，属于增量更新。 |
-| Flash 系列定位高效推理，适合大规模应用。 | API 价格是否调整未知。 |
+| OpenAI 发布 Ultrafast 模式预览，使 GPT-5.6 Sol 速度提升 14 倍 | 14 倍速度是否影响输出质量，需实际测试 |
+| 该模式主要面向企业用户，提高推理效率 | Ultrafast 模式的定价策略尚未公布，可能影响采用率 |
+| Ultrafast 模式可能通过模型压缩或简化推理实现 | 该模式是否适用于所有任务，还是仅限特定场景 |
+| OpenAI 正积极拓展企业市场，与 IBM 等合作 | 竞争对手如 Anthropic、Google 是否会跟进类似功能 |
 
 **📖 主编点评**
 
-Gemini 3.7 Flash 可能成为你 content-curator 项目的候选模型，尤其是需要处理大量文本摘要时。其高效推理特性有助于降低成本。建议关注官方文档，了解其 API 细节和定价，对比现有模型。
+Ultrafast 模式可能降低你的 API 调用成本和时间，尤其适合高频 Agent 任务。你可以测试该模式在代码生成、数据处理等场景的表现，权衡速度与质量。同时，关注 OpenAI 的定价调整，优化你的 Side Project 成本。
 
-📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/)
+📺 [打开原文](https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/)
 
 ---
 
 ## 📋 备选阅读
 
-- [OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed](https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/) —— OpenAI 推出 Ultrafast 模式，大幅提升推理速度，对实时应用有吸引力。
-  _Lucas Ropek_
-- [Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.](https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/) —— Databricks 融资 50 亿美元，估值 1900 亿，反映 AI 基础设施投资热度。
-  _Julie Bort_
+- [Google 允许用户移除 AI 生成内容的可见水印](https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/) —— 水印移除引发版权和真实性担忧，但隐形水印仍保留。
+  _TechCrunch_
+- [IBM 与 OpenAI 合作推动企业 AI 应用](https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/) —— IBM 将培训数万名顾问，OpenAI 借力拓展企业市场。
+  _TechCrunch_
+- [Databricks 以 1900 亿美元估值融资 50 亿美元](https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/) —— AI 数据平台吸金能力强劲，但估值高企需关注盈利。
+  _TechCrunch_
 
 ---
 
