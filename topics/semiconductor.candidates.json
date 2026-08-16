@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-08-15T03:45:30.701391+00:00",
+  "fetched_at": "2026-08-16T03:53:42.845494+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,9 +13,9 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 1,
-    "HN · Nvidia": 8,
+    "HN · Nvidia": 9,
     "HN · semiconductor": 1,
-    "HN · ASML / EUV": 0,
+    "HN · ASML / EUV": 1,
     "HN · AI chip 厂商": 0,
     "HN · 数据中心 / 算力": 0
   },
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 59,
+  "total": 61,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -367,6 +367,278 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/grab-this-rtx-5070-gaming-pc-for-just-usd1-499-saving-usd600-off-list-price-acer-nitro-85-prebuilt-comes-with-16gb-of-ram-core-ultra-7-265f-and-a-1tb-pcie-4-0-ssd",
+      "title": "Grab this RTX 5070 gaming PC for just $1,499, saving $600 off list price — Acer Nitro 85 prebuilt comes with 16GB of RAM, Core Ultra 7 265F, and a 1TB PCIe 4.0 SSD",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/grab-this-rtx-5070-gaming-pc-for-just-usd1-499-saving-usd600-off-list-price-acer-nitro-85-prebuilt-comes-with-16gb-of-ram-core-ultra-7-265f-and-a-1tb-pcie-4-0-ssd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T20:53:34+00:00",
+      "summary": "The Acer Nitro 85 gaming desktop is currently on sale for $1,499, which is $600 off its regular price for a PC that would otherwise cost you $2,000 to spec out yourself.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/hdds/peer-reviewed-study-of-443000-backblaze-drivers-ranks-hgst-most-reliable-and-toshiba-least",
+      "title": "Peer-reviewed study of 443,000 Backblaze hard drives ranks HGST most reliable and Toshiba the least — Analysis of 1.66 million drive-years finds Seagate and Toshiba HDDs fail at roughly twice the rate of WD and HGST",
+      "url": "https://www.tomshardware.com/pc-components/hdds/peer-reviewed-study-of-443000-backblaze-drivers-ranks-hgst-most-reliable-and-toshiba-least",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T15:30:10+00:00",
+      "summary": "Backblaze's quarterly reports compare whichever drives are available at the time.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/futuristic-mosquito-zapping-laser-now-available-to-buy-video-shows-device-in-action-tiny-device-shoots-down-bugs-like-a-personal-air-defense-system-but-costs-usd1-000",
+      "title": "Futuristic mosquito-zapping laser now available to buy, video shows device in action — tiny device shoots down bugs like a personal air defense system, but costs $1,000",
+      "url": "https://www.tomshardware.com/peripherals/futuristic-mosquito-zapping-laser-now-available-to-buy-video-shows-device-in-action-tiny-device-shoots-down-bugs-like-a-personal-air-defense-system-but-costs-usd1-000",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T15:04:47+00:00",
+      "summary": "This anti-mosquito air defense laser system has successfully passed the crowdfunding stage and is now readily available on the market. It costs around $1,000, but it will be money well spent if it can defend your home from mosquito-borne diseases.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/grab-this-nvidia-rtx-5070-ti-gaming-pc-for-usd2-099-before-it-sells-out-prebuilt-powerhouse-includes-a-core-ultra-7-265kf-32gb-ram-1tb-ssd",
+      "title": "Grab this Nvidia RTX 5070 Ti gaming PC for $2,099 before it sells out —prebuilt powerhouse includes a Core Ultra 7 265KF, 32GB RAM, 1TB SSD",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/grab-this-nvidia-rtx-5070-ti-gaming-pc-for-usd2-099-before-it-sells-out-prebuilt-powerhouse-includes-a-core-ultra-7-265kf-32gb-ram-1tb-ssd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zhiye Liu",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T14:23:36+00:00",
+      "summary": "The Acer Predator Orion 6000 gaming desktop is currently on sale for $2,099, $700 off its regular price.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/nvidia-turns-usd5b-intel-stock-bet-into-usd30b-windfall-filing-reveals-new-usd21b-spacex-stake-and-complete-exit-from-arm-stock",
+      "title": "Nvidia turns $5B Intel stock bet into $30B windfall — filing reveals new $21B SpaceX stake and complete exit from Arm stock",
+      "url": "https://www.tomshardware.com/tech-industry/nvidia-turns-usd5b-intel-stock-bet-into-usd30b-windfall-filing-reveals-new-usd21b-spacex-stake-and-complete-exit-from-arm-stock",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T14:16:35+00:00",
+      "summary": "Nvidia quietly makes strategic and financial investments in clients, partners, and suppliers: CoreWeave, Coherent, Intel, Nokia, and SpaceX.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/windows/vlc-media-player-bug-reportedly-causes-33-second-delay-when-playing-mp3-files-on-windows-developers-say-microsoft-defender-is-to-blame",
+      "title": "Devs blame Windows for VLC media player bug that causes 33-second delay when playing MP3 files — creators allege Microsoft Defender blocking plugin cache is to blame",
+      "url": "https://www.tomshardware.com/software/windows/vlc-media-player-bug-reportedly-causes-33-second-delay-when-playing-mp3-files-on-windows-developers-say-microsoft-defender-is-to-blame",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T13:30:00+00:00",
+      "summary": "VLC developers say a Windows 11 issue involving Microsoft Defender can interfere with the media player's plugin cache and cause unusually long playback delays.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-7700x3d-vs-ryzen-7-7800x3d-faceoff",
+      "title": "AMD Ryzen 7 7700X3D vs Ryzen 7 7800X3D faceoff — seeing double with Zen 4 X3D",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-7700x3d-vs-ryzen-7-7800x3d-faceoff",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T13:25:00+00:00",
+      "summary": "AMD's Ryzen 7 7700X3D takes on the old favorite across performance, pricing, and power consumption.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/white-house-authorizes-private-companies-to-hack-foreign-cybercrime-groups",
+      "title": "White House authorizes private companies to launch 'hack-back' cyberattacks that destroy data and systems, targeting foreign cybercrime organizations — vetted organizations can now conduct offensive cyber operations",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/white-house-authorizes-private-companies-to-hack-foreign-cybercrime-groups",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T13:00:00+00:00",
+      "summary": "President Trump signed a memorandum on August 12 establishing the first U.S. program that lets vetted private companies conduct offensive cyber operations.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-august-14-2026-testing-the-bc-250-our-interview-with-intels-robert-hallock-and-a-big-week-for-optical",
+      "title": "This week on Tom's Hardware Premium: August 14, 2026 — Testing the BC-250, our interview with Intel's Robert Hallock, and a big week for optical",
+      "url": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-august-14-2026-testing-the-bc-250-our-interview-with-intels-robert-hallock-and-a-big-week-for-optical",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sayem Ahmed",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T12:30:00+00:00",
+      "summary": "This week, we tested AMD's BC-250 in gaming workloads, published an unredacted interview with an AMD executive, and published a slew of articles surrounding a new flashpoint in the ongoing AI buildout: optical interconnects.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/flight-ready-drones-3d-printed-and-built-on-aircraft-carrier-during-us-navy-exercise-a-containerized-factory-on-uss-essex-functioned-despite-rough-seas-and-12-foot-waves",
+      "title": "US Navy 3D prints combat-ready drones and 1,000+ parts aboard aircraft carrier during exercise — containerized factory fabricated 80-mph FPVs and critical spares despite rough seas and 12-foot waves",
+      "url": "https://www.tomshardware.com/tech-industry/drones/flight-ready-drones-3d-printed-and-built-on-aircraft-carrier-during-us-navy-exercise-a-containerized-factory-on-uss-essex-functioned-despite-rough-seas-and-12-foot-waves",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T12:10:00+00:00",
+      "summary": "During a two-week journey to Hawaii, a containerized factory aboard the USS Essex 3D-printed a dozen flight-ready drones, as well as over 1,000 parts including vital spares for Apache helicopters.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/liquid-cooling/ocypus-sigma-l36-pro-review",
+      "title": "Ocypus Sigma L36 Pro Review: How is this LCD AIO so cheap?",
+      "url": "https://www.tomshardware.com/pc-components/liquid-cooling/ocypus-sigma-l36-pro-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Albert Thomas",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T12:05:00+00:00",
+      "summary": "The Ocypus Sigma L36 Pro is a high-performance AIO that includes a fancy 3.5-inch display and a low price tag. We’ve tested this liquid cooler paired with AMD’s Ryzen 9 9950X3D CPU to benchmark thermal efficiency.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ssds/sk-hynix-is-allegedly-out-of-replacement-ssds-for-warranty-returns-chipmakers-original-price-refund-leaves-buyers-stranded-in-the-storage-shortage",
+      "title": "SK hynix runs out of replacement SSDs and defaults to original purchase price refunds — fine-print warranty clause shortchanges buyers as drive prices double",
+      "url": "https://www.tomshardware.com/pc-components/ssds/sk-hynix-is-allegedly-out-of-replacement-ssds-for-warranty-returns-chipmakers-original-price-refund-leaves-buyers-stranded-in-the-storage-shortage",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zhiye Liu",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T11:50:00+00:00",
+      "summary": "A Redditor reports a case in which SK hynix reportedly offers a refund for a malfunctioning SSD at the original purchase price instead of a direct replacement.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-says-pc-market-is-a-tale-of-two-kingdoms-with-mainstream-taking-a-beating-vp-suggests-a-split-between-mainstream-and-enthusiast-sockets-across-the-industry",
+      "title": "Intel says PC market is ‘a tale of two kingdoms’ with mainstream ‘taking a beating’ — VP suggests a split between mainstream and enthusiast sockets across the industry",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-says-pc-market-is-a-tale-of-two-kingdoms-with-mainstream-taking-a-beating-vp-suggests-a-split-between-mainstream-and-enthusiast-sockets-across-the-industry",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T11:30:00+00:00",
+      "summary": "Intel VP Robert Hallock suggests the PC industry is going to see a split between mainstream and enthusiast sockets if current market conditions don’t let up.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/dram/nanya-engineer-used-360-degree-cam-hidden-in-snacks-in-attempt-to-steal-dram-process-tech-for-china-it-security-team-pinpointed-perp-due-to-cameras-leaky-wireless-signals",
+      "title": "Engineer used 360-degree cam hidden in bag of snacks in attempt to steal DRAM process tech for China — IT security team pinpointed perp due to camera's leaky wireless signals",
+      "url": "https://www.tomshardware.com/pc-components/dram/nanya-engineer-used-360-degree-cam-hidden-in-snacks-in-attempt-to-steal-dram-process-tech-for-china-it-security-team-pinpointed-perp-due-to-cameras-leaky-wireless-signals",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T11:00:00+00:00",
+      "summary": "Nanya engineer tried to steal DRAM process technology, manufacturing methods to pass them to a Chinese rival and get a higher-paid job, but gets caught and now faces time in prison.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/anti-drone-chain-gun-with-50mm-precision-guided-ammunition-unveiled-northrop-grummans-raid-hunter-is-designed-to-wipe-out-drone-swarms-and-cruise-missiles",
+      "title": "Anti-drone chain gun with 50mm precision-guided ammunition unveiled — Northrop Grumman's Raid Hunter is designed to wipe out drone swarms and cruise missiles",
+      "url": "https://www.tomshardware.com/tech-industry/drones/anti-drone-chain-gun-with-50mm-precision-guided-ammunition-unveiled-northrop-grummans-raid-hunter-is-designed-to-wipe-out-drone-swarms-and-cruise-missiles",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T10:30:00+00:00",
+      "summary": "US aerospace, defense, and security giant Northrop Grumman thinks its Raid Hunter will provide short-range, layered air defense against the increasingly complex aerial threats we are seeing in modern warfare.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/storage/catastrophic-optical-disc-shattering-blamed-on-cleaning-chemicals-and-packing-foam-another-data-preservation-concern-to-add-to-bit-rot-and-laser-rot",
+      "title": "Catastrophic optical disc shattering blamed on cleaning chemicals and packing foam — another data preservation concern to add to bit rot and laser rot",
+      "url": "https://www.tomshardware.com/pc-components/storage/catastrophic-optical-disc-shattering-blamed-on-cleaning-chemicals-and-packing-foam-another-data-preservation-concern-to-add-to-bit-rot-and-laser-rot",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T09:30:00+00:00",
+      "summary": "Bitrot isn't the only worry, CDs and DVDs are also susceptible to damage caused by cleaning or foam off-gassing chemicals.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.tomshardware.com/pc-components/ram/g-skill-trident-z5-neox-rgb-ddr5-6000-c30-2x16gb-review",
       "title": "G.Skill Trident Z5 NeoX RGB DDR5-6000 C30 2x16GB Review — EXPO ULL memory kit to max out your Ryzen",
       "url": "https://www.tomshardware.com/pc-components/ram/g-skill-trident-z5-neox-rgb-ddr5-6000-c30-2x16gb-review",
@@ -605,278 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/just-one-instruction-on-amds-2015-era-cpus-gets-you-access-to-platform-security-processor-microcode-and-system-management-interface-exploit-for-15h-and-16h-chip-families-cracks-open-secret-memory-areas",
-      "title": "Just one instruction on AMD's 2015-era CPUs cracks open secret memory areas and gives full hardware-level control — exploit for 15h and 16h chip families gets you access to Platform Security Processor, microcode, and System Management Interface",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/just-one-instruction-on-amds-2015-era-cpus-gets-you-access-to-platform-security-processor-microcode-and-system-management-interface-exploit-for-15h-and-16h-chip-families-cracks-open-secret-memory-areas",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-14T09:33:09+00:00",
-      "summary": "Just one instruction on AMD CPUs gets you access to Platform Security Processor, microcode, and System Management Interface — exploit for 15h and 16h chip families cracks open secret memory areas",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/functioning-version-of-the-first-arcade-video-game-ever-created-heads-to-auction-with-usd200-000-estimate-green-sparkle-2-player-edition-of-computer-space-hails-from-1973",
-      "title": "Functioning version of 'the first arcade video game ever created' heads to auction with $200,000 estimate — green sparkle 2-player edition of Computer Space hails from 1973",
-      "url": "https://www.tomshardware.com/video-games/retro-gaming/functioning-version-of-the-first-arcade-video-game-ever-created-heads-to-auction-with-usd200-000-estimate-green-sparkle-2-player-edition-of-computer-space-hails-from-1973",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-14T09:00:00+00:00",
-      "summary": "A games industry veteran is selling off what is 'probably the rarest arcade game in existence' via Boston’s RR Auctions.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/prusa-research-xl-core-one-and-core-one-l-all-to-receive-second-generation-upgrades-all-new-orders-get-updated-model-for-free",
-      "title": "Prusa Research XL, Core One, and Core One L all to receive second-generation upgrades — all new orders get updated model for 'free'",
-      "url": "https://www.tomshardware.com/3d-printing/prusa-research-xl-core-one-and-core-one-l-all-to-receive-second-generation-upgrades-all-new-orders-get-updated-model-for-free",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Denise Bertacchi",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T20:35:52+00:00",
-      "summary": "Prusa Research just announced that its “entire lineup” of 3D printers is getting second-generation upgrades and a “+” designation. This includes the XL, CORE One, and CORE One L.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/microsofts-nemesis-drops-new-zero-day-privilege-escalation-vulnerability-attack-grants-system-level-privileges-but-it-could-already-be-patched",
-      "title": "Microsoft's nemesis drops new zero-day privilege escalation vulnerability — attack grants system-level privileges, but it could already be patched",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-nemesis-drops-new-zero-day-privilege-escalation-vulnerability-attack-grants-system-level-privileges-but-it-could-already-be-patched",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T17:36:40+00:00",
-      "summary": "Nightmare Eclipse drops ShieldBreak, another Windows zero-day privilege escalation vulnerability, but Microsoft has rushed quickly to block it with Defender",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/near-packaged-optics-gains-ground-aso-the-industry-hedges-against-co-packaged-optics-growing-pains",
-      "title": "Near-packaged optics (NPO) gains ground as the industry hedges against CPO's growing pains — analysts say volume for NPO silicon photonics products will extend until the end of the decade",
-      "url": "https://www.tomshardware.com/tech-industry/near-packaged-optics-gains-ground-aso-the-industry-hedges-against-co-packaged-optics-growing-pains",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T16:52:45+00:00",
-      "summary": "The case for near-packaged optics (NPO) is strengthening, as the growing pains of co-packaged optics (CPO) become apparent. We explain the material differences between the two technologies as optics and silicon photonics make waves in the AI industry.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/playstation/ps5-emulation-arrives-on-steam-deck-astro-playroom-showcased-running-at-0-6-fps-milestone-sharpemu-development-shows-promise-despite-unplayable-performance",
-      "title": "PS5 emulation arrives on Steam Deck, Astro Playroom showcased running at 0.6 FPS — milestone SharpEmu development shows promise, despite unplayable performance",
-      "url": "https://www.tomshardware.com/video-games/playstation/ps5-emulation-arrives-on-steam-deck-astro-playroom-showcased-running-at-0-6-fps-milestone-sharpemu-development-shows-promise-despite-unplayable-performance",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T13:37:59+00:00",
-      "summary": "Astro's Playroom runs at 0.5 to 1 FPS on the Steam Deck when emulated through SharpEmu. It's not much — it's nothing at all, in fact — but just the proof-of-concept alone is enough to stir up excitement for both Steam Deck and PS5 emulation scenes.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cxmt-overtakes-tencent-to-become-chinas-most-valuable-company-17-days-after-its-ipo",
-      "title": "Memory maker CXMT overtakes Tencent to become China's most valuable company 17 days after its IPO — now worth $524 billion",
-      "url": "https://www.tomshardware.com/tech-industry/cxmt-overtakes-tencent-to-become-chinas-most-valuable-company-17-days-after-its-ipo",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T13:27:14+00:00",
-      "summary": "ChangXin Memory Technologies (CXMT) is now the world's most valuable Chinese company after passing Tencent.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/mechanical-keyboards/keychron-launches-ludicrous-100-key-custom-macro-pad-10-x-10-keyboard-uses-exclusive-keychron-apex-switches-and-features-per-key-rgb-control",
-      "title": "Keychron launches ludicrous 100-key custom macro pad — 10 x 10 ‘keyboard’ uses ‘exclusive’ Keychron Apex switches and features per-key RGB control",
-      "url": "https://www.tomshardware.com/peripherals/mechanical-keyboards/keychron-launches-ludicrous-100-key-custom-macro-pad-10-x-10-keyboard-uses-exclusive-keychron-apex-switches-and-features-per-key-rgb-control",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T13:08:50+00:00",
-      "summary": "The Keychron C100 8K macro pad features 100 customizable keys, per-key RGB lighting, and 8K polling rate to give you the ultimate advantage in productivity and gaming. It also has hot-swappable Keychron Apex switches and transparent ASA keycaps, allowing you to further customize it to your liking.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/mini-pcs/geekom-it13-max-2026-review-meteor-lake-rides-again-in-a-usd799-mini-pc",
-      "title": "Geekom IT13 Max 2026 review: Meteor Lake rides again in a $799 mini PC",
-      "url": "https://www.tomshardware.com/desktops/mini-pcs/geekom-it13-max-2026-review-meteor-lake-rides-again-in-a-usd799-mini-pc",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T13:05:00+00:00",
-      "summary": "Geekom mates an Intel Meteor Lake Core Ultra 9 processor with soldered 24GB DDR5 dual-channel RAM to conjure up an attractively specified and priced mini PC for the RAMpocalypse era.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/best-deals-on-pc-furniture-save-money-on-chairs-desks-monitor-stands-boom-arms-and-more",
-      "title": "Best deals on PC setup accessories — save money on chairs, desks, monitor stands, boom arms, and more",
-      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/best-deals-on-pc-furniture-save-money-on-chairs-desks-monitor-stands-boom-arms-and-more",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T12:30:00+00:00",
-      "summary": "We've scoured the internet and found the best deals on PC office and gaming furniture. Find the best desks, chairs, monitor arms, and more.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/motherboards/maxsun-terminator-b850m-pro-ii-motherboard-review",
-      "title": "Maxsun Terminator B850M Pro II Motherboard Review: Comparable features, but US pricing is over MSRP",
-      "url": "https://www.tomshardware.com/pc-components/motherboards/maxsun-terminator-b850m-pro-ii-motherboard-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T12:05:00+00:00",
-      "summary": "Maxsun’s Terminator B850M Pro II is a decent budget option in the Micro ATX form factor, but only if you can find it for the $199.99 MSRP.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/coin-sized-device-can-hack-a-boeing-737s-flight-management-computer-mess-with-takeoff-weights-or-even-divert-an-aircraft-gadget-connects-to-an-easily-accessible-port-that-overrides-commands-from-the-pilots-uses-in-flight-wi-fi",
-      "title": "Coin-sized device can hack a Boeing 737’s Flight Management Computer, mess with takeoff weights, or even divert an aircraft — gadget connects to an easily accessible port that overrides commands from the pilots, uses in-flight Wi-Fi",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/coin-sized-device-can-hack-a-boeing-737s-flight-management-computer-mess-with-takeoff-weights-or-even-divert-an-aircraft-gadget-connects-to-an-easily-accessible-port-that-overrides-commands-from-the-pilots-uses-in-flight-wi-fi",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T12:04:32+00:00",
-      "summary": "Security researchers discovered a way to tap into the avionics of a Boeing 737 and remotely give its flight management computer erroneous data through in-flight Wi-Fi. This coin-sized device plugs into a diagnostic port in the plane's avionics bay and could easily be hidden behind its protective dust cover.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ddr5/get-16gb-of-ddr5-ram-free-when-you-buy-amds-9900x-and-an-asus-tuf-motherboard-usd659-newegg-combo-saves-usd274-and-you-get-a-free-240mm-aio",
-      "title": "Get 16GB of DDR5 RAM free when you buy AMD's 9900X and an Asus TUF motherboard — $659 Newegg combo saves $274, and you get a free 240mm AIO",
-      "url": "https://www.tomshardware.com/pc-components/ddr5/get-16gb-of-ddr5-ram-free-when-you-buy-amds-9900x-and-an-asus-tuf-motherboard-usd659-newegg-combo-saves-usd274-and-you-get-a-free-240mm-aio",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T11:50:20+00:00",
-      "summary": "Save $274 and snag 16GB of DDR5 RAM for free in this 3-item Newegg combo with Ryzen 9 9900X, Asus TUF Gaming X870E-Plus Wifi7, and 16GB of dual channel Team Group T-Force Vulkan RAM",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/zoomsday-vulnerability-let-anyone-in-a-zoom-meeting-take-over-anybody-else-ai-assisted-research-only-used-20-prompts-to-find-an-exploit-to-hack-hundred-of-millions-of-people",
-      "title": "Critical 'Zoomsday' flaw enables total device takeover during Zoom calls — AI-assisted research only used 20 prompts to find an exploit to hack hundreds of millions of people.",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/zoomsday-vulnerability-let-anyone-in-a-zoom-meeting-take-over-anybody-else-ai-assisted-research-only-used-20-prompts-to-find-an-exploit-to-hack-hundred-of-millions-of-people",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T11:20:00+00:00",
-      "summary": "Zoomsday vulnerability let anyone in a Zoom meeting take over anybody else. The vulnerability was developed with AI assistance and took research only used 20 prompts to find an exploit to hack hundred of millions of people.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/controllers-gamepads/this-usd57-99-8bitdo-ultimate-2-wireless-controller-is-a-brilliantly-customizable-option-for-pc-gamers-fully-customizable-gamepad-with-nintendo-switch-compatibility-includes-dual-triggers-tmr-joysticks-and-adjustable-rgb-lighting",
-      "title": "This $57.99 8BitDo Ultimate 2 wireless controller is a brilliantly customizable option for PC gamers — fully customizable gamepad with Nintendo Switch compatibility includes dual triggers, TMR joysticks, and adjustable RGB lighting",
-      "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/this-usd57-99-8bitdo-ultimate-2-wireless-controller-is-a-brilliantly-customizable-option-for-pc-gamers-fully-customizable-gamepad-with-nintendo-switch-compatibility-includes-dual-triggers-tmr-joysticks-and-adjustable-rgb-lighting",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T11:10:28+00:00",
-      "summary": "Save 17% on this 8BitDo Ultimate 2 game controller for your PC or Nintendo Switch right now.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/jump-into-pc-gaming-for-under-a-thousand-dollars-with-a-usd350-saving-on-this-rtx-5060-powered-laptop-the-15-6-inch-msi-cyborg-15-is-just-usd949-at-walmart",
-      "title": "Jump into PC gaming for under a thousand dollars with a $350 saving on this RTX 5060-powered laptop — the 15.6-inch MSI Cyborg 15 is just $949 at Walmart",
-      "url": "https://www.tomshardware.com/laptops/gaming-laptops/jump-into-pc-gaming-for-under-a-thousand-dollars-with-a-usd350-saving-on-this-rtx-5060-powered-laptop-the-15-6-inch-msi-cyborg-15-is-just-usd949-at-walmart",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T11:07:46+00:00",
-      "summary": "Bag a new gaming laptop for under $1K at Walmart, thanks to a $350 saving on the latest MSI Cyborg 15.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -1010,6 +1010,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49306491",
+      "title": "Nvidia discloses $21B stake in SpaceX",
+      "url": "https://www.ft.com/content/6f66a76d-0b2d-4301-886c-87ecc046731b",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49306491",
+        "name": "JumpCrisscross",
+        "hn_url": "https://news.ycombinator.com/item?id=49306491"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 2,
+      "published_at": "2026-08-15T01:02:55+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49177126",
       "title": "It looks like 'Big Short' investor Michael Burry nailed bet against chip stocks",
       "url": "https://www.businessinsider.com/big-short-michael-burry-ai-chip-stocks-soxx-nvidia-substack-2026-8",
@@ -1045,6 +1064,25 @@
       "published_at": "2026-08-12T23:08:21+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49084371",
+      "title": "Show HN: Tines 3B – safe workflow automation for when everyone builds software",
+      "url": "https://www.tines.com/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49084371",
+        "name": "retsol",
+        "hn_url": "https://news.ycombinator.com/item?id=49084371"
+      },
+      "duration_sec": null,
+      "views": 27,
+      "comments": 2,
+      "published_at": "2026-07-28T14:23:55+00:00",
+      "summary": "",
+      "matched_keyword": "ASML OR EUV",
       "lang": "en"
     }
   ]
