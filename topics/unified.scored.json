@@ -1,220 +1,208 @@
 {
-  "date": "2026-08-16",
-  "intro": "今日AI与半导体领域信号密集：Nvidia以5000亿美元融资计划绑定AI基建，同时披露210亿美元SpaceX持仓，引发市场对表外债务的担忧；Anthropic发布Claude水印技术细节，为AI内容溯源定调；DeepSeek开源Harness，挑战Claude Code地位。金融端，AI泡沫争论升级，机构持仓分歧明显。",
+  "date": "2026-08-17",
+  "intro": "今日核心信号：Nvidia 在 AI 基建融资中角色深化，从 GPU 卖方向资本担保人转变，同时大幅缩减 OpenAI 数据中心担保，转向 SpaceX 等战略投资。Google 被曝与 AMD 合作设计下一代 TPU，暗示 AI 芯片竞争格局生变。Stripe 拟 70 亿美元收购 OpenRouter，AI 网关赛道整合加速。DeepSeek Harness 开源，为 Agent 开发提供新范式。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/nvidia-turns-usd5b-intel-stock-bet-into-usd30b-windfall-filing-reveals-new-usd21b-spacex-stake-and-complete-exit-from-arm-stock",
-      "url": "https://www.tomshardware.com/tech-industry/nvidia-turns-usd5b-intel-stock-bet-into-usd30b-windfall-filing-reveals-new-usd21b-spacex-stake-and-complete-exit-from-arm-stock",
-      "source": "Tom's Hardware",
+      "id": "hn:49323686",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+      "source": "Reuters",
       "stars": 5,
-      "title": "Nvidia 5亿美元英特尔押注变30亿，新披露210亿美元SpaceX持仓",
-      "lead": "Nvidia最新13F文件显示，其5亿美元英特尔投资已增值至30亿美元，同时新建210亿美元SpaceX头寸，并清仓Arm。这家芯片巨头正通过战略性股权投资深度绑定上下游，从客户到供应商全覆盖。",
+      "title": "Nvidia 缩减 OpenAI 数据中心担保，AI 基建融资格局生变",
+      "lead": "据 WSJ 报道，Nvidia 大幅减少对 OpenAI 数据中心建设的融资担保，原计划 2500 亿美元的担保规模被缩减。此举与 Nvidia 近期披露的 210 亿美元 SpaceX 持股形成对比，显示其资本配置正在从单一客户绑定转向多元化战略投资。",
       "confirmed": [
-        "Nvidia 13F文件披露，5亿美元英特尔投资已增值至30亿美元。",
-        "新披露持有SpaceX 210亿美元股份。",
-        "已完全退出Arm持股。",
-        "投资对象包括CoreWeave、Coherent、Intel、Nokia、SpaceX等。"
+        "Nvidia 已缩减对 OpenAI 数据中心融资的担保规模，原计划 2500 亿美元。",
+        "Nvidia 在 2026 年 Q2 披露持有 SpaceX 210 亿美元股份。",
+        "Nvidia 从 Intel 股票投资中获得 300 亿美元回报，并清仓 Arm 股票。"
       ],
       "judgment": [
-        "Nvidia是否将SpaceX视为AI算力潜在客户或合作伙伴尚不明朗。",
-        "这些投资是财务驱动还是战略协同，市场解读不一。",
-        "Nvidia的资产负债表能否承受如此大规模股权投资的风险。"
+        "缩减担保的具体原因未披露，是风险控制还是战略转向尚不明确。",
+        "OpenAI 是否会寻找其他担保方或调整融资计划未知。",
+        "Nvidia 与 OpenAI 的长期合作关系是否会因此受影响待观察。"
       ],
-      "implication": "Nvidia正在从芯片供应商变成AI生态的‘央行’，用股权投资绑定整个产业链。对你而言，关注Nvidia的投资版图比关注单一芯片性能更重要——它预示了算力需求的流向。如果你在做AI基础设施相关项目，这些被投公司可能是未来的关键客户或合作伙伴。"
+      "implication": "你应该关注 Nvidia 从“卖铲人”向“资本操盘手”的角色转变。这对你的 Agent 项目意味着，AI 基建的融资成本可能上升，未来模型 API 价格或受影响。建议跟踪 Nvidia 的投资组合变化，理解 AI 产业链的资本流向。"
     },
     {
       "rank": 2,
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+      "id": "rss:https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
       "source": "TechCrunch",
-      "stars": 4,
-      "title": "Anthropic公布Claude水印技术细节，AI内容溯源再进一步",
-      "lead": "Anthropic披露了Claude生成内容水印的具体实现方式，包括如何嵌入、是否可被编辑移除，以及对代码的影响。这是AI内容认证领域的重要进展，直接回应了深度伪造和版权争议。",
+      "stars": 5,
+      "title": "Stripe 拟 70 亿美元收购 OpenRouter，AI 网关赛道整合加速",
+      "lead": "据 TechCrunch 报道，Stripe 将收购 AI 网关初创公司 OpenRouter，交易金额超过 70 亿美元。OpenRouter 被定位为“AI 的 Stripe”，提供统一 API 接入多家模型。此次收购将 Stripe 的支付网络与 AI 模型路由结合，可能重塑 AI 应用的商业化基础设施。",
       "confirmed": [
-        "Anthropic公开了Claude水印的技术细节。",
-        "水印设计考虑了对编辑的鲁棒性。",
-        "讨论了水印对代码生成的影响。",
-        "该技术旨在帮助识别AI生成内容。"
+        "Stripe 与 OpenRouter 的收购谈判已进入后期，交易额超 70 亿美元。",
+        "OpenRouter 提供统一 API 接入多家 AI 模型，被比作“AI 的 Stripe”。",
+        "Stripe 同时在与 Advent 谈判收购 PayPal，显示其在金融科技领域的扩张野心。"
       ],
       "judgment": [
-        "水印能否在真实世界中被恶意绕过尚未可知。",
-        "对代码水印是否会影响可读性或执行效率存疑。",
-        "行业标准尚未统一，Anthropic的方案能否成为主流待观察。"
+        "交易是否最终完成仍存变数，监管审批可能成为障碍。",
+        "OpenRouter 的现有客户（如开发者）是否会因收购而改变服务条款未知。",
+        "Stripe 如何整合 OpenRouter 的模型路由与支付功能，具体产品规划未披露。"
       ],
-      "implication": "如果你在构建AI产品，水印技术将影响内容审核和溯源机制。现在就该考虑如何集成类似方案，避免未来合规风险。同时，水印对代码的影响值得你亲自测试，尤其是在你使用Claude Code生成代码时。"
+      "implication": "这对你的 Agent 项目是个好消息：OpenRouter 被收购后，API 接入可能更稳定，但价格也可能上涨。建议你关注 Stripe 的开发者生态，未来或许能用 Stripe 直接支付模型调用费用，简化计费流程。"
     },
     {
       "rank": 3,
-      "domain": "AI",
-      "id": "bvid:BV1W7gP6CEEV",
-      "url": "http://www.bilibili.com/video/av117093206923174",
-      "source": "AI超元域",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reportedly-taps-amd-to-design-next-generation-tpu-hybrid-ai-asic-could-integrate-on-package-cpu-cores-for-reinforcement-learning",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reportedly-taps-amd-to-design-next-generation-tpu-hybrid-ai-asic-could-integrate-on-package-cpu-cores-for-reinforcement-learning",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "DeepSeek开源Harness：一切皆插件，挑战Claude Code地位",
-      "lead": "DeepSeek在V4 Pro之后开源了Harness，主打‘一切皆插件’理念，提供Web UI、多模型接入和插件系统。实测显示其功能强大，可能成为Claude Code和Codex的有力竞争者。",
+      "title": "Google 据报与 AMD 合作设计下一代 TPU，AI 芯片竞争格局生变",
+      "lead": "Tom's Hardware 援引传闻称，Google 正与 AMD 合作设计下一代 TPU，该混合 AI ASIC 可能集成封装内 CPU 核心，专为强化学习和 Agent 工作负载优化。此举可能打破 Google 长期自研 TPU 的传统，引入 AMD 的芯片设计能力。",
       "confirmed": [
-        "DeepSeek Harness已开源。",
-        "支持Web UI远程控制、多模型接入、插件系统。",
-        "提供执行轨迹、任务分支、代码分析等功能。",
-        "实测视频展示了从安装到高级用法的完整流程。"
+        "Google 据报与 AMD 合作设计下一代 TPU。",
+        "新 TPU 可能集成封装内 CPU 核心，针对强化学习和 Agent 工作负载。",
+        "Google 现有 TPU 系列已用于训练 Gemini 等模型。"
       ],
       "judgment": [
-        "Harness的插件生态能否快速建立尚不确定。",
-        "与Claude Code相比，稳定性和性能还需长期验证。",
-        "开源社区的接受度将决定其能否成为主流工具。"
+        "该消息尚未得到 Google 或 AMD 官方证实，仍属传闻。",
+        "合作的具体范围和产品发布时间未知。",
+        "AMD 在 AI 芯片设计上的能力是否满足 Google 需求待验证。"
       ],
-      "implication": "作为AI Agent重度玩家，你应该立即尝试DeepSeek Harness。它的插件化架构可能比Claude Code更灵活，尤其适合你的content-curator项目。多模型接入意味着你可以自由切换不同LLM，降低对单一供应商的依赖。"
+      "implication": "如果属实，这将是 AI 芯片领域的重要变局。对开发者而言，未来 TPU 可能更擅长 Agent 推理任务，你的 Agent 项目或许能受益于更高效的硬件。建议关注 Google 的官方发布，并评估 AMD 在 AI 生态中的角色。"
     },
     {
       "rank": 4,
-      "domain": "股票",
-      "id": "wscn:3779518",
-      "url": "https://wallstreetcn.com/articles/3779518",
-      "source": "华尔街见闻",
-      "stars": 5,
-      "title": "AI债务狂潮：700亿美元表外隐性负债引发债券投资者担忧",
-      "lead": "随着Nvidia宣布5000亿美元AI融资合作，债券市场对AI公司约700亿美元表外债务的担忧升温。这种结构允许芯片巨头为客户债务兜底，却无需计入自身负债，被警告为顺周期的金融工程。",
+      "domain": "AI",
+      "id": "bvid:BV1wugF6YEL3",
+      "url": "http://www.bilibili.com/video/av117089415204498",
+      "source": "Lau博士的云组会",
+      "stars": 4,
+      "title": "DeepSeek Harness 开源，Agent 开发新范式来袭",
+      "lead": "DeepSeek 开源了其 Harness 工具，Lau 博士在视频中解读了它的独特之处。Harness 可能提供更高效的 Agent 执行环境，与 Claude Code 等工具形成竞争。对于 AI Agent 开发者，这是一个值得关注的新选项。",
       "confirmed": [
-        "Nvidia宣布5000亿美元AI融资合作。",
-        "AI公司存在约700亿美元表外债务。",
-        "Nvidia、博通等芯片巨头为客户债务提供担保。",
-        "多家机构警告这是顺周期的金融工程。"
+        "DeepSeek Harness 已开源。",
+        "视频作者认为 Harness 与 Claude Code 相比有显著优势。",
+        "DeepSeek 近期还上调了 API 价格，显示其商业化加速。"
       ],
       "judgment": [
-        "表外债务的真实风险敞口难以量化。",
-        "行业下行时这些隐性负债是否会集中引爆尚不确定。",
-        "监管机构是否会介入并调整会计准则存疑。"
+        "Harness 的具体功能和性能尚未有第三方评测。",
+        "它是否能替代 Claude Code 成为主流工具未知。",
+        "DeepSeek 的生态支持（如插件、社区）是否完善待观察。"
       ],
-      "implication": "AI泡沫的争论已经从估值转向债务结构。如果你关注金融科技或投资，必须理解这些表外负债如何影响芯片巨头的信用评级。对于你的Agent项目，这提醒你关注AI基础设施的融资可持续性，避免依赖可能断裂的资金链。"
+      "implication": "你应该亲自尝试 DeepSeek Harness，特别是如果你在寻找 Claude Code 的替代品。它可能提供更低的成本或更灵活的定制。结合你的 Agent 项目，评估其与 MCP、Skills 的兼容性，或许能优化你的开发工作流。"
     },
     {
       "rank": 5,
       "domain": "金融",
-      "id": "wscn:3779519",
-      "url": "https://wallstreetcn.com/articles/3779519",
+      "id": "wscn:3779562",
+      "url": "https://wallstreetcn.com/articles/3779562",
       "source": "华尔街见闻",
       "stars": 4,
-      "title": "段永平、景林都卖了，高瓴却买了：AI投资进入分歧时代",
-      "lead": "私募巨头美股持仓曝光，AI投资惊现大分歧。高瓴半仓重押生物科技，逆势加仓英伟达等AI基建；而景林、高毅及段永平却大举抛售甚至清仓。算力狂飙之后，机构正重估AI盈利底色。",
+      "title": "AI 融资转向信贷市场，巨头现金流告急，债市警报拉响",
+      "lead": "华尔街见闻文章指出，AI 叙事正从技术转向融资，巨头如甲骨文自由现金流逼近 -400 亿美元，CDS 飙至 180 基点。大摩预测 2028 年前约 1.75 万亿美元 AI 建设资金将来自信贷市场，但“新债王”Gundlach 警告用 GPU 抵押发债如同“用香蕉做 30 年 ABS”。",
       "confirmed": [
-        "高瓴逆势加仓英伟达等AI基建股。",
-        "景林、高毅及段永平抛售或清仓AI相关股票。",
-        "高瓴半仓重押生物科技。",
-        "机构对AI投资策略出现明显分歧。"
+        "甲骨文 CDS 飙至 180 基点，自由现金流逼近 -400 亿美元。",
+        "大摩预测 2028 年前约 1.75 万亿美元 AI 建设资金来自信贷市场。",
+        "桥水警告“资本关键时刻”来临。"
       ],
       "judgment": [
-        "高瓴的加仓是基于长期价值还是短期博弈尚不明确。",
-        "段永平等人的抛售是否预示AI泡沫破裂待观察。",
-        "生物科技能否成为下一个AI级别的投资主题存疑。"
+        "信贷市场能否持续支撑 AI 融资需求存在不确定性。",
+        "AI 巨头是否会因现金流压力削减资本开支未知。",
+        "债市警报是否会引发系统性风险待观察。"
       ],
-      "implication": "顶级投资者的分歧意味着AI赛道的不确定性增加。对于你的个人投资或职业选择，不要盲目跟风，而是关注基本面。如果你在考虑AI创业，这可能意味着融资环境将更挑剔，需要更扎实的商业模式。"
+      "implication": "作为 AI 从业者，你应该关注 AI 公司的财务健康状况，这可能影响模型 API 价格和创业公司的融资环境。对于你的个人项目，保持低成本运营，避免依赖昂贵的 AI 服务，同时关注行业内的并购机会。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia Nemotron 3.5 Lightning 和 NeMo Switchyard 发布",
-      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "source": "NVIDIA Blog",
-      "one_liner": "Nvidia发布新模型和工具，强化AI推理能力，但相比头条事件，增量信息有限。"
+      "title": "Nvidia Nemotron 3.5 Lightning 发布，30B 模型 NVFP4 量化",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+      "source": "Hugging Face",
+      "one_liner": "Nvidia 开源新模型，30B 激活 3B，NVFP4 量化，适合边缘部署，值得一试。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia RTX PRO 6000 Blackwell MSRP翻倍至16000美元",
+      "title": "Nvidia RTX PRO 6000 Blackwell 价格翻倍至 $16,000",
       "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-doubles-rtx-pro-6000-blackwells-msrp-to-a-staggering-usd16-000-96gb-card-started-pre-orders-below-usd8-000-last-year",
       "source": "Tom's Hardware",
-      "one_liner": "专业显卡价格飙升，反映AI硬件成本压力，但主要影响专业用户而非大众。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "TSMC 2027年拟将芯片代工价格上调最高25%",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
-      "source": "Tom's Hardware",
-      "one_liner": "台积电涨价将传导至整个AI硬件链，但时间尚远，短期影响有限。"
+      "one_liner": "专业卡涨价离谱，但反映 AI 算力需求旺盛，个人开发者可关注云 GPU 替代。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Gemini 3.7 Flash 发布",
+      "title": "Gemini 3.7 Flash 发布，性能提升",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "source": "Google Blog",
-      "one_liner": "Google更新Flash模型，性能提升，但相比Gemini 3.6增量不大，适合关注。"
+      "source": "Google",
+      "one_liner": "Google 最新 Flash 模型，速度更快，适合实时应用，但 API 价格未公布。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "SpaceX正式完成对Cursor的收购",
+      "title": "OpenAI 解散 Preparedness 团队，AI 安全引担忧",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "source": "The Verge",
+      "one_liner": "安全团队解散，可能影响 AI 监管，但短期对开发者影响不大。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Anthropic 分享 Claude 水印技术细节",
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+      "source": "TechCrunch",
+      "one_liner": "水印影响代码生成？开发者需关注，可能影响输出可编辑性。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "SpaceX 正式完成对 Cursor 的收购",
       "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
       "source": "TechCrunch",
-      "one_liner": "Cursor并入SpaceX，AI编程工具格局生变，但具体整合方向未明。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google允许用户移除AI生成内容的可见水印",
-      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
-      "source": "TechCrunch",
-      "one_liner": "Google调整水印策略，引发内容溯源争议，但不可见水印仍保留。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Kog：GPU并非不适合Agent工作流，法国初创公司有不同见解",
-      "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
-      "source": "TechCrunch",
-      "one_liner": "对GPU在Agent场景的适用性提出新观点，值得技术爱好者深挖。"
-    },
-    {
-      "domain": "股票",
-      "title": "Anthropic将以2万亿美元估值上市？市场在赌什么？",
-      "url": "https://wallstreetcn.com/premium/articles/3779410?layout=wscn-layout",
-      "source": "华尔街见闻",
-      "one_liner": "Anthropic IPO传闻引发关注，但估值合理性存疑，适合关注。"
-    },
-    {
-      "domain": "股票",
-      "title": "博通暴跌20%，市场在怕什么？",
-      "url": "https://wallstreetcn.com/premium/articles/3779502?layout=wscn-layout",
-      "source": "华尔街见闻",
-      "one_liner": "博通股价大跌，市场担忧AI融资成本上升，但具体原因需深入分析。"
-    },
-    {
-      "domain": "股票",
-      "title": "a16z史上最大投资：All in Uber创始人，下注工业AI",
-      "url": "https://wallstreetcn.com/articles/3779510",
-      "source": "华尔街见闻",
-      "one_liner": "a16z重金押注工业AI，显示资本从软件向物理世界转移，但风险较高。"
-    },
-    {
-      "domain": "股票",
-      "title": "宇树科技未上市先疯抢，场外暗盘报价520元/股",
-      "url": "https://wallstreetcn.com/articles/3779509",
-      "source": "华尔街见闻",
-      "one_liner": "机器人公司宇树科技暗盘交易火爆，但存在法律风险，需谨慎看待。"
+      "one_liner": "Cursor 被 SpaceX 收购，未来可能整合航天业务，但现有用户影响未知。"
     },
     {
       "domain": "金融",
-      "title": "摩根大通警告：全球粮食危机或将在明年爆发",
-      "url": "https://wallstreetcn.com/articles/3779525",
+      "title": "高盛：美联储 9 月不会加息，市场定价偏鹰",
+      "url": "https://wallstreetcn.com/articles/3779561",
       "source": "华尔街见闻",
-      "one_liner": "粮食危机预警影响宏观预期，但距离实际爆发尚有时日，可作背景信息。"
+      "one_liner": "利率预期可能修正，影响科技股估值，但短期对 AI 投资影响有限。"
     },
     {
       "domain": "金融",
-      "title": "伯克希尔二季度增持谷歌、达美航空，连续减持美银",
-      "url": "https://wallstreetcn.com/articles/3779522",
+      "title": "美债逼近 40 万亿，美银建议做多黄金",
+      "url": "https://wallstreetcn.com/articles/3779560",
       "source": "华尔街见闻",
-      "one_liner": "巴菲特卸任后伯克希尔调仓，反映新掌门风格，但影响有限。"
+      "one_liner": "宏观风险上升，个人资产配置可考虑黄金对冲，但非 AI 直接相关。"
     },
     {
       "domain": "金融",
-      "title": "哈佛披露22亿美元SpaceX仓位，为最大单一股票头寸",
-      "url": "https://wallstreetcn.com/articles/3779524",
+      "title": "日本 Q2 GDP 大幅低于预期，日央行加息两难",
+      "url": "https://wallstreetcn.com/articles/3779570",
       "source": "华尔街见闻",
-      "one_liner": "高校捐赠基金重仓SpaceX，显示私募科技资产热度，但风险集中。"
+      "one_liner": "日元波动可能影响全球市场，但对你个人项目影响不大。"
+    },
+    {
+      "domain": "股票",
+      "title": "OpenAI 人才流失严重，IPO 前亮红灯",
+      "url": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+      "source": "CNBC",
+      "one_liner": "人才流失可能影响 OpenAI 竞争力，但模型 API 短期稳定。"
+    },
+    {
+      "domain": "股票",
+      "title": "摩根大通上调智谱与 MiniMax 目标价",
+      "url": "https://wallstreetcn.com/articles/3779571",
+      "source": "华尔街见闻",
+      "one_liner": "国产模型获投行看好，你可以在 Agent 项目中考虑接入。"
+    },
+    {
+      "domain": "股票",
+      "title": "芯片厂二季报显示需求强劲，涨价扩散",
+      "url": "https://wallstreetcn.com/articles/3779564",
+      "source": "华尔街见闻",
+      "one_liner": "硬件成本上升可能传导至云服务价格，关注你的 API 账单。"
+    },
+    {
+      "domain": "股票",
+      "title": "磷化铟供需失衡，价格创历史最大涨幅",
+      "url": "https://wallstreetcn.com/articles/3779558",
+      "source": "华尔街见闻",
+      "one_liner": "半导体材料涨价，影响芯片成本，但离你较远。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-16T05:32:02+0000"
+    "scored_at": "2026-08-17T04:33:09+0000"
   }
 }
