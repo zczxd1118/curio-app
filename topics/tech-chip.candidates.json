@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-16T03:54:13.208599+00:00",
+  "fetched_at": "2026-08-17T03:55:49.056519+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,13 +10,13 @@
   "source_stats": {
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
-    "HN · TSMC": 1,
-    "HN · Nvidia": 5,
+    "HN · TSMC": 2,
+    "HN · Nvidia": 7,
     "HN · semiconductor": 1,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 26,
+  "total": 29,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -378,6 +378,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49325115",
+      "title": "TSMC Uses Old Fabs to Make New Chips [video]",
+      "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49325115",
+        "name": "eig",
+        "hn_url": "https://news.ycombinator.com/item?id=49325115"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 4,
+      "published_at": "2026-08-17T00:07:42+00:00",
+      "summary": "",
+      "matched_keyword": "TSMC",
+      "lang": "en"
+    },
+    {
       "id": "hn:49255710",
       "title": "Nvidia's Risky Business",
       "url": "https://stratechery.com/2026/nvidias-risky-business/",
@@ -389,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49255710"
       },
       "duration_sec": null,
-      "views": 355,
+      "views": 356,
       "comments": 177,
       "published_at": "2026-08-11T10:02:00+00:00",
       "summary": "",
@@ -408,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49263340"
       },
       "duration_sec": null,
-      "views": 261,
+      "views": 262,
       "comments": 138,
       "published_at": "2026-08-11T19:35:52+00:00",
       "summary": "",
@@ -435,6 +454,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49323686",
+      "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49323686",
+        "name": "root-parent",
+        "hn_url": "https://news.ycombinator.com/item?id=49323686"
+      },
+      "duration_sec": null,
+      "views": 144,
+      "comments": 55,
+      "published_at": "2026-08-16T21:07:10+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49257947",
       "title": "Nvidia Nemotron 3.5 Lightning",
       "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
@@ -446,9 +484,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=49257947"
       },
       "duration_sec": null,
-      "views": 121,
+      "views": 122,
       "comments": 32,
       "published_at": "2026-08-11T13:26:02+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49322519",
+      "title": "Nvidia discloses $21B stake in SpaceX at end of second quarter",
+      "url": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49322519",
+        "name": "johnbarron",
+        "hn_url": "https://news.ycombinator.com/item?id=49322519"
+      },
+      "duration_sec": null,
+      "views": 40,
+      "comments": 20,
+      "published_at": "2026-08-16T18:40:54+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

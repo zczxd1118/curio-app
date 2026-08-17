@@ -2,7 +2,7 @@
   "domain": "大厂 AI 动态",
   "domain_id": "bigtech",
   "topic_id": "default",
-  "fetched_at": "2026-08-16T03:53:54.905688+00:00",
+  "fetched_at": "2026-08-17T03:55:30.202838+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -29,6 +29,91 @@
   ],
   "total": 124,
   "items": [
+    {
+      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "title": "OpenAI reportedly disbanded its preparedness team",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Terrence O’Brien",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-16T21:32:56+00:00",
+      "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/entertainment/980799/open-mike-eagle-and-kenny-segal-doomed-review",
+      "title": "Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece",
+      "url": "https://www.theverge.com/entertainment/980799/open-mike-eagle-and-kenny-segal-doomed-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Terrence O’Brien",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-16T20:31:37+00:00",
+      "summary": "\"Breakups are… tough.\" It's the opening lines of an interlude towards the end of DOOMED! Called \"It Happens in Every Universe.\" It's also basically the thesis of the entire record. It's no grand revelation, but it's a well-trodden subject that Open Mike Eagle manages to mine for artistic gold. Eagle's subject matter is usually personal, [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/tech/980752/amazon-class-action-arbitration-terms-and-conditions",
+      "title": "Amazon is trying to crush class-action suits before they get started",
+      "url": "https://www.theverge.com/tech/980752/amazon-class-action-arbitration-terms-and-conditions",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Terrence O’Brien",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-16T17:35:02+00:00",
+      "summary": "On Friday, Amazon customers received an email alerting them to an update to the site's terms and conditions. Most notably, it stated that disputes would now be resolved through arbitration and said users agree to a class action waiver. Amazon framed this as a \"fast and efficient\" way to resolve issues, but it notably would [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+      "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Terrence O’Brien",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-16T14:56:40+00:00",
+      "summary": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you make a request. The feature [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "title": "Rogue AI aren’t science fiction anymore",
+      "url": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Robert Hart",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-16T12:00:00+00:00",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started It all started in July, when one of OpenAI's autonomous AI agents [&#8230;]",
+      "lang": "en"
+    },
     {
       "id": "rss:https://www.theverge.com/gadgets/980448/polaroid-go-second-generation-film-pack-bundle-deal-sale",
       "title": "Polaroid’s tiny instant camera is $72 and includes a free pack of film",
@@ -115,88 +200,71 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/entertainment/980666/star-wars-ahsoka-season-2-and-starfighter-get-teased-at-d23",
-      "title": "Star Wars: Ahsoka season 2 and Starfighter get teased at D23",
-      "url": "https://www.theverge.com/entertainment/980666/star-wars-ahsoka-season-2-and-starfighter-get-teased-at-d23",
+      "id": "rss:https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Terrence O’Brien",
-        "feed_title": "The Verge"
+        "id": "https://techcrunch.com/feed/",
+        "name": "Anthony Ha",
+        "feed_title": "TechCrunch"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-15T14:58:27+00:00",
-      "summary": "Season two of Star Wars: Ahsoka is still months away, but Lucasfilm still took the opportunity to tease it a bit at D23. The company dropped the first trailer for the new season ahead of its January 20th, 2027 debut. The clip shows a darker, witchcraft-filled take on the Star Wars universe, with Grand Admiral [&#8230;]",
+      "published_at": "2026-08-16T20:57:04+00:00",
+      "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/streaming/980633/x-men-marvel-star-wars-pixar-disney-d23",
-      "title": "Disney D23 2026: Everything announced for Star Wars, Marvel, and more",
-      "url": "https://www.theverge.com/streaming/980633/x-men-marvel-star-wars-pixar-disney-d23",
+      "id": "rss:https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+      "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+      "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Richard Lawler",
-        "feed_title": "The Verge"
+        "id": "https://techcrunch.com/feed/",
+        "name": "Anthony Ha",
+        "feed_title": "TechCrunch"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-15T14:20:33+00:00",
-      "summary": "The annual Disney fan event showed off the cast of Marvel&#8217;s X-Men movie, plus a new trailer for Avengers: Doomsday, and our first look at the VisionQuest TV show for Disney Plus. For Star Wars fans, there was a teaser trailer for season two of Ahsoka, plus a special look at Star Wars: Starfighter with [&#8230;]",
+      "published_at": "2026-08-16T20:32:01+00:00",
+      "summary": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/tech/979850/ohsnap-snap-grip-stand-review",
-      "title": "I finally found a magnetic phone grip I never want to remove",
-      "url": "https://www.theverge.com/tech/979850/ohsnap-snap-grip-stand-review",
+      "id": "rss:https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Sean Hollister",
-        "feed_title": "The Verge"
+        "id": "https://techcrunch.com/feed/",
+        "name": "Anthony Ha",
+        "feed_title": "TechCrunch"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-15T14:10:16+00:00",
-      "summary": "I told myself I wouldn't buy an OhSnap accessory for my phone. Every one I'd tested was nice, but felt overpriced and slightly flawed. After I weighed in on the $40 Snap Grip 5 last year, I wound up sticking with my $25 Syncwire instead. But OhSnap's $50 Snap Grip Stand finally got me. To [&#8230;]",
+      "published_at": "2026-08-16T16:53:51+00:00",
+      "summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/entertainment/980635/marvel-new-x-men-movie-cast",
-      "title": "Marvel reveals the new X-Men cast, including Inde Navarrette and Adam Driver",
-      "url": "https://www.theverge.com/entertainment/980635/marvel-new-x-men-movie-cast",
+      "id": "rss:https://techcrunch.com/2026/08/16/techcrunch-mobility-the-shifting-flight-path-of-electric-air-taxis/",
+      "title": "TechCrunch Mobility: The shifting flight path of electric air taxis",
+      "url": "https://techcrunch.com/2026/08/16/techcrunch-mobility-the-shifting-flight-path-of-electric-air-taxis/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Terrence O’Brien",
-        "feed_title": "The Verge"
+        "id": "https://techcrunch.com/feed/",
+        "name": "Kirsten Korosec",
+        "feed_title": "TechCrunch"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-15T14:03:14+00:00",
-      "summary": "With Spider-Man: Brand New Day behind us, and its reveal of Sadie Sink as Jean Grey, Marvel is finally ready to officially welcome the X-Men into the MCU. At the D23 event in Anaheim yesterday, the company revealed the cast for its upcoming, untitled X-Men film, which is scheduled to hit theaters on May 5th [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.theverge.com/tech/976390/xteink-x3-x4-x4-pro-e-reader-libby-plug-ins-drm-crosspoint-reader",
-      "title": "Xteink’s tiny e-readers are getting access to free books through Libby",
-      "url": "https://www.theverge.com/tech/976390/xteink-x3-x4-x4-pro-e-reader-libby-plug-ins-drm-crosspoint-reader",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Andrew Liszewski",
-        "feed_title": "The Verge"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-15T13:00:00+00:00",
-      "summary": "One of the big tradeoffs with Xteink's pocket-friendly e-readers is a lack of easy access to ebooks. On a Kindle or Kobo you can download tens of thousands of titles through each device's respective online bookstores, but with Xteink's devices you have to source DRM-free ebooks on your own. That's about to change, as the [&#8230;]",
+      "published_at": "2026-08-16T16:04:00+00:00",
+      "summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
       "lang": "en"
     },
     {
@@ -472,74 +540,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/08/14/us-courts-will-start-publishing-how-often-the-government-uses-spyware/",
-      "title": "US courts will start publishing how often the government uses spyware",
-      "url": "https://techcrunch.com/2026/08/14/us-courts-will-start-publishing-how-often-the-government-uses-spyware/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Lorenzo Franceschi-Bicchierai",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-14T13:29:04+00:00",
-      "summary": "The Administrative Office of the U.S. Courts told TechCrunch that it will start disclosing how many times judges authorized the use of spyware to wiretap suspected criminals.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/14/uber-and-pony-ai-plan-to-bring-2000-robotaxis-to-europe/",
-      "title": "Uber and Pony.ai plan to bring 2,000 robotaxis to Europe",
-      "url": "https://techcrunch.com/2026/08/14/uber-and-pony-ai-plan-to-bring-2000-robotaxis-to-europe/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Kirsten Korosec",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-14T10:44:30+00:00",
-      "summary": "The partnership is expanding beyond the initial market of Zagreb, Croatia to four additional European cities.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/",
-      "title": "Investors sue Selena Gomez alleging fraud tied to her mental health startup",
-      "url": "https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Aisha Malik",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T22:12:40+00:00",
-      "summary": "The plaintiffs say they invested nearly $1.2 million in the company, and are accusing Gomez of failing to build and market the startup.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/",
-      "title": "Flock says its new tool will help identify police abuse, but hasn’t explained how it works",
-      "url": "https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Lorenzo Franceschi-Bicchierai",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T22:02:04+00:00",
-      "summary": "The surveillance company announced it's making a tool called \"Audit Assistance\" mandatory for all customers, claiming it's already helped catch abuse. But the company has yet to explain how the tool works in detail, raising questions about its effectiveness.",
-      "lang": "en"
-    },
-    {
       "id": "rss:https://stratechery.com/2026/the-capex-train-keeps-rolling/",
       "title": "2026.33: The CapEx Train Keeps Rolling",
       "url": "https://stratechery.com/2026/the-capex-train-keeps-rolling/",
@@ -707,6 +707,23 @@
       "views": null,
       "published_at": "2026-07-22T10:00:00+00:00",
       "summary": "OpenAI accidentally hacked Hugging Face, but the takeaways are more encouraging than people realize.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/science/2026/08/wildfire-smoke-now-bigger-prenatal-threat-than-human-sources-of-air-pollution/",
+      "title": "Wildfire smoke now bigger prenatal threat than human sources of air pollution",
+      "url": "https://arstechnica.com/science/2026/08/wildfire-smoke-now-bigger-prenatal-threat-than-human-sources-of-air-pollution/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Liza Gross",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-16T10:00:59+00:00",
+      "summary": "Regulations reduced prenatal exposure to harmful emissions, but wildfire smoke is erasing gains.",
       "lang": "en"
     },
     {
@@ -1033,26 +1050,94 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/",
-      "title": "Virgin Galactic wants your help naming its new Delta class spaceship",
-      "url": "https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/",
+      "id": "rss:https://www.producthunt.com/products/expeditione",
+      "title": "Expeditione",
+      "url": "https://www.producthunt.com/products/expeditione",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Robert Pearlman",
-        "feed_title": "Ars Technica"
+        "id": "https://www.producthunt.com/feed",
+        "name": "Aureon de Veyra",
+        "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T19:12:15+00:00",
-      "summary": "Will it be the VSS... Horizon, Explorer, Ascend or Apeiron?",
+      "published_at": "2026-08-12T06:17:06+00:00",
+      "summary": "The Interactive 3D Encyclopedia Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/zetik",
-      "title": "Zetik",
-      "url": "https://www.producthunt.com/products/zetik",
+      "id": "rss:https://www.producthunt.com/products/airalarm",
+      "title": "AirAlarm",
+      "url": "https://www.producthunt.com/products/airalarm",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "張詩楓（カエデエエエ）",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-10T10:41:18+00:00",
+      "summary": "Wake at the end of your sleep cycle Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/epsilla",
+      "title": "HarnessRouter Community Edition",
+      "url": "https://www.producthunt.com/products/epsilla",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Garry Tan",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T06:38:52+00:00",
+      "summary": "Open-source unified interface for agent harnesses Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/costlogic",
+      "title": "CostLogic",
+      "url": "https://www.producthunt.com/products/costlogic",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Micah Putman",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-07-31T01:54:46+00:00",
+      "summary": "AI-powered construction takeoffs, estimates, and invoices Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/chert",
+      "title": "Chert",
+      "url": "https://www.producthunt.com/products/chert",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Garry Tan",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-15T04:01:04+00:00",
+      "summary": "Vapi for FaceTime: AI video agents in a few lines Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/vidaya",
+      "title": "Vidaya",
+      "url": "https://www.producthunt.com/products/vidaya",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1062,25 +1147,76 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-08T01:41:10+00:00",
-      "summary": "A chief of staff in your pocket Discussion | Link",
+      "published_at": "2026-08-06T07:21:22+00:00",
+      "summary": "Healthspan score from your wearables, labs, and DNA. Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/chronock",
-      "title": "Chronock",
-      "url": "https://www.producthunt.com/products/chronock",
+      "id": "rss:https://www.producthunt.com/products/blume-3",
+      "title": "Blume",
+      "url": "https://www.producthunt.com/products/blume-3",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Takahiro Ikeuchi",
+        "name": "fmerian",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T23:57:28+00:00",
-      "summary": "Scheduling and calendar sync, all in one Discussion | Link",
+      "published_at": "2026-07-19T07:21:48+00:00",
+      "summary": "AI-ready, Markdown-first documentation framework Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/attyn",
+      "title": "Attyn",
+      "url": "https://www.producthunt.com/products/attyn",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Rohit C",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-09T23:00:52+00:00",
+      "summary": "Bringing intelligence to your cursor Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/inferock-bench",
+      "title": "Inferock Bench",
+      "url": "https://www.producthunt.com/products/inferock-bench",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "fmerian",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-11T21:37:44+00:00",
+      "summary": "An independent receipt for every LLM API call Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/talvo-2",
+      "title": "Talvo",
+      "url": "https://www.producthunt.com/products/talvo-2",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Philippe Maes",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-13T15:04:29+00:00",
+      "summary": "Connect 2,500+ European banks to track your spending Discussion | Link",
       "lang": "en"
     },
     {
@@ -1118,20 +1254,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/z-ai",
-      "title": "GLM-5.3",
-      "url": "https://www.producthunt.com/products/z-ai",
+      "id": "rss:https://www.producthunt.com/products/joy-celebrate-your-wins",
+      "title": "Joy",
+      "url": "https://www.producthunt.com/products/joy-celebrate-your-wins",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Zac Zuo",
+        "name": "Jawahar Selvaraj",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-14T06:21:52+00:00",
-      "summary": "Coding leap from scaled post-training on the same base Discussion | Link",
+      "published_at": "2026-08-05T16:55:49+00:00",
+      "summary": "A Mac menu bar app that throws confetti for your wins Discussion | Link",
       "lang": "en"
     },
     {
@@ -1152,6 +1288,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.producthunt.com/products/z-ai",
+      "title": "GLM-5.3",
+      "url": "https://www.producthunt.com/products/z-ai",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Zac Zuo",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-14T06:21:52+00:00",
+      "summary": "Coding leap from scaled post-training on the same base Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/zetik",
+      "title": "Zetik",
+      "url": "https://www.producthunt.com/products/zetik",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Rohan Chaubey",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-08T01:41:10+00:00",
+      "summary": "A chief of staff in your pocket Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/chronock",
+      "title": "Chronock",
+      "url": "https://www.producthunt.com/products/chronock",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Takahiro Ikeuchi",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-13T23:57:28+00:00",
+      "summary": "Scheduling and calendar sync, all in one Discussion | Link",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.producthunt.com/products/filerouter",
       "title": "FileRouter",
       "url": "https://www.producthunt.com/products/filerouter",
@@ -1166,108 +1353,6 @@
       "views": null,
       "published_at": "2026-08-07T06:40:11+00:00",
       "summary": "Take control of files and editors Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/joy-celebrate-your-wins",
-      "title": "Joy",
-      "url": "https://www.producthunt.com/products/joy-celebrate-your-wins",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Jawahar Selvaraj",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-05T16:55:49+00:00",
-      "summary": "A Mac menu bar app that throws confetti for your wins Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/attyn",
-      "title": "Attyn",
-      "url": "https://www.producthunt.com/products/attyn",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Rohit C",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-09T23:00:52+00:00",
-      "summary": "Bringing intelligence to your cursor Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/talvo-2",
-      "title": "Talvo",
-      "url": "https://www.producthunt.com/products/talvo-2",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Philippe Maes",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T15:04:29+00:00",
-      "summary": "Connect 2,500+ European banks to track your spending Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/inferock-bench",
-      "title": "Inferock Bench",
-      "url": "https://www.producthunt.com/products/inferock-bench",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "fmerian",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-11T21:37:44+00:00",
-      "summary": "An independent receipt for every LLM API call Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/ns1",
-      "title": "NS1",
-      "url": "https://www.producthunt.com/products/ns1",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Jonny Miller",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T14:43:54+00:00",
-      "summary": "Personalized Nervous System Training Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/freebuff-2",
-      "title": "Freebuff",
-      "url": "https://www.producthunt.com/products/freebuff-2",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Matthew Do",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T17:04:37+00:00",
-      "summary": "Free coding agents to kill Claude, Cursor, Replit, and Devin Discussion | Link",
       "lang": "en"
     },
     {
@@ -1288,40 +1373,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/hoplite",
-      "title": "Hoplite",
-      "url": "https://www.producthunt.com/products/hoplite",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Garry Tan",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-18T23:02:04+00:00",
-      "summary": "Effortlessly deploy cloud software factories. Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/munder-difflin",
-      "title": "Munder Difflin",
-      "url": "https://www.producthunt.com/products/munder-difflin",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Chaitanya",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T13:04:54+00:00",
-      "summary": "Make clones with Claude Code and Codex to do your work Discussion | Link",
-      "lang": "en"
-    },
-    {
       "id": "rss:https://www.producthunt.com/products/basedash",
       "title": "Basedash Tasks",
       "url": "https://www.producthunt.com/products/basedash",
@@ -1339,20 +1390,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/occasio-2",
-      "title": "Occasio®",
-      "url": "https://www.producthunt.com/products/occasio-2",
+      "id": "rss:https://www.producthunt.com/products/freebuff-2",
+      "title": "Freebuff",
+      "url": "https://www.producthunt.com/products/freebuff-2",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Camilla S Andersen",
+        "name": "Matthew Do",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-10T21:46:32+00:00",
-      "summary": "Pinboard meets citation manager for shared insights. Discussion | Link",
+      "published_at": "2026-08-13T17:04:37+00:00",
+      "summary": "Free coding agents to kill Claude, Cursor, Replit, and Devin Discussion | Link",
       "lang": "en"
     },
     {
@@ -1373,20 +1424,71 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/muse-19",
-      "title": "Muse",
-      "url": "https://www.producthunt.com/products/muse-19",
+      "id": "rss:https://www.producthunt.com/products/browseract",
+      "title": "BrowserAct Cloud",
+      "url": "https://www.producthunt.com/products/browseract",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "THEODORE HQ",
+        "name": "Rohan Chaubey",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-11T10:51:23+00:00",
-      "summary": "Al Visual Bookmark Manager for Mac Discussion | Link",
+      "published_at": "2026-08-07T08:40:34+00:00",
+      "summary": "Scrape any data from any website with one prompt Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/munder-difflin",
+      "title": "Munder Difflin",
+      "url": "https://www.producthunt.com/products/munder-difflin",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Chaitanya",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-12T13:04:54+00:00",
+      "summary": "Make clones with Claude Code and Codex to do your work Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/ns1",
+      "title": "NS1",
+      "url": "https://www.producthunt.com/products/ns1",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Jonny Miller",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-13T14:43:54+00:00",
+      "summary": "Personalized Nervous System Training Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/occasio-2",
+      "title": "Occasio®",
+      "url": "https://www.producthunt.com/products/occasio-2",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Camilla S Andersen",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-10T21:46:32+00:00",
+      "summary": "Pinboard meets citation manager for shared insights. Discussion | Link",
       "lang": "en"
     },
     {
@@ -1407,108 +1509,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/compass-calendar",
-      "title": "Compass Calendar",
-      "url": "https://www.producthunt.com/products/compass-calendar",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Tyler Dane",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T19:31:57+00:00",
-      "summary": "The keyboard-first calendar to get organized quickly Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/browseract",
-      "title": "BrowserAct Cloud",
-      "url": "https://www.producthunt.com/products/browseract",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Rohan Chaubey",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-07T08:40:34+00:00",
-      "summary": "Scrape any data from any website with one prompt Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/min-4",
-      "title": "min.",
-      "url": "https://www.producthunt.com/products/min-4",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Eric Wang",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T03:00:00+00:00",
-      "summary": "AI that loves to follow up after meetings Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/deepseek",
-      "title": "DeepSeek Harness",
-      "url": "https://www.producthunt.com/products/deepseek",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Zac Zuo",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T13:08:16+00:00",
-      "summary": "Composable agent harness where everything is a plugin Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/suno",
-      "title": "Suno Studio 2.0",
-      "url": "https://www.producthunt.com/products/suno",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Chris Mayes-Wright",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T20:42:41+00:00",
-      "summary": "Browser-based generative DAW Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/isolate-video",
-      "title": "isolate.video",
-      "url": "https://www.producthunt.com/products/isolate-video",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Vignesh Warar",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T06:31:41+00:00",
-      "summary": "Turn screen recordings into engaging product videos Discussion | Link",
-      "lang": "en"
-    },
-    {
       "id": "rss:https://www.producthunt.com/products/chordviz",
       "title": "ChordViz",
       "url": "https://www.producthunt.com/products/chordviz",
@@ -1526,38 +1526,72 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/gemini-3-7-flash",
-      "title": "Gemini 3.7 Flash",
-      "url": "https://www.producthunt.com/products/gemini-3-7-flash",
+      "id": "rss:https://www.producthunt.com/products/muse-19",
+      "title": "Muse",
+      "url": "https://www.producthunt.com/products/muse-19",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Ankit Sharma",
+        "name": "THEODORE HQ",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T18:16:30+00:00",
-      "summary": "Google's smartest workhorse yet for coding & agents Discussion | Link",
+      "published_at": "2026-08-11T10:51:23+00:00",
+      "summary": "Al Visual Bookmark Manager for Mac Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/oxpecker",
-      "title": "oxpecker",
-      "url": "https://www.producthunt.com/products/oxpecker",
+      "id": "rss:https://www.producthunt.com/products/hoplite",
+      "title": "Hoplite",
+      "url": "https://www.producthunt.com/products/hoplite",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Ibrahim Chhipa",
+        "name": "Garry Tan",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-13T14:59:15+00:00",
-      "summary": "Know which of your lines a vendor just broke Discussion | Link",
+      "published_at": "2026-07-18T23:02:04+00:00",
+      "summary": "Effortlessly deploy cloud software factories. Discussion | Link",
       "lang": "en"
+    },
+    {
+      "id": "rss:https://sspai.com/post/113524",
+      "title": "派早报：😭（放声大哭）成为最流行 emoji",
+      "url": "https://sspai.com/post/113524",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://sspai.com/feed",
+        "name": "少数派编辑部",
+        "feed_title": "少数派"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-16T22:54:56+00:00",
+      "summary": "😭（放声大哭）成为最流行 emoji美国要求合作方在中美 AI 竞赛中「选边站」ChatGPT 上线使用历史记录功能美国政府敦促苹果不要购买中国内存芯片uBlock Origin 放弃维护 Facebook 广告规则索尼加速向娱乐业务转型看看就行的简讯少数派的近期动态你可能错过的好文章查看全文",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://sspai.com/post/113495",
+      "title": "浏览器扩展合集： 我们为你找到了这 6 款实用、 有趣的「新玩意」",
+      "url": "https://sspai.com/post/113495",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://sspai.com/feed",
+        "name": "克莱德",
+        "feed_title": "少数派"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-16T04:48:21+00:00",
+      "summary": "在浏览器扩展这边，近期又有哪些好用、有趣的「新玩意」呢？查看全文",
+      "lang": "zh"
     },
     {
       "id": "rss:https://sspai.com/post/111974",
@@ -1696,40 +1730,6 @@
       "lang": "zh"
     },
     {
-      "id": "rss:https://sspai.com/post/113338",
-      "title": "TDS REVIEW | 铁三角 ATH-SQ1TW2NC 降噪真无线耳机体验",
-      "url": "https://sspai.com/post/113338",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "KingTsui",
-        "feed_title": "少数派"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T07:01:08+00:00",
-      "summary": "SQ1TW2NC 的声音素质、编码配置和降噪综合能力，应该都算是在国内同价位甚至更低价位主流新产品面前不太拿得出手的水平，没有特别明显的功能层面的长板，但你会发现即使如此，它依然有一些点值得国内品牌学习。查看全文",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://sspai.com/post/112873",
-      "title": "6 天时间丈量独库公路：我的平安骑行指南",
-      "url": "https://sspai.com/post/112873",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "极简主义者",
-        "feed_title": "少数派"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T03:18:09+00:00",
-      "summary": "如果你也想骑一次独库，希望这份来自普通骑行爱好者的实战记录，能让你出发前少踩一点坑。查看全文",
-      "lang": "zh"
-    },
-    {
       "id": "hn:49289112",
       "title": "Gemini 3.7 Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
@@ -1741,8 +1741,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49289112"
       },
       "duration_sec": null,
-      "views": 961,
-      "comments": 490,
+      "views": 966,
+      "comments": 491,
       "published_at": "2026-08-13T17:23:22+00:00",
       "summary": "",
       "matched_keyword": "Gemini",
@@ -1931,7 +1931,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49256057"
       },
       "duration_sec": null,
-      "views": 199,
+      "views": 200,
       "comments": 30,
       "published_at": "2026-08-11T10:40:47+00:00",
       "summary": "",
@@ -1969,8 +1969,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49267928"
       },
       "duration_sec": null,
-      "views": 363,
-      "comments": 164,
+      "views": 364,
+      "comments": 165,
       "published_at": "2026-08-12T04:51:59+00:00",
       "summary": "",
       "matched_keyword": "Llama",
@@ -1988,7 +1988,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49259339"
       },
       "duration_sec": null,
-      "views": 305,
+      "views": 306,
       "comments": 42,
       "published_at": "2026-08-11T14:50:33+00:00",
       "summary": "",
@@ -2064,7 +2064,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49184755"
       },
       "duration_sec": null,
-      "views": 864,
+      "views": 865,
       "comments": 933,
       "published_at": "2026-08-05T16:05:31+00:00",
       "summary": "",
@@ -2083,7 +2083,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49220126"
       },
       "duration_sec": null,
-      "views": 448,
+      "views": 449,
       "comments": 130,
       "published_at": "2026-08-08T09:18:50+00:00",
       "summary": "",
