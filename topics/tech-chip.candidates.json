@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-17T03:55:49.056519+00:00",
+  "fetched_at": "2026-08-18T03:50:59.014663+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/nvidia-bets-on-the-classical-side-of-quantum-computing/",
+      "title": "Nvidia Bets on the Classical Side of Quantum Computing",
+      "url": "https://www.eetimes.com/nvidia-bets-on-the-classical-side-of-quantum-computing/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-17T18:31:00+00:00",
+      "summary": "Nvidia positions classical computing infrastructure as a critical layer in the race to build useful quantum computers. The post Nvidia Bets on the Classical Side of Quantum Computing appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/tiny-esim-global-reach-simplifying-cellular-connectivity-for-consumer-electronics/",
+      "title": "Tiny eSIM, Global Reach: Simplifying Cellular Connectivity for Consumer Electronics",
+      "url": "https://www.eetimes.com/tiny-esim-global-reach-simplifying-cellular-connectivity-for-consumer-electronics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Infineon Technologies and Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-17T14:29:25+00:00",
+      "summary": "Join this webinar and discover the OPTIGA™ Connect Consumer OC1230, the world's smallest, ultra-low-power eSIM solution built on Infineon's TEGRION™ 28 nm tech. The post Tiny eSIM, Global Reach: Simplifying Cellular Connectivity for Consumer Electronics appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/automotive-functional-safety-why-asil-compliance-starts-with-electromagnetic-design/",
+      "title": "Automotive Functional Safety: Why ASIL Compliance Starts with Electromagnetic Design",
+      "url": "https://www.eetimes.com/automotive-functional-safety-why-asil-compliance-starts-with-electromagnetic-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Cadence Design Systems",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-17T14:00:00+00:00",
+      "summary": "Automotive electronic systems face relentless pressure to meet electromagnetic compatibility (EMC), signal integrity (SI), and power integrity (PI) targets while satisfying strict ASIL safety requirements. Too often, engineers discover problems late: EMC failures surface during vehicle integration, signal ringing degrades high-speed links, via stub resonance reflects energy above 3 Gbps, power delivery networks collapse under [&#8230;] The post Automotive Functional Safety: Why ASIL Compliance S...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/the-charging-inlet-has-become-a-system-rethinking-ev-charge-control-electronics/",
+      "title": "The Charging Inlet Has Become a System: Rethinking EV Charge-Control Electronics",
+      "url": "https://www.eetimes.com/the-charging-inlet-has-become-a-system-rethinking-ev-charge-control-electronics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Raphi Zadicario, Product Manager and Chief Architect, Lumissil Microsystems",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-17T12:00:00+00:00",
+      "summary": "Explore how integrated charge-control architecture reduces complexity while supporting J3400, MCS, and global EV platforms. The post The Charging Inlet Has Become a System: Rethinking EV Charge-Control Electronics appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/fluid-side-observability-expands-ai-hardware-reliability/",
+      "title": "Fluid-Side Observability Expands AI Hardware Reliability",
+      "url": "https://www.eetimes.com/fluid-side-observability-expands-ai-hardware-reliability/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Rupesh Mainali",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-17T11:34:10+00:00",
+      "summary": "As AI systems increasingly rely on liquid cooling, coolant condition is emerging as a reliability signal. The post Fluid-Side Observability Expands AI Hardware Reliability appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/an-introduction-to-software-prototyping-unlocking-soc-software-verification-with-profpga-cs/",
       "title": "An Introduction to Software Prototyping: Unlocking SoC Software Verification with proFPGA CS",
       "url": "https://www.eetimes.com/an-introduction-to-software-prototyping-unlocking-soc-software-verification-with-profpga-cs/",
@@ -274,91 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/ais-next-bottleneck-is-public-consent/",
-      "title": "AI’s Next Bottleneck Is Public Consent",
-      "url": "https://www.eetimes.com/ais-next-bottleneck-is-public-consent/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Zaheer Ali",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T14:13:06+00:00",
-      "summary": "AI’s next choke point isn’t chips—it’s public trust as states slow data centers over power, water, and secrecy. The post AI&#8217;s Next Bottleneck Is Public Consent appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/neuromorphic-computing-needs-more-than-novel-chips/",
-      "title": "Neuromorphic Computing Needs More Than Novel Chips",
-      "url": "https://www.eetimes.com/neuromorphic-computing-needs-more-than-novel-chips/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Isaac Lopez, President, OmniScale Media & Charity Plata, Communications Chair, SC26",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T13:00:00+00:00",
-      "summary": "Katie Schuman on why neuromorphic computing needs HPC engineers, compilers, and shared hardware access to move from promise to practice. The post Neuromorphic Computing Needs More Than Novel Chips appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/using-agents-to-maximize-nvidia-jetson-memory-usage-at-the-edge/",
-      "title": "Using Agents to Maximize NVIDIA Jetson Memory Usage at the Edge",
-      "url": "https://www.eetimes.com/using-agents-to-maximize-nvidia-jetson-memory-usage-at-the-edge/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Morten Block, Global Eng. Director, Segments and Technology go-to-market",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T12:00:00+00:00",
-      "summary": "Discover how NVIDIA Jetson's software optimization stack can reclaim significant memory, enabling teams to run bigger AI workloads at a lower module cost. The post Using Agents to Maximize NVIDIA Jetson Memory Usage at the Edge appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/hong-kong-electronics-fairs-launch-in-october/",
-      "title": "Hong Kong Electronics Fairs Launch in October!",
-      "url": "https://www.eetimes.com/hong-kong-electronics-fairs-launch-in-october/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "HKTDC",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T08:00:00+00:00",
-      "summary": "Cutting-Edge Technologies on Display This October, Shaping the Future of Industries The post Hong Kong Electronics Fairs Launch in October! appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/revolutionizing-safety-unveiling-the-power-of-safety-bubble-detectors-in-robotics/",
-      "title": "Revolutionizing Safety: Unveiling the Power of Safety Bubble Detectors in Robotics",
-      "url": "https://www.eetimes.com/revolutionizing-safety-unveiling-the-power-of-safety-bubble-detectors-in-robotics/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Rajesh Mahapatra, Senior Manager, Anil Sripadarao, Principal Engineer, Prasanna Bhat, Engineer, Colm Prendergast, Senior Principal Engineer, Shane O’Meara, Senior Manager, Dara O’Sullivan, Director, Anders Frederiksen, Principal Specialist, and Sagar Walishetti, Engineer",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-12T19:34:18+00:00",
-      "summary": "This article will explain the architecture of real-time safety bubble detection that includes challenges for developing a modular solution, optimizing such a high data bandwidth application to run at 30 frames per second (FPS), and designing a multithread application and algorithm to accurately detect objects close to the ground. The post Revolutionizing Safety: Unveiling the Power of Safety Bubble Detectors in Robotics appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49325115"
       },
       "duration_sec": null,
-      "views": 14,
-      "comments": 4,
+      "views": 24,
+      "comments": 6,
       "published_at": "2026-08-17T00:07:42+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
@@ -409,7 +409,7 @@
       },
       "duration_sec": null,
       "views": 356,
-      "comments": 177,
+      "comments": 178,
       "published_at": "2026-08-11T10:02:00+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -435,6 +435,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49323686",
+      "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49323686",
+        "name": "root-parent",
+        "hn_url": "https://news.ycombinator.com/item?id=49323686"
+      },
+      "duration_sec": null,
+      "views": 245,
+      "comments": 151,
+      "published_at": "2026-08-16T21:07:10+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49189234",
       "title": "Nvidia’s Vera Whitepaper Has a Thread Loose",
       "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
@@ -449,25 +468,6 @@
       "views": 208,
       "comments": 46,
       "published_at": "2026-08-05T21:24:45+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49323686",
-      "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
-      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49323686",
-        "name": "root-parent",
-        "hn_url": "https://news.ycombinator.com/item?id=49323686"
-      },
-      "duration_sec": null,
-      "views": 144,
-      "comments": 55,
-      "published_at": "2026-08-16T21:07:10+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -503,8 +503,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49322519"
       },
       "duration_sec": null,
-      "views": 40,
-      "comments": 20,
+      "views": 46,
+      "comments": 30,
       "published_at": "2026-08-16T18:40:54+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
