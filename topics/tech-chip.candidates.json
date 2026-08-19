@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-18T03:50:59.014663+00:00",
+  "fetched_at": "2026-08-19T03:52:32.744982+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/marvell-targets-ai-bottlenecks-with-memory-disaggregation-portfolio/",
+      "title": "Marvell Targets AI Bottlenecks with Memory-Disaggregation Portfolio",
+      "url": "https://www.eetimes.com/marvell-targets-ai-bottlenecks-with-memory-disaggregation-portfolio/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-18T14:39:27+00:00",
+      "summary": "Marvell attacks AI’s memory choke point with SSD, CXL, and photonic fabrics to push data nearer compute. The post Marvell Targets AI Bottlenecks with Memory-Disaggregation Portfolio appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/why-standardized-interfaces-are-critical-to-accelerating-humanoid-development/",
+      "title": "Why Standardized Interfaces Are Critical to Accelerating Humanoid Development",
+      "url": "https://www.eetimes.com/why-standardized-interfaces-are-critical-to-accelerating-humanoid-development/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Edo Cohen",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-18T08:15:00+00:00",
+      "summary": "Humanoids won’t scale on AI hype alone; standardized MIPI interfaces can cut power, wiring, and cost. The post Why Standardized Interfaces Are Critical to Accelerating Humanoid Development appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/nvidia-bets-on-the-classical-side-of-quantum-computing/",
       "title": "Nvidia Bets on the Classical Side of Quantum Computing",
       "url": "https://www.eetimes.com/nvidia-bets-on-the-classical-side-of-quantum-computing/",
@@ -325,40 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/smartphone-makers-squeezed-by-soaring-chip-costs/",
-      "title": "Smartphone Makers Squeezed by Soaring Chip Costs",
-      "url": "https://www.eetimes.com/smartphone-makers-squeezed-by-soaring-chip-costs/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T18:47:35+00:00",
-      "summary": "Chip costs are gutting smartphone margins; expect pricier iPhones and fewer cheap phones. The post Smartphone Makers Squeezed by Soaring Chip Costs appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/enabling-robot-operating-systems/",
-      "title": "Enabling Robot Operating Systems—Introducing the ADI Trinamic Motor Controller ROS1 Driver",
-      "url": "https://www.eetimes.com/enabling-robot-operating-systems/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Krizelle Paulene Apostol , Software Systems Engineer, Jamila Macagba , Senior Software Systems Engineer, and Maggie Maralit , Software Systems Design Engineering Manager",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-13T16:14:17+00:00",
-      "summary": "Robot Operating System (ROS) drivers were developed on Analog Devices prod ucts so that they can be readily used within a ROS ecosystem. This article will give an overview on how to use and integrate these drivers in their applica tions, products, and systems (for example, autonomous navigation, safety bubble maps, and data collection robots); [&#8230;] The post Enabling Robot Operating Systems—Introducing the ADI Trinamic Motor Controller ROS1 Driver appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:48992221",
       "title": "TSMC eyes price hikes of up to 25% on chip production services in 2027",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-eyes-price-hikes-of-up-to-25-percent-on-chip-production-services-in-2027-report-claims-plans-to-raise-baseline-prices-by-5-percent-to-10-percent-on-advanced-nodes",
@@ -390,7 +390,7 @@
       },
       "duration_sec": null,
       "views": 24,
-      "comments": 6,
+      "comments": 8,
       "published_at": "2026-08-17T00:07:42+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
@@ -446,8 +446,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49323686"
       },
       "duration_sec": null,
-      "views": 245,
-      "comments": 151,
+      "views": 247,
+      "comments": 152,
       "published_at": "2026-08-16T21:07:10+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -503,8 +503,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49322519"
       },
       "duration_sec": null,
-      "views": 46,
-      "comments": 30,
+      "views": 47,
+      "comments": 31,
       "published_at": "2026-08-16T18:40:54+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
