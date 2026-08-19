@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-18",
-  "intro": "今日核心信号：Nvidia 从 OpenAI 基建融资担保中抽身，同时披露 210 亿美元 SpaceX 持股，AI 资本游戏进入新阶段；Anthropic 年化收入飙至 650 亿美元，但 Stripe 收购 OpenRouter 暗示模型聚合层正在重塑行业格局。Cursor 推出 Origin 直击 GitHub，AI 编程工具链加速重构。",
+  "date": "2026-08-19",
+  "intro": "今日全球市场动荡：AI 泡沫论与债市风暴共振，Nvidia 收缩对 OpenAI 的融资担保，同时 Anthropic 估值飙升、宇树科技上市暴涨。半导体领域，中国国产 AI 芯片加速替代，Marvell 押注内存解聚。大厂动态中，Google 收购 Spirit Airlines 数据引发隐私争议，OpenAI 加强安全措施。",
   "headlines": [
     {
       "rank": 1,
@@ -9,197 +9,203 @@
       "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
       "source": "Reuters",
       "stars": 5,
-      "title": "Nvidia 缩减 OpenAI 数据中心融资担保，AI 基建资本游戏生变",
-      "lead": "Nvidia 大幅减少对 OpenAI 数据中心基础设施的融资担保，此前报道称其曾考虑为 2500 亿美元项目提供支持。此举与 Nvidia 披露持有 SpaceX 210 亿美元股份、投资 SoftBank 数据中心开发商 15 亿美元等动作同步，显示其正在重新校准 AI 基建领域的风险敞口。",
+      "title": "Nvidia 大幅缩减对 OpenAI 数据中心融资担保，AI 资本狂热现裂缝",
+      "lead": "据 WSJ 报道，Nvidia 将减少对 OpenAI 数据中心融资的担保额度，此前传闻高达 2500 亿美元。此举正值 AI 基础设施投资过热、市场担忧泡沫之际，可能引发连锁反应。",
       "confirmed": [
-        "Nvidia 已大幅减少对 OpenAI 数据中心基础设施的融资担保额度。",
-        "此前 Nvidia 曾考虑为 OpenAI 数据中心项目提供高达 2500 亿美元的融资担保。",
-        "Nvidia 披露二季度末持有 SpaceX 210 亿美元股份。",
-        "Nvidia 宣布向 SoftBank 数据中心开发商投资 15 亿美元，以确保其芯片用于 OpenAI 数据中心。"
+        "Nvidia 已决定大幅减少对 OpenAI 数据中心融资的担保金额。",
+        "此前 Nvidia 曾考虑提供高达 2500 亿美元的担保。",
+        "该消息由 WSJ 报道，Reuters 转载。",
+        "Nvidia 和 OpenAI 尚未公开回应。"
       ],
       "judgment": [
-        "Nvidia 缩减担保的具体原因尚未明确，是风险控制还是战略调整有待观察。",
-        "OpenAI 数据中心项目的融资缺口将由谁填补尚不确定。",
-        "Nvidia 与 OpenAI 的长期合作关系是否会因此生变，仍需观察。",
-        "Nvidia 在 AI 基建中的角色正从单纯芯片供应商向资本运作方转变，其影响尚待评估。"
+        "担保缩减的具体规模未披露。",
+        "对 OpenAI 数据中心建设进度的影响尚不明确。",
+        "是否反映 Nvidia 对 AI 投资回报的担忧仍属猜测。",
+        "其他科技巨头是否会跟进调整融资策略未知。"
       ],
-      "implication": "Nvidia 的动作表明 AI 基建的资本游戏正在进入新阶段，芯片巨头开始更谨慎地管理风险敞口。你正在构建的 content-curator 项目，可以关注 AI 基建融资动态，作为行业趋势分析的素材。建议跟踪 Nvidia 后续的资本配置动作，以及 OpenAI 如何应对融资变化。"
+      "implication": "你正在做 AI 产品，要关注上游资本动向。Nvidia 收缩担保意味着 AI 基础设施融资可能收紧，未来算力成本或上升。建议在项目规划中预留弹性，避免依赖单一云厂商，同时关注 Nvidia 后续财报和指引。"
     },
     {
       "rank": 2,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
-      "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
-      "source": "TechCrunch",
+      "domain": "股票",
+      "id": "wscn:3779761",
+      "url": "https://wallstreetcn.com/articles/3779761",
+      "source": "华尔街见闻",
       "stars": 5,
-      "title": "Anthropic 年化收入突破 650 亿美元，两个月激增 180 亿",
-      "lead": "Anthropic 的年化收入在两个月内新增 180 亿美元，达到 650 亿美元。这一增速远超行业预期，显示企业级 AI 需求仍在爆发。与此同时，Anthropic 与 OpenAI 被曝正收紧 API 开放边界，将客户变为竞争对手。",
+      "title": "宇树科技上市首日高开 630%，市值超 4400 亿，机器人赛道引爆",
+      "lead": "人形机器人独角兽宇树科技今日登陆 A 股，开盘大涨 630%，中一签赚近 50 万，市值突破 4400 亿元。发行价对应募资 60.99 亿元，市场热情高涨。",
       "confirmed": [
-        "Anthropic 年化收入达到 650 亿美元，两个月内新增 180 亿美元。",
-        "Anthropic 与 OpenAI 正在加速布局垂直行业应用。",
-        "Canva 已因 API 客户与 Anthropic 产生竞争冲突。",
-        "Harvey、Cursor 等公司开始自训模型以减少对 API 的依赖。"
+        "宇树科技公开发行 4044.64 万股，占总股本 10%。",
+        "募集资金总额约 60.99 亿元。",
+        "开盘涨幅达 630%，市值超 4400 亿元。",
+        "梁文锋、雷军、美团等机构投资者浮盈巨大。"
       ],
       "judgment": [
-        "Anthropic 收入高增长能否持续，取决于企业客户留存和新增情况。",
-        "API 客户转竞争对手的趋势是否会迫使 Anthropic 进一步收紧 API 开放，尚待观察。",
-        "自训模型对 Cursor 等下游工具的成本和效果影响，需要时间验证。",
-        "AI 巨头与下游应用的关系将如何演变，是行业关键变量。"
+        "高开后的股价能否维持尚待观察。",
+        "人形机器人商业化进程仍面临挑战。",
+        "市场情绪是否过热存在争议。",
+        "后续解禁压力可能影响股价。"
       ],
-      "implication": "Anthropic 的爆发式增长验证了 AI 商业化的巨大潜力，但 API 收紧趋势对你这样的 AI 产品开发者是个警示。你正在做的 content-curator 项目，应尽量减少对单一 API 的依赖，考虑多模型适配或本地模型方案。关注 Cursor 自训模型的进展，可能为你的项目提供新思路。"
+      "implication": "宇树科技上市是机器人赛道的重要里程碑，但首日暴涨后风险积聚。如果你关注 AI 硬件，可以研究其技术路线和量产能力，但短期追高风险大。建议保持观望，等待回调后再评估。"
     },
     {
       "rank": 3,
-      "domain": "股票",
-      "id": "rss:https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-      "source": "TechCrunch",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/google-buys-spirit-airlines-data-for-ai-training-for-just-usd10-million-purchase-includes-hundreds-of-millions-of-emails-microsoft-teams-chats-billions-of-flight-pricing-records-and-anonymized-passenger-records",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-buys-spirit-airlines-data-for-ai-training-for-just-usd10-million-purchase-includes-hundreds-of-millions-of-emails-microsoft-teams-chats-billions-of-flight-pricing-records-and-anonymized-passenger-records",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "Stripe 或以 70 亿美元收购 OpenRouter，AI 聚合层价值凸显",
-      "lead": "支付巨头 Stripe  reportedly 将以超过 70 亿美元收购 AI 网关初创公司 OpenRouter。OpenRouter 的 CEO 曾将公司描述为“AI 领域的 Stripe”，此次收购若完成，将把 AI 模型聚合与支付基础设施结合，重塑 AI 应用的分发和变现方式。",
+      "title": "Google 仅花 1000 万美元买下 Spirit Airlines 数据用于 AI 训练，隐私争议再起",
+      "lead": "破产法院拍卖中，Google 以 1000 万美元赢得 Spirit Airlines 数据资产，包括数亿封邮件、Teams 聊天记录和数十亿条航班定价记录。数据用于 AI 训练，引发对隐私和数据伦理的担忧。",
       "confirmed": [
-        "Stripe  reportedly 将以超过 70 亿美元收购 OpenRouter。",
-        "OpenRouter 的 CEO 曾将公司描述为“AI 领域的 Stripe”。",
-        "Stratechery 的 Ben Thompson 认为这是对模型市场未来的押注。"
+        "Google 以 1000 万美元竞得 Spirit Airlines 数据。",
+        "数据包括数亿封邮件、Microsoft Teams 聊天记录和数十亿条航班定价记录。",
+        "数据已匿名化处理。",
+        "拍卖由美国破产法院监督。"
       ],
       "judgment": [
-        "收购尚未正式宣布，交易细节和监管审批仍不确定。",
-        "OpenRouter 的独立运营模式能否在 Stripe 体系内保持，尚待观察。",
-        "此次收购对 AI 模型定价和分发格局的影响，需要时间显现。"
+        "匿名化是否充分有效存在疑问。",
+        "Google 将如何使用这些数据的具体计划未披露。",
+        "监管机构是否会介入调查未知。",
+        "对用户隐私的实际影响尚待评估。"
       ],
-      "implication": "Stripe 收购 OpenRouter 意味着 AI 模型聚合层正在成为基础设施级入口。对你的 content-curator 项目，这可能意味着未来 API 调用和计费方式会有变化。建议关注 OpenRouter 的后续发展，它可能成为你项目的重要依赖。"
+      "implication": "这起收购凸显 AI 训练数据的价值与争议。作为 AI 开发者，你应该关注数据来源的合法性和伦理边界。在个人项目中，使用公开数据或合成数据更稳妥，避免法律风险。"
     },
     {
       "rank": 4,
-      "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reportedly-taps-amd-to-design-next-generation-tpu-hybrid-ai-asic-could-integrate-on-package-cpu-cores-for-reinforcement-learning",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reportedly-taps-amd-to-design-next-generation-tpu-hybrid-ai-asic-could-integrate-on-package-cpu-cores-for-reinforcement-learning",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-homegrown-ai-accelerators-to-supply-90-percent-of-the-countrys-domestic-market-analysts-suggest-cambricon-and-huawei-expected-to-be-the-biggest-winners-in-the-shift-away-from-nvidia-and-amd",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-homegrown-ai-accelerators-to-supply-90-percent-of-the-countrys-domestic-market-analysts-suggest-cambricon-and-huawei-expected-to-be-the-biggest-winners-in-the-shift-away-from-nvidia-and-amd",
       "source": "Tom's Hardware",
       "stars": 4,
-      "title": "Google 或联手 AMD 设计下一代 TPU，强化学习专用芯片浮现",
-      "lead": "据传 Google 正与 AMD 合作设计下一代 TPU，可能集成 on-package CPU 核心，专门针对 agentic 和强化学习工作负载。这一动向显示 AI 芯片正从通用 GPU 向专用架构演进，AMD 有望在 AI 芯片市场获得更大份额。",
+      "title": "中国国产 AI 芯片 2026 年将占国内 90% 市场，华为寒武纪成最大赢家",
+      "lead": "分析师预测，2026 年中国国产 AI 加速器将满足国内 90% 需求，华为和寒武纪将主导市场。美国制裁加速国产替代，Nvidia 和 AMD 在华份额将大幅萎缩。",
       "confirmed": [
-        "Google  reportedly 与 AMD 合作设计下一代 TPU。",
-        "新 TPU 可能集成 on-package CPU 核心，用于强化学习。",
-        "AMD 在 AI 芯片市场的角色可能因此提升。"
+        "分析师预计中国国产 AI 加速器 2026 年占国内 90% 市场份额。",
+        "华为和寒武纪被看好成为最大赢家。",
+        "美国制裁促使中国加速自主研发。",
+        "Nvidia 和 AMD 在华市场份额将下降。"
       ],
       "judgment": [
-        "合作细节尚未官方确认，仍属传闻。",
-        "Google 与 AMD 的合作是否会削弱 Nvidia 在 AI 芯片的主导地位，尚待观察。",
-        "强化学习专用芯片的实际性能提升，需要产品发布后验证。"
+        "国产芯片性能能否完全替代高端产品存疑。",
+        "90% 的市场份额预测可能过于乐观。",
+        "美国进一步制裁可能影响中国芯片制造。",
+        "实际出货量还需观察。"
       ],
-      "implication": "Google 与 AMD 的合作可能改变 AI 芯片竞争格局，对依赖 GPU 的 AI 开发者有潜在影响。你的 content-curator 项目若涉及模型推理，可关注 TPU 等专用芯片的进展，未来可能提供更高效的推理方案。"
+      "implication": "如果你在考虑 AI 项目的硬件选型，国产芯片如华为昇腾、寒武纪可能成为可行选项，尤其在合规要求下。建议关注其开发工具链和生态成熟度，提前适配。"
     },
     {
       "rank": 5,
       "domain": "AI",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/alibaba-sells-its-gaming-studio-for-at-least-1-5-billion-to-help-fund-ai-buildout",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/alibaba-sells-its-gaming-studio-for-at-least-1-5-billion-to-help-fund-ai-buildout",
-      "source": "Tom's Hardware",
-      "stars": 4,
-      "title": "阿里 15 亿美元出售游戏工作室，全力押注 AI 基建",
-      "lead": "阿里巴巴同意以至少 15 亿美元出售游戏开发部门灵犀互娱，以筹集资金支持 AI 建设。此举与 Micron 退出消费业务类似，显示科技巨头正集中资源投入 AI 领域。",
+      "id": "bvid:BV1hmb26ZEws",
+      "url": "http://www.bilibili.com/video/av117100337236191",
+      "source": "程序员晓刘",
+      "stars": 3,
+      "title": "DeepSeek Harness 实测对比 Claude Code：工具链对效果影响巨大",
+      "lead": "UP 主用同一 DeepSeek 模型分别在 Claude Code 和 DeepSeek Harness 中执行相同任务，发现 Harness 在插件化、流程记录和缓存命中上表现更优，差距明显。",
       "confirmed": [
-        "阿里巴巴同意以至少 15 亿美元出售灵犀互娱。",
-        "买家为亚洲私募股权公司 Trustar Capital。",
-        "出售旨在为 AI 建设提供资金。"
+        "使用同一 DeepSeek Pro 0813 模型进行对比。",
+        "测试任务包括 FPS 游戏 Demo、灯塔预警沙盘等。",
+        "DeepSeek Harness 在插件化、流程记录和缓存命中方面表现更好。",
+        "视频展示了具体代码和操作过程。"
       ],
       "judgment": [
-        "阿里出售游戏业务后，AI 投资的具体方向尚不明确。",
-        "此举对阿里游戏业务和整体战略的影响，需要后续观察。",
-        "科技巨头剥离非核心资产以聚焦 AI 的趋势，可能持续。"
+        "测试样本有限，结论可能不全面。",
+        "Harness 的长期稳定性未验证。",
+        "不同任务类型下结果可能不同。",
+        "用户个人偏好会影响工具选择。"
       ],
-      "implication": "阿里出售游戏业务表明 AI 已成为巨头战略优先级。对你的 content-curator 项目，可关注阿里在 AI 基建上的投入，可能带来新的工具或平台。同时，这种趋势也提示你，AI 领域的资源整合正在加速。"
+      "implication": "你正在做 AI Agent 项目，工具链的选择直接影响效率。建议你亲自尝试 DeepSeek Harness，对比 Claude Code，根据你的工作流选择更合适的。关注插件生态和缓存机制，能显著节省 Token。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI",
-      "title": "DeepSeek Harness 开源，Lau 博士解读：Claude Code 的替代者？",
-      "url": "http://www.bilibili.com/video/av117089415204498",
-      "source": "Lau博士的云组会",
-      "one_liner": "DeepSeek 官方 Harness 开源，对比 Claude Code 有独特优势，值得关注。"
-    },
-    {
-      "domain": "AI",
-      "title": "Pi Agent：极简设计超越 Codex 和 Claude Code？",
-      "url": "http://www.bilibili.com/video/av117104095268420",
-      "source": "技术爬爬虾",
-      "one_liner": "Pi 以极简工具集和千 token 系统提示词在基准测试中胜出，是新兴 Agent 选择。"
-    },
-    {
-      "domain": "AI",
-      "title": "Kimi K3 编程能力实测：国产模型跻身世界第一梯队？",
-      "url": "http://www.bilibili.com/video/av116934511239163",
-      "source": "AI超元域",
-      "one_liner": "Kimi K3 在 Claude Code 中实测表现超预期，国产模型竞争力提升。"
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia 披露持有 SpaceX 210 亿美元股份",
+      "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+      "source": "Ars Technica",
+      "one_liner": "Nvidia 跨界投资 SpaceX，显示其多元化布局，但影响有限。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia 发布 Nemotron 3.5 Lightning 和 NeMo Switchyard",
-      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "source": "NVIDIA Blog",
-      "one_liner": "Nvidia 推出新模型和工具，强化其在 AI 软件栈的布局。"
+      "title": "Marvell 推出内存解聚产品组合，缓解 AI 内存瓶颈",
+      "url": "https://www.eetimes.com/marvell-targets-ai-bottlenecks-with-memory-disaggregation-portfolio/",
+      "source": "EE Times",
+      "one_liner": "Marvell 用 SSD、CXL 和光子学推动内存解聚，值得关注。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "内存价格 12 个月飙升 500%，128GB DDR5 售价 3399 美元",
-      "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
+      "title": "AMD 称 2026 机架级 AI 方案能效比 2024 提升 4 倍",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-claims-its-2026-rack-scale-ai-solution-is-4x-more-energy-efficient-than-its-2024-ai-platform-company-says-its-pacing-ahead-of-20x-efficiency-by-2030",
       "source": "Tom's Hardware",
-      "one_liner": "内存危机推高硬件成本，AI 开发者的部署成本将显著增加。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "美国最大电网拟优先切断新数据中心电力，需自带发电",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/new-data-centers-on-americas-largest-grid-face-first-in-line-blackouts-unless-they-bring-their-own-power",
-      "source": "Tom's Hardware",
-      "one_liner": "PJM 提案将影响 AI 数据中心选址和电力成本，值得关注。"
+      "one_liner": "AMD 能效提升显著，但缺乏具体基准数据，需谨慎看待。"
     },
     {
       "domain": "大厂 AI 动态",
       "title": "Gemini 3.7 Flash 发布",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "source": "Google Blog",
-      "one_liner": "Google 最新 Flash 模型，性能提升，值得关注。"
+      "source": "Google",
+      "one_liner": "Google 新一代 Flash 模型，性能提升，但未上头条因用户更关注工程实践。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Groq 融资 3.5 亿美元，从 AI 芯片转向 neocloud",
-      "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "title": "OpenAI 在 Hugging Face 事件后加强安全措施",
+      "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
       "source": "TechCrunch",
-      "one_liner": "Groq 转型 neocloud，反映 AI 算力市场的新趋势。"
+      "one_liner": "OpenAI 加强模型监控和训练后安全，对开发者有参考意义。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Cursor 推出代码托管平台，挑战 GitHub",
+      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+      "source": "TechCrunch",
+      "one_liner": "Cursor 利用开发者对 GitHub 的不满，但生态迁移成本高。"
     },
     {
       "domain": "股票",
       "title": "30 年期美债收益率突破 5.31%，创 19 年新高",
       "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
       "source": "CNBC",
-      "one_liner": "长端利率飙升，对成长股估值构成压力，影响 AI 板块。"
+      "one_liner": "债市风暴加剧，影响全球风险资产，但用户可能更关注 AI。"
     },
     {
       "domain": "股票",
-      "title": "对冲基金连续五日扫货美股，科技板块逼空行情",
-      "url": "https://wallstreetcn.com/articles/3779671",
+      "title": "蚂蚁集团分拆融资启幕，AI 挂帅",
+      "url": "https://wallstreetcn.com/articles/3779767",
       "source": "华尔街见闻",
-      "one_liner": "高盛数据显示科技板块资金流入强劲，软件股空头回补明显。"
+      "one_liner": "蚂蚁国际完成 12 亿美元融资，AI 转型能否成功待观察。"
     },
     {
       "domain": "股票",
-      "title": "AI 收入需要多少才不是泡沫？",
-      "url": "https://wallstreetcn.com/articles/3779656",
+      "title": "Anthropic ARR 650 亿美元引争议，机构称增速放缓论据不足",
+      "url": "https://wallstreetcn.com/articles/3779757",
       "source": "华尔街见闻",
-      "one_liner": "国金测算 2030 年需近万亿美元收入覆盖成本，AI 变现压力巨大。"
+      "one_liner": "Anthropic 收入数据口径不一，但增长强劲，对 AI 行业有信号意义。"
     },
     {
       "domain": "股票",
-      "title": "Cursor 一夜“干掉”GitHub？推出代码托管平台 Origin",
-      "url": "https://wallstreetcn.com/articles/3779651",
+      "title": "“AI 股神”基金 72 小时亏损 350 亿美元",
+      "url": "https://wallstreetcn.com/articles/3779755",
       "source": "华尔街见闻",
-      "one_liner": "Cursor 推出 Origin，专为 AI Agent 设计，颠覆传统代码托管。"
+      "one_liner": "Situational Awareness 基金崩盘，警示 AI 投资风险。"
+    },
+    {
+      "domain": "金融",
+      "title": "中国首次火箭陆地回收成功，蓝箭航天突破",
+      "url": "https://wallstreetcn.com/articles/3779753",
+      "source": "华尔街见闻",
+      "one_liner": "朱雀三号回收成功，降低发射成本，利好商业航天。"
+    },
+    {
+      "domain": "金融",
+      "title": "美国债市遭重锤，华尔街警告类似 2007",
+      "url": "https://wallstreetcn.com/articles/3779747",
+      "source": "华尔街见闻",
+      "one_liner": "长债收益率飙升，市场担忧系统性风险，但用户可能不敏感。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-18T05:33:28+0000"
+    "scored_at": "2026-08-19T04:29:26+0000"
   }
 }
