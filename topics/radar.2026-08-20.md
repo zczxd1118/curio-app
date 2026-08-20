@@ -1,0 +1,161 @@
+# Curio 趋势雷达 · 2026-08-20
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 12 条备选
+
+_今日核心信号：AI 资本开支与政府融资争夺长期资本，30 年期美债收益率创 19 年新高，长端利率上行压力未解；同时，韩国存储双雄推出巨额股东回报计划，存储超级周期持续。AI 领域，OpenAI 加速 IPO 进程，Stripe 收购 OpenRouter 重塑 AI 基础设施格局。_
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 1. Nvidia 缩减 OpenAI 数据中心融资担保，AI 资本开支现裂痕
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Reuters_
+
+据 WSJ 报道，Nvidia 大幅减少对 OpenAI 数据中心建设的融资担保，涉及金额高达 2500 亿美元。此举或反映 Nvidia 对 AI 基础设施投资回报的谨慎态度，也可能影响 OpenAI 的算力扩张计划。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Nvidia 已缩减对 OpenAI 数据中心融资的担保规模。 | 缩减的具体原因未披露，可能是风险控制或战略调整。 |
+| 涉及金额高达 2500 亿美元，原计划规模巨大。 | 对 OpenAI 算力扩张的实际影响尚不明确。 |
+| 报道来源为 WSJ，多家媒体转载。 | 是否会影响其他 AI 基础设施投资尚待观察。 |
+
+**📖 主编点评**
+
+你应该关注 AI 基础设施投资的可持续性。Nvidia 的谨慎态度可能预示行业降温，但短期算力需求仍强劲。对于你的 Agent 项目，确保算力成本可控，避免依赖单一供应商。
+
+📺 [打开原文](https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/)
+
+---
+
+## 🌟 股票
+
+### 2. 韩国存储双雄巨额回购，Kospi 大涨 6%，存储超级周期延续
+
+**[股票]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
+
+SK 海力士宣布回购注销 40 万亿韩元库存股，三星拟推出逾 100 万亿韩元股东回报计划，带动 Kospi 指数大涨约 6%。存储行业现金流充沛，股东回报时代来临。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| SK 海力士宣布回购注销 40 万亿韩元库存股。 | 巨额回购能否持续，取决于存储价格走势。 |
+| 三星电子拟推出逾 100 万亿韩元股东回报计划。 | 股东回报计划对股价的长期支撑作用待观察。 |
+| SK 海力士单日涨 12%，三星涨 9%，Kospi 大涨约 6%。 | 存储超级周期能持续多久存在不确定性。 |
+
+**📖 主编点评**
+
+存储行业的高景气为相关公司带来巨额现金流，你可以关注存储相关的投资机会，但需警惕周期见顶风险。对于个人项目，可考虑利用存储成本下降的优势。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3779853)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 3. Stripe 以 70-75 亿美元收购 OpenRouter，AI 模型聚合赛道整合加速
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
+
+Stripe 正式收购 AI 模型聚合平台 OpenRouter，估值较三个月前暴涨逾四倍。交易将 OpenRouter 的多模型接入能力嵌入 Stripe 支付生态，a16z 同一周内连续退出 Cursor 和 OpenRouter，创风投纪录。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Stripe 以 70-75 亿美元收购 OpenRouter。 | 收购后 OpenRouter 的独立运营程度未知。 |
+| 估值较三个月前暴涨逾四倍。 | 对 AI 模型聚合市场的竞争格局影响待观察。 |
+| a16z 在同一周内完成 Cursor 和 OpenRouter 两笔退出。 | Stripe 的支付生态与 AI 模型的协同效应尚需验证。 |
+
+**📖 主编点评**
+
+AI 基础设施正在经历整合，支付巨头入局意味着模型调用将成为标准化服务。你可以关注 OpenRouter 的 API 变化，它可能影响你的 Agent 工具链。
+
+📺 [打开原文](https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/)
+
+---
+
+## 🌟 金融
+
+### 4. 30 年期美债收益率突破 5.31%，创 19 年新高，全球长债市场承压
+
+**[金融]** · ⭐⭐⭐⭐ · _CNBC_
+
+30 年期美债收益率飙升至 5.31% 以上，为 2007 年以来最高。AI 资本开支驱动的民间信用扩张挤压政府融资空间，长端利率上行压力持续。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 30 年期美债收益率突破 5.31%，创 19 年新高。 | 长端利率上行压力是否持续，取决于 AI 投资节奏。 |
+| AI 资本支出热潮推动民间信用扩张。 | 美联储政策应对尚不明朗。 |
+| 全球长债市场出现抛售潮。 | 对股市估值的影响有待观察。 |
+
+**📖 主编点评**
+
+高利率环境对成长股估值构成压力，你的 AI 项目融资成本可能上升。关注利率走势，合理规划资金。黄金作为避险资产可能受益。
+
+📺 [打开原文](https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html)
+
+---
+
+## 🌟 AI
+
+### 5. DeepSeek Harness 开源：Agent 开发范式革新，本地智能体新选择
+
+**[AI]** · ⭐⭐⭐⭐ · _Lau博士的云组会_
+
+DeepSeek 开源了其 Harness 框架，为 Agent 开发提供了新的基础设施。视频解读了 Harness 的独特之处，可能改变开发者构建智能体的方式。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| DeepSeek Harness 已开源。 | Harness 与现有框架（如 LangChain）的对比尚不明确。 |
+| 视频提供了详细的技术解读。 | 其生态成熟度有待观察。 |
+| Harness 被视为 Agent 开发的重要工具。 | 对开发者工作流的影响需实际测试。 |
+
+**📖 主编点评**
+
+作为 Agent 开发者，你应该关注 DeepSeek Harness，它可能提供更高效的本地智能体方案。尝试将其集成到你的 content-curator 项目中，探索新的可能性。
+
+📺 [打开原文](http://www.bilibili.com/video/av117089415204498)
+
+---
+
+## 📋 备选池
+
+### AI 算力 / 半导体
+
+- [Samsung raises advanced foundry prices by up to 15% as AI demand fills its 4nm lines](https://www.tomshardware.com/tech-industry/samsung-raises-advanced-foundry-prices-by-up-to-15-percent-as-ai-demand-fills-its-4nm-lines) —— 三星晶圆代工涨价 15%，AI 需求强劲，但可能影响下游成本。
+  _Tom's Hardware_
+- [First Nvidia H200 shipments reach China, ByteDance and Tencent take deliveries as Beijing loosens its import block](https://www.tomshardware.com/pc-components/gpus/first-nvidia-h200-shipments-reach-bytedance-and-tencent-as-beijing-loosens-its-import-block) —— 英伟达 H200 开始出货中国，但大部分芯片需留在香港，算力部署受限。
+  _Tom's Hardware_
+- [Ajinomoto reportedly cuts critical chip packaging film supply to China by 30%](https://www.tomshardware.com/tech-industry/semiconductors/ajinomoto-reportedly-cuts-abf-chip-packaging-film-supply-to-china-by-30-percent) —— 味之素削减对华 ABF 膜供应 30%，半导体材料供应链再受冲击。
+  _Tom's Hardware_
+
+### 大厂 AI 动态
+
+- [OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells employees](https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html) —— OpenAI CFO 明确上市时间表，IPO 进程加速，但人才流失和业绩波动是隐患。
+  _CNBC_
+- [Meta AI is getting a Mac app](https://www.theverge.com/tech/982270/meta-ai-mac-app) —— Meta AI 推出 Mac 应用，桌面端 AI 助手竞争加剧。
+  _The Verge_
+- [Google Gemini is getting a dedicated student hub](https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub) —— 谷歌为 Gemini 推出学生中心，AI 教育应用场景拓展。
+  _The Verge_
+
+### 股票
+
+- [SK hynix publishes CPO roadmap in Nature Electronics: extending optics to memory interfaces](https://wallstreetcn.com/articles/3779860) —— SK 海力士发布 CPO 路线图，光互连技术向内存接口延伸，解决带宽墙。
+  _华尔街见闻_
+- [Moderna因黑色素瘤疫苗大涨超170%，mRNA迎来黄金时代？](https://wallstreetcn.com/premium/articles/3779825?layout=wscn-layout) —— Moderna 黑色素瘤疫苗 III 期成功，mRNA 肿瘤疫苗里程碑，股价暴涨。
+  _华尔街见闻_
+- [黄金冲破4400之后：第二轮行情正在启动？](https://wallstreetcn.com/premium/articles/3779548?layout=wscn-layout) —— 黄金突破 4400 美元，ETF 回流与央行购金共振，若破 4500 或开启第二轮行情。
+  _华尔街见闻_
+- [Stripe收购OpenRouter：估值三个月暴涨4倍，a16z一周连收两笔巨型退出](https://wallstreetcn.com/articles/3779862) —— Stripe 收购 OpenRouter，AI 基础设施整合加速，a16z 创纪录退出。
+  _华尔街见闻_
+
+### 金融
+
+- [Sticky wage norms and the real wage cost of unexpected inflation](https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf) —— 芝加哥大学论文探讨工资粘性与通胀成本，对宏观政策有参考意义。
+  _BFI_
+- [The federal keyword lists that canceled billions in research funding](https://www.highereddive.com/news/inside-the-federal-keyword-lists-that-canceled-billions-in-research-funding/826203/) —— 联邦关键词列表导致数十亿研究经费被取消，学术生态受影响。
+  _Higher Ed Dive_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
