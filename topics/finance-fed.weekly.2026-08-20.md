@@ -2,38 +2,39 @@
 
 > 今日 1 条头条 + 2 条备选
 
-_今日核心信号：AI 资本开支与政府融资争夺长期资本，30 年期美债收益率创 19 年新高，长端利率上行压力未解；同时，韩国存储双雄推出巨额股东回报计划，存储超级周期持续。AI 领域，OpenAI 加速 IPO 进程，Stripe 收购 OpenRouter 重塑 AI 基础设施格局。_
+_今日核心信号：AI 资本开支与全球长债利率的博弈进入白热化，30 年期美债收益率创 19 年新高，而韩国存储双雄抛出史上最大股东回报计划，显示 AI 硬件景气度依然强劲。同时，OpenAI 在 IPO 前夜遭遇人才流失与安全团队解散的质疑，但 CFO 坚称 2027 年或更早上市。对做 AI 产品的你，Stripe 收购 OpenRouter 和 DeepSeek Harness 开源是两个值得关注的工程信号。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. 30 年期美债收益率突破 5.31%，创 19 年新高，全球长债市场承压
+### 5. 芝加哥大学论文：工资粘性与意外通胀的真实工资成本
 
-**[金融]** · ⭐⭐⭐⭐ · _CNBC_
+**[金融]** · ⭐⭐⭐ · _jplusequalt_
 
-30 年期美债收益率飙升至 5.31% 以上，为 2007 年以来最高。AI 资本开支驱动的民间信用扩张挤压政府融资空间，长端利率上行压力持续。
+一篇来自芝加哥大学的新论文探讨了工资粘性如何影响意外通胀对实际工资的冲击。研究发现，当通胀意外上升时，名义工资调整滞后，导致实际工资下降，这对劳动力市场有深远影响。在当前全球通胀和利率波动背景下，该研究为理解宏观经济提供了新视角。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 30 年期美债收益率突破 5.31%，创 19 年新高。 | 长端利率上行压力是否持续，取决于 AI 投资节奏。 |
-| AI 资本支出热潮推动民间信用扩张。 | 美联储政策应对尚不明朗。 |
-| 全球长债市场出现抛售潮。 | 对股市估值的影响有待观察。 |
+| 论文来自芝加哥大学 Becker Friedman Institute。 | 该结论在不同国家和时期的适用性。 |
+| 研究聚焦于工资粘性与意外通胀的关系。 | 对当前美联储政策路径的启示。 |
+| 发现名义工资调整滞后导致实际工资下降。 | 对劳动力市场长期结构的影响。 |
+| 论文编号为 BFI_WP_2026-108。 | 与现有工资粘性文献的对比。 |
 
 **📖 主编点评**
 
-高利率环境对成长股估值构成压力，你的 AI 项目融资成本可能上升。关注利率走势，合理规划资金。黄金作为避险资产可能受益。
+虽然这不是你直接关注的领域，但理解工资粘性有助于你判断宏观经济环境。当前长债利率飙升和 AI 投资热潮可能引发通胀压力，进而影响科技行业的招聘和薪资。作为即将毕业的学生，关注这些宏观信号有助于你做出职业决策。
 
-📺 [打开原文](https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html)
+📺 [打开原文](https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf)
 
 ---
 
 ## 📋 备选阅读
 
-- [Sticky wage norms and the real wage cost of unexpected inflation](https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf) —— 芝加哥大学论文探讨工资粘性与通胀成本，对宏观政策有参考意义。
-  _BFI_
-- [The federal keyword lists that canceled billions in research funding](https://www.highereddive.com/news/inside-the-federal-keyword-lists-that-canceled-billions-in-research-funding/826203/) —— 联邦关键词列表导致数十亿研究经费被取消，学术生态受影响。
-  _Higher Ed Dive_
+- [30-year Treasury yield tops 5.31%, the highest in 19 years](https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html) —— 30 年期美债收益率创 19 年新高，AI 资本开支与政府融资争夺长期资本。
+  _root-parent_
+- [AI Is Upending One of Finance's Cushiest Jobs](https://www.bloomberg.com/news/features/2026-06-05/ai-is-upending-traditional-financial-advisor-jobs) —— AI 正在颠覆金融顾问行业，对职业规划有参考意义。
+  _theriddlr_
 
 ---
 
