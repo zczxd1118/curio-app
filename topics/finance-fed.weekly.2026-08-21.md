@@ -2,38 +2,38 @@
 
 > 今日 1 条头条 + 2 条备选
 
-_今日信号：Nvidia 收缩对 OpenAI 的基建融资担保，AI 资本开支叙事生变；OpenAI 开源 Codex Harness，Agent 工程进入新阶段；存储行业涨价潮与产能紧缺共振，SK hynix 与三星相继加码股东回报。_
+_今日核心信号：OpenAI 开源 Codex Harness 并加速 IPO 进程，AI 编程工具链迎来底层重构；存储芯片因 AI 需求进入超级周期，美光、SK 海力士、三星等厂商量价齐升；同时，美债长端利率飙升引发市场动荡，对冲基金从 AI 板块撤退，资金转向防御。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. 三星计划向股东返还至多 790 亿美元，创历史纪录
+### 5. 芝加哥大学研究：粘性工资与意外通胀的实际工资成本
 
-**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
+**[金融]** · ⭐⭐⭐ · _Hacker News_
 
-据韩媒报道，三星电子董事会拟公布重大股东回报计划，规模预计达 90 万亿至 110 万亿韩元（约 650 亿至 790 亿美元），或创公司史上最大资本回报纪录。投资者关注分红与回购的资金分配比例及执行时间表。
+芝加哥大学最新工作论文探讨了粘性工资规范如何影响意外通胀对实际工资的冲击。研究发现，当通胀意外上升时，名义工资调整滞后，导致实际工资下降，这对劳动力市场和货币政策有重要启示。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 三星计划公布大规模股东回报计划。 | 具体分红与回购比例未定。 |
-| 规模预计 650 亿至 790 亿美元。 | 执行时间表尚不明确。 |
-| 可能创公司历史纪录。 | 对股价的短期影响未知。 |
+| 论文由芝加哥大学发布，研究粘性工资与意外通胀的关系。 | 研究结论是否适用于当前美国经济环境。 |
+| 研究指出名义工资调整滞后导致实际工资下降。 | 对美联储政策路径的潜在影响。 |
+| 该研究对货币政策制定有参考价值。 | 实际工资下降对消费和经济增长的传导效应。 |
 
 **📖 主编点评**
 
-三星加大股东回报，反映其现金流充裕，但可能减少对半导体业务的再投资。作为电子工程学生，关注三星的资本配置策略，可能影响未来存储芯片供应格局。
+作为关注宏观经济的读者，这篇论文提供了理解通胀与工资关系的学术视角。虽然不直接指导投资，但有助于你判断美联储的政策倾向，从而调整资产配置。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3779955)
+📺 [打开原文](https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf)
 
 ---
 
 ## 📋 备选阅读
 
-- [Sticky wage norms and the real wage cost of unexpected inflation](https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf) —— 芝加哥大学论文探讨工资粘性与通胀关系，对宏观判断有参考价值。
-  _BFI_
-- [AI Is Upending One of Finance's Cushiest Jobs](https://www.bloomberg.com/news/features/2026-06-05/ai-is-upending-traditional-financial-advisor-jobs) —— AI 正在颠覆金融顾问行业，对职业规划有启示。
-  _Bloomberg_
+- [30 年期美债收益率突破 5.31%，创 19 年新高](https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html) —— 长端利率飙升，全球资产定价锚动摇。
+  _CNBC_
+- [OpenAI 解散评估灾难性模型风险的团队](https://thenextweb.com/news/openai-preparedness-team-disbanded-ipo-streamlining) —— IPO 前精简架构，安全团队被解散引发争议。
+  _The Next Web_
 
 ---
 
