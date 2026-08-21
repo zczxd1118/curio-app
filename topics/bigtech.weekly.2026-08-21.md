@@ -2,27 +2,28 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今日核心信号：OpenAI 开源 Codex Harness 并加速 IPO 进程，AI 编程工具链迎来底层重构；存储芯片因 AI 需求进入超级周期，美光、SK 海力士、三星等厂商量价齐升；同时，美债长端利率飙升引发市场动荡，对冲基金从 AI 板块撤退，资金转向防御。_
+_今日焦点：OpenAI 开源 Codex Harness 并加速 IPO 进程，AI 编程进入新阶段；存储芯片供需失衡加剧，美光、三星、SK 海力士动态密集；美国长债收益率飙升引发市场震荡，对冲基金撤离 AI 板块。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. OpenAI 在企业用户市场追赶 Anthropic，数据揭示新趋势
+### 3. OpenAI 在企业市场追赶 Anthropic，客户忠诚度成疑
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
 
-最新数据显示，OpenAI 在企业用户中的采用率正在上升，与 Anthropic 的差距缩小。企业愿意在各大模型之间切换，这种波动性应引起两家公司投资者对企业 AI 支出'粘性'的警惕。
+最新数据显示，OpenAI 在企业用户中的份额正在增长，逼近 Anthropic。但企业客户在不同模型间摇摆不定，每次新模型发布都可能切换供应商，这种波动性让投资者对 AI 企业支出的粘性产生疑虑。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| OpenAI 在企业用户市场的份额正在增长。 | OpenAI 的追赶势头能否持续，取决于模型质量和价格。 |
-| 企业用户在不同模型之间切换频繁。 | Anthropic 是否会推出新模型或策略来应对。 |
-| 数据来源为 TechCrunch 报道，基于最新市场调研。 | 企业 AI 支出的'粘性'到底有多强，尚待观察。 |
+| OpenAI 在企业市场的份额增长 | OpenAI 能否通过 Codex Harness 等生态锁定企业客户 |
+| 企业客户频繁在 OpenAI 和 Anthropic 之间切换 | Anthropic 如何应对竞争，是否会有新策略 |
+| 新模型发布是切换的主要诱因 | 企业 AI 支出的长期趋势 |
+| 投资者担忧企业 AI 支出的粘性 |  |
 
 **📖 主编点评**
 
-你作为 AI 产品重度玩家，应该关注企业级 AI 市场的动态。OpenAI 和 Anthropic 的竞争将影响 API 价格和模型能力，你可以根据实际需求选择最优模型，同时留意新模型发布带来的机会。
+作为 AI 产品开发者，你应关注模型选择的灵活性。不要绑定单一供应商，利用 Router 等工具或开源模型来保持可迁移性。同时，OpenAI 的开源动作和 Anthropic 的回应，将影响你未来构建 Agent 的技术栈选择。
 
 📺 [打开原文](https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/)
 
@@ -30,12 +31,12 @@ _今日核心信号：OpenAI 开源 Codex Harness 并加速 IPO 进程，AI 编�
 
 ## 📋 备选阅读
 
-- [Google Discover 将推出 AI 聊天机器人定制 feed](https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed) —— Google 用 AI 个性化信息流，可能改变内容分发格局。
+- [Google Discover 将推出 AI 聊天机器人定制信息流](https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed) —— Google 用 AI 个性化内容，影响内容分发。
   _The Verge_
-- [ChatGPT 可通过 Apple Messages 插件替你发短信](https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/) —— AI 助手深入日常通讯，隐私与便利的平衡值得关注。
+- [ChatGPT 可通过 Apple Messages 插件代发短信](https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/) —— AI 助手更深入日常，但隐私问题值得关注。
   _TechCrunch_
-- [Greg Brockman 在 OpenAI 的角色扩大，公司进入新阶段](https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion) —— OpenAI 领导层变动，或影响公司战略方向。
-  _The Verge_
+- [Google 给出版商新工具对抗 AI 流量损失](https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/) —— AI 搜索对内容生态的影响，出版商自救。
+  _TechCrunch_
 
 ---
 
