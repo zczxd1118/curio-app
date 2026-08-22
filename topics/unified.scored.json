@@ -1,220 +1,240 @@
 {
-  "date": "2026-08-21",
-  "intro": "今日焦点：OpenAI 开源 Codex Harness 并加速 IPO 进程，AI 编程进入新阶段；存储芯片供需失衡加剧，美光、三星、SK 海力士动态密集；美国长债收益率飙升引发市场震荡，对冲基金撤离 AI 板块。",
+  "date": "2026-08-22",
+  "intro": "今日核心信号：Nvidia 在 ARC-AGI-3 上 100% 得分，标志 Agent 能力从模型转向 harness 工程；同时 Nvidia 缩减 OpenAI 基础设施融资担保，AI 资本开支出现裂缝。金融端，Anthropic IPO 面临公众抵制风险，博通 700 亿美元债务融资为 AI 芯片买单。半导体端，H200 终于入华但国产芯片已抢占市场。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "AI",
-      "id": "wscn:3779961",
-      "url": "https://wallstreetcn.com/articles/3779961",
-      "source": "华尔街见闻",
+      "domain": "AI 算力 / 半导体",
+      "id": "hn:49388268",
+      "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
+      "source": "rochansinha",
+      "platform": "hackernews",
+      "points": 12,
       "stars": 5,
-      "title": "OpenAI 开源 Codex Harness，AI 编程底层框架全面开放",
-      "lead": "OpenAI 以 Apache-2.0 许可开源 Codex Harness 三大核心组件：CLI 工具、官方 SDK 和 app-server。这意味着开发者可以将驱动 AI 智能体的执行框架无缝嵌入自己的产品，告别通用聊天框模式。界面、数据与安全审批权全部交还开发者，AI 企业级落地门槛大幅降低。",
+      "title": "Nvidia AVO 在 ARC-AGI-3 上拿下 100%，Agent 架构进入新阶段",
+      "lead": "Nvidia 官方博客宣布，其 AVO 架构在 ARC-AGI-3 交互式推理基准上取得 100% 得分，这是首个在该基准上满分的主流厂商。TechCrunch 评论指出，关键不在于模型本身，而在于 harness——即外围的规划、工具调用和记忆机制。这意味着 Agent 能力的竞争焦点正在从模型参数转向系统工程。",
       "confirmed": [
-        "开源三大组件：CLI 工具、官方 SDK、app-server",
-        "采用 Apache-2.0 许可，允许商用和修改",
-        "Harness 是驱动 AI 智能体的底层执行框架",
-        "支持开发者自定义界面、数据管理和安全审批流程"
+        "Nvidia AVO 在 ARC-AGI-3 基准上达到 100% 准确率，该基准测试长期自主 Agent 的交互式推理能力。",
+        "Nvidia 官方博客详细描述了 AVO 的架构，强调其通用目的和长时程自主能力。",
+        "TechCrunch 发布评论文章，指出 harness（外围系统）而非模型本身是这次突破的关键。",
+        "ARC-AGI-3 是比前代更难、更接近人类常识推理的基准，满分具有里程碑意义。"
       ],
       "judgment": [
-        "开源后社区生态能否快速壮大，形成类似 Linux 的效应",
-        "对商业 AI 编程工具（如 Cursor、Copilot）的冲击程度",
-        "企业采用率是否会因安全性和可控性提升而显著增长"
+        "100% 得分是否代表真正的通用智能，还是仅在该基准上过拟合，尚需更多测试验证。",
+        "harness 工程的具体细节（如规划算法、工具调用机制）未完全公开，可复现性存疑。",
+        "该架构能否在真实世界复杂任务中同样表现出色，尚未有充分证据。",
+        "Nvidia 是否会将 AVO 商业化或开源，目前没有明确信息。"
       ],
-      "implication": "这对你正在做的 content-curator 项目是重大利好。你可以基于 Codex Harness 构建自己的 Agent 工作流，而不是受限于现成工具的封闭生态。建议花时间研究其 SDK 和 CLI，尝试将内容抓取、筛选、生成流程自动化。这不仅是技术积累，也是简历上的亮点。"
+      "implication": "你应该关注 harness 工程，而不是只盯着模型参数。对于你的 Agent 项目，这意味着要花更多精力在工具调用、记忆管理和任务规划上。可以研究 Nvidia 的博客和 TechCrunch 的分析，看看能否借鉴其设计思路。同时，ARC-AGI-3 可能成为新的评测标准，你的项目如果能在类似基准上表现良好，会是简历上的亮点。",
+      "is_diverse": false
     },
     {
       "rank": 2,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/pc-components/dram/pine64-halts-all-linux-device-production-until-at-least-mid-2027-as-memory-shortage-bites",
-      "url": "https://www.tomshardware.com/pc-components/dram/pine64-halts-all-linux-device-production-until-at-least-mid-2027-as-memory-shortage-bites",
-      "source": "Tom's Hardware",
-      "stars": 5,
-      "title": "存储芯片短缺加剧，Pine64 停产 Linux 设备至 2027 年中",
-      "lead": "Pine64 宣布因内存短缺，暂停所有 Linux 硬件生产至至少 2027 年中，包括 SBC、平板和手机。微控制器产品不受影响。这一事件凸显 AI 需求对存储芯片供应链的挤压，已波及开源硬件领域。",
+      "id": "hn:49323686",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+      "source": "root-parent",
+      "platform": "hackernews",
+      "points": 252,
+      "stars": 4,
+      "title": "Nvidia 缩减 OpenAI 数据中心融资担保，AI 资本开支现裂缝",
+      "lead": "据路透社报道，Nvidia 大幅减少了对 OpenAI 数据中心基础设施融资的担保额度。此前市场传闻 Nvidia 曾考虑为 OpenAI 提供高达 2500 亿美元的担保，但现在这一数字被显著下调。这一举动可能反映 Nvidia 对 AI 需求持续性的谨慎态度，也可能与近期 AI 股票回调有关。",
       "confirmed": [
-        "Pine64 暂停 Linux 设备生产，包括 SBC、平板和手机",
-        "停产持续至至少 2027 年中",
-        "微控制器产品（如 PineTime、Pinecil）不受影响",
-        "原因是内存芯片短缺"
+        "Nvidia 已大幅减少其对 OpenAI 基础设施融资的担保金额。",
+        "该消息源自路透社引用《华尔街日报》的报道。",
+        "此前 Nvidia 曾考虑为 OpenAI 提供高达 2500 亿美元的担保。",
+        "Nvidia 的决策可能影响 OpenAI 的数据中心扩张计划。"
       ],
       "judgment": [
-        "其他硬件厂商是否会跟进停产或减产",
-        "存储芯片短缺何时能缓解，AI 需求是否持续超预期",
-        "对开源硬件生态的长期影响"
+        "担保缩减的具体原因未明确，可能是风险控制，也可能是 OpenAI 需求变化。",
+        "这一变化对 OpenAI 的算力采购计划影响程度尚不清楚。",
+        "是否会影响 Nvidia 与 OpenAI 的长期合作关系，有待观察。",
+        "其他 AI 公司的基础设施融资是否也会受到类似影响，未知。"
       ],
-      "implication": "存储芯片的短缺正在从数据中心传导至消费级硬件，这对你的硬件兴趣和项目选型有直接影响。如果你计划使用树莓派等 SBC 做边缘 AI 项目，需考虑供应链风险。同时，这也意味着存储芯片相关股票和技能（如 HBM 知识）有长期价值。"
+      "implication": "对于你关注的 AI 基础设施投资，这是一个信号：Nvidia 开始对 AI 泡沫保持警惕。你应该关注后续发展，如果担保继续缩减，可能引发市场对 AI 资本开支可持续性的担忧。在你的 Agent 项目中，可以考虑使用更经济的模型或本地部署，以降低对昂贵云算力的依赖。",
+      "is_diverse": false
     },
     {
       "rank": 3,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
-      "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
-      "source": "TechCrunch",
+      "domain": "股票",
+      "id": "wscn:3780042",
+      "url": "https://wallstreetcn.com/articles/3780042",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "points": null,
       "stars": 4,
-      "title": "OpenAI 在企业市场追赶 Anthropic，客户忠诚度成疑",
-      "lead": "最新数据显示，OpenAI 在企业用户中的份额正在增长，逼近 Anthropic。但企业客户在不同模型间摇摆不定，每次新模型发布都可能切换供应商，这种波动性让投资者对 AI 企业支出的粘性产生疑虑。",
+      "title": "Anthropic 招股书或列入 AI 抵制风险，IPO 面临民意逆风",
+      "lead": "据媒体报道，Anthropic 正在筹备 IPO，估值可能高达 2 万亿美元。但盖洛普调查显示，70% 的美国人反对在当地建设 AI 数据中心，两党政客也在回应选民情绪，宾州已落地数据中心限制法案。Anthropic 可能将公众抵制列为招股书核心风险因素，这将对 IPO 定价和未来增长构成压力。",
       "confirmed": [
-        "OpenAI 在企业市场的份额增长",
-        "企业客户频繁在 OpenAI 和 Anthropic 之间切换",
-        "新模型发布是切换的主要诱因",
-        "投资者担忧企业 AI 支出的粘性"
+        "Anthropic 正在筹备 IPO，估值或达 2 万亿美元。",
+        "盖洛普调查显示 70% 的美国人反对在当地建设 AI 数据中心。",
+        "宾夕法尼亚州已通过数据中心限制法案。",
+        "媒体报道 Anthropic 可能将公众抵制列为招股书风险因素。"
       ],
       "judgment": [
-        "OpenAI 能否通过 Codex Harness 等生态锁定企业客户",
-        "Anthropic 如何应对竞争，是否会有新策略",
-        "企业 AI 支出的长期趋势"
+        "公众抵制情绪是否会影响 IPO 的最终定价和需求，尚不确定。",
+        "Anthropic 是否会调整数据中心选址策略以缓解抵制，未知。",
+        "其他 AI 公司（如 OpenAI）是否也会面临类似风险，可能。",
+        "监管层面是否会出台更严格的数据中心建设规定，待观察。"
       ],
-      "implication": "作为 AI 产品开发者，你应关注模型选择的灵活性。不要绑定单一供应商，利用 Router 等工具或开源模型来保持可迁移性。同时，OpenAI 的开源动作和 Anthropic 的回应，将影响你未来构建 Agent 的技术栈选择。"
+      "implication": "如果你关注 AI 行业的长期发展，公众抵制是一个不可忽视的风险。对于你的 Agent 项目，这提醒你考虑 AI 的社会接受度，比如在设计中加入隐私保护和透明度。同时，Anthropic 的 IPO 可能成为 AI 行业估值的重要参考，你可以关注其定价和上市后的表现。",
+      "is_diverse": false
     },
     {
       "rank": 4,
       "domain": "股票",
-      "id": "wscn:3779969",
-      "url": "https://wallstreetcn.com/articles/3779969",
-      "source": "华尔街见闻",
+      "id": "wscn:3780035",
+      "url": "https://wallstreetcn.com/articles/3780035",
+      "source": "华尔街见闻 API",
+      "platform": "rss",
+      "points": null,
       "stars": 4,
-      "title": "高盛：AI 投资逻辑重构，算力卖家护城河脆弱",
-      "lead": "高盛交易台指出，AI 投资焦虑已从需求真实性转向增长能否匹配高估值。推理成本急剧压缩，算力卖家与上游供应链护城河日益脆弱，板块估值承压。英伟达财报预计仅为中性催化剂。",
+      "title": "博通拟融资 700-800 亿美元，为 AI 芯片采购输血",
+      "lead": "据媒体报道，博通正就 700 亿至 800 亿美元的债务融资展开谈判，资金将用于支持 Anthropic 等 AI 公司的芯片采购需求。融资拟采用分层结构，优先档约 450 亿美元，次级档约 350 亿美元。这一巨额融资凸显 AI 算力需求的资金密集程度，也反映出芯片供应商在 AI 产业链中的金融角色。",
       "confirmed": [
-        "高盛认为 AI 投资焦点转向增长与估值匹配",
-        "推理成本急剧压缩",
-        "算力卖家与上游供应链护城河脆弱",
-        "英伟达财报预计为中性催化剂"
+        "博通正谈判 700 亿至 800 亿美元的债务融资。",
+        "资金将用于支持 Anthropic 等 AI 公司的芯片采购。",
+        "融资结构分层，优先档约 450 亿美元，次级档约 350 亿美元。",
+        "该融资规模在科技行业债务融资中属于顶级。"
       ],
       "judgment": [
-        "AI 板块是否会出现进一步回调",
-        "英伟达财报的实际影响",
-        "对冲基金撤离 AI 是否持续"
+        "融资能否成功完成，取决于市场对 AI 前景的信心。",
+        "如此高的债务水平是否会增加博通的财务风险，需评估。",
+        "Anthropic 等公司是否真的需要如此大规模芯片采购，未知。",
+        "这一融资模式是否会被其他芯片厂商效仿，可能。"
       ],
-      "implication": "虽然你不直接炒股，但 AI 板块的波动会影响你所在行业的融资环境和就业机会。理解资本市场的逻辑有助于你判断技术趋势的可持续性。建议关注推理成本下降对 Agent 应用普及的推动作用，这可能是你的机会。"
+      "implication": "博通的大规模融资表明 AI 芯片需求依然强劲，但同时也增加了金融杠杆。对于你，这可能意味着 AI 基础设施成本将继续高企，你的 Agent 项目在算力选择上要更注重性价比。可以关注博通融资的进展，如果失败，可能引发市场对 AI 资本开支的重新评估。",
+      "is_diverse": false
     },
     {
       "rank": 5,
-      "domain": "金融",
-      "id": "wscn:3779959",
-      "url": "https://wallstreetcn.com/articles/3779959",
-      "source": "华尔街见闻",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/china-approves-first-nvidia-h200-deliveries-to-bytedance-and-tencent-under-case-by-case-import-licenses",
+      "url": "https://www.tomshardware.com/pc-components/gpus/china-approves-first-nvidia-h200-deliveries-to-bytedance-and-tencent-under-case-by-case-import-licenses",
+      "source": "Luke James",
+      "platform": "rss",
+      "points": null,
       "stars": 4,
-      "title": "美债回购信号意义大于实际，野村警告美联储或被迫 YCC 或 QE",
-      "lead": "美国财政部仓促祭出债务回购，野村证券策略师 McElligott 称之为“子弹穿孔上的创可贴”，真正的信号是当局已承认长端利率失控触及红线。企业债发行激增、伊朗局势推高能源价格、全球财政扩张三重压力叠加，YCC 与 QE 的扳机正在预热。",
+      "title": "H200 终于获批入华，但国产芯片已抢占市场",
+      "lead": "中国已批准英伟达 H200 向字节跳动和腾讯交付，采用逐案进口许可。但 Tom's Hardware 评论指出，这一批准来得太晚，国产芯片已经在中国市场占据主导。每家公司的美国许可额度据信高达 10 万块，但大部分必须留在境外。这标志着美国芯片出口管制与中国半导体自主化之间的博弈进入新阶段。",
       "confirmed": [
-        "美国财政部扩大长债回购规模",
-        "野村证券认为回购信号意义大于实际效果",
-        "企业债发行激增 59%",
-        "伊朗局势推高能源价格"
+        "中国批准英伟达 H200 向字节跳动和腾讯交付。",
+        "采用逐案进口许可方式。",
+        "每家公司的许可额度可能高达 10 万块，但大部分需留在境外。",
+        "国产芯片已在中国市场占据主导地位。"
       ],
       "judgment": [
-        "美联储是否会实施 YCC 或 QE",
-        "长端利率失控对全球资产价格的影响",
-        "市场是否会进一步恶化"
+        "H200 的实际交付数量和时间表尚不明确。",
+        "国产芯片是否真的能完全替代 H200 的性能，存疑。",
+        "这一批准是否意味着美国出口管制的放松，不确定。",
+        "对全球 AI 芯片市场格局的影响，需观察。"
       ],
-      "implication": "宏观利率环境的变化会影响科技股估值和融资成本，间接影响你的职业选择。作为个人开发者，关注利率趋势有助于你判断大厂招聘和薪资走向。同时，这也是理解全球经济的重要一课。"
+      "implication": "对于你，这反映了地缘政治对技术供应链的影响。如果你在开发 Agent 项目，可能需要考虑使用国产芯片或云服务，以规避潜在的供应风险。同时，关注国产芯片的性能进展，它们可能在未来成为可行的替代方案。",
+      "is_diverse": false
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "Meta 将 Pocket 应用带给美国用户，支持 Vibe Coding 和游戏分享",
-      "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
-      "source": "TechCrunch",
-      "one_liner": "Meta 进军 Vibe Coding 领域，值得关注但非核心。"
+      "title": "Everything Claude Code：116K star 的配置项目实战",
+      "url": "http://www.bilibili.com/video/av116319122885806",
+      "source": "极客魔导师",
+      "one_liner": "深度讲解 Claude Code 的斜杠命令、子代理、Hooks 等高级用法，适合想提升 Agent 工作流的你。"
     },
     {
       "domain": "AI",
-      "title": "Ramp 推出 AI 模型路由器 Router",
-      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
-      "source": "TechCrunch",
-      "one_liner": "模型路由成为新热点，与你的 Agent 工具构建相关。"
+      "title": "吴恩达 Vibe Coding 保姆级教程：从环境到工作流闭环",
+      "url": "http://www.bilibili.com/video/av116951003242391",
+      "source": "吴恩达AIAgent",
+      "one_liner": "标准化 AI 软件开发流水线，解决项目混乱、迭代失控等痛点，适合系统学习 vibe coding。"
     },
     {
       "domain": "AI",
-      "title": "Grok 持续向用户发送乱码响应",
-      "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
-      "source": "TechCrunch",
-      "one_liner": "Grok 质量问题，可能影响用户信任。"
+      "title": "OpenClaw 高级用法：Claude Code Hooks 回调省 Token",
+      "url": "http://www.bilibili.com/video/av116046157647899",
+      "source": "AI超元域",
+      "one_liner": "用 Stop Hook 自动回调解决轮询消耗 Token 的问题，效率提升明显，适合 Agent 开发者。"
+    },
+    {
+      "domain": "AI",
+      "title": "Codex 入门：10 分钟速通 Vibe Coding",
+      "url": "http://www.bilibili.com/video/av116992023462138",
+      "source": "学姐潇潇",
+      "one_liner": "针对零基础用户，快速上手 Codex，适合想尝试新工具的你。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "SMIC 创纪录季度营收 30 亿美元，提高晶圆价格",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/smic-is-raising-wafer-prices-into-a-shortage-as-sanctions-wall-off-chinas-ai-demand",
-      "source": "Tom's Hardware",
-      "one_liner": "中国芯片制造在制裁下逆势增长，关注国产替代。"
+      "title": "Nvidia Nemotron 3.5 Lightning 发布",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+      "source": "beklein",
+      "one_liner": "30B 参数 A3B 架构，NVFP4 量化，可能成为边缘部署的新选择。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "三星提高先进代工价格最高 15%",
-      "url": "https://www.tomshardware.com/tech-industry/samsung-raises-advanced-foundry-prices-by-up-to-15-percent-as-ai-demand-fills-its-4nm-lines",
-      "source": "Tom's Hardware",
-      "one_liner": "代工涨价潮，AI 需求推动。"
+      "title": "LG 进入芯片封装领域，推出激光直写光刻机",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/lg-enters-chip-packaging-arena-with-laser-direct-imaging-machine-as-tsmcs-cowos-remains-constrained-maskless-machine-is-designed-to-pattern-fine-interconnects-trading-resolution-for-higher-throughput",
+      "source": "Anton Shilov",
+      "one_liner": "无掩模激光直写设备，旨在提高封装产能，缓解 CoWoS 瓶颈。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Synopsys 验证 3D 堆叠 PCIe 6.0 PHY",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/synopsys-validates-a-pcie-6-phy-inside-a-face-to-face-3d-stack",
-      "source": "Tom's Hardware",
-      "one_liner": "3D 芯片互连技术进展，对高性能计算有影响。"
+      "title": "Micron 投资 100 亿美元建美国研究实验室",
+      "url": "https://www.tomshardware.com/tech-industry/micron-commits-usd10-billion-to-new-us-based-research-labs-boise-hub-to-target-post-dram-and-nand-technologies-and-packaging",
+      "source": "Anton Shilov",
+      "one_liner": "聚焦后 DRAM/NAND 技术和封装，长期影响存储产业。"
     },
     {
-      "domain": "大厂 AI 动态",
-      "title": "Google Discover 将推出 AI 聊天机器人定制信息流",
-      "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
-      "source": "The Verge",
-      "one_liner": "Google 用 AI 个性化内容，影响内容分发。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "ChatGPT 可通过 Apple Messages 插件代发短信",
-      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
-      "source": "TechCrunch",
-      "one_liner": "AI 助手更深入日常，但隐私问题值得关注。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google 给出版商新工具对抗 AI 流量损失",
-      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
-      "source": "TechCrunch",
-      "one_liner": "AI 搜索对内容生态的影响，出版商自救。"
+      "domain": "AI 算力 / 半导体",
+      "title": "Supermicro 因中国芯片走私调查解雇多名员工",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/supermicro-fires-several-employees-following-investigation-into-usd2-5-billion-china-ai-chip-smuggling-claims-that-senior-management-had-no-knowledge-of-illicit-transactions",
+      "source": "Jowi Morales",
+      "one_liner": "25 亿美元走私案，高管免责，但公司声誉受损。"
     },
     {
       "domain": "股票",
-      "title": "三星计划向股东返还至多 790 亿美元",
-      "url": "https://wallstreetcn.com/articles/3779955",
-      "source": "华尔街见闻",
-      "one_liner": "三星巨额股东回报，存储芯片盈利强劲。"
+      "title": "黄金冲破 200 日均线，高盛多头增至六成",
+      "url": "https://wallstreetcn.com/articles/3780047",
+      "source": "华尔街见闻 API",
+      "one_liner": "金价重回 4600 美元，看涨期权需求激增，做市商对冲或放大涨幅。"
     },
     {
       "domain": "股票",
-      "title": "美光 CEO：AI 重写存储周期逻辑，客户需求超出供给 50%",
-      "url": "https://wallstreetcn.com/articles/3779960",
-      "source": "华尔街见闻",
-      "one_liner": "存储芯片结构性增长，供需紧张。"
+      "title": "Citadel 已卖掉 80% 的 Situational Awareness 股票组合",
+      "url": "https://wallstreetcn.com/articles/3780034",
+      "source": "华尔街见闻 API",
+      "one_liner": "AI 和半导体仓位大幅削减，旗舰基金 7 月回报 5.94%。"
     },
     {
       "domain": "股票",
-      "title": "对冲基金不再 All in AI，资金转向医疗、金融和能源",
-      "url": "https://wallstreetcn.com/articles/3779963",
-      "source": "华尔街见闻",
-      "one_liner": "AI 板块资金外流，市场风格切换。"
+      "title": "OpenAI 计划 2027 年上市，CFO 向员工确认",
+      "url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html",
+      "source": "thm",
+      "one_liner": "IPO 时间表明确，但人才流失和风险团队解散是隐患。"
     },
     {
-      "domain": "金融",
-      "title": "30 年期美债收益率升至 5.31%，创 19 年新高",
+      "domain": "股票",
+      "title": "30 年期美债收益率突破 5.31%，创 19 年新高",
       "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
-      "source": "CNBC",
-      "one_liner": "长端利率飙升，全球资产承压。"
+      "source": "root-parent",
+      "one_liner": "长期利率飙升，对成长股估值构成压力。"
     },
     {
-      "domain": "金融",
-      "title": "Sticky wage norms and the real wage cost of unexpected inflation",
-      "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
-      "source": "BFI",
-      "one_liner": "学术研究，通胀与工资粘性，对宏观有参考。"
+      "domain": "股票",
+      "title": "英伟达拟 60 亿美元获 Poolside 模型授权，另投 10 亿美元",
+      "url": "https://wallstreetcn.com/articles/3780040",
+      "source": "华尔街见闻 API",
+      "one_liner": "英伟达加码 AI 模型领域，吸纳百余名员工。"
+    },
+    {
+      "domain": "股票",
+      "title": "苹果裁撤 Siri 与 Vision Pro 逾 200 个岗位",
+      "url": "https://wallstreetcn.com/articles/3780044",
+      "source": "华尔街见闻 API",
+      "one_liner": "集中资源押注 AI，Vision Pro 游戏团队近乎解散。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-21T05:36:36+0000"
+    "scored_at": "2026-08-22T04:24:17+0000"
   }
 }
