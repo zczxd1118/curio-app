@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-21T03:55:38.643953+00:00",
+  "fetched_at": "2026-08-22T03:48:25.599286+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo/",
+      "title": "China’s NAND Specialist YMTC Moves Closer to IPO",
+      "url": "https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-21T13:51:09+00:00",
+      "summary": "YMTC must raise capital to explore demand for AI-driven memory while balancing domestic and overseas markets. The post China’s NAND Specialist YMTC Moves Closer to IPO appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/the-human-brain-versus-ai-similar-results-very-different-machines/",
+      "title": "The Human Brain Versus AI: Similar Results, Very Different Machines",
+      "url": "https://www.eetimes.com/the-human-brain-versus-ai-similar-results-very-different-machines/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Lauro Rizzatti",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-21T07:43:42+00:00",
+      "summary": "Contrast 20 watts with a megawatt: The brain and the LLM aren’t in the same race. The post The Human Brain Versus AI: Similar Results, Very Different Machines appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/synopsys-updates-cxl-ip-portfolio-for-ai-era-infrastructure/",
       "title": "Synopsys Updates CXL IP Portfolio for AI-Era Infrastructure",
       "url": "https://www.eetimes.com/synopsys-updates-cxl-ip-portfolio-for-ai-era-infrastructure/",
@@ -325,40 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/tiny-esim-global-reach-simplifying-cellular-connectivity-for-consumer-electronics/",
-      "title": "Tiny eSIM, Global Reach: Simplifying Cellular Connectivity for Consumer Electronics",
-      "url": "https://www.eetimes.com/tiny-esim-global-reach-simplifying-cellular-connectivity-for-consumer-electronics/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Infineon Technologies and Arrow Electronics",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-17T14:29:25+00:00",
-      "summary": "Join this webinar and discover the OPTIGA™ Connect Consumer OC1230, the world's smallest, ultra-low-power eSIM solution built on Infineon's TEGRION™ 28 nm tech. The post Tiny eSIM, Global Reach: Simplifying Cellular Connectivity for Consumer Electronics appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/automotive-functional-safety-why-asil-compliance-starts-with-electromagnetic-design/",
-      "title": "Automotive Functional Safety: Why ASIL Compliance Starts with Electromagnetic Design",
-      "url": "https://www.eetimes.com/automotive-functional-safety-why-asil-compliance-starts-with-electromagnetic-design/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Cadence Design Systems",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-17T14:00:00+00:00",
-      "summary": "Automotive electronic systems face relentless pressure to meet electromagnetic compatibility (EMC), signal integrity (SI), and power integrity (PI) targets while satisfying strict ASIL safety requirements. Too often, engineers discover problems late: EMC failures surface during vehicle integration, signal ringing degrades high-speed links, via stub resonance reflects energy above 3 Gbps, power delivery networks collapse under [&#8230;] The post Automotive Functional Safety: Why ASIL Compliance S...",
-      "lang": "en"
-    },
-    {
       "id": "hn:49325115",
       "title": "TSMC Uses Old Fabs to Make New Chips [video]",
       "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
@@ -427,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49323686"
       },
       "duration_sec": null,
-      "views": 251,
+      "views": 252,
       "comments": 152,
       "published_at": "2026-08-16T21:07:10+00:00",
       "summary": "",
@@ -449,6 +449,25 @@
       "views": 122,
       "comments": 32,
       "published_at": "2026-08-11T13:26:02+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49387755",
+      "title": "Nvidia AVO scores 100% on the ARC-AGI-3 interactive reasoning benchmark",
+      "url": "https://twitter.com/NVIDIAAI/status/2090786258981466231",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49387755",
+        "name": "dsrtslnd23",
+        "hn_url": "https://news.ycombinator.com/item?id=49387755"
+      },
+      "duration_sec": null,
+      "views": 67,
+      "comments": 37,
+      "published_at": "2026-08-21T13:26:03+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -487,25 +506,6 @@
       "views": 37,
       "comments": 20,
       "published_at": "2026-08-13T07:28:54+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49342314",
-      "title": "Nvidia discloses $21B stake in SpaceX",
-      "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49342314",
-        "name": "joozio",
-        "hn_url": "https://news.ycombinator.com/item?id=49342314"
-      },
-      "duration_sec": null,
-      "views": 31,
-      "comments": 15,
-      "published_at": "2026-08-18T07:02:04+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
