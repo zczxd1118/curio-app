@@ -2,116 +2,120 @@
 
 > 你的私人主编 · 今日跨域精选 5 条头条 + 14 条备选
 
-_今日核心信号：Nvidia 在 ARC-AGI-3 上 100% 得分，标志 Agent 能力从模型转向 harness 工程；同时 Nvidia 缩减 OpenAI 基础设施融资担保，AI 资本开支出现裂缝。金融端，Anthropic IPO 面临公众抵制风险，博通 700 亿美元债务融资为 AI 芯片买单。半导体端，H200 终于入华但国产芯片已抢占市场。_
+_今日信号：Nvidia 在 ARC-AGI-3 上 100% 通过，但真正的英雄是 harness 而非模型本身，这暗示 Agent 工程化价值凸显；同时 Nvidia 大幅缩减对 OpenAI 基础设施融资担保，AI 资本开支叙事生变。苹果裁撤 Siri 与 Vision Pro 团队，转向 AI 聚焦。金融端，30 年期美债收益率创 19 年新高，市场对财政可持续性担忧加剧。_
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 1. Nvidia AVO 在 ARC-AGI-3 上拿下 100%，Agent 架构进入新阶段
+### 1. Nvidia AVO 在 ARC-AGI-3 上拿下 100%，但真正的功臣是 harness 而非模型
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _rochansinha_
 
-Nvidia 官方博客宣布，其 AVO 架构在 ARC-AGI-3 交互式推理基准上取得 100% 得分，这是首个在该基准上满分的主流厂商。TechCrunch 评论指出，关键不在于模型本身，而在于 harness——即外围的规划、工具调用和记忆机制。这意味着 Agent 能力的竞争焦点正在从模型参数转向系统工程。
+Nvidia 的 AVO 架构在 ARC-AGI-3 交互式推理基准上取得满分，这是该基准首次被攻克。TechCrunch 评论指出，关键突破在于 harness 设计——通过多轮交互和工具调用，而非模型本身的能力。这印证了 Agent 工程化的价值，对做 AI 产品的你是个重要信号。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Nvidia AVO 在 ARC-AGI-3 基准上达到 100% 准确率，该基准测试长期自主 Agent 的交互式推理能力。 | 100% 得分是否代表真正的通用智能，还是仅在该基准上过拟合，尚需更多测试验证。 |
-| Nvidia 官方博客详细描述了 AVO 的架构，强调其通用目的和长时程自主能力。 | harness 工程的具体细节（如规划算法、工具调用机制）未完全公开，可复现性存疑。 |
-| TechCrunch 发布评论文章，指出 harness（外围系统）而非模型本身是这次突破的关键。 | 该架构能否在真实世界复杂任务中同样表现出色，尚未有充分证据。 |
-| ARC-AGI-3 是比前代更难、更接近人类常识推理的基准，满分具有里程碑意义。 | Nvidia 是否会将 AVO 商业化或开源，目前没有明确信息。 |
+| Nvidia AVO 在 ARC-AGI-3 基准上达到 100% 准确率，该基准要求模型通过交互式试错解决抽象推理任务。 | AVO 的满分是否意味着 AGI 接近？ARC-AGI-3 仍被视为特定任务集，泛化性未知。 |
+| Nvidia 官方博客称 AVO 是面向长时程自主 Agent 的通用架构，结合了推理、规划与工具使用。 | harness 的贡献占比多大？Nvidia 未披露消融实验，模型与工程组件的相对重要性尚不明确。 |
+| TechCrunch 分析认为，harness（如环境交互、反馈循环）是取得满分的关键，模型权重并非唯一决定因素。 | 该架构是否已产品化？Nvidia 尚未公布 AVO 的商用计划或 API 访问方式。 |
+| ARC-AGI-3 由 François Chollet 团队设计，旨在评估通用智能，此前最佳成绩约为 50%。 |  |
 
 **📖 主编点评**
 
-你应该关注 harness 工程，而不是只盯着模型参数。对于你的 Agent 项目，这意味着要花更多精力在工具调用、记忆管理和任务规划上。可以研究 Nvidia 的博客和 TechCrunch 的分析，看看能否借鉴其设计思路。同时，ARC-AGI-3 可能成为新的评测标准，你的项目如果能在类似基准上表现良好，会是简历上的亮点。
+你应该关注 harness 设计，而不仅是模型选型。你的 content-curator Agent 项目可以借鉴 AVO 的思路：通过多轮反馈、工具调用和状态追踪来提升任务完成率。建议在项目中加入一个简单的交互循环，让 Agent 能根据中间结果调整策略，这可能是简历上的亮点。
 
 📺 [打开原文](https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/)
 
 ---
 
-### 2. Nvidia 缩减 OpenAI 数据中心融资担保，AI 资本开支现裂缝
+### 2. Nvidia 大幅缩减对 OpenAI 基础设施融资担保，AI 资本开支叙事生变
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _root-parent_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _root-parent_
 
-据路透社报道，Nvidia 大幅减少了对 OpenAI 数据中心基础设施融资的担保额度。此前市场传闻 Nvidia 曾考虑为 OpenAI 提供高达 2500 亿美元的担保，但现在这一数字被显著下调。这一举动可能反映 Nvidia 对 AI 需求持续性的谨慎态度，也可能与近期 AI 股票回调有关。
+据路透社报道，Nvidia 已大幅减少对 OpenAI 数据中心融资的担保额度，此前传闻高达 2500 亿美元。这一举动可能反映 Nvidia 对 AI 算力需求持续性的谨慎态度，或是对 OpenAI 财务稳定性的担忧。结合 Nvidia 近期对 Poolside 的 60 亿美元模型授权，其战略正在从单纯卖芯片转向更灵活的资本运作。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Nvidia 已大幅减少其对 OpenAI 基础设施融资的担保金额。 | 担保缩减的具体原因未明确，可能是风险控制，也可能是 OpenAI 需求变化。 |
-| 该消息源自路透社引用《华尔街日报》的报道。 | 这一变化对 OpenAI 的算力采购计划影响程度尚不清楚。 |
-| 此前 Nvidia 曾考虑为 OpenAI 提供高达 2500 亿美元的担保。 | 是否会影响 Nvidia 与 OpenAI 的长期合作关系，有待观察。 |
-| Nvidia 的决策可能影响 OpenAI 的数据中心扩张计划。 | 其他 AI 公司的基础设施融资是否也会受到类似影响，未知。 |
+| Nvidia 已将其对 OpenAI 数据中心融资的担保规模从 2500 亿美元大幅缩减，具体数字未披露。 | 缩减担保是否意味着 Nvidia 对 OpenAI 的长期合作信心下降？可能只是风险控制。 |
+| 该担保原计划用于支持 OpenAI 的算力采购，涉及多家银行和金融机构。 | OpenAI 是否会转向其他融资渠道？其 IPO 计划（2027 年）可能受影响。 |
+| Nvidia 同时宣布以 60 亿美元获得 Poolside AI 模型授权，并追加 10 亿美元投资。 | AI 基础设施投资是否见顶？其他大厂如微软、谷歌的资本开支仍在增长。 |
+| Nvidia 在 2026 年 Q2 披露持有 SpaceX 210 亿美元股份，显示其投资组合多元化。 |  |
 
 **📖 主编点评**
 
-对于你关注的 AI 基础设施投资，这是一个信号：Nvidia 开始对 AI 泡沫保持警惕。你应该关注后续发展，如果担保继续缩减，可能引发市场对 AI 资本开支可持续性的担忧。在你的 Agent 项目中，可以考虑使用更经济的模型或本地部署，以降低对昂贵云算力的依赖。
+这对你意味着 AI 算力泡沫的担忧在升温。如果你在考虑相关投资或职业方向，应关注 Nvidia 的资本运作信号。对于你的 Agent 项目，不必过度依赖云端大模型，可以探索本地推理或更高效的模型，以降低对算力巨头的依赖。
 
 📺 [打开原文](https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/)
 
 ---
 
-### 5. H200 终于获批入华，但国产芯片已抢占市场
+## 🌟 大厂 AI 动态
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Luke James_
+### 3. 苹果裁撤 Siri 与 Vision Pro 逾 200 岗位，集中资源押注 AI
 
-中国已批准英伟达 H200 向字节跳动和腾讯交付，采用逐案进口许可。但 Tom's Hardware 评论指出，这一批准来得太晚，国产芯片已经在中国市场占据主导。每家公司的美国许可额度据信高达 10 万块，但大部分必须留在境外。这标志着美国芯片出口管制与中国半导体自主化之间的博弈进入新阶段。
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
+
+苹果公司裁员涉及约 100 个 Vision Pro 相关岗位和约 100 个 Siri 与软件工程岗位。Vision Pro 游戏团队近乎解散，沉浸式视频部门缩减，因成本高昂且用户规模有限。Siri 裁员源于技术架构全面切换，新版 Siri 将基于全新底层重建。这是苹果在 AI 领域的一次战略收缩，聚焦核心。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 中国批准英伟达 H200 向字节跳动和腾讯交付。 | H200 的实际交付数量和时间表尚不明确。 |
-| 采用逐案进口许可方式。 | 国产芯片是否真的能完全替代 H200 的性能，存疑。 |
-| 每家公司的许可额度可能高达 10 万块，但大部分需留在境外。 | 这一批准是否意味着美国出口管制的放松，不确定。 |
-| 国产芯片已在中国市场占据主导地位。 | 对全球 AI 芯片市场格局的影响，需观察。 |
+| 苹果裁减约 100 个 Vision Pro 岗位，游戏团队近乎解散，沉浸式视频部门缩减。 | 新版 Siri 何时发布？可能随 iOS 27 在 2027 年推出，但具体时间未定。 |
+| Siri 团队裁员约 100 人，因技术架构切换至全新底层。 | Vision Pro 产品线是否会被砍？苹果未明确，但资源转移迹象明显。 |
+| 苹果表示部分角色受影响，但未透露具体数字，强调聚焦 AI 新方向。 | 裁员是否影响苹果 AI 研发进度？可能加速，因为团队更精简。 |
+| 此前有报道称苹果在 AI 领域落后，此次调整被视为追赶举措。 |  |
 
 **📖 主编点评**
 
-对于你，这反映了地缘政治对技术供应链的影响。如果你在开发 Agent 项目，可能需要考虑使用国产芯片或云服务，以规避潜在的供应风险。同时，关注国产芯片的性能进展，它们可能在未来成为可行的替代方案。
+苹果的调整说明 AI 竞争已进入深水区，连巨头都在砍掉非核心项目。对你的启示是：在个人项目中，聚焦垂直场景比广撒网更有效。你的 content-curator 项目应专注于内容聚合和 Agent 工作流，而不是试图覆盖所有功能。
 
-📺 [打开原文](https://www.tomshardware.com/pc-components/gpus/china-approves-first-nvidia-h200-deliveries-to-bytedance-and-tencent-under-case-by-case-import-licenses)
+📺 [打开原文](https://wallstreetcn.com/articles/3780044)
 
 ---
 
-## 🌟 股票
+## 🌟 金融
 
-### 3. Anthropic 招股书或列入 AI 抵制风险，IPO 面临民意逆风
+### 4. 30 年期美债收益率突破 5.31%，创 19 年新高，市场担忧财政可持续性
 
-**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
+**[金融]** · ⭐⭐⭐⭐ · _root-parent_
 
-据媒体报道，Anthropic 正在筹备 IPO，估值可能高达 2 万亿美元。但盖洛普调查显示，70% 的美国人反对在当地建设 AI 数据中心，两党政客也在回应选民情绪，宾州已落地数据中心限制法案。Anthropic 可能将公众抵制列为招股书核心风险因素，这将对 IPO 定价和未来增长构成压力。
+美国 30 年期国债收益率升至 5.31%，为 2007 年以来最高水平。这一飙升反映了市场对长期财政赤字和通胀的担忧，尽管美联储可能降息。贝森特宣布扩大长债回购，但未能平息债市，反而点燃了“美元贬值交易”。这对全球资产定价有深远影响。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic 正在筹备 IPO，估值或达 2 万亿美元。 | 公众抵制情绪是否会影响 IPO 的最终定价和需求，尚不确定。 |
-| 盖洛普调查显示 70% 的美国人反对在当地建设 AI 数据中心。 | Anthropic 是否会调整数据中心选址策略以缓解抵制，未知。 |
-| 宾夕法尼亚州已通过数据中心限制法案。 | 其他 AI 公司（如 OpenAI）是否也会面临类似风险，可能。 |
-| 媒体报道 Anthropic 可能将公众抵制列为招股书风险因素。 | 监管层面是否会出台更严格的数据中心建设规定，待观察。 |
+| 30 年期美债收益率达到 5.31%，为 19 年高点。 | 美联储是否会干预债市？特朗普称未指示贝森特干预，但市场预期可能。 |
+| 10 年期收益率也小幅上升，市场对财政赤字担忧加剧。 | 收益率上行是否会导致股市估值压缩？科技股已出现回调。 |
+| 美国财政部宣布扩大长债回购计划，但收益率短暂下挫后重返高位。 | 美元贬值交易能否持续？分析认为货币创造是美联储的权利，持续性存疑。 |
+| 黄金创三个月新高，比特币单周暴涨超 25%，美元承压。 |  |
 
 **📖 主编点评**
 
-如果你关注 AI 行业的长期发展，公众抵制是一个不可忽视的风险。对于你的 Agent 项目，这提醒你考虑 AI 的社会接受度，比如在设计中加入隐私保护和透明度。同时，Anthropic 的 IPO 可能成为 AI 行业估值的重要参考，你可以关注其定价和上市后的表现。
+作为投资者，你需要关注利率上行对成长股估值的压力。AI 概念股可能波动加大。对于你的个人项目，如果涉及海外服务，美元贬值可能影响成本。建议保持现金储备，关注黄金和比特币等避险资产。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3780042)
+📺 [打开原文](https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html)
 
 ---
 
-### 4. 博通拟融资 700-800 亿美元，为 AI 芯片采购输血
+## 🌟 AI
 
-**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
+### 5. Everything Claude Code：116K star 的配置项目，把 Claude Code 用到极致
 
-据媒体报道，博通正就 700 亿至 800 亿美元的债务融资展开谈判，资金将用于支持 Anthropic 等 AI 公司的芯片采购需求。融资拟采用分层结构，优先档约 450 亿美元，次级档约 350 亿美元。这一巨额融资凸显 AI 算力需求的资金密集程度，也反映出芯片供应商在 AI 产业链中的金融角色。
+**[AI]** · ⭐⭐⭐⭐ · _极客魔导师_
+
+这个视频深入拆解了 GitHub 上 116K star 的 Everything Claude Code 项目，涵盖斜杠命令、子代理、Hooks 和学习系统。对于你这种 Claude Code 重度用户，这是提升效率的宝库。视频作者是极客魔导师，内容偏实践，有具体配置和用法。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 博通正谈判 700 亿至 800 亿美元的债务融资。 | 融资能否成功完成，取决于市场对 AI 前景的信心。 |
-| 资金将用于支持 Anthropic 等 AI 公司的芯片采购。 | 如此高的债务水平是否会增加博通的财务风险，需评估。 |
-| 融资结构分层，优先档约 450 亿美元，次级档约 350 亿美元。 | Anthropic 等公司是否真的需要如此大规模芯片采购，未知。 |
-| 该融资规模在科技行业债务融资中属于顶级。 | 这一融资模式是否会被其他芯片厂商效仿，可能。 |
+| Everything Claude Code 在 GitHub 上拥有 116K star，是 Claude Code 配置的集大成者。 | 这些配置是否适用于所有 Claude Code 版本？可能需要适配。 |
+| 项目包含斜杠命令、子代理、Hooks 等高级功能，可大幅提升开发效率。 | 学习曲线较陡，新手可能难以消化。 |
+| 视频作者演示了如何利用这些配置构建个人工作流。 | 是否值得投入时间？对于重度用户，回报率很高。 |
+| 该项目持续更新，社区活跃。 |  |
 
 **📖 主编点评**
 
-博通的大规模融资表明 AI 芯片需求依然强劲，但同时也增加了金融杠杆。对于你，这可能意味着 AI 基础设施成本将继续高企，你的 Agent 项目在算力选择上要更注重性价比。可以关注博通融资的进展，如果失败，可能引发市场对 AI 资本开支的重新评估。
+你应该立即查看这个项目，尤其是 Hooks 和子代理部分，它们能帮你自动化重复任务。你的 content-curator 项目可以借鉴其模块化思路，将不同功能拆分为可复用的子 Agent。建议花一个周末研究并定制自己的配置。
 
-📺 [打开原文](https://wallstreetcn.com/articles/3780035)
+📺 [打开原文](http://www.bilibili.com/video/av116319122885806)
 
 ---
 
@@ -119,40 +123,43 @@ Nvidia 官方博客宣布，其 AVO 架构在 ARC-AGI-3 交互式推理基准上
 
 ### AI
 
-- [Everything Claude Code：116K star 的配置项目实战](http://www.bilibili.com/video/av116319122885806) —— 深度讲解 Claude Code 的斜杠命令、子代理、Hooks 等高级用法，适合想提升 Agent 工作流的你。
-  _极客魔导师_
-- [吴恩达 Vibe Coding 保姆级教程：从环境到工作流闭环](http://www.bilibili.com/video/av116951003242391) —— 标准化 AI 软件开发流水线，解决项目混乱、迭代失控等痛点，适合系统学习 vibe coding。
+- [零基础Vibe Coding教程，vibecoding实战，Claude Code+Codex+Cursor](http://www.bilibili.com/video/av116711944620974) —— 系统性的 Vibe Coding 教程，适合查漏补缺，但内容偏基础，对老手信息量低。
+  _尚硅谷_
+- [MCP实战指南，mcp视频教程，2小时学透mcp](http://www.bilibili.com/video/av114380213586544) —— MCP 实战教程，覆盖 Java/SpringAI 等，但发布时间较早，部分信息可能过时。
+  _尚硅谷_
+- [【吴恩达2026】Vibe Coding保姆级教程，手把手从环境搭建到工作流完整闭环！](http://www.bilibili.com/video/av116951003242391) —— 吴恩达出品，标准化 AI 软件开发流水线，适合学习工程化方法，但偏理论。
   _吴恩达AIAgent_
-- [OpenClaw 高级用法：Claude Code Hooks 回调省 Token](http://www.bilibili.com/video/av116046157647899) —— 用 Stop Hook 自动回调解决轮询消耗 Token 的问题，效率提升明显，适合 Agent 开发者。
-  _AI超元域_
-- [Codex 入门：10 分钟速通 Vibe Coding](http://www.bilibili.com/video/av116992023462138) —— 针对零基础用户，快速上手 Codex，适合想尝试新工具的你。
-  _学姐潇潇_
+- [一个导演Agent，帮你榨干Seedance2.5](http://www.bilibili.com/video/av117083006376875) —— 结合视频生成模型，展示 Agent 在创意领域的应用，新颖但可能小众。
+  _AI视次方_
 
 ### AI 算力 / 半导体
 
-- [Nvidia Nemotron 3.5 Lightning 发布](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4) —— 30B 参数 A3B 架构，NVFP4 量化，可能成为边缘部署的新选择。
-  _beklein_
-- [LG 进入芯片封装领域，推出激光直写光刻机](https://www.tomshardware.com/tech-industry/semiconductors/lg-enters-chip-packaging-arena-with-laser-direct-imaging-machine-as-tsmcs-cowos-remains-constrained-maskless-machine-is-designed-to-pattern-fine-interconnects-trading-resolution-for-higher-throughput) —— 无掩模激光直写设备，旨在提高封装产能，缓解 CoWoS 瓶颈。
-  _Anton Shilov_
-- [Micron 投资 100 亿美元建美国研究实验室](https://www.tomshardware.com/tech-industry/micron-commits-usd10-billion-to-new-us-based-research-labs-boise-hub-to-target-post-dram-and-nand-technologies-and-packaging) —— 聚焦后 DRAM/NAND 技术和封装，长期影响存储产业。
-  _Anton Shilov_
-- [Supermicro 因中国芯片走私调查解雇多名员工](https://www.tomshardware.com/tech-industry/big-tech/supermicro-fires-several-employees-following-investigation-into-usd2-5-billion-china-ai-chip-smuggling-claims-that-senior-management-had-no-knowledge-of-illicit-transactions) —— 25 亿美元走私案，高管免责，但公司声誉受损。
-  _Jowi Morales_
+- [Nvidia Nemotron 3.5 Lightning and NeMo Switchyard](https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/) —— Nvidia 新模型和工具，值得关注但细节不足，可能影响后续开发。
+  _droidjj_
+- [China’s NAND Specialist YMTC Moves Closer to IPO](https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo/) —— YMTC IPO 进展，反映中国存储产业动态，但对你个人项目关联度低。
+  _Majeed Ahmad_
+- [H200 AI GPUs finally reach China under case-by-case import licenses, but it's already too late for Nvidia](https://www.tomshardware.com/pc-components/gpus/china-approves-first-nvidia-h200-deliveries-to-bytedance-and-tencent-under-case-by-case-import-licenses) —— H200 进入中国，但国产芯片已占市场，对行业格局有影响。
+  _Luke James_
 
-### 股票
+### 大厂 AI 动态
 
-- [黄金冲破 200 日均线，高盛多头增至六成](https://wallstreetcn.com/articles/3780047) —— 金价重回 4600 美元，看涨期权需求激增，做市商对冲或放大涨幅。
-  _华尔街见闻 API_
-- [Citadel 已卖掉 80% 的 Situational Awareness 股票组合](https://wallstreetcn.com/articles/3780034) —— AI 和半导体仓位大幅削减，旗舰基金 7 月回报 5.94%。
-  _华尔街见闻 API_
-- [OpenAI 计划 2027 年上市，CFO 向员工确认](https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html) —— IPO 时间表明确，但人才流失和风险团队解散是隐患。
+- [Gemini 3.7 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/) —— Google 新模型，性能提升，但未上头条因信息有限。
+  _thisisauserid_
+- [Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/) —— DeepMind 领导层变动，影响深远，但已报道过，非新事。
+  _colesantiago_
+- [Codex on AWS bedrock bug causing 10x charges](https://github.com/openai/codex/issues/37674) —— Codex 计费 bug，对开发者有实际影响，但可能已修复。
+  _TheP1000_
+
+### 金融
+
+- [OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells employees](https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html) —— OpenAI IPO 时间表，对 AI 行业影响大，但已有多次报道。
   _thm_
-- [30 年期美债收益率突破 5.31%，创 19 年新高](https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html) —— 长期利率飙升，对成长股估值构成压力。
-  _root-parent_
-- [英伟达拟 60 亿美元获 Poolside 模型授权，另投 10 亿美元](https://wallstreetcn.com/articles/3780040) —— 英伟达加码 AI 模型领域，吸纳百余名员工。
-  _华尔街见闻 API_
-- [苹果裁撤 Siri 与 Vision Pro 逾 200 个岗位](https://wallstreetcn.com/articles/3780044) —— 集中资源押注 AI，Vision Pro 游戏团队近乎解散。
-  _华尔街见闻 API_
+- [Nvidia discloses $21B stake in SpaceX](https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/) —— Nvidia 投资 SpaceX，跨界布局，但非核心 AI 新闻。
+  _joozio_
+- [Sticky wage norms and the real wage cost of unexpected inflation](https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf) —— 学术论文，关于工资粘性与通胀，对宏观理解有帮助，但非直接行动指南。
+  _jplusequalt_
+- [AI Is Upending One of Finance's Cushiest Jobs](https://www.bloomberg.com/news/features/2026-06-05/ai-is-upending-traditional-financial-advisor-jobs) —— AI 对金融顾问岗位的影响，与你的职业规划相关，但内容偏报道。
+  _theriddlr_
 
 ---
 
