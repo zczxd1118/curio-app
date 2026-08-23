@@ -1,75 +1,50 @@
 # Curio 趋势雷达 · 2026-08-23
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 12 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 13 条备选
 
-_今日信号：AI 竞争从模型转向 Harness 与 Agent 执行层，Nvidia 与 DeepSeek 同时验证这一趋势；存储涨价潮正传导至终端与服务器，英伟达高端服务器明年或涨 15%；OpenAI 加速 IPO 进程，但人才流失与安全团队解散埋下隐患。_
+_今日信号：Nvidia 在 ARC-AGI-3 上拿下 100%，证明 harness 比模型本身更关键；同时存储涨价潮波及英伟达服务器，AI 资本开支进入成本传导期。金融端，美债长端利率创 19 年新高，滞胀交易升温。你的 Agent 项目应关注 harness 层创新与成本优化。_
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 1. Nvidia AVO 满分通过 ARC-AGI-3，Harness 成为 AI 竞争新焦点
+### 1. Nvidia AVO 在 ARC-AGI-3 上拿下 100%，harness 才是真正的英雄
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _rochansinha_
 
-Nvidia 的 AVO 智能体在 ARC-AGI-3 交互推理基准上拿下 100% 满分，引发行业讨论：模型能力之外，控制框架（Harness）正成为决定智能体上限的关键。TechCrunch 评论指出，Harness 而非模型本身才是真正的英雄。
+Nvidia 的 AVO 架构在 ARC-AGI-3 交互推理基准上取得满分，这是首个达到该成绩的通用架构。TechCrunch 评论指出，这证明了 harness（工具链）而非模型本身才是当前 AI 突破的关键。对 Agent 开发者而言，这意味着优化工具链可能比换更大模型更有效。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Nvidia AVO 在 ARC-AGI-3 基准上达到 100% 准确率 | ARC-AGI-3 基准是否被过度拟合，尚未有第三方独立验证 |
-| Nvidia 官方博客与开发者博客均发布了相关技术细节 | AVO 的 100% 得分能否推广到真实世界复杂任务，仍属未知 |
-| TechCrunch 发表评论文章，认为 Harness 是 AI 竞争的新焦点 | Harness 与模型能力的相对重要性，行业尚无定论 |
-| Nvidia 同时发布了 Nemotron 3.5 Lightning 模型和 NeMo Switchyard 工具 | Nvidia 在软件生态的投入能否转化为硬件销售优势，有待观察 |
+| Nvidia AVO 在 ARC-AGI-3 上达到 100% 准确率。 | AVO 的满分是否可复现，尚未有第三方独立验证。 |
+| 该成绩由 Nvidia 官方开发者博客宣布。 | ARC-AGI-3 的分数与真实世界任务的相关性有待观察。 |
+| TechCrunch 发表评论文章，称 harness 是真正的英雄。 | Nvidia 是否会将 AVO 商业化，或仅作为研究展示。 |
+| ARC-AGI-3 是交互式推理基准，测试长期自主 Agent 能力。 | harness 与模型贡献度的具体量化仍不清晰。 |
 
 **📖 主编点评**
 
-你在构建 content-curator Agent 时，别只盯着模型选型。Nvidia 和 DeepSeek 都在证明：同样的模型，换一套 Harness（如 DeepSeek Harness）效果可能天差地别。建议你花时间研究 Claude Code 的 Hooks、SubAgent 机制，以及 DeepSeek Harness 的开源实现，把这些控制层能力用到你的项目里，比单纯换模型更能提升 Agent 的可靠性和效率。
+你应该关注 harness 层的创新，比如 DeepSeek Harness 和 Nvidia AVO 这类项目。你的 content-curator 项目可以借鉴其插件化、流程记录和缓存命中设计，提升 Agent 的可靠性和效率。别只盯着模型版本，工具链的优化可能带来更大的边际收益。
 
-📺 [打开原文](https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/)
+📺 [打开原文](https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/)
 
 ---
 
-## 🌟 AI
+### 2. 存储芯片成本飙升，英伟达高端服务器明年涨价 15%
 
-### 2. DeepSeek Harness 开源，编程 Agent 工具链迎来新选择
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
 
-**[AI]** · ⭐⭐⭐⭐ · _Lau博士的云组会_
-
-DeepSeek 开源了其 Harness 工具，Lau 博士在视频中解读了它的独特之处。与此同时，有 Up 主实测对比 DeepSeek Harness 与 Claude Code，发现工具链对最终效果的影响可能比模型本身更大。
+据知情人士透露，英伟达高端服务器（搭载 Vera Rubin 和 Grace Blackwell）将从明年初出货的系统开始涨价 15%，原因是存储芯片成本暴涨。代工厂已向微软、谷歌等大客户发出涨价通知。这标志着 AI 算力成本开始向终端传导。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DeepSeek Harness 已开源，视频解读了其核心设计 | DeepSeek Harness 与 Claude Code 的差距是否如视频所说，需更多验证 |
-| 实测视频使用同一 DeepSeek 模型，对比 Harness 与 Claude Code 的表现 | Harness 的插件生态和社区支持能否快速成长，尚不明朗 |
-| 实测项目包括 FPS 游戏 Demo、灯塔预警沙盘等 | DeepSeek Harness 对国内用户是否更友好（如 API 接入），需实际测试 |
-| DeepSeek Harness 强调插件化、流程记录和缓存命中 |  |
+| 涨价从明年初出货的系统开始生效。 | 涨价是否会完全转嫁给最终客户，尚不确定。 |
+| 影响范围包括 Vera Rubin 和 Grace Blackwell 芯片的系统。 | 存储成本上涨的持续性有待观察。 |
+| 代工厂已发出涨价通知。 | 对云厂商的资本开支影响程度未知。 |
+| 涨价幅度为 15%。 | 是否会影响 AI 应用定价，需进一步跟踪。 |
 
 **📖 主编点评**
 
-你正在做 Agent 项目，DeepSeek Harness 开源值得你花时间研究。它可能提供比 Claude Code 更灵活的插件机制和成本控制（尤其在国内网络环境下）。建议你下载源码，重点看它的插件化流程和缓存设计，说不定能借鉴到你的 content-curator 里，让 Agent 更省 Token、更可控。
-
-📺 [打开原文](http://www.bilibili.com/video/av117089415204498)
-
----
-
-## 🌟 股票
-
-### 3. 存储芯片成本飙升，英伟达高端服务器明年或涨价 15%
-
-**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻_
-
-据知情人士透露，因存储芯片成本上涨，英伟达高端服务器（搭载 Vera Rubin 和 Grace Blackwell）将从明年初开始涨价约 15%，代工厂已收到通知。这将影响微软、谷歌等大厂的 AI 基础设施采购成本。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| 涨价将从明年初出货的系统开始生效 | 涨价幅度是否最终落地为 15%，尚待官方确认 |
-| 影响范围包括 Vera Rubin 和 Grace Blackwell 芯片的系统 | 大厂是否会因此调整 AI 资本开支计划，需观察 |
-| 代工厂已发出涨价通知，具体涨幅取决于芯片代际和存储配置 | 存储涨价趋势能持续多久，影响后续服务器价格走势 |
-| 存储芯片成本飙升是主要原因 |  |
-
-**📖 主编点评**
-
-如果你在关注 AI 基础设施成本，这个信号很重要。存储涨价会推高服务器价格，可能影响你未来部署模型的成本。建议你关注存储芯片（如 HBM、NAND）的供需动态，同时考虑在项目中使用更高效的模型量化或缓存策略，降低对存储带宽的依赖。
+如果你在规划个人项目或实习工作，注意 AI 算力成本上升可能影响云服务价格。对于你的 Agent 项目，优化 token 使用和缓存策略会更重要。同时，关注存储相关股票和供应链动态，可能影响你的投资决策。
 
 📺 [打开原文](https://wallstreetcn.com/articles/3780066)
 
@@ -77,44 +52,68 @@ DeepSeek 开源了其 Harness 工具，Lau 博士在视频中解读了它的独�
 
 ## 🌟 大厂 AI 动态
 
-### 4. Codex on AWS Bedrock 计费 bug 导致 10 倍费用，开发者需警惕
+### 3. Gemini 3.7 Flash 发布，Google 继续推进低成本高吞吐推理
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _GitHub_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _thisisauserid_
 
-OpenAI Codex 在 AWS Bedrock 上出现计费 bug，导致用户被收取高达 10 倍的费用。GitHub issue 已引发广泛关注，提醒开发者在使用云服务集成 AI 工具时需仔细核对账单。
+Google 发布 Gemini 3.7 Flash，主打低延迟和高吞吐，适合大规模实时应用。这是 Google 在模型效率竞赛中的最新动作，直接对标 OpenAI 的 GPT-5 系列。对于开发者，这意味着更便宜的 API 调用和更快的响应。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| GitHub issue 报告了 Codex on AWS Bedrock 的计费异常 | bug 的具体原因和修复时间尚不明确 |
-| 用户被收取的费用高达正常值的 10 倍 | 是否影响所有 Bedrock 用户，还是特定配置触发，需进一步确认 |
-| 该问题已获得 148 分关注，影响范围可能较大 | OpenAI 是否会主动退款，有待观察 |
+| Gemini 3.7 Flash 已正式发布。 | 实际性能与价格尚未有第三方评测。 |
+| 官方博客介绍了其特性。 | 与 GPT-5 的对比优势不明确。 |
+| HN 上获得 968 分，关注度高。 | 是否支持多模态，待确认。 |
+| 定位为低成本、高吞吐模型。 | API 可用性及定价细节未公布。 |
 
 **📖 主编点评**
 
-你在使用 Codex 或类似云服务时，务必开启费用警报，并定期检查账单。这个 bug 提醒我们，AI 工具链的计费系统可能不透明，尤其是通过第三方平台（如 AWS）使用时。建议你记录每次调用的 Token 数和费用，建立自己的成本监控机制。
+你应该关注 Gemini 3.7 Flash 的 API 定价和性能，它可能成为你个人项目的高性价比选择。特别是对于需要大量调用的场景，低成本模型能显著降低实验成本。建议在发布后尽快测试其与你的工作流的兼容性。
 
-📺 [打开原文](https://github.com/openai/codex/issues/37674)
+📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/)
+
+---
+
+## 🌟 股票
+
+### 4. 高盛：AI 交易“躺赢”时代结束，存储和数据中心最具战术吸引力
+
+**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
+
+高盛报告指出，AI 交易的超额收益仅存于股价与盈利偏离时的精准低吸，存储和数据中心板块最具吸引力。市场正从单一 AI 叙事转向多点开花，动量因子转向软件、欧日银行、黄金矿商等。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 高盛认为 AI 交易躺赢时代结束。 | 高盛的观点是否准确，需市场验证。 |
+| 存储和数据中心最具战术吸引力。 | 存储板块的上涨持续性不确定。 |
+| 动量因子转向软件、欧日银行、黄金矿商。 | 欧日银行的结构性机遇是否成立。 |
+| 法国政治风险溢价被低估。 | 黄金矿商估值修复空间大小。 |
+
+**📖 主编点评**
+
+如果你关注投资，高盛的建议是关注存储和数据中心，但注意风险。对于你的个人项目，存储成本上升可能影响你的云支出，可以考虑优化存储策略。同时，多元化投资组合比单一押注 AI 更稳健。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3780070)
 
 ---
 
 ## 🌟 金融
 
-### 5. 芝加哥大学研究：工资粘性使意外通胀对实际工资影响复杂化
+### 5. 芝加哥大学研究：工资粘性使意外通胀对实际工资影响显著
 
-**[金融]** · ⭐⭐⭐ · _Hacker News_
+**[金融]** · ⭐⭐⭐ · _jplusequalt_
 
-芝加哥大学 BFI 发布工作论文，研究工资粘性如何影响意外通胀对实际工资的冲击。论文指出，在工资调整缓慢的情况下，意外通胀可能导致实际工资下降，但长期影响取决于通胀预期。
+芝加哥大学 BFI 发布工作论文，研究工资粘性如何影响意外通胀对实际工资的冲击。论文指出，当通胀意外上升时，名义工资调整缓慢，导致实际工资下降，这对低收入群体影响更大。该研究为理解当前通胀环境下的劳动力市场提供了新视角。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 论文由芝加哥大学 BFI 发布 | 研究结论是否适用于当前高通胀环境，需更多实证 |
-| 研究聚焦于工资粘性与意外通胀的关系 | 政策制定者是否会参考该研究调整货币政策，尚不确定 |
-| 论文提出实际工资成本受通胀预期影响 | 工资粘性的测量方法可能存在争议 |
-| 该研究在 Hacker News 上获得 391 分关注 |  |
+| 论文由芝加哥大学 BFI 发布。 | 研究结论是否适用于当前经济环境。 |
+| 研究工资粘性与意外通胀的关系。 | 政策建议未明确。 |
+| 发现实际工资成本显著。 | 样本范围和数据来源待考察。 |
+| HN 上获得 391 分。 | 对个人工资谈判的指导意义有限。 |
 
 **📖 主编点评**
 
-虽然这篇论文偏学术，但对你理解宏观环境有帮助。当前通胀和工资数据波动大，如果你在关注经济走势或投资，了解工资粘性可以帮你判断通胀对消费和企业利润的传导。不过，作为工程师，你可以跳过，除非你对宏观经济特别感兴趣。
+作为即将进入职场的你，理解工资粘性有助于在通胀环境下谈判薪资。但这条更偏学术，对你的日常项目帮助不大。可以快速浏览，了解宏观经济背景即可。
 
 📺 [打开原文](https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf)
 
@@ -124,42 +123,44 @@ OpenAI Codex 在 AWS Bedrock 上出现计费 bug，导致用户被收取高达 1
 
 ### AI
 
-- [【吴恩达2026】Vibe Coding保姆级教程，手把手从环境搭建到工作流完整闭环！](http://www.bilibili.com/video/av116951003242391) —— 吴恩达亲自讲解 Vibe Coding 工作流，适合系统学习，但内容偏基础，与你的实战经验可能重叠。
+- [DeepSeek Harness 开源，Lau博士解读：与 Claude Code 对比实测](http://www.bilibili.com/video/av117089415204498) —— DeepSeek 官方 harness 开源，插件化设计值得学习，但视频偏解读，深度有限。
+  _Lau博士的云组会_
+- [【吴恩达2026】Vibe Coding保姆级教程，从环境搭建到工作流完整闭环](http://www.bilibili.com/video/av116951003242391) —— 吴恩达亲自讲解标准化 AI 软件开发流水线，对构建个人项目工作流有参考价值。
   _吴恩达AIAgent_
-- [从零编写MCP并发布上线，超简单！手把手教程](http://www.bilibili.com/video/av114630814862349) —— MCP 实战教程，教你从零开发并发布 MCP 服务，对你的 Agent 项目有直接参考价值。
-  _技术爬爬虾_
-- [【入站必看】B站史上最全Codex零基础教程！90分钟入门到进阶！](http://www.bilibili.com/video/av117131979134458) —— Codex 深度教程，包含 22 个案例，适合想深入掌握 Codex 的开发者，但时长较长。
+- [【入站必看】B站史上最全Codex零基础教程！90分钟入门到进阶！](http://www.bilibili.com/video/av117131979134458) —— Codex 详细教程，含 22 个案例，适合想深入 Codex 的开发者，但时长较长。
   _GenJi是真想教会你_
+- [别再二选一：Claude Code + Codex 联用才是最强姿势](http://www.bilibili.com/video/av116537746791000) —— 提出双工具联用思路，有实际案例，但观点较主观。
+  _星小脉_
 
 ### AI 算力 / 半导体
 
-- [Micron commits $10 billion to new US-based Research Labs](https://www.tomshardware.com/tech-industry/micron-commits-usd10-billion-to-new-us-based-research-labs-boise-hub-to-target-post-dram-and-nand-technologies-and-packaging) —— 美光投 100 亿美元建研发实验室，瞄准下一代存储技术，对存储行业影响深远。
-  _Tom's Hardware_
-- [China approves first Nvidia H200 deliveries to ByteDance and Tencent](https://www.tomshardware.com/pc-components/gpus/china-approves-first-nvidia-h200-deliveries-to-bytedance-and-tencent-under-case-by-case-import-licenses) —— H200 终于获批进入中国，但国产芯片已抢占市场，Nvidia 或已错失良机。
-  _Tom's Hardware_
+- [Nvidia Nemotron 3.5 Lightning 和 NeMo Switchyard 发布](https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/) —— Nvidia 新模型和工具链，但信息量有限，可能只是增量更新。
+  _droidjj_
+- [Micron 承诺 100 亿美元建设美国研究实验室，聚焦后 DRAM/NAND 技术](https://www.tomshardware.com/tech-industry/micron-commits-usd10-billion-to-new-us-based-research-labs-boise-hub-to-target-post-dram-and-nand-technologies-and-packaging) —— 存储大厂重金押注未来技术，对半导体行业有长期影响，但短期无直接行动点。
+  _Anton Shilov_
+- [LG 进入芯片封装领域，推出激光直写光刻机](https://www.tomshardware.com/tech-industry/semiconductors/lg-enters-chip-packaging-arena-with-laser-direct-imaging-machine-as-tsmcs-cowos-remains-constrained-maskless-machine-is-designed-to-pattern-fine-interconnects-trading-resolution-for-higher-throughput) —— LG 入局封装设备，可能缓解 CoWoS 产能瓶颈，但技术成熟度未知。
+  _Anton Shilov_
 
 ### 大厂 AI 动态
 
-- [Gemini 3.7 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/) —— Google 发布 Gemini 3.7 Flash，性能提升，值得关注，但信息量不如头条。
-  _Google_
-- [Inherent, founded by DeepMind alumni, says its AI 'teammate' just outperformed Anthropic and OpenAI at replicating research](https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/) —— DeepMind 校友创业，AI 智能体在复现研究上超越 Anthropic 和 OpenAI，值得关注。
-  _TechCrunch_
-- [Apple is laying off staffers working on the Vision Pro and Siri](https://www.theverge.com/tech/983451/apple-layoffs-vision-pro-siri) —— 苹果裁员 Vision Pro 和 Siri 团队，反映 AI 硬件和助手业务调整。
-  _The Verge_
+- [OpenAI 表示加州应加强 AI 安全法案 SB 53](https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/) —— OpenAI 态度反转，支持更严监管，反映行业风向，但对你个人项目影响不大。
+  _Anthony Ha_
+- [Apple 裁员 Siri 和 Vision Pro 团队，数百个岗位受影响](https://www.theverge.com/tech/983451/apple-layoffs-vision-pro-siri) —— 苹果收缩 AI 硬件投入，可能影响生态，但非核心。
+  _Jay Peters_
 
 ### 股票
 
-- [高盛：存储“股价业绩差”最具吸引力，金融和硬资产成为新热点](https://wallstreetcn.com/articles/3780070) —— 高盛认为 AI 交易躺赢时代结束，存储和数据中心最具战术吸引力，适合关注。
-  _华尔街见闻_
-- [OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells employees](https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html) —— OpenAI CFO 透露 2027 年上市，IPO 进程加速，但人才流失是风险。
-  _CNBC_
+- [高盛：Agent 进入执行时代，AI 竞争转向工作流，世界模型崛起](https://wallstreetcn.com/articles/3780055) —— 高盛对 Agent 趋势的判断，与你的项目方向契合，值得一读。
+  _华尔街见闻 API_
+- [英伟达高端服务器涨价 15%，存储成本压力传导](https://wallstreetcn.com/articles/3780066) —— 已入头条，备选重复，但可关注后续影响。
+  _华尔街见闻 API_
 
 ### 金融
 
-- [30-year Treasury yield tops 5.31%, the highest in 19 years](https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html) —— 30 年期美债收益率创 19 年新高，反映市场对通胀和财政的担忧。
-  _CNBC_
-- [The bond market isn’t buying what Fed Chair Warsh is selling](https://www.reuters.com/commentary/reuters-open-interest/bond-market-isnt-buying-what-fed-chair-warsh-is-selling-2026-07-30/) —— 债市不信任美联储主席沃什的政策，收益率高企，宏观风险需留意。
-  _Reuters_
+- [30 年期美债收益率突破 5.31%，创 19 年新高](https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html) —— 宏观信号，影响风险资产估值，但与你日常项目关联度低。
+  _root-parent_
+- [OpenAI 计划 2027 年上市，CFO 向员工透露](https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html) —— OpenAI IPO 时间表，对 AI 行业有影响，但短期无行动点。
+  _thm_
 
 ---
 
