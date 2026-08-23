@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-08-22T03:48:20.345304+00:00",
+  "fetched_at": "2026-08-23T03:56:06.884997+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,16 +10,16 @@
   "source_stats": {
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
-    "华尔街见闻 API": 20,
-    "arXiv q-fin（量化金融论文）": 17,
-    "HN · Federal Reserve": 2,
+    "华尔街见闻 API": 19,
+    "arXiv q-fin（量化金融论文）": 0,
+    "HN · Federal Reserve": 1,
     "HN · inflation": 1,
     "HN · Tesla": 2,
-    "HN · finance": 22,
-    "HN · fed": 15
+    "HN · finance": 14,
+    "HN · fed": 14
   },
   "subtopics": [],
-  "total": 107,
+  "total": 80,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/app-snore/",
@@ -532,513 +532,213 @@
       "lang": "en"
     },
     {
-      "id": "wscn:3780044",
-      "title": "集中资源押注AI，苹果裁撤Siri与Vision Pro逾200个岗位",
-      "url": "https://wallstreetcn.com/articles/3780044",
-      "summary": "苹果公司裁减职位涉及约100个Vision Pro相关岗位及约100个Siri与软件工程岗位。Vision Pro方面，游戏团队近乎解散，沉浸式视频部门缩减，因高昂制作成本与有限用户规模难以为继。Siri方面，裁员源于技术架构全面切换，新版Siri将基于全新底层重建，带动人才结构重组。",
+      "id": "wscn:3780074",
+      "title": "吴恩达：构建和部署AI应用必须啃下这六块硬骨头",
+      "url": "https://wallstreetcn.com/articles/3780074",
+      "summary": "吴恩达深度拆解AI工程师核心能力：从LLM底层原理、数据喂养、智能体搭建，到评估驱动开发、生产环境运维，再到机器学习基础，六块硬骨头环环相扣。其中最关键的一条——能跑通严格评估闭环，才是优秀与普通工程师的真正分水岭。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-22T03:03:33+00:00",
+      "published_at": "2026-08-23T03:52:02+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780048",
-      "title": "一文读懂：市场焦点！下周的杰克逊霍尔大会，你该关注什么？",
-      "url": "https://wallstreetcn.com/articles/3780048",
-      "summary": "沃什将于美东时间8月28日在杰克逊霍尔首次发表主旨演讲，但尚未决定是谈宏观经济“大局观”，还是直接为9月至12月政策路径提供指引。这种不确定性意味着，市场对措辞变化的敏感度可能明显提高。会议期间预计约有5名美联储官员接受媒体采访，需重点关注这些官员的连续表态。高盛认为，杰克逊霍尔历来会放大外汇波动，但美元并无稳定的单边方向。",
+      "id": "wscn:3780070",
+      "title": "7月再现！高盛：存储“股价业绩差”最具吸引力，金融和硬资产成为新热点",
+      "url": "https://wallstreetcn.com/articles/3780070",
+      "summary": "高盛认为，AI交易的“躺赢”时代已经结束，当前的超额收益仅存于股价过度偏离盈利时的精准低吸，存储和数据中心最具战术吸引力。而市场正加速摆脱AI单一叙事，呈现出多点开花的特征：动量因子转向软件、欧日银行迎结构性机遇、黄金矿商与铜矿股存在估值及盈利修复空间，同时法国政治风险溢价被低估。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-22T02:32:47+00:00",
+      "published_at": "2026-08-23T03:24:18+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780050",
-      "title": "比亚迪派“大汉”补位",
-      "url": "https://wallstreetcn.com/articles/3780050",
-      "summary": "补销量，也要守住成交价。",
+      "id": "wscn:3780072",
+      "title": "3天暴涨23%！什么推动加密市场势头反转？",
+      "url": "https://wallstreetcn.com/premium/articles/3780072?layout=wscn-layout",
+      "summary": "本周加密市场暴涨由空头挤压、机构买盘及宏观利好驱动，但趋势延续需看现货买盘，后续关注政策与美联储。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-22T02:20:39+00:00",
+      "published_at": "2026-08-23T02:49:29+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780049",
-      "title": "大众要拿回“国民家轿”宝座",
-      "url": "https://wallstreetcn.com/articles/3780049",
-      "summary": "携手地平线发起大反攻。",
+      "id": "wscn:3780071",
+      "title": "《财经》实地走访追觅：回款争议与产线调整",
+      "url": "https://wallstreetcn.com/articles/3780071",
+      "summary": "持续两个多月的业务调整，还未能让追觅稳住。追觅已经开始陆续支付部分供应商的回款，但产线收缩引发的连锁反应仍在扩散。据多位供应商反馈，追觅拖欠从今年二季度开始集中出现，金额从几万元到上千万元不等，涉及的业务包括被收缩的智能大家电、智能戒指、手机等，以及包括扫地机、洗地机在内的智能清洁板块。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-22T02:16:06+00:00",
+      "published_at": "2026-08-23T02:41:21+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780047",
-      "title": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元",
-      "url": "https://wallstreetcn.com/articles/3780047",
-      "summary": "现货黄金自7月低点以来上涨约15%，突破200日均线并重回4600美元/盎司。高盛交易台多头仓位已升至六成，随着看涨期权需求激增，做市商动态对冲可能进一步强化“越涨越买”的正反馈，放大金价上行弹性。与此同时，美联储政策预期转鸽、美元承压，叠加央行购金和ETF需求改善，黄金上涨的基本面支撑持续增强。",
+      "id": "wscn:3780069",
+      "title": "美财政部加码长债回购，黄金、比特币为什么会涨？",
+      "url": "https://wallstreetcn.com/articles/3780069",
+      "summary": "美国财政部加码长债回购，分析人士指出，此举重燃\"美元贬值交易\"逻辑，投资者转向硬资产避险。受此影响，比特币当周大涨22.6%，黄金突破200日均线，黄金ETF创今年最大单日资金流入。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-22T02:09:25+00:00",
+      "published_at": "2026-08-23T02:35:04+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780034",
-      "title": "从“AI股神”抄底的“带血筹码”，Citadel已卖掉80%！",
-      "url": "https://wallstreetcn.com/articles/3780034",
-      "summary": "城堡投资创始人表示，公司已将从对冲基金Situational Awareness接手的股票组合风险敞口削减逾80%。这批超40亿美元的仓位主要集中于AI和半导体板块，包括美光科技、闪迪等多头，以及英伟达、博通、AMD相关头寸。与此同时，旗舰多策略基金Wellington 7月回报率达5.94%，创2022年以来最佳单月表现。",
+      "id": "wscn:3779970",
+      "title": "下周重磅日程：全市场最关注的经济数据、央行大会和财报一起来了",
+      "url": "https://wallstreetcn.com/articles/3779970",
+      "summary": "杰克逊霍尔央行年会召开，沃什将发表演讲；美财长贝森特预计将公布新一轮财政整顿计划及伊朗制裁措施。美国7月PCE数据也将出炉。此外，英伟达二季报来袭，验证AI资本开支周期；国内方面，美团、拼多多、哔哩哔哩、长鑫科技、德明利、源杰科技等放榜，A港股迎来中报收官高峰。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-22T01:26:59+00:00",
+      "published_at": "2026-08-23T02:14:19+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780046",
-      "title": "环球时报社评：中国不会陪美国在伊朗问题上“胡闹”",
-      "url": "https://wallstreetcn.com/articles/3780046",
-      "summary": "美国所谓“要么站在我们这边，要么与我们为敌”的说法，某种意义上暴露出华盛顿“自己已经搞不定这个烂摊子”的战略窘迫。中方一贯反对单边霸凌和“长臂管辖”，不是因为中国是伊朗最大贸易伙伴并与伊朗保持长期友好关系，而是因为一旦接受美国这套逻辑，国际贸易就是由美国自行划设规则，所有商品流动都要经过美国拍板的荒唐局面。",
+      "id": "wscn:3780061",
+      "title": "“我们遭到了袭击！”加拿大强力反制：对美等额关税9月8日生效，午夜紧急召回谈判团队",
+      "url": "https://wallstreetcn.com/articles/3780061",
+      "summary": "加美贸易谈判于8月22日宣告破裂，加拿大总理卡尼在全国电视讲话中强调，美方谈判末期提出损害加拿大主权及核心产业的苛刻条款，致使协议功亏一篑。他表示加拿大绝不以主权换协议，并将推出更多应对措施。卡尼随即宣布等额报复性关税将于9月8日生效，涵盖乳制品、钢铁、家电等多个领域。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-22T01:08:51+00:00",
+      "published_at": "2026-08-23T01:58:55+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780041",
-      "title": "贝森特没救成美债却点燃“美元贬值交易”！黄金创三个月新高，比特币单周暴涨超25%",
-      "url": "https://wallstreetcn.com/articles/3780041",
-      "summary": "继贝森特宣布扩大美国长债回购之后，美债收益率短暂下挫后重返高位，但却彻底点燃“货币贬值交易”——黄金创三月新高、比特币单周暴涨超25%。市场对美元公信力的担忧不断升温，但也有分析指出，货币创造是美联储的权利，认为本轮贬值交易能否持续存疑。",
+      "id": "wscn:3780067",
+      "title": "特朗普的“大麻烦”：40万亿美元债务，6.5%按揭利率与5美元柴油价格",
+      "url": "https://wallstreetcn.com/articles/3780067",
+      "summary": "特朗普执政不足两年，伊朗战争与减税政策已令美国经济承压：国债突破40万亿美元，长期国债收益率升至19年高位；汽油价格上涨约40%。财政赤字削减目标难以实现，GDP增速远低于官方预期。市场人士警告，白宫的干预言辞透出焦虑，或进一步恶化市场情绪。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-22T00:56:12+00:00",
+      "published_at": "2026-08-23T01:39:23+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3779789",
-      "title": "银行还只是红利资产吗？二季度金融数据正在给出不同答案",
-      "url": "https://wallstreetcn.com/premium/articles/3779789?layout=wscn-layout",
-      "summary": "2026年二季度，银行业出现了几个值得重视的边际变化。国家金融监督管理总局数据显示，商业银行净息差升至1.41%，为2021年四季度以来首次环比回升，国有大行利润增速同步转正；与此同时，人民银行公布的7月金融数据显示，人民币贷款出现单月负增长，银行经营逐步进入低扩表阶段。在负债成本下降、盈利预期趋稳、长端利率处于低位的环境下，银行板块的关注逻辑正在从单纯的高股息，逐渐延伸至ROE稳定和估值约束缓解，这种变化能够持续多久？",
+      "id": "wscn:3780068",
+      "title": "债券危机没有结束",
+      "url": "https://wallstreetcn.com/articles/3780068",
+      "summary": "东吴证券陈李认为，美债不会卖不出去。美债不缺买家，缺的是愿意低价接盘的买家。财政赤字今年累计近1.8万亿美元，回购只是零头，买不掉赤字。长端利率大概率继续磨顶——债券危机没有结束，只是换了一种更安静的方式继续存在。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-21T23:24:50+00:00",
+      "published_at": "2026-08-23T01:31:16+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780043",
-      "title": "华尔街见闻早餐FM-Radio | 2026年8月22日",
-      "url": "https://wallstreetcn.com/articles/3780043",
-      "summary": "五分钟看懂全球市场，尽在财经早餐。",
+      "id": "wscn:3780066",
+      "title": "因存储芯片成本飙升，英伟达高端服务器被曝明年将涨价15%",
+      "url": "https://wallstreetcn.com/articles/3780066",
+      "summary": "媒体援引知情人士报道称，此次涨价将从明年初出货的系统开始生效，影响范围包括搭载旗舰级Vera Rubin和Grace Blackwell芯片的系统。给微软、谷歌和甲骨文等大厂代工服务器的工厂，已经发出了涨价通知。具体涨幅将取决于英伟达芯片的代际和存储配置。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-21T23:20:28+00:00",
+      "published_at": "2026-08-23T00:49:31+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3779986",
-      "title": "美股止跌反弹，道指涨近1%，数字货币再猛涨，黄金升破4600",
-      "url": "https://wallstreetcn.com/articles/3779986",
-      "summary": "本周整体道指跌0.85%，标普500指数跌1.43%，纳指跌2.05%。当日芯片股涨跌不一。银行、黄金股普涨，埃尔拉多黄金涨超7%，高盛、摩根士丹利涨超3%。10年期美债收益率小幅升2.99个基点。比特币延续强势涨6.7%，本周累涨逾24%、创2023年3月以来最大单周涨幅。现货黄金大涨2.2%。",
+      "id": "wscn:3780065",
+      "title": "瑞银调研：过去一周，霍尔木兹海峡日流量超600万桶",
+      "url": "https://wallstreetcn.com/articles/3780065",
+      "summary": "瑞银报告指出，霍尔木兹海峡石油过境量仍略高于600万桶/日。尽管可见油轮流量处于低位，但“暗流”运输已升至500万—600万桶/日，部分弥补表面航运缺口。与此同时，海湾其他产油国原油装载量回升至1020万桶/日，部分对冲伊朗出口停滞。随着美伊紧张局势转向经济制裁，油市焦点转向伊朗出口收缩幅度及替代供应能力。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-21T23:12:35+00:00",
+      "published_at": "2026-08-22T12:55:29+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780042",
-      "title": "报道：Anthropic招股书或把美国公众对AI的抵制情绪列为风险因素",
-      "url": "https://wallstreetcn.com/articles/3780042",
-      "summary": "估值或高达2万亿美元的Anthropic正筹备IPO，却面临一场棘手的民意逆风——盖洛普调查显示，70%的美国人反对在当地建设AI数据中心。中期选举之际，两党政客亦回应选民情绪，宾州数据中心限制法案落地。据媒体报道，对于算力即营收的AI公司而言，这场公众情绪反弹或将被列为IPO招股书核心风险。",
+      "id": "wscn:3780064",
+      "title": "从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌",
+      "url": "https://wallstreetcn.com/articles/3780064",
+      "summary": "某种意义上，如果没有新冠疫苗带来的巨额现金流，Moderna或许很难将这场高风险的癌症押注坚持到今天。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-21T23:04:40+00:00",
+      "published_at": "2026-08-22T12:49:53+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780040",
-      "title": "英伟达拟斥资60亿美元获Poolside AI模型授权，另投10亿美元并吸纳百余名员工",
-      "url": "https://wallstreetcn.com/articles/3780040",
-      "summary": "据媒体报道，英伟达已同意向AI初创公司Poolside支付60亿美元的模型许可费，并将向其逾100名员工发出工作邀约。英伟达还以120亿美元估值（不含许可费）对Poolside追加10亿美元战略投资。",
+      "id": "wscn:3780062",
+      "title": "贝森特\"工具箱\"难敌油价与消费疲软双重夹击，高盛：“市场弥漫着滞胀的味道”",
+      "url": "https://wallstreetcn.com/articles/3780062",
+      "summary": "高盛认为，贝森特试图通过扩大美债回购、推进财政整合稳定长端债市，但长债收益率短暂下行后迅速反弹，政策工具仍难化解财政与供需压力。与此同时，滞胀信号强化：油价单周涨逾7%，10年期盈亏平衡通胀率两周升近10个基点；消费却持续降温，沃尔玛同店销售增速降至六年低点2.6%，“滞胀篮子”本周涨6.7%。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-21T22:59:10+00:00",
+      "published_at": "2026-08-22T10:50:50+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780038",
-      "title": "美债扩大回购宣布前，资产管理公司增持5年期和10年期期货多头",
-      "url": "https://wallstreetcn.com/articles/3780038",
-      "summary": "CFTC截至8月18日当周的数据显示，资产管理公司在5年期和10年期美债期货上的净多头头寸有所增加。杠杆基金等投机资金在长久期美债期货上的净头寸进一步转向空头。整体来看，在美国财政部宣布扩大回购之前，长期美债市场呈现长期资金偏多，投机资金偏空的仓位分化。",
+      "id": "wscn:3780055",
+      "title": "硅谷调研后，高盛的总结：Agent进入执行时代，AI竞争转向工作流，世界模型崛起",
+      "url": "https://wallstreetcn.com/articles/3780055",
+      "summary": "高盛报告指出，AI正从“回答”迈向“执行”，产业竞争转向工作流掌控。Agent落地关键在可控性与责任划分，具备清晰边界与可验证结果的工作流将优先自动化。模型市场走向分工：前沿模型主导高价值任务，开源模型承担规模化推理。同时，世界模型驱动AI进入物理世界，有望催生算力新增长曲线，未来5年需求或增长24倍。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-21T22:10:20+00:00",
+      "published_at": "2026-08-22T09:54:17+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780039",
-      "title": "特朗普称对伊转向“经济战”不意味着美军事选项受限",
-      "url": "https://wallstreetcn.com/articles/3780039",
-      "summary": "特朗普称，美国对霍尔木兹海峡周边整个地区拥有完全的控制权，伊朗很希望达成协议，但他认为伊方尚未准备好达成“合适的协议”，美方正在观察冲突中“事态的发展”；。",
+      "id": "wscn:3780063",
+      "title": "恒生科技指数拟扩至50只，宁德时代等20家公司有望入选",
+      "url": "https://wallstreetcn.com/articles/3780063",
+      "summary": "恒生科技指数拟迎大扩容，成分股将从30增至50只并首设“收入增长”门槛。新规虽注入成长新血，但头部“二八分化”格局难撼。宁德时代、优必选等20家新贵有望火线入围。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-21T22:05:03+00:00",
+      "published_at": "2026-08-22T09:51:14+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780037",
-      "title": "特朗普：未指示贝森特干预美国债市，经济增长将自行化解债务问题",
-      "url": "https://wallstreetcn.com/articles/3780037",
-      "summary": "特朗普称，是贝森特自行决定干预债市，还称赞他很有能力、天生对债券和利率就有非常好的直觉。谈及贸易协议，特朗普称美加谈判进展顺利，理应能达成协议。",
+      "id": "wscn:3779793",
+      "title": "晶圆代工Q2业绩复盘：华虹高弹性、中芯规模释放，国产替代高景气延续",
+      "url": "https://wallstreetcn.com/premium/articles/3779793?layout=wscn-layout",
+      "summary": "AI外溢订单+成熟制程涨价双轮驱动，国产代工从底部修复进入持续景气阶段。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-21T21:29:16+00:00",
+      "published_at": "2026-08-22T09:45:46+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780036",
-      "title": "房利美12名高管突遭解雇，美国房贷市场稳定性担忧升温",
-      "url": "https://wallstreetcn.com/articles/3780036",
-      "summary": "据媒体报道，美国抵押贷款市场支柱机构房利美约12名高管遭突然解雇，被裁撤职位涵盖多家庭贷款、财务、监管等核心部门。目前正值美债收益率走高，借贷成本飙升之际，该消息引发外界对这一万亿级抵押贷款体系的稳定性忧虑升温。联邦住房金融局局长回应裁员是技术进步所致。",
+      "id": "wscn:3780060",
+      "title": "特斯拉官宣！9月3日在奥斯汀举行Cybercab发布会",
+      "url": "https://wallstreetcn.com/articles/3780060",
+      "summary": "特斯拉将于当地时间9月3日在奥斯汀发布无方向盘、无踏板的无人驾驶车型Cybercab。此前报道称该车已完成道路测试和员工试乘，计划先向员工、后对公众开放。目前奥斯汀Robotaxi以186辆改装Model Y为主，Cybercab将逐步加入，但年内量产有限，商业化许可尚待明确。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-21T21:07:25+00:00",
+      "published_at": "2026-08-22T07:10:59+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780035",
-      "title": "报道：博通的债务交易预计将达到700亿美元以上",
-      "url": "https://wallstreetcn.com/articles/3780035",
-      "summary": "博通正就700亿至800亿美元债务融资展开谈判，资金将用于支持Anthropic等AI公司的芯片采购需求。融资拟采用分层结构，优先档约450亿美元，次级档约350亿美元",
+      "id": "wscn:3780057",
+      "title": "宁德时代盯上储能“小单”",
+      "url": "https://wallstreetcn.com/articles/3780057",
+      "summary": "大储龙头开始争夺中小集成商。",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-21T20:58:47+00:00",
+      "published_at": "2026-08-22T06:02:39+00:00",
       "points": 0
     },
     {
-      "id": "wscn:3780033",
-      "title": "瑞士央行官员：必要时将重启负利率，AI短期或推高通胀",
-      "url": "https://wallstreetcn.com/articles/3780033",
-      "summary": "瑞士央行政策委员会成员Petra Tschudin表示，若有必要，瑞士央行将再度实施负利率以维持通胀在0%至2%目标区间内，这是迄今最直接的负利率重启表态。当前瑞士基准利率为零，7月通胀仅0.4%。她同时指出，AI大规模投资短期内可能因芯片短缺推高价格，但长期压低通胀效果存疑。",
+      "id": "wscn:3780059",
+      "title": "东财发布半年报：非货基金规模首破万亿，中期不分红",
+      "url": "https://wallstreetcn.com/articles/3780059",
+      "summary": "证券收入也大幅提升",
       "source": "华尔街见闻 API",
       "platform": "rss",
       "lang": "zh",
-      "published_at": "2026-08-21T20:51:17+00:00",
+      "published_at": "2026-08-22T05:48:01+00:00",
       "points": 0
-    },
-    {
-      "id": "wscn:3780032",
-      "title": "伊朗回应美国经济战威胁：美方“注定失败”，中国表态：反对非法单边制裁",
-      "url": "https://wallstreetcn.com/articles/3780032",
-      "summary": "伊朗议会官员称，美国已证明其“不懂外交语言”，“实力的语言”将迫使美国解除对伊制裁、释放伊方资产并撤出该地区。中国外交部回应“美国威胁对伊制裁”：军事手段和制裁施压无助于解决问题。伊朗总统呼吁结束战争，但强调应从“实力地位”出发谈判。伊朗海军司令称“完全控制”霍尔木兹海峡、将在海上给敌人“历史性教训”。阿曼外交大臣与伊朗外长通话，讨论该海峡航运。",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
-      "lang": "zh",
-      "published_at": "2026-08-21T20:36:02+00:00",
-      "points": 0
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.19217",
-      "title": "CAT Bond Pricing with Kolmogorov--Arnold Networks",
-      "url": "https://arxiv.org/abs/2608.19217",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Sean Seow Cheng Hong",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.19217v1 Announce Type: new Abstract: We study the approximation of CAT bond prices under a compound Poisson loss model with lognormal severities using Kolmogorov--Arnold Networks (KANs). Building on a baseline-plus-residual learning pipeline, we train a KAN on the deviation from a closed-form lognormal baseline price and extract an interpretable symbolic pricing formula. The extracted formula achieves an average relative pricing error of 0.483% on a fully disjoint holdout sample of 90...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.19221",
-      "title": "Filtering Credit Risk with Stochastic Discontinuities",
-      "url": "https://arxiv.org/abs/2608.19221",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "F\\'elix B. Tambe-Ndonfack",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.19221v1 Announce Type: new Abstract: We develop a structural credit-risk model under incomplete information in which investors observe firm value only indirectly through noisy market signals and scheduled corporate disclosures. While disclosure dates are known in advance, their informational content is random, leading to stochastic discontinuities in the observation process. We derive the Kushner-Stratonovich equation for structural credit-risk models with endogenous default by applyi...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.19223",
-      "title": "Henstock--Kurzweil Path Integral in Financial Mathematics: A Machine-Verified Pricing of European and Barrier Options",
-      "url": "https://arxiv.org/abs/2608.19223",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Alexander S. Ushakov, Yury N. Berdinsky",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.19223v1 Announce Type: new Abstract: We apply the Henstock--Kurzweil (HK) gauge integral to the Black--Scholes model of option pricing and obtain the European call price directly from a Gaussian cylindrical kernel, without stochastic calculus. Under the risk- neutral measure, the log-price is a Brownian motion with drift nu = r - sigma^2/2. Its transition density is the Gaussian kernel G_t(x,y) = (2 pi sigma^2 t)^{-1/2} exp( - (y - x - nu t)^2 / (2 sigma^2 t) ). We give a machine-chec...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.19227",
-      "title": "M3: A State-Event Generative Foundation Model for Market Microstructure Dynamics",
-      "url": "https://arxiv.org/abs/2608.19227",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Yanzhi Zhang, Yu Ma, Yilin Cheng, Jian Li, Yitong Duan",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.19227v1 Announce Type: new Abstract: Market microstructure simulation aims to model how liquidity, prices, and order flow evolve in electronic financial markets. Since market data reveal only one realized trajectory, many important questions are inherently counterfactual and require realistic trajectory-level simulation. Existing financial generative models, however, often model order events and market states, such as the LOB, in isolation, overlooking the dynamic interaction between ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.19389",
-      "title": "Concentrated Liquidity Provision: a Reinforcement Learning Perspective",
-      "url": "https://arxiv.org/abs/2608.19389",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Georgios Chionas, Charalampos Kleitsikas, Stefanos Leonardos, Leandro S\\'anchez-Betancourt, Carmine Ventre",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.19389v1 Announce Type: new Abstract: Automated market makers (AMMs) are a cornerstone of decentralised finance (DeFi). Constant product markets with concentrated liquidity, such as UniswapV3, are now a well-established design. In these markets, liquidity providers (LPs) face a sequential decision problem: they must decide when to rebalance their positions and which price ranges to allocate capital to as market conditions evolve. We formulate dynamic liquidity provision as a stochastic...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.19394",
-      "title": "Deep-MKV-TS: Path-Dependent McKean--Vlasov Control for Financial Time Series Generation",
-      "url": "https://arxiv.org/abs/2608.19394",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Samer El Boustany, Th\\'eo Basseras, Samy Mekkaoui, Alexandre Alouadi, Yadh Hafsi, Huy\\^en Pham",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.19394v1 Announce Type: new Abstract: We introduce Deep-MKV-TS, a path-dependent McKean-Vlasov framework for financial scenario generation. The stochastic dynamics are chosen by matching selected path and volatility features of generated scenarios to those observed in the data. Starting from an interpretable reference model, Deep-MKV-TS preserves the reference drift and adjusts its volatility, while a regularization penalty limits unnecessary departures from the calibrated dynamics. We...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.20020",
-      "title": "The Reconfiguration Premium: Co-movement Structure as an Unspanned Dimension of the Variance Risk Premium",
-      "url": "https://arxiv.org/abs/2608.20020",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Lucas Carvalho",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.20020v1 Announce Type: new Abstract: Hedge ratios, factor models and diversified portfolios all rest on an estimate of which firms move together. That estimate is not stable: firms migrate between the groupings the market treats as coherent, and when enough migrate the organizing axes of the cross-section turn. We measure the rate of that turning as the mean squared sine of the principal angles between subdominant eigenspaces of consecutive twelve-month S&amp;P 500 correlation matrice...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.20304",
-      "title": "Calibration-Induced Degeneracy in LLM Financial Forecasting: An Audit-Trailed Case Study on Next-Day Market Risk",
-      "url": "https://arxiv.org/abs/2608.20304",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Arin Mohanty",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.20304v1 Announce Type: new Abstract: Costly LLM features matter only if calibration lets them affect the forecast. We document a failure of this link in a next-day risk study of two broad-market funds. Full-history scoring preceded the 2022 calibration. Calibration then set all four LLM weights to zero. The 856 later scores therefore could not affect the evaluation. We call this calibration-induced degeneracy. Allowing signed weights reactivated all four mappings. None improved foreca...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.20179",
-      "title": "Dynamic Portfolio Optimization under CVaR Constraints",
-      "url": "https://arxiv.org/abs/2608.20179",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Anran Hu, Silvana M. Pesenti, Xiaofei Shi",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.20179v1 Announce Type: cross Abstract: We study continuous-time dynamic portfolio optimization under a Conditional Value-at-Risk (CVaR) constraint on the investor's terminal loss. For a general class of convex trading objectives, we exploit the auxiliary-threshold representation of CVaR to establish the existence of an optimal strategy and strong duality without requiring market completeness. These results motivate a dual-based nested bisection--golden-search algorithm over the thresh...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2411.11589",
-      "title": "The Impact of the General Data Protection Regulation (GDPR) on Online Usage Behavior",
-      "url": "https://arxiv.org/abs/2411.11589",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Klaus M. Miller, Bernd Skiera, Julia Schmitt",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2411.11589v2 Announce Type: replace Abstract: Privacy regulations aim to safeguard consumers, but can have unintended consequences on how users interact with websites. This article estimates the causal effect of the EU's General Data Protection Regulation (GDPR) on online usage behavior and decomposes it into usage frequency (unique visitors) and usage intensity (visits per unique visitor). Using a generalized synthetic control estimator across trillions of visits to 6,387 websites in 24 i...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2504.15985",
-      "title": "Modeling and Forecasting Realized Volatility with Multivariate Fractional Brownian Motion",
-      "url": "https://arxiv.org/abs/2504.15985",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Markus Bibinger, Jun Yu, Chen Zhang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2504.15985v2 Announce Type: replace Abstract: A multivariate fractional Brownian motion (mfBm) with component-wise Hurst exponents is used to model and forecast realized volatility (RV). We investigate the interplay between correlation coefficients and Hurst exponents and propose a novel method to estimate model parameters, establishing its consistency and asymptotic normality. Additionally, we develop a time-reversibility test, which is typically not rejected by RV data. When the data gen...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2508.00554",
-      "title": "ContestTrade: A Multi-Agent Trading System Based on Internal Contest Mechanism",
-      "url": "https://arxiv.org/abs/2508.00554",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Li Zhao, Rui Sun, Zuoyou Jiang, Bo Yang, Yuxiao Bai, Mengting Chen, Jing Li, Zuo Bai",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2508.00554v5 Announce Type: replace Abstract: In financial trading, large language model (LLM)-based agents demonstrate significant potential, but their decisions can be sensitive to noisy and non-stationary market information. We propose ContestTrade, a multi-agent trading system with an internal competitive mechanism inspired by institutional investment workflows. The system consists of two specialized teams: (1) a Data Team that processes and condenses massive market data into diversifi...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2509.14645",
-      "title": "Are Final Market Prices Sufficient for Information Aggregation? Evidence from Last-Minute Dynamics in Parimutuel Betting",
-      "url": "https://arxiv.org/abs/2509.14645",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Hiroaki Hanyu, Shunsuke Ishii, Suguru Otani, Kazuhiro Teramoto",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2509.14645v3 Announce Type: replace Abstract: This study presents evidence challenging the practice of inferring risk preferences, probability perceptions, and beliefs from parimutuel betting markets, where wagers cannot be made contingent on final odds. Using interim odds from horse racing, we show that expected returns depend not only on final odds but also on the path through which they are reached: horses with final-five-minute odds declines earn higher realized returns than horses wit...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2511.07045",
-      "title": "Machine-learning a family of solutions to an optimal pension investment problem",
-      "url": "https://arxiv.org/abs/2511.07045",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "John Armstrong, Cristin Buescu, James Dalby, Rohan Hobbs",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2511.07045v2 Announce Type: replace Abstract: We use a neural network to identify the optimal solutions to a family of pension investment problems, where the parameters determining an investor's risk and consumption preferences are given as inputs to the neural network in addition to economic variables. Training a single network across such a family fails without modification. Our main contribution is a scaling of the loss function that resolves this, together with a proof that the resulti...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2607.23325",
-      "title": "Happy Birthday? Age Labels, Search Criteria, and Matching from Dating to Marriage",
-      "url": "https://arxiv.org/abs/2607.23325",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Suguru Otani",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2607.23325v2 Announce Type: replace Abstract: Age is a match trait and a prominent label on search platforms. Using confidential records from a large Japanese marriage platform, I study how a birthday age update affects consideration, applications, relationship progression, and engagement. Only displayed age updates at birthdays. Receivers enter some acceptable-age ranges as they exit others, leaving only modest overall eligibility changes. Application counts often increase. Applications s...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2605.23955",
-      "title": "From Accuracy to Auditability: A Survey of Determinism in Financial AI Systems",
-      "url": "https://arxiv.org/abs/2605.23955",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Ruizhe Zhou, Xiaoyang Liu, Gaoyuan Du, Yi Zheng, Shouxi Ren, Deepayan Chakrabarti, Dengdu Jiang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2605.23955v3 Announce Type: replace-cross Abstract: Deploying machine learning in regulated financial environments -- credit risk, fraud detection, and anti-money laundering -- exposes critical vulnerabilities in algorithmic reproducibility. While early financial ML addressed statistical challenges such as backtest overfitting, deep neural networks and Generative AI have introduced mechanical nondeterminism rooted in hardware and architecture. This survey provides a systems perspective on ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.12143",
-      "title": "Robustness over efficiency in climate coalitions: a bistable model and a map of architectures",
-      "url": "https://arxiv.org/abs/2608.12143",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Juergen Renn (Max Planck Institute of Geoanthropology, Jena, Germany)",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T04:00:00+00:00",
-      "summary": "arXiv:2608.12143v3 Announce Type: replace-cross Abstract: Designs for international climate cooperation face a trade-off between efficiency and robustness to institutional erosion by defection, renegotiation, and political turnover. We formalize this trade-off in a stylized coalition-formation game with two market-based enrolment channels, a membership premium and an outsider drain, stabilized against bounded perturbations with robust control. The free-rider gap is exact within the game, express...",
-      "lang": "en"
     },
     {
       "id": "hn:49335271",
@@ -1060,25 +760,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49024958",
-      "title": "DOT cranks up its campaign to strip bike lane references from federal websites",
-      "url": "https://text.npr.org/nx-s1-5900901",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49024958",
-        "name": "Jtsummers",
-        "hn_url": "https://news.ycombinator.com/item?id=49024958"
-      },
-      "duration_sec": null,
-      "views": 43,
-      "comments": 16,
-      "published_at": "2026-07-23T17:11:39+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en"
-    },
-    {
       "id": "hn:49355142",
       "title": "Sticky wage norms and the real wage cost of unexpected inflation",
       "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
@@ -1090,8 +771,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49355142"
       },
       "duration_sec": null,
-      "views": 390,
-      "comments": 282,
+      "views": 391,
+      "comments": 286,
       "published_at": "2026-08-19T00:53:51+00:00",
       "summary": "",
       "matched_keyword": "inflation",
@@ -1109,7 +790,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49304409"
       },
       "duration_sec": null,
-      "views": 44,
+      "views": 48,
       "comments": 12,
       "published_at": "2026-08-14T20:49:29+00:00",
       "summary": "",
@@ -1133,25 +814,6 @@
       "published_at": "2026-08-21T17:32:57+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49350858",
-      "title": "AI Is Upending One of Finance's Cushiest Jobs",
-      "url": "https://www.bloomberg.com/news/features/2026-06-05/ai-is-upending-traditional-financial-advisor-jobs",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49350858",
-        "name": "theriddlr",
-        "hn_url": "https://news.ycombinator.com/item?id=49350858"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 0,
-      "published_at": "2026-08-18T18:59:38+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
       "lang": "en"
     },
     {
@@ -1307,6 +969,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49396088",
+      "title": "S&P 500 CEO median pay hits $17.3M, widening CEO-worker ratio to 312-to-1",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-ceo-median-pay-234900518.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49396088",
+        "name": "newsomix9xl",
+        "hn_url": "https://news.ycombinator.com/item?id=49396088"
+      },
+      "duration_sec": null,
+      "views": 33,
+      "comments": 3,
+      "published_at": "2026-08-22T02:38:14+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
       "id": "hn:49182971",
       "title": "OpenAI settles claims of discrimination against US workers for $3.2M",
       "url": "https://finance.yahoo.com/technology/ai/articles/openai-settles-claims-discrimination-against-221429616.html",
@@ -1383,25 +1064,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49028304",
-      "title": "US announces double-digit tariffs on most of globe to replace expiring duties",
-      "url": "https://finance.yahoo.com/economy/policy/article/trump-administration-announces-the-next-phase-of-global-tariffs-with-10-to-125-rates-on-much-of-the-globe-210032314.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49028304",
-        "name": "ck2",
-        "hn_url": "https://news.ycombinator.com/item?id=49028304"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 4,
-      "published_at": "2026-07-23T21:28:52+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
       "id": "hn:49289340",
       "title": "Hooray for index funds–just don't call them passive",
       "url": "https://www.economist.com/finance-and-economics/2026/08/11/hooray-for-index-funds-just-dont-call-them-passive",
@@ -1416,139 +1078,6 @@
       "views": 14,
       "comments": 1,
       "published_at": "2026-08-13T17:37:33+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49352830",
-      "title": "The most influential economist is oddly unconvincing",
-      "url": "https://www.economist.com/finance-and-economics/2026/08/17/the-worlds-most-influential-economist-is-oddly-unconvincing",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49352830",
-        "name": "aragonite",
-        "hn_url": "https://news.ycombinator.com/item?id=49352830"
-      },
-      "duration_sec": null,
-      "views": 13,
-      "comments": 3,
-      "published_at": "2026-08-18T21:15:31+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49047483",
-      "title": "Reality Bites Elon Musk and His Tesla, SpaceX Believers",
-      "url": "https://www.wsj.com/finance/stocks/reality-bites-elon-musk-and-his-tesla-spacex-believers-1b639591",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49047483",
-        "name": "1vuio0pswjnm7",
-        "hn_url": "https://news.ycombinator.com/item?id=49047483"
-      },
-      "duration_sec": null,
-      "views": 12,
-      "comments": 11,
-      "published_at": "2026-07-25T13:37:48+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49047488",
-      "title": "Stripe in talks to acquire OpenRouter in potential $10B deal, WSJ reports",
-      "url": "https://finance.yahoo.com/technology/ai/articles/stripe-talks-acquire-openrouter-potential-215104525.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49047488",
-        "name": "nlpnerd",
-        "hn_url": "https://news.ycombinator.com/item?id=49047488"
-      },
-      "duration_sec": null,
-      "views": 12,
-      "comments": 3,
-      "published_at": "2026-07-25T13:38:45+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49208461",
-      "title": "New Intelligence Warns Russia May Provoke NATO Amid Dwindling U.S. Munitions",
-      "url": "https://www.wsj.com/finance/investing/new-intelligence-warns-russia-may-provoke-nato-amid-dwindling-u-s-munitions-68f497c7",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49208461",
-        "name": "doener",
-        "hn_url": "https://news.ycombinator.com/item?id=49208461"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 10,
-      "published_at": "2026-08-07T10:52:27+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49191809",
-      "title": "The Investors Whose SpaceX Shares Vanished Before They Could Cash In",
-      "url": "https://www.wsj.com/finance/stocks/spacex-ipo-spv-investors-2698a174",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49191809",
-        "name": "JumpCrisscross",
-        "hn_url": "https://news.ycombinator.com/item?id=49191809"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 0,
-      "published_at": "2026-08-06T02:46:53+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49093686",
-      "title": "Google reported its first negative quarter since going public",
-      "url": "https://finance.yahoo.com/technology/ai/articles/google-spent-490-million-day-163000234.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49093686",
-        "name": "mgh2",
-        "hn_url": "https://news.ycombinator.com/item?id=49093686"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 3,
-      "published_at": "2026-07-29T05:22:05+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49176000",
-      "title": "What are credit default swaps and why are they spooking AI investors?",
-      "url": "https://www.reuters.com/business/finance/global-markets-cds-explainer-2026-07-29/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49176000",
-        "name": "mapping365",
-        "hn_url": "https://news.ycombinator.com/item?id=49176000"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 1,
-      "published_at": "2026-08-04T22:18:09+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"

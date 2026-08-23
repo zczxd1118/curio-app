@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-22T03:48:25.599286+00:00",
+  "fetched_at": "2026-08-23T03:56:12.034954+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 7,
+    "HN · Nvidia": 8,
     "HN · semiconductor": 0,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 28,
+  "total": 29,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -201,7 +201,7 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-21T13:51:09+00:00",
+      "published_at": "2026-08-21T18:00:00+00:00",
       "summary": "YMTC must raise capital to explore demand for AI-driven memory while balancing domestic and overseas markets. The post China’s NAND Specialist YMTC Moves Closer to IPO appeared first on EE Times.",
       "lang": "en"
     },
@@ -465,8 +465,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49387755"
       },
       "duration_sec": null,
-      "views": 67,
-      "comments": 37,
+      "views": 70,
+      "comments": 39,
       "published_at": "2026-08-21T13:26:03+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -506,6 +506,25 @@
       "views": 37,
       "comments": 20,
       "published_at": "2026-08-13T07:28:54+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49342314",
+      "title": "Nvidia discloses $21B stake in SpaceX",
+      "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49342314",
+        "name": "joozio",
+        "hn_url": "https://news.ycombinator.com/item?id=49342314"
+      },
+      "duration_sec": null,
+      "views": 31,
+      "comments": 15,
+      "published_at": "2026-08-18T07:02:04+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
