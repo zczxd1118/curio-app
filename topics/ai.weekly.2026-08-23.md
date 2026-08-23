@@ -1,32 +1,42 @@
 # Curio · AI · 2026-08-23
 
-> 今日 1 条头条 + 0 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今日信号：Nvidia 在 AI 基础设施融资上踩刹车，同时其 AVO 智能体在 ARC-AGI-3 上拿到满分，显示模型能力与硬件投入的赛跑进入新阶段。存储芯片涨价潮正传导至终端，英伟达高端服务器明年涨价 15%，而 OpenAI 加速 IPO 进程，AI 资本市场的热度与风险并存。_
+_今日信号：AI 竞争从模型转向 Harness 与 Agent 执行层，Nvidia 与 DeepSeek 同时验证这一趋势；存储涨价潮正传导至终端与服务器，英伟达高端服务器明年或涨 15%；OpenAI 加速 IPO 进程，但人才流失与安全团队解散埋下隐患。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. DeepSeek Harness 开源，Lau 博士解读：与 Claude Code 差距比想象大
+### 2. DeepSeek Harness 开源，编程 Agent 工具链迎来新选择
 
 **[AI]** · ⭐⭐⭐⭐ · _Lau博士的云组会_
 
-DeepSeek 开源了其 Harness 工具链，B 站 UP 主 Lau 博士在视频中详细解读，并与 Claude Code 进行对比实测。结果显示，在相同模型下，DeepSeek Harness 在插件化、流程记录、缓存命中等方面表现优异，但整体与 Claude Code 仍有差距。
+DeepSeek 开源了其 Harness 工具，Lau 博士在视频中解读了它的独特之处。与此同时，有 Up 主实测对比 DeepSeek Harness 与 Claude Code，发现工具链对最终效果的影响可能比模型本身更大。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DeepSeek Harness 已开源，提供插件化源码流程。 | DeepSeek Harness 的生态成熟度与 Claude Code 相比如何，是否值得迁移。 |
-| Lau 博士视频中对比了 DeepSeek Harness 与 Claude Code 在相同模型下的表现。 | 其性能差距是否会在后续版本中缩小，特别是模型能力提升后。 |
-| DeepSeek Harness 在插件化、流程记录、缓存命中方面有优势。 | 对于个人开发者，DeepSeek Harness 的学习成本是否值得。 |
+| DeepSeek Harness 已开源，视频解读了其核心设计 | DeepSeek Harness 与 Claude Code 的差距是否如视频所说，需更多验证 |
+| 实测视频使用同一 DeepSeek 模型，对比 Harness 与 Claude Code 的表现 | Harness 的插件生态和社区支持能否快速成长，尚不明朗 |
+| 实测项目包括 FPS 游戏 Demo、灯塔预警沙盘等 | DeepSeek Harness 对国内用户是否更友好（如 API 接入），需实际测试 |
+| DeepSeek Harness 强调插件化、流程记录和缓存命中 |  |
 
 **📖 主编点评**
 
-你正在做 Agent 项目，DeepSeek Harness 的开源提供了另一个工具链选择。建议观看 Lau 博士的视频，了解其具体实现和优缺点，也许能从中获得优化你工作流的灵感，比如缓存机制和插件化设计。
+你正在做 Agent 项目，DeepSeek Harness 开源值得你花时间研究。它可能提供比 Claude Code 更灵活的插件机制和成本控制（尤其在国内网络环境下）。建议你下载源码，重点看它的插件化流程和缓存设计，说不定能借鉴到你的 content-curator 里，让 Agent 更省 Token、更可控。
 
 📺 [打开原文](http://www.bilibili.com/video/av117089415204498)
 
 ---
+
+## 📋 备选阅读
+
+- [【吴恩达2026】Vibe Coding保姆级教程，手把手从环境搭建到工作流完整闭环！](http://www.bilibili.com/video/av116951003242391) —— 吴恩达亲自讲解 Vibe Coding 工作流，适合系统学习，但内容偏基础，与你的实战经验可能重叠。
+  _吴恩达AIAgent_
+- [从零编写MCP并发布上线，超简单！手把手教程](http://www.bilibili.com/video/av114630814862349) —— MCP 实战教程，教你从零开发并发布 MCP 服务，对你的 Agent 项目有直接参考价值。
+  _技术爬爬虾_
+- [【入站必看】B站史上最全Codex零基础教程！90分钟入门到进阶！](http://www.bilibili.com/video/av117131979134458) —— Codex 深度教程，包含 22 个案例，适合想深入掌握 Codex 的开发者，但时长较长。
+  _GenJi是真想教会你_
 
 ---
 

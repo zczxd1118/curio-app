@@ -1,42 +1,40 @@
 # Curio · 大厂 AI 动态 · 2026-08-23
 
-> 今日 1 条头条 + 4 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今日信号：Nvidia 在 AI 基础设施融资上踩刹车，同时其 AVO 智能体在 ARC-AGI-3 上拿到满分，显示模型能力与硬件投入的赛跑进入新阶段。存储芯片涨价潮正传导至终端，英伟达高端服务器明年涨价 15%，而 OpenAI 加速 IPO 进程，AI 资本市场的热度与风险并存。_
+_今日信号：AI 竞争从模型转向 Harness 与 Agent 执行层，Nvidia 与 DeepSeek 同时验证这一趋势；存储涨价潮正传导至终端与服务器，英伟达高端服务器明年或涨 15%；OpenAI 加速 IPO 进程，但人才流失与安全团队解散埋下隐患。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. DeepMind 校友创立的 Inherent 发布 AI 同事，复现研究论文能力超 Anthropic 和 OpenAI
+### 4. Codex on AWS Bedrock 计费 bug 导致 10 倍费用，开发者需警惕
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _GitHub_
 
-英国 AI 实验室 Inherent 由 DeepMind 校友创立，其发布的 AI 智能体 Faraday 在复现科学论文任务上超越了 Anthropic 和 OpenAI 的模型。这可能是 AI 驱动科研自动化的一个里程碑，但具体评测方法和数据集尚未公开。
+OpenAI Codex 在 AWS Bedrock 上出现计费 bug，导致用户被收取高达 10 倍的费用。GitHub issue 已引发广泛关注，提醒开发者在使用云服务集成 AI 工具时需仔细核对账单。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Inherent 由 DeepMind 校友创立，总部位于英国。 | 评测基准是否公平，是否存在 cherry-picking 或过拟合。 |
-| 其 AI 智能体 Faraday 在复现科学论文任务上声称超越 Anthropic 和 OpenAI。 | Faraday 的复现能力能否扩展到更广泛的科研任务，而非特定领域。 |
-| 该技术被视为 AI 驱动科研创新的潜在跳板。 | 这一成果对学术界的实际影响，是否会改变科研工作流程。 |
+| GitHub issue 报告了 Codex on AWS Bedrock 的计费异常 | bug 的具体原因和修复时间尚不明确 |
+| 用户被收取的费用高达正常值的 10 倍 | 是否影响所有 Bedrock 用户，还是特定配置触发，需进一步确认 |
+| 该问题已获得 148 分关注，影响范围可能较大 | OpenAI 是否会主动退款，有待观察 |
 
 **📖 主编点评**
 
-你正在构建个人 Agent 项目，这个案例展示了 Agent 在复杂任务（如科研复现）上的潜力。可以借鉴其思路，将你的 content-curator 升级为能自动验证信息源、交叉引用数据的工具，提升信息处理的深度。
+你在使用 Codex 或类似云服务时，务必开启费用警报，并定期检查账单。这个 bug 提醒我们，AI 工具链的计费系统可能不透明，尤其是通过第三方平台（如 AWS）使用时。建议你记录每次调用的 Token 数和费用，建立自己的成本监控机制。
 
-📺 [打开原文](https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/)
+📺 [打开原文](https://github.com/openai/codex/issues/37674)
 
 ---
 
 ## 📋 备选阅读
 
-- [OpenAI 计划 2027 年上市，CFO 透露时间表](https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html) —— OpenAI CFO 称公司将在 2027 年或更早上市，IPO 进程加速。
-  _CNBC_
-- [Google DeepMind 领导层变动：Hassabis 转任主席，Jeff Dean 离职](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/) —— Demis Hassabis 从 CEO 转任主席，Jeff Dean 离开，DeepMind 进入新阶段。
-  _Google Blog_
-- [Apple 裁员 Vision Pro 和 Siri 团队](https://www.theverge.com/tech/983451/apple-layoffs-vision-pro-siri) —— 苹果裁减 Vision Pro 和 Siri 团队，显示硬件和 AI 助手战略调整。
-  _The Verge_
-- [LinkedIn 的“AI 垃圾”按钮被点击超百万次](https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message) —— LinkedIn 推出的“AI 垃圾”反馈按钮已获超 100 万次点击，反映用户对 AI 内容的反感。
+- [Gemini 3.7 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/) —— Google 发布 Gemini 3.7 Flash，性能提升，值得关注，但信息量不如头条。
+  _Google_
+- [Inherent, founded by DeepMind alumni, says its AI 'teammate' just outperformed Anthropic and OpenAI at replicating research](https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/) —— DeepMind 校友创业，AI 智能体在复现研究上超越 Anthropic 和 OpenAI，值得关注。
+  _TechCrunch_
+- [Apple is laying off staffers working on the Vision Pro and Siri](https://www.theverge.com/tech/983451/apple-layoffs-vision-pro-siri) —— 苹果裁员 Vision Pro 和 Siri 团队，反映 AI 硬件和助手业务调整。
   _The Verge_
 
 ---
