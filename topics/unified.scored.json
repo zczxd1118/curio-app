@@ -1,215 +1,215 @@
 {
-  "date": "2026-08-22",
-  "intro": "今日最核心的信号是AI资本开支的金融化：Nvidia为OpenAI基建担保缩水、博通为Anthropic融资700亿美元，AI军备竞赛正从科技公司资产负债表转移到华尔街。同时，Nvidia AVO在ARC-AGI-3上满分，暗示推理能力新范式。苹果裁员Siri和Vision Pro团队，聚焦AI。",
+  "date": "2026-08-23",
+  "intro": "今日信号：Nvidia 在 AI 基础设施融资上踩刹车，同时其 AVO 智能体在 ARC-AGI-3 上拿到满分，显示模型能力与硬件投入的赛跑进入新阶段。存储芯片涨价潮正传导至终端，英伟达高端服务器明年涨价 15%，而 OpenAI 加速 IPO 进程，AI 资本市场的热度与风险并存。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI 算力 / 半导体",
-      "id": "hn:49323686",
-      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
-      "source": "root-parent",
+      "id": "hn:49393647",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "source": "TechCrunch",
       "stars": 5,
-      "title": "Nvidia大幅缩减对OpenAI数据中心融资担保，AI军备竞赛金融风险显现",
-      "lead": "据WSJ报道，Nvidia已大幅减少其为OpenAI数据中心建设提供的融资担保，该担保原计划高达2500亿美元。此举可能反映Nvidia对AI基础设施投资回报的谨慎态度，或是对OpenAI财务稳定性的担忧。这一变化可能影响OpenAI的算力扩张计划，并引发市场对AI泡沫的重新评估。",
+      "title": "Nvidia AVO 满分通过 ARC-AGI-3，Harness 比模型更重要",
+      "lead": "Nvidia 的 AVO 智能体在 ARC-AGI-3 交互推理基准上拿到 100% 满分，这是首个达到该成绩的通用架构。TechCrunch 评论指出，这标志着 AI 竞争焦点从模型本身转向了 harness（工具链）——模型能力相当的情况下，谁的工作流更优谁就赢。",
       "confirmed": [
-        "Nvidia已减少对OpenAI数据中心融资的担保额度，原计划为2500亿美元。",
-        "该消息由WSJ率先报道，Reuters等多家媒体转载。",
-        "Nvidia与OpenAI的合作关系依然紧密，但财务安排出现调整。"
+        "Nvidia AVO 在 ARC-AGI-3 上获得 100% 分数，该基准测试要求模型进行交互式推理和工具使用。",
+        "Nvidia 官方博客和开发者博客均发布了这一结果，强调其通用型长时程自主智能体架构。",
+        "TechCrunch 发表评论文章，认为 harness 而非模型本身成为新的竞争焦点。"
       ],
       "judgment": [
-        "Nvidia缩减担保的具体原因尚不明确，可能是风险控制或战略调整。",
-        "OpenAI是否会寻找其他融资渠道或调整数据中心建设计划尚未可知。",
-        "此举是否引发其他AI基础设施投资者的连锁反应仍需观察。"
+        "ARC-AGI-3 的满分是否意味着 AVO 具备真正的通用推理能力，还是仅针对该基准过拟合，尚待更多测试。",
+        "Nvidia 的 harness 优势能否在真实业务场景中复现，尤其是与 OpenAI、Anthropic 的 agent 产品对比。",
+        "这一结果对模型厂商（如 OpenAI、Anthropic）的路线图会产生多大影响，是否会引发 harness 军备竞赛。"
       ],
-      "implication": "对你而言，这标志着AI算力投资从‘军备竞赛’转向‘财务审慎’。关注Nvidia后续财报和OpenAI的融资动态，这会影响整个AI产业链的估值逻辑。你的Agent项目若依赖云算力，需留意未来算力成本可能波动。"
+      "implication": "你正在做 content-curator Agent，这个信号很直接：模型选型之外，你的 harness（MCP 配置、Skill 编排、上下文管理）才是决定 Agent 上限的关键。建议花时间研究 Nvidia 的 AVO 架构和 DeepSeek Harness 的开源实现，把工具链打磨成你的核心竞争力。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "hn:49387755",
-      "url": "https://twitter.com/NVIDIAAI/status/2090786258981466231",
-      "source": "dsrtslnd23",
-      "stars": 5,
-      "title": "Nvidia AVO在ARC-AGI-3基准上取得100%满分，通用智能体架构新突破",
-      "lead": "Nvidia宣布其AVO（Agentic Vision Operator）在ARC-AGI-3交互式推理基准上达到100%准确率，这是该基准首次有系统满分。AVO被描述为面向长时程自主智能体的前沿级通用架构，可能重新定义AI Agent的能力边界。",
+      "domain": "股票",
+      "id": "wscn:3780066",
+      "url": "https://wallstreetcn.com/articles/3780066",
+      "source": "华尔街见闻",
+      "stars": 4,
+      "title": "存储芯片成本飙升，英伟达高端服务器明年涨价 15%",
+      "lead": "据知情人士透露，英伟达高端服务器（搭载 Vera Rubin 和 Grace Blackwell）将从明年初开始涨价 15%，原因是存储芯片成本大幅上涨。代工厂已向微软、谷歌等客户发出涨价通知，具体涨幅取决于芯片代际和存储配置。",
       "confirmed": [
-        "Nvidia AVO在ARC-AGI-3上取得100%成绩，官方推特和开发者博客均已发布。",
-        "ARC-AGI-3是衡量通用推理能力的严格基准，此前无人满分。",
-        "Nvidia称AVO为‘前沿级通用架构’，专为长时程自主任务设计。"
+        "涨价将从 2027 年初出货的系统开始生效，影响 Vera Rubin 和 Grace Blackwell 系列。",
+        "给微软、谷歌、甲骨文代工的服务器工厂已发出涨价通知。",
+        "存储芯片成本上涨是主要驱动因素，与近期 DRAM/NAND 价格飙升一致。"
       ],
       "judgment": [
-        "满分是否意味着AVO真正具备通用推理能力，还是过拟合基准，尚需第三方验证。",
-        "AVO的架构细节和实际应用场景尚未完全公开。",
-        "这一突破对现有AI Agent框架（如ReAct、Plan-and-Execute）的影响有待评估。"
+        "涨价幅度 15% 是平均还是最高，不同配置的实际涨幅可能差异较大。",
+        "云厂商是否会转嫁成本给终端用户，还是自行消化以维持竞争力。",
+        "这一涨价是否会导致 AI 算力需求放缓，或加速自研芯片替代。"
       ],
-      "implication": "这可能是Agent技术的一个拐点。你应该关注Nvidia的AVO技术报告，理解其‘harness’设计，这可能启发你优化自己的Agent项目。同时，ARC-AGI-3满分意味着推理能力的新高度，你的内容聚合器若引入类似能力，可提升信息筛选质量。"
+      "implication": "如果你在规划个人 AI 项目或依赖云 GPU，明年算力成本可能上升。建议关注存储芯片价格走势，考虑在涨价前锁定长期云服务合同，或者优化你的 Agent 以减少 token 消耗和存储需求。"
     },
     {
       "rank": 3,
       "domain": "大厂 AI 动态",
-      "id": "wscn:3780040",
-      "url": "https://wallstreetcn.com/articles/3780040",
-      "source": "华尔街见闻 API",
+      "id": "rss:https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "source": "TechCrunch",
       "stars": 4,
-      "title": "英伟达60亿美元获Poolside模型授权，并投资10亿美元吸纳百余名员工",
-      "lead": "据媒体报道，英伟达已同意向AI初创公司Poolside支付60亿美元的模型许可费，并向其逾100名员工发出工作邀约。同时，英伟达以120亿美元估值对Poolside追加10亿美元战略投资。此举显示英伟达正从芯片巨头向AI模型提供商延伸。",
+      "title": "DeepMind 校友创立的 Inherent 发布 AI 同事，复现研究论文能力超 Anthropic 和 OpenAI",
+      "lead": "英国 AI 实验室 Inherent 由 DeepMind 校友创立，其发布的 AI 智能体 Faraday 在复现科学论文任务上超越了 Anthropic 和 OpenAI 的模型。这可能是 AI 驱动科研自动化的一个里程碑，但具体评测方法和数据集尚未公开。",
       "confirmed": [
-        "英伟达支付60亿美元获得Poolside模型授权。",
-        "英伟达向Poolside投资10亿美元，估值120亿美元（不含许可费）。",
-        "英伟达将吸纳Poolside超过100名员工。"
+        "Inherent 由 DeepMind 校友创立，总部位于英国。",
+        "其 AI 智能体 Faraday 在复现科学论文任务上声称超越 Anthropic 和 OpenAI。",
+        "该技术被视为 AI 驱动科研创新的潜在跳板。"
       ],
       "judgment": [
-        "Poolside的模型技术具体优势尚不明确，可能是代码生成或特定领域。",
-        "英伟达此举是防御性布局还是进攻性扩张，有待观察。",
-        "对现有AI模型提供商（如OpenAI、Anthropic）的竞争影响未知。"
+        "评测基准是否公平，是否存在 cherry-picking 或过拟合。",
+        "Faraday 的复现能力能否扩展到更广泛的科研任务，而非特定领域。",
+        "这一成果对学术界的实际影响，是否会改变科研工作流程。"
       ],
-      "implication": "英伟达正在构建从芯片到模型的垂直整合，这会影响AI生态格局。作为开发者，你未来可能直接使用Nvidia的模型服务，关注其与CUDA生态的集成。同时，这笔交易也反映了AI模型授权市场的火热，你的Agent项目若依赖第三方模型，需关注授权成本变化。"
+      "implication": "你正在构建个人 Agent 项目，这个案例展示了 Agent 在复杂任务（如科研复现）上的潜力。可以借鉴其思路，将你的 content-curator 升级为能自动验证信息源、交叉引用数据的工具，提升信息处理的深度。"
     },
     {
       "rank": 4,
-      "domain": "股票",
-      "id": "wscn:3780041",
-      "url": "https://wallstreetcn.com/articles/3780041",
-      "source": "华尔街见闻 API",
+      "domain": "金融",
+      "id": "wscn:3780062",
+      "url": "https://wallstreetcn.com/articles/3780062",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "美债回购点燃‘美元贬值交易’，黄金创三个月新高，比特币单周暴涨超25%",
-      "lead": "美国财长贝森特宣布扩大长期美债回购后，美债收益率短暂下挫后重返高位，但市场却转向‘货币贬值交易’：黄金创三个月新高，比特币单周暴涨超25%。市场对美元公信力的担忧升温，但分析认为货币创造是美联储的权利，贬值交易能否持续存疑。",
+      "title": "高盛警告：市场弥漫滞胀味道，贝森特工具箱难敌油价与消费疲软",
+      "lead": "高盛报告指出，尽管美国财长贝森特试图通过扩大美债回购和财政整合稳定长端债市，但长债收益率短暂下行后反弹。油价单周涨逾 7%，10 年期盈亏平衡通胀率两周升近 10 个基点，而沃尔玛同店销售增速降至六年低点 2.6%，滞胀信号强化。",
       "confirmed": [
-        "贝森特宣布扩大美国长期国债回购。",
-        "黄金创三个月新高，现货黄金升破4600美元/盎司。",
-        "比特币单周涨幅超25%，创2023年3月以来最大单周涨幅。"
+        "高盛认为贝森特的政策工具难以化解财政与供需压力。",
+        "油价单周上涨超 7%，通胀预期上升。",
+        "沃尔玛同店销售增速降至六年低点 2.6%，消费降温。"
       ],
       "judgment": [
-        "美元贬值交易能否持续，取决于美联储政策和市场情绪。",
-        "美债回购的长期影响尚不明朗，可能加剧通胀压力。",
-        "比特币和黄金的上涨是否形成趋势，需要更多数据确认。"
+        "滞胀是否会持续，取决于油价和消费数据的后续走向。",
+        "美联储的货币政策反应，是否会因滞胀而陷入两难。",
+        "这对科技股估值的影响，尤其是高估值 AI 公司。"
       ],
-      "implication": "这对你的资产配置有直接影响。美元贬值预期下，黄金和比特币等避险资产可能继续走强，但波动性大。作为学生，你应关注宏观风险，合理配置现金和稳定币。同时，这一事件也反映了市场对财政政策的敏感，你的Agent项目若涉及金融数据，可加入此类宏观指标。"
+      "implication": "作为个人投资者或关注宏观经济，你需要警惕滞胀环境下的资产配置。AI 相关的高估值股票可能面临压力，建议关注现金流稳健的公司，并考虑黄金等硬资产对冲风险。"
     },
     {
       "rank": 5,
-      "domain": "大厂 AI 动态",
-      "id": "wscn:3780044",
-      "url": "https://wallstreetcn.com/articles/3780044",
-      "source": "华尔街见闻 API",
+      "domain": "AI",
+      "id": "bvid:BV1wugF6YEL3",
+      "url": "http://www.bilibili.com/video/av117089415204498",
+      "source": "Lau博士的云组会",
       "stars": 4,
-      "title": "苹果裁撤Siri与Vision Pro逾200个岗位，集中资源押注AI",
-      "lead": "苹果公司裁减约100个Vision Pro相关岗位及约100个Siri与软件工程岗位。Vision Pro游戏团队近乎解散，沉浸式视频部门缩减；Siri裁员源于技术架构全面切换，新版Siri将基于全新底层重建。此举显示苹果正集中资源押注AI。",
+      "title": "DeepSeek Harness 开源，Lau 博士解读：与 Claude Code 差距比想象大",
+      "lead": "DeepSeek 开源了其 Harness 工具链，B 站 UP 主 Lau 博士在视频中详细解读，并与 Claude Code 进行对比实测。结果显示，在相同模型下，DeepSeek Harness 在插件化、流程记录、缓存命中等方面表现优异，但整体与 Claude Code 仍有差距。",
       "confirmed": [
-        "苹果裁减约100个Vision Pro岗位和100个Siri岗位。",
-        "Vision Pro游戏团队近乎解散，沉浸式视频部门缩减。",
-        "Siri裁员源于技术架构全面切换，新版Siri将基于全新底层重建。"
+        "DeepSeek Harness 已开源，提供插件化源码流程。",
+        "Lau 博士视频中对比了 DeepSeek Harness 与 Claude Code 在相同模型下的表现。",
+        "DeepSeek Harness 在插件化、流程记录、缓存命中方面有优势。"
       ],
       "judgment": [
-        "苹果的AI战略是否能在Siri上取得突破，尚待产品验证。",
-        "Vision Pro的硬件业务是否被边缘化，或只是暂时调整。",
-        "裁员是否影响苹果的创新能力，需长期观察。"
+        "DeepSeek Harness 的生态成熟度与 Claude Code 相比如何，是否值得迁移。",
+        "其性能差距是否会在后续版本中缩小，特别是模型能力提升后。",
+        "对于个人开发者，DeepSeek Harness 的学习成本是否值得。"
       ],
-      "implication": "苹果的调整表明AI已成为其优先级，但Siri的落后局面短期难改。作为AI开发者，你可以关注新版Siri的架构，或许会开放更多接口。同时，Vision Pro的收缩可能影响空间计算生态，你的Agent项目若涉及AR/VR，需谨慎评估。"
+      "implication": "你正在做 Agent 项目，DeepSeek Harness 的开源提供了另一个工具链选择。建议观看 Lau 博士的视频，了解其具体实现和优缺点，也许能从中获得优化你工作流的灵感，比如缓存机制和插件化设计。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia披露持有SpaceX 210亿美元股份",
-      "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
-      "source": "joozio",
-      "one_liner": "Nvidia投资SpaceX，显示其向航天和卫星通信领域扩张，但非核心业务。"
+      "title": "Nvidia 大幅缩减对 OpenAI 的数据中心融资担保",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+      "source": "Reuters",
+      "one_liner": "Nvidia 对 OpenAI 的 2500 亿美元数据中心担保大幅缩水，反映 AI 基础设施投资风险重估。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "LG推出激光直写光刻机，进入芯片封装领域",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/lg-enters-chip-packaging-arena-with-laser-direct-imaging-machine-as-tsmcs-cowos-remains-constrained-maskless-machine-is-designed-to-pattern-fine-interconnects-trading-resolution-for-higher-throughput",
-      "source": "Anton Shilov",
-      "one_liner": "LG入局先进封装，可能缓解CoWoS产能紧张，但技术路线不同。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "美光承诺100亿美元建设美国研究实验室",
+      "title": "Micron 承诺 100 亿美元建设美国研究实验室",
       "url": "https://www.tomshardware.com/tech-industry/micron-commits-usd10-billion-to-new-us-based-research-labs-boise-hub-to-target-post-dram-and-nand-technologies-and-packaging",
-      "source": "Anton Shilov",
-      "one_liner": "美光重金投入下一代存储和封装，利好AI算力基础设施。"
+      "source": "Tom's Hardware",
+      "one_liner": "美光在博伊西投资 100 亿美元建研发中心，瞄准后 DRAM/NAND 技术，存储竞争升级。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "H200 AI GPU首次获批对华出口，但国产芯片已抢占市场",
+      "title": "LG 推出激光直写封装设备，挑战 TSMC CoWoS",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/lg-enters-chip-packaging-arena-with-laser-direct-imaging-machine-as-tsmcs-cowos-remains-constrained-maskless-machine-is-designed-to-pattern-fine-interconnects-trading-resolution-for-higher-throughput",
+      "source": "Tom's Hardware",
+      "one_liner": "LG 入局芯片封装，激光直写设备以分辨率换吞吐量，可能缓解 CoWoS 产能瓶颈。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "H200 终于获批进入中国，但国产芯片已抢占市场",
       "url": "https://www.tomshardware.com/pc-components/gpus/china-approves-first-nvidia-h200-deliveries-to-bytedance-and-tencent-under-case-by-case-import-licenses",
-      "source": "Luke James",
-      "one_liner": "Nvidia H200获准对华出口，但国产替代已形成，市场格局生变。"
+      "source": "Tom's Hardware",
+      "one_liner": "Nvidia H200 获准对字节跳动和腾讯出口，但为时已晚，国产 AI 芯片已占据市场。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Gemini 3.7 Flash发布",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "source": "thisisauserid",
-      "one_liner": "Google推出新模型，性能提升，但具体细节待测。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Demis Hassabis转任Google DeepMind董事长，Jeff Dean离职",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "source": "colesantiago",
-      "one_liner": "DeepMind领导层变动，可能影响AI研究方向。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "TikTok支付4亿美元和解儿童隐私诉讼",
-      "url": "https://www.theverge.com/tech/983531/tiktok-settle-doj-lawsuit-coppa",
-      "source": "Jay Peters",
-      "one_liner": "TikTok巨额和解，凸显AI时代数据合规风险。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "LinkedIn推出‘AI slop’按钮，超百万人使用",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
-      "source": "Jay Peters",
-      "one_liner": "用户对AI内容的反感催生新功能，AI内容治理成焦点。"
-    },
-    {
-      "domain": "股票",
-      "title": "30年期美债收益率创19年新高，突破5.31%",
-      "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
-      "source": "root-parent",
-      "one_liner": "长端利率飙升，对成长股估值构成压力。"
-    },
-    {
-      "domain": "股票",
-      "title": "OpenAI CFO称2027年将成为上市公司",
+      "title": "OpenAI 计划 2027 年上市，CFO 透露时间表",
       "url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html",
-      "source": "thm",
-      "one_liner": "OpenAI IPO时间表明确，AI投资热潮或再起。"
+      "source": "CNBC",
+      "one_liner": "OpenAI CFO 称公司将在 2027 年或更早上市，IPO 进程加速。"
     },
     {
-      "domain": "股票",
-      "title": "博通拟融资700-800亿美元支持Anthropic芯片采购",
-      "url": "https://wallstreetcn.com/articles/3780035",
-      "source": "华尔街见闻 API",
-      "one_liner": "AI算力融资规模巨大，金融杠杆风险累积。"
+      "domain": "大厂 AI 动态",
+      "title": "Google DeepMind 领导层变动：Hassabis 转任主席，Jeff Dean 离职",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source": "Google Blog",
+      "one_liner": "Demis Hassabis 从 CEO 转任主席，Jeff Dean 离开，DeepMind 进入新阶段。"
     },
     {
-      "domain": "股票",
-      "title": "Citadel已出售80%从Situational Awareness接手的AI股票",
-      "url": "https://wallstreetcn.com/articles/3780034",
-      "source": "华尔街见闻 API",
-      "one_liner": "机构对AI股风险敞口收缩，市场情绪谨慎。"
+      "domain": "大厂 AI 动态",
+      "title": "Apple 裁员 Vision Pro 和 Siri 团队",
+      "url": "https://www.theverge.com/tech/983451/apple-layoffs-vision-pro-siri",
+      "source": "The Verge",
+      "one_liner": "苹果裁减 Vision Pro 和 Siri 团队，显示硬件和 AI 助手战略调整。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "LinkedIn 的“AI 垃圾”按钮被点击超百万次",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+      "source": "The Verge",
+      "one_liner": "LinkedIn 推出的“AI 垃圾”反馈按钮已获超 100 万次点击，反映用户对 AI 内容的反感。"
     },
     {
       "domain": "金融",
-      "title": "Sticky wage norms and the real wage cost of unexpected inflation",
-      "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
-      "source": "jplusequalt",
-      "one_liner": "芝加哥大学论文，研究通胀对实际工资的影响，对宏观判断有参考。"
+      "title": "30 年期美债收益率突破 5.31%，创 19 年新高",
+      "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
+      "source": "CNBC",
+      "one_liner": "长期美债收益率飙升，市场对财政赤字和通胀的担忧加剧。"
     },
     {
       "domain": "金融",
-      "title": "AI Is Upending One of Finance's Cushiest Jobs",
-      "url": "https://www.bloomberg.com/news/features/2026-06-05/ai-is-upending-traditional-financial-advisor-jobs",
-      "source": "theriddlr",
-      "one_liner": "AI正在颠覆金融顾问行业，对职业规划有启示。"
+      "title": "高盛：Agent 进入执行时代，AI 竞争转向工作流",
+      "url": "https://wallstreetcn.com/articles/3780055",
+      "source": "华尔街见闻",
+      "one_liner": "高盛调研硅谷后总结，AI 从“回答”迈向“执行”，工作流掌控成为竞争焦点。"
+    },
+    {
+      "domain": "金融",
+      "title": "加拿大对美等额关税 9 月 8 日生效，贸易谈判破裂",
+      "url": "https://wallstreetcn.com/articles/3780061",
+      "source": "华尔街见闻",
+      "one_liner": "加美贸易谈判破裂，加拿大宣布等额报复性关税，全球贸易紧张升级。"
+    },
+    {
+      "domain": "股票",
+      "title": "Anthropic IPO 文件将把 AI 反弹列为风险因素",
+      "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+      "source": "CNBC",
+      "one_liner": "Anthropic 计划 IPO，但将 AI 反弹列为风险因素，显示行业不确定性。"
+    },
+    {
+      "domain": "股票",
+      "title": "高盛：存储“股价业绩差”最具吸引力，金融和硬资产成新热点",
+      "url": "https://wallstreetcn.com/articles/3780070",
+      "source": "华尔街见闻",
+      "one_liner": "高盛认为 AI 交易躺赢时代结束，存储和数据中心最具战术吸引力，金融和硬资产受青睐。"
+    },
+    {
+      "domain": "股票",
+      "title": "特斯拉 9 月 3 日发布 Cybercab，无方向盘无人驾驶车型",
+      "url": "https://wallstreetcn.com/articles/3780060",
+      "source": "华尔街见闻",
+      "one_liner": "特斯拉官宣 9 月 3 日发布 Cybercab，无方向盘和踏板，商业化许可待明确。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-22T05:31:14+0000"
+    "scored_at": "2026-08-23T04:28:55+0000"
   }
 }
