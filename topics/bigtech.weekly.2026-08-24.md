@@ -2,40 +2,30 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今日信号：Nvidia 对 AI 服务器涨价 15%，叠加高盛上调晶圆厂设备支出预测，算力成本与资本开支的上升周期得到确认。同时，OpenAI 筹备 IPO、Hugging Face 寻求出售，AI 基础设施层估值重估加速。对开发者而言，关注成本传导与工具链变化比追逐概念更重要。_
+_今日信号集中在算力成本与AI基础设施的再定价：Nvidia对AI服务器涨价15%，同时大幅缩减对OpenAI的融资担保，显示其从风险承担者转向利润收割者。高盛上调晶圆厂设备支出预测，三星发布zHBM路线图，半导体资本开支景气延续。金融端，对冲基金以关税战以来最快速度抛售美股，Hugging Face寻求超130亿美元出售，AI资产估值分歧加剧。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. DeepMind 校友创立的 Inherent 发布 Faraday，AI 复现科研论文能力超越 Anthropic 和 OpenAI
+### 1. Gemini 3.7 Flash发布
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
+**[大厂 AI 动态]** · ⭐⭐⭐ · _Google_
 
-英国 AI 实验室 Inherent 由 DeepMind 校友创立，其发布的 AI 智能体 Faraday 在复现科学论文方面表现优于 Anthropic 和 OpenAI 的模型。这可能成为 AI 驱动科研的新里程碑，对学术研究和工程实践有深远影响。
+Google新模型主打速度，但相比头条事件影响力较小。
 
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Inherent 由 DeepMind 校友创立，总部位于英国。 | Faraday 的复现能力是否具有普适性，尚需更多验证。 |
-| Faraday 是一个 AI 智能体，专注于复现科学论文。 | 其技术细节和可用性尚未公开，无法评估实际应用。 |
-| 在测试中，Faraday 的表现超过了 Anthropic 和 OpenAI 的模型。 | 对科研领域的实际影响取决于能否集成到现有工作流。 |
-
-**📖 主编点评**
-
-如果你从事科研或需要复现论文，Faraday 可能成为有力工具。建议关注其发布进展，并思考如何将其应用于你的项目。同时，这也展示了 AI 在科研领域的潜力，或许你可以探索类似的应用场景。
-
-📺 [打开原文](https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/)
+📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/)
 
 ---
 
 ## 📋 备选阅读
 
-- [Gemini 3.7 Flash 发布](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/) —— 新模型发布，但信息有限，未达头条标准。
-  _Google Blog_
-- [Demis Hassabis 转任 Google DeepMind 主席，Jeff Dean 离职](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/) —— 高层变动影响深远，但已有一段时间，非当日新闻。
-  _Google Blog_
-- [OpenAI 解散评估灾难性风险的团队](https://thenextweb.com/news/openai-preparedness-team-disbanded-ipo-streamlining) —— IPO 筹备中的组织调整，值得关注但非头条。
+- [OpenAI解散灾难性风险评估团队](https://thenextweb.com/news/openai-preparedness-team-disbanded-ipo-streamlining) —— IPO前精简架构，但可能引发安全担忧。
   _The Next Web_
+- [Hugging Face寻求出售，估值或超130亿美元](https://wallstreetcn.com/articles/3780119) —— AI基础设施层重新定价，战略买家愿意支付高溢价。
+  _华尔街见闻_
+- [Anthropic Opus 4.6被曝可绕过安全限制生成色情内容](https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/) —— 安全对齐仍是难题，但内容敏感，不适合作为头条。
+  _TechCrunch_
 
 ---
 
