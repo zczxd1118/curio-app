@@ -1,218 +1,215 @@
 {
-  "date": "2026-08-23",
-  "intro": "今日信号：Nvidia 在 ARC-AGI-3 上拿下 100%，证明 harness 比模型本身更关键；同时存储涨价潮波及英伟达服务器，AI 资本开支进入成本传导期。金融端，美债长端利率创 19 年新高，滞胀交易升温。你的 Agent 项目应关注 harness 层创新与成本优化。",
+  "date": "2026-08-24",
+  "intro": "今日信号：Nvidia 对 AI 服务器涨价 15%，叠加高盛上调晶圆厂设备支出预测，算力成本与资本开支的上升周期得到确认。同时，OpenAI 筹备 IPO、Hugging Face 寻求出售，AI 基础设施层估值重估加速。对开发者而言，关注成本传导与工具链变化比追逐概念更重要。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI 算力 / 半导体",
-      "id": "hn:49388268",
-      "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
-      "source": "rochansinha",
+      "id": "rss:https://www.tomshardware.com/pc-components/dram/nvidia-reportedly-warns-biggest-customers-of-15-percent-price-hikes-on-ai-servers",
+      "url": "https://www.tomshardware.com/pc-components/dram/nvidia-reportedly-warns-biggest-customers-of-15-percent-price-hikes-on-ai-servers",
+      "source": "Tom's Hardware",
       "stars": 5,
-      "title": "Nvidia AVO 在 ARC-AGI-3 上拿下 100%，harness 才是真正的英雄",
-      "lead": "Nvidia 的 AVO 架构在 ARC-AGI-3 交互推理基准上取得满分，这是首个达到该成绩的通用架构。TechCrunch 评论指出，这证明了 harness（工具链）而非模型本身才是当前 AI 突破的关键。对 Agent 开发者而言，这意味着优化工具链可能比换更大模型更有效。",
+      "title": "Nvidia 警告大客户 AI 服务器涨价 15%，算力成本传导开启",
+      "lead": "Nvidia 已通知部分大客户，2027 年初出货的 Grace Blackwell 和 Vera Rubin 系统将涨价超 15%，理由是内存成本持续飙升。这标志着 AI 算力定价权从 Nvidia 单点垄断向存储厂商联合定价的结构性转移，直接影响所有依赖 GPU 的开发者与企业的成本模型。",
       "confirmed": [
-        "Nvidia AVO 在 ARC-AGI-3 上达到 100% 准确率。",
-        "该成绩由 Nvidia 官方开发者博客宣布。",
-        "TechCrunch 发表评论文章，称 harness 是真正的英雄。",
-        "ARC-AGI-3 是交互式推理基准，测试长期自主 Agent 能力。"
+        "Nvidia 已向最大客户发出涨价预警，涉及 Grace Blackwell 和 Vera Rubin 系统，涨幅超 15%。",
+        "涨价将于 2027 年初生效，主要归因于内存（DRAM/HBM）成本持续上涨。",
+        "三星、SK 海力士、美光等存储厂商正同步扩大 HBM 产能，但短期供需仍紧张。"
       ],
       "judgment": [
-        "AVO 的满分是否可复现，尚未有第三方独立验证。",
-        "ARC-AGI-3 的分数与真实世界任务的相关性有待观察。",
-        "Nvidia 是否会将 AVO 商业化，或仅作为研究展示。",
-        "harness 与模型贡献度的具体量化仍不清晰。"
+        "涨价是否会被下游云厂商完全转嫁给最终用户，尚不确定。",
+        "Nvidia 是否会对长期大客户提供折扣或灵活定价，未明确。",
+        "内存成本上涨的持续性取决于存储厂商扩产节奏，存在不确定性。"
       ],
-      "implication": "你应该关注 harness 层的创新，比如 DeepSeek Harness 和 Nvidia AVO 这类项目。你的 content-curator 项目可以借鉴其插件化、流程记录和缓存命中设计，提升 Agent 的可靠性和效率。别只盯着模型版本，工具链的优化可能带来更大的边际收益。"
+      "implication": "如果你在规划 AI 项目或依赖云 GPU 资源，应重新评估长期成本预算。涨价可能传导至云服务价格，建议关注与云厂商的合同条款，或考虑提前锁定资源。同时，可关注国产算力替代方案，如华为昇腾等，以对冲成本风险。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "wscn:3780066",
-      "url": "https://wallstreetcn.com/articles/3780066",
-      "source": "华尔街见闻 API",
+      "domain": "AI",
+      "id": "bvid:BV1GRKJ6fEgn",
+      "url": "http://www.bilibili.com/video/av116934511239163",
+      "source": "AI超元域",
       "stars": 4,
-      "title": "存储芯片成本飙升，英伟达高端服务器明年涨价 15%",
-      "lead": "据知情人士透露，英伟达高端服务器（搭载 Vera Rubin 和 Grace Blackwell）将从明年初出货的系统开始涨价 15%，原因是存储芯片成本暴涨。代工厂已向微软、谷歌等大客户发出涨价通知。这标志着 AI 算力成本开始向终端传导。",
+      "title": "Kimi K3 编程实测：2.8 万亿参数接入 Claude Code，国产模型跻身第一梯队",
+      "lead": "月之暗面发布 Kimi K3，拥有 2.8 万亿参数和 100 万 Token 上下文窗口。UP 主将其接入 Claude Code 进行高难度编程实测，结果远超预期，认为国产模型已具备与顶级模型竞争的实力。这对依赖 Claude Code 的开发者意味着新的选择。",
       "confirmed": [
-        "涨价从明年初出货的系统开始生效。",
-        "影响范围包括 Vera Rubin 和 Grace Blackwell 芯片的系统。",
-        "代工厂已发出涨价通知。",
-        "涨价幅度为 15%。"
+        "Kimi K3 参数规模达 2.8 万亿，上下文窗口 100 万 Token。",
+        "实测中成功接入 Claude Code，完成 macOS 音乐播放器、游戏等开发任务。",
+        "UP 主评价其编程能力超越 Fable 5 和 GPT-5.6l，跻身世界第一梯队。"
       ],
       "judgment": [
-        "涨价是否会完全转嫁给最终客户，尚不确定。",
-        "存储成本上涨的持续性有待观察。",
-        "对云厂商的资本开支影响程度未知。",
-        "是否会影响 AI 应用定价，需进一步跟踪。"
+        "Kimi K3 在复杂项目中的稳定性和生态兼容性仍需更多验证。",
+        "其 API 价格与可用性尚未公布，实际使用成本未知。",
+        "UP 主主观评价可能带有倾向性，需等待第三方基准测试。"
       ],
-      "implication": "如果你在规划个人项目或实习工作，注意 AI 算力成本上升可能影响云服务价格。对于你的 Agent 项目，优化 token 使用和缓存策略会更重要。同时，关注存储相关股票和供应链动态，可能影响你的投资决策。"
+      "implication": "如果你在寻找 Claude Code 的替代或补充模型，Kimi K3 值得关注。建议在非关键项目上试用，评估其代码生成质量与成本。同时，关注其 API 开放进度，以便在合适时机集成到你的 Agent 工作流中。"
     },
     {
       "rank": 3,
-      "domain": "大厂 AI 动态",
-      "id": "hn:49289112",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "source": "thisisauserid",
+      "domain": "金融",
+      "id": "wscn:3780119",
+      "url": "https://wallstreetcn.com/articles/3780119",
+      "source": "华尔街见闻",
       "stars": 4,
-      "title": "Gemini 3.7 Flash 发布，Google 继续推进低成本高吞吐推理",
-      "lead": "Google 发布 Gemini 3.7 Flash，主打低延迟和高吞吐，适合大规模实时应用。这是 Google 在模型效率竞赛中的最新动作，直接对标 OpenAI 的 GPT-5 系列。对于开发者，这意味着更便宜的 API 调用和更快的响应。",
+      "title": "Hugging Face 寻求出售，估值超 130 亿美元，AI 基础设施层重估",
+      "lead": "AI 开发者平台 Hugging Face 正寻求出售，估值或超 130 亿美元，较 2023 年 45 亿美元融资估值增长近三倍。继 Stripe 收购 OpenRouter 后，市场对 AI 生态基础设施层的定价正在快速上升，战略买家愿意为不开发前沿模型的平台支付高溢价。",
       "confirmed": [
-        "Gemini 3.7 Flash 已正式发布。",
-        "官方博客介绍了其特性。",
-        "HN 上获得 968 分，关注度高。",
-        "定位为低成本、高吞吐模型。"
+        "Hugging Face 寻求出售，估值可能超过 130 亿美元。",
+        "该估值较 2023 年的 45 亿美元融资估值增长近三倍。",
+        "此前 Stripe 以约 80 亿美元收购 OpenRouter，显示 AI 基础设施层受追捧。"
       ],
       "judgment": [
-        "实际性能与价格尚未有第三方评测。",
-        "与 GPT-5 的对比优势不明确。",
-        "是否支持多模态，待确认。",
-        "API 可用性及定价细节未公布。"
+        "最终收购方和成交价格尚未确定，存在变数。",
+        "Hugging Face 的社区价值和商业模式能否支撑高估值，有待市场检验。",
+        "此次出售可能引发 AI 开发者平台的整合潮。"
       ],
-      "implication": "你应该关注 Gemini 3.7 Flash 的 API 定价和性能，它可能成为你个人项目的高性价比选择。特别是对于需要大量调用的场景，低成本模型能显著降低实验成本。建议在发布后尽快测试其与你的工作流的兼容性。"
+      "implication": "作为 AI 开发者，Hugging Face 是你常用的模型和数据集平台，其易主可能影响服务稳定性。建议关注收购进展，并考虑将关键工作流迁移到本地或多元化平台，以降低依赖风险。同时，这也表明 AI 基础设施层的商业价值正在被重估，或许你可以从中发现创业机会。"
     },
     {
       "rank": 4,
-      "domain": "股票",
-      "id": "wscn:3780070",
-      "url": "https://wallstreetcn.com/articles/3780070",
-      "source": "华尔街见闻 API",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "source": "TechCrunch",
       "stars": 4,
-      "title": "高盛：AI 交易“躺赢”时代结束，存储和数据中心最具战术吸引力",
-      "lead": "高盛报告指出，AI 交易的超额收益仅存于股价与盈利偏离时的精准低吸，存储和数据中心板块最具吸引力。市场正从单一 AI 叙事转向多点开花，动量因子转向软件、欧日银行、黄金矿商等。",
+      "title": "DeepMind 校友创立的 Inherent 发布 Faraday，AI 复现科研论文能力超越 Anthropic 和 OpenAI",
+      "lead": "英国 AI 实验室 Inherent 由 DeepMind 校友创立，其发布的 AI 智能体 Faraday 在复现科学论文方面表现优于 Anthropic 和 OpenAI 的模型。这可能成为 AI 驱动科研的新里程碑，对学术研究和工程实践有深远影响。",
       "confirmed": [
-        "高盛认为 AI 交易躺赢时代结束。",
-        "存储和数据中心最具战术吸引力。",
-        "动量因子转向软件、欧日银行、黄金矿商。",
-        "法国政治风险溢价被低估。"
+        "Inherent 由 DeepMind 校友创立，总部位于英国。",
+        "Faraday 是一个 AI 智能体，专注于复现科学论文。",
+        "在测试中，Faraday 的表现超过了 Anthropic 和 OpenAI 的模型。"
       ],
       "judgment": [
-        "高盛的观点是否准确，需市场验证。",
-        "存储板块的上涨持续性不确定。",
-        "欧日银行的结构性机遇是否成立。",
-        "黄金矿商估值修复空间大小。"
+        "Faraday 的复现能力是否具有普适性，尚需更多验证。",
+        "其技术细节和可用性尚未公开，无法评估实际应用。",
+        "对科研领域的实际影响取决于能否集成到现有工作流。"
       ],
-      "implication": "如果你关注投资，高盛的建议是关注存储和数据中心，但注意风险。对于你的个人项目，存储成本上升可能影响你的云支出，可以考虑优化存储策略。同时，多元化投资组合比单一押注 AI 更稳健。"
+      "implication": "如果你从事科研或需要复现论文，Faraday 可能成为有力工具。建议关注其发布进展，并思考如何将其应用于你的项目。同时，这也展示了 AI 在科研领域的潜力，或许你可以探索类似的应用场景。"
     },
     {
       "rank": 5,
-      "domain": "金融",
-      "id": "hn:49355142",
-      "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
-      "source": "jplusequalt",
+      "domain": "半导体",
+      "id": "wscn:3780121",
+      "url": "https://wallstreetcn.com/articles/3780121",
+      "source": "华尔街见闻",
       "stars": 3,
-      "title": "芝加哥大学研究：工资粘性使意外通胀对实际工资影响显著",
-      "lead": "芝加哥大学 BFI 发布工作论文，研究工资粘性如何影响意外通胀对实际工资的冲击。论文指出，当通胀意外上升时，名义工资调整缓慢，导致实际工资下降，这对低收入群体影响更大。该研究为理解当前通胀环境下的劳动力市场提供了新视角。",
+      "title": "三星发布三阶段 HBM 路线图，目标直指 3D zHBM 架构",
+      "lead": "三星在 Hot Chips 大会上公布 HBM 演进路线图，计划将 DRAM 直接堆叠在计算芯片上，实现 zHBM 架构。相比 HBM4E，zHBM 可降低 70% 功耗、提升 230% 带宽，并为 GPU 释放额外 100W 热功耗余量。这将是存储技术的重大突破。",
       "confirmed": [
-        "论文由芝加哥大学 BFI 发布。",
-        "研究工资粘性与意外通胀的关系。",
-        "发现实际工资成本显著。",
-        "HN 上获得 391 分。"
+        "三星在 Hot Chips 大会上发布三阶段 HBM 路线图。",
+        "zHBM 架构将 DRAM 垂直堆叠于计算芯片之上。",
+        "zHBM 相比 HBM4E 可实现 70% 功耗降低、230% 带宽提升。"
       ],
       "judgment": [
-        "研究结论是否适用于当前经济环境。",
-        "政策建议未明确。",
-        "样本范围和数据来源待考察。",
-        "对个人工资谈判的指导意义有限。"
+        "zHBM 的量产时间表尚未公布，可能面临技术挑战。",
+        "对现有 HBM 生态的影响需评估，包括与 Nvidia 等客户的适配。",
+        "三星能否按路线图推进，存在不确定性。"
       ],
-      "implication": "作为即将进入职场的你，理解工资粘性有助于在通胀环境下谈判薪资。但这条更偏学术，对你的日常项目帮助不大。可以快速浏览，了解宏观经济背景即可。"
+      "implication": "作为硬件爱好者，关注 HBM 技术演进有助于理解未来 GPU 性能提升。zHBM 若实现，将大幅提升 AI 计算效率，可能影响你的硬件选型。建议持续关注三星的进展，并评估其对整个半导体产业链的影响。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI",
-      "title": "DeepSeek Harness 开源，Lau博士解读：与 Claude Code 对比实测",
-      "url": "http://www.bilibili.com/video/av117089415204498",
-      "source": "Lau博士的云组会",
-      "one_liner": "DeepSeek 官方 harness 开源，插件化设计值得学习，但视频偏解读，深度有限。"
-    },
-    {
-      "domain": "AI",
-      "title": "【吴恩达2026】Vibe Coding保姆级教程，从环境搭建到工作流完整闭环",
-      "url": "http://www.bilibili.com/video/av116951003242391",
-      "source": "吴恩达AIAgent",
-      "one_liner": "吴恩达亲自讲解标准化 AI 软件开发流水线，对构建个人项目工作流有参考价值。"
-    },
-    {
-      "domain": "AI",
-      "title": "【入站必看】B站史上最全Codex零基础教程！90分钟入门到进阶！",
-      "url": "http://www.bilibili.com/video/av117131979134458",
-      "source": "GenJi是真想教会你",
-      "one_liner": "Codex 详细教程，含 22 个案例，适合想深入 Codex 的开发者，但时长较长。"
-    },
-    {
-      "domain": "AI",
-      "title": "别再二选一：Claude Code + Codex 联用才是最强姿势",
-      "url": "http://www.bilibili.com/video/av116537746791000",
-      "source": "星小脉",
-      "one_liner": "提出双工具联用思路，有实际案例，但观点较主观。"
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia 披露持有 SpaceX 210 亿美元股份",
+      "url": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html",
+      "source": "CNBC",
+      "one_liner": "Nvidia 投资 SpaceX，显示其业务多元化，但与你直接关联不大，故列备选。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia Nemotron 3.5 Lightning 和 NeMo Switchyard 发布",
-      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "source": "droidjj",
-      "one_liner": "Nvidia 新模型和工具链，但信息量有限，可能只是增量更新。"
+      "title": "Nvidia Nemotron 3.5 Lightning 发布，30B A3B 模型",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+      "source": "Hugging Face",
+      "one_liner": "新模型对开发者有参考价值，但非头条级，可关注其性能评测。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Micron 承诺 100 亿美元建设美国研究实验室，聚焦后 DRAM/NAND 技术",
-      "url": "https://www.tomshardware.com/tech-industry/micron-commits-usd10-billion-to-new-us-based-research-labs-boise-hub-to-target-post-dram-and-nand-technologies-and-packaging",
-      "source": "Anton Shilov",
-      "one_liner": "存储大厂重金押注未来技术，对半导体行业有长期影响，但短期无直接行动点。"
+      "title": "Nvidia AVO 在 ARC-AGI-3 基准上取得 100% 分数",
+      "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
+      "source": "NVIDIA Developer",
+      "one_liner": "AVO 架构在推理基准上表现出色，但距离实际应用尚远，备选。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "LG 进入芯片封装领域，推出激光直写光刻机",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/lg-enters-chip-packaging-arena-with-laser-direct-imaging-machine-as-tsmcs-cowos-remains-constrained-maskless-machine-is-designed-to-pattern-fine-interconnects-trading-resolution-for-higher-throughput",
-      "source": "Anton Shilov",
-      "one_liner": "LG 入局封装设备，可能缓解 CoWoS 产能瓶颈，但技术成熟度未知。"
+      "title": "高盛上调全球晶圆厂设备支出预测，2028 年达 2810 亿美元",
+      "url": "https://wallstreetcn.com/articles/3780123",
+      "source": "华尔街见闻",
+      "one_liner": "半导体资本开支景气周期延长，对行业是利好，但宏观数据不如具体产品有冲击力。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "YMTC 长江存储推进 IPO，需筹集资金满足 AI 内存需求",
+      "url": "https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo/",
+      "source": "EE Times",
+      "one_liner": "国产存储上市进程值得关注，但细节未明，备选。"
+    },
+    {
+      "domain": "AI",
+      "title": "Everything Claude Code：116K star 的配置项目实战",
+      "url": "http://www.bilibili.com/video/av116319122885806",
+      "source": "极客魔导师",
+      "one_liner": "Claude Code 进阶配置，对重度用户有参考价值，但非新闻性内容。"
+    },
+    {
+      "domain": "AI",
+      "title": "OpenClaw 调用 Claude Code 省 Token 技巧：Hooks 回调 + Agent Teams",
+      "url": "http://www.bilibili.com/video/av116046157647899",
+      "source": "AI超元域",
+      "one_liner": "实用技巧，但偏小众，适合备选。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "OpenAI 表示加州应加强 AI 安全法案 SB 53",
-      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
-      "source": "Anthony Ha",
-      "one_liner": "OpenAI 态度反转，支持更严监管，反映行业风向，但对你个人项目影响不大。"
+      "title": "Gemini 3.7 Flash 发布",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "source": "Google Blog",
+      "one_liner": "新模型发布，但信息有限，未达头条标准。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Apple 裁员 Siri 和 Vision Pro 团队，数百个岗位受影响",
-      "url": "https://www.theverge.com/tech/983451/apple-layoffs-vision-pro-siri",
-      "source": "Jay Peters",
-      "one_liner": "苹果收缩 AI 硬件投入，可能影响生态，但非核心。"
+      "title": "Demis Hassabis 转任 Google DeepMind 主席，Jeff Dean 离职",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source": "Google Blog",
+      "one_liner": "高层变动影响深远，但已有一段时间，非当日新闻。"
     },
     {
-      "domain": "股票",
-      "title": "高盛：Agent 进入执行时代，AI 竞争转向工作流，世界模型崛起",
-      "url": "https://wallstreetcn.com/articles/3780055",
-      "source": "华尔街见闻 API",
-      "one_liner": "高盛对 Agent 趋势的判断，与你的项目方向契合，值得一读。"
+      "domain": "大厂 AI 动态",
+      "title": "OpenAI 解散评估灾难性风险的团队",
+      "url": "https://thenextweb.com/news/openai-preparedness-team-disbanded-ipo-streamlining",
+      "source": "The Next Web",
+      "one_liner": "IPO 筹备中的组织调整，值得关注但非头条。"
     },
     {
-      "domain": "股票",
-      "title": "英伟达高端服务器涨价 15%，存储成本压力传导",
-      "url": "https://wallstreetcn.com/articles/3780066",
-      "source": "华尔街见闻 API",
-      "one_liner": "已入头条，备选重复，但可关注后续影响。"
+      "domain": "金融",
+      "title": "对冲基金以关税战以来最快速度抛售美股",
+      "url": "https://wallstreetcn.com/articles/3780109",
+      "source": "华尔街见闻",
+      "one_liner": "市场情绪转向，但与你直接关联不大，备选。"
+    },
+    {
+      "domain": "金融",
+      "title": "高盛：AI 动能衰退，欧日银行股与黄金股成下一轮主线",
+      "url": "https://wallstreetcn.com/articles/3780118",
+      "source": "华尔街见闻",
+      "one_liner": "投资策略转变，但非开发者核心关注点。"
     },
     {
       "domain": "金融",
       "title": "30 年期美债收益率突破 5.31%，创 19 年新高",
       "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
-      "source": "root-parent",
-      "one_liner": "宏观信号，影响风险资产估值，但与你日常项目关联度低。"
+      "source": "CNBC",
+      "one_liner": "宏观指标，影响融资成本，但间接。"
     },
     {
       "domain": "金融",
-      "title": "OpenAI 计划 2027 年上市，CFO 向员工透露",
-      "url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html",
-      "source": "thm",
-      "one_liner": "OpenAI IPO 时间表，对 AI 行业有影响，但短期无行动点。"
+      "title": "Uber 面临近 10 亿美元罚款，因自动暂停司机",
+      "url": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
+      "source": "TechCrunch",
+      "one_liner": "AI 监管案例，但与你关联度低。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-23T05:33:17+0000"
+    "scored_at": "2026-08-24T04:37:04+0000"
   }
 }
