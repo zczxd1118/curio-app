@@ -2,93 +2,95 @@
 
 > 你的私人主编 · 今日跨域精选 5 条头条 + 14 条备选
 
-_今日信号：英伟达Vera Rubin首测吞吐暴涨30倍，AI算力军备竞赛进入新阶段；同时Nvidia警告涨价15%，AI服务器成本飙升。金融端，字节发布“豆包工作”加入Agent大战，OpenAI IPO临近但人才流失成疑。半导体端，Hot Chips 2026揭示HBM4e技术瓶颈，存储涨价潮持续。_
+_今日核心信号：英伟达首次公布Vera Rubin实测数据，DeepSeek吞吐量暴涨30倍，同时宣布旗舰芯片涨价17%，并以投资换绑定加固AI霸主地位。另一边，OpenAI被曝解散风险团队、人才流失，IPO前暗流涌动。存储涨价潮席卷全球，三星、SK海力士加码中国NAND产能，DRAM价格飙升。字节跳动加入企业办公Agent大战，发布“豆包工作”。_
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 1. 英伟达Vera Rubin首测：DeepSeek吞吐暴涨30倍，Token成本暴降35倍
+### 1. 英伟达Vera Rubin首测：DeepSeek吞吐量暴涨30倍，Token成本暴降35倍
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _华尔街见闻 API_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _华尔街见闻_
 
-英伟达首次公布Vera Rubin NVL72片上实测数据，搭配DeepSeek-V4-Pro跑Agent编码任务，较GB300每兆瓦吞吐量最高飙升30倍，Token成本暴降35倍。同日，专为Agent设计的Vera CPU已被SpaceXAI规模化部署，并计划2028年送上太空。Groq加速器全面量产。
+英伟达首次公布Vera Rubin NVL72片上实测数据，搭配DeepSeek-V4-Pro跑Agent编码任务，较GB300每兆瓦吞吐量最高飙升30倍，Token成本暴降35倍。同日，专为Agent设计的Vera CPU已被SpaceXAI规模化部署，并计划2028年送上太空。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 英伟达首次公布Vera Rubin NVL72实测数据，搭配DeepSeek-V4-Pro跑Agent编码任务 | Vera Rubin实际商用性能是否与宣传一致，尚需第三方验证 |
-| 较GB300每兆瓦吞吐量最高飙升30倍，Token成本暴降35倍 | 30倍吞吐提升是否在真实负载下可复现，有待观察 |
-| Vera CPU已被SpaceXAI规模化部署，计划2028年送上太空 | SpaceXAI部署Vera CPU的具体应用场景和规模未披露 |
-| Groq加速器全面量产 | Groq加速器量产对市场格局的影响尚不明朗 |
+| 英伟达首次公布Vera Rubin NVL72片上实测数据，搭配DeepSeek-V4-Pro跑Agent编码任务。 | Vera Rubin的实际量产时间表尚未明确。 |
+| 较GB300每兆瓦吞吐量最高飙升30倍，Token成本暴降35倍。 | 30倍吞吐量提升是否能在真实负载下复现，仍需第三方验证。 |
+| 专为Agent设计的Vera CPU已被SpaceXAI规模化部署。 | SpaceXAI部署的具体规模和应用场景未披露。 |
+| Vera CPU计划2028年送上太空。 |  |
 
 **📖 主编点评**
 
-这是AI硬件性能跃迁的明确信号，你应关注Vera Rubin架构对Agent工作负载的优化思路，可能影响你未来选择云服务或本地部署策略。Token成本暴降35倍意味着Agent应用的经济性将大幅改善，你的content-curator项目可考虑基于此类硬件优化成本。
+你应该关注Vera Rubin的架构创新，特别是其针对Agent任务的优化。这可能是下一代推理芯片的标杆，对你做Agent产品有直接参考价值。建议仔细研究其技术博客，理解其如何实现如此大的吞吐量提升，或许能启发你在RAG或推理优化上的思路。
 
 📺 [打开原文](https://wallstreetcn.com/articles/3780194)
 
 ---
 
-### 3. Nvidia警告AI服务器涨价15%，内存成本飙升成主因
+## 🌟 大厂 AI 动态
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+### 2. OpenAI解散风险团队，IPO前人才流失加剧，CFO称2027年上市
 
-Nvidia已通知最大客户，AI服务器价格将上涨15%，主要原因是内存成本持续飙升。涨价将影响Grace Blackwell和Vera Rubin系统，预计明年初生效。
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _The Next Web_
 
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Nvidia已通知最大客户AI服务器涨价15% | 涨价是否会传导至最终用户，尚待观察 |
-| 涨价主要因内存成本飙升 | 内存成本飙升的持续时间不确定 |
-| 影响Grace Blackwell和Vera Rubin系统 | 其他硬件厂商是否会跟进涨价，尚不明朗 |
-| 涨价预计明年初生效 | 涨价对AI服务器需求的影响有待评估 |
-
-**📖 主编点评**
-
-AI服务器涨价将推高你的Agent项目部署成本，你应提前规划硬件预算或考虑使用云服务时锁定价格。同时，内存成本上升可能影响整个AI产业链，你需关注存储类股票和硬件供应商的动态。
-
-📺 [打开原文](https://www.tomshardware.com/pc-components/dram/nvidia-reportedly-warns-biggest-customers-of-15-percent-price-hikes-on-ai-servers)
-
----
-
-### 4. HBM4e遇技术瓶颈：SK海力士称混合键合未就绪，HBM5才用
-
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
-
-Hot Chips 2026上，SK海力士表示HBM4e不会采用混合键合技术，因为HBM立方体总厚度限制在775微米，混合键合尚未准备好。公司计划将混合键合用于HBM5，并继续使用MR-MUF技术支持Nvidia Rubin。
+OpenAI解散了负责评估灾难性模型风险的团队，同时多位高管离职，引发外界对IPO前治理的担忧。CFO Friar向员工表示，公司将在2027年或更早上市。此前OpenAI已完成70亿美元股份出售。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| SK海力士表示HBM4e不会采用混合键合技术 | HBM5采用混合键合的时间表尚不确定 |
-| HBM立方体总厚度限制在775微米 | 775微米厚度限制是否会被突破，有待观察 |
-| 混合键合计划用于HBM5 | MR-MUF技术能否满足未来性能需求，尚待验证 |
-| 继续使用MR-MUF技术支持Nvidia Rubin | 其他存储厂商是否跟进类似技术路线，尚不明朗 |
+| OpenAI解散了负责评估灾难性模型风险的团队。 | 解散风险团队是否意味着安全优先级下降，尚不明确。 |
+| CFO Friar告诉员工，OpenAI将在2027年或更早上市。 | 人才流失对OpenAI长期技术领先的影响未知。 |
+| OpenAI已完成70亿美元股份出售。 | IPO时间表可能因市场环境变化而调整。 |
+| 多位高管离职，包括安全团队成员。 |  |
 
 **📖 主编点评**
 
-HBM技术瓶颈将影响AI硬件性能提升速度，你应关注存储技术演进对AI模型训练和推理成本的影响。同时，SK海力士的技术路线选择可能影响存储市场格局，你需留意相关投资机会。
+OpenAI的IPO进程和内部动荡值得你持续关注，因为它可能影响整个AI生态的格局。你正在做Agent项目，OpenAI的模型和API策略变化会直接影响你的技术选型。建议留意其后续安全团队的动向，以及是否有新的替代方案出现。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-says-hybrid-bonding-wont-be-ready-for-hbm4e-as-ai-memory-runs-into-a-775-micron-ceiling)
+📺 [打开原文](https://thenextweb.com/news/openai-preparedness-team-disbanded-ipo-streamlining)
 
 ---
 
 ## 🌟 股票
 
-### 2. 字节加入企业办公Agent大战：发布“豆包工作”，与飞书深度打通
+### 3. 三星、SK海力士加码中国NAND产能，西安、大连工厂投资明年前陆续落地
 
-**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻 API_
+**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-字节跳动正式发布“豆包工作”，支持文档、PPT、视频、应用等多类型内容生成与编辑，并可在授权后直接操控电脑和浏览器跨软件完成任务。最大差异点在于与飞书深度打通，Agent争夺战进入“四国杀”。
+AI服务器需求爆发，韩国存储双雄加速押注中国产线。三星电子将西安工厂升级为280层V9 NAND量产基地，月产能剑指5万片，补充投资订单年底落地；SK海力士同步在大连第二工厂提速扩产，目标月产3万片。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 字节跳动发布“豆包工作”，支持多类型内容生成与编辑 | “豆包工作”实际用户体验和功能完成度尚未评测 |
-| 可在授权后直接操控电脑和浏览器跨软件完成任务 | 与飞书深度打通的具体集成深度和场景尚不明确 |
-| 与飞书深度打通 | Agent办公市场竞争格局将如何演变，有待观察 |
-| 腾讯、阿里、百度之后字节正式登场 | 字节的Agent能力是否优于腾讯、阿里、百度，尚需对比 |
+| 三星电子将西安工厂升级为280层V9 NAND量产基地。 | 美国施压韩国企业赴美建厂，可能影响中国工厂的扩产计划。 |
+| 三星西安工厂月产能目标5万片，补充投资订单年底落地。 | 中国NAND产能增加对全球存储价格的影响尚待观察。 |
+| SK海力士在大连第二工厂提速扩产，目标月产3万片。 | 三星和SK海力士的扩产能否按期完成存在不确定性。 |
+| AI服务器需求爆发是主要驱动力。 |  |
 
 **📖 主编点评**
 
-企业办公Agent赛道竞争白热化，你作为AI产品爱好者，应关注“豆包工作”与飞书集成的实际体验，这可能影响你未来工具选型。同时，字节的入局意味着Agent应用场景将进一步扩展，你的content-curator项目可借鉴其跨软件操作思路。
+存储芯片涨价潮已经影响到你日常的硬件采购，比如DDR5内存价格飙升。关注三星和SK海力士在中国扩产，可能缓解未来的供应紧张。如果你有DIY电脑或服务器需求，建议关注存储价格走势，适时入手。
+
+📺 [打开原文](https://wallstreetcn.com/articles/3780197)
+
+---
+
+### 4. 字节加入企业办公Agent大战：发布“豆包工作”，与飞书深度打通
+
+**[股票]** · ⭐⭐⭐⭐ · _华尔街见闻_
+
+Agent争夺战进入“四国杀”，腾讯、阿里、百度之后字节正式登场。字节推出“豆包工作”，支持文档、PPT、视频、应用等多类型内容生成与编辑，并可在授权后直接操控电脑和浏览器跨软件完成任务。最大差异点在于与飞书深度打通。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 字节推出“豆包工作”，支持文档、PPT、视频、应用等多类型内容生成与编辑。 | 豆包工作与飞书的整合深度如何，尚未有详细评测。 |
+| 豆包工作可在授权后直接操控电脑和浏览器跨软件完成任务。 | 企业办公Agent市场的竞争格局尚不明朗。 |
+| 豆包工作与飞书深度打通。 | 字节的Agent能力是否优于竞争对手，需要实际体验。 |
+| 腾讯、阿里、百度已先发布企业办公Agent。 |  |
+
+**📖 主编点评**
+
+你正在做Agent项目，字节的“豆包工作”是一个值得研究的案例。它展示了如何将Agent与办公场景深度结合。建议你体验一下，看看其操控电脑和浏览器的实现方式，或许能给你带来产品设计上的灵感。
 
 📺 [打开原文](https://wallstreetcn.com/articles/3780216)
 
@@ -96,24 +98,24 @@ HBM技术瓶颈将影响AI硬件性能提升速度，你应关注存储技术演
 
 ## 🌟 金融
 
-### 5. 芝加哥大学研究：工资粘性与意外通胀的真实工资成本
+### 5. 美债“铁索连舟”：日欧深陷滞胀，长端利率上行本质是一场挤兑
 
-**[金融]** · ⭐⭐⭐ · _Hacker News_
+**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-芝加哥大学BFI发布工作论文，研究工资粘性如何影响意外通胀对真实工资的冲击。论文指出，当通胀意外上升时，工资调整滞后导致实际工资下降，对低收入群体影响更大。
+财通宏观张伟团队认为，美国通过让日本、欧洲大规模持有美债，将盟友财政与自身深度捆绑——此即“铁索连舟”。经济上行时铁索稳固，一旦遭遇全球滞胀，一船起火、众船遭殃。日欧深陷滞胀困境，财政承压、汇率受损，购债能力持续下滑，美债海外需求缺口显现。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 芝加哥大学BFI发布工作论文 | 研究结论是否适用于当前经济环境，尚需验证 |
-| 研究工资粘性与意外通胀的关系 | 政策建议尚不明确 |
-| 发现工资调整滞后导致实际工资下降 | 工资粘性程度在不同国家可能不同 |
-| 对低收入群体影响更大 | 研究数据范围有限 |
+| 美国通过让日本、欧洲大规模持有美债，将盟友财政与自身深度捆绑。 | “铁索连舟”的比喻是否准确，存在争议。 |
+| 日欧深陷滞胀困境，财政承压、汇率受损。 | 日欧购债能力下滑的具体程度难以量化。 |
+| 美债海外需求缺口显现。 | 美债利率上行是否会引发系统性风险，尚待观察。 |
+| 长端利率快速上行。 |  |
 
 **📖 主编点评**
 
-通胀环境下，你的实际购买力可能被侵蚀，应关注工资调整机制。作为个人，你可以考虑投资抗通胀资产，如黄金或通胀挂钩债券。同时，理解工资粘性有助于你职业规划，选择薪资调整更灵活的工作。
+美债利率上行对全球资产价格都有影响，包括你关注的科技股。理解这个逻辑有助于你判断市场风险。如果你有投资，建议关注美债收益率走势，以及它对成长股估值的压力。
 
-📺 [打开原文](https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf)
+📺 [打开原文](https://wallstreetcn.com/articles/3780206)
 
 ---
 
@@ -121,43 +123,43 @@ HBM技术瓶颈将影响AI硬件性能提升速度，你应关注存储技术演
 
 ### AI 算力 / 半导体
 
-- [Nvidia AVO scores 100% on ARC-AGI-3 benchmark](https://twitter.com/NVIDIAAI/status/2090786258981466231) —— Nvidia AVO在ARC-AGI-3上满分，但基准可靠性存疑，谨慎看待。
-  _Hacker News_
-- [Nvidia discloses $21B stake in SpaceX](https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/) —— Nvidia投资SpaceX，跨界布局太空AI，值得关注但非直接相关。
-  _Ars Technica_
-- [Intel Xeon 7 'Diamond Rapids' with 256 P-cores](https://www.tomshardware.com/pc-components/cpus/intel-xeon-7-diamond-rapids-comes-with-up-to-256-p-cores-1-28-gb-of-last-level-cache-next-gen-18a-p-cpu-also-brings-avx-10-2-and-uses-ucie-s-instead-of-emib) —— Intel新Xeon核心数翻倍，但AI市场影响有限，备选。
+- [Nvidia AVO scores 100% on the ARC-AGI-3 interactive reasoning benchmark](https://twitter.com/NVIDIAAI/status/2090786258981466231) —— 英伟达AVO在ARC-AGI-3上取得100%成绩，但该基准的权威性存疑，且尚未有第三方验证。
+  _NVIDIA AI_
+- [Nvidia customers notified about AI-related price hikes above 15%](https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/) —— 英伟达通知客户涨价超15%，影响Grace Blackwell和Vera Rubin系统，反映存储成本压力。
+  _Reuters_
+- [Hot Chips 2026: Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache](https://www.tomshardware.com/pc-components/cpus/intel-xeon-7-diamond-rapids-comes-with-up-to-256-p-cores-1-28-gb-of-last-level-cache-next-gen-18a-p-cpu-also-brings-avx-10-2-and-uses-ucie-s-instead-of-emib) —— Intel下一代Xeon Diamond Rapids曝光，256核和1.28GB缓存，但离上市还早，适合关注。
   _Tom's Hardware_
-- [SK hynix pushes hybrid bonding to HBM5](https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-says-hybrid-bonding-wont-be-ready-for-hbm4e-as-ai-memory-runs-into-a-775-micron-ceiling) —— HBM技术路线图更新，影响AI硬件性能，但细节不足。
+- [SK hynix pushes hybrid bonding to HBM5 as AI memory hits 775-micron ceiling](https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-says-hybrid-bonding-wont-be-ready-for-hbm4e-as-ai-memory-runs-into-a-775-micron-ceiling) —— SK海力士将混合键合推迟到HBM5，HBM4E仍用MR-MUF，影响AI内存路线图。
   _Tom's Hardware_
 
 ### 大厂 AI 动态
 
-- [Gemini 3.7 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/) —— Google发布新模型，但信息有限，可能只是增量更新。
-  _Hacker News_
-- [Demis Hassabis moves from CEO to Chairman at Google DeepMind](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/) —— DeepMind领导层变动，影响深远但非即时行动。
-  _Hacker News_
-- [OpenAI is building AI agents for everything](https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/) —— OpenAI全面押注Agent，但缺乏具体细节，备选。
-  _TechCrunch_
-- [Hugging Face reportedly in talks to be acquired for $13B](https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/) —— Hugging Face或被收购，影响开源社区，但未确认。
-  _TechCrunch_
+- [Gemini 3.7 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/) —— Google发布Gemini 3.7 Flash，性能提升，但具体细节未披露，值得关注。
+  _Google_
+- [Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs](https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/) —— DeepMind高层变动，Hassabis转任主席，Jeff Dean离开，影响AI研究方向。
+  _Google_
+- [Codex on AWS bedrock bug causing 10x charges](https://github.com/openai/codex/issues/37674) —— OpenAI Codex在AWS Bedrock上存在计费bug，导致10倍费用，开发者需注意。
+  _GitHub_
 
 ### 股票
 
-- [Citadel：算力稀缺仍是AI最大瓶颈](https://wallstreetcn.com/articles/3780212) —— Citadel观点印证算力为王，但无新数据。
-  _华尔街见闻 API_
-- [三星、SK海力士加码中国NAND产能](https://wallstreetcn.com/articles/3780197) —— 存储扩产影响供应，但细节有限。
-  _华尔街见闻 API_
-- [黄仁勋不停歇：芯片、数据中心、模型三线并进](https://wallstreetcn.com/articles/3780204) —— Nvidia投资布局广泛，但头条已覆盖核心。
-  _华尔街见闻 API_
+- [Citadel：算力稀缺仍是AI最大瓶颈，超大规模云厂商或成最终赢家](https://wallstreetcn.com/articles/3780212) —— Citadel分析认为算力比模型更重要，云厂商将受益，对AI投资有参考价值。
+  _华尔街见闻_
+- [黄仁勋不停歇：芯片、数据中心、模型三线并进，英伟达以投资换锁定加固AI霸主地位](https://wallstreetcn.com/articles/3780204) —— 英伟达投资Perplexity、Poolside，并布局电力，以投资换绑定，巩固护城河。
+  _华尔街见闻_
+- [过去三周，投资机构买入黄金期货规模创纪录！](https://wallstreetcn.com/articles/3780196) —— 黄金期货净买入222亿美元创十年新高，避险情绪升温，但短期仓位过热。
+  _华尔街见闻_
+- [高盛对冲基金业务主管：油价比杰克逊霍尔美联储年会重要，英伟达是本周焦点](https://wallstreetcn.com/articles/3780195) —— 高盛认为油价和英伟达财报比美联储更重要，建议做多金融和工业。
+  _华尔街见闻_
 
 ### 金融
 
-- [30-year Treasury yield tops 5.31%, highest in 19 years](https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html) —— 长端利率飙升，影响融资成本，但非AI直接相关。
-  _Hacker News_
-- [OpenAI 'will be a public company in 2027' or sooner](https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html) —— OpenAI IPO时间表明确，但人才流失问题更值得关注。
-  _Hacker News_
-- [AI is hitting entry-level jobs hardest, Stanford study finds](https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/) —— AI对入门级工作冲击大，对你有职业启示，但非头条。
-  _Ars Technica_
+- [Sticky wage norms and the real wage cost of unexpected inflation](https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf) —— 芝加哥大学论文研究工资粘性与通胀关系，对宏观判断有参考价值。
+  _UChicago_
+- [Nearly 3M Teslas recalled in China over hidden door handles](https://www.bbc.com/news/articles/c4g6ggdg030o) —— 特斯拉在华召回近300万辆，涉及隐藏式门把手，影响品牌和销量。
+  _BBC_
+- [Meta faces 'astronomical' consequences as legal fight reaches critical moment](https://www.cnbc.com/2026/08/17/meta-attorneys-general-california-federal-trial-astronomical-consequences.html) —— Meta面临法律诉讼，可能影响其业务，值得关注。
+  _CNBC_
 
 ---
 

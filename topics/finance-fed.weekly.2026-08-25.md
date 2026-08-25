@@ -2,41 +2,41 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今日信号：英伟达Vera Rubin首测吞吐暴涨30倍，AI算力军备竞赛进入新阶段；同时Nvidia警告涨价15%，AI服务器成本飙升。金融端，字节发布“豆包工作”加入Agent大战，OpenAI IPO临近但人才流失成疑。半导体端，Hot Chips 2026揭示HBM4e技术瓶颈，存储涨价潮持续。_
+_今日核心信号：英伟达首次公布Vera Rubin实测数据，DeepSeek吞吐量暴涨30倍，同时宣布旗舰芯片涨价17%，并以投资换绑定加固AI霸主地位。另一边，OpenAI被曝解散风险团队、人才流失，IPO前暗流涌动。存储涨价潮席卷全球，三星、SK海力士加码中国NAND产能，DRAM价格飙升。字节跳动加入企业办公Agent大战，发布“豆包工作”。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. 芝加哥大学研究：工资粘性与意外通胀的真实工资成本
+### 5. 美债“铁索连舟”：日欧深陷滞胀，长端利率上行本质是一场挤兑
 
-**[金融]** · ⭐⭐⭐ · _Hacker News_
+**[金融]** · ⭐⭐⭐⭐ · _华尔街见闻_
 
-芝加哥大学BFI发布工作论文，研究工资粘性如何影响意外通胀对真实工资的冲击。论文指出，当通胀意外上升时，工资调整滞后导致实际工资下降，对低收入群体影响更大。
+财通宏观张伟团队认为，美国通过让日本、欧洲大规模持有美债，将盟友财政与自身深度捆绑——此即“铁索连舟”。经济上行时铁索稳固，一旦遭遇全球滞胀，一船起火、众船遭殃。日欧深陷滞胀困境，财政承压、汇率受损，购债能力持续下滑，美债海外需求缺口显现。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 芝加哥大学BFI发布工作论文 | 研究结论是否适用于当前经济环境，尚需验证 |
-| 研究工资粘性与意外通胀的关系 | 政策建议尚不明确 |
-| 发现工资调整滞后导致实际工资下降 | 工资粘性程度在不同国家可能不同 |
-| 对低收入群体影响更大 | 研究数据范围有限 |
+| 美国通过让日本、欧洲大规模持有美债，将盟友财政与自身深度捆绑。 | “铁索连舟”的比喻是否准确，存在争议。 |
+| 日欧深陷滞胀困境，财政承压、汇率受损。 | 日欧购债能力下滑的具体程度难以量化。 |
+| 美债海外需求缺口显现。 | 美债利率上行是否会引发系统性风险，尚待观察。 |
+| 长端利率快速上行。 |  |
 
 **📖 主编点评**
 
-通胀环境下，你的实际购买力可能被侵蚀，应关注工资调整机制。作为个人，你可以考虑投资抗通胀资产，如黄金或通胀挂钩债券。同时，理解工资粘性有助于你职业规划，选择薪资调整更灵活的工作。
+美债利率上行对全球资产价格都有影响，包括你关注的科技股。理解这个逻辑有助于你判断市场风险。如果你有投资，建议关注美债收益率走势，以及它对成长股估值的压力。
 
-📺 [打开原文](https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf)
+📺 [打开原文](https://wallstreetcn.com/articles/3780206)
 
 ---
 
 ## 📋 备选阅读
 
-- [30-year Treasury yield tops 5.31%, highest in 19 years](https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html) —— 长端利率飙升，影响融资成本，但非AI直接相关。
-  _Hacker News_
-- [OpenAI 'will be a public company in 2027' or sooner](https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html) —— OpenAI IPO时间表明确，但人才流失问题更值得关注。
-  _Hacker News_
-- [AI is hitting entry-level jobs hardest, Stanford study finds](https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/) —— AI对入门级工作冲击大，对你有职业启示，但非头条。
-  _Ars Technica_
+- [Sticky wage norms and the real wage cost of unexpected inflation](https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf) —— 芝加哥大学论文研究工资粘性与通胀关系，对宏观判断有参考价值。
+  _UChicago_
+- [Nearly 3M Teslas recalled in China over hidden door handles](https://www.bbc.com/news/articles/c4g6ggdg030o) —— 特斯拉在华召回近300万辆，涉及隐藏式门把手，影响品牌和销量。
+  _BBC_
+- [Meta faces 'astronomical' consequences as legal fight reaches critical moment](https://www.cnbc.com/2026/08/17/meta-attorneys-general-california-federal-trial-astronomical-consequences.html) —— Meta面临法律诉讼，可能影响其业务，值得关注。
+  _CNBC_
 
 ---
 
