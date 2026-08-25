@@ -1,222 +1,225 @@
 {
-  "date": "2026-08-24",
-  "intro": "今日信号集中在算力成本与AI基础设施的再定价：Nvidia对AI服务器涨价15%，同时大幅缩减对OpenAI的融资担保，显示其从风险承担者转向利润收割者。高盛上调晶圆厂设备支出预测，三星发布zHBM路线图，半导体资本开支景气延续。金融端，对冲基金以关税战以来最快速度抛售美股，Hugging Face寻求超130亿美元出售，AI资产估值分歧加剧。",
+  "date": "2026-08-25",
+  "intro": "今日信号：英伟达Vera Rubin首测吞吐暴涨30倍，AI算力军备竞赛进入新阶段；同时Nvidia警告涨价15%，AI服务器成本飙升。金融端，字节发布“豆包工作”加入Agent大战，OpenAI IPO临近但人才流失成疑。半导体端，Hot Chips 2026揭示HBM4e技术瓶颈，存储涨价潮持续。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/pc-components/dram/nvidia-reportedly-warns-biggest-customers-of-15-percent-price-hikes-on-ai-servers",
-      "url": "https://www.tomshardware.com/pc-components/dram/nvidia-reportedly-warns-biggest-customers-of-15-percent-price-hikes-on-ai-servers",
-      "source": "Tom's Hardware",
+      "id": "wscn:3780194",
+      "url": "https://wallstreetcn.com/articles/3780194",
+      "source": "华尔街见闻 API",
       "stars": 5,
-      "title": "Nvidia警告大客户AI服务器涨价15%，算力成本转嫁开启",
-      "lead": "Nvidia已通知核心客户，2027年初出货的Grace Blackwell和Vera Rubin系统将涨价超15%，理由是内存成本持续飙升。这标志着AI算力定价权从Nvidia单点垄断向Nvidia与存储厂商联合定价的结构性迁移，直接影响所有AI基础设施的TCO。",
+      "title": "英伟达Vera Rubin首测：DeepSeek吞吐暴涨30倍，Token成本暴降35倍",
+      "lead": "英伟达首次公布Vera Rubin NVL72片上实测数据，搭配DeepSeek-V4-Pro跑Agent编码任务，较GB300每兆瓦吞吐量最高飙升30倍，Token成本暴降35倍。同日，专为Agent设计的Vera CPU已被SpaceXAI规模化部署，并计划2028年送上太空。Groq加速器全面量产。",
       "confirmed": [
-        "Nvidia已向最大客户发出涨价预警，涉及Grace Blackwell和Vera Rubin系统",
-        "涨价幅度超过15%，将于2027年初生效",
-        "内存成本持续上涨是主要驱动因素",
-        "高盛报告同步上调2026-2028年晶圆厂设备支出预测至1500亿/2180亿/2810亿美元"
+        "英伟达首次公布Vera Rubin NVL72实测数据，搭配DeepSeek-V4-Pro跑Agent编码任务",
+        "较GB300每兆瓦吞吐量最高飙升30倍，Token成本暴降35倍",
+        "Vera CPU已被SpaceXAI规模化部署，计划2028年送上太空",
+        "Groq加速器全面量产"
       ],
       "judgment": [
-        "涨价是否会被大客户（如微软、Meta）全盘接受，还是引发定制芯片加速替代",
-        "内存成本上涨是短期供需失衡还是长期结构性变化",
-        "Nvidia的定价权是否因OpenAI融资担保缩减而受到削弱",
-        "涨价对AI应用毛利率的传导速度和幅度"
+        "Vera Rubin实际商用性能是否与宣传一致，尚需第三方验证",
+        "30倍吞吐提升是否在真实负载下可复现，有待观察",
+        "SpaceXAI部署Vera CPU的具体应用场景和规模未披露",
+        "Groq加速器量产对市场格局的影响尚不明朗"
       ],
-      "implication": "你正在做的Agent项目如果依赖云端API，成本会随算力涨价而上升。建议关注Nvidia的GPU租赁价格走势，考虑将推理负载迁移到更便宜的国产卡或量化模型。同时，这个涨价信号也意味着AI基础设施投资依然火热，你的简历上如果有相关项目经验会更有价值。"
+      "implication": "这是AI硬件性能跃迁的明确信号，你应关注Vera Rubin架构对Agent工作负载的优化思路，可能影响你未来选择云服务或本地部署策略。Token成本暴降35倍意味着Agent应用的经济性将大幅改善，你的content-curator项目可考虑基于此类硬件优化成本。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "hn:49323686",
-      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
-      "source": "Reuters",
-      "stars": 5,
-      "title": "Nvidia大幅缩减对OpenAI数据中心融资担保，AI军备竞赛现裂痕",
-      "lead": "据WSJ报道，Nvidia将大幅减少对OpenAI 2500亿美元数据中心项目的融资担保。此前Nvidia作为'最后担保人'为OpenAI的算力扩张背书，如今态度转变，可能反映Nvidia对OpenAI回报前景的担忧，或自身现金流压力。这一变化可能影响OpenAI的算力获取能力，并重塑AI产业格局。",
+      "domain": "股票",
+      "id": "wscn:3780216",
+      "url": "https://wallstreetcn.com/articles/3780216",
+      "source": "华尔街见闻 API",
+      "stars": 4,
+      "title": "字节加入企业办公Agent大战：发布“豆包工作”，与飞书深度打通",
+      "lead": "字节跳动正式发布“豆包工作”，支持文档、PPT、视频、应用等多类型内容生成与编辑，并可在授权后直接操控电脑和浏览器跨软件完成任务。最大差异点在于与飞书深度打通，Agent争夺战进入“四国杀”。",
       "confirmed": [
-        "Nvidia已大幅减少对OpenAI数据中心融资的担保额度",
-        "该数据中心项目总规模达2500亿美元",
-        "Nvidia同时披露持有SpaceX 210亿美元股份，显示资金配置多元化"
+        "字节跳动发布“豆包工作”，支持多类型内容生成与编辑",
+        "可在授权后直接操控电脑和浏览器跨软件完成任务",
+        "与飞书深度打通",
+        "腾讯、阿里、百度之后字节正式登场"
       ],
       "judgment": [
-        "Nvidia缩减担保是出于风险控制还是战略转向（如扶持其他客户）",
-        "OpenAI能否找到替代融资渠道，维持算力扩张速度",
-        "这是否预示着AI泡沫的早期信号，还是Nvidia的理性调整",
-        "对OpenAI IPO估值和上市进程的影响"
+        "“豆包工作”实际用户体验和功能完成度尚未评测",
+        "与飞书深度打通的具体集成深度和场景尚不明确",
+        "Agent办公市场竞争格局将如何演变，有待观察",
+        "字节的Agent能力是否优于腾讯、阿里、百度，尚需对比"
       ],
-      "implication": "你关注AI Agent开发，OpenAI的算力稳定性直接影响API服务和模型迭代。如果OpenAI因资金问题放缓，你可能需要考虑多模型策略，避免依赖单一供应商。同时，Nvidia的举动也提醒你，AI基础设施的金融杠杆风险不容忽视，个人项目应控制成本。"
+      "implication": "企业办公Agent赛道竞争白热化，你作为AI产品爱好者，应关注“豆包工作”与飞书集成的实际体验，这可能影响你未来工具选型。同时，字节的入局意味着Agent应用场景将进一步扩展，你的content-curator项目可借鉴其跨软件操作思路。"
     },
     {
       "rank": 3,
-      "domain": "AI",
-      "id": "bvid:BV1GRKJ6fEgn",
-      "url": "http://www.bilibili.com/video/av116934511239163",
-      "source": "AI超元域",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/pc-components/dram/nvidia-reportedly-warns-biggest-customers-of-15-percent-price-hikes-on-ai-servers",
+      "url": "https://www.tomshardware.com/pc-components/dram/nvidia-reportedly-warns-biggest-customers-of-15-percent-price-hikes-on-ai-servers",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "Kimi K3编程能力实测：国产模型跻身世界第一梯队",
-      "lead": "月之暗面发布Kimi K3，拥有2.8万亿参数和100万Token上下文窗口。UP主将其接入Claude Code进行全方位实测，包括开发macOS音乐播放器和iOS游戏，结果远超预期。Kimi K3在编程任务上的表现被认为可与Fable 5和GPT-5.6l竞争，国产模型在代码生成领域实现突破。",
+      "title": "Nvidia警告AI服务器涨价15%，内存成本飙升成主因",
+      "lead": "Nvidia已通知最大客户，AI服务器价格将上涨15%，主要原因是内存成本持续飙升。涨价将影响Grace Blackwell和Vera Rubin系统，预计明年初生效。",
       "confirmed": [
-        "Kimi K3拥有2.8万亿参数和100万Token上下文窗口",
-        "实测中成功接入Claude Code，完成macOS音乐播放器、iOS游戏等开发任务",
-        "UP主评价其编程能力超越预期，可对标国际顶级模型"
+        "Nvidia已通知最大客户AI服务器涨价15%",
+        "涨价主要因内存成本飙升",
+        "影响Grace Blackwell和Vera Rubin系统",
+        "涨价预计明年初生效"
       ],
       "judgment": [
-        "Kimi K3的编程能力在复杂、长尾任务上的稳定性如何",
-        "国产模型在工具调用和Agent工作流中的生态成熟度",
-        "Kimi K3的API定价和可用性，是否适合个人开发者",
-        "与Claude Code等工具的集成是否顺畅，有无坑点"
+        "涨价是否会传导至最终用户，尚待观察",
+        "内存成本飙升的持续时间不确定",
+        "其他硬件厂商是否会跟进涨价，尚不明朗",
+        "涨价对AI服务器需求的影响有待评估"
       ],
-      "implication": "你正在用Claude Code做项目，Kimi K3可能是一个高性价比的替代或补充。建议关注其API开放情况，测试它在你的工作流中的表现。如果Kimi K3的代码生成质量足够高，可以降低你的API成本，尤其是长上下文任务。"
+      "implication": "AI服务器涨价将推高你的Agent项目部署成本，你应提前规划硬件预算或考虑使用云服务时锁定价格。同时，内存成本上升可能影响整个AI产业链，你需关注存储类股票和硬件供应商的动态。"
     },
     {
       "rank": 4,
-      "domain": "金融",
-      "id": "wscn:3780109",
-      "url": "https://wallstreetcn.com/articles/3780109",
-      "source": "华尔街见闻",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-says-hybrid-bonding-wont-be-ready-for-hbm4e-as-ai-memory-runs-into-a-775-micron-ceiling",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-says-hybrid-bonding-wont-be-ready-for-hbm4e-as-ai-memory-runs-into-a-775-micron-ceiling",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "对冲基金以关税战以来最快速度抛售美股，AI板块遭最大规模卖出",
-      "lead": "高盛数据显示，对冲基金上周净卖出规模创'关税日'以来最大，净杠杆率大幅下滑3.0个百分点至48.3%，为一年新低。信息技术板块遭最大规模抛售，公用事业创五年罕见净卖出记录。摩根士丹利证实，这是过去12个月全球股票抛售第二大周。英伟达财报与杰克逊霍尔会议成为市场下一个关键考验。",
+      "title": "HBM4e遇技术瓶颈：SK海力士称混合键合未就绪，HBM5才用",
+      "lead": "Hot Chips 2026上，SK海力士表示HBM4e不会采用混合键合技术，因为HBM立方体总厚度限制在775微米，混合键合尚未准备好。公司计划将混合键合用于HBM5，并继续使用MR-MUF技术支持Nvidia Rubin。",
       "confirmed": [
-        "对冲基金净卖出规模创关税战以来最大",
-        "高盛净杠杆率下滑3.0个百分点至48.3%，为一年新低",
-        "信息技术板块遭最大规模抛售，公用事业创五年罕见净卖出",
-        "摩根士丹利确认这是过去12个月全球股票抛售第二大周"
+        "SK海力士表示HBM4e不会采用混合键合技术",
+        "HBM立方体总厚度限制在775微米",
+        "混合键合计划用于HBM5",
+        "继续使用MR-MUF技术支持Nvidia Rubin"
       ],
       "judgment": [
-        "抛售是短期获利了结还是中期趋势反转",
-        "英伟达财报能否扭转市场情绪",
-        "杰克逊霍尔会议是否释放政策信号影响流动性",
-        "AI板块估值是否已进入调整期"
+        "HBM5采用混合键合的时间表尚不确定",
+        "775微米厚度限制是否会被突破，有待观察",
+        "MR-MUF技术能否满足未来性能需求，尚待验证",
+        "其他存储厂商是否跟进类似技术路线，尚不明朗"
       ],
-      "implication": "你关注AI行业动态，对冲基金的抛售可能预示AI股票短期波动加大。但对你个人而言，更重要的是关注AI基础设施投资的长期趋势。如果你有相关股票持仓，建议谨慎；如果没有，可以关注回调后的机会。"
+      "implication": "HBM技术瓶颈将影响AI硬件性能提升速度，你应关注存储技术演进对AI模型训练和推理成本的影响。同时，SK海力士的技术路线选择可能影响存储市场格局，你需留意相关投资机会。"
     },
     {
       "rank": 5,
-      "domain": "AI",
-      "id": "bvid:BV19wXvBpEaL",
-      "url": "http://www.bilibili.com/video/av116319122885806",
-      "source": "极客魔导师",
-      "stars": 4,
-      "title": "Everything Claude Code：116K star的开源配置项目实战指南",
-      "lead": "GitHub上116K star的Everything Claude Code项目，汇集了斜杠命令、子代理、Hooks等高级配置。视频深入讲解如何利用该项目提升Claude Code的使用效率，包括学习系统构建。对于重度Claude Code用户，这是必看的实战资源。",
+      "domain": "金融",
+      "id": "hn:49355142",
+      "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
+      "source": "Hacker News",
+      "stars": 3,
+      "title": "芝加哥大学研究：工资粘性与意外通胀的真实工资成本",
+      "lead": "芝加哥大学BFI发布工作论文，研究工资粘性如何影响意外通胀对真实工资的冲击。论文指出，当通胀意外上升时，工资调整滞后导致实际工资下降，对低收入群体影响更大。",
       "confirmed": [
-        "Everything Claude Code项目在GitHub上拥有116K star",
-        "视频涵盖斜杠命令、子代理、Hooks等核心功能",
-        "提供了学习系统的构建方法"
+        "芝加哥大学BFI发布工作论文",
+        "研究工资粘性与意外通胀的关系",
+        "发现工资调整滞后导致实际工资下降",
+        "对低收入群体影响更大"
       ],
       "judgment": [
-        "项目是否持续维护，兼容最新版Claude Code",
-        "高级配置是否适合所有项目类型，还是特定场景更有效",
-        "学习系统的实际效果如何，是否值得投入时间",
-        "与官方文档相比，该项目的增量价值有多大"
+        "研究结论是否适用于当前经济环境，尚需验证",
+        "政策建议尚不明确",
+        "工资粘性程度在不同国家可能不同",
+        "研究数据范围有限"
       ],
-      "implication": "你正在用Claude Code做content-curator项目，这个项目能帮你挖掘Claude Code的潜力。建议花时间研究其中的子代理和Hooks配置，可能大幅提升你的开发效率。尤其对于自动化工作流，这些技巧很实用。"
+      "implication": "通胀环境下，你的实际购买力可能被侵蚀，应关注工资调整机制。作为个人，你可以考虑投资抗通胀资产，如黄金或通胀挂钩债券。同时，理解工资粘性有助于你职业规划，选择薪资调整更灵活的工作。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia Nemotron 3.5 Lightning发布，30B A3B模型",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-      "source": "Hugging Face",
-      "one_liner": "Nvidia开源新模型，主打高效推理，但相比头条事件影响力较小。"
+      "title": "Nvidia AVO scores 100% on ARC-AGI-3 benchmark",
+      "url": "https://twitter.com/NVIDIAAI/status/2090786258981466231",
+      "source": "Hacker News",
+      "one_liner": "Nvidia AVO在ARC-AGI-3上满分，但基准可靠性存疑，谨慎看待。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "三星发布zHBM路线图，DRAM直接堆叠在计算芯片上",
-      "url": "https://wallstreetcn.com/articles/3780121",
-      "source": "华尔街见闻",
-      "one_liner": "zHBM可降低70%功耗、提升230%带宽，但距离量产尚远。"
+      "title": "Nvidia discloses $21B stake in SpaceX",
+      "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+      "source": "Ars Technica",
+      "one_liner": "Nvidia投资SpaceX，跨界布局太空AI，值得关注但非直接相关。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "高盛上调全球晶圆厂设备支出预测至2028年",
-      "url": "https://wallstreetcn.com/articles/3780123",
-      "source": "华尔街见闻",
-      "one_liner": "半导体资本开支景气周期延长，但已反映在股价中。"
+      "title": "Intel Xeon 7 'Diamond Rapids' with 256 P-cores",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-xeon-7-diamond-rapids-comes-with-up-to-256-p-cores-1-28-gb-of-last-level-cache-next-gen-18a-p-cpu-also-brings-avx-10-2-and-uses-ucie-s-instead-of-emib",
+      "source": "Tom's Hardware",
+      "one_liner": "Intel新Xeon核心数翻倍，但AI市场影响有限，备选。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia AVO在ARC-AGI-3基准上达到100%",
-      "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
-      "source": "NVIDIA",
-      "one_liner": "Nvidia自主智能体架构取得突破，但基准测试的泛化性存疑。"
+      "title": "SK hynix pushes hybrid bonding to HBM5",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-says-hybrid-bonding-wont-be-ready-for-hbm4e-as-ai-memory-runs-into-a-775-micron-ceiling",
+      "source": "Tom's Hardware",
+      "one_liner": "HBM技术路线图更新，影响AI硬件性能，但细节不足。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Gemini 3.7 Flash发布",
+      "title": "Gemini 3.7 Flash",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "source": "Google",
-      "one_liner": "Google新模型主打速度，但相比头条事件影响力较小。"
+      "source": "Hacker News",
+      "one_liner": "Google发布新模型，但信息有限，可能只是增量更新。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "OpenAI解散灾难性风险评估团队",
-      "url": "https://thenextweb.com/news/openai-preparedness-team-disbanded-ipo-streamlining",
-      "source": "The Next Web",
-      "one_liner": "IPO前精简架构，但可能引发安全担忧。"
+      "title": "Demis Hassabis moves from CEO to Chairman at Google DeepMind",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source": "Hacker News",
+      "one_liner": "DeepMind领导层变动，影响深远但非即时行动。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Hugging Face寻求出售，估值或超130亿美元",
-      "url": "https://wallstreetcn.com/articles/3780119",
-      "source": "华尔街见闻",
-      "one_liner": "AI基础设施层重新定价，战略买家愿意支付高溢价。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Anthropic Opus 4.6被曝可绕过安全限制生成色情内容",
-      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+      "title": "OpenAI is building AI agents for everything",
+      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
       "source": "TechCrunch",
-      "one_liner": "安全对齐仍是难题，但内容敏感，不适合作为头条。"
+      "one_liner": "OpenAI全面押注Agent，但缺乏具体细节，备选。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Hugging Face reportedly in talks to be acquired for $13B",
+      "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+      "source": "TechCrunch",
+      "one_liner": "Hugging Face或被收购，影响开源社区，但未确认。"
+    },
+    {
+      "domain": "股票",
+      "title": "Citadel：算力稀缺仍是AI最大瓶颈",
+      "url": "https://wallstreetcn.com/articles/3780212",
+      "source": "华尔街见闻 API",
+      "one_liner": "Citadel观点印证算力为王，但无新数据。"
+    },
+    {
+      "domain": "股票",
+      "title": "三星、SK海力士加码中国NAND产能",
+      "url": "https://wallstreetcn.com/articles/3780197",
+      "source": "华尔街见闻 API",
+      "one_liner": "存储扩产影响供应，但细节有限。"
+    },
+    {
+      "domain": "股票",
+      "title": "黄仁勋不停歇：芯片、数据中心、模型三线并进",
+      "url": "https://wallstreetcn.com/articles/3780204",
+      "source": "华尔街见闻 API",
+      "one_liner": "Nvidia投资布局广泛，但头条已覆盖核心。"
     },
     {
       "domain": "金融",
-      "title": "30年期美债收益率突破5.31%，创19年新高",
+      "title": "30-year Treasury yield tops 5.31%, highest in 19 years",
       "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
-      "source": "CNBC",
-      "one_liner": "长端利率上升对风险资产构成压力，但宏观因素复杂。"
+      "source": "Hacker News",
+      "one_liner": "长端利率飙升，影响融资成本，但非AI直接相关。"
     },
     {
       "domain": "金融",
-      "title": "高盛：AI动能衰退，欧日银行股与黄金股成下一轮主线",
-      "url": "https://wallstreetcn.com/articles/3780118",
-      "source": "华尔街见闻",
-      "one_liner": "AI交易退潮，资金转向价值股，但个人投资者需谨慎。"
-    },
-    {
-      "domain": "金融",
-      "title": "阿里再投800亿港元，中国CSP黄金周期还是泡沫前夜？",
-      "url": "https://wallstreetcn.com/premium/articles/3779983?layout=wscn-layout",
-      "source": "华尔街见闻",
-      "one_liner": "阿里云收入增长45%，但巨额融资引发泡沫担忧。"
-    },
-    {
-      "domain": "股票",
-      "title": "宇树科技IPO首日暴涨629%后市值蒸发1900亿",
-      "url": "https://wallstreetcn.com/articles/3780134",
-      "source": "华尔街见闻",
-      "one_liner": "人形机器人概念炒作，但收入依赖科研教育，量产未至。"
-    },
-    {
-      "domain": "股票",
-      "title": "三星股东回报计划令人失望，股价大跌7%",
-      "url": "https://wallstreetcn.com/articles/3780114",
-      "source": "华尔街见闻",
-      "one_liner": "重分红轻回购，市场不买账，亚太科技股承压。"
-    },
-    {
-      "domain": "股票",
-      "title": "OpenAI CFO称2027年将成为上市公司",
+      "title": "OpenAI 'will be a public company in 2027' or sooner",
       "url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html",
-      "source": "CNBC",
-      "one_liner": "IPO预期明确，但人才流失和风险团队解散是隐患。"
+      "source": "Hacker News",
+      "one_liner": "OpenAI IPO时间表明确，但人才流失问题更值得关注。"
+    },
+    {
+      "domain": "金融",
+      "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
+      "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+      "source": "Ars Technica",
+      "one_liner": "AI对入门级工作冲击大，对你有职业启示，但非头条。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-24T05:11:33+0000"
+    "scored_at": "2026-08-25T04:31:02+0000"
   }
 }
