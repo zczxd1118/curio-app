@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-24T04:00:40.581155+00:00",
+  "fetched_at": "2026-08-25T03:53:59.685652+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/nxp-expands-industrial-endpoint-access-with-mcu-topology-discovery/",
+      "title": "NXP Expands Industrial Endpoint Access with MCU Topology Discovery",
+      "url": "https://www.eetimes.com/nxp-expands-industrial-endpoint-access-with-mcu-topology-discovery/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T17:00:00+00:00",
+      "summary": "NXP’s MCX A5 identifies and maps connected devices to improve network visibility, turning endpoints into accessible sources of real-time data for analytics, automation, and industrial edge AI. The post NXP Expands Industrial Endpoint Access with MCU Topology Discovery appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/radiation-tolerance-of-tantalum-polymer-capacitors/",
+      "title": "Radiation Tolerance of Tantalum Polymer Capacitors",
+      "url": "https://www.eetimes.com/radiation-tolerance-of-tantalum-polymer-capacitors/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Krystof Adamek",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T14:00:00+00:00",
+      "summary": "Environments rich in ionizing radiation create a particularly difficult functional challenge for electronic components. Spacecraft, nuclear reactors, particle accelerators, and hardened military equipment (to name a few examples) demand that their electrical systems operate correctly, even in the presence of high energy particles, cosmic rays, X-rays, and the like. Such radiation adversely affects electronics in [&#8230;] The post Radiation Tolerance of Tantalum Polymer Capacitors appeared first...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/welcome-to-the-era-of-trustworthy-ai-for-ic-signoff-and-manufacturing/",
+      "title": "Welcome to the Era of Trustworthy AI for IC Signoff and Manufacturing",
+      "url": "https://www.eetimes.com/welcome-to-the-era-of-trustworthy-ai-for-ic-signoff-and-manufacturing/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Juan Rey, Senior Vice President, General Manager and CTO of the Calibre segment, Siemens EDA",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T13:00:00+00:00",
+      "summary": "Trust is the key to AI adoption in chip design. See how deterministic EDA engines and explainable AI can accelerate signoff and manufacturing. The post Welcome to the Era of Trustworthy AI for IC Signoff and Manufacturing appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/hp1800-the-magic-of-single-stage-48v-to-ultra-low-voltage/",
+      "title": "HP1800: The Magic of Single-Stage 48V to Ultra-Low Voltage",
+      "url": "https://www.eetimes.com/hp1800-the-magic-of-single-stage-48v-to-ultra-low-voltage/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Hynetek Semiconductor Co., Ltd.",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T13:00:00+00:00",
+      "summary": "HP1800 PWM phase-doubler turns 1 tri-state PWM input to four 180° interleaved complementary outputs. It enables 90–92% efficient single-stage 48V-to-1V AI PoL conversion (vs ~86% two-stage), cutting PCB area 75% and parts 40%. It supports legacy controllers, programmable dead-time, anti-shoot-through logic, 200kHz–2MHz switching to lower data-center power cost. The post HP1800: The Magic of Single-Stage 48V to Ultra-Low Voltage appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/nvidia-inference-pivot-reaches-rebellions-in-korea/",
+      "title": "Nvidia’s Inference Pivot Reaches Rebellions in Korea",
+      "url": "https://www.eetimes.com/nvidia-inference-pivot-reaches-rebellions-in-korea/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T08:07:18+00:00",
+      "summary": "Nvidia is reportedly in talks with Korean inference upstart Rebellions about a technical partnership, investment, or acquisition. The post Nvidia’s Inference Pivot Reaches Rebellions in Korea appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo/",
       "title": "China’s NAND Specialist YMTC Moves Closer to IPO",
       "url": "https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo/",
@@ -271,91 +356,6 @@
       "views": null,
       "published_at": "2026-08-19T13:55:51+00:00",
       "summary": "IBM’s new cryogenic architecture tackles one obstacle to fault-tolerant quantum computing, while exposing wiring, control, interconnect, and reliability challenges. The post IBM Makes Quantum Cryogenics Modular, but Scaling Problems Remain appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/running-local-llms-on-the-arduino-uno-q-board-a-practical-guide/",
-      "title": "Running Local LLMs on the Arduino® UNO™ Q Board: a Practical Guide",
-      "url": "https://www.eetimes.com/running-local-llms-on-the-arduino-uno-q-board-a-practical-guide/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Arduino Team",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-19T13:00:00+00:00",
-      "summary": "Learn how to run local LLMs on Arduino UNO Q — from model selection and quantization to memory constraints and real-world edge AI use cases. The post Running Local LLMs on the Arduino® UNO™ Q Board: a Practical Guide appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/when-interoperability-becomes-infrastructure/",
-      "title": "When Interoperability Becomes Infrastructure",
-      "url": "https://www.eetimes.com/when-interoperability-becomes-infrastructure/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Peter Hunt",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-19T07:43:30+00:00",
-      "summary": "As Matter matures, manufacturers face a new challenge: maintaining visibility into connected products after deployment. The post When Interoperability Becomes Infrastructure appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/marvell-targets-ai-bottlenecks-with-memory-disaggregation-portfolio/",
-      "title": "Marvell Targets AI Bottlenecks with Memory-Disaggregation Portfolio",
-      "url": "https://www.eetimes.com/marvell-targets-ai-bottlenecks-with-memory-disaggregation-portfolio/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-18T14:39:27+00:00",
-      "summary": "Marvell attacks AI’s memory choke point with SSD, CXL, and photonic fabrics to push data nearer compute. The post Marvell Targets AI Bottlenecks with Memory-Disaggregation Portfolio appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/why-standardized-interfaces-are-critical-to-accelerating-humanoid-development/",
-      "title": "Why Standardized Interfaces Are Critical to Accelerating Humanoid Development",
-      "url": "https://www.eetimes.com/why-standardized-interfaces-are-critical-to-accelerating-humanoid-development/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Edo Cohen",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-18T08:15:00+00:00",
-      "summary": "Humanoids won’t scale on AI hype alone; standardized MIPI interfaces can cut power, wiring, and cost. The post Why Standardized Interfaces Are Critical to Accelerating Humanoid Development appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/nvidia-bets-on-the-classical-side-of-quantum-computing/",
-      "title": "Nvidia Bets on the Classical Side of Quantum Computing",
-      "url": "https://www.eetimes.com/nvidia-bets-on-the-classical-side-of-quantum-computing/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-17T18:31:00+00:00",
-      "summary": "Nvidia positions classical computing infrastructure as a critical layer in the race to build useful quantum computers. The post Nvidia Bets on the Classical Side of Quantum Computing appeared first on EE Times.",
       "lang": "en"
     },
     {

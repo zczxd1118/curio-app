@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-08-24T03:59:49.105110+00:00",
+  "fetched_at": "2026-08-25T03:53:28.992924+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,7 +13,7 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 1,
-    "HN · Nvidia": 13,
+    "HN · Nvidia": 16,
     "HN · semiconductor": 0,
     "HN · ASML / EUV": 2,
     "HN · AI chip 厂商": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 66,
+  "total": 69,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/nxp-expands-industrial-endpoint-access-with-mcu-topology-discovery/",
+      "title": "NXP Expands Industrial Endpoint Access with MCU Topology Discovery",
+      "url": "https://www.eetimes.com/nxp-expands-industrial-endpoint-access-with-mcu-topology-discovery/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T17:00:00+00:00",
+      "summary": "NXP’s MCX A5 identifies and maps connected devices to improve network visibility, turning endpoints into accessible sources of real-time data for analytics, automation, and industrial edge AI. The post NXP Expands Industrial Endpoint Access with MCU Topology Discovery appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/radiation-tolerance-of-tantalum-polymer-capacitors/",
+      "title": "Radiation Tolerance of Tantalum Polymer Capacitors",
+      "url": "https://www.eetimes.com/radiation-tolerance-of-tantalum-polymer-capacitors/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Krystof Adamek",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T14:00:00+00:00",
+      "summary": "Environments rich in ionizing radiation create a particularly difficult functional challenge for electronic components. Spacecraft, nuclear reactors, particle accelerators, and hardened military equipment (to name a few examples) demand that their electrical systems operate correctly, even in the presence of high energy particles, cosmic rays, X-rays, and the like. Such radiation adversely affects electronics in [&#8230;] The post Radiation Tolerance of Tantalum Polymer Capacitors appeared first...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/welcome-to-the-era-of-trustworthy-ai-for-ic-signoff-and-manufacturing/",
+      "title": "Welcome to the Era of Trustworthy AI for IC Signoff and Manufacturing",
+      "url": "https://www.eetimes.com/welcome-to-the-era-of-trustworthy-ai-for-ic-signoff-and-manufacturing/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Juan Rey, Senior Vice President, General Manager and CTO of the Calibre segment, Siemens EDA",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T13:00:00+00:00",
+      "summary": "Trust is the key to AI adoption in chip design. See how deterministic EDA engines and explainable AI can accelerate signoff and manufacturing. The post Welcome to the Era of Trustworthy AI for IC Signoff and Manufacturing appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/hp1800-the-magic-of-single-stage-48v-to-ultra-low-voltage/",
+      "title": "HP1800: The Magic of Single-Stage 48V to Ultra-Low Voltage",
+      "url": "https://www.eetimes.com/hp1800-the-magic-of-single-stage-48v-to-ultra-low-voltage/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Hynetek Semiconductor Co., Ltd.",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T13:00:00+00:00",
+      "summary": "HP1800 PWM phase-doubler turns 1 tri-state PWM input to four 180° interleaved complementary outputs. It enables 90–92% efficient single-stage 48V-to-1V AI PoL conversion (vs ~86% two-stage), cutting PCB area 75% and parts 40%. It supports legacy controllers, programmable dead-time, anti-shoot-through logic, 200kHz–2MHz switching to lower data-center power cost. The post HP1800: The Magic of Single-Stage 48V to Ultra-Low Voltage appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/nvidia-inference-pivot-reaches-rebellions-in-korea/",
+      "title": "Nvidia’s Inference Pivot Reaches Rebellions in Korea",
+      "url": "https://www.eetimes.com/nvidia-inference-pivot-reaches-rebellions-in-korea/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T08:07:18+00:00",
+      "summary": "Nvidia is reportedly in talks with Korean inference upstart Rebellions about a technical partnership, investment, or acquisition. The post Nvidia’s Inference Pivot Reaches Rebellions in Korea appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo/",
       "title": "China’s NAND Specialist YMTC Moves Closer to IPO",
       "url": "https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo/",
@@ -282,88 +367,292 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/running-local-llms-on-the-arduino-uno-q-board-a-practical-guide/",
-      "title": "Running Local LLMs on the Arduino® UNO™ Q Board: a Practical Guide",
-      "url": "https://www.eetimes.com/running-local-llms-on-the-arduino-uno-q-board-a-practical-guide/",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-xeon-7-diamond-rapids-comes-with-up-to-256-p-cores-1-28-gb-of-last-level-cache-next-gen-18a-p-cpu-also-brings-avx-10-2-and-uses-ucie-s-instead-of-emib",
+      "title": "Hot Chips 2026: Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-xeon-7-diamond-rapids-comes-with-up-to-256-p-cores-1-28-gb-of-last-level-cache-next-gen-18a-p-cpu-also-brings-avx-10-2-and-uses-ucie-s-instead-of-emib",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Arduino Team",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-19T13:00:00+00:00",
-      "summary": "Learn how to run local LLMs on Arduino UNO Q — from model selection and quantization to memory constraints and real-world edge AI use cases. The post Running Local LLMs on the Arduino® UNO™ Q Board: a Practical Guide appeared first on EE Times.",
+      "published_at": "2026-08-24T21:07:45+00:00",
+      "summary": "Intel has pulled back the curtain on its next-gen Diamond Rapids Xeon CPUs, packing up to 256 P-cores and 1.28 TB of last-level cache.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/when-interoperability-becomes-infrastructure/",
-      "title": "When Interoperability Becomes Infrastructure",
-      "url": "https://www.eetimes.com/when-interoperability-becomes-infrastructure/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-says-hybrid-bonding-wont-be-ready-for-hbm4e-as-ai-memory-runs-into-a-775-micron-ceiling",
+      "title": "Hot Chips 2026: SK hynix pushes hybrid bonding to HBM5 as AI memory hits 775-micron ceiling — firm extends MR-MUF through Nvidia Rubin",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-says-hybrid-bonding-wont-be-ready-for-hbm4e-as-ai-memory-runs-into-a-775-micron-ceiling",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Peter Hunt",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-19T07:43:30+00:00",
-      "summary": "As Matter matures, manufacturers face a new challenge: maintaining visibility into connected products after deployment. The post When Interoperability Becomes Infrastructure appeared first on EE Times.",
+      "published_at": "2026-08-24T17:55:45+00:00",
+      "summary": "The problem, per SK, is that HBM cubes are capped at a total thickness of 775 microns, the standard thickness of a 300mm logic wafer.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/marvell-targets-ai-bottlenecks-with-memory-disaggregation-portfolio/",
-      "title": "Marvell Targets AI Bottlenecks with Memory-Disaggregation Portfolio",
-      "url": "https://www.eetimes.com/marvell-targets-ai-bottlenecks-with-memory-disaggregation-portfolio/",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/ibms-first-dual-isa-core-natively-executes-arm-and-z-architecture-in-the-same-core-all-cores-run-at-5-7-ghz-base-frequency-next-gen-mainframe-ai-processor-is-built-on-2nm-node-with-11-cores",
+      "title": "Hot Chips 2026: IBM's first dual-ISA core natively executes ARM and z/Architecture in the same core; all cores run at 5.7 GHz base frequency — next-gen mainframe AI processor is built on 2nm node with 11 cores",
+      "url": "https://www.tomshardware.com/pc-components/cpus/ibms-first-dual-isa-core-natively-executes-arm-and-z-architecture-in-the-same-core-all-cores-run-at-5-7-ghz-base-frequency-next-gen-mainframe-ai-processor-is-built-on-2nm-node-with-11-cores",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-18T14:39:27+00:00",
-      "summary": "Marvell attacks AI’s memory choke point with SSD, CXL, and photonic fabrics to push data nearer compute. The post Marvell Targets AI Bottlenecks with Memory-Disaggregation Portfolio appeared first on EE Times.",
+      "published_at": "2026-08-24T17:42:34+00:00",
+      "summary": "IBM is vastly expanding softwarte support on its mainframes with its first dual-ISA CPU core that natively supports z/Architecture and ARM instructions.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/why-standardized-interfaces-are-critical-to-accelerating-humanoid-development/",
-      "title": "Why Standardized Interfaces Are Critical to Accelerating Humanoid Development",
-      "url": "https://www.eetimes.com/why-standardized-interfaces-are-critical-to-accelerating-humanoid-development/",
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/lgs-native-1-000-hz-1080p-gaming-monitor-has-a-matching-usd1-000-price-tag-preorders-open-for-the-25-inch-ultragear-25g590b",
+      "title": "LG's native 1,000 Hz 1080p gaming monitor has a matching $1,000 price tag — preorders open for the 25-inch UltraGear 25G590B",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/lgs-native-1-000-hz-1080p-gaming-monitor-has-a-matching-usd1-000-price-tag-preorders-open-for-the-25-inch-ultragear-25g590b",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Edo Cohen",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Brandon Hill",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-18T08:15:00+00:00",
-      "summary": "Humanoids won’t scale on AI hype alone; standardized MIPI interfaces can cut power, wiring, and cost. The post Why Standardized Interfaces Are Critical to Accelerating Humanoid Development appeared first on EE Times.",
+      "published_at": "2026-08-24T17:21:51+00:00",
+      "summary": "The UltraGear 25G590B is the first 1,000 Hz gaming monitor with a native 1080p resolution",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/nvidia-bets-on-the-classical-side-of-quantum-computing/",
-      "title": "Nvidia Bets on the Classical Side of Quantum Computing",
-      "url": "https://www.eetimes.com/nvidia-bets-on-the-classical-side-of-quantum-computing/",
+      "id": "rss:https://www.tomshardware.com/pc-components/pc-cases/cooler-master-q300l-v3-microatx-case-review",
+      "title": "Cooler Master Q300L v3 MicroATX case review: Sub-$45 MSRP offers incredible value for MicroATX chassis with included fans",
+      "url": "https://www.tomshardware.com/pc-components/pc-cases/cooler-master-q300l-v3-microatx-case-review",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-17T18:31:00+00:00",
-      "summary": "Nvidia positions classical computing infrastructure as a critical layer in the race to build useful quantum computers. The post Nvidia Bets on the Classical Side of Quantum Computing appeared first on EE Times.",
+      "published_at": "2026-08-24T17:07:15+00:00",
+      "summary": "Cooler Master’s Q300L V3 offers more airflow, bigger clearances, and a 20 Gbps USB-C for under $45",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-6000-ram-now-costs-usd400-the-latest-price-hike-puts-diy-pc-building-further-out-of-reach-than-ever-before",
+      "title": "32GB of DDR5 6000 RAM now costs $400 — the latest price hike puts DIY PC building further out of reach than ever before",
+      "url": "https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-6000-ram-now-costs-usd400-the-latest-price-hike-puts-diy-pc-building-further-out-of-reach-than-ever-before",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stephen Warwick",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T15:30:42+00:00",
+      "summary": "32GB of DDR5 6000 RAM now costs more than $400.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/nine-indicted-by-taiwan-over-illegal-export-of-nvidia-b300-gpus-to-china-details-reveal-five-point-strategy-to-exploit-and-avoid-customs-controls",
+      "title": "Nine indicted by Taiwan over illegal export of Nvidia B300 GPUs to China — details reveal five-point strategy to exploit and avoid customs controls",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nine-indicted-by-taiwan-over-illegal-export-of-nvidia-b300-gpus-to-china-details-reveal-five-point-strategy-to-exploit-and-avoid-customs-controls",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stephen Warwick",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T15:09:55+00:00",
+      "summary": "A new report claims nine people have been indicted over the illegal smuggling of Nvidia B300 servers to China.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/two-intel-chips-break-amazons-top-10-cpus-for-the-first-time-in-months-core-ultra-7-270k-and-core-i7-14700k-finally-challenge-amd-desktop-dominance",
+      "title": "Two Intel chips break Amazon's top 10 CPUs for the first time in months — Core Ultra 7 270K and Core i7-14700K finally challenge AMD desktop dominance",
+      "url": "https://www.tomshardware.com/pc-components/cpus/two-intel-chips-break-amazons-top-10-cpus-for-the-first-time-in-months-core-ultra-7-270k-and-core-i7-14700k-finally-challenge-amd-desktop-dominance",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zak Killian",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T14:11:31+00:00",
+      "summary": "AMD has dominated the DIY space so thoroughly over the last few years that an Intel chip appearing in the top 10 at all is notable, but it's not really that surprising if you look at the details.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/dram/marvell-sells-cxl-memory-recycling-into-the-worst-dram-shortage-in-years",
+      "title": "Marvell VP pushes for DDR4 recycling for use in CXL memory, amid the worst DRAM shortage in years — company introduces three-tier AI memory infrastructure",
+      "url": "https://www.tomshardware.com/pc-components/dram/marvell-sells-cxl-memory-recycling-into-the-worst-dram-shortage-in-years",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T13:11:37+00:00",
+      "summary": "Marvell has introduced a three-tier \"AI memory infrastructure\" portfolio, announced at FMS 2026 in Santa Clara on August 4.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/speakers/asus-rog-gjallar-review",
+      "title": "Asus ROG Gjallar Review: It looks better than it sounds",
+      "url": "https://www.tomshardware.com/speakers/asus-rog-gjallar-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sarah Jacobsson Purewal",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T13:00:00+00:00",
+      "summary": "Asus' first-ever gaming soundbar, the ROG Gjallar, is blocky and uninspired, with decent sound and a completely unnecessary audio control hub with built-in beamforming mics.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/researcgers-find-a-drake-passage-cable-to-antarctica-is-buildable",
+      "title": "Undersea cable to Antarctica through Drake Passage is viable, researchers find — 1,600km route to Chile could spell an end to research data leaving in 'suitcases full of hard drives'",
+      "url": "https://www.tomshardware.com/networking/researcgers-find-a-drake-passage-cable-to-antarctica-is-buildable",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T12:03:28+00:00",
+      "summary": "Antarctic research data still leaves the continent physically, on hard drives ferried out by ship and plane \"in suitcases full of hard drives.\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/portable-monitors/asus-zenscreen-oled-mq16fc-portable-monitor-review",
+      "title": "Asus ZenScreen OLED (MQ16FC) portable monitor review: A great all-around performer",
+      "url": "https://www.tomshardware.com/monitors/portable-monitors/asus-zenscreen-oled-mq16fc-portable-monitor-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Brandon Hill",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T11:05:00+00:00",
+      "summary": "The Asus ZenScreen OLED (MQ16FC) excels on several fronts, including pricing.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/valve-was-founded-30-years-ago-today-changed-pc-gaming-forever-with-half-life-then-steam",
+      "title": "Valve was founded 30 years ago today — changed PC gaming forever with Half-Life, then Steam",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/valve-was-founded-30-years-ago-today-changed-pc-gaming-forever-with-half-life-then-steam",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T10:31:08+00:00",
+      "summary": "Today marks Valve’s 30th birthday. The company was founded on August 24, 1996, by Gabe Newell and Mike Harrington, both Microsoft veterans.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/kyoto-university-demonstrates-a-sic-transistor-that-runs-at-600c-using-standard-ion-implantation",
+      "title": "Kyoto University builds transistor that survives 600C temperatures, compatible with standard fabs — Standard ion implantation and bottom-gate design fix leakage and voltage drift",
+      "url": "https://www.tomshardware.com/tech-industry/kyoto-university-demonstrates-a-sic-transistor-that-runs-at-600c-using-standard-ion-implantation",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Luke James",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T10:30:00+00:00",
+      "summary": "A research team at Kyoto University has built a silicon carbide transistor that operates at 600°C (873 K) using ion implantation.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/huge-usd2-200-discount-makes-this-rtx-5090-gaming-pc-cheaper-than-the-gpus-standalone-price-epic-hp-omen-max-45l-rig-ships-with-64gb-ddr5-and-a-2tb-ssd-for-just-usd4-799",
+      "title": "Huge $2,200 discount makes this RTX 5090 gaming PC cheaper than the GPU's standalone price — epic HP Omen Max 45L rig ships with 64GB DDR5 and a 2TB SSD for just $4,799",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/huge-usd2-200-discount-makes-this-rtx-5090-gaming-pc-cheaper-than-the-gpus-standalone-price-epic-hp-omen-max-45l-rig-ships-with-64gb-ddr5-and-a-2tb-ssd-for-just-usd4-799",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T10:11:23+00:00",
+      "summary": "A massive discount means this $4,799 HP Omen Max 45L gaming PC is now cheaper than individually buying the RTX 5090 it uses, thanks to a $2,200 discount.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/3d-printing/bring-your-ideas-to-life-with-epic-savings-on-flashforge-3d-printers-flashforge-joins-the-aliexpress-828-mega-sale",
+      "title": "Bring your ideas to life with epic savings on Flashforge 3D printers — Flashforge joins the AliExpress 828 mega-sale",
+      "url": "https://www.tomshardware.com/3d-printing/bring-your-ideas-to-life-with-epic-savings-on-flashforge-3d-printers-flashforge-joins-the-aliexpress-828-mega-sale",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sponsored",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T10:05:00+00:00",
+      "summary": "AliExpress 828 sale brings unbeatable savings on Flashforge 3D printers and premium accessories.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/nintendo/nintendo-takes-down-over-400-github-repositories-for-switch-emulators-in-one-go-relentless-dmca-strikes-tied-to-piracy-concerns-over-illegal-cryptographic-keys",
+      "title": "Nintendo takes down over 400 GitHub repositories for Switch emulators in one go — Relentless DMCA strikes tied to piracy concerns over illegal cryptographic keys",
+      "url": "https://www.tomshardware.com/video-games/nintendo/nintendo-takes-down-over-400-github-repositories-for-switch-emulators-in-one-go-relentless-dmca-strikes-tied-to-piracy-concerns-over-illegal-cryptographic-keys",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Hassam Nasir",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-24T10:00:00+00:00",
+      "summary": "Nintendo is doing Nintendo things again as it goes after 7 different master repos containing Switch emulators, which total out to 401 repos wiped in a single day. Most of these belonged to Yuzu forks, such as Suyu, but there was one exception.",
       "lang": "en"
     },
     {
@@ -588,295 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/enthusiast-mods-gtx-1080-ti-with-a-dual-tower-cpu-cooler-sees-up-to-32-c-reduction-in-temps-mod-yields-30w-power-savings-and-9-percent-higher-fps",
-      "title": "Enthusiast mods GTX 1080 Ti with a dual-tower CPU cooler, sees up to 32°C reduction in temps — Mod yields 30W power savings and 9% higher FPS",
-      "url": "https://www.tomshardware.com/pc-components/gpus/enthusiast-mods-gtx-1080-ti-with-a-dual-tower-cpu-cooler-sees-up-to-32-c-reduction-in-temps-mod-yields-30w-power-savings-and-9-percent-higher-fps",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-23T10:00:00+00:00",
-      "summary": "What if you could have twice the CPU cooler in your computer? If that's a question that piques your interest, then TrashBench has answered your curiosity in droves with an experiment that ended up working incredibly well.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/storage/maxell-partners-with-disk-union-to-release-ud-60u-special-edition-cassettes-black-and-red-ud-tapes-could-be-ideal-for-use-in-your-c64-datassette",
-      "title": "Maxell brings back classic 1970s cassette tapes — 1970s ferric formula is custom-made for vintage PC data drives",
-      "url": "https://www.tomshardware.com/pc-components/storage/maxell-partners-with-disk-union-to-release-ud-60u-special-edition-cassettes-black-and-red-ud-tapes-could-be-ideal-for-use-in-your-c64-datassette",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-23T09:30:00+00:00",
-      "summary": "Maxell and Disk Union collaborate to release special edition UD-60U cassette tapes in Japan.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/webcams/the-worlds-first-webcam-was-switched-off-25-years-ago-today-128x128-grayscale-feed-predated-the-world-wide-web-to-monitor-a-cambridge-coffee-pot",
-      "title": "The world's first webcam was switched off 25 years ago today — 128x128 grayscale feed predated the World Wide Web to monitor a Cambridge coffee pot",
-      "url": "https://www.tomshardware.com/peripherals/webcams/the-worlds-first-webcam-was-switched-off-25-years-ago-today-128x128-grayscale-feed-predated-the-world-wide-web-to-monitor-a-cambridge-coffee-pot",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-23T09:00:00+00:00",
-      "summary": "It has been a quarter century since the world’s first webcam was turned off for good. The Trojan Room Coffee Pot was retired on Wednesday, August 22, 2001, after 10 years of service at Cambridge University.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/windows/microsoft-blames-rgb-peripherals-for-crashing-windows-11-rgb-software-is-causing-blue-screens-crashes-and-game-freezes",
-      "title": "Microsoft blames RGB peripherals for crashing Windows 11 — RGB software is causing blue screens, crashes, and game freezes",
-      "url": "https://www.tomshardware.com/software/windows/microsoft-blames-rgb-peripherals-for-crashing-windows-11-rgb-software-is-causing-blue-screens-crashes-and-game-freezes",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T16:21:34+00:00",
-      "summary": "RGB software is reportedly wreaking havoc on Windows PCs. The drivers used by these applications can trip up anti-cheat software, causing your games or entire system to crash. For now, the only solution is to disable the driver until an official update.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/linux/25-years-after-the-death-of-3dfx-the-voodoo-3-gets-a-linux-driver-update-classic-voodoo-gpus-can-now-boot-without-a-pc-bios",
-      "title": "25 years after the death of 3dfx, the Voodoo 3 gets a Linux driver update — classic Voodoo GPUs can now boot without a PC BIOS",
-      "url": "https://www.tomshardware.com/software/linux/25-years-after-the-death-of-3dfx-the-voodoo-3-gets-a-linux-driver-update-classic-voodoo-gpus-can-now-boot-without-a-pc-bios",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zak Killian",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T15:48:10+00:00",
-      "summary": "It's been a quarter-century since the firm folded, but the graphics chips still have utility in esoteric use cases.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/case-fans/snap-on-lcd-brings-mini-displays-to-any-120mm-pc-fan-thermalrights-fan-frame-vision-1-lets-you-display-information-and-custom-themes-on-your-case-fans",
-      "title": "Snap-on LCD brings mini displays to any 120mm PC fan — Thermalright's Fan Frame Vision-1 lets you display information and custom themes on your case fans",
-      "url": "https://www.tomshardware.com/pc-components/case-fans/snap-on-lcd-brings-mini-displays-to-any-120mm-pc-fan-thermalrights-fan-frame-vision-1-lets-you-display-information-and-custom-themes-on-your-case-fans",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T14:49:09+00:00",
-      "summary": "The Thermalright Fan Frame Vision-1 is a clip-on 3.69-inch screen that snaps directly in front of your PC case fans. These accessories let you display temperature, fan speed, and other information across your case, and even create a unified theme across all the screens in your PC.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/ascii-cyberpunk-city-prototype-runs-on-rust-webassembly-engine-and-webgl-shaders",
-      "title": "Walk through a 3D cyberpunk city built purely from ASCII characters — a text-based metropolis runs on a 283KB Rust WebAssembly engine feeding a WebGL renderer",
-      "url": "https://www.tomshardware.com/tech-industry/ascii-cyberpunk-city-prototype-runs-on-rust-webassembly-engine-and-webgl-shaders",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T14:37:14+00:00",
-      "summary": "Solo developer Grow Now! Games has put a playable browser build of its walkable ASCII cyberpunk city online, powered by a 283KB Rust WebAssembly engine and rendered in WebGL.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/logitech-faces-lawsuit-for-withholding-usd61m-in-tariff-refunds-from-customers-lawsuit-claims-company-extracted-up-to-usd97m-from-consumers-in-2026-through-tariff-justified-price-increases",
-      "title": "Logitech faces lawsuit for withholding $61M in tariff refunds from customers — lawsuit claims company extracted up to $97M from consumers in 2026 through tariff-justified price increases",
-      "url": "https://www.tomshardware.com/peripherals/logitech-faces-lawsuit-for-withholding-usd61m-in-tariff-refunds-from-customers-lawsuit-claims-company-extracted-up-to-usd97m-from-consumers-in-2026-through-tariff-justified-price-increases",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T14:13:50+00:00",
-      "summary": "Consumers who bought products from Logitech after it increased its prices due to tariffs still haven't received their refunds, even after the U.S. government returned $61 million to the company. Now they're suing for their refunds, saying that 'Company extracted approximately $73 million to $97 million from consumers.'",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/gaming-mice/razer-hyperflux-v2-review-the-best-wireless-charging-mat-for-razer-mice",
-      "title": "Razer HyperFlux V2 Review: The best wireless charging mat for Razer mice",
-      "url": "https://www.tomshardware.com/peripherals/gaming-mice/razer-hyperflux-v2-review-the-best-wireless-charging-mat-for-razer-mice",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sarah Jacobsson Purewal",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T14:08:39+00:00",
-      "summary": "Razer's HyperFlux V2 is a wireless charging mouse pad that works with current mice from Razer's Basilisk, Cobra, and Naga lines.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/us-authorities-say-siemens-controllers-used-for-water-and-other-infrastructure-are-being-targeted-by-hackers-agencies-claim-threat-actors-use-ai-tools-to-generate-exploitation-scripts",
-      "title": "US authorities say Siemens controllers used for water and other infrastructure are being targeted by hackers — agencies claim threat actors use AI tools to generate exploitation scripts",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/us-authorities-say-siemens-controllers-used-for-water-and-other-infrastructure-are-being-targeted-by-hackers-agencies-claim-threat-actors-use-ai-tools-to-generate-exploitation-scripts",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T13:57:17+00:00",
-      "summary": "Siemens S7 PLCs, commonly used in critical infrastructure, are reportedly being targeted by hackers and could potentially lead to disruption of industrial processes, safety incidents, downtime or equipment damage, and more. U.S. agencies are telling operators to protect these systems by keeping them updated and ensuring that they're off the internet if possible.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/save-usd532-on-a-480-hz-oled-gaming-monitor-amazon-drops-a-massive-53-percent-discount-on-the-lg-ultragear-27gx790a-b",
-      "title": "Save $532 on a 480 Hz OLED gaming monitor — Amazon drops a massive 53% discount on the LG UltraGear 27GX790A-B",
-      "url": "https://www.tomshardware.com/monitors/gaming-monitors/save-usd532-on-a-480-hz-oled-gaming-monitor-amazon-drops-a-massive-53-percent-discount-on-the-lg-ultragear-27gx790a-b",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T13:50:07+00:00",
-      "summary": "The LG UltraGear 27GX790A-B packs a 27-inch 1440p WOLED panel with a 480 Hz refresh rate, 0.03ms response time, and support for DisplayHDR True Black 400.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-august-22-2026-foundries-supercomputers-china-and-how-to-not-overpay-on-a-motherboard",
-      "title": "This week on Tom's Hardware Premium: August 22, 2026 — foundries, supercomputers, China, and how to not overpay on a motherboard",
-      "url": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-august-22-2026-foundries-supercomputers-china-and-how-to-not-overpay-on-a-motherboard",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sayem Ahmed",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T13:00:00+00:00",
-      "summary": "We recap this week's Tom's Hardware Premium articles, including our latest advice on your next motherboard purchase, a look inside Samsung's Fab roadmaps, and much more.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/desktop-cpu-shipments-crater-20-percent-amid-high-component-costs-but-amd-gains-record-share-despite-ugly-desktop-processor-market-intel-floods-laptop-market-with-millions-of-cpus-but-amd-still-sets-all-time-share-records",
-      "title": "Desktop CPU shipments crater 20% amid high component costs, but AMD gains record share despite 'ugly' desktop processor market — Intel floods laptop market with millions of CPUs, but AMD still sets all-time share records",
-      "url": "https://www.tomshardware.com/pc-components/cpus/desktop-cpu-shipments-crater-20-percent-amid-high-component-costs-but-amd-gains-record-share-despite-ugly-desktop-processor-market-intel-floods-laptop-market-with-millions-of-cpus-but-amd-still-sets-all-time-share-records",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T12:30:00+00:00",
-      "summary": "As Intel boosts output of data center and notebook CPUs, AMD manages to outgrow it and keep capturing market share from its arch-rival.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/storage-unit-auction-winner-finds-retro-pentium-4-pc-with-a-see-through-uv-reactive-psu-y2k-time-capsule-discovered-among-100-laptops-and-hundreds-of-ram-sticks",
-      "title": "Storage unit auction winner finds retro Pentium 4 PC with a see-through, UV-reactive PSU — Y2K time capsule discovered among 100 laptops and hundreds of RAM sticks",
-      "url": "https://www.tomshardware.com/pc-components/storage-unit-auction-winner-finds-retro-pentium-4-pc-with-a-see-through-uv-reactive-psu-y2k-time-capsule-discovered-among-100-laptops-and-hundreds-of-ram-sticks",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Hassam Nasir",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T12:00:00+00:00",
-      "summary": "This vintage PC build looks like it came straight out of the 90s with a bold, in-your-face look that make sure you can't mistake it for anything but a gamer's lifeline. What you're looking at is an Apevia X-SuperAlien case with a 500W Apevia PSU.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/gigabyte-rtx-3070-owner-discovers-protective-film-on-vrm-thermal-pads-after-nearly-five-years-claims-removal-and-repasting-dropped-gpu-hotspot-temperatures-by-30-c",
-      "title": "Gamer uncovers factory plastic left on RTX 3070 VRM pads after five years, causing overheating — claims removal and repasting dropped GPU hotspot temperatures by 30°C",
-      "url": "https://www.tomshardware.com/pc-components/gpus/gigabyte-rtx-3070-owner-discovers-protective-film-on-vrm-thermal-pads-after-nearly-five-years-claims-removal-and-repasting-dropped-gpu-hotspot-temperatures-by-30-c",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T11:30:00+00:00",
-      "summary": "A Gigabyte RTX 3070 owner discovered protective films covering its VRM thermal pads, after nearly five years of use potentially causing excessive temperatures and frequent black screens.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/power-supplies/asrock-steel-legend-sl-1200p-power-supply-review",
-      "title": "ASRock Steel Legend SL-1200P power supply review: A winning combination of genuine Platinum efficiency and a stand-out design",
-      "url": "https://www.tomshardware.com/pc-components/power-supplies/asrock-steel-legend-sl-1200p-power-supply-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "E. Fylladitakis",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T11:05:00+00:00",
-      "summary": "The ASRock Steel Legend SL-1200P is a visually distinct, technically capable 1200W unit with genuine Platinum efficiency, dual 12V-2x6 outputs, and a few thoughtful engineering touches that set it apart.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/console-gaming/take-two-subpoenas-microsoft-for-windows-device-ids-of-everyone-in-three-discord-servers-in-gta-6-leak-hunt",
-      "title": "GTA 6 leaks prompt Take-Two to subpoena Microsoft for Windows device IDs of everyone in three Discord servers — daily gameplay leaks shatter cloud of secrecy around the much-hyped game",
-      "url": "https://www.tomshardware.com/video-games/console-gaming/take-two-subpoenas-microsoft-for-windows-device-ids-of-everyone-in-three-discord-servers-in-gta-6-leak-hunt",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Luke James",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-22T11:00:00+00:00",
-      "summary": "Take-Two Interactive filed two DMCA subpoenas demanding that Microsoft and Discord identify the person or people behind the \"CyberLeek\" persona.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49325115",
       "title": "TSMC Uses Old Fabs to Make New Chips [video]",
       "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
@@ -1048,20 +1048,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49248477",
-      "title": "Nvidia is pulling Wall Street into the AI buildout",
-      "url": "https://thenextweb.com/news/nvidia-500-billion-wall-street-ai-infrastructure-funding-package",
+      "id": "hn:49417669",
+      "title": "Some of Russia's A.I. Drones Are Powered by Nvidia",
+      "url": "https://www.nytimes.com/2026/08/24/world/europe/ukraine-war-nvidia-ai-autonomous-drones.html",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49248477",
-        "name": "berkeleyjunk",
-        "hn_url": "https://news.ycombinator.com/item?id=49248477"
+        "id": "49417669",
+        "name": "reaperducer",
+        "hn_url": "https://news.ycombinator.com/item?id=49417669"
       },
       "duration_sec": null,
       "views": 18,
-      "comments": 7,
-      "published_at": "2026-08-10T19:25:07+00:00",
+      "comments": 0,
+      "published_at": "2026-08-24T10:16:03+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1105,6 +1105,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49423067",
+      "title": "Nvidia Groq 3 LPX Unlocks Ultrafast Interactivity at Long Context",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49423067",
+        "name": "frozenport",
+        "hn_url": "https://news.ycombinator.com/item?id=49423067"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 1,
+      "published_at": "2026-08-24T17:22:37+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49388268",
       "title": "Nvidia AVO achieves 100% in ARC-AGI-3",
       "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
@@ -1119,6 +1138,44 @@
       "views": 13,
       "comments": 2,
       "published_at": "2026-08-21T14:05:37+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49424444",
+      "title": "Nvidia customers notified about AI-related price hikes above 15%",
+      "url": "https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49424444",
+        "name": "dgellow",
+        "hn_url": "https://news.ycombinator.com/item?id=49424444"
+      },
+      "duration_sec": null,
+      "views": 13,
+      "comments": 0,
+      "published_at": "2026-08-24T19:06:30+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49363173",
+      "title": "Nvidia's new financial strategy does not compute",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49363173",
+        "name": "Brajeshwar",
+        "hn_url": "https://news.ycombinator.com/item?id=49363173"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 2,
+      "published_at": "2026-08-19T15:50:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
