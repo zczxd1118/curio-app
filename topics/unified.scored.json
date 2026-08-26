@@ -1,220 +1,220 @@
 {
-  "date": "2026-08-25",
-  "intro": "今日核心信号：英伟达首次公布Vera Rubin实测数据，DeepSeek吞吐量暴涨30倍，同时宣布旗舰芯片涨价17%，并以投资换绑定加固AI霸主地位。另一边，OpenAI被曝解散风险团队、人才流失，IPO前暗流涌动。存储涨价潮席卷全球，三星、SK海力士加码中国NAND产能，DRAM价格飙升。字节跳动加入企业办公Agent大战，发布“豆包工作”。",
+  "date": "2026-08-26",
+  "intro": "今日最重磅的信号是 OpenAI 自研 ASIC 芯片 Jalapeño 在 Hot Chips 2026 上首次公开基准测试，宣称能效和吞吐量超越 Nvidia Blackwell，这标志着 AI 算力竞争进入新阶段。同时，苹果发布 M6 和 M5 Ultra 芯片，Mac mini 起售价涨至 $899，AI 终端设备算力竞赛加剧。金融领域，高盛预计日本央行 9 月加息，全球粮食危机警报拉响。半导体方面，SK 海力士和三星在 Hot Chips 上展示了 HBM 和 LPDDR5X-PIM 技术进展，存储成本压力持续。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI 算力 / 半导体",
-      "id": "wscn:3780194",
-      "url": "https://wallstreetcn.com/articles/3780194",
-      "source": "华尔街见闻",
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/openai-says-its-jalapeno-chip-beats-nvidias-gb300-in-first-published-benchmarks",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/openai-says-its-jalapeno-chip-beats-nvidias-gb300-in-first-published-benchmarks",
+      "source": "Tom's Hardware",
       "stars": 5,
-      "title": "英伟达Vera Rubin首测：DeepSeek吞吐量暴涨30倍，Token成本暴降35倍",
-      "lead": "英伟达首次公布Vera Rubin NVL72片上实测数据，搭配DeepSeek-V4-Pro跑Agent编码任务，较GB300每兆瓦吞吐量最高飙升30倍，Token成本暴降35倍。同日，专为Agent设计的Vera CPU已被SpaceXAI规模化部署，并计划2028年送上太空。",
+      "title": "OpenAI 自研芯片 Jalapeño 首秀：能效超 GB300 1.9 倍，AI 算力格局生变",
+      "lead": "OpenAI 在 Hot Chips 2026 上首次公布自研推理芯片 Jalapeño 的基准测试结果，宣称其 700W 功耗下每千瓦吞吐量比 Nvidia GB300 高 1.9 倍，延迟低 3.6 倍。这颗与 Broadcom 合作的 ASIC 从设计到流片仅用 9 个月，直接挑战 CUDA 生态。",
       "confirmed": [
-        "英伟达首次公布Vera Rubin NVL72片上实测数据，搭配DeepSeek-V4-Pro跑Agent编码任务。",
-        "较GB300每兆瓦吞吐量最高飙升30倍，Token成本暴降35倍。",
-        "专为Agent设计的Vera CPU已被SpaceXAI规模化部署。",
-        "Vera CPU计划2028年送上太空。"
+        "Jalapeño 芯片功耗 700W，GB300 为 1400W",
+        "每千瓦吞吐量比 GB300 高 1.9 倍，延迟低 3.6 倍",
+        "与 Broadcom 合作开发，9 个月完成设计到流片",
+        "在 SemiAnalysis InferenceX 基准上每用户 token 数和每千瓦吞吐量均超现有产品"
       ],
       "judgment": [
-        "Vera Rubin的实际量产时间表尚未明确。",
-        "30倍吞吐量提升是否能在真实负载下复现，仍需第三方验证。",
-        "SpaceXAI部署的具体规模和应用场景未披露。"
+        "基准测试由 OpenAI 自行发布，缺乏第三方独立验证",
+        "实际部署性能和成本效益尚待大规模验证",
+        "对 Nvidia 市场地位的长期影响取决于量产能力和生态适配"
       ],
-      "implication": "你应该关注Vera Rubin的架构创新，特别是其针对Agent任务的优化。这可能是下一代推理芯片的标杆，对你做Agent产品有直接参考价值。建议仔细研究其技术博客，理解其如何实现如此大的吞吐量提升，或许能启发你在RAG或推理优化上的思路。"
+      "implication": "这对你意味着 AI 算力不再被 Nvidia 垄断，未来模型推理成本可能大幅下降。作为 AI 产品开发者，你应该关注 OpenAI 的芯片进展，因为如果 Jalapeño 量产，你使用的 API 价格可能降低，或者你可以考虑在自建推理时采用更高效的硬件方案。同时，这也提醒你关注 ASIC 在特定场景（如推理）的潜力，或许在个人项目中可以探索类似优化。"
     },
     {
       "rank": 2,
       "domain": "大厂 AI 动态",
-      "id": "hn:49342823",
-      "url": "https://thenextweb.com/news/openai-preparedness-team-disbanded-ipo-streamlining",
-      "source": "The Next Web",
-      "stars": 5,
-      "title": "OpenAI解散风险团队，IPO前人才流失加剧，CFO称2027年上市",
-      "lead": "OpenAI解散了负责评估灾难性模型风险的团队，同时多位高管离职，引发外界对IPO前治理的担忧。CFO Friar向员工表示，公司将在2027年或更早上市。此前OpenAI已完成70亿美元股份出售。",
+      "id": "rss:https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
+      "url": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
+      "source": "TechCrunch",
+      "stars": 4,
+      "title": "苹果发布 M6 与 M5 Ultra：2nm 工艺，AI 性能暴涨 4 倍，Mac 变身 AI 工作站",
+      "lead": "苹果在 8 月 25 日发布 M6 和 M5 Ultra 芯片，M6 采用 2nm 工艺，AI 性能较前代提升 4 倍；M5 Ultra 四 Die 堆叠，支持 512GB 统一内存和 1.2TB/s 带宽。新款 Mac mini 起售价 $899，Mac Studio 512GB 版本排货至 10 月底。",
       "confirmed": [
-        "OpenAI解散了负责评估灾难性模型风险的团队。",
-        "CFO Friar告诉员工，OpenAI将在2027年或更早上市。",
-        "OpenAI已完成70亿美元股份出售。",
-        "多位高管离职，包括安全团队成员。"
+        "M6 芯片采用 2nm 工艺，AI 性能提升 4 倍",
+        "M5 Ultra 支持 512GB 统一内存，带宽 1.2TB/s",
+        "Mac mini 起售价 $899，Mac Studio 高配排货至 10 月底",
+        "苹果称 M5 Ultra 为史上最强芯片"
       ],
       "judgment": [
-        "解散风险团队是否意味着安全优先级下降，尚不明确。",
-        "人才流失对OpenAI长期技术领先的影响未知。",
-        "IPO时间表可能因市场环境变化而调整。"
+        "M6 的 AI 性能提升是否能在实际应用中体现，需等待第三方评测",
+        "价格涨幅是否会影响 Mac 在开发者中的吸引力",
+        "M5 Ultra 的 512GB 内存对本地大模型推理的实际意义"
       ],
-      "implication": "OpenAI的IPO进程和内部动荡值得你持续关注，因为它可能影响整个AI生态的格局。你正在做Agent项目，OpenAI的模型和API策略变化会直接影响你的技术选型。建议留意其后续安全团队的动向，以及是否有新的替代方案出现。"
+      "implication": "对于你这样的 AI 产品开发者，M5 Ultra 的 512GB 统一内存意味着可以在本地运行更大规模的模型，减少对云 API 的依赖。如果你考虑升级硬件，M5 Ultra 可能是一个值得投资的选项，但要注意价格。同时，M6 的 2nm 工艺和 AI 性能提升，可能让 Mac 成为更高效的 AI 开发机，你可以关注后续的基准测试和实际体验。"
     },
     {
       "rank": 3,
-      "domain": "股票",
-      "id": "wscn:3780197",
-      "url": "https://wallstreetcn.com/articles/3780197",
+      "domain": "金融",
+      "id": "wscn:3780306",
+      "url": "https://wallstreetcn.com/articles/3780306",
       "source": "华尔街见闻",
       "stars": 4,
-      "title": "三星、SK海力士加码中国NAND产能，西安、大连工厂投资明年前陆续落地",
-      "lead": "AI服务器需求爆发，韩国存储双雄加速押注中国产线。三星电子将西安工厂升级为280层V9 NAND量产基地，月产能剑指5万片，补充投资订单年底落地；SK海力士同步在大连第二工厂提速扩产，目标月产3万片。",
+      "title": "高盛预计日本央行 9 月加息，日元贬值压力成关键变量",
+      "lead": "高盛将日本央行加息预期从 2027 年 1 月大幅前移至 9 月，终端利率预测上调至 1.75%。核心逻辑是日元贬值压力取代工资数据成为最紧迫变量，若美元兑日元突破 160，央行按兵不动将被视为默许汇率走弱。",
       "confirmed": [
-        "三星电子将西安工厂升级为280层V9 NAND量产基地。",
-        "三星西安工厂月产能目标5万片，补充投资订单年底落地。",
-        "SK海力士在大连第二工厂提速扩产，目标月产3万片。",
-        "AI服务器需求爆发是主要驱动力。"
+        "高盛将日本央行加息预期提前至 9 月",
+        "终端利率预测上调至 1.75%",
+        "日元贬值压力成为加息主要驱动因素",
+        "美元兑日元若突破 160，央行可能被迫行动"
       ],
       "judgment": [
-        "美国施压韩国企业赴美建厂，可能影响中国工厂的扩产计划。",
-        "中国NAND产能增加对全球存储价格的影响尚待观察。",
-        "三星和SK海力士的扩产能否按期完成存在不确定性。"
+        "日本央行是否真的在 9 月加息仍存在不确定性",
+        "加息对全球资本市场的影响程度",
+        "日元汇率走势是否如高盛预期"
       ],
-      "implication": "存储芯片涨价潮已经影响到你日常的硬件采购，比如DDR5内存价格飙升。关注三星和SK海力士在中国扩产，可能缓解未来的供应紧张。如果你有DIY电脑或服务器需求，建议关注存储价格走势，适时入手。"
+      "implication": "日本央行加息可能引发全球资本流动变化，影响风险资产价格。作为投资者，你应该关注日元汇率和日本债券收益率的变化，这可能影响你的全球资产配置。如果你有日本相关的投资或业务，需要提前对冲汇率风险。"
     },
     {
       "rank": 4,
-      "domain": "股票",
-      "id": "wscn:3780216",
-      "url": "https://wallstreetcn.com/articles/3780216",
-      "source": "华尔街见闻",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/pc-components/dram/hot-chips-2026-samsung-makes-lpddr5x-smart-with-logic-unit-in-memory-lpddr5x-pim-is-3-01x-faster-than-lpddr5x-in-ai-inference-with-8x-the-bandwidth",
+      "url": "https://www.tomshardware.com/pc-components/dram/hot-chips-2026-samsung-makes-lpddr5x-smart-with-logic-unit-in-memory-lpddr5x-pim-is-3-01x-faster-than-lpddr5x-in-ai-inference-with-8x-the-bandwidth",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "字节加入企业办公Agent大战：发布“豆包工作”，与飞书深度打通",
-      "lead": "Agent争夺战进入“四国杀”，腾讯、阿里、百度之后字节正式登场。字节推出“豆包工作”，支持文档、PPT、视频、应用等多类型内容生成与编辑，并可在授权后直接操控电脑和浏览器跨软件完成任务。最大差异点在于与飞书深度打通。",
+      "title": "三星 LPDDR5X-PIM 亮相 Hot Chips：AI 推理速度提升 3 倍，带宽 8 倍",
+      "lead": "三星在 Hot Chips 2026 上展示了业界首款 LPDDR5X-PIM（内存内处理）芯片，通过在内存中集成逻辑单元，AI 推理性能比标准 LPDDR5X 快 3.01 倍，带宽提升 8 倍。这一技术有望缓解 AI 计算中的内存墙问题。",
       "confirmed": [
-        "字节推出“豆包工作”，支持文档、PPT、视频、应用等多类型内容生成与编辑。",
-        "豆包工作可在授权后直接操控电脑和浏览器跨软件完成任务。",
-        "豆包工作与飞书深度打通。",
-        "腾讯、阿里、百度已先发布企业办公Agent。"
+        "LPDDR5X-PIM 为业界首款，在内存中集成逻辑单元",
+        "AI 推理速度比标准 LPDDR5X 快 3.01 倍",
+        "带宽提升 8 倍",
+        "在 Hot Chips 2026 上公布细节"
       ],
       "judgment": [
-        "豆包工作与飞书的整合深度如何，尚未有详细评测。",
-        "企业办公Agent市场的竞争格局尚不明朗。",
-        "字节的Agent能力是否优于竞争对手，需要实际体验。"
+        "PIM 技术的量产时间和成本尚不明确",
+        "对现有 AI 芯片架构的替代性有待验证",
+        "能否在移动设备等低功耗场景落地"
       ],
-      "implication": "你正在做Agent项目，字节的“豆包工作”是一个值得研究的案例。它展示了如何将Agent与办公场景深度结合。建议你体验一下，看看其操控电脑和浏览器的实现方式，或许能给你带来产品设计上的灵感。"
+      "implication": "内存墙是 AI 计算的核心瓶颈，PIM 技术可能改变未来 AI 硬件设计。作为开发者，你可以关注这一技术对边缘 AI 设备的影响，未来可能在手机或嵌入式设备上运行更高效的模型。同时，这也意味着内存厂商在 AI 产业链中的地位上升，投资或选型时值得留意。"
     },
     {
       "rank": 5,
-      "domain": "金融",
-      "id": "wscn:3780206",
-      "url": "https://wallstreetcn.com/articles/3780206",
+      "domain": "股票",
+      "id": "wscn:3780301",
+      "url": "https://wallstreetcn.com/articles/3780301",
       "source": "华尔街见闻",
       "stars": 4,
-      "title": "美债“铁索连舟”：日欧深陷滞胀，长端利率上行本质是一场挤兑",
-      "lead": "财通宏观张伟团队认为，美国通过让日本、欧洲大规模持有美债，将盟友财政与自身深度捆绑——此即“铁索连舟”。经济上行时铁索稳固，一旦遭遇全球滞胀，一船起火、众船遭殃。日欧深陷滞胀困境，财政承压、汇率受损，购债能力持续下滑，美债海外需求缺口显现。",
+      "title": "OpenAI 自研 ASIC 芯片 Jalapeño 超越 Blackwell，AI 芯片设计进入新范式",
+      "lead": "OpenAI 自研推理芯片 Jalapeño 在能效、吞吐量等核心指标上实测超越英伟达 Blackwell，且开发周期仅 9 个月。更深远的意义在于 AI 工具深度介入芯片设计，形成“AI 造芯片、芯片跑 AI”的正向飞轮，CUDA 的软件护城河面临结构性挑战。",
       "confirmed": [
-        "美国通过让日本、欧洲大规模持有美债，将盟友财政与自身深度捆绑。",
-        "日欧深陷滞胀困境，财政承压、汇率受损。",
-        "美债海外需求缺口显现。",
-        "长端利率快速上行。"
+        "Jalapeño 在能效和吞吐量上超越 Blackwell",
+        "开发周期仅 9 个月，远低于行业均值",
+        "AI 工具参与芯片设计，形成正向飞轮",
+        "CUDA 生态面临挑战"
       ],
       "judgment": [
-        "“铁索连舟”的比喻是否准确，存在争议。",
-        "日欧购债能力下滑的具体程度难以量化。",
-        "美债利率上行是否会引发系统性风险，尚待观察。"
+        "ASIC 的通用性不足，可能仅适用于特定推理场景",
+        "OpenAI 的芯片能否大规模量产和部署",
+        "Nvidia 是否会通过软件生态反击"
       ],
-      "implication": "美债利率上行对全球资产价格都有影响，包括你关注的科技股。理解这个逻辑有助于你判断市场风险。如果你有投资，建议关注美债收益率走势，以及它对成长股估值的压力。"
+      "implication": "AI 芯片设计正从通用 GPU 转向专用 ASIC，这可能会降低 AI 推理成本，并催生新的硬件创业机会。作为 AI 产品开发者，你可以关注 ASIC 在推理场景的应用，未来 API 价格可能下降。同时，这也提醒你，AI 工具本身正在加速硬件创新，你可以尝试用 AI 辅助设计自己的硬件项目。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia AVO scores 100% on the ARC-AGI-3 interactive reasoning benchmark",
-      "url": "https://twitter.com/NVIDIAAI/status/2090786258981466231",
-      "source": "NVIDIA AI",
-      "one_liner": "英伟达AVO在ARC-AGI-3上取得100%成绩，但该基准的权威性存疑，且尚未有第三方验证。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia customers notified about AI-related price hikes above 15%",
-      "url": "https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/",
+      "title": "Nvidia 大幅减少对 OpenAI 基础设施融资的担保",
+      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
       "source": "Reuters",
-      "one_liner": "英伟达通知客户涨价超15%，影响Grace Blackwell和Vera Rubin系统，反映存储成本压力。"
+      "one_liner": "Nvidia 缩减对 OpenAI 的融资担保，反映 AI 基础设施投资风险上升，值得关注。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Hot Chips 2026: Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-xeon-7-diamond-rapids-comes-with-up-to-256-p-cores-1-28-gb-of-last-level-cache-next-gen-18a-p-cpu-also-brings-avx-10-2-and-uses-ucie-s-instead-of-emib",
+      "title": "Hot Chips 2026: Intel 详解 Crescent Island AI 加速器",
+      "url": "https://www.tomshardware.com/pc-components/gpus/hot-chips-2026-intel-dives-deep-on-crescent-island-ai-accelerator-larger-caches-and-deeper-xmx-engines-target-maximum-ai-flops-per-watt",
       "source": "Tom's Hardware",
-      "one_liner": "Intel下一代Xeon Diamond Rapids曝光，256核和1.28GB缓存，但离上市还早，适合关注。"
+      "one_liner": "Intel 在 Hot Chips 上展示新一代 AI 加速器，采用 HBM4 和液冷，目标每瓦性能最大化。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "SK hynix pushes hybrid bonding to HBM5 as AI memory hits 775-micron ceiling",
+      "title": "Hot Chips 2026: SK hynix 将混合键合推迟至 HBM5",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-says-hybrid-bonding-wont-be-ready-for-hbm4e-as-ai-memory-runs-into-a-775-micron-ceiling",
       "source": "Tom's Hardware",
-      "one_liner": "SK海力士将混合键合推迟到HBM5，HBM4E仍用MR-MUF，影响AI内存路线图。"
+      "one_liner": "SK hynix 因厚度限制，混合键合技术推迟到 HBM5，HBM4E 继续使用 MR-MUF。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Hot Chips 2026: Nvidia 详解 88 核 Vera CPU",
+      "url": "https://www.tomshardware.com/pc-components/cpus/hot-chips-2026-nvidia-breaks-down-88-core-vera-cpu-spatial-multithreading-benchmarked-1-2-tb-s-socamm2-memory-agentic-workloads-detailed-and-more",
+      "source": "Tom's Hardware",
+      "one_liner": "Nvidia Vera CPU 面向 Agentic 数据中心，支持空间多线程和 1.2TB/s 内存带宽。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Gemini 3.7 Flash",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "source": "Google",
-      "one_liner": "Google发布Gemini 3.7 Flash，性能提升，但具体细节未披露，值得关注。"
+      "title": "Claude Cowork 获得跨聊天和 Cowork 的共享记忆",
+      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+      "source": "TechCrunch",
+      "one_liner": "Anthropic 为 Claude 增加共享记忆，减少重复说明，提升 Agent 工作流效率。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "source": "Google",
-      "one_liner": "DeepMind高层变动，Hassabis转任主席，Jeff Dean离开，影响AI研究方向。"
+      "title": "OpenAI 失去顶级数据中心高管，离职潮持续",
+      "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+      "source": "TechCrunch",
+      "one_liner": "OpenAI 基础设施负责人离职，IPO 前人才流失加剧，引发市场担忧。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Codex on AWS bedrock bug causing 10x charges",
-      "url": "https://github.com/openai/codex/issues/37674",
-      "source": "GitHub",
-      "one_liner": "OpenAI Codex在AWS Bedrock上存在计费bug，导致10倍费用，开发者需注意。"
+      "title": "Stability AI 融资 7600 万美元",
+      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+      "source": "TechCrunch",
+      "one_liner": "Stable Diffusion 开发商 Stability AI 获 7600 万美元新融资，总融资达 2.32 亿美元。"
     },
     {
       "domain": "股票",
-      "title": "Citadel：算力稀缺仍是AI最大瓶颈，超大规模云厂商或成最终赢家",
-      "url": "https://wallstreetcn.com/articles/3780212",
+      "title": "37 万亿险资换锚：监管红线落地，红利资产或迎长期买方",
+      "url": "https://wallstreetcn.com/premium/articles/3780130?layout=wscn-layout",
       "source": "华尔街见闻",
-      "one_liner": "Citadel分析认为算力比模型更重要，云厂商将受益，对AI投资有参考价值。"
+      "one_liner": "保险资金净投资收益覆盖率不低于 100%，高股息资产配置需求上升，关注红利板块。"
     },
     {
       "domain": "股票",
-      "title": "黄仁勋不停歇：芯片、数据中心、模型三线并进，英伟达以投资换锁定加固AI霸主地位",
-      "url": "https://wallstreetcn.com/articles/3780204",
+      "title": "全球粮食危机警报：厄尔尼诺与地缘冲突推高谷物价格",
+      "url": "https://wallstreetcn.com/articles/3780314",
       "source": "华尔街见闻",
-      "one_liner": "英伟达投资Perplexity、Poolside，并布局电力，以投资换绑定，巩固护城河。"
+      "one_liner": "汇丰警告全球谷物供需缺口为 2006 年以来最大，农产品价格或持续上涨。"
     },
     {
       "domain": "股票",
-      "title": "过去三周，投资机构买入黄金期货规模创纪录！",
-      "url": "https://wallstreetcn.com/articles/3780196",
+      "title": "大摩启动英伟达信用评级：负债规模或达 2000 亿美元",
+      "url": "https://wallstreetcn.com/articles/3780305",
       "source": "华尔街见闻",
-      "one_liner": "黄金期货净买入222亿美元创十年新高，避险情绪升温，但短期仓位过热。"
+      "one_liner": "摩根士丹利报告揭示英伟达表外信用敞口高达 1700 亿美元，AI 融资风险受关注。"
     },
     {
       "domain": "股票",
-      "title": "高盛对冲基金业务主管：油价比杰克逊霍尔美联储年会重要，英伟达是本周焦点",
-      "url": "https://wallstreetcn.com/articles/3780195",
+      "title": "TrendForce：2027 年存储将占云厂资本开支 68%",
+      "url": "https://wallstreetcn.com/articles/3780302",
       "source": "华尔街见闻",
-      "one_liner": "高盛认为油价和英伟达财报比美联储更重要，建议做多金融和工业。"
+      "one_liner": "存储价格暴涨，DRAM 和 NAND 在云资本开支占比将从 47% 跃升至 68%，AI 存储税时代来临。"
     },
     {
       "domain": "金融",
-      "title": "Sticky wage norms and the real wage cost of unexpected inflation",
-      "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
-      "source": "UChicago",
-      "one_liner": "芝加哥大学论文研究工资粘性与通胀关系，对宏观判断有参考价值。"
+      "title": "美国保险业爆雷：古根海姆 210 亿美元遭调查",
+      "url": "https://wallstreetcn.com/articles/3780298",
+      "source": "华尔街见闻",
+      "one_liner": "Guggenheim CEO 因 210 亿美元保险资金违规操作面临 FBI 调查，私募吸血模式受质疑。"
     },
     {
       "domain": "金融",
-      "title": "Nearly 3M Teslas recalled in China over hidden door handles",
-      "url": "https://www.bbc.com/news/articles/c4g6ggdg030o",
-      "source": "BBC",
-      "one_liner": "特斯拉在华召回近300万辆，涉及隐藏式门把手，影响品牌和销量。"
+      "title": "IMF 总裁警告财政风险上升",
+      "url": "https://wallstreetcn.com/articles/3780296",
+      "source": "华尔街见闻",
+      "one_liner": "IMF 呼吁各国推进债务整合，央行坚守抗通胀立场，全球财政货币压力加大。"
     },
     {
       "domain": "金融",
-      "title": "Meta faces 'astronomical' consequences as legal fight reaches critical moment",
-      "url": "https://www.cnbc.com/2026/08/17/meta-attorneys-general-california-federal-trial-astronomical-consequences.html",
-      "source": "CNBC",
-      "one_liner": "Meta面临法律诉讼，可能影响其业务，值得关注。"
+      "title": "a16z：AI 改写创新方法论，20 人团队可部署 10 亿美元",
+      "url": "https://wallstreetcn.com/articles/3780308",
+      "source": "华尔街见闻",
+      "one_liner": "a16z 认为 AI 将创新从工程约束转向资本约束，小团队也能撬动巨额资源。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-25T05:05:05+0000"
+    "scored_at": "2026-08-26T04:32:06+0000"
   }
 }
