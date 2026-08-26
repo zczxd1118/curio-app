@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-25T03:53:59.685652+00:00",
+  "fetched_at": "2026-08-26T03:58:29.945059+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 8,
+    "HN · Nvidia": 12,
     "HN · semiconductor": 0,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 29,
+  "total": 33,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/the-complete-iot-mesh-solution-making-wi-sun-deployments-simple/",
+      "title": "The Complete IoT Mesh Solution: Making Wi-SUN Deployments Simple",
+      "url": "https://www.eetimes.com/the-complete-iot-mesh-solution-making-wi-sun-deployments-simple/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Digi, Silicon Labs, Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-25T16:31:04+00:00",
+      "summary": "Join us for a technical walkthrough of the Digi XBee for Wi-SUN platform and a live demo showing how quickly you can go from development kit to a fully managed, self-healing mesh network ready for production. The post The Complete IoT Mesh Solution: Making Wi-SUN Deployments Simple appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/engineering-fiber-optic-solutions-for-next-generation-space-applications/",
+      "title": "Engineering Fiber Optic Solutions for Next-Generation Space Applications",
+      "url": "https://www.eetimes.com/engineering-fiber-optic-solutions-for-next-generation-space-applications/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "TE Connectivity",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-25T14:00:00+00:00",
+      "summary": "As satellite systems demand greater bandwidth, lower weight, and higher reliability, engineers face significant challenges when integrating fiber optics into space-qualified platforms. This case study examines the design and deployment of a high-density fiber optic network within a geostationary orbit (GEO) satellite, highlighting the engineering considerations required to overcome launch vibration, radiation exposure, thermal extremes, [&#8230;] The post Engineering Fiber Optic Solutions for Ne...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/yokogawa-releases-ct500sa-and-ct200sa-ac-dc-split-core-current-sensors/",
+      "title": "Yokogawa Releases CT500SA and CT200SA AC/DC Split Core Current Sensors",
+      "url": "https://www.eetimes.com/yokogawa-releases-ct500sa-and-ct200sa-ac-dc-split-core-current-sensors/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yokogawa Test and Measurement Corporation",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-25T13:50:53+00:00",
+      "summary": "(Tokyo, Japan – August 19, 2026) Yokogawa Test &#38; Measurement Corporation today announces the release of its second-generation of AC/DC split core current sensors, the CT500SA and CT200SA. Designed specifically for space-constrained environments, such as in-vehicle xEV testing, they offer high-accuracy current measurements for the 200 A and 500 A ranges. The sensors are uniquely [&#8230;] The post Yokogawa Releases CT500SA and CT200SA AC/DC Split Core Current Sensors appeared first on EE Time...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/tsmcs-hbm-packaging-yield-issues-help-intel-analysts-say/",
+      "title": "TSMC’s HBM-Packaging Yield Issues Help Intel, Analysts Say",
+      "url": "https://www.eetimes.com/tsmcs-hbm-packaging-yield-issues-help-intel-analysts-say/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-25T07:00:00+00:00",
+      "summary": "TSMC’s CoWoS bottlenecks could hand Intel a foundry opening as AI chipmakers eye EMIB and new memory tech. The post TSMC’s HBM-Packaging Yield Issues Help Intel, Analysts Say appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/nxp-expands-industrial-endpoint-access-with-mcu-topology-discovery/",
       "title": "NXP Expands Industrial Endpoint Access with MCU Topology Discovery",
       "url": "https://www.eetimes.com/nxp-expands-industrial-endpoint-access-with-mcu-topology-discovery/",
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/the-human-brain-versus-ai-similar-results-very-different-machines/",
-      "title": "The Human Brain Versus AI: Similar Results, Very Different Machines",
-      "url": "https://www.eetimes.com/the-human-brain-versus-ai-similar-results-very-different-machines/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Lauro Rizzatti",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T07:43:42+00:00",
-      "summary": "Contrast 20 watts with a megawatt: The brain and the LLM aren’t in the same race. The post The Human Brain Versus AI: Similar Results, Very Different Machines appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/synopsys-updates-cxl-ip-portfolio-for-ai-era-infrastructure/",
-      "title": "Synopsys Updates CXL IP Portfolio for AI-Era Infrastructure",
-      "url": "https://www.eetimes.com/synopsys-updates-cxl-ip-portfolio-for-ai-era-infrastructure/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-20T14:07:45+00:00",
-      "summary": "Synopsys’s CXL 4.0 IP aims to help designers build faster, more flexible and secure disaggregated computing architectures as AI systems demand more memory capacity and bandwidth. The post Synopsys Updates CXL IP Portfolio for AI-Era Infrastructure appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/andes-condor-closure-came-amid-broader-cost-cutting-effort/",
-      "title": "Andes Condor Closure Came Amid Broader Cost-Cutting Effort",
-      "url": "https://www.eetimes.com/andes-condor-closure-came-amid-broader-cost-cutting-effort/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-19T22:00:00+00:00",
-      "summary": "Andes Technology’s decision to close Condor was part of a broader 10-20% operational cost-cutting exercise, with Condor probably considered too expensive a bet. The post Andes Condor Closure Came Amid Broader Cost-Cutting Effort appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ibm-makes-quantum-cryogenics-modular-but-scaling-problems-remain/",
-      "title": "IBM Makes Quantum Cryogenics Modular, but Scaling Problems Remain",
-      "url": "https://www.eetimes.com/ibm-makes-quantum-cryogenics-modular-but-scaling-problems-remain/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-19T13:55:51+00:00",
-      "summary": "IBM’s new cryogenic architecture tackles one obstacle to fault-tolerant quantum computing, while exposing wiring, control, interconnect, and reliability challenges. The post IBM Makes Quantum Cryogenics Modular, but Scaling Problems Remain appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49325115",
       "title": "TSMC Uses Old Fabs to Make New Chips [video]",
       "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
@@ -378,39 +378,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49255710",
-      "title": "Nvidia's Risky Business",
-      "url": "https://stratechery.com/2026/nvidias-risky-business/",
+      "id": "hn:49434378",
+      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49255710",
-        "name": "jonbaer",
-        "hn_url": "https://news.ycombinator.com/item?id=49255710"
+        "id": "49434378",
+        "name": "bmulholland",
+        "hn_url": "https://news.ycombinator.com/item?id=49434378"
       },
       "duration_sec": null,
-      "views": 356,
-      "comments": 178,
-      "published_at": "2026-08-11T10:02:00+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49263340",
-      "title": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
-      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49263340",
-        "name": "droidjj",
-        "hn_url": "https://news.ycombinator.com/item?id=49263340"
-      },
-      "duration_sec": null,
-      "views": 262,
-      "comments": 139,
-      "published_at": "2026-08-11T19:35:52+00:00",
+      "views": 377,
+      "comments": 257,
+      "published_at": "2026-08-25T14:06:02+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -435,25 +416,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49257947",
-      "title": "Nvidia Nemotron 3.5 Lightning",
-      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49257947",
-        "name": "beklein",
-        "hn_url": "https://news.ycombinator.com/item?id=49257947"
-      },
-      "duration_sec": null,
-      "views": 122,
-      "comments": 32,
-      "published_at": "2026-08-11T13:26:02+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:49387755",
       "title": "Nvidia AVO scores 100% on the ARC-AGI-3 interactive reasoning benchmark",
       "url": "https://twitter.com/NVIDIAAI/status/2090786258981466231",
@@ -465,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49387755"
       },
       "duration_sec": null,
-      "views": 70,
+      "views": 71,
       "comments": 39,
       "published_at": "2026-08-21T13:26:03+00:00",
       "summary": "",
@@ -525,6 +487,120 @@
       "views": 31,
       "comments": 15,
       "published_at": "2026-08-18T07:02:04+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49411178",
+      "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026)",
+      "url": "https://www.spheron.network/blog/etched-ai-sohu-vs-nvidia-transformer-asic-inference/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49411178",
+        "name": "rbanffy",
+        "hn_url": "https://news.ycombinator.com/item?id=49411178"
+      },
+      "duration_sec": null,
+      "views": 22,
+      "comments": 6,
+      "published_at": "2026-08-23T18:27:33+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49417669",
+      "title": "Some of Russia's A.I. Drones Are Powered by Nvidia",
+      "url": "https://www.nytimes.com/2026/08/24/world/europe/ukraine-war-nvidia-ai-autonomous-drones.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49417669",
+        "name": "reaperducer",
+        "hn_url": "https://news.ycombinator.com/item?id=49417669"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 0,
+      "published_at": "2026-08-24T10:16:03+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49436796",
+      "title": "OpenAI claims its new chips can outperform Nvidia processors in tests",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-25/openai-claims-its-new-chips-can-outperform-nvidia-processors-in-tests",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49436796",
+        "name": "TravisJamison",
+        "hn_url": "https://news.ycombinator.com/item?id=49436796"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 2,
+      "published_at": "2026-08-25T16:35:58+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49393647",
+      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49393647",
+        "name": "dthread3",
+        "hn_url": "https://news.ycombinator.com/item?id=49393647"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 1,
+      "published_at": "2026-08-21T20:52:10+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49306491",
+      "title": "Nvidia discloses $21B stake in SpaceX",
+      "url": "https://www.ft.com/content/6f66a76d-0b2d-4301-886c-87ecc046731b",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49306491",
+        "name": "JumpCrisscross",
+        "hn_url": "https://news.ycombinator.com/item?id=49306491"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 2,
+      "published_at": "2026-08-15T01:02:55+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49279812",
+      "title": "Why space is a terrible place to cool a data center",
+      "url": "https://thenewstack.io/spacex-and-nvidias-orbital-ai-datacenter-fantasy/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49279812",
+        "name": "CrankyBear",
+        "hn_url": "https://news.ycombinator.com/item?id=49279812"
+      },
+      "duration_sec": null,
+      "views": 17,
+      "comments": 3,
+      "published_at": "2026-08-12T23:08:21+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
