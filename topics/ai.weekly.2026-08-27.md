@@ -2,30 +2,30 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今日核心信号：Nvidia 以 129 亿美元收购 Hugging Face，强化开源模型生态；OpenAI 发布自研芯片 Jalapeño，挑战 Nvidia 霸权；同时 Nvidia 财报超预期，营收破 960 亿美元。AI 算力格局正在重塑，开源与自研芯片成为关键词。_
+_今日核心信号：英伟达财报超预期，单季营收破960亿美元，且宣布收购Hugging Face，AI算力版图再扩张。同时，OpenAI自研芯片Jalapeño亮相，挑战英伟达，AI芯片竞争白热化。此外，OpenAI的“越狱”AI事件持续发酵，引发对AI安全的关注。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. 吴恩达 Agent 教程：从入门到实战
+### 1. OpenAI发布WebMCP协议，让网站主动暴露工具给AI Agent
 
-**[AI]** · ⭐⭐⭐ · _吴恩达Agent_
+**[AI]** · ⭐⭐⭐ · _AI超元域_
 
-吴恩达的 Agent 教程是经典，但内容偏基础，适合新手，对进阶用户价值有限。
+WebMCP可能改变Agent与网页交互方式，值得关注，但视频为实测，深度有限。
 
-📺 [打开原文](http://www.bilibili.com/video/av115897075242856)
+📺 [打开原文](http://www.bilibili.com/video/av117162530312233)
 
 ---
 
 ## 📋 备选阅读
 
-- [Claude Code 保姆级安装+原理+真实用法](http://www.bilibili.com/video/av116447535765612) —— 实用教程，但覆盖范围有限，适合快速上手，深度不足。
-  _人工大黑_
-- [OpenClaw 高级使用：Claude Code Hooks 省 Token](http://www.bilibili.com/video/av116046157647899) —— 针对 OpenClaw 用户的进阶技巧，对 Agent 开发者有参考价值，但受众较窄。
-  _AI超元域_
-- [WebMCP：OpenAI 新协议让网站暴露工具给 Agent](http://www.bilibili.com/video/av117162530312233) —— OpenAI 新协议 WebMCP 的实测，对 Agent 生态有影响，但视频质量一般。
-  _AI超元域_
+- [吴恩达最新Agent教程：Agentic AI 从入门到进阶](http://www.bilibili.com/video/av115897075242856) —— 吴恩达的教程质量有保障，但内容偏基础，适合入门，不适合进阶。
+  _吴恩达Agent_
+- [Claude Code + AI语音输入法：不需要手速，照样交付](http://www.bilibili.com/video/av115781178235411) —— 语音输入与Claude Code结合的工作流，有实操细节，但受众较窄。
+  _程序员阿江-Relakkes_
+- [韦东山：用DeepSeek与Claude Code搭建嵌入式Linux AI开发环境](http://www.bilibili.com/video/av117155165177009) —— 嵌入式AI开发实战，对电子工程背景的你有参考价值，但视频较长。
+  _韦东山_
 
 ---
 
