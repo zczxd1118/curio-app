@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-26T03:58:29.945059+00:00",
+  "fetched_at": "2026-08-27T14:02:26.177652+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 12,
+    "HN · Nvidia": 8,
     "HN · semiconductor": 0,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 33,
+  "total": 29,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,125 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/why-connectivity-has-become-an-edge-ai-design-decision/",
+      "title": "Why Connectivity Has Become an Edge AI Design Decision",
+      "url": "https://www.eetimes.com/why-connectivity-has-become-an-edge-ai-design-decision/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Neeta Shenoy",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-27T07:00:00+00:00",
+      "summary": "Edge AI isn’t smart if its wireless link chokes; design compute, security, and Wi‑Fi 7 handoffs together from day one. The post Why Connectivity Has Become an Edge AI Design Decision appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/nvme-2-4-update-adds-post-quantum-security-power-controls/",
+      "title": "NVMe 2.4 Update Adds Post-Quantum Security, Power Controls",
+      "url": "https://www.eetimes.com/nvme-2-4-update-adds-post-quantum-security-power-controls/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-26T22:00:00+00:00",
+      "summary": "NVMe 2.4 enhances security, power, virtualization, and management across cloud, AI, and enterprise workloads. The post NVMe 2.4 Update Adds Post-Quantum Security, Power Controls appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/reliable-power-path-design-integrating-mosfets-diodes-tvs-devices-and-capacitors/",
+      "title": "Reliable Power-Path Design: Integrating MOSFETs, Diodes, TVS Devices, and Capacitors",
+      "url": "https://www.eetimes.com/reliable-power-path-design-integrating-mosfets-diodes-tvs-devices-and-capacitors/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Unikey Electronics Pte. Ltd.",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-26T13:00:00+00:00",
+      "summary": "Design a reliable 24V power path, pick the right MOSFET, diode, TVS, and capacitor to handle surges, reverse polarity, and inrush current The post Reliable Power-Path Design: Integrating MOSFETs, Diodes, TVS Devices, and Capacitors appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/why-automation-is-essential-to-achieve-eu-cra-compliance/",
+      "title": "Why Automation Is Essential to Achieve EU CRA Compliance",
+      "url": "https://www.eetimes.com/why-automation-is-essential-to-achieve-eu-cra-compliance/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Colin Duggan, CEO and co-founder, BG Networks",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-26T13:00:00+00:00",
+      "summary": "Discover how automation streamlines product-level conformity workflows to help manufacturers achieve EU Cyber Resilience Act compliance. The post Why Automation Is Essential to Achieve EU CRA Compliance appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/from-days-to-minutes-accelerating-3d-ic-debug-with-agentic-ai/",
+      "title": "From Days to Minutes: Accelerating 3D IC Debug with Agentic AI",
+      "url": "https://www.eetimes.com/from-days-to-minutes-accelerating-3d-ic-debug-with-agentic-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Zackary Glazewski, Founding AI Engineer, ChipAgents",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-26T13:00:00+00:00",
+      "summary": "Discover how agentic AI cuts 3D IC debugging from days to minutes. Learn multi-agent orchestration techniques to accelerate end-to-end root cause analysis. The post From Days to Minutes: Accelerating 3D IC Debug with Agentic AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/accelerating-silicon-design-for-physical-ai/",
+      "title": "Accelerating Silicon Design for Physical AI",
+      "url": "https://www.eetimes.com/accelerating-silicon-design-for-physical-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Cadence Design Systems",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-26T12:00:00+00:00",
+      "summary": "Physical AI systems must perceive, reason, and act at once, under tight real-time latency and power budgets. That workload diversity breaks the one-processor model, widens the gap between trained models and deployable silicon code, and turns security from a point-in-time feature into a full-lifecycle requirement spanning safety-critical operation and multi-vendor supply chains. Engineering teams also [&#8230;] The post Accelerating Silicon Design for Physical AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/indias-osat-atmp-build-out-from-legacy-packages-to-2-5d/",
+      "title": "India’s OSAT-ATMP Build-Out: From Legacy Packages to 2.5D",
+      "url": "https://www.eetimes.com/indias-osat-atmp-build-out-from-legacy-packages-to-2-5d/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-26T07:00:00+00:00",
+      "summary": "ASIP Technologies has begun construction of an OSAT facility in Visakhapatnam, Andhra Pradesh, with Korean partner APACT. The post India’s OSAT-ATMP Build-Out: From Legacy Packages to 2.5D appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/the-complete-iot-mesh-solution-making-wi-sun-deployments-simple/",
       "title": "The Complete IoT Mesh Solution: Making Wi-SUN Deployments Simple",
       "url": "https://www.eetimes.com/the-complete-iot-mesh-solution-making-wi-sun-deployments-simple/",
@@ -240,125 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/tsmcs-hbm-packaging-yield-issues-help-intel-analysts-say/",
-      "title": "TSMC’s HBM-Packaging Yield Issues Help Intel, Analysts Say",
-      "url": "https://www.eetimes.com/tsmcs-hbm-packaging-yield-issues-help-intel-analysts-say/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-25T07:00:00+00:00",
-      "summary": "TSMC’s CoWoS bottlenecks could hand Intel a foundry opening as AI chipmakers eye EMIB and new memory tech. The post TSMC’s HBM-Packaging Yield Issues Help Intel, Analysts Say appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/nxp-expands-industrial-endpoint-access-with-mcu-topology-discovery/",
-      "title": "NXP Expands Industrial Endpoint Access with MCU Topology Discovery",
-      "url": "https://www.eetimes.com/nxp-expands-industrial-endpoint-access-with-mcu-topology-discovery/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-24T17:00:00+00:00",
-      "summary": "NXP’s MCX A5 identifies and maps connected devices to improve network visibility, turning endpoints into accessible sources of real-time data for analytics, automation, and industrial edge AI. The post NXP Expands Industrial Endpoint Access with MCU Topology Discovery appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/radiation-tolerance-of-tantalum-polymer-capacitors/",
-      "title": "Radiation Tolerance of Tantalum Polymer Capacitors",
-      "url": "https://www.eetimes.com/radiation-tolerance-of-tantalum-polymer-capacitors/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Krystof Adamek",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-24T14:00:00+00:00",
-      "summary": "Environments rich in ionizing radiation create a particularly difficult functional challenge for electronic components. Spacecraft, nuclear reactors, particle accelerators, and hardened military equipment (to name a few examples) demand that their electrical systems operate correctly, even in the presence of high energy particles, cosmic rays, X-rays, and the like. Such radiation adversely affects electronics in [&#8230;] The post Radiation Tolerance of Tantalum Polymer Capacitors appeared first...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/welcome-to-the-era-of-trustworthy-ai-for-ic-signoff-and-manufacturing/",
-      "title": "Welcome to the Era of Trustworthy AI for IC Signoff and Manufacturing",
-      "url": "https://www.eetimes.com/welcome-to-the-era-of-trustworthy-ai-for-ic-signoff-and-manufacturing/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Juan Rey, Senior Vice President, General Manager and CTO of the Calibre segment, Siemens EDA",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-24T13:00:00+00:00",
-      "summary": "Trust is the key to AI adoption in chip design. See how deterministic EDA engines and explainable AI can accelerate signoff and manufacturing. The post Welcome to the Era of Trustworthy AI for IC Signoff and Manufacturing appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/hp1800-the-magic-of-single-stage-48v-to-ultra-low-voltage/",
-      "title": "HP1800: The Magic of Single-Stage 48V to Ultra-Low Voltage",
-      "url": "https://www.eetimes.com/hp1800-the-magic-of-single-stage-48v-to-ultra-low-voltage/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Hynetek Semiconductor Co., Ltd.",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-24T13:00:00+00:00",
-      "summary": "HP1800 PWM phase-doubler turns 1 tri-state PWM input to four 180° interleaved complementary outputs. It enables 90–92% efficient single-stage 48V-to-1V AI PoL conversion (vs ~86% two-stage), cutting PCB area 75% and parts 40%. It supports legacy controllers, programmable dead-time, anti-shoot-through logic, 200kHz–2MHz switching to lower data-center power cost. The post HP1800: The Magic of Single-Stage 48V to Ultra-Low Voltage appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/nvidia-inference-pivot-reaches-rebellions-in-korea/",
-      "title": "Nvidia’s Inference Pivot Reaches Rebellions in Korea",
-      "url": "https://www.eetimes.com/nvidia-inference-pivot-reaches-rebellions-in-korea/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-24T08:07:18+00:00",
-      "summary": "Nvidia is reportedly in talks with Korean inference upstart Rebellions about a technical partnership, investment, or acquisition. The post Nvidia’s Inference Pivot Reaches Rebellions in Korea appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo/",
-      "title": "China’s NAND Specialist YMTC Moves Closer to IPO",
-      "url": "https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-21T18:00:00+00:00",
-      "summary": "YMTC must raise capital to explore demand for AI-driven memory while balancing domestic and overseas markets. The post China’s NAND Specialist YMTC Moves Closer to IPO appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49325115",
       "title": "TSMC Uses Old Fabs to Make New Chips [video]",
       "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
@@ -378,6 +378,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49458161",
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49458161",
+        "name": "mfiguiere",
+        "hn_url": "https://news.ycombinator.com/item?id=49458161"
+      },
+      "duration_sec": null,
+      "views": 1485,
+      "comments": 664,
+      "published_at": "2026-08-27T01:12:55+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49434378",
       "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
       "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
@@ -389,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49434378"
       },
       "duration_sec": null,
-      "views": 377,
-      "comments": 257,
+      "views": 581,
+      "comments": 372,
       "published_at": "2026-08-25T14:06:02+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -454,25 +473,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49282762",
-      "title": "Nvidia doubles RTX PRO 6000 Blackwell's MSRP to a staggering $16,000",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-doubles-rtx-pro-6000-blackwells-msrp-to-a-staggering-usd16-000-96gb-card-started-pre-orders-below-usd8-000-last-year",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49282762",
-        "name": "jacquesm",
-        "hn_url": "https://news.ycombinator.com/item?id=49282762"
-      },
-      "duration_sec": null,
-      "views": 37,
-      "comments": 20,
-      "published_at": "2026-08-13T07:28:54+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:49342314",
       "title": "Nvidia discloses $21B stake in SpaceX",
       "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
@@ -492,6 +492,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49447878",
+      "title": "Who bears the risk in Nvidia's $500B financing platform?",
+      "url": "https://www.sascha-steffen.de/updates/nvidia-500bn-ai-financing-credit-risk",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49447878",
+        "name": "rwmj",
+        "hn_url": "https://news.ycombinator.com/item?id=49447878"
+      },
+      "duration_sec": null,
+      "views": 30,
+      "comments": 8,
+      "published_at": "2026-08-26T12:32:31+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49411178",
       "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026)",
       "url": "https://www.spheron.network/blog/etched-ai-sohu-vs-nvidia-transformer-asic-inference/",
@@ -503,104 +522,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=49411178"
       },
       "duration_sec": null,
-      "views": 22,
+      "views": 23,
       "comments": 6,
       "published_at": "2026-08-23T18:27:33+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49417669",
-      "title": "Some of Russia's A.I. Drones Are Powered by Nvidia",
-      "url": "https://www.nytimes.com/2026/08/24/world/europe/ukraine-war-nvidia-ai-autonomous-drones.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49417669",
-        "name": "reaperducer",
-        "hn_url": "https://news.ycombinator.com/item?id=49417669"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 0,
-      "published_at": "2026-08-24T10:16:03+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49436796",
-      "title": "OpenAI claims its new chips can outperform Nvidia processors in tests",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-25/openai-claims-its-new-chips-can-outperform-nvidia-processors-in-tests",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49436796",
-        "name": "TravisJamison",
-        "hn_url": "https://news.ycombinator.com/item?id=49436796"
-      },
-      "duration_sec": null,
-      "views": 16,
-      "comments": 2,
-      "published_at": "2026-08-25T16:35:58+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49393647",
-      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
-      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49393647",
-        "name": "dthread3",
-        "hn_url": "https://news.ycombinator.com/item?id=49393647"
-      },
-      "duration_sec": null,
-      "views": 16,
-      "comments": 1,
-      "published_at": "2026-08-21T20:52:10+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49306491",
-      "title": "Nvidia discloses $21B stake in SpaceX",
-      "url": "https://www.ft.com/content/6f66a76d-0b2d-4301-886c-87ecc046731b",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49306491",
-        "name": "JumpCrisscross",
-        "hn_url": "https://news.ycombinator.com/item?id=49306491"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 2,
-      "published_at": "2026-08-15T01:02:55+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49279812",
-      "title": "Why space is a terrible place to cool a data center",
-      "url": "https://thenewstack.io/spacex-and-nvidias-orbital-ai-datacenter-fantasy/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49279812",
-        "name": "CrankyBear",
-        "hn_url": "https://news.ycombinator.com/item?id=49279812"
-      },
-      "duration_sec": null,
-      "views": 17,
-      "comments": 3,
-      "published_at": "2026-08-12T23:08:21+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
