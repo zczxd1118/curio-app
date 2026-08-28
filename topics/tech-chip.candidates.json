@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-27T14:02:26.177652+00:00",
+  "fetched_at": "2026-08-28T15:13:31.728818+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 8,
-    "HN · semiconductor": 0,
+    "HN · Nvidia": 10,
+    "HN · semiconductor": 1,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 29,
+  "total": 32,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/microscale-power-management-starts-with-microflow-heat-measurement/",
+      "title": "Microscale Power Management Starts with Microflow Heat Measurement",
+      "url": "https://www.eetimes.com/microscale-power-management-starts-with-microflow-heat-measurement/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Bill Schweber",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-28T07:00:00+00:00",
+      "summary": "Laser pulses and X-ray imaging reveal the surprising impact of micron-scale material defects on heat dissipation. The post Microscale Power Management Starts with Microflow Heat Measurement appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/first-benchmarks-revealed-for-jalapeno-openais-clean-sheet-general-purpose-ai-accelerator-asic/",
+      "title": "First Benchmarks Revealed for Jalapeño, OpenAI’s Clean-Sheet General Purpose AI Accelerator ASIC",
+      "url": "https://www.eetimes.com/first-benchmarks-revealed-for-jalapeno-openais-clean-sheet-general-purpose-ai-accelerator-asic/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-27T22:14:16+00:00",
+      "summary": "At Hot Chips 2026, Richard Ho, says OpenAI isn't just repurposing a GPU to suit AI: Jalapeño is a purpose built AI accelerator built from scratch for AI workloads. The post First Benchmarks Revealed for Jalapeño, OpenAI’s Clean-Sheet General Purpose AI Accelerator ASIC appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/qualcomm-bets-open-source-ai-software-can-break-nvidias-lock-in/",
+      "title": "Qualcomm Bets Open-Source AI Software Can Break Nvidia’s Lock-In",
+      "url": "https://www.eetimes.com/qualcomm-bets-open-source-ai-software-can-break-nvidias-lock-in/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-27T18:09:20+00:00",
+      "summary": "Modular aims to separate AI software from silicon choice, giving Qualcomm and other challengers a shot at Nvidia-dominated workloads. The post Qualcomm Bets Open-Source AI Software Can Break Nvidia’s Lock-In appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/newpower-worldwide-expands-credit-facility-to-750-million-to-support-global-growth-and-customer-demand/",
+      "title": "NewPower Worldwide Expands Credit Facility to $750 Million to Support Global Growth and Customer Demand",
+      "url": "https://www.eetimes.com/newpower-worldwide-expands-credit-facility-to-750-million-to-support-global-growth-and-customer-demand/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Stefani Munoz",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-27T14:44:16+00:00",
+      "summary": "NASHUA, New Hampshire – NewPower Worldwide, one of the electronics industry’s fastest-growing distributors, today announced it has expanded its committed credit facility to $750 million, further enhancing its ability to invest in inventory, support customer growth, and capitalize on opportunities across the global supply chain. The increase follows a period of exceptional growth for NewPower Worldwide. [&#8230;] The post NewPower Worldwide Expands Credit Facility to $750 Million to Support Globa...",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/why-connectivity-has-become-an-edge-ai-design-decision/",
       "title": "Why Connectivity Has Become an Edge AI Design Decision",
       "url": "https://www.eetimes.com/why-connectivity-has-become-an-edge-ai-design-decision/",
@@ -230,7 +298,7 @@
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Unikey Electronics Pte. Ltd.",
+        "name": "Unikeyic.",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/indias-osat-atmp-build-out-from-legacy-packages-to-2-5d/",
-      "title": "India’s OSAT-ATMP Build-Out: From Legacy Packages to 2.5D",
-      "url": "https://www.eetimes.com/indias-osat-atmp-build-out-from-legacy-packages-to-2-5d/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-26T07:00:00+00:00",
-      "summary": "ASIP Technologies has begun construction of an OSAT facility in Visakhapatnam, Andhra Pradesh, with Korean partner APACT. The post India’s OSAT-ATMP Build-Out: From Legacy Packages to 2.5D appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/the-complete-iot-mesh-solution-making-wi-sun-deployments-simple/",
-      "title": "The Complete IoT Mesh Solution: Making Wi-SUN Deployments Simple",
-      "url": "https://www.eetimes.com/the-complete-iot-mesh-solution-making-wi-sun-deployments-simple/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Digi, Silicon Labs, Arrow Electronics",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-25T16:31:04+00:00",
-      "summary": "Join us for a technical walkthrough of the Digi XBee for Wi-SUN platform and a live demo showing how quickly you can go from development kit to a fully managed, self-healing mesh network ready for production. The post The Complete IoT Mesh Solution: Making Wi-SUN Deployments Simple appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/engineering-fiber-optic-solutions-for-next-generation-space-applications/",
-      "title": "Engineering Fiber Optic Solutions for Next-Generation Space Applications",
-      "url": "https://www.eetimes.com/engineering-fiber-optic-solutions-for-next-generation-space-applications/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "TE Connectivity",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-25T14:00:00+00:00",
-      "summary": "As satellite systems demand greater bandwidth, lower weight, and higher reliability, engineers face significant challenges when integrating fiber optics into space-qualified platforms. This case study examines the design and deployment of a high-density fiber optic network within a geostationary orbit (GEO) satellite, highlighting the engineering considerations required to overcome launch vibration, radiation exposure, thermal extremes, [&#8230;] The post Engineering Fiber Optic Solutions for Ne...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/yokogawa-releases-ct500sa-and-ct200sa-ac-dc-split-core-current-sensors/",
-      "title": "Yokogawa Releases CT500SA and CT200SA AC/DC Split Core Current Sensors",
-      "url": "https://www.eetimes.com/yokogawa-releases-ct500sa-and-ct200sa-ac-dc-split-core-current-sensors/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yokogawa Test and Measurement Corporation",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-25T13:50:53+00:00",
-      "summary": "(Tokyo, Japan – August 19, 2026) Yokogawa Test &#38; Measurement Corporation today announces the release of its second-generation of AC/DC split core current sensors, the CT500SA and CT200SA. Designed specifically for space-constrained environments, such as in-vehicle xEV testing, they offer high-accuracy current measurements for the 200 A and 500 A ranges. The sensors are uniquely [&#8230;] The post Yokogawa Releases CT500SA and CT200SA AC/DC Split Core Current Sensors appeared first on EE Time...",
-      "lang": "en"
-    },
-    {
       "id": "hn:49325115",
       "title": "TSMC Uses Old Fabs to Make New Chips [video]",
       "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49458161"
       },
       "duration_sec": null,
-      "views": 1485,
-      "comments": 664,
+      "views": 1930,
+      "comments": 894,
       "published_at": "2026-08-27T01:12:55+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49434378"
       },
       "duration_sec": null,
-      "views": 581,
-      "comments": 372,
+      "views": 583,
+      "comments": 379,
       "published_at": "2026-08-25T14:06:02+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -430,6 +430,44 @@
       "views": 254,
       "comments": 152,
       "published_at": "2026-08-16T21:07:10+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49466052",
+      "title": "Nvidia projects $673B in sales as AI demand widens",
+      "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49466052",
+        "name": "kuuuzya",
+        "hn_url": "https://news.ycombinator.com/item?id=49466052"
+      },
+      "duration_sec": null,
+      "views": 110,
+      "comments": 104,
+      "published_at": "2026-08-27T15:04:16+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49469249",
+      "title": "Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force",
+      "url": "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49469249",
+        "name": "rarisma",
+        "hn_url": "https://news.ycombinator.com/item?id=49469249"
+      },
+      "duration_sec": null,
+      "views": 91,
+      "comments": 40,
+      "published_at": "2026-08-27T18:34:40+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -473,6 +511,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49447878",
+      "title": "Who bears the risk in Nvidia's $500B financing platform?",
+      "url": "https://www.sascha-steffen.de/updates/nvidia-500bn-ai-financing-credit-risk",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49447878",
+        "name": "rwmj",
+        "hn_url": "https://news.ycombinator.com/item?id=49447878"
+      },
+      "duration_sec": null,
+      "views": 32,
+      "comments": 8,
+      "published_at": "2026-08-26T12:32:31+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49342314",
       "title": "Nvidia discloses $21B stake in SpaceX",
       "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
@@ -487,25 +544,6 @@
       "views": 31,
       "comments": 15,
       "published_at": "2026-08-18T07:02:04+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49447878",
-      "title": "Who bears the risk in Nvidia's $500B financing platform?",
-      "url": "https://www.sascha-steffen.de/updates/nvidia-500bn-ai-financing-credit-risk",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49447878",
-        "name": "rwmj",
-        "hn_url": "https://news.ycombinator.com/item?id=49447878"
-      },
-      "duration_sec": null,
-      "views": 30,
-      "comments": 8,
-      "published_at": "2026-08-26T12:32:31+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -527,6 +565,25 @@
       "published_at": "2026-08-23T18:27:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49464837",
+      "title": "U.S. considers fresh round of tariffs on semiconductors, report says",
+      "url": "https://www.cnbc.com/2026/08/27/trump-semiconductor-tech-tariffs.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49464837",
+        "name": "mikhael",
+        "hn_url": "https://news.ycombinator.com/item?id=49464837"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 2,
+      "published_at": "2026-08-27T13:45:11+00:00",
+      "summary": "",
+      "matched_keyword": "semiconductor",
       "lang": "en"
     }
   ]
