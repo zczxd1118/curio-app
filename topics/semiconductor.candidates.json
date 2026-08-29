@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-08-28T15:13:00.897713+00:00",
+  "fetched_at": "2026-08-29T09:55:21.008427+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,7 +13,7 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 1,
-    "HN · Nvidia": 18,
+    "HN · Nvidia": 15,
     "HN · semiconductor": 1,
     "HN · ASML / EUV": 2,
     "HN · AI chip 厂商": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 72,
+  "total": 69,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/googles-marvell-deal-shows-custom-silicon-spreading-beyond-the-tpu/",
+      "title": "Google’s Marvell Deal Shows Custom Silicon Spreading Beyond the TPU",
+      "url": "https://www.eetimes.com/googles-marvell-deal-shows-custom-silicon-spreading-beyond-the-tpu/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-28T21:59:13+00:00",
+      "summary": "Google’s expanded relationship with Marvell suggests that memory, networking, storage, and data movement are candidates for specialization too. The post Google’s Marvell Deal Shows Custom Silicon Spreading Beyond the TPU appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/microscale-power-management-starts-with-microflow-heat-measurement/",
       "title": "Microscale Power Management Starts with Microflow Heat Measurement",
       "url": "https://www.eetimes.com/microscale-power-management-starts-with-microflow-heat-measurement/",
@@ -350,20 +367,54 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/accelerating-silicon-design-for-physical-ai/",
-      "title": "Accelerating Silicon Design for Physical AI",
-      "url": "https://www.eetimes.com/accelerating-silicon-design-for-physical-ai/",
+      "id": "rss:https://www.tomshardware.com/pc-components/ddr4/msi-brings-ddr4-back-to-gaming-laptops-amidst-dram-crisis-katana-15-hx-c14-available-with-up-to-core-i9-14900hx-and-rtx-5070",
+      "title": "MSI brings DDR4 back to gaming laptops amidst DRAM crisis — Katana 15 HX C14 available with up to Core i9-14900HX and RTX 5070",
+      "url": "https://www.tomshardware.com/pc-components/ddr4/msi-brings-ddr4-back-to-gaming-laptops-amidst-dram-crisis-katana-15-hx-c14-available-with-up-to-core-i9-14900hx-and-rtx-5070",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Cadence Design Systems",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-26T12:00:00+00:00",
-      "summary": "Physical AI systems must perceive, reason, and act at once, under tight real-time latency and power budgets. That workload diversity breaks the one-processor model, widens the gap between trained models and deployable silicon code, and turns security from a point-in-time feature into a full-lifecycle requirement spanning safety-critical operation and multi-vendor supply chains. Engineering teams also [&#8230;] The post Accelerating Silicon Design for Physical AI appeared first on EE Times.",
+      "published_at": "2026-08-28T15:55:43+00:00",
+      "summary": "With 32GB DDR4 SO-DIMM memory kits costing roughly half as much as comparable DDR5 kits, MSI’s new Katana 15 HX C14 could help reduce the impact of soaring memory prices.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/policy/new-us-export-controls-reportedly-target-chinese-access-to-remote-ai-servers-trump-admins-cut-down-ai-diffusion-rule-could-be-shared-with-industry-as-soon-as-september",
+      "title": "New US export controls reportedly target Chinese access to remote AI servers — Trump admin's cut-down AI diffusion rule could be shared with industry as soon as September",
+      "url": "https://www.tomshardware.com/tech-industry/policy/new-us-export-controls-reportedly-target-chinese-access-to-remote-ai-servers-trump-admins-cut-down-ai-diffusion-rule-could-be-shared-with-industry-as-soon-as-september",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-28T15:47:46+00:00",
+      "summary": "The Trump administration is reportedly drafting a rule to close a loophole around remote access to advanced AI compute, and it could be shared with trade groups as early as September.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/nvidia-gears-up-its-influence-in-washington-forming-pac-tells-employees-that-decisions-congress-makes-over-the-coming-years-could-have-substantial-consequences-for-the-ai-industry-according-to-report",
+      "title": "Nvidia gears up its influence in Washington, forming PAC — tells employees that decisions Congress makes over the coming years could have substantial consequences for the AI industry, according to report",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-gears-up-its-influence-in-washington-forming-pac-tells-employees-that-decisions-congress-makes-over-the-coming-years-could-have-substantial-consequences-for-the-ai-industry-according-to-report",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-28T15:19:27+00:00",
+      "summary": "Nvidia establishes its employees federal political action committee (PAC) to fund politicians whose positions are favorable to Nvidia's interests.",
       "lang": "en"
     },
     {
@@ -826,57 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/alienware-aw3926qw-39-inch-wuhd-oled-gaming-monitor-review",
-      "title": "Alienware AW3926QW 39-inch WUHD OLED gaming monitor review: Premium play and imagery in a large format",
-      "url": "https://www.tomshardware.com/monitors/gaming-monitors/alienware-aw3926qw-39-inch-wuhd-oled-gaming-monitor-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Christian Eberle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-27T13:00:00+00:00",
-      "summary": "Alienware delivers an ultra-wide flagship with its AW3926QW. This curved 21:9 RGB Stripe Tandem OLED panel boasts 5120x2160 pixels (WUHD), 165 and 330 Hz modes, Adaptive-Sync, HDR10, Dolby Vision, HDR500 and wide gamut color.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/hot-chips-2026-openais-jalapeno-ai-asic-unpacked-accelerator-developed-using-ai-achieves-efficiency-and-throughput-gains-against-power-hungry-blackwell",
-      "title": "Hot Chips 2026: OpenAI's Jalapeño AI ASIC unpacked — accelerator developed using AI achieves efficiency and throughput gains against power-hungry Blackwell",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/hot-chips-2026-openais-jalapeno-ai-asic-unpacked-accelerator-developed-using-ai-achieves-efficiency-and-throughput-gains-against-power-hungry-blackwell",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-27T13:00:00+00:00",
-      "summary": "OpenAI's first AI accelerator fails to beat Nvidia's Blackwell in terms of raw performance, but it can offer very good performance-per-watt and low latency, which is exactly what the doctor ordered for inference workloads.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/quantum-computing/quantum-computing-used-in-first-commercial-game-development-ibm-simulator-generated-maps-characters-and-graphics-in-c-l-a-y-rpg",
-      "title": "Quantum computing used in 'first commercial game development' — IBM simulator generated maps, characters, and graphics in C.L.A.Y. RPG",
-      "url": "https://www.tomshardware.com/tech-industry/quantum-computing/quantum-computing-used-in-first-commercial-game-development-ibm-simulator-generated-maps-characters-and-graphics-in-c-l-a-y-rpg",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-27T11:00:00+00:00",
-      "summary": "Game studio MiTale Ltd. is promoting a narrative-driven post-apocalyptic RPG, which it claims is 'the first commercial game on the market utilizing quantum computing.'",
-      "lang": "en"
-    },
-    {
       "id": "hn:49325115",
       "title": "TSMC Uses Old Fabs to Make New Chips [video]",
       "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
@@ -907,8 +907,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49458161"
       },
       "duration_sec": null,
-      "views": 1930,
-      "comments": 893,
+      "views": 1953,
+      "comments": 898,
       "published_at": "2026-08-27T01:12:55+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -926,7 +926,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49434378"
       },
       "duration_sec": null,
-      "views": 583,
+      "views": 584,
       "comments": 379,
       "published_at": "2026-08-25T14:06:02+00:00",
       "summary": "",
@@ -964,8 +964,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49466052"
       },
       "duration_sec": null,
-      "views": 110,
-      "comments": 104,
+      "views": 111,
+      "comments": 108,
       "published_at": "2026-08-27T15:04:16+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1024,6 +1024,25 @@
       "views": 47,
       "comments": 31,
       "published_at": "2026-08-16T18:40:54+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49480449",
+      "title": "Nvidia Insists It Can Keep Printing Money to Fund the AI Boom",
+      "url": "https://www.wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fund-the-ai-boom-195e7d5e",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49480449",
+        "name": "root-parent",
+        "hn_url": "https://news.ycombinator.com/item?id=49480449"
+      },
+      "duration_sec": null,
+      "views": 45,
+      "comments": 46,
+      "published_at": "2026-08-28T15:57:40+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1157,82 +1176,6 @@
       "views": 16,
       "comments": 1,
       "published_at": "2026-08-21T20:52:10+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49306491",
-      "title": "Nvidia discloses $21B stake in SpaceX",
-      "url": "https://www.ft.com/content/6f66a76d-0b2d-4301-886c-87ecc046731b",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49306491",
-        "name": "JumpCrisscross",
-        "hn_url": "https://news.ycombinator.com/item?id=49306491"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 2,
-      "published_at": "2026-08-15T01:02:55+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49423067",
-      "title": "Nvidia Groq 3 LPX Unlocks Ultrafast Interactivity at Long Context",
-      "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49423067",
-        "name": "frozenport",
-        "hn_url": "https://news.ycombinator.com/item?id=49423067"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 1,
-      "published_at": "2026-08-24T17:22:37+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49388268",
-      "title": "Nvidia AVO achieves 100% in ARC-AGI-3",
-      "url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49388268",
-        "name": "rochansinha",
-        "hn_url": "https://news.ycombinator.com/item?id=49388268"
-      },
-      "duration_sec": null,
-      "views": 13,
-      "comments": 2,
-      "published_at": "2026-08-21T14:05:37+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49424444",
-      "title": "Nvidia customers notified about AI-related price hikes above 15%",
-      "url": "https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49424444",
-        "name": "dgellow",
-        "hn_url": "https://news.ycombinator.com/item?id=49424444"
-      },
-      "duration_sec": null,
-      "views": 13,
-      "comments": 0,
-      "published_at": "2026-08-24T19:06:30+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

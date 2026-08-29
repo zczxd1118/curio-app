@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-28T15:13:31.728818+00:00",
+  "fetched_at": "2026-08-29T09:55:51.417681+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/googles-marvell-deal-shows-custom-silicon-spreading-beyond-the-tpu/",
+      "title": "Google’s Marvell Deal Shows Custom Silicon Spreading Beyond the TPU",
+      "url": "https://www.eetimes.com/googles-marvell-deal-shows-custom-silicon-spreading-beyond-the-tpu/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-28T21:59:13+00:00",
+      "summary": "Google’s expanded relationship with Marvell suggests that memory, networking, storage, and data movement are candidates for specialization too. The post Google’s Marvell Deal Shows Custom Silicon Spreading Beyond the TPU appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/microscale-power-management-starts-with-microflow-heat-measurement/",
       "title": "Microscale Power Management Starts with Microflow Heat Measurement",
       "url": "https://www.eetimes.com/microscale-power-management-starts-with-microflow-heat-measurement/",
@@ -342,23 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/accelerating-silicon-design-for-physical-ai/",
-      "title": "Accelerating Silicon Design for Physical AI",
-      "url": "https://www.eetimes.com/accelerating-silicon-design-for-physical-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Cadence Design Systems",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-26T12:00:00+00:00",
-      "summary": "Physical AI systems must perceive, reason, and act at once, under tight real-time latency and power budgets. That workload diversity breaks the one-processor model, widens the gap between trained models and deployable silicon code, and turns security from a point-in-time feature into a full-lifecycle requirement spanning safety-critical operation and multi-vendor supply chains. Engineering teams also [&#8230;] The post Accelerating Silicon Design for Physical AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49325115",
       "title": "TSMC Uses Old Fabs to Make New Chips [video]",
       "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49458161"
       },
       "duration_sec": null,
-      "views": 1930,
-      "comments": 894,
+      "views": 1953,
+      "comments": 898,
       "published_at": "2026-08-27T01:12:55+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -408,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49434378"
       },
       "duration_sec": null,
-      "views": 583,
+      "views": 584,
       "comments": 379,
       "published_at": "2026-08-25T14:06:02+00:00",
       "summary": "",
@@ -446,8 +446,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49466052"
       },
       "duration_sec": null,
-      "views": 110,
-      "comments": 104,
+      "views": 111,
+      "comments": 108,
       "published_at": "2026-08-27T15:04:16+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -511,6 +511,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49480449",
+      "title": "Nvidia Insists It Can Keep Printing Money to Fund the AI Boom",
+      "url": "https://www.wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fund-the-ai-boom-195e7d5e",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49480449",
+        "name": "root-parent",
+        "hn_url": "https://news.ycombinator.com/item?id=49480449"
+      },
+      "duration_sec": null,
+      "views": 45,
+      "comments": 46,
+      "published_at": "2026-08-28T15:57:40+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49447878",
       "title": "Who bears the risk in Nvidia's $500B financing platform?",
       "url": "https://www.sascha-steffen.de/updates/nvidia-500bn-ai-financing-credit-risk",
@@ -544,25 +563,6 @@
       "views": 31,
       "comments": 15,
       "published_at": "2026-08-18T07:02:04+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49411178",
-      "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026)",
-      "url": "https://www.spheron.network/blog/etched-ai-sohu-vs-nvidia-transformer-asic-inference/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49411178",
-        "name": "rbanffy",
-        "hn_url": "https://news.ycombinator.com/item?id=49411178"
-      },
-      "duration_sec": null,
-      "views": 23,
-      "comments": 6,
-      "published_at": "2026-08-23T18:27:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
