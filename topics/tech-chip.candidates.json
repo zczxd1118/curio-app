@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-30T09:06:49.643032+00:00",
+  "fetched_at": "2026-08-31T09:34:54.942354+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/advanced-cooling-technologies-address-the-automotive-heat-challenge/",
+      "title": "Advanced Cooling Technologies Address the Automotive Heat Challenge",
+      "url": "https://www.eetimes.com/advanced-cooling-technologies-address-the-automotive-heat-challenge/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Danny J. Lohan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-31T07:46:55+00:00",
+      "summary": "New cooling technologies are emerging as electric drivetrains, AI processors, and autonomous systems push automotive heat fluxes higher. The post Advanced Cooling Technologies Address the Automotive Heat Challenge appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/googles-marvell-deal-shows-custom-silicon-spreading-beyond-the-tpu/",
       "title": "Google’s Marvell Deal Shows Custom Silicon Spreading Beyond the TPU",
       "url": "https://www.eetimes.com/googles-marvell-deal-shows-custom-silicon-spreading-beyond-the-tpu/",
@@ -342,23 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/from-days-to-minutes-accelerating-3d-ic-debug-with-agentic-ai/",
-      "title": "From Days to Minutes: Accelerating 3D IC Debug with Agentic AI",
-      "url": "https://www.eetimes.com/from-days-to-minutes-accelerating-3d-ic-debug-with-agentic-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Zackary Glazewski, Founding AI Engineer, ChipAgents",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-26T13:00:00+00:00",
-      "summary": "Discover how agentic AI cuts 3D IC debugging from days to minutes. Learn multi-agent orchestration techniques to accelerate end-to-end root cause analysis. The post From Days to Minutes: Accelerating 3D IC Debug with Agentic AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49325115",
       "title": "TSMC Uses Old Fabs to Make New Chips [video]",
       "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49458161"
       },
       "duration_sec": null,
-      "views": 1967,
-      "comments": 906,
+      "views": 1974,
+      "comments": 910,
       "published_at": "2026-08-27T01:12:55+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -409,27 +409,8 @@
       },
       "duration_sec": null,
       "views": 584,
-      "comments": 380,
+      "comments": 381,
       "published_at": "2026-08-25T14:06:02+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49323686",
-      "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
-      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49323686",
-        "name": "root-parent",
-        "hn_url": "https://news.ycombinator.com/item?id=49323686"
-      },
-      "duration_sec": null,
-      "views": 254,
-      "comments": 152,
-      "published_at": "2026-08-16T21:07:10+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -485,27 +466,8 @@
       },
       "duration_sec": null,
       "views": 71,
-      "comments": 39,
+      "comments": 41,
       "published_at": "2026-08-21T13:26:03+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49322519",
-      "title": "Nvidia discloses $21B stake in SpaceX at end of second quarter",
-      "url": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49322519",
-        "name": "johnbarron",
-        "hn_url": "https://news.ycombinator.com/item?id=49322519"
-      },
-      "duration_sec": null,
-      "views": 47,
-      "comments": 31,
-      "published_at": "2026-08-16T18:40:54+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -544,6 +506,44 @@
       "views": 33,
       "comments": 8,
       "published_at": "2026-08-26T12:32:31+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49342314",
+      "title": "Nvidia discloses $21B stake in SpaceX",
+      "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49342314",
+        "name": "joozio",
+        "hn_url": "https://news.ycombinator.com/item?id=49342314"
+      },
+      "duration_sec": null,
+      "views": 31,
+      "comments": 15,
+      "published_at": "2026-08-18T07:02:04+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49411178",
+      "title": "Etched Sohu vs. Nvidia: Transformer ASIC vs. GPU (2026)",
+      "url": "https://www.spheron.network/blog/etched-ai-sohu-vs-nvidia-transformer-asic-inference/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49411178",
+        "name": "rbanffy",
+        "hn_url": "https://news.ycombinator.com/item?id=49411178"
+      },
+      "duration_sec": null,
+      "views": 23,
+      "comments": 6,
+      "published_at": "2026-08-23T18:27:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
