@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-08-31T09:34:54.942354+00:00",
+  "fetched_at": "2026-09-01T08:31:20.779617+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 9,
+    "HN · Nvidia": 8,
     "HN · semiconductor": 1,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 31,
+  "total": 30,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/sk-hynixs-4b-hbm-project-targets-u-s-chipmaking-gap/",
+      "title": "SK Hynix’s $4B HBM Project Targets U.S. Chipmaking Gap",
+      "url": "https://www.eetimes.com/sk-hynixs-4b-hbm-project-targets-u-s-chipmaking-gap/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-01T07:47:37+00:00",
+      "summary": "SK Hynix’s $4B Indiana HBM fab aims to plug America’s AI chip packaging hole and build a Purdue-backed supply chain by 2029. The post SK Hynix’s $4B HBM Project Targets U.S. Chipmaking Gap appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/automotive-software-defined-vehicle-sdv-architectures/",
+      "title": "Automotive Software Defined Vehicle (SDV) Architectures",
+      "url": "https://www.eetimes.com/automotive-software-defined-vehicle-sdv-architectures/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Infineon Technologies, Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-01T07:46:38+00:00",
+      "summary": "Join this presentation where our expert will highlight how modern vehicles are evolving into software-centric platforms that can be continuously updated, enhanced, and monetized throughout their lifecycle. The post Automotive Software Defined Vehicle (SDV) Architectures appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/suse-positions-hardware-choice-as-a-core-part-of-sovereign-ai/",
+      "title": "SUSE Positions Hardware Choice as a Core Part of Sovereign AI",
+      "url": "https://www.eetimes.com/suse-positions-hardware-choice-as-a-core-part-of-sovereign-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-31T16:57:05+00:00",
+      "summary": "SUSE says enterprises need the flexibility to change AI hardware without rebuilding their infrastructure. The post SUSE Positions Hardware Choice as a Core Part of Sovereign AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/when-off-the-shelf-isnt-enough/",
+      "title": "When Off-The-Shelf Isn’t Enough",
+      "url": "https://www.eetimes.com/when-off-the-shelf-isnt-enough/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Bulgin",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-08-31T14:00:00+00:00",
+      "summary": "Solving High-Current Connectivity Challenges in Data Centre Cooling As data centre power densities increase, cooling equipment must deliver greater performance, reliability and consistency while supporting demanding production requirements. This case study provides engineers with practical insight into addressing high-current connectivity challenges within data centre cooling applications. It examines how manual processes and assembly of high-current [&#8230;] The post When Off-The-Shelf Isn&#82...",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/advanced-cooling-technologies-address-the-automotive-heat-challenge/",
       "title": "Advanced Cooling Technologies Address the Automotive Heat Challenge",
       "url": "https://www.eetimes.com/advanced-cooling-technologies-address-the-automotive-heat-challenge/",
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/why-connectivity-has-become-an-edge-ai-design-decision/",
-      "title": "Why Connectivity Has Become an Edge AI Design Decision",
-      "url": "https://www.eetimes.com/why-connectivity-has-become-an-edge-ai-design-decision/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Neeta Shenoy",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-27T07:00:00+00:00",
-      "summary": "Edge AI isn’t smart if its wireless link chokes; design compute, security, and Wi‑Fi 7 handoffs together from day one. The post Why Connectivity Has Become an Edge AI Design Decision appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/nvme-2-4-update-adds-post-quantum-security-power-controls/",
-      "title": "NVMe 2.4 Update Adds Post-Quantum Security, Power Controls",
-      "url": "https://www.eetimes.com/nvme-2-4-update-adds-post-quantum-security-power-controls/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-26T22:00:00+00:00",
-      "summary": "NVMe 2.4 enhances security, power, virtualization, and management across cloud, AI, and enterprise workloads. The post NVMe 2.4 Update Adds Post-Quantum Security, Power Controls appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/reliable-power-path-design-integrating-mosfets-diodes-tvs-devices-and-capacitors/",
-      "title": "Reliable Power-Path Design: Integrating MOSFETs, Diodes, TVS Devices, and Capacitors",
-      "url": "https://www.eetimes.com/reliable-power-path-design-integrating-mosfets-diodes-tvs-devices-and-capacitors/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Unikeyic.",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-26T13:00:00+00:00",
-      "summary": "Design a reliable 24V power path, pick the right MOSFET, diode, TVS, and capacitor to handle surges, reverse polarity, and inrush current The post Reliable Power-Path Design: Integrating MOSFETs, Diodes, TVS Devices, and Capacitors appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/why-automation-is-essential-to-achieve-eu-cra-compliance/",
-      "title": "Why Automation Is Essential to Achieve EU CRA Compliance",
-      "url": "https://www.eetimes.com/why-automation-is-essential-to-achieve-eu-cra-compliance/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Colin Duggan, CEO and co-founder, BG Networks",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-26T13:00:00+00:00",
-      "summary": "Discover how automation streamlines product-level conformity workflows to help manufacturers achieve EU Cyber Resilience Act compliance. The post Why Automation Is Essential to Achieve EU CRA Compliance appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49325115",
       "title": "TSMC Uses Old Fabs to Make New Chips [video]",
       "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49458161"
       },
       "duration_sec": null,
-      "views": 1974,
-      "comments": 910,
+      "views": 1979,
+      "comments": 917,
       "published_at": "2026-08-27T01:12:55+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -428,7 +428,7 @@
       },
       "duration_sec": null,
       "views": 111,
-      "comments": 108,
+      "comments": 113,
       "published_at": "2026-08-27T15:04:16+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -506,25 +506,6 @@
       "views": 33,
       "comments": 8,
       "published_at": "2026-08-26T12:32:31+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49342314",
-      "title": "Nvidia discloses $21B stake in SpaceX",
-      "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49342314",
-        "name": "joozio",
-        "hn_url": "https://news.ycombinator.com/item?id=49342314"
-      },
-      "duration_sec": null,
-      "views": 31,
-      "comments": 15,
-      "published_at": "2026-08-18T07:02:04+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
