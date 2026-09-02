@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-01T08:31:20.779617+00:00",
+  "fetched_at": "2026-09-02T07:48:56.535399+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,128 +189,26 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/sk-hynixs-4b-hbm-project-targets-u-s-chipmaking-gap/",
-      "title": "SK Hynix’s $4B HBM Project Targets U.S. Chipmaking Gap",
-      "url": "https://www.eetimes.com/sk-hynixs-4b-hbm-project-targets-u-s-chipmaking-gap/",
+      "id": "rss:https://www.eetimes.com/from-silos-to-systems-from-data-to-insight/",
+      "title": "From Silos to Systems, from Data to Insight: Unlocking Organizational Knowledge and Winning in the AI Era with Keysight SOS Enterprise",
+      "url": "https://www.eetimes.com/from-silos-to-systems-from-data-to-insight/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
+        "name": "Keysight Technologies",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-01T07:47:37+00:00",
-      "summary": "SK Hynix’s $4B Indiana HBM fab aims to plug America’s AI chip packaging hole and build a Purdue-backed supply chain by 2029. The post SK Hynix’s $4B HBM Project Targets U.S. Chipmaking Gap appeared first on EE Times.",
+      "published_at": "2026-09-02T03:41:26+00:00",
+      "summary": "The white paper introduces Keysight SOS Enterprise as an AI-ready engineering data and IP management platform designed to help semiconductor and electronics companies centrally manage, govern, and secure design data across global teams. It provides version control, IP traceability, role-based access, and audit-ready governance to ensure design integrity, improve reuse, reduce risk, and enable advanced [&#8230;] The post From Silos to Systems, from Data to Insight: Unlocking Organizational Knowle...",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/automotive-software-defined-vehicle-sdv-architectures/",
-      "title": "Automotive Software Defined Vehicle (SDV) Architectures",
-      "url": "https://www.eetimes.com/automotive-software-defined-vehicle-sdv-architectures/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Infineon Technologies, Arrow Electronics",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-01T07:46:38+00:00",
-      "summary": "Join this presentation where our expert will highlight how modern vehicles are evolving into software-centric platforms that can be continuously updated, enhanced, and monetized throughout their lifecycle. The post Automotive Software Defined Vehicle (SDV) Architectures appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/suse-positions-hardware-choice-as-a-core-part-of-sovereign-ai/",
-      "title": "SUSE Positions Hardware Choice as a Core Part of Sovereign AI",
-      "url": "https://www.eetimes.com/suse-positions-hardware-choice-as-a-core-part-of-sovereign-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-31T16:57:05+00:00",
-      "summary": "SUSE says enterprises need the flexibility to change AI hardware without rebuilding their infrastructure. The post SUSE Positions Hardware Choice as a Core Part of Sovereign AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/when-off-the-shelf-isnt-enough/",
-      "title": "When Off-The-Shelf Isn’t Enough",
-      "url": "https://www.eetimes.com/when-off-the-shelf-isnt-enough/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Bulgin",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-31T14:00:00+00:00",
-      "summary": "Solving High-Current Connectivity Challenges in Data Centre Cooling As data centre power densities increase, cooling equipment must deliver greater performance, reliability and consistency while supporting demanding production requirements. This case study provides engineers with practical insight into addressing high-current connectivity challenges within data centre cooling applications. It examines how manual processes and assembly of high-current [&#8230;] The post When Off-The-Shelf Isn&#82...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/advanced-cooling-technologies-address-the-automotive-heat-challenge/",
-      "title": "Advanced Cooling Technologies Address the Automotive Heat Challenge",
-      "url": "https://www.eetimes.com/advanced-cooling-technologies-address-the-automotive-heat-challenge/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Danny J. Lohan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-31T07:46:55+00:00",
-      "summary": "New cooling technologies are emerging as electric drivetrains, AI processors, and autonomous systems push automotive heat fluxes higher. The post Advanced Cooling Technologies Address the Automotive Heat Challenge appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/googles-marvell-deal-shows-custom-silicon-spreading-beyond-the-tpu/",
-      "title": "Google’s Marvell Deal Shows Custom Silicon Spreading Beyond the TPU",
-      "url": "https://www.eetimes.com/googles-marvell-deal-shows-custom-silicon-spreading-beyond-the-tpu/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-28T21:59:13+00:00",
-      "summary": "Google’s expanded relationship with Marvell suggests that memory, networking, storage, and data movement are candidates for specialization too. The post Google’s Marvell Deal Shows Custom Silicon Spreading Beyond the TPU appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/microscale-power-management-starts-with-microflow-heat-measurement/",
-      "title": "Microscale Power Management Starts with Microflow Heat Measurement",
-      "url": "https://www.eetimes.com/microscale-power-management-starts-with-microflow-heat-measurement/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Bill Schweber",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-28T07:00:00+00:00",
-      "summary": "Laser pulses and X-ray imaging reveal the surprising impact of micron-scale material defects on heat dissipation. The post Microscale Power Management Starts with Microflow Heat Measurement appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/first-benchmarks-revealed-for-jalapeno-openais-clean-sheet-general-purpose-ai-accelerator-asic/",
-      "title": "First Benchmarks Revealed for Jalapeño, OpenAI’s Clean-Sheet General Purpose AI Accelerator ASIC",
-      "url": "https://www.eetimes.com/first-benchmarks-revealed-for-jalapeno-openais-clean-sheet-general-purpose-ai-accelerator-asic/",
+      "id": "rss:https://www.eetimes.com/exclusive-sir-robin-saxby-reflects-on-impact-of-ai-geopolitics-and-retirement/",
+      "title": "Exclusive: Sir Robin Saxby Reflects on Impact of AI, Geopolitics, and Retirement",
+      "url": "https://www.eetimes.com/exclusive-sir-robin-saxby-reflects-on-impact-of-ai-geopolitics-and-retirement/",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -320,31 +218,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-27T22:14:16+00:00",
-      "summary": "At Hot Chips 2026, Richard Ho, says OpenAI isn't just repurposing a GPU to suit AI: Jalapeño is a purpose built AI accelerator built from scratch for AI workloads. The post First Benchmarks Revealed for Jalapeño, OpenAI’s Clean-Sheet General Purpose AI Accelerator ASIC appeared first on EE Times.",
+      "published_at": "2026-09-01T22:00:00+00:00",
+      "summary": "An EE Times exclusive video interview with Sir Robin Saxby, founding CEO of Arm, on industry transformation in the age of AI, geopolitics, and how retirement has allowed him to support new startups. The post Exclusive: Sir Robin Saxby Reflects on Impact of AI, Geopolitics, and Retirement appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/qualcomm-bets-open-source-ai-software-can-break-nvidias-lock-in/",
-      "title": "Qualcomm Bets Open-Source AI Software Can Break Nvidia’s Lock-In",
-      "url": "https://www.eetimes.com/qualcomm-bets-open-source-ai-software-can-break-nvidias-lock-in/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-08-27T18:09:20+00:00",
-      "summary": "Modular aims to separate AI software from silicon choice, giving Qualcomm and other challengers a shot at Nvidia-dominated workloads. The post Qualcomm Bets Open-Source AI Software Can Break Nvidia’s Lock-In appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/newpower-worldwide-expands-credit-facility-to-750-million-to-support-global-growth-and-customer-demand/",
-      "title": "NewPower Worldwide Expands Credit Facility to $750 Million to Support Global Growth and Customer Demand",
-      "url": "https://www.eetimes.com/newpower-worldwide-expands-credit-facility-to-750-million-to-support-global-growth-and-customer-demand/",
+      "id": "rss:https://www.eetimes.com/how-ai-is-reshaping-the-global-semiconductor-patent-landscape/",
+      "title": "How AI Is Reshaping the Global Semiconductor Patent Landscape",
+      "url": "https://www.eetimes.com/how-ai-is-reshaping-the-global-semiconductor-patent-landscape/",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -354,8 +235,127 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-08-27T14:44:16+00:00",
-      "summary": "NASHUA, New Hampshire – NewPower Worldwide, one of the electronics industry’s fastest-growing distributors, today announced it has expanded its committed credit facility to $750 million, further enhancing its ability to invest in inventory, support customer growth, and capitalize on opportunities across the global supply chain. The increase follows a period of exceptional growth for NewPower Worldwide. [&#8230;] The post NewPower Worldwide Expands Credit Facility to $750 Million to Support Globa...",
+      "published_at": "2026-09-01T16:32:49+00:00",
+      "summary": "AI is turning chip patents into a geopolitical battle for dominance, from Nvidia’s CUDA moat to China’s filing surge. The post How AI Is Reshaping the Global Semiconductor Patent Landscape appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/opportunity-charging-enabled-by-fast-charging-multivoltage-batteries/",
+      "title": "Opportunity Charging Enabled by Fast Charging MultiVoltage Batteries",
+      "url": "https://www.eetimes.com/opportunity-charging-enabled-by-fast-charging-multivoltage-batteries/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Green Cubes Technology",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-01T14:56:51+00:00",
+      "summary": "While opportunity charging is a practice applicable to both Lead Acidand Lithium-ion (Li-ion) batteries for motive power systems, fast charging is a key differentiator for Lithium-ion batteries. Because the chemistry allows fast charging without damaging cycle life, Li-ion multivoltge batteries can be charged opportunistically during breaks and don’t require battery swaps. Learn about best practices [&#8230;] The post Opportunity Charging Enabled by Fast Charging MultiVoltage Batteries appeared ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/the-future-of-cable-testing-why-intelligent-automation-is-replacing-manual-validation/",
+      "title": "The Future of Cable Testing: Why Intelligent Automation is Replacing Manual Validation",
+      "url": "https://www.eetimes.com/the-future-of-cable-testing-why-intelligent-automation-is-replacing-manual-validation/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Vitrek",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-01T14:39:23+00:00",
+      "summary": "This whitepaper examines the limitations of manual cable validation processes and explores how automated testing strategies help address common engineering and manufacturing pain points. Topics include improving test repeatability, reducing operator-dependent variability, minimizing setup time, streamlining documentation, and enhancing production scalability. The paper also reviews the role of intelligent switching, automated test sequencing, digital recordkeeping, [&#8230;] The post The Future ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/the-link-budget-is-decided-at-the-connector/",
+      "title": "The Link Budget Is Decided at the Connector",
+      "url": "https://www.eetimes.com/the-link-budget-is-decided-at-the-connector/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Vivek Raghuraman, CEO and co-founder of Mixx Technologies.",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-01T14:27:31+00:00",
+      "summary": "Scale-up optics will be decided by the link budget. The largest recoverable losses sit at the connector and inside the silicon photonics platform. The post The Link Budget Is Decided at the Connector appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/from-silos-to-systems-from-data-to-insight-unlocking-organizational-knowledge-and-winning-in-the-ai-era-with-keysight-sos-enterprise/",
+      "title": "From Silos to Systems, from Data to Insight : Unlocking Organizational Knowledge and Winning in the AI Era with Keysight SOS Enterprise",
+      "url": "https://www.eetimes.com/from-silos-to-systems-from-data-to-insight-unlocking-organizational-knowledge-and-winning-in-the-ai-era-with-keysight-sos-enterprise/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Keysight Technologies",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-01T14:00:00+00:00",
+      "summary": "The white paper introduces Keysight SOS Enterprise as an AI-ready engineering data and IP management platform designed to help semiconductor and electronics companies centrally manage, govern, and secure design data across global teams. It provides version control, IP traceability, role-based access, and audit-ready governance to ensure design integrity, improve reuse, reduce risk, and enable advanced [&#8230;] The post From Silos to Systems, from Data to Insight : Unlocking Organizational Knowl...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/monitoring-pv-efficiency-fault-detection/",
+      "title": "Monitoring PV Efficiency & Fault Detection",
+      "url": "https://www.eetimes.com/monitoring-pv-efficiency-fault-detection/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Applications for Reed Relays",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-01T14:00:00+00:00",
+      "summary": "Solar PV installations rely on ongoing monitoring to maintain energy yield, uptime and safe operation throughout their working life. This application guide explains how insulation degradation can create leakage paths between the PV circuit and earth, how insulation resistance (RISO) measurements can help identify developing faults, and why readings should be assessed in the context [&#8230;] The post Monitoring PV Efficiency &amp; Fault Detection appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/inside-rochester-electronics-tls360-program/",
+      "title": "Inside Rochester Electronics’ TLS360™ Program",
+      "url": "https://www.eetimes.com/inside-rochester-electronics-tls360-program/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Rochester Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-01T13:00:00+00:00",
+      "summary": "For engineers working on long-lifecycle systems such as aerospace and defense platforms, industrial controls, medical devices, and transportation infrastructure, obsolescence is a recurring, costly certainty. A part that is active today can be flagged for discontinuation years before the system it powers is scheduled to retire, forcing a familiar, expensive choice: redesign around a new component or rush to secure enough inventory to bridge the gap. Rochester Electronics&#160;is combating [&#823...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/solid-state-relays-for-thermostat-design/",
+      "title": "Solid-State Relays for Thermostat Design",
+      "url": "https://www.eetimes.com/solid-state-relays-for-thermostat-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Vince Wen, Product Marketing Engineer, Monolithic Power Systems, Inc. (MPS)",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-01T13:00:00+00:00",
+      "summary": "Mechanical relay vs. solid-state relay for thermostat design: compare lifespan, switching speed, power loss, EMI, and PCB space using the MP9566. The post Solid-State Relays for Thermostat Design appeared first on EE Times.",
       "lang": "en"
     },
     {
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49458161"
       },
       "duration_sec": null,
-      "views": 1979,
-      "comments": 917,
+      "views": 1981,
+      "comments": 922,
       "published_at": "2026-08-27T01:12:55+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
