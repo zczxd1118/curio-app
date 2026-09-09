@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-08T07:58:50.792377+00:00",
+  "fetched_at": "2026-09-09T08:02:26.743427+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 10,
+    "HN · Nvidia": 9,
     "HN · semiconductor": 1,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 32,
+  "total": 31,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/strategy-paper-urges-canada-to-add-semiconductors-to-ai-strategy/",
+      "title": "Strategy Paper Urges Canada to Add Semiconductors to AI Strategy",
+      "url": "https://www.eetimes.com/strategy-paper-urges-canada-to-add-semiconductors-to-ai-strategy/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-08T19:00:00+00:00",
+      "summary": "Canada’s sovereign AI ambitions will fall short unless procurement, talent, funding, and existing semiconductor strengths are aligned behind domestic hardware capability. The post Strategy Paper Urges Canada to Add Semiconductors to AI Strategy appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/the-pragmatic-path-to-achieving-cra-compliance-and-securing-your-access-to-the-eu-market/",
+      "title": "The Pragmatic Path to Achieving CRA Compliance and Securing Your Access to the EU Market",
+      "url": "https://www.eetimes.com/the-pragmatic-path-to-achieving-cra-compliance-and-securing-your-access-to-the-eu-market/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "MediaTek",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-08T14:39:23+00:00",
+      "summary": "As the EU Cyber Resilience Act (CRA) approaches, IoT manufacturers face stringent cybersecurity requirements across the entire product lifecycle. MediaTek, together with our strategic partners, invites you to this exclusive webinar to explore how the CRA reshapes the IoT landscape and gain actionable insights—from secure hardware design to long-term lifecycle management. The post The Pragmatic Path to Achieving CRA Compliance and Securing Your Access to the EU Market appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/the-security-ai-that-learns-the-language-of-movement/",
+      "title": "The Security AI That Learns the Language of Movement",
+      "url": "https://www.eetimes.com/the-security-ai-that-learns-the-language-of-movement/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-08T13:15:17+00:00",
+      "summary": "UNC Charlotte researchers use edge AI to learn normal motion, predict what comes next, and flag anomalies for human review. The post The Security AI That Learns the Language of Movement appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/powering-high-precision-lasers/",
+      "title": "Powering High Precision Lasers",
+      "url": "https://www.eetimes.com/powering-high-precision-lasers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "P-DUKE",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-08T13:00:00+00:00",
+      "summary": "Today, no one can imagine life without the vast number of laser applications, ranging from milliwatt-class lasers to high-power processing. The post Powering High Precision Lasers appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/how-much-impact-will-ai-have-on-iot-software-engineering/",
+      "title": "How Much Impact Will AI Have on IoT Software Engineering?",
+      "url": "https://www.eetimes.com/how-much-impact-will-ai-have-on-iot-software-engineering/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Steve Bennett",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-08T08:06:55+00:00",
+      "summary": "In theory, AI is a surefire way to raise productivity in software engineering, but the reality may not be quite so cut-and-dried. The post How Much Impact Will AI Have on IoT Software Engineering? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/nvidia-acquires-huggingface-for-12-9b/",
       "title": "Nvidia Acquires HuggingFace for $12.9B",
       "url": "https://www.eetimes.com/nvidia-acquires-huggingface-for-12-9b/",
@@ -274,91 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/when-the-package-becomes-an-electrical-design-variable/",
-      "title": "When the Package Becomes an Electrical Design Variable",
-      "url": "https://www.eetimes.com/when-the-package-becomes-an-electrical-design-variable/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Takaki Murata",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-04T07:50:10+00:00",
-      "summary": "AI power integrity now lives inside the package, not just the PCB. Treat chip, package, and board as one PDN. The post When the Package Becomes an Electrical Design Variable appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/7-steps-to-take-now-meet-the-eu-cra-9-11-26-reporting-deadline/",
-      "title": "7 Steps to Take Now: Meet the EU CRA 9/11/26 Reporting Deadline",
-      "url": "https://www.eetimes.com/7-steps-to-take-now-meet-the-eu-cra-9-11-26-reporting-deadline/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "By Colin Duggan, CEO and co-founder, BG Networks",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-03T16:31:18+00:00",
-      "summary": "Prepare for the EU Cyber Resilience Act's September 2026 reporting deadline; follow these seven steps to ensure compliance and readiness. The post 7 Steps to Take Now: Meet the EU CRA 9/11/26 Reporting Deadline appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/techworks-aligns-u-k-semiconductors-under-uksia-umbrella/",
-      "title": "TechWorks Aligns U.K. Semiconductors Under UKSIA Umbrella",
-      "url": "https://www.eetimes.com/techworks-aligns-u-k-semiconductors-under-uksia-umbrella/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-03T13:46:01+00:00",
-      "summary": "TechWorks corrals U.K. chip groups under UKSIA as funding surges 65% and 700 execs swarm London. The post TechWorks Aligns U.K. Semiconductors Under UKSIA Umbrella appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/display-developments-challenge-controllers/",
-      "title": "Display Developments Challenge Controllers",
-      "url": "https://www.eetimes.com/display-developments-challenge-controllers/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Teng Tang Yang, Senior Division Director of Product Marketing Division, UMC",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-03T13:00:00+00:00",
-      "summary": "Discover how AMOLED, micro-OLED and advanced DDIC technologies are transforming displays with higher resolution, lower power and immersive experiences. The post Display Developments Challenge Controllers appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/indias-quantum-journey-goes-beyond-the-qubit/",
-      "title": "India’s Quantum Journey Goes Beyond the Qubit",
-      "url": "https://www.eetimes.com/indias-quantum-journey-goes-beyond-the-qubit/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-03T08:00:47+00:00",
-      "summary": "IBM’s Amaravati deployment could accelerate India’s quantum ecosystem as startups develop processors, software, and supporting technologies. The post India’s Quantum Journey Goes Beyond the Qubit appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49325115",
       "title": "TSMC Uses Old Fabs to Make New Chips [video]",
       "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
@@ -389,28 +389,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=49458161"
       },
       "duration_sec": null,
-      "views": 1987,
+      "views": 1988,
       "comments": 925,
       "published_at": "2026-08-27T01:12:55+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49434378",
-      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
-      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49434378",
-        "name": "bmulholland",
-        "hn_url": "https://news.ycombinator.com/item?id=49434378"
-      },
-      "duration_sec": null,
-      "views": 584,
-      "comments": 381,
-      "published_at": "2026-08-25T14:06:02+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -427,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49548952"
       },
       "duration_sec": null,
-      "views": 328,
+      "views": 329,
       "comments": 107,
       "published_at": "2026-09-03T12:10:33+00:00",
       "summary": "",
@@ -541,8 +522,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49594189"
       },
       "duration_sec": null,
-      "views": 37,
-      "comments": 102,
+      "views": 39,
+      "comments": 111,
       "published_at": "2026-09-07T05:23:31+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
