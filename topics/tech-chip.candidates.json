@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-10T08:01:39.008521+00:00",
+  "fetched_at": "2026-09-11T07:57:44.639266+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 4,
+    "HN · Nvidia": 5,
     "HN · semiconductor": 1,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 26,
+  "total": 27,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/indian-researchers-look-beyond-gpus-to-neuromorphic-ai-hardware/",
+      "title": "Indian Researchers Look Beyond GPUs to Neuromorphic AI Hardware",
+      "url": "https://www.eetimes.com/indian-researchers-look-beyond-gpus-to-neuromorphic-ai-hardware/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-11T07:31:15+00:00",
+      "summary": "As AI workloads become more computationally demanding, Indian researchers argue that the next advance may come from rethinking computing architecture itself. The post Indian Researchers Look Beyond GPUs to Neuromorphic AI Hardware appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/from-ai-assisted-eda-to-ai-mediated-engineering/",
+      "title": "From AI-Assisted EDA to AI-Mediated Engineering",
+      "url": "https://www.eetimes.com/from-ai-assisted-eda-to-ai-mediated-engineering/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Simon Davidmann",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-10T20:23:10+00:00",
+      "summary": "What DAC 2026 revealed about agents, engines, trust—and why the industry should be optimistic. The post From AI-Assisted EDA to AI-Mediated Engineering appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/proven-actions-technologys-end-to-end-audio-architecture-tames-sounds-black-magic/",
+      "title": "Proven: Actions Technology’s End-to-End Audio Architecture Tames Sound’s “Black Magic”",
+      "url": "https://www.eetimes.com/proven-actions-technologys-end-to-end-audio-architecture-tames-sounds-black-magic/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Franklin",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-10T13:00:00+00:00",
+      "summary": "Whether in the mass consumer market or the high-end professional audio segment, sound quality remains the defining factor that separates one product from another. Consumers’ appetite for better audio has never waned. According to Qualcomm&#8217;s 2023 State of Sound report, 73% of consumers prioritize improved sound quality when upgrading to a new device, while 69% [&#8230;] The post Proven: Actions Technology&#8217;s End-to-End Audio Architecture Tames Sound’s &#8220;Black Magic&#8221; appeared...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/adi-snaps-alif-semiconductor-to-push-ai-into-physical-systems/",
+      "title": "ADI Snaps Alif Semiconductor to Push AI into Physical Systems",
+      "url": "https://www.eetimes.com/adi-snaps-alif-semiconductor-to-push-ai-into-physical-systems/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-10T11:00:00+00:00",
+      "summary": "The $1.35 billion deal marks another edge AI leap of faith, combining analog sensing with low-power AI processors. The post ADI Snaps Alif Semiconductor to Push AI into Physical Systems appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/what-six-hours-on-the-runway-told-me-about-air-traffic-control-resilience-and-ai/",
+      "title": "What Six Hours on the Runway Told Me About Air Traffic Control, Resilience, and AI",
+      "url": "https://www.eetimes.com/what-six-hours-on-the-runway-told-me-about-air-traffic-control-resilience-and-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-10T08:09:30+00:00",
+      "summary": "A U.K. air traffic control glitch stranded flights for hours, prompting reflections on resilience, redundancy, legacy systems, and AI. The post What Six Hours on the Runway Told Me About Air Traffic Control, Resilience, and AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/cincon-high-performance-power-modules-for-edge-ai-ipcs/",
       "title": "Cincon High-Performance Power Modules for Edge AI & IPCs",
       "url": "https://www.eetimes.com/cincon-high-performance-power-modules-for-edge-ai-ipcs/",
@@ -274,91 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/quantum-scaling-is-becoming-a-control-electronics-problem/",
-      "title": "Quantum Scaling Is Becoming a Control-Electronics Problem",
-      "url": "https://www.eetimes.com/quantum-scaling-is-becoming-a-control-electronics-problem/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-09T08:05:43+00:00",
-      "summary": "Too many wires, too much heat, and too much latency are forcing quantum control electronics deeper into the cold. The post Quantum Scaling Is Becoming a Control-Electronics Problem appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/strategy-paper-urges-canada-to-add-semiconductors-to-ai-strategy/",
-      "title": "Strategy Paper Urges Canada to Add Semiconductors to AI Strategy",
-      "url": "https://www.eetimes.com/strategy-paper-urges-canada-to-add-semiconductors-to-ai-strategy/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-08T19:00:00+00:00",
-      "summary": "Canada’s sovereign AI ambitions will fall short unless procurement, talent, funding, and existing semiconductor strengths are aligned behind domestic hardware capability. The post Strategy Paper Urges Canada to Add Semiconductors to AI Strategy appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/the-pragmatic-path-to-achieving-cra-compliance-and-securing-your-access-to-the-eu-market/",
-      "title": "The Pragmatic Path to Achieving CRA Compliance and Securing Your Access to the EU Market",
-      "url": "https://www.eetimes.com/the-pragmatic-path-to-achieving-cra-compliance-and-securing-your-access-to-the-eu-market/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "MediaTek",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-08T14:39:23+00:00",
-      "summary": "As the EU Cyber Resilience Act (CRA) approaches, IoT manufacturers face stringent cybersecurity requirements across the entire product lifecycle. MediaTek, together with our strategic partners, invites you to this exclusive webinar to explore how the CRA reshapes the IoT landscape and gain actionable insights—from secure hardware design to long-term lifecycle management. The post The Pragmatic Path to Achieving CRA Compliance and Securing Your Access to the EU Market appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/the-security-ai-that-learns-the-language-of-movement/",
-      "title": "The Security AI That Learns the Language of Movement",
-      "url": "https://www.eetimes.com/the-security-ai-that-learns-the-language-of-movement/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-08T13:15:17+00:00",
-      "summary": "UNC Charlotte researchers use edge AI to learn normal motion, predict what comes next, and flag anomalies for human review. The post The Security AI That Learns the Language of Movement appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/powering-high-precision-lasers/",
-      "title": "Powering High Precision Lasers",
-      "url": "https://www.eetimes.com/powering-high-precision-lasers/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "P-DUKE",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-08T13:00:00+00:00",
-      "summary": "Today, no one can imagine life without the vast number of laser applications, ranging from milliwatt-class lasers to high-power processing. The post Powering High Precision Lasers appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49325115",
       "title": "TSMC Uses Old Fabs to Make New Chips [video]",
       "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
@@ -397,44 +397,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49466052",
-      "title": "Nvidia projects $673B in sales as AI demand widens",
-      "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49466052",
-        "name": "kuuuzya",
-        "hn_url": "https://news.ycombinator.com/item?id=49466052"
-      },
-      "duration_sec": null,
-      "views": 111,
-      "comments": 113,
-      "published_at": "2026-08-27T15:04:16+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49469249",
-      "title": "Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force",
-      "url": "https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49469249",
-        "name": "rarisma",
-        "hn_url": "https://news.ycombinator.com/item?id=49469249"
-      },
-      "duration_sec": null,
-      "views": 91,
-      "comments": 40,
-      "published_at": "2026-08-27T18:34:40+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:49567357",
       "title": "Georgi Gerganov on llama.cpp/ggml future after Nvidia acquisition of HuggingFace",
       "url": "https://twitter.com/ggerganov/status/2095897173376618881",
@@ -449,6 +411,63 @@
       "views": 76,
       "comments": 28,
       "published_at": "2026-09-04T17:12:22+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49480449",
+      "title": "Nvidia Insists It Can Keep Printing Money to Fund the AI Boom",
+      "url": "https://www.wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fund-the-ai-boom-195e7d5e",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49480449",
+        "name": "root-parent",
+        "hn_url": "https://news.ycombinator.com/item?id=49480449"
+      },
+      "duration_sec": null,
+      "views": 46,
+      "comments": 47,
+      "published_at": "2026-08-28T15:57:40+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49557813",
+      "title": "Tell HN: NVIDIA's Acquisition of HuggingFace was for $HuggingFace",
+      "url": "https://news.ycombinator.com/item?id=49557813",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49557813",
+        "name": "MontagFTB",
+        "hn_url": "https://news.ycombinator.com/item?id=49557813"
+      },
+      "duration_sec": null,
+      "views": 43,
+      "comments": 4,
+      "published_at": "2026-09-03T22:08:41+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49594189",
+      "title": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
+      "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49594189",
+        "name": "vinni2",
+        "hn_url": "https://news.ycombinator.com/item?id=49594189"
+      },
+      "duration_sec": null,
+      "views": 39,
+      "comments": 122,
+      "published_at": "2026-09-07T05:23:31+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
