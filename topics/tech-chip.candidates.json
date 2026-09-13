@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-12T07:50:20.958963+00:00",
+  "fetched_at": "2026-09-13T08:12:05.129928+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 4,
+    "HN · Nvidia": 3,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 27,
+  "total": 26,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -378,6 +378,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49673098",
+      "title": "Nvidia is the central bank of AI",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49673098",
+        "name": "tolugenius",
+        "hn_url": "https://news.ycombinator.com/item?id=49673098"
+      },
+      "duration_sec": null,
+      "views": 465,
+      "comments": 327,
+      "published_at": "2026-09-12T15:08:27+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49548952",
       "title": "Nvidia to acquire Hugging Face",
       "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
@@ -416,44 +435,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49557813",
-      "title": "Tell HN: NVIDIA's Acquisition of HuggingFace was for $HuggingFace",
-      "url": "https://news.ycombinator.com/item?id=49557813",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49557813",
-        "name": "MontagFTB",
-        "hn_url": "https://news.ycombinator.com/item?id=49557813"
-      },
-      "duration_sec": null,
-      "views": 43,
-      "comments": 4,
-      "published_at": "2026-09-03T22:08:41+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49594189",
-      "title": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
-      "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49594189",
-        "name": "vinni2",
-        "hn_url": "https://news.ycombinator.com/item?id=49594189"
-      },
-      "duration_sec": null,
-      "views": 39,
-      "comments": 123,
-      "published_at": "2026-09-07T05:23:31+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:49657991",
       "title": "How to Build a $20B Semiconductor Fab (2024)",
       "url": "https://www.construction-physics.com/p/how-to-build-a-20-billion-semiconductor",
@@ -465,7 +446,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49657991"
       },
       "duration_sec": null,
-      "views": 18,
+      "views": 25,
       "comments": 7,
       "published_at": "2026-09-11T13:22:01+00:00",
       "summary": "",
