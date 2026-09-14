@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-13T08:12:05.129928+00:00",
+  "fetched_at": "2026-09-14T08:46:35.061947+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 3,
+    "HN · Nvidia": 4,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 26,
+  "total": 27,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/small-indian-manufacturers-hit-data-legacy-system-barriers-to-scaling-ai/",
+      "title": "Small Indian Manufacturers Hit Data, Legacy-System Barriers to Scaling AI",
+      "url": "https://www.eetimes.com/small-indian-manufacturers-hit-data-legacy-system-barriers-to-scaling-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-14T05:53:04+00:00",
+      "summary": "AI adoption across manufacturing in India is progressing, but scaling it is running into structural problems across tiers. The post Small Indian Manufacturers Hit Data, Legacy-System Barriers to Scaling AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/inside-architect-labs-two-week-chip-design/",
       "title": "Inside Architect Labs’ Two-Week Chip Design",
       "url": "https://www.eetimes.com/inside-architect-labs-two-week-chip-design/",
@@ -342,23 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/cincon-high-performance-power-modules-for-edge-ai-ipcs/",
-      "title": "Cincon High-Performance Power Modules for Edge AI & IPCs",
-      "url": "https://www.eetimes.com/cincon-high-performance-power-modules-for-edge-ai-ipcs/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Cincon Elctronics Co., Ltd.",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-10T08:00:00+00:00",
-      "summary": "As AI moves to the edge, IPCs demand compact, rugged power. Cincon offers baseplate-cooled DC-DC &#038; AC-DC solutions for fanless, harsh AIoT environments. The post Cincon High-Performance Power Modules for Edge AI &amp; IPCs appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49325115",
       "title": "TSMC Uses Old Fabs to Make New Chips [video]",
       "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49673098"
       },
       "duration_sec": null,
-      "views": 465,
-      "comments": 327,
+      "views": 569,
+      "comments": 391,
       "published_at": "2026-09-12T15:08:27+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -411,6 +411,25 @@
       "views": 329,
       "comments": 107,
       "published_at": "2026-09-03T12:10:33+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49682319",
+      "title": "Nvidia dismisses \"circular financing\", says every $1 it invests brings back $100",
+      "url": "https://invezz.com/news/2026/09/11/nvidia-says-every-1-it-invests-brings-back-100-so-why-does-the-stock-keep-falling/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49682319",
+        "name": "mgh2",
+        "hn_url": "https://news.ycombinator.com/item?id=49682319"
+      },
+      "duration_sec": null,
+      "views": 134,
+      "comments": 187,
+      "published_at": "2026-09-13T10:29:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
