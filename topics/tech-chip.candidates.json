@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-15T08:34:13.358125+00:00",
+  "fetched_at": "2026-09-16T08:27:58.972848+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,125 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/pasqal-nasdaq-debut-meets-a-risk-reckoning/",
+      "title": "Pasqal’s Nasdaq Debut Meets a Risk Reckoning",
+      "url": "https://www.eetimes.com/pasqal-nasdaq-debut-meets-a-risk-reckoning/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-16T08:03:27+00:00",
+      "summary": "A sharp share price drop exposes the challenge of valuing quantum companies before commercial demand is proven. The post Pasqal’s Nasdaq Debut Meets a Risk Reckoning appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/aircraft-actuator-electrification-redefines-system-level-architecture/",
+      "title": "Aircraft Actuator Electrification Redefines System-Level Architecture",
+      "url": "https://www.eetimes.com/aircraft-actuator-electrification-redefines-system-level-architecture/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Bill Schweber",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T19:00:00+00:00",
+      "summary": "The transition from hydraulic to electric-motor aircraft actuators also encompasses many system-level issues and opportunities. The post Aircraft Actuator Electrification Redefines System-Level Architecture appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/reduce-risk-cut-costs-and-speed-time-to-market-with-certified-wifi-ble-modules/",
+      "title": "Reduce Risk, Cut Costs, and Speed Time-to-Market with Certified WiFi & BLE Modules",
+      "url": "https://www.eetimes.com/reduce-risk-cut-costs-and-speed-time-to-market-with-certified-wifi-ble-modules/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "GigaDevice",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T17:23:09+00:00",
+      "summary": "Join this webinar and learn how a certified WiFi and BLE combination module can simplify your next connected device design. The post Reduce Risk, Cut Costs, and Speed Time-to-Market with Certified WiFi &amp; BLE Modules appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/empowering-the-future-of-robotics/",
+      "title": "Empowering the Future of Robotics",
+      "url": "https://www.eetimes.com/empowering-the-future-of-robotics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Analog Devices",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T14:00:07+00:00",
+      "summary": "See how autonomous mobile robots are transforming manufacturing, warehousing, and logistics. Explore the technologies driving smarter navigation, safer operations, and greater automation. The post Empowering the Future of Robotics appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/leo-satellites/",
+      "title": "Designing Passive Components for LEO Satellite Systems",
+      "url": "https://www.eetimes.com/leo-satellites/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "YAGEO Group",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T14:00:00+00:00",
+      "summary": "Selecting passive components for LEO satellite systems is becoming increasingly complex as spacecraft architectures evolve and constellation deployments scale. Engineers must determine when commercial, automotive-qualified, enhanced-screened, or space-qualified components are appropriate and understand the tradeoffs each approach introduces for performance, risk, cost, and manufacturability. This paper connects system-level LEO satellite requirements to practical component selection [&#8230;] Th...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/fcc-rule-on-optical-connectivity-could-slow-ai-race/",
+      "title": "FCC Rule on Optical Connectivity Could Slow AI Race",
+      "url": "https://www.eetimes.com/fcc-rule-on-optical-connectivity-could-slow-ai-race/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T12:32:10+00:00",
+      "summary": "Escalating tech war between the U.S. and China and a potential FCC ban on importing optical network equipment could force hyperscalers to navigate critical shortages. The post FCC Rule on Optical Connectivity Could Slow AI Race appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/how-10base-t1s-powers-zonal-architectures-and-sdv-innovation/",
+      "title": "How 10BASE‑T1S Powers Zonal Architectures and SDV Innovation",
+      "url": "https://www.eetimes.com/how-10base-t1s-powers-zonal-architectures-and-sdv-innovation/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "onsemi",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T10:04:49+00:00",
+      "summary": "Join this webinar and learn more about how 10BASE‑T1S replaces low speed legacy buses with deterministic, collision free Ethernet. The post How 10BASE‑T1S Powers Zonal Architectures and SDV Innovation appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/india-hardens-its-cyber-defenses/",
       "title": "India Hardens Its Cyber Defenses",
       "url": "https://www.eetimes.com/india-hardens-its-cyber-defenses/",
@@ -240,139 +359,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/small-indian-manufacturers-hit-data-legacy-system-barriers-to-scaling-ai/",
-      "title": "Small Indian Manufacturers Hit Data, Legacy-System Barriers to Scaling AI",
-      "url": "https://www.eetimes.com/small-indian-manufacturers-hit-data-legacy-system-barriers-to-scaling-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-14T05:53:04+00:00",
-      "summary": "AI adoption across manufacturing in India is progressing, but scaling it is running into structural problems across tiers. The post Small Indian Manufacturers Hit Data, Legacy-System Barriers to Scaling AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/inside-architect-labs-two-week-chip-design/",
-      "title": "Inside Architect Labs’ Two-Week Chip Design",
-      "url": "https://www.eetimes.com/inside-architect-labs-two-week-chip-design/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-12T02:00:00+00:00",
-      "summary": "Architect Labs says its AI can drag custom chip design from years to weeks with Redwood. The post Inside Architect Labs’ Two-Week Chip Design appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/fabships-aim-to-exploit-free-space-vacuum-for-compound-semiconductor-substrates/",
-      "title": "Fabships Aim to Exploit ‘Free’ Space Vacuum for Compound Semiconductor Substrates",
-      "url": "https://www.eetimes.com/fabships-aim-to-exploit-free-space-vacuum-for-compound-semiconductor-substrates/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-11T21:00:00+00:00",
-      "summary": "Space is the next frontier for semiconductor manufacturing, as startup Besxar, founded by an ex-OpenAI technical director, completed its first SpaceX flight and recovered wafer samples without contamination. The post Fabships Aim to Exploit ‘Free’ Space Vacuum for Compound Semiconductor Substrates appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/soc-planner-a-new-generation-of-automated-soc-design-exploration-managing-cost-effectiveness-and-sustainability/",
-      "title": "SoC PLANNER: A New Generation of Automated SoC Design Exploration Managing Cost-Effectiveness and Sustainability",
-      "url": "https://www.eetimes.com/soc-planner-a-new-generation-of-automated-soc-design-exploration-managing-cost-effectiveness-and-sustainability/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Defacto Technologies",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-11T14:36:58+00:00",
-      "summary": "GRENOBLE, France &#8211; [2026, September 8th] CEA, Defacto Technologies, and Innova Advanced Technologies today announced the completion of SoC PLANNER, a three-years project funded by BPI France, as part of the France 2030 program, and aiming to develop next-generation System-on-Chip (SoC) design exploration platform. SoC PLANNER is now ready for early adopters. With over a [&#8230;] The post SoC PLANNER: A New Generation of Automated SoC Design Exploration Managing Cost-Effectiveness and Sust...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/should-standards-trump-innovation/",
-      "title": "Should Standards Trump Innovation?",
-      "url": "https://www.eetimes.com/should-standards-trump-innovation/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Prakash Sangam",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-11T13:52:31+00:00",
-      "summary": "Standards shouldn’t muzzle RFID’s next leap: Gen2X keeps Gen2 compatibility while boosting range, speed, and reliability. The post Should Standards Trump Innovation? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/indian-researchers-look-beyond-gpus-to-neuromorphic-ai-hardware/",
-      "title": "Indian Researchers Look Beyond GPUs to Neuromorphic AI Hardware",
-      "url": "https://www.eetimes.com/indian-researchers-look-beyond-gpus-to-neuromorphic-ai-hardware/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-11T07:31:15+00:00",
-      "summary": "As AI workloads become more computationally demanding, Indian researchers argue that the next advance may come from rethinking computing architecture itself. The post Indian Researchers Look Beyond GPUs to Neuromorphic AI Hardware appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/from-ai-assisted-eda-to-ai-mediated-engineering/",
-      "title": "From AI-Assisted EDA to AI-Mediated Engineering",
-      "url": "https://www.eetimes.com/from-ai-assisted-eda-to-ai-mediated-engineering/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Simon Davidmann",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-10T20:23:10+00:00",
-      "summary": "What DAC 2026 revealed about agents, engines, trust—and why the industry should be optimistic. The post From AI-Assisted EDA to AI-Mediated Engineering appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49325115",
-      "title": "TSMC Uses Old Fabs to Make New Chips [video]",
-      "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
+      "id": "hn:49714096",
+      "title": "TSMC revealing details about next gen A14 node",
+      "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49325115",
-        "name": "eig",
-        "hn_url": "https://news.ycombinator.com/item?id=49325115"
+        "id": "49714096",
+        "name": "osnium123",
+        "hn_url": "https://news.ycombinator.com/item?id=49714096"
       },
       "duration_sec": null,
-      "views": 25,
-      "comments": 8,
-      "published_at": "2026-08-17T00:07:42+00:00",
+      "views": 18,
+      "comments": 4,
+      "published_at": "2026-09-15T15:31:55+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
       "lang": "en"
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49673098"
       },
       "duration_sec": null,
-      "views": 578,
-      "comments": 398,
+      "views": 581,
+      "comments": 399,
       "published_at": "2026-09-12T15:08:27+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",

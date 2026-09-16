@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-09-15T08:33:41.100380+00:00",
+  "fetched_at": "2026-09-16T08:27:28.688540+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,7 +13,7 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 1,
-    "HN · Nvidia": 6,
+    "HN · Nvidia": 7,
     "HN · semiconductor": 2,
     "HN · ASML / EUV": 2,
     "HN · AI chip 厂商": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 63,
+  "total": 64,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,125 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/pasqal-nasdaq-debut-meets-a-risk-reckoning/",
+      "title": "Pasqal’s Nasdaq Debut Meets a Risk Reckoning",
+      "url": "https://www.eetimes.com/pasqal-nasdaq-debut-meets-a-risk-reckoning/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-16T08:03:27+00:00",
+      "summary": "A sharp share price drop exposes the challenge of valuing quantum companies before commercial demand is proven. The post Pasqal’s Nasdaq Debut Meets a Risk Reckoning appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/aircraft-actuator-electrification-redefines-system-level-architecture/",
+      "title": "Aircraft Actuator Electrification Redefines System-Level Architecture",
+      "url": "https://www.eetimes.com/aircraft-actuator-electrification-redefines-system-level-architecture/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Bill Schweber",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T19:00:00+00:00",
+      "summary": "The transition from hydraulic to electric-motor aircraft actuators also encompasses many system-level issues and opportunities. The post Aircraft Actuator Electrification Redefines System-Level Architecture appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/reduce-risk-cut-costs-and-speed-time-to-market-with-certified-wifi-ble-modules/",
+      "title": "Reduce Risk, Cut Costs, and Speed Time-to-Market with Certified WiFi & BLE Modules",
+      "url": "https://www.eetimes.com/reduce-risk-cut-costs-and-speed-time-to-market-with-certified-wifi-ble-modules/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "GigaDevice",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T17:23:09+00:00",
+      "summary": "Join this webinar and learn how a certified WiFi and BLE combination module can simplify your next connected device design. The post Reduce Risk, Cut Costs, and Speed Time-to-Market with Certified WiFi &amp; BLE Modules appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/empowering-the-future-of-robotics/",
+      "title": "Empowering the Future of Robotics",
+      "url": "https://www.eetimes.com/empowering-the-future-of-robotics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Analog Devices",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T14:00:07+00:00",
+      "summary": "See how autonomous mobile robots are transforming manufacturing, warehousing, and logistics. Explore the technologies driving smarter navigation, safer operations, and greater automation. The post Empowering the Future of Robotics appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/leo-satellites/",
+      "title": "Designing Passive Components for LEO Satellite Systems",
+      "url": "https://www.eetimes.com/leo-satellites/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "YAGEO Group",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T14:00:00+00:00",
+      "summary": "Selecting passive components for LEO satellite systems is becoming increasingly complex as spacecraft architectures evolve and constellation deployments scale. Engineers must determine when commercial, automotive-qualified, enhanced-screened, or space-qualified components are appropriate and understand the tradeoffs each approach introduces for performance, risk, cost, and manufacturability. This paper connects system-level LEO satellite requirements to practical component selection [&#8230;] Th...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/fcc-rule-on-optical-connectivity-could-slow-ai-race/",
+      "title": "FCC Rule on Optical Connectivity Could Slow AI Race",
+      "url": "https://www.eetimes.com/fcc-rule-on-optical-connectivity-could-slow-ai-race/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T12:32:10+00:00",
+      "summary": "Escalating tech war between the U.S. and China and a potential FCC ban on importing optical network equipment could force hyperscalers to navigate critical shortages. The post FCC Rule on Optical Connectivity Could Slow AI Race appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/how-10base-t1s-powers-zonal-architectures-and-sdv-innovation/",
+      "title": "How 10BASE‑T1S Powers Zonal Architectures and SDV Innovation",
+      "url": "https://www.eetimes.com/how-10base-t1s-powers-zonal-architectures-and-sdv-innovation/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "onsemi",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T10:04:49+00:00",
+      "summary": "Join this webinar and learn more about how 10BASE‑T1S replaces low speed legacy buses with deterministic, collision free Ethernet. The post How 10BASE‑T1S Powers Zonal Architectures and SDV Innovation appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/india-hardens-its-cyber-defenses/",
       "title": "India Hardens Its Cyber Defenses",
       "url": "https://www.eetimes.com/india-hardens-its-cyber-defenses/",
@@ -248,122 +367,207 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/small-indian-manufacturers-hit-data-legacy-system-barriers-to-scaling-ai/",
-      "title": "Small Indian Manufacturers Hit Data, Legacy-System Barriers to Scaling AI",
-      "url": "https://www.eetimes.com/small-indian-manufacturers-hit-data-legacy-system-barriers-to-scaling-ai/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-leaders-clash-over-safety-fears-after-anthropic-whistleblower-says-ai-could-kill-us-all-by-2030-openai-anthropic-and-xai-figureheads-call-for-external-governance-while-jensen-huang-says-worries-are-made-up",
+      "title": "AI leaders clash over safety fears after Anthropic whistleblower says AI could 'kill us all' by 2030 — OpenAI, Anthropic and xAI figureheads call for external governance, while Jensen Huang says worries are 'made up'",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-leaders-clash-over-safety-fears-after-anthropic-whistleblower-says-ai-could-kill-us-all-by-2030-openai-anthropic-and-xai-figureheads-call-for-external-governance-while-jensen-huang-says-worries-are-made-up",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jon Martindale",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-14T05:53:04+00:00",
-      "summary": "AI adoption across manufacturing in India is progressing, but scaling it is running into structural problems across tiers. The post Small Indian Manufacturers Hit Data, Legacy-System Barriers to Scaling AI appeared first on EE Times.",
+      "published_at": "2026-09-15T17:19:36+00:00",
+      "summary": "The CEOs of OpenAI and Anthropic, as well as other industry leaders, are calling for a general slowdown in AI development over safety fears. On the flip side, Chinese authorities, the U.S. President, and CEO of Nvidia have dismissed their concerns as fearmongering.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/inside-architect-labs-two-week-chip-design/",
-      "title": "Inside Architect Labs’ Two-Week Chip Design",
-      "url": "https://www.eetimes.com/inside-architect-labs-two-week-chip-design/",
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/asus-ludicrous-20th-anniversary-bundle-is-now-the-cheapest-way-to-buy-an-rtx-5090-nvidias-flagship-gpu-stock-is-so-limited-that-this-usd10-850-bundle-with-a-3000w-psu-x870e-board-and-open-frame-case-is-actually-cheaper-than-some-scalper-listings",
+      "title": "Asus' ludicrous $10,850 20th-anniversary bundle is now the cheapest way to buy an RTX 5090 — Nvidia's flagship GPU stock is so limited that this bundle with a 3000W PSU, X870E board, and open-frame case is actually cheaper than some scalper listings",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/asus-ludicrous-20th-anniversary-bundle-is-now-the-cheapest-way-to-buy-an-rtx-5090-nvidias-flagship-gpu-stock-is-so-limited-that-this-usd10-850-bundle-with-a-3000w-psu-x870e-board-and-open-frame-case-is-actually-cheaper-than-some-scalper-listings",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-12T02:00:00+00:00",
-      "summary": "Architect Labs says its AI can drag custom chip design from years to weeks with Redwood. The post Inside Architect Labs’ Two-Week Chip Design appeared first on EE Times.",
+      "published_at": "2026-09-15T15:13:16+00:00",
+      "summary": "This ultra-premium Asus ROG Edition 20th Anniversary Combo set at Newegg is super expensive at $10,849.96, but ironically, it's the 'cheapest' way to pick up an RTX 5090 right now.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/fabships-aim-to-exploit-free-space-vacuum-for-compound-semiconductor-substrates/",
-      "title": "Fabships Aim to Exploit ‘Free’ Space Vacuum for Compound Semiconductor Substrates",
-      "url": "https://www.eetimes.com/fabships-aim-to-exploit-free-space-vacuum-for-compound-semiconductor-substrates/",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-reportedly-cans-12xe-option-for-nova-lake-s-desktop-gaming-apu-design-said-to-resurface-with-razor-lake",
+      "title": "Intel reportedly cans 12Xe option for Nova Lake-S desktop — gaming APU design said to resurface with Razor Lake",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-reportedly-cans-12xe-option-for-nova-lake-s-desktop-gaming-apu-design-said-to-resurface-with-razor-lake",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-11T21:00:00+00:00",
-      "summary": "Space is the next frontier for semiconductor manufacturing, as startup Besxar, founded by an ex-OpenAI technical director, completed its first SpaceX flight and recovered wafer samples without contamination. The post Fabships Aim to Exploit ‘Free’ Space Vacuum for Compound Semiconductor Substrates appeared first on EE Times.",
+      "published_at": "2026-09-15T14:17:06+00:00",
+      "summary": "Following rumors of a Nova Lake desktop SKU with 12 Xe3P cores, tipster Jaykihn suggests that Intel has canned the design and moved the target to next-gen Razor Lake instead.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/soc-planner-a-new-generation-of-automated-soc-design-exploration-managing-cost-effectiveness-and-sustainability/",
-      "title": "SoC PLANNER: A New Generation of Automated SoC Design Exploration Managing Cost-Effectiveness and Sustainability",
-      "url": "https://www.eetimes.com/soc-planner-a-new-generation-of-automated-soc-design-exploration-managing-cost-effectiveness-and-sustainability/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/us-ai-data-centers-projected-to-become-the-fifth-largest-natural-gas-consumer-in-the-world-by-2035-consumption-to-grow-by-15-billion-cubic-feet-per-day-as-demand-for-compute-increases",
+      "title": "US AI data centers projected to become the fifth-largest natural gas consumer in the world by 2035 — consumption to grow by 15 billion cubic feet per day as demand for compute increases",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/us-ai-data-centers-projected-to-become-the-fifth-largest-natural-gas-consumer-in-the-world-by-2035-consumption-to-grow-by-15-billion-cubic-feet-per-day-as-demand-for-compute-increases",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Defacto Technologies",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-11T14:36:58+00:00",
-      "summary": "GRENOBLE, France &#8211; [2026, September 8th] CEA, Defacto Technologies, and Innova Advanced Technologies today announced the completion of SoC PLANNER, a three-years project funded by BPI France, as part of the France 2030 program, and aiming to develop next-generation System-on-Chip (SoC) design exploration platform. SoC PLANNER is now ready for early adopters. With over a [&#8230;] The post SoC PLANNER: A New Generation of Automated SoC Design Exploration Managing Cost-Effectiveness and Sust...",
+      "published_at": "2026-09-15T13:57:36+00:00",
+      "summary": "Data centers in the U.S. are projected to use up more natural gas than most of the rest of the world to generate the electricity they need. Estimates suggest that 15 billion cubic feet per day are needed to keep data centers running by 2035.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/should-standards-trump-innovation/",
-      "title": "Should Standards Trump Innovation?",
-      "url": "https://www.eetimes.com/should-standards-trump-innovation/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/bill-gates-compares-ai-to-alien-intelligence-in-movies-where-magically-the-us-and-china-solves-the-problem-together-warns-world-governments-that-theyre-not-ready-for-ai",
+      "title": "Bill Gates compares AI to alien intelligence in movies where ‘magically the US and China’ solve the problem together — warns world governments that they’re not ready for AI",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/bill-gates-compares-ai-to-alien-intelligence-in-movies-where-magically-the-us-and-china-solves-the-problem-together-warns-world-governments-that-theyre-not-ready-for-ai",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Prakash Sangam",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-11T13:52:31+00:00",
-      "summary": "Standards shouldn’t muzzle RFID’s next leap: Gen2X keeps Gen2 compatibility while boosting range, speed, and reliability. The post Should Standards Trump Innovation? appeared first on EE Times.",
+      "published_at": "2026-09-15T12:52:53+00:00",
+      "summary": "The billionaire philanthropist says that governments across the world need to work together to ensure that the people are ready for upcoming upheaval brought about by AI. He even compared the technology to aliens in movies which got the world working together.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/indian-researchers-look-beyond-gpus-to-neuromorphic-ai-hardware/",
-      "title": "Indian Researchers Look Beyond GPUs to Neuromorphic AI Hardware",
-      "url": "https://www.eetimes.com/indian-researchers-look-beyond-gpus-to-neuromorphic-ai-hardware/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-transcripts-are-reportedly-read-by-humans-to-improve-responses-including-those-with-personal-information-project-lilly-has-seen-openai-hire-hundreds-of-contractors-to-manually-review-logs",
+      "title": "ChatGPT transcripts are reportedly read by humans to improve responses, including those with personal information — 'Project Lilly' has seen OpenAI hire hundreds of contractors to manually review logs",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-transcripts-are-reportedly-read-by-humans-to-improve-responses-including-those-with-personal-information-project-lilly-has-seen-openai-hire-hundreds-of-contractors-to-manually-review-logs",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-11T07:31:15+00:00",
-      "summary": "As AI workloads become more computationally demanding, Indian researchers argue that the next advance may come from rethinking computing architecture itself. The post Indian Researchers Look Beyond GPUs to Neuromorphic AI Hardware appeared first on EE Times.",
+      "published_at": "2026-09-15T11:30:00+00:00",
+      "summary": "404 Media reports that OpenAI has hired hundreds of contractors to evaluate ChatGPT responses manually.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/from-ai-assisted-eda-to-ai-mediated-engineering/",
-      "title": "From AI-Assisted EDA to AI-Mediated Engineering",
-      "url": "https://www.eetimes.com/from-ai-assisted-eda-to-ai-mediated-engineering/",
+      "id": "rss:https://www.tomshardware.com/software/windows/windows-september-2026-update-brings-many-long-requested-features-but-also-surfaces-fresh-bugs-windows-11-update-causes-crashes-on-amd-graphics-explorer-hang-ups-and-broken-third-party-integrations",
+      "title": "Microsoft rolls out emergency update for Windows 11's latest patch — recent update causes crashes on AMD graphics, Explorer hang-ups, and broken third-party integrations",
+      "url": "https://www.tomshardware.com/software/windows/windows-september-2026-update-brings-many-long-requested-features-but-also-surfaces-fresh-bugs-windows-11-update-causes-crashes-on-amd-graphics-explorer-hang-ups-and-broken-third-party-integrations",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Simon Davidmann",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-10T20:23:10+00:00",
-      "summary": "What DAC 2026 revealed about agents, engines, trust—and why the industry should be optimistic. The post From AI-Assisted EDA to AI-Mediated Engineering appeared first on EE Times.",
+      "published_at": "2026-09-15T11:00:00+00:00",
+      "summary": "Windows September 2026 update brings many long-requested features, but also surfaces fresh bugs — new code crashing AMD, HP, and Lenovo systems and surfaces audio, Explorer, and Remote Desktop problems",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/grab-a-usd560-saving-on-this-1440p-ready-gaming-pc-with-a-9800x3d-and-rtx-5060-ti-16gb-now-usd1-859-all-white-cyberpowerpc-desktop-ships-with-one-of-amds-best-x3d-chips-along-with-32gb-ddr5-and-a-2tb-ssd",
+      "title": "Grab a $560 saving on this 1440p-ready gaming PC with a 9800X3D and RTX 5060 Ti 16GB, now $1,859 — all-white CyberPowerPC desktop ships with one of AMD's best X3D chips, along with 32GB DDR5 and a 2TB SSD",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/grab-a-usd560-saving-on-this-1440p-ready-gaming-pc-with-a-9800x3d-and-rtx-5060-ti-16gb-now-usd1-859-all-white-cyberpowerpc-desktop-ships-with-one-of-amds-best-x3d-chips-along-with-32gb-ddr5-and-a-2tb-ssd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T10:36:40+00:00",
+      "summary": "Save nearly $600 on this CyberPowerPC gaming PC with a 9800X3D, RTX 5060 Ti 16GB, 32GB DDR5, and a 2TB SSD.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/minecraft-legacy-gets-re-written-in-c-for-ps2-and-wii-ports-code-is-tuned-so-it-works-well-even-on-the-ps2s-meager-32mb-of-ram",
+      "title": "Minecraft Legacy gets rewritten in C++ for PS2 and Wii ports — code is tuned so it works well even on the PS2’s meager 32MB of RAM",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/minecraft-legacy-gets-re-written-in-c-for-ps2-and-wii-ports-code-is-tuned-so-it-works-well-even-on-the-ps2s-meager-32mb-of-ram",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T10:30:00+00:00",
+      "summary": "Games optimization specialist OptiProjects (AKA OptiJeugos) has released a new port of Minecraft Legacy for the Sony PlayStation 2 and Nintendo Wii consoles.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/developer-builds-viral-3d-source-code-visualizer-that-consumes-21gb-of-ram-flies-around-2-5-million-lines-of-code-at-over-120-frames-per-second",
+      "title": "Developer builds viral 3D source code visualizer that consumes 21GB of RAM — flies around 2.5 million lines of code at over 120 frames per second",
+      "url": "https://www.tomshardware.com/tech-industry/developer-builds-viral-3d-source-code-visualizer-that-consumes-21gb-of-ram-flies-around-2-5-million-lines-of-code-at-over-120-frames-per-second",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T10:00:00+00:00",
+      "summary": "A developer has built a 3D code visualizer.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/amds-radeon-rx-9070-gre-graphics-card-returns-to-its-lowest-ever-price-of-usd499-rare-deal-places-this-current-generation-12gb-gpu-below-its-msrp-launch-price",
+      "title": "AMD's Radeon RX 9070 GRE graphics card returns to its lowest-ever price of $499 — rare deal places this current-generation 12GB GPU below its MSRP launch price",
+      "url": "https://www.tomshardware.com/pc-components/gpus/amds-radeon-rx-9070-gre-graphics-card-returns-to-its-lowest-ever-price-of-usd499-rare-deal-places-this-current-generation-12gb-gpu-below-its-msrp-launch-price",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T09:50:21+00:00",
+      "summary": "Grab a new 12GB GPU for less than the MSRP launch price.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/perplexitys-local-ai-agent-comes-to-windows-but-only-for-rtx-gpus-with-at-least-24gb-of-vram-portable-computer-brings-ai-for-multistep-tasks-to-compatible-pcs",
+      "title": "Perplexity’s local AI agent comes to Windows, but only for RTX GPUs with at least 24GB of VRAM — Portable Computer brings AI for multistep tasks to compatible PCs",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/perplexitys-local-ai-agent-comes-to-windows-but-only-for-rtx-gpus-with-at-least-24gb-of-vram-portable-computer-brings-ai-for-multistep-tasks-to-compatible-pcs",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-15T09:24:32+00:00",
+      "summary": "Perplexity and Nvidia released Portable Computer for Windows on Sept. 14, bringing the local-first AI agent to GeForce RTX and RTX PRO GPUs with 24GB or more of VRAM.",
       "lang": "en"
     },
     {
@@ -673,224 +877,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amds-best-gaming-cpu-drops-below-launch-price-and-includes-free-240mm-aio-cooler-and-onimusha-way-of-the-sword-grab-the-ryzen-7-9850x3d-for-usd484",
-      "title": "AMD’s best gaming CPU drops below launch price and includes free 240mm AIO cooler and Onimusha: Way of the Sword — grab the Ryzen 7 9850X3D for $484",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amds-best-gaming-cpu-drops-below-launch-price-and-includes-free-240mm-aio-cooler-and-onimusha-way-of-the-sword-grab-the-ryzen-7-9850x3d-for-usd484",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-13T14:28:06+00:00",
-      "summary": "The Ryzen 7 9850X3D may only be a modest step up from the 9800X3D, but it still leads our gaming benchmarks and now comes with a couple of useful extras at a lower-than-launch price.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/sanders-proposes-20-year-prison-sentence-for-ai-devs-who-plow-ahead-with-artificial-superintelligence-plans-penalty-on-par-with-illegally-developing-rogue-nuclear-weapons",
-      "title": "Bernie Sanders proposes 20 year prison sentence for AI devs who plow ahead with Artificial Superintelligence plans — penalty on par with illegally developing rogue nuclear weapons",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/sanders-proposes-20-year-prison-sentence-for-ai-devs-who-plow-ahead-with-artificial-superintelligence-plans-penalty-on-par-with-illegally-developing-rogue-nuclear-weapons",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-13T14:10:00+00:00",
-      "summary": "Senators Bernie Sanders and Greg Cezar have announced their Ban Artificial Superintelligence Act which threatens 20-year prison sentences for rule breakers.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/webcams/dell-pro-5-webcam-2k-review",
-      "title": "Dell Pro 5 Webcam 2K Review: So you can look good in office",
-      "url": "https://www.tomshardware.com/peripherals/webcams/dell-pro-5-webcam-2k-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sarah Jacobsson Purewal",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-13T14:00:00+00:00",
-      "summary": "The Dell Pro 5 webcam is an office-oriented 2K webcam with a physical privacy shutter, a built-in mic, and Windows Hello compatibility.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-ceo-warns-of-ai-driven-botnet-swarm-taking-over-the-entire-internet-in-6-12-months-such-a-swarm-could-be-capable-of-taking-over-the-entire-internet-with-a-persistent-botnet",
-      "title": "Anthropic CEO warns of AI-driven botnet 'swarm' taking over the entire internet — 'In 6–12 months such a swarm could be capable of taking over the entire internet with a persistent botnet'",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-ceo-warns-of-ai-driven-botnet-swarm-taking-over-the-entire-internet-in-6-12-months-such-a-swarm-could-be-capable-of-taking-over-the-entire-internet-with-a-persistent-botnet",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-13T13:36:35+00:00",
-      "summary": "As an Ex-Anthropic warns AI will get self-sufficient and kill our posterity.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/power-supplies/azza-psaz-750g-atx-3-1-power-supply-review",
-      "title": "AZZA PSAZ-750G ATX 3.1 power supply review: An adequate budget 750W unit",
-      "url": "https://www.tomshardware.com/pc-components/power-supplies/azza-psaz-750g-atx-3-1-power-supply-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "E. Fylladitakis",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-13T13:30:00+00:00",
-      "summary": "The AZZA PSAZ-750G ATX 3.1 is a non-modular 750W built by Helly, wearing an 80 PLUS Gold badge it has never earned, sold at a price that almost makes the argument for it.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/intel-revives-one-mono-font-after-brief-retirement-typeface-built-to-fight-coder-eyestrain-gets-reprieve-from-open-source-purge",
-      "title": "Intel revives One Mono font after brief retirement during open-source purge — typeface built to fight coder eyestrain gets reprieve",
-      "url": "https://www.tomshardware.com/tech-industry/intel-revives-one-mono-font-after-brief-retirement-typeface-built-to-fight-coder-eyestrain-gets-reprieve-from-open-source-purge",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-13T13:00:00+00:00",
-      "summary": "Intel’s decision to archive its developer-focused One Mono font lasted only two days, with the company now restoring the open-source project despite its relatively limited development activity.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/controllers-gamepads/thrustmaster-airbus-add-on-grip-with-ava-joystick-base-review",
-      "title": "Thrustmaster Airbus Add-On Grip with AVA Joystick Base Review: A First-Class Flight Experience",
-      "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/thrustmaster-airbus-add-on-grip-with-ava-joystick-base-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Dan Mateescu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-13T13:00:00+00:00",
-      "summary": "The Thrustmaster Airbus Add-On Grip with the AVA Joystick Base is a 1:1 replica of an Airbus sidestick, featuring extensive customization and Hall-effect sensors across all axes.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-military-researchers-and-tech-giants-caught-using-claude-us-frontier-model-coded-16-air-defense-suppression-tools-targeting-taiwan-drafted-anti-torpedo-specs-and-fed-151-million-training-queries-to-alibaba",
-      "title": "Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression tools targeting Taiwan, drafted anti-torpedo specs, and fed 151 million training queries to Alibaba",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-military-researchers-and-tech-giants-caught-using-claude-us-frontier-model-coded-16-air-defense-suppression-tools-targeting-taiwan-drafted-anti-torpedo-specs-and-fed-151-million-training-queries-to-alibaba",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-13T12:00:00+00:00",
-      "summary": "Anthropic accuses China-linked actors of using its Claude models of weapon development, intelligence activities, distilling AI models.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cryptomining/mexican-cartel-crypto-farm-seized-in-mountain-raid-300-gpus-satellite-links-and-industrial-transformers-tapped-hydroelectric-power",
-      "title": "Mexican cartel's crypto farm seized in mountain raid — 300 GPUs, satellite links, and industrial transformers tapped hydroelectric power",
-      "url": "https://www.tomshardware.com/tech-industry/cryptomining/mexican-cartel-crypto-farm-seized-in-mountain-raid-300-gpus-satellite-links-and-industrial-transformers-tapped-hydroelectric-power",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-13T11:30:00+00:00",
-      "summary": "There is increasing evidence that Mexican drug cartels are diversifying into cryptocurrency mining and are using crypto platforms to launder their ill-gotten gains.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/drones/waymo-robotaxi-calls-cops-on-riders-handling-loaded-ar-style-ghost-gun-waymo-alerted-san-francisco-police-then-juvenile-riders-were-stopped-and-arrested",
-      "title": "Waymo robotaxi calls cops on riders handling loaded AR-style ghost gun — Waymo alerted San Francisco police, then juvenile riders were stopped and arrested",
-      "url": "https://www.tomshardware.com/tech-industry/drones/waymo-robotaxi-calls-cops-on-riders-handling-loaded-ar-style-ghost-gun-waymo-alerted-san-francisco-police-then-juvenile-riders-were-stopped-and-arrested",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-13T11:16:11+00:00",
-      "summary": "Following a tip-off from robotaxi firm Waymo, San Francisco police conducted a 'high-risk vehicle stop' and arrested two juveniles for illegal possession of a firearm.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/programming/playable-tomb-raider-runs-on-a-humble-1-watt-chip-usd25-board-with-dual-core-400-mhz-esp32-p4-mcu-scales-openlara-up-to-1-024-x-600-playable-pixels",
-      "title": "Playable Tomb Raider runs on a humble 1-watt chip — $25 board with dual-core 400 MHz ESP32-P4 MCU scales OpenLara up to 1,024 x 600 playable pixels",
-      "url": "https://www.tomshardware.com/software/programming/playable-tomb-raider-runs-on-a-humble-1-watt-chip-usd25-board-with-dual-core-400-mhz-esp32-p4-mcu-scales-openlara-up-to-1-024-x-600-playable-pixels",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-13T11:00:00+00:00",
-      "summary": "A retro video gaming devotee has showcased Lara Croft adventuring in and among ancient tombs on a humble ESP32-P4 microcontroller.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/drones/ukraines-sargan-3000-triumphs-in-first-ever-drone-vs-drone-boat-battle-video-shows-russian-mbek-destroyed-by-its-foes-12-7mm-automatic-turret",
-      "title": "Ukraine triumphs in 'first-ever' drone-vs-drone boat battle — video shows Russian MBeK destroyed by Sargan 3000's 12.7mm automatic turret",
-      "url": "https://www.tomshardware.com/tech-industry/drones/ukraines-sargan-3000-triumphs-in-first-ever-drone-vs-drone-boat-battle-video-shows-russian-mbek-destroyed-by-its-foes-12-7mm-automatic-turret",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-13T10:30:00+00:00",
-      "summary": "Ukraine’s Navy has claimed that it has won 'the first-ever battle of unmanned naval boats.'",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49325115",
-      "title": "TSMC Uses Old Fabs to Make New Chips [video]",
-      "url": "https://www.youtube.com/watch?v=cDxVYQrxeiQ",
+      "id": "hn:49714096",
+      "title": "TSMC revealing details about next gen A14 node",
+      "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49325115",
-        "name": "eig",
-        "hn_url": "https://news.ycombinator.com/item?id=49325115"
+        "id": "49714096",
+        "name": "osnium123",
+        "hn_url": "https://news.ycombinator.com/item?id=49714096"
       },
       "duration_sec": null,
-      "views": 25,
-      "comments": 8,
-      "published_at": "2026-08-17T00:07:42+00:00",
+      "views": 18,
+      "comments": 4,
+      "published_at": "2026-09-15T15:31:55+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
       "lang": "en"
@@ -907,8 +907,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49673098"
       },
       "duration_sec": null,
-      "views": 578,
-      "comments": 398,
+      "views": 581,
+      "comments": 399,
       "published_at": "2026-09-12T15:08:27+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1005,6 +1005,25 @@
       "views": 39,
       "comments": 123,
       "published_at": "2026-09-07T05:23:31+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49713261",
+      "title": "What we have learned at OpenShell applying formal methods to control AI agents",
+      "url": "https://nvidia.github.io/OpenShell-Research/dev-notes/posts/2026-09-10-learning-formal-methods-agent-policy-prover/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49713261",
+        "name": "alexwatson405",
+        "hn_url": "https://news.ycombinator.com/item?id=49713261"
+      },
+      "duration_sec": null,
+      "views": 33,
+      "comments": 11,
+      "published_at": "2026-09-15T14:40:05+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
