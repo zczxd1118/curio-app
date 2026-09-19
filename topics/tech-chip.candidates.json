@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-18T08:08:49.208055+00:00",
+  "fetched_at": "2026-09-19T07:58:14.835814+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 6,
+    "HN · Nvidia": 5,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 29,
+  "total": 28,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/intel-puts-high-na-euv-into-production-but-stitching-still-has-something-to-prove/",
+      "title": "Intel Puts High-NA EUV into Production, but Stitching Still Has Something to Prove",
+      "url": "https://www.eetimes.com/intel-puts-high-na-euv-into-production-but-stitching-still-has-something-to-prove/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-18T22:00:00+00:00",
+      "summary": "Panther Lake validates High NA in manufacturing, while electrical stitching and larger masks remain the next hurdles. The post Intel Puts High-NA EUV into Production, but Stitching Still Has Something to Prove appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ai-demand-will-keep-dram-market-under-pressure/",
+      "title": "AI Demand Will Keep DRAM Market Under Pressure",
+      "url": "https://www.eetimes.com/ai-demand-will-keep-dram-market-under-pressure/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-18T12:00:00+00:00",
+      "summary": "AI infrastructure spending is driving DRAM shortages that will continue through 2027, pushing consumer electronics makers further down priority lists. The post AI Demand Will Keep DRAM Market Under Pressure appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/piecing-together-the-indian-electronics-and-semiconductor-ecosystem/",
       "title": "Piecing Together the Indian Electronics and Semiconductor Ecosystem",
       "url": "https://www.eetimes.com/piecing-together-the-indian-electronics-and-semiconductor-ecosystem/",
@@ -325,40 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/edge-first-architectures-for-building-and-campus-safety-and-security/",
-      "title": "Edge-first Architectures for Building and Campus Safety and Security",
-      "url": "https://www.eetimes.com/edge-first-architectures-for-building-and-campus-safety-and-security/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Qualcomm, Arrow Electronics",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-16T15:53:12+00:00",
-      "summary": "Join us to explore how Qualcomm Technologies edge-first architecture is built to bring AI processing directly to cameras, gateways, and on-premises systems. The post Edge-first Architectures for Building and Campus Safety and Security appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/z-wave-long-range-extends-iot-reach-beyond-mesh-networks/",
-      "title": "Z-Wave Long Range Extends IoT Reach Beyond Mesh Networks",
-      "url": "https://www.eetimes.com/z-wave-long-range-extends-iot-reach-beyond-mesh-networks/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Abitzen Xavier",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-16T14:51:54+00:00",
-      "summary": "Z-Wave Long Range blasts past mesh limits with 1.5-mile IoT reach and open security. The post Z-Wave Long Range Extends IoT Reach Beyond Mesh Networks appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -370,8 +370,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49714096"
       },
       "duration_sec": null,
-      "views": 107,
-      "comments": 45,
+      "views": 120,
+      "comments": 54,
       "published_at": "2026-09-15T15:31:55+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49724881"
       },
       "duration_sec": null,
-      "views": 942,
-      "comments": 393,
+      "views": 959,
+      "comments": 402,
       "published_at": "2026-09-16T11:15:53+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -430,25 +430,6 @@
       "views": 137,
       "comments": 197,
       "published_at": "2026-09-13T10:29:18+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49567357",
-      "title": "Georgi Gerganov on llama.cpp/ggml future after Nvidia acquisition of HuggingFace",
-      "url": "https://twitter.com/ggerganov/status/2095897173376618881",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49567357",
-        "name": "theanonymousone",
-        "hn_url": "https://news.ycombinator.com/item?id=49567357"
-      },
-      "duration_sec": null,
-      "views": 76,
-      "comments": 28,
-      "published_at": "2026-09-04T17:12:22+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
