@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-19T07:58:14.835814+00:00",
+  "fetched_at": "2026-09-20T08:29:09.073638+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 5,
+    "HN · Nvidia": 6,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 28,
+  "total": 29,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -370,8 +370,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49714096"
       },
       "duration_sec": null,
-      "views": 120,
-      "comments": 54,
+      "views": 124,
+      "comments": 55,
       "published_at": "2026-09-15T15:31:55+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
@@ -389,7 +389,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49724881"
       },
       "duration_sec": null,
-      "views": 959,
+      "views": 965,
       "comments": 402,
       "published_at": "2026-09-16T11:15:53+00:00",
       "summary": "",
@@ -454,6 +454,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49745610",
+      "title": "Run QWEN3.8 27B on 16gb Nvidia GPUs",
+      "url": "https://github.com/MiaAI-Lab/Qwen3.8-27B-16gb-NVIDIA-GPUs-one-click-install",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49745610",
+        "name": "Pragmata",
+        "hn_url": "https://news.ycombinator.com/item?id=49745610"
+      },
+      "duration_sec": null,
+      "views": 28,
+      "comments": 10,
+      "published_at": "2026-09-17T19:46:57+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49713261",
       "title": "What we have learned at OpenShell applying formal methods to control AI agents",
       "url": "https://nvidia.github.io/OpenShell-Research/dev-notes/posts/2026-09-10-learning-formal-methods-agent-policy-prover/",
@@ -465,7 +484,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49713261"
       },
       "duration_sec": null,
-      "views": 39,
+      "views": 40,
       "comments": 11,
       "published_at": "2026-09-15T14:40:05+00:00",
       "summary": "",

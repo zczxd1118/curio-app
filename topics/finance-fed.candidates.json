@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-09-19T07:58:09.806728+00:00",
+  "fetched_at": "2026-09-20T08:29:04.187257+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -16,10 +16,10 @@
     "HN · inflation": 3,
     "HN · Tesla": 5,
     "HN · finance": 9,
-    "HN · fed": 16
+    "HN · fed": 17
   },
   "subtopics": [],
-  "total": 63,
+  "total": 64,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/doomforce/",
@@ -189,6 +189,23 @@
       "views": null,
       "published_at": "2026-09-04T17:55:39+00:00",
       "summary": "The best Stratechery content from the week of August 31, 2026, including the market speaking, Apple finding religion, and society losing friction.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/brookfield-of-dreams",
+      "title": "Brookfield of Dreams",
+      "url": "https://www.netinterest.co/p/brookfield-of-dreams",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-19T15:05:47+00:00",
+      "summary": "Inside Brookfield&#8217;s Plan to Double Again",
       "lang": "en"
     },
     {
@@ -515,23 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.netinterest.co/p/apple-turnover",
-      "title": "Apple Turnover",
-      "url": "https://www.netinterest.co/p/apple-turnover",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-04-24T16:38:20+00:00",
-      "summary": "How Tim Cook reshaped payments &#8211; and what he leaves behind",
-      "lang": "en"
-    },
-    {
       "id": "hn:49451482",
       "title": "Hackers Broke into Justice Department, NASA, Federal Reserve, Senate",
       "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-platforms-operated-and-used-china-state-sponsored-hackers",
@@ -581,7 +581,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49731356"
       },
       "duration_sec": null,
-      "views": 182,
+      "views": 183,
       "comments": 250,
       "published_at": "2026-09-16T18:55:21+00:00",
       "summary": "",
@@ -771,7 +771,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49596610"
       },
       "duration_sec": null,
-      "views": 102,
+      "views": 103,
       "comments": 153,
       "published_at": "2026-09-07T10:38:32+00:00",
       "summary": "",
@@ -810,7 +810,7 @@
       },
       "duration_sec": null,
       "views": 42,
-      "comments": 79,
+      "comments": 80,
       "published_at": "2026-09-09T12:29:13+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -961,7 +961,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49694840"
       },
       "duration_sec": null,
-      "views": 113,
+      "views": 114,
       "comments": 79,
       "published_at": "2026-09-14T10:56:30+00:00",
       "summary": "",
@@ -1037,7 +1037,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49730769"
       },
       "duration_sec": null,
-      "views": 37,
+      "views": 38,
       "comments": 1,
       "published_at": "2026-09-16T18:09:36+00:00",
       "summary": "",
@@ -1151,9 +1151,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=49704008"
       },
       "duration_sec": null,
-      "views": 217,
+      "views": 218,
       "comments": 217,
       "published_at": "2026-09-14T21:05:22+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49769668",
+      "title": "OpenAI and Anthropic oversold AI security breaches",
+      "url": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49769668",
+        "name": "hei-lima",
+        "hn_url": "https://news.ycombinator.com/item?id=49769668"
+      },
+      "duration_sec": null,
+      "views": 36,
+      "comments": 24,
+      "published_at": "2026-09-19T19:59:28+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"

@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-09-19T07:57:48.094487+00:00",
+  "fetched_at": "2026-09-20T08:28:42.698258+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -128,7 +128,7 @@
       },
       "duration_sec": null,
       "views": 315,
-      "comments": 442,
+      "comments": 445,
       "published_at": "2026-09-14T02:50:40+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -146,7 +146,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49712746"
       },
       "duration_sec": null,
-      "views": 166,
+      "views": 167,
       "comments": 178,
       "published_at": "2026-09-15T14:07:01+00:00",
       "summary": "",
@@ -303,6 +303,23 @@
       "published_at": "2026-08-26T14:59:43+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/brookfield-of-dreams",
+      "title": "Brookfield of Dreams",
+      "url": "https://www.netinterest.co/p/brookfield-of-dreams",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-19T15:05:47+00:00",
+      "summary": "Inside Brookfield&#8217;s Plan to Double Again",
       "lang": "en"
     },
     {
@@ -626,23 +643,6 @@
       "views": null,
       "published_at": "2026-05-01T16:28:45+00:00",
       "summary": "The Golden Age of Arbitrage?",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.netinterest.co/p/apple-turnover",
-      "title": "Apple Turnover",
-      "url": "https://www.netinterest.co/p/apple-turnover",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-04-24T16:38:20+00:00",
-      "summary": "How Tim Cook reshaped payments &#8211; and what he leaves behind",
       "lang": "en"
     }
   ]
