@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-20T08:29:09.073638+00:00",
+  "fetched_at": "2026-09-21T08:48:36.267614+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 6,
+    "HN · Nvidia": 7,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 29,
+  "total": 30,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/ai-crypto-mining-expose-global-compute-infrastructure-constraints/",
+      "title": "AI, Crypto Mining Expose Global Compute Infrastructure Constraints",
+      "url": "https://www.eetimes.com/ai-crypto-mining-expose-global-compute-infrastructure-constraints/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T07:50:44+00:00",
+      "summary": "Global semiconductor bottlenecks, multi-year foundry lead times, and rising trade friction leave European compute infrastructure supply-constrained amid surging AI and blockchain hardware demand. The post AI, Crypto Mining Expose Global Compute Infrastructure Constraints appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/intel-puts-high-na-euv-into-production-but-stitching-still-has-something-to-prove/",
       "title": "Intel Puts High-NA EUV into Production, but Stitching Still Has Something to Prove",
       "url": "https://www.eetimes.com/intel-puts-high-na-euv-into-production-but-stitching-still-has-something-to-prove/",
@@ -342,23 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/ramxeed-ultimate-feram-guarantees-10-year-data-retention-under-continuous-125c-exposure/",
-      "title": "RAMXEED ULTIMATE FeRAM Guarantees 10-Year Data Retention under Continuous 125°C Exposure",
-      "url": "https://www.eetimes.com/ramxeed-ultimate-feram-guarantees-10-year-data-retention-under-continuous-125c-exposure/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "RAMXEED",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-16T16:00:00+00:00",
-      "summary": "RAMXEED launches RAMXEED ULTIMATE, a new FeRAM line with memory products guaranteeing 10 years of data retention at 125°C. The post RAMXEED ULTIMATE FeRAM Guarantees 10-Year Data Retention under Continuous 125°C Exposure appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -370,7 +370,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49714096"
       },
       "duration_sec": null,
-      "views": 124,
+      "views": 125,
       "comments": 55,
       "published_at": "2026-09-15T15:31:55+00:00",
       "summary": "",
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49724881"
       },
       "duration_sec": null,
-      "views": 965,
-      "comments": 402,
+      "views": 969,
+      "comments": 404,
       "published_at": "2026-09-16T11:15:53+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -427,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49682319"
       },
       "duration_sec": null,
-      "views": 137,
+      "views": 138,
       "comments": 197,
       "published_at": "2026-09-13T10:29:18+00:00",
       "summary": "",
@@ -435,20 +435,39 @@
       "lang": "en"
     },
     {
-      "id": "hn:49594189",
-      "title": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
-      "url": "https://www.businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
+      "id": "hn:49773511",
+      "title": "Every Nvidia GPU has 10 to 30 RISC-V cores inside it",
+      "url": "https://www.xda-developers.com/your-nvidia-gpu-dozens-risc-v-cores-one-took-over-graphics-driver/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49594189",
-        "name": "vinni2",
-        "hn_url": "https://news.ycombinator.com/item?id=49594189"
+        "id": "49773511",
+        "name": "giuliomagnifico",
+        "hn_url": "https://news.ycombinator.com/item?id=49773511"
       },
       "duration_sec": null,
-      "views": 39,
-      "comments": 123,
-      "published_at": "2026-09-07T05:23:31+00:00",
+      "views": 50,
+      "comments": 4,
+      "published_at": "2026-09-20T07:50:58+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49777694",
+      "title": "Autonomous strike drone uses Nvidia Jetson Orin Nano to pick and bomb targets",
+      "url": "https://www.tomshardware.com/tech-industry/drones/autonomous-strike-drone-uses-nvidia-jetson-orin-nano-to-independently-pick-and-bomb-targets-swedish-startups-attack-drones-run-small-ai-model-require-no-human-input-and-zero-external-comms",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49777694",
+        "name": "sbulaev",
+        "hn_url": "https://news.ycombinator.com/item?id=49777694"
+      },
+      "duration_sec": null,
+      "views": 29,
+      "comments": 7,
+      "published_at": "2026-09-20T17:07:08+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

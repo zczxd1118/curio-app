@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-09-20T08:29:04.187257+00:00",
+  "fetched_at": "2026-09-21T08:48:31.267434+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,15 +11,15 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 0,
+    "arXiv q-fin（量化金融论文）": 20,
     "HN · Federal Reserve": 2,
     "HN · inflation": 3,
     "HN · Tesla": 5,
     "HN · finance": 9,
-    "HN · fed": 17
+    "HN · fed": 14
   },
   "subtopics": [],
-  "total": 64,
+  "total": 82,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/doomforce/",
@@ -532,6 +532,346 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://arxiv.org/abs/2609.21173",
+      "title": "Adapting the Actor Model of Concurrency for High-Frequency Trading: Synchronous Message Delivery (fast_send) and a Tick-to-Book Latency Study",
+      "url": "https://arxiv.org/abs/2609.21173",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Vincent Maciejewski",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21173v1 Announce Type: new Abstract: The actor model - state isolation, data-race freedom, deadlock resistance, and sequential single-message reasoning - has long been dismissed as unsuitable for high-frequency trading (HFT): actors seem to imply many threads, a mailbox per actor, and a heap-allocated message plus a context switch per interaction, overhead incompatible with a microsecond budget. This paper argues the dismissal is wrong for co-located actors, and supports it both analy...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.21232",
+      "title": "Stochastic Mortality Model with Fractional L\\'evy Dynamics",
+      "url": "https://arxiv.org/abs/2609.21232",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Congxin He, Lilian Hu, Yue Kuen Kwok, Yifan Ye",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21232v1 Announce Type: new Abstract: A substantial body of empirical evidence suggests that stochastic mortality models ignoring long range dependence tend to underestimate life expectancy, which may lead to profound implications for pension schemes and funding arrangements. This paper addresses the modelling of stochastic mortality via a mixture of a fractional L\\'evy process and standard Brownian motion. Our stochastic mortality model exhibits nice analytical tractability in actuari...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.21271",
+      "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
+      "url": "https://arxiv.org/abs/2609.21271",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Peter Cotton",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21271v1 Announce Type: new Abstract: Nested clustered optimization allocates within each cluster from the cluster's own covariance block and then across the resulting cluster portfolios. Block inversion says the unconstrained minimum-variance portfolio has the same two-tier shape, with each block replaced by its Schur complement against every other asset. Conditioning instead on one knot from each other cluster truncates the conditioning set in the manner of a Vecchia approximation, a...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.21291",
+      "title": "Efficient simulation schemes for pricing options under the Ornstein--Uhlenbeck driven stochastic volatility model",
+      "url": "https://arxiv.org/abs/2609.21291",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Congxin He, Yue Kuen Kwok",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21291v1 Announce Type: new Abstract: We develop an efficient Monte Carlo simulation scheme for pricing options under the Ornstein-Uhlenbeck driven stochastic volatility model via the operator splitting approach. With an ingenious splitting of the governing stochastic differential equations, our operator splitting scheme admits analytic solutions in all sub-steps, so its implementation is simplified to require simulation of a few normal variates. This resolves the two typical numerical...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.21301",
+      "title": "Simulation of stochastic volatility models via operator splitting schemes",
+      "url": "https://arxiv.org/abs/2609.21301",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Lilian Hu, Congxin He, Yue Kuen Kwok, Gongqiu Zhang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21301v1 Announce Type: new Abstract: The standard Euler discretization schemes for numerical option pricing under stochastic volatility models are known to exhibit high biases and potential unreliability. The alternative use of the exact (unbiased) simulation approach invariably involves numerical evaluation of integrated variance (and / or volatility) conditional on terminal variance (volatility) value. To resolve the technical challenge, most simulation schemes either employ the ted...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.21478",
+      "title": "Bricks or Cash? Externalities of Housing Upgrading in High-density Cities",
+      "url": "https://arxiv.org/abs/2609.21478",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Sumit Agarwal, Ying Deng, Yi Fan, Qi Gao, Jing Li, Lin Ma",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21478v1 Announce Type: new Abstract: We estimate housing externalities in a high-density city, exploiting the staggered rollout of Singapore's nationwide Main Upgrading Programme for public housing. Controlling for nonrandom neighborhood exposure, we find that upgrading raises treated buildings' prices by 11.5% upon completion and neighboring buildings' resale prices by about 2% within 500 meters, decaying to zero beyond. A model with distance-decaying externalities shows that in dens...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.21684",
+      "title": "Equilibrium prices under hidden Markov fundamentals",
+      "url": "https://arxiv.org/abs/2609.21684",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Henri Pag\\`es, Dylan Possama\\\"i, Mateo Rodriguez Polo",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21684v1 Announce Type: new Abstract: We study a representative-agent Epstein-Zin economy with geometric dividends and a hidden finite-state Markov drift. We allow the price-dividend ratio to contain an additional positive, absolutely continuous valuation factor and, within the class $\\mathfrak C$ defined below and under the regularity, admissibility, and positivity conditions of our main theorem, equilibrium forces this factor to be constant, yielding belief-Markovian prices. In the t...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.22052",
+      "title": "Design and pricing of a transparent parametric-modeled loss CAT bond: application to German windstorm",
+      "url": "https://arxiv.org/abs/2609.22052",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "John Ery, Erwan Koch",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.22052v1 Announce Type: new Abstract: Catastrophe (cat) bonds overcome some lack of reinsurance by sourcing capacity from the wider capital markets. We present a new type of cat bond addressing the known trade-off between moral hazard and basis risk. As our main contributions we propose a trigger mechanism which is entirely transparent and simpler to evaluate compared to indemnity modeling techniques, as well as a methodology to price this cat bond. This is relevant for insurers and pu...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.21688",
+      "title": "Quadratic and $p$-th variation of random signed Takagi--Landsberg bridges",
+      "url": "https://arxiv.org/abs/2609.21688",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Purba Das, Alexander Schied",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.21688v1 Announce Type: cross Abstract: We study random signed Takagi--Landsberg bridges with independent Rademacher Faber--Schauder coefficients. At index $H=1/2$, we prove that every fixed deterministic refining sequence of partitions with vanishing mesh yields quadratic variation $t$, almost surely and uniformly in $t\\in[0,1]$. For partitions that need not be refining, the mesh condition $o(1/\\log n)$ is sufficient, and its order is sharp. Our proofs use an operator representation o...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2504.17468",
+      "title": "Risk-minimizing reinsurance with adverse selection",
+      "url": "https://arxiv.org/abs/2504.17468",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Ka Chun Cheung, Sheung Chi Phillip Yam, Fei Lung Yuen, Yiying Zhang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2504.17468v3 Announce Type: replace Abstract: This paper provides a comprehensive characterization of optimal reinsurance mechanisms under adverse selection when a monopolistic reinsurer faces a continuum of insurers with multi-dimensional private information on loss exposures and Value-at-Risk (VaR) preferences. Moving beyond standard single-dimensional or discrete-type models, we resolve an infinite-dimensional, non-convex screening problem by introducing a novel pre-reinsurance VaR repa...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2511.20674",
+      "title": "The geometry of higher order modern portfolio theory",
+      "url": "https://arxiv.org/abs/2511.20674",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Emil Horobet",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2511.20674v2 Announce Type: replace Abstract: In this article, we study the generalized modern portfolio theory, with utility functions admitting higher-order cumulants. We establish that under certain genericity conditions, the utility function has a constant number of complex critical points. We study the discriminant locus of complex critical points with multiplicity. Finally, we switch our attention to the generalization of the feasible portfolio set (variety), determine its dimension,...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.08228",
+      "title": "Post-Rejection Follow-up Sampling: Measuring Outcomes of Rejected Decisions in Algorithmic DEX Trading",
+      "url": "https://arxiv.org/abs/2606.08228",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Arati Uday Kamat",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2606.08228v2 Announce Type: replace Abstract: Filter-gated algorithmic trading systems on decentralised exchanges reject most candidate tokens they evaluate, yet the observed forward market trajectory of those rejected candidates is rarely measured on the same live venue that produced the rejection. This paper introduces Post-Rejection Follow-up Sampling (PRFS), an observational measurement methodology in which a separate tracking subsystem samples each rejected token's price and liquidity...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.10542",
+      "title": "Optimal credit portfolio and consumption with regime switching and default contagion",
+      "url": "https://arxiv.org/abs/2607.10542",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Fei Sun, Wenyuan Wang, Kaixin Yan",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2607.10542v2 Announce Type: replace Abstract: We study an optimal portfolio and consumption problem in a regime-switching multi-name credit market with default contagion. Default events not only generate direct portfolio losses but also alter the default intensities of surviving securities. Under a Cobb-Douglas utility, the homogeneity property reduces the associated Hamilton-Jacobi-Bellman (HJB) equation to a recursive system of ordinary differential equations indexed by the default state...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.25353",
+      "title": "The Risk-Neutral Crash Frontier: Sharp Joint Bounds on Crash Probability and Conditional Depth from Option Bid-Ask Quotes",
+      "url": "https://arxiv.org/abs/2607.25353",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Jirong Zhuang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2607.25353v4 Announce Type: replace Abstract: Index put prices are the market's quotes for crash insurance, and a put's value equals the probability of a crash times the expected shortfall given one. The market therefore prices the product of likelihood and depth, not the factors, and finitely many bid and ask quotes leave a range of ways to split it. Fitting one density hides that range, and bounds computed one factor at a time can combine into scenarios that no single risk-neutral distri...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.07358",
+      "title": "Access to Live AI Advice and Behavior Under Risk: An Incentivized Experiment",
+      "url": "https://arxiv.org/abs/2609.07358",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Paul Althaus, Leon Houf, Christiane Schwieren",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.07358v2 Announce Type: replace Abstract: Generative AI has become an everyday advisor, and the systems people consult are live and interactive, not pre-scripted. We ask whether access to such a system changes behavior under risk. In an incentivized experiment (N = 158), participants made lottery choices with an optional decision aid presented as a conventional pre-written tool, a live one-shot AI, or a live interactive AI they could query, with information format held equivalent acros...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.12666",
+      "title": "Exact calibration of structural models via time-change",
+      "url": "https://arxiv.org/abs/2609.12666",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Fr\\'ed\\'eric Vrins, Damiano Brigo",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.12666v2 Announce Type: replace Abstract: In this note, we propose a general structural approach to model a default time $\\tau$ as the first-passage time (FPT) of a (``firm-value'') process $S$ below a (``debt'') barrier $K$ that comply with a pre-specified survival probability curve $G(t)=\\Pr(\\tau>t)$. Following an idea of Mbaye and Vrins (Mathematical Finance, 2022) applied to reduced-form models, our approach consists in two steps: choose a latent FPT model driven by a barrier $\\til...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.14029",
+      "title": "Special Markowitz: Thermodynamic Formalism for the Joint Regularisation of Returns and Covariance",
+      "url": "https://arxiv.org/abs/2609.14029",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "David Reinhardt",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.14029v3 Announce Type: replace Abstract: Special Markowitz (SM) regularises returns and covariance jointly, relative to a reference state (mu_ref, Sigma_ref). Each eigendirection of the whitened relative operator carries a signed spectral potential Phi_k, with persistence factor psi_k = exp(-Phi_k) > 0. Positive potentials attenuate empirical deviations from the reference geometry, zero potential preserves them, and negative potentials amplify them. The persistence factor psi_k govern...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.19660",
+      "title": "Screening Out the Needy: The Effects of SNAP Work Requirements",
+      "url": "https://arxiv.org/abs/2609.19660",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Lexin Cai, Hyewon Kim, Pauline Leung",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2609.19660v2 Announce Type: replace Abstract: We examine the effectiveness of work requirements as a screening device in the Supplemental Nutrition Assistance Program (SNAP). Work requirements for \"able-bodied adults without dependents\" were suspended after the Great Recession and gradually reinstated across counties and states in the 2010s. Using linked administrative SNAP and employment data from five states and a triple-differences design, we find that work requirements reduce SNAP part...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2507.00853",
+      "title": "Ranking Quantilized Mean-Field Games with an Application to Early-Stage Venture Investments",
+      "url": "https://arxiv.org/abs/2507.00853",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Rinel Foguen Tchuendom, Dena Firoozi, Mich\\`ele Breton",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2507.00853v3 Announce Type: replace-cross Abstract: Quantilized mean-field game models involve quantiles of the population's distribution. We study a class of such games with a capacity for ranking games, where the performance of each agent is evaluated based on its terminal state relative to the population's $\\alpha$-quantile value, $\\alpha \\in (0,1)$. This evaluation criterion is designed to select the top $(1-\\alpha)\\%$ performing agents. We provide two formulations for this competition...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2511.21646",
+      "title": "Stochastic Optimal Control of Interacting Particle Systems in Hilbert Spaces and Applications",
+      "url": "https://arxiv.org/abs/2511.21646",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Filippo de Feo, Fausto Gozzi, Andrzej \\'Swi\\k{e}ch, Lukas Wessels",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T04:00:00+00:00",
+      "summary": "arXiv:2511.21646v2 Announce Type: replace-cross Abstract: Optimal control of interacting particles governed by stochastic evolution equations in Hilbert spaces is an open area of research. Such systems naturally arise in formulations where each particle is modeled by stochastic partial differential equations, path-dependent stochastic differential equations (such as stochastic delay differential equations or stochastic Volterra integral equations), or partially observed stochastic systems. The p...",
+      "lang": "en"
+    },
+    {
       "id": "hn:49451482",
       "title": "Hackers Broke into Justice Department, NASA, Federal Reserve, Senate",
       "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-platforms-operated-and-used-china-state-sponsored-hackers",
@@ -714,7 +1054,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49626052"
       },
       "duration_sec": null,
-      "views": 74,
+      "views": 75,
       "comments": 34,
       "published_at": "2026-09-09T13:16:45+00:00",
       "summary": "",
@@ -755,6 +1095,25 @@
       "views": 19,
       "comments": 2,
       "published_at": "2026-09-03T15:26:27+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49778029",
+      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49778029",
+        "name": "giuliomagnifico",
+        "hn_url": "https://news.ycombinator.com/item?id=49778029"
+      },
+      "duration_sec": null,
+      "views": 463,
+      "comments": 309,
+      "published_at": "2026-09-20T17:38:50+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -812,25 +1171,6 @@
       "views": 42,
       "comments": 80,
       "published_at": "2026-09-09T12:29:13+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49396088",
-      "title": "S&P 500 CEO median pay hits $17.3M, widening CEO-worker ratio to 312-to-1",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-ceo-median-pay-234900518.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49396088",
-        "name": "newsomix9xl",
-        "hn_url": "https://news.ycombinator.com/item?id=49396088"
-      },
-      "duration_sec": null,
-      "views": 33,
-      "comments": 3,
-      "published_at": "2026-08-22T02:38:14+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1102,44 +1442,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49556976",
-      "title": "A hungry woman is easier to dismiss than a well-fed woman",
-      "url": "https://aeon.co/essays/a-hungry-woman-is-easier-to-dismiss-than-a-well-fed-woman",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49556976",
-        "name": "gmays",
-        "hn_url": "https://news.ycombinator.com/item?id=49556976"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 5,
-      "published_at": "2026-09-03T21:04:34+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49730841",
-      "title": "Fed approves interest rate hike, signals one more to come this year",
-      "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49730841",
-        "name": "rawgabbit",
-        "hn_url": "https://news.ycombinator.com/item?id=49730841"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 1,
-      "published_at": "2026-09-16T18:14:36+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
       "id": "hn:49704008",
       "title": "Amazon vs. Perplexity – U.S. Court of Appeals for the Ninth Circuit",
       "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html",
@@ -1170,8 +1472,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49769668"
       },
       "duration_sec": null,
-      "views": 36,
-      "comments": 24,
+      "views": 38,
+      "comments": 25,
       "published_at": "2026-09-19T19:59:28+00:00",
       "summary": "",
       "matched_keyword": "fed",

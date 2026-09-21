@@ -2,14 +2,14 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-09-20T08:28:42.698258+00:00",
+  "fetched_at": "2026-09-21T08:48:09.662011+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 9,
+    "HN · stock market": 8,
     "HN · IPO": 4,
     "HN · earnings": 0,
     "HN · Federal Reserve": 2,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 35,
+  "total": 34,
   "items": [
     {
       "id": "hn:49599992",
@@ -165,28 +165,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=49682319"
       },
       "duration_sec": null,
-      "views": 137,
+      "views": 138,
       "comments": 197,
       "published_at": "2026-09-13T10:29:18+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49593962",
-      "title": "HPE Gives Oracle Right to Buy 4.2M Shares for 1 Cent Each",
-      "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/09/03/hewlett-packard-enterprise-gives-oracle-right-to-buy-205-million-in-stock-at-slashed-rate/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49593962",
-        "name": "gurjeet",
-        "hn_url": "https://news.ycombinator.com/item?id=49593962"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 1,
-      "published_at": "2026-09-07T04:38:32+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
