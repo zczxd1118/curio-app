@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-21T08:48:36.267614+00:00",
+  "fetched_at": "2026-09-22T08:26:13.878479+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,142 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/how-ai-is-accelerating-pcb-design-and-prototyping/",
+      "title": "How AI Is Accelerating PCB Design and Prototyping",
+      "url": "https://www.eetimes.com/how-ai-is-accelerating-pcb-design-and-prototyping/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Emily Newton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-22T07:59:35+00:00",
+      "summary": "AI tools compress PCB design timelines from months to hours, enabling faster iteration cycles and letting engineers focus on innovation. The post How AI Is Accelerating PCB Design and Prototyping appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/singapore-turning-quantum-research-into-business-opportunity/",
+      "title": "Singapore: Turning Quantum Research into Business Opportunity",
+      "url": "https://www.eetimes.com/singapore-turning-quantum-research-into-business-opportunity/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pietro Guzzetti",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T20:00:00+00:00",
+      "summary": "Singapore’s government funding, research infrastructure, and commercial focus are creating a booming regional hub for quantum technologies. The post Singapore: Turning Quantum Research into Business Opportunity appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ai-power-demands-push-gan-into-data-center-design/",
+      "title": "AI Power Demands Push GaN into Data Center Design",
+      "url": "https://www.eetimes.com/ai-power-demands-push-gan-into-data-center-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Stephen Las Marias",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T16:59:04+00:00",
+      "summary": "Rising AI power demands are pushing data center designers toward GaN-based power conversion for higher efficiency and density. The post AI Power Demands Push GaN into Data Center Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/highly-integrated-multibeam-beamformers-offer-swap-benefits-for-payload-phased-array-antennas/",
+      "title": "Highly Integrated Multibeam Beamformers Offer SWaP Benefits for Payload Phased Array Antennas",
+      "url": "https://www.eetimes.com/highly-integrated-multibeam-beamformers-offer-swap-benefits-for-payload-phased-array-antennas/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Analog Devices",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T14:00:00+00:00",
+      "summary": "Satellite payload designers are under growing pressure to deliver more capacity, wider coverage, and greater flexibility while working within strict size, weight, and power constraints. As phased-array antennas become increasingly important in next-generation satellite architectures, engineers face difficult tradeoffs between performance, complexity, and resource utilization. This paper explores practical approaches to overcoming these challenges through [&#8230;] The post Highly Integrated Mult...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/redefining-intelligent-hmi-at-the-edge-how-ai-is-transforming-human-machine-interaction/",
+      "title": "Redefining Intelligent HMI at the Edge: How AI Is Transforming Human-Machine Interaction",
+      "url": "https://www.eetimes.com/redefining-intelligent-hmi-at-the-edge-how-ai-is-transforming-human-machine-interaction/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Omar Cruz, Senior Manager PSOC™ Edge, Infineon",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T13:00:00+00:00",
+      "summary": "Next-generation HMI systems are evolving beyond the touchscreen into intelligent, context-aware experiences powered by edge AI The post Redefining Intelligent HMI at the Edge: How AI Is Transforming Human-Machine Interaction appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/design-once-reuse-forever-the-reconfigurable-analog-front-end/",
+      "title": "Design Once, Reuse Forever: The Reconfigurable Analog Front End",
+      "url": "https://www.eetimes.com/design-once-reuse-forever-the-reconfigurable-analog-front-end/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Robert Schreiber, Analog Product Marketing Director, Renesas Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T13:00:00+00:00",
+      "summary": "AnalogPAK turns the analog front end into a configurable, reusable design: one PCB supports multiple sensors and ranges with no board re-spin. The post Design Once, Reuse Forever: The Reconfigurable Analog Front End appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/scaling-physical-ai-deployment-beyond-the-demo/",
+      "title": "Scaling Physical AI Deployment Beyond the Demo",
+      "url": "https://www.eetimes.com/scaling-physical-ai-deployment-beyond-the-demo/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Intel Corporation",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T13:00:00+00:00",
+      "summary": "Scaling VLA robotics requires optimized inference, heterogeneous compute and real-time control on edge hardware. The post Scaling Physical AI Deployment Beyond the Demo appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/chinas-dram-specialist-cxmt-eyes-nand-flash-entry/",
+      "title": "China’s DRAM Specialist CXMT Eyes NAND Flash Entry",
+      "url": "https://www.eetimes.com/chinas-dram-specialist-cxmt-eyes-nand-flash-entry/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T11:58:25+00:00",
+      "summary": "China’s twin memory stars, CXMT and YMTC, move into each other’s turf to capitalize on AI-driven storage shortages. The post China’s DRAM Specialist CXMT Eyes NAND Flash Entry appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/ai-crypto-mining-expose-global-compute-infrastructure-constraints/",
       "title": "AI, Crypto Mining Expose Global Compute Infrastructure Constraints",
       "url": "https://www.eetimes.com/ai-crypto-mining-expose-global-compute-infrastructure-constraints/",
@@ -223,142 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/ai-demand-will-keep-dram-market-under-pressure/",
-      "title": "AI Demand Will Keep DRAM Market Under Pressure",
-      "url": "https://www.eetimes.com/ai-demand-will-keep-dram-market-under-pressure/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-18T12:00:00+00:00",
-      "summary": "AI infrastructure spending is driving DRAM shortages that will continue through 2027, pushing consumer electronics makers further down priority lists. The post AI Demand Will Keep DRAM Market Under Pressure appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/piecing-together-the-indian-electronics-and-semiconductor-ecosystem/",
-      "title": "Piecing Together the Indian Electronics and Semiconductor Ecosystem",
-      "url": "https://www.eetimes.com/piecing-together-the-indian-electronics-and-semiconductor-ecosystem/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-18T08:00:00+00:00",
-      "summary": "India Semiconductor Mission 2.0, quantum computing with IBM, neuromorphic chips, and deep-tech startups: six stories on how India’s chip ecosystem is taking shape. The post Piecing Together the Indian Electronics and Semiconductor Ecosystem appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/u-s-awards-anderon-1b-for-quantum-wafer-manufacturing/",
-      "title": "U.S. Awards Anderon $1B for Quantum Wafer Manufacturing",
-      "url": "https://www.eetimes.com/u-s-awards-anderon-1b-for-quantum-wafer-manufacturing/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-17T22:00:00+00:00",
-      "summary": "Washington bets $1B on IBM’s Anderon to forge quantum wafers on U.S. soil as the race leaves labs behind. The post U.S. Awards Anderon $1B for Quantum Wafer Manufacturing appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/electronics-design-analysis-for-pcbs-packages-and-devices/",
-      "title": "Electronics Design Analysis for PCBs, Packages and Devices",
-      "url": "https://www.eetimes.com/electronics-design-analysis-for-pcbs-packages-and-devices/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Dassault Systems",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-17T17:19:26+00:00",
-      "summary": "Join this webinar and discover CST Studio Suite to streamline your electronics design process—reserve your spot now! The post Electronics Design Analysis for PCBs, Packages and Devices appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/sourcing-cots-capacitors-for-new-space-applications/",
-      "title": "Sourcing COTS Capacitors for New Space Applications",
-      "url": "https://www.eetimes.com/sourcing-cots-capacitors-for-new-space-applications/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Peter Matthews",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-17T14:00:00+00:00",
-      "summary": "The rapid growth of commercial satellite deployments is driving engineers to rethink traditional component sourcing strategies for space applications. While mission reliability remains critical, development teams are increasingly challenged to balance performance, cost, availability, and accelerated deployment schedules. This document explores key considerations for selecting commercial off-the-shelf passive components for use in demanding space environments, [&#8230;] The post Sourcing COTS Cap...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/sk-hynixs-intel-liaisons-what-you-need-to-know/",
-      "title": "SK Hynix’s Intel Liaisons: What You Need to Know",
-      "url": "https://www.eetimes.com/sk-hynixs-intel-liaisons-what-you-need-to-know/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-17T11:30:00+00:00",
-      "summary": "The deal between Intel and SK Hynix seems imminent not because of technology business imperatives, but because of geopolitical factors. The post SK Hynix’s Intel Liaisons: What You Need to Know appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/no-summer-lull-for-semiconductors/",
-      "title": "No Summer Lull for Semiconductors",
-      "url": "https://www.eetimes.com/no-summer-lull-for-semiconductors/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Anne-Françoise Pelé",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-17T08:03:34+00:00",
-      "summary": "There was a time when summer slowed the semiconductor news cycle. Not this year. The post No Summer Lull for Semiconductors appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/smarter-cameras-need-more-than-edge-ai-to-protect-privacy/",
-      "title": "Smarter Cameras Need More Than Edge AI to Protect Privacy",
-      "url": "https://www.eetimes.com/smarter-cameras-need-more-than-edge-ai-to-protect-privacy/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-16T18:00:00+00:00",
-      "summary": "Axis Communications and Pimloc show how masking, encryption, anonymization, and governance can protect privacy without destroying useful evidence. The post Smarter Cameras Need More Than Edge AI to Protect Privacy appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -370,8 +370,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49714096"
       },
       "duration_sec": null,
-      "views": 125,
-      "comments": 55,
+      "views": 126,
+      "comments": 56,
       "published_at": "2026-09-15T15:31:55+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
@@ -466,7 +466,7 @@
       },
       "duration_sec": null,
       "views": 29,
-      "comments": 7,
+      "comments": 8,
       "published_at": "2026-09-20T17:07:08+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",

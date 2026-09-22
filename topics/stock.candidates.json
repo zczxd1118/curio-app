@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-09-21T08:48:09.662011+00:00",
+  "fetched_at": "2026-09-22T08:25:47.255070+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 8,
-    "HN · IPO": 4,
+    "HN · stock market": 6,
+    "HN · IPO": 5,
     "HN · earnings": 0,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
@@ -18,27 +18,8 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 34,
+  "total": 33,
   "items": [
-    {
-      "id": "hn:49599992",
-      "title": "Stockfish 19",
-      "url": "https://stockfishchess.org/blog/2026/stockfish-19/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49599992",
-        "name": "atiedebee",
-        "hn_url": "https://news.ycombinator.com/item?id=49599992"
-      },
-      "duration_sec": null,
-      "views": 277,
-      "comments": 169,
-      "published_at": "2026-09-07T16:17:27+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
     {
       "id": "hn:49682946",
       "title": "Show HN: Analyst Index – analysts who make money telling you good stock calls",
@@ -97,25 +78,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49596033",
-      "title": "Show HN: Forget Rigid Stock Screeners – A Universal Query API for Financial Data",
-      "url": "https://financialdata.net/universal-query",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49596033",
-        "name": "_FDN_",
-        "hn_url": "https://news.ycombinator.com/item?id=49596033"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 0,
-      "published_at": "2026-09-07T09:24:17+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
       "id": "hn:49691343",
       "title": "Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout",
       "url": "https://fortune.com/2026/09/08/nike-stock-plummets-sp500-market-cap-index/",
@@ -128,7 +90,7 @@
       },
       "duration_sec": null,
       "views": 315,
-      "comments": 445,
+      "comments": 444,
       "published_at": "2026-09-14T02:50:40+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -211,25 +173,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49401229",
-      "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
-      "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49401229",
-        "name": "newsomix9xl",
-        "hn_url": "https://news.ycombinator.com/item?id=49401229"
-      },
-      "duration_sec": null,
-      "views": 37,
-      "comments": 86,
-      "published_at": "2026-08-22T16:23:09+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
       "id": "hn:49594296",
       "title": "OpenAI 2025 financials $38.5B loss ahead of IPO",
       "url": "https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626",
@@ -244,6 +187,44 @@
       "views": 33,
       "comments": 6,
       "published_at": "2026-09-07T05:41:13+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49796292",
+      "title": "Smart Ring Maker Oura, Backers Seek $2.2B in US IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-21/smart-ring-maker-oura-backers-seek-2-2-billion-in-us-ipo",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49796292",
+        "name": "elo2000",
+        "hn_url": "https://news.ycombinator.com/item?id=49796292"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 6,
+      "published_at": "2026-09-22T02:53:48+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49791944",
+      "title": "Wall Street is growing skeptical of the data center boom",
+      "url": "https://www.nytimes.com/2026/09/21/business/ai-data-center-ipos.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49791944",
+        "name": "mikhael",
+        "hn_url": "https://news.ycombinator.com/item?id=49791944"
+      },
+      "duration_sec": null,
+      "views": 66,
+      "comments": 80,
+      "published_at": "2026-09-21T19:14:30+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
