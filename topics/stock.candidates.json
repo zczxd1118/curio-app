@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-09-22T08:25:47.255070+00:00",
+  "fetched_at": "2026-09-23T08:28:00.266587+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -12,13 +12,13 @@
     "HN · stock market": 6,
     "HN · IPO": 5,
     "HN · earnings": 0,
-    "HN · Federal Reserve": 2,
+    "HN · Federal Reserve": 3,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 33,
+  "total": 34,
   "items": [
     {
       "id": "hn:49682946",
@@ -89,8 +89,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49691343"
       },
       "duration_sec": null,
-      "views": 315,
-      "comments": 444,
+      "views": 316,
+      "comments": 445,
       "published_at": "2026-09-14T02:50:40+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -165,7 +165,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49611240"
       },
       "duration_sec": null,
-      "views": 161,
+      "views": 162,
       "comments": 47,
       "published_at": "2026-09-08T14:54:57+00:00",
       "summary": "",
@@ -203,8 +203,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49796292"
       },
       "duration_sec": null,
-      "views": 21,
-      "comments": 6,
+      "views": 24,
+      "comments": 11,
       "published_at": "2026-09-22T02:53:48+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -222,8 +222,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49791944"
       },
       "duration_sec": null,
-      "views": 66,
-      "comments": 80,
+      "views": 71,
+      "comments": 86,
       "published_at": "2026-09-21T19:14:30+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -263,6 +263,25 @@
       "views": 14,
       "comments": 1,
       "published_at": "2026-08-26T14:59:43+00:00",
+      "summary": "",
+      "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49810905",
+      "title": "In 2025, 49 percent of adults under age 30 lived with a parent [pdf]",
+      "url": "https://www.federalreserve.gov/publications/files/2025-report-economic-well-being-us-households-202605.pdf",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49810905",
+        "name": "gscott",
+        "hn_url": "https://news.ycombinator.com/item?id=49810905"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 5,
+      "published_at": "2026-09-23T02:26:49+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
       "lang": "en"
