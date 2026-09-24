@@ -2,14 +2,14 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-09-23T08:28:00.266587+00:00",
+  "fetched_at": "2026-09-24T08:20:10.504221+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 6,
+    "HN · stock market": 8,
     "HN · IPO": 5,
     "HN · earnings": 0,
     "HN · Federal Reserve": 3,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 34,
+  "total": 36,
   "items": [
     {
       "id": "hn:49682946",
@@ -54,6 +54,25 @@
       "views": 15,
       "comments": 10,
       "published_at": "2026-09-12T13:37:21+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49816810",
+      "title": "Trump's 1,156 July Stock Trades Involved AI, Big Oil, Weapons-Makers, and More",
+      "url": "https://www.commondreams.org/news/donald-trump-stock-trades",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49816810",
+        "name": "cirelli94",
+        "hn_url": "https://news.ycombinator.com/item?id=49816810"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 2,
+      "published_at": "2026-09-23T14:33:31+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -130,6 +149,25 @@
       "views": 138,
       "comments": 197,
       "published_at": "2026-09-13T10:29:18+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49819274",
+      "title": "Morgan Stanley Investment-Bank Deal List Leaked in Email Misfire",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-investment-bank-deal-124657863.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49819274",
+        "name": "wslh",
+        "hn_url": "https://news.ycombinator.com/item?id=49819274"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 0,
+      "published_at": "2026-09-23T17:08:35+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -222,8 +260,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49791944"
       },
       "duration_sec": null,
-      "views": 71,
-      "comments": 86,
+      "views": 72,
+      "comments": 87,
       "published_at": "2026-09-21T19:14:30+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -279,8 +317,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49810905"
       },
       "duration_sec": null,
-      "views": 11,
-      "comments": 5,
+      "views": 12,
+      "comments": 6,
       "published_at": "2026-09-23T02:26:49+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
