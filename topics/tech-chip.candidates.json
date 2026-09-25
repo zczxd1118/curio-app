@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-24T08:20:37.542625+00:00",
+  "fetched_at": "2026-09-25T08:43:00.752089+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/balancing-bandwidth-range-and-power-in-intelligent-buildings/",
+      "title": "Balancing Bandwidth, Range, and Power in Intelligent Buildings",
+      "url": "https://www.eetimes.com/balancing-bandwidth-range-and-power-in-intelligent-buildings/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Andy McFarlane",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-25T08:00:34+00:00",
+      "summary": "As edge AI transforms smart buildings, Wi-Fi HaLow bridges the gap between bandwidth, long range, and low power. The post Balancing Bandwidth, Range, and Power in Intelligent Buildings appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/delos-data-targets-heterogeneous-ai-with-data-interface/",
+      "title": "Delos Data Targets Heterogeneous AI with Data Interface",
+      "url": "https://www.eetimes.com/delos-data-targets-heterogeneous-ai-with-data-interface/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-24T18:43:38+00:00",
+      "summary": "Delos’s Apollo chiplet is designed to bridge different endpoint semantics and interconnects, creating a low-latency domain spanning GPUs, accelerators, CPUs and memory The post Delos Data Targets Heterogeneous AI with Data Interface appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/inside-tsmcs-evolving-design-ecosystem-shaping-the-future-of-ai-with-ai/",
+      "title": "Inside TSMC’s Evolving Design Ecosystem: Shaping the Future of AI, with AI",
+      "url": "https://www.eetimes.com/inside-tsmcs-evolving-design-ecosystem-shaping-the-future-of-ai-with-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Aveek Sarkar, Director, Ecosystem and Alliance Management Division, TSMC",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-24T14:10:55+00:00",
+      "summary": "TSMC shares updates about the Open Innovation Platform Ecosystem and vision for enabling AI-driven agentic workflows using TSMC AI Design Kit The post Inside TSMC’s Evolving Design Ecosystem: Shaping the Future of AI, with AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/after-ionq-buyout-skywater-reiterates-role-as-quantum-foundry/",
+      "title": "After IonQ Buyout, SkyWater Reiterates Role as Quantum Foundry",
+      "url": "https://www.eetimes.com/after-ionq-buyout-skywater-reiterates-role-as-quantum-foundry/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-24T14:08:18+00:00",
+      "summary": "As SkyWater scales its 200-mm and 300-mm manufacturing platforms to support diverse quantum modalities, leadership emphasizes that protecting customer IP remains its top priority. The post After IonQ Buyout, SkyWater Reiterates Role as Quantum Foundry appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/tis-october-price-hike-how-to-secure-adi-ti-stock-without-the-panic/",
+      "title": "TI’s October Price Hike: How to Secure ADI/TI Stock Without the Panic",
+      "url": "https://www.eetimes.com/tis-october-price-hike-how-to-secure-adi-ti-stock-without-the-panic/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Skyeast International Group Limited",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-24T10:23:24+00:00",
+      "summary": "acing TI's October price hike? SKYEAST offers $30M+ ADI/TI spot stock, 2-hour quotes, and 7×24 support across time zones. Lock in supply now. The post TI&#8217;s October Price Hike: How to Secure ADI/TI Stock Without the Panic appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/semicon-india-2026-startup-mitra-sheds-light-on-early-stage-silicon-startup-funding/",
       "title": "SEMICON India 2026: Startup Mitra Sheds Light on Early-Stage Silicon Startup Funding",
       "url": "https://www.eetimes.com/semicon-india-2026-startup-mitra-sheds-light-on-early-stage-silicon-startup-funding/",
@@ -274,91 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/guc-announces-2nm-16-gbps-hbm4e-ip/",
-      "title": "GUC Announces 2nm 16 Gbps HBM4E IP",
-      "url": "https://www.eetimes.com/guc-announces-2nm-16-gbps-hbm4e-ip/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Global Unichip Corp. (GUC)",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-22T13:00:00+00:00",
-      "summary": "Discover GUC's design-ready HBM4E PHY and Controller IP, adopted in customers' AI ASICs. The post GUC Announces 2nm 16 Gbps HBM4E IP appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/how-ai-is-accelerating-pcb-design-and-prototyping/",
-      "title": "How AI Is Accelerating PCB Design and Prototyping",
-      "url": "https://www.eetimes.com/how-ai-is-accelerating-pcb-design-and-prototyping/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Emily Newton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-22T07:59:35+00:00",
-      "summary": "AI tools compress PCB design timelines from months to hours, enabling faster iteration cycles and letting engineers focus on innovation. The post How AI Is Accelerating PCB Design and Prototyping appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/singapore-turning-quantum-research-into-business-opportunity/",
-      "title": "Singapore: Turning Quantum Research into Business Opportunity",
-      "url": "https://www.eetimes.com/singapore-turning-quantum-research-into-business-opportunity/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pietro Guzzetti",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-21T20:00:00+00:00",
-      "summary": "Singapore’s government funding, research infrastructure, and commercial focus are creating a booming regional hub for quantum technologies. The post Singapore: Turning Quantum Research into Business Opportunity appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ai-power-demands-push-gan-into-data-center-design/",
-      "title": "AI Power Demands Push GaN into Data Center Design",
-      "url": "https://www.eetimes.com/ai-power-demands-push-gan-into-data-center-design/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Stephen Las Marias",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-21T16:59:04+00:00",
-      "summary": "Rising AI power demands are pushing data center designers toward GaN-based power conversion for higher efficiency and density. The post AI Power Demands Push GaN into Data Center Design appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/highly-integrated-multibeam-beamformers-offer-swap-benefits-for-payload-phased-array-antennas/",
-      "title": "Highly Integrated Multibeam Beamformers Offer SWaP Benefits for Payload Phased Array Antennas",
-      "url": "https://www.eetimes.com/highly-integrated-multibeam-beamformers-offer-swap-benefits-for-payload-phased-array-antennas/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Analog Devices",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-21T14:00:00+00:00",
-      "summary": "Satellite payload designers are under growing pressure to deliver more capacity, wider coverage, and greater flexibility while working within strict size, weight, and power constraints. As phased-array antennas become increasingly important in next-generation satellite architectures, engineers face difficult tradeoffs between performance, complexity, and resource utilization. This paper explores practical approaches to overcoming these challenges through [&#8230;] The post Highly Integrated Mult...",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -408,9 +408,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=49673098"
       },
       "duration_sec": null,
-      "views": 583,
+      "views": 584,
       "comments": 401,
       "published_at": "2026-09-12T15:08:27+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49824864",
+      "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
+      "url": "https://github.com/nestrilabs/virtio-nvgpu",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49824864",
+        "name": "WanjohiRyan",
+        "hn_url": "https://news.ycombinator.com/item?id=49824864"
+      },
+      "duration_sec": null,
+      "views": 151,
+      "comments": 65,
+      "published_at": "2026-09-24T01:02:23+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -430,25 +449,6 @@
       "views": 138,
       "comments": 197,
       "published_at": "2026-09-13T10:29:18+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49824864",
-      "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
-      "url": "https://github.com/nestrilabs/virtio-nvgpu",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49824864",
-        "name": "WanjohiRyan",
-        "hn_url": "https://news.ycombinator.com/item?id=49824864"
-      },
-      "duration_sec": null,
-      "views": 82,
-      "comments": 40,
-      "published_at": "2026-09-24T01:02:23+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
