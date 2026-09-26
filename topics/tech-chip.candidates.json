@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-25T08:43:00.752089+00:00",
+  "fetched_at": "2026-09-26T08:30:07.223725+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/huaweis-tau-law-takes-commercial-form/",
+      "title": "Huawei’s Tau Law Takes Commercial Form",
+      "url": "https://www.eetimes.com/huaweis-tau-law-takes-commercial-form/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-25T14:18:57+00:00",
+      "summary": "Kirin 9050 Pro rests on the Tau (τ) Scaling Law, marking a major change in chip architecture designed to bypass EUV lithography limits. The post Huawei’s Tau Law Takes Commercial Form appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/balancing-bandwidth-range-and-power-in-intelligent-buildings/",
       "title": "Balancing Bandwidth, Range, and Power in Intelligent Buildings",
       "url": "https://www.eetimes.com/balancing-bandwidth-range-and-power-in-intelligent-buildings/",
@@ -342,23 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/canadian-startup-sees-success-in-space-qualification/",
-      "title": "Canadian Startup Sees Success in Space Qualification",
-      "url": "https://www.eetimes.com/canadian-startup-sees-success-in-space-qualification/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-22T16:21:10+00:00",
-      "summary": "Novigrad is forging a pathway for faster, more accessible radiation testing as a growing wave of space missions drives demand for reliable, resilient electronics. The post Canadian Startup Sees Success in Space Qualification appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -427,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49824864"
       },
       "duration_sec": null,
-      "views": 151,
+      "views": 152,
       "comments": 65,
       "published_at": "2026-09-24T01:02:23+00:00",
       "summary": "",
@@ -511,20 +511,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49464837",
-      "title": "U.S. considers fresh round of tariffs on semiconductors, report says",
-      "url": "https://www.cnbc.com/2026/08/27/trump-semiconductor-tech-tariffs.html",
+      "id": "hn:49844663",
+      "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49464837",
-        "name": "mikhael",
-        "hn_url": "https://news.ycombinator.com/item?id=49464837"
+        "id": "49844663",
+        "name": "MC995",
+        "hn_url": "https://news.ycombinator.com/item?id=49844663"
       },
       "duration_sec": null,
-      "views": 11,
-      "comments": 2,
-      "published_at": "2026-08-27T13:45:11+00:00",
+      "views": 72,
+      "comments": 123,
+      "published_at": "2026-09-25T13:49:06+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
       "lang": "en"

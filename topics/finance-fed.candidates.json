@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-09-25T08:42:55.339052+00:00",
+  "fetched_at": "2026-09-26T08:29:59.347931+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,16 +11,33 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 20,
-    "HN · Federal Reserve": 3,
+    "arXiv q-fin（量化金融论文）": 0,
+    "HN · Federal Reserve": 1,
     "HN · inflation": 3,
-    "HN · Tesla": 3,
-    "HN · finance": 9,
+    "HN · Tesla": 2,
+    "HN · finance": 10,
     "HN · fed": 15
   },
   "subtopics": [],
-  "total": 82,
+  "total": 60,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/begun-the-aggregator-wars-have/",
+      "title": "2026.39: Begun, the Aggregator Wars Have",
+      "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-25T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of September 21, 2026, including Meta vs. Amazon, GM bending the knee to CarPlay, and profiling the profiler.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/an-interview-with-colossus-eic-jeremy-stern-about-profiling-mark-zuckerberg/",
       "title": "An Interview with Colossus EIC Jeremy Stern About Profiling Mark Zuckerberg",
@@ -175,20 +192,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://stratechery.com/2026/duo-threats/",
-      "title": "2026.37: Duo Threats",
-      "url": "https://stratechery.com/2026/duo-threats/",
+      "id": "rss:https://www.netinterest.co/p/the-agents-revolt",
+      "title": "The Agents Revolt",
+      "url": "https://www.netinterest.co/p/the-agents-revolt",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-11T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of September 7, 2026, including the arrival of the Duo, AI that benefits humanity, and closing the book on a catastrophe.",
+      "published_at": "2026-09-25T17:33:27+00:00",
+      "summary": "What happens to finance when customers start paying attention",
       "lang": "en"
     },
     {
@@ -515,401 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.netinterest.co/p/money-for-nothing",
-      "title": "Money for Nothing",
-      "url": "https://www.netinterest.co/p/money-for-nothing",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-01T16:28:45+00:00",
-      "summary": "The Golden Age of Arbitrage?",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.28504",
-      "title": "AI in Science: Early Insights",
-      "url": "https://arxiv.org/abs/2609.28504",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Mihai Codreanu, Alex Imas, Juan Mateos-Garcia, Joseph Emmens, Evalyne Muiruri, Arthur Turrell, Julian Jacobs, Atoosa Kasirzadeh, Ana Trisovic, Yiyuan Chen, Tanya Rodchenko, Catherine Pollard, Scott Strand, Daniel Rock, Zanna Iscenko, Fabien Curto Millet, Neil Thompson, James Manyika",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28504v1 Announce Type: new Abstract: Scientific progress is a key driver of economic growth and prosperity. There is great excitement - but also concerns - about the impacts of AI on science, but so far little data. We provide early insights on this from three data sources: a sample of 15 million Gemini interactions, an inventory of over 2,600 specialized AI models across disciplines, and a survey of over 600 scientists. We map these data to a new taxonomy of scientific tasks to study...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.28549",
-      "title": "Do Female Directors Raise ESG Ratings? A Meta-Analysis",
-      "url": "https://arxiv.org/abs/2609.28549",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Karolina Hozova, Tomas Havranek, Zuzana Irsova",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28549v1 Announce Type: new Abstract: Appointing more women to corporate boards is widely expected to also raise firms' environmental, social, and governance (ESG) performance. We provide the first meta-analysis of this relationship, drawing on 533 estimates from 106 studies that measure ESG performance with Bloomberg or LSEG ratings. The average reported effect of a one-percentage-point increase in board gender diversity is about 0.28 ESG points, but much of it does not survive scruti...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.28675",
-      "title": "From Individual to Social Imitation: How Communities Expand Organizational Search",
-      "url": "https://arxiv.org/abs/2609.28675",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Esteve Almirall, Christopher Tucci",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28675v1 Announce Type: new Abstract: Generative artificial intelligence illustrates a broader organizational puzzle: young, resource-constrained firms can build on knowledge produced across a wider field to address problems that exceed their internal experience. We theorize one mechanism as social imitation: a distributed and recursive process through which communities observe practices and outcomes across organizations, distill recurrent elements into portable strategies, circulate t...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.28681",
-      "title": "Improving Today, Narrowing Tomorrow: Collective Learning, Diversity, and Generativity",
-      "url": "https://arxiv.org/abs/2609.28681",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Esteve Almirall, Chris Tucci",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28681v1 Announce Type: new Abstract: Generative AI makes a paradox newly visible: learning from a common source can improve what each firm does today while narrowing the variety available for tomorrow's discoveries. The tension extends beyond AI. Fields turn recurring features of successful organizations into portable practices, such as just-in-time production, freemium business models, or mixture-of-experts architectures. These collective abstractions are partial templates others can...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.28863",
-      "title": "Affine Pricing Models from Group Quantization and Holonomy",
-      "url": "https://arxiv.org/abs/2609.28863",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Santiago Garcia",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28863v1 Announce Type: new Abstract: The analytic tractability of affine pricing models is usually expressed through two complementary formulations: a coordinate-space pricing operator and an exponential-affine transform representation governed by generalized Riccati equations. We develop \\emph{Affine Holonomy Group Quantization} (AHGQ) as a geometric framework in which these two formulations arise from the same underlying structure. The construction separates the affine pricing symbo...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.29080",
-      "title": "Don't Fake It If You Can't Make It: Driver Misconduct in Last-Mile Delivery",
-      "url": "https://arxiv.org/abs/2609.29080",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Srishti Arora, Vivek Choudhary, Pavel Kireyev",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.29080v1 Announce Type: new Abstract: In the last two decades, last-mile delivery (LMD) firms have seen immense growth fueled by the success of e-commerce, leading to faster and cheaper deliveries. Operating on thin margins, LMD firms strive for successful first-time deliveries to avoid the financial and reputational costs of reattempts. Delivery Agents (DAs) are integral to LMD efficiency, influencing customer experience, delivery success, and productivity. However, most LMD performan...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.29700",
-      "title": "Storage Options and Endogenous Commodity Prices in Continuous Time",
-      "url": "https://arxiv.org/abs/2609.29700",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Nader Karimi, Erfan Salavati, Hojatollah Adibi",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.29700v1 Announce Type: new Abstract: We study the price formation of a storable commodity when the decision to sell or keep the commodity is treated as an embedded storage option. The price process is not imposed exogenously. Instead, a candidate price function determines the demand dynamics, while the optimal stopping value generated by those dynamics produces a new price function. We call a fixed point of this feedback mechanism an endogenous storage-option equilibrium (ESOE), using...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.29905",
-      "title": "Decision-Relevant Information in Partially Observed Production Networks",
-      "url": "https://arxiv.org/abs/2609.29905",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Shaowen Luo, Kwok Ping Tsang, Zichao Yang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.29905v1 Announce Type: new Abstract: A production network can remain largely unidentified even when the economic decision it supports is identified. We characterize sufficient measurements for exposure-based decisions and compute sharp maximum regret over networks consistent with released totals. Using earlier and later vintages of Japan's interregional input-output accounts, we select measurements from the 1995 table and evaluate the frozen design against the 2005 benchmark. At rough...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.28947",
-      "title": "Why Does Misinformation Propagate Faster? An Algorithmic Perspective on X",
-      "url": "https://arxiv.org/abs/2609.28947",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Pan Li, Shuang Gao",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.28947v1 Announce Type: cross Abstract: Misinformation is widely reported to propagate faster on engagement-based platforms, yet prior work largely focused on empirical analysis, without identifying a specific algorithmic mechanism that results in this phenomenon. Thanks to the open-sourcing of X's recommendation algorithms, we conduct what is, to our knowledge, the first component-level study of the recommendation algorithm deployed by a social media platform, which examines how each ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.29108",
-      "title": "Functional Architecture of European Electricity Trading Markets: Requirements for AI Supported Trading Systems under Regulatory Constraints",
-      "url": "https://arxiv.org/abs/2609.29108",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Walter Kurz, Wojtek Stricker",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.29108v1 Announce Type: cross Abstract: European electricity trading in the EU operates as a constrained multi-layer system in which legal design, exchange microstructure, and network physics are executed jointly across forward, day-ahead, intraday, and balancing horizons. This paper develops a functional architecture for AI-supported trading that is aligned with market-coupling mechanics, cross-zonal transfer constraints, and compliance obligations under REMIT, MiFID II, MiFIR, and EM...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.29530",
-      "title": "The Impossible Trinity of Time-Series Validation: A Conservation Law among Training Sufficiency, Test Coverage, and Temporal Causality",
-      "url": "https://arxiv.org/abs/2609.29530",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Jiayu Li",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.29530v1 Announce Type: cross Abstract: Validating a model on a time series asks for three things at once: each training run should use most of the sample (sufficiency), the test sets should together cover most of the sample (coverage), and training data should come before test data (causality). We prove that the three cannot be had together and price each one. Let $\\alpha$ be the smallest training fraction over folds, $\\beta$ the fraction of the sample covered by tests, $\\Lambda$ the ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.29887",
-      "title": "Cost-Sensitive Online Window Size Selection for Portfolio Management",
-      "url": "https://arxiv.org/abs/2609.29887",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Yi-Chen Liu, Chung-Han Hsieh",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.29887v1 Announce Type: cross Abstract: This paper investigates cost-sensitive online window size selection for portfolio management under changing market conditions. Specifically, we propose a two-level framework that constructs portfolios using candidate window sizes and dynamically aggregates them through online learning. By treating candidate window sizes as ``experts,'' we dynamically update their aggregation weights using turnover-inclusive losses. Moreover, we derive finite-hori...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2411.05938",
-      "title": "Uncertain and Asymmetric Forecasts",
-      "url": "https://arxiv.org/abs/2411.05938",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Eric Vansteenberghe",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2411.05938v4 Announce Type: replace Abstract: Survey density forecasts are summarized by their second and third moments, read as uncertainty and as the balance of risks. Neither can be read on its own. In the ECB Survey of Professional Forecasters the variance of an individual inflation density rises with the distance of that forecaster's central forecast from the official target, flat below it and rising above, so that raw dispersion mixes belief imprecision with the arithmetic of the lev...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2502.06015",
-      "title": "Critical Mathematical Economics and Progressive Computer Science",
-      "url": "https://arxiv.org/abs/2502.06015",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Johannes Buchner",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2502.06015v5 Announce Type: replace Abstract: The aim of this article is to present elements and discuss the potential of a research program at the intersection between mathematics and heterodox economics, which we call Criticial Mathematical Economics (CME). We propose to focus on the mathematical and model-theoretic foundations of controversies in economic policy, and aim at providing an entrance to the literature as an invitation to mathematicians that are potentially interested in such...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2602.06198",
-      "title": "Insider Purchases Far Below the 52-Week High: Decomposing the Disclosure Reaction in Microcap Equities",
-      "url": "https://arxiv.org/abs/2602.06198",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Hangyi Zhao",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2602.06198v2 Announce Type: replace Abstract: Purchases reported under transaction code P on SEC Form 4 by insiders of U.S. equities with an estimated filing-date capitalization of USD 30 million to USD 500 million (13,534 lines, 1,192 issuers, 2018-2024) are followed by a first-day abnormal return that rises steeply with the stock's distance below its 52-week high: 4.13% in the quintile farthest below the high against 0.86% nearest it (two-way clustered t = 9.77); random non-event days of...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2607.02791",
-      "title": "Capitalizing Risk, Regulation, and Revised Perceptions: Sequential Shocks in Florida's Condominium Market",
-      "url": "https://arxiv.org/abs/2607.02791",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Shaoming Cheng",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2607.02791v2 Announce Type: replace Abstract: Housing markets capitalize new information about future risks and ownership costs, yet less is known about how capitalization evolves when closely sequenced information and regulatory shocks alter what markets had previously priced. This study examines Florida condominium market following the Surfside collapse and the subsequent enactment of Senate Bill 4-D (SB4D). Using statewide administrative condominium transaction data from 2020 to 2024, t...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.18975",
-      "title": "Do Two On-Chain Observation Pipelines See the Same Tokens? Cross-Pipeline Coverage on the Solana pump.fun Launchpad",
-      "url": "https://arxiv.org/abs/2609.18975",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Arati Uday Kamat",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.18975v2 Announce Type: replace Abstract: On-chain studies of memecoin launchpads usually rely on one data-collection pipeline, yet whether differently configured pipelines observe the same tokens is rarely measured. This paper compares the output mint sets of two separately configured pipelines from one research programme on the Solana pump.fun launchpad: a cohort-detection pipeline that flags coordinated early-buyer wallets, and a rejection-filtering pipeline that logs a trader-side ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.27727",
-      "title": "Sovereign Grassroots Currencies: A CBDC Architecture for Credit and Monetary Policy (Full Version)",
-      "url": "https://arxiv.org/abs/2609.27727",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Ehud Shapiro",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2609.27727v2 Announce Type: replace Abstract: A Central Bank Digital Currency (CBDC) is central-bank money in digital form, held by the public. Leading designs have two limitations: conversion from bank deposits into CBDC can accelerate deposit flight, requiring safeguards, and the CBDC stays outside credit creation and monetary-policy operations. Here we present a CBDC architecture based on grassroots currencies that overcomes these limitations. The architecture has three components: (1) ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2310.19992",
-      "title": "Robust Estimation of Realized Correlation: New Insights about Intraday Fluctuations in Market Betas",
-      "url": "https://arxiv.org/abs/2310.19992",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Peter Reinhard Hansen, Yiyao Luo",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2310.19992v2 Announce Type: replace-cross Abstract: Time-varying volatility is an inherent feature of economic time series and complicates correlation measurement at high frequencies. While the quadrant correlation estimator is robust to volatility dynamics, it has low efficiency under Gaussian sampling. We introduce a subsampled quadrant correlation estimator that improves efficiency while retaining robustness and computational simplicity. The estimator is based solely on sign information...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2606.30583",
-      "title": "The Cross-Section of Stock Returns and AI Exposure",
-      "url": "https://arxiv.org/abs/2606.30583",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Nicola Borri, Yukun Liu, Aleh Tsyvinski",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T04:00:00+00:00",
-      "summary": "arXiv:2606.30583v3 Announce Type: replace-cross Abstract: We study 380 trillion tokens of realized AI consumption across more than four hundred LLMs. We build a high-frequency AI factor and show that a long-short strategy based on firms' AI exposure earns significantly positive returns. The average strategy return is larger based on intensive, frontier-oriented AI consumption but smaller based on casual or open-weight usage. Internationally, the return spread is significant in developed countrie...",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49451482",
-      "title": "Hackers Broke into Justice Department, NASA, Federal Reserve, Senate",
-      "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-platforms-operated-and-used-china-state-sponsored-hackers",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49451482",
-        "name": "2OEH8eoCRo0",
-        "hn_url": "https://news.ycombinator.com/item?id=49451482"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 6,
-      "published_at": "2026-08-26T16:05:32+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49450370",
-      "title": "Chinese Hackers Broke into Justice Department, NASA, Federal Reserve, Senate",
-      "url": "https://www.reuters.com/world/china/china-sponsored-hacking-platforms-seized-by-us-justice-department-says-2026-08-26/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49450370",
-        "name": "thisisauserid",
-        "hn_url": "https://news.ycombinator.com/item?id=49450370"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 1,
-      "published_at": "2026-08-26T14:59:43+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en"
-    },
-    {
       "id": "hn:49810905",
       "title": "In 2025, 49 percent of adults under age 30 lived with a parent [pdf]",
       "url": "https://www.federalreserve.gov/publications/files/2025-report-economic-well-being-us-households-202605.pdf",
@@ -1005,25 +627,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49667360",
-      "title": "A Decade of Hype, 3k Roofs, and One Redirect URL: Tesla Kills the Solar Roof",
-      "url": "https://www.gadgetreview.com/a-decade-of-hype-3000-roofs-and-one-redirect-url-tesla-kills-the-solar-roof",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49667360",
-        "name": "upofadown",
-        "hn_url": "https://news.ycombinator.com/item?id=49667360"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 8,
-      "published_at": "2026-09-12T00:38:23+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en"
-    },
-    {
       "id": "hn:49762617",
       "title": "Elon Musk and Tesla Forged a New EV Path",
       "url": "https://spectrum.ieee.org/elon-musk-tesla",
@@ -1062,6 +665,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49828019",
+      "title": "Show HN: Trader News – Hacker News for Finance",
+      "url": "https://news.ycombinator.com/item?id=49828019",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49828019",
+        "name": "FailMore",
+        "hn_url": "https://news.ycombinator.com/item?id=49828019"
+      },
+      "duration_sec": null,
+      "views": 23,
+      "comments": 15,
+      "published_at": "2026-09-24T08:54:57+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
       "id": "hn:49551601",
       "title": "Inside Google’s $200bn Wall Street finance machine for Anthropic",
       "url": "https://www.ft.com/content/549f2e23-5aa2-49c7-9ea6-a9784ab7087c",
@@ -1081,20 +703,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49828019",
-      "title": "Show HN: Trader News – Hacker News for Finance",
-      "url": "https://news.ycombinator.com/item?id=49828019",
+      "id": "hn:49849986",
+      "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
+      "url": "https://www.gptbeyond.com/try?home=1",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49828019",
-        "name": "FailMore",
-        "hn_url": "https://news.ycombinator.com/item?id=49828019"
+        "id": "49849986",
+        "name": "kdautaj",
+        "hn_url": "https://news.ycombinator.com/item?id=49849986"
       },
       "duration_sec": null,
-      "views": 18,
-      "comments": 13,
-      "published_at": "2026-09-24T08:54:57+00:00",
+      "views": 14,
+      "comments": 2,
+      "published_at": "2026-09-25T21:09:28+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1111,7 +733,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49778029"
       },
       "duration_sec": null,
-      "views": 560,
+      "views": 561,
       "comments": 459,
       "published_at": "2026-09-20T17:38:50+00:00",
       "summary": "",
@@ -1225,8 +847,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49824686"
       },
       "duration_sec": null,
-      "views": 379,
-      "comments": 422,
+      "views": 387,
+      "comments": 448,
       "published_at": "2026-09-24T00:41:31+00:00",
       "summary": "",
       "matched_keyword": "fed",
@@ -1290,6 +912,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49832844",
+      "title": "Federal judge orders Texas to air condition all prisons by the end of 2029",
+      "url": "https://www.texastribune.org/2026/09/22/texas-prison-air-conditioning-lawsuit-ruling/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49832844",
+        "name": "bonefishgrill",
+        "hn_url": "https://news.ycombinator.com/item?id=49832844"
+      },
+      "duration_sec": null,
+      "views": 115,
+      "comments": 191,
+      "published_at": "2026-09-24T16:15:34+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
       "id": "hn:49694840",
       "title": "How Much Has Trump Made from Crypto? ($1.4B from 2025 Federal Disclosure)",
       "url": "https://www.thepricer.org/how-much-has-trump-made-from-crypto/",
@@ -1304,25 +945,6 @@
       "views": 114,
       "comments": 79,
       "published_at": "2026-09-14T10:56:30+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49832844",
-      "title": "Federal judge orders Texas to air condition all prisons by the end of 2029",
-      "url": "https://www.texastribune.org/2026/09/22/texas-prison-air-conditioning-lawsuit-ruling/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49832844",
-        "name": "bonefishgrill",
-        "hn_url": "https://news.ycombinator.com/item?id=49832844"
-      },
-      "duration_sec": null,
-      "views": 105,
-      "comments": 167,
-      "published_at": "2026-09-24T16:15:34+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
@@ -1434,8 +1056,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49822556"
       },
       "duration_sec": null,
-      "views": 252,
-      "comments": 255,
+      "views": 254,
+      "comments": 256,
       "published_at": "2026-09-23T21:01:48+00:00",
       "summary": "",
       "matched_keyword": "fed",

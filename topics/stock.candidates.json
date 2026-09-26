@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-09-25T08:42:33.679342+00:00",
+  "fetched_at": "2026-09-26T08:29:37.942655+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -12,13 +12,13 @@
     "HN · stock market": 8,
     "HN · IPO": 5,
     "HN · earnings": 0,
-    "HN · Federal Reserve": 3,
+    "HN · Federal Reserve": 1,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 36,
+  "total": 34,
   "items": [
     {
       "id": "hn:49682946",
@@ -33,7 +33,7 @@
       },
       "duration_sec": null,
       "views": 15,
-      "comments": 15,
+      "comments": 16,
       "published_at": "2026-09-13T11:50:35+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -268,44 +268,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49451482",
-      "title": "Hackers Broke into Justice Department, NASA, Federal Reserve, Senate",
-      "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-platforms-operated-and-used-china-state-sponsored-hackers",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49451482",
-        "name": "2OEH8eoCRo0",
-        "hn_url": "https://news.ycombinator.com/item?id=49451482"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 6,
-      "published_at": "2026-08-26T16:05:32+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49450370",
-      "title": "Chinese Hackers Broke into Justice Department, NASA, Federal Reserve, Senate",
-      "url": "https://www.reuters.com/world/china/china-sponsored-hacking-platforms-seized-by-us-justice-department-says-2026-08-26/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49450370",
-        "name": "thisisauserid",
-        "hn_url": "https://news.ycombinator.com/item?id=49450370"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 1,
-      "published_at": "2026-08-26T14:59:43+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en"
-    },
-    {
       "id": "hn:49810905",
       "title": "In 2025, 49 percent of adults under age 30 lived with a parent [pdf]",
       "url": "https://www.federalreserve.gov/publications/files/2025-report-economic-well-being-us-households-202605.pdf",
@@ -322,6 +284,23 @@
       "published_at": "2026-09-23T02:26:49+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-agents-revolt",
+      "title": "The Agents Revolt",
+      "url": "https://www.netinterest.co/p/the-agents-revolt",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-25T17:33:27+00:00",
+      "summary": "What happens to finance when customers start paying attention",
       "lang": "en"
     },
     {
@@ -645,23 +624,6 @@
       "views": null,
       "published_at": "2026-05-08T16:07:09+00:00",
       "summary": "How Nasdaq learned to run its flywheel in reverse",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.netinterest.co/p/money-for-nothing",
-      "title": "Money for Nothing",
-      "url": "https://www.netinterest.co/p/money-for-nothing",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-01T16:28:45+00:00",
-      "summary": "The Golden Age of Arbitrage?",
       "lang": "en"
     }
   ]
