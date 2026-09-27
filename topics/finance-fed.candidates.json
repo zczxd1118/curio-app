@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-09-26T08:29:59.347931+00:00",
+  "fetched_at": "2026-09-27T09:08:31.598475+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -15,11 +15,11 @@
     "HN · Federal Reserve": 1,
     "HN · inflation": 3,
     "HN · Tesla": 2,
-    "HN · finance": 10,
+    "HN · finance": 9,
     "HN · fed": 15
   },
   "subtopics": [],
-  "total": 60,
+  "total": 59,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/begun-the-aggregator-wars-have/",
@@ -665,6 +665,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49849986",
+      "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
+      "url": "https://www.gptbeyond.com/try?home=1",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49849986",
+        "name": "kdautaj",
+        "hn_url": "https://news.ycombinator.com/item?id=49849986"
+      },
+      "duration_sec": null,
+      "views": 32,
+      "comments": 9,
+      "published_at": "2026-09-25T21:09:28+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
       "id": "hn:49828019",
       "title": "Show HN: Trader News – Hacker News for Finance",
       "url": "https://news.ycombinator.com/item?id=49828019",
@@ -676,8 +695,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49828019"
       },
       "duration_sec": null,
-      "views": 23,
-      "comments": 15,
+      "views": 25,
+      "comments": 17,
       "published_at": "2026-09-24T08:54:57+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -698,25 +717,6 @@
       "views": 19,
       "comments": 2,
       "published_at": "2026-09-03T15:26:27+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49849986",
-      "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
-      "url": "https://www.gptbeyond.com/try?home=1",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49849986",
-        "name": "kdautaj",
-        "hn_url": "https://news.ycombinator.com/item?id=49849986"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 2,
-      "published_at": "2026-09-25T21:09:28+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -817,25 +817,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49819274",
-      "title": "Morgan Stanley Investment-Bank Deal List Leaked in Email Misfire",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-investment-bank-deal-124657863.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49819274",
-        "name": "wslh",
-        "hn_url": "https://news.ycombinator.com/item?id=49819274"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 0,
-      "published_at": "2026-09-23T17:08:35+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
       "id": "hn:49824686",
       "title": "Feds Target AI Critics as \"Foreign Agents\"",
       "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
@@ -847,8 +828,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49824686"
       },
       "duration_sec": null,
-      "views": 387,
-      "comments": 448,
+      "views": 392,
+      "comments": 456,
       "published_at": "2026-09-24T00:41:31+00:00",
       "summary": "",
       "matched_keyword": "fed",
@@ -923,8 +904,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49832844"
       },
       "duration_sec": null,
-      "views": 115,
-      "comments": 191,
+      "views": 117,
+      "comments": 201,
       "published_at": "2026-09-24T16:15:34+00:00",
       "summary": "",
       "matched_keyword": "fed",
@@ -1056,8 +1037,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49822556"
       },
       "duration_sec": null,
-      "views": 254,
-      "comments": 256,
+      "views": 255,
+      "comments": 257,
       "published_at": "2026-09-23T21:01:48+00:00",
       "summary": "",
       "matched_keyword": "fed",

@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-26T08:30:07.223725+00:00",
+  "fetched_at": "2026-09-27T09:08:36.807059+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 6,
+    "HN · Nvidia": 7,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 29,
+  "total": 30,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -397,25 +397,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49673098",
-      "title": "Nvidia is the central bank of AI",
-      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49673098",
-        "name": "tolugenius",
-        "hn_url": "https://news.ycombinator.com/item?id=49673098"
-      },
-      "duration_sec": null,
-      "views": 584,
-      "comments": 401,
-      "published_at": "2026-09-12T15:08:27+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:49824864",
       "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
       "url": "https://github.com/nestrilabs/virtio-nvgpu",
@@ -427,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49824864"
       },
       "duration_sec": null,
-      "views": 152,
+      "views": 154,
       "comments": 65,
       "published_at": "2026-09-24T01:02:23+00:00",
       "summary": "",
@@ -468,6 +449,44 @@
       "views": 50,
       "comments": 4,
       "published_at": "2026-09-20T07:50:58+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49777694",
+      "title": "Autonomous strike drone uses Nvidia Jetson Orin Nano to pick and bomb targets",
+      "url": "https://www.tomshardware.com/tech-industry/drones/autonomous-strike-drone-uses-nvidia-jetson-orin-nano-to-independently-pick-and-bomb-targets-swedish-startups-attack-drones-run-small-ai-model-require-no-human-input-and-zero-external-comms",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49777694",
+        "name": "sbulaev",
+        "hn_url": "https://news.ycombinator.com/item?id=49777694"
+      },
+      "duration_sec": null,
+      "views": 29,
+      "comments": 8,
+      "published_at": "2026-09-20T17:07:08+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49745610",
+      "title": "Run QWEN3.8 27B on 16gb Nvidia GPUs",
+      "url": "https://github.com/MiaAI-Lab/Qwen3.8-27B-16gb-NVIDIA-GPUs-one-click-install",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49745610",
+        "name": "Pragmata",
+        "hn_url": "https://news.ycombinator.com/item?id=49745610"
+      },
+      "duration_sec": null,
+      "views": 28,
+      "comments": 10,
+      "published_at": "2026-09-17T19:46:57+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -522,8 +541,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49844663"
       },
       "duration_sec": null,
-      "views": 72,
-      "comments": 123,
+      "views": 269,
+      "comments": 611,
       "published_at": "2026-09-25T13:49:06+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
