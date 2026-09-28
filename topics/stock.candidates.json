@@ -2,14 +2,14 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-09-27T09:08:09.748485+00:00",
+  "fetched_at": "2026-09-28T09:36:36.852892+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 7,
+    "HN · stock market": 5,
     "HN · IPO": 6,
     "HN · earnings": 0,
     "HN · Federal Reserve": 1,
@@ -18,23 +18,23 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 34,
+  "total": 32,
   "items": [
     {
-      "id": "hn:49682946",
-      "title": "Show HN: Analyst Index – analysts who make money telling you good stock calls",
-      "url": "https://www.analystidx.com/",
+      "id": "hn:49872723",
+      "title": "Owed a billion dollars in Nvidia stock",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49682946",
-        "name": "haichuan",
-        "hn_url": "https://news.ycombinator.com/item?id=49682946"
+        "id": "49872723",
+        "name": "Eric_Gullichsen",
+        "hn_url": "https://news.ycombinator.com/item?id=49872723"
       },
       "duration_sec": null,
-      "views": 15,
-      "comments": 16,
-      "published_at": "2026-09-13T11:50:35+00:00",
+      "views": 669,
+      "comments": 282,
+      "published_at": "2026-09-28T02:05:13+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -78,25 +78,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49691343",
-      "title": "Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout",
-      "url": "https://fortune.com/2026/09/08/nike-stock-plummets-sp500-market-cap-index/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49691343",
-        "name": "andsoitis",
-        "hn_url": "https://news.ycombinator.com/item?id=49691343"
-      },
-      "duration_sec": null,
-      "views": 316,
-      "comments": 445,
-      "published_at": "2026-09-14T02:50:40+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
       "id": "hn:49712746",
       "title": "Global bond yields hit 2008 highs, raising stakes for big borrowers",
       "url": "https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/",
@@ -111,25 +92,6 @@
       "views": 167,
       "comments": 178,
       "published_at": "2026-09-15T14:07:01+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49682319",
-      "title": "Nvidia dismisses \"circular financing\", says every $1 it invests brings back $100",
-      "url": "https://invezz.com/news/2026/09/11/nvidia-says-every-1-it-invests-brings-back-100-so-why-does-the-stock-keep-falling/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49682319",
-        "name": "mgh2",
-        "hn_url": "https://news.ycombinator.com/item?id=49682319"
-      },
-      "duration_sec": null,
-      "views": 138,
-      "comments": 197,
-      "published_at": "2026-09-13T10:29:18+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -203,8 +165,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49826087"
       },
       "duration_sec": null,
-      "views": 154,
-      "comments": 26,
+      "views": 160,
+      "comments": 31,
       "published_at": "2026-09-24T03:58:54+00:00",
       "summary": "",
       "matched_keyword": "IPO",

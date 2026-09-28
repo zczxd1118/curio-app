@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-09-27T09:07:37.226871+00:00",
+  "fetched_at": "2026-09-28T09:36:04.673211+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -197,6 +197,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/xcena-cuts-data-movement-to-address-memory-bottlenecks/",
+      "title": "Xcena Cuts Data Movement to Address Memory Bottlenecks",
+      "url": "https://www.eetimes.com/xcena-cuts-data-movement-to-address-memory-bottlenecks/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-28T07:30:00+00:00",
+      "summary": "Xcena’s MX1 uses CXL to push compute into memory by combining DDR5, SSDs, and RISC-V cores while easing programmability. The post Xcena Cuts Data Movement to Address Memory Bottlenecks appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/full-stack-semiconductor-solutions-for-industry-and-digital-energy-applications/",
+      "title": "Full-Stack Semiconductor Solutions for Smart, Secure Industry and Digital Energy",
+      "url": "https://www.eetimes.com/full-stack-semiconductor-solutions-for-industry-and-digital-energy-applications/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "NSING Technologies Pte. Ltd",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-27T14:00:00+00:00",
+      "summary": "NSING Technologies, a Singapore-founded semiconductor company, delivers full-stack chip solutions for industrial automation, AI data centers, and digital energy.The N32-series MCUs (144–600 MHz, Cortex-M4F/M7) integrate EtherCAT, CAN-FD, USB-HS, and high-precision ADCs, powering servo drives, inverters, and PLCs with wide-temperature and EFT immunity. For industrial security, TPM 2.0-based hardware root-of-trust chips enable secure boot, device authentication, [&#8230;] The post Full-Stack Semic...",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/huaweis-tau-law-takes-commercial-form/",
       "title": "Huawei’s Tau Law Takes Commercial Form",
       "url": "https://www.eetimes.com/huaweis-tau-law-takes-commercial-form/",
@@ -333,37 +367,207 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/semicon-india-2026-india-starts-packaging-chips-as-ecosystem-takes-shape/",
-      "title": "SEMICON India 2026: India Starts Packaging Chips as Ecosystem Takes Shape",
-      "url": "https://www.eetimes.com/semicon-india-2026-india-starts-packaging-chips-as-ecosystem-takes-shape/",
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-usd300-on-this-1440p-ready-gaming-pc-with-an-rtx-5060-ti-16gb-now-usd1-399-99-newegg-deal-on-abs-cyclone-aqua-rig-nets-you-a-20-core-intel-cpu-along-with-16gb-of-ddr5-and-a-1tb-ssd",
+      "title": "Save $300 on this 1440p-ready gaming PC with an RTX 5060 Ti 16GB, now $1,399.99",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd300-on-this-1440p-ready-gaming-pc-with-an-rtx-5060-ti-16gb-now-usd1-399-99-newegg-deal-on-abs-cyclone-aqua-rig-nets-you-a-20-core-intel-cpu-along-with-16gb-of-ddr5-and-a-1tb-ssd",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-23T10:56:15+00:00",
-      "summary": "India moves five chip packaging plants into production as $13.5 billion ISM 2.0 expands manufacturing, design, and engineering capabilities. The post SEMICON India 2026: India Starts Packaging Chips as Ecosystem Takes Shape appeared first on EE Times.",
+      "published_at": "2026-09-28T09:15:46+00:00",
+      "summary": "This ABS Cyclone Aqua gaming PC, featuring an RTX 5060 Ti 16GB, Intel Core i7-14700F, 16GB DDR5, and a 1TB SSD has a $300 discount, now $1,399.99.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/smarter-buildings-safer-occupants-intelligence-meets-privacy/",
-      "title": "Smarter Buildings, Safer Occupants: Intelligence Meets Privacy",
-      "url": "https://www.eetimes.com/smarter-buildings-safer-occupants-intelligence-meets-privacy/",
+      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/grab-this-14-inch-compact-gaming-laptop-powerhouse-for-usd1000-off-hp-omen-transcend-14-with-rtx-5070-and-3k-oled-display-drops-to-usd1-999-99-at-best-buy",
+      "title": "Grab this 14-inch compact gaming laptop powerhouse for $1000 off",
+      "url": "https://www.tomshardware.com/laptops/gaming-laptops/grab-this-14-inch-compact-gaming-laptop-powerhouse-for-usd1000-off-hp-omen-transcend-14-with-rtx-5070-and-3k-oled-display-drops-to-usd1-999-99-at-best-buy",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Anne-Françoise Pelé",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-23T08:05:07+00:00",
-      "summary": "Modern building automation systems are designed to optimize energy efficiency while safeguarding the health, safety, and security of occupants. The post Smarter Buildings, Safer Occupants: Intelligence Meets Privacy appeared first on EE Times.",
+      "published_at": "2026-09-27T15:21:30+00:00",
+      "summary": "The gaming laptop pairs Intel’s Core Ultra 9 285H with Nvidia’s RTX 5070 Laptop GPU and a 3K 120Hz OLED display, giving buyers a powerful compact machine at a reduced price.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/mini-pcs/custom-24-carat-gold-mini-pc-costs-around-usd1-7-million-weighs-nearly-29-pounds-for-up-to-50-percent-faster-heat-transfer-copper-would-have-been-far-cheaper-and-offers-even-better-thermal-conductivity",
+      "title": "Custom 24-carat gold mini PC costs around $1.7 million, weighs nearly 29 pounds for up to 50% faster heat transfer",
+      "url": "https://www.tomshardware.com/desktops/mini-pcs/custom-24-carat-gold-mini-pc-costs-around-usd1-7-million-weighs-nearly-29-pounds-for-up-to-50-percent-faster-heat-transfer-copper-would-have-been-far-cheaper-and-offers-even-better-thermal-conductivity",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-27T14:40:00+00:00",
+      "summary": "A chrysophile has ordered a special edition mini PC with a pure 24-carat gold passive chassis which will cost around $1.7 million.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/thieves-steal-nvidia-labeled-trailers-expecting-massive-ai-gpu-payday-but-score-40-000-pounds-of-sand-instead-crooks-duped-by-20-tons-of-ballast-sand",
+      "title": "Thieves steal Nvidia-labeled trailers expecting massive AI GPU payday, but score 40,000 pounds of sand instead",
+      "url": "https://www.tomshardware.com/pc-components/gpus/thieves-steal-nvidia-labeled-trailers-expecting-massive-ai-gpu-payday-but-score-40-000-pounds-of-sand-instead-crooks-duped-by-20-tons-of-ballast-sand",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-27T14:14:40+00:00",
+      "summary": "The two PlusAI trailers with Nvidia-partner markings were apparently left outside the startup's warehouse, making it a juicy target for criminals looking to make easy money on AI GPUs. However, they were deliberately left outside as the trailers only contained sand for simulating real-world truck loads.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/power-supplies/gigabyte-1000gm-pg5-1000w-power-supply-review",
+      "title": "Gigabyte 1000GM PG5 1000W power supply review: Impressive Platinum-level efficiency with T-Guard thermal protection",
+      "url": "https://www.tomshardware.com/pc-components/power-supplies/gigabyte-1000gm-pg5-1000w-power-supply-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "E. Fylladitakis",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-27T13:00:00+00:00",
+      "summary": "Gigabyte's new Gaming series flagship, the Gigabyte 1000GM PG5 1000W, pairs an HEC-built platform with all-Japanese capacitors, Platinum-level efficiency, and T-Guard thermal protection for the 12V-2x6 connector.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/ps5-emulator-successfully-runs-six-titles-at-a-playable-60-fps-ps5-emulation-continues-to-gather-momentum-as-developers-improve-shader-translation-and-vulkan-support",
+      "title": "PS5 emulator successfully runs six titles at a playable 60 FPS",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/ps5-emulator-successfully-runs-six-titles-at-a-playable-60-fps-ps5-emulation-continues-to-gather-momentum-as-developers-improve-shader-translation-and-vulkan-support",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-27T12:40:00+00:00",
+      "summary": "SharpEmu’s latest release can run six tested PS5 games at 60 FPS, with 12 of 55 titles now reaching gameplay state, as developers improve shader translation and Vulkan support.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/linux/linux-enthusiasts-see-10-second-kernel-compilation-times-on-the-horizon-ai-assisted-patches-cut-build-times-by-nearly-a-third-without-a-ramdisk",
+      "title": "Linux enthusiasts see 10-second kernel compilation times on the horizon",
+      "url": "https://www.tomshardware.com/software/linux/linux-enthusiasts-see-10-second-kernel-compilation-times-on-the-horizon-ai-assisted-patches-cut-build-times-by-nearly-a-third-without-a-ramdisk",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-27T12:20:00+00:00",
+      "summary": "It won’t be long until Linux enthusiasts will be able to complete a clean kernel build in under 10 seconds thanks to advances in PC hardware and the AI-assisted optimization of compilers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/flock-seeks-to-have-security-researchers-map-of-flock-cameras-taken-down-unauthenticated-flaw-exposed-335-701-camera-locations-nationwide",
+      "title": "Flock seeks to have security researchers' map of Flock cameras taken down",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/flock-seeks-to-have-security-researchers-map-of-flock-cameras-taken-down-unauthenticated-flaw-exposed-335-701-camera-locations-nationwide",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-27T12:00:00+00:00",
+      "summary": "A vulnerability on the Flock website allowed a security researcher to access its third-party provider to download the locations and descriptions of over 300,000 Flock cameras. He also pointed out how the Flock system could be used to track personnel heading to and from sensitive sites like the Pentagon and the CIA Headquarters.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/developer-says-jev-decision-model-beat-pokemon-red-in-under-a-week-non-llm-engine-succeeds-where-traditional-chatbots-stalled-for-months-but-claude-opus-5-coached-the-model-through-its-dead-ends",
+      "title": "Developer says AI decision model Jev beat Pokémon Red in under a week",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/developer-says-jev-decision-model-beat-pokemon-red-in-under-a-week-non-llm-engine-succeeds-where-traditional-chatbots-stalled-for-months-but-claude-opus-5-coached-the-model-through-its-dead-ends",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-27T11:30:00+00:00",
+      "summary": "TypeSafe AI's Jev beat Pokémon Red in under a week, eventually reaching the Hall of Fame.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/u-s-and-uk-navies-successfully-launch-3-700-pound-submarine-sinking-torpedo-from-robotic-drone-submarine-in-historic-first-project-broadsword-proves-weapon-interchangeability-in-just-seven-months",
+      "title": "U.S. and UK navies successfully launch 3,700-pound submarine-sinking torpedo from robotic drone submarine in historic first",
+      "url": "https://www.tomshardware.com/tech-industry/u-s-and-uk-navies-successfully-launch-3-700-pound-submarine-sinking-torpedo-from-robotic-drone-submarine-in-historic-first-project-broadsword-proves-weapon-interchangeability-in-just-seven-months",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-27T10:30:00+00:00",
+      "summary": "The U.S. Navy and Royal Navy have successfully launched a 3,700-pound Mk 48 heavyweight torpedo from Britain’s uncrewed XV Excalibur submarine, marking the first time the weapon has been fired from an autonomous underwater vehicle",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/counterfeit-vinyl-record-maker-sentenced-to-three-years-in-the-slammer-police-bust-largest-fake-vinyl-operation-in-uk-history-raid-uncovers-four-70-year-old-presses-and-3-000-metal-stampers",
+      "title": "Counterfeit vinyl record maker sentenced to three years in the slammer after making $3.5 million",
+      "url": "https://www.tomshardware.com/tech-industry/counterfeit-vinyl-record-maker-sentenced-to-three-years-in-the-slammer-police-bust-largest-fake-vinyl-operation-in-uk-history-raid-uncovers-four-70-year-old-presses-and-3-000-metal-stampers",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-27T10:00:00+00:00",
+      "summary": "Authorities seized thousands of counterfeit records and specialist manufacturing equipment after a BPI test purchase helped expose the long-running operation.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/taiwans-chip-talisman-snack-faces-production-halt-after-94-percent-strike-vote-workers-demand-share-of-usd176-million-factory-sale-to-ase",
+      "title": "Taiwan's chip talisman snack faces production halt after 94% strike vote",
+      "url": "https://www.tomshardware.com/tech-industry/taiwans-chip-talisman-snack-faces-production-halt-after-94-percent-strike-vote-workers-demand-share-of-usd176-million-factory-sale-to-ase",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-27T09:30:00+00:00",
+      "summary": "Taiwan's tech talisman snack production could be halted as the Guai Guai company faces strike action.",
       "lang": "en"
     },
     {
@@ -673,210 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/power-supplies/gamemax-rgb-pro-750g-power-supply-review",
-      "title": "Gamemax RGB PRO 750G power supply review: Efficient, but pricey for an average unit with pretty lights",
-      "url": "https://www.tomshardware.com/pc-components/power-supplies/gamemax-rgb-pro-750g-power-supply-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "E. Fylladitakis",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T13:00:00+00:00",
-      "summary": "Gamemax charges $105 for an average power supply with RGB lighting. The Sohoo platform underneath measures well enough, but the fan, the capacitors, and the warranty all sit below what the price should buy.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/nintendo/nintendo-wins-usd4-5-million-lawsuit-against-switch-pirate-by-default-defendant-allegedly-moderated-r-switchpirates-and-sold-pirated-switch-games",
-      "title": "Nintendo wins $4.5 million lawsuit against Switch pirate by default",
-      "url": "https://www.tomshardware.com/video-games/nintendo/nintendo-wins-usd4-5-million-lawsuit-against-switch-pirate-by-default-defendant-allegedly-moderated-r-switchpirates-and-sold-pirated-switch-games",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T12:26:21+00:00",
-      "summary": "A Washington court granted Nintendo of America a $4.5 million default judgment after the defendant failed to appear in court and respond to the allegations. The company claimed that it sent a cease-and-desist letter and the respondent even answered via email saying they will comply and cooperate, but they have since cut-off communications.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tablets/microsoft-surface/microsoft-revamps-copilot-with-new-tools-support-for-frontier-models-available-now-through-frontier-program",
-      "title": "Microsoft revamps Copilot with new tools, support for frontier models",
-      "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-revamps-copilot-with-new-tools-support-for-frontier-models-available-now-through-frontier-program",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Andrew E. Freedman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T12:00:00+00:00",
-      "summary": "Microsoft is revamping Copilot into a singular AI workspace, mixing your projects and agents together. It will also be able to support third-party frontier models.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/intel-expects-14a-to-be-within-5-percent-the-performance-of-tsmcs-a14-conservative-forecast-clashes-with-18as-frequency-lead-and-promised-20-percent-gains",
-      "title": "Intel expects 14A to be 'within 5%' the performance of TSMC's A14",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-expects-14a-to-be-within-5-percent-the-performance-of-tsmcs-a14-conservative-forecast-clashes-with-18as-frequency-lead-and-promised-20-percent-gains",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T12:00:00+00:00",
-      "summary": "Intel's Naga Chandrasekaran now claims that Intel 14A node will deliver performance 'within 5%' of TSMC's A14 technology, a claim that requires a closer examination.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/asus-online-store-hit-by-data-breach-customer-contact-details-and-order-information-revealed",
-      "title": "Asus confirms eShop data breach exposed customer order records and contact details",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/asus-online-store-hit-by-data-breach-customer-contact-details-and-order-information-revealed",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T11:30:00+00:00",
-      "summary": "Asus eShop hit by data breach — customer contact details and order information revealed",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/new-jersey-fines-data-center-for-using-unpermitted-power-generators-microsoft-linked-site-also-in-trouble-with-community-for-noise-pollution-other-issues",
-      "title": "New Jersey hits Microsoft-linked AI data center with record fine for 62 unpermitted power generators, issues 45-day shutdown deadline",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/new-jersey-fines-data-center-for-using-unpermitted-power-generators-microsoft-linked-site-also-in-trouble-with-community-for-noise-pollution-other-issues",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T11:00:00+00:00",
-      "summary": "The DataOne data center is facing a record fine of $1.07 million for operating portable turbine generators without permission. Residents say that the penalty is a drop in the bucket for these big tech companies.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/grab-this-4k-ready-rtx-5070-ti-gaming-pc-from-hp-for-under-usd1-900-right-now-powerful-omen-35l-machine-is-a-serious-bargain-with-a-20-core-intel-cpu-32gb-ddr5-ram-and-a-1tb-ssd",
-      "title": "Grab this 4K-ready RTX 5070 Ti gaming PC from HP for under $1,900 right now",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/grab-this-4k-ready-rtx-5070-ti-gaming-pc-from-hp-for-under-usd1-900-right-now-powerful-omen-35l-machine-is-a-serious-bargain-with-a-20-core-intel-cpu-32gb-ddr5-ram-and-a-1tb-ssd",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T10:51:36+00:00",
-      "summary": "This epic HP Omen 45L gaming rig is one of the cheapest RTX 5070 Ti PC you can buy right now, fitted with a Intel Core i7-14700F, 32GB of DDR RAM, and a 1TB SSD for just $1,899.99.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-dlss-5-upscales-frame-rates-and-flame-temps-on-16-pin-power-connector-ai-gaming-tech-pushes-connector-to-uncomfortable-thermal-and-power-limits",
-      "title": "Nvidia DLSS 5 power draw hits 647W as power connector runs hotter than the GPU die, upscales frame rates and flame temps on 16-pin",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-dlss-5-upscales-frame-rates-and-flame-temps-on-16-pin-power-connector-ai-gaming-tech-pushes-connector-to-uncomfortable-thermal-and-power-limits",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T10:30:00+00:00",
-      "summary": "QuasarZone tests show the 16-pin power connector on a GeForce RTX 5090 reaches temperatures above 90 degrees Celsius at peak power consumption near 650W.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/google-is-blasting-an-experimental-ai-data-center-into-orbit-first-satellite-will-feature-just-four-tensor-processing-units",
-      "title": "Google's orbital AI data center test packs four TPUs and 1,000W of solar power",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/google-is-blasting-an-experimental-ai-data-center-into-orbit-first-satellite-will-feature-just-four-tensor-processing-units",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Oliver Haslam",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T10:00:00+00:00",
-      "summary": "Google will launch an experimental satellite into orbit on October 1, taking four tensor processing units with it.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/australian-pm-says-openai-took-84-days-to-email-agency-after-agent-hacked-its-national-health-care-portal-incident-is-believed-to-be-the-first-known-case-of-ai-breaching-a-government-site",
-      "title": "OpenAI agent got into Australia's Medicare stats portal with 84-day notification delay",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/australian-pm-says-openai-took-84-days-to-email-agency-after-agent-hacked-its-national-health-care-portal-incident-is-believed-to-be-the-first-known-case-of-ai-breaching-a-government-site",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-24T20:34:31+00:00",
-      "summary": "Australia says an OpenAI agent got past blocks on a Medicare statistics portal in June. OpenAI's notification arrived in September.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/console-gaming/sony-patent-could-turn-playstation-controllers-into-tap-to-pay-credit-card-terminals-nfc-and-bluetooth-also-support-phones-and-gift-cards-for-instant-purchases",
-      "title": "Sony patent could turn PlayStation controllers into tap-to-pay credit card terminals",
-      "url": "https://www.tomshardware.com/video-games/console-gaming/sony-patent-could-turn-playstation-controllers-into-tap-to-pay-credit-card-terminals-nfc-and-bluetooth-also-support-phones-and-gift-cards-for-instant-purchases",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Oliver Haslam",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-24T17:09:31+00:00",
-      "summary": "A new patent application details the potential for a future PlayStation controller to accept payments via credit cards and gift cards.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/nvidia-ceo-says-we-have-to-shut-the-labs-down-if-ai-experiments-are-unsafe-jensen-huang-says-frontier-ai-lab-fears-are-a-distraction-not-a-call-for-regulation",
-      "title": "Nvidia CEO says 'we have to shut the labs down' if AI experiments are unsafe",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-ceo-says-we-have-to-shut-the-labs-down-if-ai-experiments-are-unsafe-jensen-huang-says-frontier-ai-lab-fears-are-a-distraction-not-a-call-for-regulation",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-24T15:24:49+00:00",
-      "summary": "In a recent interview, Nvidia CEO Jensen Huang said that if frontier labs have unsafe models, they should shut the labs down, calling the current calls for regulation a \"distraction.\"",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -915,6 +915,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49872723",
+      "title": "Owed a billion dollars in Nvidia stock",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49872723",
+        "name": "Eric_Gullichsen",
+        "hn_url": "https://news.ycombinator.com/item?id=49872723"
+      },
+      "duration_sec": null,
+      "views": 669,
+      "comments": 282,
+      "published_at": "2026-09-28T02:05:13+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49824864",
       "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
       "url": "https://github.com/nestrilabs/virtio-nvgpu",
@@ -926,28 +945,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=49824864"
       },
       "duration_sec": null,
-      "views": 154,
+      "views": 155,
       "comments": 65,
       "published_at": "2026-09-24T01:02:23+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49682319",
-      "title": "Nvidia dismisses \"circular financing\", says every $1 it invests brings back $100",
-      "url": "https://invezz.com/news/2026/09/11/nvidia-says-every-1-it-invests-brings-back-100-so-why-does-the-stock-keep-falling/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49682319",
-        "name": "mgh2",
-        "hn_url": "https://news.ycombinator.com/item?id=49682319"
-      },
-      "duration_sec": null,
-      "views": 138,
-      "comments": 197,
-      "published_at": "2026-09-13T10:29:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1078,8 +1078,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49844663"
       },
       "duration_sec": null,
-      "views": 269,
-      "comments": 610,
+      "views": 395,
+      "comments": 860,
       "published_at": "2026-09-25T13:49:06+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
