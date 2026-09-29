@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-28T09:37:03.492559+00:00",
+  "fetched_at": "2026-09-29T09:41:57.604971+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/ibm-details-quantum-ai-developments-in-india/",
+      "title": "IBM Details Quantum, AI Developments in India",
+      "url": "https://www.eetimes.com/ibm-details-quantum-ai-developments-in-india/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-29T07:30:00+00:00",
+      "summary": "At SEMICON India 2026, IBM's Rahul Rao details India's role in quantum scaling, Qiskit education, and AI accelerators. The post IBM Details Quantum, AI Developments in India appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/why-u-s-europe-cooperation-matters-for-quantum-leadership/",
+      "title": "Why U.S.-Europe Cooperation Matters for Quantum Leadership",
+      "url": "https://www.eetimes.com/why-u-s-europe-cooperation-matters-for-quantum-leadership/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Jonathan Felbinger",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-28T19:00:00+00:00",
+      "summary": "U.S.-Europe collaboration is critical for global quantum leadership, combining capital and talent to scale against rising competition. The post Why U.S.-Europe Cooperation Matters for Quantum Leadership appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/calterah-turns-uwb-digital-keys-into-in-cabin-sensors/",
+      "title": "Calterah Turns UWB Digital Keys into In-Cabin Sensors",
+      "url": "https://www.eetimes.com/calterah-turns-uwb-digital-keys-into-in-cabin-sensors/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-28T12:58:32+00:00",
+      "summary": "Calterah brings UWB keyless anchors into synchronized networks, delivering enhanced vehicle safety without adding expensive hardware. The post Calterah Turns UWB Digital Keys into In-Cabin Sensors appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/xcena-cuts-data-movement-to-address-memory-bottlenecks/",
       "title": "Xcena Cuts Data Movement to Address Memory Bottlenecks",
       "url": "https://www.eetimes.com/xcena-cuts-data-movement-to-address-memory-bottlenecks/",
@@ -308,57 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/tis-october-price-hike-how-to-secure-adi-ti-stock-without-the-panic/",
-      "title": "TI’s October Price Hike: How to Secure ADI/TI Stock Without the Panic",
-      "url": "https://www.eetimes.com/tis-october-price-hike-how-to-secure-adi-ti-stock-without-the-panic/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Skyeast International Group Limited",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-24T10:23:24+00:00",
-      "summary": "acing TI's October price hike? SKYEAST offers $30M+ ADI/TI spot stock, 2-hour quotes, and 7×24 support across time zones. Lock in supply now. The post TI&#8217;s October Price Hike: How to Secure ADI/TI Stock Without the Panic appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/semicon-india-2026-startup-mitra-sheds-light-on-early-stage-silicon-startup-funding/",
-      "title": "SEMICON India 2026: Startup Mitra Sheds Light on Early-Stage Silicon Startup Funding",
-      "url": "https://www.eetimes.com/semicon-india-2026-startup-mitra-sheds-light-on-early-stage-silicon-startup-funding/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-24T08:15:06+00:00",
-      "summary": "Indian semiconductor startups are seeking capital beyond seed rounds as they advance from prototypes and tape-out toward volume production. The post SEMICON India 2026: Startup Mitra Sheds Light on Early-Stage Silicon Startup Funding appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/from-qubits-to-workflows-rethinking-quantum-computing/",
-      "title": "From Qubits to Workflows: Rethinking Quantum Computing",
-      "url": "https://www.eetimes.com/from-qubits-to-workflows-rethinking-quantum-computing/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Kevin Hein",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-23T19:00:00+00:00",
-      "summary": "IBM’s quantum-centric push makes QPUs another accelerator in hybrid AI-HPC workflows. The post From Qubits to Workflows: Rethinking Quantum Computing appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -375,6 +375,25 @@
       "published_at": "2026-09-15T15:31:55+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49872723",
+      "title": "Owed a billion dollars in Nvidia stock",
+      "url": "https://colo.to/nvidia-stock-narrative.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49872723",
+        "name": "Eric_Gullichsen",
+        "hn_url": "https://news.ycombinator.com/item?id=49872723"
+      },
+      "duration_sec": null,
+      "views": 1065,
+      "comments": 447,
+      "published_at": "2026-09-28T02:05:13+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
@@ -397,20 +416,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49872723",
-      "title": "Owed a billion dollars in Nvidia stock",
-      "url": "https://colo.to/nvidia-stock-narrative.html",
+      "id": "hn:49879883",
+      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49872723",
-        "name": "Eric_Gullichsen",
-        "hn_url": "https://news.ycombinator.com/item?id=49872723"
+        "id": "49879883",
+        "name": "jonbaer",
+        "hn_url": "https://news.ycombinator.com/item?id=49879883"
       },
       "duration_sec": null,
-      "views": 669,
-      "comments": 282,
-      "published_at": "2026-09-28T02:05:13+00:00",
+      "views": 169,
+      "comments": 220,
+      "published_at": "2026-09-28T15:46:36+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -454,39 +473,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49777694",
-      "title": "Autonomous strike drone uses Nvidia Jetson Orin Nano to pick and bomb targets",
-      "url": "https://www.tomshardware.com/tech-industry/drones/autonomous-strike-drone-uses-nvidia-jetson-orin-nano-to-independently-pick-and-bomb-targets-swedish-startups-attack-drones-run-small-ai-model-require-no-human-input-and-zero-external-comms",
+      "id": "hn:49879032",
+      "title": "Jensen Huang says AI distillation is 'competition.'",
+      "url": "https://www.cnbc.com/2026/09/28/nvidias-jensen-huang-ai-distillation-china.html",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49777694",
-        "name": "sbulaev",
-        "hn_url": "https://news.ycombinator.com/item?id=49777694"
+        "id": "49879032",
+        "name": "cramer4next",
+        "hn_url": "https://news.ycombinator.com/item?id=49879032"
       },
       "duration_sec": null,
-      "views": 29,
-      "comments": 8,
-      "published_at": "2026-09-20T17:07:08+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49745610",
-      "title": "Run QWEN3.8 27B on 16gb Nvidia GPUs",
-      "url": "https://github.com/MiaAI-Lab/Qwen3.8-27B-16gb-NVIDIA-GPUs-one-click-install",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49745610",
-        "name": "Pragmata",
-        "hn_url": "https://news.ycombinator.com/item?id=49745610"
-      },
-      "duration_sec": null,
-      "views": 28,
-      "comments": 10,
-      "published_at": "2026-09-17T19:46:57+00:00",
+      "views": 72,
+      "comments": 79,
+      "published_at": "2026-09-28T14:55:34+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -541,8 +541,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49844663"
       },
       "duration_sec": null,
-      "views": 395,
-      "comments": 860,
+      "views": 398,
+      "comments": 891,
       "published_at": "2026-09-25T13:49:06+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",

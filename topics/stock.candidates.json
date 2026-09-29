@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-09-28T09:36:36.852892+00:00",
+  "fetched_at": "2026-09-29T09:41:29.855092+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 5,
-    "HN · IPO": 6,
+    "HN · stock market": 4,
+    "HN · IPO": 7,
     "HN · earnings": 0,
     "HN · Federal Reserve": 1,
     "Bilibili · 股票分析": 0,
@@ -32,8 +32,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49872723"
       },
       "duration_sec": null,
-      "views": 669,
-      "comments": 282,
+      "views": 1065,
+      "comments": 447,
       "published_at": "2026-09-28T02:05:13+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -54,25 +54,6 @@
       "views": 15,
       "comments": 2,
       "published_at": "2026-09-23T14:33:31+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49696420",
-      "title": "Global AI stocks fall as industry chiefs call for slowing development",
-      "url": "https://www.reuters.com/world/china/ai-linked-asian-stocks-slump-after-top-lab-ceos-call-slowing-down-technologys-2026-09-14/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49696420",
-        "name": "1vuio0pswjnm7",
-        "hn_url": "https://news.ycombinator.com/item?id=49696420"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 8,
-      "published_at": "2026-09-14T13:21:51+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -135,6 +116,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49826087",
+      "title": "16GB iPod Nano 3G Upgrade",
+      "url": "https://tuckerosman.com/projects/16gb-ipod-nano",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49826087",
+        "name": "Ivoah",
+        "hn_url": "https://news.ycombinator.com/item?id=49826087"
+      },
+      "duration_sec": null,
+      "views": 166,
+      "comments": 32,
+      "published_at": "2026-09-24T03:58:54+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:49611240",
       "title": "iPod Classic 6G in QEMU",
       "url": "https://www.reddit.com/r/emulation/s/VL4Au2HGxq",
@@ -154,20 +154,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49826087",
-      "title": "16GB iPod Nano 3G Upgrade",
-      "url": "https://tuckerosman.com/projects/16gb-ipod-nano",
+      "id": "hn:49886005",
+      "title": "Anthropic's IPO prospectus shows AI vision, surging costs",
+      "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49826087",
-        "name": "Ivoah",
-        "hn_url": "https://news.ycombinator.com/item?id=49826087"
+        "id": "49886005",
+        "name": "6thbit",
+        "hn_url": "https://news.ycombinator.com/item?id=49886005"
       },
       "duration_sec": null,
-      "views": 160,
-      "comments": 31,
-      "published_at": "2026-09-24T03:58:54+00:00",
+      "views": 103,
+      "comments": 95,
+      "published_at": "2026-09-28T23:40:59+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
