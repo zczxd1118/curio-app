@@ -2,14 +2,14 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-09-29T09:41:29.855092+00:00",
+  "fetched_at": "2026-09-30T09:32:34.886927+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 4,
+    "HN · stock market": 3,
     "HN · IPO": 7,
     "HN · earnings": 0,
     "HN · Federal Reserve": 1,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 32,
+  "total": 31,
   "items": [
     {
       "id": "hn:49872723",
@@ -32,8 +32,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49872723"
       },
       "duration_sec": null,
-      "views": 1065,
-      "comments": 447,
+      "views": 1084,
+      "comments": 454,
       "published_at": "2026-09-28T02:05:13+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -54,25 +54,6 @@
       "views": 15,
       "comments": 2,
       "published_at": "2026-09-23T14:33:31+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49712746",
-      "title": "Global bond yields hit 2008 highs, raising stakes for big borrowers",
-      "url": "https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49712746",
-        "name": "kaycebasques",
-        "hn_url": "https://news.ycombinator.com/item?id=49712746"
-      },
-      "duration_sec": null,
-      "views": 167,
-      "comments": 178,
-      "published_at": "2026-09-15T14:07:01+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -127,7 +108,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49826087"
       },
       "duration_sec": null,
-      "views": 166,
+      "views": 167,
       "comments": 32,
       "published_at": "2026-09-24T03:58:54+00:00",
       "summary": "",
@@ -165,8 +146,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49886005"
       },
       "duration_sec": null,
-      "views": 103,
-      "comments": 95,
+      "views": 134,
+      "comments": 138,
       "published_at": "2026-09-28T23:40:59+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -250,7 +231,7 @@
     },
     {
       "id": "rss:https://www.netinterest.co/p/the-agents-revolt",
-      "title": "The Agents Revolt",
+      "title": "Agents Revolt",
       "url": "https://www.netinterest.co/p/the-agents-revolt",
       "platform": "rss",
       "source": {
