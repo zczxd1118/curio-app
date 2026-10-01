@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-09-30T09:32:47.880643+00:00",
+  "fetched_at": "2026-10-01T09:59:29.950117+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/europe-space-industry-seeks-greater-supply-chain-control/",
+      "title": "Europe’s Space Industry Seeks Greater Supply Chain Control",
+      "url": "https://www.eetimes.com/europe-space-industry-seeks-greater-supply-chain-control/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-01T09:57:15+00:00",
+      "summary": "Europe's strategic space independence will depend on semiconductor supply chains, satellite networks, and 6G communications. The post Europe’s Space Industry Seeks Greater Supply Chain Control appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/emergence-ai-to-deploy-neuroformal-ai-with-fabless-chipmakers/",
+      "title": "Emergence AI Targets Fabless Chipmakers With Neuroformal AI",
+      "url": "https://www.eetimes.com/emergence-ai-to-deploy-neuroformal-ai-with-fabless-chipmakers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T21:31:25+00:00",
+      "summary": "See how Emergence AI is deploying neuroformal AI with chipmakers to boost wafer yields and tackle fab, test, and packaging failures. The post Emergence AI Targets Fabless Chipmakers With Neuroformal AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/tsmcs-3-nm-ramp-looks-different-in-historical-context/",
+      "title": "TSMC’s 3-nm Ramp Looks Different in Historical Context",
+      "url": "https://www.eetimes.com/tsmcs-3-nm-ramp-looks-different-in-historical-context/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Ron Honig",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T15:40:17+00:00",
+      "summary": "TSMC’s 3-nm node nears the revenue lead, but history shows 7 nm ramped faster; compare the data before evaluating 2 nm. The post TSMC’s 3-nm Ramp Looks Different in Historical Context appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/advanced-strategies-for-heat-exchanger-manufacturing-in-evs-thermal-management-systems/",
+      "title": "Advanced Strategies for Heat Exchanger Manufacturing in EVs & Thermal Management Systems",
+      "url": "https://www.eetimes.com/advanced-strategies-for-heat-exchanger-manufacturing-in-evs-thermal-management-systems/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Solstice",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T13:42:54+00:00",
+      "summary": "Join us to explore how Praziflux® is transforming brazing processes across the EV industry and other thermal management applications. The post Advanced Strategies for Heat Exchanger Manufacturing in EVs &#038; Thermal Management Systems appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/manufacturing-intelligence-turning-eda-data-into-trusted-action/",
+      "title": "Manufacturing Intelligence: Turning EDA Data into Trusted Action",
+      "url": "https://www.eetimes.com/manufacturing-intelligence-turning-eda-data-into-trusted-action/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Dr. Jim Shiely, Technical and strategic advisor, Siemens EDA",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T13:00:00+00:00",
+      "summary": "Manufacturing intelligence connects EDA, TCAD and metrology to turn manufacturing evidence into trusted action, faster. The post Manufacturing Intelligence: Turning EDA Data into Trusted Action appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/ai-drives-larger-denser-packaging-raising-new-challenges-for-equipment-makers/",
       "title": "AI Drives Larger, Denser Packaging, Raising New Challenges for Equipment Makers",
       "url": "https://www.eetimes.com/ai-drives-larger-denser-packaging-raising-new-challenges-for-equipment-makers/",
@@ -257,105 +342,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/ibm-details-quantum-ai-developments-in-india/",
-      "title": "IBM Details Quantum, AI Developments in India",
-      "url": "https://www.eetimes.com/ibm-details-quantum-ai-developments-in-india/",
+      "id": "rss:https://www.eetimes.com/webs-91j0-enables-vision-ai-at-smart-intersections/",
+      "title": "WEBS-91J0 Enables Vision AI at Smart Intersections",
+      "url": "https://www.eetimes.com/webs-91j0-enables-vision-ai-at-smart-intersections/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
+        "name": "Portwell",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-29T07:30:00+00:00",
-      "summary": "At SEMICON India 2026, IBM's Rahul Rao details India's role in quantum scaling, Qiskit education, and AI accelerators. The post IBM Details Quantum, AI Developments in India appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/why-u-s-europe-cooperation-matters-for-quantum-leadership/",
-      "title": "Why U.S.-Europe Cooperation Matters for Quantum Leadership",
-      "url": "https://www.eetimes.com/why-u-s-europe-cooperation-matters-for-quantum-leadership/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Jonathan Felbinger",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T19:00:00+00:00",
-      "summary": "U.S.-Europe collaboration is critical for global quantum leadership, combining capital and talent to scale against rising competition. The post Why U.S.-Europe Cooperation Matters for Quantum Leadership appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/calterah-turns-uwb-digital-keys-into-in-cabin-sensors/",
-      "title": "Calterah Turns UWB Digital Keys into In-Cabin Sensors",
-      "url": "https://www.eetimes.com/calterah-turns-uwb-digital-keys-into-in-cabin-sensors/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T12:58:32+00:00",
-      "summary": "Calterah brings UWB keyless anchors into synchronized networks, delivering enhanced vehicle safety without adding expensive hardware. The post Calterah Turns UWB Digital Keys into In-Cabin Sensors appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/xcena-cuts-data-movement-to-address-memory-bottlenecks/",
-      "title": "Xcena Cuts Data Movement to Address Memory Bottlenecks",
-      "url": "https://www.eetimes.com/xcena-cuts-data-movement-to-address-memory-bottlenecks/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T07:30:00+00:00",
-      "summary": "Xcena’s MX1 uses CXL to push compute into memory by combining DDR5, SSDs, and RISC-V cores while easing programmability. The post Xcena Cuts Data Movement to Address Memory Bottlenecks appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/full-stack-semiconductor-solutions-for-industry-and-digital-energy-applications/",
-      "title": "Full-Stack Semiconductor Solutions for Smart, Secure Industry and Digital Energy",
-      "url": "https://www.eetimes.com/full-stack-semiconductor-solutions-for-industry-and-digital-energy-applications/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "NSING Technologies Pte. Ltd",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-27T14:00:00+00:00",
-      "summary": "NSING Technologies, a Singapore-founded semiconductor company, delivers full-stack chip solutions for industrial automation, AI data centers, and digital energy.The N32-series MCUs (144–600 MHz, Cortex-M4F/M7) integrate EtherCAT, CAN-FD, USB-HS, and high-precision ADCs, powering servo drives, inverters, and PLCs with wide-temperature and EFT immunity. For industrial security, TPM 2.0-based hardware root-of-trust chips enable secure boot, device authentication, [&#8230;] The post Full-Stack Semic...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/huaweis-tau-law-takes-commercial-form/",
-      "title": "Huawei’s Tau Law Takes Commercial Form",
-      "url": "https://www.eetimes.com/huaweis-tau-law-takes-commercial-form/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T14:18:57+00:00",
-      "summary": "Kirin 9050 Pro rests on the Tau (τ) Scaling Law, marking a major change in chip architecture designed to bypass EUV lithography limits. The post Huawei’s Tau Law Takes Commercial Form appeared first on EE Times.",
+      "published_at": "2026-09-29T13:00:00+00:00",
+      "summary": "Discover how Portwell’s WEBS-91J0 enables Vision AI and local edge inference for real-time traffic monitoring and smarter, safer smart intersections. The post WEBS-91J0 Enables Vision AI at Smart Intersections appeared first on EE Times.",
       "lang": "en"
     },
     {
@@ -389,28 +389,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=49872723"
       },
       "duration_sec": null,
-      "views": 1084,
-      "comments": 454,
+      "views": 1087,
+      "comments": 456,
       "published_at": "2026-09-28T02:05:13+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49724881",
-      "title": "Nvidia announces native GPU programming in Rust",
-      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49724881",
-        "name": "nonmaskable",
-        "hn_url": "https://news.ycombinator.com/item?id=49724881"
-      },
-      "duration_sec": null,
-      "views": 970,
-      "comments": 404,
-      "published_at": "2026-09-16T11:15:53+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -427,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49879883"
       },
       "duration_sec": null,
-      "views": 225,
-      "comments": 296,
+      "views": 227,
+      "comments": 299,
       "published_at": "2026-09-28T15:46:36+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -454,6 +435,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49906100",
+      "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
+      "url": "https://github.com/maanHimself/OpenDLSS-NR",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49906100",
+        "name": "sagacity",
+        "hn_url": "https://news.ycombinator.com/item?id=49906100"
+      },
+      "duration_sec": null,
+      "views": 66,
+      "comments": 44,
+      "published_at": "2026-09-30T08:43:21+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49773511",
       "title": "Every Nvidia GPU has 10 to 30 RISC-V cores inside it",
       "url": "https://www.xda-developers.com/your-nvidia-gpu-dozens-risc-v-cores-one-took-over-graphics-driver/",
@@ -466,7 +466,7 @@
       },
       "duration_sec": null,
       "views": 50,
-      "comments": 4,
+      "comments": 5,
       "published_at": "2026-09-20T07:50:58+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -484,7 +484,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49879032"
       },
       "duration_sec": null,
-      "views": 72,
+      "views": 73,
       "comments": 81,
       "published_at": "2026-09-28T14:55:34+00:00",
       "summary": "",
@@ -523,7 +523,7 @@
       },
       "duration_sec": null,
       "views": 401,
-      "comments": 896,
+      "comments": 898,
       "published_at": "2026-09-25T13:49:06+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",

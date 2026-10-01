@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-09-30T09:32:14.686632+00:00",
+  "fetched_at": "2026-10-01T09:58:59.926532+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -197,6 +197,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/europe-space-industry-seeks-greater-supply-chain-control/",
+      "title": "Europe’s Space Industry Seeks Greater Supply Chain Control",
+      "url": "https://www.eetimes.com/europe-space-industry-seeks-greater-supply-chain-control/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-01T09:57:15+00:00",
+      "summary": "Europe's strategic space independence will depend on semiconductor supply chains, satellite networks, and 6G communications. The post Europe’s Space Industry Seeks Greater Supply Chain Control appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/emergence-ai-to-deploy-neuroformal-ai-with-fabless-chipmakers/",
+      "title": "Emergence AI Targets Fabless Chipmakers With Neuroformal AI",
+      "url": "https://www.eetimes.com/emergence-ai-to-deploy-neuroformal-ai-with-fabless-chipmakers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T21:31:25+00:00",
+      "summary": "See how Emergence AI is deploying neuroformal AI with chipmakers to boost wafer yields and tackle fab, test, and packaging failures. The post Emergence AI Targets Fabless Chipmakers With Neuroformal AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/tsmcs-3-nm-ramp-looks-different-in-historical-context/",
+      "title": "TSMC’s 3-nm Ramp Looks Different in Historical Context",
+      "url": "https://www.eetimes.com/tsmcs-3-nm-ramp-looks-different-in-historical-context/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Ron Honig",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T15:40:17+00:00",
+      "summary": "TSMC’s 3-nm node nears the revenue lead, but history shows 7 nm ramped faster; compare the data before evaluating 2 nm. The post TSMC’s 3-nm Ramp Looks Different in Historical Context appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/advanced-strategies-for-heat-exchanger-manufacturing-in-evs-thermal-management-systems/",
+      "title": "Advanced Strategies for Heat Exchanger Manufacturing in EVs & Thermal Management Systems",
+      "url": "https://www.eetimes.com/advanced-strategies-for-heat-exchanger-manufacturing-in-evs-thermal-management-systems/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Solstice",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T13:42:54+00:00",
+      "summary": "Join us to explore how Praziflux® is transforming brazing processes across the EV industry and other thermal management applications. The post Advanced Strategies for Heat Exchanger Manufacturing in EVs &#038; Thermal Management Systems appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/manufacturing-intelligence-turning-eda-data-into-trusted-action/",
+      "title": "Manufacturing Intelligence: Turning EDA Data into Trusted Action",
+      "url": "https://www.eetimes.com/manufacturing-intelligence-turning-eda-data-into-trusted-action/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Dr. Jim Shiely, Technical and strategic advisor, Siemens EDA",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T13:00:00+00:00",
+      "summary": "Manufacturing intelligence connects EDA, TCAD and metrology to turn manufacturing evidence into trusted action, faster. The post Manufacturing Intelligence: Turning EDA Data into Trusted Action appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/ai-drives-larger-denser-packaging-raising-new-challenges-for-equipment-makers/",
       "title": "AI Drives Larger, Denser Packaging, Raising New Challenges for Equipment Makers",
       "url": "https://www.eetimes.com/ai-drives-larger-denser-packaging-raising-new-challenges-for-equipment-makers/",
@@ -265,105 +350,428 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/ibm-details-quantum-ai-developments-in-india/",
-      "title": "IBM Details Quantum, AI Developments in India",
-      "url": "https://www.eetimes.com/ibm-details-quantum-ai-developments-in-india/",
+      "id": "rss:https://www.eetimes.com/webs-91j0-enables-vision-ai-at-smart-intersections/",
+      "title": "WEBS-91J0 Enables Vision AI at Smart Intersections",
+      "url": "https://www.eetimes.com/webs-91j0-enables-vision-ai-at-smart-intersections/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
+        "name": "Portwell",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-29T07:30:00+00:00",
-      "summary": "At SEMICON India 2026, IBM's Rahul Rao details India's role in quantum scaling, Qiskit education, and AI accelerators. The post IBM Details Quantum, AI Developments in India appeared first on EE Times.",
+      "published_at": "2026-09-29T13:00:00+00:00",
+      "summary": "Discover how Portwell’s WEBS-91J0 enables Vision AI and local edge inference for real-time traffic monitoring and smarter, safer smart intersections. The post WEBS-91J0 Enables Vision AI at Smart Intersections appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/why-u-s-europe-cooperation-matters-for-quantum-leadership/",
-      "title": "Why U.S.-Europe Cooperation Matters for Quantum Leadership",
-      "url": "https://www.eetimes.com/why-u-s-europe-cooperation-matters-for-quantum-leadership/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/geekbench-7-results-suggest-openais-dots-agent-runs-on-nine-core-amd-epyc-vms-with-nearly-10gb-of-memory-newest-runs-score-about-six-times-meta-muse-in-multi-core",
+      "title": "Geekbench 7 results suggest OpenAI's dots run on nine-core AMD EPYC VMs",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/geekbench-7-results-suggest-openais-dots-agent-runs-on-nine-core-amd-epyc-vms-with-nearly-10gb-of-memory-newest-runs-score-about-six-times-meta-muse-in-multi-core",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Jonathan Felbinger",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-28T19:00:00+00:00",
-      "summary": "U.S.-Europe collaboration is critical for global quantum leadership, combining capital and talent to scale against rising competition. The post Why U.S.-Europe Cooperation Matters for Quantum Leadership appeared first on EE Times.",
+      "published_at": "2026-09-30T18:00:39+00:00",
+      "summary": "Post-launch Geekbench 7 runs show Debian Linux instead of the leak's Ubuntu.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/calterah-turns-uwb-digital-keys-into-in-cabin-sensors/",
-      "title": "Calterah Turns UWB Digital Keys into In-Cabin Sensors",
-      "url": "https://www.eetimes.com/calterah-turns-uwb-digital-keys-into-in-cabin-sensors/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future",
+      "title": "Top AI tech executives promise to ‘self-police’ AI development",
+      "url": "https://www.tomshardware.com/tech-industry/policy/top-ai-tech-executives-promise-to-self-police-ai-development-nvidia-anthropic-openai-and-more-pledge-ai-labs-will-take-steps-to-build-a-positive-future",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-28T12:58:32+00:00",
-      "summary": "Calterah brings UWB keyless anchors into synchronized networks, delivering enhanced vehicle safety without adding expensive hardware. The post Calterah Turns UWB Digital Keys into In-Cabin Sensors appeared first on EE Times.",
+      "published_at": "2026-09-30T17:27:37+00:00",
+      "summary": "The heads of the biggest AI labs — Google, Anthropic, Meta, OpenAI, SpaceXAI, and Nvidia — went to Washington and signed the 'Joint Commitment on Frontier Responsibilities,' promising to develop their own models safely. Trump says that it's the best way to move forward with AI as it balances progress with safety.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/xcena-cuts-data-movement-to-address-memory-bottlenecks/",
-      "title": "Xcena Cuts Data Movement to Address Memory Bottlenecks",
-      "url": "https://www.eetimes.com/xcena-cuts-data-movement-to-address-memory-bottlenecks/",
+      "id": "rss:https://www.tomshardware.com/video-games/playstation/marvels-wolverine-reaches-gameplay-with-kytyps5-emulator-ps5-exclusive-joins-ghost-of-yotei-in-reaching-gameplay-performance-still-in-single-digits",
+      "title": "Marvel's Wolverine reaches gameplay with KytyPS5 emulator",
+      "url": "https://www.tomshardware.com/video-games/playstation/marvels-wolverine-reaches-gameplay-with-kytyps5-emulator-ps5-exclusive-joins-ghost-of-yotei-in-reaching-gameplay-performance-still-in-single-digits",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Oliver Haslam",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-28T07:30:00+00:00",
-      "summary": "Xcena’s MX1 uses CXL to push compute into memory by combining DDR5, SSDs, and RISC-V cores while easing programmability. The post Xcena Cuts Data Movement to Address Memory Bottlenecks appeared first on EE Times.",
+      "published_at": "2026-09-30T17:00:00+00:00",
+      "summary": "An experimental PS5 emulator has been shown running the brand-new Marvel's Wolverine game on a PC, with gameplay working for the first time.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/full-stack-semiconductor-solutions-for-industry-and-digital-energy-applications/",
-      "title": "Full-Stack Semiconductor Solutions for Smart, Secure Industry and Digital Energy",
-      "url": "https://www.eetimes.com/full-stack-semiconductor-solutions-for-industry-and-digital-energy-applications/",
+      "id": "rss:https://www.tomshardware.com/video-games/xbox/xbox-disc-to-digital-feature-rolls-out-to-all-xbox-players-to-enable-playing-disc-free-but-selling-your-media-revokes-access-hybrid-physical-media-plan-lands-as-sony-phases-out-discs-by-2028",
+      "title": "Xbox Disc to Digital feature rolls out to all Xbox players to enable playing disc-free, but selling your media revokes access",
+      "url": "https://www.tomshardware.com/video-games/xbox/xbox-disc-to-digital-feature-rolls-out-to-all-xbox-players-to-enable-playing-disc-free-but-selling-your-media-revokes-access-hybrid-physical-media-plan-lands-as-sony-phases-out-discs-by-2028",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "NSING Technologies Pte. Ltd",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-27T14:00:00+00:00",
-      "summary": "NSING Technologies, a Singapore-founded semiconductor company, delivers full-stack chip solutions for industrial automation, AI data centers, and digital energy.The N32-series MCUs (144–600 MHz, Cortex-M4F/M7) integrate EtherCAT, CAN-FD, USB-HS, and high-precision ADCs, powering servo drives, inverters, and PLCs with wide-temperature and EFT immunity. For industrial security, TPM 2.0-based hardware root-of-trust chips enable secure boot, device authentication, [&#8230;] The post Full-Stack Semic...",
+      "published_at": "2026-09-30T16:40:00+00:00",
+      "summary": "Xbox gamers can now get a digital license tied to their physical game discs associated with their Xbox profile for select titles, allowing them to play the game without needing to insert it into the console.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/huaweis-tau-law-takes-commercial-form/",
-      "title": "Huawei’s Tau Law Takes Commercial Form",
-      "url": "https://www.eetimes.com/huaweis-tau-law-takes-commercial-form/",
+      "id": "rss:https://www.tomshardware.com/video-games/playstation/new-ps5-relapse-jailbreak-enables-homebrew-and-switch-emulation-but-is-hamstrung-by-rapidly-changing-firmware-revisions-jailbreak-unlocks-firmware-13-60-but-newer-games-already-demand-firmware-14-00",
+      "title": "New PS5 Relapse jailbreak enables homebrew and Switch emulation but is hamstrung by rapidly-changing firmware revisions",
+      "url": "https://www.tomshardware.com/video-games/playstation/new-ps5-relapse-jailbreak-enables-homebrew-and-switch-emulation-but-is-hamstrung-by-rapidly-changing-firmware-revisions-jailbreak-unlocks-firmware-13-60-but-newer-games-already-demand-firmware-14-00",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Oliver Haslam",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-25T14:18:57+00:00",
-      "summary": "Kirin 9050 Pro rests on the Tau (τ) Scaling Law, marking a major change in chip architecture designed to bypass EUV lithography limits. The post Huawei’s Tau Law Takes Commercial Form appeared first on EE Times.",
+      "published_at": "2026-09-30T16:20:00+00:00",
+      "summary": "A new jailbreak supports firmware 7.00 through 13.60, including on the PS5 Pro. But some game updates may already require a newer firmware, breaking the jailbreak.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tag/ai-chip-design-week",
+      "title": "AI Chip Design Week",
+      "url": "https://www.tomshardware.com/tag/ai-chip-design-week",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "The Editors of Tom&#039;s Hardware",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T16:02:34+00:00",
+      "summary": "AI Chip Design Week",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/routers/tp-link-opens-global-preorders-for-its-first-wi-fi-8-router-but-ban-keeps-it-out-of-us-market-us-left-off-launch-list-as-fcc-freeze-refuses-to-thaw",
+      "title": "TP-Link opens global preorders for its first Wi-Fi 8 router, but ban keeps it out of US market",
+      "url": "https://www.tomshardware.com/networking/routers/tp-link-opens-global-preorders-for-its-first-wi-fi-8-router-but-ban-keeps-it-out-of-us-market-us-left-off-launch-list-as-fcc-freeze-refuses-to-thaw",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Brandon Hill",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T15:43:47+00:00",
+      "summary": "TP-Link's first Wi-Fi 8 product, the Archer 8 Ultra, is off limits in the U.S.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/3d-printing/save-60-percent-on-your-first-month-of-meshy-7-ai-streamline-your-3d-printing-workflow-for-less",
+      "title": "Save 60% on your first month of Meshy 7 AI — streamline your 3D printing workflow for less",
+      "url": "https://www.tomshardware.com/3d-printing/save-60-percent-on-your-first-month-of-meshy-7-ai-streamline-your-3d-printing-workflow-for-less",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sponsored",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T15:00:00+00:00",
+      "summary": "Use the exclusive TOMESHY60 discount code to slash 60% off your first month of Meshy 7.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-claims-popular-chinese-ai-model-has-mythos-class-hacking-abilities-frontier-red-teaming-report-details-weak-safeguards-on-open-weight-ai",
+      "title": "Anthropic claims popular Chinese AI model has Mythos-class hacking abilities",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-claims-popular-chinese-ai-model-has-mythos-class-hacking-abilities-frontier-red-teaming-report-details-weak-safeguards-on-open-weight-ai",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sayem Ahmed",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T14:40:00+00:00",
+      "summary": "Anthropic has released a frontier red teaming report, claiming that Zhipu AI's GLM-5.3 has weak safeguarding, and can easily be used to generate harmful content.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to",
+      "title": "Meta's Muse AI agent accused of ignoring user permissions and accessing forbidden personal user data",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/metas-muse-ai-agent-accused-of-accessing-sensitive-user-data-on-iphone-and-mac-without-permission-agent-shocks-reporter-by-referring-to-confidential-messages-it-wasnt-granted-access-to",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Oliver Haslam",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T14:00:00+00:00",
+      "summary": "Meta's Muse AI agent has been accused of ignoring user permissions and accessing forbidden personal user data on an iPhone and Mac, including iMessages.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/ibuypower-slate-gaming-desktop-review",
+      "title": "iBuyPower Slate Gaming Desktop review: Strong gaming value and extras",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/ibuypower-slate-gaming-desktop-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Charles Jefferies",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T13:50:00+00:00",
+      "summary": "The iBuyPower Slate pairs a Ryzen 7 7700X3D and RTX 5070 in a stylish RGB-equipped chassis, delivering strong gaming performance and surprising extras, though productivity performance trails some similarly priced rivals.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/network-switches/grab-this-10-port-gigabit-poe-switch-with-up-to-60w-of-power-for-under-usd38-a-new-record-low-ugreen-switch-upgrades-your-home-network-with-eight-power-delivery-ports-for-cameras-and-wi-fi-extenders",
+      "title": "Grab this 10-port gigabit PoE+ switch with up to 60W of power for under $38, a new record low",
+      "url": "https://www.tomshardware.com/networking/network-switches/grab-this-10-port-gigabit-poe-switch-with-up-to-60w-of-power-for-under-usd38-a-new-record-low-ugreen-switch-upgrades-your-home-network-with-eight-power-delivery-ports-for-cameras-and-wi-fi-extenders",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T13:40:00+00:00",
+      "summary": "This Ugreen 10-port unmanaged Ethernet switch has hit record-low pricing of $37.79, unlocking eight PoE+ ports for up to 60W of power delivery for cameras and WiFi extenders, along with two extra ports for Gigabit uplink to your existing network.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/florida-attorney-general-asks-judge-to-bar-openai-from-developing-new-ai-models-without-third-party-approval-openai-says-it-already-paused-training-its-most-capable-models-last-week",
+      "title": "Florida attorney general asks judge to bar OpenAI from developing new AI models without third-party approval",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/florida-attorney-general-asks-judge-to-bar-openai-from-developing-new-ai-models-without-third-party-approval-openai-says-it-already-paused-training-its-most-capable-models-last-week",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T13:20:00+00:00",
+      "summary": "Florida asked a court to bar OpenAI from developing new AI models without third-party approval and to keep minors off ChatGPT.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
+      "title": "Trump tells federal agencies to use the term 'Super Intelligence ' instead of artificial intelligence",
+      "url": "https://www.tomshardware.com/tech-industry/policy/trump-tells-federal-agencies-to-use-the-term-super-intelligence-instead-of-artificial-intelligence-president-insists-that-ai-is-only-suffering-from-a-branding-problem",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T12:51:29+00:00",
+      "summary": "President Donald Trump issued an executive order directing all federal agencies to stop using the term 'artificial intelligence' and instead call it 'Super Intelligence.' The president said that the new term will solve AI's branding issue and that it 'more appropriately captures the promise, potential, and rapidly advancing capabilities of these technologies.'",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/the-price-of-ai-is-crashing-faster-than-the-rate-of-moores-law-report-suggests-intelligence-costs-are-in-freefall-outpacing-comparative-technologies-like-compute-dna-sequencing-and-lithium-batteries",
+      "title": "The price of AI is crashing faster than the rate of Moore's Law, report suggests",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/the-price-of-ai-is-crashing-faster-than-the-rate-of-moores-law-report-suggests-intelligence-costs-are-in-freefall-outpacing-comparative-technologies-like-compute-dna-sequencing-and-lithium-batteries",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jon Martindale",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T12:40:00+00:00",
+      "summary": "The price of AI \"intelligence,\" has fallen dramatically in recent years, faster than any other transformational technology in history according to some estimates. This raises serious questions about the need to retain access to frontier capabilities, when they show up elsewhere so swiftly.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/the-state-of-agentic-ai-in-chip-design-tools-in-2026-cadence-synopsys-and-siemens-all-pitch-autonomous-engineers",
+      "title": "The state of agentic AI in chip design tools in 2026",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/the-state-of-agentic-ai-in-chip-design-tools-in-2026-cadence-synopsys-and-siemens-all-pitch-autonomous-engineers",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T12:20:00+00:00",
+      "summary": "Cadence, Synopsys, and Siemens all offer agentic AI for chip design, largely built on Nvidia's stack, with varying claims of autonomy.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/the-ethernet-spec-was-first-drafted-on-this-day-in-1980-dec-intel-and-xerox-defined-the-standard-several-years-before-the-internet-existed",
+      "title": "The Ethernet spec was first drafted on this day in 1980",
+      "url": "https://www.tomshardware.com/networking/the-ethernet-spec-was-first-drafted-on-this-day-in-1980-dec-intel-and-xerox-defined-the-standard-several-years-before-the-internet-existed",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T12:00:00+00:00",
+      "summary": "On this day in 1980, version 1.0 of the Ethernet specification was published by Digital Equipment Corporation (DEC), Intel, and Xerox.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/developer-trains-a-small-ai-on-a-single-rtx-3080-ti-gaming-gpu-to-play-pokemon-red-model-discovered-what-each-button-does-by-predicting-what-happens-next",
+      "title": "Developer trains a small AI on a single RTX 3080 Ti gaming GPU to 'play' Pokémon Red",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/developer-trains-a-small-ai-on-a-single-rtx-3080-ti-gaming-gpu-to-play-pokemon-red-model-discovered-what-each-button-does-by-predicting-what-happens-next",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T11:30:00+00:00",
+      "summary": "A developer trained a JEPA world model, based on LeWorldModel research co-authored by Yann LeCun, on an RTX 3080 Ti to play Pokémon Red.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/nuvacore-reveals-unconventional-core-first-cpu-ip-design-strategy-chip-startup-led-by-apple-and-nuvia-legends-plans-to-delay-isa-selection-for-as-long-as-possible",
+      "title": "Nuvacore reveals unconventional Core First CPU IP design strategy",
+      "url": "https://www.tomshardware.com/pc-components/cpus/nuvacore-reveals-unconventional-core-first-cpu-ip-design-strategy-chip-startup-led-by-apple-and-nuvia-legends-plans-to-delay-isa-selection-for-as-long-as-possible",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T11:00:00+00:00",
+      "summary": "NuvaCore says it is developing its new WarpCore CPU IP without first choosing the ISA it will implement. This unusual development strategy is meant to offer the company maximum technology and business flexibility.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/asics/this-is-how-ai-should-be-used-openai-head-of-hardware-breaks-down-the-ai-assisted-design-of-its-jalapeno-asic",
+      "title": "‘This is how AI should be used’ — OpenAI head of hardware breaks down the AI-assisted design of its Jalapeño ASIC",
+      "url": "https://www.tomshardware.com/tech-industry/asics/this-is-how-ai-should-be-used-openai-head-of-hardware-breaks-down-the-ai-assisted-design-of-its-jalapeno-asic",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T10:59:59+00:00",
+      "summary": "OpenAI says AI-assisted Jalapeño chip design \"established a new baseline\" for the industry, and there is already a lot of interest from others to learn how the company pulled it off.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/pick-up-a-new-34-inch-gaming-monitor-from-acer-for-just-usd189-save-24-percent-on-this-curved-ultrawide-with-a-qhd-resolution",
+      "title": "Pick up a new 34-inch gaming monitor from Acer for just $189 — save 24% on this curved ultrawide with a QHD resolution",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/pick-up-a-new-34-inch-gaming-monitor-from-acer-for-just-usd189-save-24-percent-on-this-curved-ultrawide-with-a-qhd-resolution",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T10:59:04+00:00",
+      "summary": "Just $189 for a 34-inch curved ultrawide gaming monitor with a QHD resolution and 1500R curve.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/pentagon-gets-pwned-as-breach-exposes-sensitive-data-on-nearly-three-million-military-and-civilian-personnel-stolen-info-includes-social-security-numbers-and-job-related-records",
+      "title": "Pentagon gets pwned as breach exposes sensitive data on nearly three million military and civilian personnel",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/pentagon-gets-pwned-as-breach-exposes-sensitive-data-on-nearly-three-million-military-and-civilian-personnel-stolen-info-includes-social-security-numbers-and-job-related-records",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T10:30:00+00:00",
+      "summary": "Hackers have breached the U.S. Department of Defense's information systems. The Pentagon says that it has already secured the source of the leak, but the records of millions of DoD personnel are now in the wild.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/former-evga-employee-recounts-companys-degrading-relationship-with-nvidia-before-2022-blow-up-founders-editions-pricing-mandates-and-forward-looking-tech-all-led-to-friction",
+      "title": "Former EVGA employee recounts company’s degrading relationship with Nvidia before 2022 blow-up",
+      "url": "https://www.tomshardware.com/pc-components/gpus/former-evga-employee-recounts-companys-degrading-relationship-with-nvidia-before-2022-blow-up-founders-editions-pricing-mandates-and-forward-looking-tech-all-led-to-friction",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T10:00:00+00:00",
+      "summary": "In a personal blog, former EVGA product manager Brendon Ray Hedrick shared how the first Nvidia Founders Edition GPUs alarmed the company and how pricing pressure and risky forward-looking tech ultimately led to the end of the two companies' storied partnership.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-acquires-ai-legend-fei-fei-lis-world-labs-for-usd8-2-billion-imagenet-pioneer-will-become-amd-chief-scientist-as-the-chipmaker-brings-her-lab-in-house",
+      "title": "AMD acquires AI legend Fei-Fei Li's World Labs for $8.2 billion",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-acquires-ai-legend-fei-fei-lis-world-labs-for-usd8-2-billion-imagenet-pioneer-will-become-amd-chief-scientist-as-the-chipmaker-brings-her-lab-in-house",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-30T09:30:00+00:00",
+      "summary": "AMD has agreed agreed to buy generative AI world model developer World Labs for $8.2 billion in stock. Legendary CEO and co-founder Fei-Fei Li will join the company as an executive vice president and chief scientist.",
       "lang": "en"
     },
     {
@@ -469,414 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/peripherals/gaming-keyboards/save-40-percent-on-a-new-budget-gaming-keyboard-steelseries-apex-3-is-just-usd29-in-woot-deal",
-      "title": "Save 40% on a new budget gaming keyboard",
-      "url": "https://www.tomshardware.com/peripherals/gaming-keyboards/save-40-percent-on-a-new-budget-gaming-keyboard-steelseries-apex-3-is-just-usd29-in-woot-deal",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-29T12:20:00+00:00",
-      "summary": "Save 40% on this SteelSeries Apex 3 gaming keyboard at Woot",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intels-nova-lake-platforms-pass-compliance-at-pci-sig-usb-if-as-launch-looms",
-      "title": "Intel's next-gen Nova Lake platforms pass compliance at USB and PCIe standards bodies as launch looms",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intels-nova-lake-platforms-pass-compliance-at-pci-sig-usb-if-as-launch-looms",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-29T12:00:00+00:00",
-      "summary": "Intel is prepping Core Ultra 400-series 'Nova Lake' platform launches as CPUs and chipsets pass interoperability and compliance tests with PCI-SIG and USB-IF.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/playstation/sony-japan-tries-an-anti-scalper-lottery-system-for-ps5-pro-orders-locks-systems-behind-a-60-hour-playtime-requirement-strict-lottery-system-blocks-scalpers-and-tourists-in-japan-requires-a-domestic-account-to-buy",
-      "title": "Sony Japan tries an anti-scalper lottery system for PS5 Pro orders, locks systems behind a 60-hour playtime requirement",
-      "url": "https://www.tomshardware.com/video-games/playstation/sony-japan-tries-an-anti-scalper-lottery-system-for-ps5-pro-orders-locks-systems-behind-a-60-hour-playtime-requirement-strict-lottery-system-blocks-scalpers-and-tourists-in-japan-requires-a-domestic-account-to-buy",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-29T11:32:05+00:00",
-      "summary": "In the face of strong demand and device shortages, Sony has decided to filter PlayStation 5 Pro purchasers in Japan using a lottery system.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-drops-an-epyc-usd15-000-256-core-bomb-epyc-9006-zen-6-venice-cpus-get-full-spec-and-pricing-treatment-from-usd700-up-to-usd14-904",
-      "title": "AMD drops an EPYC $15,000, 256-core beast",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-drops-an-epyc-usd15-000-256-core-bomb-epyc-9006-zen-6-venice-cpus-get-full-spec-and-pricing-treatment-from-usd700-up-to-usd14-904",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-29T11:20:00+00:00",
-      "summary": "AMD has shared the full SKU list for its 6th Generation EPYC 9006 (codenamed Venice) series, with 1Ku pricing.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/grab-this-4k-ready-gaming-pc-with-a-7800x3d-and-rtx-5070-for-under-usd2-000-right-now-saving-you-usd170-cyberpowerpc-machine-ships-with-32gb-ddr5-and-a-1tb-ssd-ready-for-high-performance-gameplay",
-      "title": "Grab this 4K-ready gaming PC with a 7800X3D and RTX 5070 for under $2,000 right now, saving you $170",
-      "url": "https://www.tomshardware.com/pc-components/grab-this-4k-ready-gaming-pc-with-a-7800x3d-and-rtx-5070-for-under-usd2-000-right-now-saving-you-usd170-cyberpowerpc-machine-ships-with-32gb-ddr5-and-a-1tb-ssd-ready-for-high-performance-gameplay",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-29T11:10:00+00:00",
-      "summary": "This powerful CyberPowerPC gaming rig, powered by the AMD Ryzen 7 7800X3D and Nvidia GeForce RTX 5070, alongside a 1TB SSD and 32GB of DDR5 RAM, unlocks 4K gameplay for $1,999.99.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-patent-outlines-embedding-microleds-directly-into-cpu-package-to-light-up-wording-or-work-as-an-extra-asethic-component-microled-is-embedded-with-die-in-glass-substrate",
-      "title": "Intel patent outlines embedding MicroLEDs directly into CPU package to light up wording or work as an 'extra aesthetic component'",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-patent-outlines-embedding-microleds-directly-into-cpu-package-to-light-up-wording-or-work-as-an-extra-asethic-component-microled-is-embedded-with-die-in-glass-substrate",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-29T10:50:00+00:00",
-      "summary": "A recently published Intel patent reveals a system for embedding MicroLEDs directly into a CPU for diagnostic or aesthetic purposes.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/photonics/intel-patent-embeds-microleds-in-chip-packaging-technology-may-enable-embedded-optical-interconnects-through-tgvs",
-      "title": "Intel patent embeds MicroLEDs in chip packaging — technology may enable embedded optical interconnects through TGVs",
-      "url": "https://www.tomshardware.com/tech-industry/photonics/intel-patent-embeds-microleds-in-chip-packaging-technology-may-enable-embedded-optical-interconnects-through-tgvs",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jon Martindale",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-29T10:30:00+00:00",
-      "summary": "Intel has showcased a patent it filed in 2022 to embed MicroLEDs inside chip packaging. The company suggests this could be used for diagnostic testing, customized lighting on chip surfaces, but perhaps more importantly, an alternative integration for co-packaged optics",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/early-nvidia-advisor-says-hes-owed-usd1-billion-in-stock-due-to-vesting-error-1993-stock-options-amount-to-around-4-5-million-shares-after-splits",
-      "title": "Early Nvidia advisor says he's owed $1 billion in stock due to a 1993 vesting error, but Nvidia rejected settlement",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/early-nvidia-advisor-says-hes-owed-usd1-billion-in-stock-due-to-vesting-error-1993-stock-options-amount-to-around-4-5-million-shares-after-splits",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-29T10:00:00+00:00",
-      "summary": "Former Nvidia advisor Eric Gullichsen says a 1993 stock option grant leaves him owed about $1 billion in stock.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/anthropic-ceo-described-jensen-huang-as-kind-of-trump-like-during-2022-meeting-nvidia-ceo-reportedly-called-anthropic-executive-a-bean-counter-after-google-tpu-comparison",
-      "title": "Anthropic CEO described Jensen Huang as 'kind of Trump-like' during 2022 meeting",
-      "url": "https://www.tomshardware.com/tech-industry/anthropic-ceo-described-jensen-huang-as-kind-of-trump-like-during-2022-meeting-nvidia-ceo-reportedly-called-anthropic-executive-a-bean-counter-after-google-tpu-comparison",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Andrew E. Freedman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-29T09:30:00+00:00",
-      "summary": "Author Kevin Roose reports that Nvidia and Anthropic's CEOs didn't like each other much during their first meeting in his new book, The AGI Chronicles.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/mini-pcs/early-amd-gorgon-halo-ai-mini-pc-packs-192gb-ram-for-an-eye-watering-usd7-099-super-early-bird-deal-cuts-down-price-of-gmktec-evo-x5-with-ryzen-ai-max-pro-495-by-usd425",
-      "title": "Early AMD 'Gorgon Halo' AI mini-PC packs 192GB RAM for an eye-watering $7,099",
-      "url": "https://www.tomshardware.com/desktops/mini-pcs/early-amd-gorgon-halo-ai-mini-pc-packs-192gb-ram-for-an-eye-watering-usd7-099-super-early-bird-deal-cuts-down-price-of-gmktec-evo-x5-with-ryzen-ai-max-pro-495-by-usd425",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T17:20:00+00:00",
-      "summary": "GMKtec launches the Evo-X5 Pro, an agentic mini-PC with AMD's Ryzen AI Max+ Pro 495, 192GB of RAM, and a price tag up to $7,099.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027",
-      "title": "The Netherlands is rolling its own software and services after U.S. sanctions took Microsoft off the table",
-      "url": "https://www.tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Oliver Haslam",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T17:00:51+00:00",
-      "summary": "When the U.S. imposed sanctions on the International Criminal Court, it also meant that its chief prosecutor lost access to Microsoft services, forcing the Dutch government to make alternative plans.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/google-confirms-chromeos-phase-out-in-2034-10-year-support-lifetime-cut-short-for-some-devices-company-says-it-will-support-transition-to-googlebook-os",
-      "title": "Google confirms ChromeOS phase out in 2034 — 10-year support lifetime cut short for some devices, company says it will support transition to Googlebook OS",
-      "url": "https://www.tomshardware.com/laptops/google-confirms-chromeos-phase-out-in-2034-10-year-support-lifetime-cut-short-for-some-devices-company-says-it-will-support-transition-to-googlebook-os",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Andrew E. Freedman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T16:38:07+00:00",
-      "summary": "Google confirmed ChromeOS updates will phase out in 2034 as the company transitions to Googlebook OS and new laptops.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/synopsys-debuts-autopilot-platform-for-developing-chips-autonomously-using-ai-new-agentengineer-platform-is-poised-for-general-availability-by-the-end-of-2026",
-      "title": "Synopsys debuts Autopilot platform for developing chips autonomously using AI",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/synopsys-debuts-autopilot-platform-for-developing-chips-autonomously-using-ai-new-agentengineer-platform-is-poised-for-general-availability-by-the-end-of-2026",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T16:35:00+00:00",
-      "summary": "Synopsys unveiled seven AgentEngineer agents on its new Autopilot platform, with general availability planned for the end of 2026.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/noctua-upgrades-thermal-grizzlys-12v-2x6-power-monitor-cuts-active-noise-to-21-5db-and-runs-passively-up-to-a-300w-gpu-load",
-      "title": "Noctua upgrades Thermal Grizzly's 12V-2x6 power monitor",
-      "url": "https://www.tomshardware.com/pc-components/gpus/noctua-upgrades-thermal-grizzlys-12v-2x6-power-monitor-cuts-active-noise-to-21-5db-and-runs-passively-up-to-a-300w-gpu-load",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T16:15:00+00:00",
-      "summary": "The Noctua Edition replaces the original WireView Pro II cooling solution with a semi-passive design that can handle up to 300W without active cooling and runs below 2,000 RPM when the fan is needed.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/steam-adds-low-latency-pyrowave-codec-to-remote-play-new-codec-offers-better-game-streaming-on-local-networks-but-costs-5-10-times-more-bandwidth",
-      "title": "Steam adds low-latency Pyrowave codec to Remote Play — new codec offers better game streaming on local networks but costs '5-10 times' more bandwidth",
-      "url": "https://www.tomshardware.com/video-games/pc-gaming/steam-adds-low-latency-pyrowave-codec-to-remote-play-new-codec-offers-better-game-streaming-on-local-networks-but-costs-5-10-times-more-bandwidth",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zak Killian",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T16:10:32+00:00",
-      "summary": "The Pyrowave codec was specifically created for the purpose of game streaming, taking advantage of the large bandwidth and powerful compute available on home networks.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-custom-jalapeno-ai-inference-asic-is-for-openais-internal-use-but-company-leaves-the-door-open-to-broader-rollout-firm-says-it-will-have-its-hands-full-with-jalapeno-for-a-good-long-time",
-      "title": "OpenAI's custom Jalapeno AI inference ASIC is for OpenAI’s internal use, but company leaves the door open to broader rollout",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-custom-jalapeno-ai-inference-asic-is-for-openais-internal-use-but-company-leaves-the-door-open-to-broader-rollout-firm-says-it-will-have-its-hands-full-with-jalapeno-for-a-good-long-time",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T15:45:00+00:00",
-      "summary": "OpenAI has danced with the idea of a broader rollout of its Jalapeño ASIC, but hardware VP Richard Ho tells us the chip is for internal use “first and foremost.”",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-jalapeno-design-interview-transcript-hardware-vp-richard-ho-explains-how-ai-assisted-design-may-shape-the-future-of-inference-asics",
-      "title": "OpenAI Jalapeño design interview transcript",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-jalapeno-design-interview-transcript-hardware-vp-richard-ho-explains-how-ai-assisted-design-may-shape-the-future-of-inference-asics",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T15:30:00+00:00",
-      "summary": "We sit down with OpenAI's Hardware boss to talk about its chart-topping Jalapeño inference chip in this unredacted interview transcript.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/get-free-access-to-ai-chip-design-week-on-toms-hardware-premium-sign-up-for-an-account-to-read-all-the-in-depth-reports",
-      "title": "Get free access to AI Chip Design week on Tom's Hardware Premium — sign up for an account to read all the in-depth reports",
-      "url": "https://www.tomshardware.com/tech-industry/get-free-access-to-ai-chip-design-week-on-toms-hardware-premium-sign-up-for-an-account-to-read-all-the-in-depth-reports",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sayem Ahmed",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T15:30:00+00:00",
-      "summary": "From September 28 to October 2, you can access Tom's Hardware Premium's AI Chip Week special features for free, no payment required.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/console-gaming/you-can-now-play-nintendo-switch-games-on-a-jailbroken-ps5-early-alpha-hits-40-fps-in-lighter-titles-but-chokes-on-zelda",
-      "title": "You can now play Nintendo Switch games on a jailbroken PS5",
-      "url": "https://www.tomshardware.com/video-games/console-gaming/you-can-now-play-nintendo-switch-games-on-a-jailbroken-ps5-early-alpha-hits-40-fps-in-lighter-titles-but-chokes-on-zelda",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Oliver Haslam",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T15:20:00+00:00",
-      "summary": "An experimental emulator makes it possible to play Nintendo Switch games on a jailbroken PS5, with a variety of games having been tested.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/docking-stations-hubs/testing-thunderbolt-5-docks-vectotech-v-core-vs-orico-tb5-thunderbolt-5-dock",
-      "title": "Testing two Thunderbolt 5 docks with M.2 storage — VectoTech V-Core vs Orico TB5",
-      "url": "https://www.tomshardware.com/peripherals/docking-stations-hubs/testing-thunderbolt-5-docks-vectotech-v-core-vs-orico-tb5-thunderbolt-5-dock",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Brandon Hill",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T15:00:00+00:00",
-      "summary": "While their specs seem similar, one dock truly stands out in performance and features.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/virginia-tech-lab-3d-prints-a-liquid-metal-composite-to-guide-heat-boost-thermal-conductivity-40x-the-nozzle-stretches-gallium-indium-droplets-inside-soft-silicone-can-also-create-self-healing-traces",
-      "title": "Virginia Tech lab 3D prints a liquid metal composite to guide heat, boost thermal conductivity 40x",
-      "url": "https://www.tomshardware.com/3d-printing/virginia-tech-lab-3d-prints-a-liquid-metal-composite-to-guide-heat-boost-thermal-conductivity-40x-the-nozzle-stretches-gallium-indium-droplets-inside-soft-silicone-can-also-create-self-healing-traces",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T14:45:00+00:00",
-      "summary": "Virginia Tech lab prints gallium-indium liquid metal droplets in silicone that guide heat.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/uk-games-expo-bans-games-and-art-made-mostly-using-ai-ukge-enforces-booth-shutdowns-and-bans-after-deleted-comment-debacle-says-that-the-central-creative-process-must-be-conducted-by-humans",
-      "title": "UK Games Expo bans games and art made mostly using AI",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/uk-games-expo-bans-games-and-art-made-mostly-using-ai-ukge-enforces-booth-shutdowns-and-bans-after-deleted-comment-debacle-says-that-the-central-creative-process-must-be-conducted-by-humans",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T14:00:00+00:00",
-      "summary": "The UK's largest tabletop gaming convention told exhibitors that they cannot show off games and other products mostly created using AI. It only allows the 'use of computerized tools used for spell checking and minor editing and aiding in production or accessibility.'",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/modders-bring-nvidias-dlss-5-neural-rendering-to-amd-radeon-gpus-latest-build-delivers-74-percent-performance-boost-in-just-24-hours-new-launcher-automates-install-process",
-      "title": "Modders bring Nvidia’s DLSS 5 Neural Rendering to AMD Radeon GPUs",
-      "url": "https://www.tomshardware.com/pc-components/gpus/modders-bring-nvidias-dlss-5-neural-rendering-to-amd-radeon-gpus-latest-build-delivers-74-percent-performance-boost-in-just-24-hours-new-launcher-automates-install-process",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T13:30:00+00:00",
-      "summary": "An unofficial project is bringing Nvidia’s DLSS 5 to AMD Radeon GPUs, with early testing showing performance climbing from around 30 FPS to 50 FPS in Cyberpunk 2077 after rapid optimization.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/motherboards/asrock-x870e-challenger-wifi-motherboard-review",
-      "title": "ASRock X870E Challenger Wifi Motherboard Review: A value X870E board packed with features",
-      "url": "https://www.tomshardware.com/pc-components/motherboards/asrock-x870e-challenger-wifi-motherboard-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-28T13:20:00+00:00",
-      "summary": "ASRock’s X870E Challenger Wifi packs a flagship audio codec, robust VRMs, USB4, 5 GbE, and Wi-Fi 7 into an affordable, all-white ATX board. It’s one of the best-equipped AMD options under $230.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -907,28 +907,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=49872723"
       },
       "duration_sec": null,
-      "views": 1084,
-      "comments": 454,
+      "views": 1087,
+      "comments": 456,
       "published_at": "2026-09-28T02:05:13+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49724881",
-      "title": "Nvidia announces native GPU programming in Rust",
-      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49724881",
-        "name": "nonmaskable",
-        "hn_url": "https://news.ycombinator.com/item?id=49724881"
-      },
-      "duration_sec": null,
-      "views": 970,
-      "comments": 404,
-      "published_at": "2026-09-16T11:15:53+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -945,8 +926,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49879883"
       },
       "duration_sec": null,
-      "views": 225,
-      "comments": 296,
+      "views": 227,
+      "comments": 299,
       "published_at": "2026-09-28T15:46:36+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -972,6 +953,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49906100",
+      "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
+      "url": "https://github.com/maanHimself/OpenDLSS-NR",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49906100",
+        "name": "sagacity",
+        "hn_url": "https://news.ycombinator.com/item?id=49906100"
+      },
+      "duration_sec": null,
+      "views": 65,
+      "comments": 44,
+      "published_at": "2026-09-30T08:43:21+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:49773511",
       "title": "Every Nvidia GPU has 10 to 30 RISC-V cores inside it",
       "url": "https://www.xda-developers.com/your-nvidia-gpu-dozens-risc-v-cores-one-took-over-graphics-driver/",
@@ -984,7 +984,7 @@
       },
       "duration_sec": null,
       "views": 50,
-      "comments": 4,
+      "comments": 5,
       "published_at": "2026-09-20T07:50:58+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1002,7 +1002,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49879032"
       },
       "duration_sec": null,
-      "views": 72,
+      "views": 73,
       "comments": 81,
       "published_at": "2026-09-28T14:55:34+00:00",
       "summary": "",
@@ -1041,7 +1041,7 @@
       },
       "duration_sec": null,
       "views": 401,
-      "comments": 896,
+      "comments": 898,
       "published_at": "2026-09-25T13:49:06+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",

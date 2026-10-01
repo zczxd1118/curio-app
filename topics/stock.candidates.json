@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-09-30T09:32:34.886927+00:00",
+  "fetched_at": "2026-10-01T09:59:17.923248+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -32,8 +32,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49872723"
       },
       "duration_sec": null,
-      "views": 1084,
-      "comments": 454,
+      "views": 1087,
+      "comments": 456,
       "published_at": "2026-09-28T02:05:13+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -146,9 +146,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=49886005"
       },
       "duration_sec": null,
-      "views": 134,
-      "comments": 138,
+      "views": 139,
+      "comments": 146,
       "published_at": "2026-09-28T23:40:59+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49914149",
+      "title": "Anthropic's IPO Prospectus Is a Fucking Doozy",
+      "url": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49914149",
+        "name": "danaris",
+        "hn_url": "https://news.ycombinator.com/item?id=49914149"
+      },
+      "duration_sec": null,
+      "views": 65,
+      "comments": 27,
+      "published_at": "2026-09-30T20:44:19+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -168,25 +187,6 @@
       "views": 33,
       "comments": 6,
       "published_at": "2026-09-07T05:41:13+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49796292",
-      "title": "Smart Ring Maker Oura, Backers Seek $2.2B in US IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-21/smart-ring-maker-oura-backers-seek-2-2-billion-in-us-ipo",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49796292",
-        "name": "elo2000",
-        "hn_url": "https://news.ycombinator.com/item?id=49796292"
-      },
-      "duration_sec": null,
-      "views": 24,
-      "comments": 11,
-      "published_at": "2026-09-22T02:53:48+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
