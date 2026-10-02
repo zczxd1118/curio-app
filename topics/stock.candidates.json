@@ -2,14 +2,14 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-01T09:59:17.923248+00:00",
+  "fetched_at": "2026-10-02T09:35:49.206040+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 3,
+    "HN · stock market": 4,
     "HN · IPO": 7,
     "HN · earnings": 0,
     "HN · Federal Reserve": 1,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 31,
+  "total": 32,
   "items": [
     {
       "id": "hn:49872723",
@@ -32,9 +32,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=49872723"
       },
       "duration_sec": null,
-      "views": 1087,
-      "comments": 456,
+      "views": 1089,
+      "comments": 458,
       "published_at": "2026-09-28T02:05:13+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49930086",
+      "title": "US tells France and Germany to release diesel stocks or face US export ban",
+      "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49930086",
+        "name": "geox",
+        "hn_url": "https://news.ycombinator.com/item?id=49930086"
+      },
+      "duration_sec": null,
+      "views": 53,
+      "comments": 75,
+      "published_at": "2026-10-02T05:22:20+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -146,8 +165,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49886005"
       },
       "duration_sec": null,
-      "views": 139,
-      "comments": 146,
+      "views": 142,
+      "comments": 148,
       "published_at": "2026-09-28T23:40:59+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -165,8 +184,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49914149"
       },
       "duration_sec": null,
-      "views": 65,
-      "comments": 27,
+      "views": 69,
+      "comments": 33,
       "published_at": "2026-09-30T20:44:19+00:00",
       "summary": "",
       "matched_keyword": "IPO",
