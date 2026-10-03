@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-02T09:36:01.495184+00:00",
+  "fetched_at": "2026-10-03T09:02:18.366166+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 7,
+    "HN · Nvidia": 8,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 30,
+  "total": 31,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/autosens-2026-regulations-drive-automotive-sensing-architectures/",
+      "title": "AutoSens 2026: Regulation Drives Automotive Sensing Architectures",
+      "url": "https://www.eetimes.com/autosens-2026-regulations-drive-automotive-sensing-architectures/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-02T15:58:50+00:00",
+      "summary": "At AutoSens Europe, automotive sensing designs reflected tighter safety standards, advances in AI processing, and growing cybersecurity requirements. The post AutoSens 2026: Regulation Drives Automotive Sensing Architectures appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/continuous-health-monitoring-drives-integrated-wearable-system-design/",
+      "title": "Continuous Health Monitoring Drives Integrated Wearable System Design",
+      "url": "https://www.eetimes.com/continuous-health-monitoring-drives-integrated-wearable-system-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-02T11:29:26+00:00",
+      "summary": "Analog Devices India’s Praveen Jose said device miniaturization is driving higher performance and quality in smaller form factors. The post Continuous Health Monitoring Drives Integrated Wearable System Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/qualcomm-doubles-down-on-agentic-ai-at-snapdragon-summit-2026/",
       "title": "Qualcomm Doubles Down on Agentic AI at Snapdragon Summit 2026",
       "url": "https://www.eetimes.com/qualcomm-doubles-down-on-agentic-ai-at-snapdragon-summit-2026/",
@@ -325,40 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/manufacturing-intelligence-turning-eda-data-into-trusted-action/",
-      "title": "Manufacturing Intelligence: Turning EDA Data into Trusted Action",
-      "url": "https://www.eetimes.com/manufacturing-intelligence-turning-eda-data-into-trusted-action/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Dr. Jim Shiely, Technical and strategic advisor, Siemens EDA",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-30T13:00:00+00:00",
-      "summary": "Manufacturing intelligence connects EDA, TCAD and metrology to turn manufacturing evidence into trusted action, faster. The post Manufacturing Intelligence: Turning EDA Data into Trusted Action appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ai-drives-larger-denser-packaging-raising-new-challenges-for-equipment-makers/",
-      "title": "AI Drives Larger, Denser Packaging, Raising New Challenges for Equipment Makers",
-      "url": "https://www.eetimes.com/ai-drives-larger-denser-packaging-raising-new-challenges-for-equipment-makers/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Susan Hong",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-30T08:55:36+00:00",
-      "summary": "At A*STAR’s Innovate Together 2026, industry experts explored packaging, hybrid bonding, optical interconnects, and process control for AI. The post AI Drives Larger, Denser Packaging, Raising New Challenges for Equipment Makers appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -389,7 +389,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49872723"
       },
       "duration_sec": null,
-      "views": 1089,
+      "views": 1090,
       "comments": 458,
       "published_at": "2026-09-28T02:05:13+00:00",
       "summary": "",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49906100"
       },
       "duration_sec": null,
-      "views": 254,
-      "comments": 118,
+      "views": 268,
+      "comments": 123,
       "published_at": "2026-09-30T08:43:21+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -427,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49879883"
       },
       "duration_sec": null,
-      "views": 227,
+      "views": 229,
       "comments": 299,
       "published_at": "2026-09-28T15:46:36+00:00",
       "summary": "",
@@ -465,9 +465,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=49926773"
       },
       "duration_sec": null,
-      "views": 74,
-      "comments": 14,
+      "views": 98,
+      "comments": 18,
       "published_at": "2026-10-01T20:36:47+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49933958",
+      "title": "Amazon seeks to offload $8B of Nvidia chips to investors",
+      "url": "https://www.reuters.com/business/retail-consumer/amazon-seeks-offload-8-billion-nvidia-chips-investors-ft-reports-2026-10-02/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49933958",
+        "name": "wslh",
+        "hn_url": "https://news.ycombinator.com/item?id=49933958"
+      },
+      "duration_sec": null,
+      "views": 76,
+      "comments": 91,
+      "published_at": "2026-10-02T14:30:32+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -542,7 +561,7 @@
       },
       "duration_sec": null,
       "views": 401,
-      "comments": 898,
+      "comments": 899,
       "published_at": "2026-09-25T13:49:06+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
