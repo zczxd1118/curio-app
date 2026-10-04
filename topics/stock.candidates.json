@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-03T09:02:04.156468+00:00",
+  "fetched_at": "2026-10-04T09:34:15.099745+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,7 +10,7 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 4,
-    "HN · IPO": 7,
+    "HN · IPO": 8,
     "HN · earnings": 0,
     "HN · Federal Reserve": 1,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 32,
+  "total": 33,
   "items": [
     {
       "id": "hn:49872723",
@@ -51,8 +51,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49930086"
       },
       "duration_sec": null,
-      "views": 96,
-      "comments": 144,
+      "views": 97,
+      "comments": 151,
       "published_at": "2026-10-02T05:22:20+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -165,8 +165,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49886005"
       },
       "duration_sec": null,
-      "views": 142,
-      "comments": 148,
+      "views": 143,
+      "comments": 150,
       "published_at": "2026-09-28T23:40:59+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -230,6 +230,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:49937304",
+      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+      "url": "https://pipod.dev/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49937304",
+        "name": "edverma2",
+        "hn_url": "https://news.ycombinator.com/item?id=49937304"
+      },
+      "duration_sec": null,
+      "views": 99,
+      "comments": 39,
+      "published_at": "2026-10-02T19:10:38+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:49810905",
       "title": "In 2025, 49 percent of adults under age 30 lived with a parent [pdf]",
       "url": "https://www.federalreserve.gov/publications/files/2025-report-economic-well-being-us-households-202605.pdf",
@@ -246,6 +265,23 @@
       "published_at": "2026-09-23T02:26:49+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-art-of-doing-financial-engineering",
+      "title": "The Art of Doing Financial Engineering",
+      "url": "https://www.netinterest.co/p/the-art-of-doing-financial-engineering",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-03T11:57:49+00:00",
+      "summary": "AI Financing at the Frontier",
       "lang": "en"
     },
     {
@@ -569,23 +605,6 @@
       "views": null,
       "published_at": "2026-05-15T15:38:49+00:00",
       "summary": "What the Changing Shape of Markets Means for Investor Relations",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.netinterest.co/p/bye-the-index",
-      "title": "Bye the Index",
-      "url": "https://www.netinterest.co/p/bye-the-index",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-08T16:07:09+00:00",
-      "summary": "How Nasdaq learned to run its flywheel in reverse",
       "lang": "en"
     }
   ]

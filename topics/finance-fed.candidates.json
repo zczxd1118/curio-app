@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-10-03T09:02:13.206785+00:00",
+  "fetched_at": "2026-10-04T09:34:22.879575+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -15,8 +15,8 @@
     "HN · Federal Reserve": 1,
     "HN · inflation": 5,
     "HN · Tesla": 1,
-    "HN · finance": 10,
-    "HN · fed": 16
+    "HN · finance": 9,
+    "HN · fed": 17
   },
   "subtopics": [],
   "total": 62,
@@ -189,6 +189,23 @@
       "views": null,
       "published_at": "2026-09-21T10:00:00+00:00",
       "summary": "Pacing the frontier may be sincere, but it would also be strategically useful for the frontier labs to have time to reduce overhangs caused by model advancement.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-art-of-doing-financial-engineering",
+      "title": "The Art of Doing Financial Engineering",
+      "url": "https://www.netinterest.co/p/the-art-of-doing-financial-engineering",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-03T11:57:49+00:00",
+      "summary": "AI Financing at the Frontier",
       "lang": "en"
     },
     {
@@ -515,23 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.netinterest.co/p/bye-the-index",
-      "title": "Bye the Index",
-      "url": "https://www.netinterest.co/p/bye-the-index",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-08T16:07:09+00:00",
-      "summary": "How Nasdaq learned to run its flywheel in reverse",
-      "lang": "en"
-    },
-    {
       "id": "hn:49810905",
       "title": "In 2025, 49 percent of adults under age 30 lived with a parent [pdf]",
       "url": "https://www.federalreserve.gov/publications/files/2025-report-economic-well-being-us-households-202605.pdf",
@@ -657,7 +657,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49904408"
       },
       "duration_sec": null,
-      "views": 159,
+      "views": 160,
       "comments": 221,
       "published_at": "2026-09-30T04:37:37+00:00",
       "summary": "",
@@ -752,8 +752,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49886005"
       },
       "duration_sec": null,
-      "views": 142,
-      "comments": 148,
+      "views": 143,
+      "comments": 150,
       "published_at": "2026-09-28T23:40:59+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -772,7 +772,7 @@
       },
       "duration_sec": null,
       "views": 122,
-      "comments": 192,
+      "comments": 193,
       "published_at": "2026-10-01T01:40:50+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -836,22 +836,22 @@
       "lang": "en"
     },
     {
-      "id": "hn:49548497",
-      "title": "Mark Cuban: Why US hospitals \"don't know their costs\"",
-      "url": "https://www.beckershospitalreview.com/finance/mark-cuban-why-us-hospitals-dont-know-their-costs/",
+      "id": "hn:49948254",
+      "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
+      "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49548497",
-        "name": "elo2000",
-        "hn_url": "https://news.ycombinator.com/item?id=49548497"
+        "id": "49948254",
+        "name": "sbulaev",
+        "hn_url": "https://news.ycombinator.com/item?id=49948254"
       },
       "duration_sec": null,
-      "views": 30,
-      "comments": 67,
-      "published_at": "2026-09-03T11:07:10+00:00",
+      "views": 426,
+      "comments": 238,
+      "published_at": "2026-10-03T22:07:13+00:00",
       "summary": "",
-      "matched_keyword": "finance",
+      "matched_keyword": "fed",
       "lang": "en"
     },
     {
@@ -904,7 +904,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49875913"
       },
       "duration_sec": null,
-      "views": 327,
+      "views": 328,
       "comments": 190,
       "published_at": "2026-09-28T10:30:54+00:00",
       "summary": "",
@@ -923,8 +923,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49921118"
       },
       "duration_sec": null,
-      "views": 254,
-      "comments": 246,
+      "views": 255,
+      "comments": 248,
       "published_at": "2026-10-01T13:05:51+00:00",
       "summary": "",
       "matched_keyword": "fed",
@@ -1056,8 +1056,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49938815"
       },
       "duration_sec": null,
-      "views": 44,
-      "comments": 6,
+      "views": 51,
+      "comments": 7,
       "published_at": "2026-10-02T21:28:59+00:00",
       "summary": "",
       "matched_keyword": "fed",

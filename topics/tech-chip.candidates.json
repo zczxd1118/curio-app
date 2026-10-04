@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-03T09:02:18.366166+00:00",
+  "fetched_at": "2026-10-04T09:34:28.101740+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 8,
+    "HN · Nvidia": 7,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 31,
+  "total": 30,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49906100"
       },
       "duration_sec": null,
-      "views": 268,
-      "comments": 123,
+      "views": 272,
+      "comments": 125,
       "published_at": "2026-09-30T08:43:21+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -427,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49879883"
       },
       "duration_sec": null,
-      "views": 229,
+      "views": 230,
       "comments": 299,
       "published_at": "2026-09-28T15:46:36+00:00",
       "summary": "",
@@ -465,8 +465,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49926773"
       },
       "duration_sec": null,
-      "views": 98,
-      "comments": 18,
+      "views": 101,
+      "comments": 19,
       "published_at": "2026-10-01T20:36:47+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -484,28 +484,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=49933958"
       },
       "duration_sec": null,
-      "views": 76,
-      "comments": 91,
+      "views": 80,
+      "comments": 92,
       "published_at": "2026-10-02T14:30:32+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49773511",
-      "title": "Every Nvidia GPU has 10 to 30 RISC-V cores inside it",
-      "url": "https://www.xda-developers.com/your-nvidia-gpu-dozens-risc-v-cores-one-took-over-graphics-driver/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49773511",
-        "name": "giuliomagnifico",
-        "hn_url": "https://news.ycombinator.com/item?id=49773511"
-      },
-      "duration_sec": null,
-      "views": 50,
-      "comments": 5,
-      "published_at": "2026-09-20T07:50:58+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -560,8 +541,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49844663"
       },
       "duration_sec": null,
-      "views": 401,
-      "comments": 899,
+      "views": 402,
+      "comments": 900,
       "published_at": "2026-09-25T13:49:06+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
