@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-10-04T09:34:22.879575+00:00",
+  "fetched_at": "2026-10-05T10:15:38.068102+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,7 +11,7 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 0,
+    "arXiv q-fin（量化金融论文）": 25,
     "HN · Federal Reserve": 1,
     "HN · inflation": 5,
     "HN · Tesla": 1,
@@ -19,8 +19,25 @@
     "HN · fed": 17
   },
   "subtopics": [],
-  "total": 62,
+  "total": 87,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "title": "Apple and a Hacker’s Future",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T10:00:00+00:00",
+      "summary": "I was happy for years in Apple's walled garden; with AI, however, their protections feel like limitations.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/dots-and-question-marks/",
       "title": "2026.40: Dots and Question Marks",
@@ -172,23 +189,6 @@
       "views": null,
       "published_at": "2026-09-22T10:00:00+00:00",
       "summary": "Amazon predictably blocked Muse, but there is room for a deal based on the reality that Amazon's physical world investments are an AI moat.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/frontier-overhangs/",
-      "title": "Frontier Overhangs",
-      "url": "https://stratechery.com/2026/frontier-overhangs/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-21T10:00:00+00:00",
-      "summary": "Pacing the frontier may be sincere, but it would also be strategically useful for the frontier labs to have time to reduce overhangs caused by model advancement.",
       "lang": "en"
     },
     {
@@ -532,6 +532,431 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://arxiv.org/abs/2610.02834",
+      "title": "Axient: Canonical Protocol-Graph Composition for Leveraged Event Markets: Single State Authority, Atomic Composition, Durable Sagas, and Exactly-Once Recovery",
+      "url": "https://arxiv.org/abs/2610.02834",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Maksym Nechepurenko",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.02834v1 Announce Type: new Abstract: A modular leveraged event-market protocol can contain individually correct contracts for risk approval, positions, debt, settlement evidence, credit pools, junior backstops, reserves, liquidation, and governance while still lacking one authoritative financial execution path. This paper develops a canonical protocol graph in which every financial domain has one storage authority and composition components coordinate transitions without recreating ba...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.02838",
+      "title": "Axient: Manifest-Bound Evidence for On-Chain Financial Protocols: Seven-Layer Derivation, Correlation, Tamper Rejection, and Reproducible Claim Promotion",
+      "url": "https://arxiv.org/abs/2610.02838",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Maksym Nechepurenko",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.02838v1 Announce Type: new Abstract: Hybrid on-chain financial protocols are frequently evaluated with evidence that is individually useful but collectively insufficient: a unit test, transaction receipt, screenshot, service response, or several matching hashes may be presented as proof of a complete workflow even when the layers share one generated source or omit the financial authority that matters. This paper develops a manifest-bound evidence architecture for such systems. A seale...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.02863",
+      "title": "Multi-Agent AI as a Nested Principal-Agent Problem in Private Wealth Management: Mandate Representation and Evidence Control in Switzerland, Germany and Austria",
+      "url": "https://arxiv.org/abs/2610.02863",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Walter Kurz, Reinhard Magg, Florian Kollberg, Wojtek Stricker, Stefan Marx, Frank Reinhardt, Velimir Dedi\\'c",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.02863v1 Announce Type: new Abstract: In private wealth management, a manager delegating to artificial intelligence (AI) acts as the client's agent and the system's principal. We introduce a model-independent formulation that combines nested principal--agent delegation with constrained joint maximisation as the task assigned to the AI system. The objective represents client and manager outcomes separately over portfolio--workflow pairs. Legal duties, mandate requirements and evidence s...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.02917",
+      "title": "Event History Over Scale: Compact Transformers for Low-Latency Limit Order Book Forecasting",
+      "url": "https://arxiv.org/abs/2610.02917",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "David Schaurecker, Lasse B. Strand, Kevin O'Sullivan, Robert Jakob",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.02917v1 Announce Type: new Abstract: Short-horizon price-trend prediction from limit order books in equity and intraday electricity markets requires models that combine predictive quality with low single-sample latency and a small serialized model size to keep pace with rapid and continuous market updates. We introduce MBOFormer, a 7,203-parameter causal transformer, and MBOFusion, a 14,371-parameter extension with a slow temporal-context branch. Both models process market-by-order (l...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.03076",
+      "title": "Shapley-based Structural Analysis of Neural Calibration for Stochastic Volatility Models",
+      "url": "https://arxiv.org/abs/2610.03076",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Sha\\\"in Afzali, Serena Della Corte, Antonis Papapantoleon",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.03076v1 Announce Type: new Abstract: Neural network-based approaches have emerged as efficient alternatives to traditional optimization-based procedures for the calibration of stochastic volatility models. However, existing work has focused primarily on predictive accuracy, with comparatively little attention devoted to understanding the structure of the learned inverse calibration mappings. In this work, we analyze neural calibration mappings for the Heston and rough Heston models ac...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.03250",
+      "title": "No Women No Innovation? The Effect of Women on Boards on Hard and Soft Innovation in SMEs",
+      "url": "https://arxiv.org/abs/2610.03250",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Francesca Pascale, Saverio Barabuffi, Giulio Ferrigno",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.03250v1 Announce Type: new Abstract: The role of women on corporate boards and its impact on innovation remains heavily debated. While existing literature offers conflicting perspectives on whether female board representation spurs or hinders innovaiton, most research has focused exlusively on large firms. This studt adresses this gap by investigating the causal impact of women on boards on both \"hard\" (technological) and \"soft\" (non-technological) innovation within SMEs. Using a long...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.03369",
+      "title": "Mixture-of-Experts for Cryptocurrency Order Execution: Training Stability, Tail Risk, and Failure Modes",
+      "url": "https://arxiv.org/abs/2610.03369",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Alexander Ardaiz, Varun Budati, Ali Habibnia",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.03369v1 Announce Type: new Abstract: Deep reinforcement-learning policies for order execution can vary substantially across training seeds, so apparent architectural gains may reflect favourable training realisations rather than reproducible properties of the architecture. We evaluate vanilla Double Deep Q-Learning (DDQL), K-means-partitioned mixtures of DDQL experts at $K \\in \\{2, 4, 8\\}$, and dense networks parameter-matched to the $K{=}4$ and $K{=}8$ expert budgets on 5-minute mean...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.03406",
+      "title": "PreFER: Interactive Robo-Advisor with Scoring Mechanism",
+      "url": "https://arxiv.org/abs/2610.03406",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Yuwei Wang, Hoi Ying Wong",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.03406v1 Announce Type: new Abstract: We propose an interactive robo-advising framework that learns personalized risk preferences from scores provided by clients. The resulting preference-learning problem is closely related to inverse reinforcement learning (IRL), as the robo-advisor infers the client's latent reward specification from feedback. The robo-advisor interacts with clients iteratively as follows. At each interaction time, the advisor generates investment advice based on the...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.03598",
+      "title": "When a Correct Reward Is Not Enough: Diagnosing and Guiding PPO in an Analytically Solved Broker-Trader Game",
+      "url": "https://arxiv.org/abs/2610.03598",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Siu Tung Wong (Institute of Finance and Technology, University College London), Carlo Campajola (Institute of Finance and Technology, University College London, UZH Blockchain Center)",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.03598v1 Announce Type: new Abstract: Reinforcement learning (RL) is increasingly used for financial optimal-control problems when complex dynamics make analytical strategies difficult to obtain. There are financial mathematics literactures which provides many solved models whose equations and controls could evaluate and guide learning; we ask whether RL can exploit these results. We place a proximal policy optimisation (PPO) agent in an analytically solved continuous-time broker--trad...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.02290",
+      "title": "Expected Utility Regret Rule: Minimax and Bayes Optimal Portfolio Choice",
+      "url": "https://arxiv.org/abs/2610.02290",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Masahiro Kato",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.02290v1 Announce Type: cross Abstract: This study considers the problem of portfolio choice, where we recommend a portfolio to an investor to maximize the expected utility of their wealth. Our goal is to construct an asymptotically optimal portfolio choice rule in terms of expected utility regret, the difference between the expected utility of an oracle investor and that achieved by a portfolio chosen from data. We propose the Expected Utility Regret (EUR) rule, which jointly selects ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.02492",
+      "title": "Right Order, Wrong Scale: Auditing LLM Judges for Occupational AI Measurement",
+      "url": "https://arxiv.org/abs/2610.02492",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Harry Lyu, Neil Thompson",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.02492v1 Announce Type: cross Abstract: LLM judges are increasingly used to assess whether AI outputs meet workplace requirements, but agreement on response rankings does not establish agreement on acceptance rates or occupational aggregates. We introduce O*NET-BENCH, an audit suite derived from an existing survey of 45,796 worker ratings, and evaluate 33 pre-existing judge configurations across six model families on 4,501 test ratings. Twenty-five configurations achieve tie-aware pair...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.03080",
+      "title": "MintEval: Do LLMs Implement the Trading Strategy You Asked For? A Behavioural-Equivalence Benchmark for Natural-Language-to-Strategy Code",
+      "url": "https://arxiv.org/abs/2610.03080",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Siyu Wang, Yifan Wang, Yuecheng He",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.03080v1 Announce Type: cross Abstract: Large language models are moving from producing trading signals to writing the code that executes them. The failure mode of the second role is silent: generated code runs, a backtest plots, yet the risk logic that the trader described is not the logic being executed. Existing code benchmarks test functional correctness on unit tests and finance benchmarks test forecasting; neither measures whether an implementation behaves like the strategy that ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.03161",
+      "title": "Landscape-Dependent Performance of Photonic Quantum Solvers in QUBO Feature Selection for Financial Risk Detection",
+      "url": "https://arxiv.org/abs/2610.03161",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Nirvik Sahoo, Paul Robert Griffin",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.03161v1 Announce Type: cross Abstract: Feature selection for imbalanced classification tasks such as credit card fraud and consumer default detection requires balancing predictive relevance, inter-feature redundancy, and computational feasibility. We benchmark three computing paradigms, classical branch-and-bound optimization (Gurobi), photonic entropy computing (QCI Dirac-3), and simulated photonic boson sampling (Piquasso), across thirteen feature-selection methods on two datasets: ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.03174",
+      "title": "FinNextAssist: Towards Professional Financial Deep Research Assistant",
+      "url": "https://arxiv.org/abs/2610.03174",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Xiangyu Li, Fengbin Zhu, Xuan Yao, Siyu Liu, Xiaoluan Liu, Chao Wang, Huanbo Luan, Xiaofen Xing, Xiangmin Xu, Ke-Wei Huang, Richang Hong, Tat-Seng Chua",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.03174v1 Announce Type: cross Abstract: Deep Research (DR) agents have demonstrated strong capabilities in complex, research-oriented tasks through autonomous planning, iterative retrieval, multi-step reasoning, and structured reporting. However, adapting DR agents to finance introduces unique challenges: financial analysis demands the joint completion of heterogeneous sub-tasks spanning diverse data types, tools, and analytical workflows. We identify three key requirements for a profe...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2410.20060",
+      "title": "Constrained portfolio optimization in a life-cycle model: A deep pricing kernel approach",
+      "url": "https://arxiv.org/abs/2410.20060",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Wenyuan Li, Pengyu Wei",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2410.20060v5 Announce Type: replace Abstract: This paper considers the constrained portfolio optimization in a generalized life-cycle model. The individual with a stochastic income manages a portfolio consisting of stocks, a bond, and life insurance to maximize their consumption level, death benefit, and terminal wealth. Meanwhile, the individual faces a convex-set trading constraint, with the non-tradeable asset constraint, no short-selling constraint, and no borrowing constraint as speci...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2502.12774",
+      "title": "When defaults cannot be hedged: xVA calculations via local risk-minimization",
+      "url": "https://arxiv.org/abs/2502.12774",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Francesca Biagini, Alessandro Gnoatto, Katharina Oberpriller",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2502.12774v3 Announce Type: replace Abstract: We consider the pricing and hedging of counterparty credit risk and funding when there is no possibility to hedge the jump to default of either the bank or the counterparty. This represents the situation which is most often encountered in practice, due to the absence of quoted corporate bonds or CDS contracts written on the counterparty and the difficulty for the bank to buy/sell protection on her own default. We apply local risk-minimization t...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2508.08152",
+      "title": "Optimal Fees for Liquidity Provision in Automated Market Makers",
+      "url": "https://arxiv.org/abs/2508.08152",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Steven Campbell, Philippe Bergault, Jason Milionis, Marcel Nutz",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2508.08152v2 Announce Type: replace Abstract: Passive liquidity providers (LPs) in automated market makers (AMMs) face losses due to adverse selection (LVR), which static trading fees often fail to offset in practice. We study the key determinants of LP profitability in a dynamic reduced-form model where an AMM operates in parallel with a centralized exchange (CEX), traders route their orders optimally to the venue offering the better price, and arbitrageurs exploit price discrepancies. Us...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2509.09452",
+      "title": "Optimal Investment and Consumption in a Stochastic Factor Model",
+      "url": "https://arxiv.org/abs/2509.09452",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Florian Gutekunst, Martin Herdegen, David Hobson",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2509.09452v2 Announce Type: replace Abstract: In this article, we study optimal investment and consumption in an incomplete stochastic factor model for a power utility investor on the infinite horizon. When the state space of the stochastic factor is finite, we give a complete characterisation of the well-posedness of the problem, and provide an efficient numerical algorithm for computing the value function. When the state space is a (possibly infinite) open interval and the stochastic fac...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2604.13597",
+      "title": "Daycare Matching with Siblings: Social Implementation and Welfare Evaluation",
+      "url": "https://arxiv.org/abs/2604.13597",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Kan Kuno, Daisuke Moriwaki, Yoshihiro Takenami",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2604.13597v4 Announce Type: replace Abstract: In centralized matching markets, agents may value joint assignment, as with siblings or couples. Standard preference estimation ignores such complementarities, complicating welfare analysis of priority rules for paired assignment. We develop an empirical framework incorporating these preferences and apply it to Japanese daycare assignment. Families face both additional commuting distance and a fixed disutility from split assignment. We estimate...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.25353",
+      "title": "The Risk-Neutral Crash Frontier: Sharp Joint Bounds on Crash Probability and Conditional Depth from Option Bid-Ask Quotes",
+      "url": "https://arxiv.org/abs/2607.25353",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Jirong Zhuang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2607.25353v5 Announce Type: replace Abstract: Index put prices are the market's quotes for crash insurance, and a put's value equals the probability of a crash times the expected shortfall given one. The market therefore prices the product of likelihood and depth, not the factors, and finitely many bid and ask quotes leave a range of ways to split it. Fitting one density hides that range, and bounds computed one factor at a time can combine into scenarios that no single risk-neutral distri...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2608.23274",
+      "title": "The Physical Crash Frontier: What Finite Option Quotes Can and Cannot Reveal",
+      "url": "https://arxiv.org/abs/2608.23274",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Jirong Zhuang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2608.23274v3 Announce Type: replace Abstract: Physical crash probabilities recovered from option prices depend on a pricing kernel and on a risk-neutral distribution that finitely many bid and ask quotes do not identify. For a power utility investor, we characterize the pairs of physical crash probability and expected loss below the crash threshold that the quotes admit; the boundary of this set is the physical crash frontier. Both coordinates are ratios of moments, yet when the index is b...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.01562",
+      "title": "Social welfare and price discovery in double auction markets",
+      "url": "https://arxiv.org/abs/2610.01562",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Teemu Pennanen",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2610.01562v2 Announce Type: replace Abstract: The tendency of the double auction mechanism to drive prices to competitive equilibrium has been well documented in laboratory experiments, but the phenomenon has lacked a theoretical explanation. This paper studies dynamic double auctions in a pure exchange economy where agents bid their indifference prices implied by their current holdings and preferences. We show that Walras equilibria coincide with the fixed points of the double auction and...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2509.20239",
+      "title": "Error Propagation in Dynamic Programming: From Stochastic Control to American Option Pricing",
+      "url": "https://arxiv.org/abs/2509.20239",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Andrea Della Vecchia, Damir Filipovi\\'c",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2509.20239v2 Announce Type: replace-cross Abstract: This paper investigates theoretical and methodological foundations for stochastic optimal control (SOC) in discrete time. We start formulating the control problem in a general dynamic programming framework, introducing the mathematical structure needed for a detailed convergence analysis. The associate value function is estimated through a sequence of approximations combining nonparametric regression methods and Monte Carlo subsampling. T...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2602.08120",
+      "title": "Optimal Quantum Speedups for Repeatedly Nested Expectation Estimation",
+      "url": "https://arxiv.org/abs/2602.08120",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Yihang Sun, Guanyang Wang, Jose Blanchet",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2602.08120v2 Announce Type: replace-cross Abstract: We study the estimation of repeatedly nested expectations (RNEs) with a constant horizon (number of nestings) using quantum computing. We propose a quantum algorithm that achieves $\\varepsilon$-error with cost $\\tilde O(\\varepsilon^{-1})$, up to logarithmic factors. Standard lower bounds show this scaling is essentially optimal, yielding an almost quadratic speedup over the best classical algorithm. Our results extend prior quantum speedu...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.18287",
+      "title": "A continuous-time dynamic contracting problem with limited liability and finite horizon",
+      "url": "https://arxiv.org/abs/2609.18287",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Andrea Bovo, Tiziano De Angelis, St\\'{e}phane Villeneuve",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T04:00:00+00:00",
+      "summary": "arXiv:2609.18287v2 Announce Type: replace-cross Abstract: We perform a detailed study of a principal--agent problem in a continuous time version of the celebrated Holmstr\\\"om--Milgrom model (Econometrica 55 (2), 1987) where we add limited liability for the Agent. We develop a probabilistic methodology to prove that the Principal's value function is the unique bounded classical solution to a fully nonlinear and fully degenerate partial differential equation (PDE) with Cauchy-Dirichlet boundary co...",
+      "lang": "en"
+    },
+    {
       "id": "hn:49810905",
       "title": "In 2025, 49 percent of adults under age 30 lived with a parent [pdf]",
       "url": "https://www.federalreserve.gov/publications/files/2025-report-economic-well-being-us-households-202605.pdf",
@@ -657,11 +1082,30 @@
         "hn_url": "https://news.ycombinator.com/item?id=49904408"
       },
       "duration_sec": null,
-      "views": 160,
+      "views": 161,
       "comments": 221,
       "published_at": "2026-09-30T04:37:37+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49930690",
+      "title": "Quantitative Finance with OCaml",
+      "url": "https://qcaml.com/index.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49930690",
+        "name": "leonry",
+        "hn_url": "https://news.ycombinator.com/item?id=49930690"
+      },
+      "duration_sec": null,
+      "views": 52,
+      "comments": 10,
+      "published_at": "2026-10-02T07:14:34+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
       "lang": "en"
     },
     {
@@ -798,25 +1242,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49564189",
-      "title": "Norway's Oil Fund Proposes Selling Roughly $80B in U.S. Treasurys",
-      "url": "https://www.wsj.com/finance/investing/norways-oil-fund-proposes-cut-to-government-bond-holdings-d930893f",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49564189",
-        "name": "toomuchtodo",
-        "hn_url": "https://news.ycombinator.com/item?id=49564189"
-      },
-      "duration_sec": null,
-      "views": 48,
-      "comments": 17,
-      "published_at": "2026-09-04T13:15:24+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
       "id": "hn:49625461",
       "title": "Teen reading slumps to worst this century due to surge in screen time",
       "url": "https://finance.yahoo.com/news/teen-reading-slumps-worst-century-111013754.html",
@@ -847,8 +1272,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49948254"
       },
       "duration_sec": null,
-      "views": 426,
-      "comments": 238,
+      "views": 483,
+      "comments": 267,
       "published_at": "2026-10-03T22:07:13+00:00",
       "summary": "",
       "matched_keyword": "fed",
@@ -904,7 +1329,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49875913"
       },
       "duration_sec": null,
-      "views": 328,
+      "views": 330,
       "comments": 190,
       "published_at": "2026-09-28T10:30:54+00:00",
       "summary": "",
@@ -924,7 +1349,7 @@
       },
       "duration_sec": null,
       "views": 255,
-      "comments": 248,
+      "comments": 249,
       "published_at": "2026-10-01T13:05:51+00:00",
       "summary": "",
       "matched_keyword": "fed",

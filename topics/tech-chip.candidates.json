@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-04T09:34:28.101740+00:00",
+  "fetched_at": "2026-10-05T10:15:43.589976+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/electric-car-makers-need-to-appeal-to-the-other-90/",
+      "title": "Electric Car Makers Need to Appeal to the ‘Other 90%’",
+      "url": "https://www.eetimes.com/electric-car-makers-need-to-appeal-to-the-other-90/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Charles Murray",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T05:30:55+00:00",
+      "summary": "Broader appeal for the electric car is a big challenge. Innovation is still the best solution. The post Electric Car Makers Need to Appeal to the ‘Other 90%’ appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/autosens-2026-regulations-drive-automotive-sensing-architectures/",
       "title": "AutoSens 2026: Regulation Drives Automotive Sensing Architectures",
       "url": "https://www.eetimes.com/autosens-2026-regulations-drive-automotive-sensing-architectures/",
@@ -342,23 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/advanced-strategies-for-heat-exchanger-manufacturing-in-evs-thermal-management-systems/",
-      "title": "Advanced Strategies for Heat Exchanger Manufacturing in EVs & Thermal Management Systems",
-      "url": "https://www.eetimes.com/advanced-strategies-for-heat-exchanger-manufacturing-in-evs-thermal-management-systems/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Solstice",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-30T13:42:54+00:00",
-      "summary": "Join us to explore how Praziflux® is transforming brazing processes across the EV industry and other thermal management applications. The post Advanced Strategies for Heat Exchanger Manufacturing in EVs &#038; Thermal Management Systems appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49906100"
       },
       "duration_sec": null,
-      "views": 272,
-      "comments": 125,
+      "views": 276,
+      "comments": 126,
       "published_at": "2026-09-30T08:43:21+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -465,7 +465,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49926773"
       },
       "duration_sec": null,
-      "views": 101,
+      "views": 104,
       "comments": 19,
       "published_at": "2026-10-01T20:36:47+00:00",
       "summary": "",
