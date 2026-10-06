@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-05T10:15:43.589976+00:00",
+  "fetched_at": "2026-10-06T10:01:46.464840+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/kepler-aims-to-launch-energy-saving-replacement-for-hbm-in-2027/",
+      "title": "Kepler Aims to Launch Energy-Saving Replacement for HBM in 2027",
+      "url": "https://www.eetimes.com/kepler-aims-to-launch-energy-saving-replacement-for-hbm-in-2027/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T20:00:00+00:00",
+      "summary": "Kepler targets 2027 production for 3D ferroelectric memory promising 5–10× better bandwidth per watt than HBM. The post Kepler Aims to Launch Energy-Saving Replacement for HBM in 2027 appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/trusted-ai-why-intelligence-alone-isnt-enough/",
+      "title": "Trusted AI: Why Intelligence Alone Isn’t Enough",
+      "url": "https://www.eetimes.com/trusted-ai-why-intelligence-alone-isnt-enough/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "EE Times",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T17:48:56+00:00",
+      "summary": "See how trusted AI combines intelligence, domain expertise, and deterministic verification to boost confidence in semiconductor design. The post Trusted AI: Why Intelligence Alone Isn’t Enough appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/access-granted-unlocking-building-safety-and-security-controls-with-audio/",
+      "title": "ACCESS GRANTED – Unlocking Building Safety and Security Controls with Audio",
+      "url": "https://www.eetimes.com/access-granted-unlocking-building-safety-and-security-controls-with-audio/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Same Sky and Arrow",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T16:08:24+00:00",
+      "summary": "This webinar will cover current controls, modern technology selection, application considerations, and tailored audio component choices. The post ACCESS GRANTED – Unlocking Building Safety and Security Controls with Audio appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/gpt-synopsys-combines-ic-design-eda-with-agentic-ai/",
+      "title": "GPT-Synopsys Combines IC Design EDA with Agentic AI",
+      "url": "https://www.eetimes.com/gpt-synopsys-combines-ic-design-eda-with-agentic-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T12:00:00+00:00",
+      "summary": "Synopsys joins OpenAI for a leap of faith in AI-native IC design by augmenting frontier models with EDA tools. The post GPT-Synopsys Combines IC Design EDA with Agentic AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/electric-car-makers-need-to-appeal-to-the-other-90/",
       "title": "Electric Car Makers Need to Appeal to the ‘Other 90%’",
       "url": "https://www.eetimes.com/electric-car-makers-need-to-appeal-to-the-other-90/",
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/small-electronics-manufacturers-save-big-on-erp/",
-      "title": "Small Electronics Manufacturers Save Big on ERP",
-      "url": "https://www.eetimes.com/small-electronics-manufacturers-save-big-on-erp/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "MRPeasy",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-01T13:00:00+00:00",
-      "summary": "Instead of traditional ERP, small electronics manufacturers are finding that affordable SME-focused manufacturing software provides needed functionality. The post Small Electronics Manufacturers Save Big on ERP appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/europe-space-industry-seeks-greater-supply-chain-control/",
-      "title": "Europe’s Space Industry Seeks Greater Supply Chain Control",
-      "url": "https://www.eetimes.com/europe-space-industry-seeks-greater-supply-chain-control/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-01T09:57:15+00:00",
-      "summary": "Europe's strategic space independence will depend on semiconductor supply chains, satellite networks, and 6G communications. The post Europe’s Space Industry Seeks Greater Supply Chain Control appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/emergence-ai-to-deploy-neuroformal-ai-with-fabless-chipmakers/",
-      "title": "Emergence AI Targets Fabless Chipmakers With Neuroformal AI",
-      "url": "https://www.eetimes.com/emergence-ai-to-deploy-neuroformal-ai-with-fabless-chipmakers/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-30T21:31:25+00:00",
-      "summary": "See how Emergence AI is deploying neuroformal AI with chipmakers to boost wafer yields and tackle fab, test, and packaging failures. The post Emergence AI Targets Fabless Chipmakers With Neuroformal AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/tsmcs-3-nm-ramp-looks-different-in-historical-context/",
-      "title": "TSMC’s 3-nm Ramp Looks Different in Historical Context",
-      "url": "https://www.eetimes.com/tsmcs-3-nm-ramp-looks-different-in-historical-context/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Ron Honig",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-30T15:40:17+00:00",
-      "summary": "TSMC’s 3-nm node nears the revenue lead, but history shows 7 nm ramped faster; compare the data before evaluating 2 nm. The post TSMC’s 3-nm Ramp Looks Different in Historical Context appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -389,7 +389,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49872723"
       },
       "duration_sec": null,
-      "views": 1090,
+      "views": 1091,
       "comments": 458,
       "published_at": "2026-09-28T02:05:13+00:00",
       "summary": "",
@@ -408,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49906100"
       },
       "duration_sec": null,
-      "views": 276,
+      "views": 278,
       "comments": 126,
       "published_at": "2026-09-30T08:43:21+00:00",
       "summary": "",
@@ -465,7 +465,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49926773"
       },
       "duration_sec": null,
-      "views": 104,
+      "views": 106,
       "comments": 19,
       "published_at": "2026-10-01T20:36:47+00:00",
       "summary": "",
@@ -484,7 +484,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49933958"
       },
       "duration_sec": null,
-      "views": 80,
+      "views": 82,
       "comments": 92,
       "published_at": "2026-10-02T14:30:32+00:00",
       "summary": "",
@@ -511,20 +511,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49657991",
-      "title": "How to Build a $20B Semiconductor Fab (2024)",
-      "url": "https://www.construction-physics.com/p/how-to-build-a-20-billion-semiconductor",
+      "id": "hn:49970667",
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49657991",
-        "name": "Bluestein",
-        "hn_url": "https://news.ycombinator.com/item?id=49657991"
+        "id": "49970667",
+        "name": "outlier99",
+        "hn_url": "https://news.ycombinator.com/item?id=49970667"
       },
       "duration_sec": null,
-      "views": 25,
-      "comments": 7,
-      "published_at": "2026-09-11T13:22:01+00:00",
+      "views": 357,
+      "comments": 238,
+      "published_at": "2026-10-05T21:00:21+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
       "lang": "en"
@@ -541,7 +541,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49844663"
       },
       "duration_sec": null,
-      "views": 402,
+      "views": 403,
       "comments": 900,
       "published_at": "2026-09-25T13:49:06+00:00",
       "summary": "",
