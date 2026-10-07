@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-06T10:01:32.776659+00:00",
+  "fetched_at": "2026-10-07T10:05:20.081362+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,7 +10,7 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 4,
-    "HN · IPO": 8,
+    "HN · IPO": 7,
     "HN · earnings": 0,
     "HN · Federal Reserve": 1,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 33,
+  "total": 32,
   "items": [
     {
       "id": "hn:49872723",
@@ -192,25 +192,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49594296",
-      "title": "OpenAI 2025 financials $38.5B loss ahead of IPO",
-      "url": "https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49594296",
-        "name": "u1hcw9nx",
-        "hn_url": "https://news.ycombinator.com/item?id=49594296"
-      },
-      "duration_sec": null,
-      "views": 33,
-      "comments": 6,
-      "published_at": "2026-09-07T05:41:13+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
       "id": "hn:49791944",
       "title": "Wall Street is growing skeptical of the data center boom",
       "url": "https://www.nytimes.com/2026/09/21/business/ai-data-center-ipos.html",
@@ -241,7 +222,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49937304"
       },
       "duration_sec": null,
-      "views": 119,
+      "views": 121,
       "comments": 47,
       "published_at": "2026-10-02T19:10:38+00:00",
       "summary": "",
