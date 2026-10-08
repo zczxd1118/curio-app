@@ -2,14 +2,14 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-07T10:05:20.081362+00:00",
+  "fetched_at": "2026-10-08T10:19:09.054514+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 4,
+    "HN · stock market": 3,
     "HN · IPO": 7,
     "HN · earnings": 0,
     "HN · Federal Reserve": 1,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 32,
+  "total": 31,
   "items": [
     {
       "id": "hn:49872723",
@@ -52,46 +52,27 @@
       },
       "duration_sec": null,
       "views": 99,
-      "comments": 152,
+      "comments": 153,
       "published_at": "2026-10-02T05:22:20+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
     },
     {
-      "id": "hn:49816810",
-      "title": "Trump's 1,156 July Stock Trades Involved AI, Big Oil, Weapons-Makers, and More",
-      "url": "https://www.commondreams.org/news/donald-trump-stock-trades",
+      "id": "hn:49997175",
+      "title": "The world has nearly burned through its oil stockpile buffer",
+      "url": "https://www.reuters.com/business/energy/world-has-nearly-burned-through-its-oil-stockpile-buffer-executives-say-2026-10-06/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49816810",
-        "name": "cirelli94",
-        "hn_url": "https://news.ycombinator.com/item?id=49816810"
+        "id": "49997175",
+        "name": "geox",
+        "hn_url": "https://news.ycombinator.com/item?id=49997175"
       },
       "duration_sec": null,
-      "views": 15,
-      "comments": 2,
-      "published_at": "2026-09-23T14:33:31+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49819274",
-      "title": "Morgan Stanley Investment-Bank Deal List Leaked in Email Misfire",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-investment-bank-deal-124657863.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49819274",
-        "name": "wslh",
-        "hn_url": "https://news.ycombinator.com/item?id=49819274"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 0,
-      "published_at": "2026-09-23T17:08:35+00:00",
+      "views": 38,
+      "comments": 14,
+      "published_at": "2026-10-07T18:50:58+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -165,7 +146,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49886005"
       },
       "duration_sec": null,
-      "views": 143,
+      "views": 144,
       "comments": 150,
       "published_at": "2026-09-28T23:40:59+00:00",
       "summary": "",
