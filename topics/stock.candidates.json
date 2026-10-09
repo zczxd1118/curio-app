@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-08T10:19:09.054514+00:00",
+  "fetched_at": "2026-10-09T10:19:55.528460+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,15 +10,15 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 3,
-    "HN · IPO": 7,
-    "HN · earnings": 0,
+    "HN · IPO": 5,
+    "HN · earnings": 1,
     "HN · Federal Reserve": 1,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 31,
+  "total": 30,
   "items": [
     {
       "id": "hn:49872723",
@@ -52,7 +52,7 @@
       },
       "duration_sec": null,
       "views": 99,
-      "comments": 153,
+      "comments": 154,
       "published_at": "2026-10-02T05:22:20+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -70,30 +70,11 @@
         "hn_url": "https://news.ycombinator.com/item?id=49997175"
       },
       "duration_sec": null,
-      "views": 38,
+      "views": 44,
       "comments": 14,
       "published_at": "2026-10-07T18:50:58+00:00",
       "summary": "",
       "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49619848",
-      "title": "Apple iPod Engraver (2019)",
-      "url": "https://dunstanorchard.com/apple-ipod-engraver/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49619848",
-        "name": "NaOH",
-        "hn_url": "https://news.ycombinator.com/item?id=49619848"
-      },
-      "duration_sec": null,
-      "views": 288,
-      "comments": 85,
-      "published_at": "2026-09-09T01:57:37+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
       "lang": "en"
     },
     {
@@ -111,25 +92,6 @@
       "views": 167,
       "comments": 32,
       "published_at": "2026-09-24T03:58:54+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49611240",
-      "title": "iPod Classic 6G in QEMU",
-      "url": "https://www.reddit.com/r/emulation/s/VL4Au2HGxq",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49611240",
-        "name": "dmonterocrespo",
-        "hn_url": "https://news.ycombinator.com/item?id=49611240"
-      },
-      "duration_sec": null,
-      "views": 162,
-      "comments": 47,
-      "published_at": "2026-09-08T14:54:57+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -204,10 +166,29 @@
       },
       "duration_sec": null,
       "views": 121,
-      "comments": 47,
+      "comments": 48,
       "published_at": "2026-10-02T19:10:38+00:00",
       "summary": "",
       "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50008977",
+      "title": "Frontier AI models outperform analysts on earnings prediction",
+      "url": "https://samaya.ai/blog/frontier-ai-models-outperform-human-experts-on-earnings-prediction",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50008977",
+        "name": "ashwinpp",
+        "hn_url": "https://news.ycombinator.com/item?id=50008977"
+      },
+      "duration_sec": null,
+      "views": 20,
+      "comments": 2,
+      "published_at": "2026-10-08T17:33:29+00:00",
+      "summary": "",
+      "matched_keyword": "earnings",
       "lang": "en"
     },
     {
