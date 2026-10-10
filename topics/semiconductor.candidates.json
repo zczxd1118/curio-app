@@ -2,13 +2,13 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-10-09T10:19:37.816889+00:00",
+  "fetched_at": "2026-10-10T09:39:42.082673+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
-    "SemiAnalysis（半导体首选深度）": 0,
+    "SemiAnalysis（半导体首选深度）": 10,
     "EE Times": 10,
     "AnandTech": 0,
     "Tom's Hardware": 30,
@@ -24,8 +24,246 @@
       "name": "default"
     }
   ],
-  "total": 52,
+  "total": 62,
   "items": [
+    {
+      "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+      "title": "xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
+      "url": "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Jeremie Eliahou Ontiveros",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-09-16T17:38:01+00:00",
+      "summary": "Much has been written about xAI’s Colossus 1. The Memphis build belongs in the history books: the largest AI training cluster, erected from scratch in 122 days. With roughly 200,000 H100/H200s and ~30,000 GB200 NVL72, it remains, today, the largest fully operational, single-coherent cluster (setting apart Google, master of multi-datacenter-training). However, Colossus 1’s ~300 MW [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
+      "title": "Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack",
+      "url": "https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Dylan Patel",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-09-10T19:57:18+00:00",
+      "summary": "Nvidia announced the Rubin CPX, a solution that is specifically designed to be optimized for the prefill phase, with the single-die Rubin CPX heavily emphasizing compute FLOPS over memory bandwidth. This is a game changer for inference, and its significance is surpassed only by the March 2024 announcement of the GB200 NVL72 Oberon rack-scale form [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
+      "title": "Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck",
+      "url": "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Dylan Patel",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-09-08T09:54:57+00:00",
+      "summary": "Compute is the lifeblood of AI. He who controls the spice controls the universe the compute will control the production of tokens and reap the benefits of AI. Without compute you do not have a seat at the table. The United States technology community is all in on compute and AI as the next platform [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
+      "title": "Amazon’s AI Resurgence: AWS & Anthropic’s Multi-Gigawatt Trainium Expansion",
+      "url": "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Jeremie Eliahou Ontiveros",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-09-03T20:55:46+00:00",
+      "summary": "Two-and-a-half years ago, we flagged a looming “cloud crisis” at AWS. Today, the evidence has mounted. AWS is the crown jewel of the Amazon empire, generating ~60% of group profits, and dominating the lucrative Cloud Computing market. But it struggles to translate this strength into the new GPU/XPU Cloud era. Microsoft Azure now leads the [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
+      "title": "H100 vs GB200 NVL72 Training Benchmarks – Power, TCO, and Reliability Analysis, Software Improvement Over Time",
+      "url": "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Dylan Patel",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-08-20T04:56:35+00:00",
+      "summary": "Frontier model training has pushed GPUs and AI systems to their absolute limits, making cost, efficiency, power, performance per TCO, and reliability central to the discussion on effective training. The Hopper vs Blackwell comparisons are not as simple as Nvidia would have you believe. In this report, we will start by present the results of [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
+      "title": "GPT-5 Set the Stage for Ad Monetization and the SuperApp",
+      "url": "https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Doug OLaughlin",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-08-13T00:27:14+00:00",
+      "summary": "To many power users (Pro and Plus), GPT5 was a disappointing release. But with closer inspection, the real release is focused on the vast majority of ChatGPT’s users, which is the 700m+ free userbase that is growing rapidly. Power users should be disappointed; this release wasn’t for them. The real consumer opportunity for OpenAI lies [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
+      "title": "Scaling the Memory Wall: The Rise and Roadmap of HBM",
+      "url": "https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Dylan Patel",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-08-12T01:16:06+00:00",
+      "summary": "The first portion of this report will explain HBM, the manufacturing process, dynamics between vendors, KVCache offload, disaggregated prefill decode, and wide / high-rank EP. The rest of the report will dive deeply into the future of HBM. We will cover the revolutionary change coming to HBM4 with custom base dies for HBM, what various [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
+      "title": "Robotics Levels of Autonomy",
+      "url": "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Reyk Knuhtsen",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-07-30T17:02:25+00:00",
+      "summary": "Robots have powered manufacturing for decades, yet they stayed single-purpose and thrived only in perfect settings. Previous attempts at intelligent machines overpromised and underdelivered. But they were too early. Today, modern AI paradigms convert most robot roadblocks into data problems and push machines toward capabilities once thought impossible. As these models absorb real-world experience, robots [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/07/21/vlsi2025/",
+      "title": "Intel 18A Details & Cost, Future of DRAM 4F2 vs 3D, Backside Power Adoption (or Not), China’s FlipFET, Digital Twins from Atoms to Fabs, and More",
+      "url": "https://semianalysis.com/2025/07/21/vlsi2025/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Dylan Patel",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-07-21T14:23:37+00:00",
+      "summary": "Long time readers will recall that SemiAnalysis covers more than just datacenters and AMD. Today we’re back to semiconductors with a tech-focused roundup of the best from this year’s VLSI conference, the premiere design and integration. That includes the latest in chips manufacturing: fab digital twins, the future of advanced logic transistors and interconnects, DRAM [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
+      "title": "Meta Superintelligence – Leadership Compute, Talent, and Data",
+      "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.semianalysis.com/feed",
+        "name": "Dylan Patel",
+        "feed_title": "SemiAnalysis"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2025-07-11T20:12:19+00:00",
+      "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/manfred-horstmann-globalfoundries-bets-on-fdx-fusion-for-physical-ai/",
+      "title": "Manfred Horstmann: GlobalFoundries Bets on FDX Fusion for Physical AI",
+      "url": "https://www.eetimes.com/manfred-horstmann-globalfoundries-bets-on-fdx-fusion-for-physical-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T22:00:00+00:00",
+      "summary": "GlobalFoundries said strained-silicon FD-SOI can deliver 7-nm-class performance without EUV and open a new market for Europe. The post Manfred Horstmann: GlobalFoundries Bets on FDX Fusion for Physical AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/solid-state-transformers-accelerate-your-sst-design/",
+      "title": "Solid-State Transformers: Accelerate Your SST Design",
+      "url": "https://www.eetimes.com/solid-state-transformers-accelerate-your-sst-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Infineon Technologies, Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T15:38:47+00:00",
+      "summary": "Join our expert-led webinar to explore Infineon's comprehensive portfolio for Solid-State Transformers (SSTs). The post Solid-State Transformers: Accelerate Your SST Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/connecting-chiplets-isnt-enough-solving-the-data-movement-challenge-in-multi-die-systems/",
+      "title": "Connecting Chiplets Isn’t Enough – Solving the Data Movement Challenge in Multi-Die Systems",
+      "url": "https://www.eetimes.com/connecting-chiplets-isnt-enough-solving-the-data-movement-challenge-in-multi-die-systems/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Arteris",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T14:21:07+00:00",
+      "summary": "Join this BitCast and explore how extending NoC connectivity across die boundaries enables engineering teams to scale from monolithic SoCs to multi-die architectures. The post Connecting Chiplets Isn’t Enough &#8211; Solving the Data Movement Challenge in Multi-Die Systems appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/u-s-manufacturing-activity-sustains-growth-in-september-as-backlogs-surge/",
+      "title": "U.S. Manufacturing Activity Sustains Growth in September as Backlogs Surge",
+      "url": "https://www.eetimes.com/u-s-manufacturing-activity-sustains-growth-in-september-as-backlogs-surge/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "News Desk",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T12:11:04+00:00",
+      "summary": "Manufacturing maintains nine-month growth streak despite soaring costs and trade barriers. The post U.S. Manufacturing Activity Sustains Growth in September as Backlogs Surge appeared first on EE Times.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://www.eetimes.com/physical-ai-needs-a-neuromorphic-path-from-sensor-to-silicon/",
       "title": "Physical AI Needs a Neuromorphic Path from Sensor to Silicon",
@@ -129,71 +367,122 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/rising-costs-compute-demand-push-adas-toward-modular-ai/",
-      "title": "Rising Costs, Compute Demand Push ADAS Toward Modular AI",
-      "url": "https://www.eetimes.com/rising-costs-compute-demand-push-adas-toward-modular-ai/",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/gigabytes-latest-bios-update-hints-at-intels-raptor-lake-next-launch-in-2027-new-cpus-may-support-both-ddr4-and-ddr5-memory",
+      "title": "Gigabyte's latest BIOS update hints at Intel's Raptor Lake Next Launch in 2027",
+      "url": "https://www.tomshardware.com/pc-components/cpus/gigabytes-latest-bios-update-hints-at-intels-raptor-lake-next-launch-in-2027-new-cpus-may-support-both-ddr4-and-ddr5-memory",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T13:00:00+00:00",
-      "summary": "Rising semiconductor costs and computing requirements drive automakers toward modular ADAS AI solutions. The post Rising Costs, Compute Demand Push ADAS Toward Modular AI appeared first on EE Times.",
+      "published_at": "2026-10-09T13:43:01+00:00",
+      "summary": "Gigabyte confirms BIOS support for upcoming Intel LGA 1700 processors on B760 and H610 motherboards, with the rumored Raptor Lake Next lineup expected in early 2027 to support both DDR4 and DDR5 memory.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/breaking-the-ai-infrastructure-power-wall-from-grid-to-xpu/",
-      "title": "Breaking the AI Infrastructure Power Wall: From Grid to xPU",
-      "url": "https://www.eetimes.com/breaking-the-ai-infrastructure-power-wall-from-grid-to-xpu/",
+      "id": "rss:https://www.tomshardware.com/software/cloud-storage/microsoft-365-slashes-storage-capacity-for-shared-accounts-amid-industry-wide-shortages-2tb-limit-to-take-effect-after-april-2027",
+      "title": "Microsoft 365 slashes storage capacity for shared accounts amid industry-wide shortages",
+      "url": "https://www.tomshardware.com/software/cloud-storage/microsoft-365-slashes-storage-capacity-for-shared-accounts-amid-industry-wide-shortages-2tb-limit-to-take-effect-after-april-2027",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Navitas",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T12:36:33+00:00",
-      "summary": "Register now for our webinar to discover how Navitas 2.0 is revolutionizing AI infrastructure power delivery. The post Breaking the AI Infrastructure Power Wall: From Grid to xPU appeared first on EE Times.",
+      "published_at": "2026-10-09T12:51:59+00:00",
+      "summary": "This effectively increases the costs for large users, although it may benefit those who have family members that don't take up much cloud storage space.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/rohm-semiconductor-expands-back-end-chip-manufacturing-outsourcing/",
-      "title": "Rohm Semiconductor Expands Back-End Chip Manufacturing Outsourcing",
-      "url": "https://www.eetimes.com/rohm-semiconductor-expands-back-end-chip-manufacturing-outsourcing/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/pc-shipments-tumble-over-20-percent-in-3q26-as-chip-shortages-bite-top-three-pc-vendors-ship-11-6-million-fewer-units-year-over-year",
+      "title": "PC shipments tumble over 20% in 3Q26 as chip shortages bite",
+      "url": "https://www.tomshardware.com/tech-industry/pc-shipments-tumble-over-20-percent-in-3q26-as-chip-shortages-bite-top-three-pc-vendors-ship-11-6-million-fewer-units-year-over-year",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T07:18:51+00:00",
-      "summary": "Rohm Semiconductor retains wafer fabrication in-house as it expands its back-end semiconductor operations and R&#038;D footprint in India. The post Rohm Semiconductor Expands Back-End Chip Manufacturing Outsourcing appeared first on EE Times.",
+      "published_at": "2026-10-09T11:10:05+00:00",
+      "summary": "PC shipments for the third quarter of 2026 drop by 15.8 million units, with Lenovo, HP, and Dell being hit the hardest. Memory chip manufacturers estimate that the situation will not improve until 2028 or 2029, even as Acer believes that PC prices will decline by late 2027.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/can-ai-be-trusted-synopsys-on-agentic-ai-and-autonomous-engineering/",
-      "title": "Can AI Be Trusted? Synopsys on Agentic AI and Autonomous Engineering",
-      "url": "https://www.eetimes.com/can-ai-be-trusted-synopsys-on-agentic-ai-and-autonomous-engineering/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/independent-tests-rank-mistrals-new-trillion-parameter-large-4-the-best-ai-model-outside-the-u-s-and-china-but-chinese-open-weights-still-overcome-europes-best-efforts",
+      "title": "Mistral’s new Large 4 trails some Chinese open models in independent tests",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/independent-tests-rank-mistrals-new-trillion-parameter-large-4-the-best-ai-model-outside-the-u-s-and-china-but-chinese-open-weights-still-overcome-europes-best-efforts",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-07T20:07:11+00:00",
-      "summary": "See how Synopsys uses agentic AI to orchestrate trusted EDA tools for precise, explainable chip design, and faster engineering workflows. The post Can AI Be Trusted? Synopsys on Agentic AI and Autonomous Engineering appeared first on EE Times.",
+      "published_at": "2026-10-09T11:00:00+00:00",
+      "summary": "Artificial Analysis scores Mistral’s new Large 4 at 38, behind open models from Xiaomi, Z.ai, Moonshot, and DeepSeek.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/grab-this-32-inch-4k-oled-gaming-monitor-from-asrock-for-the-super-low-price-of-usd596-dual-mode-refresh-rates-and-resolutions-let-you-switch-between-high-fidelity-and-esports-gaming",
+      "title": "Grab this 32-inch 4K OLED gaming monitor from ASRock for the super low price of $596",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/grab-this-32-inch-4k-oled-gaming-monitor-from-asrock-for-the-super-low-price-of-usd596-dual-mode-refresh-rates-and-resolutions-let-you-switch-between-high-fidelity-and-esports-gaming",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T10:56:13+00:00",
+      "summary": "Save 33% on the 32-inch ASRock Phantom Gaming 4K OLED gaming monitor at Newegg.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/macbooks/save-usd200-on-the-2026-m5-macbook-air-right-now-undoing-apples-june-price-hike-with-prices-starting-from-usd1-099-amazon-deal-nets-you-current-gen-models-with-16gb-or-24gb-ram-and-up-to-1tb-storage",
+      "title": "Save $200 on the 2026 M5 MacBook Air right now, undoing Apple's June price hike with prices starting from $1,099",
+      "url": "https://www.tomshardware.com/laptops/macbooks/save-usd200-on-the-2026-m5-macbook-air-right-now-undoing-apples-june-price-hike-with-prices-starting-from-usd1-099-amazon-deal-nets-you-current-gen-models-with-16gb-or-24gb-ram-and-up-to-1tb-storage",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T10:47:15+00:00",
+      "summary": "Grab Apple's 2026 MacBook Air with M5 chip for $1,099 right now, a $200 price drop that knocks it back to its early 2026 pricing.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ssds/kioxia-unveils-e1-l-ssds-for-hyperscalers-with-up-to-122-88tb-capacity-extreme-density-meets-compact-form-factor",
+      "title": "Kioxia unveils E1.L SSDs for hyperscalers with up to 122.88TB capacity",
+      "url": "https://www.tomshardware.com/pc-components/ssds/kioxia-unveils-e1-l-ssds-for-hyperscalers-with-up-to-122-88tb-capacity-extreme-density-meets-compact-form-factor",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T10:30:00+00:00",
+      "summary": "Kioxia's LD4-series SSDs can store up to 122.88TB of data in a compact form-factor, but its performance remains a mystery.",
       "lang": "en"
     },
     {
@@ -232,7 +521,7 @@
     },
     {
       "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-to-produce-silicon-interposers-for-tsmcs-cowos-in-the-us-five-year-agreement-valued-at-usd2-billion",
-      "title": "GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US — Five-year agreement valued at $2 billion",
+      "title": "GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-to-produce-silicon-interposers-for-tsmcs-cowos-in-the-us-five-year-agreement-valued-at-usd2-billion",
       "platform": "rss",
       "source": {
@@ -249,7 +538,7 @@
     },
     {
       "id": "rss:https://www.tomshardware.com/tech-industry/policy/u-s-suspends-green-card-path-for-h-1b-workers-at-microsoft-and-adobe-labor-certification-program-blocked-due-to-alleged-fraud",
-      "title": "U.S. suspends green card path for H-1B workers at Microsoft and Adobe — labor certification program blocked due to alleged fraud",
+      "title": "U.S. suspends green card path for H-1B workers at Microsoft and Adobe",
       "url": "https://www.tomshardware.com/tech-industry/policy/u-s-suspends-green-card-path-for-h-1b-workers-at-microsoft-and-adobe-labor-certification-program-blocked-due-to-alleged-fraud",
       "platform": "rss",
       "source": {
@@ -588,125 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/desktops/pc-building/these-are-the-best-prime-day-deals-ive-found-on-tools-i-use-to-maintain-my-pc-from-screwdrivers-to-air-blowers-these-tools-will-keep-your-pc-in-tip-top-shape",
-      "title": "These are the best Prime Day deals I've found on tools I use to maintain my PC",
-      "url": "https://www.tomshardware.com/desktops/pc-building/these-are-the-best-prime-day-deals-ive-found-on-tools-i-use-to-maintain-my-pc-from-screwdrivers-to-air-blowers-these-tools-will-keep-your-pc-in-tip-top-shape",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Joe Shields",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T01:39:00+00:00",
-      "summary": "You really do need all of these tools to keep your electronics in good order, and luckily they are all on offer.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/this-is-the-cheapest-4tb-ssd-for-prime-day-at-only-10-cents-per-gigabyte-usd399-teamgroup-g50-evo-is-a-speedy-pcie-4-0-drive-at-cut-throat-pricing",
-      "title": "This is the cheapest 4TB SSD for Prime Day at only 10 cents per gigabyte",
-      "url": "https://www.tomshardware.com/pc-components/this-is-the-cheapest-4tb-ssd-for-prime-day-at-only-10-cents-per-gigabyte-usd399-teamgroup-g50-evo-is-a-speedy-pcie-4-0-drive-at-cut-throat-pricing",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T00:00:17+00:00",
-      "summary": "Hold the press: TeamGroup G50 EVO 4 TB NVMe drive for $399.99 — speedy PCIe 4.0 unit for only 10 cents a gigabyte",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/elevate-your-steam-deck-and-rog-allys-ssd-storage-for-just-usd0-13-per-gb-rare-discount-brings-wd-black-sn770m-2tb-back-to-near-launch-price",
-      "title": "Elevate your Steam Deck and ROG Ally's SSD storage for just $0.13 per GB",
-      "url": "https://www.tomshardware.com/pc-components/ssds/elevate-your-steam-deck-and-rog-allys-ssd-storage-for-just-usd0-13-per-gb-rare-discount-brings-wd-black-sn770m-2tb-back-to-near-launch-price",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T23:35:11+00:00",
-      "summary": "The WD Black SN770M 2TB SSD is currently on sale for $259.99, just 8% over the PCIe 4.0's launch price before the storage shortage.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/pre-orders-are-live-on-nvidia-rtx-spark-devices-secure-the-surface-laptop-ultra-or-other-rtx-spark-laptop-starting-at-usd2-599-pricing-and-availability-revealed-on-several-models",
-      "title": "Pre-orders are live on Nvidia RTX Spark devices, secure the Surface Laptop Ultra or other RTX Spark laptops here — starting at $2,599",
-      "url": "https://www.tomshardware.com/laptops/pre-orders-are-live-on-nvidia-rtx-spark-devices-secure-the-surface-laptop-ultra-or-other-rtx-spark-laptop-starting-at-usd2-599-pricing-and-availability-revealed-on-several-models",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T22:52:39+00:00",
-      "summary": "Pre-orders are live on Nvidia RTX Spark laptops, including the Microsoft Surface Laptop Ultra and devices from HP, Lenovo, Asus, and Dell.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/the-logitech-g29-racing-wheel-and-pedal-set-with-real-force-feedback-is-back-on-sale-with-steep-37-percent-discount-get-a-start-to-a-racing-sim-for-usd190",
-      "title": "The Logitech G29 racing wheel and pedal set is back on sale with steep 37% discount",
-      "url": "https://www.tomshardware.com/pc-components/the-logitech-g29-racing-wheel-and-pedal-set-with-real-force-feedback-is-back-on-sale-with-steep-37-percent-discount-get-a-start-to-a-racing-sim-for-usd190",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T21:20:00+00:00",
-      "summary": "The Logitech G29 is on a 37% discount during Prime Big Deal Days, dropping its price to just $189.98.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/gaming-mice/do-you-need-a-mouse-with-an-8k-polling-rate",
-      "title": "Do you need a mouse with an 8K polling rate?",
-      "url": "https://www.tomshardware.com/peripherals/gaming-mice/do-you-need-a-mouse-with-an-8k-polling-rate",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sarah Jacobsson Purewal",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T21:10:00+00:00",
-      "summary": "A gaming mouse with an 8,000 Hz polling rate sounds awesome and speedy on paper, but let's take a look at what that actually means.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/handheld-gaming/get-a-great-deal-on-the-original-msi-claw-during-best-buy-clearance-sale-handheld-with-intel-core-ultra-7-155h-and-1tb-ssd-is-just-usd562-usd187-off-list-price",
-      "title": "Sneak a great deal on the original MSI Claw during Best Buy clearance sale",
-      "url": "https://www.tomshardware.com/video-games/handheld-gaming/get-a-great-deal-on-the-original-msi-claw-during-best-buy-clearance-sale-handheld-with-intel-core-ultra-7-155h-and-1tb-ssd-is-just-usd562-usd187-off-list-price",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T21:00:24+00:00",
-      "summary": "The MSI Claw A1M is on a clearance sale at Best Buy right now, knocking $187 off list price for a $562 handheld with 1TB of storage.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -776,7 +946,7 @@
       },
       "duration_sec": null,
       "views": 230,
-      "comments": 299,
+      "comments": 298,
       "published_at": "2026-09-28T15:46:36+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -832,8 +1002,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50008187"
       },
       "duration_sec": null,
-      "views": 391,
-      "comments": 261,
+      "views": 424,
+      "comments": 300,
       "published_at": "2026-10-08T16:45:58+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -871,7 +1041,7 @@
       },
       "duration_sec": null,
       "views": 493,
-      "comments": 340,
+      "comments": 339,
       "published_at": "2026-10-05T21:00:21+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",

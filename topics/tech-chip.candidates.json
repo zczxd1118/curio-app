@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-09T10:20:08.069498+00:00",
+  "fetched_at": "2026-10-10T09:40:13.665294+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/manfred-horstmann-globalfoundries-bets-on-fdx-fusion-for-physical-ai/",
+      "title": "Manfred Horstmann: GlobalFoundries Bets on FDX Fusion for Physical AI",
+      "url": "https://www.eetimes.com/manfred-horstmann-globalfoundries-bets-on-fdx-fusion-for-physical-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T22:00:00+00:00",
+      "summary": "GlobalFoundries said strained-silicon FD-SOI can deliver 7-nm-class performance without EUV and open a new market for Europe. The post Manfred Horstmann: GlobalFoundries Bets on FDX Fusion for Physical AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/solid-state-transformers-accelerate-your-sst-design/",
+      "title": "Solid-State Transformers: Accelerate Your SST Design",
+      "url": "https://www.eetimes.com/solid-state-transformers-accelerate-your-sst-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Infineon Technologies, Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T15:38:47+00:00",
+      "summary": "Join our expert-led webinar to explore Infineon's comprehensive portfolio for Solid-State Transformers (SSTs). The post Solid-State Transformers: Accelerate Your SST Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/connecting-chiplets-isnt-enough-solving-the-data-movement-challenge-in-multi-die-systems/",
+      "title": "Connecting Chiplets Isn’t Enough – Solving the Data Movement Challenge in Multi-Die Systems",
+      "url": "https://www.eetimes.com/connecting-chiplets-isnt-enough-solving-the-data-movement-challenge-in-multi-die-systems/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Arteris",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T14:21:07+00:00",
+      "summary": "Join this BitCast and explore how extending NoC connectivity across die boundaries enables engineering teams to scale from monolithic SoCs to multi-die architectures. The post Connecting Chiplets Isn’t Enough &#8211; Solving the Data Movement Challenge in Multi-Die Systems appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/u-s-manufacturing-activity-sustains-growth-in-september-as-backlogs-surge/",
+      "title": "U.S. Manufacturing Activity Sustains Growth in September as Backlogs Surge",
+      "url": "https://www.eetimes.com/u-s-manufacturing-activity-sustains-growth-in-september-as-backlogs-surge/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "News Desk",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T12:11:04+00:00",
+      "summary": "Manufacturing maintains nine-month growth streak despite soaring costs and trade barriers. The post U.S. Manufacturing Activity Sustains Growth in September as Backlogs Surge appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/physical-ai-needs-a-neuromorphic-path-from-sensor-to-silicon/",
       "title": "Physical AI Needs a Neuromorphic Path from Sensor to Silicon",
       "url": "https://www.eetimes.com/physical-ai-needs-a-neuromorphic-path-from-sensor-to-silicon/",
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/rising-costs-compute-demand-push-adas-toward-modular-ai/",
-      "title": "Rising Costs, Compute Demand Push ADAS Toward Modular AI",
-      "url": "https://www.eetimes.com/rising-costs-compute-demand-push-adas-toward-modular-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T13:00:00+00:00",
-      "summary": "Rising semiconductor costs and computing requirements drive automakers toward modular ADAS AI solutions. The post Rising Costs, Compute Demand Push ADAS Toward Modular AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/breaking-the-ai-infrastructure-power-wall-from-grid-to-xpu/",
-      "title": "Breaking the AI Infrastructure Power Wall: From Grid to xPU",
-      "url": "https://www.eetimes.com/breaking-the-ai-infrastructure-power-wall-from-grid-to-xpu/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Navitas",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T12:36:33+00:00",
-      "summary": "Register now for our webinar to discover how Navitas 2.0 is revolutionizing AI infrastructure power delivery. The post Breaking the AI Infrastructure Power Wall: From Grid to xPU appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/rohm-semiconductor-expands-back-end-chip-manufacturing-outsourcing/",
-      "title": "Rohm Semiconductor Expands Back-End Chip Manufacturing Outsourcing",
-      "url": "https://www.eetimes.com/rohm-semiconductor-expands-back-end-chip-manufacturing-outsourcing/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T07:18:51+00:00",
-      "summary": "Rohm Semiconductor retains wafer fabrication in-house as it expands its back-end semiconductor operations and R&#038;D footprint in India. The post Rohm Semiconductor Expands Back-End Chip Manufacturing Outsourcing appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/can-ai-be-trusted-synopsys-on-agentic-ai-and-autonomous-engineering/",
-      "title": "Can AI Be Trusted? Synopsys on Agentic AI and Autonomous Engineering",
-      "url": "https://www.eetimes.com/can-ai-be-trusted-synopsys-on-agentic-ai-and-autonomous-engineering/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T20:07:11+00:00",
-      "summary": "See how Synopsys uses agentic AI to orchestrate trusted EDA tools for precise, explainable chip design, and faster engineering workflows. The post Can AI Be Trusted? Synopsys on Agentic AI and Autonomous Engineering appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -428,7 +428,7 @@
       },
       "duration_sec": null,
       "views": 230,
-      "comments": 299,
+      "comments": 298,
       "published_at": "2026-09-28T15:46:36+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -484,8 +484,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50008187"
       },
       "duration_sec": null,
-      "views": 391,
-      "comments": 261,
+      "views": 424,
+      "comments": 300,
       "published_at": "2026-10-08T16:45:58+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -523,7 +523,7 @@
       },
       "duration_sec": null,
       "views": 493,
-      "comments": 340,
+      "comments": 339,
       "published_at": "2026-10-05T21:00:21+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",

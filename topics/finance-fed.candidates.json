@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-10-09T10:20:02.929944+00:00",
+  "fetched_at": "2026-10-10T09:40:08.364062+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,16 +11,33 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 25,
+    "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 1,
     "HN · inflation": 5,
-    "HN · Tesla": 1,
+    "HN · Tesla": 2,
     "HN · finance": 9,
     "HN · fed": 13
   },
   "subtopics": [],
-  "total": 83,
+  "total": 59,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/its-not-you-its-me/",
+      "title": "2026.41: It’s Not You, It’s Me",
+      "url": "https://stratechery.com/2026/its-not-you-its-me/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/an-interview-with-katie-harbath-about-disrupting-politics-at-facebook/",
       "title": "An Interview with Katie Harbath About Disrupting Politics at Facebook",
@@ -172,23 +189,6 @@
       "views": null,
       "published_at": "2026-09-28T10:25:37+00:00",
       "summary": "Agents are the ultimate Aggregators; they reveal apps as a means, not an ends, and providing them is tech's biggest prize.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/begun-the-aggregator-wars-have/",
-      "title": "2026.39: Begun, the Aggregator Wars Have",
-      "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-25T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of September 21, 2026, including Meta vs. Amazon, GM bending the knee to CarPlay, and profiling the profiler.",
       "lang": "en"
     },
     {
@@ -532,431 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arxiv.org/abs/2610.10606",
-      "title": "The Gendered Impacts of Perceived Skin Tone: Evidence from African American Siblings in 1870-1940",
-      "url": "https://arxiv.org/abs/2610.10606",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Ran Abramitzky, Jacob Conway, Roy Mill, Luke C. D. Stein",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.10606v1 Announce Type: new Abstract: We study differences in economic outcomes by perceived skin tone among African Americans using full-count U.S. decennial census data from the late-19th and early-20th centuries. Comparing children coded as \"Black\" or \"Mulatto\" by census enumerators and linking these children across population censuses, we first document large gaps in educational attainment and income among African Americans with darker and lighter perceived skin tones. To disentang...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.10727",
-      "title": "Deep Learning vs. Statistical Models for Multi-Horizon Price Forecasting of Second-Hand Electronics: A Systematic Benchmark",
-      "url": "https://arxiv.org/abs/2610.10727",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Mateusz Buczy\\'nski, Micha{\\l} Wo\\'zniak, Konrad Kaczy\\'nski, Anna Wr\\'oblewska, Sebastian Kuk",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.10727v1 Announce Type: new Abstract: Forecasting resale prices of used electronics is critical for subscription-based platforms where pricing errors translate directly into risk. Unlike structured financial markets, second-hand electronics exhibit high volatility, sparse listing histories, and non-normal price dynamics - yet no systematic time-series benchmark exists for this domain. This paper presents the first multi-horizon benchmark of statistical and deep learning forecasting mod...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.11093",
-      "title": "Risk Ceilings and Development Deadlines: Pacing AI under Uncertain Safety Productivity",
-      "url": "https://arxiv.org/abs/2610.11093",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Li Gan",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.11093v1 Announce Type: new Abstract: Can a regulator promise both a risk ceiling and a development deadline when safety productivity is unknown? A ceiling below the final model's unprotected hazard requires a minimum stock of safety knowledge, so both promises hold only if weak research can be ruled out. Learning first and then replaying development, with spare compute in safety, comes close to that minimum. In a calibration with only state risk, constant safety yield, and full knowle...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.11256",
-      "title": "Who Leads and Who Collects:Algorithmic Collusion in Markets of Heterogeneous Language Models",
-      "url": "https://arxiv.org/abs/2610.11256",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Jun Yeong Lee",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.11256v1 Announce Type: new Abstract: Evidence that pricing algorithms collude comes from markets in which every seller runs the same algorithm. We ask what happens when they do not. Four language models from four providers, each at its cheapest tier, price in a four-firm logit Bertrand market without communication, in every homogeneous, two-by-two and fully mixed composi- tion (11 cells, 20 runs, 200 periods). Collusion is a property of the model: Claude and Gemini markets reach 72 to...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.11691",
-      "title": "Diffusive Market Impact: A Consistent Microfoundation",
-      "url": "https://arxiv.org/abs/2610.11691",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Julius F. Bonart",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.11691v1 Announce Type: new Abstract: Structural price diffusivity explains many empirical regularities of market impact including the ``square-root law'' and its crossover to a linear regime for low trading rates \\citep{bonart2026diffusive}. One of its central predictions is that an information-neutral trading strategy generates a diffusive impact state. We microfound this result in an economy with a trader and many arbitrageurs who progressively eliminate predictable returns. Each ar...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.11822",
-      "title": "Weighted selection from elliptical distributions: a stochastic representation and an application to portfolio separation",
-      "url": "https://arxiv.org/abs/2610.11822",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Nils Chr Framstad",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.11822v1 Announce Type: new Abstract: We represent (weighted-)selection-elliptical distributions as an affine combination of the $q$ selection variables plus an elliptical term whose direction alone is independent. This form suffices for $q+2$ fund separation via first-order stochastic dominance, inter alia relaxing Simaan's (1993) three-fund assumptions.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.11917",
-      "title": "Multi-period Mean-Expectile Portfolio Optimization under Wasserstein Ambiguity: Reformulation, Degeneracy and the Role of the Ground Metric",
-      "url": "https://arxiv.org/abs/2610.11917",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Rupendra Yadav, Aparna Mehra",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.11917v1 Announce Type: new Abstract: Expectiles are the only law-invariant risk measures that are both coherent and elicitable. Unlike Conditional Value-at-Risk (CVaR), however, they do not admit a Rockafellar--Uryasev representation that admits tractable Wasserstein reformulations. We address this difficulty by developing an envelope theorem for worst-case expectiles that characterizes the worst-case expectile over a Wasserstein ambiguity set as the unique root of a worst-case expect...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.12049",
-      "title": "The Myth of Restrictive Working-Time Agreements: Firms' Working-Time Adjustment after Exit from Collective Bargaining",
-      "url": "https://arxiv.org/abs/2610.12049",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Vinzenz Pyka, Andr\\'e Rieder",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.12049v1 Announce Type: new Abstract: Employers in Germany argue that collective agreements restrict their flexibility concerning working hours. Using data from the IAB Establishment Panel for the years 2008 to 2024, we investigate working-time adjustments after exit from collective bargaining. We find that exit is associated with only a modest increase in weekly working hours of around 0.3 to 0.6 per cent using fixed-effects and event-study models, corresponding to eight to thirteen a...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.12186",
-      "title": "Microfinance Competition in the Presence of Moneylenders: Theory and Evidence",
-      "url": "https://arxiv.org/abs/2610.12186",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Shyamal Chowdhury, Prabal Roy Chowdhury, Joeri Smits",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.12186v1 Announce Type: new Abstract: After decades of microfinance expansion and despite charging higher interest rates, moneylenders continue to exist alongside microfinance institutions (MFIs). We develop a dynamic model with ex post moral hazard, in which borrowers use MFI loans for production and can rely on moneylenders for bridge loans after shocks to repay MFIs and preserve future access to MFI credit. We then study how MFI competition shapes the coexistence between MFIs and mo...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2410.23002",
-      "title": "Real interest rates, exchange rates and growth in three emerging economies: an exploratory analysis of Brazil, India and Nigeria",
-      "url": "https://arxiv.org/abs/2410.23002",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Hugo Spring-Ragain (HEIP)",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2410.23002v2 Announce Type: replace Abstract: This paper studies the dynamic relationships between real growth, the real lending interest rate and the exchange rate in Brazil, India and Nigeria over 2000-2022. The theoretical framework places these relationships within the literature on the procyclicality of macroeconomic policies, ``fear of floating'' and the global financial cycle, without treating the observed variables as monetary policy instruments directly controlled by central banks...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2506.06410",
-      "title": "Delphos: A reinforcement learning framework for assisting discrete choice model specification",
-      "url": "https://arxiv.org/abs/2506.06410",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Gabriel Nova, Stephane Hess, Sander van Cranenburgh",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2506.06410v4 Announce Type: replace Abstract: We introduce Delphos, a deep reinforcement learning framework for assisting discrete choice model specification process. Delphos aims to support the modeller by providing automated, data-driven suggestions for model specifications, thereby reducing the effort required to develop and refine utility functions. Delphos conceptualises model specification as a sequential decision-making problem, inspired by the way human choice modellers iteratively...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2511.00190",
-      "title": "Deep reinforcement learning for optimal trading with partial information",
-      "url": "https://arxiv.org/abs/2511.00190",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Andrea Macr\\`i, Sebastian Jaimungal, Fabrizio Lillo",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2511.00190v2 Announce Type: replace Abstract: Reinforcement Learning (RL) has attracted increasing interest in financial applications, including optimal trading and execution. However, the use of RL for optimal trading strategies that exploit latent information in the market has been, to the best of our knowledge, subject to little attention. In this paper, we consider an optimal trading problem in which the trading signal follows an Ornstein-Uhlenbeck process with regime switching paramet...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2603.23825",
-      "title": "Trade Liberalization and Product Innovation: The Dynamic Role of Exporting",
-      "url": "https://arxiv.org/abs/2603.23825",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Sizhong Sun",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2603.23825v3 Announce Type: replace Abstract: How does trade liberalization affect firms' incentives to innovate? We answer this question using China's WTO accession and a dynamic model of firms' joint export and product-innovation decisions. We find that trade liberalization reduced iceberg trade costs by approximately 13.5 percent in the air-conditioner manufacturing industry, which substantially increased the probability of export and product innovation. Moreover, the response is driven...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2605.12151",
-      "title": "RED-2400: A Public Benchmark of Algorithmically-Rejected Trading Events with Outcome Labels",
-      "url": "https://arxiv.org/abs/2605.12151",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Arati U. Kamat",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2605.12151v3 Announce Type: replace Abstract: RED-2400 is a public benchmark of 6,660 algorithmically-rejected trading events from a live Solana decentralised-exchange filter stack, observed continuously over 22 calendar days (2026-04-10T21:10Z through 2026-05-02T21:48Z, UTC). Of the 6,660 rejection events, 3,333 (50.05 percent) link exactly to a post-rejection price-and-liquidity sample series. The deposit contains 169,123 forward-outcome observations and 1,837 graveyard-tracker lifecycle...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2606.07059",
-      "title": "Diffusive in plain sight: An inconspicuous law of market impact",
-      "url": "https://arxiv.org/abs/2606.07059",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Julius F. Bonart",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2606.07059v4 Announce Type: replace Abstract: Decomposing market impact as the difference between realized and counterfactual returns, and requiring both to be diffusive, yields a structural identity that restricts admissible impact dynamics at the level of individual participants. This constraint implies the square-root law in the information-neutral regime and a crossover toward linear impact under strong informational coupling, consistent with empirical observations. It further implies ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2606.08232",
-      "title": "Hour-Aware Adaptive Risk Management for Autonomous Memecoin Trading on Solana DEXs: Evidence, Theory, and Design Lessons from a 15-Day Deployment",
-      "url": "https://arxiv.org/abs/2606.08232",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Arati Uday Kamat",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2606.08232v4 Announce Type: replace Abstract: We report a 15-day paper-traded autonomous memecoin trading deployment on Solana decentralised exchanges (DEXs), designed as a controlled measurement of three microstructure questions on which classical equity theory offers well-defined predictions but on which the AMM Solana venue lacks published measurement: (i) time-of-day return patterns on a 24/7 permissionless venue; (ii) whether decision-time filter stacks are net-positive against counte...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2607.02830",
-      "title": "Outcome-Classified Precision Auditing of Filter Rules in Algorithmic DEX Trading: Evidence from 2,400 Rejection Events",
-      "url": "https://arxiv.org/abs/2607.02830",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Arati Uday Kamat",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2607.02830v2 Announce Type: replace Abstract: This paper reports a precision audit of a production filter stack against a 13-day window of post-rejection forward-market observations on Solana DEX trading (2026-04-10 to 2026-04-23, UTC). The audit yielded 99,510 follow-up samples across 2,402 unique rejection events spanning eight active filter rules. We classify each event under a five-tier outcome rule and report per-filter distributions. The descriptive result is a save-to-miss ratio of ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.12587",
-      "title": "DYSANOS Generative Dynamic Smooth Arbitrage-free Non-parametric Option Surfaces",
-      "url": "https://arxiv.org/abs/2608.12587",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Hans Buehler, Blanka Horvath, Anastasis Kratsios, Magnus Wiese",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2608.12587v2 Announce Type: replace Abstract: This article presents with DYSANOS the first generative market model for smooth SANOS option surfaces for all strikes and expiries which are free of static arbitrage. Our model is designed to generate entire paths of daily spot and option prices for years in the future. We present a robust and useful if somewhat simplistic baseline in the form of an AR(1) model. We discuss model setup, data pipeline, and training and investigate market reconstr...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.27727",
-      "title": "Sovereign Grassroots Currencies: A CBDC Architecture for Credit and Monetary Policy (Full Version)",
-      "url": "https://arxiv.org/abs/2609.27727",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Ehud Shapiro",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2609.27727v3 Announce Type: replace Abstract: A Central Bank Digital Currency (CBDC) is central-bank money in digital form, held by the public. Leading designs have two limitations: conversion from bank deposits into CBDC can accelerate deposit flight, requiring safeguards, and the CBDC stays outside credit creation and monetary-policy operations. Here we present a CBDC architecture based on grassroots currencies that overcomes these limitations. The architecture has three components: (1) ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2504.02814",
-      "title": "Convergence of Markovian Iteration for $Z$-Coupled FBSDEs via Gaussian Smoothing",
-      "url": "https://arxiv.org/abs/2504.02814",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Zhipeng Huang, Cornelis W. Oosterlee",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2504.02814v3 Announce Type: replace-cross Abstract: In this paper, we investigate the Markovian iteration method for coupled forward-backward stochastic differential equations (FBSDEs) with drift $b(t,X_t,Y_t,Z_t)$ and deterministic, time-dependent diffusion. Bender and Zhang (2008) established convergence results for Markovian iteration in the $Y$-coupled setting. Extending these results to equations with $Z$-coupling presents additional challenges, particularly in obtaining uniform contr...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2604.10758",
-      "title": "Investing Is Compression",
-      "url": "https://arxiv.org/abs/2604.10758",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Oscar Stiffelman",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2604.10758v5 Announce Type: replace-cross Abstract: In 1956 John Kelly wrote a paper at Bell Labs describing the relationship between gambling and Information Theory. What came to be known as the Kelly Criterion is both an objective and a closed-form solution to sizing wagers when odds and edge are known. Samuelson argued it was arbitrary and subjective, and successfully kept it out of mainstream economics. Luckily it lived on in computer science, mostly because of Tom Cover's work at Stan...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.07122",
-      "title": "Lambda-quantiles under the microscope",
-      "url": "https://arxiv.org/abs/2608.07122",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Fabio Bellini, Felix-Benedikt Liebrich",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2608.07122v2 Announce Type: replace-cross Abstract: We study Lambda-quantiles, a generalisation of classical quantiles in which the constant probability level $\\lambda \\in [0,1]$ is replaced by a functional parameter $\\Lambda \\colon \\mathbb{R} \\to [0,1]$. We consider the general case of non-monotone $\\Lambda$, which arises naturally if closure properties of the class of corresponding Lambda-quantiles with respect to inf-aggregation or with respect to mixtures are required. As preliminary r...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.22697",
-      "title": "Does Rank Still Matter? Position Bias When AI Agents Shop on Our Behalf",
-      "url": "https://arxiv.org/abs/2608.22697",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Davood Wadi, Yu Ma",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2608.22697v4 Announce Type: replace-cross Abstract: When shopping is delegated to AI agents, it is unclear whether the ranking advantage documented for humans persists. Across 7,000 sessions with five large language models (LLMs) and varying reasoning effort, we compare AI agents with human field data. AI agents search more extensively than human consumers. As with humans, lower-ranked listings are less likely to be inspected, although the effect is smaller for AI agents. Unlike humans, AI...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.04959",
-      "title": "AlphaPADI: Formulaic Alpha Discovery via Pool-Aware Hierarchical Discrete Diffusion",
-      "url": "https://arxiv.org/abs/2610.04959",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Yanzheng Jin, Pengyang Shao, Yunshan Ma, Haowen Pan, Naixin Zhai, Chen-Hui Song, Fei Shen, Kenji Kawaguchi",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.04959v2 Announce Type: replace-cross Abstract: Formulaic alpha discovery seeks symbolic expressions that predict cross-sectional asset returns. In deployment, multiple formulas are combined into an alpha pool, where each formula is valued through the complementary information it contributes to joint predictive performance. While Reinforcement Learning and Generative Flow Networks have emerged as promising paradigms for generating formulaic alphas, existing frameworks face three relate...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.05196",
-      "title": "Measuring Learned Monotone Temporal Aggregation at Matched Admissibility",
-      "url": "https://arxiv.org/abs/2610.05196",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Yew Lee Tan",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:00:00+00:00",
-      "summary": "arXiv:2610.05196v2 Announce Type: replace-cross Abstract: Risk regulation imposes directional constraints on scores; we adopt their strict per-input form -- the score monotone non-decreasing in every exposure input -- as a normative commitment. Deployed pipelines -- monotone hand-crafted aggregates feeding sign-constrained gradient boosting -- already satisfy it by composition, so constrained-versus-unconstrained comparisons price a guarantee the incumbent has for free. We instead hold admissibi...",
-      "lang": "en"
-    },
-    {
       "id": "hn:49810905",
       "title": "In 2025, 49 percent of adults under age 30 lived with a parent [pdf]",
       "url": "https://www.federalreserve.gov/publications/files/2025-report-economic-well-being-us-households-202605.pdf",
@@ -1083,8 +658,27 @@
       },
       "duration_sec": null,
       "views": 161,
-      "comments": 221,
+      "comments": 222,
       "published_at": "2026-09-30T04:37:37+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50023065",
+      "title": "Tesla Rebrands Full Self-Driving as Tesla Assisted Driving in Europe",
+      "url": "https://qz.com/tesla-full-self-driving-rebranding-europe-assisted-driving-100926",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50023065",
+        "name": "ilreb",
+        "hn_url": "https://news.ycombinator.com/item?id=50023065"
+      },
+      "duration_sec": null,
+      "views": 50,
+      "comments": 32,
+      "published_at": "2026-10-09T16:38:20+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -1123,25 +717,6 @@
       "views": 43,
       "comments": 16,
       "published_at": "2026-09-25T21:09:28+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49633640",
-      "title": "DHS Program Analyzes Americans' Finances to Flag Drivers for Traffic Stops",
-      "url": "https://www.military.com/dhs-program-analyzes-americans-finances-to-flag-drivers-for-traffic-stops-report",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49633640",
-        "name": "randycupertino",
-        "hn_url": "https://news.ycombinator.com/item?id=49633640"
-      },
-      "duration_sec": null,
-      "views": 35,
-      "comments": 1,
-      "published_at": "2026-09-09T20:22:20+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1215,8 +790,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49981063"
       },
       "duration_sec": null,
-      "views": 129,
-      "comments": 128,
+      "views": 130,
+      "comments": 131,
       "published_at": "2026-10-06T16:51:50+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -1242,20 +817,39 @@
       "lang": "en"
     },
     {
-      "id": "hn:49625461",
-      "title": "Teen reading slumps to worst this century due to surge in screen time",
-      "url": "https://finance.yahoo.com/news/teen-reading-slumps-worst-century-111013754.html",
+      "id": "hn:49908455",
+      "title": "European Network for Payments – An EU Alternative to Visa/Mastercard",
+      "url": "https://www.reuters.com/business/finance/european-payments-groups-join-forces-lessen-us-reliance-2026-09-30/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49625461",
-        "name": "pseudolus",
-        "hn_url": "https://news.ycombinator.com/item?id=49625461"
+        "id": "49908455",
+        "name": "monegator",
+        "hn_url": "https://news.ycombinator.com/item?id=49908455"
       },
       "duration_sec": null,
-      "views": 42,
-      "comments": 80,
-      "published_at": "2026-09-09T12:29:13+00:00",
+      "views": 19,
+      "comments": 1,
+      "published_at": "2026-09-30T13:11:29+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50029232",
+      "title": "Data centre company's much-hyped Australian stock market listing imploded",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/09/firmus-australian-stock-market-listing-bust-finance",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50029232",
+        "name": "stubish",
+        "hn_url": "https://news.ycombinator.com/item?id=50029232"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 0,
+      "published_at": "2026-10-10T03:23:09+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1405,7 +999,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49938815"
       },
       "duration_sec": null,
-      "views": 54,
+      "views": 55,
       "comments": 7,
       "published_at": "2026-10-02T21:28:59+00:00",
       "summary": "",

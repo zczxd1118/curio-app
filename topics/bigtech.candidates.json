@@ -2,7 +2,7 @@
   "domain": "大厂 AI 动态",
   "domain_id": "bigtech",
   "topic_id": "default",
-  "fetched_at": "2026-10-09T10:19:49.269899+00:00",
+  "fetched_at": "2026-10-10T09:39:53.732798+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -30,60 +30,26 @@
   "total": 129,
   "items": [
     {
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
-      "title": "OpenAI doubles down on decision to fire three AI safety researchers",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+      "id": "rss:https://www.theverge.com/gadgets/1007674/smart-bird-feeders-attact-pests-too",
+      "title": "My brief romance with an AI bird feeder",
+      "url": "https://www.theverge.com/gadgets/1007674/smart-bird-feeders-attact-pests-too",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Robert Hart",
+        "name": "Thomas Ricker",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-09T09:48:26+00:00",
-      "summary": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\" In a post on X on Friday, the company said Jasmine Wang, Tomek Korbak and Mikita &#8288;Balesni were dismissed for violating \"clear policies on handling sensitive information.\" It insisted the decision was [&#8230;]",
+      "published_at": "2026-10-10T07:00:00+00:00",
+      "summary": "It started off promising enough. Dozens of tiny, colorful birds were drawn to my garden just a few weeks after I mounted a $350 $269 Kiwibit Bird Feeder 2 Pro. \"Looks like Great Tit!\" read the first AI-driven alert sent to my phone. \"Looks like Eurasian Blue Tit!\" read another. I chuckled, still waiting for [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes",
-      "title": "Microsoft 365 Family subscribers will finally be able to share AI benefits",
-      "url": "https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Tom Warren",
-        "feed_title": "The Verge"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T07:14:32+00:00",
-      "summary": "Microsoft bundled its AI-powered Office features into Microsoft 365 Personal and Family subscriptions last year, but it only allowed the primary account holder to access the AI benefits. Now, Microsoft is about to let Microsoft 365 Family and Premium subscribers share Copilot and AI usage features, alongside access to Office apps and OneDrive storage, with [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.theverge.com/tech/1008530/us-government-livestream-execution-firing-squad-fort-hood",
-      "title": "US plans livestream of execution by firing squad",
-      "url": "https://www.theverge.com/tech/1008530/us-government-livestream-execution-firing-squad-fort-hood",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Jay Peters",
-        "feed_title": "The Verge"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T22:32:04+00:00",
-      "summary": "The United States' execution of the Fort Hood shooter will be livestreamed, anonymous officials from the Defense Department told the BBC and Associated Press. The planned execution of Nidal Hasan, the former US Army major convicted of killing 13 people at the Texas military base, was announced this week. He is scheduled to be executed [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
-      "title": "Anthropic launches free AI security scans for open-source projects",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "id": "rss:https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
+      "title": "Decade-old RAM is making a comeback",
+      "url": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -93,14 +59,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T21:53:51+00:00",
-      "summary": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted about possible security issues sooner, but the trade-off is that OSS Scanner's [&#8230;]",
+      "published_at": "2026-10-09T21:50:00+00:00",
+      "summary": "CPU makers have noticed that the seemingly unending RAM price hikes are making it tough for a lot of us to upgrade our PCs. Their solution? A return to last-gen DDR4 RAM. Intel and AMD are making new CPUs that'll support the older, more affordable type of memory. On Friday, Gigabyte announced that two of [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/science/1008467/spacex-announces-plan-to-become-a-major-mobile-carrier",
-      "title": "SpaceX announces plan to become a ‘major mobile carrier’",
-      "url": "https://www.theverge.com/science/1008467/spacex-announces-plan-to-become-a-major-mobile-carrier",
+      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -110,31 +76,48 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T21:23:31+00:00",
-      "summary": "SpaceX has acquired a portfolio of low-band spectrum licenses - a move the company says \"will pave the way\" for its Starlink Mobile service to become a \"major\" US carrier. When the Federal Communications Commission signs off on the deal, SpaceX says it will deploy its new architecture that combines its satellite-to-mobile constellation with a [&#8230;]",
+      "published_at": "2026-10-09T21:15:38+00:00",
+      "summary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/games/1008353/amd-will-bring-fsr-4-to-handhelds-by-the-end-of-2026",
-      "title": "AMD will bring FSR 4 to handhelds by the end of 2026",
-      "url": "https://www.theverge.com/games/1008353/amd-will-bring-fsr-4-to-handhelds-by-the-end-of-2026",
+      "id": "rss:https://www.theverge.com/policy/1008991/ohio-blogger-harassment-shrek-nude",
+      "title": "Ohio blogger found guilty of harassment for sending Shrek nude to senator",
+      "url": "https://www.theverge.com/policy/1008991/ohio-blogger-harassment-shrek-nude",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Sean Hollister",
+        "name": "Emma Roth",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T21:01:18+00:00",
-      "summary": "It's already possible to get AMD's framerate-enhancing FSR 4 boost on handhelds as old as the Steam Deck - but in June, AMD reserved the right to disappoint handheld gamers by not officially bringing FSR 4 to older handhelds. Now, AMD consumer chip boss Jack Huynh says he will bring the tech to some handhelds [&#8230;]",
+      "published_at": "2026-10-09T19:41:11+00:00",
+      "summary": "A jury found an Ohio political blogger guilty of telecommunications harassment after he sent an explicit image of Shrek to a Republican state senator. On Friday, a judge ordered DJ Byrnes, owner of political commentary blog The Rooster, to pay a $200 fine, according to a report from the Columbus Dispatch. Byrnes texted Ohio Sen. [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/tech/1008422/apple-macbook-pro-touchscreen-ipad-mini-rumor",
-      "title": "Apple will reportedly debut its first touchscreen MacBook in three weeks",
-      "url": "https://www.theverge.com/tech/1008422/apple-macbook-pro-touchscreen-ipad-mini-rumor",
+      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "title": "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Robert Hart",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T19:09:44+00:00",
+      "summary": "\"Staggering.\" \"Overwhelming.\" \"Unprecedented.\" \"Surreal.\" \"Pure insanity.\" Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tried to make sense of the flood of mathematical results OpenAI abruptly dropped on the field this week. Amid the awe, excitement, and uncertainty over the sheer scale of the [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/policy/1008950/fcc-brendan-carr-pete-hegseth-execution-tv-networks-air",
+      "title": "Brendan Carr says he&#8217;ll let Pete Hegseth decide whether TV networks can air the public execution",
+      "url": "https://www.theverge.com/policy/1008950/fcc-brendan-carr-pete-hegseth-execution-tv-networks-air",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -144,59 +127,399 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T20:32:21+00:00",
-      "summary": "Apple is set to introduce a new MacBook Pro with a touchscreen and an updated iPad Mini \"on or around\" October 27th, Bloomberg reports. If true, that would put the event just two weeks after the October 13th event Apple announced today, which is rumored to focus on smart home products. Bloomberg says that the [&#8230;]",
+      "published_at": "2026-10-09T18:30:48+00:00",
+      "summary": "FCC chairman Brendan Carr said he will defer to Secretary of Defense Pete Hegseth on whether TV networks can air the planned execution of convicted Fort Hood shooter Nidal Hasan by firing squad. The Pentagon has said the execution will be livestreamed, suggesting it'll appear on an online platform beyond the FCC's jurisdiction. But it's [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
-      "title": "California is trying to shut down robot vs. human cage matches",
-      "url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+      "title": "Nikon microscopic video competition winner disqualified for using generative AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Jay Peters",
+        "name": "Stevie Bonifield",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T20:06:56+00:00",
-      "summary": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid robot owned by a tech startup, Rek, that [&#8230;]",
+      "published_at": "2026-10-09T18:06:57+00:00",
+      "summary": "Nikon says the video that originally won first place in its Small World in Motion contest \"did not comply with the competition rules regarding generative AI.\" BBC reports that the original first place video from Dr. Ning Xu claimed to show \"tiny, hair-like structures called cilia moving in the airway of a child with the [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/report/1008342/folkston-georgia-ice-detention-hunger-strike-video",
-      "title": "ICE detainees in Georgia used the facility’s video calling software to expose the conditions inside",
-      "url": "https://www.theverge.com/report/1008342/folkston-georgia-ice-detention-hunger-strike-video",
+      "id": "rss:https://www.theverge.com/tech/1008918/google-fitbit-edge-launch-next-week",
+      "title": "Google teases Fitbit Edge launch next week",
+      "url": "https://www.theverge.com/tech/1008918/google-fitbit-edge-launch-next-week",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Gaby Del Valle",
+        "name": "Emma Roth",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T19:45:00+00:00",
-      "summary": "Four men detained at an ICE detention center in rural Georgia used the facility's video conferencing software to expose both the conditions inside and President Donald Trump's hostile takeover of the immigration courts. In the five-minute video, the men describe an intentionally dysfunctional legal system designed to keep them trapped in federal custody for months [&#8230;]",
+      "published_at": "2026-10-09T18:05:55+00:00",
+      "summary": "It looks like Google is getting ready to take the wraps off its rumored Fitbit Edge next Monday. In a post on X, Google posted a picture of what appears to be the side of the fitness tracker, with the caption: \"Get an Edge on your health. 10.12.26.\" A trove of Fitbit Edge leaks has [&#8230;]",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.theverge.com/news/1008320/microsoft-windows-search-overhaul-windows-11",
-      "title": "Microsoft’s new Windows Search is exactly what Windows 11 needs",
-      "url": "https://www.theverge.com/news/1008320/microsoft-windows-search-overhaul-windows-11",
+      "id": "rss:https://www.theverge.com/gadgets/1008857/samsung-galaxy-s26-ultra-deal-sale",
+      "title": "The Samsung Galaxy S26 Ultra is down to $950 after Prime Day",
+      "url": "https://www.theverge.com/gadgets/1008857/samsung-galaxy-s26-ultra-deal-sale",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.theverge.com/rss/index.xml",
-        "name": "Tom Warren",
+        "name": "Brad Bourque",
         "feed_title": "The Verge"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T19:30:21+00:00",
-      "summary": "Windows Search has been one of the most frustrating parts of Windows 11, and now Microsoft is addressing this with a significant overhaul. A new redesigned Windows Search is now in testing that is much faster, more capable, and a lot more modern. \"This new Windows Search experience is built for speed,\" says Anshul Rawat, [&#8230;]",
+      "published_at": "2026-10-09T17:41:24+00:00",
+      "summary": "Amazon has the Samsung Galaxy S26 Ultra in black with 256GB of storage discounted to $949.99, a healthy discount from its usual price of $1,399.99. This phone’s standout feature is the adjustable privacy display, which can hide your entire screen, or just portions of it, from onlookers and strangers. It doesn’t meaningfully hurt the screen’s [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.theverge.com/tech/1008833/amazon-kindle-light-leak",
+      "title": "Amazon’s new Kindles appear to have a light leak problem",
+      "url": "https://www.theverge.com/tech/1008833/amazon-kindle-light-leak",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.theverge.com/rss/index.xml",
+        "name": "Terrence O’Brien",
+        "feed_title": "The Verge"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T17:25:39+00:00",
+      "summary": "Some users are reporting that the new Kindles have a light leak issue that is especially apparent when using dark mode. The latest base-model Kindles have a flush bezel that gives them a sleek appearance and looks great… as long as you keep the lights on. But things can change once you turn down the [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
+      "title": "Elon Musk intensifies attack on Ambani over Starlink India launch delay",
+      "url": "https://techcrunch.com/2026/10/09/elon-musk-intensifies-attack-on-ambani-over-starlink-india-launch-delay/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Jagmeet Singh",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-10T03:10:06+00:00",
+      "summary": "Elon Musk has accused Indian billionaire Mukesh Ambani of blocking competition.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Tim Fernholz",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-10T00:18:32+00:00",
+      "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/long-live-the-mechanical-keyboard/",
+      "title": "Long live the mechanical keyboard",
+      "url": "https://techcrunch.com/2026/10/09/long-live-the-mechanical-keyboard/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Lucas Ropek",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T22:08:24+00:00",
+      "summary": "Keychron made a name for itself after launching on Kickstarter in 2017. Today, it offers the value K2 model as well as a variety of other versions, including one with an all-wood body.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Marina Temkin",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T21:41:29+00:00",
+      "summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Amanda Silberling",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T19:36:56+00:00",
+      "summary": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers/",
+      "title": "Batteries are now cheaper than natural gas turbines used at many data centers",
+      "url": "https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Tim De Chant",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T18:57:58+00:00",
+      "summary": "Batteries are now cheaper than natural gas turbines as the data center boom pushes prices up.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-gammas-grant-lee-engines-elia-wallen-and-gvs-crystal-huang-on-landing-your-first-1000-customers/",
+      "title": "TechCrunch Disrupt 2026: Gamma’s Grant Lee, Engine’s Elia Wallen, and GV’s Crystal Huang on landing your first 1,000 customers",
+      "url": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-gammas-grant-lee-engines-elia-wallen-and-gvs-crystal-huang-on-landing-your-first-1000-customers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "TechCrunch Events",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T18:57:06+00:00",
+      "summary": "Leaders from Gamma, Engine, and Google Ventures join TechCrunch Disrupt 2026 to talk how to get your first customers. Register now to save up to $100. Grab a second pass at 50% off.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/lumenus-helps-automate-tedious-paperwork-in-times-of-grief/",
+      "title": "LumenUs helps automate tedious paperwork in times of grief",
+      "url": "https://techcrunch.com/2026/10/09/lumenus-helps-automate-tedious-paperwork-in-times-of-grief/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Amanda Silberling",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T17:00:00+00:00",
+      "summary": "\"The day your loved one passes away, you also get this honorary badge of a project manager for a project you had no idea about,\" said founder Sara Tashakorinia.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
+      "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+      "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Theresa Loconsolo",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T16:56:42+00:00",
+      "summary": "Amazon says it will&#160;stop using NDAs&#160;when negotiating data center deals with local governments, following&#160;a&#160;similar move from Microsoft&#160;earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to&#160;hundreds of&#160;proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access [&#8230;]",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
+      "title": "Danu Robotics’ fight to build a better recycling robot",
+      "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Russell Brandom",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T16:45:00+00:00",
+      "summary": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+      "title": "We can’t help treating AI like it’s human. But should we?",
+      "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Amanda Silberling",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T16:40:14+00:00",
+      "summary": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
+      "title": "Tesla renames ‘Full Self-Driving’ to ‘Tesla Assisted Driving’ in Europe",
+      "url": "https://techcrunch.com/2026/10/09/tesla-renames-full-self-driving-to-tesla-assisted-driving-in-europe/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Sean O'Kane",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T16:07:26+00:00",
+      "summary": "The name change is enough for Germany's transport minister to start advocating for Europe-wide adoption of the driver assistance software.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/remember-orkut-its-founder-wants-to-bring-it-back/",
+      "title": "Remember Orkut? Its founder wants to bring it back",
+      "url": "https://techcrunch.com/2026/10/09/remember-orkut-its-founder-wants-to-bring-it-back/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Jagmeet Singh",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T15:56:15+00:00",
+      "summary": "Orkut's founder is now taking aim at algorithms and AI-generated content.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+      "title": "a16z’s Olivia Moore on the state of consumer AI",
+      "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Russell Brandom",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T15:43:33+00:00",
+      "summary": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/automattic-loses-its-interim-cfo-just-weeks-after-boardroom-shakeup/",
+      "title": "Automattic interim CFO resigns just weeks after boardroom shakeup",
+      "url": "https://techcrunch.com/2026/10/09/automattic-loses-its-interim-cfo-just-weeks-after-boardroom-shakeup/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Sarah Perez",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T15:02:30+00:00",
+      "summary": "Automattic's interim chief financial officer Jeremy Klaperman has left the company less than a month after taking the role, TechCrunch has learned. Sources say his departure followed a demotion back to his previous position, marking another executive exit amid the organization's leadership turmoil.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you-cant-miss/",
+      "title": "Beyond TechCrunch Disrupt 2026: The Side Events, Parties & Networking You Can’t Miss",
+      "url": "https://techcrunch.com/2026/10/09/beyond-techcrunch-disrupt-2026-the-side-events-parties-networking-you-cant-miss/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Jean Bradley, TechCrunch Events",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T14:42:34+00:00",
+      "summary": "TechCrunch Disrupt 2026 is just the beginning. From exclusive networking events and startup showcases to happy hours, dinners, and after-hours meetups, discover what’s happening across San Francisco during Disrupt Week, October 10–16. Find your next connection, your next opportunity, or your next favorite event.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
+      "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
+      "url": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "TechCrunch Events",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T14:00:00+00:00",
+      "summary": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a second pass of the same type.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/surveillance-company-flock-cuts-staff-as-privacy-backlash-grows/",
+      "title": "Surveillance company Flock cuts staff as privacy backlash grows",
+      "url": "https://techcrunch.com/2026/10/09/surveillance-company-flock-cuts-staff-as-privacy-backlash-grows/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Zack Whittaker",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T13:40:36+00:00",
+      "summary": "Flock would not say if CEO Garrett Langley would take a pay cut following the reduction in workforce.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/10/09/xonas-commercial-gps-alternative-is-about-to-go-live/",
+      "title": "Xona’s commercial GPS alternative is about to go live",
+      "url": "https://techcrunch.com/2026/10/09/xonas-commercial-gps-alternative-is-about-to-go-live/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://techcrunch.com/feed/",
+        "name": "Tim Fernholz",
+        "feed_title": "TechCrunch"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T12:00:00+00:00",
+      "summary": "Xona's precision timing and navigation service will enter beta testing after SpaceX launches six satellites designed by the company.",
       "lang": "en"
     },
     {
@@ -217,326 +540,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
-      "title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
-      "url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
+      "id": "rss:https://stratechery.com/2026/its-not-you-its-me/",
+      "title": "2026.41: It’s Not You, It’s Me",
+      "url": "https://stratechery.com/2026/its-not-you-its-me/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Amanda Silberling",
-        "feed_title": "TechCrunch"
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T21:00:00+00:00",
-      "summary": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
-      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Rebecca Bellan",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T20:04:26+00:00",
-      "summary": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/watch-the-trailer-for-the-altruists-netflixs-show-about-the-ftx-scandal/",
-      "title": "Watch the trailer for ‘The Altruists,’ Netflix’s show about the FTX scandal",
-      "url": "https://techcrunch.com/2026/10/08/watch-the-trailer-for-the-altruists-netflixs-show-about-the-ftx-scandal/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Amanda Silberling",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T18:30:00+00:00",
-      "summary": "A fictionalized Sam Bankman-Fried is coming to your TV screen on November 19.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
-      "title": "Ben Affleck is an AI nerd, and the internet is impressed",
-      "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Sarah Perez",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T18:20:32+00:00",
-      "summary": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a Hollywood star.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
-      "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
-      "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Julie Bort",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T18:19:45+00:00",
-      "summary": "The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
-      "title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
-      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Lucas Ropek",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T18:19:42+00:00",
-      "summary": "It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-      "title": "Google brings agentic AI to Gemini, starting with businesses",
-      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Sarah Perez",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T18:18:00+00:00",
-      "summary": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-      "title": "Anthropic changes usage policy to ban model abuse and election interference",
-      "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Russell Brandom",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T18:16:24+00:00",
-      "summary": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
-      "title": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
-      "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Tim Fernholz",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T18:10:55+00:00",
-      "summary": "OpenAI's flood of proofs deviated from the guidelines set by a group of mathematical researchers consulted by the frontier lab.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/a-startup-founder-who-served-time-in-prison-is-looking-to-court-an-untapped-market-ex-cons/",
-      "title": "A startup founder who served time in prison is looking to court an untapped market: ex-cons",
-      "url": "https://techcrunch.com/2026/10/08/a-startup-founder-who-served-time-in-prison-is-looking-to-court-an-untapped-market-ex-cons/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Lucas Ropek",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T16:45:00+00:00",
-      "summary": "Richard Bronson, a former Stratton Oakmont partner who served time in federal prison for securities violations, has launched Commissary Club, a startup that uses AI to help people leaving prison find jobs, housing, community, and even dates.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
-      "title": "Natura’s $99 smart ring puts AI agents on your finger",
-      "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Aisha Malik",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T16:00:00+00:00",
-      "summary": "Natura’s $99 Interface smart ring lets you summon AI agents with the press of a finger to complete tasks, capture thoughts, and control devices — while doubling as a health tracker.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
-      "title": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
-      "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Aditya Mehta",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T16:00:00+00:00",
-      "summary": "Goodfire just launched what it says is a cheaper way to keep AI agents in check: Instead of paying a second AI to read everything an agent does, its monitors peek inside the model while it works and only call in backup when something looks fishy.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
-      "title": "US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers",
-      "url": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Aisha Malik",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T15:42:26+00:00",
-      "summary": "The other firms being suspended from the program include Capgemini, Cognizant, HCL, Infosys, Tata, and Wipro.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/elon-musk-questions-ambanis-influence-as-starlink-india-launch-stalls/",
-      "title": "Elon Musk questions Ambani’s influence as Starlink India launch stalls",
-      "url": "https://techcrunch.com/2026/10/08/elon-musk-questions-ambanis-influence-as-starlink-india-launch-stalls/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Jagmeet Singh",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T15:12:59+00:00",
-      "summary": "“Is Ambani the real boss of India?” Elon Musk asked as he questioned why Starlink has yet to launch its satellite internet service in the country.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
-      "title": "New York alleges TikTok gave teens, children a placebo safety feature instead of a real one",
-      "url": "https://techcrunch.com/2026/10/08/new-york-alleges-tiktok-gave-teens-children-a-placebo-safety-feature-instead-of-a-real-one/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Aisha Malik",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T15:06:17+00:00",
-      "summary": "New York’s lawsuit against the company is one of more than two dozen cases brought by states accusing the social media giant of designing its platform to encourage addictive use among children.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-notification/",
-      "title": "Asos confirms breach of customer data after hackers send rogue app notification",
-      "url": "https://techcrunch.com/2026/10/08/asos-confirms-breach-of-customer-data-after-hackers-send-rogue-app-notification/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Zack Whittaker",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T15:01:15+00:00",
-      "summary": "The hackers alerted the fashion giant's customers through a push notification that said they had \"fully compromised\" the company's cloud storage.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
-      "title": "Hear from Ambrosia Energy and Bloom Energy execs on where the AI infrastructure boom is creating opportunity at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "TechCrunch Events",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T15:00:00+00:00",
-      "summary": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/spotify-is-getting-more-serious-about-selling-enterprise-software/",
-      "title": "Spotify is getting more serious about selling enterprise software",
-      "url": "https://techcrunch.com/2026/10/08/spotify-is-getting-more-serious-about-selling-enterprise-software/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Sarah Perez",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T14:34:33+00:00",
-      "summary": "The company launched technology.spotify.com, a new site that will make its internal tech available to outsiders.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/10/08/waymo-locks-in-5b-loan-from-blackstone-pimco-to-fuel-robotaxi-expansion/",
-      "title": "Waymo locks in $5B loan from Blackstone, PIMCO to fuel robotaxi expansion",
-      "url": "https://techcrunch.com/2026/10/08/waymo-locks-in-5b-loan-from-blackstone-pimco-to-fuel-robotaxi-expansion/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://techcrunch.com/feed/",
-        "name": "Kirsten Korosec",
-        "feed_title": "TechCrunch"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T14:16:56+00:00",
-      "summary": "This is the first time the Alphabet-owned company has turned to debt financing.",
+      "published_at": "2026-10-09T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
       "lang": "en"
     },
     {
@@ -693,20 +710,224 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://stratechery.com/2026/begun-the-aggregator-wars-have/",
-      "title": "2026.39: Begun, the Aggregator Wars Have",
-      "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have/",
+      "id": "rss:https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
+      "title": "Neanderthal wooden tools from Spain found preserved in stone",
+      "url": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jacek Krywko",
+        "feed_title": "Ars Technica"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-25T17:00:00+00:00",
-      "summary": "The best Stratechery content from the week of September 21, 2026, including Meta vs. Amazon, GM bending the knee to CarPlay, and profiling the profiler.",
+      "published_at": "2026-10-09T22:34:03+00:00",
+      "summary": "Dissolved rock precipitated around the tools, which then decayed.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+      "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+      "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jeremy Hsu",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T22:04:07+00:00",
+      "summary": "One damaged data center has supercomputers used for training Yandex’s AI model.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+      "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+      "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Nick Indge",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T21:51:12+00:00",
+      "summary": "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computación.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/",
+      "title": "NASA issues long-awaited call to industry for private space stations",
+      "url": "https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Eric Berger",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T21:34:09+00:00",
+      "summary": "\"We’ve made it clear that NASA will never give up its presence in low Earth orbit.\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/science/2026/10/whats-been-driving-hawaiis-lava-fountains/",
+      "title": "What's been driving Hawaii's lava fountains?",
+      "url": "https://arstechnica.com/science/2026/10/whats-been-driving-hawaiis-lava-fountains/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "John Timmer",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T21:05:01+00:00",
+      "summary": "Before the lava fountains started, the ground was expanding by half a meter a day.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Kyle Orland",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T19:43:50+00:00",
+      "summary": "Study finds coding efficiency gains get \"absorbed\" by human review \"bottleneck.\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/health/2026/10/rfk-jr-still-eager-to-fund-vaccine-trial-that-would-expose-babies-to-deadly-virus/",
+      "title": "Outrage grows as CDC reportedly poised to fund \"unethical\" vaccine trial",
+      "url": "https://arstechnica.com/health/2026/10/rfk-jr-still-eager-to-fund-vaccine-trial-that-would-expose-babies-to-deadly-virus/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Beth Mole",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T19:27:27+00:00",
+      "summary": "CDC allocated $1.6M for study on alleged harms of hepatitis B vaccine.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/",
+      "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
+      "url": "https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Scharon Harding",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T18:54:52+00:00",
+      "summary": "\"The current decline may be just the beginning of a new downward cycle.\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
+      "title": "AI disqualification yields new Nikon Small World in Motion winner",
+      "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jennifer Ouellette",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T18:44:06+00:00",
+      "summary": "New winner is Nguyen Nam Nhat of Vietnam for video of a roundworm and single-celled Dileptus.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/gadgets/2026/10/your-artwork-could-be-featured-in-the-next-debian-release/",
+      "title": "Your artwork could be featured in the next Debian release",
+      "url": "https://arstechnica.com/gadgets/2026/10/your-artwork-could-be-featured-in-the-next-debian-release/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Nick Indge",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T18:33:26+00:00",
+      "summary": "Debian Linux has put a call out for artist submissions for its next release: Forky.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
+      "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
+      "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Jon Brodkin",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T18:24:39+00:00",
+      "summary": "Nationwide 800 MHz spectrum to help Starlink provide mobile coverage indoors.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/tech-policy/2026/10/trump-administration-targets-microsoft-in-new-immigration-crackdown/",
+      "title": "Microsoft barred from sponsoring foreign workers for US residency",
+      "url": "https://arstechnica.com/tech-policy/2026/10/trump-administration-targets-microsoft-in-new-immigration-crackdown/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Joe Miller, Financial Times",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T13:14:33+00:00",
+      "summary": "The US says Microsoft abused immigration rules; the company disputes the claim.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arstechnica.com/space/2026/10/rocket-report-a-rare-falcon-9-scrub-is-it-just-about-vulcans-time-to-shine/",
+      "title": "Rocket Report: A rare Falcon 9 scrub; is it just about Vulcan's time to shine?",
+      "url": "https://arstechnica.com/space/2026/10/rocket-report-a-rare-falcon-9-scrub-is-it-just-about-vulcans-time-to-shine/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://arstechnica.com/feed/",
+        "name": "Eric Berger",
+        "feed_title": "Ars Technica"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T11:00:57+00:00",
+      "summary": "\"I can say we’re weeks away from launching on Vulcan.\"",
       "lang": "en"
     },
     {
@@ -829,655 +1050,94 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arstechnica.com/tech-policy/2026/10/driver-wins-76-after-alpr-led-to-bogus-traffic-stop-drug-searches/",
-      "title": "Driver wins $76 after ALPR led to bogus traffic stop, drug searches",
-      "url": "https://arstechnica.com/tech-policy/2026/10/driver-wins-76-after-alpr-led-to-bogus-traffic-stop-drug-searches/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Cyrus Farivar",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T19:42:30+00:00",
-      "summary": "Mass surveillance gets stupider.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/health/2026/10/rfk-jr-unveils-sweeping-federal-initiative-to-find-evidence-of-vaccine-injuries/",
-      "title": "RFK Jr. unveils sweeping federal initiative to find evidence of vaccine injuries",
-      "url": "https://arstechnica.com/health/2026/10/rfk-jr-unveils-sweeping-federal-initiative-to-find-evidence-of-vaccine-injuries/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Beth Mole",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T19:26:32+00:00",
-      "summary": "\"[T]he Trump-RFK Jr. anti-vax agenda keeps getting more corrupt and dangerous.\"",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
-      "title": "An experimental tour-de-force: Entanglement between glass bead and light",
-      "url": "https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Chris Lee",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T18:45:23+00:00",
-      "summary": "Getting a glass bead to act like a quantum object by entangling it with light.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever/",
-      "title": "Amazon's new Alexa Tablets drop the Fire branding but are more Android than ever",
-      "url": "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Ryan Whitwam",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T16:32:46+00:00",
-      "summary": "Amazon killed its app store, so Google Play it is.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
-      "title": "Amazon builds 1,000th satellite, will launch space internet service by end of year",
-      "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Eric Berger",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T15:28:36+00:00",
-      "summary": "\"If this was easy, everybody else would be doing it.\"",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/",
-      "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
-      "url": "https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Nicholas Kusnetz, Inside Climate News",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T14:04:42+00:00",
-      "summary": "Court filings reveal new details about Exxon's decades of internal climate deliberations.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
-      "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
-      "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jeremy Hsu",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T11:15:33+00:00",
-      "summary": "Full-stack safety solution for physical AI is being used by robotics companies.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
-      "title": "A senator tried to ban gambling on prediction markets—now she's a Kalshi lobbyist",
-      "url": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jon Brodkin",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T11:00:14+00:00",
-      "summary": "Sen. Blanche Lincoln wrote law that let US ban sports-event contracts. She lobbies for the other side now.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
-      "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
-      "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Nick Indge",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T00:00:24+00:00",
-      "summary": "Get ready for more AI in your Windows and more AI on the desktop.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
-      "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
-      "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Kyle Orland",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T21:56:42+00:00",
-      "summary": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/health/2026/10/pa-measles-outbreak-tops-1000-cases-largest-since-disease-was-eliminated/",
-      "title": "PA measles outbreak tops 1,000 cases, largest since disease was eliminated",
-      "url": "https://arstechnica.com/health/2026/10/pa-measles-outbreak-tops-1000-cases-largest-since-disease-was-eliminated/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Beth Mole",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T20:01:14+00:00",
-      "summary": "Pennsylvania reported 1,066 outbreak-linked cases on Wednesday.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/tech-policy/2026/10/florida-sues-tp-link-claiming-it-hides-router-security-risks-and-links-to-china/",
-      "title": "TP-Link problems in US grow amid FCC router ban and four state lawsuits",
-      "url": "https://arstechnica.com/tech-policy/2026/10/florida-sues-tp-link-claiming-it-hides-router-security-risks-and-links-to-china/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "Jon Brodkin",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T19:53:42+00:00",
-      "summary": "TP-Link can't sell latest routers in US, still needs exemption from FCC ban.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arstechnica.com/science/2026/10/chemistry-nobel-goes-to-reactions-like-those-that-gave-life-a-hand/",
-      "title": "Chemistry Nobel goes to reactions like those that gave life a hand",
-      "url": "https://arstechnica.com/science/2026/10/chemistry-nobel-goes-to-reactions-like-those-that-gave-life-a-hand/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://arstechnica.com/feed/",
-        "name": "John Timmer",
-        "feed_title": "Ars Technica"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T18:48:18+00:00",
-      "summary": "Altering molecular handedness has implications for the origins of life.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/refs",
-      "title": "Refs",
-      "url": "https://www.producthunt.com/products/refs",
+      "id": "rss:https://www.producthunt.com/products/museum-of-models",
+      "title": "Museum of Models",
+      "url": "https://www.producthunt.com/products/museum-of-models",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Pratyush Rungta",
+        "name": "Nuanced",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T14:22:26+00:00",
-      "summary": "Give Claude better references for your launch film Discussion | Link",
+      "published_at": "2026-10-08T02:10:32+00:00",
+      "summary": "Every answer 371 AI models gave to the same questions Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/rune",
-      "title": "Rune",
-      "url": "https://www.producthunt.com/products/rune",
+      "id": "rss:https://www.producthunt.com/products/the-computer-game",
+      "title": "The Computer Game",
+      "url": "https://www.producthunt.com/products/the-computer-game",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Bill Anastas",
+        "name": "Ajay Ram",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-09T00:55:27+00:00",
-      "summary": "Write it down on one Mac, find it on the other Discussion | Link",
+      "published_at": "2026-10-09T17:52:22+00:00",
+      "summary": "Build the best computer, from stone tools to your own chips Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/trophy-1-0",
-      "title": "Trophy MCP Servers",
-      "url": "https://www.producthunt.com/products/trophy-1-0",
+      "id": "rss:https://www.producthunt.com/products/underplane-deleted-1312891",
+      "title": "Underplane",
+      "url": "https://www.producthunt.com/products/underplane-deleted-1312891",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Charlie Hopkins-Brinicombe",
+        "name": "David",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T15:06:32+00:00",
-      "summary": "Interact with Trophy from your favourite AI tools Discussion | Link",
+      "published_at": "2026-10-07T14:55:37+00:00",
+      "summary": "Spotting interception game Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/microsoft-surface-laptop-ultra",
-      "title": "Microsoft Surface Laptop Ultra",
-      "url": "https://www.producthunt.com/products/microsoft-surface-laptop-ultra",
+      "id": "rss:https://www.producthunt.com/products/isly",
+      "title": "Isly",
+      "url": "https://www.producthunt.com/products/isly",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Justin Jincaid",
+        "name": "Jan-Marlon Leibl",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T02:29:49+00:00",
-      "summary": "Run 120B AI models locally on Microsoft's new Surface Discussion | Link",
+      "published_at": "2026-10-06T20:50:38+00:00",
+      "summary": "Your MacBook notch, brought to life. Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/melete",
-      "title": "Melete",
-      "url": "https://www.producthunt.com/products/melete",
+      "id": "rss:https://www.producthunt.com/products/reso",
+      "title": "ReSO AI",
+      "url": "https://www.producthunt.com/products/reso",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Yashas Gunderia",
+        "name": "Jonno Riekwel",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-09-30T06:38:46+00:00",
-      "summary": "An Always On Personal Agent With a Team Workspace Discussion | Link",
+      "published_at": "2026-09-09T15:34:33+00:00",
+      "summary": "Get discovered & recommended when customers ask AI Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/brightbean-studio-social-media",
-      "title": "BrightBean Studio",
-      "url": "https://www.producthunt.com/products/brightbean-studio-social-media",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Jan Schmitz",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T12:58:25+00:00",
-      "summary": "Open-source Buffer alternative for social media teams Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/voicera-3",
-      "title": "Voicera",
-      "url": "https://www.producthunt.com/products/voicera-3",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Tony Manh",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-02T12:20:23+00:00",
-      "summary": "Turn natural speech into polished text, perfected with AI Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/heypi",
-      "title": "HeyPi",
-      "url": "https://www.producthunt.com/products/heypi",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Abraham",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-06T11:02:06+00:00",
-      "summary": "Build and ship anything live, in-meetings Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/busabase",
-      "title": "Busabase",
-      "url": "https://www.producthunt.com/products/busabase",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Kevin William David",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-06T08:40:40+00:00",
-      "summary": "The general system of record for AI agents Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/iwant",
-      "title": "iwant",
-      "url": "https://www.producthunt.com/products/iwant",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Oskar Kocol",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:20:47+00:00",
-      "summary": "Find available GPUs and host open models in one command Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/zernio",
-      "title": "Zernio",
-      "url": "https://www.producthunt.com/products/zernio",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "fmerian",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T11:56:43+00:00",
-      "summary": "Marketing infrastructure for products and agents Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/cakie-2",
-      "title": "Cakie",
-      "url": "https://www.producthunt.com/products/cakie-2",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Jay Song",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-06T01:16:50+00:00",
-      "summary": "Turn screen recordings into prompts for AI agents Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/thravik",
-      "title": "Thravik",
-      "url": "https://www.producthunt.com/products/thravik",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Ahmed Yacoub",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T20:52:59+00:00",
-      "summary": "The native Mac browser that remembers Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/assist-5",
-      "title": "Assist",
-      "url": "https://www.producthunt.com/products/assist-5",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Hariharasudhan Giridharan",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T02:44:37+00:00",
-      "summary": "Invisible assistant, that lives in your MacBook’s notch Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/pine-computer",
-      "title": "Pine Computer",
-      "url": "https://www.producthunt.com/products/pine-computer",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Karen Lee",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T06:42:34+00:00",
-      "summary": "A cloud computer built for AI to get jobs done Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/google",
-      "title": "Gemini Agent for Google Cloud",
-      "url": "https://www.producthunt.com/products/google",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Kate Ramakaieva",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T12:31:02+00:00",
-      "summary": "The work agent that runs on both Gemini and Claude Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/google-labs",
-      "title": "Playground by Google Labs",
-      "url": "https://www.producthunt.com/products/google-labs",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Justin Jincaid",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T03:24:04+00:00",
-      "summary": "Create, play, and share your own games with Google AI Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/vocascript",
-      "title": "VocaScript",
-      "url": "https://www.producthunt.com/products/vocascript",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Diae Louali",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-07-02T18:54:20+00:00",
-      "summary": "Transcribe hours-long recordings, reliable to the end Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/opencharm",
-      "title": "OpenCharm",
-      "url": "https://www.producthunt.com/products/opencharm",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Michael",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T15:54:37+00:00",
-      "summary": "Open-source body for the AI agent you already run Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/phonable",
-      "title": "Phonable",
-      "url": "https://www.producthunt.com/products/phonable",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Frits Polman",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-05T13:03:57+00:00",
-      "summary": "Missed calls, handled: callers get a text, you get the gist Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/de-stash",
-      "title": "De Stash",
-      "url": "https://www.producthunt.com/products/de-stash",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Naveenkishore",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-06T05:57:22+00:00",
-      "summary": "See, search and clean up your Mac storage, 100% private Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/porch-6",
-      "title": "Porch",
-      "url": "https://www.producthunt.com/products/porch-6",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Jerry M",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T04:53:12+00:00",
-      "summary": "local project summaries and cost tracking for AI coding Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/staffcoder",
-      "title": "Staffcoder",
-      "url": "https://www.producthunt.com/products/staffcoder",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Shashank Sharma",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T08:53:59+00:00",
-      "summary": "Build like a real engineer Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/opposable",
-      "title": "Opposable",
-      "url": "https://www.producthunt.com/products/opposable",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Erik M",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T20:54:42+00:00",
-      "summary": "Computer use for phones to give your AI thumbs Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/openpilot",
-      "title": "OpenPilot",
-      "url": "https://www.producthunt.com/products/openpilot",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.producthunt.com/feed",
-        "name": "Ibrahim",
-        "feed_title": "Product Hunt — The best new products, every day"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T05:53:51+00:00",
-      "summary": "Open-source desktop AI agent for any model you choose Discussion | Link",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.producthunt.com/products/together-ai",
-      "title": "Together Link",
-      "url": "https://www.producthunt.com/products/together-ai",
+      "id": "rss:https://www.producthunt.com/products/microsoft-decision-1",
+      "title": "Microsoft-Decision-1",
+      "url": "https://www.producthunt.com/products/microsoft-decision-1",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -1487,77 +1147,451 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-05T17:52:00+00:00",
-      "summary": "Use open models in your harness Discussion | Link",
+      "published_at": "2026-10-09T18:50:17+00:00",
+      "summary": "Microsoft’s decision model for agents and workflows Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/sorted-6",
-      "title": "Sorted",
-      "url": "https://www.producthunt.com/products/sorted-6",
+      "id": "rss:https://www.producthunt.com/products/put-here",
+      "title": "put·here",
+      "url": "https://www.producthunt.com/products/put-here",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Shrikar Archak",
+        "name": "Peter Li",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T22:52:23+00:00",
-      "summary": "Your private AI file organizer for Mac Discussion | Link",
+      "published_at": "2026-10-09T21:15:23+00:00",
+      "summary": "A place to collect notes to organize them later Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/amazon-alexa-tablets",
-      "title": "Amazon Alexa Tablets",
-      "url": "https://www.producthunt.com/products/amazon-alexa-tablets",
+      "id": "rss:https://www.producthunt.com/products/agentdock",
+      "title": "AgentDock",
+      "url": "https://www.producthunt.com/products/agentdock",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Zac Zuo",
+        "name": "Tihomir Videnov",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-08T15:51:14+00:00",
-      "summary": "Full Google Play, Alexa+ and a Kindle reading mode Discussion | Link",
+      "published_at": "2026-10-09T21:55:39+00:00",
+      "summary": "Answer Claude Code & Codex from one Inbox, in any terminal Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/comcent",
-      "title": "Comcent",
-      "url": "https://www.producthunt.com/products/comcent",
+      "id": "rss:https://www.producthunt.com/products/lune-research",
+      "title": "Lune",
+      "url": "https://www.producthunt.com/products/lune-research",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Pavan Kumar",
+        "name": "Tony He",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-07T10:05:19+00:00",
-      "summary": "AI-ready voice infrastructure on your own SIP trunk Discussion | Link",
+      "published_at": "2026-10-10T03:56:36+00:00",
+      "summary": "The search engine built for scientific AI agents Discussion | Link",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.producthunt.com/products/agentsdr",
-      "title": "AgentSDR",
-      "url": "https://www.producthunt.com/products/agentsdr",
+      "id": "rss:https://www.producthunt.com/products/hypervibe-2",
+      "title": "Hypervibe",
+      "url": "https://www.producthunt.com/products/hypervibe-2",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.producthunt.com/feed",
-        "name": "Kevin William David",
+        "name": "Lucio",
         "feed_title": "Product Hunt — The best new products, every day"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-06T09:07:53+00:00",
-      "summary": "Open-source AI SDR Discussion | Link",
+      "published_at": "2026-10-08T00:23:22+00:00",
+      "summary": "Run your AI coding agents on one infinite board Discussion | Link",
       "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/onepin",
+      "title": "Onepin",
+      "url": "https://www.producthunt.com/products/onepin",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Rohan Chaubey",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-21T23:58:07+00:00",
+      "summary": "AI voiceover with every name, price and date said right Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/claude-dashboards-motion",
+      "title": "Claude Dashboards & Motion",
+      "url": "https://www.producthunt.com/products/claude-dashboards-motion",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "KP",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T15:13:51+00:00",
+      "summary": "Ask Claude for live dashboards and animated explainers Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/new-windows-search",
+      "title": "New Windows Search",
+      "url": "https://www.producthunt.com/products/new-windows-search",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Justin Jincaid",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T03:50:14+00:00",
+      "summary": "Windows Search now takes action, not just finds files Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/pocketwebtools",
+      "title": "PocketWebTools for Mac",
+      "url": "https://www.producthunt.com/products/pocketwebtools",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Shafu",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T07:00:05+00:00",
+      "summary": "Local AI chat, transcription and video tools in one Mac app Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/fluence",
+      "title": "Fluence",
+      "url": "https://www.producthunt.com/products/fluence",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Yannick HUCHARD",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-20T09:51:47+00:00",
+      "summary": "Listen to your documents. Nothing leaves your phone Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/skymir",
+      "title": "Skymir",
+      "url": "https://www.producthunt.com/products/skymir",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "David Avellan",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-29T21:35:05+00:00",
+      "summary": "Google Drive sync for Linux Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/naarchy",
+      "title": "Naarchy",
+      "url": "https://www.producthunt.com/products/naarchy",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Michael Hurley",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-05T12:08:18+00:00",
+      "summary": "A little island for everything on your Linux desktop Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/tuck-6",
+      "title": "Tuck",
+      "url": "https://www.producthunt.com/products/tuck-6",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Abdalmohsen Al Tulaihi",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-07T16:06:35+00:00",
+      "summary": "A tidy menu bar for macOS 27 Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/skreno",
+      "title": "Skreno",
+      "url": "https://www.producthunt.com/products/skreno",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Sadek Hossain",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-09-29T07:15:58+00:00",
+      "summary": "Record, edit and share videos, all in your browser Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/baby-desk",
+      "title": "Baby Desk",
+      "url": "https://www.producthunt.com/products/baby-desk",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "GUNWOO KO",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-06T18:22:22+00:00",
+      "summary": "Let your baby smash the keyboard and your work stays safe Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/cue-26",
+      "title": "Cue",
+      "url": "https://www.producthunt.com/products/cue-26",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Brandon Ta",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-08T04:36:03+00:00",
+      "summary": "Put your AirPods in, your Mac starts focusing Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/pixrater",
+      "title": "PixRater",
+      "url": "https://www.producthunt.com/products/pixrater",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Stefan Oltmann",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T22:26:44+00:00",
+      "summary": "Cull and rate your photos faster Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/maildun-for-mac",
+      "title": "Maildun for Mac",
+      "url": "https://www.producthunt.com/products/maildun-for-mac",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Dunn",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-10T01:06:33+00:00",
+      "summary": "Design on-brand emails by hand, with AI, or over MCP Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/kitbar",
+      "title": "Kitbar",
+      "url": "https://www.producthunt.com/products/kitbar",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Abbas Aga",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-08T13:54:25+00:00",
+      "summary": "Your dev tools, in one bar. Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/ej-jev-but-for-edge-devices",
+      "title": "ej",
+      "url": "https://www.producthunt.com/products/ej-jev-but-for-edge-devices",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Saket Bhushan",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T18:42:37+00:00",
+      "summary": "An 11MB local model for typed decisions in one pass Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/letra-3",
+      "title": "Letra",
+      "url": "https://www.producthunt.com/products/letra-3",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Nikhil Barik",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T19:26:30+00:00",
+      "summary": "Copy the text your Mac won’t let you select Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/kernelai",
+      "title": "KernelAI",
+      "url": "https://www.producthunt.com/products/kernelai",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Anes Khadiri",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T16:58:13+00:00",
+      "summary": "53 open models from 15 labs, running entirely on your phone Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/buffer-3",
+      "title": "Buffer",
+      "url": "https://www.producthunt.com/products/buffer-3",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Samir Patil",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-03-17T18:39:17+00:00",
+      "summary": "Search everything you copy, even text inside screenshots Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/history-monk-better-history-search",
+      "title": "History Monk",
+      "url": "https://www.producthunt.com/products/history-monk-better-history-search",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Abhimanyu Sharma",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T17:05:55+00:00",
+      "summary": "Fast History Search, Export & Bulk Delete Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.producthunt.com/products/notchzy-dynamic-island-for-windows",
+      "title": "Notchzy",
+      "url": "https://www.producthunt.com/products/notchzy-dynamic-island-for-windows",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.producthunt.com/feed",
+        "name": "Dhananjay Kohar",
+        "feed_title": "Product Hunt — The best new products, every day"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-06T16:05:49+00:00",
+      "summary": "Interactive dynamic island for windows Discussion | Link",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://sspai.com/post/115237",
+      "title": "App+1｜专注星空：让「少刷手机」这件事更愉悦一点",
+      "url": "https://sspai.com/post/115237",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://sspai.com/feed",
+        "name": "少玩手机多睡觉",
+        "feed_title": "少数派"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-10T02:19:52+00:00",
+      "summary": "把决定使用时长的时机，放到每次打开应用之前。查看全文",
+      "lang": "zh"
+    },
+    {
+      "id": "rss:https://sspai.com/post/115566",
+      "title": "本周看什么 | 最近值得一看的 11 部作品",
+      "url": "https://sspai.com/post/115566",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://sspai.com/feed",
+        "name": "少数派编辑部",
+        "feed_title": "少数派"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-09T10:04:09+00:00",
+      "summary": "📅本周新预告《寒夜怪谈》新预告10月1日，电影《寒夜怪谈》发布了新预告，将于11月13日在北美上映。缇·威斯特（《X》《珀尔》《玛克辛》）执导，约翰尼·德普回归奇幻巨制，将狄更斯名著《圣诞颂歌》改编为 ...查看全文",
+      "lang": "zh"
     },
     {
       "id": "rss:https://sspai.com/post/115456",
@@ -1696,40 +1730,6 @@
       "lang": "zh"
     },
     {
-      "id": "rss:https://sspai.com/post/114845",
-      "title": "罗马：永恒之城，永恒于世",
-      "url": "https://sspai.com/post/114845",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "程天冲",
-        "feed_title": "少数派"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-07T03:00:00+00:00",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "lang": "zh"
-    },
-    {
-      "id": "rss:https://sspai.com/post/115416",
-      "title": "基于 Vaultwarden 和 Keyguard 的自托管密码管理实践",
-      "url": "https://sspai.com/post/115416",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://sspai.com/feed",
-        "name": "大大大K",
-        "feed_title": "少数派"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-06T10:00:00+00:00",
-      "summary": "密码管理服务的数据，当然要掌握在自己手里。查看全文",
-      "lang": "zh"
-    },
-    {
       "id": "hn:49913571",
       "title": "Gemini 4 Argon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
@@ -1741,7 +1741,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49913571"
       },
       "duration_sec": null,
-      "views": 1703,
+      "views": 1704,
       "comments": 1190,
       "published_at": "2026-09-30T20:04:37+00:00",
       "summary": "",
@@ -1931,7 +1931,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49996713"
       },
       "duration_sec": null,
-      "views": 47,
+      "views": 52,
       "comments": 22,
       "published_at": "2026-10-07T18:19:03+00:00",
       "summary": "",
@@ -2046,7 +2046,7 @@
       },
       "duration_sec": null,
       "views": 771,
-      "comments": 557,
+      "comments": 558,
       "published_at": "2026-10-04T19:42:25+00:00",
       "summary": "",
       "matched_keyword": "Apple Intelligence",
