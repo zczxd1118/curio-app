@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-10-10T09:40:08.364062+00:00",
+  "fetched_at": "2026-10-11T09:52:25.058643+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,13 +13,13 @@
     "华尔街见闻 API": 0,
     "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 1,
-    "HN · inflation": 5,
+    "HN · inflation": 4,
     "HN · Tesla": 2,
     "HN · finance": 9,
     "HN · fed": 13
   },
   "subtopics": [],
-  "total": 59,
+  "total": 58,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/its-not-you-its-me/",
@@ -189,6 +189,23 @@
       "views": null,
       "published_at": "2026-09-28T10:25:37+00:00",
       "summary": "Agents are the ultimate Aggregators; they reveal apps as a means, not an ends, and providing them is tech's biggest prize.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/when-saturday-comes",
+      "title": "When Saturday Comes",
+      "url": "https://www.netinterest.co/p/when-saturday-comes",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-10T12:42:20+00:00",
+      "summary": "Football as an Asset Class",
       "lang": "en"
     },
     {
@@ -515,23 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.netinterest.co/p/the-future-of-ir",
-      "title": "The Future of IR",
-      "url": "https://www.netinterest.co/p/the-future-of-ir",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-15T15:38:49+00:00",
-      "summary": "What the Changing Shape of Markets Means for Investor Relations",
-      "lang": "en"
-    },
-    {
       "id": "hn:49810905",
       "title": "In 2025, 49 percent of adults under age 30 lived with a parent [pdf]",
       "url": "https://www.federalreserve.gov/publications/files/2025-report-economic-well-being-us-households-202605.pdf",
@@ -608,25 +608,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49645186",
-      "title": "Streaming Is Raising Prices Faster Than Cable Ever Did",
-      "url": "https://www.hollywoodreporter.com/business/business-news/streaming-inflation-raising-prices-cable-1236691404/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49645186",
-        "name": "robtherobber",
-        "hn_url": "https://news.ycombinator.com/item?id=49645186"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 8,
-      "published_at": "2026-09-10T15:15:11+00:00",
-      "summary": "",
-      "matched_keyword": "inflation",
-      "lang": "en"
-    },
-    {
       "id": "hn:49924299",
       "title": "Sony released the first CD audio player on this day in 1982",
       "url": "https://www.tomshardware.com/pc-components/storage/sony-released-the-first-cd-audio-player-on-this-day-in-1982-player-cost-usd3-700-when-adjusted-for-inflation-but-it-would-be-another-decade-before-the-cd-rom-driven-multimedia-pc-era-began",
@@ -676,8 +657,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50023065"
       },
       "duration_sec": null,
-      "views": 50,
-      "comments": 32,
+      "views": 52,
+      "comments": 37,
       "published_at": "2026-10-09T16:38:20+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -817,6 +798,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50029232",
+      "title": "Data centre company's much-hyped Australian stock market listing imploded",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/09/firmus-australian-stock-market-listing-bust-finance",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50029232",
+        "name": "stubish",
+        "hn_url": "https://news.ycombinator.com/item?id=50029232"
+      },
+      "duration_sec": null,
+      "views": 22,
+      "comments": 0,
+      "published_at": "2026-10-10T03:23:09+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
       "id": "hn:49908455",
       "title": "European Network for Payments – An EU Alternative to Visa/Mastercard",
       "url": "https://www.reuters.com/business/finance/european-payments-groups-join-forces-lessen-us-reliance-2026-09-30/",
@@ -831,25 +831,6 @@
       "views": 19,
       "comments": 1,
       "published_at": "2026-09-30T13:11:29+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50029232",
-      "title": "Data centre company's much-hyped Australian stock market listing imploded",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/09/firmus-australian-stock-market-listing-bust-finance",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50029232",
-        "name": "stubish",
-        "hn_url": "https://news.ycombinator.com/item?id=50029232"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 0,
-      "published_at": "2026-10-10T03:23:09+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"

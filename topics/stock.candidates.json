@@ -2,14 +2,14 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-10T09:40:00.126544+00:00",
+  "fetched_at": "2026-10-11T09:52:17.282794+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 4,
+    "HN · stock market": 5,
     "HN · IPO": 6,
     "HN · earnings": 1,
     "HN · Federal Reserve": 1,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 32,
+  "total": 33,
   "items": [
     {
       "id": "hn:49872723",
@@ -32,8 +32,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49872723"
       },
       "duration_sec": null,
-      "views": 1091,
-      "comments": 458,
+      "views": 1092,
+      "comments": 459,
       "published_at": "2026-09-28T02:05:13+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -89,9 +89,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50019535"
       },
       "duration_sec": null,
-      "views": 30,
-      "comments": 3,
+      "views": 32,
+      "comments": 4,
       "published_at": "2026-10-09T12:29:40+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50029232",
+      "title": "Data centre company's much-hyped Australian stock market listing imploded",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/09/firmus-australian-stock-market-listing-bust-finance",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50029232",
+        "name": "stubish",
+        "hn_url": "https://news.ycombinator.com/item?id=50029232"
+      },
+      "duration_sec": null,
+      "views": 22,
+      "comments": 0,
+      "published_at": "2026-10-10T03:23:09+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -165,8 +184,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50029452"
       },
       "duration_sec": null,
-      "views": 37,
-      "comments": 8,
+      "views": 53,
+      "comments": 12,
       "published_at": "2026-10-10T04:04:17+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -246,6 +265,23 @@
       "published_at": "2026-09-23T02:26:49+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/when-saturday-comes",
+      "title": "When Saturday Comes",
+      "url": "https://www.netinterest.co/p/when-saturday-comes",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-10T12:42:20+00:00",
+      "summary": "Football as an Asset Class",
       "lang": "en"
     },
     {
@@ -569,23 +605,6 @@
       "views": null,
       "published_at": "2026-05-22T16:22:17+00:00",
       "summary": "Inside Citadel&#8217;s Talent Machine",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.netinterest.co/p/the-future-of-ir",
-      "title": "The Future of IR",
-      "url": "https://www.netinterest.co/p/the-future-of-ir",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-15T15:38:49+00:00",
-      "summary": "What the Changing Shape of Markets Means for Investor Relations",
       "lang": "en"
     }
   ]

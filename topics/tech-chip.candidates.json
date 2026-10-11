@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-10T09:40:13.665294+00:00",
+  "fetched_at": "2026-10-11T09:52:29.697883+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 7,
+    "HN · Nvidia": 8,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 30,
+  "total": 31,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=49872723"
       },
       "duration_sec": null,
-      "views": 1091,
-      "comments": 458,
+      "views": 1092,
+      "comments": 459,
       "published_at": "2026-09-28T02:05:13+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -430,6 +430,25 @@
       "views": 230,
       "comments": 298,
       "published_at": "2026-09-28T15:46:36+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50035886",
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50035886",
+        "name": "arkj",
+        "hn_url": "https://news.ycombinator.com/item?id=50035886"
+      },
+      "duration_sec": null,
+      "views": 162,
+      "comments": 105,
+      "published_at": "2026-10-10T18:48:35+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -484,8 +503,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50008187"
       },
       "duration_sec": null,
-      "views": 424,
-      "comments": 300,
+      "views": 429,
+      "comments": 301,
       "published_at": "2026-10-08T16:45:58+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -522,7 +541,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49970667"
       },
       "duration_sec": null,
-      "views": 493,
+      "views": 494,
       "comments": 339,
       "published_at": "2026-10-05T21:00:21+00:00",
       "summary": "",
@@ -542,7 +561,7 @@
       },
       "duration_sec": null,
       "views": 403,
-      "comments": 900,
+      "comments": 901,
       "published_at": "2026-09-25T13:49:06+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
