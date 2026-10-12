@@ -2,14 +2,14 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-11T09:52:17.282794+00:00",
+  "fetched_at": "2026-10-12T10:33:25.042303+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 5,
+    "HN · stock market": 4,
     "HN · IPO": 6,
     "HN · earnings": 1,
     "HN · Federal Reserve": 1,
@@ -18,27 +18,8 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 33,
+  "total": 32,
   "items": [
-    {
-      "id": "hn:49872723",
-      "title": "Owed a billion dollars in Nvidia stock",
-      "url": "https://colo.to/nvidia-stock-narrative.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49872723",
-        "name": "Eric_Gullichsen",
-        "hn_url": "https://news.ycombinator.com/item?id=49872723"
-      },
-      "duration_sec": null,
-      "views": 1092,
-      "comments": 459,
-      "published_at": "2026-09-28T02:05:13+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
     {
       "id": "hn:49930086",
       "title": "US tells France and Germany to release diesel stocks or face US export ban",
@@ -154,6 +135,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50051583",
+      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50051583",
+        "name": "m463",
+        "hn_url": "https://news.ycombinator.com/item?id=50051583"
+      },
+      "duration_sec": null,
+      "views": 77,
+      "comments": 56,
+      "published_at": "2026-10-12T05:03:47+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:49914149",
       "title": "Anthropic's IPO Prospectus Is a Fucking Doozy",
       "url": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
@@ -165,7 +165,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49914149"
       },
       "duration_sec": null,
-      "views": 70,
+      "views": 71,
       "comments": 33,
       "published_at": "2026-09-30T20:44:19+00:00",
       "summary": "",
@@ -174,7 +174,7 @@
     },
     {
       "id": "hn:50029452",
-      "title": "Data Center Darling's $30B IPO Dream Crushed in 48 Hours",
+      "title": "Data Center Darling Firmus's $30B IPO Dream Crushed in 48 Hours",
       "url": "https://www.bloomberg.com/news/articles/2026-10-09/data-center-darling-s-30-billion-ipo-dream-crushed-in-48-hours",
       "platform": "hackernews",
       "source": {
@@ -185,7 +185,7 @@
       },
       "duration_sec": null,
       "views": 53,
-      "comments": 12,
+      "comments": 14,
       "published_at": "2026-10-10T04:04:17+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -206,25 +206,6 @@
       "views": 72,
       "comments": 87,
       "published_at": "2026-09-21T19:14:30+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49937304",
-      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
-      "url": "https://pipod.dev/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49937304",
-        "name": "edverma2",
-        "hn_url": "https://news.ycombinator.com/item?id=49937304"
-      },
-      "duration_sec": null,
-      "views": 121,
-      "comments": 47,
-      "published_at": "2026-10-02T19:10:38+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"

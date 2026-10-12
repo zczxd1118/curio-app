@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-11T09:52:29.697883+00:00",
+  "fetched_at": "2026-10-12T10:33:37.654134+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 1,
-    "HN · Nvidia": 8,
+    "HN · Nvidia": 7,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 31,
+  "total": 30,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/security-becomes-a-sign-off-item/",
+      "title": "Security Becomes a Sign-off Item",
+      "url": "https://www.eetimes.com/security-becomes-a-sign-off-item/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Moshe Zalcberg",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-12T07:10:22+00:00",
+      "summary": "Europe’s CRA turns chip security into auditable sign-off, pushing silicon teams to prove resilience before 2027. The post Security Becomes a Sign-off Item appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/manfred-horstmann-globalfoundries-bets-on-fdx-fusion-for-physical-ai/",
       "title": "Manfred Horstmann: GlobalFoundries Bets on FDX Fusion for Physical AI",
       "url": "https://www.eetimes.com/manfred-horstmann-globalfoundries-bets-on-fdx-fusion-for-physical-ai/",
@@ -342,23 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/nvidia-jetson-to-sima-ai-modalix-mlsoc-migration-guide/",
-      "title": "NVIDIA Jetson to SiMa.ai Modalix MLSoC Migration Guide",
-      "url": "https://www.eetimes.com/nvidia-jetson-to-sima-ai-modalix-mlsoc-migration-guide/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "SiMa Technologies, Inc.",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-08T14:00:00+00:00",
-      "summary": "This technical guide provides a practical framework for migrating machine learning models and applications from an NVIDIA/CUDA-based environment to the SiMa.ai Physical AI platform. It explains the key differences between the two deployment workflows, outlines the model and application migration processes, and identifies the technical considerations to address before deployment. You&#8217;ll learn how to: Inside [&#8230;] The post NVIDIA Jetson to SiMa.ai Modalix MLSoC Migration Guide appeared f...",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -375,25 +375,6 @@
       "published_at": "2026-09-15T15:31:55+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49872723",
-      "title": "Owed a billion dollars in Nvidia stock",
-      "url": "https://colo.to/nvidia-stock-narrative.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49872723",
-        "name": "Eric_Gullichsen",
-        "hn_url": "https://news.ycombinator.com/item?id=49872723"
-      },
-      "duration_sec": null,
-      "views": 1092,
-      "comments": 459,
-      "published_at": "2026-09-28T02:05:13+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
@@ -446,8 +427,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50035886"
       },
       "duration_sec": null,
-      "views": 162,
-      "comments": 105,
+      "views": 176,
+      "comments": 114,
       "published_at": "2026-10-10T18:48:35+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -503,7 +484,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50008187"
       },
       "duration_sec": null,
-      "views": 429,
+      "views": 432,
       "comments": 301,
       "published_at": "2026-10-08T16:45:58+00:00",
       "summary": "",
