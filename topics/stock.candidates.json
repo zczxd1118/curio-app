@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-12T10:33:25.042303+00:00",
+  "fetched_at": "2026-10-13T10:22:18.613071+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,7 +10,7 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 4,
-    "HN · IPO": 6,
+    "HN · IPO": 7,
     "HN · earnings": 1,
     "HN · Federal Reserve": 1,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 32,
+  "total": 33,
   "items": [
     {
       "id": "hn:49930086",
@@ -97,6 +97,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50051583",
+      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50051583",
+        "name": "m463",
+        "hn_url": "https://news.ycombinator.com/item?id=50051583"
+      },
+      "duration_sec": null,
+      "views": 240,
+      "comments": 215,
+      "published_at": "2026-10-12T05:03:47+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:49826087",
       "title": "16GB iPod Nano 3G Upgrade",
       "url": "https://tuckerosman.com/projects/16gb-ipod-nano",
@@ -127,28 +146,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=49886005"
       },
       "duration_sec": null,
-      "views": 144,
+      "views": 145,
       "comments": 150,
       "published_at": "2026-09-28T23:40:59+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50051583",
-      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50051583",
-        "name": "m463",
-        "hn_url": "https://news.ycombinator.com/item?id=50051583"
-      },
-      "duration_sec": null,
-      "views": 77,
-      "comments": 56,
-      "published_at": "2026-10-12T05:03:47+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -184,8 +184,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50029452"
       },
       "duration_sec": null,
-      "views": 53,
-      "comments": 14,
+      "views": 55,
+      "comments": 16,
       "published_at": "2026-10-10T04:04:17+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -206,6 +206,25 @@
       "views": 72,
       "comments": 87,
       "published_at": "2026-09-21T19:14:30+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49937304",
+      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+      "url": "https://pipod.dev/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49937304",
+        "name": "edverma2",
+        "hn_url": "https://news.ycombinator.com/item?id=49937304"
+      },
+      "duration_sec": null,
+      "views": 121,
+      "comments": 46,
+      "published_at": "2026-10-02T19:10:38+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"

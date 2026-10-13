@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-10-12T10:33:32.502348+00:00",
+  "fetched_at": "2026-10-13T10:22:27.002459+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,16 +11,33 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 24,
+    "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 1,
     "HN · inflation": 4,
     "HN · Tesla": 2,
-    "HN · finance": 10,
-    "HN · fed": 13
+    "HN · finance": 8,
+    "HN · fed": 15
   },
   "subtopics": [],
-  "total": 83,
+  "total": 59,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/spacex-buys-more-spectrum-musk-and-market-structure-distributed-cellular/",
+      "title": "SpaceX Buys More Spectrum, Musk and Market Structure, Distributed Cellular",
+      "url": "https://stratechery.com/2026/spacex-buys-more-spectrum-musk-and-market-structure-distributed-cellular/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-13T10:00:00+00:00",
+      "summary": "SpaceX's mobile strategy is becoming clearly with its latest spectrum purchase, and it might work.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/personal-day-4/",
       "title": "Personal Day",
@@ -172,23 +189,6 @@
       "views": null,
       "published_at": "2026-09-30T10:00:00+00:00",
       "summary": "OpenAI's Dev Day showcased a product that is, frankly, pretty confusing. However, there is more vision here than it might seem.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/",
-      "title": "One More Note on Agents, Meta Connect, Meta Enterprise Platform",
-      "url": "https://stratechery.com/2026/one-more-note-on-agents-meta-connect-meta-enterprise-platform/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-09-29T10:00:00+00:00",
-      "summary": "Meta has the chance to own the consumer agentic space; going for enterprise is a big mistake.",
       "lang": "en"
     },
     {
@@ -532,414 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arxiv.org/abs/2610.12477",
-      "title": "Crisis without Collapse: A Theory of Capitalist Persistence",
-      "url": "https://arxiv.org/abs/2610.12477",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Murat Ova",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.12477v1 Announce Type: new Abstract: The terminal crisis of capitalism has been predicted regularly since 1848. It has not occurred. We treat this 175-year forecasting record as a stylized fact in need of a model, and we supply one, unifying results from adaptive systems, mechanism design and computational complexity, behavioral decision theory, global games, and the political economy of redistribution. Ten assumptions deliver twelve formal results and one theorem. Recurring shock cla...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.12587",
-      "title": "On the Optimality of Mental Accounting",
-      "url": "https://arxiv.org/abs/2610.12587",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Jarrod Burgh, Emerson Melo, Matthew Shum",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.12587v1 Announce Type: new Abstract: Mental accounting is usually explained by self-control, and two-stage budgeting by separable preferences. We propose a third explanation based on sellers' market power. A consumer who commits to spend a fixed number of dollars in a category has unit-elastic demand, so a seller in that category gains nothing by restricting quantity. A consumer who instead targets a fixed physical quantity has perfectly inelastic demand, a case that a monopolist can ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.12594",
-      "title": "Restricted Entropic and Quadratic Hedging in the Small-Risk-Aversion Limit",
-      "url": "https://arxiv.org/abs/2610.12594",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Jonas Hanetho",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.12594v1 Announce Type: new Abstract: In incomplete markets, contingent claims cannot in general be replicated exactly, and hedging must therefore be formulated as an optimization problem over admissible trading strategies. This paper studies the relation between quadratic hedging and entropic hedging in a discrete-time incomplete market when strategies are restricted to bounded finite-dimensional parametric classes. These restrictions induce admissible gain sets that are compact and c...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.12718",
-      "title": "A Distributional Framework for Behavioral Characterization and Risk Management of Large Language Models",
-      "url": "https://arxiv.org/abs/2610.12718",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "David Garc\\'ia-Lorite, Raul Merino",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.12718v1 Announce Type: new Abstract: Large language models are stochastic by nature. Repeated executions under the same experimental conditions may produce different responses. We propose a framework that can be applied across the model lifecycle, from task design to residual behavior and continuous monitoring. The method consists of building an empirical response distribution estimated through Monte Carlo simulation. Semantic interventions are introduced to study how these distributi...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.12875",
-      "title": "The Financing of Debt Relief: Intermediary Liquidity and the Value of Borrower Information",
-      "url": "https://arxiv.org/abs/2610.12875",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Arka P. Bandyopadhyay",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.12875v1 Announce Type: new Abstract: I study how intermediary liquidity affects mortgage resolution using 1.9 million Ginnie Mae buyout options from 2019 to 2022. When funding markets froze in 2020, nonbank issuers repurchased far fewer delinquent loans than depositories servicing loans in the same pools and, within the same issuer and month, shifted repurchases away from large balances, the loans that require the most cash. About $19 billion of repurchases were delayed, and most were...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.13044",
-      "title": "FOMO: FLEX Options and Market Outcomes",
-      "url": "https://arxiv.org/abs/2610.13044",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Shivesh Prakash, Frank Ferstler, Nicholas Pezolano",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.13044v1 Announce Type: new Abstract: FLEX options are customized exchange-traded contracts allowing participants to choose nonstandard strikes, expirations, exercise styles, and settlement terms while retaining central clearing. We investigate whether single-name FLEX activity leaves measurable footprints in regular listed-option markets and underlying equities. Using a linked dataset of FLEX consolidations, daily open-interest files, listed-option chains, equity returns, and corporat...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.13126",
-      "title": "MLP-Initialized Reinforcement Learning for Exit Timing in SPX Short-Straddle Portfolios",
-      "url": "https://arxiv.org/abs/2610.13126",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Jianning Wang, Robert \\'Slepaczuk, Pawe{\\l} Sakowski",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.13126v1 Announce Type: new Abstract: This paper studies exit timing for SPX short-straddle portfolios using a two-stage supervised and reinforcement-learning framework. Historical episodes first generate ex-post optimal hold/exit labels for training a multilayer perceptron (MLP) using only contemporaneously available state variables at deployment. The trained MLP then initializes reinforcement-learning actors that are fine-tuned with a risk-aware trading reward. Out-of-sample evaluati...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.13162",
-      "title": "Entropy Regularization under No-Shorting: Structure Preservation and Convexity in Dynamic Mean-Variance Portfolio Selection",
-      "url": "https://arxiv.org/abs/2610.13162",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Xinagyu Cui, Xun Li, Ziyan Li, Yun Shi",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.13162v1 Announce Type: new Abstract: This paper studies entropy regularization for the discrete-time dynamic mean--variance portfolio problem with no-shorting constraints. In the unconstrained setting, entropy regularization can be introduced without changing the basic quadratic structure of the dynamic program. Under no-shorting, this property is lost: a standard fixed-temperature formulation generally preserves convexity but no longer preserves the homogeneous Bellman structure and ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.13199",
-      "title": "Enhancing credit risk scorecards with transactional-based behavioural features",
-      "url": "https://arxiv.org/abs/2610.13199",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Dian Prinsloo, Tanja Verster, Neill Smit",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.13199v1 Announce Type: new Abstract: Background: Credit risk modelling is fundamental in financial institutions, typically using credit history, repayment behaviour, income, and outstanding debt to estimate a borrower's probability of default. Although transactional data are sometimes incorporated through aggregated measures such as recency, frequency, and monetary indicators, behavioural information embedded in raw transaction narratives remains largely unexplored due to its unstruct...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.13543",
-      "title": "Three options are roughly enough - Variance-optimal semi-static hedging in the rough Heston model",
-      "url": "https://arxiv.org/abs/2610.13543",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Paolo Di Tella, Martin Keller-Ressel, Beatrice Ongarato",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.13543v1 Announce Type: new Abstract: This paper studies semi-static variance-optimal hedging of variance swaps in the rough Heston model under a risk-neutral measure. We combine dynamic trading in the underlying asset with static positions in a finite basket of European options, with the aim of minimizing the variance of the residual hedging error. Exploiting the Markovian lift provided by the forward variance curve, the Fourier representations of the claims and the Laplace transform ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.13785",
-      "title": "Linear Demand Systems are Consistent with Discrete Choice",
-      "url": "https://arxiv.org/abs/2610.13785",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Afonso Rodrigues",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.13785v1 Announce Type: new Abstract: Aggregate linear demand systems can be micro-founded by a population of heterogeneous consumers making discrete choices. They can also be extended to incorporate income effects. I prove these results and show how to structurally estimate this class of models using only market-level data. The distribution of consumer preferences is recovered by disciplining the corner solutions with aggregate terms only. This approach allows for the same richness of...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.12537",
-      "title": "Market Impact Estimation via Causal Foundation Models",
-      "url": "https://arxiv.org/abs/2610.12537",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Dennis Thumm, Ying Chen",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.12537v1 Announce Type: cross Abstract: When a trader executes a large order, the relevant question is not \\emph{what will the price be?} but \\emph{what would the price have been had I not traded?} Market impact is thus a causal quantity, yet classical models (Almgren--Chriss, propagators) regress price on flow, which is biased whenever informed flow moves prices through information as well as trading. We present a proof-of-concept \\emph{Causal Market Simulator}: a continuous-time caus...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.12917",
-      "title": "AI-Mediation in Retail Markets: Revenue Effects and Assortment Optimization",
-      "url": "https://arxiv.org/abs/2610.12917",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Omar El Housni, Marouane Ibn Brahim",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.12917v1 Announce Type: cross Abstract: AI shopping assistants increasingly influence which products consumers consider. We study retail assortment planning under AI mediation, where a retailer chooses a catalog, an AI intermediary forms a customer-facing shortlist, and the customer chooses from that shortlist according to a multinomial logit model. We consider both deterministic mediation, in which the AI follows a fixed segment-specific ranking, and stochastic mediation based on the ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.13446",
-      "title": "Realized Tail-Risk Conditional Autoregressive Expectile Models: Accurate and Stable Forecasting Performance",
-      "url": "https://arxiv.org/abs/2610.13446",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Keisuke Sasaki, Yasuhiro Omori",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.13446v1 Announce Type: cross Abstract: A realized tail-risk conditional autoregressive expectile (RTCARE) model is proposed for joint forecasting of value-at-risk (VaR) and expected shortfall (ES). Realized tail measures such as the realized quantile and the realized ES, constructed from intraday high-frequency returns, are incorporated into the dynamics and measurement equations of the conditional expectile, allowing information about lower-tail risk to enter the forecasts. The param...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.13574",
-      "title": "$L_0$ Feature Selection via Monte Carlo Tree Search in High-Dimensional Financial Regression",
-      "url": "https://arxiv.org/abs/2610.13574",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Cameron Mouangue, Tristan Cazenave",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.13574v1 Announce Type: cross Abstract: Feature selection is a central problem in high-dimensional financial regression, where large numbers of engineered variables and strong correlations among predictors reduce model stability and interpretability. $L_1$ regularization (Lasso) is widely used for sparse regression, but its shrinkage can be restrictive when informative signals are spread across correlated variables. Exact sparse regression avoids this shrinkage but requires solving a c...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.13606",
-      "title": "CorrFlow: Exact and Permutation-Equivariant Flow Matching on the Correlation Elliptope",
-      "url": "https://arxiv.org/abs/2610.13606",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Gautier Marti",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.13606v1 Announce Type: cross Abstract: Correlation matrices combine nonlinear positive-definiteness constraints with a simultaneous row-column permutation symmetry. Their generation therefore involves two distinct problems. First, every output must remain on the correlation elliptope, irrespective of how its variables are ordered. Second, the generator must learn the domain-specific distribution occupied by empirical data inside that valid space. Existing financial image generators mi...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2109.14360",
-      "title": "Systemic risk in interbank networks: disentangling balance sheets and network effects",
-      "url": "https://arxiv.org/abs/2109.14360",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Alessandro Ferracci, Giulio Cimini",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2109.14360v3 Announce Type: replace Abstract: We study how the level of systemic risk empirically observed in an interbank network differs from the expected risk implied by the balance sheets composition of the participating banks, abstracting from the specific configuration of bilateral exposures. To this end, using different contagion models (i.e., interbank asset valuation functions), we measure observed systemic risk on e-MID network data from 2005 to 2012 and compare it with the expec...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2507.12848",
-      "title": "Two-Sided Market Power in Firm-to-Firm Trade",
-      "url": "https://arxiv.org/abs/2507.12848",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Alviarez Vanessa, Fioretti Michele, Kikkawa Ken, Morlacco Monica",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2507.12848v3 Announce Type: replace Abstract: We develop and estimate a model of two-sided market power to study tariff pass-through in firm-to-firm trade. A tariff moves the negotiated price through two channels: the bilateral markup, set by bargaining, and the supplier's marginal cost, which falls alongside quantities under decreasing returns. The same decreasing returns give concentrated buyers rents to bargain over, so prices fall with the buyer's share of its supplier's output. Using ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2509.00212",
-      "title": "Economic Impacts of Climate Change in the United States: Integrating and Harmonizing Evidence from Recent Studies",
-      "url": "https://arxiv.org/abs/2509.00212",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Elizabeth Kopits, Daniel Kraynak, Bryan Parthum, Lisa Rennels, David Smith, Elizabeth Spink, Joseph Perla, Nshan Burns",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2509.00212v2 Announce Type: replace Abstract: This paper synthesizes evidence on climate change impacts specific to U.S. populations. We develop an apples-to-apples comparison of econometric studies that empirically estimate the relationship between climate change and gross domestic product (GDP). We demonstrate that with harmonized probabilistic socioeconomic and climate inputs these papers project a narrower and lower range of 2100 GDP losses than what is reported across the published st...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2605.06670",
-      "title": "Stochastic Policy Gradient Methods in the Uncertain Volatility Model",
-      "url": "https://arxiv.org/abs/2605.06670",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Lokman A Abbas-Turki (LPSM), Jean-Fran\\c{c}ois Chassagneux (ENSAE Paris), Jean-Philippe Lemor (LPSM), Gr\\'egoire Loeper (LPSM), Simon Sananes (LPSM)",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2605.06670v3 Announce Type: replace Abstract: The multidimensional Uncertain Volatility Model leads to robust option pricing problems under joint volatility and correlation uncertainty. Their numerical resolution quickly becomes challenging because the associated stochastic control problem is high-dimensional. We propose a backward actor-critic stochastic policy-gradient scheme tailored to this setting. The method combines a discrete dynamic programming principle with Proximal Policy Optim...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2605.22892",
-      "title": "Is TabPFN the Silver Bullet for Insurance Pricing?",
-      "url": "https://arxiv.org/abs/2605.22892",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Bruno Deprez, Wouter Verbeke, Tim Verdonck",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2605.22892v3 Announce Type: replace Abstract: Modelling claim frequency and severity for non-life insurance pricing predominantly relies on generalised linear models (GLMs), with gradient-boosted machines as the leading machine learning alternative. Tabular foundation models (TFMs) present a fundamentally different inference paradigm. By pre-training on large collections of synthetic datasets, TFMs enable inference on new data through in-context learning, without any dataset-specific prepr...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.10606",
-      "title": "The Gendered Impacts of Perceived Skin Tone: Evidence from African American Siblings in 1870-1940",
-      "url": "https://arxiv.org/abs/2610.10606",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Ran Abramitzky, Jacob Conway, Roy Mill, Luke C. D. Stein",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2610.10606v2 Announce Type: replace Abstract: We study differences in economic outcomes by perceived skin tone among African Americans using full-count U.S. decennial census data from the late-19th and early-20th centuries. Comparing children coded as \"Black\" or \"Mulatto\" by census enumerators and linking these children across population censuses, we first document large gaps in educational attainment and income among African Americans with darker and lighter perceived skin tones. To disen...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2503.09637",
-      "title": "Complementarity, Augmentation, or Substitutivity? The Impact of Generative Artificial Intelligence on the U.S. Federal Workforce",
-      "url": "https://arxiv.org/abs/2503.09637",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "William G. Resh, Yi Ming, Xinyao Xia, Michael Overton, Gul Nisa Gurbuz, Brandon De Bruhl",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2503.09637v2 Announce Type: replace-cross Abstract: This study applies a multi-stage Retrieval-Augmented Generation system, which grounds large language model assessments in curated evidence, to evaluate generative AI's near-term impact on knowledge, skills, and abilities across several hundred federal occupational series. Each occupation is scored along three dimensions of complementarity (AI enhances existing competencies), augmentation (AI requires workers to transform competencies), an...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.13732",
-      "title": "On the First Hitting Time Problems for Diffusion Processes: Local Time-Space Approach",
-      "url": "https://arxiv.org/abs/2608.13732",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Jerome Detemple, Yerkin Kitapbayev, Danila Shabalin",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-12T04:00:00+00:00",
-      "summary": "arXiv:2608.13732v3 Announce Type: replace-cross Abstract: Using the local time-space calculus of Peskir (2005) and the method developed in Mijatovic (2010), we derive a new integral representation for the backward probability associated with the first-passage time (FPT) of a diffusion process through a time-dependent barrier. We present a complete three-step numerical algorithm: first, the problem is reduced to a Volterra-type integral equation; second, its kernel is approximated by a Markov cha...",
-      "lang": "en"
-    },
-    {
       "id": "hn:49810905",
       "title": "In 2025, 49 percent of adults under age 30 lived with a parent [pdf]",
       "url": "https://www.federalreserve.gov/publications/files/2025-report-economic-well-being-us-households-202605.pdf",
@@ -1065,7 +657,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50023065"
       },
       "duration_sec": null,
-      "views": 52,
+      "views": 53,
       "comments": 40,
       "published_at": "2026-10-09T16:38:20+00:00",
       "summary": "",
@@ -1111,25 +703,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49828019",
-      "title": "Show HN: Trader News – Hacker News for Finance",
-      "url": "https://news.ycombinator.com/item?id=49828019",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49828019",
-        "name": "FailMore",
-        "hn_url": "https://news.ycombinator.com/item?id=49828019"
-      },
-      "duration_sec": null,
-      "views": 26,
-      "comments": 18,
-      "published_at": "2026-09-24T08:54:57+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
       "id": "hn:49778029",
       "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
       "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
@@ -1149,6 +722,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50057956",
+      "title": "French supermarkets suffer fridge shutdown after 'unprecedented' cyberattack",
+      "url": "https://uk.finance.yahoo.com/news/french-supermarket-chains-cyberattack-forced-115141288.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50057956",
+        "name": "thinkcontext",
+        "hn_url": "https://news.ycombinator.com/item?id=50057956"
+      },
+      "duration_sec": null,
+      "views": 154,
+      "comments": 2,
+      "published_at": "2026-10-12T15:36:21+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
       "id": "hn:49886005",
       "title": "Anthropic's IPO prospectus shows AI vision, surging costs",
       "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
@@ -1160,7 +752,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49886005"
       },
       "duration_sec": null,
-      "views": 144,
+      "views": 145,
       "comments": 150,
       "published_at": "2026-09-28T23:40:59+00:00",
       "summary": "",
@@ -1217,47 +809,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50049302"
       },
       "duration_sec": null,
-      "views": 94,
-      "comments": 103,
+      "views": 103,
+      "comments": 118,
       "published_at": "2026-10-11T23:40:06+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50029232",
-      "title": "Data centre company's much-hyped Australian stock market listing imploded",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/09/firmus-australian-stock-market-listing-bust-finance",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50029232",
-        "name": "stubish",
-        "hn_url": "https://news.ycombinator.com/item?id=50029232"
-      },
-      "duration_sec": null,
-      "views": 22,
-      "comments": 0,
-      "published_at": "2026-10-10T03:23:09+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49908455",
-      "title": "European Network for Payments – An EU Alternative to Visa/Mastercard",
-      "url": "https://www.reuters.com/business/finance/european-payments-groups-join-forces-lessen-us-reliance-2026-09-30/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49908455",
-        "name": "monegator",
-        "hn_url": "https://news.ycombinator.com/item?id=49908455"
-      },
-      "duration_sec": null,
-      "views": 19,
-      "comments": 1,
-      "published_at": "2026-09-30T13:11:29+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1274,7 +828,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=49948254"
       },
       "duration_sec": null,
-      "views": 502,
+      "views": 503,
       "comments": 274,
       "published_at": "2026-10-03T22:07:13+00:00",
       "summary": "",
@@ -1334,6 +888,25 @@
       "views": 259,
       "comments": 249,
       "published_at": "2026-10-01T13:05:51+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50059446",
+      "title": "Feds got warrants to use fake cell towers to hunt down Don Lemon's producer",
+      "url": "https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50059446",
+        "name": "rndsignals",
+        "hn_url": "https://news.ycombinator.com/item?id=50059446"
+      },
+      "duration_sec": null,
+      "views": 174,
+      "comments": 103,
+      "published_at": "2026-10-12T17:08:16+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
@@ -1467,6 +1040,25 @@
       "views": 219,
       "comments": 217,
       "published_at": "2026-09-14T21:05:22+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50062076",
+      "title": "\"Today we're laying off a large part of the Airtable team \"",
+      "url": "https://twitter.com/fedesimio/status/2109713695165329511",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50062076",
+        "name": "tortilla",
+        "hn_url": "https://news.ycombinator.com/item?id=50062076"
+      },
+      "duration_sec": null,
+      "views": 42,
+      "comments": 18,
+      "published_at": "2026-10-12T19:56:16+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
