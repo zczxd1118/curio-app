@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-13T10:22:32.065391+00:00",
+  "fetched_at": "2026-10-14T08:34:43.223840+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/spain-indra-bets-on-qilimanjaro-quantum-for-sovereign-deep-tech/",
+      "title": "Spain’s Indra Bets on Qilimanjaro Quantum for Sovereign Deep Tech",
+      "url": "https://www.eetimes.com/spain-indra-bets-on-qilimanjaro-quantum-for-sovereign-deep-tech/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-14T07:35:15+00:00",
+      "summary": "In a bid to secure domestic deep-tech infrastructure, Qilimanjaro closed €19.6 million (~$21.3 million) funding led by Indra Group. The post Spain’s Indra Bets on Qilimanjaro Quantum for Sovereign Deep Tech appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/amperesand-aims-to-smooth-ai-data-center-power-spikes/",
+      "title": "Amperesand Aims to Smooth AI Data Center Power Spikes",
+      "url": "https://www.eetimes.com/amperesand-aims-to-smooth-ai-data-center-power-spikes/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-13T22:00:00+00:00",
+      "summary": "See how Amperesand’s solid-state transformers aim to tame AI data center power spikes with batteries, 800 VDC conversion, and microgrid control. The post Amperesand Aims to Smooth AI Data Center Power Spikes appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/caspa-ceo-summit-preview-with-president-jimmy-cheng/",
+      "title": "CASPA CEO Summit Preview with President Jimmy Cheng",
+      "url": "https://www.eetimes.com/caspa-ceo-summit-preview-with-president-jimmy-cheng/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-13T14:04:30+00:00",
+      "summary": "CASPA’s annual conference celebrates its 35th anniversary with a lineup of more than 35 CEOs from Silicon Valley, including Intel’s Lip-Bu Tan and Cerebras’s Andrew Feldman. The post CASPA CEO Summit Preview with President Jimmy Cheng appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/17-years-with-china-what-really-makes-a-partnership-work/",
+      "title": "17 Years with China: What Really Makes a Partnership Work",
+      "url": "https://www.eetimes.com/17-years-with-china-what-really-makes-a-partnership-work/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Robert Tarantowicz, Founder and CEO of HONYA EUROPE",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-13T13:00:00+00:00",
+      "summary": "Honya Europe's Robert Tarantowicz shares 17 years of lessons on PCB sourcing in China, quality, trust, and risk management. The post 17 Years with China: What Really Makes a Partnership Work appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/europe-advanced-packaging-gap-fraunhofer-swissbit-target-the-missing-middle/",
       "title": "Europe’s Advanced Packaging Gap: Fraunhofer, Swissbit Target the Missing Middle",
       "url": "https://www.eetimes.com/europe-advanced-packaging-gap-fraunhofer-swissbit-target-the-missing-middle/",
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/manfred-horstmann-globalfoundries-bets-on-fdx-fusion-for-physical-ai/",
-      "title": "Manfred Horstmann: GlobalFoundries Bets on FDX Fusion for Physical AI",
-      "url": "https://www.eetimes.com/manfred-horstmann-globalfoundries-bets-on-fdx-fusion-for-physical-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T22:00:00+00:00",
-      "summary": "GlobalFoundries said strained-silicon FD-SOI can deliver 7-nm-class performance without EUV and open a new market for Europe. The post Manfred Horstmann: GlobalFoundries Bets on FDX Fusion for Physical AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/solid-state-transformers-accelerate-your-sst-design/",
-      "title": "Solid-State Transformers: Accelerate Your SST Design",
-      "url": "https://www.eetimes.com/solid-state-transformers-accelerate-your-sst-design/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Infineon Technologies, Arrow Electronics",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T15:38:47+00:00",
-      "summary": "Join our expert-led webinar to explore Infineon's comprehensive portfolio for Solid-State Transformers (SSTs). The post Solid-State Transformers: Accelerate Your SST Design appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/connecting-chiplets-isnt-enough-solving-the-data-movement-challenge-in-multi-die-systems/",
-      "title": "Connecting Chiplets Isn’t Enough – Solving the Data Movement Challenge in Multi-Die Systems",
-      "url": "https://www.eetimes.com/connecting-chiplets-isnt-enough-solving-the-data-movement-challenge-in-multi-die-systems/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Arteris",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T14:21:07+00:00",
-      "summary": "Join this BitCast and explore how extending NoC connectivity across die boundaries enables engineering teams to scale from monolithic SoCs to multi-die architectures. The post Connecting Chiplets Isn’t Enough &#8211; Solving the Data Movement Challenge in Multi-Die Systems appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/u-s-manufacturing-activity-sustains-growth-in-september-as-backlogs-surge/",
-      "title": "U.S. Manufacturing Activity Sustains Growth in September as Backlogs Surge",
-      "url": "https://www.eetimes.com/u-s-manufacturing-activity-sustains-growth-in-september-as-backlogs-surge/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "News Desk",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-09T12:11:04+00:00",
-      "summary": "Manufacturing maintains nine-month growth streak despite soaring costs and trade barriers. The post U.S. Manufacturing Activity Sustains Growth in September as Backlogs Surge appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:49714096",
       "title": "TSMC revealing details about next gen A14 node",
       "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50035886"
       },
       "duration_sec": null,
-      "views": 178,
-      "comments": 115,
+      "views": 179,
+      "comments": 116,
       "published_at": "2026-10-10T18:48:35+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -485,7 +485,7 @@
       },
       "duration_sec": null,
       "views": 495,
-      "comments": 339,
+      "comments": 340,
       "published_at": "2026-10-05T21:00:21+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
