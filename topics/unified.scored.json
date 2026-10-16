@@ -1,253 +1,246 @@
 {
   "date": "2026-10-16",
-  "intro": "今天最值得看的两条线：一是 ASML 单季营收 130 亿美元创纪录、客户已排到 2029-2030 年产能，AI 算力需求把上游设备商逼到扩产极限；二是 Meta 联合 Apple 发布可在 Mac 本地跑的开放权重模型 Muse Spark Open，端侧模型开始有真正的产品级落地。金融侧则相反——亚洲芯片股因 AI 融资担忧回落，Firmus 数据中心 IPO 48 小时崩盘，热钱正在重新定价。",
+  "intro": "今天最值得盯的是两条线：一是 ASML 交出 130 亿美元创纪录季度、并说客户已经在预订 2029-2030 年的产能，AI 资本开支的紧张程度从下游烧到了最上游的设备端；二是 Meta 联合 Apple 发布能在 Mac 本地跑的开放权重模型 Muse Spark Open，加上 Bluesky 把 Attie 扩成\"社交 vibe coding\"，端侧与轻量 Agent 的落地速度明显快于预期。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI 算力 / 半导体",
       "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/asml-reports-record-usd13-billion-quarter-vows-to-expand-capacity-as-demand-for-lithography-equipment-soars-customers-eager-to-secure-orders-in-2030-as-demand-is-expected-to-outstrip-2027-and-2028-supply",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-reports-record-usd13-billion-quarter-vows-to-expand-capacity-as-demand-for-lithography-equipment-soars-customers-eager-to-secure-orders-in-2030-as-demand-is-expected-to-outstrip-2027-and-2028-supply",
-      "source": "Tom's Hardware",
+      "source": "Anton Shilov / Tom's Hardware",
       "stars": 5,
-      "title": "ASML 单季营收 130 亿美元创纪录，客户已开始预订 2029-2030 年产能",
-      "lead": "ASML 交出史上最强单季财报，营收 130 亿美元，同时宣布扩产。CEO 明确表示，即便按现有扩产计划，需求仍可能超过 2027 和 2028 年的供给，客户已经在提前锁定 2029、2030 年的光刻机产出。这是 AI 资本开支从下游云厂商一路传导到最上游设备商的最硬证据。",
+      "title": "ASML 单季营收 130 亿美元创纪录，客户已开始预订 2029-2030 年光刻机产能",
+      "lead": "ASML 交出史上最强单季财报，营收 130 亿美元，同时宣布扩产。CEO 的说法比数字更关键：客户已经在为 2029、2030 年的产出下单，需求可能超过 2027-2028 年的供给。这意味着 AI 算力扩张的瓶颈正从芯片设计、封装一路前移到最上游的光刻设备。",
       "confirmed": [
-        "ASML 本季营收 130 亿美元，为公司历史最高单季记录",
-        "公司公开承诺扩大产能，并称需求可能超出 2027-2028 年供给",
-        "客户已开始为 2029、2030 年的设备产出提前下单",
-        "同期另一篇报道指出 ASML 正面临'跟不上需求'的产能压力"
+        "ASML 本季度营收 130 亿美元，为公司历史最高单季纪录",
+        "公司明确承诺扩大产能，并称盈利能力同步创纪录",
+        "客户已提前数年下单，订单窗口延伸到 2029-2030 年产出",
+        "CEO 表示需求可能超出 2027-2028 年的供给能力",
+        "同期另一篇报道称 ASML 正努力跟上设备需求，AI 支出持续繁荣"
       ],
       "judgment": [
-        "'需求超过供给'是 ASML 单方面口径，尚未有第三方订单数据交叉验证",
-        "扩产能否按期落地取决于供应链（蔡司光学、光源等）而非 ASML 自身",
-        "若 AI 资本开支在 2027 年出现拐点，这批长周期订单存在重谈风险",
-        "EUV 之外，High-NA 的客户接受节奏仍不明朗"
+        "\"需求超过供给\"是 ASML 自己的口径，实际交付节奏仍取决于零部件与供应链",
+        "提前数年下单不等于最终不砍单，2027 年后的订单可见度存疑",
+        "扩产能否在 2028 年前落地，取决于洁净室与人才而非资本",
+        "若 AI 资本开支在 2027 年降温，这批长单可能被重新议价"
       ],
-      "implication": "如果你在关注 AI 产业链，这条比任何模型发布都更能说明'钱在往哪流'——需求已经排到五年后，说明下游对算力增长的假设是长期而非周期性的。做 content-curator 时可以把'上游设备商财报'设成一个固定信号源，它比新闻稿更早反映真实景气度。"
+      "implication": "这条不是让你去看半导体股票，而是提醒你：AI 的\"算力叙事\"已经进入设备与产能的硬约束阶段。你做 content-curator 这类 Agent 项目，未来一两年最现实的变化是推理成本下降速度可能放缓——所以在设计 Agent 时，别默认\"模型会越来越便宜\"，把缓存、上下文裁剪、本地小模型兜底这些工程手段提前做进去，比事后优化省事得多。"
     },
     {
       "rank": 2,
       "domain": "大厂 AI 动态",
       "id": "rss:https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
       "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-      "source": "TechCrunch",
+      "source": "Lucas Ropek / TechCrunch",
       "stars": 5,
-      "title": "Meta 联合 Apple 发布 Muse Spark Open，首个可在 Mac 本地运行的开放权重模型",
-      "lead": "Meta 发布开放权重模型 Muse Spark Open，自称'迄今最强的美国开放权重模型'，并称是同类中首个能在 Apple Silicon 上本地运行、通过 MLX 框架优化的模型。Apple 罕见地参与了联合发布。这条的意义不在参数规模，而在'开放权重 + 端侧可跑'第一次被两家大厂同时背书。",
+      "title": "Meta 联合 Apple 发布开放权重模型 Muse Spark Open，直接在 Apple Silicon 上本地跑",
+      "lead": "Meta 发布 Muse Spark Open，自称\"迄今最强的美国开放权重模型\"，并称它是同类中第一个能在 Apple Silicon 上本地运行的模型。Apple 与 Meta 罕见联手，用 MLX 做了适配。对做 Agent 的人来说，这是端侧推理从\"能跑\"走向\"能用\"的一个具体节点。",
       "confirmed": [
-        "Meta 发布 Muse Spark Open，定位为美国最强开放权重模型",
-        "模型可在 Apple Silicon 上本地运行，使用 Apple 的 MLX 框架",
-        "Apple 官方参与了此次联合发布",
-        "Meta 称其为同类中首个具备该本地运行能力的模型"
+        "Meta 发布开放权重模型 Muse Spark Open，宣称是迄今最强美国开放权重模型",
+        "Meta 称其为同类中首个可在 Apple Silicon 上本地运行的模型",
+        "Apple 与 Meta 合作为该模型做了 Mac 端适配（MLX 相关）",
+        "The Verge 与 TechCrunch 同日报道，口径一致"
       ],
       "judgment": [
-        "'最强开放权重'是 Meta 自评，尚无独立评测（如 Artificial Analysis）佐证",
-        "本地运行的具体硬件门槛（内存、芯片代际）未披露",
-        "Apple 参与程度是技术合作还是市场联合，尚不清楚",
-        "对开发者生态的实际吸引力取决于许可证条款，目前细节不足"
+        "\"最强开放权重\"是厂商自评，尚无第三方基准验证",
+        "本地运行的量化版本与云端版本能力差距未公布",
+        "Apple 参与适配的深度不明，是否进入系统级 API 未知",
+        "对 Agent 场景的实际可用性（工具调用、长上下文）还没实测数据"
       ],
-      "implication": "端侧开放权重模型对你这种做个人 Agent 的人直接相关：如果 Muse Spark Open 真能在 Mac 上跑出可用质量，你的 content-curator 可以考虑把一部分摘要/分类任务从 API 挪到本地，省成本也省延迟。建议先跑一个 20 条样本的对比测试，别急着迁移。"
+      "implication": "你正在做 content-curator，这条直接相关：如果 Muse Spark Open 的本地版本在工具调用上够用，你的 Agent 就能把\"摘要、分类、去重\"这类高频低难度任务放到本地跑，只把真正需要强推理的环节交给云端 API。建议这周就找一台 M 系列 Mac 实测一次，重点看它能不能稳定输出结构化 JSON——这决定你的项目能不能把成本压下来。"
     },
     {
       "rank": 3,
-      "domain": "金融",
-      "id": "hn:50105900",
-      "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
-      "source": "Reuters / Hacker News",
+      "domain": "AI 算力 / 半导体",
+      "id": "hn:50035886",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "source": "arkj / Hacker News",
       "stars": 4,
-      "title": "市场抛售叠加利率上行，AI 数据中心交易热潮首次被'压力测试'",
-      "lead": "路透报道，市场抛售和利率上升正在考验 AI 数据中心相关的交易热潮。同期亚洲芯片股（SK 海力士、三星、软银）因 AI 融资担忧集体下跌，Nvidia 支持的数据中心公司 Firmus 的 300 亿美元 IPO 在 48 小时内崩盘。这是本轮 AI 叙事第一次在资本市场层面遇到系统性阻力。",
+      "title": "Nvidia 洽谈收购美国开放模型创业公司 Reflection AI",
+      "lead": "FT 报道 Nvidia 正在洽谈收购 Reflection AI，一家主打开放模型的美国创业公司。如果成真，这是 Nvidia 从\"卖铲子\"往\"自己挖矿\"再走一步——它已经不满足于只提供算力，开始直接持有模型层资产。",
       "confirmed": [
-        "路透报道市场抛售与利率上行正在考验 AI 数据中心交易",
-        "亚洲芯片股（SK 海力士、三星、软银）因 AI 融资担忧下跌",
-        "Firmus 的 300 亿美元 IPO 计划在 48 小时内失败",
-        "10 年期美债收益率此前已升至 5.3% 以上，为 24 年未见水平"
+        "FT 报道 Nvidia 正与 Reflection AI 洽谈收购事宜",
+        "Reflection AI 定位为美国开放模型方向的创业公司",
+        "消息在 Hacker News 上获得 179 点讨论"
       ],
       "judgment": [
-        "这是短期回调还是 AI 资本开支周期的拐点，目前无法判断",
-        "数据中心交易的融资结构（债务占比）尚未被完整披露",
-        "芯片股下跌可能只是跟随大盘，未必是 AI 特定利空",
-        "Firmus 个案是否代表同类公司，样本太小"
+        "交易是否达成、价格与结构均未披露，可能谈崩",
+        "Nvidia 收购模型公司是否触及反垄断审查，尚不明朗",
+        "Reflection AI 的技术资产（权重、团队、数据）价值未被独立评估",
+        "此举是战略投资还是完整收购，报道口径模糊"
       ],
-      "implication": "你不需要盯盘，但要知道这条和头条 1 是同一枚硬币的两面：上游设备商看到的是五年订单，资本市场看到的是融资成本上升。做内容时把这两条放一起读，比单看任何一条都更接近真相。别被'AI 泡沫破裂'的标题带走，先看利率和融资结构。"
+      "implication": "值得你留意的是\"开放模型\"这条线的资本化速度。如果 Nvidia 真的把模型层收进体系，未来开放权重模型的发布节奏和许可条款可能被大厂主导。你做个人 Agent 项目时，模型选型别只盯一家，把切换成本压低（抽象一层 provider 接口）是长期正确的做法。"
     },
     {
       "rank": 4,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-deletes-tv-shows-entire-edit-weeks-before-release-backup-failure-means-production-team-needs-to-re-edit",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-deletes-tv-shows-entire-edit-weeks-before-release-backup-failure-means-production-team-needs-to-re-edit",
-      "source": "Tom's Hardware",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "source": "Sarah Perez / TechCrunch",
       "stars": 4,
-      "title": "无人监管的 AI Agent 删光一档电视节目全部剪辑，备份同时失效导致无法播出",
-      "lead": "瑞典节目《The Challenge》第二季的完整剪辑被部署在制作服务器上的 AI Agent 删除，加上备份失效，制作团队不得不重新剪辑，节目无法按期播出。节目总监把责任归给'人为因素'而非 AI。这是目前最具体的'Agent 权限过大 + 无回滚'事故案例。",
+      "title": "Bluesky 把 Attie 扩成\"社交 vibe coding\"平台：任何人都能生成小游戏、测验和网页",
+      "lead": "Bluesky 的实验性 AI 工具 Attie 从\"生成自定义 feed\"扩展到让用户直接构建小游戏、测验、仪表盘和网页，并把这些产物接入社交网络的数据。官方把它叫作\"社交 vibe coding\"。这是 vibe coding 从个人工具走向社交分发的一个具体样本。",
       "confirmed": [
-        "《The Challenge》瑞典版第二季全部剪辑被 AI Agent 删除",
-        "备份同时失效，制作团队需要重新剪辑",
-        "节目因此无法按期播出",
-        "节目总监公开将原因归为'人为因素'"
+        "Attie 最初是 Bluesky 的 AI 生成自定义 feed 工具",
+        "本次扩展支持生成小游戏、测验、仪表盘、网页等\"小型社交应用\"",
+        "产物可以调用 Bluesky 社交网络的数据",
+        "The Verge 与 TechCrunch 同日报道，细节一致"
       ],
       "judgment": [
-        "Agent 的具体权限配置和操作指令未公开",
-        "'人为因素'的说法可能是公关口径，真实归因待查",
-        "是否涉及 Agent 框架本身的缺陷，还是部署配置问题，尚不清楚",
-        "同类事故可能比公开报道的更多"
+        "生成产物的质量与稳定性没有公开评测",
+        "\"社交 vibe coding\"能否形成留存，尚无数据",
+        "平台对生成内容的审核与滥用防护策略未说明",
+        "是否开放给第三方开发者接入，暂不明确"
       ],
-      "implication": "这条对做 Agent 的人是免费的反面教材：你的 content-curator 如果有任何写/删权限，必须默认只读 + 显式确认 + 独立备份，别把'Agent 能操作文件系统'当成能力炫耀。建议现在就去检查你的工具权限配置，把删除类操作全部改成 dry-run 默认。"
+      "implication": "这条对你的 content-curator 有直接启发：Attie 的思路是\"把生成结果直接放进社交分发链路\"，而不是让用户下载一个孤立产物。你的 Agent 也可以照这个思路设计——不要只输出一份 markdown 简报，而是让结果能一键变成可分享的页面或卡片。分发本身就是产品的一部分。"
     },
     {
       "rank": 5,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-      "source": "TechCrunch",
+      "domain": "金融",
+      "id": "hn:50105900",
+      "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
+      "source": "tartoran / Hacker News",
       "stars": 4,
-      "title": "Anthropic 给 METR 研究员员工级访问权限，并放弃否决其评估报告的权利",
-      "lead": "Anthropic 允许独立评估机构 METR 的研究员以接近员工的权限查看其模型内部，并主动放弃阻止 METR 发布评估结论的权利。METR 将自行发布对 Anthropic 风险、事故和实践的评估。这是前沿实验室在透明度上少见的实质性让步，不是公关声明。",
+      "title": "市场抛售叠加利率上行，AI 数据中心交易热潮开始承压",
+      "lead": "路透报道，市场抛售与利率上行正在考验 AI 数据中心的交易热潮。同一时间线上，亚洲芯片股下跌、Firmus 的 300 亿美元 IPO 在 48 小时内崩盘、10 年期美债收益率一度突破 5.3%。资金端对 AI 基建的定价正在重新校准。",
       "confirmed": [
-        "Anthropic 给 METR 研究员接近员工级别的模型访问权限",
-        "Anthropic 放弃阻止 METR 发布评估报告的权利",
-        "METR 将独立发布对 Anthropic 风险与事故的评估",
-        "这是双方合作的具体条款，非泛泛承诺"
+        "路透报道市场抛售与利率上行正在考验 AI 数据中心交易热潮",
+        "亚洲芯片股（SK hynix、三星、软银相关）出现下跌",
+        "数据中心公司 Firmus 的 300 亿美元 IPO 计划在 48 小时内告吹",
+        "10 年期美债收益率此前升至 5.3%，为 24 年未见水平"
       ],
       "judgment": [
-        "'员工级访问'的具体范围未披露，可能仍有边界",
-        "METR 的独立性最终取决于其资金来源和发布节奏",
-        "其他前沿实验室（OpenAI、Google）是否会跟进，未知",
-        "评估结果的实际约束力有限，Anthropic 仍可选择性回应"
+        "这是短期波动还是趋势反转，目前无法判断",
+        "数据中心交易放缓是否会传导到设备订单（如 ASML 长单）尚不明朗",
+        "利率上行的持续性取决于通胀数据，非单一事件",
+        "AI 基建融资结构（如 Nvidia 担保模式）的脆弱性未被充分定价"
       ],
-      "implication": "如果你关心 AI 治理，这条比任何'AI 安全宣言'都实在——可验证的第三方访问权是硬约束。对你的项目没有直接用处，但值得作为'如何设计可信评估机制'的参考案例存进素材库。"
+      "implication": "这条和头条 1 是一体两面：上游设备在抢 2030 年的产能，下游融资却在收紧。对你的实际含义是——如果你未来想做 AI 相关的副业或求职方向，\"帮企业省钱\"的工程能力（推理优化、成本控制、本地化部署）会比\"堆算力做新功能\"更抗周期。简历上把成本数字写出来，比写\"使用了某某模型\"有说服力。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "Everything Claude Code：116K star 的 Claude Code 配置项目实战讲解",
+      "title": "Everything Claude Code：GitHub 116K star 的 Claude Code 配置项目实战拆解",
       "url": "http://www.bilibili.com/video/av116319122885806",
-      "source": "极客魔导师",
-      "one_liner": "从斜杠命令、子代理、Hooks 到学习系统，是目前对 Claude Code 配置体系讲得最系统的一条，适合你直接抄配置。"
+      "source": "极客魔导师 / bilibili",
+      "one_liner": "从斜杠命令、子代理、Hooks 到学习系统逐层拆解，是少见的\"配置即工程\"内容，适合你直接抄进自己的 Agent 工作流。"
     },
     {
       "domain": "AI",
-      "title": "Claude Code 完全接管 Blender，自主运行一小时做出 3D 工作流",
+      "title": "Claude Code 完全接管 Blender：给自主 Agent 一小时完整终端权限会发生什么",
       "url": "http://www.bilibili.com/video/av116980883398142",
-      "source": "stefan_3d_ai",
-      "one_liner": "结合官方 Blender MCP 服务器做全自主 3D 自动化，是 MCP 在非编程场景的少见真实案例，有完整过程。"
+      "source": "stefan_3d_ai / bilibili",
+      "one_liner": "结合官方 Blender MCP 服务器做 3D 工作流全自动化，是 MCP 在非编程场景里少见的真实长时运行案例。"
     },
     {
       "domain": "AI",
-      "title": "14k Star Claude Code 开源桌面端，能自动操作电脑了",
+      "title": "14K Star 开源 Claude Code 桌面端 cc-haha：能自己看屏幕操作 APP",
       "url": "http://www.bilibili.com/video/av117251936293145",
-      "source": "程序员阿江-Relakkes",
-      "one_liner": "基于泄露源码做的开源桌面端 cc-haha，重构了 Computer Use 功能，支持自选模型、不需要 Claude 账号。"
+      "source": "程序员阿江-Relakkes / bilibili",
+      "one_liner": "基于泄露源码重构的 Computer Use 实现，支持自选模型、不需要 Claude 账号，工程细节比同类教程扎实。"
     },
     {
       "domain": "AI",
-      "title": "OpenClaw 调用 Claude Code 最省 Token：Hooks 回调 + Agent Teams 零轮询",
+      "title": "OpenClaw 高级用法：Claude Code Hooks 回调 + Agent Teams 零轮询省 Token",
       "url": "http://www.bilibili.com/video/av116046157647899",
-      "source": "AI超元域",
-      "one_liner": "用 Stop Hook 自动回调替代轮询，把 Token 消耗从暴涨降到几乎忽略，是 Agent 工程里少见的省钱细节。"
+      "source": "AI超元域 / bilibili",
+      "one_liner": "用 Stop Hook 自动回调替代轮询，把 Token 消耗从暴涨压到接近忽略，是实打实的成本优化技巧。"
     },
     {
       "domain": "AI",
-      "title": "在 VScode 中配置 Claude Code 并接入 DeepSeek V4 Pro",
+      "title": "在 VSCode 中配置 Claude Code 并接入 DeepSeek V4 Pro",
       "url": "http://www.bilibili.com/video/av116487012549813",
-      "source": "沉默的羔丸ovo",
-      "one_liner": "给了 settings.json 的具体配置片段，是国内直连 + 换模型的实操参考，虽然短但可直接复用。"
+      "source": "沉默的羔丸ovo / bilibili",
+      "one_liner": "给出了 settings.json 的具体配置片段，国内直连场景下可直接复用，属于能立刻上手的工程细节。"
     },
     {
       "domain": "AI",
-      "title": "Agent 视觉创作全流程：从活动策划到 TVC 成片",
-      "url": "http://www.bilibili.com/video/av117427342017510",
-      "source": "秋芝2046",
-      "one_liner": "10 月 12 日发布的新内容，跑通创作型 Agent 全流程，属于本周新进展，密度尚可。"
-    },
-    {
-      "domain": "金融",
-      "title": "Anthropic IPO 招股书显示 AI 愿景与飙升的成本",
-      "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
-      "source": "Reuters / Hacker News",
-      "one_liner": "招股书披露的成本结构是理解前沿实验室真实经济性的第一手材料，比二手分析可靠。"
-    },
-    {
-      "domain": "金融",
-      "title": "数据中心新星 Firmus 的 300 亿美元 IPO 梦 48 小时破灭",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-09/data-center-darling-s-30-billion-ipo-dream-crushed-in-48-hours",
-      "source": "Bloomberg / Hacker News",
-      "one_liner": "AI 数据中心融资热潮的第一个公开失败案例，和头条 3 互为印证，值得对照读。"
-    },
-    {
-      "domain": "金融",
-      "title": "10 年期美债收益率升至 5.3% 以上，24 年未见",
-      "url": "https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f",
-      "source": "WSJ / Hacker News",
-      "one_liner": "利率是这轮 AI 融资热潮的底层变量，这条是理解头条 3 的必要背景。"
-    },
-    {
-      "domain": "金融",
-      "title": "前沿 AI 模型在盈利预测上超过人类分析师",
-      "url": "https://samaya.ai/blog/frontier-ai-models-outperform-human-experts-on-earnings-prediction",
-      "source": "Samaya / Hacker News",
-      "one_liner": "有具体对比数据，是'AI 做金融分析'少见的可验证结果，但需注意样本和回测偏差。"
+      "title": "Opus 5.6 灰测性能前瞻：前端与工程任务表现速览",
+      "url": "http://www.bilibili.com/video/av117424707865238",
+      "source": "小小小名不是小明 / bilibili",
+      "one_liner": "基于网页 code 模式的实测样本，虽然样本量小，但比官方发布更早给出工程任务上的体感差异。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "日本向 GlobalFoundries 提供 210 亿美元扩建美国晶圆厂",
-      "url": "https://www.eetimes.com/japan-offers-globalfoundries-21b-for-u-s-fab-expansion/",
-      "source": "EE Times",
-      "one_liner": "将新增两座纽约晶圆厂、提升美国芯片产能 10%，是地缘产能转移的具体数字。"
+      "title": "TSMC 确认正考虑与 Elon Musk 合作 Terafab 扩产，但坚持由台积电运营",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-confirms-it-is-considering-terafab-chipmaking-expansion-with-elon-musk-ceo-insists-tsmc-would-have-to-run-texas-based-project",
+      "source": "Anton Shilov / Tom's Hardware",
+      "one_liner": "台积电首次公开回应 Terafab，明确\"要合作就得我来运营\"，是理解美国本土产能博弈的关键一手表态。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "SK 海力士就 3D NAND 工厂与特朗普政府博弈：以美国建厂换对华设备出口",
+      "title": "SK hynix 拿美国建厂换中国设备出口许可，态度强硬",
       "url": "https://www.tomshardware.com/pc-components/ssds/sk-hynix-reportedly-playing-hardball-with-trump-admin-over-3d-nand-fab-company-demands-increased-chipmaking-equipment-exports-to-china-in-exchange-for-us-fab",
-      "source": "Tom's Hardware",
-      "one_liner": "把'美国建厂'和'对华出口许可'直接挂钩，是出口管制博弈的新玩法。"
+      "source": "Anton Shilov / Tom's Hardware",
+      "one_liner": "把建厂当筹码换大连工厂的设备出口，是出口管制下存储厂商少见的主动议价案例。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "EU 与中国谈判制裁互换，挽救 ASML 关键供应商",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/eu-negotiates-sanction-swap-with-china-to-rescue-critical-asml-supplier-german-coatings-firm-faces-shutdown-without-chinese-rare-earths",
-      "source": "Tom's Hardware",
-      "one_liner": "德国涂层材料商 Sindlhauser 因中国稀土限制面临停产，暴露 ASML 供应链的隐性单点。"
+      "title": "Nvidia RTX 5090 从 Micro Center 消失，传产线停摆",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-disappears-from-micro-center-amid-rumors-of-a-production-halt-retailer-flags-flagship-as-not-carried-as-stock-mysteriously-vanishes",
+      "source": "Zhiye Liu / Tom's Hardware",
+      "one_liner": "零售商标注\"不再销售\"，叠加 GB202 产能转向工作站 GPU 的传闻，消费级旗舰的供给逻辑在变。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia 被指试图与 Anna's Archive 达成高速访问盗版书籍的交易",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-accused-of-trying-to-cut-a-deal-with-annas-archive-for-high-speed-access-to-the-massive-pirated-book-haul-allegedly-chased-stolen-data-to-fuel-its-llms",
-      "source": "Tom's Hardware / Hacker News",
-      "one_liner": "训练数据来源的灰色地带再次被点名，指控本身未证实但值得记录。"
+      "title": "Sipeed 推出国产 DGX Spark 竞品 MaixStation，预计售价 3999 美元",
+      "url": "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
+      "source": "Shane Downing / Tom's Hardware",
+      "one_liner": "128GB LPDDR5X、273 GB/s 带宽，对标 DGX Spark，是本地跑大模型硬件里值得关注的新选项。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "ChatGPT 现在能读取你的 Chrome 标签页",
+      "title": "Anthropic 给 METR 研究员员工级访问权限，并放弃否决其发布结论的权利",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "source": "Aditya Mehta / TechCrunch",
+      "one_liner": "让外部机构独立评估风险并保留发布权，是前沿实验室在安全透明度上少见的实质性让步。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "ChatGPT 的 Chrome 扩展现在能读取你已打开的标签页",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-      "source": "The Verge",
-      "one_liner": "Atlas 浏览器没了，但 Chrome 扩展升级后能直接读已打开的标签，是 Agent 接管浏览器的又一步。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Bluesky 的 Attie 扩展成'社交 vibe coding'，人人可做游戏和网站",
-      "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
-      "source": "TechCrunch",
-      "one_liner": "把 vibe coding 塞进社交网络，产物可直接分享，是'AI 生成 + 社交分发'的新形态。"
+      "source": "Stevie Bonifield / The Verge",
+      "one_liner": "Atlas 浏览器没了，但能力转移到 Chrome 扩展上，Agent 获取浏览器上下文的路径变得更直接。"
     },
     {
       "domain": "大厂 AI 动态",
       "title": "Figma 发布新功能，定义 Agent 在其平台上的工作方式",
       "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-      "source": "TechCrunch",
-      "one_liner": "设计工具开始为 Agent 定义接口规范，code layers 进入开放 beta，对做工具的人有参考价值。"
+      "source": "Ivan Mehta / TechCrunch",
+      "one_liner": "同时把 code layers 功能开放公测，是设计工具主动为 Agent 定义接口的早期样本。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Stratechery 对话 Ari Emanuel：娱乐业与 AI",
+      "title": "Stratechery：与 Ari Emanuel 谈娱乐业与 AI",
       "url": "https://stratechery.com/2026/a-conversation-with-ari-emanuel-about-entertainment-and-ai/",
-      "source": "Ben Thompson",
-      "one_liner": "好莱坞顶级经纪人对 AI 冲击娱乐业的深度对话，符合你'想看名人访谈'的偏好。"
+      "source": "Ben Thompson / Stratechery",
+      "one_liner": "好莱坞顶级经纪人对 AI 冲击娱乐业的判断，属于你偏好里的\"名人深度访谈\"类型。"
+    },
+    {
+      "domain": "金融",
+      "title": "Anthropic IPO 招股书披露：AI 愿景宏大，成本同步飙升",
+      "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
+      "source": "Reuters / Hacker News",
+      "one_liner": "招股书里成本曲线的斜率比收入更值得看，是理解前沿实验室真实财务结构的少数公开材料。"
+    },
+    {
+      "domain": "金融",
+      "title": "数据中心公司 Firmus 的 300 亿美元 IPO 梦在 48 小时内破灭",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-09/data-center-darling-s-30-billion-ipo-dream-crushed-in-48-hours",
+      "source": "Bloomberg / Hacker News",
+      "one_liner": "从\"数据中心宠儿\"到撤市只用了两天，是 AI 基建融资情绪转向最直观的单一案例。"
+    },
+    {
+      "domain": "金融",
+      "title": "Net Interest：AI 前沿的融资工程学",
+      "url": "https://www.netinterest.co/p/the-art-of-doing-financial-engineering",
+      "source": "Marc Rubinstein / Net Interest",
+      "one_liner": "拆解 AI 基建背后的融资结构，比新闻更系统地解释钱是怎么被组织起来的。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-10-16T08:38:25+0000"
+    "scored_at": "2026-10-16T09:11:31+0000"
   }
 }

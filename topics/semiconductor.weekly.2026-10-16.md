@@ -2,64 +2,65 @@
 
 > 今日 2 条头条 + 4 条备选
 
-_今天最值得看的两条线：一是 ASML 单季营收 130 亿美元创纪录、客户已排到 2029-2030 年产能，AI 算力需求把上游设备商逼到扩产极限；二是 Meta 联合 Apple 发布可在 Mac 本地跑的开放权重模型 Muse Spark Open，端侧模型开始有真正的产品级落地。金融侧则相反——亚洲芯片股因 AI 融资担忧回落，Firmus 数据中心 IPO 48 小时崩盘，热钱正在重新定价。_
+_今天最值得盯的是两条线：一是 ASML 交出 130 亿美元创纪录季度、并说客户已经在预订 2029-2030 年的产能，AI 资本开支的紧张程度从下游烧到了最上游的设备端；二是 Meta 联合 Apple 发布能在 Mac 本地跑的开放权重模型 Muse Spark Open，加上 Bluesky 把 Attie 扩成"社交 vibe coding"，端侧与轻量 Agent 的落地速度明显快于预期。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. ASML 单季营收 130 亿美元创纪录，客户已开始预订 2029-2030 年产能
+### 1. ASML 单季营收 130 亿美元创纪录，客户已开始预订 2029-2030 年光刻机产能
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Anton Shilov / Tom's Hardware_
 
-ASML 交出史上最强单季财报，营收 130 亿美元，同时宣布扩产。CEO 明确表示，即便按现有扩产计划，需求仍可能超过 2027 和 2028 年的供给，客户已经在提前锁定 2029、2030 年的光刻机产出。这是 AI 资本开支从下游云厂商一路传导到最上游设备商的最硬证据。
+ASML 交出史上最强单季财报，营收 130 亿美元，同时宣布扩产。CEO 的说法比数字更关键：客户已经在为 2029、2030 年的产出下单，需求可能超过 2027-2028 年的供给。这意味着 AI 算力扩张的瓶颈正从芯片设计、封装一路前移到最上游的光刻设备。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| ASML 本季营收 130 亿美元，为公司历史最高单季记录 | '需求超过供给'是 ASML 单方面口径，尚未有第三方订单数据交叉验证 |
-| 公司公开承诺扩大产能，并称需求可能超出 2027-2028 年供给 | 扩产能否按期落地取决于供应链（蔡司光学、光源等）而非 ASML 自身 |
-| 客户已开始为 2029、2030 年的设备产出提前下单 | 若 AI 资本开支在 2027 年出现拐点，这批长周期订单存在重谈风险 |
-| 同期另一篇报道指出 ASML 正面临'跟不上需求'的产能压力 | EUV 之外，High-NA 的客户接受节奏仍不明朗 |
+| ASML 本季度营收 130 亿美元，为公司历史最高单季纪录 | "需求超过供给"是 ASML 自己的口径，实际交付节奏仍取决于零部件与供应链 |
+| 公司明确承诺扩大产能，并称盈利能力同步创纪录 | 提前数年下单不等于最终不砍单，2027 年后的订单可见度存疑 |
+| 客户已提前数年下单，订单窗口延伸到 2029-2030 年产出 | 扩产能否在 2028 年前落地，取决于洁净室与人才而非资本 |
+| CEO 表示需求可能超出 2027-2028 年的供给能力 | 若 AI 资本开支在 2027 年降温，这批长单可能被重新议价 |
+| 同期另一篇报道称 ASML 正努力跟上设备需求，AI 支出持续繁荣 |  |
 
 **📖 主编点评**
 
-如果你在关注 AI 产业链，这条比任何模型发布都更能说明'钱在往哪流'——需求已经排到五年后，说明下游对算力增长的假设是长期而非周期性的。做 content-curator 时可以把'上游设备商财报'设成一个固定信号源，它比新闻稿更早反映真实景气度。
+这条不是让你去看半导体股票，而是提醒你：AI 的"算力叙事"已经进入设备与产能的硬约束阶段。你做 content-curator 这类 Agent 项目，未来一两年最现实的变化是推理成本下降速度可能放缓——所以在设计 Agent 时，别默认"模型会越来越便宜"，把缓存、上下文裁剪、本地小模型兜底这些工程手段提前做进去，比事后优化省事得多。
 
 📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/asml-reports-record-usd13-billion-quarter-vows-to-expand-capacity-as-demand-for-lithography-equipment-soars-customers-eager-to-secure-orders-in-2030-as-demand-is-expected-to-outstrip-2027-and-2028-supply)
 
 ---
 
-### 4. 无人监管的 AI Agent 删光一档电视节目全部剪辑，备份同时失效导致无法播出
+### 3. Nvidia 洽谈收购美国开放模型创业公司 Reflection AI
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _arkj / Hacker News_
 
-瑞典节目《The Challenge》第二季的完整剪辑被部署在制作服务器上的 AI Agent 删除，加上备份失效，制作团队不得不重新剪辑，节目无法按期播出。节目总监把责任归给'人为因素'而非 AI。这是目前最具体的'Agent 权限过大 + 无回滚'事故案例。
+FT 报道 Nvidia 正在洽谈收购 Reflection AI，一家主打开放模型的美国创业公司。如果成真，这是 Nvidia 从"卖铲子"往"自己挖矿"再走一步——它已经不满足于只提供算力，开始直接持有模型层资产。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 《The Challenge》瑞典版第二季全部剪辑被 AI Agent 删除 | Agent 的具体权限配置和操作指令未公开 |
-| 备份同时失效，制作团队需要重新剪辑 | '人为因素'的说法可能是公关口径，真实归因待查 |
-| 节目因此无法按期播出 | 是否涉及 Agent 框架本身的缺陷，还是部署配置问题，尚不清楚 |
-| 节目总监公开将原因归为'人为因素' | 同类事故可能比公开报道的更多 |
+| FT 报道 Nvidia 正与 Reflection AI 洽谈收购事宜 | 交易是否达成、价格与结构均未披露，可能谈崩 |
+| Reflection AI 定位为美国开放模型方向的创业公司 | Nvidia 收购模型公司是否触及反垄断审查，尚不明朗 |
+| 消息在 Hacker News 上获得 179 点讨论 | Reflection AI 的技术资产（权重、团队、数据）价值未被独立评估 |
+|  | 此举是战略投资还是完整收购，报道口径模糊 |
 
 **📖 主编点评**
 
-这条对做 Agent 的人是免费的反面教材：你的 content-curator 如果有任何写/删权限，必须默认只读 + 显式确认 + 独立备份，别把'Agent 能操作文件系统'当成能力炫耀。建议现在就去检查你的工具权限配置，把删除类操作全部改成 dry-run 默认。
+值得你留意的是"开放模型"这条线的资本化速度。如果 Nvidia 真的把模型层收进体系，未来开放权重模型的发布节奏和许可条款可能被大厂主导。你做个人 Agent 项目时，模型选型别只盯一家，把切换成本压低（抽象一层 provider 接口）是长期正确的做法。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-deletes-tv-shows-entire-edit-weeks-before-release-backup-failure-means-production-team-needs-to-re-edit)
+📺 [打开原文](https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a)
 
 ---
 
 ## 📋 备选阅读
 
-- [日本向 GlobalFoundries 提供 210 亿美元扩建美国晶圆厂](https://www.eetimes.com/japan-offers-globalfoundries-21b-for-u-s-fab-expansion/) —— 将新增两座纽约晶圆厂、提升美国芯片产能 10%，是地缘产能转移的具体数字。
-  _EE Times_
-- [SK 海力士就 3D NAND 工厂与特朗普政府博弈：以美国建厂换对华设备出口](https://www.tomshardware.com/pc-components/ssds/sk-hynix-reportedly-playing-hardball-with-trump-admin-over-3d-nand-fab-company-demands-increased-chipmaking-equipment-exports-to-china-in-exchange-for-us-fab) —— 把'美国建厂'和'对华出口许可'直接挂钩，是出口管制博弈的新玩法。
-  _Tom's Hardware_
-- [EU 与中国谈判制裁互换，挽救 ASML 关键供应商](https://www.tomshardware.com/tech-industry/semiconductors/eu-negotiates-sanction-swap-with-china-to-rescue-critical-asml-supplier-german-coatings-firm-faces-shutdown-without-chinese-rare-earths) —— 德国涂层材料商 Sindlhauser 因中国稀土限制面临停产，暴露 ASML 供应链的隐性单点。
-  _Tom's Hardware_
-- [Nvidia 被指试图与 Anna's Archive 达成高速访问盗版书籍的交易](https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-accused-of-trying-to-cut-a-deal-with-annas-archive-for-high-speed-access-to-the-massive-pirated-book-haul-allegedly-chased-stolen-data-to-fuel-its-llms) —— 训练数据来源的灰色地带再次被点名，指控本身未证实但值得记录。
-  _Tom's Hardware / Hacker News_
+- [TSMC 确认正考虑与 Elon Musk 合作 Terafab 扩产，但坚持由台积电运营](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-confirms-it-is-considering-terafab-chipmaking-expansion-with-elon-musk-ceo-insists-tsmc-would-have-to-run-texas-based-project) —— 台积电首次公开回应 Terafab，明确"要合作就得我来运营"，是理解美国本土产能博弈的关键一手表态。
+  _Anton Shilov / Tom's Hardware_
+- [SK hynix 拿美国建厂换中国设备出口许可，态度强硬](https://www.tomshardware.com/pc-components/ssds/sk-hynix-reportedly-playing-hardball-with-trump-admin-over-3d-nand-fab-company-demands-increased-chipmaking-equipment-exports-to-china-in-exchange-for-us-fab) —— 把建厂当筹码换大连工厂的设备出口，是出口管制下存储厂商少见的主动议价案例。
+  _Anton Shilov / Tom's Hardware_
+- [Nvidia RTX 5090 从 Micro Center 消失，传产线停摆](https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-disappears-from-micro-center-amid-rumors-of-a-production-halt-retailer-flags-flagship-as-not-carried-as-stock-mysteriously-vanishes) —— 零售商标注"不再销售"，叠加 GB202 产能转向工作站 GPU 的传闻，消费级旗舰的供给逻辑在变。
+  _Zhiye Liu / Tom's Hardware_
+- [Sipeed 推出国产 DGX Spark 竞品 MaixStation，预计售价 3999 美元](https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims) —— 128GB LPDDR5X、273 GB/s 带宽，对标 DGX Spark，是本地跑大模型硬件里值得关注的新选项。
+  _Shane Downing / Tom's Hardware_
 
 ---
 
