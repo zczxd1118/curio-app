@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-15T08:09:34.915817+00:00",
+  "fetched_at": "2026-10-16T08:03:13.175001+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,13 +10,13 @@
   "source_stats": {
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
-    "HN · TSMC": 1,
-    "HN · Nvidia": 5,
+    "HN · TSMC": 0,
+    "HN · Nvidia": 4,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 28,
+  "total": 26,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/ai-moves-to-system-level-co-design-how-can-taiwan-capture-more-value/",
+      "title": "AI Moves to System-Level Co-Design: How Can Taiwan Capture More Value",
+      "url": "https://www.eetimes.com/ai-moves-to-system-level-co-design-how-can-taiwan-capture-more-value/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Susan Hong",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-16T07:18:34+00:00",
+      "summary": "During a panel session at iTechCon 2026, discussions explored how Taiwan can build on its strengths in semiconductors, advanced packaging, and system design to support AI development. The post AI Moves to System-Level Co-Design: How Can Taiwan Capture More Value appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/japan-offers-globalfoundries-21b-for-u-s-fab-expansion/",
+      "title": "Japan Offers GlobalFoundries $21B for U.S. Fab Expansion",
+      "url": "https://www.eetimes.com/japan-offers-globalfoundries-21b-for-u-s-fab-expansion/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-15T19:00:00+00:00",
+      "summary": "Japan’s $21B offer to GlobalFoundries would add two New York fabs and lift U.S. chip capacity 10%; see why analysts warn on state support. The post Japan Offers GlobalFoundries $21B for U.S. Fab Expansion appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/data-orchestration-the-foundation-for-the-next-generation-semiconductor-enterprise/",
+      "title": "Data Orchestration: The Foundation for the Next-generation Semiconductor Enterprise",
+      "url": "https://www.eetimes.com/data-orchestration-the-foundation-for-the-next-generation-semiconductor-enterprise/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Siemens Digital Industries",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-15T14:00:00+00:00",
+      "summary": "Data orchestration gives semiconductor engineering teams a practical way to unify disconnected equipment, systems, and data without replacing existing infrastructure. By creating a connected execution layer across engineering, OT, IT, facilities, and production environments, the solution contextualizes real-time information and converts insights into coordinated action. Engineers can identify root causes faster, anticipate equipment failures, automate [&#8230;] The post Data Orchestration: The F...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/husb237-the-cost-effective-pd-sink-with-just-2-passives/",
+      "title": "HUSB237: The Cost-Effective PD Sink with Just 2 Passives",
+      "url": "https://www.eetimes.com/husb237-the-cost-effective-pd-sink-with-just-2-passives/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Hynetek Semiconductor Co., Ltd.",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-15T13:00:00+00:00",
+      "summary": "Discover Hynetek’s HUSB237, a compact USB-PD sink controller enabling firmware-free USB-C upgrades up to 100W with only two external components. The post HUSB237: The Cost-Effective PD Sink with Just 2 Passives appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/small-volumes-big-impact-europes-hidden-role-in-advanced-chipmaking/",
+      "title": "Small Volumes, Big Impact: Europe’s Hidden Role in Advanced Chipmaking",
+      "url": "https://www.eetimes.com/small-volumes-big-impact-europes-hidden-role-in-advanced-chipmaking/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-15T10:54:08+00:00",
+      "summary": "A Fraunhofer–IMS Nanofabrication partnership illustrates how Europe's low-volume semiconductor manufacturing can support the world's most advanced chipmaking. The post Small Volumes, Big Impact: Europe&#8217;s Hidden Role in Advanced Chipmaking appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/grid-modernization-hidden-cost-a-growing-attack-surface-few-are-watching/",
       "title": "Grid Modernization’s Hidden Cost: A Growing Attack Surface Few Are Watching",
       "url": "https://www.eetimes.com/grid-modernization-hidden-cost-a-growing-attack-surface-few-are-watching/",
@@ -274,110 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/tie-showcases-taiwans-push-to-deploy-ai-across-industries/",
-      "title": "TIE Showcases Taiwan’s Push to Deploy AI Across Industries",
-      "url": "https://www.eetimes.com/tie-showcases-taiwans-push-to-deploy-ai-across-industries/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times Taiwan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-14T13:00:00+00:00",
-      "summary": "Discover how Taiwan Innotech Expo 2026 showcased AI solutions designed to advance industries with practical, real-world impact The post TIE Showcases Taiwan’s Push to Deploy AI Across Industries appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/asml-euv-expansion-runs-through-zeiss/",
-      "title": "ASML’s EUV Expansion Runs Through Zeiss",
-      "url": "https://www.eetimes.com/asml-euv-expansion-runs-through-zeiss/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Ron Honig",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-14T12:49:10+00:00",
-      "summary": "ASML’s plans to expand EUV production depend partly on Zeiss’s ability to increase qualified precision-optics output. The post ASML’s EUV Expansion Runs Through Zeiss appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/spain-indra-bets-on-qilimanjaro-quantum-for-sovereign-deep-tech/",
-      "title": "Spain’s Indra Bets on Qilimanjaro Quantum for Sovereign Deep Tech",
-      "url": "https://www.eetimes.com/spain-indra-bets-on-qilimanjaro-quantum-for-sovereign-deep-tech/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-14T07:35:15+00:00",
-      "summary": "In a bid to secure domestic deep-tech infrastructure, Qilimanjaro closed €19.6 million (~$21.3 million) funding led by Indra Group. The post Spain’s Indra Bets on Qilimanjaro Quantum for Sovereign Deep Tech appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/amperesand-aims-to-smooth-ai-data-center-power-spikes/",
-      "title": "Amperesand Aims to Smooth AI Data Center Power Spikes",
-      "url": "https://www.eetimes.com/amperesand-aims-to-smooth-ai-data-center-power-spikes/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-13T22:00:00+00:00",
-      "summary": "See how Amperesand’s solid-state transformers aim to tame AI data center power spikes with batteries, 800 VDC conversion, and microgrid control. The post Amperesand Aims to Smooth AI Data Center Power Spikes appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/caspa-ceo-summit-preview-with-president-jimmy-cheng/",
-      "title": "CASPA CEO Summit Preview with President Jimmy Cheng",
-      "url": "https://www.eetimes.com/caspa-ceo-summit-preview-with-president-jimmy-cheng/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-13T14:04:30+00:00",
-      "summary": "CASPA’s annual conference celebrates its 35th anniversary with a lineup of more than 35 CEOs from Silicon Valley, including Intel’s Lip-Bu Tan and Cerebras’s Andrew Feldman. The post CASPA CEO Summit Preview with President Jimmy Cheng appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49714096",
-      "title": "TSMC revealing details about next gen A14 node",
-      "url": "https://iedm26.mapyourshow.com/8_0/sessions/session-details.cfm?scheduleid=331",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49714096",
-        "name": "osnium123",
-        "hn_url": "https://news.ycombinator.com/item?id=49714096"
-      },
-      "duration_sec": null,
-      "views": 129,
-      "comments": 56,
-      "published_at": "2026-09-15T15:31:55+00:00",
-      "summary": "",
-      "matched_keyword": "TSMC",
-      "lang": "en"
-    },
-    {
       "id": "hn:50035886",
       "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
       "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
@@ -392,25 +373,6 @@
       "views": 179,
       "comments": 116,
       "published_at": "2026-10-10T18:48:35+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49926773",
-      "title": "Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia",
-      "url": "https://github.com/Vibra-Ingenn/Janus",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49926773",
-        "name": "Maverick617",
-        "hn_url": "https://news.ycombinator.com/item?id=49926773"
-      },
-      "duration_sec": null,
-      "views": 106,
-      "comments": 18,
-      "published_at": "2026-10-01T20:36:47+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -446,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50086363"
       },
       "duration_sec": null,
-      "views": 74,
-      "comments": 45,
+      "views": 79,
+      "comments": 49,
       "published_at": "2026-10-14T12:05:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -485,7 +447,7 @@
       },
       "duration_sec": null,
       "views": 495,
-      "comments": 340,
+      "comments": 341,
       "published_at": "2026-10-05T21:00:21+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",

@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-15T08:09:22.285883+00:00",
+  "fetched_at": "2026-10-16T08:03:00.044491+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,7 +10,7 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 5,
-    "HN · IPO": 7,
+    "HN · IPO": 9,
     "HN · earnings": 1,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
@@ -18,27 +18,8 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 35,
+  "total": 37,
   "items": [
-    {
-      "id": "hn:49930086",
-      "title": "US tells France and Germany to release diesel stocks or face US export ban",
-      "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49930086",
-        "name": "geox",
-        "hn_url": "https://news.ycombinator.com/item?id=49930086"
-      },
-      "duration_sec": null,
-      "views": 99,
-      "comments": 154,
-      "published_at": "2026-10-02T05:22:20+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
     {
       "id": "hn:49997175",
       "title": "The world has nearly burned through its oil stockpile buffer",
@@ -111,6 +92,25 @@
       "views": 15,
       "comments": 0,
       "published_at": "2026-10-15T02:29:41+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50086344",
+      "title": "Humxn Commits $50M to Buy Skilled Trades Data for Robotics Training",
+      "url": "https://markets.businessinsider.com/news/stocks/humxn-research-labs-wants-to-buy-50-million-worth-of-skilled-trades-farming-and-manufacturing-data-for-ai-robotics-training-1036622854",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50086344",
+        "name": "howdoweknowit",
+        "hn_url": "https://news.ycombinator.com/item?id=50086344"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 2,
+      "published_at": "2026-10-14T12:04:10+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -211,6 +211,44 @@
       "lang": "en"
     },
     {
+      "id": "hn:49796292",
+      "title": "Smart Ring Maker Oura, Backers Seek $2.2B in US IPO",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-21/smart-ring-maker-oura-backers-seek-2-2-billion-in-us-ipo",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49796292",
+        "name": "elo2000",
+        "hn_url": "https://news.ycombinator.com/item?id=49796292"
+      },
+      "duration_sec": null,
+      "views": 24,
+      "comments": 11,
+      "published_at": "2026-09-22T02:53:48+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50071744",
+      "title": "Sprout Pi Mainboard – A modern, RP2350-powered motherboard for iPods",
+      "url": "https://www.crowdsupply.com/certain-things/sprout-pi-mainboard",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50071744",
+        "name": "esskay",
+        "hn_url": "https://news.ycombinator.com/item?id=50071744"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 1,
+      "published_at": "2026-10-13T13:49:44+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:49791944",
       "title": "Wall Street is growing skeptical of the data center boom",
       "url": "https://www.nytimes.com/2026/09/21/business/ai-data-center-ipos.html",
@@ -230,20 +268,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49937304",
-      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
-      "url": "https://pipod.dev/",
+      "id": "hn:50020096",
+      "title": "Ask HN: What if no AIpocalypse, no AI bubble, what if it just keeps advancing?",
+      "url": "https://news.ycombinator.com/item?id=50020096",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49937304",
-        "name": "edverma2",
-        "hn_url": "https://news.ycombinator.com/item?id=49937304"
+        "id": "50020096",
+        "name": "consumer451",
+        "hn_url": "https://news.ycombinator.com/item?id=50020096"
       },
       "duration_sec": null,
-      "views": 121,
-      "comments": 46,
-      "published_at": "2026-10-02T19:10:38+00:00",
+      "views": 16,
+      "comments": 33,
+      "published_at": "2026-10-09T13:18:05+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -279,7 +317,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50082283"
       },
       "duration_sec": null,
-      "views": 12,
+      "views": 13,
       "comments": 9,
       "published_at": "2026-10-14T04:09:23+00:00",
       "summary": "",
