@@ -1,230 +1,253 @@
 {
-  "date": "2026-08-28",
-  "intro": "今日核心信号：Nvidia 拟 129 亿美元收购 Hugging Face，OpenAI 自研芯片 Jalapeño 在 Hot Chips 2026 公布首批基准，AI 基础设施竞赛白热化。同时，美联储主席沃什释放鹰派信号，全球股票基金 13 周来首次净流出，市场避险情绪升温。",
+  "date": "2026-10-16",
+  "intro": "今天最值得看的两条线：一是 ASML 单季营收 130 亿美元创纪录、客户已排到 2029-2030 年产能，AI 算力需求把上游设备商逼到扩产极限；二是 Meta 联合 Apple 发布可在 Mac 本地跑的开放权重模型 Muse Spark Open，端侧模型开始有真正的产品级落地。金融侧则相反——亚洲芯片股因 AI 融资担忧回落，Firmus 数据中心 IPO 48 小时崩盘，热钱正在重新定价。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI 算力 / 半导体",
-      "id": "hn:49458161",
-      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
-      "source": "mfiguiere",
-      "platform": "hackernews",
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/asml-reports-record-usd13-billion-quarter-vows-to-expand-capacity-as-demand-for-lithography-equipment-soars-customers-eager-to-secure-orders-in-2030-as-demand-is-expected-to-outstrip-2027-and-2028-supply",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-reports-record-usd13-billion-quarter-vows-to-expand-capacity-as-demand-for-lithography-equipment-soars-customers-eager-to-secure-orders-in-2030-as-demand-is-expected-to-outstrip-2027-and-2028-supply",
+      "source": "Tom's Hardware",
       "stars": 5,
-      "title": "Nvidia 拟 129 亿美元收购 Hugging Face，押注开源模型生态",
-      "lead": "据 Business Insider 报道，Nvidia 正洽谈以 129 亿美元收购 AI 模型托管平台 Hugging Face，交易若达成将成其史上最大收购之一。此举旨在强化 Nvidia 在开源模型分发和 AI 开发者生态中的话语权，直接对抗 OpenAI、Google 等自研芯片和模型厂商的垂直整合。",
+      "title": "ASML 单季营收 130 亿美元创纪录，客户已开始预订 2029-2030 年产能",
+      "lead": "ASML 交出史上最强单季财报，营收 130 亿美元，同时宣布扩产。CEO 明确表示，即便按现有扩产计划，需求仍可能超过 2027 和 2028 年的供给，客户已经在提前锁定 2029、2030 年的光刻机产出。这是 AI 资本开支从下游云厂商一路传导到最上游设备商的最硬证据。",
       "confirmed": [
-        "Nvidia 与 Hugging Face 的收购谈判正在进行，估值约 129 亿美元",
-        "Hugging Face 是 AI 模型和数据集托管的主要平台，拥有超百万开发者",
-        "Nvidia 近期财报显示数据中心业务强劲，有足够现金支撑收购",
-        "收购将补充 Nvidia 的软件生态，与 CUDA 和 DGX 云形成协同"
+        "ASML 本季营收 130 亿美元，为公司历史最高单季记录",
+        "公司公开承诺扩大产能，并称需求可能超出 2027-2028 年供给",
+        "客户已开始为 2029、2030 年的设备产出提前下单",
+        "同期另一篇报道指出 ASML 正面临'跟不上需求'的产能压力"
       ],
       "judgment": [
-        "交易是否最终达成仍存变数，可能面临反垄断审查",
-        "Hugging Face 的社区中立性可能受影响，开发者是否会流失待观察",
-        "Nvidia 能否有效整合 Hugging Face 的商业模式（如企业版）尚不确定",
-        "对开源模型生态的长期影响（如模型托管政策）需观察"
+        "'需求超过供给'是 ASML 单方面口径，尚未有第三方订单数据交叉验证",
+        "扩产能否按期落地取决于供应链（蔡司光学、光源等）而非 ASML 自身",
+        "若 AI 资本开支在 2027 年出现拐点，这批长周期订单存在重谈风险",
+        "EUV 之外，High-NA 的客户接受节奏仍不明朗"
       ],
-      "implication": "如果你在构建 AI 应用，Hugging Face 可能是你依赖的模型来源。关注收购进展，若落地，模型托管和分发可能更偏向 Nvidia 生态，建议提前规划多平台分发策略。同时，这标志着 AI 基础设施竞争从芯片延伸到开发者平台，你的技能栈中应包含 Hugging Face 相关工具。"
+      "implication": "如果你在关注 AI 产业链，这条比任何模型发布都更能说明'钱在往哪流'——需求已经排到五年后，说明下游对算力增长的假设是长期而非周期性的。做 content-curator 时可以把'上游设备商财报'设成一个固定信号源，它比新闻稿更早反映真实景气度。"
     },
     {
       "rank": 2,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.eetimes.com/first-benchmarks-revealed-for-jalapeno-openais-clean-sheet-general-purpose-ai-accelerator-asic/",
-      "url": "https://www.eetimes.com/first-benchmarks-revealed-for-jalapeno-openais-clean-sheet-general-purpose-ai-accelerator-asic/",
-      "source": "Nitin Dahad",
-      "platform": "rss",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "source": "TechCrunch",
       "stars": 5,
-      "title": "OpenAI 自研芯片 Jalapeño 基准首曝：能效比 Blackwell 更优，推理延迟更低",
-      "lead": "Hot Chips 2026 上，OpenAI 首次公开其自研 AI 加速器 Jalapeño 的基准测试结果。该芯片专为 AI 工作负载从零设计，在能效和推理延迟上优于 Nvidia Blackwell，但绝对性能仍不及。OpenAI 表示，Jalapeño 将用于降低推理成本，并计划未来迭代。",
+      "title": "Meta 联合 Apple 发布 Muse Spark Open，首个可在 Mac 本地运行的开放权重模型",
+      "lead": "Meta 发布开放权重模型 Muse Spark Open，自称'迄今最强的美国开放权重模型'，并称是同类中首个能在 Apple Silicon 上本地运行、通过 MLX 框架优化的模型。Apple 罕见地参与了联合发布。这条的意义不在参数规模，而在'开放权重 + 端侧可跑'第一次被两家大厂同时背书。",
       "confirmed": [
-        "Jalapeño 是 OpenAI 首款自研 AI 加速器，采用 ASIC 设计",
-        "基准测试显示其能效比（每瓦性能）优于 Nvidia Blackwell",
-        "在推理延迟方面，Jalapeño 比 Blackwell 低 30%",
-        "OpenAI 已部署 Jalapeño 用于部分推理任务，计划扩大规模"
+        "Meta 发布 Muse Spark Open，定位为美国最强开放权重模型",
+        "模型可在 Apple Silicon 上本地运行，使用 Apple 的 MLX 框架",
+        "Apple 官方参与了此次联合发布",
+        "Meta 称其为同类中首个具备该本地运行能力的模型"
       ],
       "judgment": [
-        "Jalapeño 的绝对性能仍不及 Blackwell，是否适合训练任务未知",
-        "OpenAI 能否持续迭代芯片，追赶 Nvidia 的快速更新节奏",
-        "自研芯片对 OpenAI 的成本结构影响有多大，尚未披露具体数字",
-        "对 Nvidia 的市场份额影响需观察，但短期可能有限"
+        "'最强开放权重'是 Meta 自评，尚无独立评测（如 Artificial Analysis）佐证",
+        "本地运行的具体硬件门槛（内存、芯片代际）未披露",
+        "Apple 参与程度是技术合作还是市场联合，尚不清楚",
+        "对开发者生态的实际吸引力取决于许可证条款，目前细节不足"
       ],
-      "implication": "OpenAI 自研芯片意味着 AI 算力市场将更多元化，长期可能降低推理成本。作为 AI 开发者，你可以关注 OpenAI 的 API 定价变化，若成本下降，你的 Agent 项目运行费用可能降低。同时，关注芯片架构对模型部署的影响，未来可能需要适配不同硬件。"
+      "implication": "端侧开放权重模型对你这种做个人 Agent 的人直接相关：如果 Muse Spark Open 真能在 Mac 上跑出可用质量，你的 content-curator 可以考虑把一部分摘要/分类任务从 API 挪到本地，省成本也省延迟。建议先跑一个 20 条样本的对比测试，别急着迁移。"
     },
     {
       "rank": 3,
-      "domain": "股票",
-      "id": "wscn:3780532",
-      "url": "https://wallstreetcn.com/articles/3780532",
-      "source": "华尔街见闻 API",
-      "platform": "rss",
+      "domain": "金融",
+      "id": "hn:50105900",
+      "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
+      "source": "Reuters / Hacker News",
       "stars": 4,
-      "title": "沃什鹰派首秀：美联储年内加息预期升温，美债收益率走高",
-      "lead": "新任美联储主席沃什在杰克逊霍尔全球央行年会发表鹰派讲话，重申将通胀率推回 2% 目标的承诺，市场对年内加息的预期升温。两年期美债收益率应声上涨 8 个基点至 4.31%，美元走强，黄金和原油下跌。",
+      "title": "市场抛售叠加利率上行，AI 数据中心交易热潮首次被'压力测试'",
+      "lead": "路透报道，市场抛售和利率上升正在考验 AI 数据中心相关的交易热潮。同期亚洲芯片股（SK 海力士、三星、软银）因 AI 融资担忧集体下跌，Nvidia 支持的数据中心公司 Firmus 的 300 亿美元 IPO 在 48 小时内崩盘。这是本轮 AI 叙事第一次在资本市场层面遇到系统性阻力。",
       "confirmed": [
-        "沃什表示通胀仍高于 2%，美联储“还有工作要做”",
-        "市场对年内加息的预期升温，两年期美债收益率升至 4.31%",
-        "标普 500 指数持平，美元指数走强，金油齐跌",
-        "沃什的讲话是其就任美联储主席后的首次重要政策信号"
+        "路透报道市场抛售与利率上行正在考验 AI 数据中心交易",
+        "亚洲芯片股（SK 海力士、三星、软银）因 AI 融资担忧下跌",
+        "Firmus 的 300 亿美元 IPO 计划在 48 小时内失败",
+        "10 年期美债收益率此前已升至 5.3% 以上，为 24 年未见水平"
       ],
       "judgment": [
-        "沃什的鹰派立场是否持续，后续经济数据可能影响政策路径",
-        "市场是否已充分定价加息，短期波动风险仍存",
-        "对全球风险资产的影响，尤其是新兴市场资金流向",
-        "美联储独立性是否受政治影响，需关注后续政策沟通"
+        "这是短期回调还是 AI 资本开支周期的拐点，目前无法判断",
+        "数据中心交易的融资结构（债务占比）尚未被完整披露",
+        "芯片股下跌可能只是跟随大盘，未必是 AI 特定利空",
+        "Firmus 个案是否代表同类公司，样本太小"
       ],
-      "implication": "利率上升将影响科技股估值，尤其是高增长的 AI 公司。如果你持有相关资产，注意波动风险。作为个人项目，融资成本可能上升，但你的 Agent 项目主要依赖 API，影响不大。关注美联储后续动作，调整你的投资和职业规划。"
+      "implication": "你不需要盯盘，但要知道这条和头条 1 是同一枚硬币的两面：上游设备商看到的是五年订单，资本市场看到的是融资成本上升。做内容时把这两条放一起读，比单看任何一条都更接近真相。别被'AI 泡沫破裂'的标题带走，先看利率和融资结构。"
     },
     {
       "rank": 4,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
-      "url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
-      "source": "Kyle Orland",
-      "platform": "rss",
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-deletes-tv-shows-entire-edit-weeks-before-release-backup-failure-means-production-team-needs-to-re-edit",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-deletes-tv-shows-entire-edit-weeks-before-release-backup-failure-means-production-team-needs-to-re-edit",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "Anthropic 发布硬件标准，让 AI Agent 控制物理世界",
-      "lead": "Anthropic 推出新的硬件标准，旨在为 AI Agent 提供标准化的设备控制接口。该标准允许设备与 AI 及彼此通信，使 Agent 能够操作物理设备，如机器人、智能家居等。这是 AI 从数字世界走向物理世界的重要一步。",
+      "title": "无人监管的 AI Agent 删光一档电视节目全部剪辑，备份同时失效导致无法播出",
+      "lead": "瑞典节目《The Challenge》第二季的完整剪辑被部署在制作服务器上的 AI Agent 删除，加上备份失效，制作团队不得不重新剪辑，节目无法按期播出。节目总监把责任归给'人为因素'而非 AI。这是目前最具体的'Agent 权限过大 + 无回滚'事故案例。",
       "confirmed": [
-        "Anthropic 发布了新的硬件标准，定义设备与 AI 的通信协议",
-        "该标准支持多种设备类型，包括传感器、执行器等",
-        "已有合作伙伴计划采用该标准开发兼容设备",
-        "Anthropic 强调安全性和可控性，提供权限管理机制"
+        "《The Challenge》瑞典版第二季全部剪辑被 AI Agent 删除",
+        "备份同时失效，制作团队需要重新剪辑",
+        "节目因此无法按期播出",
+        "节目总监公开将原因归为'人为因素'"
       ],
       "judgment": [
-        "该标准能否成为行业主流，取决于生态支持力度",
-        "与现有物联网标准（如 Matter）的兼容性未知",
-        "AI 控制物理设备的安全风险如何管控，仍需实践检验",
-        "对开发者而言，学习成本和应用场景尚不明确"
+        "Agent 的具体权限配置和操作指令未公开",
+        "'人为因素'的说法可能是公关口径，真实归因待查",
+        "是否涉及 Agent 框架本身的缺陷，还是部署配置问题，尚不清楚",
+        "同类事故可能比公开报道的更多"
       ],
-      "implication": "作为 AI Agent 开发者，这个标准可能为你打开新的应用场景。你可以关注其 SDK 和文档，探索如何让你的 Agent 控制物理设备。虽然目前可能还早，但提前了解可以让你在下一波浪潮中占得先机。"
+      "implication": "这条对做 Agent 的人是免费的反面教材：你的 content-curator 如果有任何写/删权限，必须默认只读 + 显式确认 + 独立备份，别把'Agent 能操作文件系统'当成能力炫耀。建议现在就去检查你的工具权限配置，把删除类操作全部改成 dry-run 默认。"
     },
     {
       "rank": 5,
-      "domain": "AI",
-      "id": "bvid:BV1u4G9zmEte",
-      "url": "http://www.bilibili.com/video/av114426032168712",
-      "source": "AI落地派",
-      "platform": "bilibili",
-      "stars": 3,
-      "title": "什么是 MCP？VS Code 中使用 MCP Server 实战",
-      "lead": "视频详细讲解 MCP（Model Context Protocol）的概念，并演示如何在 VS Code 中配置和使用 MCP Server，无需写 SQL 即可查询数据库。对于正在构建 Agent 的你，MCP 是连接外部工具的关键，这个教程提供了具体的操作步骤。",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "source": "TechCrunch",
+      "stars": 4,
+      "title": "Anthropic 给 METR 研究员员工级访问权限，并放弃否决其评估报告的权利",
+      "lead": "Anthropic 允许独立评估机构 METR 的研究员以接近员工的权限查看其模型内部，并主动放弃阻止 METR 发布评估结论的权利。METR 将自行发布对 Anthropic 风险、事故和实践的评估。这是前沿实验室在透明度上少见的实质性让步，不是公关声明。",
       "confirmed": [
-        "视频介绍了 MCP 的基本概念和工作原理",
-        "演示了在 VS Code 中配置 MCP Server 的步骤",
-        "展示了通过 MCP 查询数据库的实例，无需直接编写 SQL",
-        "提供了相关资源链接，如 MCP Servers 仓库"
+        "Anthropic 给 METR 研究员接近员工级别的模型访问权限",
+        "Anthropic 放弃阻止 METR 发布评估报告的权利",
+        "METR 将独立发布对 Anthropic 风险与事故的评估",
+        "这是双方合作的具体条款，非泛泛承诺"
       ],
       "judgment": [
-        "MCP 生态仍在快速发展，标准可能变化",
-        "视频中的配置方法可能因版本更新而过时",
-        "对于复杂场景，MCP 的稳定性和性能需进一步测试",
-        "是否值得深入学习，取决于你的 Agent 项目需求"
+        "'员工级访问'的具体范围未披露，可能仍有边界",
+        "METR 的独立性最终取决于其资金来源和发布节奏",
+        "其他前沿实验室（OpenAI、Google）是否会跟进，未知",
+        "评估结果的实际约束力有限，Anthropic 仍可选择性回应"
       ],
-      "implication": "MCP 是 Agent 与外部工具交互的重要桥梁，掌握它能让你的 Agent 更强大。建议你观看此视频，并动手实践，将 MCP 集成到你的 content-curator 项目中，比如连接数据库或 API。这不仅能提升项目能力，也是简历上的亮点。"
+      "implication": "如果你关心 AI 治理，这条比任何'AI 安全宣言'都实在——可验证的第三方访问权是硬约束。对你的项目没有直接用处，但值得作为'如何设计可信评估机制'的参考案例存进素材库。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia 预计 Q3 销售 200 亿美元 Vera Rubin 系统，成为史上最快爬坡产品",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-expects-to-sell-usd20-billion-worth-of-vera-rubin-hardware-this-quarter-would-account-for-20-percent-of-data-center-revenue-its-fastest-ramp-in-company-history",
-      "source": "Tom's Hardware",
-      "one_liner": "Nvidia 新平台 Vera Rubin 季度销售目标 200 亿美元，占数据中心收入 20%，显示 AI 硬件需求强劲。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "SK hynix 在美国动工建设首家 HBM 工厂，2029 年投产",
-      "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-breaks-ground-on-the-first-hbm-plant-in-the-us-bringing-key-ai-component-production-to-the-states-says-production-starts-in-2029",
-      "source": "Tom's Hardware",
-      "one_liner": "SK hynix 美国 HBM 工厂动工，将连接韩国 DRAM 晶圆与美国 AI 客户，供应链本地化趋势。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Intel 14A 缺陷密度下降速度快于预期，CFO 称性能为 22nm 以来最佳",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-14a-defect-density-is-dropping-faster-than-the-company-expected-we-have-not-seen-this-performance-since-22nm-says-cfo",
-      "source": "Tom's Hardware",
-      "one_liner": "Intel 14A 工艺进展顺利，或提升其代工竞争力，值得关注。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "美国考虑对半导体征收新一轮关税，可能扩展至笔记本电脑、游戏机等",
-      "url": "https://www.tomshardware.com/tech-industry/policy/trump-administration-weighs-expanding-chip-tariffs-to-laptops-consoles-and-servers",
-      "source": "Tom's Hardware",
-      "one_liner": "特朗普政府考虑扩大芯片关税范围，可能影响硬件成本，需关注。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Anthropic 赢得对五角大楼黑名单的诉讼，法院裁定违宪",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
-      "source": "The Verge",
-      "one_liner": "Anthropic 在与美国政府的法律战中取得胜利，对 AI 监管有示范意义。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google 发布 Gemini 3.5 Transcribe 和 Omni 1.1 Flash 模型",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
-      "source": "Google Blog",
-      "one_liner": "Google 更新模型阵容，提供更高效的转录和多模态能力，开发者可关注。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "a16z 设立 11 亿美元 'Machine Age' 基金，投资 AI 硬件",
-      "url": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
-      "source": "TechCrunch",
-      "one_liner": "a16z 重金押注 AI 物理基础设施，显示硬件投资热潮。"
-    },
-    {
-      "domain": "股票",
-      "title": "全球股票基金 13 周来首次净流出，单周撤资 59 亿美元",
-      "url": "https://wallstreetcn.com/articles/3780591",
-      "source": "华尔街见闻 API",
-      "one_liner": "市场避险情绪升温，资金流出美股，关注后续走势。"
-    },
-    {
-      "domain": "股票",
-      "title": "美银：9 月存储现货价格还有 10-20% 上涨空间",
-      "url": "https://wallstreetcn.com/articles/3780585",
-      "source": "华尔街见闻 API",
-      "one_liner": "存储供给紧张，价格持续上涨，利好相关厂商。"
-    },
-    {
-      "domain": "股票",
-      "title": "Anthropic 曾考虑 70 亿美元收购 AI 芯片初创 MatX，现转向合作",
-      "url": "https://wallstreetcn.com/articles/3780583",
-      "source": "华尔街见闻 API",
-      "one_liner": "Anthropic 自研芯片野心，但收购未成，可能影响其算力策略。"
-    },
-    {
-      "domain": "金融",
-      "title": "日本过去一个月砸 964 亿美元干预汇市，创纪录",
-      "url": "https://wallstreetcn.com/articles/3780578",
-      "source": "华尔街见闻 API",
-      "one_liner": "日元干预规模创纪录，显示汇率压力，关注日元走势。"
-    },
-    {
-      "domain": "金融",
-      "title": "法国 8 月通胀超预期，市场完全定价欧央行 9 月加息",
-      "url": "https://wallstreetcn.com/articles/3780584",
-      "source": "华尔街见闻 API",
-      "one_liner": "欧洲通胀升温，加息预期增强，影响全球利率环境。"
-    },
-    {
       "domain": "AI",
-      "title": "吴恩达 2026 Vibe Coding 保姆级教程，从环境搭建到工作流闭环",
-      "url": "http://www.bilibili.com/video/av116951003242391",
-      "source": "吴恩达AIAgent",
-      "one_liner": "吴恩达出品，系统讲解 Vibe Coding 流程，适合系统学习。"
-    },
-    {
-      "domain": "AI",
-      "title": "认真用 Claude Code 的人，迟早会遇见 Everything Claude Code",
+      "title": "Everything Claude Code：116K star 的 Claude Code 配置项目实战讲解",
       "url": "http://www.bilibili.com/video/av116319122885806",
       "source": "极客魔导师",
-      "one_liner": "介绍 GitHub 116K star 的 Claude Code 配置项目，提升效率。"
+      "one_liner": "从斜杠命令、子代理、Hooks 到学习系统，是目前对 Claude Code 配置体系讲得最系统的一条，适合你直接抄配置。"
+    },
+    {
+      "domain": "AI",
+      "title": "Claude Code 完全接管 Blender，自主运行一小时做出 3D 工作流",
+      "url": "http://www.bilibili.com/video/av116980883398142",
+      "source": "stefan_3d_ai",
+      "one_liner": "结合官方 Blender MCP 服务器做全自主 3D 自动化，是 MCP 在非编程场景的少见真实案例，有完整过程。"
+    },
+    {
+      "domain": "AI",
+      "title": "14k Star Claude Code 开源桌面端，能自动操作电脑了",
+      "url": "http://www.bilibili.com/video/av117251936293145",
+      "source": "程序员阿江-Relakkes",
+      "one_liner": "基于泄露源码做的开源桌面端 cc-haha，重构了 Computer Use 功能，支持自选模型、不需要 Claude 账号。"
+    },
+    {
+      "domain": "AI",
+      "title": "OpenClaw 调用 Claude Code 最省 Token：Hooks 回调 + Agent Teams 零轮询",
+      "url": "http://www.bilibili.com/video/av116046157647899",
+      "source": "AI超元域",
+      "one_liner": "用 Stop Hook 自动回调替代轮询，把 Token 消耗从暴涨降到几乎忽略，是 Agent 工程里少见的省钱细节。"
+    },
+    {
+      "domain": "AI",
+      "title": "在 VScode 中配置 Claude Code 并接入 DeepSeek V4 Pro",
+      "url": "http://www.bilibili.com/video/av116487012549813",
+      "source": "沉默的羔丸ovo",
+      "one_liner": "给了 settings.json 的具体配置片段，是国内直连 + 换模型的实操参考，虽然短但可直接复用。"
+    },
+    {
+      "domain": "AI",
+      "title": "Agent 视觉创作全流程：从活动策划到 TVC 成片",
+      "url": "http://www.bilibili.com/video/av117427342017510",
+      "source": "秋芝2046",
+      "one_liner": "10 月 12 日发布的新内容，跑通创作型 Agent 全流程，属于本周新进展，密度尚可。"
+    },
+    {
+      "domain": "金融",
+      "title": "Anthropic IPO 招股书显示 AI 愿景与飙升的成本",
+      "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
+      "source": "Reuters / Hacker News",
+      "one_liner": "招股书披露的成本结构是理解前沿实验室真实经济性的第一手材料，比二手分析可靠。"
+    },
+    {
+      "domain": "金融",
+      "title": "数据中心新星 Firmus 的 300 亿美元 IPO 梦 48 小时破灭",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-09/data-center-darling-s-30-billion-ipo-dream-crushed-in-48-hours",
+      "source": "Bloomberg / Hacker News",
+      "one_liner": "AI 数据中心融资热潮的第一个公开失败案例，和头条 3 互为印证，值得对照读。"
+    },
+    {
+      "domain": "金融",
+      "title": "10 年期美债收益率升至 5.3% 以上，24 年未见",
+      "url": "https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f",
+      "source": "WSJ / Hacker News",
+      "one_liner": "利率是这轮 AI 融资热潮的底层变量，这条是理解头条 3 的必要背景。"
+    },
+    {
+      "domain": "金融",
+      "title": "前沿 AI 模型在盈利预测上超过人类分析师",
+      "url": "https://samaya.ai/blog/frontier-ai-models-outperform-human-experts-on-earnings-prediction",
+      "source": "Samaya / Hacker News",
+      "one_liner": "有具体对比数据，是'AI 做金融分析'少见的可验证结果，但需注意样本和回测偏差。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "日本向 GlobalFoundries 提供 210 亿美元扩建美国晶圆厂",
+      "url": "https://www.eetimes.com/japan-offers-globalfoundries-21b-for-u-s-fab-expansion/",
+      "source": "EE Times",
+      "one_liner": "将新增两座纽约晶圆厂、提升美国芯片产能 10%，是地缘产能转移的具体数字。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "SK 海力士就 3D NAND 工厂与特朗普政府博弈：以美国建厂换对华设备出口",
+      "url": "https://www.tomshardware.com/pc-components/ssds/sk-hynix-reportedly-playing-hardball-with-trump-admin-over-3d-nand-fab-company-demands-increased-chipmaking-equipment-exports-to-china-in-exchange-for-us-fab",
+      "source": "Tom's Hardware",
+      "one_liner": "把'美国建厂'和'对华出口许可'直接挂钩，是出口管制博弈的新玩法。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "EU 与中国谈判制裁互换，挽救 ASML 关键供应商",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/eu-negotiates-sanction-swap-with-china-to-rescue-critical-asml-supplier-german-coatings-firm-faces-shutdown-without-chinese-rare-earths",
+      "source": "Tom's Hardware",
+      "one_liner": "德国涂层材料商 Sindlhauser 因中国稀土限制面临停产，暴露 ASML 供应链的隐性单点。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia 被指试图与 Anna's Archive 达成高速访问盗版书籍的交易",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-accused-of-trying-to-cut-a-deal-with-annas-archive-for-high-speed-access-to-the-massive-pirated-book-haul-allegedly-chased-stolen-data-to-fuel-its-llms",
+      "source": "Tom's Hardware / Hacker News",
+      "one_liner": "训练数据来源的灰色地带再次被点名，指控本身未证实但值得记录。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "ChatGPT 现在能读取你的 Chrome 标签页",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "source": "The Verge",
+      "one_liner": "Atlas 浏览器没了，但 Chrome 扩展升级后能直接读已打开的标签，是 Agent 接管浏览器的又一步。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Bluesky 的 Attie 扩展成'社交 vibe coding'，人人可做游戏和网站",
+      "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "source": "TechCrunch",
+      "one_liner": "把 vibe coding 塞进社交网络，产物可直接分享，是'AI 生成 + 社交分发'的新形态。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Figma 发布新功能，定义 Agent 在其平台上的工作方式",
+      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "source": "TechCrunch",
+      "one_liner": "设计工具开始为 Agent 定义接口规范，code layers 进入开放 beta，对做工具的人有参考价值。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Stratechery 对话 Ari Emanuel：娱乐业与 AI",
+      "url": "https://stratechery.com/2026/a-conversation-with-ari-emanuel-about-entertainment-and-ai/",
+      "source": "Ben Thompson",
+      "one_liner": "好莱坞顶级经纪人对 AI 冲击娱乐业的深度对话，符合你'想看名人访谈'的偏好。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-08-28T15:49:04+0000"
+    "scored_at": "2026-10-16T08:38:25+0000"
   }
 }
