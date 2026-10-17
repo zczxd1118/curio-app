@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-16T08:03:00.044491+00:00",
+  "fetched_at": "2026-10-17T07:40:22.030822+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 5,
-    "HN · IPO": 9,
+    "HN · stock market": 8,
+    "HN · IPO": 8,
     "HN · earnings": 1,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 37,
+  "total": 39,
   "items": [
     {
       "id": "hn:49997175",
@@ -97,6 +97,44 @@
       "lang": "en"
     },
     {
+      "id": "hn:50113666",
+      "title": "South Korea's stock market down, president telling people not to commit suicide",
+      "url": "https://twitter.com/litcapital/status/2110752546415382699",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50113666",
+        "name": "toomuchtodo",
+        "hn_url": "https://news.ycombinator.com/item?id=50113666"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 5,
+      "published_at": "2026-10-16T03:26:08+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50113735",
+      "title": "CoreWeave Founders Shield Fortunes with $3.3B Stock Sales",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/coreweave-founders-shield-fortunes-with-3-3-billion-stock-sales",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50113735",
+        "name": "qlte",
+        "hn_url": "https://news.ycombinator.com/item?id=50113735"
+      },
+      "duration_sec": null,
+      "views": 10,
+      "comments": 0,
+      "published_at": "2026-10-16T03:34:02+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:50086344",
       "title": "Humxn Commits $50M to Buy Skilled Trades Data for Robotics Training",
       "url": "https://markets.businessinsider.com/news/stocks/humxn-research-labs-wants-to-buy-50-million-worth-of-skilled-trades-farming-and-manufacturing-data-for-ai-robotics-training-1036622854",
@@ -111,6 +149,25 @@
       "views": 11,
       "comments": 2,
       "published_at": "2026-10-14T12:04:10+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50122366",
+      "title": "Anthropic's Valuation Collapsed by $500B",
+      "url": "https://www.telegraph.co.uk/business/2026/10/16/anthropic-valuation-ipo-ai-stock-listing/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50122366",
+        "name": "novaRom",
+        "hn_url": "https://news.ycombinator.com/item?id=50122366"
+      },
+      "duration_sec": null,
+      "views": 10,
+      "comments": 8,
+      "published_at": "2026-10-16T18:27:58+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -268,25 +325,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50020096",
-      "title": "Ask HN: What if no AIpocalypse, no AI bubble, what if it just keeps advancing?",
-      "url": "https://news.ycombinator.com/item?id=50020096",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50020096",
-        "name": "consumer451",
-        "hn_url": "https://news.ycombinator.com/item?id=50020096"
-      },
-      "duration_sec": null,
-      "views": 16,
-      "comments": 33,
-      "published_at": "2026-10-09T13:18:05+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
       "id": "hn:50008977",
       "title": "Frontier AI models outperform analysts on earnings prediction",
       "url": "https://samaya.ai/blog/frontier-ai-models-outperform-human-experts-on-earnings-prediction",
@@ -341,6 +379,23 @@
       "published_at": "2026-09-23T02:26:49+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/me-and-my-agents",
+      "title": "Me and My Agents",
+      "url": "https://www.netinterest.co/p/me-and-my-agents",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-16T16:39:55+00:00",
+      "summary": "Unleashing AI Agents on Bank Earnings",
       "lang": "en"
     },
     {
@@ -664,23 +719,6 @@
       "views": null,
       "published_at": "2026-05-29T16:47:05+00:00",
       "summary": "Fidelity, Capital, Vanguard and the Ownership Structures That Made Them",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.netinterest.co/p/griffins-doors",
-      "title": "Griffin’s Doors",
-      "url": "https://www.netinterest.co/p/griffins-doors",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-22T16:22:17+00:00",
-      "summary": "Inside Citadel&#8217;s Talent Machine",
       "lang": "en"
     }
   ]

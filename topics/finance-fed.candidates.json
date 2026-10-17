@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-10-16T08:03:08.250581+00:00",
+  "fetched_at": "2026-10-17T07:40:30.587524+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,16 +11,33 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 26,
+    "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 2,
-    "HN · inflation": 3,
-    "HN · Tesla": 4,
+    "HN · inflation": 1,
+    "HN · Tesla": 7,
     "HN · finance": 10,
-    "HN · fed": 15
+    "HN · fed": 13
   },
   "subtopics": [],
-  "total": 89,
+  "total": 63,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/home-at-last/",
+      "title": "2026.42: Home At Last",
+      "url": "https://stratechery.com/2026/home-at-last/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-16T17:42:42+00:00",
+      "summary": "The best Stratechery content from the week of October 12, 2026, including what Apple is doing, SpaceX's appetite, and the title, takes, and the Washington Wizards.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/a-conversation-with-ari-emanuel-about-entertainment-and-ai/",
       "title": "A Conversation With Ari Emanuel About Entertainment and AI",
@@ -175,20 +192,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
-      "title": "An Interview with Jason Del Rey About Muse, Amazon, and Walmart",
-      "url": "https://stratechery.com/2026/an-interview-with-jason-del-rey-about-muse-amazon-and-walmart/",
+      "id": "rss:https://www.netinterest.co/p/me-and-my-agents",
+      "title": "Me and My Agents",
+      "url": "https://www.netinterest.co/p/me-and-my-agents",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-01T10:00:00+00:00",
-      "summary": "An interview with Jason Del Rey about Amazon versus Meta, which is a continuation of the oldest battle in retail between Amazon and Walmart.",
+      "published_at": "2026-10-16T16:39:55+00:00",
+      "summary": "Unleashing AI Agents on Bank Earnings",
       "lang": "en"
     },
     {
@@ -515,465 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.netinterest.co/p/griffins-doors",
-      "title": "Griffin’s Doors",
-      "url": "https://www.netinterest.co/p/griffins-doors",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-22T16:22:17+00:00",
-      "summary": "Inside Citadel&#8217;s Talent Machine",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21057",
-      "title": "Loss-versus-rebalancing with external proportional transaction costs",
-      "url": "https://arxiv.org/abs/2610.21057",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Masaaki Fukasawa",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21057v1 Announce Type: new Abstract: We study liquidity provision in automated market makers when trading in the external market incurs proportional transaction costs. We consider both separately collected fees and fees retained in reserves. The benchmark is a self-financing strategy holding the same total risky inventory and trading at the external bid and ask. Under continuous external prices and pure arbitrage, the pool and benchmark have identical liquidation wealth whenever the p...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21145",
-      "title": "Pricing American Commodity Options Under the Schwartz Two-Factor Model Using the Alternating Direction Explicit (ADE) Method",
-      "url": "https://arxiv.org/abs/2610.21145",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Sanjith Prabhu, Daniel J. Duffy",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21145v1 Announce Type: new Abstract: This project investigates the valuation of American commodity options using the Schwartz two-factor model. We employ the double-sweep Alternating Direction Explicit (ADE) method, an unconditionally stable (for diffusion) finite difference scheme that provides the efficiency of explicit marching with the stability typically reserved for implicit methods, and compare it with the single-sweep alternating variant of Saul'yev. We derive the governing pa...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21196",
-      "title": "The end-of-month option in futures contracts and the Gittins index of holding the underlying",
-      "url": "https://arxiv.org/abs/2610.21196",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Erhan Bayraktar",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21196v1 Announce Type: new Abstract: The end-of-month option allows the short in a futures contract to choose when to deliver during a window in which the delivery price is fixed. We characterize optimal delivery through a universal index obtained from the Bank--El Karoui representation theorem. In the semimartingale setting, this is the Gittins index of holding the underlying and collecting its convenience yield, and the futures price is the retirement reward for which the value of t...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21442",
-      "title": "Fundamental Theorem of Discrete Asset Pricing",
-      "url": "https://arxiv.org/abs/2610.21442",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Masaaki Fukasawa",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21442v1 Announce Type: new Abstract: Motivated by discrete price quotes in continuous time, we seek a fundamental theorem based on no arbitrage rather than a condition on limiting trading opportunities. We consider a vector of discounted prices taking values in a locally finite subset of $R^d$ in continuous time. For a locally bounded c\\`adl\\`ag price, we prove that no arbitrage, no free lunch with vanishing risk, no free lunch, and the existence of an equivalent local martingale meas...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21447",
-      "title": "Long-Horizon Investment with Delayed Information in a Mean-Reverting Market",
-      "url": "https://arxiv.org/abs/2610.21447",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Yan Dolinsky",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21447v1 Announce Type: new Abstract: We study long-term investment in an Ornstein-Uhlenbeck diffusion model with exponential utility. We solve the finite-horizon problem explicitly and show that information delay qualitatively alters long-horizon behavior. Under full information, the certainty equivalent generated by mean reversion grows quadratically with the investment horizon. With any fixed positive delay, it grows only linearly, at an asymptotic rate that we compute explicitly. W...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21491",
-      "title": "NEST: Stale-Robust Tokenized-Stock Measurement for a Crypto-Treasury LETF Stack",
-      "url": "https://arxiv.org/abs/2610.21491",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Doohwi Cha, Minsuk Sung, Minjae Lee, Hyeonjun Yeo, Hanhee Kim, Seunghan Son, Donghwa Seo, Juyeong Lee",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21491v1 Announce Type: new Abstract: Tokenized equities trade while listed markets are closed, so their marks could improve off-hours measurement along layered exposures that link Bitcoin, crypto-treasury stocks, and leveraged ETFs. A token return and the next opening gap, however, share the price move from the previous close to the token mark, so part of their apparent fit is mechanical. We develop NEST, a stale-robust protocol that separates this shared-history fit from conditional ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21510",
-      "title": "How Much Screening Buys a Second? Speed, Selection, and the Maker's Spread",
-      "url": "https://arxiv.org/abs/2610.21510",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Aleksei Adadurov, Eduard Airapetian, Anton Chtepine, Antero Eloranta, Boris Pletenev, Andrei Sebyakin, Arsenii Valitov",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21510v1 Announce Type: new Abstract: We study the spread a liquidity provider needs to break even against counterparties that can exploit a stale quote, and we place two defenses on a single scale: repricing sooner and screening informed flow. A break-even condition pins down the exact screening rate at which a slower maker matches a faster unscreened venue: the selection that buys back the extra staleness. The result requires only an integrable price innovation and therefore holds un...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21540",
-      "title": "Pricing the Unprovable: Ambiguity, Turnstile Runs, and the Verifiability Discount in Crypto Protocols",
-      "url": "https://arxiv.org/abs/2610.21540",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Doohwi Cha, Hanhee Kim, Hyeonjun Yeo, Minsuk Sung, Minjae Lee, Seunghan Son, Donghwa Seo, Juyeong Lee",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21540v1 Announce Type: new Abstract: Privacy-preserving protocols can repair a vulnerability without establishing whether it was exploited beforehand, even when no theft is reported and aggregate supply is protected. We call the potential value reduction from this gap the verifiability discount. A turnstile model shows how early withdrawal can shift a possible shortfall to remaining holders and why credible evidence can become more valuable as exposure grows. We introduce VDISC, a rep...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21659",
-      "title": "When Does \"Post-Call\" Begin? An Availability Contract for Earnings-Call NLP Benchmarks",
-      "url": "https://arxiv.org/abs/2610.21659",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Xiaoyu Ma, Kelvin J. L. Koa, Yuncong Liu, Ke-Wei Huang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21659v1 Announce Type: new Abstract: Corporate financial disclosures often unfold over time, with announcements, prepared remarks, and discussion spanning multiple high-frequency return intervals. Financial NLP benchmarks can therefore suffer from a within-event timing mismatch when the prediction target begins before the textual or audio input used by a model could be complete. Chronological train--test splits do not prevent this mismatch, because it occurs inside individual events r...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21841",
-      "title": "Feeling the generalised rough SABR boundary",
-      "url": "https://arxiv.org/abs/2610.21841",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Masaaki Fukasawa, Antoine Jacquier, Mugad Oumgari",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21841v1 Announce Type: new Abstract: We provide an in-depth analysis of a generalised rough version of the SABR volatility model, widely used in the financial industry. We specifically focus on its behaviour at the origin, whether it can reach it and how fast it may do so.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21846",
-      "title": "Where Backtests and Live Trading Part Ways: Six Defects from One Intraday System",
-      "url": "https://arxiv.org/abs/2610.21846",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Alex Vidovich, Zivana Zerjal",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21846v1 Announce Type: new Abstract: Backtests of intraday strategies can drift away from what the live system actually does; in our case, the drift never showed in summary statistics. We report six defects found while running one intraday US equity system live and comparing its live days with their backtest replay. Three came from data: a default feed that carried a small fraction of real opening volume, historical prices adjusted for dividends that live orders never see, and data th...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21867",
-      "title": "Algorithmic Collusion Without Deterrence: Auditing the Punishment Mechanism in Q-Learning Pricing Agents",
-      "url": "https://arxiv.org/abs/2610.21867",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Kaue Lopes de Moraes, Rodrigo De-Losso",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21867v1 Announce Type: new Abstract: Independent tabular Q-learning agents repricing in a simulated Bertrand duopoly converge to supracompetitive prices, and the seminal evidence attributes this to a learned reward-punishment scheme: undercut your rival and it retaliates, so deviation never pays. This mechanistic reading is what turns high prices into a cartel, and into a regulatory target. We replicate the environment of Calvano et al. (2020) and confirm their impulse-response patter...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.34004",
-      "title": "RICE-Alpha: Reliability-Informed Correction with Event Graphs for LLM-Agent Stock Forecasting",
-      "url": "https://arxiv.org/abs/2609.34004",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Tong Liu, Lanmiao Liu, Xiang Hu",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2609.34004v2 Announce Type: cross Abstract: Equity-relevant news evolves through temporally dependent corporate events, making historical information useful only when event continuity, information availability, and transition reliability are modeled. Existing LLM-based financial agents incorporate historical evidence, yet they provide limited support for preserving issuer-specific chronology under point-in-time constraints and for identifying when historical transitions contribute informat...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.20920",
-      "title": "$q_x$-Bass Martingales: Optimality, Existence and Convergence",
-      "url": "https://arxiv.org/abs/2610.20920",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Antonio Marini",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.20920v1 Announce Type: cross Abstract: We introduce the class of $q_x$-Bass martingales, extending the notion of $q$-Bass martingales. These are martingale couplings with prescribed marginals whose transition kernels are closest to a given family of reference kernels $(q_x)_{x \\in \\mathbb R^d}$ in the sense of a suitable weak optimal transport problem. We show that $q_x$-Bass martingales are optimizers of this problem and establish a strong duality result. Building on this duality, we...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.21081",
-      "title": "StochLOB: Heavy-Tailed Score Matching for Robust Limit Order Book Trend Prediction",
-      "url": "https://arxiv.org/abs/2610.21081",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Arshia Abolghasemi, Seyed Reza Tavakoli, Parsa Naderi, Nazanin Mirzaei, Behrad Jahani, Saba Yousefzadeh, Tahereh Javaheri, Mohammad Hosein Rohban, Gholamali Aminian, Ali Habibnia",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.21081v1 Announce Type: cross Abstract: Score-based diffusion methods usually perturb data with Brownian Gaussian noise, corresponding to a light-tailed forward stochastic differential equation (SDE). For market time series this SDE can be a poor abstraction: limit order book (LOB) order flow is heavy-tailed, bursty, and occasionally jump-like. We study STOCHLOB, a training-only score-matching framework that changes the forward diffusion corruption law while leaving the deployed predic...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.22043",
-      "title": "Momentum, Commentary Tone, and Earnings Surprise in LLM Financial Forecasts",
-      "url": "https://arxiv.org/abs/2610.22043",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Alina Khaybullina",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.22043v1 Announce Type: cross Abstract: Which inputs drive a language model's financial forecast? We construct synthetic earnings announcements that independently reverse 20-day momentum, non-informational commentary tone, and whether fixed actual EPS beats a manipulated consensus. Six instruction/chat checkpoint conversions from four families (0.49-7.61B base parameters) receive 2,016 prompts each under a direct-answer Q8_0 protocol. The design includes 24 numerical blocks, six commen...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.22144",
-      "title": "Extending the Oracle Approximating Shrinkage to General Distributions",
-      "url": "https://arxiv.org/abs/2610.22144",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Michael J. Lewis",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.22144v1 Announce Type: cross Abstract: The Oracle Approximating Shrinkage (OAS) estimator provides a closed-form, data-driven shrinkage intensity for regularizing sample covariance matrices toward a scaled identity target, but its derivation assumes Gaussian data. In practice, financial returns, neural signals, and many other high-dimensional datasets exhibit heavy tails and non-zero kurtosis, violating this assumption. We extend OAS to any distribution with finite fourth moments by i...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2603.07863",
-      "title": "Choice of Collateral Currency in Differential Swaps",
-      "url": "https://arxiv.org/abs/2603.07863",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Yining Ding, Ruyi Liu, Marek Rutkowski",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2603.07863v2 Announce Type: replace Abstract: The role of collateral in derivative pricing has evolved beyond credit risk mitigation, particularly following the global financial crisis, when funding costs and basis spreads became central to valuation practices. This development coincided with the transition from the London Interbank Offered Rate (LIBOR) to risk-free rates (RFRs) and the increasing standardization of collateralised trading. We study the valuation and hedging of a class of d...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2606.31475",
-      "title": "Real-time identification of the onset of financial rogue waves",
-      "url": "https://arxiv.org/abs/2606.31475",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Rosie Hayward, Orla Lennon, Fabio Biancalana",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2606.31475v4 Announce Type: replace Abstract: Extreme events in financial systems, often captured by indicators such as volatility, remain difficult to identify close to their onset. Volatility shares many statistical properties with other natural, complex systems which experience extreme events, which we explore in this manuscript. We extend the analogy between rogue waves in optical and hydrodynamical systems to financial volatility by identifying rogue-wave-like peaks with similar stati...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.12587",
-      "title": "DYSANOS Generative Dynamic Smooth Arbitrage-free Non-parametric Option Surfaces",
-      "url": "https://arxiv.org/abs/2608.12587",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Hans Buehler, Blanka Horvath, Anastasis Kratsios, Magnus Wiese",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2608.12587v4 Announce Type: replace Abstract: This article presents with DYSANOS the first generative market model for smooth SANOS option surfaces for all strikes and expiries which are free of static arbitrage. Our model is designed to generate entire paths of daily spot and option prices for years in the future. We present a robust and useful if somewhat simplistic baseline in the form of an AR(1) model. We discuss model setup, data pipeline, and training and investigate market reconstr...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.04087",
-      "title": "Global Multi-Maturity SPX-VIX Calibration Beyond Markovian Stitching",
-      "url": "https://arxiv.org/abs/2609.04087",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Atithi Acharya, Charlie Che, Yue Sun, Brandon Augustino, Shouvanik Chakrabarti, Shree Hari Sureshbabu",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2609.04087v2 Announce Type: replace Abstract: We develop a global martingale optimal transport framework for joint S&amp;P 500 (SPX)-VIX smile calibration across multiple maturities, without the conditional independence that Markovian stitching imposes between months. We prove that exact local and global feasibility are equivalent, yet the stitched laws, which carry earlier months only through the current SPX level, can form a strict subset of the global ones, so adjacent smiles cannot ide...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.16151",
-      "title": "Neural Estimation of Irreversibility in Real and Simulated Limit Order Book Paths",
-      "url": "https://arxiv.org/abs/2610.16151",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Hyeonjun Yeo, Doohwi Cha, Yoontae Hwang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.16151v2 Announce Type: replace Abstract: A path indistinguishable from its own reverse carries no arrow of time, so time irreversibility is a necessary condition for a directed mechanism to be readable from trajectories alone. In finance it has been measured only on scalar series such as returns and volatility. We define the irreversibility rate of a coarse-grained limit order book path as the forward-to-reverse log-density ratio per event, and estimate it from three weeks of Nasdaq m...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.20550",
-      "title": "Principal component error in high-dimensional factor models",
-      "url": "https://arxiv.org/abs/2609.20550",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Alex Bernstein, Lisa R. Goldberg, Nicholas Gunther, Alec N. Kercheval, Tian Lan, Yian Lin, Dayi Yao",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2609.20550v2 Announce Type: replace-cross Abstract: In a statistical factor model, principal components (or eigenvectors) of a sample covariance matrix serve as estimates of principal directions, the true drivers of co-movement of a collection of observed variables. We write the often substantial error in these estimates as a sum of two interpretable terms, which we show have almost sure asymptotic limits as the number of variables grows with sample size bounded. This scenario is commonpla...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.31345",
-      "title": "On the asymptotic shape of quantile surfaces",
-      "url": "https://arxiv.org/abs/2609.31345",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Florian Gach, Simon Hochgerner",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2609.31345v3 Announce Type: replace-cross Abstract: This article is concerned with the asymptotic shape of quantile surfaces, defined as the set of quantiles at a given level $\\alpha$ generated by a controlled one-dimensional distribution. Specifically, when the distribution arises as a linear combination of log-normal random variables and the control is a vector of positive coefficients, we prove that quantile surfaces are globally concave in the left tail ($\\alpha\\to0$) and globally conv...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.14959",
-      "title": "AlphaRLM: Aligning Language Models for Literature-Grounded Symbolic Factor Discovery",
-      "url": "https://arxiv.org/abs/2610.14959",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Jie Huang, Yuecheng Hong, Yao Chen, Hao Zhong, Linfeng Xiao, Xudong Liu, Qiang Ye, Hao Xia, Jianxuan Xin",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.14959v3 Announce Type: replace-cross Abstract: Formulaic alpha mining seeks to discover executable expressions that capture predictive market signals in a vast, noisy search space. Recent LLM-based approaches use prompting, iterative search, or seed-factor evolution, leaving direct factor construction through policy learning less explored. To address this, we introduce AlphaRLM, a reinforcement-learning framework that trains LLMs to construct executable symbolic factors from financial...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.14969",
-      "title": "Allocative Efficiency and the Returns to Innovation",
-      "url": "https://arxiv.org/abs/2610.14969",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Koki Okumura",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T04:00:00+00:00",
-      "summary": "arXiv:2610.14969v2 Announce Type: replace-cross Abstract: Innovation changes welfare through the technology it adds and the reallocation it causes between producers with different markups. When producers set markups, an innovator's own output and price adjustments have no private value at the margin, so reallocation reaches its profit only through others' responses. For an innovator small in its markets, none of the change in allocative efficiency, which is of the same order as its cost saving, ...",
-      "lang": "en"
-    },
-    {
       "id": "hn:50082283",
       "title": "US Says Chinese Hackers Attacked DOJ, NASA, Federal Reserve, Senate",
       "url": "https://www.usatoday.com/story/news/politics/2026/08/26/chinese-hackers-cyberattack-us-government/91473585007/",
@@ -1012,44 +570,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49731356",
-      "title": "Fed hikes rates as inflation worries push up bond yields",
-      "url": "https://www.reuters.com/live/live-fed-rate-hike-expected-inflation-worries-push-up-bond-yields-2026-09-16/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49731356",
-        "name": "wslh",
-        "hn_url": "https://news.ycombinator.com/item?id=49731356"
-      },
-      "duration_sec": null,
-      "views": 184,
-      "comments": 250,
-      "published_at": "2026-09-16T18:55:21+00:00",
-      "summary": "",
-      "matched_keyword": "inflation",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49730731",
-      "title": "Fed Raises Rates as Warsh Bucks Trump to Contain Inflation",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-16/fed-raises-rates-as-warsh-bucks-trump-to-contain-inflation",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49730731",
-        "name": "toomuchtodo",
-        "hn_url": "https://news.ycombinator.com/item?id=49730731"
-      },
-      "duration_sec": null,
-      "views": 21,
-      "comments": 10,
-      "published_at": "2026-09-16T18:05:30+00:00",
-      "summary": "",
-      "matched_keyword": "inflation",
-      "lang": "en"
-    },
-    {
       "id": "hn:49924299",
       "title": "Sony released the first CD audio player on this day in 1982",
       "url": "https://www.tomshardware.com/pc-components/storage/sony-released-the-first-cd-audio-player-on-this-day-in-1982-player-cost-usd3-700-when-adjusted-for-inflation-but-it-would-be-another-decade-before-the-cd-rom-driven-multimedia-pc-era-began",
@@ -1080,8 +600,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50112657"
       },
       "duration_sec": null,
-      "views": 370,
-      "comments": 513,
+      "views": 1370,
+      "comments": 2426,
       "published_at": "2026-10-16T01:32:45+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -1099,9 +619,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50090662"
       },
       "duration_sec": null,
-      "views": 145,
-      "comments": 115,
+      "views": 146,
+      "comments": 117,
       "published_at": "2026-10-14T16:45:19+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50116255",
+      "title": "Tesla's new Roadster makes a flying debut, hitting 60 MPH in under a second",
+      "url": "https://www.foxbusiness.com/technology/teslas-new-roadster-makes-flying-debut-hitting-60-mph-under-second",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50116255",
+        "name": "nsoonhui",
+        "hn_url": "https://news.ycombinator.com/item?id=50116255"
+      },
+      "duration_sec": null,
+      "views": 70,
+      "comments": 6,
+      "published_at": "2026-10-16T09:40:47+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -1118,9 +657,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50114077"
       },
       "duration_sec": null,
-      "views": 68,
+      "views": 69,
       "comments": 2,
       "published_at": "2026-10-16T04:27:54+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50118624",
+      "title": "Tesla unveils 'flying' Roadster with SpaceX thrusters [video]",
+      "url": "https://www.youtube.com/watch?v=eqOfmtTJD1A",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50118624",
+        "name": "skadamat",
+        "hn_url": "https://news.ycombinator.com/item?id=50118624"
+      },
+      "duration_sec": null,
+      "views": 63,
+      "comments": 2,
+      "published_at": "2026-10-16T14:12:15+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -1140,6 +698,25 @@
       "views": 53,
       "comments": 40,
       "published_at": "2026-10-09T16:38:20+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50112380",
+      "title": "Tesla Debuts 2026 Roadster",
+      "url": "https://www.nytimes.com/2026/10/15/business/tesla-roadster-2026-ev-sports-car.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50112380",
+        "name": "andsoitis",
+        "hn_url": "https://news.ycombinator.com/item?id=50112380"
+      },
+      "duration_sec": null,
+      "views": 38,
+      "comments": 20,
+      "published_at": "2026-10-16T00:57:58+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -1194,7 +771,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50080275"
       },
       "duration_sec": null,
-      "views": 119,
+      "views": 121,
       "comments": 71,
       "published_at": "2026-10-13T23:13:23+00:00",
       "summary": "",
@@ -1327,8 +904,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50105900"
       },
       "duration_sec": null,
-      "views": 69,
-      "comments": 80,
+      "views": 73,
+      "comments": 90,
       "published_at": "2026-10-15T16:17:40+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -1460,7 +1037,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50082021"
       },
       "duration_sec": null,
-      "views": 117,
+      "views": 118,
       "comments": 90,
       "published_at": "2026-10-14T03:28:00+00:00",
       "summary": "",
@@ -1520,25 +1097,6 @@
       "views": 48,
       "comments": 44,
       "published_at": "2026-10-13T16:48:18+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49730769",
-      "title": "Feds Want California to Give Up 14 Years of Broadband Protections. It Should Sue",
-      "url": "https://cyberlaw.stanford.edu/blog/2026/09/california-is-being-asked-to-give-up-14-years-of-broadband-protections-it-doesnt-have-to/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49730769",
-        "name": "rsingel",
-        "hn_url": "https://news.ycombinator.com/item?id=49730769"
-      },
-      "duration_sec": null,
-      "views": 38,
-      "comments": 1,
-      "published_at": "2026-09-16T18:09:36+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
