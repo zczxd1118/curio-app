@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-10-17T07:40:30.587524+00:00",
+  "fetched_at": "2026-10-18T07:56:01.778261+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -15,11 +15,11 @@
     "HN · Federal Reserve": 2,
     "HN · inflation": 1,
     "HN · Tesla": 7,
-    "HN · finance": 10,
-    "HN · fed": 13
+    "HN · finance": 12,
+    "HN · fed": 14
   },
   "subtopics": [],
-  "total": 63,
+  "total": 65,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/home-at-last/",
@@ -600,8 +600,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50112657"
       },
       "duration_sec": null,
-      "views": 1370,
-      "comments": 2426,
+      "views": 1615,
+      "comments": 3000,
       "published_at": "2026-10-16T01:32:45+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -760,6 +760,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50122776",
+      "title": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast",
+      "url": "https://stoke.money",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50122776",
+        "name": "_wesley",
+        "hn_url": "https://news.ycombinator.com/item?id=50122776"
+      },
+      "duration_sec": null,
+      "views": 32,
+      "comments": 20,
+      "published_at": "2026-10-16T18:54:47+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
       "id": "hn:50080275",
       "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
       "url": "https://pulseos.finance",
@@ -793,6 +812,25 @@
       "views": 562,
       "comments": 458,
       "published_at": "2026-09-20T17:38:50+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50131440",
+      "title": "US federal budget deficit jumps 12% in one year to nearly $2 Trillion",
+      "url": "https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50131440",
+        "name": "ck2",
+        "hn_url": "https://news.ycombinator.com/item?id=50131440"
+      },
+      "duration_sec": null,
+      "views": 185,
+      "comments": 187,
+      "published_at": "2026-10-17T14:22:05+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -904,7 +942,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50105900"
       },
       "duration_sec": null,
-      "views": 73,
+      "views": 75,
       "comments": 90,
       "published_at": "2026-10-15T16:17:40+00:00",
       "summary": "",

@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-17T07:40:22.030822+00:00",
+  "fetched_at": "2026-10-18T07:55:54.459222+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,7 +10,7 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 8,
-    "HN · IPO": 8,
+    "HN · IPO": 9,
     "HN · earnings": 1,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 39,
+  "total": 40,
   "items": [
     {
       "id": "hn:49997175",
@@ -128,7 +128,7 @@
       },
       "duration_sec": null,
       "views": 10,
-      "comments": 0,
+      "comments": 1,
       "published_at": "2026-10-16T03:34:02+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -185,7 +185,7 @@
       },
       "duration_sec": null,
       "views": 243,
-      "comments": 216,
+      "comments": 217,
       "published_at": "2026-10-12T05:03:47+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -320,6 +320,25 @@
       "views": 72,
       "comments": 87,
       "published_at": "2026-09-21T19:14:30+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50020096",
+      "title": "Ask HN: What if no AIpocalypse, no AI bubble, what if it just keeps advancing?",
+      "url": "https://news.ycombinator.com/item?id=50020096",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50020096",
+        "name": "consumer451",
+        "hn_url": "https://news.ycombinator.com/item?id=50020096"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 33,
+      "published_at": "2026-10-09T13:18:05+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
