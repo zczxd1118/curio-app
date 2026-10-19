@@ -1,46 +1,64 @@
 # Curio · 大厂 AI 动态 · 2026-10-19
 
-> 今日 1 条头条 + 5 条备选
+> 今日 2 条头条 + 3 条备选
 
-_今天最重要的信号是 AI 资本叙事开始出现裂缝：OpenAI 年化收入比此前对外暗示的低 200 亿美元，Anthropic 估值据报缩水 5000 亿，Firmus 的 300 亿美元 IPO 在 48 小时内崩掉——算力基建的钱开始被重新定价。另一条线是 Anthropic 一边把 5% 股份捐给公益基金、一边给外部监督机构「准员工级」权限，AI 治理从口号进入可审计阶段。_
+_今天最值得看的是两条互相咬合的线：一是 AI 资本叙事开始松动——Anthropic 估值被砍 5000 亿美元、Firmus 的 300 亿 IPO 48 小时崩盘、CoreWeave 创始人套现 33 亿，钱在往回收；二是模型侧仍在推进——Gemini 4 Argon 系列铺到机器人、星际争霸，Replit 把默认模型从 Anthropic 换成 OpenAI。工程侧则有一个很具体的信号：Claude Code 每轮对话先 gzip 压缩再送模型。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. Anthropic 承诺捐出 5% 股份给公益基金，同时给外部监督机构「准员工级」系统权限
+### 2. Gemini 4 Argon 连发：模型页、机器人版、星际争霸基准同日铺开
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Anthony Ha_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _737max_
 
-Anthropic 宣布将 5% 股份注入一个 public benefit fund，同期 Ars Technica 报道它给外部 AI 监督机构开放了接近内部员工的访问权限，且对方可以不经 Anthropic 审核直接发布结论。把股权和审计权同时让渡出去，在 AI 实验室里是第一次。考虑到它正在 IPO 进程中，这套动作既是治理表态，也是招股书里的风险对冲。
+Google 在 DeepMind 模型页上线 Gemini 4 Argon，HN 两次登榜合计超 3100 分。随后几天内，Argon for Robotics 的开发者博客、用 Argon 打星际争霸的第三方基准站、以及 Artificial Analysis 的智能/性能/价格分析陆续出现。这是一次少见的「模型+具身+游戏智能体」同步发布。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic 承诺将 5% 股份投入 public benefit fund | 5% 股份的实际治理权与投票安排未披露 |
-| 外部监督机构获得「employee-like」系统访问权限 | 外部监督机构的独立性边界仍不清晰 |
-| 该机构可未经 Anthropic 批准发布调查结论 | 此举是否影响 IPO 估值定价尚无数据 |
-| Anthropic 正处于 IPO 进程中，招股书已公开 | 其他实验室是否会跟进同类结构未知 |
+| Gemini 4 Argon 官方模型页已上线，HN 两条提交分别 1705 与 1466 分 | Argon 在真实 Agent 任务上的稳定性尚无独立复现 |
+| Gemini 4 Argon for Robotics 发布在 Google 开发者博客 | 机器人版本是研究预览还是可商用 API，官方措辞含糊 |
+| 第三方基准 starskirmish.com 上线 Argon 打星际争霸的评测 | 星际争霸成绩与通用推理能力的相关性存疑 |
+| Artificial Analysis 已给出 Argon (High) 的智能、性能与价格分析 | 价格档位相对 3.x 的实际涨幅需看账单而非博客 |
+| Gemini 3.8 的 TTS 版本在 9 月底已先行发布 |  |
 
 **📖 主编点评**
 
-值得你把这份安排当作「AI 公司治理模板」存档。如果你未来做 Agent 产品涉及自动化决策，这套「外部可审计 + 结论可独立发布」的结构，很可能成为合规讨论的参照系——现在读一遍，比两年后被要求补课便宜得多。
+你正在做 Agent 项目，Argon 的机器人版和游戏智能体基准值得各花 20 分钟看：前者说明 Google 在把模型往具身上压，后者是少见的「长程规划」公开测试场。但别急着切默认模型——先看 Artificial Analysis 的价格页，再拿你自己的 content-curator 跑一轮真实任务对比。
 
-📺 [打开原文](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/)
+📺 [打开原文](https://deepmind.google/models/gemini/)
+
+---
+
+### 3. Replit 把默认模型从 Anthropic 换成 OpenAI，Claude 降为可选项
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Kirsten Korosec, Lucas Ropek, Rebecca Bellan_
+
+Replit CEO Masad 在周末澄清，OpenAI 将取代 Anthropic 成为平台默认模型供应商，Claude 仍对客户开放但不再是默认。这是 vibe coding 赛道里第一个公开的「默认模型换供应商」案例，发生在 Anthropic 估值承压的同一周。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Replit CEO Masad 公开确认 OpenAI 成为默认模型供应商 | 切换是成本驱动、能力驱动还是商务条款驱动，CEO 未说明 |
+| Claude 仍保留在平台上，客户可手动选择 | 存量项目的默认模型是否迁移、迁移窗口多长，未披露 |
+| 消息由 TechCrunch 在 10 月 17 日报道 | 是否伴随定价调整，目前无信息 |
+| Replit 是 vibe coding / 在线 IDE 赛道的主要玩家之一 | 其他 vibe coding 平台是否会跟进，值得观察 |
+
+**📖 主编点评**
+
+这条对你直接相关：如果你在 Replit 上有项目，默认模型变了意味着同样的 prompt 输出会变，回归测试要重跑。更重要的判断是——「默认模型」正在变成平台的商务筹码而非技术选择，你自建 Agent 时应该把模型层做成可替换的适配器，别把 prompt 写死在某家模型的行为上。
+
+📺 [打开原文](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)
 
 ---
 
 ## 📋 备选阅读
 
-- [Replit 把默认模型供应商从 Anthropic 换成 OpenAI](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/) —— vibe coding 平台换模型供应商，Claude 仍可选但不再是默认，说明模型层的客户忠诚度极低。
-  _Kirsten Korosec, Lucas Ropek, Rebecca Bellan_
-- [Anthropic 称员工结构变得更资深、开会时间更多](https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/) —— AI 公司自己承认初级岗位在减少，对正在求职的你是直接相关的信号，但信息颗粒度偏粗。
+- [Anthropic 承诺将 5% 股份投入「公共利益基金」](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/) —— 在估值缩水的同一周宣布捐股，时机耐人寻味，治理结构值得关注。
   _Anthony Ha_
-- [Disney 同意接收 Character.AI 大部分员工](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/) —— stalking horse 竞标结构下的资产与人才打包收购，AI 陪伴赛道的一次标志性退场。
+- [Anthropic 给外部 AI 监督机构「准员工级」访问权限](https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/) —— 外部监督方可未经批准发布结论，是 AI 治理里少见的实质让步。
+  _Cristina Criddle, Financial Times_
+- [Disney 同意接收 Character.AI 大部分员工](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/) —— 以 stalking horse 竞标形式进行，Character.AI 的结局基本确定，AI 陪伴赛道洗牌。
   _Anthony Ha_
-- [Gemini 4 Argon 的智能、性能与价格分析](https://artificialanalysis.ai/models/gemini-4-argon) —— 第三方评测站对 Gemini 4 Argon 的横向数据，选模型时可直接查表，但本身不是新闻。
-  _theanonymousone_
-- [在越狱 PS5 上跑 llama.cpp，原生运行任意 GGUF 模型](https://github.com/cobanov/PS5LM) —— 工程趣味大于实用价值，但「在非预期硬件上跑推理」的思路对你的本地部署实验有启发。
-  _Anon84_
 
 ---
 
