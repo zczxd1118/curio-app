@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-18T07:55:54.459222+00:00",
+  "fetched_at": "2026-10-19T08:42:00.893031+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,9 +10,9 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 8,
-    "HN · IPO": 9,
+    "HN · IPO": 8,
     "HN · earnings": 1,
-    "HN · Federal Reserve": 2,
+    "HN · Federal Reserve": 3,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
@@ -325,25 +325,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50020096",
-      "title": "Ask HN: What if no AIpocalypse, no AI bubble, what if it just keeps advancing?",
-      "url": "https://news.ycombinator.com/item?id=50020096",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50020096",
-        "name": "consumer451",
-        "hn_url": "https://news.ycombinator.com/item?id=50020096"
-      },
-      "duration_sec": null,
-      "views": 16,
-      "comments": 33,
-      "published_at": "2026-10-09T13:18:05+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
       "id": "hn:50008977",
       "title": "Frontier AI models outperform analysts on earnings prediction",
       "url": "https://samaya.ai/blog/frontier-ai-models-outperform-human-experts-on-earnings-prediction",
@@ -377,6 +358,25 @@
       "views": 13,
       "comments": 9,
       "published_at": "2026-10-14T04:09:23+00:00",
+      "summary": "",
+      "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50142772",
+      "title": "How the Fed Is Quietly Inflating the AI Bubble While Hiking Your Electric Bill",
+      "url": "https://www.thebignewsletter.com/p/how-the-federal-reserve-secretly",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50142772",
+        "name": "toomuchtodo",
+        "hn_url": "https://news.ycombinator.com/item?id=50142772"
+      },
+      "duration_sec": null,
+      "views": 27,
+      "comments": 12,
+      "published_at": "2026-10-18T16:48:25+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
       "lang": "en"
