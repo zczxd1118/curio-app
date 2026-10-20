@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-19T08:42:12.832154+00:00",
+  "fetched_at": "2026-10-20T08:23:07.099220+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/building-physical-ai-systems-that-can-work-in-the-real-world/",
+      "title": "Building Physical AI Systems That Can Work in the Real World",
+      "url": "https://www.eetimes.com/building-physical-ai-systems-that-can-work-in-the-real-world/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Dermot O’Driscoll",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T08:00:00+00:00",
+      "summary": "Build scalable physical AI by balancing compute, power, safety, and cost—see why system architecture outperforms raw model size. The post Building Physical AI Systems That Can Work in the Real World appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/precision-timing-special-report/",
+      "title": "Precision Timing Special Report",
+      "url": "https://www.eetimes.com/precision-timing-special-report/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "SiTime, Micro Crystal, Abracon, ECS Inc. International, Kyocera AVX",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T20:30:16+00:00",
+      "summary": "Choose timing with confidence: compare crystals, oscillators, RTCs, MEMS, and atomic references for reliable designs—download the guide. The post Precision Timing Special Report appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/video-interview-applied-materials-ceo-on-the-economics-behind-its-5b-epic-bet/",
+      "title": "Video Interview: Applied Materials CEO on the Economics Behind Its $5B EPIC Bet",
+      "url": "https://www.eetimes.com/video-interview-applied-materials-ceo-on-the-economics-behind-its-5b-epic-bet/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T20:00:00+00:00",
+      "summary": "Following the unveiling of its EPIC Center, Applied Materials revealed strong financial projections. We look at how it all ties together and feature a new video interview with CEO Gary Dickerson. The post Video Interview: Applied Materials CEO on the Economics Behind Its $5B EPIC Bet appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/qualcomm-wins-key-claims-against-arm-but-damages-total-just-2/",
+      "title": "Qualcomm Wins Key Claims Against Arm, but Damages Total Just $2",
+      "url": "https://www.eetimes.com/qualcomm-wins-key-claims-against-arm-but-damages-total-just-2/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T16:13:37+00:00",
+      "summary": "The verdict is the latest chapter in a four-year IP dispute between the two chip giants, safeguarding Qualcomm's custom processors while placing financial pressure on Arm. The post Qualcomm Wins Key Claims Against Arm, but Damages Total Just $2 appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/from-macro-to-micro-and-back/",
       "title": "From Macro to Micro, and Back",
       "url": "https://www.eetimes.com/from-macro-to-micro-and-back/",
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/japan-offers-globalfoundries-21b-for-u-s-fab-expansion/",
-      "title": "Japan Offers GlobalFoundries $21B for U.S. Fab Expansion",
-      "url": "https://www.eetimes.com/japan-offers-globalfoundries-21b-for-u-s-fab-expansion/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-15T19:00:00+00:00",
-      "summary": "Japan’s $21B offer to GlobalFoundries would add two New York fabs and lift U.S. chip capacity 10%; see why analysts warn on state support. The post Japan Offers GlobalFoundries $21B for U.S. Fab Expansion appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/data-orchestration-the-foundation-for-the-next-generation-semiconductor-enterprise/",
-      "title": "Data Orchestration: The Foundation for the Next-generation Semiconductor Enterprise",
-      "url": "https://www.eetimes.com/data-orchestration-the-foundation-for-the-next-generation-semiconductor-enterprise/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Siemens Digital Industries",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-15T14:00:00+00:00",
-      "summary": "Data orchestration gives semiconductor engineering teams a practical way to unify disconnected equipment, systems, and data without replacing existing infrastructure. By creating a connected execution layer across engineering, OT, IT, facilities, and production environments, the solution contextualizes real-time information and converts insights into coordinated action. Engineers can identify root causes faster, anticipate equipment failures, automate [&#8230;] The post Data Orchestration: The F...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/husb237-the-cost-effective-pd-sink-with-just-2-passives/",
-      "title": "HUSB237: The Cost-Effective PD Sink with Just 2 Passives",
-      "url": "https://www.eetimes.com/husb237-the-cost-effective-pd-sink-with-just-2-passives/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Hynetek Semiconductor Co., Ltd.",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-15T13:00:00+00:00",
-      "summary": "Discover Hynetek’s HUSB237, a compact USB-PD sink controller enabling firmware-free USB-C upgrades up to 100W with only two external components. The post HUSB237: The Cost-Effective PD Sink with Just 2 Passives appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/small-volumes-big-impact-europes-hidden-role-in-advanced-chipmaking/",
-      "title": "Small Volumes, Big Impact: Europe’s Hidden Role in Advanced Chipmaking",
-      "url": "https://www.eetimes.com/small-volumes-big-impact-europes-hidden-role-in-advanced-chipmaking/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-15T10:54:08+00:00",
-      "summary": "A Fraunhofer–IMS Nanofabrication partnership illustrates how Europe's low-volume semiconductor manufacturing can support the world's most advanced chipmaking. The post Small Volumes, Big Impact: Europe&#8217;s Hidden Role in Advanced Chipmaking appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50035886",
       "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
       "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
@@ -370,7 +370,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50035886"
       },
       "duration_sec": null,
-      "views": 179,
+      "views": 180,
       "comments": 116,
       "published_at": "2026-10-10T18:48:35+00:00",
       "summary": "",
@@ -408,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50008187"
       },
       "duration_sec": null,
-      "views": 433,
+      "views": 434,
       "comments": 301,
       "published_at": "2026-10-08T16:45:58+00:00",
       "summary": "",

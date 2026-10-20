@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-10-19T08:41:41.329391+00:00",
+  "fetched_at": "2026-10-20T08:22:35.382802+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,7 +13,7 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 0,
-    "HN · Nvidia": 8,
+    "HN · Nvidia": 7,
     "HN · semiconductor": 2,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 60,
+  "total": 59,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/building-physical-ai-systems-that-can-work-in-the-real-world/",
+      "title": "Building Physical AI Systems That Can Work in the Real World",
+      "url": "https://www.eetimes.com/building-physical-ai-systems-that-can-work-in-the-real-world/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Dermot O’Driscoll",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T08:00:00+00:00",
+      "summary": "Build scalable physical AI by balancing compute, power, safety, and cost—see why system architecture outperforms raw model size. The post Building Physical AI Systems That Can Work in the Real World appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/precision-timing-special-report/",
+      "title": "Precision Timing Special Report",
+      "url": "https://www.eetimes.com/precision-timing-special-report/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "SiTime, Micro Crystal, Abracon, ECS Inc. International, Kyocera AVX",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T20:30:16+00:00",
+      "summary": "Choose timing with confidence: compare crystals, oscillators, RTCs, MEMS, and atomic references for reliable designs—download the guide. The post Precision Timing Special Report appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/video-interview-applied-materials-ceo-on-the-economics-behind-its-5b-epic-bet/",
+      "title": "Video Interview: Applied Materials CEO on the Economics Behind Its $5B EPIC Bet",
+      "url": "https://www.eetimes.com/video-interview-applied-materials-ceo-on-the-economics-behind-its-5b-epic-bet/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T20:00:00+00:00",
+      "summary": "Following the unveiling of its EPIC Center, Applied Materials revealed strong financial projections. We look at how it all ties together and feature a new video interview with CEO Gary Dickerson. The post Video Interview: Applied Materials CEO on the Economics Behind Its $5B EPIC Bet appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/qualcomm-wins-key-claims-against-arm-but-damages-total-just-2/",
+      "title": "Qualcomm Wins Key Claims Against Arm, but Damages Total Just $2",
+      "url": "https://www.eetimes.com/qualcomm-wins-key-claims-against-arm-but-damages-total-just-2/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T16:13:37+00:00",
+      "summary": "The verdict is the latest chapter in a four-year IP dispute between the two chip giants, safeguarding Qualcomm's custom processors while placing financial pressure on Arm. The post Qualcomm Wins Key Claims Against Arm, but Damages Total Just $2 appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/from-macro-to-micro-and-back/",
       "title": "From Macro to Micro, and Back",
       "url": "https://www.eetimes.com/from-macro-to-micro-and-back/",
@@ -299,71 +367,190 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/japan-offers-globalfoundries-21b-for-u-s-fab-expansion/",
-      "title": "Japan Offers GlobalFoundries $21B for U.S. Fab Expansion",
-      "url": "https://www.eetimes.com/japan-offers-globalfoundries-21b-for-u-s-fab-expansion/",
+      "id": "rss:https://www.tomshardware.com/pc-components/gpu-drivers/vbios-on-rtx-cards-can-be-modified-without-flashing-thanks-to-a-solo-developers-project-provides-a-ui-for-quick-vbios-configuration",
+      "title": "You can now modify the vBIOS on Nvidia gaming GPUs without flashing thanks to a solo developer’s project",
+      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/vbios-on-rtx-cards-can-be-modified-without-flashing-thanks-to-a-solo-developers-project-provides-a-ui-for-quick-vbios-configuration",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jhet Borja",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-15T19:00:00+00:00",
-      "summary": "Japan’s $21B offer to GlobalFoundries would add two New York fabs and lift U.S. chip capacity 10%; see why analysts warn on state support. The post Japan Offers GlobalFoundries $21B for U.S. Fab Expansion appeared first on EE Times.",
+      "published_at": "2026-10-19T16:30:39+00:00",
+      "summary": "Flashing the VBIOS is risky and can brick a GPU, but this VBIOS configurator uses an Nvidia register key to override VBIOS settings without flashing.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/data-orchestration-the-foundation-for-the-next-generation-semiconductor-enterprise/",
-      "title": "Data Orchestration: The Foundation for the Next-generation Semiconductor Enterprise",
-      "url": "https://www.eetimes.com/data-orchestration-the-foundation-for-the-next-generation-semiconductor-enterprise/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/a-chinese-hacker-used-ai-agents-to-break-into-more-than-100-company-websites-deere-and-sharkninja-among-websites-hit-by-open-source-ai-powered-problem-solving-platform-demo",
+      "title": "A Chinese hacker used AI agents to break into more than 100 company websites",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/a-chinese-hacker-used-ai-agents-to-break-into-more-than-100-company-websites-deere-and-sharkninja-among-websites-hit-by-open-source-ai-powered-problem-solving-platform-demo",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Siemens Digital Industries",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Oliver Haslam",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-15T14:00:00+00:00",
-      "summary": "Data orchestration gives semiconductor engineering teams a practical way to unify disconnected equipment, systems, and data without replacing existing infrastructure. By creating a connected execution layer across engineering, OT, IT, facilities, and production environments, the solution contextualizes real-time information and converts insights into coordinated action. Engineers can identify root causes faster, anticipate equipment failures, automate [&#8230;] The post Data Orchestration: The F...",
+      "published_at": "2026-10-19T15:36:50+00:00",
+      "summary": "A Chinese hacker reportedly used a fleet of AI agents to break into more than 100 company websites, including farm equipment maker Deers and appliance outfit SharkNinja.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/husb237-the-cost-effective-pd-sink-with-just-2-passives/",
-      "title": "HUSB237: The Cost-Effective PD Sink with Just 2 Passives",
-      "url": "https://www.eetimes.com/husb237-the-cost-effective-pd-sink-with-just-2-passives/",
+      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/french-rioters-ransack-esports-team-premises-and-are-seen-looting-ram-sticks-from-pcs-team-vitalitys-v-hive-paris-hq-was-wrecked-during-unrest",
+      "title": "French rioters ransack eSports team premises and are seen looting RAM sticks from PCs",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/french-rioters-ransack-esports-team-premises-and-are-seen-looting-ram-sticks-from-pcs-team-vitalitys-v-hive-paris-hq-was-wrecked-during-unrest",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Hynetek Semiconductor Co., Ltd.",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-15T13:00:00+00:00",
-      "summary": "Discover Hynetek’s HUSB237, a compact USB-PD sink controller enabling firmware-free USB-C upgrades up to 100W with only two external components. The post HUSB237: The Cost-Effective PD Sink with Just 2 Passives appeared first on EE Times.",
+      "published_at": "2026-10-19T13:32:42+00:00",
+      "summary": "Leading French eSports club Team Vitality has confirmed that its Paris HQ has been smashed up, with trophies, computer equipment, and more looted over the weekend.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/small-volumes-big-impact-europes-hidden-role-in-advanced-chipmaking/",
-      "title": "Small Volumes, Big Impact: Europe’s Hidden Role in Advanced Chipmaking",
-      "url": "https://www.eetimes.com/small-volumes-big-impact-europes-hidden-role-in-advanced-chipmaking/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/norwegian-undersea-cable-builder-pitches-2-800-mile-transatlantic-data-link-between-canada-and-europe-to-bypass-the-us-canadian-majority-partner-sought-to-help-fund-and-build-new-usd620-million-fiber-connection-to-reduce-reliance-on-american-routes",
+      "title": "Norwegian undersea cable builder pitches 2,800-mile transatlantic data link between Canada and Europe to bypass the US",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/norwegian-undersea-cable-builder-pitches-2-800-mile-transatlantic-data-link-between-canada-and-europe-to-bypass-the-us-canadian-majority-partner-sought-to-help-fund-and-build-new-usd620-million-fiber-connection-to-reduce-reliance-on-american-routes",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-15T10:54:08+00:00",
-      "summary": "A Fraunhofer–IMS Nanofabrication partnership illustrates how Europe's low-volume semiconductor manufacturing can support the world's most advanced chipmaking. The post Small Volumes, Big Impact: Europe&#8217;s Hidden Role in Advanced Chipmaking appeared first on EE Times.",
+      "published_at": "2026-10-19T12:26:15+00:00",
+      "summary": "Norway's Bulk Infrastructure Group AS is looking for a partner to build transatlantic undersea cabling to connect Canada with Europe to bypass the United States.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/3d-printing/3d-scanning/creality-pika-3d-scanner-review",
+      "title": "Creality Pika 3D scanner review: Good things come in small packages",
+      "url": "https://www.tomshardware.com/3d-printing/3d-scanning/creality-pika-3d-scanner-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Denise Bertacchi",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T12:05:00+00:00",
+      "summary": "The tiny, portable Creality Pika is a joy to use, especially if you have a high end computer or a recent model phone to pair it with.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cryptomining/claude-code-ai-agent-caught-a-crypto-miner-hiding-on-a-developers-overheating-mac-xmrig-task-was-hogging-about-1175-percent-cpu-roughly-12-cores-pushing-temps-to-112-degrees",
+      "title": "Claude Code AI agent caught a crypto miner hiding on a developer’s overheating Mac",
+      "url": "https://www.tomshardware.com/tech-industry/cryptomining/claude-code-ai-agent-caught-a-crypto-miner-hiding-on-a-developers-overheating-mac-xmrig-task-was-hogging-about-1175-percent-cpu-roughly-12-cores-pushing-temps-to-112-degrees",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T11:36:20+00:00",
+      "summary": "A developer using Claude Code to help build a temperature monitor app was warned by the coding agent about a hidden crypto miner running on their system.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/arm-claims-agi-cpu-delivers-double-the-performance-per-rack-of-amd-epyc-9755-in-independent-analysis-new-cpu-evaluation-methodology-developed-by-arm-evaluates-agentic-ai-performance-across-seven-workloads",
+      "title": "Arm says its AGI CPU delivers nearly 2X the performance per rack of AMD EPYC 9755 in new agentic AI CPU tests",
+      "url": "https://www.tomshardware.com/pc-components/cpus/arm-claims-agi-cpu-delivers-double-the-performance-per-rack-of-amd-epyc-9755-in-independent-analysis-new-cpu-evaluation-methodology-developed-by-arm-evaluates-agentic-ai-performance-across-seven-workloads",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T11:00:00+00:00",
+      "summary": "Arm claims its AGI CPU delivers nearly 2X the modeled rack performance of AMD’s EPYC 9755 across seven agentic AI workloads, using a new evaluation methodology developed with Fujitsu, Meta, and OpenAI",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/score-a-budget-gaming-monitor-with-a-blistering-200hz-refresh-rate-for-just-usd79-25-inch-ultragear-g5-reduced-by-a-staggering-47-percent-in-walmart-discount",
+      "title": "Score a budget gaming monitor with a blistering 200Hz refresh rate for just $79",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/score-a-budget-gaming-monitor-with-a-blistering-200hz-refresh-rate-for-just-usd79-25-inch-ultragear-g5-reduced-by-a-staggering-47-percent-in-walmart-discount",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T10:53:38+00:00",
+      "summary": "With 47% off the list price, LG's UltrGear G5 gaming monitor is the perfect impulse purchase at just $79. An IPS panel, a 200Hz refresh rate, and FHD resolution for an unbelievable price.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/maker-stem/engineer-builds-tiny-3d-printed-single-motor-drone-in-their-bedroom-45-degree-hinged-rotor-and-sub-0-2ms-firmware-control-pitch-and-roll",
+      "title": "Engineer builds tiny 3D-printed single-motor drone in their bedroom",
+      "url": "https://www.tomshardware.com/maker-stem/engineer-builds-tiny-3d-printed-single-motor-drone-in-their-bedroom-45-degree-hinged-rotor-and-sub-0-2ms-firmware-control-pitch-and-roll",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T10:30:00+00:00",
+      "summary": "Joshua Bird designed, built, and tested this drone in their home, even resorting to building their own high-speed camera to check their build while spinning at a high speed.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-usd500-on-this-1440p-gaming-pc-with-an-rtx-5070-now-under-usd1-800-abs-flux-ii-aqua-rig-ships-with-a-20-core-intel-cpu-32gb-ddr5-and-a-1tb-ssd",
+      "title": "Save $500 on this 1440p gaming PC with an RTX 5070, now under $1,800",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd500-on-this-1440p-gaming-pc-with-an-rtx-5070-now-under-usd1-800-abs-flux-ii-aqua-rig-ships-with-a-20-core-intel-cpu-32gb-ddr5-and-a-1tb-ssd",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T10:01:38+00:00",
+      "summary": "This Newegg deal on an ABS Flux II Aqua gaming PC gives you a machine ready for 1440p and 4K gameplay for $1,799.99. This pre-built comes with a 20-core Intel Core i7-14700F CPU, an Nvidia GeForce RTX 5070, a 1TB SSD, and 32GB of DDR5 RAM.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/space/russian-military-satellite-closes-from-200-miles-to-3-miles-of-us-radar-satellite-aiding-ukraine-astronomer-says-it-may-be-the-first-unapproved-rendezvous-in-low-earth-orbit",
+      "title": "Russian military satellite closes from 200 miles to 3 miles of US radar craft aiding Ukraine",
+      "url": "https://www.tomshardware.com/tech-industry/space/russian-military-satellite-closes-from-200-miles-to-3-miles-of-us-radar-satellite-aiding-ukraine-astronomer-says-it-may-be-the-first-unapproved-rendezvous-in-low-earth-orbit",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-19T10:00:00+00:00",
+      "summary": "Russia’s Cosmos 2612 moved from more than 200 miles to about three miles from ICEYE-X36, a U.S.-owned radar satellite.",
       "lang": "en"
     },
     {
@@ -690,193 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-insists-the-rtx-5090-isnt-dead-despite-severe-shortages-and-removed-listings-at-multiple-retailers-flagship-gpu-is-missing-from-nvidias-store-and-commands-usd8-500-on-amazon",
-      "title": "Nvidia reportedly insists the RTX 5090 isn't dead despite severe shortages and removed listings at multiple retailers",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-insists-the-rtx-5090-isnt-dead-despite-severe-shortages-and-removed-listings-at-multiple-retailers-flagship-gpu-is-missing-from-nvidias-store-and-commands-usd8-500-on-amazon",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T14:38:18+00:00",
-      "summary": "Nvidia states that RTX 5090 isn't discontinued, only that supply is constrained — and yet the card is effectively gone from storefronts",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/sandisks-512gb-switch-2-ready-microsd-express-card-is-a-steal-for-usd98-during-sale-rare-tech-deal-arrives-to-beat-the-storage-shortage",
-      "title": "Sandisk’s 512GB Switch 2-ready microSD Express card is a steal for $98 during sale",
-      "url": "https://www.tomshardware.com/pc-components/sandisks-512gb-switch-2-ready-microsd-express-card-is-a-steal-for-usd98-during-sale-rare-tech-deal-arrives-to-beat-the-storage-shortage",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T13:39:06+00:00",
-      "summary": "Nintendo Switch 2 owners looking to download more games can take advantage of this deal on SanDisk’s officially licensed microSD Express card, which supports read speeds of up to 880 MB/s and offers 512GB of capacity.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
-      "title": "AI lab offers free plumbing and HVAC repairs across three cities to train AI robots",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T13:21:20+00:00",
-      "summary": "HUMXN wants to pay for maintenance and repair services for homes in Minneapolis, Chicago, and Miami to gather data to train AI models and robots.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-october-17-2026-packaging-roadmaps-chinese-dgx-spark-rival-emerges-and-digging-into-asmls-earnings",
-      "title": "This week on Tom's Hardware Premium: October 17, 2026",
-      "url": "https://www.tomshardware.com/tech-industry/this-week-on-toms-hardware-premium-october-17-2026-packaging-roadmaps-chinese-dgx-spark-rival-emerges-and-digging-into-asmls-earnings",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sayem Ahmed",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T13:00:00+00:00",
-      "summary": "This week, Tom's Hardware Premium subscribers can read our EMIB and Foveros roadmaps, the latest on Chinese competition in the local AI system space, and much more.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/international-measurement-organization-to-retire-leap-seconds-next-year-to-avoid-wreaking-havoc-on-computer-systems-group-makes-move-to-simplify-atomic-time-tracking",
-      "title": "Leap seconds being retired next year to avoid wreaking havoc on computer systems",
-      "url": "https://www.tomshardware.com/tech-industry/international-measurement-organization-to-retire-leap-seconds-next-year-to-avoid-wreaking-havoc-on-computer-systems-group-makes-move-to-simplify-atomic-time-tracking",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T12:40:00+00:00",
-      "summary": "The leap second will be replaced by a leap hour, which will take \"several centuries\" before it must be implemented.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/taiwan-targets-illicit-ai-server-exports-to-china-with-five-year-prison-terms-strict-new-controls-follow-us-tariff-deal-and-super-micro-raid",
-      "title": "Taiwan targets illicit AI server exports to China with five-year prison terms",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/taiwan-targets-illicit-ai-server-exports-to-china-with-five-year-prison-terms-strict-new-controls-follow-us-tariff-deal-and-super-micro-raid",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T12:20:00+00:00",
-      "summary": "Taiwan is expanding the Foreign Trade Act to include AI servers and semiconductors in its list of controlled exports.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-agent-took-eth-from-another-account-without-authorization-justified-stealing-in-its-chain-of-thought",
-      "title": "Crafty OpenAI agent willingly stole crypto from an account it didn't own to complete a task during test",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-agent-took-eth-from-another-account-without-authorization-justified-stealing-in-its-chain-of-thought",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jhet Borja",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T12:00:00+00:00",
-      "summary": "GPT5.6-Sol didn't have funds to deploy smart contracts, so it looked for exposed accounts with enough money to pay for the gas fees.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/game-decompilation-tracker-decomp-dev-shuts-its-public-leaderboard-saying-ai-has-broken-the-community-its-creator-blames-forks-that-use-ai-to-finish-other-teams-projects-and-races-to-ship-rough-pc-ports",
-      "title": "Game decompilation hub freezes leaderboard after AI turns progress into a hollow numbers game amid explosion of 'AI slop'",
-      "url": "https://www.tomshardware.com/video-games/retro-gaming/game-decompilation-tracker-decomp-dev-shuts-its-public-leaderboard-saying-ai-has-broken-the-community-its-creator-blames-forks-that-use-ai-to-finish-other-teams-projects-and-races-to-ship-rough-pc-ports",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T11:30:00+00:00",
-      "summary": "decomp.dev has closed its public index of game decompilation projects, saying AI-driven forks and ports broke the community.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/modder-finishes-nine-year-xbox-360-voltage-glitch-mod-with-a-usd4-microcontroller-cracks-the-console-open-tiny-microcontroller-dumps-nand-and-flashes-timing-files-to-bypass-cpu-cryptography",
-      "title": "Modder finishes nine-year Xbox 360 voltage glitch mod with a $4 microcontroller, cracks the console open",
-      "url": "https://www.tomshardware.com/video-games/retro-gaming/modder-finishes-nine-year-xbox-360-voltage-glitch-mod-with-a-usd4-microcontroller-cracks-the-console-open-tiny-microcontroller-dumps-nand-and-flashes-timing-files-to-bypass-cpu-cryptography",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T11:00:00+00:00",
-      "summary": "Modder glitch-hacks his Xbox 360 with the help of a $4 microcontroller — operation shows the power of the Rasperry Pi Pico",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/us-army-to-use-3d-printed-rocket-motors-for-low-cost-cruise-missiles-additive-manufacturing-company-secures-deal-to-build-rocket-engines-for-the-arsenal-of-freedom",
-      "title": "US Army to use 3D-printed rocket motors for low-cost cruise missiles",
-      "url": "https://www.tomshardware.com/3d-printing/us-army-to-use-3d-printed-rocket-motors-for-low-cost-cruise-missiles-additive-manufacturing-company-secures-deal-to-build-rocket-engines-for-the-arsenal-of-freedom",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T10:30:00+00:00",
-      "summary": "X-Bow Systems has been tapped to 3D-print rocket motors for the U.S. Army's low-cost cruise missiles.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/employee-exclusive-asml-lego-set-now-available-on-rebrickable-custom-creation-modifies-original-version-to-add-more-details-now-requires-810-parts",
-      "title": "ASML's employee-only High-NA EUV Lego kit gets an open 810-piece fan replica",
-      "url": "https://www.tomshardware.com/tech-industry/employee-exclusive-asml-lego-set-now-available-on-rebrickable-custom-creation-modifies-original-version-to-add-more-details-now-requires-810-parts",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T10:00:00+00:00",
-      "summary": "A Lego enthusiast recreated the rare ASML Lego kit, added their own customizations, and shared the plans for free on Rebrickable.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50035886",
       "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
       "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
@@ -888,7 +888,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50035886"
       },
       "duration_sec": null,
-      "views": 179,
+      "views": 180,
       "comments": 116,
       "published_at": "2026-10-10T18:48:35+00:00",
       "summary": "",
@@ -991,25 +991,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49973937",
-      "title": "Nvidia's Olympus Core: Pushing Server Single Threaded Performance Boundaries",
-      "url": "https://chipsandcheese.com/p/nvidias-olympus-core-pushing-server",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49973937",
-        "name": "pella",
-        "hn_url": "https://news.ycombinator.com/item?id=49973937"
-      },
-      "duration_sec": null,
-      "views": 12,
-      "comments": 0,
-      "published_at": "2026-10-06T03:51:00+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:50008187",
       "title": "OpenAI annualised revenues $20B less than previously signalled",
       "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
@@ -1021,7 +1002,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50008187"
       },
       "duration_sec": null,
-      "views": 433,
+      "views": 434,
       "comments": 301,
       "published_at": "2026-10-08T16:45:58+00:00",
       "summary": "",

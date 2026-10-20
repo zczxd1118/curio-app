@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-19T08:42:00.893031+00:00",
+  "fetched_at": "2026-10-20T08:22:54.182304+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,7 +10,7 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 8,
-    "HN · IPO": 8,
+    "HN · IPO": 10,
     "HN · earnings": 1,
     "HN · Federal Reserve": 3,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 40,
+  "total": 42,
   "items": [
     {
       "id": "hn:49997175",
@@ -184,7 +184,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50051583"
       },
       "duration_sec": null,
-      "views": 243,
+      "views": 244,
       "comments": 217,
       "published_at": "2026-10-12T05:03:47+00:00",
       "summary": "",
@@ -225,6 +225,25 @@
       "views": 145,
       "comments": 150,
       "published_at": "2026-09-28T23:40:59+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50151376",
+      "title": "The obscure trust looming over Anthropic's IPO",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50151376",
+        "name": "1vuio0pswjnm7",
+        "hn_url": "https://news.ycombinator.com/item?id=50151376"
+      },
+      "duration_sec": null,
+      "views": 142,
+      "comments": 121,
+      "published_at": "2026-10-19T12:06:03+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -325,6 +344,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50020096",
+      "title": "Ask HN: What if no AIpocalypse, no AI bubble, what if it just keeps advancing?",
+      "url": "https://news.ycombinator.com/item?id=50020096",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50020096",
+        "name": "consumer451",
+        "hn_url": "https://news.ycombinator.com/item?id=50020096"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 33,
+      "published_at": "2026-10-09T13:18:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50008977",
       "title": "Frontier AI models outperform analysts on earnings prediction",
       "url": "https://samaya.ai/blog/frontier-ai-models-outperform-human-experts-on-earnings-prediction",
@@ -374,8 +412,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50142772"
       },
       "duration_sec": null,
-      "views": 27,
-      "comments": 12,
+      "views": 29,
+      "comments": 13,
       "published_at": "2026-10-18T16:48:25+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
