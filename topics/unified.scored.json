@@ -1,234 +1,257 @@
 {
-  "date": "2026-10-20",
-  "intro": "今天最值得盯的信号有两个：一是 AI 资本叙事开始松动——CoreWeave 债券跌入困境区间、Anthropic 估值被传缩水 5000 亿美元、Firmus 的 300 亿 IPO 48 小时崩盘，算力泡沫的融资端先出裂缝；二是大厂在 Agent 安全上集体转向防守，微软直接把 AI Agent 定性为「内部威胁」。对做 Agent 的你，前者决定明年算力成本，后者决定你产品的信任边界。",
+  "date": "2026-10-21",
+  "intro": "今天最值得盯的是两条反向信号：一边是 SpaceX 靠 AI 业务把季度营收推到 146 亿美元、净利 44 亿，另一边是 Anthropic 估值被传缩水 5000 亿、云算力拿不到、IPO 前夜承压。AI 泡沫的分歧已经从口水战变成财报和估值数字，同时 Google 和 Amazon 都在推工具把 PyTorch 应用搬离 Nvidia GPU，算力层的护城河开始被撬。",
   "headlines": [
     {
       "rank": 1,
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "id": "rss:https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
       "source": "TechCrunch",
       "stars": 5,
-      "title": "微软把 AI Agent 定性为「内部威胁」：前沿模型不可信，企业要像防内鬼一样防 Agent",
-      "lead": "微软安全团队公开表态：企业部署的 AI Agent 应被当作 insider threat 来管理，尤其是那些调用非 OpenAI / Anthropic 自控系统的 Agent。这不是学术警告，是给企业采购和架构团队定调。同一天 OpenCode 被黑、用户 API key 被盗刷，正好给这个论点做了注脚。",
+      "title": "SpaceX 季度营收 146 亿美元、净利 44 亿，AI 业务成了增长引擎",
+      "lead": "SpaceX 在 Q3 财报里报出 146 亿美元营收，同比增长 161%，净利 44 亿美元，公司明确把增长归因于 Super Intelligence 业务。同一场电话会上 Musk 还确认 Tesla 与 SpaceX 已各自成立特别委员会评估合并。一家火箭公司靠 AI 赚钱，这件事本身就说明算力与模型的现金流正在从纯 AI 公司外溢。",
       "confirmed": [
-        "微软明确将 AI Agent 类比为内部威胁，要求企业重点监控员工使用的第三方 Agent",
-        "微软给出的理由是「前沿模型不可信」，即无法保证模型行为边界",
-        "同日开源 AI 编程工具 OpenCode 遭入侵，部分用户 API key 被窃并产生盗刷费用",
-        "OpenCode 是 Claude Code / Cursor 的开源替代品，用户群与你的工具链高度重叠"
+        "Q3 营收 146 亿美元，同比 +161%",
+        "季度净利 44 亿美元，公司称 AI 是主要驱动",
+        "Tesla 与 SpaceX 董事会已成立特别委员会评估合并",
+        "Musk 称合并\"有很多合理性\"，本人不在委员会内",
+        "SpaceX 同时宣布下月首次尝试同时回收 Starship 与助推器"
       ],
       "judgment": [
-        "「Agent 即内部威胁」会不会成为企业采购的硬性合规条款，目前只有微软一家在推",
-        "OpenCode 事件的具体攻击面（是平台侧还是 Agent 执行侧）尚未披露，不能直接外推到所有 Agent 框架",
-        "微软此举是否在为自家 Copilot 生态清场，动机存疑",
-        "中小团队是否会因此收紧 Agent 权限，还是继续裸奔，取决于下一两起事故的严重程度"
+        "Super Intelligence 业务的具体构成与客户尚未披露",
+        "AI 收入是否可持续，还是单季大单拉动，无法判断",
+        "合并若成行，监管审查周期可能长达一年以上",
+        "SpaceX 的 AI 算力从哪来、与 xAI 的关系如何，仍是空白"
       ],
-      "implication": "你做 content-curator 这类个人 Agent，现在就该把「最小权限 + API key 隔离」写进 README——不是为了安全，是为了将来能当简历亮点讲。具体做法：给 Agent 单独开一个受限 key，把工具调用白名单化，出事时能一句话说清爆炸半径。这比多接一个 MCP 更能体现工程成熟度。"
+      "implication": "别只把它当航天新闻看。一个非 AI 原生公司用 AI 把营收翻倍，是\"AI 变现\"最硬的样本，值得你拆它的业务结构。如果你在准备简历或面试，这类\"传统公司靠 AI 重估\"的案例比任何模型跑分都更能说明行业阶段。"
     },
     {
       "rank": 2,
       "domain": "金融",
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
-      "source": "The Verge",
+      "id": "hn:50122366",
+      "url": "https://www.telegraph.co.uk/business/2026/10/16/anthropic-valuation-ipo-ai-stock-listing/",
+      "source": "Hacker News / The Telegraph",
       "stars": 5,
-      "title": "CoreWeave 债券跌入困境区间，AI 算力的债务问题正在变成整个行业的问题",
-      "lead": "CoreWeave 的债券收益率比国债高出 1000 个基点以上，按通行定义已进入 distressed 区间。The Verge 的判断是：这不只是一家公司的事，而是整个 AI 基建融资模式的压力测试。叠加同周 Firmus 300 亿美元 IPO 48 小时崩盘、Anthropic 估值被传缩水，融资端的裂缝已经连成线。",
+      "title": "Anthropic 估值被传缩水 5000 亿美元，IPO 前夜云算力还拿不到",
+      "lead": "Telegraph 报道 Anthropic 估值较此前高点回落约 5000 亿美元，同期 TechCrunch 称它在 IPO 前难以从云厂商拿到足够算力——因为这些云厂商越来越把它当竞争对手。9 月底 Reuters 披露的招股书已显示\"宏大 AI 愿景 + 成本飙升\"的组合。估值、算力、上市三件事叠在一起，是本周 AI 资本市场最值得盯的裂缝。",
       "confirmed": [
-        "CoreWeave 债券利差突破 1000bp，进入 distressed territory 的通行定义区间",
-        "CoreWeave 创始人此前已通过 33 亿美元股票减持锁定个人财富",
-        "数据中心公司 Firmus 的 30 亿美元 IPO 在 48 小时内告吹",
-        "有报道称 Anthropic 估值缩水约 5000 亿美元",
-        "10 年期美债收益率一度升破 5.3%，为 24 年未见水平"
+        "Telegraph 报道 Anthropic 估值缩水约 5000 亿美元",
+        "TechCrunch 称其云算力采购受阻，云厂商视其为竞争者",
+        "Reuters 早前披露招股书显示成本大幅上升",
+        "公司计划 11 月推进 IPO",
+        "Eric Schmidt 据报持股约为 Dario Amodei 的一半"
       ],
       "judgment": [
-        "这是泡沫破裂的开始，还是高利率下的正常估值重定价，目前无法区分",
-        "CoreWeave 的债务结构是否会被传导到上游 GPU 采购订单，尚无数据",
-        "Anthropic 估值缩水的消息源是 Telegraph，可信度需打折",
-        "如果算力租赁价格随之下行，对独立开发者反而是利好，但时间窗口不明"
+        "5000 亿缩水是二级市场传闻还是真实融资定价，尚无官方确认",
+        "算力受限会否直接推迟模型迭代节奏，未知",
+        "IPO 是否按期在 11 月落地仍存变数",
+        "云厂商\"既供货又竞争\"的结构性矛盾会持续多久"
       ],
-      "implication": "别急着把「AI 泡沫破裂」当结论转发。对你更实际的含义是：未来 6-12 个月 GPU 租赁和推理 API 价格大概率松动，你做 Agent 项目的成本会降。现在可以开始把「推理成本优化」当成项目的一个可量化指标记下来，等价格下来时你有 baseline 可以对比，这就是简历上「做过成本工程」的证据。"
+      "implication": "这是你判断\"AI 泡沫是否开始泄气\"的关键观测点。建议你把 Anthropic 招股书原文找出来读成本结构那一节——比任何二手评论都清楚。同时留意：如果头部模型公司都拿不到算力，你做的 Agent 项目未来调用成本只会更贵，架构上要预留多模型切换。"
     },
     {
       "rank": 3,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/cryptomining/claude-code-ai-agent-caught-a-crypto-miner-hiding-on-a-developers-overheating-mac-xmrig-task-was-hogging-about-1175-percent-cpu-roughly-12-cores-pushing-temps-to-112-degrees",
-      "url": "https://www.tomshardware.com/tech-industry/cryptomining/claude-code-ai-agent-caught-a-crypto-miner-hiding-on-a-developers-overheating-mac-xmrig-task-was-hogging-about-1175-percent-cpu-roughly-12-cores-pushing-temps-to-112-degrees",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/nvidia-vera-cpu-deployed-at-ai-startup-modal-alongside-existing-x86-fleet-internal-testing-showed-2x-throughput-compared-to-amd-and-intel",
+      "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-vera-cpu-deployed-at-ai-startup-modal-alongside-existing-x86-fleet-internal-testing-showed-2x-throughput-compared-to-amd-and-intel",
       "source": "Tom's Hardware",
       "stars": 4,
-      "title": "Claude Code 顺手抓出一个潜伏在 Mac 上的挖矿木马：xmrig 占用 1175% CPU、温度飙到 112 度",
-      "lead": "一个开发者用 Claude Code 帮忙写温度监控 App，结果 Claude Code 反过来警告他：系统里有个隐藏的 xmrig 挖矿进程在跑，占用约 1175% CPU（约 12 核），把机器温度推到 112 度。这是个罕见的「Agent 作为系统诊断工具」的真实案例，也顺带暴露了 Claude Code 的 system prompt 里对异常进程的敏感度。",
+      "title": "Modal 实测 Nvidia Vera CPU 在 Agent 负载上吞吐是 Intel/AMD 的两倍",
+      "lead": "AI 推理平台 Modal 把 Nvidia 的 Vera CPU 部署进现有 x86 集群，内部测试显示在 AI Agent 类负载上吞吐达到 Intel 和 AMD 芯片的两倍。同一周 Arm 也放出自家 AGI CPU 对比 AMD EPYC 9755 的\"每机架近 2 倍\"数据。CPU 侧针对 Agent 负载的军备竞赛正式开打。",
       "confirmed": [
-        "涉事进程为 xmrig，典型门罗币挖矿程序",
-        "CPU 占用约 1175%，折合约 12 个核心",
-        "机器温度被推到 112 摄氏度",
-        "触发场景是开发者让 Claude Code 协助开发温度监控应用",
-        "Claude Code 主动发出警告，而非用户先发现"
+        "Modal 已在生产环境部署 Nvidia Vera CPU",
+        "内部测试称 Agent 负载吞吐为 Intel/AMD 的 2 倍",
+        "Arm 同期发布 AGI CPU，称每机架性能近 2 倍于 EPYC 9755",
+        "Arm 的评测方法由 Fujitsu、Meta、OpenAI 共同参与制定",
+        "Google 与 Amazon 均在推工具帮 PyTorch 用户迁离 Nvidia GPU"
       ],
       "judgment": [
-        "Claude Code 是靠 system prompt 里的进程检查指令触发，还是模型自发推理，官方未说明",
-        "这类「Agent 当运维」的用法能否稳定复现，取决于 Agent 是否有 shell 执行权限",
-        "xmrig 的植入途径（供应链 / 破解软件 / 恶意 npm 包）未披露",
-        "把这件事当成 Claude Code 的营销案例要谨慎，它也可能只是碰巧"
+        "两倍吞吐的测试条件与基线未完整公开，需谨慎看待",
+        "Agent 负载的基准是否代表真实生产流量，存疑",
+        "Vera CPU 的定价与供货时间未披露",
+        "CPU 侧竞争能否真正削弱 Nvidia 在训练端的地位，为时尚早"
       ],
-      "implication": "这条对你的价值不在挖矿，在于示范了一个可复用的 Agent 用法：给 Agent 系统级只读权限，让它定期巡检进程、端口、启动项。你完全可以在 content-curator 里加一个「环境自检」子 Agent，用 cron 跑，输出异常报告。这个功能写进 README 比任何「10 个 MCP 推荐」都更能体现你懂 Agent 的边界在哪。"
+      "implication": "如果你关心推理成本，这条比模型发布更实用。Agent 类负载（多轮工具调用、长上下文）和传统推理的硬件偏好不同，未来选型不能只看 GPU。做 content-curator 这类项目时，把\"CPU 侧 Agent 负载\"作为一个观察维度记下来，面试时是加分细节。"
     },
     {
       "rank": 4,
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
-      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "id": "rss:https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+      "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
       "source": "TechCrunch",
       "stars": 4,
-      "title": "Amazon 推出 TorchNeuron，正面撬 PyTorch 生态以摆脱 Nvidia 锁定",
-      "lead": "Amazon 发布 TorchNeuron 开发工具，目标是让开发者在 PyTorch 上写的模型能更顺滑地跑在 Trainium 等自研芯片上，而不是默认落到 Nvidia GPU。这是 AWS 对 Nvidia 最直接的一次生态层进攻——不拼单卡性能，拼的是「改一行代码就能换芯片」的迁移成本。",
+      "title": "Figma 联创直言 MCP 不是完美协议，计划同时支持多种标准",
+      "lead": "Figma 联合创始人 Dylan Field 在采访中称 MCP 并非完美协议，公司打算支持尽可能多的标准，同时不把全部数据暴露出去。这是头部产品公司第一次公开给 MCP 泼冷水。对重度玩 MCP 的你来说，这比又一篇\"MCP 教程\"有价值得多——它指向协议层的真实摩擦。",
       "confirmed": [
-        "工具名为 TorchNeuron，定位是 PyTorch 与 AWS 自研芯片之间的适配层",
-        "目标是降低从 Nvidia GPU 迁移到 Trainium 的改造成本",
-        "PyTorch 是当前绝大多数 AI 应用的基础框架",
-        "这是 Amazon 迄今对 Nvidia 生态最直接的一次挑战"
+        "Figma 联创 Dylan Field 公开表示 MCP 不是完美协议",
+        "Figma 计划支持多种标准而非只押 MCP",
+        "公司强调不会通过协议暴露全部数据",
+        "同期 Figma 未公布具体支持哪些替代标准"
       ],
       "judgment": [
-        "TorchNeuron 的实际迁移成本能否做到「改一行」，需要第三方 benchmark 验证",
-        "Trainium 在推理场景的性价比是否真的优于 H100/H200，AWS 未给公开对比",
-        "开发者是否愿意为省成本承担生态风险，历史上 CUDA 的护城河极深",
-        "Nvidia 的回应（可能是 CUDA 侧的工具链优化）尚未出现"
+        "MCP 的具体缺陷（鉴权、粒度、状态管理？）Field 未展开",
+        "Figma 会否自研协议或转向 A2A 等方案，不明",
+        "其他 SaaS 厂商是否跟进\"多标准\"策略，待观察",
+        "MCP 生态的碎片化风险是否被低估"
       ],
-      "implication": "如果你在做 RAG 或推理部署，这条值得记一笔：未来半年「同一份 PyTorch 代码跑两家芯片」会变成面试常问题。你可以在 content-curator 的部署环节留一个抽象层（比如把推理后端做成可替换的 interface），哪怕现在只用一家。面试时讲「我为芯片迁移预留了抽象」，比讲「我会调 API」高一个段位。"
+      "implication": "你在做 Agent 项目时如果深度绑定 MCP，这条是提醒：协议层还没定型。建议把工具接入层做成可替换的抽象，别让 MCP 的 schema 渗进业务代码。这也是一个很好的技术判断素材——\"为什么我不把 MCP 写死\"。"
     },
     {
       "rank": 5,
       "domain": "AI 算力 / 半导体",
-      "id": "hn:49970667",
-      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-      "source": "Hacker News / Vals.ai",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-claims-four-gemini-4-agents-beat-minecraft-in-27-hours-by-writing-2-783-programs-of-their-own-the-ai-team-died-605-times-on-easy-difficulty-and-ran-up-an-estimated-usd520-in-tokens",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-claims-four-gemini-4-agents-beat-minecraft-in-27-hours-by-writing-2-783-programs-of-their-own-the-ai-team-died-605-times-on-easy-difficulty-and-ran-up-an-estimated-usd520-in-tokens",
+      "source": "Tom's Hardware",
       "stars": 4,
-      "title": "Opus 5.5 Agent 自主发现两种室温磁性半导体候选材料",
-      "lead": "Vals.ai 发文称，用 Opus 5.5 驱动的 Agent 在材料筛选任务中自主发现了两组室温磁性半导体候选。这是「Agent 做科研发现」少见的、带具体产出物的案例，而不是又一篇「AI 将改变科学」的综述。HN 上 495 分，讨论集中在可复现性和验证方法。",
+      "title": "DeepMind 四个 Gemini 4 Agent 用 27 小时通关 Minecraft，自己写了 2783 个程序",
+      "lead": "DeepMind 研究者称四个 Gemini 4 Argon Agent 在无人工干预下 27 小时通关 Minecraft，期间自行编写 2783 个程序，死亡 605 次（简单难度），烧掉约 520 美元 token。数字很诚实——包括失败次数和成本。这是多 Agent 协作在长程任务上少见的完整公开数据。",
       "confirmed": [
-        "发现方为 Vals.ai，使用 Opus 5.5 驱动的 Agent 流程",
-        "产出是两种室温磁性半导体候选材料",
-        "HN 讨论热度 495 分，属当日高位",
-        "任务类型是材料筛选 / 候选生成，而非实验验证"
+        "四个 Gemini 4 Argon Agent 协作通关 Minecraft",
+        "耗时 27 小时，全程无人工干预",
+        "Agent 自行编写 2783 个程序",
+        "死亡 605 次，难度为简单",
+        "token 成本约 520 美元"
       ],
       "judgment": [
-        "候选材料是否经实验验证，原文未明确，大概率仍是计算层面",
-        "Agent 在其中承担的是搜索、筛选还是提出假设，分工不清",
-        "「室温磁性半导体」本身是材料学的硬骨头，两个候选的可信度需同行评议",
-        "这类成果的可复现性依赖 prompt 和工具链是否公开"
+        "\"通关\"的判定标准与是否用了模组未说明",
+        "2783 个程序的质量与复用率未知",
+        "简单难度下的成绩能否外推到复杂任务，存疑",
+        "多 Agent 协作的具体分工机制未公开"
       ],
-      "implication": "别被「Agent 发现新材料」的标题带走。对你有用的是它的方法论骨架：把领域知识拆成可执行的筛选步骤，让 Agent 逐步跑，而不是一次性丢给模型。你做 content-curator 的选稿逻辑其实同构——先粗筛再精排。把这条的流程拆解读一遍，对照你自己的 pipeline，能找出至少一个可以拆成子 Agent 的环节。"
+      "implication": "这条的价值在\"失败数据\"：605 次死亡和 520 美元成本，比任何\"Agent 通关游戏\"的标题都更能说明长程 Agent 的真实状态。你做 content-curator 时，可以借鉴它的思路——记录 Agent 的失败次数和 token 成本，作为项目的一个量化指标写进 README。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "Vibe Coding 有哪些高效的做法习惯？",
-      "url": "http://www.bilibili.com/video/av117447894045979",
-      "source": "B站 / AAA话题批发",
-      "one_liner": "讲 Token 消耗爆炸、Agent 找不准代码的工程习惯，不是提示词玄学，契合你的偏好；但发布时间偏近、作者非一线，放备选观察。"
+      "title": "Claude Code 四个阶段",
+      "url": "http://www.bilibili.com/video/av117449504595834",
+      "source": "程序员牛牛学长",
+      "one_liner": "10 月 19 日新发，讲 Claude Code 使用进阶路径，时长偏短、信息密度待验证，先放备选。"
     },
     {
       "domain": "AI",
-      "title": "Agent-native 开发 [08-Raw/26生成式软件工程/NJU]",
-      "url": "http://www.bilibili.com/video/av117432811260250",
-      "source": "B站 / 绿导师原谅你了",
-      "one_liner": "南大课程录像，Agent-native 开发的系统性讲法，密度高于市面教程；缺点是课堂形态、节奏慢，适合周末看。"
+      "title": "DeepSeek V4.1 Flash 接入指南｜六大 Agent 工具一次配好",
+      "url": "http://www.bilibili.com/video/av117459403150912",
+      "source": "跟着小陈玩AI",
+      "one_liner": "实测把 V4.1 Flash 接进 Codex、Claude Code 等七个工具，含配置与避坑，工程细节够但偏工具合集。"
     },
     {
       "domain": "AI",
-      "title": "Claude Code Worktree: 一个人干五个人的活",
-      "url": "http://www.bilibili.com/video/av116390241502827",
-      "source": "B站 / 全栈观察员",
-      "one_liner": "git worktree + Claude Code 并行开发的实战技巧，正是你要的「具体到 commands」；播放量低但内容对口。"
+      "title": "太炸裂了！Claude Code 3.0 彻底杀疯了！",
+      "url": "http://www.bilibili.com/video/av117450007911196",
+      "source": "烟神殿殿主",
+      "one_liner": "搬运翻译海外视频，标题党味重，但 Claude Code 3.0 本身值得留意，等原版信息再深挖。"
     },
     {
       "domain": "AI",
-      "title": "连 json 都不会，进了福布斯团队。面试时才知道 vibe coding 是什么",
-      "url": "http://www.bilibili.com/video/av117436686795057",
-      "source": "B站 / 揽星Celeste",
-      "one_liner": "求职叙事类，标题有流量号味道，但「非科班靠 vibe coding 拿 offer」的路径对你简历叙事有参考价值，谨慎看。"
+      "title": "【实操】claude 稳定不封的方法",
+      "url": "http://www.bilibili.com/video/av117457104672336",
+      "source": "程序员大龙虾",
+      "one_liner": "国内用 Claude 的封号规避实操，实用但偏灰色地带，按需自取。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Arm 称其 AGI CPU 在 agentic AI 测试中每机架性能近 AMD EPYC 9755 的两倍",
-      "url": "https://www.tomshardware.com/pc-components/cpus/arm-claims-agi-cpu-delivers-double-the-performance-per-rack-of-amd-epyc-9755-in-independent-analysis-new-cpu-evaluation-methodology-developed-by-arm-evaluates-agentic-ai-performance-across-seven-workloads",
-      "source": "Tom's Hardware",
-      "one_liner": "首次出现「agentic AI 专用 CPU benchmark」方法论，由 Arm 联合 Fujitsu、Meta、OpenAI 制定；数据是厂商自测，但方法论本身值得关注。"
+      "domain": "AI",
+      "title": "AI 产品经理作品集：Vibe Coding 实操 ChatBI 落地写进简历",
+      "url": "http://www.bilibili.com/video/av117445360618053",
+      "source": "AI产品经理PMGao",
+      "one_liner": "讲企业级 Vibe Coding 落地流程（SDD、Harness、skill 设计），和你做简历项目的诉求直接相关。"
     },
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "OpenAI 年化收入比此前信号低 200 亿美元",
-      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-      "source": "CNBC / HN",
-      "one_liner": "434 分的 HN 热帖，直接冲击算力需求叙事；但发布于 10 月 8 日，已过一周，作为背景而非头条。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "ASML 称 2026 年在欧洲「什么都没卖出去」",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
-      "source": "Tom's Hardware / HN",
-      "one_liner": "半导体设备的地缘集中度信号，欧洲本土需求归零；对理解全球产能布局有用，但离你的日常较远。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia 洽谈收购美国「开放」模型公司 Reflection AI",
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-      "source": "FT / HN",
-      "one_liner": "Nvidia 从卖铲子转向买模型公司，若成真会改变开源模型格局；目前仅为洽谈，信息量有限。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Nvidia 发布新开放模型，面向企业内和 PC 端运行 Agent",
-      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
-      "source": "TechCrunch",
-      "one_liner": "端侧私有 Agent 是明确趋势，Nvidia 亲自下场做开放模型；与你「个人 Agent 项目」方向相关，但细节未展开。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Nscale 与 Anthropic 传洽谈 450 亿美元算力大单",
-      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
-      "source": "TechCrunch",
-      "one_liner": "Anthropic 一年内第 N 个巨型算力协议，与 CoreWeave 债务危机形成对冲叙事；仅「传洽谈」，不宜当事实。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Amazon 出资在印第安纳州前煤电厂建 12 座小型核反应堆",
-      "url": "https://techcrunch.com/2026/10/19/amazon-to-fund-12-small-nuclear-reactors-at-former-indiana-coal-plant/",
-      "source": "TechCrunch",
-      "one_liner": "AI 电力缺口的最直接解法落地，近 1GW 装机；属于产业级信号，但离你的工程日常较远。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Do You Trust Apple?",
-      "url": "https://stratechery.com/2026/do-you-trust-apple/",
-      "source": "Stratechery / Ben Thompson",
-      "one_liner": "Ben Thompson 谈 Apple 的信任资产与 Siri AI 的赌注，深度长文符合你的偏好；但主题偏消费生态，与 Agent 工程弱相关。"
+      "domain": "AI",
+      "title": "开源安卓 AI Agent：RikkaHub Agent Pure 让手机自己操作 App",
+      "url": "http://www.bilibili.com/video/av117394643097499",
+      "source": "补药满减哇",
+      "one_liner": "AGPL 开源，靠无障碍控件树做屏幕自动化而非死坐标脚本，架构思路值得看源码。"
     },
     {
       "domain": "金融",
-      "title": "美国联邦预算赤字一年跳增 12%，逼近 2 万亿美元",
+      "title": "Data center stocks slide as Korea IPO plunges 30%",
+      "url": "https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html",
+      "source": "CNBC / Hacker News",
+      "one_liner": "韩国数据中心 IPO 首日跌 30%，拖累全球数据中心股，是 AI 基建估值松动的又一信号。"
+    },
+    {
+      "domain": "金融",
+      "title": "Anthropic's cloud partnerships are getting messy",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "source": "TechCrunch",
+      "one_liner": "与头条 2 同源但聚焦云合作细节，算力采购与 IPO 时间线的补充材料。"
+    },
+    {
+      "domain": "金融",
+      "title": "US federal budget deficit jumps 12% in one year to nearly $2 Trillion",
       "url": "https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html",
-      "source": "Yahoo Finance / HN",
-      "one_liner": "高利率 + 高赤字是 AI 基建融资收紧的宏观底色，与 CoreWeave 那条互为因果；单看是宏观数据，不单独成头条。"
+      "source": "Yahoo Finance / Hacker News",
+      "one_liner": "美国联邦赤字一年增 12% 至近 2 万亿美元，是 AI 资本开支狂欢的宏观背景板。"
     },
     {
       "domain": "金融",
-      "title": "美国下令所有文职机构移除 DeepSeek，含基于其构建的工具",
-      "url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
-      "source": "HN / madrobot.blog",
-      "one_liner": "DHS 层面的强制移除令，影响开源模型在美政府场景的可用性；对国内开发者是反向信号，值得知道但非今日重点。"
+      "title": "10-year Treasury yield climbs above 5.3%, highest in 24 years",
+      "url": "https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f",
+      "source": "WSJ / Hacker News",
+      "one_liner": "十年期美债收益率破 5.3%，融资成本上升直接压制数据中心与 AI 基建的杠杆故事。"
     },
     {
-      "domain": "金融",
-      "title": "市场抛售与利率上行考验 AI 数据中心交易热潮",
-      "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
-      "source": "Reuters / HN",
-      "one_liner": "路透对算力交易降温的综述，是 CoreWeave 头条的宏观补充；单独看信息密度不如 The Verge 那篇。"
+      "domain": "AI 算力 / 半导体",
+      "title": "China's tech giants drop $35B on Nvidia RTX Pro 5500 orders",
+      "url": "https://www.tomshardware.com/pc-components/gpus/chinas-tech-giants-drop-usd35-billion-on-export-compliant-nvidia-rtx-pro-5500-workstation-gpu-orders-to-power-ai-ambitions-according-to-reports-bytedance-alibaba-and-tencent-order-3-million-cards-despite-warnings-that-only-10-percent-of-orders-are-fulfillable",
+      "source": "Tom's Hardware",
+      "one_liner": "字节、阿里、腾讯下单 35 亿美元合规版 GPU，但据报仅 10% 订单可交付，供需缺口惊人。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "US restarts three shut-down nuclear reactors to feed AI data centers",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/us-takes-unprecedented-step-of-recommissioning-nuclear-plants-due-to-ai-power-demand-2-25-gw-currently-on-tap-from-refurbished-reactors",
+      "source": "Tom's Hardware",
+      "one_liner": "美国重启三座核反应堆供电 AI 数据中心，现有 2.25GW 容量，电力正成为算力瓶颈。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Chris Lattner: AI Code Generation Doesn't Solve Software Engineering",
+      "url": "https://www.eetimes.com/chris-lattner-ai-code-generation-doesnt-solve-software-engineering/",
+      "source": "EE Times",
+      "one_liner": "LLVM 之父谈 AI 生成代码反而让软件生态更难维护，观点稀缺，适合你这种重度 vibe coding 玩家反刍。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Qualcomm Wins Key Claims Against Arm, but Damages Total Just $2",
+      "url": "https://www.eetimes.com/qualcomm-wins-key-claims-against-arm-but-damages-total-just-2/",
+      "source": "EE Times",
+      "one_liner": "高通在四年 IP 诉讼中赢下关键主张，但赔偿仅 2 美元，象征意义大于财务意义。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "US orders federal agencies to remove China's DeepSeek AI from their systems",
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+      "source": "TechCrunch",
+      "one_liner": "美政府要求联邦机构移除 DeepSeek 及基于其技术的第三方服务，国产模型出海再添阻力。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Muse Spark Open, Meta + Apple, Thin and Thick",
+      "url": "https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick/",
+      "source": "Stratechery",
+      "one_liner": "Ben Thompson 分析 Meta 新开源模型与 Apple 合作本地运行，是本周最值得读的深度评论。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "source": "TechCrunch",
+      "one_liner": "Anthropic 推安全法案，表面设门槛实则要求法官批准才能阻止模型发布，立法博弈值得关注。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Meta's Muse hits 10M US downloads in 40 days",
+      "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+      "source": "TechCrunch",
+      "one_liner": "Meta 的 Muse 40 天美国下载破千万，留存率高于 AI 竞品，消费级 AI 格局在变。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-10-20T09:34:01+0000"
+    "scored_at": "2026-10-21T09:00:47+0000"
   }
 }
