@@ -1,65 +1,44 @@
 # Curio · 大厂 AI 动态 · 2026-10-21
 
-> 今日 2 条头条 + 4 条备选
+> 今日 1 条头条 + 4 条备选
 
-_今天最值得盯的是两条反向信号：一边是 SpaceX 靠 AI 业务把季度营收推到 146 亿美元、净利 44 亿，另一边是 Anthropic 估值被传缩水 5000 亿、云算力拿不到、IPO 前夜承压。AI 泡沫的分歧已经从口水战变成财报和估值数字，同时 Google 和 Amazon 都在推工具把 PyTorch 应用搬离 Nvidia GPU，算力层的护城河开始被撬。_
+_今天最值得看的两个信号：一是 AI 资本叙事开始松动——Anthropic 估值据报缩水 5000 亿美元、云算力合作变紧张、数据中心 IPO 接连崩盘，11 月 IPO 前的窗口很窄；二是工程侧的真进展，DeepMind 用四个 Gemini 4 Agent 27 小时通关 Minecraft、自己写了 2783 个程序，Agent 从演示走向可验证的长程任务。前者提醒你别把行业热度当个人判断，后者才是你该动手复现的东西。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. SpaceX 季度营收 146 亿美元、净利 44 亿，AI 业务成了增长引擎
+### 1. Anthropic 的云算力合作开始变味：云厂商既是大客户又是竞争对手，11 月 IPO 前算力缺口难填
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
 
-SpaceX 在 Q3 财报里报出 146 亿美元营收，同比增长 161%，净利 44 亿美元，公司明确把增长归因于 Super Intelligence 业务。同一场电话会上 Musk 还确认 Tesla 与 SpaceX 已各自成立特别委员会评估合并。一家火箭公司靠 AI 赚钱，这件事本身就说明算力与模型的现金流正在从纯 AI 公司外溢。
+TechCrunch 报道 Anthropic 在锁定云算力上遇到结构性麻烦——AWS、Google 这些既是投资方又是模型竞争者，越来越不愿意把稀缺 GPU 优先给它，而基础设施支出在 IPO 前还在膨胀。同期 Telegraph 称其估值较此前高点缩水约 5000 亿美元。这不是一家公司的融资八卦，而是「模型公司必须租算力」这一模式的成本上限开始显形。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Q3 营收 146 亿美元，同比 +161% | Super Intelligence 业务的具体构成与客户尚未披露 |
-| 季度净利 44 亿美元，公司称 AI 是主要驱动 | AI 收入是否可持续，还是单季大单拉动，无法判断 |
-| Tesla 与 SpaceX 董事会已成立特别委员会评估合并 | 合并若成行，监管审查周期可能长达一年以上 |
-| Musk 称合并"有很多合理性"，本人不在委员会内 | SpaceX 的 AI 算力从哪来、与 xAI 的关系如何，仍是空白 |
-| SpaceX 同时宣布下月首次尝试同时回收 Starship 与助推器 |  |
+| Anthropic 正为 11 月计划的 IPO 做准备，基础设施支出在上市前持续放大 | 估值缩水的具体口径（一级市场账面 vs 二级预期）尚不清楚，5000 亿这个数字需要交叉验证 |
+| 多家云厂商同时是 Anthropic 的投资方与模型层竞争者，算力分配优先级下降 | 算力紧张是否会直接推迟其下一代模型发布节奏，目前无官方说法 |
+| Telegraph 报道其估值较此前高点缩水约 5000 亿美元 | 云厂商「既投又竞」的张力是否会演变为排他性协议，尚无证据 |
+| Reuters 早前披露其 IPO 招股书显示成本快速攀升、AI 愿景宏大 | IPO 是否仍按 11 月时间表推进，存在变数 |
+| 数据中心类 IPO 近期接连受挫，Firmus 的 300 亿美元上市计划 48 小时内崩盘 |  |
 
 **📖 主编点评**
 
-别只把它当航天新闻看。一个非 AI 原生公司用 AI 把营收翻倍，是"AI 变现"最硬的样本，值得你拆它的业务结构。如果你在准备简历或面试，这类"传统公司靠 AI 重估"的案例比任何模型跑分都更能说明行业阶段。
+你如果还在把「某模型公司估值多少」当作行业健康度指标，该换指标了——看它能不能稳定拿到算力。对你自己的项目，这条的直接含义是：别把 Agent 的推理链路绑死在单一闭源 API 上，抽象一层 provider 接口，成本与可用性都会更可控。
 
-📺 [打开原文](https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/)
-
----
-
-### 4. Figma 联创直言 MCP 不是完美协议，计划同时支持多种标准
-
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
-
-Figma 联合创始人 Dylan Field 在采访中称 MCP 并非完美协议，公司打算支持尽可能多的标准，同时不把全部数据暴露出去。这是头部产品公司第一次公开给 MCP 泼冷水。对重度玩 MCP 的你来说，这比又一篇"MCP 教程"有价值得多——它指向协议层的真实摩擦。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Figma 联创 Dylan Field 公开表示 MCP 不是完美协议 | MCP 的具体缺陷（鉴权、粒度、状态管理？）Field 未展开 |
-| Figma 计划支持多种标准而非只押 MCP | Figma 会否自研协议或转向 A2A 等方案，不明 |
-| 公司强调不会通过协议暴露全部数据 | 其他 SaaS 厂商是否跟进"多标准"策略，待观察 |
-| 同期 Figma 未公布具体支持哪些替代标准 | MCP 生态的碎片化风险是否被低估 |
-
-**📖 主编点评**
-
-你在做 Agent 项目时如果深度绑定 MCP，这条是提醒：协议层还没定型。建议把工具接入层做成可替换的抽象，别让 MCP 的 schema 渗进业务代码。这也是一个很好的技术判断素材——"为什么我不把 MCP 写死"。
-
-📺 [打开原文](https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/)
+📺 [打开原文](https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/)
 
 ---
 
 ## 📋 备选阅读
 
-- [US orders federal agencies to remove China's DeepSeek AI from their systems](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/) —— 美政府要求联邦机构移除 DeepSeek 及基于其技术的第三方服务，国产模型出海再添阻力。
+- [Meta 的 Muse 40 天在美国拿下 1000 万下载，留存率高于同类 AI 应用](https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/) —— 历史上只有 11 款应用达到过这个速度，且留存更好，说明 Meta 的分发优势在 AI 应用层依然有效。
   _TechCrunch_
-- [Muse Spark Open, Meta + Apple, Thin and Thick](https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick/) —— Ben Thompson 分析 Meta 新开源模型与 Apple 合作本地运行，是本周最值得读的深度评论。
-  _Stratechery_
-- [Anthropic pitches AI safety bill that may block a model if 50+ people could be killed](https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/) —— Anthropic 推安全法案，表面设门槛实则要求法官批准才能阻止模型发布，立法博弈值得关注。
+- [Figma 联合创始人 Dylan Field：MCP 不是一个完美的协议](https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/) —— 你在做 MCP 相关项目，这条是少见的来自大厂产品负责人的批评视角，值得对照自己的实现。
   _TechCrunch_
-- [Meta's Muse hits 10M US downloads in 40 days](https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/) —— Meta 的 Muse 40 天美国下载破千万，留存率高于 AI 竞品，消费级 AI 格局在变。
+- [美国下令联邦文职机构移除 DeepSeek 及其衍生服务](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/) —— 以国家安全为由的行政命令，会直接影响国内模型出海与企业选型的合规边界。
+  _TechCrunch_
+- [Google 加入亚马逊，推出让 PyTorch 应用迁离英伟达 GPU 的开发者工具](https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/) —— 云厂商从开发者工具层撬动 CUDA 生态，是推理成本下降的潜在变量，工程侧值得留意。
   _TechCrunch_
 
 ---

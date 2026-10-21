@@ -2,65 +2,64 @@
 
 > 今日 2 条头条 + 4 条备选
 
-_今天最值得盯的是两条反向信号：一边是 SpaceX 靠 AI 业务把季度营收推到 146 亿美元、净利 44 亿，另一边是 Anthropic 估值被传缩水 5000 亿、云算力拿不到、IPO 前夜承压。AI 泡沫的分歧已经从口水战变成财报和估值数字，同时 Google 和 Amazon 都在推工具把 PyTorch 应用搬离 Nvidia GPU，算力层的护城河开始被撬。_
+_今天最值得看的两个信号：一是 AI 资本叙事开始松动——Anthropic 估值据报缩水 5000 亿美元、云算力合作变紧张、数据中心 IPO 接连崩盘，11 月 IPO 前的窗口很窄；二是工程侧的真进展，DeepMind 用四个 Gemini 4 Agent 27 小时通关 Minecraft、自己写了 2783 个程序，Agent 从演示走向可验证的长程任务。前者提醒你别把行业热度当个人判断，后者才是你该动手复现的东西。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. Modal 实测 Nvidia Vera CPU 在 Agent 负载上吞吐是 Intel/AMD 的两倍
+### 2. DeepMind 称四个 Gemini 4 Agent 用 27 小时通关 Minecraft，自己写了 2783 个程序、死了 605 次、烧掉约 520 美元 token
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-AI 推理平台 Modal 把 Nvidia 的 Vera CPU 部署进现有 x86 集群，内部测试显示在 AI Agent 类负载上吞吐达到 Intel 和 AMD 芯片的两倍。同一周 Arm 也放出自家 AGI CPU 对比 AMD EPYC 9755 的"每机架近 2 倍"数据。CPU 侧针对 Agent 负载的军备竞赛正式开打。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Modal 已在生产环境部署 Nvidia Vera CPU | 两倍吞吐的测试条件与基线未完整公开，需谨慎看待 |
-| 内部测试称 Agent 负载吞吐为 Intel/AMD 的 2 倍 | Agent 负载的基准是否代表真实生产流量，存疑 |
-| Arm 同期发布 AGI CPU，称每机架性能近 2 倍于 EPYC 9755 | Vera CPU 的定价与供货时间未披露 |
-| Arm 的评测方法由 Fujitsu、Meta、OpenAI 共同参与制定 | CPU 侧竞争能否真正削弱 Nvidia 在训练端的地位，为时尚早 |
-| Google 与 Amazon 均在推工具帮 PyTorch 用户迁离 Nvidia GPU |  |
-
-**📖 主编点评**
-
-如果你关心推理成本，这条比模型发布更实用。Agent 类负载（多轮工具调用、长上下文）和传统推理的硬件偏好不同，未来选型不能只看 GPU。做 content-curator 这类项目时，把"CPU 侧 Agent 负载"作为一个观察维度记下来，面试时是加分细节。
-
-📺 [打开原文](https://www.tomshardware.com/pc-components/cpus/nvidia-vera-cpu-deployed-at-ai-startup-modal-alongside-existing-x86-fleet-internal-testing-showed-2x-throughput-compared-to-amd-and-intel)
-
----
-
-### 5. DeepMind 四个 Gemini 4 Agent 用 27 小时通关 Minecraft，自己写了 2783 个程序
-
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
-
-DeepMind 研究者称四个 Gemini 4 Argon Agent 在无人工干预下 27 小时通关 Minecraft，期间自行编写 2783 个程序，死亡 605 次（简单难度），烧掉约 520 美元 token。数字很诚实——包括失败次数和成本。这是多 Agent 协作在长程任务上少见的完整公开数据。
+Google DeepMind 研究者称，四个 Gemini 4 Argon Agent 在无人工干预下 27 小时通关 Minecraft，过程中自行编写了 2783 个程序来扩展能力。代价同样具体：简单难度下死了 605 次，token 成本约 520 美元。这是少见的把「长程自主任务」的成功率、失败次数、成本三件事同时摊开的公开案例。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 四个 Gemini 4 Argon Agent 协作通关 Minecraft | "通关"的判定标准与是否用了模组未说明 |
-| 耗时 27 小时，全程无人工干预 | 2783 个程序的质量与复用率未知 |
-| Agent 自行编写 2783 个程序 | 简单难度下的成绩能否外推到复杂任务，存疑 |
-| 死亡 605 次，难度为简单 | 多 Agent 协作的具体分工机制未公开 |
-| token 成本约 520 美元 |  |
+| 四个 Gemini 4 Argon Agent 协作，27 小时无人工干预通关 Minecraft | 「通关」的判定标准（是否含终局 Boss、是否用种子）未在摘要中说明，复现前不宜直接对比 |
+| Agent 自行编写 2783 个程序作为工具扩展 | 2783 个程序里有多少被复用、多少是一次性脚本，决定了这套方法能否迁移到真实工程 |
+| 简单难度下累计死亡 605 次 | 520 美元成本对研究可接受，对产品化仍偏高，取决于任务价值密度 |
+| 估算 token 消耗约 520 美元 | 多 Agent 分工的具体协议（谁写代码、谁执行、谁验证）尚不明确 |
+| 同期另有 Gemini 4 Argon 在 StarCraft 上的第三方 benchmark 出现 |  |
 
 **📖 主编点评**
 
-这条的价值在"失败数据"：605 次死亡和 520 美元成本，比任何"Agent 通关游戏"的标题都更能说明长程 Agent 的真实状态。你做 content-curator 时，可以借鉴它的思路——记录 Agent 的失败次数和 token 成本，作为项目的一个量化指标写进 README。
+这条对你的 content-curator 项目是直接可抄的范式：让子 Agent 写一次性脚本去扩展能力，而不是把所有逻辑塞进一个 prompt。建议你复现最小版本——两个 Agent、一个写工具一个跑工具、记录失败次数与 token 成本，这套「成功率 + 成本」的记录方式本身就是简历上很硬的一段。
 
 📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-claims-four-gemini-4-agents-beat-minecraft-in-27-hours-by-writing-2-783-programs-of-their-own-the-ai-team-died-605-times-on-easy-difficulty-and-ran-up-an-estimated-usd520-in-tokens)
 
 ---
 
+### 3. Chris Lattner：AI 代码生成解决不了软件工程，反而让维护生态更难
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _EE Times_
+
+LLVM 与 Swift 之父 Chris Lattner 在 EE Times 访谈里给 AI 编程泼了盆冷水：生成低层代码不是瓶颈，真正的难题是构建和维护软件生态，而代码生成正在让这件事变难。在你天天用 Claude Code 的当下，这是少数来自编译器一线、而非产品营销视角的判断。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Chris Lattner 是 LLVM、Clang、Swift 的创造者，现从事 AI 芯片与编译器相关工作 | Lattner 的具体论据链条需读全文，摘要只给了结论 |
+| 其核心论点：代码生成 ≠ 软件工程，生态维护才是真瓶颈 | 「让维护更难」是否可量化（如 PR 体积、review 时长）尚无数据 |
+| 访谈发表于 EE Times，属工程侧深度对话而非产品发布 | 该观点与 vibe coding 主流叙事相左，短期不会被产品方引用 |
+| 同期社区已有大量关于 AI 生成代码增加 review 负担的讨论 |  |
+
+**📖 主编点评**
+
+你正在用 vibe coding 做真实项目，这条正好是反向校准：写出来的代码你自己能不能在两周后读懂、改得动。建议你在 content-curator 里加一条硬规矩——每个 AI 生成的模块必须配一段你自己写的注释说明「为什么这样设计」，这既是工程习惯，也是面试时能讲的东西。
+
+📺 [打开原文](https://www.eetimes.com/chris-lattner-ai-code-generation-doesnt-solve-software-engineering/)
+
+---
+
 ## 📋 备选阅读
 
-- [China's tech giants drop $35B on Nvidia RTX Pro 5500 orders](https://www.tomshardware.com/pc-components/gpus/chinas-tech-giants-drop-usd35-billion-on-export-compliant-nvidia-rtx-pro-5500-workstation-gpu-orders-to-power-ai-ambitions-according-to-reports-bytedance-alibaba-and-tencent-order-3-million-cards-despite-warnings-that-only-10-percent-of-orders-are-fulfillable) —— 字节、阿里、腾讯下单 35 亿美元合规版 GPU，但据报仅 10% 订单可交付，供需缺口惊人。
+- [中国三大厂下单 350 亿美元英伟达 RTX Pro 5500，传仅 10% 订单可交付](https://www.tomshardware.com/pc-components/gpus/chinas-tech-giants-drop-usd35-billion-on-export-compliant-nvidia-rtx-pro-5500-workstation-gpu-orders-to-power-ai-ambitions-according-to-reports-bytedance-alibaba-and-tencent-order-3-million-cards-despite-warnings-that-only-10-percent-of-orders-are-fulfillable) —— 字节、阿里、腾讯合计下单约 300 万张合规版 GPU，需求远超产能，交付率成关键变量。
   _Tom's Hardware_
-- [US restarts three shut-down nuclear reactors to feed AI data centers](https://www.tomshardware.com/tech-industry/big-tech/us-takes-unprecedented-step-of-recommissioning-nuclear-plants-due-to-ai-power-demand-2-25-gw-currently-on-tap-from-refurbished-reactors) —— 美国重启三座核反应堆供电 AI 数据中心，现有 2.25GW 容量，电力正成为算力瓶颈。
+- [美国重启三座核反应堆为 AI 数据中心供电，现有 2.25 GW 装机](https://www.tomshardware.com/tech-industry/big-tech/us-takes-unprecedented-step-of-recommissioning-nuclear-plants-due-to-ai-power-demand-2-25-gw-currently-on-tap-from-refurbished-reactors) —— AI 算力的瓶颈从芯片转向电力，政府出资重启退役机组，是基建层最硬的一条信号。
   _Tom's Hardware_
-- [Chris Lattner: AI Code Generation Doesn't Solve Software Engineering](https://www.eetimes.com/chris-lattner-ai-code-generation-doesnt-solve-software-engineering/) —— LLVM 之父谈 AI 生成代码反而让软件生态更难维护，观点稀缺，适合你这种重度 vibe coding 玩家反刍。
-  _EE Times_
-- [Qualcomm Wins Key Claims Against Arm, but Damages Total Just $2](https://www.eetimes.com/qualcomm-wins-key-claims-against-arm-but-damages-total-just-2/) —— 高通在四年 IP 诉讼中赢下关键主张，但赔偿仅 2 美元，象征意义大于财务意义。
+- [Modal 采用 Nvidia Vera CPU，内部测试吞吐为 Intel/AMD 的两倍](https://www.tomshardware.com/pc-components/cpus/nvidia-vera-cpu-deployed-at-ai-startup-modal-alongside-existing-x86-fleet-internal-testing-showed-2x-throughput-compared-to-amd-and-intel) —— 首个公开的 Vera CPU 生产部署案例，专打 Agent 类负载，值得关注 Arm 在推理侧的位置。
+  _Tom's Hardware_
+- [高通在与 Arm 的诉讼中赢下关键主张，但赔偿总额仅 2 美元](https://www.eetimes.com/qualcomm-wins-key-claims-against-arm-but-damages-total-just-2/) —— 四年 IP 纠纷的最新一章，法律上高通保住自研处理器，财务上几乎无影响，象征意义大于实质。
   _EE Times_
 
 ---

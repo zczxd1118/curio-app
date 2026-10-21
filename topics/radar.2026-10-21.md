@@ -1,123 +1,125 @@
 # Curio 趋势雷达 · 2026-10-21
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 18 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
 
-_今天最值得盯的是两条反向信号：一边是 SpaceX 靠 AI 业务把季度营收推到 146 亿美元、净利 44 亿，另一边是 Anthropic 估值被传缩水 5000 亿、云算力拿不到、IPO 前夜承压。AI 泡沫的分歧已经从口水战变成财报和估值数字，同时 Google 和 Amazon 都在推工具把 PyTorch 应用搬离 Nvidia GPU，算力层的护城河开始被撬。_
+_今天最值得看的两个信号：一是 AI 资本叙事开始松动——Anthropic 估值据报缩水 5000 亿美元、云算力合作变紧张、数据中心 IPO 接连崩盘，11 月 IPO 前的窗口很窄；二是工程侧的真进展，DeepMind 用四个 Gemini 4 Agent 27 小时通关 Minecraft、自己写了 2783 个程序，Agent 从演示走向可验证的长程任务。前者提醒你别把行业热度当个人判断，后者才是你该动手复现的东西。_
 
 ---
 
 ## 🌟 大厂 AI 动态
 
-### 1. SpaceX 季度营收 146 亿美元、净利 44 亿，AI 业务成了增长引擎
+### 1. Anthropic 的云算力合作开始变味：云厂商既是大客户又是竞争对手，11 月 IPO 前算力缺口难填
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
 
-SpaceX 在 Q3 财报里报出 146 亿美元营收，同比增长 161%，净利 44 亿美元，公司明确把增长归因于 Super Intelligence 业务。同一场电话会上 Musk 还确认 Tesla 与 SpaceX 已各自成立特别委员会评估合并。一家火箭公司靠 AI 赚钱，这件事本身就说明算力与模型的现金流正在从纯 AI 公司外溢。
+TechCrunch 报道 Anthropic 在锁定云算力上遇到结构性麻烦——AWS、Google 这些既是投资方又是模型竞争者，越来越不愿意把稀缺 GPU 优先给它，而基础设施支出在 IPO 前还在膨胀。同期 Telegraph 称其估值较此前高点缩水约 5000 亿美元。这不是一家公司的融资八卦，而是「模型公司必须租算力」这一模式的成本上限开始显形。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Q3 营收 146 亿美元，同比 +161% | Super Intelligence 业务的具体构成与客户尚未披露 |
-| 季度净利 44 亿美元，公司称 AI 是主要驱动 | AI 收入是否可持续，还是单季大单拉动，无法判断 |
-| Tesla 与 SpaceX 董事会已成立特别委员会评估合并 | 合并若成行，监管审查周期可能长达一年以上 |
-| Musk 称合并"有很多合理性"，本人不在委员会内 | SpaceX 的 AI 算力从哪来、与 xAI 的关系如何，仍是空白 |
-| SpaceX 同时宣布下月首次尝试同时回收 Starship 与助推器 |  |
+| Anthropic 正为 11 月计划的 IPO 做准备，基础设施支出在上市前持续放大 | 估值缩水的具体口径（一级市场账面 vs 二级预期）尚不清楚，5000 亿这个数字需要交叉验证 |
+| 多家云厂商同时是 Anthropic 的投资方与模型层竞争者，算力分配优先级下降 | 算力紧张是否会直接推迟其下一代模型发布节奏，目前无官方说法 |
+| Telegraph 报道其估值较此前高点缩水约 5000 亿美元 | 云厂商「既投又竞」的张力是否会演变为排他性协议，尚无证据 |
+| Reuters 早前披露其 IPO 招股书显示成本快速攀升、AI 愿景宏大 | IPO 是否仍按 11 月时间表推进，存在变数 |
+| 数据中心类 IPO 近期接连受挫，Firmus 的 300 亿美元上市计划 48 小时内崩盘 |  |
 
 **📖 主编点评**
 
-别只把它当航天新闻看。一个非 AI 原生公司用 AI 把营收翻倍，是"AI 变现"最硬的样本，值得你拆它的业务结构。如果你在准备简历或面试，这类"传统公司靠 AI 重估"的案例比任何模型跑分都更能说明行业阶段。
+你如果还在把「某模型公司估值多少」当作行业健康度指标，该换指标了——看它能不能稳定拿到算力。对你自己的项目，这条的直接含义是：别把 Agent 的推理链路绑死在单一闭源 API 上，抽象一层 provider 接口，成本与可用性都会更可控。
 
-📺 [打开原文](https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/)
-
----
-
-### 4. Figma 联创直言 MCP 不是完美协议，计划同时支持多种标准
-
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
-
-Figma 联合创始人 Dylan Field 在采访中称 MCP 并非完美协议，公司打算支持尽可能多的标准，同时不把全部数据暴露出去。这是头部产品公司第一次公开给 MCP 泼冷水。对重度玩 MCP 的你来说，这比又一篇"MCP 教程"有价值得多——它指向协议层的真实摩擦。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Figma 联创 Dylan Field 公开表示 MCP 不是完美协议 | MCP 的具体缺陷（鉴权、粒度、状态管理？）Field 未展开 |
-| Figma 计划支持多种标准而非只押 MCP | Figma 会否自研协议或转向 A2A 等方案，不明 |
-| 公司强调不会通过协议暴露全部数据 | 其他 SaaS 厂商是否跟进"多标准"策略，待观察 |
-| 同期 Figma 未公布具体支持哪些替代标准 | MCP 生态的碎片化风险是否被低估 |
-
-**📖 主编点评**
-
-你在做 Agent 项目时如果深度绑定 MCP，这条是提醒：协议层还没定型。建议把工具接入层做成可替换的抽象，别让 MCP 的 schema 渗进业务代码。这也是一个很好的技术判断素材——"为什么我不把 MCP 写死"。
-
-📺 [打开原文](https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/)
-
----
-
-## 🌟 金融
-
-### 2. Anthropic 估值被传缩水 5000 亿美元，IPO 前夜云算力还拿不到
-
-**[金融]** · ⭐⭐⭐⭐⭐ · _Hacker News / The Telegraph_
-
-Telegraph 报道 Anthropic 估值较此前高点回落约 5000 亿美元，同期 TechCrunch 称它在 IPO 前难以从云厂商拿到足够算力——因为这些云厂商越来越把它当竞争对手。9 月底 Reuters 披露的招股书已显示"宏大 AI 愿景 + 成本飙升"的组合。估值、算力、上市三件事叠在一起，是本周 AI 资本市场最值得盯的裂缝。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Telegraph 报道 Anthropic 估值缩水约 5000 亿美元 | 5000 亿缩水是二级市场传闻还是真实融资定价，尚无官方确认 |
-| TechCrunch 称其云算力采购受阻，云厂商视其为竞争者 | 算力受限会否直接推迟模型迭代节奏，未知 |
-| Reuters 早前披露招股书显示成本大幅上升 | IPO 是否按期在 11 月落地仍存变数 |
-| 公司计划 11 月推进 IPO | 云厂商"既供货又竞争"的结构性矛盾会持续多久 |
-| Eric Schmidt 据报持股约为 Dario Amodei 的一半 |  |
-
-**📖 主编点评**
-
-这是你判断"AI 泡沫是否开始泄气"的关键观测点。建议你把 Anthropic 招股书原文找出来读成本结构那一节——比任何二手评论都清楚。同时留意：如果头部模型公司都拿不到算力，你做的 Agent 项目未来调用成本只会更贵，架构上要预留多模型切换。
-
-📺 [打开原文](https://www.telegraph.co.uk/business/2026/10/16/anthropic-valuation-ipo-ai-stock-listing/)
+📺 [打开原文](https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/)
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 3. Modal 实测 Nvidia Vera CPU 在 Agent 负载上吞吐是 Intel/AMD 的两倍
+### 2. DeepMind 称四个 Gemini 4 Agent 用 27 小时通关 Minecraft，自己写了 2783 个程序、死了 605 次、烧掉约 520 美元 token
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-AI 推理平台 Modal 把 Nvidia 的 Vera CPU 部署进现有 x86 集群，内部测试显示在 AI Agent 类负载上吞吐达到 Intel 和 AMD 芯片的两倍。同一周 Arm 也放出自家 AGI CPU 对比 AMD EPYC 9755 的"每机架近 2 倍"数据。CPU 侧针对 Agent 负载的军备竞赛正式开打。
+Google DeepMind 研究者称，四个 Gemini 4 Argon Agent 在无人工干预下 27 小时通关 Minecraft，过程中自行编写了 2783 个程序来扩展能力。代价同样具体：简单难度下死了 605 次，token 成本约 520 美元。这是少见的把「长程自主任务」的成功率、失败次数、成本三件事同时摊开的公开案例。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Modal 已在生产环境部署 Nvidia Vera CPU | 两倍吞吐的测试条件与基线未完整公开，需谨慎看待 |
-| 内部测试称 Agent 负载吞吐为 Intel/AMD 的 2 倍 | Agent 负载的基准是否代表真实生产流量，存疑 |
-| Arm 同期发布 AGI CPU，称每机架性能近 2 倍于 EPYC 9755 | Vera CPU 的定价与供货时间未披露 |
-| Arm 的评测方法由 Fujitsu、Meta、OpenAI 共同参与制定 | CPU 侧竞争能否真正削弱 Nvidia 在训练端的地位，为时尚早 |
-| Google 与 Amazon 均在推工具帮 PyTorch 用户迁离 Nvidia GPU |  |
+| 四个 Gemini 4 Argon Agent 协作，27 小时无人工干预通关 Minecraft | 「通关」的判定标准（是否含终局 Boss、是否用种子）未在摘要中说明，复现前不宜直接对比 |
+| Agent 自行编写 2783 个程序作为工具扩展 | 2783 个程序里有多少被复用、多少是一次性脚本，决定了这套方法能否迁移到真实工程 |
+| 简单难度下累计死亡 605 次 | 520 美元成本对研究可接受，对产品化仍偏高，取决于任务价值密度 |
+| 估算 token 消耗约 520 美元 | 多 Agent 分工的具体协议（谁写代码、谁执行、谁验证）尚不明确 |
+| 同期另有 Gemini 4 Argon 在 StarCraft 上的第三方 benchmark 出现 |  |
 
 **📖 主编点评**
 
-如果你关心推理成本，这条比模型发布更实用。Agent 类负载（多轮工具调用、长上下文）和传统推理的硬件偏好不同，未来选型不能只看 GPU。做 content-curator 这类项目时，把"CPU 侧 Agent 负载"作为一个观察维度记下来，面试时是加分细节。
+这条对你的 content-curator 项目是直接可抄的范式：让子 Agent 写一次性脚本去扩展能力，而不是把所有逻辑塞进一个 prompt。建议你复现最小版本——两个 Agent、一个写工具一个跑工具、记录失败次数与 token 成本，这套「成功率 + 成本」的记录方式本身就是简历上很硬的一段。
 
-📺 [打开原文](https://www.tomshardware.com/pc-components/cpus/nvidia-vera-cpu-deployed-at-ai-startup-modal-alongside-existing-x86-fleet-internal-testing-showed-2x-throughput-compared-to-amd-and-intel)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-claims-four-gemini-4-agents-beat-minecraft-in-27-hours-by-writing-2-783-programs-of-their-own-the-ai-team-died-605-times-on-easy-difficulty-and-ran-up-an-estimated-usd520-in-tokens)
 
 ---
 
-### 5. DeepMind 四个 Gemini 4 Agent 用 27 小时通关 Minecraft，自己写了 2783 个程序
+### 3. Chris Lattner：AI 代码生成解决不了软件工程，反而让维护生态更难
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _EE Times_
 
-DeepMind 研究者称四个 Gemini 4 Argon Agent 在无人工干预下 27 小时通关 Minecraft，期间自行编写 2783 个程序，死亡 605 次（简单难度），烧掉约 520 美元 token。数字很诚实——包括失败次数和成本。这是多 Agent 协作在长程任务上少见的完整公开数据。
+LLVM 与 Swift 之父 Chris Lattner 在 EE Times 访谈里给 AI 编程泼了盆冷水：生成低层代码不是瓶颈，真正的难题是构建和维护软件生态，而代码生成正在让这件事变难。在你天天用 Claude Code 的当下，这是少数来自编译器一线、而非产品营销视角的判断。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 四个 Gemini 4 Argon Agent 协作通关 Minecraft | "通关"的判定标准与是否用了模组未说明 |
-| 耗时 27 小时，全程无人工干预 | 2783 个程序的质量与复用率未知 |
-| Agent 自行编写 2783 个程序 | 简单难度下的成绩能否外推到复杂任务，存疑 |
-| 死亡 605 次，难度为简单 | 多 Agent 协作的具体分工机制未公开 |
-| token 成本约 520 美元 |  |
+| Chris Lattner 是 LLVM、Clang、Swift 的创造者，现从事 AI 芯片与编译器相关工作 | Lattner 的具体论据链条需读全文，摘要只给了结论 |
+| 其核心论点：代码生成 ≠ 软件工程，生态维护才是真瓶颈 | 「让维护更难」是否可量化（如 PR 体积、review 时长）尚无数据 |
+| 访谈发表于 EE Times，属工程侧深度对话而非产品发布 | 该观点与 vibe coding 主流叙事相左，短期不会被产品方引用 |
+| 同期社区已有大量关于 AI 生成代码增加 review 负担的讨论 |  |
 
 **📖 主编点评**
 
-这条的价值在"失败数据"：605 次死亡和 520 美元成本，比任何"Agent 通关游戏"的标题都更能说明长程 Agent 的真实状态。你做 content-curator 时，可以借鉴它的思路——记录 Agent 的失败次数和 token 成本，作为项目的一个量化指标写进 README。
+你正在用 vibe coding 做真实项目，这条正好是反向校准：写出来的代码你自己能不能在两周后读懂、改得动。建议你在 content-curator 里加一条硬规矩——每个 AI 生成的模块必须配一段你自己写的注释说明「为什么这样设计」，这既是工程习惯，也是面试时能讲的东西。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-claims-four-gemini-4-agents-beat-minecraft-in-27-hours-by-writing-2-783-programs-of-their-own-the-ai-team-died-605-times-on-easy-difficulty-and-ran-up-an-estimated-usd520-in-tokens)
+📺 [打开原文](https://www.eetimes.com/chris-lattner-ai-code-generation-doesnt-solve-software-engineering/)
+
+---
+
+## 🌟 金融
+
+### 4. 数据中心股集体下挫，韩国一只相关 IPO 首日暴跌 30%，AI 基建估值开始被重新定价
+
+**[金融]** · ⭐⭐⭐⭐ · _CNBC / Hacker News_
+
+CNBC 报道，数据中心板块随韩国一桩相关 IPO 首日跌 30% 而走弱，压制整个科技板块情绪。叠加此前 Firmus 300 亿美元上市计划 48 小时崩盘、CoreWeave 创始人抛售 33 亿美元股票，AI 基建这条最热的资本链正在被市场重新定价。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 韩国一桩数据中心相关 IPO 首日下跌约 30% | 单日跌幅是否代表趋势反转，还是利率冲击下的短期调整，尚需数周观察 |
+| 数据中心板块整体走弱，拖累科技板块情绪 | AI 基建融资成本上升是否会传导到 GPU 采购订单，目前无直接数据 |
+| Firmus 的 300 亿美元 IPO 计划在 48 小时内告吹 | 中国厂商 350 亿美元 RTX Pro 5500 订单能否对冲需求走弱，存疑 |
+| CoreWeave 创始人通过股票出售锁定 33 亿美元 |  |
+| 10 年期美债收益率此前升至 5.3% 上方，为 24 年未见水平 |  |
+
+**📖 主编点评**
+
+你不需要交易，但需要理解这条对就业市场的影响：AI 基建融资收紧，会先影响数据中心、算力调度类岗位的招聘节奏。如果你在考虑搜狗转正或跳槽方向，偏「模型应用层 / Agent 工程」比偏「算力基建」在当前周期更稳。
+
+📺 [打开原文](https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html)
+
+---
+
+## 🌟 AI
+
+### 5. DeepSeek V4.1 Flash 跑分反超旗舰，一条视频把六大 Agent 工具的接入配置全讲清
+
+**[AI]** · ⭐⭐⭐⭐ · _跟着小陈玩AI_
+
+DeepSeek 发布 V4.1 Flash，据称跑分反超一众旗舰模型。这条视频实测把它接进 DeepSeek Harness、WorkBuddy、Kimi Code、小米 MIMO、ZCode、Codex、Claude Code 等工具，给出两种配置方法、模型名怎么填、哪里会踩坑。对国内网络环境下做 Agent 的人来说，这是少见的「配置级」而非「概念级」内容。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| DeepSeek 发布 V4.1 Flash，定位为轻量高速版本 | 「跑分反超旗舰」的具体 benchmark 与对比对象需自行核对，视频口径未必中立 |
+| 视频覆盖 DeepSeek Harness、WorkBuddy、Kimi Code、小米 MIMO、ZCode、Codex、Claude Code 等接入 | 各工具对非官方端点的兼容性会随版本变化，配置可能很快失效 |
+| 给出两种配置方法与模型名填写方式 | V4.1 Flash 在长上下文与工具调用上的稳定性，视频未给系统性数据 |
+| 发布时间为 2026-10-18，属本周新内容 |  |
+| 同期另有视频演示在 VSCode 中把 Claude Code 指向 DeepSeek 端点 |  |
+
+**📖 主编点评**
+
+这条对你最实用：content-curator 如果要做成本控制，把部分子 Agent 的推理切到 Flash 级模型是标准做法。建议你按视频配一遍，然后自己测三个指标——工具调用成功率、单次任务 token 数、超时率，这三个数才是你决定「哪个环节用哪个模型」的依据。
+
+📺 [打开原文](http://www.bilibili.com/video/av117459403150912)
 
 ---
 
@@ -125,51 +127,45 @@ DeepMind 研究者称四个 Gemini 4 Argon Agent 在无人工干预下 27 小时
 
 ### AI
 
-- [Claude Code 四个阶段](http://www.bilibili.com/video/av117449504595834) —— 10 月 19 日新发，讲 Claude Code 使用进阶路径，时长偏短、信息密度待验证，先放备选。
+- [Claude Code 四个阶段](http://www.bilibili.com/video/av117449504595834) —— 10 月 19 日新发，讲 Claude Code 使用能力进阶的四个阶段，短小但时间新，适合快速对照自己处在哪一档。
   _程序员牛牛学长_
-- [DeepSeek V4.1 Flash 接入指南｜六大 Agent 工具一次配好](http://www.bilibili.com/video/av117459403150912) —— 实测把 V4.1 Flash 接进 Codex、Claude Code 等七个工具，含配置与避坑，工程细节够但偏工具合集。
-  _跟着小陈玩AI_
-- [太炸裂了！Claude Code 3.0 彻底杀疯了！](http://www.bilibili.com/video/av117450007911196) —— 搬运翻译海外视频，标题党味重，但 Claude Code 3.0 本身值得留意，等原版信息再深挖。
-  _烟神殿殿主_
-- [【实操】claude 稳定不封的方法](http://www.bilibili.com/video/av117457104672336) —— 国内用 Claude 的封号规避实操，实用但偏灰色地带，按需自取。
-  _程序员大龙虾_
-- [AI 产品经理作品集：Vibe Coding 实操 ChatBI 落地写进简历](http://www.bilibili.com/video/av117445360618053) —— 讲企业级 Vibe Coding 落地流程（SDD、Harness、skill 设计），和你做简历项目的诉求直接相关。
+- [从夯到拉，锐评 32 个 AI 编程工具](http://www.bilibili.com/video/av116578532200786) —— 覆盖 Cursor、Claude Code、Codex、Windsurf、Trae 等 32 款工具的横向实测，信息密度够，但属合集形态，放备选。
+  _程序员鱼皮_
+- [AI 产品经理作品集：Vibe Coding 实操 ChatBI 落地写进简历](http://www.bilibili.com/video/av117445360618053) —— 讲企业级项目如何用 vibe coding 落地，含 SDD 规范、Harness、测试用例、skill 设计，和你把 content-curator 写进简历的诉求高度重合。
   _AI产品经理PMGao_
-- [开源安卓 AI Agent：RikkaHub Agent Pure 让手机自己操作 App](http://www.bilibili.com/video/av117394643097499) —— AGPL 开源，靠无障碍控件树做屏幕自动化而非死坐标脚本，架构思路值得看源码。
+- [开源安卓 AI Agent：RikkaHub Agent Pure 能看懂屏幕并自己操作 App](http://www.bilibili.com/video/av117394643097499) —— AGPL-3.0 开源，用无障碍控件树做屏幕自动化而非死坐标脚本，另有专家团分工机制，值得读源码。
   _补药满减哇_
-
-### 金融
-
-- [Data center stocks slide as Korea IPO plunges 30%](https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html) —— 韩国数据中心 IPO 首日跌 30%，拖累全球数据中心股，是 AI 基建估值松动的又一信号。
-  _CNBC / Hacker News_
-- [Anthropic's cloud partnerships are getting messy](https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/) —— 与头条 2 同源但聚焦云合作细节，算力采购与 IPO 时间线的补充材料。
-  _TechCrunch_
-- [US federal budget deficit jumps 12% in one year to nearly $2 Trillion](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 美国联邦赤字一年增 12% 至近 2 万亿美元，是 AI 资本开支狂欢的宏观背景板。
-  _Yahoo Finance / Hacker News_
-- [10-year Treasury yield climbs above 5.3%, highest in 24 years](https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f) —— 十年期美债收益率破 5.3%，融资成本上升直接压制数据中心与 AI 基建的杠杆故事。
-  _WSJ / Hacker News_
 
 ### AI 算力 / 半导体
 
-- [China's tech giants drop $35B on Nvidia RTX Pro 5500 orders](https://www.tomshardware.com/pc-components/gpus/chinas-tech-giants-drop-usd35-billion-on-export-compliant-nvidia-rtx-pro-5500-workstation-gpu-orders-to-power-ai-ambitions-according-to-reports-bytedance-alibaba-and-tencent-order-3-million-cards-despite-warnings-that-only-10-percent-of-orders-are-fulfillable) —— 字节、阿里、腾讯下单 35 亿美元合规版 GPU，但据报仅 10% 订单可交付，供需缺口惊人。
+- [中国三大厂下单 350 亿美元英伟达 RTX Pro 5500，传仅 10% 订单可交付](https://www.tomshardware.com/pc-components/gpus/chinas-tech-giants-drop-usd35-billion-on-export-compliant-nvidia-rtx-pro-5500-workstation-gpu-orders-to-power-ai-ambitions-according-to-reports-bytedance-alibaba-and-tencent-order-3-million-cards-despite-warnings-that-only-10-percent-of-orders-are-fulfillable) —— 字节、阿里、腾讯合计下单约 300 万张合规版 GPU，需求远超产能，交付率成关键变量。
   _Tom's Hardware_
-- [US restarts three shut-down nuclear reactors to feed AI data centers](https://www.tomshardware.com/tech-industry/big-tech/us-takes-unprecedented-step-of-recommissioning-nuclear-plants-due-to-ai-power-demand-2-25-gw-currently-on-tap-from-refurbished-reactors) —— 美国重启三座核反应堆供电 AI 数据中心，现有 2.25GW 容量，电力正成为算力瓶颈。
+- [美国重启三座核反应堆为 AI 数据中心供电，现有 2.25 GW 装机](https://www.tomshardware.com/tech-industry/big-tech/us-takes-unprecedented-step-of-recommissioning-nuclear-plants-due-to-ai-power-demand-2-25-gw-currently-on-tap-from-refurbished-reactors) —— AI 算力的瓶颈从芯片转向电力，政府出资重启退役机组，是基建层最硬的一条信号。
   _Tom's Hardware_
-- [Chris Lattner: AI Code Generation Doesn't Solve Software Engineering](https://www.eetimes.com/chris-lattner-ai-code-generation-doesnt-solve-software-engineering/) —— LLVM 之父谈 AI 生成代码反而让软件生态更难维护，观点稀缺，适合你这种重度 vibe coding 玩家反刍。
-  _EE Times_
-- [Qualcomm Wins Key Claims Against Arm, but Damages Total Just $2](https://www.eetimes.com/qualcomm-wins-key-claims-against-arm-but-damages-total-just-2/) —— 高通在四年 IP 诉讼中赢下关键主张，但赔偿仅 2 美元，象征意义大于财务意义。
+- [Modal 采用 Nvidia Vera CPU，内部测试吞吐为 Intel/AMD 的两倍](https://www.tomshardware.com/pc-components/cpus/nvidia-vera-cpu-deployed-at-ai-startup-modal-alongside-existing-x86-fleet-internal-testing-showed-2x-throughput-compared-to-amd-and-intel) —— 首个公开的 Vera CPU 生产部署案例，专打 Agent 类负载，值得关注 Arm 在推理侧的位置。
+  _Tom's Hardware_
+- [高通在与 Arm 的诉讼中赢下关键主张，但赔偿总额仅 2 美元](https://www.eetimes.com/qualcomm-wins-key-claims-against-arm-but-damages-total-just-2/) —— 四年 IP 纠纷的最新一章，法律上高通保住自研处理器，财务上几乎无影响，象征意义大于实质。
   _EE Times_
 
 ### 大厂 AI 动态
 
-- [US orders federal agencies to remove China's DeepSeek AI from their systems](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/) —— 美政府要求联邦机构移除 DeepSeek 及基于其技术的第三方服务，国产模型出海再添阻力。
+- [Meta 的 Muse 40 天在美国拿下 1000 万下载，留存率高于同类 AI 应用](https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/) —— 历史上只有 11 款应用达到过这个速度，且留存更好，说明 Meta 的分发优势在 AI 应用层依然有效。
   _TechCrunch_
-- [Muse Spark Open, Meta + Apple, Thin and Thick](https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick/) —— Ben Thompson 分析 Meta 新开源模型与 Apple 合作本地运行，是本周最值得读的深度评论。
-  _Stratechery_
-- [Anthropic pitches AI safety bill that may block a model if 50+ people could be killed](https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/) —— Anthropic 推安全法案，表面设门槛实则要求法官批准才能阻止模型发布，立法博弈值得关注。
+- [Figma 联合创始人 Dylan Field：MCP 不是一个完美的协议](https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/) —— 你在做 MCP 相关项目，这条是少见的来自大厂产品负责人的批评视角，值得对照自己的实现。
   _TechCrunch_
-- [Meta's Muse hits 10M US downloads in 40 days](https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/) —— Meta 的 Muse 40 天美国下载破千万，留存率高于 AI 竞品，消费级 AI 格局在变。
+- [美国下令联邦文职机构移除 DeepSeek 及其衍生服务](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/) —— 以国家安全为由的行政命令，会直接影响国内模型出海与企业选型的合规边界。
   _TechCrunch_
+- [Google 加入亚马逊，推出让 PyTorch 应用迁离英伟达 GPU 的开发者工具](https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/) —— 云厂商从开发者工具层撬动 CUDA 生态，是推理成本下降的潜在变量，工程侧值得留意。
+  _TechCrunch_
+
+### 金融
+
+- [美国联邦预算赤字一年跳增 12%，接近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 赤字与 5.3% 的长端利率叠加，是这轮 AI 基建估值重定价的宏观底色。
+  _Yahoo Finance / Hacker News_
+- [Me and My Agents：把 AI Agent 放进银行财报分析](https://www.netinterest.co/p/me-and-my-agents) —— Marc Rubinstein 用 Agent 跑银行财报的实操记录，是金融场景里少见的「真用」而非「畅想」。
+  _Net Interest_
+- [市场抛售与利率上行开始考验 AI 数据中心交易热潮](https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/) —— 与头条 4 同一主线，Reuters 版本更偏交易层面，可作交叉验证。
+  _Reuters_
 
 ---
 

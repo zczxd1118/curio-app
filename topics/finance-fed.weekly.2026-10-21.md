@@ -1,45 +1,43 @@
 # Curio · 金融 · 2026-10-21
 
-> 今日 1 条头条 + 4 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天最值得盯的是两条反向信号：一边是 SpaceX 靠 AI 业务把季度营收推到 146 亿美元、净利 44 亿，另一边是 Anthropic 估值被传缩水 5000 亿、云算力拿不到、IPO 前夜承压。AI 泡沫的分歧已经从口水战变成财报和估值数字，同时 Google 和 Amazon 都在推工具把 PyTorch 应用搬离 Nvidia GPU，算力层的护城河开始被撬。_
+_今天最值得看的两个信号：一是 AI 资本叙事开始松动——Anthropic 估值据报缩水 5000 亿美元、云算力合作变紧张、数据中心 IPO 接连崩盘，11 月 IPO 前的窗口很窄；二是工程侧的真进展，DeepMind 用四个 Gemini 4 Agent 27 小时通关 Minecraft、自己写了 2783 个程序，Agent 从演示走向可验证的长程任务。前者提醒你别把行业热度当个人判断，后者才是你该动手复现的东西。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. Anthropic 估值被传缩水 5000 亿美元，IPO 前夜云算力还拿不到
+### 4. 数据中心股集体下挫，韩国一只相关 IPO 首日暴跌 30%，AI 基建估值开始被重新定价
 
-**[金融]** · ⭐⭐⭐⭐⭐ · _Hacker News / The Telegraph_
+**[金融]** · ⭐⭐⭐⭐ · _CNBC / Hacker News_
 
-Telegraph 报道 Anthropic 估值较此前高点回落约 5000 亿美元，同期 TechCrunch 称它在 IPO 前难以从云厂商拿到足够算力——因为这些云厂商越来越把它当竞争对手。9 月底 Reuters 披露的招股书已显示"宏大 AI 愿景 + 成本飙升"的组合。估值、算力、上市三件事叠在一起，是本周 AI 资本市场最值得盯的裂缝。
+CNBC 报道，数据中心板块随韩国一桩相关 IPO 首日跌 30% 而走弱，压制整个科技板块情绪。叠加此前 Firmus 300 亿美元上市计划 48 小时崩盘、CoreWeave 创始人抛售 33 亿美元股票，AI 基建这条最热的资本链正在被市场重新定价。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Telegraph 报道 Anthropic 估值缩水约 5000 亿美元 | 5000 亿缩水是二级市场传闻还是真实融资定价，尚无官方确认 |
-| TechCrunch 称其云算力采购受阻，云厂商视其为竞争者 | 算力受限会否直接推迟模型迭代节奏，未知 |
-| Reuters 早前披露招股书显示成本大幅上升 | IPO 是否按期在 11 月落地仍存变数 |
-| 公司计划 11 月推进 IPO | 云厂商"既供货又竞争"的结构性矛盾会持续多久 |
-| Eric Schmidt 据报持股约为 Dario Amodei 的一半 |  |
+| 韩国一桩数据中心相关 IPO 首日下跌约 30% | 单日跌幅是否代表趋势反转，还是利率冲击下的短期调整，尚需数周观察 |
+| 数据中心板块整体走弱，拖累科技板块情绪 | AI 基建融资成本上升是否会传导到 GPU 采购订单，目前无直接数据 |
+| Firmus 的 300 亿美元 IPO 计划在 48 小时内告吹 | 中国厂商 350 亿美元 RTX Pro 5500 订单能否对冲需求走弱，存疑 |
+| CoreWeave 创始人通过股票出售锁定 33 亿美元 |  |
+| 10 年期美债收益率此前升至 5.3% 上方，为 24 年未见水平 |  |
 
 **📖 主编点评**
 
-这是你判断"AI 泡沫是否开始泄气"的关键观测点。建议你把 Anthropic 招股书原文找出来读成本结构那一节——比任何二手评论都清楚。同时留意：如果头部模型公司都拿不到算力，你做的 Agent 项目未来调用成本只会更贵，架构上要预留多模型切换。
+你不需要交易，但需要理解这条对就业市场的影响：AI 基建融资收紧，会先影响数据中心、算力调度类岗位的招聘节奏。如果你在考虑搜狗转正或跳槽方向，偏「模型应用层 / Agent 工程」比偏「算力基建」在当前周期更稳。
 
-📺 [打开原文](https://www.telegraph.co.uk/business/2026/10/16/anthropic-valuation-ipo-ai-stock-listing/)
+📺 [打开原文](https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html)
 
 ---
 
 ## 📋 备选阅读
 
-- [Data center stocks slide as Korea IPO plunges 30%](https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html) —— 韩国数据中心 IPO 首日跌 30%，拖累全球数据中心股，是 AI 基建估值松动的又一信号。
-  _CNBC / Hacker News_
-- [Anthropic's cloud partnerships are getting messy](https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/) —— 与头条 2 同源但聚焦云合作细节，算力采购与 IPO 时间线的补充材料。
-  _TechCrunch_
-- [US federal budget deficit jumps 12% in one year to nearly $2 Trillion](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 美国联邦赤字一年增 12% 至近 2 万亿美元，是 AI 资本开支狂欢的宏观背景板。
+- [美国联邦预算赤字一年跳增 12%，接近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 赤字与 5.3% 的长端利率叠加，是这轮 AI 基建估值重定价的宏观底色。
   _Yahoo Finance / Hacker News_
-- [10-year Treasury yield climbs above 5.3%, highest in 24 years](https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f) —— 十年期美债收益率破 5.3%，融资成本上升直接压制数据中心与 AI 基建的杠杆故事。
-  _WSJ / Hacker News_
+- [Me and My Agents：把 AI Agent 放进银行财报分析](https://www.netinterest.co/p/me-and-my-agents) —— Marc Rubinstein 用 Agent 跑银行财报的实操记录，是金融场景里少见的「真用」而非「畅想」。
+  _Net Interest_
+- [市场抛售与利率上行开始考验 AI 数据中心交易热潮](https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/) —— 与头条 4 同一主线，Reuters 版本更偏交易层面，可作交叉验证。
+  _Reuters_
 
 ---
 
