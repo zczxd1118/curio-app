@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-10-20T08:23:01.838432+00:00",
+  "fetched_at": "2026-10-21T08:26:47.596202+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,16 +11,33 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 0,
+    "arXiv q-fin（量化金融论文）": 17,
     "HN · Federal Reserve": 3,
     "HN · inflation": 1,
     "HN · Tesla": 8,
-    "HN · finance": 12,
-    "HN · fed": 16
+    "HN · finance": 11,
+    "HN · fed": 17
   },
   "subtopics": [],
-  "total": 69,
+  "total": 86,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick/",
+      "title": "Muse Spark Open, Meta + Apple, Thin and Thick",
+      "url": "https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T10:00:00+00:00",
+      "summary": "Meta has a new open source model, and to everyone's surprise, they are are partnering with Apple to make sure you can run it locally.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/do-you-trust-apple/",
       "title": "Do You Trust Apple?",
@@ -172,23 +189,6 @@
       "views": null,
       "published_at": "2026-10-06T10:07:36+00:00",
       "summary": "Games are being decompiled, but the real risk to gaming is new games and increased personalization.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/apple-and-a-hackers-future/",
-      "title": "Apple and a Hacker’s Future",
-      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-05T10:00:00+00:00",
-      "summary": "I was happy for years in Apple's walled garden; with AI, however, their protections feel like limitations.",
       "lang": "en"
     },
     {
@@ -532,6 +532,295 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://arxiv.org/abs/2610.26919",
+      "title": "Dynamic portfolio selection under range value-at-risk with logarithmic returns",
+      "url": "https://arxiv.org/abs/2610.26919",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Hui Mi, Yuzhe Pan, Zuo Quan Xu",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.26919v1 Announce Type: new Abstract: This paper studies continuous-time portfolio selection under Range Value-at-Risk (RVaR), with both portfolio performance and risk evaluated in terms of logarithmic returns. We formulate a mean--RVaR problem in a continuous-time financial market and reduce the dynamic optimization to a static quantile problem. Using quantile representation, Lagrangian optimization, and convexification, we characterize the optimal terminal wealth through the convex e...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.27100",
+      "title": "LOB-Impact Benchmark: Emergent Market Impact in Generative Limit Order Book Models",
+      "url": "https://arxiv.org/abs/2610.27100",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "George Nigmatulin, Valentin Mohl, Sascha Frey, Kang Li, Aramis Marti-Shahandeh, Mihai Cucuringu, Anisoara Calinescu, Jakob Foerster, Stefan Zohren",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.27100v1 Announce Type: new Abstract: Realistic market impact is essential for generative limit order book (LOB) models to serve as world models for trading agents. If a simulator misprices this mechanism, agents learn policies that are optimal in the simulator but wrong in the real market. Existing metrics assess generated streams purely through distributional comparison with historical data, leaving counterfactual response to an agent's own orders largely unexplored. Here, we show th...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.27576",
+      "title": "Who Gains When the Umpire Is a Machine? Evidence from the Automated Ball-Strike System (ABS)",
+      "url": "https://arxiv.org/abs/2610.27576",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Seung Jin Cho, Jun Yeong Lee",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.27576v1 Announce Type: new Abstract: In 2024 the Korea Baseball Organization became the first top-tier league to replace the home-plate umpires ball-strike judgment with an automated system. Using over a million pitches from 2021 to 2026, we separate the change into the removal of human discretion and the imposition of a new zone geometry. The machine eliminated count-dependent calls, the value of catcher framing and a small advantage for star batters, rents worth only a few runs per ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.27751",
+      "title": "Market Regime-Based Multi-Asset Portfolio Optimization Using Nested Clustered Optimization for Tactical Asset Allocation",
+      "url": "https://arxiv.org/abs/2610.27751",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Supriadi, Bambang Siswoyo",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.27751v1 Announce Type: new Abstract: We propose a regime-aware tactical asset allocation (TAA) framework integrating market regime detection with Nested Clustered Optimization (NCO) for multi-asset portfolio construction. The central hypothesis is that incorporating market regime information into the NCO pipeline, specifically at the stages of covariance estimation, hierarchical clustering, and weight optimization, yields portfolios with improved risk-adjusted performance and reduced ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.28071",
+      "title": "Arithmetic Models for Commodity Futures, Vanilla, and Calendar Spread Options",
+      "url": "https://arxiv.org/abs/2610.28071",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Malthe Rauh Johansen, Nina Lange, David Skovmand",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.28071v1 Announce Type: new Abstract: We develop an arithmetic multi-factor stochastic volatility model for commodity futures and options. The arithmetic specification yields a low-dimensional Markovian representation of the futures curve and semi-closed-form pricing formulas for vanilla and basket options, including calendar spread options. These properties make the model suitable for large-scale empirical estimation. We estimate the model using an unscented Kalman filter on a panel o...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.28133",
+      "title": "Occupational Uniqueness and Wage Growth",
+      "url": "https://arxiv.org/abs/2610.28133",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "R. Vestrelli, A. Fronzetti Colladon",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.28133v1 Announce Type: new Abstract: Changes in occupational task content may have different economic implications depending on whether the tasks gained or lost are occupation-specific or already widespread across the economy. Existing measures of occupational task change largely abstract from this distinction, treating occupations as self-contained task bundles rather than accounting for how tasks are distributed across occupations. We develop a framework to measure a distinct dimens...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.27214",
+      "title": "Deep catastrophic-risk-aware reinforcement learning",
+      "url": "https://arxiv.org/abs/2610.27214",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Carlos P\\'erez Octavio Mendoza, Fr\\'ed\\'eric Godin",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.27214v1 Announce Type: cross Abstract: Estimating extreme risk in reinforcement learning becomes increasingly difficult as the confidence level increases, since only a small number of observations contribute to empirical estimates of Conditional Value-at-Risk (CVaR). In this paper, we extend an Extreme Value Theory (EVT) approach for CVaR optimization to high-dimensional neural-network policies. Using a peaks-over-threshold representation and method-of-moments estimation, we obtain a ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.27296",
+      "title": "Stronger artificial intelligence breakthroughs hasten their own exhaustion",
+      "url": "https://arxiv.org/abs/2610.27296",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Beichen Lu, Honglin Bao, Qi Huang, Qingguo Meng, James A. Evans",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.27296v1 Announce Type: cross Abstract: Progress in artificial intelligence is widely assumed to scale with effort: more researchers, papers and investment should accelerate discovery. Theories of technological growth instead locate the difficulty of discovery in the space of ideas. Here we show that neither scale nor space is enough: breakthroughs depend on diverse attention, which collective concentration can deplete. Across 36 years of computer science, we analyze 7.2 million papers...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.27390",
+      "title": "Choose your own adventure: How data source selection shapes urban accessibility analyses",
+      "url": "https://arxiv.org/abs/2610.27390",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Geoff Boeing, Jiyoon Kim, Daniele Simon-Thompson, Jaehyun Ha, Ruoyu Chen",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.27390v1 Announce Type: cross Abstract: Urban park accessibility shapes mental health, physical well-being, and community cohesion. Measuring it is thus central to urban and landscape planning. Although researchers have debated the impacts of different accessibility measures on analysis results, scant attention has been paid to variability from data source selection. Do the results of accessibility analyses vary depending on the dataset used to define park locations and attributes? We ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.28075",
+      "title": "Speculative Imbalance Positions by Non-Physical Traders: Impacts on Electricity System Balancing in Great Britain",
+      "url": "https://arxiv.org/abs/2610.28075",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Joseph Cary, Thomas Morstyn",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.28075v1 Announce Type: cross Abstract: The electricity system in Great Britain (GB) allows participants to deliberately produce or consume a different volume to their traded position and has incentivised this practice with a single imbalance price since 2015. In particular, non-physical traders (NPTs) often take an open position to imbalance without any intention to produce or consume power. However, new government proposals could restrict this practice due to concerns over supply-dem...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.28154",
+      "title": "Digital Nudge Effects in Optimal Stopping Games: Antagonistic Interactions in Layered Choice Architectures",
+      "url": "https://arxiv.org/abs/2610.28154",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Batisse Manhardt, Ja-Nae Duane",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.28154v1 Announce Type: cross Abstract: Digital nudges have become a prominent area of research in human-centered interaction, yet little is known about how they interact when deployed together. This study examines the individual and combined effects of anchoring, salience, and social proof digital nudges on stopping behavior and outcome quality in a sequential decision task. Using a 2^3 between-subjects factorial design grounded in the secretary problem (N = 181), we find that (1) an ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/1809.05643",
+      "title": "Kernel-based collocation methods for Heath-Jarrow-Morton models with Musiela parametrization",
+      "url": "https://arxiv.org/abs/1809.05643",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Yuki Kinoshita, Yumiharu Nakano",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:1809.05643v5 Announce Type: replace Abstract: We study kernel-based collocation methods for numerical solutions of Heath-Jarrow-Morton models in Musiela parametrization. The methods are Euler-Maruyama approximations of finite-dimensional stochastic differential equations and can be used with standard Monte Carlo procedures for derivative pricing. We give a conditional mean-square error estimate under explicit stability assumptions on the differentiated cardinal basis over the full evaluati...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2608.06584",
+      "title": "Two Types of Tertiarization: Household Demand, Production Networks, and the Rise of Services",
+      "url": "https://arxiv.org/abs/2608.06584",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Li Gan",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2608.06584v2 Announce Type: replace Abstract: I measure whether the rise of services is ultimately supported by household consumption or by non-household demand through production networks, investment, exports, and government. Using harmonized input-output tables for 76 economies over 1995-2022, I attribute service value added to its ultimate domestic final-demand category and measure the household orientation of each service economy in both levels and growth. The conventional service shar...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2608.07819",
+      "title": "The friendship paradox: Causal evidence of its behavioral consequences",
+      "url": "https://arxiv.org/abs/2608.07819",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Gary Charness, Francesco Feri, Matthew O. Jackson, Miguel A. Melendez-Jimenez, Matthias Sutter",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2608.07819v2 Announce Type: replace Abstract: We provide a first causal analysis of the behavioral consequences of the friendship paradox-the fact that people's friends in a network have more connections than average. We find that people's behavior is biased by their network position: they do not best respond to what they should infer the average behavior of the population to be (which determines their payoff), but instead best respond to the average behavior of their friends. In these gam...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.25802",
+      "title": "Amortized Neural Filtering for Calibrated Posteriors in Statistical Arbitrage",
+      "url": "https://arxiv.org/abs/2610.25802",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Minkey Chang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2610.25802v2 Announce Type: replace Abstract: Statistical arbitrage trades on an estimate of the state of a residual spread, and conventional practice discards the uncertainty of that estimate. We keep the uncertainty and use it in the trading decision. A Neural Filter Estimator (NFE) is trained on simulated paths of a mean-reverting process whose innovation law is selected by testing candidates against real residuals; once trained, it returns the posterior over the latent state of every s...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2412.16655",
+      "title": "Direct Inversion for Chi-Square Sampling, the Squared Bessel Process, and Applications",
+      "url": "https://arxiv.org/abs/2412.16655",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Simon J. A. Malham, Anke Wiese, Yifan Xu",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2412.16655v2 Announce Type: replace-cross Abstract: In this paper we derive a new direct inversion method to simulate squared Bessel processes. Since the transition probability of these processes can be represented by a non-central chi-square distribution, we construct an efficient and accurate algorithm to simulate non-central chi-square variables. In this method, the dimension of the squared Bessel process, equivalently the degrees of freedom of the chi-square distribution, is treated as...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.07898",
+      "title": "Disclosure under Noisy Information Processing",
+      "url": "https://arxiv.org/abs/2609.07898",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Jeremy Bertomeu, Edwige Cheynel, Peicong Hu",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T04:00:00+00:00",
+      "summary": "arXiv:2609.07898v2 Announce Type: replace-cross Abstract: Capital markets process disclosures with noise. Adding this single friction overturns the standard characterization of costly voluntary disclosure. Firms may unravel to full disclosure despite strictly positive disclosure costs and, when unravelling fails, the model generically admits two equilibria rather than one. In the lower-threshold equilibrium, disclosure becomes more frequent as the cost rises and as reports become more accurate, ...",
+      "lang": "en"
+    },
+    {
       "id": "hn:50082283",
       "title": "US Says Chinese Hackers Attacked DOJ, NASA, Federal Reserve, Senate",
       "url": "https://www.usatoday.com/story/news/politics/2026/08/26/chinese-hackers-cyberattack-us-government/91473585007/",
@@ -619,8 +908,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50112657"
       },
       "duration_sec": null,
-      "views": 1641,
-      "comments": 3138,
+      "views": 1642,
+      "comments": 3152,
       "published_at": "2026-10-16T01:32:45+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -657,7 +946,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50141295"
       },
       "duration_sec": null,
-      "views": 120,
+      "views": 121,
       "comments": 148,
       "published_at": "2026-10-18T14:16:41+00:00",
       "summary": "",
@@ -836,25 +1125,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49778029",
-      "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
-      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49778029",
-        "name": "giuliomagnifico",
-        "hn_url": "https://news.ycombinator.com/item?id=49778029"
-      },
-      "duration_sec": null,
-      "views": 562,
-      "comments": 458,
-      "published_at": "2026-09-20T17:38:50+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
       "id": "hn:50131440",
       "title": "US federal budget deficit jumps 12% in one year to nearly $2 Trillion",
       "url": "https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html",
@@ -866,8 +1136,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50131440"
       },
       "duration_sec": null,
-      "views": 203,
-      "comments": 202,
+      "views": 206,
+      "comments": 203,
       "published_at": "2026-10-17T14:22:05+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -988,6 +1258,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50154244",
+      "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50154244",
+        "name": "cmrdporcupine",
+        "hn_url": "https://news.ycombinator.com/item?id=50154244"
+      },
+      "duration_sec": null,
+      "views": 565,
+      "comments": 516,
+      "published_at": "2026-10-19T16:16:46+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
       "id": "hn:49948254",
       "title": "Federal judge calls Flock 'indiscriminate mass surveillance'",
       "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/",
@@ -1064,25 +1353,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50154244",
-      "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
-      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50154244",
-        "name": "cmrdporcupine",
-        "hn_url": "https://news.ycombinator.com/item?id=50154244"
-      },
-      "duration_sec": null,
-      "views": 212,
-      "comments": 171,
-      "published_at": "2026-10-19T16:16:46+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
       "id": "hn:50059446",
       "title": "Feds got warrants to use fake cell towers to hunt down Don Lemon's producer",
       "url": "https://www.wired.com/story/feds-got-warrants-to-use-fake-cell-towers-to-hunt-down-don-lemons-producer/",
@@ -1097,6 +1367,25 @@
       "views": 196,
       "comments": 106,
       "published_at": "2026-10-12T17:08:16+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50173487",
+      "title": "Feds suspect ransom negotiator ran ShinyHunters extortion site",
+      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50173487",
+        "name": "Bender",
+        "hn_url": "https://news.ycombinator.com/item?id=50173487"
+      },
+      "duration_sec": null,
+      "views": 188,
+      "comments": 80,
+      "published_at": "2026-10-20T22:21:05+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
@@ -1159,6 +1448,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50161207",
+      "title": "U.S. Supreme Court to review 1868 federal ban on home distilling of liquor",
+      "url": "https://www.staradvertiser.com/2026/10/19/breaking-news/u-s-supreme-court-to-review-1868-federal-ban-on-home-distilling-of-liquor/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50161207",
+        "name": "Jimmc414",
+        "hn_url": "https://news.ycombinator.com/item?id=50161207"
+      },
+      "duration_sec": null,
+      "views": 67,
+      "comments": 110,
+      "published_at": "2026-10-20T04:02:26+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
       "id": "hn:49938815",
       "title": "Federal Judge Rules a Flock Search Was Unconstitutional",
       "url": "https://www.404media.co/federal-judge-rules-a-flock-search-was-indiscriminate-mass-surveillance-and-unconstitutional/",
@@ -1173,25 +1481,6 @@
       "views": 55,
       "comments": 7,
       "published_at": "2026-10-02T21:28:59+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50161207",
-      "title": "U.S. Supreme Court to review 1868 federal ban on home distilling of liquor",
-      "url": "https://www.staradvertiser.com/2026/10/19/breaking-news/u-s-supreme-court-to-review-1868-federal-ban-on-home-distilling-of-liquor/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50161207",
-        "name": "Jimmc414",
-        "hn_url": "https://news.ycombinator.com/item?id=50161207"
-      },
-      "duration_sec": null,
-      "views": 52,
-      "comments": 70,
-      "published_at": "2026-10-20T04:02:26+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
@@ -1266,7 +1555,7 @@
       },
       "duration_sec": null,
       "views": 45,
-      "comments": 23,
+      "comments": 24,
       "published_at": "2026-10-12T19:56:16+00:00",
       "summary": "",
       "matched_keyword": "fed",

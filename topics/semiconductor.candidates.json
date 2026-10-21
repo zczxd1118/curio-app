@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-10-20T08:22:35.382802+00:00",
+  "fetched_at": "2026-10-21T08:26:20.699675+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -197,6 +197,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/edge-ai-mcu-features-multimodal-compute-tiered-memory/",
+      "title": "Edge AI MCU Features Multimodal Compute, Tiered Memory",
+      "url": "https://www.eetimes.com/edge-ai-mcu-features-multimodal-compute-tiered-memory/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T07:30:00+00:00",
+      "summary": "A new MCU combines AI-native acceleration with integrated high-bandwidth DRAM scalable to hundreds of megabytes. The post Edge AI MCU Features Multimodal Compute, Tiered Memory appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/innovasea-packs-long-life-electronics-into-fish-tags/",
+      "title": "Innovasea Packs Long-Life Electronics into Fish Tags",
+      "url": "https://www.eetimes.com/innovasea-packs-long-life-electronics-into-fish-tags/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T22:06:10+00:00",
+      "summary": "A company on Canada’s east coast is pushing acoustic telemetry toward lighter payloads and decade-scale deployments by treating energy, sensing, and animal welfare as a single systems problem. The post Innovasea Packs Long-Life Electronics into Fish Tags appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/chris-lattner-ai-code-generation-doesnt-solve-software-engineering/",
+      "title": "Chris Lattner: AI Code Generation Doesn’t Solve Software Engineering",
+      "url": "https://www.eetimes.com/chris-lattner-ai-code-generation-doesnt-solve-software-engineering/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T11:00:00+00:00",
+      "summary": "AI can generate low-level code, but code generation is also making it harder to build and maintain the software ecosystems we need. The post Chris Lattner: AI Code Generation Doesn&#8217;t Solve Software Engineering appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/how-singapore-connects-chip-research-startups-and-manufacturing/",
+      "title": "How Singapore Connects Chip Research, Startups, and Manufacturing",
+      "url": "https://www.eetimes.com/how-singapore-connects-chip-research-startups-and-manufacturing/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Susan Hong",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T10:55:00+00:00",
+      "summary": "From SiC power devices to silicon photonics, Singapore is building the infrastructure and industrial partnerships needed to bring deep-tech research to market. The post How Singapore Connects Chip Research, Startups, and Manufacturing appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/building-physical-ai-systems-that-can-work-in-the-real-world/",
       "title": "Building Physical AI Systems That Can Work in the Real World",
       "url": "https://www.eetimes.com/building-physical-ai-systems-that-can-work-in-the-real-world/",
@@ -299,71 +367,326 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/data-center-power-a-prominent-highlight-of-ocp-2026/",
-      "title": "Data Center Power a Prominent Highlight of OCP 2026",
-      "url": "https://www.eetimes.com/data-center-power-a-prominent-highlight-of-ocp-2026/",
+      "id": "rss:https://www.tomshardware.com/pc-components/gpu-drivers/amds-fsr-4-1-now-works-on-radeon-rx-6000-gpus-xbox-series-x-and-s-and-ryzen-ai-max-ai-9-and-z2-socs-new-release-brings-cutting-edge-tech-to-older-hardware-with-a-small-performance-cost",
+      "title": "AMD's FSR 4.1 now works on Radeon RX 6000 cards, Xbox Series X and S, and Ryzen AI Max, AI 9, and Z2 SoCs",
+      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/amds-fsr-4-1-now-works-on-radeon-rx-6000-gpus-xbox-series-x-and-s-and-ryzen-ai-max-ai-9-and-z2-socs-new-release-brings-cutting-edge-tech-to-older-hardware-with-a-small-performance-cost",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-16T15:00:00+00:00",
-      "summary": "The OCP Summit showcased power delivery boards, PSU designs, hot-swap controllers, and event-based telemetry. The post Data Center Power a Prominent Highlight of OCP 2026 appeared first on EE Times.",
+      "published_at": "2026-10-20T17:47:35+00:00",
+      "summary": "AMD has released a version of its cutting-edge FSR 4.1 upscaler that now works on Radeon RX 6000 GPUs, Xbox Series X and Series S consoles, and Ryzen AI Max, AI 9, and Z2 chips.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/taiwans-ai-ambitions-run-into-talent-gap/",
-      "title": "Taiwan’s AI Ambitions Run into Talent Gap",
-      "url": "https://www.eetimes.com/taiwans-ai-ambitions-run-into-talent-gap/",
+      "id": "rss:https://www.tomshardware.com/networking/routers/tp-link-proposes-usd1-billion-us-wi-fi-router-manufacturing-alliance-with-key-tronic-potential-deal-seeks-to-end-ongoing-saga-blocking-its-wi-fi-8-products-from-american-homes",
+      "title": "TP-Link proposes $1 billion US Wi-Fi router manufacturing alliance with Key Tronic",
+      "url": "https://www.tomshardware.com/networking/routers/tp-link-proposes-usd1-billion-us-wi-fi-router-manufacturing-alliance-with-key-tronic-potential-deal-seeks-to-end-ongoing-saga-blocking-its-wi-fi-8-products-from-american-homes",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Brandon Hill",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-16T10:55:42+00:00",
-      "summary": "AMD’s David Wang told EE Times that while Taiwan has huge opportunities in rack-scale AI, physical AI, and AI PC markets, the sticking point may well be talent. The post Taiwan’s AI Ambitions Run into Talent Gap appeared first on EE Times.",
+      "published_at": "2026-10-20T16:25:55+00:00",
+      "summary": "TP-Link is at the mercy of the FCC regarding its ready-to-go Wi-Fi 8 routers, so it has a sweetener in mind to move things along.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/your-chip-works-prove-it-is-secure/",
-      "title": "Your Chip Works. Prove It Is Secure.",
-      "url": "https://www.eetimes.com/your-chip-works-prove-it-is-secure/",
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/mysterious-amd-zen-6-apu-with-24gb-of-lpddr5-memory-appears-in-benchmarks-chip-may-be-for-next-gen-steam-deck-or-gaming-handhelds",
+      "title": "Mysterious AMD Zen 6 APU with 24GB of LPDDR5 memory appears in benchmarks",
+      "url": "https://www.tomshardware.com/pc-components/cpus/mysterious-amd-zen-6-apu-with-24gb-of-lpddr5-memory-appears-in-benchmarks-chip-may-be-for-next-gen-steam-deck-or-gaming-handhelds",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Arteris",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-16T08:37:49+00:00",
-      "summary": "Join this 30-Minute BitCast as our expert demonstrates how information flow tracking follows security-sensitive assets during existing simulation or emulation runs. The post Your Chip Works. Prove It Is Secure. appeared first on EE Times.",
+      "published_at": "2026-10-20T13:59:43+00:00",
+      "summary": "The engineering sample features six CPU cores, 24GB of LPDDR5 memory running at 9,600 MT/s, and an integrated GPU clocked at 2.4 GHz, although its connection to a future Steam Deck remains unconfirmed.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/ai-moves-to-system-level-co-design-how-can-taiwan-capture-more-value/",
-      "title": "AI Moves to System-Level Co-Design: How Can Taiwan Capture More Value",
-      "url": "https://www.eetimes.com/ai-moves-to-system-level-co-design-how-can-taiwan-capture-more-value/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/us-army-reportedly-developing-program-that-would-deploy-ai-agents-to-autonomously-seek-and-destroy-targets-in-enemy-digital-infrastructures-experts-warn-echotribble-program-could-have-disastrous-consequences",
+      "title": "U.S. Army developing program that would deploy AI agents to autonomously seek and destroy targets in enemy digital infrastructures",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-army-reportedly-developing-program-that-would-deploy-ai-agents-to-autonomously-seek-and-destroy-targets-in-enemy-digital-infrastructures-experts-warn-echotribble-program-could-have-disastrous-consequences",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Susan Hong",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-16T07:18:34+00:00",
-      "summary": "During a panel session at iTechCon 2026, discussions explored how Taiwan can build on its strengths in semiconductors, advanced packaging, and system design to support AI development. The post AI Moves to System-Level Co-Design: How Can Taiwan Capture More Value appeared first on EE Times.",
+      "published_at": "2026-10-20T13:30:00+00:00",
+      "summary": "The U.S. Army is developing a program to deploy autonomous AI agents that can navigate digital and network infrastructures, identify targets, and “neutralize” them.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/us-takes-unprecedented-step-of-recommissioning-nuclear-plants-due-to-ai-power-demand-2-25-gw-currently-on-tap-from-refurbished-reactors",
+      "title": "US restarts three shut-down nuclear reactors to feed AI data centers",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/us-takes-unprecedented-step-of-recommissioning-nuclear-plants-due-to-ai-power-demand-2-25-gw-currently-on-tap-from-refurbished-reactors",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T12:50:00+00:00",
+      "summary": "The U.S. government is helping fund projects to bring nuclear reactors back online in an attempt to provide more energy capacity to AI data centers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/oblivion-gamer-uses-claude-ai-to-boost-average-fps-gains-up-to-48-percent-stutters-slashed-by-90-percent-performance-mod-doesnt-change-game-assets-or-alter-visuals",
+      "title": "Oblivion gamer uses Claude AI to boost average FPS gains up to 48%, stutters slashed by 90%",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/oblivion-gamer-uses-claude-ai-to-boost-average-fps-gains-up-to-48-percent-stutters-slashed-by-90-percent-performance-mod-doesnt-change-game-assets-or-alter-visuals",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zak Killian",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T12:30:00+00:00",
+      "summary": "The new Oblivion Remastered Performance Fix mod is a pure code fix, with no changes to game assets or the game's visuals, yet it offers massive gains.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/buy-a-complete-rtx-5070-ti-gaming-pc-from-newegg-and-save-usd450-get-a-16gb-gpu-32gb-of-ram-an-i9-14900kf-processor-a-2tb-ssd-and-more-for-only-usd2-549",
+      "title": "Buy a complete RTX 5070 Ti gaming PC from Newegg and save $450",
+      "url": "https://www.tomshardware.com/pc-components/buy-a-complete-rtx-5070-ti-gaming-pc-from-newegg-and-save-usd450-get-a-16gb-gpu-32gb-of-ram-an-i9-14900kf-processor-a-2tb-ssd-and-more-for-only-usd2-549",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T12:15:38+00:00",
+      "summary": "Save $450 on Newegg’s ABS Stratos II Aqua prebuilt – open the box and start gaming tomorrow saving the trouble of building and supporting your own",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/chinas-tech-giants-drop-usd35-billion-on-export-compliant-nvidia-rtx-pro-5500-workstation-gpu-orders-to-power-ai-ambitions-according-to-reports-bytedance-alibaba-and-tencent-order-3-million-cards-despite-warnings-that-only-10-percent-of-orders-are-fulfillable",
+      "title": "China’s tech giants drop $35 billion on export-compliant Nvidia RTX Pro 5500 workstation GPU orders to power AI ambitions, according to reports",
+      "url": "https://www.tomshardware.com/pc-components/gpus/chinas-tech-giants-drop-usd35-billion-on-export-compliant-nvidia-rtx-pro-5500-workstation-gpu-orders-to-power-ai-ambitions-according-to-reports-bytedance-alibaba-and-tencent-order-3-million-cards-despite-warnings-that-only-10-percent-of-orders-are-fulfillable",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T12:10:00+00:00",
+      "summary": "$35 billion worth of Nvidia RTX Pro 5500 GPUs have been bought by Chinese trio Tencent, Alibaba and ByteDance, with demand far exceeding Nvidia's planned production, according to report.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/modern-software-is-built-on-the-backs-of-low-paid-maintainers-opening-the-door-to-potential-threats-report-details-critically-underfunded-projects-that-remain-understaffed-or-unfunded",
+      "title": "Modern software is built on the backs of low-paid maintainers, opening the door to potential threats",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/modern-software-is-built-on-the-backs-of-low-paid-maintainers-opening-the-door-to-potential-threats-report-details-critically-underfunded-projects-that-remain-understaffed-or-unfunded",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T12:10:00+00:00",
+      "summary": "Modern computing remains vulnerable to the low bus factor of many open-source projects — continued lack of funding and manpower for voluntary-maintained infrastructure makes for a perennial threat",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/mods-can-almost-double-dlss-5-performance-through-foveation-reducing-resolution-at-the-edges-of-frames-technique-makes-dlss-5-possible-on-high-resolution-ultrawide-monitors",
+      "title": "Mods can almost double DLSS 5 performance through Foveation, reducing resolution at the edges of frames",
+      "url": "https://www.tomshardware.com/pc-components/gpus/mods-can-almost-double-dlss-5-performance-through-foveation-reducing-resolution-at-the-edges-of-frames-technique-makes-dlss-5-possible-on-high-resolution-ultrawide-monitors",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jhet Borja",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T11:54:18+00:00",
+      "summary": "VR rendering technique of foveated imaging gets integrated into DLSS 5, making it much easier to run",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/nvidia-vera-cpu-deployed-at-ai-startup-modal-alongside-existing-x86-fleet-internal-testing-showed-2x-throughput-compared-to-amd-and-intel",
+      "title": "Modal taps Nvidia Vera CPUs after firm's internal tests show 2x throughput over Intel and AMD chips",
+      "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-vera-cpu-deployed-at-ai-startup-modal-alongside-existing-x86-fleet-internal-testing-showed-2x-throughput-compared-to-amd-and-intel",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T11:50:00+00:00",
+      "summary": "Nvidia's Vera CPU delivers twice the performance of Intel and AMD chips in AI agent workloads, Modal claims.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/intel-asks-fcc-for-waiver-to-buy-foreign-robots-chipmakers-automated-guided-vehicles-could-run-afoul-of-agencys-sweeping-robot-ban",
+      "title": "Intel asks FCC for waiver to buy foreign robots",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-asks-fcc-for-waiver-to-buy-foreign-robots-chipmakers-automated-guided-vehicles-could-run-afoul-of-agencys-sweeping-robot-ban",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T11:45:01+00:00",
+      "summary": "Intel is concerned that the sweeping ban on foreign-made robots means that it could not update or maintain its fleet of AGVs.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/thunderbolt/windows-98-se-users-get-a-thunderbolt-4-driver-thanks-to-ai-assistance-vibe-coded-xhci98-driver-works-in-microsoft-oses-up-to-windows-7",
+      "title": "Windows 98 SE users get a Thunderbolt 4 driver, thanks to AI assistance",
+      "url": "https://www.tomshardware.com/peripherals/thunderbolt/windows-98-se-users-get-a-thunderbolt-4-driver-thanks-to-ai-assistance-vibe-coded-xhci98-driver-works-in-microsoft-oses-up-to-windows-7",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T11:30:00+00:00",
+      "summary": "Windows 98 devotees now have (experimental) support for USB4 and Thunderbolt 3/4. Vibe coded driver also supports Windows Me, XP, Vista, and 7.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ddr5/electronics-hobbyist-converts-usd120-ddr5-sodimm-kit-into-usd1000-desktop-kit-to-fight-ram-crisis-ics-from-sk-hynix-ddr5-5600-16gb-modules-used-to-create-ddr5-7800-desktop-sticks",
+      "title": "Electronics hobbyist converts $120 DDR5 SODIMM kit into ‘$1000’ desktop kit to fight RAM crisis",
+      "url": "https://www.tomshardware.com/pc-components/ddr5/electronics-hobbyist-converts-usd120-ddr5-sodimm-kit-into-usd1000-desktop-kit-to-fight-ram-crisis-ics-from-sk-hynix-ddr5-5600-16gb-modules-used-to-create-ddr5-7800-desktop-sticks",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T11:10:00+00:00",
+      "summary": "A hobbyist converted a SK hynix 2x 16GB DDR5-5600 SODIMM kit they got off Facebook Marketplace for $120 into a DDR5-7800 desktop kit.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/chinese-crime-ring-steals-millions-of-dollars-in-gift-cards-from-staples-customer-service-system-group-acquired-more-than-15-000-gift-cards-worth-more-than-usd5-million",
+      "title": "Chinese crime ring steals more than $5 million in gift cards from Staples customer service",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/chinese-crime-ring-steals-millions-of-dollars-in-gift-cards-from-staples-customer-service-system-group-acquired-more-than-15-000-gift-cards-worth-more-than-usd5-million",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Oliver Haslam",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T10:50:00+00:00",
+      "summary": "Over $5 million worth of gift cards for retailers like Target and Sephora were stolen from Staples when thieves gained access to an internal system.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/pick-up-this-ddr5-gaming-pc-for-only-usd899-save-usd300-off-the-ibuypower-slate-pc-with-10gb-of-graphics-vram",
+      "title": "Pick up this DDR5 gaming PC for only $899",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/pick-up-this-ddr5-gaming-pc-for-only-usd899-save-usd300-off-the-ibuypower-slate-pc-with-10gb-of-graphics-vram",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T10:37:47+00:00",
+      "summary": "Pick up a brand-new iBuypower Slate PC for just $899, a great entry-level gaming PC option for 1080p gaming.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/routers/save-usd60-on-this-tp-link-wireless-router-with-ultra-fast-wi-fi-7-support-now-usd189-98-archer-be9700-ships-with-six-antennas-and-class-leading-6-ghz-performance-to-upgrade-your-home-network",
+      "title": "Save $60 on this TP-Link wireless router with ultra-fast Wi-Fi 7 support, now $189.98",
+      "url": "https://www.tomshardware.com/networking/routers/save-usd60-on-this-tp-link-wireless-router-with-ultra-fast-wi-fi-7-support-now-usd189-98-archer-be9700-ships-with-six-antennas-and-class-leading-6-ghz-performance-to-upgrade-your-home-network",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T10:29:58+00:00",
+      "summary": "The TP-Link Archer BE9700 Wi-Fi 7 router is on sale for a limited-time only, down to $189.98, with six external antennas, a 10G WAN port, and four 2.5G Ethernet ports.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-claims-four-gemini-4-agents-beat-minecraft-in-27-hours-by-writing-2-783-programs-of-their-own-the-ai-team-died-605-times-on-easy-difficulty-and-ran-up-an-estimated-usd520-in-tokens",
+      "title": "Google DeepMind claims four AI agents beat Minecraft in 27 hours by writing 2,783 programs of their own",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-claims-four-gemini-4-agents-beat-minecraft-in-27-hours-by-writing-2-783-programs-of-their-own-the-ai-team-died-605-times-on-easy-difficulty-and-ran-up-an-estimated-usd520-in-tokens",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T10:25:00+00:00",
+      "summary": "Google DeepMind researchers say four Gemini 4 Argon agents beat Minecraft in 27 hours, writing 2,783 programs with no human help.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/ukraine-rescues-wounded-soldier-using-hexacopter-drone-in-daring-first-heavy-lift-uav-brought-the-injured-infantryman-11-miles-back-to-safety",
+      "title": "Ukraine rescues wounded soldier using drone in daring 'world's first' UAV evacuation of a human",
+      "url": "https://www.tomshardware.com/tech-industry/drones/ukraine-rescues-wounded-soldier-using-hexacopter-drone-in-daring-first-heavy-lift-uav-brought-the-injured-infantryman-11-miles-back-to-safety",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T10:00:00+00:00",
+      "summary": "The Ukrainian military is claiming a world’s first after using an unmanned drone to rescue an injured soldier on the eastern Kharkiv front.",
       "lang": "en"
     },
     {
@@ -551,329 +874,6 @@
       "views": null,
       "published_at": "2026-10-19T10:00:00+00:00",
       "summary": "Russia’s Cosmos 2612 moved from more than 200 miles to about three miles from ICEYE-X36, a U.S.-owned radar satellite.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/amd-cards-now-run-all-dlss-features-thanks-to-one-developers-project-plans-to-match-native-nvidia-gpu-performance",
-      "title": "Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs",
-      "url": "https://www.tomshardware.com/pc-components/gpus/amd-cards-now-run-all-dlss-features-thanks-to-one-developers-project-plans-to-match-native-nvidia-gpu-performance",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jhet Borja",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T16:03:01+00:00",
-      "summary": "Radeon GPUs get the full DLSS experience as solo project ports all the DLSS features for RDNA2-4 GPUs.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/anycubics-award-winning-3d-printer-hits-all-time-low-pricing-kobra-x-is-an-excellent-entry-level-four-color-printer-thats-now-just-usd299-99-for-amazon-prime-members",
-      "title": "Anycubic's award-winning 3D printer hits all-time low pricing",
-      "url": "https://www.tomshardware.com/3d-printing/anycubics-award-winning-3d-printer-hits-all-time-low-pricing-kobra-x-is-an-excellent-entry-level-four-color-printer-thats-now-just-usd299-99-for-amazon-prime-members",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T15:24:22+00:00",
-      "summary": "The Editor's Choice Anycubic Kobra X Multicolor 3D Printer is at the lowest price we've ever seen.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/drones/f-22-raptor-pilot-successfully-demonstrates-command-of-wingman-fighter-drone-in-simulated-combat-anduril-yfq-44a-fury-test-advances-usafs-program-to-integrate-uncrewed-aircraft-into-fighter-squadrons",
-      "title": "F-22 Raptor pilot successfully demonstrates command of 'wingman' fighter drone in simulated combat",
-      "url": "https://www.tomshardware.com/tech-industry/drones/f-22-raptor-pilot-successfully-demonstrates-command-of-wingman-fighter-drone-in-simulated-combat-anduril-yfq-44a-fury-test-advances-usafs-program-to-integrate-uncrewed-aircraft-into-fighter-squadrons",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T15:02:19+00:00",
-      "summary": "The USAF's latest test proves that an F-22 Raptor can command a YFQ-44A Fury drone in combat conditions.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/overclocking/cinebench-world-record-that-stood-for-12-years-gets-toppled-oc-expert-scores-10-8cb-in-cinebench-r11-5-using-an-intel-core-i5-4670k-at-6-3-ghz",
-      "title": "Cinebench world record that stood for 12 years gets toppled",
-      "url": "https://www.tomshardware.com/pc-components/overclocking/cinebench-world-record-that-stood-for-12-years-gets-toppled-oc-expert-scores-10-8cb-in-cinebench-r11-5-using-an-intel-core-i5-4670k-at-6-3-ghz",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T14:02:53+00:00",
-      "summary": "You don’t need the latest and greatest PC hardware to have fun or even break overclocking world records, as Luumi shows with an ancient Haswell system.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-strix-xg27aqgnv-27-inch-g-sync-pulsar-gaming-monitor-review",
-      "title": "Asus ROG Strix XG27AQGNV 27-inch G-Sync Pulsar gaming monitor review: Super smooth with unprecedented control",
-      "url": "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-strix-xg27aqgnv-27-inch-g-sync-pulsar-gaming-monitor-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Christian Eberle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T13:25:00+00:00",
-      "summary": "Asus delivers its take on G-Sync Pulsar with the ROG Strix XG27AQGNV. This 27-inch IPS panel sports smooth motion with 360 Hz, QHD resolution, HDR and wide gamut color.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-shipment-worth-usd470-000-goes-missing-in-brazilian-airport-two-pallets-disappear-distributor-seeks-explanations-but-met-with-zero-answers",
-      "title": "Nvidia RTX 5090 shipment worth $470,000 goes missing in Brazilian airport",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-shipment-worth-usd470-000-goes-missing-in-brazilian-airport-two-pallets-disappear-distributor-seeks-explanations-but-met-with-zero-answers",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T13:24:23+00:00",
-      "summary": "Brazilian electronics and IT distributor Oderço claims that two pallets of Zotac RTX 5090 GPUs have arrived at the airport but has since completely disappeared.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/chip-fab-engineering-game-goes-viral-in-taiwan-realistic-and-stressful-simulation-is-basically-a-horror-game-say-some-players",
-      "title": "Web-based chip fab engineering game goes viral in Taiwan",
-      "url": "https://www.tomshardware.com/video-games/pc-gaming/chip-fab-engineering-game-goes-viral-in-taiwan-realistic-and-stressful-simulation-is-basically-a-horror-game-say-some-players",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T12:50:33+00:00",
-      "summary": "A new 3D web game where you live 'A Day in the Life of a Semiconductor Wafer Factory Worker' has gone viral in Taiwan, where it was developed.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/modders-used-the-official-dlss-5-release-on-unsupported-games-and-are-seeing-up-to-90-percent-better-performance-than-the-leaked-dlss-5-nvidia-says-new-nr-model-uses-20-percent-less-vram-and-processes-neural-workloads-up-to-2x-faster",
-      "title": "Official DLSS 5 running on unsupported games delivers up to 90% better performance than the leaked version",
-      "url": "https://www.tomshardware.com/pc-components/gpus/modders-used-the-official-dlss-5-release-on-unsupported-games-and-are-seeing-up-to-90-percent-better-performance-than-the-leaked-dlss-5-nvidia-says-new-nr-model-uses-20-percent-less-vram-and-processes-neural-workloads-up-to-2x-faster",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jhet Borja",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T12:45:00+00:00",
-      "summary": "Nvidia's latest DLSS Neural Renderer, extracted from NBA 2K27 (again), is being tested on unsupported games and shows up to a 90% performance gain over the previous NR model.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/virtual-reality/mit-engineers-build-soft-3d-shape-sensing-skin-for-gaming-and-vr-tracks-3d-movement-and-touch-with-sub-half-centimeter-error",
-      "title": "MIT engineers build soft 3D shape-sensing skin for gaming and VR",
-      "url": "https://www.tomshardware.com/virtual-reality/mit-engineers-build-soft-3d-shape-sensing-skin-for-gaming-and-vr-tracks-3d-movement-and-touch-with-sub-half-centimeter-error",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T12:25:00+00:00",
-      "summary": "MIT engineers embedded soft optical fibers in a silicone sheet that reconstructs its own 3D shape, aimed at gaming, VR, and physical therapy.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/typo-squatting-attacks-with-major-domains-are-still-viable-corner-cases-with-cyrillic-characters-still-evade-the-best-checks",
-      "title": "Typo-squatting attacks with major domains are still viable",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/typo-squatting-attacks-with-major-domains-are-still-viable-corner-cases-with-cyrillic-characters-still-evade-the-best-checks",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T12:05:00+00:00",
-      "summary": "Typo-squatting attacks with major domains are still viable — corner cases with Cyrillic characters still evade the best checks",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/300-plus-local-data-center-bans-have-only-delayed-just-three-us-projects-bans-much-more-bark-than-bite-only-2-3-gigawatts-of-data-centers-are-held-up-versus-38-gigawatts-expected-online-in-2027",
-      "title": "300-plus local data center bans have only delayed just three US projects",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/300-plus-local-data-center-bans-have-only-delayed-just-three-us-projects-bans-much-more-bark-than-bite-only-2-3-gigawatts-of-data-centers-are-held-up-versus-38-gigawatts-expected-online-in-2027",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T11:45:00+00:00",
-      "summary": "SemiAnalysis mapped more than 300 local data center moratoriums against the US pipeline and found only three projects actually delayed.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-      "title": "Anthropic’s proposed AI safety bill only kicks in if 50 deaths or $1 billion in damages are on the line",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T11:25:00+00:00",
-      "summary": "Anthropic's proposal requires evaluators to report any imminent risk to the Department of Commerce within 72 hours, after which the Department must present the evidence to a federal judge and await an order.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-train-ai-to-detect-concealed-handguns-using-wi-fi-signals-open-source-wifirenet-achieves-precision-detection-on-older-802-11a-standard-by-analyzing-how-weapons-distort-wireless-signals",
-      "title": "Researchers train AI to detect concealed handguns using Wi-Fi signals",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-train-ai-to-detect-concealed-handguns-using-wi-fi-signals-open-source-wifirenet-achieves-precision-detection-on-older-802-11a-standard-by-analyzing-how-weapons-distort-wireless-signals",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T11:00:00+00:00",
-      "summary": "Researchers have developed WiFireNet, an AI system that detects concealed handguns from Wi-Fi channel-state information, achieving 72.5% average precision in controlled indoor tests without cameras or metal detectors.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/drones/djis-first-battery-swapping-dock-gets-drones-recharged-and-back-in-the-air-in-under-45-seconds-but-dock-4-has-no-fcc-clearance-for-u-s-sale",
-      "title": "DJI’s first battery-swapping dock gets drones recharged and back in the air in under 45 seconds",
-      "url": "https://www.tomshardware.com/tech-industry/drones/djis-first-battery-swapping-dock-gets-drones-recharged-and-back-in-the-air-in-under-45-seconds-but-dock-4-has-no-fcc-clearance-for-u-s-sale",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T10:30:00+00:00",
-      "summary": "DJI Dock 4 swaps the Matrice 5TD drone’s battery in 25 seconds, but the system has no FCC clearance for sale in the U.S.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/maps/flock-camera-locations-revealed-on-mapquests-new-surveillance-layer-users-can-now-see-placement-and-direction-of-known-license-plate-readers-from-multiple-companies",
-      "title": "Flock camera locations revealed on MapQuest’s new Surveillance Layer",
-      "url": "https://www.tomshardware.com/software/maps/flock-camera-locations-revealed-on-mapquests-new-surveillance-layer-users-can-now-see-placement-and-direction-of-known-license-plate-readers-from-multiple-companies",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-18T10:00:00+00:00",
-      "summary": "This new feature could help users avoid Flock and other ALPR cameras.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/grab-an-rtx-5090-for-discounted-usd5-300-as-part-of-an-msi-infinite-zs-prebuilt-gaming-pc-usd7-599-price-includes-other-components-worth-about-usd2-300-on-their-own",
-      "title": "Grab an RTX 5090 for a discounted $5,300 as part of an MSI Infinite ZS prebuilt gaming PC",
-      "url": "https://www.tomshardware.com/pc-components/gpus/grab-an-rtx-5090-for-discounted-usd5-300-as-part-of-an-msi-infinite-zs-prebuilt-gaming-pc-usd7-599-price-includes-other-components-worth-about-usd2-300-on-their-own",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T20:30:58+00:00",
-      "summary": "Grab an RTX 5090 for $5,300 as part of an MSI Infinite ZS prebuilt — $7,599 price includes other components worth about $2,300 on their own",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/gaming-headsets/hyperx-cloud-alpha-air-review",
-      "title": "HyperX Cloud Alpha Air Review: Open-back and budget-friendly",
-      "url": "https://www.tomshardware.com/peripherals/gaming-headsets/hyperx-cloud-alpha-air-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sarah Jacobsson Purewal",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T15:40:00+00:00",
-      "summary": "The HyperX Cloud Alpha Air is the brand's first open-back gaming headset. It's lightweight and comfortable, and it sounds very good. But microphone pickup is low, and it doesn't seem to work with the brand's peripheral software (yet).",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/quad-8-pin-mod-protects-the-usd8-500-rtx-5090-you-cant-replace-from-melting-modders-custom-power-solution-claims-to-fix-nvidia-16-pin-gpu-meltdowns",
-      "title": "Quad 8-pin mod protects the $8,500 RTX 5090 you can’t replace from melting",
-      "url": "https://www.tomshardware.com/pc-components/gpus/quad-8-pin-mod-protects-the-usd8-500-rtx-5090-you-cant-replace-from-melting-modders-custom-power-solution-claims-to-fix-nvidia-16-pin-gpu-meltdowns",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T15:20:00+00:00",
-      "summary": "Redditor showcases a new quad 8-pin power-conversion kit for the 16-pin power connector on Nvidia GeForce RTX graphics cards.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/controllers-gamepads/moza-ay210-force-feedback-base-and-mfy-yoke-review",
-      "title": "MOZA AY210 Force Feedback Base and MFY Yoke review: Taking flight sim immersion to the next level",
-      "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/moza-ay210-force-feedback-base-and-mfy-yoke-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Dan Mateescu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-17T15:00:00+00:00",
-      "summary": "The MOZA AY210 Force Feedback Base and MFY Yoke Bundle brings force feedback and autopilot following to the world of desktop flight simulators.",
       "lang": "en"
     },
     {

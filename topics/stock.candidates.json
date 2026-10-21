@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-20T08:22:54.182304+00:00",
+  "fetched_at": "2026-10-21T08:26:40.077584+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 8,
-    "HN · IPO": 10,
+    "HN · stock market": 9,
+    "HN · IPO": 9,
     "HN · earnings": 1,
     "HN · Federal Reserve": 3,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 42,
+  "total": 41,
   "items": [
     {
       "id": "hn:49997175",
@@ -54,6 +54,25 @@
       "views": 32,
       "comments": 4,
       "published_at": "2026-10-09T12:29:40+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50167295",
+      "title": "Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment",
+      "url": "https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50167295",
+        "name": "PLenz",
+        "hn_url": "https://news.ycombinator.com/item?id=50167295"
+      },
+      "duration_sec": null,
+      "views": 32,
+      "comments": 1,
+      "published_at": "2026-10-20T14:50:08+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -211,6 +230,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50151376",
+      "title": "The obscure trust looming over Anthropic's IPO",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50151376",
+        "name": "1vuio0pswjnm7",
+        "hn_url": "https://news.ycombinator.com/item?id=50151376"
+      },
+      "duration_sec": null,
+      "views": 151,
+      "comments": 142,
+      "published_at": "2026-10-19T12:06:03+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:49886005",
       "title": "Anthropic's IPO prospectus shows AI vision, surging costs",
       "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
@@ -225,25 +263,6 @@
       "views": 145,
       "comments": 150,
       "published_at": "2026-09-28T23:40:59+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50151376",
-      "title": "The obscure trust looming over Anthropic's IPO",
-      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50151376",
-        "name": "1vuio0pswjnm7",
-        "hn_url": "https://news.ycombinator.com/item?id=50151376"
-      },
-      "duration_sec": null,
-      "views": 142,
-      "comments": 121,
-      "published_at": "2026-10-19T12:06:03+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -306,25 +325,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50071744",
-      "title": "Sprout Pi Mainboard – A modern, RP2350-powered motherboard for iPods",
-      "url": "https://www.crowdsupply.com/certain-things/sprout-pi-mainboard",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50071744",
-        "name": "esskay",
-        "hn_url": "https://news.ycombinator.com/item?id=50071744"
-      },
-      "duration_sec": null,
-      "views": 21,
-      "comments": 1,
-      "published_at": "2026-10-13T13:49:44+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
       "id": "hn:49791944",
       "title": "Wall Street is growing skeptical of the data center boom",
       "url": "https://www.nytimes.com/2026/09/21/business/ai-data-center-ipos.html",
@@ -339,25 +339,6 @@
       "views": 72,
       "comments": 87,
       "published_at": "2026-09-21T19:14:30+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50020096",
-      "title": "Ask HN: What if no AIpocalypse, no AI bubble, what if it just keeps advancing?",
-      "url": "https://news.ycombinator.com/item?id=50020096",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50020096",
-        "name": "consumer451",
-        "hn_url": "https://news.ycombinator.com/item?id=50020096"
-      },
-      "duration_sec": null,
-      "views": 16,
-      "comments": 33,
-      "published_at": "2026-10-09T13:18:05+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"

@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-20T08:23:07.099220+00:00",
+  "fetched_at": "2026-10-21T08:26:52.579647+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/edge-ai-mcu-features-multimodal-compute-tiered-memory/",
+      "title": "Edge AI MCU Features Multimodal Compute, Tiered Memory",
+      "url": "https://www.eetimes.com/edge-ai-mcu-features-multimodal-compute-tiered-memory/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-21T07:30:00+00:00",
+      "summary": "A new MCU combines AI-native acceleration with integrated high-bandwidth DRAM scalable to hundreds of megabytes. The post Edge AI MCU Features Multimodal Compute, Tiered Memory appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/innovasea-packs-long-life-electronics-into-fish-tags/",
+      "title": "Innovasea Packs Long-Life Electronics into Fish Tags",
+      "url": "https://www.eetimes.com/innovasea-packs-long-life-electronics-into-fish-tags/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T22:06:10+00:00",
+      "summary": "A company on Canada’s east coast is pushing acoustic telemetry toward lighter payloads and decade-scale deployments by treating energy, sensing, and animal welfare as a single systems problem. The post Innovasea Packs Long-Life Electronics into Fish Tags appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/chris-lattner-ai-code-generation-doesnt-solve-software-engineering/",
+      "title": "Chris Lattner: AI Code Generation Doesn’t Solve Software Engineering",
+      "url": "https://www.eetimes.com/chris-lattner-ai-code-generation-doesnt-solve-software-engineering/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T11:00:00+00:00",
+      "summary": "AI can generate low-level code, but code generation is also making it harder to build and maintain the software ecosystems we need. The post Chris Lattner: AI Code Generation Doesn&#8217;t Solve Software Engineering appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/how-singapore-connects-chip-research-startups-and-manufacturing/",
+      "title": "How Singapore Connects Chip Research, Startups, and Manufacturing",
+      "url": "https://www.eetimes.com/how-singapore-connects-chip-research-startups-and-manufacturing/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Susan Hong",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-20T10:55:00+00:00",
+      "summary": "From SiC power devices to silicon photonics, Singapore is building the infrastructure and industrial partnerships needed to bring deep-tech research to market. The post How Singapore Connects Chip Research, Startups, and Manufacturing appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/building-physical-ai-systems-that-can-work-in-the-real-world/",
       "title": "Building Physical AI Systems That Can Work in the Real World",
       "url": "https://www.eetimes.com/building-physical-ai-systems-that-can-work-in-the-real-world/",
@@ -288,74 +356,6 @@
       "views": null,
       "published_at": "2026-10-16T20:59:50+00:00",
       "summary": "The trillion-dollar semiconductor industry is ready to adapt and expand its fab infrastructure for the AI wave. The post SEMICON West 2026 Displays AI-Era Chipmaking, Workforce Development appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/data-center-power-a-prominent-highlight-of-ocp-2026/",
-      "title": "Data Center Power a Prominent Highlight of OCP 2026",
-      "url": "https://www.eetimes.com/data-center-power-a-prominent-highlight-of-ocp-2026/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T15:00:00+00:00",
-      "summary": "The OCP Summit showcased power delivery boards, PSU designs, hot-swap controllers, and event-based telemetry. The post Data Center Power a Prominent Highlight of OCP 2026 appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/taiwans-ai-ambitions-run-into-talent-gap/",
-      "title": "Taiwan’s AI Ambitions Run into Talent Gap",
-      "url": "https://www.eetimes.com/taiwans-ai-ambitions-run-into-talent-gap/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T10:55:42+00:00",
-      "summary": "AMD’s David Wang told EE Times that while Taiwan has huge opportunities in rack-scale AI, physical AI, and AI PC markets, the sticking point may well be talent. The post Taiwan’s AI Ambitions Run into Talent Gap appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/your-chip-works-prove-it-is-secure/",
-      "title": "Your Chip Works. Prove It Is Secure.",
-      "url": "https://www.eetimes.com/your-chip-works-prove-it-is-secure/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Arteris",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T08:37:49+00:00",
-      "summary": "Join this 30-Minute BitCast as our expert demonstrates how information flow tracking follows security-sensitive assets during existing simulation or emulation runs. The post Your Chip Works. Prove It Is Secure. appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ai-moves-to-system-level-co-design-how-can-taiwan-capture-more-value/",
-      "title": "AI Moves to System-Level Co-Design: How Can Taiwan Capture More Value",
-      "url": "https://www.eetimes.com/ai-moves-to-system-level-co-design-how-can-taiwan-capture-more-value/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Susan Hong",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-16T07:18:34+00:00",
-      "summary": "During a panel session at iTechCon 2026, discussions explored how Taiwan can build on its strengths in semiconductors, advanced packaging, and system design to support AI development. The post AI Moves to System-Level Co-Design: How Can Taiwan Capture More Value appeared first on EE Times.",
       "lang": "en"
     },
     {
