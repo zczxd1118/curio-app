@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-21T08:26:40.077584+00:00",
+  "fetched_at": "2026-10-22T08:29:01.764190+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 9,
-    "HN · IPO": 9,
+    "HN · stock market": 8,
+    "HN · IPO": 10,
     "HN · earnings": 1,
     "HN · Federal Reserve": 3,
     "Bilibili · 股票分析": 0,
@@ -20,25 +20,6 @@
   "subtopics": [],
   "total": 41,
   "items": [
-    {
-      "id": "hn:49997175",
-      "title": "The world has nearly burned through its oil stockpile buffer",
-      "url": "https://www.reuters.com/business/energy/world-has-nearly-burned-through-its-oil-stockpile-buffer-executives-say-2026-10-06/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49997175",
-        "name": "geox",
-        "hn_url": "https://news.ycombinator.com/item?id=49997175"
-      },
-      "duration_sec": null,
-      "views": 45,
-      "comments": 14,
-      "published_at": "2026-10-07T18:50:58+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
     {
       "id": "hn:50019535",
       "title": "Meadows – a small language for stock-and-flow diagrams that run",
@@ -71,7 +52,7 @@
       },
       "duration_sec": null,
       "views": 32,
-      "comments": 1,
+      "comments": 2,
       "published_at": "2026-10-20T14:50:08+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -241,8 +222,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50151376"
       },
       "duration_sec": null,
-      "views": 151,
-      "comments": 142,
+      "views": 152,
+      "comments": 147,
       "published_at": "2026-10-19T12:06:03+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -306,39 +287,58 @@
       "lang": "en"
     },
     {
-      "id": "hn:49796292",
-      "title": "Smart Ring Maker Oura, Backers Seek $2.2B in US IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-21/smart-ring-maker-oura-backers-seek-2-2-billion-in-us-ipo",
+      "id": "hn:50071744",
+      "title": "Sprout Pi Mainboard – A modern, RP2350-powered motherboard for iPods",
+      "url": "https://www.crowdsupply.com/certain-things/sprout-pi-mainboard",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49796292",
-        "name": "elo2000",
-        "hn_url": "https://news.ycombinator.com/item?id=49796292"
+        "id": "50071744",
+        "name": "esskay",
+        "hn_url": "https://news.ycombinator.com/item?id=50071744"
       },
       "duration_sec": null,
-      "views": 24,
-      "comments": 11,
-      "published_at": "2026-09-22T02:53:48+00:00",
+      "views": 21,
+      "comments": 1,
+      "published_at": "2026-10-13T13:49:44+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
     },
     {
-      "id": "hn:49791944",
-      "title": "Wall Street is growing skeptical of the data center boom",
-      "url": "https://www.nytimes.com/2026/09/21/business/ai-data-center-ipos.html",
+      "id": "hn:50171533",
+      "title": "Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs",
+      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49791944",
-        "name": "mikhael",
-        "hn_url": "https://news.ycombinator.com/item?id=49791944"
+        "id": "50171533",
+        "name": "mmmmmbop",
+        "hn_url": "https://news.ycombinator.com/item?id=50171533"
       },
       "duration_sec": null,
-      "views": 72,
-      "comments": 87,
-      "published_at": "2026-09-21T19:14:30+00:00",
+      "views": 20,
+      "comments": 2,
+      "published_at": "2026-10-20T19:34:39+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50177795",
+      "title": "Anthropic disclosed an $80.7B net loss for the first half of 2026",
+      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50177795",
+        "name": "joennlae",
+        "hn_url": "https://news.ycombinator.com/item?id=50177795"
+      },
+      "duration_sec": null,
+      "views": 17,
+      "comments": 12,
+      "published_at": "2026-10-21T08:51:15+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -393,8 +393,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50142772"
       },
       "duration_sec": null,
-      "views": 29,
-      "comments": 13,
+      "views": 30,
+      "comments": 14,
       "published_at": "2026-10-18T16:48:25+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
