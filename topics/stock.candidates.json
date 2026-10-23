@@ -2,17 +2,17 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-22T08:29:01.764190+00:00",
+  "fetched_at": "2026-10-23T08:25:30.842325+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 8,
+    "HN · stock market": 10,
     "HN · IPO": 10,
-    "HN · earnings": 1,
-    "HN · Federal Reserve": 3,
+    "HN · earnings": 0,
+    "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
@@ -20,6 +20,25 @@
   "subtopics": [],
   "total": 41,
   "items": [
+    {
+      "id": "hn:50162431",
+      "title": "The Secret Life of Circuits is now in stock everywhere",
+      "url": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-now",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50162431",
+        "name": "surprisetalk",
+        "hn_url": "https://news.ycombinator.com/item?id=50162431"
+      },
+      "duration_sec": null,
+      "views": 94,
+      "comments": 19,
+      "published_at": "2026-10-20T07:15:12+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
     {
       "id": "hn:50019535",
       "title": "Meadows – a small language for stock-and-flow diagrams that run",
@@ -92,6 +111,25 @@
       "views": 15,
       "comments": 0,
       "published_at": "2026-10-15T02:29:41+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50193524",
+      "title": "Chinese stocks turn biggest losers as global AI trade stumbles",
+      "url": "https://theedgemalaysia.com/node/822195",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50193524",
+        "name": "miohtama",
+        "hn_url": "https://news.ycombinator.com/item?id=50193524"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 9,
+      "published_at": "2026-10-22T10:32:13+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -222,7 +260,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50151376"
       },
       "duration_sec": null,
-      "views": 152,
+      "views": 153,
       "comments": 147,
       "published_at": "2026-10-19T12:06:03+00:00",
       "summary": "",
@@ -317,7 +355,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50171533"
       },
       "duration_sec": null,
-      "views": 20,
+      "views": 21,
       "comments": 2,
       "published_at": "2026-10-20T19:34:39+00:00",
       "summary": "",
@@ -341,25 +379,6 @@
       "published_at": "2026-10-21T08:51:15+00:00",
       "summary": "",
       "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50008977",
-      "title": "Frontier AI models outperform analysts on earnings prediction",
-      "url": "https://samaya.ai/blog/frontier-ai-models-outperform-human-experts-on-earnings-prediction",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50008977",
-        "name": "ashwinpp",
-        "hn_url": "https://news.ycombinator.com/item?id=50008977"
-      },
-      "duration_sec": null,
-      "views": 20,
-      "comments": 2,
-      "published_at": "2026-10-08T17:33:29+00:00",
-      "summary": "",
-      "matched_keyword": "earnings",
       "lang": "en"
     },
     {
@@ -396,25 +415,6 @@
       "views": 30,
       "comments": 14,
       "published_at": "2026-10-18T16:48:25+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49810905",
-      "title": "In 2025, 49 percent of adults under age 30 lived with a parent [pdf]",
-      "url": "https://www.federalreserve.gov/publications/files/2025-report-economic-well-being-us-households-202605.pdf",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49810905",
-        "name": "gscott",
-        "hn_url": "https://news.ycombinator.com/item?id=49810905"
-      },
-      "duration_sec": null,
-      "views": 12,
-      "comments": 6,
-      "published_at": "2026-09-23T02:26:49+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
       "lang": "en"
