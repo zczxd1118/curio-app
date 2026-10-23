@@ -2,41 +2,40 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今天最值得盯的两条线：一是资本端开始给 AI 叙事重新定价——Anthropic 估值从高点回落 500B、Firmus 的 300 亿美元 IPO 两天内崩掉、亚洲芯片股与数据中心股同步下挫，而 OpenAI 反手在 IPO 前谈 1.25 万亿美元估值的新一轮 300 亿美元融资；二是算力供给端出现结构性位移——Google TPU 首次外销并跑进 Meta 机房。工程侧则有一个你会直接用到的东西：1Password 让 Agent 代登录而不暴露密码。_
+_今天最硬的信号有两个：一是 OpenAI 传出以 1.25 万亿美元估值再融 300 亿美元、抢在 IPO 前落袋，AI 资本周期进入「自我加杠杆」阶段；二是 Google TPU 首次外销并跑进 Meta 数据中心，Nvidia 的算力垄断第一次出现真实裂缝。半导体侧，TSMC 开始要求设备商去中国稀土磁体，供应链脱钩从口号变成采购条款。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. Anthropic 估值较高点蒸发 5000 亿美元，AI 交易在全球范围开始分层
+### 5. Tesla Q3 利润同比跌 43%，同时被曝借钱买 Nvidia 芯片、Robotaxi 数据闭口不谈
 
-**[金融]** · ⭐⭐⭐⭐ · _Hacker News / The Telegraph_
+**[金融]** · ⭐⭐⭐⭐ · _Ars Technica_
 
-Anthropic 的 S-1 披露了高增长也披露了高成本，市场随即用脚投票，估值从高点回落约 5000 亿美元。同一周，亚洲芯片股、数据中心股、韩国 IPO 同步下挫，中国股票成为全球 AI 交易里跌幅最大的一类。这不是崩盘，是估值体系在重新排序。
+Tesla 第三季度利润同比下降 43%，同一周里还有两条相关消息：SpaceX 拟再借 400 亿美元买 Nvidia 芯片，以及 Tesla 对 Cybercab 的付费订单数量保持沉默。把这三件事放一起看，画面是——AI 叙事在推高资本开支，但主营业务的现金流在变薄。这不是 Tesla 一家的问题，是整个「AI 基建靠债务驱动」模式的缩影。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| The Telegraph 报道 Anthropic 估值较高点回落约 5000 亿美元 | 5000 亿美元的回落是二级市场隐含估值还是新一轮融资定价，口径不明 |
-| Anthropic 已提交 S-1，披露营收高增长与算力成本压力 | S-1 中的成本结构是否包含长期算力承诺，需读原文 |
-| 同期亚洲芯片股（SK 海力士、三星、软银）出现下跌 | 回调是流动性事件还是基本面重估，目前证据不足以定论 |
-| 数据中心相关股票与韩国一桩 IPO 同步走弱 | 对 Anthropic 后续融资节奏与模型发布投入的影响，尚不可知 |
-| 中国股票在全球 AI 交易回调中跌幅居前 |  |
+| Tesla Q3 利润同比下降 43%，数据来自财报 | 利润下滑中汽车降价、AI 研发投入各占多少，需要拆财报才能定论 |
+| SpaceX 计划再借约 400 亿美元用于采购 Nvidia 芯片 | SpaceX 的 400 亿借款与 Tesla 财务是否实质关联，报道措辞模糊 |
+| Tesla 未披露 Cybercab 的付费订单数量 | 「AI 泡沫」的判断目前仍是观点而非数据结论 |
+| Tesla 计划今年把 Cybercab 推广到更多美国城市 | Robotaxi 真实商业化进度缺乏第三方验证 |
 
 **📖 主编点评**
 
-这条和头条 1 是同一枚硬币的两面，建议连着读。对你的实际含义是：未来半年模型 API 的价格战可能放缓，因为二线玩家融资变难、补贴能力下降。如果你在算 Agent 的推理成本，别按"持续降价"做长期假设，按当前价格打八折做预算更稳。
+看这类新闻别只记结论，练一个动作：把「资本开支增速」和「经营性现金流增速」两条线画在一起。当后者跑不过前者，任何 AI 叙事都要打折。这个框架你用在自己判断创业公司、甚至判断要不要 all-in 某个方向时都成立。
 
-📺 [打开原文](https://www.telegraph.co.uk/business/2026/10/16/anthropic-valuation-ipo-ai-stock-listing/)
+📺 [打开原文](https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/)
 
 ---
 
 ## 📋 备选阅读
 
-- [AI compute is the new oil–and needs a new market](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market) —— 把算力类比石油并论证需要现货/期货市场。框架有意思，但 Economist 的论证偏宏观，缺可操作细节。
+- [Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs](https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1) —— Anthropic S-1 披露高增长同时算力成本飙升，和 OpenAI 融资是同一枚硬币的两面，但付费墙且信息已被多轮转述。
+  _WSJ_
+- [AI compute is the new oil–and needs a new market](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market) —— 把算力类比石油并论证需要现货市场，框架清晰，但属于观点文章，缺可验证的新事实。
   _The Economist_
-- [The Reaction of Financial Markets to the Releases of DeepSeek R1 and Kimi K3: A Critical Analysis](https://arxiv.org/abs/2610.30886) —— 对比 DeepSeek R1 与 Kimi K3 发布时的市场反应，检验"模型发布冲击算力股"这套叙事是否成立。学术口径，适合当参照系。
-  _arXiv_
-- [The Delegation Divide: An Open Index of AI-Agent Delegability across Occupations and Countries](https://arxiv.org/abs/2610.30752) —— 测算全球就业中 35.2% 的任务时间可部分交给 Agent，仅 2.5% 可完全交付。给 Agent 落地进度一个量化锚点。
+- [The Customer Is the Builder: How AI Coding Agents Are Rewriting the Economics of Software](https://arxiv.org/abs/2610.30307) —— 研究 AI 编程 Agent 如何改变「买软件 vs 自己造」的决策边界，和你做 side project 的处境高度相关，但论文尚未经同行评议。
   _arXiv_
 
 ---

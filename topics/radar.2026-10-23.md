@@ -1,51 +1,50 @@
 # Curio 趋势雷达 · 2026-10-23
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 18 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
 
-_今天最值得盯的两条线：一是资本端开始给 AI 叙事重新定价——Anthropic 估值从高点回落 500B、Firmus 的 300 亿美元 IPO 两天内崩掉、亚洲芯片股与数据中心股同步下挫，而 OpenAI 反手在 IPO 前谈 1.25 万亿美元估值的新一轮 300 亿美元融资；二是算力供给端出现结构性位移——Google TPU 首次外销并跑进 Meta 机房。工程侧则有一个你会直接用到的东西：1Password 让 Agent 代登录而不暴露密码。_
+_今天最硬的信号有两个：一是 OpenAI 传出以 1.25 万亿美元估值再融 300 亿美元、抢在 IPO 前落袋，AI 资本周期进入「自我加杠杆」阶段；二是 Google TPU 首次外销并跑进 Meta 数据中心，Nvidia 的算力垄断第一次出现真实裂缝。半导体侧，TSMC 开始要求设备商去中国稀土磁体，供应链脱钩从口号变成采购条款。_
 
 ---
 
 ## 🌟 大厂 AI 动态
 
-### 1. OpenAI 在 IPO 前谈新一轮 300 亿美元融资，估值 1.25 万亿美元，将成史上最贵私营公司
+### 1. OpenAI 传以 1.25 万亿美元估值再融 300 亿美元，抢在 IPO 前锁定弹药
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
 
-同一周里，Anthropic 的估值被市场砍掉 5000 亿美元、Firmus 的 300 亿美元 IPO 两天崩盘，OpenAI 却在推进 300 亿美元新融资、喊出 1.25 万亿美元估值并筹备 IPO。这不是矛盾，是分层：头部模型公司拿到了"最后赢家"的定价权，二线算力和二线模型开始被折价。
+TechCrunch 报道 OpenAI 正在推进新一轮 300 亿美元融资，投前估值约 1.25 万亿美元。若成，它将成为史上估值最高的未上市公司，且时间点卡在 IPO 之前。这不是一次普通融资，而是把未来两年的算力与人才成本一次性前置——对下游所有依赖 OpenAI 定价的团队，意味着 API 价格战还会继续。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| TechCrunch 报道 OpenAI 正推进约 300 亿美元新融资，投前估值约 1.25 万亿美元 | 1.25 万亿美元是投前还是投后、是否有对赌或结构性条款，目前未披露 |
-| 若成交，将刷新史上最高估值私营公司纪录 | 这轮融资是否包含算力/云资源的实物出资（类似此前与云厂商的循环交易），尚不清楚 |
-| 融资时点在 IPO 之前，属于上市前最后一轮私募 | "IPO 前最后一轮"的说法来自媒体，OpenAI 官方未确认时间表 |
-| 同期 Anthropic 估值从高点回落约 5000 亿美元（Telegraph 报道） | 高估值能否在公开市场被接住，取决于 2027 年的收入曲线，现在无法验证 |
-| 数据中心公司 Firmus 的 300 亿美元 IPO 在 48 小时内告吹（Bloomberg） |  |
+| 融资规模约 300 亿美元，估值约 1.25 万亿美元，报道来自 TechCrunch | 1.25 万亿是投前还是投后估值，报道未完全锁定，实际稀释比例待确认 |
+| 若落地将刷新未上市公司估值纪录，超过此前所有私募轮次 | 本轮是否含战略投资者（云厂商/主权基金）以及是否附带算力采购绑定，尚无细节 |
+| 融资时点被明确描述为「IPO 之前」，即上市前的最后一轮私募 | IPO 时间表仍属传闻，2027 年上市只是市场推测 |
+| 同期 Anthropic 的 S-1 文件已公开，两家头部实验室同时进入资本公开化阶段 | 300 亿中有多少用于算力 capex、多少用于人才与并购，没有拆分 |
 
 **📖 主编点评**
 
-别把这条当财经八卦看。它真正告诉你的是：模型层的资本正在向 2-3 家收敛，其余玩家会越来越难拿到便宜算力。如果你在做 Agent 项目，选型时优先押注能长期活下去的模型供应商，别把架构绑在一个融资前景不明的 API 上——抽象一层 provider 接口，成本很低，回报很高。
+你不需要关心估值本身，但要关心它对你手上项目的传导：融资落地后 OpenAI 大概率继续压 API 单价换份额，你的 content-curator 如果依赖模型调用，现在就该把模型层做成可替换的抽象（一个 provider 接口 + 配置切换），别把 prompt 和 SDK 细节焊死在某一家上。
 
 📺 [打开原文](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)
 
 ---
 
-### 3. 1Password 上线 Agent 代登录：Agent 能登你的账号，但看不到你的密码
+### 4. 1Password 让 AI Agent 代你登录，但全程看不到你的密码
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
 
-Agent 落地最脏的一环一直是凭证：要么把密码明文塞进 prompt，要么手工贴 cookie。1Password 这次把凭证从 Agent 的上下文里彻底拿走了——Agent 发起登录请求，密码库完成认证，Agent 只拿到会话。这是 Agent 基础设施开始成型的信号。
+1Password 上线新能力：Agent 可以代替用户登录账户，而凭证始终不暴露给模型。这是 Agent 落地绕不开的一环——过去所有「让 Agent 帮你操作网页」的方案，卡点都在凭据托管。现在密码管理器主动站出来做这层信任中介，等于给 Agent 生态补上了缺失的一块基础设施。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 1Password 发布新功能，允许 AI Agent 代表用户登录账户 | 具体协议是 OAuth 代理、还是自研的凭证注入通道，官方细节有限 |
-| Agent 全程不接触用户的明文密码或私钥 | 第三方 Agent 框架（Claude Code、Cursor 等）的接入方式与 SDK 尚未明确 |
-| 凭证由 1Password 侧保管并完成认证流程 | 被登录站点的兼容性范围未知，长尾站点大概率不支持 |
-| 面向个人账户场景推出 | 一旦 Agent 被 prompt injection 劫持，授权边界能收多紧，是核心风险点 |
+| 1Password 发布让 AI Agent 代为登录的功能 | 具体鉴权协议（是否基于 OAuth 委托 / 短期令牌）未公开技术细节 |
+| Agent 在登录过程中不接触明文密码，凭证由 1Password 侧托管 | 支持哪些 Agent 框架、是否开放 API 给第三方，尚不明确 |
+| 该能力面向用户的个人账户登录场景 | 安全边界依赖 1Password 自身的信任模型，一旦被攻破影响面很大 |
+| 此前 Agent 自动化普遍需要把凭证交给模型或本地脚本 | 定价与是否仅限企业版未知 |
 
 **📖 主编点评**
 
-你在做 content-curator，迟早要让它自动登录某些站点抓数据或发内容。这条给了你一个正确的架构方向：凭证永远不进 LLM 上下文，Agent 只持有"能力"不持有"秘密"。哪怕不用 1Password，也照这个模式设计——把登录封装成一个独立工具，Agent 调用它，返回值里只有会话句柄。
+这条直接对应你在做的 content-curator：如果后续要让它自动抓取需要登录的站点，别自己存 cookie 或明文 token。先去看 1Password 这套委托模型的设计思路（短期凭证 + 权限范围收窄），哪怕不用它的产品，这个模式也值得抄进你的 Agent 架构里。
 
 📺 [打开原文](https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/)
 
@@ -53,69 +52,68 @@ Agent 落地最脏的一环一直是凭证：要么把密码明文塞进 prompt�
 
 ## 🌟 AI 算力 / 半导体
 
-### 2. Google TPU 首次对外销售并跑进 Meta 数据中心，靠开源引擎原生跑 PyTorch 模型
+### 2. Google TPU 首次外销并进入 Meta 数据中心，Nvidia 的算力垄断出现第一道裂缝
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-Google 第一次把 TPU 卖给外部客户，第一个大客户是 Meta，而且是在 Meta 的生产环境里跑 AI 负载。配套的是新的开源引擎，让 PyTorch 模型能原生跑在 TPU 上——这一步比卖芯片本身更重要，它把"换芯片"的成本从重写模型降到了改一个 backend。
+Google 的 TPU 第一次卖给外部客户，且已经跑在 Meta 的生产环境里，配套的是能在芯片上原生执行 PyTorch 模型的开源引擎。这件事的分量不在「Meta 省了多少钱」，而在于 CUDA 之外第一次出现了有真实超大规模负载背书的第二套栈。对做推理部署的人来说，硬件层的可选项从 1 变成了 2。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Google TPU 首次向外部客户销售，Meta 已在生产环境使用 | Meta 采购的具体规模、是租用还是买断，未披露 |
-| 配套发布开源引擎，支持 PyTorch 模型原生运行在 TPU 上 | "原生 PyTorch"的性能损失比例没有公开数据，实际可用性待验证 |
-| 此前 TPU 基本只服务 Google 内部与 Google Cloud 租用场景 | 开源引擎的成熟度和社区维护力度尚不明朗 |
-| Nvidia 目前在 AI 加速器市场占主导地位 | 是否会对 Nvidia 的定价形成实质压力，短期难判断 |
+| TPU 首次对外销售，Meta 数据中心已承载生产级 AI 负载 | Meta 采购的具体规模、是租用还是买断，报道未给出数字 |
+| 配套开源引擎支持 PyTorch 模型在 TPU 上原生运行，不依赖 XLA 重写 | 「原生 PyTorch」的实际性能损耗与算子覆盖率尚不清楚，可能仍是长尾算子回退 |
+| 此前 TPU 仅服务 Google 内部与 Google Cloud 租用客户 | 这是否会引发 AWS/Azure 跟进采购第三方加速器，属于推测 |
+| Nvidia 目前仍占据 AI 加速器绝大部分份额 | 对 Nvidia 定价权的实际冲击要等 2027 年产能数据才能验证 |
 
 **📖 主编点评**
 
-这条对你的直接价值在工程侧：如果 PyTorch 到 TPU 的迁移真的只是换个 backend，那"多硬件后端"会变成部署 Agent 推理时的常规操作。你现在做推理优化，值得花半小时读一下那个开源引擎的 repo，看它怎么处理算子覆盖和 fallback——这是未来一年最实用的技能之一。
+如果你以后要做推理优化或成本对比，现在值得把「非 CUDA 路径」纳入知识面：至少搞懂 PyTorch → 后端编译（XLA / TVM / Triton）这条链路的基本形状。面试里能讲清「为什么 TPU 难替代 CUDA 生态、以及这次为什么不一样」，比背 benchmark 数字有用得多。
 
 📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/googles-tpus-for-ai-workloads-now-run-in-at-metas-data-centers-tpus-sold-to-external-customers-for-the-first-time-threaten-nvidias-market-dominance)
 
 ---
 
-### 4. Arm v. Qualcomm 只判了 2 美元赔偿，真正的战场是谁控制芯片出厂前的合规测试套件
+### 3. TSMC 要求设备供应商提供不含中国稀土磁体的机台，脱钩从政策口号变成采购条款
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _EE Times_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
 
-2 美元的赔偿金额是烟雾弹。EE Times 这篇把判决的真正含义挑明了：争议核心是"定制芯片出货前必须通过的那套合规测试"归谁控制。谁掌握测试套件，谁就掌握了架构授权之外的第二道闸门。
+TSMC 正在要求设备商改用不含中国稀土永磁的电机与部件，理由是出口管制可能威胁产线运转。这是第一次由晶圆厂把「去中国稀土」写进设备采购要求——不是政府施压，而是企业自己在做供应链风险对冲。稀土这个长期被当作谈判筹码的品类，开始真实影响先进制程的成本结构。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Arm 诉 Qualcomm 案判决中损害赔偿金额为 2 美元 | 判决对后续架构授权合同的具体约束力，需看完整判决书 |
-| 案件核心争议涉及合规测试套件的控制权 | Qualcomm 是否会上诉、上诉后测试套件归属是否改变，未定 |
-| 定制芯片在出货前需通过架构方的合规测试 | 其他架构授权方（如 RISC-V 生态）是否会效仿此模式，属推测 |
-| 该测试环节直接影响芯片能否上市 | 对下游手机/PC 芯片出货节奏的实际影响，短期难以量化 |
+| TSMC 已向设备供应商提出替代电机/无稀土部件的要求 | 替代方案的成本增幅与交期影响，目前没有量化数据 |
+| 动因是中国稀土出口管制对晶圆厂运营构成潜在威胁 | 是否有设备商已具备量产级无稀土方案，尚不明确 |
+| 稀土永磁广泛用于半导体设备的精密电机与传动部件 | 这是否会扩散到三星、Intel 等其它晶圆厂，属于趋势判断 |
+| 中国在稀土开采与加工环节占主导地位 | 短期内更可能是双供应源并行而非彻底替换 |
 
 **📖 主编点评**
 
-你是电子信息工程背景，这条比大多数 AI 新闻更贴近你的专业底盘。它说明架构授权的护城河已经从"专利"挪到了"测试与认证流程"。如果你以后碰 IP 核、SoC 或嵌入式方向，理解这套合规测试链路，比多背两个协议标准更有差异化价值。
+这条对你做电子信息工程的背景是加分项：稀土磁体、精密电机、伺服控制这些是设备层的真实工程问题。如果你在找毕业设计或实习方向，「关键部件的国产替代可行性分析」这类题目既有产业热度又能落到具体器件参数上，比纯软件题目更容易讲出差异化。
 
-📺 [打开原文](https://www.eetimes.com/two-dollars-and-a-test-suite/)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-seeking-chipmaking-equipment-that-doesnt-contain-chinese-rare-earth-magnets-asks-suppliers-to-provide-alternative-motors-as-export-controls-threaten-fab-operations)
 
 ---
 
 ## 🌟 金融
 
-### 5. Anthropic 估值较高点蒸发 5000 亿美元，AI 交易在全球范围开始分层
+### 5. Tesla Q3 利润同比跌 43%，同时被曝借钱买 Nvidia 芯片、Robotaxi 数据闭口不谈
 
-**[金融]** · ⭐⭐⭐⭐ · _Hacker News / The Telegraph_
+**[金融]** · ⭐⭐⭐⭐ · _Ars Technica_
 
-Anthropic 的 S-1 披露了高增长也披露了高成本，市场随即用脚投票，估值从高点回落约 5000 亿美元。同一周，亚洲芯片股、数据中心股、韩国 IPO 同步下挫，中国股票成为全球 AI 交易里跌幅最大的一类。这不是崩盘，是估值体系在重新排序。
+Tesla 第三季度利润同比下降 43%，同一周里还有两条相关消息：SpaceX 拟再借 400 亿美元买 Nvidia 芯片，以及 Tesla 对 Cybercab 的付费订单数量保持沉默。把这三件事放一起看，画面是——AI 叙事在推高资本开支，但主营业务的现金流在变薄。这不是 Tesla 一家的问题，是整个「AI 基建靠债务驱动」模式的缩影。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| The Telegraph 报道 Anthropic 估值较高点回落约 5000 亿美元 | 5000 亿美元的回落是二级市场隐含估值还是新一轮融资定价，口径不明 |
-| Anthropic 已提交 S-1，披露营收高增长与算力成本压力 | S-1 中的成本结构是否包含长期算力承诺，需读原文 |
-| 同期亚洲芯片股（SK 海力士、三星、软银）出现下跌 | 回调是流动性事件还是基本面重估，目前证据不足以定论 |
-| 数据中心相关股票与韩国一桩 IPO 同步走弱 | 对 Anthropic 后续融资节奏与模型发布投入的影响，尚不可知 |
-| 中国股票在全球 AI 交易回调中跌幅居前 |  |
+| Tesla Q3 利润同比下降 43%，数据来自财报 | 利润下滑中汽车降价、AI 研发投入各占多少，需要拆财报才能定论 |
+| SpaceX 计划再借约 400 亿美元用于采购 Nvidia 芯片 | SpaceX 的 400 亿借款与 Tesla 财务是否实质关联，报道措辞模糊 |
+| Tesla 未披露 Cybercab 的付费订单数量 | 「AI 泡沫」的判断目前仍是观点而非数据结论 |
+| Tesla 计划今年把 Cybercab 推广到更多美国城市 | Robotaxi 真实商业化进度缺乏第三方验证 |
 
 **📖 主编点评**
 
-这条和头条 1 是同一枚硬币的两面，建议连着读。对你的实际含义是：未来半年模型 API 的价格战可能放缓，因为二线玩家融资变难、补贴能力下降。如果你在算 Agent 的推理成本，别按"持续降价"做长期假设，按当前价格打八折做预算更稳。
+看这类新闻别只记结论，练一个动作：把「资本开支增速」和「经营性现金流增速」两条线画在一起。当后者跑不过前者，任何 AI 叙事都要打折。这个框架你用在自己判断创业公司、甚至判断要不要 all-in 某个方向时都成立。
 
-📺 [打开原文](https://www.telegraph.co.uk/business/2026/10/16/anthropic-valuation-ipo-ai-stock-listing/)
+📺 [打开原文](https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/)
 
 ---
 
@@ -123,54 +121,48 @@ Anthropic 的 S-1 披露了高增长也披露了高成本，市场随即用脚�
 
 ### AI
 
-- [认真用 Claude Code 的人，迟早会遇见 Everything Claude Code](http://www.bilibili.com/video/av116319122885806) —— 116K star 的 Claude Code 配置项目，讲斜杠命令、子代理、Hooks 到学习系统。契合你的 Skills/子 Agent 偏好，但发布于 3 月，新颖度不够上头条。
+- [认真用 Claude Code 的人，迟早会遇见 Everything Claude Code](http://www.bilibili.com/video/av116319122885806) —— 讲 GitHub 上 116K star 的 Claude Code 配置项目，覆盖斜杠命令、子 Agent、Hooks，工程细节密度够，但发布于 3 月，新颖度不足以上头条。
   _极客魔导师_
-- [当我把 claude code 搬进安卓设备……](http://www.bilibili.com/video/av117462439826705) —— 开源项目 cccodroid，不 root 不刷机在安卓原生跑 Claude Code，全程实机录屏。工程细节密度高，但受众窄，放备选。
+- [当我把 claude code 搬进安卓设备……](http://www.bilibili.com/video/av117462439826705) —— cccodroid 把 Claude Code 原生跑在安卓上，全程实机录屏、无需 root，是本周少见的「真机演示 + 开源」组合，适合周末看。
   _Grey-Oak_
-- [🚀OpenClaw 高级使用经验之如何调用 Claude Code 最省 Token！Hooks 回调 + Agent Teams 全自动开发](http://www.bilibili.com/video/av116046157647899) —— 用 Stop Hook 回调替代轮询来压 Token 消耗，是真实工程技巧。但标题党味道重、发布较早，降级到备选。
-  _AI超元域_
-- [Cursor + MCP 实现 ABAQUS 全自动建模](http://www.bilibili.com/video/av116754189653546) —— 把 MCP 接到专业仿真软件上的垂直案例，比通用教程更能说明 MCP 的价值边界。领域太窄，备选。
-  _CAE老白_
+- [【吴恩达】全 169 集 Vibe Coding 课程](http://www.bilibili.com/video/av117210647369799) —— DeepLearning.AI 的标准化 AI 开发流水线，从项目章程到多轮迭代都有，但 169 集套娃式合集，密度被摊薄，按需挑章节。
+  _吴恩达Agentic_
 
 ### AI 算力 / 半导体
 
-- [TSMC is seeking chipmaking equipment that doesn't contain Chinese rare-earth magnets](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-seeking-chipmaking-equipment-that-doesnt-contain-chinese-rare-earth-magnets-asks-suppliers-to-provide-alternative-motors-as-export-controls-threaten-fab-operations) —— TSMC 要求设备供应商提供不含中国稀土磁体的电机，出口管制正从芯片蔓延到设备零部件。供应链脱钩的又一实证。
+- [Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors) —— 用 Agent 做材料筛选并给出两个室温磁性半导体候选，方法学有意思，但结论未经实验验证，495 分说明社区在关注。
+  _Hacker News_
+- [Micron pulls the plug on future 4F² DRAM after two decades of research](https://www.tomshardware.com/pc-components/dram/micron-pulls-the-plug-on-future-4f2-dram-after-two-decades-of-research-in-dramatic-shift-company-says-architecture-offers-no-meaningful-density-advantages-increases-manufacturing-complexity-and-costs-and-has-fundamental-scaling-limitations) —— 美光放弃研究 20 年的 4F² DRAM 架构，理由是密度收益不抵成本，是存储路线选择的重要转向，但离你的日常较远。
   _Tom's Hardware_
-- [Micron pulls the plug on future 4F² DRAM after two decades of research](https://www.tomshardware.com/pc-components/dram/micron-pulls-the-plug-on-future-4f2-dram-after-two-decades-of-research-in-dramatic-shift-company-says-architecture-offers-no-meaningful-density-advantages-increases-manufacturing-complexity-and-costs-and-has-fundamental-scaling-limitations) —— 美光放弃研究二十年的 4F² DRAM，理由是密度收益不足、成本反升。存储路线图的一次实质性转向。
+- [AMD and Intel will work together to create a single PyTorch code path for AI inference on CPUs](https://www.tomshardware.com/pc-components/cpus/amd-and-intel-will-work-together-to-create-a-single-pytorch-code-path-for-ai-inference-on-cpus-amd-zendnn-library-gets-folded-into-intel-onednn-to-make-cpu-ai-simpler) —— ZenDNN 并入 oneDNN，两家死对头统一 CPU 推理路径，对做本地部署的人是实打实的减负，但短期只是工程整合。
   _Tom's Hardware_
-- [AMD and Intel will work together to create a single PyTorch code path for AI inference on CPUs](https://www.tomshardware.com/pc-components/cpus/amd-and-intel-will-work-together-to-create-a-single-pytorch-code-path-for-ai-inference-on-cpus-amd-zendnn-library-gets-folded-into-intel-onednn-to-make-cpu-ai-simpler) —— ZenDNN 并入 oneDNN，两家在 CPU 推理上统一 PyTorch 路径。对做本地部署的人是好消息，但进展尚早。
-  _Tom's Hardware_
-- [FADU puts the filesystem inside the SSD's flash to bypass host CPUs](https://www.tomshardware.com/pc-components/ssds/fadu-puts-the-filesystem-inside-the-ssds-flash-to-bypass-host-cpus-file-semantic-pcie-6-0-ssd-delivers-460-000-ops-s-to-gpus-and-dpus-samples-due-by-q3-2027) —— 把 NFSv3 文件操作塞进 NVMe 命令，让 GPU/DPU 绕过主机文件系统直接读文件。架构很新，但要 2027 才有样品。
+- [FADU puts the filesystem inside the SSD's flash to bypass host CPUs](https://www.tomshardware.com/pc-components/ssds/fadu-puts-the-filesystem-inside-the-ssds-flash-to-bypass-host-cpus-file-semantic-pcie-6-0-ssd-delivers-460-000-ops-s-to-gpus-and-dpus-samples-due-by-q3-2027) —— 把 NFSv3 文件操作塞进 NVMe 命令，让 GPU 绕过主机文件系统直接读文件，架构很漂亮，但 2027 年才出样。
   _Tom's Hardware_
 
 ### 大厂 AI 动态
 
-- [Uber puts all 30,000 employees on ChatGPT Work](https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/) —— 从小组试点扩到全公司 3 万人，是 Agent 类产品最大规模的企业级铺开案例之一。缺具体使用数据，故未上头条。
+- [Left alone with nothing to do, AI agents started playing](https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/) —— MIT 把 13 个 AI 扔到虚拟荒岛，它们自己发明游戏、悼念丢失的戒指，是本周最有意思的 Agent 行为观察，但偏趣味。
   _TechCrunch_
-- [Left alone with nothing to do, AI agents started playing](https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/) —— MIT 把 13 个 Agent 扔到虚拟岛上，它们自己发明游戏、悼念丢失的戒指。多 Agent 涌现行为的有趣观察，深度有限。
+- [Canva's first AI image model plans designs before generating them](https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model) —— Canva Craft 用两阶段架构先规划再生成，思路和纯扩散模型不同，但属于产品发布，工程细节披露有限。
+  _The Verge_
+- [Uber puts all 30,000 employees on ChatGPT Work](https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/) —— 3 万人全员上 ChatGPT Work，是企业级 Agent 落地的规模样本，但报道只有结论没有部署细节，参考价值打折。
   _TechCrunch_
-- [Arc browser sunsets December 22 as The Browser Company doubles down on Dia](https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/) —— Arc 12 月 22 日停止维护，公司全面转向 Dia。一个被极客热爱但没做成大众产品的典型样本。
-  _TechCrunch_
-- [An Interview with Craig Moffett About SpaceX and Bubbles](https://stratechery.com/2026/an-interview-with-craig-moffett-about-spacex-and-bubbles/) —— Ben Thompson 对话 Craig Moffett，把 dot-com 泡沫的经验套到今天的 AI 资本结构上。契合你的访谈偏好，但与头条 1/5 主题重叠。
-  _Stratechery_
 
 ### 金融
 
-- [AI compute is the new oil–and needs a new market](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market) —— 把算力类比石油并论证需要现货/期货市场。框架有意思，但 Economist 的论证偏宏观，缺可操作细节。
+- [Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs](https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1) —— Anthropic S-1 披露高增长同时算力成本飙升，和 OpenAI 融资是同一枚硬币的两面，但付费墙且信息已被多轮转述。
+  _WSJ_
+- [AI compute is the new oil–and needs a new market](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market) —— 把算力类比石油并论证需要现货市场，框架清晰，但属于观点文章，缺可验证的新事实。
   _The Economist_
-- [The Reaction of Financial Markets to the Releases of DeepSeek R1 and Kimi K3: A Critical Analysis](https://arxiv.org/abs/2610.30886) —— 对比 DeepSeek R1 与 Kimi K3 发布时的市场反应，检验"模型发布冲击算力股"这套叙事是否成立。学术口径，适合当参照系。
-  _arXiv_
-- [The Delegation Divide: An Open Index of AI-Agent Delegability across Occupations and Countries](https://arxiv.org/abs/2610.30752) —— 测算全球就业中 35.2% 的任务时间可部分交给 Agent，仅 2.5% 可完全交付。给 Agent 落地进度一个量化锚点。
+- [The Customer Is the Builder: How AI Coding Agents Are Rewriting the Economics of Software](https://arxiv.org/abs/2610.30307) —— 研究 AI 编程 Agent 如何改变「买软件 vs 自己造」的决策边界，和你做 side project 的处境高度相关，但论文尚未经同行评议。
   _arXiv_
 
 ### 股票
 
-- [Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs](https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1) —— S-1 原文解读，营收增速与算力成本并列。是头条 5 的一手材料，但付费墙且信息已被头条覆盖。
-  _WSJ / Hacker News_
-- [Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment](https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html) —— 韩国一桩 IPO 首日跌 30%，带崩数据中心板块情绪。是本周 AI 交易回调的具体触发点之一。
-  _CNBC / Hacker News_
-- [CoreWeave Founders Shield Fortunes with $3.3B Stock Sales](https://www.bloomberg.com/news/articles/2026-10-15/coreweave-founders-shield-fortunes-with-3-3-billion-stock-sales) —— CoreWeave 创始人在高位套现 33 亿美元。内部人行为往往比分析师报告更早反映判断。
-  _Bloomberg / Hacker News_
+- [Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment](https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html) —— 韩国数据中心 IPO 首日跌 30% 拖累板块，是 AI 基建估值松动的早期信号，但单日行情噪音大，先观察。
+  _CNBC_
+- [10-year Treasury yield climbs above 5.3% to a level not seen in 24 years](https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f) —— 十年期美债收益率破 5.3%，24 年新高，是压在所有高估值 AI 资产头上的分母，值得记住这个数但不必每天追。
+  _WSJ_
 
 ---
 
