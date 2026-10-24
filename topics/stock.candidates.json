@@ -2,14 +2,14 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-23T08:25:30.842325+00:00",
+  "fetched_at": "2026-10-24T08:01:41.736540+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 10,
+    "HN · stock market": 9,
     "HN · IPO": 10,
     "HN · earnings": 0,
     "HN · Federal Reserve": 2,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 41,
+  "total": 40,
   "items": [
     {
       "id": "hn:50162431",
@@ -32,28 +32,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50162431"
       },
       "duration_sec": null,
-      "views": 94,
-      "comments": 19,
+      "views": 101,
+      "comments": 22,
       "published_at": "2026-10-20T07:15:12+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50019535",
-      "title": "Meadows – a small language for stock-and-flow diagrams that run",
-      "url": "https://lorezzed.github.io/meadows/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50019535",
-        "name": "jjsalamon",
-        "hn_url": "https://news.ycombinator.com/item?id=50019535"
-      },
-      "duration_sec": null,
-      "views": 32,
-      "comments": 4,
-      "published_at": "2026-10-09T12:29:40+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -73,25 +54,6 @@
       "views": 32,
       "comments": 2,
       "published_at": "2026-10-20T14:50:08+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50029232",
-      "title": "Data centre company's much-hyped Australian stock market listing imploded",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/09/firmus-australian-stock-market-listing-bust-finance",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50029232",
-        "name": "stubish",
-        "hn_url": "https://news.ycombinator.com/item?id=50029232"
-      },
-      "duration_sec": null,
-      "views": 22,
-      "comments": 0,
-      "published_at": "2026-10-10T03:23:09+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -128,7 +90,7 @@
       },
       "duration_sec": null,
       "views": 14,
-      "comments": 9,
+      "comments": 10,
       "published_at": "2026-10-22T10:32:13+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -211,6 +173,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50210325",
+      "title": "Built a site that teaches investing using the live market as the examples",
+      "url": "https://www.stocksightfinance.com",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50210325",
+        "name": "kshitik",
+        "hn_url": "https://news.ycombinator.com/item?id=50210325"
+      },
+      "duration_sec": null,
+      "views": 10,
+      "comments": 2,
+      "published_at": "2026-10-23T15:07:06+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:50051583",
       "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
       "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
@@ -225,25 +206,6 @@
       "views": 244,
       "comments": 217,
       "published_at": "2026-10-12T05:03:47+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49826087",
-      "title": "16GB iPod Nano 3G Upgrade",
-      "url": "https://tuckerosman.com/projects/16gb-ipod-nano",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49826087",
-        "name": "Ivoah",
-        "hn_url": "https://news.ycombinator.com/item?id=49826087"
-      },
-      "duration_sec": null,
-      "views": 167,
-      "comments": 32,
-      "published_at": "2026-09-24T03:58:54+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -382,6 +344,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50020096",
+      "title": "Ask HN: What if no AIpocalypse, no AI bubble, what if it just keeps advancing?",
+      "url": "https://news.ycombinator.com/item?id=50020096",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50020096",
+        "name": "consumer451",
+        "hn_url": "https://news.ycombinator.com/item?id=50020096"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 33,
+      "published_at": "2026-10-09T13:18:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50082283",
       "title": "US Says Chinese Hackers Attacked DOJ, NASA, Federal Reserve, Senate",
       "url": "https://www.usatoday.com/story/news/politics/2026/08/26/chinese-hackers-cyberattack-us-government/91473585007/",
@@ -417,6 +398,23 @@
       "published_at": "2026-10-18T16:48:25+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/capital-wars",
+      "title": "Capital Wars",
+      "url": "https://www.netinterest.co/p/capital-wars",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-23T16:24:17+00:00",
+      "summary": "CoreWeave and the Economics of a Data Center Build",
       "lang": "en"
     },
     {
@@ -740,23 +738,6 @@
       "views": null,
       "published_at": "2026-06-05T15:35:26+00:00",
       "summary": "SpaceX, Anthropic, OpenAI and the Business of IPOs",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.netinterest.co/p/strategy-follows-structure",
-      "title": "Strategy Follows Structure",
-      "url": "https://www.netinterest.co/p/strategy-follows-structure",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-05-29T16:47:05+00:00",
-      "summary": "Fidelity, Capital, Vanguard and the Ownership Structures That Made Them",
       "lang": "en"
     }
   ]

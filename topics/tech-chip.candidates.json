@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-23T08:25:43.439166+00:00",
+  "fetched_at": "2026-10-24T08:01:54.830476+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/arm-comments-on-jury-decision-in-qualcomm-trial/",
+      "title": "Arm Comments on Jury Decision in Qualcomm Trial",
+      "url": "https://www.eetimes.com/arm-comments-on-jury-decision-in-qualcomm-trial/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-24T00:00:00+00:00",
+      "summary": "Arm's Ami Badani cites the $2 nominal damages award as validation, while chip design experts point to open architectures such as RISC-V as the long-term alternative for AI workload flexibility. The post Arm Comments on Jury Decision in Qualcomm Trial appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/two-dollars-and-a-test-suite/",
       "title": "Two Dollars and a Test Suite",
       "url": "https://www.eetimes.com/two-dollars-and-a-test-suite/",
@@ -342,23 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/innovasea-packs-long-life-electronics-into-fish-tags/",
-      "title": "Innovasea Packs Long-Life Electronics into Fish Tags",
-      "url": "https://www.eetimes.com/innovasea-packs-long-life-electronics-into-fish-tags/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-20T22:06:10+00:00",
-      "summary": "A company on Canada’s east coast is pushing acoustic telemetry toward lighter payloads and decade-scale deployments by treating energy, sensing, and animal welfare as a single systems problem. The post Innovasea Packs Long-Life Electronics into Fish Tags appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50035886",
       "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
       "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50198675"
       },
       "duration_sec": null,
-      "views": 384,
-      "comments": 188,
+      "views": 493,
+      "comments": 212,
       "published_at": "2026-10-22T17:44:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
