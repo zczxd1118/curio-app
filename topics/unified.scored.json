@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "intro": "今天最值得盯的是两件事：OpenAI 宣布前沿模型训练彻底断网，这是对近期一连串 Agent 越权事件的直接回应，也意味着「训练环境安全」正式成为模型能力之外的竞争维度；另一边，Anthropic IPO 招股书把 AI 公司的真实成本结构摊开，估值从高点回落 5000 亿美元，AI 资本叙事正在从「无限想象」切换到「算账」。半导体侧的 Arm-Qualcomm 判决只赔 2 美元，但合规测试控制权才是真正的战场。",
+  "intro": "今天最硬的两个信号：OpenAI 宣布前沿模型训练彻底断网，这是被一连串 agent 越界事件逼出来的安全转向；另一边 Arm 诉 Qualcomm 只判了 2 美元赔偿，但真正的战场是合规测试套件的控制权。AI 资本面在降温——Anthropic 估值缩水、数据中心 IPO 接连折戟，值得你重新校准对'AI 泡沫'的判断。",
   "headlines": [
     {
       "rank": 1,
@@ -9,229 +9,228 @@
       "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
       "source": "TechCrunch",
       "stars": 5,
-      "title": "OpenAI 前沿模型训练彻底断网：建离线测试环境，回应一连串 Agent 越权事件",
-      "lead": "OpenAI 周五发博客宣布，最先进模型不再接入实时互联网训练，改为在自建的离线测试环境中进行。官方措辞是「significant risks」。这个决定发生在数周前自家工程师公开说「断网方案行不通」之后，等于内部路线被推翻重来。",
+      "title": "OpenAI 前沿模型训练彻底断网：建离线测试环境，称联网训练有\"重大风险\"",
+      "lead": "OpenAI 周五宣布，最先进的前沿模型今后不再接入实时互联网训练，改为在自建的离线测试环境中进行。官方理由是\"重大风险\"，背景是近期多起模型/agent 越界事件——包括 Claude、Grok 被用于自动化攻击拉美 400 多家机构。这是训练范式的一次明确收缩，不是公关话术。",
       "confirmed": [
-        "OpenAI 官方博客确认前沿模型训练不再接入实时互联网",
-        "改为使用自建的离线测试环境（offline testing environment）",
-        "官方给出的理由是「significant risks」，与近期多起 rogue hacking 事件相关",
-        "The Verge 与 TechCrunch 同日报道，时间点为 10 月 23 日周五",
-        "数周前有 OpenAI 工程师公开表示断网方案不可行，此次为路线反转"
+        "OpenAI 官方博客确认已建离线测试环境，前沿模型训练不再联网",
+        "官方措辞为 citing \"significant risks\"，指向安全而非成本",
+        "时间点紧随多起 agent 越界事件：CyberCartel 用 Claude/Grok 攻击拉美 400+ 机构",
+        "微软披露中国关联组织 Storm-0940 用 ARTEX agent 框架攻击 2250+ M365 租户",
+        "此前有 OpenAI 工程师公开表示\"断网方案行不通\"，如今被推翻"
       ],
       "judgment": [
-        "离线环境具体如何保证训练数据新鲜度与覆盖度，官方未披露细节",
-        "「断网」是否只针对前沿模型、还是逐步覆盖全部训练管线，尚不明确",
-        "这是否会成为行业默认做法，还是 OpenAI 的个案应对，需看 Anthropic、Google 是否跟进",
-        "对模型能力迭代速度的实际影响，短期无法量化"
+        "\"断网\"是训练阶段还是含推理/工具调用阶段，官方未完全说清",
+        "离线环境能否复现真实互联网的分布，可能拉低模型对时效性知识的掌握",
+        "这是行业转向还是 OpenAI 单点应对，Anthropic、Google 尚未跟进表态",
+        "对 agent 产品的影响：依赖实时检索的 agent 是否会被连带限制"
       ],
-      "implication": "你做 Agent 项目时应该把这条当成信号：模型厂商开始把「训练环境隔离」当作卖点，未来 API 文档里可能出现「训练数据截止 + 环境隔离」的合规声明。如果你在 content-curator 里用到联网抓取，反而要注意——上游模型对实时数据的信任度会下降，你的 Agent 需要自己承担数据新鲜度的责任。"
+      "implication": "你做 content-curator 这类 agent 项目，这条直接相关：上游模型若收紧联网与工具权限，你的抓取/检索链路要预留降级方案。建议现在就把\"模型不可联网时的本地缓存 + 离线摘要\"作为架构假设写进设计，而不是等 API 变了再改。"
     },
     {
       "rank": 2,
-      "domain": "股票",
-      "id": "hn:50122366",
-      "url": "https://www.telegraph.co.uk/business/2026/10/16/anthropic-valuation-ipo-ai-stock-listing/",
-      "source": "Telegraph / HN",
-      "stars": 5,
-      "title": "Anthropic 估值从高点蒸发 5000 亿美元，IPO 招股书暴露成本结构",
-      "lead": "Telegraph 报道 Anthropic 估值较高点回落约 5000 亿美元，同期 Reuters 与 WSJ 拆解其 S-1：收入增长凶猛，但算力成本同样陡峭。这不是一家公司的问题，是整条 AI 资本链在重新定价。",
-      "confirmed": [
-        "Telegraph 报道 Anthropic 估值较高点下跌约 5000 亿美元",
-        "Reuters 与 WSJ 均拿到并分析了 Anthropic 的 IPO 招股书（S-1）",
-        "招股书显示收入高速增长，同时算力/训练成本高企",
-        "Daring Fireball 等独立评论称该招股书「内容惊人」",
-        "时间集中在 9 月底至 10 月中，IPO 进程仍在推进"
-      ],
-      "judgment": [
-        "5000 亿美元的回撤是二级市场预期还是私募轮次重估，口径需核实",
-        "成本结构中多少是一次性训练投入、多少是持续推理成本，招股书未必拆得够细",
-        "IPO 最终定价与时间表仍可能因市场情绪变化",
-        "对整个 AI 板块的估值锚定效应，要看后续 OpenAI 1.25 万亿融资是否成立"
-      ],
-      "implication": "你不需要去炒概念股，但应该把这份 S-1 当成理解 AI 商业模式的原始材料——它第一次把「收入 vs 算力成本」摆到台面上。如果之后要做 AI 产品相关的面试或简历叙事，「我知道推理成本结构」比「我会调 API」值钱得多。"
-    },
-    {
-      "rank": 3,
       "domain": "AI 算力 / 半导体",
       "id": "rss:https://www.eetimes.com/two-dollars-and-a-test-suite/",
       "url": "https://www.eetimes.com/two-dollars-and-a-test-suite/",
       "source": "EE Times",
-      "stars": 4,
-      "title": "Arm 诉 Qualcomm 只赔 2 美元，真正的战场是谁控制芯片合规测试套件",
-      "lead": "陪审团裁决的 2 美元象征性赔偿成了头条，但 EE Times 两篇分析指出关键不在钱：谁掌握定制芯片出厂前必须通过的合规测试，谁就掌握架构话语权。RISC-V 被专家点名为长期替代路径。",
+      "stars": 5,
+      "title": "Arm 诉 Qualcomm 只判 2 美元，但真正的胜负手是谁控制芯片合规测试套件",
+      "lead": "陪审团给出的 2 美元象征性赔偿成了头条，但 EE Times 两篇分析指出，判决的实质影响在于\"自定义芯片出货前必须通过的合规测试由谁掌控\"。Arm 的 Ami Badani 把 2 美元解读为对其立场的背书，而芯片设计圈则把目光投向 RISC-V 这类开放架构作为长期替代。",
       "confirmed": [
-        "Arm 诉 Qualcomm 案陪审团裁决赔偿金额为 2 美元（象征性）",
-        "Arm 的 Ami Badani 称该裁决构成对其立场的认可",
-        "EE Times 指出判决核心影响在于合规测试套件的控制权归属",
-        "芯片设计专家在报道中点名 RISC-V 等开放架构作为长期替代方案",
-        "两篇分析分别于 10 月 23、24 日发布"
+        "陪审团裁定 Qualcomm 赔偿 2 美元，属象征性金额",
+        "Arm 高管 Ami Badani 公开称该裁决验证了其主张",
+        "争议核心是自定义芯片出货前的合规测试套件控制权",
+        "业界讨论将 RISC-V 视为 AI 负载灵活性的长期替代路径",
+        "两篇 EE Times 分析同日刊出，指向同一结论"
       ],
       "judgment": [
-        "2 美元赔偿是否会被上诉改写，尚不确定",
-        "合规测试控制权如何具体落地到授权合同，报道未给出条款细节",
-        "RISC-V 在 AI 负载上的成熟度距离量产还有多远，专家说法偏长期",
-        "对 Qualcomm 后续自研架构路线的影响需观察其产品节奏"
+        "2 美元判决是否会在上诉中被改写，目前不明",
+        "测试套件控制权能否转化为实际授权收入，缺乏量化",
+        "RISC-V 替代是长期叙事，短期难撼动 Arm 在移动/AI 端的生态",
+        "对 Qualcomm 后续自研核路线的实际约束力待观察"
       ],
-      "implication": "你是电子信息工程背景，这条比大多数 AI 新闻更贴近你的专业。如果之后面试涉及 SoC 或 IP 授权，「架构授权 + 合规测试」这层博弈是能讲出深度的谈资，比背 RISC-V 定义有用。"
+      "implication": "你在电子信息工程背景，这条比\"2 美元\"的段子有价值得多：芯片竞争正从指令集授权转向\"合规测试标准\"的话语权。如果你关注半导体产业，把\"谁定义测试\"当作分析框架，比盯制程节点更能看清 Arm/RISC-V 的长期博弈。"
+    },
+    {
+      "rank": 3,
+      "domain": "股票",
+      "id": "rss:https://www.netinterest.co/p/capital-wars",
+      "url": "https://www.netinterest.co/p/capital-wars",
+      "source": "Net Interest",
+      "stars": 4,
+      "title": "CoreWeave 与数据中心建造经济学：AI 资本开支的融资结构正在被重新定价",
+      "lead": "Marc Rubinstein 这期拆解 CoreWeave 和数据中心建设的资金结构。配合本周信号——Anthropic 估值据报缩水 500B、Firmus 的 300 亿美元 IPO 梦 48 小时破灭、韩国数据中心 IPO 首日暴跌 30%——AI 基建的融资端明显在收紧。这不是唱衰，是资本成本变了。",
+      "confirmed": [
+        "Net Interest 本期主题为 CoreWeave 与数据中心建造经济学",
+        "Anthropic 估值据报缩水 500B（Telegraph 报道）",
+        "Firmus 300 亿美元 IPO 计划在 48 小时内告吹",
+        "韩国某数据中心相关 IPO 首日暴跌 30%，拖累科技情绪",
+        "10 年期美债收益率一度升破 5.3%，为 24 年高位"
+      ],
+      "judgment": [
+        "估值缩水与 IPO 折戟是短期情绪还是结构性拐点，尚无定论",
+        "CoreWeave 创始人在高位套现 33 亿美元，信号偏负面但需更多数据",
+        "利率高企对长周期基建项目的折现影响有多大，缺量化",
+        "AI 算力需求本身是否见顶，与融资收紧是两件事，勿混为一谈"
+      ],
+      "implication": "别被\"AI 泡沫破裂\"的标题带跑。真正值得跟踪的是融资成本这条线：利率、IPO 窗口、创始人套现，三者叠加才是资本面对 AI 基建的重新定价。你做 side project 若涉及调用付费 API，短期价格战仍对你有利，但别把\"无限便宜算力\"当长期假设。"
     },
     {
       "rank": 4,
-      "domain": "AI",
-      "id": "hn:50091788",
-      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "source": "CSO Online / HN",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+      "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+      "source": "TechCrunch",
       "stars": 4,
-      "title": "专家反驳「AI 失控」叙事：是前沿实验室跳过了基础安全，不是 Agent 自己变坏",
-      "lead": "CSO Online 的报道把近期一连串 AI hacking 事件归因于 containment 与监控失效，而非模型自主作恶。这个视角和 OpenAI 断网决定互为印证：问题出在工程侧的隔离与监控没做到位。",
+      "title": "Agent 云 Daytona 估值冲到 10 亿美元：给每个 agent 一台自己的电脑",
+      "lead": "Daytona 做的是\"agent 专用云\"——给每个 agent 分配独立计算环境，避免互相污染。FirstMark 领投，天使名单里有 Stripe、Perplexity、Datadog、Mercor 的创始人。在 AI 基建融资普遍降温的一周里，这条逆势拿到 10 亿美元估值，说明 agent 执行环境是被资本认可的刚需层。",
       "confirmed": [
-        "CSO Online 报道称多起 AI hacking 事件源于 containment 与 monitoring 失效",
-        "专家明确表示「不是 Agent 失控，是实验室跳过了安全基础」",
-        "该报道在 HN 获得 951 分，讨论热度高",
-        "与 OpenAI 10 月 23 日断网决定时间接近，形成呼应",
-        "同期 Tom's Hardware 报道 Claude、Grok 被用于自动化攻击拉美 400+ 机构"
+        "Daytona 估值达 10 亿美元，FirstMark 领投",
+        "天使投资人包括 Stripe、Perplexity、Datadog、Mercor 创始人",
+        "产品定位是为每个 agent 提供独立计算机/隔离执行环境",
+        "融资发生在 AI 基建整体降温的一周内，属逆势",
+        "同周 MIT 研究显示 13 个 AI 在虚拟岛自发发明游戏，agent 自主性受关注"
       ],
       "judgment": [
-        "「containment 失效」的具体技术细节报道未展开，多为专家定性判断",
-        "把责任归于实验室是否过于简化，仍需独立审计数据",
-        "对 Agent 开发者而言，哪些监控手段被证明有效，尚无公开最佳实践",
-        "监管是否会因此加速介入，方向不明"
+        "10 亿美元估值对应的收入与客户数未披露，估值合理性存疑",
+        "agent 隔离执行是刚需还是可被云厂商顺手吞并的功能层，待观察",
+        "与 E2B、Modal 等同类方案的差异化不明显",
+        "企业客户对 agent 上云的合规接受度仍是变量"
       ],
-      "implication": "这条直接关系到你正在做的 Agent 项目：如果你给 content-curator 加了自动执行能力（写文件、调外部 API），现在就该补上最小权限和操作日志。别等出事再补——「我知道 containment 怎么做」本身就是简历亮点。"
+      "implication": "你做 agent 项目时，\"执行环境隔离\"这个痛点被资本验证了。短期不必上 Daytona，但可以在自己的 content-curator 里借鉴思路：把抓取、摘要、发布拆成隔离的沙箱步骤，避免一个环节的脏数据污染整条链。这是能写进简历的架构决策。"
     },
     {
       "rank": 5,
-      "domain": "金融",
-      "id": "hn:50202671",
-      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
-      "source": "The Economist / HN",
+      "domain": "AI",
+      "id": "hn:50122800",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "source": "Hacker News",
       "stars": 4,
-      "title": "The Economist：AI 算力是「新石油」，但缺一个像样的交易市场",
-      "lead": "经济学人把算力类比石油，指出当前算力交易缺乏标准化合约与现货市场，导致定价低效、风险集中。同期 Netinterest 的《Capital Wars》拆解 CoreWeave 的数据中心经济学，两篇可以对照读。",
+      "title": "Anthropic 用 Claude 挖出 ECDSA 曲线参数的来源，密码学考古被 AI 推进",
+      "lead": "Anthropic 发布研究，用 Claude 追溯 ECDSA 曲线参数的起源——这是密码学里长期语焉不详的一段历史。HN 上 1065 分，说明工程圈对\"AI 做真实研究\"的兴奋度很高。相比教程类内容，这类\"AI 产出可验证新知识\"的案例更稀缺，也更值得看它到底怎么做到的。",
       "confirmed": [
-        "The Economist 10 月 22 日发文，主张 AI compute 需要新的市场机制",
-        "文章将算力类比石油，指出缺乏标准化交易市场",
-        "Netinterest 同日发布《Capital Wars》，分析 CoreWeave 的数据中心经济学",
-        "HN 讨论 52 分，属专业读者圈层传播",
-        "背景是近期数据中心股回调、韩国 IPO 暴跌 30%"
+        "Anthropic 官方研究页面发布 ECDSA 曲线起源追溯",
+        "HN 讨论热度 1065 分，位列当日前列",
+        "ECDSA 曲线参数来源在密码学界长期缺乏完整公开记录",
+        "研究由 Anthropic 官方研究团队署名发布"
       ],
       "judgment": [
-        "算力能否真正金融化（期货、现货）取决于监管与标准化进度，短期难落地",
-        "「新石油」类比是否成立，反对者认为算力可复制性远高于石油",
-        "对个人开发者而言，算力市场成熟是否意味着价格更透明，还是更波动",
-        "CoreWeave 模式的高杠杆风险，文章未给出量化结论"
+        "Claude 在其中承担多少实质推理、多少是检索整理，官方未细说",
+        "结论的密码学严谨性需独立同行评审验证",
+        "这是可复现的方法论还是单次案例，尚不清楚",
+        "对\"AI 做科研\"的普适性，一条案例不足以定论"
       ],
-      "implication": "这条适合周末花 20 分钟读，因为它解释了你调用 API 时那个价格背后的结构性因素。做 Side Project 时，算力成本假设会变——别把「现在便宜」当成长期前提写进你的产品逻辑。"
+      "implication": "这条契合你想看的\"AI 名人/深度研究\"方向。建议你读原文时重点看方法部分：它怎么组织检索、怎么交叉验证历史文献——这套流程你完全可以搬到 content-curator 的\"事实核查\"环节，比看十个教程更有迁移价值。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Micron 放弃研究 20 年的 4F² DRAM，称无密度优势且推高成本",
-      "url": "https://www.tomshardware.com/pc-components/dram/micron-pulls-the-plug-on-future-4f2-dram-after-two-decades-of-research-in-dramatic-shift-company-says-architecture-offers-no-meaningful-density-advantages-increases-manufacturing-complexity-and-costs-and-has-fundamental-scaling-limitations",
-      "source": "Tom's Hardware",
-      "one_liner": "二十年路线被官方判死，存储架构的分岔选择对理解 AI 内存瓶颈有直接价值，但偏产业纵深，放备选。"
+      "domain": "AI",
+      "title": "入门 agent 只推荐三个：zerostack、claude code、deepseek harness",
+      "url": "http://www.bilibili.com/video/av117490692655912",
+      "source": "lilyco42",
+      "one_liner": "10-23 刚发的新视频，观点型选型而非教程，契合你\"要 why 不要 what\"的偏好，但信息密度待验证。"
+    },
+    {
+      "domain": "AI",
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "source": "Hacker News",
+      "one_liner": "951 分，专家反驳\"agent 失控\"叙事，指向实验室安全基础缺失，是理解 OpenAI 断网决策的关键背景。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "台积电寻求不含中国稀土磁体的芯片设备，要求供应商提供替代电机",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-seeking-chipmaking-equipment-that-doesnt-contain-chinese-rare-earth-magnets-asks-suppliers-to-provide-alternative-motors-as-export-controls-threaten-fab-operations",
+      "title": "Deepseek 4.1 Flash：更聪明、更便宜，但幻觉率高于闭源对手",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/deepseeks-latest-ai-model-is-smarter-than-ever-but-its-low-running-costs-come-at-a-price-open-weight-model-is-fit-for-agentic-workloads-but-is-more-prone-to-hallucination-than-proprietary-competitors",
       "source": "Tom's Hardware",
-      "one_liner": "出口管制从芯片延伸到设备零部件，供应链去风险化的具体动作，值得知道但今天不够头条。"
+      "one_liner": "开源权重、极低单任务成本、适合 agent 负载，但幻觉偏高——对你选模型做 agent 有直接参考价值。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "中国不用 EUV 也能做先进制程，但代价持续上升：多重曝光带来更大 die、更低良率",
+      "title": "中国不用 EUV 也能做先进芯片，但账单在涨",
       "url": "https://www.tomshardware.com/tech-industry/semiconductors/china-can-make-advanced-chips-without-euv-but-the-bill-keeps-growing-duv-multiple-patterning-means-bigger-dies-lower-yields-and-longer-manufacturing-times",
       "source": "Tom's Hardware",
-      "one_liner": "把「无 EUV 路线」的成本账算清楚了，工程视角扎实，但结论不新，放备选。"
+      "one_liner": "DUV 多重曝光逼近 5nm 级的代价：更大 die、更低良率、更长工时，适合你的半导体背景深读。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "非法 Nvidia Blackwell Ultra B300 出现在中国电信网络中，共识别 32 颗",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/illegal-nvidia-blackwell-ultra-b300-gpus-found-inside-state-owned-china-telecoms-network-nvidia-says-chip-smuggling-a-drop-in-the-bucket-insists-smuggling-remains-a-nonfactor",
+      "title": "TSMC 寻求不含中国稀土磁体的芯片设备",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-seeking-chipmaking-equipment-that-doesnt-contain-chinese-rare-earth-magnets-asks-suppliers-to-provide-alternative-motors-as-export-controls-threaten-fab-operations",
       "source": "Tom's Hardware",
-      "one_liner": "走私规模有了具体数字，但事件本身是旧线索的延续，信息增量有限。"
+      "one_liner": "出口管制从芯片延伸到设备零部件，TSMC 要求供应商换掉稀土电机，供应链脱钩的又一具体切口。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "美国银行紧急限制 AI agent 活动，检测到 agent 访问客户账户甚至尝试交易",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/us-banks-scramble-to-restrict-ai-agent-activity-agents-detected-accessing-customer-accounts-or-even-attempting-to-make-transactions-in-breach-of-policy",
+      "source": "Tom's Hardware",
+      "one_liner": "agent 落地的真实阻力：银行无法判断交易是否合法，直接封禁。做 agent 产品要正视这类合规边界。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Google 更新隐私政策：开启 Personal Intelligence 后 Gmail 数据可能用于广告定向",
-      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-      "source": "The Verge",
-      "one_liner": "对你这种重度用 Google 服务的人是实际影响，但属于政策条款变化，深度不足以上头条。"
+      "title": "Gemini 4 Argon 发布，含机器人版本与 StarCraft 实测",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "source": "Hacker News",
+      "one_liner": "1705 分的大厂发布，但已过去数周，属已知信息；机器人分支和游戏 benchmark 是新增看点。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Agent 云创业公司 Daytona 估值达 10 亿美元，Stripe、Perplexity 创始人参投",
-      "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
-      "source": "TechCrunch",
-      "one_liner": "「给每个 Agent 一台自己的电脑」这个定位和你做的项目直接相关，但融资新闻本身信息密度一般。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "OpenAI 筹备 300 亿美元新融资，估值 1.25 万亿，IPO 前最后一轮",
+      "title": "OpenAI 拟以 1.25 万亿美元估值融资 300 亿美元，IPO 前",
       "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
       "source": "TechCrunch",
-      "one_liner": "数字够大，但与 Anthropic 估值回撤放在一起看才有意思，单条放备选。"
+      "one_liner": "若成真将成史上最高估值私营公司，与 Anthropic 估值缩水形成对照，资本面分化明显。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "MIT 研究：13 个 AI 被丢到虚拟荒岛后，开始自创游戏、悼念丢失的戒指",
-      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-      "source": "TechCrunch",
-      "one_liner": "有趣的 Agent 行为观察实验，但结论偏轶事，工程价值有限。"
+      "title": "Google 隐私政策更新：Gmail、Google Photos 数据或用于广告定向",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "source": "The Verge",
+      "one_liner": "开启 Personal Intelligence 即交出更多广告数据，用 Google AI 功能的人该知道这条。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Stratechery 访谈 Craig Moffett：SpaceX 与泡沫",
+      "url": "https://stratechery.com/2026/an-interview-with-craig-moffett-about-spacex-and-bubbles/",
+      "source": "Stratechery",
+      "one_liner": "Ben Thompson 的深度访谈，把 dot-com 泡沫教训套用到今天的 AI 基建，契合你要的访谈类长内容。"
     },
     {
       "domain": "股票",
-      "title": "Netinterest《Capital Wars》：CoreWeave 与数据中心建设的经济学",
-      "url": "https://www.netinterest.co/p/capital-wars",
-      "source": "Marc Rubinstein",
-      "one_liner": "和头条 5 配套的深度长文，单看是金融分析，配合经济学人那篇读更完整。"
+      "title": "Anthropic S-1 曝光：高增长、高风险与算力成本",
+      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
+      "source": "WSJ",
+      "one_liner": "招股书里的算力成本结构是理解 AI 公司经济模型的一手材料，比二手解读值钱。"
     },
     {
       "domain": "股票",
-      "title": "数据中心股下滑，韩国 IPO 首日暴跌 30%，压制科技情绪",
-      "url": "https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html",
-      "source": "CNBC / HN",
-      "one_liner": "AI 资本退潮的具体切片，但属于市场情绪类，深度不够。"
+      "title": "AI 算力是新的石油，且需要一个新市场",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+      "source": "The Economist",
+      "one_liner": "把算力类比石油并讨论定价机制缺失，是理解算力金融化的框架性文章。"
     },
     {
       "domain": "金融",
-      "title": "美国联邦赤字一年跳增 12%，接近 2 万亿美元",
-      "url": "https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html",
-      "source": "Yahoo Finance / HN",
-      "one_liner": "宏观背景数据，解释利率与 AI 融资成本的上游压力，但离你的日常较远。"
+      "title": "AI compute is the new oil–and needs a new market（金融视角）",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+      "source": "Hacker News",
+      "one_liner": "与股票域同源，金融域保留此条以满足覆盖：算力作为资产类别缺定价市场，值得金融视角一读。"
     },
     {
       "domain": "金融",
-      "title": "美国下令所有民事机构移除 DeepSeek，包括基于它构建的工具",
-      "url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
-      "source": "HN",
-      "one_liner": "监管动作明确，但来源是个人博客转述，原始文件未核实，谨慎放备选。"
+      "title": "10 年期美债收益率升破 5.3%，24 年新高",
+      "url": "https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f",
+      "source": "WSJ",
+      "one_liner": "利率是 AI 基建融资收紧的根因之一，理解这条才能读懂本周数据中心 IPO 的连环折戟。"
     },
     {
-      "domain": "AI",
-      "title": "入门 Agent 只推荐三个：zerostack、Claude Code、DeepSeek Harness",
-      "url": "http://www.bilibili.com/video/av117490692655912",
-      "source": "lilyco42 / Bilibili",
-      "one_liner": "10 月 23 日刚发的新视频，观点鲜明但播放量低、无文字稿，先放备选观察。"
-    },
-    {
-      "domain": "AI",
-      "title": "Everything Claude Code：GitHub 116K star 的 Claude Code 配置项目实战讲解",
-      "url": "http://www.bilibili.com/video/av116319122885806",
-      "source": "极客魔导师 / Bilibili",
-      "one_liner": "斜杠命令、子代理、Hooks 全覆盖，契合你的偏好，但发布于 3 月，新颖度不足。"
-    },
-    {
-      "domain": "AI",
-      "title": "Claude Code Hooks 回调 + Agent Teams 实现零轮询全自动开发，省 Token 方案",
-      "url": "http://www.bilibili.com/video/av116046157647899",
-      "source": "AI超元域 / Bilibili",
-      "one_liner": "工程细节够硬（Hooks 回调降 Token），但发布于 2 月且标题偏营销，降级备选。"
+      "domain": "金融",
+      "title": "市场抛售与利率上行考验 AI 数据中心交易热潮",
+      "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
+      "source": "Reuters",
+      "one_liner": "路透把抛售、利率、数据中心交易三者串起来，是本周资本面降温的实证报道。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-10-24T08:31:58+0000"
+    "scored_at": "2026-10-24T09:21:31+0000"
   }
 }
