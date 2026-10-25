@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-24T08:01:41.736540+00:00",
+  "fetched_at": "2026-10-25T08:17:24.364478+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,7 +10,7 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 9,
-    "HN · IPO": 10,
+    "HN · IPO": 9,
     "HN · earnings": 0,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 40,
+  "total": 39,
   "items": [
     {
       "id": "hn:50162431",
@@ -32,8 +32,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50162431"
       },
       "duration_sec": null,
-      "views": 101,
-      "comments": 22,
+      "views": 102,
+      "comments": 23,
       "published_at": "2026-10-20T07:15:12+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -135,6 +135,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50210325",
+      "title": "Built a site that teaches investing using the live market as the examples",
+      "url": "https://www.stocksightfinance.com",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50210325",
+        "name": "kshitik",
+        "hn_url": "https://news.ycombinator.com/item?id=50210325"
+      },
+      "duration_sec": null,
+      "views": 13,
+      "comments": 2,
+      "published_at": "2026-10-23T15:07:06+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:50086344",
       "title": "Humxn Commits $50M to Buy Skilled Trades Data for Robotics Training",
       "url": "https://markets.businessinsider.com/news/stocks/humxn-research-labs-wants-to-buy-50-million-worth-of-skilled-trades-farming-and-manufacturing-data-for-ai-robotics-training-1036622854",
@@ -168,25 +187,6 @@
       "views": 10,
       "comments": 8,
       "published_at": "2026-10-16T18:27:58+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50210325",
-      "title": "Built a site that teaches investing using the live market as the examples",
-      "url": "https://www.stocksightfinance.com",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50210325",
-        "name": "kshitik",
-        "hn_url": "https://news.ycombinator.com/item?id=50210325"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 2,
-      "published_at": "2026-10-23T15:07:06+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -336,28 +336,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50177795"
       },
       "duration_sec": null,
-      "views": 17,
+      "views": 18,
       "comments": 12,
       "published_at": "2026-10-21T08:51:15+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50020096",
-      "title": "Ask HN: What if no AIpocalypse, no AI bubble, what if it just keeps advancing?",
-      "url": "https://news.ycombinator.com/item?id=50020096",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50020096",
-        "name": "consumer451",
-        "hn_url": "https://news.ycombinator.com/item?id=50020096"
-      },
-      "duration_sec": null,
-      "views": 16,
-      "comments": 33,
-      "published_at": "2026-10-09T13:18:05+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"

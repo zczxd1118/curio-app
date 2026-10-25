@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-10-24T08:01:49.860730+00:00",
+  "fetched_at": "2026-10-25T08:17:31.950355+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -829,7 +829,7 @@
       },
       "duration_sec": null,
       "views": 33,
-      "comments": 23,
+      "comments": 24,
       "published_at": "2026-10-16T18:54:47+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -999,8 +999,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50202671"
       },
       "duration_sec": null,
-      "views": 52,
-      "comments": 59,
+      "views": 53,
+      "comments": 62,
       "published_at": "2026-10-22T23:45:16+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -1075,7 +1075,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50173487"
       },
       "duration_sec": null,
-      "views": 268,
+      "views": 269,
       "comments": 148,
       "published_at": "2026-10-20T22:21:05+00:00",
       "summary": "",
@@ -1116,25 +1116,6 @@
       "views": 196,
       "comments": 108,
       "published_at": "2026-10-12T17:08:16+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49832844",
-      "title": "Federal judge orders Texas to air condition all prisons by the end of 2029",
-      "url": "https://www.texastribune.org/2026/09/22/texas-prison-air-conditioning-lawsuit-ruling/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49832844",
-        "name": "bonefishgrill",
-        "hn_url": "https://news.ycombinator.com/item?id=49832844"
-      },
-      "duration_sec": null,
-      "views": 120,
-      "comments": 202,
-      "published_at": "2026-09-24T16:15:34+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
@@ -1235,6 +1216,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50194602",
+      "title": "Full Disk Encryption on Fedora with TPM2",
+      "url": "https://www.apalrd.net/posts/2026/ent_luks/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50194602",
+        "name": "speckx",
+        "hn_url": "https://news.ycombinator.com/item?id=50194602"
+      },
+      "duration_sec": null,
+      "views": 30,
+      "comments": 44,
+      "published_at": "2026-10-22T12:46:40+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
       "id": "hn:50190168",
       "title": "Epic Games Inc v Apple Inc",
       "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca1552",
@@ -1247,7 +1247,7 @@
       },
       "duration_sec": null,
       "views": 191,
-      "comments": 138,
+      "comments": 139,
       "published_at": "2026-10-22T01:52:03+00:00",
       "summary": "",
       "matched_keyword": "fed",

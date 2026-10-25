@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-24T08:01:54.830476+00:00",
+  "fetched_at": "2026-10-25T08:17:37.254904+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -359,20 +359,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50035886",
-      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "id": "hn:50219700",
+      "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+      "url": "https://github.com/Zagitta/gpu-unlock",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50035886",
-        "name": "arkj",
-        "hn_url": "https://news.ycombinator.com/item?id=50035886"
+        "id": "50219700",
+        "name": "fragebogen",
+        "hn_url": "https://news.ycombinator.com/item?id=50219700"
       },
       "duration_sec": null,
-      "views": 180,
-      "comments": 116,
-      "published_at": "2026-10-10T18:48:35+00:00",
+      "views": 235,
+      "comments": 71,
+      "published_at": "2026-10-24T09:58:27+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50198675"
       },
       "duration_sec": null,
-      "views": 493,
-      "comments": 212,
+      "views": 499,
+      "comments": 217,
       "published_at": "2026-10-22T17:44:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
