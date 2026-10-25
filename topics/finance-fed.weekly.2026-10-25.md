@@ -2,41 +2,41 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今天最值得看的两条信号：一是 OpenAI 宣布前沿模型不再吃「活的互联网」数据，训练数据供应链开始主动收缩；二是 AI 资本侧明显降温——Anthropic 估值被传缩水 5000 亿美元、数据中心类 IPO 接连折戟、10 年期美债收益率破 5.3%。算力与半导体侧则是另一条线：中国用 DUV 多重曝光硬撑 5nm 级，代价是良率与成本。_
+_今天最重要的两个信号：一是 AI 资本叙事开始松动——Anthropic 估值被传缩水 5000 亿美元、Firmus 30 亿美元 IPO 48 小时崩盘、数据中心股集体下挫，钱开始重新定价算力；二是工程侧出现真东西，Opus 5.5 agent 自主发现两个室温磁性半导体候选材料，这是 agent 从写代码走向做科研的第一个可验证样本。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. 10 年期美债收益率升破 5.3%，24 年来最高，AI 数据中心融资首当其冲
+### 5. Economist：AI 算力是新的石油，但缺一个像样的现货市场
 
-**[金融]** · ⭐⭐⭐⭐ · _Hacker News / WSJ_
+**[金融]** · ⭐⭐⭐⭐ · _ijidak_
 
-WSJ 报道 10 年期美债收益率突破 5.3%，为 24 年未见水平。Reuters 同期指出，市场抛售与利率上行正在「测试 AI 数据中心交易热潮」。逻辑很直白：数据中心是重资产、长周期、靠杠杆的项目，贴现率一抬，整个 AI 基建的融资模型就要重算。
+Economist 提出一个结构性判断：算力正在变成大宗商品，却没有对应的定价机制——没有现货市场、没有期货、没有标准化合约。结果是算力价格高度不透明，长协锁死了流动性。这篇文章把'算力金融化'这件事从比喻推进到了制度设计层面。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 10 年期美债收益率升破 5.3%，为约 24 年最高 | 收益率上行是短期波动还是趋势起点，市场分歧明显 |
-| Reuters 报道市场抛售与利率上行正在考验 AI 数据中心交易 | 对具体数据中心项目的融资成本影响尚无量化披露 |
-| 美国联邦财政赤字一年内增长 12%，接近 2 万亿美元 | AI 资本开支是否因此放缓，目前只有情绪面证据 |
-| 数据中心相关股票与 IPO 近期同步走弱 | 与 AI 泡沫论的关系属于解读，非事实 |
+| Economist 10 月 22 日刊文，主张算力需要新的市场机制 | 算力能否真正标准化（异构硬件、网络、SLA 差异大）存疑 |
+| 当前算力交易以长协为主，缺乏现货与衍生品市场 | 建立现货市场需要多久、由谁牵头，文章未给路径 |
+| 同期 CoreWeave 创始人套现 33 亿美元股票 | 金融化是否会加剧而非缓解算力价格波动，存在反向风险 |
+| 数据中心资产证券化规模在快速膨胀 | 对个人开发者而言，短期更可能看到的是 API 价格战而非市场化定价 |
 
 **📖 主编点评**
 
-这条和 Anthropic 估值那条是同一件事的两面。你关注 AI 产品动态时，别只看模型发布——融资环境的松紧决定了哪些工具能活到你用上它的那天。选型时优先押有真实收入的工具。
+这条对你做产品判断有用：如果算力真的走向市场化定价，agent 类产品的成本结构会从'固定 API 账单'变成'可对冲的浮动成本'。你现在设计 content-curator 的调用策略时，把 token 消耗做成可观测指标，将来迁移成本会低很多。
 
-📺 [打开原文](https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f)
+📺 [打开原文](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market)
 
 ---
 
 ## 📋 备选阅读
 
-- [AI 算力是新的石油，需要一个新市场](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market) —— 把算力当大宗商品定价的框架讨论，思路新颖但偏宏观，适合周末慢读。
-  _Hacker News / The Economist_
-- [美国下令所有民事机构移除 DeepSeek，含基于其构建的工具](https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/) —— DHS 命令波及「基于 DeepSeek 构建的工具」，对做二次封装的开发者是合规红线。
-  _Hacker News_
-- [美联储被指悄悄吹大 AI 泡沫，同时抬高你的电费](https://www.thebignewsletter.com/p/how-the-federal-reserve-secretly) —— 把货币政策、数据中心用电与电价绑在一起讲，观点性强，当观点读不当事实读。
-  _Hacker News_
+- [美国联邦预算赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 赤字与 10 年期国债收益率破 5.3% 是同一枚硬币的两面，构成 AI 资本成本的宏观底色。
+  _ck2_
+- [美国下令所有文职机构移除 DeepSeek，含基于其构建的工具](https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/) —— 禁令延伸到二次开发工具，对做开源模型集成的开发者是明确风险提示，值得留意后续范围。
+  _jacquesm_
+- [特斯拉 Q3 利润下滑 43%](https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/) —— 与 Roadster 发布会同期发生，形成叙事反差，但和你的关注方向关联度低，仅作背景。
+  _throw0101a_
 
 ---
 

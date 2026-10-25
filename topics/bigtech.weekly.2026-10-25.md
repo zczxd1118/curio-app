@@ -2,28 +2,28 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今天最值得看的两条信号：一是 OpenAI 宣布前沿模型不再吃「活的互联网」数据，训练数据供应链开始主动收缩；二是 AI 资本侧明显降温——Anthropic 估值被传缩水 5000 亿美元、数据中心类 IPO 接连折戟、10 年期美债收益率破 5.3%。算力与半导体侧则是另一条线：中国用 DUV 多重曝光硬撑 5nm 级，代价是良率与成本。_
+_今天最重要的两个信号：一是 AI 资本叙事开始松动——Anthropic 估值被传缩水 5000 亿美元、Firmus 30 亿美元 IPO 48 小时崩盘、数据中心股集体下挫，钱开始重新定价算力；二是工程侧出现真东西，Opus 5.5 agent 自主发现两个室温磁性半导体候选材料，这是 agent 从写代码走向做科研的第一个可验证样本。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. OpenAI 停止用「活的互联网」训练前沿模型，理由是「重大风险」
+### 3. OpenAI 宣布前沿模型不再用实时互联网训练，理由是"重大风险"
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Tim Fernholz_
 
-OpenAI 公开表示将不再让前沿模型直接抓取实时互联网数据训练，理由是存在「significant risks」。时间点很微妙——几周前自家工程师还公开说这条路走不通。这不是技术细节调整，而是训练数据供应链的一次主动收缩：实时网页既是最大的语料池，也是最大的投毒面和合规雷区。
+OpenAI 表示将切断前沿模型与实时互联网的训练连接，官方给出的理由是 significant risks。时间点很微妙——几周前自家工程师还公开说这个方案行不通。这条对做 RAG 和 agent 的人影响直接：训练数据与推理时检索的边界被官方重新划了一次。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| OpenAI 官方表态：前沿模型不再以实时互联网数据为训练来源 | 「不再训练」的具体边界未明：是彻底断网，还是仅限前沿模型、是否含 RL 环境 |
-| 给出的理由是「significant risks」，未逐条列明具体风险类型 | 是否与近期网页投毒、版权诉讼或监管压力直接相关，官方未确认 |
-| 该决定发生在一位 OpenAI 工程师公开质疑该方案可行性数周之后 | 对模型时效性的实际影响要等下一代模型评测才能验证 |
-| 此前业界普遍做法是持续抓取实时网页以保持模型时效性 | 其他厂商（Anthropic、Google）是否跟进，目前无信号 |
+| OpenAI 官方表态，前沿模型训练不再接入实时互联网 | '实时互联网'的具体边界未定义，是否包含定期快照语料不明 |
+| 官方理由是 significant risks | 是否只针对前沿模型、小模型是否同样处理，未说明 |
+| 时间点在自家工程师公开质疑该方案数周之后 | 与数据授权、版权诉讼的关联程度未公开 |
+| TechCrunch 10 月 23 日报道 | 对推理时联网检索（如 Search 产品）是否受影响，官方未回应 |
 
 **📖 主编点评**
 
-你做 content-curator 这类依赖实时抓取的 Agent，这条是反向提醒：上游模型厂商开始不信任开放网页，你自己的数据管道就更该做来源白名单和内容校验。别把「能抓到」当成「能信」。
+这条直接关系到你的 RAG 实践：训练侧关掉实时数据，意味着推理侧的检索质量权重更高。你项目里如果要做内容聚合，抓取与索引的时效性设计会比模型选型更关键，值得单独写一段设计说明放进 README。
 
 📺 [打开原文](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)
 
@@ -31,12 +31,12 @@ OpenAI 公开表示将不再让前沿模型直接抓取实时互联网数据训�
 
 ## 📋 备选阅读
 
-- [Gemini 4 Argon 发布，配套机器人版本与 StarCraft 实测](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) —— 1700+ 分的大发布，但已过去三周多，且摘要信息薄，放备选等评测沉淀。
-  _Hacker News_
-- [Block 新语音模型可在 MacBook M4 Max 本地运行](https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/) —— 本地跑、听感接近真人，端侧语音这条线值得跟，但缺具体参数。
-  _TechCrunch_
-- [Daytona 估值达 10 亿美元：给每个 Agent 一台云上电脑](https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/) —— Agent 沙箱基础设施的融资信号，Stripe、Datadog 创始人跟投，方向值得记。
-  _TechCrunch_
+- [Block 新语音模型听起来像真人，可在 MacBook M4 Max 本地跑](https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/) —— 本地推理 + 拟真度是双卖点，对关注端侧部署的人是新事实，但缺少技术细节披露。
+  _Ivan Mehta_
+- [Agent 云创业公司 Daytona 估值达 10 亿美元，FirstMark 领投](https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/) —— '给每个 agent 一台自己的电脑'这个定位值得关注，Stripe、Datadog 创始人跟投，是 agent 基础设施层的信号。
+  _Julie Bort_
+- [宾州通过 AI 欺骗性广告法，要求 AI 生成广告加标注](https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act) —— 州级立法落地，对做内容生成产品的人是合规前置信号，但短期不影响个人项目。
+  _Terrence O’Brien_
 
 ---
 

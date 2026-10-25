@@ -1,33 +1,31 @@
 # Curio · AI · 2026-10-25
 
-> 今日 1 条头条 + 4 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天最值得看的两条信号：一是 OpenAI 宣布前沿模型不再吃「活的互联网」数据，训练数据供应链开始主动收缩；二是 AI 资本侧明显降温——Anthropic 估值被传缩水 5000 亿美元、数据中心类 IPO 接连折戟、10 年期美债收益率破 5.3%。算力与半导体侧则是另一条线：中国用 DUV 多重曝光硬撑 5nm 级，代价是良率与成本。_
+_今天最重要的两个信号：一是 AI 资本叙事开始松动——Anthropic 估值被传缩水 5000 亿美元、Firmus 30 亿美元 IPO 48 小时崩盘、数据中心股集体下挫，钱开始重新定价算力；二是工程侧出现真东西，Opus 5.5 agent 自主发现两个室温磁性半导体候选材料，这是 agent 从写代码走向做科研的第一个可验证样本。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. 从 LLM 到 Agent Skill，一期视频打通底层逻辑
+### 1. Claude Code Agent Teams 上手指南 + 项目实测
 
-**[AI]** · ⭐⭐⭐ · _马克的技术工作坊_
+**[AI]** · ⭐⭐⭐ · _程序员阿江-Relakkes_
 
-概念串联做得完整（LLM→Token→Context→Tool→MCP→Agent→Skill），但属综述型，新颖度不够上头条。
+讲清了 Team Lead 拆任务、Teammate 并行、互相通信的架构，正好对上你项目里多 agent 编排的痛点，但发布时间较早不算新。
 
-📺 [打开原文](http://www.bilibili.com/video/av116227955497963)
+📺 [打开原文](http://www.bilibili.com/video/av116037064331269)
 
 ---
 
 ## 📋 备选阅读
 
-- [一个 CLI 干掉所有 MCP 工具，省 99% token：mcp2cli 深度解析](http://www.bilibili.com/video/av116204349953548) —— 把 MCP server 转成 CLI、用懒发现把 token 从数十万降到几千，工程细节密度高，值得单独看。
+- [一个 CLI 干掉所有 MCP 工具，省 99% token：mcp2cli](http://www.bilibili.com/video/av116204349953548) —— 用懒发现机制把 MCP 的 token 浪费从数十万降到几千，核心实现只有一个 Python 文件，工程细节密度高，值得单独看。
   _探索未至之境_
-- [Claude Code Agent Teams 上手指南 + 项目实测](http://www.bilibili.com/video/av116037064331269) —— 讲清 Team Lead 拆任务、多 Teammate 并行的架构，正好对上你关心的子 Agent 编排。
-  _程序员阿江-Relakkes_
-- [Claude Code Hooks 回调 + Agent Teams 零轮询省 token](http://www.bilibili.com/video/av116046157647899) —— Stop Hook 自动回调替代轮询，是能直接抄进项目的具体配置级技巧。
-  _AI超元域_
-- [用 Claude Skill 做高质量 PPT（附完整教程）](http://www.bilibili.com/video/av116474832361424) —— 从 0 到 1 装 Skill 跑成品，Skill 打包思路可迁移到自己的 Agent 项目。
+- [如何用 Claude Skill 做高质量 PPT（附完整教程）](http://www.bilibili.com/video/av116474832361424) —— Claude Design 的 Skill 从零装配到出成品，是少见的 Skill 实操而非概念科普，但场景偏办公不偏工程。
   _阿西_出海_
+- [从夯到拉，锐评 32 个 AI 编程工具](http://www.bilibili.com/video/av116578532200786) —— 32 个工具横向实测，信息密度够但属于合集型内容，和你反感的'10 个最强工具'套路接近，放备选。
+  _程序员鱼皮_
 
 ---
 

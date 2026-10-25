@@ -1,121 +1,121 @@
 # Curio 趋势雷达 · 2026-10-25
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 18 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
 
-_今天最值得看的两条信号：一是 OpenAI 宣布前沿模型不再吃「活的互联网」数据，训练数据供应链开始主动收缩；二是 AI 资本侧明显降温——Anthropic 估值被传缩水 5000 亿美元、数据中心类 IPO 接连折戟、10 年期美债收益率破 5.3%。算力与半导体侧则是另一条线：中国用 DUV 多重曝光硬撑 5nm 级，代价是良率与成本。_
-
----
-
-## 🌟 大厂 AI 动态
-
-### 1. OpenAI 停止用「活的互联网」训练前沿模型，理由是「重大风险」
-
-**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
-
-OpenAI 公开表示将不再让前沿模型直接抓取实时互联网数据训练，理由是存在「significant risks」。时间点很微妙——几周前自家工程师还公开说这条路走不通。这不是技术细节调整，而是训练数据供应链的一次主动收缩：实时网页既是最大的语料池，也是最大的投毒面和合规雷区。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| OpenAI 官方表态：前沿模型不再以实时互联网数据为训练来源 | 「不再训练」的具体边界未明：是彻底断网，还是仅限前沿模型、是否含 RL 环境 |
-| 给出的理由是「significant risks」，未逐条列明具体风险类型 | 是否与近期网页投毒、版权诉讼或监管压力直接相关，官方未确认 |
-| 该决定发生在一位 OpenAI 工程师公开质疑该方案可行性数周之后 | 对模型时效性的实际影响要等下一代模型评测才能验证 |
-| 此前业界普遍做法是持续抓取实时网页以保持模型时效性 | 其他厂商（Anthropic、Google）是否跟进，目前无信号 |
-
-**📖 主编点评**
-
-你做 content-curator 这类依赖实时抓取的 Agent，这条是反向提醒：上游模型厂商开始不信任开放网页，你自己的数据管道就更该做来源白名单和内容校验。别把「能抓到」当成「能信」。
-
-📺 [打开原文](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)
-
----
-
-## 🌟 股票
-
-### 2. Anthropic 估值被传缩水 5000 亿美元，AI 一级市场定价开始松动
-
-**[股票]** · ⭐⭐⭐⭐⭐ · _Hacker News / The Telegraph_
-
-Telegraph 报道 Anthropic 估值在 IPO 推进过程中大幅回落，规模达 5000 亿美元级别；同期 Reuters 与 WSJ 已披露其 S-1 显示营收高增但算力成本同样飙升。把这条和 Firmus 30 亿美元 IPO 梦碎、韩国数据中心类 IPO 首日暴跌 30% 放在一起看，AI 资产的定价锚正在从「叙事」切回「现金流」。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Telegraph 报道 Anthropic 估值出现 5000 亿美元级别的回落 | 5000 亿这个数字来自单一媒体，尚未获公司或承销方确认 |
-| Reuters、WSJ 已报道其 IPO 招股书显示营收快速增长、算力成本高企 | 估值回落是二级市场折价还是新一轮融资定价，报道未说清 |
-| Nvidia 支持的数据中心公司 Firmus 撤回 IPO | 是否引发其他 AI 独角兽推迟上市，目前只是市场猜测 |
-| 韩国一宗数据中心相关 IPO 上市后暴跌 30%，拖累板块情绪 | Anthropic 官方对估值口径保持沉默 |
-
-**📖 主编点评**
-
-如果你在简历或项目里引用「AI 融资额」当行业背书，现在要更谨慎——一级市场正在重新定价。对你更有用的是 S-1 里那条：营收涨、算力成本也涨，这才是 Agent 产品真实的经济模型参照。
-
-📺 [打开原文](https://www.telegraph.co.uk/business/2026/10/16/anthropic-valuation-ipo-ai-stock-listing/)
+_今天最重要的两个信号：一是 AI 资本叙事开始松动——Anthropic 估值被传缩水 5000 亿美元、Firmus 30 亿美元 IPO 48 小时崩盘、数据中心股集体下挫，钱开始重新定价算力；二是工程侧出现真东西，Opus 5.5 agent 自主发现两个室温磁性半导体候选材料，这是 agent 从写代码走向做科研的第一个可验证样本。_
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 3. 中国用 DUV 多重曝光逼近 5nm 级，代价是更大 die、更低良率、更长工时
+### 1. Opus 5.5 agent 自主筛出两个室温磁性半导体候选材料，AI 开始做真科研
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _outlier99_
 
-Tom's Hardware 梳理了中国在无 EUV 条件下把老一代 DUV 光刻推到极限的路径：靠多重曝光做到接近 5nm 级别。结论不是「做不出来」，而是「做得出来但账单越来越贵」——die 面积变大、良率下降、制造周期拉长，三重成本叠加。这是对「卡脖子」叙事的一次量化修正。
+Vals.ai 放出一份实验报告：用 Opus 5.5 驱动的多 agent 流水线，从材料数据库检索、假设生成到第一性原理筛选全流程无人干预，最终给出两个室温磁性半导体候选。室温铁磁半导体是自旋电子学的圣杯级难题，几十年没有实用材料。这件事的分量不在结果本身，而在于它第一次把 agent 的产出放到了可被实验证伪的位置。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 中国厂商通过 DUV 多重曝光实现接近 5nm 级别的工艺 | 「5nm 级」是性能对标还是密度对标，报道口径偏模糊 |
-| 代价包括 die 面积增大、良率下降、制造时间延长 | 实际量产良率数字未公开，成本差距难以精确量化 |
-| 报道明确指出进一步微缩的成本曲线在恶化 | 这套路线能撑到几代之后，业内无共识 |
-| ASML 同期表示 2026 年在欧洲「几乎没卖出任何设备」 | 对国产 AI 芯片实际供货能力的影响仍需观察 |
+| Vals.ai 公开博客，完整描述 agent 流水线的检索、假设、筛选三段结构 | 候选材料尚未经实验合成验证，室温铁磁性是否成立仍是开放问题 |
+| 产出为两个室温磁性半导体候选材料，附具体筛选路径 | agent 的筛选逻辑是否只是复述已有文献结论，报告未给出消融实验 |
+| 使用 Opus 5.5 作为推理内核，多 agent 协作完成 | 这类'AI 发现材料'此前多次被质疑为事后挑选，需要第三方复现 |
+| HN 上 495 分，讨论集中在筛选标准是否可复现 | 若成立，对自旋电子学与低功耗存储的影响量级尚无法估计 |
 
 **📖 主编点评**
 
-你做的是电子信息工程，这条值得存下来当工艺课的活案例：多重曝光的成本结构比「能不能做」更能说明产业现实。面试聊到国产替代时，讲清 trade-off 比喊口号有说服力得多。
+你正在做 content-curator，这条是绝佳的方法论参照：agent 的价值不在'能查'，而在'能给出可被证伪的结论'。建议你去看它的 agent 编排结构，尤其是假设生成和筛选之间怎么交接上下文——这正好是你项目里最缺的一环。
+
+📺 [打开原文](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors)
+
+---
+
+### 4. 中国用 DUV 多重曝光摸到 5nm 级，代价是更大的 die、更低的良率、更长的周期
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Chris Stokel-Walker_
+
+Tom's Hardware 梳理了一条被低估的技术路径：中国把老一代 DUV 光刻的多重曝光推到极限，已经接近 5nm 级。但代价明确——die 面积变大、良率下降、制造周期拉长。这不是'突破封锁'的爽文，而是一份成本账单，而且账单还在涨。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| DUV 多重曝光已能逼近 5nm 级制程 | '5nm 级'的具体定义与实测参数未公开 |
+| 代价包括 die 面积增大、良率下降、制造时间延长 | 良率数字没有第三方验证 |
+| 专家判断继续微缩的成本曲线会持续恶化 | 该路径在多少层以上会撞到物理与经济双重天花板，尚无共识 |
+| 同期 ASML 称 2026 年在欧洲销售额为零 | 对国内 AI 芯片实际供给量的影响，短期内难以量化 |
+
+**📖 主编点评**
+
+你是电子信息工程背景，这条值得精读——多重曝光的成本结构是理解'为什么 EUV 是分水岭'的最好切口。面试聊到制程时，能讲清 die size、良率、周期三者的权衡，比背参数有说服力得多。
 
 📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/china-can-make-advanced-chips-without-euv-but-the-bill-keeps-growing-duv-multiple-patterning-means-bigger-dies-lower-yields-and-longer-manufacturing-times)
 
 ---
 
-### 4. DeepSeek 4.1 Flash 1017：单任务成本再压低，适合 Agent 负载但幻觉率更高
+## 🌟 股票
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+### 2. Anthropic 估值被传缩水 5000 亿美元，AI 一级市场的定价开始反向修正
 
-DeepSeek 新版本把 cost-per-task 又往下压了一档，明确定位在 agentic workload——便宜、能跑工具调用链。代价写在标题里：相比闭源竞品更容易幻觉。这条对做 Agent 的人是直接的工程取舍题：省钱换准确率，值不值取决于你的任务能不能容忍重试。
+**[股票]** · ⭐⭐⭐⭐⭐ · _novaRom_
+
+Telegraph 报道 Anthropic 估值较此前高点回落约 5000 亿美元，同期 Reuters 披露的 IPO 招股书显示营收高速增长但算力成本同步飙升。把这两条放在一起看，市场不是在质疑 Anthropic 的技术，而是在重新给'烧算力换增长'这个模式定价。这是本轮 AI 周期里第一次出现头部实验室估值被公开下修。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DeepSeek 4.1 Flash 1017 为开放权重模型 | 具体成本数字与幻觉率对比基线未在摘要中给出 |
-| 单任务成本进一步下降，主打 agentic 工作负载 | 「适合 agentic」是厂商定位还是第三方实测结论，需看原评测 |
-| 评测显示其幻觉率高于闭源竞品 | 在长链路工具调用中的稳定性尚无公开数据 |
-| 定位明确偏向低成本、高吞吐的 Agent 场景 | 对国内开发者可及性（API 稳定性、限流）未提及 |
+| Telegraph 报道 Anthropic 估值较高点回落约 5000 亿美元 | 5000 亿美元这个数字来源单一，未见 Anthropic 官方确认 |
+| Reuters 9 月底披露 IPO 招股书，营收增长与算力成本同步走高 | 估值下修是二级市场情绪传导，还是一级市场真实成交价，尚不明确 |
+| 同期 Firmus 30 亿美元 IPO 在 48 小时内崩盘 | IPO 时间表是否因此推迟，目前无公开信息 |
+| 亚洲芯片股、数据中心股 10 月中旬集体下挫 | 若估值持续下修，是否会反向压缩算力采购，进而影响 Nvidia 订单节奏 |
 
 **📖 主编点评**
 
-如果你在 content-curator 里做多步 Agent 编排，可以拿它当「便宜的执行层」——让贵模型做规划、它做批量执行，再用校验步骤兜幻觉。这比单纯换模型更接近真实工程解法。
+别把这条当财经八卦看。你如果打算把 content-curator 往'AI 产品'方向包装，需要理解一件事：这一轮融资环境收紧后，招聘方会更看重'低成本跑通'的能力。你的项目叙事里应该突出 token 成本控制、本地推理、缓存策略这些具体工程决策。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/deepseeks-latest-ai-model-is-smarter-than-ever-but-its-low-running-costs-come-at-a-price-open-weight-model-is-fit-for-agentic-workloads-but-is-more-prone-to-hallucination-than-proprietary-competitors)
+📺 [打开原文](https://www.telegraph.co.uk/business/2026/10/16/anthropic-valuation-ipo-ai-stock-listing/)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 3. OpenAI 宣布前沿模型不再用实时互联网训练，理由是"重大风险"
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Tim Fernholz_
+
+OpenAI 表示将切断前沿模型与实时互联网的训练连接，官方给出的理由是 significant risks。时间点很微妙——几周前自家工程师还公开说这个方案行不通。这条对做 RAG 和 agent 的人影响直接：训练数据与推理时检索的边界被官方重新划了一次。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| OpenAI 官方表态，前沿模型训练不再接入实时互联网 | '实时互联网'的具体边界未定义，是否包含定期快照语料不明 |
+| 官方理由是 significant risks | 是否只针对前沿模型、小模型是否同样处理，未说明 |
+| 时间点在自家工程师公开质疑该方案数周之后 | 与数据授权、版权诉讼的关联程度未公开 |
+| TechCrunch 10 月 23 日报道 | 对推理时联网检索（如 Search 产品）是否受影响，官方未回应 |
+
+**📖 主编点评**
+
+这条直接关系到你的 RAG 实践：训练侧关掉实时数据，意味着推理侧的检索质量权重更高。你项目里如果要做内容聚合，抓取与索引的时效性设计会比模型选型更关键，值得单独写一段设计说明放进 README。
+
+📺 [打开原文](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)
 
 ---
 
 ## 🌟 金融
 
-### 5. 10 年期美债收益率升破 5.3%，24 年来最高，AI 数据中心融资首当其冲
+### 5. Economist：AI 算力是新的石油，但缺一个像样的现货市场
 
-**[金融]** · ⭐⭐⭐⭐ · _Hacker News / WSJ_
+**[金融]** · ⭐⭐⭐⭐ · _ijidak_
 
-WSJ 报道 10 年期美债收益率突破 5.3%，为 24 年未见水平。Reuters 同期指出，市场抛售与利率上行正在「测试 AI 数据中心交易热潮」。逻辑很直白：数据中心是重资产、长周期、靠杠杆的项目，贴现率一抬，整个 AI 基建的融资模型就要重算。
+Economist 提出一个结构性判断：算力正在变成大宗商品，却没有对应的定价机制——没有现货市场、没有期货、没有标准化合约。结果是算力价格高度不透明，长协锁死了流动性。这篇文章把'算力金融化'这件事从比喻推进到了制度设计层面。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 10 年期美债收益率升破 5.3%，为约 24 年最高 | 收益率上行是短期波动还是趋势起点，市场分歧明显 |
-| Reuters 报道市场抛售与利率上行正在考验 AI 数据中心交易 | 对具体数据中心项目的融资成本影响尚无量化披露 |
-| 美国联邦财政赤字一年内增长 12%，接近 2 万亿美元 | AI 资本开支是否因此放缓，目前只有情绪面证据 |
-| 数据中心相关股票与 IPO 近期同步走弱 | 与 AI 泡沫论的关系属于解读，非事实 |
+| Economist 10 月 22 日刊文，主张算力需要新的市场机制 | 算力能否真正标准化（异构硬件、网络、SLA 差异大）存疑 |
+| 当前算力交易以长协为主，缺乏现货与衍生品市场 | 建立现货市场需要多久、由谁牵头，文章未给路径 |
+| 同期 CoreWeave 创始人套现 33 亿美元股票 | 金融化是否会加剧而非缓解算力价格波动，存在反向风险 |
+| 数据中心资产证券化规模在快速膨胀 | 对个人开发者而言，短期更可能看到的是 API 价格战而非市场化定价 |
 
 **📖 主编点评**
 
-这条和 Anthropic 估值那条是同一件事的两面。你关注 AI 产品动态时，别只看模型发布——融资环境的松紧决定了哪些工具能活到你用上它的那天。选型时优先押有真实收入的工具。
+这条对你做产品判断有用：如果算力真的走向市场化定价，agent 类产品的成本结构会从'固定 API 账单'变成'可对冲的浮动成本'。你现在设计 content-curator 的调用策略时，把 token 消耗做成可观测指标，将来迁移成本会低很多。
 
-📺 [打开原文](https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f)
+📺 [打开原文](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market)
 
 ---
 
@@ -123,54 +123,48 @@ WSJ 报道 10 年期美债收益率突破 5.3%，为 24 年未见水平。Reuter
 
 ### AI
 
-- [从 LLM 到 Agent Skill，一期视频打通底层逻辑](http://www.bilibili.com/video/av116227955497963) —— 概念串联做得完整（LLM→Token→Context→Tool→MCP→Agent→Skill），但属综述型，新颖度不够上头条。
-  _马克的技术工作坊_
-- [一个 CLI 干掉所有 MCP 工具，省 99% token：mcp2cli 深度解析](http://www.bilibili.com/video/av116204349953548) —— 把 MCP server 转成 CLI、用懒发现把 token 从数十万降到几千，工程细节密度高，值得单独看。
-  _探索未至之境_
-- [Claude Code Agent Teams 上手指南 + 项目实测](http://www.bilibili.com/video/av116037064331269) —— 讲清 Team Lead 拆任务、多 Teammate 并行的架构，正好对上你关心的子 Agent 编排。
+- [Claude Code Agent Teams 上手指南 + 项目实测](http://www.bilibili.com/video/av116037064331269) —— 讲清了 Team Lead 拆任务、Teammate 并行、互相通信的架构，正好对上你项目里多 agent 编排的痛点，但发布时间较早不算新。
   _程序员阿江-Relakkes_
-- [Claude Code Hooks 回调 + Agent Teams 零轮询省 token](http://www.bilibili.com/video/av116046157647899) —— Stop Hook 自动回调替代轮询，是能直接抄进项目的具体配置级技巧。
-  _AI超元域_
-- [用 Claude Skill 做高质量 PPT（附完整教程）](http://www.bilibili.com/video/av116474832361424) —— 从 0 到 1 装 Skill 跑成品，Skill 打包思路可迁移到自己的 Agent 项目。
+- [一个 CLI 干掉所有 MCP 工具，省 99% token：mcp2cli](http://www.bilibili.com/video/av116204349953548) —— 用懒发现机制把 MCP 的 token 浪费从数十万降到几千，核心实现只有一个 Python 文件，工程细节密度高，值得单独看。
+  _探索未至之境_
+- [如何用 Claude Skill 做高质量 PPT（附完整教程）](http://www.bilibili.com/video/av116474832361424) —— Claude Design 的 Skill 从零装配到出成品，是少见的 Skill 实操而非概念科普，但场景偏办公不偏工程。
   _阿西_出海_
+- [从夯到拉，锐评 32 个 AI 编程工具](http://www.bilibili.com/video/av116578532200786) —— 32 个工具横向实测，信息密度够但属于合集型内容，和你反感的'10 个最强工具'套路接近，放备选。
+  _程序员鱼皮_
 
 ### AI 算力 / 半导体
 
-- [Opus 5.5 agents 发现两种室温磁性半导体候选材料](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors) —— 用 Agent 做材料发现的具体案例，495 分讨论，但结论未经实验验证，先观察。
-  _Hacker News_
-- [ASML：2026 年在欧洲「什么都没卖出去」](https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand) —— 一句话把欧洲半导体产业空心化说透，配合中国 DUV 那条一起看更有意思。
-  _Hacker News_
-- [泄露视频：中国工厂成规模拆解 RTX 5090 供 AI 服务器](https://www.tomshardware.com/pc-components/gpus/leaked-video-exposes-how-chinese-factories-are-stripping-rtx-5090s-to-fuel-ai-custom-partner-cards-to-nvidia-founders-editions-on-the-chopping-block) —— 消费卡被拆成 AI 算力，是出口管制下的市场扭曲实证，画面感强。
-  _Tom's Hardware_
-- [GPU-unlock：解锁 Nvidia 30 系卡的 FP/BF16 指令发射率](https://github.com/Zagitta/gpu-unlock) —— 纯工程向的逆向与指令级优化，235 分，适合你这种想看底层的人。
-  _Hacker News_
-- [Arm 就 Qualcomm 陪审团裁决表态：2 美元赔偿背后的合规测试控制权](https://www.eetimes.com/two-dollars-and-a-test-suite/) —— 赔偿只有 2 美元，真正争的是定制芯片出厂前必须通过的合规测试归谁管。
-  _EE Times_
+- [GPU-unlock：解锁 Nvidia 30 系显卡的 FP/BF16 指令发射率](https://github.com/Zagitta/gpu-unlock) —— HN 235 分，逆向解锁消费卡的半精度指令发射限制，硬件层面的工程细节很硬，但离你的产品方向较远。
+  _fragebogen_
+- [泄露视频：中国工厂规模化拆解 RTX 5090 供 AI 服务器](https://www.tomshardware.com/pc-components/gpus/leaked-video-exposes-how-chinese-factories-are-stripping-rtx-5090s-to-fuel-ai-custom-partner-cards-to-nvidia-founders-editions-on-the-chopping-block) —— 解释了 5090 为何一卡难求，是算力紧缺最直观的物证，但属于现象报道而非趋势分析。
+  _Zhiye Liu_
+- [Arm 就 Qualcomm 陪审团裁决表态：2 美元赔偿背后的合规测试控制权](https://www.eetimes.com/two-dollars-and-a-test-suite/) —— 赔偿只有 2 美元，真正的争点是自定义芯片出货前必须通过的合规测试由谁掌控，这个角度比裁决本身重要。
+  _Moshe Zalcberg_
 
 ### 大厂 AI 动态
 
-- [Gemini 4 Argon 发布，配套机器人版本与 StarCraft 实测](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) —— 1700+ 分的大发布，但已过去三周多，且摘要信息薄，放备选等评测沉淀。
-  _Hacker News_
-- [Block 新语音模型可在 MacBook M4 Max 本地运行](https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/) —— 本地跑、听感接近真人，端侧语音这条线值得跟，但缺具体参数。
-  _TechCrunch_
-- [Daytona 估值达 10 亿美元：给每个 Agent 一台云上电脑](https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/) —— Agent 沙箱基础设施的融资信号，Stripe、Datadog 创始人跟投，方向值得记。
-  _TechCrunch_
+- [Block 新语音模型听起来像真人，可在 MacBook M4 Max 本地跑](https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/) —— 本地推理 + 拟真度是双卖点，对关注端侧部署的人是新事实，但缺少技术细节披露。
+  _Ivan Mehta_
+- [Agent 云创业公司 Daytona 估值达 10 亿美元，FirstMark 领投](https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/) —— '给每个 agent 一台自己的电脑'这个定位值得关注，Stripe、Datadog 创始人跟投，是 agent 基础设施层的信号。
+  _Julie Bort_
+- [宾州通过 AI 欺骗性广告法，要求 AI 生成广告加标注](https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act) —— 州级立法落地，对做内容生成产品的人是合规前置信号，但短期不影响个人项目。
+  _Terrence O’Brien_
 
 ### 股票
 
-- [Capital Wars：CoreWeave 与一座数据中心的建造经济学](https://www.netinterest.co/p/capital-wars) —— 把数据中心建设的资本结构拆开算，是理解 AI 基建融资的少有好材料。
-  _Net Interest_
-- [中国股票成全球 AI 交易回调中最大输家](https://theedgemalaysia.com/node/822195) —— AI 交易全球性回调的侧写，与美债收益率、Anthropic 估值两条互为印证。
-  _Hacker News_
+- [Capital Wars：CoreWeave 与数据中心建设的经济学](https://www.netinterest.co/p/capital-wars) —— 拆解数据中心建设的融资结构与回报模型，是理解 AI 资本周期最好的长文之一，但需要一定金融背景。
+  _Marc Rubinstein_
+- [中国股票成为全球 AI 交易受挫中的最大输家](https://theedgemalaysia.com/node/822195) —— 全球 AI 交易回调中中国资产跌幅居前，是估值修正的横向印证，但信息增量有限。
+  _miohtama_
 
 ### 金融
 
-- [AI 算力是新的石油，需要一个新市场](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market) —— 把算力当大宗商品定价的框架讨论，思路新颖但偏宏观，适合周末慢读。
-  _Hacker News / The Economist_
-- [美国下令所有民事机构移除 DeepSeek，含基于其构建的工具](https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/) —— DHS 命令波及「基于 DeepSeek 构建的工具」，对做二次封装的开发者是合规红线。
-  _Hacker News_
-- [美联储被指悄悄吹大 AI 泡沫，同时抬高你的电费](https://www.thebignewsletter.com/p/how-the-federal-reserve-secretly) —— 把货币政策、数据中心用电与电价绑在一起讲，观点性强，当观点读不当事实读。
-  _Hacker News_
+- [美国联邦预算赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 赤字与 10 年期国债收益率破 5.3% 是同一枚硬币的两面，构成 AI 资本成本的宏观底色。
+  _ck2_
+- [美国下令所有文职机构移除 DeepSeek，含基于其构建的工具](https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/) —— 禁令延伸到二次开发工具，对做开源模型集成的开发者是明确风险提示，值得留意后续范围。
+  _jacquesm_
+- [特斯拉 Q3 利润下滑 43%](https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/) —— 与 Roadster 发布会同期发生，形成叙事反差，但和你的关注方向关联度低，仅作背景。
+  _throw0101a_
 
 ---
 
