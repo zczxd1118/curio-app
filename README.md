@@ -364,15 +364,14 @@ bash scripts/setup_new_device.sh ~/curio-secrets/curio-backup-*.tar.gz.enc
 
 ## 三天开发回顾（5/29 - 5/31）
 
-| 时间 | 里程碑 |
-|---|---|
-| 5/29 | M0 demo（vibe-coding 单领域，本地 markdown） |
-| 5/30 | M1（多领域 + Stratechery 风格周刊 + GitHub Pages） |
-| 5/31 上午 | 统一 daily/weekly 渲染模板（双语 + chips） |
-| 5/31 下午 | Cloudflare Worker + 自有域名 + Resend + 跨设备备份 |
-| 5/31 晚上 | 信源扩容 + auto_sources v0.9 + Resend 域名验证 + 自助退订 |
+| 里程碑 |
+| M0 demo（vibe-coding 单领域，本地 markdown） |
+| M1（多领域 + Stratechery 风格周刊 + GitHub Pages） |
+| 统一 daily/weekly 渲染模板（双语 + chips） |
+| Cloudflare Worker + 自有域名 + Resend + 跨设备备份 |
+| 信源扩容 + auto_sources v0.9 + Resend 域名验证 + 自助退订 |
 
-总计：**3 天从 demo 到完整对外开放 SaaS** 🎉
+总计：**从 demo 到完整对外开放 SaaS** 🎉
 
 ---
 
