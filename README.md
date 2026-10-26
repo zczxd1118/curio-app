@@ -362,7 +362,7 @@ bash scripts/setup_new_device.sh ~/curio-secrets/curio-backup-*.tar.gz.enc
 
 ---
 
-## 三天开发回顾（5/29 - 5/31）
+## 开发回顾
 
 | 里程碑 |
 | M0 demo（vibe-coding 单领域，本地 markdown） |
