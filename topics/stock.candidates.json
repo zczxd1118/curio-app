@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-25T08:17:24.364478+00:00",
+  "fetched_at": "2026-10-26T08:44:25.627172+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,7 +10,7 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 9,
-    "HN · IPO": 9,
+    "HN · IPO": 10,
     "HN · earnings": 0,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 39,
+  "total": 40,
   "items": [
     {
       "id": "hn:50162431",
@@ -146,7 +146,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50210325"
       },
       "duration_sec": null,
-      "views": 13,
+      "views": 14,
       "comments": 2,
       "published_at": "2026-10-23T15:07:06+00:00",
       "summary": "",
@@ -339,6 +339,25 @@
       "views": 18,
       "comments": 12,
       "published_at": "2026-10-21T08:51:15+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49937304",
+      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
+      "url": "https://pipod.dev/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49937304",
+        "name": "edverma2",
+        "hn_url": "https://news.ycombinator.com/item?id=49937304"
+      },
+      "duration_sec": null,
+      "views": 121,
+      "comments": 45,
+      "published_at": "2026-10-02T19:10:38+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"

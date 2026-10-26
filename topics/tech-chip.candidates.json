@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-25T08:17:37.254904+00:00",
+  "fetched_at": "2026-10-26T08:44:38.546170+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/in-orbit-useful-life-becomes-a-performance-metric/",
+      "title": "In Orbit, Useful Life Becomes a Performance Metric",
+      "url": "https://www.eetimes.com/in-orbit-useful-life-becomes-a-performance-metric/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Ron Honig",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-26T08:25:36+00:00",
+      "summary": "Google’s Project Suncatcher is testing AI hardware in space, where radiation, cooling, power, and hardware lifetime determine the economics of computing. The post In Orbit, Useful Life Becomes a Performance Metric appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/arm-comments-on-jury-decision-in-qualcomm-trial/",
       "title": "Arm Comments on Jury Decision in Qualcomm Trial",
       "url": "https://www.eetimes.com/arm-comments-on-jury-decision-in-qualcomm-trial/",
@@ -342,23 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/edge-ai-mcu-features-multimodal-compute-tiered-memory/",
-      "title": "Edge AI MCU Features Multimodal Compute, Tiered Memory",
-      "url": "https://www.eetimes.com/edge-ai-mcu-features-multimodal-compute-tiered-memory/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-21T07:30:00+00:00",
-      "summary": "A new MCU combines AI-native acceleration with integrated high-bandwidth DRAM scalable to hundreds of megabytes. The post Edge AI MCU Features Multimodal Compute, Tiered Memory appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50219700",
       "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
       "url": "https://github.com/Zagitta/gpu-unlock",
@@ -370,8 +370,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50219700"
       },
       "duration_sec": null,
-      "views": 235,
-      "comments": 71,
+      "views": 340,
+      "comments": 80,
       "published_at": "2026-10-24T09:58:27+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50198675"
       },
       "duration_sec": null,
-      "views": 499,
-      "comments": 217,
+      "views": 502,
+      "comments": 218,
       "published_at": "2026-10-22T17:44:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -435,20 +435,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49844663",
-      "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+      "id": "hn:50128597",
+      "title": "EU negotiates sanctions swap with China to rescue critical ASML supplier",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/eu-negotiates-sanction-swap-with-china-to-rescue-critical-asml-supplier-german-coatings-firm-faces-shutdown-without-chinese-rare-earths",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49844663",
-        "name": "MC995",
-        "hn_url": "https://news.ycombinator.com/item?id=49844663"
+        "id": "50128597",
+        "name": "anigbrowl",
+        "hn_url": "https://news.ycombinator.com/item?id=50128597"
       },
       "duration_sec": null,
-      "views": 403,
-      "comments": 901,
-      "published_at": "2026-09-25T13:49:06+00:00",
+      "views": 11,
+      "comments": 0,
+      "published_at": "2026-10-17T06:49:52+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
       "lang": "en"
