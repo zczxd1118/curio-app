@@ -1,43 +1,44 @@
 # Curio · 金融 · 2026-10-26
 
-> 今日 1 条头条 + 3 条备选
+> 今日 1 条头条 + 4 条备选
 
-_今天最重要的信号是 AI 资本叙事开始出现裂缝：Apollo 经济学家称 AI 对科技业以外的美国企业「零财务回报」，同时 Anthropic IPO 估值被曝缩水 5000 亿美元、数据中心股随韩国 IPO 破发下挫。另一条线是工程侧的真实进展——OpenAI 红队 Agent 在无网络无共享文件的隔离环境里，靠 CPU 缓存时序搭出隐蔽信道。前者说明泡沫在挤，后者说明 Agent 能力边界还在被推。_
+_今天最重要的信号是 AI 资本叙事开始出现裂缝：Apollo 经济学家称 AI 对科技业以外的美国企业「零财务回报」，同时 Anthropic IPO 估值被曝缩水 5000 亿美元、德州暂停 17 个数据中心施工许可。另一边，Nvidia 想对每块 GPU 收 2000 美元/年的 Agent 软件费——算力正在从卖硬件转向卖「跑 Agent 的许可」。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. 路透：市场抛售叠加利率上行，正在压力测试 AI 数据中心交易热潮
+### 5. The Economist：AI 算力是「新石油」，但缺一个像样的现货市场
 
-**[金融]** · ⭐⭐⭐⭐ · _tartoran_
+**[金融]** · ⭐⭐⭐⭐ · _Hacker News / The Economist_
 
-Reuters 10 月 15 日报道，市场抛售与利率上行正在考验 AI 数据中心的交易热潮。同期 HN 上多条线索互相印证：韩国某数据中心相关 IPO 首日暴跌 30%、Firmus 的 300 亿美元 IPO 梦 48 小时内破碎、CoreWeave 创始人套现 33 亿美元、10 年期美债收益率一度突破 5.3% 创 24 年新高。融资端的钱变贵了，而数据中心的资本开支是长周期重资产。
+The Economist 提出一个结构性判断：算力正在变成类似石油的大宗商品，却没有对应的定价与交易市场。结合德州暂停 17 个数据中心许可、Amazon 因居民反对放弃北弗吉尼亚四个项目、Nvidia 想按 GPU 收软件费，供给端的摩擦正在把「算力金融化」推到台前。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Reuters 报道市场抛售与利率上行正在压力测试 AI 数据中心交易 | 利率上行对数据中心估值的影响是结构性还是阶段性，取决于后续降息路径 |
-| 10 年期美债收益率一度升破 5.3%，为 24 年未见水平 | 已签的长约（如超大规模云厂商的算力采购）是否会被重谈，尚无证据 |
-| 韩国一桩数据中心相关 IPO 首日下跌约 30% | IPO 破发是否代表整个赛道融资窗口关闭，样本量太小 |
-| Firmus 的 300 亿美元 IPO 计划在 48 小时内告吹 | 这些信号与 Anthropic 估值缩水是否同源，目前只能说是同一宏观环境 |
-| CoreWeave 创始人在此期间完成 33 亿美元股票出售 |  |
+| The Economist 明确将 AI 算力类比为「新石油」 | 算力能否真正标准化成可交易商品，取决于异构硬件能否统一计价 |
+| 文章主张算力需要新的市场机制来定价与交易 | 现货/期货市场是否会出现，目前只是评论员主张 |
+| 德州已暂停 17 个数据中心施工许可并关停自动审批门户 | 地方审批阻力是短期摩擦还是长期约束，尚不明朗 |
+| Amazon 放弃北弗吉尼亚四个数据中心项目 | 对个人开发者而言，算力价格是涨是跌仍无定论 |
 
 **📖 主编点评**
 
-这条和头条 1 是一组：AI 的资本成本在上升，而算力是重资产。对你的实际含义是——如果你未来想进 AI 产品岗，理解「单位推理成本」和「算力采购结构」会比背模型榜单更有区分度。可以顺着 Netinterest 那篇《Capital Wars》补一下 CoreWeave 的经济模型。
+这条给你一个长期视角：未来调用模型的价格，会越来越受「算力市场」而非「模型厂商定价」影响。做 side project 时把推理层做成可替换的（换模型、换供应商只改配置），比绑死某一家 API 更抗风险。
 
-📺 [打开原文](https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/)
+📺 [打开原文](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market)
 
 ---
 
 ## 📋 备选阅读
 
-- [美国联邦赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 与 10 年期收益率破 5.3% 是同一宏观故事的两端，解释了 AI 数据中心融资为何变贵。
-  _ck2_
-- [美国下令所有民事机构移除 DeepSeek，包括基于它构建的工具](https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/) —— DHS 指令要求连二次开发的工具一并下架。对做模型选型的国内开发者是明确的政策风险信号。
-  _jacquesm_
-- [arXiv：当 AI 变便宜，价格会跟着降吗——信息延迟与算法定价](https://arxiv.org/abs/2610.31693) —— 今天新发的论文，直接问「推理成本下降是否传导到终端价格」。与头条 3 的问题意识一致，但仍是模型推演。
-  _Krish Tadigotla_
+- [美国联邦赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 宏观背景板，解释了为什么长端利率和 AI 资本开支会互相拉扯。
+  _Yahoo Finance_
+- [10 年期美债收益率升破 5.3%，24 年未见](https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f) —— 高利率直接抬高数据中心融资成本，是 AI 基建叙事的关键变量。
+  _WSJ_
+- [美国下令所有民事机构移除 DeepSeek，含基于它构建的工具](https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/) —— 合规风险信号，如果你考虑在项目里接国产模型 API，这条值得记一笔。
+  _Hacker News_
+- [arXiv：当 AI 变便宜，价格会跟着降吗？信息延迟与算法定价](https://arxiv.org/abs/2610.31693) —— 直接研究「模型成本下降是否传导到终端价格」，和今天的算力定价主线呼应，偏学术。
+  _arXiv_
 
 ---
 

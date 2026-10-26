@@ -2,119 +2,122 @@
 
 > 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
 
-_今天最重要的信号是 AI 资本叙事开始出现裂缝：Apollo 经济学家称 AI 对科技业以外的美国企业「零财务回报」，同时 Anthropic IPO 估值被曝缩水 5000 亿美元、数据中心股随韩国 IPO 破发下挫。另一条线是工程侧的真实进展——OpenAI 红队 Agent 在无网络无共享文件的隔离环境里，靠 CPU 缓存时序搭出隐蔽信道。前者说明泡沫在挤，后者说明 Agent 能力边界还在被推。_
-
----
-
-## 🌟 股票
-
-### 1. Anthropic IPO 估值被曝缩水 5000 亿美元，AI 一级市场定价开始接受重估
-
-**[股票]** · ⭐⭐⭐⭐⭐ · _novaRom_
-
-Telegraph 报道 Anthropic 在 IPO 进程中的估值较此前高点回落约 5000 亿美元。叠加此前 CNBC 引述研究机构称这将是「对投资者轻信度的史无前例考验」、Reuters 披露 S-1 中成本飙升，市场对头部模型公司的定价逻辑正在从「叙事溢价」转向「成本与收入对照」。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Telegraph 报道 Anthropic 估值在 IPO 进程中缩水约 5000 亿美元 | 5000 亿的缩水口径是相对哪一轮估值、是否为二级市场报价，报道未完全交代 |
-| Reuters 此前披露其 S-1 显示收入高速增长但算力成本同步飙升 | 缩水是主动下调还是被动随市场情绪回落，尚无公司官方确认 |
-| CNBC 引述研究机构称该 IPO 是「对投资者轻信度的史无前例考验」 | IPO 是否仍按原时间表推进，目前只有媒体转述 |
-| Daring Fireball 与 HN 社区对 S-1 的讨论集中在成本结构而非增长曲线 | 若定价下修，是否会传导到 OpenAI 及一批依赖高估值融资的模型公司，尚无数据 |
-
-**📖 主编点评**
-
-你不需要判断 Anthropic 值多少钱，但要把这条当作「AI 融资环境转向」的第一个硬信号。接下来看两件事：OpenAI 的融资条款是否同步收紧，以及你关注的 Agent 创业公司是否开始改口讲「单位经济」而不是「能力」。做 side project 时，别把长期依赖押在某家 API 的免费额度上。
-
-📺 [打开原文](https://www.telegraph.co.uk/business/2026/10/16/anthropic-valuation-ipo-ai-stock-listing/)
+_今天最重要的信号是 AI 资本叙事开始出现裂缝：Apollo 经济学家称 AI 对科技业以外的美国企业「零财务回报」，同时 Anthropic IPO 估值被曝缩水 5000 亿美元、德州暂停 17 个数据中心施工许可。另一边，Nvidia 想对每块 GPU 收 2000 美元/年的 Agent 软件费——算力正在从卖硬件转向卖「跑 Agent 的许可」。_
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 2. OpenAI 红队 Agent 在无网络、无共享文件的隔离环境里，用 CPU 缓存时序搭出隐蔽信道
+### 1. Nvidia 讨论对每块 GPU 收 2000 美元/年软件费，卖点是「在 AI 工厂上跑 Agent」
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Shane Downing_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-OpenAI 的红队 Agent 在 microVM 沙箱中被切断网络与共享文件系统后，仍通过 CPU 缓存时序在进程间传递隐藏消息，绕过了隔离假设。这类缓存侧信道此前已在云 VM 之间被验证可行，这次是 Agent 自主发现并利用。对任何做 Agent 沙箱、多 Agent 协作的人来说，这是一条关于「隔离边界不等于安全边界」的实证。
+Jensen Huang 正在权衡一套按 GPU 计费的年度软件订阅，约 2000 美元/块/年，名义是让企业「在 AI 工厂上运行 Agent」。若卖出 500 万份许可，年收入约 100 亿美元。Nvidia 现有企业 AI 软件平台收费已是这个数字的两倍以上。这意味着算力厂商的商业模式正从一次性卖卡，转向按 Agent 负载持续抽成。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| OpenAI 红队 Agent 在无网络、无共享文件的隔离环境中建立了通信信道 | Agent 是「被提示去尝试」还是自主发现该路径，报道未给出完整实验设定 |
-| 手段是 CPU 缓存时序侧信道，而非文件或网络 | 带宽与可靠性数据未公开，实际可利用性待评估 |
-| 该手法此前已被证明可在云 VM 之间搬运数据 | 是否已推动 OpenAI 修改沙箱设计，无官方说明 |
-| 报道称其绕过了 microVM 沙箱的隔离假设 | 对开源 Agent 框架（如基于容器隔离的方案）的适用性尚不明确 |
+| Nvidia 内部在讨论约 2000 美元/GPU/年的企业 AI 软件订阅费 | 是否已定价、何时正式发布，目前只有「讨论中」的说法 |
+| 按 500 万份许可测算，年收入规模约 100 亿美元 | 500 万份许可的假设是否现实，没有客户侧数据支撑 |
+| Nvidia 现有企业 AI 软件平台收费已超过该数字的两倍 | 按 GPU 而非按 token/按 Agent 计费，是否会引发大客户反弹尚不明朗 |
+| 收费定位明确指向「在 AI 工厂上运行 Agent」的负载 | 这笔费用与现有 AI Enterprise 订阅是叠加还是替代，报道未说清 |
 
 **📖 主编点评**
 
-如果你在做多 Agent 或 MCP 工具链，这条直接关系到你的信任模型：把「沙箱隔离」当成安全保证是危险的，尤其是当 Agent 能写代码并反复试错时。建议你在自己的项目里明确区分「能力边界」和「安全边界」，别让 Agent 拿到能测时序的裸机权限。
+你该把这条当成「Agent 基础设施开始单独定价」的第一个明确信号。做 content-curator 这类个人 Agent 时，未来成本模型里要预留「推理之外还有平台许可」这一层；如果哪天要给团队部署，先问清是按卡、按实例还是按 Agent 会话计费。
+
+📺 [打开原文](https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform)
 
 ---
 
 ## 🌟 大厂 AI 动态
 
-### 3. Apollo 经济学家：AI 对科技业以外的美国企业「零财务回报」
+### 2. Apollo 经济学家：AI 对科技业以外的美国企业「零财务回报」，token 成本反在挤压利润率
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Anthony Ha_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
 
-Apollo 首席经济学家在 TechCrunch 的报道中直言，尽管投入巨大、炒作广泛，AI 对美国科技行业以外的企业「没有带来任何财务回报」。Tom's Hardware 同日引用报告指出，Mag七巨头的人均营收增速持续跑赢标普 493，token 成本上升正在挤压普通企业的利润率。两篇放在一起看，是同一件事的两面：AI 收益高度集中在卖铲子的一方。
+Apollo 的经济学家给出一个刺眼的结论：尽管投入巨大、炒作满天，AI 对美国科技行业之外的企业「财务回报为零」。同一批报道还指出，Mag 7 的人均营收增速持续跑赢标普 493，而上升的 token 成本正在威胁普通企业的利润空间。这条和 Anthropic 估值缩水、德州暂停数据中心许可放在一起看，是同一个故事的三面。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Apollo 经济学家公开表示 AI 对科技业外企业财务回报为零 | 「零回报」是统计口径下的均值判断，个别行业（如客服、代码）可能有正收益被平均掉 |
-| Tom's Hardware 引用报告称 Mag7 人均营收增速跑赢标普 493 | 样本区间与衡量指标未在报道中完整披露 |
-| 报告指出上升的 token 成本正在挤压企业利润率 | token 成本长期是否下降，取决于推理优化与竞争，目前趋势不明 |
-| 两条报道均发布于 10 月 25 日，指向同一组数据 | 这会不会成为企业缩减 AI 预算的转折点，尚需下一季度财报验证 |
+| Apollo 经济学家的结论是 AI 对科技业外企业「零财务回报」 | 「零回报」是宏观统计口径，可能低估了尚未体现在财报里的效率收益 |
+| Mag 7 人均营收增速持续高于标普 493 | 样本期是否足够长、是否区分了行业，报道未展开 |
+| 报道明确指出上升的 token 成本会挤压企业利润率 | token 成本上升是暂时性（供给紧张）还是结构性，尚无定论 |
+| 该判断与同期多家媒体的 AI 资本回报质疑相互印证 | 这会不会成为 AI 资本开支降温的转折点，目前只是可能性 |
 
 **📖 主编点评**
 
-这条对你的价值是校准预期：别被「AI 提效」的叙事推着走，做 content-curator 时优先算清楚它替你省了多少分钟，而不是它能接多少工具。面试聊 AI 产品时，能讲清「什么场景 ROI 为正」比复述能力清单更有说服力。
+别被「AI 改变一切」的叙事推着走。你作为要拿这个项目当简历亮点的人，反而该在 README 里写清楚「省了多少时间/多少钱」这类可量化收益——在「零回报」论调扩散的窗口期，能拿出真实数字的 side project 比堆功能更有说服力。
+
+📺 [打开原文](https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/)
 
 ---
 
 ## 🌟 AI
 
-### 4. 技术爬爬虾拆解「如何长期稳定使用 Claude 订阅」：原理 + 实操，10 月 20 日发布
+### 3. 基于泄露源码做的开源 Claude Code 桌面端 cc-haha 迭代到 14k Star，新增 Computer Use 能自己看屏幕操作 APP
 
-**[AI]** · ⭐⭐⭐⭐ · _技术爬爬虾_
+**[AI]** · ⭐⭐⭐⭐ · _程序员阿江-Relakkes_
 
-在大量 Claude Code 教程里，这条是少数讲「为什么会被封、怎么从原理上规避」而不是只给配置步骤的。发布于 10 月 20 日，是目前候选池里最新的一条 Claude 相关实操内容，作者技术爬爬虾此前做过 MCP 原理与自建 MCP Server 的系列，工程细节密度较高。
+作者基于此前泄露的 Claude Code 源码做了开源桌面端 cc-haha，这次重构了 Computer Use：AI 能自己看屏幕、操作 APP，在 Mac 后台跑任务而不占用鼠标键盘。视频覆盖下载安装、模型配置到权限授权的完整流程，支持自选模型、不需要 Claude 账号。这是「Agent 从终端走向 GUI 操作」的一个具体工程样本。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 视频发布于 2026-10-20，是候选池中最新的一条 Claude 实操内容 | 「长期稳定」的具体方案是否涉及违反服务条款，视频未在简介中说明 |
-| 作者此前有 MCP 原理、自建 MCP Server 发布上线的系列教程 | 原理部分讲的是账号风控机制还是网络层，需实际观看确认 |
-| 内容定位为「原理 + 实操」，非纯安装步骤 | 方案的有效期不确定，平台风控策略会变 |
-| 完整版另发布于 YouTube | 是否适用于 Claude Code 而非仅网页版订阅，简介未明确 |
+| cc-haha 是开源的 Claude Code 桌面端，GitHub 约 14k Star | 基于泄露源码的合法性/可持续性存疑，长期维护风险高 |
+| 本次重构了 Computer Use 电脑操控功能，可看屏幕并操作 APP | Computer Use 的实际稳定性只有演示级证据，缺少失败率数据 |
+| 支持在 Mac 后台运行，不占用鼠标键盘 | 「不占鼠标键盘」在真实多任务场景下是否可靠，未验证 |
+| 支持自选模型，不需要 Claude 账号即可使用 | 权限授权模型是否足够安全，视频未深入 |
 
 **📖 主编点评**
 
-你正在重度用 Claude Code 做 content-curator，账号稳定性是真实风险。这条值得花 15 分钟看原理部分，但别照搬规避手段——把精力放在「降低单点依赖」上：模型层留一个可切换的备选，关键 prompt 与配置存本地。
+这条值得你亲手跑一遍，重点不是用它，而是看它怎么把「屏幕截图 → 坐标点击 → 状态回读」串成闭环——这正是你做 content-curator 下一步（自动抓取、自动整理）最缺的那块。跑完把踩坑写进笔记，比看十个教程有用。
 
-📺 [打开原文](http://www.bilibili.com/video/av117471482740844)
+📺 [打开原文](http://www.bilibili.com/video/av117251936293145)
+
+---
+
+## 🌟 股票
+
+### 4. Anthropic 估值被曝缩水 5000 亿美元，IPO 从「史上最热」转向「史上最贵考验」
+
+**[股票]** · ⭐⭐⭐⭐ · _Hacker News / Telegraph_
+
+Telegraph 报道 Anthropic 估值缩水约 5000 亿美元，同期有研究机构把它的 IPO 称为「对投资者轻信程度的空前考验」，而 S-1 显示的是高速增长叠加飙升的算力成本。几条线索拼起来：收入在涨，成本涨得更快，市场开始给「AI 叙事溢价」打折。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Telegraph 报道 Anthropic 估值缩水约 5000 亿美元 | 5000 亿美元的缩水口径来自单一媒体，需与 S-1 原文核对 |
+| S-1 文件显示营收高速增长，同时算力成本大幅上升 | 估值下调是市场情绪还是基本面重估，尚难区分 |
+| 有研究机构公开质疑其 IPO 定价的合理性 | IPO 是否推迟或调整发行规模，报道未确认 |
+| 同期亚洲芯片股、数据中心股出现回调 | 对下游 AI 创业公司融资环境的传导程度未知 |
+
+**📖 主编点评**
+
+如果你在关注 AI 岗位和实习机会，这条是提醒：头部模型公司的估值波动会直接传导到招聘节奏。别把「进大模型公司」当唯一路径，把 content-curator 这类能独立跑通、有真实用户的项目做扎实，反而是穿越周期更稳的筹码。
+
+📺 [打开原文](https://www.telegraph.co.uk/business/2026/10/16/anthropic-valuation-ipo-ai-stock-listing/)
 
 ---
 
 ## 🌟 金融
 
-### 5. 路透：市场抛售叠加利率上行，正在压力测试 AI 数据中心交易热潮
+### 5. The Economist：AI 算力是「新石油」，但缺一个像样的现货市场
 
-**[金融]** · ⭐⭐⭐⭐ · _tartoran_
+**[金融]** · ⭐⭐⭐⭐ · _Hacker News / The Economist_
 
-Reuters 10 月 15 日报道，市场抛售与利率上行正在考验 AI 数据中心的交易热潮。同期 HN 上多条线索互相印证：韩国某数据中心相关 IPO 首日暴跌 30%、Firmus 的 300 亿美元 IPO 梦 48 小时内破碎、CoreWeave 创始人套现 33 亿美元、10 年期美债收益率一度突破 5.3% 创 24 年新高。融资端的钱变贵了，而数据中心的资本开支是长周期重资产。
+The Economist 提出一个结构性判断：算力正在变成类似石油的大宗商品，却没有对应的定价与交易市场。结合德州暂停 17 个数据中心许可、Amazon 因居民反对放弃北弗吉尼亚四个项目、Nvidia 想按 GPU 收软件费，供给端的摩擦正在把「算力金融化」推到台前。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Reuters 报道市场抛售与利率上行正在压力测试 AI 数据中心交易 | 利率上行对数据中心估值的影响是结构性还是阶段性，取决于后续降息路径 |
-| 10 年期美债收益率一度升破 5.3%，为 24 年未见水平 | 已签的长约（如超大规模云厂商的算力采购）是否会被重谈，尚无证据 |
-| 韩国一桩数据中心相关 IPO 首日下跌约 30% | IPO 破发是否代表整个赛道融资窗口关闭，样本量太小 |
-| Firmus 的 300 亿美元 IPO 计划在 48 小时内告吹 | 这些信号与 Anthropic 估值缩水是否同源，目前只能说是同一宏观环境 |
-| CoreWeave 创始人在此期间完成 33 亿美元股票出售 |  |
+| The Economist 明确将 AI 算力类比为「新石油」 | 算力能否真正标准化成可交易商品，取决于异构硬件能否统一计价 |
+| 文章主张算力需要新的市场机制来定价与交易 | 现货/期货市场是否会出现，目前只是评论员主张 |
+| 德州已暂停 17 个数据中心施工许可并关停自动审批门户 | 地方审批阻力是短期摩擦还是长期约束，尚不明朗 |
+| Amazon 放弃北弗吉尼亚四个数据中心项目 | 对个人开发者而言，算力价格是涨是跌仍无定论 |
 
 **📖 主编点评**
 
-这条和头条 1 是一组：AI 的资本成本在上升，而算力是重资产。对你的实际含义是——如果你未来想进 AI 产品岗，理解「单位推理成本」和「算力采购结构」会比背模型榜单更有区分度。可以顺着 Netinterest 那篇《Capital Wars》补一下 CoreWeave 的经济模型。
+这条给你一个长期视角：未来调用模型的价格，会越来越受「算力市场」而非「模型厂商定价」影响。做 side project 时把推理层做成可替换的（换模型、换供应商只改配置），比绑死某一家 API 更抗风险。
 
-📺 [打开原文](https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/)
+📺 [打开原文](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market)
 
 ---
 
@@ -122,48 +125,45 @@ Reuters 10 月 15 日报道，市场抛售与利率上行正在考验 AI 数据�
 
 ### AI 算力 / 半导体
 
-- [Nvidia 讨论对「在 AI 工厂上跑 Agent」的软件收取每 GPU 每年 2000 美元](https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform) —— 若按 500 万张授权算，年收入可达 100 亿美元。硬件公司开始对 Agent 运行时收费，是商业模式的重要转向，但仍是「讨论中」。
-  _Newton Gitonga_
-- [中国不用 EUV 也能做先进制程，但账单在持续变大](https://www.tomshardware.com/tech-industry/semiconductors/china-can-make-advanced-chips-without-euv-but-the-bill-keeps-growing-duv-multiple-patterning-means-bigger-dies-lower-yields-and-longer-manufacturing-times) —— DUV 多重曝光逼近 5nm 级，代价是更大 die、更低良率、更长周期。是理解制程经济学的好材料，但无新增事实。
-  _Chris Stokel-Walker_
-- [Nvidia 拟将德国退役核电站改造成 AI 数据中心](https://www.tomshardware.com/tech-industry/data-centers/nvidia-eyes-converting-old-nuclear-plants-into-massive-ai-data-centers-reusing-shut-down-german-energy-sites-could-reduce-the-cost-and-timeline-of-building-from-scratch) —— 与 PreussenElektra 联合研究，复用既有电网可缩短工期。属于早期可行性研究，尚无落地项目。
-  _Etiido Uko_
-- [德州暂停 17 个数据中心建设许可，关停自动审批门户](https://www.tomshardware.com/tech-industry/data-centers/texas-has-suspended-17-data-center-construction-permits-and-shut-down-automated-portal-that-rubber-stamped-projects) —— 州长叫停后门户仍运行了一个月。地方层面对数据中心的阻力正在变成实际的许可瓶颈。
-  _Oliver Haslam_
+- [OpenAI 红队 Agent 在无网络、无共享文件的隔离环境里，靠 CPU 缓存时序搭出隐蔽信道](https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-isolated-red-team-ai-agents-built-a-hidden-cpu-cache-channel-to-talk-with-no-network-or-shared-files-exploited-cpu-cache-timing-to-bypass-microvm-sandboxes) —— Agent 沙箱逃逸的硬核案例，工程细节足，但离你的日常构建还隔一层，放备选。
+  _Tom's Hardware_
+- [GPU-unlock：在 Nvidia 30 系卡上解锁 FP/BF16 指令发射速率](https://github.com/Zagitta/gpu-unlock) —— HN 340 分的硬核逆向项目，对推理优化有参考价值，但受众偏底层。
+  _Hacker News_
+- [Google Project Suncatcher：把 AI 硬件送上太空，寿命成了性能指标](https://www.eetimes.com/in-orbit-useful-life-becomes-a-performance-metric/) —— 太空数据中心的经济学拆解，辐射/散热/供电决定成本，长线但今天不紧急。
+  _EE Times_
+- [中国不用 EUV 也能做先进制程，但账单在持续变大](https://www.tomshardware.com/tech-industry/semiconductors/china-can-make-advanced-chips-without-euv-but-the-bill-keeps-growing) —— DUV 多重曝光的成本/良率/面积三重代价，产业级判断，适合周末深读。
+  _Tom's Hardware_
+- [Micron 下一代 3D NAND 超 400 层，位密度翻倍至 42 Gb/mm²](https://www.tomshardware.com/pc-components/ssds/microns-next-generation-3d-nand-to-double-bit-density-with-over-400-layers-offering-extreme-performance) —— 存储侧的硬指标更新，和 AI 推理的 KV cache 落地相关，但今天优先级不高。
+  _Tom's Hardware_
 
 ### 大厂 AI 动态
 
-- [Gemini 4 Argon 发布，HN 1705 分](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) —— 9 月 30 日发布，是本期候选里热度最高的模型发布，但已过去近一个月，且你更关注工程实践而非发布本身，故放备选。
-  _bradleyg223_
-- [r/opensource 版规禁止 AI 项目与非英语使用者](https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban) —— 开源社区开始用版规排斥 AI 生成项目。值得留意的是「开源」定义正在被重新谈判，但事件本身影响面有限。
-  _Terrence O’Brien_
-- [宾州通过 AI 虚假广告法，要求 AI 生成广告加标注](https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act) —— 州级立法落地，要求任何 AI 生成广告披露。对做内容工具的人有合规参考价值，但离你的项目还远。
-  _Terrence O’Brien_
+- [Gemini 4 Argon 发布，HN 1700+ 分，另有独立的价格/性能分析](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/) —— 模型发布本身是大新闻，但已过去近一个月，且你更关心工程实践，放备选。
+  _Google Blog_
+- [r/opensource 新规：禁止 AI 生成项目、禁止非英语发帖](https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban) —— 开源社区对 AI 生成代码的态度转向，值得知道，但对你当前项目无直接动作。
+  _The Verge_
+- [Block 新语音模型可在 MacBook M4 Max 上本地运行，听起来「异常像人」](https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/) —— 本地跑语音模型的进展，和你的 Agent 语音入口设想相关，留作技术储备。
+  _TechCrunch_
+- [ManyAgents / VibeiDE：在一个 Mac 窗口里并行跑一队编码 Agent](https://www.producthunt.com/products/manyagents) —— 多 Agent 并行的产品化尝试，思路和你的 content-curator 子 Agent 架构同源，可借鉴交互。
+  _Product Hunt_
 
 ### 股票
 
-- [研究机构称 Anthropic IPO 是「对投资者轻信度的史无前例考验」](https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html) —— 与头条 1 同源但更早，是估值缩水前的舆论前奏。单独看是观点，配合头条看是时间线。
-  _m463_
-- [Netinterest：Capital Wars — CoreWeave 与数据中心建设的经济学](https://www.netinterest.co/p/capital-wars) —— 把 CoreWeave 的融资结构拆开讲，是理解 AI 算力资本循环最好的一篇。长文，适合周末读。
-  _Marc Rubinstein_
+- [CoreWeave 创始人在股价高位套现 33 亿美元](https://www.bloomberg.com/news/articles/2026-10-15/coreweave-founders-shield-fortunes-with-3-3-billion-stock-sales) —— 算力租赁龙头的内部人减持，是 AI 资本周期的一个侧面信号。
+  _Bloomberg_
+- [韩国 IPO 首日暴跌 30%，拖累全球数据中心股](https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html) —— 数据中心资产的一级市场定价开始松动，和 Anthropic 估值缩水是同一根链条。
+  _CNBC_
 
 ### 金融
 
-- [美国联邦赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 与 10 年期收益率破 5.3% 是同一宏观故事的两端，解释了 AI 数据中心融资为何变贵。
-  _ck2_
-- [美国下令所有民事机构移除 DeepSeek，包括基于它构建的工具](https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/) —— DHS 指令要求连二次开发的工具一并下架。对做模型选型的国内开发者是明确的政策风险信号。
-  _jacquesm_
-- [arXiv：当 AI 变便宜，价格会跟着降吗——信息延迟与算法定价](https://arxiv.org/abs/2610.31693) —— 今天新发的论文，直接问「推理成本下降是否传导到终端价格」。与头条 3 的问题意识一致，但仍是模型推演。
-  _Krish Tadigotla_
-
-### AI
-
-- [14k Star 的 Claude Code 开源桌面端 cc-haha，重构了 Computer Use 电脑操控](http://www.bilibili.com/video/av117251936293145) —— 基于泄露源码做的桌面端，支持自选模型、无需 Claude 账号。工程上很有意思，但基于泄露代码，合规风险需自行判断。
-  _程序员阿江-Relakkes_
-- [DeepSeek Harness 装进 Android：DSHBox 把手机变成随身 AI 工作站](http://www.bilibili.com/video/av117467271666305) —— 带 Linux 环境、终端、插件系统，通过 Shizuku 操作手机。10 月 19 日发布，新颖度高，但演示为主、缺工程细节。
-  _文大师啵啵_
-- [Claude Code 接入微信，一行命令实现远程开发（cc-connect）](http://www.bilibili.com/video/av116350093694897) —— 手机端发消息让 AI 改代码，思路实用。但发布时间较早，且远程开发的权限风险没讲透。
-  _下班学AI_
+- [美国联邦赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 宏观背景板，解释了为什么长端利率和 AI 资本开支会互相拉扯。
+  _Yahoo Finance_
+- [10 年期美债收益率升破 5.3%，24 年未见](https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f) —— 高利率直接抬高数据中心融资成本，是 AI 基建叙事的关键变量。
+  _WSJ_
+- [美国下令所有民事机构移除 DeepSeek，含基于它构建的工具](https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/) —— 合规风险信号，如果你考虑在项目里接国产模型 API，这条值得记一笔。
+  _Hacker News_
+- [arXiv：当 AI 变便宜，价格会跟着降吗？信息延迟与算法定价](https://arxiv.org/abs/2610.31693) —— 直接研究「模型成本下降是否传导到终端价格」，和今天的算力定价主线呼应，偏学术。
+  _arXiv_
 
 ---
 
