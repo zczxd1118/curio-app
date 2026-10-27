@@ -1,33 +1,33 @@
 # Curio · AI · 2026-10-27
 
-> 今日 1 条头条 + 0 条备选
+> 今日 1 条头条 + 4 条备选
 
-_今天最重的信号是 Anthropic 正式递交 S-1：营收暴涨、亏损扩大、治理结构特殊，同时被曝为数据中心烧天然气。AI 资本叙事第一次被摊到招股书里接受审视，而 Apollo 经济学家的"零财务回报"论调与之形成对照。另一条线是 OpenAI 把编程工具改造成常驻个人助理 dots——Agent 从 IDE 走向全天候，这对你做 content-curator 是直接的方法论输入。_
+_今天最重要的两个信号都指向同一件事：AI 资本周期进入'兑现压力'阶段。Anthropic 递交 S-1，营收暴涨但亏损与能源依赖同时暴露，华尔街同时在催 OpenAI 和 Anthropic 抢窗口上市；另一边 Apollo 经济学家直言 AI 对科技业之外的公司'零财务回报'。与此同时，OpenAI 把编程工具重做成常驻助手 dots，Agent 从'写代码'走向'替你过日子'——这是产品形态的分水岭。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. DeepSeek V4.1 Flash 接入实测：一次配好六大 Agent 工具，含模型名与避坑点
+### 1. DeepSeek V4.1 Flash 接入指南｜六大 Agent 工具一次配好
 
-**[AI]** · ⭐⭐⭐⭐ · _跟着小陈玩AI_
+**[AI]** · ⭐⭐⭐ · _跟着小陈玩AI_
 
-DeepSeek 发布 V4.1 Flash，跑分反超部分旗舰模型。这条视频的价值不在跑分，而在工程细节：把它接进 DeepSeek Harness、WorkBuddy、Kimi Code、小米 MIMO、ZCode、Codex、Claude Code 的具体配置方法、模型名怎么填、哪里会踩坑。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| DeepSeek 已发布 V4.1 Flash 模型 | 跑分反超旗舰的说法来自视频作者，未附第三方复现 |
-| 视频实测将其接入 DeepSeek Harness、WorkBuddy、Kimi Code、小米 MIMO、ZCode、Codex、Claude Code 等工具 | 各工具接入后的实际稳定性差异，视频未做长周期测试 |
-| 内容包含两种配置方法和模型名填写规范 | V4.1 Flash 在长上下文任务上的表现，缺少针对性数据 |
-| 视频发布于 2026-10-18，属于近期进展 |  |
-
-**📖 主编点评**
-
-你手上跑着 Claude Code 和 Cursor，这条可以直接当配置手册用——尤其是模型名和 base URL 的填法，能省掉一轮试错。建议先在一个非核心项目上验证 V4.1 Flash 的稳定性，再决定要不要换掉主力模型。
+跑分反超旗舰的 V4.1 Flash 怎么接进 Harness/Claude Code/Codex 等六个工具，含模型名与避坑，工程细节密度够，但发布时间稍早。
 
 📺 [打开原文](http://www.bilibili.com/video/av117459403150912)
 
 ---
+
+## 📋 备选阅读
+
+- [14k Star Claude Code 开源桌面端，能自动操作电脑了](http://www.bilibili.com/video/av117251936293145) —— 基于泄露源码做的 cc-haha 重构了 Computer Use，支持自选模型、无需 Claude 账号，是本周少见的'能动手'项目，值得自己跑一遍。
+  _程序员阿江-Relakkes_
+- [DeepSeek Harness 实测 Claude Code 对比后，差距比我想的大](http://www.bilibili.com/video/av117100337236191) —— 同一模型在两个 harness 里跑同样任务，结论是工具链对最终效果影响很大——这正是你做 curator 时该关心的'harness 层'问题。
+  _程序员晓刘_
+- [疯狂 Vibe Coding 一周，我烧了近 100 亿 Token，做了 5 个项目](http://www.bilibili.com/video/av117080321957877) —— 带 5 个 GitHub 仓库的真实 side project 复盘，token 消耗数字有参考价值，适合对照自己的成本预期。
+  _神烦老狗_
+- [AI 产品经理作品集：Vibe Coding 实操 ChatBI 落地写进简历](http://www.bilibili.com/video/av117445360618053) —— 讲 SDD 规范、Harness、skill 设计的企业级落地流程，和你的简历诉求直接对口，但偏方法论，密度不如实操视频。
+  _AI产品经理PMGao_
 
 ---
 
