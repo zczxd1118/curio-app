@@ -2,14 +2,14 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-26T08:44:25.627172+00:00",
+  "fetched_at": "2026-10-27T08:50:32.713361+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 9,
+    "HN · stock market": 10,
     "HN · IPO": 10,
     "HN · earnings": 0,
     "HN · Federal Reserve": 2,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 40,
+  "total": 41,
   "items": [
     {
       "id": "hn:50162431",
@@ -192,6 +192,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50254255",
+      "title": "Pentagon orders bases to plan for 90 days without the grid",
+      "url": "https://fortune.com/2026/10/26/pentagon-fortress-bases-90-days-off-grid-uk-be-ready-stockpile/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50254255",
+        "name": "russfink",
+        "hn_url": "https://news.ycombinator.com/item?id=50254255"
+      },
+      "duration_sec": null,
+      "views": 10,
+      "comments": 4,
+      "published_at": "2026-10-27T03:02:29+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:50051583",
       "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
       "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
@@ -306,6 +325,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50243343",
+      "title": "Anthropic rushing IPO before AI bubble bursts",
+      "url": "https://nypost.com/2026/10/23/business/wall-street-is-urging-anthropic-openai-to-do-their-ipos-in-a-hurry-heres-why/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50243343",
+        "name": "nothrowaways",
+        "hn_url": "https://news.ycombinator.com/item?id=50243343"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 2,
+      "published_at": "2026-10-26T13:30:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50171533",
       "title": "Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs",
       "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
@@ -339,25 +377,6 @@
       "views": 18,
       "comments": 12,
       "published_at": "2026-10-21T08:51:15+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49937304",
-      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
-      "url": "https://pipod.dev/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49937304",
-        "name": "edverma2",
-        "hn_url": "https://news.ycombinator.com/item?id=49937304"
-      },
-      "duration_sec": null,
-      "views": 121,
-      "comments": 45,
-      "published_at": "2026-10-02T19:10:38+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
