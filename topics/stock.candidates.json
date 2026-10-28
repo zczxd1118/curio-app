@@ -2,23 +2,23 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-27T08:50:32.713361+00:00",
+  "fetched_at": "2026-10-28T09:30:45.195883+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 10,
-    "HN · IPO": 10,
-    "HN · earnings": 0,
+    "HN · stock market": 13,
+    "HN · IPO": 14,
+    "HN · earnings": 1,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 41,
+  "total": 48,
   "items": [
     {
       "id": "hn:50162431",
@@ -35,6 +35,25 @@
       "views": 102,
       "comments": 23,
       "published_at": "2026-10-20T07:15:12+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50232604",
+      "title": "Microsoft and others tell crypto platform not to tokenize their stocks",
+      "url": "https://gizmodo.com/microsoft-mcdonalds-verizon-and-others-tell-crypto-platform-not-to-tokenize-their-stocks-2000830368",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50232604",
+        "name": "gumby",
+        "hn_url": "https://news.ycombinator.com/item?id=50232604"
+      },
+      "duration_sec": null,
+      "views": 98,
+      "comments": 112,
+      "published_at": "2026-10-25T15:28:40+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -135,6 +154,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50236073",
+      "title": "Nvidia and Micron Make Up 34% of America's Earnings Boom",
+      "url": "https://www.wsj.com/finance/stocks/the-earnings-boom-is-heavily-reliant-on-just-a-handful-of-stocks-21decb53",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50236073",
+        "name": "JumpCrisscross",
+        "hn_url": "https://news.ycombinator.com/item?id=50236073"
+      },
+      "duration_sec": null,
+      "views": 145,
+      "comments": 35,
+      "published_at": "2026-10-25T21:07:38+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:50210325",
       "title": "Built a site that teaches investing using the live market as the examples",
       "url": "https://www.stocksightfinance.com",
@@ -149,6 +187,25 @@
       "views": 14,
       "comments": 2,
       "published_at": "2026-10-23T15:07:06+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50265525",
+      "title": "In China, the AI bubble has burst",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analysis-china-ai-bubble-already-120038616.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50265525",
+        "name": "smurda",
+        "hn_url": "https://news.ycombinator.com/item?id=50265525"
+      },
+      "duration_sec": null,
+      "views": 13,
+      "comments": 3,
+      "published_at": "2026-10-27T20:44:20+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -344,6 +401,63 @@
       "lang": "en"
     },
     {
+      "id": "hn:50251762",
+      "title": "Anthropic Is the Most Ridiculous IPO of 2026 [pdf]",
+      "url": "https://www.newconstructs.com/wp-content/uploads/2026/10/Anthropic-Is-The-Most-Ridiculous-IPO-of-2026.pdf",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50251762",
+        "name": "simonebrunozzi",
+        "hn_url": "https://news.ycombinator.com/item?id=50251762"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 5,
+      "published_at": "2026-10-26T22:06:15+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50046896",
+      "title": "Nvidia-backed data centre firm Firmus scraps IPO as AI valuation concerns deepen",
+      "url": "https://www.bbc.com/news/articles/ck9dzpw4ll8po",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50046896",
+        "name": "devonnull",
+        "hn_url": "https://news.ycombinator.com/item?id=50046896"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 1,
+      "published_at": "2026-10-11T19:26:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50159963",
+      "title": "Investors temper Anthropic IPO valuation expectations over growth slowdown",
+      "url": "https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50159963",
+        "name": "xqcgrek2",
+        "hn_url": "https://news.ycombinator.com/item?id=50159963"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 0,
+      "published_at": "2026-10-20T00:49:40+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50171533",
       "title": "Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs",
       "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
@@ -377,6 +491,25 @@
       "views": 18,
       "comments": 12,
       "published_at": "2026-10-21T08:51:15+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50020096",
+      "title": "Ask HN: What if no AIpocalypse, no AI bubble, what if it just keeps advancing?",
+      "url": "https://news.ycombinator.com/item?id=50020096",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50020096",
+        "name": "consumer451",
+        "hn_url": "https://news.ycombinator.com/item?id=50020096"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 33,
+      "published_at": "2026-10-09T13:18:05+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"

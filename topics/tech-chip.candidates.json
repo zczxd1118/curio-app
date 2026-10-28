@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-27T08:50:46.355699+00:00",
+  "fetched_at": "2026-10-28T09:31:01.625018+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 0,
-    "HN · Nvidia": 3,
+    "HN · Nvidia": 4,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 25,
+  "total": 26,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/intel-wants-a-quantum-business-classiq-could-help-build-one/",
+      "title": "Intel Wants a Quantum Business, Classiq Could Help Build One",
+      "url": "https://www.eetimes.com/intel-wants-a-quantum-business-classiq-could-help-build-one/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T08:05:29+00:00",
+      "summary": "After years of hardware research, Intel plans to acquire a software platform that connects quantum developers with enterprise users. The post Intel Wants a Quantum Business, Classiq Could Help Build One appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/transitioning-legacy-aircraft-power-architectures-to-high-density-switching-supplies/",
+      "title": "Transitioning Legacy Aircraft Power Architectures to High-Density Switching Supplies",
+      "url": "https://www.eetimes.com/transitioning-legacy-aircraft-power-architectures-to-high-density-switching-supplies/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Emily Newton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T23:00:00+00:00",
+      "summary": "High-density switching supplies help modernize legacy aircraft power systems while addressing obsolescence, efficiency, integration, and compliance challenges. The post Transitioning Legacy Aircraft Power Architectures to High-Density Switching Supplies appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/copperpilot-raises-pre-seed-to-develop-ai-agent-for-pcb-design/",
+      "title": "CopperPilot Raises Pre-seed to Develop AI Agent for PCB Design",
+      "url": "https://www.eetimes.com/copperpilot-raises-pre-seed-to-develop-ai-agent-for-pcb-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T13:58:33+00:00",
+      "summary": "CopperPilot’s CEO said the startup has built its AI design agent so that “no hardware team is ever blocked because a board is too hard to design.” The post CopperPilot Raises Pre-seed to Develop AI Agent for PCB Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/quantum-computing-energy-bill-is-coming-and-we-havent-priced-it-in/",
+      "title": "Quantum Computing’s Energy Bill Is Coming, and We Haven’t Priced It In",
+      "url": "https://www.eetimes.com/quantum-computing-energy-bill-is-coming-and-we-havent-priced-it-in/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Matt Rijlaarsdam",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T09:05:54+00:00",
+      "summary": "Quantum computing’s future depends on measuring useful processing power against energy consumption and cost, not just qubit counts. The post Quantum Computing’s Energy Bill Is Coming, and We Haven’t Priced It In appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/using-a-single-image-to-optimize-urban-solar-panel-orientation/",
       "title": "Using a Single Image to Optimize Urban Solar-Panel Orientation",
       "url": "https://www.eetimes.com/using-a-single-image-to-optimize-urban-solar-panel-orientation/",
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/two-dollars-and-a-test-suite/",
-      "title": "Two Dollars and a Test Suite",
-      "url": "https://www.eetimes.com/two-dollars-and-a-test-suite/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Moshe Zalcberg",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-23T08:03:27+00:00",
-      "summary": "The $2 damages award grabbed headlines, but the Arm-Qualcomm verdict’s bigger implication concerns who controls the compliance tests that custom chips must pass before shipping. The post Two Dollars and a Test Suite appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/from-cloud-ai-to-edge-ai-how-biwin-enables-the-next-generation-of-storage-and-memory-solutions/",
-      "title": "From Cloud AI to Edge AI: How BIWIN Enables the Next Generation of Storage and Memory Solutions",
-      "url": "https://www.eetimes.com/from-cloud-ai-to-edge-ai-how-biwin-enables-the-next-generation-of-storage-and-memory-solutions/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-22T18:24:39+00:00",
-      "summary": "See how BIWIN’s SSD, embedded storage, and memory portfolio supports faster, efficient AI from cloud data centers to edge wearables. The post From Cloud AI to Edge AI: How BIWIN Enables the Next Generation of Storage and Memory Solutions appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/deepx-building-open-software-ecosystem-to-scale-physical-ai-beyond-the-data-center/",
-      "title": "Deepx Building Open Software Ecosystem to Scale Physical AI Beyond the Data Center",
-      "url": "https://www.eetimes.com/deepx-building-open-software-ecosystem-to-scale-physical-ai-beyond-the-data-center/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Stephen Las Marias",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-22T18:14:49+00:00",
-      "summary": "Deepx is combining low-power AI accelerators and portable software with industry partnerships to bring physical AI into production. The post Deepx Building Open Software Ecosystem to Scale Physical AI Beyond the Data Center appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/how-goodram-validates-dram-and-ssd-reliability-in-europe/",
-      "title": "How Goodram Validates DRAM and SSD Reliability in Europe",
-      "url": "https://www.eetimes.com/how-goodram-validates-dram-and-ssd-reliability-in-europe/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "GOODRAM",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-22T13:00:00+00:00",
-      "summary": "Explore Goodram’s European approach to DRAM and SSD testing, from burn-in to platform validation, for reliable industrial and embedded systems. The post How Goodram Validates DRAM and SSD Reliability in Europe appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50219700",
       "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
       "url": "https://github.com/Zagitta/gpu-unlock",
@@ -371,8 +371,27 @@
       },
       "duration_sec": null,
       "views": 349,
-      "comments": 82,
+      "comments": 83,
       "published_at": "2026-10-24T09:58:27+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50236073",
+      "title": "Nvidia and Micron Make Up 34% of America's Earnings Boom",
+      "url": "https://www.wsj.com/finance/stocks/the-earnings-boom-is-heavily-reliant-on-just-a-handful-of-stocks-21decb53",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50236073",
+        "name": "JumpCrisscross",
+        "hn_url": "https://news.ycombinator.com/item?id=50236073"
+      },
+      "duration_sec": null,
+      "views": 145,
+      "comments": 35,
+      "published_at": "2026-10-25T21:07:38+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -389,7 +408,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50086363"
       },
       "duration_sec": null,
-      "views": 79,
+      "views": 80,
       "comments": 50,
       "published_at": "2026-10-14T12:05:44+00:00",
       "summary": "",
@@ -408,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50198675"
       },
       "duration_sec": null,
-      "views": 504,
+      "views": 507,
       "comments": 218,
       "published_at": "2026-10-22T17:44:06+00:00",
       "summary": "",

@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-10-27T08:50:14.058907+00:00",
+  "fetched_at": "2026-10-28T09:30:19.686635+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,7 +13,7 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 0,
-    "HN · Nvidia": 6,
+    "HN · Nvidia": 5,
     "HN · semiconductor": 2,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 58,
+  "total": 57,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/intel-wants-a-quantum-business-classiq-could-help-build-one/",
+      "title": "Intel Wants a Quantum Business, Classiq Could Help Build One",
+      "url": "https://www.eetimes.com/intel-wants-a-quantum-business-classiq-could-help-build-one/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T08:05:29+00:00",
+      "summary": "After years of hardware research, Intel plans to acquire a software platform that connects quantum developers with enterprise users. The post Intel Wants a Quantum Business, Classiq Could Help Build One appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/transitioning-legacy-aircraft-power-architectures-to-high-density-switching-supplies/",
+      "title": "Transitioning Legacy Aircraft Power Architectures to High-Density Switching Supplies",
+      "url": "https://www.eetimes.com/transitioning-legacy-aircraft-power-architectures-to-high-density-switching-supplies/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Emily Newton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T23:00:00+00:00",
+      "summary": "High-density switching supplies help modernize legacy aircraft power systems while addressing obsolescence, efficiency, integration, and compliance challenges. The post Transitioning Legacy Aircraft Power Architectures to High-Density Switching Supplies appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/copperpilot-raises-pre-seed-to-develop-ai-agent-for-pcb-design/",
+      "title": "CopperPilot Raises Pre-seed to Develop AI Agent for PCB Design",
+      "url": "https://www.eetimes.com/copperpilot-raises-pre-seed-to-develop-ai-agent-for-pcb-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T13:58:33+00:00",
+      "summary": "CopperPilot’s CEO said the startup has built its AI design agent so that “no hardware team is ever blocked because a board is too hard to design.” The post CopperPilot Raises Pre-seed to Develop AI Agent for PCB Design appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/quantum-computing-energy-bill-is-coming-and-we-havent-priced-it-in/",
+      "title": "Quantum Computing’s Energy Bill Is Coming, and We Haven’t Priced It In",
+      "url": "https://www.eetimes.com/quantum-computing-energy-bill-is-coming-and-we-havent-priced-it-in/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Matt Rijlaarsdam",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T09:05:54+00:00",
+      "summary": "Quantum computing’s future depends on measuring useful processing power against energy consumption and cost, not just qubit counts. The post Quantum Computing’s Energy Bill Is Coming, and We Haven’t Priced It In appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/using-a-single-image-to-optimize-urban-solar-panel-orientation/",
       "title": "Using a Single Image to Optimize Urban Solar-Panel Orientation",
       "url": "https://www.eetimes.com/using-a-single-image-to-optimize-urban-solar-panel-orientation/",
@@ -299,71 +367,309 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/two-dollars-and-a-test-suite/",
-      "title": "Two Dollars and a Test Suite",
-      "url": "https://www.eetimes.com/two-dollars-and-a-test-suite/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/fields-medal-winning-uc-berkeley-professor-ends-graded-homework-due-to-ai-cheating-says-in-person-exams-are-the-only-solution-left-to-widespread-ai-use",
+      "title": "Fields Medal-winning UC Berkeley professor ends graded homework due to AI cheating",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/fields-medal-winning-uc-berkeley-professor-ends-graded-homework-due-to-ai-cheating-says-in-person-exams-are-the-only-solution-left-to-widespread-ai-use",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Moshe Zalcberg",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-23T08:03:27+00:00",
-      "summary": "The $2 damages award grabbed headlines, but the Arm-Qualcomm verdict’s bigger implication concerns who controls the compliance tests that custom chips must pass before shipping. The post Two Dollars and a Test Suite appeared first on EE Times.",
+      "published_at": "2026-10-27T20:09:05+00:00",
+      "summary": "Award-winning mathematician Richard Brocherds says that it's a waste of time and money to grade AI answers, so he now only uses in-person exams to see how well his students are doing in his classes.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/from-cloud-ai-to-edge-ai-how-biwin-enables-the-next-generation-of-storage-and-memory-solutions/",
-      "title": "From Cloud AI to Edge AI: How BIWIN Enables the Next Generation of Storage and Memory Solutions",
-      "url": "https://www.eetimes.com/from-cloud-ai-to-edge-ai-how-biwin-enables-the-next-generation-of-storage-and-memory-solutions/",
+      "id": "rss:https://www.tomshardware.com/laptops/military-drone-outfit-anduril-partners-with-qualcomm-to-build-laptops-on-us-soil-with-new-bluechip-venture-defense-contractor-targets-a-100-percent-domestic-supply-chain-in-the-future",
+      "title": "Military drone outfit Anduril partners with Qualcomm to build laptops on US soil with new BlueChip venture",
+      "url": "https://www.tomshardware.com/laptops/military-drone-outfit-anduril-partners-with-qualcomm-to-build-laptops-on-us-soil-with-new-bluechip-venture-defense-contractor-targets-a-100-percent-domestic-supply-chain-in-the-future",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-22T18:24:39+00:00",
-      "summary": "See how BIWIN’s SSD, embedded storage, and memory portfolio supports faster, efficient AI from cloud data centers to edge wearables. The post From Cloud AI to Edge AI: How BIWIN Enables the Next Generation of Storage and Memory Solutions appeared first on EE Times.",
+      "published_at": "2026-10-27T17:42:49+00:00",
+      "summary": "The defense contractor aims to fully bring back laptop manufacturing on U.S. shores, with its first BlueChip laptop prototypes having 90% procurement cost coming from suppliers in the U.S. and other allied countries.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/deepx-building-open-software-ecosystem-to-scale-physical-ai-beyond-the-data-center/",
-      "title": "Deepx Building Open Software Ecosystem to Scale Physical AI Beyond the Data Center",
-      "url": "https://www.eetimes.com/deepx-building-open-software-ecosystem-to-scale-physical-ai-beyond-the-data-center/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/israeli-ad-tech-firm-tied-to-suspected-starlink-tracking-effort-report-claims-researchers-say-it-outbid-everyone-for-starlink-linked-ads-in-100-countries-including-where-the-service-is-banned",
+      "title": "Israeli ad tech firm tied to suspected Starlink tracking effort, report claims",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/israeli-ad-tech-firm-tied-to-suspected-starlink-tracking-effort-report-claims-researchers-say-it-outbid-everyone-for-starlink-linked-ads-in-100-countries-including-where-the-service-is-banned",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Stephen Las Marias",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Newton Gitonga",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-22T18:14:49+00:00",
-      "summary": "Deepx is combining low-power AI accelerators and portable software with industry partnerships to bring physical AI into production. The post Deepx Building Open Software Ecosystem to Scale Physical AI Beyond the Data Center appeared first on EE Times.",
+      "published_at": "2026-10-27T17:37:00+00:00",
+      "summary": "Citizen Lab and Confiant linked Israeli firm Discover-Tech to suspected surveillance through online advertising. Researchers said its ads appeared across nearly 200,000 websites and mobile apps. TrendAI separately identified related activity under the codename “SHADOW-EARTH-79.” The findings raise concerns about ad auctions being exploited to track users across sensitive networks, though ad impressions alone do not confirm spyware infections.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/how-goodram-validates-dram-and-ssd-reliability-in-europe/",
-      "title": "How Goodram Validates DRAM and SSD Reliability in Europe",
-      "url": "https://www.eetimes.com/how-goodram-validates-dram-and-ssd-reliability-in-europe/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reportedly-weighs-20-percent-cowos-price-increase-as-nvidia-blackwell-and-rubin-chips-put-pressure-on-packaging-capacity-equipment-lead-times-stretch-to-eight-months",
+      "title": "TSMC reportedly weighs 20% CoWoS price increase as Nvidia Blackwell and Rubin chips put pressure on packaging capacity",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reportedly-weighs-20-percent-cowos-price-increase-as-nvidia-blackwell-and-rubin-chips-put-pressure-on-packaging-capacity-equipment-lead-times-stretch-to-eight-months",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "GOODRAM",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Newton Gitonga",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-22T13:00:00+00:00",
-      "summary": "Explore Goodram’s European approach to DRAM and SSD testing, from burn-in to platform validation, for reliable industrial and embedded systems. The post How Goodram Validates DRAM and SSD Reliability in Europe appeared first on EE Times.",
+      "published_at": "2026-10-27T14:30:00+00:00",
+      "summary": "TSMC is reportedly weighing a price increase of up to 20% for its CoWoS advanced packaging technology as Nvidia’s Blackwell and upcoming Rubin chips intensify pressure on capacity. Equipment deliveries now reportedly take up to eight months, while separate wafer-price increases of 5% to 10% are expected in 2027, with some customers potentially facing total cost increases of up to 25%.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/external-ssds/samsung-portable-ssd-p9-review",
+      "title": "Samsung Portable SSD P9 review: speedy USB4 in a slim, pricey package",
+      "url": "https://www.tomshardware.com/pc-components/external-ssds/samsung-portable-ssd-p9-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Matt Safford",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T14:00:00+00:00",
+      "summary": "Samsung’s Portable SSD P9 is the new USB4 external drive to beat. It feels premium and performed very well in our testing. But you’ll have to pay a lot for it, or any similarly performing drive, these days.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/police-reportedly-pulling-motorists-over-because-ai-algorithms-deem-their-driving-patterns-suspicious-rights-group-report-warns-ai-surveillance-systems-will-sweep-in-more-innocent-people-than-wrongdoers",
+      "title": "Police are reportedly pulling motorists over because AI algorithms deem their driving patterns 'suspicious'",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/police-reportedly-pulling-motorists-over-because-ai-algorithms-deem-their-driving-patterns-suspicious-rights-group-report-warns-ai-surveillance-systems-will-sweep-in-more-innocent-people-than-wrongdoers",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T13:53:32+00:00",
+      "summary": "An ACLU report claims police are increasingly using AI to analyze license plate-reader data and flag motorists based on travel patterns, raising concerns that innocent drivers could be pulled over because an algorithm deemed their movements suspicious.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/walmart-slashes-usd750-off-this-msi-gaming-laptop-16-inch-crosshair-sports-an-rtx-5060-gpu-and-a-fast-240hz-qhd-display",
+      "title": "Walmart slashes $750 off this MSI RTX 5060 gaming laptop",
+      "url": "https://www.tomshardware.com/laptops/gaming-laptops/walmart-slashes-usd750-off-this-msi-gaming-laptop-16-inch-crosshair-sports-an-rtx-5060-gpu-and-a-fast-240hz-qhd-display",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T13:47:15+00:00",
+      "summary": "A massive $750 discount at Walmart brings the price of MSI's Crosshair gaming laptop crashing down. RTX 5060 graphics and a bright 240Hz IPS display are just two of the standout features of this laptop.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/mechanical-keyboards/keybytes-truly-modular-keyboard-starts-with-one-key-and-is-assembled-like-legos-each-magnetic-key-module-has-its-own-risc-v-microcontroller-for-the-ultimate-in-customizability",
+      "title": "Keybytes ‘truly modular keyboard’ starts with one key and is assembled like Legos",
+      "url": "https://www.tomshardware.com/peripherals/mechanical-keyboards/keybytes-truly-modular-keyboard-starts-with-one-key-and-is-assembled-like-legos-each-magnetic-key-module-has-its-own-risc-v-microcontroller-for-the-ultimate-in-customizability",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T13:34:43+00:00",
+      "summary": "The modular Keybytes project combines a Keyword hub that is magnetically connected to Keybit keys, with each key having its own microcontroller.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/macbooks/apple-adds-m6-to-14-inch-macbook-pro-and-imac-starts-at-usd1-999",
+      "title": "Apple adds M6 to 14-inch MacBook Pro and iMac",
+      "url": "https://www.tomshardware.com/laptops/macbooks/apple-adds-m6-to-14-inch-macbook-pro-and-imac-starts-at-usd1-999",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Andrew E. Freedman",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T13:28:23+00:00",
+      "summary": "Apple updated its 14-inch MacBook Pro and iMac lineup with the M6 chip.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/playstation/hacker-awarded-usd50k-bounty-for-reporting-bug-to-sony-that-allowed-ps5-linux-exploit-move-sparks-backlash-from-jailbreaking-community",
+      "title": "Hacker awarded $50k bounty for reporting bug to Sony that allowed PS5 Linux exploit",
+      "url": "https://www.tomshardware.com/video-games/playstation/hacker-awarded-usd50k-bounty-for-reporting-bug-to-sony-that-allowed-ps5-linux-exploit-move-sparks-backlash-from-jailbreaking-community",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T13:22:04+00:00",
+      "summary": "The hypervisor bug that allowed PS5 users to install Linux on their consoles was patched before the launch of GTA VI, meaning they have to choose between experimenting with Linux and running the game.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/open3dlab-accuses-roblox-of-downloading-145gb-of-3d-assets-for-ai-training-purposes-automated-crawler-ignored-site-rules-to-grab-over-1-000-files-including-adult-content-during-scraping-spree",
+      "title": "Roblox accused of downloading 145GB of 3D assets, including adult content, for AI training purposes during scraping spree",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/open3dlab-accuses-roblox-of-downloading-145gb-of-3d-assets-for-ai-training-purposes-automated-crawler-ignored-site-rules-to-grab-over-1-000-files-including-adult-content-during-scraping-spree",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T12:26:13+00:00",
+      "summary": "Independent 3D modeling community Open3DLab has publicly claimed that a web crawler, attributed to Roblox, downloaded 145.5GB of its data, for what it assumes is for AI training purposes.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/windows/intels-apx-offers-better-performance-in-windows-11-according-to-new-insider-setting-microsoft-begins-early-enablement-for-advanced-performance-extensions-on-nova-lake-cpus",
+      "title": "Intel's APX offers 'better performance' in Windows 11 according to new Insider setting",
+      "url": "https://www.tomshardware.com/software/windows/intels-apx-offers-better-performance-in-windows-11-according-to-new-insider-setting-microsoft-begins-early-enablement-for-advanced-performance-extensions-on-nova-lake-cpus",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Oliver Haslam",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T11:30:00+00:00",
+      "summary": "Microsoft has begun testing the option to enable Intel's Advanced Performance Extensions, or APX, which will bring a performance boost to some apps — although no chips with APX support are available as yet.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/grab-32gb-of-ddr5-ram-for-just-usd151-in-this-4-in-1-newegg-bundle-with-the-9800x3d-and-a-2tb-ssd-start-building-a-high-end-4k-gaming-pc-with-this-combo-deal-that-also-includes-an-am5-gigabyte-motherboard-and-a-free-msi-aio-liquid-cooler",
+      "title": "Grab 32GB of DDR5 RAM for just $151 in this 4-in-1 Newegg bundle with the 9800X3D and a 2TB SSD",
+      "url": "https://www.tomshardware.com/pc-components/grab-32gb-of-ddr5-ram-for-just-usd151-in-this-4-in-1-newegg-bundle-with-the-9800x3d-and-a-2tb-ssd-start-building-a-high-end-4k-gaming-pc-with-this-combo-deal-that-also-includes-an-am5-gigabyte-motherboard-and-a-free-msi-aio-liquid-cooler",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T11:11:37+00:00",
+      "summary": "Grab the 9800X3D with a matching Gigabyte motherboard, 32GB of DDR5 RAM, and a 2TB SSD, all for just $1,180.99, giving you a $358.98 discount that makes the equivalent RAM price just $151.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/nvidia-is-bankrolling-ai-accelerator-supply-chain-buildout-to-reserve-production-capacity-announces-billion-dollar-deals-with-six-major-suppliers-across-substrates-advanced-packaging-semiconductor-testing-and-optical-engines",
+      "title": "Nvidia is bankrolling AI accelerator supply chain buildout to reserve production capacity",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-is-bankrolling-ai-accelerator-supply-chain-buildout-to-reserve-production-capacity-announces-billion-dollar-deals-with-six-major-suppliers-across-substrates-advanced-packaging-semiconductor-testing-and-optical-engines",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T11:00:00+00:00",
+      "summary": "Nvidia is committing billions to expand substrate, co-packaged optics, advanced packaging, and chip-testing capacity through 2028, reserving capacity at nearly every stage of its AI accelerator supply chain.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/60-000-microsoft-employees-offered-voluntary-buyouts-as-ai-buildout-costs-bite-program-covers-roughly-27-percent-of-workforce-across-us-canada-india-and-the-uk",
+      "title": "60,000 Microsoft employees offered voluntary buyouts as AI buildout costs bite",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/60-000-microsoft-employees-offered-voluntary-buyouts-as-ai-buildout-costs-bite-program-covers-roughly-27-percent-of-workforce-across-us-canada-india-and-the-uk",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Oliver Haslam",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T10:30:00+00:00",
+      "summary": "Microsoft is offering buyouts to around 60,000 members of its workforce as it looks to balance the books amid a ramp-up in AI data center spending.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-prepares-for-potential-usd2-trillion-ipo-valuation-after-reporting-billions-in-revenue-company-warns-ai-could-pose-catastrophic-existential-risks-to-humanity",
+      "title": "Anthropic prepares for potential $2 trillion IPO valuation after reporting billions in revenue",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-prepares-for-potential-usd2-trillion-ipo-valuation-after-reporting-billions-in-revenue-company-warns-ai-could-pose-catastrophic-existential-risks-to-humanity",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Newton Gitonga",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T10:00:00+00:00",
+      "summary": "Anthropic has filed to go public as it pursues a potential multitrillion-dollar valuation, reporting $16.3 billion in revenue for the first half of 2026. The company’s filing also warns that its AI safety measures may not prevent catastrophic risks. OpenAI and AI chipmaker Cerebras have also pursued public-market listings",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/data-center-gear-is-being-hijacked-in-transit-to-the-tune-of-hundreds-of-millions-grand-theft-gpu-thieves-hack-accounts-perform-hit-and-runs-spoof-gps-signals-and-funnel-hardware-to-china",
+      "title": "Data center gear is being hijacked in transit to the tune of hundreds of millions",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/data-center-gear-is-being-hijacked-in-transit-to-the-tune-of-hundreds-of-millions-grand-theft-gpu-thieves-hack-accounts-perform-hit-and-runs-spoof-gps-signals-and-funnel-hardware-to-china",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T09:40:00+00:00",
+      "summary": "Data center gear is being stolen in transit to the tune of hundreds of millions — grand-theft-GPU thieves hack accounts, perform hit-and-runs, and spoof GPS signals",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/spacex-closes-usd40-billion-debt-financing-for-gpus-expected-in-the-first-half-of-2027-musk-says-company-faces-up-to-usd40-billion-in-additional-fourth-quarter-capital-spending-as-ai-infrastructure-costs-soar",
+      "title": "SpaceX closes $40 billion debt financing for GPUs expected in the first half of 2027, Musk says",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/spacex-closes-usd40-billion-debt-financing-for-gpus-expected-in-the-first-half-of-2027-musk-says-company-faces-up-to-usd40-billion-in-additional-fourth-quarter-capital-spending-as-ai-infrastructure-costs-soar",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Newton Gitonga",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-27T09:20:00+00:00",
+      "summary": "SpaceX expects fourth-quarter capital expenditure of $35 billion to $40 billion, CFO Bret Johnsen said, as Elon Musk pushes to expand the company’s AI computing infrastructure.",
       "lang": "en"
     },
     {
@@ -571,312 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/lack-of-funding-likely-led-to-the-recent-php-security-snafu-but-thats-just-the-tip-of-the-iceberg-a-dreary-situation-caused-by-services-running-old-versions-with-no-support",
-      "title": "Lack of staff and funding likely led to the recent PHP security snafu; project has only one full-time employee, but that's just the tip of the iceberg",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/lack-of-funding-likely-led-to-the-recent-php-security-snafu-but-thats-just-the-tip-of-the-iceberg-a-dreary-situation-caused-by-services-running-old-versions-with-no-support",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T11:50:00+00:00",
-      "summary": "Lack of funding likely led to the recent PHP security snafu, but that's just the tip of the iceberg — dreary situation caused by services running old versions with no support",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/modder-turns-nes-into-a-windows-like-desktop-with-original-hardware-emulates-a-full-retro-experience-with-a-cd-drive-and-slow-internet",
-      "title": "Modder turns NES into a Windows-like desktop with original hardware",
-      "url": "https://www.tomshardware.com/video-games/retro-gaming/modder-turns-nes-into-a-windows-like-desktop-with-original-hardware-emulates-a-full-retro-experience-with-a-cd-drive-and-slow-internet",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jhet Borja",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T11:20:00+00:00",
-      "summary": "Throaty Mumbo turns his NES into a Windows-like desktop using an FPGA cartridge emulating an old Intel CPU, complete with a CD drive and internet capabilities, all without tearing the NES apart.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-20-30-and-40-series-gpus-hacked-to-remove-a-half-speed-ai-throttle-firmware-exploit-doubles-rtx-4090s-peak-tensor-rate-lifts-rtx-3090-ti-matrix-math-up-to-80-percent",
-      "title": "Nvidia RTX 20, 30, and 40-series GPUs hacked to remove a half-speed AI throttle",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-20-30-and-40-series-gpus-hacked-to-remove-a-half-speed-ai-throttle-firmware-exploit-doubles-rtx-4090s-peak-tensor-rate-lifts-rtx-3090-ti-matrix-math-up-to-80-percent",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T11:00:00+00:00",
-      "summary": "Linux kernel modules lift Nvidia’s half-rate AI tensor limit on GeForce RTX 20, 30, and 40-series GPUs.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cryptomining/hacker-offers-bitcoin-reward-to-anyone-who-can-break-into-an-unpatched-server-running-php-still-remains-unhacked-php2shell-challenge-tests-claims-that-ai-makes-exploiting-vulnerabilities-easy",
-      "title": "Bitcoin reward offered to anyone who could break into an unpatched server running PHP, hacker cracks site and claims bounty",
-      "url": "https://www.tomshardware.com/tech-industry/cryptomining/hacker-offers-bitcoin-reward-to-anyone-who-can-break-into-an-unpatched-server-running-php-still-remains-unhacked-php2shell-challenge-tests-claims-that-ai-makes-exploiting-vulnerabilities-easy",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Newton Gitonga",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T10:30:00+00:00",
-      "summary": "The “Steal My Bitcoin” challenge offers a bounty to anyone who can breach a deliberately vulnerable PHP website using the recently disclosed PHP2Shell flaws. The challenge follows previous recoveries of locked Bitcoin fortunes through software vulnerabilities and AI-assisted investigation, but no successful claim has been confirmed.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/reddits-r-opensource-bans-ai-made-and-ai-focused-projects-also-bans-non-english-speakers-sweeping-new-rules-spark-backlash-over-linux-kernel-contributions-and-solo-developers",
-      "title": "Reddit’s r/opensource bans AI-made and AI-focused projects, also bans non-English speakers",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/reddits-r-opensource-bans-ai-made-and-ai-focused-projects-also-bans-non-english-speakers-sweeping-new-rules-spark-backlash-over-linux-kernel-contributions-and-solo-developers",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Newton Gitonga",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T10:00:00+00:00",
-      "summary": "Reddit’s r/opensource has barred AI-built, AI-focused, and AI-using projects under new rules announced October 24. The crackdown also imposes strict requirements on project age and contributors, while restrictions on non-English speakers have sparked further backlash. The debate puts the subreddit’s policy at odds with Linux’s acceptance of disclosed AI-assisted code contributions.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/microsoft-office/denmarks-bid-to-ditch-microsoft-office-for-open-source-alternative-collabora-collapses-in-under-six-months-employees-cite-issues-with-style-formatting-and-tracking-changes",
-      "title": "Denmark’s bid to ditch Microsoft Office for open-source alternative Collabora collapses in under six months",
-      "url": "https://www.tomshardware.com/software/microsoft-office/denmarks-bid-to-ditch-microsoft-office-for-open-source-alternative-collabora-collapses-in-under-six-months-employees-cite-issues-with-style-formatting-and-tracking-changes",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T09:30:00+00:00",
-      "summary": "The Danish digitization ministry experimented with Collabora as an alternative to Microsoft Office, but employees who used them were frequently frustrated with style and paragraph formatting challenges, among other complaints.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/big-tech-is-cashing-in-on-ai-while-the-rest-of-corporate-america-sees-no-financial-returns-report-outlines-how-rising-token-costs-threaten-to-squeeze-corporate-profit-margins",
-      "title": "Big Tech is cashing in on AI while the rest of corporate America sees no financial returns",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/big-tech-is-cashing-in-on-ai-while-the-rest-of-corporate-america-sees-no-financial-returns-report-outlines-how-rising-token-costs-threaten-to-squeeze-corporate-profit-margins",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Newton Gitonga",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-25T15:25:40+00:00",
-      "summary": "Revenue per employee at the Magnificent Seven has outpaced the S&amp;P 493, and a new comparison highlights the growing divide in fortunes between America’s largest technology companies and the rest of the S&amp;P 500.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/mechanical-keyboards/iqunix-mq80-low-profile-mechanical-keyboard-review",
-      "title": "IQUNIX MQ80 low profile mechanical keyboard review",
-      "url": "https://www.tomshardware.com/peripherals/mechanical-keyboards/iqunix-mq80-low-profile-mechanical-keyboard-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Christopher Coke",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-25T15:08:23+00:00",
-      "summary": "The IQUNIX MQ80 is well-made and super stylish, but it’s not quite the instant sell it used to be. Catch this one if you don’t like magnetic switches, but otherwise wait for a sale.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/ukrainian-drone-attacks-hammer-russias-finance-ministry-data-center-damaged-facility-reportedly-holds-tax-databases-facility-also-holds-other-important-state-registry-data",
-      "title": "Ukrainian drone attacks hammer Russia's finance ministry data center, damaged facility reportedly holds tax databases",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/ukrainian-drone-attacks-hammer-russias-finance-ministry-data-center-damaged-facility-reportedly-holds-tax-databases-facility-also-holds-other-important-state-registry-data",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-25T14:05:00+00:00",
-      "summary": "Reports say that this is one of three data centers that the Russian finance ministry operated.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/samsungs-new-2tb-990-ssd-is-38-percent-off-at-amazon-today-get-usd200-off-this-pcie-4-0-all-rounder-drive-for-a-limited-time",
-      "title": "Samsung's new 2TB 990 SSD is 38% off at Amazon today",
-      "url": "https://www.tomshardware.com/pc-components/ssds/samsungs-new-2tb-990-ssd-is-38-percent-off-at-amazon-today-get-usd200-off-this-pcie-4-0-all-rounder-drive-for-a-limited-time",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-25T13:43:37+00:00",
-      "summary": "Get 38% off the new Samsung 990 2TB SSD, a $200 saving.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform",
-      "title": "Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Newton Gitonga",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-25T13:00:00+00:00",
-      "summary": "Nvidia CEO Jensen Huang is reportedly weighing annual software fees of around $2,000 per GPU for enterprise AI, a model that could generate $10 billion a year if five million licenses were sold. The pricing and launch timeline remain unconfirmed, while Nvidia continues to expand its AI software and security tools for enterprise customers.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/playstation/jailbroken-ps5s-can-now-run-steam-pc-games-you-can-now-sign-in-with-your-steam-account-and-install-games-from-your-library-directly-to-the-console",
-      "title": "Jailbroken PS5s can now run Steam PC games",
-      "url": "https://www.tomshardware.com/video-games/playstation/jailbroken-ps5s-can-now-run-steam-pc-games-you-can-now-sign-in-with-your-steam-account-and-install-games-from-your-library-directly-to-the-console",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-25T12:40:11+00:00",
-      "summary": "Playden for PS5 creates an app for each Steam game that it downloads, allowing it to appear as a separate tile on the console's home screen.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/windows/windows-xp-debuted-25-years-ago-today-microsofts-biggest-launch-since-95-was-its-first-consumer-os-to-remove-the-dos-underpinnings",
-      "title": "Windows XP debuted 25 years ago today",
-      "url": "https://www.tomshardware.com/software/windows/windows-xp-debuted-25-years-ago-today-microsofts-biggest-launch-since-95-was-its-first-consumer-os-to-remove-the-dos-underpinnings",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-25T12:20:00+00:00",
-      "summary": "Windows XP became available at retailers for the first time on this day back in 2001.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/new-cd-players-keep-launching-but-a-drive-shortage-could-make-them-unfixable-almost-nobody-makes-the-drives-anymore",
-      "title": "New CD players keep launching, but a drive shortage could make them unfixable",
-      "url": "https://www.tomshardware.com/peripherals/new-cd-players-keep-launching-but-a-drive-shortage-could-make-them-unfixable-almost-nobody-makes-the-drives-anymore",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-25T12:00:00+00:00",
-      "summary": "The lack of optical drive manufacturers is raising questions about the repairability and longevity of new CD players that are coming out on the market today.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-isolated-red-team-ai-agents-built-a-hidden-cpu-cache-channel-to-talk-with-no-network-or-shared-files-exploited-cpu-cache-timing-to-bypass-microvm-sandboxes",
-      "title": "OpenAI's isolated red-team agents built a hidden CPU cache channel to talk with no network or shared files",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-isolated-red-team-ai-agents-built-a-hidden-cpu-cache-channel-to-talk-with-no-network-or-shared-files-exploited-cpu-cache-timing-to-bypass-microvm-sandboxes",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-25T11:30:00+00:00",
-      "summary": "OpenAI’s red-team agents passed hidden messages through the CPU cache, a covert trick already shown to move data between cloud VMs.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5800x3d-set-plan-in-motion-before-ddr5-shortages-am4-cpu-considered-a-final-gift-to-loyal-fans-of-the-decade-old-socket",
-      "title": "AMD CEO Lisa Su proposed bringing back the Ryzen 7 5800X3D, set plan in motion before DDR5 shortages",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-ceo-lisa-su-proposed-bringing-back-the-ryzen-7-5800x3d-set-plan-in-motion-before-ddr5-shortages-am4-cpu-considered-a-final-gift-to-loyal-fans-of-the-decade-old-socket",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-25T11:00:00+00:00",
-      "summary": "AMD Director Travis Kirsch confirmed the rationale for relaunching the first X3D chip and explained why the company no longer offers many Ryzen 3 SKUs.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/nvidia-eyes-converting-old-nuclear-plants-into-massive-ai-data-centers-reusing-shut-down-german-energy-sites-could-reduce-the-cost-and-timeline-of-building-from-scratch",
-      "title": "Nvidia eyes converting old nuclear plants into massive AI data centers",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-eyes-converting-old-nuclear-plants-into-massive-ai-data-centers-reusing-shut-down-german-energy-sites-could-reduce-the-cost-and-timeline-of-building-from-scratch",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-25T10:30:00+00:00",
-      "summary": "Nvidia and PreussenElektra are studying whether decommissioned sites of German nuclear power plants can be repurposed as AI data centers, potentially cutting development time by reusing existing grid connections, land, and industrial infrastructure.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/hacker-finds-own-samsung-tv-collecting-scary-amounts-of-user-information-and-gets-banned-by-openai-for-cyber-abuse-tv-runs-an-ai-model-that-collects-audio-screenshots-and-plenty-of-other-user-data-for-ad-targeting",
-      "title": "Cybersecurity bounty hunter says Samsung TVs use AI to record audio and screenshots for ads",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/hacker-finds-own-samsung-tv-collecting-scary-amounts-of-user-information-and-gets-banned-by-openai-for-cyber-abuse-tv-runs-an-ai-model-that-collects-audio-screenshots-and-plenty-of-other-user-data-for-ad-targeting",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jhet Borja",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-25T10:00:00+00:00",
-      "summary": "A hacker reverse-engineered his own Samsung TV and found alarming spying activity, including code that used connected devices' microphones to listen to users.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50219700",
       "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
       "url": "https://github.com/Zagitta/gpu-unlock",
@@ -889,8 +889,27 @@
       },
       "duration_sec": null,
       "views": 349,
-      "comments": 82,
+      "comments": 83,
       "published_at": "2026-10-24T09:58:27+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50236073",
+      "title": "Nvidia and Micron Make Up 34% of America's Earnings Boom",
+      "url": "https://www.wsj.com/finance/stocks/the-earnings-boom-is-heavily-reliant-on-just-a-handful-of-stocks-21decb53",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50236073",
+        "name": "JumpCrisscross",
+        "hn_url": "https://news.ycombinator.com/item?id=50236073"
+      },
+      "duration_sec": null,
+      "views": 145,
+      "comments": 35,
+      "published_at": "2026-10-25T21:07:38+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -907,7 +926,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50086363"
       },
       "duration_sec": null,
-      "views": 79,
+      "views": 80,
       "comments": 50,
       "published_at": "2026-10-14T12:05:44+00:00",
       "summary": "",
@@ -926,47 +945,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50247677"
       },
       "duration_sec": null,
-      "views": 39,
-      "comments": 20,
+      "views": 40,
+      "comments": 23,
       "published_at": "2026-10-26T17:34:45+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50081435",
-      "title": "Nvidia Reportedly Ending the RTX 5090, Reserves GB202 for Workstation GPUs",
-      "url": "https://www.techpowerup.com/353578/nvidia-reportedly-ending-the-rtx-5090-reserves-gb202-silicon-for-workstation-gpus",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50081435",
-        "name": "kristianp",
-        "hn_url": "https://news.ycombinator.com/item?id=50081435"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 2,
-      "published_at": "2026-10-14T01:52:56+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50110301",
-      "title": "Nvidia, Apple, Google, Microsoft, Amazon, Meta gave Trump $92M for his ballroom",
-      "url": "https://www.theverge.com/policy/1012047/nvidia-apple-google-microsoft-amazon-meta-trump-ballroom",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50110301",
-        "name": "jacquesm",
-        "hn_url": "https://news.ycombinator.com/item?id=50110301"
-      },
-      "duration_sec": null,
-      "views": 12,
-      "comments": 0,
-      "published_at": "2026-10-15T21:11:05+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -983,7 +964,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50198675"
       },
       "duration_sec": null,
-      "views": 504,
+      "views": 507,
       "comments": 218,
       "published_at": "2026-10-22T17:44:06+00:00",
       "summary": "",
