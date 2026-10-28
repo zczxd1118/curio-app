@@ -1,31 +1,33 @@
 # Curio · AI · 2026-10-28
 
-> 今日 1 条头条 + 3 条备选
+> 今日 1 条头条 + 0 条备选
 
-_今天最重要的信号只有一个：Anthropic 递交 S-1，$16.3B 上半年营收、潜在 $2 万亿估值，同时招股书里自陈 AI 可能勒索人类、失控、终结人类——这是 AI 资本化与安全叙事第一次被写进同一份法律文件。第二个信号是算力侧的硬约束：TSMC 考虑 CoWoS 涨价 20%、Nvidia 掏钱给六家供应商扩产，供给瓶颈已经从芯片蔓延到封装和基板。_
+_今天最重的信号是 Anthropic 递交 IPO：半年 163 亿美元收入、传闻 2 万亿美元估值，同时招股书里写满了自我风险警告——AI 资本周期正式进入公开市场定价阶段。另一条是 Nvidia 掏钱给六家供应链厂商扩产、TSMC 传 CoWoS 涨价 20%，算力瓶颈从芯片转向封装与基板。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. 最新 Skills 开发教程，Agent skill 实战｜WorkBuddy+Codex+DeepSeek Harness
+### 5. Agent Skills 开发教程今天上线：WorkBuddy + Codex + DeepSeek Harness 实战
 
 **[AI]** · ⭐⭐⭐ · _尚硅谷_
 
-今天刚发，Skills 是当前 Agent 构建最热的一层抽象，但尚硅谷的课偏入门，等有实测反馈再看。
+尚硅谷今天发布 Agent Skills 零基础到落地教程，覆盖 WorkBuddy、Codex 上手和项目实战。这是 Skills 概念从 Anthropic 内部实践扩散到中文教程体系的一个信号——你正在做的 content-curator，本质就是一个 Skill 组合体。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 教程于 2026-10-28 发布，覆盖 WorkBuddy、Codex、DeepSeek Harness | 教程质量与工程深度未知，尚硅谷系列偏长偏全但常缺细节 |
+| 定位为零基础到项目落地 | Skills 的标准化程度仍低，各家实现不兼容 |
+| Skills 已成为中文教程体系的独立主题 | 是否值得花时间看，取决于它有没有给出可复用的目录结构 |
+| 同期还有 Claude Skill 做 PPT 的实操教程在流传 | DeepSeek Harness 的具体能力边界未说明 |
+
+**📖 主编点评**
+
+先别急着看 748 集那种。你可以直接跳到「项目落地」章节，看它的 Skill 目录怎么组织、prompt 怎么分层——这正是 content-curator 需要的。如果它给不出可复用的结构，就跳过。
 
 📺 [打开原文](http://www.bilibili.com/video/av117511429295044)
 
 ---
-
-## 📋 备选阅读
-
-- [【开源】让手机自己操作 App！RikkaHub Agent Pure](http://www.bilibili.com/video/av117394643097499) —— 无障碍屏幕自动化 + 专家团架构，AGPL 开源，是少见的能读到真实实现的移动端 Agent 项目。
-  _补药满减哇_
-- [🚀OpenClaw 高级使用经验：Claude Code Hooks 回调 + Agent Teams 全自动开发零轮询](http://www.bilibili.com/video/av116046157647899) —— 讲的是用 Stop Hook 把轮询 token 消耗压到接近零，工程细节密度高，契合你的偏好。
-  _AI超元域_
-- [【AI开发单片机系统】不写一行代码：STM32 从零到成品全流程实战](http://www.bilibili.com/video/av117472841697065) —— 上周发布，AI 辅助嵌入式开发，和你的电子信息背景直接对口，可作跨域视角补充。
-  _叶江航_
 
 ---
 

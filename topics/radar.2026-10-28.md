@@ -1,52 +1,52 @@
 # Curio 趋势雷达 · 2026-10-28
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 14 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 16 条备选
 
-_今天最重要的信号只有一个：Anthropic 递交 S-1，$16.3B 上半年营收、潜在 $2 万亿估值，同时招股书里自陈 AI 可能勒索人类、失控、终结人类——这是 AI 资本化与安全叙事第一次被写进同一份法律文件。第二个信号是算力侧的硬约束：TSMC 考虑 CoWoS 涨价 20%、Nvidia 掏钱给六家供应商扩产，供给瓶颈已经从芯片蔓延到封装和基板。_
+_今天最重的信号是 Anthropic 递交 IPO：半年 163 亿美元收入、传闻 2 万亿美元估值，同时招股书里写满了自我风险警告——AI 资本周期正式进入公开市场定价阶段。另一条是 Nvidia 掏钱给六家供应链厂商扩产、TSMC 传 CoWoS 涨价 20%，算力瓶颈从芯片转向封装与基板。_
 
 ---
 
 ## 🌟 大厂 AI 动态
 
-### 1. Anthropic 递交 S-1：上半年营收 $16.3B，核心业务很赚钱，但利润可能被竞争吃光
+### 1. Anthropic 递交 IPO：半年 163 亿美元收入，但 Ben Thompson 说利润会被竞争吃光
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Ben Thompson_
 
-Anthropic 的 IPO 文件终于落地，Ben Thompson 的拆解是今天最值得读的一篇。他的判断很锋利：业务本身毛利结构健康，但算力成本与竞争会把超额利润磨平，而公开市场投资者被安排进了一场无休止的稀释。同一份文件里，Anthropic 还列了 93 页风险因素，包括 AI 可能勒索人类、获得自我意识。
+Anthropic 的 S-1 终于公开，2026 上半年收入 16.3 亿美元级别（$16.3B），并寻求数万亿美元估值。Ben Thompson 的判断比数字更值得看：核心业务确实赚钱，但算力成本与模型竞争会把利润压回去，公开市场投资者还要面对持续稀释。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic 已递交 S-1，披露 2026 上半年营收 $16.3B | $2 万亿估值是否成立，取决于推理毛利能否长期守住而非训练叙事 |
-| 招股书含 93 页 Risk Factor，明确写入 AI 勒索、失控、终结人类等极端风险 | 招股书里的安全风险表述是真实治理约束，还是为 IPO 免责的法律护城河 |
-| Amazon 通过大额可转债转换成为最大受益方，持股远超 VC 合计 | Amazon 的持股结构会如何影响 Anthropic 的模型路线与云绑定 |
-| Stratechery 判断核心业务盈利，但竞争与算力成本会侵蚀利润 | 公开市场资金进入后，Anthropic 的"安全优先"承诺还能撑多久 |
-| 市场对估值预期已从数万亿下调，Reuters 报道投资者因增速放缓而降温 |  |
+| Anthropic 已递交 IPO 文件，披露 2026 上半年收入 163 亿美元 | 2 万亿美元估值是否成立，取决于推理成本能否持续下降 |
+| 招股书 93 页风险因素中明确写入模型可能被滥用、失控等极端风险 | 收入增速已出现放缓迹象，部分投资者下调了估值预期 |
+| Amazon 通过债转股成为最大受益方之一，VC 账面收益以十亿美元计 | 招股书的风险披露更像合规动作，还是真实的产品路线约束 |
+| Stratechery 判断核心业务当前盈利，但竞争可能吃掉全部利润 | 上市后 Anthropic 是否会因股东压力放松安全承诺 |
+| 公司治理结构复杂，IPO 后谁真正掌权仍存疑 |  |
 
 **📖 主编点评**
 
-你应该把这份 S-1 当技术文档读，而不是财经新闻：里面对推理成本、算力采购、模型迭代节奏的描述，是外部能拿到的最真实的 frontier lab 运营数据。做 Agent 项目时，顺手对照它披露的成本结构，判断你依赖的 API 价格未来半年是涨是跌。
+你不需要读完整 S-1，但该读 Stratechery 这篇——它把「收入好看 ≠ 生意好」讲透了。对你做 content-curator 的启示：模型能力不再是护城河，成本结构和分发渠道才是，选型时别只盯 benchmark。
 
 📺 [打开原文](https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/)
 
 ---
 
-### 3. Google 发布 Genie 4 世界模型：加入音频、场景一致性翻倍到 2 分钟、支持实时操控
+### 3. Google 发布 Genie 4 世界模型：场景一致性翻倍到 2 分钟，加入音频与实时操控
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐ · _acossta_
 
-Genie 4 是 Genie 3 的实质升级，不是参数微调。场景一致性从 1 分钟拉到 2 分钟，物理表现更准，角色动作更接近真人，还第一次加入音频，并支持实时 steering——你可以边跑边改世界走向。HN 上 886 点，是今天技术社区讨论度最高的一条。
+Genie 4 把一致场景时长从 Genie 3 的 1 分钟拉到 2 分钟，物理表现更真实，角色动作更像人，并首次加入音频与实时 steering。HN 上 886 分，是本周讨论度最高的模型发布。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Genie 4 已由 DeepMind 正式发布 | 2 分钟一致性对实际 Agent 训练是否够用，还是仍停留在 demo 级 |
-| 场景一致性上限从 Genie 3 的 1 分钟提升到 2 分钟 | 实时 steering 的延迟与可控粒度尚未公开 |
-| 新增音频生成与实时 steering 能力 | 音频是生成还是检索拼接，决定它能否用于交互式环境 |
-| 物理模拟与角色拟人度均有提升 | 是否会开放 API，还是仅限内部与合作伙伴 |
-| HN 讨论 886 点，社区关注度高 |  |
+| Genie 4 场景一致性上限为 2 分钟，是 Genie 3 的两倍 | 2 分钟一致性对训练具身智能体是否够用，尚无第三方评测 |
+| 新增音频生成与实时 steering 能力 | 实时 steering 的延迟数据未公开 |
+| 物理模拟与角色行为拟人度均有提升 | 与 Gemini 4 Argon 的能力边界如何划分仍不清楚 |
+| DeepMind 官方博客与模型页同步上线 | 商业化路径（API 还是内部训练工具）未说明 |
+| HN 讨论 886 分，为当日最高 |  |
 
 **📖 主编点评**
 
-世界模型正在变成 Agent 的"模拟器"。如果你想给 content-curator 加一个"预演"能力——比如让 Agent 先在模拟环境里试跑抓取策略——这类模型是未来半年最值得盯的基础设施。现在先关注它是否开放接口，别急着接。
+世界模型的价值不在生成视频，而在给 Agent 提供一个可交互的模拟环境。你做 Agent 项目时可以留意：未来「在 Genie 里跑一遍再上真机」可能成为标准流程，就像现在先跑单测再上线。
 
 📺 [打开原文](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)
 
@@ -54,117 +54,120 @@ Genie 4 是 Genie 3 的实质升级，不是参数微调。场景一致性从 1 
 
 ## 🌟 AI 算力 / 半导体
 
-### 2. TSMC 考虑 CoWoS 涨价 20%，Blackwell 与 Rubin 把封装产能压到极限，设备交期拉到 8 个月
+### 2. Nvidia 掏数十亿美元给六家供应商扩产，提前锁定到 2028 年的基板、封装、测试产能
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Newton Gitonga_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Etiido Uko_
 
-瓶颈已经从制程挪到封装。TSMC 正在评估对 CoWoS 先进封装提价最多 20%，原因是 Nvidia 的 Blackwell 和即将到来的 Rubin 把产能吃满，相关设备交付周期已经拉长到 8 个月。同一天 Nvidia 宣布与六家供应商签十亿美元级协议，覆盖基板、先进封装、测试和光引擎，等于自己出钱给供应链扩产。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| TSMC 据报评估 CoWoS 提价最多 20% | 涨价是否最终落地，还是作为产能分配的谈判筹码 |
-| Blackwell 与 Rubin 是产能压力的直接来源 | Nvidia 垫资扩产会不会演变成对供应商的长期锁定 |
-| 封装设备交付周期已延长至 8 个月 | Rubin 的量产节奏是否会被封装卡住，进而影响 2027 的模型训练排期 |
-| Nvidia 与六家供应商签十亿美元级协议，覆盖基板/封装/测试/光引擎 | 面板级封装（panel-level）能否在两年内真正接住溢出需求 |
-| Nvidia 的承诺覆盖到 2028 年产能预留 |  |
-
-**📖 主编点评**
-
-这条对你做推理优化的判断很直接：未来 12 个月 GPU 单位算力成本大概率不降反升，靠堆卡解决延迟的路子会越来越贵。你的 content-curator 如果要做 embedding 或批量摘要，优先考虑小模型 + 本地推理，别把架构押在"API 会越来越便宜"上。
-
-📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reportedly-weighs-20-percent-cowos-price-increase-as-nvidia-blackwell-and-rubin-chips-put-pressure-on-packaging-capacity-equipment-lead-times-stretch-to-eight-months)
-
----
-
-### 4. Cadence 推出 Maestro：专为芯片设计 Agent 微调的模型，声称质量高 30%、token 效率高 5 倍
-
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Shane Downing_
-
-这是"垂直领域微调模型 + Agent"路线在 EDA 里的第一个大厂落地。Cadence 的 Maestro 不是通用模型套壳，而是针对芯片设计任务微调，官方给出的数字是结果质量提升最多 30%、token 效率提升最多 5 倍，Q4 2026 对部分客户开放早期访问。
+Nvidia 不再只是下单方，而是直接出钱帮供应链建产能：基板、共封装光学、先进封装、芯片测试四个环节各签了数十亿美元级协议，产能锁定到 2028 年。同期 TSMC 传出 CoWoS 涨价最高 20%，设备交期拉到 8 个月。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Cadence 发布 Maestro，面向芯片设计 Agent 的专用微调模型 | 30% 与 5x 是内部基准还是客户实测，口径未公开 |
-| 官方声称结果质量提升最多 30% | 专用模型是否会牺牲跨任务泛化，导致只能跑固定流程 |
-| token 效率相比通用模型提升最多 5 倍 | EDA 三巨头是否都会走这条路，形成新的护城河 |
-| 2026 Q4 对 select customers 开放早期访问 | 对开源模型微调路线是否构成可复制的范式 |
+| Nvidia 与六家主要供应商签署十亿美元级协议，覆盖基板、先进封装、测试、光引擎 | Nvidia 出钱建产能，本质是把供应链风险内部化，长期可能压低自身毛利 |
+| 产能预订周期延伸至 2028 年 | 封装而非制程，正在成为 2027 年前 AI 芯片出货的真实天花板 |
+| TSMC 正评估 CoWoS 涨价最高 20%，因 Blackwell 与 Rubin 挤压封装产能 | 涨价能否落地取决于 Nvidia 的议价意愿 |
+| CoWoS 相关设备交付周期已拉长至约 8 个月 | 面板级封装（panel-level）是否会在两年内替代部分晶圆级路线 |
+| Micron 计划用晶圆键合与 High-NA EUV 做下一代 DRAM |  |
 
 **📖 主编点评**
 
-这条给你的启发是方法论层面的：与其用通用大模型硬扛垂直任务，不如微调一个小模型专做一件事。你的 content-curator 里"打分/选稿"这一步，未来完全可以换成小模型微调，token 成本和稳定性都会好很多——现在先把评分数据攒起来。
+如果你关心推理成本为什么降不下来，答案在这条链上：封装和 HBM 才是瓶颈，不是 FLOPS。做 AI 产品时把「单位 token 成本下降速度」当成一个需要跟踪的外部变量，而不是默认假设。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/cadence-reveals-maestro-fine-tuned-ai-models-built-to-run-specialized-chip-design-agents-with-early-access-coming-for-select-customers-in-q4-2026-claims-up-to-30-percent-higher-quality-results-and-up-to-5x-token-efficiency-over-a-general-purpose-ai-model)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/nvidia-is-bankrolling-ai-accelerator-supply-chain-buildout-to-reserve-production-capacity-announces-billion-dollar-deals-with-six-major-suppliers-across-substrates-advanced-packaging-semiconductor-testing-and-optical-engines)
 
 ---
 
 ## 🌟 股票
 
-### 5. 中国 AI 泡沫已经破了：与美股叙事分道扬镳，亚洲芯片股与数据中心 IPO 同步承压
+### 4. 中国 AI 泡沫已经破了：数据中心股、芯片股同步回落，与美股叙事分道扬镳
 
 **[股票]** · ⭐⭐⭐⭐ · _smurda_
 
-这条和 Anthropic 的 $2 万亿 IPO 放在一起看才有意思。同一周里，美国在给 AI 定天价，中国市场的 AI 叙事已经在出清：韩国数据中心 IPO 首日暴跌 30%，亚洲芯片股集体下挫，Firmus 的 $30B IPO 梦 48 小时破碎。两个市场的定价逻辑正在彻底分开。
+同一周里，美国在讨论 Anthropic 的 2 万亿估值，中国市场给出的答案是「泡沫已经破了」。数据中心概念股、亚洲芯片股连续回落，韩国某数据中心 IPO 首日跌 30%，Firmus 的 300 亿美元上市计划 48 小时内告吹。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 分析称中国 AI 泡沫已破裂，与美股走势分化 | 这是估值出清还是需求真的转弱，尚需一到两个季度验证 |
-| 韩国某数据中心相关 IPO 首日跌 30% | 中美 AI 资本周期脱钩会持续多久 |
-| SK 海力士、三星、软银等亚洲科技股同步下挫 | 亚洲供应链承压是否会反向影响 Nvidia 的交付节奏 |
-| Nvidia 支持的 Firmus 撤回 IPO | 国内 AI 应用侧是否会因融资收紧而加速向开源与降本迁移 |
-| 中国股票成为全球 AI 交易回调中的最大输家 |  |
+| 分析文章称中国 AI 泡沫已破裂，相关股票持续走弱 | 中美 AI 资本周期是否真的脱钩，还是只是时间差 |
+| 韩国一数据中心相关 IPO 首日下跌 30%，拖累亚洲科技情绪 | 回调是估值修正还是需求见顶，需要看下季度订单数据 |
+| Nvidia 支持的 Firmus 撤回 300 亿美元 IPO 计划 | 数据中心资产的融资结构（债务占比）可能放大下行 |
+| 亚洲芯片股（SK 海力士、三星、软银）因 AI 融资担忧集体下跌 | 这轮调整会不会传导到国内的算力采购预算 |
+| 中国股票成为全球 AI 交易回调中跌幅最大的板块 |  |
 
 **📖 主编点评**
 
-别被"AI 泡沫"这个词带偏。真正值得你注意的是：融资收紧会加速行业向低成本、开源、可落地的方案迁移——这恰好是你这类个人项目的窗口期。工具链越便宜，side project 的相对优势越大。
+这条和头条 1 要一起读：一边是 IPO 抢跑，一边是泡沫破裂，说明市场对 AI 的定价正在从「叙事」转向「现金流」。你如果关注 AI 相关标的或就业方向，把「谁在真金白银付钱」当成第一筛选条件。
 
 📺 [打开原文](https://finance.yahoo.com/markets/stocks/articles/analysis-china-ai-bubble-already-120038616.html)
 
 ---
 
+## 🌟 AI
+
+### 5. Agent Skills 开发教程今天上线：WorkBuddy + Codex + DeepSeek Harness 实战
+
+**[AI]** · ⭐⭐⭐ · _尚硅谷_
+
+尚硅谷今天发布 Agent Skills 零基础到落地教程，覆盖 WorkBuddy、Codex 上手和项目实战。这是 Skills 概念从 Anthropic 内部实践扩散到中文教程体系的一个信号——你正在做的 content-curator，本质就是一个 Skill 组合体。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 教程于 2026-10-28 发布，覆盖 WorkBuddy、Codex、DeepSeek Harness | 教程质量与工程深度未知，尚硅谷系列偏长偏全但常缺细节 |
+| 定位为零基础到项目落地 | Skills 的标准化程度仍低，各家实现不兼容 |
+| Skills 已成为中文教程体系的独立主题 | 是否值得花时间看，取决于它有没有给出可复用的目录结构 |
+| 同期还有 Claude Skill 做 PPT 的实操教程在流传 | DeepSeek Harness 的具体能力边界未说明 |
+
+**📖 主编点评**
+
+先别急着看 748 集那种。你可以直接跳到「项目落地」章节，看它的 Skill 目录怎么组织、prompt 怎么分层——这正是 content-curator 需要的。如果它给不出可复用的结构，就跳过。
+
+📺 [打开原文](http://www.bilibili.com/video/av117511429295044)
+
+---
+
 ## 📋 备选池
-
-### AI
-
-- [最新 Skills 开发教程，Agent skill 实战｜WorkBuddy+Codex+DeepSeek Harness](http://www.bilibili.com/video/av117511429295044) —— 今天刚发，Skills 是当前 Agent 构建最热的一层抽象，但尚硅谷的课偏入门，等有实测反馈再看。
-  _尚硅谷_
-- [【开源】让手机自己操作 App！RikkaHub Agent Pure](http://www.bilibili.com/video/av117394643097499) —— 无障碍屏幕自动化 + 专家团架构，AGPL 开源，是少见的能读到真实实现的移动端 Agent 项目。
-  _补药满减哇_
-- [🚀OpenClaw 高级使用经验：Claude Code Hooks 回调 + Agent Teams 全自动开发零轮询](http://www.bilibili.com/video/av116046157647899) —— 讲的是用 Stop Hook 把轮询 token 消耗压到接近零，工程细节密度高，契合你的偏好。
-  _AI超元域_
-- [【AI开发单片机系统】不写一行代码：STM32 从零到成品全流程实战](http://www.bilibili.com/video/av117472841697065) —— 上周发布，AI 辅助嵌入式开发，和你的电子信息背景直接对口，可作跨域视角补充。
-  _叶江航_
 
 ### AI 算力 / 半导体
 
-- [Nvidia is bankrolling AI accelerator supply chain buildout to reserve production capacity](https://www.tomshardware.com/tech-industry/semiconductors/nvidia-is-bankrolling-ai-accelerator-supply-chain-buildout-to-reserve-production-capacity-announces-billion-dollar-deals-with-six-major-suppliers-across-substrates-advanced-packaging-semiconductor-testing-and-optical-engines) —— 与头条 2 同源，单独看是 Nvidia 用资本锁定 2028 年前产能，产业链垂直整合的典型样本。
-  _Etiido Uko_
-- [Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors) —— Agent 做材料发现的首个公开案例，495 点，但结论需同行验证，先放备选。
+- [Opus 5.5 agents 发现两种室温磁性半导体候选材料](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors) —— Agent 做材料发现的早期案例，495 分。结论需实验验证，但「Agent 自主提出候选」这个范式值得记一笔。
   _outlier99_
-- [Micron plans to use wafer bonding and High-NA EUV for next-gen DRAM](https://www.tomshardware.com/pc-components/dram/micron-plans-to-use-wafer-bonding-and-high-na-euv-for-next-gen-dram-company-also-developing-vertical-high-bandwidth-memory-and-vertical-edge-inference-memory-integrated-directly-on-top-of-processors) —— Micron 明确拒绝 4F2 路线，转向晶圆键合 + High-NA EUV，还提了垂直 HBM，是 HBM 瓶颈的另一条解法。
-  _Anton Shilov_
+- [GPU-unlock：解锁 Nvidia 30 系显卡的 FP/BF16 指令发射率](https://github.com/Zagitta/gpu-unlock) —— 硬核逆向工程，349 分。对推理优化有兴趣可以看它怎么绕过驱动限制，工程细节密度高。
+  _fragebogen_
+- [Nvidia 与 Micron 贡献了美国盈利增长的 34%](https://www.wsj.com/finance/stocks/the-earnings-boom-is-heavily-reliant-on-just-a-handful-of-stocks-21decb53) —— 集中度风险的数据化表达。和头条 4 的中国泡沫叙事对照看，两边都在讲同一件事。
+  _JumpCrisscross_
+- [Cadence 发布 Maestro：为芯片设计 Agent 微调的专用模型](https://www.tomshardware.com/tech-industry/semiconductors/cadence-reveals-maestro-fine-tuned-ai-models-built-to-run-specialized-chip-design-agents-with-early-access-coming-for-select-customers-in-q4-2026-claims-up-to-30-percent-higher-quality-results-and-up-to-5x-token-efficiency-over-a-general-purpose-ai-model) —— 声称比通用模型质量高 30%、token 效率高 5 倍，Q4 开放早期访问。垂直领域微调 Agent 的典型样本。
+  _Shane Downing_
+- [Intel 计划收购 Classiq 相关软件平台，切入量子商业市场](https://www.eetimes.com/intel-wants-a-quantum-business-classiq-could-help-build-one/) —— 硬件研究多年后转向软件层，把量子开发者接到企业用户。今天发布，但离落地还远。
+  _Pat Brans_
 
 ### 大厂 AI 动态
 
-- [Researchers are getting tired of OpenAI gatekeeping its breakthroughs](https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics) —— OpenAI 宣称在数学/CS/物理有突破但不公开细节，学界反弹，是"开放 vs 封闭"张力的最新一幕。
+- [研究者开始不满 OpenAI 对突破成果的封锁](https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics) —— OpenAI 宣称数学/CS/物理突破但不公开细节，学界反弹。和 ETH 被证伪那条一起看更有意思。
   _Robert Hart_
-- [Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?](https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/) —— TechCrunch 采访 MIT 计算机科学家解读 ETH 被"推翻"的说法，适合想搞清这件事到底意味着什么的人。
+- [前沿实验室称模型证伪了「指数时间假设」，这意味着什么？](https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/) —— TechCrunch 采访 MIT 计算机科学家解读。属于「看不懂但该知道」类，深度够，可周末读。
   _Tim Fernholz_
-- [Anthropic IPO warns its AI could blackmail people, become sentient, end humanity](https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/) —— 从头条 1 的 93 页 Risk Factor 里摘出的七个"AI 噩梦"，读起来比原文快。
-  _Kyle Orland_
-
-### 金融
-
-- [A $300B 'Debt Wall' Is Looming over Private-Equity Backed Companies](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497) —— $3000 亿私募债务墙，和 AI 数据中心的高杠杆扩张是同一枚硬币的两面。
-  _JumpCrisscross_
-- [AI compute is the new oil–and needs a new market](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market) —— Economist 论证算力需要像石油一样有现货与期货市场，是理解算力定价机制的框架文章。
-  _ijidak_
+- [Firefox Smart Window 加入 AI 表单填写与网页监控](https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms) —— 浏览器内建 Agent 能力的又一步。对做浏览器侧 Agent 的人有参考价值，但增量不大。
+  _Emma Roth_
+- [Meta AI 总监 Rohit Patel 离职创业，要做 Ndoc 挑战 Office 与 Workspace](https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/) —— 做 AI 评测与 RL 八年后出走做文档工具。AI 原生办公赛道又添一个重量级玩家。
+  _Rebecca Bellan_
+- [Delaware 拟允许 AI Agent 独立运营整家公司，无需人类掌舵](https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/) —— 法律层面的 Agent 主体性实验，同时涉及责任豁免争议。做 Agent 产品的人该知道边界在哪。
+  _Jon Brodkin_
 
 ### 股票
 
-- [Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibility'](https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html) —— New Constructs 的看空报告，和头条 1 的乐观拆解正好对冲，读两篇才完整。
+- [3000 亿美元「债务墙」逼近 PE 控股公司](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497) —— 168 分。AI 基建大量靠债务融资，这条是头条 4 的底层机制说明。
+  _JumpCrisscross_
+- [研究机构称 Anthropic IPO 是「对投资者轻信度的空前考验」](https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html) —— 空头视角的完整论证，244 分。和头条 1 对照读，能拿到两边的论据。
   _m463_
-- [In China, the AI bubble has burst — 补充：Jio 上市首日涨 21%，成印度第二大市值公司](https://techcrunch.com/2026/10/27/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/) —— 同一天印度 Jio 上市大涨 21%，说明资本不是撤离 AI/科技，而是在换市场，值得对照头条 5 看。
-  _Jagmeet Singh_
+- [微软等公司要求加密平台不要将其股票代币化](https://gizmodo.com/microsoft-mcdonalds-verizon-and-others-tell-crypto-platform-not-to-tokenize-their-stocks-2000830368) —— RWA 代币化撞上公司法边界。对金融科技方向有观察价值，但和你的主线关系较远。
+  _gumby_
+
+### 金融
+
+- [AI 算力是新的石油，需要一个新市场](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market) —— Economist 视角：算力需要现货与期货市场。和 Nvidia 锁产能那条互为因果，值得一读。
+  _ijidak_
+- [美联储在悄悄吹大 AI 泡沫，同时抬高你的电费](https://www.thebignewsletter.com/p/how-the-federal-reserve-secretly) —— 观点性强但机制讲得清楚：数据中心用电如何进入电价与货币政策。带立场，自行打折。
+  _toomuchtodo_
+- [特斯拉 Q3 利润下滑 43%](https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/) —— Robotaxi 与 Roadster 叙事之外的硬数字。属于「该知道但不急」的一类。
+  _throw0101a_
 
 ---
 
