@@ -2,175 +2,173 @@
 
 > 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
 
-_今天最重要的信号是 Google 一天内连发 Gemini 4 Carbon 和 Genie 4，前沿模型迭代节奏已经压到周级；同时 Anthropic IPO 的估值争议和微软单季从 OpenAI 拿到 100 亿美元收入，说明 AI 资本叙事正在从'讲故事'转向'算账'。对做 Agent 的你，值得盯的是 Google 把 Gemini/Search 开放给第三方 App 的开发者平台——这是 Agent 生态的入口之争。_
+_今天最值得看的是两条线：一是 Google 一天内把 Gemini 4 Carbon 推上前沿，同时把 Gemini 和 Search 开放给第三方 App，Agent 时代的入口之争正式开打；二是 Anthropic 的 S-1 把「收入很漂亮、算力成本更吓人」摆上台面，配合 SK Hynix 创纪录财报和 TSMC CoWoS 传涨价 20%，AI 的钱正在从模型层往算力和封装层转移。_
 
 ---
 
 ## 🌟 大厂 AI 动态
 
-### 1. Google 发布 Gemini 4 Carbon：编码与 Agent 任务显著提升，但普通用户暂时用不上
+### 1. Google 发布 Gemini 4 Carbon：编程与 Agent 任务显著提升，但普通用户暂时用不上
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Ars Technica_
 
-Google 在周三发布 Gemini 4 Carbon，官方称在编码、Agent 任务和网络安全三块有'显著跃升'，并把它定位为前沿模型。但 Ars Technica 直接点破：Carbon 本质是 Argon 的小幅改进版，且发布即受限访问，普通开发者拿不到。同一天 DeepMind 还放出 Genie 4 世界模拟模型，Google 一天两发，节奏明显在抢叙事。
+Google 在周三发布新一代前沿模型 Gemini 4 Carbon，官方口径是编程、Agent 任务和网络安全三块有「显著跃升」。Ars 的判断更冷静：Carbon 本质上是 Argon 的小幅改进版，而且发布即受限——普通用户拿不到。同一天 Google 还把 Gemini 与 Search 通过新开发者平台开放给第三方 App。模型迭代的节奏没停，但真正的变量是入口。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Gemini 4 Carbon 已发布，官方强调编码、Agent 任务、网络安全三项能力提升 | Carbon 的真实能力提升幅度尚未有第三方独立评测，官方口径需打折看 |
-| Ars Technica 评价其为 Argon 的'略微更好版本'，并非代际跨越 | 受限访问是安全审查还是算力不足，Google 未说明，影响你能否短期接入 |
-| Carbon 发布即为受限访问，普通用户和开发者暂时无法调用 | Genie 4 与 Carbon 是否共享同一底座，官方未披露，决定后续微调空间 |
-| 同日 DeepMind 发布 Genie 4 世界模拟模型，HN 讨论超 1000 分 | 开放 Gemini/Search 给第三方 App 的开发者平台，可能是 Agent 生态的关键入口，但 API 条款和抽成未公布 |
-| Google 同时宣布把 Gemini 和 Search 开放给更多第三方 App，推开发者平台 |  |
+| Google 官方博客与 The Verge 同日确认 Gemini 4 Carbon 发布，定位为最新 frontier model | 「显著跃升」的具体幅度缺少第三方基准，Artificial Analysis 类评测尚未跟进 |
+| 官方强调在 coding、agentic tasks、cybersecurity 三方面有 significant gains | 受限发布是安全审查还是算力不够，官方未说明 |
+| Ars Technica 评价其为「essentially a slightly better version of Argon」 | 开放 Gemini/Search 给第三方 App 对 Agent 生态的实际影响，要看首批接入方是谁 |
+| Carbon 发布时并未向普通用户开放，属于受限/预览性质 | Carbon 与 Argon 的差距是否值得单独发一版，还是营销节奏需要 |
+| 同日 Google 推出开发者平台，让第三方 App 接入 Gemini 与 Search |  |
 
 **📖 主编点评**
 
-别急着为 Carbon 改技术选型——你拿不到权重也调不了 API。真正该花 30 分钟看的是那个'把 Gemini 和 Search 开放给第三方 App'的开发者平台文档：如果你的 content-curator 未来要接搜索或 Agent 工具调用，这是比模型版本更实际的接口。Carbon 的评测等第三方跑分出来再判断。
+你如果在意 Agent 工具链，重点不是 Carbon 的跑分，而是那个开发者平台——它决定未来第三方服务能不能被 Gemini 直接调用。建议这周去翻 Google 的开发者文档，看接入门槛和计费方式，这比追模型版本号对你做 content-curator 更有用。
 
 📺 [打开原文](https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/)
 
 ---
 
-## 🌟 AI 算力 / 半导体
+### 4. Google 把 Gemini 和 Search 开放给第三方 App，Agent 时代的入口开始重新分配
 
-### 2. TSMC 考虑 CoWoS 封装涨价 20%，Nvidia Blackwell 与 Rubin 把产能压到设备交期 8 个月
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
-
-据 Tom's Hardware 报道，TSMC 正评估把 CoWoS 先进封装价格上调最多 20%，原因是 Nvidia Blackwell 和即将到来的 Rubin 芯片把封装产能逼到极限，相关设备交付周期已拉长到 8 个月。这不是单点涨价，而是 AI 算力供应链最紧的那一环在重新定价。叠加 SK Hynix 创纪录的 Q3 业绩（AI 内存驱动），上游'卖铲子'的议价权还在加强。
+TechCrunch 报道 Google 推出新开发者平台，让企业把自己的服务接进 Gemini 与 Search 的 AI 体验里。这件事的分量在于：当 Agent 替用户找服务、下单、比价，谁被 Agent 优先调用，谁就拿到流量。Google 选择把自己变成 Agent 的调度层，而不是守着搜索框。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| TSMC 据报正评估 CoWoS 封装涨价，幅度最高 20% | 涨价是否落地、幅度是否真到 20%，TSMC 未官方确认，属'据报'级别 |
-| 涨价压力来自 Nvidia Blackwell 与 Rubin 芯片的封装需求 | 封装涨价会传导到 GPU 售价还是被 Nvidia 吸收，取决于双方长约条款，未公开 |
-| CoWoS 相关设备交付周期已拉长至 8 个月 | 8 个月设备交期意味着 2027 年产能扩张节奏已被锁定，短期缓解无望 |
-| SK Hynix 同日公布创纪录 Q3 业绩，明确归因于 AI 内存需求激增 | Solidigm 450 亿美元建厂仍在讨论阶段，落地时间和补贴条件不明 |
-| SK Hynix 旗下 Solidigm 据报筹划在美国建 450 亿美元闪存工厂 |  |
+| Google 发布新开发者平台，允许第三方服务接入 Gemini 与 Search | 接入的具体 API 形态、计费和排序规则尚未公开 |
+| 官方定位是让企业把服务带进 Google 的 AI 体验 | Agent 调用第三方服务时的商业分成模式不明 |
+| TechCrunch 判断这可能改变消费者发现和使用 App 的方式 | 对独立开发者是机会还是又一个平台税，取决于准入名单 |
+| 发布与 Alphabet Q3 财报同日，财报显示搜索量同比增长 | Google 是否会用自家服务优先排序，是反垄断层面的老问题 |
+| Alphabet Q3 营收 1276 亿美元，同比增长 25% |  |
 
 **📖 主编点评**
 
-这条对你不是'买显卡'的问题，而是判断 AI 推理成本曲线：封装和内存双双涨价，意味着未来 6-12 个月云端推理单价难降。你做 content-curator 如果打算长期跑 LLM 调用，现在就该把'本地小模型兜底 + 云端大模型精选'的混合架构写进设计，而不是假设 API 会越来越便宜。
+这是你该重点跟的一条。content-curator 未来如果要接外部数据源，MCP 之外可能多一条「被 Gemini 调用」的路径。建议先注册开发者平台看文档，搞清楚一个个人项目能不能低成本接入——早期接入方的红利通常最大。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reportedly-weighs-20-percent-cowos-price-increase-as-nvidia-blackwell-and-rubin-chips-put-pressure-on-packaging-capacity-equipment-lead-times-stretch-to-eight-months)
+📺 [打开原文](https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/)
 
 ---
 
 ## 🌟 股票
 
-### 3. 研究机构称 Anthropic IPO 是'对投资者轻信度的空前考验'，估值预期已从高点回落 5000 亿美元
+### 2. Anthropic S-1 拆解：核心业务很赚钱，但算力成本可能吃掉全部利润
 
-**[股票]** · ⭐⭐⭐⭐ · _Hacker News / CNBC_
+**[股票]** · ⭐⭐⭐⭐⭐ · _Stratechery_
 
-Anthropic 的 IPO 成了本周金融圈最吵的话题。New Constructs 直接发报告称这是'2026 年最荒谬的 IPO'，CNBC 跟进报道；Telegraph 则称其估值已从高点蒸发 5000 亿美元，路透报道投资者因增长放缓而下调估值预期。与此同时 Ben Thompson 在 Stratechery 拆 S-1：核心业务很赚钱，但竞争可能吃光利润，投资者面临持续稀释。
+Ben Thompson 拿到 Anthropic 的 S-1 后给了一个反直觉的结论：这家公司的核心业务其实非常赚钱，问题出在算力账单上。他的判断是竞争会把利润磨平，而投资人被安排进了一场无休止的稀释。同一周，New Constructs 直接把这次 IPO 称为「2026 年最荒谬的 IPO」，Reuters 则报道投资人因增速放缓而下调估值预期。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| New Constructs 发布报告，称 Anthropic IPO 为'2026 年最荒谬 IPO' | '最荒谬 IPO'是卖方研究观点，不代表定价结果，最终看认购情况 |
-| Telegraph 报道 Anthropic 估值较高点回落约 5000 亿美元 | 5000 亿美元回落的基数口径未统一，不同媒体算法可能不一致 |
-| 路透报道投资者因营收增长放缓而下调 IPO 估值预期 | S-1 中'核心业务很赚钱'与'竞争吃光利润'并存，真实毛利率需看原始文件 |
-| Stratechery 分析 S-1：核心业务盈利，但警告竞争侵蚀利润与持续稀释 | IPO 时间表仍可能因市场情绪推迟，NY Post 称华尔街在催其尽快上市 |
-| Anthropic 同期推出工具，向企业展示 AI 支出的实际回报，被解读为 IPO 前铺垫 |  |
+| Anthropic 已提交 S-1，IPO 进程正式启动 | 「核心业务很赚钱」与「利润被算力吃掉」之间的具体数字，S-1 披露到什么颗粒度尚不清楚 |
+| Stratechery 分析指出其核心业务盈利能力很强 | IPO 最终估值区间未定，市场情绪一周内已多次反转 |
+| S-1 中算力成本占比是核心风险项 | 竞争侵蚀利润的速度，取决于 OpenAI 与 Gemini 的定价策略 |
+| New Constructs 发布报告《Anthropic Is the Most Ridiculous IPO of 2026》 | 稀释条款对早期投资人的实际影响需看完整文件 |
+| Reuters 报道投资人因收入增速放缓而下调估值预期 |  |
 
 **📖 主编点评**
 
-别把这条当八卦看。Anthropic 的 S-1 是少有的、能看到前沿实验室真实单位经济学的文件——Ben Thompson 那篇值得你周末花 20 分钟读原文，重点看'算力成本由谁承担'那一节。这直接关系到你判断 Claude API 未来会不会涨价、以及你项目里该不该把 Claude 设为硬依赖。
+这条对你不是投资建议，是行业结构信号：模型层的毛利正在被算力成本压缩，价值往上游走。你做 AI 产品时，选模型 API 要开始把「供应商的算力成本压力」算进长期成本模型——今天便宜的 API，明年可能因为对方要补算力账单而涨价。
 
-📺 [打开原文](https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html)
+📺 [打开原文](https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 3. TSMC 传考虑 CoWoS 涨价 20%，Blackwell 与 Rubin 把封装产能压到极限
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+
+先进封装成了这轮 AI 算力真正的瓶颈。Tom's Hardware 报道 TSMC 正考虑把 CoWoS 价格上调最多 20%，原因是 Nvidia 的 Blackwell 和即将到来的 Rubin 把封装产能吃满，设备交期已经拉到 8 个月。同一天 SK Hynix 交出创纪录的 Q3，明确归因于 AI 内存需求。算力紧缺正在从「买不到 GPU」变成「封不出来」。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| TSMC 据报正评估 CoWoS 涨价，幅度最高 20% | 20% 涨价目前是「reportedly」，TSMC 未官方确认 |
+| 涨价压力来自 Nvidia Blackwell 与 Rubin 芯片的封装需求 | 涨价是否会传导到下游云厂商的 GPU 租赁价格，尚无数据 |
+| 相关设备交付周期已延长至约 8 个月 | 8 个月交期是峰值还是常态，要看 Rubin 量产节奏 |
+| SK Hynix 同日公布创纪录 Q3 业绩，归因于 AI 内存需求激增 | 内存厂的长期合约模式能否平抑下一轮价格波动 |
+| SK Hynix 长期客户合约与芯片涨价正在改变内存厂的多年度产能管理方式 |  |
+
+**📖 主编点评**
+
+如果你以后要跑本地推理或自建小集群，这条是提前预警：封装和内存的涨价会滞后 2-3 个季度传导到消费级显卡和云 GPU 价格。现在做推理成本估算，别按今天的云价线性外推一年。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reportedly-weighs-20-percent-cowos-price-increase-as-nvidia-blackwell-and-rubin-chips-put-pressure-on-packaging-capacity-equipment-lead-times-stretch-to-eight-months)
 
 ---
 
 ## 🌟 AI
 
-### 4. 如何审核 AI 写的代码：拆解 Anthropic 官方那篇 Claude Code 团队从写代码到上线的全流程
+### 5. Anthropic 官方流程拆解：Claude Code 团队怎么审核 AI 写的代码，从写到上线全流程
 
 **[AI]** · ⭐⭐⭐⭐ · _马克的技术工作坊_
 
-Anthropic 发了一篇文章，讲 Claude Code 团队自己怎么审核 AI 写的代码，因为代码审核和发布流程强绑定，文章实际覆盖了从写代码到上线的完整链路。马克的技术工作坊把这套流程结合自己的理解从头走了一遍，10 月 26 日发布，是目前中文圈对这份一手材料最细的解读。对天天用 Claude Code 写 side project 的人，这是少见的'官方工程实践'而非二手教程。
+马克的技术工作坊把 Anthropic 那篇讲 Claude Code 团队代码审核的文章，结合自己的理解从头到尾走了一遍。核心不是「怎么让 AI 写对」，而是「AI 写完到上线之间，人要在哪些节点卡住」。这类内容稀缺的地方在于：它讲的是流程和 why，不是工具清单。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic 官方发布了 Claude Code 团队审核 AI 代码与发布流程的文章 | 视频对 Anthropic 原文的还原度需对照原文核实，二手解读可能有取舍 |
-| 视频发布于 2026-10-26，属于近期内容，非旧料重剪 | 这套流程面向团队协作，个人 side project 能直接套用的比例未知 |
-| 内容覆盖从写代码、审核到上线的完整流程，而非单点技巧 | Anthropic 原文是否公开了具体 prompts 和 CI 配置，视频未明确说明 |
-| 作者结合自身理解做了流程复现，非纯翻译 |  |
+| Anthropic 官方发布过介绍 Claude Code 团队代码审核流程的文章 | 视频是二手解读，细节准确性需对照 Anthropic 原文 |
+| 该视频基于原文，覆盖从写代码到上线的完整链路 | 流程对个人 Side Project 是否过重，取决于项目规模 |
+| 内容聚焦代码审核与发布流程的关联 | Anthropic 内部流程能否直接迁移到小团队，缺少实证 |
+| 视频发布于 2026-10-26，属于近期内容 | 原文中关于自动化校验的具体配置，视频可能未完全覆盖 |
 
 **📖 主编点评**
 
-这正是你要的'工程实践细节 + 为什么'类型内容。建议直接看，重点记两件事：AI 生成代码的 review 检查清单长什么样、以及发布前的自动化校验怎么串。你 content-curator 如果以后让 Agent 自己改代码，这套流程就是你的安全网——先抄流程，再谈自动化。
+你做 content-curator 迟早会遇到「AI 改的代码要不要信」的问题。这条值得花 20 分钟看，重点记它卡在哪些节点做人工 review，然后挑 1-2 个节点套到自己的项目里——不用全抄，抄关键闸门就够。
 
 📺 [打开原文](http://www.bilibili.com/video/av117502453488457)
 
 ---
 
-## 🌟 金融
-
-### 5. 3000 亿美元'债务墙'逼近 PE 控股公司，AI 数据中心融资同时被利率上升考验
-
-**[金融]** · ⭐⭐⭐⭐ · _Hacker News / WSJ_
-
-WSJ 报道约 3000 亿美元债务将在未来几年集中到期，压在私募股权控股的公司头上；路透同期报道市场抛售与利率上升正在考验 AI 数据中心的交易热潮，10 年期美债收益率此前已升破 5.3%、创 24 年新高。两条线交汇：AI 基建的融资成本在涨，而 PE 体系的再融资窗口在收窄。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| WSJ 报道约 3000 亿美元债务墙逼近 PE 控股公司 | 债务墙的实际违约冲击取决于到期分布和再融资利率，报道未给逐季明细 |
-| 路透报道市场抛售与利率上升正在考验 AI 数据中心交易热潮 | AI 数据中心融资是否已'退潮'还是仅'放缓'，各方口径不一 |
-| 10 年期美债收益率此前升破 5.3%，为 24 年未见水平 | 美债收益率高位是否持续，取决于后续通胀与联储路径，当前无法定论 |
-| Nvidia 与 Micron 合计贡献美国盈利增长约 34%（WSJ） |  |
-| 韩国数据中心相关 IPO 首日暴跌 30%，拖累板块情绪 |  |
-
-**📖 主编点评**
-
-这条是给你判断'AI 泡沫'提供硬数据，不是让你去炒股。核心逻辑：AI 基建靠债务融资，利率高企 + 债务集中到期 = 2027 年可能有一批数据中心项目被迫缩表。对你的实际含义是——如果你未来想把 content-curator 部署到云上长期跑，别押注某家靠高杠杆扩张的小云厂商，选现金流稳的大厂。
-
-📺 [打开原文](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497)
-
----
-
 ## 📋 备选池
-
-### 大厂 AI 动态
-
-- [Microsoft 单季从 OpenAI 相关安排录得 100 亿美元收入，Azure 单季营收首次披露为 332 亿美元](https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/) —— 微软首次公开 Azure 美元营收和 OpenAI 分成数字，是判断 AI 商业化真实体量的硬数据，但偏财报解读，未上头条。
-  _TechCrunch_
-- [Google 把 Gemini 和 Search 开放给更多第三方 App，推开发者平台](https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/) —— Agent 生态入口之争的关键动作，但条款细节太少，先放备选，等文档出来再评估。
-  _TechCrunch_
-- [Amazon 内部新规：工程师停止'tokenmaxxing'刷 AI 使用量](https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-tells-engineers-to-stop-tokenmaxxing-to-look-productive-says-ai-will-be-central-to-software-development-but-usage-is-not-the-goal-new-guidelines-claim) —— 大厂开始反思'AI 使用量'作为 KPI 的荒谬，对你在简历里怎么写 AI 项目有直接启发。
-  _Tom's Hardware_
-- [Anthropic 推出工具，向企业展示 AI 支出到底买到了什么](https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/) —— AI 成本可观测性工具，做 Agent 项目迟早要自己搭类似的，先记下这个产品形态。
-  _TechCrunch_
 
 ### AI 算力 / 半导体
 
-- [Nvidia 联合 Oracle 把独立 Vera CPU 实例上线 OCI，多吉瓦级部署](https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-oracle-bring-vera-cpu-instances-online-in-multi-gigawatt-deployment-oci-superclusters-also-set-to-expand-with-rubin-only-clusters-attached-to-dual-xeon-6-hosts) —— Nvidia 从 GPU 往 CPU 延伸的信号，影响未来云上推理实例选型，但离你较远。
+- [SK Hynix 创纪录 Q3：AI 内存需求推动，长期合约改变产能管理方式](https://www.eetimes.com/sk-hynix-reports-record-q3-results-driven-by-ai-memory-surge/) —— 内存厂从现货博弈转向多年期合约，是 AI 算力供应链结构变化的直接证据，但偏产业面，头条位让给了 CoWoS。
+  _EE Times_
+- [马来西亚查获 30 台服务器内藏 1200 万美元先进 AI 芯片](https://www.tomshardware.com/tech-industry/policy/malaysia-seizes-usd12-million-worth-of-advanced-ai-chips-hidden-inside-30-servers-customs-says-suspected-smuggling-network-used-the-country-as-a-transit-hub) —— 出口管制的执行面新闻，说明先进芯片灰色流通仍在，但对你日常工程实践影响有限。
   _Tom's Hardware_
-- [马来西亚查获 30 台服务器内藏价值 1200 万美元先进 AI 芯片，疑为走私中转](https://www.tomshardware.com/tech-industry/policy/malaysia-seizes-usd12-million-worth-of-advanced-ai-chips-hidden-inside-30-servers-customs-says-suspected-smuggling-network-used-the-country-as-a-transit-hub) —— 出口管制的现实执行案例，说明高端算力仍是稀缺品，但事件本身对开发者无直接行动项。
+- [Amazon 内部新规：别为了显得高产而「tokenmaxxing」](https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-tells-engineers-to-stop-tokenmaxxing-to-look-productive-says-ai-will-be-central-to-software-development-but-usage-is-not-the-goal-new-guidelines-claim) —— 大厂开始反思「AI 使用量」作为 KPI 的荒谬，观点有意思但信息密度不足以进头条。
   _Tom's Hardware_
-- [AI 元件涨价迫使全球最大 PC 厂商把产能迁回中国](https://www.tomshardware.com/tech-industry/manufacturing/ai-component-hikes-force-the-worlds-largest-pc-makers-to-return-manufacturing-capacity-to-china-brands-to-seek-lower-production-costs-and-efficiency-in-established-supply-chain) —— AI 挤占元件产能的连锁反应，供应链视角有意思，但和你的项目无直接关系。
+- [Nvidia Vera CPU 独立落地 Oracle Cloud 多吉瓦部署](https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-oracle-bring-vera-cpu-instances-online-in-multi-gigawatt-deployment-oci-superclusters-also-set-to-expand-with-rubin-only-clusters-attached-to-dual-xeon-6-hosts) —— Nvidia 从 GPU 供应商往 CPU 走的一步，长期值得盯，短期对开发者无感。
   _Tom's Hardware_
-- [GPU-unlock：在 Nvidia 30 系卡上解锁 FP/BF16 指令发射率](https://github.com/Zagitta/gpu-unlock) —— HN 350 分的硬核项目，对本地推理优化有参考价值，但门槛高、受众窄，放备选。
-  _Hacker News_
+
+### 大厂 AI 动态
+
+- [Microsoft 首次披露 Azure 单季营收：332 亿美元](https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/) —— 云市场份额终于有了可比数字，但属于财报解读，不如 Gemini 那条有行动价值。
+  _TechCrunch_
+- [Microsoft 单季从 OpenAI 相关安排录得 100 亿美元收入](https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/) —— OpenAI 与微软的收入分成规模首次量化，是理解两家关系的硬数字，但单条信息量偏薄。
+  _TechCrunch_
+- [Anthropic 推出工具，让企业看清 AI 花销买到了什么](https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/) —— IPO 前的透明度动作，对做 AI 成本管理的团队有参考，但产品细节未展开。
+  _TechCrunch_
+- [Instagram 负责人 Mosseri：围绕 AI 的负面情绪「还会更糟」](https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity) —— 少见的从业者公开承认 AI 反感情绪，属于访谈类信号，但内容偏态度不偏事实。
+  _The Verge_
 
 ### 股票
 
-- [Alphabet Q3 2026 财报：营收 1276 亿美元同比增 25%，AI 投资带动搜索增长](https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026) —— 财报数字本身是硬事实，但解读空间有限，头条已用 Anthropic IPO 覆盖金融叙事。
-  _The Verge_
-- [Stratechery：Anthropic S-1 拆解——算力成本由谁承担](https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/) —— Ben Thompson 的深度分析，是头条 3 的最佳补充阅读，单独列出方便你周末精读。
-  _Stratechery_
-- [CoreWeave 创始人们通过 33 亿美元股票减持锁定财富](https://www.bloomberg.com/news/articles/2026-10-15/coreweave-founders-shield-fortunes-with-3-3-billion-stock-sales) —— AI 基建公司内部人套现的信号，配合债务墙一起看更有味道，但单条信息量有限。
-  _Bloomberg_
+- [3000 亿美元「债务墙」压向 PE 支持的 company](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497) —— 与 AI 数据中心融资高度相关，但传导链条太长，今天先放备选。
+  _WSJ_
+- [Alphabet Q3 2026 财报：营收 1276 亿，AI 投资带动搜索增长](https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf) —— 原始财报 PDF，数字权威但无解读，适合自己拉数据时用。
+  _Alphabet IR_
 
 ### 金融
 
-- [联邦法官裁定 Flock 车牌监控搜索属'无差别大规模监控'、违宪](https://www.404media.co/federal-judge-rules-a-flock-search-was-indiscriminate-mass-surveillance-and-unconstitutional/) —— AI 监控的法律边界判例，对做 Agent 合规有长期参考价值，但今天优先级低于债务墙。
-  _404 Media_
-- [美国联邦预算赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 宏观背景数据，解释利率为何难降，但属于慢变量，备选即可。
+- [美国联邦赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 宏观背景项，与 AI 资本开支的融资环境相关，但离你的日常太远。
+  _Yahoo Finance_
+- [10 年期美债收益率升破 5.3%，24 年未见](https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f) —— 利率是 AI 数据中心融资的折现率，值得知道，但属于慢变量。
+  _WSJ_
+- [法国超市遭「前所未有」网络攻击后冷柜停摆](https://uk.finance.yahoo.com/news/french-supermarket-chains-cyberattack-forced-115141288.html) —— AI 驱动攻击的现实案例，但细节不足，先记一笔。
   _Yahoo Finance_
 
 ### AI
 
-- [最新 Skills 开发教程：Agent Skill 实战，WorkBuddy + Codex + DeepSeek Harness](http://www.bilibili.com/video/av117511429295044) —— 10 月 28 日刚发，Skills 是 Agent 构建的热点方向，但尚硅谷系列偏入门，先备选观察质量。
+- [DeepSeek Harness 实测对比 Claude Code：同一模型，工具链差距比想象大](http://www.bilibili.com/video/av117100337236191) —— 用同一模型跑两个 harness 的对比实验，方法论对你有用，但发布于 8 月，新颖度不够进头条。
+  _程序员晓刘_
+- [最新 Skills 开发教程：WorkBuddy + Codex + DeepSeek Harness 实战](http://www.bilibili.com/video/av117511429295044) —— 10-28 刚发，Skills 是当前 Agent 构建的热点，但尚硅谷的教程偏喂饭，深度待验证。
   _尚硅谷_
-- [14k Star 的 Claude Code 开源桌面端 cc-haha：让 5 个 AI Agent 分工开发](http://www.bilibili.com/video/av117276346946735) —— 多 Agent 协作的真实演示，契合你的 Agent 兴趣，但项目基于泄露源码，合规性存疑，放备选。
-  _程序员阿江-Relakkes_
 
 ---
 
