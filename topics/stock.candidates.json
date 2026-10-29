@@ -2,23 +2,23 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-28T09:30:45.195883+00:00",
+  "fetched_at": "2026-10-29T09:44:00.004743+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 13,
-    "HN · IPO": 14,
-    "HN · earnings": 1,
+    "HN · stock market": 11,
+    "HN · IPO": 12,
+    "HN · earnings": 2,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 48,
+  "total": 45,
   "items": [
     {
       "id": "hn:50162431",
@@ -51,8 +51,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50232604"
       },
       "duration_sec": null,
-      "views": 98,
-      "comments": 112,
+      "views": 100,
+      "comments": 134,
       "published_at": "2026-10-25T15:28:40+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -73,25 +73,6 @@
       "views": 32,
       "comments": 2,
       "published_at": "2026-10-20T14:50:08+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50098423",
-      "title": "Asia chip stocks fall, AI funding worries",
-      "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50098423",
-        "name": "kristianp",
-        "hn_url": "https://news.ycombinator.com/item?id=50098423"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 0,
-      "published_at": "2026-10-15T02:29:41+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -165,8 +146,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50236073"
       },
       "duration_sec": null,
-      "views": 145,
-      "comments": 35,
+      "views": 171,
+      "comments": 44,
       "published_at": "2026-10-25T21:07:38+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -211,20 +192,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50086344",
-      "title": "Humxn Commits $50M to Buy Skilled Trades Data for Robotics Training",
-      "url": "https://markets.businessinsider.com/news/stocks/humxn-research-labs-wants-to-buy-50-million-worth-of-skilled-trades-farming-and-manufacturing-data-for-ai-robotics-training-1036622854",
+      "id": "hn:50254255",
+      "title": "Pentagon orders bases to plan for 90 days without the grid",
+      "url": "https://fortune.com/2026/10/26/pentagon-fortress-bases-90-days-off-grid-uk-be-ready-stockpile/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50086344",
-        "name": "howdoweknowit",
-        "hn_url": "https://news.ycombinator.com/item?id=50086344"
+        "id": "50254255",
+        "name": "russfink",
+        "hn_url": "https://news.ycombinator.com/item?id=50254255"
       },
       "duration_sec": null,
       "views": 11,
-      "comments": 2,
-      "published_at": "2026-10-14T12:04:10+00:00",
+      "comments": 4,
+      "published_at": "2026-10-27T03:02:29+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -244,25 +225,6 @@
       "views": 10,
       "comments": 8,
       "published_at": "2026-10-16T18:27:58+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50254255",
-      "title": "Pentagon orders bases to plan for 90 days without the grid",
-      "url": "https://fortune.com/2026/10/26/pentagon-fortress-bases-90-days-off-grid-uk-be-ready-stockpile/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50254255",
-        "name": "russfink",
-        "hn_url": "https://news.ycombinator.com/item?id=50254255"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 4,
-      "published_at": "2026-10-27T03:02:29+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -301,25 +263,6 @@
       "views": 153,
       "comments": 147,
       "published_at": "2026-10-19T12:06:03+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49886005",
-      "title": "Anthropic's IPO prospectus shows AI vision, surging costs",
-      "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49886005",
-        "name": "6thbit",
-        "hn_url": "https://news.ycombinator.com/item?id=49886005"
-      },
-      "duration_sec": null,
-      "views": 145,
-      "comments": 150,
-      "published_at": "2026-09-28T23:40:59+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -496,22 +439,22 @@
       "lang": "en"
     },
     {
-      "id": "hn:50020096",
-      "title": "Ask HN: What if no AIpocalypse, no AI bubble, what if it just keeps advancing?",
-      "url": "https://news.ycombinator.com/item?id=50020096",
+      "id": "hn:50280197",
+      "title": "Alphabet Announces Third Quarter 2026 Results [pdf]",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50020096",
-        "name": "consumer451",
-        "hn_url": "https://news.ycombinator.com/item?id=50020096"
+        "id": "50280197",
+        "name": "mfiguiere",
+        "hn_url": "https://news.ycombinator.com/item?id=50280197"
       },
       "duration_sec": null,
-      "views": 16,
-      "comments": 33,
-      "published_at": "2026-10-09T13:18:05+00:00",
+      "views": 76,
+      "comments": 54,
+      "published_at": "2026-10-28T20:11:55+00:00",
       "summary": "",
-      "matched_keyword": "IPO",
+      "matched_keyword": "earnings",
       "lang": "en"
     },
     {

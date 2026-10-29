@@ -2,13 +2,13 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-10-28T09:30:19.686635+00:00",
+  "fetched_at": "2026-10-29T09:43:40.904609+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
-    "SemiAnalysis（半导体首选深度）": 10,
+    "SemiAnalysis（半导体首选深度）": 0,
     "EE Times": 10,
     "AnandTech": 0,
     "Tom's Hardware": 30,
@@ -24,176 +24,91 @@
       "name": "default"
     }
   ],
-  "total": 57,
+  "total": 47,
   "items": [
     {
-      "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
-      "title": "xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
-      "url": "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+      "id": "rss:https://www.eetimes.com/how-ai-redefines-semiconductor-manufacturing-from-materials-up/",
+      "title": "How AI Redefines Semiconductor Manufacturing, From Materials Up",
+      "url": "https://www.eetimes.com/how-ai-redefines-semiconductor-manufacturing-from-materials-up/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Jeremie Eliahou Ontiveros",
-        "feed_title": "SemiAnalysis"
+        "id": "https://www.eetimes.com/feed",
+        "name": "Mahiro Tsujino",
+        "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2025-09-16T17:38:01+00:00",
-      "summary": "Much has been written about xAI’s Colossus 1. The Memphis build belongs in the history books: the largest AI training cluster, erected from scratch in 122 days. With roughly 200,000 H100/H200s and ~30,000 GB200 NVL72, it remains, today, the largest fully operational, single-coherent cluster (setting apart Google, master of multi-datacenter-training). However, Colossus 1’s ~300 MW [&#8230;]",
+      "published_at": "2026-10-29T08:30:08+00:00",
+      "summary": "AI chip advances depend on more than design, requiring new materials, manufacturing equipment, and packaging technologies to meet rising performance demands. The post How AI Redefines Semiconductor Manufacturing, From Materials Up appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
-      "title": "Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack",
-      "url": "https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
+      "id": "rss:https://www.eetimes.com/canadian-startup-aims-to-be-quantums-picks-and-shovels/",
+      "title": "Canadian Startup Aims to Be Quantum’s ‘Picks’ and ‘Shovels’",
+      "url": "https://www.eetimes.com/canadian-startup-aims-to-be-quantums-picks-and-shovels/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
-        "feed_title": "SemiAnalysis"
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2025-09-10T19:57:18+00:00",
-      "summary": "Nvidia announced the Rubin CPX, a solution that is specifically designed to be optimized for the prefill phase, with the single-die Rubin CPX heavily emphasizing compute FLOPS over memory bandwidth. This is a game changer for inference, and its significance is surpassed only by the March 2024 announcement of the GB200 NVL72 Oberon rack-scale form [&#8230;]",
+      "published_at": "2026-10-28T20:50:32+00:00",
+      "summary": "Toronto-based Meissner Technologies uses AI and laboratory testing to discover superconducting materials that could cut cooling costs and help quantum computers scale. The post Canadian Startup Aims to Be Quantum’s ‘Picks’ and ‘Shovels’ appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
-      "title": "Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck",
-      "url": "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
+      "id": "rss:https://www.eetimes.com/sk-hynix-reports-record-q3-results-driven-by-ai-memory-surge/",
+      "title": "SK Hynix Reports Record Q3 Results Driven by AI Memory Surge",
+      "url": "https://www.eetimes.com/sk-hynix-reports-record-q3-results-driven-by-ai-memory-surge/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
-        "feed_title": "SemiAnalysis"
+        "id": "https://www.eetimes.com/feed",
+        "name": "News Desk",
+        "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2025-09-08T09:54:57+00:00",
-      "summary": "Compute is the lifeblood of AI. He who controls the spice controls the universe the compute will control the production of tokens and reap the benefits of AI. Without compute you do not have a seat at the table. The United States technology community is all in on compute and AI as the next platform [&#8230;]",
+      "published_at": "2026-10-28T16:43:42+00:00",
+      "summary": "Long-term customer contracts and rising chip prices point to a change in how memory manufacturers manage multi-year production capacity and capex. The post SK Hynix Reports Record Q3 Results Driven by AI Memory Surge appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
-      "title": "Amazon’s AI Resurgence: AWS & Anthropic’s Multi-Gigawatt Trainium Expansion",
-      "url": "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
+      "id": "rss:https://www.eetimes.com/secure-safety-and-security-communications/",
+      "title": "Secure Safety and Security Communications",
+      "url": "https://www.eetimes.com/secure-safety-and-security-communications/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Jeremie Eliahou Ontiveros",
-        "feed_title": "SemiAnalysis"
+        "id": "https://www.eetimes.com/feed",
+        "name": "Analog Devices",
+        "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2025-09-03T20:55:46+00:00",
-      "summary": "Two-and-a-half years ago, we flagged a looming “cloud crisis” at AWS. Today, the evidence has mounted. AWS is the crown jewel of the Amazon empire, generating ~60% of group profits, and dominating the lucrative Cloud Computing market. But it struggles to translate this strength into the new GPU/XPU Cloud era. Microsoft Azure now leads the [&#8230;]",
+      "published_at": "2026-10-28T14:00:00+00:00",
+      "summary": "This whitepaper explores how building safety and security systems can overcome the limitations of legacy RS-485 networks by adopting Single Pair Ethernet (SPE). It examines the growing demands of AI-enabled surveillance, access control, cybersecurity, and system convergence, while highlighting how SPE delivers secure, scalable communications over existing infrastructure. Readers will learn about SPE architectures, migration [&#8230;] The post Secure Safety and Security Communications appeared fi...",
       "lang": "en"
     },
     {
-      "id": "rss:https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
-      "title": "H100 vs GB200 NVL72 Training Benchmarks – Power, TCO, and Reliability Analysis, Software Improvement Over Time",
-      "url": "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
+      "id": "rss:https://www.eetimes.com/full-stack-semiconductor-solutions-for-embodied-ai-robotics/",
+      "title": "Full-Stack Semiconductor Solutions for Embodied AI & Robotics",
+      "url": "https://www.eetimes.com/full-stack-semiconductor-solutions-for-embodied-ai-robotics/",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
-        "feed_title": "SemiAnalysis"
+        "id": "https://www.eetimes.com/feed",
+        "name": "NSING",
+        "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2025-08-20T04:56:35+00:00",
-      "summary": "Frontier model training has pushed GPUs and AI systems to their absolute limits, making cost, efficiency, power, performance per TCO, and reliability central to the discussion on effective training. The Hopper vs Blackwell comparisons are not as simple as Nvidia would have you believe. In this report, we will start by present the results of [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
-      "title": "GPT-5 Set the Stage for Ad Monetization and the SuperApp",
-      "url": "https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Doug OLaughlin",
-        "feed_title": "SemiAnalysis"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2025-08-13T00:27:14+00:00",
-      "summary": "To many power users (Pro and Plus), GPT5 was a disappointing release. But with closer inspection, the real release is focused on the vast majority of ChatGPT’s users, which is the 700m+ free userbase that is growing rapidly. Power users should be disappointed; this release wasn’t for them. The real consumer opportunity for OpenAI lies [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
-      "title": "Scaling the Memory Wall: The Rise and Roadmap of HBM",
-      "url": "https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
-        "feed_title": "SemiAnalysis"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2025-08-12T01:16:06+00:00",
-      "summary": "The first portion of this report will explain HBM, the manufacturing process, dynamics between vendors, KVCache offload, disaggregated prefill decode, and wide / high-rank EP. The rest of the report will dive deeply into the future of HBM. We will cover the revolutionary change coming to HBM4 with custom base dies for HBM, what various [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
-      "title": "Robotics Levels of Autonomy",
-      "url": "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Reyk Knuhtsen",
-        "feed_title": "SemiAnalysis"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2025-07-30T17:02:25+00:00",
-      "summary": "Robots have powered manufacturing for decades, yet they stayed single-purpose and thrived only in perfect settings. Previous attempts at intelligent machines overpromised and underdelivered. But they were too early. Today, modern AI paradigms convert most robot roadblocks into data problems and push machines toward capabilities once thought impossible. As these models absorb real-world experience, robots [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://semianalysis.com/2025/07/21/vlsi2025/",
-      "title": "Intel 18A Details & Cost, Future of DRAM 4F2 vs 3D, Backside Power Adoption (or Not), China’s FlipFET, Digital Twins from Atoms to Fabs, and More",
-      "url": "https://semianalysis.com/2025/07/21/vlsi2025/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
-        "feed_title": "SemiAnalysis"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2025-07-21T14:23:37+00:00",
-      "summary": "Long time readers will recall that SemiAnalysis covers more than just datacenters and AMD. Today we’re back to semiconductors with a tech-focused roundup of the best from this year’s VLSI conference, the premiere design and integration. That includes the latest in chips manufacturing: fab digital twins, the future of advanced logic transistors and interconnects, DRAM [&#8230;]",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
-      "title": "Meta Superintelligence – Leadership Compute, Talent, and Data",
-      "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
-        "feed_title": "SemiAnalysis"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2025-07-11T20:12:19+00:00",
-      "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance.",
+      "published_at": "2026-10-28T14:00:00+00:00",
+      "summary": "NSING Technologies, a Singapore-founded semiconductor company, presents this whitepaper on its full-stack semiconductor solutions for embodied AI and robotics, built around high-performance MCUs, security ICs, wireless connectivity and BMS ICs. The document explains the industry shift toward distributed robotic architectures that combine AI main control with deterministic real-time joint, motor and sensor nodes. It details [&#8230;] The post Full-Stack Semiconductor Solutions for Embodied AI &am...",
       "lang": "en"
     },
     {
@@ -282,88 +197,292 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/automakers-reconsider-in-cabin-sensing-for-euro-ncap-ratings/",
-      "title": "Automakers Reconsider In-Cabin Sensing for Euro NCAP Ratings",
-      "url": "https://www.eetimes.com/automakers-reconsider-in-cabin-sensing-for-euro-ncap-ratings/",
+      "id": "rss:https://www.tomshardware.com/laptops/apple-launches-new-macbook-with-touchscreen-and-oled-starts-at-usd2-899",
+      "title": "Apple launches new MacBook Pro with touchscreen and OLED — starts at $2,899",
+      "url": "https://www.tomshardware.com/laptops/apple-launches-new-macbook-with-touchscreen-and-oled-starts-at-usd2-899",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Andrew E. Freedman",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-26T17:00:11+00:00",
-      "summary": "Stricter European safety assessment criteria are prompting car companies to replace steering-wheel sensors with consolidated in-cabin systems. The post Automakers Reconsider In-Cabin Sensing for Euro NCAP Ratings appeared first on EE Times.",
+      "published_at": "2026-10-28T17:15:39+00:00",
+      "summary": "The computer is also lighter and has an updated speaker system.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/framing-the-shift-to-48v/",
-      "title": "Framing the Shift to 48V",
-      "url": "https://www.eetimes.com/framing-the-shift-to-48v/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/policy/malaysia-seizes-usd12-million-worth-of-advanced-ai-chips-hidden-inside-30-servers-customs-says-suspected-smuggling-network-used-the-country-as-a-transit-hub",
+      "title": "Malaysia seizes $12 million worth of advanced AI chips hidden inside 30 servers",
+      "url": "https://www.tomshardware.com/tech-industry/policy/malaysia-seizes-usd12-million-worth-of-advanced-ai-chips-hidden-inside-30-servers-customs-says-suspected-smuggling-network-used-the-country-as-a-transit-hub",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Vasanth Sista, Field Application Engineer, TE Connectivity",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Etiido Uko",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-26T13:00:00+00:00",
-      "summary": "From lighter wiring to automated assembly, 48V architectures are reshaping vehicle connectivity and laying the groundwork for next generation mobility. The post Framing the Shift to 48V appeared first on EE Times.",
+      "published_at": "2026-10-28T17:02:14+00:00",
+      "summary": "Malaysian customs seized 30 servers containing more than $12 million worth of advanced AI chips at Kuala Lumpur International Airport, as authorities investigate a suspected smuggling network linked to multiple previous seizures.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/the-ai-packaging-challenge-5-reasons-panels-are-gaining-momentum/",
-      "title": "The AI Packaging Challenge: 5 Reasons Panels Are Gaining Momentum",
-      "url": "https://www.eetimes.com/the-ai-packaging-challenge-5-reasons-panels-are-gaining-momentum/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/manufacturing/ai-component-hikes-force-the-worlds-largest-pc-makers-to-return-manufacturing-capacity-to-china-brands-to-seek-lower-production-costs-and-efficiency-in-established-supply-chain",
+      "title": "AI component hikes force the world's largest PC makers to return manufacturing capacity to China",
+      "url": "https://www.tomshardware.com/tech-industry/manufacturing/ai-component-hikes-force-the-worlds-largest-pc-makers-to-return-manufacturing-capacity-to-china-brands-to-seek-lower-production-costs-and-efficiency-in-established-supply-chain",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Aaron Fellis, corporate vice president and general manager, Wet Equipment Technology Systems, Lam Research",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-26T13:00:00+00:00",
-      "summary": "As AI pushes chip packages beyond traditional wafer limits, panel-level processing is emerging as a critical path to scale advanced packaging. The post The AI Packaging Challenge: 5 Reasons Panels Are Gaining Momentum appeared first on EE Times.",
+      "published_at": "2026-10-28T15:24:16+00:00",
+      "summary": "PC manufacturing in China tends to be cheaper because of an established supply chain and workforce. Smaller Chinese suppliers are also winning orders by offering easier access to domestic chip manufacturers like CXMT.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/in-orbit-useful-life-becomes-a-performance-metric/",
-      "title": "In Orbit, Useful Life Becomes a Performance Metric",
-      "url": "https://www.eetimes.com/in-orbit-useful-life-becomes-a-performance-metric/",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-tells-engineers-to-stop-tokenmaxxing-to-look-productive-says-ai-will-be-central-to-software-development-but-usage-is-not-the-goal-new-guidelines-claim",
+      "title": "Amazon tells engineers to stop ‘tokenmaxxing’ to look productive",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-tells-engineers-to-stop-tokenmaxxing-to-look-productive-says-ai-will-be-central-to-software-development-but-usage-is-not-the-goal-new-guidelines-claim",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Ron Honig",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Newton Gitonga",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-26T08:25:36+00:00",
-      "summary": "Google’s Project Suncatcher is testing AI hardware in space, where radiation, cooling, power, and hardware lifetime determine the economics of computing. The post In Orbit, Useful Life Becomes a Performance Metric appeared first on EE Times.",
+      "published_at": "2026-10-28T15:13:48+00:00",
+      "summary": "Amazon has published new engineering guidelines warning developers and managers against ‘tokenmaxxing,’ arguing that AI usage metrics are ‘deeply flawed’ unless tied to long-term outcomes. The move follows similar spending concerns at Uber and Accenture.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/arm-comments-on-jury-decision-in-qualcomm-trial/",
-      "title": "Arm Comments on Jury Decision in Qualcomm Trial",
-      "url": "https://www.eetimes.com/arm-comments-on-jury-decision-in-qualcomm-trial/",
+      "id": "rss:https://www.tomshardware.com/networking/routers/fcc-rebuffs-tp-link-again-as-it-attempts-to-sell-wi-fi-8-gear-in-the-us-fcc-alleges-inaccurate-documentation-and-out-of-spec-power-levels-for-routers",
+      "title": "FCC rebuffs TP-Link again as it attempts to sell Wi-Fi 8 gear in the US",
+      "url": "https://www.tomshardware.com/networking/routers/fcc-rebuffs-tp-link-again-as-it-attempts-to-sell-wi-fi-8-gear-in-the-us-fcc-alleges-inaccurate-documentation-and-out-of-spec-power-levels-for-routers",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Brandon Hill",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-24T00:00:00+00:00",
-      "summary": "Arm's Ami Badani cites the $2 nominal damages award as validation, while chip design experts point to open architectures such as RISC-V as the long-term alternative for AI workload flexibility. The post Arm Comments on Jury Decision in Qualcomm Trial appeared first on EE Times.",
+      "published_at": "2026-10-28T15:07:35+00:00",
+      "summary": "TP-Link just can’t seem to catch a break with the FCC, as it’s not under fire for exceeding power limits on its routers",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/pc-cases/corsair-warthog-case-review",
+      "title": "Corsair Warthog case review: A rugged, military-themed chassis with plenty of airflow",
+      "url": "https://www.tomshardware.com/pc-components/pc-cases/corsair-warthog-case-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T14:00:00+00:00",
+      "summary": "The military-inspired Warthog mid-tower borrows from Corsair’s Vengeance C70 and takes the military aesthetic up a couple of notches. Is the rugged look worth it?",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/us-marines-join-nato-mission-in-the-baltic-sea-to-protect-undersea-cables-from-sabotage-as-russia-continues-to-lurk-around-four-dozen-recon-and-intel-specialists-deployed-to-deter-seabed-threats",
+      "title": "US Marines join NATO mission in the Baltic Sea to protect undersea cables from sabotage as Russia continues to lurk",
+      "url": "https://www.tomshardware.com/tech-industry/us-marines-join-nato-mission-in-the-baltic-sea-to-protect-undersea-cables-from-sabotage-as-russia-continues-to-lurk-around-four-dozen-recon-and-intel-specialists-deployed-to-deter-seabed-threats",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T13:24:14+00:00",
+      "summary": "50 U.S. marines are joining a NATO mission to help protect and monitor undersea infrastructure in the Baltic Sea.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/manufacturing/sk-hynix-owned-solidigm-is-plotting-a-new-usd45-billion-flash-memory-factory-for-the-us-report-claims-wants-go-ahead-to-export-equipment-for-china-upgrades-in-return",
+      "title": "SK hynix-owned Solidigm is plotting a new $45 billion flash memory factory for the US, report claims",
+      "url": "https://www.tomshardware.com/tech-industry/manufacturing/sk-hynix-owned-solidigm-is-plotting-a-new-usd45-billion-flash-memory-factory-for-the-us-report-claims-wants-go-ahead-to-export-equipment-for-china-upgrades-in-return",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Oliver Haslam",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T13:01:21+00:00",
+      "summary": "Solidigm, an American subsidiary of SK hynix, is in discussions about potentially investing $45 billion in a new flash chip factory that would be built in the United States.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/external-hdds/seagates-16tb-external-hdd-falls-to-0-025-cents-per-gb-at-newegg-this-storage-deal-is-usd50-cheaper-than-even-its-prime-day-sale-price",
+      "title": "Seagate's 16TB external HDD falls to 0.025 cents per GB at Newegg",
+      "url": "https://www.tomshardware.com/pc-components/external-hdds/seagates-16tb-external-hdd-falls-to-0-025-cents-per-gb-at-newegg-this-storage-deal-is-usd50-cheaper-than-even-its-prime-day-sale-price",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T13:00:00+00:00",
+      "summary": "Save $150 on this 16TB Seagate Expansion Desktop External HDD when you make use of this Newegg deal.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/why-native-pc-ports-of-console-games-are-suddenly-everywhere-reverse-engineer-anything-gives-ai-agents-a-unified-toolkit-and-byte-for-byte-checks-keep-hallucinations-in-line",
+      "title": "Why native PC ports of console games are suddenly everywhere",
+      "url": "https://www.tomshardware.com/video-games/why-native-pc-ports-of-console-games-are-suddenly-everywhere-reverse-engineer-anything-gives-ai-agents-a-unified-toolkit-and-byte-for-byte-checks-keep-hallucinations-in-line",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T12:00:00+00:00",
+      "summary": "With dozens of titles unofficially ported to PC over the past few months, the big questions are: why is this now possible, and what changed?",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-gpu-vendor-palit-denies-its-galax-factory-has-closed-due-to-a-shortage-of-chips-company-says-brand-continues-to-operate-as-usual",
+      "title": "Nvidia RTX GPU vendor Palit denies its Galax factory has closed due to a shortage of chips",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-gpu-vendor-palit-denies-its-galax-factory-has-closed-due-to-a-shortage-of-chips-company-says-brand-continues-to-operate-as-usual",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T11:56:26+00:00",
+      "summary": "Palit denies news that Galax is going out of production.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/save-usd249-on-32gb-of-ddr5-with-this-9800x3d-parts-bundle-grab-one-of-amds-top-cpus-with-an-msi-x870e-motherboard-and-a-free-aio-cooler-for-under-usd1-100",
+      "title": "Save $249 on 32GB of DDR5 with this 9800X3D parts bundle",
+      "url": "https://www.tomshardware.com/pc-components/save-usd249-on-32gb-of-ddr5-with-this-9800x3d-parts-bundle-grab-one-of-amds-top-cpus-with-an-msi-x870e-motherboard-and-a-free-aio-cooler-for-under-usd1-100",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T11:48:55+00:00",
+      "summary": "Save $248.99 on this AMD Ryzen 7 9800X3D bundle at Newegg with an MSI MAG X870E Tomahawk Max Wifi motherboard and 32GB of DDR5-6000 RAM, now just $1,094.99.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/taiwan-working-on-autonomous-drone-swarms-to-counter-chinas-increasingly-aggressive-grey-zone-military-tactics-island-has-already-completed-flight-simulations-now-working-towards-flight-trials-over-maritime-areas",
+      "title": "Taiwan working on autonomous drone swarms to counter China’s increasingly aggressive grey-zone military tactics",
+      "url": "https://www.tomshardware.com/tech-industry/drones/taiwan-working-on-autonomous-drone-swarms-to-counter-chinas-increasingly-aggressive-grey-zone-military-tactics-island-has-already-completed-flight-simulations-now-working-towards-flight-trials-over-maritime-areas",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T11:30:00+00:00",
+      "summary": "The island is building an autonomous system that would work with various drones, allowing it to extend the reach and endurance of its coast guard ships.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-oracle-bring-vera-cpu-instances-online-in-multi-gigawatt-deployment-oci-superclusters-also-set-to-expand-with-rubin-only-clusters-attached-to-dual-xeon-6-hosts",
+      "title": "Standalone Nvidia Vera CPUs land in Oracle Cloud's multi-gigawatt deployment",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-oracle-bring-vera-cpu-instances-online-in-multi-gigawatt-deployment-oci-superclusters-also-set-to-expand-with-rubin-only-clusters-attached-to-dual-xeon-6-hosts",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T11:00:00+00:00",
+      "summary": "Nvidia’s Vera CPU is now generally available on Oracle’s OCI Superclusters, a win for Nvidia as it moves past NVL72 to a standalone Vera deployment at a major hyperscaler.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/servers/it-vendor-lists-massive-usd60-million-ai-cluster-on-ebay-300x-racks-of-decommissioned-gpus-includes-9-600-nvidia-a100-gpus-and-4-200-amd-epyc-cpus-plus-free-shipping",
+      "title": "IT vendor lists massive $60 million AI supercomputer on eBay with 300 racks of decommissioned GPUs",
+      "url": "https://www.tomshardware.com/desktops/servers/it-vendor-lists-massive-usd60-million-ai-cluster-on-ebay-300x-racks-of-decommissioned-gpus-includes-9-600-nvidia-a100-gpus-and-4-200-amd-epyc-cpus-plus-free-shipping",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Zhiye Liu",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T10:30:00+00:00",
+      "summary": "Someone listed a massive 300-rack AI supercomputer on eBay for $59.7M. Packed with 9,600 A100 GPUs and 4,200 EPYC CPUs, it even ships for free.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/sound-cards/usd4-700-audiophile-grade-network-hub-promises-a-noise-free-experience-and-music-with-emotional-impact-seven-isolation-stages-per-port-were-chosen-with-listening-comparisons",
+      "title": "$4,700 audiophile-grade network hub promises a noise-free experience and music with 'emotional impact'",
+      "url": "https://www.tomshardware.com/pc-components/sound-cards/usd4-700-audiophile-grade-network-hub-promises-a-noise-free-experience-and-music-with-emotional-impact-seven-isolation-stages-per-port-were-chosen-with-listening-comparisons",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T10:00:00+00:00",
+      "summary": "$4,700 audiophile-grade network hub promises a noise-free experience and music with \"emotional impact.\" Seven isolation stages per port were chosen with \"listening comparisons\"",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/robotics/japan-experiments-with-autonomous-ai-chainsaw-wielding-robots-video-shows-rail-truck-mounted-metal-humanoid-cutting-down-tree-branches",
+      "title": "Japan experiments with autonomous AI chainsaw-wielding robots",
+      "url": "https://www.tomshardware.com/tech-industry/robotics/japan-experiments-with-autonomous-ai-chainsaw-wielding-robots-video-shows-rail-truck-mounted-metal-humanoid-cutting-down-tree-branches",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-28T09:40:00+00:00",
+      "summary": "A scary-looking humanoid robot with a chainsaw arm was shown in action on Japanese TV news trimming tree branches that had begun encroaching on railway lines.",
       "lang": "en"
     },
     {
@@ -588,295 +707,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/nvidia-is-bankrolling-ai-accelerator-supply-chain-buildout-to-reserve-production-capacity-announces-billion-dollar-deals-with-six-major-suppliers-across-substrates-advanced-packaging-semiconductor-testing-and-optical-engines",
-      "title": "Nvidia is bankrolling AI accelerator supply chain buildout to reserve production capacity",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-is-bankrolling-ai-accelerator-supply-chain-buildout-to-reserve-production-capacity-announces-billion-dollar-deals-with-six-major-suppliers-across-substrates-advanced-packaging-semiconductor-testing-and-optical-engines",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-27T11:00:00+00:00",
-      "summary": "Nvidia is committing billions to expand substrate, co-packaged optics, advanced packaging, and chip-testing capacity through 2028, reserving capacity at nearly every stage of its AI accelerator supply chain.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/60-000-microsoft-employees-offered-voluntary-buyouts-as-ai-buildout-costs-bite-program-covers-roughly-27-percent-of-workforce-across-us-canada-india-and-the-uk",
-      "title": "60,000 Microsoft employees offered voluntary buyouts as AI buildout costs bite",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/60-000-microsoft-employees-offered-voluntary-buyouts-as-ai-buildout-costs-bite-program-covers-roughly-27-percent-of-workforce-across-us-canada-india-and-the-uk",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Oliver Haslam",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-27T10:30:00+00:00",
-      "summary": "Microsoft is offering buyouts to around 60,000 members of its workforce as it looks to balance the books amid a ramp-up in AI data center spending.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-prepares-for-potential-usd2-trillion-ipo-valuation-after-reporting-billions-in-revenue-company-warns-ai-could-pose-catastrophic-existential-risks-to-humanity",
-      "title": "Anthropic prepares for potential $2 trillion IPO valuation after reporting billions in revenue",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-prepares-for-potential-usd2-trillion-ipo-valuation-after-reporting-billions-in-revenue-company-warns-ai-could-pose-catastrophic-existential-risks-to-humanity",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Newton Gitonga",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-27T10:00:00+00:00",
-      "summary": "Anthropic has filed to go public as it pursues a potential multitrillion-dollar valuation, reporting $16.3 billion in revenue for the first half of 2026. The company’s filing also warns that its AI safety measures may not prevent catastrophic risks. OpenAI and AI chipmaker Cerebras have also pursued public-market listings",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/data-center-gear-is-being-hijacked-in-transit-to-the-tune-of-hundreds-of-millions-grand-theft-gpu-thieves-hack-accounts-perform-hit-and-runs-spoof-gps-signals-and-funnel-hardware-to-china",
-      "title": "Data center gear is being hijacked in transit to the tune of hundreds of millions",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/data-center-gear-is-being-hijacked-in-transit-to-the-tune-of-hundreds-of-millions-grand-theft-gpu-thieves-hack-accounts-perform-hit-and-runs-spoof-gps-signals-and-funnel-hardware-to-china",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-27T09:40:00+00:00",
-      "summary": "Data center gear is being stolen in transit to the tune of hundreds of millions — grand-theft-GPU thieves hack accounts, perform hit-and-runs, and spoof GPS signals",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/spacex-closes-usd40-billion-debt-financing-for-gpus-expected-in-the-first-half-of-2027-musk-says-company-faces-up-to-usd40-billion-in-additional-fourth-quarter-capital-spending-as-ai-infrastructure-costs-soar",
-      "title": "SpaceX closes $40 billion debt financing for GPUs expected in the first half of 2027, Musk says",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/spacex-closes-usd40-billion-debt-financing-for-gpus-expected-in-the-first-half-of-2027-musk-says-company-faces-up-to-usd40-billion-in-additional-fourth-quarter-capital-spending-as-ai-infrastructure-costs-soar",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Newton Gitonga",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-27T09:20:00+00:00",
-      "summary": "SpaceX expects fourth-quarter capital expenditure of $35 billion to $40 billion, CFO Bret Johnsen said, as Elon Musk pushes to expand the company’s AI computing infrastructure.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-quietly-confirms-raptor-lake-next-cpus-through-internal-driver-publication-lga-1700-chips-also-appear-in-shipping-manifests-dating-back-to-august",
-      "title": "Intel quietly confirms Raptor Lake Next CPUs through internal driver publication",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-quietly-confirms-raptor-lake-next-cpus-through-internal-driver-publication-lga-1700-chips-also-appear-in-shipping-manifests-dating-back-to-august",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T18:50:28+00:00",
-      "summary": "An internal driver and a shipping manifest reveal that Intel's desktop Raptor Lake Next parts may be on the way right now.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/monitors/portable-monitors/jsaux-flipgo-dual-screen-portable-monitor-review",
-      "title": "JSAUX FlipGo dual-screen portable monitor review: Gorgeous displays with touch support and a built-in USB hub",
-      "url": "https://www.tomshardware.com/monitors/portable-monitors/jsaux-flipgo-dual-screen-portable-monitor-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Brandon Hill",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T16:33:31+00:00",
-      "summary": "The JSAUX FlipGo features dual 16-inch touch displays and a built-in hub.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/hdds/save-usd134-on-this-wd-red-plus-10tb-hdd-bundle-at-newegg-this-double-drive-deal-lands-you-with-20tb-of-total-capacity-for-your-nas",
-      "title": "Save $134 on this WD Red Plus 10TB HDD bundle at Newegg",
-      "url": "https://www.tomshardware.com/pc-components/hdds/save-usd134-on-this-wd-red-plus-10tb-hdd-bundle-at-newegg-this-double-drive-deal-lands-you-with-20tb-of-total-capacity-for-your-nas",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T16:00:00+00:00",
-      "summary": "Grab two 10TB NAS Hard Disk Drives and save $134 — this two-pack WD Red Plus bundle is the best deal for adding capacity to your NAS",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/handheld-gaming/asus-rog-xbox-ally-x20-tested-same-performance-more-comfortable-and-a-glorious-oled-screen",
-      "title": "Asus ROG Xbox Ally X20 tested: Same performance, more comfortable, and a glorious OLED screen",
-      "url": "https://www.tomshardware.com/video-games/handheld-gaming/asus-rog-xbox-ally-x20-tested-same-performance-more-comfortable-and-a-glorious-oled-screen",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Andrew E. Freedman",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T15:00:00+00:00",
-      "summary": "Asus adds an OLED screen, TMR sticks, and more comfortable grips to its AMD-powered gaming handheld.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/networking/3-2-pb-s-real-time-optical-fiber-transfer-speed-world-record-claimed-by-chinese-team-speed-fast-enough-to-download-more-than-20-000-4k-movies-in-one-second",
-      "title": "3.2 Petabits per second real-time optical fiber transfer speed world record claimed by Chinese team",
-      "url": "https://www.tomshardware.com/networking/3-2-pb-s-real-time-optical-fiber-transfer-speed-world-record-claimed-by-chinese-team-speed-fast-enough-to-download-more-than-20-000-4k-movies-in-one-second",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T14:43:37+00:00",
-      "summary": "A Chinese team has claimed a new world record for real-time transfer speeds across a 24-core optical fiber cable.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/leaked-256-core-zen-6c-epyc-cpu-destroys-zen-5-in-early-single-threaded-benchmarks-hints-at-24-percent-ipc-gain-early-single-threaded-benchmarks-point-to-huge-amd-zen-6-improvements",
-      "title": "Leaked 256-core Zen 6c EPYC CPU destroys Zen 5 in early single-threaded benchmarks hints at 24% IPC gain",
-      "url": "https://www.tomshardware.com/pc-components/cpus/leaked-256-core-zen-6c-epyc-cpu-destroys-zen-5-in-early-single-threaded-benchmarks-hints-at-24-percent-ipc-gain-early-single-threaded-benchmarks-point-to-huge-amd-zen-6-improvements",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zak Killian",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T14:31:43+00:00",
-      "summary": "A benchmark leak and a direct clock-matched comparison from an enthusiast seed the idea that Zen 6 may come with a decent IPC bump as well as increased clocks.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/dram/micron-plans-to-use-wafer-bonding-and-high-na-euv-for-next-gen-dram-company-also-developing-vertical-high-bandwidth-memory-and-vertical-edge-inference-memory-integrated-directly-on-top-of-processors",
-      "title": "Micron plans to use wafer bonding and High-NA EUV for next-gen DRAM",
-      "url": "https://www.tomshardware.com/pc-components/dram/micron-plans-to-use-wafer-bonding-and-high-na-euv-for-next-gen-dram-company-also-developing-vertical-high-bandwidth-memory-and-vertical-edge-inference-memory-integrated-directly-on-top-of-processors",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T14:00:00+00:00",
-      "summary": "Micron rejects 4F2, intends to use wafer bonding and High-NA EUV before going 3D NAND over the next few years.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/windows/windows-11s-whole-iso-squeezed-into-a-cd-rom-sub-700mb-disk-boots-to-the-desktop-runs-apps-just-like-the-microsoft-original",
-      "title": "Windows 11’s ‘whole ISO’ squeezed into a CD-ROM",
-      "url": "https://www.tomshardware.com/software/windows/windows-11s-whole-iso-squeezed-into-a-cd-rom-sub-700mb-disk-boots-to-the-desktop-runs-apps-just-like-the-microsoft-original",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T13:40:00+00:00",
-      "summary": "Professional Windows crusher NTDEV has showcased their next-generation tool for compressing Windows 11 with a video of an install that fits on a single CD-ROM.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/cadence-reveals-maestro-fine-tuned-ai-models-built-to-run-specialized-chip-design-agents-with-early-access-coming-for-select-customers-in-q4-2026-claims-up-to-30-percent-higher-quality-results-and-up-to-5x-token-efficiency-over-a-general-purpose-ai-model",
-      "title": "Cadence reveals Maestro, fine-tuned AI models built to run specialized chip design agents, with early access coming for 'select customers' in Q4 2026",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/cadence-reveals-maestro-fine-tuned-ai-models-built-to-run-specialized-chip-design-agents-with-early-access-coming-for-select-customers-in-q4-2026-claims-up-to-30-percent-higher-quality-results-and-up-to-5x-token-efficiency-over-a-general-purpose-ai-model",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T13:20:00+00:00",
-      "summary": "Cadence unveiled Maestro, domain-specialized AI models for its chip design agents, with early access for select customers in Q4 2026.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/chinese-research-vessels-loiter-near-pacific-undersea-cables-more-than-any-other-nation-report-finds-civilian-fleet-using-lawnmower-patterns-may-be-mapping-seafloor-for-future-sabotage",
-      "title": "Chinese research vessels loiter near Pacific undersea cables more than any other nation, report finds",
-      "url": "https://www.tomshardware.com/tech-industry/chinese-research-vessels-loiter-near-pacific-undersea-cables-more-than-any-other-nation-report-finds-civilian-fleet-using-lawnmower-patterns-may-be-mapping-seafloor-for-future-sabotage",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T13:00:00+00:00",
-      "summary": "Chinese vessels are spending more time near undersea cables in the Pacific than nearly 50 other nations, according to a new report by the Center for Strategic and International Studies.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/intel-explores-potential-collaboration-with-amd-as-lip-bu-tan-pushes-customer-focused-turnaround-ceo-targets-custom-chips-advanced-packaging-and-stronger-foundry-business",
-      "title": "Intel's Lip-Bu Tan has spoken with Lisa Su about potential collaboration with AMD",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-explores-potential-collaboration-with-amd-as-lip-bu-tan-pushes-customer-focused-turnaround-ceo-targets-custom-chips-advanced-packaging-and-stronger-foundry-business",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Newton Gitonga",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T12:40:00+00:00",
-      "summary": "Intel CEO Lip-Bu Tan has reportedly discussed potential areas of cooperation with AMD chief Lisa Su as Intel works to rebuild its CPU business and expand its foundry operations. The companies have already collaborated on x86 standards and CPU software, including AMD’s integration of its ZenDNN optimizations into Intel’s oneDNN library. Neither executive has publicly detailed the reported discussions or confirmed a new agreement.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-over-usd1-000-on-this-alienware-gaming-pc-with-an-rtx-5070-and-32gb-ddr5-unlock-1440p-and-4k-gameplay-with-this-aurora-act1250-rig-with-a-20-core-intel-cpu-and-a-1tb-ssd-for-usd2-199-99",
-      "title": "Save over $1,000 on this Alienware gaming PC with an RTX 5070 and 32GB DDR5",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-over-usd1-000-on-this-alienware-gaming-pc-with-an-rtx-5070-and-32gb-ddr5-unlock-1440p-and-4k-gameplay-with-this-aurora-act1250-rig-with-a-20-core-intel-cpu-and-a-1tb-ssd-for-usd2-199-99",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T12:20:00+00:00",
-      "summary": "Newegg have cut this Alienware Aurora gaming PC by over $1,000, netting yo ua 4K-ready machine with an RTX 5070 and 32GB of DDR5 RAM for $2,199.99.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50219700",
       "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
       "url": "https://github.com/Zagitta/gpu-unlock",
@@ -888,7 +718,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50219700"
       },
       "duration_sec": null,
-      "views": 349,
+      "views": 350,
       "comments": 83,
       "published_at": "2026-10-24T09:58:27+00:00",
       "summary": "",
@@ -907,28 +737,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50236073"
       },
       "duration_sec": null,
-      "views": 145,
-      "comments": 35,
+      "views": 171,
+      "comments": 44,
       "published_at": "2026-10-25T21:07:38+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
-      "id": "hn:50086363",
-      "title": "Nvidia's first GPU: GeForce 256",
-      "url": "https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/",
+      "id": "hn:50275128",
+      "title": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50086363",
-        "name": "ibobev",
-        "hn_url": "https://news.ycombinator.com/item?id=50086363"
+        "id": "50275128",
+        "name": "wondersky",
+        "hn_url": "https://news.ycombinator.com/item?id=50275128"
       },
       "duration_sec": null,
-      "views": 80,
-      "comments": 50,
-      "published_at": "2026-10-14T12:05:44+00:00",
+      "views": 123,
+      "comments": 20,
+      "published_at": "2026-10-28T15:17:53+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -945,7 +775,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50247677"
       },
       "duration_sec": null,
-      "views": 40,
+      "views": 41,
       "comments": 23,
       "published_at": "2026-10-26T17:34:45+00:00",
       "summary": "",
