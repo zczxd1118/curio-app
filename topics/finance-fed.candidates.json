@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-10-29T09:44:07.533016+00:00",
+  "fetched_at": "2026-10-30T09:49:52.400556+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -14,13 +14,30 @@
     "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 2,
     "HN · inflation": 1,
-    "HN · Tesla": 8,
-    "HN · finance": 13,
-    "HN · fed": 19
+    "HN · Tesla": 5,
+    "HN · finance": 14,
+    "HN · fed": 18
   },
   "subtopics": [],
-  "total": 71,
+  "total": 68,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
+      "title": "An Interview with Palantir CTO Shyam Sankar About the AI Religious War",
+      "url": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-29T10:00:00+00:00",
+      "summary": "An interview with Palantir CTO Shyam Sankar about AI diffusion and safety, forward-deployed engineer, and what the battle in tech is actually about.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/meta-earnings-muse-and-the-frontier-musebook/",
       "title": "Meta Earnings, Muse and the Frontier, Musebook",
@@ -172,23 +189,6 @@
       "views": null,
       "published_at": "2026-10-20T10:00:00+00:00",
       "summary": "Meta has a new open source model, and to everyone's surprise, they are are partnering with Apple to make sure you can run it locally.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/do-you-trust-apple/",
-      "title": "Do You Trust Apple?",
-      "url": "https://stratechery.com/2026/do-you-trust-apple/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-19T10:00:00+00:00",
-      "summary": "Apple has a lot of trust in terms of delivering integrated products and preserving privacy; the real trust question is if you think Siri AI will justify investing more in their ecosystem.",
       "lang": "en"
     },
     {
@@ -589,25 +589,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50112657",
-      "title": "Tesla Roadster",
-      "url": "https://www.tesla.com/roadster",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50112657",
-        "name": "shekhar101",
-        "hn_url": "https://news.ycombinator.com/item?id=50112657"
-      },
-      "duration_sec": null,
-      "views": 1645,
-      "comments": 3161,
-      "published_at": "2026-10-16T01:32:45+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en"
-    },
-    {
       "id": "hn:50141295",
       "title": "Tesla 'Cannot Guarantee' Roadster Reservation Holders Will Ever Get a Car",
       "url": "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car",
@@ -657,8 +638,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50274706"
       },
       "duration_sec": null,
-      "views": 94,
-      "comments": 107,
+      "views": 95,
+      "comments": 110,
       "published_at": "2026-10-28T14:54:07+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -679,44 +660,6 @@
       "views": 87,
       "comments": 57,
       "published_at": "2026-10-22T01:02:23+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50116255",
-      "title": "Tesla's new Roadster makes a flying debut, hitting 60 MPH in under a second",
-      "url": "https://www.foxbusiness.com/technology/teslas-new-roadster-makes-flying-debut-hitting-60-mph-under-second",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50116255",
-        "name": "nsoonhui",
-        "hn_url": "https://news.ycombinator.com/item?id=50116255"
-      },
-      "duration_sec": null,
-      "views": 70,
-      "comments": 6,
-      "published_at": "2026-10-16T09:40:47+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50114077",
-      "title": "Tesla makes cars that fly? [video]",
-      "url": "https://www.youtube.com/watch?v=7p5LxFdc-Qg",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50114077",
-        "name": "merinpapz10",
-        "hn_url": "https://news.ycombinator.com/item?id=50114077"
-      },
-      "duration_sec": null,
-      "views": 69,
-      "comments": 2,
-      "published_at": "2026-10-16T04:27:54+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -828,8 +771,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50260526"
       },
       "duration_sec": null,
-      "views": 175,
-      "comments": 62,
+      "views": 177,
+      "comments": 65,
       "published_at": "2026-10-27T15:09:27+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -847,8 +790,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50236073"
       },
       "duration_sec": null,
-      "views": 171,
-      "comments": 44,
+      "views": 175,
+      "comments": 47,
       "published_at": "2026-10-25T21:07:38+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -962,8 +905,27 @@
       },
       "duration_sec": null,
       "views": 66,
-      "comments": 20,
+      "comments": 23,
       "published_at": "2026-10-27T01:30:08+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50291902",
+      "title": "Alphabet heads for a $500B drop in market value, biggest in its history",
+      "url": "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50291902",
+        "name": "rawgabbit",
+        "hn_url": "https://news.ycombinator.com/item?id=50291902"
+      },
+      "duration_sec": null,
+      "views": 55,
+      "comments": 8,
+      "published_at": "2026-10-29T16:39:55+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -999,7 +961,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50154244"
       },
       "duration_sec": null,
-      "views": 583,
+      "views": 584,
       "comments": 544,
       "published_at": "2026-10-19T16:16:46+00:00",
       "summary": "",
@@ -1121,6 +1083,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50278678",
+      "title": "Show HN: A proof-of-concept formalization of the IRS federal tax forms",
+      "url": "https://github.com/emmilco/us-tax-model",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50278678",
+        "name": "RGS1811",
+        "hn_url": "https://news.ycombinator.com/item?id=50278678"
+      },
+      "duration_sec": null,
+      "views": 72,
+      "comments": 13,
+      "published_at": "2026-10-28T18:30:53+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
       "id": "hn:50161207",
       "title": "U.S. Supreme Court to review 1868 federal ban on home distilling of liquor",
       "url": "https://www.staradvertiser.com/2026/10/19/breaking-news/u-s-supreme-court-to-review-1868-federal-ban-on-home-distilling-of-liquor/",
@@ -1189,7 +1170,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50194602"
       },
       "duration_sec": null,
-      "views": 33,
+      "views": 34,
       "comments": 48,
       "published_at": "2026-10-22T12:46:40+00:00",
       "summary": "",
@@ -1211,44 +1192,6 @@
       "views": 32,
       "comments": 4,
       "published_at": "2026-10-25T22:09:09+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50159683",
-      "title": "Trump Appointees Asked a Federal Agency to Acquire a Voting Machine and Hack It",
-      "url": "https://www.propublica.org/article/cisa-election-security-donald-trump",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50159683",
-        "name": "soundworlds",
-        "hn_url": "https://news.ycombinator.com/item?id=50159683"
-      },
-      "duration_sec": null,
-      "views": 29,
-      "comments": 5,
-      "published_at": "2026-10-20T00:09:23+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50152041",
-      "title": "Federal judge rules Flock violated the fourth amendment",
-      "url": "https://twitter.com/scotus_wire/status/2106487374624514071",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50152041",
-        "name": "vessenes",
-        "hn_url": "https://news.ycombinator.com/item?id=50152041"
-      },
-      "duration_sec": null,
-      "views": 27,
-      "comments": 7,
-      "published_at": "2026-10-19T13:14:41+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"

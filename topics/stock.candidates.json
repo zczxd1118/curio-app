@@ -2,14 +2,14 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-29T09:44:00.004743+00:00",
+  "fetched_at": "2026-10-30T09:49:45.261997+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 11,
+    "HN · stock market": 10,
     "HN · IPO": 12,
     "HN · earnings": 2,
     "HN · Federal Reserve": 2,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 45,
+  "total": 44,
   "items": [
     {
       "id": "hn:50162431",
@@ -52,7 +52,7 @@
       },
       "duration_sec": null,
       "views": 100,
-      "comments": 134,
+      "comments": 137,
       "published_at": "2026-10-25T15:28:40+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -97,39 +97,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50113666",
-      "title": "South Korea's stock market down, president telling people not to commit suicide",
-      "url": "https://twitter.com/litcapital/status/2110752546415382699",
+      "id": "hn:50297025",
+      "title": "Intel stock plunges after posting disappointing Q4 outlook",
+      "url": "https://finance.yahoo.com/video/intel-stock-plunges-after-posting-disappointing-q4-outlook-200731652.html",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50113666",
-        "name": "toomuchtodo",
-        "hn_url": "https://news.ycombinator.com/item?id=50113666"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 5,
-      "published_at": "2026-10-16T03:26:08+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50113735",
-      "title": "CoreWeave Founders Shield Fortunes with $3.3B Stock Sales",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-15/coreweave-founders-shield-fortunes-with-3-3-billion-stock-sales",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50113735",
-        "name": "qlte",
-        "hn_url": "https://news.ycombinator.com/item?id=50113735"
+        "id": "50297025",
+        "name": "baal80spam",
+        "hn_url": "https://news.ycombinator.com/item?id=50297025"
       },
       "duration_sec": null,
       "views": 10,
-      "comments": 1,
-      "published_at": "2026-10-16T03:34:02+00:00",
+      "comments": 2,
+      "published_at": "2026-10-29T22:21:29+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -146,9 +127,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50236073"
       },
       "duration_sec": null,
-      "views": 171,
-      "comments": 44,
+      "views": 175,
+      "comments": 47,
       "published_at": "2026-10-25T21:07:38+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50265525",
+      "title": "In China, the AI bubble has burst",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analysis-china-ai-bubble-already-120038616.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50265525",
+        "name": "smurda",
+        "hn_url": "https://news.ycombinator.com/item?id=50265525"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 3,
+      "published_at": "2026-10-27T20:44:20+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -168,25 +168,6 @@
       "views": 14,
       "comments": 2,
       "published_at": "2026-10-23T15:07:06+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50265525",
-      "title": "In China, the AI bubble has burst",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analysis-china-ai-bubble-already-120038616.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50265525",
-        "name": "smurda",
-        "hn_url": "https://news.ycombinator.com/item?id=50265525"
-      },
-      "duration_sec": null,
-      "views": 13,
-      "comments": 3,
-      "published_at": "2026-10-27T20:44:20+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -325,6 +306,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50251762",
+      "title": "Anthropic Is the Most Ridiculous IPO of 2026 [pdf]",
+      "url": "https://www.newconstructs.com/wp-content/uploads/2026/10/Anthropic-Is-The-Most-Ridiculous-IPO-of-2026.pdf",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50251762",
+        "name": "simonebrunozzi",
+        "hn_url": "https://news.ycombinator.com/item?id=50251762"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 5,
+      "published_at": "2026-10-26T22:06:15+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50243343",
       "title": "Anthropic rushing IPO before AI bubble bursts",
       "url": "https://nypost.com/2026/10/23/business/wall-street-is-urging-anthropic-openai-to-do-their-ipos-in-a-hurry-heres-why/",
@@ -339,25 +339,6 @@
       "views": 15,
       "comments": 2,
       "published_at": "2026-10-26T13:30:05+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50251762",
-      "title": "Anthropic Is the Most Ridiculous IPO of 2026 [pdf]",
-      "url": "https://www.newconstructs.com/wp-content/uploads/2026/10/Anthropic-Is-The-Most-Ridiculous-IPO-of-2026.pdf",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50251762",
-        "name": "simonebrunozzi",
-        "hn_url": "https://news.ycombinator.com/item?id=50251762"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 5,
-      "published_at": "2026-10-26T22:06:15+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -450,8 +431,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50280197"
       },
       "duration_sec": null,
-      "views": 76,
-      "comments": 54,
+      "views": 79,
+      "comments": 57,
       "published_at": "2026-10-28T20:11:55+00:00",
       "summary": "",
       "matched_keyword": "earnings",
