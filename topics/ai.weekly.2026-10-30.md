@@ -1,31 +1,29 @@
 # Curio · AI · 2026-10-30
 
-> 今日 1 条头条 + 3 条备选
+> 今日 1 条头条 + 2 条备选
 
-_今天最硬的两个信号：Anthropic 的 S-1 把 AI 公司的算力账本第一次摊开——89 亿美元半年算力支出里不到三分之一用于服务客户，其余全烧在研发；同时 Gemini 4 Carbon 在 Artificial Analysis 指数上登顶，Google 一周内连发 Argon/Carbon 两代。算力成本与模型迭代速度正在同时加速，泡沫论和实力论都拿到了新弹药。_
+_今天最硬的两个信号：一是 Anthropic 的 S-1 把 AI 公司的真实成本结构摊开了——89 亿美元半年算力账单里，大部分烧在 R&D 而不是服务客户，同时华尔街在质疑它的 IPO 估值；二是 AI 需求开始反向挤压硬件供应链，PCB 订单排到 2030 年、Intel Fab 28 爆炸让服务器 CPU 断供两个季度。前者是叙事，后者是物理约束，后者更值得你盯。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Anthropic 正式发布 Claude 2.0（17 分钟速通）
+### 1. 尚硅谷发布 Agent Skills 开发教程：WorkBuddy + Codex + DeepSeek Harness 实战
 
-**[AI]** · ⭐⭐⭐ · _GoldenSpiderAI / bilibili_
+**[AI]** · ⭐⭐⭐ · _尚硅谷（Bilibili）_
 
-10 月 28 日发布会的搬运速通版，适合快速过一遍功能面，但深度不如官方文档，放备选。
+10 月 28 日刚发，是目前少见的 Skills 工程化中文实操，契合你的 Agent 构建方向。
 
-📺 [打开原文](http://www.bilibili.com/video/av117521445292425)
+📺 [打开原文](http://www.bilibili.com/video/av117511429295044)
 
 ---
 
 ## 📋 备选阅读
 
-- [最新 Skills 开发教程，Agent skill 实战｜WorkBuddy+Codex+DeepSeek Harness](http://www.bilibili.com/video/av117511429295044) —— 10 月 28 日刚发，Skills 是当前 Agent 构建的热点，但尚硅谷系列偏入门，等你需要具体配置时再翻。
-  _尚硅谷 / bilibili_
-- [DeepSeek Harness 装进手机：DSHBox 把完整工作区搬进 Android](http://www.bilibili.com/video/av117467271666305) —— 把 Harness 跑在手机上、带 Linux 环境和插件系统，思路新颖，但演示多于工程细节，备选观察。
-  _文大师啵啵 / bilibili_
-- [认真用 Claude Code 的人，迟早会遇见 Everything Claude Code](http://www.bilibili.com/video/av116319122885806) —— 116K star 的 Claude Code 配置项目拆解，斜杠命令、子 Agent、Hooks 都有，工程密度够，可惜是 3 月内容。
-  _极客魔导师 / bilibili_
+- [Anthropic 正式发布 Claude 2.0（17 分钟速通，含非程序员使用 Claude Code 的论证）](http://www.bilibili.com/video/av117521445292425) —— 10 月 29 日发布，原视频来自官方，比二手解读更接近一手信息。
+  _GoldenSpiderAI（Bilibili）_
+- [Everything Claude Code：116K star 的配置项目，从斜杠命令到子代理与 Hooks](http://www.bilibili.com/video/av116319122885806) —— 把 Claude Code 的配置体系讲透，比安装教程密度高，适合你优化自己的工作流。
+  _极客魔导师（Bilibili）_
 
 ---
 
