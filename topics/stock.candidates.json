@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-30T09:49:45.261997+00:00",
+  "fetched_at": "2026-10-31T09:29:24.853106+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,9 +10,9 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 10,
-    "HN · IPO": 12,
+    "HN · IPO": 11,
     "HN · earnings": 2,
-    "HN · Federal Reserve": 2,
+    "HN · Federal Reserve": 3,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
@@ -20,6 +20,25 @@
   "subtopics": [],
   "total": 44,
   "items": [
+    {
+      "id": "hn:50306008",
+      "title": "US tech stocks see sharp falls over AI cost fears",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50306008",
+        "name": "mindracer",
+        "hn_url": "https://news.ycombinator.com/item?id=50306008"
+      },
+      "duration_sec": null,
+      "views": 254,
+      "comments": 283,
+      "published_at": "2026-10-30T16:13:02+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
     {
       "id": "hn:50162431",
       "title": "The Secret Life of Circuits is now in stock everywhere",
@@ -52,7 +71,7 @@
       },
       "duration_sec": null,
       "views": 100,
-      "comments": 137,
+      "comments": 140,
       "published_at": "2026-10-25T15:28:40+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -108,7 +127,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50297025"
       },
       "duration_sec": null,
-      "views": 10,
+      "views": 11,
       "comments": 2,
       "published_at": "2026-10-29T22:21:29+00:00",
       "summary": "",
@@ -185,29 +204,29 @@
       },
       "duration_sec": null,
       "views": 11,
-      "comments": 4,
+      "comments": 5,
       "published_at": "2026-10-27T03:02:29+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
     },
     {
-      "id": "hn:50122366",
-      "title": "Anthropic's Valuation Collapsed by $500B",
-      "url": "https://www.telegraph.co.uk/business/2026/10/16/anthropic-valuation-ipo-ai-stock-listing/",
+      "id": "hn:50307219",
+      "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50122366",
-        "name": "novaRom",
-        "hn_url": "https://news.ycombinator.com/item?id=50122366"
+        "id": "50307219",
+        "name": "petethomas",
+        "hn_url": "https://news.ycombinator.com/item?id=50307219"
       },
       "duration_sec": null,
-      "views": 10,
-      "comments": 8,
-      "published_at": "2026-10-16T18:27:58+00:00",
+      "views": 309,
+      "comments": 252,
+      "published_at": "2026-10-30T17:27:25+00:00",
       "summary": "",
-      "matched_keyword": "stock",
+      "matched_keyword": "IPO",
       "lang": "en"
     },
     {
@@ -249,20 +268,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:49914149",
-      "title": "Anthropic's IPO Prospectus Is a Fucking Doozy",
-      "url": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
+      "id": "hn:50311311",
+      "title": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "49914149",
-        "name": "danaris",
-        "hn_url": "https://news.ycombinator.com/item?id=49914149"
+        "id": "50311311",
+        "name": "jnord",
+        "hn_url": "https://news.ycombinator.com/item?id=50311311"
       },
       "duration_sec": null,
-      "views": 71,
-      "comments": 33,
-      "published_at": "2026-09-30T20:44:19+00:00",
+      "views": 85,
+      "comments": 62,
+      "published_at": "2026-10-30T23:08:12+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -344,44 +363,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50046896",
-      "title": "Nvidia-backed data centre firm Firmus scraps IPO as AI valuation concerns deepen",
-      "url": "https://www.bbc.com/news/articles/ck9dzpw4ll8po",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50046896",
-        "name": "devonnull",
-        "hn_url": "https://news.ycombinator.com/item?id=50046896"
-      },
-      "duration_sec": null,
-      "views": 12,
-      "comments": 1,
-      "published_at": "2026-10-11T19:26:05+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50159963",
-      "title": "Investors temper Anthropic IPO valuation expectations over growth slowdown",
-      "url": "https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50159963",
-        "name": "xqcgrek2",
-        "hn_url": "https://news.ycombinator.com/item?id=50159963"
-      },
-      "duration_sec": null,
-      "views": 12,
-      "comments": 0,
-      "published_at": "2026-10-20T00:49:40+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
       "id": "hn:50171533",
       "title": "Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs",
       "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
@@ -431,7 +412,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50280197"
       },
       "duration_sec": null,
-      "views": 79,
+      "views": 80,
       "comments": 57,
       "published_at": "2026-10-28T20:11:55+00:00",
       "summary": "",
@@ -474,6 +455,42 @@
       "published_at": "2026-10-18T16:48:25+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50311339",
+      "title": "Federal Bureau of Prisons employees serve as election monitors at polling sites",
+      "url": "https://www.corrections1.com/federal-prison/bop-employees-to-serve-as-election-monitors-at-polling-sites-doj-filing-says",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50311339",
+        "name": "MadrasTh0rn",
+        "hn_url": "https://news.ycombinator.com/item?id=50311339"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 2,
+      "published_at": "2026-10-30T23:12:02+00:00",
+      "summary": "",
+      "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/follow-the-money-ece",
+      "title": "Follow the Money",
+      "url": "https://www.netinterest.co/p/follow-the-money-ece",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-30T17:48:55+00:00",
+      "summary": "What six years and 300+ posts of Net Interest say about where finance is heading",
       "lang": "en"
     },
     {
@@ -797,23 +814,6 @@
       "views": null,
       "published_at": "2026-06-12T16:13:59+00:00",
       "summary": "The World Cup Comes to Prediction Markets",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.netinterest.co/p/when-the-ducks-are-quacking",
-      "title": "When the Ducks are Quacking",
-      "url": "https://www.netinterest.co/p/when-the-ducks-are-quacking",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T15:35:26+00:00",
-      "summary": "SpaceX, Anthropic, OpenAI and the Business of IPOs",
       "lang": "en"
     }
   ]

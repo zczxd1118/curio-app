@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-10-30T09:49:52.400556+00:00",
+  "fetched_at": "2026-10-31T09:29:32.551499+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -12,15 +12,49 @@
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
     "arXiv q-fin（量化金融论文）": 0,
-    "HN · Federal Reserve": 2,
+    "HN · Federal Reserve": 3,
     "HN · inflation": 1,
-    "HN · Tesla": 5,
-    "HN · finance": 14,
+    "HN · Tesla": 4,
+    "HN · finance": 13,
     "HN · fed": 18
   },
   "subtopics": [],
-  "total": 68,
+  "total": 67,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/at-long-last/",
+      "title": "2026.44: At Long Last…",
+      "url": "https://stratechery.com/2026/at-long-last/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-30T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of October 26, 2026 including Anthropic numbers, the end of the Internet as we know it, and autocracies then and now.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/sharp-tech-on-video-anthropics-s-1-and-what-it-means-for-meta-and-muse-you-can-see-everything-and-brewers/",
+      "title": "Sharp Tech on Video: Anthropic’s S-1 and What It Means for Meta and Muse, You Can See Everything, and Brewers!",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-anthropics-s-1-and-what-it-means-for-meta-and-muse-you-can-see-everything-and-brewers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-30T10:00:00+00:00",
+      "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
       "title": "An Interview with Palantir CTO Shyam Sankar About the AI Religious War",
@@ -158,37 +192,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://stratechery.com/2026/netflix-earnings-business-or-franchise-disneys-deal/",
-      "title": "Netflix Earnings, Business or Franchise, Disney’s Deal",
-      "url": "https://stratechery.com/2026/netflix-earnings-business-or-franchise-disneys-deal/",
+      "id": "rss:https://www.netinterest.co/p/follow-the-money-ece",
+      "title": "Follow the Money",
+      "url": "https://www.netinterest.co/p/follow-the-money-ece",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-21T10:00:00+00:00",
-      "summary": "Netflix has a solid business, which is exactly the problem: the company increasingly seems like a business and not a franchise, at least in terms of growth.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick/",
-      "title": "Muse Spark Open, Meta + Apple, Thin and Thick",
-      "url": "https://stratechery.com/2026/muse-spark-open-meta-apple-thin-and-thick/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-20T10:00:00+00:00",
-      "summary": "Meta has a new open source model, and to everyone's surprise, they are are partnering with Apple to make sure you can run it locally.",
+      "published_at": "2026-10-30T17:48:55+00:00",
+      "summary": "What six years and 300+ posts of Net Interest say about where finance is heading",
       "lang": "en"
     },
     {
@@ -515,23 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.netinterest.co/p/when-the-ducks-are-quacking",
-      "title": "When the Ducks are Quacking",
-      "url": "https://www.netinterest.co/p/when-the-ducks-are-quacking",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-05T15:35:26+00:00",
-      "summary": "SpaceX, Anthropic, OpenAI and the Business of IPOs",
-      "lang": "en"
-    },
-    {
       "id": "hn:50082283",
       "title": "US Says Chinese Hackers Attacked DOJ, NASA, Federal Reserve, Senate",
       "url": "https://www.usatoday.com/story/news/politics/2026/08/26/chinese-hackers-cyberattack-us-government/91473585007/",
@@ -565,6 +565,25 @@
       "views": 30,
       "comments": 14,
       "published_at": "2026-10-18T16:48:25+00:00",
+      "summary": "",
+      "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50311339",
+      "title": "Federal Bureau of Prisons employees serve as election monitors at polling sites",
+      "url": "https://www.corrections1.com/federal-prison/bop-employees-to-serve-as-election-monitors-at-polling-sites-doj-filing-says",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50311339",
+        "name": "MadrasTh0rn",
+        "hn_url": "https://news.ycombinator.com/item?id=50311339"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 2,
+      "published_at": "2026-10-30T23:12:02+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
       "lang": "en"
@@ -639,7 +658,7 @@
       },
       "duration_sec": null,
       "views": 95,
-      "comments": 110,
+      "comments": 111,
       "published_at": "2026-10-28T14:54:07+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -660,25 +679,6 @@
       "views": 87,
       "comments": 57,
       "published_at": "2026-10-22T01:02:23+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50118624",
-      "title": "Tesla unveils 'flying' Roadster with SpaceX thrusters [video]",
-      "url": "https://www.youtube.com/watch?v=eqOfmtTJD1A",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50118624",
-        "name": "skadamat",
-        "hn_url": "https://news.ycombinator.com/item?id=50118624"
-      },
-      "duration_sec": null,
-      "views": 63,
-      "comments": 2,
-      "published_at": "2026-10-16T14:12:15+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -836,25 +836,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49916668",
-      "title": "10-year Treasury yield climbs above 5.3% to a level not seen in 24 years",
-      "url": "https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49916668",
-        "name": "kaycebasques",
-        "hn_url": "https://news.ycombinator.com/item?id=49916668"
-      },
-      "duration_sec": null,
-      "views": 125,
-      "comments": 194,
-      "published_at": "2026-10-01T01:40:50+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
       "id": "hn:50049302",
       "title": "Governments are mishandling the affordability crisis",
       "url": "https://www.economist.com/finance-and-economics/2026/10/08/governments-are-mishandling-the-affordability-crisis",
@@ -905,7 +886,7 @@
       },
       "duration_sec": null,
       "views": 66,
-      "comments": 23,
+      "comments": 24,
       "published_at": "2026-10-27T01:30:08+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -923,7 +904,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50291902"
       },
       "duration_sec": null,
-      "views": 55,
+      "views": 60,
       "comments": 8,
       "published_at": "2026-10-29T16:39:55+00:00",
       "summary": "",
@@ -983,6 +964,25 @@
       "views": 503,
       "comments": 274,
       "published_at": "2026-10-03T22:07:13+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50305573",
+      "title": "The federated code forge",
+      "url": "https://tangled.org/blog/forge/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50305573",
+        "name": "zlliang",
+        "hn_url": "https://news.ycombinator.com/item?id=50305573"
+      },
+      "duration_sec": null,
+      "views": 284,
+      "comments": 84,
+      "published_at": "2026-10-30T15:44:29+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
@@ -1064,25 +1064,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49916955",
-      "title": "Cities Are Forced to Funnel License Plate Data to a Federal Surveillance Program",
-      "url": "https://www.404media.co/how-cities-are-forced-to-funnel-license-plate-data-to-a-massive-federal-surveillance-program-hidta/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49916955",
-        "name": "ripe",
-        "hn_url": "https://news.ycombinator.com/item?id=49916955"
-      },
-      "duration_sec": null,
-      "views": 93,
-      "comments": 38,
-      "published_at": "2026-10-01T02:26:17+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
       "id": "hn:50278678",
       "title": "Show HN: A proof-of-concept formalization of the IRS federal tax forms",
       "url": "https://github.com/emmilco/us-tax-model",
@@ -1094,8 +1075,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50278678"
       },
       "duration_sec": null,
-      "views": 72,
-      "comments": 13,
+      "views": 80,
+      "comments": 12,
       "published_at": "2026-10-28T18:30:53+00:00",
       "summary": "",
       "matched_keyword": "fed",

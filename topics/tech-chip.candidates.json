@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-10-30T09:49:57.518117+00:00",
+  "fetched_at": "2026-10-31T09:29:37.921297+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -26,7 +26,7 @@
       "source": {
         "type": "rss",
         "id": "https://www.semianalysis.com/feed",
-        "name": "Jeremie Eliahou Ontiveros",
+        "name": "AJ Kourabi",
         "feed_title": "SemiAnalysis"
       },
       "duration_sec": null,
@@ -43,7 +43,7 @@
       "source": {
         "type": "rss",
         "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
+        "name": "Ivan Chiam",
         "feed_title": "SemiAnalysis"
       },
       "duration_sec": null,
@@ -60,7 +60,7 @@
       "source": {
         "type": "rss",
         "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
+        "name": "Jeff Koch",
         "feed_title": "SemiAnalysis"
       },
       "duration_sec": null,
@@ -77,7 +77,7 @@
       "source": {
         "type": "rss",
         "id": "https://www.semianalysis.com/feed",
-        "name": "Jeremie Eliahou Ontiveros",
+        "name": "Myron Xie",
         "feed_title": "SemiAnalysis"
       },
       "duration_sec": null,
@@ -94,7 +94,7 @@
       "source": {
         "type": "rss",
         "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
+        "name": "Daniel Nishball",
         "feed_title": "SemiAnalysis"
       },
       "duration_sec": null,
@@ -111,7 +111,7 @@
       "source": {
         "type": "rss",
         "id": "https://www.semianalysis.com/feed",
-        "name": "Doug OLaughlin",
+        "name": "AJ Kourabi",
         "feed_title": "SemiAnalysis"
       },
       "duration_sec": null,
@@ -128,7 +128,7 @@
       "source": {
         "type": "rss",
         "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
+        "name": "Jeff Koch",
         "feed_title": "SemiAnalysis"
       },
       "duration_sec": null,
@@ -145,7 +145,7 @@
       "source": {
         "type": "rss",
         "id": "https://www.semianalysis.com/feed",
-        "name": "Reyk Knuhtsen",
+        "name": "Jeremie Eliahou Ontiveros",
         "feed_title": "SemiAnalysis"
       },
       "duration_sec": null,
@@ -162,7 +162,7 @@
       "source": {
         "type": "rss",
         "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
+        "name": "Gerald Wong",
         "feed_title": "SemiAnalysis"
       },
       "duration_sec": null,
@@ -179,13 +179,64 @@
       "source": {
         "type": "rss",
         "id": "https://www.semianalysis.com/feed",
-        "name": "Dylan Patel",
+        "name": "Maya Barkin",
         "feed_title": "SemiAnalysis"
       },
       "duration_sec": null,
       "views": null,
       "published_at": "2025-07-11T20:12:19+00:00",
       "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/google-agentic-ai-will-drive-new-demands-on-data-center-cpus/",
+      "title": "Google: Agentic AI Will Drive New Demands on Data Center CPUs",
+      "url": "https://www.eetimes.com/google-agentic-ai-will-drive-new-demands-on-data-center-cpus/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-30T20:13:41+00:00",
+      "summary": "Agents present a bursty workload, leaving CPUs frequently idle, which is placing new demands on CPU infrastructure. The post Google: Agentic AI Will Drive New Demands on Data Center CPUs appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/intels-q3-results-show-supply-chain-disruptions-and-pc-plunge/",
+      "title": "Intel’s Q3 Results Show Supply Chain Disruptions and PC Plunge",
+      "url": "https://www.eetimes.com/intels-q3-results-show-supply-chain-disruptions-and-pc-plunge/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "News Desk",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-30T16:37:20+00:00",
+      "summary": "Intel faces a tough challenge as manufacturing bottlenecks and rising memory costs impact PC sales despite strong data center growth. The post Intel’s Q3 Results Show Supply Chain Disruptions and PC Plunge appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/why-shrinking-component-geometries-force-a-rethink-of-bga-rework-heating-methods/",
+      "title": "Why Shrinking Component Geometries Force a Rethink of BGA Rework Heating Methods",
+      "url": "https://www.eetimes.com/why-shrinking-component-geometries-force-a-rethink-of-bga-rework-heating-methods/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Emily Newton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-10-30T10:32:26+00:00",
+      "summary": "As components shrink to 01005 scale and board densities rise, BGA rework requires more precise heat control. The post Why Shrinking Component Geometries Force a Rethink of BGA Rework Heating Methods appeared first on EE Times.",
       "lang": "en"
     },
     {
@@ -308,54 +359,22 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/sk-hynix-reports-record-q3-results-driven-by-ai-memory-surge/",
-      "title": "SK Hynix Reports Record Q3 Results Driven by AI Memory Surge",
-      "url": "https://www.eetimes.com/sk-hynix-reports-record-q3-results-driven-by-ai-memory-surge/",
-      "platform": "rss",
+      "id": "hn:50293047",
+      "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
+      "url": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "News Desk",
-        "feed_title": "EE Times"
+        "type": "hackernews",
+        "id": "50293047",
+        "name": "mgh2",
+        "hn_url": "https://news.ycombinator.com/item?id=50293047"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-28T16:43:42+00:00",
-      "summary": "Long-term customer contracts and rising chip prices point to a change in how memory manufacturers manage multi-year production capacity and capex. The post SK Hynix Reports Record Q3 Results Driven by AI Memory Surge appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/secure-safety-and-security-communications/",
-      "title": "Secure Safety and Security Communications",
-      "url": "https://www.eetimes.com/secure-safety-and-security-communications/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Analog Devices",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-28T14:00:00+00:00",
-      "summary": "This whitepaper explores how building safety and security systems can overcome the limitations of legacy RS-485 networks by adopting Single Pair Ethernet (SPE). It examines the growing demands of AI-enabled surveillance, access control, cybersecurity, and system convergence, while highlighting how SPE delivers secure, scalable communications over existing infrastructure. Readers will learn about SPE architectures, migration [&#8230;] The post Secure Safety and Security Communications appeared fi...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/full-stack-semiconductor-solutions-for-embodied-ai-robotics/",
-      "title": "Full-Stack Semiconductor Solutions for Embodied AI & Robotics",
-      "url": "https://www.eetimes.com/full-stack-semiconductor-solutions-for-embodied-ai-robotics/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "NSING",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-28T14:00:00+00:00",
-      "summary": "NSING Technologies, a Singapore-founded semiconductor company, presents this whitepaper on its full-stack semiconductor solutions for embodied AI and robotics, built around high-performance MCUs, security ICs, wireless connectivity and BMS ICs. The document explains the industry shift toward distributed robotic architectures that combine AI main control with deterministic real-time joint, motor and sensor nodes. It details [&#8230;] The post Full-Stack Semiconductor Solutions for Embodied AI &am...",
+      "views": 355,
+      "comments": 235,
+      "published_at": "2026-10-29T17:43:48+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
@@ -370,28 +389,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50219700"
       },
       "duration_sec": null,
-      "views": 350,
+      "views": 351,
       "comments": 83,
       "published_at": "2026-10-24T09:58:27+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50293047",
-      "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
-      "url": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50293047",
-        "name": "mgh2",
-        "hn_url": "https://news.ycombinator.com/item?id=50293047"
-      },
-      "duration_sec": null,
-      "views": 325,
-      "comments": 224,
-      "published_at": "2026-10-29T17:43:48+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -428,7 +428,7 @@
       },
       "duration_sec": null,
       "views": 133,
-      "comments": 25,
+      "comments": 26,
       "published_at": "2026-10-28T15:17:53+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
