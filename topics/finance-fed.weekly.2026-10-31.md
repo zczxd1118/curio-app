@@ -2,28 +2,28 @@
 
 > 今日 1 条头条 + 2 条备选
 
-_今天最重要的信号有两个：一是 AI 资本叙事开始出现裂缝——Intel 一天蒸发 1 万亿美元半导体市值、Alphabet 单日市值缩水 5000 亿、Anthropic 被研究机构称为"年度最荒谬 IPO"，同时 TechCrunch 直指 AI 支出热潮出现裂痕；二是 Google 把 TPU 送上卫星并跑通 Gemma 4，算力开始离开地面。对做 Agent 的你来说，真正的可操作信息在工程侧：Cisco 让一个 27 岁工程师用无限 token 重写 98% 遗留代码，以及 Anthropic 官方 Cursor 扩展被植入后门近 12 小时。_
+_今天最重要的信号是 AI 资本叙事的裂缝：Intel 财报一天蒸发 1 万亿美元半导体市值，Alphabet 单日市值缩水 5000 亿美元，TechCrunch 直接写「AI 支出热潮出现裂缝」。另一条线是 Google 把 TPU 送上天、Gemini 4 Carbon 登顶 Artificial Analysis 榜首——算力与模型仍在推进，但钱开始算账了。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Meta 用 AI 数据中心规避数十亿美元联邦税
+### 1. 3000 亿美元「债务墙」逼近 PE 控股公司
 
-**[金融]** · ⭐⭐⭐ · _NYT_
+**[金融]** · ⭐⭐⭐ · _JumpCrisscross_
 
-AI 基建的会计与税务套利，解释了为什么大厂建数据中心的速度快过需求。
+HN 177 分。与 AI 基建债务是同一条暗线，2027 年再融资高峰的具体规模首次被量化。
 
-📺 [打开原文](https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html)
+📺 [打开原文](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497)
 
 ---
 
 ## 📋 备选阅读
 
-- [AI 算力是新的石油，需要一个新市场](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market) —— 算力定价机制缺失是当前最被低估的结构问题，长文，周末读。
-  _The Economist_
-- [市场抛售与利率上行考验 AI 数据中心交易热潮](https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/) —— 把利率与数据中心融资挂钩，是理解头条 1 的底层机制。
-  _Reuters_
+- [Meta 用 AI 数据中心规避数十亿美元联邦税](https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html) —— AI 基建的会计与税务套利，解释了为什么大厂拼命建数据中心。角度少见，值得一看。
+  _gmays_
+- [美国联邦预算赤字一年跳增 12%，接近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917907.html) —— 宏观背景板。利率与赤字是 AI 资本开支能否持续的底层约束，但单条信息增量有限。
+  _ck2_
 
 ---
 

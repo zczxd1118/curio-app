@@ -1,30 +1,29 @@
 # Curio · 股票 · 2026-10-31
 
-> 今日 1 条头条 + 3 条备选
+> 今日 1 条头条 + 2 条备选
 
-_今天最重要的信号有两个：一是 AI 资本叙事开始出现裂缝——Intel 一天蒸发 1 万亿美元半导体市值、Alphabet 单日市值缩水 5000 亿、Anthropic 被研究机构称为"年度最荒谬 IPO"，同时 TechCrunch 直指 AI 支出热潮出现裂痕；二是 Google 把 TPU 送上卫星并跑通 Gemma 4，算力开始离开地面。对做 Agent 的你来说，真正的可操作信息在工程侧：Cisco 让一个 27 岁工程师用无限 token 重写 98% 遗留代码，以及 Anthropic 官方 Cursor 扩展被植入后门近 12 小时。_
+_今天最重要的信号是 AI 资本叙事的裂缝：Intel 财报一天蒸发 1 万亿美元半导体市值，Alphabet 单日市值缩水 5000 亿美元，TechCrunch 直接写「AI 支出热潮出现裂缝」。另一条线是 Google 把 TPU 送上天、Gemini 4 Carbon 登顶 Artificial Analysis 榜首——算力与模型仍在推进，但钱开始算账了。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. 美股科技板块因 AI 成本担忧大幅下挫，市场开始给"AI 支出"重新定价
+### 4. 美国科技股因 AI 成本担忧大幅下挫，Alphabet 单日市值缩水 5000 亿美元创纪录
 
-**[股票]** · ⭐⭐⭐⭐ · _BBC / Hacker News_
+**[股票]** · ⭐⭐⭐⭐ · _mindracer_
 
-BBC 报道美股科技股因 AI 成本担忧出现明显下跌，HN 上 254 点讨论。配合 Intel 一天抹掉 1 万亿半导体市值、Alphabet 单日缩水 5000 亿，市场正在从"AI 投入越多越好"切换到"这笔钱什么时候回来"。这是本周最值得记住的情绪拐点。
+BBC 报道美国科技股因 AI 成本担忧集体下跌，Alphabet 单日市值蒸发约 5000 亿美元，为其历史上最大单日跌幅。同一天 Alphabet 刚发布 Q3 财报。市场开始把「AI 资本开支」从增长故事重新定价为利润拖累，这是估值框架的切换，不是单日情绪。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| BBC 报道美国科技股因 AI 成本担忧出现明显下跌 | 下跌是情绪修正还是趋势反转，需要看下季度 capex 指引才能判断 |
-| 该讨论在 Hacker News 获得 254 点 | 若融资收紧，依赖外部资金的 AI 初创会先受影响，而非大厂 |
-| Intel 悲观 Q4 指引导致半导体板块单日蒸发约 1 万亿美元市值 | 二级市场情绪传导到一级市场通常滞后 1-2 个季度 |
-| Alphabet 单日市值跌幅约 5000 亿美元 | 中国 AI 板块是否同步见顶，目前数据不一致 |
-| TechCrunch 同日发文称 AI 支出热潮出现裂痕 |  |
+| Alphabet 单日市值缩水约 5000 亿美元，为其历史最大 | 市场是在惩罚资本开支本身，还是在惩罚回报周期不明确，两者含义完全不同 |
+| Alphabet Q3 2026 财报已于 10 月 28 日发布 | 单日跌幅中有多少是算法交易放大，缺少成交结构数据 |
+| 美国科技股整体因 AI 成本担忧出现明显下跌 | 若下季度云业务增速回升，这轮重新定价可能快速反转 |
+| Intel 财报后半导体板块同日蒸发约 1 万亿美元市值 | 「AI 成本担忧」目前是媒体归纳，缺少机构投资者的明确表态 |
 
 **📖 主编点评**
 
-作为电子信息工程的学生，这条对你的择业判断比对投资判断更有用：如果 AI 基建的融资节奏放缓，芯片与数据中心相关岗位的招聘节奏会在半年后跟着变。现在把简历重心放在"能直接产出效率"的 AI 工程能力上，比押注某个细分硬件赛道更稳。
+别把单日大跌当成趋势确认。你更该盯的是下个季度云厂商的资本开支指引和折旧口径——那才是判断这轮 AI 投入是否可持续的硬指标。这条也提醒你：做 content-curator 的金融类信源时，优先选带具体数字和财报口径的，而不是「暴跌」「崩了」这类情绪词。
 
 📺 [打开原文](https://www.bbc.co.uk/news/articles/cvwy72e0n72yo)
 
@@ -32,12 +31,10 @@ BBC 报道美股科技股因 AI 成本担忧出现明显下跌，HN 上 254 点�
 
 ## 📋 备选阅读
 
-- [美国科技股因 AI 成本担忧大幅下跌](https://www.bbc.co.uk/news/articles/cvwy72e0n72yo) —— 与头条 1 同源的市场情绪指标，HN 254 点，作为情绪拐点的第二信源。
-  _BBC_
-- [Anthropic S-1 曝光：高增长、风险与算力成本](https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1) —— 想理解 AI 公司真实单位经济，S-1 是唯一一手材料，比任何分析文章都值得读。
-  _WSJ_
-- [3000 亿美元"债务墙"逼近 PE 支持的 company](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497) —— AI 基建之外的另一条金融风险线，与数据中心债务形成叠加。
-  _WSJ_
+- [Anthropic S-1 显示高速增长、风险与算力成本](https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1) —— S-1 是这轮 AI 估值唯一的一手财务材料。想判断 AI 公司真实单位经济，只能读这个。
+  _mmmmmbop_
+- [Net Interest：Follow the Money](https://www.netinterest.co/p/follow-the-money-ece) —— 六年 300 多篇后的复盘，讲金融往哪走。长文、有结构，适合周末读，但非本周新事实。
+  _Marc Rubinstein_
 
 ---
 

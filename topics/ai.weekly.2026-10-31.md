@@ -1,29 +1,33 @@
 # Curio · AI · 2026-10-31
 
-> 今日 1 条头条 + 2 条备选
+> 今日 1 条头条 + 0 条备选
 
-_今天最重要的信号有两个：一是 AI 资本叙事开始出现裂缝——Intel 一天蒸发 1 万亿美元半导体市值、Alphabet 单日市值缩水 5000 亿、Anthropic 被研究机构称为"年度最荒谬 IPO"，同时 TechCrunch 直指 AI 支出热潮出现裂痕；二是 Google 把 TPU 送上卫星并跑通 Gemma 4，算力开始离开地面。对做 Agent 的你来说，真正的可操作信息在工程侧：Cisco 让一个 27 岁工程师用无限 token 重写 98% 遗留代码，以及 Anthropic 官方 Cursor 扩展被植入后门近 12 小时。_
+_今天最重要的信号是 AI 资本叙事的裂缝：Intel 财报一天蒸发 1 万亿美元半导体市值，Alphabet 单日市值缩水 5000 亿美元，TechCrunch 直接写「AI 支出热潮出现裂缝」。另一条线是 Google 把 TPU 送上天、Gemini 4 Carbon 登顶 Artificial Analysis 榜首——算力与模型仍在推进，但钱开始算账了。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. 最新 Skills 开发教程：Agent Skill 实战，WorkBuddy + Codex + DeepSeek Harness
+### 5. 尚硅谷发布 Agent Skills 开发教程：WorkBuddy + Codex + DeepSeek Harness 实战落地
 
-**[AI]** · ⭐⭐⭐ · _尚硅谷_
+**[AI]** · ⭐⭐⭐⭐ · _尚硅谷_
 
-10 月 28 日发布，是目前最新的 Skills 实操内容，契合你的 Agent 工具构建方向，但教程密度需自行判断。
+10 月 28 日发布的 Agent Skills 教程，是目前中文圈少见的把 Skills 从概念讲到项目落地的完整课程，覆盖 WorkBuddy、Codex 上手到实际项目。Skills 正在成为 Agent 工程化的关键抽象层——它把 prompt、工具、上下文打包成可复用单元，比裸写 system prompt 更接近软件工程。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 教程发布于 2026-10-28，由尚硅谷出品 | Skills 的标准化程度目前仍低于 MCP，跨工具复用性存疑 |
+| 课程覆盖 WorkBuddy、Codex 与 DeepSeek Harness 三个工具链 | 课程质量与实际代码密度未知，尚硅谷系列常有配套资料引流 |
+| 内容定位为「Agent Skills 零基础到项目落地实战」 | DeepSeek Harness 在 Skills 生态中的定位尚不清晰 |
+| 同期 B 站已出现多个 Skills 相关教程，说明该概念正在扩散 | Skills 会不会被各家 Agent 框架的私有格式割裂，是长期风险 |
+
+**📖 主编点评**
+
+你的 content-curator 正好可以拿 Skills 做一次实践：把「选题评分规则」「去重逻辑」「领域覆盖约束」各写成一个 Skill，比塞进一个巨型 prompt 更可维护。看这个教程时重点抓它的目录结构，而不是跟着敲——你要的是抽象方式，不是具体命令。
 
 📺 [打开原文](http://www.bilibili.com/video/av117511429295044)
 
 ---
-
-## 📋 备选阅读
-
-- [Claude Code 完全接管 Blender：给 Agent 完整终端权限跑一小时会发生什么](http://www.bilibili.com/video/av116980883398142) —— 用官方 Blender MCP 做真实工作流自动化，有实操画面，比纯教程更接近"Agent 能干什么"。
-  _stefan_3d_ai_
-- [cccodroid：把 Claude Code 原生装进安卓设备，不用 root](http://www.bilibili.com/video/av117462439826705) —— 开源项目 + 实机录屏，含 pkg install rust 现场打包 APK，工程细节密度高。
-  _Grey-Oak_
 
 ---
 
