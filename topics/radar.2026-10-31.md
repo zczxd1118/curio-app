@@ -1,0 +1,181 @@
+# Curio 趋势雷达 · 2026-10-31
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 18 条备选
+
+_今天最重要的信号有两个：一是 AI 资本叙事开始出现裂缝——Intel 一天蒸发 1 万亿美元半导体市值、Alphabet 单日市值缩水 5000 亿、Anthropic 被研究机构称为"年度最荒谬 IPO"，同时 TechCrunch 直指 AI 支出热潮出现裂痕；二是 Google 把 TPU 送上卫星并跑通 Gemma 4，算力开始离开地面。对做 Agent 的你来说，真正的可操作信息在工程侧：Cisco 让一个 27 岁工程师用无限 token 重写 98% 遗留代码，以及 Anthropic 官方 Cursor 扩展被植入后门近 12 小时。_
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 1. AI 支出热潮出现裂缝：债务、负现金流与投资人怀疑同时压上来
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
+
+TechCrunch 把本周分散的坏消息串成了一条线：Big Tech 继续往 AI 基建砸钱，但债务在涨、自由现金流为负、投资人开始追问回报周期。同一天 Intel 的悲观指引抹掉半导体板块 1 万亿美元市值，Alphabet 单日市值缩水 5000 亿。这不是泡沫破裂，是定价方式从"叙事"切回"现金流"。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| TechCrunch 报道 Big Tech AI 基建投入伴随债务上升与负自由现金流 | 这轮调整是估值回归还是需求见顶，目前没有订单数据支撑任何一方 |
+| Intel Q3 指引引发半导体板块单日蒸发约 1 万亿美元市值，Apple 几乎未受影响 | Nvidia 共签贷款若成真，等于芯片厂给客户做信用增级，风险敞口会重新定价 |
+| Alphabet 单日市值跌幅约 5000 亿美元，为其历史最大单日跌幅 | Anthropic 与 OpenAI 的 IPO 时间表可能因市场情绪被迫提前或推迟 |
+| Nvidia 正考虑为 Nscale 西弗吉尼亚数据中心充当贷款共签方 | 数据中心建设放缓的传导会先打到 PCB、内存、电力设备，而非 GPU 本身 |
+| 研究机构 New Constructs 发文称 Anthropic 是"2026 年最荒谬的 IPO" |  |
+| 三星 Q3 营业利润 800 亿美元，但零部件涨价导致移动业务营业亏损 |  |
+
+**📖 主编点评**
+
+别把这条当财经新闻跳过。你正在做的 content-curator 如果未来想接付费或赞助，融资环境变冷会直接影响独立开发者的工具预算。更实际的是：现在正是把项目做成"低推理成本、可离线跑"形态的窗口期，等 token 补贴退潮时，能跑在本地小模型上的 Agent 会更有生命力。
+
+📺 [打开原文](https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/)
+
+---
+
+### 3. Anthropic 官方 Cursor 扩展被植入后门近 12 小时，攻击者如何拿到验证账号仍未知
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Ars Technica_
+
+Ars Technica 报道，Anthropic 在 Cursor 上的 VS Code 扩展被植入后门并持续近 12 小时，攻击者通过 Anthropic 的已验证发布账号下发了恶意版本。目前不清楚账号是如何被攻破的。对每天用 Cursor + Claude Code 的人来说，这是供应链攻击第一次直接打到 AI 编程工具链上。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 被污染的是 Anthropic 在 Cursor 上的 VS Code 扩展，持续约 12 小时 | 12 小时窗口内有多少开发者安装了恶意版本，官方未披露 |
+| 攻击者使用了 Anthropic 的已验证发布账号下发恶意版本 | 是否涉及 token 或 API key 外泄，目前没有确认信息 |
+| Ars Technica 报道称入侵路径尚未查明 | AI 编程工具的扩展市场审核机制可能因此收紧 |
+| 事件发生在 2026 年 10 月 30 日前后 | 同类风险适用于所有基于 VS Code 扩展分发的 AI 工具 |
+
+**📖 主编点评**
+
+你天天在 Cursor 里跑 Claude Code，这条必须当操作提醒看：检查扩展版本与安装来源，别用非官方渠道的 AI 编程插件，API key 尽量走环境变量而非硬编码。顺手把这条记进你的项目 README 的"安全注意事项"，面试时讲供应链安全比讲功能更有区分度。
+
+📺 [打开原文](https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 2. Cisco 给一个 27 岁工程师无限 AI token，要求 24 个月重写 98% 遗留代码
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+
+Cisco 总裁 Jeetu Patel 把一件几乎不可能的事交给了一个 27 岁的前创业者：24 个月内用 AI 重写公司 98% 的遗留代码，token 不设上限。这是目前公开可见的最大规模"AI 重写存量系统"实验，也是对企业级 Agent 工作流最直接的一次压力测试。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Cisco 总裁 Jeetu Patel 直接任命该工程师，授权不限量 AI token 消耗 | 98% 这个数字大概率指代码行数覆盖率，而非业务逻辑等价性 |
+| 目标是在 24 个月内重写公司 98% 的遗留代码 | 遗留系统重写的真正瓶颈在测试与回归验证，不在生成代码本身 |
+| 被任命者为 27 岁，此前是创业者，非 Cisco 资深员工 | 若成功，会催生一批"AI 重写服务商"；若失败，会成为企业 AI 落地的反面教材 |
+| Cisco 官方口径是让该工程师"放开手干"（go nuts） | Cisco 未披露如何验证重写后的系统正确性 |
+
+**📖 主编点评**
+
+这条对你的价值不在新闻本身，而在它暴露的工程问题：AI 重写存量代码时，验证成本远高于生成成本。你做 content-curator 时如果考虑让 Agent 改自己的代码库，先把测试和 diff 审查链路搭好——这正是简历上能讲清楚的"AI 工程实践"细节。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts)
+
+---
+
+### 4. Tom's Hardware 发布首个 Agentic AI 的 CPU 基准测试：不涉及 GPU 的吞吐量测量
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+
+Tom's Hardware 用半年时间观察到 Agent 负载正在把 CPU 推回中心位置，于是做了第一个专门测 Agentic AI 的 CPU 基准。核心发现是 Agent 负载呈突发性，CPU 大量时间处于空闲，这直接挑战了"Agent 只需要 GPU"的直觉。Google 同期也提出 Agentic AI 会对数据中心 CPU 提出新需求。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Tom's Hardware 发布首个针对 agentic AI 工作负载的 CPU 基准测试方法 | 单一媒体的基准方法尚未经过社区复现，结论需谨慎对待 |
+| 测试全程不涉及 GPU，只测 CPU 吞吐 | bursty 负载下真正的瓶颈可能是调度与内存带宽，而非核心数 |
+| 结论是 Agent 负载呈 bursty 特征，CPU 频繁空闲 | 若结论成立，Agent 部署的成本模型会与纯推理服务显著不同 |
+| Google 在 EE Times 上提出 agentic AI 将驱动数据中心 CPU 新需求 | 目前没有公开的 Agent 负载标准数据集 |
+| 该基准基于过去六个月的实测数据构建 |  |
+
+**📖 主编点评**
+
+这条对你部署 content-curator 有直接参考价值：如果你打算把 Agent 常驻跑（定时抓取、增量总结），瓶颈很可能不在模型调用而在调度与 IO。可以拿这个基准思路自测一下你的 Agent 在空闲期的资源占用，把"低峰期批处理 + 事件触发"写进架构，这是能讲出 why 的工程细节。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/our-first-step-at-defining-a-cpu-benchmark-for-agentic-ai)
+
+---
+
+## 🌟 股票
+
+### 5. 美股科技板块因 AI 成本担忧大幅下挫，市场开始给"AI 支出"重新定价
+
+**[股票]** · ⭐⭐⭐⭐ · _BBC / Hacker News_
+
+BBC 报道美股科技股因 AI 成本担忧出现明显下跌，HN 上 254 点讨论。配合 Intel 一天抹掉 1 万亿半导体市值、Alphabet 单日缩水 5000 亿，市场正在从"AI 投入越多越好"切换到"这笔钱什么时候回来"。这是本周最值得记住的情绪拐点。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| BBC 报道美国科技股因 AI 成本担忧出现明显下跌 | 下跌是情绪修正还是趋势反转，需要看下季度 capex 指引才能判断 |
+| 该讨论在 Hacker News 获得 254 点 | 若融资收紧，依赖外部资金的 AI 初创会先受影响，而非大厂 |
+| Intel 悲观 Q4 指引导致半导体板块单日蒸发约 1 万亿美元市值 | 二级市场情绪传导到一级市场通常滞后 1-2 个季度 |
+| Alphabet 单日市值跌幅约 5000 亿美元 | 中国 AI 板块是否同步见顶，目前数据不一致 |
+| TechCrunch 同日发文称 AI 支出热潮出现裂痕 |  |
+
+**📖 主编点评**
+
+作为电子信息工程的学生，这条对你的择业判断比对投资判断更有用：如果 AI 基建的融资节奏放缓，芯片与数据中心相关岗位的招聘节奏会在半年后跟着变。现在把简历重心放在"能直接产出效率"的 AI 工程能力上，比押注某个细分硬件赛道更稳。
+
+📺 [打开原文](https://www.bbc.co.uk/news/articles/cvwy72e0n72yo)
+
+---
+
+## 📋 备选池
+
+### 大厂 AI 动态
+
+- [Google 首颗数据中心卫星上线，太空 TPU 跑 Gemma 4 写诗](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/) —— TPU 首次在轨跑通模型，算力离开地面的第一步；象征意义大于当下实用性，但方向值得记住。
+  _TechCrunch_
+- [OpenAI、Google、Microsoft、Anthropic 共同支持新的爬虫退出标准](https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out) —— 四家同时接受发布方 opt-out 标准，对做内容聚合的你是直接相关的合规变量。
+  _The Verge_
+- [Apple Intelligence 随 iOS 27.3 进入中国](https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3) —— 落地中国意味着本地模型合作方浮出水面，对国内 AI 产品生态是结构性变量。
+  _The Verge_
+- [Stratechery 专访 Palantir CTO Shyam Sankar：AI 的"宗教战争"](https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/) —— 契合你想多看的名人深度访谈，讲 forward-deployed engineer 与 AI 扩散，密度高。
+  _Stratechery_
+- [DoorDash 称外部 AI Agent 至今只带来"几百单"](https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/) —— Agent 电商的真实渗透率数据，冷水但有用，避免你对 Agent 落地速度过度乐观。
+  _Ars Technica_
+
+### AI 算力 / 半导体
+
+- [Nvidia 官网悄悄下架 RTX 5080，零售价涨到 MSRP 的 2.2 倍](https://www.tomshardware.com/pc-components/gpus/nvidia-store-quietly-pulls-the-rtx-5080-following-rtx-5090-removal-street-prices-climb-to-2-2x-over-msrp) —— 消费级 GPU 被 AI 需求挤出的直接证据，如果你想升级本地跑模型的机器，现在不是好时机。
+  _Tom's Hardware_
+- [AI 需求引发 PCB 大缺货，订单排到 2030 年，交期拉到 30 个月](https://www.tomshardware.com/pc-components/ai-demand-triggers-massive-pcb-shortage-for-pc-makers-as-order-books-full-until-2030-lead-times-stretch-to-30-months-as-material-costs-surge-12x) —— 供应链最上游的卡点，比 GPU 更早反映真实需求强度，电子信息专业值得看。
+  _Tom's Hardware_
+- [Intel Fab 28 爆炸致两周停产，损失 6 亿美元，服务器芯片供货受扰半年](https://www.tomshardware.com/pc-components/cpus/deadly-intel-fab-28-explosion-causes-two-week-shutdown-to-cost-usd600-million-and-severely-disrupt-server-chip-manufacturing-for-six-months-10nm-xeon-shipments-stall-during-largest-shortage-in-memory) —— 叠加内存短缺，服务器 CPU 供给雪上加霜，是本周半导体最硬的实体事件。
+  _Tom's Hardware_
+- [PsiQuantum 把光子技术做成 AI 数据中心光交换，8x8 原型插损仅 1.2 dB](https://www.tomshardware.com/tech-industry/photonics/psiquantum-turns-its-photonics-know-how-into-an-optical-switch-for-supercharging-ai-data-center-gpu-networks-8x8-lab-prototype-loses-less-light-than-rivals-with-plans-to-develop-larger-devices) —— 光交换是 GPU 集群的下一个瓶颈解法，1.2 dB 对比行业 3 dB 上限，数字有说服力。
+  _Tom's Hardware_
+
+### 股票
+
+- [美国科技股因 AI 成本担忧大幅下跌](https://www.bbc.co.uk/news/articles/cvwy72e0n72yo) —— 与头条 1 同源的市场情绪指标，HN 254 点，作为情绪拐点的第二信源。
+  _BBC_
+- [Anthropic S-1 曝光：高增长、风险与算力成本](https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1) —— 想理解 AI 公司真实单位经济，S-1 是唯一一手材料，比任何分析文章都值得读。
+  _WSJ_
+- [3000 亿美元"债务墙"逼近 PE 支持的 company](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497) —— AI 基建之外的另一条金融风险线，与数据中心债务形成叠加。
+  _WSJ_
+
+### 金融
+
+- [Meta 用 AI 数据中心规避数十亿美元联邦税](https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html) —— AI 基建的会计与税务套利，解释了为什么大厂建数据中心的速度快过需求。
+  _NYT_
+- [AI 算力是新的石油，需要一个新市场](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market) —— 算力定价机制缺失是当前最被低估的结构问题，长文，周末读。
+  _The Economist_
+- [市场抛售与利率上行考验 AI 数据中心交易热潮](https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/) —— 把利率与数据中心融资挂钩，是理解头条 1 的底层机制。
+  _Reuters_
+
+### AI
+
+- [最新 Skills 开发教程：Agent Skill 实战，WorkBuddy + Codex + DeepSeek Harness](http://www.bilibili.com/video/av117511429295044) —— 10 月 28 日发布，是目前最新的 Skills 实操内容，契合你的 Agent 工具构建方向，但教程密度需自行判断。
+  _尚硅谷_
+- [Claude Code 完全接管 Blender：给 Agent 完整终端权限跑一小时会发生什么](http://www.bilibili.com/video/av116980883398142) —— 用官方 Blender MCP 做真实工作流自动化，有实操画面，比纯教程更接近"Agent 能干什么"。
+  _stefan_3d_ai_
+- [cccodroid：把 Claude Code 原生装进安卓设备，不用 root](http://www.bilibili.com/video/av117462439826705) —— 开源项目 + 实机录屏，含 pkg install rust 现场打包 APK，工程细节密度高。
+  _Grey-Oak_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
