@@ -1,0 +1,181 @@
+# Curio 趋势雷达 · 2026-11-01
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 18 条备选
+
+_今天最重要的信号是 AI 资本周期开始出现裂缝：Intel 财报一天蒸发 1 万亿美元半导体市值，纳斯达克创一年多最差月份，OpenAI 下调融资目标，Anthropic IPO 被研究机构称为「对投资者轻信的史无前例测试」。另一条线是模型侧仍在加速——Gemini 4 Carbon 登顶 Artificial Analysis 智能指数。工程侧最值得你动手的是 Cisco 让 27 岁工程师用无限 token 重写 98% 遗留代码，这是 vibe coding 的产业级样本。_
+
+---
+
+## 🌟 股票
+
+### 1. AI 资本周期首次集体转向：Intel 财报砸掉 1 万亿美元半导体市值，纳斯达克创一年多最差月份
+
+**[股票]** · ⭐⭐⭐⭐⭐ · _BBC_
+
+10 月 30 日 Intel 给出疲软 Q4 指引后，半导体板块单日蒸发约 1 万亿美元市值，纳斯达克录得一年多来最差单月表现。触发点不是 AI 需求消失，而是 PC 业务被 AI 挤占内存与零部件产能后反噬。这是本轮 AI 投资周期第一次出现「基础设施吃掉下游」的负反馈。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Intel Q4 指引低于预期，单日拖累半导体板块约 1 万亿美元市值 | 这轮下跌是估值修正还是 AI 资本开支见顶的开始，目前无法判定 |
+| 纳斯达克 10 月为一年多来最差单月，科技股遭集中抛售 | PC 需求萎缩是否会在两个季度内传导到消费电子上游，尚无数据 |
+| Intel 将消费级 CPU 产能转向服务器 CPU，称正经历「史上最严重供应短缺之一」 | Intel 产能转向服务器能否在 2027 年前补上缺口，公司未给时间表 |
+| 美国政府持有的 Intel 股份账面缩水约 120 亿美元 | AI 基建债务与负现金流问题被多家媒体点名，但违约风险尚未量化 |
+| Micron 与 Nvidia 合计贡献美国本轮盈利增长约 34% |  |
+
+**📖 主编点评**
+
+你不需要交易，但需要把这条当作背景板：接下来半年所有「AI 融资 / IPO / 数据中心」新闻都要放在资本收紧的语境里读。对你做 content-curator 的直接含义是——纯概念股炒作类内容会变多且质量更差，继续按你的反偏好过滤掉。
+
+📺 [打开原文](https://www.bbc.co.uk/news/articles/cvwy72e0n72yo)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 2. Gemini 4 Carbon 登顶 Artificial Analysis 智能指数 v5，Google 一周内连发 Argon / Genie 4 / Carbon 三款模型
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Artificial Analysis_
+
+Gemini 4 Carbon 在 Artificial Analysis Intelligence Index v5 上取得第一，是 Google 在 10 月中旬发布 Gemini 4 Argon、月底发布 Genie 4 世界模型之后的第三发。一周三款模型的节奏说明 Google 已经把模型发布变成流水线，而不是事件。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Gemini 4 Carbon 在 Artificial Analysis Intelligence Index v5 排名第一 | Carbon 相对 Argon 的实际能力增量是否值得换模型，需要等独立评测 |
+| Gemini 4 Argon 于 10 月 13 日发布，同日推出 Argon for Robotics | 世界模型 Genie 4 与机器人 / 具身智能的落地路径仍不清晰 |
+| Genie 4 于 10 月 27 日发布，定位新一代世界模拟模型 | Google 这种发布密度能否持续，取决于 TPU 产能而非研究能力 |
+| HN 上 Gemini 4 Argon 帖 1467 分、Genie 4 帖 1044 分、Carbon 帖 1013 分 | 榜单第一与真实工程任务表现的差距，Artificial Analysis 未给出任务级拆解 |
+| Gemini 4 Argon 已被用于 StarCraft 对战基准测试 |  |
+
+**📖 主编点评**
+
+如果你在 content-curator 里跑多模型路由，这周该做一次 Carbon 的实测替换：拿你现有的 20-30 条历史候选做同一 prompt 的抽取任务，对比 Argon 与 Carbon 的字段完整率和幻觉率。别只看榜单，你的 schema 输出稳定性才是真指标。
+
+📺 [打开原文](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 3. Cisco 给 27 岁工程师无限 AI token，要求 24 个月重写公司 98% 遗留代码
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+
+Cisco 总裁 Jeetu Patel 把「重写 98% 遗留代码」这件事交给一位 27 岁的前创业公司创始人，条件是无限量 AI token，原话是让他「go nuts」。这是目前公开可见的最大规模 agentic coding 生产实验：不是 demo，是有交付期限的全公司级代码迁移。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Cisco 总裁 Jeetu Patel 直接授权该项目，目标 24 个月内重写 98% 遗留代码 | 98% 这个比例如何定义（行数 / 模块 / 服务）未公开，验收标准不明 |
+| 执行者是一位 27 岁的前创业公司创始人，非传统资深工程师路径 | 遗留代码重写的最大成本通常在测试与回归验证，AI token 免费不解决这部分 |
+| 公司提供无限量 AI token 预算，不设上限 | 24 个月周期内模型能力会迭代数代，项目中途换模型的风险未评估 |
+| Cisco 同期在推进 Missionforce 国防 AI 平台等 AI 相关业务 | 这是否会成为大厂标配的组织模式，还是单点公关案例，需观察后续招聘动作 |
+
+**📖 主编点评**
+
+这条是你简历项目最好的叙事模板：不是「我会用 Claude Code」，而是「我用 agent 在 X 周内迁移了 Y 行遗留代码，回归通过率 Z%」。建议你在 content-curator 里加一个可量化的迁移 / 重构子任务，把 token 消耗、人工介入次数、测试通过率记下来——这三个数字比任何工具清单都有说服力。
+
+---
+
+## 🌟 金融
+
+### 4. DHS 下令美国联邦民事机构全面移除 DeepSeek，包括基于它构建的第三方工具
+
+**[金融]** · ⭐⭐⭐⭐ · _Reuters_
+
+路透报道，DHS 发布命令要求所有美国联邦民事机构从系统中移除 DeepSeek，范围不止官方 App，还包括在其之上二次开发的工具。这是美国首次把「模型来源」本身作为下架理由，而非具体数据泄露事件。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| DHS 命令覆盖所有美国联邦民事机构 | 「基于 DeepSeek 构建」的判定标准未公开，开源权重微调模型是否算在内不明 |
+| 禁令范围包括基于 DeepSeek 构建的第三方工具，不只是官方应用 | 是否有配套的替代方案与迁移预算，报道未提及 |
+| 该命令于 10 月 19 日前后由路透首次报道 | 该命令是行政令还是部门规章、法律效力层级不清 |
+| HN 讨论帖获 584 分，为当期金融域最高热度条目之一 | 对其他中国开源模型（Qwen、Kimi 等）是否会有连带效应，目前无信号 |
+
+**📖 主编点评**
+
+如果你在 content-curator 或任何 side project 里用了 DeepSeek 做低成本推理，现在要开始做模型抽象层：把 provider 抽成配置项，别让 base_url 硬编码在业务代码里。这不是政治判断，是工程上的可替换性——你已经在 Claude Code 接 DeepSeek 的教程里见过这个模式了。
+
+📺 [打开原文](https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/)
+
+---
+
+## 🌟 AI
+
+### 5. Agent Skills 开发教程上线：WorkBuddy + Codex + DeepSeek Harness 三工具实战
+
+**[AI]** · ⭐⭐⭐⭐ · _尚硅谷_
+
+尚硅谷 10 月 28 日发布 Agent Skills 开发教程，覆盖 WorkBuddy、Codex、DeepSeek Harness 三个工具链，从零基础到项目落地。这是中文教程生态里第一次把 Skills 作为独立主题系统讲，而不是塞在 MCP 教程的某一集里。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 教程发布于 2026-10-28，共覆盖 WorkBuddy、Codex、DeepSeek Harness 三个工具 | 三个工具链的 Skills 格式是否互通，教程未说明，实际大概率不兼容 |
+| 内容定位为零基础到项目落地实战，非概念科普 | 尚硅谷系教程偏「能跑通」，工程细节深度需自行验证 |
+| 同期 B 站已有 DeepSeek Harness 与 Claude Code 的同任务对比实测视频 | Skills 的生态标准目前由 Anthropic 主导，其他厂商跟进程度不明 |
+| Skills 已成为 Claude Code、Codex 等多个 agent 工具的共同抽象 | 教程时效性风险高，Skills 规范两个月内可能已变 |
+
+**📖 主编点评**
+
+你已经在用 Claude Code，这条的价值在于横向对照：花 40 分钟看它怎么在 Codex 和 DeepSeek Harness 里表达同一个 Skill，比再学一遍 Claude Code 用法有用得多。看完直接给你的 content-curator 写一个 skill 文件，把「抓取→打分→输出 JSON」固化成可复用单元。
+
+📺 [打开原文](http://www.bilibili.com/video/av117511429295044)
+
+---
+
+## 📋 备选池
+
+### AI
+
+- [从 LLM 到 Agent Skill，一期视频打通底层逻辑](http://www.bilibili.com/video/av116227955497963) —— 概念串联做得完整，但属于综述型内容，新颖度不足，适合当术语速查表而非头条。
+  _马克的技术工作坊_
+- [8 分钟搞定 Claude Code 安装 + 原理 + 真实用法（国内直连）](http://www.bilibili.com/video/av116447535765612) —— 国内直连方案有实用价值，但 8 分钟密度太低，且安装类内容你已不需要。
+  _人工大黑_
+- [从夯到拉，锐评 32 个 AI 编程工具](http://www.bilibili.com/video/av116578532200786) —— 32 工具横评信息量够，但属于典型套娃合集，与你「不要 10 个最强工具」的偏好冲突。
+  _程序员鱼皮_
+- [OpenClaw 高级使用经验：Claude Code Hooks 回调 + Agent Teams 零轮询省 Token](http://www.bilibili.com/video/av116046157647899) —— Hooks 回调省 token 是真正的工程细节，可惜发布已 9 个月，且标题党味重。
+  _AI超元域_
+- [DeepSeek Harness 实测：与 Claude Code 同任务对比，差距比想象的大](http://www.bilibili.com/video/av117100337236191) —— 同模型换 harness 的对照实验设计正确，是少见的有方法论意识的实测，值得补看。
+  _程序员晓刘_
+- [【AI 时代的 STM32 教程】AI Agent 初体验](http://www.bilibili.com/video/av117529699682124) —— 用 STM32C5DevSkills 让 agent 建工程、写代码、烧录，和你电子信息背景高度契合，10-30 发布很新。
+  _keysking_
+- [开源安卓 AI Agent：RikkaHub Agent Pure，能看懂屏幕自己操作 App](http://www.bilibili.com/video/av117394643097499) —— 无障碍屏幕自动化 + 专家团架构，AGPL 开源可读源码，是移动端 agent 的少见样本。
+  _补药满减哇_
+
+### AI 算力 / 半导体
+
+- [Google：Agentic AI 将对数据中心 CPU 提出全新需求](https://www.eetimes.com/google-agentic-ai-will-drive-new-demands-on-data-center-cpus/) —— Agent 负载是突发型、CPU 频繁空转，这个观察对理解推理基础设施很关键，10-30 发布。
+  _EE Times_
+- [Darkbloom：出租闲置 Mac 做推理，Anthropic token 价格 5 个月跌 77%](https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-that-lets-you-rent-out-your-idle-mac-for-ai-inference-workloads-warns-of-plummeting-token-costs-darkbloom-network-sees-earnings-drop-to-usd1-23-a-day-as-anthropic-tokens-fall-77-percent) —— token 价格 5 个月跌 77%、日收入跌到 1.23 美元，是推理成本曲线最直观的一个数字。
+  _Tom's Hardware_
+- [Samsung Q3 营业利润 800 亿美元，全靠 AI 内存需求](https://www.eetimes.com/samsung-electronics-posts-80b-operating-profit-on-ai-memory-demand/) —— HBM 拉动利润的同时移动业务转亏，和 Intel 那条形成完整的内存挤压叙事。
+  _EE Times_
+
+### 大厂 AI 动态
+
+- [OpenAI 据报下调新一轮融资目标](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/) —— 和 Anthropic IPO 质疑、科技股抛售是同一条资本收紧线索，但细节太少，只够当注脚。
+  _TechCrunch_
+- [Anthropic 的 VS Code 扩展在 Cursor 上被植入后门近 12 小时](https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/) —— 攻击者拿到了 Anthropic 认证的 Cursor 账号，供应链攻击直指 AI 编程工具链，你天天在用。
+  _Ars Technica_
+- [DoorDash：外部 AI agent 至今只带来几百单](https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/) —— agent 电商的真实渗透率数据，冷得很有价值，用来校准你对 agent 落地的预期。
+  _Ars Technica_
+- [我用 ESP32 + Claude vibe code 做了一个 AI 电子宠物](https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code) —— ESP32 + Claude 的硬件 side project，和你电子信息的背景直接对口，可当周末项目灵感。
+  _The Verge_
+
+### 股票
+
+- [研究机构称 Anthropic IPO 是「对投资者轻信的史无前例测试」](https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html) —— New Constructs 的做空式报告，配合 S-1 披露的算力成本看更有意思，但发布已三周。
+  _CNBC_
+- [Alphabet 单日市值蒸发 5000 亿美元，史上最大](https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html) —— 和 Gemini 4 Carbon 登顶放在一起看很讽刺：模型最强的一周，股价跌得最狠。
+  _Yahoo Finance_
+
+### 金融
+
+- [3000 亿美元「债务墙」逼近 PE 控股公司](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497) —— 数据中心建设大量依赖私募信贷，这堵墙和 AI 基建债务是同一件事的两面。
+  _WSJ_
+- [美国联邦预算赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 宏观背景项，解释了为什么利率下不来、AI 基建融资成本压不住。
+  _Yahoo Finance_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
