@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-10-31T09:29:32.551499+00:00",
+  "fetched_at": "2026-11-01T10:18:22.398797+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -12,14 +12,14 @@
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
     "arXiv q-fin（量化金融论文）": 0,
-    "HN · Federal Reserve": 3,
-    "HN · inflation": 1,
+    "HN · Federal Reserve": 2,
+    "HN · inflation": 0,
     "HN · Tesla": 4,
-    "HN · finance": 13,
-    "HN · fed": 18
+    "HN · finance": 12,
+    "HN · fed": 19
   },
   "subtopics": [],
-  "total": 67,
+  "total": 65,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/at-long-last/",
@@ -570,44 +570,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50311339",
-      "title": "Federal Bureau of Prisons employees serve as election monitors at polling sites",
-      "url": "https://www.corrections1.com/federal-prison/bop-employees-to-serve-as-election-monitors-at-polling-sites-doj-filing-says",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50311339",
-        "name": "MadrasTh0rn",
-        "hn_url": "https://news.ycombinator.com/item?id=50311339"
-      },
-      "duration_sec": null,
-      "views": 12,
-      "comments": 2,
-      "published_at": "2026-10-30T23:12:02+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49924299",
-      "title": "Sony released the first CD audio player on this day in 1982",
-      "url": "https://www.tomshardware.com/pc-components/storage/sony-released-the-first-cd-audio-player-on-this-day-in-1982-player-cost-usd3-700-when-adjusted-for-inflation-but-it-would-be-another-decade-before-the-cd-rom-driven-multimedia-pc-era-began",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49924299",
-        "name": "Brajeshwar",
-        "hn_url": "https://news.ycombinator.com/item?id=49924299"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 8,
-      "published_at": "2026-10-01T17:07:39+00:00",
-      "summary": "",
-      "matched_keyword": "inflation",
-      "lang": "en"
-    },
-    {
       "id": "hn:50141295",
       "title": "Tesla 'Cannot Guarantee' Roadster Reservation Holders Will Ever Get a Car",
       "url": "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car",
@@ -684,25 +646,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49930690",
-      "title": "Quantitative Finance with OCaml",
-      "url": "https://qcaml.com/index.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49930690",
-        "name": "leonry",
-        "hn_url": "https://news.ycombinator.com/item?id=49930690"
-      },
-      "duration_sec": null,
-      "views": 54,
-      "comments": 11,
-      "published_at": "2026-10-02T07:14:34+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
       "id": "hn:50122776",
       "title": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast",
       "url": "https://stoke.money",
@@ -771,7 +714,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50260526"
       },
       "duration_sec": null,
-      "views": 177,
+      "views": 178,
       "comments": 65,
       "published_at": "2026-10-27T15:09:27+00:00",
       "summary": "",
@@ -790,7 +733,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50236073"
       },
       "duration_sec": null,
-      "views": 175,
+      "views": 176,
       "comments": 47,
       "published_at": "2026-10-25T21:07:38+00:00",
       "summary": "",
@@ -904,7 +847,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50291902"
       },
       "duration_sec": null,
-      "views": 60,
+      "views": 61,
       "comments": 8,
       "published_at": "2026-10-29T16:39:55+00:00",
       "summary": "",
@@ -980,8 +923,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50305573"
       },
       "duration_sec": null,
-      "views": 284,
-      "comments": 84,
+      "views": 327,
+      "comments": 96,
       "published_at": "2026-10-30T15:44:29+00:00",
       "summary": "",
       "matched_keyword": "fed",
@@ -1002,25 +945,6 @@
       "views": 270,
       "comments": 150,
       "published_at": "2026-10-20T22:21:05+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49921118",
-      "title": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
-      "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49921118",
-        "name": "gmays",
-        "hn_url": "https://news.ycombinator.com/item?id=49921118"
-      },
-      "duration_sec": null,
-      "views": 259,
-      "comments": 249,
-      "published_at": "2026-10-01T13:05:51+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
@@ -1075,8 +999,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50278678"
       },
       "duration_sec": null,
-      "views": 80,
-      "comments": 12,
+      "views": 81,
+      "comments": 13,
       "published_at": "2026-10-28T18:30:53+00:00",
       "summary": "",
       "matched_keyword": "fed",
@@ -1173,6 +1097,44 @@
       "views": 32,
       "comments": 4,
       "published_at": "2026-10-25T22:09:09+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50159683",
+      "title": "Trump Appointees Asked a Federal Agency to Acquire a Voting Machine and Hack It",
+      "url": "https://www.propublica.org/article/cisa-election-security-donald-trump",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50159683",
+        "name": "soundworlds",
+        "hn_url": "https://news.ycombinator.com/item?id=50159683"
+      },
+      "duration_sec": null,
+      "views": 29,
+      "comments": 5,
+      "published_at": "2026-10-20T00:09:23+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50152041",
+      "title": "Federal judge rules Flock violated the fourth amendment",
+      "url": "https://twitter.com/scotus_wire/status/2106487374624514071",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50152041",
+        "name": "vessenes",
+        "hn_url": "https://news.ycombinator.com/item?id=50152041"
+      },
+      "duration_sec": null,
+      "views": 27,
+      "comments": 7,
+      "published_at": "2026-10-19T13:14:41+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"

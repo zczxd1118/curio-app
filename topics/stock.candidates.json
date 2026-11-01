@@ -2,23 +2,23 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-10-31T09:29:24.853106+00:00",
+  "fetched_at": "2026-11-01T10:18:14.961976+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 10,
-    "HN · IPO": 11,
+    "HN · stock market": 12,
+    "HN · IPO": 13,
     "HN · earnings": 2,
-    "HN · Federal Reserve": 3,
+    "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 44,
+  "total": 47,
   "items": [
     {
       "id": "hn:50306008",
@@ -32,8 +32,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50306008"
       },
       "duration_sec": null,
-      "views": 254,
-      "comments": 283,
+      "views": 267,
+      "comments": 296,
       "published_at": "2026-10-30T16:13:02+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -73,6 +73,25 @@
       "views": 100,
       "comments": 140,
       "published_at": "2026-10-25T15:28:40+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50315574",
+      "title": "Why Anthropic's filing crushed tech stocks",
+      "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50315574",
+        "name": "chmaynard",
+        "hn_url": "https://news.ycombinator.com/item?id=50315574"
+      },
+      "duration_sec": null,
+      "views": 53,
+      "comments": 79,
+      "published_at": "2026-10-31T12:32:10+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -146,7 +165,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50236073"
       },
       "duration_sec": null,
-      "views": 175,
+      "views": 176,
       "comments": 47,
       "published_at": "2026-10-25T21:07:38+00:00",
       "summary": "",
@@ -211,6 +230,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50310016",
+      "title": "Tech Selloff Pushes Nasdaq to Its Worst Month in over a Year",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2026",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50310016",
+        "name": "doener",
+        "hn_url": "https://news.ycombinator.com/item?id=50310016"
+      },
+      "duration_sec": null,
+      "views": 10,
+      "comments": 0,
+      "published_at": "2026-10-30T20:53:49+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:50307219",
       "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
       "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
@@ -222,8 +260,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50307219"
       },
       "duration_sec": null,
-      "views": 309,
-      "comments": 252,
+      "views": 323,
+      "comments": 289,
       "published_at": "2026-10-30T17:27:25+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -279,8 +317,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50311311"
       },
       "duration_sec": null,
-      "views": 85,
-      "comments": 62,
+      "views": 100,
+      "comments": 76,
       "published_at": "2026-10-30T23:08:12+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -358,6 +396,44 @@
       "views": 15,
       "comments": 2,
       "published_at": "2026-10-26T13:30:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50046896",
+      "title": "Nvidia-backed data centre firm Firmus scraps IPO as AI valuation concerns deepen",
+      "url": "https://www.bbc.com/news/articles/ck9dzpw4ll8po",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50046896",
+        "name": "devonnull",
+        "hn_url": "https://news.ycombinator.com/item?id=50046896"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 1,
+      "published_at": "2026-10-11T19:26:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50159963",
+      "title": "Investors temper Anthropic IPO valuation expectations over growth slowdown",
+      "url": "https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50159963",
+        "name": "xqcgrek2",
+        "hn_url": "https://news.ycombinator.com/item?id=50159963"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 0,
+      "published_at": "2026-10-20T00:49:40+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -453,25 +529,6 @@
       "views": 30,
       "comments": 14,
       "published_at": "2026-10-18T16:48:25+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50311339",
-      "title": "Federal Bureau of Prisons employees serve as election monitors at polling sites",
-      "url": "https://www.corrections1.com/federal-prison/bop-employees-to-serve-as-election-monitors-at-polling-sites-doj-filing-says",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50311339",
-        "name": "MadrasTh0rn",
-        "hn_url": "https://news.ycombinator.com/item?id=50311339"
-      },
-      "duration_sec": null,
-      "views": 12,
-      "comments": 2,
-      "published_at": "2026-10-30T23:12:02+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
       "lang": "en"
