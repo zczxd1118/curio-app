@@ -1,41 +1,43 @@
 # Curio · AI 算力 / 半导体 · 2026-11-02
 
-> 今日 1 条头条 + 4 条备选
+> 今日 1 条头条 + 5 条备选
 
-_今天最重要的信号有两个：一是 Anthropic IPO 叙事开始被公开质疑，S-1 的高增长与算力成本同时摆上台面，配合美股科技股因 AI 成本担忧大跌、Alphabet 单日市值蒸发 5000 亿美元，AI 资本周期的情绪拐点可能已经出现；二是 DeepSeek Harness 生态在中文社区快速成型，Agent 工具链的竞争从模型转向 harness 层。工程侧值得关注的是 Claude Code 官方扩展被植入后门，以及 Nvidia 半速限制被开源工具解锁。_
+_今天最重要的信号有两个：一是 Anthropic IPO 的定价争议已经从投行圈烧到 HN 首页，'史上最荒谬 IPO'与'前所未有的收入增长'两种叙事同时成立，说明 AI 泡沫的分歧已进入公开定价阶段；二是 Gemini 4 Carbon 在 Artificial Analysis 指数上登顶，Google 一周内连发 Argon/Carbon 两个型号，模型迭代节奏重新加速。工程侧值得看的是 nv-uefi-unlocker 这类硬核解锁，以及 Claude Code 被植入后门的供应链风险。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. 开源 UEFI 工具解锁 Nvidia 消费级 GPU 的半速 AI 限制，FP16 算力最高提升 65%
+### 3. 开源 UEFI 工具 nv-uefi-unlocker 解除 Nvidia 消费卡 FP16 限速，RTX 20/30/40 系性能最高提升 65%
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Shane Downing_
 
-开源项目 nv-uefi-unlocker 通过 UEFI 层修改，解除了 Nvidia 在 Windows 下对 RTX 20/30/40 系列消费卡的 tensor rate 限制，FP16 数学性能最高提升 65%。这直接影响本地推理和小规模微调的成本结构——消费卡被软件阉割的那部分算力，现在有办法拿回来了。
+Nvidia 在消费级 GeForce 上长期把 tensor 的 FP16 速率压到数据中心卡的一半，这个限制写在 vBIOS/UEFI 层。一个开源工具直接在 UEFI 阶段把它解开，覆盖 RTX 20、30、40 系的台式与笔记本。对做本地推理的人来说，这是免费算力。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 工具名为 nv-uefi-unlocker，通过 USB 在 UEFI 层操作，覆盖 RTX 20/30/40 系列桌面与笔记本 | 65% 是特定 workload 下的峰值，实际推理吞吐提升幅度会小很多，取决于是否 compute-bound |
-| 实测 FP16 数学性能提升最高达 65% | 解锁后的稳定性、功耗与保修影响未知，Nvidia 后续驱动可能封堵 |
-| 限制是 Nvidia 在 Windows 驱动/固件层对消费卡的 tensor rate 做的半速封顶 | 是否违反许可协议存在法律灰区，个人实验与商用风险不同 |
-| 项目已开源 | 对 Mac 统一内存路线和云 GPU 定价的实际冲击，短期可忽略 |
+| 工具名为 nv-uefi-unlocker，开源，通过 UEFI 层解除 Nvidia 的 tensor rate cap | 65% 是特定 benchmark 的峰值，实际推理吞吐提升幅度需自行实测 |
+| 覆盖 RTX 20、30、40 系列桌面与笔记本型号 | 固件修改的稳定性与保修风险未评估 |
+| 官方描述 FP16 数学性能最高提升 65% | 是否会被后续驱动或 vBIOS 更新封堵，未知 |
+| 在 Windows 下生效，属于固件层修改而非驱动层 | 对 FP8/INT8 路径是否有同等影响，尚无数据 |
 
 **📖 主编点评**
 
-如果你手上有 RTX 30/40 系台式机，这是低成本提升本地推理吞吐的选项，但先在一台不重要的机器上验证稳定性。更重要的判断是：消费卡算力被软件分层这件事，说明本地推理的成本曲线还有下降空间，值得你在做 Agent 时保留本地 fallback 的设计。
+如果你手上有 30/40 系卡，这是本周性价比最高的一次动手实验：拿一个本地 7B/14B 模型，改前改后各跑一次 tokens/s，把数字记下来。这类'固件层解锁'的实测记录在简历上比任何教程都有说服力，但要先备份原 vBIOS。
 
 ---
 
 ## 📋 备选阅读
 
-- [Sam Altman 赴韩会见三星高层，为数据中心抢 RAM](https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers) —— 内存短缺已经逼到 CEO 亲自上门，是 AI 成本压力的直接证据，但事件本身信息量有限。
+- [Open-source USB tool unlocks Nvidia's half-speed GPU AI limiter（HN 讨论）](https://github.com/Zagitta/gpu-unlock) —— 与头条同一事件的 GitHub 仓库版本，351 分讨论里有实测数据，动手前值得先翻评论区。
+  _fragebogen_
+- [Sam Altman meets with Samsung leadership to secure more RAM for data centers](https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers) —— Altman 赴韩会见约 50 名三星高管抢内存，内存短缺已从供应链问题变成 CEO 级外交问题。
   _Newton Gitonga_
-- [Intel 把产能从消费级 CPU 转向服务器 CPU，应对「史无前例」的 AI 需求](https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history) —— PC 市场萎缩 + 数据中心需求暴涨的结构性转移，对理解硬件价格走势有用。
+- [Intel shifts production capacity from consumer to server CPUs in face of 'unprecedented' AI demand](https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history) —— Intel 把产能从消费级转向服务器 CPU，官方称正经历'史上最严重供应短缺之一'，PC 涨价的上游原因。
   _Anton Shilov_
-- [Google：Agentic AI 将给数据中心 CPU 带来新需求](https://www.eetimes.com/google-agentic-ai-will-drive-new-demands-on-data-center-cpus/) —— Agent 负载是突发性的，CPU 大量空闲，这个观察对你设计 Agent 调度有启发。
-  _Sally Ward-Foxton_
-- [出租闲置 Mac 跑推理的公司警告 token 价格暴跌，Anthropic token 五个月跌 77%](https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-that-lets-you-rent-out-your-idle-mac-for-ai-inference-workloads-warns-of-plummeting-token-costs-darkbloom-network-sees-earnings-drop-to-usd1-23-a-day-as-anthropic-tokens-fall-77-percent) —— token 价格 5 个月跌 77%，是判断 Agent 项目长期成本最重要的数字，但单一来源。
+- [New AI-driven Windows malware feeds stolen data to Claude to rank victims' assets by value](https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely) —— Cisco Talos 披露 VOLTA 窃密木马把赃物喂给 Claude Opus 4.6 做资产估值排序，模型被武器化的具体案例。
+  _Shane Downing_
+- [Firm that lets you rent out your idle Mac for AI inference warns of plummeting token costs](https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-that-lets-you-rent-out-your-idle-mac-for-ai-inference-workloads-warns-of-plummeting-token-costs-darkbloom-network-sees-earnings-drop-to-usd1-23-a-day-as-anthropic-tokens-fall-77-percent) —— Anthropic token 价格五个月内跌 77%，闲置 Mac 出租收益跌到每天 1.23 美元——推理成本崩塌的一线数据。
   _Jowi Morales_
 
 ---

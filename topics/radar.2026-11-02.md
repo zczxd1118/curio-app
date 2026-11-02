@@ -1,30 +1,30 @@
 # Curio 趋势雷达 · 2026-11-02
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 16 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 18 条备选
 
-_今天最重要的信号有两个：一是 Anthropic IPO 叙事开始被公开质疑，S-1 的高增长与算力成本同时摆上台面，配合美股科技股因 AI 成本担忧大跌、Alphabet 单日市值蒸发 5000 亿美元，AI 资本周期的情绪拐点可能已经出现；二是 DeepSeek Harness 生态在中文社区快速成型，Agent 工具链的竞争从模型转向 harness 层。工程侧值得关注的是 Claude Code 官方扩展被植入后门，以及 Nvidia 半速限制被开源工具解锁。_
+_今天最重要的信号有两个：一是 Anthropic IPO 的定价争议已经从投行圈烧到 HN 首页，'史上最荒谬 IPO'与'前所未有的收入增长'两种叙事同时成立，说明 AI 泡沫的分歧已进入公开定价阶段；二是 Gemini 4 Carbon 在 Artificial Analysis 指数上登顶，Google 一周内连发 Argon/Carbon 两个型号，模型迭代节奏重新加速。工程侧值得看的是 nv-uefi-unlocker 这类硬核解锁，以及 Claude Code 被植入后门的供应链风险。_
 
 ---
 
 ## 🌟 股票
 
-### 1. Anthropic IPO 被研究机构称为「对投资者轻信的史无前例考验」，S-1 高增长与算力成本同时曝光
+### 1. Anthropic IPO 被研究机构称为'对投资者轻信度的空前测试'，S-1 高增长与高算力成本同时摆在台面上
 
 **[股票]** · ⭐⭐⭐⭐⭐ · _m463_
 
-Anthropic 的 IPO 正在成为这一轮 AI 资本周期最受争议的定价事件。一边是 S-1 披露的收入高速增长，一边是研究机构 New Constructs 直接给出「2026 年最荒谬 IPO」的判断，核心质疑在于增长能否覆盖算力投入。同期美股科技股因 AI 成本担忧出现明显回调，Alphabet 一度面临史上最大单日市值缩水。
+New Constructs 直接把 Anthropic 的 IPO 定性为 2026 年最荒谬的一单，理由不是收入不涨，而是收入增长跑不过算力承诺的资本开支。同一周 WSJ 披露 S-1 里的双股权结构让创始人保留控制权，Reuters 则报道投资人已在下调估值预期。三篇放在一起看，这是 AI 泡沫第一次被拿到公开市场定价。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| New Constructs 发布报告，称 Anthropic 是「2026 年最荒谬的 IPO」，直指投资者轻信 | 「最荒谬 IPO」是卖方研究观点，不代表承销与机构定价共识，实际发行估值仍可能被抢购 |
-| Anthropic S-1 已公开，显示收入高速增长，同时披露了显著的算力成本与风险项 | S-1 中的增长曲线是否可持续，取决于推理成本下降速度能否快过价格战，目前没有公开数据支撑 |
-| 美股科技股近期因 AI 成本担忧出现明显下跌，AI 相关交易整体走弱 | 科技股回调是 AI 泡沫破裂的开始，还是利率与内存涨价驱动的短期调整，尚无定论 |
-| Alphabet 一度面临约 5000 亿美元市值缩水，为其历史上最大单日跌幅之一 | Anthropic 是否真的在「赶在泡沫破裂前 IPO」，目前只有媒体转述，无公司确认 |
-| 有报道称投资人已下调对 Anthropic IPO 的估值预期，理由是收入增速放缓 |  |
+| New Constructs 发布报告，称 Anthropic IPO 是'2026 年最荒谬的 IPO'，核心质疑是估值与现金流不匹配 | '收入增长能否跑赢不负责任的大额投资'目前只有多方各自的模型，没有公开可验证的答案 |
+| Anthropic S-1 显示收入高速增长，同时算力采购与数据中心承诺构成巨额长期成本 | 下调估值预期是投行压价策略还是真实需求转弱，尚无法区分 |
+| WSJ 报道 S-1 采用双股权结构，创始人保留控制权，被形容为'帝国式 CEO' | 双股权结构对二级市场定价的折价幅度，历史样本太少 |
+| Reuters 报道投资人因收入增速放缓而下调 IPO 估值预期 | 若 IPO 推迟或缩水，是否会被解读为 AI 资本周期拐点，取决于同期 Nvidia/Micron 财报 |
+| Big Short 交易员 Steve Eisman 已公开就 Anthropic IPO 发表看法 |  |
 
 **📖 主编点评**
 
-你不需要对 Anthropic 估值下注，但要把这条当作 AI 行业融资环境的温度计：如果头部模型公司 IPO 遇冷，接下来 6 个月中小 AI 创业公司的融资和招聘都会收紧。对你做 content-curator 这类个人项目反而是好事——工具成本在降，注意力在向真实工程价值回流。
+你不需要判断 Anthropic 值多少钱，但要看懂这场争论的结构：卖芯片的、卖算力的、卖模型的在互相给对方做信用背书。作为要投简历的人，把 S-1 里'算力成本 vs 收入'的对比表自己拉一遍，比读十篇评论更能建立对 AI 商业模型的直觉。
 
 📺 [打开原文](https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html)
 
@@ -32,89 +32,90 @@ Anthropic 的 IPO 正在成为这一轮 AI 资本周期最受争议的定价事�
 
 ## 🌟 大厂 AI 动态
 
-### 2. Google 连发 Gemini 4 Argon / Carbon / Genie 4，Carbon 登顶 Artificial Analysis 智能指数第一
+### 2. Gemini 4 Carbon 登顶 Artificial Analysis 智能指数 v5，Google 两周内连发 Argon 与 Carbon 两个型号
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _acossta_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _theHocineSaad_
 
-Google DeepMind 在两周内密集发布 Gemini 4 系列：Argon 主打机器人与 StarCraft 类环境，Carbon 直接冲上 Artificial Analysis Intelligence Index v5 第一名，Genie 4 则是新一代世界模拟模型。这是 Google 在模型发布节奏上少见的高密度输出，且三条线分别对应 agent、评测榜、世界模型三个方向。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Gemini 4 Carbon 在 Artificial Analysis Intelligence Index v5 上排名第一 | Artificial Analysis 单一榜单第一不等于综合能力第一，榜单权重与任务分布未公开细节 |
-| Gemini 4 Argon 已发布，并有面向机器人方向的专门版本 | Argon / Carbon 的命名与定位差异（是否对应不同推理预算档位）官方说明仍不清晰 |
-| Genie 4 作为新一代世界模拟模型发布，HN 讨论热度超 1000 分 | 世界模型 Genie 4 的实际可用性与开放程度，目前只有 demo 级信息 |
-| Gemini 4 Argon 已被用于 StarCraft 类环境的 agent 评测（starskirmish 基准） | 这轮发布是否会改变开发者默认模型选择，要看 API 价格与延迟数据，而非跑分 |
-
-**📖 主编点评**
-
-你正在做 Agent 项目，值得花 20 分钟实测 Carbon 在你现有 prompt 上的表现，尤其是长上下文工具调用。但别急着迁移——先看 API 定价和 rate limit，Google 的模型发布常常是「榜单一周、生态三个月」。
-
-📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)
-
----
-
-## 🌟 AI
-
-### 3. DeepSeek Harness 教程 24 小时内上线，中文社区开始围绕 harness 层而非模型层做工程
-
-**[AI]** · ⭐⭐⭐⭐ · _Git源宝_
-
-DeepSeek Harness（DSH）发布后不到一天，B 站就出现了 50 分钟级别的详细教程，讲 SuperAgent 的配置与使用。同期还有多条内容对比 DSH 与 Claude Code 在同一模型下的任务表现，讨论焦点从「哪个模型强」转向「哪个 harness 的工具链设计更好」。这是一个值得注意的信号：Agent 工程的竞争重心正在下移到 harness。
+Gemini 4 Argon 在 10 月 13 日发布后拿到 HN 1467 分，两周后 Carbon 直接把 Artificial Analysis Intelligence Index v5 的第一名拿走。同期 Google 还放出了 Genie 4 世界模型和 Argon 的机器人版本。这不是单点发布，是模型、世界模拟、具身三条线同时推进。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DeepSeek Harness 教程视频于 2026-11-01 发布，时长约 50 分钟，作者称制作耗时 60 天 | 单条对比视频的结论受任务选择和 prompt 影响大，不能直接推出 harness 优劣的普遍结论 |
-| 已有实测内容用同一 DeepSeek Pro 0813 模型在 Claude Code 与 DSH 中跑相同任务做对比 | DSH 的插件化与缓存机制是否真的优于 Claude Code，需要看源码或官方文档，目前只有二手实测 |
-| 对比维度包括插件化、流程记录、缓存命中和任务完成质量 | 中文社区教程质量参差，50 分钟视频的信息密度需要自己筛 |
-| DeepSeek V4.1 Flash 已发布，并有内容实测将其接入 DSH、WorkBuddy、Kimi Code 等六种工具 | harness 层竞争是否会成为长期趋势，还是模型厂商顺手做的附属功能，尚不明朗 |
+| Gemini 4 Carbon 在 Artificial Analysis Intelligence Index v5 上排名第一 | Artificial Analysis 单一指数是否足以代表真实任务能力，仍需看第三方复现 |
+| Gemini 4 Argon 于 10 月 13 日发布，HN 讨论 1467 分 | Carbon 与 Argon 的定位差异（成本/延迟/上下文）官方披露有限 |
+| Genie 4 世界模拟模型于 10 月 27 日发布，HN 1044 分 | 世界模型 Genie 4 与机器人版本的商用时间表未明 |
+| Google 同期发布 Gemini 4 Argon for Robotics | Google 这轮节奏能否持续到年底，取决于算力供给而非研究能力 |
+| 有开发者用 Argon 做了 StarCraft 对战 benchmark（starskirmish.com） |  |
 
 **📖 主编点评**
 
-这是你这周最该花时间的方向：把 DSH 装起来，用你 content-curator 里的一个真实子任务（比如抓取+摘要）跑一遍，和 Claude Code 对比 token 消耗与失败率。harness 层的工程经验，比再学一个模型 API 更能写进简历。
+你正在做 content-curator，模型选型会直接影响成本和效果。建议这周就把 Carbon 和 Argon 各接一次，用你自己的摘要任务跑同一批输入做 A/B——榜单第一不等于你的场景第一，这个对比数据本身就是简历素材。
 
-📺 [打开原文](http://www.bilibili.com/video/av117540671982699)
+📺 [打开原文](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1)
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 4. 开源 UEFI 工具解锁 Nvidia 消费级 GPU 的半速 AI 限制，FP16 算力最高提升 65%
+### 3. 开源 UEFI 工具 nv-uefi-unlocker 解除 Nvidia 消费卡 FP16 限速，RTX 20/30/40 系性能最高提升 65%
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Shane Downing_
 
-开源项目 nv-uefi-unlocker 通过 UEFI 层修改，解除了 Nvidia 在 Windows 下对 RTX 20/30/40 系列消费卡的 tensor rate 限制，FP16 数学性能最高提升 65%。这直接影响本地推理和小规模微调的成本结构——消费卡被软件阉割的那部分算力，现在有办法拿回来了。
+Nvidia 在消费级 GeForce 上长期把 tensor 的 FP16 速率压到数据中心卡的一半，这个限制写在 vBIOS/UEFI 层。一个开源工具直接在 UEFI 阶段把它解开，覆盖 RTX 20、30、40 系的台式与笔记本。对做本地推理的人来说，这是免费算力。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 工具名为 nv-uefi-unlocker，通过 USB 在 UEFI 层操作，覆盖 RTX 20/30/40 系列桌面与笔记本 | 65% 是特定 workload 下的峰值，实际推理吞吐提升幅度会小很多，取决于是否 compute-bound |
-| 实测 FP16 数学性能提升最高达 65% | 解锁后的稳定性、功耗与保修影响未知，Nvidia 后续驱动可能封堵 |
-| 限制是 Nvidia 在 Windows 驱动/固件层对消费卡的 tensor rate 做的半速封顶 | 是否违反许可协议存在法律灰区，个人实验与商用风险不同 |
-| 项目已开源 | 对 Mac 统一内存路线和云 GPU 定价的实际冲击，短期可忽略 |
+| 工具名为 nv-uefi-unlocker，开源，通过 UEFI 层解除 Nvidia 的 tensor rate cap | 65% 是特定 benchmark 的峰值，实际推理吞吐提升幅度需自行实测 |
+| 覆盖 RTX 20、30、40 系列桌面与笔记本型号 | 固件修改的稳定性与保修风险未评估 |
+| 官方描述 FP16 数学性能最高提升 65% | 是否会被后续驱动或 vBIOS 更新封堵，未知 |
+| 在 Windows 下生效，属于固件层修改而非驱动层 | 对 FP8/INT8 路径是否有同等影响，尚无数据 |
 
 **📖 主编点评**
 
-如果你手上有 RTX 30/40 系台式机，这是低成本提升本地推理吞吐的选项，但先在一台不重要的机器上验证稳定性。更重要的判断是：消费卡算力被软件分层这件事，说明本地推理的成本曲线还有下降空间，值得你在做 Agent 时保留本地 fallback 的设计。
+如果你手上有 30/40 系卡，这是本周性价比最高的一次动手实验：拿一个本地 7B/14B 模型，改前改后各跑一次 tokens/s，把数字记下来。这类'固件层解锁'的实测记录在简历上比任何教程都有说服力，但要先备份原 vBIOS。
+
+---
+
+## 🌟 AI
+
+### 4. DeepSeek Harness 50 分钟完整教程发布，SuperAgent 工作流首次被系统性拆解
+
+**[AI]** · ⭐⭐⭐⭐ · _Git源宝_
+
+DeepSeek Harness 是 DeepSeek 自家的 Agent 执行框架，此前中文社区只有零散的接入视频。这条 11 月 1 日发布的教程用 50 分钟把 DSH 的安装、SuperAgent 配置和任务编排完整走了一遍，制作周期 60 天。对比 8 月那条'DSH vs Claude Code 实测'，这次是正向的完整教学。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 视频于 2026-11-01 发布，时长约 50 分钟，作者称制作耗时 60 天 | DSH 的插件化与缓存命中机制是否真的优于 Claude Code，需要自己跑同一任务验证 |
+| 内容覆盖 DeepSeek Harness 安装与 SuperAgent 使用 | 教程质量未经社区交叉验证，单条视频不足以定论 |
+| 此前已有实测视频对比 DSH 与 Claude Code 在同一模型下的工具链差异 | DSH 的长期维护投入是否稳定，取决于 DeepSeek 的商业化节奏 |
+| 尚硅谷同期发布了 Agent Skills 教程，覆盖 WorkBuddy、Codex、DSH 三件套 | SuperAgent 在多步任务上的失败率没有公开数据 |
+
+**📖 主编点评**
+
+你的 content-curator 如果要接国产模型，DSH 是绕不开的执行层。建议先看这条教程的前 20 分钟把环境跑通，然后用同一个摘要任务分别跑 DSH 和 Claude Code，重点记录失败重试次数和 token 消耗——这两个数字才是你项目文档里最有价值的部分。
+
+📺 [打开原文](http://www.bilibili.com/video/av117540671982699)
 
 ---
 
 ## 🌟 金融
 
-### 5. 3000 亿美元债务墙逼近 PE 控股公司，AI 基建融资与私募信贷风险开始叠加
+### 5. 3000 亿美元债务墙逼近 PE 控股公司，AI 资本开支与私募信贷风险开始交汇
 
 **[金融]** · ⭐⭐⭐⭐ · _JumpCrisscross_
 
-WSJ 报道约 3000 亿美元的债务将在未来几年集中到期，压在私募股权控股的公司身上。这条本身不是 AI 新闻，但和 AI 数据中心建设高度相关——大量算力基建正是通过私募信贷和 PE 结构融资的。当利率维持高位、AI 交易走弱，这条债务墙会成为检验「AI 基建融资是否过度」的第一个压力点。
+WSJ 报道约 3000 亿美元的 PE 背景公司债务将在未来数年到期的同时，AI 数据中心建设正大量依赖私募信贷融资。Marc Rubinstein 在 Net Interest 里连续三期写'AI Financing at the Frontier'和'CoreWeave 与数据中心经济学'，指向同一个问题：这轮 AI 基建的钱，很多不是股权，是债。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| WSJ 报道约 3000 亿美元债务墙将在未来数年集中到期，涉及 PE 控股公司 | 债务墙与 AI 基建的重叠比例没有公开精确数据，相关性判断基于融资结构推断 |
-| 同期有报道称市场抛售与利率上行正在考验 AI 数据中心交易的繁荣 | 到期不等于违约，多数会再融资，真正的风险在再融资利率 |
-| 「Buy, Borrow and Die」财富策略已成长为约 5 万亿美元规模的市场 | 私募信贷市场缺乏透明定价，风险暴露可能滞后显现 |
-| 美国联邦赤字一年内上升 12%，接近 2 万亿美元 | 这是否会传导到 AI 公司的算力采购节奏，取决于具体融资主体 |
+| WSJ 报道约 3000 亿美元 PE 控股公司债务构成'债务墙' | 债务墙的实际违约率取决于再融资窗口时的利率水平，目前无法预测 |
+| Net Interest 连续发布'Financing the AI Boom 3'与'Capital Wars'，主题为数据中心建设的融资结构 | 私募信贷对 AI 基建的敞口规模没有统一口径的公开数据 |
+| Reuters 报道市场抛售与利率上行正在考验 AI 数据中心交易热潮 | Nvidia 做 cosigner 是信用增强还是风险转移，取决于合同细节 |
+| Nvidia 被报道考虑为 Nscale 西弗吉尼亚数据中心做贷款 cosigner | 若利率继续上行，最先出问题的可能是二线数据中心运营商而非模型公司 |
 
 **📖 主编点评**
 
-这条对你的直接含义是：如果你在考虑毕业后进入 AI 基建或算力相关岗位，留意这轮再融资周期。对个人项目无直接影响，但它是理解「为什么 AI 公司开始强调单位经济性」的宏观背景——你写 content-curator 的 ROI 说明时，这个框架用得上。
+这条不是让你去炒股票，是让你理解你未来雇主的钱从哪来。AI 公司的招聘预算和算力预算同源，如果债务端收紧，最先砍的是非核心团队。看这类新闻时，把'谁在借钱、借给谁、拿什么还'三个问题问一遍，比看涨跌有用。
 
 📺 [打开原文](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497)
 
@@ -122,52 +123,56 @@ WSJ 报道约 3000 亿美元的债务将在未来几年集中到期，压在私�
 
 ## 📋 备选池
 
-### AI
+### 股票
 
-- [Everything Claude Code：116K star 的 Claude Code 配置项目实战讲解](http://www.bilibili.com/video/av116319122885806) —— 斜杠命令、子代理、Hooks、学习系统的完整拆解，和你正在做的 Agent 项目直接相关，但发布较早，放备选。
-  _极客魔导师_
-- [Claude Code 官方扩展被植入后门（派早报提及）](https://sspai.com/post/118191) —— 供应链安全事件，直接影响你日常用的工具链，但细节需等官方通报，先记一笔。
-  _少数派编辑部_
-- [Claude Code Hooks 回调 + Agent Teams 实现零轮询全自动开发](http://www.bilibili.com/video/av116046157647899) —— Stop Hook 自动回调把 token 消耗压到接近忽略，是省成本的工程技巧，但内容偏旧。
-  _AI超元域_
-- [最新 Skills 开发教程：WorkBuddy + Codex + DeepSeek Harness 实战](http://www.bilibili.com/video/av117511429295044) —— 10-28 发布，Skills 开发是当前 Agent 工程的热点，但机构课信息密度通常偏低。
-  _尚硅谷_
-- [DeepSeek V4.1 Flash 接入六大 Agent 工具实测](http://www.bilibili.com/video/av117459403150912) —— 两种配置方法、模型名怎么填、哪里避坑，实操性强，但属于配置层而非原理层。
-  _跟着小陈玩AI_
+- [US tech stocks see sharp falls over AI cost fears](https://www.bbc.co.uk/news/articles/cvwy72e0n72yo) —— BBC 报道美股科技板块因 AI 成本担忧大幅下跌，是头条 Anthropic IPO 争议的市场侧印证，单独看信息量偏薄。
+  _mindracer_
+- [Alphabet heads for a $500B drop in market value, biggest in its history](https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html) —— Alphabet 单日市值蒸发 5000 亿美元创历史纪录，与 Gemini 4 登顶形成诡异对照——模型赢了，股价输了。
+  _rawgabbit_
+- [In China, the AI bubble has burst](https://finance.yahoo.com/markets/stocks/articles/analysis-china-ai-bubble-already-120038616.html) —— 分析称中国 AI 泡沫已破裂，与美股叙事形成地域对照，但缺乏具体数据支撑，暂列备选。
+  _smurda_
 
 ### AI 算力 / 半导体
 
-- [Sam Altman 赴韩会见三星高层，为数据中心抢 RAM](https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers) —— 内存短缺已经逼到 CEO 亲自上门，是 AI 成本压力的直接证据，但事件本身信息量有限。
+- [Open-source USB tool unlocks Nvidia's half-speed GPU AI limiter（HN 讨论）](https://github.com/Zagitta/gpu-unlock) —— 与头条同一事件的 GitHub 仓库版本，351 分讨论里有实测数据，动手前值得先翻评论区。
+  _fragebogen_
+- [Sam Altman meets with Samsung leadership to secure more RAM for data centers](https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers) —— Altman 赴韩会见约 50 名三星高管抢内存，内存短缺已从供应链问题变成 CEO 级外交问题。
   _Newton Gitonga_
-- [Intel 把产能从消费级 CPU 转向服务器 CPU，应对「史无前例」的 AI 需求](https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history) —— PC 市场萎缩 + 数据中心需求暴涨的结构性转移，对理解硬件价格走势有用。
+- [Intel shifts production capacity from consumer to server CPUs in face of 'unprecedented' AI demand](https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history) —— Intel 把产能从消费级转向服务器 CPU，官方称正经历'史上最严重供应短缺之一'，PC 涨价的上游原因。
   _Anton Shilov_
-- [Google：Agentic AI 将给数据中心 CPU 带来新需求](https://www.eetimes.com/google-agentic-ai-will-drive-new-demands-on-data-center-cpus/) —— Agent 负载是突发性的，CPU 大量空闲，这个观察对你设计 Agent 调度有启发。
-  _Sally Ward-Foxton_
-- [出租闲置 Mac 跑推理的公司警告 token 价格暴跌，Anthropic token 五个月跌 77%](https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-that-lets-you-rent-out-your-idle-mac-for-ai-inference-workloads-warns-of-plummeting-token-costs-darkbloom-network-sees-earnings-drop-to-usd1-23-a-day-as-anthropic-tokens-fall-77-percent) —— token 价格 5 个月跌 77%，是判断 Agent 项目长期成本最重要的数字，但单一来源。
+- [New AI-driven Windows malware feeds stolen data to Claude to rank victims' assets by value](https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely) —— Cisco Talos 披露 VOLTA 窃密木马把赃物喂给 Claude Opus 4.6 做资产估值排序，模型被武器化的具体案例。
+  _Shane Downing_
+- [Firm that lets you rent out your idle Mac for AI inference warns of plummeting token costs](https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-that-lets-you-rent-out-your-idle-mac-for-ai-inference-workloads-warns-of-plummeting-token-costs-darkbloom-network-sees-earnings-drop-to-usd1-23-a-day-as-anthropic-tokens-fall-77-percent) —— Anthropic token 价格五个月内跌 77%，闲置 Mac 出租收益跌到每天 1.23 美元——推理成本崩塌的一线数据。
   _Jowi Morales_
 
 ### 大厂 AI 动态
 
-- [OpenAI 据报下调新一轮融资目标](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/) —— 和 Anthropic IPO 质疑同向，是 AI 融资环境转冷的第二个信号，但细节未证实。
+- [Gemini 4 Argon](https://deepmind.google/models/gemini/) —— Gemini 4 Argon 发布页，HN 1467 分是本周最高讨论量，与 Carbon 登顶构成同一条产品线，头条已合并处理。
+  _737max_
+- [Genie 4: a new generation of world simulation](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) —— Google 世界模拟模型 Genie 4，1044 分讨论，对做 Agent 环境的人来说是潜在的训练/评测沙盒。
+  _acossta_
+- [OpenAI might rebrand its data centers as 'AI compute campuses'](https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/) —— OpenAI 考虑把数据中心改名为'AI 算力园区'，公关动作，但侧面说明数据中心已成选举议题。
   _Anthony Ha_
-- [Apple CEO：公司不「为 AI 而 AI」](https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/) —— 新任 CEO 首次系统表态 AI 路线，值得看立场，但内容偏公关口径。
+- [Judge allows NAACP lawsuit over xAI data center pollution to move forward](https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/) —— NAACP 诉 xAI 数据中心违反清洁空气法获准推进，AI 基建的环境成本开始进入司法程序。
   _Anthony Ha_
-- [Apple 智能将随 iOS 27.3 登陆中国](https://sspai.com/post/118191) —— 对国内 AI 产品格局有实际影响，但早报条目信息密度低，等后续深度报道。
+- [派早报：Apple 智能将随 iOS 27.3 登陆中国](https://sspai.com/post/118191) —— 少数派早报汇总：Apple 智能入华、Claude Code 官方扩展被植入后门、FCC 禁中国实验室认证——后门那条值得单独追。
   _少数派编辑部_
-
-### 股票
-
-- [美股科技股因 AI 成本担忧大幅下跌](https://www.bbc.co.uk/news/articles/cvwy72e0n72yo) —— 和头条 1 同一条主线，BBC 版本更偏宏观，适合作为背景而非独立头条。
-  _mindracer_
-- [Alphabet 第三季度财报发布](https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf) —— 原始财报 PDF，配合 Alphabet 市值大跌看更有价值，但需要自己读数字。
-  _mfiguiere_
 
 ### 金融
 
-- [美国联邦赤字一年内上升 12%，接近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 利率与赤字是 AI 基建融资的底层约束，但离你的日常决策较远。
-  _ck2_
-- [AI 算力是新的石油，需要新的市场](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market) —— Economist 视角的算力市场化分析，框架好但发布已过一周，且可能付费墙。
-  _ijidak_
+- [The federated code forge](https://tangled.org/blog/forge/) —— Tangled 发布联邦化代码托管方案，333 分讨论，对自建 side project 基础设施的人有参考价值。
+  _zlliang_
+- [A $300B 'Debt Wall' Is Looming（HN 讨论）](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497) —— 与头条同一篇 WSJ 报道的 HN 讨论页，178 分，评论区对私募信贷敞口有补充数据。
+  _JumpCrisscross_
+
+### AI
+
+- [最新Skills开发教程，Agent skill实战｜WorkBuddy+Codex+DeepSeek Harness](http://www.bilibili.com/video/av117511429295044) —— 尚硅谷 10 月 28 日发布的 Agent Skills 实战课，覆盖三套工具链，与头条 DSH 教程互补。
+  _尚硅谷_
+- [认真用 Claude Code 的人，迟早会遇见 Everything Claude Code](http://www.bilibili.com/video/av116319122885806) —— 拆解 GitHub 116K star 的 Claude Code 配置项目，斜杠命令/子代理/Hooks 全覆盖，对你的 Agent 项目直接可用。
+  _极客魔导师_
+- [DeepSeek V4.1 Flash 接入指南｜六大 Agent 工具一次配好](http://www.bilibili.com/video/av117459403150912) —— V4.1 Flash 跑分反超旗舰，这条把六套工具的配置方法和避坑点一次讲清，工程细节密度高。
+  _跟着小陈玩AI_
 
 ---
 

@@ -1,29 +1,29 @@
 # Curio · AI · 2026-11-02
 
-> 今日 1 条头条 + 5 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天最重要的信号有两个：一是 Anthropic IPO 叙事开始被公开质疑，S-1 的高增长与算力成本同时摆上台面，配合美股科技股因 AI 成本担忧大跌、Alphabet 单日市值蒸发 5000 亿美元，AI 资本周期的情绪拐点可能已经出现；二是 DeepSeek Harness 生态在中文社区快速成型，Agent 工具链的竞争从模型转向 harness 层。工程侧值得关注的是 Claude Code 官方扩展被植入后门，以及 Nvidia 半速限制被开源工具解锁。_
+_今天最重要的信号有两个：一是 Anthropic IPO 的定价争议已经从投行圈烧到 HN 首页，'史上最荒谬 IPO'与'前所未有的收入增长'两种叙事同时成立，说明 AI 泡沫的分歧已进入公开定价阶段；二是 Gemini 4 Carbon 在 Artificial Analysis 指数上登顶，Google 一周内连发 Argon/Carbon 两个型号，模型迭代节奏重新加速。工程侧值得看的是 nv-uefi-unlocker 这类硬核解锁，以及 Claude Code 被植入后门的供应链风险。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. DeepSeek Harness 教程 24 小时内上线，中文社区开始围绕 harness 层而非模型层做工程
+### 4. DeepSeek Harness 50 分钟完整教程发布，SuperAgent 工作流首次被系统性拆解
 
 **[AI]** · ⭐⭐⭐⭐ · _Git源宝_
 
-DeepSeek Harness（DSH）发布后不到一天，B 站就出现了 50 分钟级别的详细教程，讲 SuperAgent 的配置与使用。同期还有多条内容对比 DSH 与 Claude Code 在同一模型下的任务表现，讨论焦点从「哪个模型强」转向「哪个 harness 的工具链设计更好」。这是一个值得注意的信号：Agent 工程的竞争重心正在下移到 harness。
+DeepSeek Harness 是 DeepSeek 自家的 Agent 执行框架，此前中文社区只有零散的接入视频。这条 11 月 1 日发布的教程用 50 分钟把 DSH 的安装、SuperAgent 配置和任务编排完整走了一遍，制作周期 60 天。对比 8 月那条'DSH vs Claude Code 实测'，这次是正向的完整教学。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| DeepSeek Harness 教程视频于 2026-11-01 发布，时长约 50 分钟，作者称制作耗时 60 天 | 单条对比视频的结论受任务选择和 prompt 影响大，不能直接推出 harness 优劣的普遍结论 |
-| 已有实测内容用同一 DeepSeek Pro 0813 模型在 Claude Code 与 DSH 中跑相同任务做对比 | DSH 的插件化与缓存机制是否真的优于 Claude Code，需要看源码或官方文档，目前只有二手实测 |
-| 对比维度包括插件化、流程记录、缓存命中和任务完成质量 | 中文社区教程质量参差，50 分钟视频的信息密度需要自己筛 |
-| DeepSeek V4.1 Flash 已发布，并有内容实测将其接入 DSH、WorkBuddy、Kimi Code 等六种工具 | harness 层竞争是否会成为长期趋势，还是模型厂商顺手做的附属功能，尚不明朗 |
+| 视频于 2026-11-01 发布，时长约 50 分钟，作者称制作耗时 60 天 | DSH 的插件化与缓存命中机制是否真的优于 Claude Code，需要自己跑同一任务验证 |
+| 内容覆盖 DeepSeek Harness 安装与 SuperAgent 使用 | 教程质量未经社区交叉验证，单条视频不足以定论 |
+| 此前已有实测视频对比 DSH 与 Claude Code 在同一模型下的工具链差异 | DSH 的长期维护投入是否稳定，取决于 DeepSeek 的商业化节奏 |
+| 尚硅谷同期发布了 Agent Skills 教程，覆盖 WorkBuddy、Codex、DSH 三件套 | SuperAgent 在多步任务上的失败率没有公开数据 |
 
 **📖 主编点评**
 
-这是你这周最该花时间的方向：把 DSH 装起来，用你 content-curator 里的一个真实子任务（比如抓取+摘要）跑一遍，和 Claude Code 对比 token 消耗与失败率。harness 层的工程经验，比再学一个模型 API 更能写进简历。
+你的 content-curator 如果要接国产模型，DSH 是绕不开的执行层。建议先看这条教程的前 20 分钟把环境跑通，然后用同一个摘要任务分别跑 DSH 和 Claude Code，重点记录失败重试次数和 token 消耗——这两个数字才是你项目文档里最有价值的部分。
 
 📺 [打开原文](http://www.bilibili.com/video/av117540671982699)
 
@@ -31,15 +31,11 @@ DeepSeek Harness（DSH）发布后不到一天，B 站就出现了 50 分钟级�
 
 ## 📋 备选阅读
 
-- [Everything Claude Code：116K star 的 Claude Code 配置项目实战讲解](http://www.bilibili.com/video/av116319122885806) —— 斜杠命令、子代理、Hooks、学习系统的完整拆解，和你正在做的 Agent 项目直接相关，但发布较早，放备选。
-  _极客魔导师_
-- [Claude Code 官方扩展被植入后门（派早报提及）](https://sspai.com/post/118191) —— 供应链安全事件，直接影响你日常用的工具链，但细节需等官方通报，先记一笔。
-  _少数派编辑部_
-- [Claude Code Hooks 回调 + Agent Teams 实现零轮询全自动开发](http://www.bilibili.com/video/av116046157647899) —— Stop Hook 自动回调把 token 消耗压到接近忽略，是省成本的工程技巧，但内容偏旧。
-  _AI超元域_
-- [最新 Skills 开发教程：WorkBuddy + Codex + DeepSeek Harness 实战](http://www.bilibili.com/video/av117511429295044) —— 10-28 发布，Skills 开发是当前 Agent 工程的热点，但机构课信息密度通常偏低。
+- [最新Skills开发教程，Agent skill实战｜WorkBuddy+Codex+DeepSeek Harness](http://www.bilibili.com/video/av117511429295044) —— 尚硅谷 10 月 28 日发布的 Agent Skills 实战课，覆盖三套工具链，与头条 DSH 教程互补。
   _尚硅谷_
-- [DeepSeek V4.1 Flash 接入六大 Agent 工具实测](http://www.bilibili.com/video/av117459403150912) —— 两种配置方法、模型名怎么填、哪里避坑，实操性强，但属于配置层而非原理层。
+- [认真用 Claude Code 的人，迟早会遇见 Everything Claude Code](http://www.bilibili.com/video/av116319122885806) —— 拆解 GitHub 116K star 的 Claude Code 配置项目，斜杠命令/子代理/Hooks 全覆盖，对你的 Agent 项目直接可用。
+  _极客魔导师_
+- [DeepSeek V4.1 Flash 接入指南｜六大 Agent 工具一次配好](http://www.bilibili.com/video/av117459403150912) —— V4.1 Flash 跑分反超旗舰，这条把六套工具的配置方法和避坑点一次讲清，工程细节密度高。
   _跟着小陈玩AI_
 
 ---
