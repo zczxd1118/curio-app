@@ -1,0 +1,176 @@
+# Curio 趋势雷达 · 2026-11-02
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 16 条备选
+
+_今天最重要的信号有两个：一是 Anthropic IPO 叙事开始被公开质疑，S-1 的高增长与算力成本同时摆上台面，配合美股科技股因 AI 成本担忧大跌、Alphabet 单日市值蒸发 5000 亿美元，AI 资本周期的情绪拐点可能已经出现；二是 DeepSeek Harness 生态在中文社区快速成型，Agent 工具链的竞争从模型转向 harness 层。工程侧值得关注的是 Claude Code 官方扩展被植入后门，以及 Nvidia 半速限制被开源工具解锁。_
+
+---
+
+## 🌟 股票
+
+### 1. Anthropic IPO 被研究机构称为「对投资者轻信的史无前例考验」，S-1 高增长与算力成本同时曝光
+
+**[股票]** · ⭐⭐⭐⭐⭐ · _m463_
+
+Anthropic 的 IPO 正在成为这一轮 AI 资本周期最受争议的定价事件。一边是 S-1 披露的收入高速增长，一边是研究机构 New Constructs 直接给出「2026 年最荒谬 IPO」的判断，核心质疑在于增长能否覆盖算力投入。同期美股科技股因 AI 成本担忧出现明显回调，Alphabet 一度面临史上最大单日市值缩水。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| New Constructs 发布报告，称 Anthropic 是「2026 年最荒谬的 IPO」，直指投资者轻信 | 「最荒谬 IPO」是卖方研究观点，不代表承销与机构定价共识，实际发行估值仍可能被抢购 |
+| Anthropic S-1 已公开，显示收入高速增长，同时披露了显著的算力成本与风险项 | S-1 中的增长曲线是否可持续，取决于推理成本下降速度能否快过价格战，目前没有公开数据支撑 |
+| 美股科技股近期因 AI 成本担忧出现明显下跌，AI 相关交易整体走弱 | 科技股回调是 AI 泡沫破裂的开始，还是利率与内存涨价驱动的短期调整，尚无定论 |
+| Alphabet 一度面临约 5000 亿美元市值缩水，为其历史上最大单日跌幅之一 | Anthropic 是否真的在「赶在泡沫破裂前 IPO」，目前只有媒体转述，无公司确认 |
+| 有报道称投资人已下调对 Anthropic IPO 的估值预期，理由是收入增速放缓 |  |
+
+**📖 主编点评**
+
+你不需要对 Anthropic 估值下注，但要把这条当作 AI 行业融资环境的温度计：如果头部模型公司 IPO 遇冷，接下来 6 个月中小 AI 创业公司的融资和招聘都会收紧。对你做 content-curator 这类个人项目反而是好事——工具成本在降，注意力在向真实工程价值回流。
+
+📺 [打开原文](https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 2. Google 连发 Gemini 4 Argon / Carbon / Genie 4，Carbon 登顶 Artificial Analysis 智能指数第一
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _acossta_
+
+Google DeepMind 在两周内密集发布 Gemini 4 系列：Argon 主打机器人与 StarCraft 类环境，Carbon 直接冲上 Artificial Analysis Intelligence Index v5 第一名，Genie 4 则是新一代世界模拟模型。这是 Google 在模型发布节奏上少见的高密度输出，且三条线分别对应 agent、评测榜、世界模型三个方向。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Gemini 4 Carbon 在 Artificial Analysis Intelligence Index v5 上排名第一 | Artificial Analysis 单一榜单第一不等于综合能力第一，榜单权重与任务分布未公开细节 |
+| Gemini 4 Argon 已发布，并有面向机器人方向的专门版本 | Argon / Carbon 的命名与定位差异（是否对应不同推理预算档位）官方说明仍不清晰 |
+| Genie 4 作为新一代世界模拟模型发布，HN 讨论热度超 1000 分 | 世界模型 Genie 4 的实际可用性与开放程度，目前只有 demo 级信息 |
+| Gemini 4 Argon 已被用于 StarCraft 类环境的 agent 评测（starskirmish 基准） | 这轮发布是否会改变开发者默认模型选择，要看 API 价格与延迟数据，而非跑分 |
+
+**📖 主编点评**
+
+你正在做 Agent 项目，值得花 20 分钟实测 Carbon 在你现有 prompt 上的表现，尤其是长上下文工具调用。但别急着迁移——先看 API 定价和 rate limit，Google 的模型发布常常是「榜单一周、生态三个月」。
+
+📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)
+
+---
+
+## 🌟 AI
+
+### 3. DeepSeek Harness 教程 24 小时内上线，中文社区开始围绕 harness 层而非模型层做工程
+
+**[AI]** · ⭐⭐⭐⭐ · _Git源宝_
+
+DeepSeek Harness（DSH）发布后不到一天，B 站就出现了 50 分钟级别的详细教程，讲 SuperAgent 的配置与使用。同期还有多条内容对比 DSH 与 Claude Code 在同一模型下的任务表现，讨论焦点从「哪个模型强」转向「哪个 harness 的工具链设计更好」。这是一个值得注意的信号：Agent 工程的竞争重心正在下移到 harness。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| DeepSeek Harness 教程视频于 2026-11-01 发布，时长约 50 分钟，作者称制作耗时 60 天 | 单条对比视频的结论受任务选择和 prompt 影响大，不能直接推出 harness 优劣的普遍结论 |
+| 已有实测内容用同一 DeepSeek Pro 0813 模型在 Claude Code 与 DSH 中跑相同任务做对比 | DSH 的插件化与缓存机制是否真的优于 Claude Code，需要看源码或官方文档，目前只有二手实测 |
+| 对比维度包括插件化、流程记录、缓存命中和任务完成质量 | 中文社区教程质量参差，50 分钟视频的信息密度需要自己筛 |
+| DeepSeek V4.1 Flash 已发布，并有内容实测将其接入 DSH、WorkBuddy、Kimi Code 等六种工具 | harness 层竞争是否会成为长期趋势，还是模型厂商顺手做的附属功能，尚不明朗 |
+
+**📖 主编点评**
+
+这是你这周最该花时间的方向：把 DSH 装起来，用你 content-curator 里的一个真实子任务（比如抓取+摘要）跑一遍，和 Claude Code 对比 token 消耗与失败率。harness 层的工程经验，比再学一个模型 API 更能写进简历。
+
+📺 [打开原文](http://www.bilibili.com/video/av117540671982699)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 4. 开源 UEFI 工具解锁 Nvidia 消费级 GPU 的半速 AI 限制，FP16 算力最高提升 65%
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Shane Downing_
+
+开源项目 nv-uefi-unlocker 通过 UEFI 层修改，解除了 Nvidia 在 Windows 下对 RTX 20/30/40 系列消费卡的 tensor rate 限制，FP16 数学性能最高提升 65%。这直接影响本地推理和小规模微调的成本结构——消费卡被软件阉割的那部分算力，现在有办法拿回来了。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 工具名为 nv-uefi-unlocker，通过 USB 在 UEFI 层操作，覆盖 RTX 20/30/40 系列桌面与笔记本 | 65% 是特定 workload 下的峰值，实际推理吞吐提升幅度会小很多，取决于是否 compute-bound |
+| 实测 FP16 数学性能提升最高达 65% | 解锁后的稳定性、功耗与保修影响未知，Nvidia 后续驱动可能封堵 |
+| 限制是 Nvidia 在 Windows 驱动/固件层对消费卡的 tensor rate 做的半速封顶 | 是否违反许可协议存在法律灰区，个人实验与商用风险不同 |
+| 项目已开源 | 对 Mac 统一内存路线和云 GPU 定价的实际冲击，短期可忽略 |
+
+**📖 主编点评**
+
+如果你手上有 RTX 30/40 系台式机，这是低成本提升本地推理吞吐的选项，但先在一台不重要的机器上验证稳定性。更重要的判断是：消费卡算力被软件分层这件事，说明本地推理的成本曲线还有下降空间，值得你在做 Agent 时保留本地 fallback 的设计。
+
+---
+
+## 🌟 金融
+
+### 5. 3000 亿美元债务墙逼近 PE 控股公司，AI 基建融资与私募信贷风险开始叠加
+
+**[金融]** · ⭐⭐⭐⭐ · _JumpCrisscross_
+
+WSJ 报道约 3000 亿美元的债务将在未来几年集中到期，压在私募股权控股的公司身上。这条本身不是 AI 新闻，但和 AI 数据中心建设高度相关——大量算力基建正是通过私募信贷和 PE 结构融资的。当利率维持高位、AI 交易走弱，这条债务墙会成为检验「AI 基建融资是否过度」的第一个压力点。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| WSJ 报道约 3000 亿美元债务墙将在未来数年集中到期，涉及 PE 控股公司 | 债务墙与 AI 基建的重叠比例没有公开精确数据，相关性判断基于融资结构推断 |
+| 同期有报道称市场抛售与利率上行正在考验 AI 数据中心交易的繁荣 | 到期不等于违约，多数会再融资，真正的风险在再融资利率 |
+| 「Buy, Borrow and Die」财富策略已成长为约 5 万亿美元规模的市场 | 私募信贷市场缺乏透明定价，风险暴露可能滞后显现 |
+| 美国联邦赤字一年内上升 12%，接近 2 万亿美元 | 这是否会传导到 AI 公司的算力采购节奏，取决于具体融资主体 |
+
+**📖 主编点评**
+
+这条对你的直接含义是：如果你在考虑毕业后进入 AI 基建或算力相关岗位，留意这轮再融资周期。对个人项目无直接影响，但它是理解「为什么 AI 公司开始强调单位经济性」的宏观背景——你写 content-curator 的 ROI 说明时，这个框架用得上。
+
+📺 [打开原文](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497)
+
+---
+
+## 📋 备选池
+
+### AI
+
+- [Everything Claude Code：116K star 的 Claude Code 配置项目实战讲解](http://www.bilibili.com/video/av116319122885806) —— 斜杠命令、子代理、Hooks、学习系统的完整拆解，和你正在做的 Agent 项目直接相关，但发布较早，放备选。
+  _极客魔导师_
+- [Claude Code 官方扩展被植入后门（派早报提及）](https://sspai.com/post/118191) —— 供应链安全事件，直接影响你日常用的工具链，但细节需等官方通报，先记一笔。
+  _少数派编辑部_
+- [Claude Code Hooks 回调 + Agent Teams 实现零轮询全自动开发](http://www.bilibili.com/video/av116046157647899) —— Stop Hook 自动回调把 token 消耗压到接近忽略，是省成本的工程技巧，但内容偏旧。
+  _AI超元域_
+- [最新 Skills 开发教程：WorkBuddy + Codex + DeepSeek Harness 实战](http://www.bilibili.com/video/av117511429295044) —— 10-28 发布，Skills 开发是当前 Agent 工程的热点，但机构课信息密度通常偏低。
+  _尚硅谷_
+- [DeepSeek V4.1 Flash 接入六大 Agent 工具实测](http://www.bilibili.com/video/av117459403150912) —— 两种配置方法、模型名怎么填、哪里避坑，实操性强，但属于配置层而非原理层。
+  _跟着小陈玩AI_
+
+### AI 算力 / 半导体
+
+- [Sam Altman 赴韩会见三星高层，为数据中心抢 RAM](https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers) —— 内存短缺已经逼到 CEO 亲自上门，是 AI 成本压力的直接证据，但事件本身信息量有限。
+  _Newton Gitonga_
+- [Intel 把产能从消费级 CPU 转向服务器 CPU，应对「史无前例」的 AI 需求](https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history) —— PC 市场萎缩 + 数据中心需求暴涨的结构性转移，对理解硬件价格走势有用。
+  _Anton Shilov_
+- [Google：Agentic AI 将给数据中心 CPU 带来新需求](https://www.eetimes.com/google-agentic-ai-will-drive-new-demands-on-data-center-cpus/) —— Agent 负载是突发性的，CPU 大量空闲，这个观察对你设计 Agent 调度有启发。
+  _Sally Ward-Foxton_
+- [出租闲置 Mac 跑推理的公司警告 token 价格暴跌，Anthropic token 五个月跌 77%](https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-that-lets-you-rent-out-your-idle-mac-for-ai-inference-workloads-warns-of-plummeting-token-costs-darkbloom-network-sees-earnings-drop-to-usd1-23-a-day-as-anthropic-tokens-fall-77-percent) —— token 价格 5 个月跌 77%，是判断 Agent 项目长期成本最重要的数字，但单一来源。
+  _Jowi Morales_
+
+### 大厂 AI 动态
+
+- [OpenAI 据报下调新一轮融资目标](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/) —— 和 Anthropic IPO 质疑同向，是 AI 融资环境转冷的第二个信号，但细节未证实。
+  _Anthony Ha_
+- [Apple CEO：公司不「为 AI 而 AI」](https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/) —— 新任 CEO 首次系统表态 AI 路线，值得看立场，但内容偏公关口径。
+  _Anthony Ha_
+- [Apple 智能将随 iOS 27.3 登陆中国](https://sspai.com/post/118191) —— 对国内 AI 产品格局有实际影响，但早报条目信息密度低，等后续深度报道。
+  _少数派编辑部_
+
+### 股票
+
+- [美股科技股因 AI 成本担忧大幅下跌](https://www.bbc.co.uk/news/articles/cvwy72e0n72yo) —— 和头条 1 同一条主线，BBC 版本更偏宏观，适合作为背景而非独立头条。
+  _mindracer_
+- [Alphabet 第三季度财报发布](https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf) —— 原始财报 PDF，配合 Alphabet 市值大跌看更有价值，但需要自己读数字。
+  _mfiguiere_
+
+### 金融
+
+- [美国联邦赤字一年内上升 12%，接近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 利率与赤字是 AI 基建融资的底层约束，但离你的日常决策较远。
+  _ck2_
+- [AI 算力是新的石油，需要新的市场](https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market) —— Economist 视角的算力市场化分析，框架好但发布已过一周，且可能付费墙。
+  _ijidak_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
