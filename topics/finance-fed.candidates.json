@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-01T10:18:22.398797+00:00",
+  "fetched_at": "2026-11-02T10:50:21.200600+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,15 +11,15 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 0,
+    "arXiv q-fin（量化金融论文）": 16,
     "HN · Federal Reserve": 2,
     "HN · inflation": 0,
-    "HN · Tesla": 4,
+    "HN · Tesla": 5,
     "HN · finance": 12,
     "HN · fed": 19
   },
   "subtopics": [],
-  "total": 65,
+  "total": 82,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/at-long-last/",
@@ -532,6 +532,278 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://arxiv.org/abs/2610.41624",
+      "title": "Expected shortfall estimation and capital coverage under overlapping scenarios",
+      "url": "https://arxiv.org/abs/2610.41624",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Martin Aichele, Igor Cialenco, Damian Jelito, Marcin Pitera",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2610.41624v1 Announce Type: new Abstract: Expected shortfall (ES) is routinely estimated from a short sample of profit-and-loss (P&amp;L) scenarios built from overlapping multi-day returns, while the non-parametric estimators applied to such data are designed under independent sampling. We study how this mismatch affects estimation accuracy and capital coverage, and how it interacts with serial dependence and heavy tails in the underlying P&amp;L. Working within the coherent risk estimatio...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.41740",
+      "title": "A New GAUSS Software Component for Implementing Dynamic Tests of Contagion with an Application",
+      "url": "https://arxiv.org/abs/2610.41740",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Abdulnasser Hatemi-J, Alan Mustafa",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2610.41740v1 Announce Type: new Abstract: The main goal of this article is to present a new software component created by the authors in GAUSS for implementing dynamic tests for contagion. These tests are aimed at providing the possibilities of testing for spiller-over effects between financial markets during a crisis or during a pandemic situation such as the one that we experienced recently. Unlike standard tests for contagion that have fixed dates for a potential shift, the tests implem...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.42119",
+      "title": "Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products",
+      "url": "https://arxiv.org/abs/2610.42119",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Javier Lopez-Piqueres, Atithi Acharya, Yue Sun, Niraj Kumar",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2610.42119v1 Announce Type: new Abstract: Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note's future value. In Monte Carlo, each order of differentiation multiplies the sampling noise by a factor that grows with the observation frequency, and nested simulation turns the noise of its inner paths into a bias of the quantile. We instead solve the backward pricing recursion, storing the ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.41019",
+      "title": "Neural Network Methods in the 2BSDE Formalism for Solving the High-Dimensional Black--Scholes Equation with Transaction Costs",
+      "url": "https://arxiv.org/abs/2610.41019",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Guhesh Kumaran",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2610.41019v1 Announce Type: cross Abstract: A 2BSDE system is written down for a $(D+1)$-dimensional Black--Scholes partial differential equation (PDE) with the Leland transaction cost model which incorporates the sign of the curvature. The 2BSDE system takes input from the ``speed'' (derivative of the curvature). This system is solved using a single ResNet neural network which learns both the solution to the PDE as well as the degrees of freedom in the curvature matrix. The network is use...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.41103",
+      "title": "Optimal climate policy in incomplete electricity markets",
+      "url": "https://arxiv.org/abs/2610.41103",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Emil Dimanchev, Steven A. Gabriel, Stein-Erik Fleten, Filippo Pecci, Magnus Korpas",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2610.41103v1 Announce Type: cross Abstract: Incomplete long-term contracting in electricity markets can expose investors and consumers to inefficient levels of risk. This paper investigates how incompleteness impacts the optimal choice of climate policy. We develop a game-theoretic model of optimal policy-making in anticipation of how electricity market agents react to a given policy when gas prices and demand are uncertain and contracting is incomplete. In illustrative experiments, we obs...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.41447",
+      "title": "Why delivered costs understate prices in an integrated global hydrogen market",
+      "url": "https://arxiv.org/abs/2610.41447",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Bastian Wei{\\ss}enburger, Martin Wietschel, Patrick Pl\\\"otz, Russell McKenna",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2610.41447v1 Announce Type: cross Abstract: Delivered-cost estimates are often used as proxies for hydrogen import prices. Yet they measure average supply-chain costs, whereas marginal prices measure the system value of an additional unit. Market interactions can make the two diverge, potentially biasing long-term price assumptions. We quantify this gap using an 81-region global hydrogen-market model, comparing each region's costs and prices when only its demand is active and when all regi...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.41689",
+      "title": "QBX: A Compiler for Well-Formed, Auditable Alpha Programs",
+      "url": "https://arxiv.org/abs/2610.41689",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Yichong Bai, Kaigui Bian",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2610.41689v1 Announce Type: cross Abstract: Formulaic alpha miners increasingly differ in how they generate candidates, yet each system typically couples its own representation, evaluator, and selector into a bespoke pipeline whose results are difficult to reproduce or compare. We present QBX, a compiler that defines a well-formed, auditable space of alpha programs. A finite, versioned block registry and whole-strategy port-DAG language define the candidate space; the compiler either rejec...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.41990",
+      "title": "When is the deepest drawdown also the longest?",
+      "url": "https://arxiv.org/abs/2610.41990",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Yinhao Wu",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2610.41990v1 Announce Type: cross Abstract: Does the deepest drawdown take the longest to recover? For random walks with iid increments of positive finite mean, we find that the deepest and longest episodes are eventually distinct almost surely under light-tailed losses, but coincide with probability tending to one under heavy-tailed losses. More precisely, when losses have a finite exponential moment, the deepest episode's duration, relative to the longest among $n$ episodes, converges in...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2411.01582",
+      "title": "Matching-LLM: Historically Anchored Synthetic Prediction of Public Opinion and Elections",
+      "url": "https://arxiv.org/abs/2411.01582",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Shapeng Jiang, Lijia Wei, Chen Zhang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2411.01582v4 Announce Type: replace Abstract: Large language models (LLMs) offer new opportunities for predicting public opinion and electoral behavior, but their synthetic responses may not fully reflect human attitudes and heterogeneity. This study introduces Matching-LLM, a weighted framework that combines LLM-generated responses with historical human behavioral data. Using the World Values Survey, American National Election Studies, and German election survey data, we evaluate its perf...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2505.02678",
+      "title": "A Nested Factor Model for Equity Markets: Reconciling Multifractal Stock Returns and Rough Index Volatilities",
+      "url": "https://arxiv.org/abs/2505.02678",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Othmane Zarhali, Cecilia Aubrun, Emmanuel Bacry, Jean-Philippe Bouchaud, Jean-Fran\\c{c}ois Muzy",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2505.02678v5 Announce Type: replace Abstract: The Nested factor model was introduced by Chicheportiche et al. to represent non-linear correlations between stocks. Stock returns are explained by a standard factor model, but the (log)-volatilities of factors and residuals are themselves decomposed into factor modes, with a common dominant volatility mode affecting both market and sector factors but also residuals. Here, we consider the case of a single factor where the only dominant log-vola...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2603.16886",
+      "title": "A Controlled Comparison of Deep Learning Architectures for Multi-Horizon Financial Forecasting: Evidence from 918 Experiments",
+      "url": "https://arxiv.org/abs/2603.16886",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Nabeel Ahmad Saidd",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2603.16886v2 Announce Type: replace Abstract: Reliable comparison of deep learning architectures for financial forecasting requires controlled evaluation that separates architectural effects from hyperparameter tuning, random initialization, forecast horizon, and asset characteristics. We present a five-stage benchmark using equal-budget Bayesian hyperparameter optimization, category-level configuration freezing, three-seed final training, held-out metric aggregation, and rank-based statis...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.00051",
+      "title": "Climate aware lending allocation under NGFS scenarios - A Monte Carlo approach",
+      "url": "https://arxiv.org/abs/2610.00051",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Marina Palaisti",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2610.00051v2 Announce Type: replace Abstract: This paper examines climate-sensitive credit risk and lending allocation over a five-year horizon by mapping NGFS short-term transition and physical-risk scenarios into obligor default probabilities. NGFS shocks enter mean-reverting log-production dynamics, yielding analytical terminal default probabilities. Monte Carlo simulation with covariance-based PCA estimates joint losses, while constrained nonlinear optimization accounts for exposure-de...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.00147",
+      "title": "Admissible Portfolio Optimization: Information Constraints, Conditional Efficient Frontiers and the Price of Causal Identification",
+      "url": "https://arxiv.org/abs/2610.00147",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Alejandro Rodriguez Dominguez",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2610.00147v2 Announce Type: replace Abstract: Mean--variance portfolio choice takes the conditioning information as given, so that two errors about it, using variables not available at the decision time and treating common variation as idiosyncratic, pass into the portfolio unseen. This paper turns what that practice assumes into a condition declared before estimation, certified from data and priced when it fails. The conditioning information becomes a decision variable subject to admissib...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.33400",
+      "title": "Tracking High-Frequency Trading Activity in China and Its Effects on Market Quality",
+      "url": "https://arxiv.org/abs/2610.33400",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Li Guo, Frank Weikai Li, Ding Qi, Lijian Sun",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2610.33400v2 Announce Type: replace Abstract: We develop a new order-level proxy for high-frequency trading (HFT) activity based on precise order placement and study its effects on market quality. With quotes updating multiple times per second, millisecond-level order-book access makes high-frequency traders more likely to submit active exact-match orders, defined as limit orders priced exactly at the prevailing best opposite-side quote. Using Shenzhen Stock Exchange data, we validate the ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2610.34133",
+      "title": "Smart charging without rebound peaks: Wholesale price feedback limits distribution grid peaks from price-responsive electric vehicles",
+      "url": "https://arxiv.org/abs/2610.34133",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Lion Hirth",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2610.34133v2 Announce Type: replace Abstract: Studies on price-optimized EV charging consistently find that the common price signal synchronizes charging of the entire fleet of cars in the cheapest hours and creates new \"rebound\" load peaks in low-voltage grids. Almost all of these studies treat wholesale prices as exogenous, i.e., unaffected by the shifting EV load. This paper argues that this assumption overstates the problem: charging in low-price hours raises the wholesale price in tho...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2604.17490",
+      "title": "Joint Exclusivity",
+      "url": "https://arxiv.org/abs/2604.17490",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Nawaf Mohammed",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "summary": "arXiv:2604.17490v4 Announce Type: replace-cross Abstract: We introduce \\emph{joint exclusivity} (JE), a relaxation of mutual exclusivity (ME) for non-negative random vectors that forbids only the simultaneous positivity of all $n$ components. Whereas ME requires the probabilities of positive outcomes to sum to at most one, a JE random vector with prescribed marginals $F_1,\\ldots,F_n$ exists if and only if $$ \\sum_{i=1}^n \\overline{F}_i(0)\\le n-1. $$ An inclusion--exclusion identity shows that JE...",
+      "lang": "en"
+    },
+    {
       "id": "hn:50082283",
       "title": "US Says Chinese Hackers Attacked DOJ, NASA, Federal Reserve, Senate",
       "url": "https://www.usatoday.com/story/news/politics/2026/08/26/chinese-hackers-cyberattack-us-government/91473585007/",
@@ -570,25 +842,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50141295",
-      "title": "Tesla 'Cannot Guarantee' Roadster Reservation Holders Will Ever Get a Car",
-      "url": "https://www.thedrive.com/news/tesla-cannot-guarantee-roadster-reservation-holders-will-ever-get-a-car",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50141295",
-        "name": "healsdata",
-        "hn_url": "https://news.ycombinator.com/item?id=50141295"
-      },
-      "duration_sec": null,
-      "views": 121,
-      "comments": 148,
-      "published_at": "2026-10-18T14:16:41+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en"
-    },
-    {
       "id": "hn:50239430",
       "title": "Tesla cancels Cybertruck in Australia and NZ after 7 years of deposits",
       "url": "https://electrek.co/2026/10/23/tesla-cancels-cybertruck-australia-new-zealand/",
@@ -600,7 +853,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50239430"
       },
       "duration_sec": null,
-      "views": 97,
+      "views": 98,
       "comments": 80,
       "published_at": "2026-10-26T05:13:15+00:00",
       "summary": "",
@@ -619,7 +872,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50274706"
       },
       "duration_sec": null,
-      "views": 95,
+      "views": 96,
       "comments": 111,
       "published_at": "2026-10-28T14:54:07+00:00",
       "summary": "",
@@ -641,6 +894,44 @@
       "views": 87,
       "comments": 57,
       "published_at": "2026-10-22T01:02:23+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50295332",
+      "title": "Tesla caught altering specs following rear suspension collapse reports",
+      "url": "https://carnewschina.com/2026/09/17/tesla-caught-quietly-altering-model-y-l-manual-specs-following-rear-suspension-collapse-reports/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50295332",
+        "name": "Alien1Being",
+        "hn_url": "https://news.ycombinator.com/item?id=50295332"
+      },
+      "duration_sec": null,
+      "views": 25,
+      "comments": 0,
+      "published_at": "2026-10-29T20:24:13+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50202423",
+      "title": "Elon Musk pours $366M into midterm Republican campaigns",
+      "url": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50202423",
+        "name": "Alien1Being",
+        "hn_url": "https://news.ycombinator.com/item?id=50202423"
+      },
+      "duration_sec": null,
+      "views": 23,
+      "comments": 10,
+      "published_at": "2026-10-22T23:17:23+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -923,8 +1214,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50305573"
       },
       "duration_sec": null,
-      "views": 327,
-      "comments": 96,
+      "views": 333,
+      "comments": 97,
       "published_at": "2026-10-30T15:44:29+00:00",
       "summary": "",
       "matched_keyword": "fed",
@@ -999,7 +1290,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50278678"
       },
       "duration_sec": null,
-      "views": 81,
+      "views": 82,
       "comments": 13,
       "published_at": "2026-10-28T18:30:53+00:00",
       "summary": "",
@@ -1026,25 +1317,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49938815",
-      "title": "Federal Judge Rules a Flock Search Was Unconstitutional",
-      "url": "https://www.404media.co/federal-judge-rules-a-flock-search-was-indiscriminate-mass-surveillance-and-unconstitutional/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49938815",
-        "name": "pavel_lishin",
-        "hn_url": "https://news.ycombinator.com/item?id=49938815"
-      },
-      "duration_sec": null,
-      "views": 55,
-      "comments": 7,
-      "published_at": "2026-10-02T21:28:59+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
       "id": "hn:50074739",
       "title": "Americans Trust in Federal Government Sinks to New Depths",
       "url": "https://news.gallup.com/poll/715361/trust-federal-government-sinks-new-depths.aspx",
@@ -1059,6 +1331,25 @@
       "views": 49,
       "comments": 44,
       "published_at": "2026-10-13T16:48:18+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50328462",
+      "title": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50328462",
+        "name": "frank_clover",
+        "hn_url": "https://news.ycombinator.com/item?id=50328462"
+      },
+      "duration_sec": null,
+      "views": 36,
+      "comments": 49,
+      "published_at": "2026-11-01T18:51:29+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"

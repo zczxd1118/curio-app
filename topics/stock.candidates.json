@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-01T10:18:14.961976+00:00",
+  "fetched_at": "2026-11-02T10:50:13.522976+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 12,
-    "HN · IPO": 13,
+    "HN · stock market": 13,
+    "HN · IPO": 17,
     "HN · earnings": 2,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 47,
+  "total": 51,
   "items": [
     {
       "id": "hn:50306008",
@@ -32,8 +32,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50306008"
       },
       "duration_sec": null,
-      "views": 267,
-      "comments": 296,
+      "views": 269,
+      "comments": 302,
       "published_at": "2026-10-30T16:13:02+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -90,7 +90,7 @@
       },
       "duration_sec": null,
       "views": 53,
-      "comments": 79,
+      "comments": 78,
       "published_at": "2026-10-31T12:32:10+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -173,6 +173,44 @@
       "lang": "en"
     },
     {
+      "id": "hn:50325107",
+      "title": "The question we should all be asking about AI",
+      "url": "https://www.cnn.com/2026/10/30/business/ai-stocks-bonds-debt",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50325107",
+        "name": "heresie-dabord",
+        "hn_url": "https://news.ycombinator.com/item?id=50325107"
+      },
+      "duration_sec": null,
+      "views": 23,
+      "comments": 22,
+      "published_at": "2026-11-01T12:44:36+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50323575",
+      "title": "We're Living in the Age of the Imperial CEO",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-dual-class-stock-founder-control-4c43a56d",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50323575",
+        "name": "pretext",
+        "hn_url": "https://news.ycombinator.com/item?id=50323575"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 0,
+      "published_at": "2026-11-01T08:09:48+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:50265525",
       "title": "In China, the AI bubble has burst",
       "url": "https://finance.yahoo.com/markets/stocks/articles/analysis-china-ai-bubble-already-120038616.html",
@@ -230,25 +268,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50310016",
-      "title": "Tech Selloff Pushes Nasdaq to Its Worst Month in over a Year",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-30-2026",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50310016",
-        "name": "doener",
-        "hn_url": "https://news.ycombinator.com/item?id=50310016"
-      },
-      "duration_sec": null,
-      "views": 10,
-      "comments": 0,
-      "published_at": "2026-10-30T20:53:49+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
       "id": "hn:50307219",
       "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
       "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
@@ -260,8 +279,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50307219"
       },
       "duration_sec": null,
-      "views": 323,
-      "comments": 289,
+      "views": 325,
+      "comments": 293,
       "published_at": "2026-10-30T17:27:25+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -298,7 +317,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50151376"
       },
       "duration_sec": null,
-      "views": 153,
+      "views": 154,
       "comments": 147,
       "published_at": "2026-10-19T12:06:03+00:00",
       "summary": "",
@@ -317,8 +336,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50311311"
       },
       "duration_sec": null,
-      "views": 100,
-      "comments": 76,
+      "views": 102,
+      "comments": 78,
       "published_at": "2026-10-30T23:08:12+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -439,6 +458,44 @@
       "lang": "en"
     },
     {
+      "id": "hn:50314793",
+      "title": "'Big Short' Trader Steve Eisman on Anthropic IPO",
+      "url": "https://www.youtube.com/watch?v=AMoKKtNFkDs",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50314793",
+        "name": "musha68k",
+        "hn_url": "https://news.ycombinator.com/item?id=50314793"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 6,
+      "published_at": "2026-10-31T10:48:21+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:49977893",
+      "title": "Show HN: A replacement motherboard for the iPod mini, 3G and 4G",
+      "url": "https://certainthings.studio/sprout/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "49977893",
+        "name": "seanpod",
+        "hn_url": "https://news.ycombinator.com/item?id=49977893"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 1,
+      "published_at": "2026-10-06T13:10:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50171533",
       "title": "Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs",
       "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
@@ -477,6 +534,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50326281",
+      "title": "Ant: Can unprecedented revenue growth outrun irresponsibly large investment",
+      "url": "https://leonlins.com/writing/anthropic_ipo",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50326281",
+        "name": "avoidboringppl",
+        "hn_url": "https://news.ycombinator.com/item?id=50326281"
+      },
+      "duration_sec": null,
+      "views": 13,
+      "comments": 2,
+      "published_at": "2026-11-01T14:56:13+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50280197",
       "title": "Alphabet Announces Third Quarter 2026 Results [pdf]",
       "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
@@ -488,7 +564,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50280197"
       },
       "duration_sec": null,
-      "views": 80,
+      "views": 81,
       "comments": 57,
       "published_at": "2026-10-28T20:11:55+00:00",
       "summary": "",
