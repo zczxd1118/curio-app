@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-02T10:50:13.522976+00:00",
+  "fetched_at": "2026-11-03T10:41:26.308106+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 13,
-    "HN · IPO": 17,
+    "HN · stock market": 15,
+    "HN · IPO": 16,
     "HN · earnings": 2,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 51,
+  "total": 52,
   "items": [
     {
       "id": "hn:50306008",
@@ -32,28 +32,47 @@
         "hn_url": "https://news.ycombinator.com/item?id=50306008"
       },
       "duration_sec": null,
-      "views": 269,
-      "comments": 302,
+      "views": 270,
+      "comments": 303,
       "published_at": "2026-10-30T16:13:02+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
     },
     {
-      "id": "hn:50162431",
-      "title": "The Secret Life of Circuits is now in stock everywhere",
-      "url": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-now",
+      "id": "hn:50346153",
+      "title": "Intel stock collapse worsens as $3.5T chip rout spreads",
+      "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50162431",
-        "name": "surprisetalk",
-        "hn_url": "https://news.ycombinator.com/item?id=50162431"
+        "id": "50346153",
+        "name": "entryleveljobsc",
+        "hn_url": "https://news.ycombinator.com/item?id=50346153"
       },
       "duration_sec": null,
-      "views": 102,
-      "comments": 23,
-      "published_at": "2026-10-20T07:15:12+00:00",
+      "views": 210,
+      "comments": 174,
+      "published_at": "2026-11-03T00:08:53+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50342284",
+      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50342284",
+        "name": "smartmic",
+        "hn_url": "https://news.ycombinator.com/item?id=50342284"
+      },
+      "duration_sec": null,
+      "views": 189,
+      "comments": 168,
+      "published_at": "2026-11-02T19:27:37+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -249,6 +268,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50348591",
+      "title": "How AI is creating a lopsided US economy",
+      "url": "https://www.abc.net.au/news/2026-10-19/ai-stock-market-concentration-data/107261078",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50348591",
+        "name": "gmays",
+        "hn_url": "https://news.ycombinator.com/item?id=50348591"
+      },
+      "duration_sec": null,
+      "views": 13,
+      "comments": 0,
+      "published_at": "2026-11-03T05:58:27+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:50254255",
       "title": "Pentagon orders bases to plan for 90 days without the grid",
       "url": "https://fortune.com/2026/10/26/pentagon-fortress-bases-90-days-off-grid-uk-be-ready-stockpile/",
@@ -268,6 +306,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50344919",
+      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50344919",
+        "name": "cdrnsf",
+        "hn_url": "https://news.ycombinator.com/item?id=50344919"
+      },
+      "duration_sec": null,
+      "views": 359,
+      "comments": 265,
+      "published_at": "2026-11-02T22:30:47+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50307219",
       "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
       "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
@@ -279,8 +336,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50307219"
       },
       "duration_sec": null,
-      "views": 325,
-      "comments": 293,
+      "views": 326,
+      "comments": 295,
       "published_at": "2026-10-30T17:27:25+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -336,9 +393,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50311311"
       },
       "duration_sec": null,
-      "views": 102,
-      "comments": 78,
+      "views": 104,
+      "comments": 79,
       "published_at": "2026-10-30T23:08:12+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50342424",
+      "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
+      "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50342424",
+        "name": "zomtorg",
+        "hn_url": "https://news.ycombinator.com/item?id=50342424"
+      },
+      "duration_sec": null,
+      "views": 72,
+      "comments": 44,
+      "published_at": "2026-11-02T19:36:37+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -420,77 +496,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50046896",
-      "title": "Nvidia-backed data centre firm Firmus scraps IPO as AI valuation concerns deepen",
-      "url": "https://www.bbc.com/news/articles/ck9dzpw4ll8po",
+      "id": "hn:50337454",
+      "title": "Jobless tech workers are being left out of San Francisco's AI boom",
+      "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50046896",
-        "name": "devonnull",
-        "hn_url": "https://news.ycombinator.com/item?id=50046896"
+        "id": "50337454",
+        "name": "mancerayder",
+        "hn_url": "https://news.ycombinator.com/item?id=50337454"
       },
       "duration_sec": null,
-      "views": 12,
-      "comments": 1,
-      "published_at": "2026-10-11T19:26:05+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50159963",
-      "title": "Investors temper Anthropic IPO valuation expectations over growth slowdown",
-      "url": "https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50159963",
-        "name": "xqcgrek2",
-        "hn_url": "https://news.ycombinator.com/item?id=50159963"
-      },
-      "duration_sec": null,
-      "views": 12,
-      "comments": 0,
-      "published_at": "2026-10-20T00:49:40+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50314793",
-      "title": "'Big Short' Trader Steve Eisman on Anthropic IPO",
-      "url": "https://www.youtube.com/watch?v=AMoKKtNFkDs",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50314793",
-        "name": "musha68k",
-        "hn_url": "https://news.ycombinator.com/item?id=50314793"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 6,
-      "published_at": "2026-10-31T10:48:21+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:49977893",
-      "title": "Show HN: A replacement motherboard for the iPod mini, 3G and 4G",
-      "url": "https://certainthings.studio/sprout/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49977893",
-        "name": "seanpod",
-        "hn_url": "https://news.ycombinator.com/item?id=49977893"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 1,
-      "published_at": "2026-10-06T13:10:05+00:00",
+      "views": 175,
+      "comments": 247,
+      "published_at": "2026-11-02T14:40:05+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -545,8 +564,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50326281"
       },
       "duration_sec": null,
-      "views": 13,
-      "comments": 2,
+      "views": 16,
+      "comments": 3,
       "published_at": "2026-11-01T14:56:13+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -564,7 +583,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50280197"
       },
       "duration_sec": null,
-      "views": 81,
+      "views": 82,
       "comments": 57,
       "published_at": "2026-10-28T20:11:55+00:00",
       "summary": "",
