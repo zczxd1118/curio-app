@@ -1,37 +1,30 @@
 # Curio · AI · 2026-11-04
 
-> 今日 1 条头条 + 1 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天最重要的信号是 AI 资本叙事开始松动：Intel 领跌的 3.5 万亿美元芯片抛售、美国对冲基金清空 2025 年以来买入的全部 AI 股票、德州州长选举结果推高数据中心政策风险，三条同时指向同一个方向。另一条线是 Gemini 4 Carbon 登顶 Artificial Analysis 智能指数，模型竞赛仍在加速，但市场已经不再无条件买单。_
+_今天最值得看的两条信号：一是 Gemini 4 Carbon 在 Artificial Analysis 智能指数上登顶、同时 Anthropic 的 IPO 文件把"算力经济学"和"可能接近递归自我改进"写进风险披露，前沿模型竞赛已经进入"能力+资本"双线叙事；二是芯片股集体大跌、Intel 单日崩盘叠加 Oracle 发 200 亿美元债融资 AI 基建，市场开始给 AI 资本开支重新定价。工程侧则有一条极硬的料：有人把 32 位 RISC-V CPU 编译进 Qwen 3.5 4B 的权重里并跑起 DOOM。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. DeepSeek Harness 50 分钟完整教程发布，国产 Agent 工具链开始形成自己的生态
+### 1. DeepSeek Harness 实测：同一模型在 Claude Code 与 DSH 里差距比想象大
 
-**[AI]** · ⭐⭐⭐ · _Git源宝_
+**[AI]** · ⭐⭐⭐ · _程序员晓刘_
 
-DeepSeek Harness 是近期国产 Agent 工具链里讨论度最高的一个，这条 50 分钟教程覆盖从安装到实际让 SuperAgent 干活的完整流程，制作周期 60 天。同期还有实测视频把它和 Claude Code 放在同一任务上对比，结论是工具链对最终效果的影响比想象中大。
+少见的 harness 层对比实测，用同一 DeepSeek Pro 模型跑相同任务，讲清了工具链对最终效果的影响——但视频形态密度不如文字，放备选。
 
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| DeepSeek Harness 完整教程视频发布，时长约 50 分钟，制作耗时 60 天 | "差距比我想的大"这类结论来自单个 up 主的有限任务集，样本量不足 |
-| 有实测视频用同一 DeepSeek Pro 0813 模型在 Claude Code 与 DeepSeek Harness 中跑相同任务做对比 | Harness 的插件生态成熟度与 Claude Code 相比仍有明显差距 |
-| 实测结论指出 Harness 在插件化、流程记录、缓存命中上有明显差异 | 国产工具链的长期维护承诺无法从教程视频判断 |
-| 尚硅谷同期发布了 Skills 开发教程，覆盖 WorkBuddy、Codex、DeepSeek Harness | 缓存命中率等指标的具体测量方法视频中未完整披露 |
-
-**📖 主编点评**
-
-这条对你的 content-curator 项目有直接价值：Harness 层的设计（循环、工具、缓存）比模型选择更影响 Agent 的实际表现。你可以把这条视频当参考，重点看它怎么处理上下文和工具调用的记录，然后对照你自己项目里的 Agent loop 做一次复盘。但别照抄，先想清楚你的场景需不需要那么重的插件化。
-
-📺 [打开原文](http://www.bilibili.com/video/av117540671982699)
+📺 [打开原文](http://www.bilibili.com/video/av117100337236191)
 
 ---
 
 ## 📋 备选阅读
 
-- [Claude Code Agent Teams 上手指南 + 项目实测](http://www.bilibili.com/video/av116037064331269) —— 讲清了 Team Lead 拆任务、多 Teammate 并行的架构，对你的多 Agent 项目设计有直接参考价值。
+- [最新 Skills 开发教程：Agent Skill 实战（WorkBuddy + Codex + DeepSeek Harness）](http://www.bilibili.com/video/av117511429295044) —— 10 月底发布，正好卡在 Skills 生态起量的窗口，尚硅谷的课工程细节通常够，但 60 分钟视频需要挑着看。
+  _尚硅谷_
+- [从零实现 Claude Code（第一话）——Agent Loop](http://www.bilibili.com/video/av116273857961234) —— "一个工具 + 一个循环 = 一个智能体"，讲 harness 层原理的少见内容，契合你要"为什么"的偏好，但系列才第一话。
+  _日新月异max_
+- [Claude Code Agent Teams 上手指南 + 项目实测](http://www.bilibili.com/video/av116037064331269) —— Agent Teams 的架构与实战讲得比较完整，但发布已 9 个月，新颖度打折。
   _程序员阿江-Relakkes_
 
 ---
