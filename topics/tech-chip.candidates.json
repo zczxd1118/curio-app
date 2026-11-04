@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-03T10:41:39.071728+00:00",
+  "fetched_at": "2026-11-04T10:44:14.050969+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 0,
-    "HN · Nvidia": 6,
+    "HN · Nvidia": 7,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 28,
+  "total": 29,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,125 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/quantum-roadmaps-are-finally-meeting-reality/",
+      "title": "Quantum Roadmaps Are Finally Meeting Reality",
+      "url": "https://www.eetimes.com/quantum-roadmaps-are-finally-meeting-reality/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Marie Lepske",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-04T09:11:15+00:00",
+      "summary": "Quantum computing revenue surpassed $1 billion in 2025, but missed forecasts highlight the gap between commercial expectations and delivery. The post Quantum Roadmaps Are Finally Meeting Reality appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/is-there-room-for-small-scale-osats-in-india-chip-packaging-boom/",
+      "title": "Is There Room for Small-Scale OSATs in India’s Chip Packaging Boom?",
+      "url": "https://www.eetimes.com/is-there-room-for-small-scale-osats-in-india-chip-packaging-boom/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-03T23:30:00+00:00",
+      "summary": "Small OSATs in India can start with ₹1.5–₹2 billion (~$15.8–$21 million), consultant Nitin Dodia said. But anchor customers, skilled staff, and qualification determine who survives. The post Is There Room for Small-Scale OSATs in India’s Chip Packaging Boom? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/u-s-manufacturing-activity-gains-momentum-in-october/",
+      "title": "U.S. Manufacturing Activity Gains Momentum in October",
+      "url": "https://www.eetimes.com/u-s-manufacturing-activity-gains-momentum-in-october/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "News Desk",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-03T19:08:38+00:00",
+      "summary": "Economic activity in the U.S. manufacturing sector expanded in October driven by accelerating production and steady gains in new orders. The post U.S. Manufacturing Activity Gains Momentum in October appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/accepting-orders-for-the-led-light-sourced-projection-aligners/",
+      "title": "Accepting Orders for the LED Light-Sourced Projection Aligners",
+      "url": "https://www.eetimes.com/accepting-orders-for-the-led-light-sourced-projection-aligners/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "USHIO INC.",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-03T15:54:08+00:00",
+      "summary": "Ushio has been accepting orders for LED-based UX-4 wafer aligners since July 2026, offering mercury-free, high-throughput lithography. The post Accepting Orders for the LED Light-Sourced Projection Aligners appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/bringing-design-data-management-into-the-developer-workflow/",
+      "title": "Bringing Design Data Management into the Developer Workflow",
+      "url": "https://www.eetimes.com/bringing-design-data-management-into-the-developer-workflow/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Keysight Technologies",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-03T15:00:00+00:00",
+      "summary": "As digital design workflows increasingly center on modern, text-based development environments, engineers expect the same efficiency from design data management as they do from coding tools. Visual Studio Code (VS Code) has become a preferred platform for developing RTL, HDL, scripts, and verification assets, offering a flexible and extensible workspace that streamlines day-to-day engineering tasks. [&#8230;] The post Bringing Design Data Management into the Developer Workflow appeared first on ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ai-hardwares-hidden-cost-between-orders-and-output/",
+      "title": "AI Hardware’s Hidden Cost: Between Orders and Output",
+      "url": "https://www.eetimes.com/ai-hardwares-hidden-cost-between-orders-and-output/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Ron Honig",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-03T14:08:41+00:00",
+      "summary": "Alphabet’s TPU inventory, Intel’s manufacturing tradeoffs, and equipment suppliers’ balance sheets show how capital builds up along the path to usable AI computing capacity. The post AI Hardware’s Hidden Cost: Between Orders and Output appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/five-things-you-didnt-know-about-co-packaged-optics/",
+      "title": "Five Things You Didn’t Know About Co-Packaged Optics",
+      "url": "https://www.eetimes.com/five-things-you-didnt-know-about-co-packaged-optics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Chee Ping Lee, managing director of Advanced Packaging Strategic Marketing at Lam Research",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-03T14:00:00+00:00",
+      "summary": "CPO may be a photonics breakthrough, but commercial success hinges equally on advanced packaging that integrates, connects and protects components at scale. The post Five Things You Didn’t Know About Co-Packaged Optics appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/marvell-snaps-photonics-chipmaker-lumentum-to-bolster-ai-connectivity/",
       "title": "Marvell Snaps Photonics Chipmaker Lumentum to Bolster AI Connectivity",
       "url": "https://www.eetimes.com/marvell-snaps-photonics-chipmaker-lumentum-to-bolster-ai-connectivity/",
@@ -240,125 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/canadas-quantum-sector-sets-sights-on-commercialization/",
-      "title": "Canada’s Quantum Sector Sets Sights on Commercialization",
-      "url": "https://www.eetimes.com/canadas-quantum-sector-sets-sights-on-commercialization/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-02T18:58:45+00:00",
-      "summary": "Defense procurement, patient capital, and shared infrastructure will help Canadian quantum firms scale at home. The post Canada’s Quantum Sector Sets Sights on Commercialization appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ai-to-the-edge-generative-intelligence-for-robotics-and-autonomous-systems/",
-      "title": "AI to the Edge: Generative Intelligence for Robotics and Autonomous Systems",
-      "url": "https://www.eetimes.com/ai-to-the-edge-generative-intelligence-for-robotics-and-autonomous-systems/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "MediaTek",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-02T18:29:50+00:00",
-      "summary": "Designed for embedded engineers, robotics developers, AI practitioners, and technical leaders, this webinar explores how generative intelligence is helping shape the future of physical AI. The post AI to the Edge: Generative Intelligence for Robotics and Autonomous Systems appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/sir-arthur-c-clarke-deserves-a-nobel-prize/",
-      "title": "Sir Arthur C. Clarke Deserves a Nobel Prize",
-      "url": "https://www.eetimes.com/sir-arthur-c-clarke-deserves-a-nobel-prize/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Silicon Catalyst LLC",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-02T14:57:43+00:00",
-      "summary": "Ever since the Silicon Catalyst 2023 Semiconductor Industry Forum (“Welcome to our AI Wonderland”), I’ve been convinced that the Nobel Prize committee needs to consider a posthumous award for Sir Arthur. As a reminder, Sir Arthur’s movie “2001: A Space Odyssey” was released in 1968. At that time, the smallest commercially available transistor geometry was [&#8230;] The post Sir Arthur C. Clarke Deserves a Nobel Prize appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/biwin-to-show-storage-solutions-for-ai-and-the-edge-at-electronica-2026/",
-      "title": "BIWIN to Show Storage Solutions for AI and the Edge at electronica 2026",
-      "url": "https://www.eetimes.com/biwin-to-show-storage-solutions-for-ai-and-the-edge-at-electronica-2026/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "BIWIN STORAGE TECHNOLOGY CO., LTD.",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-02T14:00:00+00:00",
-      "summary": "Gear up for the AI era. From 122.88 TB enterprise SSDs to integrated embedded memory and Mini SSDs, BIWIN will showcase storage solutions built specifically for a new generation of electronic systems.&#160; BIWIN, a leading provider of memory and storage solutions, will exhibit at electronica 2026, November 10-13 at Trade Fair Center Messe München in [&#8230;] The post BIWIN to Show Storage Solutions for AI and the Edge at electronica 2026 appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/the-power-of-dual-phase-drmos-technology-in-ai-systems/",
-      "title": "The Power of Dual-Phase DrMOS Technology in AI Systems",
-      "url": "https://www.eetimes.com/the-power-of-dual-phase-drmos-technology-in-ai-systems/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Monolithic Power Systems, Inc. (MPS)",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-02T14:00:00+00:00",
-      "summary": "Learn how MPS dual-phase DrMOS solution address power density, efficiency, and thermal management challenges in compact AI power systems. The post The Power of Dual-Phase DrMOS Technology in AI Systems appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/andes-waits-for-market-momentum-for-cuzco-cpu/",
-      "title": "Andes Waits For Market Momentum For Cuzco CPU",
-      "url": "https://www.eetimes.com/andes-waits-for-market-momentum-for-cuzco-cpu/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-02T12:00:00+00:00",
-      "summary": "Andes CTO Charlie Su said the company put its high-end RISC-V CPU on the back burner for commercial reasons. The post Andes Waits For Market Momentum For Cuzco CPU appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/jevon-paradox-and-the-silicon-roadmap/",
-      "title": "Jevons’ Paradox and the Silicon Roadmap",
-      "url": "https://www.eetimes.com/jevon-paradox-and-the-silicon-roadmap/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Moshe Zalcberg",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-02T08:58:48+00:00",
-      "summary": "Jevons’ paradox may fuel AI demand, but the silicon roadmap could determine which chips retain their value and which become stranded assets. The post Jevons’ Paradox and the Silicon Roadmap appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50293047",
       "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
       "url": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/",
@@ -370,7 +370,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50293047"
       },
       "duration_sec": null,
-      "views": 359,
+      "views": 360,
       "comments": 248,
       "published_at": "2026-10-29T17:43:48+00:00",
       "summary": "",
@@ -389,9 +389,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50219700"
       },
       "duration_sec": null,
-      "views": 351,
+      "views": 352,
       "comments": 83,
       "published_at": "2026-10-24T09:58:27+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50348962",
+      "title": "Nvidia – open-source auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50348962",
+        "name": "campervans",
+        "hn_url": "https://news.ycombinator.com/item?id=50348962"
+      },
+      "duration_sec": null,
+      "views": 281,
+      "comments": 134,
+      "published_at": "2026-11-03T07:04:50+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -435,20 +454,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50348962",
-      "title": "Nvidia – open-source auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
+      "id": "hn:50362905",
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50348962",
-        "name": "campervans",
-        "hn_url": "https://news.ycombinator.com/item?id=50348962"
+        "id": "50362905",
+        "name": "novaRom",
+        "hn_url": "https://news.ycombinator.com/item?id=50362905"
       },
       "duration_sec": null,
-      "views": 71,
-      "comments": 16,
-      "published_at": "2026-11-03T07:04:50+00:00",
+      "views": 56,
+      "comments": 29,
+      "published_at": "2026-11-04T08:46:29+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -503,7 +522,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50327058"
       },
       "duration_sec": null,
-      "views": 191,
+      "views": 193,
       "comments": 76,
       "published_at": "2026-11-01T16:23:26+00:00",
       "summary": "",

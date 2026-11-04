@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-03T10:41:26.308106+00:00",
+  "fetched_at": "2026-11-04T10:44:02.258221+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 15,
-    "HN · IPO": 16,
+    "HN · stock market": 11,
+    "HN · IPO": 18,
     "HN · earnings": 2,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 52,
+  "total": 51,
   "items": [
     {
       "id": "hn:50306008",
@@ -33,7 +33,7 @@
       },
       "duration_sec": null,
       "views": 270,
-      "comments": 303,
+      "comments": 304,
       "published_at": "2026-10-30T16:13:02+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -51,8 +51,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50346153"
       },
       "duration_sec": null,
-      "views": 210,
-      "comments": 174,
+      "views": 232,
+      "comments": 221,
       "published_at": "2026-11-03T00:08:53+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -70,8 +70,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50342284"
       },
       "duration_sec": null,
-      "views": 189,
-      "comments": 168,
+      "views": 197,
+      "comments": 173,
       "published_at": "2026-11-02T19:27:37+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -108,7 +108,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50315574"
       },
       "duration_sec": null,
-      "views": 53,
+      "views": 54,
       "comments": 78,
       "published_at": "2026-10-31T12:32:10+00:00",
       "summary": "",
@@ -116,58 +116,39 @@
       "lang": "en"
     },
     {
-      "id": "hn:50167295",
-      "title": "Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment",
-      "url": "https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html",
+      "id": "hn:50352405",
+      "title": "US Hedge Funds Just Sold Every AI Stock They Bought Since 2025",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-hedge-funds-just-sold-113114644.html",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50167295",
-        "name": "PLenz",
-        "hn_url": "https://news.ycombinator.com/item?id=50167295"
+        "id": "50352405",
+        "name": "robin_reala",
+        "hn_url": "https://news.ycombinator.com/item?id=50352405"
       },
       "duration_sec": null,
-      "views": 32,
-      "comments": 2,
-      "published_at": "2026-10-20T14:50:08+00:00",
+      "views": 37,
+      "comments": 1,
+      "published_at": "2026-11-03T14:27:03+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
     },
     {
-      "id": "hn:50193524",
-      "title": "Chinese stocks turn biggest losers as global AI trade stumbles",
-      "url": "https://theedgemalaysia.com/node/822195",
+      "id": "hn:50362274",
+      "title": "AI stocks slide as Texas governor result raises data center risks",
+      "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50193524",
-        "name": "miohtama",
-        "hn_url": "https://news.ycombinator.com/item?id=50193524"
+        "id": "50362274",
+        "name": "1659447091",
+        "hn_url": "https://news.ycombinator.com/item?id=50362274"
       },
       "duration_sec": null,
-      "views": 14,
-      "comments": 10,
-      "published_at": "2026-10-22T10:32:13+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50297025",
-      "title": "Intel stock plunges after posting disappointing Q4 outlook",
-      "url": "https://finance.yahoo.com/video/intel-stock-plunges-after-posting-disappointing-q4-outlook-200731652.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50297025",
-        "name": "baal80spam",
-        "hn_url": "https://news.ycombinator.com/item?id=50297025"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 2,
-      "published_at": "2026-10-29T22:21:29+00:00",
+      "views": 35,
+      "comments": 29,
+      "published_at": "2026-11-04T07:00:20+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -187,6 +168,25 @@
       "views": 176,
       "comments": 47,
       "published_at": "2026-10-25T21:07:38+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50348591",
+      "title": "How AI is creating a lopsided US economy",
+      "url": "https://www.abc.net.au/news/2026-10-19/ai-stock-market-concentration-data/107261078",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50348591",
+        "name": "gmays",
+        "hn_url": "https://news.ycombinator.com/item?id=50348591"
+      },
+      "duration_sec": null,
+      "views": 24,
+      "comments": 0,
+      "published_at": "2026-11-03T05:58:27+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -230,82 +230,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50265525",
-      "title": "In China, the AI bubble has burst",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analysis-china-ai-bubble-already-120038616.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50265525",
-        "name": "smurda",
-        "hn_url": "https://news.ycombinator.com/item?id=50265525"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 3,
-      "published_at": "2026-10-27T20:44:20+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50210325",
-      "title": "Built a site that teaches investing using the live market as the examples",
-      "url": "https://www.stocksightfinance.com",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50210325",
-        "name": "kshitik",
-        "hn_url": "https://news.ycombinator.com/item?id=50210325"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 2,
-      "published_at": "2026-10-23T15:07:06+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50348591",
-      "title": "How AI is creating a lopsided US economy",
-      "url": "https://www.abc.net.au/news/2026-10-19/ai-stock-market-concentration-data/107261078",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50348591",
-        "name": "gmays",
-        "hn_url": "https://news.ycombinator.com/item?id=50348591"
-      },
-      "duration_sec": null,
-      "views": 13,
-      "comments": 0,
-      "published_at": "2026-11-03T05:58:27+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50254255",
-      "title": "Pentagon orders bases to plan for 90 days without the grid",
-      "url": "https://fortune.com/2026/10/26/pentagon-fortress-bases-90-days-off-grid-uk-be-ready-stockpile/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50254255",
-        "name": "russfink",
-        "hn_url": "https://news.ycombinator.com/item?id=50254255"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 5,
-      "published_at": "2026-10-27T03:02:29+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
       "id": "hn:50344919",
       "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
       "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
@@ -317,8 +241,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50344919"
       },
       "duration_sec": null,
-      "views": 359,
-      "comments": 265,
+      "views": 399,
+      "comments": 317,
       "published_at": "2026-11-02T22:30:47+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -337,7 +261,7 @@
       },
       "duration_sec": null,
       "views": 326,
-      "comments": 295,
+      "comments": 296,
       "published_at": "2026-10-30T17:27:25+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -401,6 +325,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50350560",
+      "title": "Anthropic IPO filing: $1.7B quarterly payroll, about $107K per employee monthly",
+      "url": "https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50350560",
+        "name": "entryleveljobsc",
+        "hn_url": "https://news.ycombinator.com/item?id=50350560"
+      },
+      "duration_sec": null,
+      "views": 83,
+      "comments": 101,
+      "published_at": "2026-11-03T11:16:07+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50342424",
       "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
       "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
@@ -412,7 +355,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50342424"
       },
       "duration_sec": null,
-      "views": 72,
+      "views": 74,
       "comments": 44,
       "published_at": "2026-11-02T19:36:37+00:00",
       "summary": "",
@@ -434,6 +377,44 @@
       "views": 55,
       "comments": 16,
       "published_at": "2026-10-10T04:04:17+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50167295",
+      "title": "Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment",
+      "url": "https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50167295",
+        "name": "PLenz",
+        "hn_url": "https://news.ycombinator.com/item?id=50167295"
+      },
+      "duration_sec": null,
+      "views": 32,
+      "comments": 2,
+      "published_at": "2026-10-20T14:50:08+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50351712",
+      "title": "Anthropic's IPO Filing Warns It May Be 'Imminently' Close to RSI",
+      "url": "https://epyhia.com/anthropic-s-ipo-filing-warns-it-may-be-imminently-close-to-recursive",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50351712",
+        "name": "arbuge",
+        "hn_url": "https://news.ycombinator.com/item?id=50351712"
+      },
+      "duration_sec": null,
+      "views": 30,
+      "comments": 78,
+      "published_at": "2026-11-03T13:26:43+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -507,8 +488,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50337454"
       },
       "duration_sec": null,
-      "views": 175,
-      "comments": 247,
+      "views": 188,
+      "comments": 256,
       "published_at": "2026-11-02T14:40:05+00:00",
       "summary": "",
       "matched_keyword": "IPO",

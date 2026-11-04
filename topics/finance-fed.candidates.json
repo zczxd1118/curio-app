@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-03T10:41:33.934092+00:00",
+  "fetched_at": "2026-11-04T10:44:09.349206+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,16 +11,33 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 0,
+    "arXiv q-fin（量化金融论文）": 1,
     "HN · Federal Reserve": 2,
     "HN · inflation": 0,
-    "HN · Tesla": 5,
-    "HN · finance": 14,
+    "HN · Tesla": 6,
+    "HN · finance": 15,
     "HN · fed": 18
   },
   "subtopics": [],
-  "total": 67,
+  "total": 70,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/apple-earnings-memory-problems-the-hardware-company-regression/",
+      "title": "Apple Earnings, Memory Problems, The Hardware Company Regression",
+      "url": "https://stratechery.com/2026/apple-earnings-memory-problems-the-hardware-company-regression/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-03T11:00:00+00:00",
+      "summary": "Apple's earnings suggest that the company's hardware business is doing better than ever, even in the face of memory challenges. Does the software story help or hurt?",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/google-earnings-facebook-deja-vu-the-agent-play/",
       "title": "Google Earnings, Facebook Déjà Vu, The Agent Play",
@@ -172,23 +189,6 @@
       "views": null,
       "published_at": "2026-10-23T10:00:00+00:00",
       "summary": "Sharp Tech is, for the first time, available on video. You have two ways to consume it: YouTube, and here on Stratechery",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/an-interview-with-craig-moffett-about-spacex-and-bubbles/",
-      "title": "An Interview with Craig Moffett About SpaceX and Bubbles",
-      "url": "https://stratechery.com/2026/an-interview-with-craig-moffett-about-spacex-and-bubbles/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-22T10:00:00+00:00",
-      "summary": "An interview with Craig Moffett about SpaceX, from launch to broadband to mobile, plus how he is applying the lessons of the dot-com bubble to today.",
       "lang": "en"
     },
     {
@@ -532,6 +532,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://arxiv.org/abs/2310.12255",
+      "title": "Walraswap: equilibrium-based decentralized exchange integrating external AMM liquidity",
+      "url": "https://arxiv.org/abs/2310.12255",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Sergio A. Yuhjtman",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-04T05:00:00+00:00",
+      "summary": "arXiv:2310.12255v3 Announce Type: replace Abstract: This article advocates the development of a decentralized exchange protocol for Ethereum based on Walrasian equilibrium. Building on previous work (arXiv:2111.02719, arXiv:2210.04929), it develops a mathematical framework that incorporates liquidity from independent automated market makers (AMMs). Trade orders are represented by continuous monotonic pairwise supply functions and external AMMs are represented by concave swap functions. Under a c...",
+      "lang": "en"
+    },
+    {
       "id": "hn:50082283",
       "title": "US Says Chinese Hackers Attacked DOJ, NASA, Federal Reserve, Senate",
       "url": "https://www.usatoday.com/story/news/politics/2026/08/26/chinese-hackers-cyberattack-us-government/91473585007/",
@@ -582,7 +599,7 @@
       },
       "duration_sec": null,
       "views": 98,
-      "comments": 81,
+      "comments": 82,
       "published_at": "2026-10-26T05:13:15+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -646,6 +663,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50360067",
+      "title": "Tesla allegedly misled South Korean customers about automated-driving tech",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-misled-south-korean-customers-about-automated-driving-tech-consumer-group-2026-11-04/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50360067",
+        "name": "EA-3167",
+        "hn_url": "https://news.ycombinator.com/item?id=50360067"
+      },
+      "duration_sec": null,
+      "views": 24,
+      "comments": 4,
+      "published_at": "2026-11-04T00:19:50+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
       "id": "hn:50202423",
       "title": "Elon Musk pours $366M into midterm Republican campaigns",
       "url": "https://www.cnbc.com/2026/10/22/elon-musk-midterm-election-spacex-tesla.html",
@@ -676,8 +712,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50342284"
       },
       "duration_sec": null,
-      "views": 189,
-      "comments": 168,
+      "views": 197,
+      "comments": 173,
       "published_at": "2026-11-02T19:27:37+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -733,8 +769,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50346153"
       },
       "duration_sec": null,
-      "views": 210,
-      "comments": 174,
+      "views": 232,
+      "comments": 221,
       "published_at": "2026-11-03T00:08:53+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -772,7 +808,7 @@
       },
       "duration_sec": null,
       "views": 178,
-      "comments": 65,
+      "comments": 66,
       "published_at": "2026-10-27T15:09:27+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -931,6 +967,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50352405",
+      "title": "US Hedge Funds Just Sold Every AI Stock They Bought Since 2025",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-hedge-funds-just-sold-113114644.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50352405",
+        "name": "robin_reala",
+        "hn_url": "https://news.ycombinator.com/item?id=50352405"
+      },
+      "duration_sec": null,
+      "views": 37,
+      "comments": 1,
+      "published_at": "2026-11-03T14:27:03+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
       "id": "hn:50154244",
       "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
       "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
@@ -962,7 +1017,7 @@
       },
       "duration_sec": null,
       "views": 333,
-      "comments": 97,
+      "comments": 100,
       "published_at": "2026-10-30T15:44:29+00:00",
       "summary": "",
       "matched_keyword": "fed",
