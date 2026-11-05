@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-04T10:44:02.258221+00:00",
+  "fetched_at": "2026-11-05T10:39:46.894826+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -33,7 +33,7 @@
       },
       "duration_sec": null,
       "views": 270,
-      "comments": 304,
+      "comments": 302,
       "published_at": "2026-10-30T16:13:02+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -51,8 +51,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50346153"
       },
       "duration_sec": null,
-      "views": 232,
-      "comments": 221,
+      "views": 234,
+      "comments": 225,
       "published_at": "2026-11-03T00:08:53+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -70,8 +70,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50342284"
       },
       "duration_sec": null,
-      "views": 197,
-      "comments": 173,
+      "views": 199,
+      "comments": 176,
       "published_at": "2026-11-02T19:27:37+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -109,27 +109,8 @@
       },
       "duration_sec": null,
       "views": 54,
-      "comments": 78,
+      "comments": 79,
       "published_at": "2026-10-31T12:32:10+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50352405",
-      "title": "US Hedge Funds Just Sold Every AI Stock They Bought Since 2025",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/us-hedge-funds-just-sold-113114644.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50352405",
-        "name": "robin_reala",
-        "hn_url": "https://news.ycombinator.com/item?id=50352405"
-      },
-      "duration_sec": null,
-      "views": 37,
-      "comments": 1,
-      "published_at": "2026-11-03T14:27:03+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -146,9 +127,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50362274"
       },
       "duration_sec": null,
-      "views": 35,
-      "comments": 29,
+      "views": 54,
+      "comments": 77,
       "published_at": "2026-11-04T07:00:20+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50352405",
+      "title": "US Hedge Funds Just Sold Every AI Stock They Bought Since 2025",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-hedge-funds-just-sold-113114644.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50352405",
+        "name": "robin_reala",
+        "hn_url": "https://news.ycombinator.com/item?id=50352405"
+      },
+      "duration_sec": null,
+      "views": 38,
+      "comments": 1,
+      "published_at": "2026-11-03T14:27:03+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -241,8 +241,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50344919"
       },
       "duration_sec": null,
-      "views": 399,
-      "comments": 317,
+      "views": 404,
+      "comments": 321,
       "published_at": "2026-11-02T22:30:47+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -336,7 +336,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50350560"
       },
       "duration_sec": null,
-      "views": 83,
+      "views": 84,
       "comments": 101,
       "published_at": "2026-11-03T11:16:07+00:00",
       "summary": "",
@@ -412,8 +412,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50351712"
       },
       "duration_sec": null,
-      "views": 30,
-      "comments": 78,
+      "views": 31,
+      "comments": 81,
       "published_at": "2026-11-03T13:26:43+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -489,7 +489,7 @@
       },
       "duration_sec": null,
       "views": 188,
-      "comments": 256,
+      "comments": 257,
       "published_at": "2026-11-02T14:40:05+00:00",
       "summary": "",
       "matched_keyword": "IPO",

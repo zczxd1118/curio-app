@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-04T10:44:14.050969+00:00",
+  "fetched_at": "2026-11-05T10:40:00.306055+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 0,
-    "HN · Nvidia": 7,
+    "HN · Nvidia": 8,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 29,
+  "total": 30,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,108 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/why-magnetic-sensor-selection-has-become-a-system-architecture-decision/",
+      "title": "Why Magnetic Sensor Selection Has Become a System Architecture Decision",
+      "url": "https://www.eetimes.com/why-magnetic-sensor-selection-has-become-a-system-architecture-decision/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Christopher McGrady",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T09:00:00+00:00",
+      "summary": "Kiloampere busbars, 2,000 V solar platforms, hollow-shaft robot joints and nanoamp standby budgets are pulling magnetic sensing in directions no single sensing principle can follow. Ask a traction inverter designer, a robotics engineer and someone building a battery-powered water meter what they need from a magnetic sensor, and you will get three answers with very [&#8230;] The post Why Magnetic Sensor Selection Has Become a System Architecture Decision appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/what-makes-a-quantum-company-valuable/",
+      "title": "What Makes a Quantum Company Valuable?",
+      "url": "https://www.eetimes.com/what-makes-a-quantum-company-valuable/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T07:00:28+00:00",
+      "summary": "Quantum investors weigh technical progress against customer demand, commercial timing, and the ability to build lasting value. The post What Makes a Quantum Company Valuable? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/chiplets-meta-scale-chiplet-velocity-accelerating-ai-soc-development-to-match-the-rapid-evolution-of-ai-model/",
+      "title": "Chiplets: Meta-Scale Chiplet Velocity Accelerating AI SoC Development to Match the Rapid Evolution of AI Model",
+      "url": "https://www.eetimes.com/chiplets-meta-scale-chiplet-velocity-accelerating-ai-soc-development-to-match-the-rapid-evolution-of-ai-model/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "AspenCore Events",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-04T20:30:12+00:00",
+      "summary": "This event session is presented by Olivia Wu, Distinguished Engineer at Meta AI model architectures are evolving faster than traditional chip development cycles, and at Meta&#8217;s scale—serving billions of users across ranking &#38; recommendation and generative AI workloads—this mismatch is untenable. Meta&#8217;s Infra Silicon team has responded with a six-month SoC tape-out cadence, delivering four [&#8230;] The post Chiplets: Meta-Scale Chiplet Velocity Accelerating AI SoC Development to M...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/silicon-photonics-hits-the-big-time/",
+      "title": "Silicon Photonics Hits the Big Time",
+      "url": "https://www.eetimes.com/silicon-photonics-hits-the-big-time/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-04T19:51:38+00:00",
+      "summary": "The land grab for silicon photonics aims to beat the power wall associated with copper interconnects. We also interviewed Salience Labs about its $125 million funding for optical circuit switching. The post Silicon Photonics Hits the Big Time appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ablics-small-smart-and-simple-strategy-for-high-value-analog-semicondutors/",
+      "title": "ABLIC’s Small, Smart, and Simple Strategy for High-Value Analog Semicondutors",
+      "url": "https://www.eetimes.com/ablics-small-smart-and-simple-strategy-for-high-value-analog-semicondutors/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "ABLIC",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-04T17:00:00+00:00",
+      "summary": "ABLIC’s Satoshi Hanazawa discusses its low-power analog semiconductor strategy, target markets, product innovation and development approach. The post ABLIC&#8217;s Small, Smart, and Simple Strategy for High-Value Analog Semicondutors appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/stmicroelectronics-expands-stm32-roadmap-for-cloud-ai-and-physical-ai/",
+      "title": "STMicroelectronics Expands STM32 Roadmap for Cloud AI and Physical AI",
+      "url": "https://www.eetimes.com/stmicroelectronics-expands-stm32-roadmap-for-cloud-ai-and-physical-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-04T14:37:17+00:00",
+      "summary": "Unified STM32 platform adds automotive-grade STM32A and power-focused STM32G5 MCUs. The post STMicroelectronics Expands STM32 Roadmap for Cloud AI and Physical AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/quantum-roadmaps-are-finally-meeting-reality/",
       "title": "Quantum Roadmaps Are Finally Meeting Reality",
       "url": "https://www.eetimes.com/quantum-roadmaps-are-finally-meeting-reality/",
@@ -257,105 +359,22 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/bringing-design-data-management-into-the-developer-workflow/",
-      "title": "Bringing Design Data Management into the Developer Workflow",
-      "url": "https://www.eetimes.com/bringing-design-data-management-into-the-developer-workflow/",
-      "platform": "rss",
+      "id": "hn:50362905",
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Keysight Technologies",
-        "feed_title": "EE Times"
+        "type": "hackernews",
+        "id": "50362905",
+        "name": "novaRom",
+        "hn_url": "https://news.ycombinator.com/item?id=50362905"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-03T15:00:00+00:00",
-      "summary": "As digital design workflows increasingly center on modern, text-based development environments, engineers expect the same efficiency from design data management as they do from coding tools. Visual Studio Code (VS Code) has become a preferred platform for developing RTL, HDL, scripts, and verification assets, offering a flexible and extensible workspace that streamlines day-to-day engineering tasks. [&#8230;] The post Bringing Design Data Management into the Developer Workflow appeared first on ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ai-hardwares-hidden-cost-between-orders-and-output/",
-      "title": "AI Hardware’s Hidden Cost: Between Orders and Output",
-      "url": "https://www.eetimes.com/ai-hardwares-hidden-cost-between-orders-and-output/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Ron Honig",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-03T14:08:41+00:00",
-      "summary": "Alphabet’s TPU inventory, Intel’s manufacturing tradeoffs, and equipment suppliers’ balance sheets show how capital builds up along the path to usable AI computing capacity. The post AI Hardware’s Hidden Cost: Between Orders and Output appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/five-things-you-didnt-know-about-co-packaged-optics/",
-      "title": "Five Things You Didn’t Know About Co-Packaged Optics",
-      "url": "https://www.eetimes.com/five-things-you-didnt-know-about-co-packaged-optics/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Chee Ping Lee, managing director of Advanced Packaging Strategic Marketing at Lam Research",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-03T14:00:00+00:00",
-      "summary": "CPO may be a photonics breakthrough, but commercial success hinges equally on advanced packaging that integrates, connects and protects components at scale. The post Five Things You Didn’t Know About Co-Packaged Optics appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/marvell-snaps-photonics-chipmaker-lumentum-to-bolster-ai-connectivity/",
-      "title": "Marvell Snaps Photonics Chipmaker Lumentum to Bolster AI Connectivity",
-      "url": "https://www.eetimes.com/marvell-snaps-photonics-chipmaker-lumentum-to-bolster-ai-connectivity/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Majeed Ahmad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-03T08:50:21+00:00",
-      "summary": "The $115 billion deal aims to create a category leader in AI connectivity by co-designing network processors and lasers for optical transceivers. The post Marvell Snaps Photonics Chipmaker Lumentum to Bolster AI Connectivity appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/macronix-builds-hardware-security-into-nor-flash-ahead-of-eu-cyber-resilience-act/",
-      "title": "Macronix Builds Hardware Security into NOR Flash Ahead of EU Cyber Resilience Act",
-      "url": "https://www.eetimes.com/macronix-builds-hardware-security-into-nor-flash-ahead-of-eu-cyber-resilience-act/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times Taiwan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-03T05:30:00+00:00",
-      "summary": "The European Union's Cyber Resilience Act (CRA), which becomes mandatory in December 2027, is raising the bar for cybersecurity in connected devices. Rather than relying on software patches to address vulnerabilities after they emerge, manufacturers are under growing pressure to build security into products from the outset. For connected devices, that shift puts flash memory in a new role: alongside storing code and data, it must help protect device identity, data integrity and software updates....",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/inside-automotive-dms-oms-technology-challenges-power-solutions/",
-      "title": "Inside Automotive DMS & OMS: Technology, Challenges & Power Solutions",
-      "url": "https://www.eetimes.com/inside-automotive-dms-oms-technology-challenges-power-solutions/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Monotlithic Power Systems",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-02T19:33:59+00:00",
-      "summary": "Join our expert for an in-depth look inside today's DMS and OMS architectures. You'll gain practical insights into camera design, power delivery, and thermal management strategies, while learning how advanced IR LED driver solutions can help improve performance, reliability, and system efficiency. The post Inside Automotive DMS &#038; OMS: Technology, Challenges &#038; Power Solutions appeared first on EE Times.",
+      "views": 600,
+      "comments": 280,
+      "published_at": "2026-11-04T08:46:29+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
@@ -389,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50219700"
       },
       "duration_sec": null,
-      "views": 352,
-      "comments": 83,
+      "views": 353,
+      "comments": 85,
       "published_at": "2026-10-24T09:58:27+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -408,8 +427,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50348962"
       },
       "duration_sec": null,
-      "views": 281,
-      "comments": 134,
+      "views": 288,
+      "comments": 138,
       "published_at": "2026-11-03T07:04:50+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -454,20 +473,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50362905",
-      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
-      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "id": "hn:50363861",
+      "title": "RTX 5090 Street Prices Top $9k as Nvidia GPU Costs Climb",
+      "url": "https://aroundprague.cz/en/news/us/rtx-5090-street-prices-top-9-000-as-nvidia-gpu-costs-climb",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50362905",
-        "name": "novaRom",
-        "hn_url": "https://news.ycombinator.com/item?id=50362905"
+        "id": "50363861",
+        "name": "teleforce",
+        "hn_url": "https://news.ycombinator.com/item?id=50363861"
       },
       "duration_sec": null,
-      "views": 56,
-      "comments": 29,
-      "published_at": "2026-11-04T08:46:29+00:00",
+      "views": 61,
+      "comments": 81,
+      "published_at": "2026-11-04T11:02:23+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -492,25 +511,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:49970667",
-      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "49970667",
-        "name": "outlier99",
-        "hn_url": "https://news.ycombinator.com/item?id=49970667"
-      },
-      "duration_sec": null,
-      "views": 495,
-      "comments": 341,
-      "published_at": "2026-10-05T21:00:21+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
       "id": "hn:50327058",
       "title": "Seoul Viosys begins production of rare-earth-free white light emitter",
       "url": "https://www.semiconductor-today.com/news_items/2026/oct/seoul-291026.shtml",
@@ -525,6 +525,25 @@
       "views": 193,
       "comments": 76,
       "published_at": "2026-11-01T16:23:26+00:00",
+      "summary": "",
+      "matched_keyword": "semiconductor",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50128597",
+      "title": "EU negotiates sanctions swap with China to rescue critical ASML supplier",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/eu-negotiates-sanction-swap-with-china-to-rescue-critical-asml-supplier-german-coatings-firm-faces-shutdown-without-chinese-rare-earths",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50128597",
+        "name": "anigbrowl",
+        "hn_url": "https://news.ycombinator.com/item?id=50128597"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 0,
+      "published_at": "2026-10-17T06:49:52+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
       "lang": "en"

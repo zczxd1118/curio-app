@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-04T10:44:09.349206+00:00",
+  "fetched_at": "2026-11-05T10:39:54.851984+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,16 +11,33 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 1,
+    "arXiv q-fin（量化金融论文）": 21,
     "HN · Federal Reserve": 2,
     "HN · inflation": 0,
-    "HN · Tesla": 6,
+    "HN · Tesla": 5,
     "HN · finance": 15,
-    "HN · fed": 18
+    "HN · fed": 19
   },
   "subtopics": [],
-  "total": 70,
+  "total": 90,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/ai-on-the-ballot/",
+      "title": "AI on the Ballot",
+      "url": "https://stratechery.com/2026/ai-on-the-ballot/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-04T11:00:00+00:00",
+      "summary": "Data Centers were on the ballot, and they lost in a major way; what does it mean if American opposition to building is permanent?",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/apple-earnings-memory-problems-the-hardware-company-regression/",
       "title": "Apple Earnings, Memory Problems, The Hardware Company Regression",
@@ -172,23 +189,6 @@
       "views": null,
       "published_at": "2026-10-23T17:00:00+00:00",
       "summary": "The best Stratechery content from the week of October 19, 2026, including the best iPad but worst phone, SS Sarandos in a storm, and You Can See Everything.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/sharp-tech-on-video-netflix-angst-the-end-of-the-internet-and-metas-vr-glasses/",
-      "title": "Sharp Tech on Video: Netflix Angst, the End of the Internet, and Meta’s VR Glasses",
-      "url": "https://stratechery.com/2026/sharp-tech-on-video-netflix-angst-the-end-of-the-internet-and-metas-vr-glasses/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-23T10:00:00+00:00",
-      "summary": "Sharp Tech is, for the first time, available on video. You have two ways to consume it: YouTube, and here on Stratechery",
       "lang": "en"
     },
     {
@@ -532,20 +532,360 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arxiv.org/abs/2310.12255",
-      "title": "Walraswap: equilibrium-based decentralized exchange integrating external AMM liquidity",
-      "url": "https://arxiv.org/abs/2310.12255",
+      "id": "rss:https://arxiv.org/abs/2611.05553",
+      "title": "Decision Models as Scalable Economic Surrogates that Capture Human Variation",
+      "url": "https://arxiv.org/abs/2611.05553",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Sergio A. Yuhjtman",
+        "name": "Maxime Saxena, Fabio Caccioli, R. Maria del Rio-Chanona",
         "feed_title": "q-fin updates on arXiv.org"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-04T05:00:00+00:00",
-      "summary": "arXiv:2310.12255v3 Announce Type: replace Abstract: This article advocates the development of a decentralized exchange protocol for Ethereum based on Walrasian equilibrium. Building on previous work (arXiv:2111.02719, arXiv:2210.04929), it develops a mathematical framework that incorporates liquidity from independent automated market makers (AMMs). Trade orders are represented by continuous monotonic pairwise supply functions and external AMMs are represented by concave swap functions. Under a c...",
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.05553v1 Announce Type: new Abstract: Decision Models (DMs), a new class of AI models, give fast responses and return a probability distribution over a fixed set of options. These properties make them candidate human surrogates in economic simulations and surveys, a role increasingly filled by Large Language Models (LLMs), which are costly at scale and under-represent the variation in human behaviour. We present a first evaluation of DMs as human surrogates in economics, comparing 10 D...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.05640",
+      "title": "Economic Policy Uncertainty Index for Poland: Data, Construction, and Validation",
+      "url": "https://arxiv.org/abs/2611.05640",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Alina M. Landowska, Robert A. K{\\l}opotek, He Zhang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.05640v1 Announce Type: new Abstract: We construct a continuous monthly Economic Policy Uncertainty (EPU) index for Poland spanning January 2000 to June 2026, following the newspaper-based Baker-Bloom-Davis (BBD) methodology. The index uses six deep-history Polish newspapers (Rzeczpospolita, Parkiet, Gazeta Wyborcza, Dziennik Gazeta Prawna, Gazeta Polska Codziennie, and Puls Biznesu), scaled by article volume, standardized to unit standard deviation over a fixed 2000-2024 baseline (300...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.05714",
+      "title": "The potential impact of fiscal rule changes on digital products trade",
+      "url": "https://arxiv.org/abs/2611.05714",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Sonja Mitikj, Viktor Stojkoski",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.05714v1 Announce Type: new Abstract: The WTO moratorium on customs duties on electronic transmissions lapsed in March 2026, allowing governments to impose tariffs on cross-border digital products, alongside other instruments such as digital services taxes (DSTs). Yet, how tariffs and DSTs compare in the revenue they raise and their effect on trade in digital products has not yet been assessed. Here we combine bilateral trade in 31 digital product categories in 2016-2024 with DST rates...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.05767",
+      "title": "Priced In or Bet On? Cram-School Lessons, Jeonse Leases, and Expected Appreciation in Seoul",
+      "url": "https://arxiv.org/abs/2611.05767",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Samiha Tariq",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.05767v1 Announce Type: new Abstract: South Korean families spend heavily on hagwons, private cram schools that prepare students for the university entrance exam. This paper asks what access to them is worth in housing and whether the premium includes expected appreciation. Using 2,197,510 Seoul apartment sales and jeonse (lump-sum deposit lease) contracts from 2015 to 2026, located with a new business-address geocoder, the analysis compares flats within the same middle-school assignme...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.06459",
+      "title": "A general technique for explicit quantile representations",
+      "url": "https://arxiv.org/abs/2611.06459",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Wolfgang Schadner",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.06459v1 Announce Type: new Abstract: This work proves existence of contours independent of probability level for exact quantile integrals of strictly positive real-analytic densities. Explicit constructions cover five broad distribution families and yield a finite-interval representation of Black-Scholes implied volatility using forward functions.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.06495",
+      "title": "Constrained defined-contribution pension management: A reparameterized neural network approach",
+      "url": "https://arxiv.org/abs/2611.06495",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Yueman Feng, Wenyuan Li",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.06495v1 Announce Type: new Abstract: This paper studies constrained defined contribution (DC) pension management under a two-factor financial market model. The pension participant is allowed to invest in cash, two nominal bonds, an inflation-linked bond, and a stock index. Moreover, they can also purchase term life insurance to manage pre-retirement death risk. Unlike traditional literature, we consider a pension member restricted to a general non-empty, closed, and convex trading con...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.06607",
+      "title": "Hard to Fool: A Bounded LLM Research Loop for Quantitative Finance, and What Two Dozen Campaigns Found",
+      "url": "https://arxiv.org/abs/2611.06607",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Henry Zhang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.06607v1 Announce Type: new Abstract: Agentic research loops that let a language model propose a change, run a fixed experiment and keep whatever improves the metric work well in machine learning. In trading research the same loop is a machine for producing false discoveries: a backtest that \"improves the metric\" is, by default, overfit, look-ahead, a multiple-comparisons artifact, cost-free, or market drift wearing a strategy. We describe Autonomous Quant Researcher, an open-source lo...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.06629",
+      "title": "Does Frontier AI Strengthen Cyber Defense? Evidence from Project Glasswing",
+      "url": "https://arxiv.org/abs/2611.06629",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Thomas Mosk",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.06629v1 Announce Type: new Abstract: Defenders and attackers race to find the same software flaws. I use the launch of Project Glasswing, which gave a small group of large US tech firms early access to Claude Mythos Preview, a model for finding software vulnerabilities, to study how access to frontier AI affects defenders, external researchers, and attackers. Using the universe of publicly disclosed vulnerabilities, I find that firms with access more than doubled their disclosures rel...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.06126",
+      "title": "Exponential Seniority Weighting Chain-Ladder Reserving",
+      "url": "https://arxiv.org/abs/2611.06126",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Mario V. W\\\"uthrich",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.06126v1 Announce Type: cross Abstract: We develop a tractable state-space version of the chain-ladder model. The state-space dynamics acts on the accident year axis which, in contrast to the classical chain-ladder model, makes accident years dependent. This state-space version yields an exponential seniority weighting in the chain-ladder factor estimation, and it admits an analytical likelihood representation that enables us to compute the seniority weighted chain-ladder reserves and ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.06696",
+      "title": "You Know What You Will Like: People Predict Their Own Ratings Better Than Recommender Systems",
+      "url": "https://arxiv.org/abs/2611.06696",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Zihan Chen, Lei Nico Zheng, Di Zhu",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.06696v1 Announce Type: cross Abstract: Recommender systems usually learn what people want from what they have done. Platforms could also ask people directly, but asking is costly: 98.8% of the prompts in our data went unanswered. Theories of statistical prediction imply that a person's own forecast adds little to a recommender algorithm built from many people's behavior. Theories of dispersed knowledge imply that people hold information about their own taste that the data lack. We tes...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.06888",
+      "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
+      "url": "https://arxiv.org/abs/2611.06888",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Siyi Yu",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.06888v1 Announce Type: cross Abstract: Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher exposure is associated with lower condition scores under a large language model (LLM) measure and AI Occupational Exposure (AIOE), with equal occupation weights and employment weights. Adjustment for physical demands, required education, training and ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2507.20410",
+      "title": "Pay and Beyond: The Evolving Rewards for AI Skills",
+      "url": "https://arxiv.org/abs/2507.20410",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Alejandra Castaneda, Matthew Bone, Fabian Stephany",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2507.20410v4 Announce Type: replace Abstract: This study examines the monetary and non-monetary rewards advertised in job vacancies requiring artificial intelligence skills in the U.S. labor market. Using approximately ten million online job vacancies posted between 2018 and 2025, we examine the development of AI demand, wage premia, and non-monetary benefits, including tuition assistance, paid leave, health and well-being programs, parental leave, inclusive workplace language, and remote ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2508.21285",
+      "title": "A Financial Brain Scan of the LLM",
+      "url": "https://arxiv.org/abs/2508.21285",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Hui Chen, Antoine Didisheim, Mo Pourmohammadi, Luciano Somoza, Hanqing Tian",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2508.21285v4 Announce Type: replace Abstract: We use sparse autoencoders (SAEs) to \"brain scan\" large language models, mapping internal activations to interpretable concepts and enabling targeted \"steering\" of specific features. We show that prompting models to adopt specific preferences activates many unintended concepts, complicating causal inference. In contrast, SAEs permit smooth, more isolated steering of target concepts. Furthermore, our scans reveal a stark disconnect between the m...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2512.10672",
+      "title": "The Dynamic Theory of Economic Complexity",
+      "url": "https://arxiv.org/abs/2512.10672",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Cesar A. Hidalgo, Viktor Stojkoski",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2512.10672v2 Announce Type: replace Abstract: Why do some activities grow faster in some economies than others? We develop a dynamic model of economic complexity in which output is determined by a weak-link production function and investment contributes to the accumulation of capabilities shared across activities. We test the model empirically by exploring two of its predictions. First, the model predicts that the capability stock at which the accumulation of a capability is fastest increa...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2605.17117",
+      "title": "Geometric Observables for Financial Regime Detection",
+      "url": "https://arxiv.org/abs/2605.17117",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Will Hammond",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2605.17117v3 Announce Type: replace Abstract: We extract four geometric observables -- Berry Phase Rate, Spectral Entropy, Reduced State Purity, and Hamiltonian Sensitivity -- from a learned spectral embedding of equity-index returns and evaluate them as regime-shift detectors against 46 classical and machine-learning baselines on 17 historical crises spanning 2000-2024. Under walk-forward nested hyperparameter selection on nine labelled windows, the Berry Phase Rate achieves an unbiased o...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2606.29572",
+      "title": "Valuation Reveals Uncertainty",
+      "url": "https://arxiv.org/abs/2606.29572",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Jongjin Park, David Criens, Hyungbin Park",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2606.29572v2 Announce Type: replace Abstract: This paper studies the recovery of uncertainty from dynamic sublinear valuation rules. Robust valuation assigns each payoff its worst-case expected value over a family of plausible models, thereby inducing a dynamic sublinear valuation rule. While valuation rules are observable in practice, the underlying uncertainty structure remains latent. Under suitable conditions, we show that an uncertainty structure can be recovered from an observed valu...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2609.15452",
+      "title": "Computing Endogenous Transformations in Processing Networks: A Dynamic Calibration Approach",
+      "url": "https://arxiv.org/abs/2609.15452",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Satoshi Nakano, Kazuhiko Nishimura",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2609.15452v5 Announce Type: replace Abstract: Understanding how production networks endogenously transform requires a parametric model with non-neutral substitution elasticities. While the Cascaded CES (CCES) production function provides a rigorous framework, dynamically calibrating its structural parameters from time-series data constitutes a highly non-convex inverse optimization problem that typically falls prey to the curse of dimensionality. To overcome this limitation, we propose a s...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.01540",
+      "title": "Social Networks and the Propagation of Household Shocks to Asset Prices",
+      "url": "https://arxiv.org/abs/2611.01540",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Faisal Quaiyyum",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.01540v2 Announce Type: replace Abstract: When can local household disturbances move credit prices? I develop a financially weighted propagation operator on the social network. In a conditional household-intermediary equilibrium, its projection determines the household-demand component of the excess bond premium. Because responses decay at different rates across network patterns and channels, a location's relative financial importance generically changes with the horizon, so no single ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.01656",
+      "title": "AIDA: An AI Outage Registry with Evidence from On-Chain MEV",
+      "url": "https://arxiv.org/abs/2611.01656",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Wenbin Wu",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2611.01656v2 Announce Type: replace Abstract: Generative AI coding tools have lowered the cost of writing trading software, but no systematic dataset records when these services fail. We introduce the AI Incident and Disruption Archive (AIDA), a multi-vendor registry of 5,868 deduplicated outage incidents across 30 providers from 2025 to 2026, with foundation-model incidents verified against primary status-page or postmortem URLs. Pairing AIDA with 5,041,034 verified maximal extractable va...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2307.04754",
+      "title": "Dynamic Strategy Selection",
+      "url": "https://arxiv.org/abs/2307.04754",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Francesco Cordoni, Alessio Sancetta, Yuqian Zhao",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2307.04754v4 Announce Type: replace-cross Abstract: We consider the problem of dynamically selecting among competing strategies using observable predictors. To mitigate estimation noise and excessive switching, we regularise the estimated policy with a switching cost, which may exceed actual transaction costs when these are too small to provide sufficient regularisation. Since switching costs make current choices affect future decisions, we formulate the problem using dynamic programming. ...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2502.02352",
+      "title": "Stochastic Optimal Control with Measurable Coefficients and Applications",
+      "url": "https://arxiv.org/abs/2502.02352",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Filippo de Feo",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-05T05:00:00+00:00",
+      "summary": "arXiv:2502.02352v4 Announce Type: replace-cross Abstract: We consider fully non-linear stochastic optimal control problems with measurable coefficients and (local) uniformly elliptic diffusion. Using the theory of $L^p$-viscosity solutions, we show existence of an $L^p$-viscosity solution $v\\in W_{\\rm loc}^{2,p}$ of the Hamilton-Jacobi-Bellman (HJB) equation, which, in turn, is also a strong solution (i.e. it satisfies the HJB equation pointwise a.e.). We are then led to prove verification theor...",
       "lang": "en"
     },
     {
@@ -625,20 +965,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50189801",
-      "title": "Tesla profits drop 43% in Q3",
-      "url": "https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/",
+      "id": "hn:50360067",
+      "title": "Tesla allegedly misled South Korean customers about automated-driving tech",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-misled-south-korean-customers-about-automated-driving-tech-consumer-group-2026-11-04/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50189801",
-        "name": "throw0101a",
-        "hn_url": "https://news.ycombinator.com/item?id=50189801"
+        "id": "50360067",
+        "name": "EA-3167",
+        "hn_url": "https://news.ycombinator.com/item?id=50360067"
       },
       "duration_sec": null,
-      "views": 87,
-      "comments": 57,
-      "published_at": "2026-10-22T01:02:23+00:00",
+      "views": 29,
+      "comments": 7,
+      "published_at": "2026-11-04T00:19:50+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -658,25 +998,6 @@
       "views": 26,
       "comments": 0,
       "published_at": "2026-10-29T20:24:13+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50360067",
-      "title": "Tesla allegedly misled South Korean customers about automated-driving tech",
-      "url": "https://www.reuters.com/business/autos-transportation/tesla-misled-south-korean-customers-about-automated-driving-tech-consumer-group-2026-11-04/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50360067",
-        "name": "EA-3167",
-        "hn_url": "https://news.ycombinator.com/item?id=50360067"
-      },
-      "duration_sec": null,
-      "views": 24,
-      "comments": 4,
-      "published_at": "2026-11-04T00:19:50+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -712,8 +1033,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50342284"
       },
       "duration_sec": null,
-      "views": 197,
-      "comments": 173,
+      "views": 199,
+      "comments": 176,
       "published_at": "2026-11-02T19:27:37+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -769,8 +1090,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50346153"
       },
       "duration_sec": null,
-      "views": 232,
-      "comments": 221,
+      "views": 234,
+      "comments": 225,
       "published_at": "2026-11-03T00:08:53+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -978,7 +1299,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50352405"
       },
       "duration_sec": null,
-      "views": 37,
+      "views": 38,
       "comments": 1,
       "published_at": "2026-11-03T14:27:03+00:00",
       "summary": "",
@@ -1190,6 +1511,25 @@
       "views": 32,
       "comments": 4,
       "published_at": "2026-10-25T22:09:09+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50372038",
+      "title": "Harmony: Chat like Discord. Federated like email",
+      "url": "https://mony.lol/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50372038",
+        "name": "FinalDestiny",
+        "hn_url": "https://news.ycombinator.com/item?id=50372038"
+      },
+      "duration_sec": null,
+      "views": 29,
+      "comments": 20,
+      "published_at": "2026-11-04T21:49:40+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
