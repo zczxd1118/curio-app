@@ -1,18 +1,30 @@
 # Curio · AI · 2026-11-07
 
-> 今日 1 条头条 + 3 条备选
+> 今日 1 条头条 + 2 条备选
 
-_今天最重要的信号是同一件事的两面：中期选举民主党大胜后，市场把数据中心和 AI 资本开支当成政治风险来定价，Nasdaq 两天跌进修正区间、蒸发 2.5 万亿美元；但 OpenAI 同一天以 1.25 万亿美元估值再融 110 亿。资本在重新给 AI 定价，而不是离场。另一条线是 Nvidia 的 RTX Spark 加密固件把 Linux 推理压到 35% 速度，硬件层的封闭化开始影响实际算力。_
+_今天最重要的信号是 AI 资本叙事第一次被政治和账本同时打脸：中期选举民主党大胜后，41 项数据中心公投几乎全数通过限制性条款，纳指两天跌进修正区间、2.5 万亿美元市值蒸发；同一时间 OpenAI 又在新一轮拿到 110 亿美元、估值 1.25 万亿。钱还在往里冲，但"无限扩张"的假设已经开始被定价。另一个信号是 Nvidia 的供应链正在从"卖卡"变成"管卡"——东南亚追踪、130 处旧电信机房改造、11.4M GPU 被盗，都在说明算力已经稀缺到需要治安。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. DeepSeek 新出的 Super Agent 是什么？真有用么？
+### 4. DeepSeek Harness 团队开源 Super-agent，鱼皮实测它和传统 Agent 的差别
 
-**[AI]** · ⭐⭐⭐ · _程序员鱼皮_
+**[AI]** · ⭐⭐⭐⭐ · _程序员鱼皮_
 
-11 月 5 日发布，讲 DeepSeek Harness 团队开源的 Super-agent 和传统 Agent 的区别，时效性最好的一条中文实测。
+DeepSeek Harness 团队开源了 Super-agent，鱼皮这期用实测拆它的工作机制：和传统 Agent 的区别在哪、是否真能提升效率。这是本周候选池里唯一一条带工程视角的新模型/新框架解读，发布时间 11 月 5 日，属于首发窗口。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| DeepSeek Harness 团队开源了 Super-agent 项目 | "Super-agent"是否为独立架构还是 Harness 上的编排层，公开信息尚不充分 |
+| 视频发布于 2026-11-05，属近期首发内容 | 实测结论的可复现性依赖具体任务集，视频未提供完整 benchmark |
+| 内容覆盖 Super-agent 与传统 Agent 的机制差异与实测 | 开源仓库的维护活跃度与文档完整度需要自行验证 |
+| 面向 AI 编程爱好者与 AI 应用开发者 | 与 MCP / Skills 生态的兼容性尚不明确 |
+| 同团队此前有 DeepSeek Harness 与 Claude Code 的对比实测内容 |  |
+
+**📖 主编点评**
+
+你的 content-curator 正好是 Agent 编排类项目，值得花 20 分钟看这期并顺手 clone 仓库。重点不是"它比 Claude Code 强不强"，而是看它怎么组织子 Agent 的上下文传递和工具调用边界——这部分设计思路可以直接搬到你的项目里。看完建议自己跑一个最小任务做对照。
 
 📺 [打开原文](http://www.bilibili.com/video/av117564076202051)
 
@@ -20,11 +32,9 @@ _今天最重要的信号是同一件事的两面：中期选举民主党大胜�
 
 ## 📋 备选阅读
 
-- [最新 Skills 开发教程，Agent skill 实战｜WorkBuddy+Codex+DeepSeek Harness](http://www.bilibili.com/video/av117511429295044) —— 10 月 28 日发布，Skills 开发是目前 Agent 工程里最缺实战教程的方向，契合你的偏好，但内容偏课程化。
+- [尚硅谷：Agent Skills 开发教程，WorkBuddy + Codex + DeepSeek Harness 实战](http://www.bilibili.com/video/av117511429295044) —— 10 月 28 日发布，Skills 是当前 Agent 工程的热点，但机构课偏流程化，深度需自行筛选。
   _尚硅谷_
-- [一个 CLI 干掉所有 MCP 工具，省 99% 的 token mcp2cli](http://www.bilibili.com/video/av116204349953548) —— 把 MCP 服务器转成 CLI、用懒发现把 token 从数十万降到几千，工程细节够硬，但发布已 8 个月，新颖度打折。
-  _探索未至之境_
-- [14k Star Claude Code 开源桌面端，能自动操作电脑了！](http://www.bilibili.com/video/av117251936293145) —— 基于泄露源码做的 cc-haha 桌面端，Computer Use 能自己看屏幕操作 APP，适合看 Agent 落地形态，但属个人项目。
+- [14k Star 的 Claude Code 开源桌面端 cc-haha，重构 Computer Use 可后台操作电脑](http://www.bilibili.com/video/av117251936293145) —— 基于泄露源码做的桌面端，工程细节有意思，但合规风险与可持续性存疑，不适合作为头条推荐。
   _程序员阿江-Relakkes_
 
 ---

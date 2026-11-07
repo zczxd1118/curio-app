@@ -2,117 +2,125 @@
 
 > 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
 
-_今天最重要的信号是同一件事的两面：中期选举民主党大胜后，市场把数据中心和 AI 资本开支当成政治风险来定价，Nasdaq 两天跌进修正区间、蒸发 2.5 万亿美元；但 OpenAI 同一天以 1.25 万亿美元估值再融 110 亿。资本在重新给 AI 定价，而不是离场。另一条线是 Nvidia 的 RTX Spark 加密固件把 Linux 推理压到 35% 速度，硬件层的封闭化开始影响实际算力。_
+_今天最重要的信号是 AI 资本叙事第一次被政治和账本同时打脸：中期选举民主党大胜后，41 项数据中心公投几乎全数通过限制性条款，纳指两天跌进修正区间、2.5 万亿美元市值蒸发；同一时间 OpenAI 又在新一轮拿到 110 亿美元、估值 1.25 万亿。钱还在往里冲，但"无限扩张"的假设已经开始被定价。另一个信号是 Nvidia 的供应链正在从"卖卡"变成"管卡"——东南亚追踪、130 处旧电信机房改造、11.4M GPU 被盗，都在说明算力已经稀缺到需要治安。_
 
 ---
 
 ## 🌟 股票
 
-### 1. 中期选举后 AI 交易遭清算：两天蒸发 2.5 万亿美元，Nasdaq 跌入修正区间
+### 1. 中期选举后纳指单日跌 5%，2.5 万亿美元市值蒸发，AI 交易首次被选票定价
 
-**[股票]** · ⭐⭐⭐⭐⭐ · _madihaa_
+**[股票]** · ⭐⭐⭐⭐⭐ · _armcat_
 
-民主党横扫中期选举后，市场把 41 项数据中心相关公投和监管预期重新定价，Nasdaq 单日跌 4-5%，两天抹去约 2.5 万亿美元市值，是 1896 年以来最差的中期选举后交易日。这不是对 AI 需求的否定，而是对'算力扩张不受政治阻力'这一假设的修正。
+民主党在中期选举大胜后，市场把"数据中心扩张会被地方政治卡住"这件事一次性计入价格。纳指跌进修正区间，芯片股创 1896 年以来最差中期选举次日表现。这不是一次普通回调，是 AI 资本开支叙事第一次遇到可量化的政治阻力。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Nasdaq 两天累计下跌 4-5%，进入技术性修正区间 | 跌幅是政治风险重定价还是 AI 泡沫破裂的开端，尚无定论 |
-| 约 2.5 万亿美元市值在两天内蒸发 | 数据中心公投结果对具体项目的落地影响要等 2027 年审批周期才明朗 |
-| 中期选举中 41 项数据中心相关公投，除一项外全部通过限制性条款 | 散户与被动资金是否跟随撤离，取决于下周财报季指引 |
-| 对冲基金据报已清空 2025 年以来买入的全部 AI 股票 | 若利率继续上行，AI 基建的债务融资成本会进一步压缩估值 |
-| Intel 领跌，芯片板块整体蒸发约 3.5 万亿美元 |  |
+| 纳指单日下跌约 5%，进入技术性修正区间 | 跌幅中有多少是政治定价、多少是前期涨幅回吐，尚无共识 |
+| 两天内美国股市合计蒸发约 2.5 万亿美元市值 | 数据中心公投多为地方性约束，能否真正阻断已批项目仍待观察 |
+| 选举日全美 41 项数据中心相关公投，除 1 项外全部通过限制性条款 | 若 12 月美联储继续加息，AI 资本开支的融资成本假设需要重算 |
+| 芯片股创 1896 年以来最差中期选举次日表现 | 对冲基金是否已清空 2025 年以来建仓的 AI 头寸，只有季度 13F 能验证 |
+| 得州州长选举结果被市场解读为数据中心审批风险上升 |  |
 
 **📖 主编点评**
 
-你应该把这次下跌当成'AI 资本开支的政治折价'来读，而不是需求见顶。对你做 content-curator 这类个人项目没直接影响，但如果你在关注 AI 基建相关标的或想写行业分析，这是本周最好的观察窗口——重点看下周 Nvidia 和云厂商财报里对 2027 资本开支的措辞有没有变。
+你不需要判断这是不是泡沫顶，但需要知道一件事：过去两年"算力无限扩张"是所有 AI 产品假设的地基。地基开始被政治和利率重新定价时，依赖大规模推理补贴的产品（免费额度、无限上下文）会最先感受到成本压力。做 content-curator 这类个人项目反而是安全区——你的边际成本不随行业 beta 波动。
 
-📺 [打开原文](https://finlaws.substack.com/p/25t-has-been-wiped-from-us-stocks)
+📺 [打开原文](https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026)
 
 ---
 
 ## 🌟 大厂 AI 动态
 
-### 2. OpenAI 以 1.25 万亿美元估值再融 110 亿美元，Anthropic IPO 同期逼近
+### 2. OpenAI 再融 110 亿美元、估值 1.25 万亿，Anthropic IPO 前夜 AI 支出却被 Ramp 数据指为停滞
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Lucas Ropek_
 
-在市场因 AI 恐慌抛售的同一天，OpenAI 完成新一轮 110 亿美元融资，估值达 1.25 万亿美元，跻身全球最高市值公司之列。与此同时 Anthropic 的 IPO 进程在推进，Ramp 的数据却显示企业 AI 支出在放缓。一级市场和二级市场给出了完全相反的信号。
+同一周里两件事同时发生：OpenAI 在新一轮未关闭的融资中又拿到 110 亿美元，估值推到 1.25 万亿美元；而 Ramp 的企业支出数据显示 AI 使用量还在涨、花钱却停了。价格战和成本控制正在把"AI 收入无限增长"的假设往下压。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| OpenAI 本轮融资 110 亿美元，估值 1.25 万亿美元，据 Bloomberg 报道 | 1.25 万亿估值是否包含未披露的算力采购承诺，公开信息不足 |
-| 该轮融资尚未关闭，预计未来几周完成 | Anthropic IPO 定价会成为 AI 公司估值的新锚点还是警示案例，未知 |
-| Anthropic 正在推进 IPO，其招股书警告可能'即将'接近递归自我改进 | 企业支出放缓是价格下降导致的'量增价减'还是真实需求见顶，需要更多季度数据 |
-| Ramp 数据显示 AI 使用量持续上升但支出停滞，降价和成本控制是主因 | 一级市场与二级市场的背离能持续多久，取决于 OpenAI 下一轮的收入披露 |
-| Oracle 申请发行 200 亿美元新股和债券为 AI 基建融资 |  |
+| OpenAI 本轮新增融资 110 亿美元，估值 1.25 万亿美元，融资尚未关闭 | 1.25 万亿估值对应的收入倍数是否成立，取决于 2027 年企业续费率 |
+| 该估值使其跻身全球市值最高公司行列 | 支出停滞有多少来自降价、多少来自用量见顶，Ramp 数据无法区分 |
+| Ramp 数据显示企业 AI 使用量持续上升，但支出金额停滞 | Anthropic IPO 定价会成为整个 AI 一级市场的锚，但时间表未定 |
+| Anthropic 正接近 IPO，Ramp 数据被市场视为对其定价的直接压力 | 若企业支出真的见顶，推理价格战会进一步压缩两家毛利 |
+| OpenAI 与 Anthropic 的估值叙事已进入互相参照阶段 |  |
 
 **📖 主编点评**
 
-你该关注的是 Ramp 那条'使用量涨、支出停滞'的数据——它比估值数字更有信息量。如果你在简历项目里要论证 AI 产品的商业可行性，'降价换渗透'是当下最真实的行业叙事，比引用估值数字更站得住。
+这条对你最直接的用处是：把"模型能力提升"和"模型商业可持续"分开看。你做 Agent 项目选型时，别把某家 API 的长期低价当默认前提——今年已经出现两次大幅降价后回调的案例。工程上留一层模型抽象（一个 provider 接口 + 配置切换），比押注单一厂商更值钱。
 
----
-
-### 4. Meta 给 Muse Agent 加 Spaces：让 AI 现场生成 app 式的定制界面
-
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Emma Roth_
-
-Meta 在 Muse 助手里推出 Spaces，允许 AI 根据当前需求即时构建购物中心、学校看板、音乐播放器等 app 式体验。这是把'Agent 生成 UI'从 demo 推向消费级产品的动作，和你的 Agent 工具构建方向直接相关。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Spaces 允许 Muse 在应用内构建定制化的 app 式体验 | Spaces 生成的是静态界面还是可交互、可持久化的应用，官方描述模糊 |
-| 示例场景包括购物中心、学校看板、音乐播放器 | 底层是否开放给第三方开发者调用，目前只有消费端入口 |
-| TechCrunch 同日报道 Spaces 定位为与 Muse Agent 协作的新方式 | 这种'Agent 生成 UI'模式的实际留存和复用率，需要看后续数据 |
-| Meta 同期在 Amazon 封禁 Muse 后，Amazon 转而让用户通过短信让 Alexa 帮购物 | 与 Claude 的 Artifacts、OpenAI 的 Canvas 相比差异化在哪，尚不清楚 |
-
-**📖 主编点评**
-
-这条对你的 content-curator 有直接启发：'Agent 按需生成界面'正在成为大厂标配，你的项目可以考虑把简报渲染做成 Agent 动态生成而非固定模板。但先别跟风——Spaces 还没开放开发者接口，你可以先把'动态渲染'记进 backlog，等 API 出来再动手。
+📺 [打开原文](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 3. Nvidia RTX Spark 加密固件被指把 Linux 推理速度压到 35%
+### 3. Nvidia 想把 130 多处旧电信机房改成小型数据中心，估算可产出 1GW 算力
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _novaRom_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Jowi Morales_
 
-HN 上 614 分的讨论指出，Nvidia 新款 RTX Spark 笔记本的加密固件在 Linux 下把推理速度限制到约 35%，Windows 下不受影响。如果属实，这是消费级 GPU 上'平台锁定'从驱动层下沉到固件层的信号，直接影响本地跑模型的开发者。
+Nvidia 正在和 Brightspeed 谈，把后者在全美 130 多处闲置电信设施改造成分布式小型数据中心，估算总算力可达 1GW。同期它要求东南亚云厂商加入 Fleet Intelligence 追踪计划才能拿到官方合作伙伴资格。两件事指向同一个方向：算力稀缺到需要重新分配存量基础设施，并且需要治安。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| HN 讨论帖获得 614 分，指向 mindstudio.ai 的实测博客 | 35% 这个数字是否可复现、是否只影响特定模型和驱动版本，需要独立验证 |
-| 报告称加密固件在 Linux 环境下限制推理性能至约 35% | 限制是反盗版/反挖矿设计还是刻意压制 Linux 生态，Nvidia 未回应 |
-| 同期 RTX 5090 街价突破 9000 美元，5080 从官方商店下架、街价达 MSRP 的 2.2 倍 | 消费级 GPU 的固件封闭化会不会蔓延到数据中心卡，目前无证据 |
-| Nvidia 收紧东南亚云厂商的 GPU 追踪，要求加入 Fleet Intelligence 才能获得官方合作伙伴资格 | 社区是否有绕过方案（如开源驱动或固件降级）尚不明朗 |
+| Nvidia 与 Brightspeed 就 130+ 处旧电信设施改造进行谈判 | 1GW 是理论上限，实际受供电与散热改造限制，落地比例未知 |
+| Nvidia 估算这些设施合计可产出最高 1GW 算力 | 旧电信机房的网络时延能否满足训练集群需求，报告未说明 |
+| Brightspeed 母公司为 Apollo Global Management | Fleet Intelligence 的实际监控粒度（序列号级还是批次级）未公开 |
+| Nvidia 要求东南亚云厂商加入 Fleet Intelligence 追踪计划才可获得 Nvidia Cloud Partner 资格 | 分布式小机房是否会成为推理主力、训练仍集中，取决于互联带宽成本 |
+| 同期加州发生 6 托盘、价值 1140 万美元 Nvidia GPU 被盗案 |  |
 
 **📖 主编点评**
 
-如果你打算在本地跑推理或做 Agent 的离线实验，这条直接影响你的硬件选型——别急着买 RTX Spark 系列做 Linux 开发机。更值得记的是这个趋势：消费级硬件的封闭化正在从驱动层往固件层走，你选设备时要把'Linux 下能不能跑满'当成一个必查项。
+如果你关注推理部署成本，这条是本周最值得记的结构性变化：算力供给正在从"建超大园区"转向"盘活存量机房"。对个人项目的含义是，未来一两年边缘侧推理节点的地理分布会更密，延迟敏感型 Agent（语音、实时检索）的可行性会上升。可以开始留意支持多区域 endpoint 的推理服务商。
 
-📺 [打开原文](https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop)
+📺 [打开原文](https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management)
+
+---
+
+## 🌟 AI
+
+### 4. DeepSeek Harness 团队开源 Super-agent，鱼皮实测它和传统 Agent 的差别
+
+**[AI]** · ⭐⭐⭐⭐ · _程序员鱼皮_
+
+DeepSeek Harness 团队开源了 Super-agent，鱼皮这期用实测拆它的工作机制：和传统 Agent 的区别在哪、是否真能提升效率。这是本周候选池里唯一一条带工程视角的新模型/新框架解读，发布时间 11 月 5 日，属于首发窗口。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| DeepSeek Harness 团队开源了 Super-agent 项目 | "Super-agent"是否为独立架构还是 Harness 上的编排层，公开信息尚不充分 |
+| 视频发布于 2026-11-05，属近期首发内容 | 实测结论的可复现性依赖具体任务集，视频未提供完整 benchmark |
+| 内容覆盖 Super-agent 与传统 Agent 的机制差异与实测 | 开源仓库的维护活跃度与文档完整度需要自行验证 |
+| 面向 AI 编程爱好者与 AI 应用开发者 | 与 MCP / Skills 生态的兼容性尚不明确 |
+| 同团队此前有 DeepSeek Harness 与 Claude Code 的对比实测内容 |  |
+
+**📖 主编点评**
+
+你的 content-curator 正好是 Agent 编排类项目，值得花 20 分钟看这期并顺手 clone 仓库。重点不是"它比 Claude Code 强不强"，而是看它怎么组织子 Agent 的上下文传递和工具调用边界——这部分设计思路可以直接搬到你的项目里。看完建议自己跑一个最小任务做对照。
+
+📺 [打开原文](http://www.bilibili.com/video/av117564076202051)
 
 ---
 
 ## 🌟 金融
 
-### 5. Tesla 将于 2027 年停产 Cybertruck，工厂转产 Cybercab
+### 5. 特斯拉 2027 年停产 Cybertruck，工厂转产 Cybercab；两日内特斯拉与 SpaceX 合计蒸发 4200 亿美元市值
 
 **[金融]** · ⭐⭐⭐⭐ · _PLenz_
 
-Tesla 确认 2027 年停产 Cybertruck，销量长期不及预期，产线将改用于生产 Cybercab。同期 Tesla 和 SpaceX 两天合计蒸发超 4200 亿美元市值。这是 Musk 帝国在 AI 叙事之外第一次公开承认一条产品线的失败。
+马斯克确认 Cybertruck 将在 2027 年停产，产线改做 Cybercab。销量长期不及预期是直接原因。叠加同期特斯拉与 SpaceX 两天内合计蒸发超 4200 亿美元市值，这是本周最具体的一次"叙事兑现失败"案例。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Tesla 将于 2027 年停止 Cybertruck 生产 | Cybercab 能否填补 Cybertruck 的产能和收入缺口，取决于自动驾驶监管进度 |
-| 停产原因是销量长期低于预期，Musk 称工厂空间将用于生产更多 Cybercab | 4200 亿市值蒸发里有多少是 AI 叙事折价、多少是汽车业务基本面，难以拆分 |
-| Tesla 和 SpaceX 两天合计市值蒸发超 4200 亿美元 | Dojo 3 上太空和 SI6 的 80 倍数字缺乏第三方验证 |
-| Tesla 同期公布 AI 加速器路线图，SI6 号称带来 80 倍算力提升，Dojo 3 计划上太空 | Tesla 的 AI 转型能否撑住估值，要看 2027 年 Cybercab 量产是否兑现 |
-| Cybertruck 此前已在澳大利亚和新西兰取消，涉及 7 年订金 |  |
+| 特斯拉确认 Cybertruck 将于 2027 年停止生产 | Cybercab 的产能爬坡时间表尚未公布，转产能否填补收入缺口未知 |
+| 停产原因是销量长期低于预期 | 4200 亿蒸发中有多少归因于 Cybertruck、多少归因于整体 AI 交易回调，无法拆分 |
+| 原产线将转产 Cybercab | 特斯拉定制 AI 加速器 SI6 路线图与本次停产无直接财务关联 |
+| 特斯拉与 SpaceX 两日内合计市值蒸发超 4200 亿美元 | SpaceX 估值波动主要来自一级市场重估，与二级市场不可直接比较 |
+| Cybertruck 此前已在澳大利亚和新西兰取消订单（累计 7 年定金） |  |
 
 **📖 主编点评**
 
-这条放在头条是因为它是个'叙事与现实脱节'的样本：一边停产失败产品，一边发布 80 倍算力的路线图。你写行业分析或做产品判断时，可以拿它当案例——看一家公司怎么用未来叙事对冲当下的产品失败。对你的项目没直接行动项，但值得记进素材库。
+这条是给你做判断校准用的：一个产品从发布到停产只用了几年，而同期它的 AI 叙事还在加码。看公司时把"产品兑现"和"叙事估值"分开记账，这个习惯在你评估 AI 工具厂商时同样适用——发布会的 demo 和实际留存之间，通常隔着一整个 Cybertruck。
 
 📺 [打开原文](https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817)
 
@@ -120,50 +128,50 @@ Tesla 确认 2027 年停产 Cybertruck，销量长期不及预期，产线将改
 
 ## 📋 备选池
 
-### AI
-
-- [DeepSeek 新出的 Super Agent 是什么？真有用么？](http://www.bilibili.com/video/av117564076202051) —— 11 月 5 日发布，讲 DeepSeek Harness 团队开源的 Super-agent 和传统 Agent 的区别，时效性最好的一条中文实测。
-  _程序员鱼皮_
-- [最新 Skills 开发教程，Agent skill 实战｜WorkBuddy+Codex+DeepSeek Harness](http://www.bilibili.com/video/av117511429295044) —— 10 月 28 日发布，Skills 开发是目前 Agent 工程里最缺实战教程的方向，契合你的偏好，但内容偏课程化。
-  _尚硅谷_
-- [一个 CLI 干掉所有 MCP 工具，省 99% 的 token mcp2cli](http://www.bilibili.com/video/av116204349953548) —— 把 MCP 服务器转成 CLI、用懒发现把 token 从数十万降到几千，工程细节够硬，但发布已 8 个月，新颖度打折。
-  _探索未至之境_
-- [14k Star Claude Code 开源桌面端，能自动操作电脑了！](http://www.bilibili.com/video/av117251936293145) —— 基于泄露源码做的 cc-haha 桌面端，Computer Use 能自己看屏幕操作 APP，适合看 Agent 落地形态，但属个人项目。
-  _程序员阿江-Relakkes_
-
 ### AI 算力 / 半导体
 
-- [Marvell 以 1150 亿美元全股票收购 Lumentum](https://www.tomshardware.com/tech-industry/semiconductors/marvell-to-buy-lumentum-in-usd115-billion-all-stock-deal-combined-company-to-supply-scale-up-and-scale-in-optics-for-ai-data-centers) —— AI 数据中心光互连的整合大单，1150 亿美元全股票，产业级别但离你的日常关注稍远。
+- [Marvell 以 1150 亿美元全股票收购 Lumentum，押注 AI 数据中心光互联](https://www.tomshardware.com/tech-industry/semiconductors/marvell-to-buy-lumentum-in-usd115-billion-all-stock-deal-combined-company-to-supply-scale-up-and-scale-in-optics-for-ai-data-centers) —— 全股票 1150 亿是本周最大并购，光互联正在成为算力瓶颈的下一个战场，但全股票交易的对价含金量需打折看。
   _Etiido Uko_
-- [GlobalFoundries 详解 FDX Fusion：不用 EUV 做到 7nm 级性能，目标 2030 量产](https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow) —— 平面 FD-SOI 绕开 EUV 的路线，对半导体工艺格局有意义，但 2030 量产太远，短期无行动价值。
+- [GlobalFoundries 公布 FDX Fusion：不用 EUV 做到 7nm 级性能，目标 2030 量产](https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow) —— 绕开 EUV 的路线对非美供应链有战略意义，但 2030 量产太远，短期不影响任何选型决策。
   _Anton Shilov_
-- [IBM、AMD 与美国国家实验室共建量子-经典混合系统](https://www.eetimes.com/ibm-amd-mix-quantum-and-ai-at-u-s-national-lab/) —— 在 Oak Ridge 部署混合量子-经典系统加速纠错研究，目标 2028，属长期基础设施布局。
-  _Alan Patterson_
+- [Nvidia RTX Spark 加密固件被指在 Linux 上把推理速度压到 35%](https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop) —— 本地推理玩家必看，但只有单一来源与 614 分讨论，缺独立复现，先当线索不当结论。
+  _novaRom_
+- [Gelsinger 支持的 Nagare Labs 发布 Z2RAM：SRAM 速度、DRAM 密度](https://www.tomshardware.com/tech-industry/semiconductors/gelsinger-backed-nagare-labs-capacitorless-z2ram-promises-sram-speed-with-dram-density-latest-published-cell-retains-data-for-over-300-seconds-at-85-c-but-further-figures-are-projected) —— 85°C 下保持 300 秒的数据点很具体，但仍是实验室单元级结果，离可堆叠量产有距离。
+  _Shane Downing_
 
 ### 大厂 AI 动态
 
-- [Gemini Omni 1.2 Flash 发布](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/) —— 11 月 6 日刚发的多模态 Flash 模型，时效性最好，但官方博客信息量有限，缺第三方评测。
+- [Gemini Omni 1.2 Flash 发布，Google 一周内第三次模型更新](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/) —— 发布节奏值得记，但候选池里缺具体 benchmark 与定价，信息密度不足以进头条。
   _thisisauserid_
-- [Tell HN：Gemini 对订阅用户也拿聊天记录训练模型](https://news.ycombinator.com/item?id=50363461) —— 726 分的 HN 讨论，涉及个人账号隐私，对你用 Gemini 做项目有实际影响，但属用户爆料非官方确认。
+- [Tell HN：Gemini 对订阅用户的个人账号聊天记录也用于训练](https://news.ycombinator.com/item?id=50363461) —— 726 分的 HN 讨论，隐私条款层面的事实，对重度用户有直接影响，但属社区爆料而非官方确认。
   _jameslk_
-- [An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI](https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/) —— 契合你'想多看 AI 名人访谈'的反馈，Ben Thompson 的深度对话，但主题是会计行业，离你的方向稍偏。
+- [Meta 为 Muse Agent 推出 Spaces，可在应用内搭建定制化小组件](https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/) —— Agent 产品形态往"可组合空间"走的又一个样本，但 Meta 的 Agent 生态对个人开发者开放度未知。
+  _Lucas Ropek_
+- [Stratechery 专访 Intuit CEO Sasan Goodarzi：会计行业与 AI](https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/) —— 契合你想多看名人访谈的偏好，但主题偏垂直行业 SaaS，与你当前项目关联弱，放备选。
   _Ben Thompson_
 
 ### 股票
 
-- [Oracle 申请发行 200 亿美元新股和债券为 AI 基建融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 基建从股权融资转向债务融资的信号，和本周抛售是同一条线，但单条信息量不如头条。
+- [Oracle 申请发行 200 亿美元新股与债券，为 AI 基建融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 基建从股权融资转向债务融资的标志性动作，但已是 11 月 2 日消息，时效稍旧。
   _smartmic_
-- [研究机构称 Anthropic IPO 是'对投资者轻信的史无前例考验'](https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html) —— 对 Anthropic IPO 最尖锐的质疑，和头条 2 互补，但发布于一个月前，新颖度不足。
+- [研究机构称 Anthropic IPO 是"对投资者轻信度的空前考验"](https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html) —— 观点尖锐但发布于 10 月 7 日，且属卖方观点，作为 IPO 定价讨论的对照材料更合适。
   _m463_
 
 ### 金融
 
-- [Mark Cuban：Facebook 明知故犯跑 AI 深度伪造诈骗广告，文件显示 160 亿美元欺诈收入](https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html) —— 507 分的 HN 讨论，涉及平台责任和 AI 诈骗，但属指控性内容，事实链条待核实。
+- [Mark Cuban：Facebook 明知故犯地跑 AI 深度伪造诈骗广告，文件显示 160 亿美元欺诈收入](https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html) —— 507 分的 HN 讨论，涉及平台责任与 AI 广告审核，但核心证据来自 Cuban 单方披露，待核实。
   _randycupertino_
-- [美国联邦预算赤字一年跳增 12% 至近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 宏观背景数据，解释利率和 AI 基建融资成本的压力来源，但单条不构成事件。
+- [美国联邦预算赤字一年跳增 12%，接近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 宏观底色数据，解释利率为何难降、AI 基建融资为何变贵，但单条信息增量有限。
   _ck2_
-- [3000 亿美元'债务墙'逼近 PE 支持的公司](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497) —— 和 AI 基建债务融资是同一条风险线，但发布于 10 月 27 日，且偏宏观综述。
+- [3000 亿美元"债务墙"逼近 PE 控股公司](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497) —— 与 AI 基建债务融资是同一根链条的另一端，但发布于 10 月 27 日，非本周新增。
   _JumpCrisscross_
+
+### AI
+
+- [尚硅谷：Agent Skills 开发教程，WorkBuddy + Codex + DeepSeek Harness 实战](http://www.bilibili.com/video/av117511429295044) —— 10 月 28 日发布，Skills 是当前 Agent 工程的热点，但机构课偏流程化，深度需自行筛选。
+  _尚硅谷_
+- [14k Star 的 Claude Code 开源桌面端 cc-haha，重构 Computer Use 可后台操作电脑](http://www.bilibili.com/video/av117251936293145) —— 基于泄露源码做的桌面端，工程细节有意思，但合规风险与可持续性存疑，不适合作为头条推荐。
+  _程序员阿江-Relakkes_
 
 ---
 
