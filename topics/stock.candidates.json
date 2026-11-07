@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-06T10:40:18.383454+00:00",
+  "fetched_at": "2026-11-07T09:51:12.979832+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 17,
-    "HN · IPO": 20,
+    "HN · stock market": 15,
+    "HN · IPO": 14,
     "HN · earnings": 2,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 60,
+  "total": 52,
   "items": [
     {
       "id": "hn:50306008",
@@ -51,7 +51,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50346153"
       },
       "duration_sec": null,
-      "views": 234,
+      "views": 235,
       "comments": 226,
       "published_at": "2026-11-03T00:08:53+00:00",
       "summary": "",
@@ -70,7 +70,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50342284"
       },
       "duration_sec": null,
-      "views": 199,
+      "views": 200,
       "comments": 176,
       "published_at": "2026-11-02T19:27:37+00:00",
       "summary": "",
@@ -89,8 +89,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50384822"
       },
       "duration_sec": null,
-      "views": 154,
-      "comments": 135,
+      "views": 163,
+      "comments": 157,
       "published_at": "2026-11-05T21:39:26+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -111,6 +111,25 @@
       "views": 100,
       "comments": 140,
       "published_at": "2026-10-25T15:28:40+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50401029",
+      "title": "The AI sell-off compared to well-known stock market crashes",
+      "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50401029",
+        "name": "hubraumhugo",
+        "hn_url": "https://news.ycombinator.com/item?id=50401029"
+      },
+      "duration_sec": null,
+      "views": 63,
+      "comments": 62,
+      "published_at": "2026-11-07T02:20:06+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -165,7 +184,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50352405"
       },
       "duration_sec": null,
-      "views": 38,
+      "views": 39,
       "comments": 1,
       "published_at": "2026-11-03T14:27:03+00:00",
       "summary": "",
@@ -184,8 +203,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50389401"
       },
       "duration_sec": null,
-      "views": 29,
-      "comments": 13,
+      "views": 36,
+      "comments": 17,
       "published_at": "2026-11-06T07:52:53+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -203,28 +222,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50384382"
       },
       "duration_sec": null,
-      "views": 29,
+      "views": 32,
       "comments": 7,
       "published_at": "2026-11-05T20:58:36+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50383675",
-      "title": "Wipeout for AI stocks sends Wall Street reeling and S&P 500 tumbles more than 3%",
-      "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50383675",
-        "name": "jethronethro",
-        "hn_url": "https://news.ycombinator.com/item?id=50383675"
-      },
-      "duration_sec": null,
-      "views": 20,
-      "comments": 3,
-      "published_at": "2026-11-05T19:58:06+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -241,8 +241,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50381623"
       },
       "duration_sec": null,
-      "views": 218,
-      "comments": 172,
+      "views": 225,
+      "comments": 183,
       "published_at": "2026-11-05T17:11:15+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -279,8 +279,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50382179"
       },
       "duration_sec": null,
-      "views": 160,
-      "comments": 190,
+      "views": 162,
+      "comments": 191,
       "published_at": "2026-11-05T18:00:01+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -298,47 +298,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50386909"
       },
       "duration_sec": null,
-      "views": 44,
-      "comments": 11,
+      "views": 46,
+      "comments": 18,
       "published_at": "2026-11-06T01:11:40+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50348591",
-      "title": "How AI is creating a lopsided US economy",
-      "url": "https://www.abc.net.au/news/2026-10-19/ai-stock-market-concentration-data/107261078",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50348591",
-        "name": "gmays",
-        "hn_url": "https://news.ycombinator.com/item?id=50348591"
-      },
-      "duration_sec": null,
-      "views": 24,
-      "comments": 0,
-      "published_at": "2026-11-03T05:58:27+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50325107",
-      "title": "The question we should all be asking about AI",
-      "url": "https://www.cnn.com/2026/10/30/business/ai-stocks-bonds-debt",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50325107",
-        "name": "heresie-dabord",
-        "hn_url": "https://news.ycombinator.com/item?id=50325107"
-      },
-      "duration_sec": null,
-      "views": 23,
-      "comments": 22,
-      "published_at": "2026-11-01T12:44:36+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -355,8 +317,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50344919"
       },
       "duration_sec": null,
-      "views": 405,
-      "comments": 321,
+      "views": 406,
+      "comments": 322,
       "published_at": "2026-11-02T22:30:47+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -377,6 +339,25 @@
       "views": 326,
       "comments": 296,
       "published_at": "2026-10-30T17:27:25+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50394906",
+      "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50394906",
+        "name": "dgellow",
+        "hn_url": "https://news.ycombinator.com/item?id=50394906"
+      },
+      "duration_sec": null,
+      "views": 281,
+      "comments": 555,
+      "published_at": "2026-11-06T16:54:36+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -439,6 +420,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50395318",
+      "title": "Anthropic IPO valuation talks drop to $1.3T",
+      "url": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50395318",
+        "name": "arbuge",
+        "hn_url": "https://news.ycombinator.com/item?id=50395318"
+      },
+      "duration_sec": null,
+      "views": 93,
+      "comments": 2,
+      "published_at": "2026-11-06T17:21:15+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50386597",
       "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
       "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’",
@@ -450,8 +450,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50386597"
       },
       "duration_sec": null,
-      "views": 85,
-      "comments": 94,
+      "views": 90,
+      "comments": 107,
       "published_at": "2026-11-06T00:31:11+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -526,7 +526,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50351712"
       },
       "duration_sec": null,
-      "views": 32,
+      "views": 33,
       "comments": 82,
       "published_at": "2026-11-03T13:26:43+00:00",
       "summary": "",
@@ -553,63 +553,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50071744",
-      "title": "Sprout Pi Mainboard – A modern, RP2350-powered motherboard for iPods",
-      "url": "https://www.crowdsupply.com/certain-things/sprout-pi-mainboard",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50071744",
-        "name": "esskay",
-        "hn_url": "https://news.ycombinator.com/item?id=50071744"
-      },
-      "duration_sec": null,
-      "views": 21,
-      "comments": 1,
-      "published_at": "2026-10-13T13:49:44+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50251762",
-      "title": "Anthropic Is the Most Ridiculous IPO of 2026 [pdf]",
-      "url": "https://www.newconstructs.com/wp-content/uploads/2026/10/Anthropic-Is-The-Most-Ridiculous-IPO-of-2026.pdf",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50251762",
-        "name": "simonebrunozzi",
-        "hn_url": "https://news.ycombinator.com/item?id=50251762"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 5,
-      "published_at": "2026-10-26T22:06:15+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50243343",
-      "title": "Anthropic rushing IPO before AI bubble bursts",
-      "url": "https://nypost.com/2026/10/23/business/wall-street-is-urging-anthropic-openai-to-do-their-ipos-in-a-hurry-heres-why/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50243343",
-        "name": "nothrowaways",
-        "hn_url": "https://news.ycombinator.com/item?id=50243343"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 2,
-      "published_at": "2026-10-26T13:30:05+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
       "id": "hn:50337454",
       "title": "Jobless tech workers are being left out of San Francisco's AI boom",
       "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
@@ -622,103 +565,8 @@
       },
       "duration_sec": null,
       "views": 188,
-      "comments": 257,
+      "comments": 258,
       "published_at": "2026-11-02T14:40:05+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50171533",
-      "title": "Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs",
-      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50171533",
-        "name": "mmmmmbop",
-        "hn_url": "https://news.ycombinator.com/item?id=50171533"
-      },
-      "duration_sec": null,
-      "views": 21,
-      "comments": 2,
-      "published_at": "2026-10-20T19:34:39+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50177795",
-      "title": "Anthropic disclosed an $80.7B net loss for the first half of 2026",
-      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50177795",
-        "name": "joennlae",
-        "hn_url": "https://news.ycombinator.com/item?id=50177795"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 12,
-      "published_at": "2026-10-21T08:51:15+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50326281",
-      "title": "Ant: Can unprecedented revenue growth outrun irresponsibly large investment",
-      "url": "https://leonlins.com/writing/anthropic_ipo",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50326281",
-        "name": "avoidboringppl",
-        "hn_url": "https://news.ycombinator.com/item?id=50326281"
-      },
-      "duration_sec": null,
-      "views": 16,
-      "comments": 3,
-      "published_at": "2026-11-01T14:56:13+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50323575",
-      "title": "We're Living in the Age of the Imperial CEO",
-      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-dual-class-stock-founder-control-4c43a56d",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50323575",
-        "name": "pretext",
-        "hn_url": "https://news.ycombinator.com/item?id=50323575"
-      },
-      "duration_sec": null,
-      "views": 16,
-      "comments": 0,
-      "published_at": "2026-11-01T08:09:48+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50385642",
-      "title": "Michael Burry says Anthropic is 'betting its existence' on optimism",
-      "url": "https://www.businessinsider.com/michael-burry-anthropic-ipo-outlook-ant-big-short-2026-11",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50385642",
-        "name": "mgh2",
-        "hn_url": "https://news.ycombinator.com/item?id=50385642"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 6,
-      "published_at": "2026-11-05T22:49:47+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -778,6 +626,23 @@
       "published_at": "2026-10-18T16:48:25+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.netinterest.co/p/the-insatiable-demand-for-alpha",
+      "title": "The Insatiable Demand for Alpha",
+      "url": "https://www.netinterest.co/p/the-insatiable-demand-for-alpha",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-06T17:59:24+00:00",
+      "summary": "Why a market shakedown could leave the biggest pod shops stronger",
       "lang": "en"
     },
     {
@@ -1101,23 +966,6 @@
       "views": null,
       "published_at": "2026-06-19T15:27:46+00:00",
       "summary": "Wise and the Business of Moving Money",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.netinterest.co/p/jules-rimet-still-gleaming",
-      "title": "Jules Rimet Still Gleaming",
-      "url": "https://www.netinterest.co/p/jules-rimet-still-gleaming",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T16:13:59+00:00",
-      "summary": "The World Cup Comes to Prediction Markets",
       "lang": "en"
     }
   ]

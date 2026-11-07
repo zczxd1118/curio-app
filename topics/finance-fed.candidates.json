@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-06T10:40:25.917694+00:00",
+  "fetched_at": "2026-11-07T09:51:21.800763+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,16 +11,50 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 24,
+    "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 2,
     "HN · inflation": 0,
-    "HN · Tesla": 3,
+    "HN · Tesla": 4,
     "HN · finance": 17,
-    "HN · fed": 19
+    "HN · fed": 20
   },
   "subtopics": [],
-  "total": 93,
+  "total": 71,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/falling-leaves-and-stocks/",
+      "title": "2026.45: Falling Leaves (and Stocks)",
+      "url": "https://stratechery.com/2026/falling-leaves-and-stocks/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-06T18:14:42+00:00",
+      "summary": "The best Stratechery content from the week of November 2, 2026, including AI on the ballot, a Google state of the union, and China.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/",
+      "title": "Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google’s Response to AI",
+      "url": "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-06T11:00:00+00:00",
+      "summary": "Sharp Tech is, for the first time, available on video. You have two ways to consume it: YouTube, and here on Stratechery",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
       "title": "An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI",
@@ -158,37 +192,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/",
-      "title": "Anthropic S-1, The Cost of Compute, Who Is Paying?",
-      "url": "https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/",
+      "id": "rss:https://www.netinterest.co/p/the-insatiable-demand-for-alpha",
+      "title": "The Insatiable Demand for Alpha",
+      "url": "https://www.netinterest.co/p/the-insatiable-demand-for-alpha",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-10-27T10:32:57+00:00",
-      "summary": "Anthropic's IPO is finally here; the core business is very profitable, but competition may eat all of the profits, even as investors are set up for endless dilution.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/the-end-of-the-internet/",
-      "title": "The End of the Internet",
-      "url": "https://stratechery.com/2026/the-end-of-the-internet/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-10-26T10:00:00+00:00",
-      "summary": "The old Internet, where anyone could host a server is over, but it's just the final blow in an ending that has been coming for years. The future, though, is brighter than it appears.",
+      "published_at": "2026-11-06T17:59:24+00:00",
+      "summary": "Why a market shakedown could leave the biggest pod shops stronger",
       "lang": "en"
     },
     {
@@ -515,431 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.netinterest.co/p/jules-rimet-still-gleaming",
-      "title": "Jules Rimet Still Gleaming",
-      "url": "https://www.netinterest.co/p/jules-rimet-still-gleaming",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-12T16:13:59+00:00",
-      "summary": "The World Cup Comes to Prediction Markets",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.06919",
-      "title": "Return Decomposition of Hybrid Strategies in the Brazilian Market: Evidence of Genuine Alpha and Factor Exposure",
-      "url": "https://arxiv.org/abs/2611.06919",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Francisco Robson do Nascimento de Freitas, Felipe Macedo Zumba, Lucio Marassi, Jian Vingthor Souza Luna de Azevedo",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.06919v1 Announce Type: new Abstract: This paper decomposes the return sources of a hybrid portfolio combining a fundamentalist screen - based on P/E, ROE, Net Margin, Current Ratio, and P/BV - with a moving-average crossover system (SMA 9/46), applied to the Brazilian stock exchange (B3) from January 2000 to December 2025 (300 monthly observations). CAPM and Fama-French three- and four-factor models estimated by OLS with heteroskedasticity-robust standard errors identify a positive an...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.07110",
-      "title": "Credibility Clustering for Experience Rating: An Automated Approach to Risk Group Allocation in Group Life Insurance",
-      "url": "https://arxiv.org/abs/2611.07110",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Thom van Rijn, Frank Weber, Michael Merz",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.07110v1 Announce Type: new Abstract: In insurance, experience rating plays a crucial role in mitigating adverse selection by adjusting premiums according to historical claims experience. A key step in this process is the classification of insured collectives into homogeneous risk groups. Within group life insurance, this classification traditionally relies on manual decisions and arbitrary thresholds, which may lead to inefficiencies and inconsistent outcomes. This paper proposes a da...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.07120",
-      "title": "A Rough Instantaneous Squared VIX Model for Term Structure and Option Pricing",
-      "url": "https://arxiv.org/abs/2611.07120",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Tianfeng Yang, Wen Su, Blanka Horvath",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.07120v1 Announce Type: new Abstract: The VIX term structure provides forward-looking measures of market uncertainty across horizons, while VIX options allow investors to hedge volatility risk. This paper proposes a rough instantaneous squared VIX (RISVIX) model by introducing fractional memory into the conventional Markovian framework. We derive an explicit representation of the VIX term structure governed by Mittag--Leffler decay and a semi-closed-form pricing formula for VIX options...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.07287",
-      "title": "Neural Realized Measures: Forecast-Supervised Intraday Aggregation for Volatility Forecasting",
-      "url": "https://arxiv.org/abs/2611.07287",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Brian Sing Fan Chan, Jennifer So Kuen Chan",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.07287v1 Announce Type: new Abstract: High-frequency volatility forecasting typically separates measurement from prediction: intraday observations are first compressed into a daily realized measure using a fixed aggregation rule, and the resulting statistic is then passed to a forecasting model. This conventional pipeline therefore treats measure construction as forecast-agnostic preprocessing. We ask whether the aggregation stage itself can instead be learned from the downstream forec...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.07457",
-      "title": "Information-Theoretic Model for the Growth Optimal Portfolio of Stocks",
-      "url": "https://arxiv.org/abs/2611.07457",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Eckhard Platen, Kevin Fergusson",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.07457v1 Announce Type: new Abstract: Drawing on information-theoretic principles and empirical evidence, a proxy for the growth-optimal portfolio of stocks (the benchmark) is constructed and modeled. The derivative of its activity time captures overreactions in trading behavior and follows a fast-moving, quasi-stationary scalar diffusion. The benchmark's log-returns are predicted to follow a Student t distribution with degrees of freedom slightly less than four, and this prediction is...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.08031",
-      "title": "Economies of scale and the equity-efficiency trade-off: Evidence from a piped water network in rural Bangladesh",
-      "url": "https://arxiv.org/abs/2611.08031",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Md. Ahasan Habib, Anna Tompsett",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.08031v1 Announce Type: new Abstract: Policymakers who set prices for public infrastructure often anticipate an equity-efficiency trade-off: while higher prices could increase revenues from fee-paying users, helping to offset costs, they may reduce take-up among the poor. But this trade-off is fundamentally altered in the presence of economies of scale, which are common in infrastructure networks. We elicit willingness to pay for a household-level piped drinking water connection in rur...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.08430",
-      "title": "Cross-Border Ownership and Input Access: Evidence from the Lithium Supply Chain",
-      "url": "https://arxiv.org/abs/2611.08430",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Kei Irizawa",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.08430v1 Announce Type: new Abstract: How does cross-border ownership shape the lithium supply chain? Using global data on mines and refineries, I estimate a model in which ownership can lower refiners' effective ore costs, encourage mines to restrict spot sales, and soften competition. To study these effects, I examine policies motivated by national security concerns about reliable access to critical mineral inputs: divestiture of Chinese stakes in overseas producers and a ban on ore ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.07083",
-      "title": "Necessary and sufficient conditions for the martingale property of stochastic exponentials driven by multi-dimensional diffusions",
-      "url": "https://arxiv.org/abs/2611.07083",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Erhan Bayraktar, Hao Xing",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.07083v1 Announce Type: cross Abstract: We give necessary and sufficient coefficient conditions for stochastic exponentials driven by multidimensional diffusions to be true martingales. The classical reduction to non-exit of the diffusion with Girsanov-shifted drift separates the analysis into smooth boundary points, infinity, and nonsmooth boundary pieces. On smooth domains, under regularity and non-explosion hypotheses, martingality is equivalent to nonpositivity of the shifted Fiche...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.07464",
-      "title": "FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance",
-      "url": "https://arxiv.org/abs/2611.07464",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Yupeng Cao, Xueqing Peng, Lingfei Qian, Haohang Li, Yangyang Yu, Anke Xu, Wenbo Cao, Yan Wang, Yuechen Jiang, Yuyan Wang, Zhuohan Xie, Yankai Chen, Zehan Li, Jimin Huang, Xue Liu, Jian-Yun Nie, Sophia Ananiadou",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.07464v1 Announce Type: cross Abstract: Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest. The data must come from the Web, the strategy lives in the user's head, and correctness depends on time, so an agent can fail silently: a strategy the user never asked for, unverified data, or a backtest that uses the future yields a report as convincing as a correct one. Existing benchmarks close the world somewhere, fixing the task, the d...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.07699",
-      "title": "Stay, Reposition, or Recharge: Battery-Aware Operation of Robotaxi Fleets",
-      "url": "https://arxiv.org/abs/2611.07699",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Philipp Af\\`eche (Kamessi), Saif Benjaafar (Kamessi), Jiayu (Kamessi), Zhao",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.07699v1 Announce Type: cross Abstract: Electric robotaxis are rapidly expanding from pilots to scaled commercial deployment; unlike traditional human-driven ride-hailing vehicles, they require centralized fleet control and careful management of vehicle state of charge (SoC). We study how a fleet manager should jointly make service, empty repositioning, idling, and charging decisions in such systems. We develop a continuous-time fluid model in which vehicles evolve across location-char...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2501.01748",
-      "title": "On consistency of optimal portfolio choice for state-dependent exponential utilities",
-      "url": "https://arxiv.org/abs/2501.01748",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Edoardo Berton, Marzia De Donno, Marco Maggis",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2501.01748v2 Announce Type: replace Abstract: In a complete Brownian market, we characterize consistency across investment horizons for state-dependent exponential utilities. We show that consistency is equivalent to an explicit relation between the drift and diffusion of risk tolerance and a deterministic absolutely continuous function. Within this family, the forward performance property selects a unique coefficient. More generally, under the stated admissibility conditions, a forward pe...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2502.17906",
-      "title": "Why financial prices exhibit Brownian motion despite predictable order flow: An exactly solvable nonlinear price impact model",
-      "url": "https://arxiv.org/abs/2502.17906",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Yuki Sato, Shunta Fujiwara, Kiyoshi Kanazawa",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2502.17906v5 Announce Type: replace Abstract: In econophysics, there are two enigmatic empirical laws of financial market microstructure: (i) the market-order flow has predictable persistence due to metaorder splitting by institutional investors, as formulated by the Lillo--Mike--Farmer model. However, this phenomenon seems paradoxical given the diffusive and unpredictable price dynamics. (ii) The price impact $I(Q_{\\rm tot})$ of a large metaorder $Q_{\\rm tot}$ follows the square-root law,...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2510.02906",
-      "title": "FinMultiHopQA: A KG-Grounded Multi-Hop Financial QA Benchmark for Evidence-Driven Reasoning",
-      "url": "https://arxiv.org/abs/2510.02906",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Abhinav Arun, Reetu Raj Harsh, Bhaskarjit Sarmah, Stefano Pasquali",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2510.02906v2 Announce Type: replace Abstract: Multi-hop financial question answering often requires composing evidence distributed across filing sections, fiscal years, and peer companies. Prior financial QA benchmarks address parts of this problem individually, but none jointly support controlled multi-hop taxonomies, document topologies, motif-level reproducibility, and provenance-linked auditability at scale. We introduce FinMultiHopQA, a benchmark of 15,600 qualitative and quantitative...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2512.16587",
-      "title": "Did a feedback mechanism between propositional and prescriptive knowledge create modern growth?",
-      "url": "https://arxiv.org/abs/2512.16587",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Julius Koschnick",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2512.16587v3 Announce Type: replace Abstract: Joel Mokyr has argued that self-sustained modern growth originated from a feedback loop between propositional (theoretical) and prescriptive (applied) knowledge that turned positive during the eighteenth century \"Industrial Enlightenment\". This paper presents the first quantitative test of whether such a feedback loop existed. For this, it introduces new text-based measures for 1) the innovativeness of publications and 2) knowledge spillovers. ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2602.07688",
-      "title": "Could It Have Fit Anything? Restrictiveness of Economic Models, LLMs, and AI Workflows",
-      "url": "https://arxiv.org/abs/2602.07688",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Drew Fudenberg, Wayne Yuan Gao, Zhiheng You",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2602.07688v4 Announce Type: replace Abstract: How much does a prediction procedure rule out when its model class is unspecified? We extend restrictiveness from economic models to black-box procedures by measuring how well they approximate simulated prediction rules satisfying specified economic restrictions. The measure applies to continuum domains, and converges to model-class restrictiveness under risk consistency. We provide simulation-based estimators and inference, and apply the measu...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2603.22569",
-      "title": "Proxy-Reliance Control in Conformal Recalibration of One-Sided Value-at-Risk",
-      "url": "https://arxiv.org/abs/2603.22569",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Tenghan Zhong",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2603.22569v2 Announce Type: replace Abstract: We introduce a proxy-reliance-controlled conformal recalibration framework for one-sided Value-at-Risk (VaR), and study a question that existing state-aware methods do not usually isolate: how strongly should the recalibration adjustment depend on an imperfect volatility proxy? We formalize this through a proxy-reliance parameter that continuously interpolates between an approximately constant-shift correction and a fully proxy-scaled correctio...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2607.05011",
-      "title": "Reaction-boundary variance and adjoint-consistent local-volatility projection",
-      "url": "https://arxiv.org/abs/2607.05011",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Christopher Angstmann, Tim Gebbie",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2607.05011v4 Announce Type: replace Abstract: We derive an operational-time variance kernel for a latent-order-book reaction boundary and use it to separate three objects usually collapsed in calendar-time volatility models: a structural boundary cumulant, a clock projection, and a pricing-measure choice. The reaction boundary is the zero of a bid--ask imbalance field. For a locally linear book, signed order-flow perturbations displace this zero through a damped Abel response kernel, so th...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.37820",
-      "title": "Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space",
-      "url": "https://arxiv.org/abs/2609.37820",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Marcus Gawronsky, Chun-Sung Huang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2609.37820v2 Announce Type: replace Abstract: When firms respond to new market opportunities, their capacity choices alter the future discounted free cash flows available to both competitors and investors. In competitive markets, these investment decisions publicized in news articles and analyst reports, measuring the changes in capital structure, product mix, firm leadership, risk exposure and operating procedure made by the firm. Modern search engines rely on Large Language Models to mea...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.11093",
-      "title": "Risk Ceilings and Development Deadlines: Pacing AI under Uncertain Safety Productivity",
-      "url": "https://arxiv.org/abs/2610.11093",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Li Gan",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2610.11093v3 Announce Type: replace Abstract: Can a regulator promise both a risk ceiling and a development deadline when safety productivity is unknown? A ceiling below the final model's unprotected hazard requires a minimum stock of safety knowledge, so both promises hold only if weak research can be ruled out. Learning first and then replaying development, with spare compute in safety, comes close to that minimum. In a calibration with only state risk, constant safety yield, and full kn...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.14305",
-      "title": "Safety Research and the Allocation of Frontier Compute",
-      "url": "https://arxiv.org/abs/2610.14305",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Li Gan",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2610.14305v2 Announce Type: replace Abstract: During a frontier takeoff period, an AI lab splits a committed stock of compute among capability research, safety research, and customers, and a regulator limits both the services customers lose and how long any capability can be delayed. Extra safety compute can then come from customers or from capability research. Funding from capability research delays the end of the takeoff period, so the cheaper source depends on how much finishing raises ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.00958",
-      "title": "Quantifying Repair Risk in Crypto Option Surfaces",
-      "url": "https://arxiv.org/abs/2611.00958",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Tenghan Zhong",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2611.00958v2 Announce Type: replace Abstract: Option desks adjust crypto option quotes into price surfaces that remain within bid-ask intervals and satisfy standard no-arbitrage restrictions across strikes before computing Greeks, hedge quantities, or risk measures. For the same quote panel, however, these constraints may admit multiple such surfaces, which we call admissible repairs, with different downstream outputs. We define the resulting variation as repair risk and propose repair-ris...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2401.16754",
-      "title": "Human Responses to Algorithmic Correction: Evidence from Centre Court",
-      "url": "https://arxiv.org/abs/2401.16754",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "David Almog, Romain Gauriot, Lionel Page, Daniel Martin",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2401.16754v5 Announce Type: replace-cross Abstract: We study how algorithmic review changes error composition using Hawk-Eye records from professional tennis. Within 20 mm of the line, mistaken \"in\" call rates increase by 8.6 percentage points, while mistaken \"out\" call rates decrease by 4.1 points. Within matches, calls shift toward avoiding previously overturned errors. We find no evidence that initial accuracy deteriorates within 100 mm of the line, despite concerns that workers may rel...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2511.07235",
-      "title": "Deep Neural Operator Learning for Probabilistic Models",
-      "url": "https://arxiv.org/abs/2511.07235",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Erhan Bayraktar, Qi Feng, Zecheng Zhang, Zhaoyu Zhang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2511.07235v2 Announce Type: replace-cross Abstract: We propose a deep neural-operator framework for a general class of probabilistic models. Under global Lipschitz conditions on the operator over the entire Euclidean space-and for a broad class of probabilistic models-we establish a universal approximation theorem with explicit network-size bounds for the proposed architecture. The underlying stochastic processes are required only to satisfy integrability and general tail-probability condi...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2606.21042",
-      "title": "Absolute Continuity of Monotone Aggregations under Positive Regression Dependence",
-      "url": "https://arxiv.org/abs/2606.21042",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Ben Goldys, Max Nendel",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T05:00:00+00:00",
-      "summary": "arXiv:2606.21042v2 Announce Type: replace-cross Abstract: In this paper, we provide sufficient conditions for the absolute continuity of one-dimensional push-forwards of dependent random vectors. Suppose that $X$ has an absolutely continuous distribution and that the conditional distribution of an $\\mathbb{R}^d$-valued random vector $Y$ given $X=x$ is nondecreasing in $x\\in \\mathbb{R}$ in the usual stochastic order. For Borel maps $g\\colon \\mathbb{R}\\times\\mathbb{R}^d\\to\\mathbb{R}$ satisfying a ...",
-      "lang": "en"
-    },
-    {
       "id": "hn:50082283",
       "title": "US Says Chinese Hackers Attacked DOJ, NASA, Federal Reserve, Senate",
       "url": "https://www.usatoday.com/story/news/politics/2026/08/26/chinese-hackers-cyberattack-us-government/91473585007/",
@@ -975,6 +567,25 @@
       "published_at": "2026-10-18T16:48:25+00:00",
       "summary": "",
       "matched_keyword": "Federal Reserve",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50391456",
+      "title": "Tesla to wind down Cybertruck production",
+      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50391456",
+        "name": "PLenz",
+        "hn_url": "https://news.ycombinator.com/item?id=50391456"
+      },
+      "duration_sec": null,
+      "views": 1004,
+      "comments": 1856,
+      "published_at": "2026-11-06T12:13:51+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
       "lang": "en"
     },
     {
@@ -1027,8 +638,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50387406"
       },
       "duration_sec": null,
-      "views": 76,
-      "comments": 53,
+      "views": 84,
+      "comments": 62,
       "published_at": "2026-11-06T02:30:25+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -1046,7 +657,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50342284"
       },
       "duration_sec": null,
-      "views": 199,
+      "views": 200,
       "comments": 176,
       "published_at": "2026-11-02T19:27:37+00:00",
       "summary": "",
@@ -1103,8 +714,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50385870"
       },
       "duration_sec": null,
-      "views": 344,
-      "comments": 166,
+      "views": 507,
+      "comments": 224,
       "published_at": "2026-11-05T23:09:57+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -1122,7 +733,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50346153"
       },
       "duration_sec": null,
-      "views": 234,
+      "views": 235,
       "comments": 226,
       "published_at": "2026-11-03T00:08:53+00:00",
       "summary": "",
@@ -1236,8 +847,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50386597"
       },
       "duration_sec": null,
-      "views": 85,
-      "comments": 94,
+      "views": 90,
+      "comments": 107,
       "published_at": "2026-11-06T00:31:11+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -1331,7 +942,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50352405"
       },
       "duration_sec": null,
-      "views": 38,
+      "views": 39,
       "comments": 1,
       "published_at": "2026-11-03T14:27:03+00:00",
       "summary": "",
@@ -1350,7 +961,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50384382"
       },
       "duration_sec": null,
-      "views": 29,
+      "views": 32,
       "comments": 7,
       "published_at": "2026-11-05T20:58:36+00:00",
       "summary": "",
@@ -1559,7 +1170,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50372038"
       },
       "duration_sec": null,
-      "views": 33,
+      "views": 34,
       "comments": 28,
       "published_at": "2026-11-04T21:49:40+00:00",
       "summary": "",
@@ -1581,6 +1192,25 @@
       "views": 32,
       "comments": 4,
       "published_at": "2026-10-25T22:09:09+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50394771",
+      "title": "Only 16% of U.S. fast-charging stations meet federal NEVI standards (open data)",
+      "url": "https://chargingnear.me/data",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50394771",
+        "name": "parkgraph",
+        "hn_url": "https://news.ycombinator.com/item?id=50394771"
+      },
+      "duration_sec": null,
+      "views": 29,
+      "comments": 9,
+      "published_at": "2026-11-06T16:45:10+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"

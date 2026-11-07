@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-06T10:40:31.638926+00:00",
+  "fetched_at": "2026-11-07T09:51:26.900976+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -189,6 +189,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/the-countdown-to-q-day-has-begun/",
+      "title": "The Countdown to Q-Day Has Begun",
+      "url": "https://www.eetimes.com/the-countdown-to-q-day-has-begun/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Rebecca Pool",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-06T21:00:00+00:00",
+      "summary": "Will a quantum computer break blockchain cryptography in just two years' time? The post The Countdown to Q-Day Has Begun appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/cosmic-at-semicon-europa-2026-advancing-high-complexity-semiconductor-test-solutions/",
+      "title": "Cosmic at SEMICON Europa 2026: Advancing High-Complexity Semiconductor Test Solutions",
+      "url": "https://www.eetimes.com/cosmic-at-semicon-europa-2026-advancing-high-complexity-semiconductor-test-solutions/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Cosmic Group",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-06T18:48:20+00:00",
+      "summary": "ALTOPASCIO, Italy — Nov. 9, 2026 — Cosmic Group will participate in SEMICON Europa 2026 in Munich, held concurrently with electronica from Nov. 10 to 13, 2026. Cosmic will be located at booth C1255. Rooted in the tradition of technological innovation “Made in Europe,” the group aligns perfectly with this year’s event focus: “Europe’s Next [&#8230;] The post Cosmic at SEMICON Europa 2026: Advancing High-Complexity Semiconductor Test Solutions appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ibm-amd-mix-quantum-and-ai-at-u-s-national-lab/",
+      "title": "IBM, AMD Mix Quantum and AI at U.S. National Lab",
+      "url": "https://www.eetimes.com/ibm-amd-mix-quantum-and-ai-at-u-s-national-lab/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Alan Patterson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-06T14:10:57+00:00",
+      "summary": "IBM, AMD, and Oak Ridge launch hybrid quantum-classical system to accelerate quantum-error correction research ahead of 2028. The post IBM, AMD Mix Quantum and AI at U.S. National Lab appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/europe-chip-industry-perfect-storm-or-perfect-timing/",
       "title": "Europe’s Chip Industry: Perfect Storm or Perfect Timing?",
       "url": "https://www.eetimes.com/europe-chip-industry-perfect-storm-or-perfect-timing/",
@@ -308,57 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/nvidia-municipal-leaders-frame-ai-as-critical-urban-infrastructure/",
-      "title": "Nvidia, Municipal Leaders Frame AI as Critical Urban Infrastructure",
-      "url": "https://www.eetimes.com/nvidia-municipal-leaders-frame-ai-as-critical-urban-infrastructure/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-05T16:09:46+00:00",
-      "summary": "City officials are moving beyond isolated pilot projects toward local computing infrastructure and AI. The post Nvidia, Municipal Leaders Frame AI as Critical Urban Infrastructure appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/why-magnetic-sensor-selection-has-become-a-system-architecture-decision/",
-      "title": "Why Magnetic Sensor Selection Has Become a System Architecture Decision",
-      "url": "https://www.eetimes.com/why-magnetic-sensor-selection-has-become-a-system-architecture-decision/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Christopher McGrady",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-05T09:00:00+00:00",
-      "summary": "Kiloampere busbars, 2,000 V solar platforms, hollow-shaft robot joints and nanoamp standby budgets are pulling magnetic sensing in directions no single sensing principle can follow. Ask a traction inverter designer, a robotics engineer and someone building a battery-powered water meter what they need from a magnetic sensor, and you will get three answers with very [&#8230;] The post Why Magnetic Sensor Selection Has Become a System Architecture Decision appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/what-makes-a-quantum-company-valuable/",
-      "title": "What Makes a Quantum Company Valuable?",
-      "url": "https://www.eetimes.com/what-makes-a-quantum-company-valuable/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-05T07:00:28+00:00",
-      "summary": "Quantum investors weigh technical progress against customer demand, commercial timing, and the ability to build lasting value. The post What Makes a Quantum Company Valuable? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50362905",
       "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
       "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
@@ -371,7 +371,7 @@
       },
       "duration_sec": null,
       "views": 614,
-      "comments": 287,
+      "comments": 289,
       "published_at": "2026-11-04T08:46:29+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -427,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50348962"
       },
       "duration_sec": null,
-      "views": 289,
+      "views": 290,
       "comments": 139,
       "published_at": "2026-11-03T07:04:50+00:00",
       "summary": "",
@@ -484,8 +484,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50387738"
       },
       "duration_sec": null,
-      "views": 81,
-      "comments": 21,
+      "views": 123,
+      "comments": 27,
       "published_at": "2026-11-06T03:16:26+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -503,8 +503,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50363861"
       },
       "duration_sec": null,
-      "views": 73,
-      "comments": 86,
+      "views": 76,
+      "comments": 85,
       "published_at": "2026-11-04T11:02:23+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
