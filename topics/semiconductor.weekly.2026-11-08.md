@@ -2,42 +2,40 @@
 
 > 今日 1 条头条 + 4 条备选
 
-_今天最重要的信号只有一个：AI 叙事在资本市场被重新定价。中期选举后 Nasdaq 两日跌 5%、2.5 万亿美元市值蒸发、芯片股创 1896 年以来最差中期选举后单日表现，而 Ramp 数据显示企业 AI 支出在 Anthropic IPO 前夕停滞。另一条线是 Anthropic 用 AI 造 AI 的 METR 报告——如果模型迭代速度真的翻倍，那估值和算力支出的分歧只会更大。_
+_今天最重要的信号只有一个：AI 交易在中期选举后遭遇系统性重估——Nasdaq 单日跌 4-5%，两天蒸发 2.5 万亿美元，芯片股创 1896 年以来最差中期选举后表现。与此同时，Anthropic 的 METR 报告显示 AI 自我加速研发已跑出斜率，OpenAI 估值冲到 1.25 万亿。基本面在加速，估值在崩塌，这两件事同时成立，是本周最值得盯的张力。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. Nvidia RTX Spark 加密固件被指在 Linux 下把推理速度压到 35%，本地跑模型的硬件自由度在收缩
+### 4. TSMC 否认应 Nvidia 要求研发 3D DRAM：先进内存离量产仍有数年
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _novaRom_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Anton Shilov_
 
-HN 上一条 615 分的帖子指出，Nvidia RTX Spark 笔记本的加密固件在 Linux 环境下把推理性能限制到约 35%。这不是驱动 bug，而是固件层面的策略性限制。对依赖本地 GPU 跑开源模型的开发者来说，这是硬件厂商收紧控制权的一个具体信号。
+Tom's Hardware 报道，Nvidia 据称要求 TSMC 生产 3D DRAM 以缓解内存短缺，TSMC 公开否认正在探索该方向，并指出这类先进内存技术距市场可行仍有数年。这条否认本身比传闻更有信息量：它暴露了 AI 算力的下一个瓶颈在内存，而不在逻辑制程。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| RTX Spark 笔记本存在加密固件 | 35% 的测量方法与测试模型未在帖子中完整披露 |
-| Linux 下推理性能约为满速的 35% | 是否为反盗版/反挖矿策略的副作用，Nvidia 尚未回应 |
-| 该现象在 HN 获得 615 分讨论 | Windows 下是否存在同等限制，目前无对照数据 |
-| 限制发生在固件层而非驱动层 | 是否会影响消费级以外的产品线，暂无证据 |
+| TSMC 公开否认正在为 Nvidia 探索 3D DRAM | Nvidia 是否真的提出请求，目前只有单一信源 |
+| 报道称 Nvidia 曾就 3D DRAM 提出请求以应对内存短缺 | 3D DRAM 与 HBM 路线是替代还是互补，业界未定 |
+| TSMC 表示该技术距量产可行仍有数年 | 内存短缺对 2027 年 GPU 出货的实际约束程度未知 |
+| 同期 Nvidia 与 Micron 合计占美国盈利增长约 34% | TSMC 否认是技术判断还是客户关系考量，无法区分 |
 
 **📖 主编点评**
 
-如果你考虑用消费级 Nvidia 卡做本地推理或 Agent 沙箱，这条是明确的预警：买之前先查该型号在 Linux 下的实测吞吐，别只看纸面 TFLOPS。长期看，本地推理的硬件选择会越来越需要在「性能」和「可控性」之间做取舍，AMD/Apple Silicon 的性价比权重会上升。
-
-📺 [打开原文](https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop)
+如果你关注推理优化，这条提醒你：未来两年的瓶颈会从 FLOPS 转向内存带宽和容量。做 RAG 或长上下文 Agent 时，优先考虑能减少 KV cache 占用的方案（量化、分页注意力、上下文压缩），这些在内存受限的硬件上收益最大。
 
 ---
 
 ## 📋 备选阅读
 
-- [TSMC 否认应 Nvidia 要求探索 3D DRAM：先进内存技术距量产仍有数年](https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability) —— HBM 之后的下一代内存路线被官方否认，说明内存墙短期无解，对推理成本判断有参考价值。
-  _Anton Shilov_
-- [Nvidia 拟对每块 GPU 收取 2000 美元/年软件费，用于在 AI 基建上跑 Agent](https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform) —— 如果成真，Agent 推理的边际成本结构会变，直接影响你做 Agent 产品的成本模型。
+- [Nvidia RTX Spark 加密固件把 Linux 上推理速度压到 35%](https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop) —— HN 615 分，加密固件拖慢本地推理，对想本地跑模型的人是硬约束。
+  _novaRom_
+- [Nvidia 讨论按 GPU 收每年 2000 美元软件费，用于跑 Agent 负载](https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform) —— 按 GPU 收软件订阅费，是 Nvidia 从卖硬件转向收租的关键一步。
   _gscott_
-- [GlobalFoundries 详解 FDX Fusion：无需 EUV 做到 7nm 级性能，目标 2030 量产](https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow) —— 非 EUV 路线的具体技术参数首次公开，是半导体供应链去风险叙事里少见的硬信息。
-  _Anton Shilov_
-- [Tesla 公布 AI 加速器路线图，启用 SI 品牌：SI6 带来 80 倍算力，Dojo 3 要上太空](https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space) —— 自研推理芯片路线图，80 倍是营销数字还是实测口径需要打问号，但方向值得记录。
+- [Gelsinger 支持的 Nagare Labs 发布 Z2RAM：SRAM 速度、DRAM 密度](https://www.tomshardware.com/tech-industry/semiconductors/gelsinger-backed-nagare-labs-capacitorless-z2ram-promises-sram-speed-with-dram-density-latest-published-cell-retains-data-for-over-300-seconds-at-85-c-but-further-figures-are-projected) —— 无电容存储堆叠在 AI 加速器上，85°C 下保持 300 秒，数据尚属早期。
+  _Shane Downing_
+- [Tesla 公布 AI 加速器路线图，SI6 带来 80 倍算力，Dojo 3 要上太空](https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space) —— 自研芯片野心很大，但 80 倍和上太空都缺时间表，先记着。
   _Anton Shilov_
 
 ---
