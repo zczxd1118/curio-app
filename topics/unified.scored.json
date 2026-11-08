@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-07",
-  "intro": "今天最重要的信号是 AI 资本叙事第一次被政治和账本同时打脸：中期选举民主党大胜后，41 项数据中心公投几乎全数通过限制性条款，纳指两天跌进修正区间、2.5 万亿美元市值蒸发；同一时间 OpenAI 又在新一轮拿到 110 亿美元、估值 1.25 万亿。钱还在往里冲，但\"无限扩张\"的假设已经开始被定价。另一个信号是 Nvidia 的供应链正在从\"卖卡\"变成\"管卡\"——东南亚追踪、130 处旧电信机房改造、11.4M GPU 被盗，都在说明算力已经稀缺到需要治安。",
+  "date": "2026-11-08",
+  "intro": "今天最重要的信号只有一个：AI 叙事在资本市场被重新定价。中期选举后 Nasdaq 两日跌 5%、2.5 万亿美元市值蒸发、芯片股创 1896 年以来最差中期选举后单日表现，而 Ramp 数据显示企业 AI 支出在 Anthropic IPO 前夕停滞。另一条线是 Anthropic 用 AI 造 AI 的 METR 报告——如果模型迭代速度真的翻倍，那估值和算力支出的分歧只会更大。",
   "headlines": [
     {
       "rank": 1,
@@ -9,94 +9,89 @@
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
       "source": "armcat",
       "stars": 5,
-      "title": "中期选举后纳指单日跌 5%，2.5 万亿美元市值蒸发，AI 交易首次被选票定价",
-      "lead": "民主党在中期选举大胜后，市场把\"数据中心扩张会被地方政治卡住\"这件事一次性计入价格。纳指跌进修正区间，芯片股创 1896 年以来最差中期选举次日表现。这不是一次普通回调，是 AI 资本开支叙事第一次遇到可量化的政治阻力。",
+      "title": "中期选举后 AI 交易集体退潮：Nasdaq 两日跌 5%，2.5 万亿美元市值蒸发，芯片股创 1896 年以来最差选后单日",
+      "lead": "民主党在中期选举中大胜，41 项数据中心相关公投几乎全部被否，市场立刻把 AI 基建的监管风险重新定价。Nasdaq 单日跌 5% 进入回调区间，Intel 领跌、费城半导体指数创 1896 年以来最差中期选举后表现。这不是一次普通的板块轮动，而是投资者第一次用选票结果给 AI 资本开支打折。",
       "confirmed": [
-        "纳指单日下跌约 5%，进入技术性修正区间",
-        "两天内美国股市合计蒸发约 2.5 万亿美元市值",
-        "选举日全美 41 项数据中心相关公投，除 1 项外全部通过限制性条款",
-        "芯片股创 1896 年以来最差中期选举次日表现",
-        "得州州长选举结果被市场解读为数据中心审批风险上升"
+        "Nasdaq 单日下跌 5%，进入技术性回调区间",
+        "两日内约 2.5 万亿美元市值蒸发",
+        "41 项数据中心相关公投中，除 1 项外全部未通过",
+        "芯片股创 1896 年以来最差中期选举后单日表现",
+        "Intel 领跌，$3.5T 芯片板块抛售扩散"
       ],
       "judgment": [
-        "跌幅中有多少是政治定价、多少是前期涨幅回吐，尚无共识",
-        "数据中心公投多为地方性约束，能否真正阻断已批项目仍待观察",
-        "若 12 月美联储继续加息，AI 资本开支的融资成本假设需要重算",
-        "对冲基金是否已清空 2025 年以来建仓的 AI 头寸，只有季度 13F 能验证"
+        "公投结果是否真的会转化为数据中心项目的实际延期，尚无项目层面的证据",
+        "对冲基金是否已系统性清仓 AI 仓位，目前只有 Ramp 支出数据侧面印证",
+        "回调是估值修复还是趋势反转，取决于下一季度 hyperscaler 的 capex 指引",
+        "散户与被动资金是否会在低位接盘，尚无资金流数据"
       ],
-      "implication": "你不需要判断这是不是泡沫顶，但需要知道一件事：过去两年\"算力无限扩张\"是所有 AI 产品假设的地基。地基开始被政治和利率重新定价时，依赖大规模推理补贴的产品（免费额度、无限上下文）会最先感受到成本压力。做 content-curator 这类个人项目反而是安全区——你的边际成本不随行业 beta 波动。"
+      "implication": "你不需要判断这是不是泡沫破裂，但需要知道：过去两年「AI 基建无脑扩张」的默认假设第一次被政治变量打断。如果你在跟踪算力/数据中心相关标的或供应链，接下来两周的 hyperscaler 财报电话会里 capex 措辞的变化，比股价本身更值得读。"
     },
     {
       "rank": 2,
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "source": "Lucas Ropek",
+      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "source": "Robert Hart",
       "stars": 5,
-      "title": "OpenAI 再融 110 亿美元、估值 1.25 万亿，Anthropic IPO 前夜 AI 支出却被 Ramp 数据指为停滞",
-      "lead": "同一周里两件事同时发生：OpenAI 在新一轮未关闭的融资中又拿到 110 亿美元，估值推到 1.25 万亿美元；而 Ramp 的企业支出数据显示 AI 使用量还在涨、花钱却停了。价格战和成本控制正在把\"AI 收入无限增长\"的假设往下压。",
+      "title": "METR 报告：Anthropic 用 AI 造 AI，模型能力提升速度约为一年前的两倍，且没有放缓迹象",
+      "lead": "The Verge 报道了一份 METR 关于 Anthropic 内部 AI 辅助研发的报告：公司正用自家模型加速下一代模型的开发，能力提升速度约为一年前的 2 倍。报告让部分研究者不安的点不在于速度本身，而在于「没有看到明显的收益递减」。这和同期 Ramp 数据显示的企业 AI 支出停滞形成了一组刺眼的对照。",
       "confirmed": [
-        "OpenAI 本轮新增融资 110 亿美元，估值 1.25 万亿美元，融资尚未关闭",
-        "该估值使其跻身全球市值最高公司行列",
-        "Ramp 数据显示企业 AI 使用量持续上升，但支出金额停滞",
-        "Anthropic 正接近 IPO，Ramp 数据被市场视为对其定价的直接压力",
-        "OpenAI 与 Anthropic 的估值叙事已进入互相参照阶段"
+        "METR 发布针对 Anthropic AI 辅助研发的报告",
+        "模型能力提升速度约为一年前的 2 倍",
+        "报告称目前未见明显放缓迹象",
+        "该报告已引发 AI 安全研究者的公开讨论"
       ],
       "judgment": [
-        "1.25 万亿估值对应的收入倍数是否成立，取决于 2027 年企业续费率",
-        "支出停滞有多少来自降价、多少来自用量见顶，Ramp 数据无法区分",
-        "Anthropic IPO 定价会成为整个 AI 一级市场的锚，但时间表未定",
-        "若企业支出真的见顶，推理价格战会进一步压缩两家毛利"
+        "「2 倍」的度量口径（benchmark 分数 vs 研发周期）报告未完全公开，可比性存疑",
+        "加速是否可外推到其他实验室，目前只有 Anthropic 一家的数据",
+        "递归自我改进（RSI）是否真的临近，Anthropic IPO 文件里的措辞只是风险提示而非结论",
+        "能力加速与商业变现之间的时滞，可能比技术曲线更长"
       ],
-      "implication": "这条对你最直接的用处是：把\"模型能力提升\"和\"模型商业可持续\"分开看。你做 Agent 项目选型时，别把某家 API 的长期低价当默认前提——今年已经出现两次大幅降价后回调的案例。工程上留一层模型抽象（一个 provider 接口 + 配置切换），比押注单一厂商更值钱。"
+      "implication": "这条值得你花 20 分钟读原文而不是二手解读。对你做 content-curator 的直接含义是：如果模型迭代周期真的在缩短，你的 Agent 工具链（prompt、skill、评测集）的折旧速度也会加快——把「可替换模型层」设计进去，比押注某一个模型版本更划算。"
     },
     {
       "rank": 3,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management",
-      "source": "Jowi Morales",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "source": "Rebecca Bellan",
       "stars": 4,
-      "title": "Nvidia 想把 130 多处旧电信机房改成小型数据中心，估算可产出 1GW 算力",
-      "lead": "Nvidia 正在和 Brightspeed 谈，把后者在全美 130 多处闲置电信设施改造成分布式小型数据中心，估算总算力可达 1GW。同期它要求东南亚云厂商加入 Fleet Intelligence 追踪计划才能拿到官方合作伙伴资格。两件事指向同一个方向：算力稀缺到需要重新分配存量基础设施，并且需要治安。",
+      "title": "Ramp 数据：AI 使用量还在涨，但企业支出停滞——恰好撞上 Anthropic 临近 IPO",
+      "lead": "Ramp 的企业支出数据显示，AI 工具的使用频次继续上升，但花在 AI 上的钱停滞了。原因是头部客户在降价和成本控制上做得越来越精细。这个时间点很微妙：Anthropic 正在冲刺 IPO，而投资者对 AI 超高速增长的假设正建立在「使用量=收入」的等式上。",
       "confirmed": [
-        "Nvidia 与 Brightspeed 就 130+ 处旧电信设施改造进行谈判",
-        "Nvidia 估算这些设施合计可产出最高 1GW 算力",
-        "Brightspeed 母公司为 Apollo Global Management",
-        "Nvidia 要求东南亚云厂商加入 Fleet Intelligence 追踪计划才可获得 Nvidia Cloud Partner 资格",
-        "同期加州发生 6 托盘、价值 1140 万美元 Nvidia GPU 被盗案"
+        "Ramp 数据显示 AI 使用量持续上升",
+        "同期企业 AI 支出出现停滞",
+        "头部客户通过降价与成本控制压缩开支",
+        "Anthropic 正处于 IPO 前夕"
       ],
       "judgment": [
-        "1GW 是理论上限，实际受供电与散热改造限制，落地比例未知",
-        "旧电信机房的网络时延能否满足训练集群需求，报告未说明",
-        "Fleet Intelligence 的实际监控粒度（序列号级还是批次级）未公开",
-        "分布式小机房是否会成为推理主力、训练仍集中，取决于互联带宽成本"
+        "Ramp 样本以美国中小企业为主，能否代表大企业采购行为存疑",
+        "支出停滞可能是价格战导致而非需求见顶，两者对估值含义完全不同",
+        "Anthropic 的收入结构（API vs 订阅）未披露，难以直接套用 Ramp 结论",
+        "若推理成本继续下降，单位支出下降未必等于行业收入下降"
       ],
-      "implication": "如果你关注推理部署成本，这条是本周最值得记的结构性变化：算力供给正在从\"建超大园区\"转向\"盘活存量机房\"。对个人项目的含义是，未来一两年边缘侧推理节点的地理分布会更密，延迟敏感型 Agent（语音、实时检索）的可行性会上升。可以开始留意支持多区域 endpoint 的推理服务商。"
+      "implication": "这条是给你做产品判断用的：企业客户对 AI 的付费意愿正在从「按席位」转向「按实际价值」，这意味着你未来做 Agent 产品时，定价模型要能解释清楚省了多少人力/时间，而不是卖功能清单。同时提醒你：AI 叙事的分歧已经从技术层转移到财务层。"
     },
     {
       "rank": 4,
-      "domain": "AI",
-      "id": "bvid:BV1kr4h6fExw",
-      "url": "http://www.bilibili.com/video/av117564076202051",
-      "source": "程序员鱼皮",
+      "domain": "AI 算力 / 半导体",
+      "id": "hn:50362905",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "source": "novaRom",
       "stars": 4,
-      "title": "DeepSeek Harness 团队开源 Super-agent，鱼皮实测它和传统 Agent 的差别",
-      "lead": "DeepSeek Harness 团队开源了 Super-agent，鱼皮这期用实测拆它的工作机制：和传统 Agent 的区别在哪、是否真能提升效率。这是本周候选池里唯一一条带工程视角的新模型/新框架解读，发布时间 11 月 5 日，属于首发窗口。",
+      "title": "Nvidia RTX Spark 加密固件被指在 Linux 下把推理速度压到 35%，本地跑模型的硬件自由度在收缩",
+      "lead": "HN 上一条 615 分的帖子指出，Nvidia RTX Spark 笔记本的加密固件在 Linux 环境下把推理性能限制到约 35%。这不是驱动 bug，而是固件层面的策略性限制。对依赖本地 GPU 跑开源模型的开发者来说，这是硬件厂商收紧控制权的一个具体信号。",
       "confirmed": [
-        "DeepSeek Harness 团队开源了 Super-agent 项目",
-        "视频发布于 2026-11-05，属近期首发内容",
-        "内容覆盖 Super-agent 与传统 Agent 的机制差异与实测",
-        "面向 AI 编程爱好者与 AI 应用开发者",
-        "同团队此前有 DeepSeek Harness 与 Claude Code 的对比实测内容"
+        "RTX Spark 笔记本存在加密固件",
+        "Linux 下推理性能约为满速的 35%",
+        "该现象在 HN 获得 615 分讨论",
+        "限制发生在固件层而非驱动层"
       ],
       "judgment": [
-        "\"Super-agent\"是否为独立架构还是 Harness 上的编排层，公开信息尚不充分",
-        "实测结论的可复现性依赖具体任务集，视频未提供完整 benchmark",
-        "开源仓库的维护活跃度与文档完整度需要自行验证",
-        "与 MCP / Skills 生态的兼容性尚不明确"
+        "35% 的测量方法与测试模型未在帖子中完整披露",
+        "是否为反盗版/反挖矿策略的副作用，Nvidia 尚未回应",
+        "Windows 下是否存在同等限制，目前无对照数据",
+        "是否会影响消费级以外的产品线，暂无证据"
       ],
-      "implication": "你的 content-curator 正好是 Agent 编排类项目，值得花 20 分钟看这期并顺手 clone 仓库。重点不是\"它比 Claude Code 强不强\"，而是看它怎么组织子 Agent 的上下文传递和工具调用边界——这部分设计思路可以直接搬到你的项目里。看完建议自己跑一个最小任务做对照。"
+      "implication": "如果你考虑用消费级 Nvidia 卡做本地推理或 Agent 沙箱，这条是明确的预警：买之前先查该型号在 Linux 下的实测吞吐，别只看纸面 TFLOPS。长期看，本地推理的硬件选择会越来越需要在「性能」和「可控性」之间做取舍，AMD/Apple Silicon 的性价比权重会上升。"
     },
     {
       "rank": 5,
@@ -105,133 +100,140 @@
       "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
       "source": "PLenz",
       "stars": 4,
-      "title": "特斯拉 2027 年停产 Cybertruck，工厂转产 Cybercab；两日内特斯拉与 SpaceX 合计蒸发 4200 亿美元市值",
-      "lead": "马斯克确认 Cybertruck 将在 2027 年停产，产线改做 Cybercab。销量长期不及预期是直接原因。叠加同期特斯拉与 SpaceX 两天内合计蒸发超 4200 亿美元市值，这是本周最具体的一次\"叙事兑现失败\"案例。",
+      "title": "Tesla 宣布 2027 年停产 Cybertruck，产线改做 Cybercab；两日内 Tesla+SpaceX 合计蒸发逾 4200 亿美元市值",
+      "lead": "Musk 在周五发推称 Tesla 将于明年停产 Cybertruck，把工厂空间让给 Cybercab。这款车从发布到停产不到几年，销量一直不及预期。叠加中期选举后的市场抛售，Tesla 与 SpaceX 两日内合计市值蒸发超过 4200 亿美元。",
       "confirmed": [
-        "特斯拉确认 Cybertruck 将于 2027 年停止生产",
-        "停产原因是销量长期低于预期",
-        "原产线将转产 Cybercab",
-        "特斯拉与 SpaceX 两日内合计市值蒸发超 4200 亿美元",
-        "Cybertruck 此前已在澳大利亚和新西兰取消订单（累计 7 年定金）"
+        "Tesla 将于 2027 年停止 Cybertruck 生产",
+        "产线将转用于生产 Cybercab",
+        "Cybertruck 销量长期低于预期",
+        "Tesla 与 SpaceX 两日内合计市值蒸发逾 4200 亿美元",
+        "澳洲与新西兰的 Cybertruck 订单在 7 年定金后被取消"
       ],
       "judgment": [
-        "Cybercab 的产能爬坡时间表尚未公布，转产能否填补收入缺口未知",
-        "4200 亿蒸发中有多少归因于 Cybertruck、多少归因于整体 AI 交易回调，无法拆分",
-        "特斯拉定制 AI 加速器 SI6 路线图与本次停产无直接财务关联",
-        "SpaceX 估值波动主要来自一级市场重估，与二级市场不可直接比较"
+        "Cybercab 的量产时间表与监管审批仍不明朗",
+        "市值蒸发中多少归因于 Cybertruck、多少归因于大盘，无法拆分",
+        "Musk 个人政治立场对品牌的影响程度，缺乏量化证据",
+        "停产是否影响 Tesla 的毛利率指引，需等下一份财报"
       ],
-      "implication": "这条是给你做判断校准用的：一个产品从发布到停产只用了几年，而同期它的 AI 叙事还在加码。看公司时把\"产品兑现\"和\"叙事估值\"分开记账，这个习惯在你评估 AI 工具厂商时同样适用——发布会的 demo 和实际留存之间，通常隔着一整个 Cybertruck。"
+      "implication": "这条对你的直接价值不大，但它是理解「创始人个人品牌风险如何传导到公司估值」的现成案例。你做个人项目时同理：把个人声誉和产品绑定能加速冷启动，但一旦个人出现争议，产品也会被连带定价。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI 算力 / 半导体",
-      "title": "Marvell 以 1150 亿美元全股票收购 Lumentum，押注 AI 数据中心光互联",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/marvell-to-buy-lumentum-in-usd115-billion-all-stock-deal-combined-company-to-supply-scale-up-and-scale-in-optics-for-ai-data-centers",
-      "source": "Etiido Uko",
-      "one_liner": "全股票 1150 亿是本周最大并购，光互联正在成为算力瓶颈的下一个战场，但全股票交易的对价含金量需打折看。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "GlobalFoundries 公布 FDX Fusion：不用 EUV 做到 7nm 级性能，目标 2030 量产",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow",
-      "source": "Anton Shilov",
-      "one_liner": "绕开 EUV 的路线对非美供应链有战略意义，但 2030 量产太远，短期不影响任何选型决策。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia RTX Spark 加密固件被指在 Linux 上把推理速度压到 35%",
-      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-      "source": "novaRom",
-      "one_liner": "本地推理玩家必看，但只有单一来源与 614 分讨论，缺独立复现，先当线索不当结论。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Gelsinger 支持的 Nagare Labs 发布 Z2RAM：SRAM 速度、DRAM 密度",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/gelsinger-backed-nagare-labs-capacitorless-z2ram-promises-sram-speed-with-dram-density-latest-published-cell-retains-data-for-over-300-seconds-at-85-c-but-further-figures-are-projected",
-      "source": "Shane Downing",
-      "one_liner": "85°C 下保持 300 秒的数据点很具体，但仍是实验室单元级结果，离可堆叠量产有距离。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Gemini Omni 1.2 Flash 发布，Google 一周内第三次模型更新",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "source": "thisisauserid",
-      "one_liner": "发布节奏值得记，但候选池里缺具体 benchmark 与定价，信息密度不足以进头条。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Tell HN：Gemini 对订阅用户的个人账号聊天记录也用于训练",
-      "url": "https://news.ycombinator.com/item?id=50363461",
-      "source": "jameslk",
-      "one_liner": "726 分的 HN 讨论，隐私条款层面的事实，对重度用户有直接影响，但属社区爆料而非官方确认。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Meta 为 Muse Agent 推出 Spaces，可在应用内搭建定制化小组件",
-      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "source": "Lucas Ropek",
-      "one_liner": "Agent 产品形态往\"可组合空间\"走的又一个样本，但 Meta 的 Agent 生态对个人开发者开放度未知。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Stratechery 专访 Intuit CEO Sasan Goodarzi：会计行业与 AI",
-      "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
-      "source": "Ben Thompson",
-      "one_liner": "契合你想多看名人访谈的偏好，但主题偏垂直行业 SaaS，与你当前项目关联弱，放备选。"
-    },
-    {
-      "domain": "股票",
-      "title": "Oracle 申请发行 200 亿美元新股与债券，为 AI 基建融资",
-      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-      "source": "smartmic",
-      "one_liner": "AI 基建从股权融资转向债务融资的标志性动作，但已是 11 月 2 日消息，时效稍旧。"
-    },
-    {
-      "domain": "股票",
-      "title": "研究机构称 Anthropic IPO 是\"对投资者轻信度的空前考验\"",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "source": "m463",
-      "one_liner": "观点尖锐但发布于 10 月 7 日，且属卖方观点，作为 IPO 定价讨论的对照材料更合适。"
-    },
-    {
-      "domain": "金融",
-      "title": "Mark Cuban：Facebook 明知故犯地跑 AI 深度伪造诈骗广告，文件显示 160 亿美元欺诈收入",
-      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-      "source": "randycupertino",
-      "one_liner": "507 分的 HN 讨论，涉及平台责任与 AI 广告审核，但核心证据来自 Cuban 单方披露，待核实。"
-    },
-    {
-      "domain": "金融",
-      "title": "美国联邦预算赤字一年跳增 12%，接近 2 万亿美元",
-      "url": "https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html",
-      "source": "ck2",
-      "one_liner": "宏观底色数据，解释利率为何难降、AI 基建融资为何变贵，但单条信息增量有限。"
-    },
-    {
-      "domain": "金融",
-      "title": "3000 亿美元\"债务墙\"逼近 PE 控股公司",
-      "url": "https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497",
-      "source": "JumpCrisscross",
-      "one_liner": "与 AI 基建债务融资是同一根链条的另一端，但发布于 10 月 27 日，非本周新增。"
+      "domain": "AI",
+      "title": "DeepSeek Harness 超详细教程：50 分钟吃透 DSH，让 SuperAgent 给你干活",
+      "url": "http://www.bilibili.com/video/av117540671982699",
+      "source": "Git源宝",
+      "one_liner": "DSH 是目前中文圈最缺的一手实操内容，制作周期 60 天，值得收藏；但教程类密度低于你偏好的工程细节，放备选。"
     },
     {
       "domain": "AI",
-      "title": "尚硅谷：Agent Skills 开发教程，WorkBuddy + Codex + DeepSeek Harness 实战",
+      "title": "最新 Skills 开发教程：Agent Skill 实战，WorkBuddy + Codex + DeepSeek Harness",
       "url": "http://www.bilibili.com/video/av117511429295044",
       "source": "尚硅谷",
-      "one_liner": "10 月 28 日发布，Skills 是当前 Agent 工程的热点，但机构课偏流程化，深度需自行筛选。"
+      "one_liner": "Skills 是你 Agent 项目的核心抽象，这条覆盖三个工具链的横向对比，10 月底发布，新颖度够。"
     },
     {
       "domain": "AI",
-      "title": "14k Star 的 Claude Code 开源桌面端 cc-haha，重构 Computer Use 可后台操作电脑",
+      "title": "认真用 Claude Code 的人，迟早会遇见 Everything Claude Code",
+      "url": "http://www.bilibili.com/video/av116319122885806",
+      "source": "极客魔导师",
+      "one_liner": "116K star 的 Claude Code 配置项目拆解，斜杠命令/子 Agent/Hooks 都有，适合直接抄配置。"
+    },
+    {
+      "domain": "AI",
+      "title": "Claude Code 完全接管了 Blender，然后创造了这个",
+      "url": "http://www.bilibili.com/video/av116980883398142",
+      "source": "stefan_3d_ai",
+      "one_liner": "给 Agent 完整终端权限跑一小时的真实实验，是理解 Agent 边界与失控风险的好素材。"
+    },
+    {
+      "domain": "AI",
+      "title": "14k Star Claude Code 开源桌面端，能自动操作电脑了",
       "url": "http://www.bilibili.com/video/av117251936293145",
       "source": "程序员阿江-Relakkes",
-      "one_liner": "基于泄露源码做的桌面端，工程细节有意思，但合规风险与可持续性存疑，不适合作为头条推荐。"
+      "one_liner": "基于泄露源码做的 cc-haha，支持 Computer Use 与自选模型，工程细节密度高，但合规性存疑。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "TSMC 否认应 Nvidia 要求探索 3D DRAM：先进内存技术距量产仍有数年",
+      "url": "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability",
+      "source": "Anton Shilov",
+      "one_liner": "HBM 之后的下一代内存路线被官方否认，说明内存墙短期无解，对推理成本判断有参考价值。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia 拟对每块 GPU 收取 2000 美元/年软件费，用于在 AI 基建上跑 Agent",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform",
+      "source": "gscott",
+      "one_liner": "如果成真，Agent 推理的边际成本结构会变，直接影响你做 Agent 产品的成本模型。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "GlobalFoundries 详解 FDX Fusion：无需 EUV 做到 7nm 级性能，目标 2030 量产",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow",
+      "source": "Anton Shilov",
+      "one_liner": "非 EUV 路线的具体技术参数首次公开，是半导体供应链去风险叙事里少见的硬信息。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Tesla 公布 AI 加速器路线图，启用 SI 品牌：SI6 带来 80 倍算力，Dojo 3 要上太空",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space",
+      "source": "Anton Shilov",
+      "one_liner": "自研推理芯片路线图，80 倍是营销数字还是实测口径需要打问号，但方向值得记录。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "OpenAI 新一轮融资再募 110 亿美元，估值达 1.25 万亿美元",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "source": "Lucas Ropek",
+      "one_liner": "与 AI 板块抛售同日发生，说明一级市场与二级市场的定价分歧正在拉大。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Google 研究员要求公开批评公司的自由，此前有员工因批评被终身禁言",
+      "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/",
+      "source": "nsagent",
+      "one_liner": "DeepMind 内部治理摩擦的公开化，是理解前沿实验室决策机制的稀缺窗口。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Gemini 4 Carbon 登顶 Artificial Analysis Intelligence Index v5",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "source": "theHocineSaad",
+      "one_liner": "第三方评测榜单换榜首，是你做模型选型时的直接参考，但单一榜单不足以定论。"
+    },
+    {
+      "domain": "股票",
+      "title": "Oracle 申请增发 200 亿美元股票与债券，为 AI 基建融资",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "source": "smartmic",
+      "one_liner": "AI 基建从「经营现金流投入」转向「资本市场融资」，是这轮周期性质变化的关键证据。"
+    },
+    {
+      "domain": "股票",
+      "title": "研究机构称 Anthropic IPO 是「对投资者轻信程度前所未有的考验」",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "source": "m463",
+      "one_liner": "空头视角的极端表述，配合 Ramp 支出数据一起读，能拼出 IPO 定价的多空分歧。"
+    },
+    {
+      "domain": "金融",
+      "title": "Mark Cuban：Facebook 明知故犯地投放 AI 深度伪造诈骗广告，文件显示相关欺诈收入达 160 亿美元",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "source": "randycupertino",
+      "one_liner": "AI 生成内容与平台责任的碰撞，160 亿美元这个数字若被证实，会是监管转折点。"
+    },
+    {
+      "domain": "金融",
+      "title": "美国联邦预算赤字一年内增长 12%，逼近 2 万亿美元",
+      "url": "https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html",
+      "source": "ck2",
+      "one_liner": "利率与 AI 基建融资成本的上游变量，和今天的股市抛售是同一条因果链的另一端。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-11-07T11:35:36+0000"
+    "scored_at": "2026-11-08T10:56:43+0000"
   }
 }
