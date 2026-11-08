@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-07T09:51:26.900976+00:00",
+  "fetched_at": "2026-11-08T10:04:49.943700+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 0,
-    "HN · Nvidia": 8,
+    "HN · Nvidia": 7,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 30,
+  "total": 29,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -370,7 +370,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50362905"
       },
       "duration_sec": null,
-      "views": 614,
+      "views": 615,
       "comments": 289,
       "published_at": "2026-11-04T08:46:29+00:00",
       "summary": "",
@@ -389,28 +389,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50293047"
       },
       "duration_sec": null,
-      "views": 360,
+      "views": 365,
       "comments": 248,
       "published_at": "2026-10-29T17:43:48+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50219700",
-      "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
-      "url": "https://github.com/Zagitta/gpu-unlock",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50219700",
-        "name": "fragebogen",
-        "hn_url": "https://news.ycombinator.com/item?id=50219700"
-      },
-      "duration_sec": null,
-      "views": 353,
-      "comments": 85,
-      "published_at": "2026-10-24T09:58:27+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -484,8 +465,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50387738"
       },
       "duration_sec": null,
-      "views": 123,
-      "comments": 27,
+      "views": 124,
+      "comments": 29,
       "published_at": "2026-11-06T03:16:26+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -503,7 +484,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50363861"
       },
       "duration_sec": null,
-      "views": 76,
+      "views": 78,
       "comments": 85,
       "published_at": "2026-11-04T11:02:23+00:00",
       "summary": "",
