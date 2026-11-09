@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-08T10:04:49.943700+00:00",
+  "fetched_at": "2026-11-09T11:13:49.533904+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 0,
-    "HN · Nvidia": 7,
+    "HN · Nvidia": 8,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 29,
+  "total": 30,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+      "title": "DeepX Tapes Out Second-Gen Chip, Projects 6.7× Performance Gain With LPDDR5x-PIM",
+      "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-09T06:47:26+00:00",
+      "summary": "DeepX is targeting edge markets including robotics with its second-generation AI accelerator, which can run large LLMs on device in under 5 W. The post DeepX Tapes Out Second-Gen Chip, Projects 6.7× Performance Gain With LPDDR5x-PIM appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/the-countdown-to-q-day-has-begun/",
       "title": "The Countdown to Q-Day Has Begun",
       "url": "https://www.eetimes.com/the-countdown-to-q-day-has-begun/",
@@ -342,20 +359,22 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/accelerate-analog-design-with-flexible-ai-native-workflows/",
-      "title": "Accelerate Analog Design with Flexible, AI-Native Workflows",
-      "url": "https://www.eetimes.com/accelerate-analog-design-with-flexible-ai-native-workflows/",
-      "platform": "rss",
+      "id": "hn:50418016",
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "ChipsAgents",
-        "feed_title": "EE Times"
+        "type": "hackernews",
+        "id": "50418016",
+        "name": "karimf",
+        "hn_url": "https://news.ycombinator.com/item?id=50418016"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-05T17:40:24+00:00",
-      "summary": "Join this webinar to learn how ChipAgents’ IC-star chip neural engine automates analog design, simulation, and verification in one unified, flexible agentic loop. The post Accelerate Analog Design with Flexible, AI-Native Workflows appeared first on EE Times.",
+      "views": 703,
+      "comments": 775,
+      "published_at": "2026-11-08T22:20:09+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
@@ -370,9 +389,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50362905"
       },
       "duration_sec": null,
-      "views": 615,
-      "comments": 289,
+      "views": 617,
+      "comments": 291,
       "published_at": "2026-11-04T08:46:29+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50416801",
+      "title": "Statement from Nvidia board of directors",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50416801",
+        "name": "vincentchau",
+        "hn_url": "https://news.ycombinator.com/item?id=50416801"
+      },
+      "duration_sec": null,
+      "views": 470,
+      "comments": 353,
+      "published_at": "2026-11-08T20:26:43+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -389,8 +427,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50293047"
       },
       "duration_sec": null,
-      "views": 365,
-      "comments": 248,
+      "views": 370,
+      "comments": 250,
       "published_at": "2026-10-29T17:43:48+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -408,28 +446,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50348962"
       },
       "duration_sec": null,
-      "views": 290,
+      "views": 291,
       "comments": 139,
       "published_at": "2026-11-03T07:04:50+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50236073",
-      "title": "Nvidia and Micron Make Up 34% of America's Earnings Boom",
-      "url": "https://www.wsj.com/finance/stocks/the-earnings-boom-is-heavily-reliant-on-just-a-handful-of-stocks-21decb53",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50236073",
-        "name": "JumpCrisscross",
-        "hn_url": "https://news.ycombinator.com/item?id=50236073"
-      },
-      "duration_sec": null,
-      "views": 176,
-      "comments": 47,
-      "published_at": "2026-10-25T21:07:38+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
