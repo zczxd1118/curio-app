@@ -1,47 +1,44 @@
 # Curio · AI 算力 / 半导体 · 2026-11-09
 
-> 今日 1 条头条 + 5 条备选
+> 今日 1 条头条 + 4 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 董事会正式调查黄仁勋与疑似中国间谍的关系，Yale 的 Sonnenfeld 给出「50-50 留任概率」——这不只是花边，是 AI 算力供应链最大单一节点的治理风险；二是 AI 交易在中期选举后遭遇 2.5 万亿美元级别的抛售，Nasdaq 进入回调区间，算力叙事第一次被政治与融资成本同时定价。工程侧则有一条被低估的：284B 参数 DeepSeek 在 64GB 内存、无 GPU 上跑起来了。_
+_今天最重要的信号有两个：一是 Nvidia CEO 黄仁勋承认与疑似中国间谍有私情、董事会启动独立调查，这条从产业新闻升级成治理与地缘风险事件，直接牵动 AI 算力叙事；二是 AI 泡沫论在二级市场兑现——纳指跌入回调区间、2.5 万亿美元市值蒸发、Anthropic IPO 被质疑 1.5 万亿估值。对做 Agent 的你来说，工具层仍在快速迭代（Claude 桌面端整合 Code、DeepSeek Harness 生态），但融资和估值环境在收紧，值得把注意力放在能自己跑起来的东西上。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. llama-modchip：284B 参数 DeepSeek 在 64GB 内存、无 GPU 的机器上跑起来，HN 429 分
+### 4. DeepX 二代 AI 加速器流片：LPDDR5x-PIM 架构，宣称 6.7 倍性能提升、5W 内跑大模型
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _joshcsimmons_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Sally Ward-Foxton_
 
-一个 GitHub 项目把 284B 参数的 DeepSeek 模型塞进了 64GB 内存的纯 CPU 环境，不依赖 GPU。同期还有 homelab 玩家用二代 Optane 持久内存跑 2.8 万亿参数的 Kimi K3，1-bit 量化下 0.85 tokens/s。这两条放在一起说明：内存带宽与量化技术正在把「大模型必须上 GPU」这条假设撕开一个口子。
+韩国边缘 AI 芯片公司 DeepX 完成第二代加速器流片，采用 LPDDR5x 存内计算（PIM）架构，官方称性能提升 6.7 倍，可在 5W 功耗内于设备端运行大语言模型，目标市场包括机器人。这是存内计算从论文走向量产芯片的一个具体节点。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| llama-modchip 项目在 HN 获 429 分，实现 284B DeepSeek 模型在 64GB RAM 无 GPU 环境运行 | 0.85 tokens/s 的实际可用性极低，这类方案目前是技术验证而非生产可用 |
-| Reddit homelab 用户用 Optane PMem 200 跑 Kimi K3（2.8T 参数），1-bit 量化下 0.85 tokens/s | llama-modchip 的具体量化方案与内存布局未在摘要中说明，需读源码判断可复现性 |
-| 该用户警告 Optane 发热会烧毁邻近 DRAM，需用鼓风机散热 | Optane 已停产，这条路线依赖二手硬件，不具备规模化意义 |
-| 同期 CPU-Z 数据显示 64GB 内存 PC 占比同比下滑 18%，因 AI DRAM 涨价 | 内存涨价是否会反过来压制本地推理社区的增长，尚待观察 |
-| TSMC 否认应 Nvidia 要求探索 3D DRAM，称该技术距量产仍有数年 | 「无 GPU 跑大模型」与「边缘设备跑小模型」是两条不同路线，别混为一谈 |
+| DeepX 第二代 AI 加速器已完成流片（tape-out） | 6.7 倍是与自家一代还是竞品对比，报道未明确 |
+| 采用 LPDDR5x-PIM 存内计算架构 | 5W 跑'大模型'的具体参数量与量化方式未披露 |
+| 官方宣称性能提升 6.7 倍 | 量产时间与良率仍是未知数 |
+| 可在 5W 功耗内运行大模型，面向机器人与边缘市场 | PIM 架构的软件生态成熟度存疑 |
 
 **📖 主编点评**
 
-这条对你的价值不在「能不能用」，而在「为什么能」——去读 llama-modchip 的 README，看它怎么做权重分片和量化调度，这套思路直接能迁移到你的 Agent 项目的本地推理降本上。如果你哪天要给 content-curator 加一个本地小模型做初筛，这就是现成的工程参考。
+你是电子信息工程背景，这条是少见的'架构级'信号：存内计算正在从概念变成流片产品。如果你对推理优化感兴趣，PIM 是值得提前建立认知的方向——它改变的是'内存墙'这个根本约束，而不只是又一个加速卡。
 
-📺 [打开原文](https://github.com/synchopate/llama-modchip)
+📺 [打开原文](https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/)
 
 ---
 
 ## 📋 备选阅读
 
-- [DeepX 流片二代芯片，LPDDR5x-PIM 架构宣称 6.7 倍性能提升](https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/) —— 5W 以内跑大模型，存内计算路线在边缘侧的又一次下注，数字漂亮但需等实测。
-  _Sally Ward-Foxton_
-- [Diamond Foundry 造出全球首片 200mm 单晶金刚石晶圆](https://www.tomshardware.com/pc-components/cooling/diamond-foundry-creates-worlds-first-200mm-single-crystal-diamond-wafer-massive-gem-aims-to-solve-ai-chip-cooling-crisis-envisioned-as-a-cooling-material-for-semiconductors) —— 冲着 AI 芯片散热危机去的材料突破，200mm 尺寸是关键，但离量产还远。
+- [Diamond Foundry 造出全球首片 200mm 单晶金刚石晶圆](https://www.tomshardware.com/pc-components/cooling/diamond-foundry-creates-worlds-first-200mm-single-crystal-diamond-wafer-massive-gem-aims-to-solve-ai-chip-cooling-crisis-envisioned-as-a-cooling-material-for-semiconductors) —— 用金刚石做 AI 芯片散热，从材料端解热点问题，是散热瓶颈里少见的硬进展。
   _Jowi Morales_
-- [Nvidia RTX Spark 加密固件把 Linux 上推理速度压到 35%](https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop) —— HN 617 分，本地推理玩家必看：买卡之前先确认固件策略，这是实打实的踩坑预警。
-  _novaRom_
-- [开源 GPU 任务管理器 gputaskman 精确显示谁在吃你的 VRAM](https://www.tomshardware.com/pc-components/gpus/open-source-gpu-task-manager-reveals-exactly-whats-eating-your-vram-microsoft-vps-new-gpu-taskman-tool-reveals-every-process-using-your-gpu-how-much-memory-each-uses-and-breaks-down-ai-and-llm-workloads) —— 微软 VP Scott Hanselman 发布的小工具，能拆分 AI/LLM 负载，本地调试刚需。
-  _Mark Tyson_
-- [Synaptics 向开源 DisplayLink 驱动作者发律师函，还「激将」其公开威胁](https://www.tomshardware.com/peripherals/docking-stations-hubs/synaptics-sends-cease-and-desist-order-to-creator-of-open-source-displaylink-driver-dares-him-to-publicize-its-threats-dev-reverse-engineers-displaylink-using-claude-ai-and-rust-synaptics-threatens-to-bill-creator-for-legal-documentation) —— 开发者用 Claude AI + Rust 逆向 DisplayLink 被发函，AI 辅助逆向的法律边界案例。
-  _Jowi Morales_
+- [家用玩家用二代 Optane 内存条在纯 CPU 上跑 2.8 万亿参数 Kimi K3](https://www.tomshardware.com/tech-industry/artificial-intelligence/homelabber-uses-second-gen-optane-memory-sticks-to-run-a-2-8-trillion-parameter-ai-model-on-cpu-alone-warns-that-optanes-extreme-heat-can-burn-out-nearby-memory-dram-used-blower-fans-to-prevent-melting-ram) —— 1-bit 量化下 0.85 tokens/s，慢但能跑，是'内存层级决定推理可行性'的极端案例。
+  _Shane Downing_
+- [TSMC 否认应 Nvidia 要求探索 3D DRAM](https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability) —— 内存短缺逼得 Nvidia 找代工谈 3D DRAM，台积电泼冷水说离量产还有数年——存储墙是真问题。
+  _Anton Shilov_
+- [64GB 内存 PC 占比同比暴跌 18%，AI DRAM 涨价反噬消费端](https://www.tomshardware.com/pc-components/ram/pcs-with-64gb-of-ram-plummet-18-percent-as-memory-prices-soar-cpu-z-install-base-data-shows-ddr4-making-a-surprise-comeback) —— CPU-Z 数据显示内存容量首次下滑，AI 抢产能的代价落到普通装机用户头上。
+  _Zhiye Liu_
 
 ---
 

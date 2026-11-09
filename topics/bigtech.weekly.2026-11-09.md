@@ -1,31 +1,30 @@
 # Curio · 大厂 AI 动态 · 2026-11-09
 
-> 今日 1 条头条 + 4 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 董事会正式调查黄仁勋与疑似中国间谍的关系，Yale 的 Sonnenfeld 给出「50-50 留任概率」——这不只是花边，是 AI 算力供应链最大单一节点的治理风险；二是 AI 交易在中期选举后遭遇 2.5 万亿美元级别的抛售，Nasdaq 进入回调区间，算力叙事第一次被政治与融资成本同时定价。工程侧则有一条被低估的：284B 参数 DeepSeek 在 64GB 内存、无 GPU 上跑起来了。_
+_今天最重要的信号有两个：一是 Nvidia CEO 黄仁勋承认与疑似中国间谍有私情、董事会启动独立调查，这条从产业新闻升级成治理与地缘风险事件，直接牵动 AI 算力叙事；二是 AI 泡沫论在二级市场兑现——纳指跌入回调区间、2.5 万亿美元市值蒸发、Anthropic IPO 被质疑 1.5 万亿估值。对做 Agent 的你来说，工具层仍在快速迭代（Claude 桌面端整合 Code、DeepSeek Harness 生态），但融资和估值环境在收紧，值得把注意力放在能自己跑起来的东西上。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. 黄仁勋承认婚外情，Nvidia 董事会启动独立调查：Ben Thompson 判断「他能活下来，但影响力再也回不去了」
+### 1. 黄仁勋承认婚外情、董事会启动独立调查，Stratechery 判断：他能留任但影响力再难复原
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Ben Thompson_
 
-周日 Nvidia 连发两份声明：黄仁勋致员工信承认与 Megaspeed 高管 Alice Huang 的关系，董事会成立独立委员会调查，同时表态「仍对 Jensen 和领导团队有信心」。美方情报口径称对方是中国国安部招募的「蜜罐」人员。Ben Thompson 的判断是：黄仁勋大概率留任，但他在华盛顿与供应链之间的斡旋资本被永久削弱。
+Nvidia 董事会周日宣布对 CEO 黄仁勋与 Megaspeed 高管 Alice Huang 的关系展开独立调查，美方情报认为后者被中国国安部招募、属'蜜罐'行动。黄仁勋在致全员信中承认婚外情并道歉，董事会称仍对管理层有信心。Ben Thompson 的判断是：他大概能挺过去，但作为行业代言人的权威已被永久削弱。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 黄仁勋在致全员信中承认婚外情，Nvidia 官方新闻室发布了该信全文 | 董事会「有信心」的表态与「独立调查」并存，实际是给继任方案留时间窗，还是真心背书，目前无法判断 |
-| 董事会成立独立委员会调查，同时公开表态支持黄仁勋及现有管理层 | Megaspeed 的走私指控与本案是否同一证据链，公开信息尚不完整 |
-| 涉事方 Alice Huang 为 Megaspeed 高管，该公司此前被指向中国走私约 20 亿美元 AI 芯片 | 国会听证会的时间与议题范围未定，是否升级为出口管制立法尚不明朗 |
-| 美国情报备忘录称中国国安部招募该女性针对黄仁勋，属「蜜罐」行动 | 黄仁勋若留任，其对华游说能力受损程度难以量化，供应链政策走向仍是变量 |
-| 黄仁勋已被正式传唤至国会就中国间谍问题作证 | Nvidia 股价与 AI 板块的联动反应尚未充分定价治理风险 |
-| Yale 管理学者 Jeffrey Sonnenfeld 估算其留任概率「大约 50-50」 |  |
+| 黄仁勋在致员工信中承认婚外情并公开道歉 | 董事会'仍表信心'是否等于黄仁勋能留任 CEO，尚无定论 |
+| Nvidia 董事会成立独立委员会调查该关系 | Yale 的 Sonnenfeld 估算留任概率'约五五开'，属个人判断 |
+| 美情报备忘录称 Alice Huang 被中国国安部招募，针对黄实施'蜜罐'行动 | 调查是否会牵出 Nvidia 对华出口合规问题，目前无证据 |
+| Alice Huang 关联的 Megaspeed 被指涉 20 亿美元 AI 芯片走私 | 事件对 Nvidia 客户订单与供应链的实际影响尚未显现 |
+| 美国国会已正式传唤黄仁勋就国家安全问题作证 |  |
 
 **📖 主编点评**
 
-这条你该读 Stratechery 原文而不是新闻标题——Thompson 拆的是「CEO 个人影响力作为公司资产」这件事怎么被折价。对你的实际含义：如果你在做任何依赖 Nvidia 生态的技术选型或简历叙事，把「单一供应商治理风险」写进你的判断框架里，比复述新闻有价值得多。
+这条不是八卦，是治理风险定价。你应该盯两件事：Nvidia 后续财报电话会里管理层是否被追问对华合规，以及云厂商是否开始分散 GPU 采购。如果你在做算力相关的 side project 或求职，别把叙事全押在'算力永远涨'上，留一手。
 
 📺 [打开原文](https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/)
 
@@ -33,14 +32,12 @@ _今天最重要的信号有两个：一是 Nvidia 董事会正式调查黄仁�
 
 ## 📋 备选阅读
 
-- [Gemini 4 Carbon 登顶 Artificial Analysis 智能指数 v5](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1) —— 第三方基准上的第一名易主，值得记一笔，但缺少工程细节，放备选。
+- [Gemini 4 Carbon 登顶 Artificial Analysis 智能指数 v5](https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1) —— Google 一周内连发 Gemini 4 Argon/Carbon 与 Genie 4，Carbon 拿下第三方榜单第一，模型竞赛节奏没被股市吓住。
   _theHocineSaad_
-- [Apple 据报正加速让 Siri 具备 agentic 能力](https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic) —— Gurman 爆料 Ternus 施压 Federighi 加速 Siri 路线图，对标 OpenAI Dots——大厂 Agent 入口战的又一枚棋子。
-  _Terrence O’Brien_
-- [Gemini 对订阅用户也在用聊天历史训练](https://news.ycombinator.com/item?id=50363461) —— HN 734 分，隐私边界问题；对你选型时的数据合规判断有直接参考价值。
-  _jameslk_
-- [Agent Clan：用手势指挥你的 Claude Code 和 Codex Agent](https://www.producthunt.com/products/agent-clan) —— Product Hunt 新品，多 Agent 编排的交互实验，思路比完成度更值得看。
-  _鄭策（TSETSE）_
+- [Apple 被曝加速让 Siri 变成 Agent，对标 OpenAI Dots 与 Meta Muse](https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic) —— Gurman 称 Ternus 施压 Federighi 提速 Siri 路线图，iOS 27.3 beta 已现'对话式应用'开关，端侧 Agent 是下一个战场。
+  _Terrence O'Brien_
+- [Llama-modchip：64GB 内存无 GPU 跑 284B DeepSeek](https://github.com/synchopate/llama-modchip) —— HN 429 分，纯 CPU 跑大模型的工程实践，对没有显卡的学生党有直接参考价值。
+  _joshcsimmons_
 
 ---
 
