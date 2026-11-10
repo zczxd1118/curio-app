@@ -1,45 +1,45 @@
 # Curio · AI 算力 / 半导体 · 2026-11-10
 
-> 今日 1 条头条 + 4 条备选
+> 今日 1 条头条 + 5 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 的 Jensen Huang 与疑似中国间谍的关系被本人承认，董事会启动独立调查、国会传唤、集体诉讼同时压上，Nvidia 股价单日跌超 4%，这不只是八卦，而是直接卡住 Nvidia 对华游说与出口管制的关键变量；二是 AI 资本面同步转向，Nasdaq 一周内跌入回调区间、2.5 万亿美元市值蒸发，Anthropic 却在这时推进 IPO。技术侧则有一条被低估的：Claude Code 的 settings 文件正在 GitHub 上批量泄露密钥。_
+_今天只有一个真正的信号：Nvidia 的 Jensen Huang 丑闻从八卦升级成公司治理与监管事件——董事会立案、国会传唤、集体诉讼、股价跌超 4%，同时 Anthropic 一边发新模型一边推进 IPO。AI 资本叙事正在被两件事同时拉扯：算力军备竞赛（Anthropic 花 34 亿美元买燃气轮机）和信任危机。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. Anthropic 花 34 亿美元买下 1.7GW 燃气发电机组，靠接手 Caterpillar 既有订单跳过六年排队
+### 4. DeepX 第二代 AI 加速器流片，LPDDR5x-PIM 架构宣称 6.7 倍性能提升、5W 内跑大模型
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Newton Gitonga_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Sally Ward-Foxton_
 
-Anthropic 与 OnePWR Solutions 达成 34 亿美元交易，拿下 1.7GW 燃气发电容量，方式是直接接手 OnePWR 手上已有的 Caterpillar 订单——因为燃气轮机交付排期已长达六年，新下单等于放弃 2032 年前的算力扩张。同期 Envision 在中国交付了 800MW 的 Galaxy 数据中心园区首期 120MW，用时不到一年，成本约为美国同类项目的五分之一。
+韩国 DeepX 宣布第二代 AI 加速器完成流片，采用 LPDDR5x 存内计算（PIM）架构，官方给出的数字是 6.7 倍性能提升，目标是在 5W 功耗内本地运行大语言模型，主攻机器人与边缘设备。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 交易金额 34 亿美元，锁定 1.7GW 燃气发电容量 | Anthropic 这笔交易是否划算，取决于天然气价格与碳成本的中期走势，目前无法定论 |
-| 通过接手 OnePWR 现有 Caterpillar 订单实现，而非新下单 | 「电力而非 GPU 成为 AI 扩张瓶颈」这个判断正在成型，但还没有成为行业共识 |
-| 美国燃气轮机交付排期已达约六年 | 中国以五分之一成本建数据中心，是否可复制到海外，样本只有一个 |
-| Envision 在中国交付 800MW 园区首期 120MW，用时不足一年 | 接手他人订单的合规与交付风险，合同细节未公开 |
-| Envision 项目成本约为美国同类项目的五分之一 |  |
-| Fervo 地热订单簿已达 120 亿美元 |  |
+| 第二代芯片已完成 tape-out，进入流片后阶段 | 6.7 倍是与自家上一代还是与竞品对比，官方口径需要核实 |
+| 架构采用 LPDDR5x-PIM（存内计算），宣称性能提升 6.7 倍 | "5W 内跑大模型"的具体模型规模与 token/s 未披露 |
+| 目标场景是机器人等边缘市场，可在 5W 以内运行大模型 | PIM 架构的软件栈成熟度是落地关键，目前没有生态信息 |
+| 同期 Tom's Hardware 报道其 DX-M1 处理器用"黄油散热器"演示比竞品低 40 度 | 边缘端跑 LLM 的实际需求规模，仍待市场验证 |
 
 **📖 主编点评**
 
-这条值得你记进长期判断库：AI 基础设施的瓶颈已经从芯片转移到电力和交付周期。做 Agent 产品时，推理成本的中期曲线不该假设「继续线性下降」——供给端被电力卡住时，价格下降会变慢。如果你在算 side project 的长期 API 成本，把这条当风险项。
+你是电子信息工程背景，这条是少见的"架构层面"而非"产品层面"的进展。存内计算解决的是内存墙问题，值得你花 10 分钟读原文搞清楚 PIM 到底把计算单元放在哪一层——这个概念在面试里比背参数值钱。
 
-📺 [打开原文](https://www.tomshardware.com/tech-industry/data-centers/anthropic-skips-six-year-waitlist-with-massive-usd3-4-billion-gas-turbine-generator-deal-firm-takes-over-onepwrs-orders-secures-1-7gw-of-capacity-to-power-ai-data-centers)
+📺 [打开原文](https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/)
 
 ---
 
 ## 📋 备选阅读
 
-- [DeepX 第二代芯片流片，LPDDR5x-PIM 架构预计 6.7 倍性能提升](https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/) —— 5W 以内跑端侧大模型，面向机器人市场——存算一体的路线第一次有了可量产的流片样本。
-  _EE Times_
-- [Nvidia 限制云合作伙伴对华业务占比至 49%](https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million) —— 黑市 B300 整机柜价格已涨到 280 万美元，这条和头条 1 是同一件事的产业侧后果。
+- [Nvidia RTX Spark 加密固件让 Linux 上推理速度掉到 35%](https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop) —— HN 617 分，本地跑模型的硬件自由度在收缩，对自建推理的人是实打实的坏消息。
+  _Hacker News_
+- [Nvidia 收紧海外云 GPU 对华租赁，合作伙伴面临 51% 非中国配额](https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million) —— 黑市 B300 整机架价格涨到 280 万美元，出口管制的实际执行细节比政策本身更值得看。
   _Tom's Hardware_
-- [律师用 8 张二手 V100 搭私有 AI 服务器，跑 DeepSeek V4.1 Flash 达 215 tokens/s](https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-builds-private-ai-server-with-eight-used-nvidia-v100-gpus-up-to-215-tokens-per-second-to-keep-legal-files-offline-costing-about-usd2-400-per-four-gpu-board) —— 2018 年的卡、四卡板约 2400 美元，跑出 215 tokens/s——自建推理的真实成本样本，比任何评测都有参考价值。
+- [内存短缺逼手机厂商把旧设备内存熔下来重新焊到新机上](https://www.tomshardware.com/pc-components/dram/memory-shortage-spurs-smartphone-makers-to-melt-used-memory-off-old-devices-then-re-solder-it-onto-new-products-recycled-memory-to-keep-budget-phones-affordable-reballing-adoption-to-double-by-2027) —— DRAM 涨价传导到消费电子的最直观证据，reballing 采用率预计 2027 年翻倍。
   _Tom's Hardware_
-- [内存短缺逼手机厂商从旧设备上拆内存重新植球再用](https://www.tomshardware.com/pc-components/dram/memory-shortage-spurs-smartphone-makers-to-melt-used-memory-off-old-devices-then-re-solder-it-onto-new-products-recycled-memory-to-keep-budget-phones-affordable-reballing-adoption-to-double-by-2027) —— DRAM 涨价已经逼出拆机回收内存的产业行为，2027 年采用率预计翻倍——供应链紧张的硬信号。
+- [律师用 8 张二手 V100 搭私有 AI 服务器，跑 DeepSeek V4.1 Flash 达 215 tokens/s](https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-builds-private-ai-server-with-eight-used-nvidia-v100-gpus-up-to-215-tokens-per-second-to-keep-legal-files-offline-costing-about-usd2-400-per-four-gpu-board) —— 四卡板约 2400 美元，2018 年的卡跑 2026 年的模型，本地部署的性价比参考样本。
+  _Tom's Hardware_
+- [中国建成 800MW AI 数据中心园区对标 Stargate，首期 120MW 一年内交付、成本仅五分之一](https://www.tomshardware.com/tech-industry/data-centers/china-builds-massive-800-megawatt-ai-data-center-campus-to-rival-us-stargate-project-galaxy-campus-delivers-first-120-megawatts-in-a-year-at-one-fifth-the-cost) —— 远景的 Galaxy 园区结合风电、储能和非常规散热，建设速度与成本是这条的重点。
   _Tom's Hardware_
 
 ---
