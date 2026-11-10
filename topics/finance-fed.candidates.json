@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-09T11:13:44.417434+00:00",
+  "fetched_at": "2026-11-10T10:56:56.414821+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,7 +11,7 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 21,
+    "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 2,
     "HN · inflation": 0,
     "HN · Tesla": 4,
@@ -19,7 +19,7 @@
     "HN · fed": 20
   },
   "subtopics": [],
-  "total": 92,
+  "total": 71,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
@@ -532,363 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arxiv.org/abs/2611.08968",
-      "title": "Portfolio-aware scenario transfer of reserve movements: evidence from Lloyd's syndicates",
-      "url": "https://arxiv.org/abs/2611.08968",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Colin Priest",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.08968v1 Announce Type: new Abstract: A claims-development movement on one portfolio may not transfer directly as a stress to another size. We estimate how to transfer such scenarios between portfolio sizes, using 632 syndicate-years from 117 Lloyd's syndicates over 2015-2024. The measured movement is the change in gross claims estimates on selected older underwriting cohorts, divided by opening gross claims outstanding plus reserves taken on in the year whose development it includes; ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.09208",
-      "title": "The Network Adaptive Market Hypothesis: Detection, Attribution, and Network-Mediated Efficiency",
-      "url": "https://arxiv.org/abs/2611.09208",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Hitesh Kumar Sahu, Avishek Bhandari, Ipsita Parida",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.09208v1 Announce Type: new Abstract: We propose the Network Adaptive Market Hypothesis (NAMH), a novel extension of the adaptive markets framework that conceptualizes market efficiency as a network-dependent equilibrium emerging from long-memory predictability and cross-market information transmission. Using G20 equity indices and five commodity futures over 2001-2026, we identify Japan as the central information hub, while the United States primarily acts as an information broadcaste...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.09213",
-      "title": "Joint modelling of financial cost and carbon footprint in motor insurance claims: a BINAR(1) decision framework for circular auto parts adoption",
-      "url": "https://arxiv.org/abs/2611.09213",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Charles Minier (CNP, LSAF), St\\'ephane Loisel (CNAM Paris), Renata Alcoforado (UFPE, ULISBOA)",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.09213v1 Announce Type: new Abstract: Motor insurance claims management increasingly faces a dual objective: controlling claim costs while reducing greenhouse-gas emissions associated with vehicle repair decisions. This paper proposes a bivariate, discrete-time modelling framework that links the dynamics of financial claims and repair-related carbon footprint inspired by a BINAR(1) dependence structure, allowing for temporal persistence, cross-dependence and a positive/negative correla...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.09286",
-      "title": "The End-of-Day Reversal After 2019: A Pre-Registered Test on S&P 500 Stocks Excluding Heavily Traded Names",
-      "url": "https://arxiv.org/abs/2611.09286",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Alex Vidovich, Zivana Zerjal",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.09286v1 Announce Type: new Abstract: Baltussen, Da and Soebhag (2025) document an end-of-day reversal in U.S. stocks through December 2019: intraday losers outperform intraday winners over the last half hour of trading. We test it on later data, on point-in-time S&amp;P 500 members excluding about 80 heavily traded stocks we had examined in earlier, unpublished work. Under a private pre-registration, the 2016-2019 data had to reproduce the published sign before any statistic linking t...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.09337",
-      "title": "Sanctions, Evasion, and Deterrence: Evidence from Speeding Enforcement",
-      "url": "https://arxiv.org/abs/2611.09337",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Romain Gauriot, Maria Wisniewska",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.09337v1 Announce Type: new Abstract: The design of sanctions plays a central role in shaping reoffending behavior. We study the effects of fixed monetary fines and accumulating penalty points on speeding recidivism and liability transfer. Exploiting a large increase in sanctions in Queensland, Australia, we estimate the causal effects of these sanctions on subsequent offending and nomination of other drivers. Higher demerit points increase fine renomination, consistent with strategic ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.09751",
-      "title": "Drift-invariant kernels for discount curve models",
-      "url": "https://arxiv.org/abs/2611.09751",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Andreas Celary, Zehra Eksi-Altay, Damir Filipovic, Paul Kr\\\"uhner",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.09751v1 Announce Type: new Abstract: Kernel ridge regression estimates the discount curve as the minimizer of a pricing error plus a penalty given by the norm of a reproducing kernel Hilbert space. By the representer theorem, the estimate lies in a finite-dimensional affine space that depends only on the kernel and on the cash flow dates of the instruments. We ask when this space is invariant under the risk-neutral drift of the discount curve, so that the estimated curves can be the s...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.09834",
-      "title": "The Logic of Factor Portfolios: Boolean Rules, Interactions, and Trading Costs",
-      "url": "https://arxiv.org/abs/2611.09834",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Ziyao Wang, Svetlozar T. Rachev, Frank J. Fabozzi",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.09834v1 Announce Type: new Abstract: Investors turn signals into holdings through decision rules: buy the top decile, hold stocks with high momentum and low volatility, exclude stocks that fail a screen. Many such rules are Boolean functions of threshold statements about signal ranks, and writing them this way shows both what a rule holds and how often it trades. A Walsh decomposition splits the return of any rule into exposures to individual signals and to interactions among signals;...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.08528",
-      "title": "Price-Volume Correlations Are Always Zero",
-      "url": "https://arxiv.org/abs/2611.08528",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Victor Olkhov",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.08528v1 Announce Type: cross Abstract: We argue that the use of the empirical time series of values, volumes, and prices of consecutive trades made during the averaging interval to calculate the price-volume correlation in a way that follows the definition of correlation always gives zero correlation. We show that the usual expression for the empirical calculation of the correlation misleads the researchers and doesn't fulfill the definition of price-volume correlation. The mistake ha...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.08701",
-      "title": "Does a Trading Policy Need to Know What It Trades? Microstructure Invariance and Zero-Shot Transfer of Execution Policies",
-      "url": "https://arxiv.org/abs/2611.08701",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Hieu Tran, Hong Yu",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.08701v1 Announce Type: cross Abstract: Execution algorithms are calibrated asset by asset, because the queues, trade rates and bid-ask spreads they face differ by orders of magnitude across assets. For reinforcement learning this is zero-shot generalisation across contexts of very different scales, and microstructure invariance proposes a normalisation fixed by theory: measured in each asset's own units of time, size and price, markets look alike. In an exact order-by-order replay of ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.09012",
-      "title": "Towards Robust Reinforcement Learning Market Making: Lessons from Loss Function Experimentation",
-      "url": "https://arxiv.org/abs/2611.09012",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Siddharth Nand, Bora Guney",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2611.09012v1 Announce Type: cross Abstract: Market makers play a vital role in ensuring efficient trade within financial markets. Recent literature has delved into training market-making systems using reinforcement learning. This paper delves into the impact of various loss function formulations on risk management behavior within reinforcement-based market making. Through empirical evaluation, we contrast profit-maximizing strategies with risk-averse approaches, finding that penalties for ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2312.17123",
-      "title": "Further Education During Unemployment",
-      "url": "https://arxiv.org/abs/2312.17123",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Pauline Leung, Zhuan Pei",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2312.17123v5 Announce Type: replace Abstract: Evidence on the effectiveness of retraining unemployed U.S. workers primarily comes from evaluations of training programs, a narrow avenue for skill acquisition. We use administrative records from Ohio to estimate the effects of retraining, broadly defined as postsecondary enrollment, via matching. Our simple method bridges two strands of the dynamic treatment effect literature that differ in whether the counterfactual allows later treatment or...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2410.23447",
-      "title": "Systematic Covariance Envelopes from Wasserstein Geometry: Evidence from Language-Model Representations",
-      "url": "https://arxiv.org/abs/2410.23447",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Marcus Gawronsky, Chun-Sung Huang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2410.23447v3 Announce Type: replace Abstract: Firm characteristics are commonly represented as fixed vectors, even though evidence about firms' operations arrives as heterogeneous collections of articles and reports. We represent firms by distributions and derive restrictions on the systematic covariance their factor exposures can support. Quadratic Wasserstein distance measures the minimum displacement needed to align two distributions; in exposure space, it determines their sharp covaria...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2603.18969",
-      "title": "Correlation Ambiguity, Diversification Fragility, and Insurance Pricing",
-      "url": "https://arxiv.org/abs/2603.18969",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Peiyun Deng, Shunzhi Pang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2603.18969v2 Announce Type: replace Abstract: We study how correlation ambiguity affects insurance supply, investment, and pricing in a competitive market. An insurer jointly chooses underwriting and risky investment under worst-case correlation uncertainty, with the insurance loading determined by insurance supply and household demand. With the correlation midpoint and all other model parameters fixed, widening the correlation interval makes diversification less reliable. With underwritin...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2604.09986",
-      "title": "The Long-Only Minimum Variance Portfolio in a One-Factor Market: Theory and Asymptotics",
-      "url": "https://arxiv.org/abs/2604.09986",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Alec Kercheval, Ololade Sowunmi",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2604.09986v2 Announce Type: replace Abstract: We study the long-only minimum variance (LOMV) portfolio, an object of interest going back to Markowitz, and the simplest non-trivial instance of quantitative portfolio construction. Despite its importance, aspects of the LOMV remain mysterious. Here we examine the base case of a general one-factor covariance model, and provide an explicit characterization of the solution. As a corollary we resolve an open question of Qi (2021) for this setting...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2606.22884",
-      "title": "Universal Value-at-Risk superadditivity",
-      "url": "https://arxiv.org/abs/2606.22884",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Yuyu Chen, Liyuan Lin, Ruodu Wang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2606.22884v2 Announce Type: replace Abstract: Value-at-Risk (VaR) is a standard regulatory risk measure, and its failure of subadditivity is well known. Much less appreciated is that for sufficiently heavy-tailed losses, VaR can be superadditive uniformly across all probability levels, a phenomenon strictly stronger than the asymptotic superadditivity studied in extreme value theory. We call this property universal VaR superadditivity (UVS). We study UVS and its stronger weighted version (...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2607.02978",
-      "title": "Urban Reconstruction and Population Redistribution: Evidence from Tokyo after the Great Kanto Earthquake",
-      "url": "https://arxiv.org/abs/2607.02978",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Kota Ogasawara",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2607.02978v5 Announce Type: replace Abstract: This study examines the impact of the 1923 Great Kanto Earthquake on population distribution within Tokyo City. Using newly digitized census statistics and variation in fire damage across areas, I show that land readjustment under the reconstruction project reduced residential land in the burned area, and rents rose throughout the city, particularly in the burned area. Although residential floor area recovered through the construction of multi-...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.29669",
-      "title": "Who Are a Firm's Economic Peers? Mapping a Latent Information Field with Language Models",
-      "url": "https://arxiv.org/abs/2608.29669",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Marcus Gawronsky, Chun-Sung Huang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2608.29669v3 Announce Type: replace Abstract: Identifying a firm's economic peers matters for benchmarking, risk measurement, and understanding return dependence, yet a diversified firm may have no single natural peer. We use language-model representations of corporate news to identify the combination of firms that jointly represents each firm's information environment. Each firm is represented by a distribution of article embeddings, and target-anchored Wasserstein barycentric reconstruct...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.29692",
-      "title": "Portfolio Risk Bounds without Cross-Asset Return Covariances: Distributional Fields from Language-Model Representations",
-      "url": "https://arxiv.org/abs/2608.29692",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Marcus Gawronsky, Chun-Sung Huang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2608.29692v2 Announce Type: replace Abstract: Portfolio risk assessment ordinarily relies on reliable estimates of cross-asset return covariances, which are difficult to obtain in short, high-dimensional panels. We show that firm-level distribution-valued characteristics can instead provide one-sided certificates of portfolio risk. Under maintained links from characteristics to systematic exposures and from exposures to returns, multi-firm Wasserstein-2 dispersion yields a sharp upper boun...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.15973",
-      "title": "Shared AI Decision Interfaces and Credit Allocation in a Simulated Lending Market",
-      "url": "https://arxiv.org/abs/2610.15973",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Victoria Ruojie Li",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2610.15973v3 Announce Type: replace Abstract: Language-model agents can choose from a shared menu of actions. I ask whether the order of that menu, which carries no payoff-relevant information, can move credit in a market. Borrowers from three small open-weight model families operate in a simulated collateralized lending market. In each of 12 matched blocks, one market shows all borrowers the same complete action order and the other balances the six orders. An exact randomization test, has...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2507.15079",
-      "title": "Isotonic Quantile Regression Averaging for uncertainty quantification of electricity price forecasts",
-      "url": "https://arxiv.org/abs/2507.15079",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Arkadiusz Lipiecki, Bartosz Uniejewski",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2507.15079v2 Announce Type: replace-cross Abstract: Quantifying the uncertainty of forecasting models is essential to assess and mitigate the risks associated with data-driven decisions, especially in volatile domains such as electricity markets. In this paper, we propose a computationally efficient isotonic variant of Quantile Regression Averaging (QRA), called Isotonic Quantile Regression Averaging (iQRA), for generating probabilistic forecasts from ensembles of point forecasts. Building...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2604.02064",
-      "title": "Quantitative Universal Approximation for Noisy Quantum Neural Networks",
-      "url": "https://arxiv.org/abs/2604.02064",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Lukas Gonon, Antoine Jacquier, Marcel Mordarski",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T05:00:00+00:00",
-      "summary": "arXiv:2604.02064v4 Announce Type: replace-cross Abstract: We prove a quantitative universal approximation theorem for noisy quantum neural networks (QNNs), with explicit non-asymptotic error bounds in terms of the number of accuracy blocks, the qubit count, the number of two-qubit gates, and hardware noise parameters. Motivated by quantitative finance, where target functions are expectations of payoffs, we first extend existing noiseless bounds to expectation functions and derive explicit consta...",
-      "lang": "en"
-    },
-    {
       "id": "hn:50082283",
       "title": "US Says Chinese Hackers Attacked DOJ, NASA, Federal Reserve, Senate",
       "url": "https://www.usatoday.com/story/news/politics/2026/08/26/chinese-hackers-cyberattack-us-government/91473585007/",
@@ -938,8 +581,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50391456"
       },
       "duration_sec": null,
-      "views": 1155,
-      "comments": 2085,
+      "views": 1160,
+      "comments": 2106,
       "published_at": "2026-11-06T12:13:51+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -957,8 +600,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50414427"
       },
       "duration_sec": null,
-      "views": 199,
-      "comments": 265,
+      "views": 206,
+      "comments": 286,
       "published_at": "2026-11-08T16:07:42+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -1072,7 +715,7 @@
       },
       "duration_sec": null,
       "views": 521,
-      "comments": 232,
+      "comments": 233,
       "published_at": "2026-11-05T23:09:57+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -1547,7 +1190,7 @@
       },
       "duration_sec": null,
       "views": 33,
-      "comments": 11,
+      "comments": 12,
       "published_at": "2026-11-06T16:45:10+00:00",
       "summary": "",
       "matched_keyword": "fed",

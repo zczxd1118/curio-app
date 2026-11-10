@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-09T11:13:49.533904+00:00",
+  "fetched_at": "2026-11-10T10:57:01.172595+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 0,
-    "HN · Nvidia": 8,
+    "HN · Nvidia": 10,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 30,
+  "total": 32,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,142 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/what-it-takes-to-let-a-farm-robot-work-alone/",
+      "title": "What It Takes to Let a Farm Robot Work Alone",
+      "url": "https://www.eetimes.com/what-it-takes-to-let-a-farm-robot-work-alone/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-10T08:32:00+00:00",
+      "summary": "Safe agricultural autonomy depends on matching safeguards to the machine, its surroundings, and the people who interact with it. The post What It Takes to Let a Farm Robot Work Alone appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/we-source-chips-others-cannot-secure-2026/",
+      "title": "We Source Chips Others Cannot Secure, 2026",
+      "url": "https://www.eetimes.com/we-source-chips-others-cannot-secure-2026/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Chang Ming International Technology Co., Ltd.",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-10T07:48:14+00:00",
+      "summary": "Chang Ming delivers scarce semiconductors, with rigorous 9-step quality inspection &#038; global supply chain support for European &#038; American electronics buyers. The post We Source Chips Others Cannot Secure, 2026 appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/gigadevice-new-gen-high-performance-mcu-portfolio-for-full-scenario-industrial-applications/",
+      "title": "GigaDevice New-Gen High-Performance MCU Portfolio for Full-Scenario Industrial Applications",
+      "url": "https://www.eetimes.com/gigadevice-new-gen-high-performance-mcu-portfolio-for-full-scenario-industrial-applications/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "GigaDevice",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-10T06:00:00+00:00",
+      "summary": "GigaDevice officially lunches its new-generation GD32H7 MCU portfolio built on a unified chip architecture. Discover More. The post GigaDevice New-Gen High-Performance MCU Portfolio for Full-Scenario Industrial Applications appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/can-jensen-keep-his-job/",
+      "title": "Can Jensen Keep His Job?",
+      "url": "https://www.eetimes.com/can-jensen-keep-his-job/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-09T19:59:12+00:00",
+      "summary": "Nvidia CEO admits to romantic affair with Megaspeed managing director, a known Chinese intelligence asset. The post Can Jensen Keep His Job? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/advancing-integrated-optics-celestica-broadcom-interview-at-ocp-global-summit/",
+      "title": "Advancing Integrated Optics: Celestica & Broadcom Interview at OCP Global Summit",
+      "url": "https://www.eetimes.com/advancing-integrated-optics-celestica-broadcom-interview-at-ocp-global-summit/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "EE Times Partner Content",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-09T14:20:32+00:00",
+      "summary": "Celestica and Broadcom explain how integrated optics can cut power and latency for AI data centers—watch the OCP Summit partner interview. The post Advancing Integrated Optics: Celestica &amp; Broadcom Interview at OCP Global Summit appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/powering-ai-data-centers-rethinking-energy-infrastructure-for-the-next-wave-of-ai-growth/",
+      "title": "Powering AI Data Centers: Rethinking Energy Infrastructure for the Next Wave of AI Growth",
+      "url": "https://www.eetimes.com/powering-ai-data-centers-rethinking-energy-infrastructure-for-the-next-wave-of-ai-growth/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "EE Times Staff",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-09T14:00:51+00:00",
+      "summary": "AI data centers need faster, resilient power; learn how microgrids, storage, and intelligent controls can ease grid constraints in this partner interview. The post Powering AI Data Centers: Rethinking Energy Infrastructure for the Next Wave of AI Growth appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/still-looking-for-diamonds/",
+      "title": "Still Looking for Diamonds",
+      "url": "https://www.eetimes.com/still-looking-for-diamonds/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Moshe Zalcberg",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-09T13:31:16+00:00",
+      "summary": "Silicon carbide demand surges, but Europe risks hollow sovereignty as investment flows abroad; see why Bulgaria’s fab needs customers first. The post Still Looking for Diamonds appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/designing-smarter-security-and-portable-camera-systems/",
+      "title": "Designing Smarter Security and Portable Camera Systems",
+      "url": "https://www.eetimes.com/designing-smarter-security-and-portable-camera-systems/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "onsemi",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-09T13:27:35+00:00",
+      "summary": "Security and portable camera designers must balance image quality, power consumption, connectivity, and system cost across widely different operating environments. This guide provides a practical system-level reference for surveillance cameras, video doorbells, body cameras, trail cameras, action cameras, and dashboard cameras. It explains how low-power motion detection, high dynamic range, near-infrared sensitivity, and region-of-interest processing [&#8230;] The post Designing Smarter Security...",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
       "title": "DeepX Tapes Out Second-Gen Chip, Projects 6.7× Performance Gain With LPDDR5x-PIM",
       "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
@@ -223,142 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/cosmic-at-semicon-europa-2026-advancing-high-complexity-semiconductor-test-solutions/",
-      "title": "Cosmic at SEMICON Europa 2026: Advancing High-Complexity Semiconductor Test Solutions",
-      "url": "https://www.eetimes.com/cosmic-at-semicon-europa-2026-advancing-high-complexity-semiconductor-test-solutions/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Cosmic Group",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T18:48:20+00:00",
-      "summary": "ALTOPASCIO, Italy — Nov. 9, 2026 — Cosmic Group will participate in SEMICON Europa 2026 in Munich, held concurrently with electronica from Nov. 10 to 13, 2026. Cosmic will be located at booth C1255. Rooted in the tradition of technological innovation “Made in Europe,” the group aligns perfectly with this year’s event focus: “Europe’s Next [&#8230;] The post Cosmic at SEMICON Europa 2026: Advancing High-Complexity Semiconductor Test Solutions appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ibm-amd-mix-quantum-and-ai-at-u-s-national-lab/",
-      "title": "IBM, AMD Mix Quantum and AI at U.S. National Lab",
-      "url": "https://www.eetimes.com/ibm-amd-mix-quantum-and-ai-at-u-s-national-lab/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Alan Patterson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T14:10:57+00:00",
-      "summary": "IBM, AMD, and Oak Ridge launch hybrid quantum-classical system to accelerate quantum-error correction research ahead of 2028. The post IBM, AMD Mix Quantum and AI at U.S. National Lab appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/europe-chip-industry-perfect-storm-or-perfect-timing/",
-      "title": "Europe’s Chip Industry: Perfect Storm or Perfect Timing?",
-      "url": "https://www.eetimes.com/europe-chip-industry-perfect-storm-or-perfect-timing/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Anne-Françoise Pelé",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T09:53:05+00:00",
-      "summary": "At SEMICON Europa 2026, Europe’s chip industry will confront a “perfect storm” of geopolitical, technological, and competitive pressures. The post Europe’s Chip Industry: Perfect Storm or Perfect Timing? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ee-times-magazine-november-2026/",
-      "title": "EE Times Magazine – November 2026",
-      "url": "https://www.eetimes.com/ee-times-magazine-november-2026/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Anne-Françoise Pelé",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-05T22:30:00+00:00",
-      "summary": "This edition of EE Times Magazine explores advances in semiconductor manufacturing and packaging, farm autonomy, and Canada’s efforts to commercialize emerging technologies. The post EE Times Magazine – November 2026 appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/infineon-leaders-andreas-urschitz-and-maher-matta-on-a-decade-of-oktobertech/",
-      "title": "Infineon Leaders Andreas Urschitz and Maher Matta on a Decade of OktoberTech",
-      "url": "https://www.eetimes.com/infineon-leaders-andreas-urschitz-and-maher-matta-on-a-decade-of-oktobertech/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-05T19:30:52+00:00",
-      "summary": "Sponsored: Infineon’s Andreas Urschitz and Maher Matta talk to EE Times at OktoberTech Silicon Valley 2026, looking back on a decade of innovation and growth. The post Infineon Leaders Andreas Urschitz and Maher Matta on a Decade of OktoberTech appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/infineons-johannes-schoiswohl-on-the-gan-market-at-oktobertech/",
-      "title": "Infineon’s Johannes Schoiswohl on the GaN Market at OktoberTech",
-      "url": "https://www.eetimes.com/infineons-johannes-schoiswohl-on-the-gan-market-at-oktobertech/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-05T19:15:17+00:00",
-      "summary": "Sponsored: PEN’s Aalyia Shaukat talks to Infineon’s Johannes Schoiswohl about the GaN market at OktoberTech Silicon Valley 2026, the event’s 10th anniversary. The post Infineon’s Johannes Schoiswohl on the GaN Market at OktoberTech appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/infineons-steve-tateosian-talks-iot-consumer-and-industrial-mcus-at-oktobertech/",
-      "title": "Infineon’s Steve Tateosian Talks IoT, Consumer, and Industrial MCUs at OktoberTech",
-      "url": "https://www.eetimes.com/infineons-steve-tateosian-talks-iot-consumer-and-industrial-mcus-at-oktobertech/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-05T18:59:48+00:00",
-      "summary": "Sponsored: EDN's Majeed Ahmad talks to Infineon's Steve Tateosian on edge systems, application examples, and the growth of the market. The post Infineon’s Steve Tateosian Talks IoT, Consumer, and Industrial MCUs at OktoberTech appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/from-pytorch-to-product-accelerating-edge-ai-through-open-ecosystems/",
-      "title": "From PyTorch to Product: Accelerating Edge AI Through Open Ecosystems",
-      "url": "https://www.eetimes.com/from-pytorch-to-product-accelerating-edge-ai-through-open-ecosystems/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Renesas",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-05T18:12:42+00:00",
-      "summary": "In this 30-Minute BitCast, discover how open-source technologies are helping developers accelerate AI deployment on resource-constrained embedded devices. The post From PyTorch to Product: Accelerating Edge AI Through Open Ecosystems appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50418016",
       "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
       "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
@@ -370,8 +370,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50418016"
       },
       "duration_sec": null,
-      "views": 703,
-      "comments": 775,
+      "views": 959,
+      "comments": 1238,
       "published_at": "2026-11-08T22:20:09+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -390,7 +390,7 @@
       },
       "duration_sec": null,
       "views": 617,
-      "comments": 291,
+      "comments": 292,
       "published_at": "2026-11-04T08:46:29+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50416801"
       },
       "duration_sec": null,
-      "views": 470,
-      "comments": 353,
+      "views": 490,
+      "comments": 406,
       "published_at": "2026-11-08T20:26:43+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -427,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50293047"
       },
       "duration_sec": null,
-      "views": 370,
+      "views": 371,
       "comments": 250,
       "published_at": "2026-10-29T17:43:48+00:00",
       "summary": "",
@@ -446,7 +446,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50348962"
       },
       "duration_sec": null,
-      "views": 291,
+      "views": 292,
       "comments": 139,
       "published_at": "2026-11-03T07:04:50+00:00",
       "summary": "",
@@ -485,8 +485,27 @@
       },
       "duration_sec": null,
       "views": 124,
-      "comments": 29,
+      "comments": 30,
       "published_at": "2026-11-06T03:16:26+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50392256",
+      "title": "Nvidia was in 1 in 11 startup rounds over $100M last year",
+      "url": "https://datahyena.com/research/a-chipmaker-was-in-one-of-every-eleven-100m-rounds/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50392256",
+        "name": "ghostfoxgod",
+        "hn_url": "https://news.ycombinator.com/item?id=50392256"
+      },
+      "duration_sec": null,
+      "views": 80,
+      "comments": 68,
+      "published_at": "2026-11-06T13:48:35+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -504,8 +523,27 @@
       },
       "duration_sec": null,
       "views": 78,
-      "comments": 85,
+      "comments": 88,
       "published_at": "2026-11-04T11:02:23+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50427486",
+      "title": "Commerce Dept Inquiry into Megaspeed Halted After Nvdia Intervention",
+      "url": "https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50427486",
+        "name": "louiereederson",
+        "hn_url": "https://news.ycombinator.com/item?id=50427486"
+      },
+      "duration_sec": null,
+      "views": 51,
+      "comments": 5,
+      "published_at": "2026-11-09T16:10:07+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
