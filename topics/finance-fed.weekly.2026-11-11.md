@@ -1,29 +1,18 @@
 # Curio · 金融 · 2026-11-11
 
-> 今日 1 条头条 + 4 条备选
+> 今日 1 条头条 + 2 条备选
 
-_今天真正的大信号只有一个：Nvidia 的治理危机已经从八卦升级为国家级风险——Jensen Huang 承认与疑似中方情报人员的关系，国会传唤、集体诉讼、FBI 介入同时发生，而 Stratechery 指出真正的风险在治理而非国安。第二个信号是 Anthropic IPO 定价 1.4T 估值，7 位创始人各套现 2.5 亿美元，同时纽约 AI 安全法生效——AI 头部公司第一次同时被资本市场和监管双向夹击。_
+_今天最重要的信号有两个：一是 Nvidia 的治理危机从花边新闻升级为国会听证、集体诉讼、FBI 调查三线并进，Ben Thompson 判断真正的风险在治理而非国安；二是 AI 交易在中期选举后遭遇 2.5 万亿美元级别的抛售，而 Anthropic 偏偏选在这个窗口推进 1.4T 估值 IPO。这两件事叠在一起，说明算力叙事正在从「无限乐观」切换到「谁来负责」。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. Tesla 决定停产 Cybertruck，上市数年销量持续低迷
+### 1. Tesla 将逐步停产 Cybertruck
 
-**[金融]** · ⭐⭐⭐⭐ · _PLenz_
+**[金融]** · ⭐⭐⭐ · _PLenz_
 
-Cybertruck 从发布到停产走完了完整周期：发布时的话题度、交付后的产能爬坡问题、以及始终没解决的销量。NBC 报道 Tesla 将逐步关停 Cybertruck 产线。同一天 HN 上还有一条「Tesla 自 JB Straubel 离任 CTO 后再无成功的新产品发布」，两条放在一起看，指向的是 Tesla 产品组织的问题而不是单一车型的失败。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Tesla 将逐步停产 Cybertruck | 产线是否转产其他车型，Tesla 未公布 |
-| NBC News 报道，原因是销量持续低迷 | 停产是否计入一次性减值，影响下季度财报 |
-| Cybertruck 上市仅数年 | 对 Tesla 品牌溢价的影响程度待观察 |
-|  | 是否与 Musk 精力转向 Terafab/ SpaceX 有关，属推测 |
-
-**📖 主编点评**
-
-这条放进头条是因为它是个「反共识」信号：市场还在讨论 Tesla 的 AI 和机器人叙事，但它的汽车主业正在收缩产品线。如果你关注 AI 算力链，注意 Musk 的注意力正在从车转向 Terafab（同日另一条：目标 2032 年后月产 100 万片晶圆）——这是一个人的资源分配问题，值得跟踪。
+HN 1163 分，本周最高热度之一；产品失败案例，但和你的 AI 主线关联弱。
 
 📺 [打开原文](https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817)
 
@@ -31,14 +20,10 @@ Cybertruck 从发布到停产走完了完整周期：发布时的话题度、交
 
 ## 📋 备选阅读
 
-- [Oura 以 6.25 亿美元收购 AI 原生初级医疗公司 Counsel Health](https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/) —— Oura 刚推迟 22 亿美元 IPO，转头做 6.25 亿收购。可穿戴 + AI 医疗的整合路径，值得记一笔。
-  _Aisha Malik_
-- [OpenAI 收购 Sonder 创始人创办的旅游创业公司 Odessia](https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/) —— OpenAI 收购旅游公司，用途未说明。可能是 acquihire，也可能是 Agent 落地场景，信息太少暂列备选。
-  _Julie Bort_
-- [X-energy 获 NRC 建设许可，将在德州建四座小型模块化核反应堆](https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors/) —— AI 数据中心电力缺口的供给侧进展。SMR 从 PPT 走到施工许可，是能源与算力交叉的实质节点。
-  _Tim De Chant_
-- [PSI 用未发布的 Anthropic 模型回答量子计算二十年悬而未决的问题](https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/) —— 「AI 驱动科学发现」商业化样本，且用了未发布模型。具体问题是什么报道没讲清，但方向值得跟踪。
-  _Tim Fernholz_
+- [美国联邦赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 宏观背景数据，解释了为什么 AI 举债扩张会遇到利率阻力，属背景而非事件。
+  _ck2_
+- [DHS 下令禁止美国联邦文职机构使用 DeepSeek，含基于其构建的工具](https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/) —— 禁令范围扩到「基于 DeepSeek 构建的第三方工具」，对做模型选型的人是硬约束，但已是三周前的事。
+  _cmrdporcupine_
 
 ---
 
