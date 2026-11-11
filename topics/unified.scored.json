@@ -1,236 +1,235 @@
 {
-  "date": "2026-11-10",
-  "intro": "今天只有一个真正的信号：Nvidia 的 Jensen Huang 丑闻从八卦升级成公司治理与监管事件——董事会立案、国会传唤、集体诉讼、股价跌超 4%，同时 Anthropic 一边发新模型一边推进 IPO。AI 资本叙事正在被两件事同时拉扯：算力军备竞赛（Anthropic 花 34 亿美元买燃气轮机）和信任危机。",
+  "date": "2026-11-11",
+  "intro": "今天真正的大信号只有一个：Nvidia 的治理危机已经从八卦升级为国家级风险——Jensen Huang 承认与疑似中方情报人员的关系，国会传唤、集体诉讼、FBI 介入同时发生，而 Stratechery 指出真正的风险在治理而非国安。第二个信号是 Anthropic IPO 定价 1.4T 估值，7 位创始人各套现 2.5 亿美元，同时纽约 AI 安全法生效——AI 头部公司第一次同时被资本市场和监管双向夹击。",
   "headlines": [
     {
       "rank": 1,
       "domain": "大厂 AI 动态",
-      "id": "rss:https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
-      "url": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
+      "id": "rss:https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/",
+      "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/",
       "source": "Ben Thompson",
       "stars": 5,
-      "title": "Jensen Huang 承认与疑似中国间谍有私情，Nvidia 董事会立案、国会传唤、集体诉讼三线齐发",
-      "lead": "Huang 在致员工信中承认与 Megaspeed 高管 Alice Huang 的关系，Nvidia 董事会随即成立独立委员会调查，美国众议院中共问题特别委员会已传唤他作证，律所集体诉讼紧随其后，股价单日跌超 4%。Ben Thompson 的判断是：他大概能保住职位，但影响力再也回不到从前。",
+      "title": "Jensen Huang 危机升级：国会传唤、集体诉讼、FBI 介入，Ben Thompson 判断真正风险在治理而非国安",
+      "lead": "Huang 承认与 Megaspeed 董事总经理的关系后，事件在 48 小时内连跳三级：国会 CCP 特别委员会传唤、律所发起证券欺诈集体诉讼、特朗普称 FBI 已介入。Stratechery 的 Ben Thompson 给出与主流叙事不同的判断——对 Huang 最致命的不是国安审查，而是董事会治理结构，他的影响力「永远不会和以前一样」。",
       "confirmed": [
-        "Huang 已向全体员工发信承认私情并道歉，董事会声明仍表示信任其领导",
-        "众议院 Select Committee on the CCP 已正式传唤 Huang 出席作证",
-        "至少一家律所已就证券欺诈提起集体诉讼，多家律所在跟进调查",
-        "Nvidia 股价在董事会宣布调查后单日下跌超过 4%",
-        "Culper Research 早在六个月前就发布做空报告质疑 Huang 与该高管的关系",
-        "Huang 已临时退出 ElevenLabs Summit 与一场 Anthropic 活动"
+        "Huang 已公开承认与 Megaspeed 董事总经理 Alice Huang 存在恋爱关系，对方被指为中方情报资产",
+        "国会 CCP 特别委员会已传唤 Huang 出席作证",
+        "至少一家律所已就证券欺诈发起集体诉讼，多家律所在跟进调查",
+        "特朗普公开表示 FBI 正在调查此事",
+        "报道称 Alice Huang 三年间协助约 24 万颗 H100/H200 流入中国，涉资 75 亿美元"
       ],
       "judgment": [
-        "董事会\"仍信任管理层\"的表态能否撑过国会听证，目前无法判断",
-        "集体诉讼的核心争点可能是公司此前声明是否构成误导性披露，尚未定论",
-        "此事对 Nvidia 游说放宽对华芯片出口的实际影响有多大，仍是推测",
-        "Huang 是否会主动卸任或转任董事长，目前没有任何实质信号"
+        "Huang 是否会辞去 CEO 或仅失去董事长职位，目前无任何官方信号",
+        "Nvidia 董事会调查的结论与时间表未知，可能拖到 2027 年",
+        "对华 GPU 出口政策是否会因此收紧，白宫尚未表态",
+        "Nvidia 股价的下跌是情绪性还是结构性重估，需看下季度财报",
+        "Megaspeed 调查被叫停是否与 Huang 干预有关，纽约时报的报道尚未被官方证实"
       ],
-      "implication": "别把这条当八卦看。Nvidia 是当前 AI 基建的定价锚，CEO 治理风险会直接传导到算力采购节奏和出口政策。你如果关注 AI 产业链，接下来两周盯三件事：国会听证日期、董事会调查结论、以及 Q4 财报电话会上管理层被追问的密度。"
+      "implication": "这条你该读 Stratechery 原文而不是新闻标题——Ben Thompson 的框架是「治理风险 > 国安风险」，这决定了 Nvidia 未来 6 个月的估值逻辑。如果你在关注 AI 算力链的任何标的或供应链判断，把「Huang 是否留任」当成一个需要持续跟踪的变量，而不是一次性新闻。"
     },
     {
       "rank": 2,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-      "source": "Tim De Chant",
+      "domain": "股票",
+      "id": "hn:50445463",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-10/anthropic-targets-1-4-trillion-valuation-in-ipo-video",
+      "source": "rndsignals",
       "stars": 5,
-      "title": "Anthropic 花 34 亿美元买下 1.7GW 燃气轮机，插队六年等待名单抢电",
-      "lead": "Anthropic 接手了 OnePWR Solutions 从 Caterpillar 的既有订单，一次性锁定 1.7GW 燃气发电容量，代价 34 亿美元。设备交付周期已经长到让 AI 公司不得不\"买别人的排队位置\"，这是算力竞赛从买 GPU 转向买电力的明确信号。",
+      "title": "Anthropic IPO 目标 1.4 万亿美元估值，7 位创始人各套现约 2.5 亿美元",
+      "lead": "TechCrunch 同日披露，Anthropic 七位联合创始人在 IPO 中计划卖出完全相同数量的股份，按定价区间中点计算每人套现约 2.5 亿美元。这个「整齐划一」的减持结构在 IPO 中极罕见，配合 1.4T 的目标估值，说明这是一次高度设计过的流动性事件，而不是常规的成长股上市。",
       "confirmed": [
-        "交易金额 34 亿美元，锁定 1.7GW 燃气发电容量",
-        "方式是接手 OnePWR Solutions 已有的 Caterpillar 涡轮机订单，绕过六年等待名单",
-        "Anthropic 同期被报道将在本周确定 IPO 估值区间",
-        "Anthropic 昨日发布 Claude Fable 5.2 与 Mythos 5.2 两个新模型",
-        "Fervo 地热公司同期披露 120 亿美元订单储备，同样指向数据中心供电缺口"
+        "Anthropic IPO 目标估值 1.4 万亿美元",
+        "7 位联合创始人每人套现约 2.5 亿美元，卖出股份数量完全相同",
+        "IPO 采用双层股权结构，创始人保留控制权",
+        "Michael Burry 公开称 Anthropic 是在「拿存在性赌乐观情绪」",
+        "部分大型机构投资者对 1.5T 估值表示怀疑"
       ],
       "judgment": [
-        "这笔交易是否会在天然气价格波动时变成\"买家懊悔\"，取决于合同条款，目前未知",
-        "1.7GW 对应的实际可用算力规模没有披露，无法换算成 GPU 数量",
-        "Anthropic 在 IPO 前夜大额资本开支，是展示增长还是暴露成本结构，两种解读都成立",
-        "自建发电是否会成为头部 AI 公司的标配，还要看监管与并网审批速度"
+        "1.4T 估值能否在路演中被接受，目前只有目标价没有成交价",
+        "创始人整齐套现是否会被解读为内部人看空信号，市场反应待观察",
+        "S-1 中「可能已接近递归自我改进」的表述是否引发监管额外审查",
+        "IPO 时点是否刻意抢在 AI 泡沫破裂前，无法证实",
+        "上市后 Anthropic 与 OpenAI 的估值差会如何收敛，尚无锚点"
       ],
-      "implication": "这条对你做 Agent 项目的直接含义是：推理成本的中长期曲线取决于电力而不是芯片。如果你在给 content-curator 做成本模型，别只算 token 单价，把\"供给紧张导致的限流与排队\"当成一个真实变量写进设计里。"
+      "implication": "这是本周最值得你花 20 分钟读 S-1 的事件——不是因为估值数字，而是因为它第一次把「AI 实验室的商业模式、成本结构、风险披露」摊在公开文件里。对你做 content-curator 这类项目也有直接参考：看一家 AI 公司怎么向公众解释自己的技术风险，是很好的产品叙事样本。"
     },
     {
       "rank": 3,
-      "domain": "AI",
-      "id": "bvid:BV1h3W76wEem",
-      "url": "http://www.bilibili.com/video/av117580048108571",
-      "source": "技术爬爬虾",
+      "domain": "大厂 AI 动态",
+      "id": "rss:https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "source": "Aisha Malik",
       "stars": 4,
-      "title": "Claude Desktop 把 Code、Design、Cowork 收进同一个客户端，命令行 Agent 正在变成桌面应用",
-      "lead": "Claude 桌面端这轮更新把 Claude Code 的编程能力、Claude Design 的设计能力、Claude Cowork 的办公能力合并进一个客户端，配 Opus 5.5。Claude Code 从黑框终端进化成有 GUI 的完整形态，这个方向值得你亲手跑一遍。",
+      "title": "Anthropic 发布 Claude Meetings：会议中实时起草计划、画时间线、调取工作 App 数据",
+      "lead": "Claude Meetings 的定位不是「会议纪要工具」，而是会议进行中就介入——参与者说话时 Claude 同步起草讨论中的计划、在白板上画时间线、在会议聊天里回答问题，并能调用已连接的工作 App 取数据。这是把 Agent 从「会后总结」推进到「会中协作」的一步，产品形态上更接近一个参会者而不是记录员。",
       "confirmed": [
-        "Claude Desktop 已整合 Claude Code、Claude Design、Claude Cowork 三块能力",
-        "Claude Code 在桌面端不再是纯命令行工具，具备图形界面交互",
-        "当前搭配的模型是 Opus 5.5",
-        "视频发布于 2026-11-08，属于本周新内容"
+        "Anthropic 正式发布 Claude Meetings 功能",
+        "支持会议中实时起草计划、白板时间线、会议聊天问答",
+        "可访问已连接的工作类 App 获取信息",
+        "由 TechCrunch 于 11 月 10 日报道"
       ],
       "judgment": [
-        "桌面端相比 CLI 在长任务、后台任务上的实际体验差异，需要自己实测",
-        "GUI 化是否会削弱脚本化、可编程的优势，目前没有定论",
-        "Opus 5.5 在编码任务上的具体提升幅度，官方未给可复现的 benchmark",
-        "这套整合对第三方 IDE 插件生态的挤压程度，尚不明朗"
+        "实时介入的延迟和准确率没有公开数据，实际体验待验证",
+        "与 Zoom/Teams/Meet 的集成深度未知",
+        "是否会记录并存储会议内容，隐私边界未说明",
+        "定价是否包含在现有订阅内，报道未提及",
+        "对企业 IT 采购的影响需观察 1-2 个季度"
       ],
-      "implication": "你正在做 content-curator，这类\"Agent 从 CLI 走向 GUI\"的演进直接决定你的产品形态选择。建议花 30 分钟装一次，重点看两件事：桌面端怎么展示工具调用过程、以及它怎么处理需要人工确认的权限请求——这两点是你自己 Agent 的交互设计参考。"
+      "implication": "你做 Agent 项目时值得拆解这个产品的一个设计决策：Claude 在会议中「主动产出」而不是「被动等待提问」。这和你 content-curator 里「主动筛选 vs 被动检索」是同一类问题——主动性的边界在哪，什么时候该插话。可以去看官方 demo 里它什么时候选择不说话。"
     },
     {
       "rank": 4,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
-      "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
-      "source": "Sally Ward-Foxton",
+      "id": "rss:https://www.tomshardware.com/software/linux/linus-torvalds-says-that-ai-fixes-drove-most-of-the-progress-in-latest-linux-kernel-bpf-saw-more-ai-written-fixes-than-bug-reports-possibly-indicating-a-tidal-shift-for-open-source-maintainers-tired-of-flood-of-junk-reports",
+      "url": "https://www.tomshardware.com/software/linux/linus-torvalds-says-that-ai-fixes-drove-most-of-the-progress-in-latest-linux-kernel-bpf-saw-more-ai-written-fixes-than-bug-reports-possibly-indicating-a-tidal-shift-for-open-source-maintainers-tired-of-flood-of-junk-reports",
+      "source": "Bruno Ferreira",
       "stars": 4,
-      "title": "DeepX 第二代 AI 加速器流片，LPDDR5x-PIM 架构宣称 6.7 倍性能提升、5W 内跑大模型",
-      "lead": "韩国 DeepX 宣布第二代 AI 加速器完成流片，采用 LPDDR5x 存内计算（PIM）架构，官方给出的数字是 6.7 倍性能提升，目标是在 5W 功耗内本地运行大语言模型，主攻机器人与边缘设备。",
+      "title": "Linus Torvalds：Linux 7.4rc2 的进展主要由 AI 写的修复驱动，BPF 收到的 AI 修复多于 bug 报告",
+      "lead": "Torvalds 在 kernel 7.4rc2 的发布评论里说，这一版的进展大部分来自 AI 生成的修复，BPF 子系统收到的 AI 写的补丁数量已经超过人类提交的 bug 报告。这句话的分量在于说话的人——Torvalds 一向对新技术措辞克制，他主动指出这个比例，等于承认开源维护者的工作流正在被重写。",
       "confirmed": [
-        "第二代芯片已完成 tape-out，进入流片后阶段",
-        "架构采用 LPDDR5x-PIM（存内计算），宣称性能提升 6.7 倍",
-        "目标场景是机器人等边缘市场，可在 5W 以内运行大模型",
-        "同期 Tom's Hardware 报道其 DX-M1 处理器用\"黄油散热器\"演示比竞品低 40 度"
+        "Torvalds 公开表示 Linux kernel 7.4rc2 的进展主要由 AI 修复驱动",
+        "BPF 子系统收到的 AI 生成修复数量超过 bug 报告数量",
+        "该表述来自 Torvalds 本人的发布评论"
       ],
       "judgment": [
-        "6.7 倍是与自家上一代还是与竞品对比，官方口径需要核实",
-        "\"5W 内跑大模型\"的具体模型规模与 token/s 未披露",
-        "PIM 架构的软件栈成熟度是落地关键，目前没有生态信息",
-        "边缘端跑 LLM 的实际需求规模，仍待市场验证"
+        "AI 生成补丁的审查成本是否反而上升，没有量化数据",
+        "「AI 修复多于 bug 报告」是否意味着 bug 报告本身在减少，原因不明",
+        "其他子系统是否有同样趋势，目前只有 BPF 被点名",
+        "长期看维护者角色会如何变化，Torvalds 未展开"
       ],
-      "implication": "你是电子信息工程背景，这条是少见的\"架构层面\"而非\"产品层面\"的进展。存内计算解决的是内存墙问题，值得你花 10 分钟读原文搞清楚 PIM 到底把计算单元放在哪一层——这个概念在面试里比背参数值钱。"
+      "implication": "这条对你的直接价值是：如果你以后想给开源项目提 PR，AI 已经把这个赛道的门槛和噪音同时拉高了——维护者现在面对的是 AI 补丁洪水。反过来说，能写出「AI 写不出来、但确实有价值」的补丁的人会更稀缺。做 content-curator 时也可以想想：你的 Agent 产出怎么避免成为别人眼里的「junk report」。"
     },
     {
       "rank": 5,
-      "domain": "股票",
-      "id": "hn:50384822",
-      "url": "https://finlaws.substack.com/p/25t-has-been-wiped-from-us-stocks",
-      "source": "madihaa",
+      "domain": "金融",
+      "id": "hn:50391456",
+      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+      "source": "PLenz",
       "stars": 4,
-      "title": "中期选举后 AI 交易集体退潮，纳斯达克两日蒸发 2.5 万亿美元",
-      "lead": "民主党中期选举表现超预期，市场担忧数据中心扩张政策环境变化，叠加 AI 成本质疑，纳斯达克跌入回调区间，两日市值蒸发 2.5 万亿美元，芯片股跌幅居前，被称作 1896 年以来最差的中期选举后交易日。",
+      "title": "Tesla 决定停产 Cybertruck，上市数年销量持续低迷",
+      "lead": "Cybertruck 从发布到停产走完了完整周期：发布时的话题度、交付后的产能爬坡问题、以及始终没解决的销量。NBC 报道 Tesla 将逐步关停 Cybertruck 产线。同一天 HN 上还有一条「Tesla 自 JB Straubel 离任 CTO 后再无成功的新产品发布」，两条放在一起看，指向的是 Tesla 产品组织的问题而不是单一车型的失败。",
       "confirmed": [
-        "纳斯达克两日内市值蒸发约 2.5 万亿美元，跌幅进入回调区间",
-        "芯片股是重灾区，Intel 股价持续下跌，芯片板块整体蒸发 3.5 万亿美元",
-        "对冲基金据报已清空 2025 年以来建仓的 AI 股票",
-        "得州州长选举结果被视为数据中心扩张的风险变量",
-        "Oracle 提交文件拟增发 200 亿美元股票与债券为 AI 基建融资"
+        "Tesla 将逐步停产 Cybertruck",
+        "NBC News 报道，原因是销量持续低迷",
+        "Cybertruck 上市仅数年"
       ],
       "judgment": [
-        "这轮回调是估值修正还是趋势反转，取决于下季度云厂商资本开支指引",
-        "选举结果与 AI 股价的因果链是否成立，多数分析仍属事后归因",
-        "Anthropic IPO 定价会成为情绪修复还是二次探底的触发点，无法预判",
-        "AI 基建融资从股权转向债务的可持续性，尚无压力测试"
+        "产线是否转产其他车型，Tesla 未公布",
+        "停产是否计入一次性减值，影响下季度财报",
+        "对 Tesla 品牌溢价的影响程度待观察",
+        "是否与 Musk 精力转向 Terafab/ SpaceX 有关，属推测"
       ],
-      "implication": "这条放进来是因为它和你的头条 1、2 是同一件事的三面：治理风险、资本开支、市场情绪。你不需要做交易判断，但要意识到——如果 AI 融资环境收紧，你依赖的 API 价格、免费额度、模型迭代速度都会受影响。做个人项目时，把\"供应商可能涨价或限流\"当成默认假设。"
+      "implication": "这条放进头条是因为它是个「反共识」信号：市场还在讨论 Tesla 的 AI 和机器人叙事，但它的汽车主业正在收缩产品线。如果你关注 AI 算力链，注意 Musk 的注意力正在从车转向 Terafab（同日另一条：目标 2032 年后月产 100 万片晶圆）——这是一个人的资源分配问题，值得跟踪。"
     }
   ],
   "shortlist": [
     {
       "domain": "大厂 AI 动态",
-      "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，主打\"艰巨\"技术任务",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
-      "source": "The Verge",
-      "one_liner": "官方称在编码、推理、视觉上有提升，但没给可复现 benchmark，先记一笔等实测。"
+      "title": "AlphaProof Code",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "ilreb",
+      "one_liner": "DeepMind 把 AlphaProof 扩展到代码领域，HN 639 分。数学证明到代码的形式化迁移是硬核方向，但今天缺细节，等官方技术博客。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Meta 发布 Muse Ember，每百万输入 token 仅 10 美分",
-      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-      "source": "TechCrunch",
-      "one_liner": "专为 Agent 执行设计的轻量模型，价格显著低于 Haiku 和 Luna，做 Agent 的值得关注定价。"
+      "title": "Google 发布两款新专用 TPU，覆盖机密训练与大内存场景",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "source": "Ram Iyer",
+      "one_liner": "TPU 产品线细分到「机密模型训练」和「更大内存」，说明 Google 在抢企业合规训练场景。硬件参数未披露，暂列备选。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Claude Code 配置文件在 GitHub 上泄露数千条密钥",
-      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
-      "source": "Ars Technica",
-      "one_liner": "\"Do not ask again\" 的权限提示导致密码和 API key 被提交，你本地跑 Claude Code 前该看一眼 .gitignore。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google Gemini 把个人 Drive 文件和邮件路由给人工标注员",
+      "title": "Google Gemini 把用户 Drive 文件和邮件路由给人工标注员",
       "url": "https://github.com/thisisme6598/gemini_files/",
-      "source": "Hacker News",
-      "one_liner": "HN 620 分，配合此前\"订阅用户聊天记录也被训练\"的讨论，企业数据合规风险在累积。"
+      "source": "gf74918",
+      "one_liner": "HN 720 分，GitHub 仓库形式爆料。如果属实是重大隐私问题，但目前是单方证据，需要等 Google 回应再判断。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Anthropic 据报推进 IPO，本周确定估值区间",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
-      "source": "TechCrunch",
-      "one_liner": "WSJ 消息，配合 34 亿美元买电动作看，是\"增长叙事 + 成本压力\"的组合拳。"
+      "title": "纽约 AI 安全法生效，OpenAI 与 Anthropic 面临注册与事故报告义务",
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "source": "Rebecca Bellan",
+      "one_liner": "首个州级 AI 安全强制披露制度落地，违规罚款。对做 AI 产品的人是合规风向标，但今天只是生效日，细则影响待观察。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Apple 推出 50 美元 Intelligence Usage Packs 扩展部分 AI 功能额度",
-      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
-      "source": "The Verge",
-      "one_liner": "AI 功能开始按量收费，Logic Pro 已上线\"Buy More Usage\"，端侧 AI 的商业模式在试水。"
+      "title": "Meta 的 AI Agent Muse 登陆 Apple Watch 与 Wear OS",
+      "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+      "source": "Aisha Malik",
+      "one_liner": "语音/文字/听写三种交互上手表。Agent 往可穿戴走的信号，但产品细节少，属于增量信息。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia RTX Spark 加密固件让 Linux 上推理速度掉到 35%",
-      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-      "source": "Hacker News",
-      "one_liner": "HN 617 分，本地跑模型的硬件自由度在收缩，对自建推理的人是实打实的坏消息。"
+      "title": "AMD Zen 6 EPYC Venice 深度评测：双路 9996 达 1024 线程，代际提升最高 93%",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-zen-6-epyc-venice-deep-dive-and-benchmarking-dual-epyc-9996-with-1-024-threads-delivers-up-to-93-percent-performance-gain-gen-on-gen-9686f-outclasses-nvidias-vera",
+      "source": "Jake Roach",
+      "one_liner": "有实测数字的硬内容，AMD 还公开反驳 Nvidia/Arm 的「agentic CPU」说法。对关注推理侧硬件的人是本周最实的一篇。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Nvidia 收紧海外云 GPU 对华租赁，合作伙伴面临 51% 非中国配额",
+      "title": "本地 AI 推理实测：Mac Studio M5 Ultra 对比 Nvidia DGX Spark",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/going-deep-on-local-ai-performance-with-apples-mac-studio-with-m5-ultra-inference-engine-recipes-mandatory-for-bigger-models-as-mlx-stack-matures",
+      "source": "Jeffrey Kampman",
+      "one_liner": "想花 1 万美元搭本地推理的人该读。MLX 栈成熟度是关键变量，有 benchmark 有配置建议。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia 收紧对华海外云 GPU 租赁，合作伙伴面临 51% 非中国配额",
       "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million",
-      "source": "Tom's Hardware",
-      "one_liner": "黑市 B300 整机架价格涨到 280 万美元，出口管制的实际执行细节比政策本身更值得看。"
+      "source": "Shane Downing",
+      "one_liner": "黑市 B300 整机架涨到 280 万美元。出口管制的实际执行细节，比政策新闻更有信息量。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "内存短缺逼手机厂商把旧设备内存熔下来重新焊到新机上",
-      "url": "https://www.tomshardware.com/pc-components/dram/memory-shortage-spurs-smartphone-makers-to-melt-used-memory-off-old-devices-then-re-solder-it-onto-new-products-recycled-memory-to-keep-budget-phones-affordable-reballing-adoption-to-double-by-2027",
-      "source": "Tom's Hardware",
-      "one_liner": "DRAM 涨价传导到消费电子的最直观证据，reballing 采用率预计 2027 年翻倍。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "律师用 8 张二手 V100 搭私有 AI 服务器，跑 DeepSeek V4.1 Flash 达 215 tokens/s",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-builds-private-ai-server-with-eight-used-nvidia-v100-gpus-up-to-215-tokens-per-second-to-keep-legal-files-offline-costing-about-usd2-400-per-four-gpu-board",
-      "source": "Tom's Hardware",
-      "one_liner": "四卡板约 2400 美元，2018 年的卡跑 2026 年的模型，本地部署的性价比参考样本。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "中国建成 800MW AI 数据中心园区对标 Stargate，首期 120MW 一年内交付、成本仅五分之一",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/china-builds-massive-800-megawatt-ai-data-center-campus-to-rival-us-stargate-project-galaxy-campus-delivers-first-120-megawatts-in-a-year-at-one-fifth-the-cost",
-      "source": "Tom's Hardware",
-      "one_liner": "远景的 Galaxy 园区结合风电、储能和非常规散热，建设速度与成本是这条的重点。"
+      "title": "Elon Musk 的 Terafab 目标 2032 年后月产 100 万片晶圆",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musks-terafab-targets-1-million-wafers-a-month-after-2032-planned-700-000-monthly-memory-wafers-could-rival-samsungs-entire-estimated-dram-production-capacity",
+      "source": "Shane Downing",
+      "one_liner": "其中 70 万片是存储，号称对标三星全部 DRAM 产能。数字夸张但值得记录，作为 Musk 长期赌注的锚点。"
     },
     {
       "domain": "股票",
-      "title": "Michael Burry：Anthropic 是在拿\"乐观情绪\"赌上自己的存亡",
-      "url": "https://www.businessinsider.com/michael-burry-anthropic-ipo-outlook-ant-big-short-2026-11",
-      "source": "Business Insider",
-      "one_liner": "配合 WSJ 报道的大型投资者对 1.5 万亿美元估值存疑，IPO 定价会是一场公开博弈。"
+      "title": "Nvidia 危机让公司治理专家「搬好板凳看戏」",
+      "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+      "source": "Connie Loizos",
+      "one_liner": "采访了多位治理专家，都说没见过这种局面。是头条 1 的补充视角，但信息密度低于 Stratechery。"
     },
     {
       "domain": "股票",
-      "title": "Oracle 提交文件拟增发 200 亿美元股票与债券为 AI 基建融资",
-      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-      "source": "CNBC",
-      "one_liner": "AI 基建融资从股权转向债务的典型样本，利率环境一变这类结构最先承压。"
+      "title": "AI 抛售与历史股灾的对比",
+      "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+      "source": "hubraumhugo",
+      "one_liner": "把当前回撤放进历史坐标里看，适合做情绪校准。但属于综述型内容，新颖度不够上头条。"
     },
     {
       "domain": "金融",
-      "title": "Tesla 将停产 Cybertruck",
-      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-      "source": "NBC News",
-      "one_liner": "HN 1160 分，销量长期不佳后的收场；同期 Tesla 与 SpaceX 两日合计蒸发 4200 亿美元市值。"
+      "title": "Oura 以 6.25 亿美元收购 AI 原生初级医疗公司 Counsel Health",
+      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "source": "Aisha Malik",
+      "one_liner": "Oura 刚推迟 22 亿美元 IPO，转头做 6.25 亿收购。可穿戴 + AI 医疗的整合路径，值得记一笔。"
     },
     {
       "domain": "金融",
-      "title": "美国联邦预算赤字一年内增长 12%，接近 2 万亿美元",
-      "url": "https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html",
-      "source": "Yahoo Finance",
-      "one_liner": "在 AI 资本开支狂飙的同一时期，财政端也在扩张，利率路径会更难预测。"
+      "title": "OpenAI 收购 Sonder 创始人创办的旅游创业公司 Odessia",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "source": "Julie Bort",
+      "one_liner": "OpenAI 收购旅游公司，用途未说明。可能是 acquihire，也可能是 Agent 落地场景，信息太少暂列备选。"
+    },
+    {
+      "domain": "金融",
+      "title": "X-energy 获 NRC 建设许可，将在德州建四座小型模块化核反应堆",
+      "url": "https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors/",
+      "source": "Tim De Chant",
+      "one_liner": "AI 数据中心电力缺口的供给侧进展。SMR 从 PPT 走到施工许可，是能源与算力交叉的实质节点。"
+    },
+    {
+      "domain": "金融",
+      "title": "PSI 用未发布的 Anthropic 模型回答量子计算二十年悬而未决的问题",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+      "source": "Tim Fernholz",
+      "one_liner": "「AI 驱动科学发现」商业化样本，且用了未发布模型。具体问题是什么报道没讲清，但方向值得跟踪。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-11-10T12:52:54+0000"
+    "scored_at": "2026-11-11T11:37:15+0000"
   }
 }
