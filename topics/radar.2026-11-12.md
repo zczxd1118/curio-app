@@ -1,0 +1,175 @@
+# Curio 趋势雷达 · 2026-11-12
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
+
+_今天最重要的信号是 Nvidia 的治理危机：董事会据报准备罢免黄仁勋，股价自丑闻发酵以来已跌 20%，第二段婚外情与「中国间谍」指控叠加国会传唤。另一条是 AI 资本面的裂缝——OpenAI 单季营收首破 100 亿美元，但 Nasdaq 已跌入回调区间，AI 交易正在被重新定价。这两件事共同说明：算力叙事进入「人」与「钱」的检验期。_
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 1. Nvidia 董事会据报准备罢免黄仁勋：第二段婚外情曝光，股价自丑闻以来已跌 20%
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
+
+WSJ 与多家媒体在 11 月 11 日晚同步报道，Nvidia 董事会正就黄仁勋的去留召开紧急会议，最早周三晚可能做出决定。触发点是第二段婚外情——对象是向他直接汇报的 Nvidia 高管，此前他已承认与一名被指为中国情报人员的女性有染。公司 33 年来只有这一位 CEO，没有公开的继任方案。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| WSJ 首发报道董事会准备罢免黄仁勋，Tom's Hardware、TechCrunch、Ars Technica 同日跟进 | 「准备罢免」目前仍是匿名信源，董事会是否真投票、何时投票未确认 |
+| 第二段婚外情对象为向其直接汇报的 Nvidia 高管，另有掩盖指控 | 黄仁勋是否会主动辞职或以其他方式留任，尚无任何一方表态 |
+| 股价自丑闻爆发以来累计下跌约 20% | 继任者人选完全空白，TechCrunch 的名单只是媒体推测 |
+| 美国众议院三个委员会主席要求黄仁勋出席闭门简报，否则可能发传票 | 对华出口与 Megaspeed 调查是否与此次治理危机直接挂钩，仍不明朗 |
+| FBI 已介入调查，Nvidia 董事会同步调查间谍案 | 股价 20% 跌幅中有多少来自丑闻、多少来自大盘 AI 回调，无法拆分 |
+| 黄仁勋任 CEO 已 33 年，公司无公开继任计划 |  |
+
+**📖 主编点评**
+
+你不需要关心八卦，但要关心治理风险如何传导到算力供给。Nvidia 一旦进入 CEO 过渡期，Rubin 出货节奏、对华政策口径、云厂商长约都可能被重新谈判。如果你在做任何依赖 GPU 成本假设的项目或判断，这周先把「Nvidia 供应稳定」从前提里拿掉，改成情景假设。
+
+📺 [打开原文](https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years)
+
+---
+
+### 5. Linux 内核内存管理审阅者因 AI 生成补丁泛滥辞职：「浪费的时间已经太多，而这只是开始」
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+
+一位 Linux 内核内存管理子系统的审阅者宣布卸任该职责，直接原因是 AI 生成的低质量补丁（AI slop）大量涌入。他的原话是「浪费在 AI slop 上的时间已经太多，而这只是这股提交量的开始」，叠加人力不足，只能退出。这是开源治理被 LLM 输出规模冲击的第一个高知名度案例。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Linux 内核内存管理子系统的审阅者因 AI 生成补丁泛滥卸任 | AI slop 补丁在总提交量中的占比没有量化数据 |
+| 当事人称「浪费在 AI slop 上的时间已经太多，而这只是开始」 | 内核社区是否会引入 AI 生成内容标注或自动过滤机制，尚未讨论 |
+| 人力不足是辞职的叠加因素 | 其他子系统是否出现同类退出，未提及 |
+| Tom's Hardware 于 11 月 11 日报道 | 这是否会改变开源项目对 AI 辅助贡献的整体态度，属于推测 |
+
+**📖 主编点评**
+
+这条对你有两层用处。一是提醒：你用 Claude Code 生成代码提交 PR 时，审阅者的时间成本是真实的外部性，别把「能生成」当成「该提交」。二是它揭示了一个产品机会——AI 生成内容的过滤与质量门禁，正在从「nice to have」变成基础设施级需求，这可能是你 side project 值得切入的方向。
+
+📺 [打开原文](https://www.tomshardware.com/software/linux/linux-kernel-reviewer-steps-down-from-memory-management-duties-due-to-influx-of-ai-slop-patches-the-amount-of-time-wasted-on-ai-slop-is-already-too-much-and-were-only-at-the-start-of-this-volume-of-submissions-and-low-manpower-forces-the-step-back)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 2. OpenAI 单季营收首破 100 亿美元，环比 Q2 的 67 亿增长近 50%
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
+
+TechCrunch 11 月 11 日报道，OpenAI 季度营收首次越过 100 亿美元，相比第二季度的 67 亿美元增长接近 50%。这个数字出现在 Nasdaq 跌入回调区间、AI 交易被集体抛售的同一周，构成一组尖锐对照：终端付费需求仍在加速，但资本市场已开始怀疑投入产出比。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 季度营收首次突破 100 亿美元 | 100 亿是营收还是年化口径，报道未完全说清 |
+| Q2 营收为 67 亿美元，环比增幅接近 50% | 毛利率与推理成本未披露，营收增长不等于亏损收窄 |
+| 消息由 TechCrunch 于 11 月 11 日发布，援引知情人士 | 增长中有多少来自 API 与企业合同、多少来自 ChatGPT 订阅，未拆分 |
+| 同一周 Nasdaq 下跌 4-5% 进入回调区间，AI 相关股票遭抛售 | 收购 Odessia 与营收数字是否有叙事上的配合，属于猜测 |
+| OpenAI 本周还宣布收购 Sonder 创始人创办的旅行创业公司 Odessia |  |
+
+**📖 主编点评**
+
+这是你判断「AI 是不是泡沫」时最该抓的一个硬数字：需求侧还在 50% 环比增长，说明企业付费不是纯叙事。但别把它当成估值背书——营收翻倍和单位经济为正之间还差着推理成本这一关。做 side project 时，可以更有信心地把「用户愿意为 AI 功能付费」写进假设。
+
+📺 [打开原文](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/)
+
+---
+
+### 4. 美联航拒绝让个人 AI Agent 代订机票，理由是隐私与监管
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _The Verge_
+
+United 向 The Verge 确认，不会允许个人 AI 助手在其系统上代客订票，援引隐私与监管顾虑。公司称目前实际尝试用 Agent 订票的用户还不多，但选择提前划线。这是主流服务商第一次明确对「Agent 作为用户代理」说不，直接触及 Agent 生态最核心的身份与授权问题。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| United 明确表示不允许个人 AI 助理代订机票 | United 是否会推出官方授权的 Agent 接口，未提及 |
+| 给出的理由是隐私与监管顾虑 | 其他航司是否会跟进同样立场，尚不清楚 |
+| United 称目前实际尝试的用戶数量还不多 | 「监管顾虑」具体指向哪条法规，公司未说明 |
+| The Verge 于 11 月 11 日发布该报道 | 技术上如何识别并拦截 Agent 流量，未披露 |
+
+**📖 主编点评**
+
+这条对你的 Agent 项目是直接相关的现实约束：Agent 替人操作第三方服务时，服务商的 ToS 和身份验证是第一道墙，不是模型能力。你做 content-curator 这类只读自己数据的 Agent 不受影响，但一旦要替用户去操作外部系统，就得先想清楚「以谁的身份、经谁授权」。这也是 MCP 类协议未来最可能被卡住的地方。
+
+📺 [打开原文](https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents)
+
+---
+
+## 🌟 股票
+
+### 3. Nasdaq 单日跌 4% 进入回调区间，中期选举后 AI 交易遭系统性抛售
+
+**[股票]** · ⭐⭐⭐⭐ · _CNBC / HN_
+
+11 月 5 日 Nasdaq 下跌约 4-5%，正式进入回调区间，被多家媒体称为 1896 年以来最差的中期选举后交易日。触发因素是民主党中期选举大胜，市场担心数据中心扩张的审批与监管环境收紧。两天内美股市值蒸发约 2.5 万亿美元，对冲基金据报已清空 2025 年以来买入的全部 AI 股票。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Nasdaq 单日跌约 4-5%，进入技术性回调区间 | 回调是政策驱动的短期重定价，还是 AI 资本开支周期的拐点，尚无定论 |
+| 被 CNBC、WSJ、Guardian 称为 1896 年以来最差中期选举后交易日 | 对冲基金清仓的报道来自二手引述，规模未经独立核实 |
+| 约 2.5 万亿美元市值在数日内蒸发 | 数据中心审批收紧的实际影响要等 2027 年项目排期才能验证 |
+| 德州州长选举结果被视为数据中心风险变量，AI 股同步下滑 | 「最差中期选举后交易日」的统计口径跨越 130 年，可比性存疑 |
+| Oracle 申报发行 200 亿美元新股与债券为 AI 建设融资 |  |
+
+**📖 主编点评**
+
+把这条和 OpenAI 的 100 亿放在一起看，你会得到一个更准确的图景：需求在涨，估值在跌，中间被挤压的是融资结构。如果你在关注 AI 创业或求职，短期招聘节奏可能收紧，但真正有营收的产品反而更容易拿到资源。别被「泡沫破裂」的标题带着走，去看具体公司的合同与预付款条款。
+
+📺 [打开原文](https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html)
+
+---
+
+## 📋 备选池
+
+### AI
+
+- [DeepSeek 新出的 Super Agent 是什么？真有用么？](http://www.bilibili.com/video/av117564076202051) —— 11 月 5 日发布，讲 DeepSeek Harness 团队开源的 Super-agent 与传统 Agent 的差异，是本周少有的国产 Agent 架构解读，但视频形式密度偏低。
+  _程序员鱼皮_
+- [Claude(Code) 桌面 APP 保姆级全攻略：顶级 Agent 软件长什么样？](http://www.bilibili.com/video/av117580048108571) —— 11 月 8 日发布，讲 Claude Desktop 把 Code、Design、Cowork 收进同一客户端，配 Opus 5.5。对重度玩家有实操价值，但属教程类。
+  _技术爬爬虾_
+- [最新 Skills 开发教程，Agent skill 实战｜WorkBuddy+Codex+DeepSeek Harness](http://www.bilibili.com/video/av117511429295044) —— 10 月 28 日发布，Skills 从零到项目落地，覆盖三个 harness。契合你的 Skills 兴趣，但机构课的信息密度通常不如个人实战。
+  _尚硅谷_
+- [当我把 claude code 搬进安卓设备……](http://www.bilibili.com/video/av117462439826705) —— 开源项目 cccodroid，不 root 不刷机在安卓原生跑 Claude Code，全程实机录屏。小众但工程细节真实，适合当灵感而非必读。
+  _Grey-Oak_
+
+### AI 算力 / 半导体
+
+- [Nvidia Vera CPU 评测：2TB/s 内存带宽，真正的 x86 对手](https://www.storagereview.com/review/nvidia-vera-cpu-review) —— Vera CPU 的实测数据首次公开，2TB/s 带宽是硬指标。被黄仁勋丑闻淹没，但对理解 Nvidia 从 GPU 走向整机架的战略很关键。
+  _StorageReview / HN_
+- [AMD Venice-X 最高 5.3GHz，3D V-Cache 四年后回归数据中心](https://www.tomshardware.com/pc-components/cpus/amds-venice-x-maxes-out-family-at-5-3-ghz-returning-3d-v-cache-to-data-center-after-four-years-chips-target-hpc-workloads-with-pcie-6-0-and-1-6-tb-s-memory-bandwidth) —— 2027 下半年上市，PCIe 6.0 + 1.6TB/s 带宽。是 AMD 对 Nvidia Vera 的正面回应，时间线偏远所以放备选。
+  _Tom's Hardware_
+- [AMD 用 MEXT 技术在半数 DRAM 下保住 95% 服务器性能](https://www.tomshardware.com/pc-components/cpus/amd-shares-how-it-can-retain-95-percent-of-server-performance-with-just-half-the-dram-sidestepping-memory-shortages-with-mext-tech-powers-over-100-servers-already-running-with-plans-to-expand-to-2-000-servers-in-2027) —— 已有 100+ 台服务器在跑，2027 扩到 2000 台。内存短缺背景下的实用工程方案，数字扎实，但受众偏基础设施。
+  _Tom's Hardware_
+- [Linux 桌面 OS Kora 把 AI 模型拆分到 CPU/GPU/NPU 上跑](https://www.tomshardware.com/software/linux/cyanogen-co-founder-unveils-kora-a-linux-os-that-splits-ai-models-across-the-cpu-gpu-and-npu-snapdragon-x2-elite-and-hexagon-npu-get-full-support-first) —— Cyanogen 联合创始人新项目，2027 上 PC，首发支持 Snapdragon X2 Elite。本地推理的异构调度思路有意思，但离落地还远。
+  _Tom's Hardware_
+
+### 大厂 AI 动态
+
+- [Google 的 Tabletop AI 实验：让你自己搭协作应用](https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability) —— 候补制实验产品，生成定制化协作中心。方向和你做 content-curator 有交集，但目前只有产品描述，没有工程细节。
+  _The Verge_
+- [Google AlphaGenome 2 深入疾病的细胞根源](https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model) —— DeepMind 新模型解析 DNA 变异如何影响不同细胞。科学价值高，但离你的工程实践太远，放备选。
+  _The Verge_
+- [Databricks 的新 AI Agent 向 CEO Ali Ghodsi 说真话](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/) —— 1.2 万人公司的内部 Agent，让员工匿名反馈直达 CEO。是企业内部 Agent 落地的一个真实样本，细节偏少。
+  _TechCrunch_
+
+### 股票
+
+- [Anthropic 瞄准 1.4 万亿美元估值 IPO，IPO 文件警告可能「即将」接近递归自我改进](https://www.bloomberg.com/news/videos/2026-11-10/anthropic-targets-1-4-trillion-valuation-in-ipo-video) —— IPO 前触发「关键 AI 安全警报」的说法很抓眼，但信源多为二手引述，估值与安全叙事混在一起，需要等 S-1 原文。
+  _Bloomberg / HN_
+- [Michael Burry：Anthropic 是在拿自己的存在押注乐观情绪](https://www.businessinsider.com/michael-burry-anthropic-ipo-outlook-ant-big-short-2026-11) —— Burry 对 Anthropic IPO 的公开质疑，是空头视角的代表声音。观点性强于事实性，作为对照读。
+  _Business Insider / HN_
+
+### 金融
+
+- [Tesla 将结束 Cybertruck 生产](https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817) —— 多年销量不佳后的止损决定，HN 上 1163 分。是本周非 AI 领域最大的产业新闻，但和你的关注面关联弱。
+  _NBC News / HN_
+- [美国联邦预算赤字一年跳增 12%，接近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917691.html) —— 2026 财年赤字 1.992 万亿。是理解 AI 资本开支与利率环境背景的宏观数字，但单条信息增量有限。
+  _Yahoo Finance / HN_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
