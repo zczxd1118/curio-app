@@ -1,45 +1,68 @@
 # Curio · AI 算力 / 半导体 · 2026-11-12
 
-> 今日 1 条头条 + 4 条备选
+> 今日 2 条头条 + 5 条备选
 
-_今天真正的主线只有一条：Nvidia 的治理危机。董事会据报准备罢免 33 年唯一一任 CEO Jensen Huang，叠加第二段婚外情与「中国间谍」指控，股价自丑闻爆发已跌 20%，国会要闭门质询、FBI 介入。这不是八卦，是 AI 算力供应链的单点风险被一次性暴露。另一条是 OpenAI 单季营收首破 100 亿美元，环比涨近 50%——需求侧没塌，塌的是估值叙事。_
+_今天最重要的信号只有一个：Nvidia 董事会据报准备罢免黄仁勋，股价自丑闻爆发以来已跌 20%，国会要求闭门简报、FBI 介入。这不只是公司治理事件，而是整个 AI 算力叙事的定价锚在松动——同期 Nasdaq 已跌入回调区间、AI 相关股票被系统性抛售。另一条线是 Anthropic 在 IPO 前夕自曝"关键 AI 安全警报已被触发"，目标估值 1.4 万亿美元。两条线合起来看：AI 资本周期的风险溢价正在被重新定价。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Nvidia 董事会据报准备罢免 Jensen Huang：第二段婚外情曝光，股价自丑闻以来跌 20%，33 年无接班计划
+### 1. Nvidia 董事会据报准备罢免黄仁勋：第二段婚外情曝光，股价自丑闻以来跌 20%，33 年唯一 CEO 面临下台
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Tom's Hardware_
 
-WSJ 与多家媒体同步报道，Nvidia 董事会已就 Jensen Huang 的去留召开紧急会议，最早周三晚可能做出决定。触发点是第二段婚外情——对象是向他直接汇报的 Nvidia 高管，此前一段涉及被指为「中国间谍」的女性。公司 33 年只有这一任 CEO，没有公开接班方案。
+WSJ 与多家媒体同步报道，Nvidia 董事会正就黄仁勋的去留召开紧急会议，最早周三晚间可能做出决定。触发点是第二段婚外情——对象是向他直接汇报的 Nvidia 高管，此前他已承认与一名被指为中国情报人员的女性有染。股价自丑闻爆发以来累计下跌约 20%，公司 33 年来没有继任计划。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| WSJ 首报董事会准备罢免 Huang，Bloomberg、CNBC、Ars Technica 跟进确认 | 董事会「准备罢免」是否已进入投票程序，还是仅作为谈判筹码施压，尚无一手信源 |
-| 股价自丑闻爆发累计下跌约 20%，市值蒸发量级为数千亿美元 | 若 Huang 离任，短期由谁代行——CFO Colette Kress 还是董事会主席，未明朗 |
-| 第二段婚外情对象为向他直接汇报的 Nvidia 高管，另有「掩盖尝试」指控 | 对华出口与 Megaspeed 调查是否会被国会当作罢免的正当性理由，目前只是推测 |
-| 美国众议院三个委员会主席要求 Huang 当日到会做闭门简报，否则发传票 | Rubin 平台与 Vera CPU 等在手路线图的交付节奏是否受影响，公司未表态 |
-| FBI 已介入调查，Nvidia 董事会同步启动对间谍案的内部审查 | 供应链与云厂商客户是否已启动「去单一 CEO 风险」的合同重谈，无公开证据 |
-| Huang 于 11 月 8 日通过 nvidianews 发布致员工信，承认婚外情 |  |
+| WSJ 报道 Nvidia 董事会准备罢免 CEO 黄仁勋，最早周三晚间决定 | 董事会是否真的投票罢免，还是以"调查+留任"收场，目前只有媒体转述，无公司正式公告 |
+| 第二段婚外情对象为向其直接汇报的 Nvidia 高管，并涉掩盖尝试 | 婚外情本身不构成罢免的法律依据，真正的杠杆是国家安全审查与治理失效 |
+| 股价自丑闻爆发以来累计下跌约 20% | 继任者人选完全空白，短期可能由 CFO 或 COO 临时接管，市场对"无 succession plan"的恐慌可能大于事件本身 |
+| 黄仁勋任 Nvidia CEO 已 33 年，公司无公开继任计划 | 若黄仁勋留任，国会与 FBI 的调查会持续压制估值；若离职，AI 算力采购的连续性会被重新评估 |
+| 美国众议院三个委员会要求其就"防范外国对手间谍的安全协议"做闭门简报，否则发传票 |  |
+| FBI 已介入调查，TechCrunch 与 Ars Technica 均确认董事会紧急磋商 |  |
 
 **📖 主编点评**
 
-你不需要判断 Huang 会不会下台，需要判断的是「Nvidia 单点风险」这件事第一次被市场定价。如果你在做任何依赖 GPU 供给的 side project 或实习项目，现在就该把「算力来源可替换」写进架构假设里——本地小模型、国产卡、云上多供应商，至少准备一条退路。这条也是今天唯一值得你花 10 分钟读原文的新闻。
+你不需要交易 Nvidia，但需要理解一件事：过去两年所有 AI 产品的成本曲线都建立在"算力持续降价+供应稳定"的假设上。这个假设的锚现在在晃。做 content-curator 这类个人项目时，把模型调用做成可切换（Claude / Gemini / DeepSeek 都能跑）不是过度设计，是今天这种局面的基本对冲。
 
 📺 [打开原文](https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years)
 
 ---
 
+### 5. Linux 内核内存管理审阅者因 AI 生成的低质补丁洪流辞职："浪费的时间已经太多，而这只是开始"
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Tom's Hardware_
+
+一位 Linux 内核内存管理子系统的审阅者宣布退出该职责，直接原因是 AI 生成的"slop patch"大量涌入，审阅成本远超人力承受。他的原话是"浪费在 AI slop 上的时间已经太多，而我们才处在提交量的起点"。这是开源治理层面第一次有人因 AI 生成内容而退出关键岗位。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Linux 内核内存管理子系统一位审阅者因 AI 生成补丁洪流辞职 | AI 生成补丁占提交总量的比例没有量化数据 |
+| 当事人称"浪费在 AI slop 上的时间已经太多" | 内核社区是否会引入 AI 生成内容标识或提交门槛，尚未有提案 |
+| 补丁提交量上升与审阅人力不足同时发生 | 类似压力是否已扩散到其他子系统（网络、文件系统）未知 |
+| 该决定由 Tom's Hardware 报道，引述内核邮件列表 | 这是否会加速"AI 审 AI"的自动化 review 工具落地，方向不明 |
+
+**📖 主编点评**
+
+这条对你做 content-curator 是直接的方法论警告：Agent 生成内容的瓶颈从来不在生成，在审阅与筛选。你的项目里"候选池 → 选稿"这一步就是人工审阅位，别把它全自动化掉。反过来，这也是一个产品机会——做"AI 生成内容的去重与质量前置过滤"，比再做一打生成工具更有价值。
+
+📺 [打开原文](https://www.tomshardware.com/software/linux/linux-kernel-reviewer-steps-down-from-memory-management-duties-due-to-influx-of-ai-slop-patches-the-amount-of-time-wasted-on-ai-slop-is-already-too-much-and-were-only-at-the-start-of-this-volume-of-submissions-and-low-manpower-forces-the-step-back)
+
+---
+
 ## 📋 备选阅读
 
-- [AMD Venice-X 最高 5.3 GHz，3D V-Cache 四年后回归数据中心](https://www.tomshardware.com/pc-components/cpus/amds-venice-x-maxes-out-family-at-5-3-ghz-returning-3d-v-cache-to-data-center-after-four-years-chips-target-hpc-workloads-with-pcie-6-0-and-1-6-tb-s-memory-bandwidth) —— 2027 下半年上市，PCIe 6.0 + 1.6TB/s 带宽，是 Nvidia 危机下最直接的受益方叙事，但时间太远。
+- [AMD Venice-X 最高 5.3 GHz，3D V-Cache 四年后重回数据中心](https://www.tomshardware.com/pc-components/cpus/amds-venice-x-maxes-out-family-at-5-3-ghz-returning-3d-v-cache-to-data-center-after-four-years-chips-target-hpc-workloads-with-pcie-6-0-and-1-6-tb-s-memory-bandwidth) —— 2027 下半年才上市，但 PCIe 6.0 + 1.6TB/s 带宽的参数说明 AMD 在数据中心正面压 Nvidia 的意图，值得存档。
   _Tom's Hardware_
-- [AMD 用 MEXT 技术在半数 DRAM 下保住 95% 服务器性能](https://www.tomshardware.com/pc-components/cpus/amd-shares-how-it-can-retain-95-percent-of-server-performance-with-just-half-the-dram-sidestepping-memory-shortages-with-mext-tech-powers-over-100-servers-already-running-with-plans-to-expand-to-2-000-servers-in-2027) —— 已有 100+ 台服务器在跑，2027 扩到 2000 台。内存短缺下的工程解法，细节够硬但离你太远。
+- [AMD 用 MEXT 技术在仅一半 DRAM 下保住 95% 服务器性能](https://www.tomshardware.com/pc-components/cpus/amd-shares-how-it-can-retain-95-percent-of-server-performance-with-just-half-the-dram-sidestepping-memory-shortages-with-mext-tech-powers-over-100-servers-already-running-with-plans-to-expand-to-2-000-servers-in-2027) —— 内存短缺背景下的工程解法，已有 100+ 台服务器在跑、2027 扩到 2000 台，是少见的"已落地"数字。
   _Tom's Hardware_
-- [Linux 内核内存管理 reviewer 因 AI 垃圾补丁泛滥辞职](https://www.tomshardware.com/software/linux/linux-kernel-reviewer-steps-down-from-memory-management-duties-due-to-influx-of-ai-slop-patches-the-amount-of-time-wasted-on-ai-slop-is-already-too-much-and-were-only-at-the-start-of-this-volume-of-submissions-and-low-manpower-forces-the-step-back) —— 「浪费在 AI slop 上的时间已经太多，而这只是开始」。开源维护者被 AI 生成补丁淹没的第一个标志性事件。
+- [有人用电压毛刺把 2500 美元矿卡刷成 2 万美元 A100 80GB](https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules) —— 硬件极客向，但说明 A100 的 VRAM/着色器模块是熔丝锁的——对理解 GPU 分级定价有启发，不是教程。
   _Tom's Hardware_
-- [有人用电压毛刺把 2500 美元矿卡刷成 2 万美元的 A100 80GB](https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules) —— 熔断板载保险丝解锁全部显存和 shader 模块。纯硬件极客爽文，对你没有可复用性，但值得知道存在。
+- [SpaceX 据报自研 Kessel 机架系统，72 颗 Nvidia Rubin GPU 上太空](https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board) —— 84 层 PCB 中板替代 NVLink 线缆，太空数据中心从概念走向具体设计，但目前只是"report claims"。
+  _Tom's Hardware_
+- [SoftBank 取消 AI 数据中心燃气轮机订单，损失 37 亿美元](https://www.tomshardware.com/tech-industry/data-centers/softbank-loses-usd3-7-billion-on-canceled-ai-data-center-gas-turbine-orders-days-after-denying-elon-musks-claim-it-was-defaulting-company-kills-reserved-13-gigawatts-of-power-more-than-six-hoover-dams-worth-of-capacity) —— 取消 13GW 电力预留（相当于六个胡佛大坝），是 AI 数据中心建设退潮最硬的数字证据。
   _Tom's Hardware_
 
 ---

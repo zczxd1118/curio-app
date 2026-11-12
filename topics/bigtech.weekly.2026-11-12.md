@@ -1,47 +1,69 @@
 # Curio · 大厂 AI 动态 · 2026-11-12
 
-> 今日 1 条头条 + 5 条备选
+> 今日 2 条头条 + 6 条备选
 
-_今天真正的主线只有一条：Nvidia 的治理危机。董事会据报准备罢免 33 年唯一一任 CEO Jensen Huang，叠加第二段婚外情与「中国间谍」指控，股价自丑闻爆发已跌 20%，国会要闭门质询、FBI 介入。这不是八卦，是 AI 算力供应链的单点风险被一次性暴露。另一条是 OpenAI 单季营收首破 100 亿美元，环比涨近 50%——需求侧没塌，塌的是估值叙事。_
+_今天最重要的信号只有一个：Nvidia 董事会据报准备罢免黄仁勋，股价自丑闻爆发以来已跌 20%，国会要求闭门简报、FBI 介入。这不只是公司治理事件，而是整个 AI 算力叙事的定价锚在松动——同期 Nasdaq 已跌入回调区间、AI 相关股票被系统性抛售。另一条线是 Anthropic 在 IPO 前夕自曝"关键 AI 安全警报已被触发"，目标估值 1.4 万亿美元。两条线合起来看：AI 资本周期的风险溢价正在被重新定价。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. OpenAI 单季营收首破 100 亿美元，环比从 67 亿涨近 50%——需求侧和估值叙事正在分道
+### 2. OpenAI 单季营收首次突破 100 亿美元，环比 Q2 的 67 亿增长近 50%
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
 
-TechCrunch 援引知情人士，OpenAI 第三季度营收首次跨过 100 亿美元，比二季度的 67 亿增长近 50%。同一周 Nasdaq 因 AI 成本担忧跌进回调区间、对冲基金清仓 AI 股。一边是收入曲线陡峭向上，一边是资本市场用脚投票，这个背离是本周最值得盯的信号。
+据 TechCrunch 报道，OpenAI 季度营收首次跨过 100 亿美元，相比第二季度 67 亿美元增长近 50%。这个数字出现在 AI 股票被系统性抛售、Anthropic IPO 估值遭质疑的同一周，构成一个有意思的对照：终端付费需求仍在加速，但资本市场对 AI 公司的定价在收缩。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Q3 营收超 100 亿美元，Q2 为 67 亿，环比增幅接近 50% | 100 亿是确认收入还是年化口径（ARR），报道未完全说清，两者差别很大 |
-| 这是 OpenAI 单季营收首次突破百亿美元关口 | 毛利率与推理成本未披露，收入涨不等于亏损收窄 |
-| 同期 Nasdaq 下跌约 4-5% 进入回调区间，AI 相关股票遭集中抛售 | 50% 环比增速能否在 Q4 维持，取决于企业版与 API 的续费率 |
-| OpenAI 本周还宣布收购 Sonder 创始人创办的旅行创业公司 Odessia | 收购 Odessia 是人才收购还是真要做旅行 Agent，官方未说明 |
-| 纽约州 AI 安全法生效，OpenAI 与 Anthropic 需注册并披露安全实践 | 这组数字是否会在 IPO 前被正式披露，目前仍是「据报道」 |
+| OpenAI 单季营收首次突破 100 亿美元 | 100 亿是营收不是利润，OpenAI 的推理成本与算力支出是否同步扩大，报道未披露 |
+| 上一季度（Q2）营收为 67 亿美元，环比增长近 50% | 增长中有多少来自 API/企业合同、多少来自 ChatGPT 订阅，结构不明 |
+| 该数据由 TechCrunch 引述知情人士报道，非官方财报 | 若算力成本随 Nvidia 供应波动上升，这个增速的可持续性存疑 |
+| 同期 Nasdaq 跌入回调区间，AI 相关股票遭抛售 | 与 Anthropic 1.4 万亿 IPO 估值对照，市场可能在重新分配"谁配得上高倍数" |
 
 **📖 主编点评**
 
-把这条和 Nvidia 那条对着看：钱在往应用层流，风险堆在算力层。你做 content-curator 这类 Agent 项目，成本结构里 API 调用占大头——OpenAI 收入涨 50% 意味着它没有降价压力，你的 token 账单短期不会变便宜。真正该关注的是 Gemini 4 Carbon 这类竞品的定价，以及本地小模型（比如 64GB 内存跑 284B DeepSeek 那套）什么时候能进你的备选方案。
+对你做 Agent 项目有直接含义：API 价格短期不会因为资本寒冬而上涨，反而可能继续打。现在是把重活（批量摘要、embedding、评测跑批）往 API 上搬的好窗口，别急着自建推理。同时留意 OpenAI 的收入结构披露——如果企业 API 占比在涨，说明 Agent 类产品的付费意愿是真的。
 
 📺 [打开原文](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/)
 
 ---
 
+### 4. 美联航明确拒绝个人 AI Agent 代订机票，理由是隐私与监管
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _The Verge_
+
+United 公开表示不会允许个人 AI 助手在其系统上代订机票，援引隐私与监管顾虑。公司称目前实际尝试用 Agent 订票的用户还不多，但选择提前划线。这是主流服务商第一次明确对"Agent 代操作"说不，对做 Agent 产品的人是重要的边界信号。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| United 明确表示不允许个人 AI Agent 代订机票 | "监管顾虑"具体指哪条法规未说明，可能是身份验证与授权链条问题 |
+| 官方理由是隐私与监管顾虑 | 实际执行层面如何识别 Agent 流量（UA、行为指纹、支付信息）未披露 |
+| 公司称目前尝试用 Agent 订票的用户数量还不多 | 其他航司与平台是否会跟进形成行业惯例，目前未知 |
+| 这是主流航空公司首次公开对 Agent 代操作表态 | 对 Agent 生态的长期影响取决于是否有标准化授权协议出现 |
+
+**📖 主编点评**
+
+你在做 content-curator 时迟早会遇到同类问题：Agent 去抓取/操作第三方服务，对方是否授权。这条新闻的价值在于它给了你一个判断框架——先问"对方有没有明确的拒绝声明"，再设计自动化路径。把 Agent 的对外操作做成"可插拔的 connector + 显式授权记录"，比事后补救便宜得多。
+
+📺 [打开原文](https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents)
+
+---
+
 ## 📋 备选阅读
 
-- [Google 发布 AlphaProof Code，DeepMind 把形式化证明推进到代码领域](https://deepmind.google/blog/introducing-alphaproof-code/) —— HN 673 分。形式化验证 + 代码生成，长期可能改变「AI 写的代码怎么保证对」这件事。
-  _Google DeepMind_
-- [United 航空拒绝让个人 AI Agent 代订机票，理由是隐私与监管](https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents) —— Agent 落地的第一批真实阻力不是技术，是平台方的风控和合规。你做 Agent 项目迟早撞上这堵墙。
+- [Google DeepMind 发布 AlphaGenome 2，从细胞层面解析疾病](https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model) —— DeepMind 在科学 AI 上的持续投入，与你偏好相关度低但属于"AI 真正落地"的少数方向。
   _The Verge_
-- [Google Gemini 把个人 Drive 文件和邮件路由给人工标注员](https://github.com/thisisme6598/gemini_files/) —— HN 737 分，GitHub 上有证据整理。企业级 AI 的数据边界问题，比模型能力更影响你选哪家 API。
-  _Hacker News_
-- [Databricks 给 CEO 做了个 AI Agent，专门告诉他「不加修饰的真相」](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/) —— 1.2 万员工规模下的内部信息失真问题，用 Agent 做组织传感器。思路对你做个人工具很有启发。
+- [Google 实验性产品 Tabletop：用 AI 生成定制协作应用](https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability) —— 生成式 UI 的又一次尝试，目前是 waitlist 实验，值得关注但还没有工程细节可学。
+  _The Verge_
+- [Databricks 给 CEO 造了个 AI Agent，专门说"不加滤镜的真话"](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/) —— 1.2 万人公司的内部 Agent 实践，方向有意思（向上反馈），但报道偏故事、缺实现细节。
   _TechCrunch_
-- [Google 实验性产品 Tabletop：用 AI 生成定制化协作应用](https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability) —— 面向家庭和朋友的小型协作 hub 生成器，还在 waitlist 阶段。概念和你 content-curator 有点像，值得排队看看。
-  _The Verge_
+- [Meta 基础设施负责人 Santosh Janardhan 离职](https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/) —— 2009 年入职的老将离开，在 AI 算力军备竞赛节点上的人事变动，值得记一笔。
+  _TechCrunch_
+- [英国 Fractile 完成 7.2 亿美元融资，押注专用 AI 芯片](https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/) —— Nvidia 动荡周里，欧洲 AI 芯片挑战者拿到大额融资，是算力供应链多元化的一个注脚。
+  _TechCrunch_
+- [Ben Thompson：Intel 与 AMD 财报分化，Intel 可能需要找回"新（旧）路"](https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/) —— Stratechery 的框架性分析，适合周末慢读，但今天不是最紧急的一条。
+  _Stratechery_
 
 ---
 
