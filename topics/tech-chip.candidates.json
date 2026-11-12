@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-11T10:37:15.074048+00:00",
+  "fetched_at": "2026-11-12T10:51:24.557711+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 0,
-    "HN · Nvidia": 10,
+    "HN · Nvidia": 12,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 32,
+  "total": 34,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,9 +189,26 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/dukosi-samples-contactless-battery-communication-system-for-evs-grid-storage/",
-      "title": "Dukosi Samples Contactless Battery Communication System for EVs, Grid Storage",
-      "url": "https://www.eetimes.com/dukosi-samples-contactless-battery-communication-system-for-evs-grid-storage/",
+      "id": "rss:https://www.eetimes.com/connecting-ai-to-the-physical-world/",
+      "title": "Connecting AI to the Physical World",
+      "url": "https://www.eetimes.com/connecting-ai-to-the-physical-world/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Eric K. C. Tsang, CEO and founder, Vicinity Technologies Limited",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-12T10:20:00+00:00",
+      "summary": "Why specialized wireless devices and SDR software IP matter to the next wave of intelligent machines The post Connecting AI to the Physical World appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/harari-warns-tech-leaders-against-pursuing-ai-superintelligence/",
+      "title": "Harari Warns Tech Leaders Against Pursuing AI Superintelligence",
+      "url": "https://www.eetimes.com/harari-warns-tech-leaders-against-pursuing-ai-superintelligence/",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -201,161 +218,163 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-11T08:30:00+00:00",
-      "summary": "Dukosi DK-NFLNK provides synchronous communication with DKCMS battery monitoring systems. The post Dukosi Samples Contactless Battery Communication System for EVs, Grid Storage appeared first on EE Times.",
+      "published_at": "2026-11-12T08:30:00+00:00",
+      "summary": "At Gartner IT Symposium/Xpo 2026, philosopher Yuval Noah Harari makes an appeal to delay artificial superintelligence as it threatens to erode human agency and democratic sovereignty. The post Harari Warns Tech Leaders Against Pursuing AI Superintelligence appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/saskatchewans-semiconductor-strength-is-connecting-the-pieces/",
-      "title": "Saskatchewan’s Semiconductor Strength Is Connecting the Pieces",
-      "url": "https://www.eetimes.com/saskatchewans-semiconductor-strength-is-connecting-the-pieces/",
+      "id": "rss:https://www.eetimes.com/automotive-tech-forum-panel-discussion-the-make-or-break-milestones-toward-level-4-autonomous-driving/",
+      "title": "Automotive Tech Forum: Panel Discussion the Make-or-Break Milestones Toward Level 4 Autonomous Driving",
+      "url": "https://www.eetimes.com/automotive-tech-forum-panel-discussion-the-make-or-break-milestones-toward-level-4-autonomous-driving/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T20:00:00+00:00",
-      "summary": "Saskatchewan brings together AI infrastructure, quantum research, chip design talent, and advanced materials expertise to expand its role in Canada’s technology ecosystem. The post Saskatchewan’s Semiconductor Strength Is Connecting the Pieces appeared first on EE Times.",
+      "published_at": "2026-11-11T23:39:41+00:00",
+      "summary": "Explore the road to Level 4 autonomy as experts tackle safety, AI, regulation, and trust—watch the Automotive Tech Forum panel. The post Automotive Tech Forum: Panel Discussion the Make-or-Break Milestones Toward Level 4 Autonomous Driving appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/people-detection-in-confined-spaces-elevator-application/",
-      "title": "People Detection in Confined Spaces: Elevator Application",
-      "url": "https://www.eetimes.com/people-detection-in-confined-spaces-elevator-application/",
+      "id": "rss:https://www.eetimes.com/automotive-tech-forum-the-current-state-of-sic-in-ev-design-and-how-its-evolving/",
+      "title": "Automotive Tech Forum: The Current State of Sic in EV Design and How It’s Evolving",
+      "url": "https://www.eetimes.com/automotive-tech-forum-the-current-state-of-sic-in-ev-design-and-how-its-evolving/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Thomas Parton",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T15:00:00+00:00",
-      "summary": "This technical white paper details an embedded occupancy-monitoring solution for elevator cabins combining the Melexis MLX90642 Far-Infrared (FIR) thermal sensor array with a hardware-agnostic People Detection Library. Engineered to overcome the limitations of optical cameras, PIR sensors, and floor load cells, the solution provides guaranteed privacy-by-design via local edge processing and thermal imaging without cloud [&#8230;] The post People Detection in Confined Spaces: Elevator Application...",
+      "published_at": "2026-11-11T23:34:28+00:00",
+      "summary": "Explore how 800V SiC MOSFETs boost EV range, charging, and performance—and see what next-gen designs make possible. The post Automotive Tech Forum: The Current State of Sic in EV Design and How It&#8217;s Evolving appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/the-ai-power-bill-who-gets-grid-capacity-and-who-bears-the-risk/",
-      "title": "The AI Power Bill: Who Gets Grid Capacity, and Who Bears the Risk?",
-      "url": "https://www.eetimes.com/the-ai-power-bill-who-gets-grid-capacity-and-who-bears-the-risk/",
+      "id": "rss:https://www.eetimes.com/automotive-tech-forum-lidar-is-key-to-safer-adas-and-autonomous-vehicles/",
+      "title": "Automotive Tech Forum: Lidar is Key to Safer ADAS and Autonomous Vehicles",
+      "url": "https://www.eetimes.com/automotive-tech-forum-lidar-is-key-to-safer-adas-and-autonomous-vehicles/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Ron Honig",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T15:00:00+00:00",
-      "summary": "As electricity access becomes a financial barrier to AI expansion, the U.S. and China face different risks in building the infrastructure of the digital economy. The post The AI Power Bill: Who Gets Grid Capacity, and Who Bears the Risk? appeared first on EE Times.",
+      "published_at": "2026-11-11T23:28:21+00:00",
+      "summary": "This keynote explores how LiDAR is shaping the future of mobility by improving safety, reliability, and performance in autonomous systems. The post Automotive Tech Forum: Lidar is Key to Safer ADAS and Autonomous Vehicles appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/bluetooth-high-data-throughput-a-foundation-for-next-generation-wireless-experiences/",
-      "title": "Bluetooth® High Data Throughput: a Foundation for Next Generation Wireless Experiences",
-      "url": "https://www.eetimes.com/bluetooth-high-data-throughput-a-foundation-for-next-generation-wireless-experiences/",
+      "id": "rss:https://www.eetimes.com/automotive-tech-forum-gan-building-blocks-in-evs-and-their-design-roadmap-in-2026-and-beyond/",
+      "title": "Automotive Tech Forum: GaN Building Blocks in EV’s and Their Design Roadmap in 2026 and Beyond",
+      "url": "https://www.eetimes.com/automotive-tech-forum-gan-building-blocks-in-evs-and-their-design-roadmap-in-2026-and-beyond/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Bluetooth SIG",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T14:00:00+00:00",
-      "summary": "Bluetooth® High Data Throughput enables faster data transfer, greater capacity, energy efficiency, and reliability for advanced wireless applications. The post Bluetooth® High Data Throughput: a Foundation for Next Generation Wireless Experiences appeared first on EE Times.",
+      "published_at": "2026-11-11T23:22:01+00:00",
+      "summary": "This keynote exmines GaN reliability and present the case for GaN being not only the most efficient solution, but also a necessary step for reducing system cost The post Automotive Tech Forum: GaN Building Blocks in EV&#8217;s and Their Design Roadmap in 2026 and Beyond appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/what-it-takes-to-let-a-farm-robot-work-alone/",
-      "title": "What It Takes to Let a Farm Robot Work Alone",
-      "url": "https://www.eetimes.com/what-it-takes-to-let-a-farm-robot-work-alone/",
+      "id": "rss:https://www.eetimes.com/chiplets-revolutionizing-design-velocity-with-artificial-chip-intelligence-aci/",
+      "title": "Chiplets: Revolutionizing Design Velocity with Artificial Chip Intelligence ACI",
+      "url": "https://www.eetimes.com/chiplets-revolutionizing-design-velocity-with-artificial-chip-intelligence-aci/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T08:32:00+00:00",
-      "summary": "Safe agricultural autonomy depends on matching safeguards to the machine, its surroundings, and the people who interact with it. The post What It Takes to Let a Farm Robot Work Alone appeared first on EE Times.",
+      "published_at": "2026-11-11T23:00:05+00:00",
+      "summary": "This session introduces Artificial Chip Intelligence (ACI®), a paradigm-shifting technology using a physics-informed foundation model designed to transform chip development from a manual labor-intensive process into a conversational, AI-driven workflow. The post Chiplets: Revolutionizing Design Velocity with Artificial Chip Intelligence ACI appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/we-source-chips-others-cannot-secure-2026/",
-      "title": "We Source Chips Others Cannot Secure, 2026",
-      "url": "https://www.eetimes.com/we-source-chips-others-cannot-secure-2026/",
+      "id": "rss:https://www.eetimes.com/chiplets-panel-discussion-scaling-chiplets-without-breaking-the-system-where-are-the-limits/",
+      "title": "Chiplets: Panel Discussion: Scaling Chiplets Without Breaking the System – Where are the Limits?",
+      "url": "https://www.eetimes.com/chiplets-panel-discussion-scaling-chiplets-without-breaking-the-system-where-are-the-limits/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Chang Ming International Technology Co., Ltd.",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T07:48:14+00:00",
-      "summary": "Chang Ming delivers scarce semiconductors, with rigorous 9-step quality inspection &#038; global supply chain support for European &#038; American electronics buyers. The post We Source Chips Others Cannot Secure, 2026 appeared first on EE Times.",
+      "published_at": "2026-11-11T22:39:24+00:00",
+      "summary": "As chiplet-based designs grow in scale and complexity, the technical challenges mount up as every layer of the system introduces new constraints. The post Chiplets: Panel Discussion: Scaling Chiplets Without Breaking the System &#8211; Where are the Limits? appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/gigadevice-new-gen-high-performance-mcu-portfolio-for-full-scenario-industrial-applications/",
-      "title": "GigaDevice New-Gen High-Performance MCU Portfolio for Full-Scenario Industrial Applications",
-      "url": "https://www.eetimes.com/gigadevice-new-gen-high-performance-mcu-portfolio-for-full-scenario-industrial-applications/",
+      "id": "rss:https://www.eetimes.com/chiplets-panel-discussion-how-should-we-reimagine-the-design-flow-for-chiplet-scalability/",
+      "title": "Chiplets: Panel Discussion: How Should We Reimagine the Design Flow for Chiplet Scalability",
+      "url": "https://www.eetimes.com/chiplets-panel-discussion-how-should-we-reimagine-the-design-flow-for-chiplet-scalability/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "GigaDevice",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T06:00:00+00:00",
-      "summary": "GigaDevice officially lunches its new-generation GD32H7 MCU portfolio built on a unified chip architecture. Discover More. The post GigaDevice New-Gen High-Performance MCU Portfolio for Full-Scenario Industrial Applications appeared first on EE Times.",
+      "published_at": "2026-11-11T22:35:01+00:00",
+      "summary": "This panel discusses whether today’s design flows can scale to support reusable chiplets and multi-vendor integration, or whether more fundamental changes are needed. The post Chiplets: Panel Discussion: How Should We Reimagine the Design Flow for Chiplet Scalability appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/can-jensen-keep-his-job/",
-      "title": "Can Jensen Keep His Job?",
-      "url": "https://www.eetimes.com/can-jensen-keep-his-job/",
+      "id": "rss:https://www.eetimes.com/nxp-cto-lars-reger-on-physical-ai-robots-drones-and-trust/",
+      "title": "NXP CTO Lars Reger on Physical AI, Robots, Drones, and Trust",
+      "url": "https://www.eetimes.com/nxp-cto-lars-reger-on-physical-ai-robots-drones-and-trust/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
+        "name": "Nitin Dahad",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-09T19:59:12+00:00",
-      "summary": "Nvidia CEO admits to romantic affair with Megaspeed managing director, a known Chinese intelligence asset. The post Can Jensen Keep His Job? appeared first on EE Times.",
+      "published_at": "2026-11-11T20:23:13+00:00",
+      "summary": "Explore NXP CTO Lars Reger’s view of physical AI beyond humanoids, from NavQ95 robot kits to edge trust, security, and geopolitics. The post NXP CTO Lars Reger on Physical AI, Robots, Drones, and Trust appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/advancing-integrated-optics-celestica-broadcom-interview-at-ocp-global-summit/",
-      "title": "Advancing Integrated Optics: Celestica & Broadcom Interview at OCP Global Summit",
-      "url": "https://www.eetimes.com/advancing-integrated-optics-celestica-broadcom-interview-at-ocp-global-summit/",
-      "platform": "rss",
+      "id": "hn:50459703",
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times Partner Content",
-        "feed_title": "EE Times"
+        "type": "hackernews",
+        "id": "50459703",
+        "name": "jbredeche",
+        "hn_url": "https://news.ycombinator.com/item?id=50459703"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T14:20:32+00:00",
-      "summary": "Celestica and Broadcom explain how integrated optics can cut power and latency for AI data centers—watch the OCP Summit partner interview. The post Advancing Integrated Optics: Celestica &amp; Broadcom Interview at OCP Global Summit appeared first on EE Times.",
+      "views": 1048,
+      "comments": 1401,
+      "published_at": "2026-11-11T22:31:06+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
@@ -370,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50418016"
       },
       "duration_sec": null,
-      "views": 980,
-      "comments": 1281,
+      "views": 984,
+      "comments": 1288,
       "published_at": "2026-11-08T22:20:09+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -408,8 +427,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50416801"
       },
       "duration_sec": null,
-      "views": 491,
-      "comments": 418,
+      "views": 493,
+      "comments": 421,
       "published_at": "2026-11-08T20:26:43+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -454,20 +473,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50275128",
-      "title": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "id": "hn:50459776",
+      "title": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
+      "url": "https://twitter.com/watcherguru/status/2120645607866188008",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50275128",
-        "name": "wondersky",
-        "hn_url": "https://news.ycombinator.com/item?id=50275128"
+        "id": "50459776",
+        "name": "alexmolas",
+        "hn_url": "https://news.ycombinator.com/item?id=50459776"
       },
       "duration_sec": null,
-      "views": 134,
-      "comments": 26,
-      "published_at": "2026-10-28T15:17:53+00:00",
+      "views": 225,
+      "comments": 4,
+      "published_at": "2026-11-11T22:36:35+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -525,6 +544,25 @@
       "views": 78,
       "comments": 88,
       "published_at": "2026-11-04T11:02:23+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50459321",
+      "title": "Jensen Huang said to have had relationship with executive who reports to him",
+      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50459321",
+        "name": "louiereederson",
+        "hn_url": "https://news.ycombinator.com/item?id=50459321"
+      },
+      "duration_sec": null,
+      "views": 368,
+      "comments": 456,
+      "published_at": "2026-11-11T22:03:58+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

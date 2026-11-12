@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-11-11T10:36:42.799481+00:00",
+  "fetched_at": "2026-11-12T10:50:51.590232+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,7 +13,7 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 0,
-    "HN · Nvidia": 21,
+    "HN · Nvidia": 33,
     "HN · semiconductor": 2,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 73,
+  "total": 85,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,9 +197,26 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/dukosi-samples-contactless-battery-communication-system-for-evs-grid-storage/",
-      "title": "Dukosi Samples Contactless Battery Communication System for EVs, Grid Storage",
-      "url": "https://www.eetimes.com/dukosi-samples-contactless-battery-communication-system-for-evs-grid-storage/",
+      "id": "rss:https://www.eetimes.com/connecting-ai-to-the-physical-world/",
+      "title": "Connecting AI to the Physical World",
+      "url": "https://www.eetimes.com/connecting-ai-to-the-physical-world/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Eric K. C. Tsang, CEO and founder, Vicinity Technologies Limited",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-12T10:20:00+00:00",
+      "summary": "Why specialized wireless devices and SDR software IP matter to the next wave of intelligent machines The post Connecting AI to the Physical World appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/harari-warns-tech-leaders-against-pursuing-ai-superintelligence/",
+      "title": "Harari Warns Tech Leaders Against Pursuing AI Superintelligence",
+      "url": "https://www.eetimes.com/harari-warns-tech-leaders-against-pursuing-ai-superintelligence/",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -209,161 +226,518 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-11T08:30:00+00:00",
-      "summary": "Dukosi DK-NFLNK provides synchronous communication with DKCMS battery monitoring systems. The post Dukosi Samples Contactless Battery Communication System for EVs, Grid Storage appeared first on EE Times.",
+      "published_at": "2026-11-12T08:30:00+00:00",
+      "summary": "At Gartner IT Symposium/Xpo 2026, philosopher Yuval Noah Harari makes an appeal to delay artificial superintelligence as it threatens to erode human agency and democratic sovereignty. The post Harari Warns Tech Leaders Against Pursuing AI Superintelligence appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/saskatchewans-semiconductor-strength-is-connecting-the-pieces/",
-      "title": "Saskatchewan’s Semiconductor Strength Is Connecting the Pieces",
-      "url": "https://www.eetimes.com/saskatchewans-semiconductor-strength-is-connecting-the-pieces/",
+      "id": "rss:https://www.eetimes.com/automotive-tech-forum-panel-discussion-the-make-or-break-milestones-toward-level-4-autonomous-driving/",
+      "title": "Automotive Tech Forum: Panel Discussion the Make-or-Break Milestones Toward Level 4 Autonomous Driving",
+      "url": "https://www.eetimes.com/automotive-tech-forum-panel-discussion-the-make-or-break-milestones-toward-level-4-autonomous-driving/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T20:00:00+00:00",
-      "summary": "Saskatchewan brings together AI infrastructure, quantum research, chip design talent, and advanced materials expertise to expand its role in Canada’s technology ecosystem. The post Saskatchewan’s Semiconductor Strength Is Connecting the Pieces appeared first on EE Times.",
+      "published_at": "2026-11-11T23:39:41+00:00",
+      "summary": "Explore the road to Level 4 autonomy as experts tackle safety, AI, regulation, and trust—watch the Automotive Tech Forum panel. The post Automotive Tech Forum: Panel Discussion the Make-or-Break Milestones Toward Level 4 Autonomous Driving appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/people-detection-in-confined-spaces-elevator-application/",
-      "title": "People Detection in Confined Spaces: Elevator Application",
-      "url": "https://www.eetimes.com/people-detection-in-confined-spaces-elevator-application/",
+      "id": "rss:https://www.eetimes.com/automotive-tech-forum-the-current-state-of-sic-in-ev-design-and-how-its-evolving/",
+      "title": "Automotive Tech Forum: The Current State of Sic in EV Design and How It’s Evolving",
+      "url": "https://www.eetimes.com/automotive-tech-forum-the-current-state-of-sic-in-ev-design-and-how-its-evolving/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Thomas Parton",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T15:00:00+00:00",
-      "summary": "This technical white paper details an embedded occupancy-monitoring solution for elevator cabins combining the Melexis MLX90642 Far-Infrared (FIR) thermal sensor array with a hardware-agnostic People Detection Library. Engineered to overcome the limitations of optical cameras, PIR sensors, and floor load cells, the solution provides guaranteed privacy-by-design via local edge processing and thermal imaging without cloud [&#8230;] The post People Detection in Confined Spaces: Elevator Application...",
+      "published_at": "2026-11-11T23:34:28+00:00",
+      "summary": "Explore how 800V SiC MOSFETs boost EV range, charging, and performance—and see what next-gen designs make possible. The post Automotive Tech Forum: The Current State of Sic in EV Design and How It&#8217;s Evolving appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/the-ai-power-bill-who-gets-grid-capacity-and-who-bears-the-risk/",
-      "title": "The AI Power Bill: Who Gets Grid Capacity, and Who Bears the Risk?",
-      "url": "https://www.eetimes.com/the-ai-power-bill-who-gets-grid-capacity-and-who-bears-the-risk/",
+      "id": "rss:https://www.eetimes.com/automotive-tech-forum-lidar-is-key-to-safer-adas-and-autonomous-vehicles/",
+      "title": "Automotive Tech Forum: Lidar is Key to Safer ADAS and Autonomous Vehicles",
+      "url": "https://www.eetimes.com/automotive-tech-forum-lidar-is-key-to-safer-adas-and-autonomous-vehicles/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Ron Honig",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T15:00:00+00:00",
-      "summary": "As electricity access becomes a financial barrier to AI expansion, the U.S. and China face different risks in building the infrastructure of the digital economy. The post The AI Power Bill: Who Gets Grid Capacity, and Who Bears the Risk? appeared first on EE Times.",
+      "published_at": "2026-11-11T23:28:21+00:00",
+      "summary": "This keynote explores how LiDAR is shaping the future of mobility by improving safety, reliability, and performance in autonomous systems. The post Automotive Tech Forum: Lidar is Key to Safer ADAS and Autonomous Vehicles appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/bluetooth-high-data-throughput-a-foundation-for-next-generation-wireless-experiences/",
-      "title": "Bluetooth® High Data Throughput: a Foundation for Next Generation Wireless Experiences",
-      "url": "https://www.eetimes.com/bluetooth-high-data-throughput-a-foundation-for-next-generation-wireless-experiences/",
+      "id": "rss:https://www.eetimes.com/automotive-tech-forum-gan-building-blocks-in-evs-and-their-design-roadmap-in-2026-and-beyond/",
+      "title": "Automotive Tech Forum: GaN Building Blocks in EV’s and Their Design Roadmap in 2026 and Beyond",
+      "url": "https://www.eetimes.com/automotive-tech-forum-gan-building-blocks-in-evs-and-their-design-roadmap-in-2026-and-beyond/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Bluetooth SIG",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T14:00:00+00:00",
-      "summary": "Bluetooth® High Data Throughput enables faster data transfer, greater capacity, energy efficiency, and reliability for advanced wireless applications. The post Bluetooth® High Data Throughput: a Foundation for Next Generation Wireless Experiences appeared first on EE Times.",
+      "published_at": "2026-11-11T23:22:01+00:00",
+      "summary": "This keynote exmines GaN reliability and present the case for GaN being not only the most efficient solution, but also a necessary step for reducing system cost The post Automotive Tech Forum: GaN Building Blocks in EV&#8217;s and Their Design Roadmap in 2026 and Beyond appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/what-it-takes-to-let-a-farm-robot-work-alone/",
-      "title": "What It Takes to Let a Farm Robot Work Alone",
-      "url": "https://www.eetimes.com/what-it-takes-to-let-a-farm-robot-work-alone/",
+      "id": "rss:https://www.eetimes.com/chiplets-revolutionizing-design-velocity-with-artificial-chip-intelligence-aci/",
+      "title": "Chiplets: Revolutionizing Design Velocity with Artificial Chip Intelligence ACI",
+      "url": "https://www.eetimes.com/chiplets-revolutionizing-design-velocity-with-artificial-chip-intelligence-aci/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T08:32:00+00:00",
-      "summary": "Safe agricultural autonomy depends on matching safeguards to the machine, its surroundings, and the people who interact with it. The post What It Takes to Let a Farm Robot Work Alone appeared first on EE Times.",
+      "published_at": "2026-11-11T23:00:05+00:00",
+      "summary": "This session introduces Artificial Chip Intelligence (ACI®), a paradigm-shifting technology using a physics-informed foundation model designed to transform chip development from a manual labor-intensive process into a conversational, AI-driven workflow. The post Chiplets: Revolutionizing Design Velocity with Artificial Chip Intelligence ACI appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/we-source-chips-others-cannot-secure-2026/",
-      "title": "We Source Chips Others Cannot Secure, 2026",
-      "url": "https://www.eetimes.com/we-source-chips-others-cannot-secure-2026/",
+      "id": "rss:https://www.eetimes.com/chiplets-panel-discussion-scaling-chiplets-without-breaking-the-system-where-are-the-limits/",
+      "title": "Chiplets: Panel Discussion: Scaling Chiplets Without Breaking the System – Where are the Limits?",
+      "url": "https://www.eetimes.com/chiplets-panel-discussion-scaling-chiplets-without-breaking-the-system-where-are-the-limits/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Chang Ming International Technology Co., Ltd.",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T07:48:14+00:00",
-      "summary": "Chang Ming delivers scarce semiconductors, with rigorous 9-step quality inspection &#038; global supply chain support for European &#038; American electronics buyers. The post We Source Chips Others Cannot Secure, 2026 appeared first on EE Times.",
+      "published_at": "2026-11-11T22:39:24+00:00",
+      "summary": "As chiplet-based designs grow in scale and complexity, the technical challenges mount up as every layer of the system introduces new constraints. The post Chiplets: Panel Discussion: Scaling Chiplets Without Breaking the System &#8211; Where are the Limits? appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/gigadevice-new-gen-high-performance-mcu-portfolio-for-full-scenario-industrial-applications/",
-      "title": "GigaDevice New-Gen High-Performance MCU Portfolio for Full-Scenario Industrial Applications",
-      "url": "https://www.eetimes.com/gigadevice-new-gen-high-performance-mcu-portfolio-for-full-scenario-industrial-applications/",
+      "id": "rss:https://www.eetimes.com/chiplets-panel-discussion-how-should-we-reimagine-the-design-flow-for-chiplet-scalability/",
+      "title": "Chiplets: Panel Discussion: How Should We Reimagine the Design Flow for Chiplet Scalability",
+      "url": "https://www.eetimes.com/chiplets-panel-discussion-how-should-we-reimagine-the-design-flow-for-chiplet-scalability/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "GigaDevice",
+        "name": "AspenCore Events",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-10T06:00:00+00:00",
-      "summary": "GigaDevice officially lunches its new-generation GD32H7 MCU portfolio built on a unified chip architecture. Discover More. The post GigaDevice New-Gen High-Performance MCU Portfolio for Full-Scenario Industrial Applications appeared first on EE Times.",
+      "published_at": "2026-11-11T22:35:01+00:00",
+      "summary": "This panel discusses whether today’s design flows can scale to support reusable chiplets and multi-vendor integration, or whether more fundamental changes are needed. The post Chiplets: Panel Discussion: How Should We Reimagine the Design Flow for Chiplet Scalability appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/can-jensen-keep-his-job/",
-      "title": "Can Jensen Keep His Job?",
-      "url": "https://www.eetimes.com/can-jensen-keep-his-job/",
+      "id": "rss:https://www.eetimes.com/nxp-cto-lars-reger-on-physical-ai-robots-drones-and-trust/",
+      "title": "NXP CTO Lars Reger on Physical AI, Robots, Drones, and Trust",
+      "url": "https://www.eetimes.com/nxp-cto-lars-reger-on-physical-ai-robots-drones-and-trust/",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
+        "name": "Nitin Dahad",
         "feed_title": "EE Times"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-09T19:59:12+00:00",
-      "summary": "Nvidia CEO admits to romantic affair with Megaspeed managing director, a known Chinese intelligence asset. The post Can Jensen Keep His Job? appeared first on EE Times.",
+      "published_at": "2026-11-11T20:23:13+00:00",
+      "summary": "Explore NXP CTO Lars Reger’s view of physical AI beyond humanoids, from NavQ95 robot kits to edge trust, security, and geopolitics. The post NXP CTO Lars Reger on Physical AI, Robots, Drones, and Trust appeared first on EE Times.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/advancing-integrated-optics-celestica-broadcom-interview-at-ocp-global-summit/",
-      "title": "Advancing Integrated Optics: Celestica & Broadcom Interview at OCP Global Summit",
-      "url": "https://www.eetimes.com/advancing-integrated-optics-celestica-broadcom-interview-at-ocp-global-summit/",
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules",
+      "title": "Techie uses voltage glitching hack to turn $2,500 Nvidia 8GB cryptomining GPU into a full-fat $20,000 A100 with 80GB of VRAM",
+      "url": "https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times Partner Content",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-09T14:20:32+00:00",
-      "summary": "Celestica and Broadcom explain how integrated optics can cut power and latency for AI data centers—watch the OCP Summit partner interview. The post Advancing Integrated Optics: Celestica &amp; Broadcom Interview at OCP Global Summit appeared first on EE Times.",
+      "published_at": "2026-11-12T10:30:00+00:00",
+      "summary": "A techie turned a $2,500 CMP-170HX 8GB mining card into a full-fat $20,000 A100 80GB by carefully blowing onboard fuses to unlock entire VRAM and shader modules.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/cannabis-farmers-consider-joining-ai-bandwagon-due-to-falling-weed-revenue-existing-sites-could-house-mini-data-center-nodes-but-still-face-serious-challenges-during-conversion",
+      "title": "Struggling marijuana farmers pivot to becoming AI data center sites to escape falling weed revenue",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/cannabis-farmers-consider-joining-ai-bandwagon-due-to-falling-weed-revenue-existing-sites-could-house-mini-data-center-nodes-but-still-face-serious-challenges-during-conversion",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-12T10:00:00+00:00",
+      "summary": "One expert says that it still depends on the perfect confluence of cheap power, favorable regulation, and reliable connectivity.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years",
+      "title": "Nvidia’s Board reportedly preparing to oust CEO Jensen Huang as second extra-marital affair emerges",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T23:45:00+00:00",
+      "summary": "Nvidia Board reportedly moves to expel Jensen Huang as stock tumbles on latest scandals and lack of succession plans at Nvidia.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/jensen-huang-now-accused-of-affair-with-nvidia-executive-who-reported-to-him-alleged-cover-up-attempt-new-indiscretion-comes-in-wake-of-admitted-affair-with-alleged-chinese-spy",
+      "title": "Jensen Huang now accused of affair with Nvidia executive who reported to him, alleged cover-up attempt",
+      "url": "https://www.tomshardware.com/tech-industry/jensen-huang-now-accused-of-affair-with-nvidia-executive-who-reported-to-him-alleged-cover-up-attempt-new-indiscretion-comes-in-wake-of-admitted-affair-with-alleged-chinese-spy",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Andrew E. Freedman",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T22:31:39+00:00",
+      "summary": "Nvidia CEO Jensen Huang reportedly had an extramarital affair with a direct report, following a separate affair with a woman suspected of being a Chinese spy.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amds-venice-x-maxes-out-family-at-5-3-ghz-returning-3d-v-cache-to-data-center-after-four-years-chips-target-hpc-workloads-with-pcie-6-0-and-1-6-tb-s-memory-bandwidth",
+      "title": "AMD’s Venice-X maxes out family at 5.3 GHz, returning 3D V-Cache to data center after four years",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amds-venice-x-maxes-out-family-at-5-3-ghz-returning-3d-v-cache-to-data-center-after-four-years-chips-target-hpc-workloads-with-pcie-6-0-and-1-6-tb-s-memory-bandwidth",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T21:30:00+00:00",
+      "summary": "AMD's Venice-X CPUs launch in the second half of 2027, bringing 3D V-Cache back to the data center after four years on the sidelines.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/3d-printing/prusa-launches-new-carbon-3d-printing-filament-for-electronics-manufacturing-carbon-fiber-and-carbon-nanotube-filled-material-dissipates-electrostatic-energy-for-static-sensitive-electronics",
+      "title": "Prusa launches new carbon-fiber and carbon-nanotube-filled 3D printing filament for electronics manufacturing",
+      "url": "https://www.tomshardware.com/3d-printing/prusa-launches-new-carbon-3d-printing-filament-for-electronics-manufacturing-carbon-fiber-and-carbon-nanotube-filled-material-dissipates-electrostatic-energy-for-static-sensitive-electronics",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jhet Borja",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T21:00:00+00:00",
+      "summary": "Prusament PETG ESD is the cheapest ESD filament on the market, while being carbon-fiber reinforced, something the competition doesn't have.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/georgia-politicians-openai-slapped-with-racketeering-lawsuit-over-3-2-gigawatt-ai-data-centers-plaintiffs-allege-multiple-violations-were-part-of-a-coordinated-scheme-to-get-project-camellia-approved",
+      "title": "OpenAI and Georgia county leaders hit with Mafia-style RICO racketeering lawsuit over $30 billion AI data center",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/georgia-politicians-openai-slapped-with-racketeering-lawsuit-over-3-2-gigawatt-ai-data-centers-plaintiffs-allege-multiple-violations-were-part-of-a-coordinated-scheme-to-get-project-camellia-approved",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T16:30:00+00:00",
+      "summary": "The plaintiffs alleged that the parties committed fraud and concealment through NDAs and misleading public statements.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/pc-peripheral-maker-logitech-giving-all-of-its-7-000-employees-the-day-off-to-play-gta-6-company-announces-game-day-initiative-dedicated-vacation-day-to-play-video-games",
+      "title": "PC peripheral maker Logitech giving all of its 7,000 employees the day off to play GTA 6",
+      "url": "https://www.tomshardware.com/video-games/pc-peripheral-maker-logitech-giving-all-of-its-7-000-employees-the-day-off-to-play-gta-6-company-announces-game-day-initiative-dedicated-vacation-day-to-play-video-games",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Oliver Haslam",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T15:55:12+00:00",
+      "summary": "Accessory maker Logitech has a new \"Logi Game Day\" initiative that allows employees to take a day off from now until this time next year to play a game of their choice — including the one everyone is talking about.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board",
+      "title": "SpaceX develops its own ‘Kessel’ rack-scale system featuring 72 Nvidia Rubin GPUs for data centers in space, report claims",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T15:03:08+00:00",
+      "summary": "SpaceX is reportedly developing a 'Kessel' rack-scale system design with 72 Nvidia Rubin GPUs that relies on a massive 84-layer PCB midplane.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/softbank-loses-usd3-7-billion-on-canceled-ai-data-center-gas-turbine-orders-days-after-denying-elon-musks-claim-it-was-defaulting-company-kills-reserved-13-gigawatts-of-power-more-than-six-hoover-dams-worth-of-capacity",
+      "title": "Softbank loses $3.7 billion on canceled AI data center gas turbine orders days after denying Elon Musk’s claim it was defaulting",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/softbank-loses-usd3-7-billion-on-canceled-ai-data-center-gas-turbine-orders-days-after-denying-elon-musks-claim-it-was-defaulting-company-kills-reserved-13-gigawatts-of-power-more-than-six-hoover-dams-worth-of-capacity",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Oliver Haslam",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T14:29:43+00:00",
+      "summary": "SoftBank might not have defaulted on a raft of gas turbine orders, but it has pulled out of deals for unwanted power units after overestimating how many it could use amid the AI data center buildout boom.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/asrock-attempts-to-correct-botched-radeon-rx-7000-firmware-release-with-new-version-revised-release-should-work-ok-but-company-provides-no-explanation-for-bricked-cards",
+      "title": "ASRock quietly rolls out new firmware after disastrous previous update killed Radeon RX 7900-series GPUs",
+      "url": "https://www.tomshardware.com/pc-components/gpus/asrock-attempts-to-correct-botched-radeon-rx-7000-firmware-release-with-new-version-revised-release-should-work-ok-but-company-provides-no-explanation-for-bricked-cards",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Kunal Khullar",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T14:20:00+00:00",
+      "summary": "Asrock's VBIOS 1.0.6 update follows reports of Radeon RX 7900 XT and XTX graphics cards failing to boot after installing the previous firmware.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/pc-cases/montech-king-95-3d-pro-case-review",
+      "title": "Montech King 95 3D Pro case review: The King has returned",
+      "url": "https://www.tomshardware.com/pc-components/pc-cases/montech-king-95-3d-pro-case-review",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T14:00:00+00:00",
+      "summary": "The new Montech King 95 3D case offers 3-panel panoramic views of the inside, loads of interior space for components and cooling, and the Pro version comes with seven RGB fan",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/nintendo/nintendo-unleashes-dmca-takedown-wave-against-open-source-switch-modchip-firmware-144-tools-disabled-picofly-sx-core-and-hwfly-among-casualties-following-criminal-trial-victory",
+      "title": "Nintendo unleashes DMCA takedown wave against open-source Switch modchip firmware, 144 tools disabled",
+      "url": "https://www.tomshardware.com/video-games/nintendo/nintendo-unleashes-dmca-takedown-wave-against-open-source-switch-modchip-firmware-144-tools-disabled-picofly-sx-core-and-hwfly-among-casualties-following-criminal-trial-victory",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stephen Warwick",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T13:42:37+00:00",
+      "summary": "Nintendo is going after the open-source firmware behind hardware modchips on Nintendo Switch",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/cognichip-reveals-how-its-new-ai-assisted-program-can-slash-chip-design-times-from-months-to-days-automating-labor-intensive-tasks-cuts-design-time-down-chief-product-officer-explains",
+      "title": "Cognichip reveals how its new AI-assisted program can slash chip design times from months to days — automating labor-intensive tasks cuts design time down, Chief Product Officer explains",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/cognichip-reveals-how-its-new-ai-assisted-program-can-slash-chip-design-times-from-months-to-days-automating-labor-intensive-tasks-cuts-design-time-down-chief-product-officer-explains",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T13:30:00+00:00",
+      "summary": "Cognichip claims its AI can slash chip design time from months to days, only that that design must be very simplistic.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/policy/congress-could-issue-subpoena-to-nvidia-ceo-jensen-huang-if-he-doesnt-respond-by-today-to-request-for-a-joint-closed-door-briefing-us-representatives-want-to-discuss-companys-security-protocols-against-foreign-adversary-espionage",
+      "title": "Congress could issue subpoena to Nvidia CEO Jensen Huang if he doesn’t respond by today to request for a ‘joint, closed-door briefing’",
+      "url": "https://www.tomshardware.com/tech-industry/policy/congress-could-issue-subpoena-to-nvidia-ceo-jensen-huang-if-he-doesnt-respond-by-today-to-request-for-a-joint-closed-door-briefing-us-representatives-want-to-discuss-companys-security-protocols-against-foreign-adversary-espionage",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T13:04:44+00:00",
+      "summary": "Three committee chairpersons want to grill Jensen Huang about his company's 'security protocols against foreign adversary espionage,' as a former CIA agent says that he had a target on his back as the leader of a trillion-dollar company.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/linux/cyanogen-co-founder-unveils-kora-a-linux-os-that-splits-ai-models-across-the-cpu-gpu-and-npu-snapdragon-x2-elite-and-hexagon-npu-get-full-support-first",
+      "title": "Cyanogen co-founder unveils Kora, a Linux OS that splits AI models across the CPU, GPU, and NPU",
+      "url": "https://www.tomshardware.com/software/linux/cyanogen-co-founder-unveils-kora-a-linux-os-that-splits-ai-models-across-the-cpu-gpu-and-npu-snapdragon-x2-elite-and-hexagon-npu-get-full-support-first",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T13:00:00+00:00",
+      "summary": "Kora, a Linux desktop OS with built-in AI models and agents for local agentic work, is coming to PCs in 2027, including Snapdragon X2 Elite machines.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/linux/linux-kernel-reviewer-steps-down-from-memory-management-duties-due-to-influx-of-ai-slop-patches-the-amount-of-time-wasted-on-ai-slop-is-already-too-much-and-were-only-at-the-start-of-this-volume-of-submissions-and-low-manpower-forces-the-step-back",
+      "title": "Linux kernel reviewer steps down from memory management duties due to influx of AI slop patches",
+      "url": "https://www.tomshardware.com/software/linux/linux-kernel-reviewer-steps-down-from-memory-management-duties-due-to-influx-of-ai-slop-patches-the-amount-of-time-wasted-on-ai-slop-is-already-too-much-and-were-only-at-the-start-of-this-volume-of-submissions-and-low-manpower-forces-the-step-back",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T12:30:00+00:00",
+      "summary": "Linux kernel memory-management code reviewer steps down due to influx of AI slop patches — volume of submissions coupled with low manpower forces the step back",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/pc-building/save-36-percent-on-this-hoto-cordless-rotary-3d-printing-toolkit-for-makers-now-under-usd32-5-speed-tool-ships-with-35-attachments-for-sanding-polishing-carving-and-more",
+      "title": "Save 36% on this Hoto cordless rotary 3D printing toolkit for makers, now under $32",
+      "url": "https://www.tomshardware.com/desktops/pc-building/save-36-percent-on-this-hoto-cordless-rotary-3d-printing-toolkit-for-makers-now-under-usd32-5-speed-tool-ships-with-35-attachments-for-sanding-polishing-carving-and-more",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T12:00:00+00:00",
+      "summary": "Grab a 36% saving on Hoto’s cordless rotary toolkit, with a 25,000 RPM motor, 35 accessories and a built-in LED ring light.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amd-shares-how-it-can-retain-95-percent-of-server-performance-with-just-half-the-dram-sidestepping-memory-shortages-with-mext-tech-powers-over-100-servers-already-running-with-plans-to-expand-to-2-000-servers-in-2027",
+      "title": "AMD shares how it can retain 95% of server performance with just half the DRAM, sidestepping memory shortages with MEXT",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-shares-how-it-can-retain-95-percent-of-server-performance-with-just-half-the-dram-sidestepping-memory-shortages-with-mext-tech-powers-over-100-servers-already-running-with-plans-to-expand-to-2-000-servers-in-2027",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T12:00:00+00:00",
+      "summary": "Following AMD’s acquisition of MEXT earlier this year, the company has revealed its own IT infrastructure is using the technology to run servers at 50% DRAM capacity while achieving 95% of the performance of a full-DRAM system in certain applications.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/elon-musk-wants-to-build-a-new-gas-powered-data-center-in-starbase-texas-usd24-billion-site-goes-up-for-approval-in-december-but-could-face-headwinds-from-new-governor",
+      "title": "Elon Musk wants to build a s $24 billion gas-powered AI supercomputer in Texas company town",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/elon-musk-wants-to-build-a-new-gas-powered-data-center-in-starbase-texas-usd24-billion-site-goes-up-for-approval-in-december-but-could-face-headwinds-from-new-governor",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T11:30:00+00:00",
+      "summary": "The city of Starbase, Texas, is set to vote on a proposed $24 billion data center to be built within its limits, but the SpaceX company town may not provide the friendly regulatory environment that owner Elon Musk might have hoped for.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/data-center-demand-for-fiber-optics-squeezes-ukrainian-drone-operations-supply-crunch-has-incurred-6x-10x-cost-increase-for-critical-cabling",
+      "title": "Ukrainian drone operations squeezed by fiber optic cable shortage triggered by AI data center buildouts",
+      "url": "https://www.tomshardware.com/tech-industry/drones/data-center-demand-for-fiber-optics-squeezes-ukrainian-drone-operations-supply-crunch-has-incurred-6x-10x-cost-increase-for-critical-cabling",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T11:00:00+00:00",
+      "summary": "Ukrainian drone manufacturer BlueBird Tech says that limited fiber optic supplies are making it harder to build jam-proof fiber optic drones.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ddr5/grab-32gb-ddr5-for-usd351-with-this-newegg-bundle-with-the-9800x3d-usd87-less-than-the-next-cheapest-memory-gaming-pc-build-kit-includes-enthusiast-asus-x870e-motherboard-and-free-aio-liquid-cooler-with-usd128-99-in-total-savings",
+      "title": "Grab 32GB DDR5 for $351 with this Newegg bundle with the 9800X3D, $87 less than the next cheapest memory",
+      "url": "https://www.tomshardware.com/pc-components/ddr5/grab-32gb-ddr5-for-usd351-with-this-newegg-bundle-with-the-9800x3d-usd87-less-than-the-next-cheapest-memory-gaming-pc-build-kit-includes-enthusiast-asus-x870e-motherboard-and-free-aio-liquid-cooler-with-usd128-99-in-total-savings",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-11T10:54:55+00:00",
+      "summary": "Another brilliant Newegg combo deal has combined the eight-core AMD Ryzen 7 9850X3D with 32GB of V-Color DDR5-6400 RAM, all for just $650, saving you a whopping $348.99 in the process.",
       "lang": "en"
     },
     {
@@ -503,377 +877,22 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/going-deep-on-local-ai-performance-with-apples-mac-studio-with-m5-ultra-inference-engine-recipes-mandatory-for-bigger-models-as-mlx-stack-matures",
-      "title": "Going deep on local AI performance benchmarking with Apple’s Mac Studio with M5 Ultra taking on Nvidia DGX Spark",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/going-deep-on-local-ai-performance-with-apples-mac-studio-with-m5-ultra-inference-engine-recipes-mandatory-for-bigger-models-as-mlx-stack-matures",
-      "platform": "rss",
+      "id": "hn:50459703",
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jeffrey Kampman",
-        "feed_title": "Latest from Tom's Hardware"
+        "type": "hackernews",
+        "id": "50459703",
+        "name": "jbredeche",
+        "hn_url": "https://news.ycombinator.com/item?id=50459703"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T13:20:00+00:00",
-      "summary": "But if you're thinking about dropping over $10K for the purpose of building a local AI inference setup, is a Mac Studio right for you?",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/semiconductors/elon-musks-terafab-targets-1-million-wafers-a-month-after-2032-planned-700-000-monthly-memory-wafers-could-rival-samsungs-entire-estimated-dram-production-capacity",
-      "title": "Elon Musk’s Terafab targets 1 million wafers a month after 2032",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musks-terafab-targets-1-million-wafers-a-month-after-2032-planned-700-000-monthly-memory-wafers-could-rival-samsungs-entire-estimated-dram-production-capacity",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T13:00:00+00:00",
-      "summary": "Tesla and SpaceX’s Terafab reportedly plans 1 million wafers per month after 2032, with about 700,000 for memory.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/linux/linus-torvalds-says-that-ai-fixes-drove-most-of-the-progress-in-latest-linux-kernel-bpf-saw-more-ai-written-fixes-than-bug-reports-possibly-indicating-a-tidal-shift-for-open-source-maintainers-tired-of-flood-of-junk-reports",
-      "title": "Linus Torvalds says that AI fixes drove most of the progress in latest Linux kernel",
-      "url": "https://www.tomshardware.com/software/linux/linus-torvalds-says-that-ai-fixes-drove-most-of-the-progress-in-latest-linux-kernel-bpf-saw-more-ai-written-fixes-than-bug-reports-possibly-indicating-a-tidal-shift-for-open-source-maintainers-tired-of-flood-of-junk-reports",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T12:40:00+00:00",
-      "summary": "Linus Torvalds thinks that AI fixes drove most of the progress in Linux kernel 7.4rc2 — BPF saw more AI-written fixes than bug reports, possibly indicating a tidal shift",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/policy/president-trump-says-the-fbi-is-investigating-jensen-huangs-affair-nvidia-also-accused-of-intervening-in-megaspeed-chip-smuggling-investigation",
-      "title": "President Trump says the FBI is investigating Jensen Huang’s affair",
-      "url": "https://www.tomshardware.com/tech-industry/policy/president-trump-says-the-fbi-is-investigating-jensen-huangs-affair-nvidia-also-accused-of-intervening-in-megaspeed-chip-smuggling-investigation",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T12:33:17+00:00",
-      "summary": "The FBI is probably concerned about the implication of a Chinese agent having influence over the leader of the U.S.'s leading AI chip manufacturer.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/usd10-programmer-saves-bios-locked-lenovo-thinkpads-from-the-dump-exploit-bypasses-supervisor-passwords-to-save-4th-to-8th-gen-intel-models-from-e-waste",
-      "title": "$10 programmer saves BIOS-locked Lenovo ThinkPads from the dump",
-      "url": "https://www.tomshardware.com/laptops/usd10-programmer-saves-bios-locked-lenovo-thinkpads-from-the-dump-exploit-bypasses-supervisor-passwords-to-save-4th-to-8th-gen-intel-models-from-e-waste",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jhet Borja",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T12:20:00+00:00",
-      "summary": "Many cheap company ThinkPads come with supervisor passwords and often end up as e-waste. Ukrainian YouTuber Hileeq shows how easy it is to bypass the password with a $10 programmer.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/software-engineer-rickrolls-his-prusa-3d-printer-via-remote-code-execution-exploit-one-week-of-testing-with-claude-opus-uncovers-23-prusa-buddy-firmware-defects",
-      "title": "Software engineer Rickrolls his Prusa 3D printer via remote code execution exploit",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/software-engineer-rickrolls-his-prusa-3d-printer-via-remote-code-execution-exploit-one-week-of-testing-with-claude-opus-uncovers-23-prusa-buddy-firmware-defects",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T12:18:07+00:00",
-      "summary": "A software engineer demonstrated the ability to Rickroll a 3D printer via remote code execution (RCE). This security flaw has been fixed in the latest Prusa software.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/playstation/upgrade-your-ps5s-storage-for-gta-6s-digital-pre-load-with-these-ssd-storage-options-from-usd174-ultra-fast-drives-slot-into-the-m-2-expansion-slot-to-ready-your-console-for-gtas-huge-212gb-installation",
-      "title": "Upgrade your PS5's storage for GTA 6's digital pre-load with these SSD storage options from $174",
-      "url": "https://www.tomshardware.com/video-games/playstation/upgrade-your-ps5s-storage-for-gta-6s-digital-pre-load-with-these-ssd-storage-options-from-usd174-ultra-fast-drives-slot-into-the-m-2-expansion-slot-to-ready-your-console-for-gtas-huge-212gb-installation",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T12:00:00+00:00",
-      "summary": "With GTA 6's digital pre-loads beginning on November 10, you'll need enough storage on your PS5 to match. Here are some of the top PS5 SSD options to help you.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/video-games/pc-gaming/steam-store-adds-average-fps-data-so-you-can-see-game-performance-before-making-a-purchase-steam-deck-only-for-now-with-desktop-pc-support-planned",
-      "title": "Steam Store adds average FPS data so you can see game performance before making a purchase",
-      "url": "https://www.tomshardware.com/video-games/pc-gaming/steam-store-adds-average-fps-data-so-you-can-see-game-performance-before-making-a-purchase-steam-deck-only-for-now-with-desktop-pc-support-planned",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zak Killian",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T11:53:36+00:00",
-      "summary": "Valve is adding a new feature to the Steam store that tracks performance data and then displays it anonymously to users who match the hardware.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/controllers-gamepads/grab-this-gamesir-super-nova-wireless-controller-at-a-record-low-amazon-price-now-under-usd40-20-percent-discount-on-pc-and-switch-gamepad-that-ships-with-drift-free-hall-effect-sticks-and-a-customizable-layout",
-      "title": "Grab this GameSir Super Nova wireless controller at a record-low Amazon price, now under $40",
-      "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/grab-this-gamesir-super-nova-wireless-controller-at-a-record-low-amazon-price-now-under-usd40-20-percent-discount-on-pc-and-switch-gamepad-that-ships-with-drift-free-hall-effect-sticks-and-a-customizable-layout",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T11:42:06+00:00",
-      "summary": "Grab this fully loaded wireless gaming controller from GameSir for a record-low Amazon price of $39.99.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ddr5/grab-32gb-ddr5-for-usd371-in-this-newegg-ram-bundle-with-the-9800x3d-usd70-less-than-buying-it-separately-usd138-saving-on-parts-for-a-4k-gaming-pc-including-a-gigabyte-x870-motherboard-and-free-atx-case",
-      "title": "Grab 32GB DDR5 for $371 in this Newegg RAM bundle with the 9800X3D, $70 less than buying it separately",
-      "url": "https://www.tomshardware.com/pc-components/ddr5/grab-32gb-ddr5-for-usd371-in-this-newegg-ram-bundle-with-the-9800x3d-usd70-less-than-buying-it-separately-usd138-saving-on-parts-for-a-4k-gaming-pc-including-a-gigabyte-x870-motherboard-and-free-atx-case",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T11:09:51+00:00",
-      "summary": "This Newegg bundle brings together the AMD Ryzen 7 9800X3D, 32GB of DDR5-6000 RAM, a Gigabyte X870 Aorus Elite Wi-Fi 7 motherboard, and a free ATX case for $1,090.98.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/external-ssds/seagate-resurrects-hybrid-storage-hands-on-with-the-firecuda-forge-8-or-20tb-external-hard-drive-requires-you-to-bring-your-own-nvme-ssd",
-      "title": "Seagate resurrects hybrid storage: Hands-on with the FireCuda Forge – 8 or 20TB external hard drive requires you to bring your own NVMe SSD",
-      "url": "https://www.tomshardware.com/pc-components/external-ssds/seagate-resurrects-hybrid-storage-hands-on-with-the-firecuda-forge-8-or-20tb-external-hard-drive-requires-you-to-bring-your-own-nvme-ssd",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Matt Safford",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T11:01:00+00:00",
-      "summary": "Seagate takes on high SSD storage prices with the Firecuda Forge, a 8TB or 20TB hard drive that requires you to bring your own M.2 2280 SSD (ideally 1TB, with DRAM). It's a throwback to the days of hybrid drives, and the experience is pretty seamless once you install your SSD. But if you don't already own an SSD that you can drop in, it's still quite expensive.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/all-net-connected-vehicles-from-two-major-automakers-allowed-hackers-to-remotely-unlock-doors-and-start-the-engine-now-patched-hard-coded-credentials-and-bypassed-mfa-security-showcase-a-lack-of-101-level-best-practices",
-      "title": "All net-connected vehicles from two major automakers allowed hackers to remotely unlock doors and start the engine",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/all-net-connected-vehicles-from-two-major-automakers-allowed-hackers-to-remotely-unlock-doors-and-start-the-engine-now-patched-hard-coded-credentials-and-bypassed-mfa-security-showcase-a-lack-of-101-level-best-practices",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T10:50:00+00:00",
-      "summary": "Any net-connected vehicle from two automakers could be remotely opened and started — now-patched failures with API backend security showcase a lack of 101-level best practices",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/space/orbiting-esa-satellite-plays-doom-after-receiving-voice-commands-from-amateur-radio-operators-on-earth-27-mb-ai-speech-model-executes-the-game-on-the-seventh-attempt",
-      "title": "Orbiting ESA satellite plays Doom after receiving voice commands from amateur radio operators on Earth",
-      "url": "https://www.tomshardware.com/tech-industry/space/orbiting-esa-satellite-plays-doom-after-receiving-voice-commands-from-amateur-radio-operators-on-earth-27-mb-ai-speech-model-executes-the-game-on-the-seventh-attempt",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T10:30:00+00:00",
-      "summary": "Radio amateurs in Oslo spoke a command to ESA’s OPS-SAT PRETTY satellite, which recognized it on board and launched Doom.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/law-firm-files-class-action-lawsuit-against-nvidia-after-ceo-jensen-huang-confirms-affair-with-alleged-chinese-spy-more-to-come-as-multiple-other-law-firms-investigate-securities-fraud-following-stock-drop",
-      "title": "Law firm files class-action lawsuit against Nvidia after CEO Jensen Huang confirms affair with alleged Chinese spy",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/law-firm-files-class-action-lawsuit-against-nvidia-after-ceo-jensen-huang-confirms-affair-with-alleged-chinese-spy-more-to-come-as-multiple-other-law-firms-investigate-securities-fraud-following-stock-drop",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T00:03:08+00:00",
-      "summary": "Class-action lawsuit and legal investigations against Nvidia over securities fraud start flying",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/cryptocurrency/ethereum-foundation-sued-after-firing-employee-over-mandatory-source-seppuku-suicide-pact-crypto-firm-demanded-employees-pledge-to-take-their-own-lives-with-a-sword-to-protect-open-source-code-founder-vitalik-claims-1-000-year-mandate-just-artwork",
-      "title": "Ethereum Foundation sued after firing employee over mandatory 'Source Seppuku' suicide pact",
-      "url": "https://www.tomshardware.com/tech-industry/cryptocurrency/ethereum-foundation-sued-after-firing-employee-over-mandatory-source-seppuku-suicide-pact-crypto-firm-demanded-employees-pledge-to-take-their-own-lives-with-a-sword-to-protect-open-source-code-founder-vitalik-claims-1-000-year-mandate-just-artwork",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T18:43:48+00:00",
-      "summary": "A former employee of The Ethereum Foundation is suing the nonprofit after being fired for refusing to sign its 'Source Seppuku License.'",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million",
-      "title": "Nvidia cracks down on overseas cloud AI GPU rentals for China",
-      "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T17:48:17+00:00",
-      "summary": "Nvidia may cap cloud partners’ Chinese business at 49% as Chinese firms buy up more than 1 million gaming and workstation GPUs.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/nvidia-ceo-jensen-huang-summoned-to-congressional-committee-over-affair-with-alleged-chinese-spy-says-recent-reports-raise-concerns-over-security-protocols-and-ties-to-chinese-intelligence",
-      "title": "Nvidia CEO Jensen Huang summoned to Congress over affair with alleged Chinese spy",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-ceo-jensen-huang-summoned-to-congressional-committee-over-affair-with-alleged-chinese-spy-says-recent-reports-raise-concerns-over-security-protocols-and-ties-to-chinese-intelligence",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stephen Warwick",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T15:57:13+00:00",
-      "summary": "Jensen Huang has been summoned to appear before Congress's Select Committee on the CCP.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/deepx-ai-chip-runs-so-cool-that-a-butter-heatsink-doesnt-melt-the-dx-m1-processor-impresses-in-a-bizarre-new-dairy-based-benchmark",
-      "title": "Bizarre AI chip demo uses butter to highlight how new chip runs 40 degrees cooler than the competition",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/deepx-ai-chip-runs-so-cool-that-a-butter-heatsink-doesnt-melt-the-dx-m1-processor-impresses-in-a-bizarre-new-dairy-based-benchmark",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T15:15:00+00:00",
-      "summary": "DEEPX demonstrated its DX-M1 processor’s cool running capabilities in a bizarre dairy-based thermal benchmark.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/acer-predator-helios-neo-16s-ai-review",
-      "title": "Acer Predator Helios Neo 16S AI Review: Slim OLED gaming that doesn't last long",
-      "url": "https://www.tomshardware.com/laptops/gaming-laptops/acer-predator-helios-neo-16s-ai-review",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Charles Jefferies",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T14:05:00+00:00",
-      "summary": "The Acer Predator Helios Neo 16S AI pairs strong gaming performance, a 240 Hz OLED display, and good upgradeability but compromises the package with relatively short battery life.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-pro-6000-users-cables-almost-melted-even-when-limited-to-500w-12v-2x6-cables-appear-to-still-cause-problems-show-clear-signs-of-melting",
-      "title": "Nvidia RTX PRO 6000 user’s cables almost melted, even when limited to 500W",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-pro-6000-users-cables-almost-melted-even-when-limited-to-500w-12v-2x6-cables-appear-to-still-cause-problems-show-clear-signs-of-melting",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jhet Borja",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T14:00:00+00:00",
-      "summary": "The 12V-2x6 connector nearly took out two RTX PRO 6000 Blackwell Workstation GPUs; luckily, the owner spotted the damaged cables before they melted the GPU connectors.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/anthropic-skips-six-year-waitlist-with-massive-usd3-4-billion-gas-turbine-generator-deal-firm-takes-over-onepwrs-orders-secures-1-7gw-of-capacity-to-power-ai-data-centers",
-      "title": "Anthropic skips six-year waitlist with massive $3.4 billion gas turbine generator deal",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/anthropic-skips-six-year-waitlist-with-massive-usd3-4-billion-gas-turbine-generator-deal-firm-takes-over-onepwrs-orders-secures-1-7gw-of-capacity-to-power-ai-data-centers",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Newton Gitonga",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T13:45:00+00:00",
-      "summary": "Anthropic has committed $3.4 billion to secure 1.7GW of gas-fired generators from OnePWR Solutions, taking over existing Caterpillar orders as lengthy equipment lead times push AI companies to build their own power infrastructure",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/dram/memory-shortage-spurs-smartphone-makers-to-melt-used-memory-off-old-devices-then-re-solder-it-onto-new-products-recycled-memory-to-keep-budget-phones-affordable-reballing-adoption-to-double-by-2027",
-      "title": "Memory shortage spurs smartphone makers to melt used memory off old devices, then re-solder it onto new products",
-      "url": "https://www.tomshardware.com/pc-components/dram/memory-shortage-spurs-smartphone-makers-to-melt-used-memory-off-old-devices-then-re-solder-it-onto-new-products-recycled-memory-to-keep-budget-phones-affordable-reballing-adoption-to-double-by-2027",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Kunal Khullar",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-09T13:40:00+00:00",
-      "summary": "Reballed memory currently accounts for a small share of smartphone components, but adoption could nearly double by 2027 as manufacturers look for alternatives to increasingly expensive DRAM.",
+      "views": 1047,
+      "comments": 1400,
+      "published_at": "2026-11-11T22:31:06+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
@@ -888,8 +907,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50418016"
       },
       "duration_sec": null,
-      "views": 980,
-      "comments": 1281,
+      "views": 984,
+      "comments": 1288,
       "published_at": "2026-11-08T22:20:09+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -926,8 +945,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50416801"
       },
       "duration_sec": null,
-      "views": 491,
-      "comments": 418,
+      "views": 493,
+      "comments": 421,
       "published_at": "2026-11-08T20:26:43+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -972,20 +991,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50275128",
-      "title": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "id": "hn:50459776",
+      "title": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
+      "url": "https://twitter.com/watcherguru/status/2120645607866188008",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50275128",
-        "name": "wondersky",
-        "hn_url": "https://news.ycombinator.com/item?id=50275128"
+        "id": "50459776",
+        "name": "alexmolas",
+        "hn_url": "https://news.ycombinator.com/item?id=50459776"
       },
       "duration_sec": null,
-      "views": 134,
-      "comments": 26,
-      "published_at": "2026-10-28T15:17:53+00:00",
+      "views": 225,
+      "comments": 4,
+      "published_at": "2026-11-11T22:36:35+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1060,7 +1079,7 @@
       },
       "duration_sec": null,
       "views": 43,
-      "comments": 12,
+      "comments": 11,
       "published_at": "2026-11-08T20:14:16+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1078,8 +1097,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50424604"
       },
       "duration_sec": null,
-      "views": 39,
-      "comments": 13,
+      "views": 41,
+      "comments": 15,
       "published_at": "2026-11-09T12:20:45+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1100,25 +1119,6 @@
       "views": 32,
       "comments": 9,
       "published_at": "2026-11-04T23:12:29+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50286924",
-      "title": "Nvidia Chief Seen as Target of Chinese Spy Plot",
-      "url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50286924",
-        "name": "u1hcw9nx",
-        "hn_url": "https://news.ycombinator.com/item?id=50286924"
-      },
-      "duration_sec": null,
-      "views": 26,
-      "comments": 3,
-      "published_at": "2026-10-29T10:34:16+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1181,6 +1181,63 @@
       "lang": "en"
     },
     {
+      "id": "hn:50452464",
+      "title": "Nvidia Vera CPU Review: 2TB/S Memory Bandwidth, a Real x86 Rival",
+      "url": "https://www.storagereview.com/review/nvidia-vera-cpu-review",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50452464",
+        "name": "rbanffy",
+        "hn_url": "https://news.ycombinator.com/item?id=50452464"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 3,
+      "published_at": "2026-11-11T12:06:22+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50460325",
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50460325",
+        "name": "bearseascape",
+        "hn_url": "https://news.ycombinator.com/item?id=50460325"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 2,
+      "published_at": "2026-11-11T23:15:25+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50463421",
+      "title": "Nvidia's Disappearing Singapore Sales Deepen Mystery Around Megaspeed",
+      "url": "https://www.wsj.com/business/earnings/nvidias-disappearing-singapore-sales-deepen-mystery-around-megaspeed-7d483180",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50463421",
+        "name": "ea016",
+        "hn_url": "https://news.ycombinator.com/item?id=50463421"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 1,
+      "published_at": "2026-11-12T05:31:52+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50417283",
       "title": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
       "url": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no",
@@ -1219,6 +1276,120 @@
       "lang": "en"
     },
     {
+      "id": "hn:50417219",
+      "title": "Nvidia's Jensen Huang admits to affair with Chinese spy",
+      "url": "https://www.ft.com/content/1397e2f4-d7f5-4cbb-a4d9-04ecf661d1aa",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50417219",
+        "name": "zaki_01",
+        "hn_url": "https://news.ycombinator.com/item?id=50417219"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 1,
+      "published_at": "2026-11-08T21:02:39+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50417488",
+      "title": "U.S. Cleared Nvidia Chips to Chinese Firms with Empty Offices and Troubling Ties",
+      "url": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50417488",
+        "name": "porridgeraisin",
+        "hn_url": "https://news.ycombinator.com/item?id=50417488"
+      },
+      "duration_sec": null,
+      "views": 12,
+      "comments": 0,
+      "published_at": "2026-11-08T21:28:06+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50460672",
+      "title": "Nvidia reportedly preparing to fire CEO Jensen Huang, amid of second affair",
+      "url": "https://www.rnz.co.nz/news/business/2553062/nvidia-reportedly-preparing-to-fire-ceo-jensen-huang-amid-of-second-affair",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50460672",
+        "name": "billybuckwheat",
+        "hn_url": "https://news.ycombinator.com/item?id=50460672"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 2,
+      "published_at": "2026-11-11T23:45:38+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50401589",
+      "title": "US believes Nvidia's Huang had romantic relationship with alleged Chinese spy",
+      "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50401589",
+        "name": "robbiet480",
+        "hn_url": "https://news.ycombinator.com/item?id=50401589"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 1,
+      "published_at": "2026-11-07T04:23:17+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50447605",
+      "title": "Alice Huang reportedly instrumental in securing over $7.5B of Nvidia imports",
+      "url": "https://www.tomshardware.com/tech-industry/policy/alice-huang-reportedly-instrumental-in-securing-over-usd7-5-billion-of-nvidia-ai-gpu-imports-during-three-year-relationship-with-jensen-huang-helped-move-240-000-banned-chips-into-china-mostly-h100-and-h200",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50447605",
+        "name": "sshah03",
+        "hn_url": "https://news.ycombinator.com/item?id=50447605"
+      },
+      "duration_sec": null,
+      "views": 11,
+      "comments": 0,
+      "published_at": "2026-11-10T23:07:26+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50459321",
+      "title": "Jensen Huang said to have had relationship with executive who reports to him",
+      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50459321",
+        "name": "louiereederson",
+        "hn_url": "https://news.ycombinator.com/item?id=50459321"
+      },
+      "duration_sec": null,
+      "views": 368,
+      "comments": 456,
+      "published_at": "2026-11-11T22:03:58+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50427486",
       "title": "Commerce Dept Inquiry into Megaspeed Halted After Nvdia Intervention",
       "url": "https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html",
@@ -1233,6 +1404,63 @@
       "views": 55,
       "comments": 6,
       "published_at": "2026-11-09T16:10:07+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50459679",
+      "title": "Jensen Huang had a second affair – with an employee",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50459679",
+        "name": "justswim",
+        "hn_url": "https://news.ycombinator.com/item?id=50459679"
+      },
+      "duration_sec": null,
+      "views": 49,
+      "comments": 51,
+      "published_at": "2026-11-11T22:29:27+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50455376",
+      "title": "Alice Huang helped move 240k banned chips into China, mostly H100 and H200",
+      "url": "https://www.tomshardware.com/tech-industry/policy/alice-huang-reportedly-instrumental-in-securing-over-usd7-5-billion-of-nvidia-ai-gpu-imports-during-three-year-relationship-with-jensen-huang-helped-move-240-000-banned-chips-into-china-mostly-h100-and-h200",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50455376",
+        "name": "CharlesW",
+        "hn_url": "https://news.ycombinator.com/item?id=50455376"
+      },
+      "duration_sec": null,
+      "views": 19,
+      "comments": 4,
+      "published_at": "2026-11-11T16:37:08+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50455721",
+      "title": "Tech Allies Rally Behind Jensen Huang, Calling Him Vital in AI Race (Gift Link)",
+      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-affair-nvidia-support.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50455721",
+        "name": "sjs382",
+        "hn_url": "https://news.ycombinator.com/item?id=50455721"
+      },
+      "duration_sec": null,
+      "views": 17,
+      "comments": 17,
+      "published_at": "2026-11-11T17:05:37+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

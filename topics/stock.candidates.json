@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-11T10:37:02.228526+00:00",
+  "fetched_at": "2026-11-12T10:51:10.812178+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,8 +10,8 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 14,
-    "HN · IPO": 23,
-    "HN · earnings": 2,
+    "HN · IPO": 24,
+    "HN · earnings": 1,
     "HN · Federal Reserve": 2,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
@@ -146,7 +146,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50315574"
       },
       "duration_sec": null,
-      "views": 54,
+      "views": 55,
       "comments": 79,
       "published_at": "2026-10-31T12:32:10+00:00",
       "summary": "",
@@ -223,7 +223,7 @@
       },
       "duration_sec": null,
       "views": 227,
-      "comments": 183,
+      "comments": 184,
       "published_at": "2026-11-05T17:11:15+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -261,7 +261,7 @@
       },
       "duration_sec": null,
       "views": 60,
-      "comments": 85,
+      "comments": 86,
       "published_at": "2026-11-10T12:49:32+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -534,6 +534,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50456668",
+      "title": "Anthropic says a key AI safety alarm has been triggered, days before its IPO",
+      "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50456668",
+        "name": "healsdata",
+        "hn_url": "https://news.ycombinator.com/item?id=50456668"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 12,
+      "published_at": "2026-11-11T18:23:31+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50251762",
       "title": "Anthropic Is the Most Ridiculous IPO of 2026 [pdf]",
       "url": "https://www.newconstructs.com/wp-content/uploads/2026/10/Anthropic-Is-The-Most-Ridiculous-IPO-of-2026.pdf",
@@ -702,25 +721,6 @@
       "published_at": "2026-11-01T08:09:48+00:00",
       "summary": "",
       "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50280197",
-      "title": "Alphabet Announces Third Quarter 2026 Results [pdf]",
-      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50280197",
-        "name": "mfiguiere",
-        "hn_url": "https://news.ycombinator.com/item?id=50280197"
-      },
-      "duration_sec": null,
-      "views": 82,
-      "comments": 57,
-      "published_at": "2026-10-28T20:11:55+00:00",
-      "summary": "",
-      "matched_keyword": "earnings",
       "lang": "en"
     },
     {
