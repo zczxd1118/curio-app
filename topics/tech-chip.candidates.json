@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-12T10:51:24.557711+00:00",
+  "fetched_at": "2026-11-13T10:47:09.297046+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,13 +10,13 @@
   "source_stats": {
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
-    "HN · TSMC": 0,
-    "HN · Nvidia": 12,
+    "HN · TSMC": 2,
+    "HN · Nvidia": 22,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 34,
+  "total": 46,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/how-novogenius-mcu-devices-are-reshaping-the-automotive-edge-node/",
+      "title": "How NovoGenius® MCU+ Devices Are Reshaping the Automotive Edge Node",
+      "url": "https://www.eetimes.com/how-novogenius-mcu-devices-are-reshaping-the-automotive-edge-node/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Christopher McGrady",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-13T10:41:03+00:00",
+      "summary": "NOVOSENSE NovoGenius MCU+ chips integrate analog, power, and drivers, adding intelligence to automotive edge nodes for motor control, sensing and lighting. The post How NovoGenius® MCU+ Devices Are Reshaping the Automotive Edge Node appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/jensen-resigns-over-second-affair/",
+      "title": "Jensen Resigns Over Second Affair",
+      "url": "https://www.eetimes.com/jensen-resigns-over-second-affair/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-12T20:48:35+00:00",
+      "summary": "Nvidia CEO’s second affair scandal in a week prompted his resignation, and the board is now searching for a new leader for the company. The post Jensen Resigns Over Second Affair appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/design-smarter-energy-harvesting-for-battery-free-and-low-maintenance-devices-in-safety-security-applications/",
+      "title": "Design Smarter – Energy Harvesting for Battery-Free and Low-Maintenance Devices in Safety & Security applications",
+      "url": "https://www.eetimes.com/design-smarter-energy-harvesting-for-battery-free-and-low-maintenance-devices-in-safety-security-applications/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nexperia",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-12T15:00:00+00:00",
+      "summary": "Battery-powered sensors and detectors underpin modern safety and security systems, yet they create a constant maintenance burden. Hundreds of devices need manual battery swaps, often in hard-to-reach places, interrupting reliability and raising costs.This document paper shows hardware and system designers how to power devices from ambient energy. It covers the full energy chain, offers a [&#8230;] The post Design Smarter &#8211; Energy Harvesting for Battery-Free and Low-Maintenance Devices in S...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/can-machines-see-a-sick-plant-before-a-farmer-can/",
+      "title": "Can Machines See a Sick Plant Before a Farmer Can?",
+      "url": "https://www.eetimes.com/can-machines-see-a-sick-plant-before-a-farmer-can/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-12T13:00:00+00:00",
+      "summary": "Soybean disease research shows the promise of hyperspectral imaging, while semiconductor advances could make spectral sensing affordable for farmers. The post Can Machines See a Sick Plant Before a Farmer Can? appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/connecting-ai-to-the-physical-world/",
       "title": "Connecting AI to the Physical World",
       "url": "https://www.eetimes.com/connecting-ai-to-the-physical-world/",
@@ -291,71 +359,41 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/chiplets-revolutionizing-design-velocity-with-artificial-chip-intelligence-aci/",
-      "title": "Chiplets: Revolutionizing Design Velocity with Artificial Chip Intelligence ACI",
-      "url": "https://www.eetimes.com/chiplets-revolutionizing-design-velocity-with-artificial-chip-intelligence-aci/",
-      "platform": "rss",
+      "id": "hn:50479721",
+      "title": "TSMC Hacked",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "AspenCore Events",
-        "feed_title": "EE Times"
+        "type": "hackernews",
+        "id": "50479721",
+        "name": "gmays",
+        "hn_url": "https://news.ycombinator.com/item?id=50479721"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-11T23:00:05+00:00",
-      "summary": "This session introduces Artificial Chip Intelligence (ACI®), a paradigm-shifting technology using a physics-informed foundation model designed to transform chip development from a manual labor-intensive process into a conversational, AI-driven workflow. The post Chiplets: Revolutionizing Design Velocity with Artificial Chip Intelligence ACI appeared first on EE Times.",
+      "views": 55,
+      "comments": 7,
+      "published_at": "2026-11-13T07:39:55+00:00",
+      "summary": "",
+      "matched_keyword": "TSMC",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/chiplets-panel-discussion-scaling-chiplets-without-breaking-the-system-where-are-the-limits/",
-      "title": "Chiplets: Panel Discussion: Scaling Chiplets Without Breaking the System – Where are the Limits?",
-      "url": "https://www.eetimes.com/chiplets-panel-discussion-scaling-chiplets-without-breaking-the-system-where-are-the-limits/",
-      "platform": "rss",
+      "id": "hn:50479703",
+      "title": "TSMC Has Been Hacked",
+      "url": "https://mlq.ai/news/tsmc-says-employee-personal-data-was-posted-online-from-a-cloud-providers-systems/",
+      "platform": "hackernews",
       "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "AspenCore Events",
-        "feed_title": "EE Times"
+        "type": "hackernews",
+        "id": "50479703",
+        "name": "pretext",
+        "hn_url": "https://news.ycombinator.com/item?id=50479703"
       },
       "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-11T22:39:24+00:00",
-      "summary": "As chiplet-based designs grow in scale and complexity, the technical challenges mount up as every layer of the system introduces new constraints. The post Chiplets: Panel Discussion: Scaling Chiplets Without Breaking the System &#8211; Where are the Limits? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/chiplets-panel-discussion-how-should-we-reimagine-the-design-flow-for-chiplet-scalability/",
-      "title": "Chiplets: Panel Discussion: How Should We Reimagine the Design Flow for Chiplet Scalability",
-      "url": "https://www.eetimes.com/chiplets-panel-discussion-how-should-we-reimagine-the-design-flow-for-chiplet-scalability/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "AspenCore Events",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-11T22:35:01+00:00",
-      "summary": "This panel discusses whether today’s design flows can scale to support reusable chiplets and multi-vendor integration, or whether more fundamental changes are needed. The post Chiplets: Panel Discussion: How Should We Reimagine the Design Flow for Chiplet Scalability appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/nxp-cto-lars-reger-on-physical-ai-robots-drones-and-trust/",
-      "title": "NXP CTO Lars Reger on Physical AI, Robots, Drones, and Trust",
-      "url": "https://www.eetimes.com/nxp-cto-lars-reger-on-physical-ai-robots-drones-and-trust/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-11T20:23:13+00:00",
-      "summary": "Explore NXP CTO Lars Reger’s view of physical AI beyond humanoids, from NavQ95 robot kits to edge trust, security, and geopolitics. The post NXP CTO Lars Reger on Physical AI, Robots, Drones, and Trust appeared first on EE Times.",
+      "views": 15,
+      "comments": 0,
+      "published_at": "2026-11-13T07:37:59+00:00",
+      "summary": "",
+      "matched_keyword": "TSMC",
       "lang": "en"
     },
     {
@@ -370,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50459703"
       },
       "duration_sec": null,
-      "views": 1048,
-      "comments": 1401,
+      "views": 1217,
+      "comments": 1640,
       "published_at": "2026-11-11T22:31:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -389,8 +427,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50418016"
       },
       "duration_sec": null,
-      "views": 984,
-      "comments": 1288,
+      "views": 987,
+      "comments": 1293,
       "published_at": "2026-11-08T22:20:09+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -416,6 +454,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50477231",
+      "title": "Nvidia employees petition to bring back Jensen Huang",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50477231",
+        "name": "lavendermon",
+        "hn_url": "https://news.ycombinator.com/item?id=50477231"
+      },
+      "duration_sec": null,
+      "views": 611,
+      "comments": 451,
+      "published_at": "2026-11-13T02:16:24+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50416801",
       "title": "Statement from Nvidia board of directors",
       "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
@@ -435,20 +492,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50293047",
-      "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
-      "url": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/",
+      "id": "hn:50467132",
+      "title": "Jensen Huang resigns as Nvidia CEO immediately",
+      "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50293047",
-        "name": "mgh2",
-        "hn_url": "https://news.ycombinator.com/item?id=50293047"
+        "id": "50467132",
+        "name": "ksec",
+        "hn_url": "https://news.ycombinator.com/item?id=50467132"
       },
       "duration_sec": null,
-      "views": 371,
-      "comments": 250,
-      "published_at": "2026-10-29T17:43:48+00:00",
+      "views": 375,
+      "comments": 14,
+      "published_at": "2026-11-12T13:56:11+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -473,6 +530,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50473190",
+      "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+      "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50473190",
+        "name": "jbredeche",
+        "hn_url": "https://news.ycombinator.com/item?id=50473190"
+      },
+      "duration_sec": null,
+      "views": 287,
+      "comments": 305,
+      "published_at": "2026-11-12T19:51:33+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50459776",
       "title": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
       "url": "https://twitter.com/watcherguru/status/2120645607866188008",
@@ -487,6 +563,25 @@
       "views": 225,
       "comments": 4,
       "published_at": "2026-11-11T22:36:35+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50467139",
+      "title": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
+      "url": "https://www.bbc.co.uk/news/live/c6zjry11v8w1t",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50467139",
+        "name": "cognoboffin",
+        "hn_url": "https://news.ycombinator.com/item?id=50467139"
+      },
+      "duration_sec": null,
+      "views": 168,
+      "comments": 5,
+      "published_at": "2026-11-12T13:56:38+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -549,6 +644,82 @@
       "lang": "en"
     },
     {
+      "id": "hn:50467191",
+      "title": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+      "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50467191",
+        "name": "sonabinu",
+        "hn_url": "https://news.ycombinator.com/item?id=50467191"
+      },
+      "duration_sec": null,
+      "views": 72,
+      "comments": 2,
+      "published_at": "2026-11-12T14:00:54+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50416679",
+      "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50416679",
+        "name": "specialp",
+        "hn_url": "https://news.ycombinator.com/item?id=50416679"
+      },
+      "duration_sec": null,
+      "views": 43,
+      "comments": 11,
+      "published_at": "2026-11-08T20:14:16+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50424604",
+      "title": "Nvidia's China Problem [pdf]",
+      "url": "https://culperresearch.com/wp-content/uploads/2026/05/Culper_NVDA_5-13-2026.pdf",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50424604",
+        "name": "Erikun",
+        "hn_url": "https://news.ycombinator.com/item?id=50424604"
+      },
+      "duration_sec": null,
+      "views": 42,
+      "comments": 17,
+      "published_at": "2026-11-09T12:20:45+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50467087",
+      "title": "Jensen Huang resigns",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50467087",
+        "name": "lldb",
+        "hn_url": "https://news.ycombinator.com/item?id=50467087"
+      },
+      "duration_sec": null,
+      "views": 3592,
+      "comments": 3160,
+      "published_at": "2026-11-12T13:52:29+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50459321",
       "title": "Jensen Huang said to have had relationship with executive who reports to him",
       "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
@@ -560,9 +731,47 @@
         "hn_url": "https://news.ycombinator.com/item?id=50459321"
       },
       "duration_sec": null,
-      "views": 368,
-      "comments": 456,
+      "views": 408,
+      "comments": 526,
       "published_at": "2026-11-11T22:03:58+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50471621",
+      "title": "Singapore Says U.S. Not Helpful on Investigation into Suspected Spy's Company",
+      "url": "https://www.nytimes.com/2026/11/12/business/nvidia-megaspeed-alice-huang.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50471621",
+        "name": "tedd4u",
+        "hn_url": "https://news.ycombinator.com/item?id=50471621"
+      },
+      "duration_sec": null,
+      "views": 174,
+      "comments": 60,
+      "published_at": "2026-11-12T18:14:18+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50473868",
+      "title": "Jensen Huang Third Affair Allegations Revealed",
+      "url": "https://www.forbes.com/sites/alisondurkee/2026/11/12/jensen-huang-had-a-third-affair-with-another-nvidia-employee-report-says/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50473868",
+        "name": "FinnLobsien",
+        "hn_url": "https://news.ycombinator.com/item?id=50473868"
+      },
+      "duration_sec": null,
+      "views": 58,
+      "comments": 2,
+      "published_at": "2026-11-12T20:36:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -582,6 +791,25 @@
       "views": 55,
       "comments": 6,
       "published_at": "2026-11-09T16:10:07+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50459679",
+      "title": "Jensen Huang had a second affair – with an employee",
+      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50459679",
+        "name": "justswim",
+        "hn_url": "https://news.ycombinator.com/item?id=50459679"
+      },
+      "duration_sec": null,
+      "views": 52,
+      "comments": 57,
+      "published_at": "2026-11-11T22:29:27+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

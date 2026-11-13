@@ -2,17 +2,17 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-12T10:51:10.812178+00:00",
+  "fetched_at": "2026-11-13T10:46:55.995704+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 14,
+    "HN · stock market": 15,
     "HN · IPO": 24,
     "HN · earnings": 1,
-    "HN · Federal Reserve": 2,
+    "HN · Federal Reserve": 1,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
@@ -261,7 +261,7 @@
       },
       "duration_sec": null,
       "views": 60,
-      "comments": 86,
+      "comments": 88,
       "published_at": "2026-11-10T12:49:32+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -284,6 +284,44 @@
       "published_at": "2026-11-06T01:11:40+00:00",
       "summary": "",
       "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50467092",
+      "title": "Jensen Huang resigning effective immediately",
+      "url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-ceo-03al5m45ne1p.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50467092",
+        "name": "chrisss395",
+        "hn_url": "https://news.ycombinator.com/item?id=50467092"
+      },
+      "duration_sec": null,
+      "views": 27,
+      "comments": 23,
+      "published_at": "2026-11-12T13:52:48+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50465829",
+      "title": "Anthropic IPO",
+      "url": "https://ipo.anthropic.com/us/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50465829",
+        "name": "josephljohnston",
+        "hn_url": "https://news.ycombinator.com/item?id=50465829"
+      },
+      "duration_sec": null,
+      "views": 938,
+      "comments": 869,
+      "published_at": "2026-11-12T11:46:41+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
       "lang": "en"
     },
     {
@@ -317,7 +355,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50307219"
       },
       "duration_sec": null,
-      "views": 326,
+      "views": 327,
       "comments": 297,
       "published_at": "2026-10-30T17:27:25+00:00",
       "summary": "",
@@ -491,25 +529,6 @@
       "views": 32,
       "comments": 2,
       "published_at": "2026-10-20T14:50:08+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50071744",
-      "title": "Sprout Pi Mainboard – A modern, RP2350-powered motherboard for iPods",
-      "url": "https://www.crowdsupply.com/certain-things/sprout-pi-mainboard",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50071744",
-        "name": "esskay",
-        "hn_url": "https://news.ycombinator.com/item?id=50071744"
-      },
-      "duration_sec": null,
-      "views": 21,
-      "comments": 1,
-      "published_at": "2026-10-13T13:49:44+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -724,41 +743,22 @@
       "lang": "en"
     },
     {
-      "id": "hn:50295611",
-      "title": "Reddit will force everyone to log in",
-      "url": "https://www.theverge.com/tech/1022571/reddit-login-requirement-q3-2026-earnings",
+      "id": "hn:50463421",
+      "title": "Nvidia's Disappearing Singapore Sales Deepen Mystery Around Megaspeed",
+      "url": "https://www.wsj.com/business/earnings/nvidias-disappearing-singapore-sales-deepen-mystery-around-megaspeed-7d483180",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50295611",
-        "name": "timpera",
-        "hn_url": "https://news.ycombinator.com/item?id=50295611"
+        "id": "50463421",
+        "name": "ea016",
+        "hn_url": "https://news.ycombinator.com/item?id=50463421"
       },
       "duration_sec": null,
-      "views": 33,
-      "comments": 6,
-      "published_at": "2026-10-29T20:43:17+00:00",
+      "views": 22,
+      "comments": 2,
+      "published_at": "2026-11-12T05:31:52+00:00",
       "summary": "",
       "matched_keyword": "earnings",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50082283",
-      "title": "US Says Chinese Hackers Attacked DOJ, NASA, Federal Reserve, Senate",
-      "url": "https://www.usatoday.com/story/news/politics/2026/08/26/chinese-hackers-cyberattack-us-government/91473585007/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50082283",
-        "name": "gmays",
-        "hn_url": "https://news.ycombinator.com/item?id=50082283"
-      },
-      "duration_sec": null,
-      "views": 13,
-      "comments": 9,
-      "published_at": "2026-10-14T04:09:23+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
       "lang": "en"
     },
     {
