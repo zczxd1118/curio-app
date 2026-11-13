@@ -1,284 +1,222 @@
 {
-  "date": "2026-11-12",
-  "intro": "今天最重要的信号只有一个：Nvidia 董事会据报准备罢免黄仁勋，股价自丑闻爆发以来已跌 20%，国会要求闭门简报、FBI 介入。这不只是公司治理事件，而是整个 AI 算力叙事的定价锚在松动——同期 Nasdaq 已跌入回调区间、AI 相关股票被系统性抛售。另一条线是 Anthropic 在 IPO 前夕自曝\"关键 AI 安全警报已被触发\"，目标估值 1.4 万亿美元。两条线合起来看：AI 资本周期的风险溢价正在被重新定价。",
+  "date": "2026-11-13",
+  "intro": "今天只有一个真正的信号：黄仁勋因多起婚外情与疑似中国间谍牵连，即刻辞去 Nvidia CEO，CFO Colette Kress 临时接任。这不只是八卦——它同时压着 AI 算力供给、Nvidia 对开源的态度、以及 Anthropic 即将到来的 IPO 三条线。另一条值得盯的是 Google 一天内把 Gemini 4 Hydrogen 塞进搜索 AI Mode，模型迭代节奏已经快到按周计。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years",
+      "id": "rss:https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo",
+      "url": "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo",
       "source": "Tom's Hardware",
       "stars": 5,
-      "title": "Nvidia 董事会据报准备罢免黄仁勋：第二段婚外情曝光，股价自丑闻以来跌 20%，33 年唯一 CEO 面临下台",
-      "lead": "WSJ 与多家媒体同步报道，Nvidia 董事会正就黄仁勋的去留召开紧急会议，最早周三晚间可能做出决定。触发点是第二段婚外情——对象是向他直接汇报的 Nvidia 高管，此前他已承认与一名被指为中国情报人员的女性有染。股价自丑闻爆发以来累计下跌约 20%，公司 33 年来没有继任计划。",
+      "title": "黄仁勋即刻辞去 Nvidia CEO，CFO Colette Kress 临时接任，丑闻牵出疑似中国间谍",
+      "lead": "Nvidia 董事会 11 月 12 日宣布黄仁勋辞去总裁、CEO 及董事职务，立即生效，CFO Colette Kress 出任临时 CEO。触发点是 Reuters 报道的第三段与 Nvidia 员工的婚外情，其中一人 Alice Huang 被指涉嫌为中国走私数十万颗受限芯片。这是 2026 年 AI 硬件叙事里最大的一次单点断裂，不是人事八卦。",
       "confirmed": [
-        "WSJ 报道 Nvidia 董事会准备罢免 CEO 黄仁勋，最早周三晚间决定",
-        "第二段婚外情对象为向其直接汇报的 Nvidia 高管，并涉掩盖尝试",
-        "股价自丑闻爆发以来累计下跌约 20%",
-        "黄仁勋任 Nvidia CEO 已 33 年，公司无公开继任计划",
-        "美国众议院三个委员会要求其就\"防范外国对手间谍的安全协议\"做闭门简报，否则发传票",
-        "FBI 已介入调查，TechCrunch 与 Ars Technica 均确认董事会紧急磋商"
+        "Nvidia 官方声明确认黄仁勋辞去 President、CEO 与董事会成员，即刻生效",
+        "CFO Colette Kress 被任命为临时 CEO，董事会已启动新 CEO 搜寻",
+        "Reuters 报道其涉及第三段与 Nvidia 员工的婚外情，前两段已公开",
+        "Alice Huang 被指与 Nvidia 最大中国竞争对手有关联，曾在新加坡被拘留问询",
+        "黄仁勋已同意就相关事项赴国会作证，多名议员此前威胁发传票",
+        "民主党已对 Nvidia 中国销售及与 Trump 的往来发起第二轮国会调查"
       ],
       "judgment": [
-        "董事会是否真的投票罢免，还是以\"调查+留任\"收场，目前只有媒体转述，无公司正式公告",
-        "婚外情本身不构成罢免的法律依据，真正的杠杆是国家安全审查与治理失效",
-        "继任者人选完全空白，短期可能由 CFO 或 COO 临时接管，市场对\"无 succession plan\"的恐慌可能大于事件本身",
-        "若黄仁勋留任，国会与 FBI 的调查会持续压制估值；若离职，AI 算力采购的连续性会被重新评估"
+        "Kress 是过渡还是长期人选未定，Nvidia 战略连续性存疑",
+        "Alice Huang 的间谍指控目前是报道与推测，尚无司法结论",
+        "Nvidia 对 Hugging Face 的 129 亿美元收购与开源立场会不会转向，未知",
+        "AI 算力供给节奏是否受管理层动荡影响，短期看不到数据",
+        "黄仁勋若被 Musk 或其他公司接走，行业格局会怎么变，纯属猜测"
       ],
-      "implication": "你不需要交易 Nvidia，但需要理解一件事：过去两年所有 AI 产品的成本曲线都建立在\"算力持续降价+供应稳定\"的假设上。这个假设的锚现在在晃。做 content-curator 这类个人项目时，把模型调用做成可切换（Claude / Gemini / DeepSeek 都能跑）不是过度设计，是今天这种局面的基本对冲。"
+      "implication": "你手上任何依赖 Nvidia 生态的技术选型（CUDA、TensorRT、本地推理卡）短期不会变，但中期要开始留意开源权重与 Hugging Face 收购案的走向——那是黄仁勋个人推动的。做 content-curator 这类项目时，别把推理后端硬绑在单一厂商 SDK 上，抽象一层没坏处。"
     },
     {
       "rank": 2,
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-      "source": "TechCrunch",
+      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "source": "The Verge",
       "stars": 4,
-      "title": "OpenAI 单季营收首次突破 100 亿美元，环比 Q2 的 67 亿增长近 50%",
-      "lead": "据 TechCrunch 报道，OpenAI 季度营收首次跨过 100 亿美元，相比第二季度 67 亿美元增长近 50%。这个数字出现在 AI 股票被系统性抛售、Anthropic IPO 估值遭质疑的同一周，构成一个有意思的对照：终端付费需求仍在加速，但资本市场对 AI 公司的定价在收缩。",
+      "title": "Gemini 4 Hydrogen 上线搜索 AI Mode，专攻多段复杂问题与错别字理解",
+      "lead": "Google 把刚发布的 Gemini 4 Hydrogen 直接接进搜索 AI Mode，主打多部分问题、难懂的拼写错误和高度具体的请求。同一天还有 Antigravity 里的 Hydrogen + Orchestrator 组合。Google 现在把模型发布和产品落地压到同一天，迭代节奏已经按周算。",
       "confirmed": [
-        "OpenAI 单季营收首次突破 100 亿美元",
-        "上一季度（Q2）营收为 67 亿美元，环比增长近 50%",
-        "该数据由 TechCrunch 引述知情人士报道，非官方财报",
-        "同期 Nasdaq 跌入回调区间，AI 相关股票遭抛售"
+        "Gemini 4 Hydrogen 已接入 Google 搜索 AI Mode",
+        "官方称新模型更擅长多段问题、拼写错误与高度具体请求",
+        "同日 Antigravity 发布 Gemini 4 Hydrogen 与 Orchestrator 组合",
+        "Gemini 4 Carbon 此前在 Artificial Analysis Intelligence Index v5 上排名第一"
       ],
       "judgment": [
-        "100 亿是营收不是利润，OpenAI 的推理成本与算力支出是否同步扩大，报道未披露",
-        "增长中有多少来自 API/企业合同、多少来自 ChatGPT 订阅，结构不明",
-        "若算力成本随 Nvidia 供应波动上升，这个增速的可持续性存疑",
-        "与 Anthropic 1.4 万亿 IPO 估值对照，市场可能在重新分配\"谁配得上高倍数\""
+        "Hydrogen 相对 Carbon 的实际提升幅度，目前只有官方口径",
+        "Orchestrator 是否就是多 Agent 编排层，官方没细说",
+        "对开发者 API 的定价与限流会不会同步调整，未知"
       ],
-      "implication": "对你做 Agent 项目有直接含义：API 价格短期不会因为资本寒冬而上涨，反而可能继续打。现在是把重活（批量摘要、embedding、评测跑批）往 API 上搬的好窗口，别急着自建推理。同时留意 OpenAI 的收入结构披露——如果企业 API 占比在涨，说明 Agent 类产品的付费意愿是真的。"
+      "implication": "如果你在做 Agent 类项目，Hydrogen + Orchestrator 这套组合值得花半小时看官方文档——它大概率就是 Google 版的多 Agent 编排。别急着迁移，先看它和 MCP 那套的接口差异在哪。"
     },
     {
       "rank": 3,
       "domain": "股票",
-      "id": "hn:50456668",
-      "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html",
-      "source": "Yahoo Finance",
+      "id": "hn:50445463",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-10/anthropic-targets-1-4-trillion-valuation-in-ipo-video",
+      "source": "Bloomberg",
       "stars": 4,
-      "title": "Anthropic 在 IPO 前几天自曝\"关键 AI 安全警报已被触发\"，同时目标 1.4 万亿美元估值",
-      "lead": "Anthropic 在 IPO 前夕披露其内部一项\"关键 AI 安全警报\"已被触发，具体内容未公开。同一周 Bloomberg 报道其 IPO 目标估值 1.4 万亿美元，而 Michael Burry 公开称 Anthropic 是在\"拿存在性做赌注\"。S-1 文件里还警告公司可能\"即将\"接近递归自我改进（RSI）。",
+      "title": "Anthropic 瞄准 1.4 万亿美元估值 IPO，招股书自曝可能逼近递归自我改进",
+      "lead": "Anthropic 的 IPO 目标估值报到 1.4 万亿美元，同时招股书里罕见地警告公司可能\"imminently\"接近递归自我改进（RSI）。一边是史上最激进的估值，一边是安全红线自曝，Michael Burry 直接说这是在\"赌上存在\"。叠加黄仁勋辞职引发的 AI 抛售，这场 IPO 的定价环境已经变了。",
       "confirmed": [
-        "Anthropic 在 IPO 前披露一项\"关键 AI 安全警报\"被触发",
-        "Bloomberg 报道其 IPO 目标估值 1.4 万亿美元",
-        "S-1 文件警告公司可能\"imminently\"接近递归自我改进（RSI）",
-        "Michael Burry 公开质疑其估值逻辑",
-        "大型投资者对 1.5 万亿估值表示怀疑（WSJ）"
+        "Anthropic IPO 目标估值 1.4 万亿美元",
+        "招股书警告公司可能\"imminently\"接近递归自我改进",
+        "Michael Burry 公开称 Anthropic 在\"betting its existence\"",
+        "部分大型投资人对 1.5 万亿估值表示怀疑",
+        "IPO 前数日 Anthropic 称一项关键 AI 安全警报被触发"
       ],
       "judgment": [
-        "\"安全警报\"的具体触发条件与严重程度未披露，可能是治理披露义务，也可能是真实能力跃迁信号",
-        "在 IPO 前主动披露风险，更像合规动作而非产品事故，但市场会如何解读不确定",
-        "RSI 相关措辞出现在 S-1 里，法律上是风险提示，技术上是否成立无法外部验证",
-        "1.4 万亿估值在 AI 抛售周能否撑住，取决于承销商定价而非基本面"
+        "RSI 表述是法律免责还是真实技术判断，无法从外部验证",
+        "1.4 万亿估值在 AI 抛售背景下能否撑住，看下周定价",
+        "安全警报的具体内容未公开，影响面不明"
       ],
-      "implication": "这是本周最值得你读原文的一条——不是因为估值，而是因为一家前沿实验室在招股书里写\"可能接近递归自我改进\"。如果你在做 Agent 项目，去读 S-1 里关于能力评估与安全阈值的章节，比读任何\"Agent 教程\"都更能校准你对模型能力边界的判断。"
+      "implication": "这条对你的直接含义是：Anthropic 的模型路线和定价策略在 IPO 后会更强地受资本市场约束。如果你重度用 Claude Code，关注它 IPO 后 API 定价是否上调——这是最可能先变的地方。"
     },
     {
       "rank": 4,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-      "source": "The Verge",
-      "stars": 4,
-      "title": "美联航明确拒绝个人 AI Agent 代订机票，理由是隐私与监管",
-      "lead": "United 公开表示不会允许个人 AI 助手在其系统上代订机票，援引隐私与监管顾虑。公司称目前实际尝试用 Agent 订票的用户还不多，但选择提前划线。这是主流服务商第一次明确对\"Agent 代操作\"说不，对做 Agent 产品的人是重要的边界信号。",
+      "domain": "金融",
+      "id": "hn:50391456",
+      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+      "source": "NBC News",
+      "stars": 3,
+      "title": "Tesla 决定停产 Cybertruck，上市数年销量惨淡收场",
+      "lead": "Tesla 确认将逐步关停 Cybertruck 产线。这款车从发布到停产没跑通任何一个主流市场，同期 Tesla 与 SpaceX 两天内合计蒸发超 4200 亿美元市值。对做硬件产品的人来说，这是一个\"发布会声量不等于产品市场\"的完整案例。",
       "confirmed": [
-        "United 明确表示不允许个人 AI Agent 代订机票",
-        "官方理由是隐私与监管顾虑",
-        "公司称目前尝试用 Agent 订票的用户数量还不多",
-        "这是主流航空公司首次公开对 Agent 代操作表态"
+        "Tesla 确认将 wind down Cybertruck 生产",
+        "Cybertruck 上市数年销量持续低迷",
+        "Tesla 与 SpaceX 两日内合计市值蒸发超 4200 亿美元"
       ],
       "judgment": [
-        "\"监管顾虑\"具体指哪条法规未说明，可能是身份验证与授权链条问题",
-        "实际执行层面如何识别 Agent 流量（UA、行为指纹、支付信息）未披露",
-        "其他航司与平台是否会跟进形成行业惯例，目前未知",
-        "对 Agent 生态的长期影响取决于是否有标准化授权协议出现"
+        "停产是否连带影响 4680 电池产线，未明确",
+        "对 Tesla 整体产品路线的影响，短期看不清"
       ],
-      "implication": "你在做 content-curator 时迟早会遇到同类问题：Agent 去抓取/操作第三方服务，对方是否授权。这条新闻的价值在于它给了你一个判断框架——先问\"对方有没有明确的拒绝声明\"，再设计自动化路径。把 Agent 的对外操作做成\"可插拔的 connector + 显式授权记录\"，比事后补救便宜得多。"
-    },
-    {
-      "rank": 5,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/software/linux/linux-kernel-reviewer-steps-down-from-memory-management-duties-due-to-influx-of-ai-slop-patches-the-amount-of-time-wasted-on-ai-slop-is-already-too-much-and-were-only-at-the-start-of-this-volume-of-submissions-and-low-manpower-forces-the-step-back",
-      "url": "https://www.tomshardware.com/software/linux/linux-kernel-reviewer-steps-down-from-memory-management-duties-due-to-influx-of-ai-slop-patches-the-amount-of-time-wasted-on-ai-slop-is-already-too-much-and-were-only-at-the-start-of-this-volume-of-submissions-and-low-manpower-forces-the-step-back",
-      "source": "Tom's Hardware",
-      "stars": 4,
-      "title": "Linux 内核内存管理审阅者因 AI 生成的低质补丁洪流辞职：\"浪费的时间已经太多，而这只是开始\"",
-      "lead": "一位 Linux 内核内存管理子系统的审阅者宣布退出该职责，直接原因是 AI 生成的\"slop patch\"大量涌入，审阅成本远超人力承受。他的原话是\"浪费在 AI slop 上的时间已经太多，而我们才处在提交量的起点\"。这是开源治理层面第一次有人因 AI 生成内容而退出关键岗位。",
-      "confirmed": [
-        "Linux 内核内存管理子系统一位审阅者因 AI 生成补丁洪流辞职",
-        "当事人称\"浪费在 AI slop 上的时间已经太多\"",
-        "补丁提交量上升与审阅人力不足同时发生",
-        "该决定由 Tom's Hardware 报道，引述内核邮件列表"
-      ],
-      "judgment": [
-        "AI 生成补丁占提交总量的比例没有量化数据",
-        "内核社区是否会引入 AI 生成内容标识或提交门槛，尚未有提案",
-        "类似压力是否已扩散到其他子系统（网络、文件系统）未知",
-        "这是否会加速\"AI 审 AI\"的自动化 review 工具落地，方向不明"
-      ],
-      "implication": "这条对你做 content-curator 是直接的方法论警告：Agent 生成内容的瓶颈从来不在生成，在审阅与筛选。你的项目里\"候选池 → 选稿\"这一步就是人工审阅位，别把它全自动化掉。反过来，这也是一个产品机会——做\"AI 生成内容的去重与质量前置过滤\"，比再做一打生成工具更有价值。"
+      "implication": "如果你以后做硬件或实体 Side Project，这条值得当反面教材读：Cybertruck 的问题不在工程，在需求验证。vibe coding 做软件可以快速试错，硬件不行——先验证需求再投产能。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI 算力 / 半导体",
-      "title": "AMD Venice-X 最高 5.3 GHz，3D V-Cache 四年后重回数据中心",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amds-venice-x-maxes-out-family-at-5-3-ghz-returning-3d-v-cache-to-data-center-after-four-years-chips-target-hpc-workloads-with-pcie-6-0-and-1-6-tb-s-memory-bandwidth",
-      "source": "Tom's Hardware",
-      "one_liner": "2027 下半年才上市，但 PCIe 6.0 + 1.6TB/s 带宽的参数说明 AMD 在数据中心正面压 Nvidia 的意图，值得存档。"
+      "title": "TSMC 遭黑客攻击，员工个人数据被传到网上",
+      "url": "https://mlq.ai/news/tsmc-says-employee-personal-data-was-posted-online-from-a-cloud-providers-systems/",
+      "source": "MLQ.ai",
+      "one_liner": "TSMC 向 SEC 提交声明确认数据泄露，来源是云服务商系统。半导体供应链安全又添一例，但影响面目前限于员工数据。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "AMD 用 MEXT 技术在仅一半 DRAM 下保住 95% 服务器性能",
-      "url": "https://www.tomshardware.com/pc-components/cpus/amd-shares-how-it-can-retain-95-percent-of-server-performance-with-just-half-the-dram-sidestepping-memory-shortages-with-mext-tech-powers-over-100-servers-already-running-with-plans-to-expand-to-2-000-servers-in-2027",
+      "title": "Google 把 TPU 8i Max 与 8tx 拆成 Agent 与安全专用系统",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-adds-two-new-specialized-chips-for-ai-agents-and-security-to-8th-gen-tpu-lineup-tpu-8i-max-puts-two-chips-on-one-package-for-long-context-work-tpu-8tx-swaps-arm-hosts-for-amd-epyc",
       "source": "Tom's Hardware",
-      "one_liner": "内存短缺背景下的工程解法，已有 100+ 台服务器在跑、2027 扩到 2000 台，是少见的\"已落地\"数字。"
+      "one_liner": "TPU 8i Max 单封装双芯片打长上下文 Agent，8tx 换用 AMD EPYC 主机做机密推理。芯片开始按 Agent 负载做专用化，值得记一笔。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "有人用电压毛刺把 2500 美元矿卡刷成 2 万美元 A100 80GB",
-      "url": "https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules",
+      "title": "用 Claude AI 黑进 32 年老吉普，花 15 美元通过加州尾气检测",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/1994-jeep-cherokee-owner-hacks-32-year-old-car-with-claude-ai-to-pass-california-smog-tests-enthusiast-reverse-engineered-the-ancient-ecu-for-diagnostics-and-control",
       "source": "Tom's Hardware",
-      "one_liner": "硬件极客向，但说明 A100 的 VRAM/着色器模块是熔丝锁的——对理解 GPU 分级定价有启发，不是教程。"
+      "one_liner": "逆向老 ECU 加 Claude 辅助诊断，15 美元元件搞定。电子信息工程背景的人会喜欢这种\"AI 当副驾做逆向\"的真实案例。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "SpaceX 据报自研 Kessel 机架系统，72 颗 Nvidia Rubin GPU 上太空",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board",
-      "source": "Tom's Hardware",
-      "one_liner": "84 层 PCB 中板替代 NVLink 线缆，太空数据中心从概念走向具体设计，但目前只是\"report claims\"。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "SoftBank 取消 AI 数据中心燃气轮机订单，损失 37 亿美元",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/softbank-loses-usd3-7-billion-on-canceled-ai-data-center-gas-turbine-orders-days-after-denying-elon-musks-claim-it-was-defaulting-company-kills-reserved-13-gigawatts-of-power-more-than-six-hoover-dams-worth-of-capacity",
-      "source": "Tom's Hardware",
-      "one_liner": "取消 13GW 电力预留（相当于六个胡佛大坝），是 AI 数据中心建设退潮最硬的数字证据。"
+      "title": "Nvidia Vera CPU 评测：2TB/s 内存带宽，真正的 x86 对手",
+      "url": "https://www.storagereview.com/review/nvidia-vera-cpu-review",
+      "source": "StorageReview",
+      "one_liner": "Vera CPU 的实测数据出来了，2TB/s 带宽。在黄仁勋辞职的噪音里容易被埋，但对算力架构判断是硬信息。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Google DeepMind 发布 AlphaGenome 2，从细胞层面解析疾病",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
-      "source": "The Verge",
-      "one_liner": "DeepMind 在科学 AI 上的持续投入，与你偏好相关度低但属于\"AI 真正落地\"的少数方向。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Google 实验性产品 Tabletop：用 AI 生成定制协作应用",
-      "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
-      "source": "The Verge",
-      "one_liner": "生成式 UI 的又一次尝试，目前是 waitlist 实验，值得关注但还没有工程细节可学。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Databricks 给 CEO 造了个 AI Agent，专门说\"不加滤镜的真话\"",
-      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+      "title": "Hugging Face CEO 誓言继续为开源 AI 而战",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
       "source": "TechCrunch",
-      "one_liner": "1.2 万人公司的内部 Agent 实践，方向有意思（向上反馈），但报道偏故事、缺实现细节。"
+      "one_liner": "黄仁勋走后，Nvidia 对 Hugging Face 的 129 亿美元收购与开源立场成疑。开源权重生态的下一步看这条。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Meta 基础设施负责人 Santosh Janardhan 离职",
-      "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "title": "美联航以网络安全为由禁止 AI Agent 订票",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
       "source": "TechCrunch",
-      "one_liner": "2009 年入职的老将离开，在 AI 算力军备竞赛节点上的人事变动，值得记一笔。"
+      "one_liner": "第一家明确封杀 Agent 代订的航司。做 Agent 产品的人要留意：真实世界的反 Agent 防线正在建起来。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "英国 Fractile 完成 7.2 亿美元融资，押注专用 AI 芯片",
-      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "title": "Fireworks AI 被黑，黑客借此拿到 Notion 客户的聊天记录",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
       "source": "TechCrunch",
-      "one_liner": "Nvidia 动荡周里，欧洲 AI 芯片挑战者拿到大额融资，是算力供应链多元化的一个注脚。"
+      "one_liner": "两个月内第二次数据泄露，这次波及下游 Notion 用户。推理服务商的供应链安全是个被低估的坑。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Ben Thompson：Intel 与 AMD 财报分化，Intel 可能需要找回\"新（旧）路\"",
-      "url": "https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/",
+      "title": "Ben Thompson 访谈 Roblox CEO David Baszucki：AI 如何改造游戏创作",
+      "url": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
       "source": "Stratechery",
-      "one_liner": "Stratechery 的框架性分析，适合周末慢读，但今天不是最紧急的一条。"
+      "one_liner": "契合你想多看名人访谈的偏好。聊 AI 如何降低创作门槛、Roblox 怎么同时做聚合器与平台，深度够。"
     },
     {
-      "domain": "股票",
-      "title": "Nvidia 危机让公司治理专家\"拿起爆米花\"：没人见过这种局面",
-      "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+      "domain": "大厂 AI 动态",
+      "title": "Nebius 用 400 亿美元计划支出测试 neocloud 打法",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
       "source": "TechCrunch",
-      "one_liner": "黄仁勋事件的头条已选，这条是治理视角的补充，解释了为什么\"无继任计划\"比丑闻本身更致命。"
+      "one_liner": "靠客户预付款和贷款撑 400 亿扩张，微软数据中心延期让融资模式受质疑。neocloud 泡沫观察样本。"
     },
     {
       "domain": "股票",
-      "title": "Nasdaq 跌入回调区间，单日跌 4%",
+      "title": "纳斯达克跌入回调区间，AI 交易遭抛售",
       "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
       "source": "CNBC",
-      "one_liner": "AI 抛售的宏观背景，数字硬但已是上周事件，作为头条的注脚而非独立条目。"
+      "one_liner": "中期选举后 AI 板块集体撤退，纳指跌 4% 进回调。给黄仁勋辞职提供了背景板。"
     },
     {
       "domain": "股票",
-      "title": "Oracle 申请发行 200 亿美元新股与债券为 AI 建设融资",
+      "title": "Oracle 申请发 200 亿美元新股与债券为 AI 建设融资",
       "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
       "source": "CNBC",
-      "one_liner": "AI 资本开支从\"经营现金流\"转向\"举债\"的标志性动作，值得放进你的宏观观察清单。"
+      "one_liner": "AI 基建从\"利润再投\"转向\"发债融资\"，这是泡沫论者最爱引用的信号之一。"
     },
     {
       "domain": "金融",
-      "title": "Tesla 将停产 Cybertruck",
-      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-      "source": "NBC News",
-      "one_liner": "1163 分的高热度，但与你关注方向距离较远，作为\"制造业产品失败\"案例存档即可。"
-    },
-    {
-      "domain": "金融",
-      "title": "美国联邦预算赤字一年跳增 12%，接近 2 万亿美元",
+      "title": "美国联邦赤字一年跳增 12%，逼近 2 万亿美元",
       "url": "https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html",
       "source": "Yahoo Finance",
-      "one_liner": "AI 资本周期背后的利率环境变量，赤字扩张会压制长端利率下行空间，间接影响科技估值。"
+      "one_liner": "2026 财年赤字 1.992 万亿。AI 资本开支与财政扩张同时发生，利率环境对科技估值不友好。"
     },
     {
       "domain": "金融",
-      "title": "美国国土安全部下令联邦民事机构全面移除 DeepSeek",
-      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-      "source": "Reuters",
-      "one_liner": "10 月 19 日的旧闻，但作为\"模型地缘政治化\"的基线事实，做多模型路由时值得记住这条边界。"
+      "title": "Richard Posner 去世",
+      "url": "https://www.law.uchicago.edu/news/senior-lecturer-richard-posner-law-and-economics-pioneer-and-former-federal-appellate-judge",
+      "source": "University of Chicago Law",
+      "one_liner": "法经济学奠基人、前联邦上诉法官。科技监管与反垄断讨论里绕不开的名字，值得知道。"
     },
     {
       "domain": "AI",
-      "title": "Claude Code 桌面端全攻略：编程、设计、办公能力收进同一客户端",
+      "title": "Claude 桌面端全攻略：Code + Design + Cowork 收进同一个客户端",
       "url": "http://www.bilibili.com/video/av117580048108571",
       "source": "技术爬爬虾",
-      "one_liner": "11 月 8 日发布，讲 Claude Desktop 把 Code/Design/Cowork 合并 + Opus 5.5，是本周最贴近你工作流的一条，但形式是视频教程、密度不如文字。"
+      "one_liner": "Claude Code 从命令行进化成桌面完全体，配 Opus 5.5。你重度用 Claude Code，这条是本周最实用的产品更新解读。"
     },
     {
       "domain": "AI",
-      "title": "DeepSeek 开源的 Super Agent 是什么，真有用么",
-      "url": "http://www.bilibili.com/video/av117564076202051",
+      "title": "程序员鱼皮：第一个出海产品亏成狗了",
+      "url": "http://www.bilibili.com/video/av117602932235824",
       "source": "程序员鱼皮",
-      "one_liner": "11 月 5 日发布，讲 DeepSeek Harness 团队的 Super-agent 与常规定位差异，新颖度够但缺代码细节。"
+      "one_liner": "vibe coding 做出海产品、SEO 有自然流量但不赚钱的真实复盘。比成功学有用，契合你的 Side Project 工作流偏好。"
     },
     {
       "domain": "AI",
-      "title": "蚂蚁灵光 2.0 Personal AI 助理实操：9 件琐事交给它",
-      "url": "http://www.bilibili.com/video/av117591808940027",
-      "source": "GenJi是真想教会你",
-      "one_liner": "11 月 10 日最新，Personal AI 是本周产品热点，但本质是产品演示而非工程拆解。"
+      "title": "DeepSeek Harness 省 token 终极指南：8 个技巧",
+      "url": "http://www.bilibili.com/video/av117602210876639",
+      "source": "林粒粒呀",
+      "one_liner": "工程实践细节向，省 token 的具体技巧。做 Agent 项目控制成本时能直接用上。"
     },
     {
       "domain": "AI",
-      "title": "Skills 开发教程：WorkBuddy + Codex + DeepSeek Harness 实战",
-      "url": "http://www.bilibili.com/video/av117511429295044",
-      "source": "尚硅谷",
-      "one_liner": "Agent Skills 是你偏好方向，但尚硅谷的课程偏\"喂饭式\"，工程细节密度低，适合当索引而非正文。"
-    },
-    {
-      "domain": "AI",
-      "title": "40 分钟速通 Codex 深度教程",
-      "url": "http://www.bilibili.com/video/av117558925596398",
-      "source": "GenJi是真想教会你",
-      "one_liner": "11 月 5 日发布，安装+核心功能+实战案例，是 Codex 目前较完整的中文材料，但仍是教程类。"
+      "title": "用 Claude Skill 做高质量 PPT 的完整教程",
+      "url": "http://www.bilibili.com/video/av116474832361424",
+      "source": "阿西_出海",
+      "one_liner": "基于 Claude Design 的 Skill 从 0 到 1 装配流程，有完整实操。Skills 机制的真实用例，比概念讲解有用。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-11-12T13:37:04+0000"
+    "scored_at": "2026-11-13T12:28:55+0000"
   }
 }
