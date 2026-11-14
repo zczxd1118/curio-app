@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-13T10:47:04.097004+00:00",
+  "fetched_at": "2026-11-14T10:02:09.862863+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -14,13 +14,30 @@
     "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 1,
     "HN · inflation": 0,
-    "HN · Tesla": 3,
-    "HN · finance": 15,
+    "HN · Tesla": 6,
+    "HN · finance": 16,
     "HN · fed": 17
   },
   "subtopics": [],
-  "total": 64,
+  "total": 68,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/the-end-of-jensen/",
+      "title": "2026.46: The End of Jensen",
+      "url": "https://stratechery.com/2026/the-end-of-jensen/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-13T18:00:00+00:00",
+      "summary": "The best Stratechery content from the week of November 9, 2026, including the shocking demise of Jensen Huang; enterprise, consumer and Intel; and professional basketbal.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
       "title": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
@@ -175,20 +192,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://stratechery.com/2026/apple-earnings-memory-problems-the-hardware-company-regression/",
-      "title": "Apple Earnings, Memory Problems, The Hardware Company Regression",
-      "url": "https://stratechery.com/2026/apple-earnings-memory-problems-the-hardware-company-regression/",
+      "id": "rss:https://www.netinterest.co/p/a-bankers-guide-to-anthropic",
+      "title": "A Banker’s Guide to Anthropic",
+      "url": "https://www.netinterest.co/p/a-bankers-guide-to-anthropic",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-03T11:00:00+00:00",
-      "summary": "Apple's earnings suggest that the company's hardware business is doing better than ever, even in the face of memory challenges. Does the software story help or hurt?",
+      "published_at": "2026-11-13T18:00:43+00:00",
+      "summary": "Why the IPO is a credit event",
       "lang": "en"
     },
     {
@@ -515,23 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.netinterest.co/p/the-transfer-market",
-      "title": "The Transfer Market",
-      "url": "https://www.netinterest.co/p/the-transfer-market",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-19T15:27:46+00:00",
-      "summary": "Wise and the Business of Moving Money",
-      "lang": "en"
-    },
-    {
       "id": "hn:50142772",
       "title": "How the Fed Is Quietly Inflating the AI Bubble While Hiking Your Electric Bill",
       "url": "https://www.thebignewsletter.com/p/how-the-federal-reserve-secretly",
@@ -562,8 +562,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50391456"
       },
       "duration_sec": null,
-      "views": 1163,
-      "comments": 2118,
+      "views": 1164,
+      "comments": 2119,
       "published_at": "2026-11-06T12:13:51+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -582,7 +582,7 @@
       },
       "duration_sec": null,
       "views": 208,
-      "comments": 289,
+      "comments": 290,
       "published_at": "2026-11-08T16:07:42+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -603,6 +603,63 @@
       "views": 84,
       "comments": 66,
       "published_at": "2026-11-06T02:30:25+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50360067",
+      "title": "Tesla allegedly misled South Korean customers about automated-driving tech",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-misled-south-korean-customers-about-automated-driving-tech-consumer-group-2026-11-04/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50360067",
+        "name": "EA-3167",
+        "hn_url": "https://news.ycombinator.com/item?id=50360067"
+      },
+      "duration_sec": null,
+      "views": 29,
+      "comments": 10,
+      "published_at": "2026-11-04T00:19:50+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50394130",
+      "title": "Tesla Ends Cybertruck Production",
+      "url": "https://www.heise.de/en/news/Tesla-ends-Cybertruck-production-in-Texas-11515739.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50394130",
+        "name": "Betelbuddy",
+        "hn_url": "https://news.ycombinator.com/item?id=50394130"
+      },
+      "duration_sec": null,
+      "views": 26,
+      "comments": 1,
+      "published_at": "2026-11-06T16:05:54+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50492178",
+      "title": "Tesla Opens Cybercab Orders to 'Select Customers' at $29,990 Plus $299 per Month",
+      "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50492178",
+        "name": "iBelieve",
+        "hn_url": "https://news.ycombinator.com/item?id=50492178"
+      },
+      "duration_sec": null,
+      "views": 24,
+      "comments": 33,
+      "published_at": "2026-11-14T00:33:50+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -657,7 +714,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50385870"
       },
       "duration_sec": null,
-      "views": 524,
+      "views": 525,
       "comments": 234,
       "published_at": "2026-11-05T23:09:57+00:00",
       "summary": "",
@@ -698,6 +755,25 @@
       "views": 208,
       "comments": 203,
       "published_at": "2026-10-17T14:22:05+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50492993",
+      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50492993",
+        "name": "LopRabbit",
+        "hn_url": "https://news.ycombinator.com/item?id=50492993"
+      },
+      "duration_sec": null,
+      "views": 202,
+      "comments": 46,
+      "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1170,7 +1246,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50475829"
       },
       "duration_sec": null,
-      "views": 47,
+      "views": 52,
       "comments": 9,
       "published_at": "2026-11-12T23:19:53+00:00",
       "summary": "",

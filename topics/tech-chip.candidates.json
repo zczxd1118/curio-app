@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-13T10:47:09.297046+00:00",
+  "fetched_at": "2026-11-14T10:02:15.551376+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 22,
+    "HN · Nvidia": 25,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 46,
+  "total": 49,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/nova-scotia-bets-on-microelectronics-integration-not-chip-fabs/",
+      "title": "Nova Scotia Bets on Microelectronics Integration, Not Chip Fabs",
+      "url": "https://www.eetimes.com/nova-scotia-bets-on-microelectronics-integration-not-chip-fabs/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-13T18:00:00+00:00",
+      "summary": "Atlantic Canada’s coastal engineering cluster is turning specialized components and rugged hardware into exportable tools for subsea research, security, and resource markets. The post Nova Scotia Bets on Microelectronics Integration, Not Chip Fabs appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/newspace-grade-nor-flash-right-sized-reliability-for-space-missions/",
+      "title": "NewSpace-Grade NOR Flash: Right-Sized Reliability for Space Missions",
+      "url": "https://www.eetimes.com/newspace-grade-nor-flash-right-sized-reliability-for-space-missions/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Infineon Technologies",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-13T15:00:00+00:00",
+      "summary": "This paper first examines how total ionizing dose and single-event effects degrade NOR Flash. It focuses on the charge pumps, sense amplifiers, and control logic that often fail before the storage array does. It then presents a method for deriving radiation requirements from four mission inputs (orbit, lifetime, shielding, and risk tolerance) instead of applying [&#8230;] The post NewSpace-Grade NOR Flash: Right-Sized Reliability for Space Missions appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/electronica-2026-chipmakers-move-up-the-stack-as-data-centers-and-physical-ai-take-center-stage/",
+      "title": "electronica 2026: Chipmakers Move Up the Stack as Data Centers and Physical AI Take Center Stage",
+      "url": "https://www.eetimes.com/electronica-2026-chipmakers-move-up-the-stack-as-data-centers-and-physical-ai-take-center-stage/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-13T14:47:27+00:00",
+      "summary": "Explore how electronica 2026 shows chipmakers shifting to AI platforms as data centers, edge AI, and robotics reshape power and silicon. The post electronica 2026: Chipmakers Move Up the Stack as Data Centers and Physical AI Take Center Stage appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/how-novogenius-mcu-devices-are-reshaping-the-automotive-edge-node/",
       "title": "How NovoGenius® MCU+ Devices Are Reshaping the Automotive Edge Node",
       "url": "https://www.eetimes.com/how-novogenius-mcu-devices-are-reshaping-the-automotive-edge-node/",
@@ -308,57 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/automotive-tech-forum-the-current-state-of-sic-in-ev-design-and-how-its-evolving/",
-      "title": "Automotive Tech Forum: The Current State of Sic in EV Design and How It’s Evolving",
-      "url": "https://www.eetimes.com/automotive-tech-forum-the-current-state-of-sic-in-ev-design-and-how-its-evolving/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "AspenCore Events",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-11T23:34:28+00:00",
-      "summary": "Explore how 800V SiC MOSFETs boost EV range, charging, and performance—and see what next-gen designs make possible. The post Automotive Tech Forum: The Current State of Sic in EV Design and How It&#8217;s Evolving appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/automotive-tech-forum-lidar-is-key-to-safer-adas-and-autonomous-vehicles/",
-      "title": "Automotive Tech Forum: Lidar is Key to Safer ADAS and Autonomous Vehicles",
-      "url": "https://www.eetimes.com/automotive-tech-forum-lidar-is-key-to-safer-adas-and-autonomous-vehicles/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "AspenCore Events",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-11T23:28:21+00:00",
-      "summary": "This keynote explores how LiDAR is shaping the future of mobility by improving safety, reliability, and performance in autonomous systems. The post Automotive Tech Forum: Lidar is Key to Safer ADAS and Autonomous Vehicles appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/automotive-tech-forum-gan-building-blocks-in-evs-and-their-design-roadmap-in-2026-and-beyond/",
-      "title": "Automotive Tech Forum: GaN Building Blocks in EV’s and Their Design Roadmap in 2026 and Beyond",
-      "url": "https://www.eetimes.com/automotive-tech-forum-gan-building-blocks-in-evs-and-their-design-roadmap-in-2026-and-beyond/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "AspenCore Events",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-11T23:22:01+00:00",
-      "summary": "This keynote exmines GaN reliability and present the case for GaN being not only the most efficient solution, but also a necessary step for reducing system cost The post Automotive Tech Forum: GaN Building Blocks in EV&#8217;s and Their Design Roadmap in 2026 and Beyond appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50479721",
       "title": "TSMC Hacked",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
@@ -370,8 +370,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50479721"
       },
       "duration_sec": null,
-      "views": 55,
-      "comments": 7,
+      "views": 115,
+      "comments": 17,
       "published_at": "2026-11-13T07:39:55+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
@@ -389,8 +389,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50479703"
       },
       "duration_sec": null,
-      "views": 15,
-      "comments": 0,
+      "views": 23,
+      "comments": 4,
       "published_at": "2026-11-13T07:37:59+00:00",
       "summary": "",
       "matched_keyword": "TSMC",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50459703"
       },
       "duration_sec": null,
-      "views": 1217,
-      "comments": 1640,
+      "views": 1223,
+      "comments": 1643,
       "published_at": "2026-11-11T22:31:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -435,6 +435,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50477231",
+      "title": "Nvidia employees petition to bring back Jensen Huang",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50477231",
+        "name": "lavendermon",
+        "hn_url": "https://news.ycombinator.com/item?id=50477231"
+      },
+      "duration_sec": null,
+      "views": 801,
+      "comments": 666,
+      "published_at": "2026-11-13T02:16:24+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50362905",
       "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
       "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
@@ -454,20 +473,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50477231",
-      "title": "Nvidia employees petition to bring back Jensen Huang",
-      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "id": "hn:50493251",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50477231",
-        "name": "lavendermon",
-        "hn_url": "https://news.ycombinator.com/item?id=50477231"
+        "id": "50493251",
+        "name": "speckx",
+        "hn_url": "https://news.ycombinator.com/item?id=50493251"
       },
       "duration_sec": null,
-      "views": 611,
-      "comments": 451,
-      "published_at": "2026-11-13T02:16:24+00:00",
+      "views": 561,
+      "comments": 330,
+      "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -484,9 +503,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50416801"
       },
       "duration_sec": null,
-      "views": 493,
-      "comments": 421,
+      "views": 494,
+      "comments": 422,
       "published_at": "2026-11-08T20:26:43+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50473190",
+      "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+      "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50473190",
+        "name": "jbredeche",
+        "hn_url": "https://news.ycombinator.com/item?id=50473190"
+      },
+      "duration_sec": null,
+      "views": 454,
+      "comments": 482,
+      "published_at": "2026-11-12T19:51:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -511,6 +549,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50487864",
+      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50487864",
+        "name": "crescit_eundo",
+        "hn_url": "https://news.ycombinator.com/item?id=50487864"
+      },
+      "duration_sec": null,
+      "views": 353,
+      "comments": 194,
+      "published_at": "2026-11-13T18:40:44+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50348962",
       "title": "Nvidia – open-source auto-ontology",
       "url": "https://github.com/NVIDIA/auto-ontology",
@@ -530,25 +587,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50473190",
-      "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
-      "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50473190",
-        "name": "jbredeche",
-        "hn_url": "https://news.ycombinator.com/item?id=50473190"
-      },
-      "duration_sec": null,
-      "views": 287,
-      "comments": 305,
-      "published_at": "2026-11-12T19:51:33+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:50459776",
       "title": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
       "url": "https://twitter.com/watcherguru/status/2120645607866188008",
@@ -563,6 +601,25 @@
       "views": 225,
       "comments": 4,
       "published_at": "2026-11-11T22:36:35+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50492993",
+      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50492993",
+        "name": "LopRabbit",
+        "hn_url": "https://news.ycombinator.com/item?id=50492993"
+      },
+      "duration_sec": null,
+      "views": 202,
+      "comments": 46,
+      "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -644,6 +701,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50483391",
+      "title": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
+      "url": "https://www.youtube.com/watch?v=YYU_geUwQoA",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50483391",
+        "name": "belst",
+        "hn_url": "https://news.ycombinator.com/item?id=50483391"
+      },
+      "duration_sec": null,
+      "views": 76,
+      "comments": 13,
+      "published_at": "2026-11-13T13:45:06+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50467191",
       "title": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
       "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
@@ -663,39 +739,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50416679",
-      "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+      "id": "hn:50486489",
+      "title": "Arm boss Rene Haas approached in Nvidia CEO search",
+      "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50416679",
-        "name": "specialp",
-        "hn_url": "https://news.ycombinator.com/item?id=50416679"
+        "id": "50486489",
+        "name": "bazzmt",
+        "hn_url": "https://news.ycombinator.com/item?id=50486489"
       },
       "duration_sec": null,
-      "views": 43,
-      "comments": 11,
-      "published_at": "2026-11-08T20:14:16+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50424604",
-      "title": "Nvidia's China Problem [pdf]",
-      "url": "https://culperresearch.com/wp-content/uploads/2026/05/Culper_NVDA_5-13-2026.pdf",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50424604",
-        "name": "Erikun",
-        "hn_url": "https://news.ycombinator.com/item?id=50424604"
-      },
-      "duration_sec": null,
-      "views": 42,
-      "comments": 17,
-      "published_at": "2026-11-09T12:20:45+00:00",
+      "views": 66,
+      "comments": 78,
+      "published_at": "2026-11-13T17:10:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -712,8 +769,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50467087"
       },
       "duration_sec": null,
-      "views": 3592,
-      "comments": 3160,
+      "views": 4024,
+      "comments": 3428,
       "published_at": "2026-11-12T13:52:29+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -731,8 +788,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50459321"
       },
       "duration_sec": null,
-      "views": 408,
-      "comments": 526,
+      "views": 410,
+      "comments": 536,
       "published_at": "2026-11-11T22:03:58+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -750,8 +807,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50471621"
       },
       "duration_sec": null,
-      "views": 174,
-      "comments": 60,
+      "views": 182,
+      "comments": 62,
       "published_at": "2026-11-12T18:14:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -808,7 +865,7 @@
       },
       "duration_sec": null,
       "views": 52,
-      "comments": 57,
+      "comments": 58,
       "published_at": "2026-11-11T22:29:27+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
