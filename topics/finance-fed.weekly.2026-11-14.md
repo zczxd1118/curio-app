@@ -2,27 +2,27 @@
 
 > 今日 1 条头条 + 2 条备选
 
-_今天全网只有一个信号：Nvidia 的权力真空。Jensen Huang 因连续三起婚外情报道（其中一人被指涉中国情报）在 11/12 立即辞职，董事会已接触 Arm CEO Rene Haas，员工在内部论坛请愿要求复职，而 SemiAnalysis 追踪到 1.5GW 被禁 GPU 流入中国——这才是辞职的真正底色。第二个信号是 Gemini 4 系列一周内连发 Carbon/Hydrogen 两版并登顶 Artificial Analysis，Google 正在用发布节奏压人。_
+_今天全网只有一个真正的信号：Nvidia 的权力核心塌了。Jensen Huang 因连环丑闻即刻辞职，董事会已在接触 Arm CEO Rene Haas，员工内部请愿要求复职，SemiAnalysis 追踪到 1.5GW 禁运 GPU 流入中国——这不是八卦，是 AI 算力供应链和融资结构的重定价。第二个信号是 Gemini 4 Hydrogen 上线并接入 Antigravity，Google 把模型和 Agent 编排捆在一起卖。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Tesla 确认黑客窃取数千名司机的驾照信息，数据存在 Fireworks AI
+### 1. Tesla 确认将停产 Cybertruck
 
-**[金融]** · ⭐⭐⭐ · _Zack Whittaker_
+**[金融]** · ⭐⭐⭐ · _PLenz_
 
-AI 云服务商成了数据泄露的中间环节。对"把数据托管给 AI 基础设施"这件事是个具体警示。
+1164 分的热度，但信息增量有限——销量差是已知事实，停产只是确认。
 
-📺 [打开原文](https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/)
+📺 [打开原文](https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817)
 
 ---
 
 ## 📋 备选阅读
 
-- [Tesla 向"精选客户"开放 Cybercab 预订：29990 美元 + 每月 299 美元](https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/) —— Cybertruck 刚停产，Cybercab 就开卖。定价结构（车价+订阅）值得注意，但产品本身离你很远。
+- [Tesla 向"精选客户"开放 Cybercab 预订，29990 美元起 + 每月 299 美元](https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/) —— 定价结构（低首付 + 订阅）比车本身更值得看，是 Robotaxi 商业模式的第一次明牌。
   _iBelieve_
-- [美国联邦赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 宏观底色，解释为什么 AI 基建融资越来越依赖信用市场。放备选是因为它是背景而非事件。
+- [美国联邦赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 宏观背景板，解释了为什么利率和 AI 基建融资成本会同时承压。
   _ck2_
 
 ---

@@ -2,30 +2,30 @@
 
 > 今日 1 条头条 + 0 条备选
 
-_今天全网只有一个信号：Nvidia 的权力真空。Jensen Huang 因连续三起婚外情报道（其中一人被指涉中国情报）在 11/12 立即辞职，董事会已接触 Arm CEO Rene Haas，员工在内部论坛请愿要求复职，而 SemiAnalysis 追踪到 1.5GW 被禁 GPU 流入中国——这才是辞职的真正底色。第二个信号是 Gemini 4 系列一周内连发 Carbon/Hydrogen 两版并登顶 Artificial Analysis，Google 正在用发布节奏压人。_
+_今天全网只有一个真正的信号：Nvidia 的权力核心塌了。Jensen Huang 因连环丑闻即刻辞职，董事会已在接触 Arm CEO Rene Haas，员工内部请愿要求复职，SemiAnalysis 追踪到 1.5GW 禁运 GPU 流入中国——这不是八卦，是 AI 算力供应链和融资结构的重定价。第二个信号是 Gemini 4 Hydrogen 上线并接入 Antigravity，Google 把模型和 Agent 编排捆在一起卖。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Jensen Huang 即刻辞任 Nvidia CEO：三起婚外情报道 + 1.5GW 被禁 GPU 流入中国，董事会已接触 Rene Haas
+### 1. Jensen Huang 即刻辞任 Nvidia CEO，丑闻叠加出口管制调查，董事会已接触 Arm CEO Rene Haas
 
 **[电子信息与芯片]** · ⭐⭐⭐⭐⭐ · _lldb_
 
-11 月 12 日 Nvidia 董事会宣布 Jensen Huang 立即辞任 CEO，直接导火索是一周内连续曝出的三段与下属的关系，其中 Alice Huang 被美国情报部门怀疑为中国从事间谍活动。但更重的背景是 SemiAnalysis 追踪到约 1.5GW（约 150 万颗）受出口管制的 AI 加速器流入中国，而中国最强的几个模型正是用这些卡训出来的。这不是一次道德丑闻，是一次供应链治理事故。
+11 月 12 日 Reuters 首发辞职消息，AP 随后确认。触发点表面是两段（后追加第三段）与下属的关系，真正的引信是新加坡 Megaspeed 案：该公司被指向中国转运受限 GPU，而美国商务部对其的调查在 Nvidia 介入后中止。Hacker News 上这条拿到 4024 分，是本周全网最高热度。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 11 月 12 日 Huang 即刻辞任，Nvidia 董事会发布正式声明，AP 报道获 4024 分登顶 HN | Huang 辞职是丑闻驱动还是走私调查驱动的切割，目前无官方定性 |
-| Reuters 报道第二段关系，Forbes 报道第三段，均指向 Nvidia 内部员工 | Alice Huang 的间谍指控仍处"怀疑"阶段，CNN 称美方情报界内部尚无定论 |
-| 董事会已接触 Arm CEO、Nvidia 老将 Rene Haas 作为接任人选（FT / Tom's Hardware） | Rene Haas 是否接受、Arm 与 Nvidia 的竞业关系如何拆解，均未明朗 |
-| SemiAnalysis 称追踪到 1.5GW 被禁 AI 加速器流入中国，涉及 75 亿美元规模的走私网络 | 1.5GW 走私数字来自单一分析机构，Nvidia 与美商务部均未回应 |
-| 美国众议院民主党启动对 Nvidia 中国销售及与 Trump 往来的调查 | 新任 CEO 对开源（Hugging Face 收购、开放权重模型）的立场完全未知 |
-| Nvidia 员工在内部论坛发起请愿要求 Huang 复职，站外 standwithjensen.com 同步上线 |  |
+| Huang 于 11 月 12 日即刻辞去 Nvidia CEO 职务，董事会公开声明确认 | 辞职是主动还是被董事会逼退，各方说法不一，WSJ 称董事会"准备罢免" |
+| Reuters/NYT 报道其与至少两名直接汇报的下属存在关系，Forbes 追加第三起指控 | 丑闻与出口管制之间是否存在因果，目前只有分析师推断，无官方结论 |
+| 新加坡已就 Megaspeed 涉嫌转运受限 GPU 起诉一名高管，涉及 917 台服务器 | Rene Haas 是否接受、Arm 与 Nvidia 的客户关系如何处理，均未定 |
+| NYT 报道美国商务部对 Megaspeed 的调查在 Nvidia 干预后中止 | Nvidia 对开源（Hugging Face、开放权重模型）的承诺会不会转向，未知 |
+| Tom's Hardware 引 SemiAnalysis：约 1.5GW 禁运 AI 加速器已流入中国 | 1.5GW 这个数字来自单一分析机构，尚无独立核实 |
+| 董事会已接触 Arm CEO、前 Nvidia 老兵 Rene Haas 作为接任人选 |  |
 
 **📖 主编点评**
 
-你正在做的 content-curator 如果依赖任何 Nvidia 生态的推理服务或 GPU 云，这周该做一次供应商风险盘点——不是担心卡涨价，而是担心合规链条被重新审查。另外，Huang 的离开让 Nvidia 对开源的支持变成未知数，如果你在跟踪开放权重模型路线，接下来两个月要盯紧 Hugging Face 的动向，那是第一个会松动的螺丝。
+别把这条当八卦看。你如果近期要选算力供应商、或者简历上写"熟悉 GPU 生态"，现在必须能说清 Nvidia 的供应确定性和政策风险。建议你花 20 分钟读 Stratechery 的《The End of Jensen》和 TechCrunch 的时间线，把"人事—出口管制—融资"三条线串起来，这是面试里能立刻区分出层次的谈资。
 
 📺 [打开原文](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f)
 
