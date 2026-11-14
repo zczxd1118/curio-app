@@ -1,0 +1,179 @@
+# Curio 趋势雷达 · 2026-11-14
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
+
+_今天全网只有一个信号：Nvidia 的权力真空。Jensen Huang 因连续三起婚外情报道（其中一人被指涉中国情报）在 11/12 立即辞职，董事会已接触 Arm CEO Rene Haas，员工在内部论坛请愿要求复职，而 SemiAnalysis 追踪到 1.5GW 被禁 GPU 流入中国——这才是辞职的真正底色。第二个信号是 Gemini 4 系列一周内连发 Carbon/Hydrogen 两版并登顶 Artificial Analysis，Google 正在用发布节奏压人。_
+
+---
+
+## 🌟 电子信息与芯片
+
+### 1. Jensen Huang 即刻辞任 Nvidia CEO：三起婚外情报道 + 1.5GW 被禁 GPU 流入中国，董事会已接触 Rene Haas
+
+**[电子信息与芯片]** · ⭐⭐⭐⭐⭐ · _lldb_
+
+11 月 12 日 Nvidia 董事会宣布 Jensen Huang 立即辞任 CEO，直接导火索是一周内连续曝出的三段与下属的关系，其中 Alice Huang 被美国情报部门怀疑为中国从事间谍活动。但更重的背景是 SemiAnalysis 追踪到约 1.5GW（约 150 万颗）受出口管制的 AI 加速器流入中国，而中国最强的几个模型正是用这些卡训出来的。这不是一次道德丑闻，是一次供应链治理事故。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 11 月 12 日 Huang 即刻辞任，Nvidia 董事会发布正式声明，AP 报道获 4024 分登顶 HN | Huang 辞职是丑闻驱动还是走私调查驱动的切割，目前无官方定性 |
+| Reuters 报道第二段关系，Forbes 报道第三段，均指向 Nvidia 内部员工 | Alice Huang 的间谍指控仍处"怀疑"阶段，CNN 称美方情报界内部尚无定论 |
+| 董事会已接触 Arm CEO、Nvidia 老将 Rene Haas 作为接任人选（FT / Tom's Hardware） | Rene Haas 是否接受、Arm 与 Nvidia 的竞业关系如何拆解，均未明朗 |
+| SemiAnalysis 称追踪到 1.5GW 被禁 AI 加速器流入中国，涉及 75 亿美元规模的走私网络 | 1.5GW 走私数字来自单一分析机构，Nvidia 与美商务部均未回应 |
+| 美国众议院民主党启动对 Nvidia 中国销售及与 Trump 往来的调查 | 新任 CEO 对开源（Hugging Face 收购、开放权重模型）的立场完全未知 |
+| Nvidia 员工在内部论坛发起请愿要求 Huang 复职，站外 standwithjensen.com 同步上线 |  |
+
+**📖 主编点评**
+
+你正在做的 content-curator 如果依赖任何 Nvidia 生态的推理服务或 GPU 云，这周该做一次供应商风险盘点——不是担心卡涨价，而是担心合规链条被重新审查。另外，Huang 的离开让 Nvidia 对开源的支持变成未知数，如果你在跟踪开放权重模型路线，接下来两个月要盯紧 Hugging Face 的动向，那是第一个会松动的螺丝。
+
+📺 [打开原文](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 2. Gemini 4 Hydrogen 发布，距 Carbon 登顶仅两周：Google 用发布节奏把模型迭代压进双周级
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _dvaplima_
+
+11 月 12 日 Google 发布 Gemini 4 Hydrogen，距离 Gemini 4 Carbon 拿下 Artificial Analysis Intelligence Index v5 第一名只过了两周。同一天 Antigravity 博客放出 Hydrogen + Orchestrator 的组合，11 日还有 Gemini Decisions API。这不是单点发布，是一条被压缩到双周节奏的模型流水线——Carbon 负责刷榜，Hydrogen 负责落地到搜索和 Agent 编排。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Gemini 4 Hydrogen 于 11 月 12 日发布，官方博客与 model card 同日上线 | Hydrogen 与 Carbon 的能力差异官方未给出清晰定位，可能只是不同优化方向的同代模型 |
+| Gemini 4 Carbon 于 10 月 28 日发布，10 月 29 日登上 Artificial Analysis Intelligence Index v5 第一 | Orchestrator 的具体编排机制（是否类似子 Agent 调度）文档尚不完整 |
+| Gemini 4 Hydrogen 已接入 Google 搜索 AI Mode，用于处理复杂查询（TechCrunch 11/12） | Decisions API 与 Orchestrator 是否共用一套抽象，目前只能从命名推测 |
+| Antigravity 平台同步上线 Hydrogen + Orchestrator 组合，指向多 Agent 编排 | 双周发布节奏能否持续，取决于 Google 是否在为年底的 Gemini 5 做铺垫 |
+| 11 月 11 日发布 Gemini Decisions API，面向开发者工具场景 | AI Mode 接入 Hydrogen 后的实际回答质量提升幅度，尚无第三方评测 |
+| Gemini Omni 1.2 Flash 于 11 月 6 日发布，两周内共四个模型/API 动作 |  |
+
+**📖 主编点评**
+
+你如果在 content-curator 里做模型路由，现在该把"同代多版本"当成常态来设计——Carbon 刷榜、Hydrogen 落地、Omni Flash 走便宜路径，一个 provider 下挂多个模型 ID 是必须的。更值得看的是 Orchestrator：如果 Google 把子 Agent 编排做成平台能力，你自己写调度逻辑的价值会被稀释，先去读 Antigravity 那篇博客再决定要不要重写。
+
+📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/)
+
+---
+
+### 3. LangChain 估值冲到 30 亿美元，LangSmith 称有 7000 家客户：Agent 中间层没被模型厂吃掉
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Julie Bort_
+
+11 月 13 日 TechCrunch 报道 LangChain 完成新一轮融资，估值达 30 亿美元，核心资产是模型无关的 Agent 管理平台 LangSmith，官方称已有 7000 家客户。这个数字的意义在于：过去一年所有人都在说"模型厂会把 Agent 框架吃掉"，但 LangChain 用客户数和估值证明，跨模型的观测、评测、编排这层仍然有人愿意付钱。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| LangChain 估值达 30 亿美元，TechCrunch 11 月 13 日报道 | 30 亿估值对应的收入与增速未披露，7000 客户里付费比例不明 |
+| LangSmith 平台官方口径为 7000 家客户 | 模型厂（尤其 Google Orchestrator、OpenAI Dots）下沉是否会挤压 LangSmith 的观测层，尚无定论 |
+| 定位是 model and platform agnostic 的 Agent 管理与观测工具 | LangChain 早期以框架臃肿著称，LangSmith 能否摆脱这个品牌包袱仍待观察 |
+| 同期 Nebius 宣布 400 亿美元 AI 基建扩张计划，Agent 基础设施层整体在吸金 | 这轮融资的领投方与条款未公开 |
+
+**📖 主编点评**
+
+你做 content-curator 时如果自己写了 Agent 调度和日志，LangSmith 的定价页值得花十分钟看一遍——不是让你迁过去，而是拿它的功能清单当 checklist，看自己漏了哪块观测能力。更实际的判断是：Agent 中间层能撑到 30 亿估值，说明"可观测性"比"编排 DSL"更值钱，你简历上写项目时该强调前者。
+
+📺 [打开原文](https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/)
+
+---
+
+## 🌟 股票
+
+### 4. Net Interest：Anthropic 的 IPO 本质是一次信用事件，不是成长股故事
+
+**[股票]** · ⭐⭐⭐⭐ · _Marc Rubinstein_
+
+Marc Rubinstein 在 11 月 13 日的 Net Interest 里给了一个反直觉的框架：Anthropic 的 IPO 应该按信用事件来读，而不是按科技成长股来读。配合此前 Blackstone 说它 IPO 后可能拿不到投资级评级、TechCrunch 报道其将获得高收益级"垃圾"评级，这条线索串起来是——市场在为一场大规模、长周期、重资产的 AI 基建融资定价，而不是在为模型能力定价。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Net Interest 11 月 13 日发文，明确将 Anthropic IPO 定性为 credit event | "信用事件"框架是否成立，取决于 Anthropic 的算力承诺是表内负债还是采购意向 |
+| Blackstone 此前表示 Anthropic IPO 后可能无法获得投资级评级（FT，10/30） | 垃圾级评级对实际融资成本的影响幅度，尚无具体利差数据 |
+| TechCrunch 报道 Anthropic 预计将从信用评级机构获得高"垃圾"级评级 | RSI 警告写进 IPO 文件是风险披露还是叙事营销，解读空间很大 |
+| Anthropic IPO 文件中警告可能"即将"接近递归自我改进（RSI） | Amodei 的癌症言论与 IPO 路演的时间重合，是否为估值服务无法证实 |
+| Amodei 在路演中称 AI 十年内治愈癌症，遭医生群体质疑（Business Insider 11/13） |  |
+
+**📖 主编点评**
+
+这条不是让你去看 Anthropic 的股票（还没上市），而是给你一个读 AI 公司财报的新镜头：把算力采购承诺当负债看，把模型能力当营收看，两者错配就是风险。你做 side project 时如果考虑过用 Claude API 做长期依赖，这个框架提醒你——供应商的财务结构会传导到你的定价和可用性上。
+
+📺 [打开原文](https://www.netinterest.co/p/a-bankers-guide-to-anthropic)
+
+---
+
+## 🌟 AI
+
+### 5. Claude Code 从命令行进化成桌面客户端完全体：编程、Design、Cowork 三合一，配 Opus 5.5
+
+**[AI]** · ⭐⭐⭐⭐ · _技术爬爬虾_
+
+11 月 8 日技术爬爬虾发布的这条视频，是目前中文圈对 Claude Desktop 这轮更新最完整的拆解。核心事实是 Claude Code 已经不再是那个黑乎乎的命令行工具，它被收进桌面客户端，和 Claude Design、Claude Cowork 并列成三个能力面，底层挂 Opus 5.5。这条值得看的原因是它给了真实操作界面和配置路径，而不是概念介绍。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Claude Desktop 本轮更新把 Claude Code、Claude Design、Claude Cowork 收进同一客户端 | 桌面版是否完全替代 CLI 工作流，还是并行维护两套，官方未明确 |
+| Claude Code 从纯命令行形态转为桌面客户端的完整功能模块 | Cowork 的具体能力边界（是否等同通用办公 Agent）视频未完全覆盖 |
+| 底层模型为 Opus 5.5 | Opus 5.5 在桌面端的实际延迟与配额消耗，缺少量化数据 |
+| 视频发布于 11 月 8 日，含实际操作演示与配置流程 | 11/12 新规对国内用户的实际影响范围，目前只有 UP 主基于条款的解读 |
+| 同期 Anthropic 于 11 月 12 日生效新规，涉及地区/组织限制与 KYC 验证 |  |
+
+**📖 主编点评**
+
+你天天用 Claude Code，这轮变化直接影响你的工作流：如果桌面端把 Code 和 Design 打通，你做 content-curator 的 UI 部分可以不再切窗口。但先别急着迁——11/12 生效的新规涉及 KYC 和地区限制，先确认你的账号路径安全，再决定要不要把主力工作流压到桌面端。这条我特意选进来，是因为它是本周唯一带真实操作细节的 Claude Code 内容。
+
+📺 [打开原文](http://www.bilibili.com/video/av117580048108571)
+
+---
+
+## 📋 备选池
+
+### AI 算力 / 半导体
+
+- [Nvidia 被指通过投资 AI 初创公司来买自家 GPU，人为制造稀缺](https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus) —— 11/14 当天的新料，指控 Nvidia 用投资款回流买卡制造短缺。放备选是因为目前只有单一来源，等第二家跟进再升级。
+  _speckx_
+- [TSMC 确认员工个人数据从云服务商系统泄露](https://mlq.ai/news/tsmc-says-employee-personal-data-was-posted-online-from-a-cloud-providers-systems/) —— 不是产线被黑，是云上员工数据泄露。半导体供应链的安全面在扩大，但影响范围目前限于人事数据。
+  _pretext_
+- [Nvidia RTX Spark 加密固件让 Linux 上推理速度掉到 35%](https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop) —— 对本地跑模型的你直接相关：加密固件吃掉了三分之二的推理性能。值得看但样本是单机型。
+  _novaRom_
+
+### 大厂 AI 动态
+
+- [ChatGPT Wallet 上线：Dots Agent 可以替你下单结账](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/) —— Agent 支付闭环的第一个大厂版本，先对美国 Pro 订阅用户灰度。方向重要，但你现在用不上，放备选。
+  _Sarah Perez_
+- [Amazon 要建全球商品知识图谱，连自己不卖的商品也收录](https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search) —— 电商搜索的底层数据战。对你做 content-curator 的信息聚合思路有借鉴，但离落地还远。
+  _Stevie Bonifield_
+- [Google Gemini 把个人 Drive 文件和邮件路由给人工标注员](https://github.com/thisisme6598/gemini_files/) —— HN 737 分的爆料，附证据仓库。如果你把个人数据喂给 Gemini，这条该看，但证据仍在社区核验阶段。
+  _gf74918_
+- [Ben Thompson：Jensen 时代的终结](https://stratechery.com/2026/the-end-of-jensen/) —— Stratechery 本周合集，把 Huang 辞职放进企业/消费/Intel 三条线里读。深度够，但付费墙后内容无法核实细节。
+  _Ben Thompson_
+
+### 股票
+
+- [Nvidia 董事在 Huang 丑闻爆发前数周抛售近 10 亿美元股票](https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html) —— 时间点太巧，但"内幕交易"目前只是市场猜测。放备选等 SEC 是否介入。
+  _LopRabbit_
+- [Intel 股价崩塌加剧，3.5 万亿美元芯片股抛售蔓延](https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html) —— 11 月初的行情，配合中期选举后的 AI 交易退潮。数字大但已过一周，时效性下降。
+  _entryleveljobsc_
+
+### 金融
+
+- [Tesla 确认黑客窃取数千名司机的驾照信息，数据存在 Fireworks AI](https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/) —— AI 云服务商成了数据泄露的中间环节。对"把数据托管给 AI 基础设施"这件事是个具体警示。
+  _Zack Whittaker_
+- [Tesla 向"精选客户"开放 Cybercab 预订：29990 美元 + 每月 299 美元](https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/) —— Cybertruck 刚停产，Cybercab 就开卖。定价结构（车价+订阅）值得注意，但产品本身离你很远。
+  _iBelieve_
+- [美国联邦赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 宏观底色，解释为什么 AI 基建融资越来越依赖信用市场。放备选是因为它是背景而非事件。
+  _ck2_
+
+### AI
+
+- [DeepSeek 开源 Super Agent：和传统 Agent 有什么区别，真能提效吗](http://www.bilibili.com/video/av117564076202051) —— 11/5 发布，是本周中文圈少见的 DeepSeek Harness 团队新东西的拆解。没进头条是因为它偏评测而非工程细节。
+  _程序员鱼皮_
+- [Claude 11/12 新规封号潮：8 个封号原因 + 7 步自救指南](http://www.bilibili.com/video/av117603150337497) —— 基于官方条款原文的排查清单，对国内 Claude Code 用户直接有用。放备选是因为它是应对性内容，不是进展。
+  _IPdodo_
+- [用 Claude Skill 做高质量 PPT 的完整流程](http://www.bilibili.com/video/av116474832361424) —— Claude Design 的 Skill 实操，含从 0 到成品的完整路径。对你做项目展示有直接参考，但发布于 4 月，新颖度不足。
+  _阿西_出海_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
