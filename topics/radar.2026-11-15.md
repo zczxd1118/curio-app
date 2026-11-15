@@ -2,172 +2,176 @@
 
 > 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
 
-_今天最重要的信号只有一个：Jensen Huang 因与下属（其中一人被指向中国转运芯片的公司高管）的关系辞职，Nvidia 董事会已接触 Arm CEO Rene Haas 接任，同时美国财政部质疑 Nvidia 是否知情向空壳公司卖 GPU。第二个信号是 Anthropic IPO 定价逻辑被金融圈当成一次信用事件而非成长股故事。对你的含义：AI 硬件叙事进入「治理与合规风险」定价阶段，做 Agent 项目时别把模型/算力供应商假设成稳定不变的基础设施。_
+_今天只有一个真信号：黄仁勋因丑闻即刻辞任 Nvidia CEO，董事会已接触 Arm CEO Rene Haas，员工请愿、马斯克联署、亚洲政府表态、AI 初创融资预期下修全在同一周发生。第二条线是 Anthropic IPO 被信用评级机构按"高收益债"定价，1.4T 估值与"垃圾级"同时出现，说明这轮 AI 资本周期开始被当成信用事件而非成长故事来审。_
 
 ---
 
 ## 🌟 电子信息与芯片
 
-### 1. Jensen Huang 即刻辞任 Nvidia CEO，董事会已接触 Arm CEO Rene Haas 接任
+### 1. 黄仁勋即刻辞任 Nvidia CEO：丑闻、疑似对华芯片转运与继任者真空同时爆发
 
 **[电子信息与芯片]** · ⭐⭐⭐⭐⭐ · _lldb_
 
-11 月 12 日 Reuters 直播与 AP 同步确认 Huang 辞职生效，起因是与直接下属的关系，其中一人是新加坡 Megaspeed 高管——该公司正被调查是否向中国转运受限 GPU。三天内董事会已接触 Arm CEO、Nvidia 老将 Rene Haas。这不只是一桩丑闻，它把 Nvidia 的治理风险和中国出口管制两条线拧在了一起。
+11 月 12 日 Nvidia 宣布黄仁勋即刻辞任 CEO，起因是与其直接下属的恋情，随后 Reuters、NYT 追加报道称存在第二、第三段关系，其中一人所在公司 Megaspeed 正被新加坡与美国调查是否向中国转运受限 GPU。董事会已接触 Arm CEO Rene Haas 接任。这不是一次体面的交接，而是一家 4 万亿美元市值公司在一周内失去唯一对外叙事者。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Huang 于 11 月 12 日即刻辞任 CEO，Reuters 直播与 AP 均确认 | Huang 辞职是纯粹治理问题还是与出口管制调查直接挂钩，尚无官方定性 |
-| 涉事对象包括直接汇报的下属，其中一人为 Megaspeed 高管 | Rene Haas 是否接受、董事会是否已有正式人选，未确认 |
-| Megaspeed 正被新加坡与美国调查是否转运受限 GPU 至中国 | Megaspeed 是否真的完成转运、规模多大，调查仍在进行 |
-| Nvidia 董事会已接触 Arm CEO Rene Haas 讨论接任 | Nvidia 对华出货政策会否因此收紧，取决于新 CEO 与华盛顿的博弈 |
-| 美国财政部长 Bessent 公开质疑 Nvidia 是否知情向空壳公司出售受限 GPU | 员工请愿（11.5 万签名）与 Musk 等高管联署能否影响董事会决定，大概率不能 |
-| Nvidia 安全负责人已于 8 月悄然离职 |  |
+| 11 月 12 日 Nvidia 官方公告黄仁勋即刻辞任 CEO，董事会发布正式声明 | 辞任是"即刻生效"还是过渡期安排，官方措辞与后续是否保留董事席位尚不清晰 |
+| Reuters/NYT 报道其与直接下属存在关系，其中涉及 Megaspeed 高管，该公司正被新加坡起诉相关高管并接受美国调查 | Megaspeed 芯片转运调查与黄个人关系的因果关系，目前只有媒体关联报道，无监管定性 |
+| FT 报道董事会已接触 Arm CEO、前 Nvidia 高管 Rene Haas 讨论接任 | Rene Haas 是否真的会离开 Arm，Arm 与 Nvidia 存在竞争关系，接任存在治理障碍 |
+| 员工请愿与马斯克等科技高管联署要求复职，签名数已超 11.5 万 | Nvidia 的 CUDA 生态与客户关系是否因创始人离场而松动，短期看不到数据 |
+| TechCrunch 报道其离职后 AI 初创融资预期下修，VC 预计支票变小、估值走低 | 对中国出口管制的执行口径会不会因此收紧，取决于美国商务部后续动作 |
 
 **📖 主编点评**
 
-你不需要关心八卦，需要关心的是：Nvidia 的供货节奏、对华政策、对 AI 初创的投资（Huang 任内投了数百亿美元）都可能在新 CEO 上任后重排。如果你在做依赖 GPU 或依赖 Nvidia 生态投资的 side project，现在该把「供应商可能变」写进假设里，而不是当成常量。
+你不需要关心八卦，但要关心两件事：一是 Nvidia 的软件栈与开发者关系是否因换帅而变慢，这直接影响你本地跑模型的硬件选型；二是如果出口管制收紧，国内可用的推理卡供给会更紧，做 Agent 项目时把模型调用层做成可切换的抽象层，比押注单一供应商更划算。
 
 📺 [打开原文](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f)
 
 ---
 
-## 🌟 AI 算力 / 半导体
-
-### 2. 指控称 Nvidia 通过给 AI 初创注资、再让它们买自家 GPU 来人为制造稀缺
-
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _speckx_
-
-TechPowerUp 与 TechSpot 同日报道，多方指控 Nvidia 存在「循环融资」：投资 AI 初创，初创拿钱回头买 Nvidia GPU，从而维持高价与稀缺叙事。叠加此前「Nvidia 出现在去年 1/11 的超亿美元融资轮中」的统计，这条链条第一次被完整摆上台面。这是 AI 资本循环最脆弱的一环。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| 报道称 Nvidia 通过投资 AI 初创间接支撑自家 GPU 需求 | 「循环融资」是否构成违规，目前只是指控，无监管结论 |
-| 统计显示 Nvidia 参与了去年每 11 笔超 1 亿美元融资中的 1 笔 | 投资与采购之间是否存在明示或暗示的对赌，无公开证据 |
-| Nvidia 董事在丑闻曝光前数周卖出近 10 亿美元股票 | 若成立，对 Nvidia 收入确认方式的影响幅度未知 |
-| 美国财政部已就向空壳公司售卡一事公开施压 | 董事减持是否涉及内幕交易，尚在猜测阶段 |
-| $1140 万 Nvidia 硬件在加州至德州运输途中失踪 |  |
-
-**📖 主编点评**
-
-这条和头条一是同一根绳上的两端：Nvidia 的高增长有多少来自真实终端需求、多少来自自己投出去的钱回流，是接下来半年最值得盯的问题。你做 AI 产品时，如果成本模型建立在「GPU 会持续降价」上，最好准备一个不降价的版本。
-
-📺 [打开原文](https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus)
-
----
-
-## 🌟 大厂 AI 动态
-
-### 3. LangChain 估值冲到 30 亿美元，LangSmith 称已有 7000 家客户
-
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Julie Bort_
-
-LangChain 在 Nvidia 动荡、AI 股回调的同一周拿到 30 亿美元估值，卖点是模型与平台无关的 Agent 管理工具 LangSmith，客户数 7000。这条对做 Agent 的人是反向信号：基础设施层在挤泡沫，但「Agent 可观测/管理」这一层反而在被定价。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| LangChain 最新估值 30 亿美元 | 30 亿估值对应的收入与增速未披露，无法判断是否透支 |
-| LangSmith 平台客户数达 7000 家 | 7000 客户中付费比例与留存未知 |
-| 定位为模型无关、平台无关的 Agent 管理工具 | 模型无关的定位在 OpenAI/Google 自家 Agent 平台挤压下能撑多久，存疑 |
-| 融资发生在 AI 股整体回调、Nasdaq 进入修正区间的一周 |  |
-
-**📖 主编点评**
-
-你的 content-curator 项目正好落在「Agent 可观测 + 管理」这条被资本认可的赛道上。与其再写一个 Agent demo，不如把「运行记录、prompt 版本、失败重放」做成可展示的一小块——这正是 LangSmith 卖钱的地方，也是简历上最容易被追问的细节。
-
-📺 [打开原文](https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/)
-
----
-
-### 4. ChatGPT 上线 Wallet，让 Agent 直接替你下单结账
-
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Sarah Perez_
-
-OpenAI 推出 ChatGPT Wallet，Agent 可代用户完成购物与结账，先向美国 Pro 订阅用户限量开放。这是 Agent 从「读」跨到「花钱」的一步，也是权限与责任模型第一次被推到消费级产品里。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| ChatGPT Wallet 支持 Agent 代用户购物与结账 | 支付授权边界、退款与纠纷责任归属未公开细节 |
-| 首批仅限美国 Pro 订阅用户，限量开放 | 是否会开放给第三方 Agent 调用，未知 |
-| 属于 OpenAI 在 Agent 商业化上的新动作 | 对电商与支付渠道的实际冲击规模，短期难评估 |
-
-**📖 主编点评**
-
-这是你该拆开看的产品：Agent 拿到支付权限后，prompt 注入、工具调用越权、失败回滚都变成真金白银的问题。如果你在做 Agent 项目，把「危险动作需人工确认」做成一个可演示的环节，比多接十个工具更有说服力。
-
-📺 [打开原文](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/)
-
----
-
 ## 🌟 股票
 
-### 5. 银行家视角看 Anthropic IPO：这是一次信用事件，不是成长股故事
+### 2. Anthropic IPO 被当成信用事件定价：1.4T 估值目标对上"高收益债"评级
 
-**[股票]** · ⭐⭐⭐⭐ · _Marc Rubinstein_
+**[股票]** · ⭐⭐⭐⭐⭐ · _Marc Rubinstein_
 
-Marc Rubinstein 在 Net Interest 拆解 Anthropic IPO 的定价逻辑：市场关心的不是增长曲线，而是它作为信用主体能否撑住 1.4 万亿美元估值背后的资本开支。配合此前「IPO 后可能拿到高垃圾级评级」「Michael Burry 称其在赌命」的报道，这是一份少见的、把 AI 公司当债券看的分析。
+Marc Rubinstein 在 Net Interest 上把这轮 IPO 拆成一张银行家的资产负债表：Anthropic 目标 1.4 万亿美元估值，但 Blackstone 与信用评级机构给出的信号是投资级无望、按高收益债（垃圾级）定价。同时 Michael Burry 公开称其"拿存在性下注乐观预期"，IPO 文件里还写了可能"临近"递归自我改进的风险提示。这是第一次有前沿实验室的上市被资本市场用债务而非股权的框架来审。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic IPO 目标估值约 1.4 万亿美元 | 最终定价与首日表现未知 |
-| Blackstone 称其 IPO 后可能拿不到投资级评级 | 信用评级落地情况待观察 |
-| Michael Burry 公开称 Anthropic 在「赌其存在」 | 「接近 RSI」的表述是法律免责还是真实技术判断，无法从文件判断 |
-| 大投资者对 1.5 万亿估值表示怀疑 |  |
-| IPO 文件警告可能「即将」接近递归自我改进 |  |
+| FT 报道 Blackstone 称 Anthropic IPO 后可能拿不到投资级评级 | 1.4T 估值是否会被下调，取决于路演反馈，目前只有"目标"没有定价区间 |
+| TechCrunch 报道其预计获得信用机构的高收益（垃圾）级评级 | 把 RSI 写进 S-1 是风险披露还是叙事营销，监管与学界解读不一 |
+| Bloomberg 报道 IPO 目标估值 1.4 万亿美元，WSJ 报道大机构对该估值持怀疑 | 高收益评级会推高其算力采购的融资成本，但具体条款未公开 |
+| IPO 文件包含"可能临近递归自我改进（RSI）"的风险披露 | 这轮 AI 资本周期是否已从成长股切换到信用周期，需要看后续几家的定价 |
+| Michael Burry 公开质疑其估值逻辑 | 对下游 API 价格的影响方向不明：融资贵可能涨价，也可能为抢份额降价 |
 
 **📖 主编点评**
 
-如果你只读一篇关于 Anthropic IPO 的东西，读这篇而不是新闻稿。它教你的是一套看 AI 公司的框架：算力承诺是负债、收入是应收、估值是杠杆。这套框架你以后评估任何 AI 创业公司都用得上。
+如果你在做 content-curator 这类依赖 API 的项目，现在该做的是把成本模型写进 README：记录每千 token 的实际花费和可替换的备选模型。一旦头部实验室的融资成本上升，API 定价波动会比过去两年更频繁，能一键切换供应商的架构就是你的护城河。
 
 📺 [打开原文](https://www.netinterest.co/p/a-bankers-guide-to-anthropic)
 
 ---
 
+## 🌟 大厂 AI 动态
+
+### 3. ChatGPT Wallet 上线：Agent 可以直接替你下单结账，先对美国 Pro 用户灰度
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Sarah Perez_
+
+OpenAI 推出 ChatGPT Wallet，让 Agent 在用户授权下完成购物与结账，首批面向美国 Pro 订阅者灰度。这是 Agent 从"给建议"跨到"动钱"的一步，也是把支付凭证、商户协议、风控责任三件事同时塞进对话界面的第一次大规模尝试。对做 Agent 的人来说，这是工具调用链里最敏感的一环被官方接管。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| TechCrunch 报道 ChatGPT Wallet 已上线，支持 Agent 代用户购物与结账 | 支付授权是单次确认还是长期令牌，官方未披露细节 |
+| 首批灰度范围是美国 Pro 订阅用户 | 退款、争议与欺诈的责任归属在 OpenAI、商户、用户之间如何划分尚不清晰 |
+| 该功能建立在 ChatGPT 已有的工具调用与商户集成之上 | 是否会开放第三方 Agent 接入该钱包，目前只有第一方能力 |
+|  | 对独立开发者做电商 Agent 的空间是挤压还是放大，取决于 API 开放程度 |
+|  | 中国区用户短期无法使用，参考价值大于实用价值 |
+
+**📖 主编点评**
+
+你的 content-curator 不涉及支付，但这件事的方法论值得抄：把高危动作（花钱、发布、删数据）设计成"Agent 提议 + 人确认"的两段式，而不是让模型直接执行。这个模式现在有了官方背书，写进你的项目设计文档里，面试时是个能讲清楚的工程判断。
+
+📺 [打开原文](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 4. 研究者称通过权重统计分析判定 DeepSeek、Kimi 用了被禁的 Nvidia Blackwell 训练
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Bruno Ferreira_
+
+一项新研究用模型权重的统计特征反推训练硬件，称 DeepSeek、Kimi 等中国模型的权重与 Nvidia Blackwell 高度相关，即使用了受出口管制的芯片。方法本身比结论更值得看：它把"你用了什么卡"从供应链审计问题变成了可以从公开权重推断的技术问题。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Tom's Hardware 报道该研究对多个中国开源模型的权重做了统计分析 | 权重统计能否可靠区分 Blackwell 与 Hopper，学界尚无同行评审共识 |
+| 结论指向与 Nvidia Blackwell 硬件的高相关性 | 相关性不等于因果，也可能来自蒸馏或微调路径的间接痕迹 |
+| 同期马来西亚、新加坡加强了对 Nvidia AI 芯片转运的调查，新加坡已就 917 台服务器起诉一名中国籍高管 | 这一结论若被监管采信，会改变开源模型发布的风险评估方式 |
+|  | 对国内开发者使用这些开源权重是否有合规风险，目前无明确说法 |
+|  | 研究方法是否可复现，取决于是否放出代码与数据集 |
+
+**📖 主编点评**
+
+你做模型评测相关的内容时，可以关注这类"从产物反推过程"的方法论——它和 RAG 里做来源归因是同一类思路。如果代码开源，值得跑一遍看看结论稳不稳，这比转述结论有价值得多。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware)
+
+---
+
+## 🌟 金融
+
+### 5. Tesla 停产 Cybertruck，同周开放 Cybercab 预订：299 美元月费连马斯克都说贵
+
+**[金融]** · ⭐⭐⭐⭐ · _PLenz_
+
+Tesla 确认将逐步停产 Cybertruck，这款车从发布到停产没跑完一个完整产品周期。同一周它向"精选客户"开放 Cybercab 预订，售价 29990 美元外加每月 299 美元订阅费，附带地理围栏限制，马斯克本人称月费"太高"。一边砍掉失败产品，一边把未验证的自动驾驶当成订阅生意卖，这是 Tesla 叙事压力的直接体现。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| NBC News 与 heise 报道 Tesla 将结束 Cybertruck 生产，原因是销量不佳 | Cybercab 的实际交付时间与无人监管运营范围，官方未给出可验证时间表 |
+| Tesla 向精选客户开放 Cybercab 预订，定价 29990 美元 + 每月 299 美元 | 订阅制的法律性质是租车还是软件服务，影响保险与责任划分 |
+| 预订附带地理限制，The Verge 与 TechCrunch 均指出条款细则严格 | Cybertruck 停产后产线转产什么，未见官方说明 |
+| 马斯克公开表示 299 美元月费"太高" | 这一系列动作是否意味着 Tesla 从卖车转向卖出行服务，需要看后续财报口径 |
+| 韩国消费者机构指控 Tesla 在自动辅助驾驶宣传上误导用户 | 对自动驾驶供应链的订单影响方向不明 |
+
+**📖 主编点评**
+
+这条对你不是投资信号，是产品信号：把一个未验证的能力包装成订阅制，短期能拉收入，长期会透支信任。你做 content-curator 时同理——先把"每天稳定出 3 条靠谱的"做实，再谈自动化和个性化，别反过来。
+
+📺 [打开原文](https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817)
+
+---
+
 ## 📋 备选池
-
-### AI 算力 / 半导体
-
-- [TSMC 遭黑客攻击，已向 SEC 提交声明](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm) —— 全球最关键的晶圆厂被入侵，声明本身信息量有限，但供应链风险等级要上调。
-  _gmays_
-- [研究者称 DeepSeek、Kimi 等中国模型用了被禁的 Nvidia Blackwell 训练](https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware) —— 用模型权重统计特征反推训练硬件，方法本身比结论更值得看。
-  _Bruno Ferreira_
-- [两块 DGX Station 跑 vLLM，GLM-5.3 达 607.8 tok/s](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) —— 有具体吞吐数字和部署配置，是你喜欢的工程细节型内容，但偏厂商博客。
-  _wondersky_
-
-### 大厂 AI 动态
-
-- [Gemini 4 Hydrogen 与 Orchestrator 登陆 Google Antigravity](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/) —— Google 把新模型和编排层一起塞进自家 Agent 平台，值得试但今天头条位不够。
-  _jonbaer_
-- [Helen Toner 访谈：罢免 Sam Altman 的董事说我们仍不能信任 AI CEO](https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview) —— 契合你想多看名人访谈的偏好，长对话，但今天被 Nvidia 事件压过。
-  _Nilay Patel_
-- [Stratechery：The End of Jensen](https://stratechery.com/2026/the-end-of-jensen/) —— Ben Thompson 的周度综述，把 Huang 之死、企业与 Intel 串起来，值得周末读。
-  _Ben Thompson_
-- [LangChain 之外：llama-modchip 在 64GB 内存、无 GPU 上跑 284B DeepSeek](https://github.com/synchopate/llama-modchip) —— 纯 CPU 跑大模型的开源工程，有代码可跑，适合你周末动手验证。
-  _joshcsimmons_
-
-### 股票
-
-- [Nasdaq 跌入修正区间，AI 交易遭抛售](https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html) —— 中期选举后 AI 股单日重挫，是理解本周所有融资新闻的背景板。
-  _kristianp_
-- [Oracle 发新股与债券募资 200 亿美元，为 AI 基建输血](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 基建从股权融资转向债务融资的标志性动作，和 Anthropic 信用事件同一条线。
-  _smartmic_
-
-### 金融
-
-- [Tesla 开放 Cybercab 预订：29990 美元 + 每月 299 美元](https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/) —— 连 Musk 都说月费太高，细则里有地理限制，自动驾驶商业化的一次真实定价测试。
-  _iBelieve_
-- [Tesla 停产 Cybertruck](https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817) —— 销量不佳的收场，和 Cybercab 预订同日出现，构成 Tesla 产品线的对照。
-  _PLenz_
-- [美国联邦赤字一年跳增 12%，逼近 2 万亿美元](https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html) —— 利率与 AI 资本开支的共同背景，宏观层面值得知道一个数字。
-  _ck2_
 
 ### AI
 
-- [Claude 桌面端全攻略：Code、Design、Cowork 收进同一个客户端](http://www.bilibili.com/video/av117580048108571) —— 本周最新的 Claude 桌面端实操，含 Opus 5.5，密度尚可，但仍是教程而非新事实。
+- [Claude(Code) 桌面 APP 保姆级全攻略：Code、Design、Cowork 收进同一个客户端](http://www.bilibili.com/video/av117580048108571) —— 11 月 8 日的新内容，讲 Claude Code 从命令行进化到桌面完全体，附 Opus 5.5 实测，是本周最贴你工作流的一条。
   _技术爬爬虾_
-- [DeepSeek 新出的 Super Agent 是什么，真有用么](http://www.bilibili.com/video/av117564076202051) —— 对 DeepSeek Harness 开源 Super-agent 的实测解读，11 月 5 日发布，时效性好。
+- [DeepSeek 新出的 Super Agent 是什么？真有用么？](http://www.bilibili.com/video/av117564076202051) —— 11 月 5 日发布，讲 DeepSeek Harness 团队开源的 Super-agent 与传统 Agent 的差异，时效性好但深度一般。
   _程序员鱼皮_
-- [Vibe Coding 完不会获客？我用 AI 做了个营销数据库](http://www.bilibili.com/video/av117587245599812) —— 少见的「做完产品之后怎么办」视角，接 MCP + Gemini，适合你的 side project 参考。
-  _熠辉IndieDev_
+- [DeepSeek Harness 实测 vs Claude Code：同一模型下工具链差距有多大](http://www.bilibili.com/video/av117100337236191) —— 控制变量做得不错——同一个模型换 Harness 对比，能看出插件化与缓存命中对结果的影响，值得看。
+  _程序员晓刘_
+- [cccodroid：把 Claude Code 原生装进安卓设备，不 root 不刷机](http://www.bilibili.com/video/av117462439826705) —— 全程实机录屏，终端里 pkg install rust 现场打包 APK，工程细节密度高，适合当周末玩具。
+  _Grey-Oak_
+- [用 Claude Skill 做高质量 PPT 的完整流程](http://www.bilibili.com/video/av116474832361424) —— Claude Design 的 Skill 从装到跑出成品，属于 Skills 机制的实操样本，但发布时间偏早。
+  _阿西_出海_
+
+### AI 算力 / 半导体
+
+- [两台 DGX Station 跑 GLM-5.3，vLLM 下达到 607.8 tok/s](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) —— Nvidia 官方博客的部署细节，有具体吞吐数字和 vLLM 配置，属于你要的工程实践类内容。
+  _wondersky_
+- [律师用 8 张 V100 把 DeepSeek V4.1 Flash 从 2-bit 提到接近 NVFP4 精度](https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu) —— 个人自建推理服务器的真实调优记录，含加内存、换电源、精度取舍，比教程有信息量。
+  _Shane Downing_
+- [Nvidia RTX Spark 加密固件把 Linux 上的推理速度压到 35%](https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop) —— 如果你考虑用消费级卡做本地推理，这条是反面教材：固件层的限制可能直接砍掉三分之二性能。
+  _novaRom_
+
+### 大厂 AI 动态
+
+- [Helen Toner 访谈：开除 Sam Altman 的董事说我们仍然不能信任 AI CEO](https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview) —— 契合你"想多看 AI 名人访谈"的偏好，长对话形式，谈治理与信任，比教程稀缺。
+  _Nilay Patel_
+- [LangChain 估值达 30 亿美元，LangSmith 称有 7000 家客户](https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/) —— Agent 工具链公司的商业化数据点，7000 客户这个数字比估值更有参考价值。
+  _Julie Bort_
+- [Stratechery：The End of Jensen](https://stratechery.com/2026/the-end-of-jensen/) —— 本周最值得读的分析视角，把黄仁勋离场放进企业、消费与 Intel 的框架里谈，深度够。
+  _Ben Thompson_
+
+### 股票
+
+- [Nvidia 董事在丑闻爆发前数周卖出近 10 亿美元股票](https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html) —— 时间点敏感，但只有单一来源，属于需要等 SEC 文件确认的信息。
+  _LopRabbit_
+- [纳斯达克跌入回调区间，AI 交易在中选后集体撤退](https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html) —— 2.5 万亿美元市值蒸发，是这轮 AI 资本周期转向的宏观背景，但已过去一周多。
+  _kristianp_
+
+### 金融
+
+- [美国财政部长质疑 Nvidia 是否知情向空壳公司出售 AI GPU](https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that) —— Bessent 的表态把芯片转运从企业丑闻升级成监管议题，但尚未有正式指控。
+  _Anton Shilov_
+- [马来西亚拟用数据中心耗电量追查 AI GPU 走私](https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity) —— 用功耗反推算力是个有意思的监管思路，但文章自己也指出 TDP 波动会让它失效。
+  _Anton Shilov_
 
 ---
 

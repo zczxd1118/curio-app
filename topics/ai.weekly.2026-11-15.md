@@ -1,18 +1,18 @@
 # Curio · AI · 2026-11-15
 
-> 今日 1 条头条 + 2 条备选
+> 今日 1 条头条 + 4 条备选
 
-_今天最重要的信号只有一个：Jensen Huang 因与下属（其中一人被指向中国转运芯片的公司高管）的关系辞职，Nvidia 董事会已接触 Arm CEO Rene Haas 接任，同时美国财政部质疑 Nvidia 是否知情向空壳公司卖 GPU。第二个信号是 Anthropic IPO 定价逻辑被金融圈当成一次信用事件而非成长股故事。对你的含义：AI 硬件叙事进入「治理与合规风险」定价阶段，做 Agent 项目时别把模型/算力供应商假设成稳定不变的基础设施。_
+_今天只有一个真信号：黄仁勋因丑闻即刻辞任 Nvidia CEO，董事会已接触 Arm CEO Rene Haas，员工请愿、马斯克联署、亚洲政府表态、AI 初创融资预期下修全在同一周发生。第二条线是 Anthropic IPO 被信用评级机构按"高收益债"定价，1.4T 估值与"垃圾级"同时出现，说明这轮 AI 资本周期开始被当成信用事件而非成长故事来审。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Claude 桌面端全攻略：Code、Design、Cowork 收进同一个客户端
+### 1. Claude(Code) 桌面 APP 保姆级全攻略：Code、Design、Cowork 收进同一个客户端
 
 **[AI]** · ⭐⭐⭐ · _技术爬爬虾_
 
-本周最新的 Claude 桌面端实操，含 Opus 5.5，密度尚可，但仍是教程而非新事实。
+11 月 8 日的新内容，讲 Claude Code 从命令行进化到桌面完全体，附 Opus 5.5 实测，是本周最贴你工作流的一条。
 
 📺 [打开原文](http://www.bilibili.com/video/av117580048108571)
 
@@ -20,10 +20,14 @@ _今天最重要的信号只有一个：Jensen Huang 因与下属（其中一人
 
 ## 📋 备选阅读
 
-- [DeepSeek 新出的 Super Agent 是什么，真有用么](http://www.bilibili.com/video/av117564076202051) —— 对 DeepSeek Harness 开源 Super-agent 的实测解读，11 月 5 日发布，时效性好。
+- [DeepSeek 新出的 Super Agent 是什么？真有用么？](http://www.bilibili.com/video/av117564076202051) —— 11 月 5 日发布，讲 DeepSeek Harness 团队开源的 Super-agent 与传统 Agent 的差异，时效性好但深度一般。
   _程序员鱼皮_
-- [Vibe Coding 完不会获客？我用 AI 做了个营销数据库](http://www.bilibili.com/video/av117587245599812) —— 少见的「做完产品之后怎么办」视角，接 MCP + Gemini，适合你的 side project 参考。
-  _熠辉IndieDev_
+- [DeepSeek Harness 实测 vs Claude Code：同一模型下工具链差距有多大](http://www.bilibili.com/video/av117100337236191) —— 控制变量做得不错——同一个模型换 Harness 对比，能看出插件化与缓存命中对结果的影响，值得看。
+  _程序员晓刘_
+- [cccodroid：把 Claude Code 原生装进安卓设备，不 root 不刷机](http://www.bilibili.com/video/av117462439826705) —— 全程实机录屏，终端里 pkg install rust 现场打包 APK，工程细节密度高，适合当周末玩具。
+  _Grey-Oak_
+- [用 Claude Skill 做高质量 PPT 的完整流程](http://www.bilibili.com/video/av116474832361424) —— Claude Design 的 Skill 从装到跑出成品，属于 Skills 机制的实操样本，但发布时间偏早。
+  _阿西_出海_
 
 ---
 
