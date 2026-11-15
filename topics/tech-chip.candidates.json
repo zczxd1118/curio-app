@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-14T10:02:15.551376+00:00",
+  "fetched_at": "2026-11-15T10:38:04.670735+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 25,
+    "HN · Nvidia": 31,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 49,
+  "total": 55,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -408,9 +408,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50459703"
       },
       "duration_sec": null,
-      "views": 1223,
-      "comments": 1643,
+      "views": 1225,
+      "comments": 1646,
       "published_at": "2026-11-11T22:31:06+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50493251",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50493251",
+        "name": "speckx",
+        "hn_url": "https://news.ycombinator.com/item?id=50493251"
+      },
+      "duration_sec": null,
+      "views": 1074,
+      "comments": 638,
+      "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -428,7 +447,7 @@
       },
       "duration_sec": null,
       "views": 987,
-      "comments": 1293,
+      "comments": 1296,
       "published_at": "2026-11-08T22:20:09+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -446,8 +465,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50477231"
       },
       "duration_sec": null,
-      "views": 801,
-      "comments": 666,
+      "views": 815,
+      "comments": 691,
       "published_at": "2026-11-13T02:16:24+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -468,25 +487,6 @@
       "views": 617,
       "comments": 293,
       "published_at": "2026-11-04T08:46:29+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50493251",
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50493251",
-        "name": "speckx",
-        "hn_url": "https://news.ycombinator.com/item?id=50493251"
-      },
-      "duration_sec": null,
-      "views": 561,
-      "comments": 330,
-      "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -522,9 +522,47 @@
         "hn_url": "https://news.ycombinator.com/item?id=50473190"
       },
       "duration_sec": null,
-      "views": 454,
-      "comments": 482,
+      "views": 457,
+      "comments": 499,
       "published_at": "2026-11-12T19:51:33+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50501631",
+      "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+      "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50501631",
+        "name": "madihaa",
+        "hn_url": "https://news.ycombinator.com/item?id=50501631"
+      },
+      "duration_sec": null,
+      "views": 425,
+      "comments": 216,
+      "published_at": "2026-11-14T22:26:30+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50487864",
+      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50487864",
+        "name": "crescit_eundo",
+        "hn_url": "https://news.ycombinator.com/item?id=50487864"
+      },
+      "duration_sec": null,
+      "views": 383,
+      "comments": 214,
+      "published_at": "2026-11-13T18:40:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -544,25 +582,6 @@
       "views": 375,
       "comments": 14,
       "published_at": "2026-11-12T13:56:11+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50487864",
-      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
-      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50487864",
-        "name": "crescit_eundo",
-        "hn_url": "https://news.ycombinator.com/item?id=50487864"
-      },
-      "duration_sec": null,
-      "views": 353,
-      "comments": 194,
-      "published_at": "2026-11-13T18:40:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -617,8 +636,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50492993"
       },
       "duration_sec": null,
-      "views": 202,
-      "comments": 46,
+      "views": 217,
+      "comments": 55,
       "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -636,9 +655,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50467139"
       },
       "duration_sec": null,
-      "views": 168,
+      "views": 169,
       "comments": 5,
       "published_at": "2026-11-12T13:56:38+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50497155",
+      "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50497155",
+        "name": "wondersky",
+        "hn_url": "https://news.ycombinator.com/item?id=50497155"
+      },
+      "duration_sec": null,
+      "views": 138,
+      "comments": 68,
+      "published_at": "2026-11-14T14:09:25+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -682,6 +720,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50483391",
+      "title": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
+      "url": "https://www.youtube.com/watch?v=YYU_geUwQoA",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50483391",
+        "name": "belst",
+        "hn_url": "https://news.ycombinator.com/item?id=50483391"
+      },
+      "duration_sec": null,
+      "views": 80,
+      "comments": 14,
+      "published_at": "2026-11-13T13:45:06+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50363861",
       "title": "RTX 5090 Street Prices Top $9k as Nvidia GPU Costs Climb",
       "url": "https://aroundprague.cz/en/news/us/rtx-5090-street-prices-top-9-000-as-nvidia-gpu-costs-climb",
@@ -696,25 +753,6 @@
       "views": 78,
       "comments": 88,
       "published_at": "2026-11-04T11:02:23+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50483391",
-      "title": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
-      "url": "https://www.youtube.com/watch?v=YYU_geUwQoA",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50483391",
-        "name": "belst",
-        "hn_url": "https://news.ycombinator.com/item?id=50483391"
-      },
-      "duration_sec": null,
-      "views": 76,
-      "comments": 13,
-      "published_at": "2026-11-13T13:45:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -751,8 +789,65 @@
       },
       "duration_sec": null,
       "views": 66,
-      "comments": 78,
+      "comments": 82,
       "published_at": "2026-11-13T17:10:33+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50491690",
+      "title": "An open letter to the Nvidia Board of Directors",
+      "url": "https://standwithjensen.com/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50491690",
+        "name": "iLuddite",
+        "hn_url": "https://news.ycombinator.com/item?id=50491690"
+      },
+      "duration_sec": null,
+      "views": 49,
+      "comments": 46,
+      "published_at": "2026-11-13T23:34:06+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50424604",
+      "title": "Nvidia's China Problem [pdf]",
+      "url": "https://culperresearch.com/wp-content/uploads/2026/05/Culper_NVDA_5-13-2026.pdf",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50424604",
+        "name": "Erikun",
+        "hn_url": "https://news.ycombinator.com/item?id=50424604"
+      },
+      "duration_sec": null,
+      "views": 43,
+      "comments": 19,
+      "published_at": "2026-11-09T12:20:45+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50416679",
+      "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50416679",
+        "name": "specialp",
+        "hn_url": "https://news.ycombinator.com/item?id=50416679"
+      },
+      "duration_sec": null,
+      "views": 43,
+      "comments": 11,
+      "published_at": "2026-11-08T20:14:16+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -769,8 +864,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50467087"
       },
       "duration_sec": null,
-      "views": 4024,
-      "comments": 3428,
+      "views": 4045,
+      "comments": 3449,
       "published_at": "2026-11-12T13:52:29+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -789,7 +884,7 @@
       },
       "duration_sec": null,
       "views": 410,
-      "comments": 536,
+      "comments": 538,
       "published_at": "2026-11-11T22:03:58+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -807,8 +902,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50471621"
       },
       "duration_sec": null,
-      "views": 182,
-      "comments": 62,
+      "views": 185,
+      "comments": 64,
       "published_at": "2026-11-12T18:14:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -829,6 +924,25 @@
       "views": 58,
       "comments": 2,
       "published_at": "2026-11-12T20:36:59+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50498051",
+      "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50498051",
+        "name": "marginalia_nu",
+        "hn_url": "https://news.ycombinator.com/item?id=50498051"
+      },
+      "duration_sec": null,
+      "views": 57,
+      "comments": 39,
+      "published_at": "2026-11-14T15:58:57+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -865,7 +979,7 @@
       },
       "duration_sec": null,
       "views": 52,
-      "comments": 58,
+      "comments": 59,
       "published_at": "2026-11-11T22:29:27+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",

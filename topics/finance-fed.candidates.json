@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-14T10:02:09.862863+00:00",
+  "fetched_at": "2026-11-15T10:37:59.335714+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -15,11 +15,11 @@
     "HN · Federal Reserve": 1,
     "HN · inflation": 0,
     "HN · Tesla": 6,
-    "HN · finance": 16,
+    "HN · finance": 15,
     "HN · fed": 17
   },
   "subtopics": [],
-  "total": 68,
+  "total": 67,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/the-end-of-jensen/",
@@ -627,6 +627,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50492178",
+      "title": "Tesla Opens Cybercab Orders to 'Select Customers' at $29,990 Plus $299 per Month",
+      "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50492178",
+        "name": "iBelieve",
+        "hn_url": "https://news.ycombinator.com/item?id=50492178"
+      },
+      "duration_sec": null,
+      "views": 28,
+      "comments": 48,
+      "published_at": "2026-11-14T00:33:50+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
       "id": "hn:50394130",
       "title": "Tesla Ends Cybertruck Production",
       "url": "https://www.heise.de/en/news/Tesla-ends-Cybertruck-production-in-Texas-11515739.html",
@@ -641,25 +660,6 @@
       "views": 26,
       "comments": 1,
       "published_at": "2026-11-06T16:05:54+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50492178",
-      "title": "Tesla Opens Cybercab Orders to 'Select Customers' at $29,990 Plus $299 per Month",
-      "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50492178",
-        "name": "iBelieve",
-        "hn_url": "https://news.ycombinator.com/item?id=50492178"
-      },
-      "duration_sec": null,
-      "views": 24,
-      "comments": 33,
-      "published_at": "2026-11-14T00:33:50+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -741,6 +741,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50492993",
+      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50492993",
+        "name": "LopRabbit",
+        "hn_url": "https://news.ycombinator.com/item?id=50492993"
+      },
+      "duration_sec": null,
+      "views": 217,
+      "comments": 55,
+      "published_at": "2026-11-14T02:21:36+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
       "id": "hn:50131440",
       "title": "US federal budget deficit jumps 12% in one year to nearly $2 Trillion",
       "url": "https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html",
@@ -755,25 +774,6 @@
       "views": 208,
       "comments": 203,
       "published_at": "2026-10-17T14:22:05+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50492993",
-      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50492993",
-        "name": "LopRabbit",
-        "hn_url": "https://news.ycombinator.com/item?id=50492993"
-      },
-      "duration_sec": null,
-      "views": 202,
-      "comments": 46,
-      "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -831,25 +831,6 @@
       "views": 91,
       "comments": 108,
       "published_at": "2026-11-06T00:31:11+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50105900",
-      "title": "Market selloff, rising rates test AI data centre deal boom",
-      "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50105900",
-        "name": "tartoran",
-        "hn_url": "https://news.ycombinator.com/item?id=50105900"
-      },
-      "duration_sec": null,
-      "views": 75,
-      "comments": 92,
-      "published_at": "2026-10-15T16:17:40+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1247,7 +1228,7 @@
       },
       "duration_sec": null,
       "views": 52,
-      "comments": 9,
+      "comments": 10,
       "published_at": "2026-11-12T23:19:53+00:00",
       "summary": "",
       "matched_keyword": "fed",

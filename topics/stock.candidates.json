@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-14T10:02:01.213756+00:00",
+  "fetched_at": "2026-11-15T10:37:51.735934+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 15,
-    "HN · IPO": 15,
+    "HN · stock market": 14,
+    "HN · IPO": 25,
     "HN · earnings": 1,
     "HN · Federal Reserve": 1,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 51,
+  "total": 60,
   "items": [
     {
       "id": "hn:50346153",
@@ -51,8 +51,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50492993"
       },
       "duration_sec": null,
-      "views": 202,
-      "comments": 46,
+      "views": 217,
+      "comments": 55,
       "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -130,25 +130,6 @@
       "views": 56,
       "comments": 79,
       "published_at": "2026-11-04T07:00:20+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50315574",
-      "title": "Why Anthropic's filing crushed tech stocks",
-      "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50315574",
-        "name": "chmaynard",
-        "hn_url": "https://news.ycombinator.com/item?id=50315574"
-      },
-      "duration_sec": null,
-      "views": 55,
-      "comments": 79,
-      "published_at": "2026-10-31T12:32:10+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -317,8 +298,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50465829"
       },
       "duration_sec": null,
-      "views": 996,
-      "comments": 908,
+      "views": 1002,
+      "comments": 916,
       "published_at": "2026-11-12T11:46:41+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -534,6 +515,101 @@
       "lang": "en"
     },
     {
+      "id": "hn:50445463",
+      "title": "Anthropic Targets $1.4T Valuation in IPO",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-10/anthropic-targets-1-4-trillion-valuation-in-ipo-video",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50445463",
+        "name": "rndsignals",
+        "hn_url": "https://news.ycombinator.com/item?id=50445463"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 2,
+      "published_at": "2026-11-10T19:56:11+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50456668",
+      "title": "Anthropic says a key AI safety alarm has been triggered, days before its IPO",
+      "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50456668",
+        "name": "healsdata",
+        "hn_url": "https://news.ycombinator.com/item?id=50456668"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 12,
+      "published_at": "2026-11-11T18:23:31+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50251762",
+      "title": "Anthropic Is the Most Ridiculous IPO of 2026 [pdf]",
+      "url": "https://www.newconstructs.com/wp-content/uploads/2026/10/Anthropic-Is-The-Most-Ridiculous-IPO-of-2026.pdf",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50251762",
+        "name": "simonebrunozzi",
+        "hn_url": "https://news.ycombinator.com/item?id=50251762"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 5,
+      "published_at": "2026-10-26T22:06:15+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50243343",
+      "title": "Anthropic rushing IPO before AI bubble bursts",
+      "url": "https://nypost.com/2026/10/23/business/wall-street-is-urging-anthropic-openai-to-do-their-ipos-in-a-hurry-heres-why/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50243343",
+        "name": "nothrowaways",
+        "hn_url": "https://news.ycombinator.com/item?id=50243343"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 2,
+      "published_at": "2026-10-26T13:30:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50386483",
+      "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
+      "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50386483",
+        "name": "sandinmyjoints",
+        "hn_url": "https://news.ycombinator.com/item?id=50386483"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 3,
+      "published_at": "2026-11-06T00:17:47+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50337454",
       "title": "Jobless tech workers are being left out of San Francisco's AI boom",
       "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
@@ -564,9 +640,104 @@
         "hn_url": "https://news.ycombinator.com/item?id=50484110"
       },
       "duration_sec": null,
-      "views": 33,
-      "comments": 70,
+      "views": 34,
+      "comments": 74,
       "published_at": "2026-11-13T14:34:13+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50171533",
+      "title": "Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs",
+      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50171533",
+        "name": "mmmmmbop",
+        "hn_url": "https://news.ycombinator.com/item?id=50171533"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 2,
+      "published_at": "2026-10-20T19:34:39+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50177795",
+      "title": "Anthropic disclosed an $80.7B net loss for the first half of 2026",
+      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50177795",
+        "name": "joennlae",
+        "hn_url": "https://news.ycombinator.com/item?id=50177795"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 12,
+      "published_at": "2026-10-21T08:51:15+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50385642",
+      "title": "Michael Burry says Anthropic is 'betting its existence' on optimism",
+      "url": "https://www.businessinsider.com/michael-burry-anthropic-ipo-outlook-ant-big-short-2026-11",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50385642",
+        "name": "mgh2",
+        "hn_url": "https://news.ycombinator.com/item?id=50385642"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 6,
+      "published_at": "2026-11-05T22:49:47+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50326281",
+      "title": "Ant: Can unprecedented revenue growth outrun irresponsibly large investment",
+      "url": "https://leonlins.com/writing/anthropic_ipo",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50326281",
+        "name": "avoidboringppl",
+        "hn_url": "https://news.ycombinator.com/item?id=50326281"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 3,
+      "published_at": "2026-11-01T14:56:13+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50323575",
+      "title": "We're Living in the Age of the Imperial CEO",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-dual-class-stock-founder-control-4c43a56d",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50323575",
+        "name": "pretext",
+        "hn_url": "https://news.ycombinator.com/item?id=50323575"
+      },
+      "duration_sec": null,
+      "views": 16,
+      "comments": 0,
+      "published_at": "2026-11-01T08:09:48+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
