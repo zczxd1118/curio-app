@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-11-15T10:37:31.855342+00:00",
+  "fetched_at": "2026-11-16T10:53:36.882678+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,8 +13,8 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 2,
-    "HN · Nvidia": 29,
-    "HN · semiconductor": 2,
+    "HN · Nvidia": 30,
+    "HN · semiconductor": 1,
     "HN · ASML / EUV": 0,
     "HN · AI chip 厂商": 0,
     "HN · 数据中心 / 算力": 0
@@ -197,6 +197,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/the-sound-of-smarter-farming/",
+      "title": "The Sound of Smarter Farming",
+      "url": "https://www.eetimes.com/the-sound-of-smarter-farming/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Rebecca Pool",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-16T06:59:20+00:00",
+      "summary": "From birdsong and pollinator wingbeats to the vibrations of insects feeding inside plants, acoustic sensors and AI are helping farmers monitor biodiversity, improve pollination, and detect threats to crops. The post The Sound of Smarter Farming appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/nova-scotia-bets-on-microelectronics-integration-not-chip-fabs/",
       "title": "Nova Scotia Bets on Microelectronics Integration, Not Chip Fabs",
       "url": "https://www.eetimes.com/nova-scotia-bets-on-microelectronics-integration-not-chip-fabs/",
@@ -209,7 +226,7 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-13T18:00:00+00:00",
+      "published_at": "2026-11-13T20:00:00+00:00",
       "summary": "Atlantic Canada’s coastal engineering cluster is turning specialized components and rugged hardware into exportable tools for subsea research, security, and resource markets. The post Nova Scotia Bets on Microelectronics Integration, Not Chip Fabs appeared first on EE Times.",
       "lang": "en"
     },
@@ -350,20 +367,360 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/automotive-tech-forum-panel-discussion-the-make-or-break-milestones-toward-level-4-autonomous-driving/",
-      "title": "Automotive Tech Forum: Panel Discussion the Make-or-Break Milestones Toward Level 4 Autonomous Driving",
-      "url": "https://www.eetimes.com/automotive-tech-forum-panel-discussion-the-make-or-break-milestones-toward-level-4-autonomous-driving/",
+      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/hacker-gets-doom-running-on-a-usb-flash-drives-built-in-lcd-played-by-copying-files-hacker-dumps-firmware-from-chip-with-scrubbed-markings-through-an-open-debug-port-then-gets-the-game-running-with-ai-help",
+      "title": "Hacker gets Doom running on a USB flash drive's built-in LCD, played by copying files",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/hacker-gets-doom-running-on-a-usb-flash-drives-built-in-lcd-played-by-copying-files-hacker-dumps-firmware-from-chip-with-scrubbed-markings-through-an-open-debug-port-then-gets-the-game-running-with-ai-help",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "AspenCore Events",
-        "feed_title": "EE Times"
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-11T23:39:41+00:00",
-      "summary": "Explore the road to Level 4 autonomy as experts tackle safety, AI, regulation, and trust—watch the Automotive Tech Forum panel. The post Automotive Tech Forum: Panel Discussion the Make-or-Break Milestones Toward Level 4 Autonomous Driving appeared first on EE Times.",
+      "published_at": "2026-11-16T10:30:00+00:00",
+      "summary": "Aaron Christophel ported Doom to the LCD on a MOVESPEED MSSU10 flash drive and controls it with file transfers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/software/operating-systems/developer-creates-a-100-percent-valid-zip-file-that-doubles-as-a-bios-bootable-operating-system-hiding-bios-boot-flags-inside-uncompressed-files-and-turning-file-headers-into-cpu-instructions",
+      "title": "Developer creates a 100% valid ZIP file that doubles as a BIOS-bootable operating system",
+      "url": "https://www.tomshardware.com/software/operating-systems/developer-creates-a-100-percent-valid-zip-file-that-doubles-as-a-bios-bootable-operating-system-hiding-bios-boot-flags-inside-uncompressed-files-and-turning-file-headers-into-cpu-instructions",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-16T10:00:00+00:00",
+      "summary": "Crafty techie concocts ZIP that's simultaneously a valid archive, BIOS-bootable, and a Multiboot image",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/30-must-have-pc-tool-gifts-for-hobbyists-and-makers-essential-bench-upgrades-for-enthusiasts-with-a-project-from-electric-screwdrivers-to-cordless-air-dusters",
+      "title": "30 must-have PC tool gifts for hobbyists and makers",
+      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/30-must-have-pc-tool-gifts-for-hobbyists-and-makers-essential-bench-upgrades-for-enthusiasts-with-a-project-from-electric-screwdrivers-to-cordless-air-dusters",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Ben Stockton",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T21:00:00+00:00",
+      "summary": "Whether you're a PC builder or a hobbyist with a 3D printer, you'll need tools to build, clean, repair and complete your projects. Here are some of the best ones you can pick up for a techie over this holiday season.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/robotics-engineer-leaves-nvidia-over-lack-of-transparency-around-jensen-huangs-exit-details-decision-joins-chorus-of-disgruntled-staff-as-petition-to-reinstate-former-ceo-passes-150-000-signatures",
+      "title": "Nvidia engineer leaves company over lack of transparency around Jensen Huang’s exit, details decision",
+      "url": "https://www.tomshardware.com/tech-industry/robotics-engineer-leaves-nvidia-over-lack-of-transparency-around-jensen-huangs-exit-details-decision-joins-chorus-of-disgruntled-staff-as-petition-to-reinstate-former-ceo-passes-150-000-signatures",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T17:56:15+00:00",
+      "summary": "Dai's post shows how much Nvidia employees looked up to the former CEO.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/controllers-gamepads/cockpit-simulator-737x-cdu-v2-review-an-essential-component-for-flight-sim-enthusiasts",
+      "title": "Cockpit-Simulator 737X CDU (v2) Review: An Essential Component for Flight Sim Enthusiasts",
+      "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/cockpit-simulator-737x-cdu-v2-review-an-essential-component-for-flight-sim-enthusiasts",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Dan Mateescu",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T17:30:00+00:00",
+      "summary": "The CS 737X CDU (v2) by Cockpit-Simulator is a plug-and-play, 1:1 replica of a Boeing 737 Control Display Unit for home cockpit builds.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-stock-returns-to-newegg-with-21-models-but-scarcity-pricing-keeps-the-cheapest-air-cooled-cards-at-least-three-times-msrp",
+      "title": "Nvidia RTX 5090 stock returns to Newegg with 21 models",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-stock-returns-to-newegg-with-21-models-but-scarcity-pricing-keeps-the-cheapest-air-cooled-cards-at-least-three-times-msrp",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T17:00:00+00:00",
+      "summary": "After rumors of Nvidia GeForce RTX 5090 graphics cards being withdrawn from the consumer retail channel it is pleasing to see major U.S. eTailers like Newegg stuffed with cheaper stock today.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/fbi-disrupts-north-korean-facestealer-campaign-behind-usd5-billion-binance-hack-doj-seizes-facestealer-cloud-infrastructure-containing-900-videos-of-tech-workers-hackers-used-ai-deepfakes-to-steal-usd400-million-and-compromise-open-source-software",
+      "title": "FBI disrupts North Korean FaceStealer campaign behind $5 billion Binance hack",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/fbi-disrupts-north-korean-facestealer-campaign-behind-usd5-billion-binance-hack-doj-seizes-facestealer-cloud-infrastructure-containing-900-videos-of-tech-workers-hackers-used-ai-deepfakes-to-steal-usd400-million-and-compromise-open-source-software",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T16:30:00+00:00",
+      "summary": "US DoJ partially disrupts FaceStealer campaign that's taken $400m from victims and threatens open-source software — gov techs disrupt cloud infrastructure and find 900 videos of targeted tech workers",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/357-detailed-cpu-die-shots-spanning-1971-to-2024-crammed-into-a-new-gallery-motorola-68000-intel-486dx2-amd-athlon-xp-apple-m1-and-many-more-in-beautiful-detail",
+      "title": "357 detailed CPU die shots spanning 1971 to 2024 crammed into a new gallery",
+      "url": "https://www.tomshardware.com/pc-components/cpus/357-detailed-cpu-die-shots-spanning-1971-to-2024-crammed-into-a-new-gallery-motorola-68000-intel-486dx2-amd-athlon-xp-apple-m1-and-many-more-in-beautiful-detail",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T16:00:00+00:00",
+      "summary": "A CPU enthusiast has put together an eye-popping visual database containing crystal clear detailed die shots of 357 legendary, and some lesser-known, processors.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests-email-warning-system-fails-40-first-responders-deployed-for-triage-four-hospitalized",
+      "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests-email-warning-system-fails-40-first-responders-deployed-for-triage-four-hospitalized",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T15:41:13+00:00",
+      "summary": "The 'maintenance safety system' relied on Microsoft Outlook to send warning messages to the operator.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge",
+      "title": "Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix, finds evidence of DRAM collusion plausible after 500% price surge",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T15:09:50+00:00",
+      "summary": "The judge characterized the three companies as \"hawks flying in formation\" when it came to their business decisions.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/3d-printing/3d-printing-developer-creates-self-hostable-non-planar-printing-slicer-pancakeslicer-makes-non-planar-3d-printing-accessible-potentially-leading-to-rapid-community-development",
+      "title": "3D printing dev’s free tool unlocks curved printing along all three axes",
+      "url": "https://www.tomshardware.com/3d-printing/3d-printing-developer-creates-self-hostable-non-planar-printing-slicer-pancakeslicer-makes-non-planar-3d-printing-accessible-potentially-leading-to-rapid-community-development",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jhet Borja",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T15:00:00+00:00",
+      "summary": "PancakeSlicer is a self-hostable non-planar 3D printing slicer that might finally make non-planar slicing more accessible to the masses.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/enthusiast-builds-a-working-486-dx2-retro-pc-on-a-breadboard-in-just-16-days-immediately-runs-doom-build-includes-a-66-mhz-intel-chip-and-custom-five-inch-3d-printed-display",
+      "title": "Enthusiast builds a working 486 DX2 retro PC on a breadboard in just 16 days, immediately runs Doom",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/enthusiast-builds-a-working-486-dx2-retro-pc-on-a-breadboard-in-just-16-days-immediately-runs-doom-build-includes-a-66-mhz-intel-chip-and-custom-five-inch-3d-printed-display",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T14:30:00+00:00",
+      "summary": "An app engineer has showcased his homemade breadboard 486DX2 PC running Doom, put together in just over two weeks.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/drones/pentagon-tests-pack-hunting-with-autonomous-war-robots-darpa-experimented-with-four-drone-ground-vehicles-that-detected-tracked-and-engaged-simulated-threats",
+      "title": "Pentagon tests pack hunting with autonomous war robots",
+      "url": "https://www.tomshardware.com/tech-industry/drones/pentagon-tests-pack-hunting-with-autonomous-war-robots-darpa-experimented-with-four-drone-ground-vehicles-that-detected-tracked-and-engaged-simulated-threats",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T14:19:24+00:00",
+      "summary": "The Pentagon has been testing packs of autonomous ground vehicles in simulated combat situations.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan",
+      "title": "Nvidia board director cashed out $1 billion in stock before Jensen Huang scandal",
+      "url": "https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T14:00:00+00:00",
+      "summary": "Nvidia Board Director sold around 4.2 million shares beginning August 31 and ending September 18, with the sale making him somewhere around $947 million.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/networking/two-hpe-juniper-network-routers-grounded-all-the-us-flights-on-friday-faas-decades-old-copper-network-buckled-under-a-feature-hpe-says-worked-as-intended-creaking-air-traffic-communication-system-became-overloaded-by-very-high-rate-pinging",
+      "title": "Two HPE Juniper network routers grounded all US flights on Friday",
+      "url": "https://www.tomshardware.com/networking/two-hpe-juniper-network-routers-grounded-all-the-us-flights-on-friday-faas-decades-old-copper-network-buckled-under-a-feature-hpe-says-worked-as-intended-creaking-air-traffic-communication-system-became-overloaded-by-very-high-rate-pinging",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T13:42:51+00:00",
+      "summary": "The FAA determined that a rogue feature in two newly installed routers are to blame for the communications glitches that caused the nationwide ground stop.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/intel-reclaims-overall-cpu-market-share-for-the-first-time-since-2025-massive-desktop-gains-offset-amds-record-server-and-mobile-growth",
+      "title": "Intel reclaims overall CPU market share for the first time since 2025",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-reclaims-overall-cpu-market-share-for-the-first-time-since-2025-massive-desktop-gains-offset-amds-record-server-and-mobile-growth",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anton Shilov",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T13:30:00+00:00",
+      "summary": "AMD continues to gain server CPU market share amid skyrocketing shipments of data center processors as sales of client CPUs drop in the third quarter, says Mercury Research.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/3d-printing/university-of-rochester-researchers-made-a-3d-bioprinter-from-a-modified-ender-3-usd450-bioprinter-makes-engineered-living-material-research-accessible",
+      "title": "Modified Ender 3 becomes a $450 bioprinter for 3D printing engineered living materials",
+      "url": "https://www.tomshardware.com/3d-printing/university-of-rochester-researchers-made-a-3d-bioprinter-from-a-modified-ender-3-usd450-bioprinter-makes-engineered-living-material-research-accessible",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jhet Borja",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T13:00:00+00:00",
+      "summary": "Microbiologists at the University of Rochester have modified an Ender 3 FDM printer into a 3D bioprinter for $450 and outperforming 3D bioprinters costing more than $100,000.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/cyber-security/dev-hacks-coway-air-purifier-to-cut-it-off-from-the-cloud-now-runs-locally-in-home-assistant-fan-downloads-the-certificate-over-plain-http-letting-a-home-server-stand-in-for-coways",
+      "title": "Dev hacks Coway air purifier to cut it off from the cloud",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/dev-hacks-coway-air-purifier-to-cut-it-off-from-the-cloud-now-runs-locally-in-home-assistant-fan-downloads-the-certificate-over-plain-http-letting-a-home-server-stand-in-for-coways",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Shane Downing",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T12:30:00+00:00",
+      "summary": "A developer reverse-engineered his Coway Airmega IconS air purifier to run it locally in Home Assistant, without Coway’s cloud.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/elon-musk-signs-petition-to-reinstate-jensen-huang-as-nvidia-ceo-over-130-000-sign-online-petition-but-not-all-nvidians-support-jensens-return",
+      "title": "Elon Musk signs petition to reinstate Jensen Huang as Nvidia CEO",
+      "url": "https://www.tomshardware.com/tech-industry/elon-musk-signs-petition-to-reinstate-jensen-huang-as-nvidia-ceo-over-130-000-sign-online-petition-but-not-all-nvidians-support-jensens-return",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T12:00:00+00:00",
+      "summary": "An online petition with over 91,000 signatures is calling for the reinstatement of Nvidia's disgraced former CEO.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/pc-building/dr-lisa-su-graces-the-opening-of-micro-centers-new-austin-store-amd-ceo-meets-with-gamers-autographs-a-9070-xt-gpu-and-hands-out-300-swag-bags",
+      "title": "Dr. Lisa Su graces the opening of Micro Center's new Austin store",
+      "url": "https://www.tomshardware.com/desktops/pc-building/dr-lisa-su-graces-the-opening-of-micro-centers-new-austin-store-amd-ceo-meets-with-gamers-autographs-a-9070-xt-gpu-and-hands-out-300-swag-bags",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jowi Morales",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T11:30:00+00:00",
+      "summary": "AMD gave away 300 swag bags to lucky shoppers, plus raffled off AMD gear, including a Radeon RX 9070 XT that Dr. Lisa Su autographed.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/xbox/the-original-xbox-was-released-25-years-ago-today-microsofts-pentium-iii-and-nvidia-gpu-powered-console-did-surprisingly-well-in-a-ps2-dominated-era",
+      "title": "The original Xbox was released 25 years ago today",
+      "url": "https://www.tomshardware.com/video-games/xbox/the-original-xbox-was-released-25-years-ago-today-microsofts-pentium-iii-and-nvidia-gpu-powered-console-did-surprisingly-well-in-a-ps2-dominated-era",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Mark Tyson",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-15T11:00:00+00:00",
+      "summary": "Microsoft’s first games console hit North America 25 years ago today powered by a Pentium III CPU and Nvidia GPU.",
       "lang": "en"
     },
     {
@@ -385,7 +742,7 @@
     },
     {
       "id": "rss:https://www.tomshardware.com/pc-components/samsungs-1tb-990-ssd-drops-to-19-cents-per-gb-amid-the-memory-crisis-grab-it-for-usd40-off",
-      "title": "Samsung's 1TB 990 SSD drops to 19 cents per GB amid the memory crisis — grab it for $40 off",
+      "title": "Samsung's 1TB 990 SSD drops to 19 cents per GB amid the memory crisis",
       "url": "https://www.tomshardware.com/pc-components/samsungs-1tb-990-ssd-drops-to-19-cents-per-gb-amid-the-memory-crisis-grab-it-for-usd40-off",
       "platform": "rss",
       "source": {
@@ -402,7 +759,7 @@
     },
     {
       "id": "rss:https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass",
-      "title": "This week in Tom's Hardware Premium: November 14, 2026 — Mac Studio versus DGX Spark, AMD's MEXT cuts DRAM requirements in half, and the Huang saga reaches critical mass",
+      "title": "This week in Tom's Hardware Premium: November 14, 2026",
       "url": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass",
       "platform": "rss",
       "source": {
@@ -520,363 +877,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/tech-industry/pentagon-struggles-to-account-for-usd31-billion-in-missing-f-35-aircraft-parts-weeks-after-shipment-was-swiped-by-china-tracking-of-estimated-26-million-parts-is-outdated-inaccurate-and-incomplete-says-watchdog",
-      "title": "Weeks after shipment was swiped by China, Pentagon ‘struggles to account for’ $31 billion in missing F-35 aircraft parts",
-      "url": "https://www.tomshardware.com/tech-industry/pentagon-struggles-to-account-for-usd31-billion-in-missing-f-35-aircraft-parts-weeks-after-shipment-was-swiped-by-china-tracking-of-estimated-26-million-parts-is-outdated-inaccurate-and-incomplete-says-watchdog",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-14T14:00:00+00:00",
-      "summary": "The Pentagon is struggling to track an astonishing 26 million F-35 warfighter parts, worth an estimated $31 billion, according to analysis published by the Government Accountability Office this week.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/save-up-to-usd800-on-an-ibuypower-gaming-pc-right-now-in-this-massive-black-friday-sale-coupon-code-knocks-up-to-usd200-extra-off-high-spec-pre-built-rigs-fitted-with-nvidia-and-amd-gpus",
-      "title": "Save up to $800 on an iBuyPower gaming PC right now in this massive Black Friday sale",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/save-up-to-usd800-on-an-ibuypower-gaming-pc-right-now-in-this-massive-black-friday-sale-coupon-code-knocks-up-to-usd200-extra-off-high-spec-pre-built-rigs-fitted-with-nvidia-and-amd-gpus",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-14T13:00:00+00:00",
-      "summary": "iBuyPower's running a whole month of Black Friday sales this November on new gaming PCs.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu",
-      "title": "Lawyer’s eight-V100 AI server moves DeepSeek from 2-bit to near-NVFP4 precision",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Shane Downing",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-14T12:50:00+00:00",
-      "summary": "A lawyer’s eight-GPU Nvidia V100 server now runs DeepSeek V4.1 Flash’s most-used experts at NVFP4 precision instead of 2-bit.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/drones/chinas-air-force-builds-drone-that-shoots-painkiller-darts-at-wounded-soldiers-experimental-pla-uav-injects-emergency-meds-from-a-distance-to-keep-medics-out-of-danger-and-buys-time-during-the-golden-hour",
-      "title": "China’s Air Force builds drone that shoots painkiller darts at wounded soldiers",
-      "url": "https://www.tomshardware.com/tech-industry/drones/chinas-air-force-builds-drone-that-shoots-painkiller-darts-at-wounded-soldiers-experimental-pla-uav-injects-emergency-meds-from-a-distance-to-keep-medics-out-of-danger-and-buys-time-during-the-golden-hour",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-14T12:30:00+00:00",
-      "summary": "The Air Force Medical University of the Chinese People's Liberation Army (PLA) built this drone so it could remotely administer pain killers to injured soldiers and make extraction easier.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/commemorative-plaque-at-dennys-booth-where-nvidia-was-born-has-been-removed-sign-removed-in-wake-of-jensens-scandals-marked-the-booth-that-launched-a-usd1-trillion-company",
-      "title": "Commemorative plaque at Denny’s booth where Nvidia was born has been removed in wake of Jensen Huang scandals",
-      "url": "https://www.tomshardware.com/tech-industry/commemorative-plaque-at-dennys-booth-where-nvidia-was-born-has-been-removed-sign-removed-in-wake-of-jensens-scandals-marked-the-booth-that-launched-a-usd1-trillion-company",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-14T12:00:00+00:00",
-      "summary": "The San Jose, California, branch of Denny's once featured a plaque commemorating the booth where Jensen Huang and his two other co-founders worked to build Nvidia.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/3d-printing/mechatronics-student-builds-3d-printer-made-from-92-percent-lego-for-less-than-usd180-lego-leadscrews-and-print-bed-can-print-a-decent-benchy-in-1-25-hours",
-      "title": "Mechatronics student builds 3D printer made from 92% LEGO for less than $180",
-      "url": "https://www.tomshardware.com/3d-printing/mechatronics-student-builds-3d-printer-made-from-92-percent-lego-for-less-than-usd180-lego-leadscrews-and-print-bed-can-print-a-decent-benchy-in-1-25-hours",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jhet Borja",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-14T11:30:00+00:00",
-      "summary": "A mechatronics engineering student made an open-source 3D printer, 92% of which is LEGO, and can print a decent benchy despite the imprecise LEGO leadscrews.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/linux/nearly-20-years-after-launch-ancient-radeon-hd-2000-and-3000-gpus-finally-get-a-linux-fix-for-corrupted-video-playback-ai-helps-squash-a-decades-old-uvd-bug",
-      "title": "Nearly 20 years after launch, ancient AMD Radeon HD 2000 and 3000 GPUs finally get a Linux fix for corrupted video playback",
-      "url": "https://www.tomshardware.com/software/linux/nearly-20-years-after-launch-ancient-radeon-hd-2000-and-3000-gpus-finally-get-a-linux-fix-for-corrupted-video-playback-ai-helps-squash-a-decades-old-uvd-bug",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zak Killian",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-14T11:00:00+00:00",
-      "summary": "A new kernel contributor used AI to develop a patch for the drivers powering his nearly-20-year-old Radeon GPU.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/gpus/nvidia-board-reportedly-approached-arm-ceo-rene-haas-during-replacement-search-jensen-huangs-transgressions-leave-nvidia-scrambling-to-fill-a-massive-void",
-      "title": "Nvidia board reportedly approached Arm CEO Rene Haas during replacement search",
-      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-board-reportedly-approached-arm-ceo-rene-haas-during-replacement-search-jensen-huangs-transgressions-leave-nvidia-scrambling-to-fill-a-massive-void",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T21:00:00+00:00",
-      "summary": "Nvidia's board of directors reportedly approached Rene Haas, chief executive of Arm and a long-time Nvidia veteran, in CEO search.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/keyboards-and-keyboard-accessories-under-usd100-budget-friendly-gifts-for-keyboard-enthusiasts",
-      "title": "Keyboards and keyboard accessories under $100 — budget-friendly gifts for keyboard enthusiasts",
-      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/keyboards-and-keyboard-accessories-under-usd100-budget-friendly-gifts-for-keyboard-enthusiasts",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Sarah Jacobsson Purewal",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T18:25:25+00:00",
-      "summary": "The best sub-$100 gifts to get the keyboard enthusiast in your life — even if they already have their end-game keyboard.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/10-great-pc-upgrades-for-under-usd100-spice-up-your-setup-for-less-with-these-gifts-and-impulse-purchases",
-      "title": "10 great PC upgrades for under $100",
-      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/10-great-pc-upgrades-for-under-usd100-spice-up-your-setup-for-less-with-these-gifts-and-impulse-purchases",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stephen Warwick",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T17:00:00+00:00",
-      "summary": "If you're in the market for a PC upgrade for a cheaper gift, here are 10 items under $100.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cpus/unannounced-intel-core-ultra-7-260k-cpu-surfaces-in-newegg-prebuilt-gaming-pcs-intel-doesnt-have-official-specs-list-available-for-exclusive-arrow-lake-chip",
-      "title": "Unannounced Intel Core Ultra 7 260K CPU surfaces in Newegg prebuilt gaming PCs",
-      "url": "https://www.tomshardware.com/pc-components/cpus/unannounced-intel-core-ultra-7-260k-cpu-surfaces-in-newegg-prebuilt-gaming-pcs-intel-doesnt-have-official-specs-list-available-for-exclusive-arrow-lake-chip",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jake Roach",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T16:30:00+00:00",
-      "summary": "The mysterious Intel Core Ultra 7 260K has surfaced in some prebuilt gaming PCs on Newegg, despite no official mention of the chip from Intel.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-and-singapore-step-up-nvidia-ai-chip-probes-as-charges-brought-against-chinese-national-over-917-smuggled-servers-firm-at-center-of-jensen-huang-controversy-announces-inventory-audit-to-account-for-all-restricted-gpus",
-      "title": "Malaysia and Singapore step up Nvidia AI chip probes amidst Jensen Huang controversy",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-and-singapore-step-up-nvidia-ai-chip-probes-as-charges-brought-against-chinese-national-over-917-smuggled-servers-firm-at-center-of-jensen-huang-controversy-announces-inventory-audit-to-account-for-all-restricted-gpus",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T16:15:28+00:00",
-      "summary": "Malaysia is investigating possible re-exports of Nvidia AI hardware amid concerns about circumvention of U.S. restrictions on China as Singapore charges an executive over suspicious purchases of 917 AI servers.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/popular-gaming-chair-and-desk-maker-secretlab-launches-dedicated-us-brick-and-mortar-locations-new-shop-in-la-spaces-in-best-buy",
-      "title": "Popular gaming chair and desk maker Secretlab launches dedicated US brick-and-mortar locations — new shop in LA, spaces in Best Buy",
-      "url": "https://www.tomshardware.com/peripherals/popular-gaming-chair-and-desk-maker-secretlab-launches-dedicated-us-brick-and-mortar-locations-new-shop-in-la-spaces-in-best-buy",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stephen Warwick",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T16:00:00+00:00",
-      "summary": "Secretlab now sells its wares inside Best Buy and in a dedicated store in LA.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/broken-and-shattered-nvidia-ceo-jensen-huang-surrendered-during-resignation-meeting-report-claims-thousands-of-employees-rally-calling-for-reinstatement-on-internal-forum",
-      "title": "‘Broken and shattered’ Nvidia CEO Jensen Huang surrendered during resignation meeting, report claims",
-      "url": "https://www.tomshardware.com/tech-industry/broken-and-shattered-nvidia-ceo-jensen-huang-surrendered-during-resignation-meeting-report-claims-thousands-of-employees-rally-calling-for-reinstatement-on-internal-forum",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T13:16:16+00:00",
-      "summary": "Jensen Huang reportedly called himself 'a piece of sh--\" after his forced departure, but employees still want him back.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/japanese-workers-return-to-fax-machines-during-ongoing-microsoft-365-outage-were-going-full-analog-say-workers-forced-to-ditch-pdfs",
-      "title": "Japanese workers return to fax machines during ongoing Microsoft 365 outage",
-      "url": "https://www.tomshardware.com/software/japanese-workers-return-to-fax-machines-during-ongoing-microsoft-365-outage-were-going-full-analog-say-workers-forced-to-ditch-pdfs",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stephen Warwick",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T12:57:37+00:00",
-      "summary": "Japanese workers are breaking out fax machines to deal with Microsoft's 365 outage.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/walmart-has-slashed-usd730-off-this-monster-gaming-pc-with-rtx-5070-ti-also-features-a-24-core-intel-processor-32gb-ddr5-2tb-ssd",
-      "title": "Walmart has slashed $730 off this monster gaming PC with RTX 5070 Ti",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/walmart-has-slashed-usd730-off-this-monster-gaming-pc-with-rtx-5070-ti-also-features-a-24-core-intel-processor-32gb-ddr5-2tb-ssd",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stephen Warwick",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T11:30:00+00:00",
-      "summary": "Save $730 on this CyberPowerPC with Intel Core Ultra 9 285 and RTX 5070 Ti.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
-      "title": "Mass smuggling of up to 1.5 million Nvidia AI GPUs could be the underlying cause of Jensen Huang's departure, analysts claim",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Anton Shilov",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T11:00:00+00:00",
-      "summary": "Top analyst firm SemiAnalysis says it has tracked staggering 1.5 gigawatts of banned AI accelerators flowing into China.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/how-shanghai-fund-manager-kang-wei-introduced-his-wife-alice-huang-to-jensen-and-built-usd7-5-billion-nvidia-ai-gpu-smuggling-operation-mistresss-husband-joked-she-was-the-ceos-personal-assistant",
-      "title": "How Shanghai fund manager Kang Wei introduced his wife Alice Huang to Jensen and built $7.5 billion Nvidia AI GPU smuggling operation",
-      "url": "https://www.tomshardware.com/tech-industry/how-shanghai-fund-manager-kang-wei-introduced-his-wife-alice-huang-to-jensen-and-built-usd7-5-billion-nvidia-ai-gpu-smuggling-operation-mistresss-husband-joked-she-was-the-ceos-personal-assistant",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T11:00:00+00:00",
-      "summary": "While Alice Huang lives on the headlines, it was actually her husband who put her in the same room as Jensen Huang.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/peripherals/controllers-gamepads/grab-this-8bitdo-wireless-controller-for-your-gaming-pc-and-switch-2-at-its-lowest-ever-price-now-usd51-12-27-percent-off-this-fully-customizable-ultimate-2-gamepad-with-tmr-joysticks-dual-triggers-and-remappable-buttons",
-      "title": "Grab this 8BitDo wireless controller for your gaming PC and Switch 2 at its lowest ever price, now $51.12",
-      "url": "https://www.tomshardware.com/peripherals/controllers-gamepads/grab-this-8bitdo-wireless-controller-for-your-gaming-pc-and-switch-2-at-its-lowest-ever-price-now-usd51-12-27-percent-off-this-fully-customizable-ultimate-2-gamepad-with-tmr-joysticks-dual-triggers-and-remappable-buttons",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T10:53:49+00:00",
-      "summary": "This 8BitDo Ultimate 2 game controller for your PC or Nintendo Switch is down to a record low price on Amazon right now.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/1994-jeep-cherokee-owner-hacks-32-year-old-car-with-claude-ai-to-pass-california-smog-tests-enthusiast-reverse-engineered-the-ancient-ecu-for-diagnostics-and-control",
-      "title": "1994 Jeep Cherokee owner hacks 32-year-old car with Claude AI to pass California smog tests",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/1994-jeep-cherokee-owner-hacks-32-year-old-car-with-claude-ai-to-pass-california-smog-tests-enthusiast-reverse-engineered-the-ancient-ecu-for-diagnostics-and-control",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Mark Tyson",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T10:30:00+00:00",
-      "summary": "An AI enthusiast managed to get his old 1994 Jeep Cherokee to pass the California smog tests thanks to the help of AI, a little electronics wiring skill, and $15 of components.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/software/macos/macos-on-pc-becomes-possible-again-thanks-to-apple-silicon-translator-for-x86-64-hackintosh-revival-project-currently-slow-and-not-very-stable",
-      "title": "macOS on PC becomes possible again thanks to Apple Silicon translator for x86-64",
-      "url": "https://www.tomshardware.com/software/macos/macos-on-pc-becomes-possible-again-thanks-to-apple-silicon-translator-for-x86-64-hackintosh-revival-project-currently-slow-and-not-very-stable",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T10:00:00+00:00",
-      "summary": "macOS on PCs becomes possible thanks to Apple Silicon translator for x86-64 — Hackintoshes",
-      "lang": "en"
-    },
-    {
       "id": "hn:50479721",
       "title": "TSMC Hacked",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
@@ -926,8 +926,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50459703"
       },
       "duration_sec": null,
-      "views": 1225,
-      "comments": 1646,
+      "views": 1226,
+      "comments": 1649,
       "published_at": "2026-11-11T22:31:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -945,8 +945,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50493251"
       },
       "duration_sec": null,
-      "views": 1074,
-      "comments": 637,
+      "views": 1103,
+      "comments": 650,
       "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -983,8 +983,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50477231"
       },
       "duration_sec": null,
-      "views": 815,
-      "comments": 691,
+      "views": 818,
+      "comments": 692,
       "published_at": "2026-11-13T02:16:24+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1021,7 +1021,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50416801"
       },
       "duration_sec": null,
-      "views": 494,
+      "views": 495,
       "comments": 422,
       "published_at": "2026-11-08T20:26:43+00:00",
       "summary": "",
@@ -1040,7 +1040,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50473190"
       },
       "duration_sec": null,
-      "views": 457,
+      "views": 460,
       "comments": 499,
       "published_at": "2026-11-12T19:51:33+00:00",
       "summary": "",
@@ -1059,8 +1059,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50501631"
       },
       "duration_sec": null,
-      "views": 425,
-      "comments": 216,
+      "views": 446,
+      "comments": 236,
       "published_at": "2026-11-14T22:26:30+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1078,8 +1078,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50487864"
       },
       "duration_sec": null,
-      "views": 383,
-      "comments": 214,
+      "views": 385,
+      "comments": 215,
       "published_at": "2026-11-13T18:40:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1117,8 +1117,27 @@
       },
       "duration_sec": null,
       "views": 292,
-      "comments": 139,
+      "comments": 140,
       "published_at": "2026-11-03T07:04:50+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50512235",
+      "title": "What's Next for Nvidia?",
+      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50512235",
+        "name": "zdw",
+        "hn_url": "https://news.ycombinator.com/item?id=50512235"
+      },
+      "duration_sec": null,
+      "views": 254,
+      "comments": 323,
+      "published_at": "2026-11-15T23:55:55+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1154,8 +1173,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50492993"
       },
       "duration_sec": null,
-      "views": 217,
-      "comments": 55,
+      "views": 218,
+      "comments": 56,
       "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1181,6 +1200,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50511982",
+      "title": "Jensen Huang might return to Nvidia as CEO",
+      "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50511982",
+        "name": "YakubYilmaz",
+        "hn_url": "https://news.ycombinator.com/item?id=50511982"
+      },
+      "duration_sec": null,
+      "views": 166,
+      "comments": 159,
+      "published_at": "2026-11-15T23:24:53+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50497155",
       "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
       "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
@@ -1192,9 +1230,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50497155"
       },
       "duration_sec": null,
-      "views": 138,
-      "comments": 68,
+      "views": 146,
+      "comments": 70,
       "published_at": "2026-11-14T14:09:25+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50509883",
+      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50509883",
+        "name": "eyalitki",
+        "hn_url": "https://news.ycombinator.com/item?id=50509883"
+      },
+      "duration_sec": null,
+      "views": 124,
+      "comments": 117,
+      "published_at": "2026-11-15T19:31:11+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1249,8 +1306,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50483391"
       },
       "duration_sec": null,
-      "views": 80,
-      "comments": 14,
+      "views": 81,
+      "comments": 13,
       "published_at": "2026-11-13T13:45:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1325,7 +1382,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50491690"
       },
       "duration_sec": null,
-      "views": 49,
+      "views": 50,
       "comments": 46,
       "published_at": "2026-11-13T23:34:06+00:00",
       "summary": "",
@@ -1344,7 +1401,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50424604"
       },
       "duration_sec": null,
-      "views": 43,
+      "views": 44,
       "comments": 19,
       "published_at": "2026-11-09T12:20:45+00:00",
       "summary": "",
@@ -1409,58 +1466,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50478724",
-      "title": "Jensen Huang's Last Hours as Nvidia CEO",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-13/inside-jensen-huang-s-final-hours-as-the-ceo-of-nvidia",
+      "id": "hn:50511763",
+      "title": "Huang Discusses Comeback as Nvidia Chief with Allies, FT Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/huang-discusses-comeback-as-nvidia-chief-with-allies-ft-says",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50478724",
-        "name": "ex-aws-dude",
-        "hn_url": "https://news.ycombinator.com/item?id=50478724"
+        "id": "50511763",
+        "name": "nstj",
+        "hn_url": "https://news.ycombinator.com/item?id=50511763"
       },
       "duration_sec": null,
-      "views": 26,
-      "comments": 3,
-      "published_at": "2026-11-13T05:26:06+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50467593",
-      "title": "Jensen Huang Resigns as Nvidia CEO After Affairs",
-      "url": "https://www.nytimes.com/live/2026/11/12/business/nvidia-jensen-huang-resigns",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50467593",
-        "name": "speckx",
-        "hn_url": "https://news.ycombinator.com/item?id=50467593"
-      },
-      "duration_sec": null,
-      "views": 23,
-      "comments": 2,
-      "published_at": "2026-11-12T14:17:39+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50463421",
-      "title": "Nvidia's Disappearing Singapore Sales Deepen Mystery Around Megaspeed",
-      "url": "https://www.wsj.com/business/earnings/nvidias-disappearing-singapore-sales-deepen-mystery-around-megaspeed-7d483180",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50463421",
-        "name": "ea016",
-        "hn_url": "https://news.ycombinator.com/item?id=50463421"
-      },
-      "duration_sec": null,
-      "views": 23,
-      "comments": 2,
-      "published_at": "2026-11-12T05:31:52+00:00",
+      "views": 32,
+      "comments": 1,
+      "published_at": "2026-11-15T22:53:51+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1480,25 +1499,6 @@
       "views": 195,
       "comments": 76,
       "published_at": "2026-11-01T16:23:26+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50128597",
-      "title": "EU negotiates sanctions swap with China to rescue critical ASML supplier",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/eu-negotiates-sanction-swap-with-china-to-rescue-critical-asml-supplier-german-coatings-firm-faces-shutdown-without-chinese-rare-earths",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50128597",
-        "name": "anigbrowl",
-        "hn_url": "https://news.ycombinator.com/item?id=50128597"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 0,
-      "published_at": "2026-10-17T06:49:52+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
       "lang": "en"

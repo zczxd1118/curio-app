@@ -2,7 +2,7 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-15T10:37:51.735934+00:00",
+  "fetched_at": "2026-11-16T10:53:54.726250+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -10,7 +10,7 @@
   "source_stats": {
     "华尔街见闻 API": 0,
     "HN · stock market": 14,
-    "HN · IPO": 25,
+    "HN · IPO": 26,
     "HN · earnings": 1,
     "HN · Federal Reserve": 1,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 60,
+  "total": 61,
   "items": [
     {
       "id": "hn:50346153",
@@ -32,7 +32,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50346153"
       },
       "duration_sec": null,
-      "views": 236,
+      "views": 237,
       "comments": 227,
       "published_at": "2026-11-03T00:08:53+00:00",
       "summary": "",
@@ -51,8 +51,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50492993"
       },
       "duration_sec": null,
-      "views": 217,
-      "comments": 55,
+      "views": 218,
+      "comments": 56,
       "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -92,6 +92,25 @@
       "views": 164,
       "comments": 158,
       "published_at": "2026-11-05T21:39:26+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50510005",
+      "title": "Do House members' stock trades beat the market? A test of 8,900 trades",
+      "url": "https://arkanumdata.com/research/house-trades",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50510005",
+        "name": "Bluestein",
+        "hn_url": "https://news.ycombinator.com/item?id=50510005"
+      },
+      "duration_sec": null,
+      "views": 114,
+      "comments": 122,
+      "published_at": "2026-11-15T19:46:02+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -268,25 +287,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50467092",
-      "title": "Jensen Huang resigning effective immediately",
-      "url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-ceo-03al5m45ne1p.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50467092",
-        "name": "chrisss395",
-        "hn_url": "https://news.ycombinator.com/item?id=50467092"
-      },
-      "duration_sec": null,
-      "views": 27,
-      "comments": 23,
-      "published_at": "2026-11-12T13:52:48+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
       "id": "hn:50465829",
       "title": "Anthropic IPO",
       "url": "https://ipo.anthropic.com/us/",
@@ -298,8 +298,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50465829"
       },
       "duration_sec": null,
-      "views": 1002,
-      "comments": 916,
+      "views": 1004,
+      "comments": 918,
       "published_at": "2026-11-12T11:46:41+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -515,6 +515,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50507517",
+      "title": "A Human Reads the Anthropic IPO Filing",
+      "url": "https://www.nytimes.com/2026/11/15/business/anthropic-ipo-filing-prospectus.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50507517",
+        "name": "saikatsg",
+        "hn_url": "https://news.ycombinator.com/item?id=50507517"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 10,
+      "published_at": "2026-11-15T15:18:06+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50445463",
       "title": "Anthropic Targets $1.4T Valuation in IPO",
       "url": "https://www.bloomberg.com/news/videos/2026-11-10/anthropic-targets-1-4-trillion-valuation-in-ipo-video",
@@ -622,7 +641,7 @@
       },
       "duration_sec": null,
       "views": 188,
-      "comments": 258,
+      "comments": 259,
       "published_at": "2026-11-02T14:40:05+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -641,7 +660,7 @@
       },
       "duration_sec": null,
       "views": 34,
-      "comments": 74,
+      "comments": 76,
       "published_at": "2026-11-13T14:34:13+00:00",
       "summary": "",
       "matched_keyword": "IPO",

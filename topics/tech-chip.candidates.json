@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-15T10:38:04.670735+00:00",
+  "fetched_at": "2026-11-16T10:54:06.637086+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,8 +11,8 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 31,
-    "HN · semiconductor": 2,
+    "HN · Nvidia": 32,
+    "HN · semiconductor": 1,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/the-sound-of-smarter-farming/",
+      "title": "The Sound of Smarter Farming",
+      "url": "https://www.eetimes.com/the-sound-of-smarter-farming/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Rebecca Pool",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-16T06:59:20+00:00",
+      "summary": "From birdsong and pollinator wingbeats to the vibrations of insects feeding inside plants, acoustic sensors and AI are helping farmers monitor biodiversity, improve pollination, and detect threats to crops. The post The Sound of Smarter Farming appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/nova-scotia-bets-on-microelectronics-integration-not-chip-fabs/",
       "title": "Nova Scotia Bets on Microelectronics Integration, Not Chip Fabs",
       "url": "https://www.eetimes.com/nova-scotia-bets-on-microelectronics-integration-not-chip-fabs/",
@@ -201,7 +218,7 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-13T18:00:00+00:00",
+      "published_at": "2026-11-13T20:00:00+00:00",
       "summary": "Atlantic Canada’s coastal engineering cluster is turning specialized components and rugged hardware into exportable tools for subsea research, security, and resource markets. The post Nova Scotia Bets on Microelectronics Integration, Not Chip Fabs appeared first on EE Times.",
       "lang": "en"
     },
@@ -342,23 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/automotive-tech-forum-panel-discussion-the-make-or-break-milestones-toward-level-4-autonomous-driving/",
-      "title": "Automotive Tech Forum: Panel Discussion the Make-or-Break Milestones Toward Level 4 Autonomous Driving",
-      "url": "https://www.eetimes.com/automotive-tech-forum-panel-discussion-the-make-or-break-milestones-toward-level-4-autonomous-driving/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "AspenCore Events",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-11T23:39:41+00:00",
-      "summary": "Explore the road to Level 4 autonomy as experts tackle safety, AI, regulation, and trust—watch the Automotive Tech Forum panel. The post Automotive Tech Forum: Panel Discussion the Make-or-Break Milestones Toward Level 4 Autonomous Driving appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50479721",
       "title": "TSMC Hacked",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50459703"
       },
       "duration_sec": null,
-      "views": 1225,
-      "comments": 1646,
+      "views": 1226,
+      "comments": 1649,
       "published_at": "2026-11-11T22:31:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -427,8 +427,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50493251"
       },
       "duration_sec": null,
-      "views": 1074,
-      "comments": 638,
+      "views": 1103,
+      "comments": 650,
       "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -465,8 +465,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50477231"
       },
       "duration_sec": null,
-      "views": 815,
-      "comments": 691,
+      "views": 818,
+      "comments": 692,
       "published_at": "2026-11-13T02:16:24+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -503,7 +503,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50416801"
       },
       "duration_sec": null,
-      "views": 494,
+      "views": 495,
       "comments": 422,
       "published_at": "2026-11-08T20:26:43+00:00",
       "summary": "",
@@ -522,7 +522,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50473190"
       },
       "duration_sec": null,
-      "views": 457,
+      "views": 460,
       "comments": 499,
       "published_at": "2026-11-12T19:51:33+00:00",
       "summary": "",
@@ -541,8 +541,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50501631"
       },
       "duration_sec": null,
-      "views": 425,
-      "comments": 216,
+      "views": 446,
+      "comments": 236,
       "published_at": "2026-11-14T22:26:30+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -560,8 +560,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50487864"
       },
       "duration_sec": null,
-      "views": 383,
-      "comments": 214,
+      "views": 385,
+      "comments": 215,
       "published_at": "2026-11-13T18:40:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -599,8 +599,27 @@
       },
       "duration_sec": null,
       "views": 292,
-      "comments": 139,
+      "comments": 140,
       "published_at": "2026-11-03T07:04:50+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50512235",
+      "title": "What's Next for Nvidia?",
+      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50512235",
+        "name": "zdw",
+        "hn_url": "https://news.ycombinator.com/item?id=50512235"
+      },
+      "duration_sec": null,
+      "views": 254,
+      "comments": 323,
+      "published_at": "2026-11-15T23:55:55+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -636,8 +655,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50492993"
       },
       "duration_sec": null,
-      "views": 217,
-      "comments": 55,
+      "views": 218,
+      "comments": 56,
       "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -663,6 +682,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50511982",
+      "title": "Jensen Huang might return to Nvidia as CEO",
+      "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50511982",
+        "name": "YakubYilmaz",
+        "hn_url": "https://news.ycombinator.com/item?id=50511982"
+      },
+      "duration_sec": null,
+      "views": 166,
+      "comments": 159,
+      "published_at": "2026-11-15T23:24:53+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50497155",
       "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
       "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
@@ -674,9 +712,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50497155"
       },
       "duration_sec": null,
-      "views": 138,
-      "comments": 68,
+      "views": 146,
+      "comments": 70,
       "published_at": "2026-11-14T14:09:25+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50509883",
+      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50509883",
+        "name": "eyalitki",
+        "hn_url": "https://news.ycombinator.com/item?id=50509883"
+      },
+      "duration_sec": null,
+      "views": 124,
+      "comments": 117,
+      "published_at": "2026-11-15T19:31:11+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -731,8 +788,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50483391"
       },
       "duration_sec": null,
-      "views": 80,
-      "comments": 14,
+      "views": 81,
+      "comments": 13,
       "published_at": "2026-11-13T13:45:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -807,47 +864,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50491690"
       },
       "duration_sec": null,
-      "views": 49,
+      "views": 50,
       "comments": 46,
       "published_at": "2026-11-13T23:34:06+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50424604",
-      "title": "Nvidia's China Problem [pdf]",
-      "url": "https://culperresearch.com/wp-content/uploads/2026/05/Culper_NVDA_5-13-2026.pdf",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50424604",
-        "name": "Erikun",
-        "hn_url": "https://news.ycombinator.com/item?id=50424604"
-      },
-      "duration_sec": null,
-      "views": 43,
-      "comments": 19,
-      "published_at": "2026-11-09T12:20:45+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50416679",
-      "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50416679",
-        "name": "specialp",
-        "hn_url": "https://news.ycombinator.com/item?id=50416679"
-      },
-      "duration_sec": null,
-      "views": 43,
-      "comments": 11,
-      "published_at": "2026-11-08T20:14:16+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -864,8 +883,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50467087"
       },
       "duration_sec": null,
-      "views": 4045,
-      "comments": 3449,
+      "views": 4052,
+      "comments": 3463,
       "published_at": "2026-11-12T13:52:29+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -883,8 +902,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50459321"
       },
       "duration_sec": null,
-      "views": 410,
-      "comments": 538,
+      "views": 412,
+      "comments": 540,
       "published_at": "2026-11-11T22:03:58+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -902,9 +921,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50471621"
       },
       "duration_sec": null,
-      "views": 185,
+      "views": 186,
       "comments": 64,
       "published_at": "2026-11-12T18:14:18+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50498051",
+      "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50498051",
+        "name": "marginalia_nu",
+        "hn_url": "https://news.ycombinator.com/item?id=50498051"
+      },
+      "duration_sec": null,
+      "views": 61,
+      "comments": 43,
+      "published_at": "2026-11-14T15:58:57+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -924,25 +962,6 @@
       "views": 58,
       "comments": 2,
       "published_at": "2026-11-12T20:36:59+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50498051",
-      "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50498051",
-        "name": "marginalia_nu",
-        "hn_url": "https://news.ycombinator.com/item?id=50498051"
-      },
-      "duration_sec": null,
-      "views": 57,
-      "comments": 39,
-      "published_at": "2026-11-14T15:58:57+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1000,25 +1019,6 @@
       "views": 195,
       "comments": 76,
       "published_at": "2026-11-01T16:23:26+00:00",
-      "summary": "",
-      "matched_keyword": "semiconductor",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50128597",
-      "title": "EU negotiates sanctions swap with China to rescue critical ASML supplier",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/eu-negotiates-sanction-swap-with-china-to-rescue-critical-asml-supplier-german-coatings-firm-faces-shutdown-without-chinese-rare-earths",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50128597",
-        "name": "anigbrowl",
-        "hn_url": "https://news.ycombinator.com/item?id=50128597"
-      },
-      "duration_sec": null,
-      "views": 11,
-      "comments": 0,
-      "published_at": "2026-10-17T06:49:52+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",
       "lang": "en"
