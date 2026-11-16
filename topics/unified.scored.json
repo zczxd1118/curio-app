@@ -1,102 +1,104 @@
 {
-  "date": "2026-11-15",
-  "intro": "今天只有一个真信号：黄仁勋因丑闻即刻辞任 Nvidia CEO，董事会已接触 Arm CEO Rene Haas，员工请愿、马斯克联署、亚洲政府表态、AI 初创融资预期下修全在同一周发生。第二条线是 Anthropic IPO 被信用评级机构按\"高收益债\"定价，1.4T 估值与\"垃圾级\"同时出现，说明这轮 AI 资本周期开始被当成信用事件而非成长故事来审。",
+  "date": "2026-11-16",
+  "intro": "今天最重要的信号只有一个：Nvidia 的权力真空。Jensen Huang 因丑闻辞任后，董事会搜帅、员工请愿、国会收紧 AI 芯片出口、亚洲政府表态，全部在 72 小时内发生，而 Anthropic IPO 的信用评级争议同时把「AI 资本泡沫」摆上台面。这两条其实是同一件事：AI 产业过去两年靠「叙事 + 单一强人 + 单一供应商」支撑，现在三根支柱同时松动。",
   "headlines": [
     {
       "rank": 1,
-      "domain": "电子信息与芯片",
+      "domain": "AI 算力 / 半导体",
       "id": "hn:50467087",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "source": "lldb",
       "stars": 5,
-      "title": "黄仁勋即刻辞任 Nvidia CEO：丑闻、疑似对华芯片转运与继任者真空同时爆发",
-      "lead": "11 月 12 日 Nvidia 宣布黄仁勋即刻辞任 CEO，起因是与其直接下属的恋情，随后 Reuters、NYT 追加报道称存在第二、第三段关系，其中一人所在公司 Megaspeed 正被新加坡与美国调查是否向中国转运受限 GPU。董事会已接触 Arm CEO Rene Haas 接任。这不是一次体面的交接，而是一家 4 万亿美元市值公司在一周内失去唯一对外叙事者。",
+      "title": "Jensen Huang 辞任 Nvidia CEO，牵出 Megaspeed 走私调查与第二段办公室关系",
+      "lead": "11 月 12 日 Huang 即刻辞任，AP 报道把导火索指向新加坡 Megaspeed 涉嫌向中国转运受限 GPU 的调查，以及他与直接下属的私人关系。三天内董事会启动继任搜索、Arm CEO Rene Haas 被接触、员工请愿签名破 15 万、Elon Musk 公开联署要求复职。这不是一次普通的高管更替，而是 Nvidia 治理结构的压力测试。",
       "confirmed": [
-        "11 月 12 日 Nvidia 官方公告黄仁勋即刻辞任 CEO，董事会发布正式声明",
-        "Reuters/NYT 报道其与直接下属存在关系，其中涉及 Megaspeed 高管，该公司正被新加坡起诉相关高管并接受美国调查",
-        "FT 报道董事会已接触 Arm CEO、前 Nvidia 高管 Rene Haas 讨论接任",
-        "员工请愿与马斯克等科技高管联署要求复职，签名数已超 11.5 万",
-        "TechCrunch 报道其离职后 AI 初创融资预期下修，VC 预计支票变小、估值走低"
+        "Huang 于 11 月 12 日辞去 Nvidia CEO 职务，董事会同步启动继任者搜索",
+        "FT 报道 Arm CEO Rene Haas 已被接触，Huang 本人也在与盟友讨论回归可能",
+        "员工请愿要求复职的签名数已超过 15 万，Elon Musk 等科技高管公开联署",
+        "董事 Mark Stevens 在 8 月底至 9 月中卖出约 420 万股、套现近 9.47 亿美元，无预设交易计划",
+        "分析师称超过 1.5GW 的受限 GPU 已流入中国，Megaspeed 是核心节点",
+        "美国国会两党正推动进一步收紧 AI 芯片对华出口规则"
       ],
       "judgment": [
-        "辞任是\"即刻生效\"还是过渡期安排，官方措辞与后续是否保留董事席位尚不清晰",
-        "Megaspeed 芯片转运调查与黄个人关系的因果关系，目前只有媒体关联报道，无监管定性",
-        "Rene Haas 是否真的会离开 Arm，Arm 与 Nvidia 存在竞争关系，接任存在治理障碍",
-        "Nvidia 的 CUDA 生态与客户关系是否因创始人离场而松动，短期看不到数据",
-        "对中国出口管制的执行口径会不会因此收紧，取决于美国商务部后续动作"
+        "Huang 是否真的会回归、以什么身份回归，目前只有 FT 的匿名信源，未经公司确认",
+        "Megaspeed 调查与 Huang 辞职之间的因果链尚未被官方证实，可能只是时间上的巧合",
+        "董事高位套现是否涉及内幕交易，目前无监管立案，只是时间点可疑",
+        "继任者若来自外部（如 Haas），Nvidia 的 CUDA 生态与客户关系能否平滑过渡存疑",
+        "员工请愿更像情绪表达，对董事会决策的实际权重无法量化"
       ],
-      "implication": "你不需要关心八卦，但要关心两件事：一是 Nvidia 的软件栈与开发者关系是否因换帅而变慢，这直接影响你本地跑模型的硬件选型；二是如果出口管制收紧，国内可用的推理卡供给会更紧，做 Agent 项目时把模型调用层做成可切换的抽象层，比押注单一供应商更划算。"
+      "implication": "你不需要关心八卦，但要关心一件事：Nvidia 的「单一强人 + 单一供应商」结构正在被重新定价。如果你在做任何依赖 GPU 成本假设的项目规划，这周开始应该把「供应与定价的不确定性」写进风险项。另外，这类事件是观察「公司治理如何影响技术路线」的绝佳样本，值得存一份时间线。"
     },
     {
       "rank": 2,
       "domain": "股票",
-      "id": "rss:https://www.netinterest.co/p/a-bankers-guide-to-anthropic",
-      "url": "https://www.netinterest.co/p/a-bankers-guide-to-anthropic",
-      "source": "Marc Rubinstein",
+      "id": "hn:50507517",
+      "url": "https://www.nytimes.com/2026/11/15/business/anthropic-ipo-filing-prospectus.html",
+      "source": "saikatsg",
       "stars": 5,
-      "title": "Anthropic IPO 被当成信用事件定价：1.4T 估值目标对上\"高收益债\"评级",
-      "lead": "Marc Rubinstein 在 Net Interest 上把这轮 IPO 拆成一张银行家的资产负债表：Anthropic 目标 1.4 万亿美元估值，但 Blackstone 与信用评级机构给出的信号是投资级无望、按高收益债（垃圾级）定价。同时 Michael Burry 公开称其\"拿存在性下注乐观预期\"，IPO 文件里还写了可能\"临近\"递归自我改进的风险提示。这是第一次有前沿实验室的上市被资本市场用债务而非股权的框架来审。",
+      "title": "Anthropic IPO 招股书被逐页读完：目标 1.4 万亿美元估值，信用评级却可能是「垃圾级」",
+      "lead": "Anthropic 的 S-1 目标估值 1.4 万亿美元，但 Blackstone 与信用评级机构给出的信号是「投资级未必拿得到」。招股书里最刺眼的一句是「可能已临近递归自我改进（RSI）」，同时公司承认 IPO 前触发了某项关键安全警报。Michael Burry 直接说这是在「赌上存在」。",
       "confirmed": [
-        "FT 报道 Blackstone 称 Anthropic IPO 后可能拿不到投资级评级",
-        "TechCrunch 报道其预计获得信用机构的高收益（垃圾）级评级",
-        "Bloomberg 报道 IPO 目标估值 1.4 万亿美元，WSJ 报道大机构对该估值持怀疑",
-        "IPO 文件包含\"可能临近递归自我改进（RSI）\"的风险披露",
-        "Michael Burry 公开质疑其估值逻辑"
+        "Anthropic IPO 目标估值 1.4 万亿美元，S-1 已公开",
+        "Blackstone 表示其未必能拿到投资级评级，信用机构倾向给出高收益（垃圾）级",
+        "招股书风险章节写明公司可能「imminently」接近递归自我改进",
+        "公司在 IPO 前数日披露一项关键 AI 安全警报被触发",
+        "Michael Burry 公开称 Anthropic 是在「betting its existence」",
+        "Net Interest 将其定性为「一次信用事件而非单纯股权事件」"
       ],
       "judgment": [
-        "1.4T 估值是否会被下调，取决于路演反馈，目前只有\"目标\"没有定价区间",
-        "把 RSI 写进 S-1 是风险披露还是叙事营销，监管与学界解读不一",
-        "高收益评级会推高其算力采购的融资成本，但具体条款未公开",
-        "这轮 AI 资本周期是否已从成长股切换到信用周期，需要看后续几家的定价",
-        "对下游 API 价格的影响方向不明：融资贵可能涨价，也可能为抢份额降价"
+        "1.4 万亿估值能否在路演中被机构接受，目前只有卖方口径，买方公开质疑声已出现",
+        "「临近 RSI」是法律免责话术还是真实技术判断，外部无法验证",
+        "安全警报的具体内容未披露，无法判断是公关动作还是实质风险",
+        "若评级落在垃圾级，其融资成本会如何传导到整个 AI 基建的债务链条，尚无模型",
+        "IPO 时点是否在抢在 AI 泡沫破裂前，属于事后才能验证的判断"
       ],
-      "implication": "如果你在做 content-curator 这类依赖 API 的项目，现在该做的是把成本模型写进 README：记录每千 token 的实际花费和可替换的备选模型。一旦头部实验室的融资成本上升，API 定价波动会比过去两年更频繁，能一键切换供应商的架构就是你的护城河。"
+      "implication": "这是本周最值得你完整读一遍的原始文件——不是读新闻，是读 S-1 本身。它同时是「AI 公司如何向公众描述自身风险」的范本，和「估值叙事如何与信用现实脱节」的案例。你做 content-curator 这类项目，理解「一手文件 > 二手解读」的价值，比读十篇评论有用。"
     },
     {
       "rank": 3,
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "source": "Sarah Perez",
+      "id": "hn:50472260",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "source": "jonbaer",
       "stars": 4,
-      "title": "ChatGPT Wallet 上线：Agent 可以直接替你下单结账，先对美国 Pro 用户灰度",
-      "lead": "OpenAI 推出 ChatGPT Wallet，让 Agent 在用户授权下完成购物与结账，首批面向美国 Pro 订阅者灰度。这是 Agent 从\"给建议\"跨到\"动钱\"的一步，也是把支付凭证、商户协议、风控责任三件事同时塞进对话界面的第一次大规模尝试。对做 Agent 的人来说，这是工具调用链里最敏感的一环被官方接管。",
+      "title": "Gemini 4 Hydrogen 接入 Google Antigravity，同时发布 Orchestrator 多 Agent 编排层",
+      "lead": "Google 在两周内连发 Gemini 4 Carbon、Hydrogen 两代模型，Hydrogen 直接进 Antigravity 并配了 Orchestrator。Carbon 已经在 Artificial Analysis 智能指数 v5 上排第一。节奏之快说明 Google 现在把模型迭代当成产品发布在做，而不是研究里程碑。",
       "confirmed": [
-        "TechCrunch 报道 ChatGPT Wallet 已上线，支持 Agent 代用户购物与结账",
-        "首批灰度范围是美国 Pro 订阅用户",
-        "该功能建立在 ChatGPT 已有的工具调用与商户集成之上"
+        "Gemini 4 Hydrogen 已在 Google Antigravity 平台上线，附带 Orchestrator 编排组件",
+        "Gemini 4 Carbon 在 Artificial Analysis Intelligence Index v5 上排名第一",
+        "Google 在 10 月底至 11 月中连续发布 Carbon、Hydrogen 两代模型及 Decisions API、Omni 1.2 Flash",
+        "Antigravity 官方博客明确把 Orchestrator 定位为多 Agent 协同层",
+        "Gemini 4 Carbon 已向开发者全面开放"
       ],
       "judgment": [
-        "支付授权是单次确认还是长期令牌，官方未披露细节",
-        "退款、争议与欺诈的责任归属在 OpenAI、商户、用户之间如何划分尚不清晰",
-        "是否会开放第三方 Agent 接入该钱包，目前只有第一方能力",
-        "对独立开发者做电商 Agent 的空间是挤压还是放大，取决于 API 开放程度",
-        "中国区用户短期无法使用，参考价值大于实用价值"
+        "Orchestrator 的具体调度机制、是否兼容第三方 Agent 框架，官方文档尚未展开",
+        "两周两代模型的命名与迭代节奏是否可持续，还是发布压力下的产物",
+        "Carbon 与 Hydrogen 的能力差异是否足以支撑两次独立发布，还是营销切分",
+        "Antigravity 作为新平台，生态与 Claude Code / Cursor 的竞争位势尚未明朗"
       ],
-      "implication": "你的 content-curator 不涉及支付，但这件事的方法论值得抄：把高危动作（花钱、发布、删数据）设计成\"Agent 提议 + 人确认\"的两段式，而不是让模型直接执行。这个模式现在有了官方背书，写进你的项目设计文档里，面试时是个能讲清楚的工程判断。"
+      "implication": "你正在做 Agent 项目，Orchestrator 这一层值得盯——它决定你是自己写调度逻辑，还是直接复用平台能力。建议这周花 30 分钟把 Antigravity 的 Orchestrator 文档过一遍，重点看它如何定义子 Agent 的边界与通信，这和你 content-curator 的多 Agent 结构直接相关。"
     },
     {
       "rank": 4,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware",
-      "source": "Bruno Ferreira",
+      "domain": "AI",
+      "id": "bvid:BV1h3W76wEem",
+      "url": "http://www.bilibili.com/video/av117580048108571",
+      "source": "技术爬爬虾",
       "stars": 4,
-      "title": "研究者称通过权重统计分析判定 DeepSeek、Kimi 用了被禁的 Nvidia Blackwell 训练",
-      "lead": "一项新研究用模型权重的统计特征反推训练硬件，称 DeepSeek、Kimi 等中国模型的权重与 Nvidia Blackwell 高度相关，即使用了受出口管制的芯片。方法本身比结论更值得看：它把\"你用了什么卡\"从供应链审计问题变成了可以从公开权重推断的技术问题。",
+      "title": "Claude Desktop 把 Claude Code、Design、Cowork 收进同一个客户端，配 Opus 5.5 成「地表顶级 Agent 软件」",
+      "lead": "Claude Code 从黑乎乎的命令行工具，变成了桌面客户端的完整形态。这条视频是 11 月 8 日发布的一手实测，讲的是 Claude Desktop 这一波功能更新如何把编程、设计、办公三条能力线合并。对重度 Agent 用户来说，这是工具形态的一次实质变化，不是版本号更新。",
       "confirmed": [
-        "Tom's Hardware 报道该研究对多个中国开源模型的权重做了统计分析",
-        "结论指向与 Nvidia Blackwell 硬件的高相关性",
-        "同期马来西亚、新加坡加强了对 Nvidia AI 芯片转运的调查，新加坡已就 917 台服务器起诉一名中国籍高管"
+        "Claude Desktop 已整合 Claude Code、Claude Design、Claude Cowork 三项核心能力",
+        "Claude Code 从纯命令行形态进化为桌面客户端内的完整模块",
+        "当前搭配的模型为 Opus 5.5",
+        "视频发布于 11 月 8 日，属近期一手实测内容"
       ],
       "judgment": [
-        "权重统计能否可靠区分 Blackwell 与 Hopper，学界尚无同行评审共识",
-        "相关性不等于因果，也可能来自蒸馏或微调路径的间接痕迹",
-        "这一结论若被监管采信，会改变开源模型发布的风险评估方式",
-        "对国内开发者使用这些开源权重是否有合规风险，目前无明确说法",
-        "研究方法是否可复现，取决于是否放出代码与数据集"
+        "桌面端整合后，命令行工作流（脚本化、CI 集成）是否被削弱，尚需实测",
+        "Opus 5.5 在长任务上的稳定性，单条视频不足以定论",
+        "Cowork 的办公能力与 Code 的编程能力共享上下文时，隔离机制如何设计未说明"
       ],
-      "implication": "你做模型评测相关的内容时，可以关注这类\"从产物反推过程\"的方法论——它和 RAG 里做来源归因是同一类思路。如果代码开源，值得跑一遍看看结论稳不稳，这比转述结论有价值得多。"
+      "implication": "如果你现在还在纯终端里跑 Claude Code，这周值得花 20 分钟试一下桌面端——重点不是界面，而是看它能否把「写代码」和「写文档/做设计」放进同一个上下文。这对你 content-curator 这种「代码 + 内容」混合项目可能是效率拐点。"
     },
     {
       "rank": 5,
@@ -105,134 +107,140 @@
       "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
       "source": "PLenz",
       "stars": 4,
-      "title": "Tesla 停产 Cybertruck，同周开放 Cybercab 预订：299 美元月费连马斯克都说贵",
-      "lead": "Tesla 确认将逐步停产 Cybertruck，这款车从发布到停产没跑完一个完整产品周期。同一周它向\"精选客户\"开放 Cybercab 预订，售价 29990 美元外加每月 299 美元订阅费，附带地理围栏限制，马斯克本人称月费\"太高\"。一边砍掉失败产品，一边把未验证的自动驾驶当成订阅生意卖，这是 Tesla 叙事压力的直接体现。",
+      "title": "Tesla 停产 Cybertruck，同时 Cybercab 以 29990 美元 + 299 美元/月开放预订",
+      "lead": "Cybertruck 在上市数年、销量持续低迷后停产；另一边 Cybercab 以「个人使用」名义开放预订，带地理围栏限制，月费 299 美元——连 Musk 自己都说这个价格「太高」。一停一开之间，Tesla 的产品线正在做一次硬切换。",
       "confirmed": [
-        "NBC News 与 heise 报道 Tesla 将结束 Cybertruck 生产，原因是销量不佳",
-        "Tesla 向精选客户开放 Cybercab 预订，定价 29990 美元 + 每月 299 美元",
-        "预订附带地理限制，The Verge 与 TechCrunch 均指出条款细则严格",
-        "马斯克公开表示 299 美元月费\"太高\"",
-        "韩国消费者机构指控 Tesla 在自动辅助驾驶宣传上误导用户"
+        "Tesla 确认停产 Cybertruck，官方归因于销量低迷",
+        "Cybercab 开放个人用户预订，车价 29990 美元，另收 299 美元/月",
+        "Cybercab 预订附带地理围栏限制，非全区域可用",
+        "Elon Musk 本人公开表示 299 美元月费「too high」",
+        "Tesla 与 SpaceX 两日内合计市值蒸发超 4200 亿美元"
       ],
       "judgment": [
-        "Cybercab 的实际交付时间与无人监管运营范围，官方未给出可验证时间表",
-        "订阅制的法律性质是租车还是软件服务，影响保险与责任划分",
-        "Cybertruck 停产后产线转产什么，未见官方说明",
-        "这一系列动作是否意味着 Tesla 从卖车转向卖出行服务，需要看后续财报口径",
-        "对自动驾驶供应链的订单影响方向不明"
+        "Cybercab 的「个人使用」模式是否真能落地，取决于各地自动驾驶法规，目前只有地理围栏试点",
+        "299 美元月费是否包含保险、维护，官方未说明",
+        "Cybertruck 停产后产线转做什么，尚无明确计划",
+        "市值蒸发与产品决策之间的因果，可能被市场情绪放大"
       ],
-      "implication": "这条对你不是投资信号，是产品信号：把一个未验证的能力包装成订阅制，短期能拉收入，长期会透支信任。你做 content-curator 时同理——先把\"每天稳定出 3 条靠谱的\"做实，再谈自动化和个性化，别反过来。"
+      "implication": "这条放头条是因为它是「产品叙事与商业现实脱节」的清晰案例——Cybertruck 当年发布会的声量，和今天的停产形成完整闭环。你做产品判断时，可以把它当成一个提醒：发布会的热度不等于产品-market fit。"
     }
   ],
   "shortlist": [
     {
-      "domain": "AI",
-      "title": "Claude(Code) 桌面 APP 保姆级全攻略：Code、Design、Cowork 收进同一个客户端",
-      "url": "http://www.bilibili.com/video/av117580048108571",
-      "source": "技术爬爬虾",
-      "one_liner": "11 月 8 日的新内容，讲 Claude Code 从命令行进化到桌面完全体，附 Opus 5.5 实测，是本周最贴你工作流的一条。"
-    },
-    {
-      "domain": "AI",
-      "title": "DeepSeek 新出的 Super Agent 是什么？真有用么？",
-      "url": "http://www.bilibili.com/video/av117564076202051",
-      "source": "程序员鱼皮",
-      "one_liner": "11 月 5 日发布，讲 DeepSeek Harness 团队开源的 Super-agent 与传统 Agent 的差异，时效性好但深度一般。"
-    },
-    {
-      "domain": "AI",
-      "title": "DeepSeek Harness 实测 vs Claude Code：同一模型下工具链差距有多大",
-      "url": "http://www.bilibili.com/video/av117100337236191",
-      "source": "程序员晓刘",
-      "one_liner": "控制变量做得不错——同一个模型换 Harness 对比，能看出插件化与缓存命中对结果的影响，值得看。"
-    },
-    {
-      "domain": "AI",
-      "title": "cccodroid：把 Claude Code 原生装进安卓设备，不 root 不刷机",
-      "url": "http://www.bilibili.com/video/av117462439826705",
-      "source": "Grey-Oak",
-      "one_liner": "全程实机录屏，终端里 pkg install rust 现场打包 APK，工程细节密度高，适合当周末玩具。"
-    },
-    {
-      "domain": "AI",
-      "title": "用 Claude Skill 做高质量 PPT 的完整流程",
-      "url": "http://www.bilibili.com/video/av116474832361424",
-      "source": "阿西_出海",
-      "one_liner": "Claude Design 的 Skill 从装到跑出成品，属于 Skills 机制的实操样本，但发布时间偏早。"
+      "domain": "AI 算力 / 半导体",
+      "title": "Nvidia 被指通过投资 AI 初创公司买自家 GPU 来人为制造稀缺",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "source": "speckx",
+      "one_liner": "与 Huang 辞职同源的调查线，讲的是「循环融资」如何推高 GPU 价格，是理解 Nvidia 商业模式争议的关键背景。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "两台 DGX Station 跑 GLM-5.3，vLLM 下达到 607.8 tok/s",
-      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-      "source": "wondersky",
-      "one_liner": "Nvidia 官方博客的部署细节，有具体吞吐数字和 vLLM 配置，属于你要的工程实践类内容。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "律师用 8 张 V100 把 DeepSeek V4.1 Flash 从 2-bit 提到接近 NVFP4 精度",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu",
-      "source": "Shane Downing",
-      "one_liner": "个人自建推理服务器的真实调优记录，含加内存、换电源、精度取舍，比教程有信息量。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia RTX Spark 加密固件把 Linux 上的推理速度压到 35%",
+      "title": "Nvidia RTX Spark 加密固件让 Linux 上推理速度掉到 35%",
       "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
       "source": "novaRom",
-      "one_liner": "如果你考虑用消费级卡做本地推理，这条是反面教材：固件层的限制可能直接砍掉三分之二性能。"
+      "one_liner": "工程细节型内容，对本地跑模型的开发者是硬信息，但影响面限于特定硬件，够不上头条。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "用两块 DGX Station + vLLM 把 GLM-5.3 跑到 607.8 tok/s",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+      "source": "wondersky",
+      "one_liner": "有具体吞吐数字和部署路径的推理优化实践，契合你的工程偏好，但属于单点技术博客。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "法官驳回 Micron、Samsung、SK hynix 的撤诉动议，DRAM 涨价 500% 后共谋证据被认为可信",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge",
+      "source": "Jowi Morales",
+      "one_liner": "内存涨价的法律后果开始显现，对硬件成本判断有用，但进展属程序性。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Intel 自 2025 年以来首次夺回整体 CPU 市场份额",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-reclaims-overall-cpu-market-share-for-the-first-time-since-2025-massive-desktop-gains-offset-amds-record-server-and-mobile-growth",
+      "source": "Anton Shilov",
+      "one_liner": "桌面端回血、服务器端仍被 AMD 拿走，是结构性数据但缺乏戏剧性。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Helen Toner 访谈：开除 Sam Altman 的董事说我们仍然不能信任 AI CEO",
-      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-      "source": "Nilay Patel",
-      "one_liner": "契合你\"想多看 AI 名人访谈\"的偏好，长对话形式，谈治理与信任，比教程稀缺。"
+      "title": "Gemini 4 Carbon 登顶 Artificial Analysis 智能指数 v5",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "source": "theHocineSaad",
+      "one_liner": "评测榜单变化，是模型竞争的直接证据，但已被 Hydrogen 发布盖过风头。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "LangChain 估值达 30 亿美元，LangSmith 称有 7000 家客户",
-      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "source": "Julie Bort",
-      "one_liner": "Agent 工具链公司的商业化数据点，7000 客户这个数字比估值更有参考价值。"
+      "title": "Google 研究员要求公开谈论 AI 的自由，抗议终身封口禁令",
+      "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/",
+      "source": "nsagent",
+      "one_liner": "DeepMind 内部治理冲突，对理解大厂 AI 安全话语的真实张力有价值，但事件已过两周。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Stratechery：The End of Jensen",
-      "url": "https://stratechery.com/2026/the-end-of-jensen/",
-      "source": "Ben Thompson",
-      "one_liner": "本周最值得读的分析视角，把黄仁勋离场放进企业、消费与 Intel 的框架里谈，深度够。"
+      "title": "llama-modchip：在 64GB 内存、无 GPU 的机器上跑 284B 的 DeepSeek",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "source": "joshcsimmons",
+      "one_liner": "纯 CPU 跑大模型的工程实验，有代码可看，但属于个人项目级别的新颖度。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Apple 上线新 app，研究人们如何用 AI 处理健康问题",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "source": "Ivan Mehta",
+      "one_liner": "Apple 在健康 AI 上的用户研究动作，方向值得记一笔，但当前只是研究启动。"
     },
     {
       "domain": "股票",
-      "title": "Nvidia 董事在丑闻爆发前数周卖出近 10 亿美元股票",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-      "source": "LopRabbit",
-      "one_liner": "时间点敏感，但只有单一来源，属于需要等 SEC 文件确认的信息。"
+      "title": "Net Interest：一份银行家视角的 Anthropic 指南——为什么 IPO 是一次信用事件",
+      "url": "https://www.netinterest.co/p/a-bankers-guide-to-anthropic",
+      "source": "Marc Rubinstein",
+      "one_liner": "把 Anthropic IPO 从股权叙事拆成债务结构的长文，是头条那条的最佳补充读物。"
     },
     {
       "domain": "股票",
-      "title": "纳斯达克跌入回调区间，AI 交易在中选后集体撤退",
+      "title": "纳斯达克跌入回调区间，AI 交易在中选后遭抛售",
       "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
       "source": "kristianp",
-      "one_liner": "2.5 万亿美元市值蒸发，是这轮 AI 资本周期转向的宏观背景，但已过去一周多。"
+      "one_liner": "市场层面的宏观背景，解释了为什么 Anthropic 的评级问题此刻格外敏感。"
     },
     {
       "domain": "金融",
-      "title": "美国财政部长质疑 Nvidia 是否知情向空壳公司出售 AI GPU",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that",
-      "source": "Anton Shilov",
-      "one_liner": "Bessent 的表态把芯片转运从企业丑闻升级成监管议题，但尚未有正式指控。"
+      "title": "美国联邦机构被令全面移除 DeepSeek，含基于其构建的第三方工具",
+      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+      "source": "cmrdporcupine",
+      "one_liner": "监管口径从「禁用产品」升级到「禁用衍生工具」，对做国内模型选型的人有实际影响，但已是近一个月前的政策。"
     },
     {
       "domain": "金融",
-      "title": "马来西亚拟用数据中心耗电量追查 AI GPU 走私",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
-      "source": "Anton Shilov",
-      "one_liner": "用功耗反推算力是个有意思的监管思路，但文章自己也指出 TDP 波动会让它失效。"
+      "title": "Cuban 称 Facebook 明知故犯地跑 AI 深度伪造诈骗广告，文件显示 160 亿美元欺诈收入",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "source": "randycupertino",
+      "one_liner": "平台责任与 AI 广告治理的冲突，数字够大，但信源是 Cuban 的公开指控而非调查结论。"
+    },
+    {
+      "domain": "金融",
+      "title": "arXiv：AI 与劳动的两个边际——为什么失业先于就业创造出现",
+      "url": "https://arxiv.org/abs/2611.17530",
+      "source": "Mark Esposito, Liu Zhang",
+      "one_liner": "今天新出的论文，给出了「替代先于创造」的机制解释，适合周末深读，但非本周必看。"
+    },
+    {
+      "domain": "电子信息与芯片",
+      "title": "新加坡称美国在 Megaspeed 疑似间谍公司调查中「不配合」",
+      "url": "https://www.nytimes.com/2026/11/12/business/nvidia-megaspeed-alice-huang.html",
+      "source": "tedd4u",
+      "one_liner": "Huang 辞职事件的地缘政治支线，补充了「芯片走私如何变成外交问题」的视角。"
+    },
+    {
+      "domain": "电子信息与芯片",
+      "title": "TSMC 遭黑客攻击，已向 SEC 提交声明",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
+      "source": "gmays",
+      "one_liner": "一手监管文件，供应链安全事件，但披露内容有限，细节待跟进。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-11-15T12:34:18+0000"
+    "scored_at": "2026-11-16T12:19:08+0000"
   }
 }
