@@ -1,33 +1,42 @@
 # Curio · AI · 2026-11-16
 
-> 今日 1 条头条 + 0 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天最重要的信号只有一个：Nvidia 的权力真空。Jensen Huang 因丑闻辞任后，董事会搜帅、员工请愿、国会收紧 AI 芯片出口、亚洲政府表态，全部在 72 小时内发生，而 Anthropic IPO 的信用评级争议同时把「AI 资本泡沫」摆上台面。这两条其实是同一件事：AI 产业过去两年靠「叙事 + 单一强人 + 单一供应商」支撑，现在三根支柱同时松动。_
+_今天全网只有一个真正的信号：Nvidia 的治理地震。Jensen Huang 因与下属及疑似涉华芯片外流公司高管的关系辞职，董事会已启动继任搜索，员工请愿破 15 万签名，FT 称他在讨论回归。这件事不是八卦，它同时压着 AI 资本开支、出口管制和整个半导体估值——Nasdaq 已跌入回调区间。第二条线是 Anthropic IPO：目标 1.4 万亿美元估值，但信贷机构给的是高收益垃圾级，S-1 里还写着"可能已接近递归自我改进"。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. Claude Desktop 把 Claude Code、Design、Cowork 收进同一个客户端，配 Opus 5.5 成「地表顶级 Agent 软件」
+### 5. Claude Desktop 把 Code、Design、Cowork 收进同一个客户端：Agent 工具正在从 CLI 收敛到桌面
 
 **[AI]** · ⭐⭐⭐⭐ · _技术爬爬虾_
 
-Claude Code 从黑乎乎的命令行工具，变成了桌面客户端的完整形态。这条视频是 11 月 8 日发布的一手实测，讲的是 Claude Desktop 这一波功能更新如何把编程、设计、办公三条能力线合并。对重度 Agent 用户来说，这是工具形态的一次实质变化，不是版本号更新。
+技术爬爬虾 11 月 8 日的视频，讲 Claude 桌面端这一波更新：Claude Code 从黑乎乎的命令行进化成桌面客户端的一部分，和 Claude Design、Claude Cowork 并列。配 Opus 5.5。这条不是新闻，但是本周对你最直接有用的一条——它说明 Agent 工具的形态在变，而你的项目正好在这个交叉点上。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Claude Desktop 已整合 Claude Code、Claude Design、Claude Cowork 三项核心能力 | 桌面端整合后，命令行工作流（脚本化、CI 集成）是否被削弱，尚需实测 |
-| Claude Code 从纯命令行形态进化为桌面客户端内的完整模块 | Opus 5.5 在长任务上的稳定性，单条视频不足以定论 |
-| 当前搭配的模型为 Opus 5.5 | Cowork 的办公能力与 Code 的编程能力共享上下文时，隔离机制如何设计未说明 |
-| 视频发布于 11 月 8 日，属近期一手实测内容 |  |
+| Claude Desktop 已整合 Claude Code、Claude Design、Claude Cowork 三项能力 | 桌面形态是否真的比 CLI 更适合长任务，取决于会话管理和文件系统权限设计 |
+| Claude Code 从纯 CLI 扩展为桌面客户端形态 | Cowork（办公）与 Code 的边界会不会模糊，官方未说明 |
+| 视频发布于 11 月 8 日，配 Opus 5.5 模型 | 对 MCP 生态的影响：桌面客户端可能成为 MCP server 的默认宿主 |
+| 同期 B 站出现 Opus 5.5 性价比横评（10 月 15 日） | 是否会影响 Cursor 这类 IDE 型工具的定位 |
 
 **📖 主编点评**
 
-如果你现在还在纯终端里跑 Claude Code，这周值得花 20 分钟试一下桌面端——重点不是界面，而是看它能否把「写代码」和「写文档/做设计」放进同一个上下文。这对你 content-curator 这种「代码 + 内容」混合项目可能是效率拐点。
+你的 content-curator 现在是 CLI/脚本形态。这条值得你看完的原因是：如果 Agent 的默认宿主正在变成桌面客户端，那你的项目未来要么做成 MCP server 被宿主调用，要么自己就是宿主。提前想清楚这个架构选择，比现在多写两个功能重要。
 
 📺 [打开原文](http://www.bilibili.com/video/av117580048108571)
 
 ---
+
+## 📋 备选阅读
+
+- [Claude Code Agent Teams上手指南+项目实测](http://www.bilibili.com/video/av116037064331269) —— Agent Teams 的 Lead/Teammate 架构 + 真实项目实测。对你的子 Agent 设计有直接参考，但发布时间较早。
+  _程序员阿江-Relakkes_
+- [Vibe Coding 完不会获客？我用 AI 做了一个「营销数据库」！](http://www.bilibili.com/video/av117587245599812) —— 用 Gemini 4 Argon + MCP 做产品获客分析，11 月 10 日发布。是 side project 落地路径的样本。
+  _熠辉IndieDev_
+- [20分钟AI网关保姆级教程](http://www.bilibili.com/video/av117585249042482) —— 1Panel AI 网关，一个 API 管所有模型。11 月 9 日发布，工程细节够，但偏运维。
+  _GeekHour_
 
 ---
 

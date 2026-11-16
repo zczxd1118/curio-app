@@ -1,30 +1,18 @@
 # Curio · 金融 · 2026-11-16
 
-> 今日 1 条头条 + 3 条备选
+> 今日 1 条头条 + 2 条备选
 
-_今天最重要的信号只有一个：Nvidia 的权力真空。Jensen Huang 因丑闻辞任后，董事会搜帅、员工请愿、国会收紧 AI 芯片出口、亚洲政府表态，全部在 72 小时内发生，而 Anthropic IPO 的信用评级争议同时把「AI 资本泡沫」摆上台面。这两条其实是同一件事：AI 产业过去两年靠「叙事 + 单一强人 + 单一供应商」支撑，现在三根支柱同时松动。_
+_今天全网只有一个真正的信号：Nvidia 的治理地震。Jensen Huang 因与下属及疑似涉华芯片外流公司高管的关系辞职，董事会已启动继任搜索，员工请愿破 15 万签名，FT 称他在讨论回归。这件事不是八卦，它同时压着 AI 资本开支、出口管制和整个半导体估值——Nasdaq 已跌入回调区间。第二条线是 Anthropic IPO：目标 1.4 万亿美元估值，但信贷机构给的是高收益垃圾级，S-1 里还写着"可能已接近递归自我改进"。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. Tesla 停产 Cybertruck，同时 Cybercab 以 29990 美元 + 299 美元/月开放预订
+### 1. Tesla to wind down Cybertruck production
 
-**[金融]** · ⭐⭐⭐⭐ · _PLenz_
+**[金融]** · ⭐⭐⭐ · _PLenz_
 
-Cybertruck 在上市数年、销量持续低迷后停产；另一边 Cybercab 以「个人使用」名义开放预订，带地理围栏限制，月费 299 美元——连 Musk 自己都说这个价格「太高」。一停一开之间，Tesla 的产品线正在做一次硬切换。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Tesla 确认停产 Cybertruck，官方归因于销量低迷 | Cybercab 的「个人使用」模式是否真能落地，取决于各地自动驾驶法规，目前只有地理围栏试点 |
-| Cybercab 开放个人用户预订，车价 29990 美元，另收 299 美元/月 | 299 美元月费是否包含保险、维护，官方未说明 |
-| Cybercab 预订附带地理围栏限制，非全区域可用 | Cybertruck 停产后产线转做什么，尚无明确计划 |
-| Elon Musk 本人公开表示 299 美元月费「too high」 | 市值蒸发与产品决策之间的因果，可能被市场情绪放大 |
-| Tesla 与 SpaceX 两日内合计市值蒸发超 4200 亿美元 |  |
-
-**📖 主编点评**
-
-这条放头条是因为它是「产品叙事与商业现实脱节」的清晰案例——Cybertruck 当年发布会的声量，和今天的停产形成完整闭环。你做产品判断时，可以把它当成一个提醒：发布会的热度不等于产品-market fit。
+Cybertruck 停产，1164 分。是本周非 AI 类最高分，但和你的关注面距离较远。
 
 📺 [打开原文](https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817)
 
@@ -32,11 +20,9 @@ Cybertruck 在上市数年、销量持续低迷后停产；另一边 Cybercab �
 
 ## 📋 备选阅读
 
-- [美国联邦机构被令全面移除 DeepSeek，含基于其构建的第三方工具](https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/) —— 监管口径从「禁用产品」升级到「禁用衍生工具」，对做国内模型选型的人有实际影响，但已是近一个月前的政策。
-  _cmrdporcupine_
-- [Cuban 称 Facebook 明知故犯地跑 AI 深度伪造诈骗广告，文件显示 160 亿美元欺诈收入](https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html) —— 平台责任与 AI 广告治理的冲突，数字够大，但信源是 Cuban 的公开指控而非调查结论。
-  _randycupertino_
-- [arXiv：AI 与劳动的两个边际——为什么失业先于就业创造出现](https://arxiv.org/abs/2611.17530) —— 今天新出的论文，给出了「替代先于创造」的机制解释，适合周末深读，但非本周必看。
+- [Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee](https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/) —— 29990 美元 + 每月 299 美元，连 Musk 自己都说月费"太高"。定价策略比产品更有信息量。
+  _Anthony Ha_
+- [AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation](https://arxiv.org/abs/2611.17530) —— arXiv 新论文，解释为什么 AI 的岗位替代先于岗位创造出现。理论框架清晰，适合周末读。
   _Mark Esposito, Liu Zhang_
 
 ---
