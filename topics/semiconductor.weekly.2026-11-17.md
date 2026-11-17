@@ -1,44 +1,65 @@
 # Curio · AI 算力 / 半导体 · 2026-11-17
 
-> 今日 1 条头条 + 5 条备选
+> 今日 2 条头条 + 4 条备选
 
-_今天全网只有一个真信号：Nvidia 的权力真空。Jensen Huang 因丑闻即刻辞职，董事会另设国家安全委员会、Arm 的 Rene Haas 被接触、Huang 又在谈回归，同时美国商务部收紧远程算力出口管制。另一条线是 Anthropic IPO 的信用面——$1.4T 目标估值对上垃圾级评级，AI 泡沫的定价权正在从叙事转向债市。_
+_今天最重要的信号只有一个：Nvidia 的权力真空已经从八卦变成产业事件——黄仁勋辞职、董事会设国家安全委员会、美国收紧远程算力出口、Anthropic 以 1.4 万亿美元估值推进 IPO 同时被质疑信用评级。第二条线是 AI Agent 开始产生法律后果：加州总检察长起诉 OpenAI 的越界 Agent，Apple 在 macOS 27.3 加权限闸门。你该把注意力从"模型发布"挪到"谁为 Agent 行为负责"。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. 美国 BIS 新规堵住「云租算力」漏洞：出口管制的对象从芯片变成算力本身
+### 1. 黄仁勋即刻辞任 Nvidia CEO，4055 分登顶 HN：一次绯闻如何演变成 4 万亿美元公司的治理危机
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Oliver Haslam_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _lldb_
 
-BIS 发布临时最终规则，要求企业若可能向中国等受限国家提供算力，出口 AI 芯片需先取得许可，明确针对通过海外数据中心远程调用绕开实体出口管制的做法。这是管制逻辑的一次换轨：过去管的是硬件过境，现在管的是算力可达性。对做推理部署和跨境 API 的人来说，这是基础设施层的规则变化。
+11 月 12 日黄仁勋即刻辞任，导火索是与直接下属的关系及新加坡 Megaspeed 相关的对华走私调查。董事会随后设立国家安全与出口管制监督委员会，临时 CEO 由 CFO Colette Kress 接手，周二财报成为她职业生涯最大的一天。这不是一次普通换帅，而是把 Nvidia 的出口合规风险从法务部推到了董事会层面。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| BIS 已发布 interim final rule，将远程访问纳入出口管制范围 | 具体执行口径（如何判定「可能提供算力」）尚未明确，合规成本可能被低估 |
-| 规则要求对可能向中国提供算力的芯片出口申请许可证 | 对已建成海外集群的中国公司实际封堵效果存疑，取证难度大 |
-| NPR 与 Tom's Hardware 均确认此举是对 Nvidia 事件的直接政策回应 | 是否会波及第三国云厂商的转售业务，目前无明确豁免条款 |
-| 该规则与 Nvidia 董事会新设的出口管制监督委员会同期出现 | 政策是否会在 Nvidia 新 CEO 落定后调整，存在变数 |
+| 黄仁勋于 2026-11-12 即刻辞任 Nvidia CEO，结束 33 年任期 | "绯闻导致辞职"与"走私调查导致辞职"的因果顺序尚未被独立证实，多数为匿名信源 |
+| 董事会新设国家安全与出口管制监督委员会，聘请外部法律与贸易合规专家 | 董事会称不考虑让黄仁勋回归，但 FT 报道其正与盟友讨论复出，两种说法互相矛盾 |
+| 临时 CEO 为长期 CFO Colette Kress，Q3 财报定于本周二发布 | 1.5GW 走私芯片的规模数字来自分析师估算，非官方口径 |
+| 报道称其与一名直接下属存在关系，新加坡 Megaspeed 公司被指涉对华 GPU 转运 | Kress 能否稳住大客户与供应链关系，要看周二财报电话会的措辞 |
+| 美国 BIS 同期发布临时最终规则，限制通过远程访问绕开芯片出口管制 | Nvidia 长期护城河是否依赖黄仁勋个人，Stratechery 已给出悲观判断但缺乏数据支撑 |
 
 **📖 主编点评**
 
-如果你在评估任何跨境推理方案（海外 API、海外 GPU 租用），现在要把「合规可持续性」当成和延迟、价格同级的选型维度。具体动作：查一遍你依赖的推理服务商的机房所在地与实体归属，别等到限流那天才发现链路在管制清单上。
+你不需要关心绯闻细节，需要关心的是：Nvidia 的软件栈（CUDA、TensorRT-LLM、DGX 云）会不会因为治理动荡而放缓迭代。如果你在做推理部署选型，这周别急着锁定 Nvidia 专有栈，把 vLLM 这类可迁移层的抽象做厚一点，成本很低。
+
+📺 [打开原文](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f)
+
+---
+
+### 5. 哈佛研究：403 座美国超大规模数据中心一年耗电 82 TWh，超过密歇根州全州 80%，54% 来自煤电与气电
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Shane Downing_
+
+发表在 Nature Sustainability 的哈佛主导研究给出迄今最细的一份账单：403 座美国超大规模数据中心年耗电约 82 TWh，占全美用电 2%，一年排放 2600 万吨 CO2，54% 电力来自天然气与煤。同期 Constellation Energy 在财报会上表示不担心民主党放缓数据中心建设。算力的环境成本正在从公关话题变成财务与监管变量。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 403 座美国超大规模数据中心年耗电约 82 TWh | 82 TWh 的统计口径是否包含自备电厂与备用容量未说明 |
+| 相当于密歇根州全年用电量的 80% 以上，占全美约 2% | "超大规模"的界定标准会影响总量可比性 |
+| 一年排放约 2600 万吨 CO2 | 各州后续的电价与碳约束政策走向不明 |
+| 54% 电力来自天然气与煤炭 | 数据中心自建核电/绿电的替代速度尚无统一数据 |
+| 研究由哈佛主导，发表于 Nature Sustainability | AI 训练与推理的耗电拆分仍缺公开数据 |
+
+**📖 主编点评**
+
+这条和你做推理优化直接挂钩：能耗正在变成可量化的成本项，也是可写进简历的优化目标。下次做模型部署实验时，顺手记录 tokens/s per watt，比只报延迟更有说服力。
 
 ---
 
 ## 📋 备选阅读
 
-- [Nvidia 被指通过投资 AI 初创、再让它们回购 GPU 来人为制造稀缺](https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus) —— 1112 分的指控性报道，与 Anthropic 的 $900B 承诺互为注脚，但证据链仍是「allegedly」，放备选。
-  _speckx_
-- [Nvidia 在 Supercomputing 2026 发布 Rubin HPC GPU，5 万+ CUDA 核心，2028 到货](https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028) —— 路线图本身是硬事实，但 2028 太远，且现在由临时 CEO 背书，可信度打折。
+- [Nvidia 董事会设国家安全与出口管制监督委员会](https://www.tomshardware.com/tech-industry/policy/nvidia-board-establishes-national-security-and-export-control-oversight-committee-in-wake-of-jensen-huang-scandal) —— 今日发布，是头条 1 的治理侧补充。信息量小于主事件，放备选避免重复。
+  _Jowi Morales_
+- [美国新规限制中国企业远程访问 AI 服务器与算力基础设施](https://www.tomshardware.com/tech-industry/artificial-intelligence/new-us-rules-aim-to-restrict-remote-access-to-ai-servers-and-infrastructure-seeks-to-combat-cloud-rental-workarounds-to-gpu-export-controls) —— BIS 临时最终规则，堵云租用绕道。对国内做推理部署的人是硬约束，值得单独知道。
+  _Oliver Haslam_
+- [Nvidia 发布 Rubin HPC GPU：5 万+ CUDA 核心，2028 年到货](https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028) —— SC26 发布，主打 agentic HPC 负载。时间线到 2028，对当下选型影响有限。
   _Jeffrey Kampman_
-- [哈佛研究：403 个美国超大规模数据中心一年耗电 82 TWh，超密歇根全州 80%](https://www.tomshardware.com/tech-industry/data-centers/403-hyperscale-us-data-centers-used-staggering-82-terawatts-of-electricity-in-a-year-more-than-80-percent-of-michigans-entire-consumption-generated-26-million-tons-of-co2-in-a-single-year-gas-and-coal-supplied-54-percent-of-the-power-harvard-led-study-estimates) —— Nature Sustainability 上的硬数据，54% 电力来自煤和气，是 AI 成本叙事里最容易被忽略的一项。
-  _Shane Downing_
-- [TSMC 向 SEC 提交文件披露遭黑客入侵](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm) —— 一手监管文件，但披露内容极简，影响面待评估，先记一笔。
-  _gmays_
-- [Nvidia DGX 双机跑 GLM-5.3，vLLM 下达到 607.8 tok/s](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) —— 有具体吞吐数字和 vLLM 配置的工程文，符合你的偏好，但属于官方博客的软性内容。
-  _wondersky_
+- [AMD 拿下新 TOP500 榜单 40%+ 份额，同比涨 14%](https://www.tomshardware.com/tech-industry/supercomputers/amd-grabs-over-40-percent-of-new-top500-list-for-supercomputers-up-14-percent-since-last-year-new-lux-system-developed-between-amd-and-doe-debuts-at-no-14-with-epyc-cpus-and-instinct-mi355x-gpus) —— Lux 系统首秀第 14 名，AMD 与 DOE 的 10 亿美元合作落地。硬件格局的慢变量。
+  _Jake Roach_
 
 ---
 
