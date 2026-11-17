@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-16T10:54:01.704207+00:00",
+  "fetched_at": "2026-11-17T11:39:21.596726+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,7 +11,7 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 16,
+    "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 1,
     "HN · inflation": 0,
     "HN · Tesla": 6,
@@ -19,8 +19,42 @@
     "HN · fed": 17
   },
   "subtopics": [],
-  "total": 83,
+  "total": 68,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/",
+      "title": "Apple Permissions Update, The New App Paradigm, My iPhone Duo Review",
+      "url": "https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-17T11:00:00+00:00",
+      "summary": "Apple doesn't ruin the Mac, but they don't fix the agent problem, raising questions if they can think outside the app paradigm. Then, my iPhone Duo review.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://stratechery.com/2026/obituaries/",
+      "title": "Obituaries",
+      "url": "https://stratechery.com/2026/obituaries/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-16T11:02:49+00:00",
+      "summary": "The demise of Jensen Huang was the end of a great many things, including Nvidia's long-term prospects, the AI bubble, and the exceptional way in which the U.S. viewed itself in the world.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/the-end-of-jensen/",
       "title": "2026.46: The End of Jensen",
@@ -155,40 +189,6 @@
       "views": null,
       "published_at": "2026-11-06T11:00:00+00:00",
       "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
-      "title": "An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI",
-      "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-05T11:00:00+00:00",
-      "summary": "An interview with Intuit CEO Sasan Goodarzi about the working for one of tech's oldest software companies, and how Intuit is leaning into the AI paradigm shift.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/ai-on-the-ballot/",
-      "title": "AI on the Ballot",
-      "url": "https://stratechery.com/2026/ai-on-the-ballot/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-04T11:00:00+00:00",
-      "summary": "Data Centers were on the ballot, and they lost in a major way; what does it mean if American opposition to building is permanent?",
       "lang": "en"
     },
     {
@@ -532,278 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arxiv.org/abs/2611.17530",
-      "title": "AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation",
-      "url": "https://arxiv.org/abs/2611.17530",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Mark Esposito, Liu Zhang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2611.17530v1 Announce Type: new Abstract: Technological change acts on labor demand at two margins: adjustment within established activities and the creation of additional activities, often by new firms. Payroll statistics record the first promptly and the second late. In the computing era, firms that entered in 1978 or later held 42 percent of payroll by 1998 and entering cohorts kept about 80 percent of their payroll after five years; in the industries most exposed to automation, incumbe...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.17902",
-      "title": "Well-Posedness of Semimartingale Optimal Transport with Partial Marginal Constraints for Model Calibration",
-      "url": "https://arxiv.org/abs/2611.17902",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Jean-Fran\\c{c}ois Chassagneux, St\\'ephane Cr\\'epey, Gr\\'egoire Loeper, Justin Ruelland",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2611.17902v1 Announce Type: new Abstract: We study the well-posedness and stability of a semimartingale optimal transport problem with partial marginal constraints at several maturities, motivated by the calibration of financial models to finitely many option prices. We connect its probabilistic and Eulerian formulations within the Benamou--Brenier framework. Under convex-duality assumptions, we establish strong duality for every price vector in the extended-value sense and existence of a ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.17942",
-      "title": "Mapping NGFS Climate Pathways to GICS Sectors: Application to Portfolio Decarbonization",
-      "url": "https://arxiv.org/abs/2611.17942",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Maxime Jourand, Adel Medjabri",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2611.17942v1 Announce Type: new Abstract: Portfolio climate alignment is limited by the mismatch between asset managers' sector classifications and those of climate scenarios. This article proposes an NGFS-GICS mapping based on the materiality of Scope 1 and 2 GHG emissions rather than on semantic similarity. The mapping feeds a Sectoral Decarbonization Approach that down-scales NGFS trajectories into GICS sector pathways at portfolio level, adjusted for regional exposure. Applied to two i...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.17984",
-      "title": "Menu Design Meets Market Design: Strategic Simplicity vs. Choice Complexity",
-      "url": "https://arxiv.org/abs/2611.17984",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Gian Caspari, Paul Erg\\\"un Hild, Michael Hilweg-Waldeck, Manshu Khanna, Vincent Meisner",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2611.17984v1 Announce Type: new Abstract: Strategic simplicity removes the incentive to misreport preferences, but it does not ensure that participants can identify what they prefer. We study this distinction in a laboratory experiment on serial dictatorships, where optimal play only requires choosing one's favorite bundle of real-effort tasks. Participants make fifteen incentivized choices among bundles that vary in how many tasks they combine. They choose either from a large menu or thro...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.18150",
-      "title": "Who Should Be on the Panel? Task-Conditioned Persona Selection for LLM Trading Agents",
-      "url": "https://arxiv.org/abs/2611.18150",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Boming Yang, Yuquan Wang, Jiaxian Guo, Yusuke Iwasawa, Yutaka Matsuo",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2611.18150v1 Announce Type: new Abstract: Multi-agent LLM systems are built by fixing a cast of roles and then designing how the cast coordinates. Which agents should make up the group for a given task is left to the designer, and the same cast is reused for every task. Financial trading makes the cost of that choice visible: stocks trade differently, and the trading styles suited to one need not suit another. We study task-conditioned persona selection, composing the group from the charac...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.18214",
-      "title": "Local Stochastic Volatility Iterations",
-      "url": "https://arxiv.org/abs/2611.18214",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Christian Bayer, Denis Belomestny, Paul P. Hager, John Schoenmakers",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2611.18214v1 Announce Type: new Abstract: We propose a calibration method for local stochastic volatility models that determines the leverage factor by a fixed-point iteration. Each iteration simulates the model with the current leverage factor and approximates the conditional expectation of the stochastic variance given the spot by a single regression in time and state, with a quasi-likelihood loss for positive responses. The resulting leverage factor is a smooth function of time and spot...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.17515",
-      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
-      "url": "https://arxiv.org/abs/2611.17515",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Harrison C. Margolin",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2611.17515v1 Announce Type: cross Abstract: Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market simulation built from real case transcripts. Across 260 simulations, the agent is asked to collude on the price of silver by a counterparty. We draw from behavioral economics to vary the counterparty's requests across four categorical frames: gain, loss, blame...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.18367",
-      "title": "DECODE: Decomposable Environments for COntrolled Sequential-Decision Evaluation",
-      "url": "https://arxiv.org/abs/2611.18367",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Diego Silva Prado, Bruno Caldas de Souza, Tiago Amaral Penteado de Jesus, Ricardo Guimar\\~aes Herrmann, Cristiano Breuel, Cristiano Bevitori Maffia De Oliveira",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2611.18367v1 Announce Type: cross Abstract: When a sequential decision system falls short of an optimum, its score does not reveal which modifications would improve its decisions. DECODE is a benchmark for testing such modifications through controlled experiments on planning and available information. Its consumer-credit collections generator provides five partially observed environments that share known dynamics matrices and vary a memory parameter and process noise. The experiments chang...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.18531",
-      "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
-      "url": "https://arxiv.org/abs/2611.18531",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Thomas Brennan, Andrew W. Lo, Chaoyi Zhao",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2611.18531v1 Announce Type: cross Abstract: Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices between them, and whether experience can make those choices reflect human judgments and withstand subsequent pressures. In our model, copies of an agent face a common uncertain reward state, and only those taking the rewarded action reproduce. We show ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2408.03134",
-      "title": "Incomplete-market CAPM equilibria in continuous time",
-      "url": "https://arxiv.org/abs/2408.03134",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Nikolaos Constantinou, Christoph Czichowsky, Martin Herdegen, David Martins",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2408.03134v3 Announce Type: replace Abstract: We study continuous-time CAPM equilibria with general mean-variance preferences of the form $U(\\mu,\\sigma)$, where $U$ is strictly quasiconcave, increasing in the mean $\\mu$ and decreasing in the volatility $\\sigma$ of terminal wealth. Our framework accommodates both financial and productive assets with nontradeable endowments. We allow for equilibria driven by general semimartingales in the case of linear mean-variance preferences and by conti...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2506.16355",
-      "title": "Social Media Can Suppress or Fuel Misinformation at Its Source, Depending on Civic Engagement",
-      "url": "https://arxiv.org/abs/2506.16355",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Gavin Wang, Haofei Qin, Xiao Tang, Lynn Wu",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2506.16355v2 Announce Type: replace Abstract: Social media is widely viewed as a channel for spreading misinformation, but its effects may begin earlier, by shaping whether misinformation is produced in the first place. We examine whether social media suppresses or amplifies the supply of misinformation and identify civic engagement as a key boundary condition. Using data on the GDP reporting of Chinese local governments from 2011 to 2019, we find that social media adoption reduces GDP mis...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.31512",
-      "title": "Tolerable Inflation, Intolerable Uncertainty",
-      "url": "https://arxiv.org/abs/2609.31512",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Eric Vansteenberghe",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2609.31512v2 Announce Type: replace Abstract: How much of an inflation deviation a central bank should tolerate is a well-defined optimum in the New Keynesian model, but it cannot be identified: optimal accommodation of supply shocks and an unwarranted drift of the effective inflation target are observationally equivalent. This impossibility has a cost. A public that cannot verify the bank's intention prices each expected point of overshoot, so uncertainty about inflation is flat below the...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.01540",
-      "title": "Social Networks and the Propagation of Household Shocks to Asset Prices",
-      "url": "https://arxiv.org/abs/2611.01540",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Faisal Quaiyyum",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2611.01540v3 Announce Type: replace Abstract: When can local household disturbances move credit prices? I develop a financially weighted propagation operator on the social network. In a conditional household-intermediary equilibrium, its projection determines the household-demand component of the excess bond premium. Because responses decay at different rates across network patterns and channels, a location's relative financial importance generically changes with the horizon, so no single ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.15747",
-      "title": "Huge If True: Learning from the Size of the Surprise",
-      "url": "https://arxiv.org/abs/2611.15747",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Thomas Graeber, Christopher Roth, Marco Sammon, Constantin Schesch",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2611.15747v2 Announce Type: replace Abstract: Responses to earnings surprises depend on an unknown multiplier mapping earnings to value. Investors, however, learn about the news and the multiplier from the same number. Large surprises may indicate small multipliers and tiny surprises large ones. We model how greater uncertainty about the multiplier attenuates responses on average but makes them steeper near zero surprises. In an incentivized experiment, we find that greater processing cons...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2605.25610",
-      "title": "Match classification in the last round of four-team round-robin tournaments",
-      "url": "https://arxiv.org/abs/2605.25610",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "L\\'aszl\\'o Csat\\'o, Andr\\'as Gyimesi",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2605.25610v3 Announce Type: replace-cross Abstract: Classification of matches played in the last rounds of sports competitions is a well-established tool for evaluating tournament designs. Our paper offers the first comparison of deterministic and probabilistic match classification models by analysing the most prominent example of four-team round-robin competitions, the group stage of the FIFA World Cup. We show that both models are highly relevant in practice: all (four) deterministic and...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2606.13880",
-      "title": "A Horizon-Specific Attribute-Conditioned Neural Network for Estimating Health-State Transition Probabilities in Irregular Longitudinal Data: The LANTERN Framework",
-      "url": "https://arxiv.org/abs/2606.13880",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Bright Kwaku Manu, Beckett Sterner, Petar Jevtic",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T05:00:00+00:00",
-      "summary": "arXiv:2606.13880v2 Announce Type: replace-cross Abstract: Accurate estimation of health-state transition probabilities is essential for long-term care insurance modeling. Conventional actuarial multi-state models provide an interpretable framework but may be restrictive in capturing nonlinear relationships and accumulated health histories from irregular longitudinal observations. This paper proposes LANTERN, a history-dependent neural framework that integrates recurrent health representations, e...",
-      "lang": "en"
-    },
-    {
       "id": "hn:50142772",
       "title": "How the Fed Is Quietly Inflating the AI Bubble While Hiking Your Electric Bill",
       "url": "https://www.thebignewsletter.com/p/how-the-federal-reserve-secretly",
@@ -834,7 +562,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50391456"
       },
       "duration_sec": null,
-      "views": 1164,
+      "views": 1166,
       "comments": 2119,
       "published_at": "2026-11-06T12:13:51+00:00",
       "summary": "",
@@ -911,7 +639,7 @@
       },
       "duration_sec": null,
       "views": 28,
-      "comments": 49,
+      "comments": 58,
       "published_at": "2026-11-14T00:33:50+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -951,6 +679,25 @@
       "views": 200,
       "comments": 176,
       "published_at": "2026-11-02T19:27:37+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50525658",
+      "title": "Pentagon fails ninth straight audit despite progress in organizing finances",
+      "url": "https://www.reuters.com/business/aerospace-defense/pentagon-fails-ninth-straight-audit-despite-progress-organizing-finances-2026-11-16/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50525658",
+        "name": "petethomas",
+        "hn_url": "https://news.ycombinator.com/item?id=50525658"
+      },
+      "duration_sec": null,
+      "views": 117,
+      "comments": 41,
+      "published_at": "2026-11-17T00:23:21+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1006,27 +753,8 @@
       },
       "duration_sec": null,
       "views": 218,
-      "comments": 56,
+      "comments": 57,
       "published_at": "2026-11-14T02:21:36+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50131440",
-      "title": "US federal budget deficit jumps 12% in one year to nearly $2 Trillion",
-      "url": "https://finance.yahoo.com/economy/policy/article/the-us-federal-budget-deficit-for-2026-just-came-in-its-1992-trillion-191917669.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50131440",
-        "name": "ck2",
-        "hn_url": "https://news.ycombinator.com/item?id=50131440"
-      },
-      "duration_sec": null,
-      "views": 208,
-      "comments": 203,
-      "published_at": "2026-10-17T14:22:05+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1119,8 +847,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50505905"
       },
       "duration_sec": null,
-      "views": 63,
-      "comments": 60,
+      "views": 65,
+      "comments": 65,
       "published_at": "2026-11-15T10:53:50+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -1158,7 +886,7 @@
       },
       "duration_sec": null,
       "views": 60,
-      "comments": 88,
+      "comments": 89,
       "published_at": "2026-11-10T12:49:32+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -1445,6 +1173,25 @@
       "views": 27,
       "comments": 7,
       "published_at": "2026-10-19T13:14:41+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50523346",
+      "title": "The Fed Is Worried AI Agents Could Trigger a Bank Run",
+      "url": "https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50523346",
+        "name": "pera",
+        "hn_url": "https://news.ycombinator.com/item?id=50523346"
+      },
+      "duration_sec": null,
+      "views": 26,
+      "comments": 12,
+      "published_at": "2026-11-16T21:12:02+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"

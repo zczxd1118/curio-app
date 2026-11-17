@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-16T10:54:06.637086+00:00",
+  "fetched_at": "2026-11-17T11:39:26.988207+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 32,
+    "HN · Nvidia": 29,
     "HN · semiconductor": 1,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 55,
+  "total": 52,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,108 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/intesa-sanpaolo-finds-value-before-quantum-computers-are-ready/",
+      "title": "Intesa Sanpaolo Finds Value Before Quantum Computers Are Ready",
+      "url": "https://www.eetimes.com/intesa-sanpaolo-finds-value-before-quantum-computers-are-ready/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-17T09:16:07+00:00",
+      "summary": "The banking group reports double-digit cost savings from quantum-inspired optimization, but useful quantum hardware faces a tougher test than faster calculations. The post Intesa Sanpaolo Finds Value Before Quantum Computers Are Ready appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/taking-a-tour-of-canadas-particle-accelerator/",
+      "title": "Taking a Tour of Canada’s Particle Accelerator",
+      "url": "https://www.eetimes.com/taking-a-tour-of-canadas-particle-accelerator/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-16T17:52:31+00:00",
+      "summary": "Located on Canada’s west coast, TRIUMF’s normal-conducting cyclotron, unique materials probes, and irradiation facilities serve everything from quantum materials and radiation-hardened electronics to medical isotopes. The post Taking a Tour of Canada’s Particle Accelerator appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/simplifying-power-design-with-%c2%b5module-solutions/",
+      "title": "Simplifying Power Design with µModule Solutions",
+      "url": "https://www.eetimes.com/simplifying-power-design-with-%c2%b5module-solutions/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Analog Devices, Arrow Electronics",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-16T17:41:23+00:00",
+      "summary": "Join this webinar to learn how highly integrated power solutions can simplify design, increase power density, and much more. The post Simplifying Power Design with µModule Solutions appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/beyond-low-energy-new-product-frontiers-for-lossless-audio-edge-ai-and-display-streaming/",
+      "title": "Beyond Low Energy: New Product Frontiers for Lossless Audio, Edge-AI and Display Streaming",
+      "url": "https://www.eetimes.com/beyond-low-energy-new-product-frontiers-for-lossless-audio-edge-ai-and-display-streaming/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Telink Semiconductor",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-16T17:19:44+00:00",
+      "summary": "Join our expert-led webinar to discover how the TL753X SoC leverages High Definition Technology (HDT) for innovative applications. The post Beyond Low Energy: New Product Frontiers for Lossless Audio, Edge-AI and Display Streaming appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/silicon-motherboard-enables-double-sided-integration-of-ics-and-passive-components/",
+      "title": "Silicon Motherboard Enables Double-Sided Integration of ICs and Passive Components",
+      "url": "https://www.eetimes.com/silicon-motherboard-enables-double-sided-integration-of-ics-and-passive-components/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nisshinbo Micro Devices",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-16T17:00:00+00:00",
+      "summary": "Nisshinbo's Silicon Motherboard integrates ICs and passives on both sides of a silicon substrate, reducing mounting area by up to 90%. The post Silicon Motherboard Enables Double-Sided Integration of ICs and Passive Components appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/technology-as-a-trojan-horse/",
+      "title": "Technology as a Trojan Horse",
+      "url": "https://www.eetimes.com/technology-as-a-trojan-horse/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Moshe Zalcberg",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-16T13:59:50+00:00",
+      "summary": "Jensen Huang is no longer leading Nvidia, but his Trojan horse question remains, for chips and for the rest of the technology stack: sell and try to control, or don’t sell and maybe delay? The post Technology as a Trojan Horse appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/the-sound-of-smarter-farming/",
       "title": "The Sound of Smarter Farming",
       "url": "https://www.eetimes.com/the-sound-of-smarter-farming/",
@@ -257,108 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/how-novogenius-mcu-devices-are-reshaping-the-automotive-edge-node/",
-      "title": "How NovoGenius® MCU+ Devices Are Reshaping the Automotive Edge Node",
-      "url": "https://www.eetimes.com/how-novogenius-mcu-devices-are-reshaping-the-automotive-edge-node/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Christopher McGrady",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T10:41:03+00:00",
-      "summary": "NOVOSENSE NovoGenius MCU+ chips integrate analog, power, and drivers, adding intelligence to automotive edge nodes for motor control, sensing and lighting. The post How NovoGenius® MCU+ Devices Are Reshaping the Automotive Edge Node appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/jensen-resigns-over-second-affair/",
-      "title": "Jensen Resigns Over Second Affair",
-      "url": "https://www.eetimes.com/jensen-resigns-over-second-affair/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-12T20:48:35+00:00",
-      "summary": "Nvidia CEO’s second affair scandal in a week prompted his resignation, and the board is now searching for a new leader for the company. The post Jensen Resigns Over Second Affair appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/design-smarter-energy-harvesting-for-battery-free-and-low-maintenance-devices-in-safety-security-applications/",
-      "title": "Design Smarter – Energy Harvesting for Battery-Free and Low-Maintenance Devices in Safety & Security applications",
-      "url": "https://www.eetimes.com/design-smarter-energy-harvesting-for-battery-free-and-low-maintenance-devices-in-safety-security-applications/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nexperia",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-12T15:00:00+00:00",
-      "summary": "Battery-powered sensors and detectors underpin modern safety and security systems, yet they create a constant maintenance burden. Hundreds of devices need manual battery swaps, often in hard-to-reach places, interrupting reliability and raising costs.This document paper shows hardware and system designers how to power devices from ambient energy. It covers the full energy chain, offers a [&#8230;] The post Design Smarter &#8211; Energy Harvesting for Battery-Free and Low-Maintenance Devices in S...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/can-machines-see-a-sick-plant-before-a-farmer-can/",
-      "title": "Can Machines See a Sick Plant Before a Farmer Can?",
-      "url": "https://www.eetimes.com/can-machines-see-a-sick-plant-before-a-farmer-can/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-12T13:00:00+00:00",
-      "summary": "Soybean disease research shows the promise of hyperspectral imaging, while semiconductor advances could make spectral sensing affordable for farmers. The post Can Machines See a Sick Plant Before a Farmer Can? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/connecting-ai-to-the-physical-world/",
-      "title": "Connecting AI to the Physical World",
-      "url": "https://www.eetimes.com/connecting-ai-to-the-physical-world/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Eric K. C. Tsang, CEO and founder, Vicinity Technologies Limited",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-12T10:20:00+00:00",
-      "summary": "Why specialized wireless devices and SDR software IP matter to the next wave of intelligent machines The post Connecting AI to the Physical World appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/harari-warns-tech-leaders-against-pursuing-ai-superintelligence/",
-      "title": "Harari Warns Tech Leaders Against Pursuing AI Superintelligence",
-      "url": "https://www.eetimes.com/harari-warns-tech-leaders-against-pursuing-ai-superintelligence/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pablo Valerio",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-12T08:30:00+00:00",
-      "summary": "At Gartner IT Symposium/Xpo 2026, philosopher Yuval Noah Harari makes an appeal to delay artificial superintelligence as it threatens to erode human agency and democratic sovereignty. The post Harari Warns Tech Leaders Against Pursuing AI Superintelligence appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50479721",
       "title": "TSMC Hacked",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
@@ -409,7 +409,7 @@
       },
       "duration_sec": null,
       "views": 1226,
-      "comments": 1649,
+      "comments": 1646,
       "published_at": "2026-11-11T22:31:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -427,8 +427,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50493251"
       },
       "duration_sec": null,
-      "views": 1103,
-      "comments": 650,
+      "views": 1112,
+      "comments": 649,
       "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -466,7 +466,7 @@
       },
       "duration_sec": null,
       "views": 818,
-      "comments": 692,
+      "comments": 695,
       "published_at": "2026-11-13T02:16:24+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -511,6 +511,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50512235",
+      "title": "What's Next for Nvidia?",
+      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50512235",
+        "name": "zdw",
+        "hn_url": "https://news.ycombinator.com/item?id=50512235"
+      },
+      "duration_sec": null,
+      "views": 473,
+      "comments": 577,
+      "published_at": "2026-11-15T23:55:55+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50473190",
       "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
       "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
@@ -523,7 +542,7 @@
       },
       "duration_sec": null,
       "views": 460,
-      "comments": 499,
+      "comments": 503,
       "published_at": "2026-11-12T19:51:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -541,8 +560,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50501631"
       },
       "duration_sec": null,
-      "views": 446,
-      "comments": 236,
+      "views": 451,
+      "comments": 240,
       "published_at": "2026-11-14T22:26:30+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -560,7 +579,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50487864"
       },
       "duration_sec": null,
-      "views": 385,
+      "views": 386,
       "comments": 215,
       "published_at": "2026-11-13T18:40:44+00:00",
       "summary": "",
@@ -587,39 +606,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50348962",
-      "title": "Nvidia – open-source auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
+      "id": "hn:50518567",
+      "title": "Nvidia was in trouble before the Jensen Huang mess",
+      "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50348962",
-        "name": "campervans",
-        "hn_url": "https://news.ycombinator.com/item?id=50348962"
+        "id": "50518567",
+        "name": "Brajeshwar",
+        "hn_url": "https://news.ycombinator.com/item?id=50518567"
       },
       "duration_sec": null,
-      "views": 292,
-      "comments": 140,
-      "published_at": "2026-11-03T07:04:50+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50512235",
-      "title": "What's Next for Nvidia?",
-      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50512235",
-        "name": "zdw",
-        "hn_url": "https://news.ycombinator.com/item?id=50512235"
-      },
-      "duration_sec": null,
-      "views": 254,
-      "comments": 323,
-      "published_at": "2026-11-15T23:55:55+00:00",
+      "views": 276,
+      "comments": 246,
+      "published_at": "2026-11-16T15:24:09+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -656,8 +656,27 @@
       },
       "duration_sec": null,
       "views": 218,
-      "comments": 56,
+      "comments": 57,
       "published_at": "2026-11-14T02:21:36+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50511982",
+      "title": "Jensen Huang might return to Nvidia as CEO",
+      "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50511982",
+        "name": "YakubYilmaz",
+        "hn_url": "https://news.ycombinator.com/item?id=50511982"
+      },
+      "duration_sec": null,
+      "views": 177,
+      "comments": 190,
+      "published_at": "2026-11-15T23:24:53+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -682,25 +701,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50511982",
-      "title": "Jensen Huang might return to Nvidia as CEO",
-      "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50511982",
-        "name": "YakubYilmaz",
-        "hn_url": "https://news.ycombinator.com/item?id=50511982"
-      },
-      "duration_sec": null,
-      "views": 166,
-      "comments": 159,
-      "published_at": "2026-11-15T23:24:53+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:50497155",
       "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
       "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
@@ -712,8 +712,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50497155"
       },
       "duration_sec": null,
-      "views": 146,
-      "comments": 70,
+      "views": 149,
+      "comments": 71,
       "published_at": "2026-11-14T14:09:25+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -731,8 +731,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50509883"
       },
       "duration_sec": null,
-      "views": 124,
-      "comments": 117,
+      "views": 135,
+      "comments": 132,
       "published_at": "2026-11-15T19:31:11+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -864,7 +864,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50491690"
       },
       "duration_sec": null,
-      "views": 50,
+      "views": 51,
       "comments": 46,
       "published_at": "2026-11-13T23:34:06+00:00",
       "summary": "",
@@ -883,8 +883,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50467087"
       },
       "duration_sec": null,
-      "views": 4052,
-      "comments": 3463,
+      "views": 4055,
+      "comments": 3475,
       "published_at": "2026-11-12T13:52:29+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -943,63 +943,6 @@
       "views": 61,
       "comments": 43,
       "published_at": "2026-11-14T15:58:57+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50473868",
-      "title": "Jensen Huang Third Affair Allegations Revealed",
-      "url": "https://www.forbes.com/sites/alisondurkee/2026/11/12/jensen-huang-had-a-third-affair-with-another-nvidia-employee-report-says/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50473868",
-        "name": "FinnLobsien",
-        "hn_url": "https://news.ycombinator.com/item?id=50473868"
-      },
-      "duration_sec": null,
-      "views": 58,
-      "comments": 2,
-      "published_at": "2026-11-12T20:36:59+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50427486",
-      "title": "Commerce Dept Inquiry into Megaspeed Halted After Nvdia Intervention",
-      "url": "https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50427486",
-        "name": "louiereederson",
-        "hn_url": "https://news.ycombinator.com/item?id=50427486"
-      },
-      "duration_sec": null,
-      "views": 55,
-      "comments": 6,
-      "published_at": "2026-11-09T16:10:07+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50459679",
-      "title": "Jensen Huang had a second affair – with an employee",
-      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50459679",
-        "name": "justswim",
-        "hn_url": "https://news.ycombinator.com/item?id=50459679"
-      },
-      "duration_sec": null,
-      "views": 52,
-      "comments": 59,
-      "published_at": "2026-11-11T22:29:27+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

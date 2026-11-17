@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-16T10:53:54.726250+00:00",
+  "fetched_at": "2026-11-17T11:39:14.058233+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 14,
-    "HN · IPO": 26,
+    "HN · stock market": 13,
+    "HN · IPO": 22,
     "HN · earnings": 1,
     "HN · Federal Reserve": 1,
     "Bilibili · 股票分析": 0,
@@ -18,27 +18,8 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 61,
+  "total": 56,
   "items": [
-    {
-      "id": "hn:50346153",
-      "title": "Intel stock collapse worsens as $3.5T chip rout spreads",
-      "url": "https://finance.yahoo.com/markets/article/the-intel-stock-collapse-is-getting-worse--and-the-37-trillion-chip-rout-is-spreading-212154947.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50346153",
-        "name": "entryleveljobsc",
-        "hn_url": "https://news.ycombinator.com/item?id=50346153"
-      },
-      "duration_sec": null,
-      "views": 237,
-      "comments": 227,
-      "published_at": "2026-11-03T00:08:53+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
     {
       "id": "hn:50492993",
       "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
@@ -52,27 +33,8 @@
       },
       "duration_sec": null,
       "views": 218,
-      "comments": 56,
+      "comments": 57,
       "published_at": "2026-11-14T02:21:36+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50342284",
-      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
-      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50342284",
-        "name": "smartmic",
-        "hn_url": "https://news.ycombinator.com/item?id=50342284"
-      },
-      "duration_sec": null,
-      "views": 200,
-      "comments": 176,
-      "published_at": "2026-11-02T19:27:37+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -108,8 +70,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50510005"
       },
       "duration_sec": null,
-      "views": 114,
-      "comments": 122,
+      "views": 125,
+      "comments": 133,
       "published_at": "2026-11-15T19:46:02+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -261,7 +223,7 @@
       },
       "duration_sec": null,
       "views": 60,
-      "comments": 88,
+      "comments": 89,
       "published_at": "2026-11-10T12:49:32+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -287,6 +249,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50467092",
+      "title": "Jensen Huang resigning effective immediately",
+      "url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-ceo-03al5m45ne1p.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50467092",
+        "name": "chrisss395",
+        "hn_url": "https://news.ycombinator.com/item?id=50467092"
+      },
+      "duration_sec": null,
+      "views": 27,
+      "comments": 23,
+      "published_at": "2026-11-12T13:52:48+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
       "id": "hn:50465829",
       "title": "Anthropic IPO",
       "url": "https://ipo.anthropic.com/us/",
@@ -298,8 +279,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50465829"
       },
       "duration_sec": null,
-      "views": 1004,
-      "comments": 918,
+      "views": 1005,
+      "comments": 921,
       "published_at": "2026-11-12T11:46:41+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -488,7 +469,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50351712"
       },
       "duration_sec": null,
-      "views": 34,
+      "views": 35,
       "comments": 82,
       "published_at": "2026-11-03T13:26:43+00:00",
       "summary": "",
@@ -526,7 +507,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50507517"
       },
       "duration_sec": null,
-      "views": 21,
+      "views": 23,
       "comments": 10,
       "published_at": "2026-11-15T15:18:06+00:00",
       "summary": "",
@@ -548,82 +529,6 @@
       "views": 16,
       "comments": 2,
       "published_at": "2026-11-10T19:56:11+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50456668",
-      "title": "Anthropic says a key AI safety alarm has been triggered, days before its IPO",
-      "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50456668",
-        "name": "healsdata",
-        "hn_url": "https://news.ycombinator.com/item?id=50456668"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 12,
-      "published_at": "2026-11-11T18:23:31+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50251762",
-      "title": "Anthropic Is the Most Ridiculous IPO of 2026 [pdf]",
-      "url": "https://www.newconstructs.com/wp-content/uploads/2026/10/Anthropic-Is-The-Most-Ridiculous-IPO-of-2026.pdf",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50251762",
-        "name": "simonebrunozzi",
-        "hn_url": "https://news.ycombinator.com/item?id=50251762"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 5,
-      "published_at": "2026-10-26T22:06:15+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50243343",
-      "title": "Anthropic rushing IPO before AI bubble bursts",
-      "url": "https://nypost.com/2026/10/23/business/wall-street-is-urging-anthropic-openai-to-do-their-ipos-in-a-hurry-heres-why/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50243343",
-        "name": "nothrowaways",
-        "hn_url": "https://news.ycombinator.com/item?id=50243343"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 2,
-      "published_at": "2026-10-26T13:30:05+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50386483",
-      "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
-      "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50386483",
-        "name": "sandinmyjoints",
-        "hn_url": "https://news.ycombinator.com/item?id=50386483"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 3,
-      "published_at": "2026-11-06T00:17:47+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
