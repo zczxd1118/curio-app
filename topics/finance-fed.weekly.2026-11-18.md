@@ -1,28 +1,29 @@
 # Curio · 金融 · 2026-11-18
 
-> 今日 1 条头条 + 1 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天真正的信号只有一个：Nvidia 的权力交接已经落地成事实——董事会明确表态不打算让 Jensen Huang 回归，同时公司宣布退出中国市场、继续推进收购 Hugging Face、并给出继续增长的营收指引。围绕这条主线，Anthropic IPO 的信用评级与估值争议、以及 AI 资本市场的整体回撤，是第二层信号。AI 编程工具侧今天没有硬新闻，候选池里多是教程存量，我按你的口味只挑了有工程细节的。_
+_今天只有一条真正的大事：Nvidia 董事会明确表示不会让 Jensen Huang 回归，同时临时 CEO 宣布停止向中国销售芯片、SEC 立案、Q3 财报照旧创纪录。这不是八卦收尾，而是 AI 算力供应链的一次结构性换挡。第二条值得盯的是 Anthropic IPO 前曝光的股权结构——Amazon 与 Google 合计将持有近 30%。其余领域今天偏噪音，我按域各留了能看的。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. 美联储开始担心 AI Agent 引发挤兑：代理决策会把慢动作的恐慌压缩成秒级
+### 5. 美联储开始担心 AI Agent 会引发挤兑：当所有 Agent 同时读到同一条坏消息
 
-**[金融]** · ⭐⭐⭐⭐ · _pera_
+**[金融]** · ⭐⭐⭐ · _pera_
 
-Gizmodo 报道美联储内部在讨论一个新风险：当大量存款决策由 AI Agent 代劳时，原本需要数天的挤兑过程可能被压缩到几分钟。逻辑不复杂——人类有犹豫、有睡眠、有社交缓冲，Agent 没有。这条对做 Agent 的人是反向提醒：你设计的自动化程度越高，越需要考虑「它会不会在无人监督时做出不可逆的集体行为」。
+这条是今天金融域里唯一有前瞻性的。逻辑不复杂：如果大量存款决策被交给读同样新闻、跑同样模型的 Agent，恐慌会以机器速度同步，传统存款保险和流动性缓冲的时间窗口被压缩。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 美联储内部正在讨论 AI Agent 可能加速银行挤兑的风险 | 是否已有具体监管提案或时间表，报道未提及 |
-| 担忧的核心是代理决策消除了人类反应的时间延迟 | Agent 在真实银行系统中的渗透率是否足以构成系统性风险，缺乏数据 |
-| 该讨论目前处于风险识别阶段，尚无监管规则草案 | 「秒级挤兑」是理论推演还是有模拟支撑，原文未说明 |
+| 美联储内部已就 AI Agent 可能引发银行挤兑的风险展开讨论 | 美联储是否已进入正式研究或监管议程，报道未说明 |
+| 担忧的核心是同质化 Agent 在同一信息下做出同步决策 | 同步决策的实际概率缺乏实证，目前是情景推演 |
+| 讨论发生在 Nvidia 动荡与 AI 板块大幅回调的同一周 | 现有流动性监管框架是否需要修改，无任何提案 |
+| Gizmodo 报道，未附美联储官方文件编号 | 这条与本周市场波动的因果关系，报道未建立 |
 
 **📖 主编点评**
 
-这条看似离你很远，其实是你项目里迟早会遇到的问题：content-curator 现在是只读的，但只要你给它加上「自动发布」或「自动调用付费 API」的权限，你就成了那个需要设计熔断机制的人。建议你现在就在项目里留一个「不可逆操作需人工确认」的开关，成本很低，以后省很多事。
+这条星数不高，但概念值得记住：Agent 的同质化是个系统性风险，不只是产品问题。落到你手上——如果你以后做多 Agent 协作，别让所有子 Agent 用同一个模型、同一份 prompt、同一个数据源，那等于给自己造了一个单点故障。异构化是工程上的必要设计，不是可选项。
 
 📺 [打开原文](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566)
 
@@ -30,8 +31,12 @@ Gizmodo 报道美联储内部在讨论一个新风险：当大量存款决策由
 
 ## 📋 备选阅读
 
-- [Oracle 申请发行 200 亿美元新股与债券为 AI 建设融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 基建融资从股权转向债务的又一个样本，和 Anthropic 的信用评级问题可以对照看。发布于两周前。
+- [Oracle files to sell $20B in new stock, bonds to finance AI buildout](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— 200 亿美元增发加发债搞 AI 基建。AI 资本开支从"利润投入"转向"举债"的标志性动作，两周前的但没被充分讨论。
   _smartmic_
+- [A $300B 'Debt Wall' Is Looming over Private-Equity Backed Companies](https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497) —— 3000 亿美元 PE 债务到期墙。和 AI 基建举债是同一枚硬币的两面，明年再融资环境会很难。
+  _JumpCrisscross_
+- [Do House members' stock trades beat the market? A test of 8,900 trades](https://arkanumdata.com/research/house-trades) —— 8900 笔议员交易的回测。方法干净、结论克制，属于"数据说话"类内容，周末有空可以读。
+  _Bluestein_
 
 ---
 
