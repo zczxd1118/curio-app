@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-17T11:39:21.596726+00:00",
+  "fetched_at": "2026-11-18T11:26:15.187788+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,16 +11,33 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 0,
-    "HN · Federal Reserve": 1,
+    "arXiv q-fin（量化金融论文）": 16,
+    "HN · Federal Reserve": 0,
     "HN · inflation": 0,
-    "HN · Tesla": 6,
+    "HN · Tesla": 5,
     "HN · finance": 15,
     "HN · fed": 17
   },
   "subtopics": [],
-  "total": 68,
+  "total": 83,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+      "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
+      "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T11:00:00+00:00",
+      "summary": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/",
       "title": "Apple Permissions Update, The New App Paradigm, My iPhone Duo Review",
@@ -172,23 +189,6 @@
       "views": null,
       "published_at": "2026-11-06T18:14:42+00:00",
       "summary": "The best Stratechery content from the week of November 2, 2026, including AI on the ballot, a Google state of the union, and China.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/",
-      "title": "Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google’s Response to AI",
-      "url": "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-06T11:00:00+00:00",
-      "summary": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
       "lang": "en"
     },
     {
@@ -532,22 +532,275 @@
       "lang": "en"
     },
     {
-      "id": "hn:50142772",
-      "title": "How the Fed Is Quietly Inflating the AI Bubble While Hiking Your Electric Bill",
-      "url": "https://www.thebignewsletter.com/p/how-the-federal-reserve-secretly",
-      "platform": "hackernews",
+      "id": "rss:https://arxiv.org/abs/2611.21672",
+      "title": "Who sees the sea? Sea-view potential by fa\\c{c}ade and floor from cadastral LoD1 models on the Costa del Sol",
+      "url": "https://arxiv.org/abs/2611.21672",
+      "platform": "rss",
       "source": {
-        "type": "hackernews",
-        "id": "50142772",
-        "name": "toomuchtodo",
-        "hn_url": "https://news.ycombinator.com/item?id=50142772"
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Gabriel Rojo (CASAS.ES)",
+        "feed_title": "q-fin updates on arXiv.org"
       },
       "duration_sec": null,
-      "views": 30,
-      "comments": 14,
-      "published_at": "2026-10-18T16:48:25+00:00",
-      "summary": "",
-      "matched_keyword": "Federal Reserve",
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2611.21672v1 Announce Type: new Abstract: Views are among the most valued and least measured attributes of a home. We present an open-data method that estimates the sea-view potential of every free fa\\c{c}ade of every residential building at three floors (ground, middle and top; other floors take the nearest of them), from cadastral footprints with floor counts and a national terrain model. Run for 158,060 buildings of 21 municipalities on Spain's Costa del Sol in under an hour on two core...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.21897",
+      "title": "Revisiting Equity-Bond Diversification under Tail Risk and Structural Market Change: Evidence from Global ETFs and Model-Implied Option Prices",
+      "url": "https://arxiv.org/abs/2611.21897",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Farzana Afroz, Abootaleb Shirvani, Nicholas Appiah, Svetlozar T. Rachev, Frank J. Fabozzi",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2611.21897v1 Announce Type: new Abstract: This study examines thirty equity--bond and multi-asset exchange-traded funds (ETFs) listed in the United States, Canada, and Australia using daily U.S.-dollar returns over 2020--2024. A rolling-window framework compares minimum-variance and Conditional Value-at-Risk (CVaR) portfolio optimization under long-only and long--short constraints against an equally weighted benchmark. Performance is assessed using risk-adjusted measures, downside risk, ex...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.22119",
+      "title": "An axiomatic foundation for optimized certainty equivalents",
+      "url": "https://arxiv.org/abs/2611.22119",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Christopher Blier-Wong, Jean-Gabriel Lauzier, Zachary Van Oosten",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2611.22119v1 Announce Type: new Abstract: Optimized Certainty Equivalents (OCEs) are an important class of risk measures for optimization and risk management that includes the Mean--Variance criterion, Expected Shortfall, the Entropic Risk Measure, and expectation. Despite their importance, economic axioms have not characterized OCEs. We propose a new axiom called Fair-Coin Compensation, which characterizes OCEs together with Strong Risk Aversion and Normalization. We interpret Fair-Coin C...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.22277",
+      "title": "Explaining Realized Returns: Roll's $R^2$ 40 Years Later",
+      "url": "https://arxiv.org/abs/2611.22277",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Bryan Kelly, Yinan Su, Chao Zhang",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2611.22277v1 Announce Type: new Abstract: Can we explain asset price movements even with hindsight? Reinterpreting Roll's (1988) AFA Presidential Address, \"$R^2$,\" as a modern empirical exercise, we show that conventional macroeconomic, cash-flow, expectations, and flow variables explain less than 10% (often with negative $R^2$) of monthly U.S. equity return variation out of sample and lack daily observations. We use generative AI to extract reasons stated in Wall Street Journal market sum...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.22517",
+      "title": "Clicks, Carbon, and Risk: Climate Attention, Persistent Financial Risk, and Real-Sector Activity",
+      "url": "https://arxiv.org/abs/2611.22517",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Giovanni Angelini, Luca De Angelis",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2611.22517v1 Announce Type: new Abstract: Do shifts in public climate concern alter persistent financial risk and subsequently matter for real activity? We combine daily U.S. sectoral equity returns with a monthly Climate Concern Index (CCI) constructed from internet search intensity and decomposed into adverse and transition-oriented components. GARCH-MIDAS estimates reveal substantial heterogeneity: adverse climate concern raises persistent volatility in carbon-intensive Energy activitie...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.22604",
+      "title": "Beyond Strike Remapping: Conditional-Gamma Pricing of Leveraged ETF Options under Local Volatility",
+      "url": "https://arxiv.org/abs/2611.22604",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Guolin Chen, Jiang Zhou, Richard Ma, Xia Sheng, Anson Tse, Terry Wei",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2611.22604v1 Announce Type: new Abstract: Options on leveraged ETFs (LETFs) are priced and hedged off the LETF volatility surface, but path-dependent variance drag makes that surface difficult to build consistently with the underlying index smile. We study three methods for constructing it: a closed-form first-order strike remapping, a new conditional-Gamma method, and a two-dimensional joint-law PDE that makes no distributional assumption and serves as the benchmark. The conditional-Gamma...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.21641",
+      "title": "RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs",
+      "url": "https://arxiv.org/abs/2611.21641",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Pavel Kireyev",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2611.21641v1 Announce Type: cross Abstract: Deployed LLMs field hundreds of millions of conversations a day and refuse a non-trivial fraction of user requests, yet the user-side cost of refusal, whether users disengage and by how much, is unmeasured on any production model: a blind spot for the consumer-facing platforms built on them. A/B-testing refusal is ethically and operationally constrained on frontier-lab products and unavailable to third-party platforms deploying these models throu...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.22033",
+      "title": "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
+      "url": "https://arxiv.org/abs/2611.22033",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Adi Krishnamoorthy, X. Y. Han",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2611.22033v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly deployed as autonomous shopping agents that process multimodal product listings (consisting of visual and text data) and recommend purchases on behalf of consumers. Naturally, one might assume that models with more thinking power would make higher-quality purchasing decisions. To test this belief, we ask two questions about such agents: does asking a model to think harder make it choose better product...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2009.00868",
+      "title": "Loss-Given-Default Modeling by Post-Last Passage Time Process",
+      "url": "https://arxiv.org/abs/2009.00868",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Masahiko Egami",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2009.00868v5 Announce Type: replace Abstract: We bridge the dichotomy between structural and intensity-based credit models by defining default via the last passage time ($\\lambda_\\alpha$) of a linear diffusion. Because $\\lambda_\\alpha$ is not a stopping time, this approach naturally generates \"surprise\" defaults within an asset-value framework without artificial filtration enlargements. Mathematically, we establish two general results for transient linear diffusions: we derive explicit Lap...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2505.04555",
+      "title": "Just After Minimum Wage Hikes: Short-Run Labor-Demand Response and Reallocation",
+      "url": "https://arxiv.org/abs/2505.04555",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Hayato Kanayama, Sho Miyaji, Suguru Otani",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2505.04555v4 Announce Type: replace Abstract: How labor markets adjust immediately after minimum wage hikes remains an open, policy-relevant question. This paper studies short-run minimum-wage effects in Japan's spot labor market using Timee data and a wage-bin difference-in-differences design. We find a normalized net employment-share change of $-0.010$, with similar estimates for vacancies and total working hours. Weekly and daily estimates show that these effects emerge immediately afte...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2601.05274",
+      "title": "On the use of case estimate and transactional payment data in neural networks for individual loss reserving",
+      "url": "https://arxiv.org/abs/2601.05274",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Benjamin Avanzi, Matthew Lambrianidis, Greg Taylor, Bernard Wong",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2601.05274v2 Announce Type: replace Abstract: The use of neural networks trained on individual claims data has become increasingly popular in the actuarial reserving literature. We consider how to best input historical payment data in neural network models. Additionally, case estimates are also available in the format of a time series, and we extend our analysis to assessing their predictive power. In this paper, we compare a feed-forward neural network trained on summarised transactions t...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2607.08920",
+      "title": "AI Adoption in S&P 500 Firms",
+      "url": "https://arxiv.org/abs/2607.08920",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Yang Yu, Martin Fleming, Lucy Hampton, Christophe Combemale, Neil Thompson",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2607.08920v2 Announce Type: replace Abstract: The adoption of artificial intelligence (AI) by large enterprises is an important potential source of aggregate productivity improvement and labor market impact. We study AI adoption of S&amp;P 500 firms over the period 2016 to 2025, estimating adoption at the enterprise level. While generative AI tools are useful for personal and professional applications, our focus is on the deep integration of AI in the business processes of large enterprise...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.00958",
+      "title": "Quantifying Repair Risk in Crypto Option Surfaces",
+      "url": "https://arxiv.org/abs/2611.00958",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Tenghan Zhong",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2611.00958v3 Announce Type: replace Abstract: Option desks adjust crypto option quotes into price surfaces that remain within bid-ask intervals and satisfy standard no-arbitrage restrictions across strikes before computing Greeks, hedge quantities, or risk measures. For the same quote panel, however, these constraints may admit multiple such surfaces, which we call admissible repairs, with different downstream outputs. We define the resulting variation as repair risk and propose repair-ris...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2611.09751",
+      "title": "Drift-invariant kernels for discount curve models",
+      "url": "https://arxiv.org/abs/2611.09751",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Andreas Celary, Zehra Eksi-Altay, Damir Filipovic, Paul Kr\\\"uhner",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2611.09751v2 Announce Type: replace Abstract: Kernel ridge regression estimates the discount curve as the minimizer of a pricing error plus a penalty given by the norm of a reproducing kernel Hilbert space. By the representer theorem, the estimate lies in a finite-dimensional affine space that depends only on the kernel and on the cash flow dates of the instruments. We ask when this space is invariant under the risk-neutral drift of the discount curve, so that the estimated curves can be t...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2106.00839",
+      "title": "Algorithmic Insurance",
+      "url": "https://arxiv.org/abs/2106.00839",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Dimitris Bertsimas, Agni Orfanoudaki",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2106.00839v4 Announce Type: replace-cross Abstract: When artificial intelligence (AI) systems make errors in high-stakes domains such as medical diagnosis or autonomous driving, a single algorithmic flaw across varying contexts can generate heterogeneous losses that challenge traditional insurance assumptions. Algorithmic insurance, financial coverage for AI-induced damages, is an emerging market, yet insurers struggle to price these risks and AI developers lack frameworks linking system d...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://arxiv.org/abs/2508.05022",
+      "title": "A Multivariate Generalized Cox Model for Dependent and Simultaneous Default Times",
+      "url": "https://arxiv.org/abs/2508.05022",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://export.arxiv.org/rss/q-fin",
+        "name": "Djibril Gueye, Alejandra Quintos",
+        "feed_title": "q-fin updates on arXiv.org"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T05:00:00+00:00",
+      "summary": "arXiv:2508.05022v2 Announce Type: replace-cross Abstract: We propose a framework for dependent default times where each name defaults when an increasing driver crosses an independent unit exponential threshold. As in Gueye and Jeanblanc (2022), the drivers may jump, so defaults may occur at stopping times of the reference filtration, including predictable ones, and a common jump may cause no, one or several simultaneous defaults. For general drivers, we derive the conditional joint survival law ...",
       "lang": "en"
     },
     {
@@ -562,8 +815,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50391456"
       },
       "duration_sec": null,
-      "views": 1166,
-      "comments": 2119,
+      "views": 1167,
+      "comments": 2120,
       "published_at": "2026-11-06T12:13:51+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
@@ -603,25 +856,6 @@
       "views": 84,
       "comments": 66,
       "published_at": "2026-11-06T02:30:25+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50360067",
-      "title": "Tesla allegedly misled South Korean customers about automated-driving tech",
-      "url": "https://www.reuters.com/business/autos-transportation/tesla-misled-south-korean-customers-about-automated-driving-tech-consumer-group-2026-11-04/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50360067",
-        "name": "EA-3167",
-        "hn_url": "https://news.ycombinator.com/item?id=50360067"
-      },
-      "duration_sec": null,
-      "views": 29,
-      "comments": 10,
-      "published_at": "2026-11-04T00:19:50+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -695,8 +929,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50525658"
       },
       "duration_sec": null,
-      "views": 117,
-      "comments": 41,
+      "views": 149,
+      "comments": 64,
       "published_at": "2026-11-17T00:23:21+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -848,7 +1082,7 @@
       },
       "duration_sec": null,
       "views": 65,
-      "comments": 65,
+      "comments": 66,
       "published_at": "2026-11-15T10:53:50+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -1026,6 +1260,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50532322",
+      "title": "A US Federal Women's Prison Became a \"Rape Club\"",
+      "url": "https://www.propublica.org/article/federal-womens-prison-sexual-abuse-reform-dublin-bop",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50532322",
+        "name": "paimapi",
+        "hn_url": "https://news.ycombinator.com/item?id=50532322"
+      },
+      "duration_sec": null,
+      "views": 81,
+      "comments": 40,
+      "published_at": "2026-11-17T15:03:25+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
       "id": "hn:50161207",
       "title": "U.S. Supreme Court to review 1868 federal ban on home distilling of liquor",
       "url": "https://www.staradvertiser.com/2026/10/19/breaking-news/u-s-supreme-court-to-review-1868-federal-ban-on-home-distilling-of-liquor/",
@@ -1159,6 +1412,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50523346",
+      "title": "The Fed Is Worried AI Agents Could Trigger a Bank Run",
+      "url": "https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50523346",
+        "name": "pera",
+        "hn_url": "https://news.ycombinator.com/item?id=50523346"
+      },
+      "duration_sec": null,
+      "views": 27,
+      "comments": 15,
+      "published_at": "2026-11-16T21:12:02+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
       "id": "hn:50152041",
       "title": "Federal judge rules Flock violated the fourth amendment",
       "url": "https://twitter.com/scotus_wire/status/2106487374624514071",
@@ -1173,25 +1445,6 @@
       "views": 27,
       "comments": 7,
       "published_at": "2026-10-19T13:14:41+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50523346",
-      "title": "The Fed Is Worried AI Agents Could Trigger a Bank Run",
-      "url": "https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50523346",
-        "name": "pera",
-        "hn_url": "https://news.ycombinator.com/item?id=50523346"
-      },
-      "duration_sec": null,
-      "views": 26,
-      "comments": 12,
-      "published_at": "2026-11-16T21:12:02+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"

@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-17T11:39:26.988207+00:00",
+  "fetched_at": "2026-11-18T11:26:20.541566+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 29,
+    "HN · Nvidia": 31,
     "HN · semiconductor": 1,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 52,
+  "total": 54,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/edge-ai-moves-agricultural-intelligence-from-the-cloud-to-the-field/",
+      "title": "Edge AI Moves Agricultural Intelligence from the Cloud to the Field",
+      "url": "https://www.eetimes.com/edge-ai-moves-agricultural-intelligence-from-the-cloud-to-the-field/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T06:59:00+00:00",
+      "summary": "NXP and Nvidia tackle the challenges of delivering computing power, energy efficiency, and safety as agricultural machinery becomes autonomous. The post Edge AI Moves Agricultural Intelligence from the Cloud to the Field appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/marc-hijink-on-asmls-culture-supply-chain-and-geopolitics/",
+      "title": "Marc Hijink on ASML’s Culture, Supply Chain, and Geopolitics",
+      "url": "https://www.eetimes.com/marc-hijink-on-asmls-culture-supply-chain-and-geopolitics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-17T22:37:22+00:00",
+      "summary": "Explore how ASML’s partner-driven culture, EUV dominance, and geopolitical pressures reshaped chipmaking in Marc Hijink’s interview. The post Marc Hijink on ASML’s Culture, Supply Chain, and Geopolitics appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/everspin-looks-to-broaden-mram-adoption-with-lpddr-standard/",
+      "title": "Everspin Looks to Broaden MRAM Adoption with LPDDR Standard",
+      "url": "https://www.eetimes.com/everspin-looks-to-broaden-mram-adoption-with-lpddr-standard/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-17T17:26:57+00:00",
+      "summary": "An exploratory JEDEC task group is weighing how controller vendors could support MRAM with hard IP to work with newer LPDDR implementations. The post Everspin Looks to Broaden MRAM Adoption with LPDDR Standard appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ltcc-solutions-for-next-generation-uwb-ble-devices/",
+      "title": "LTCC Solutions for Next Generation UWB/BLE Devices",
+      "url": "https://www.eetimes.com/ltcc-solutions-for-next-generation-uwb-ble-devices/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "TAIYO YUDEN (U.S.A.) INC.",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-17T15:00:00+00:00",
+      "summary": "Discover TAIYO YUDEN’s advanced LTCC (Low Temperature Co-fired Ceramic) solutions for UWB and Bluetooth Low Energy (BLE) applications. Featuring high-performance RF components, these solutions address key design challenges such as miniaturization, reliable wireless connectivity, RF performance, and coexistence of multiple wireless technologies. By leveraging LTCC technology, TAIYO YUDEN enables compact and efficient electronic designs that [&#8230;] The post LTCC Solutions for Next Generation UW...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/minimising-acoustic-noise-in-space-constrained-medical-and-life-science-applications/",
+      "title": "Minimizing Acoustic Noise in Space-Constrained Medical and Life Science Applications",
+      "url": "https://www.eetimes.com/minimising-acoustic-noise-in-space-constrained-medical-and-life-science-applications/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Giulio Bocciolini, Senior Product Marketing Manager EMEA, TDK-Lambda EMEA",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-17T15:00:00+00:00",
+      "summary": "Design engineers and technical decision-makers working on medical and life science equipment must balance competing demands: high power density, thermal performance, compact dimensions, and low acoustic noise. This whitepaper provides practical insight into the causes of noise in space-constrained power supply applications and presents strategies for reducing it while maintaining required system performance. It examines [&#8230;] The post Minimizing Acoustic Noise in Space-Constrained Medical an...",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/intesa-sanpaolo-finds-value-before-quantum-computers-are-ready/",
       "title": "Intesa Sanpaolo Finds Value Before Quantum Computers Are Ready",
       "url": "https://www.eetimes.com/intesa-sanpaolo-finds-value-before-quantum-computers-are-ready/",
@@ -274,91 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/technology-as-a-trojan-horse/",
-      "title": "Technology as a Trojan Horse",
-      "url": "https://www.eetimes.com/technology-as-a-trojan-horse/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Moshe Zalcberg",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T13:59:50+00:00",
-      "summary": "Jensen Huang is no longer leading Nvidia, but his Trojan horse question remains, for chips and for the rest of the technology stack: sell and try to control, or don’t sell and maybe delay? The post Technology as a Trojan Horse appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/the-sound-of-smarter-farming/",
-      "title": "The Sound of Smarter Farming",
-      "url": "https://www.eetimes.com/the-sound-of-smarter-farming/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Rebecca Pool",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T06:59:20+00:00",
-      "summary": "From birdsong and pollinator wingbeats to the vibrations of insects feeding inside plants, acoustic sensors and AI are helping farmers monitor biodiversity, improve pollination, and detect threats to crops. The post The Sound of Smarter Farming appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/nova-scotia-bets-on-microelectronics-integration-not-chip-fabs/",
-      "title": "Nova Scotia Bets on Microelectronics Integration, Not Chip Fabs",
-      "url": "https://www.eetimes.com/nova-scotia-bets-on-microelectronics-integration-not-chip-fabs/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T20:00:00+00:00",
-      "summary": "Atlantic Canada’s coastal engineering cluster is turning specialized components and rugged hardware into exportable tools for subsea research, security, and resource markets. The post Nova Scotia Bets on Microelectronics Integration, Not Chip Fabs appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/newspace-grade-nor-flash-right-sized-reliability-for-space-missions/",
-      "title": "NewSpace-Grade NOR Flash: Right-Sized Reliability for Space Missions",
-      "url": "https://www.eetimes.com/newspace-grade-nor-flash-right-sized-reliability-for-space-missions/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Infineon Technologies",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T15:00:00+00:00",
-      "summary": "This paper first examines how total ionizing dose and single-event effects degrade NOR Flash. It focuses on the charge pumps, sense amplifiers, and control logic that often fail before the storage array does. It then presents a method for deriving radiation requirements from four mission inputs (orbit, lifetime, shielding, and risk tolerance) instead of applying [&#8230;] The post NewSpace-Grade NOR Flash: Right-Sized Reliability for Space Missions appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/electronica-2026-chipmakers-move-up-the-stack-as-data-centers-and-physical-ai-take-center-stage/",
-      "title": "electronica 2026: Chipmakers Move Up the Stack as Data Centers and Physical AI Take Center Stage",
-      "url": "https://www.eetimes.com/electronica-2026-chipmakers-move-up-the-stack-as-data-centers-and-physical-ai-take-center-stage/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-13T14:47:27+00:00",
-      "summary": "Explore how electronica 2026 shows chipmakers shifting to AI platforms as data centers, edge AI, and robotics reshape power and silicon. The post electronica 2026: Chipmakers Move Up the Stack as Data Centers and Physical AI Take Center Stage appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50479721",
       "title": "TSMC Hacked",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50459703"
       },
       "duration_sec": null,
-      "views": 1226,
-      "comments": 1646,
+      "views": 1227,
+      "comments": 1647,
       "published_at": "2026-11-11T22:31:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -427,8 +427,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50493251"
       },
       "duration_sec": null,
-      "views": 1112,
-      "comments": 649,
+      "views": 1113,
+      "comments": 650,
       "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -446,7 +446,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50418016"
       },
       "duration_sec": null,
-      "views": 987,
+      "views": 988,
       "comments": 1296,
       "published_at": "2026-11-08T22:20:09+00:00",
       "summary": "",
@@ -465,28 +465,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50477231"
       },
       "duration_sec": null,
-      "views": 818,
-      "comments": 695,
+      "views": 819,
+      "comments": 698,
       "published_at": "2026-11-13T02:16:24+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
-      "id": "hn:50362905",
-      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
-      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "id": "hn:50534631",
+      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50362905",
-        "name": "novaRom",
-        "hn_url": "https://news.ycombinator.com/item?id=50362905"
+        "id": "50534631",
+        "name": "louiereederson",
+        "hn_url": "https://news.ycombinator.com/item?id=50534631"
       },
       "duration_sec": null,
-      "views": 617,
-      "comments": 293,
-      "published_at": "2026-11-04T08:46:29+00:00",
+      "views": 558,
+      "comments": 249,
+      "published_at": "2026-11-17T17:12:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -522,8 +522,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50512235"
       },
       "duration_sec": null,
-      "views": 473,
-      "comments": 577,
+      "views": 482,
+      "comments": 587,
       "published_at": "2026-11-15T23:55:55+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -542,7 +542,7 @@
       },
       "duration_sec": null,
       "views": 460,
-      "comments": 503,
+      "comments": 504,
       "published_at": "2026-11-12T19:51:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -580,7 +580,7 @@
       },
       "duration_sec": null,
       "views": 386,
-      "comments": 215,
+      "comments": 216,
       "published_at": "2026-11-13T18:40:44+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -617,8 +617,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50518567"
       },
       "duration_sec": null,
-      "views": 276,
-      "comments": 246,
+      "views": 287,
+      "comments": 262,
       "published_at": "2026-11-16T15:24:09+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -713,7 +713,7 @@
       },
       "duration_sec": null,
       "views": 149,
-      "comments": 71,
+      "comments": 72,
       "published_at": "2026-11-14T14:09:25+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -732,7 +732,7 @@
       },
       "duration_sec": null,
       "views": 135,
-      "comments": 132,
+      "comments": 135,
       "published_at": "2026-11-15T19:31:11+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -796,25 +796,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50363861",
-      "title": "RTX 5090 Street Prices Top $9k as Nvidia GPU Costs Climb",
-      "url": "https://aroundprague.cz/en/news/us/rtx-5090-street-prices-top-9-000-as-nvidia-gpu-costs-climb",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50363861",
-        "name": "teleforce",
-        "hn_url": "https://news.ycombinator.com/item?id=50363861"
-      },
-      "duration_sec": null,
-      "views": 78,
-      "comments": 88,
-      "published_at": "2026-11-04T11:02:23+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:50467191",
       "title": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
       "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
@@ -853,6 +834,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50538942",
+      "title": "Nvidia Chair Harvey Jones says board doesn't intend to reinstate Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50538942",
+        "name": "mfiguiere",
+        "hn_url": "https://news.ycombinator.com/item?id=50538942"
+      },
+      "duration_sec": null,
+      "views": 54,
+      "comments": 40,
+      "published_at": "2026-11-17T22:08:34+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50491690",
       "title": "An open letter to the Nvidia Board of Directors",
       "url": "https://standwithjensen.com/",
@@ -872,6 +872,101 @@
       "lang": "en"
     },
     {
+      "id": "hn:50424604",
+      "title": "Nvidia's China Problem [pdf]",
+      "url": "https://culperresearch.com/wp-content/uploads/2026/05/Culper_NVDA_5-13-2026.pdf",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50424604",
+        "name": "Erikun",
+        "hn_url": "https://news.ycombinator.com/item?id=50424604"
+      },
+      "duration_sec": null,
+      "views": 44,
+      "comments": 19,
+      "published_at": "2026-11-09T12:20:45+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50416679",
+      "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50416679",
+        "name": "specialp",
+        "hn_url": "https://news.ycombinator.com/item?id=50416679"
+      },
+      "duration_sec": null,
+      "views": 43,
+      "comments": 11,
+      "published_at": "2026-11-08T20:14:16+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50476257",
+      "title": "US Intel isn't sure if Alice Huang spied on Nvidia for China",
+      "url": "https://www.cnn.com/2026/11/12/politics/alice-huang-us-intel-jensen-huang-nvidia",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50476257",
+        "name": "Leary",
+        "hn_url": "https://news.ycombinator.com/item?id=50476257"
+      },
+      "duration_sec": null,
+      "views": 40,
+      "comments": 55,
+      "published_at": "2026-11-13T00:02:34+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50520867",
+      "title": "Nvidia board not considering reinstating Jensen Huang as chief executive",
+      "url": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50520867",
+        "name": "doener",
+        "hn_url": "https://news.ycombinator.com/item?id=50520867"
+      },
+      "duration_sec": null,
+      "views": 39,
+      "comments": 21,
+      "published_at": "2026-11-16T18:17:18+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50513876",
+      "title": "Nvidia's Days as an Open Checkbook for the AI Economy Are Numbered",
+      "url": "https://www.wsj.com/tech/ai/nvidias-days-as-an-open-checkbook-for-the-ai-economy-are-numbered-90c7b388",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50513876",
+        "name": "mfiguiere",
+        "hn_url": "https://news.ycombinator.com/item?id=50513876"
+      },
+      "duration_sec": null,
+      "views": 38,
+      "comments": 10,
+      "published_at": "2026-11-16T04:03:51+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50467087",
       "title": "Jensen Huang resigns",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
@@ -883,66 +978,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50467087"
       },
       "duration_sec": null,
-      "views": 4055,
-      "comments": 3475,
+      "views": 4059,
+      "comments": 3487,
       "published_at": "2026-11-12T13:52:29+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50459321",
-      "title": "Jensen Huang said to have had relationship with executive who reports to him",
-      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50459321",
-        "name": "louiereederson",
-        "hn_url": "https://news.ycombinator.com/item?id=50459321"
-      },
-      "duration_sec": null,
-      "views": 412,
-      "comments": 540,
-      "published_at": "2026-11-11T22:03:58+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50471621",
-      "title": "Singapore Says U.S. Not Helpful on Investigation into Suspected Spy's Company",
-      "url": "https://www.nytimes.com/2026/11/12/business/nvidia-megaspeed-alice-huang.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50471621",
-        "name": "tedd4u",
-        "hn_url": "https://news.ycombinator.com/item?id=50471621"
-      },
-      "duration_sec": null,
-      "views": 186,
-      "comments": 64,
-      "published_at": "2026-11-12T18:14:18+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50498051",
-      "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50498051",
-        "name": "marginalia_nu",
-        "hn_url": "https://news.ycombinator.com/item?id=50498051"
-      },
-      "duration_sec": null,
-      "views": 61,
-      "comments": 43,
-      "published_at": "2026-11-14T15:58:57+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
