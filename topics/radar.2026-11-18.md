@@ -1,0 +1,179 @@
+# Curio 趋势雷达 · 2026-11-18
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 16 条备选
+
+_今天真正的信号只有一个：Nvidia 的权力交接已经落地成事实——董事会明确表态不打算让 Jensen Huang 回归，同时公司宣布退出中国市场、继续推进收购 Hugging Face、并给出继续增长的营收指引。围绕这条主线，Anthropic IPO 的信用评级与估值争议、以及 AI 资本市场的整体回撤，是第二层信号。AI 编程工具侧今天没有硬新闻，候选池里多是教程存量，我按你的口味只挑了有工程细节的。_
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 1. Jensen Huang 出局时间线整理：从董事会到国会听证，Nvidia 的权力真空已经成型
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Jowi Morales_
+
+过去一周 Nvidia 的新闻密度是产业级的：11 月 12 日 Huang 辞职生效，董事会全票接受；11 月 17 日财报电话会上新任董事长 Harvey Jones 明确表示不打算让他回来；同期公司宣布不再向中国销售芯片、确认收购 Hugging Face 的意向不变、并给出继续创纪录的营收指引。这不是一次普通的 CEO 更替，而是全球 AI 算力最大供应商在需求最紧的时刻换掉了决策核心。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 11 月 12 日 Jensen Huang 辞去 Nvidia CEO 职务，董事会全票接受，CFO Colette Kress 出任临时 CEO | 「停止对华销售」是永久战略还是过渡期表态，公司未给出时间表与收入影响量化 |
+| 11 月 17 日财报电话会上，董事长 Harvey Jones 表示董事会不打算恢复 Huang 的 CEO 职位 | Hugging Face 收购在管理层动荡期能否走完监管与交割流程，尚无任何官方时间点 |
+| 临时 CEO 确认 Nvidia 已停止向中国销售芯片，并重申开源 AI 战略与收购 Hugging Face 的计划不变 | Huang 与疑似中国间谍的关联指控目前只有媒体报道，国会听证前无法判断严重程度 |
+| Huang 本人发表声明称若被允许回归将感到「荣幸」，但董事会层面已明确拒绝 | Nvidia 声称营收将继续创纪录，但这一指引建立在供应链与客户资本开支不变的前提上 |
+| SEC 据 WSJ 报道已就相关事项对 Nvidia 展开调查，Huang 将于 12 月 1 日出席众议院外交事务委员会闭门听证 | Arm CEO Rene Haas 被接触接任的传闻未获任何一方确认 |
+
+**📖 主编点评**
+
+你不需要关心八卦，但要关心一件事：Nvidia 是当前所有 AI 产品（包括你用的 Claude、Gemini）的算力底座，决策层动荡会传导到 GPU 供给和云厂商定价。建议你把这条当成背景变量记着——如果未来两个月你看到推理 API 涨价或限流，回头查这条时间线。另外，Huang 12 月 1 日的国会听证是下一个明确的信息节点。
+
+📺 [打开原文](https://www.tomshardware.com/tech-industry/the-downfall-of-jensen-huang-a-timeline-of-allegations-and-scandals-that-brought-down-the-king-of-ai-infrastructure)
+
+---
+
+### 4. Nvidia 在 SC26 称 Vera CPU 靠软件优化还能再涨 39%，Olympus 自研核尚未吃满
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Anton Shilov_
+
+SC26 上 Nvidia 给出的数字是：Vera CPU（基于自研 Olympus Arm 核）在未优化代码下性能已经不错，但通过软件优化还能再提升最多 39%。这条的价值在于它暴露了一个工程事实——自研核的微架构调优还没做完，性能上限取决于编译器与运行时而非硅片本身。对做推理部署的人来说，这是「同一块硬件，不同软件栈差距有多大」的又一个例证。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Nvidia 在 SC26 展示 Vera CPU，采用自研 Olympus Arm 核心 | 39% 是特定工作负载下的峰值还是普遍水平，官方未说明测试条件 |
+| 官方称通过软件优化可获得最高 39% 的性能提升 | 优化需要改编译器还是只需改应用代码，决定了这个数字对普通开发者是否可达 |
+| 当前性能是在未针对微架构优化的代码下测得的 | Vera 的量产时间与定价未公布 |
+| 同场还有 GLM-5.3 在两台 DGX Station 上用 vLLM 跑到 607.8 tok/s 的部署案例 |  |
+
+**📖 主编点评**
+
+如果你以后要做推理优化方向，这条给的是一个可复用的判断：性能瓶颈经常在软件栈而不是硬件。那个 607.8 tok/s 的 vLLM 部署案例更值得你点进去看——它给了具体的双 DGX Station 配置，属于你要的「具体到配置」的工程细节。
+
+📺 [打开原文](https://www.tomshardware.com/pc-components/cpus/nvidia-claims-its-vera-cpu-can-gain-up-to-39-percent-performance-boost-via-software-optimization-at-sc26-architectural-fine-tuning-is-needed-to-fully-unleash-custom-olympus-cores)
+
+---
+
+## 🌟 股票
+
+### 2. Anthropic IPO 被定性为「信用事件」：9000 亿美元支出承诺对上垃圾级评级
+
+**[股票]** · ⭐⭐⭐⭐⭐ · _Marc Rubinstein_
+
+Marc Rubinstein 在 Net Interest 上把 Anthropic 的 IPO 拆成一份银行家视角的信用分析，而不是估值故事。核心矛盾很清楚：招股书披露约 9000 亿美元的 AI 支出承诺、单季 17 亿美元的人员成本，而信用评级机构预计给出高收益级（垃圾级）评级，Blackstone 也公开质疑其投资级资质。与此同时 Amazon 与 Google 在 IPO 后将合计持有接近 30% 的股份。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Anthropic IPO 招股书披露约 9000 亿美元的 AI 相关支出承诺 | 1.4 万亿估值能否在路演中被接受，目前只有媒体报道，无定价区间官方确认 |
+| 单季人员成本约 17 亿美元，折算人均月成本约 10.7 万美元 | 招股书中「可能已接近递归自我改进」的表述是风险披露还是营销话术，无法从外部验证 |
+| 信用评级机构预计给出高收益级（垃圾级）评级，Blackstone 称其可能拿不到投资级 | 9000 亿支出承诺的对手方与时间分布未公开，实际现金流压力难以估算 |
+| IPO 后 Amazon 持股略低于 15%、Google 接近 14%，合计接近 30% | Michael Burry 等公开质疑者的仓位与动机不明，不构成有效信号 |
+| 公司目标估值区间被报道为 1.4 万亿至 1.5 万亿美元，部分大型机构投资者对此表示怀疑 |  |
+
+**📖 主编点评**
+
+这条对你有一个直接用处：它是理解「AI 公司到底怎么算账」的最好样本。你正在做 content-curator 这类个人项目，未来如果要写商业化或成本结构的部分，Anthropic 招股书里的单位经济数据（人均成本、支出承诺、云厂商持股）是少见的公开材料。建议把这篇和 NYT 那篇「A Human Reads the Anthropic IPO Filing」一起读，一篇给框架一篇给细节。
+
+📺 [打开原文](https://www.netinterest.co/p/a-bankers-guide-to-anthropic)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 3. Microsoft 在 Ignite 上把 Copilot 定义成「工作的新操作系统」，Office 反过来跑在它里面
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Nick Indge_
+
+Ignite 主题演讲里 Microsoft 给出的定位变化值得注意：不再是「Office 里加一个 AI 助手」，而是 Word、Excel、PowerPoint 作为组件运行在 Copilot 之内，下一步是常驻的 always-on agent。这是产品架构层面的重排，不是功能叠加。对做 Agent 的人来说，这意味着微软在赌「Agent 是宿主、应用是工具」这一侧。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Microsoft 在 Ignite 主题演讲中称 Copilot 为「the new OS for work」 | always-on agent 的计费方式、权限模型与失败回滚机制均未公布 |
+| Word、Excel、PowerPoint 现在作为组件运行在 Copilot 内部 | 「应用跑在 Copilot 里」目前是产品叙事还是已落地的架构，需要看实际客户端行为 |
+| 官方宣布下一步方向是 always-on agents（常驻代理） | 企业侧的合规与数据驻留方案没有细节，这通常决定大客户是否采用 |
+| 同一周 Anthropic 也发布了对应的操作系统级更新，两家形成对打 |  |
+
+**📖 主编点评**
+
+这条和你的 Agent 项目直接相关：微软在押「宿主 + 工具」的架构，和你用 MCP 把外部能力挂到 Claude Code 上的思路是同一个方向，只是层级不同。建议你关注它的权限模型怎么设计——always-on agent 最大的工程难题不是能力，而是「它在你不在的时候能做什么」。这正是你项目里迟早要回答的问题。
+
+📺 [打开原文](https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/)
+
+---
+
+## 🌟 金融
+
+### 5. 美联储开始担心 AI Agent 引发挤兑：代理决策会把慢动作的恐慌压缩成秒级
+
+**[金融]** · ⭐⭐⭐⭐ · _pera_
+
+Gizmodo 报道美联储内部在讨论一个新风险：当大量存款决策由 AI Agent 代劳时，原本需要数天的挤兑过程可能被压缩到几分钟。逻辑不复杂——人类有犹豫、有睡眠、有社交缓冲，Agent 没有。这条对做 Agent 的人是反向提醒：你设计的自动化程度越高，越需要考虑「它会不会在无人监督时做出不可逆的集体行为」。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 美联储内部正在讨论 AI Agent 可能加速银行挤兑的风险 | 是否已有具体监管提案或时间表，报道未提及 |
+| 担忧的核心是代理决策消除了人类反应的时间延迟 | Agent 在真实银行系统中的渗透率是否足以构成系统性风险，缺乏数据 |
+| 该讨论目前处于风险识别阶段，尚无监管规则草案 | 「秒级挤兑」是理论推演还是有模拟支撑，原文未说明 |
+
+**📖 主编点评**
+
+这条看似离你很远，其实是你项目里迟早会遇到的问题：content-curator 现在是只读的，但只要你给它加上「自动发布」或「自动调用付费 API」的权限，你就成了那个需要设计熔断机制的人。建议你现在就在项目里留一个「不可逆操作需人工确认」的开关，成本很低，以后省很多事。
+
+📺 [打开原文](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566)
+
+---
+
+## 📋 备选池
+
+### AI
+
+- [Claude(Code) 桌面 APP 保姆级全攻略：Claude Code 从命令行进化成桌面客户端完全体](http://www.bilibili.com/video/av117580048108571) —— 11 月 8 日发布，讲 Claude Desktop 把 Code、Design、Cowork 收进同一客户端并配 Opus 5.5。时效新，但仍是教程形态，放备选。
+  _技术爬爬虾_
+- [认真用 Claude Code 的人，迟早会遇见 Everything Claude Code](http://www.bilibili.com/video/av116319122885806) —— 拆解 116K star 的 Claude Code 配置项目：斜杠命令、子代理、Hooks、学习系统。工程细节密度够，但发布于 3 月，新颖度不足。
+  _极客魔导师_
+- [用 Claude Code Hooks 回调 + Agent Teams 做零轮询全自动开发](http://www.bilibili.com/video/av116046157647899) —— 讲 Stop Hook 自动回调把 Token 消耗从暴涨降到可忽略，属于少见的省 Token 工程技巧。主题对口但发布较早。
+  _AI超元域_
+- [DeepSeek Harness 实测对比 Claude Code：同一模型下工具链差距有多大](http://www.bilibili.com/video/av117100337236191) —— 用同一个 DeepSeek Pro 0813 模型在两个 harness 里跑相同任务，对比插件化、缓存命中与流程记录。控制变量的思路值得看。
+  _程序员晓刘_
+- [用 AI 做营销数据库 BizPeel：在 Google Antigravity 里接入 MCP](http://www.bilibili.com/video/av117587245599812) —— 11 月 10 日发布，演示 Gemini 4 Argon + BizPeel MCP 做竞品查找与增长实验，是少见的「做完产品之后怎么获客」的实操。
+  _熠辉IndieDev_
+- [从零实现自己的 agent 第十一期：多 agent 协作](http://www.bilibili.com/video/av117496514418485) —— 带 GitHub 教学仓库和实战项目源码，讲多 Agent 协作的具体实现。有代码可读，适合对照自己的项目。
+  _小单说AI_
+
+### AI 算力 / 半导体
+
+- [Nvidia 员工警告：若不恢复 Huang，不可替代的人才将流失](https://www.tomshardware.com/tech-industry/big-tech/nvidia-employee-warns-of-irreplaceable-talent-exodus-if-jensen-huang-not-reinstated-cautions-board-and-top-brass-that-talent-at-nvidia-is-now-contemplating-departing) —— 内部信警告董事会「不可替代的人才」可能出走。是头条时间线的补充证据，单独看信息量不足以成头条。
+  _Jhet Borja_
+- [中国威胁就新的 AI GPU 租赁与出口限制采取反制措施](https://www.tomshardware.com/pc-components/gpus/china-threatens-countermeasures-on-the-face-of-new-ai-gpu-rental-and-export-restrictions-beijing-threatens-retaliation-ahead-of-thursdays-xi-jinping-meeting-sino-american-trade-war-may-be-renewed-for-a-new-season) —— 今天上午发布，针对 Blackwell 租赁与出口新限制。与 Nvidia 退出中国是同一条链上的另一端，值得跟进但尚无具体措施。
+  _Bruno Ferreira_
+- [Nvidia 停止披露新加坡销售额，营收达到 1040 亿美元](https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf) —— 新加坡销售额消失与 Megaspeed 的疑点相关，是理解 Nvidia 收入真实构成的线索，但需要配合其他报道读。
+  _louiereederson_
+- [Marc Hijink 谈 ASML 的文化、供应链与地缘政治](https://www.eetimes.com/marc-hijink-on-asmls-culture-supply-chain-and-geopolitics/) —— 关于 ASML 的 EUV 主导地位与地缘压力的深度访谈。符合你要的访谈类长内容，但与今日主线关联较弱。
+  _Nitin Dahad_
+
+### 大厂 AI 动态
+
+- [Satya Nadella 说他现在是「AGI-pilled」](https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now) —— Nadella 谈 AGI 对经济结构与政治的影响，属于你要的 KOL 深度对话。今天头条位置被更硬的事实占了，放备选。
+  _Nilay Patel_
+- [Stratechery：Nvidia 财报、Office 融合、AI 版操作系统战争](https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/) —— Ben Thompson 把 Nvidia 财报、微软与 Anthropic 的操作系统级更新串成一条线。是今天最好的框架性解读，但属评论而非新事实。
+  _Ben Thompson_
+- [Google 将 Gemini 聊天记录保留期从 72 小时延长到 2 个月，即使关闭历史记录](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/) —— 隐私默认值的一次实质后退，与 HN 上「Gemini 把个人 Drive 文件路由给人工标注员」是同一类问题，值得你知道。
+  _Jagmeet Singh_
+
+### 股票
+
+- [纳斯达克跌入回调区间，AI 交易遭集体撤退](https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html) —— 11 月初那轮 4% 下跌是理解当前 AI 资本市场情绪的起点，但已过去两周，时效性弱于 Anthropic 那条。
+  _kristianp_
+
+### 金融
+
+- [Oracle 申请发行 200 亿美元新股与债券为 AI 建设融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 基建融资从股权转向债务的又一个样本，和 Anthropic 的信用评级问题可以对照看。发布于两周前。
+  _smartmic_
+
+### 电子信息与芯片
+
+- [Jensen Huang 辞职（AP 报道）](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f) —— 4059 分的 HN 原帖，是整个事件最早的权威报道。作为头条时间线的源头保留，单独看已被后续报道覆盖。
+  _lldb_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
