@@ -1,29 +1,31 @@
 # Curio · AI · 2026-11-19
 
-> 今日 1 条头条 + 2 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 在黄仁勋辞职后交出 1158 亿美元季度营收、AI 基建需求没塌，但公司治理与 10-Q 延迟披露成了新的不确定性；二是 Anthropic 以每股 83 美元、1.5 万亿美元估值定价 IPO，同时被信用机构打上高收益垃圾级预期——AI 资本周期第一次被公开定价。对你而言，今天值得读的是「工程细节 + 行业结构」，不是情绪。_
+_今天最重要的信号有两个：一是 Nvidia 在黄仁勋辞职后首次交出季报，营收 1158 亿美元、利润依旧强劲，但董事会明确不打算让黄回归，公司进入「后黄仁勋时代」的过渡期；二是 Anthropic 以每股 83 美元、1.5 万亿美元估值完成 IPO 定价，AI 一级市场的泡沫争论被推到台前。对做 Agent 的你来说，今天还有一条值得细读的工程实践：用三块二手 V100 跑出 100 tok/s 的家庭实验室方案，成本只要 1042 美元。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Claude Code 零基础终极教程：安装、换模型、插件、Hooks、Skills、Subagents、实战项目一次讲透
+### 1. Claude Code 桌面 APP 全攻略：Code、Design、Cowork 三合一，配 Opus 5.5
 
-**[AI]** · ⭐⭐⭐ · _木子不写代码_
+**[AI]** · ⭐⭐⭐ · _技术爬爬虾_
 
-覆盖 Hooks/Skills/Subagents 的完整链路，密度在 B 站同类里偏高，但仍是教程而非新事实，放备选。
+11 月 8 日的新视频，讲 Claude Code 从命令行进化到桌面客户端完全体，含 Opus 5.5 实测，比多数教程新一个版本。
 
-📺 [打开原文](http://www.bilibili.com/video/av116529475622752)
+📺 [打开原文](http://www.bilibili.com/video/av117580048108571)
 
 ---
 
 ## 📋 备选阅读
 
-- [Claude(Code)桌面 APP 保姆级全攻略，顶级 Agent 软件长什么样](http://www.bilibili.com/video/av117580048108571) —— 11 月 8 日发布，讲 Claude Desktop 整合 Code/Design/Cowork 后的形态，时效性够，但偏产品导览。
-  _技术爬爬虾_
-- [Vibe Coding 完不会获客？我用 AI 做了一个「营销数据库」](http://www.bilibili.com/video/av117587245599812) —— 真实 side project 复盘，含 Antigravity 接 MCP 的实操，比纯教程更接近你的工作流。
+- [Vibe Coding 做完不会获客？我用 AI 做了个「营销数据库」BizPeel](http://www.bilibili.com/video/av117587245599812) —— 11 月 10 日的独立开发者实战，演示在 Google Antigravity 里接 BizPeel MCP，是少见的「Agent 做增长」而非「Agent 写代码」的案例。
   _熠辉IndieDev_
+- [DeepSeek Harness 实测对比 Claude Code：同一个模型，工具链差距比想象大](http://www.bilibili.com/video/av117100337236191) —— 用同一个 DeepSeek Pro 模型分别在两套 harness 里跑相同任务，结论是插件化和缓存命中比模型本身更影响结果，适合你调 Agent 工作流时参考。
+  _程序员晓刘_
+- [3 分钟讲透：Vibe Coding 如何避免屎山代码](http://www.bilibili.com/video/av117513727838880) —— 10 月 27 日的短内容，但主题稀缺——多数 Vibe Coding 教程只教「做出来」，这条讲「怎么不写烂」，密度够。
+  _鲤哥builder_
 
 ---
 

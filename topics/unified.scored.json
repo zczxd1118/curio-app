@@ -1,227 +1,243 @@
 {
   "date": "2026-11-19",
-  "intro": "今天最重要的信号有两个：一是 Nvidia 在黄仁勋辞职后交出 1158 亿美元季度营收、AI 基建需求没塌，但公司治理与 10-Q 延迟披露成了新的不确定性；二是 Anthropic 以每股 83 美元、1.5 万亿美元估值定价 IPO，同时被信用机构打上高收益垃圾级预期——AI 资本周期第一次被公开定价。对你而言，今天值得读的是「工程细节 + 行业结构」，不是情绪。",
+  "intro": "今天最重要的信号有两个：一是 Nvidia 在黄仁勋辞职后首次交出季报，营收 1158 亿美元、利润依旧强劲，但董事会明确不打算让黄回归，公司进入「后黄仁勋时代」的过渡期；二是 Anthropic 以每股 83 美元、1.5 万亿美元估值完成 IPO 定价，AI 一级市场的泡沫争论被推到台前。对做 Agent 的你来说，今天还有一条值得细读的工程实践：用三块二手 V100 跑出 100 tok/s 的家庭实验室方案，成本只要 1042 美元。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI 算力 / 半导体",
       "id": "rss:https://www.eetimes.com/nvidia-reports-115-8b-in-quarterly-revenue-under-interim-ceo/",
       "url": "https://www.eetimes.com/nvidia-reports-115-8b-in-quarterly-revenue-under-interim-ceo/",
-      "source": "News Desk",
+      "source": "EE Times",
       "stars": 5,
-      "title": "Nvidia 临时 CEO 任内首份财报：季度营收 1158 亿美元，AI 基建需求未随人事震荡下滑",
-      "lead": "黄仁勋 11 月 12 日辞职后，Nvidia 由临时 CEO Colette Kress 交出的第一份季报显示营收 1158 亿美元，AI 基础设施需求仍是主要拉动。这条的意义不在数字本身，而在于它回答了「换帅是否伤业务」这个最贵的疑问。",
+      "title": "Nvidia 过渡期首份季报：营收 1158 亿美元，董事会明确不迎回黄仁勋",
+      "lead": "黄仁勋 11 月 12 日辞职后，Nvidia 由临时 CEO Colette Kress 主持，交出的第一份季报营收 1158 亿美元，AI 基础设施需求仍是主引擎。但董事会主席 Harvey Jones 同日表态「不打算让黄回归」，意味着这家 AI 算力霸主正式进入没有创始人的治理结构。短期业绩无虞，长期战略连续性才是真问题。",
       "confirmed": [
-        "Nvidia 季度营收 1158 亿美元，由临时 CEO Colette Kress 主持发布",
-        "营收与利润增长主要来自 AI 基础设施需求",
-        "黄仁勋已于 11 月 12 日即刻辞任 CEO，董事会表示不打算让其回归",
-        "公司此前未按期提交 10-Q，引发分析师追问",
-        "Kress 在全员会上承诺 12 月前加薪与追加股权以稳定团队"
+        "Nvidia 在临时 CEO Colette Kress 治下公布季度营收 1158 亿美元，AI 基础设施需求是主要拉动",
+        "黄仁勋于 2026 年 11 月 12 日因第二段办公室恋情曝光而立即辞职",
+        "董事会主席 Harvey Jones 公开表示董事会不打算让黄仁勋重新担任 CEO",
+        "公司未按惯例按时提交 10-Q 季报文件，引发华尔街分析师追问",
+        "Nvidia 同期停止披露新加坡地区销售数据，该地区此前是营收关键披露项"
       ],
       "judgment": [
-        "1158 亿是否包含渠道提前拉货，需等 10-Q 明细才能判断",
-        "临时 CEO 能否在下一季度维持供应链与客户关系，尚无证据",
-        "董事会拒绝回归的表态是否会在员工请愿压力下松动，仍不明朗",
-        "AI 基建需求是否已见顶，单季数据不足以定论"
+        "1158 亿美元是否包含一次性订单前置，需等 10-Q 补交后才能确认",
+        "Colette Kress 能否在 CES 2027 前稳住大客户（微软、Meta、xAI）的多年采购承诺，尚无公开信号",
+        "黄仁勋通过盟友讨论「回归」的传闻仍在，董事会表态能否顶住员工联名请愿的压力存疑",
+        "新加坡销售披露中断是否与 Megaspeed 转口争议有关，监管层尚未定性",
+        "「后黄仁勋时代」Nvidia 的 CUDA 生态投入节奏会不会放缓，目前只有高管口头承诺"
       ],
-      "implication": "你应该把这条当成「AI 资本周期的体检报告」来读，而不是财经八卦。真正要盯的是 10-Q 补交后的应收账款与库存科目——那才是判断这轮算力需求是真实消耗还是渠道囤货的关键。对你的 side project 没有直接影响，但决定了明年 GPU 租赁价格和 API 定价的走向。"
+      "implication": "你不需要现在判断 Nvidia 的股价，但需要盯住两件事：一是 10-Q 补交后营收结构里有没有「渠道压货」的痕迹，二是 Colette Kress 在下次财报电话会上对 CUDA 路线图的表述。如果你在做依赖 Nvidia 推理卡的 Agent 项目，短期供应不会断，但 2027 年的 GPU 租赁定价可能因为治理不确定性而波动，签长约前多留一个退出条款。"
     },
     {
       "rank": 2,
-      "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-      "source": "Marina Temkin",
+      "domain": "股票",
+      "id": "hn:50553581",
+      "url": "https://apnews.com/article/anthropic-ipo-pricing-70b660ddf900d90bbf484ecdf1fb441c",
+      "source": "AP News",
       "stars": 5,
-      "title": "Anthropic 以每股 83 美元定价 IPO，完全稀释估值 1.5 万亿美元，高于预期区间",
-      "lead": "Anthropic 的 IPO 定价落在每股 83 美元，完全稀释口径估值约 1.5 万亿美元，高于此前路演区间。同一周里，信用机构预期其拿到高收益级（垃圾级）评级，Michael Burry 公开质疑其「押上全部身家在乐观上」。",
+      "title": "Anthropic IPO 定价每股 83 美元、估值 1.5 万亿美元，超预期区间上限",
+      "lead": "Anthropic 的 IPO 最终定价每股 83 美元，完全稀释估值 1.5 万亿美元，高于此前 1.4 万亿的预期区间。S-1 文件里披露的季度人力成本 17 亿美元、人均月成本约 10.7 万美元，以及 9000 亿美元的 AI 支出承诺，让这场 IPO 同时是「增长故事」和「信用事件」。Michael Burry 和 Gary Marcus 都在公开唱空。",
       "confirmed": [
-        "IPO 定价每股 83 美元，高于此前预期区间",
-        "完全稀释估值约 1.5 万亿美元",
-        "IPO 文件披露季度人力成本 17 亿美元，人均月成本约 10.7 万美元",
-        "公司披露约 9000 亿美元的 AI 支出承诺",
-        "信用机构预期给予高收益（垃圾级）评级"
+        "Anthropic IPO 定价每股 83 美元，完全稀释估值 1.5 万亿美元，高于此前 1.4 万亿的预期",
+        "S-1 披露季度人力成本 17 亿美元，约合每员工每月 10.7 万美元",
+        "公司披露 9000 亿美元的长期 AI 支出承诺",
+        "信用评级机构预计给予 Anthropic 高收益级（垃圾级）评级",
+        "S-1 风险因素中写明公司可能「即将」接近递归自我改进（RSI）"
       ],
       "judgment": [
-        "1.5 万亿估值能否在二级市场站稳，取决于首个交易日换手",
-        "9000 亿支出承诺的融资结构尚未完全公开",
-        "IPO 文件提到「可能已接近递归自我改进」，属风险披露而非事实认定",
-        "高估值与垃圾级信用评级的组合是否可持续，市场尚无先例"
+        "1.5 万亿美元估值对应的收入倍数是否可持续，要等首个公开季报才能验证",
+        "9000 亿美元支出承诺里有多少是「take-or-pay」硬约束，S-1 未逐项拆解",
+        "垃圾级评级意味着其债券融资成本将显著高于微软、谷歌，AI 军备竞赛的资本结构在分化",
+        "「接近 RSI」的表述是法律免责还是真实技术判断，外界无法核实",
+        "散户配售比例和首日换手率将决定这是「健康定价」还是「最后一棒」"
       ],
-      "implication": "这条对你最实际的价值是那份 S-1：它把一家头部 AI 公司的成本结构、算力承诺、人员开支第一次摊开在阳光下。建议你花 20 分钟读营收与算力承诺两节，比读十篇「AI 泡沫」评论有用。你以后做 Agent 产品的定价模型，可以直接拿它的人均成本做参照。"
+      "implication": "如果你在简历或面试里聊 AI 行业，Anthropic 的 S-1 是本周最好的阅读材料——它把「AI 公司到底怎么花钱」摊开了。重点看两段：算力采购承诺的期限结构，以及收入确认口径里有多少是 API 预付费。这两点决定了你未来两年用 Claude API 时，价格是继续降还是被迫涨。"
     },
     {
       "rank": 3,
-      "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/three-e-waste-nvidia-v100s-hit-100-tokens-per-second-on-qwen-3-6-35b-in-a-usd1-042-homelab-rig-decommissioned-gpus-outpace-a-usd5-399-m5-max-mac-studio-at-long-contexts",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/three-e-waste-nvidia-v100s-hit-100-tokens-per-second-on-qwen-3-6-35b-in-a-usd1-042-homelab-rig-decommissioned-gpus-outpace-a-usd5-399-m5-max-mac-studio-at-long-contexts",
-      "source": "Shane Downing",
-      "stars": 4,
-      "title": "三张退役 V100 组 1042 美元主机，跑 Qwen 3.6 35B 达 100 tok/s，长上下文反超 5399 美元 Mac Studio",
-      "lead": "一位 homelab 玩家用三张二手 Tesla V100 搭出总价 1042 美元的机器，跑 Qwen 3.6 35B 达到约 100 tokens/s，在长上下文场景下超过 5399 美元的 M5 Max Mac Studio。这是本周最具体的「推理成本」数据点。",
-      "confirmed": [
-        "硬件为三张二手 Nvidia Tesla V100，整机成本约 1042 美元",
-        "模型为 Qwen 3.6 35B，吞吐约 100 tokens/s",
-        "对比对象为 5399 美元的 M5 Max Mac Studio",
-        "长上下文场景下该配置表现优于对比机"
-      ],
-      "judgment": [
-        "100 tok/s 的具体 batch size 与量化精度未在摘要中说明",
-        "长上下文优势是否在真实 Agent 多轮调用中保持，需实测",
-        "二手 V100 的供货与功耗成本未计入总拥有成本",
-        "该结果是否可复现，取决于具体推理框架配置"
-      ],
-      "implication": "如果你想给自己的 Agent 项目做本地推理兜底，这条给出了一个反直觉的性价比答案：退役卡在长上下文上仍有优势。建议你去翻原帖的推理框架与量化参数，照抄一份配置跑通，这本身就是简历上「推理优化」的实证素材。"
-    },
-    {
-      "rank": 4,
       "domain": "大厂 AI 动态",
       "id": "rss:https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
       "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
-      "source": "Ben Thompson",
-      "stars": 4,
-      "title": "Stratechery 访谈 Eric Seufert：Agentic Commerce 为什么最终会回到广告，以及零售商为何要主动迎合 Agent",
-      "lead": "Ben Thompson 与 Eric Seufert 做了一期关于 agentic commerce 的深度对话，核心论点是：当 AI Agent 代替人做购买决策，广告不会消失，而是重构；同时零售商应该主动为 Agent 优化商品数据，而不是封堵。",
+      "source": "Stratechery",
+      "stars": 5,
+      "title": "Ben Thompson 对话 Eric Seufert：Agentic Commerce 为什么最终会回到广告模式",
+      "lead": "Stratechery 本期访谈请来 Mobile Dev Memo 的 Eric Seufert，主题是 agentic commerce。核心论点：当 AI Agent 替用户比价、下单，广告不会消失，而是从「对人展示」变成「对 Agent 竞价」；零售商真正的护城河是「愿意为 Agent 优化商品数据」的能力。这是本周对「Agent 如何改变互联网经济」最系统的一篇长访谈。",
       "confirmed": [
-        "访谈由 Ben Thompson 主持，嘉宾为 Eric Seufert",
-        "主题为 agentic commerce 的商业模式与广告角色",
-        "Seufert 认为广告仍将是答案",
-        "Thompson 主张零售商应主动服务 Agent 而非封堵"
+        "访谈对象 Eric Seufert 是 Mobile Dev Memo 主笔，长期跟踪移动广告与变现结构",
+        "核心判断：Agent 购物不会消灭广告，而是把广告库存从展示位转向「Agent 可读的商品数据」",
+        "Ben Thompson 在文中提出零售商应主动「为 Agent 优化」商品目录与库存 API",
+        "讨论覆盖 Amazon、Google Shopping 和独立 DTC 品牌在 Agent 时代的相对位置"
       ],
       "judgment": [
-        "「广告回归」的判断基于移动广告史类比，尚无 agent 场景实证",
-        "零售商迎合 Agent 的具体接口标准尚未成型",
-        "Agent 流量对转化率的实际影响缺乏公开数据",
-        "该框架对国内电商生态的适用性存疑"
+        "「Agent 竞价广告」的定价机制尚无真实市场验证，目前是推演",
+        "零售商开放商品数据给第三方 Agent 的动力，取决于流量分成怎么谈，访谈未给具体方案",
+        "监管层（FTC、欧盟 DMA）对 Agent 比价是否构成「自动化合谋」尚未表态",
+        "中小独立站能否负担 Agent 优化成本，可能加剧而非缓解平台集中度"
       ],
-      "implication": "这正是你偏好的那类内容：名人深度对话、有 why 而不只是 what。你做 content-curator 时迟早要面对「Agent 如何消费内容」的问题，这期访谈给了一个可迁移的框架——把内容当成给 Agent 读的商品数据来设计，而不是给人看的页面。"
+      "implication": "你正在做 content-curator 这个 Agent 项目，这篇访谈直接相关：它讨论的「Agent 读什么数据、怎么被喂数据」就是你设计 MCP 工具时的接口哲学。建议你边读边记一个问题——如果你的 Agent 要替用户筛选内容，你会把「广告/推广内容」的标识放在 schema 的哪一层？这个设计决策以后会变成产品差异点。"
+    },
+    {
+      "rank": 4,
+      "domain": "AI 算力 / 半导体",
+      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/three-e-waste-nvidia-v100s-hit-100-tokens-per-second-on-qwen-3-6-35b-in-a-usd1-042-homelab-rig-decommissioned-gpus-outpace-a-usd5-399-m5-max-mac-studio-at-long-contexts",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/three-e-waste-nvidia-v100s-hit-100-tokens-per-second-on-qwen-3-6-35b-in-a-usd1-042-homelab-rig-decommissioned-gpus-outpace-a-usd5-399-m5-max-mac-studio-at-long-contexts",
+      "source": "Tom's Hardware",
+      "stars": 4,
+      "title": "三块「电子垃圾」V100 组 1042 美元家庭实验室，Qwen 3.6 35B 跑到 100 tok/s，长上下文反超 5399 美元 Mac Studio",
+      "lead": "一位 homelab 玩家用三块退役的 Nvidia Tesla V100，搭出总成本 1042 美元的推理机，跑 Qwen 3.6 35B 达到约 100 tokens/s，在长上下文场景下反超售价 5399 美元的 M5 Max Mac Studio。这条的价值不在「省钱」，而在于它给出了一个可复现的二手卡推理配置，对预算有限的独立开发者是真实可用的基线。",
+      "confirmed": [
+        "配置为三块二手 Nvidia Tesla V100，整机成本约 1042 美元",
+        "在 Qwen 3.6 35B 模型上达到约 100 tokens/s 的推理速度",
+        "在长上下文场景下吞吐超过售价 5399 美元的 M5 Max Mac Studio",
+        "V100 为 16GB/32GB HBM2 版本，二手市场供应来自数据中心退役"
+      ],
+      "judgment": [
+        "100 tok/s 的具体 batch size 和上下文长度未在摘要中给出，需看原文表格",
+        "V100 不支持 FP8，实际能效比和电费成本未计入 1042 美元",
+        "二手卡无保修，长期故障率是隐藏成本",
+        "该配置能否稳定跑 128K 上下文，取决于具体推理框架和量化方案"
+      ],
+      "implication": "如果你认真考虑过「自己搭一台推理机跑本地 Agent」，这条是本周最值得存的工程参考。重点抄三样东西：V100 的型号（16GB 还是 32GB）、用的推理框架（vLLM 还是 llama.cpp）、以及长上下文测试的具体 prompt 长度。但先算一笔电费——三块 V100 满载约 900W，按你所在城市电价跑一个月，可能比 API 账单还贵。"
     },
     {
       "rank": 5,
       "domain": "金融",
       "id": "hn:50523346",
       "url": "https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566",
-      "source": "pera",
+      "source": "Gizmodo",
       "stars": 4,
-      "title": "美联储开始担心 AI Agent 可能触发挤兑，银行 meanwhile 声明用 Agent 的客户被黑后果自负",
-      "lead": "美联储内部开始讨论 AI Agent 集中执行提款或转账可能引发挤兑的风险；与此同时，Citi 等更多银行明确表态：客户自行使用 AI Agent 操作账户，即使被黑也由客户自己承担。两条线指向同一个问题——Agent 有了金融行动权，责任归属还没定。",
+      "title": "美联储开始担心 AI Agent 会触发银行挤兑，Citi 等大行已对 Agent 操作免责",
+      "lead": "美联储内部讨论文件开始关注一个新型系统性风险：如果大量用户把理财决策交给 AI Agent，而 Agent 在恐慌信号下同步撤资，可能形成比人工更快、更同步的银行挤兑。与此同时，Citi 等大行已在条款中写明「使用 AI Agent 操作的客户自行承担被黑损失」。Agent 进入金融场景，责任边界正在被重新划线。",
       "confirmed": [
-        "美联储正在评估 AI Agent 触发银行挤兑的风险",
-        "Citi 成为最新一家限制个人理财 AI Agent 的大银行",
-        "多家银行声明客户使用 Agent 被黑后果自负",
-        "相关讨论发生在 Agent 开始具备自动转账能力的背景下"
+        "美联储内部讨论文件将「AI Agent 同步撤资」列为潜在金融稳定风险",
+        "Citi 是最新一家在条款中声明「客户使用 AI Agent 操作风险自负」的大型银行",
+        "多家银行已对个人理财类 AI Agent 的接入采取限制或免责立场",
+        "讨论背景是 Agent 在支付、转账、投资指令上的自动化程度快速上升"
       ],
       "judgment": [
-        "美联储是否已有具体监管草案，尚不明确",
-        "银行免责声明在法律上是否站得住，未经判例检验",
-        "Agent 挤兑是理论推演还是已有苗头，公开信息不足",
-        "责任划分最终可能由监管而非银行单方声明决定"
+        "美联储是否会把 Agent 挤兑纳入正式监管框架，目前只是讨论阶段",
+        "「同步撤资」的触发阈值和传播速度没有实证数据，属于情景推演",
+        "银行免责条款在司法上是否站得住，尚无判例",
+        "Agent 开发者（包括个人项目）在什么情况下会被认定为「金融业务主体」，监管未明确"
       ],
-      "implication": "这条和你的 Agent 项目直接相关：一旦 Agent 能调用支付或账户类 MCP 工具，责任边界就成了产品设计的一部分。建议你在 content-curator 里预留「高危工具需人工确认」的机制，这既是安全实践，也是面试时能讲清楚的设计决策。"
+      "implication": "这条对你做 content-curator 是提醒而非威胁：只要你的 Agent 不碰支付和交易指令，就不在监管射程内。但如果你以后想给 Agent 加「自动订阅付费内容」这类功能，先看清楚 Stripe 和银行的 Agent 条款——现在多数平台把「Agent 发起的交易」默认归为持卡人本人操作，出了事你自己扛。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI",
-      "title": "Claude Code 零基础终极教程：安装、换模型、插件、Hooks、Skills、Subagents、实战项目一次讲透",
-      "url": "http://www.bilibili.com/video/av116529475622752",
-      "source": "木子不写代码",
-      "one_liner": "覆盖 Hooks/Skills/Subagents 的完整链路，密度在 B 站同类里偏高，但仍是教程而非新事实，放备选。"
-    },
-    {
-      "domain": "AI",
-      "title": "Claude(Code)桌面 APP 保姆级全攻略，顶级 Agent 软件长什么样",
+      "title": "Claude Code 桌面 APP 全攻略：Code、Design、Cowork 三合一，配 Opus 5.5",
       "url": "http://www.bilibili.com/video/av117580048108571",
       "source": "技术爬爬虾",
-      "one_liner": "11 月 8 日发布，讲 Claude Desktop 整合 Code/Design/Cowork 后的形态，时效性够，但偏产品导览。"
+      "one_liner": "11 月 8 日的新视频，讲 Claude Code 从命令行进化到桌面客户端完全体，含 Opus 5.5 实测，比多数教程新一个版本。"
     },
     {
       "domain": "AI",
-      "title": "Vibe Coding 完不会获客？我用 AI 做了一个「营销数据库」",
+      "title": "Vibe Coding 做完不会获客？我用 AI 做了个「营销数据库」BizPeel",
       "url": "http://www.bilibili.com/video/av117587245599812",
       "source": "熠辉IndieDev",
-      "one_liner": "真实 side project 复盘，含 Antigravity 接 MCP 的实操，比纯教程更接近你的工作流。"
+      "one_liner": "11 月 10 日的独立开发者实战，演示在 Google Antigravity 里接 BizPeel MCP，是少见的「Agent 做增长」而非「Agent 写代码」的案例。"
+    },
+    {
+      "domain": "AI",
+      "title": "DeepSeek Harness 实测对比 Claude Code：同一个模型，工具链差距比想象大",
+      "url": "http://www.bilibili.com/video/av117100337236191",
+      "source": "程序员晓刘",
+      "one_liner": "用同一个 DeepSeek Pro 模型分别在两套 harness 里跑相同任务，结论是插件化和缓存命中比模型本身更影响结果，适合你调 Agent 工作流时参考。"
+    },
+    {
+      "domain": "AI",
+      "title": "3 分钟讲透：Vibe Coding 如何避免屎山代码",
+      "url": "http://www.bilibili.com/video/av117513727838880",
+      "source": "鲤哥builder",
+      "one_liner": "10 月 27 日的短内容，但主题稀缺——多数 Vibe Coding 教程只教「做出来」，这条讲「怎么不写烂」，密度够。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
-      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-      "source": "wondersky",
-      "one_liner": "Nvidia 官方 vLLM 跨机部署细节，607.8 tok/s 有具体配置，工程价值高但离个人项目较远。"
+      "title": "Nvidia 被曝通过循环融资抬高 GPU 价格、制造稀缺",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "source": "TechPowerUp",
+      "one_liner": "HN 1114 分，指控 Nvidia 投资 AI 初创再让它们买自家 GPU，是理解「AI 算力金融化」的关键背景，但属指控未定论。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "DDR6 RAM shrinks by 44% while delivering 4X DDR5's baseline bandwidth",
-      "url": "https://www.tomshardware.com/pc-components/ram/ddr6-ram-shrinks-by-44-percent-while-delivering-4x-ddr5s-baseline-bandwidth-jedec-previews-12-8-gt-s-modules-with-up-to-1-terabyte-of-capacity-per-slot",
-      "source": "Zhiye Liu",
-      "one_liner": "JEDEC 预览 DDR6：模块从 133mm 缩到 74mm，起步 12.8 GT/s，单槽最高 1TB，是硬件层的长期信号。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "TSMC Hacked",
+      "title": "TSMC 遭黑客攻击，SEC 文件披露",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
-      "source": "gmays",
-      "one_liner": "TSMC 向 SEC 提交的网络安全事件声明原文，供应链安全信号，值得扫一眼原文措辞。"
+      "source": "SEC Filing",
+      "one_liner": "11 月 12 日的 SEC 披露，台积电确认安全事件，对全球先进制程供应的影响尚未量化，值得跟踪。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "荷兰拒绝美国进一步收紧半导体出口管制的要求",
+      "url": "https://www.politico.eu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls-asml/",
+      "source": "Politico",
+      "one_liner": "11 月 18 日，荷兰称美方要求「不可接受」，ASML 对华出口的政策博弈进入新回合，影响 2027 年设备供应预期。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "DDR6 标准预览：模块缩小 44%，带宽 4 倍于 DDR5 基线",
+      "url": "https://www.tomshardware.com/pc-components/ram/ddr6-ram-shrinks-by-44-percent-while-delivering-4x-ddr5s-baseline-bandwidth-jedec-previews-12-8-gt-s-modules-with-up-to-1-terabyte-of-capacity-per-slot",
+      "source": "Tom's Hardware",
+      "one_liner": "JEDEC 预览 12.8 GT/s、单槽最高 1TB，对做本地推理的人意味着 2028 年的内存墙会松动，但离落地还远。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Gemini 4 Neon",
+      "title": "Gemini 4 Neon 发布，被评「看起来像 Opus 5.5 的竞争对手」",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "source": "yigitdemirag",
-      "one_liner": "11 月 18 日发布，社区评价为 Opus 5.5 的对手，模型发布节奏值得跟踪但细节待评测。"
+      "source": "Google Blog",
+      "one_liner": "11 月 18 日发布，HN 854 分，是本周最新的模型发布，但摘要信息有限，适合先记名字、等评测。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-      "source": "Julie Bort",
-      "one_liner": "6 万人买断离职的解释，是观察大厂 AI 转型下人力结构调整的一手材料。"
+      "title": "Snapchat 允许开发者用 Claude Code 和 Cursor 构建 AR Lens",
+      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "source": "TechCrunch",
+      "one_liner": "平台级动作：Snap 把 AI 编程助手接进 AR 创作流程，是「Vibe Coding 进入垂直平台」的早期信号。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
-      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-assistants-like-claude-code-and-cursor/",
-      "source": "Aisha Malik",
-      "one_liner": "平台开始把 Claude Code/Cursor 当开发入口，是「AI 编程工具成为分发渠道」的一个早期信号。"
+      "title": "微软 CEO Nadella：AI Agent 将重塑互联网经济，广告模式受冲击",
+      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "source": "TechCrunch",
+      "one_liner": "Nadella 在 DealBook 上的判断，和 Stratechery 那篇访谈互为印证，但信息密度低于长访谈，放备选。"
     },
     {
       "domain": "股票",
-      "title": "A Banker's Guide to Anthropic",
+      "title": "Michael Burry：Anthropic 是在「赌上存在」押注乐观情绪",
+      "url": "https://www.businessinsider.com/michael-burry-anthropic-ipo-outlook-ant-big-short-2026-11",
+      "source": "Business Insider",
+      "one_liner": "《大空头》原型公开唱空 Anthropic IPO，是理解 1.5 万亿估值争议的反方视角，但属观点非事实。"
+    },
+    {
+      "domain": "股票",
+      "title": "Net Interest：一份银行家视角的 Anthropic 指南——为什么 IPO 是信用事件",
       "url": "https://www.netinterest.co/p/a-bankers-guide-to-anthropic",
       "source": "Marc Rubinstein",
-      "one_liner": "从信用事件角度拆解 Anthropic IPO，比新闻稿深，适合配合头条 2 一起读。"
-    },
-    {
-      "domain": "股票",
-      "title": "Nasdaq plummets 4% into correction territory",
-      "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
-      "source": "kristianp",
-      "one_liner": "11 月初纳指跌入回调区，是理解当前 AI 资本情绪的背景板，非今日新增事实。"
+      "one_liner": "把 Anthropic IPO 拆成信用事件而非成长故事，是本周金融侧最扎实的长文，但发布时间 11 月 13 日，稍旧。"
     },
     {
       "domain": "金融",
-      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "title": "Oracle 申请发行 200 亿美元股票和债券，为 AI 基建融资",
       "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-      "source": "smartmic",
-      "one_liner": "200 亿美元融资建 AI 基建，是「算力资本化」链条上的具体一笔，可与 Anthropic 支出承诺对照。"
+      "source": "CNBC",
+      "one_liner": "11 月 2 日的融资动作，说明 AI 基建的钱正从经营现金流转向资本市场，是「AI 资本结构」主题的注脚。"
     },
     {
       "domain": "金融",
-      "title": "Markets for Compute and Inference: Structure, Financing, and Risk Transfer",
-      "url": "https://arxiv.org/abs/2611.20242",
-      "source": "Dr Gabriel Borrageiro",
-      "one_liner": "把算力按加速器小时、推理按百万 token 定价当作可交易商品来分析，框架新颖，适合周末深读。"
+      "title": "arXiv：Vibe-Trading——面向 Agent 原生交易的框架",
+      "url": "https://arxiv.org/abs/2611.24845",
+      "source": "arXiv",
+      "one_liner": "11 月 19 日新论文，把「Vibe Coding」范式搬到交易 Agent 上，和你做 Agent 项目的思路同源，但偏学术、无代码。"
     },
     {
       "domain": "电子信息与芯片",
-      "title": "Jensen Huang resigns",
+      "title": "黄仁勋辞职（AP 报道，HN 4059 分）",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-      "source": "lldb",
-      "one_liner": "4059 分的 HN 原帖，黄仁勋辞职事件的一手报道，作为头条 1 的背景事实来源保留。"
+      "source": "AP News",
+      "one_liner": "本周 HN 最高分条目，把 Megaspeed、新加坡转口和辞职串在一起，是头条 1 的背景长文，但事件本身已过一周。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-11-19T12:21:27+0000"
+    "scored_at": "2026-11-19T13:43:22+0000"
   }
 }

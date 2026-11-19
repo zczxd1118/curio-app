@@ -2,28 +2,28 @@
 
 > 今日 1 条头条 + 2 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 在黄仁勋辞职后交出 1158 亿美元季度营收、AI 基建需求没塌，但公司治理与 10-Q 延迟披露成了新的不确定性；二是 Anthropic 以每股 83 美元、1.5 万亿美元估值定价 IPO，同时被信用机构打上高收益垃圾级预期——AI 资本周期第一次被公开定价。对你而言，今天值得读的是「工程细节 + 行业结构」，不是情绪。_
+_今天最重要的信号有两个：一是 Nvidia 在黄仁勋辞职后首次交出季报，营收 1158 亿美元、利润依旧强劲，但董事会明确不打算让黄回归，公司进入「后黄仁勋时代」的过渡期；二是 Anthropic 以每股 83 美元、1.5 万亿美元估值完成 IPO 定价，AI 一级市场的泡沫争论被推到台前。对做 Agent 的你来说，今天还有一条值得细读的工程实践：用三块二手 V100 跑出 100 tok/s 的家庭实验室方案，成本只要 1042 美元。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. 美联储开始担心 AI Agent 可能触发挤兑，银行 meanwhile 声明用 Agent 的客户被黑后果自负
+### 5. 美联储开始担心 AI Agent 会触发银行挤兑，Citi 等大行已对 Agent 操作免责
 
-**[金融]** · ⭐⭐⭐⭐ · _pera_
+**[金融]** · ⭐⭐⭐⭐ · _Gizmodo_
 
-美联储内部开始讨论 AI Agent 集中执行提款或转账可能引发挤兑的风险；与此同时，Citi 等更多银行明确表态：客户自行使用 AI Agent 操作账户，即使被黑也由客户自己承担。两条线指向同一个问题——Agent 有了金融行动权，责任归属还没定。
+美联储内部讨论文件开始关注一个新型系统性风险：如果大量用户把理财决策交给 AI Agent，而 Agent 在恐慌信号下同步撤资，可能形成比人工更快、更同步的银行挤兑。与此同时，Citi 等大行已在条款中写明「使用 AI Agent 操作的客户自行承担被黑损失」。Agent 进入金融场景，责任边界正在被重新划线。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 美联储正在评估 AI Agent 触发银行挤兑的风险 | 美联储是否已有具体监管草案，尚不明确 |
-| Citi 成为最新一家限制个人理财 AI Agent 的大银行 | 银行免责声明在法律上是否站得住，未经判例检验 |
-| 多家银行声明客户使用 Agent 被黑后果自负 | Agent 挤兑是理论推演还是已有苗头，公开信息不足 |
-| 相关讨论发生在 Agent 开始具备自动转账能力的背景下 | 责任划分最终可能由监管而非银行单方声明决定 |
+| 美联储内部讨论文件将「AI Agent 同步撤资」列为潜在金融稳定风险 | 美联储是否会把 Agent 挤兑纳入正式监管框架，目前只是讨论阶段 |
+| Citi 是最新一家在条款中声明「客户使用 AI Agent 操作风险自负」的大型银行 | 「同步撤资」的触发阈值和传播速度没有实证数据，属于情景推演 |
+| 多家银行已对个人理财类 AI Agent 的接入采取限制或免责立场 | 银行免责条款在司法上是否站得住，尚无判例 |
+| 讨论背景是 Agent 在支付、转账、投资指令上的自动化程度快速上升 | Agent 开发者（包括个人项目）在什么情况下会被认定为「金融业务主体」，监管未明确 |
 
 **📖 主编点评**
 
-这条和你的 Agent 项目直接相关：一旦 Agent 能调用支付或账户类 MCP 工具，责任边界就成了产品设计的一部分。建议你在 content-curator 里预留「高危工具需人工确认」的机制，这既是安全实践，也是面试时能讲清楚的设计决策。
+这条对你做 content-curator 是提醒而非威胁：只要你的 Agent 不碰支付和交易指令，就不在监管射程内。但如果你以后想给 Agent 加「自动订阅付费内容」这类功能，先看清楚 Stripe 和银行的 Agent 条款——现在多数平台把「Agent 发起的交易」默认归为持卡人本人操作，出了事你自己扛。
 
 📺 [打开原文](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566)
 
@@ -31,10 +31,10 @@ _今天最重要的信号有两个：一是 Nvidia 在黄仁勋辞职后交出 1
 
 ## 📋 备选阅读
 
-- [Oracle files to sell $20B in new stock, bonds to finance AI buildout](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— 200 亿美元融资建 AI 基建，是「算力资本化」链条上的具体一笔，可与 Anthropic 支出承诺对照。
-  _smartmic_
-- [Markets for Compute and Inference: Structure, Financing, and Risk Transfer](https://arxiv.org/abs/2611.20242) —— 把算力按加速器小时、推理按百万 token 定价当作可交易商品来分析，框架新颖，适合周末深读。
-  _Dr Gabriel Borrageiro_
+- [Oracle 申请发行 200 亿美元股票和债券，为 AI 基建融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— 11 月 2 日的融资动作，说明 AI 基建的钱正从经营现金流转向资本市场，是「AI 资本结构」主题的注脚。
+  _CNBC_
+- [arXiv：Vibe-Trading——面向 Agent 原生交易的框架](https://arxiv.org/abs/2611.24845) —— 11 月 19 日新论文，把「Vibe Coding」范式搬到交易 Agent 上，和你做 Agent 项目的思路同源，但偏学术、无代码。
+  _arXiv_
 
 ---
 
