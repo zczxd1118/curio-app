@@ -2,23 +2,23 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-18T11:26:07.941727+00:00",
+  "fetched_at": "2026-11-19T11:23:50.625789+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 12,
-    "HN · IPO": 27,
-    "HN · earnings": 2,
+    "HN · stock market": 13,
+    "HN · IPO": 26,
+    "HN · earnings": 3,
     "HN · Federal Reserve": 0,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 60,
+  "total": 61,
   "items": [
     {
       "id": "hn:50492993",
@@ -54,6 +54,25 @@
       "views": 164,
       "comments": 158,
       "published_at": "2026-11-05T21:39:26+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50556287",
+      "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+      "url": "https://verialabs.com/ruby2shell/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50556287",
+        "name": "jdns",
+        "hn_url": "https://news.ycombinator.com/item?id=50556287"
+      },
+      "duration_sec": null,
+      "views": 156,
+      "comments": 58,
+      "published_at": "2026-11-19T05:09:11+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -318,27 +337,8 @@
       },
       "duration_sec": null,
       "views": 322,
-      "comments": 634,
+      "comments": 635,
       "published_at": "2026-11-06T16:54:36+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50151376",
-      "title": "The obscure trust looming over Anthropic's IPO",
-      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50151376",
-        "name": "1vuio0pswjnm7",
-        "hn_url": "https://news.ycombinator.com/item?id=50151376"
-      },
-      "duration_sec": null,
-      "views": 154,
-      "comments": 147,
-      "published_at": "2026-10-19T12:06:03+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -439,6 +439,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50547901",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50547901",
+        "name": "sshah03",
+        "hn_url": "https://news.ycombinator.com/item?id=50547901"
+      },
+      "duration_sec": null,
+      "views": 50,
+      "comments": 0,
+      "published_at": "2026-11-18T15:59:04+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50351712",
       "title": "Anthropic's IPO Filing Warns It May Be 'Imminently' Close to RSI",
       "url": "https://epyhia.com/anthropic-s-ipo-filing-warns-it-may-be-imminently-close-to-recursive",
@@ -477,6 +496,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50549623",
+      "title": "Just say no to Anthropic's IPO",
+      "url": "https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50549623",
+        "name": "Betelbuddy",
+        "hn_url": "https://news.ycombinator.com/item?id=50549623"
+      },
+      "duration_sec": null,
+      "views": 25,
+      "comments": 9,
+      "published_at": "2026-11-18T17:54:16+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50507517",
       "title": "A Human Reads the Anthropic IPO Filing",
       "url": "https://www.nytimes.com/2026/11/15/business/anthropic-ipo-filing-prospectus.html",
@@ -491,6 +529,25 @@
       "views": 23,
       "comments": 10,
       "published_at": "2026-11-15T15:18:06+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50553581",
+      "title": "Anthropic reportedly prices its IPO at $83 per share, valuing at $1.5T",
+      "url": "https://apnews.com/article/anthropic-ipo-pricing-70b660ddf900d90bbf484ecdf1fb441c",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50553581",
+        "name": "6thbit",
+        "hn_url": "https://news.ycombinator.com/item?id=50553581"
+      },
+      "duration_sec": null,
+      "views": 17,
+      "comments": 23,
+      "published_at": "2026-11-18T23:00:26+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -515,82 +572,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50456668",
-      "title": "Anthropic says a key AI safety alarm has been triggered, days before its IPO",
-      "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50456668",
-        "name": "healsdata",
-        "hn_url": "https://news.ycombinator.com/item?id=50456668"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 12,
-      "published_at": "2026-11-11T18:23:31+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50251762",
-      "title": "Anthropic Is the Most Ridiculous IPO of 2026 [pdf]",
-      "url": "https://www.newconstructs.com/wp-content/uploads/2026/10/Anthropic-Is-The-Most-Ridiculous-IPO-of-2026.pdf",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50251762",
-        "name": "simonebrunozzi",
-        "hn_url": "https://news.ycombinator.com/item?id=50251762"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 5,
-      "published_at": "2026-10-26T22:06:15+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50243343",
-      "title": "Anthropic rushing IPO before AI bubble bursts",
-      "url": "https://nypost.com/2026/10/23/business/wall-street-is-urging-anthropic-openai-to-do-their-ipos-in-a-hurry-heres-why/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50243343",
-        "name": "nothrowaways",
-        "hn_url": "https://news.ycombinator.com/item?id=50243343"
-      },
-      "duration_sec": null,
-      "views": 15,
-      "comments": 2,
-      "published_at": "2026-10-26T13:30:05+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50386483",
-      "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
-      "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50386483",
-        "name": "sandinmyjoints",
-        "hn_url": "https://news.ycombinator.com/item?id=50386483"
-      },
-      "duration_sec": null,
-      "views": 14,
-      "comments": 3,
-      "published_at": "2026-11-06T00:17:47+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
       "id": "hn:50337454",
       "title": "Jobless tech workers are being left out of San Francisco's AI boom",
       "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
@@ -605,6 +586,25 @@
       "views": 188,
       "comments": 259,
       "published_at": "2026-11-02T14:40:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50548485",
+      "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
+      "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50548485",
+        "name": "sshah03",
+        "hn_url": "https://news.ycombinator.com/item?id=50548485"
+      },
+      "duration_sec": null,
+      "views": 134,
+      "comments": 77,
+      "published_at": "2026-11-18T16:41:22+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -754,8 +754,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50538942"
       },
       "duration_sec": null,
-      "views": 54,
-      "comments": 40,
+      "views": 55,
+      "comments": 47,
       "published_at": "2026-11-17T22:08:34+00:00",
       "summary": "",
       "matched_keyword": "earnings",
@@ -776,6 +776,25 @@
       "views": 24,
       "comments": 2,
       "published_at": "2026-11-12T05:31:52+00:00",
+      "summary": "",
+      "matched_keyword": "earnings",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50542361",
+      "title": "Interesting Learnings Working for a Startup",
+      "url": "https://news.ycombinator.com/item?id=50542361",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50542361",
+        "name": "Jessiejia11",
+        "hn_url": "https://news.ycombinator.com/item?id=50542361"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 4,
+      "published_at": "2026-11-18T05:52:37+00:00",
       "summary": "",
       "matched_keyword": "earnings",
       "lang": "en"

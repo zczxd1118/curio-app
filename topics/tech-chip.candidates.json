@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-18T11:26:20.541566+00:00",
+  "fetched_at": "2026-11-19T11:24:04.143097+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 31,
-    "HN · semiconductor": 1,
+    "HN · Nvidia": 32,
+    "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 54,
+  "total": 56,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/nvidia-reports-115-8b-in-quarterly-revenue-under-interim-ceo/",
+      "title": "Nvidia Reports $115.8B in Quarterly Revenue Under Interim CEO",
+      "url": "https://www.eetimes.com/nvidia-reports-115-8b-in-quarterly-revenue-under-interim-ceo/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "News Desk",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-19T10:26:18+00:00",
+      "summary": "Strong AI infrastructure demand helped Nvidia revenue and profit as the company deals with leadership changes. The post Nvidia Reports $115.8B in Quarterly Revenue Under Interim CEO appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/quantum-stocks-are-headed-for-a-correction-investor-charles-beyrouthy-says/",
+      "title": "Quantum Stocks Are Headed for a Correction, Investor Charles Beyrouthy Says",
+      "url": "https://www.eetimes.com/quantum-stocks-are-headed-for-a-correction-investor-charles-beyrouthy-says/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Nitin Dahad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T23:39:34+00:00",
+      "summary": "Charles Beyrouthy warns quantum stocks face a correction as investors ignore revenue and tech differences; watch where he sees opportunity next. The post Quantum Stocks Are Headed for a Correction, Investor Charles Beyrouthy Says appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/beyond-one-turn-how-a-single-chip-multiturn-position-sensor-is-reshaping-actuator-design/",
+      "title": "Beyond One Turn: How a Single-Chip Multiturn Position Sensor Is Reshaping Actuator Design",
+      "url": "https://www.eetimes.com/beyond-one-turn-how-a-single-chip-multiturn-position-sensor-is-reshaping-actuator-design/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Analog Devices",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T15:00:00+00:00",
+      "summary": "Discover how advanced multiturn position sensing can transform industrial motion control without the limitations of traditional mechanical solutions. Explore how magnetic sensing technology enables accurate, reliable tracking of rotational movement even when power is removed. From robotics and linear actuators to hoists, winches and automated systems, learn how this innovative approach can simplify designs, improve [&#8230;] The post Beyond One Turn: How a Single-Chip Multiturn Position Sensor I...",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/qnity-at-one-randy-king-on-shrink-stack-and-the-materials-behind-ai/",
+      "title": "Qnity at One: Randy King on Shrink, Stack and the Materials Behind AI",
+      "url": "https://www.eetimes.com/qnity-at-one-randy-king-on-shrink-stack-and-the-materials-behind-ai/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Randal King, Senior Vice President and Chief Technology and Sustainability Officer, Qnity",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T14:00:00+00:00",
+      "summary": "Qnity CTO Randy King on year one as an independent company, shrink-and-stack chips and the materials challenges of advanced packaging for AI. The post Qnity at One: Randy King on Shrink, Stack and the Materials Behind AI appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/koduri-oxmiq-offers-ip-tools-for-indian-teams-to-design-ai-chips/",
+      "title": "Koduri’s Oxmiq Offers IP, Tools for Indian Teams to Design AI Chips",
+      "url": "https://www.eetimes.com/koduri-oxmiq-offers-ip-tools-for-indian-teams-to-design-ai-chips/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Yashasvini Razdan",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-18T13:30:00+00:00",
+      "summary": "India's AI infrastructure needs could exceed 6 GW by 2030. Oxmiq Labs CEO Raja Koduri explains why domestic chip design and custom systems matter. The post Koduri’s Oxmiq Offers IP, Tools for Indian Teams to Design AI Chips appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/edge-ai-moves-agricultural-intelligence-from-the-cloud-to-the-field/",
       "title": "Edge AI Moves Agricultural Intelligence from the Cloud to the Field",
       "url": "https://www.eetimes.com/edge-ai-moves-agricultural-intelligence-from-the-cloud-to-the-field/",
@@ -274,91 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/intesa-sanpaolo-finds-value-before-quantum-computers-are-ready/",
-      "title": "Intesa Sanpaolo Finds Value Before Quantum Computers Are Ready",
-      "url": "https://www.eetimes.com/intesa-sanpaolo-finds-value-before-quantum-computers-are-ready/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-17T09:16:07+00:00",
-      "summary": "The banking group reports double-digit cost savings from quantum-inspired optimization, but useful quantum hardware faces a tougher test than faster calculations. The post Intesa Sanpaolo Finds Value Before Quantum Computers Are Ready appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/taking-a-tour-of-canadas-particle-accelerator/",
-      "title": "Taking a Tour of Canada’s Particle Accelerator",
-      "url": "https://www.eetimes.com/taking-a-tour-of-canadas-particle-accelerator/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T17:52:31+00:00",
-      "summary": "Located on Canada’s west coast, TRIUMF’s normal-conducting cyclotron, unique materials probes, and irradiation facilities serve everything from quantum materials and radiation-hardened electronics to medical isotopes. The post Taking a Tour of Canada’s Particle Accelerator appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/simplifying-power-design-with-%c2%b5module-solutions/",
-      "title": "Simplifying Power Design with µModule Solutions",
-      "url": "https://www.eetimes.com/simplifying-power-design-with-%c2%b5module-solutions/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Analog Devices, Arrow Electronics",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T17:41:23+00:00",
-      "summary": "Join this webinar to learn how highly integrated power solutions can simplify design, increase power density, and much more. The post Simplifying Power Design with µModule Solutions appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/beyond-low-energy-new-product-frontiers-for-lossless-audio-edge-ai-and-display-streaming/",
-      "title": "Beyond Low Energy: New Product Frontiers for Lossless Audio, Edge-AI and Display Streaming",
-      "url": "https://www.eetimes.com/beyond-low-energy-new-product-frontiers-for-lossless-audio-edge-ai-and-display-streaming/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Telink Semiconductor",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T17:19:44+00:00",
-      "summary": "Join our expert-led webinar to discover how the TL753X SoC leverages High Definition Technology (HDT) for innovative applications. The post Beyond Low Energy: New Product Frontiers for Lossless Audio, Edge-AI and Display Streaming appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/silicon-motherboard-enables-double-sided-integration-of-ics-and-passive-components/",
-      "title": "Silicon Motherboard Enables Double-Sided Integration of ICs and Passive Components",
-      "url": "https://www.eetimes.com/silicon-motherboard-enables-double-sided-integration-of-ics-and-passive-components/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nisshinbo Micro Devices",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-16T17:00:00+00:00",
-      "summary": "Nisshinbo's Silicon Motherboard integrates ICs and passives on both sides of a silicon substrate, reducing mounting area by up to 90%. The post Silicon Motherboard Enables Double-Sided Integration of ICs and Passive Components appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50479721",
       "title": "TSMC Hacked",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
@@ -409,7 +409,7 @@
       },
       "duration_sec": null,
       "views": 1227,
-      "comments": 1647,
+      "comments": 1646,
       "published_at": "2026-11-11T22:31:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -427,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50493251"
       },
       "duration_sec": null,
-      "views": 1113,
+      "views": 1114,
       "comments": 650,
       "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
@@ -484,8 +484,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50534631"
       },
       "duration_sec": null,
-      "views": 558,
-      "comments": 249,
+      "views": 664,
+      "comments": 295,
       "published_at": "2026-11-17T17:12:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -522,8 +522,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50512235"
       },
       "duration_sec": null,
-      "views": 482,
-      "comments": 587,
+      "views": 485,
+      "comments": 588,
       "published_at": "2026-11-15T23:55:55+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -542,7 +542,7 @@
       },
       "duration_sec": null,
       "views": 460,
-      "comments": 504,
+      "comments": 505,
       "published_at": "2026-11-12T19:51:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -560,8 +560,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50501631"
       },
       "duration_sec": null,
-      "views": 451,
-      "comments": 240,
+      "views": 452,
+      "comments": 241,
       "published_at": "2026-11-14T22:26:30+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -617,7 +617,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50518567"
       },
       "duration_sec": null,
-      "views": 287,
+      "views": 289,
       "comments": 262,
       "published_at": "2026-11-16T15:24:09+00:00",
       "summary": "",
@@ -675,7 +675,7 @@
       },
       "duration_sec": null,
       "views": 177,
-      "comments": 190,
+      "comments": 191,
       "published_at": "2026-11-15T23:24:53+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -845,8 +845,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50538942"
       },
       "duration_sec": null,
-      "views": 54,
-      "comments": 40,
+      "views": 55,
+      "comments": 47,
       "published_at": "2026-11-17T22:08:34+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -883,8 +883,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50424604"
       },
       "duration_sec": null,
-      "views": 44,
-      "comments": 19,
+      "views": 45,
+      "comments": 20,
       "published_at": "2026-11-09T12:20:45+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -967,6 +967,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50511763",
+      "title": "Huang Discusses Comeback as Nvidia Chief with Allies, FT Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/huang-discusses-comeback-as-nvidia-chief-with-allies-ft-says",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50511763",
+        "name": "nstj",
+        "hn_url": "https://news.ycombinator.com/item?id=50511763"
+      },
+      "duration_sec": null,
+      "views": 35,
+      "comments": 1,
+      "published_at": "2026-11-15T22:53:51+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50467087",
       "title": "Jensen Huang resigns",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
@@ -979,10 +998,29 @@
       },
       "duration_sec": null,
       "views": 4059,
-      "comments": 3487,
+      "comments": 3491,
       "published_at": "2026-11-12T13:52:29+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50546253",
+      "title": "Dutch resist 'unacceptable' US bid to tighten semiconductor export controls",
+      "url": "https://www.politico.eu/article/dutch-resist-unacceptable-us-bid-to-tighten-semiconductor-export-controls-asml/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50546253",
+        "name": "sergdigon",
+        "hn_url": "https://news.ycombinator.com/item?id=50546253"
+      },
+      "duration_sec": null,
+      "views": 38,
+      "comments": 34,
+      "published_at": "2026-11-18T13:46:35+00:00",
+      "summary": "",
+      "matched_keyword": "semiconductor",
       "lang": "en"
     },
     {
