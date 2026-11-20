@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-19T11:24:04.143097+00:00",
+  "fetched_at": "2026-11-20T11:13:30.426290+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 32,
+    "HN · Nvidia": 31,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 56,
+  "total": 55,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,91 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/anthropic-ipo-and-the-b2d-strategy/",
+      "title": "Anthropic’s IPO and the B2D Strategy",
+      "url": "https://www.eetimes.com/anthropic-ipo-and-the-b2d-strategy/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Moshe Zalcberg",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-20T09:43:53+00:00",
+      "summary": "From Nvidia’s CUDA to Anthropic's Claude Code, developer adoption can drive enterprise sales, but hardware startups show how difficult conversion can be. The post Anthropic&#8217;s IPO and the B2D Strategy appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/geehy-launches-the-g32r502-1kw-fully-digital-bidirectional-energy-storage-inverter-solution/",
+      "title": "Geehy Launches G32R502 1kW Bidirectional Inverter Solution",
+      "url": "https://www.eetimes.com/geehy-launches-the-g32r502-1kw-fully-digital-bidirectional-energy-storage-inverter-solution/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Geehy Semiconductor",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-20T07:00:00+00:00",
+      "summary": "Explore Geehy’s G32R502 1kW bidirectional energy storage inverter reference design, featuring digital control, high efficiency, and UPS functionality. The post Geehy Launches G32R502 1kW Bidirectional Inverter Solution appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/memory-rd-is-a-high-stakes-game/",
+      "title": "Memory R&D Is a High-Stakes Game",
+      "url": "https://www.eetimes.com/memory-rd-is-a-high-stakes-game/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-19T22:21:15+00:00",
+      "summary": "AI is driving memory makers’ research agenda, while partnerships help share the cost and risk of developing technologies beyond the next process node. The post Memory R&amp;D Is a High-Stakes Game appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/gartner-warns-of-risks-behind-sovereign-tech-claims/",
+      "title": "Gartner Warns of Risks Behind Sovereign Tech Claims",
+      "url": "https://www.eetimes.com/gartner-warns-of-risks-behind-sovereign-tech-claims/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pablo Valerio",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-19T16:30:35+00:00",
+      "summary": "Gartner research predicts that digital sovereignty will become a core component of national security strategies globally by 2030. The post Gartner Warns of Risks Behind Sovereign Tech Claims appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/shaping-the-form-function-and-future-of-humanoid-robotics/",
+      "title": "Shaping the Form, Function, and Future of Humanoid Robotics",
+      "url": "https://www.eetimes.com/shaping-the-form-function-and-future-of-humanoid-robotics/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Henkel",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-19T14:32:48+00:00",
+      "summary": "Humanoid robotics is moving rapidly from concept toward real-world applications, creating new engineering challenges across sensing, movement, assembly, reliability and long-term serviceability. As robots become more sophisticated, materials play an increasingly important role in enabling lighter and more compact designs, protecting sensitive electronics and sensors, and supporting reliable mechanical and electrical performance. From electronic skin [&#8230;] The post Shaping the Form, Function,...",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/nvidia-reports-115-8b-in-quarterly-revenue-under-interim-ceo/",
       "title": "Nvidia Reports $115.8B in Quarterly Revenue Under Interim CEO",
       "url": "https://www.eetimes.com/nvidia-reports-115-8b-in-quarterly-revenue-under-interim-ceo/",
@@ -274,91 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/edge-ai-moves-agricultural-intelligence-from-the-cloud-to-the-field/",
-      "title": "Edge AI Moves Agricultural Intelligence from the Cloud to the Field",
-      "url": "https://www.eetimes.com/edge-ai-moves-agricultural-intelligence-from-the-cloud-to-the-field/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Pat Brans",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-18T06:59:00+00:00",
-      "summary": "NXP and Nvidia tackle the challenges of delivering computing power, energy efficiency, and safety as agricultural machinery becomes autonomous. The post Edge AI Moves Agricultural Intelligence from the Cloud to the Field appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/marc-hijink-on-asmls-culture-supply-chain-and-geopolitics/",
-      "title": "Marc Hijink on ASML’s Culture, Supply Chain, and Geopolitics",
-      "url": "https://www.eetimes.com/marc-hijink-on-asmls-culture-supply-chain-and-geopolitics/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Nitin Dahad",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-17T22:37:22+00:00",
-      "summary": "Explore how ASML’s partner-driven culture, EUV dominance, and geopolitical pressures reshaped chipmaking in Marc Hijink’s interview. The post Marc Hijink on ASML’s Culture, Supply Chain, and Geopolitics appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/everspin-looks-to-broaden-mram-adoption-with-lpddr-standard/",
-      "title": "Everspin Looks to Broaden MRAM Adoption with LPDDR Standard",
-      "url": "https://www.eetimes.com/everspin-looks-to-broaden-mram-adoption-with-lpddr-standard/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-17T17:26:57+00:00",
-      "summary": "An exploratory JEDEC task group is weighing how controller vendors could support MRAM with hard IP to work with newer LPDDR implementations. The post Everspin Looks to Broaden MRAM Adoption with LPDDR Standard appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ltcc-solutions-for-next-generation-uwb-ble-devices/",
-      "title": "LTCC Solutions for Next Generation UWB/BLE Devices",
-      "url": "https://www.eetimes.com/ltcc-solutions-for-next-generation-uwb-ble-devices/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "TAIYO YUDEN (U.S.A.) INC.",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-17T15:00:00+00:00",
-      "summary": "Discover TAIYO YUDEN’s advanced LTCC (Low Temperature Co-fired Ceramic) solutions for UWB and Bluetooth Low Energy (BLE) applications. Featuring high-performance RF components, these solutions address key design challenges such as miniaturization, reliable wireless connectivity, RF performance, and coexistence of multiple wireless technologies. By leveraging LTCC technology, TAIYO YUDEN enables compact and efficient electronic designs that [&#8230;] The post LTCC Solutions for Next Generation UW...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/minimising-acoustic-noise-in-space-constrained-medical-and-life-science-applications/",
-      "title": "Minimizing Acoustic Noise in Space-Constrained Medical and Life Science Applications",
-      "url": "https://www.eetimes.com/minimising-acoustic-noise-in-space-constrained-medical-and-life-science-applications/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Giulio Bocciolini, Senior Product Marketing Manager EMEA, TDK-Lambda EMEA",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-17T15:00:00+00:00",
-      "summary": "Design engineers and technical decision-makers working on medical and life science equipment must balance competing demands: high power density, thermal performance, compact dimensions, and low acoustic noise. This whitepaper provides practical insight into the causes of noise in space-constrained power supply applications and presents strategies for reducing it while maintaining required system performance. It examines [&#8230;] The post Minimizing Acoustic Noise in Space-Constrained Medical an...",
-      "lang": "en"
-    },
-    {
       "id": "hn:50479721",
       "title": "TSMC Hacked",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
@@ -428,7 +428,7 @@
       },
       "duration_sec": null,
       "views": 1114,
-      "comments": 650,
+      "comments": 651,
       "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -447,7 +447,7 @@
       },
       "duration_sec": null,
       "views": 988,
-      "comments": 1296,
+      "comments": 1294,
       "published_at": "2026-11-08T22:20:09+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -465,7 +465,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50477231"
       },
       "duration_sec": null,
-      "views": 819,
+      "views": 820,
       "comments": 698,
       "published_at": "2026-11-13T02:16:24+00:00",
       "summary": "",
@@ -484,8 +484,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50534631"
       },
       "duration_sec": null,
-      "views": 664,
-      "comments": 295,
+      "views": 665,
+      "comments": 297,
       "published_at": "2026-11-17T17:12:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -560,7 +560,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50501631"
       },
       "duration_sec": null,
-      "views": 452,
+      "views": 453,
       "comments": 241,
       "published_at": "2026-11-14T22:26:30+00:00",
       "summary": "",
@@ -579,7 +579,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50487864"
       },
       "duration_sec": null,
-      "views": 386,
+      "views": 387,
       "comments": 216,
       "published_at": "2026-11-13T18:40:44+00:00",
       "summary": "",
@@ -656,7 +656,7 @@
       },
       "duration_sec": null,
       "views": 218,
-      "comments": 57,
+      "comments": 58,
       "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -734,25 +734,6 @@
       "views": 135,
       "comments": 135,
       "published_at": "2026-11-15T19:31:11+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50387738",
-      "title": "Nvidia Kubernetes Engine (NVKE)",
-      "url": "https://github.com/dsx-ai-factory/nvke",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50387738",
-        "name": "gkapur",
-        "hn_url": "https://news.ycombinator.com/item?id=50387738"
-      },
-      "duration_sec": null,
-      "views": 124,
-      "comments": 30,
-      "published_at": "2026-11-06T03:16:26+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -997,8 +978,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50467087"
       },
       "duration_sec": null,
-      "views": 4059,
-      "comments": 3491,
+      "views": 4060,
+      "comments": 3493,
       "published_at": "2026-11-12T13:52:29+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1017,7 +998,7 @@
       },
       "duration_sec": null,
       "views": 38,
-      "comments": 34,
+      "comments": 33,
       "published_at": "2026-11-18T13:46:35+00:00",
       "summary": "",
       "matched_keyword": "semiconductor",

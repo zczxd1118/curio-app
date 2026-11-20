@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-19T11:23:50.625789+00:00",
+  "fetched_at": "2026-11-20T11:13:16.815108+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 13,
-    "HN · IPO": 26,
+    "HN · stock market": 7,
+    "HN · IPO": 28,
     "HN · earnings": 3,
     "HN · Federal Reserve": 0,
     "Bilibili · 股票分析": 0,
@@ -18,8 +18,27 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 61,
+  "total": 57,
   "items": [
+    {
+      "id": "hn:50556287",
+      "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+      "url": "https://verialabs.com/ruby2shell/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50556287",
+        "name": "jdns",
+        "hn_url": "https://news.ycombinator.com/item?id=50556287"
+      },
+      "duration_sec": null,
+      "views": 399,
+      "comments": 180,
+      "published_at": "2026-11-19T05:09:11+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
     {
       "id": "hn:50492993",
       "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
@@ -33,46 +52,8 @@
       },
       "duration_sec": null,
       "views": 218,
-      "comments": 57,
-      "published_at": "2026-11-14T02:21:36+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50384822",
-      "title": "$2.5T has been wiped from US stocks",
-      "url": "https://finlaws.substack.com/p/25t-has-been-wiped-from-us-stocks",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50384822",
-        "name": "madihaa",
-        "hn_url": "https://news.ycombinator.com/item?id=50384822"
-      },
-      "duration_sec": null,
-      "views": 164,
-      "comments": 158,
-      "published_at": "2026-11-05T21:39:26+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50556287",
-      "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
-      "url": "https://verialabs.com/ruby2shell/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50556287",
-        "name": "jdns",
-        "hn_url": "https://news.ycombinator.com/item?id=50556287"
-      },
-      "duration_sec": null,
-      "views": 156,
       "comments": 58,
-      "published_at": "2026-11-19T05:09:11+00:00",
+      "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -89,7 +70,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50510005"
       },
       "duration_sec": null,
-      "views": 127,
+      "views": 128,
       "comments": 134,
       "published_at": "2026-11-15T19:46:02+00:00",
       "summary": "",
@@ -116,96 +97,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50389401",
-      "title": "Global stocks tumble as AI panic grips markets after Democrats' midterm success",
-      "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
+      "id": "hn:50562528",
+      "title": "Anthropic (ANT) stock lists at nearly $2T valuation",
+      "url": "https://news.ycombinator.com/item?id=50562528",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50389401",
-        "name": "drayfield",
-        "hn_url": "https://news.ycombinator.com/item?id=50389401"
+        "id": "50562528",
+        "name": "_hmj",
+        "hn_url": "https://news.ycombinator.com/item?id=50562528"
       },
       "duration_sec": null,
-      "views": 36,
-      "comments": 17,
-      "published_at": "2026-11-06T07:52:53+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50384382",
-      "title": "Chip stocks get slaughtered as Wall Street in worst post-midterm day since 1896",
-      "url": "https://finance.yahoo.com/markets/article/chip-stocks-get-slaughtered-as-wall-street-heads-for-its-worst-post-midterm-day-since-1896-163413900.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50384382",
-        "name": "novaRom",
-        "hn_url": "https://news.ycombinator.com/item?id=50384382"
-      },
-      "duration_sec": null,
-      "views": 32,
-      "comments": 7,
-      "published_at": "2026-11-05T20:58:36+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50383675",
-      "title": "Wipeout for AI stocks sends Wall Street reeling and S&P 500 tumbles more than 3%",
-      "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50383675",
-        "name": "jethronethro",
-        "hn_url": "https://news.ycombinator.com/item?id=50383675"
-      },
-      "duration_sec": null,
-      "views": 24,
-      "comments": 3,
-      "published_at": "2026-11-05T19:58:06+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50381623",
-      "title": "Nasdaq plummets 4% into correction territory",
-      "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50381623",
-        "name": "kristianp",
-        "hn_url": "https://news.ycombinator.com/item?id=50381623"
-      },
-      "duration_sec": null,
-      "views": 227,
-      "comments": 184,
-      "published_at": "2026-11-05T17:11:15+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50382179",
-      "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50382179",
-        "name": "armcat",
-        "hn_url": "https://news.ycombinator.com/item?id=50382179"
-      },
-      "duration_sec": null,
-      "views": 163,
-      "comments": 193,
-      "published_at": "2026-11-05T18:00:01+00:00",
+      "views": 39,
+      "comments": 13,
+      "published_at": "2026-11-19T16:47:32+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -225,25 +130,6 @@
       "views": 60,
       "comments": 89,
       "published_at": "2026-11-10T12:49:32+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50386909",
-      "title": "Investors wipe $2.5T off Nasdaq as blue tsunami prompts AI fears",
-      "url": "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50386909",
-        "name": "lilerjee",
-        "hn_url": "https://news.ycombinator.com/item?id=50386909"
-      },
-      "duration_sec": null,
-      "views": 46,
-      "comments": 18,
-      "published_at": "2026-11-06T01:11:40+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -279,7 +165,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50465829"
       },
       "duration_sec": null,
-      "views": 1007,
+      "views": 1009,
       "comments": 922,
       "published_at": "2026-11-12T11:46:41+00:00",
       "summary": "",
@@ -450,9 +336,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50547901"
       },
       "duration_sec": null,
-      "views": 50,
+      "views": 53,
       "comments": 0,
       "published_at": "2026-11-18T15:59:04+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50564282",
+      "title": "No Bailout for the AI Bubble, Anthropic IPO Protesters Say",
+      "url": "https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50564282",
+        "name": "cdrnsf",
+        "hn_url": "https://news.ycombinator.com/item?id=50564282"
+      },
+      "duration_sec": null,
+      "views": 47,
+      "comments": 28,
+      "published_at": "2026-11-19T18:42:13+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -472,25 +377,6 @@
       "views": 35,
       "comments": 82,
       "published_at": "2026-11-03T13:26:43+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50167295",
-      "title": "Data center stocks slide as Korea IPO plunges 30%, pressuring tech sentiment",
-      "url": "https://www.cnbc.com/2026/10/20/data-center-stocks-slide-as-korea-ipo-plunges-30percent-pressuring-tech-sentiment.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50167295",
-        "name": "PLenz",
-        "hn_url": "https://news.ycombinator.com/item?id=50167295"
-      },
-      "duration_sec": null,
-      "views": 32,
-      "comments": 2,
-      "published_at": "2026-10-20T14:50:08+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -546,7 +432,7 @@
       },
       "duration_sec": null,
       "views": 17,
-      "comments": 23,
+      "comments": 27,
       "published_at": "2026-11-18T23:00:26+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -567,6 +453,82 @@
       "views": 16,
       "comments": 2,
       "published_at": "2026-11-10T19:56:11+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50456668",
+      "title": "Anthropic says a key AI safety alarm has been triggered, days before its IPO",
+      "url": "https://finance.yahoo.com/markets/article/anthropic-says-a-key-ai-safety-alarm-has-been-triggered-days-before-its-ipo-171519615.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50456668",
+        "name": "healsdata",
+        "hn_url": "https://news.ycombinator.com/item?id=50456668"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 12,
+      "published_at": "2026-11-11T18:23:31+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50251762",
+      "title": "Anthropic Is the Most Ridiculous IPO of 2026 [pdf]",
+      "url": "https://www.newconstructs.com/wp-content/uploads/2026/10/Anthropic-Is-The-Most-Ridiculous-IPO-of-2026.pdf",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50251762",
+        "name": "simonebrunozzi",
+        "hn_url": "https://news.ycombinator.com/item?id=50251762"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 5,
+      "published_at": "2026-10-26T22:06:15+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50243343",
+      "title": "Anthropic rushing IPO before AI bubble bursts",
+      "url": "https://nypost.com/2026/10/23/business/wall-street-is-urging-anthropic-openai-to-do-their-ipos-in-a-hurry-heres-why/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50243343",
+        "name": "nothrowaways",
+        "hn_url": "https://news.ycombinator.com/item?id=50243343"
+      },
+      "duration_sec": null,
+      "views": 15,
+      "comments": 2,
+      "published_at": "2026-10-26T13:30:05+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50386483",
+      "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
+      "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50386483",
+        "name": "sandinmyjoints",
+        "hn_url": "https://news.ycombinator.com/item?id=50386483"
+      },
+      "duration_sec": null,
+      "views": 14,
+      "comments": 3,
+      "published_at": "2026-11-06T00:17:47+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -602,8 +564,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50548485"
       },
       "duration_sec": null,
-      "views": 134,
-      "comments": 77,
+      "views": 146,
+      "comments": 79,
       "published_at": "2026-11-18T16:41:22+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -629,25 +591,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50171533",
-      "title": "Anthropic S-1 Shows Red-Hot Growth, Risks and Computing Costs",
-      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50171533",
-        "name": "mmmmmbop",
-        "hn_url": "https://news.ycombinator.com/item?id=50171533"
-      },
-      "duration_sec": null,
-      "views": 21,
-      "comments": 2,
-      "published_at": "2026-10-20T19:34:39+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
       "id": "hn:50529644",
       "title": "Who Is Anthropic Kidding?",
       "url": "https://www.theatlantic.com/economy/2026/11/anthropic-ipo-ai-safety/689440/",
@@ -662,25 +605,6 @@
       "views": 20,
       "comments": 9,
       "published_at": "2026-11-17T10:25:11+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50177795",
-      "title": "Anthropic disclosed an $80.7B net loss for the first half of 2026",
-      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50177795",
-        "name": "joennlae",
-        "hn_url": "https://news.ycombinator.com/item?id=50177795"
-      },
-      "duration_sec": null,
-      "views": 18,
-      "comments": 12,
-      "published_at": "2026-10-21T08:51:15+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -792,8 +716,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50542361"
       },
       "duration_sec": null,
-      "views": 18,
-      "comments": 4,
+      "views": 19,
+      "comments": 6,
       "published_at": "2026-11-18T05:52:37+00:00",
       "summary": "",
       "matched_keyword": "earnings",
