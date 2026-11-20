@@ -1,0 +1,179 @@
+# Curio 趋势雷达 · 2026-11-20
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
+
+_今天两条主线：一是 Anthropic 以 $83/股登陆纳斯达克、开盘 $111，7 位创始人合计套现近 $2B，AI 泡沫的定价权第一次交给公开市场；二是 Nvidia 在黄仁勋辞职后交出 $115.8B 季度营收，同时被曝通过循环融资制造 GPU 稀缺。前者决定 AI 资本周期，后者决定算力供给叙事——两者叠加，接下来 6 个月 AI 板块波动会明显放大。_
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 1. Anthropic 以 $83 定价、开盘 $111 登陆纳斯达克，募资超 $80B，AI 泡沫正式接受公开市场检验
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _TechCrunch_
+
+Anthropic 昨晚在纳斯达克挂牌，IPO 定价 $83/股，开盘冲到 $111，较定价高 33%。按 $83 计算公司募得超 $800 亿新资本，是史上最大科技 IPO 之一。Dario Amodei 在敲钟演讲里重申不会因商业或政治压力加快 AI 开发节奏。这是 AI 资本周期第一次被公开市场直接定价，后面所有 frontier lab 的估值锚都会看这一单。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| IPO 定价 $83/股，开盘 $111，较定价高 33% | 开盘溢价能否维持到锁定期结束，目前无数据 |
+| 按定价计算募资超 $800 亿新资本 | 信用评级机构此前预期给出高收益级『垃圾』评级，实际评级尚未公布 |
+| 7 位创始人合计套现近 $2B，每人约 $2.8 亿 | $900B 的 AI 算力采购承诺如何与公开市场财报节奏匹配，仍是黑箱 |
+| Dario Amodei 敲钟演讲重申按自己节奏推进 AI 开发 | B2D（开发者驱动企业销售）模式能否撑起 $1.5T 估值，只有 CUDA 一个成功先例 |
+| 公司 Public Benefit Foundation 及员工捐赠按 $95 股价折算约 $156B |  |
+
+**📖 主编点评**
+
+你不需要买这只股票，但要看懂它的定价逻辑：Anthropic 把『开发者先用起来→企业买单』这条路径摆上了台面，这正是你做 content-curator 的底层假设。建议把招股书里关于 Claude Code 使用量、API 收入结构的部分找出来读一遍，比任何 AI 商业分析文章都硬。
+
+📺 [打开原文](https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/)
+
+---
+
+### 3. Gemini 拿到 Mac 控制权：能整理文件、填表单、跑多步工作流，桌面 Agent 战开打
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
+
+Google 给 Gemini 加了 Mac 端 Agent 能力，可以替你整理文件、填表、执行多步骤工作流。同一周 Apple 被曝在招人自建 AI agent（能浏览网页、跨 App 操作、写代码），Meta 的 Muse Charm 小设备传定价 $300。三家大厂在同一周把『Agent 直接操作你的电脑』摆上台面，桌面成了下一个入口战场。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Gemini 新增 Mac 端 Agent，支持文件整理、表单填写、多步工作流 | Gemini 的 Mac Agent 实际权限边界和沙箱机制尚未公开 |
+| Apple 招聘信息显示在自建可跨 App 操作、写代码的 AI agent | Apple 的 agent 仍在招聘阶段，落地时间不明 |
+| Meta Muse Charm 据 The Information 报道定价 $300 | Meta Muse 被曝混淆对话、可能泄露隐私数据，产品成熟度存疑 |
+| Gemini 4 Neon 在 Models Engineering Index 上排到第一 | 桌面 Agent 的权限模型会不会重演浏览器扩展的安全问题，无人给出答案 |
+| Google 搜索首页开始内嵌 AI 对话侧边栏 |  |
+
+**📖 主编点评**
+
+你做 content-curator 这类个人 Agent，桌面控制是绕不开的一环。建议现在就去试 Gemini 的 Mac Agent，重点看它怎么处理『多步任务中途失败』——这是所有 Agent 框架最脆弱的地方，也是你能在简历里讲出深度的点。
+
+📺 [打开原文](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/)
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 2. Nvidia 临时 CEO 治下交出 $115.8B 季度营收，同时被曝靠循环融资制造 GPU 稀缺
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _EE Times_
+
+黄仁勋因丑闻辞职后，Nvidia 由临时 CEO Colette Kress 主持首个财报，季度营收 $115.8B，AI 基础设施需求仍是主引擎。同一周 TechPowerUp 和 TechSpot 先后报道 Nvidia 通过投资 AI 初创、再让这些公司回头买自家 GPU 的方式人为制造稀缺、维持高价。业绩和指控同时落地，董事会已明确表示不打算让黄仁勋回归。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 季度营收 $115.8B，由临时 CEO Colette Kress 主持发布 | 循环融资指控目前是媒体调查，尚无监管立案 |
+| 黄仁勋已于 11 月 12 日即刻辞任 CEO | 临时 CEO 能否稳住大客户与供应链关系，一个季度看不出来 |
+| 董事会主席 Harvey Jones 表示不打算让黄仁勋复职 | Arm CEO Rene Haas 被接触接任的传闻未获官方确认 |
+| TechPowerUp / TechSpot 报道 Nvidia 通过投资 AI 初创再回购 GPU 的方式维持价格 | 新加坡销售不披露是否与 Megaspeed 走私案相关，仍属推测 |
+| Nvidia 停止单独披露新加坡地区销售，同期总营收达 $104B 口径 |  |
+
+**📖 主编点评**
+
+如果你在关注推理成本，这条要连起来看：GPU 价格被人为托高的指控如果坐实，云厂商的算力报价逻辑会重构，你调 API 的成本曲线也会变。短期建议别把任何 side project 的推理预算押在『GPU 会继续降价』这个假设上。
+
+📺 [打开原文](https://www.eetimes.com/nvidia-reports-115-8b-in-quarterly-revenue-under-interim-ceo/)
+
+---
+
+## 🌟 股票
+
+### 4. Marc Rubinstein：Anthropic 的 IPO 本质是一场信用事件，不是成长股故事
+
+**[股票]** · ⭐⭐⭐⭐ · _Net Interest / Marc Rubinstein_
+
+前对冲基金分析师 Marc Rubinstein 在 Net Interest 上给出一个和主流叙事相反的框架：Anthropic 的 IPO 应该按信用事件来读，而不是按成长股来读。理由是它背着 $900B 的算力采购承诺，上市后要在公开市场持续融资兑现，真正的风险不在估值高低，而在现金流能不能接上。这篇是本周对 AI 资本结构解释最清楚的一篇。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Anthropic IPO 前披露约 $900B 的 AI 算力采购承诺 | 『信用事件』框架是否成立，取决于后续债券市场反应 |
+| Blackstone 表示 Anthropic 上市后可能拿不到投资级评级 | $900B 承诺里有多少是可撤销的，招股书未细说 |
+| IPO 定价 $83/股，对应约 $1.5T 估值 | Michael Burry 等空头认为这是『押上存在』的乐观定价，属观点非事实 |
+| 季度人力成本约 $1.7B，人均月成本约 $107K | 评级机构最终给什么级别，尚未落地 |
+
+**📖 主编点评**
+
+这篇值得你花 15 分钟读完，因为它教你一种看 AI 公司的方法：不看它讲什么故事，看它的现金承诺表。你做 side project 融资或写商业计划时，这套『先看负债再看增长』的视角比任何增长黑客文章都实用。
+
+📺 [打开原文](https://www.netinterest.co/p/a-bankers-guide-to-anthropic)
+
+---
+
+## 🌟 AI
+
+### 5. Claude Code 从命令行进化成桌面客户端完全体，配 Opus 5.5 的 Agent 形态值得实测
+
+**[AI]** · ⭐⭐⭐⭐ · _技术爬爬虾_
+
+技术爬爬虾这期拆了 Claude Desktop 的最新形态：Claude Code 的编程能力、Claude Design 的设计能力、Claude Cowork 的办公能力被收进同一个桌面客户端，Claude Code 从黑乎乎的命令行工具变成了有 UI 的完整 Agent 产品。搭配 Opus 5.5，这是目前最接近『顶级 Agent 软件长什么样』的公开样本。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Claude Desktop 已整合 Claude Code、Claude Design、Claude Cowork 三块能力 | 桌面客户端相比命令行的实际效率提升，视频未给量化对比 |
+| Claude Code 从纯命令行形态升级为桌面客户端形态 | Opus 5.5 在长任务上的稳定性，单条视频不足以判断 |
+| 视频搭配 Opus 5.5 模型做实测演示 | 整合三块能力后资源占用和响应延迟是否变差，未知 |
+| 同期 Claude Skill 做 PPT 的教程在 B 站获得 10 万+ 播放 | 这套形态会不会成为其他 Agent 产品的模板，尚早 |
+
+**📖 主编点评**
+
+你天天用 Claude Code，这期值得看的是它怎么把 CLI 的工作流映射到 GUI——斜杠命令、子 Agent、Hooks 在桌面端怎么呈现。看完顺手对照你自己的 content-curator，想想哪些环节可以借这个交互范式，这是能直接写进项目 README 的东西。
+
+📺 [打开原文](http://www.bilibili.com/video/av117580048108571)
+
+---
+
+## 📋 备选池
+
+### AI 算力 / 半导体
+
+- [OpenAI 帮 AMD 把下一代旗舰 GPU 的 PPA 提升了 14%](https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-helped-amd-improve-its-upcoming-flagship-gpu-design-by-14-percent-ppa-gpt-models-also-helping-lisa-sus-outfit-boost-its-new-cpus) —— GPT 模型参与芯片设计优化的首个公开量化案例，14% PPA 提升如果可复现，EDA 行业要重新想一遍。
+  _Tom's Hardware_
+- [AI 数据中心电力需求到 2030 年翻倍，$4 万亿投入相当于多出一个英国的用电量](https://www.tomshardware.com/tech-industry/data-centers/ai-data-center-power-demand-will-double-by-2030-thanks-to-usd4-trillion-in-spending-adding-an-entire-great-britain-to-energy-strain-93-large-ai-factories-with-projected-capacity-of-around-50-gigawatts) —— IEA 报告，93 座大型 AI 工厂、约 50GW 容量。算力瓶颈正在从芯片转向电网，这个转向值得记住。
+  _Tom's Hardware_
+- [TSMC 遭黑客攻击，已向 SEC 提交声明](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm) —— 全球最大代工厂被黑，细节未披露。供应链安全事件，影响面取决于泄露的是客户名单还是工艺数据。
+  _SEC filing_
+
+### 大厂 AI 动态
+
+- [Gemini 4 Neon 登顶 Models Engineering Index](https://git-aarvin.github.io/mei/) —— 新模型排名第一，但 MEI 这个榜单本身权威性一般，当参考不当结论。
+  _Hacker News_
+- [Meta 的 AI Agent Muse 被曝混淆对话、可能泄露隐私数据](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/) —— 员工称 Muse 弹出从未发起的育儿请求、银行余额等信息。Agent 的记忆隔离做不好就是这个下场，做个人 Agent 的必读反例。
+  _TechCrunch_
+- [DeepMind 员工正在组建工会](https://www.gdmunion.co.uk) —— frontier lab 内部劳资关系首次公开化，和 Anthropic 上市同周发生，值得留意 AI 公司治理风向。
+  _Hacker News_
+
+### 股票
+
+- [Visa、Mastercard、JPMorgan 客户数据被黑客泄露](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87) —— 三大支付/银行同时中招，规模未明。和近期多起系统故障是否同源，TechCrunch 已有猜测。
+  _WSJ_
+- [美国众议员股票交易能否跑赢市场？8,900 笔交易的检验](https://arkanumdata.com/research/house-trades) —— 用真实数据回答一个老问题，方法论比结论有意思，适合当数据分析练手素材。
+  _Hacker News_
+
+### 金融
+
+- [美联储担心 AI Agent 可能触发银行挤兑](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566) —— Agent 自动执行提款/转账的速度远超人类挤兑，监管开始把 Agent 当系统性风险看。做 Agent 的人该知道这条。
+  _Gizmodo_
+- [Oracle 申请增发 $200 亿股票和债券为 AI 建设融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 基建融资从科技巨头蔓延到传统企业软件公司，$200 亿是 Oracle 史上最大单次融资之一。
+  _CNBC_
+- [Tesla 结束 Cybertruck 生产](https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817) —— 销量不佳收场，同时 Cybercab 以 $29,990 起开放预订。产品线收缩与押注 Robotaxi 同时发生。
+  _NBC News_
+
+### AI
+
+- [Everything Claude Code：GitHub 116K star 的 Claude Code 配置项目实战拆解](http://www.bilibili.com/video/av116319122885806) —— 斜杠命令、子 Agent、Hooks、学习系统逐项讲，是你这类重度用户最该抄的配置模板，但发布时间偏早。
+  _极客魔导师_
+- [DeepSeek Harness 与 Claude Code 同模型对比实测](http://www.bilibili.com/video/av117100337236191) —— 同一个 DeepSeek Pro 模型在两个 harness 里跑同样任务，结论是工具链影响比想象大。对理解 Agent 框架价值有直接帮助。
+  _程序员晓刘_
+- [cccodroid：把 Claude Code 原生装进安卓设备，不用 root](http://www.bilibili.com/video/av117462439826705) —— 开源项目，实机录屏演示在平板上改代码、打包 APK。移动端 Agent 开发环境的一个有趣样本。
+  _Grey-Oak_
+
+### 电子信息与芯片
+
+- [黄仁勋辞职，Nvidia 进入临时 CEO 时代](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f) —— HN 4060 分的热帖，事件本身已在头条覆盖，这里留作原始信源备查。
+  _AP News_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
