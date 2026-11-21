@@ -2,15 +2,15 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-20T11:13:16.815108+00:00",
+  "fetched_at": "2026-11-21T10:50:53.084106+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 7,
-    "HN · IPO": 28,
+    "HN · stock market": 10,
+    "HN · IPO": 30,
     "HN · earnings": 3,
     "HN · Federal Reserve": 0,
     "Bilibili · 股票分析": 0,
@@ -18,7 +18,7 @@
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 57,
+  "total": 60,
   "items": [
     {
       "id": "hn:50556287",
@@ -32,8 +32,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50556287"
       },
       "duration_sec": null,
-      "views": 399,
-      "comments": 180,
+      "views": 403,
+      "comments": 184,
       "published_at": "2026-11-19T05:09:11+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -70,28 +70,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50510005"
       },
       "duration_sec": null,
-      "views": 128,
+      "views": 129,
       "comments": 134,
       "published_at": "2026-11-15T19:46:02+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50401029",
-      "title": "The AI sell-off compared to well-known stock market crashes",
-      "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50401029",
-        "name": "hubraumhugo",
-        "hn_url": "https://news.ycombinator.com/item?id=50401029"
-      },
-      "duration_sec": null,
-      "views": 101,
-      "comments": 84,
-      "published_at": "2026-11-07T02:20:06+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -109,8 +90,46 @@
       },
       "duration_sec": null,
       "views": 39,
-      "comments": 13,
+      "comments": 14,
       "published_at": "2026-11-19T16:47:32+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50574383",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50574383",
+        "name": "cdrnsf",
+        "hn_url": "https://news.ycombinator.com/item?id=50574383"
+      },
+      "duration_sec": null,
+      "views": 323,
+      "comments": 597,
+      "published_at": "2026-11-20T13:29:59+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50583254",
+      "title": "Nasdaq erases all 2026 gains",
+      "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50583254",
+        "name": "mv4",
+        "hn_url": "https://news.ycombinator.com/item?id=50583254"
+      },
+      "duration_sec": null,
+      "views": 131,
+      "comments": 2,
+      "published_at": "2026-11-20T22:29:06+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -130,6 +149,44 @@
       "views": 60,
       "comments": 89,
       "published_at": "2026-11-10T12:49:32+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50582280",
+      "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+      "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50582280",
+        "name": "qlte",
+        "hn_url": "https://news.ycombinator.com/item?id=50582280"
+      },
+      "duration_sec": null,
+      "views": 57,
+      "comments": 5,
+      "published_at": "2026-11-20T21:18:46+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50581060",
+      "title": "Army delays detonating \"catastrophically hazardous\" lead azide amid fear, anger",
+      "url": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50581060",
+        "name": "Bender",
+        "hn_url": "https://news.ycombinator.com/item?id=50581060"
+      },
+      "duration_sec": null,
+      "views": 31,
+      "comments": 9,
+      "published_at": "2026-11-20T20:01:48+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -355,8 +412,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50564282"
       },
       "duration_sec": null,
-      "views": 47,
-      "comments": 28,
+      "views": 51,
+      "comments": 36,
       "published_at": "2026-11-19T18:42:13+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -564,7 +621,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50548485"
       },
       "duration_sec": null,
-      "views": 146,
+      "views": 148,
       "comments": 79,
       "published_at": "2026-11-18T16:41:22+00:00",
       "summary": "",
@@ -678,7 +735,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50538942"
       },
       "duration_sec": null,
-      "views": 55,
+      "views": 56,
       "comments": 47,
       "published_at": "2026-11-17T22:08:34+00:00",
       "summary": "",
@@ -716,8 +773,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50542361"
       },
       "duration_sec": null,
-      "views": 19,
-      "comments": 6,
+      "views": 21,
+      "comments": 8,
       "published_at": "2026-11-18T05:52:37+00:00",
       "summary": "",
       "matched_keyword": "earnings",

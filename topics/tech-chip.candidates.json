@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-20T11:13:30.426290+00:00",
+  "fetched_at": "2026-11-21T10:51:06.154404+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 31,
+    "HN · Nvidia": 32,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 55,
+  "total": 56,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,40 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/pat-gelsinger-goes-hunting-for-europes-unbuilt-tech-companies/",
+      "title": "Pat Gelsinger Goes Hunting for Europe’s Unbuilt Tech Companies",
+      "url": "https://www.eetimes.com/pat-gelsinger-goes-hunting-for-europes-unbuilt-tech-companies/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-20T22:23:32+00:00",
+      "summary": "Playground Global is searching CEA laboratories for technologies that could create new markets—but global capital complicates European sovereignty. The post Pat Gelsinger Goes Hunting for Europe’s Unbuilt Tech Companies appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/palo-alto-networks-expands-into-enterprise-ai-with-4-5b-deal/",
+      "title": "Palo Alto Networks Expands into Enterprise AI with $4.5B Deal",
+      "url": "https://www.eetimes.com/palo-alto-networks-expands-into-enterprise-ai-with-4-5b-deal/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-20T15:37:26+00:00",
+      "summary": "Enterprise security outfit Palo Alto Networks snaps up a startup with a platform for post-training and inference of open-weight AI models. The post Palo Alto Networks Expands into Enterprise AI with $4.5B Deal appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/anthropic-ipo-and-the-b2d-strategy/",
       "title": "Anthropic’s IPO and the B2D Strategy",
       "url": "https://www.eetimes.com/anthropic-ipo-and-the-b2d-strategy/",
@@ -325,40 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/qnity-at-one-randy-king-on-shrink-stack-and-the-materials-behind-ai/",
-      "title": "Qnity at One: Randy King on Shrink, Stack and the Materials Behind AI",
-      "url": "https://www.eetimes.com/qnity-at-one-randy-king-on-shrink-stack-and-the-materials-behind-ai/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Randal King, Senior Vice President and Chief Technology and Sustainability Officer, Qnity",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-18T14:00:00+00:00",
-      "summary": "Qnity CTO Randy King on year one as an independent company, shrink-and-stack chips and the materials challenges of advanced packaging for AI. The post Qnity at One: Randy King on Shrink, Stack and the Materials Behind AI appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/koduri-oxmiq-offers-ip-tools-for-indian-teams-to-design-ai-chips/",
-      "title": "Koduri’s Oxmiq Offers IP, Tools for Indian Teams to Design AI Chips",
-      "url": "https://www.eetimes.com/koduri-oxmiq-offers-ip-tools-for-indian-teams-to-design-ai-chips/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Yashasvini Razdan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-18T13:30:00+00:00",
-      "summary": "India's AI infrastructure needs could exceed 6 GW by 2030. Oxmiq Labs CEO Raja Koduri explains why domestic chip design and custom systems matter. The post Koduri’s Oxmiq Offers IP, Tools for Indian Teams to Design AI Chips appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50479721",
       "title": "TSMC Hacked",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
@@ -409,7 +409,7 @@
       },
       "duration_sec": null,
       "views": 1227,
-      "comments": 1646,
+      "comments": 1645,
       "published_at": "2026-11-11T22:31:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -427,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50493251"
       },
       "duration_sec": null,
-      "views": 1114,
+      "views": 1115,
       "comments": 651,
       "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
@@ -466,7 +466,7 @@
       },
       "duration_sec": null,
       "views": 820,
-      "comments": 698,
+      "comments": 695,
       "published_at": "2026-11-13T02:16:24+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -484,8 +484,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50534631"
       },
       "duration_sec": null,
-      "views": 665,
-      "comments": 297,
+      "views": 670,
+      "comments": 298,
       "published_at": "2026-11-17T17:12:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -522,7 +522,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50512235"
       },
       "duration_sec": null,
-      "views": 485,
+      "views": 486,
       "comments": 588,
       "published_at": "2026-11-15T23:55:55+00:00",
       "summary": "",
@@ -561,7 +561,7 @@
       },
       "duration_sec": null,
       "views": 453,
-      "comments": 241,
+      "comments": 242,
       "published_at": "2026-11-14T22:26:30+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -617,9 +617,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50518567"
       },
       "duration_sec": null,
-      "views": 289,
+      "views": 290,
       "comments": 262,
       "published_at": "2026-11-16T15:24:09+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50581438",
+      "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
+      "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50581438",
+        "name": "ftchd",
+        "hn_url": "https://news.ycombinator.com/item?id=50581438"
+      },
+      "duration_sec": null,
+      "views": 288,
+      "comments": 153,
+      "published_at": "2026-11-20T20:22:41+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -674,7 +693,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50511982"
       },
       "duration_sec": null,
-      "views": 177,
+      "views": 178,
       "comments": 191,
       "published_at": "2026-11-15T23:24:53+00:00",
       "summary": "",
@@ -713,7 +732,7 @@
       },
       "duration_sec": null,
       "views": 149,
-      "comments": 72,
+      "comments": 73,
       "published_at": "2026-11-14T14:09:25+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -731,28 +750,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50509883"
       },
       "duration_sec": null,
-      "views": 135,
+      "views": 136,
       "comments": 135,
       "published_at": "2026-11-15T19:31:11+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50392256",
-      "title": "Nvidia was in 1 in 11 startup rounds over $100M last year",
-      "url": "https://datahyena.com/research/a-chipmaker-was-in-one-of-every-eleven-100m-rounds/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50392256",
-        "name": "ghostfoxgod",
-        "hn_url": "https://news.ycombinator.com/item?id=50392256"
-      },
-      "duration_sec": null,
-      "views": 82,
-      "comments": 70,
-      "published_at": "2026-11-06T13:48:35+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -826,7 +826,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50538942"
       },
       "duration_sec": null,
-      "views": 55,
+      "views": 56,
       "comments": 47,
       "published_at": "2026-11-17T22:08:34+00:00",
       "summary": "",
@@ -967,20 +967,39 @@
       "lang": "en"
     },
     {
-      "id": "hn:50467087",
-      "title": "Jensen Huang resigns",
-      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "id": "hn:50557420",
+      "title": "Wife of Senior Nvidia Executive Caught Up in Alleged AI Chip Smuggling Scandal",
+      "url": "https://www.gadgetreview.com/wife-of-senior-nvidia-executive-caught-up-in-alleged-ai-chip-smuggling-scandal",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50467087",
-        "name": "lldb",
-        "hn_url": "https://news.ycombinator.com/item?id=50467087"
+        "id": "50557420",
+        "name": "mgh2",
+        "hn_url": "https://news.ycombinator.com/item?id=50557420"
       },
       "duration_sec": null,
-      "views": 4060,
-      "comments": 3493,
-      "published_at": "2026-11-12T13:52:29+00:00",
+      "views": 32,
+      "comments": 0,
+      "published_at": "2026-11-19T08:23:41+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50521575",
+      "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
+      "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50521575",
+        "name": "jethronethro",
+        "hn_url": "https://news.ycombinator.com/item?id=50521575"
+      },
+      "duration_sec": null,
+      "views": 31,
+      "comments": 3,
+      "published_at": "2026-11-16T19:09:05+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

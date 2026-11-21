@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-20T11:13:25.642784+00:00",
+  "fetched_at": "2026-11-21T10:51:00.888798+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,16 +11,33 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 11,
+    "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 0,
     "HN · inflation": 0,
-    "HN · Tesla": 4,
-    "HN · finance": 17,
-    "HN · fed": 12
+    "HN · Tesla": 2,
+    "HN · finance": 18,
+    "HN · fed": 11
   },
   "subtopics": [],
-  "total": 74,
+  "total": 61,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/down-in-dc/",
+      "title": "2026.47: Down in DC",
+      "url": "https://stratechery.com/2026/down-in-dc/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-20T19:09:57+00:00",
+      "summary": "The best Stratechery content from the week of November 16, 2026, including obituaries and exceptionalism, arguments about agents, and Ben gets a Duo.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
       "title": "Sharp Tech on Video: Jensen’s Not Coming Back, AI Shopping, The iPhone Duo",
@@ -172,23 +189,6 @@
       "views": null,
       "published_at": "2026-11-11T11:00:00+00:00",
       "summary": "Intel and AMD's diverging earnings point to fundamental historical differences, and make me wonder if Intel needs to find a new (old) path.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/",
-      "title": "The Jensen Huang Story Gets Worse, Washington vs. New York, Silicon Valley",
-      "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-10T11:00:00+00:00",
-      "summary": "The Jensen Huang story got worse for him on Monday; the real risk for Huang is governance, even more than national security. Who benefits?",
       "lang": "en"
     },
     {
@@ -532,212 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arxiv.org/abs/2611.25047",
-      "title": "A joint framework for SPX, VIX and VXX",
-      "url": "https://arxiv.org/abs/2611.25047",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Martino Grasselli, Andrea Stanghellini, Sara Svaluto-Ferro",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-20T05:00:00+00:00",
-      "summary": "arXiv:2611.25047v1 Announce Type: new Abstract: Options on VXX bring the dynamics of the VIX futures curve into the joint SPX-VIX calibration problem. We construct a common model by specifying the VIX and then recovering instantaneous SPX variance from the requirement that its risk-neutral conditional expected average over the next thirty days equals the squared VIX. With truncated signatures of time-extended polynomial diffusions, this recovery reduces to finite-dimensional linear algebra and g...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2508.05022",
-      "title": "A Multivariate Generalized Cox Model for Dependent and Simultaneous Default Times",
-      "url": "https://arxiv.org/abs/2508.05022",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Djibril Gueye, Alejandra Quintos",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-20T05:00:00+00:00",
-      "summary": "arXiv:2508.05022v2 Announce Type: cross Abstract: We propose a framework for dependent default times where each name defaults when an increasing driver crosses an independent unit exponential threshold. As in Gueye and Jeanblanc (2022), the drivers may jump, so defaults may occur at stopping times of the reference filtration, including predictable ones, and a common jump may cause no, one or several simultaneous defaults. For general drivers, we derive the conditional joint survival law by a bac...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.25218",
-      "title": "The American Medical Directory Panel: Comparing AI-Assisted and LLM Transcription with Manual Data Entry at Scale",
-      "url": "https://arxiv.org/abs/2611.25218",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Christian M. Dahl, Sophie Li, Rasmus Emil Nyholm, Maja U. Pedersen, Anthony Wray",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-20T05:00:00+00:00",
-      "summary": "arXiv:2611.25218v1 Announce Type: cross Abstract: How closely does machine transcription agree with manual double-entry data? We digitize the 1912 and 1921 editions of the American Medical Directory, a national register of US physicians with roughly 140,000 and 150,000 entries in the two volumes, and compare five machine-extraction workflows with a full-count double-entered manual transcription. Like many historical directories, the AMD is semi-structured rather than tabular, so errors arise fro...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/1910.14023",
-      "title": "Firm Entry and Exit with Unbounded Productivity",
-      "url": "https://arxiv.org/abs/1910.14023",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Akshay Shanker, John Stachurski",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-20T05:00:00+00:00",
-      "summary": "arXiv:1910.14023v4 Announce Type: replace Abstract: In Hopenhayn's (1992) entry-exit model productivity is bounded, implying that the predicted firm size distribution cannot match the power law tail observable in the data. In this paper we remove the boundedness assumption and, in this more general setting, provide an exact characterization of existence of stationary equilibria, as well as a novel sufficient condition for existence based on treating production as a Lyapunov function. We also pro...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2408.03134",
-      "title": "Incomplete-market CAPM equilibria in continuous time",
-      "url": "https://arxiv.org/abs/2408.03134",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Nikolaos Constantinou, Christoph Czichowsky, Martin Herdegen, David Martins",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-20T05:00:00+00:00",
-      "summary": "arXiv:2408.03134v4 Announce Type: replace Abstract: We study continuous-time CAPM equilibria with general mean-variance preferences of the form $U(\\mu,\\sigma)$, where $U$ is strictly quasiconcave, increasing in the mean $\\mu$ and decreasing in the volatility $\\sigma$ of terminal wealth. Our framework accommodates both financial and productive assets with nontradeable endowments. We allow for equilibria driven by general semimartingales in the case of linear mean-variance preferences and by conti...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2505.19276",
-      "title": "A General Theory of Risk Sharing",
-      "url": "https://arxiv.org/abs/2505.19276",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Vasily Melnikov",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-20T05:00:00+00:00",
-      "summary": "arXiv:2505.19276v3 Announce Type: replace Abstract: We introduce a new paradigm for risk sharing that generalizes earlier models based on discrete agents and extends them to allow for sharing risk within a continuum of agents. Agents are represented by points of a measure space and have potentially heterogeneous risk preferences modeled by risk measures on a separable probability space. We derive the dual representation of the value function using a Strassen-type theorem for the weak-star topolo...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2509.08096",
-      "title": "Joint calibration of the volatility surface and variance term structure",
-      "url": "https://arxiv.org/abs/2509.08096",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Jiwook Yoo",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-20T05:00:00+00:00",
-      "summary": "arXiv:2509.08096v2 Announce Type: replace Abstract: I study the calibration of option pricing models with an objective that combines errors on the implied volatility surface and on the variance term structure (VTS), and how the weight on the two trades one fit against the other. I then ask how the calibration affects hedges built from the fitted model. The setting is the stochastic volatility jump-diffusion model of Bates (1996), calibrated to S&amp;P 500 index options on each trading day from 1...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2510.15942",
-      "title": "Intrinsic Geometry of the Stock Market from Graph Ricci Flow",
-      "url": "https://arxiv.org/abs/2510.15942",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Bhargavi Srinivasan",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-20T05:00:00+00:00",
-      "summary": "arXiv:2510.15942v3 Announce Type: replace Abstract: We use the discrete Ollivier-Ricci curvature with Ricci flow to examine the intrinsic geometry of financial markets through the empirical correlation graph of the NASDAQ-100 index. A key feature of our approach is that we begin from an entirely ORC-spherical initial graph --- one in which all Ollivier-Ricci curvatures are strictly positive --- in direct analogy with Hamilton's (1982) foundational setting of manifolds of positive Ricci curvature...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.01897",
-      "title": "Shared Models, Selective Trading, and Order Flow",
-      "url": "https://arxiv.org/abs/2610.01897",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Victoria Ruojie Li, Arka Prava Bandyopadhyay",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-20T05:00:00+00:00",
-      "summary": "arXiv:2610.01897v2 Announce Type: replace Abstract: We study whether the diversity of language models installed in a trading population carries over to the orders that reach the market. In simulated markets with five agents from each of three open-weight model families, we change only how a corporate announcement is presented and estimate each family's share of active orders. In two matched experiments, explanatory layoff text multiplies Mistral's participation by 5.3 (from 14.0% to 74.7% of opp...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2610.16151",
-      "title": "Neural Estimation of Irreversibility in Real and Simulated Limit Order Book Paths",
-      "url": "https://arxiv.org/abs/2610.16151",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Hyeonjun Yeo, Doohwi Cha, Yoontae Hwang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-20T05:00:00+00:00",
-      "summary": "arXiv:2610.16151v3 Announce Type: replace Abstract: A path indistinguishable from its own reverse carries no arrow of time, so time irreversibility is a necessary condition for a directed mechanism to be readable from trajectories alone. In finance it has been measured only on scalar series such as returns and volatility. We define the irreversibility rate of a coarse-grained limit order book path as the forward-to-reverse log-density ratio per event, and estimate it from three weeks of Nasdaq m...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.37957",
-      "title": "Multiscale Reconstruction of Weighted Networks from Coarse-Grained Data",
-      "url": "https://arxiv.org/abs/2609.37957",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Mattia Marzi, Frank P. Pijpers, Diego Garlaschelli",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-20T05:00:00+00:00",
-      "summary": "arXiv:2609.37957v2 Announce Type: replace-cross Abstract: Network reconstruction from partial information is usually performed at the same resolution level at which constraints are observable. This becomes problematic when only coarse-grained information is available, while the relevant process occurs at a finer scale. Here we employ the multiscale model of weighted networks introduced in a companion paper and turn it into a probabilistic framework for reconstructing weighted networks across arb...",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50391456",
-      "title": "Tesla to wind down Cybertruck production",
-      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50391456",
-        "name": "PLenz",
-        "hn_url": "https://news.ycombinator.com/item?id=50391456"
-      },
-      "duration_sec": null,
-      "views": 1167,
-      "comments": 2120,
-      "published_at": "2026-11-06T12:13:51+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en"
-    },
-    {
       "id": "hn:50414427",
       "title": "Tesla Hasn't Had a Successful New Product Launch Since JB Straubel Stepped Down",
       "url": "https://cleantechnica.com/2026/11/07/tesla-hasnt-had-a-successful-new-product-launch-since-jb-straubel-stepped-down-as-cto/",
@@ -776,25 +570,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50394130",
-      "title": "Tesla Ends Cybertruck Production",
-      "url": "https://www.heise.de/en/news/Tesla-ends-Cybertruck-production-in-Texas-11515739.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50394130",
-        "name": "Betelbuddy",
-        "hn_url": "https://news.ycombinator.com/item?id=50394130"
-      },
-      "duration_sec": null,
-      "views": 26,
-      "comments": 1,
-      "published_at": "2026-11-06T16:05:54+00:00",
-      "summary": "",
-      "matched_keyword": "Tesla",
-      "lang": "en"
-    },
-    {
       "id": "hn:50342284",
       "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
       "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
@@ -825,7 +600,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50525658"
       },
       "duration_sec": null,
-      "views": 150,
+      "views": 151,
       "comments": 64,
       "published_at": "2026-11-17T00:23:21+00:00",
       "summary": "",
@@ -844,8 +619,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50562754"
       },
       "duration_sec": null,
-      "views": 1088,
-      "comments": 2156,
+      "views": 1133,
+      "comments": 2299,
       "published_at": "2026-11-19T17:02:40+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -909,6 +684,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50568082",
+      "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+      "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50568082",
+        "name": "mikhael",
+        "hn_url": "https://news.ycombinator.com/item?id=50568082"
+      },
+      "duration_sec": null,
+      "views": 195,
+      "comments": 50,
+      "published_at": "2026-11-19T23:32:11+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
       "id": "hn:50260526",
       "title": "A $300B 'Debt Wall' Is Looming over Private-Equity Backed Companies",
       "url": "https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497",
@@ -923,25 +717,6 @@
       "views": 178,
       "comments": 66,
       "published_at": "2026-10-27T15:09:27+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50568082",
-      "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
-      "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50568082",
-        "name": "mikhael",
-        "hn_url": "https://news.ycombinator.com/item?id=50568082"
-      },
-      "duration_sec": null,
-      "views": 178,
-      "comments": 45,
-      "published_at": "2026-11-19T23:32:11+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1061,6 +836,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50582280",
+      "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+      "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50582280",
+        "name": "qlte",
+        "hn_url": "https://news.ycombinator.com/item?id=50582280"
+      },
+      "duration_sec": null,
+      "views": 57,
+      "comments": 5,
+      "published_at": "2026-11-20T21:18:46+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
       "id": "hn:50202671",
       "title": "AI compute is the new oil–and needs a new market",
       "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
@@ -1149,7 +943,7 @@
       },
       "duration_sec": null,
       "views": 87,
-      "comments": 47,
+      "comments": 48,
       "published_at": "2026-11-17T15:03:25+00:00",
       "summary": "",
       "matched_keyword": "fed",
@@ -1284,25 +1078,6 @@
       "views": 27,
       "comments": 15,
       "published_at": "2026-11-16T21:12:02+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50190168",
-      "title": "Epic Games Inc v Apple Inc",
-      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca1552",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50190168",
-        "name": "Mayzie",
-        "hn_url": "https://news.ycombinator.com/item?id=50190168"
-      },
-      "duration_sec": null,
-      "views": 193,
-      "comments": 140,
-      "published_at": "2026-10-22T01:52:03+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
