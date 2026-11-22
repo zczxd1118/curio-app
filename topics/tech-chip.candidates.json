@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-21T10:51:06.154404+00:00",
+  "fetched_at": "2026-11-22T10:59:16.642732+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -427,7 +427,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50493251"
       },
       "duration_sec": null,
-      "views": 1115,
+      "views": 1116,
       "comments": 651,
       "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
@@ -606,6 +606,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50581438",
+      "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
+      "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50581438",
+        "name": "ftchd",
+        "hn_url": "https://news.ycombinator.com/item?id=50581438"
+      },
+      "duration_sec": null,
+      "views": 303,
+      "comments": 167,
+      "published_at": "2026-11-20T20:22:41+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50518567",
       "title": "Nvidia was in trouble before the Jensen Huang mess",
       "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
@@ -620,25 +639,6 @@
       "views": 290,
       "comments": 262,
       "published_at": "2026-11-16T15:24:09+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50581438",
-      "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
-      "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50581438",
-        "name": "ftchd",
-        "hn_url": "https://news.ycombinator.com/item?id=50581438"
-      },
-      "duration_sec": null,
-      "views": 288,
-      "comments": 153,
-      "published_at": "2026-11-20T20:22:41+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -731,7 +731,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50497155"
       },
       "duration_sec": null,
-      "views": 149,
+      "views": 150,
       "comments": 73,
       "published_at": "2026-11-14T14:09:25+00:00",
       "summary": "",
@@ -864,7 +864,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50424604"
       },
       "duration_sec": null,
-      "views": 45,
+      "views": 46,
       "comments": 20,
       "published_at": "2026-11-09T12:20:45+00:00",
       "summary": "",

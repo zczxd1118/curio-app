@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-21T10:51:00.888798+00:00",
+  "fetched_at": "2026-11-22T10:59:11.650306+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -14,12 +14,12 @@
     "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 0,
     "HN · inflation": 0,
-    "HN · Tesla": 2,
-    "HN · finance": 18,
+    "HN · Tesla": 4,
+    "HN · finance": 17,
     "HN · fed": 11
   },
   "subtopics": [],
-  "total": 61,
+  "total": 62,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/down-in-dc/",
@@ -570,6 +570,44 @@
       "lang": "en"
     },
     {
+      "id": "hn:50594937",
+      "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
+      "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50594937",
+        "name": "m348e912",
+        "hn_url": "https://news.ycombinator.com/item?id=50594937"
+      },
+      "duration_sec": null,
+      "views": 26,
+      "comments": 5,
+      "published_at": "2026-11-22T00:14:05+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50528073",
+      "title": "Elderly people are buying Teslas for the 'full self-driving.' This is a problem",
+      "url": "https://www.fastcompany.com/91641371/elderly-people-are-buying-tesla-for-full-self-driving-this-is-a-problem",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50528073",
+        "name": "watermelon0",
+        "hn_url": "https://news.ycombinator.com/item?id=50528073"
+      },
+      "duration_sec": null,
+      "views": 18,
+      "comments": 4,
+      "published_at": "2026-11-17T06:20:11+00:00",
+      "summary": "",
+      "matched_keyword": "Tesla",
+      "lang": "en"
+    },
+    {
       "id": "hn:50342284",
       "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
       "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
@@ -619,8 +657,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50562754"
       },
       "duration_sec": null,
-      "views": 1133,
-      "comments": 2299,
+      "views": 1140,
+      "comments": 2323,
       "published_at": "2026-11-19T17:02:40+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -695,7 +733,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50568082"
       },
       "duration_sec": null,
-      "views": 195,
+      "views": 196,
       "comments": 50,
       "published_at": "2026-11-19T23:32:11+00:00",
       "summary": "",
@@ -798,6 +836,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50582280",
+      "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+      "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50582280",
+        "name": "qlte",
+        "hn_url": "https://news.ycombinator.com/item?id=50582280"
+      },
+      "duration_sec": null,
+      "views": 66,
+      "comments": 5,
+      "published_at": "2026-11-20T21:18:46+00:00",
+      "summary": "",
+      "matched_keyword": "finance",
+      "lang": "en"
+    },
+    {
       "id": "hn:50291902",
       "title": "Alphabet heads for a $500B drop in market value, biggest in its history",
       "url": "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html",
@@ -831,44 +888,6 @@
       "views": 60,
       "comments": 89,
       "published_at": "2026-11-10T12:49:32+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50582280",
-      "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
-      "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50582280",
-        "name": "qlte",
-        "hn_url": "https://news.ycombinator.com/item?id=50582280"
-      },
-      "duration_sec": null,
-      "views": 57,
-      "comments": 5,
-      "published_at": "2026-11-20T21:18:46+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50202671",
-      "title": "AI compute is the new oil–and needs a new market",
-      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50202671",
-        "name": "ijidak",
-        "hn_url": "https://news.ycombinator.com/item?id=50202671"
-      },
-      "duration_sec": null,
-      "views": 54,
-      "comments": 63,
-      "published_at": "2026-10-22T23:45:16+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1007,25 +1026,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50194602",
-      "title": "Full Disk Encryption on Fedora with TPM2",
-      "url": "https://www.apalrd.net/posts/2026/ent_luks/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50194602",
-        "name": "speckx",
-        "hn_url": "https://news.ycombinator.com/item?id=50194602"
-      },
-      "duration_sec": null,
-      "views": 34,
-      "comments": 48,
-      "published_at": "2026-10-22T12:46:40+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
       "id": "hn:50394771",
       "title": "Only 16% of U.S. fast-charging stations meet federal NEVI standards (open data)",
       "url": "https://chargingnear.me/data",
@@ -1078,6 +1078,25 @@
       "views": 27,
       "comments": 15,
       "published_at": "2026-11-16T21:12:02+00:00",
+      "summary": "",
+      "matched_keyword": "fed",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50532613",
+      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50532613",
+        "name": "dvaplima",
+        "hn_url": "https://news.ycombinator.com/item?id=50532613"
+      },
+      "duration_sec": null,
+      "views": 776,
+      "comments": 255,
+      "published_at": "2026-11-17T15:22:57+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"
