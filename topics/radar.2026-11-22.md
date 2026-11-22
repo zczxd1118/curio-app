@@ -1,0 +1,177 @@
+# Curio 趋势雷达 · 2026-11-22
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
+
+_今天最大的信号是 Nvidia 的治理危机从八卦升级成监管事件：SEC 查会计问题、加州总检察长发传票、104B 营收却停披露新加坡销售，同时员工请愿让黄仁勋回归。另一条线是 Anthropic IPO 定价 83 美元、估值 1.5T，但承销商已关闭稳定股价的仓位，评级被标成高收益垃圾级——AI 泡沫的定价权正在从叙事转向信用。_
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 1. SEC 调查转向 Nvidia 会计问题，黄仁勋去职风波从治理丑闻升级为财务审查
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _ftchd_
+
+路透消息称 SEC 对 Nvidia 的调查已聚焦潜在会计问题，而不只是高管私德。叠加加州总检察长以"可能误导投资者"为由发出传票、公司停止披露新加坡销售额，这条线已经从董事会内斗变成监管与财务双重风险。对做 AI 基础设施判断的人来说，这是本周最该盯的信号。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| SEC 调查正在审查 Nvidia 的潜在会计问题，消息来自知情人士 | 会计问题目前只是"潜在"，尚未有正式指控或财报重述 |
+| 加州总检察长 Rob Bonta 已就黄仁勋与中国的关系向 Nvidia 发出传票 | 新加坡销售停披露与 Megaspeed 的关联仍属媒体推测，无官方定性 |
+| Nvidia 在营收达到 104B 美元后停止单独披露新加坡销售额 | 董事减持是否涉及内幕交易，尚无监管确认 |
+| 一名 Nvidia 董事在丑闻爆发前数周卖出近 10 亿美元股票 | 员工请愿能否促成黄仁勋回归，目前只有 FT 的"与盟友讨论"说法 |
+| 黄仁勋已于 11 月 12 日辞去 CEO，董事会声明与员工请愿同时出现 |  |
+
+**📖 主编点评**
+
+如果你在做任何依赖 Nvidia 供货节奏的项目规划，别只看 GPU 型号路线图，把"公司治理风险"当成一个独立变量列进去。短期供货不会断，但财报可信度打折会传导到云厂商的资本开支决策，进而影响你拿算力的价格和排队时间。
+
+📺 [打开原文](https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627)
+
+---
+
+## 🌟 股票
+
+### 2. Anthropic 以 83 美元定价、1.5T 估值上市，承销商却已关闭护盘仓位
+
+**[股票]** · ⭐⭐⭐⭐⭐ · _anon373839_
+
+Anthropic IPO 定价 83 美元/股，对应约 1.5 万亿美元估值，但路透称承销银行已关闭原本用于稳定股价的仓位。此前 Blackstone 说它可能拿不到投资级评级，信用机构预计给高收益垃圾级。一边是史上最大 AI 公司上市，一边是护盘工具提前撤走，这个组合值得警惕。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Anthropic IPO 定价 83 美元/股，估值约 1.5 万亿美元 | 1.5T 估值能否在二级市场站住，取决于上市首月的实际成交 |
+| 承销银行已关闭用于稳定上市后股价的仓位 | 关闭护盘仓位是常规操作还是信心不足，两种解读都成立 |
+| IPO 文件披露季度人力成本 17 亿美元，人均月约 10.7 万美元 | 900B 支出承诺与当前收入的匹配度，招股书未给出清晰路径 |
+| 公司披露 9000 亿美元 AI 支出承诺 | Michael Burry 的"押注乐观情绪"批评目前仍是观点而非事实 |
+| Blackstone 表示 Anthropic 上市后可能拿不到投资级评级 |  |
+
+**📖 主编点评**
+
+别把 Anthropic 上市当成"AI 又赢了"的确认信号。真正该看的是上市后 30 天的成交量与信用利差——如果垃圾级评级落地且股价靠散户撑，说明 AI 资产的定价正在从叙事转向债务成本。你做 side project 选模型供应商时，把"供应商财务稳定性"加进评估维度不算多余。
+
+📺 [打开原文](https://www.reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 3. Gemini 4 Neon 发布并登顶 Models Engineering Index，被指对标 Opus 5.5
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _yigitdemirag_
+
+Google 发布 Gemini 4 Neon，随即在 Models Engineering Index 上排到第一，社区评测认为它是 Opus 5.5 的直接竞争者。这是 Gemini 4 系列一个月内的第四个变体（Carbon、Hydrogen、Neon），发布节奏明显加快。对重度用 Agent 的人来说，模型选型的窗口又变了。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Gemini 4 Neon 已在 Google 官方博客发布 | "对标 Opus 5.5"目前来自个人博客评测，缺独立基准复现 |
+| Neon 在 Models Engineering Index 上排名第一 | Models Engineering Index 的权重设计未公开，排名需谨慎看待 |
+| Gemini 4 系列在 10 月底至 11 月中连续发布 Carbon、Hydrogen、Neon 三个版本 | 多版本快速迭代是否意味着前代稳定性不足，尚无定论 |
+| Gemini 4 Carbon 曾在 Artificial Analysis Intelligence Index v5 上排第一 |  |
+| Google 同期发布 Gemini Decisions API 与 Antigravity 平台的 Orchestrator |  |
+
+**📖 主编点评**
+
+如果你在 content-curator 里做模型路由，现在是重跑一次评测的好时机——Neon 和 Carbon 的差异可能比版本号暗示的更大。建议用你自己的真实任务集（不是公开 benchmark）跑一轮，重点看长上下文下的工具调用成功率，这比排行榜名次更能决定你的 Agent 好不好用。
+
+📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
+
+---
+
+## 🌟 AI
+
+### 4. Claude Code 从命令行进化成桌面客户端完全体，编程/设计/办公三合一
+
+**[AI]** · ⭐⭐⭐⭐ · _技术爬爬虾_
+
+Claude Desktop 近期大更新，把 Claude Code 的编程、Claude Design 的设计、Claude Cowork 的办公能力收进同一个桌面客户端，配 Opus 5.5。Claude Code 从黑乎乎的命令行工具变成有界面的完整产品。这是本月最值得亲手摸一遍的 Agent 产品变化。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Claude Desktop 已整合 Claude Code、Claude Design、Claude Cowork 三项能力 | 桌面端整合是否牺牲了命令行的可脚本化能力，需实测 |
+| Claude Code 从纯命令行形态扩展为桌面客户端 | 三合一后资源占用与响应延迟的变化，视频未给数据 |
+| 当前搭配模型为 Opus 5.5 | Opus 5.5 在桌面端的实际表现与 API 端是否一致，尚不明确 |
+| 该更新发布于 2026 年 11 月上旬 |  |
+
+**📖 主编点评**
+
+你的 content-curator 如果还跑在纯 CLI 流程里，值得花一个周末把 Claude Desktop 装上对比一次——重点看它的 Skills 和子 Agent 在 GUI 下怎么暴露。如果桌面端把 MCP 配置做成了可视化，你的配置管理代码可能能砍掉一半。
+
+📺 [打开原文](http://www.bilibili.com/video/av117580048108571)
+
+---
+
+## 🌟 金融
+
+### 5. 美联储开始担心 AI Agent 会触发银行挤兑
+
+**[金融]** · ⭐⭐⭐⭐ · _pera_
+
+美联储在一份讨论中提到，自主 AI Agent 若被用于批量执行提款或转账，可能在极短时间内形成挤兑压力。这是监管机构第一次把 Agent 的系统性风险摆上台面。对做 Agent 的人来说，这不只是金融新闻，是产品边界问题。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 美联储公开表达对 AI Agent 可能引发银行挤兑的担忧 | 目前是风险提示而非监管规则，落地形式未知 |
+| 担忧的核心是 Agent 能自主、批量、高速执行金融操作 | Agent 触发挤兑的具体机制与阈值，材料未量化 |
+| 该讨论出现在 2026 年 11 月中旬的公开材料中 | 是否会催生 Agent 金融操作的强制限速或人工确认要求，尚早 |
+
+**📖 主编点评**
+
+如果你以后给 Agent 接支付或账户类 MCP 工具，现在就该在设计里预留"人类确认闸门"和速率上限。监管一旦落地，没有这两层的能力会直接被卡死；提前做，反而能变成你项目里的一个卖点。
+
+📺 [打开原文](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566)
+
+---
+
+## 📋 备选池
+
+### AI 算力 / 半导体
+
+- [Nvidia 被指通过投资 AI 初创公司买自家 GPU 来人为制造稀缺](https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus) —— 循环融资推高 GPU 价格的说法有多个来源呼应，但缺硬证据，放备选等监管定性。
+  _speckx_
+- [TSMC 遭黑客攻击，已向 SEC 提交事件声明](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm) —— 官方 8-K 级声明，但细节极少，影响面待评估，先记一笔。
+  _gmays_
+- [Rapidus 2nm 节点 SRAM 良率受挫，2027 量产存风险](https://www.tomshardware.com/tech-industry/semiconductors/rapidus-reportedly-struggles-to-produce-working-sram-on-its-2nm-node-putting-2027-mass-production-at-risk-company-faces-significant-challenges-using-euv-to-develop-gaa-transistors) —— 日本先进制程的关键挫折，GAA 晶体管能跑但做不出可用存储单元，值得跟进。
+  _Anton Shilov_
+- [双 DGX Station 跑 GLM-5.3 达 607.8 tok/s](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) —— 有具体吞吐数字和 vLLM 配置的推理部署实践，工程细节够，但偏厂商博客。
+  _wondersky_
+- [1GB 维基百科被 AI Transformer 无损压缩到 105.39MB](https://www.tomshardware.com/tech-industry/artificial-intelligence/one-gigabyte-of-wikipedia-losslessly-compressed-to-105-39mb-with-self-learning-ai-transformer-model-tufazip-needs-two-nvidia-b200-gpus-and-about-a-week-to-compress-or-decompress) —— 压缩率惊人但需要两张 B200 跑一周，实用性和新颖度都够，只是离你日常太远。
+  _Shane Downing_
+
+### 大厂 AI 动态
+
+- [Gemini 被曝把个人 Drive 文件和邮件路由给人工标注员](https://github.com/thisisme6598/gemini_files/) —— 隐私层面的实锤材料，但来源是个人 GitHub 仓库，需等媒体跟进再定级。
+  _gf74918_
+- [Google 员工联名要求公司不要惩罚拒绝 AI 的学校](https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/) —— AI 落地进校园的阻力开始组织化，是行业情绪指标，不是技术信号。
+  _cdrnsf_
+- [Bending Spoons 以 36.8 亿美元收购 Mailchimp](https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/) —— Intuit 当年花约 120 亿买入，如今 36.8 亿卖出，SaaS 估值缩水的样本。
+  _Russell Brandom_
+- [AI 宣称解决 167 年历史的黎曼猜想，同时也有一个人类解](https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/) —— 数学圈的爆炸性话题，但结论未验证，先当谈资不当事实。
+  _Tim Fernholz_
+
+### 股票
+
+- [纳斯达克抹平 2026 年全部涨幅](https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html) —— AI 行情退潮的宏观注脚，与 Anthropic IPO 定价形成对照，值得记住这个时点。
+  _mv4_
+- [Anthropic IPO 招股书：季度人力成本 17 亿美元，人均月约 10.7 万美元](https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html) —— 单看数字很震撼，但已并入头条的 IPO 叙事，单独看信息增量有限。
+  _entryleveljobsc_
+
+### 金融
+
+- [Visa、Mastercard 与 JPMorgan 客户数据被黑客泄露](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87) —— 支付三巨头的客户数据事件，影响面大但细节被 WSJ 付费墙挡住，待跟进。
+  _mikhael_
+- [巴西税务机关在 GitHub 以 MIT 协议开源其税务计算器](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria) —— 政府级开源案例，工程上很有意思，但和你的方向关联弱，放备选。
+  _dvaplima_
+- [Oracle 申请发行 200 亿美元新股与债券为 AI 建设融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 资本开支转向债务融资的又一例证，与 Anthropic 的信用问题同一条线。
+  _smartmic_
+
+### AI
+
+- [DeepSeek Harness 手机端 DSH Go 实测：能自动操控手机点外卖](http://www.bilibili.com/video/av117540386835759) —— 手机端 Agent 操控真实 App 的实操演示，有真实截图和失败点，但发布于三周前。
+  _AI博士嗨嗨_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
