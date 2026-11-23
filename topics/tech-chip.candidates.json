@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-22T10:59:16.642732+00:00",
+  "fetched_at": "2026-11-23T12:06:46.244510+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 32,
+    "HN · Nvidia": 29,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 56,
+  "total": 53,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,23 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/the-enigma-of-softbanks-1-trillion-sk-hynix-buyout-attempt/",
+      "title": "The Enigma of SoftBank’s $1 Trillion SK Hynix Buyout Attempt",
+      "url": "https://www.eetimes.com/the-enigma-of-softbanks-1-trillion-sk-hynix-buyout-attempt/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-23T08:30:00+00:00",
+      "summary": "Here is why it was a non-starter and what the story reveals about memory’s strategic appeal in the AI buildup. The post The Enigma of SoftBank’s $1 Trillion SK Hynix Buyout Attempt appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/pat-gelsinger-goes-hunting-for-europes-unbuilt-tech-companies/",
       "title": "Pat Gelsinger Goes Hunting for Europe’s Unbuilt Tech Companies",
       "url": "https://www.eetimes.com/pat-gelsinger-goes-hunting-for-europes-unbuilt-tech-companies/",
@@ -342,23 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/beyond-one-turn-how-a-single-chip-multiturn-position-sensor-is-reshaping-actuator-design/",
-      "title": "Beyond One Turn: How a Single-Chip Multiturn Position Sensor Is Reshaping Actuator Design",
-      "url": "https://www.eetimes.com/beyond-one-turn-how-a-single-chip-multiturn-position-sensor-is-reshaping-actuator-design/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Analog Devices",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-18T15:00:00+00:00",
-      "summary": "Discover how advanced multiturn position sensing can transform industrial motion control without the limitations of traditional mechanical solutions. Explore how magnetic sensing technology enables accurate, reliable tracking of rotational movement even when power is removed. From robotics and linear actuators to hoists, winches and automated systems, learn how this innovative approach can simplify designs, improve [&#8230;] The post Beyond One Turn: How a Single-Chip Multiturn Position Sensor I...",
-      "lang": "en"
-    },
-    {
       "id": "hn:50479721",
       "title": "TSMC Hacked",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
@@ -435,25 +435,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50418016",
-      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
-      "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50418016",
-        "name": "karimf",
-        "hn_url": "https://news.ycombinator.com/item?id=50418016"
-      },
-      "duration_sec": null,
-      "views": 988,
-      "comments": 1294,
-      "published_at": "2026-11-08T22:20:09+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:50477231",
       "title": "Nvidia employees petition to bring back Jensen Huang",
       "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
@@ -487,25 +468,6 @@
       "views": 670,
       "comments": 298,
       "published_at": "2026-11-17T17:12:06+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50416801",
-      "title": "Statement from Nvidia board of directors",
-      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50416801",
-        "name": "vincentchau",
-        "hn_url": "https://news.ycombinator.com/item?id=50416801"
-      },
-      "duration_sec": null,
-      "views": 495,
-      "comments": 422,
-      "published_at": "2026-11-08T20:26:43+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -617,8 +579,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50581438"
       },
       "duration_sec": null,
-      "views": 303,
-      "comments": 167,
+      "views": 307,
+      "comments": 170,
       "published_at": "2026-11-20T20:22:41+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -732,7 +694,7 @@
       },
       "duration_sec": null,
       "views": 150,
-      "comments": 73,
+      "comments": 74,
       "published_at": "2026-11-14T14:09:25+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -846,7 +808,7 @@
       },
       "duration_sec": null,
       "views": 51,
-      "comments": 46,
+      "comments": 45,
       "published_at": "2026-11-13T23:34:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -867,25 +829,6 @@
       "views": 46,
       "comments": 20,
       "published_at": "2026-11-09T12:20:45+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50416679",
-      "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50416679",
-        "name": "specialp",
-        "hn_url": "https://news.ycombinator.com/item?id=50416679"
-      },
-      "duration_sec": null,
-      "views": 43,
-      "comments": 11,
-      "published_at": "2026-11-08T20:14:16+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -929,77 +872,77 @@
       "lang": "en"
     },
     {
-      "id": "hn:50513876",
-      "title": "Nvidia's Days as an Open Checkbook for the AI Economy Are Numbered",
-      "url": "https://www.wsj.com/tech/ai/nvidias-days-as-an-open-checkbook-for-the-ai-economy-are-numbered-90c7b388",
+      "id": "hn:50467087",
+      "title": "Jensen Huang resigns",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50513876",
-        "name": "mfiguiere",
-        "hn_url": "https://news.ycombinator.com/item?id=50513876"
+        "id": "50467087",
+        "name": "lldb",
+        "hn_url": "https://news.ycombinator.com/item?id=50467087"
       },
       "duration_sec": null,
-      "views": 38,
-      "comments": 10,
-      "published_at": "2026-11-16T04:03:51+00:00",
+      "views": 4060,
+      "comments": 3493,
+      "published_at": "2026-11-12T13:52:29+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
-      "id": "hn:50511763",
-      "title": "Huang Discusses Comeback as Nvidia Chief with Allies, FT Says",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-15/huang-discusses-comeback-as-nvidia-chief-with-allies-ft-says",
+      "id": "hn:50459321",
+      "title": "Jensen Huang said to have had relationship with executive who reports to him",
+      "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50511763",
-        "name": "nstj",
-        "hn_url": "https://news.ycombinator.com/item?id=50511763"
+        "id": "50459321",
+        "name": "louiereederson",
+        "hn_url": "https://news.ycombinator.com/item?id=50459321"
       },
       "duration_sec": null,
-      "views": 35,
-      "comments": 1,
-      "published_at": "2026-11-15T22:53:51+00:00",
+      "views": 412,
+      "comments": 540,
+      "published_at": "2026-11-11T22:03:58+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
-      "id": "hn:50557420",
-      "title": "Wife of Senior Nvidia Executive Caught Up in Alleged AI Chip Smuggling Scandal",
-      "url": "https://www.gadgetreview.com/wife-of-senior-nvidia-executive-caught-up-in-alleged-ai-chip-smuggling-scandal",
+      "id": "hn:50471621",
+      "title": "Singapore Says U.S. Not Helpful on Investigation into Suspected Spy's Company",
+      "url": "https://www.nytimes.com/2026/11/12/business/nvidia-megaspeed-alice-huang.html",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50557420",
-        "name": "mgh2",
-        "hn_url": "https://news.ycombinator.com/item?id=50557420"
+        "id": "50471621",
+        "name": "tedd4u",
+        "hn_url": "https://news.ycombinator.com/item?id=50471621"
       },
       "duration_sec": null,
-      "views": 32,
-      "comments": 0,
-      "published_at": "2026-11-19T08:23:41+00:00",
+      "views": 186,
+      "comments": 64,
+      "published_at": "2026-11-12T18:14:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
     },
     {
-      "id": "hn:50521575",
-      "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
-      "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+      "id": "hn:50534044",
+      "title": "Jensen Huang says he’s open to returning in first statement since resignation",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50521575",
-        "name": "jethronethro",
-        "hn_url": "https://news.ycombinator.com/item?id=50521575"
+        "id": "50534044",
+        "name": "theanonymousone",
+        "hn_url": "https://news.ycombinator.com/item?id=50534044"
       },
       "duration_sec": null,
-      "views": 31,
-      "comments": 3,
-      "published_at": "2026-11-16T19:09:05+00:00",
+      "views": 100,
+      "comments": 197,
+      "published_at": "2026-11-17T16:40:38+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
