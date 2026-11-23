@@ -1,33 +1,43 @@
 # Curio · AI · 2026-11-23
 
-> 今日 1 条头条 + 4 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 的治理危机已经从八卦升级成财务与监管问题——SEC 开始查会计口径、新加坡 104B 营收口径被藏起来，黄仁勋去留成了政治议题；二是 Anthropic IPO 定价 83 美元、估值 1.5 万亿，但信用评级是垃圾级，AI 泡沫的定价权正从叙事转向债券市场。这两条其实是同一件事的两面：AI 资本循环开始被审计。_
+_今天两条主线：一是 Nvidia 的权力真空还在发酵——黄仁勋辞职两周后，董事会、白宫、SEC 三方同时介入，公司基本面（104B 营收、新加坡销售停披露）和治理丑闻已经脱钩成两个故事；二是 Google 用 Gemini 4 Neon 一周内连拿两个榜单第一，同时把 Meta Muse 这类第三方 Agent 接进 Walmart 购物链路，Agent 商业化从 demo 走进真实交易。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Claude Code 桌面端全攻略：接入 MCP、写 Skill、拆子 Agent、配 Hooks
+### 5. Claude Code 从命令行进化为桌面客户端完全体，编程、设计、办公三合一
 
-**[AI]** · ⭐⭐⭐ · _大模型分享员_
+**[AI]** · ⭐⭐⭐⭐ · _技术爬爬虾_
 
-11 月 19 日发布，覆盖权限、MCP、Skill、子 Agent、Hooks 全链路，是近期最贴你偏好的实操内容，但形式是视频合集，密度不如文档。
+技术爬爬虾在 11 月 8 日的视频里拆解了 Claude Desktop 的最新形态：Claude Code 已从黑乎乎的命令行工具整合进桌面客户端，与 Claude Design、Claude Cowork 共用同一入口，搭配 Opus 5.5 模型。这是 Anthropic 把编程 Agent 从开发者工具推向通用工作台的关键一步。
 
-📺 [打开原文](http://www.bilibili.com/video/av117642291582518)
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Claude Code 已整合进 Claude Desktop 桌面客户端，不再是独立 CLI | 桌面端是否会在未来取代 CLI 成为主入口，还是两者长期并存，Anthropic 未表态 |
+| 桌面端同时承载 Claude Design（设计）与 Claude Cowork（办公）能力 | 三合一整合后的资源占用与权限模型是否更复杂，视频未深入 |
+| 当前搭配的模型为 Opus 5.5 | 第三方 API 接入的稳定性依赖 Anthropic 的政策松紧，随时可能收紧 |
+| 视频发布于 11 月 8 日，属于近期更新 | Opus 5.5 在桌面端与 API 端的行为一致性，缺少对比数据 |
+| 社区已有大量第三方 API 接入、汉化、免登录的教程涌现 |  |
+
+**📖 主编点评**
+
+你天天用 Claude Code 做 content-curator，这条值得花 20 分钟看。重点不是学怎么装，而是观察 Anthropic 的产品整合思路——把 Agent 能力收进一个统一客户端，本质是在争夺"你的工作台入口"。这对你设计自己的 Agent 工具有直接借鉴：入口越少，用户越不会流失。
+
+📺 [打开原文](http://www.bilibili.com/video/av117580048108571)
 
 ---
 
 ## 📋 备选阅读
 
-- [Claude Code 桌面版：中文汉化 + 免登录 + 接 DeepSeek + 装自己的 Skill](http://www.bilibili.com/video/av116606717919919) —— 工程细节够（免登录、接第三方模型），但"汉化+破解"路线有合规风险，放备选供你判断。
-  _iwenwiki_
-- [用 Claude Skill 做高质量 PPT（附完整教程）](http://www.bilibili.com/video/av116474832361424) —— Claude Design 的 Skill 实战，从 0 到 1 装好跑成品，适合你拆 Skill 结构。
-  _阿西_出海_
-- [DeepSeek Harness 实测 vs Claude Code：同一模型，工具链差距有多大](http://www.bilibili.com/video/av117100337236191) —— 控制变量对比 harness 对最终效果的影响，方法论对做 agent 评测有参考价值。
+- [DeepSeek Harness 实测对比 Claude Code：同一模型下工具链差距比想象的大](http://www.bilibili.com/video/av117100337236191) —— 用同一个 DeepSeek 模型在两个 harness 里跑相同任务，直接回答"模型重要还是工具链重要"。
   _程序员晓刘_
-- [Vibe Coding 完不会获客？我用 AI 做了个营销数据库 BizPeel](http://www.bilibili.com/video/av117587245599812) —— 真实 side project + MCP 接入 Google Antigravity 的案例，和你的 content-curator 定位最接近。
-  _熠辉IndieDev_
+- [Claude Code 从 0 到 1 全攻略：权限、MCP、Skill、子智能体、Hooks 全流程](http://www.bilibili.com/video/av117642291582518) —— 11 月 19 日发布，覆盖 Hooks 和子 Agent 分工，正好补你 content-curator 缺的那块。
+  _大模型分享员_
+- [用 Claude Skill 做高质量 PPT 的完整流程](http://www.bilibili.com/video/av116474832361424) —— Claude Design 的 Skill 实操，6000 万曝光的那个功能，有成品演示。
+  _阿西_出海_
 
 ---
 

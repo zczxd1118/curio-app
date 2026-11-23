@@ -1,176 +1,176 @@
 # Curio 趋势雷达 · 2026-11-23
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 19 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 16 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 的治理危机已经从八卦升级成财务与监管问题——SEC 开始查会计口径、新加坡 104B 营收口径被藏起来，黄仁勋去留成了政治议题；二是 Anthropic IPO 定价 83 美元、估值 1.5 万亿，但信用评级是垃圾级，AI 泡沫的定价权正从叙事转向债券市场。这两条其实是同一件事的两面：AI 资本循环开始被审计。_
+_今天两条主线：一是 Nvidia 的权力真空还在发酵——黄仁勋辞职两周后，董事会、白宫、SEC 三方同时介入，公司基本面（104B 营收、新加坡销售停披露）和治理丑闻已经脱钩成两个故事；二是 Google 用 Gemini 4 Neon 一周内连拿两个榜单第一，同时把 Meta Muse 这类第三方 Agent 接进 Walmart 购物链路，Agent 商业化从 demo 走进真实交易。_
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 1. SEC 调查 Nvidia 会计问题，黄仁勋去留之外，真正的风险是营收口径
+### 1. SEC 对 Nvidia 的调查转向会计问题，黄仁勋风波从治理丑闻升级为财务合规风险
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _ftchd_
 
-Nvidia 的危机已经从 CEO 私德问题转向财务披露。SEC 的 probe 聚焦会计处理，而此前 FT 已报道公司停止单独披露新加坡销售额——同期营收冲到 104B 美元。把这两件事放一起看：市场真正担心的不是谁当 CEO，而是 GPU 需求里有多少是 Nvidia 自己出资的创业公司买回去的。
+Reuters 消息称 SEC 对 Nvidia 的调查重点已从高管关系问题转向潜在会计处理问题，涉及收入确认与关联方交易。此前一周 Nvidia 已停止披露新加坡地区销售数据，而该地区营收此前被质疑与 Megaspeed 等中间商有关。丑闻与财报两条线正在合流。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| SEC 正在调查 Nvidia 潜在的会计问题，消息源对 MarketScreener 确认 | SEC 调查目前只是"潜在会计问题"，尚未定性为违规，最终可能无实质处罚 |
-| Nvidia 已停止单独披露新加坡地区销售额，同期总营收达 104B 美元 | 新加坡口径消失与 Megaspeed 关联公司的关系仍是推测，官方未解释 |
-| 此前 TechPowerUp 等媒体报道 Nvidia 通过投资 AI 创业公司让其回购 GPU，被指人为制造稀缺 | 循环融资（circular financing）是否构成收入确认问题，取决于审计对"实质控制"的认定 |
-| 黄仁勋已于 11 月 12 日辞去 CEO，公司董事在丑闻前数周卖出近 10 亿美元股票 | 黄仁勋回归的可能性存在，但会与 SEC 调查进度绑定 |
-| 特朗普公开表态称董事会重新聘用黄仁勋对公司与美国都最好 |  |
+| SEC 调查方向已扩展至潜在会计问题，消息源为知情人士 | 会计问题目前只是"潜在"，尚无 SEC 正式指控或公司回应，性质可能远轻于市场联想 |
+| Nvidia 在最新财报中停止单独披露新加坡销售数据，同期总营收达 1040 亿美元 | 新加坡销售与 Megaspeed 的关联尚未被证实为违规，也可能只是正常的渠道结构 |
+| 黄仁勋已于 11 月 12 日辞去 CEO 职务，董事会正在物色继任者 | 董事会是否会在调查期间暂缓任命新 CEO，目前无公开信号 |
+| 一名董事在丑闻曝光前数周卖出近 10 亿美元股票 | 若会计问题坐实，影响范围可能波及整个 AI 芯片供应链的估值逻辑，但目前无证据 |
+| Reuters、FT、WSJ 三家媒体在过去 10 天内独立报道了调查进展 | 黄仁勋本人是否配合调查、是否涉及个人责任，均未明朗 |
 
 **📖 主编点评**
 
-如果你在跟踪 AI 算力链，别只盯黄仁勋的新闻热度，去翻 Nvidia 下一份 10-Q 里地区收入拆分和应收账款周转——那才是判断 GPU 真实需求的硬指标。对你的 content-curator 项目也是个提醒：信源里"高管八卦"和"财务披露"要分开打标签，前者噪声大、后者才是信号。
+这条不是让你去炒 NVDA 的股票，而是提醒你：AI 算力叙事里最硬的那块地基正在被审计。如果你在做任何依赖"算力持续扩张"假设的产品判断或职业规划，现在应该把"供应链治理风险"作为一个显式变量加进去，而不是默认它不存在。
 
 📺 [打开原文](https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627)
 
 ---
 
-### 4. Architect Labs 称 AI agent 从零设计出全新 CPU 架构 Frostbite，能效比达 4.59 倍
+## 🌟 大厂 AI 动态
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐ · _Shane Downing_
+### 2. Gemini 4 Neon 发布即登顶两个评测榜，Google 在 3 周内连发 Carbon、Hydrogen、Neon 三代模型
 
-初创公司 Architect Labs 声称其 AI agent 从零设计了一款叫 Frostbite 的 CPU，采用 interaction-net 架构，在流片前测试中每瓦性能是传统顺序执行核心的 4.59 倍。这是"AI 设计硬件"从论文走向公司声明的又一步，但注意关键词：pre-silicon，也就是还没流片验证。
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _yigitdemirag_
+
+Google 于 11 月 18 日发布 Gemini 4 Neon，次日即在 Models Engineering Index 拿下第一，此前 Carbon 也曾登顶 Artificial Analysis Intelligence Index v5。三周内连发三个版本，节奏明显快于以往。社区评测普遍把 Neon 视为 Opus 5.5 的直接竞品。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Architect Labs 称 AI agent 从零设计了 Frostbite CPU 架构 | 4.59 倍是仿真/建模结果，流片后能否复现是最大不确定性 |
-| 宣称 interaction-net 设计在流片前测试中达到 4.59 倍每瓦性能 | "AI 从零设计"里人类工程师参与度未披露，可能是 AI 辅助而非自主设计 |
-| 目前处于 pre-silicon 阶段，尚无实测芯片 | interaction-net 架构的可制造性与良率完全未知 |
+| Gemini 4 Neon 于 11 月 18 日发布，官方博客确认 | 两个榜单的评测方法不同，"第一"的含金量需要看具体任务分布，不能直接等同于全面领先 |
+| Neon 在 Models Engineering Index 上排名第一，Carbon 曾在 Artificial Analysis v5 登顶 | 三周三代可能是并行训练的不同规格变体分批放出，而非真正的代际迭代 |
+| Google 在 10 月底至 11 月中连续发布 Carbon、Hydrogen、Neon 三个 Gemini 4 变体 | Neon 相对 Opus 5.5 的实际工程体验差距，目前只有零星博客对比，缺系统性评测 |
+| Gemini 4 Hydrogen 同步接入 Google Antigravity 开发环境 | 榜单排名与实际 Agent 任务成功率之间的相关性，历来被高估 |
+| Genie 4 世界模型也已开放使用 | Google 是否会把这套发布节奏固化为常态，尚无官方说法 |
 
 **📖 主编点评**
 
-对你这种硬件背景 + AI 产品的人，这条的价值在方法论：AI agent 做架构探索（design space exploration）是真实可落地的方向，比"AI 写代码"更硬核。如果你想给简历加一个差异化项目，可以做一个小的 agent 驱动的 Verilog/参数化硬件搜索 demo，成本低、故事性强。
+你正在做 content-curator，模型选型是绕不开的决策。建议不要只看榜单第一就切换——先拿你自己的真实任务（长文摘要、结构化抽取、多轮工具调用）在 Neon 和现有模型上各跑 20 条，用你自己的数据说话。榜单是别人的任务分布。
+
+📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
+
+---
+
+### 3. Walmart 开放 Agent 网关，允许 Meta Muse 代用户在站内完成黑五下单
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Jess Weatherbed_
+
+Walmart 将于 11 月 24 日上线 Agent 网关，首批接入 Meta 的 Muse，让 AI Agent 代替用户在 Walmart 网站比价并完成购买。这是大型零售商第一次以官方网关形式向第三方 Agent 开放交易权限，而不是靠爬虫或浏览器自动化绕过。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Walmart 官方确认 Agent 网关于 11 月 24 日上线，首批合作方为 Meta Muse | 支付环节的授权边界与退款责任归属，报道未说明，可能是后续争议点 |
+| Agent 可执行的操作包括搜索商品、比价、加入购物车与完成支付 | Walmart 是否会对 Agent 流量单独计价或限制品类，目前未知 |
+| 这是零售商首次以官方 API 形式向第三方 Agent 开放交易链路 | 其他零售商是否会跟进开放类似网关，还是选择自建 Agent 封闭生态，尚不明朗 |
+| 上线时间点紧贴黑五促销周期 | Agent 代下单的欺诈与误购风险如何兜底，没有公开的风控细节 |
+
+**📖 主编点评**
+
+这是 Agent 从"帮你查资料"跨到"帮你花钱"的标志性一步。你做 content-curator 迟早要碰"Agent 执行副作用操作"的授权设计——Walmart 这套网关的权限粒度、确认机制、失败回滚，值得你去找它的开发者文档读一遍，比看十篇 Agent 架构综述有用。
+
+📺 [打开原文](https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday)
 
 ---
 
 ## 🌟 股票
 
-### 2. Anthropic IPO 定价 83 美元、估值 1.5 万亿，但信用评级是垃圾级
+### 4. Anthropic IPO 定价每股 83 美元、估值 1.5 万亿美元，但承销商已关闭护盘头寸
 
-**[股票]** · ⭐⭐⭐⭐⭐ · _6thbit_
+**[股票]** · ⭐⭐⭐⭐ · _6thbit_
 
-Anthropic 把 IPO 价格定在每股 83 美元，对应约 1.5 万亿美元估值。但同一周的多条信息拼起来更值得看：Blackstone 说它拿不到投资级评级，信用机构给的是高收益（垃圾）级；IPO 承销行的稳定股价头寸已经平掉；招股书里还警告可能"迫近"递归自我改进。这是一场用股权估值掩盖债务风险的定价。
+Anthropic 于 11 月 18 日完成 IPO 定价，每股 83 美元对应约 1.5 万亿美元估值，较早期 1.7 万亿预期有所下调。Reuters 随后报道承销银行已关闭用于稳定股价的绿鞋头寸，同时公司招股书披露季度人力成本 17 亿美元、并警告"可能已接近递归自我改进"。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic IPO 定价每股 83 美元，估值约 1.5 万亿美元 | 1.5 万亿估值能否在上市后维持，取决于首批机构是否锁仓，目前大投资者已公开表示怀疑 |
-| Blackstone 表示 Anthropic IPO 后可能拿不到投资级评级，信用机构给出高"垃圾"级 | "迫近 RSI"的措辞是法律免责还是真实技术判断，无法从文件判断 |
-| 承销行已关闭用于稳定股价的头寸 | 垃圾级评级对后续融资成本的影响，要等第一笔公司债发行才见分晓 |
-| 招股书披露季度人力成本 17 亿美元，人均月成本约 107K 美元 | Michael Burry 等做空者的论点是否成立，需要看首个财报季的毛利率 |
-| IPO 前已披露 9000 亿美元 AI 支出承诺 |  |
+| IPO 定价每股 83 美元，对应估值约 1.5 万亿美元 | 护盘头寸关闭不等于股价必跌，也可能是发行认购充分、无需护盘 |
+| 招股书披露季度人力支出 17 亿美元，人均月成本约 10.7 万美元 | "接近递归自我改进"的表述出现在风险披露中，法律含义与营销含义需区分 |
+| 公司披露 9000 亿美元 AI 支出承诺 | 1.5 万亿估值相对 9000 亿支出承诺的现金流匹配度，市场分歧极大 |
+| 承销银行已关闭用于稳定股价的护盘头寸 | Michael Burry 等空头的公开质疑是否代表主流定价，无法判断 |
+| 信用评级机构预计给出高收益级（垃圾级）评级 | 上市后首个季度的实际营收能否支撑估值，要等财报 |
 
 **📖 主编点评**
 
-这条对你不是让你去炒股，而是理解 AI 公司的资本结构：Anthropic 的估值靠股权叙事撑着，但真实约束在债务端。你做 AI 产品时，供应商（模型 API）的定价和稳定性未来会受这类财务压力影响——别把产品架构绑死在单一闭源 API 上，留好切换层。
+你不需要判断 Anthropic 值不值 1.5 万亿，但要知道一件事：AI 公司的融资结构正在从"VC 输血"转向"公开市场 + 债务"，这意味着未来 6-12 个月 AI 产品的定价和免费额度策略会更激进地追求收入。你依赖的免费 API 额度，大概率会收紧。
 
 📺 [打开原文](https://apnews.com/article/anthropic-ipo-pricing-70b660ddf900d90bbf484ecdf1fb441c)
 
 ---
 
-## 🌟 大厂 AI 动态
+## 🌟 AI
 
-### 3. Walmart 开放 Agent 网关，让 Meta Muse 替用户下单黑五
+### 5. Claude Code 从命令行进化为桌面客户端完全体，编程、设计、办公三合一
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Jess Weatherbed_
+**[AI]** · ⭐⭐⭐⭐ · _技术爬爬虾_
 
-Walmart 明天（11 月 24 日）上线一个 agent gateway，允许第三方 AI agent 在其网站代用户找货、比价、下单，Meta 的 Muse 是首批接入方。这是零售巨头第一次把"agent 代操作"做成官方通道，而不是靠爬虫和浏览器自动化硬闯。对做 Agent 的人来说，这是 MCP 式协议思路在电商场景的落地样板。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Walmart 将于 11 月 24 日推出 agent gateway，允许 AI agent 代用户购物 | agent 下单的支付授权、退款责任归属尚未公开细节 |
-| Meta Muse 是首批接入的 agent 之一，可查找并购买黑五折扣商品 | 其他 agent（OpenAI、Anthropic 系）是否接入、接入条件未知 |
-| 该能力以官方 API 通道形式提供，而非浏览器自动化 | 对独立开发者是否开放，还是只给大厂白名单，目前不明 |
-
-**📖 主编点评**
-
-这是你该重点拆的案例：agent gateway 本质是"给 agent 用的 API 契约"，和 MCP 的设计哲学同源。如果 Walmart 后续开放文档，值得照着写一个最小 demo 接进你的 content-curator——比如让 agent 自动比价订阅源。这类"平台主动开 agent 通道"的信号，比又一个模型发布更有长期价值。
-
----
-
-## 🌟 金融
-
-### 5. 美联储担心 AI agent 会引发银行挤兑
-
-**[金融]** · ⭐⭐⭐ · _pera_
-
-美联储开始研究 agentic AI 对金融稳定的影响，核心担忧是：当大量 agent 同时根据相同信号做出提款或调仓决策，可能形成毫秒级的协同挤兑。这条不是产品新闻，但它决定了未来 agent 在金融场景的合规边界——你做 agent 工具时，涉及钱的自动化会被这类监管预期约束。
+技术爬爬虾在 11 月 8 日的视频里拆解了 Claude Desktop 的最新形态：Claude Code 已从黑乎乎的命令行工具整合进桌面客户端，与 Claude Design、Claude Cowork 共用同一入口，搭配 Opus 5.5 模型。这是 Anthropic 把编程 Agent 从开发者工具推向通用工作台的关键一步。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 美联储公开表达对 AI agent 可能触发银行挤兑的担忧 | 目前处于研究/表态阶段，尚无具体监管规则 |
-| 担忧集中在 agent 基于相同信号产生同步行为 | 挤兑风险的实际概率缺乏实证，更多是压力测试假设 |
-|  | 对消费级 agent 产品的短期影响有限 |
+| Claude Code 已整合进 Claude Desktop 桌面客户端，不再是独立 CLI | 桌面端是否会在未来取代 CLI 成为主入口，还是两者长期并存，Anthropic 未表态 |
+| 桌面端同时承载 Claude Design（设计）与 Claude Cowork（办公）能力 | 三合一整合后的资源占用与权限模型是否更复杂，视频未深入 |
+| 当前搭配的模型为 Opus 5.5 | 第三方 API 接入的稳定性依赖 Anthropic 的政策松紧，随时可能收紧 |
+| 视频发布于 11 月 8 日，属于近期更新 | Opus 5.5 在桌面端与 API 端的行为一致性，缺少对比数据 |
+| 社区已有大量第三方 API 接入、汉化、免登录的教程涌现 |  |
 
 **📖 主编点评**
 
-这条标 3 星是因为它离你的日常远，但方向值得记一笔：agent 的"群体同步行为"是未来 1-2 年会反复出现的监管话题。你做 content-curator 这类个人 agent 不受影响，但如果哪天做涉及交易/支付的 agent，先把"限流 + 人工确认"写进设计。
+你天天用 Claude Code 做 content-curator，这条值得花 20 分钟看。重点不是学怎么装，而是观察 Anthropic 的产品整合思路——把 Agent 能力收进一个统一客户端，本质是在争夺"你的工作台入口"。这对你设计自己的 Agent 工具有直接借鉴：入口越少，用户越不会流失。
 
-📺 [打开原文](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566)
+📺 [打开原文](http://www.bilibili.com/video/av117580048108571)
 
 ---
 
 ## 📋 备选池
 
-### AI
-
-- [Claude Code 桌面端全攻略：接入 MCP、写 Skill、拆子 Agent、配 Hooks](http://www.bilibili.com/video/av117642291582518) —— 11 月 19 日发布，覆盖权限、MCP、Skill、子 Agent、Hooks 全链路，是近期最贴你偏好的实操内容，但形式是视频合集，密度不如文档。
-  _大模型分享员_
-- [Claude Code 桌面版：中文汉化 + 免登录 + 接 DeepSeek + 装自己的 Skill](http://www.bilibili.com/video/av116606717919919) —— 工程细节够（免登录、接第三方模型），但"汉化+破解"路线有合规风险，放备选供你判断。
-  _iwenwiki_
-- [用 Claude Skill 做高质量 PPT（附完整教程）](http://www.bilibili.com/video/av116474832361424) —— Claude Design 的 Skill 实战，从 0 到 1 装好跑成品，适合你拆 Skill 结构。
-  _阿西_出海_
-- [DeepSeek Harness 实测 vs Claude Code：同一模型，工具链差距有多大](http://www.bilibili.com/video/av117100337236191) —— 控制变量对比 harness 对最终效果的影响，方法论对做 agent 评测有参考价值。
-  _程序员晓刘_
-- [Vibe Coding 完不会获客？我用 AI 做了个营销数据库 BizPeel](http://www.bilibili.com/video/av117587245599812) —— 真实 side project + MCP 接入 Google Antigravity 的案例，和你的 content-curator 定位最接近。
-  _熠辉IndieDev_
-
 ### AI 算力 / 半导体
 
-- [TSMC 据报暂停向中国设计公司发货，16nm/14nm 老节点被新规波及](https://www.tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips) —— 出口管制下沉到十年前的成熟制程，影响面比先进制程更广，但对你个人短期无行动点。
+- [TSMC 据报暂停向中国设计公司出货，美国出口新规波及 16nm/14nm 老节点](https://www.tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips) —— 管制从先进节点下沉到十年前的成熟制程，影响面反而更大，但今天被 Nvidia 丑闻盖过。
   _Jowi Morales_
-- [Moore Threads 下一代 Lushan 游戏 GPU 或配 64GB 显存](https://www.tomshardware.com/pc-components/gpus/moore-threads-next-lushan-gaming-gpu-could-pack-a-record-64gb-of-vram-doubles-the-rtx-5090s-32gb-lofty-claims-of-15x-gaming-and-50x-ray-tracing-over-mtt-s80) —— 国产 GPU 显存翻倍到 64GB，宣称 15x 游戏性能，但都是发布会口径，等实测。
+- [AI Agent 从零设计出全新 CPU 架构 Frostbite，宣称每瓦性能达顺序核 4.59 倍](https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests) —— 只有流片前仿真数据，没有硅验证，但"Agent 做芯片架构"这个方向本身值得记一笔。
   _Shane Downing_
-- [3500 美元四卡 V100 家庭实验室：128GB 显存跑 Qwen3-8-27B 达 285 tok/s](https://www.tomshardware.com/tech-industry/artificial-intelligence/homelabbers-usd3-500-build-straps-four-32gb-nvidia-v100s-to-a-lenovo-mini-pc-for-128gb-of-vram-coreboot-oculink-docks-and-a-solder-bridge-unlock-285-tokens-sec-in-qwen3-8-27b) —— OCuLink + Coreboot + 焊桥的硬核 homelab 方案，工程细节拉满，适合你这种电子背景看。
+- [软银 1 万亿美元收购 SK 海力士的尝试为何胎死腹中](https://www.eetimes.com/the-enigma-of-softbanks-1-trillion-sk-hynix-buyout-attempt/) —— 拆解 HBM 在 AI 供应链里的战略地位，解释了为什么内存厂现在谁都不卖。
+  _Majeed Ahmad_
+- [3500 美元自建 128GB VRAM：四张二手 V100 挂 Lenovo 迷你主机跑 Qwen3-8-27B](https://www.tomshardware.com/tech-industry/artificial-intelligence/homelabbers-usd3-500-build-straps-four-32gb-nvidia-v100s-to-a-lenovo-mini-pc-for-128gb-of-vram-coreboot-oculink-docks-and-a-solder-bridge-unlock-285-tokens-sec-in-qwen3-8-27b) —— 硬核 homelab 实践，OCuLink + 焊桥的细节对想本地跑模型的你有参考价值。
   _Shane Downing_
-- [开发者把语言模型塞进一张软盘，跑在 486DX / Pentium 上](https://www.tomshardware.com/tech-industry/artificial-intelligence/dev-squeezes-an-ai-language-model-onto-a-floppy-for-486dx-and-pentium-pc-stalwarts-tiny-2-1-needs-540kb-of-memory-and-speaks-via-pc-speaker-is-a-question-answering-transformer-with-367k-parameters) —— 367K 参数、540KB 内存、用 PC 喇叭输出，纯极客趣味，但展示了极致量化思路。
-  _Mark Tyson_
 
 ### 大厂 AI 动态
 
-- [Gemini 4 Neon 登顶 Models Engineering Index](https://git-aarvin.github.io/mei/) —— 新模型榜单第一，但榜单本身是个人项目，权威性待观察，先记一笔。
-  _hn-aarvin_
-- [Google 员工联名要求公司不要惩罚拒绝 AI 的学校](https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/) —— AI 进校园的劳资与伦理张力，DeepMind 工会化同期发生，值得关注但非工程向。
+- [Gemini 4 Neon 被视为 Opus 5.5 的直接竞品](https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/) —— 个人博客的对比评测，样本小但给了具体任务维度，比榜单排名更有信息量。
+  _seizethecheese_
+- [Google 员工联名要求公司不要惩罚拒绝 AI 的学校](https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/) —— AI 进校园的阻力开始组织化，这是产品落地绕不开的社会摩擦。
   _cdrnsf_
-- [Stratechery：Amazon 财报、芯片问题与 Agent](https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/) —— Ben Thompson 分析 Amazon 为何愿意牺牲毛利服务前沿模型，是理解云厂商 agent 战略的好材料。
+- [Stratechery：Amazon 财报、芯片问题与 Agent](https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/) —— Ben Thompson 分析 Amazon 为何愿意牺牲毛利服务前沿客户，Agent 时代的云经济学。
   _Ben Thompson_
+- [OpenAI 首席科学家谈如何给 AI 发展设限](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/) —— 核心观点是"要设速限先得对怎么测速达成共识"，方法论层面值得一读。
+  _Anthony Ha_
 
 ### 股票
 
-- [Nasdaq 抹平 2026 全年涨幅](https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html) —— AI 股回调的宏观注脚，和 Anthropic IPO 定价形成对照。
+- [Nasdaq 抹平 2026 年全部涨幅](https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html) —— AI 板块回调的宏观注脚，和 Anthropic IPO 定价下调是同一件事的两面。
   _mv4_
-- [A Banker's Guide to Anthropic：为什么这次 IPO 是信用事件](https://www.netinterest.co/p/a-bankers-guide-to-anthropic) —— 把 IPO 当信用事件而非股权事件来读，视角稀缺，是头条 2 的深度补充。
+- [Net Interest：一份银行家视角的 Anthropic 指南——为什么这次 IPO 是信用事件](https://www.netinterest.co/p/a-bankers-guide-to-anthropic) —— 把 IPO 当信用事件而非成长故事来读，视角稀缺，适合补财务常识。
   _Marc Rubinstein_
 
 ### 金融
 
-- [美联储研究：agentic AI 对劳动力需求的影响（OpenRouter 数据）](https://arxiv.org/abs/2611.27210) —— 用 OpenRouter 真实调用数据做全经济跨模型证据，是少见的 agent 实证研究。
-  _Nicola Borri 等_
-- [Visa、Mastercard、JPMorgan 客户数据被黑客泄露](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87) —— 支付链数据泄露，和你做 agent 涉及支付授权时的安全设计相关。
+- [巴西税务局在 GitHub 以 MIT 协议开源其税务计算器](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria) —— 政府级税务逻辑开源，对做合规类 Agent 的人是现成的规则引擎参考。
+  _dvaplima_
+- [Fed 担心 AI Agent 可能引发银行挤兑](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566) —— Agent 执行速度超过人类风控反应速度，这个风险框架和 Walmart 网关那条正好互补。
+  _pera_
+- [Visa、Mastercard 与 JPMorgan 客户数据被黑客泄露](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87) —— 支付链路安全事件，和 Agent 代付的信任问题叠在一起看更有意思。
   _mikhael_
-- [Oracle 申请发 200 亿美元新股与债券，为 AI 基建融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 基建融资从股权转向债务的又一例，和 Anthropic 垃圾级评级同一条线。
-  _smartmic_
 
-### 电子信息与芯片
+### AI
 
-- [黄仁勋辞职（AP 报道，HN 4060 分）](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f) —— 事件本身是头条 1 的背景，单列是因为它是本轮 Nvidia 危机的起点，HN 讨论量最高。
-  _lldb_
-- [黄仁勋首次发声：愿意回归](https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html) —— 回归表态 + 特朗普喊话，治理博弈仍在进行，等董事会决议。
-  _theanonymousone_
+- [DeepSeek Harness 实测对比 Claude Code：同一模型下工具链差距比想象的大](http://www.bilibili.com/video/av117100337236191) —— 用同一个 DeepSeek 模型在两个 harness 里跑相同任务，直接回答"模型重要还是工具链重要"。
+  _程序员晓刘_
+- [Claude Code 从 0 到 1 全攻略：权限、MCP、Skill、子智能体、Hooks 全流程](http://www.bilibili.com/video/av117642291582518) —— 11 月 19 日发布，覆盖 Hooks 和子 Agent 分工，正好补你 content-curator 缺的那块。
+  _大模型分享员_
+- [用 Claude Skill 做高质量 PPT 的完整流程](http://www.bilibili.com/video/av116474832361424) —— Claude Design 的 Skill 实操，6000 万曝光的那个功能，有成品演示。
+  _阿西_出海_
 
 ---
 
