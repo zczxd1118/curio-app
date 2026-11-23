@@ -2,29 +2,27 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 的治理危机从「CEO 绯闻」升级成「SEC 查会计 + 新加坡收入消失 + 循环融资造短缺」三重叠加，黄仁勋去留已经变成公司信用事件；二是 Anthropic IPO 定价 83 美元、估值 1.5T，但信用机构给的是高收益垃圾级，AI 资本叙事第一次被放到债券视角下审视。这两件事合起来说明：AI 泡沫的讨论已经从「估值贵不贵」转向「钱是怎么借来的」。_
+_今天最重要的信号有两个：一是 Nvidia 的治理危机已经从八卦升级成财务与监管问题——SEC 开始查会计口径、新加坡 104B 营收口径被藏起来，黄仁勋去留成了政治议题；二是 Anthropic IPO 定价 83 美元、估值 1.5 万亿，但信用评级是垃圾级，AI 泡沫的定价权正从叙事转向债券市场。这两条其实是同一件事的两面：AI 资本循环开始被审计。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. 美联储开始担心 AI Agent 引发银行挤兑：Agent 时代的金融稳定性新变量
+### 5. 美联储担心 AI agent 会引发银行挤兑
 
-**[金融]** · ⭐⭐⭐⭐ · _pera_
+**[金融]** · ⭐⭐⭐ · _pera_
 
-Gizmodo 报道美联储内部正在讨论 AI Agent 可能触发银行挤兑的风险——当大量 Agent 以毫秒级速度响应同一信号集体提款时，传统基于人类反应时间的流动性管理假设会失效。这条和 Anthropic IPO 的信用评级问题放在一起看，说明监管层已经把 Agent 当成金融系统的真实参与者，而不是玩具。
+美联储开始研究 agentic AI 对金融稳定的影响，核心担忧是：当大量 agent 同时根据相同信号做出提款或调仓决策，可能形成毫秒级的协同挤兑。这条不是产品新闻，但它决定了未来 agent 在金融场景的合规边界——你做 agent 工具时，涉及钱的自动化会被这类监管预期约束。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 美联储正在评估 AI Agent 对银行流动性的潜在冲击 | 目前是风险评估阶段，尚无具体监管规则出台 |
-| 讨论聚焦于 Agent 集体行动可能加速挤兑 | Agent 挤兑是理论推演还是已有苗头，报道未给实证 |
-| 该议题出现在 11 月中旬的公开报道中 | 银行现有风控系统对 Agent 行为的识别能力未知 |
-| 同期美联储还在讨论 AI 对就业和利率路径的影响 | 监管落地时间表不明确，可能滞后于实际部署 |
-| Agent 在金融场景的部署正在加速（支付、信贷、客服） | 对个人开发者而言，短期内更多是合规提示而非技术约束 |
+| 美联储公开表达对 AI agent 可能触发银行挤兑的担忧 | 目前处于研究/表态阶段，尚无具体监管规则 |
+| 担忧集中在 agent 基于相同信号产生同步行为 | 挤兑风险的实际概率缺乏实证，更多是压力测试假设 |
+|  | 对消费级 agent 产品的短期影响有限 |
 
 **📖 主编点评**
 
-你做 Agent 项目时，这条是一个值得写进 README 的风险视角：Agent 的自主性和速度是优势，但在涉及资金、下单、批量操作的场景里，需要显式的速率限制和人工确认环节。这不只是合规问题——它也是你向面试官展示「工程成熟度」的现成话题。
+这条标 3 星是因为它离你的日常远，但方向值得记一笔：agent 的"群体同步行为"是未来 1-2 年会反复出现的监管话题。你做 content-curator 这类个人 agent 不受影响，但如果哪天做涉及交易/支付的 agent，先把"限流 + 人工确认"写进设计。
 
 📺 [打开原文](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566)
 
@@ -32,12 +30,12 @@ Gizmodo 报道美联储内部正在讨论 AI Agent 可能触发银行挤兑的�
 
 ## 📋 备选阅读
 
-- [Visa、Mastercard 和 JPMorgan 客户数据被黑客泄露](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87) —— 支付链路的供应链安全事件，和 AI Agent 金融风险是同一主题的另一面。
+- [美联储研究：agentic AI 对劳动力需求的影响（OpenRouter 数据）](https://arxiv.org/abs/2611.27210) —— 用 OpenRouter 真实调用数据做全经济跨模型证据，是少见的 agent 实证研究。
+  _Nicola Borri 等_
+- [Visa、Mastercard、JPMorgan 客户数据被黑客泄露](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87) —— 支付链数据泄露，和你做 agent 涉及支付授权时的安全设计相关。
   _mikhael_
-- [Oracle 申请发行 200 亿美元新股和债券为 AI 基建融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 基建融资从股权转向债务的又一例，和 Anthropic 信用评级问题呼应。
+- [Oracle 申请发 200 亿美元新股与债券，为 AI 基建融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 基建融资从股权转向债务的又一例，和 Anthropic 垃圾级评级同一条线。
   _smartmic_
-- [巴西税务机关在 GitHub 以 MIT 协议开源其税务计算器](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria) —— 政府级开源项目，HN 787 分，工程上值得一看但不是你的核心关注。
-  _dvaplima_
 
 ---
 
