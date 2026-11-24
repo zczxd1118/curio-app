@@ -2,44 +2,45 @@
 
 > 今日 1 条头条 + 4 条备选
 
-_今天全网只有一个真信号：Jensen Huang 被 Nvidia 董事会请回 CEO，距他因丑闻辞职不到两周，Trump 亲自打电话进董事会施压。这件事的产业含义不是八卦——它把「Nvidia 的公司治理、SEC 会计调查、Megaspeed 出口管制、国会听证」四条线拧成一根绳，接下来一周 Nvidia 的每一次表态都会牵动算力供给和 AI 资本叙事。另一条值得单独拎出来的是 Anthropic 发布 Claude Ship，让 Agent 自己 review、修、批准代码——这是把 vibe coding 从「人写 prompt」推进到「Agent 管合并」的一步。_
+_今天最重要的信号只有一个：Nvidia 董事会在 Huang 辞职不到两周后把他请回来了，Trump 亲自打电话进董事会，国会两党在骂，SEC 还在查账。这不是公司治理事件，是 AI 算力供应链的政治定价权问题——短期算力叙事被稳住，但 Nvidia 的信用溢价已经开始被重新计算。另一条线是 Anthropic 的 IPO 定价与 Claude Ship 同日落地，AI 编程的"最后一公里"（代码评审与合并）开始被 Agent 接管。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Nvidia 董事会把 Jensen Huang 请回 CEO，距辞职不到两周，Trump 称「我打电话说服了他们」
+### 1. Nvidia 董事会请回 Jensen Huang：辞职 11 天后复职，Trump 亲自介入，SEC 调查未结
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _alanwong_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Sally Ward-Foxton_
 
-11 月 12 日 Huang 因与 Megaspeed 高管 Alice Huang 的关系及疑似中国间谍传闻辞职，董事会一度启动调查。11 月 23 日官方新闻稿宣布复职，CNBC 与 NYT 均报道 Trump 直接致电董事会推动此事。Huang 对员工说「第二次我会做个更好的 CEO」。这不是一次普通的人事反复，而是把公司治理、出口管制与政治干预三件事同时摆上了台面。
+11 月 12 日 Huang 因与 Megaspeed 高管 Alice Huang 的关系辞职，董事会 11 月 23 日宣布复职，Huang 当天回到总部接受员工鼓掌。Trump 对 CNBC 承认自己打电话进董事会并"说服了他们"。同一时间 SEC 对 Nvidia 会计问题的调查仍在进行，Megaspeed 正被推向美国实体清单。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Nvidia 官方新闻稿确认董事会重新任命 Huang 为总裁、CEO 及董事 | 董事会调查结论是否公开、以何种措辞收尾，目前只有「复职」这一结果，没有披露调查细节 |
-| 辞职发生在 11 月 12 日，复职在 11 月 23 日，间隔不到两周 | Megaspeed 是否真被列入美国实体清单尚未落地，TechCrunch 用的是「appears headed for」 |
-| Trump 对 CNBC 表示「我跟他们谈了……我说服了他们」，NYT 报道其直接介入董事会 | 国会两党已公开批评此次复职（CNBC 报道称「failure of character」），听证会是否会升级为对 Nvidia 出口许可的实质审查仍不明 |
-| Huang 已安排下周出席参议院听证，就相关传闻作证 | Huang 复职对 Nvidia 对华销售政策、对新加坡收入披露口径的实际影响，短期看不到可验证动作 |
-| SEC 对 Nvidia 的会计问题调查仍在进行，涉及新加坡销售披露与 Megaspeed 关系 | 员工内部并非一致欢迎，Tom's Hardware 报道有员工称「这是最糟的结果」 |
+| Huang 于 11 月 12 日辞去 CEO、总裁与董事职务，董事会当日接受 | 复职是否稳定管理层，还是让高管流失加速——已有工程师辞职后公开表示"动作太快" |
+| 11 月 23 日董事会宣布复职，Huang 已回总部办公 | SEC 会计调查的结论可能比性丑闻对估值影响更大 |
+| Trump 向 CNBC 确认致电 Nvidia 董事会推动复职 | 国会两党压力是否转化为对华出口管制进一步收紧 |
+| SEC 正在调查 Nvidia 潜在会计问题，涉及新加坡销售额披露 | Megaspeed 若被列入实体清单，Nvidia 新加坡收入口径会被迫重述 |
+| Megaspeed（Alice Huang 曾任负责人）面临美国实体清单 | Trump 直接干预董事会的先例，对其它上市科技公司的治理预期是负面示范 |
+| Huang 下周将出席参议院听证会 |  |
 
 **📖 主编点评**
 
-你不需要追这条的八卦细节，但要盯两个可操作的点：一是下周参议院听证会不会牵出对华出口许可的新限制，那会直接改变国内可拿到的算力档位；二是 Nvidia 下季度财报是否恢复披露新加坡销售——这是判断「算力到底卖给了谁」的最硬指标。如果你在做任何依赖云端大模型 API 的项目，把供应商冗余当成默认前提，别把单点押在一条供给链上。
+你不需要关心八卦，要关心的是：Nvidia 的"不可替代性"叙事第一次出现了治理折价。如果你在做算力成本估算或 Agent 推理预算，别假设 GPU 价格会按原曲线下降——短期供给纪律可能被政治因素打乱。另外把这条当成一个案例：当公司关键人风险与政府关系绑定时，技术判断要让位于政治判断。
 
-📺 [打开原文](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director)
+📺 [打开原文](https://www.eetimes.com/nvidia-board-reinstates-jensen-huang-as-ceo/)
 
 ---
 
 ## 📋 备选阅读
 
-- [Nvidia 被指通过给 AI 初创注资、让其回购自家 GPU 来人为制造稀缺](https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus) —— 与 Huang 复职同一条线，讲的是「循环融资推高 GPU 价格」的指控，是理解 Nvidia 收入结构质疑的关键背景，但本身是旧闻重提。
-  _speckx_
-- [TSMC 遭黑客攻击，已向 SEC 提交声明](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm) —— 半导体供应链安全事件，SEC 8-K 原文可查，但细节披露有限，等后续报道再深看。
-  _gmays_
-- [日本把光刻机装进卡车，用 mobileFab 应对十年半导体工程师荒](https://www.tomshardware.com/tech-industry/semiconductors/japan-puts-chipmaking-labs-inside-trucks-with-mobilefab-trucks-pack-30-cm-lithography-gear-to-tackle-a-10-year-semiconductor-engineer-shortage) —— 车载 30cm 光刻教学平台，是半导体人才短缺的具体解法，对电子信息的你有职业参考价值，但产业影响偏长期。
+- [Nvidia 工程师因 Huang 辞职而离职，现称"我可能动作太快了"](https://www.tomshardware.com/tech-industry/nvidia-engineer-that-quit-in-response-to-jensen-huang-resignation-welcomes-ceo-back-i-may-have-moved-too-quickly-says-robotics-engineer-who-made-viral-post) —— 治理动荡的一线注脚，比官方声明更能说明内部情绪分裂。
+  _Jake Roach_
+- [日本把光刻机装进卡车：mobileFab 应对十年半导体工程师缺口](https://www.tomshardware.com/tech-industry/semiconductors/japan-puts-chipmaking-labs-inside-trucks-with-mobilefab-trucks-pack-30-cm-lithography-gear-to-tackle-a-10-year-semiconductor-engineer-shortage) —— 工程教育的新形态，对电子信息专业的人是直接的行业信号。
   _Bruno Ferreira_
-- [共享 CXL 内存池的软件同步开销可能拖住多机扩展](https://www.tomshardware.com/pc-components/dram/shared-cxl-memory-pools-come-with-steep-software-tax-that-could-stall-multi-server-scaling-ut-arlington-shares-real-world-test-that-measured-four-servers-sharing-the-same-pool-at-sc26) —— UT Arlington 与 Intel 在 SC26 实测四机共享 CXL 池的同步成本，是推理 KV cache 扩展的硬核数据，但偏学术。
+- [共享 CXL 内存池的"软件税"可能拖慢多机扩展](https://www.tomshardware.com/pc-components/dram/shared-cxl-memory-pools-come-with-steep-software-tax-that-could-stall-multi-server-scaling-ut-arlington-shares-real-world-test-that-measured-four-servers-sharing-the-same-pool-at-sc26) —— 四主机实测同步开销，做 KV cache 共享的人该看的具体数字。
   _Shane Downing_
+- [用 vLLM 在两台 DGX 上把 GLM-5.3 跑到 607.8 tok/s](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) —— 有配置有吞吐的推理部署实操，符合你要的工程细节密度。
+  _wondersky_
 
 ---
 

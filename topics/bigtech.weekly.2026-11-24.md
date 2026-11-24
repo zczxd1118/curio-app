@@ -1,44 +1,66 @@
 # Curio · 大厂 AI 动态 · 2026-11-24
 
-> 今日 1 条头条 + 5 条备选
+> 今日 2 条头条 + 5 条备选
 
-_今天全网只有一个真信号：Jensen Huang 被 Nvidia 董事会请回 CEO，距他因丑闻辞职不到两周，Trump 亲自打电话进董事会施压。这件事的产业含义不是八卦——它把「Nvidia 的公司治理、SEC 会计调查、Megaspeed 出口管制、国会听证」四条线拧成一根绳，接下来一周 Nvidia 的每一次表态都会牵动算力供给和 AI 资本叙事。另一条值得单独拎出来的是 Anthropic 发布 Claude Ship，让 Agent 自己 review、修、批准代码——这是把 vibe coding 从「人写 prompt」推进到「Agent 管合并」的一步。_
+_今天最重要的信号只有一个：Nvidia 董事会在 Huang 辞职不到两周后把他请回来了，Trump 亲自打电话进董事会，国会两党在骂，SEC 还在查账。这不是公司治理事件，是 AI 算力供应链的政治定价权问题——短期算力叙事被稳住，但 Nvidia 的信用溢价已经开始被重新计算。另一条线是 Anthropic 的 IPO 定价与 Claude Ship 同日落地，AI 编程的"最后一公里"（代码评审与合并）开始被 Agent 接管。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. Anthropic 发布 Claude Ship：让 Agent 自己 review、修、批准代码变更
+### 2. Anthropic 发布 Claude Ship：让 Agent 自己 review、修复并批准代码合并
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _Sarah Perez_
 
-TechCrunch 报道，Claude Ship 的定位是解决「AI 生成代码堆积后，人工 review 成为新瓶颈」这个问题——Agent 接管常规的审批环节。这跟你正在做的 content-curator 是同一类问题：当产出速度超过人的处理速度，瓶颈就从「生成」转移到「把关」。Anthropic 选择把把关也交给 Agent，是一次明确的产品判断。
+Claude Ship 把 Agent 的职责从"写代码"推到"批准代码"——review、fix、approve 三个环节都交给 Agent，目标是消化 AI 生成代码堆积后的评审瓶颈。这是 Anthropic 在 IPO 前把 Claude Code 从工具变成流程基础设施的一步。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic 于 11 月 23 日正式发布 Claude Ship | 「批准」的权限边界在哪里——Agent 能否直接 merge 到主分支，还是只做建议，官方口径尚不清晰 |
-| 官方定位是让 AI Agent 处理代码变更的 review、修复与批准 | 对多大规模、什么类型的代码库有效，目前没有公开的 benchmark 或客户案例 |
-| 产品动机明确写在报道里：AI 生成代码量上升，人工审批成为瓶颈 | 与 GitHub Copilot 的 code review、Cursor 的 agent 模式如何差异化，需要看实际工作流演示 |
-| 这是 Anthropic 在 Claude Code 之后向「Agent 管工程流程」延伸的一步 | 安全模型：Agent 批准 Agent 写的代码，出错时的责任链怎么划，未见说明 |
+| Claude Ship 由 Anthropic 于 11 月 23 日正式发布 | "Agent 批准合并"在多大程度上可审计、可回滚，官方未给出细节 |
+| 功能覆盖代码评审、自动修复与变更批准三个环节 | 企业是否愿意把 merge 权限交给模型，取决于权限模型设计 |
+| 官方定位是解决 AI 生成代码量激增带来的评审瓶颈 | 对 GitHub Copilot 的 code review 功能构成直接竞争 |
+| 与 Claude Code 同属开发者工具线 | 定价与是否包含在现有 Claude 订阅内尚不明确 |
 
 **📖 主编点评**
 
-这条值得你亲手试一遍，因为它直接对应你项目里「Agent 产出 → 人审核」的那一段。重点观察两件事：它给的 review 意见是否带具体 diff 和理由（而不是「建议改进」这种空话），以及它能不能被约束成「只批准符合你 CLAUDE.md 规范」的变更。如果这两点成立，你的 content-curator 里「人工过一遍」的环节就有机会压缩成「Agent 过一遍 + 你抽查」。
+你的 content-curator 项目正好可以试这条链路：让 Agent 提 PR、自己 review、自己合并，你只做最终抽检。建议先在一个低风险仓库上跑一周，记录 Agent 误批率——这个数字本身就是简历上很硬的一行。同时留意它的权限粒度，如果支持按目录/按文件授权，那才是能上生产的关键。
+
+📺 [打开原文](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/)
+
+---
+
+### 4. Amazon 以 75 亿美元收购 Decart 的 AI 优化技术与团队，为对外卖 Trainium 铺路
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Rebecca Bellan_
+
+Amazon 买下的不是模型公司，是推理优化技术加研究团队，时间点卡在准备对外销售 Trainium 芯片之前。逻辑很清楚：要让客户买自研芯片，得先证明在自己的芯片上跑模型足够便宜。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 交易金额约 75 亿美元，收购对象为 Decart 的 AI 优化技术与研究团队 | 优化技术能否平移到 Trainium 生态，官方未给基准数据 |
+| Amazon 正准备对外销售 Trainium 芯片 | 对外卖芯片意味着 AWS 从云服务商变成芯片供应商，渠道与支持体系是否就绪 |
+| 收购包含技术资产与团队，非整体公司并购 | 75 亿美元相对其战略价值是否偏高 |
+
+**📖 主编点评**
+
+如果你在做推理成本优化（RAG、批处理、KV cache），这条值得跟：Amazon 把"优化技术"单独定价到 75 亿美元，说明推理效率本身已经是可交易的资产。你的项目里如果有具体的 token 成本对比数据，那就是可展示的工程能力。
+
+📺 [打开原文](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/)
 
 ---
 
 ## 📋 备选阅读
 
-- [Gemini 4 Neon 登上 Models Engineering Index 第一](https://git-aarvin.github.io/mei/) —— Google 一周内连发 Gemini 4 多个变体（Neon/Carbon/Hydrogen），Neon 被称「Opus 5.5 竞争者」，但榜单本身权威性待观察。
+- [Gemini 4 Neon 登上 Models Engineering Index 第一](https://git-aarvin.github.io/mei/) —— 新评测榜单一夜之间把 Neon 排到第一，方法论本身比排名更值得看。
   _hn-aarvin_
-- [Amazon 以 75 亿美元收购 Decart 的 AI 优化技术与研究团队](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/) —— Amazon 为卖 Trainium 芯片补推理优化能力，75 亿美元是本周第二大交易，但技术细节披露少。
-  _Rebecca Bellan_
-- [CrowdStrike 以 440 亿美元收购 Zscaler](https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/) —— 安全巨头合并，官方理由是「让客户更好地用 AI Agent」，与你的 Agent 安全话题相关，但属并购新闻。
-  _Zack Whittaker_
-- [Google Search 的 AI Mode 接入 Drive 和 Wallet 做个性化回答](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/) —— 个人数据进 AI 检索的产品化，与 HN 上「Gemini 把个人文件路由给人工标注员」的争议形成对照，值得留意隐私边界。
+- [Google Search 的 AI Mode 接入 Drive 与 Wallet](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/) —— 个人数据接入搜索的边界又推了一步，隐私争议会跟着来。
   _Aisha Malik_
-- [Uber、Nuro、Lucid 在旧金山湾区启动完全无人驾驶 robotaxi 测试](https://www.theverge.com/transportation/1040676/uber-nuro-lucid-driverless-robotaxi-testing-bay-area) —— 去掉安全员是 robotaxi 的关键一步，但目前仅限员工乘坐，规模与数据都还早。
+- [Uber、Nuro、Lucid 启动完全无人 Robotaxi 路测](https://www.theverge.com/transportation/1040676/uber-nuro-lucid-driverless-robotaxi-testing-bay-area) —— 湾区撤掉安全员，是自动驾驶从演示到运营的分界线。
   _Andrew J. Hawkins_
+- [CrowdStrike 以 440 亿美元收购 Zscaler](https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/) —— 安全巨头的合并理由写得很直白：为了让客户能放心用 AI Agent。
+  _Zack Whittaker_
+- [Sierra 半年内估值翻倍至 300 亿美元，F 轮融资 17.5 亿](https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/) —— 客服 Agent 的商业化跑得比多数 Agent 赛道快，值得看它的产品结构。
+  _Ivan Mehta_
 
 ---
 
