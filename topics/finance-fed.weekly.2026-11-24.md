@@ -2,40 +2,40 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今天全网只有一个真正的信号：Nvidia 在 Huang 因丑闻辞职 11 天后，被董事会和 Trump 政府联手请回 CEO 位——这不是公司治理事件，是 AI 算力供应链的政治定价。第二条是 Anthropic 的 Claude Ship 把 code review 和 approve 交给 Agent，AI 编程的瓶颈从写代码挪到了合并代码。其余候选池以教程和促销为主，密度偏低。_
+_今天全网只有一个真信号：Jensen Huang 被 Nvidia 董事会请回 CEO，距他因丑闻辞职不到两周，Trump 亲自打电话进董事会施压。这件事的产业含义不是八卦——它把「Nvidia 的公司治理、SEC 会计调查、Megaspeed 出口管制、国会听证」四条线拧成一根绳，接下来一周 Nvidia 的每一次表态都会牵动算力供给和 AI 资本叙事。另一条值得单独拎出来的是 Anthropic 发布 Claude Ship，让 Agent 自己 review、修、批准代码——这是把 vibe coding 从「人写 prompt」推进到「Agent 管合并」的一步。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. 美联储开始担心 AI Agent 会引发挤兑：Agent 的提款速度远超人类反应时间
+### 4. 巴西税务局把联邦税计算器以 MIT 协议开源到 GitHub
 
-**[金融]** · ⭐⭐⭐⭐ · _pera_
+**[金融]** · ⭐⭐⭐⭐ · _dvaplima_
 
-Gizmodo 报道美联储内部讨论认为，当存款决策由 Agent 自动执行时，一家银行出现负面信号到资金撤离的时间窗口可能从数天压缩到分钟级。这是监管机构第一次把 Agent 当作系统性风险变量而非效率工具来讨论。
+巴西联邦税务局（Receita Federal）在 GitHub 上发布了税改后的第一个开源代码库——联邦税计算器，MIT 协议。HN 上 789 分。政府把核心计算逻辑开源，意味着任何人都能审计「税是怎么算出来的」，这比任何「政务透明」的口号都具体。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 美联储在内部讨论中提出 AI Agent 可能加速银行存款外流 | 是否已有具体的监管草案或压力测试要求，报道未提及 |
-| 核心机制是 Agent 自动执行提款决策，压缩了传统挤兑的时间窗口 | Agent 在零售存款端的实际渗透率仍低，短期风险可能被高估 |
-| 讨论发生在 AI Agent 在金融场景快速铺开的背景下 | 银行是否会主动对 Agent 发起的行为加延迟或人工确认，尚无行业共识 |
-|  | 这类风险的触发条件与 2023 年 SVB 式社交媒体挤兑是否同构，仍待论证 |
+| 巴西联邦税务局官方公告确认这是其首个 GitHub 开源代码库 | 开源的是计算逻辑还是完整申报系统，公告措辞偏向前者，需看仓库实际内容 |
+| 协议为 MIT，允许自由使用、修改、分发 | 是否会被第三方用于生产级税务软件，取决于代码质量与维护承诺，目前未知 |
+| 内容为税改后的联邦税计算器 | 对其他国家税务部门的示范效应是判断，不是事实 |
+| HN 讨论热度 789 分，属当日高热度技术话题 | 税改规则本身仍在演进，代码库能否跟上版本是长期问题 |
 
 **📖 主编点评**
 
-这条对你的价值不在金融，在系统设计：任何让 Agent 自动执行不可逆动作的项目，都该有速率限制和人工确认闸门。你做的 content-curator 如果将来接了自动发布或自动付费，先想清楚"Agent 一分钟内最多能做几次"这个问题。这也是面试里能讲的一个有辨识度的观点。
+这条的价值在方法论：一个政府机构把「规则即代码」开源，等于把可审计性做进了产品。你做 content-curator 时可以借这个思路——把「筛选规则、打分逻辑、去重策略」写成可读的配置文件而不是藏在代码里，将来别人（或三个月后的你）能直接看懂为什么某条被选进头条。这是把个人项目做成「可被审计的工具」而不是「黑箱」的关键一步。
 
-📺 [打开原文](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566)
+📺 [打开原文](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria)
 
 ---
 
 ## 📋 备选阅读
 
-- [Brazil's tax authority open-sources its tax calculator on GitHub under MIT](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria) —— 巴西税务局以 MIT 协议开源税计算器，政府代码开源的一个正面样本，HN 789 分。
-  _dvaplima_
-- [Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87) —— 三大支付与银行机构客户数据泄露，规模待确认，先留意自己有没有相关账户。
+- [Visa、Mastercard、JPMorgan 客户数据被黑客泄露](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87) —— 支付巨头数据泄露，规模待确认，是本周最该关注的安全事件之一，但细节仍在披露中。
   _mikhael_
-- [Oracle files to sell $20B in new stock, bonds to finance AI buildout](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— 200 亿美元增发加发债搞 AI 基建，是"AI 资本开支靠债务撑"这条主线的又一例证。
+- [美联储担心 AI Agent 可能触发银行挤兑](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566) —— 监管视角看 Agent 的群体行为风险，与你的 Agent 构建话题有交集，但报道偏概念推演。
+  _pera_
+- [Oracle 申请发行 200 亿美元新股与债券，为 AI 基建融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 基建融资潮的又一例，与 Anthropic 9000 亿支出承诺同属一条资本链，但发生在 11 月初。
   _smartmic_
 
 ---
