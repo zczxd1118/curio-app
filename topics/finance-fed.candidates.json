@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-23T12:06:41.035369+00:00",
+  "fetched_at": "2026-11-24T13:29:42.453436+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,7 +11,7 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 25,
+    "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 0,
     "HN · inflation": 0,
     "HN · Tesla": 2,
@@ -19,8 +19,25 @@
     "HN · fed": 12
   },
   "subtopics": [],
-  "total": 87,
+  "total": 62,
   "items": [
+    {
+      "id": "rss:https://stratechery.com/2026/the-individual-exception/",
+      "title": "The Individual Exception",
+      "url": "https://stratechery.com/2026/the-individual-exception/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://stratechery.com/feed/",
+        "name": "Ben Thompson",
+        "feed_title": "Stratechery by Ben Thompson"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-24T11:00:00+00:00",
+      "summary": "Jensen Huang has been granted an exception from managerial oversight; in the age of AI, he won't be the last.",
+      "lang": "en"
+    },
     {
       "id": "rss:https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/",
       "title": "Amazon Earnings, The Chip Question, About Agents",
@@ -175,20 +192,20 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
-      "title": "An Interview With Roblox CEO David Baszucki About Aggregating Play",
-      "url": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
+      "id": "rss:https://www.netinterest.co/p/supply-and-demand",
+      "title": "Supply and Demand",
+      "url": "https://www.netinterest.co/p/supply-and-demand",
       "platform": "rss",
       "source": {
         "type": "rss",
-        "id": "https://stratechery.com/feed/",
-        "name": "Ben Thompson",
-        "feed_title": "Stratechery by Ben Thompson"
+        "id": "https://www.netinterest.co/feed",
+        "name": "Marc Rubinstein",
+        "feed_title": "Net Interest"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-12T11:00:00+00:00",
-      "summary": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and make Roblox both an Aggregator and a platform.",
+      "published_at": "2026-11-23T15:38:25+00:00",
+      "summary": "Finding Equilibrium Inside the AI Economy",
       "lang": "en"
     },
     {
@@ -515,448 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.netinterest.co/p/duffys-last-dance",
-      "title": "Duffy’s Last Dance",
-      "url": "https://www.netinterest.co/p/duffys-last-dance",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.netinterest.co/feed",
-        "name": "Marc Rubinstein",
-        "feed_title": "Net Interest"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-06-26T16:40:29+00:00",
-      "summary": "The Battle Over Futures That Never Expire",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.26649",
-      "title": "VerifiQuant: Governance-by-Execution for Financial LLM Workflows",
-      "url": "https://arxiv.org/abs/2611.26649",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Yu-Chi Ko, Mi-Yen Yeh, Shou-De Lin",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.26649v1 Announce Type: new Abstract: Large language models embedded in financial workflows fail most dangerously by emitting confident, well-formatted but wrong numbers with no signal distinguishing them from correct ones. We argue that the central deployment problem is governability: a system must determine when a question supports a numeric answer and when it should instead clarify, intercept, or refuse. We present VerifiQuant, a governance-by-execution framework that packages finan...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.26652",
-      "title": "Distributional Deep Hedging",
-      "url": "https://arxiv.org/abs/2611.26652",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "El-Amine Cherrat, Skander Kazdaghli, Iordanis Kerenidis",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.26652v1 Announce Type: new Abstract: Deep hedging learns a hedging strategy by optimising a risk preference over a neural-network policy. The preference is fixed before training, so each new preference requires a new policy and, in actor-critic methods, a new critic. We propose distributional deep hedging, in which the distribution of the hedging profit and loss is learned through its quantiles and the risk preference is applied afterwards, as a weight on those quantiles. We character...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.26670",
-      "title": "A Solvency II-Based Framework for Pricing Structural Longevity Risk under an Affine Mortality Model",
-      "url": "https://arxiv.org/abs/2611.26670",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Madiha Bouhouche (INSEA), Said Khalil (TREE, INSEA), Fadoua Badaoui (INSEA)",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.26670v1 Announce Type: new Abstract: This paper develops a Solvency II-based pricing framework for structural longevity risk in incomplete longevity markets. The valuation scheme relies on the Cost-of-Capital principle underlying the Risk Margin and combines it with a continuous-time affine mortality model. Mortality dynamics are specified in calendar time, with age-dependent mortality patterns linked to a latent longevity factor driving long-term mortality improvements. The affine st...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.26673",
-      "title": "Error analysis for the numerical approximation of the quantile hedging problem",
-      "url": "https://arxiv.org/abs/2611.26673",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Cyril B\\'en\\'ezet, Cyril Nefzaoui-Blanchard, Sergio Pulido",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.26673v1 Announce Type: new Abstract: We analyse numerical approximations of quantile hedging in complete linear markets with Markovian diffusion dynamics. The problem is formulated as stochastic control for an augmented state $(X,P)$, where the probability martingale $P$ is constrained to $[0,1]$ and controlled through an unbounded volatility coefficient. We combine control truncation with piecewise-constant policy time-stepping (PCPT), stopping controls continuously upon boundary hit...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.26700",
-      "title": "Held-to-Maturity Accounting: Hidden Losses and Systemic Fragility",
-      "url": "https://arxiv.org/abs/2611.26700",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Dongxu Li, Steve Y. Yang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.26700v1 Announce Type: new Abstract: This paper studies how accounting-induced opacity affects systemic risk in the banking system. Motivated by the buildup of unrealized losses during recent monetary tightening episodes, we develop a model in which banks hold correlated interest rate sensitive assets and are connected through an endogenous interbank network. We show that Held-To-Maturity (HTM) accounting amplifies systemic risk by delaying loss recognition, allowing losses to accumul...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.26716",
-      "title": "Are Calibrated Decision Models Calibrated on Markets? Geolocated News, Markov Switching and a System One Model for Nasdaq-100 Allocation",
-      "url": "https://arxiv.org/abs/2611.26716",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Jakub Zaj\\k{a}c, Micha{\\l} Dyrek",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.26716v1 Announce Type: new Abstract: Portfolio allocation is driven by probabilities of losses, not only by forecasts of the direction (up/down) of the market. A decision model such as Jev returns a probability for a yes/no question and has been reported to be well calibrated on a set of benchmarks. However, the model's calibration against realised market outcomes has not been tested. In this study, every Friday we ask whether the Nasdaq-100 will close lower four weeks later and compa...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.26882",
-      "title": "The Rural Margin of Territorial Peace: Within-Municipality Evidence from Colombia",
-      "url": "https://arxiv.org/abs/2611.26882",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Hector Galindo-Silva",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.26882v1 Announce Type: new Abstract: Colombia's peace agreement introduced participatory development programs and congressional constituencies reserved for conflict victims with a rural electorate. I use repeated waves of the Social Capital Barometer and a triple-difference event study to compare changes in rural-urban engagement gaps in municipalities covered by both reforms with those elsewhere. Rural engagement evolved more favorably relative to urban engagement in the covered muni...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.27020",
-      "title": "Trust and Lottery-Related Anomalies",
-      "url": "https://arxiv.org/abs/2611.27020",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Reza Bradrania, Ya Gao",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.27020v1 Announce Type: new Abstract: We examine whether social trust shapes the pricing of lottery-like stocks by influencing investors' beliefs regarding optimistic information associated with extreme future payoffs. We argue that higher social trust reduces investors' skepticism toward optimistic information associated with extreme future payoffs, increasing demand for lottery-type stocks and leading to overpricing and lower subsequent returns. Using a sample of 8,875 firms across 4...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.27210",
-      "title": "The Rise of Agents and the Human Labor Market",
-      "url": "https://arxiv.org/abs/2611.27210",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Nicola Borri, Anton Cheremukhin, Yukun Liu, Aleh Tsyvinski",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.27210v1 Announce Type: new Abstract: We provide the first economy-wide and cross-AI model evidence on the effects of agentic AI on labor demand. We combine proprietary OpenRouter data covering about two quadrillion tokens of realized AI consumption (2 percent of global AI token consumption) across more than 400 AI models, including 1.1 quadrillion agentic tokens, with the full text of 34.8 million U.S. job postings for public firms from Lightcast. We compute our measure of firm-level ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.27274",
-      "title": "Nonlinear Shrinkage for Higher Moments Estimation in Large Portfolios",
-      "url": "https://arxiv.org/abs/2611.27274",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Paul Ruelloux, Christian Bongiorno, Damien Challet",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.27274v1 Announce Type: new Abstract: Portfolio risk is not limited to the variance of returns. The moments of portfolio returns depend directly on the covariance matrix and higher-order co-dependences (coskewness, cokurtosis, etc.). In practice, however, these objects are extremely noisy, especially for large portfolios. Here we introduce filtering methods based on tensor decompositions that extend cross-validated covariance cleaning and the Average Oracle methodology to even-order co...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.27485",
-      "title": "Risk sharing for background risk models with infinite mean",
-      "url": "https://arxiv.org/abs/2611.27485",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Ziting Miao, Yuyu Chen, Han Li",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.27485v1 Announce Type: new Abstract: Risk sharing is usually viewed as beneficial for risk-averse agents facing independent risks with finite means, but this situation can be reversed for infinite-mean losses. In this paper, we explore the effects of risk sharing for positively dependent infinite-mean losses using background risk models. Under both linear and conditional mean risk sharing, we show that risk sharing of infinite-mean losses can increase the risk in the sense of usual st...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.27505",
-      "title": "Accountable AI Delegation in Banking: Identity, Commitment Controls, Decision Evidence and Recovery",
-      "url": "https://arxiv.org/abs/2611.27505",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Walter Kurz, Besnik Alidemi, Marco Schmidt",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.27505v1 Announce Type: new Abstract: An AI-assisted payment can pass assessment and lose release authority before commitment. We specify a banking delegation contract that checks current authority, the shared payment cap and the capacity of eligible instruments to cover losses. It books the new payment and its recovery demands and writes the outcome record in the same atomic transition. A paired example identifies the authorised mandate, applied rule and selection inputs a reviewer ne...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.27616",
-      "title": "Do Econophysics-Inspired Inputs Improve Neural Covariance Forecasting? A Leakage-Free Walk-Forward Study of Intraday DJIA Data",
-      "url": "https://arxiv.org/abs/2611.27616",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Gabriele Ranco",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.27616v1 Announce Type: new Abstract: Tools from econophysics, including Random Matrix Theory (RMT), Tsallis q-Gaussian tails, Hawkes self-excitation and diffusion-inspired regularization, are often proposed as ingredients for financial risk models, but their incremental value over strong contemporary benchmarks remains unclear. We introduce a Physics-Inspired Neural Covariance (PINC) framework for one-day-ahead covariance forecasting using 1-minute data from the 29 Dow Jones Industria...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.27692",
-      "title": "Reconstructing risk preferences from data",
-      "url": "https://arxiv.org/abs/2611.27692",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Anastasis Kratsios, Silvana M. Pesenti, Philipp Zimmermann",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.27692v1 Announce Type: new Abstract: We consider the problem of reconstructing risk preferences from data. Specifically, for a finite dataset consisting of contingent claims and their evaluations, we aim at reconstructing a risk measure that is finite-valued, cash-additive, convex, and Lipschitz continuous. Our first result establishes necessary and sufficient conditions for a dataset to be compatible with a risk measure, that is the evaluations are stemming from a risk measure applie...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.26948",
-      "title": "Bottlenecked: The Capital Cost of Protected DeFi Lending",
-      "url": "https://arxiv.org/abs/2611.26948",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Tarun Chitra, Manvir Schneider, Nagu Thogiti",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.26948v1 Announce Type: cross Abstract: Securing hundreds of billions of dollars in decentralized finance (DeFi) requires both cryptographically secured collateral and economic capital to absorb losses that collateral alone cannot cover. Composability makes both the amount and location of this protection matter: Kelp's nearly \\$300 million April 2026 bridge exploit showed how an attacker could borrow against stolen assets across lending markets. We study how to allocate junior capital ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2505.14548",
-      "title": "Keeping in Place After the Storm-Emergency Assistance and Evictions",
-      "url": "https://arxiv.org/abs/2505.14548",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Bilal Islah, Ahmed Zoulati",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2505.14548v4 Announce Type: replace Abstract: We offer evidence that federal emergency assistance (FEMA) in the days following natural disasters mitigate evictions in comparison to similar emergency scenarios where FEMA aid is not provided. We find an approximate 10.9% increase in overall evictions after hurricane natural disaster events driven in large part by areas in close proximity of the hurricane path that do not receive FEMA rental assistance. Furthermore, we also show that FEMA aid...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2507.08244",
-      "title": "Advancing AI Capabilities and Evolving Labor Outcomes",
-      "url": "https://arxiv.org/abs/2507.08244",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Jacob Dominski, Tyler Boes, Yong Suk Lee",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2507.08244v4 Announce Type: replace Abstract: This paper examines how labor market outcomes changed across occupations as AI capabilities advanced from chatbots to reasoning models and AI agents. We construct an occupational AI exposure score for each capability stage and relate its change to the Current Population Survey through June 2026. In aggregate, occupations whose exposure rose more did not lose employment or see higher unemployment over three years. However, the number of workers ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2603.14024",
-      "title": "Capturing cash non-additivity and horizon risk via BSDEs and generalized shortfall",
-      "url": "https://arxiv.org/abs/2603.14024",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Giulia Di Nunno, Emanuela Rosazza Gianin",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2603.14024v2 Announce Type: replace Abstract: Whenever dealing with horizons of different times scales, risk evaluation of losses may incur in both interest rate uncertainty and horizon risk as introduced in [11]. With the goal to capture both effects, we work with cash subadditive fully-dynamic risk measures. In this work we consider such measures obtained via the BSDE and the shortfall approaches. We stress that we consider BSDEs both with Lipschitz and quadratic drivers. We then introdu...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2607.05291",
-      "title": "Forecasting Realized Volatility with Time Series Foundation Models: A Comparison with Econometric Benchmarks",
-      "url": "https://arxiv.org/abs/2607.05291",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Alessio Brini",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2607.05291v2 Announce Type: replace Abstract: Time series foundation models (TSFMs) are pretrained on large collections of series and forecast a new series without being trained on it. We compare nine TSFMs, used in this zero-shot setting, with eight econometric models, including the Heterogeneous Autoregressive (HAR) family. We forecast the realized volatility of 50 assets in equities, currencies and futures from the VOLARE dataset one, five and 22 days ahead, and compare the forecasts wi...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.14164",
-      "title": "Science under Threat? A Natural Experiment in Economics",
-      "url": "https://arxiv.org/abs/2608.14164",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Dominic Rohner, Oliver Vanden Eynde, Philine Widmer",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2608.14164v2 Announce Type: replace Abstract: Academic freedom is under strain worldwide. To study how scholars respond to (perceived) political pressure, we exploit a natural experiment in the United States: the publication in early 2025 of a \"stop list\" of words flagged by the government. We find that economists at universities relying more on federal funding reduce gender-, race-, and environment-related content with flagged words relative to other US and UK economists. Regarding mechan...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.20242",
-      "title": "Markets for Compute and Inference: Structure, Financing, and Risk Transfer",
-      "url": "https://arxiv.org/abs/2611.20242",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Dr Gabriel Borrageiro",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.20242v3 Announce Type: replace Abstract: Capacity to run large language models is rented by the accelerator-hour, and their output is sold by the million tokens. Both goods now have published price indices, an over-the-counter forward has traded on one, compute futures are listed offshore, and CME and ICE have specified futures on rental indices that await the United States regulator. We ask what in these two markets can be hedged, by whom, and at what price. Three findings stand out....",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.23354",
-      "title": "AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services",
-      "url": "https://arxiv.org/abs/2611.23354",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Liu Zhang, Mark Esposito, Isabel Yang",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.23354v2 Announce Type: replace Abstract: Artificial intelligence makes specialized knowledge cheaper to use, but its effects on professional-service firms depend on how clients reallocate work and how suppliers respond. We develop a framework linking individual self-provision, enterprise make-or-buy decisions, and pricing by specialist firms. As AI improves lower-priced alternatives, clients may reallocate work across outside providers without bringing it in-house. If the departing wo...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2510.16003",
-      "title": "Rethinking Arrow--Debreu: A New Framework for Exchange",
-      "url": "https://arxiv.org/abs/2510.16003",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Nizar Riane",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2510.16003v3 Announce Type: replace-cross Abstract: This paper revisits the Arrow--Debreu general equilibrium framework through the lens of effective trade, emphasizing the distinction between theoretical and realizable market interactions. We develop the Effective Trade Model (ETM), where transactions arise from bilateral feasibility rather than aggregate supply and demand desires. Within this framework, we establish the main properties of the price-demand correspondence and prove the exi...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.14325",
-      "title": "Point-in-Time Encoders for Earnings Calls",
-      "url": "https://arxiv.org/abs/2611.14325",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Alessio Brini",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.14325v2 Announce Type: replace-cross Abstract: Text encoders turn earnings calls into vectors for search, for language models that answer from retrieved passages, and for forecasting models. A live retriever can use an encoder trained once on all available text, as finance retrievers are, but a backtest needs an encoder that read no text written after the date of each vector. To address this look-ahead bias, from 412,248 calls we train vintages under four pretraining recipes, with yea...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.18531",
-      "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
-      "url": "https://arxiv.org/abs/2611.18531",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Thomas Brennan, Andrew W. Lo, Chaoyi Zhao",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T05:00:00+00:00",
-      "summary": "arXiv:2611.18531v2 Announce Type: replace-cross Abstract: Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices between them, and whether experience can make those choices reflect human judgments and withstand subsequent pressures. In our model, copies of an agent face a common uncertain reward state, and only those taking the rewarded action reproduce. ...",
-      "lang": "en"
-    },
-    {
       "id": "hn:50594937",
       "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
       "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
@@ -968,7 +543,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50594937"
       },
       "duration_sec": null,
-      "views": 32,
+      "views": 33,
       "comments": 8,
       "published_at": "2026-11-22T00:14:05+00:00",
       "summary": "",
@@ -1025,7 +600,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50525658"
       },
       "duration_sec": null,
-      "views": 151,
+      "views": 152,
       "comments": 64,
       "published_at": "2026-11-17T00:23:21+00:00",
       "summary": "",
@@ -1044,8 +619,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50562754"
       },
       "duration_sec": null,
-      "views": 1143,
-      "comments": 2336,
+      "views": 1145,
+      "comments": 2343,
       "published_at": "2026-11-19T17:02:40+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -1120,7 +695,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50568082"
       },
       "duration_sec": null,
-      "views": 197,
+      "views": 198,
       "comments": 50,
       "published_at": "2026-11-19T23:32:11+00:00",
       "summary": "",
@@ -1291,8 +866,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50605699"
       },
       "duration_sec": null,
-      "views": 51,
-      "comments": 59,
+      "views": 58,
+      "comments": 60,
       "published_at": "2026-11-23T00:23:37+00:00",
       "summary": "",
       "matched_keyword": "finance",
@@ -1367,8 +942,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50602847"
       },
       "duration_sec": null,
-      "views": 123,
-      "comments": 128,
+      "views": 126,
+      "comments": 130,
       "published_at": "2026-11-22T19:10:38+00:00",
       "summary": "",
       "matched_keyword": "fed",
@@ -1519,8 +1094,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50532613"
       },
       "duration_sec": null,
-      "views": 787,
-      "comments": 264,
+      "views": 789,
+      "comments": 265,
       "published_at": "2026-11-17T15:22:57+00:00",
       "summary": "",
       "matched_keyword": "fed",
@@ -1557,7 +1132,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50543108"
       },
       "duration_sec": null,
-      "views": 36,
+      "views": 37,
       "comments": 35,
       "published_at": "2026-11-18T07:51:58+00:00",
       "summary": "",
