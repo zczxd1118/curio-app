@@ -2,23 +2,23 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-24T13:29:34.126419+00:00",
+  "fetched_at": "2026-11-25T12:28:10.936586+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 13,
-    "HN · IPO": 28,
-    "HN · earnings": 2,
+    "HN · stock market": 16,
+    "HN · IPO": 29,
+    "HN · earnings": 3,
     "HN · Federal Reserve": 0,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 60,
+  "total": 63,
   "items": [
     {
       "id": "hn:50556287",
@@ -32,9 +32,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50556287"
       },
       "duration_sec": null,
-      "views": 408,
+      "views": 409,
       "comments": 189,
       "published_at": "2026-11-19T05:09:11+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50626861",
+      "title": "Who in Washington owns and trades Nvidia stock",
+      "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50626861",
+        "name": "hubraumhugo",
+        "hn_url": "https://news.ycombinator.com/item?id=50626861"
+      },
+      "duration_sec": null,
+      "views": 286,
+      "comments": 166,
+      "published_at": "2026-11-24T11:51:05+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -78,20 +97,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50626861",
-      "title": "Who in Washington owns and trades Nvidia stock",
-      "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
+      "id": "hn:50635706",
+      "title": "Anthropic CEO Dario Amodei and Sister Daniela Sold $561M in Stock During IPO",
+      "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/anthropic-ceo-dario-amodei-sold-280-million-in-shares-as-part-of-record-ipo/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50626861",
-        "name": "hubraumhugo",
-        "hn_url": "https://news.ycombinator.com/item?id=50626861"
+        "id": "50635706",
+        "name": "Betelbuddy",
+        "hn_url": "https://news.ycombinator.com/item?id=50635706"
       },
       "duration_sec": null,
-      "views": 65,
-      "comments": 25,
-      "published_at": "2026-11-24T11:51:05+00:00",
+      "views": 47,
+      "comments": 15,
+      "published_at": "2026-11-24T22:27:19+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -147,7 +166,7 @@
       },
       "duration_sec": null,
       "views": 530,
-      "comments": 936,
+      "comments": 938,
       "published_at": "2026-11-20T13:29:59+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -165,9 +184,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50583254"
       },
       "duration_sec": null,
-      "views": 133,
+      "views": 134,
       "comments": 2,
       "published_at": "2026-11-20T22:29:06+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50628932",
+      "title": "Anthropic is below its IPO price",
+      "url": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50628932",
+        "name": "novaRom",
+        "hn_url": "https://news.ycombinator.com/item?id=50628932"
+      },
+      "duration_sec": null,
+      "views": 129,
+      "comments": 3,
+      "published_at": "2026-11-24T14:41:15+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -184,7 +222,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50582280"
       },
       "duration_sec": null,
-      "views": 66,
+      "views": 67,
       "comments": 5,
       "published_at": "2026-11-20T21:18:46+00:00",
       "summary": "",
@@ -203,7 +241,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50617640"
       },
       "duration_sec": null,
-      "views": 56,
+      "views": 59,
       "comments": 7,
       "published_at": "2026-11-23T19:25:21+00:00",
       "summary": "",
@@ -241,9 +279,28 @@
         "hn_url": "https://news.ycombinator.com/item?id=50621127"
       },
       "duration_sec": null,
-      "views": 32,
-      "comments": 6,
+      "views": 33,
+      "comments": 7,
       "published_at": "2026-11-23T23:36:26+00:00",
+      "summary": "",
+      "matched_keyword": "stock",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50634815",
+      "title": "Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50634815",
+        "name": "petethomas",
+        "hn_url": "https://news.ycombinator.com/item?id=50634815"
+      },
+      "duration_sec": null,
+      "views": 28,
+      "comments": 2,
+      "published_at": "2026-11-24T21:14:06+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -306,6 +363,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50627836",
+      "title": "Anthropic breaks below $83 IPO price",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50627836",
+        "name": "Betelbuddy",
+        "hn_url": "https://news.ycombinator.com/item?id=50627836"
+      },
+      "duration_sec": null,
+      "views": 405,
+      "comments": 770,
+      "published_at": "2026-11-24T13:23:47+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50307219",
       "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
       "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
@@ -355,8 +431,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50620721"
       },
       "duration_sec": null,
-      "views": 127,
-      "comments": 14,
+      "views": 145,
+      "comments": 19,
       "published_at": "2026-11-23T23:03:13+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -572,6 +648,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50629413",
+      "title": "Anthropic falls below $83 IPO price in Swift reversal after record listing",
+      "url": "https://www.reuters.com/business/anthropic-breaks-below-83-ipo-price-debut-rally-unravels-2026-11-24/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50629413",
+        "name": "thm",
+        "hn_url": "https://news.ycombinator.com/item?id=50629413"
+      },
+      "duration_sec": null,
+      "views": 23,
+      "comments": 1,
+      "published_at": "2026-11-24T15:15:50+00:00",
+      "summary": "",
+      "matched_keyword": "IPO",
+      "lang": "en"
+    },
+    {
       "id": "hn:50553581",
       "title": "Anthropic reportedly prices its IPO at $83 per share, valuing at $1.5T",
       "url": "https://apnews.com/article/anthropic-ipo-pricing-70b660ddf900d90bbf484ecdf1fb441c",
@@ -586,25 +681,6 @@
       "views": 17,
       "comments": 27,
       "published_at": "2026-11-18T23:00:26+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50445463",
-      "title": "Anthropic Targets $1.4T Valuation in IPO",
-      "url": "https://www.bloomberg.com/news/videos/2026-11-10/anthropic-targets-1-4-trillion-valuation-in-ipo-video",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50445463",
-        "name": "rndsignals",
-        "hn_url": "https://news.ycombinator.com/item?id=50445463"
-      },
-      "duration_sec": null,
-      "views": 16,
-      "comments": 2,
-      "published_at": "2026-11-10T19:56:11+00:00",
       "summary": "",
       "matched_keyword": "IPO",
       "lang": "en"
@@ -705,44 +781,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50326281",
-      "title": "Ant: Can unprecedented revenue growth outrun irresponsibly large investment",
-      "url": "https://leonlins.com/writing/anthropic_ipo",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50326281",
-        "name": "avoidboringppl",
-        "hn_url": "https://news.ycombinator.com/item?id=50326281"
-      },
-      "duration_sec": null,
-      "views": 16,
-      "comments": 3,
-      "published_at": "2026-11-01T14:56:13+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50323575",
-      "title": "We're Living in the Age of the Imperial CEO",
-      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-dual-class-stock-founder-control-4c43a56d",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50323575",
-        "name": "pretext",
-        "hn_url": "https://news.ycombinator.com/item?id=50323575"
-      },
-      "duration_sec": null,
-      "views": 16,
-      "comments": 0,
-      "published_at": "2026-11-01T08:09:48+00:00",
-      "summary": "",
-      "matched_keyword": "IPO",
-      "lang": "en"
-    },
-    {
       "id": "hn:50538942",
       "title": "Nvidia Chair Harvey Jones says board doesn't intend to reinstate Huang as CEO",
       "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
@@ -776,6 +814,25 @@
       "views": 24,
       "comments": 2,
       "published_at": "2026-11-12T05:31:52+00:00",
+      "summary": "",
+      "matched_keyword": "earnings",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50542361",
+      "title": "Interesting Learnings Working for a Startup",
+      "url": "https://news.ycombinator.com/item?id=50542361",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50542361",
+        "name": "Jessiejia11",
+        "hn_url": "https://news.ycombinator.com/item?id=50542361"
+      },
+      "duration_sec": null,
+      "views": 22,
+      "comments": 11,
+      "published_at": "2026-11-18T05:52:37+00:00",
       "summary": "",
       "matched_keyword": "earnings",
       "lang": "en"
