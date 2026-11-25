@@ -1,250 +1,247 @@
 {
   "date": "2026-11-25",
-  "intro": "今天最重要的信号有两个：一是 Nvidia 董事会把 Jensen Huang 请回来了，从辞职到复职只隔一周，但国会、SEC 调查、Polymarket 内幕下注全在发酵，这家公司治理的可信度被打了个洞；二是 Anthropic IPO 跌破 83 美元发行价，承销商稳定盘也撤了，AI 一级市场估值开始被公开市场重新定价。这两件事叠在一起，说明 AI 叙事正在从「无限乐观」切换到「要交财报」。",
+  "intro": "今天真正的大新闻只有一条：Nvidia 董事会在一周内把黄仁勋赶下台又请回来，Trump 被指直接介入，国会与 SEC 同时开火——这不是人事八卦，而是 AI 算力供应链治理结构的一次压力测试。另一条值得盯的是 Anthropic 跌破 83 美元 IPO 发行价、护盘仓位已平，AI 一级市场估值开始被二级市场重新定价。",
   "headlines": [
     {
       "rank": 1,
       "domain": "AI 算力 / 半导体",
-      "id": "rss:https://www.eetimes.com/nvidia-board-reinstates-jensen-huang-as-ceo/",
-      "url": "https://www.eetimes.com/nvidia-board-reinstates-jensen-huang-as-ceo/",
-      "source": "Sally Ward-Foxton / EE Times",
+      "id": "hn:50611588",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "source": "alanwong",
       "stars": 5,
-      "title": "Nvidia 董事会一周内把 Jensen Huang 请回 CEO 位，但 SEC 调查与国会质疑才刚开始",
-      "lead": "11 月 12 日 Huang 因第二段办公室恋情报道辞职，11 月 23 日董事会宣布复职，中间只隔了 11 天。EE Times 的判断是「一周之后回到 business as usual」，但同期 SEC 正在查潜在会计问题，国会公开骂这是「character failure」，Polymarket 上还有两个可疑账户靠复职赚了 34 万美元。复职本身不是终点，是治理问题被摊到台面上的起点。",
+      "title": "Nvidia 董事会一周内把黄仁勋赶下台又请回：Trump 被指介入，国会与 SEC 同时开火",
+      "lead": "11 月 12 日黄仁勋因第二段办公室恋情报道辞职，11 月 23 日董事会宣布恢复其总裁、CEO 与董事职务，官方新闻稿只用了两段话。同期 NYT 称 Trump 直接推动复职，CNBC 报道国会两党公开批评，SEC 正在核查会计问题。这不是治理小插曲——全球最关键的 AI 算力供应商在一周内失去了又找回了唯一决策人。",
       "confirmed": [
-        "11 月 12 日 Huang 辞去 Nvidia CEO 及董事职务，Reuters 与 BBC 均有报道",
-        "11 月 23 日 Nvidia 董事会宣布复职，官方新闻稿与 CNBC 同步确认",
-        "SEC 对 Nvidia 的调查已扩展到潜在会计问题（Marketscreener 11 月 20 日）",
-        "两名 Nvidia 董事在丑闻爆发前数周合计抛售近 10 亿美元股票",
-        "Nvidia 已停止单独披露新加坡地区销售额，同期总收入披露为 1040 亿美元"
+        "11 月 12 日黄仁勋辞去 Nvidia CEO 及董事职务，Reuters 与 BBC 均实时报道",
+        "11 月 23 日 Nvidia 官方新闻稿宣布董事会恢复其总裁、CEO、董事三重身份",
+        "NYT 报道 Trump 直接指示推动复职；CNBC 报道国会称此举为「character failure」",
+        "SEC 对 Nvidia 的调查已扩展到潜在会计问题，Reuters 11 月 20 日发稿",
+        "Nvidia 已停止单独披露新加坡地区销售额，同期营收口径达 1040 亿美元",
+        "黄仁勋在复职后首次全员会上向员工道歉，称自己在接受心理治疗，并否认获得政府特殊待遇"
       ],
       "judgment": [
-        "复职是否意味着董事会独立性彻底失效，还是临时止血后仍会启动正式继任流程",
-        "SEC 会计调查会不会升级为正式执法行动，目前只有「sources say」级别信源",
-        "Trump 政府被指介入复职（NYT 报道），但 Huang 在全员会上否认获得特殊待遇",
-        "Polymarket 可疑账户是否涉及内幕交易，尚无监管机构立案",
-        "Megaspeed 被商务部列入出口禁令，是否牵出 Nvidia 渠道合规问题仍不明朗"
+        "董事会独立性是否已被实质性击穿——Reuters 引述批评者称「reversal raises doubts about independence」，但尚无董事辞职",
+        "Trump 介入的具体形式（电话、私下会面还是公开施压）目前只有 NYT 单一信源",
+        "SEC 会计问题调查是否会升级为正式执法行动，时间表未知",
+        "Megaspeed 出口禁令与新加坡销售不披露之间是否存在因果关系，官方未回应",
+        "黄仁勋明确表示不设继任计划，下一次治理危机没有制度性缓冲"
       ],
-      "implication": "你不需要关心 Huang 的私生活，但需要关心一件事：Nvidia 的治理折价会不会传导到 GPU 供货节奏和定价。如果你在做需要长期算力预算的项目，现在应该假设 2027 年 GPU 采购合同的不确定性上升，别把架构设计绑死在单一供应商的供货承诺上。"
+      "implication": "你不需要关心八卦，但需要关心一件事：Nvidia 的供货节奏、定价策略和出口合规现在都挂在一个刚经历治理震荡的人身上。如果你在做依赖 GPU 的项目或推理成本测算，把「政策/治理风险」当成一个显式变量写进假设，而不是默认算力价格线性下降。"
     },
     {
       "rank": 2,
       "domain": "股票",
       "id": "hn:50629413",
       "url": "https://www.reuters.com/business/anthropic-breaks-below-83-ipo-price-debut-rally-unravels-2026-11-24/",
-      "source": "Reuters",
+      "source": "thm",
       "stars": 5,
-      "title": "Anthropic 跌破 83 美元 IPO 发行价，承销商稳定盘已撤，AI 一级市场估值开始被公开市场重定价",
-      "lead": "Anthropic 以 1.5 万亿美元估值、每股 83 美元上市，首日冲高后迅速回落，11 月 24 日正式跌破发行价。更关键的是 Reuters 披露承销商已经关闭了原本用于稳定股价的仓位——也就是说，后面没有托底了。TechCrunch 直接把这称为「对 AI 创业公司的 worrisome sign」。",
+      "title": "Anthropic 跌破 83 美元 IPO 发行价，护盘仓位已平：AI 一级市场估值开始被二级市场重定价",
+      "lead": "Anthropic 以 83 美元/股、1.5 万亿美元估值完成史上最大 IPO，首日冲高后迅速回落，11 月 24 日正式跌破发行价。更关键的是 Reuters 披露承销银行的稳定股价仓位已经关闭——托底的手撤了。同一周 Nasdaq 抹平 2026 年全部涨幅，Nvidia 与 Anthropic 同步下挫。",
       "confirmed": [
-        "IPO 定价 83 美元/股，对应约 1.5 万亿美元估值（AP、HN 多条交叉确认）",
-        "11 月 24 日股价跌破 83 美元发行价，Reuters 首发",
-        "承销商已关闭用于稳定股价的仓位（Reuters 11 月 20 日报道）",
+        "Anthropic IPO 定价 83 美元/股，对应约 1.5 万亿美元估值，AP 与 HN 均有记录",
+        "11 月 24 日股价跌破 83 美元发行价，Reuters 标题为「debut rally unravels」",
+        "承销银行用于稳定股价的仓位已关闭，Reuters 11 月 20 日报道",
         "IPO 文件披露季度人力成本 17 亿美元，人均月成本约 10.7 万美元",
-        "IPO 前信用评级机构给出高「垃圾级」评级预期，Blackstone 公开质疑其投资级前景"
+        "IPO 前信用评级机构给出高收益级（垃圾级）评级预期，Blackstone 公开质疑投资级可能",
+        "Nasdaq 11 月 19-20 日抹平 2026 年全部涨幅"
       ],
       "judgment": [
-        "跌破发行价是短期流动性问题还是估值中枢下移的开始，需要看未来两周成交量",
-        "9000 亿美元 AI 支出承诺与 1.5 万亿估值之间的缺口，市场是否已经开始用 DCF 而不是叙事来定价",
-        "Michael Burry、Gary Marcus 等公开唱空是否会影响后续 AI 公司 IPO 窗口",
-        "承销商撤稳定盘是否意味着投行内部对估值本身失去信心",
-        "Amodei「十年治愈癌症」的 roadshow 话术被医生群体反驳，是否损害机构投资者信任"
+        "跌破发行价是短期流动性事件还是估值中枢下移，需要看未来 2-3 周成交量与做空比例",
+        "1.5 万亿估值对应的收入模型是否可持续，公开文件未给出清晰路径",
+        "「AI 资本开支 9000 亿美元承诺」与当前收入之间的缺口如何填补，尚无答案",
+        "护盘仓位关闭后是否有第二批承销商介入，未知",
+        "对下游 AI 创业公司融资的传导速度——通常滞后 1-2 个季度"
       ],
-      "implication": "这是你判断「AI 泡沫到什么阶段」最直接的一个读数。如果你在考虑毕业后进 AI 公司，注意一个细节：Anthropic 人均月成本 10.7 万美元意味着它必须维持极高毛利才能撑住估值，这类公司的招聘会更偏向能直接产生产品收入的人，而不是纯研究岗。简历上把 content-curator 这类「能跑起来、有真实用户」的项目讲清楚，比多写两篇 paper 有用。"
+      "implication": "如果你在考虑把 side project 做成公司，这条是今天最该读的：头部玩家在二级市场都被重新定价，意味着 2027 年早期融资会更看重单位经济而不是叙事。反过来说，对个人工具类项目是好事——你不需要融资也能跑通，这恰好是你的结构性优势。"
     },
     {
       "rank": 3,
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-      "source": "Rebecca Bellan / TechCrunch",
+      "id": "hn:50552424",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "source": "yigitdemirag",
       "stars": 4,
-      "title": "新 benchmark 显示最强 AI Agent 连日常任务都做不可靠，还会引入新问题",
-      "lead": "TechCrunch 报道了一个针对个人 AI 助手的新 benchmark，结论是即使最先进的模型，在完成日常任务时也无法稳定、安全地交付，甚至会引入原本不存在的新问题。这条对你做 content-curator 有直接参考价值——它说明 Agent 的失败模式不在「能不能做」，而在「做的时候会不会搞出新麻烦」。",
+      "title": "Gemini 4 Neon 发布并登顶 Models Engineering Index，被指对标 Opus 5.5",
+      "lead": "Google 在 11 月 18 日发布 Gemini 4 Neon，三天后登上第三方 Models Engineering Index 榜首，独立博客 micjm.com 直接把它称为「Opus 5.5 的竞争者」。这是 Google 在两个月内发布的第四个 Gemini 4 变体（Carbon、Hydrogen、Neon，加上 Genie 4），命名体系已经让外部难以追踪。",
       "confirmed": [
-        "新 benchmark 专门评测 AI Agent 在日常生活任务上的完成率与安全性",
-        "结论是当前最强模型也无法可靠完成日常任务",
-        "评测同时记录了 Agent 在执行过程中引入的新问题（side effects）",
-        "报道时间 11 月 24 日，与 Walmart 接入 Meta Muse、Meta 把 Muse 塞进 Instagram DM 同期"
+        "Gemini 4 Neon 于 11 月 18 日发布，HN 1071 分",
+        "11 月 19 日登上 Models Engineering Index 第一，作者为第三方 git-aarvin",
+        "Gemini 4 Carbon 此前于 10 月 28 日发布，11 月 10 日正式可用，曾登顶 Artificial Analysis Intelligence Index v5",
+        "Gemini 4 Hydrogen 于 11 月 12 日发布，同步上线 Google Antigravity 平台",
+        "Genie 4 世界模拟模型于 10 月 27 日发布，11 月 18 日开放使用"
       ],
       "judgment": [
-        "benchmark 的具体任务集与评分方法未在报道中完整披露，复现性待验证",
-        "「引入新问题」的严重程度分级不明，是数据污染还是真实世界副作用",
-        "是否会被 OpenAI / Anthropic / Google 引用为下一代模型的优化目标",
-        "个人助手场景的失败率是否显著高于编码场景，报道未做对比"
+        "Models Engineering Index 是个人维护的第三方榜单，权重与方法论未公开，不能等同于行业共识",
+        "「对标 Opus 5.5」目前只有一篇独立博客的判断，缺少同任务对比数据",
+        "四个变体的定位差异（Carbon/Hydrogen/Neon）官方文档尚未给出清晰矩阵",
+        "Neon 在 Agent 长任务上的实际稳定性没有公开 benchmark",
+        "定价与速率限制未在发布博客中明确"
       ],
-      "implication": "这条应该直接改变你 content-curator 的设计思路：不要只测「Agent 能不能选出好稿」，要专门测「Agent 会不会把不该推的稿推出去、会不会重复推、会不会在失败时静默跳过某个域」。给你的 Agent 加一个 side-effect 检查层（比如推送前的 domain 覆盖断言），比再调一轮 prompt 更能提升可靠性。"
+      "implication": "你的 content-curator 如果要接多模型路由，现在必须处理「同一家族四个变体」的选择问题。建议别追榜单，直接用你自己的真实任务（比如一次完整的选题+摘要流水线）跑 A/B，把 token 成本和一次通过率记下来——这比任何第三方 index 都可靠。"
     },
     {
       "rank": 4,
       "domain": "大厂 AI 动态",
-      "id": "rss:https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-silicon-gap-with-nvidia/",
-      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-silicon-gap-with-nvidia/",
-      "source": "Anna Heim / TechCrunch",
+      "id": "rss:https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "source": "Rebecca Bellan",
       "stars": 4,
-      "title": "Amazon 以 75 亿美元收购 Decart，赌软件能缩小与 Nvidia 的芯片差距",
-      "lead": "Amazon 收购 Decart，报道价 75 亿美元，目的是提升自家 Trainium 芯片的效率。TechCrunch 的框架很清楚：这不是买模型，是买「用软件榨干自研硅片」的能力。同期 Google DeepMind 用 AlphaProof Code 形式化验证了 Signal 的加密协议，两件事指向同一个方向——算力竞争正在从硬件转向软硬协同。",
+      "title": "新 benchmark 显示最强 AI Agent 在日常任务上仍不可靠，且会引入新问题",
+      "lead": "TechCrunch 报道了一个针对个人助理场景的新 benchmark，结论是即便最先进的模型也难以可靠、安全地完成日常任务，并且在失败时会引入新的风险。这条和你的项目直接相关——你做的是每天自动跑一遍的 Agent 流水线，可靠性比能力上限更重要。",
       "confirmed": [
-        "Amazon 收购 Decart，报道价 75 亿美元（TechCrunch）",
-        "收购目标明确为提升 Trainium 芯片效率",
-        "Google DeepMind 的 AlphaProof Code 完成了 Signal 加密协议的数学证明（Tom's Hardware 11 月 25 日）",
-        "同期 Oracle 发行 200 亿美元股票与债券为 AI 基建融资"
+        "新 benchmark 聚焦个人 AI 助理的日常任务完成率与安全性",
+        "结论是顶级模型在可靠性上仍有明显缺口，失败时会引入新问题",
+        "报道时间为 11 月 24 日，作者 Rebecca Bellan",
+        "同期 Walmart 把黑五促销接入 Meta 的 AI agent Muse，说明消费级 Agent 已进入真实交易场景"
       ],
       "judgment": [
-        "75 亿美元价格是否属实，TechCrunch 用的是 reported，未见双方官方确认",
-        "Decart 的软件优化能否实质缩小与 Nvidia 的代际差距，还是只是营销叙事",
-        "Trainium 的实际客户采用率与 Nvidia 的差距，报道未给数字",
-        "AlphaProof Code 的形式化验证能否推广到通用软件正确性证明，目前只看到一个案例"
+        "benchmark 的具体任务集、评分口径与开源情况报道未披露，无法复现",
+        "「引入新问题」的具体类型（越权操作、错误下单还是隐私泄露）未细分",
+        "样本规模与模型版本未公开，结论的统计强度存疑",
+        "对长周期、多步骤任务的覆盖程度未知"
       ],
-      "implication": "如果你以后想做推理优化方向，这条给了你一个明确的技能坐标：软硬协同（编译器、算子融合、量化）比纯算法调参更值钱。你电子信息工程的背景在这里是优势——懂一点硬件约束再写 CUDA/Triton，比纯 CS 出身的人更容易进这类团队。"
+      "implication": "这条应该直接改变你的工程决策：给 content-curator 加一层「失败可见」——每次运行输出结构化日志（选了哪些候选、为什么跳过、哪一步降级），而不是只给最终 JSON。Agent 不可靠是常态，可观测性才是你的护城河。"
     },
     {
       "rank": 5,
       "domain": "AI",
       "id": "bvid:BV1h3W76wEem",
       "url": "http://www.bilibili.com/video/av117580048108571",
-      "source": "技术爬爬虾 / Bilibili",
+      "source": "技术爬爬虾",
       "stars": 4,
-      "title": "Claude 桌面端把 Code、Design、Cowork 收进同一个客户端，配 Opus 5.5 已成完整 Agent 形态",
-      "lead": "技术爬爬虾这条 11 月 8 日的视频拆解了 Claude Desktop 的最新形态：Claude Code 从命令行工具进化成桌面客户端的一部分，和 Claude Design、Claude Cowork 合并到同一个 App，搭配 Opus 5.5。这是 Claude Code 产品形态的一次结构性变化，不是功能更新。",
+      "title": "Claude 桌面端把 Code、Design、Cowork 收进同一客户端，Claude Code 从命令行进化成 GUI 完全体",
+      "lead": "11 月 8 日的这条视频拆解了 Claude Desktop 的一轮大更新：Claude Code 的编程能力、Claude Design 的设计能力、Claude Cowork 的办公能力被合并进同一个桌面客户端，配合 Opus 5.5。对重度 Agent 用户来说，这意味着「终端 + 配置文件」的工作流正在被 GUI 收编。",
       "confirmed": [
         "Claude Desktop 已整合 Claude Code、Claude Design、Claude Cowork 三项能力",
-        "Claude Code 从纯命令行形态扩展为桌面客户端形态",
-        "视频演示基于 Opus 5.5 模型",
-        "发布时间 11 月 8 日，属于近三周内的产品形态变化"
+        "Claude Code 从纯命令行工具扩展为桌面客户端形态",
+        "视频发布于 11 月 8 日，时长与内容为保姆级全流程演示",
+        "同期 B 站出现多条 Claude Code 桌面版配置第三方 API、汉化、接入 DeepSeek 的教程"
       ],
       "judgment": [
-        "桌面端整合是否意味着 Anthropic 要放弃 CLI 优先的开发者工作流，还是双轨并行",
-        "Cowork 的具体能力边界（能操作哪些本地应用、权限模型如何）视频未完整覆盖",
-        "Opus 5.5 在 Agent 长任务上的稳定性，缺少可复现的 benchmark 数据",
-        "第三方 API 接入（如接 DeepSeek）的合规风险，Anthropic 随时可能收紧"
+        "桌面端是否会削弱 CLI 的可脚本化能力（hooks、CI 集成）尚不明确",
+        "第三方 API 接入的稳定性取决于 Anthropic 的政策，教程作者自己也在提示「可能哪天就禁用」",
+        "Cowork 与 Design 的实际能力边界没有独立评测",
+        "对 MCP server 配置方式是否有变化，视频未完整覆盖"
       ],
-      "implication": "你天天用 Claude Code，这条值得花 20 分钟看一遍，重点看 Cowork 的权限模型和 Skill 安装方式——这直接决定你 content-curator 能不能从「脚本 + API」迁移到「桌面 Agent + 本地文件」。如果 Cowork 能稳定读写本地目录，你的简报生成流程可以砍掉一半胶水代码。"
+      "implication": "如果你现在的工作流重度依赖 Claude Code CLI 的 hooks 和 subagent 配置，先别急着迁到桌面端——把 CLI 那套配置（settings.json、MCP server、skills 目录）整理成可迁移的文档，等桌面端明确支持同等配置能力再切。这条视频适合当迁移前的功能盘点清单看。"
     }
   ],
   "shortlist": [
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Jensen Huang 在复职后首次全员会上否认获得政府特殊待遇，并称自己在做心理治疗",
-      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-      "source": "TechCrunch",
-      "one_liner": "全员会细节比复职本身更有信息量：他感谢白宫又说没特殊待遇，逻辑上自相矛盾，值得对照 NYT 的报道读。"
+      "title": "Jensen Huang denies special government treatment at first Nvidia all-hands since return",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-denies-special-government-treatment-at-first-nvidia-all-hands-since-return-there-are-rumors-on-the-internet-that-apparently-im-a-tech-bro-and-therefore-im-back",
+      "source": "Bruno Ferreira",
+      "one_liner": "头条 1 的一手细节补充，含黄仁勋原话，适合想看治理事件原始表述的人。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Yale 的 Sonnenfeld：Nvidia 是美国工业实力的「损害」而非「捍卫者」",
-      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-      "source": "TechCrunch",
-      "one_liner": "少见的机构视角反调，把 Nvidia 从「国运股」拉回「垄断供应商」框架，适合作为头条 1 的对冲阅读。"
+      "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+      "source": "wondersky",
+      "one_liner": "有具体吞吐数字和 vLLM 配置的推理优化实战，工程密度高，但受众偏窄所以放备选。"
     },
     {
       "domain": "AI 算力 / 半导体",
-      "title": "Google DeepMind 用 AlphaProof Code 形式化证明 Signal 加密协议",
+      "title": "TSMC Hacked",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
+      "source": "gmays",
+      "one_liner": "台积电向 SEC 提交的网络安全事件声明原文，供应链风险的一手材料，缺后续影响评估。"
+    },
+    {
+      "domain": "AI 算力 / 半导体",
+      "title": "Google DeepMind AI engineers conjure mathematical proof of Signal's encryption protocol",
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-ai-engineers-conjure-mathematical-proof-of-signals-encryption-protocol-alphaproof-code-framework-powered-human-bot-cooperation-for-speedy-work",
-      "source": "Tom's Hardware",
-      "one_liner": "AI 做形式化验证的第一个高知名度案例，但只有单点证据，还不足以说明通用能力，放备选观察。"
-    },
-    {
-      "domain": "AI 算力 / 半导体",
-      "title": "Nvidia 前合作伙伴 Megaspeed 被美国商务部列入出口禁令",
-      "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/",
-      "source": "UPI",
-      "one_liner": "和「新加坡销售额消失」是同一条线索的两端，出口管制执行层面在收紧，值得跟踪但今天信息量还不够单独成条。"
+      "source": "Bruno Ferreira",
+      "one_liner": "AlphaProof Code 用于形式化验证 Signal 协议，人机协作做数学证明的新范式，值得单独深读。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Microsoft 因 Outlook 近 24 小时宕机内部宣布「Code Red」",
+      "title": "Amazon's Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+      "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-silicon-gap-with-nvidia/",
+      "source": "Anna Heim",
+      "one_liner": "75 亿美元收购 Decart 提升 Trainium 效率，是「软件补硬件」路线的重要下注，但交易细节仍少。"
+    },
+    {
+      "domain": "大厂 AI 动态",
+      "title": "Microsoft declares 'Code Red' after huge Outlook outage",
       "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage",
-      "source": "The Verge",
-      "one_liner": "大厂基础设施可靠性问题，对做 Agent 的人是提醒：你的依赖链上游随时会断，要有降级方案。"
+      "source": "Tom Warren",
+      "one_liner": "近 24 小时的 Exchange Online 中断触发内部 Code Red，基础设施可靠性话题，与 AI 弱相关。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Walmart 把黑五折扣接进 Meta 的 AI Agent Muse",
-      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-      "source": "TechCrunch",
-      "one_liner": "Agent 商业化落地的真实案例，但本质是渠道合作，工程细节为零，放备选。"
+      "title": "Huawei found guilty of stealing trade secrets",
+      "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
+      "source": "Emma Roth",
+      "one_liner": "纽约联邦法院陪审团裁定华为窃取商业秘密，中美科技博弈的法律节点，影响待观察。"
     },
     {
       "domain": "大厂 AI 动态",
-      "title": "Meta 把 Muse AI 助手直接塞进 Instagram 私信",
-      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-      "source": "TechCrunch",
-      "one_liner": "和上一条同属 Meta Agent 分发策略，两条可以合并看：Meta 在把 Agent 铺到所有有流量的入口。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Tidal 将下架数百万首全 AI 生成曲目",
+      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
       "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-      "source": "TechCrunch",
-      "one_liner": "平台开始对 AI 生成内容做质量分层（辅助可以，全生成不行），这个标准未来可能被内容平台普遍采用。"
-    },
-    {
-      "domain": "大厂 AI 动态",
-      "title": "Uber 与 Nuro 开始在旧金山湾区公开道路测试 Lucid 无人出租车",
-      "url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
-      "source": "TechCrunch",
-      "one_liner": "2027 年上线前的实测阶段，对 Robotaxi 时间表是个正向信号，但离你太远。"
+      "source": "Ivan Mehta",
+      "one_liner": "平台首次大规模清理纯 AI 生成内容，对内容平台治理有参考价值，但与你项目距离较远。"
     },
     {
       "domain": "股票",
-      "title": "Nasdaq 重启抛售，Nvidia 与 Anthropic 双双下挫",
+      "title": "Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026",
-      "source": "WSJ",
-      "one_liner": "头条 2 的市场背景板，两条一起看才知道 Anthropic 破发不是孤立事件。"
+      "source": "petethomas",
+      "one_liner": "头条 2 的宏观背景，AI 双龙头同步下挫，但为实时盘面报道，深度有限。"
     },
     {
       "domain": "股票",
-      "title": "Marc Rubinstein：AI 经济里的供需再平衡（Supply and Demand）",
-      "url": "https://www.netinterest.co/p/supply-and-demand",
-      "source": "Net Interest",
-      "one_liner": "少见的用信用分析框架拆 AI 经济的深度长文，周末 2 小时阅读时段的首选，今天先占位。"
+      "title": "A Banker's Guide to Anthropic",
+      "url": "https://www.netinterest.co/p/a-bankers-guide-to-anthropic",
+      "source": "Marc Rubinstein",
+      "one_liner": "从信用事件角度拆解 Anthropic IPO，是理解头条 2 的最佳长文，但发布于 11 月 13 日不算新。"
     },
     {
       "domain": "股票",
-      "title": "两个 Polymarket 账户靠 Huang 复职赚超 34 万美元",
+      "title": "Two \"suspicious clusters\" on Polymarket Made Over $340k on Huang Comeback",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/two-groups-of-polymarket-accounts-made-over-340-000-on-huang-comeback-Lan2T0TwbJPNsyhmQHGq",
-      "source": "WSJ",
-      "one_liner": "预测市场内幕交易的又一个案例，和头条 1 是同一事件的不同切面，单独看信息量偏薄。"
+      "source": "qlte",
+      "one_liner": "预测市场疑似内幕交易，是治理事件的一个侧面，但证据链尚不完整。"
     },
     {
       "domain": "金融",
-      "title": "Visa、Mastercard 与 JPMorgan 客户数据被黑客泄露",
+      "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
       "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
-      "source": "WSJ",
-      "one_liner": "支付链路的系统性安全事件，规模未明，但涉及三家巨头，值得知道。"
+      "source": "mikhael",
+      "one_liner": "支付三巨头客户数据泄露，规模未明，值得跟踪但暂无技术细节。"
     },
     {
       "domain": "金融",
-      "title": "美联储担心 AI Agent 可能触发银行挤兑",
+      "title": "The Fed Is Worried AI Agents Could Trigger a Bank Run",
       "url": "https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566",
-      "source": "Gizmodo",
-      "one_liner": "监管视角的 Agent 风险讨论，和头条 3 的 benchmark 结论互相印证：Agent 的副作用已经是系统性议题。"
+      "source": "pera",
+      "one_liner": "监管视角看 Agent 群体行为的系统性风险，概念新颖但报道偏浅，缺一手文件。"
     },
     {
       "domain": "金融",
-      "title": "巴西税务局在 GitHub 以 MIT 协议开源其税务计算器",
+      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
-      "source": "HN",
-      "one_liner": "政府级代码开源，789 分，工程上很有意思（税务规则形式化），但和你当前项目关联度低。"
+      "source": "dvaplima",
+      "one_liner": "国家级税务计算器以 MIT 协议开源，政府软件开源的好案例，与你的技术栈无关但值得知道。"
     },
     {
       "domain": "AI",
-      "title": "程序员鱼皮：烧上万元做了 500 多个网站，开源 awesome-vibe-coding-websites",
+      "title": "狂烧上万元，我用 AI 做了 500 多个网站！",
       "url": "http://www.bilibili.com/video/av117666283002439",
-      "source": "Bilibili",
-      "one_liner": "11 月 23 日刚发，模板库 + 提示词规范对 side project 有直接参考，但内容偏「合集」性质，和你反感的套娃合集接近，放备选。"
+      "source": "程序员鱼皮",
+      "one_liner": "11 月 23 日发布，含 500+ 网站模板与提示词规范，是 vibe coding 规模化的真实成本样本，但偏营销。"
     },
     {
       "domain": "AI",
-      "title": "全网最详细 AI 入门课：一期搞懂 58 个 AI 术语",
+      "title": "全网最详细的 AI 入门课：一期视频搞懂 58 个 AI 术语",
       "url": "http://www.bilibili.com/video/av117587144940374",
-      "source": "Bilibili",
-      "one_liner": "11 月 9 日发布，密度比一般科普高（最后用术语读一页真实模型更新日志），但对你这个段位属于复习材料。"
+      "source": "亚里今天也要AI",
+      "one_liner": "11 月 9 日发布，术语体系完整且最后用真实模型更新日志做练习，适合当索引而非深读。"
     }
   ],
   "_meta": {
     "scored_by": "deepseek/deepseek-chat",
-    "scored_at": "2026-11-25T13:45:39+0000"
+    "scored_at": "2026-11-25T14:47:26+0000"
   }
 }

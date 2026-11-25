@@ -2,29 +2,30 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 董事会把 Jensen Huang 请回来了，从辞职到复职只隔一周，但国会、SEC 调查、Polymarket 内幕下注全在发酵，这家公司治理的可信度被打了个洞；二是 Anthropic IPO 跌破 83 美元发行价，承销商稳定盘也撤了，AI 一级市场估值开始被公开市场重新定价。这两件事叠在一起，说明 AI 叙事正在从「无限乐观」切换到「要交财报」。_
+_今天真正的大新闻只有一条：Nvidia 董事会在一周内把黄仁勋赶下台又请回来，Trump 被指直接介入，国会与 SEC 同时开火——这不是人事八卦，而是 AI 算力供应链治理结构的一次压力测试。另一条值得盯的是 Anthropic 跌破 83 美元 IPO 发行价、护盘仓位已平，AI 一级市场估值开始被二级市场重新定价。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. Anthropic 跌破 83 美元 IPO 发行价，承销商稳定盘已撤，AI 一级市场估值开始被公开市场重定价
+### 2. Anthropic 跌破 83 美元 IPO 发行价，护盘仓位已平：AI 一级市场估值开始被二级市场重定价
 
-**[股票]** · ⭐⭐⭐⭐⭐ · _Reuters_
+**[股票]** · ⭐⭐⭐⭐⭐ · _thm_
 
-Anthropic 以 1.5 万亿美元估值、每股 83 美元上市，首日冲高后迅速回落，11 月 24 日正式跌破发行价。更关键的是 Reuters 披露承销商已经关闭了原本用于稳定股价的仓位——也就是说，后面没有托底了。TechCrunch 直接把这称为「对 AI 创业公司的 worrisome sign」。
+Anthropic 以 83 美元/股、1.5 万亿美元估值完成史上最大 IPO，首日冲高后迅速回落，11 月 24 日正式跌破发行价。更关键的是 Reuters 披露承销银行的稳定股价仓位已经关闭——托底的手撤了。同一周 Nasdaq 抹平 2026 年全部涨幅，Nvidia 与 Anthropic 同步下挫。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| IPO 定价 83 美元/股，对应约 1.5 万亿美元估值（AP、HN 多条交叉确认） | 跌破发行价是短期流动性问题还是估值中枢下移的开始，需要看未来两周成交量 |
-| 11 月 24 日股价跌破 83 美元发行价，Reuters 首发 | 9000 亿美元 AI 支出承诺与 1.5 万亿估值之间的缺口，市场是否已经开始用 DCF 而不是叙事来定价 |
-| 承销商已关闭用于稳定股价的仓位（Reuters 11 月 20 日报道） | Michael Burry、Gary Marcus 等公开唱空是否会影响后续 AI 公司 IPO 窗口 |
-| IPO 文件披露季度人力成本 17 亿美元，人均月成本约 10.7 万美元 | 承销商撤稳定盘是否意味着投行内部对估值本身失去信心 |
-| IPO 前信用评级机构给出高「垃圾级」评级预期，Blackstone 公开质疑其投资级前景 | Amodei「十年治愈癌症」的 roadshow 话术被医生群体反驳，是否损害机构投资者信任 |
+| Anthropic IPO 定价 83 美元/股，对应约 1.5 万亿美元估值，AP 与 HN 均有记录 | 跌破发行价是短期流动性事件还是估值中枢下移，需要看未来 2-3 周成交量与做空比例 |
+| 11 月 24 日股价跌破 83 美元发行价，Reuters 标题为「debut rally unravels」 | 1.5 万亿估值对应的收入模型是否可持续，公开文件未给出清晰路径 |
+| 承销银行用于稳定股价的仓位已关闭，Reuters 11 月 20 日报道 | 「AI 资本开支 9000 亿美元承诺」与当前收入之间的缺口如何填补，尚无答案 |
+| IPO 文件披露季度人力成本 17 亿美元，人均月成本约 10.7 万美元 | 护盘仓位关闭后是否有第二批承销商介入，未知 |
+| IPO 前信用评级机构给出高收益级（垃圾级）评级预期，Blackstone 公开质疑投资级可能 | 对下游 AI 创业公司融资的传导速度——通常滞后 1-2 个季度 |
+| Nasdaq 11 月 19-20 日抹平 2026 年全部涨幅 |  |
 
 **📖 主编点评**
 
-这是你判断「AI 泡沫到什么阶段」最直接的一个读数。如果你在考虑毕业后进 AI 公司，注意一个细节：Anthropic 人均月成本 10.7 万美元意味着它必须维持极高毛利才能撑住估值，这类公司的招聘会更偏向能直接产生产品收入的人，而不是纯研究岗。简历上把 content-curator 这类「能跑起来、有真实用户」的项目讲清楚，比多写两篇 paper 有用。
+如果你在考虑把 side project 做成公司，这条是今天最该读的：头部玩家在二级市场都被重新定价，意味着 2027 年早期融资会更看重单位经济而不是叙事。反过来说，对个人工具类项目是好事——你不需要融资也能跑通，这恰好是你的结构性优势。
 
 📺 [打开原文](https://www.reuters.com/business/anthropic-breaks-below-83-ipo-price-debut-rally-unravels-2026-11-24/)
 
@@ -32,12 +33,12 @@ Anthropic 以 1.5 万亿美元估值、每股 83 美元上市，首日冲高后�
 
 ## 📋 备选阅读
 
-- [Nasdaq 重启抛售，Nvidia 与 Anthropic 双双下挫](https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026) —— 头条 2 的市场背景板，两条一起看才知道 Anthropic 破发不是孤立事件。
-  _WSJ_
-- [Marc Rubinstein：AI 经济里的供需再平衡（Supply and Demand）](https://www.netinterest.co/p/supply-and-demand) —— 少见的用信用分析框架拆 AI 经济的深度长文，周末 2 小时阅读时段的首选，今天先占位。
-  _Net Interest_
-- [两个 Polymarket 账户靠 Huang 复职赚超 34 万美元](https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/two-groups-of-polymarket-accounts-made-over-340-000-on-huang-comeback-Lan2T0TwbJPNsyhmQHGq) —— 预测市场内幕交易的又一个案例，和头条 1 是同一事件的不同切面，单独看信息量偏薄。
-  _WSJ_
+- [Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump](https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026) —— 头条 2 的宏观背景，AI 双龙头同步下挫，但为实时盘面报道，深度有限。
+  _petethomas_
+- [A Banker's Guide to Anthropic](https://www.netinterest.co/p/a-bankers-guide-to-anthropic) —— 从信用事件角度拆解 Anthropic IPO，是理解头条 2 的最佳长文，但发布于 11 月 13 日不算新。
+  _Marc Rubinstein_
+- [Two "suspicious clusters" on Polymarket Made Over $340k on Huang Comeback](https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/two-groups-of-polymarket-accounts-made-over-340-000-on-huang-comeback-Lan2T0TwbJPNsyhmQHGq) —— 预测市场疑似内幕交易，是治理事件的一个侧面，但证据链尚不完整。
+  _qlte_
 
 ---
 

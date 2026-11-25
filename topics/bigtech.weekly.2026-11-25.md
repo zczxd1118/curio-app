@@ -1,67 +1,66 @@
 # Curio · 大厂 AI 动态 · 2026-11-25
 
-> 今日 2 条头条 + 5 条备选
+> 今日 2 条头条 + 4 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 董事会把 Jensen Huang 请回来了，从辞职到复职只隔一周，但国会、SEC 调查、Polymarket 内幕下注全在发酵，这家公司治理的可信度被打了个洞；二是 Anthropic IPO 跌破 83 美元发行价，承销商稳定盘也撤了，AI 一级市场估值开始被公开市场重新定价。这两件事叠在一起，说明 AI 叙事正在从「无限乐观」切换到「要交财报」。_
+_今天真正的大新闻只有一条：Nvidia 董事会在一周内把黄仁勋赶下台又请回来，Trump 被指直接介入，国会与 SEC 同时开火——这不是人事八卦，而是 AI 算力供应链治理结构的一次压力测试。另一条值得盯的是 Anthropic 跌破 83 美元 IPO 发行价、护盘仓位已平，AI 一级市场估值开始被二级市场重新定价。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. 新 benchmark 显示最强 AI Agent 连日常任务都做不可靠，还会引入新问题
+### 3. Gemini 4 Neon 发布并登顶 Models Engineering Index，被指对标 Opus 5.5
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Rebecca Bellan / TechCrunch_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _yigitdemirag_
 
-TechCrunch 报道了一个针对个人 AI 助手的新 benchmark，结论是即使最先进的模型，在完成日常任务时也无法稳定、安全地交付，甚至会引入原本不存在的新问题。这条对你做 content-curator 有直接参考价值——它说明 Agent 的失败模式不在「能不能做」，而在「做的时候会不会搞出新麻烦」。
+Google 在 11 月 18 日发布 Gemini 4 Neon，三天后登上第三方 Models Engineering Index 榜首，独立博客 micjm.com 直接把它称为「Opus 5.5 的竞争者」。这是 Google 在两个月内发布的第四个 Gemini 4 变体（Carbon、Hydrogen、Neon，加上 Genie 4），命名体系已经让外部难以追踪。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 新 benchmark 专门评测 AI Agent 在日常生活任务上的完成率与安全性 | benchmark 的具体任务集与评分方法未在报道中完整披露，复现性待验证 |
-| 结论是当前最强模型也无法可靠完成日常任务 | 「引入新问题」的严重程度分级不明，是数据污染还是真实世界副作用 |
-| 评测同时记录了 Agent 在执行过程中引入的新问题（side effects） | 是否会被 OpenAI / Anthropic / Google 引用为下一代模型的优化目标 |
-| 报道时间 11 月 24 日，与 Walmart 接入 Meta Muse、Meta 把 Muse 塞进 Instagram DM 同期 | 个人助手场景的失败率是否显著高于编码场景，报道未做对比 |
+| Gemini 4 Neon 于 11 月 18 日发布，HN 1071 分 | Models Engineering Index 是个人维护的第三方榜单，权重与方法论未公开，不能等同于行业共识 |
+| 11 月 19 日登上 Models Engineering Index 第一，作者为第三方 git-aarvin | 「对标 Opus 5.5」目前只有一篇独立博客的判断，缺少同任务对比数据 |
+| Gemini 4 Carbon 此前于 10 月 28 日发布，11 月 10 日正式可用，曾登顶 Artificial Analysis Intelligence Index v5 | 四个变体的定位差异（Carbon/Hydrogen/Neon）官方文档尚未给出清晰矩阵 |
+| Gemini 4 Hydrogen 于 11 月 12 日发布，同步上线 Google Antigravity 平台 | Neon 在 Agent 长任务上的实际稳定性没有公开 benchmark |
+| Genie 4 世界模拟模型于 10 月 27 日发布，11 月 18 日开放使用 | 定价与速率限制未在发布博客中明确 |
 
 **📖 主编点评**
 
-这条应该直接改变你 content-curator 的设计思路：不要只测「Agent 能不能选出好稿」，要专门测「Agent 会不会把不该推的稿推出去、会不会重复推、会不会在失败时静默跳过某个域」。给你的 Agent 加一个 side-effect 检查层（比如推送前的 domain 覆盖断言），比再调一轮 prompt 更能提升可靠性。
+你的 content-curator 如果要接多模型路由，现在必须处理「同一家族四个变体」的选择问题。建议别追榜单，直接用你自己的真实任务（比如一次完整的选题+摘要流水线）跑 A/B，把 token 成本和一次通过率记下来——这比任何第三方 index 都可靠。
+
+📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
+
+---
+
+### 4. 新 benchmark 显示最强 AI Agent 在日常任务上仍不可靠，且会引入新问题
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Rebecca Bellan_
+
+TechCrunch 报道了一个针对个人助理场景的新 benchmark，结论是即便最先进的模型也难以可靠、安全地完成日常任务，并且在失败时会引入新的风险。这条和你的项目直接相关——你做的是每天自动跑一遍的 Agent 流水线，可靠性比能力上限更重要。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 新 benchmark 聚焦个人 AI 助理的日常任务完成率与安全性 | benchmark 的具体任务集、评分口径与开源情况报道未披露，无法复现 |
+| 结论是顶级模型在可靠性上仍有明显缺口，失败时会引入新问题 | 「引入新问题」的具体类型（越权操作、错误下单还是隐私泄露）未细分 |
+| 报道时间为 11 月 24 日，作者 Rebecca Bellan | 样本规模与模型版本未公开，结论的统计强度存疑 |
+| 同期 Walmart 把黑五促销接入 Meta 的 AI agent Muse，说明消费级 Agent 已进入真实交易场景 | 对长周期、多步骤任务的覆盖程度未知 |
+
+**📖 主编点评**
+
+这条应该直接改变你的工程决策：给 content-curator 加一层「失败可见」——每次运行输出结构化日志（选了哪些候选、为什么跳过、哪一步降级），而不是只给最终 JSON。Agent 不可靠是常态，可观测性才是你的护城河。
 
 📺 [打开原文](https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/)
 
 ---
 
-### 4. Amazon 以 75 亿美元收购 Decart，赌软件能缩小与 Nvidia 的芯片差距
-
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Anna Heim / TechCrunch_
-
-Amazon 收购 Decart，报道价 75 亿美元，目的是提升自家 Trainium 芯片的效率。TechCrunch 的框架很清楚：这不是买模型，是买「用软件榨干自研硅片」的能力。同期 Google DeepMind 用 AlphaProof Code 形式化验证了 Signal 的加密协议，两件事指向同一个方向——算力竞争正在从硬件转向软硬协同。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Amazon 收购 Decart，报道价 75 亿美元（TechCrunch） | 75 亿美元价格是否属实，TechCrunch 用的是 reported，未见双方官方确认 |
-| 收购目标明确为提升 Trainium 芯片效率 | Decart 的软件优化能否实质缩小与 Nvidia 的代际差距，还是只是营销叙事 |
-| Google DeepMind 的 AlphaProof Code 完成了 Signal 加密协议的数学证明（Tom's Hardware 11 月 25 日） | Trainium 的实际客户采用率与 Nvidia 的差距，报道未给数字 |
-| 同期 Oracle 发行 200 亿美元股票与债券为 AI 基建融资 | AlphaProof Code 的形式化验证能否推广到通用软件正确性证明，目前只看到一个案例 |
-
-**📖 主编点评**
-
-如果你以后想做推理优化方向，这条给了你一个明确的技能坐标：软硬协同（编译器、算子融合、量化）比纯算法调参更值钱。你电子信息工程的背景在这里是优势——懂一点硬件约束再写 CUDA/Triton，比纯 CS 出身的人更容易进这类团队。
-
-📺 [打开原文](https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-silicon-gap-with-nvidia/)
-
----
-
 ## 📋 备选阅读
 
-- [Microsoft 因 Outlook 近 24 小时宕机内部宣布「Code Red」](https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage) —— 大厂基础设施可靠性问题，对做 Agent 的人是提醒：你的依赖链上游随时会断，要有降级方案。
-  _The Verge_
-- [Walmart 把黑五折扣接进 Meta 的 AI Agent Muse](https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/) —— Agent 商业化落地的真实案例，但本质是渠道合作，工程细节为零，放备选。
-  _TechCrunch_
-- [Meta 把 Muse AI 助手直接塞进 Instagram 私信](https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/) —— 和上一条同属 Meta Agent 分发策略，两条可以合并看：Meta 在把 Agent 铺到所有有流量的入口。
-  _TechCrunch_
-- [Tidal 将下架数百万首全 AI 生成曲目](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/) —— 平台开始对 AI 生成内容做质量分层（辅助可以，全生成不行），这个标准未来可能被内容平台普遍采用。
-  _TechCrunch_
-- [Uber 与 Nuro 开始在旧金山湾区公开道路测试 Lucid 无人出租车](https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/) —— 2027 年上线前的实测阶段，对 Robotaxi 时间表是个正向信号，但离你太远。
-  _TechCrunch_
+- [Amazon's Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia](https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-silicon-gap-with-nvidia/) —— 75 亿美元收购 Decart 提升 Trainium 效率，是「软件补硬件」路线的重要下注，但交易细节仍少。
+  _Anna Heim_
+- [Microsoft declares 'Code Red' after huge Outlook outage](https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage) —— 近 24 小时的 Exchange Online 中断触发内部 Code Red，基础设施可靠性话题，与 AI 弱相关。
+  _Tom Warren_
+- [Huawei found guilty of stealing trade secrets](https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial) —— 纽约联邦法院陪审团裁定华为窃取商业秘密，中美科技博弈的法律节点，影响待观察。
+  _Emma Roth_
+- [Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/) —— 平台首次大规模清理纯 AI 生成内容，对内容平台治理有参考价值，但与你项目距离较远。
+  _Ivan Mehta_
 
 ---
 
