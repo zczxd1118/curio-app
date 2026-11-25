@@ -1,66 +1,48 @@
 # Curio · 大厂 AI 动态 · 2026-11-25
 
-> 今日 2 条头条 + 4 条备选
+> 今日 1 条头条 + 5 条备选
 
-_今天真正的大新闻只有一条：Nvidia 董事会在一周内把黄仁勋赶下台又请回来，Trump 被指直接介入，国会与 SEC 同时开火——这不是人事八卦，而是 AI 算力供应链治理结构的一次压力测试。另一条值得盯的是 Anthropic 跌破 83 美元 IPO 发行价、护盘仓位已平，AI 一级市场估值开始被二级市场重新定价。_
+_今天真正的大信号只有一个：Nvidia 用两周时间演完了「逼宫—辞职—复职」全套，黄仁勋回归首场全员会承认在心理咨询、否认白宫干预，同时 SEC 在查会计问题、国会开骂、Anthropic 股价跌破 83 美元 IPO 价。AI 资本叙事第一次出现「治理风险」这个新变量，而不是算力或模型能力。另一条线是 Gemini 4 系列（Carbon/Hydrogen/Neon）在两周内连发三代，模型迭代节奏已经快到评测榜都跟不上。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. Gemini 4 Neon 发布并登顶 Models Engineering Index，被指对标 Opus 5.5
+### 2. Gemini 4 Neon 发布并登顶 Models Engineering Index，Google 两周内连发 Carbon / Hydrogen / Neon 三代
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _yigitdemirag_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _yigitdemirag_
 
-Google 在 11 月 18 日发布 Gemini 4 Neon，三天后登上第三方 Models Engineering Index 榜首，独立博客 micjm.com 直接把它称为「Opus 5.5 的竞争者」。这是 Google 在两个月内发布的第四个 Gemini 4 变体（Carbon、Hydrogen、Neon，加上 Genie 4），命名体系已经让外部难以追踪。
+10 月 28 日 Gemini 4 Carbon、11 月 12 日 Gemini 4 Hydrogen（含 Antigravity 里的 Orchestrator）、11 月 18 日 Gemini 4 Neon，三周三代。Neon 上线当天就在第三方 Models Engineering Index 登顶，有博主直接称它「看起来像 Opus 5.5 的竞争对手」。这个发布节奏本身比单代模型能力更值得注意。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Gemini 4 Neon 于 11 月 18 日发布，HN 1071 分 | Models Engineering Index 是个人维护的第三方榜单，权重与方法论未公开，不能等同于行业共识 |
-| 11 月 19 日登上 Models Engineering Index 第一，作者为第三方 git-aarvin | 「对标 Opus 5.5」目前只有一篇独立博客的判断，缺少同任务对比数据 |
-| Gemini 4 Carbon 此前于 10 月 28 日发布，11 月 10 日正式可用，曾登顶 Artificial Analysis Intelligence Index v5 | 四个变体的定位差异（Carbon/Hydrogen/Neon）官方文档尚未给出清晰矩阵 |
-| Gemini 4 Hydrogen 于 11 月 12 日发布，同步上线 Google Antigravity 平台 | Neon 在 Agent 长任务上的实际稳定性没有公开 benchmark |
-| Genie 4 世界模拟模型于 10 月 27 日发布，11 月 18 日开放使用 | 定价与速率限制未在发布博客中明确 |
+| Gemini 4 Carbon 于 10 月 28 日发布，10 月 29 日登上 Artificial Analysis Intelligence Index v5 第一 | 三代模型之间的实际能力差异有多大，目前只有第三方榜单和博主评测，缺少官方对比数据 |
+| Gemini 4 Hydrogen 于 11 月 12 日发布，同步在 Google Antigravity 上线 Orchestrator | Neon 是否真是 Opus 5.5 同级，micjm.com 的判断属于个人评测而非系统基准 |
+| Gemini 4 Neon 于 11 月 18 日发布，HN 1071 分 | Gemini 4 Carbon「为什么这么慢」的讨论（kernel.dev 一文 288 分）暗示发布节奏与内部工程压力存在张力 |
+| Neon 在 Models Engineering Index 登顶，该榜单由第三方维护 | Orchestrator 在 Antigravity 里的具体编排能力边界尚不清楚 |
+| Gemini Decisions API 于 11 月 11 日单独发布，是面向 Agent 决策的独立接口 | DeepMind 员工正在组建工会（gdmunion.co.uk），是否影响后续发布节奏未知 |
+| Genie 4 世界模拟模型于 10 月 27 日发布、11 月 18 日开放使用 |  |
 
 **📖 主编点评**
 
-你的 content-curator 如果要接多模型路由，现在必须处理「同一家族四个变体」的选择问题。建议别追榜单，直接用你自己的真实任务（比如一次完整的选题+摘要流水线）跑 A/B，把 token 成本和一次通过率记下来——这比任何第三方 index 都可靠。
+对你的 content-curator 项目来说，这是直接的工程信号：模型迭代周期已经压缩到 2-3 周，任何硬编码模型名的架构都会很快过时。如果你在 Agent 里写死了具体模型，现在就该把模型选择抽象成配置层。另外 Gemini Decisions API 值得单独看一眼——它是少数专门为 Agent 决策路径设计的官方接口，比通用 chat completion 更贴近你要做的事。
 
 📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
 
 ---
 
-### 4. 新 benchmark 显示最强 AI Agent 在日常任务上仍不可靠，且会引入新问题
-
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Rebecca Bellan_
-
-TechCrunch 报道了一个针对个人助理场景的新 benchmark，结论是即便最先进的模型也难以可靠、安全地完成日常任务，并且在失败时会引入新的风险。这条和你的项目直接相关——你做的是每天自动跑一遍的 Agent 流水线，可靠性比能力上限更重要。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| 新 benchmark 聚焦个人 AI 助理的日常任务完成率与安全性 | benchmark 的具体任务集、评分口径与开源情况报道未披露，无法复现 |
-| 结论是顶级模型在可靠性上仍有明显缺口，失败时会引入新问题 | 「引入新问题」的具体类型（越权操作、错误下单还是隐私泄露）未细分 |
-| 报道时间为 11 月 24 日，作者 Rebecca Bellan | 样本规模与模型版本未公开，结论的统计强度存疑 |
-| 同期 Walmart 把黑五促销接入 Meta 的 AI agent Muse，说明消费级 Agent 已进入真实交易场景 | 对长周期、多步骤任务的覆盖程度未知 |
-
-**📖 主编点评**
-
-这条应该直接改变你的工程决策：给 content-curator 加一层「失败可见」——每次运行输出结构化日志（选了哪些候选、为什么跳过、哪一步降级），而不是只给最终 JSON。Agent 不可靠是常态，可观测性才是你的护城河。
-
-📺 [打开原文](https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/)
-
----
-
 ## 📋 备选阅读
 
-- [Amazon's Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia](https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-silicon-gap-with-nvidia/) —— 75 亿美元收购 Decart 提升 Trainium 效率，是「软件补硬件」路线的重要下注，但交易细节仍少。
+- [即便最好的 AI Agent 也搞不定日常生活](https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/) —— 新基准显示顶级 Agent 在日常任务上仍不可靠且会引入新问题，和你做 Agent 项目直接相关，但报道偏结论缺方法细节。
+  _Rebecca Bellan_
+- [Amazon 收购 Decart，7.5 亿美元赌软件缩小与 Nvidia 的芯片差距](https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/) —— 用软件效率补硬件差距的思路值得关注，但 7.5 亿美元数字来自「reported」，未经证实。
   _Anna Heim_
-- [Microsoft declares 'Code Red' after huge Outlook outage](https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage) —— 近 24 小时的 Exchange Online 中断触发内部 Code Red，基础设施可靠性话题，与 AI 弱相关。
+- [Walmart 联手 Meta，把黑五折扣搬进 AI Agent Muse](https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/) —— AI Agent 第一次成为零售大促的正式入口，商业信号强于技术信号，但对你个人项目参考价值有限。
+  _Lauren Forristal_
+- [Microsoft 因 Outlook 大规模宕机内部宣布「Code Red」](https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage) —— 近 24 小时邮件中断触发内部红色警报，是基础设施可靠性话题，但和你的关注方向关联弱。
   _Tom Warren_
-- [Huawei found guilty of stealing trade secrets](https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial) —— 纽约联邦法院陪审团裁定华为窃取商业秘密，中美科技博弈的法律节点，影响待观察。
+- [Huawei 被判窃取美国商业机密](https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial) —— 纽约联邦法院陪审团裁定有罪，地缘科技话题，但判决细节和后续影响尚未展开。
   _Emma Roth_
-- [Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/) —— 平台首次大规模清理纯 AI 生成内容，对内容平台治理有参考价值，但与你项目距离较远。
-  _Ivan Mehta_
 
 ---
 

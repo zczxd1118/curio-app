@@ -2,30 +2,30 @@
 
 > 今日 1 条头条 + 4 条备选
 
-_今天真正的大新闻只有一条：Nvidia 董事会在一周内把黄仁勋赶下台又请回来，Trump 被指直接介入，国会与 SEC 同时开火——这不是人事八卦，而是 AI 算力供应链治理结构的一次压力测试。另一条值得盯的是 Anthropic 跌破 83 美元 IPO 发行价、护盘仓位已平，AI 一级市场估值开始被二级市场重新定价。_
+_今天真正的大信号只有一个：Nvidia 用两周时间演完了「逼宫—辞职—复职」全套，黄仁勋回归首场全员会承认在心理咨询、否认白宫干预，同时 SEC 在查会计问题、国会开骂、Anthropic 股价跌破 83 美元 IPO 价。AI 资本叙事第一次出现「治理风险」这个新变量，而不是算力或模型能力。另一条线是 Gemini 4 系列（Carbon/Hydrogen/Neon）在两周内连发三代，模型迭代节奏已经快到评测榜都跟不上。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Nvidia 董事会一周内把黄仁勋赶下台又请回：Trump 被指介入，国会与 SEC 同时开火
+### 1. Nvidia 董事会正式复职黄仁勋：从辞职到回归只隔 11 天，SEC 会计调查与国会质疑同步压顶
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _alanwong_
 
-11 月 12 日黄仁勋因第二段办公室恋情报道辞职，11 月 23 日董事会宣布恢复其总裁、CEO 与董事职务，官方新闻稿只用了两段话。同期 NYT 称 Trump 直接推动复职，CNBC 报道国会两党公开批评，SEC 正在核查会计问题。这不是治理小插曲——全球最关键的 AI 算力供应商在一周内失去了又找回了唯一决策人。
+11 月 12 日黄仁勋因第二段办公室恋情报道辞职，11 月 23 日董事会宣布复职，官方新闻稿措辞是「恢复总裁、CEO 与董事职务」。这 11 天里 Nvidia 市值经历剧烈震荡，做空基金 Short Nvidia 在 91% 回撤后被停牌，Polymarket 上两个可疑账户靠「黄回归」赚了 34 万美元。复职不是终点，而是把治理问题正式摆上台面。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 11 月 12 日黄仁勋辞去 Nvidia CEO 及董事职务，Reuters 与 BBC 均实时报道 | 董事会独立性是否已被实质性击穿——Reuters 引述批评者称「reversal raises doubts about independence」，但尚无董事辞职 |
-| 11 月 23 日 Nvidia 官方新闻稿宣布董事会恢复其总裁、CEO、董事三重身份 | Trump 介入的具体形式（电话、私下会面还是公开施压）目前只有 NYT 单一信源 |
-| NYT 报道 Trump 直接指示推动复职；CNBC 报道国会称此举为「character failure」 | SEC 会计问题调查是否会升级为正式执法行动，时间表未知 |
-| SEC 对 Nvidia 的调查已扩展到潜在会计问题，Reuters 11 月 20 日发稿 | Megaspeed 出口禁令与新加坡销售不披露之间是否存在因果关系，官方未回应 |
-| Nvidia 已停止单独披露新加坡地区销售额，同期营收口径达 1040 亿美元 | 黄仁勋明确表示不设继任计划，下一次治理危机没有制度性缓冲 |
-| 黄仁勋在复职后首次全员会上向员工道歉，称自己在接受心理治疗，并否认获得政府特殊待遇 |  |
+| 11 月 12 日黄仁勋辞职，Reuters 与 BBC 均报道辞职与第二段员工恋情报道有关 | 复职是否意味着董事会独立性彻底失效，Reuters 称批评者已质疑「董事会反转损害独立性」 |
+| 11 月 23 日 Nvidia 官方新闻稿宣布董事会复职黄仁勋为总裁、CEO 及董事 | SEC 会计调查与新加坡销售不披露是否指向同一问题，目前只有「潜在会计问题」这一模糊表述 |
+| 复职前一周 Nvidia 员工发起请愿要求黄回归，Wired 报道该请愿获得 820 分 HN 讨论 | 白宫是否真的介入，黄仁勋在全员会上否认，但 NYT 称 Trump 曾「指示推动复职」 |
+| SEC 正在调查 Nvidia 潜在会计问题，Reuters 11 月 20 日报道 | 黄仁勋称在做心理咨询、感谢白宫，这些表态能否平息机构投资者仍未知 |
+| Nvidia 停止披露新加坡销售额，同期营收达 1040 亿美元，FT 报道 | Megaspeed 被美国商务部列入出口禁令，与 Nvidia 新加坡销售疑云是否关联尚无定论 |
+| 国会两党公开批评复职决定，CNBC 引述议员称这是「品格的失败」 |  |
 
 **📖 主编点评**
 
-你不需要关心八卦，但需要关心一件事：Nvidia 的供货节奏、定价策略和出口合规现在都挂在一个刚经历治理震荡的人身上。如果你在做依赖 GPU 的项目或推理成本测算，把「政策/治理风险」当成一个显式变量写进假设，而不是默认算力价格线性下降。
+你不需要关心八卦，但要关心一件事：AI 算力链的最大单一供应商现在带着治理折价交易。如果你在做任何依赖 GPU 成本假设的项目规划或投资判断，把「Nvidia 供应链稳定性」从默认常量改成需要显式评估的变量。另外这条新闻的传播路径（HN 首发 → 官方稿 → 国会表态 → 做空基金爆仓）本身就是一次很好的信息流观察样本。
 
 📺 [打开原文](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director)
 
@@ -33,14 +33,14 @@ _今天真正的大新闻只有一条：Nvidia 董事会在一周内把黄仁勋
 
 ## 📋 备选阅读
 
-- [Jensen Huang denies special government treatment at first Nvidia all-hands since return](https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-denies-special-government-treatment-at-first-nvidia-all-hands-since-return-there-are-rumors-on-the-internet-that-apparently-im-a-tech-bro-and-therefore-im-back) —— 头条 1 的一手细节补充，含黄仁勋原话，适合想看治理事件原始表述的人。
+- [Google DeepMind 用 AlphaProof Code 形式化证明了 Signal 加密协议](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-ai-engineers-conjure-mathematical-proof-of-signals-encryption-protocol-alphaproof-code-framework-powered-human-bot-cooperation-for-speedy-work) —— AI 参与形式化验证真实生产级加密协议，是「AI 做数学」从玩具走向工程的关键一步，但细节还停留在新闻稿层面。
   _Bruno Ferreira_
-- [Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) —— 有具体吞吐数字和 vLLM 配置的推理优化实战，工程密度高，但受众偏窄所以放备选。
+- [两块 DGX Station 跑 GLM-5.3，vLLM 下达到 607.8 tok/s](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) —— 有具体吞吐数字和多机部署细节，是少见的推理工程实操文，但场景偏企业级，离个人项目远。
   _wondersky_
-- [TSMC Hacked](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm) —— 台积电向 SEC 提交的网络安全事件声明原文，供应链风险的一手材料，缺后续影响评估。
+- [TSMC 遭黑客攻击，已向 SEC 提交声明](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm) —— 原始 SEC 文件，信息密度高但无解读，适合自己读原文；影响面可能很大但细节未明。
   _gmays_
-- [Google DeepMind AI engineers conjure mathematical proof of Signal's encryption protocol](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-ai-engineers-conjure-mathematical-proof-of-signals-encryption-protocol-alphaproof-code-framework-powered-human-bot-cooperation-for-speedy-work) —— AlphaProof Code 用于形式化验证 Signal 协议，人机协作做数学证明的新范式，值得单独深读。
-  _Bruno Ferreira_
+- [Winbond 认证 NOR Flash 切入边缘 AI 存储](https://www.eetimes.com/winbond-widens-edge-ai-reach-certifies-nor-flash/) —— 边缘 AI 的存储瓶颈是个被低估的工程问题，但这条是厂商通稿性质，缺独立数据。
+  _Gary Hilson_
 
 ---
 

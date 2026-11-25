@@ -1,126 +1,131 @@
 # Curio 趋势雷达 · 2026-11-25
 
-> 你的私人主编 · 今日跨域精选 5 条头条 + 16 条备选
+> 你的私人主编 · 今日跨域精选 5 条头条 + 18 条备选
 
-_今天真正的大新闻只有一条：Nvidia 董事会在一周内把黄仁勋赶下台又请回来，Trump 被指直接介入，国会与 SEC 同时开火——这不是人事八卦，而是 AI 算力供应链治理结构的一次压力测试。另一条值得盯的是 Anthropic 跌破 83 美元 IPO 发行价、护盘仓位已平，AI 一级市场估值开始被二级市场重新定价。_
+_今天真正的大信号只有一个：Nvidia 用两周时间演完了「逼宫—辞职—复职」全套，黄仁勋回归首场全员会承认在心理咨询、否认白宫干预，同时 SEC 在查会计问题、国会开骂、Anthropic 股价跌破 83 美元 IPO 价。AI 资本叙事第一次出现「治理风险」这个新变量，而不是算力或模型能力。另一条线是 Gemini 4 系列（Carbon/Hydrogen/Neon）在两周内连发三代，模型迭代节奏已经快到评测榜都跟不上。_
 
 ---
 
 ## 🌟 AI 算力 / 半导体
 
-### 1. Nvidia 董事会一周内把黄仁勋赶下台又请回：Trump 被指介入，国会与 SEC 同时开火
+### 1. Nvidia 董事会正式复职黄仁勋：从辞职到回归只隔 11 天，SEC 会计调查与国会质疑同步压顶
 
 **[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _alanwong_
 
-11 月 12 日黄仁勋因第二段办公室恋情报道辞职，11 月 23 日董事会宣布恢复其总裁、CEO 与董事职务，官方新闻稿只用了两段话。同期 NYT 称 Trump 直接推动复职，CNBC 报道国会两党公开批评，SEC 正在核查会计问题。这不是治理小插曲——全球最关键的 AI 算力供应商在一周内失去了又找回了唯一决策人。
+11 月 12 日黄仁勋因第二段办公室恋情报道辞职，11 月 23 日董事会宣布复职，官方新闻稿措辞是「恢复总裁、CEO 与董事职务」。这 11 天里 Nvidia 市值经历剧烈震荡，做空基金 Short Nvidia 在 91% 回撤后被停牌，Polymarket 上两个可疑账户靠「黄回归」赚了 34 万美元。复职不是终点，而是把治理问题正式摆上台面。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 11 月 12 日黄仁勋辞去 Nvidia CEO 及董事职务，Reuters 与 BBC 均实时报道 | 董事会独立性是否已被实质性击穿——Reuters 引述批评者称「reversal raises doubts about independence」，但尚无董事辞职 |
-| 11 月 23 日 Nvidia 官方新闻稿宣布董事会恢复其总裁、CEO、董事三重身份 | Trump 介入的具体形式（电话、私下会面还是公开施压）目前只有 NYT 单一信源 |
-| NYT 报道 Trump 直接指示推动复职；CNBC 报道国会称此举为「character failure」 | SEC 会计问题调查是否会升级为正式执法行动，时间表未知 |
-| SEC 对 Nvidia 的调查已扩展到潜在会计问题，Reuters 11 月 20 日发稿 | Megaspeed 出口禁令与新加坡销售不披露之间是否存在因果关系，官方未回应 |
-| Nvidia 已停止单独披露新加坡地区销售额，同期营收口径达 1040 亿美元 | 黄仁勋明确表示不设继任计划，下一次治理危机没有制度性缓冲 |
-| 黄仁勋在复职后首次全员会上向员工道歉，称自己在接受心理治疗，并否认获得政府特殊待遇 |  |
+| 11 月 12 日黄仁勋辞职，Reuters 与 BBC 均报道辞职与第二段员工恋情报道有关 | 复职是否意味着董事会独立性彻底失效，Reuters 称批评者已质疑「董事会反转损害独立性」 |
+| 11 月 23 日 Nvidia 官方新闻稿宣布董事会复职黄仁勋为总裁、CEO 及董事 | SEC 会计调查与新加坡销售不披露是否指向同一问题，目前只有「潜在会计问题」这一模糊表述 |
+| 复职前一周 Nvidia 员工发起请愿要求黄回归，Wired 报道该请愿获得 820 分 HN 讨论 | 白宫是否真的介入，黄仁勋在全员会上否认，但 NYT 称 Trump 曾「指示推动复职」 |
+| SEC 正在调查 Nvidia 潜在会计问题，Reuters 11 月 20 日报道 | 黄仁勋称在做心理咨询、感谢白宫，这些表态能否平息机构投资者仍未知 |
+| Nvidia 停止披露新加坡销售额，同期营收达 1040 亿美元，FT 报道 | Megaspeed 被美国商务部列入出口禁令，与 Nvidia 新加坡销售疑云是否关联尚无定论 |
+| 国会两党公开批评复职决定，CNBC 引述议员称这是「品格的失败」 |  |
 
 **📖 主编点评**
 
-你不需要关心八卦，但需要关心一件事：Nvidia 的供货节奏、定价策略和出口合规现在都挂在一个刚经历治理震荡的人身上。如果你在做依赖 GPU 的项目或推理成本测算，把「政策/治理风险」当成一个显式变量写进假设，而不是默认算力价格线性下降。
+你不需要关心八卦，但要关心一件事：AI 算力链的最大单一供应商现在带着治理折价交易。如果你在做任何依赖 GPU 成本假设的项目规划或投资判断，把「Nvidia 供应链稳定性」从默认常量改成需要显式评估的变量。另外这条新闻的传播路径（HN 首发 → 官方稿 → 国会表态 → 做空基金爆仓）本身就是一次很好的信息流观察样本。
 
 📺 [打开原文](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director)
 
 ---
 
-## 🌟 股票
-
-### 2. Anthropic 跌破 83 美元 IPO 发行价，护盘仓位已平：AI 一级市场估值开始被二级市场重定价
-
-**[股票]** · ⭐⭐⭐⭐⭐ · _thm_
-
-Anthropic 以 83 美元/股、1.5 万亿美元估值完成史上最大 IPO，首日冲高后迅速回落，11 月 24 日正式跌破发行价。更关键的是 Reuters 披露承销银行的稳定股价仓位已经关闭——托底的手撤了。同一周 Nasdaq 抹平 2026 年全部涨幅，Nvidia 与 Anthropic 同步下挫。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Anthropic IPO 定价 83 美元/股，对应约 1.5 万亿美元估值，AP 与 HN 均有记录 | 跌破发行价是短期流动性事件还是估值中枢下移，需要看未来 2-3 周成交量与做空比例 |
-| 11 月 24 日股价跌破 83 美元发行价，Reuters 标题为「debut rally unravels」 | 1.5 万亿估值对应的收入模型是否可持续，公开文件未给出清晰路径 |
-| 承销银行用于稳定股价的仓位已关闭，Reuters 11 月 20 日报道 | 「AI 资本开支 9000 亿美元承诺」与当前收入之间的缺口如何填补，尚无答案 |
-| IPO 文件披露季度人力成本 17 亿美元，人均月成本约 10.7 万美元 | 护盘仓位关闭后是否有第二批承销商介入，未知 |
-| IPO 前信用评级机构给出高收益级（垃圾级）评级预期，Blackstone 公开质疑投资级可能 | 对下游 AI 创业公司融资的传导速度——通常滞后 1-2 个季度 |
-| Nasdaq 11 月 19-20 日抹平 2026 年全部涨幅 |  |
-
-**📖 主编点评**
-
-如果你在考虑把 side project 做成公司，这条是今天最该读的：头部玩家在二级市场都被重新定价，意味着 2027 年早期融资会更看重单位经济而不是叙事。反过来说，对个人工具类项目是好事——你不需要融资也能跑通，这恰好是你的结构性优势。
-
-📺 [打开原文](https://www.reuters.com/business/anthropic-breaks-below-83-ipo-price-debut-rally-unravels-2026-11-24/)
-
----
-
 ## 🌟 大厂 AI 动态
 
-### 3. Gemini 4 Neon 发布并登顶 Models Engineering Index，被指对标 Opus 5.5
+### 2. Gemini 4 Neon 发布并登顶 Models Engineering Index，Google 两周内连发 Carbon / Hydrogen / Neon 三代
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _yigitdemirag_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐⭐ · _yigitdemirag_
 
-Google 在 11 月 18 日发布 Gemini 4 Neon，三天后登上第三方 Models Engineering Index 榜首，独立博客 micjm.com 直接把它称为「Opus 5.5 的竞争者」。这是 Google 在两个月内发布的第四个 Gemini 4 变体（Carbon、Hydrogen、Neon，加上 Genie 4），命名体系已经让外部难以追踪。
+10 月 28 日 Gemini 4 Carbon、11 月 12 日 Gemini 4 Hydrogen（含 Antigravity 里的 Orchestrator）、11 月 18 日 Gemini 4 Neon，三周三代。Neon 上线当天就在第三方 Models Engineering Index 登顶，有博主直接称它「看起来像 Opus 5.5 的竞争对手」。这个发布节奏本身比单代模型能力更值得注意。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Gemini 4 Neon 于 11 月 18 日发布，HN 1071 分 | Models Engineering Index 是个人维护的第三方榜单，权重与方法论未公开，不能等同于行业共识 |
-| 11 月 19 日登上 Models Engineering Index 第一，作者为第三方 git-aarvin | 「对标 Opus 5.5」目前只有一篇独立博客的判断，缺少同任务对比数据 |
-| Gemini 4 Carbon 此前于 10 月 28 日发布，11 月 10 日正式可用，曾登顶 Artificial Analysis Intelligence Index v5 | 四个变体的定位差异（Carbon/Hydrogen/Neon）官方文档尚未给出清晰矩阵 |
-| Gemini 4 Hydrogen 于 11 月 12 日发布，同步上线 Google Antigravity 平台 | Neon 在 Agent 长任务上的实际稳定性没有公开 benchmark |
-| Genie 4 世界模拟模型于 10 月 27 日发布，11 月 18 日开放使用 | 定价与速率限制未在发布博客中明确 |
+| Gemini 4 Carbon 于 10 月 28 日发布，10 月 29 日登上 Artificial Analysis Intelligence Index v5 第一 | 三代模型之间的实际能力差异有多大，目前只有第三方榜单和博主评测，缺少官方对比数据 |
+| Gemini 4 Hydrogen 于 11 月 12 日发布，同步在 Google Antigravity 上线 Orchestrator | Neon 是否真是 Opus 5.5 同级，micjm.com 的判断属于个人评测而非系统基准 |
+| Gemini 4 Neon 于 11 月 18 日发布，HN 1071 分 | Gemini 4 Carbon「为什么这么慢」的讨论（kernel.dev 一文 288 分）暗示发布节奏与内部工程压力存在张力 |
+| Neon 在 Models Engineering Index 登顶，该榜单由第三方维护 | Orchestrator 在 Antigravity 里的具体编排能力边界尚不清楚 |
+| Gemini Decisions API 于 11 月 11 日单独发布，是面向 Agent 决策的独立接口 | DeepMind 员工正在组建工会（gdmunion.co.uk），是否影响后续发布节奏未知 |
+| Genie 4 世界模拟模型于 10 月 27 日发布、11 月 18 日开放使用 |  |
 
 **📖 主编点评**
 
-你的 content-curator 如果要接多模型路由，现在必须处理「同一家族四个变体」的选择问题。建议别追榜单，直接用你自己的真实任务（比如一次完整的选题+摘要流水线）跑 A/B，把 token 成本和一次通过率记下来——这比任何第三方 index 都可靠。
+对你的 content-curator 项目来说，这是直接的工程信号：模型迭代周期已经压缩到 2-3 周，任何硬编码模型名的架构都会很快过时。如果你在 Agent 里写死了具体模型，现在就该把模型选择抽象成配置层。另外 Gemini Decisions API 值得单独看一眼——它是少数专门为 Agent 决策路径设计的官方接口，比通用 chat completion 更贴近你要做的事。
 
 📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
 
 ---
 
-### 4. 新 benchmark 显示最强 AI Agent 在日常任务上仍不可靠，且会引入新问题
+## 🌟 股票
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Rebecca Bellan_
+### 3. Anthropic 跌破 83 美元 IPO 发行价，承销行稳定股价的仓位已平掉
 
-TechCrunch 报道了一个针对个人助理场景的新 benchmark，结论是即便最先进的模型也难以可靠、安全地完成日常任务，并且在失败时会引入新的风险。这条和你的项目直接相关——你做的是每天自动跑一遍的 Agent 流水线，可靠性比能力上限更重要。
+**[股票]** · ⭐⭐⭐⭐ · _thm_
+
+Anthropic 以 83 美元定价、1.5 万亿美元估值上市，首日冲高后迅速回落，11 月 24 日正式跌破发行价。更关键的是 Reuters 报道承销行已经关闭了用于稳定股价的仓位——这意味着护盘力量撤了。TechCrunch 直接把这称为「对 AI 创业公司的令人担忧的信号」。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 新 benchmark 聚焦个人 AI 助理的日常任务完成率与安全性 | benchmark 的具体任务集、评分口径与开源情况报道未披露，无法复现 |
-| 结论是顶级模型在可靠性上仍有明显缺口，失败时会引入新问题 | 「引入新问题」的具体类型（越权操作、错误下单还是隐私泄露）未细分 |
-| 报道时间为 11 月 24 日，作者 Rebecca Bellan | 样本规模与模型版本未公开，结论的统计强度存疑 |
-| 同期 Walmart 把黑五促销接入 Meta 的 AI agent Muse，说明消费级 Agent 已进入真实交易场景 | 对长周期、多步骤任务的覆盖程度未知 |
+| Anthropic IPO 定价 83 美元/股，估值 1.5 万亿美元，AP 报道 | 跌破发行价是短期市场情绪还是估值逻辑重估，目前只有一周数据 |
+| 11 月 24 日股价跌破 83 美元发行价，Reuters 报道「首日涨势瓦解」 | 9000 亿美元支出承诺与 17 亿美元季度人力成本的组合能否持续，取决于收入曲线，而收入数据尚未充分披露 |
+| 承销行已关闭用于稳定股价的仓位，Reuters 11 月 20 日报道 | IPO 文件警告可能「即将」接近递归自我改进（RSI），这一表述的法律与监管含义不明 |
+| IPO 文件披露季度人力成本 17 亿美元，人均月成本约 10.7 万美元 | Michael Burry 称 Anthropic 在「赌上存在」，属于观点而非事实 |
+| IPO 文件披露 9000 亿美元 AI 支出承诺，FT 报道 | AI 创业公司估值整体承压的传导速度未知 |
+| Blackstone 称 Anthropic 可能拿不到投资级评级，FT 报道 |  |
 
 **📖 主编点评**
 
-这条应该直接改变你的工程决策：给 content-curator 加一层「失败可见」——每次运行输出结构化日志（选了哪些候选、为什么跳过、哪一步降级），而不是只给最终 JSON。Agent 不可靠是常态，可观测性才是你的护城河。
+这条对你的实际含义不是「别买」，而是：AI 一级市场估值锚正在松动，这会反向影响你未来求职和做 Side Project 时的资源预期。如果你在考虑毕业后进 AI 创业公司，现在多看一眼它们的融资结构和 runway，比看产品 demo 更有用。另外 IPO 文件里那句「接近 RSI」的警告，是少见的把技术风险写进法律文件的案例，值得找原文读一遍。
 
-📺 [打开原文](https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/)
+📺 [打开原文](https://www.reuters.com/business/anthropic-breaks-below-83-ipo-price-debut-rally-unravels-2026-11-24/)
 
 ---
 
 ## 🌟 AI
 
-### 5. Claude 桌面端把 Code、Design、Cowork 收进同一客户端，Claude Code 从命令行进化成 GUI 完全体
+### 4. Claude 桌面端把 Code / Design / Cowork 三合一，Claude Code 从命令行进化成完整桌面客户端
 
 **[AI]** · ⭐⭐⭐⭐ · _技术爬爬虾_
 
-11 月 8 日的这条视频拆解了 Claude Desktop 的一轮大更新：Claude Code 的编程能力、Claude Design 的设计能力、Claude Cowork 的办公能力被合并进同一个桌面客户端，配合 Opus 5.5。对重度 Agent 用户来说，这意味着「终端 + 配置文件」的工作流正在被 GUI 收编。
+11 月 8 日发布的这条视频拆解了 Claude Desktop 的一波大更新：Claude Code 的编程能力、Claude Design 的设计能力、Claude Cowork 的办公能力被收进同一个客户端，配 Opus 5.5。这是 Anthropic 第一次把「Agent 工作台」做成一个统一入口，而不是散在 CLI、网页、IDE 插件里。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Claude Desktop 已整合 Claude Code、Claude Design、Claude Cowork 三项能力 | 桌面端是否会削弱 CLI 的可脚本化能力（hooks、CI 集成）尚不明确 |
-| Claude Code 从纯命令行工具扩展为桌面客户端形态 | 第三方 API 接入的稳定性取决于 Anthropic 的政策，教程作者自己也在提示「可能哪天就禁用」 |
-| 视频发布于 11 月 8 日，时长与内容为保姆级全流程演示 | Cowork 与 Design 的实际能力边界没有独立评测 |
-| 同期 B 站出现多条 Claude Code 桌面版配置第三方 API、汉化、接入 DeepSeek 的教程 | 对 MCP server 配置方式是否有变化，视频未完整覆盖 |
+| Claude Desktop 已整合 Claude Code、Claude Design、Claude Cowork 三项能力到同一客户端 | 三合一客户端是否真的减少上下文切换成本，还是只是 UI 层聚合，需要实际使用验证 |
+| Claude Code 从纯命令行工具变为桌面客户端形态 | Opus 5.5 在桌面端的实际表现与 API 端是否一致，尚无系统对比 |
+| 该版本搭配 Opus 5.5 模型 | Cowork 的办公能力边界（能操作哪些外部系统）不清晰 |
+| 视频发布于 11 月 8 日，属于近期更新而非旧内容 | 第三方 API 接入的稳定性取决于 Anthropic 是否封堵，历史上有先例 |
+| 社区已有第三方 API 接入、中文汉化、免登录等改法流传（多条 B 站教程佐证） | 桌面端是否会成为 Anthropic 的主推形态，还是并行选项，官方未明确 |
 
 **📖 主编点评**
 
-如果你现在的工作流重度依赖 Claude Code CLI 的 hooks 和 subagent 配置，先别急着迁到桌面端——把 CLI 那套配置（settings.json、MCP server、skills 目录）整理成可迁移的文档，等桌面端明确支持同等配置能力再切。这条视频适合当迁移前的功能盘点清单看。
+你在做 content-curator，这直接关系到你的开发形态选择：如果 Claude Desktop 真能把 Code + Cowork 打通，你的 Agent 可能不需要自己写 UI，而是作为一个 Skill 或 MCP 挂进桌面端。建议你花一个晚上实际装一遍，重点测两件事——它能不能稳定调用你自己的 MCP server，以及 Cowork 能不能读到本地文件系统。这两点决定了你的项目是「独立应用」还是「桌面端插件」。
 
 📺 [打开原文](http://www.bilibili.com/video/av117580048108571)
+
+---
+
+## 🌟 金融
+
+### 5. 巴西税务局把税收计算器以 MIT 协议开源到 GitHub，税改透明度第一次落到代码层
+
+**[金融]** · ⭐⭐⭐⭐ · _dvaplima_
+
+巴西联邦税务局在 GitHub 上发布了该国第一个开源政府代码：一个完整的税收计算器，MIT 协议。背景是巴西正在推进的税制改革，官方说法是「扩大税改透明度」。HN 上 789 分，讨论集中在「政府把税法写成可执行代码」这件事本身的意义。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 巴西联邦税务局（Receita Federal）在 GitHub 发布首个开源代码库 | 开源计算器是否与正式征税口径完全一致，官方未承诺代码即法律 |
+| 该代码库是税收计算器，采用 MIT 协议 | MIT 协议意味着任何人可商用修改，但税法解释权仍在政府，二者如何协调不明 |
+| 发布背景是巴西税制改革，官方表述为提升透明度 | 其他国家的税务机构是否会跟进，目前无迹象 |
+| HN 讨论 789 分，属于当日高热度技术话题 | 代码维护的持续性取决于政府预算与人员，开源项目的长期治理未知 |
+| 这是巴西政府第一个公开发布的开源代码 | 对个人开发者是否有实际可用场景，取决于巴西税法的适用范围 |
+
+**📖 主编点评**
+
+这条对你是个方法论样本，不是实用工具：把「规则」写成可执行、可审计、可 fork 的代码，是政府透明度的一种新形态。你做 content-curator 时其实在做同一件事——把「什么值得看」这条模糊规则写成可运行的筛选逻辑。区别在于你的规则可以私有，而公共规则一旦开源就获得了可验证性。值得想想你的 Agent 里哪些判断逻辑未来可以抽出来开源，作为简历上的「可审计作品」。
+
+📺 [打开原文](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria)
 
 ---
 
@@ -128,49 +133,53 @@ TechCrunch 报道了一个针对个人助理场景的新 benchmark，结论是�
 
 ### AI 算力 / 半导体
 
-- [Jensen Huang denies special government treatment at first Nvidia all-hands since return](https://www.tomshardware.com/tech-industry/big-tech/jensen-huang-denies-special-government-treatment-at-first-nvidia-all-hands-since-return-there-are-rumors-on-the-internet-that-apparently-im-a-tech-bro-and-therefore-im-back) —— 头条 1 的一手细节补充，含黄仁勋原话，适合想看治理事件原始表述的人。
+- [Google DeepMind 用 AlphaProof Code 形式化证明了 Signal 加密协议](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-ai-engineers-conjure-mathematical-proof-of-signals-encryption-protocol-alphaproof-code-framework-powered-human-bot-cooperation-for-speedy-work) —— AI 参与形式化验证真实生产级加密协议，是「AI 做数学」从玩具走向工程的关键一步，但细节还停留在新闻稿层面。
   _Bruno Ferreira_
-- [Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) —— 有具体吞吐数字和 vLLM 配置的推理优化实战，工程密度高，但受众偏窄所以放备选。
+- [两块 DGX Station 跑 GLM-5.3，vLLM 下达到 607.8 tok/s](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) —— 有具体吞吐数字和多机部署细节，是少见的推理工程实操文，但场景偏企业级，离个人项目远。
   _wondersky_
-- [TSMC Hacked](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm) —— 台积电向 SEC 提交的网络安全事件声明原文，供应链风险的一手材料，缺后续影响评估。
+- [TSMC 遭黑客攻击，已向 SEC 提交声明](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm) —— 原始 SEC 文件，信息密度高但无解读，适合自己读原文；影响面可能很大但细节未明。
   _gmays_
-- [Google DeepMind AI engineers conjure mathematical proof of Signal's encryption protocol](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-deepmind-ai-engineers-conjure-mathematical-proof-of-signals-encryption-protocol-alphaproof-code-framework-powered-human-bot-cooperation-for-speedy-work) —— AlphaProof Code 用于形式化验证 Signal 协议，人机协作做数学证明的新范式，值得单独深读。
-  _Bruno Ferreira_
+- [Winbond 认证 NOR Flash 切入边缘 AI 存储](https://www.eetimes.com/winbond-widens-edge-ai-reach-certifies-nor-flash/) —— 边缘 AI 的存储瓶颈是个被低估的工程问题，但这条是厂商通稿性质，缺独立数据。
+  _Gary Hilson_
 
 ### 大厂 AI 动态
 
-- [Amazon's Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia](https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-silicon-gap-with-nvidia/) —— 75 亿美元收购 Decart 提升 Trainium 效率，是「软件补硬件」路线的重要下注，但交易细节仍少。
+- [即便最好的 AI Agent 也搞不定日常生活](https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/) —— 新基准显示顶级 Agent 在日常任务上仍不可靠且会引入新问题，和你做 Agent 项目直接相关，但报道偏结论缺方法细节。
+  _Rebecca Bellan_
+- [Amazon 收购 Decart，7.5 亿美元赌软件缩小与 Nvidia 的芯片差距](https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/) —— 用软件效率补硬件差距的思路值得关注，但 7.5 亿美元数字来自「reported」，未经证实。
   _Anna Heim_
-- [Microsoft declares 'Code Red' after huge Outlook outage](https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage) —— 近 24 小时的 Exchange Online 中断触发内部 Code Red，基础设施可靠性话题，与 AI 弱相关。
+- [Walmart 联手 Meta，把黑五折扣搬进 AI Agent Muse](https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/) —— AI Agent 第一次成为零售大促的正式入口，商业信号强于技术信号，但对你个人项目参考价值有限。
+  _Lauren Forristal_
+- [Microsoft 因 Outlook 大规模宕机内部宣布「Code Red」](https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage) —— 近 24 小时邮件中断触发内部红色警报，是基础设施可靠性话题，但和你的关注方向关联弱。
   _Tom Warren_
-- [Huawei found guilty of stealing trade secrets](https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial) —— 纽约联邦法院陪审团裁定华为窃取商业秘密，中美科技博弈的法律节点，影响待观察。
+- [Huawei 被判窃取美国商业机密](https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial) —— 纽约联邦法院陪审团裁定有罪，地缘科技话题，但判决细节和后续影响尚未展开。
   _Emma Roth_
-- [Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/) —— 平台首次大规模清理纯 AI 生成内容，对内容平台治理有参考价值，但与你项目距离较远。
-  _Ivan Mehta_
 
 ### 股票
 
-- [Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump](https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026) —— 头条 2 的宏观背景，AI 双龙头同步下挫，但为实时盘面报道，深度有限。
+- [Nasdaq 回吐 2026 年全部涨幅，Nvidia 与 Anthropic 双双下挫](https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026) —— 大盘层面的确认信号，说明 AI 板块回调不是个股事件，但属于行情播报而非深度分析。
   _petethomas_
-- [A Banker's Guide to Anthropic](https://www.netinterest.co/p/a-bankers-guide-to-anthropic) —— 从信用事件角度拆解 Anthropic IPO，是理解头条 2 的最佳长文，但发布于 11 月 13 日不算新。
+- [Anthropic IPO 文件里的人力成本：季度 17 亿美元，人均月 10.7 万美元](https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html) —— 一个具体到人均的数字，比估值讨论更有信息量，适合作为理解 AI 公司成本结构的锚点。
+  _entryleveljobsc_
+- [Net Interest：供需——在 AI 经济里寻找均衡](https://www.netinterest.co/p/supply-and-demand) —— Marc Rubinstein 的金融视角长文，质量稳定，但发布在 11 月 23 日、偏综述，留作周末深读。
   _Marc Rubinstein_
-- [Two "suspicious clusters" on Polymarket Made Over $340k on Huang Comeback](https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/two-groups-of-polymarket-accounts-made-over-340-000-on-huang-comeback-Lan2T0TwbJPNsyhmQHGq) —— 预测市场疑似内幕交易，是治理事件的一个侧面，但证据链尚不完整。
-  _qlte_
 
 ### 金融
 
-- [Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87) —— 支付三巨头客户数据泄露，规模未明，值得跟踪但暂无技术细节。
+- [Visa、Mastercard、JPMorgan 客户数据被黑客泄露](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87) —— 三大支付机构同时中招，影响面大，但 WSJ 付费墙且细节有限，先记着等后续披露。
   _mikhael_
-- [The Fed Is Worried AI Agents Could Trigger a Bank Run](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566) —— 监管视角看 Agent 群体行为的系统性风险，概念新颖但报道偏浅，缺一手文件。
+- [美联储担心 AI Agent 可能引发银行挤兑](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566) —— 把 Agent 的速度优势和金融系统脆弱性连起来，是个新颖角度，但 Gizmodo 报道偏转述，缺一手材料。
   _pera_
-- [Brazil's tax authority open-sources its tax calculator on GitHub under MIT](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria) —— 国家级税务计算器以 MIT 协议开源，政府软件开源的好案例，与你的技术栈无关但值得知道。
-  _dvaplima_
+- [Oracle 申请发行 200 亿美元新股与债券为 AI 建设融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 基建融资从股权转向债权的又一例证，但发布于 11 月 2 日，时效性偏旧。
+  _smartmic_
 
 ### AI
 
-- [狂烧上万元，我用 AI 做了 500 多个网站！](http://www.bilibili.com/video/av117666283002439) —— 11 月 23 日发布，含 500+ 网站模板与提示词规范，是 vibe coding 规模化的真实成本样本，但偏营销。
+- [狂烧上万元，我用 AI 做了 500 多个网站](http://www.bilibili.com/video/av117666283002439) —— 11 月 23 日发布，有真实成本数字和开源模板库，是 vibe coding 规模化产出的少见样本，但标题党味重、内容偏产品推广。
   _程序员鱼皮_
-- [全网最详细的 AI 入门课：一期视频搞懂 58 个 AI 术语](http://www.bilibili.com/video/av117587144940374) —— 11 月 9 日发布，术语体系完整且最后用真实模型更新日志做练习，适合当索引而非深读。
+- [Vibe Coding 完不会获客？我用 AI 做了一个营销数据库](http://www.bilibili.com/video/av117587245599812) —— 从「做出产品」推进到「找到用户」，是 Side Project 工作流里被忽略的一环，演示了 Antigravity + MCP 的实际接法。
+  _熠辉IndieDev_
+- [全网最详细的 AI 入门课：一期搞懂 58 个 AI 术语](http://www.bilibili.com/video/av117587144940374) —— 11 月 9 日发布，术语覆盖到 Skill 这一层，适合当索引而非学习材料，对你来说密度偏低。
   _亚里今天也要AI_
 
 ---
