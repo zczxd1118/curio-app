@@ -2,41 +2,40 @@
 
 > 今日 1 条头条 + 3 条备选
 
-_今天最重要的两条线：一是 Nvidia 的治理危机从丑闻升级成信用事件——S&P 考虑下调评级、董事会独立性遭质疑、Huang 复职被国会炮轰，同时出口禁令下的 B300 服务器仍在中国公开叫价 340 万美元；二是 Anthropic IPO 上市即破发，跌破 83 美元发行价，AI 泡沫叙事第一次有了可量化的价格。对你来说，模型榜单的噪音（Gemini 4 各种代号）远不如这两条真实。_
+_今天最重要的信号是 Nvidia 的治理危机从丑闻升级为信用事件：S&P 考虑下调评级、SEC 查会计问题、国会开火，Huang 被董事会请回 CEO 反而加深了独立性质疑。另一条是 Anthropic IPO 上市即破发、跌穿 83 美元发行价，AI 资产的定价逻辑正在被重新审视。这两件事叠加，意味着 AI 叙事从「无限乐观」进入「要交财报」的阶段。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. 美联储开始担心 AI Agent 会引发挤兑
+### 5. 五角大楼连续第九次审计失败，尽管财务整理有进展
 
-**[金融]** · ⭐⭐⭐ · _Gizmodo_
+**[金融]** · ⭐⭐⭐ · _petethomas_
 
-Gizmodo 报道，美联储内部已在讨论 AI Agent 集中执行提款或转账指令可能引发的系统性风险——当成千上万个 Agent 在同一信号下同时行动，挤兑的速度会远超人类反应时间。这是监管层第一次把 Agent 当成金融稳定变量来对待。
+美国国防部连续第九年未能通过年度审计，尽管在财务组织上有所进展。这条放在头条是因为它和 AI 算力、半导体出口管制是同一条资金链的另一端——五角大楼既是最大的芯片采购方之一，也是出口管制政策的执行者，它的财务不透明直接影响这些政策的可追踪性。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 美联储已就 AI Agent 可能触发银行挤兑展开讨论 | 目前处于讨论阶段，没有任何监管草案或时间表 |
-| 关注点是 Agent 在高频、同质化指令下的集体行为 | Agent 行为的同质化程度缺乏实证数据 |
-|  | 是否会被纳入现有算法交易监管框架尚不明确 |
-|  | 对个人开发者使用金融类 Agent 的合规边界没有说明 |
+| 五角大楼连续第九次年度审计失败 | 审计失败对具体采购项目的影响程度不明 |
+| Reuters 报道称尽管财务整理有进展仍未通过 | 与 AI 芯片采购的关联属推断 |
+| 审计失败涉及国防部整体财务 | 改革时间表未明确 |
 
 **📖 主编点评**
 
-这条标 is_diverse，因为它不在你的舒适区，但值得看。你做 Agent 项目时迟早会碰'多个 Agent 同时调用外部 API'的场景，美联储的担忧本质是同一个工程问题：并发 Agent 的幂等性和限流。把这个思路提前设计进 content-curator 的采集层，比事后补锅便宜得多。
+这条不是让你去读审计报告，而是提醒你：AI 算力和出口管制的钱从哪来、怎么花，背后是一个连账都算不清的机构。你关注半导体政策时，把「执行层面的不透明」当成一个常量，别假设政策会被精确执行。
 
-📺 [打开原文](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566)
+📺 [打开原文](https://www.reuters.com/business/aerospace-defense/pentagon-fails-ninth-straight-audit-despite-progress-organizing-finances-2026-11-16/)
 
 ---
 
 ## 📋 备选阅读
 
-- [Visa、Mastercard、JPMorgan 客户数据被黑客泄露](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87) —— 支付巨头数据泄露，安全事件但缺技术细节，适合快速扫一眼。
-  _WSJ_
-- [Oracle 申请发行 200 亿美元股票与债券为 AI 建设融资](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— AI 基建融资的典型案例，但发布于三周前，新颖度不足。
-  _CNBC_
-- [arXiv：任务复杂度如何降低初级岗位被 AI 替代的风险](https://arxiv.org/abs/2611.34099) —— 直接关联你'大四找工作'的处境，结论是复杂任务更难被替代，值得读全文。
-  _arXiv_
+- [Brazil's tax authority open-sources its tax calculator on GitHub under MIT](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria) —— 巴西税务局以 MIT 协议开源税务计算器，政府代码开源的一个有意思案例。
+  _dvaplima_
+- [The Fed Is Worried AI Agents Could Trigger a Bank Run](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566) —— 美联储担心 AI Agent 可能引发挤兑，Agent 与金融系统交互的风险开始被监管正视。
+  _pera_
+- [How LLM Agents Reshape Financial Knowledge Graphs: A Survey](https://arxiv.org/abs/2611.33584) —— LLM Agent 如何重塑金融知识图谱的综述，偏学术但和你做 Agent 项目相关。
+  _Yunbai Zhang 等_
 
 ---
 

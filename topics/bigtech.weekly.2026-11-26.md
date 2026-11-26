@@ -2,43 +2,44 @@
 
 > 今日 1 条头条 + 4 条备选
 
-_今天最重要的两条线：一是 Nvidia 的治理危机从丑闻升级成信用事件——S&P 考虑下调评级、董事会独立性遭质疑、Huang 复职被国会炮轰，同时出口禁令下的 B300 服务器仍在中国公开叫价 340 万美元；二是 Anthropic IPO 上市即破发，跌破 83 美元发行价，AI 泡沫叙事第一次有了可量化的价格。对你来说，模型榜单的噪音（Gemini 4 各种代号）远不如这两条真实。_
+_今天最重要的信号是 Nvidia 的治理危机从丑闻升级为信用事件：S&P 考虑下调评级、SEC 查会计问题、国会开火，Huang 被董事会请回 CEO 反而加深了独立性质疑。另一条是 Anthropic IPO 上市即破发、跌穿 83 美元发行价，AI 资产的定价逻辑正在被重新审视。这两件事叠加，意味着 AI 叙事从「无限乐观」进入「要交财报」的阶段。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. OpenAI 合并 Chat 与 Work，重度用户会更早撞上用量上限
+### 3. Gemini 4 Neon 发布并登顶 Models Engineering Index，Google 一个月内连发四代 Gemini 4 变体
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _TechCrunch_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _yigitdemirag_
 
-OpenAI 宣布把 ChatGPT 的 Chat 和 Work 两个体验合并，并引入统一的用量计量表。官方明确说，重度用户会比以前更早触达限额。这是把'聊天'和'干活'当成同一种消耗品来计费，对每天拿它跑 Agent 的人是直接的成本信号。
+Google 发布 Gemini 4 Neon，随后在 Models Engineering Index 上登顶第一。这是 Gemini 4 系列在一个月内的第四个变体（Carbon、Hydrogen、Neon 加 Omni Flash），发布节奏密集到社区开始讨论「版本号通胀」。Neon 被多位开发者评价为 Opus 5.5 的正面竞争者。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Chat 与 Work 体验将合并为单一产品 | 具体的限额数值和重置周期尚未公布 |
-| 引入跨 ChatGPT 的统一用量计量 | 是否会影响 API 计费体系目前未知，可能只针对订阅端 |
-| OpenAI 明确表示重度用户会更早触达上限 | 合并后 Work 侧的 Agent 能力是否保留完整，需要实测 |
-|  | 对第三方 Agent 工具（依赖 ChatGPT 订阅额度）的连带影响不明 |
+| Gemini 4 Neon 已通过 Google 官方博客发布 | Neon 相对 Opus 5.5 的实际差距需独立评测验证 |
+| Neon 登顶 Models Engineering Index 第一 | 密集发版是否意味着内部版本管理混乱，尚属猜测 |
+| Gemini 4 系列一个月内发布 Carbon、Hydrogen、Neon 等多个变体 | 各变体之间的定位差异官方未清晰说明 |
+| Gemini 4 Carbon 曾登顶 Artificial Analysis Intelligence Index v5 | 榜单第一与实际工程体验的落差待观察 |
+| Antigravity 平台已集成 Gemini 4 Hydrogen 与 Orchestrator |  |
 
 **📖 主编点评**
 
-如果你在 content-curator 里用 ChatGPT 订阅额度跑批处理，现在就该做两件事：一是把用量监控加进工作流，二是准备一个 API 直连的降级路径。统一计量意味着'聊天'和'跑 Agent'抢同一份配额，你的自动化任务可能被日常对话挤掉。
+你如果重度用 Agent 工具，值得花半小时实测 Neon 在你的工作流里（比如 Claude Code 之外的备选）表现如何。但别被版本号带节奏——一个月四个变体，说明 Google 在快速试错，你要关注的是哪个变体在你的具体任务上稳定，而不是哪个榜单第一。
 
-📺 [打开原文](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/)
+📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
 
 ---
 
 ## 📋 备选阅读
 
-- [FCC 批准 SpaceX 在太空部署 AI 数据中心的计划](https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/) —— 监管放行是事实，但离落地很远，属于'知道就好'的新闻。
-  _TechCrunch_
-- [42 州总检察长试图阻止 Character.AI 出售用户聊天记录](https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats) —— 破产清算中 2100 万美国账户数据被摆上货架，AI 产品数据合规的警示案例。
-  _The Verge_
-- [Dario Amodei 称'向 AI 交出人类控制权'的指控荒谬](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/) —— 符合你想多看名人访谈的偏好，但这是回应式表态而非深度对话，密度不够上头条。
-  _TechCrunch_
-- [Amazon 与 Meta 据称在谈解除对 AI Agent Muse 的封锁](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/) —— Agent 生态的封锁与解封值得跟踪，但目前只有'据称'，缺硬事实。
-  _TechCrunch_
+- [FCC approves SpaceX plan to put AI data centers in space](https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/) —— FCC 批准 SpaceX 太空 AI 数据中心计划，驳回了科研界的主要反对意见。
+  _Kirsten Korosec_
+- [OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/) —— OpenAI 合并 Chat 与 Work 体验、统一用量计量，重度用户会更早触顶。
+  _Jagmeet Singh_
+- [Anthropic's Dario Amodei calls accusations of surrendering human control to AI 'absurd'](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/) —— Amodei 回应「向 AI 交出人类控制权」的指控，属你偏好的名人访谈类内容。
+  _Rebecca Bellan_
+- [Amazon and Meta reportedly in talks to lift blockade on AI agent Muse](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/) —— 亚马逊与 Meta 洽谈解除对 AI Agent Muse 长达两个月的封锁，平台间 Agent 互通有新动向。
+  _Lauren Forristal_
 
 ---
 
