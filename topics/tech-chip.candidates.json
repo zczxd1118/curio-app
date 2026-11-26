@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-25T12:28:24.665333+00:00",
+  "fetched_at": "2026-11-26T12:09:05.267978+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 28,
+    "HN · Nvidia": 31,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 52,
+  "total": 55,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,142 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/eu-rules-bring-new-safety-requirements-for-farm-robots/",
+      "title": "EU Rules Bring New Safety Requirements for Farm Robots",
+      "url": "https://www.eetimes.com/eu-rules-bring-new-safety-requirements-for-farm-robots/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Liam Critchley",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-26T08:55:48+00:00",
+      "summary": "New EU regulations will tighten safety and compliance requirements for farms deploying AI-powered robots and autonomous machinery. The post EU Rules Bring New Safety Requirements for Farm Robots appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/unikey-electronics-named-recom-global-authorized-distributor-at-electronica-2026/",
+      "title": "Unikey Electronics Named RECOM Global Authorized Distributor at electronica 2026",
+      "url": "https://www.eetimes.com/unikey-electronics-named-recom-global-authorized-distributor-at-electronica-2026/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Unikey Electronics Pte. Ltd.",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-26T08:31:51+00:00",
+      "summary": "Unikey signs a distribution agreement with RECOM, launching an online sourcing platform, and starting an industry interview series. The post Unikey Electronics Named RECOM Global Authorized Distributor at electronica 2026 appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/infineon-coolset-sip-enables-efficient-first-time-right-auxiliary-power-designs/",
+      "title": "Infineon CoolSET™ SiP Enables Efficient, ‘First-Time-Right’ Auxiliary Power Designs",
+      "url": "https://www.eetimes.com/infineon-coolset-sip-enables-efficient-first-time-right-auxiliary-power-designs/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Hubert Baierl, marketing director, Infineon Technologies AG",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-25T22:02:21+00:00",
+      "summary": "Auxiliary supply is indispensable, and designers need to facilitate high-efficiency solutions across a wide range of loads, in a limited PCB area, and deliver first-time-right designs. The post Infineon CoolSET™ SiP Enables Efficient, ‘First-Time-Right’ Auxiliary Power Designs appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/mcrps-power-supply-for-enterprise-data-centers/",
+      "title": "MCRPS Power Supply for Enterprise Data Centers",
+      "url": "https://www.eetimes.com/mcrps-power-supply-for-enterprise-data-centers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Antonello Laneve, Manuel Escudero, David Meneses, M.A. Kutschak, Theodoros Mouselinos, Alex Rossi, and Sam Abdel-Rahman, all at Infineon Technologies AG",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-25T20:36:47+00:00",
+      "summary": "The 5.6 kW MCRPS reference design from Infineon provides a viable solution for next-generation common redundant PSUs in enterprise servers. The post MCRPS Power Supply for Enterprise Data Centers appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/turning-optical-telemetry-into-cluster-reliability-integrating-link-health-data-into-monitoring-and-ticketing/",
+      "title": "Turning Optical Telemetry into Cluster Reliability: Integrating Link Health Data into Monitoring and Ticketing",
+      "url": "https://www.eetimes.com/turning-optical-telemetry-into-cluster-reliability-integrating-link-health-data-into-monitoring-and-ticketing/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Credo",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-25T18:00:22+00:00",
+      "summary": "Explore how integrating optical link health data into monitoring and ticketing can help teams improve cluster reliability. The post Turning Optical Telemetry into Cluster Reliability: Integrating Link Health Data into Monitoring and Ticketing appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/ai-makes-formal-verification-practical/",
+      "title": "AI Makes Formal Verification Practical",
+      "url": "https://www.eetimes.com/ai-makes-formal-verification-practical/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Sally Ward-Foxton",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-25T17:34:58+00:00",
+      "summary": "AI model startup Harmonic is expanding into formal verification for software and hardware. The post AI Makes Formal Verification Practical appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/understanding-accuracy-and-resolution-for-magnetic-angle-sensors/",
+      "title": "Understanding Accuracy and Resolution for Magnetic Angle Sensors",
+      "url": "https://www.eetimes.com/understanding-accuracy-and-resolution-for-magnetic-angle-sensors/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Monolithic Power Systems, Inc. (MPS)",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-25T14:00:00+00:00",
+      "summary": "Learn how magnetic angle sensor accuracy and resolution affect position measurement, and explore key factors for precise, reliable sensing applications. The post Understanding Accuracy and Resolution for Magnetic Angle Sensors appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/amd-tackles-dram-shortages-with-ai-and-flash-storage/",
+      "title": "AMD Tackles DRAM Shortages with AI and Flash Storage",
+      "url": "https://www.eetimes.com/amd-tackles-dram-shortages-with-ai-and-flash-storage/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Lucas Sideco",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-25T14:00:00+00:00",
+      "summary": "AMD MEXT uses AI to park cold memory pages in flash, cutting DRAM costs and easing data center shortages. The post AMD Tackles DRAM Shortages with AI and Flash Storage appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/winbond-widens-edge-ai-reach-certifies-nor-flash/",
       "title": "Winbond Widens Edge AI Reach, Certifies NOR Flash",
       "url": "https://www.eetimes.com/winbond-widens-edge-ai-reach-certifies-nor-flash/",
@@ -220,142 +356,6 @@
       "views": null,
       "published_at": "2026-11-25T08:32:46+00:00",
       "summary": "Southchip presented its automotive PMICs, 240W USB charging, wireless charging, ambient lighting, and high-side drivers at electronica Munich. The post Southchip Showcases Automotive Power, Charging, and Load-Control Solutions at electronica Munich appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/from-ai-platforms-to-industry-innovation-how-nvidia-connects-startups-to-build-an-ai-ecosystem/",
-      "title": "From AI Platforms to Industry Innovation: How NVIDIA Connects Startups to Build an AI Ecosystem",
-      "url": "https://www.eetimes.com/from-ai-platforms-to-industry-innovation-how-nvidia-connects-startups-to-build-an-ai-ecosystem/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "EE Times Taiwan",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-25T05:00:00+00:00",
-      "summary": "For AI startups, the real challenge is often not building AI itself, but getting it to work reliably in the real world. The post From AI Platforms to Industry Innovation: How NVIDIA Connects Startups to Build an AI Ecosystem appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/from-precision-to-autonomous-agriculture-the-role-of-edge-ai-and-robotics/",
-      "title": "From Precision to Autonomous Agriculture: The Role of Edge AI and Robotics",
-      "url": "https://www.eetimes.com/from-precision-to-autonomous-agriculture-the-role-of-edge-ai-and-robotics/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Shihao Fu",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-24T16:16:56+00:00",
-      "summary": "Edge AI and robotics bring greater precision and autonomy to agricultural machinery, from targeted spraying to harvesting. The post From Precision to Autonomous Agriculture: The Role of Edge AI and Robotics appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/vehicle-to-grid-great-idea-or-unrealistic-dream-part-2/",
-      "title": "Vehicle-to-Grid: Great Idea or Unrealistic Dream? (Part 2)",
-      "url": "https://www.eetimes.com/vehicle-to-grid-great-idea-or-unrealistic-dream-part-2/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Bill Schweber",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-24T11:53:11+00:00",
-      "summary": "Vehicle-to-grid technology promises grid benefits but raises concerns over battery life, charging access, costs, and driver convenience. The post Vehicle-to-Grid: Great Idea or Unrealistic Dream? (Part 2) appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/vehicle-to-grid-great-idea-or-unrealistic-dream/",
-      "title": "Vehicle-to-Grid: Great Idea or Unrealistic Dream?",
-      "url": "https://www.eetimes.com/vehicle-to-grid-great-idea-or-unrealistic-dream/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Bill Schweber",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-24T08:40:49+00:00",
-      "summary": "Vehicle-to-grid sounds like a partial solution for enhancing the grid, but the reality of the human factor may say otherwise. The post Vehicle-to-Grid: Great Idea or Unrealistic Dream? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/nsing-featured-cra-ai-robotics-motor-control-and-digital-energy-at-electronica-2026/",
-      "title": "NSING Featured CRA, AI Robotics, Motor Control and Digital Energy at electronica 2026",
-      "url": "https://www.eetimes.com/nsing-featured-cra-ai-robotics-motor-control-and-digital-energy-at-electronica-2026/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "NSING Technologies Pte. Ltd.",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-24T07:41:37+00:00",
-      "summary": "At electronica 2026 in Munich, NSING exhibited 35 solutions built on N32‑series MCUs, N32WB BLE SoCs and NS350 TPM, covering AI robotics, motor control and digital energy, and presented its CRA compliance offerings. The post NSING Featured CRA, AI Robotics, Motor Control and Digital Energy at electronica 2026 appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/nvidia-board-reinstates-jensen-huang-as-ceo/",
-      "title": "Nvidia Board Reinstates Jensen Huang as CEO",
-      "url": "https://www.eetimes.com/nvidia-board-reinstates-jensen-huang-as-ceo/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T18:17:02+00:00",
-      "summary": "Nvidia goes back to business as usual following Huang's resignation and reinstatement after a week. The post Nvidia Board Reinstates Jensen Huang as CEO appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/the-sovereign-ai-paradox-who-controls-the-compute/",
-      "title": "The Sovereign AI Paradox: Who Controls the Compute?",
-      "url": "https://www.eetimes.com/the-sovereign-ai-paradox-who-controls-the-compute/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Ron Honig",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T16:08:35+00:00",
-      "summary": "U.S. restrictions on overseas AI infrastructure could accelerate sovereign computing and weaken American technology dominance. The post The Sovereign AI Paradox: Who Controls the Compute? appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/secure-flash-a-practical-path-to-cyber-resilience-act-compliance/",
-      "title": "Secure Flash: A Practical Path to Cyber Resilience Act Compliance",
-      "url": "https://www.eetimes.com/secure-flash-a-practical-path-to-cyber-resilience-act-compliance/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Winbond Electronics Corporation",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-23T15:00:00+00:00",
-      "summary": "The EU Cyber Resilience Act (CRA) introduces cybersecurity requirements for connected products throughout their lifecycle. This white paper explores how Winbond’s TrustME® W77Q Secure Flash and CRA Conformance and Integration Kit help OEMs strengthen firmware protection, secure software updates, rollback prevention, and system recovery. It also highlights practical integration guidance, testing resources, and compliance-related documentation [&#8230;] The post Secure Flash: A Practical Path to C...",
       "lang": "en"
     },
     {
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50611576"
       },
       "duration_sec": null,
-      "views": 2819,
-      "comments": 3759,
+      "views": 2843,
+      "comments": 3805,
       "published_at": "2026-11-23T14:00:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -427,28 +427,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50611588"
       },
       "duration_sec": null,
-      "views": 1713,
+      "views": 1714,
       "comments": 4,
       "published_at": "2026-11-23T14:01:23+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50459703",
-      "title": "Nvidia is preparing to oust Jensen Huang",
-      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50459703",
-        "name": "jbredeche",
-        "hn_url": "https://news.ycombinator.com/item?id=50459703"
-      },
-      "duration_sec": null,
-      "views": 1227,
-      "comments": 1646,
-      "published_at": "2026-11-11T22:31:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -606,6 +587,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50638503",
+      "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+      "url": "https://gpu-demo-gallery.pages.dev/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50638503",
+        "name": "arkits",
+        "hn_url": "https://news.ycombinator.com/item?id=50638503"
+      },
+      "duration_sec": null,
+      "views": 347,
+      "comments": 80,
+      "published_at": "2026-11-25T04:31:48+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50581438",
       "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
       "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
@@ -655,28 +655,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50626861"
       },
       "duration_sec": null,
-      "views": 286,
-      "comments": 166,
+      "views": 291,
+      "comments": 167,
       "published_at": "2026-11-24T11:51:05+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50459776",
-      "title": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
-      "url": "https://twitter.com/watcherguru/status/2120645607866188008",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50459776",
-        "name": "alexmolas",
-        "hn_url": "https://news.ycombinator.com/item?id=50459776"
-      },
-      "duration_sec": null,
-      "views": 225,
-      "comments": 4,
-      "published_at": "2026-11-11T22:36:35+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -715,25 +696,6 @@
       "views": 178,
       "comments": 192,
       "published_at": "2026-11-15T23:24:53+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50638503",
-      "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
-      "url": "https://gpu-demo-gallery.pages.dev/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50638503",
-        "name": "arkits",
-        "hn_url": "https://news.ycombinator.com/item?id=50638503"
-      },
-      "duration_sec": null,
-      "views": 174,
-      "comments": 41,
-      "published_at": "2026-11-25T04:31:48+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -807,7 +769,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50630245"
       },
       "duration_sec": null,
-      "views": 123,
+      "views": 128,
       "comments": 68,
       "published_at": "2026-11-24T16:08:29+00:00",
       "summary": "",
@@ -924,6 +886,101 @@
       "views": 51,
       "comments": 45,
       "published_at": "2026-11-13T23:34:06+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50629620",
+      "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
+      "url": "https://www.reuters.com/legal/transactional/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-2026-11-24/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50629620",
+        "name": "onemoresoop",
+        "hn_url": "https://news.ycombinator.com/item?id=50629620"
+      },
+      "duration_sec": null,
+      "views": 43,
+      "comments": 19,
+      "published_at": "2026-11-24T15:28:23+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50476257",
+      "title": "US Intel isn't sure if Alice Huang spied on Nvidia for China",
+      "url": "https://www.cnn.com/2026/11/12/politics/alice-huang-us-intel-jensen-huang-nvidia",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50476257",
+        "name": "Leary",
+        "hn_url": "https://news.ycombinator.com/item?id=50476257"
+      },
+      "duration_sec": null,
+      "views": 40,
+      "comments": 55,
+      "published_at": "2026-11-13T00:02:34+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50520867",
+      "title": "Nvidia board not considering reinstating Jensen Huang as chief executive",
+      "url": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50520867",
+        "name": "doener",
+        "hn_url": "https://news.ycombinator.com/item?id=50520867"
+      },
+      "duration_sec": null,
+      "views": 39,
+      "comments": 21,
+      "published_at": "2026-11-16T18:17:18+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50513876",
+      "title": "Nvidia's Days as an Open Checkbook for the AI Economy Are Numbered",
+      "url": "https://www.wsj.com/tech/ai/nvidias-days-as-an-open-checkbook-for-the-ai-economy-are-numbered-90c7b388",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50513876",
+        "name": "mfiguiere",
+        "hn_url": "https://news.ycombinator.com/item?id=50513876"
+      },
+      "duration_sec": null,
+      "views": 38,
+      "comments": 10,
+      "published_at": "2026-11-16T04:03:51+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50511763",
+      "title": "Huang Discusses Comeback as Nvidia Chief with Allies, FT Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/huang-discusses-comeback-as-nvidia-chief-with-allies-ft-says",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50511763",
+        "name": "nstj",
+        "hn_url": "https://news.ycombinator.com/item?id=50511763"
+      },
+      "duration_sec": null,
+      "views": 35,
+      "comments": 1,
+      "published_at": "2026-11-15T22:53:51+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
