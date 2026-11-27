@@ -2,23 +2,23 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-26T12:08:53.634754+00:00",
+  "fetched_at": "2026-11-27T11:57:59.815195+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 16,
+    "HN · stock market": 15,
     "HN · IPO": 29,
-    "HN · earnings": 2,
+    "HN · earnings": 1,
     "HN · Federal Reserve": 0,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
     "Net Interest": 20
   },
   "subtopics": [],
-  "total": 62,
+  "total": 60,
   "items": [
     {
       "id": "hn:50556287",
@@ -51,7 +51,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50626861"
       },
       "duration_sec": null,
-      "views": 291,
+      "views": 292,
       "comments": 167,
       "published_at": "2026-11-24T11:51:05+00:00",
       "summary": "",
@@ -166,7 +166,7 @@
       },
       "duration_sec": null,
       "views": 531,
-      "comments": 942,
+      "comments": 943,
       "published_at": "2026-11-20T13:29:59+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -241,7 +241,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50617640"
       },
       "duration_sec": null,
-      "views": 59,
+      "views": 60,
       "comments": 7,
       "published_at": "2026-11-23T19:25:21+00:00",
       "summary": "",
@@ -306,25 +306,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50467092",
-      "title": "Jensen Huang resigning effective immediately",
-      "url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-ceo-03al5m45ne1p.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50467092",
-        "name": "chrisss395",
-        "hn_url": "https://news.ycombinator.com/item?id=50467092"
-      },
-      "duration_sec": null,
-      "views": 27,
-      "comments": 23,
-      "published_at": "2026-11-12T13:52:48+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
       "id": "hn:50465829",
       "title": "Anthropic IPO",
       "url": "https://ipo.anthropic.com/us/",
@@ -355,8 +336,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50627836"
       },
       "duration_sec": null,
-      "views": 428,
-      "comments": 796,
+      "views": 433,
+      "comments": 800,
       "published_at": "2026-11-24T13:23:47+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -431,7 +412,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50620721"
       },
       "duration_sec": null,
-      "views": 148,
+      "views": 150,
       "comments": 19,
       "published_at": "2026-11-23T23:03:13+00:00",
       "summary": "",
@@ -795,25 +776,6 @@
       "views": 56,
       "comments": 47,
       "published_at": "2026-11-17T22:08:34+00:00",
-      "summary": "",
-      "matched_keyword": "earnings",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50542361",
-      "title": "Interesting Learnings Working for a Startup",
-      "url": "https://news.ycombinator.com/item?id=50542361",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50542361",
-        "name": "Jessiejia11",
-        "hn_url": "https://news.ycombinator.com/item?id=50542361"
-      },
-      "duration_sec": null,
-      "views": 22,
-      "comments": 11,
-      "published_at": "2026-11-18T05:52:37+00:00",
       "summary": "",
       "matched_keyword": "earnings",
       "lang": "en"

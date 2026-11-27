@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-26T12:09:05.267978+00:00",
+  "fetched_at": "2026-11-27T11:58:11.391321+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 31,
+    "HN · Nvidia": 36,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 55,
+  "total": 60,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,57 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/huawei-next-big-ai-move-hbm-workaround/",
+      "title": "Huawei’s Next Big AI Move: HBM Workaround",
+      "url": "https://www.eetimes.com/huawei-next-big-ai-move-hbm-workaround/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Majeed Ahmad",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T08:56:46+00:00",
+      "summary": "The Shenzhen-based tech firm will provide details about its custom HBM design at ISSCC 2027 in San Francisco early next year. The post Huawei’s Next Big AI Move: HBM Workaround appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/siemens-adds-soc-verification-and-software-debug-with-two-planned-deals/",
+      "title": "Siemens Adds SoC Verification and Software Debug with Two Planned Deals",
+      "url": "https://www.eetimes.com/siemens-adds-soc-verification-and-software-debug-with-two-planned-deals/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Pat Brans",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-26T18:00:00+00:00",
+      "summary": "The planned Breker and Lauterbach acquisitions would expand Siemens’s development tools, but an analyst expects integration benefits to take time. The post Siemens Adds SoC Verification and Software Debug with Two Planned Deals appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/bridging-the-research-to-manufacturing-gap-in-canadas-semiconductor-industry/",
+      "title": "Bridging the Research-to-Manufacturing Gap in Canada’s Semiconductor Industry",
+      "url": "https://www.eetimes.com/bridging-the-research-to-manufacturing-gap-in-canadas-semiconductor-industry/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-26T14:00:00+00:00",
+      "summary": "Quantum computing, sovereign AI, ocean electronics, and advanced materials: six stories on how Canada is connecting its technology strengths—and confronting the challenge of scale. The post Bridging the Research-to-Manufacturing Gap in Canada’s Semiconductor Industry appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/eu-rules-bring-new-safety-requirements-for-farm-robots/",
       "title": "EU Rules Bring New Safety Requirements for Farm Robots",
       "url": "https://www.eetimes.com/eu-rules-bring-new-safety-requirements-for-farm-robots/",
@@ -308,57 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/amd-tackles-dram-shortages-with-ai-and-flash-storage/",
-      "title": "AMD Tackles DRAM Shortages with AI and Flash Storage",
-      "url": "https://www.eetimes.com/amd-tackles-dram-shortages-with-ai-and-flash-storage/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Lucas Sideco",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-25T14:00:00+00:00",
-      "summary": "AMD MEXT uses AI to park cold memory pages in flash, cutting DRAM costs and easing data center shortages. The post AMD Tackles DRAM Shortages with AI and Flash Storage appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/winbond-widens-edge-ai-reach-certifies-nor-flash/",
-      "title": "Winbond Widens Edge AI Reach, Certifies NOR Flash",
-      "url": "https://www.eetimes.com/winbond-widens-edge-ai-reach-certifies-nor-flash/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Gary Hilson",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-25T08:59:51+00:00",
-      "summary": "Winbond is pairing bandwidth and density to meet the edge’s demand for faster, safer memory without the custom-design price tag. The post Winbond Widens Edge AI Reach, Certifies NOR Flash appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/southchip-showcases-automotive-power-charging-and-load-control-solutions-at-electronica-munich/",
-      "title": "Southchip Showcases Automotive Power, Charging, and Load-Control Solutions at electronica Munich",
-      "url": "https://www.eetimes.com/southchip-showcases-automotive-power-charging-and-load-control-solutions-at-electronica-munich/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Christopher McGrady",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-25T08:32:46+00:00",
-      "summary": "Southchip presented its automotive PMICs, 240W USB charging, wireless charging, ambient lighting, and high-side drivers at electronica Munich. The post Southchip Showcases Automotive Power, Charging, and Load-Control Solutions at electronica Munich appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50479721",
       "title": "TSMC Hacked",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50611576"
       },
       "duration_sec": null,
-      "views": 2843,
-      "comments": 3805,
+      "views": 2851,
+      "comments": 3828,
       "published_at": "2026-11-23T14:00:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -454,25 +454,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50477231",
-      "title": "Nvidia employees petition to bring back Jensen Huang",
-      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50477231",
-        "name": "lavendermon",
-        "hn_url": "https://news.ycombinator.com/item?id=50477231"
-      },
-      "duration_sec": null,
-      "views": 820,
-      "comments": 697,
-      "published_at": "2026-11-13T02:16:24+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:50534631",
       "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
       "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
@@ -506,25 +487,6 @@
       "views": 486,
       "comments": 590,
       "published_at": "2026-11-15T23:55:55+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50473190",
-      "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
-      "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50473190",
-        "name": "jbredeche",
-        "hn_url": "https://news.ycombinator.com/item?id=50473190"
-      },
-      "duration_sec": null,
-      "views": 460,
-      "comments": 505,
-      "published_at": "2026-11-12T19:51:33+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -568,25 +530,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50467132",
-      "title": "Jensen Huang resigns as Nvidia CEO immediately",
-      "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50467132",
-        "name": "ksec",
-        "hn_url": "https://news.ycombinator.com/item?id=50467132"
-      },
-      "duration_sec": null,
-      "views": 375,
-      "comments": 14,
-      "published_at": "2026-11-12T13:56:11+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:50638503",
       "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
       "url": "https://gpu-demo-gallery.pages.dev/",
@@ -598,7 +541,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50638503"
       },
       "duration_sec": null,
-      "views": 347,
+      "views": 355,
       "comments": 80,
       "published_at": "2026-11-25T04:31:48+00:00",
       "summary": "",
@@ -618,8 +561,27 @@
       },
       "duration_sec": null,
       "views": 309,
-      "comments": 170,
+      "comments": 171,
       "published_at": "2026-11-20T20:22:41+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50626861",
+      "title": "Who in Washington owns and trades Nvidia stock",
+      "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50626861",
+        "name": "hubraumhugo",
+        "hn_url": "https://news.ycombinator.com/item?id=50626861"
+      },
+      "duration_sec": null,
+      "views": 292,
+      "comments": 167,
+      "published_at": "2026-11-24T11:51:05+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -639,25 +601,6 @@
       "views": 291,
       "comments": 262,
       "published_at": "2026-11-16T15:24:09+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50626861",
-      "title": "Who in Washington owns and trades Nvidia stock",
-      "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50626861",
-        "name": "hubraumhugo",
-        "hn_url": "https://news.ycombinator.com/item?id=50626861"
-      },
-      "duration_sec": null,
-      "views": 291,
-      "comments": 167,
-      "published_at": "2026-11-24T11:51:05+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -696,25 +639,6 @@
       "views": 178,
       "comments": 192,
       "published_at": "2026-11-15T23:24:53+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50467139",
-      "title": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
-      "url": "https://www.bbc.co.uk/news/live/c6zjry11v8w1t",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50467139",
-        "name": "cognoboffin",
-        "hn_url": "https://news.ycombinator.com/item?id=50467139"
-      },
-      "duration_sec": null,
-      "views": 169,
-      "comments": 5,
-      "published_at": "2026-11-12T13:56:38+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -769,7 +693,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50630245"
       },
       "duration_sec": null,
-      "views": 128,
+      "views": 129,
       "comments": 68,
       "published_at": "2026-11-24T16:08:29+00:00",
       "summary": "",
@@ -791,25 +715,6 @@
       "views": 81,
       "comments": 13,
       "published_at": "2026-11-13T13:45:06+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50467191",
-      "title": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
-      "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50467191",
-        "name": "sonabinu",
-        "hn_url": "https://news.ycombinator.com/item?id=50467191"
-      },
-      "duration_sec": null,
-      "views": 72,
-      "comments": 2,
-      "published_at": "2026-11-12T14:00:54+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -891,6 +796,25 @@
       "lang": "en"
     },
     {
+      "id": "hn:50659532",
+      "title": "Nvidia was right to bring back Jensen Huang, writes Sarah Guo",
+      "url": "https://www.economist.com/by-invitation/2026/11/25/nvidia-was-right-to-bring-back-jensen-huang-writes-sarah-guo",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50659532",
+        "name": "andsoitis",
+        "hn_url": "https://news.ycombinator.com/item?id=50659532"
+      },
+      "duration_sec": null,
+      "views": 43,
+      "comments": 37,
+      "published_at": "2026-11-26T20:39:05+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
       "id": "hn:50629620",
       "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
       "url": "https://www.reuters.com/legal/transactional/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-2026-11-24/",
@@ -905,25 +829,6 @@
       "views": 43,
       "comments": 19,
       "published_at": "2026-11-24T15:28:23+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50476257",
-      "title": "US Intel isn't sure if Alice Huang spied on Nvidia for China",
-      "url": "https://www.cnn.com/2026/11/12/politics/alice-huang-us-intel-jensen-huang-nvidia",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50476257",
-        "name": "Leary",
-        "hn_url": "https://news.ycombinator.com/item?id=50476257"
-      },
-      "duration_sec": null,
-      "views": 40,
-      "comments": 55,
-      "published_at": "2026-11-13T00:02:34+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -981,6 +886,196 @@
       "views": 35,
       "comments": 1,
       "published_at": "2026-11-15T22:53:51+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50621127",
+      "title": "Short Nvidia Fund Halted After 91% Wipeout",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/short-nvidia-fund-halted-after-91-wipeout-myoKEHNFkGcseucDUC48",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50621127",
+        "name": "devy",
+        "hn_url": "https://news.ycombinator.com/item?id=50621127"
+      },
+      "duration_sec": null,
+      "views": 33,
+      "comments": 7,
+      "published_at": "2026-11-23T23:36:26+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50648903",
+      "title": "S&P warns Nvidia's board may be compromised",
+      "url": "https://www.reuters.com/technology/us-finds-no-evidence-china-directed-executive-spy-nvidia-ceo-wsj-reports-2026-11-25/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50648903",
+        "name": "narmiouh",
+        "hn_url": "https://news.ycombinator.com/item?id=50648903"
+      },
+      "duration_sec": null,
+      "views": 32,
+      "comments": 6,
+      "published_at": "2026-11-25T23:03:16+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50616243",
+      "title": "Trump Is Said to Have Directed Effort to Reinstate Nvidia Chief",
+      "url": "https://www.nytimes.com/2026/11/23/us/politics/trump-nvidia-huang.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50616243",
+        "name": "johnny313",
+        "hn_url": "https://news.ycombinator.com/item?id=50616243"
+      },
+      "duration_sec": null,
+      "views": 32,
+      "comments": 6,
+      "published_at": "2026-11-23T18:03:59+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50557420",
+      "title": "Wife of Senior Nvidia Executive Caught Up in Alleged AI Chip Smuggling Scandal",
+      "url": "https://www.gadgetreview.com/wife-of-senior-nvidia-executive-caught-up-in-alleged-ai-chip-smuggling-scandal",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50557420",
+        "name": "mgh2",
+        "hn_url": "https://news.ycombinator.com/item?id=50557420"
+      },
+      "duration_sec": null,
+      "views": 32,
+      "comments": 0,
+      "published_at": "2026-11-19T08:23:41+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50521575",
+      "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
+      "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50521575",
+        "name": "jethronethro",
+        "hn_url": "https://news.ycombinator.com/item?id=50521575"
+      },
+      "duration_sec": null,
+      "views": 31,
+      "comments": 3,
+      "published_at": "2026-11-16T19:09:05+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50652248",
+      "title": "Nvidia halts chip shipments to south-East Asia",
+      "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50652248",
+        "name": "chirau",
+        "hn_url": "https://news.ycombinator.com/item?id=50652248"
+      },
+      "duration_sec": null,
+      "views": 29,
+      "comments": 5,
+      "published_at": "2026-11-26T06:43:42+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50634815",
+      "title": "Nasdaq Resumes Selloff as Nvidia, Anthropic Shares Slump",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50634815",
+        "name": "petethomas",
+        "hn_url": "https://news.ycombinator.com/item?id=50634815"
+      },
+      "duration_sec": null,
+      "views": 29,
+      "comments": 2,
+      "published_at": "2026-11-24T21:14:06+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50533023",
+      "title": "The Nvidia Bubble",
+      "url": "https://www.wheresyoured.at/the-nvidia-bubble/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50533023",
+        "name": "7777777phil",
+        "hn_url": "https://news.ycombinator.com/item?id=50533023"
+      },
+      "duration_sec": null,
+      "views": 27,
+      "comments": 12,
+      "published_at": "2026-11-17T15:47:41+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50539385",
+      "title": "Nvidia says it does not intend to reinstate Jensen Huang as CEO",
+      "url": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50539385",
+        "name": "granto",
+        "hn_url": "https://news.ycombinator.com/item?id=50539385"
+      },
+      "duration_sec": null,
+      "views": 27,
+      "comments": 8,
+      "published_at": "2026-11-17T22:51:01+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50570920",
+      "title": "No spy. No temptress. The Nvidia love affair is called RICO",
+      "url": "https://www.gregpalast.com/the-so-called-affair-between-the-nvidia-chief-and-the-chinese-spy/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50570920",
+        "name": "MilnerRoute",
+        "hn_url": "https://news.ycombinator.com/item?id=50570920"
+      },
+      "duration_sec": null,
+      "views": 26,
+      "comments": 2,
+      "published_at": "2026-11-20T06:33:34+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

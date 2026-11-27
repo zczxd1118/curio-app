@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-26T12:09:00.767205+00:00",
+  "fetched_at": "2026-11-27T11:58:06.724375+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,15 +11,15 @@
     "Stratechery": 10,
     "Net Interest（金融行业深度）": 20,
     "华尔街见闻 API": 0,
-    "arXiv q-fin（量化金融论文）": 17,
+    "arXiv q-fin（量化金融论文）": 0,
     "HN · Federal Reserve": 0,
     "HN · inflation": 0,
     "HN · Tesla": 2,
-    "HN · finance": 16,
+    "HN · finance": 15,
     "HN · fed": 11
   },
   "subtopics": [],
-  "total": 76,
+  "total": 58,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/the-individual-exception/",
@@ -532,295 +532,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://arxiv.org/abs/2611.33458",
-      "title": "The Information Content of News Embeddings",
-      "url": "https://arxiv.org/abs/2611.33458",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Chun He",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2611.33458v1 Announce Type: new Abstract: Does the predictive success of news embeddings reflect a better measure of news surprises or other sources of return predictability in text? We decompose news embeddings by content into event-category, firm-identity, and idiosyncratic components, and by timing into historical levels and current deviations. At short horizons, event categories account for most of the predictive power of embedding forecasts, and simple forecasts based on historical av...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.33584",
-      "title": "How LLM Agents Reshape Financial Knowledge Graphs: A Survey",
-      "url": "https://arxiv.org/abs/2611.33584",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Yunbai Zhang, Heze Ma, Nan Jiang, Wenxuan Liu, Ze Chen, Yunyi Gao, Winnie Gao, Han-Tai Shiao",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2611.33584v1 Announce Type: new Abstract: Financial knowledge graphs (KGs) link information across sources to support risk assessment, investment research, asset recommendations, and forecasting. Large language models (LLMs) help build these graphs by extracting relationships from text and matching entities across records. Yet a workflow may still prescribe which sources to consult and which checks to run. If the chosen sources lack relevant evidence, even accurate extraction can leave a f...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.33603",
-      "title": "Retirement Planning with Borrowing Constraints and Income Support",
-      "url": "https://arxiv.org/abs/2611.33603",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Tae Ung Gang, Seyoung Park, Yong Hyun Shin",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2611.33603v1 Announce Type: new Abstract: We study how pension income, its pledgeability, and government support that supplements effective consumption shape an irreversible retirement decision. In a continuous-time life-cycle model, a worker chooses consumption, risky investment, and the timing of retirement, subject to a tighter borrowing limit after retirement. When retirement reduces the utility value of a given level of effective consumption, immediate retirement can be optimal on a b...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.34099",
-      "title": "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk",
-      "url": "https://arxiv.org/abs/2611.34099",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Vincent Rost, Fabian Stephany",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2611.34099v1 Announce Type: new Abstract: How does task complexity shape firms' willingness to substitute entry-level labour with artificial intelligence (AI) tools? We study this question using a pre-registered survey experiment with managers from 1,435 German firms in the information economy and manufacturing industry. Managers are randomly assigned to consider a long lasting need for additional capacity involving either well-structured and standardised tasks, or more complex tasks that ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.33593",
-      "title": "Optimization of a Hybrid Solar-Biogas-Battery Energy Storage Microgrid: A Case Study",
-      "url": "https://arxiv.org/abs/2611.33593",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "John Elomunait, Jesse Thornburg",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2611.33593v1 Announce Type: cross Abstract: Low-income regions like eastern Uganda often lack reliable grid power. This paper presents the techno-economic optimization of the Soroti Integrated Renewable Energy Microgrid (SIREM), a hybrid renewable system for grid-access expansion where Soroti District household grid access stands at 16.7\\%. The microgrid integrates concentrating solar power (CSP) with thermal storage, biogas combined cycle generation, and lithium iron phosphate battery sto...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.34068",
-      "title": "Budget, Readout or Reasoning? Where Small Reasoning Models Lose Value in Auction Bidding",
-      "url": "https://arxiv.org/abs/2611.34068",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Mahbod Khaleti, Seyed Reza Tavakoli, Baran Hoseini, Alireza Noori, Amir Amini, Koorosh Aslansefat, Marjan Alirezaie, Ali Habibnia",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2611.34068v1 Announce Type: cross Abstract: Ad platforms and marketplaces show bidders a bid landscape, the estimated chance of winning at each candidate bid, and increasingly let agents built on reasoning language models choose the bid. We give six open reasoning models of 4B to 14B parameters such landscapes, with win curves from eBay closing prices and from a simulated advertising market (AuctionNet), and score their bids on held-out auctions against an exact calculator. Because the age...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2506.07928",
-      "title": "Predicting Realized Variance Out of Sample: Can Anything Beat The Benchmark?",
-      "url": "https://arxiv.org/abs/2506.07928",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Austin Pollok",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2506.07928v2 Announce Type: replace Abstract: The discrepancy between realized volatility and the market's view of volatility has been known to predict individual equity options at the monthly horizon. It is not clear how this predictability depends on a forecast's ability to predict firm-level volatility. We consider this phenomenon at the daily frequency using high-dimensional machine learning models, as well as low-dimensional factor models. We find that marginal improvements to standar...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2512.05659",
-      "title": "AI and the Division of Labor in Public Sector Jobs and Teams",
-      "url": "https://arxiv.org/abs/2512.05659",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Andrew Ledingham, Michael Hollins, Matthew Lyon, David Gillespie, Umar Yunis-Guerra, Jamie Siviter, David Duncan, Oliver P. Hauser",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2512.05659v2 Announce Type: replace Abstract: How artificial intelligence (AI) affects an organization depends not only on which jobs are exposed, but on how more (versus less) exposed tasks are combined within roles. Using 283,484 UK Civil Service vacancies, we extract 2.7 million tasks and estimate their automation potential with an ensemble of eight foundation models. We find that differences among tasks within roles account for 65.3 percent of total exposure variance, while profession ...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2606.20145",
-      "title": "Volatility Forecasts with Market Trends",
-      "url": "https://arxiv.org/abs/2606.20145",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Sara A. Safari, Christoph Schmidhuber",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2606.20145v2 Announce Type: replace Abstract: We show how volatility forecasts for financial markets can be refined by accounting for the current trends in these markets. Empirically, volatilities tend to increase day after day in times of strong up- or down-trends. This effect is particularly pronounced during down-trends. We find that it can accurately be modeled by including quadratic polynomials of the current trend strength as explanatory factors. Such factors can improve the predicti...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2607.09951",
-      "title": "Macroeconomic Risks from Maritime Trade Disruptions",
-      "url": "https://arxiv.org/abs/2607.09951",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Vipin P. Veetil, Fathimath S. Vemmarath",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2607.09951v3 Announce Type: replace Abstract: This paper develops a model of maritime chokepoint closures in which interrupting a shipping passage produces losses that are not measured, or even bounded, by the value of the trade that transits it. The losses stem from disruptions to the flow of intermediate inputs that are complementary in downstream production. They travel through the world trade network, which itself rewires around the closed passage. Re-matching displaced trade on the bu...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2608.04987",
-      "title": "Portfolio Allocation under Heterogeneous Scales and Multifractality",
-      "url": "https://arxiv.org/abs/2608.04987",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Shinji Kakinaka, Ken Umeno",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2608.04987v2 Announce Type: replace Abstract: Cross-correlations between financial signals are neither scale-free nor amplitude-independent: they vary with the time scale over which they are measured and with the magnitude of the fluctuations that dominate the average. We exploit this structure to construct a portfolio allocation model in which the risk functional is the signed fluctuation function of multifractal cross-correlation analysis (MFCCA), indexed by a scale $s$ and a fluctuation...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.04070",
-      "title": "Evaluating LLM Research Agents as Tests of Return Predictability",
-      "url": "https://arxiv.org/abs/2611.04070",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Chang Liu",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2611.04070v3 Announce Type: replace Abstract: How often do research agents built on large language models report that they can forecast returns when the data contain no signal? We score the conclusions of four such agents as statistical decisions on the same simulated monthly return series. Without a prescribed significance level, the agents reported that their forecasts would beat the expanding historical mean in 16-44% of 110 null samples, whereas a Holm-adjusted regression test rejected...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.20589",
-      "title": "Beyond Marginal Risk: ESG and Multidimensional Fragility in Equity Markets",
-      "url": "https://arxiv.org/abs/2611.20589",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Minxuan Hu, Jiayu Yi, Ziheng Chen, Wenxi Sun, Qishi Zhan",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2611.20589v2 Announce Type: replace Abstract: Do ESG characteristics provide financial resilience beyond conventional risk, and is that inference stable to the financial state and ESG score being measured? We study a point-in-time panel of nonfinancial S&amp;P 500 constituents from January 2019 through November 2025. Once ex ante return, volatility, and liquidity exposures are modeled explicitly, the broad downside-resilience pattern attenuates and none of the three primary marginal ESG $\\...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.26652",
-      "title": "Distributional Deep Hedging",
-      "url": "https://arxiv.org/abs/2611.26652",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "El-Amine Cherrat, Skander Kazdaghli, Iordanis Kerenidis",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2611.26652v2 Announce Type: replace Abstract: Deep hedging learns a hedging strategy by optimising a risk preference over a neural-network policy. The preference is fixed before training, so each new preference requires a new policy and, in actor-critic methods, a new critic. We propose distributional deep hedging, in which the distribution of the hedging profit and loss is learned through its quantiles and the risk preference is applied afterwards, as a weight on those quantiles. We chara...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2611.30843",
-      "title": "Cleaning correlation matrices with external information: the Maximum Variance estimator",
-      "url": "https://arxiv.org/abs/2611.30843",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "S\\'ebastien Valeyre",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2611.30843v3 Announce Type: replace Abstract: Rotationally invariant estimators clean the eigenvalues of an empirical correlation matrix but keep its noisy eigenvectors. We study an estimator that corrects the eigenvectors by using external information, namely a partition of the assets into groups such as asset classes or regions. The Maximum Variance (MaxVar) estimator restricts the leading eigenvectors to linear combinations of the maximum-variance portfolios of the groups and replaces t...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2605.24514",
-      "title": "Incremental SVD for Large-Scale Dynamic Matrices: Accuracy, Subspace Stability, Refresh Strategies, and Financial Factor-Based Risk Models",
-      "url": "https://arxiv.org/abs/2605.24514",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Stilyan Staykov",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2605.24514v2 Announce Type: replace-cross Abstract: Return panels, covariances, and large feature matrices evolve one observation or entry at a time, yet downstream models require an up-to-date low-rank factorization $A_t \\approx U_t \\Sigma_t V_t^\\top$ on every tick - a regime where a full singular value decomposition (SVD) is prohibitive and existing alternatives sacrifice singular vectors, singular values, or long-horizon stability. We present a metric-driven study of Brand-style increme...",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://arxiv.org/abs/2609.35744",
-      "title": "FinAutoRubric: Expert-Guided Automatic Rubric Generation for Evaluating Financial Research Agents",
-      "url": "https://arxiv.org/abs/2609.35744",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://export.arxiv.org/rss/q-fin",
-        "name": "Hoyoung Lee, Suyeol Yun, Jack Haverty, Yunju Cho, Meesong Kim, Daekyung Park, Sumin Kim, Jihoon Kwon, Jasmine Jia Geng, Andrew Chin, Yin Luo, Edward Tong, Yu Yu, Zach Golkhou, Minkyu Kim, Igor Halperin, Young Cha, Alejandro Lopez-Lira, Chanyeol Choi, Yongjae Lee",
-        "feed_title": "q-fin updates on arXiv.org"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T05:00:00+00:00",
-      "summary": "arXiv:2609.35744v3 Announce Type: replace-cross Abstract: Evaluating finance research agents requires rubrics that reflect expert standards and fix the values correct as of an information cutoff. Expert-reviewed finance benchmarks rely on fixed, per-item rubrics, which are costly to extend and cannot encode each institution's own standard. In FinAutoRubric, experts specify reusable evaluation guidance, while agents and code carry out query-specific rubric generation, review, and validation. This...",
-      "lang": "en"
-    },
-    {
       "id": "hn:50594937",
       "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
       "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
@@ -908,7 +619,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50562754"
       },
       "duration_sec": null,
-      "views": 1146,
+      "views": 1147,
       "comments": 2345,
       "published_at": "2026-11-19T17:02:40+00:00",
       "summary": "",
@@ -987,25 +698,6 @@
       "views": 198,
       "comments": 50,
       "published_at": "2026-11-19T23:32:11+00:00",
-      "summary": "",
-      "matched_keyword": "finance",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50260526",
-      "title": "A $300B 'Debt Wall' Is Looming over Private-Equity Backed Companies",
-      "url": "https://www.wsj.com/finance/investing/a-300-billion-debt-wall-is-looming-over-private-equity-backed-companies-d6359497",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50260526",
-        "name": "JumpCrisscross",
-        "hn_url": "https://news.ycombinator.com/item?id=50260526"
-      },
-      "duration_sec": null,
-      "views": 178,
-      "comments": 66,
-      "published_at": "2026-10-27T15:09:27+00:00",
       "summary": "",
       "matched_keyword": "finance",
       "lang": "en"
@@ -1117,8 +809,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50605699"
       },
       "duration_sec": null,
-      "views": 58,
-      "comments": 63,
+      "views": 59,
+      "comments": 66,
       "published_at": "2026-11-23T00:23:37+00:00",
       "summary": "",
       "matched_keyword": "finance",
