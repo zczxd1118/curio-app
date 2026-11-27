@@ -1,43 +1,41 @@
 # Curio · AI · 2026-11-27
 
-> 今日 1 条头条 + 3 条备选
+> 今日 1 条头条 + 2 条备选
 
-_今天最重的信号来自 Nvidia：Jensen Huang 被董事会重新任命为 CEO，同时公司暂停向东南亚出货、SEC 调查会计问题、S&P 考虑下调信用评级——一家公司的治理风险正在变成整个 AI 算力供应链的风险。另一条线是 Anthropic 上市后跌破 83 美元发行价，AI 资本叙事第一次出现公开市场的反向定价。对做 Agent 的你来说，工具链层面真正的新东西是 T3 Code 这类多 Agent 并行工作台。_
+_今天最重要的信号有两个。一是 Nvidia 的治理危机已经从八卦升级为信用事件：S&P 考虑下调评级、SEC 查会计问题、东南亚出货暂停，黄仁勋被董事会请回 CEO 反而加深了外界对董事会独立性的怀疑。二是 Anthropic 上市后股价跌破 83 美元发行价，AI 资产的定价逻辑正在被重新校准。这两件事叠加，意味着「算力无限增长」的叙事第一次出现了裂缝。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. T3 Code 开源 AI IDE 实测：一条指令拉起多个 Agent 线程并行改代码，统一调度 Claude Code 与 Codex
+### 4. Claude Code 从命令行进化为桌面客户端完全体：编程、设计、办公三合一，配 Opus 5.5
 
-**[AI]** · ⭐⭐⭐⭐ · _AI超元域_
+**[AI]** · ⭐⭐⭐⭐ · _技术爬爬虾_
 
-T3 Code 是一个开源 AI IDE，核心能力是把 Claude Code、Codex、Pi、Antigravity 等订阅统一装进一个工作台，用一条指令并行拉起多个 Agent 线程处理同一项目，并支持手机下发任务。视频发布于 11 月 24 日，是目前少见的、带完整安装配置到多 Agent 工作流实战的中文内容。
+11 月 8 日发布的这条视频拆解了 Claude Desktop 的一次大改版：Claude Code 不再是黑乎乎的命令行工具，而是被收进桌面客户端，与 Claude Design、Claude Cowork 并列。搭配 Opus 5.5，Anthropic 实际上是在把「编程 Agent」重新定位成「通用工作 Agent」的一个入口。这是产品形态的变化，不只是 UI 变化。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| T3 Code 为开源项目，支持统一调度 Claude Code、Codex、Pi、Antigravity 等多个 AI 编程后端 | 多 Agent 并行改同一项目时代码改动如何隔离，视频提出这个问题但未给出完整工程答案 |
-| 支持一条指令并行启动多个 Agent 线程处理同一项目 | 「比 Orca 更好用」是 UP 主主观判断，缺少横向基准 |
-| 支持从手机端下发任务 | 并行线程的实际 token 消耗与冲突解决成本没有量化数据 |
-| 视频包含从安装配置到多 Agent 工作流实战的完整演示 | 项目成熟度与长期维护情况未知，开源仓库活跃度需自行核实 |
-| 发布时间为 2026 年 11 月 24 日，属本周新内容 | 手机下发任务的链路是否稳定、是否需要自建中转，视频未展开 |
+| Claude Desktop 已整合 Claude Code、Claude Design、Claude Cowork 三项核心能力 | 桌面化是否真的提升编程效率，还是只是降低了入门门槛，缺少对比数据 |
+| Claude Code 从纯命令行形态迁移为桌面客户端内的完整形态 | Claude Design 与 Cowork 的实际能力边界在哪里，官方文档仍模糊 |
+| 当前搭配的模型为 Opus 5.5 | 多 Agent 工作台（T3 Code 等）与官方客户端的竞争关系会如何演化 |
+| 视频发布于 2026 年 11 月 8 日，属于近期更新 | Opus 5.5 在长任务上的稳定性是否足以支撑「完全体」这个说法 |
+| 同期社区出现 T3 Code 等第三方工作台，可统一调度 Claude Code、Codex 等多个 Agent | Anthropic 上市后的产品节奏是否会因财务压力而改变 |
 
 **📖 主编点评**
 
-这条正对你的痛点：你在做 content-curator，多 Agent 分工（抓取 / 筛选 / 写作）是迟早要碰的。T3 Code 值得花一个晚上装一遍，重点不是用它写业务代码，而是观察它怎么隔离并行 Agent 的文件改动——这个设计思路可以直接搬到你的项目里。看的时候跳过安装段，直接看多线程冲突处理那部分。
+这条对你的价值在于产品设计参照：Anthropic 把 CLI 工具收进 GUI 的路径，正是你做 content-curator 时可以考虑的形态演进方向——先有能跑的命令行核心，再包一层可交互的壳。建议你实际装一次，重点看它怎么处理「权限确认」和「长任务中断恢复」，这两点是个人 Agent 项目最容易翻车的地方。
 
-📺 [打开原文](http://www.bilibili.com/video/av117671802705979)
+📺 [打开原文](http://www.bilibili.com/video/av117580048108571)
 
 ---
 
 ## 📋 备选阅读
 
-- [Claude Code 从 0 到 1 全攻略：权限、MCP、Skills、Hooks、子智能体](http://www.bilibili.com/video/av117642291582518) —— 11 月 19 日发布，覆盖你关心的 Skills / Hooks / Subagents 全链路。内容对路但属教程合集，密度不如头条那条 T3 Code 实测。
+- [T3 Code 完整教程：一个工作台统一调度 Claude Code、Codex 等多个 Agent，支持手机下发任务](http://www.bilibili.com/video/av117671802705979) —— 11 月 24 日发布，正好契合你「多 Agent 工作流」的兴趣，但属于教程类，深度待验证，先放备选。
+  _AI超元域_
+- [Claude Code 从 0 到 1 全攻略：权限、MCP、Skills、Subagents、Hooks 全流程](http://www.bilibili.com/video/av117642291582518) —— 11 月 19 日发布，覆盖你关心的 Skills / Subagents / Hooks，但标题是典型合集式，需要自己判断密度。
   _大模型分享员_
-- [一期视频搞懂 58 个 AI 术语：从大模型到 Agent、MCP、Skill](http://www.bilibili.com/video/av117587144940374) —— 11 月 9 日发布，术语梳理做得细，最后用真实模型更新日志做练习这个设计不错。对你偏基础，但可以转给刚入门的人。
-  _亚里今天也要AI_
-- [DeepSeek Harness 与 Claude Code 同模型对比实测](http://www.bilibili.com/video/av117100337236191) —— 用同一个 DeepSeek 模型在两个 harness 里跑同样任务，结论是工具链影响大于模型。观点对你有用，但发布于 8 月，新颖度不够。
-  _程序员晓刘_
 
 ---
 

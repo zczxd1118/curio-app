@@ -2,45 +2,45 @@
 
 > 今日 1 条头条 + 4 条备选
 
-_今天最重的信号来自 Nvidia：Jensen Huang 被董事会重新任命为 CEO，同时公司暂停向东南亚出货、SEC 调查会计问题、S&P 考虑下调信用评级——一家公司的治理风险正在变成整个 AI 算力供应链的风险。另一条线是 Anthropic 上市后跌破 83 美元发行价，AI 资本叙事第一次出现公开市场的反向定价。对做 Agent 的你来说，工具链层面真正的新东西是 T3 Code 这类多 Agent 并行工作台。_
+_今天最重要的信号有两个。一是 Nvidia 的治理危机已经从八卦升级为信用事件：S&P 考虑下调评级、SEC 查会计问题、东南亚出货暂停，黄仁勋被董事会请回 CEO 反而加深了外界对董事会独立性的怀疑。二是 Anthropic 上市后股价跌破 83 美元发行价，AI 资产的定价逻辑正在被重新校准。这两件事叠加，意味着「算力无限增长」的叙事第一次出现了裂缝。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Nvidia 董事会重新任命 Jensen Huang 为 CEO，治理争议与出口管制同时压顶
+### 1. Nvidia 治理危机升级为信用事件：S&P 警告董事会可能已失独立性，SEC 同步查会计问题
 
-**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _jaz_
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _Reuters / HN_
 
-Huang 此前辞任后，董事会在 Trump 政府推动下将其重新任命为总裁、CEO 兼董事，CNBC 与 Nvidia 官方新闻稿同日确认。但国会公开抨击这是「品格失败」，S&P 表示正考虑因治理与「关键人风险」下调其信用评级。这不是一次普通的人事回归，而是把公司治理问题直接暴露在监管和债权人面前。
+黄仁勋 11 月 23 日被董事会重新任命为 CEO，结束了这场持续两周的闹剧，但市场没有买账。S&P 随即表示正在评估 Nvidia 的董事会独立性，可能将信用评级下调至 AA-；SEC 的调查则聚焦会计处理。与此同时，公司已通知代工伙伴暂停向马来西亚、新加坡、泰国、印尼发运服务器。这不是一次公关危机，而是公司治理结构被公开质疑。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Nvidia 董事会已正式重新任命 Jensen Huang 为总裁、CEO 及董事会成员，官方新闻稿与 CNBC 报道一致 | Huang 辞任的真实原因至今没有官方完整说明，外界关于高管个人丑闻的报道仍属未经证实的指控 |
-| Huang 此前已辞去 CEO 职务，本次为回归，Reuters 与 FT 在 11 月 15 日已报道其与盟友讨论复出 | Trump 政府在其中扮演的角色有多深，NYT 称其「指示推动复职」，但白宫未正面确认细节 |
-| S&P 表示正考虑将 Nvidia 信用评级下调至 AA-，理由包括治理与关键人风险 | S&P 是否真的下调评级尚未决定，目前只是「考虑」，时间表不明 |
-| 国会两党议员公开批评此次回归，CNBC 报道用词为「outrageous」与「failure of character」 | 暂停东南亚出货是临时合规动作还是长期策略转向，Nvidia 未给出恢复时间 |
-| Nvidia 已通知制造伙伴暂停向马来西亚、新加坡、泰国、印尼发运服务器 | 会计问题调查会不会升级为正式指控，目前无任何监管文件支持 |
-| SEC 对 Nvidia 的调查正在审查潜在会计问题，Reuters 援引消息人士 |  |
+| S&P 明确表示正考虑将 Nvidia 信用评级下调至 AA-（第四高等级），理由是治理与「关键人风险」 | 董事会独立性是否真的受损，还是仅为危机公关的临时安排，目前没有独立调查结论 |
+| SEC 对 Nvidia 的调查已扩展到潜在会计问题，而非仅限高管个人行为 | SEC 的会计问题调查是否会升级为正式指控，时间表未知 |
+| Nvidia 已要求制造伙伴暂停向马来西亚、新加坡、泰国、印尼发运 AI 服务器 | 东南亚出货暂停是短期合规动作还是长期出口管制的开端，公司未给出口径 |
+| 董事会于 11 月 23 日重新任命黄仁勋为总裁兼 CEO，此前他曾辞职 | 黄仁勋回归后能否稳住核心客户与供应链关系，尚无客户公开表态 |
+| 国会两党均公开批评这一反转，有议员称其为「品格失败」 | 信用评级若真下调，对 Nvidia 融资成本和 AI 基建融资链条的传导幅度难以估算 |
+| Nvidia 同意支付 2.9 亿美元，了结 2018 年加密挖矿 GPU 销售相关的投资者集体诉讼 |  |
 
 **📖 主编点评**
 
-你不需要跟踪 Nvidia 的股价，但需要知道一件事：AI 算力的供给端现在带着治理不确定性。如果你在做需要长期稳定推理成本的项目，别把架构绑死在单一云厂商的最新 GPU 档位上，留一条降级路径。另外这轮风波里最值得读的不是新闻，是 Steve Blank 那篇《What's Next for Nvidia?》——它讲的是公司治理如何反噬技术护城河。
+如果你在做任何依赖 GPU 供给假设的项目规划，现在应该把「Nvidia 交付节奏可能因合规与治理问题波动」写进风险项。更实际的是：关注 12 月 S&P 的正式评级决定和 SEC 的调查进展，这两个节点会决定这轮 AI 基建叙事是短暂回调还是结构性转折。别只看股价，看债券利差。
 
-📺 [打开原文](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html)
+📺 [打开原文](https://www.reuters.com/technology/us-finds-no-evidence-china-directed-executive-spy-nvidia-ceo-wsj-reports-2026-11-25/)
 
 ---
 
 ## 📋 备选阅读
 
-- [Huawei 将在 ISSCC 2027 公布自研 HBM 方案](https://www.eetimes.com/huawei-next-big-ai-move-hbm-workaround/) —— 华为绕开 HBM 供应限制的自研设计，明年年初在旧金山披露细节。出口管制下的技术路线值得跟，但目前只有预告没有参数。
+- [Huawei 的下一步：自研 HBM 绕开管制，细节将在 ISSCC 2027 公布](https://www.eetimes.com/huawei-next-big-ai-move-hbm-workaround/) —— 华为要在 ISSCC 2027 公布自研 HBM 方案，这是绕开出口管制的关键一步，但细节要等到明年，现在只有方向没有参数。
   _EE Times_
-- [Nvidia 就 2018 年矿卡销售误导投资者达成 2.9 亿美元和解](https://www.tomshardware.com/tech-industry/big-tech/nvidia-agrees-to-usd290-million-settlement-over-2018-crypto-mining-gpu-sales-ends-eight-year-investor-lawsuit-without-admitting-wrongdoing) —— 八年集体诉讼收尾，不认错。金额对 Nvidia 不算大，但和当前的会计调查放在一起看，是同一类问题的历史回声。
+- [Nvidia 同意支付 2.9 亿美元了结 2018 年加密挖矿 GPU 销售诉讼](https://www.tomshardware.com/tech-industry/big-tech/nvidia-agrees-to-usd290-million-settlement-over-2018-crypto-mining-gpu-sales-ends-eight-year-investor-lawsuit-without-admitting-wrongdoing) —— 八年官司收尾，2.9 亿美元不认错。金额对 Nvidia 不算大，但和当前治理危机叠加，构成「信息披露一贯性」的负面注脚。
   _Tom's Hardware_
-- [Texas 解冻 1800+ 数据中心项目审批](https://www.tomshardware.com/tech-industry/data-centers/texas-lifts-freeze-on-1-800-data-center-projects-in-greg-abbott-u-turn-companies-rush-for-permits-before-gina-hinojosas-january-arrival) —— 8 月暂停后政策反转，开发商抢在 1 月新监管者到任前拿许可。算力基建的监管不确定性在州一级先显现。
+- [德州解冻 1800+ 数据中心项目审批，企业抢在 1 月新监管者上任前拿许可](https://www.tomshardware.com/tech-industry/data-centers/texas-lifts-freeze-on-1-800-data-center-projects-in-greg-abbott-u-turn-companies-rush-for-permits-before-gina-hinojosas-january-arrival) —— 8 月冻结、11 月解冻，1800 个项目抢跑。这是 AI 基建在地缘与监管夹缝中的真实节奏，比模型发布更能说明算力扩张的实际约束。
   _Tom's Hardware_
-- [反 RSI 活动人士在 Anthropic 旧金山总部外绝食进入第三天](https://www.tomshardware.com/tech-industry/artificial-intelligence/activists-enter-third-day-of-hunger-strike-outside-anthropics-san-francisco-hq-over-recursive-ai-self-improvement-protester-threatens-to-go-40-days-and-target-openai-next) —— 抗议递归自我改进，声称要绝食 40 天并把目标转向 OpenAI。和 Anthropic 招股书里的 RSI 警告形成互文，值得知道存在这股力量。
-  _Tom's Hardware_
+- [用两块 Nvidia DGX Station + vLLM 跑 GLM-5.3，达到 607.8 tok/s](https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/) —— 有具体吞吐数字和部署配置的工程文，符合你要的「commands 级细节」，但属于官方博客，独立复现价值待验证。
+  _Nvidia Developer Blog_
 
 ---
 
