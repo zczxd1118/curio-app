@@ -1,31 +1,30 @@
 # Curio · 大厂 AI 动态 · 2026-11-27
 
-> 今日 1 条头条 + 4 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天最重要的信号有两个。一是 Nvidia 的治理危机已经从八卦升级为信用事件：S&P 考虑下调评级、SEC 查会计问题、东南亚出货暂停，黄仁勋被董事会请回 CEO 反而加深了外界对董事会独立性的怀疑。二是 Anthropic 上市后股价跌破 83 美元发行价，AI 资产的定价逻辑正在被重新校准。这两件事叠加，意味着「算力无限增长」的叙事第一次出现了裂缝。_
+_今天最重要的信号有两个：一是 Nvidia 的治理危机从八卦升级成信用事件——S&P 考虑下调评级、董事会独立性被质疑、对东南亚出货暂停，Jensen Huang 回归 CEO 反而成了风险源；二是 Anthropic 上市后股价跌破 83 美元发行价，1.5T 估值叙事开始松动。AI 资本周期的第一次真实回调，可能就从这两条开始。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. Gemini 4 Neon 发布并登顶 Models Engineering Index，Google 一个月内连发三个 4 系模型
+### 3. Gemini 4 Neon 发布并登顶 Models Engineering Index，Google 一个月内连发三代 Gemini 4
 
-**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _Google Blog / HN_
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _yigitdemirag_
 
-Google 在 11 月 18 日发布 Gemini 4 Neon，随即在 Models Engineering Index 上排名第一，被社区评价为 Opus 5.5 的直接竞品。值得注意的是节奏：Carbon（10 月底）、Hydrogen（11 月 12 日）、Neon（11 月 18 日），三周内三个 4 系模型。这种发布密度说明 Google 已经把模型迭代压缩到以周为单位，而不是以季度。
+Google 在 10 月底到 11 月中连续发布 Gemini 4 Carbon、Hydrogen、Neon 三个版本，Neon 上线即登顶 Models Engineering Index，社区评价其为 Opus 5.5 的正面竞争者。这种发布节奏本身就是一个信号：模型迭代周期已经压缩到以周计。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Gemini 4 Neon 于 11 月 18 日发布，官方博客同步上线 | Neon 的「第一」来自第三方 index，实际 coding / agent 任务表现需独立复现 |
-| Neon 在 Models Engineering Index 上排名第一 | 三周三个版本的命名体系（Carbon/Hydrogen/Neon）是否对应不同规模或不同用途，官方未清晰说明 |
-| Gemini 4 Carbon 于 10 月 28 日发布，曾在 Artificial Analysis Intelligence Index v5 上排名第一 | 发布密度高是否意味着单版本稳定性下降，目前缺少长周期故障率数据 |
-| Gemini 4 Hydrogen 于 11 月 12 日发布，同时上线 Antigravity 平台的 Orchestrator 功能 | Antigravity Orchestrator 与 Neon 的组合能否真正支撑多 Agent 工作流，只有 demo 级证据 |
-| Google 同期发布 Gemini Decisions API 与 Gemini Omni 1.2 Flash | Google 内部员工工会化与学校 AI 争议是否会影响产品路线，尚不明朗 |
-| DeepMind 发布 AlphaProof Code 与 Genie 4 |  |
+| Gemini 4 Neon 官方博客发布，HN 1071 分 | Models Engineering Index 是社区榜单，权重和评测方法未公开，排名参考价值有限 |
+| Neon 在 Models Engineering Index 上排名第一（第三方榜单 git-aarvin.github.io/mei） | Neon 相对 Opus 5.5 的实际工程差距，需要真实任务跑分而非榜单 |
+| Gemini 4 Carbon 此前在 Artificial Analysis Intelligence Index v5 登顶 | 一个月三代命名（Carbon/Hydrogen/Neon）是否对应不同规模还是不同能力侧重，官方未说清 |
+| Gemini 4 Hydrogen 与 Orchestrator 同步在 Antigravity 平台上线 | Orchestrator 是否意味着 Google 在做多 Agent 编排层，目前只有产品页信息 |
+| Gemini Decisions API 已作为开发者工具单独发布 | Gemini 训练用户聊天记录的争议（HN 738 分帖）可能影响企业采用 |
 
 **📖 主编点评**
 
-你在做 Agent 项目，Neon + Antigravity Orchestrator 这个组合值得花半天实测，尤其是多 Agent 编排部分——这是你 content-curator 里「子 Agent」设计的直接参照。但别急着迁移，先跑你自己的评测集。另外提醒：模型发布密度这么高，你的 digest 里「大模型评测与发布动态」这一类应该开始做去重和归并，否则每周都会被同类新闻淹没。
+你做 Agent 项目时，模型选型窗口正在变短——上个月的最优解这个月可能被替代。建议把 content-curator 的模型调用层做成可切换抽象，别硬编码单一 provider。另外 Neon 登顶的榜单值得你自己跑几个真实任务验证，社区榜单和你的实际 workload 往往不是一回事。
 
 📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
 
@@ -33,14 +32,12 @@ Google 在 11 月 18 日发布 Gemini 4 Neon，随即在 Models Engineering Inde
 
 ## 📋 备选阅读
 
-- [OpenAI 合并 Chat 与 Work，重度用户会更早触达用量上限](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/) —— 统一用量计量意味着重度用户成本上升。对做 Agent 项目的人是个提醒：依赖单一 API 的额度策略要重新算。
-  _TechCrunch_
-- [FCC 批准 SpaceX 在太空部署 AI 数据中心的计划](https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/) —— FCC 驳回了科研威胁等反对意见，理由是超出其监管权限。方向性事件，但离落地很远，先记一笔。
-  _TechCrunch_
-- [Dario Amodei 回应「向 AI 交出人类控制权」的指控，称其「荒谬」](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/) —— 符合你「AI 名人访谈/表态」的偏好，但这是回应式表态而非深度对话，密度一般，放备选。
-  _TechCrunch_
-- [1Password 承认内部系统被入侵，但称用户密码安全](https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/) —— 攻击者拿到员工企业账号和部分客户信息。如果你用 1Password 管项目密钥，值得看一眼官方说明。
-  _TechCrunch_
+- [OpenAI 合并 Chat 与 Work，重度用户将更早触及用量上限](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/) —— 统一用量计量对重度用户是实质变化，但细节未公布，等具体限额出来再深读。
+  _Jagmeet Singh_
+- [FCC 批准 SpaceX 在太空部署 AI 数据中心的计划](https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/) —— 监管放行是事实，但工程可行性存疑，属于长期叙事而非近期变量。
+  _Kirsten Korosec_
+- [Dario Amodei 回应「向 AI 交出人类控制权」指控：荒谬](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/) —— 符合你想多看 AI 名人访谈/表态的偏好，但只有单方回应，缺对话深度。
+  _Rebecca Bellan_
 
 ---
 

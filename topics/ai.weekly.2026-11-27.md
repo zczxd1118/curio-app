@@ -1,30 +1,18 @@
 # Curio · AI · 2026-11-27
 
-> 今日 1 条头条 + 2 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天最重要的信号有两个。一是 Nvidia 的治理危机已经从八卦升级为信用事件：S&P 考虑下调评级、SEC 查会计问题、东南亚出货暂停，黄仁勋被董事会请回 CEO 反而加深了外界对董事会独立性的怀疑。二是 Anthropic 上市后股价跌破 83 美元发行价，AI 资产的定价逻辑正在被重新校准。这两件事叠加，意味着「算力无限增长」的叙事第一次出现了裂缝。_
+_今天最重要的信号有两个：一是 Nvidia 的治理危机从八卦升级成信用事件——S&P 考虑下调评级、董事会独立性被质疑、对东南亚出货暂停，Jensen Huang 回归 CEO 反而成了风险源；二是 Anthropic 上市后股价跌破 83 美元发行价，1.5T 估值叙事开始松动。AI 资本周期的第一次真实回调，可能就从这两条开始。_
 
 ---
 
 ## 🌟 今日精选
 
-### 4. Claude Code 从命令行进化为桌面客户端完全体：编程、设计、办公三合一，配 Opus 5.5
+### 1. Claude(Code) 桌面 APP 全攻略：Code、Design、Cowork 收进同一个客户端
 
-**[AI]** · ⭐⭐⭐⭐ · _技术爬爬虾_
+**[AI]** · ⭐⭐⭐ · _技术爬爬虾_
 
-11 月 8 日发布的这条视频拆解了 Claude Desktop 的一次大改版：Claude Code 不再是黑乎乎的命令行工具，而是被收进桌面客户端，与 Claude Design、Claude Cowork 并列。搭配 Opus 5.5，Anthropic 实际上是在把「编程 Agent」重新定位成「通用工作 Agent」的一个入口。这是产品形态的变化，不只是 UI 变化。
-
-| ✅ 已确认 | ⚖️ 尚属判断 |
-|---|---|
-| Claude Desktop 已整合 Claude Code、Claude Design、Claude Cowork 三项核心能力 | 桌面化是否真的提升编程效率，还是只是降低了入门门槛，缺少对比数据 |
-| Claude Code 从纯命令行形态迁移为桌面客户端内的完整形态 | Claude Design 与 Cowork 的实际能力边界在哪里，官方文档仍模糊 |
-| 当前搭配的模型为 Opus 5.5 | 多 Agent 工作台（T3 Code 等）与官方客户端的竞争关系会如何演化 |
-| 视频发布于 2026 年 11 月 8 日，属于近期更新 | Opus 5.5 在长任务上的稳定性是否足以支撑「完全体」这个说法 |
-| 同期社区出现 T3 Code 等第三方工作台，可统一调度 Claude Code、Codex 等多个 Agent | Anthropic 上市后的产品节奏是否会因财务压力而改变 |
-
-**📖 主编点评**
-
-这条对你的价值在于产品设计参照：Anthropic 把 CLI 工具收进 GUI 的路径，正是你做 content-curator 时可以考虑的形态演进方向——先有能跑的命令行核心，再包一层可交互的壳。建议你实际装一次，重点看它怎么处理「权限确认」和「长任务中断恢复」，这两点是个人 Agent 项目最容易翻车的地方。
+Claude Code 从命令行进化为桌面完全体，配 Opus 5.5，是本周最值得看的实操内容，但属教程类未进头条。
 
 📺 [打开原文](http://www.bilibili.com/video/av117580048108571)
 
@@ -32,10 +20,12 @@ _今天最重要的信号有两个。一是 Nvidia 的治理危机已经从八�
 
 ## 📋 备选阅读
 
-- [T3 Code 完整教程：一个工作台统一调度 Claude Code、Codex 等多个 Agent，支持手机下发任务](http://www.bilibili.com/video/av117671802705979) —— 11 月 24 日发布，正好契合你「多 Agent 工作流」的兴趣，但属于教程类，深度待验证，先放备选。
+- [T3 Code 教程：一条指令拉起多个 AI 线程并行改代码，统一调度 Claude Code 与 Codex](http://www.bilibili.com/video/av117671802705979) —— 多 Agent 并行工作台是本周最新鲜的工程实践，11 月 24 日发布，适合你直接试。
   _AI超元域_
-- [Claude Code 从 0 到 1 全攻略：权限、MCP、Skills、Subagents、Hooks 全流程](http://www.bilibili.com/video/av117642291582518) —— 11 月 19 日发布，覆盖你关心的 Skills / Subagents / Hooks，但标题是典型合集式，需要自己判断密度。
-  _大模型分享员_
+- [DeepSeek Harness 实测对比 Claude Code：同一模型，工具链差距比想象大](http://www.bilibili.com/video/av117100337236191) —— 用同一模型跑两个 harness 的对照实验，方法论比结论更有价值，但发布已三个月。
+  _程序员晓刘_
+- [全网最详细 AI 入门课：一期搞懂 58 个 AI 术语，从大模型到 Agent、MCP、Skill](http://www.bilibili.com/video/av117587144940374) —— 术语密度高、结构清晰，适合转给非技术朋友，对你本人增量有限。
+  _亚里今天也要AI_
 
 ---
 
