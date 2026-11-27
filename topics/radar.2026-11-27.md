@@ -1,0 +1,182 @@
+# Curio 趋势雷达 · 2026-11-27
+
+> 你的私人主编 · 今日跨域精选 5 条头条 + 15 条备选
+
+_今天最重的信号来自 Nvidia：Jensen Huang 被董事会重新任命为 CEO，同时公司暂停向东南亚出货、SEC 调查会计问题、S&P 考虑下调信用评级——一家公司的治理风险正在变成整个 AI 算力供应链的风险。另一条线是 Anthropic 上市后跌破 83 美元发行价，AI 资本叙事第一次出现公开市场的反向定价。对做 Agent 的你来说，工具链层面真正的新东西是 T3 Code 这类多 Agent 并行工作台。_
+
+---
+
+## 🌟 AI 算力 / 半导体
+
+### 1. Nvidia 董事会重新任命 Jensen Huang 为 CEO，治理争议与出口管制同时压顶
+
+**[AI 算力 / 半导体]** · ⭐⭐⭐⭐⭐ · _jaz_
+
+Huang 此前辞任后，董事会在 Trump 政府推动下将其重新任命为总裁、CEO 兼董事，CNBC 与 Nvidia 官方新闻稿同日确认。但国会公开抨击这是「品格失败」，S&P 表示正考虑因治理与「关键人风险」下调其信用评级。这不是一次普通的人事回归，而是把公司治理问题直接暴露在监管和债权人面前。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Nvidia 董事会已正式重新任命 Jensen Huang 为总裁、CEO 及董事会成员，官方新闻稿与 CNBC 报道一致 | Huang 辞任的真实原因至今没有官方完整说明，外界关于高管个人丑闻的报道仍属未经证实的指控 |
+| Huang 此前已辞去 CEO 职务，本次为回归，Reuters 与 FT 在 11 月 15 日已报道其与盟友讨论复出 | Trump 政府在其中扮演的角色有多深，NYT 称其「指示推动复职」，但白宫未正面确认细节 |
+| S&P 表示正考虑将 Nvidia 信用评级下调至 AA-，理由包括治理与关键人风险 | S&P 是否真的下调评级尚未决定，目前只是「考虑」，时间表不明 |
+| 国会两党议员公开批评此次回归，CNBC 报道用词为「outrageous」与「failure of character」 | 暂停东南亚出货是临时合规动作还是长期策略转向，Nvidia 未给出恢复时间 |
+| Nvidia 已通知制造伙伴暂停向马来西亚、新加坡、泰国、印尼发运服务器 | 会计问题调查会不会升级为正式指控，目前无任何监管文件支持 |
+| SEC 对 Nvidia 的调查正在审查潜在会计问题，Reuters 援引消息人士 |  |
+
+**📖 主编点评**
+
+你不需要跟踪 Nvidia 的股价，但需要知道一件事：AI 算力的供给端现在带着治理不确定性。如果你在做需要长期稳定推理成本的项目，别把架构绑死在单一云厂商的最新 GPU 档位上，留一条降级路径。另外这轮风波里最值得读的不是新闻，是 Steve Blank 那篇《What's Next for Nvidia?》——它讲的是公司治理如何反噬技术护城河。
+
+📺 [打开原文](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html)
+
+---
+
+## 🌟 股票
+
+### 2. Anthropic 上市后跌破 83 美元发行价，1.5 万亿美元估值叙事开始松动
+
+**[股票]** · ⭐⭐⭐⭐⭐ · _thm_
+
+Anthropic 以每股 83 美元定价、对应约 1.5 万亿美元估值完成 IPO，但上市后迅速跌破发行价，Reuters 称首日涨势已经瓦解。此前买方对估值的预期一度低至 1.1 万亿，Blackstone 也提示其可能拿不到投资级评级。这是 AI 头部公司第一次在公开市场被重新定价。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Anthropic IPO 定价为每股 83 美元，对应估值约 1.5 万亿美元，AP 报道确认 | 跌破发行价是短期市场情绪还是估值逻辑重估，目前只有几天数据，不足以下结论 |
+| 上市后股价跌破 83 美元发行价，Reuters 11 月 24 日报道首日涨幅已回吐 | 信用评级最终落在哪个档位未定，Blackstone 的「可能非投资级」只是预判 |
+| IPO 前买方对估值的预期一度下探至 1.1 万亿至 1.3 万亿美元区间，Bloomberg 与 WSJ 均有报道 | RSI 警告是风险披露的法律措辞还是真实技术判断，外界无法验证 |
+| IPO 文件披露季度人力成本约 17 亿美元，折合每名员工每月约 10.7 万美元 | Dario Amodei 称「交出其人类控制权」的指控「荒谬」，但公司内部自动化研发的比例没有公开数据 |
+| 承销银行已平掉原本用于稳定股价的仓位，Reuters 报道 | 1.5 万亿估值对应的收入模型能否支撑，招股书未给出可验证的长期单位经济 |
+| IPO 文件明确警告公司可能「即将」接近递归自我改进（RSI） |  |
+
+**📖 主编点评**
+
+这条对你的直接含义是：AI 产品的定价环境会变。头部模型公司上市后要面对季度财报，API 涨价或限流的概率上升——OpenAI 已经在合并 Chat 与 Work 并统一用量计费。做 content-curator 这类个人项目时，把模型调用抽象成一层薄适配层，别让 prompt 和计费逻辑长在某个具体厂商的 SDK 上。
+
+📺 [打开原文](https://www.reuters.com/business/anthropic-breaks-below-83-ipo-price-debut-rally-unravels-2026-11-24/)
+
+---
+
+## 🌟 大厂 AI 动态
+
+### 3. Gemini 4 Neon 发布，在 Models Engineering Index 上登顶，被指对标 Opus 5.5
+
+**[大厂 AI 动态]** · ⭐⭐⭐⭐ · _yigitdemirag_
+
+Google 在 11 月 18 日发布 Gemini 4 Neon，随后在第三方 Models Engineering Index 上排到第一，社区讨论普遍把它和 Opus 5.5 放在同一档比较。这是 Google 在一个月内连续放出 Carbon、Hydrogen、Neon 三个 Gemini 4 变体后的最新一版。发布节奏本身比单次跑分更值得注意。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| Gemini 4 Neon 于 11 月 18 日在 Google 官方博客发布，HN 讨论 1071 分 | Models Engineering Index 是社区维护的第三方榜单，权重设计未公开，排名第一不等于综合最强 |
+| 该模型在 Models Engineering Index 上排名第一，索引页面公开可查 | 「对标 Opus 5.5」目前只是博客作者的判断，没有官方基准对比 |
+| Google 在 10 月底至 11 月中旬已连续发布 Gemini 4 Carbon、4 Hydrogen、Omni 1.2 Flash 等多个变体 | Neon 与 Carbon、Hydrogen 的定位差异官方说明含糊，命名体系像营销分层而非能力分层 |
+| Gemini 4 Carbon 曾在 Artificial Analysis Intelligence Index v5 上排第一 | 实际编码与 Agent 任务表现缺少独立复现，社区评测样本还很少 |
+| Google 同期发布 Genie 4 与 AlphaProof Code | 定价与上下文窗口细节在发布博客中不完整 |
+
+**📖 主编点评**
+
+别急着换模型。你现在跑 Agent 的核心成本是调试 prompt 和工具链，不是模型分数。真正值得做的是：拿你自己 content-curator 的 3-5 个真实任务，在 Neon 和当前模型上各跑一遍，看工具调用成功率而不是看榜单。如果 Google 的发布节奏继续这个密度，模型选型会变成季度动作，把评测脚本固化下来比追新更有价值。
+
+📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
+
+---
+
+## 🌟 AI
+
+### 4. T3 Code 开源 AI IDE 实测：一条指令拉起多个 Agent 线程并行改代码，统一调度 Claude Code 与 Codex
+
+**[AI]** · ⭐⭐⭐⭐ · _AI超元域_
+
+T3 Code 是一个开源 AI IDE，核心能力是把 Claude Code、Codex、Pi、Antigravity 等订阅统一装进一个工作台，用一条指令并行拉起多个 Agent 线程处理同一项目，并支持手机下发任务。视频发布于 11 月 24 日，是目前少见的、带完整安装配置到多 Agent 工作流实战的中文内容。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| T3 Code 为开源项目，支持统一调度 Claude Code、Codex、Pi、Antigravity 等多个 AI 编程后端 | 多 Agent 并行改同一项目时代码改动如何隔离，视频提出这个问题但未给出完整工程答案 |
+| 支持一条指令并行启动多个 Agent 线程处理同一项目 | 「比 Orca 更好用」是 UP 主主观判断，缺少横向基准 |
+| 支持从手机端下发任务 | 并行线程的实际 token 消耗与冲突解决成本没有量化数据 |
+| 视频包含从安装配置到多 Agent 工作流实战的完整演示 | 项目成熟度与长期维护情况未知，开源仓库活跃度需自行核实 |
+| 发布时间为 2026 年 11 月 24 日，属本周新内容 | 手机下发任务的链路是否稳定、是否需要自建中转，视频未展开 |
+
+**📖 主编点评**
+
+这条正对你的痛点：你在做 content-curator，多 Agent 分工（抓取 / 筛选 / 写作）是迟早要碰的。T3 Code 值得花一个晚上装一遍，重点不是用它写业务代码，而是观察它怎么隔离并行 Agent 的文件改动——这个设计思路可以直接搬到你的项目里。看的时候跳过安装段，直接看多线程冲突处理那部分。
+
+📺 [打开原文](http://www.bilibili.com/video/av117671802705979)
+
+---
+
+## 🌟 金融
+
+### 5. 美联储开始担心 AI Agent 可能触发银行挤兑
+
+**[金融]** · ⭐⭐⭐⭐ · _pera_
+
+Gizmodo 报道称美联储内部已在讨论一个具体风险：当大量 AI Agent 代替用户监控账户并自动执行转账、赎回时，一次负面信号可能在分钟级引发连锁提款，速度超过现有存款保险和流动性缓冲的反应窗口。这是监管机构第一次把 Agent 当作系统性风险变量来讨论。
+
+| ✅ 已确认 | ⚖️ 尚属判断 |
+|---|---|
+| 美联储内部已就 AI Agent 可能引发银行挤兑的风险展开讨论，Gizmodo 报道 | 报道基于未具名消息，美联储没有发布正式文件或征求意见稿 |
+| 讨论的核心机制是 Agent 自动化决策缩短了挤兑的时间尺度 | 「Agent 触发挤兑」目前是情景推演，没有任何实际案例 |
+| 该报道出现在 11 月中旬，与同期 Nvidia 信用评级、Anthropic IPO 波动处于同一时间窗 | 监管会采取什么具体措施（限速、人工确认阈值、Agent 注册制）完全未知 |
+| 同期 Fed 仍在讨论利率路径，Bloomberg 报道就业数据可能支持再次加息 | 这条风险的时间尺度可能是数年而非数月，短期对个人开发者无直接影响 |
+|  | Gizmodo 的报道深度有限，原始讨论的技术细节未公开 |
+
+**📖 主编点评**
+
+这条看起来离你很远，但它预示了一个你会遇到的工程约束：涉及资金、支付、不可逆操作的 Agent，未来大概率会被要求加人工确认节点和速率限制。你现在做 content-curator 不碰钱，但如果以后接任何有副作用的工具（发邮件、发布内容、调 API 花钱），提前把「不可逆操作需确认」写进工具设计里，这是能写进简历的工程判断。
+
+📺 [打开原文](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566)
+
+---
+
+## 📋 备选池
+
+### AI 算力 / 半导体
+
+- [Huawei 将在 ISSCC 2027 公布自研 HBM 方案](https://www.eetimes.com/huawei-next-big-ai-move-hbm-workaround/) —— 华为绕开 HBM 供应限制的自研设计，明年年初在旧金山披露细节。出口管制下的技术路线值得跟，但目前只有预告没有参数。
+  _EE Times_
+- [Nvidia 就 2018 年矿卡销售误导投资者达成 2.9 亿美元和解](https://www.tomshardware.com/tech-industry/big-tech/nvidia-agrees-to-usd290-million-settlement-over-2018-crypto-mining-gpu-sales-ends-eight-year-investor-lawsuit-without-admitting-wrongdoing) —— 八年集体诉讼收尾，不认错。金额对 Nvidia 不算大，但和当前的会计调查放在一起看，是同一类问题的历史回声。
+  _Tom's Hardware_
+- [Texas 解冻 1800+ 数据中心项目审批](https://www.tomshardware.com/tech-industry/data-centers/texas-lifts-freeze-on-1-800-data-center-projects-in-greg-abbott-u-turn-companies-rush-for-permits-before-gina-hinojosas-january-arrival) —— 8 月暂停后政策反转，开发商抢在 1 月新监管者到任前拿许可。算力基建的监管不确定性在州一级先显现。
+  _Tom's Hardware_
+- [反 RSI 活动人士在 Anthropic 旧金山总部外绝食进入第三天](https://www.tomshardware.com/tech-industry/artificial-intelligence/activists-enter-third-day-of-hunger-strike-outside-anthropics-san-francisco-hq-over-recursive-ai-self-improvement-protester-threatens-to-go-40-days-and-target-openai-next) —— 抗议递归自我改进，声称要绝食 40 天并把目标转向 OpenAI。和 Anthropic 招股书里的 RSI 警告形成互文，值得知道存在这股力量。
+  _Tom's Hardware_
+
+### 大厂 AI 动态
+
+- [OpenAI 合并 Chat 与 Work，重度用户会更早触达用量上限](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/) —— 统一用量计费表。对重度用户是实质性收紧，做 Agent 项目时要重新算 token 预算。
+  _TechCrunch_
+- [FCC 批准 SpaceX 在太空部署 AI 数据中心的计划](https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/) —— FCC 驳回了科研威胁等反对意见，理由是超出其监管权限。听起来科幻，但批文是真的，算力基建的边界在往外推。
+  _TechCrunch_
+- [Dario Amodei 回应「向 AI 交出人类控制权」指控：荒谬](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/) —— 竞争对手指控他在自动化研发上走得太远。属于你偏好的名人表态类内容，但只有立场没有技术细节，所以放备选。
+  _TechCrunch_
+- [AMD 专用版 llama.cpp 分支](https://devnull.land/amd-specific-llama-cpp) —— 针对 AMD 硬件的推理优化分支，HN 377 分。如果你以后想在非 Nvidia 硬件上跑本地模型，这是条实用线索。
+  _HN_
+
+### 股票
+
+- [Net Interest：AI 经济内部的均衡在哪里](https://www.netinterest.co/p/supply-and-demand) —— 从信用与资金流角度拆 AI 经济的供需结构，比新闻稿深。适合周末读，工作日看会拖慢节奏。
+  _Marc Rubinstein_
+- [S&P 考虑因治理与关键人风险下调 Nvidia 信用评级](https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/) —— 头条第 1 条的信用维度补充。单看这条信息量不够撑头条，但和复职事件一起看才完整。
+  _TechCrunch_
+
+### 金融
+
+- [Visa、Mastercard、JPMorgan 客户数据被黑客泄露](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87) —— 支付三巨头的客户数据泄露，HN 198 分。影响面大但细节被 WSJ 付费墙挡住，无法核实范围。
+  _WSJ_
+- [巴西税务机关在 GitHub 以 MIT 协议开源报税计算器](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria) —— 政府把税改计算逻辑开源，HN 790 分。工程上是个好案例：复杂规则如何用代码表达并接受公众审计。
+  _HN_
+
+### AI
+
+- [Claude Code 从 0 到 1 全攻略：权限、MCP、Skills、Hooks、子智能体](http://www.bilibili.com/video/av117642291582518) —— 11 月 19 日发布，覆盖你关心的 Skills / Hooks / Subagents 全链路。内容对路但属教程合集，密度不如头条那条 T3 Code 实测。
+  _大模型分享员_
+- [一期视频搞懂 58 个 AI 术语：从大模型到 Agent、MCP、Skill](http://www.bilibili.com/video/av117587144940374) —— 11 月 9 日发布，术语梳理做得细，最后用真实模型更新日志做练习这个设计不错。对你偏基础，但可以转给刚入门的人。
+  _亚里今天也要AI_
+- [DeepSeek Harness 与 Claude Code 同模型对比实测](http://www.bilibili.com/video/av117100337236191) —— 用同一个 DeepSeek 模型在两个 harness 里跑同样任务，结论是工具链影响大于模型。观点对你有用，但发布于 8 月，新颖度不够。
+  _程序员晓刘_
+
+---
+
+## 💬 反馈
+
+觉得选稿好/不好？想多看/少看哪类？[提一条 GitHub Issue](https://github.com/zczxd1118/curio-app/issues/new?labels=curio-feedback) 让 Agent 下次调整。
