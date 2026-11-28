@@ -2,17 +2,17 @@
 
 > 今日 1 条头条 + 1 条备选
 
-_今天最重要的信号只有一个：Nvidia 的治理危机已经盖过技术叙事——黄仁勋被董事会请回 CEO，SEC 会计调查、国会质询、Polymarket 内幕交易、东南亚出货暂停同时压上来，芯片股跟着崩。第二个信号是 Anthropic IPO 破发到 83 美元以下，AI 泡沫的定价开始被市场用脚投票。这两件事合起来说明：AI 的资本周期正在从'叙事驱动'转向'审计驱动'。_
+_今天最重要的信号有两个：一是 Nvidia 的治理危机彻底变成产业事件——Jensen Huang 被董事会请回 CEO，同时 SEC 会计调查、东南亚出货暂停、国会与标普质疑董事会独立性全部叠在一起，这不是八卦，是算力供应链的定价重估。二是 Anthropic IPO 从 1.5T 定价一路跌破 83 美元发行价，AI 资产的信用定价开始被市场重新审视。其余候选池以教程和黑五促销为主，深度内容稀缺。_
 
 ---
 
 ## 🌟 今日精选
 
-### 1. Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang
+### 1. Polymarket 上两个账户靠 Huang 复职内幕交易赚超 34 万美元
 
-**[电子信息与芯片]** · ⭐⭐⭐ · _oska / HN_
+**[电子信息与芯片]** · ⭐⭐⭐ · _oska_
 
-对黄仁勋回归事件的 Polymarket 内幕交易做了完整链上取证。方法可复用，是本周最有'工程味'的调查报道。
+预测市场内幕交易的实证调查，方法有意思，但属于事件衍生话题。
 
 📺 [打开原文](https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/)
 
@@ -20,8 +20,8 @@ _今天最重要的信号只有一个：Nvidia 的治理危机已经盖过技术
 
 ## 📋 备选阅读
 
-- [Beyond Lithography: The Battle for Semiconductor Manufacturing Yield](https://www.eetimes.com/beyond-lithography-the-battle-for-semiconductor-manufacturing-yield/) —— MATCH Act 暴露的不只是 ASML 依赖，还有决定良率的整套工艺技术。对你这种电子信息的背景是硬知识补充。
-  _Ron Honig / EE Times_
+- [分析师称 150 万块 AI GPU 走私可能是 Huang 离任的深层原因](https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls) —— 给头条事件提供了出口管制这条线索，但属于分析师推测，证据链不完整。
+  _marginalia_nu_
 
 ---
 
