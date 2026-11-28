@@ -1,41 +1,42 @@
 # Curio · 金融 · 2026-11-28
 
-> 今日 1 条头条 + 2 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 董事会把黄仁勋请回 CEO 位子，但 SEC 会计调查、国会质疑、S&P 警告董事会独立性、东南亚出货暂停同时压上来，这件事已经从人事八卦变成治理与出口管制的双重风险；二是 Anthropic IPO 定价 $83、估值 $1.5T 后迅速跌破发行价，AI 资产的定价逻辑正在被重新校准。对做 Agent 的你来说，工具层今天没有大新闻，但 Claude Code 桌面端整合、Gemini 4 系列迭代仍在推进。_
+_今天最重要的信号只有一个：Nvidia 的治理危机已经盖过技术叙事——黄仁勋被董事会请回 CEO，SEC 会计调查、国会质询、Polymarket 内幕交易、东南亚出货暂停同时压上来，芯片股跟着崩。第二个信号是 Anthropic IPO 破发到 83 美元以下，AI 泡沫的定价开始被市场用脚投票。这两件事合起来说明：AI 的资本周期正在从'叙事驱动'转向'审计驱动'。_
 
 ---
 
 ## 🌟 今日精选
 
-### 5. 美联储开始担心 AI Agent 可能触发银行挤兑，金融系统的 Agent 风险进入监管视野
+### 5. Visa、Mastercard、JPMorgan 客户数据被黑客泄露，支付三巨头同时中招
 
-**[金融]** · ⭐⭐⭐⭐ · _pera_
+**[金融]** · ⭐⭐⭐⭐ · _mikhael_
 
-Gizmodo 报道美联储内部已在讨论一个此前只存在于理论中的场景：大量 AI Agent 同时执行提款或转账指令，可能在极短时间内抽干银行流动性，形成算法驱动的挤兑。这不是科幻，而是 Agent 大规模接入金融 API 后的现实风险。
+WSJ 报道 Visa、Mastercard 与 JPMorgan 的客户数据遭黑客泄露，三家同时出现在同一事件中，指向的可能是共同的第三方服务商或清算链路。同期 TSMC 也向 SEC 提交了网络安全事件声明。金融与半导体两条关键基础设施在同一个月被击穿，这不是巧合能解释的密度。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| 美联储内部已就 AI Agent 可能引发银行挤兑展开讨论，Gizmodo 报道 | 美联储是否会将 Agent 行为纳入正式监管框架，目前无具体提案 |
-| 讨论的核心场景是大量 Agent 同时执行提款/转账导致流动性骤降 | 'Agent 挤兑'是真实概率事件还是预防性讨论，缺少量化模型 |
-| 该担忧出现在 Agent 接入金融系统 API 日益普遍的背景下 | 银行是否会限制 Agent 的 API 访问权限，还是选择拥抱 |
-| 同期有报道称 Visa、Mastercard、JPMorgan 客户数据被黑客泄露 | Agent 身份认证与速率限制的技术标准由谁制定尚未明朗 |
-| Fed 此前已在关注 AI 对金融稳定的影响 | 这类监管讨论对个人开发者调用金融 API 的影响程度未知 |
+| WSJ 报道三家机构客户数据被泄露，HN 198 分 | 泄露规模、涉及字段（卡号/身份/交易记录）均未披露，'客户数据'定义模糊 |
+| TSMC 于 11 月 12 日向 SEC 提交网络安全事件声明（Form 8-K 类文件） | 是否为同一攻击团伙或同一第三方供应商所致，无官方归因 |
+| 事件发生在 11 月中下旬，与 Nvidia 治理危机同期 | TSMC 的 SEC 声明与本次金融泄露是否相关，目前无证据连接 |
+|  | 对普通持卡人的实际风险（是否需换卡）取决于是否涉及 PAN，尚不明确 |
 
 **📖 主编点评**
 
-这条对你做 Agent 项目有直接含义：如果你的 content-curator 未来要接任何'能触发真实动作'的 API（支付、下单、发消息），现在就该在设计上留出'人工确认闸门'和速率上限。监管迟早会来，提前把'Agent 不能自主执行不可逆操作'写进架构，比事后改便宜得多。
+这条对你不是'看个热闹'。你正在做个人 Agent 项目，如果未来接任何支付、订阅或用户数据，这次事件是最好的架构提醒：不要自己存卡号，不要自己拼第三方 SDK 的鉴权链路。把'最小化数据留存'写进你的项目 README，面试时这是个能讲三分钟的加分点。
 
-📺 [打开原文](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566)
+📺 [打开原文](https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87)
 
 ---
 
 ## 📋 备选阅读
 
-- [Oracle files to sell $20B in new stock, bonds to finance AI buildout](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— Oracle 发 $20B 股债为 AI 基建融资，是'AI 资本开支靠债务撑'这条主线的又一实证。
+- [Brazil's tax authority open-sources its tax calculator on GitHub under MIT](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria) —— 巴西税务局把计税器以 MIT 协议开源，HN 790 分。政府核心逻辑开源这件事本身比代码更值得讨论。
+  _dvaplima / HN_
+- [The Fed Is Worried AI Agents Could Trigger a Bank Run](https://gizmodo.com/the-fed-is-worried-ai-agents-could-trigger-a-bank-run-2000840566) —— 美联储担心 Agent 集体行动引发挤兑。听着像科幻，但这是监管层真实在建模的风险场景，和你做 Agent 有间接关系。
+  _pera / HN_
+- [Oracle files to sell $20B in new stock, bonds to finance AI buildout](https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html) —— Oracle 发 200 亿美元股票和债券填 AI 基建窟窿。AI 资本开支从'利润'转向'举债'的标志性动作。
   _smartmic / HN_
-- [Intel faced a choice: Give Trump 10% or face the consequences](https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/) —— Intel 被要求让出 10% 股权换取补贴，政府直接持股半导体的先例，产业政策信号强。
-  _Ars Technica_
 
 ---
 

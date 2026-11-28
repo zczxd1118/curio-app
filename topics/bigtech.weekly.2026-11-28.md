@@ -1,31 +1,30 @@
 # Curio · 大厂 AI 动态 · 2026-11-28
 
-> 今日 1 条头条 + 3 条备选
+> 今日 1 条头条 + 4 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 董事会把黄仁勋请回 CEO 位子，但 SEC 会计调查、国会质疑、S&P 警告董事会独立性、东南亚出货暂停同时压上来，这件事已经从人事八卦变成治理与出口管制的双重风险；二是 Anthropic IPO 定价 $83、估值 $1.5T 后迅速跌破发行价，AI 资产的定价逻辑正在被重新校准。对做 Agent 的你来说，工具层今天没有大新闻，但 Claude Code 桌面端整合、Gemini 4 系列迭代仍在推进。_
+_今天最重要的信号只有一个：Nvidia 的治理危机已经盖过技术叙事——黄仁勋被董事会请回 CEO，SEC 会计调查、国会质询、Polymarket 内幕交易、东南亚出货暂停同时压上来，芯片股跟着崩。第二个信号是 Anthropic IPO 破发到 83 美元以下，AI 泡沫的定价开始被市场用脚投票。这两件事合起来说明：AI 的资本周期正在从'叙事驱动'转向'审计驱动'。_
 
 ---
 
 ## 🌟 今日精选
 
-### 3. Google 发布 Gemini 4 Neon，在 Models Engineering Index 上登顶，被指对标 Opus 5.5
+### 3. Gemini 4 Neon 发布并登顶 Models Engineering Index，Google 一个月内连发四代模型
 
 **[大厂 AI 动态]** · ⭐⭐⭐⭐ · _yigitdemirag_
 
-Gemini 4 系列今年迭代极快：Carbon、Hydrogen、Neon 接连发布，Neon 上线后直接冲到 Models Engineering Index 第一，社区评价它'看起来像 Opus 5.5 的竞争对手'。同期 Google 还放出了 Gemini Decisions API 和 Genie 4，模型层和工具层一起推。
+Google 在 11 月连续发布 Gemini 4 Carbon、4 Hydrogen、4 Neon 三代模型，外加 Genie 4、AlphaProof Code、Gemini Decisions API。Neon 在 Models Engineering Index 上登顶，被社区视为 Opus 5.5 的直接对手。这种发布节奏本身比单个模型更值得注意：Google 在用版本号密度抢占开发者心智。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Gemini 4 Neon 已通过 Google 官方博客发布 | Neon 的实际编码与 Agent 任务表现是否真能对标 Opus 5.5，需要独立评测而非榜单 |
-| Neon 在 Models Engineering Index 上排名第一，该榜单由第三方维护 | Models Engineering Index 的权威性和评测方法未公开细节，排名需谨慎看待 |
-| Gemini 4 Carbon 此前在 Artificial Analysis Intelligence Index v5 上曾登顶 | Gemini 4 系列迭代过快，模型命名（Carbon/Hydrogen/Neon）对开发者选择造成困惑 |
-| Google 同期发布 Gemini Decisions API，面向开发者工具场景 | Decisions API 的具体能力和定价尚未清晰 |
-| Genie 4 已开放使用，DeepMind 发布相关博客 | Google 内部员工工会化、抗议向学校施压等事件是否影响产品节奏 |
-| Gemini 4 Hydrogen 与 Orchestrator 已在 Google Antigravity 平台上线 |  |
+| Gemini 4 Neon 官方博客发布，HN 首页 1071 分 | Models Engineering Index 是个人维护的第三方榜单，权威性不及 Artificial Analysis 或 LMSYS |
+| Neon 在 Models Engineering Index 上排名第一（第三方站点 git-aarvin.github.io/mei） | 'Neon 是 Opus 5.5 竞品'的判断来自个人博客 micjm.com，尚无独立基准复现 |
+| 同月内 Carbon、Hydrogen、Neon 三代模型先后上线，另有 Genie 4 与 AlphaProof Code | 一个月四代模型是否意味着内部版本管理混乱，还是刻意的发布策略，外界无法判断 |
+| Gemini Decisions API 面向开发者开放，定位为决策类工具调用 | Decisions API 的实际能力边界（是否只是结构化输出封装）官方文档未充分说明 |
+| DeepMind 员工正在组建工会（gdmunion.co.uk） | 工会化对 DeepMind 产品节奏的影响目前为零，但值得长期跟踪 |
 
 **📖 主编点评**
 
-如果你在 content-curator 里做模型路由，现在值得把 Gemini 4 Neon 加进候选池实测一轮，尤其是长上下文和工具调用场景。但别只看榜单——用你自己的真实任务（比如抓取+摘要+结构化输出）跑一遍，比任何 index 都准。
+你该做的是别追版本号，追 API 差异。Neon 和 Decisions API 如果真把'决策/工具调用'做成一等公民，对你的 Agent 项目是直接利好——意味着你少写一层 orchestration。花 20 分钟读 Decisions API 文档，比看十个'Neon 实测'视频有用。
 
 📺 [打开原文](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)
 
@@ -33,11 +32,13 @@ Gemini 4 系列今年迭代极快：Carbon、Hydrogen、Neon 接连发布，Neon
 
 ## 📋 备选阅读
 
-- [AMD-specific fork of llama.cpp](https://devnull.land/amd-specific-llama-cpp) —— llama.cpp 的 AMD 专用分支，对没有 N 卡但想本地跑模型的开发者是实用增量，444 分说明需求真实。
+- [AMD-specific fork of llama.cpp](https://devnull.land/amd-specific-llama-cpp) —— AMD 专用 llama.cpp 分支，HN 444 分。如果你考虑本地跑模型，这是绕开 CUDA 生态的一条现实路径。
   _julianlam / HN_
-- [Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU](https://github.com/synchopate/llama-modchip) —— 在 64GB 内存、无 GPU 的机器上跑 284B DeepSeek，工程取巧思路值得一看，但实用性待验证。
+- [Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU](https://github.com/synchopate/llama-modchip) —— 64GB 内存无 GPU 跑 284B 模型的开源项目。工程猎奇价值高，实际可用性存疑，但思路值得看。
   _joshcsimmons / HN_
-- [Stacktrace: Real-time steering and guardrails for AI agents](https://www.producthunt.com/products/stacktrace) —— 给 AI Agent 做实时转向和护栏的工具，正好踩在 Agent 可控性这个痛点上，值得关注其实现方式。
+- [Stacktrace — Real-time steering and guardrails for AI agents](https://www.producthunt.com/products/stacktrace) —— 给 Agent 做实时干预和护栏的产品。和你的 content-curator 直接相关，可以看它怎么定义'steering'的接口。
+  _Nico Lumma / Product Hunt_
+- [OpenCrawl — Multiplayer for your coding agents](https://www.producthunt.com/products/opencrawl) —— 多个 coding agent 协作的'多人模式'。概念新，产品成熟度未知，但方向正好卡在你的子 Agent 兴趣点上。
   _Nico Lumma / Product Hunt_
 
 ---

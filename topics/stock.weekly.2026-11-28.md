@@ -1,31 +1,30 @@
 # Curio · 股票 · 2026-11-28
 
-> 今日 1 条头条 + 2 条备选
+> 今日 1 条头条 + 3 条备选
 
-_今天最重要的信号有两个：一是 Nvidia 董事会把黄仁勋请回 CEO 位子，但 SEC 会计调查、国会质疑、S&P 警告董事会独立性、东南亚出货暂停同时压上来，这件事已经从人事八卦变成治理与出口管制的双重风险；二是 Anthropic IPO 定价 $83、估值 $1.5T 后迅速跌破发行价，AI 资产的定价逻辑正在被重新校准。对做 Agent 的你来说，工具层今天没有大新闻，但 Claude Code 桌面端整合、Gemini 4 系列迭代仍在推进。_
+_今天最重要的信号只有一个：Nvidia 的治理危机已经盖过技术叙事——黄仁勋被董事会请回 CEO，SEC 会计调查、国会质询、Polymarket 内幕交易、东南亚出货暂停同时压上来，芯片股跟着崩。第二个信号是 Anthropic IPO 破发到 83 美元以下，AI 泡沫的定价开始被市场用脚投票。这两件事合起来说明：AI 的资本周期正在从'叙事驱动'转向'审计驱动'。_
 
 ---
 
 ## 🌟 今日精选
 
-### 2. Anthropic 以 $83 定价、$1.5T 估值上市，数日内跌破发行价，AI 资产定价逻辑被重新校准
+### 2. Anthropic 跌破 83 美元 IPO 发行价，1.5 万亿美元估值叙事开始瓦解
 
 **[股票]** · ⭐⭐⭐⭐⭐ · _thm_
 
-Anthropic 的 IPO 是本轮 AI 热潮里最受关注的定价事件：发行价 $83、估值约 $1.5T，上市首日冲高后迅速回落，11 月 24 日已跌破发行价。此前 Blackstone 就说过它可能拿不到投资级评级，信用机构预期给'高收益级'（垃圾级），Michael Burry 则称其'把存在押在乐观上'。
+Anthropic 以每股 83 美元、1.5 万亿美元估值完成 IPO，创下纪录后不到一周即跌破发行价。此前 Blackstone 已预警其可能拿不到投资级评级，信用机构给出'高垃圾级'，招股书披露季度人力成本 17 亿美元（人均月薪约 10.7 万美元），并警告可能'迫近'递归自我改进。承销行用于稳定股价的仓位也已平掉。
 
 | ✅ 已确认 | ⚖️ 尚属判断 |
 |---|---|
-| Anthropic IPO 定价 $83/股，对应估值约 $1.5T，AP 与 Reuters 均有报道 | 跌破发行价是短期市场情绪还是对 $1.5T 估值的实质性否定，需要看后续几个季度财报 |
-| 上市后数日内股价跌破 $83 发行价，首日涨幅回吐 | $900B 的 AI 支出承诺能否转化为收入，目前只有承诺没有兑现路径 |
-| IPO 文件披露季度人力成本 $1.7B，人均月成本约 $107K | '接近 RSI'的表述是风险披露还是营销话术，监管是否会介入 |
-| 信用机构预期给予高收益级（垃圾级）评级，Blackstone 曾公开质疑其投资级前景 | 垃圾级评级会如何影响其后续融资成本和算力采购能力 |
-| 承销银行已平掉原本用于稳定股价的仓位 | AI 板块整体回调是否会传导到创业公司估值和招聘 |
-| IPO 文件警告公司可能'即将'接近递归自我改进（RSI） |  |
+| AP 确认 IPO 定价 83 美元/股，对应约 1.5 万亿美元估值 | '迫近 RSI（递归自我改进）'是招股书风险披露措辞，不等于技术已实现 |
+| 路透报道上市后数日即跌破发行价，首日涨幅全部回吐 | 1.1-1.3 万亿美元区间曾是多轮估值谈判的落点，最终定价是否透支需求仍待观察 |
+| 招股书披露季度人力支出 17 亿美元，人均月薪约 10.7 万美元 | Amodei 的'十年治愈癌症'路演话术被医生群体质疑，是否影响机构信心尚不明朗 |
+| 信用机构给出高收益级（垃圾级）评级，Blackstone 早前已预警 | AI 板块整体回调（Nasdaq 抹平 2026 全年涨幅）与 Anthropic 个体表现难以完全剥离 |
+| 承销行已关闭用于稳定股价的仓位 | 对冲基金'卖出 2025 年以来买入的全部 AI 股'的说法来自单一报道，缺乏全量数据 |
 
 **📖 主编点评**
 
-你不需要关心股价，但要关心它背后的信号：头部 AI 公司的融资成本在上升，意味着'烧钱换规模'的模式正在被市场质疑。这对你的启示是，做 side project 时优先选'能自己跑起来、边际成本低'的方向，而不是需要大量 API 调用烧钱的产品形态。
+这是你判断'AI 是否进入资本寒冬'的第一个硬数据点，而不是又一篇泡沫论。给你的行动建议：如果你在简历或项目里写'AI 产品'，接下来半年面试官会更在意你有没有真实的成本意识和单位经济模型，而不是你用了哪个模型。content-curator 这种个人项目反而更抗周期——它不烧推理费，还能证明工程能力。
 
 📺 [打开原文](https://www.reuters.com/business/anthropic-breaks-below-83-ipo-price-debut-rally-unravels-2026-11-24/)
 
@@ -33,10 +32,12 @@ Anthropic 的 IPO 是本轮 AI 热潮里最受关注的定价事件：发行价 
 
 ## 📋 备选阅读
 
-- [Nasdaq erases all 2026 gains](https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html) —— 纳指抹平 2026 全年涨幅，与 Anthropic 破发、芯片股回调是同一波叙事，宏观背景参考。
-  _mv4 / HN_
-- [A Banker's Guide to Anthropic](https://www.netinterest.co/p/a-bankers-guide-to-anthropic) —— 从银行家视角拆解 Anthropic IPO 为何是'信用事件'而非单纯股权事件，比新闻稿深一层。
+- [Supply and Demand: Finding Equilibrium Inside the AI Economy](https://www.netinterest.co/p/supply-and-demand) —— 从金融视角拆 AI 经济的供需平衡。比泡沫论扎实，适合你理解 Anthropic 破发背后的结构性原因。
   _Marc Rubinstein / Net Interest_
+- [A Banker's Guide to Anthropic](https://www.netinterest.co/p/a-bankers-guide-to-anthropic) —— '为什么这次 IPO 是一个信用事件'。把 Anthropic 上市从科技新闻翻译成金融语言，读完再看破发就懂了。
+  _Marc Rubinstein / Net Interest_
+- [Do House members' stock trades beat the market? A test of 8,900 trades](https://arkanumdata.com/research/house-trades) —— 8900 笔议员交易的回测。数据方法干净，结论反直觉，是本周少见的'有数字的'金融内容。
+  _Bluestein / HN_
 
 ---
 
