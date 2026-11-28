@@ -23,7 +23,7 @@
 
 ## 输入（变量替换）
 
-- 今日日期：`2026-11-27`
+- 今日日期：`2026-11-28`
 - 用户画像：
   ```yaml
   电子信息工程大四 + 搜狗实习生 + AI 产品 / Agent 重度玩家。
@@ -47,7 +47,7 @@
 
 ```json
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "intro": "今日大意（80-150 字，1 段，告诉读者今天最重要的 1-2 个信号是什么，给个判断）",
   "headlines": [
     {
@@ -129,15 +129,26 @@
 ```json
 [
   {
-    "id": "bvid:BV1ABu96JEAR",
+    "id": "bvid:BV1BVEs6LENZ",
     "domain": "AI",
-    "title": "【保姆级教程】WorkBuddy彻底玩明白！只看这一期就够了！10节付费课内容全公开，完整工作流+实战技巧全揭秘，零基础一小时从入门到精通【附完整资料】",
-    "url": "http://www.bilibili.com/video/av117069685262348",
-    "source": "workbuddy应用实战",
+    "title": "【2026最新Codex】Codex保姆级完整教程-Codex新手保姆级教程-最强AI助手！从入门到进阶，22分钟速通Codex！【附教程文档安装包】",
+    "url": "http://www.bilibili.com/video/av116707129561197",
+    "source": "编程大佬陈悠秀",
     "platform": "bilibili",
-    "points": 2434775,
-    "published_at": "2026-08-10T06:05:50+00:00",
-    "summary": "这可能是B站最全的WorkBuddy免费教程。咱们把付费课程做成了免费课程，感谢观众大老爷的两币奉上，有喜欢的也可以一键三连。 评论“蓝皮书”领取全套资料\n我花了整整一周，从安装到实战到管理思维，把WorkBuddy这个腾讯云AI桌面工作台拆成了10步，每一步都带实操。你不需要任何基础，跟着点就行。"
+    "points": 3702052,
+    "published_at": "2026-06-07T05:32:32+00:00",
+    "summary": "最近Codex的能力越来越全面，变成了Codex四大形态里最强一个。 Codex APP 比起 Claude Code，额度更高，功能更全，免费账户也能用。而且不会出现限速、封号、降智等问题，用过的小伙伴直呼真香。本期视频带来一个Codex APP的完整教程"
+  },
+  {
+    "id": "bvid:BV1E7wtzaEdq",
+    "domain": "AI",
+    "title": "从 LLM 到 Agent Skill，一期视频带你打通底层逻辑！",
+    "url": "http://www.bilibili.com/video/av116227955497963",
+    "source": "马克的技术工作坊",
+    "platform": "bilibili",
+    "points": 2302421,
+    "published_at": "2026-03-14T14:22:56+00:00",
+    "summary": "AI 核心概念大串联：LLM, Token, Context, Context Window, Prompt, User Prompt, System Prompt, Tool, MCP, Agent, Agent Skill，一期视频带你打通 AI 底层逻辑！"
   },
   {
     "id": "bvid:BV1KjoxBoEQJ",
@@ -146,20 +157,9 @@
     "url": "http://www.bilibili.com/video/av116447535765612",
     "source": "人工大黑",
     "platform": "bilibili",
-    "points": 2166847,
+    "points": 2170191,
     "published_at": "2026-04-22T09:02:25+00:00",
     "summary": "本期视频因为白菜要毕业了，up伤心过度导致了拖更（）"
-  },
-  {
-    "id": "bvid:BV1xwVr6FEh4",
-    "domain": "AI",
-    "title": "【全748集】目前B站最全最细的AI Agent开发零基础教程，2026最新版，包含所有干货！七天就能从小白到大神！少走99%的弯路！学完即就业，带你玩转AI！",
-    "url": "http://www.bilibili.com/video/av116680671890321",
-    "source": "AI大模型码农",
-    "platform": "bilibili",
-    "points": 1614615,
-    "published_at": "2026-06-02T14:20:53+00:00",
-    "summary": "视频配套仔料+大模型入门到进阶全套仔料\n已经整理打包好\n如果视频对你有用的话请一键三连【长按点赞】支持一下up哦"
   },
   {
     "id": "bvid:BV1RPET6tEp2",
@@ -168,7 +168,7 @@
     "url": "http://www.bilibili.com/video/av116711944620974",
     "source": "尚硅谷",
     "platform": "bilibili",
-    "points": 1521894,
+    "points": 1523474,
     "published_at": "2026-06-09T02:00:00+00:00",
     "summary": "【配套资料】关注公众号：尚硅谷教育，回复“VibeCoding”免费获取\n【课程简介】从零开始，用自然语言指挥AI开发真实软件项目！"
   },
@@ -179,9 +179,31 @@
     "url": "http://www.bilibili.com/video/av116187623069851",
     "source": "AI-智能体搭建教程",
     "platform": "bilibili",
-    "points": 1500768,
+    "points": 1502939,
     "published_at": "2026-03-07T11:28:39+00:00",
     "summary": "【2026最新】B站最全最细的AI Agent智能体搭建教程，从入门到实战！手把手教你快速打造自己的专属智能体，一次性搞懂AI大模型智能体开发，学完薪资翻倍！"
+  },
+  {
+    "id": "bvid:BV1PwBuBtEZo",
+    "domain": "AI",
+    "title": "Trae 保姆级教程｜AI 编程工具完整入门，实战项目手把手教学",
+    "url": "http://www.bilibili.com/video/av115768712893172",
+    "source": "韩顺平",
+    "platform": "bilibili",
+    "points": 1101240,
+    "published_at": "2025-12-23T11:55:45+00:00",
+    "summary": "如果这个视频对你有帮助，记得【一键三连】，支持一下老韩\n【视频配套工具包+学习资料，”评论区置顶” 免费领取】"
+  },
+  {
+    "id": "bvid:BV1mtDEYPEDg",
+    "domain": "AI",
+    "title": "吃透AI Agent项目：手撸 Agent 框架 +Harness+ Agent开发实战+ Agent记忆系统 + MCP/A2A 协议实战！",
+    "url": "http://www.bilibili.com/video/av113422133888695",
+    "source": "卢菁博士",
+    "platform": "bilibili",
+    "points": 924400,
+    "published_at": "2024-11-04T01:45:43+00:00",
+    "summary": "【北大博士后亲授】AI大模型实战集训营🔥企业级大模型实战： ai agent原理 aiagent智能体搭建！\n AI智能体搭建教程：ai agent智能体搭建 langmanus MCP A2A源码级实战！"
   },
   {
     "id": "bvid:BV1aeLqzUE6L",
@@ -190,7 +212,7 @@
     "url": "http://www.bilibili.com/video/av114410228025650",
     "source": "隔壁的程序员老王",
     "platform": "bilibili",
-    "points": 918021,
+    "points": 918298,
     "published_at": "2025-05-01T09:00:00+00:00",
     "summary": "up的科学星球：https://t.zsxq.com/ubYr8"
   },
@@ -201,9 +223,20 @@
     "url": "http://www.bilibili.com/video/av116578532200786",
     "source": "程序员鱼皮",
     "platform": "bilibili",
-    "points": 765718,
+    "points": 766407,
     "published_at": "2026-05-15T12:35:03+00:00",
     "summary": "一口气带你认识 Cursor、Claude Code、Codex、GitHub Copilot、Windsurf、Trae、Kiro、Qoder、CodeBuddy 等 32 个主流的 AI 编程工具的实测表现，帮你快速找到最适合自己的。\n编程学习教程+实战项目+简历模板：codefather.cn\n开源 AI 编程教程：github.com/liyupi/ai-guide\n视频涵盖 Cursor"
+  },
+  {
+    "id": "bvid:BV1WBG9zgECp",
+    "domain": "AI",
+    "title": "史上最强 AI 编程工具免费啦！Cursor 保姆级使用教程！新手友好！看到就是赚到！｜ 集成 MCP ！",
+    "url": "http://www.bilibili.com/video/av114426116120045",
+    "source": "AfterShip",
+    "platform": "bilibili",
+    "points": 675908,
+    "published_at": "2025-05-01T04:00:00+00:00",
+    "summary": "相信你已经在网上刷到过不少的 AI 工具，但如果你让我推荐最值得我们每个人学习的一款 AI 工具，那绝对就是史上最强的 AI 编程工具 —— Cursor。为此，我们录制了一个保姆级的 Cursor 新手教程，在这里免费分享给大家。即使你是一个对 AI 完全 0 基础的新手小白，看完这个视频后，你也可以彻底了解 Cursor 这个软件，并知道如何从 0 到 1 用 Cursor 做出入门级的 AI"
   },
   {
     "id": "bvid:BV1aDMezREUj",
@@ -212,7 +245,7 @@
     "url": "http://www.bilibili.com/video/av114691716154833",
     "source": "尚硅谷",
     "platform": "bilibili",
-    "points": 597945,
+    "points": 598038,
     "published_at": "2025-06-17T02:00:54+00:00",
     "summary": "【配套资料】关注公众号：尚硅谷教育，回复“大模型”免费获取\n【课程简介】从Cursor下载安装、账号配置（含 “无限续杯” 技巧）到三大核心功能拆解：智能Tab、指令交互 Chat、Ctrl+K 智能内联修改"
   },
@@ -223,7 +256,7 @@
     "url": "http://www.bilibili.com/video/av116879800665673",
     "source": "Git源宝",
     "platform": "bilibili",
-    "points": 493168,
+    "points": 494117,
     "published_at": "2026-07-08T03:10:00+00:00",
     "summary": "安装包+全部配套课程源码+学习资料\n\n领取方式：关注 + 私信【让我看看】！"
   },
@@ -234,9 +267,20 @@
     "url": "http://www.bilibili.com/video/av117580048108571",
     "source": "技术爬爬虾",
     "platform": "bilibili",
-    "points": 465134,
+    "points": 469568,
     "published_at": "2026-11-08T09:14:07+00:00",
     "summary": "最近Claude桌面端（Claude Desktop） 有了一大波功能更新。随着一步步的迭代，它已经把 Claude Code 的编程、Claude Design 的设计，以及 Claude Cowork 的办公等核心能力，全部收入了同一个桌面客户端，特别是Claude Code已经从原本黑乎乎的命令行工具，进化成了桌面客户端的完全体形态。再搭配上超强的Opus5.5 模型，已经能称得上是地表顶级"
+  },
+  {
+    "id": "bvid:BV1rBRQBSEwB",
+    "domain": "AI",
+    "title": "Claude Code+DeepSeek V4 Pro安装教程｜3步从零装好开始用 | Mac Windows",
+    "url": "http://www.bilibili.com/video/av116543199385810",
+    "source": "大牙大-",
+    "platform": "bilibili",
+    "points": 460608,
+    "published_at": "2026-05-09T10:10:00+00:00",
+    "summary": "上期vibe coding零基础教程10万多人看了，私信和评论里问最多的居然不是怎么写需求。\n 而是Claude Code怎么装？DeepSeek怎么接进去？🫣\n\n所以这期作为补丁教程，专门帮大家搞定这3件事：\n 1️⃣ 安装Claude Code\n 2️⃣ 把DeepSeek V4 Pro百万上下文满血版接入Claude Code\n 3️⃣ 在VS Code里正式用起来\n\nMac和Windows"
   },
   {
     "id": "bvid:BV13YRjBTEPb",
@@ -245,7 +289,7 @@
     "url": "http://www.bilibili.com/video/av116503638706867",
     "source": "iwenwiki",
     "platform": "bilibili",
-    "points": 439382,
+    "points": 439660,
     "published_at": "2026-05-02T06:51:59+00:00",
     "summary": "全B站最详细的Hermes Agent教程，从部署到玩转！零基础，小白也能轻松玩转Hermes Agent，真正的AI助手，恐怖如斯！"
   },
@@ -256,9 +300,20 @@
     "url": "http://www.bilibili.com/video/av114155298228756",
     "source": "技术爬爬虾",
     "platform": "bilibili",
-    "points": 429267,
+    "points": 429340,
     "published_at": "2025-03-13T13:18:09+00:00",
     "summary": "MCP是近期的AI领域的热点，特别是在海外社区获得热烈讨论，每天都有大量MCP工具诞生。本期视频我们从MCP的概念，技术原理，到多场景实战，一个视频看懂MCP的全部内容。\n\n\nMCP官方开源仓库：https://github.com/modelcontextprotocol/servers\nMCP合集网站：  https://smithery.ai/\nVscode下载：https://code.v"
+  },
+  {
+    "id": "bvid:BV1ZRbe6eENh",
+    "domain": "AI",
+    "title": "DeepSeek Harness安装和使用教程【最新完整版】零基础小白速通deepseek harness入门教程怎么下载插件如何安装如何使用全搞定！",
+    "url": "http://www.bilibili.com/video/av117110286062691",
+    "source": "鹏哥C语言",
+    "platform": "bilibili",
+    "points": 385584,
+    "published_at": "2026-08-17T10:10:51+00:00",
+    "summary": "欢迎大家来到鹏哥课堂！这份DeepSeek Harness教程专为零基础小白打造，全程手把手演示安装、启动Web界面、模型接入、基础任务实操。 很多小白卡在环境配置、命令报错、参数设置，本教程能让你避开各种坑，跟着操作就能成功运行。 搞懂 Agent = 模型 + Harness，让 AI 读写文件、执行命令、自主完成项目任务。本教程适合程序员、AI 爱好者及想上手本地智能体的同学等。希望大家把视"
   },
   {
     "id": "bvid:BV1VC7g6vE9f",
@@ -267,9 +322,20 @@
     "url": "http://www.bilibili.com/video/av116796937997854",
     "source": "隔壁的程序员老王",
     "platform": "bilibili",
-    "points": 371938,
+    "points": 373025,
     "published_at": "2026-06-25T09:00:00+00:00",
     "summary": "作者知识星球：https://t.zsxq.com/ubYr8\n作者的第一个VibeCoding：https://github.com/cradiator/memory_map_visualizer"
+  },
+  {
+    "id": "bvid:BV1vG8QzcE5X",
+    "domain": "AI",
+    "title": "Claude使用指南，claude code零基础教程，claude code安装配置到实战",
+    "url": "http://www.bilibili.com/video/av114933744272468",
+    "source": "尚硅谷",
+    "platform": "bilibili",
+    "points": 359272,
+    "published_at": "2025-07-30T02:00:00+00:00",
+    "summary": "【配套资料】关注公众号：尚硅谷教育，回复“大模型”免费获取\n【课程简介】从概念到安装，再到Claude Code的具体使用，开发效率原地起飞！"
   },
   {
     "id": "bvid:BV1uronYREWR",
@@ -278,7 +344,7 @@
     "url": "http://www.bilibili.com/video/av114339210073708",
     "source": "马克的技术工作坊",
     "platform": "bilibili",
-    "points": 334866,
+    "points": 335276,
     "published_at": "2025-04-15T00:59:13+00:00",
     "summary": "MCP终极指南 - 带你深入掌握MCP（基础篇）\n\n时间轴：\n01:05 MCP简要介绍\n02:47 安装 MCP Host（Cline）\n03:15 配置 Cline 用的 API Key\n06:01 第一个 MCP 问题\n06:31 概念解释：MCP Server 和 Tool\n09:13 配置 MCP Server\n14:19 使用 MCP Server\n15:24 MCP 交互流程详解\n1"
   },
@@ -289,7 +355,7 @@
     "url": "http://www.bilibili.com/video/av117346291157971",
     "source": "三颗门牙X",
     "platform": "bilibili",
-    "points": 308539,
+    "points": 310407,
     "published_at": "2026-09-28T11:00:00+00:00",
     "summary": "现在的 AI Agent，一个比一个能吹，到底哪个真能干活？\n这期我自费充了会员，把 Codex、WorkBuddy、DeepSeek Harness、千问办公、豆包工作、Kimi、GLM、MiniMax 拉出来试了一圈。从 PPT、Excel、网页，到动画、3D 看房和交互原型，看看实际效果，也聊聊日常用起来顺不顺手。\n同一个模型，换个 Agent，效果和花费能差多少？模型够强，软件就一定好用？"
   },
@@ -300,20 +366,42 @@
     "url": "http://www.bilibili.com/video/av116521405780262",
     "source": "大牙大-",
     "platform": "bilibili",
-    "points": 306977,
+    "points": 307575,
     "published_at": "2026-05-05T10:13:18+00:00",
     "summary": "🤔如果你最近也在想一件事：我一个完全不会代码的人，真的可以用 AI 为自己做出一个软件吗？\n🌟我的答案是：当然可以！\n\n📚我把自己这4个月Vibe Coding里最重要的经验，浓缩成了一次完整实操演示。\n不是只告诉你装什么工具，而是直接带你从0到1做出一个真正能运行的软件：怎么提第一次需求，怎么让AI稳定执行，怎么一步一步把项目推进下去。\n\n如果你刚开始对Vibe Coding感兴趣，那这条就是为"
   },
   {
-    "id": "bvid:BV1468g6DEWs",
+    "id": "bvid:BV1qJs16WEJj",
     "domain": "AI",
-    "title": "【全100集】(允许白嫖) 2026最全最细的AI教程零基础入门到精通，一周带你小白变大神！全程干货无废话！存下吧，少走99%的弯路！",
-    "url": "http://www.bilibili.com/video/av117115386404821",
-    "source": "AI产品经理入门教程-",
+    "title": "今天体验的人生副本是:沉迷vibe coding走火入魔的AI嘉豪",
+    "url": "http://www.bilibili.com/video/av117635899524333",
+    "source": "vibe睦头人",
     "platform": "bilibili",
-    "points": 252364,
-    "published_at": "2026-08-18T13:11:45+00:00",
-    "summary": "【2026最新版AI教程零基础入门到精通｜配套学习路线+工具包+实战项目，看置顶评论自取】\n 本套教程专为零基础设计，从AI是什么到独立用AI解决实际问题，手把手带你系统走完从入门到精通的完整路径。 ✅ AI认知入门：什么是AI/大模型、它们能做什么不能做什么、别被营销话术忽悠\n✅ 核心技能掌握：提示词工程、多轮对话技巧、让AI稳定输出的方法论\n✅ 进阶能力突破：AI工作流搭建、智能体开发、多工具"
+    "points": 294717,
+    "published_at": "2026-11-18T06:01:48+00:00",
+    "summary": "ai生成，仅供娱乐，如有雷同，纯属巧合（（"
+  },
+  {
+    "id": "bvid:BV1RdLm6PEFF",
+    "domain": "AI",
+    "title": "ClaudeCode桌面版 = 中文汉化 + 免登录 + 接入DeekSeek + 安装自己的Skill",
+    "url": "http://www.bilibili.com/video/av116606717919919",
+    "source": "iwenwiki",
+    "platform": "bilibili",
+    "points": 294274,
+    "published_at": "2026-05-20T11:45:46+00:00",
+    "summary": "全B站最详细的 ClaudeCode 桌面版教程，从安装到免登录，中文汉化，接入DeepSeek，安装使用自己的Skill，ClaudeCode真正的AI编程工具，恐怖如斯！\nAgent Skills课程在这里：https://www.bilibili.com/video/BV1ugdgBQED4/?spm_id_from=333.1387.homepage.video_card.click&am"
+  },
+  {
+    "id": "bvid:BV1Cx6oBAETu",
+    "domain": "AI",
+    "title": "巅峰对决，Cursor TRAE 对比评测",
+    "url": "http://www.bilibili.com/video/av115876875469556",
+    "source": "数字游牧人",
+    "platform": "bilibili",
+    "points": 260333,
+    "published_at": "2026-01-12T03:00:00+00:00",
+    "summary": ""
   },
   {
     "id": "bvid:BV1uhVq69EVu",
@@ -322,7 +410,7 @@
     "url": "http://www.bilibili.com/video/av116678943839396",
     "source": "有点子is丫",
     "platform": "bilibili",
-    "points": 242468,
+    "points": 242971,
     "published_at": "2026-06-02T05:57:01+00:00",
     "summary": "【2026最新版】这绝对是B站讲的最好的Cursor全流程实战教程， 全程干货无废话，学完即就业！\n视频教程 附 所需源码 文档 软件"
   },
@@ -333,7 +421,7 @@
     "url": "http://www.bilibili.com/video/av116529475622752",
     "source": "木子不写代码",
     "platform": "bilibili",
-    "points": 218429,
+    "points": 218752,
     "published_at": "2026-05-07T08:00:00+00:00",
     "summary": "这是你能看到的最完整的 Claude Code 零基础系统教程。\n\n\n我们将深度拆解：\n\n1️⃣ 基础入门：安装、第三方模型接入、权限系统。\n\n2️⃣ 核心进阶：Tools、Hooks、Skills、Subagents 及自动化流程。\n\n3️⃣ 项目实战：从零构建一个真实可用的 AI 网页 App。\n\n\n视频跟到最后，你不只是学会写代码，而是掌握 AI 智能体的工作逻辑。我是木子，只提供 AI 时"
   },
@@ -344,20 +432,9 @@
     "url": "http://www.bilibili.com/video/av116379604881806",
     "source": "鹏哥C语言",
     "platform": "bilibili",
-    "points": 215869,
+    "points": 216389,
     "published_at": "2026-04-13T09:00:00+00:00",
     "summary": "opencodeopencode使用全攻略opencode教程opencode和claudecodeopencode使用技巧opencode实战opencode coworkopencode安装opencode开发opencode使用教程opencode教程opencode安装教程opencode使用全攻略opencode和claudecodeopencode skillsopencode插件op"
-  },
-  {
-    "id": "bvid:BV13R5EzbE6E",
-    "domain": "AI",
-    "title": "火遍全网的MCP是什么？怎么用？如何自己开发一个MCP服务？一个视频带你入门！",
-    "url": "http://www.bilibili.com/video/av114358956854079",
-    "source": "玄离199",
-    "platform": "bilibili",
-    "points": 187930,
-    "published_at": "2025-04-18T12:48:54+00:00",
-    "summary": "MCPPPPPPPPPPPPPPPPPPPP"
   },
   {
     "id": "bvid:BV16zPuzHE9n",
@@ -366,7 +443,7 @@
     "url": "http://www.bilibili.com/video/av116154538398331",
     "source": "桥哥聊AI",
     "platform": "bilibili",
-    "points": 166844,
+    "points": 166876,
     "published_at": "2026-03-01T15:14:36+00:00",
     "summary": "1、认识Vibe Coding\n2、入门指南（零基础能学吗？学完后能做什么？）\n3、工具与实践（推荐工具&amp;动手写一个移动端网站）\n4、实操微调（修改页面中图片和文字，有点进阶）\n5、部署云端，让别人看到你的作品"
   },
@@ -377,31 +454,31 @@
     "url": "http://www.bilibili.com/video/av114025056699722",
     "source": "技术爬爬虾",
     "platform": "bilibili",
-    "points": 162378,
+    "points": 162412,
     "published_at": "2025-02-18T13:13:51+00:00",
     "summary": "我试用了几十种AI编程辅助工具，找到了其中三个免费，并且效果最好的方案。 本期视频就来跟大家分享一下。视频中间会穿插很多AI编程工具的使用技巧，还有看待AI编程的一些个人思考。本期视频没有广告都是个人的经验干货，废话不多说我们直接开始。"
   },
   {
-    "id": "bvid:BV1eYPpeWEnT",
+    "id": "bvid:BV1oG3w6wEZB",
     "domain": "AI",
-    "title": "Cursor + MCP = 王炸！彻底颠覆我的Cursor工作流，效率直接起飞",
-    "url": "http://www.bilibili.com/video/av114073660301264",
-    "source": "御风大世界",
+    "title": "【Codex入门】10分钟速通Codex搞定Vibe Coding!",
+    "url": "http://www.bilibili.com/video/av116992023462138",
+    "source": "学姐潇潇",
     "platform": "bilibili",
-    "points": 151957,
-    "published_at": "2025-02-27T03:19:03+00:00",
-    "summary": ""
+    "points": 160842,
+    "published_at": "2026-07-27T12:55:18+00:00",
+    "summary": "因为我在刚开始的阶段，碰到了很多并不是零基础的教程，所以有了这期视频~"
   },
   {
-    "id": "bvid:BV1Qcg6zgEhU",
+    "id": "bvid:BV1PgCmY9EKu",
     "domain": "AI",
-    "title": "【AI Agent实战】从零开始教你搭建Agent智能体，小白也能学会的保姆级教程！让你少走99%弯路！",
-    "url": "http://www.bilibili.com/video/av114771105945944",
-    "source": "讲AI的小坛",
+    "title": "Cursor教程：实现自动化写文章，让AI 7*24小时为你打工｜ChatGPT｜AI进化论-花生",
+    "url": "http://www.bilibili.com/video/av113328902905646",
+    "source": "花叔v",
     "platform": "bilibili",
-    "points": 129359,
-    "published_at": "2025-06-30T07:26:07+00:00",
-    "summary": "【AI Agent实战】从零开始的智能体搭建，小白也能学会的保姆级教程！让你少走99%弯路，最简单易懂的大模型教程"
+    "points": 135598,
+    "published_at": "2024-10-18T14:35:55+00:00",
+    "summary": "👏 欢迎加入我的知识星球「AI编程：从入门到精通」：https://t.zsxq.com/BFTPI\n🤖 OpenAI API充值入口：https://platform.openai.com/settings/organization/billing/overview\n\n这期视频主要是像你介绍如何使用Cursor写自动化脚本，实现让ChatGPT为你自动化写作的目的。以小红书读书博主为例，演示了使"
   },
   {
     "id": "bvid:BV1VL3F6pE9K",
@@ -410,20 +487,31 @@
     "url": "http://www.bilibili.com/video/av116991151113881",
     "source": "黑马测试",
     "platform": "bilibili",
-    "points": 124300,
+    "points": 124831,
     "published_at": "2026-07-27T09:19:37+00:00",
     "summary": "还在卷传统软件测试？2026年必学的AI智能体(Agent)测试来了！本期视频专为0基础小白打造，从软件测试基础讲起...若要本视频配套资源笔记可加up主企微（请看置顶留言最后一句话）。"
   },
   {
-    "id": "bvid:BV1VQWb6eEeo",
+    "id": "bvid:BV1SCpx6EEVj",
     "domain": "AI",
-    "title": "全网最详细的 AI 入门课：一期视频搞懂 58 个 AI 术语，从大模型到 Agent、MCP、Skill",
-    "url": "http://www.bilibili.com/video/av117587144940374",
-    "source": "亚里今天也要AI",
+    "title": "【40集全】AI大模型应用实战全家桶零基础教程，包括LLM、RAG、Agent、MCP、工作流、工具调用等，支持FastAPI和Springboot双版本",
+    "url": "http://www.bilibili.com/video/av117408501139977",
+    "source": "武哥聊编程",
     "platform": "bilibili",
-    "points": 106757,
-    "published_at": "2026-11-09T15:20:10+00:00",
-    "summary": "这可能是你看过的，最详细的 AI 入门课。\n一期视频，带你搞懂 AI 里最常见的 58 个概念和名词：从最基础的大模型、Token，到现在最火的 Agent、MCP、Skill，每一个都讲清楚它是什么、怎么工作，和其他概念有什么区别。\n五个部分循序渐进，最后用学到的词，一句一句读懂一页真的模型更新日志。\n\n00:00 开场\n00:27 课程路线：五个部分\n【第一部分 AI 和大模型是什么】\n00:"
+    "points": 109736,
+    "published_at": "2026-10-09T02:06:20+00:00",
+    "summary": "Springboot版：https://aigcbaba.com/course/123\nFastAPI版：https://aigcbaba.com/course/124"
+  },
+  {
+    "id": "bvid:BV1677s6UErR",
+    "domain": "AI",
+    "title": "分享一下我对于 Codex 和 Claude 的一些看法",
+    "url": "http://www.bilibili.com/video/av116822120602930",
+    "source": "oil欧呦",
+    "platform": "bilibili",
+    "points": 108671,
+    "published_at": "2026-06-27T12:42:40+00:00",
+    "summary": "深度用过 Codex 和 Claude 之后，分享我对桌面端产品设计、模型体验和日常工作流的真实感受。"
   },
   {
     "id": "bvid:BV1kGo6BdEsT",
@@ -432,31 +520,53 @@
     "url": "http://www.bilibili.com/video/av116474832361424",
     "source": "阿西_出海",
     "platform": "bilibili",
-    "points": 105284,
+    "points": 105322,
     "published_at": "2026-04-27T04:45:20+00:00",
     "summary": "很多人问我上期爆了的那条视频里，那个 PPT 是怎么做的。\n其实我是用 Anthropic 最近出的 Claude Design 做的，这个功能一发出来就在全网传疯了，一条推文就冲上了 6000 多万曝光。\n本期视频我会带你手把手从 0 到 1 把这个Skill 装好，然后一起跑一个成品效果出来。"
   },
   {
-    "id": "bvid:BV1YJ336EEBk",
+    "id": "bvid:BV1PUWX69EDC",
     "domain": "AI",
-    "title": "【AI陪玩】开袋即食的AI接入我的世界教程！",
-    "url": "http://www.bilibili.com/video/av116981806143216",
-    "source": "万圣Dwin",
+    "title": "DeepSeek Harness 省 token 终极指南！8 个省钱技巧",
+    "url": "http://www.bilibili.com/video/av117602210876639",
+    "source": "林粒粒呀",
     "platform": "bilibili",
-    "points": 92917,
-    "published_at": "2026-07-26T01:30:00+00:00",
-    "summary": "模组：Numen\n项目地址：https://github.com/Dwinovo/minecraft-numen"
+    "points": 99688,
+    "published_at": "2026-11-12T11:05:00+00:00",
+    "summary": "8 个 DeepSeek Harness 省钱\n省 Token 实用技巧！"
   },
   {
-    "id": "bvid:BV143wwz6E8F",
+    "id": "bvid:BV1QuZAY2EW1",
     "domain": "AI",
-    "title": "Claude code科研使用展示与思路分享（提速就靠Ai）",
-    "url": "http://www.bilibili.com/video/av116211882920985",
-    "source": "科研推土机",
+    "title": "10 分钟！零基础彻底学会 Cursor AI 编程 | Cursor AI 编程｜Cursor 进阶技巧 | Cursor 开发小程序 | 小白 AI 编程",
+    "url": "http://www.bilibili.com/video/av114246079809849",
+    "source": "Geek4Fun",
     "platform": "bilibili",
-    "points": 77229,
-    "published_at": "2026-03-11T18:12:00+00:00",
-    "summary": "本期给大家带来的是Claude在Vscode的科研应用演示与我最近的一些心得使用心得，科研速度嘎嘎提升。论文复现画图、数据分析就靠Claude code。这个课程也是科研推土机「系统管理文献课程2.0」学员催我更新的内容，希望能帮助到大家～，这个视频重点讲两个事情：\n1️⃣ 资料获取，free不用怀疑，我是良心可言博主，，关注我(GZTSHNR)～\n2️⃣ 展示如何在VS code实操应用clau"
+    "points": 94396,
+    "published_at": "2025-03-29T14:02:03+00:00",
+    "summary": "Hello 大家好，不需要懂任何编程知识，也不需要写一行代码，10 分钟让你彻底学会 AI 编程！手把手带你从:\n- 0基础到入门\n- 用户端的选择\n- 开发出一款非常有实用价值的应用\n- 借助 AI 来画设计图！\n- 接入 Deepseek 和把数据存在云服务器\n- 实用的 AI 进阶技巧"
+  },
+  {
+    "id": "bvid:BV1LjC7BmE8H",
+    "domain": "AI",
+    "title": "硅谷爆火AI神器Cursor教程！从入门到实战，轻松做图表、写文档、搞开发、自动化全能办公！",
+    "url": "http://www.bilibili.com/video/av115536717484104",
+    "source": "韩顺平",
+    "platform": "bilibili",
+    "points": 90016,
+    "published_at": "2025-11-12T12:31:09+00:00",
+    "summary": "《Cursor快速入门到实战》带你全面掌握Cursor！从安装配置到Chat对话、规则、提示词模板，再到数据可视化、文档生成、游戏开发、智能助手、Figma联动实战，全流程提升AI编程与办公效率，轻松打造高效智能开发环境。"
+  },
+  {
+    "id": "bvid:BV1Yn336mEPi",
+    "domain": "AI",
+    "title": "operit教程：入门安卓最强大ai平台operitAI",
+    "url": "http://www.bilibili.com/video/av116981789364416",
+    "source": "玩家77625",
+    "platform": "bilibili",
+    "points": 82587,
+    "published_at": "2026-07-25T22:19:42+00:00",
+    "summary": "-"
   },
   {
     "id": "bvid:BV17Lap6VEUr",
@@ -465,20 +575,20 @@
     "url": "http://www.bilibili.com/video/av117353572468721",
     "source": "数据拾光屋",
     "platform": "bilibili",
-    "points": 70798,
+    "points": 71528,
     "published_at": "2026-10-02T09:25:00+00:00",
     "summary": "本套教程专门为零基础学员而制，全程干货无废话，喜欢的小伙伴记得点赞三连喔 ~"
   },
   {
-    "id": "bvid:BV1BnVpz5EBD",
+    "id": "bvid:BV1RtGU6hEDd",
     "domain": "AI",
-    "title": "全网爆火的MCP到底是什么？如何使用MCP？【小白入门教程】",
-    "url": "http://www.bilibili.com/video/av114461616643308",
-    "source": "直男山禾",
+    "title": "DeepSeek-Reasonix 【保姆级教程】：专为 DeepSeek 打造的 AI 编程 Agent客户端，长会话成本到底能省多少？",
+    "url": "http://www.bilibili.com/video/av116647486556383",
+    "source": "程序员晓刘",
     "platform": "bilibili",
-    "points": 57214,
-    "published_at": "2025-05-06T15:38:52+00:00",
-    "summary": "今天聊聊MCP"
+    "points": 60070,
+    "published_at": "2026-05-27T16:33:52+00:00",
+    "summary": "本期体验 DeepSeek-Reasonix 这个开源项目，主要看客户端界面、模型模式、会话导入、MCP 配置、记忆与缓存等功能。内容基于个人使用记录，不做夸张结论，适合对 DeepSeek 生态和 AI 编程工具感兴趣的朋友参考。"
   },
   {
     "id": "bvid:BV1SqdeBnEvV",
@@ -487,9 +597,20 @@
     "url": "http://www.bilibili.com/video/av116415373778266",
     "source": "leookun",
     "platform": "bilibili",
-    "points": 50849,
+    "points": 50867,
     "published_at": "2026-04-16T17:16:48+00:00",
     "summary": "Cursor 助手已发布！下载使用文档：https://docs.leokun.cn\n\n我在本地实现了Cursor 的大部分官方服务(主要是bidi+runSSE的grpc)，然后以标准的 Openai API 或Anthropic接口直接发送给其他 API，全程流量都没有到 cursor官方，真正的 local first，支持思维链，支持局域网地址"
+  },
+  {
+    "id": "bvid:BV1TyfuBnEEY",
+    "domain": "AI",
+    "title": "ClaudeCode接入第三方中转API使用官方模型配置教程；省下一半费用还能用官方模型",
+    "url": "http://www.bilibili.com/video/av116102092822203",
+    "source": "掌舵者AI实验室",
+    "platform": "bilibili",
+    "points": 50388,
+    "published_at": "2026-02-20T08:52:21+00:00",
+    "summary": "很多小伙伴问怎么用中转API调用Claude官方模型， 本期视频手把手教你配置。"
   },
   {
     "id": "bvid:BV1wpxq6VEXx",
@@ -498,31 +619,20 @@
     "url": "http://www.bilibili.com/video/av117529699682124",
     "source": "keysking",
     "platform": "bilibili",
-    "points": 49672,
+    "points": 50120,
     "published_at": "2026-10-30T11:52:06+00:00",
     "summary": "一句话，让 AI 帮我们完成第一个 STM32C5 程序！🚀\n本期我们一起认识 AI Agent，学习如何描述开发需求，并借助开源的 STM32C5DevSkills，让 AI 完成工程创建、芯片配置、代码编写和编译烧录，让律动小板上的小灯闪烁起来！\n也特别感谢 @意法半导体中国   对本系列教程的支持～下期我们再亲手走一遍开发流程，把 Agent 替我们完成的工作，一步步搞明白！"
   },
   {
-    "id": "bvid:BV1uVSUBkEfZ",
+    "id": "bvid:BV1YS1czoEJ4",
     "domain": "AI",
-    "title": "Microsoft Copilot完整教程(上) 从入门到Agent 一站式掌握AI办公",
-    "url": "http://www.bilibili.com/video/av116351721084069",
-    "source": "星小脉",
+    "title": "50 分钟速通 Codex 保姆级教程（含 DeepSeek 接入，无需 ChatGPT 订阅）【附教程文档安装包】",
+    "url": "http://www.bilibili.com/video/av117671517489403",
+    "source": "林粒粒呀",
     "platform": "bilibili",
-    "points": 49105,
-    "published_at": "2026-04-05T11:00:20+00:00",
-    "summary": "2026年最全面的Microsoft Copilot教程上半部分。从Copilot首页入门到Agent深度解析，涵盖搜索、资料库、AI视频生成、Copilot Pages、PowerPoint智能幻灯片等全部功能。由培训了6万人的AI顾问Cherie Brock与Sabrina Ramonov联合讲解。"
-  },
-  {
-    "id": "bvid:BV1thQPYfEYC",
-    "domain": "AI",
-    "title": "全流程演示Cursor + Blender MCP实现自动3D建模",
-    "url": "http://www.bilibili.com/video/av114155835103525",
-    "source": "Next蔡蔡",
-    "platform": "bilibili",
-    "points": 44839,
-    "published_at": "2025-03-13T15:31:17+00:00",
-    "summary": "自动3D建模这个例子，是不是让大家一下子就看懂MCP的用途了。\n.\n后面会实测更多Cursor+MCP的更多玩法，欢迎继续围观\n.\n欢迎加入我的知识星球，有问必答：https://t.zsxq.com/fD4Fb\n.\nblender mcp项目：https://github.com/ahujasid/blender-mcp/tree/main"
+    "points": 46768,
+    "published_at": "2026-11-24T13:01:46+00:00",
+    "summary": "50 分钟速通 Codex 保姆级教程\n无需 ChatGPT 订阅，国内直连 DeepSeek"
   },
   {
     "id": "bvid:BV1hmb26ZEws",
@@ -531,20 +641,31 @@
     "url": "http://www.bilibili.com/video/av117100337236191",
     "source": "程序员晓刘",
     "platform": "bilibili",
-    "points": 43881,
+    "points": 44248,
     "published_at": "2026-08-15T16:01:38+00:00",
     "summary": "这期用同一个 DeepSeek Pro 0813 模型，分别在 Claude Code 和 DeepSeek Harness 里完成同样的任务，对比工具链对最终效果的影响。\n实测内容包括：\nFPS 游戏 Demo、灯塔预警沙盘、手枪组装动画、显示器组装动画，以及 DeepSeek Harness 的插件化源码流程。\n整体看下来，模型本身当然重要，但 Harness 在插件化、流程记录、缓存命中和任"
   },
   {
-    "id": "bvid:BV17fQDBiEtb",
+    "id": "bvid:BV1hEVY6jEGT",
     "domain": "AI",
-    "title": "RustDesk自建服务器，从此远程桌面不再卡了",
-    "url": "http://www.bilibili.com/video/av116273438529693",
-    "source": "科技智趣坊",
+    "title": "最新【Claude pro Max】保姆级充值教程 Claude code国内购买教程 注册+订阅一个视频教会你",
+    "url": "http://www.bilibili.com/video/av116657754277772",
+    "source": "codex充值",
     "platform": "bilibili",
-    "points": 41959,
-    "published_at": "2026-03-22T23:10:00+00:00",
-    "summary": "远程桌面软件太卡了？不妨试试RustDesk远程桌面工具，可以自建服务器，独占资源，速度超快，哪怕低配的服务器也能流畅运行，99元一年的3兆带宽即可流畅运行；RustDesk自建服务器"
+    "points": 43340,
+    "published_at": "2026-05-29T12:07:14+00:00",
+    "summary": "aipayok.com"
+  },
+  {
+    "id": "bvid:BV1NddKBvEsY",
+    "domain": "AI",
+    "title": "claude code 桌面端安装并且配置第三方api使用教程，想体验的尽早吧，因为这公司可能不知道哪天抽风就会禁用了！#claude #ai #人工智能",
+    "url": "http://www.bilibili.com/video/av116535968466799",
+    "source": "菜鸡的老黎",
+    "platform": "bilibili",
+    "points": 43157,
+    "published_at": "2026-05-07T23:56:28+00:00",
+    "summary": "claude code 桌面端安装并且配置第三方api使用教程，想体验的尽早吧，因为这公司可能不知道哪天抽风就会禁用了！#claude #ai #人工智能 #agent"
   },
   {
     "id": "bvid:BV1XiD5BQEAj",
@@ -553,130 +674,9 @@
     "url": "http://www.bilibili.com/video/av116350093694897",
     "source": "下班学AI",
     "platform": "bilibili",
-    "points": 41648,
+    "points": 41664,
     "published_at": "2026-04-05T04:02:16+00:00",
     "summary": "【别再看电脑了！】一行命令，让Claude Code实现远程调用🔥\n还在守着电脑终端敲Prompt？太Low了！今天手把手教你用 cc-connect 把Claude Code接入即时通讯工具，实现远程开发。\n👉 本期视频你将学到：\n1️⃣ 一行命令极速部署，无需复杂后端\n2️⃣ 手机端直接操控：发语音、发文字，AI帮你写代码、修Bug\n3️⃣ 远程开发实战：躺在沙发上用手机调优项目\n从此手机就是"
-  },
-  {
-    "id": "bvid:BV1sQaL6vEkb",
-    "domain": "AI",
-    "title": "小白向，ai入门第一课：agent的部署和使用！",
-    "url": "http://www.bilibili.com/video/av117349378166797",
-    "source": "沈三殊",
-    "platform": "bilibili",
-    "points": 35331,
-    "published_at": "2026-09-28T15:30:36+00:00",
-    "summary": "详细的agent部署介绍：https://pan.quark.cn/s/3846914c6da7\n欢迎来到ai的世界！！\n有疑问欢迎私信。"
-  },
-  {
-    "id": "bvid:BV1utE4z9EML",
-    "domain": "AI",
-    "title": "自己开发 MCP 服务器，本地大模型调用 MCP",
-    "url": "http://www.bilibili.com/video/av114517669314664",
-    "source": "新建文件夹X",
-    "platform": "bilibili",
-    "points": 31361,
-    "published_at": "2025-05-16T13:11:38+00:00",
-    "summary": "完全本地，本地 MCP、本地大语言模型。使用 FastMCP 开发 MCP 服务器、客户端，并使用大语言模型调用 MCP 服务器工具。\n代码：https://github.com/IronSpiderMan/MachineLearningPractice/tree/main/llm_techs/mcp"
-  },
-  {
-    "id": "bvid:BV1NpubzYE8c",
-    "domain": "AI",
-    "title": "Cursor用不了？三款AI编程工具完美代替Cursor",
-    "url": "http://www.bilibili.com/video/av114863061864380",
-    "source": "AI随风随风",
-    "platform": "bilibili",
-    "points": 30015,
-    "published_at": "2025-07-16T13:10:54+00:00",
-    "summary": "Cursor用不了？三款AI编程工具完美代替Cursor\naugmentCode\nTrae\nKiro"
-  },
-  {
-    "id": "bvid:BV1g6fdYcEes",
-    "domain": "AI",
-    "title": "Cursor从小白到专家-第19课：如何用Cursor开发安卓APP？",
-    "url": "http://www.bilibili.com/video/av113888322524233",
-    "source": "Next蔡蔡",
-    "platform": "bilibili",
-    "points": 29083,
-    "published_at": "2025-01-25T09:40:12+00:00",
-    "summary": "今天第19课分享如何用Cursor开发安卓APP。\n.\n开发安卓APP和开发iOS APP在整体流程上其实差不多，区别主要在于技术栈、开发工具，以及上架应用商店所需材料的不同，所以这期视频更多放在两者的差别上，共同点没有赘述太多。"
-  },
-  {
-    "id": "bvid:BV1xMsm6zE41",
-    "domain": "AI",
-    "title": "vibe coding四个阶段",
-    "url": "http://www.bilibili.com/video/av117636587327903",
-    "source": "程序员牛牛学长",
-    "platform": "bilibili",
-    "points": 23461,
-    "published_at": "2026-11-23T10:55:00+00:00",
-    "summary": ""
-  },
-  {
-    "id": "bvid:BV1njtUeeE56",
-    "domain": "AI",
-    "title": "Unity + Cursor AI编程，让AI帮你写代码",
-    "url": "http://www.bilibili.com/video/av113179434683184",
-    "source": "Cool灬浩",
-    "platform": "bilibili",
-    "points": 22874,
-    "published_at": "2024-09-22T05:02:40+00:00",
-    "summary": ""
-  },
-  {
-    "id": "bvid:BV13Asb6cE17",
-    "domain": "AI",
-    "title": "Claude Code 从0到1全攻略：装环境、设权限、接 MCP、写可复用技能、拆子智能体、配自动钩子，全程讲透从装到用的整套流程，建议收藏慢慢看！AI大模型",
-    "url": "http://www.bilibili.com/video/av117642291582518",
-    "source": "大模型分享员",
-    "platform": "bilibili",
-    "points": 20918,
-    "published_at": "2026-11-19T09:13:50+00:00",
-    "summary": "这个合集用大白话讲清 Claude Code，先说清楚它到底是什么、能帮你做什么，再带你装好并配好环境；接着讲权限与控制模式、内置命令的用法，让它按你的规矩干活；然后一步步接上 MCP 用外部工具、写 Skill 复用常用能力、配 Hooks 做自动化、拆子智能体分工，最后用 SDD 规范把需求到代码的流程固定下来。全程按真实操作演示，每集都能跟着做，遇到坑也能提前避开，建议先收藏慢慢看。"
-  },
-  {
-    "id": "bvid:BV1C81cz6Ed9",
-    "domain": "AI",
-    "title": "🚀T3 Code完整使用教程！比Orca更好用的开源AI IDE？手机下发任务！1条指令拉起多个AI线程并行改代码！统一调度Claude Code、Codex",
-    "url": "http://www.bilibili.com/video/av117671802705979",
-    "source": "AI超元域",
-    "platform": "bilibili",
-    "points": 20483,
-    "published_at": "2026-11-24T14:09:25+00:00",
-    "summary": "视频简介：\nT3 Code完整使用教程！比Orca更好用的开源AI IDE？手机下发任务！1条指令拉起多个AI线程并行改代码！统一调度Claude Code、Codex、Pi、Antigravity等，效率倍增\n\n从安装配置到多 Agent 工作流实战：T3 Code 完整教程，把现有 AI 编程订阅全部装进一个工作台，多模型同时处理同一项目，代码改动到底如何隔离？\n\n还在多个 AI 编程工具之间"
-  },
-  {
-    "id": "bvid:BV1AFxf6BEpK",
-    "domain": "AI",
-    "title": "【5分钟搞定】Claude账号注册登录保姆级教程！没有邮箱、注册不了、要手机号验证、弹KYC认证？这一条全讲清",
-    "url": "http://www.bilibili.com/video/av117561526059085",
-    "source": "团子讲Ai",
-    "platform": "bilibili",
-    "points": 20370,
-    "published_at": "2026-11-05T02:47:11+00:00",
-    "summary": "本视频由 Claude Code 剪辑创作完成。不懂网络配置可以看我主页置顶视频\n最近很多人卡在 Claude 注册第一步，我用微软邮箱亲手从头注册了两个号，每一步和会卡住的地方都录了下来：\n1. 用微软邮箱注册 Claude：不用手机，只要一个辅助邮箱验证；QQ、163 邮箱别拿去注册。\n2. 手机号验证跳不过：要能收短信的美国号码，虚拟号不收，一个号码只能验证一次。\n3. 弹 KYC 身份认证"
-  },
-  {
-    "id": "bvid:BV1wz4b6WEpd",
-    "domain": "AI",
-    "title": "【2026最新版】AI Agent智能体零基础全套教程（MCP+Agent Skills+多智能体+工作流自动化+项目实战）手把手教你从0搭建能干活的AI智能体",
-    "url": "http://www.bilibili.com/video/av117563270961193",
-    "source": "AI大模型全栈",
-    "platform": "bilibili",
-    "points": 19501,
-    "published_at": "2026-11-06T00:00:00+00:00",
-    "summary": "【全栈 AI 大模型工程师】 本套 AI 大模型系统教程专为零基础用户打造，全方位覆盖了从 LLM 底层原理到 Prompt 提示词工程、以及 2026 热门 AI Agent 智能体构建的实战全流程，不仅包含 DeepSeek、Claude、OpenClaw 等前沿模型的高效使用技巧，更深度解析了私有化部署、知识库搭建及工作流自动化的落地场景，旨在带你从零入门到精通，手把手教你如何利用 AI 大"
-  },
-  {
-    "id": "bvid:BV1VqHM6iEXn",
-    "domain": "AI",
-    "title": "从零实现自己的agent第十一期：多agent协作",
-    "url": "http://www.bilibili.com/video/av117496514418485",
-    "source": "小单说AI",
-    "platform": "bilibili",
-    "points": 17551,
-    "published_at": "2026-10-25T02:00:00+00:00",
-    "summary": "源码地址放这里了：\n📦 教学仓库：https:// github.com/TheSyart/claude-agent-examples\n⚔️ 实战项目：https://github.com/TheSyart/emperor-agent\n我会持续更新 Agent 教学与实战内容。\n觉得有用的话，帮忙点个 Star ⭐\n谢谢大家支持。"
   },
   {
     "id": "hn:50611576",
@@ -685,7 +685,7 @@
     "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
     "source": "jaz",
     "platform": "hackernews",
-    "points": 2851,
+    "points": 2860,
     "published_at": "2026-11-23T14:00:18+00:00",
     "summary": ""
   },
@@ -698,17 +698,6 @@
     "platform": "hackernews",
     "points": 1714,
     "published_at": "2026-11-23T14:01:23+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:50493251",
-    "domain": "AI 算力 / 半导体",
-    "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-    "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-    "source": "speckx",
-    "platform": "hackernews",
-    "points": 1117,
-    "published_at": "2026-11-14T02:52:59+00:00",
     "summary": ""
   },
   {
@@ -751,19 +740,8 @@
     "url": "https://gpu-demo-gallery.pages.dev/",
     "source": "arkits",
     "platform": "hackernews",
-    "points": 355,
+    "points": 356,
     "published_at": "2026-11-25T04:31:48+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:50487864",
-    "domain": "AI 算力 / 半导体",
-    "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
-    "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
-    "source": "crescit_eundo",
-    "platform": "hackernews",
-    "points": 387,
-    "published_at": "2026-11-13T18:40:44+00:00",
     "summary": ""
   },
   {
@@ -800,24 +778,13 @@
     "summary": ""
   },
   {
-    "id": "hn:50492993",
-    "domain": "AI 算力 / 半导体",
-    "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-    "source": "LopRabbit",
-    "platform": "hackernews",
-    "points": 218,
-    "published_at": "2026-11-14T02:21:36+00:00",
-    "summary": ""
-  },
-  {
     "id": "hn:50630245",
     "domain": "AI 算力 / 半导体",
     "title": "Ex-Nvidia partner Megaspeed hit with U.S. Commerce Department export ban",
     "url": "https://www.upi.com/Top_News/US/2026/11/24/NVIDIA-partner-Megaspeed/1701795520063/",
     "source": "nephihaha",
     "platform": "hackernews",
-    "points": 129,
+    "points": 130,
     "published_at": "2026-11-24T16:08:29+00:00",
     "summary": ""
   },
@@ -877,14 +844,14 @@
     "summary": ""
   },
   {
-    "id": "hn:50618490",
+    "id": "hn:50668828",
     "domain": "AI 算力 / 半导体",
-    "title": "Congress shreds Nvidia's 'outrageous' return of Huang: 'Failure of character'",
-    "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html",
-    "source": "MilnerRoute",
+    "title": "Nvidia CEO's comeback fuels debate on misogyny or impunity for rich and powerful",
+    "url": "https://www.pbs.org/newshour/nation/nvidia-ceos-comeback-fuels-debate-over-misogyny-and-impunity-for-the-rich-and-powerful",
+    "source": "Betelbuddy",
     "platform": "hackernews",
-    "points": 69,
-    "published_at": "2026-11-23T20:13:18+00:00",
+    "points": 20,
+    "published_at": "2026-11-27T16:43:06+00:00",
     "summary": ""
   },
   {
@@ -899,6 +866,28 @@
     "summary": ""
   },
   {
+    "id": "hn:50629620",
+    "domain": "AI 算力 / 半导体",
+    "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
+    "url": "https://www.reuters.com/legal/transactional/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-2026-11-24/",
+    "source": "onemoresoop",
+    "platform": "hackernews",
+    "points": 44,
+    "published_at": "2026-11-24T15:28:23+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:50618490",
+    "domain": "AI 算力 / 半导体",
+    "title": "Congress shreds Nvidia's 'outrageous' return of Huang: 'Failure of character'",
+    "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress-trump.html",
+    "source": "MilnerRoute",
+    "platform": "hackernews",
+    "points": 69,
+    "published_at": "2026-11-23T20:13:18+00:00",
+    "summary": ""
+  },
+  {
     "id": "hn:50648903",
     "domain": "AI 算力 / 半导体",
     "title": "S&P warns Nvidia's board may be compromised",
@@ -910,59 +899,48 @@
     "summary": ""
   },
   {
-    "id": "hn:50652248",
+    "id": "rss:https://www.eetimes.com/gta-grand-three-assumptions/",
     "domain": "AI 算力 / 半导体",
-    "title": "Nvidia halts chip shipments to south-East Asia",
-    "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
-    "source": "chirau",
-    "platform": "hackernews",
-    "points": 29,
-    "published_at": "2026-11-26T06:43:42+00:00",
-    "summary": ""
+    "title": "GTA: Grand Three Assumptions",
+    "url": "https://www.eetimes.com/gta-grand-three-assumptions/",
+    "source": "Moshe Zalcberg",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-28T02:00:00+00:00",
+    "summary": "GTA 6 broke sales records, but consoles running it rest on assumptions that failed: cheaper hardware, commodity memory, frozen platforms. The post GTA: Grand Three Assumptions appeared first on EE Tim"
   },
   {
-    "id": "hn:50629620",
+    "id": "rss:https://www.eetimes.com/penguin-revives-retired-ddr4-for-ai-servers/",
     "domain": "AI 算力 / 半导体",
-    "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
-    "url": "https://www.reuters.com/legal/transactional/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-2026-11-24/",
-    "source": "onemoresoop",
-    "platform": "hackernews",
-    "points": 43,
-    "published_at": "2026-11-24T15:28:23+00:00",
-    "summary": ""
+    "title": "Penguin Revives Retired DDR4 for AI Servers",
+    "url": "https://www.eetimes.com/penguin-revives-retired-ddr4-for-ai-servers/",
+    "source": "Gary Hilson",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T19:17:00+00:00",
+    "summary": "Hyperscalers are already reclaiming older DRAM, but enterprises have been slower to reuse DDR4 to meet their memory expansion demands. The post Penguin Revives Retired DDR4 for AI Servers appeared fir"
   },
   {
-    "id": "hn:50621127",
+    "id": "rss:https://www.eetimes.com/beyond-lithography-the-battle-for-semiconductor-manufacturing-yield/",
     "domain": "AI 算力 / 半导体",
-    "title": "Short Nvidia Fund Halted After 91% Wipeout",
-    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/short-nvidia-fund-halted-after-91-wipeout-myoKEHNFkGcseucDUC48",
-    "source": "devy",
-    "platform": "hackernews",
-    "points": 33,
-    "published_at": "2026-11-23T23:36:26+00:00",
-    "summary": ""
+    "title": "Beyond Lithography: The Battle for Semiconductor Manufacturing Yield",
+    "url": "https://www.eetimes.com/beyond-lithography-the-battle-for-semiconductor-manufacturing-yield/",
+    "source": "Ron Honig",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T14:22:45+00:00",
+    "summary": "The proposed MATCH Act exposes a strategic vulnerability extending beyond ASML to the technologies that determine manufacturing productivity and yield. The post Beyond Lithography: The Battle for Semi"
   },
   {
-    "id": "hn:50616243",
+    "id": "rss:https://www.eetimes.com/nuvolta-technical-sharing-pcb-grounding-design-and-return-path/",
     "domain": "AI 算力 / 半导体",
-    "title": "Trump Is Said to Have Directed Effort to Reinstate Nvidia Chief",
-    "url": "https://www.nytimes.com/2026/11/23/us/politics/trump-nvidia-huang.html",
-    "source": "johnny313",
-    "platform": "hackernews",
-    "points": 32,
-    "published_at": "2026-11-23T18:03:59+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:50483391",
-    "domain": "AI 算力 / 半导体",
-    "title": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
-    "url": "https://www.youtube.com/watch?v=YYU_geUwQoA",
-    "source": "belst",
-    "platform": "hackernews",
-    "points": 81,
-    "published_at": "2026-11-13T13:45:06+00:00",
-    "summary": ""
+    "title": "NuVolta Technical Sharing: PCB Grounding Design and Return Path",
+    "url": "https://www.eetimes.com/nuvolta-technical-sharing-pcb-grounding-design-and-return-path/",
+    "source": "Luke, Engineer, NuVolta Technologies",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T14:00:00+00:00",
+    "summary": "Many PCB design guidelines reduce grounding to a few rules: These rules are not wrong, but they are incomplete. They do not answer a fundamental question: where does the current return? If a ground pl"
   },
   {
     "id": "rss:https://www.eetimes.com/huawei-next-big-ai-move-hbm-workaround/",
@@ -998,235 +976,257 @@
     "summary": "Quantum computing, sovereign AI, ocean electronics, and advanced materials: six stories on how Canada is connecting its technology strengths—and confronting the challenge of scale. The post Bridging t"
   },
   {
-    "id": "rss:https://www.eetimes.com/eu-rules-bring-new-safety-requirements-for-farm-robots/",
+    "id": "rss:https://www.tomshardware.com/pc-components/this-nifty-usd35-dual-hard-drive-dock-can-support-up-to-64tb-of-storage-for-your-pc-clone-duplicate-and-connect-2-5-inch-and-3-5-inch-ssds-and-hdds-with-ease",
     "domain": "AI 算力 / 半导体",
-    "title": "EU Rules Bring New Safety Requirements for Farm Robots",
-    "url": "https://www.eetimes.com/eu-rules-bring-new-safety-requirements-for-farm-robots/",
-    "source": "Liam Critchley",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T08:55:48+00:00",
-    "summary": "New EU regulations will tighten safety and compliance requirements for farms deploying AI-powered robots and autonomous machinery. The post EU Rules Bring New Safety Requirements for Farm Robots appea"
-  },
-  {
-    "id": "rss:https://www.eetimes.com/unikey-electronics-named-recom-global-authorized-distributor-at-electronica-2026/",
-    "domain": "AI 算力 / 半导体",
-    "title": "Unikey Electronics Named RECOM Global Authorized Distributor at electronica 2026",
-    "url": "https://www.eetimes.com/unikey-electronics-named-recom-global-authorized-distributor-at-electronica-2026/",
-    "source": "Unikey Electronics Pte. Ltd.",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T08:31:51+00:00",
-    "summary": "Unikey signs a distribution agreement with RECOM, launching an online sourcing platform, and starting an industry interview series. The post Unikey Electronics Named RECOM Global Authorized Distributo"
-  },
-  {
-    "id": "rss:https://www.eetimes.com/infineon-coolset-sip-enables-efficient-first-time-right-auxiliary-power-designs/",
-    "domain": "AI 算力 / 半导体",
-    "title": "Infineon CoolSET™ SiP Enables Efficient, ‘First-Time-Right’ Auxiliary Power Designs",
-    "url": "https://www.eetimes.com/infineon-coolset-sip-enables-efficient-first-time-right-auxiliary-power-designs/",
-    "source": "Hubert Baierl, marketing director, Infineon Technologies AG",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-25T22:02:21+00:00",
-    "summary": "Auxiliary supply is indispensable, and designers need to facilitate high-efficiency solutions across a wide range of loads, in a limited PCB area, and deliver first-time-right designs. The post Infine"
-  },
-  {
-    "id": "rss:https://www.eetimes.com/mcrps-power-supply-for-enterprise-data-centers/",
-    "domain": "AI 算力 / 半导体",
-    "title": "MCRPS Power Supply for Enterprise Data Centers",
-    "url": "https://www.eetimes.com/mcrps-power-supply-for-enterprise-data-centers/",
-    "source": "Antonello Laneve, Manuel Escudero, David Meneses, M.A. Kutschak, Theodoros Mouselinos, Alex Rossi, and Sam Abdel-Rahman, all at Infineon Technologies AG",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-25T20:36:47+00:00",
-    "summary": "The 5.6 kW MCRPS reference design from Infineon provides a viable solution for next-generation common redundant PSUs in enterprise servers. The post MCRPS Power Supply for Enterprise Data Centers appe"
-  },
-  {
-    "id": "rss:https://www.eetimes.com/turning-optical-telemetry-into-cluster-reliability-integrating-link-health-data-into-monitoring-and-ticketing/",
-    "domain": "AI 算力 / 半导体",
-    "title": "Turning Optical Telemetry into Cluster Reliability: Integrating Link Health Data into Monitoring and Ticketing",
-    "url": "https://www.eetimes.com/turning-optical-telemetry-into-cluster-reliability-integrating-link-health-data-into-monitoring-and-ticketing/",
-    "source": "Credo",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-25T18:00:22+00:00",
-    "summary": "Explore how integrating optical link health data into monitoring and ticketing can help teams improve cluster reliability. The post Turning Optical Telemetry into Cluster Reliability: Integrating Link"
-  },
-  {
-    "id": "rss:https://www.eetimes.com/ai-makes-formal-verification-practical/",
-    "domain": "AI 算力 / 半导体",
-    "title": "AI Makes Formal Verification Practical",
-    "url": "https://www.eetimes.com/ai-makes-formal-verification-practical/",
-    "source": "Sally Ward-Foxton",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-25T17:34:58+00:00",
-    "summary": "AI model startup Harmonic is expanding into formal verification for software and hardware. The post AI Makes Formal Verification Practical appeared first on EE Times."
-  },
-  {
-    "id": "rss:https://www.eetimes.com/understanding-accuracy-and-resolution-for-magnetic-angle-sensors/",
-    "domain": "AI 算力 / 半导体",
-    "title": "Understanding Accuracy and Resolution for Magnetic Angle Sensors",
-    "url": "https://www.eetimes.com/understanding-accuracy-and-resolution-for-magnetic-angle-sensors/",
-    "source": "Monolithic Power Systems, Inc. (MPS)",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-25T14:00:00+00:00",
-    "summary": "Learn how magnetic angle sensor accuracy and resolution affect position measurement, and explore key factors for precise, reliable sensing applications. The post Understanding Accuracy and Resolution "
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/live/news/black-friday-2026-monitor-deals",
-    "domain": "AI 算力 / 半导体",
-    "title": "Black Friday 2026 gaming monitor deals live",
-    "url": "https://www.tomshardware.com/live/news/black-friday-2026-monitor-deals",
-    "source": "The Editors of Tom&#039;s Hardware",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-27T11:49:04+00:00",
-    "summary": "The best Black Friday monitor sales, live round-the-clock coverage of all the best deals."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/nvidia-agrees-to-usd290-million-settlement-over-2018-crypto-mining-gpu-sales-ends-eight-year-investor-lawsuit-without-admitting-wrongdoing",
-    "domain": "AI 算力 / 半导体",
-    "title": "Nvidia agrees to $290 million settlement over 2018 crypto mining GPU sales",
-    "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-agrees-to-usd290-million-settlement-over-2018-crypto-mining-gpu-sales-ends-eight-year-investor-lawsuit-without-admitting-wrongdoing",
-    "source": "Jhet Borja",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-27T11:30:00+00:00",
-    "summary": "Nvidia agrees to pay $290 million settlement for class action allegedly misleading investors that much of gaming GPU sales were actually driven by cryptocurrency mining demand."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/texas-lifts-freeze-on-1-800-data-center-projects-in-greg-abbott-u-turn-companies-rush-for-permits-before-gina-hinojosas-january-arrival",
-    "domain": "AI 算力 / 半导体",
-    "title": "Texas lifts freeze on 1,800+ data center projects in Greg Abbott U-turn",
-    "url": "https://www.tomshardware.com/tech-industry/data-centers/texas-lifts-freeze-on-1-800-data-center-projects-in-greg-abbott-u-turn-companies-rush-for-permits-before-gina-hinojosas-january-arrival",
+    "title": "This nifty $35 dual hard drive dock can support up to 64TB of storage for your PC",
+    "url": "https://www.tomshardware.com/pc-components/this-nifty-usd35-dual-hard-drive-dock-can-support-up-to-64tb-of-storage-for-your-pc-clone-duplicate-and-connect-2-5-inch-and-3-5-inch-ssds-and-hdds-with-ease",
     "source": "Oliver Haslam",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-27T11:00:00+00:00",
-    "summary": "After pausing the approval of new data center building permits in August, Texas has now reversed the decision and has once again begun approving applications as builders rush to get the go-ahead befor"
+    "published_at": "2026-11-28T11:16:34+00:00",
+    "summary": "Pick up this dual-bay docking station and hook up two 3.5-inch or 2.5-inch drives simultaneously. It even has a built-in offline duplicator and cloning function."
   },
   {
-    "id": "rss:https://www.tomshardware.com/pc-components/external-hdds/20tb-wd-elements-external-hdd-is-at-its-lowest-price-this-year-usd549-storage-drive-is-2-75-cents-per-gb",
+    "id": "rss:https://www.tomshardware.com/peripherals/wearable-tech/hair-dye-that-turns-your-head-into-a-brain-computer-interface-ehair-coats-strands-in-conductive-polymers-to-amplify-eeg-signals-without-surgery",
     "domain": "AI 算力 / 半导体",
-    "title": "20TB WD Elements external HDD is at its lowest price this year",
-    "url": "https://www.tomshardware.com/pc-components/external-hdds/20tb-wd-elements-external-hdd-is-at-its-lowest-price-this-year-usd549-storage-drive-is-2-75-cents-per-gb",
-    "source": "Stewart Bendle",
+    "title": "Hair dye that turns your head into a brain-computer interface",
+    "url": "https://www.tomshardware.com/peripherals/wearable-tech/hair-dye-that-turns-your-head-into-a-brain-computer-interface-ehair-coats-strands-in-conductive-polymers-to-amplify-eeg-signals-without-surgery",
+    "source": "Mark Tyson",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-27T10:51:06+00:00",
-    "summary": "WD's 20TB storage drive is at its lowest price this year at $549, just 2.75 cents per gigabyte on Amazon."
+    "published_at": "2026-11-28T11:00:00+00:00",
+    "summary": "eHAIR is claimed to transform hair 'from a barrier into a functional bioelectronic interface.'"
   },
   {
-    "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/activists-enter-third-day-of-hunger-strike-outside-anthropics-san-francisco-hq-over-recursive-ai-self-improvement-protester-threatens-to-go-40-days-and-target-openai-next",
+    "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/thermaltakes-budget-rtx-5060-ti-gaming-desktops-are-as-little-as-usd1-299-choose-between-ddr4-and-ddr5-configurations-with-up-to-usd100-off",
     "domain": "AI 算力 / 半导体",
-    "title": "Activists enter third day of hunger strike outside Anthropic's San Francisco HQ over recursive AI self-improvement",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/activists-enter-third-day-of-hunger-strike-outside-anthropics-san-francisco-hq-over-recursive-ai-self-improvement-protester-threatens-to-go-40-days-and-target-openai-next",
+    "title": "Thermaltake’s budget RTX 5060 Ti gaming desktops are as little as $1,299",
+    "url": "https://www.tomshardware.com/desktops/gaming-pcs/thermaltakes-budget-rtx-5060-ti-gaming-desktops-are-as-little-as-usd1-299-choose-between-ddr4-and-ddr5-configurations-with-up-to-usd100-off",
+    "source": "Kunal Khullar",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-28T10:45:00+00:00",
+    "summary": "Both prebuilt gaming PCs come with Nvidia's RTX 5060 Ti 8GB graphics, 1TB of storage, RGB cooling, and an Intel AI software bundle, while also including a holiday bundle with two PC games."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/corsairs-xeneon-edge-pc-touchscreen-is-usd50-off-in-all-colors-tiny-14-5-inch-under-monitor-display-is-just-usd200",
+    "domain": "AI 算力 / 半导体",
+    "title": "Corsair's Xeneon Edge PC touchscreen is $50 off in all colors",
+    "url": "https://www.tomshardware.com/pc-components/corsairs-xeneon-edge-pc-touchscreen-is-usd50-off-in-all-colors-tiny-14-5-inch-under-monitor-display-is-just-usd200",
+    "source": "Sarah Jacobsson Purewal",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-28T10:30:00+00:00",
+    "summary": "Corsair's 14.5-inch touchscreen is $50 off in all five colors for Black Friday."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/speakers/onkyos-incredible-creator-series-desktop-pc-speakers-are-almost-50-percent-off-great-sound-and-plenty-of-connections",
+    "domain": "AI 算力 / 半导体",
+    "title": "Onkyo's incredible Creator Series desktop PC speakers are almost 50% off — great sound and plenty of connections",
+    "url": "https://www.tomshardware.com/speakers/onkyos-incredible-creator-series-desktop-pc-speakers-are-almost-50-percent-off-great-sound-and-plenty-of-connections",
+    "source": "Sarah Jacobsson Purewal",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-28T10:00:00+00:00",
+    "summary": "Both Onkyo's Creator GX-10DB and Creator GX-30ARC desktop speakers are on a pretty decent sale at Amazon for Black Friday."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/live/news/best-black-friday-3d-printer-deals-day-two",
+    "domain": "AI 算力 / 半导体",
+    "title": "Best Black Friday 2026 3D Printer deals live",
+    "url": "https://www.tomshardware.com/live/news/best-black-friday-3d-printer-deals-day-two",
+    "source": "The Editors of Tom&#039;s Hardware",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-28T08:22:48+00:00",
+    "summary": "The best Black Friday 3D printer deals that you can still buy this weekend."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/live/news/best-black-friday-gaming-laptop-deals-day-two",
+    "domain": "AI 算力 / 半导体",
+    "title": "Best Black Friday Gaming laptop deals live",
+    "url": "https://www.tomshardware.com/live/news/best-black-friday-gaming-laptop-deals-day-two",
+    "source": "The Editors of Tom&#039;s Hardware",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-28T08:01:57+00:00",
+    "summary": "The best Black Friday gaming laptops still live this weekend."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/live/news/black-friday-gaming-pc-deals-2026-day-two",
+    "domain": "AI 算力 / 半导体",
+    "title": "Best Black Friday Gaming PC Deals live",
+    "url": "https://www.tomshardware.com/live/news/black-friday-gaming-pc-deals-2026-day-two",
+    "source": "The Editors of Tom&#039;s Hardware",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-28T07:42:15+00:00",
+    "summary": "All the best Black Friday gaming PC deals you can still buy this weekend."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/live/news/black-friday-2026-day-four",
+    "domain": "AI 算力 / 半导体",
+    "title": "Best Black Friday 2026 tech deals live",
+    "url": "https://www.tomshardware.com/live/news/black-friday-2026-day-four",
+    "source": "The Editors of Tom&#039;s Hardware",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-28T07:20:57+00:00",
+    "summary": "All the best Black Friday deals for tech and PC hardware you can still buy this weekend."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/this-lenovo-loq-notebook-with-arc-b390-graphics-is-just-usd799-this-black-friday-get-a-gaming-ready-panther-lake-laptop-for-a-super-low-price",
+    "domain": "AI 算力 / 半导体",
+    "title": "This Lenovo LOQ notebook with Arc B390 graphics is just $799 this Black Friday",
+    "url": "https://www.tomshardware.com/laptops/gaming-laptops/this-lenovo-loq-notebook-with-arc-b390-graphics-is-just-usd799-this-black-friday-get-a-gaming-ready-panther-lake-laptop-for-a-super-low-price",
+    "source": "Jeffrey Kampman",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T23:33:28+00:00",
+    "summary": "Good cheap gaming notebooks are hard to find this Black Friday, but Lenovo's LOQ laptop with Arc B390 graphics gets you there for just $799."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/get-a-perfect-alienware-4k-oled-32-display-with-rgb-subpixels-for-usd150-off-165-hz-refresh-rate-1000-nits-hdr-and-dolby-vision-support-with-the-aw3226q",
+    "domain": "AI 算力 / 半导体",
+    "title": "Get a perfect Alienware 4K OLED 32\" display with RGB subpixels for $150 off",
+    "url": "https://www.tomshardware.com/pc-components/get-a-perfect-alienware-4k-oled-32-display-with-rgb-subpixels-for-usd150-off-165-hz-refresh-rate-1000-nits-hdr-and-dolby-vision-support-with-the-aw3226q",
     "source": "Bruno Ferreira",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-27T10:30:00+00:00",
-    "summary": "Anti-RSI activists go into third day of hunger strike at Anthropic offices — acceleration of AI development creates growing concerns"
+    "published_at": "2026-11-27T23:10:19+00:00",
+    "summary": "Get a perfect Alienware AW3226Q 4K OLED 32\" display with RGB subpixels for $549.99, or $150 off — 165 Hz refresh rate, 1000-nits HDR, and Dolby Vision support"
   },
   {
-    "id": "rss:https://www.tomshardware.com/tech-industry/drones/ukrainian-11th-grader-builds-ai-powered-gps-free-drone-autopilot-to-beat-frontline-jamming-earns-the-future-of-ukraine-award-from-president-zelenskyy",
+    "id": "rss:https://www.tomshardware.com/pc-components/sandisks-lightning-fast-optimus-gx-pro-8100-2tb-nvme-ssd-is-21-percent-off-and-usd0-18-cents-per-gb-usd349-for-a-pcie-5-0-m-2-ssd-is-about-as-good-as-it-gets-for-black-friday",
     "domain": "AI 算力 / 半导体",
-    "title": "Ukrainian 11th-grader builds AI-powered, GPS-free drone autopilot to beat frontline jamming",
-    "url": "https://www.tomshardware.com/tech-industry/drones/ukrainian-11th-grader-builds-ai-powered-gps-free-drone-autopilot-to-beat-frontline-jamming-earns-the-future-of-ukraine-award-from-president-zelenskyy",
+    "title": "SanDisk’s lightning-fast Optimus GX Pro 8100 2TB NVMe SSD is 21% off and $0.18 cents per GB",
+    "url": "https://www.tomshardware.com/pc-components/sandisks-lightning-fast-optimus-gx-pro-8100-2tb-nvme-ssd-is-21-percent-off-and-usd0-18-cents-per-gb-usd349-for-a-pcie-5-0-m-2-ssd-is-about-as-good-as-it-gets-for-black-friday",
+    "source": "Joe Shields",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T22:19:56+00:00",
+    "summary": "2TB SanDisk Optimus GX Pro 8100 PCIe 5.0 SSD is down to an all-time low of $349, making it one of the cheapest 2TB Gen5 drives around."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/live/news/black-friday-2026-monitor-deals-oled-4k-gaming",
+    "domain": "AI 算力 / 半导体",
+    "title": "Black Friday 2026 gaming monitor deals live",
+    "url": "https://www.tomshardware.com/live/news/black-friday-2026-monitor-deals-oled-4k-gaming",
+    "source": "The Editors of Tom&#039;s Hardware",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T21:49:59+00:00",
+    "summary": "The best Black Friday monitor sales, live round-the-clock coverage of all the best deals."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/cpus/amds-ultimate-ryzen-9-9950x3d2-cpu-is-down-to-its-lowest-price-with-usd140-savings-single-cache-ryzen-9-9950x3d-is-also-on-a-deep-usd115-discount",
+    "domain": "AI 算力 / 半导体",
+    "title": "AMD's ultimate Ryzen 9 9950X3D2 CPU is down to its lowest price with $140 savings",
+    "url": "https://www.tomshardware.com/pc-components/cpus/amds-ultimate-ryzen-9-9950x3d2-cpu-is-down-to-its-lowest-price-with-usd140-savings-single-cache-ryzen-9-9950x3d-is-also-on-a-deep-usd115-discount",
+    "source": "Jake Roach",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T21:29:33+00:00",
+    "summary": "Grab AMD's most powerful CPUs, the Ryzen 9 9950X3D2 or 9950X3D, at all-time-low prices during Black Friday."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/samsungs-49-inch-oled-gaming-monitor-returns-to-its-lowest-price-ever-at-amazon-take-your-gpu-on-an-ultrawide-odyssey-for-usd854",
+    "domain": "AI 算力 / 半导体",
+    "title": "Samsung's 49-inch OLED gaming monitor drops to a new low price of $854",
+    "url": "https://www.tomshardware.com/monitors/gaming-monitors/samsungs-49-inch-oled-gaming-monitor-returns-to-its-lowest-price-ever-at-amazon-take-your-gpu-on-an-ultrawide-odyssey-for-usd854",
+    "source": "Matt Safford",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T21:06:27+00:00",
+    "summary": "Amazon is offering the Samsung Odyssey G9 G93SC at a price of $854, a new all-time low. The gaming monitor often sells for above $1,20"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/protect-your-pc-console-or-tv-with-a-cyberpower-st900u-ups-for-just-usd99-95-or-17-percent-off-a-complement-of-12-outlets-available-with-surge-protection",
+    "domain": "AI 算力 / 半导体",
+    "title": "Protect your PC, console, or TV with a CyberPower ST900U UPS for just $99.95, or 17% off",
+    "url": "https://www.tomshardware.com/pc-components/protect-your-pc-console-or-tv-with-a-cyberpower-st900u-ups-for-just-usd99-95-or-17-percent-off-a-complement-of-12-outlets-available-with-surge-protection",
+    "source": "Bruno Ferreira",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T20:30:00+00:00",
+    "summary": "Protect your PC, console, or TV with a CyberPower ST900U UPS for just $99.95, or 20% off — a complement of 12 outlets available with surge protection"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/get-a-sony-wh-1000-mx5-headset-with-anc-for-only-usd169-99-aural-bliss-for-your-games-and-movies",
+    "domain": "AI 算力 / 半导体",
+    "title": "Get a Sony WH-1000 XM5 headset with ANC for only $169.99 — aural bliss for your games and movies",
+    "url": "https://www.tomshardware.com/pc-components/get-a-sony-wh-1000-mx5-headset-with-anc-for-only-usd169-99-aural-bliss-for-your-games-and-movies",
+    "source": "Bruno Ferreira",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T19:49:01+00:00",
+    "summary": "Get a Sony WH-1000 XM5 headset with ANC for only $169.99 — aural bliss for your games and movies"
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/gpus/get-the-cheapest-rtx-5070-around-this-black-friday-with-gigabytes-usd839-gaming-oc-card-midrange-blackwell-continues-to-shine-with-dlss-4-5-and-dlss-5",
+    "domain": "AI 算力 / 半导体",
+    "title": "Get the cheapest RTX 5070 around this Black Friday with Gigabyte's $839 Gaming OC card",
+    "url": "https://www.tomshardware.com/pc-components/gpus/get-the-cheapest-rtx-5070-around-this-black-friday-with-gigabytes-usd839-gaming-oc-card-midrange-blackwell-continues-to-shine-with-dlss-4-5-and-dlss-5",
+    "source": "Jeffrey Kampman",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T19:38:08+00:00",
+    "summary": "Looking for a midrange RTX 50-series upgrade this Black Friday? The Gigabyte Gaming RTX 5070 gets you a big cooler and RGB flair for the lowest price we've seen this week."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/ssds/this-silicon-power-ssd-is-selling-for-a-stunning-10-cents-per-gb-at-only-usd209-this-is-the-best-2tb-ssd-deal-on-newegg",
+    "domain": "AI 算力 / 半导体",
+    "title": "This Silicon Power SSD is selling for a stunning 10 cents per GB — at only $209, this is the best 2TB SSD deal on Newegg",
+    "url": "https://www.tomshardware.com/pc-components/ssds/this-silicon-power-ssd-is-selling-for-a-stunning-10-cents-per-gb-at-only-usd209-this-is-the-best-2tb-ssd-deal-on-newegg",
+    "source": "Stewart Bendle",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T19:35:21+00:00",
+    "summary": "Grab 2TB of storage for 10 cents per GB at Newegg. Silicon Power's P34A60 is one of the best-value SSD deals during the Black Friday sales."
+  },
+  {
+    "id": "rss:https://www.tomshardware.com/pc-components/get-a-29-percent-discount-on-the-280-000-rpm-miaepic-z3-electric-air-duster-keeping-your-pc-clean-doesnt-have-to-be-pricey",
+    "domain": "AI 算力 / 半导体",
+    "title": "Get a 29% discount on the 280,000-RPM MiaEpic Z3 electric air duster",
+    "url": "https://www.tomshardware.com/pc-components/get-a-29-percent-discount-on-the-280-000-rpm-miaepic-z3-electric-air-duster-keeping-your-pc-clean-doesnt-have-to-be-pricey",
     "source": "Jowi Morales",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-27T10:00:00+00:00",
-    "summary": "Yaroslav Sheiko's innovation allows drones to fly accurately even if they don't have a GPS signal or encounter GPS jamming."
+    "published_at": "2026-11-27T19:20:00+00:00",
+    "summary": "The MiaEpic Z3 electric air duster comes with four nozzles and two brush attachments, allowing you to use it for your PC, accessories, and other things around the house. It also has a massive battery "
   },
   {
-    "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/save-a-huge-usd1-020-on-a-240hz-oled-gaming-laptop-from-lenovo-with-an-rtx-5070-ti-now-just-usd1-999-portable-legion-5i-rig-features-an-18-core-intel-cpu-and-a-1tb-ssd",
+    "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/best-pc-building-tool-deals-screwdrivers-blowers",
     "domain": "AI 算力 / 半导体",
-    "title": "Save a huge $1,020 on a 240Hz OLED gaming laptop from Lenovo with an RTX 5070 Ti, now just $1,999",
-    "url": "https://www.tomshardware.com/laptops/gaming-laptops/save-a-huge-usd1-020-on-a-240hz-oled-gaming-laptop-from-lenovo-with-an-rtx-5070-ti-now-just-usd1-999-portable-legion-5i-rig-features-an-18-core-intel-cpu-and-a-1tb-ssd",
-    "source": "Ben Stockton",
+    "title": "Best Black Friday deals on tools for building PCs",
+    "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/best-pc-building-tool-deals-screwdrivers-blowers",
+    "source": "Les Pounder",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-27T08:49:57+00:00",
-    "summary": "Grab a 16-inch OLED gaming laptop with an RTX 5070 Ti from Lenovo for just $1,999.99 right now."
+    "published_at": "2026-11-27T18:48:17+00:00",
+    "summary": "We've scoured the internet and found the best Black Friday deals on tools."
   },
   {
-    "id": "rss:https://www.tomshardware.com/live/news/black-friday-gaming-pc-deals-2026",
+    "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/here-are-the-best-retro-tech-deals-weve-found-for-black-friday-deals-on-retro-tech-for-the-modern-pc-setup",
     "domain": "AI 算力 / 半导体",
-    "title": "Best Black Friday Gaming PC Deals live",
-    "url": "https://www.tomshardware.com/live/news/black-friday-gaming-pc-deals-2026",
-    "source": "The Editors of Tom&#039;s Hardware",
+    "title": "Here are the best retro tech deals we've found for Black Friday",
+    "url": "https://www.tomshardware.com/video-games/retro-gaming/here-are-the-best-retro-tech-deals-weve-found-for-black-friday-deals-on-retro-tech-for-the-modern-pc-setup",
+    "source": "Les Pounder",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-27T08:02:03+00:00",
-    "summary": "The very best pre-built gaming PC deals you can buy on Black Friday."
+    "published_at": "2026-11-27T18:30:12+00:00",
+    "summary": "Retro tech is cool, and we've scoured the internet for the best deals on nostalgic technology."
   },
   {
-    "id": "rss:https://www.tomshardware.com/live/news/black-friday-2026-day-three",
+    "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/get-a-staggering-usd1-400-off-an-rtx-5070-powered-hp-omen-35l-gaming-desktop-sporting-an-intel-core-ultra-7-cpu-and-32gb-of-ddr5-at-38-percent-discount-this-performant-mid-tower-prebuilt-pc-packs-a-punch",
     "domain": "AI 算力 / 半导体",
-    "title": "Best Black Friday 2026 tech deals live",
-    "url": "https://www.tomshardware.com/live/news/black-friday-2026-day-three",
-    "source": "The Editors of Tom&#039;s Hardware",
+    "title": "Get 38% off an RTX 5070-powered HP Omen 35L gaming desktop sporting an Intel Core Ultra 7 CPU and 32GB of DDR5",
+    "url": "https://www.tomshardware.com/desktops/gaming-pcs/get-a-staggering-usd1-400-off-an-rtx-5070-powered-hp-omen-35l-gaming-desktop-sporting-an-intel-core-ultra-7-cpu-and-32gb-of-ddr5-at-38-percent-discount-this-performant-mid-tower-prebuilt-pc-packs-a-punch",
+    "source": "Sayem Ahmed",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-27T07:19:47+00:00",
-    "summary": "All the best Black Friday deals for tech and PC hardware."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/dennys-touts-renewed-support-for-nvidia-ceo-jensen-huang-following-reinstatement-says-some-things-you-just-dont-take-off-the-menu",
-    "domain": "AI 算力 / 半导体",
-    "title": "Denny’s touts renewed support for Nvidia CEO Jensen Huang following reinstatement",
-    "url": "https://www.tomshardware.com/tech-industry/big-tech/dennys-touts-renewed-support-for-nvidia-ceo-jensen-huang-following-reinstatement-says-some-things-you-just-dont-take-off-the-menu",
-    "source": "Oliver Haslam",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T21:00:00+00:00",
-    "summary": "Denny's, the diner where Jensen Huang came up with the idea for Nvidia, has posted a 200-word statement to X in which it expressed its delight at his return to Nvidia after he initially resigned and a"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/black-friday-is-the-perfect-time-to-pick-up-a-new-3d-printer-these-are-the-best-deals-weve-spotted-so-far",
-    "domain": "AI 算力 / 半导体",
-    "title": "Black Friday is the perfect time to pick up a new 3D Printer",
-    "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/black-friday-is-the-perfect-time-to-pick-up-a-new-3d-printer-these-are-the-best-deals-weve-spotted-so-far",
-    "source": "Stewart Bendle",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T19:30:00+00:00",
-    "summary": "Black Friday is the perfect time to find an amazing deal on a new 3D printer. Check out our favorite listings so far."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/the-best-black-friday-soldering-iron-deals-for-hobbyists-and-makers-right-now-limited-time-sale-discounts-on-digital-irons-premium-solder-and-heat-proof-accessories",
-    "domain": "AI 算力 / 半导体",
-    "title": "The best Black Friday soldering iron deals for hobbyists and makers right now",
-    "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/the-best-black-friday-soldering-iron-deals-for-hobbyists-and-makers-right-now-limited-time-sale-discounts-on-digital-irons-premium-solder-and-heat-proof-accessories",
-    "source": "Ben Stockton",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T18:30:00+00:00",
-    "summary": "Grab a new soldiering iron or accessories during this Black Friday sales week, with the best recommendations included here."
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/two-californian-nvidia-ai-chip-customers-are-really-chinese-owned-companies-used-as-workaround-for-government-export-controls",
-    "domain": "AI 算力 / 半导体",
-    "title": "Two Californian Nvidia AI chip customers are really Chinese-owned",
-    "url": "https://www.tomshardware.com/tech-industry/big-tech/two-californian-nvidia-ai-chip-customers-are-really-chinese-owned-companies-used-as-workaround-for-government-export-controls",
-    "source": "Oliver Haslam",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T18:00:00+00:00",
-    "summary": "Nvidia sells its advanced AI chips to two Californian companies with links to Chinese parent companies, including one that has already been blacklisted. Nvidia is only allowed to sell to specific comp"
-  },
-  {
-    "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/essential-3d-printer-maintenance-tool-deals-for-black-friday-save-up-to-30-percent-on-precision-tools-lights-snips-and-more",
-    "domain": "AI 算力 / 半导体",
-    "title": "Essential 3D printer maintenance tool deals for Black Friday — save up to 30% on precision tools, lights, snips, and more",
-    "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/essential-3d-printer-maintenance-tool-deals-for-black-friday-save-up-to-30-percent-on-precision-tools-lights-snips-and-more",
-    "source": "Stewart Bendle",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T17:30:00+00:00",
-    "summary": "For the best 3D print results, there are always a few favorite tools to have on hand."
+    "published_at": "2026-11-27T18:20:00+00:00",
+    "summary": "TKTK"
   },
   {
     "id": "hn:50552424",
@@ -1237,17 +1237,6 @@
     "platform": "hackernews",
     "points": 1071,
     "published_at": "2026-11-18T21:34:07+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:50276792",
-    "domain": "大厂 AI 动态",
-    "title": "Gemini 4 Carbon",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-    "source": "acossta",
-    "platform": "hackernews",
-    "points": 1019,
-    "published_at": "2026-10-28T17:01:23+00:00",
     "summary": ""
   },
   {
@@ -1317,6 +1306,17 @@
     "summary": ""
   },
   {
+    "id": "hn:50657265",
+    "domain": "大厂 AI 动态",
+    "title": "AMD-specific fork of llama.cpp",
+    "url": "https://devnull.land/amd-specific-llama-cpp",
+    "source": "julianlam",
+    "platform": "hackernews",
+    "points": 444,
+    "published_at": "2026-11-26T17:11:29+00:00",
+    "summary": ""
+  },
+  {
     "id": "hn:50472260",
     "domain": "大厂 AI 动态",
     "title": "Gemini 4 Hydrogen and Orchestrator",
@@ -1336,17 +1336,6 @@
     "platform": "hackernews",
     "points": 487,
     "published_at": "2026-11-08T10:22:04+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:50657265",
-    "domain": "大厂 AI 动态",
-    "title": "AMD-specific fork of llama.cpp",
-    "url": "https://devnull.land/amd-specific-llama-cpp",
-    "source": "julianlam",
-    "platform": "hackernews",
-    "points": 377,
-    "published_at": "2026-11-26T17:11:29+00:00",
     "summary": ""
   },
   {
@@ -1433,7 +1422,7 @@
     "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
     "source": "hoodied",
     "platform": "hackernews",
-    "points": 222,
+    "points": 224,
     "published_at": "2026-11-25T04:03:33+00:00",
     "summary": ""
   },
@@ -1471,114 +1460,114 @@
     "summary": ""
   },
   {
+    "id": "rss:https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+    "domain": "大厂 AI 动态",
+    "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+    "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+    "source": "Sheena Vasani",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-28T03:30:00+00:00",
+    "summary": "If you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200 in June, you’re in luck. The 13-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB of RAM and 512G"
+  },
+  {
     "id": "rss:https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
     "domain": "大厂 AI 动态",
-    "title": "The absolute best Black Friday deals we’ve found (so far)",
+    "title": "The absolute best Black Friday deals you can still get",
     "url": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
     "source": "Cameron Faulkner",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-27T11:52:34+00:00",
-    "summary": "This year’s Black Friday deals have launched in waves over the past several weeks, but now the floodgates have officially opened. You can now take advantage of the lowest prices we’ve seen in-store an"
+    "published_at": "2026-11-28T03:28:32+00:00",
+    "summary": "Black Friday is nearly over, but many of this year’s best deals are still available. You can still find some of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs,"
   },
   {
-    "id": "rss:https://www.theverge.com/gadgets/1040313/apple-watch-se-3-black-friday-2026-deal-sale",
+    "id": "rss:https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026",
     "domain": "大厂 AI 动态",
-    "title": "The SE 3 is the Apple Watch most people should buy on Black Friday",
-    "url": "https://www.theverge.com/gadgets/1040313/apple-watch-se-3-black-friday-2026-deal-sale",
-    "source": "Brad Bourque",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-27T11:30:00+00:00",
-    "summary": "During Black Friday, the Apple Watch SE 3 is on sale in the 40mm / GPS configuration at Amazon, Walmart, and Target starting around $179 ($70 off), $20 less than its previous lowest price. The 44mm va"
-  },
-  {
-    "id": "rss:https://www.theverge.com/gadgets/1040292/best-black-friday-headphone-earbud-deals-2026",
-    "domain": "大厂 AI 动态",
-    "title": "Our favorite headphones and earbuds are cheaper than ever for Black Friday",
-    "url": "https://www.theverge.com/gadgets/1040292/best-black-friday-headphone-earbud-deals-2026",
-    "source": "Cameron Faulkner",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-27T10:30:00+00:00",
-    "summary": "If you haven’t already caved and bought a fresh set of wireless earbuds, over-ear headphones, or bone conduction headphones this year, Black Friday is rewarding you with a colossal amount of deals, in"
-  },
-  {
-    "id": "rss:https://www.theverge.com/entertainment/1043489/midnight-diner-season3",
-    "domain": "大厂 AI 动态",
-    "title": "Netflix’s coziest show has made a very quiet return",
-    "url": "https://www.theverge.com/entertainment/1043489/midnight-diner-season3",
-    "source": "Andrew Webster",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T21:00:00+00:00",
-    "summary": "The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it's especially true of Netflix of late, as the streaming service's lineup now also inclu"
-  },
-  {
-    "id": "rss:https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
-    "domain": "大厂 AI 动态",
-    "title": "The Garmin Forerunner 265S is down to $300, its best price of the year",
-    "url": "https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
-    "source": "Victoria Song",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T19:00:00+00:00",
-    "summary": "The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is pretty good tha"
-  },
-  {
-    "id": "rss:https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
-    "domain": "大厂 AI 动态",
-    "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
-    "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
-    "source": "Brad Bourque",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T17:07:00+00:00",
-    "summary": "If you’re looking for a new laptop or a gift for the student in your life, you can save $100 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is curr"
-  },
-  {
-    "id": "rss:https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
-    "domain": "大厂 AI 动态",
-    "title": "Android app developers will soon have to share their address publicly",
-    "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
-    "source": "Dominic Preston",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T17:06:24+00:00",
-    "summary": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy cha"
-  },
-  {
-    "id": "rss:https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-    "domain": "大厂 AI 动态",
-    "title": "The best Black Friday deals we’ve already found",
-    "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-    "source": "Verge Staff",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T16:55:00+00:00",
-    "summary": "Black Friday is here, so we’re no longer updating this post, which focused on deals you could get ahead of the shopping event. Keep up with our latest posts right here. Original post follows below The"
-  },
-  {
-    "id": "rss:https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
-    "domain": "大厂 AI 动态",
-    "title": "Federal judge blocks the FCC from reviewing ABC’s licenses early",
-    "url": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
-    "source": "Andrew Liszewski",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-26T16:38:00+00:00",
-    "summary": "US District Judge Loren AliKhan has blocked the Federal Communications Commission from conducting an early review of ABC's broadcast licenses in a preliminary injunction, and rejected its efforts to d"
-  },
-  {
-    "id": "rss:https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026",
-    "domain": "大厂 AI 动态",
-    "title": "Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday",
-    "url": "https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026",
+    "title": "We found 60-odd Black Friday deals we love for $100 or less",
+    "url": "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026",
     "source": "Sheena Vasani",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-26T16:00:00+00:00",
-    "summary": "Black Friday isn’t just a good time to save on a new TV but also a chance to spend less on what you watch on it. The shopping holiday often brings steep streaming discounts, and this year is no except"
+    "published_at": "2026-11-28T01:30:00+00:00",
+    "summary": "Between holiday travel, gifts, and the rising cost of just about everything, expenses can quickly add up during this time of year. Thankfully, you don’t have to dip too far into your savings to take a"
+  },
+  {
+    "id": "rss:https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
+    "domain": "大厂 AI 动态",
+    "title": "This purple electric Chinese minivan can go up to 559 miles on a charge",
+    "url": "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
+    "source": "Sean Hollister",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-28T00:02:49+00:00",
+    "summary": "Electric minivans could be the ultimate in utility, with room for passengers, gear, and huge batteries. While VW's ID Buzz only gave us 200 miles of real-world driving on a charge in 2023, China's BYD"
+  },
+  {
+    "id": "rss:https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
+    "domain": "大厂 AI 动态",
+    "title": "The best Black Friday deals you can still get on AirPods, Macs, and other Apple gear",
+    "url": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
+    "source": "Sheena Vasani",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T23:53:19+00:00",
+    "summary": "Black Friday is entering the evening, which means one of the best times of the year to save some cash on a new pair of AirPods or the latest Apple Watch is coming to a close. After all, the holiday sa"
+  },
+  {
+    "id": "rss:https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026",
+    "domain": "大厂 AI 动态",
+    "title": "The best robot vacuums we’ve tested are up to 60 percent off for Black Friday",
+    "url": "https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026",
+    "source": "Sheena Vasani",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T23:32:17+00:00",
+    "summary": "Black Friday is here, and if you want a little help keeping your floors clean this holiday season, now is a great time to pick up a robot vacuum. Some of the best models we’ve tested over the last yea"
+  },
+  {
+    "id": "rss:https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+    "domain": "大厂 AI 动态",
+    "title": "Sony’s 1000XM4C headphones are a Black Friday bargain at $198",
+    "url": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+    "source": "Cameron Faulkner",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T23:32:00+00:00",
+    "summary": "Instead of purely looking forward with its headphone designs, Sony went back to its popular WH-1000XM4 design and made some improvements to make it even better. The 2026 version, called the WH-1000XM4"
+  },
+  {
+    "id": "rss:https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
+    "domain": "大厂 AI 动态",
+    "title": "Yooka-Laylee’s free upgrade is skipping Xbox",
+    "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
+    "source": "Terrence O’Brien",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T23:30:32+00:00",
+    "summary": "Playtronic Games is getting ready to launch Yooka-Laylee and the Impossible Lair: Definitive Edition as a free update on PlayStation 5, Switch 2, and PC on December 15th. Unfortunately for Xbox owners"
+  },
+  {
+    "id": "rss:https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale",
+    "domain": "大厂 AI 动态",
+    "title": "Many of our favorite Blu-ray movies are over 50 percent off for Black Friday",
+    "url": "https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale",
+    "source": "Cameron Faulkner",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T23:30:00+00:00",
+    "summary": "No shade to those who love their subscription services, but viewing physical movies is a time-honored tradition that shouldn’t go away. Watching them doesn’t feel all that different, but deciding whic"
+  },
+  {
+    "id": "rss:https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026",
+    "domain": "大厂 AI 动态",
+    "title": "The new iPad Mini is getting its first major discount for Black Friday",
+    "url": "https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026",
+    "source": "Sheena Vasani",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-27T22:30:00+00:00",
+    "summary": "We were big fans of Apple’s new iPad Mini when we reviewed it in early November, but its steep starting price of $699 was hard to swallow. Thankfully, the small tablet is already getting a sizable dis"
   },
   {
     "id": "rss:https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
@@ -1636,147 +1625,158 @@
     "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time."
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+    "id": "rss:https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/",
     "domain": "大厂 AI 动态",
-    "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-    "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-    "source": "Marina Temkin",
+    "title": "The best Black Friday deals Ars could find",
+    "url": "https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/",
+    "source": "Lee Hutchinson",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T22:44:32+00:00",
-    "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating."
+    "published_at": "2026-11-27T17:05:37+00:00",
+    "summary": "Perhaps some commerce, to help all the Turkey Day leftovers go down easier?"
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+    "id": "rss:https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
     "domain": "大厂 AI 动态",
-    "title": "FCC approves SpaceX plan to put AI data centers in space",
-    "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
-    "source": "Kirsten Korosec",
+    "title": "Intel faced a choice: Give Trump 10% or face the consequences",
+    "url": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
+    "source": "Noah Shachtman, wired.com",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T20:56:44+00:00",
-    "summary": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority."
+    "published_at": "2026-11-27T12:05:01+00:00",
+    "summary": "Intel faced pressure to surrender a 10% stake to unlock billions in promised grants."
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+    "id": "rss:https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/",
     "domain": "大厂 AI 动态",
-    "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-    "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-    "source": "Jagmeet Singh",
+    "title": "Books, bikes, and The Burbs: These are Ars staff’s holiday gift picks for 2026",
+    "url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/",
+    "source": "Ars Staff",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T20:03:27+00:00",
-    "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences."
+    "published_at": "2026-11-27T11:30:04+00:00",
+    "summary": "We polled the Ars staff about their favorite pickups this year; here's the list."
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+    "id": "rss:https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/",
     "domain": "大厂 AI 动态",
-    "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
-    "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
-    "source": "Russell Brandom",
+    "title": "Volvo's big batteries: We drive its updated 2028 plug-in hybrids",
+    "url": "https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/",
+    "source": "Jonathan M. Gitlin",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T19:54:57+00:00",
-    "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences."
+    "published_at": "2026-11-27T08:00:53+00:00",
+    "summary": "There’s just one thing we still don’t know: How much will they cost?"
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
+    "id": "rss:https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
     "domain": "大厂 AI 动态",
-    "title": "The canceled Tesla Cybertruck is the fastest-selling used truck in America",
-    "url": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
-    "source": "Kirsten Korosec",
+    "title": "Ford unveils the GT41 as it hopes to win Le Mans again",
+    "url": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
+    "source": "Jonathan M. Gitlin",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T19:54:32+00:00",
-    "summary": "The Tesla Cybertruck was the fastest-selling used truck last month, averaging just 39.1 days on the market compared to 65.5 days for trucks overall."
+    "published_at": "2026-11-26T18:00:29+00:00",
+    "summary": "Ford enters the World Endurance Championship in 2027 with the new prototype."
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+    "id": "rss:https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
     "domain": "大厂 AI 动态",
-    "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
-    "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-    "source": "Rebecca Bellan",
+    "title": "Draining peatlands is responsible for a few percent of our global warming",
+    "url": "https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
+    "source": "Scott K. Johnson",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T19:44:24+00:00",
-    "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model devel"
+    "published_at": "2026-11-26T12:15:42+00:00",
+    "summary": "Detailed estimate going back to 1800 shows how much carbon is being liberated."
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+    "id": "rss:https://arstechnica.com/features/2026/11/from-minimalist-to-maximalist-ars-staffers-show-off-their-home-offices/",
     "domain": "大厂 AI 动态",
-    "title": "1Password said hackers broke into its internal systems, but customer passwords are safe",
-    "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
-    "source": "Zack Whittaker",
+    "title": "From minimalist to maximalist: Ars staffers show off their home offices",
+    "url": "https://arstechnica.com/features/2026/11/from-minimalist-to-maximalist-ars-staffers-show-off-their-home-offices/",
+    "source": "Ars Staff",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T18:49:52+00:00",
-    "summary": "The password manager maker said an attacker gained access to an employee's corporate account and took some information about customers."
+    "published_at": "2026-11-26T12:00:14+00:00",
+    "summary": "Our home offices range from tasteful to \"please explain yourself.\""
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+    "id": "rss:https://www.producthunt.com/products/rankthesearch",
     "domain": "大厂 AI 动态",
-    "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
-    "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-    "source": "Rebecca Bellan",
+    "title": "RankTheSearch",
+    "url": "https://www.producthunt.com/products/rankthesearch",
+    "source": "Bugrahan Zeki Kadak",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T18:11:46+00:00",
-    "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional develop"
+    "published_at": "2026-11-27T21:53:53+00:00",
+    "summary": "Make the TikTok posts your buyers are already searching for Discussion | Link"
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
+    "id": "rss:https://www.producthunt.com/products/nova-26",
     "domain": "大厂 AI 动态",
-    "title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
-    "url": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
-    "source": "Zack Whittaker",
+    "title": "NOVA",
+    "url": "https://www.producthunt.com/products/nova-26",
+    "source": "Bridgeye",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T17:36:51+00:00",
-    "summary": "U.S. prosecutors accused the former executive of defrauding victims of ransomware by paying the hackers, charging victims more, and pocketing the difference."
+    "published_at": "2026-11-27T13:04:35+00:00",
+    "summary": "Development to deployment, and everything after. Discussion | Link"
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+    "id": "rss:https://www.producthunt.com/products/stacktrace",
     "domain": "大厂 AI 动态",
-    "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-    "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-    "source": "Sarah Perez",
+    "title": "Stacktrace",
+    "url": "https://www.producthunt.com/products/stacktrace",
+    "source": "Nico Lumma",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T17:35:58+00:00",
-    "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said."
+    "published_at": "2026-11-27T22:38:05+00:00",
+    "summary": "Real-time steering and guardrails for AI agents Discussion | Link"
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/",
+    "id": "rss:https://www.producthunt.com/products/opencrawl",
     "domain": "大厂 AI 动态",
-    "title": "X’s latest update for creators focuses on vertical video",
-    "url": "https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/",
-    "source": "Lauren Forristal",
+    "title": "OpenCrawl",
+    "url": "https://www.producthunt.com/products/opencrawl",
+    "source": "Nico Lumma",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T17:28:29+00:00",
-    "summary": "As short-form video ramps up in popularity, X's new creation tools are part of its effort to compete with YouTube and Instagram."
+    "published_at": "2026-11-27T22:38:08+00:00",
+    "summary": "Multiplayer for your coding agents Discussion | Link"
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
+    "id": "rss:https://www.producthunt.com/products/wender",
     "domain": "大厂 AI 动态",
-    "title": "WhatsApp now lets you schedule messages in group and individual chats",
-    "url": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
-    "source": "Ivan Mehta",
+    "title": "Wender Desktop",
+    "url": "https://www.producthunt.com/products/wender",
+    "source": "Josh Johnson",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T16:57:51+00:00",
-    "summary": "Users can schedule messages from 10 minutes later to after 14 days."
+    "published_at": "2026-11-27T17:15:03+00:00",
+    "summary": "A 100% free Paper alternative Discussion | Link"
   },
   {
-    "id": "rss:https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/",
+    "id": "rss:https://www.producthunt.com/products/rightfont",
     "domain": "大厂 AI 动态",
-    "title": "Allstate suffers multiday tech outage ahead of Thanksgiving",
-    "url": "https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/",
-    "source": "Sarah Perez",
+    "title": "RightFont 2026",
+    "url": "https://www.producthunt.com/products/rightfont",
+    "source": "Chris Messina",
     "platform": "rss",
     "points": null,
-    "published_at": "2026-11-25T15:08:37+00:00",
-    "summary": "The disruption comes at a particularly bad time for the insurance giant, as millions of Americans prepare to travel for the Thanksgiving holiday weekend."
+    "published_at": "2026-11-26T23:17:29+00:00",
+    "summary": "The right font, right now. Discussion | Link"
+  },
+  {
+    "id": "rss:https://www.producthunt.com/products/onset",
+    "domain": "大厂 AI 动态",
+    "title": "Onset",
+    "url": "https://www.producthunt.com/products/onset",
+    "source": "Nirav Suthar",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-26T19:18:34+00:00",
+    "summary": "AI reviews, titles and thumbnails for YouTube creators Discussion | Link"
   },
   {
     "id": "hn:50465829",
@@ -1840,7 +1840,7 @@
     "url": "https://viktorkrapivin.com/blog/nano5g-priv-prvd",
     "source": "rpm_conservatio",
     "platform": "hackernews",
-    "points": 150,
+    "points": 151,
     "published_at": "2026-11-23T23:03:13+00:00",
     "summary": ""
   },
@@ -1878,17 +1878,6 @@
     "summary": ""
   },
   {
-    "id": "hn:50617640",
-    "domain": "股票",
-    "title": "Two \"suspicious clusters\" on Polymarket Made Over $340k on Huang Comeback",
-    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/two-groups-of-polymarket-accounts-made-over-340-000-on-huang-comeback-Lan2T0TwbJPNsyhmQHGq",
-    "source": "qlte",
-    "platform": "hackernews",
-    "points": 60,
-    "published_at": "2026-11-23T19:25:21+00:00",
-    "summary": ""
-  },
-  {
     "id": "hn:50311311",
     "domain": "股票",
     "title": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
@@ -1897,6 +1886,17 @@
     "platform": "hackernews",
     "points": 104,
     "published_at": "2026-10-30T23:08:12+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:50617640",
+    "domain": "股票",
+    "title": "Two \"suspicious clusters\" on Polymarket Made Over $340k on Huang Comeback",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/two-groups-of-polymarket-accounts-made-over-340-000-on-huang-comeback-Lan2T0TwbJPNsyhmQHGq",
+    "source": "qlte",
+    "platform": "hackernews",
+    "points": 60,
+    "published_at": "2026-11-23T19:25:21+00:00",
     "summary": ""
   },
   {
@@ -1977,17 +1977,6 @@
     "summary": ""
   },
   {
-    "id": "rss:https://www.netinterest.co/p/supply-and-demand",
-    "domain": "股票",
-    "title": "Supply and Demand",
-    "url": "https://www.netinterest.co/p/supply-and-demand",
-    "source": "Marc Rubinstein",
-    "platform": "rss",
-    "points": null,
-    "published_at": "2026-11-23T15:38:25+00:00",
-    "summary": "Finding Equilibrium Inside the AI Economy"
-  },
-  {
     "id": "hn:50439616",
     "domain": "股票",
     "title": "Anthropic to Seek $1.3T Valuation in IPO",
@@ -2032,6 +2021,17 @@
     "summary": ""
   },
   {
+    "id": "hn:50542361",
+    "domain": "股票",
+    "title": "Interesting Learnings Working for a Startup",
+    "url": "https://news.ycombinator.com/item?id=50542361",
+    "source": "Jessiejia11",
+    "platform": "hackernews",
+    "points": 22,
+    "published_at": "2026-11-18T05:52:37+00:00",
+    "summary": ""
+  },
+  {
     "id": "hn:50529644",
     "domain": "股票",
     "title": "Who Is Anthropic Kidding?",
@@ -2041,6 +2041,17 @@
     "points": 20,
     "published_at": "2026-11-17T10:25:11+00:00",
     "summary": ""
+  },
+  {
+    "id": "rss:https://www.netinterest.co/p/supply-and-demand",
+    "domain": "股票",
+    "title": "Supply and Demand",
+    "url": "https://www.netinterest.co/p/supply-and-demand",
+    "source": "Marc Rubinstein",
+    "platform": "rss",
+    "points": null,
+    "published_at": "2026-11-23T15:38:25+00:00",
+    "summary": "Finding Equilibrium Inside the AI Economy"
   },
   {
     "id": "hn:50553581",
@@ -2318,14 +2329,14 @@
     "summary": ""
   },
   {
-    "id": "hn:50568082",
+    "id": "hn:50492993",
     "domain": "金融",
-    "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
-    "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
-    "source": "mikhael",
+    "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+    "source": "LopRabbit",
     "platform": "hackernews",
-    "points": 198,
-    "published_at": "2026-11-19T23:32:11+00:00",
+    "points": 218,
+    "published_at": "2026-11-14T02:21:36+00:00",
     "summary": ""
   },
   {
@@ -2337,6 +2348,17 @@
     "platform": "hackernews",
     "points": 237,
     "published_at": "2026-11-03T00:08:53+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:50568082",
+    "domain": "金融",
+    "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+    "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+    "source": "mikhael",
+    "platform": "hackernews",
+    "points": 198,
+    "published_at": "2026-11-19T23:32:11+00:00",
     "summary": ""
   },
   {
@@ -2406,17 +2428,6 @@
     "summary": ""
   },
   {
-    "id": "hn:50278678",
-    "domain": "金融",
-    "title": "Show HN: A proof-of-concept formalization of the IRS federal tax forms",
-    "url": "https://github.com/emmilco/us-tax-model",
-    "source": "RGS1811",
-    "platform": "hackernews",
-    "points": 84,
-    "published_at": "2026-10-28T18:30:53+00:00",
-    "summary": ""
-  },
-  {
     "id": "hn:50594937",
     "domain": "金融",
     "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
@@ -2425,17 +2436,6 @@
     "platform": "hackernews",
     "points": 33,
     "published_at": "2026-11-22T00:14:05+00:00",
-    "summary": ""
-  },
-  {
-    "id": "hn:50475829",
-    "domain": "金融",
-    "title": "Richard Posner has died",
-    "url": "https://www.law.uchicago.edu/news/senior-lecturer-richard-posner-law-and-economics-pioneer-and-former-federal-appellate-judge",
-    "source": "sebg",
-    "platform": "hackernews",
-    "points": 52,
-    "published_at": "2026-11-12T23:19:53+00:00",
     "summary": ""
   },
   {
@@ -2461,14 +2461,14 @@
     "summary": ""
   },
   {
-    "id": "hn:50492178",
+    "id": "hn:50475829",
     "domain": "金融",
-    "title": "Tesla Opens Cybercab Orders to 'Select Customers' at $29,990 Plus $299 per Month",
-    "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/",
-    "source": "iBelieve",
+    "title": "Richard Posner has died",
+    "url": "https://www.law.uchicago.edu/news/senior-lecturer-richard-posner-law-and-economics-pioneer-and-former-federal-appellate-judge",
+    "source": "sebg",
     "platform": "hackernews",
-    "points": 28,
-    "published_at": "2026-11-14T00:33:50+00:00",
+    "points": 52,
+    "published_at": "2026-11-12T23:19:53+00:00",
     "summary": ""
   },
   {
@@ -2491,6 +2491,17 @@
     "platform": "hackernews",
     "points": 39,
     "published_at": "2026-11-03T14:27:03+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:50528073",
+    "domain": "金融",
+    "title": "Elderly people are buying Teslas for the 'full self-driving.' This is a problem",
+    "url": "https://www.fastcompany.com/91641371/elderly-people-are-buying-tesla-for-full-self-driving-this-is-a-problem",
+    "source": "watermelon0",
+    "platform": "hackernews",
+    "points": 18,
+    "published_at": "2026-11-17T06:20:11+00:00",
     "summary": ""
   },
   {
@@ -2535,6 +2546,72 @@
     "platform": "hackernews",
     "points": 32,
     "published_at": "2026-11-05T20:58:36+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:50626578",
+    "domain": "电子信息与芯片",
+    "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+    "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
+    "source": "oska",
+    "platform": "hackernews",
+    "points": 481,
+    "published_at": "2026-11-24T11:13:55+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:50620822",
+    "domain": "电子信息与芯片",
+    "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
+    "url": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
+    "source": "ortusdux",
+    "platform": "hackernews",
+    "points": 351,
+    "published_at": "2026-11-23T23:11:38+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:50534044",
+    "domain": "电子信息与芯片",
+    "title": "Jensen Huang says he’s open to returning in first statement since resignation",
+    "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+    "source": "theanonymousone",
+    "platform": "hackernews",
+    "points": 100,
+    "published_at": "2026-11-17T16:40:38+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:50622668",
+    "domain": "电子信息与芯片",
+    "title": "WSJ Editorial: Restoring Huang as CEO will have major NatSec and political costs",
+    "url": "https://www.wsj.com/opinion/nvidia-jensen-huang-donald-trump-130e644c",
+    "source": "tedd4u",
+    "platform": "hackernews",
+    "points": 63,
+    "published_at": "2026-11-24T02:11:52+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:50498051",
+    "domain": "电子信息与芯片",
+    "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+    "source": "marginalia_nu",
+    "platform": "hackernews",
+    "points": 61,
+    "published_at": "2026-11-14T15:58:57+00:00",
+    "summary": ""
+  },
+  {
+    "id": "hn:50527905",
+    "domain": "电子信息与芯片",
+    "title": "Tech leaders are convinced that Jensen Huang's exit was a plot against him",
+    "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+    "source": "madihaa",
+    "platform": "hackernews",
+    "points": 47,
+    "published_at": "2026-11-17T05:50:41+00:00",
     "summary": ""
   }
 ]

@@ -2,7 +2,7 @@
   "domain": "电子信息与芯片",
   "domain_id": "tech-chip",
   "topic_id": "default",
-  "fetched_at": "2026-11-27T11:58:11.391321+00:00",
+  "fetched_at": "2026-11-28T11:33:02.629867+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -11,12 +11,12 @@
     "SemiAnalysis（半导体深度）": 10,
     "EE Times": 10,
     "HN · TSMC": 2,
-    "HN · Nvidia": 36,
+    "HN · Nvidia": 37,
     "HN · semiconductor": 2,
     "HN · 电子信息与芯片": 0
   },
   "subtopics": [],
-  "total": 60,
+  "total": 61,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -189,6 +189,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/gta-grand-three-assumptions/",
+      "title": "GTA: Grand Three Assumptions",
+      "url": "https://www.eetimes.com/gta-grand-three-assumptions/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Moshe Zalcberg",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-28T02:00:00+00:00",
+      "summary": "GTA 6 broke sales records, but consoles running it rest on assumptions that failed: cheaper hardware, commodity memory, frozen platforms. The post GTA: Grand Three Assumptions appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/penguin-revives-retired-ddr4-for-ai-servers/",
+      "title": "Penguin Revives Retired DDR4 for AI Servers",
+      "url": "https://www.eetimes.com/penguin-revives-retired-ddr4-for-ai-servers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T19:17:00+00:00",
+      "summary": "Hyperscalers are already reclaiming older DRAM, but enterprises have been slower to reuse DDR4 to meet their memory expansion demands. The post Penguin Revives Retired DDR4 for AI Servers appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/beyond-lithography-the-battle-for-semiconductor-manufacturing-yield/",
+      "title": "Beyond Lithography: The Battle for Semiconductor Manufacturing Yield",
+      "url": "https://www.eetimes.com/beyond-lithography-the-battle-for-semiconductor-manufacturing-yield/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Ron Honig",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T14:22:45+00:00",
+      "summary": "The proposed MATCH Act exposes a strategic vulnerability extending beyond ASML to the technologies that determine manufacturing productivity and yield. The post Beyond Lithography: The Battle for Semiconductor Manufacturing Yield appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/nuvolta-technical-sharing-pcb-grounding-design-and-return-path/",
+      "title": "NuVolta Technical Sharing: PCB Grounding Design and Return Path",
+      "url": "https://www.eetimes.com/nuvolta-technical-sharing-pcb-grounding-design-and-return-path/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Luke, Engineer, NuVolta Technologies",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T14:00:00+00:00",
+      "summary": "Many PCB design guidelines reduce grounding to a few rules: These rules are not wrong, but they are incomplete. They do not answer a fundamental question: where does the current return? If a ground plane is split and a signal crosses the gap, its return current may be forced to detour. The result can be [&#8230;] The post NuVolta Technical Sharing: PCB Grounding Design and Return Path appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/huawei-next-big-ai-move-hbm-workaround/",
       "title": "Huawei’s Next Big AI Move: HBM Workaround",
       "url": "https://www.eetimes.com/huawei-next-big-ai-move-hbm-workaround/",
@@ -291,74 +359,6 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/mcrps-power-supply-for-enterprise-data-centers/",
-      "title": "MCRPS Power Supply for Enterprise Data Centers",
-      "url": "https://www.eetimes.com/mcrps-power-supply-for-enterprise-data-centers/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Antonello Laneve, Manuel Escudero, David Meneses, M.A. Kutschak, Theodoros Mouselinos, Alex Rossi, and Sam Abdel-Rahman, all at Infineon Technologies AG",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-25T20:36:47+00:00",
-      "summary": "The 5.6 kW MCRPS reference design from Infineon provides a viable solution for next-generation common redundant PSUs in enterprise servers. The post MCRPS Power Supply for Enterprise Data Centers appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/turning-optical-telemetry-into-cluster-reliability-integrating-link-health-data-into-monitoring-and-ticketing/",
-      "title": "Turning Optical Telemetry into Cluster Reliability: Integrating Link Health Data into Monitoring and Ticketing",
-      "url": "https://www.eetimes.com/turning-optical-telemetry-into-cluster-reliability-integrating-link-health-data-into-monitoring-and-ticketing/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Credo",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-25T18:00:22+00:00",
-      "summary": "Explore how integrating optical link health data into monitoring and ticketing can help teams improve cluster reliability. The post Turning Optical Telemetry into Cluster Reliability: Integrating Link Health Data into Monitoring and Ticketing appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ai-makes-formal-verification-practical/",
-      "title": "AI Makes Formal Verification Practical",
-      "url": "https://www.eetimes.com/ai-makes-formal-verification-practical/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-25T17:34:58+00:00",
-      "summary": "AI model startup Harmonic is expanding into formal verification for software and hardware. The post AI Makes Formal Verification Practical appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/understanding-accuracy-and-resolution-for-magnetic-angle-sensors/",
-      "title": "Understanding Accuracy and Resolution for Magnetic Angle Sensors",
-      "url": "https://www.eetimes.com/understanding-accuracy-and-resolution-for-magnetic-angle-sensors/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Monolithic Power Systems, Inc. (MPS)",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-25T14:00:00+00:00",
-      "summary": "Learn how magnetic angle sensor accuracy and resolution affect position measurement, and explore key factors for precise, reliable sensing applications. The post Understanding Accuracy and Resolution for Magnetic Angle Sensors appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
       "id": "hn:50479721",
       "title": "TSMC Hacked",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
@@ -408,8 +408,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50611576"
       },
       "duration_sec": null,
-      "views": 2851,
-      "comments": 3828,
+      "views": 2860,
+      "comments": 3832,
       "published_at": "2026-11-23T14:00:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -430,25 +430,6 @@
       "views": 1714,
       "comments": 4,
       "published_at": "2026-11-23T14:01:23+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50493251",
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50493251",
-        "name": "speckx",
-        "hn_url": "https://news.ycombinator.com/item?id=50493251"
-      },
-      "duration_sec": null,
-      "views": 1117,
-      "comments": 652,
-      "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -485,7 +466,7 @@
       },
       "duration_sec": null,
       "views": 486,
-      "comments": 590,
+      "comments": 592,
       "published_at": "2026-11-15T23:55:55+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -511,25 +492,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50487864",
-      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
-      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50487864",
-        "name": "crescit_eundo",
-        "hn_url": "https://news.ycombinator.com/item?id=50487864"
-      },
-      "duration_sec": null,
-      "views": 387,
-      "comments": 216,
-      "published_at": "2026-11-13T18:40:44+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:50638503",
       "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
       "url": "https://gpu-demo-gallery.pages.dev/",
@@ -541,7 +503,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50638503"
       },
       "duration_sec": null,
-      "views": 355,
+      "views": 356,
       "comments": 80,
       "published_at": "2026-11-25T04:31:48+00:00",
       "summary": "",
@@ -601,25 +563,6 @@
       "views": 291,
       "comments": 262,
       "published_at": "2026-11-16T15:24:09+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50492993",
-      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50492993",
-        "name": "LopRabbit",
-        "hn_url": "https://news.ycombinator.com/item?id=50492993"
-      },
-      "duration_sec": null,
-      "views": 218,
-      "comments": 58,
-      "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -693,28 +636,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50630245"
       },
       "duration_sec": null,
-      "views": 129,
+      "views": 130,
       "comments": 68,
       "published_at": "2026-11-24T16:08:29+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50483391",
-      "title": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
-      "url": "https://www.youtube.com/watch?v=YYU_geUwQoA",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50483391",
-        "name": "belst",
-        "hn_url": "https://news.ycombinator.com/item?id=50483391"
-      },
-      "duration_sec": null,
-      "views": 81,
-      "comments": 13,
-      "published_at": "2026-11-13T13:45:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -739,25 +663,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50486489",
-      "title": "Arm boss Rene Haas approached in Nvidia CEO search",
-      "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50486489",
-        "name": "bazzmt",
-        "hn_url": "https://news.ycombinator.com/item?id=50486489"
-      },
-      "duration_sec": null,
-      "views": 66,
-      "comments": 82,
-      "published_at": "2026-11-13T17:10:33+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:50538942",
       "title": "Nvidia Chair Harvey Jones says board doesn't intend to reinstate Huang as CEO",
       "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
@@ -777,20 +682,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50491690",
-      "title": "An open letter to the Nvidia Board of Directors",
-      "url": "https://standwithjensen.com/",
+      "id": "hn:50629620",
+      "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
+      "url": "https://www.reuters.com/legal/transactional/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-2026-11-24/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50491690",
-        "name": "iLuddite",
-        "hn_url": "https://news.ycombinator.com/item?id=50491690"
+        "id": "50629620",
+        "name": "onemoresoop",
+        "hn_url": "https://news.ycombinator.com/item?id=50629620"
       },
       "duration_sec": null,
-      "views": 51,
-      "comments": 45,
-      "published_at": "2026-11-13T23:34:06+00:00",
+      "views": 44,
+      "comments": 19,
+      "published_at": "2026-11-24T15:28:23+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -808,27 +713,8 @@
       },
       "duration_sec": null,
       "views": 43,
-      "comments": 37,
+      "comments": 39,
       "published_at": "2026-11-26T20:39:05+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50629620",
-      "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
-      "url": "https://www.reuters.com/legal/transactional/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-2026-11-24/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50629620",
-        "name": "onemoresoop",
-        "hn_url": "https://news.ycombinator.com/item?id=50629620"
-      },
-      "duration_sec": null,
-      "views": 43,
-      "comments": 19,
-      "published_at": "2026-11-24T15:28:23+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1076,6 +962,139 @@
       "views": 26,
       "comments": 2,
       "published_at": "2026-11-20T06:33:34+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50626578",
+      "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+      "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50626578",
+        "name": "oska",
+        "hn_url": "https://news.ycombinator.com/item?id=50626578"
+      },
+      "duration_sec": null,
+      "views": 481,
+      "comments": 278,
+      "published_at": "2026-11-24T11:13:55+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50620822",
+      "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
+      "url": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50620822",
+        "name": "ortusdux",
+        "hn_url": "https://news.ycombinator.com/item?id=50620822"
+      },
+      "duration_sec": null,
+      "views": 351,
+      "comments": 265,
+      "published_at": "2026-11-23T23:11:38+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50534044",
+      "title": "Jensen Huang says he’s open to returning in first statement since resignation",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50534044",
+        "name": "theanonymousone",
+        "hn_url": "https://news.ycombinator.com/item?id=50534044"
+      },
+      "duration_sec": null,
+      "views": 100,
+      "comments": 198,
+      "published_at": "2026-11-17T16:40:38+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50622668",
+      "title": "WSJ Editorial: Restoring Huang as CEO will have major NatSec and political costs",
+      "url": "https://www.wsj.com/opinion/nvidia-jensen-huang-donald-trump-130e644c",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50622668",
+        "name": "tedd4u",
+        "hn_url": "https://news.ycombinator.com/item?id=50622668"
+      },
+      "duration_sec": null,
+      "views": 63,
+      "comments": 49,
+      "published_at": "2026-11-24T02:11:52+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50498051",
+      "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50498051",
+        "name": "marginalia_nu",
+        "hn_url": "https://news.ycombinator.com/item?id=50498051"
+      },
+      "duration_sec": null,
+      "views": 61,
+      "comments": 43,
+      "published_at": "2026-11-14T15:58:57+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50526264",
+      "title": "Claude Mythos slashed software work to onboard AMD GPUs to around three days",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50526264",
+        "name": "nsoonhui",
+        "hn_url": "https://news.ycombinator.com/item?id=50526264"
+      },
+      "duration_sec": null,
+      "views": 55,
+      "comments": 21,
+      "published_at": "2026-11-17T01:35:16+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50527905",
+      "title": "Tech leaders are convinced that Jensen Huang's exit was a plot against him",
+      "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50527905",
+        "name": "madihaa",
+        "hn_url": "https://news.ycombinator.com/item?id=50527905"
+      },
+      "duration_sec": null,
+      "views": 47,
+      "comments": 41,
+      "published_at": "2026-11-17T05:50:41+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"

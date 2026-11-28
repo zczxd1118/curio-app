@@ -2,7 +2,7 @@
   "domain": "金融",
   "domain_id": "finance-fed",
   "topic_id": "default",
-  "fetched_at": "2026-11-27T11:58:06.724375+00:00",
+  "fetched_at": "2026-11-28T11:32:57.262003+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -16,10 +16,10 @@
     "HN · inflation": 0,
     "HN · Tesla": 2,
     "HN · finance": 15,
-    "HN · fed": 11
+    "HN · fed": 10
   },
   "subtopics": [],
-  "total": 58,
+  "total": 57,
   "items": [
     {
       "id": "rss:https://stratechery.com/2026/the-individual-exception/",
@@ -551,20 +551,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50492178",
-      "title": "Tesla Opens Cybercab Orders to 'Select Customers' at $29,990 Plus $299 per Month",
-      "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/",
+      "id": "hn:50528073",
+      "title": "Elderly people are buying Teslas for the 'full self-driving.' This is a problem",
+      "url": "https://www.fastcompany.com/91641371/elderly-people-are-buying-tesla-for-full-self-driving-this-is-a-problem",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50492178",
-        "name": "iBelieve",
-        "hn_url": "https://news.ycombinator.com/item?id=50492178"
+        "id": "50528073",
+        "name": "watermelon0",
+        "hn_url": "https://news.ycombinator.com/item?id=50528073"
       },
       "duration_sec": null,
-      "views": 28,
-      "comments": 59,
-      "published_at": "2026-11-14T00:33:50+00:00",
+      "views": 18,
+      "comments": 4,
+      "published_at": "2026-11-17T06:20:11+00:00",
       "summary": "",
       "matched_keyword": "Tesla",
       "lang": "en"
@@ -907,25 +907,6 @@
       "views": 87,
       "comments": 48,
       "published_at": "2026-11-17T15:03:25+00:00",
-      "summary": "",
-      "matched_keyword": "fed",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50278678",
-      "title": "Show HN: A proof-of-concept formalization of the IRS federal tax forms",
-      "url": "https://github.com/emmilco/us-tax-model",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50278678",
-        "name": "RGS1811",
-        "hn_url": "https://news.ycombinator.com/item?id=50278678"
-      },
-      "duration_sec": null,
-      "views": 84,
-      "comments": 13,
-      "published_at": "2026-10-28T18:30:53+00:00",
       "summary": "",
       "matched_keyword": "fed",
       "lang": "en"

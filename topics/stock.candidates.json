@@ -2,16 +2,16 @@
   "domain": "股票",
   "domain_id": "stock",
   "topic_id": "default",
-  "fetched_at": "2026-11-27T11:57:59.815195+00:00",
+  "fetched_at": "2026-11-28T11:32:49.865458+00:00",
   "platforms": [
     "hackernews",
     "rss"
   ],
   "source_stats": {
     "华尔街见闻 API": 0,
-    "HN · stock market": 15,
+    "HN · stock market": 14,
     "HN · IPO": 29,
-    "HN · earnings": 1,
+    "HN · earnings": 2,
     "HN · Federal Reserve": 0,
     "Bilibili · 股票分析": 0,
     "Bilibili · A股": 0,
@@ -54,25 +54,6 @@
       "views": 292,
       "comments": 167,
       "published_at": "2026-11-24T11:51:05+00:00",
-      "summary": "",
-      "matched_keyword": "stock",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50492993",
-      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50492993",
-        "name": "LopRabbit",
-        "hn_url": "https://news.ycombinator.com/item?id=50492993"
-      },
-      "duration_sec": null,
-      "views": 218,
-      "comments": 58,
-      "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "stock",
       "lang": "en"
@@ -165,7 +146,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50574383"
       },
       "duration_sec": null,
-      "views": 531,
+      "views": 532,
       "comments": 943,
       "published_at": "2026-11-20T13:29:59+00:00",
       "summary": "",
@@ -242,7 +223,7 @@
       },
       "duration_sec": null,
       "views": 60,
-      "comments": 7,
+      "comments": 10,
       "published_at": "2026-11-23T19:25:21+00:00",
       "summary": "",
       "matched_keyword": "stock",
@@ -336,8 +317,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50627836"
       },
       "duration_sec": null,
-      "views": 433,
-      "comments": 800,
+      "views": 434,
+      "comments": 803,
       "published_at": "2026-11-24T13:23:47+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -394,7 +375,7 @@
       },
       "duration_sec": null,
       "views": 322,
-      "comments": 634,
+      "comments": 633,
       "published_at": "2026-11-06T16:54:36+00:00",
       "summary": "",
       "matched_keyword": "IPO",
@@ -412,7 +393,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50620721"
       },
       "duration_sec": null,
-      "views": 150,
+      "views": 151,
       "comments": 19,
       "published_at": "2026-11-23T23:03:13+00:00",
       "summary": "",
@@ -776,6 +757,25 @@
       "views": 56,
       "comments": 47,
       "published_at": "2026-11-17T22:08:34+00:00",
+      "summary": "",
+      "matched_keyword": "earnings",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50542361",
+      "title": "Interesting Learnings Working for a Startup",
+      "url": "https://news.ycombinator.com/item?id=50542361",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50542361",
+        "name": "Jessiejia11",
+        "hn_url": "https://news.ycombinator.com/item?id=50542361"
+      },
+      "duration_sec": null,
+      "views": 22,
+      "comments": 11,
+      "published_at": "2026-11-18T05:52:37+00:00",
       "summary": "",
       "matched_keyword": "earnings",
       "lang": "en"

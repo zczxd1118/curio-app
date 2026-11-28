@@ -2,7 +2,7 @@
   "domain": "AI 算力 / 半导体",
   "domain_id": "semiconductor",
   "topic_id": "default",
-  "fetched_at": "2026-11-27T11:57:40.677762+00:00",
+  "fetched_at": "2026-11-28T11:32:30.638187+00:00",
   "platforms": [
     "hackernews",
     "rss"
@@ -13,7 +13,7 @@
     "AnandTech": 0,
     "Tom's Hardware": 30,
     "HN · TSMC": 2,
-    "HN · Nvidia": 36,
+    "HN · Nvidia": 35,
     "HN · semiconductor": 2,
     "HN · ASML / EUV": 1,
     "HN · AI chip 厂商": 0,
@@ -24,7 +24,7 @@
       "name": "default"
     }
   ],
-  "total": 91,
+  "total": 90,
   "items": [
     {
       "id": "rss:https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
@@ -197,6 +197,74 @@
       "lang": "en"
     },
     {
+      "id": "rss:https://www.eetimes.com/gta-grand-three-assumptions/",
+      "title": "GTA: Grand Three Assumptions",
+      "url": "https://www.eetimes.com/gta-grand-three-assumptions/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Moshe Zalcberg",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-28T02:00:00+00:00",
+      "summary": "GTA 6 broke sales records, but consoles running it rest on assumptions that failed: cheaper hardware, commodity memory, frozen platforms. The post GTA: Grand Three Assumptions appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/penguin-revives-retired-ddr4-for-ai-servers/",
+      "title": "Penguin Revives Retired DDR4 for AI Servers",
+      "url": "https://www.eetimes.com/penguin-revives-retired-ddr4-for-ai-servers/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Gary Hilson",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T19:17:00+00:00",
+      "summary": "Hyperscalers are already reclaiming older DRAM, but enterprises have been slower to reuse DDR4 to meet their memory expansion demands. The post Penguin Revives Retired DDR4 for AI Servers appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/beyond-lithography-the-battle-for-semiconductor-manufacturing-yield/",
+      "title": "Beyond Lithography: The Battle for Semiconductor Manufacturing Yield",
+      "url": "https://www.eetimes.com/beyond-lithography-the-battle-for-semiconductor-manufacturing-yield/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Ron Honig",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T14:22:45+00:00",
+      "summary": "The proposed MATCH Act exposes a strategic vulnerability extending beyond ASML to the technologies that determine manufacturing productivity and yield. The post Beyond Lithography: The Battle for Semiconductor Manufacturing Yield appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.eetimes.com/nuvolta-technical-sharing-pcb-grounding-design-and-return-path/",
+      "title": "NuVolta Technical Sharing: PCB Grounding Design and Return Path",
+      "url": "https://www.eetimes.com/nuvolta-technical-sharing-pcb-grounding-design-and-return-path/",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.eetimes.com/feed",
+        "name": "Luke, Engineer, NuVolta Technologies",
+        "feed_title": "EE Times"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T14:00:00+00:00",
+      "summary": "Many PCB design guidelines reduce grounding to a few rules: These rules are not wrong, but they are incomplete. They do not answer a fundamental question: where does the current return? If a ground plane is split and a signal crosses the gap, its return current may be forced to detour. The result can be [&#8230;] The post NuVolta Technical Sharing: PCB Grounding Design and Return Path appeared first on EE Times.",
+      "lang": "en"
+    },
+    {
       "id": "rss:https://www.eetimes.com/huawei-next-big-ai-move-hbm-workaround/",
       "title": "Huawei’s Next Big AI Move: HBM Workaround",
       "url": "https://www.eetimes.com/huawei-next-big-ai-move-hbm-workaround/",
@@ -299,111 +367,9 @@
       "lang": "en"
     },
     {
-      "id": "rss:https://www.eetimes.com/mcrps-power-supply-for-enterprise-data-centers/",
-      "title": "MCRPS Power Supply for Enterprise Data Centers",
-      "url": "https://www.eetimes.com/mcrps-power-supply-for-enterprise-data-centers/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Antonello Laneve, Manuel Escudero, David Meneses, M.A. Kutschak, Theodoros Mouselinos, Alex Rossi, and Sam Abdel-Rahman, all at Infineon Technologies AG",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-25T20:36:47+00:00",
-      "summary": "The 5.6 kW MCRPS reference design from Infineon provides a viable solution for next-generation common redundant PSUs in enterprise servers. The post MCRPS Power Supply for Enterprise Data Centers appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/turning-optical-telemetry-into-cluster-reliability-integrating-link-health-data-into-monitoring-and-ticketing/",
-      "title": "Turning Optical Telemetry into Cluster Reliability: Integrating Link Health Data into Monitoring and Ticketing",
-      "url": "https://www.eetimes.com/turning-optical-telemetry-into-cluster-reliability-integrating-link-health-data-into-monitoring-and-ticketing/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Credo",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-25T18:00:22+00:00",
-      "summary": "Explore how integrating optical link health data into monitoring and ticketing can help teams improve cluster reliability. The post Turning Optical Telemetry into Cluster Reliability: Integrating Link Health Data into Monitoring and Ticketing appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/ai-makes-formal-verification-practical/",
-      "title": "AI Makes Formal Verification Practical",
-      "url": "https://www.eetimes.com/ai-makes-formal-verification-practical/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Sally Ward-Foxton",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-25T17:34:58+00:00",
-      "summary": "AI model startup Harmonic is expanding into formal verification for software and hardware. The post AI Makes Formal Verification Practical appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.eetimes.com/understanding-accuracy-and-resolution-for-magnetic-angle-sensors/",
-      "title": "Understanding Accuracy and Resolution for Magnetic Angle Sensors",
-      "url": "https://www.eetimes.com/understanding-accuracy-and-resolution-for-magnetic-angle-sensors/",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.eetimes.com/feed",
-        "name": "Monolithic Power Systems, Inc. (MPS)",
-        "feed_title": "EE Times"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-25T14:00:00+00:00",
-      "summary": "Learn how magnetic angle sensor accuracy and resolution affect position measurement, and explore key factors for precise, reliable sensing applications. The post Understanding Accuracy and Resolution for Magnetic Angle Sensors appeared first on EE Times.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/live/news/black-friday-2026-monitor-deals",
-      "title": "Black Friday 2026 gaming monitor deals live",
-      "url": "https://www.tomshardware.com/live/news/black-friday-2026-monitor-deals",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "The Editors of Tom&#039;s Hardware",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-27T11:49:04+00:00",
-      "summary": "The best Black Friday monitor sales, live round-the-clock coverage of all the best deals.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/nvidia-agrees-to-usd290-million-settlement-over-2018-crypto-mining-gpu-sales-ends-eight-year-investor-lawsuit-without-admitting-wrongdoing",
-      "title": "Nvidia agrees to $290 million settlement over 2018 crypto mining GPU sales",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-agrees-to-usd290-million-settlement-over-2018-crypto-mining-gpu-sales-ends-eight-year-investor-lawsuit-without-admitting-wrongdoing",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jhet Borja",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-27T11:30:00+00:00",
-      "summary": "Nvidia agrees to pay $290 million settlement for class action allegedly misleading investors that much of gaming GPU sales were actually driven by cryptocurrency mining demand.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/data-centers/texas-lifts-freeze-on-1-800-data-center-projects-in-greg-abbott-u-turn-companies-rush-for-permits-before-gina-hinojosas-january-arrival",
-      "title": "Texas lifts freeze on 1,800+ data center projects in Greg Abbott U-turn",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/texas-lifts-freeze-on-1-800-data-center-projects-in-greg-abbott-u-turn-companies-rush-for-permits-before-gina-hinojosas-january-arrival",
+      "id": "rss:https://www.tomshardware.com/pc-components/this-nifty-usd35-dual-hard-drive-dock-can-support-up-to-64tb-of-storage-for-your-pc-clone-duplicate-and-connect-2-5-inch-and-3-5-inch-ssds-and-hdds-with-ease",
+      "title": "This nifty $35 dual hard drive dock can support up to 64TB of storage for your PC",
+      "url": "https://www.tomshardware.com/pc-components/this-nifty-usd35-dual-hard-drive-dock-can-support-up-to-64tb-of-storage-for-your-pc-clone-duplicate-and-connect-2-5-inch-and-3-5-inch-ssds-and-hdds-with-ease",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -413,354 +379,14 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-27T11:00:00+00:00",
-      "summary": "After pausing the approval of new data center building permits in August, Texas has now reversed the decision and has once again begun approving applications as builders rush to get the go-ahead before Democratic governor Gina Hinojosa's January arrival.",
+      "published_at": "2026-11-28T11:16:34+00:00",
+      "summary": "Pick up this dual-bay docking station and hook up two 3.5-inch or 2.5-inch drives simultaneously. It even has a built-in offline duplicator and cloning function.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/pc-components/external-hdds/20tb-wd-elements-external-hdd-is-at-its-lowest-price-this-year-usd549-storage-drive-is-2-75-cents-per-gb",
-      "title": "20TB WD Elements external HDD is at its lowest price this year",
-      "url": "https://www.tomshardware.com/pc-components/external-hdds/20tb-wd-elements-external-hdd-is-at-its-lowest-price-this-year-usd549-storage-drive-is-2-75-cents-per-gb",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-27T10:51:06+00:00",
-      "summary": "WD's 20TB storage drive is at its lowest price this year at $549, just 2.75 cents per gigabyte on Amazon.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/activists-enter-third-day-of-hunger-strike-outside-anthropics-san-francisco-hq-over-recursive-ai-self-improvement-protester-threatens-to-go-40-days-and-target-openai-next",
-      "title": "Activists enter third day of hunger strike outside Anthropic's San Francisco HQ over recursive AI self-improvement",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/activists-enter-third-day-of-hunger-strike-outside-anthropics-san-francisco-hq-over-recursive-ai-self-improvement-protester-threatens-to-go-40-days-and-target-openai-next",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Bruno Ferreira",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-27T10:30:00+00:00",
-      "summary": "Anti-RSI activists go into third day of hunger strike at Anthropic offices — acceleration of AI development creates growing concerns",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/drones/ukrainian-11th-grader-builds-ai-powered-gps-free-drone-autopilot-to-beat-frontline-jamming-earns-the-future-of-ukraine-award-from-president-zelenskyy",
-      "title": "Ukrainian 11th-grader builds AI-powered, GPS-free drone autopilot to beat frontline jamming",
-      "url": "https://www.tomshardware.com/tech-industry/drones/ukrainian-11th-grader-builds-ai-powered-gps-free-drone-autopilot-to-beat-frontline-jamming-earns-the-future-of-ukraine-award-from-president-zelenskyy",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-27T10:00:00+00:00",
-      "summary": "Yaroslav Sheiko's innovation allows drones to fly accurately even if they don't have a GPS signal or encounter GPS jamming.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/save-a-huge-usd1-020-on-a-240hz-oled-gaming-laptop-from-lenovo-with-an-rtx-5070-ti-now-just-usd1-999-portable-legion-5i-rig-features-an-18-core-intel-cpu-and-a-1tb-ssd",
-      "title": "Save a huge $1,020 on a 240Hz OLED gaming laptop from Lenovo with an RTX 5070 Ti, now just $1,999",
-      "url": "https://www.tomshardware.com/laptops/gaming-laptops/save-a-huge-usd1-020-on-a-240hz-oled-gaming-laptop-from-lenovo-with-an-rtx-5070-ti-now-just-usd1-999-portable-legion-5i-rig-features-an-18-core-intel-cpu-and-a-1tb-ssd",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-27T08:49:57+00:00",
-      "summary": "Grab a 16-inch OLED gaming laptop with an RTX 5070 Ti from Lenovo for just $1,999.99 right now.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/live/news/black-friday-gaming-pc-deals-2026",
-      "title": "Best Black Friday Gaming PC Deals live",
-      "url": "https://www.tomshardware.com/live/news/black-friday-gaming-pc-deals-2026",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "The Editors of Tom&#039;s Hardware",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-27T08:02:03+00:00",
-      "summary": "The very best pre-built gaming PC deals you can buy on Black Friday.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/live/news/black-friday-2026-day-three",
-      "title": "Best Black Friday 2026 tech deals live",
-      "url": "https://www.tomshardware.com/live/news/black-friday-2026-day-three",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "The Editors of Tom&#039;s Hardware",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-27T07:19:47+00:00",
-      "summary": "All the best Black Friday deals for tech and PC hardware.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/dennys-touts-renewed-support-for-nvidia-ceo-jensen-huang-following-reinstatement-says-some-things-you-just-dont-take-off-the-menu",
-      "title": "Denny’s touts renewed support for Nvidia CEO Jensen Huang following reinstatement",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/dennys-touts-renewed-support-for-nvidia-ceo-jensen-huang-following-reinstatement-says-some-things-you-just-dont-take-off-the-menu",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Oliver Haslam",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T21:00:00+00:00",
-      "summary": "Denny's, the diner where Jensen Huang came up with the idea for Nvidia, has posted a 200-word statement to X in which it expressed its delight at his return to Nvidia after he initially resigned and admitted to an affair with a suspected Chinese spy.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/black-friday-is-the-perfect-time-to-pick-up-a-new-3d-printer-these-are-the-best-deals-weve-spotted-so-far",
-      "title": "Black Friday is the perfect time to pick up a new 3D Printer",
-      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/black-friday-is-the-perfect-time-to-pick-up-a-new-3d-printer-these-are-the-best-deals-weve-spotted-so-far",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T19:30:00+00:00",
-      "summary": "Black Friday is the perfect time to find an amazing deal on a new 3D printer. Check out our favorite listings so far.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/the-best-black-friday-soldering-iron-deals-for-hobbyists-and-makers-right-now-limited-time-sale-discounts-on-digital-irons-premium-solder-and-heat-proof-accessories",
-      "title": "The best Black Friday soldering iron deals for hobbyists and makers right now",
-      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/the-best-black-friday-soldering-iron-deals-for-hobbyists-and-makers-right-now-limited-time-sale-discounts-on-digital-irons-premium-solder-and-heat-proof-accessories",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T18:30:00+00:00",
-      "summary": "Grab a new soldiering iron or accessories during this Black Friday sales week, with the best recommendations included here.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/two-californian-nvidia-ai-chip-customers-are-really-chinese-owned-companies-used-as-workaround-for-government-export-controls",
-      "title": "Two Californian Nvidia AI chip customers are really Chinese-owned",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/two-californian-nvidia-ai-chip-customers-are-really-chinese-owned-companies-used-as-workaround-for-government-export-controls",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Oliver Haslam",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T18:00:00+00:00",
-      "summary": "Nvidia sells its advanced AI chips to two Californian companies with links to Chinese parent companies, including one that has already been blacklisted. Nvidia is only allowed to sell to specific companies, with export controls intended to prevent these chips from falling into the wrong hands in China.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/essential-3d-printer-maintenance-tool-deals-for-black-friday-save-up-to-30-percent-on-precision-tools-lights-snips-and-more",
-      "title": "Essential 3D printer maintenance tool deals for Black Friday — save up to 30% on precision tools, lights, snips, and more",
-      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/essential-3d-printer-maintenance-tool-deals-for-black-friday-save-up-to-30-percent-on-precision-tools-lights-snips-and-more",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stewart Bendle",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T17:30:00+00:00",
-      "summary": "For the best 3D print results, there are always a few favorite tools to have on hand.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/credit-rating-agency-puts-nvidia-on-notice-for-possible-downgrade-s-and-p-global-ratings-says-board-members-may-have-compromised-their-independence",
-      "title": "Credit rating agency puts Nvidia on notice for possible downgrade",
-      "url": "https://www.tomshardware.com/tech-industry/credit-rating-agency-puts-nvidia-on-notice-for-possible-downgrade-s-and-p-global-ratings-says-board-members-may-have-compromised-their-independence",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T17:00:00+00:00",
-      "summary": "S&amp;P Global Ratings says that it could lower Nvidia's credit rating because of various risks that it faces, including the smuggling allegations and the fact the lack of succession planning for its CEO.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/13-tech-bargains-for-just-usd13-or-less-to-upgrade-your-pc-setup-must-own-gadgets-and-impulse-buys-to-solve-everyday-problems-from-network-switches-to-cleaning-kits",
-      "title": "13 tech bargains for only $13 or less to upgrade your desktop PC setup",
-      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/13-tech-bargains-for-just-usd13-or-less-to-upgrade-your-pc-setup-must-own-gadgets-and-impulse-buys-to-solve-everyday-problems-from-network-switches-to-cleaning-kits",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T16:30:00+00:00",
-      "summary": "Don't break the bank this Black Friday with these 13 tech gadgets and tools to help you upgrade your setup for less than $13.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/dram/electronics-manufacturers-set-up-memory-war-rooms-to-find-lock-in-dram-supplies-amid-worst-shortage-in-history-employees-scour-ebay-contact-hundreds-of-brokers-and-snap-up-even-small-batches-of-just-5-to-12-units",
-      "title": "Electronics manufacturers set up memory 'war rooms' to find, lock in DRAM supplies amid worst shortage in history",
-      "url": "https://www.tomshardware.com/pc-components/dram/electronics-manufacturers-set-up-memory-war-rooms-to-find-lock-in-dram-supplies-amid-worst-shortage-in-history-employees-scour-ebay-contact-hundreds-of-brokers-and-snap-up-even-small-batches-of-just-5-to-12-units",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T16:11:07+00:00",
-      "summary": "The memory chip shortage is forcing companies to find supplies using non-traditional avenues, such as online listings and the gray market. Some have even taken out loans just to have enough cash to buy chips as soon as they become available.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/photonics/inside-the-indium-phosphide-squeeze-and-the-optical-boom-inp-remains-tightly-constrained-as-the-demand-from-ai-puts-the-entire-supply-chain-under-pressure",
-      "title": "Exploring the Indium phosphide supply chain — the material constraint tightening the optical interconnect bottleneck",
-      "url": "https://www.tomshardware.com/tech-industry/photonics/inside-the-indium-phosphide-squeeze-and-the-optical-boom-inp-remains-tightly-constrained-as-the-demand-from-ai-puts-the-entire-supply-chain-under-pressure",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Etiido Uko",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T16:00:00+00:00",
-      "summary": "The AI industry's shift to optical interconnects is overwhelming the concentrated InP supply chain behind lasers, transceivers, and co-packaged optics.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/policy/nvidia-stops-ai-gpu-shipments-to-southeast-asia-report-claims-data-centers-in-singapore-other-countries-in-trouble-as-commerce-department-requires-cloud-providers-to-obtain-export-license",
-      "title": "Nvidia stops AI GPU shipments to Southeast Asia amid purported China cloud access ban, report claims",
-      "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-stops-ai-gpu-shipments-to-southeast-asia-report-claims-data-centers-in-singapore-other-countries-in-trouble-as-commerce-department-requires-cloud-providers-to-obtain-export-license",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jowi Morales",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T16:00:00+00:00",
-      "summary": "Data centers in Singapore, Malaysia, Thailand, and Indonesia are now required to obtain export licenses if they want to get their Nvidia AI GPUs delivered.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ssds/save-21-percent-on-this-ultra-fast-2tb-sandisk-optimus-gx-pro-8100-ssd-now-just-17-5-cents-per-gb-rebranded-sn8100-offers-gen-5-speeds-of-up-to-14-900-mb-s-at-a-record-low-price",
-      "title": "Save 21% on this ultra-fast 2TB SanDisk Optimus GX Pro 8100 SSD, now just 17.5 cents per GB",
-      "url": "https://www.tomshardware.com/pc-components/ssds/save-21-percent-on-this-ultra-fast-2tb-sandisk-optimus-gx-pro-8100-ssd-now-just-17-5-cents-per-gb-rebranded-sn8100-offers-gen-5-speeds-of-up-to-14-900-mb-s-at-a-record-low-price",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Ben Stockton",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T15:52:52+00:00",
-      "summary": "A huge discount on the Gen 5 2TB Sandisk Optimus GX Pro 8100, down to $349.99 right now.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/15-tech-gadgets-that-improved-my-tech-life-are-on-sale-for-less-than-usd50-black-friday-pricing-means-some-are-even-under-usd25",
-      "title": "15 tech gadgets that improved my tech life are on sale for less than $50",
-      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/15-tech-gadgets-that-improved-my-tech-life-are-on-sale-for-less-than-usd50-black-friday-pricing-means-some-are-even-under-usd25",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Matt Safford",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T15:45:16+00:00",
-      "summary": "From electric screwdrivers to high-res webcams, these are inexpensive game-changers.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/cooling/new-delidding-tool-helps-you-bake-your-cpu-in-the-oven-to-remove-heatspreader-delid-heat-mate-complements-delid-die-mate-reducing-mechanical-stress-on-the-cpu",
-      "title": "New delidding tool helps you bake your CPU in the oven to remove heatspreader",
-      "url": "https://www.tomshardware.com/pc-components/cooling/new-delidding-tool-helps-you-bake-your-cpu-in-the-oven-to-remove-heatspreader-delid-heat-mate-complements-delid-die-mate-reducing-mechanical-stress-on-the-cpu",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Jhet Borja",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T15:00:00+00:00",
-      "summary": "Thermal Grizzly just released a CNC-machined CPU delidding tool designed to be placed in an oven after the IHS is loosened.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/pc-components/ram/best-ram-memory-deals-ddr5-ddr4-2026",
-      "title": "Best Black Friday RAM deals 2026",
-      "url": "https://www.tomshardware.com/pc-components/ram/best-ram-memory-deals-ddr5-ddr4-2026",
-      "platform": "rss",
-      "source": {
-        "type": "rss",
-        "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zhiye Liu",
-        "feed_title": "Latest from Tom's Hardware"
-      },
-      "duration_sec": null,
-      "views": null,
-      "published_at": "2026-11-26T14:57:07+00:00",
-      "summary": "We're rounding up the best Black Friday RAM deals from retailers across the U.S. here.",
-      "lang": "en"
-    },
-    {
-      "id": "rss:https://www.tomshardware.com/tech-industry/drones/ukraine-downs-russian-jet-drone-with-cheap-high-powered-laser-for-the-first-time-super-fast-shahed-knocked-out-by-a-4-kilowatt-test-system",
-      "title": "Ukraine downs Russian jet-drone with cheap high-powered laser for the first time",
-      "url": "https://www.tomshardware.com/tech-industry/drones/ukraine-downs-russian-jet-drone-with-cheap-high-powered-laser-for-the-first-time-super-fast-shahed-knocked-out-by-a-4-kilowatt-test-system",
+      "id": "rss:https://www.tomshardware.com/peripherals/wearable-tech/hair-dye-that-turns-your-head-into-a-brain-computer-interface-ehair-coats-strands-in-conductive-polymers-to-amplify-eeg-signals-without-surgery",
+      "title": "Hair dye that turns your head into a brain-computer interface",
+      "url": "https://www.tomshardware.com/peripherals/wearable-tech/hair-dye-that-turns-your-head-into-a-brain-computer-interface-ehair-coats-strands-in-conductive-polymers-to-amplify-eeg-signals-without-surgery",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -770,65 +396,286 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-26T14:30:00+00:00",
-      "summary": "Ukraine has shot down a Russian jet-powered Shahed drone using an air defense laser for the first time.",
+      "published_at": "2026-11-28T11:00:00+00:00",
+      "summary": "eHAIR is claimed to transform hair 'from a barrier into a functional bioelectronic interface.'",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/networking/routers/best-wi-fi-router-deals-2026",
-      "title": "Best Black Friday Wi-Fi router deals 2026",
-      "url": "https://www.tomshardware.com/networking/routers/best-wi-fi-router-deals-2026",
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/thermaltakes-budget-rtx-5060-ti-gaming-desktops-are-as-little-as-usd1-299-choose-between-ddr4-and-ddr5-configurations-with-up-to-usd100-off",
+      "title": "Thermaltake’s budget RTX 5060 Ti gaming desktops are as little as $1,299",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/thermaltakes-budget-rtx-5060-ti-gaming-desktops-are-as-little-as-usd1-299-choose-between-ddr4-and-ddr5-configurations-with-up-to-usd100-off",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Brandon Hill",
+        "name": "Kunal Khullar",
         "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-26T14:23:51+00:00",
-      "summary": "Save big with one of these excellent Wi-Fi router Black Friday deals. We're constantly updating this list with the best deals across all retailers.",
+      "published_at": "2026-11-28T10:45:00+00:00",
+      "summary": "Both prebuilt gaming PCs come with Nvidia's RTX 5060 Ti 8GB graphics, 1TB of storage, RGB cooling, and an Intel AI software bundle, while also including a holiday bundle with two PC games.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/get-an-rtx-5060-gaming-pc-with-ddr5-for-just-usd1-141-intel-core-i5-14400f-build-is-one-of-the-most-solid-budget-options-weve-seen",
-      "title": "Get an RTX 5060 gaming PC with DDR5 for just $1,141",
-      "url": "https://www.tomshardware.com/desktops/gaming-pcs/get-an-rtx-5060-gaming-pc-with-ddr5-for-just-usd1-141-intel-core-i5-14400f-build-is-one-of-the-most-solid-budget-options-weve-seen",
+      "id": "rss:https://www.tomshardware.com/pc-components/corsairs-xeneon-edge-pc-touchscreen-is-usd50-off-in-all-colors-tiny-14-5-inch-under-monitor-display-is-just-usd200",
+      "title": "Corsair's Xeneon Edge PC touchscreen is $50 off in all colors",
+      "url": "https://www.tomshardware.com/pc-components/corsairs-xeneon-edge-pc-touchscreen-is-usd50-off-in-all-colors-tiny-14-5-inch-under-monitor-display-is-just-usd200",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Stephen Warwick",
+        "name": "Sarah Jacobsson Purewal",
         "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-26T14:19:17+00:00",
-      "summary": "Another great entry level PC in the Amazon Black Friday sale.",
+      "published_at": "2026-11-28T10:30:00+00:00",
+      "summary": "Corsair's 14.5-inch touchscreen is $50 off in all five colors for Black Friday.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/solo-developer-vibe-codes-a-gallery-hosting-36-classic-gpu-demos-preservation-effort-includes-3dfx-voodoo-showcases-from-1997-nvidia-bubble-and-more",
-      "title": "Solo developer vibe codes a gallery hosting 36 classic GPU demos",
-      "url": "https://www.tomshardware.com/video-games/retro-gaming/solo-developer-vibe-codes-a-gallery-hosting-36-classic-gpu-demos-preservation-effort-includes-3dfx-voodoo-showcases-from-1997-nvidia-bubble-and-more",
+      "id": "rss:https://www.tomshardware.com/speakers/onkyos-incredible-creator-series-desktop-pc-speakers-are-almost-50-percent-off-great-sound-and-plenty-of-connections",
+      "title": "Onkyo's incredible Creator Series desktop PC speakers are almost 50% off — great sound and plenty of connections",
+      "url": "https://www.tomshardware.com/speakers/onkyos-incredible-creator-series-desktop-pc-speakers-are-almost-50-percent-off-great-sound-and-plenty-of-connections",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Zak Killian",
+        "name": "Sarah Jacobsson Purewal",
         "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-26T14:00:00+00:00",
-      "summary": "A solo developer known as arkits has created an online gallery to view classic 3D graphics demos live in the browser.",
+      "published_at": "2026-11-28T10:00:00+00:00",
+      "summary": "Both Onkyo's Creator GX-10DB and Creator GX-30ARC desktop speakers are on a pretty decent sale at Amazon for Black Friday.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/lowest-cpu-prices-2026",
-      "title": "CPU Price Index 2026",
-      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/lowest-cpu-prices-2026",
+      "id": "rss:https://www.tomshardware.com/live/news/best-black-friday-3d-printer-deals-day-two",
+      "title": "Best Black Friday 2026 3D Printer deals live",
+      "url": "https://www.tomshardware.com/live/news/best-black-friday-3d-printer-deals-day-two",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "The Editors of Tom&#039;s Hardware",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-28T08:22:48+00:00",
+      "summary": "The best Black Friday 3D printer deals that you can still buy this weekend.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/live/news/best-black-friday-gaming-laptop-deals-day-two",
+      "title": "Best Black Friday Gaming laptop deals live",
+      "url": "https://www.tomshardware.com/live/news/best-black-friday-gaming-laptop-deals-day-two",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "The Editors of Tom&#039;s Hardware",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-28T08:01:57+00:00",
+      "summary": "The best Black Friday gaming laptops still live this weekend.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/live/news/black-friday-gaming-pc-deals-2026-day-two",
+      "title": "Best Black Friday Gaming PC Deals live",
+      "url": "https://www.tomshardware.com/live/news/black-friday-gaming-pc-deals-2026-day-two",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "The Editors of Tom&#039;s Hardware",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-28T07:42:15+00:00",
+      "summary": "All the best Black Friday gaming PC deals you can still buy this weekend.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/live/news/black-friday-2026-day-four",
+      "title": "Best Black Friday 2026 tech deals live",
+      "url": "https://www.tomshardware.com/live/news/black-friday-2026-day-four",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "The Editors of Tom&#039;s Hardware",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-28T07:20:57+00:00",
+      "summary": "All the best Black Friday deals for tech and PC hardware you can still buy this weekend.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/this-lenovo-loq-notebook-with-arc-b390-graphics-is-just-usd799-this-black-friday-get-a-gaming-ready-panther-lake-laptop-for-a-super-low-price",
+      "title": "This Lenovo LOQ notebook with Arc B390 graphics is just $799 this Black Friday",
+      "url": "https://www.tomshardware.com/laptops/gaming-laptops/this-lenovo-loq-notebook-with-arc-b390-graphics-is-just-usd799-this-black-friday-get-a-gaming-ready-panther-lake-laptop-for-a-super-low-price",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jeffrey Kampman",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T23:33:28+00:00",
+      "summary": "Good cheap gaming notebooks are hard to find this Black Friday, but Lenovo's LOQ laptop with Arc B390 graphics gets you there for just $799.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/get-a-perfect-alienware-4k-oled-32-display-with-rgb-subpixels-for-usd150-off-165-hz-refresh-rate-1000-nits-hdr-and-dolby-vision-support-with-the-aw3226q",
+      "title": "Get a perfect Alienware 4K OLED 32\" display with RGB subpixels for $150 off",
+      "url": "https://www.tomshardware.com/pc-components/get-a-perfect-alienware-4k-oled-32-display-with-rgb-subpixels-for-usd150-off-165-hz-refresh-rate-1000-nits-hdr-and-dolby-vision-support-with-the-aw3226q",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T23:10:19+00:00",
+      "summary": "Get a perfect Alienware AW3226Q 4K OLED 32\" display with RGB subpixels for $549.99, or $150 off — 165 Hz refresh rate, 1000-nits HDR, and Dolby Vision support",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/sandisks-lightning-fast-optimus-gx-pro-8100-2tb-nvme-ssd-is-21-percent-off-and-usd0-18-cents-per-gb-usd349-for-a-pcie-5-0-m-2-ssd-is-about-as-good-as-it-gets-for-black-friday",
+      "title": "SanDisk’s lightning-fast Optimus GX Pro 8100 2TB NVMe SSD is 21% off and $0.18 cents per GB",
+      "url": "https://www.tomshardware.com/pc-components/sandisks-lightning-fast-optimus-gx-pro-8100-2tb-nvme-ssd-is-21-percent-off-and-usd0-18-cents-per-gb-usd349-for-a-pcie-5-0-m-2-ssd-is-about-as-good-as-it-gets-for-black-friday",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T22:19:56+00:00",
+      "summary": "2TB SanDisk Optimus GX Pro 8100 PCIe 5.0 SSD is down to an all-time low of $349, making it one of the cheapest 2TB Gen5 drives around.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/live/news/black-friday-2026-monitor-deals-oled-4k-gaming",
+      "title": "Black Friday 2026 gaming monitor deals live",
+      "url": "https://www.tomshardware.com/live/news/black-friday-2026-monitor-deals-oled-4k-gaming",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "The Editors of Tom&#039;s Hardware",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T21:49:59+00:00",
+      "summary": "The best Black Friday monitor sales, live round-the-clock coverage of all the best deals.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/cpus/amds-ultimate-ryzen-9-9950x3d2-cpu-is-down-to-its-lowest-price-with-usd140-savings-single-cache-ryzen-9-9950x3d-is-also-on-a-deep-usd115-discount",
+      "title": "AMD's ultimate Ryzen 9 9950X3D2 CPU is down to its lowest price with $140 savings",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amds-ultimate-ryzen-9-9950x3d2-cpu-is-down-to-its-lowest-price-with-usd140-savings-single-cache-ryzen-9-9950x3d-is-also-on-a-deep-usd115-discount",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jake Roach",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T21:29:33+00:00",
+      "summary": "Grab AMD's most powerful CPUs, the Ryzen 9 9950X3D2 or 9950X3D, at all-time-low prices during Black Friday.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/samsungs-49-inch-oled-gaming-monitor-returns-to-its-lowest-price-ever-at-amazon-take-your-gpu-on-an-ultrawide-odyssey-for-usd854",
+      "title": "Samsung's 49-inch OLED gaming monitor drops to a new low price of $854",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/samsungs-49-inch-oled-gaming-monitor-returns-to-its-lowest-price-ever-at-amazon-take-your-gpu-on-an-ultrawide-odyssey-for-usd854",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Matt Safford",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T21:06:27+00:00",
+      "summary": "Amazon is offering the Samsung Odyssey G9 G93SC at a price of $854, a new all-time low. The gaming monitor often sells for above $1,20",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/protect-your-pc-console-or-tv-with-a-cyberpower-st900u-ups-for-just-usd99-95-or-17-percent-off-a-complement-of-12-outlets-available-with-surge-protection",
+      "title": "Protect your PC, console, or TV with a CyberPower ST900U UPS for just $99.95, or 17% off",
+      "url": "https://www.tomshardware.com/pc-components/protect-your-pc-console-or-tv-with-a-cyberpower-st900u-ups-for-just-usd99-95-or-17-percent-off-a-complement-of-12-outlets-available-with-surge-protection",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T20:30:00+00:00",
+      "summary": "Protect your PC, console, or TV with a CyberPower ST900U UPS for just $99.95, or 20% off — a complement of 12 outlets available with surge protection",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/get-a-sony-wh-1000-mx5-headset-with-anc-for-only-usd169-99-aural-bliss-for-your-games-and-movies",
+      "title": "Get a Sony WH-1000 XM5 headset with ANC for only $169.99 — aural bliss for your games and movies",
+      "url": "https://www.tomshardware.com/pc-components/get-a-sony-wh-1000-mx5-headset-with-anc-for-only-usd169-99-aural-bliss-for-your-games-and-movies",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T19:49:01+00:00",
+      "summary": "Get a Sony WH-1000 XM5 headset with ANC for only $169.99 — aural bliss for your games and movies",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/get-the-cheapest-rtx-5070-around-this-black-friday-with-gigabytes-usd839-gaming-oc-card-midrange-blackwell-continues-to-shine-with-dlss-4-5-and-dlss-5",
+      "title": "Get the cheapest RTX 5070 around this Black Friday with Gigabyte's $839 Gaming OC card",
+      "url": "https://www.tomshardware.com/pc-components/gpus/get-the-cheapest-rtx-5070-around-this-black-friday-with-gigabytes-usd839-gaming-oc-card-midrange-blackwell-continues-to-shine-with-dlss-4-5-and-dlss-5",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Jeffrey Kampman",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T19:38:08+00:00",
+      "summary": "Looking for a midrange RTX 50-series upgrade this Black Friday? The Gigabyte Gaming RTX 5070 gets you a big cooler and RGB flair for the lowest price we've seen this week.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/ssds/this-silicon-power-ssd-is-selling-for-a-stunning-10-cents-per-gb-at-only-usd209-this-is-the-best-2tb-ssd-deal-on-newegg",
+      "title": "This Silicon Power SSD is selling for a stunning 10 cents per GB — at only $209, this is the best 2TB SSD deal on Newegg",
+      "url": "https://www.tomshardware.com/pc-components/ssds/this-silicon-power-ssd-is-selling-for-a-stunning-10-cents-per-gb-at-only-usd209-this-is-the-best-2tb-ssd-deal-on-newegg",
       "platform": "rss",
       "source": {
         "type": "rss",
@@ -838,42 +685,195 @@
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-26T13:57:19+00:00",
-      "summary": "In our CPU price index, we find the lowest prices on the most popular CPUs so you don't have to.",
+      "published_at": "2026-11-27T19:35:21+00:00",
+      "summary": "Grab 2TB of storage for 10 cents per GB at Newegg. Silicon Power's P34A60 is one of the best-value SSD deals during the Black Friday sales.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/tech-industry/artificial-intelligence/new-york-governor-kathy-hochul-signs-ban-on-ai-chatbot-toys-backed-by-usd15-000-daily-fines-takes-effect-in-90-days-after-holiday-rush",
-      "title": "New York Governor Kathy Hochul signs ban on AI chatbot toys backed by $15,000 daily fines",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/new-york-governor-kathy-hochul-signs-ban-on-ai-chatbot-toys-backed-by-usd15-000-daily-fines-takes-effect-in-90-days-after-holiday-rush",
+      "id": "rss:https://www.tomshardware.com/pc-components/get-a-29-percent-discount-on-the-280-000-rpm-miaepic-z3-electric-air-duster-keeping-your-pc-clean-doesnt-have-to-be-pricey",
+      "title": "Get a 29% discount on the 280,000-RPM MiaEpic Z3 electric air duster",
+      "url": "https://www.tomshardware.com/pc-components/get-a-29-percent-discount-on-the-280-000-rpm-miaepic-z3-electric-air-duster-keeping-your-pc-clean-doesnt-have-to-be-pricey",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Oliver Haslam",
+        "name": "Jowi Morales",
         "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-26T13:30:00+00:00",
-      "summary": "New York Governor Kathy Hochul has signed a bill that effectively bans the sale of toys with built-in AI chatbots within the state over concerns about what they might say to kids.",
+      "published_at": "2026-11-27T19:20:00+00:00",
+      "summary": "The MiaEpic Z3 electric air duster comes with four nozzles and two brush attachments, allowing you to use it for your PC, accessories, and other things around the house. It also has a massive battery and digital display, helping you keep track of its battery levels, so you never run out of power.",
       "lang": "en"
     },
     {
-      "id": "rss:https://www.tomshardware.com/tech-industry/big-tech/us-defense-officials-considered-using-cold-war-law-to-force-nvidia-to-reinstate-jensen-huang-as-ceo-following-his-resignation-report-claims-1950-defense-production-act-was-floated-as-solution-to-president-trump",
-      "title": "US defense officials considered using Cold War law to force Nvidia to reinstate Jensen Huang as CEO following his resignation, report claims",
-      "url": "https://www.tomshardware.com/tech-industry/big-tech/us-defense-officials-considered-using-cold-war-law-to-force-nvidia-to-reinstate-jensen-huang-as-ceo-following-his-resignation-report-claims-1950-defense-production-act-was-floated-as-solution-to-president-trump",
+      "id": "rss:https://www.tomshardware.com/gift-guides-seasonal-sales/best-pc-building-tool-deals-screwdrivers-blowers",
+      "title": "Best Black Friday deals on tools for building PCs",
+      "url": "https://www.tomshardware.com/gift-guides-seasonal-sales/best-pc-building-tool-deals-screwdrivers-blowers",
       "platform": "rss",
       "source": {
         "type": "rss",
         "id": "https://www.tomshardware.com/feeds/all",
-        "name": "Oliver Haslam",
+        "name": "Les Pounder",
         "feed_title": "Latest from Tom's Hardware"
       },
       "duration_sec": null,
       "views": null,
-      "published_at": "2026-11-26T13:17:31+00:00",
-      "summary": "Pentagon leaders considered using the Cold War-era Defense Production Act to pressure Nvidia to reinstate founder Jensen Huang as CEO following his resignation over an affair with a suspected Chinese spy, with",
+      "published_at": "2026-11-27T18:48:17+00:00",
+      "summary": "We've scoured the internet and found the best Black Friday deals on tools.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/video-games/retro-gaming/here-are-the-best-retro-tech-deals-weve-found-for-black-friday-deals-on-retro-tech-for-the-modern-pc-setup",
+      "title": "Here are the best retro tech deals we've found for Black Friday",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/here-are-the-best-retro-tech-deals-weve-found-for-black-friday-deals-on-retro-tech-for-the-modern-pc-setup",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Les Pounder",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T18:30:12+00:00",
+      "summary": "Retro tech is cool, and we've scoured the internet for the best deals on nostalgic technology.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/get-a-staggering-usd1-400-off-an-rtx-5070-powered-hp-omen-35l-gaming-desktop-sporting-an-intel-core-ultra-7-cpu-and-32gb-of-ddr5-at-38-percent-discount-this-performant-mid-tower-prebuilt-pc-packs-a-punch",
+      "title": "Get 38% off an RTX 5070-powered HP Omen 35L gaming desktop sporting an Intel Core Ultra 7 CPU and 32GB of DDR5",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/get-a-staggering-usd1-400-off-an-rtx-5070-powered-hp-omen-35l-gaming-desktop-sporting-an-intel-core-ultra-7-cpu-and-32gb-of-ddr5-at-38-percent-discount-this-performant-mid-tower-prebuilt-pc-packs-a-punch",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sayem Ahmed",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T18:20:00+00:00",
+      "summary": "TKTK",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/tons-of-motherboards-are-on-sale-right-now-some-over-40-percent-off-we-sorted-through-them-for-you-and-picked-out-a-few-of-the-best-deals",
+      "title": "Tons of motherboards are on sale right now, some over 40% off – we sorted through them for you and picked out a few of the best deals",
+      "url": "https://www.tomshardware.com/pc-components/tons-of-motherboards-are-on-sale-right-now-some-over-40-percent-off-we-sorted-through-them-for-you-and-picked-out-a-few-of-the-best-deals",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Joe Shields",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T18:00:00+00:00",
+      "summary": "We collated all of the motherboards down to these few which offer the some of the best combinations of hardware and cost during Black Friday",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/desktops/gaming-pcs/ibuypowers-black-friday-offers-net-you-usd650-off-powerful-rtx-5080-prebuilt-pc-stackable-offer-code-can-net-you-a-bargain-bundle-with-a-free-monitor-and-peripherals",
+      "title": "iBuyPower’s Black Friday offers net you $650 off powerful RTX 5080 prebuilt PC",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/ibuypowers-black-friday-offers-net-you-usd650-off-powerful-rtx-5080-prebuilt-pc-stackable-offer-code-can-net-you-a-bargain-bundle-with-a-free-monitor-and-peripherals",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sayem Ahmed",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T17:30:00+00:00",
+      "summary": "Prebuilt PC extraordinaires iBuyPower is having a huge Black Friday sale across a whole range of products, including a powerful bundle on an all-AMD Ryzen 9 7800X3D / RX 9070 XT build, which will also net you free bundled extras, including a set of Asus peripherals and a 144Hz FHD MSI gaming monitor, and a total of $650 off an RTX 5080 gaming PC",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/laptops/gaming-laptops/the-hyperx-omen-max-16-gaming-laptop-with-a-rtx-5090-and-a-core-i9-ultra-can-be-yours-for-an-amazing-usd1-200-off-highest-end-gear-for-26-percent-off-less-than-a-comparable-desktop-pc",
+      "title": "The HyperX Omen Max 16 laptop with a RTX 5090 and a Core i9 Ultra can be yours for amazing $1,200 off",
+      "url": "https://www.tomshardware.com/laptops/gaming-laptops/the-hyperx-omen-max-16-gaming-laptop-with-a-rtx-5090-and-a-core-i9-ultra-can-be-yours-for-an-amazing-usd1-200-off-highest-end-gear-for-26-percent-off-less-than-a-comparable-desktop-pc",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Bruno Ferreira",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T17:20:00+00:00",
+      "summary": "The HyperX Omen Max 16 laptop with a RTX 5090 and a Core i9 Ultra can be yours for just $3,799 — highest-end gear for less price than a comparable desktop",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/tech-industry/manufacturing/chinas-ai-hardware-push-is-moving-beyond-gpus-to-the-pcbs-underneath-them-beijing-races-to-corner-the-market-on-copper-foil-and-micro-drill-bits-as-board-complexity-explodes",
+      "title": "China’s AI hardware push is moving beyond GPUs to the PCBs underneath them — Beijing races to corner the market on copper foil and micro-drill bits as board complexity explodes",
+      "url": "https://www.tomshardware.com/tech-industry/manufacturing/chinas-ai-hardware-push-is-moving-beyond-gpus-to-the-pcbs-underneath-them-beijing-races-to-corner-the-market-on-copper-foil-and-micro-drill-bits-as-board-complexity-explodes",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Chris Stokel-Walker",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T17:00:00+00:00",
+      "summary": "AI hardware bottlenecks are expanding beyond GPUs to the PCBs underneath them. As AI servers like Rubin Ultra push PCB layers toward 78 layers using denser laminates, drill bits are wearing out 10 times faster than normal, while high-speed signalling stretches the demand for smooth copper foil.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/monitors/gaming-monitors/best-gaming-monitor-deals-oled",
+      "title": "Best Black Friday gaming monitor deals 2026",
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/best-gaming-monitor-deals-oled",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Stewart Bendle",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T16:59:53+00:00",
+      "summary": "Save big with one of these great Black Friday monitor deals. We’re hard at work updating this list with the best deals across all your favorite big tech retailers.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/pc-components/gpus/this-usd619-powercolor-radeon-rx-9070-gre-is-the-cheapest-around-this-black-friday-grab-a-great-1080p-or-1440p-gaming-upgrade-for-a-great-price",
+      "title": "This $619 PowerColor Radeon RX 9070 GRE is the cheapest around this Black Friday",
+      "url": "https://www.tomshardware.com/pc-components/gpus/this-usd619-powercolor-radeon-rx-9070-gre-is-the-cheapest-around-this-black-friday-grab-a-great-1080p-or-1440p-gaming-upgrade-for-a-great-price",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Anj Bryant",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T16:41:32+00:00",
+      "summary": "PowerColor's Radeon RX 9070 GRE is just $619 at Amazon this Black Friday — a rare midrange gaming GPU deal in today's tough market.",
+      "lang": "en"
+    },
+    {
+      "id": "rss:https://www.tomshardware.com/peripherals/gaming-mice/these-are-the-best-black-friday-gaming-mouse-deals-weve-found-so-far-even-the-newer-generations-are-on-sale",
+      "title": "These are the best Black Friday gaming mouse deals we've found so far",
+      "url": "https://www.tomshardware.com/peripherals/gaming-mice/these-are-the-best-black-friday-gaming-mouse-deals-weve-found-so-far-even-the-newer-generations-are-on-sale",
+      "platform": "rss",
+      "source": {
+        "type": "rss",
+        "id": "https://www.tomshardware.com/feeds/all",
+        "name": "Sarah Jacobsson Purewal",
+        "feed_title": "Latest from Tom's Hardware"
+      },
+      "duration_sec": null,
+      "views": null,
+      "published_at": "2026-11-27T16:40:42+00:00",
+      "summary": "We've rounded up the best Black Friday deals on gaming mice for every type of gamer — whether you're looking for ultra-lightweight, tons of buttons, or even modular mice, we've got you covered.",
       "lang": "en"
     },
     {
@@ -926,8 +926,8 @@
         "hn_url": "https://news.ycombinator.com/item?id=50611576"
       },
       "duration_sec": null,
-      "views": 2851,
-      "comments": 3828,
+      "views": 2860,
+      "comments": 3832,
       "published_at": "2026-11-23T14:00:18+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -948,25 +948,6 @@
       "views": 1714,
       "comments": 4,
       "published_at": "2026-11-23T14:01:23+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50493251",
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50493251",
-        "name": "speckx",
-        "hn_url": "https://news.ycombinator.com/item?id=50493251"
-      },
-      "duration_sec": null,
-      "views": 1117,
-      "comments": 652,
-      "published_at": "2026-11-14T02:52:59+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1003,7 +984,7 @@
       },
       "duration_sec": null,
       "views": 486,
-      "comments": 590,
+      "comments": 592,
       "published_at": "2026-11-15T23:55:55+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
@@ -1029,25 +1010,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50487864",
-      "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
-      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50487864",
-        "name": "crescit_eundo",
-        "hn_url": "https://news.ycombinator.com/item?id=50487864"
-      },
-      "duration_sec": null,
-      "views": 387,
-      "comments": 216,
-      "published_at": "2026-11-13T18:40:44+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:50638503",
       "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
       "url": "https://gpu-demo-gallery.pages.dev/",
@@ -1059,7 +1021,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=50638503"
       },
       "duration_sec": null,
-      "views": 355,
+      "views": 356,
       "comments": 80,
       "published_at": "2026-11-25T04:31:48+00:00",
       "summary": "",
@@ -1119,25 +1081,6 @@
       "views": 291,
       "comments": 262,
       "published_at": "2026-11-16T15:24:09+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50492993",
-      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50492993",
-        "name": "LopRabbit",
-        "hn_url": "https://news.ycombinator.com/item?id=50492993"
-      },
-      "duration_sec": null,
-      "views": 218,
-      "comments": 58,
-      "published_at": "2026-11-14T02:21:36+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1211,28 +1154,9 @@
         "hn_url": "https://news.ycombinator.com/item?id=50630245"
       },
       "duration_sec": null,
-      "views": 129,
+      "views": 130,
       "comments": 68,
       "published_at": "2026-11-24T16:08:29+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50483391",
-      "title": "The Downfall of Jensen Huang: Nvidia's Greed and Corruption [video]",
-      "url": "https://www.youtube.com/watch?v=YYU_geUwQoA",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50483391",
-        "name": "belst",
-        "hn_url": "https://news.ycombinator.com/item?id=50483391"
-      },
-      "duration_sec": null,
-      "views": 81,
-      "comments": 13,
-      "published_at": "2026-11-13T13:45:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1257,25 +1181,6 @@
       "lang": "en"
     },
     {
-      "id": "hn:50486489",
-      "title": "Arm boss Rene Haas approached in Nvidia CEO search",
-      "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50486489",
-        "name": "bazzmt",
-        "hn_url": "https://news.ycombinator.com/item?id=50486489"
-      },
-      "duration_sec": null,
-      "views": 66,
-      "comments": 82,
-      "published_at": "2026-11-13T17:10:33+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
       "id": "hn:50538942",
       "title": "Nvidia Chair Harvey Jones says board doesn't intend to reinstate Huang as CEO",
       "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
@@ -1295,20 +1200,20 @@
       "lang": "en"
     },
     {
-      "id": "hn:50491690",
-      "title": "An open letter to the Nvidia Board of Directors",
-      "url": "https://standwithjensen.com/",
+      "id": "hn:50629620",
+      "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
+      "url": "https://www.reuters.com/legal/transactional/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-2026-11-24/",
       "platform": "hackernews",
       "source": {
         "type": "hackernews",
-        "id": "50491690",
-        "name": "iLuddite",
-        "hn_url": "https://news.ycombinator.com/item?id=50491690"
+        "id": "50629620",
+        "name": "onemoresoop",
+        "hn_url": "https://news.ycombinator.com/item?id=50629620"
       },
       "duration_sec": null,
-      "views": 51,
-      "comments": 45,
-      "published_at": "2026-11-13T23:34:06+00:00",
+      "views": 44,
+      "comments": 19,
+      "published_at": "2026-11-24T15:28:23+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1326,27 +1231,8 @@
       },
       "duration_sec": null,
       "views": 43,
-      "comments": 37,
+      "comments": 39,
       "published_at": "2026-11-26T20:39:05+00:00",
-      "summary": "",
-      "matched_keyword": "Nvidia",
-      "lang": "en"
-    },
-    {
-      "id": "hn:50629620",
-      "title": "Nvidia board's Huang reversal raises doubts about independence, critics say",
-      "url": "https://www.reuters.com/legal/transactional/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-2026-11-24/",
-      "platform": "hackernews",
-      "source": {
-        "type": "hackernews",
-        "id": "50629620",
-        "name": "onemoresoop",
-        "hn_url": "https://news.ycombinator.com/item?id=50629620"
-      },
-      "duration_sec": null,
-      "views": 43,
-      "comments": 19,
-      "published_at": "2026-11-24T15:28:23+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
@@ -1594,6 +1480,101 @@
       "views": 26,
       "comments": 2,
       "published_at": "2026-11-20T06:33:34+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50625602",
+      "title": "Nvidia CEO Jensen Huang Disclosed More Affairs to Board Before Reinstatement",
+      "url": "https://www.forbes.com/sites/siladityaray/2026/11/24/nvidia-ceo-jensen-huang-disclosed-more-affairs-to-board-before-reinstatement-report-says/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50625602",
+        "name": "TrackerFF",
+        "hn_url": "https://news.ycombinator.com/item?id=50625602"
+      },
+      "duration_sec": null,
+      "views": 23,
+      "comments": 11,
+      "published_at": "2026-11-24T08:59:17+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50526156",
+      "title": "Nvidia rules out Jensen Huang comeback as campaign for his return grows",
+      "url": "https://www.reuters.com/legal/transactional/silicon-valley-leaders-back-call-jensen-huangs-return-nvidia-2026-11-16/",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50526156",
+        "name": "A_D_E_P_T",
+        "hn_url": "https://news.ycombinator.com/item?id=50526156"
+      },
+      "duration_sec": null,
+      "views": 22,
+      "comments": 1,
+      "published_at": "2026-11-17T01:19:16+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50623021",
+      "title": "Trump made up to $15M on Nvidia shares after Huang's return",
+      "url": "https://www.ft.com/content/67b0a070-c2a9-4229-885a-383cca657763",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50623021",
+        "name": "JumpCrisscross",
+        "hn_url": "https://news.ycombinator.com/item?id=50623021"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 3,
+      "published_at": "2026-11-24T02:56:44+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50650099",
+      "title": "Nvidia Replaces Enron On S&P 500 (2001)",
+      "url": "https://www.gamedeveloper.com/game-platforms/nvidia-replaces-enron-on-s-p-500",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50650099",
+        "name": "_DeadFred_",
+        "hn_url": "https://news.ycombinator.com/item?id=50650099"
+      },
+      "duration_sec": null,
+      "views": 21,
+      "comments": 0,
+      "published_at": "2026-11-26T01:13:36+00:00",
+      "summary": "",
+      "matched_keyword": "Nvidia",
+      "lang": "en"
+    },
+    {
+      "id": "hn:50668828",
+      "title": "Nvidia CEO's comeback fuels debate on misogyny or impunity for rich and powerful",
+      "url": "https://www.pbs.org/newshour/nation/nvidia-ceos-comeback-fuels-debate-over-misogyny-and-impunity-for-the-rich-and-powerful",
+      "platform": "hackernews",
+      "source": {
+        "type": "hackernews",
+        "id": "50668828",
+        "name": "Betelbuddy",
+        "hn_url": "https://news.ycombinator.com/item?id=50668828"
+      },
+      "duration_sec": null,
+      "views": 20,
+      "comments": 28,
+      "published_at": "2026-11-27T16:43:06+00:00",
       "summary": "",
       "matched_keyword": "Nvidia",
       "lang": "en"
